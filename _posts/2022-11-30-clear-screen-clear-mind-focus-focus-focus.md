@@ -5,7 +5,7 @@ permalink: /blog/clear-screen-clear-mind-focus-focus-focus/
 headline: "Discovering Linux: Striving to Reduce Noise and Focus on What Sparks Joy"
 description: I am writing a Linux install script for Windows 10 or 11 users, and taking the time to reboot my system each morning to focus on what sparks joy, motivation and momentum. I am also striving to reduce surface area, factors, variables and general noise. I am passionate about Linux and its many features, such as security, flexibility, and scalability, making it a great choice for a variety of applications.
 keywords: Linux, Windows 10, Windows 11, Reboot, Focus, Joy, Motivation, Momentum, Noise, Features, Security, Flexibility, Scalability, Online Courses, Reading Resources, Forums, Repos, SimpleNotes, Open Source, Operating System, Community, Developers, Users, Stability, Customizability, Hardware, GNU, GNU Linux, GNU Project, GNU Public License
-categories: open source, hardware, windows 10, windows 11, focus, linux
+categories: windows 10, windows 11, focus, linux, open source, hardware
 layout: post
 ---
 
@@ -218,9 +218,9 @@ distribute the software.
 ## Categories
 
 <ul>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/focus/'>Focus</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li></ul>

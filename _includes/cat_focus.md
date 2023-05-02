@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a> (Tue May 02, 2023)
+<br/>I recently had an interesting discussion with my kid about the importance of being in the zone and not thinking about being in the zone. We discussed how it's important to know the difference between being in the zone and getting into a 'meta' state, which can derail your groove and prevent you from doing something well.</li>
 <li><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a> (Mon Feb 20, 2023)
 <br/>I'm setting out to make a positive difference in my life and the lives of others today. My goals for the day include completing paperwork for my upcoming job, creating a new website, and organizing my home. I'm also taking care of my leopard gecko and staying engaged. My motivation is to make sure my child has a good experience in life and to help others feel good about life. I'm starting with the living room to make it a special place for my family.</li>
 <li><a href="/blog/hey-ai-give-me-credit-consent-compensation/">Hey AI: Give Me Credit, Consent & Compensation</a> (Thu Feb 09, 2023)
@@ -16,4 +18,4 @@
 <li><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a> (Fri May 06, 2022)
 <br/>For the past 15 years, I've been struggling to get into the flow while working in a cubicle. But thanks to the Covid-19 lockdown, I've been able to re-achieve this state of productivity and focus -- just like in the Disney Pixar movie Soul. Working from home has allowed me to block out distractions and become more productive, and I'm exploring the concept of "feeding the love-worthiness of things". Read my blog post to learn more about my journey!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/message/">Message</a></div><div class="post-nav-next"><a href="/2022/">2022</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google photos/">Google Photos</a></div><div class="post-nav-next"><a href="/change/">Changes</a><span class="arrow">&nbsp;&rarr;</span></div></div>

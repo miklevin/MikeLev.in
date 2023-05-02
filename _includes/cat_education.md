@@ -12,4 +12,4 @@
 <li><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a> (Sat Jun 18, 2022)
 <br/>Yesterday was a difficult day, but I'm determined to move forward. I'm rewriting my content management system and conditioning my mind to be kind and gentle. I'm supplementing my income while getting closer to my child, and using various tools to debug and fix a problem with a script. I wrote a program to create websites with Python and I'm using the blogslicer program to create blogs for multiple websites. I'm proud of the results of my task of fixing a bug and improving the output</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/mlseo/">mlseo</a></div><div class="post-nav-next"><a href="/internet/">Internet</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/flow/">Flow</a></div><div class="post-nav-next"><a href="/internet/">Internet</a><span class="arrow">&nbsp;&rarr;</span></div></div>

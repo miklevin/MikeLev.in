@@ -5,7 +5,7 @@ permalink: /blog/the-importance-of-digital-housekeeping/
 headline: Uncovering the Benefits of Digital Housekeeping for Stress Reduction and Increased Happiness
 description: I'm trying to get my mlseo project up and running, and I recently had a discussion with my wife about the importance of digital housekeeping. I'm taking steps to reduce daily stress and increase happiness, like creating a github folder, deleting unnecessary items, and taking advantage of AeroSnap. I'm also trying to upgrade my JupyterLab and wondering if the desktop version will be upgraded too. I'm currently on Jupyter 3.3.2-2, but
 keywords: Digital Housekeeping, Stress Reduction, Happiness, Github, Deleting Items, AeroSnap, JupyterLab, Upgrade, Jupyter, nbdev, Jekyll, Templating, Home Directory, Start Menu, Taskbar, 10_I, pip, mistune, websockets, git commit, Requirements
-categories: jekyll, github, jupyterlab, nbdev, jupyter
+categories: jupyterlab, jupyter, nbdev, jekyll, github
 layout: post
 ---
 
@@ -96,8 +96,8 @@ The 2 upgrades that have been held back for compatibility reasons are:
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

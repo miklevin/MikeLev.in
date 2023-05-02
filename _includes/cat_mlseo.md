@@ -14,4 +14,4 @@
 <li><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a> (Wed Feb 16, 2022)
 <br/>I'm using mlseo as a pip installable module to get the process of making packages into my fingers. I'm creating a package called mlseo which will include my latest techniques for pulling data from Google Analytics and Search Console. I'm setting up the settings.ini file and extracting the packages, and I'm following the nbdev instructions to install and create a Github personal access token. Come follow my journey and learn how to set up your own mlseo package!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/virtualenv/">Virtualenv</a></div><div class="post-nav-next"><a href="/education/">Education</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/virtualenv/">Virtualenv</a></div><div class="post-nav-next"><a href="/game/">Game</a><span class="arrow">&nbsp;&rarr;</span></div></div>
