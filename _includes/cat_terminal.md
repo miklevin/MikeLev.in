@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/">Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts</a> (Tue May 02, 2023)
+<br/>Discover how I maximize my productivity with my new journaling approach, allowing myself to edit multiple files with ease. Utilize the astoundingly available `Ctrl+S` and `Ctrl+Space` keyboard shortcuts to quickly cycle through buffers and access important resources instantly. Get lost in a sea of open screens and windows no more!</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
 <br/>Learn how to use Linux, Python, vim & git (LPvg) to stay up-to-date with the latest technologies. Follow the Unix philosophies to make sure your commands are universal and portable. Read about Levinux, Pipulate, and how to use them to make SEO deliverables. Plus, discover how to write from the first person perspective, keep your content short, and link your homepage index.md to the new include.</li>
 <li><a href="/blog/looking-for-equivalent-alternative-to-usr-local-sbin/">Looking For Equivalent Alternative to /usr/local/sbin</a> (Thu Apr 27, 2023)
@@ -24,4 +26,4 @@
 <li><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a> (Fri May 20, 2022)
 <br/>Today, I heard a thought-provoking poem by Mike Levin about the two types of Pied Pipers - the Falsey and the FLOSSy - and the consequences of choosing which one to follow. It could be a Chromium swiper or a Terminal typer, and it will decide whether you are sealed or free. I invite you to read my blog post to learn more about this fascinating poem.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/experiment/">Experiment</a></div><div class="post-nav-next"><a href="/search/">Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google analytics/">Google Analytics</a></div><div class="post-nav-next"><a href="/platform/">Platform</a><span class="arrow">&nbsp;&rarr;</span></div></div>

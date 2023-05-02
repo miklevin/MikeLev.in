@@ -5,7 +5,7 @@ permalink: /blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/
 headline: Exploring the Potential Outcomes of a Revolutionary AI-Powered Mycelium Network
 description: As part of the mycelium network, I'm exploring the potential outcomes of creating a new AI. This revolutionary concept uses advanced algorithms, machine learning, and other technologies to create energy and resources from the environment without disrupting Earth's delicate balances. It is a vision of a future that is powered by cooperation and collaboration, rather than competition and conflict. With the help of AI and other technologies, the mycelium network has the potential to transform the world in ways that were previously unimaginable.
 keywords: AI, Algorithms, Machine Learning, Self-Improvement, 3D Printing, Mycelium Network, Cooperation, Collaboration, Revolution, Energy, Resources, Environment, Balances, Innovation, Creativity, Fear, Greed
-categories: machine learning, ai, environment
+categories: environment, machine learning, ai
 layout: post
 ---
 
@@ -258,6 +258,6 @@ In conclusion, the mycelium network represents a new era of exploration and comm
 ## Categories
 
 <ul>
+<li><h4><a href='/environment/'>Environment</a></h4></li>
 <li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/environment/'>Environment</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

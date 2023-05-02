@@ -5,7 +5,7 @@ permalink: /blog/creating-blog-index-page-for-jekyll/
 headline: Generate an Index Page for Your Jekyll Blog with My Script!
 description: I wrote a script to generate an index page for a blog using Jekyll. It reads a journal file and creates a post for each entry, complete with a title and slug. It then assembles an index page with links to each post, making it easier for readers to find what they're looking for. Click through to explore my blog!
 keywords: Jekyll, Script, Index Page, Journal File, Post, Title, Slug, Links, Explore, Blog
-categories: script, slug, jekyll
+categories: slug, jekyll, script
 layout: post
 ---
 
@@ -118,6 +118,6 @@ with open(f"{folder_name}/blog.md", "w") as fh:
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/slug/'>Slugs</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/portable-script-to-help-edit-many-files-at-once-with-python-ven
 headline: "Making Editing Easier: Using Python venv-friendly Shebang & ASCII Art to Edit Multiple Files Across Any Machine"
 description: I'm making my program easier to use for editing all my journals across any machine. I'm using Python venv-friendly shebang to ensure portability and adding ASCII art to keep me informed. I'm going through the process of editing, pulling, editing, and pushing the repos. Come find out how I'm doing it!
 keywords: Python, venv-friendly, shebang, ASCII art, editing, pulling, repos, portability, git, commit, push, journals
-categories: git, python, push, commit
+categories: push, git, commit, python
 layout: post
 ---
 
@@ -136,7 +136,7 @@ fig("Done!")
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/push/'>Push</a></h4></li>
-<li><h4><a href='/commit/'>Commit</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/commit/'>Commit</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

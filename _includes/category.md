@@ -43,12 +43,12 @@
 <li><a href="/moz/">MOZ</a></li>
 <li><a href="/nbdev/">nbdev</a></li>
 <li><a href="/google-analytics/">Google Analytics</a></li>
+<li><a href="/terminal/">Terminal</a></li>
 <li><a href="/platform/">Platform</a></li>
 <li><a href="/panda/">Pandas</a></li>
 <li><a href="/notebook/">Notebook</a></li>
 <li><a href="/service/">Service</a></li>
 <li><a href="/experiment/">Experiment</a></li>
-<li><a href="/terminal/">Terminal</a></li>
 <li><a href="/search/">Search</a></li>
 <li><a href="/macro/">Macro</a></li>
 <li><a href="/copilot/">Copilot</a></li>
@@ -136,6 +136,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/productivity/">Productivity</a></li>
 <li><a href="/game/">Game</a></li>
 <li><a href="/flow/">Flow</a></li>
 <li><a href="/education/">Education</a></li>
@@ -148,5 +149,4 @@
 <li><a href="/slug/">Slugs</a></li>
 <li><a href="/playwright/">Playwright</a></li>
 <li><a href="/chrome/">Chrome</a></li>
-<li><a href="/journal-md/">Journal.md</a></li>
 </ol>

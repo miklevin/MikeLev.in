@@ -5,7 +5,7 @@ permalink: /blog/secure-a-home-server-for-ai-at-home/
 headline: "Gain Tech Literacy: Setting Up a Home Server for AI"
 description: I'm encouraging people to gain tech literacy by setting up a home server for AI. I'm offering advice on how to do this, including using Microsoft Word or Google Docs, Linux, Python, vim, git, Edge, htmx, and a lightweight JavaScript framework like Alpine. I'm also discussing Microsoft's Prometheus model and the GPT3 ChatGI, and how to set up a server to help kickstart creating content.
 keywords: Home Server, AI, Tech Literacy, Microsoft Word, Google Docs, Linux, Python, vim, git, Edge, htmx, JavaScript, Alpine, Prometheus Model, GPT3 ChatGI, FOSS SEO Software
-categories: javascript, git, linux, python, ai, vim
+categories: git, ai, vim, javascript, python, linux
 layout: post
 ---
 
@@ -37,9 +37,9 @@ You need a server, my friend. It'd needs to be running on your behalf, 24x7, pre
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -7,8 +7,8 @@
 [NeoVim](/neovim/) | [Unix](/unix/) | [ChatGPT](/chatgpt/) | [Systemd](/systemd/) | [VSCode](/vscode/) | 
 [Jupyter Notebook](/jupyter-notebook/) | [Bing](/bing/) | [JavaScript](/javascript/) | [Windows 10](/windows-10/) | [Machine Learning](/machine-learning/) | 
 [Pipulate](/pipulate/) | [Hardware](/hardware/) | [Windows 11](/windows-11/) | [Mac](/mac/) | [Database](/database/) | 
-[Google](/google/) | [MOZ](/moz/) | [nbdev](/nbdev/) | [Google Analytics](/google-analytics/) | [Platform](/platform/) | 
-[Pandas](/panda/) | [Notebook](/notebook/) | [Service](/service/) | [Experiment](/experiment/) | [Terminal](/terminal/) | 
+[Google](/google/) | [MOZ](/moz/) | [nbdev](/nbdev/) | [Google Analytics](/google-analytics/) | [Terminal](/terminal/) | 
+[Platform](/platform/) | [Pandas](/panda/) | [Notebook](/notebook/) | [Service](/service/) | [Experiment](/experiment/) | 
 [Search](/search/) | [Macro](/macro/) | [Copilot](/copilot/) | [Learning](/learning/) | [Environment](/environment/) | 
 [Keywords](/keywords/) | [Browser Automation](/browser-automation/) | [Documentation](/documentation/) | [Consciousness](/consciousness/) | [Docker](/docker/) | 
 [Coding](/coding/) | [Headlines](/headline/) | [Open Source](/open-source/) | [Success](/success/) | [Skills](/skill/) | 

@@ -5,7 +5,7 @@ permalink: /blog/automating-2fa-web-login-via-microsoft-playwright/
 headline: Solving My Authentication Problem with Microsoft Playwright and PyPi Authenticator
 description: After researching options, I decided to create a service to check if I still had web-based authentication. I then found the PyPi Authenticator project which allowed me to automate 2FA from the command line. After a long day, I was able to get it working and move on to the next project. Come read my story to learn how I solved my authentication problem!
 keywords: 2FA, Web Login, Microsoft Playwright, Authentication, PyPi Authenticator, YouTube Analytics, Automation, Command Line, Email, Service
-categories: microsoft playwright, email, automation, service
+categories: automation, microsoft playwright, service, email
 layout: post
 ---
 
@@ -73,7 +73,7 @@ It's time to zoom along to the next project.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
 <li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/service/'>Service</a></h4></li></ul>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/email/'>Email</a></h4></li></ul>
