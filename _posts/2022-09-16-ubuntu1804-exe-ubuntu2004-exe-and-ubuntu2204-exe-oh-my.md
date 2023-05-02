@@ -5,7 +5,7 @@ permalink: /blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my/
 headline: "Exploring WSL2LXD with Ubuntu 18.04, 2004, and 2204: My Experience and Implications"
 description: Today I was working on a project using WSL2LXD to host Ubuntu 18.04 instances. I had to remember the locations of the exe files for Ubuntu 18.04, 2004, and 2204, which I discovered were located in WindowsApps. I also speculated that Microsoft may be limiting how many slots can be used for each exe in WSL. Learn more about my experience.
 keywords: Ubuntu, 1804, 2004, 2204, WSL2LXD, WindowsApps, Microsoft, Slot, Limiting
-categories: microsoft, ubuntu
+categories: ubuntu, microsoft
 layout: post
 ---
 
@@ -70,5 +70,5 @@ them not (easily) allowing a Linux container system on WSL.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
