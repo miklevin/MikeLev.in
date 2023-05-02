@@ -5,7 +5,7 @@ permalink: /blog/connecting-to-the-moz-links-api-v1-for-the-first-time/
 headline: "Exploring the Moz Links API V1: My First Request and What I Learned"
 description: I'm trying out a new writing and video-recording habit and connecting to the Moz Links API V1 for the first time. I'm using Github Copilot, Carnac settings, and the Python requests library. I attempted my first request but got a 401. After further investigation, I was successful in making the request, though the documentation could have been clearer. Join me as I document the process of setting up a streaming channel with the Moz Links API.
 keywords: Moz Links API, V1, Writing, Video-recording, Github Copilot, Carnac settings, Python requests library, POST requests, JSON string, Auth parameter, Documentation, Streaming channel, YouTube MOZ
-categories: github copilot, documentation
+categories: documentation, github copilot
 layout: post
 ---
 
@@ -226,5 +226,5 @@ further I do warrants a separate video.
 ## Categories
 
 <ul>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/documentation/'>Documentation</a></h4></li></ul>
+<li><h4><a href='/documentation/'>Documentation</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li></ul>

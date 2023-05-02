@@ -5,7 +5,7 @@ permalink: /blog/project-deteriorates-into-tools-discussion-again/
 headline: "My Experience With MOZ Pro: Trying Out VSCode on WSL"
 description: I started a project in MOZ Pro by selecting a domain and downloading the CSV file. I then added 30_data.ipynb to the repo, using the apex domain as part of the filename. After that, I had a list of competitors and I could pull their keywords. I was tempted to try VSCode running as a Linux app on WSL, but the UI was too clunky. I share my experience in this blog post.
 keywords: MOZ Pro, CSV file, apex domain, competitors, keywords, VSCode, Linux, WSL, UI, clunky
-categories: vscode, moz pro, linux, keywords, wsl
+categories: linux, keywords, wsl, moz pro, vscode
 layout: post
 ---
 
@@ -76,8 +76,8 @@ training wheels. It should have been called Training Wheels, haha!
 ## Categories
 
 <ul>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/keywords/'>Keywords</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>

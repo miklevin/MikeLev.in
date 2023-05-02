@@ -5,7 +5,7 @@ permalink: /blog/use-python-decorators-for-linux-service-scheduling/
 headline: Exploring Coding and Diminishing Reliance on Fads with Python, Huey, and More
 description: I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.
 keywords: Python, Decorators, Linux, Service, Scheduling, Windows, 10, Virtual, Desktops, WSL2, Containers, LXD, /etc/systemd/system, Coding, Writing, Huey, Pyppeteer, Microsoft, Playwright, Database, Persistence, Linux, Vim, Git, BASH, Script, C, LISP, Dialects, JavaScript, Fads, Trends
-categories: microsoft, service, wsl2, coding, git, python, database, javascript, lxd, linux, vim, bash, script, playwright
+categories: linux, python, microsoft, playwright, vim, script, service, coding, lxd, wsl2, bash, git, database, javascript
 layout: post
 ---
 
@@ -215,17 +215,17 @@ languages difficult. I've tried. My different languages would be:
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/playwright/'>Playwright</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/playwright/'>Playwright</a></h4></li></ul>
+<li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/bash/'>Bash</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

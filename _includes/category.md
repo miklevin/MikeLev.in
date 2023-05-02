@@ -136,8 +136,6 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
-<li><a href="/book/">Book</a></li>
-<li><a href="/image/">image</a></li>
 <li><a href="/education/">Education</a></li>
 <li><a href="/internet/">Internet</a></li>
 <li><a href="/site/">Site</a></li>
@@ -149,4 +147,6 @@
 <li><a href="/playwright/">Playwright</a></li>
 <li><a href="/chrome/">Chrome</a></li>
 <li><a href="/journal-md/">Journal.md</a></li>
+<li><a href="/error/">Error</a></li>
+<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 </ol>

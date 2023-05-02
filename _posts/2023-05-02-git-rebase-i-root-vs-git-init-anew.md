@@ -5,7 +5,7 @@ permalink: /blog/git-rebase-i-root-vs-git-init-anew/
 headline: I'm Rebasing a Git Repo to Speed Up Editing My Public Website - Here's What I Learned!
 description: "I attempted to learn how to use the `git rebase` command to clean up my git history and speed up my repository. I discovered on big repos with lots of issues, it's easier to just `git init` and do the old swaparoo with a new repo. Also explore philosophical questions about existence and the relative importance of things, and relationship to retiring an old git repo and starting anew."
 keywords: git, rebase, init, commits, history, speed, operation, interactive, root, dangerous, force push, branch, remote, destructive, preserve, changes, overwrite, caution, journal, article, philosophical, importance, consciousness, path, shared experiences, local space, global space, non-local, sine wave, cyclical, circles, orbits, tech, book, visual, image, Noah's Ark, religion, YAMLchop, connecting, dots, potential,
-categories: consciousness, git, image, book
+categories: git, consciousness
 layout: post
 ---
 
@@ -201,12 +201,20 @@ Otherwise your old site will block your new site from getting published, and it
 will look like you unpublished your site. I was in that limbo for about 10
 minutes before I figured it out.
 
+This project started out as non-rabbit-holey as you can get. Just type off a
+git rebasing command to chop off the history, but the complexity of actually
+doing that is a rabbit hole. I used my rabbit hole detection radar to go
+whoahhh! Isn't what I'm doing just about the same as copying a git repo folder
+and deleting it's invisible .git folder and then `git init` anew? Yes, it is.
+But that was another potential rabbit hole because of the nuance of getting a
+Jekyll Github Pages site to work, especially on an ***apex domain*** (the kind
+without a www subdomain), and the number of tweaks you had to do to the old
+repo to stop it from interfering with the publishing of the new repo. 
+
 
 
 ## Categories
 
 <ul>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/image/'>image</a></h4></li>
-<li><h4><a href='/book/'>Book</a></h4></li></ul>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>
