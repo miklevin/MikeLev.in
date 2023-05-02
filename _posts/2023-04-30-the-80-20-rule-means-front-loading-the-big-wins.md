@@ -5,7 +5,7 @@ permalink: /blog/the-80-20-rule-means-front-loading-the-big-wins/
 headline: "Ready, Fire, Aim: Disorganization is a Reverse Snowball Effect"
 description: Ready to make big improvements in your life? I'm sharing my experience on how to use the 80/20-rule and front-load the big wins. Learn how to organize your environment and make the most of your time.
 keywords: Journaling, Thought Processing, Home Organization, Decision Making, Motivation, Environment, 80/20-rule, Roomba, Big Wins, Front-loading
-categories: journaling, environment, 80/20-rule
+categories: environment, 80/20-rule, journaling
 layout: post
 ---
 
@@ -40,6 +40,6 @@ things, but for organizing an environment for sure. Front-load the big wins.
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/environment/'>Environment</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

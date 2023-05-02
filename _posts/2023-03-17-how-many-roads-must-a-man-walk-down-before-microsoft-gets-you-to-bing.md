@@ -5,7 +5,7 @@ permalink: /blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-t
 headline: "Exploring My New Laptop: How I Discovered the Many Paths to Bing Chat"
 description: As a new laptop owner, I'm exploring my options for browsers and chat. I'm considering switching to Chrome, but I'm intrigued by Edge's features. After doing some research, I've learned that there are many paths to Bing chat. Read my blog post to learn more about my experience with my new laptop.
 keywords: Microsoft, Bing, Laptop, Chrome, Edge, Browser, Chat, Address Bar, URL, Research, Paths
-categories: chrome, url, bing, microsoft
+categories: bing, url, chrome, microsoft
 layout: post
 ---
 
@@ -34,7 +34,7 @@ leads to a Bing chat, intentionally or not? Let's take a look:
 ## Categories
 
 <ul>
-<li><h4><a href='/chrome/'>Chrome</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/url/'>URLs</a></h4></li>
+<li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
