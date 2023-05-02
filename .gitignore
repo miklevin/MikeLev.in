@@ -1,0 +1,15 @@
+*.bak
+*.csv
+*.dat
+*.dir
+*.ini
+*.log
+*.pickle
+*.pkl
+*.pyc
+*.swp
+.DS_Store
+.ipynb_checkpoints/
+/dist
+__pycache__/
+pipulate.egg-info/
