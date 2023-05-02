@@ -5,7 +5,7 @@ permalink: /blog/my-formative-years-at-all-boys-science-summer-camp-integrated-l
 headline: Uncovering the Interconnectedness of Life Through Unix and Vim
 description: I'm 51 years old and I advocate for the use of everyday tools such as Linux, Python, vim & git. I'm writing this to let you know that if you don't know \*nix, you're behind, as Unix has been an integral part of computing since 1970. I've made the journey from hand magic, Dungeons & Dragons, and comic books to teaching these tools and believe that life is interconnected and that we should make the most of our everyday skills.
 keywords: Unix, Linux, Python, Vim, Git, Hand Magic, Dungeons & Dragons, Comic Books, Art, Mobile Devices, Microsoft, Unix Hater's Handbook, Mac, Martin Richards, Douglas McIlroy, Fernando Corbato, Kennith Thompson, Richard Mathew Stallman, Vint Cerf, Tim Berners-Lee, Linux Torvalds, Leo Geurts, Lambert Meertens, Steven Pemberton, Butler Lampson, L. Peter Deutsch,
-categories: microsoft, mac, git, python, vim, linux, unix
+categories: mac, vim, microsoft, linux, unix, python, git
 layout: post
 ---
 
@@ -376,10 +376,10 @@ know \*nix
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

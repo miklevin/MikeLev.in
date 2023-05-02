@@ -5,7 +5,7 @@ permalink: /blog/challenging-openai-to-write-a-better-subhead-than-this-headline
 headline: Exploring Home and Spiritual Connection - My Journey of Self-Discovery
 description: I recently signed up for Copilot, an AI that can summarize and assign keywords to my writing. I'm exploring the idea of home and how it is not confined to the place you were born into. I'm discovering my roots are inside me and that I can find places I feel most at home. I'm also investigating spiritual connection and its impact on our lives. Read my blog post to explore these ideas with me.
 keywords: Home, Place, Roots, Spiritual Connection, Impact, Explore, Discover, Copilot, AI, Writing, Summarize
-categories: copilot, ai, home
+categories: copilot, home, ai
 layout: post
 ---
 
@@ -59,5 +59,5 @@ choose a better subhead.
 
 <ul>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/home/'>Home</a></h4></li></ul>
+<li><h4><a href='/home/'>Home</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

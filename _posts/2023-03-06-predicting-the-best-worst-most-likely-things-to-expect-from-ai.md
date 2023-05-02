@@ -5,7 +5,7 @@ permalink: /blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/
 headline: Exploring the Potential of AI to Improve Life for Everyone
 description: I explore the potential of using decentralized distributed tech to give an advantage to the good guys, and how AI can be used for the greater good. I discuss the ethical and social challenges of pitting AIs in competition with each other, and provide five examples of possible headline-making scenarios. To create a positive perspective on the use of AI technology, I created a top 10 list of how it can improve life for everyone, from renewable energy solutions to enhancing healthcare delivery and education.
 keywords: AI, Predictions, Decentralized, Distributed, Tech, Ethical, Social, Challenges, Renewable, Energy, Healthcare, Delivery, Education, Positive, Perspective, Greater Good, Cryptographic, Primitives, Economic, Political, Mechanics, Open-Source, Software, Blockchain, Platforms, Public, Interest, Technology, Initiatives, Empathy, Equality, Opportunity, Cruel, Elite, Repressive
-categories: empathy, ai
+categories: ai, empathy
 layout: post
 ---
 
@@ -127,5 +127,5 @@ Source: Conversation with Bing, 3/3/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>
