@@ -5,7 +5,7 @@ permalink: /blog/install-script-and-start-script-for-jupyter-on-lxd-on-wsl-on-wi
 headline: Jupyter Now Runs on LXD on WSL on Windows - Read My Blog Post to Learn More!
 description: I've created a script that enables Jupyter to run on LXD on WSL on Windows. I've included an install script for the desktop, a start script for when the system reboots, and some other commands to start Jupyter in the background. I'm currently testing the installation process to make sure everything works properly. Come read my blog post to learn more about this exciting development!
 keywords: Jupyter, LXD, WSL, Windows, Install Script, Start Script, Desktop, Reboot, Background, Testing, Installation Process
-categories: wsl, lxd, jupyter
+categories: jupyter, lxd, wsl
 layout: post
 ---
 
@@ -101,6 +101,6 @@ the background for next steps... done!
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>

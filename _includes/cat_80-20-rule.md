@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
+<br/>I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.</li>
 <li><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins/">The 80/20-rule Means Front-loading The Big Wins</a> (Sun Apr 30, 2023)
 <br/>Ready to make big improvements in your life? I'm sharing my experience on how to use the 80/20-rule and front-load the big wins. Learn how to organize your environment and make the most of your time.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)
@@ -18,4 +20,4 @@
 <li><a href="/blog/what-s-most-broken/">What's Most Broken?</a> (Mon May 02, 2022)
 <br/>As a daily reminder, I have three rules I live by: identify what's most broken, focus on where I can get the biggest bang for the buck, and keep track of what plates need to be spun. I also try to stay mindful of the 80/20-rule and Rabbit-Hole evaluations, and pay attention to any poetry that comes to mind. Quasi Joe D'Ohhh is a reminder to stay vigilant and not be fooled twice. Read my blog post to find out</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/yaml/">YAML</a></div><div class="post-nav-next"><a href="/habit/">Habits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/browser automation/">Browser Automation</a></div><div class="post-nav-next"><a href="/sqlite/">SQLite</a><span class="arrow">&nbsp;&rarr;</span></div></div>

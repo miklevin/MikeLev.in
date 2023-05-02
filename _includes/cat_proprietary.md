@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
+<br/>I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.</li>
 <li><a href="/blog/adapting-my-drinkme-for-linux-pipulate-script-for-macs/">Adapting My DrinkMe for Linux Pipulate Script for Macs</a> (Thu Mar 30, 2023)
 <br/>I'm adapting my DrinkMe Linux Pipulate Script for Macs, so I'm using a Linux VM on a Mac for the most precise code execution. To make this easy, I'm using Canonical's MultiPass, which turns on virtualization and sets up a working instance of Ubuntu. I'm also using Apple Bonjour's mDNS to map host ports to the VM ports, and I've updated the install script to ensure Linux graphics work in headful mode.</li>
 <li><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a> (Sun Jan 01, 2023)
@@ -16,4 +18,4 @@
 <li><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a> (Fri Aug 20, 2021)
 <br/>I'm developing new habits to become an expert in technical moves and live-streaming. To make sure nothing proprietary is shared, I'm setting up hotkeys and testing embedding YouTube videos in my Github.io pages. I'm also creating mikelevinseo.com as a place to write about topics instead of my main journal. Click through to read more about my journey.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/graphic/">Graphics</a></div><div class="post-nav-next"><a href="/network/">Network</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nodejs/">NodeJS</a></div><div class="post-nav-next"><a href="/focus/">Focus</a><span class="arrow">&nbsp;&rarr;</span></div></div>

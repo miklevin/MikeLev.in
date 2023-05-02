@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
+<br/>I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)
 <br/>I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.</li>
 <li><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a> (Thu Apr 06, 2023)
@@ -16,4 +18,4 @@
 <li><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a> (Tue May 10, 2022)
 <br/>As a programmer, I missed the Full Web Stack revolution based on Google V8 JavaScript extraction from Chrome known as NodeJS. I chose Python as my primary language, and while I appreciate JavaScript's loveworthy bits, I've always wondered why web browsers are so locked down to just JavaScript. Discover why this restriction forces the web to be an always JavaScript game, and the browser vendor and governance issues behind it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/web development/">Web Development</a></div><div class="post-nav-next"><a href="/strategy/">Strategy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google photos/">Google Photos</a></div><div class="post-nav-next"><a href="/proprietary/">Proprietary</a><span class="arrow">&nbsp;&rarr;</span></div></div>

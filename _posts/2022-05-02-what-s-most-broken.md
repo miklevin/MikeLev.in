@@ -31,4 +31,4 @@ yo something.
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li></ul>

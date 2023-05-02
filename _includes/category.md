@@ -56,6 +56,7 @@
 <li><a href="/learning/">Learning</a></li>
 <li><a href="/headline/">Headlines</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
+<li><a href="/80-20-rule/">80/20-rule</a></li>
 <li><a href="/sqlite/">SQLite</a></li>
 <li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/docker/">Docker</a></li>
@@ -64,11 +65,12 @@
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>
 <li><a href="/google-photos/">Google Photos</a></li>
+<li><a href="/nodejs/">NodeJS</a></li>
+<li><a href="/proprietary/">Proprietary</a></li>
 <li><a href="/focus/">Focus</a></li>
 <li><a href="/change/">Changes</a></li>
 <li><a href="/math/">Math</a></li>
 <li><a href="/yaml/">YAML</a></li>
-<li><a href="/80-20-rule/">80/20-Rule</a></li>
 <li><a href="/habit/">Habits</a></li>
 <li><a href="/template/">Template</a></li>
 <li><a href="/microsoft-playwright/">Microsoft Playwright</a></li>
@@ -79,7 +81,6 @@
 <li><a href="/tutorial/">Tutorial</a></li>
 <li><a href="/label/">Labels</a></li>
 <li><a href="/web-development/">Web Development</a></li>
-<li><a href="/nodejs/">NodeJS</a></li>
 <li><a href="/strategy/">Strategy</a></li>
 <li><a href="/evolution/">Evolution</a></li>
 <li><a href="/child/">Child</a></li>
@@ -94,7 +95,6 @@
 <li><a href="/new-york-city/">New York City</a></li>
 <li><a href="/artificial-intelligence/">Artificial Intelligence</a></li>
 <li><a href="/graphic/">Graphics</a></li>
-<li><a href="/proprietary/">Proprietary</a></li>
 <li><a href="/network/">Network</a></li>
 <li><a href="/blogging/">Blogging</a></li>
 <li><a href="/audience/">Audience</a></li>

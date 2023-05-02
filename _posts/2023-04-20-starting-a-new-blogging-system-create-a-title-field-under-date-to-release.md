@@ -5,7 +5,7 @@ permalink: /blog/starting-a-new-blogging-system-create-a-title-field-under-date-
 headline: Creating a Journal Entry System with AI-Generated Content
 description: I'm starting a new journal entry system with the 80-long hyphen as a blog-slicer token and place-holder for the Liquid template system. I'm using Jekyll, an open source static site generator, and a macro system to ensure reverse-chronological entries.
 keywords: Journal, Entry, System, 80-long Hyphen, Blog-slicer, Token, Place-holder, Liquid, Template, Jekyll, Open Source, Static Site Generator, Macro System, Reverse-chronological, AI-generated, Content, Chopper, Strings, Date-index, Function, Update, AI
-categories: static site generator, open source, jekyll, template, ai, update
+categories: update, static site generator, ai, template, jekyll, open source
 layout: post
 ---
 
@@ -108,9 +108,9 @@ publish. Then do some experimentation updating meta descriptions and such.
 ## Categories
 
 <ul>
+<li><h4><a href='/update/'>Update</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/template/'>Template</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/update/'>Update</a></h4></li></ul>
+<li><h4><a href='/template/'>Template</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li></ul>

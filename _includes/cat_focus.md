@@ -18,4 +18,4 @@
 <li><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a> (Fri May 06, 2022)
 <br/>For the past 15 years, I've been struggling to get into the flow while working in a cubicle. But thanks to the Covid-19 lockdown, I've been able to re-achieve this state of productivity and focus -- just like in the Disney Pixar movie Soul. Working from home has allowed me to block out distractions and become more productive, and I'm exploring the concept of "feeding the love-worthiness of things". Read my blog post to learn more about my journey!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google photos/">Google Photos</a></div><div class="post-nav-next"><a href="/change/">Changes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/proprietary/">Proprietary</a></div><div class="post-nav-next"><a href="/change/">Changes</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -5,7 +5,7 @@ permalink: /blog/say-the-magic-words-open-terminal/
 headline: Unlock the Magic of Unix/Linux with the French Drop and Miss. Direction!
 description: I learned the French Drop finger magic trick from my camp counselor Mike Silver at Science Camp Watonka when I was 12 years old. Now, I'm introducing a new skill called the French Drop and Miss. Direction, closely aligned with Unix/Linux. This skill is future-proof, obsolescence resistant, and immune to disruption. It's important to not solely depend on GUIs and to focus on Unix/Linux terminal. Read my blog post to learn more about the French Drop, Miss
 keywords: Magic, French Drop, Finger Trick, Mike Silver, Science Camp Watonka, Unix/Linux, Terminal, GUIs, Vim, Text Editor, GNU, Wax-on Wax-off, Proprietary, Linux
-categories: vim, text editor, terminal, proprietary, linux
+categories: proprietary, terminal, vim, linux, text editor
 layout: post
 ---
 
@@ -165,8 +165,8 @@ VSCode... while crazy-great
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>
