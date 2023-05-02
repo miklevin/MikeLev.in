@@ -1,0 +1,15 @@
+<ol>
+<li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
+<br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
+<li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
+<br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
+<li><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a> (Sun Apr 02, 2023)
+<br/>I'm setting up macros in my NeoVim text editor to turn my journal entries into web pages. After 10 years of using this text editor, I'm vlogging the process and exploring new habits. As an advocate for Linux, Python, vim, and git, I still have to pay a Microsoft tax for tools like Github Pro, Github CoPilot, and Microsoft 365. I'm currently formatting the output of a new dice.py file.</li>
+<li><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a> (Thu Mar 30, 2023)
+<br/>I wrote two influential science fiction novels in the 1990s, Snow Crash and Rainbows End, that explore the potential of technology to transform society. Snow Crash has been praised for its prescient vision of the internet, and Rainbows End for its exploration of the ethical implications of technology. Read on to learn more about how these novels have impacted our society today!</li>
+<li><a href="/blog/what-are-the-most-important-news-for-me-to-know-today/">What are the most important news for me to know today?</a> (Fri Mar 10, 2023)
+<br/>I asked Bing provide me with the most important news for today. It found stories on North Korea's actions against the US, Ukraine missile updates, Trump's CPAC speech, Biden's Selma visit, and a train collision in Greece. Also talked about my LPvg passion.</li>
+<li><a href="/blog/little-things-big-changes/">Little Things, Big Changes</a> (Thu May 19, 2022)
+<br/>I'm reflecting on the idea of making small changes day-by-day rather than committing to long-term projects. I'm also revising and editing my writing style, and I'm excited to share something that isn't yet on the internet. Read my blog post to find out what it is and to learn more about making permanent changes in my life.</li>
+</ol>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/education/">Education</a></div><div class="post-nav-next"><a href="/site/">Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>

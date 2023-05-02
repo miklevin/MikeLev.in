@@ -1,0 +1,23 @@
+---
+layout: default
+author: site.author
+---
+
+<h1>{{ page.title }}</h1>
+<blockquote>{{ page.description }}</blockquote>
+<h2>{{ page.subhead }}</h2>
+<h3>By {{ site.author }}</h3>
+<h4>{{ page.date | date: '%A, %B %-d, %Y' }}</h4>
+{{ content }}
+<div class="post-nav">
+  <div class="post-nav-prev">
+    {% if page.previous.title %}
+    <span class="arrow">&larr;&nbsp;</span><a href="{{page.previous.url}}">{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="post-nav-next">
+    {% if page.next.title %}
+    <a href="{{page.next.url}}">{{page.next.title}}</a><span class="arrow">&nbsp;&rarr;</span>
+    {% endif %}
+  </div>
+</div>
