@@ -5,7 +5,7 @@ permalink: /blog/let-people-know-how-you-feel/
 headline: Taking A Stand Against Drama - My Journey to Lead by Example!
 description: I'm taking a stand against the drama in my life by leading by example and spreading my message with YouTube videos. I'm planning out the title and thumbnail for each video to make sure I'm sending the right message. Follow my journey and click through to the blog post to find out more!
 keywords: YouTube, Videos, Message, Drama, Stand, Example, Lead, Journey, Thumbnail, Title, Publicly
-categories: youtube, message, journey
+categories: message, youtube, journey
 layout: post
 ---
 
@@ -28,6 +28,6 @@ beforehand.
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li></ul>

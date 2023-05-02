@@ -5,7 +5,7 @@ permalink: /blog/curiouser-and-curiouser-personal-journaling-w-ai/
 headline: Exploring the Effects of AI on Personal Journaling with NeoVim and OpenAI Plug-in
 description: As a software engineer, data scientist, writer, husband, father, and friend, I am using Github Copilot, Microsoft Terminal, Carnac, and Microsoft Edge to write my personal journal. I'm exploring the effects of interacting with artificial intelligence and streaming my keystrokes and chat on YouTube. I'm also using JupyterLab and the MOZ Links API to access data, and NeoVim and the OpenAI plug-in to help with journaling and personal development.
 keywords: Software Engineering, Data Science, Writing, Github Copilot, Microsoft Terminal, Carnac, Microsoft Edge, JupyterLab, MOZ Links API, NeoVim, OpenAI, AI, Personal Journaling, YouTube, QEMU, Pattern Recognition, Predictions, Type-Like-You-Think, Flow State, Domain Authority, Page Authority, Spam Score, Subdomain External Links, Root Domain External Links, External Equity Links, All Links, Root Domains Link
-categories: youtube, neovim, moz links api, openai, ai, jupyterlab, github copilot
+categories: youtube, ai, github copilot, jupyterlab, neovim, openai, moz links api
 layout: post
 ---
 
@@ -424,9 +424,9 @@ Gnight all.
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li></ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li></ul>

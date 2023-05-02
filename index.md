@@ -22,6 +22,6 @@ this site.
 
 {% include post_short_list.html %}
 
-### Top 150 Categories
+### Categories
 
 {% include category_list.md %}
