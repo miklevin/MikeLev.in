@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a> (Tue May 02, 2023)
+<br/>Learn how I used the OpenAI Codex API to optimize my articles for website navigation. I found `pip instal tiktoken` and code snippets to count tokens and chop back my input with rsplit to fit the maximum context length of 4097 tokens.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a> (Sun Apr 30, 2023)
@@ -50,4 +52,4 @@
 <li><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines/">Don't Miss My Talk with OpenAI about clickbait headlines!</a> (Fri Dec 02, 2022)
 <br/>On December 2, 2022, I will be giving a talk with OpenAI about clickbait headlines and the top 100 clickbait headlines I have compiled. I will also discuss why writing headlines that accurately describe the content of an article is a better strategy, as well as the benefits of keeping a journal, such as increased self-awareness, improved mental health, stress reduction, enhanced problem solving skills, and better communication skills. Finally, I will explain how Vim is a powerful and flexible text editor.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/api/">API</a></div><div class="post-nav-next"><a href="/url/">URLs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/container/">Container</a></div><div class="post-nav-next"><a href="/api/">API</a><span class="arrow">&nbsp;&rarr;</span></div></div>

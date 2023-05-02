@@ -5,7 +5,7 @@ permalink: /blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-s
 headline: "Discover the Power of Self-Learning: Join Me on My Journey with Project Pipulate!"
 description: I'm relaunching project Pipulate, an automatable system that ChatGPT can't do. With this project, I'm on a soul-cleansing path to learn to code without relying on cloud services and to talk code into existence. Join me on my journey and discover the power of self-learning!
 keywords: ChatGPT, Imposter Syndrome, Automatable System, Self-Learning, Conversational-Based, Cloud Services, Soul-Cleansing, Code, Journey, Relaunch, Project Pipulate
-categories: chatgpt, imposter syndrome, journey
+categories: chatgpt, journey
 layout: post
 ---
 
@@ -75,5 +75,4 @@ path here. Articulate it and promote it.
 
 <ul>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li></ul>

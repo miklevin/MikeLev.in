@@ -17,8 +17,8 @@
 <li><a href="/journaling/">Journaling</a></li>
 <li><a href="/jupyter/">Jupyter</a></li>
 <li><a href="/container/">Container</a></li>
-<li><a href="/api/">API</a></li>
 <li><a href="/openai/">OpenAI</a></li>
+<li><a href="/api/">API</a></li>
 <li><a href="/url/">URLs</a></li>
 <li><a href="/wsl2/">WSL2</a></li>
 <li><a href="/ubuntu/">Ubuntu</a></li>
@@ -48,18 +48,18 @@
 <li><a href="/platform/">Platform</a></li>
 <li><a href="/panda/">Pandas</a></li>
 <li><a href="/service/">Service</a></li>
+<li><a href="/keywords/">Keywords</a></li>
 <li><a href="/experiment/">Experiment</a></li>
 <li><a href="/search/">Search</a></li>
 <li><a href="/macro/">Macro</a></li>
 <li><a href="/copilot/">Copilot</a></li>
 <li><a href="/learning/">Learning</a></li>
-<li><a href="/keywords/">Keywords</a></li>
+<li><a href="/headline/">Headlines</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
 <li><a href="/sqlite/">SQLite</a></li>
 <li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/docker/">Docker</a></li>
 <li><a href="/coding/">Coding</a></li>
-<li><a href="/headline/">Headlines</a></li>
 <li><a href="/open-source/">Open Source</a></li>
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>
@@ -104,6 +104,7 @@
 <li><a href="/2022/">2022</a></li>
 <li><a href="/development/">Development</a></li>
 <li><a href="/bash/">Bash</a></li>
+<li><a href="/moz-links-api/">MOZ Links API</a></li>
 <li><a href="/science/">Science</a></li>
 <li><a href="/dependency/">Dependencies</a></li>
 <li><a href="/nyc/">NYC</a></li>
@@ -134,6 +135,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/meta-descriptions/">Meta Descriptions</a></li>
 <li><a href="/productivity/">Productivity</a></li>
 <li><a href="/game/">Game</a></li>
 <li><a href="/flow/">Flow</a></li>
@@ -147,6 +149,4 @@
 <li><a href="/playwright/">Playwright</a></li>
 <li><a href="/chrome/">Chrome</a></li>
 <li><a href="/journal-md/">Journal.md</a></li>
-<li><a href="/error/">Error</a></li>
-<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 </ol>
