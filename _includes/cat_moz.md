@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)
 <br/>I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.</li>
 <li><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a> (Wed Apr 19, 2023)
@@ -28,4 +30,4 @@
 <li><a href="/blog/start-thinking-about-broader-foss-seo-features/">Start Thinking About Broader FOSS SEO Features</a> (Thu Feb 09, 2023)
 <br/>I'm excited to join Moz, a search engine optimization company, as an online personality. I'm looking to create "junior versions" of products that could be Moz products, or better deliverables when mashed-up with a Moz API. I'm also exploring products like AlsoAsk, which uses Google Suggest to create a visual representation of relationships. Come read my blog post to learn more about my journey and the exciting opportunities ahead!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google/">Google</a></div><div class="post-nav-next"><a href="/nbdev/">nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pipulate/">Pipulate</a></div><div class="post-nav-next"><a href="/google/">Google</a><span class="arrow">&nbsp;&rarr;</span></div></div>

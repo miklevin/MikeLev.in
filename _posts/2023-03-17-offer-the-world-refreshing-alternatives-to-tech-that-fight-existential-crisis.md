@@ -5,7 +5,7 @@ permalink: /blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-exis
 headline: "Exploring 45 Years of Digital Technology: My Journey Toward Making a Meaningful Contribution to the World"
 description: For 45 years, I have been playing with digital technology, from the Atari 2600 to developing a highly technical approach to SEO and other tasks using Linux VMs. I am excited for the future of digital technology, and I believe I am getting closer to having something meaningful to contribute to the world. Join me as I explore my journey through digital technology and the possibilities of the future.
 keywords: Digital Technology, Atari 2600, Linux VMs, SEO, Artificial Intelligence, Machine Learning, Future of Technology, Sentient Machines, Mobile Machines, Contributing to the World
-categories: artificial intelligence, machine learning, seo
+categories: artificial intelligence, seo, machine learning
 layout: post
 ---
 
@@ -47,5 +47,5 @@ longer.
 
 <ul>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

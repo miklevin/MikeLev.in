@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)
 <br/>I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.</li>
 <li><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a> (Fri Apr 21, 2023)
@@ -28,4 +30,4 @@
 <li><a href="/blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/">s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites & Dogma</a> (Sun Jun 12, 2022)
 <br/>I recently discussed the importance of positive feedback loops and engaging with my YouTube audience, as well as the role of Google in the global digital nervous system. As a search engine optimizer, I also touched on the importance of serendipity in aligning. Come join me in exploring the power of technology and the possibilities it offers.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/database/">Database</a></div><div class="post-nav-next"><a href="/moz/">MOZ</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/moz/">MOZ</a></div><div class="post-nav-next"><a href="/hardware/">Hardware</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -5,7 +5,7 @@ permalink: /blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny/
 headline: Exploring the Evolution of Technology and Its Impact on Our Lives
 description: I'm an SEO, and I'm reflecting on the incredible technology that has allowed us to evolve over time. I'm exploring the impact of GNU licenses and the contributions of Ken Thompson, Linux Torvalds and Richard Matthew Stallman, as well as the implications of artificial intelligence. I'm also reminiscing about my journey from Commodore to Scala to Conners Communications, and my creation of HitTail, to my current position in New York City.
 keywords: SEO, GNU, Licenses, Ken Thompson, Linux Torvalds, Richard Matthew Stallman, Artificial Intelligence, Commodore, Scala, Conners Communications, HitTail, New York City, One-Page-For-Life, Text-File, Journaling, Blog Posts, Ruby, Starnix, URLs, PageRank, Algorithm, Crawling, Indexing, Training, Operating Systems, Epigenetics, Douglas Adams, Divinely Inspired
-categories: algorithm, seo, new york city, artificial intelligence, journaling
+categories: new york city, artificial intelligence, algorithm, journaling, seo
 layout: post
 ---
 
@@ -267,8 +267,8 @@ Who says I haven't?
 ## Categories
 
 <ul>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

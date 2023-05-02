@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)
@@ -78,4 +80,4 @@
 <li><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a> (Wed Feb 16, 2022)
 <br/>I'm using mlseo as a pip installable module to get the process of making packages into my fingers. I'm creating a package called mlseo which will include my latest techniques for pulling data from Google Analytics and Search Console. I'm setting up the settings.ini file and extracting the packages, and I'm following the nbdev instructions to install and create a Github personal access token. Come follow my journey and learn how to set up your own mlseo package!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/jekyll/">Jekyll</a></div><div class="post-nav-next"><a href="/jupyterlab/">JupyterLab</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/lxd/">LXD</a></div><div class="post-nav-next"><a href="/jekyll/">Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>

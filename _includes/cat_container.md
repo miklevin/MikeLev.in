@@ -54,4 +54,4 @@
 <li><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/">Install ZFSUtils-Linux To Prep For LXD on WSL</a> (Mon May 23, 2022)
 <br/>I'm on a mission to move my life forward, so I'm looking around the world to find the answers. Today, I'm focusing on LXD, a Linux container service, and I'm learning how to install ZFS Filesystem for Linux and the advantages of containers over virtual machines. Come along with me on my journey and read my blog post to see what I'm learning.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/jupyter/">Jupyter</a></div><div class="post-nav-next"><a href="/openai/">OpenAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/jupyter/">Jupyter</a></div><div class="post-nav-next"><a href="/api/">API</a><span class="arrow">&nbsp;&rarr;</span></div></div>

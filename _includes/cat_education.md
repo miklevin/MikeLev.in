@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)
 <br/>I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.</li>
 <li><a href="/blog/optimistic-utopian-ai-futures-are-refreshing-fusion-superconductivity-ai/">Optimistic Utopian AI Futures Are Refreshing: Fusion, Superconductivity, & AI</a> (Mon Mar 13, 2023)
@@ -12,4 +14,4 @@
 <li><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a> (Sat Jun 18, 2022)
 <br/>Yesterday was a difficult day, but I'm determined to move forward. I'm rewriting my content management system and conditioning my mind to be kind and gentle. I'm supplementing my income while getting closer to my child, and using various tools to debug and fix a problem with a script. I wrote a program to create websites with Python and I'm using the blogslicer program to create blogs for multiple websites. I'm proud of the results of my task of fixing a bug and improving the output</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/flow/">Flow</a></div><div class="post-nav-next"><a href="/internet/">Internet</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/bash/">Bash</a></div><div class="post-nav-next"><a href="/science/">Science</a><span class="arrow">&nbsp;&rarr;</span></div></div>

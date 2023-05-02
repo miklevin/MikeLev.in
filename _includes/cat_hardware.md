@@ -30,4 +30,4 @@
 <li><a href="/blog/you-get-blinded-by-the-hardware/">You Get Blinded By The Hardware</a> (Wed Aug 03, 2022)
 <br/>I've experienced the highs and lows of technology over the years, from the Amiga computer to Windows laptops and web development tools. This has taught me to be wary of becoming too attached to hardware, as it changes quickly and requires constant retraining and relearning. Through this journey, I've come to understand the importance of adapting to new technologies and the challenge of mastering a craft with ever-changing tools.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pipulate/">Pipulate</a></div><div class="post-nav-next"><a href="/windows 11/">Windows 11</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google/">Google</a></div><div class="post-nav-next"><a href="/windows 11/">Windows 11</a><span class="arrow">&nbsp;&rarr;</span></div></div>

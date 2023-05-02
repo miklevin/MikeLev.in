@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a> (Wed Apr 19, 2023)
 <br/>I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.</li>
 <li><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a> (Mon Mar 13, 2023)
@@ -18,4 +20,4 @@
 <li><a href="/blog/concurrent-web-crawling-in-python/">Concurrent Web Crawling in Python</a> (Mon Feb 21, 2022)
 <br/>Today, I'm celebrating President's Day by accomplishing a mission: creating an async Python function to return zipped input/output promises. I'm also working on handling a list of tuples as input and building a package called mlseo on PyPI. To top it off, I've completed a concurrent site crawler in Python that uses SQLite. Join me in celebrating President's Day with this amazing progress!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft playwright/">Microsoft Playwright</a></div><div class="post-nav-next"><a href="/moz pro/">MOZ Pro</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/browser automation/">Browser Automation</a></div><div class="post-nav-next"><a href="/consciousness/">Consciousness</a><span class="arrow">&nbsp;&rarr;</span></div></div>

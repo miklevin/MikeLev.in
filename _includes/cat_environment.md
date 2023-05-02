@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
 <br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
 <li><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins/">The 80/20-rule Means Front-loading The Big Wins</a> (Sun Apr 30, 2023)
@@ -22,4 +24,4 @@
 <li><a href="/blog/get-your-daily-vim-exercise/">Get Your Daily vim Exercise</a> (Fri Apr 15, 2022)
 <br/>I'm learning to express myself fluently in English, use Linux, Python, vim, and git, and focus on joy-filled habits. I'm also recognizing the importance of maintenance and organization to achieve flow, but understand the difficulty of developing habits in a constantly changing environment. I'm exploring the luxuries of static environments, like properties and inheritances, and how they can help with habit formation.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/learning/">Learning</a></div><div class="post-nav-next"><a href="/keywords/">Keywords</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/service/">Service</a></div><div class="post-nav-next"><a href="/documentation/">Documentation</a><span class="arrow">&nbsp;&rarr;</span></div></div>

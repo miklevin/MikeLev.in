@@ -14,4 +14,4 @@
 <li><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right/">Remain Positive & Know Signs Of When You're Doing Something Right</a> (Fri Jun 10, 2022)
 <br/>I'm making a big move back to New York and embracing the challenge. I'm learning to think more deeply, choose who I want to be, and move my life forward like a scientist. I'm no longer allowing myself to stay stuck and instead am taking action to do what's right. Read my blog post to find out more about my journey and how I'm staying positive during this transition.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/command-line/">Command-Line</a></div><div class="post-nav-next"><a href="/label/">Labels</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/command-line/">Command-Line</a></div><div class="post-nav-next"><a href="/loop/">Loop</a><span class="arrow">&nbsp;&rarr;</span></div></div>

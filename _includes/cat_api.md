@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a> (Sun Apr 30, 2023)
 <br/>Getting started with the OpenAI Codex API and worried about cost? Understand the cost pattern of catching up with a backlog, and then costs going down moving forward. Once my job was 'caught up', processing going forward was only 50 cents per day.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
@@ -48,4 +50,4 @@
 <li><a href="/blog/the-epic-nbdev-static-site-generator-post/">The Epic nbdev Static Site Generator Post</a> (Thu Jun 16, 2022)
 <br/>I recently downgraded from Ubuntu 20.04 to Ubuntu 18.04, which broke my blog release system. To fix this, I am switching from Unix Scripts to Python Programs, using argparse and the Python Standard Library to modularize my programs and make them work from the command-line with arguments. I'm learning about the subprocess API options, setting up a virtualenv and installing Python 3.10, creating a git repo, and writing a blog post to demonstrate how to use the</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/openai/">OpenAI</a></div><div class="post-nav-next"><a href="/wsl2/">WSL2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/container/">Container</a></div><div class="post-nav-next"><a href="/openai/">OpenAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>

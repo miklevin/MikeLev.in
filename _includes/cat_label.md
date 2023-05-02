@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a> (Fri Feb 03, 2023)
 <br/>I'm using Google Photos API to generate three databases - 'all', 'main', and 'favorites' - and an 'archive' database. I'm using Python functions to query the API, store the results, and create custom labeled tuples with a start date and end date. I'm also chunking the project into week-by-week chunks, making it easier to manage. This code provides a way to make the code clearer and easier to understand.</li>
 <li><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a> (Sun Jan 15, 2023)
@@ -14,4 +16,4 @@
 <li><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a> (Sun May 08, 2022)
 <br/>In this post, I explore the implications of Artificial Intelligence and its potential to be considered an art form. I reflect on the Roomba robot vacuum cleaner and how its backoff-and-retry algorithms can be applied to life. I also encourage love and empathy for those being raised by AI, suggesting they read The Culture series by Ian M. Banks. Finally, I end with a light-hearted rhyme to motivate readers to not hold back and to look for the little wins. Read</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/transition/">Transition</a></div><div class="post-nav-next"><a href="/loop/">Loop</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div><div class="post-nav-next"><a href="/web development/">Web Development</a><span class="arrow">&nbsp;&rarr;</span></div></div>

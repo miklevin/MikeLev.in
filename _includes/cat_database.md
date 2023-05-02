@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a> (Wed Apr 19, 2023)
 <br/>I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.</li>
 <li><a href="/blog/switched-from-text-davinci-002-to-text-davinci-003/">Switched from text-davinci-002 to text-davinci-003</a> (Tue Apr 18, 2023)
@@ -30,4 +32,4 @@
 <li><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a> (Wed Aug 03, 2022)
 <br/>I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/mac/">Mac</a></div><div class="post-nav-next"><a href="/google/">Google</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/bing/">Bing</a></div><div class="post-nav-next"><a href="/javascript/">JavaScript</a><span class="arrow">&nbsp;&rarr;</span></div></div>

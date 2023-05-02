@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
 <br/>This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
@@ -44,4 +46,4 @@
 <li><a href="/blog/journaling-as-performance-art/">Journaling As Performance Art</a> (Fri Feb 18, 2022)
 <br/>I'm creating a performance art piece that auto-publishes my journal entries on Github.io. I'm also building a get_responses function that takes a list of URLs or tuples and returns a list of tuples. I'm testing it by providing it with a list of URLs and a function and checking the output. My goal is to get responses from a list of URLs and assign them either 'foo' or 'bar', then return them as a list. For example, when</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl2/">WSL2</a></div><div class="post-nav-next"><a href="/ubuntu/">Ubuntu</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/openai/">OpenAI</a></div><div class="post-nav-next"><a href="/wsl2/">WSL2</a><span class="arrow">&nbsp;&rarr;</span></div></div>

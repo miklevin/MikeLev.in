@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/connecting-to-the-moz-links-api-v1-for-the-first-time/">Connecting to the Moz Links API V1 For the First Time</a> (Fri Mar 31, 2023)
 <br/>I'm trying out a new writing and video-recording habit and connecting to the Moz Links API V1 for the first time. I'm using Github Copilot, Carnac settings, and the Python requests library. I attempted my first request but got a 401. After further investigation, I was successful in making the request, though the documentation could have been clearer. Join me as I document the process of setting up a streaming channel with the Moz Links API.</li>
 <li><a href="/blog/imagining-the-linux-nomadic-movement-with-the-new-bing/">Imagining The Linux Nomadic Movement With The New Bing</a> (Sun Mar 05, 2023)
@@ -22,4 +24,4 @@
 <li><a href="/blog/okay-i-m-finally-keeping-audiences-in-mind/">Okay, I'm Finally Keeping Audiences In Mind</a> (Thu Apr 7, 2022)
 <br/>I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/browser automation/">Browser Automation</a></div><div class="post-nav-next"><a href="/consciousness/">Consciousness</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/environment/">Environment</a></div><div class="post-nav-next"><a href="/experiment/">Experiment</a><span class="arrow">&nbsp;&rarr;</span></div></div>

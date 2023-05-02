@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
+<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
 <br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
