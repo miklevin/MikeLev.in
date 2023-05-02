@@ -5,7 +5,7 @@ permalink: /blog/designing-yamlesque-post-generator-api/
 headline: My Journey to Create a More Efficient and Elegant Blogging System
 description: I'm amazed by how things just work. I'm using 80-hyphens as a parser token to make my front-matter handling more slicey and yaml-like. I've written a powerful function called chop_chop that takes a file path and returns a tuple with 3 positions. Occasionally I'll do one-off's in Jupyter Notebooks. I'm excited to see the results of my work and hope you will be too.
 keywords: YAML, 80-hyphens, Parser, Chopper Token, Text-file, AI-writing, Jupyter Notebook, SQLite Database, Defaultdicts, Lambdas, Key-Value, Efficient, Elegant, Powerful, Function, Chop_chop, File Path, Tuple, Dictionary, String, Jekyll-like, Defensive, Parsing, Front-Matter, Journaling, AI Writing, Coding
-categories: yaml, coding, jupyter notebook, journaling
+categories: journaling, jupyter notebook, coding, yaml
 layout: post
 ---
 
@@ -280,7 +280,7 @@ the OpenAI summary.
 ## Categories
 
 <ul>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

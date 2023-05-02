@@ -5,7 +5,7 @@ permalink: /blog/vim-macro-to-format-markdown-poetry/
 headline: "Discover Independence from Microsoft with Vim: Unlock the Power of Jupyter and Writing Every Day"
 description: I'm talking about how to use vim to break free from Microsoft, how they are trying to steal Jupyter's features, and why their attempt to create their own version of Unix, Xenix, flopped. I'm also discussing how writing in vim is like driving and how it can free up your executive function for more difficult tasks, and how writing every day can help you become more proficient with your tools. Join me in today's livecast to learn about recording a macro to make
 keywords: vim, Microsoft, Jupyter, Unix, Xenix, executive function, ZeroMQ, JavaScript, VSCode, independence, ah-ha moment, discovery, Linus Torvalds, Guido van Rossum, Ada Lovelace, Grace Hopper, poem, stilling the wolf, driving, proficiency, tools
-categories: vscode, jupyter, vim, microsoft, unix, javascript
+categories: microsoft, vscode, vim, unix, javascript, jupyter
 layout: post
 ---
 
@@ -270,9 +270,9 @@ Unix called Xenix. It flopped. Microsoft is no Linus Torvalds.
 ## Categories
 
 <ul>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

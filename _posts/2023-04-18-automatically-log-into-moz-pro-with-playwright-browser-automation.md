@@ -5,7 +5,7 @@ permalink: /blog/automatically-log-into-moz-pro-with-playwright-browser-automati
 headline: Automate Your MOZ Pro Logins with Playwright Browser Automation
 description: This blog post will walk you through using Microsoft Playwright's browser automation software to automatically log into MOZ Pro and download Keyword Explorer data for each subdomain. Using asynchronous mode and my standard Chrome automation template, I am logging into the MOZ Pro website and using the Keyword Explorer feature to pull keywords from a given site with the help of the async Python library. Read on to learn how to automate this process.
 keywords: Automation, Playwright, Browser, Microsoft, MOZ Pro, Keyword Explorer, Asynchronous, Chrome, Python, Jupyter Notebook, Competitors, Site, Close
-categories: automation, microsoft, moz pro, jupyter notebook, site, chrome, playwright, python
+categories: chrome, automation, microsoft, moz pro, playwright, site, jupyter notebook, python
 layout: post
 ---
 
@@ -179,11 +179,11 @@ Explorer to download the keyword list for each competitor site.
 ## Categories
 
 <ul>
+<li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/site/'>Site</a></h4></li>
-<li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/playwright/'>Playwright</a></h4></li>
+<li><h4><a href='/site/'>Site</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>
