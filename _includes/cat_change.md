@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/git-rebase-i-root-vs-git-init-anew/">`git rebase -i --root` vs. `git init` anew</a> (Tue May 02, 2023)
+<br/>I attempted to learn how to use the `git rebase` command to clean up my git history and speed up my repository. I discovered on big repos with lots of issues, it's easier to just `git init` and do the old swaparoo with a new repo. Also explore philosophical questions about existence and the relative importance of things, and relationship to retiring an old git repo and starting anew.</li>
 <li><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a> (Wed Dec 14, 2022)
 <br/>Yesterday I made history by de-linking and taking off the main navigation from my website, MikeLev.in. I loaded Linux, Python, Vim, and Git markdown pages into Vim buffers, so I could refine the few pages still linked on the main nav. Additionally, I used blog categorization to control what went onto the Linux, Python, Vim, and Git pages. Check out my blog post to learn more about my journey and the changes I made!</li>
 <li><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a> (Sun Dec 11, 2022)
@@ -16,4 +18,4 @@
 <li><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a> (Sat Apr 23, 2022)
 <br/>I'm blogging using Jekyll and Github Pages and have just made some changes to the theme. I'm now following a DigitalOcean tutorial to control URLs and links in Jekyll - hoping for successful changes to propagate soon! Read my blog post to find out how I did it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/development/">Development</a></div><div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google photos/">Google Photos</a></div><div class="post-nav-next"><a href="/math/">Math</a><span class="arrow">&nbsp;&rarr;</span></div></div>

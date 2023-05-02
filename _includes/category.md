@@ -57,6 +57,7 @@
 <li><a href="/keywords/">Keywords</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
 <li><a href="/documentation/">Documentation</a></li>
+<li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/docker/">Docker</a></li>
 <li><a href="/coding/">Coding</a></li>
 <li><a href="/headline/">Headlines</a></li>
@@ -64,6 +65,7 @@
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>
 <li><a href="/google-photos/">Google Photos</a></li>
+<li><a href="/change/">Changes</a></li>
 <li><a href="/math/">Math</a></li>
 <li><a href="/yaml/">YAML</a></li>
 <li><a href="/80-20-rule/">80/20-Rule</a></li>
@@ -74,7 +76,6 @@
 <li><a href="/moz-pro/">MOZ Pro</a></li>
 <li><a href="/lpvg/">LPvg</a></li>
 <li><a href="/goal/">Goals</a></li>
-<li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/future/">Future</a></li>
 <li><a href="/tutorial/">Tutorial</a></li>
 <li><a href="/web-development/">Web Development</a></li>
@@ -103,7 +104,6 @@
 <li><a href="/focus/">Focus</a></li>
 <li><a href="/2022/">2022</a></li>
 <li><a href="/development/">Development</a></li>
-<li><a href="/change/">Changes</a></li>
 <li><a href="/bash/">Bash</a></li>
 <li><a href="/science/">Science</a></li>
 <li><a href="/dependency/">Dependencies</a></li>
@@ -136,6 +136,8 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/book/">Book</a></li>
+<li><a href="/image/">image</a></li>
 <li><a href="/education/">Education</a></li>
 <li><a href="/internet/">Internet</a></li>
 <li><a href="/site/">Site</a></li>
@@ -147,6 +149,4 @@
 <li><a href="/playwright/">Playwright</a></li>
 <li><a href="/chrome/">Chrome</a></li>
 <li><a href="/journal-md/">Journal.md</a></li>
-<li><a href="/error/">Error</a></li>
-<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 </ol>

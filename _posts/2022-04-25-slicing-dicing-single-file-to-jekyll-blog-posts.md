@@ -3,7 +3,7 @@ date: 2022-04-25
 title: Slicing & Dicing Single File to Jekyll Blog Posts
 permalink: /blog/slicing-dicing-single-file-to-jekyll-blog-posts/
 headline: Refining My Journey of Slicing & Dicing a Single File into Jekyll Blog Posts
-description: I recently livestreamed a project where I was slicing and dicing a single long journal file into separate files. I used debugging messages and headlines to provide a hierarchy, pre-processed titles into slugs, and added frontmatter and `_config.yml` file. Join me as I share my journey of refining the project and the challenges I faced along the way.
+description: "I recently livestreamed a project where I was slicing and dicing a single long journal file into separate files. I used debugging messages and headlines to provide a hierarchy, pre-processed titles into slugs, and added frontmatter and `_config.yml` file. Join me as I share my journey of refining the project and the challenges I faced along the way."
 keywords: Slicing, Dicing, Single File, Jekyll, Blog Posts, Debugging Messages, Headlines, Hierarchy, Pre-Processing, Titles, Slugs, Frontmatter, _config.yml
 categories: jekyll
 layout: post

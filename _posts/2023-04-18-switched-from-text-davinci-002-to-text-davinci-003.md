@@ -5,7 +5,7 @@ permalink: /blog/switched-from-text-davinci-002-to-text-davinci-003/
 headline: "Exploring AI Capabilities: Switching from text-davinci-002 to text-davinci-003"
 description: I switched to text-davinci-003 to get better summaries, descriptions, headlines, and keywords from OpenAI, but it cost me more. I committed the data to a git repo so I could access it even if the databases got deleted. Going forward, I'll only process single posts as I explore AI capabilities. Join me as I explore the AI capabilities and the cost of processing data.
 keywords: AI, OpenAI, text-davinci-002, text-davinci-003, summaries, descriptions, headlines, keywords, processing, cost, git, repo, databases, single posts, explore, capabilities
-categories: openai, git, ai, keywords
+categories: keywords, git, ai, openai
 layout: post
 ---
 
@@ -31,7 +31,7 @@ the single post. It's exciting to see the AI portions get written.
 ## Categories
 
 <ul>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li></ul>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>

@@ -3,9 +3,9 @@ date: 2022-04-30
 title: Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts
 permalink: /blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/
 headline: Adding Previous/Next Links to My Blog Posts with Jekyll and Github Pages
-description: I recently created a blog slicing and dicing system and am adding previous/next links to my blog posts. To do this, I'm directly inserting them into the markdown files and using Github Pages Hacker Theme page to grab the raw code for the post.html file. I checked to make sure Google Analytics tag manager code was still being applied and copied the post.html file into the `_layouts` folder of each of my sites. Come read more about my blog slicing and dicing system!
-keywords: Github Pages, Jekyll, Blog Posts, Previous/Next Arrows, Markdown, Hacker Theme page, Raw Code, `_layouts` folder, Google Analytics, Tag Manager, 404 Issue, Release Script
-categories: github pages, jekyll, google analytics
+description: "I recently created a blog slicing and dicing system and am adding previous/next links to my blog posts. To do this, I'm directly inserting them into the markdown files and using Github Pages Hacker Theme page to grab the raw code for the post.html file. I checked to make sure Google Analytics tag manager code was still being applied and copied the post.html file into the `_layouts` folder of each of my sites. Come read more about my blog slicing and dicing system!"
+keywords: "Github Pages, Jekyll, Blog Posts, Previous/Next Arrows, Markdown, Hacker Theme page, Raw Code, `_layouts` folder, Google Analytics, Tag Manager, 404 Issue, Release Script"
+categories: google analytics, jekyll
 layout: post
 ---
 
@@ -123,6 +123,5 @@ arrows propagated all over the place...
 ## Categories
 
 <ul>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

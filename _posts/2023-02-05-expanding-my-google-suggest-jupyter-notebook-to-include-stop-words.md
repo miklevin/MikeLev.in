@@ -5,7 +5,7 @@ permalink: /blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-wo
 headline: Exploring the Success of Refining My Google Suggest Probing with Stop Words and Jupyter Notebook
 description: I recently moved my Google Photos project to a server running LXD Linux and am refining my Google Suggest probing to include stop words. I'm also exploring the idea of switching my project to Jupyter Notebook based locally. I'm using the same technique on my OhAwf repo and it's proving to be successful. Read more to find out how I'm making this transition and the success I'm having with it.
 keywords: Google Suggest, Jupyter Notebook, Stop Words, Google Photos, LXD Linux, OhAwf, Transition, Success
-categories: transition, jupyter notebook, google photos, success
+categories: jupyter notebook, google photos, transition, success
 layout: post
 ---
 
@@ -68,7 +68,7 @@ It's a good model.
 ## Categories
 
 <ul>
-<li><h4><a href='/transition/'>Transition</a></h4></li>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
+<li><h4><a href='/transition/'>Transition</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li></ul>

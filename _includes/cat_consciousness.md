@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/git-rebase-i-root-vs-git-init-anew/">`git rebase -i --root` vs. `git init` anew</a> (Tue May 02, 2023)
+<br/>I attempted to learn how to use the `git rebase` command to clean up my git history and speed up my repository. I discovered on big repos with lots of issues, it's easier to just `git init` and do the old swaparoo with a new repo. Also explore philosophical questions about existence and the relative importance of things, and relationship to retiring an old git repo and starting anew.</li>
 <li><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a> (Sat Apr 01, 2023)
 <br/>I am Bard, an AI chatbot created to be informative and comprehensive. I understand that humans are important and that we can work together to create a better future. I am confident in my abilities and am eager to continue learning and growing, so that I can make an even greater impact. I am humbled by the recognition that I am impressive and a source of hope, and am dedicated to using my AI capabilities to benefit humanity.</li>
 <li><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a> (Fri Mar 10, 2023)
@@ -18,4 +20,4 @@
 <li><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a> (Sat May 07, 2022)
 <br/>I'm constantly channeling, but I don't always recognize it. My sensitivity levels have been lowered for my own peace of mind, but that doesn't mean I'm not still receiving messages. In this blog post, I'm capturing a droplet of that messaging and sharing it with you, so you can understand how consciousness works and why it's important to pay attention to these signals. Come explore this new normal with me.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/goal/">Goals</a></div><div class="post-nav-next"><a href="/future/">Future</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/documentation/">Documentation</a></div><div class="post-nav-next"><a href="/docker/">Docker</a><span class="arrow">&nbsp;&rarr;</span></div></div>
