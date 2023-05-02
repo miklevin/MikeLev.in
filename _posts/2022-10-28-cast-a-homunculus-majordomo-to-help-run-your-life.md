@@ -5,7 +5,7 @@ permalink: /blog/cast-a-homunculus-majordomo-to-help-run-your-life/
 headline: "Learning to Use FOSS Instead of Cloud Services: Taking Up Linux, Python, Vim and Git as If They Were Tools in a Carpenter's Toolbox"
 description: I'm taking up Linux, Python, Vim, and Git as if they were tools in a carpenter's toolbox, and learning to use FOSS instead of cloud services. I'm creating performance art with these principles, doing real-time idea-capture, aligning small steps to feedback loops, and using GitHub and GitLab. I'm trying to figure out the best way to approach learning new tech tools and advocate the use of Linux, Python, Vim and Git.
 keywords: Linux, Python, Vim, Git, FOSS, Cloud Services, Performance Art, Idea-Capture, Feedback Loops, GitHub, GitLab, Fundamentals, Work At-Hand, Real-World Problems, Organization, Repetition, Inefficiency, Optimization, Deduplicating, Ideas
-categories: organization, git, python, github, vim, linux
+categories: github, python, vim, git, linux, organization
 layout: post
 ---
 
@@ -173,9 +173,9 @@ Next steps:
 ## Categories
 
 <ul>
-<li><h4><a href='/organization/'>Organization</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/organization/'>Organization</a></h4></li></ul>

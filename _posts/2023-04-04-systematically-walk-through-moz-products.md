@@ -5,7 +5,7 @@ permalink: /blog/systematically-walk-through-moz-products/
 headline: Unlock the Competitive Advantage of MOZ with My Systematic Review of Products
 description: as an employee of moz, i am on a mission to make sure moz is the source of competitive advantage in the seo software category. to do this, i am systematically reviewing moz products, such as moz free, moz pro, moz local, moz links api, moz toolbar, and stat, and capturing the new user experience of moz pro. additionally, i am doing some browser automation stuff.
 keywords: MOZ, SEO, Software, Free, Pro, Local, Links API, Toolbar, Stat, User Experience, Browser
-categories: seo, moz
+categories: moz, seo
 layout: post
 ---
 
@@ -61,5 +61,5 @@ Let's do some browser stuff.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li></ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/how-to-use-the-screen-command-for-linux-service/
 headline: Exploring Linux Service with the Screen Command - Join Me on My Journey!
 description: As I learn how to use the Screen Command for Linux Service, I'm documenting my journey with a blog post. I've written a file to be placed in /etc/systemd/system/ and have watched a video to help me better understand the process. Come join me as I explore this new technology!
 keywords: Linux, Screen, Command, Service, Systemd, System, File, Video, Explore, Technology, Learning, Journey, Documentation
-categories: learning, service, journey, systemd, linux
+categories: learning, service, systemd, journey, linux
 layout: post
 ---
 
@@ -41,6 +41,6 @@ And here's the video:
 <ul>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

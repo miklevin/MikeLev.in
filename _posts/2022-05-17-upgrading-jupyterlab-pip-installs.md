@@ -5,7 +5,7 @@ permalink: /blog/upgrading-jupyterlab-pip-installs/
 headline: Successfully Upgraded Pip Installs on JupyterLab and Notebooks!
 description: I'm looking for a way to upgrade my pip installs on JupyterLab and Jupyter Notebooks. I found a solution! I cloned mlseo from Github and used 10_requirements.ipynb. To learn more, I watched a video tutorial on YouTube. Check out my blog post to get the full scoop.
 keywords: JupyterLab, pip, installs, upgrade, Github, 10_requirements.ipynb, video, tutorial, YouTube, May 17th, 2022, mlseo, clone
-categories: youtube, tutorial, github, jupyterlab, 2022, mlseo
+categories: mlseo, 2022, github, youtube, jupyterlab, tutorial
 layout: post
 ---
 
@@ -19,9 +19,9 @@ have gone hopelessly out of date? Just clone
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
 <li><h4><a href='/2022/'>2022</a></h4></li>
-<li><h4><a href='/mlseo/'>mlseo</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
