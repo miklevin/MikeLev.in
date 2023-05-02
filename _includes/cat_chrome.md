@@ -12,4 +12,4 @@
 <li><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/">Google Chrome for Linux Under LXD on WSL on Windows</a> (Wed Sep 21, 2022)
 <br/>I succeeded in getting Google Chrome up and running on my Linux system using LXD on WSL on Windows. I followed several steps to make sure the configuration settings would survive between reinstalls, and I'm thrilled to be able to launch it with google-chrome. After some hard work, I'm finally able to enjoy the fruits of my labor!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/playwright/">Playwright</a></div><div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/playwright/">Playwright</a></div><div class="post-nav-next"><a href="/journal.md/">Journal.md</a><span class="arrow">&nbsp;&rarr;</span></div></div>

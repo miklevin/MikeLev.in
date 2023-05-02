@@ -48,8 +48,6 @@
 <li><a href="/platform/">Platform</a></li>
 <li><a href="/panda/">Pandas</a></li>
 <li><a href="/service/">Service</a></li>
-<li><a href="/environment/">Environment</a></li>
-<li><a href="/documentation/">Documentation</a></li>
 <li><a href="/experiment/">Experiment</a></li>
 <li><a href="/search/">Search</a></li>
 <li><a href="/macro/">Macro</a></li>
@@ -106,7 +104,6 @@
 <li><a href="/2022/">2022</a></li>
 <li><a href="/development/">Development</a></li>
 <li><a href="/bash/">Bash</a></li>
-<li><a href="/education/">Education</a></li>
 <li><a href="/science/">Science</a></li>
 <li><a href="/dependency/">Dependencies</a></li>
 <li><a href="/nyc/">NYC</a></li>
@@ -149,4 +146,7 @@
 <li><a href="/slug/">Slugs</a></li>
 <li><a href="/playwright/">Playwright</a></li>
 <li><a href="/chrome/">Chrome</a></li>
+<li><a href="/journal-md/">Journal.md</a></li>
+<li><a href="/error/">Error</a></li>
+<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 </ol>

@@ -5,7 +5,7 @@ permalink: /blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/
 headline: I Did It! 24x7 LXD Container Home Server Setup on QNAP NAS Complete!
 description: I did it! I successfully set up a 24x7 LXD Container home server on my QNAP NAS, complete with a hostname, network mode, and password-free login. To help others, I even made a couple of videos documenting the process. Now I'm ready to start doing projects on my server - come check out how I did it!
 keywords: QNAP NAS, LXD Linux Container, Container Station, Home Server, Hostname, Network Mode, Password-Free Login, Videos, Documentation, Projects
-categories: documentation
+categories: 
 layout: post
 ---
 
@@ -38,5 +38,4 @@ Okay, now get rid of the password. And another video:
 
 ## Categories
 
-<ul>
-<li><h4><a href='/documentation/'>Documentation</a></h4></li></ul>
+<ul></ul>

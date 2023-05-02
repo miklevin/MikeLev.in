@@ -5,7 +5,7 @@ permalink: /blog/imagining-vim-macro-that-makes-markdown-image-code/
 headline: Vim Macro Makes Web Publishing Easier for Information Age Professionals
 description: As an Information Age professional, I use vim as my text editor to create image tags from keyworded filenames for my web publishing system based on Github's Github Pages Jekyll static site generator. I use proper-case for the web accessible alt-text area, which is beneficial for both the visually impaired and search engines. With vim, I can easily name my files with keywords and tag my images for search with alt-text. Learn how I use vim to make web publishing easier.
 keywords: vim, macro, Markdown, image, code, Information Age, text editor, web publishing, Github Pages, Jekyll, static site generator, proper-case, alt-text, keywords, files, search, tool
-categories: jekyll, vim, github pages, static site generator, search, text editor, keywords, macro
+categories: macro, github pages, search, jekyll, vim, text editor, static site generator, keywords
 layout: post
 ---
 
@@ -56,11 +56,11 @@ hands (VSCode, right, right, am I right?).
 ## Categories
 
 <ul>
+<li><h4><a href='/macro/'>Macro</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li></ul>

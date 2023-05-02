@@ -5,7 +5,7 @@ permalink: /blog/visualizing-change-is-projecting-epigenetic-templates/
 headline: "Exploring Particles, Fractals, and Epigenetics: Uncovering the Power of Design in Our DNA"
 description: As a YouTuber, I am exploring the idea that particles have memories, self-similarity is found throughout because of fractals, and that our DNA contains 3.2 billion base-pairs of amino acids. I am amazed by the implications of epigenetics and the power to shape ourselves and our environment. I'm also fascinated by the idea of life having a way of returning to the center, no matter what. Join me as I explore these ideas.
 keywords: Visualizing Change, Projecting Epigenetic Templates, Particles, Memories, Self-Similarity, Fractals, DNA, Amino Acids, Epigenetics, Shaping, Environment, Michael Levin, Scrambling, Frog Faces, Self-Correcting, Designs, Encoded, DNA, Being
-categories: environment
+categories: 
 layout: post
 ---
 
@@ -88,5 +88,4 @@ reveal what sort of being it is?
 
 ## Categories
 
-<ul>
-<li><h4><a href='/environment/'>Environment</a></h4></li></ul>
+<ul></ul>
