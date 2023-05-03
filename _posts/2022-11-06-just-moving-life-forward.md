@@ -5,7 +5,7 @@ permalink: /blog/just-moving-life-forward/
 headline: Exploring Life's Quantized Units on My Child's 12th Birthday
 description: Today is my child's 12th birthday and I'm taking the time to prepare for it. Unloading the car, I'm reflecting on the entanglement of things and how our lives are like quantized units of energy. Are we unique or part of the same rippling quantum field? I'm also reflecting on the Python command I programmed yesterday and its potential future uses. Join me as I explore these thoughts and prepare for a special day.
 keywords: Quantum, Field, Python, Programming, Entanglement, Aquarium, Stand, Child, Birthday, Preparation, Reflection
-categories: python, quantum, child
+categories: child, quantum, python
 layout: post
 ---
 
@@ -50,6 +50,6 @@ install.sh, the later-stage part of the install.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li>
-<li><h4><a href='/child/'>Child</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/struggling-through-github-pages-startup-process/
 headline: Successfully Setting Up Website on Github Pages After Hours of Struggle
 description: I just finished setting up a new website on Github Pages, after a long and complicated process of setting up DNS, Git repositories, Jekyll templating, and more. I'm happy with the result, but now it's time to get to work - so I'll have to wait a couple days to enjoy the fruits of my labor.
 keywords: Github Pages, DNS, Git, Repositories, Jekyll, Templates, Default.html, Banner, Google Analytics, Pico/Nano, CNAME, Config.yaml, Google Search Console, TXT Record, Propagate
-categories: jekyll, github pages, google analytics, git
+categories: github pages, jekyll, git, google analytics
 layout: post
 ---
 
@@ -128,7 +128,7 @@ Got some SERPs to scrape. Later gators!
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

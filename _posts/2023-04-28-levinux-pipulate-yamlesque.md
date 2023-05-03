@@ -5,7 +5,7 @@ permalink: /blog/levinux-pipulate-yamlesque/
 headline: "Building Financial Independence: Taking Steps to Create Abundance and Order."
 description: I'm striving for financial independence and using the 80/20-rule and OpenAI's Codex AI to create a plan of action to help me reach my goals. I'm breaking out of my old habits and focusing on inventing and building in the real and text-based world with Linux, Python, vim & git. I'm taking baby-steps to create a life of abundance and order.
 keywords: Financial Independence, Doubt, Paralysis, 80/20-Rule, Passion, Joy, Plan of Action, OpenAI, Codex AI, Habits, Abundance, Order, Land Lords, Inventing, Building, Linux, Python, Vim, Git, Baby Steps
-categories: 80/20-rule, linux, openai, vim, python, git
+categories: 80/20-rule, git, linux, openai, python, vim
 layout: post
 ---
 
@@ -143,8 +143,8 @@ best #1 baby-step project.
 
 <ul>
 <li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

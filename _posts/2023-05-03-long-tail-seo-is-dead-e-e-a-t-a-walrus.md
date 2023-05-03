@@ -83,10 +83,10 @@ not a long read, and it's a very different experience. The subtle difference
 themselves are a lesson in how the mind works. Disney for example cast the
 Carpenter as outright cheated by the Walrus in the movie, but in the book, it's
 implied that the Carpenter is in on the Oyster-eating scam because he asked the
-Walrus for another slice of bread, so the Carpenter got to eat. 
+Walrus for another slice of bread.
 
 The actual Alice book leaves it ambiguous whether the Carpenter eats oysters.
-Walt definitely thins the proletariat class (working class craftspeople) will
+Walt definitely thinks the proletariat class (working class craftspeople) will
 always and necessarily be screwed over by the bourgeoisie (orating,
 self-important ruling class). Projecting there much, Walt? You haven't read
 Alice until you get this subtle distinction regarding the Carpenter.

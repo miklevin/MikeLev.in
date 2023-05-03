@@ -5,7 +5,7 @@ permalink: /blog/moz-links-api-an-introduction/
 headline: Learn How to Use APIs with Python and the MOZ Links API
 description: As a Python programmer, I'm here to tell you about APIs and how to use them. I'll explain the MOZ Links API, GET and POST methods, JSON format, and Python dictionaries. Plus, I'll show you how to make a request using the requests library, and how to use the 'json.dumps' and 'json.loads' functions to convert a Python object into a JSON string. Read my blog post to learn more!
 keywords: API, MOZ Links API, GET, POST, JSON, Python, Dictionaries, Requests Library, Assignment, Equality, Keyword Parameters, Arguments, ACCESSID, SECRETKEY, AUTH_TUPLE, Endpoints, Jupyter Notebook
-categories: jupyter notebook, python, moz links api, api
+categories: moz links api, api, python, jupyter notebook
 layout: post
 ---
 
@@ -405,7 +405,7 @@ the subject of articles to follow.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

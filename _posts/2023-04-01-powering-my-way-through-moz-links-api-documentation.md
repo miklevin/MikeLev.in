@@ -5,7 +5,7 @@ permalink: /blog/powering-my-way-through-moz-links-api-documentation/
 headline: Exploring the Power of Persuasion with MOZ Links API Documentation
 description: I'm exploring the MOZ Links API with Mechvibes software, learning about the power of persuasion with Robert Cialdini's six principles, and using journaling and Python's dict native datatype to create a database to store the data and make it persistent. I'm also cleaning up a MOZ Links API Exploration Repo with NeoVim for OpenAI Github Copilot integration, making clicky sounds as I type. Join me on my journey.
 keywords: MOZ Links API, Mechvibes, Robert Cialdini, Six Principles, Journaling, Python, Dict Datatype, Database, Persistent, NeoVim, OpenAI, Github Copilot, SourceForge, Clicky Sounds, Microsoft Video, CopilotX, Autocompletion, Headline/Subhead, Notebook, Persuasion, Marketing, Salespeople, Influence, Psychology, Regents' Professor, Arizona State University, Microsoft, Jupy
-categories: journaling, openai, notebook, database, marketing, python, microsoft, neovim, moz links api, github copilot
+categories: github copilot, neovim, openai, python, microsoft, moz links api, journaling, notebook, database, marketing
 layout: post
 ---
 
@@ -529,13 +529,13 @@ NeoVim keeps it's .vimrc equivalent file in ~/.config/nvim/init.vim.
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
