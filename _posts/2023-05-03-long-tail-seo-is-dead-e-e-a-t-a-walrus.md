@@ -18,31 +18,39 @@ but Google will no longer give out traffic to the "low quality" sites of the
 long-tail. So now what? How do you break in? Darned if I know, but I'm
 conducting my hands-on experiments.
 
-Try to emit the signals that your site is to be noticed. Try to be one of those
-E-E-A-T people on the net. Try to be an influencer. If you have the potential
-to be a genuinely interesting person, then be that person. Lots of people do
-that by traveling our seeking out interesting experiences. There is that, but
-generally I like to travel in the space of my own mind. It's just so much less
+I'm going to try to emit the signals that my site is to be noticed. What is it
+to have E-E-A-T, really? I'm going to try to be one of those E-E-A-T people, I
+guess. Maybe try to be an influencer. If you have the potential to be a
+genuinely interesting person, then be that person. Lots of people do that by
+traveling our seeking out interesting experiences, but this is so unappealing
+to me now, except maybe for the education of my child. I generally I like to
+travel in the space of my own mind (reading & writing). It's just so much less
 drama and rigmarole.
 
-Be not an cryptobro nor an instapeep. Rather, be the you that everyone finds so
-odd after some exposure. I've gone years and decades removing myself from
-mainstream media influence. Stuff like Morning Joe really drove me over the
-edge of giving up on TV new. I haven't had "traditional" TV since the 90s. I
-only let TV back into my life with the advent of streaming services, and even
-then I almost always choose reading, although admittedly very often Audibles.
-Best of all are the Kindle books that have narrative tracks and the read-along
-highlighting. I'll go to bed to Alice's Adventures in Wonderland not
-infrequently.
+I will not an cryptobro nor an instapeep. Rather, I'll continue to be the
+alternative-path oddball. The path less travelled, and all that. I've gone
+years and decades removing myself from mainstream media influence once I
+detected its mind-rotting intent. Stuff like the CNN coverage of the 2nd Gulf
+War really drove me over the edge of giving up on old-fashioned TV. Bombastic
+click-bait of hypnotizing headlines, it is. Agent Orange, it felt like.
+
+I haven't had "traditional" TV since the 90s. I only let TV back into my life
+with the advent of streaming services, and even then I almost always choose
+reading, although admittedly very often Audibles. Best of all are the Kindle
+books that have narrative tracks and the read-along highlighting. I'll go to
+bed to Alice's Adventures in Wonderland not infrequently. Alice has many of the
+answers.
 
 The nonsense, tolerance for it, and deriving value from it is one of the
-biggest lessons of Alice. We are all at risk of media nonsense saturation, now
-more than ever with the rise of AI-generated content, deep fakes, and how so
-many polarized people are turning into bad actors, because the barrier for
-entry to the enabling tools has become so low. The Alice books were not only
-commentaries on the contemporary politics of the day, but also a warning of
-what was to come. The Wizard of OZ books even more so, but less accessibly so
-because it's spread over 14 books instead of 2. 
+biggest lessons of Wonderland. We are all at risk of media nonsense saturation
+and a loss of grip on reality, and now more than ever with the rise of
+AI-generated content, deep fakes, and how so many polarized people are turning
+into bad actors. The barrier for entry to the enabling tools has become so low. 
+
+The Alice books were not only commentaries on the politics of the day (it was
+reality-bending nonsense back then too), but also a warning of what was to
+come. The Wizard of OZ books even more so, but less accessibly so because it's
+spread over 14 books instead of 2. 
 
 Lewis Carroll's mere two books pack such a whollup on topics ranging from
 quantum physics to the various personality types, AI or otherwise, that come to

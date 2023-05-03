@@ -5,7 +5,7 @@ permalink: /blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height/
 headline: Fixing YouTube Embeds for 100% Width and Aspect Ratio Height
 description: I'm in the process of creating a series of pages with a slicer-token, date, video title, video description, and YouTube embed code, but before I can do that, I need to complete some housekeeping tasks with Jekyll. I've already adjusted the YouTube embed code to be 100% width, but now I'm working on fixing the height issue. After some research, I have found a solution that should do the trick.
 keywords: YouTube, Embed, Width, Aspect Ratio, Height, Jekyll, Video, Title, Description, Code, Series, Pages, Slicer-Token, Date, Content
-categories: jekyll, youtube
+categories: youtube, jekyll
 layout: post
 ---
 
@@ -85,5 +85,5 @@ BAM!
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
