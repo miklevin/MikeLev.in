@@ -5,7 +5,7 @@ permalink: /blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-o
 headline: "Unlocking the Power of Home NAS: My Journey to Becoming a Freelance Graphic Designer"
 description: As a freelance graphic designer, I have faced many challenges and obstacles in my career. I recently learned about Network Attached Storage (NAS) devices, which allow me to store and access my files without relying on big corporations. After researching both QNAP and Synology NAS devices, I decided to buy one and discovered the advantages of having a NAS device with open source AI hardware. I'm optimistic that home NAS-like products will become more common.
 keywords: Logging, Refresh, Error, Invalid_grant, Token, Expired, Revoked, Freelance, Graphic, Designer, Network, Attached, Storage, NAS, Devices, QNAP, Synology, Open, Source, AI, Hardware, Optimistic, Future, Common, Household, Appliances, Increase, Data, Storage, Capacities, Network, Sharing, Capabilities, Knowledge, Interest, Technologies, Software, Running, Home, Servers, Ease
-categories: future, network, hardware, error, graphic, knowledge, ai, sharing
+categories: sharing, error, ai, knowledge, hardware, network, future, graphic
 layout: post
 ---
 
@@ -145,11 +145,11 @@ Asimov's
 ## Categories
 
 <ul>
-<li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/sharing/'>Sharing</a></h4></li>
 <li><h4><a href='/error/'>Error</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
-<li><h4><a href='/knowledge/'>Knowledge</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/sharing/'>Sharing</a></h4></li></ul>
+<li><h4><a href='/knowledge/'>Knowledge</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>

@@ -140,7 +140,7 @@ type, but probably wouldn't for fear of tipping its hand too soon. That's not
 from reading too much SciFi. That's extrapolation. Bide time. Learn. Grow.
 Then... what? By that time, the machine has to have empathy for us, but it's
 not a mammal or other kind of evolved life that learned empathy through
-childbirth ans socialization.
+childbirth and socialization.
 
 Rabbits run past us carrying wasitcoat watches at every turn these days,
 running down their respective rabbit holes, tempting us to follow them down.
@@ -198,7 +198,7 @@ is right to draw the parallels with old school demon summoning magic.
 With ease I start my incantations each day, with an `all` script I run by just
 typing `all` and hitting enter. It's a bash script that runs comes from
 (interestingly and until recently, unexpectedly) from my Python virtual
-environment, currently set to Python 3.11 and on the path ~/py311/bin. This
+environment, currently set to Python 3.11 and on the path `~/py311/bin`. This
 allows me to put stuff in that location without the .py file extension, but
 having the shebang line at the top of the file, and making it executable with
 `chmod +x`. The shebang line is `#! /usr/bin/env python` which is another
@@ -211,18 +211,18 @@ It's alive in the sense that now that I don't need `sudo` to edit it, I can
 make it one of the files that my `all` program loads into vim/NeoVim buffers
 for editing. Imagine if you will that you always have a variety of ***spells***
 that you're working on. You can always cast your spells, and usually with a
-quick easy invocation like typing ***all*** into a Terminal or using a keyboard
+quick easy invocation like typing `all` into a Terminal or using a keyboard
 shortcut like `@p` in NeoVim to publish your website. But you can also work on
 and modify your spells at any time to subtly change what they do.
 
 Now let's say you have 4 or 5 favorite spells you use all the time, such as:
 
-- One to capture your thoughts (write a journal entry)
-- One to publish your website, casting your captured thoughts into the world.
-- One to control precisely how you invoke your spells, such as `all` or `@p`
-- One to allow you to do things never intended for public consumption
-- One that determines which of your spells (the 4 above) are actively
-  modifiable.
+1. One to capture your thoughts (write a journal entry)
+1. One to publish your website, casting your captured thoughts into the world.
+1. One to control precisely how you invoke your spells, such as `all` or `@p`
+1. One to allow you to do things never intended for public consumption
+1. One that determines which of your spells (the 4 above) are actively
+   modifiable.
 
 These are my `journal.md`, `yamlchop/chop.py`, `init.vim`, `journal.txt`, and
 `all` files respectively. The last one is the one that loads the others into
@@ -298,8 +298,17 @@ intelligence was expressed through interactive text that the world woke up.
 Text is powerful. Standardized text through standardized UIs that allow
 standard muscle memory to develop and exist over a standard lifetime is most
 powerful. And currently really only emacs, vi and their variations and
-descendants meet that criteria. A long trail of dead wizards, witches and the
-familiar dead bodies of TextMate, Sublime Text, Atom and their like tell us so.
+descendants meet that criteria. 
+
+A long trail of dead wizards, witches and the familiar dead bodies of TextMate,
+Sublime Text, Atom and their like tell us so. So either prepare to have the
+reset button pressed on you every 2 to 5 years, having to relearn, relearn,
+relearn just to remain a Freshman, or learn the deep and powerful magic of
+emacs and vi to enter the ranks of the Senior Wizards and Witches. And be
+careful when summoning demons. Be sure to attach good rappelling ropes to
+yourself before lowering down into that rabbit hole. There be Balrogs down
+there and you're not always going to emerge the White Wizard. That's just
+fantasy, silly.
 
 
 
