@@ -5,7 +5,7 @@ permalink: /blog/a-few-things-about-me/
 headline: "Living in Staten Island, NYC: Experiencing Life's Magical Moments and Sharing Them."
 description: As a He/Him living in Staten Island, NYC, I live by the motto 'What's Most Broken, Where's The Biggest Bang for The Buck, What Plates Need Spinning'. My life is centered around my kid, Linux, Python, vim & git, and daily reading & writing. If I were to participate in an eating contest, Blue Cheese & Skittles would be my choice. I've experienced some truly magical moments.
 keywords: He/Him, Staten Island, NYC, Broken, Bang, Buck, Plates, Spinning, Kid, Linux, Python, Vim, Git, Reading, Writing, Eating Contest, Blue Cheese, Skittles, Magical Moments, Sharing
-categories: nyc, git, sharing, python, vim, linux
+categories: sharing, linux, python, nyc, vim, git
 layout: post
 ---
 
@@ -52,9 +52,9 @@ perceptions and to shape and define a new emerging field.
 ## Categories
 
 <ul>
-<li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/sharing/'>Sharing</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/nyc/'>NYC</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

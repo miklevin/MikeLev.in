@@ -5,7 +5,7 @@ permalink: /blog/watch-me-struggle-with-mermaid-js/
 headline: "Exploring Noosphere with Mermaid JS: Live-Streaming My Data Project Journey Before 9:30 AM Call"
 description: "I'm live-streaming my daily journal before my 9:30 AM call. I'm using NeoVim, OpenAI auto-suggest, and Mermaid JS to work on a data project with a deadline. I'm also using CoPilot AI Pair Programming and Github CoPilot to help me out. I'm avoiding full web stack technologies and changing the background to white. Come join me on my journey as I explore noosphere and create quick diagrams with Mermaid!"
 keywords: NeoVim, OpenAI, Auto-Suggest, Mermaid JS, CoPilot AI, Pair Programming, Github CoPilot, Noosphere, Data Sources, Join Tables, Tests and Assumptions, Milestones, Quick Diagrams, Full Web Stack, White Background
-categories: github copilot, openai, neovim
+categories: openai, neovim, github copilot
 layout: post
 ---
 
@@ -134,6 +134,6 @@ diagrams, I just change the background to white and lean into the defaults.
 ## Categories
 
 <ul>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li></ul>

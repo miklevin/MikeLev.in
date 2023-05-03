@@ -5,7 +5,7 @@ permalink: /blog/adding-google-analytics-to-github-io-page-with-jekyll/
 headline: Successfully Installing Google Analytics on my Github.io Page with Jekyll
 description: I recently installed Google Analytics on my Github.io Page with Jekyll, and I'm so glad I took the time to understand the Liquid system and what was going on underneath. After a few moments of research, I was able to successfully install Google Analytics and now I'm ready to move on to the next step. Read my blog post to find out how I did it!
 keywords: Google Analytics, Github.io, Jekyll, Liquid system, Installation, Configuration, Tweaking, Research, Understanding
-categories: google analytics, jekyll
+categories: jekyll, google analytics
 layout: post
 ---
 
@@ -58,5 +58,5 @@ Thanks, and later gators!
 ## Categories
 
 <ul>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

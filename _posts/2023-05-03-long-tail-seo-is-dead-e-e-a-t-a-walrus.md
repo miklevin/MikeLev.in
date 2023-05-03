@@ -27,7 +27,7 @@ to me now, except maybe for the education of my child. I generally I like to
 travel in the space of my own mind (reading & writing). It's just so much less
 drama and rigmarole.
 
-I will not an cryptobro nor an instapeep. Rather, I'll continue to be the
+I will not be a cryptobro nor an instapeep. Rather, I'll continue to be the
 alternative-path oddball. The path less travelled, and all that. I've gone
 years and decades removing myself from mainstream media influence once I
 detected its mind-rotting intent. Stuff like the CNN coverage of the 2nd Gulf
