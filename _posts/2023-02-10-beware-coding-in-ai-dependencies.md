@@ -5,7 +5,7 @@ permalink: /blog/beware-coding-in-ai-dependencies/
 headline: "Don't Depend on Big Companies: Create Your Own AI Datacenter on Your Bookshelf!"
 description: I am warning of the dangers of coding AI-dependencies, which only serves to increase the gap between the rich and the poor. Instead of relying on big companies for competitive advantage, I am encouraging people to make it happen on their own. With the decrease in cost of AI model-training hardware, I am suggesting that people can have a datacenter on their bookshelf. To learn more, I am advising people to chat with ChatGPT about the Socratic Method.
 keywords: AI-Dependencies, Rich, Poor, Big Companies, Competitive Advantage, Decrease in Cost, AI Model-Training, Hardware, Datacenter, Bookshelf, ChatGPT, Socratic Method
-categories: chatgpt, hardware
+categories: hardware, chatgpt
 layout: post
 ---
 
@@ -43,5 +43,5 @@ JavaScript. Push the boundaries with HTML, CSS and even SVG.
 ## Categories
 
 <ul>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li></ul>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>

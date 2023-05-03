@@ -5,7 +5,7 @@ permalink: /blog/adding-command-line-argument-support-to-jupyter-notebook/
 headline: Adding Command-Line Argument Support to Jupyter Notebook - My Journey to Making a Change
 description: I have added command-line argument support to my Jupyter Notebook using the Python standard library argparse. I have coded up a .py file and tested it successfully, and am now transplanting it into blogslicer, creating functions for displaying headings, and using dateutil and slugify modules. I wrote a script to slice and dice my blog posts into the correct format for Jekyll and incorporated it into my regular publishing release script. I made a change to my world
 keywords: "Command-Line Argument, Jupyter Notebook, Python, argparse, .py file, blogslicer, headings, dateutil, slugify, Jekyll, vim, git, `_include`, `_posts`"
-categories: vim, jupyter notebook, python, jekyll, git
+categories: python, vim, git, jekyll, jupyter notebook
 layout: post
 ---
 
@@ -390,8 +390,8 @@ forward.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

@@ -125,6 +125,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/quantum/">Quantum</a></li>
 <li><a href="/magic/">Magic</a></li>
 <li><a href="/muscle-memory/">Muscle Memory</a></li>
 <li><a href="/meta-descriptions/">Meta Descriptions</a></li>
@@ -148,5 +149,4 @@
 <li><a href="/version/">Version</a></li>
 <li><a href="/opportunity/">Opportunities</a></li>
 <li><a href="/ufo/">UFO</a></li>
-<li><a href="/evidence/">Evidence</a></li>
 </ol>
