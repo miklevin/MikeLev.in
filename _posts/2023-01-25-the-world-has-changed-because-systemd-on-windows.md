@@ -5,7 +5,7 @@ permalink: /blog/the-world-has-changed-because-systemd-on-windows/
 headline: Linux Services Now Part of Windows 10 and 11, Revolutionizing Mainstream Development
 description: As I reflect on how much the world has changed in recent months, I'm struck by the impact of AI and the integration of Linux services (systemd) into Windows 10 and 11. This opens up a world of possibilities for mainstream development, without relying on Microsoft back-slashes. Microsoft's purchase of Github for 7.5 billion dollars has also had a major effect on development habits. I urge readers to click through to learn more about the implications of these changes.
 keywords: World, AI, Linux, SystemD, Windows, Development, Microsoft, Github, 7.5 Billion Dollars, Reflecting, Mainstream, Edge
-categories: microsoft, systemd, ai, github, development, linux
+categories: github, development, systemd, ai, microsoft, linux
 layout: post
 ---
 
@@ -38,9 +38,9 @@ Pick op the pace of your video series.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

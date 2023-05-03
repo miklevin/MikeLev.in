@@ -5,7 +5,7 @@ permalink: /blog/moz-links-api-touch-every-endpoint-in-python/
 headline: "Exploring the MOZ Links API with Python: Learn How to Access Every Endpoint!"
 description: This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.
 keywords: MOZ, Links, API, Education, Guidance, Python, Jupyter, Notebook, Hosting, Environment, Google, Colab, Github, Code, Snippets, Endpoint, Documentation, Import, Libraries, Modules, Credentials, Access, ID, Secret, Key, Request, Body, URL, Metrics, Usage, Data, SQLite, Database, Engine, Context, Manager, Sub-endpoint, Label, Description, Example, Function
-categories: url, notebook, google, sqlite, github, database, moz, label, jupyter, python, api
+categories: api, github, moz, url, label, google, sqlite, notebook, database, jupyter, python
 layout: post
 ---
 
@@ -341,7 +341,7 @@ with sqldict("../dbs/linksapi.db") as db:
 
 Outputs:
 
-```javascript
+```bash
 1. Anchor Text (anchor_text)
 Use this endpoint to get data about anchor text used by followed external links to a target. Results are ordered by external_root_domains descending.
 
@@ -990,7 +990,7 @@ This endpoint returns top pages on a target domain.
               'root_domains_to_subdomain': 178649,
               'spam_score': 1,
               'subdomain': 'moz.com',
-              'title': "Beginner's Guide to SEO [plus FREE quick start "
+              'title': "Beginner\'s Guide to SEO [plus FREE quick start "
                        'checklist] - Moz'},
              {'deleted_pages_to_page': 7159,
               'deleted_pages_to_root_domain': 19022927,
@@ -1286,14 +1286,14 @@ This endpoint Returns the number of rows consumed so far in the current billing 
 ## Categories
 
 <ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
 <li><h4><a href='/url/'>URLs</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
+<li><h4><a href='/label/'>Labels</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/label/'>Labels</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/hello-world-and-life-is-worth-it/
 headline: Exploring AI and Quantum Computing to Unlock Creative Prompting and High Salaries
 description: Since March 10, 2020, I've been streaming and journaling with an AI assistant. I'm researching quantum computing, SEO tools, and how to join data from different sources. I'm advocating for timeless tools like Linux, Python, vim, and git, and exploring creative prompting as a skill that can lead to high salaries. As I'm not interested in creating a computer intelligence, I'm looking into how Microsoft and Google are raising their AI kids.
 keywords: SEO, Links API, MozBar, Moz Pro, Linux, Python, Vim, Git, Quantum Computing, AI, Microsoft, Google, Language, Empathy, Creativity, Alignment, Human Values, Internal Assets, Million Dollars
-categories: git, microsoft, google, ai, python, seo, linux, vim, empathy, moz pro
+categories: seo, empathy, git, google, moz pro, ai, microsoft, vim, linux, python
 layout: post
 ---
 
@@ -350,13 +350,13 @@ And it gives me stuff to share.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/empathy/'>Empathy</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

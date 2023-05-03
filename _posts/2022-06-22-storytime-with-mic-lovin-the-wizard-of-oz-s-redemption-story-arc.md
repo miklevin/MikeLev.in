@@ -5,7 +5,7 @@ permalink: /blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-ar
 headline: Exploring the Redemption Arc of The Wizard of Oz with Mic Lovin'
 description: I'm Mic Lovin' and I'm here to share the redemption arc of The Wizard of Oz from L. Frank Baum's fourteen-book series. Join me as I explore how Dorothy and Ozma's coming of age adventures shape them into dynamic personalities, while The Wizard learns real magic from Glinda the Good Witch of The North. Follow my journey as I create my own story arc and learn from the Good Linux of the GNUrth, all while sharing my knowledge with my friends on
 keywords: Storytime, Mic Lovin', Wizard of Oz, Redemption Story Arc, L. Frank Baum, Coming of Age, Dynamic Personalities, Glinda the Good Witch, Ozma, Dorothy, Omaha, United States, Real Magic, Strength, Wisdom, True Friends, YouTube, Lead by Example, Good Linux, GNUrth
-categories: strength, youtube
+categories: youtube, strength
 layout: post
 ---
 
@@ -164,5 +164,5 @@ This has been Storytime with Mike Levin. [insert mic poem]
 ## Categories
 
 <ul>
-<li><h4><a href='/strength/'>Strengths</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/strength/'>Strengths</a></h4></li></ul>
