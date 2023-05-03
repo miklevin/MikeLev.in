@@ -5,7 +5,7 @@ permalink: /blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines/
 headline: Discover the Benefits of Writing Accurate Headlines and Keeping a Journal - December 2, 2022 Talk with OpenAI
 description: On December 2, 2022, I will be giving a talk with OpenAI about clickbait headlines and the top 100 clickbait headlines I have compiled. I will also discuss why writing headlines that accurately describe the content of an article is a better strategy, as well as the benefits of keeping a journal, such as increased self-awareness, improved mental health, stress reduction, enhanced problem solving skills, and better communication skills. Finally, I will explain how Vim is a powerful and flexible text editor.
 keywords: OpenAI, Clickbait, Headlines, Writing, Accurately, Describe, Content, Benefits, Journal, Self-Awareness, Mental Health, Stress Reduction, Problem Solving, Communication, Skills, Vim, Text Editor, Windows, Subsystem, Linux, WSL, Systemd, System, Service, Manager, Services, Mount, File Systems, Programs
-categories: service, text editor, vim, systemd, openai, wsl, linux
+categories: vim, text editor, wsl, openai, service, systemd, linux
 layout: post
 ---
 
@@ -333,10 +333,10 @@ system.
 ## Categories
 
 <ul>
-<li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

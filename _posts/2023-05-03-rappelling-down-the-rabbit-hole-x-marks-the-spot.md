@@ -5,11 +5,13 @@ permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Muscle Memory, vim, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: vim, neovim, muscle memory, api
+categories: muscle memory, vim, api, neovim
 layout: post
 ---
 
-Three sort lines and a YAMLchop! An API to categorize, so here idea spills.
+> Three sort lines and a YAMLchop! An API to categorize, and now the bitter
+> pills. 
+
 Poetry strikes when you least expect it, and when it does, you're channeling
 from somewhere deep, either an eternal elsewhere or just a bunch of highly
 improbable neurons firing new synaptic connections pushing it up from the
@@ -318,7 +320,7 @@ fantasy, silly.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

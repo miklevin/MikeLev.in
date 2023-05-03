@@ -5,7 +5,7 @@ permalink: /blog/turning-repo-into-nbdev-project/
 headline: "Transforming Repo into nbdev Project: My Journey"
 description: I created a GitHub repo for my project, blogslicer, and connected it to my local directory. After editing the settings.ini file, I moved and renamed the notebook into the repo, added the necessary cells and comments for nbdev, and attempted to publish the project. Finally, I altered pythonically.com to not use index.md as the journal. Read my blog post to learn how I did it!
 keywords: Repo, nbdev, GitHub, project, blogslicer, local directory, settings.ini, notebook, cells, comments, publishing, pythonically.com, journal
-categories: nbdev, publishing, github, notebook
+categories: notebook, github, publishing, nbdev
 layout: post
 ---
 
@@ -39,7 +39,7 @@ your sites yet. Just start with pythonically.com and see how it goes.
 ## Categories
 
 <ul>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li></ul>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>
