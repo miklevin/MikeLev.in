@@ -21,3 +21,81 @@ defaults:
     values:
       layout: "default"
       author: "Mike Levin"
+
+# Metadata
+category_filter:
+  - article
+  - blog
+  - blog post
+  - book
+  - browser
+  - category
+  - challenge
+  - cloud
+  - code
+  - command
+  - content
+  - control
+  - data
+  - default
+  - description
+  - dictionary
+  - documentation
+  - editing
+  - education
+  - environment
+  - experience
+  - explore
+  - file
+  - fo
+  - folder
+  - free
+  - function
+  - idea
+  - image
+  - index
+  - job
+  - journal
+  - labels
+  - language
+  - laptop
+  - library
+  - life
+  - link
+  - list
+  - markdown
+  - mike levin
+  - mikelev.in
+  - money
+  - na
+  - none
+  - package
+  - page
+  - path
+  - post
+  - program
+  - program
+  - programming
+  - project
+  - release
+  - repo
+  - repository
+  - research
+  - result
+  - server
+  - software
+  - subsystem
+  - system
+  - task
+  - tech
+  - technology
+  - testing
+  - title
+  - tool
+  - upgrade
+  - user
+  - video
+  - website
+  - window
+  - world
+  - writing

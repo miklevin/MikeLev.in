@@ -5,7 +5,7 @@ permalink: /blog/tried-to-start-a-project/
 headline: "Taking the Leap: Starting a Project and Overriding the URL-Generating System"
 description: Today I'm taking the plunge and starting a project I've been putting off - importing my MikeLev.in repo from WordPress. I'm considering giving up dates in the URLs so that blog posts look evergreen, but I'm wondering if I can selectively override the URL-generating system for individual blog posts. Join me as I take this journey and find out what happens next!
 keywords: importing, WordPress, URL, dates, folders, subfolders, evergreen, selectively override, project, journey, MikeLev.in, repo, blog posts
-categories: journey, url
+categories: url, journey
 layout: post
 ---
 
@@ -37,5 +37,5 @@ process... glob! Path!
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li></ul>
+<li><h4><a href='/url/'>URLs</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

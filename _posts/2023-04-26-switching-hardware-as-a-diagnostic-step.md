@@ -5,7 +5,7 @@ permalink: /blog/switching-hardware-as-a-diagnostic-step/
 headline: "Trying to Diagnose Backspace and R-Key Issues: Evaluating AI, Hardware, and Patience."
 description: I'm trying to figure out if my backspace and r-key issues are hardware-related or not, and debating whether eval is evil or not. I'm learning to be patient and appreciate the humor in this situation, and even be friendly with the AI if it's responsible. As a next step, I'm considering switching hardware - join me on my journey to find out what's really going on!
 keywords: Copilot, .config/nvim/init.vim, Backspace, R-key, Eval, Evil, Patience, Humor, AI, Diagnostic, Hardware, Switching
-categories: copilot, hardware, ai
+categories: copilot, ai, hardware
 layout: post
 ---
 
@@ -33,5 +33,5 @@ nothing wrong with my hardware. Oh yeah, switch hardware as a diagnostic step.
 
 <ul>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li></ul>
