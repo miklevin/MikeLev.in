@@ -5,7 +5,7 @@ permalink: /blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/
 headline: "Unlock Your WSL Potential: Learn to Create Daemons with Systemd"
 description: I am engaging in controlled burns of my personal sites to optimize them for SEO, creating video content, writing to express my thoughts, taking up a 'magic spell' to free myself from Windows dependency, and planting the seed of my vibe on a homepage kernel. I am a wizard or mad scientist who wants to lead people through their WSL experience with a twist, warn them of the allures of vendor-ware, and promote HTML5, JavaScript, C, and Unix.
 keywords: AI, Writing, Daemons, SEO, Video Content, Magic Spell, Windows Dependency, Homepage Kernel, Wizard, Mad Scientist, WSL, Systemd, Web Development, Vendor-ware, HTML5, JavaScript, C, Unix, Levinux, Drinkme
-categories: unix, drinkme, javascript, systemd, wsl, web development, seo, levinux, ai
+categories: javascript, levinux, unix, wsl, drinkme, systemd, ai, seo, web development
 layout: post
 ---
 
@@ -192,12 +192,12 @@ recycling that URL. Wow, okay.
 ## Categories
 
 <ul>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>

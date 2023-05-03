@@ -5,7 +5,7 @@ permalink: /blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/
 headline: Uncovering the Credibility of UFO/UAP Community Members and Profiteers
 description: This article explores the UFO community and examines the evidence, credibility, and profiteering of people like Kenneth Arnold, Bob Lazar, George Knapp, and John Lear. I share my personal experience with a secret program to investigate UFOs and discuss who may be the most likely fakers and profiteers in the UFO community. Read on to learn more and ask me any questions you have about these people.
 keywords: UFO, UAP, Kenneth Arnold, Bob Lazar, George Knapp, John Lear, Area 51, Evidence, Credibility, Profiteering, Secret Program, Military Credentials, Media Company, Documentaries, Books, Skepticism, Opposition
-categories: evidence, ufo
+categories: ufo, evidence
 layout: post
 ---
 
@@ -122,5 +122,5 @@ Source: Conversation with Bing, 3/6/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/evidence/'>Evidence</a></h4></li>
-<li><h4><a href='/ufo/'>UFO</a></h4></li></ul>
+<li><h4><a href='/ufo/'>UFO</a></h4></li>
+<li><h4><a href='/evidence/'>Evidence</a></h4></li></ul>

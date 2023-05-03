@@ -9,13 +9,15 @@ group: home
 
 ## Welcome to my Daily Work Journal
 
-<img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="150vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
+<img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 This is my 1-long text-file for life journaling. I write in NeoVim, Copilot
 assisted lately, and me one of first AI-assisted life journalers. I'm a
 52-year-old SEO in NYC who codes and distributes free and open source SEO
 software on a small Linux distro. Levinux is a tiny Linux VM toy. Pipulate is a
 FOSS SEO software. And YAMLchop is how I'm slicing a 1-textfile journal up into
 this site.
+
+### An Ode to The Status Quo
 
 > I will not get discovered  
 > And it's not to be lamented;  
