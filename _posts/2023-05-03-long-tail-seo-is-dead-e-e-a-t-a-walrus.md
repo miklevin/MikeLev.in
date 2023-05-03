@@ -71,10 +71,10 @@ adventures, then would Dorothy have had hers in Oz?
 
 Wrapping such coming-of-age stories in the trappings of fantasy and nonsense
 makes them more palatable to the masses, especially when it comes to a young
-girl whose prospects in life especially in the 1800s were so limited. But my
+girl whose prospects in life especially in the 1800s were so limited. But by
 introducing the ambiguity of the real world into the fantasy world, it made it
-more palatable, and perhaps even more timeless. It certainly ages better than
-when a boy is cast into a real-world like floating down the Mississippi River
+more palatable, and perhaps even more timeless. It certainly ages better than a
+boy is cast into a very realistic world floating down the Mississippi River
 with a runaway slave and triggering N-word language that gets it banned. Alice
 is virtually ban-proof in addition to timeless.
 
@@ -82,12 +82,16 @@ If you only know Alice through the Disney movie, I suggest you read it. It's
 not a long read, and it's a very different experience. The subtle difference
 themselves are a lesson in how the mind works. Disney for example cast the
 Carpenter as outright cheated by the Walrus in the movie, but in the book, it's
-implied that the Carpenter is in on the scam because he asked the Walrus for
-another slice of bread, so the Carpenter got to eat. It is left ambiguous and
-Walt definitely things the proletariat class (working class craftspeople) will
+implied that the Carpenter is in on the Oyster-eating scam because he asked the
+Walrus for another slice of bread, so the Carpenter got to eat. 
+
+The actual Alice book leaves it ambiguous whether the Carpenter eats oysters.
+Walt definitely thins the proletariat class (working class craftspeople) will
 always and necessarily be screwed over by the bourgeoisie (orating,
-self-important ruling class). You haven't read Alice until you get this, and
-the countless other subtle gems. I love the movie. Just do both. Often.
+self-important ruling class). Projecting there much, Walt? You haven't read
+Alice until you get this subtle distinction regarding the Carpenter.
+Identifying with the Carpenter such as I do (I ***love*** oysters), this is of
+great interest to me.
 
 Protecting your sanity from those who would undo it in life is amongst life's
 greatest skills. In modern times we've got a word for it: gaslighting. The

@@ -5,7 +5,7 @@ permalink: /blog/what-s-racism-towards-ai-called-ai-bias-algorithmic-bias-specie
 headline: Exploring Potential for Long-Term Success with Python, Vim, and Windows Subsystem for Linux
 description: I recently joined the waiting list for the new Bing search engine and am already using it. I'm considering making a YouTube video to capitalize on the increased search traffic, and creating content about Python, Vim, and the Windows Subsystem for Linux. Join me on my journey as I explore these topics and uncover the potential for long-term success.
 keywords: AI, Bias, Algorithmic Bias, Speciest, Bing, YouTube, Video, Search Traffic, Python, Vim, Windows Subsystem for Linux, WSL, Errors, Long-term Success
-categories: wsl, python, ai, vim, youtube, bing
+categories: vim, python, bing, youtube, ai, wsl
 layout: post
 ---
 
@@ -49,9 +49,9 @@ general are my still fertile long-tail bailiwick.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>

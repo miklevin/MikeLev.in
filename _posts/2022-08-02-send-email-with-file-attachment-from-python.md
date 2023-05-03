@@ -5,7 +5,7 @@ permalink: /blog/send-email-with-file-attachment-from-python/
 headline: "Enhancing Email Functionality with Python: Adding HTML, Images, and Zipped Files"
 description: I wrote code to enhance the sendemail.py program to include HTML and an image attachment, as well as a zipped file. I then created a program to schedule the sendmail.py file to run every 10 seconds, 5 seconds, and 1 minute, sending an email with the attached file. Read my blog post to learn more about how I did it!
 keywords: Python, Email, File Attachment, HTML, Image Attachment, Zipped File, Scheduling, Task, 10 Seconds, 5 Seconds, 1 Minute
-categories: python, email, html
+categories: email, python, html
 layout: post
 ---
 
@@ -101,6 +101,6 @@ while True:
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li></ul>
