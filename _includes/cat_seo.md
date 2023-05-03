@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a> (Wed May 03, 2023)
+<br/>As an experienced SEO, I've seen the effectiveness of long-tail SEO decline due to the tragedy of the commons. To break into the industry, we must figure out how to emit signals indicating Experience, Authority and Trustworthiness to convince Google you're Expert (E-E-A-T). Learn from Lewis Carroll's timeless stories and protect your sanity from those who would undo it. Don't covet the generational wealth of the Walrus family - use your own hammer to build your own kingdom.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
 <br/>Learn how to use Linux, Python, vim & git (LPvg) to stay up-to-date with the latest technologies. Follow the Unix philosophies to make sure your commands are universal and portable. Read about Levinux, Pipulate, and how to use them to make SEO deliverables. Plus, discover how to write from the first person perspective, keep your content short, and link your homepage index.md to the new include.</li>
 <li><a href="/blog/steve-jobs-and-bill-gates-having-amiga-envy/">Steve Jobs and Bill Gates having Amiga-envy</a> (Tue Apr 25, 2023)

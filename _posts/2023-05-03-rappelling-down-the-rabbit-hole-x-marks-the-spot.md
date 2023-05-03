@@ -5,17 +5,15 @@ permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: api, muscle memory, magic, neovim, vim
+categories: neovim, vim, muscle memory, magic, api
 layout: post
 ---
 
-> Three sort lines and a YAMLchop! An API to categorize, and now the bitter
-> pills. 
-
-Poetry strikes when you least expect it, and when it does, you're channeling
-from somewhere deep, either an eternal elsewhere or just a bunch of highly
-improbable neurons firing new synaptic connections pushing it up from the
-subconscious. I'm not sure which, but does it matter? Now, down to business.
+Three sort lines and a YAMLchop! Poetry strikes when you least expect it, and
+when it does, you're channeling from somewhere deep, either an eternal
+elsewhere or just a bunch of highly improbable neurons firing new synaptic
+connections pushing it up from the subconscious. I'm not sure which, but does
+it matter? Now, down to business.
 
 Wow, the experience now of running my `all` script to get started for the day
 is so much better. The repo for my main site takes no longer to load than any
@@ -320,8 +318,8 @@ fantasy, silly.
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
