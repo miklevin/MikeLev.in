@@ -5,7 +5,7 @@ permalink: /blog/openai-category-descriptions-project/
 headline: I Solved a Problem and Now I'm Ready to Move On!
 description: "I just released a project I've been working on for the past few days. After overcoming an issue with category tags, I'm now ready to move onto the next step: identifying data locations, deciding whether to rely on them in an existing context or break them out, and creating a parameter. Read my blog post to find out more!"
 keywords: Project, Release, Category, Tag, Constant, Type, Empty List, Identifying, Location, Program, Data, Existing Context, Break, Parameter
-categories: tag
+categories: 
 layout: post
 ---
 
@@ -68,5 +68,4 @@ stopping point and I know where to begin when I next re-approach this project.
 
 ## Categories
 
-<ul>
-<li><h4><a href='/tag/'>Tags</a></h4></li></ul>
+<ul></ul>

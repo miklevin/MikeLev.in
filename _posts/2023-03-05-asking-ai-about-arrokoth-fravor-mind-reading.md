@@ -5,7 +5,7 @@ permalink: /blog/asking-ai-about-arrokoth-fravor-mind-reading/
 headline: "Exploring Arrokoth, Fravor & Mind Reading: Is Scientific Investigation the Best Way to Get Evidence?"
 description: I was asked a difficult question about calculating the odds of New Horizons's equipment failure, so I suggested looking it up online. My conversation partner then asked who I would target if I could read minds, and I chose David Fravor, a retired naval pilot who witnessed a UFO sighting in 2004. In response to the implications of my question, I apologize and suggest a better way to get evidence is to conduct a rigorous and transparent scientific investigation.
 keywords: Arrokoth, Fravor, Mind Reading, Odds, New Horizons, Equipment Failure, UFO Sighting, 2004, Evidence, Rigorous, Transparent, Scientific Investigation, UAPs, Hypotheses, Foreign Adversary, Natural Phenomena, Extraterrestrial Vehicles, Probes, Data, Perspectives, Formulating, Testing, Evaluating, Comparing
-categories: 
+categories: evidence
 layout: post
 ---
 
@@ -107,4 +107,5 @@ I apologize if my question was confusing or misleading. I hope you understand th
 
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/evidence/'>Evidence</a></h4></li></ul>

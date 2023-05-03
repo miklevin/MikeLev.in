@@ -5,7 +5,7 @@ permalink: /blog/connecting-the-dots-ain-t-easy/
 headline: Exploring a Different Approach to Connecting the Dots
 description: "I'm trying to learn how to connect the dots and it's not easy. I'm taking a different approach: instead of drawing first, I'm learning how to look. Join me on my journey to figure out how to connect the dots and start seeing the bigger picture."
 keywords: connecting, dots, easy, learn, approach, drawing, look, journey, figure, open, book, take, in, start
-categories: journey
+categories: easy, journey
 layout: post
 ---
 
@@ -21,4 +21,5 @@ layout: post
 ## Categories
 
 <ul>
+<li><h4><a href='/easy/'>Easy</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li></ul>

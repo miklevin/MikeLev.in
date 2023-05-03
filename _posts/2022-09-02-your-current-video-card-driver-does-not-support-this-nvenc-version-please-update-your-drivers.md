@@ -5,7 +5,7 @@ permalink: /blog/your-current-video-card-driver-does-not-support-this-nvenc-vers
 headline: Solved my OBS Screen Capture Error with NVIDIA Driver Update
 description: Having trouble starting a screen capture with OBS? I ran into the same issue and figured out how to fix it by downloading the correct video driver from the NVIDIA website. I identified the correct driver by going to Windows Device Manager and finding the NVIDIA GeForce GTX 1060. Read my blog post to find out more about this issue and how I solved it.
 keywords: NVENC, Video Card Driver, OBS, NVIDIA, GeForce GTX 1060, Windows Device Manager, Screen Capture, Error Message, Download, Fix, Solution
-categories: download
+categories: 
 layout: post
 ---
 
@@ -33,5 +33,4 @@ Device Manager and expanding Display adapters.
 
 ## Categories
 
-<ul>
-<li><h4><a href='/download/'>Download</a></h4></li></ul>
+<ul></ul>

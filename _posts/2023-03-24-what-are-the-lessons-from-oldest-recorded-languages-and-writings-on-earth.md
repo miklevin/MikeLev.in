@@ -5,7 +5,7 @@ permalink: /blog/what-are-the-lessons-from-oldest-recorded-languages-and-writing
 headline: "Exploring the Oldest Recorded Languages and Writings on Earth: Uncovering the Power of Writing and Literacy in Ancient Times"
 description: This blog post explores some of the oldest known recorded stories, histories, myths, and events, dating back to 3100 BCE. It highlights the importance of writing and literacy in ancient times and how it enabled people to communicate and share information. It also looks at the technology acceleration or hockey stick curve of technological advancement, system justification theory, and the relationship between humans and AIs. By understanding these concepts, we can create a better future.
 keywords: Ancient, Literacy, Writing, Communication, Technology, Hockey Stick Curve, System Justification Theory, AI, Renewable Energy, Biotechnology, Space Exploration, Nanotechnology, Colonial Explorers, Culture, Tools, Personalities, Respect, Admiration, Hope, Possibility
-categories: possibility, ai
+categories: ai
 layout: post
 ---
 
@@ -220,5 +220,4 @@ And in the end, humanity and the AIs lived happily ever after, working together 
 ## Categories
 
 <ul>
-<li><h4><a href='/possibility/'>Possibilities</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

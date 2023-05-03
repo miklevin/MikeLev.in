@@ -5,7 +5,7 @@ permalink: /blog/make-lxdwin-much-about-vim/
 headline: Jump Into the Future of Computing with LXDWIN and Vim!
 description: Today, I'm focusing on making LXDWIN more about vim. I'm measuring success by how many people keep a daily journal in vim and introduce others to the command-line interface. I'm creating content for different audiences and saving time by laying the groundwork for others and AI-systems to edit. I'm applying this approach to my day-job and looking forward to the coming exodus from Microsoft Windows. Come join me on this journey and see what the future of computing holds!
 keywords: Vim, Command-Line Interface, Content, Audiences, Editing, Microsoft Windows, Journaling, AI-Systems, Future of Computing, LXDWIN
-categories: vim, journaling
+categories: journaling, vim
 layout: post
 ---
 
@@ -68,5 +68,5 @@ nearly have it packed up the way I like on an LXD container.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

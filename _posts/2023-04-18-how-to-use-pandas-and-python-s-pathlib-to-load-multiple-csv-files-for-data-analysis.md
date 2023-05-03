@@ -5,7 +5,7 @@ permalink: /blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-fil
 headline: "Unlock Data Analysis with Pandas and Pathlib: My Journey of Automating File Loading"
 description: I released a video and tweeted the link in time for the live premiere, and I created a program called ChopChop to help me chop my journal.md file. I used the .glob() method of a pathlib Path object to get a list of all the files in a directory, which I then used to 'seed' my data project. Finally, I used pandas dataframes to turn the list of file paths into something I can expand outwards from. Check out my blog.
 keywords: Pandas, Python, Pathlib, CSV, Data Analysis, ChopChop, Glob, Path, Object, Directory, Seed, Data Project, Video, Live Premiere, Journal.md, Files, Dataframes
-categories: python, csv, journal.md
+categories: csv, python, journal.md
 layout: post
 ---
 
@@ -67,6 +67,6 @@ for f in Path(DATA_DIR).glob("Competitive Research_ True Competitor - Moz Pro*.c
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/csv/'>CSV</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/journal-md/'>Journal.md</a></h4></li></ul>

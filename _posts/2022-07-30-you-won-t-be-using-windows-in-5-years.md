@@ -5,7 +5,7 @@ permalink: /blog/you-won-t-be-using-windows-in-5-years/
 headline: "Prepare for the Future of Computing: Learn About Virtual Machines and Resource Isolation"
 description: As a tech-savvy individual, I'm warning myself to stay ahead of the curve and be aware of the future of computing. With software becoming obsolete quickly, I need to be informed about the concept of Virtual Machines, which is really about resource isolation. I'm also exploring the implications of this technology, which has been around for decades, in terms of performance and security. Read on to learn more.
 keywords: Windows, Virtual Machines, Resource Isolation, Performance, Security, *nix, Obsolete Software
-categories: 
+categories: security
 layout: post
 ---
 
@@ -31,4 +31,5 @@ FORGET VMS
 
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/security/'>Security</a></h4></li></ul>

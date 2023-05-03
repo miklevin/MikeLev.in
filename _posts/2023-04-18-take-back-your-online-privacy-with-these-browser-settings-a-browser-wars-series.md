@@ -5,7 +5,7 @@ permalink: /blog/take-back-your-online-privacy-with-these-browser-settings-a-bro
 headline: "Secure Your Online Privacy: Uncover the Latest Tricks Microsoft is Using to Hide How to Change Your Default Search Engine"
 description: Learn how to take back control of your online privacy in this episode of the 'Browser Wars' series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.
 keywords: Browser Wars, Edge settings, Microsoft, privacy, default search, Bing, online privacy, search engine
-categories: microsoft, bing
+categories: bing, microsoft
 layout: post
 ---
 
@@ -74,5 +74,5 @@ history, protect personal information.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

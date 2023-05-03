@@ -5,7 +5,7 @@ permalink: /blog/unique-conversation-let-s-talk-ai-python-next-steps/
 headline: Unlocking the Potential of AI and Python with Linux-hosted JupyterLab on Windows 10
 description: I'm amazed at how easy it is to use Linux-hosted JupyterLab on Windows 10. With my Python code, I can easily copy and paste between my Windows machine and the server. Investing in this system is easier than I thought and it has remained the same over the years. To maximize my impact in AI and Python, I need to create a Machine Learning License, copywrite my content, and create quick projects that I couldn't have done before.
 keywords: AI, Python, Linux, JupyterLab, Windows 10, Machine Learning License, Copywrite, Content, Projects, Economic Value, Typing System, Operating Computers, 1990s, 2020s
-categories: linux, jupyterlab, windows 10, ai, python
+categories: python, windows 10, jupyterlab, ai, linux
 layout: post
 ---
 
@@ -99,8 +99,8 @@ those.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

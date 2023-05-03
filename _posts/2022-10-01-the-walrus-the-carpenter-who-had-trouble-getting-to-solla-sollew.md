@@ -5,7 +5,7 @@ permalink: /blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-solle
 headline: "Gaining Strength from Mistakes: My Story of Overcoming Deception Like the Walrus in Dr. Seuss' I Had Trouble in Getting to Solla Sollew"
 description: I have learned from my own mistakes, like the ones in Dr. Seuss' I Had Trouble in Getting to Solla Sollew. People have tried to take advantage of me, like the Walrus in the story, but I have come out stronger and wiser because of it. Read my story to find out how I overcame these obstacles and gained strength from them.
 keywords: Dr. Seuss, Walrus, Carpenter, Solla Sollew, Mistakes, Tricked, Strength, Overcome, Obstacles, Lessons
-categories: 
+categories: strength
 layout: post
 ---
 
@@ -24,4 +24,5 @@ stronger, and oh how strong I have become!
 
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/strength/'>Strengths</a></h4></li></ul>

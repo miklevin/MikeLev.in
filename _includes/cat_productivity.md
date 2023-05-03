@@ -12,4 +12,4 @@
 <li><a href="/blog/teaching-my-wife-vim/">Teaching My Wife vim</a> (Sun Apr 10, 2022)
 <br/>I'm teaching my wife vim, which I use to copy and paste text files and back up code to Github. I've been using vim for decades, and I'm excited to help my wife learn this timeless technology. I overcame my own negative experience with vim to understand its importance, and I'm enjoying the meaningful experience of helping my wife learn it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/meta descriptions/">Meta Descriptions</a></div><div class="post-nav-next"><a href="/game/">Game</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/meta descriptions/">Meta Descriptions</a></div><div class="post-nav-next"><a href="/flow/">Flow</a><span class="arrow">&nbsp;&rarr;</span></div></div>

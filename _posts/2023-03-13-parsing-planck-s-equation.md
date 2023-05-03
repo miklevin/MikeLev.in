@@ -5,7 +5,7 @@ permalink: /blog/parsing-planck-s-equation/
 headline: "Uncovering the Hidden Flaws in Physics Calculations: Why Attention to Units and Dimensions is Essential"
 description: As a physicist, I understand how important it is to pay attention to units and dimensions when doing calculations. I explain why it is not valid to drop seconds from Planck's equation and provide an analogy of radians versus degrees to illustrate why radians are better for showing balanced equations. I also discuss how misapplied axioms can create blind spots when it comes to mathematics and the need to be aware of deceptively difficult arguments that may contain hidden flaws.
 keywords: Planck's Equation, Physics, Units, Dimensions, Radians, Degrees, Axioms, Mathematics, Joules, Planck's Constant, Hertz, Inverse Seconds, SI Unit, Time Measurement, Speed of Light, Motion of Observer, Ratios of Arc Lengths, Circles, Physical Quantities, Cancellation, E = hv, Energy, Frequency, Joule-Seconds, Unit Blindness, Misapplied Axioms, Blind Sp
-categories: frequency
+categories: 
 layout: post
 ---
 
@@ -493,5 +493,4 @@ We need to beware of deceptively difficult arguments that may seem logical at fi
 
 ## Categories
 
-<ul>
-<li><h4><a href='/frequency/'>Frequency</a></h4></li></ul>
+<ul></ul>

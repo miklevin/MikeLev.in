@@ -12,4 +12,4 @@
 <li><a href="/blog/removing-stopwords-from-jekyll-blog-urls/">Removing Stopwords From Jekyll Blog URLs</a> (Fri Apr 29, 2022)
 <br/>I recently completed a 15-year project, blogslicer, as part of my ELPGD (every little project gets done) mentality. I used Linux, Python, vim, and git to create the program, and now I'm incorporating a feature to remove stopwords from Jekyll blog URLs using the Python library, nltk. I'm writing code to create a blog post with a given title, slug, and path, which will generate a journal.md file with a table</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/chrome/">Chrome</a></div><div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/chrome/">Chrome</a></div><div class="post-nav-next"><a href="/error/">Error</a><span class="arrow">&nbsp;&rarr;</span></div></div>

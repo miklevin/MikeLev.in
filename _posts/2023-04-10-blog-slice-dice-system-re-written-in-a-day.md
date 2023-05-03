@@ -5,7 +5,7 @@ permalink: /blog/blog-slice-dice-system-re-written-in-a-day/
 headline: Re-Implementing my Blog with AI-Powered Summaries and 541 Posts
 description: I've re-implemented my blog slice & dice system, replaced an old markdown file with an efficient system, renamed the skite repo to chopchop, and paid for an AI to summarize my 540 blog posts. I'm using a generator for my journal-to-blog transformation script, and I'm now ready to go with 541 posts and an OpenAI meta description on the blog's index page. Come see the new and improved blog!
 keywords: "Slice & Dice System, Markdown File, Skite Repo, ChopChop, AI, 540 Blog Posts, Generator, Journal-to-Blog Transformation, OpenAI, 541 Posts, Meta Description, Jekyll's `_data` Directory, Macro, Manual Command, Short OpenAI Meta Description"
-categories: openai, ai, macro
+categories: ai, openai, macro
 layout: post
 ---
 
@@ -381,6 +381,6 @@ the blog's index page as it's description.
 ## Categories
 
 <ul>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/macro/'>Macro</a></h4></li></ul>

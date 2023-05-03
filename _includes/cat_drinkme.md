@@ -1,0 +1,15 @@
+<ol>
+<li><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile/">ASCII Alice Getting Smaller to Fit Mobile</a> (Tue Apr 04, 2023)
+<br/>I installed Ubuntu 20.04 at the Windows Store to make Alice smaller and optimize the mobile DrinkMe script experience. I'm eager to see the outcome of this work, and I'm excited to share my journey with you!</li>
+<li><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a> (Fri Dec 16, 2022)
+<br/>I'm focusing on exuding Google's Quality Guidelines, E-E-A-T, by creating unique and genuine content that demonstrates my experience. I'm also keeping dependencies low and updating the Levinux index.html file, as well as making sure the DrinkMe script is accessible. Join me as I take you through my journey to follow Google's Quality Guidelines.</li>
+<li><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/">With AI On The Way, You Had Better Be Able to Write Daemons</a> (Tue Dec 13, 2022)
+<br/>I am engaging in controlled burns of my personal sites to optimize them for SEO, creating video content, writing to express my thoughts, taking up a "magic spell" to free myself from Windows dependency, and planting the seed of my vibe on a homepage kernel. I am a wizard or mad scientist who wants to lead people through their WSL experience with a twist, warn them of the allures of vendor-ware, and promote HTML5, JavaScript, C, and Unix.</li>
+<li><a href="/blog/combine-csv-files-with-python-pandas/">Combine CSV Files with Python Pandas</a> (Thu Dec 01, 2022)
+<br/>Create a new repo in DrinkMe Linux called 'combinecsvfiles' for processing CSVs. Extract information from filenames and add it to rows of the CSV using Python Pandas. Easily stack CSV dataframes in a Python list using 'pd.concat(lot)'. Discover how easy it is to combine CSVs into a single file - just use the code 'df = pd.concat(lot)'!</li>
+<li><a href="/blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/">LXDWIN is now the DrinkMe JupyterLab Linux Install Script</a> (Tue Nov 29, 2022)
+<br/>I've rebranded my lxdwin repository to drinkme, and I'm starting a big data-pull project for work. I'm creating a repo folder so everyone can follow along and I'll make a video about it. Come join me and see how it all unfolds!</li>
+<li><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a> (Tue Nov 29, 2022)
+<br/>I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes.</li>
+</ol>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/imposter syndrome/">Imposter Syndrome</a></div><div class="post-nav-next"><a href="/marketing/">Marketing</a><span class="arrow">&nbsp;&rarr;</span></div></div>

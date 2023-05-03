@@ -5,7 +5,7 @@ permalink: /blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/
 headline: "Exploring Tech and Info Tech: Join Me on My Journey to Make My Home Cozy and Inviting"
 description: As a New York SEO expert, I'm making my home cozy and inviting while encouraging people to familiarize themselves with tech and info tech. I'm leveraging my two domains, Pipulate and Levinux, and discussing imposter syndrome and how financial worth isn't a measure of someone's validity. Join me in my journey as I explore the world of tech and info tech and learn how to make your home cozy and inviting.
 keywords: New York SEO, Pipulate, Levinux, Imposter Syndrome, Financial Worth, Tech, Info Tech, Cozy Home, Inviting, Diagrams, Lists, Open Source SEO Software, Products, Transition, Explore, Validity
-categories: pipulate, levinux, transition
+categories: imposter syndrome, pipulate, levinux
 layout: post
 ---
 
@@ -70,6 +70,6 @@ and rabbit hole detection and escaping. `
 ## Categories
 
 <ul>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/transition/'>Transition</a></h4></li></ul>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>

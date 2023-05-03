@@ -34,15 +34,19 @@ category_filter:
   - cloud
   - code
   - command
+  - commit
   - content
   - control
   - data
   - default
   - description
+  - device
   - dictionary
   - documentation
+  - download
   - editing
   - education
+  - effect
   - environment
   - experience
   - explore
@@ -50,10 +54,14 @@ category_filter:
   - fo
   - folder
   - free
+  - frequency
   - function
+  - game
+  - home
   - idea
   - image
   - index
+  - install
   - job
   - journal
   - labels
@@ -63,6 +71,7 @@ category_filter:
   - life
   - link
   - list
+  - machine
   - markdown
   - mike levin
   - mikelev.in
@@ -72,26 +81,33 @@ category_filter:
   - package
   - page
   - path
+  - playwright
+  - possibility
   - post
-  - program
   - program
   - programming
   - project
+  - push
   - release
   - repo
   - repository
   - research
   - result
   - server
+  - site
+  - slug
   - software
   - subsystem
   - system
+  - tag
   - task
   - tech
   - technology
   - testing
   - title
   - tool
+  - transition
+  - update
   - upgrade
   - user
   - video
