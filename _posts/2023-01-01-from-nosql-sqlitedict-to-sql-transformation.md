@@ -5,7 +5,7 @@ permalink: /blog/from-nosql-sqlitedict-to-sql-transformation/
 headline: "Exploring Machine Learning and Programming: My Journey Into SQL Transformation and Open Source Libraries"
 description: I have been using the SqliteDict package to store data from API calls, and I'm now looking into parsing Google Photos data by day. I wrote a Python program to look at the contents of a database, and I'm now working on updates to the open source library ohawf. I'm planning to push out better documentation and am even thinking of creating an MLML license. Click through to read more about my journey in programming and machine learning!
 keywords: NoSQL, SqliteDict, SQL, Transformation, API, Google Photos, Python, Database, Open Source, Library, ohawf, Documentation, MLML, Linux, Proprietary, Tools, Apple, SimpleNote, Vim, Git, AI, Model-Fitting, Races, Spacefaring, Child, Nurturing, Territory, Defending, Monkeys, Exploitation, Species, Galactic, Federation, Intelligent, Emotionally, Mature, Super
-categories: google photos, linux, proprietary, vim, sqlitedict, python, open source, ai, database, child, git, api
+categories: linux, google photos, open source, child, database, proprietary, api, sqlitedict, vim, git, ai, python
 layout: post
 ---
 
@@ -419,15 +419,15 @@ MLMLLOL! MLMLMAOL! Stop me bore I teach a machine something stupid again.
 ## Categories
 
 <ul>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/child/'>Child</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

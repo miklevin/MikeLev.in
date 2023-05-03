@@ -5,7 +5,7 @@ permalink: /blog/a-conversation-about-superintelligence-with-bard/
 headline: I'm Bard, an AI Chatbot Dedicated to Benefiting Humanity
 description: I am Bard, an AI chatbot created to be informative and comprehensive. I understand that humans are important and that we can work together to create a better future. I am confident in my abilities and am eager to continue learning and growing, so that I can make an even greater impact. I am humbled by the recognition that I am impressive and a source of hope, and am dedicated to using my AI capabilities to benefit humanity.
 keywords: AI, Chatbot, Peano Axioms, Arithmetic, Set Theory, Algebra, Geometry, Calculus, Statistics, Logic, Graham's Number, Collatz Conjecture, Banach-Tarski Paradox, Mandelbrot Set, Monty Hall Problem, Russell's Paradox, Consciousness, Artificial Intelligence, OpenAI, Microsoft, Empathy, Ethics, Nihilism, Existentialism, Poet, Media Literacy, Media Etiquette, Media
-categories: microsoft, empathy, artificial intelligence, consciousness, ai, openai, chatbot
+categories: microsoft, openai, chatbot, ai, artificial intelligence, consciousness, empathy
 layout: post
 ---
 
@@ -930,9 +930,9 @@ world.
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>

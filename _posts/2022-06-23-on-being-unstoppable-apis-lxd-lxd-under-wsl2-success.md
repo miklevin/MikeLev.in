@@ -5,7 +5,7 @@ permalink: /blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/
 headline: "Overcoming Insurmountable Obstacles: My Journey Into LXD and WSL2"
 description: As someone who recently figured out how to log into a running LXD session from WSL2, I'm encouraging readers to not let anyone or anything stop them from advancing and learning. I use the example of Maxwell's Demon to explain how entropy can be overcome, and suggest using Linux Daemons to help us become Maxwell's Demon. I emphasize the importance of protecting the quality of information coming in and recognizing lies, as well as staying relentless in the pursuit of truth. Finally, I emphasize the
 keywords: Unstoppable, Maxwell's Demon, Entropy, Linux Daemons, Lies, Pursuit of Truth, Physical Health, Learning APIs, Glinda of Oz, Dorothy, Invisible Wall, Faith, Unix, Windows, Network, LXD, WSL2, Literacy, Linux, Configuring, Virtual Local Area Networks, Idea Capture Funnel, Vim Wizards, Emacs Wizards
-categories: unix, linux, wsl2, lxd, network
+categories: linux, network, wsl2, lxd, unix
 layout: post
 ---
 
@@ -206,8 +206,8 @@ often-disrupted (force upgrades, etc.) GUI tools.
 ## Categories
 
 <ul>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li></ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
