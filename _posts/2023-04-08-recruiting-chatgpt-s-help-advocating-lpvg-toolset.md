@@ -5,7 +5,7 @@ permalink: /blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/
 headline: "LPvg Toolset: Mike Levin Advocates for Easier Access for Newbies"
 description: I'm Mike Levin and I'm looking for web-based APIs to help manage Linux system daemons through a Web UI. I'm open to using Flask or running it through Jupyter Notebooks in JupyterLab, hosted on the same Linux machine. I'm forking the .service file and running it as a GNU screen session to get the console-monitoring advantage. I use Linux virtual machines as a universal layer for interoperability and portability to make this skill timeless.
 keywords: Recruiting, ChatGPT, Help, Advocating, LPvg, Toolset, Mike Levin, Web-based APIs, Linux, System Daemons, Flask, Jupyter Notebooks, JupyterLab, Forking Mode, .service File, GNU Screen Session, Linux Virtual Machines, Universal Layer, Interoperability, Portability, Mental Blocks, Possibilities, BCPL, C, Unix, Python, Vim, Git, Open-Source, Macs
-categories: jupyter notebooks, git, chatgpt, jupyterlab, unix, lpvg, vim, linux, python
+categories: vim, jupyter notebooks, linux, python, lpvg, unix, jupyterlab, chatgpt, git
 layout: post
 ---
 
@@ -448,12 +448,12 @@ Source: Conversation with Bing, 4/8/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

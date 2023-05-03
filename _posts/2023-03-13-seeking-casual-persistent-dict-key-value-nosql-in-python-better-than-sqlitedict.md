@@ -5,7 +5,7 @@ permalink: /blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better
 headline: Exploring Options for Casual Persistent Key-Value NoSQL in Python
 description: In this blog post, I discuss the programming API and how it relates to list, dicts, and tuples. I explain how dicts are most similar to key-value databases and explore two possible options for a NoSQL or key-value database in Python with an API similar to a standard Python dict. I provide information and examples on how to use Couchbase Lite Python SDK and SqliteDict API for a casual key/value store.
 keywords: Python, Casual, Persistent, Key-Value, NoSQL, SqliteDict, API, List, Dicts, Tuples, Key/Value, ORMs, SQLite, JSON, Documents, Sync, Devices, SDK, MutableDocument, Save, Commit, Dot Notation, Brackets, Nested Values
-categories: api, sqlitedict, sqlite, python
+categories: python, sqlitedict, api, sqlite
 layout: post
 ---
 
@@ -237,7 +237,7 @@ Do you see any advantages or disadvantages of either approach?
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>

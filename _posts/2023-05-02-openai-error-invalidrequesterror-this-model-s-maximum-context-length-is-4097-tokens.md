@@ -5,7 +5,7 @@ permalink: /blog/openai-error-invalidrequesterror-this-model-s-maximum-context-l
 headline: I Refined My Writing Process to Fit OpenAI's Maximum Context Length of 4097 Tokens
 description: "Learn how I used the OpenAI Codex API to optimize my articles for website navigation. I found `pip instal tiktoken` and code snippets to count tokens and chop back my input with rsplit to fit the maximum context length of 4097 tokens."
 keywords: OpenAI, Codex API, MOZ Links API, Article Writing, Summarizing, Chunking, Token Counting, tiktoken, Python, Code, Meta Descriptions, Headlines, Keywords, Summarizing Summaries
-categories: meta descriptions, openai, moz links api, keywords, python
+categories: openai, python, meta descriptions, keywords, moz links api
 layout: post
 ---
 
@@ -91,8 +91,8 @@ which I was only doing to get it down to size token-wise for OpenAI.
 ## Categories
 
 <ul>
-<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
 <li><h4><a href='/keywords/'>Keywords</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li></ul>
