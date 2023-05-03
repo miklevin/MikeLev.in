@@ -5,7 +5,7 @@ permalink: /blog/chatgpt-write-an-article-about-the-controversial-history-of-cok
 headline: "Uncovering the Controversial History of Coca-Cola: From Cocaine to a Secret Blend of Flavorings."
 description: As Coca-Cola, I have been one of the world's most successful and recognizable brands since being invented by John Pemberton in 1886. Initially made with a combination of cocaine and caffeine from the coca plant, I have since been reformulated to include a secret blend of flavoring agents. I have continued to grow over the years and invite you to learn more about my fascinating story.
 keywords: Coca-Cola, John Pemberton, 1886, Cocaine, Caffeine, Coca plant, Flavoring agents, Controversial, History, Successful, Recognizable, Brand, Atlanta, Georgia, Sugar, Ingredients
-categories: history
+categories: 
 layout: post
 ---
 
@@ -50,5 +50,4 @@ to be seen how it will navigate the challenges of the future.
 
 ## Categories
 
-<ul>
-<li><h4><a href='/history/'>history</a></h4></li></ul>
+<ul></ul>

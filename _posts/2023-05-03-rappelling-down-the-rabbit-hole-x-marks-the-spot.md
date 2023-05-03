@@ -4,8 +4,8 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
-keywords: date, Wed, May, 03, 2023, Rappelling, Rabbit, Hole, X-Marks, Spot, Three, sort, lines, YAMLchop, API, categorize, idea, spills, Poetry, channeling, eternal, elsewhere, neurons, firing, synaptic, connections, subconscious, business, experience, script, repo, loading, history, git, Mercurial, DVCS, popular, YAMLesque, file, format, process,
-categories: script, history, git, api
+keywords: Rappelling, Rabbit Hole, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
+categories: api
 layout: post
 ---
 
@@ -57,7 +57,7 @@ atop YAMLchop/chop.py that orchestrates this journal system. I've noticed that
 it's one of my rare public Github repos. I keep so many private that it's
 sometimes a surprise to me when I realize one of my everyday go-to ones is
 public, so you can look at what I'm talking about
-[https://github.com/miklevin/yamlchop/blob/main/chop.py](here).
+[here](https://github.com/miklevin/yamlchop/blob/main/chop.py).
 
 Last night I knocked one of those items off my to-do list that would normally
 have gotten drawn out for weeks. It's moving certain site configuration value,
@@ -309,7 +309,4 @@ familiar dead bodies of TextMate, Sublime Text, Atom and their like tell us so.
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/history/'>history</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li></ul>

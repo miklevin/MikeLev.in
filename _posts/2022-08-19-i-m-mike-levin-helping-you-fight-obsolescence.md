@@ -5,7 +5,7 @@ permalink: /blog/i-m-mike-levin-helping-you-fight-obsolescence/
 headline: Fight Obsolescence with Mike Levin - August 19, 2022
 description: I'm Mike Levin, and I'm hard at work overhauling my website, MikeLev.in, with the help of simplecss.org. I'm also creating videos to help others fight obsolescence in their technical skills. Come join me as I introduce people to Linux and vim, and show them how to install Linux on their Windows systems with wsl --install in Powershell. Today is the day to take control of your technical skills!
 keywords: Mike Levin, MikeLev.in, simplecss.org, Linux, vim, wsl, Powershell, August 19, 2022, Website, Technical Skills, Overhauling, Videos, Inspiration
-categories: linux, powershell, vim, 2022, wsl
+categories: 2022, vim, linux, wsl, powershell
 layout: post
 ---
 
@@ -27,8 +27,8 @@ opening a Powershell and typing wsl --install.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/2022/'>2022</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/fixing-jupyter-desktop-set-python-environment-error-message/
 headline: Fix JupterLab-Desktop Error Message with Python 3.10.5 and venv pyw3105
 description: I recently encountered an error message when using JupterLab-Desktop 3.3.4-2 and was able to fix it by installing the official Python 3.10.5 from Python.org and creating a venv named pyw3105. Read my blog post to find out how I did it and learn how to fix the Jupter Desktop Set Python Environment problem.
 keywords: Jupyter, Desktop, Set, Python, Environment, Error, Message, Fix, Install, Official, Python.org, Venv, Pyw3105, Instructions, Readthedocs.io
-categories: python, message, error, jupyter
+categories: message, error, jupyter, python
 layout: post
 ---
 
@@ -64,7 +64,7 @@ Jupyter Desktop Set Python Environment error).
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
 <li><h4><a href='/error/'>Error</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

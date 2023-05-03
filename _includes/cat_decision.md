@@ -12,4 +12,4 @@
 <li><a href="/blog/always-be-writing-though-language-is-full-of-lies/">Always Be Writing Though Language Is Full of Lies</a> (Thu Apr 21, 2022)
 <br/>I understand why my brain wants to automate decisions so I can focus on more important matters like writing and vlogging. Writing and vlogging are both ways of encoding thoughts into words, and can help manifest ideas into reality. With practice, I can capture ideas and turn them into coherent thoughts. Learn how writing can be used to your advantage and improve your life in unexpected ways.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/evidence/">Evidence</a></div><div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/evidence/">Evidence</a></div><div class="post-nav-next"><a href="/scheduling/">Scheduling</a><span class="arrow">&nbsp;&rarr;</span></div></div>

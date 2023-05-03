@@ -5,7 +5,7 @@ permalink: /blog/a-tale-of-3-daemons-laplace-s-maxwell-s-and-linux-s/
 headline: "Exploring AI and Physics: Writing Bots with Python and the Contributions of Famous Scientists"
 description: I wrote this tech diary to teach readers how to write bots using Python and to explore the contributions of famous scientists James Clerk Maxwell, Ludwig Boltzmann, and Pierre-Simon Laplace to physics. We discuss the fundamental flaws of Maxwell's and Laplace's daemons, AI language models, the Heisenberg uncertainty principle, and complex and emergent behavior in slime mold, the Universe, and neural networks.
 keywords: Python, Bots, James Clerk Maxwell, Ludwig Boltzmann, Pierre-Simon Laplace, Maxwell's Demon, Laplace's Demon, AI Language Models, Heisenberg Uncertainty Principle, Complex Behavior, Emergent Behavior, Slime Mold, Universe, Neural Networks, Deterministic Processes, Stochastic Processes, ChatGPT, Second Law of Thermodynamics, Quantum Mechanics, Windows 10, Windows 7, MacOS, Wine, Windows Subsystem for Linux (WSL),
-categories: python, windows 10, chatgpt
+categories: chatgpt, windows 10, python
 layout: post
 ---
 
@@ -412,6 +412,6 @@ Much of what's what about life is in slime-mold which has so much in common with
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

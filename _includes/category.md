@@ -5,8 +5,8 @@
 <li><a href="/ai/">AI</a></li>
 <li><a href="/git/">Git</a></li>
 <li><a href="/seo/">SEO</a></li>
-<li><a href="/script/">Script</a></li>
 <li><a href="/microsoft/">Microsoft</a></li>
+<li><a href="/script/">Script</a></li>
 <li><a href="/wsl/">WSL</a></li>
 <li><a href="/youtube/">YouTube</a></li>
 <li><a href="/lxd/">LXD</a></li>
@@ -125,7 +125,6 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
-<li><a href="/history/">history</a></li>
 <li><a href="/meta-descriptions/">Meta Descriptions</a></li>
 <li><a href="/productivity/">Productivity</a></li>
 <li><a href="/flow/">Flow</a></li>
@@ -149,4 +148,5 @@
 <li><a href="/ufo/">UFO</a></li>
 <li><a href="/evidence/">Evidence</a></li>
 <li><a href="/decision/">Decisions</a></li>
+<li><a href="/scheduling/">Scheduling</a></li>
 </ol>
