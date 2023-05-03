@@ -117,26 +117,39 @@ leaving the Carpenter any, the Carpenter runs after the Walrus with the hammer.
 
 Now if you were in a family of generational-wealth Walruses, what would your
 priority be? You can't take all hammers away from all carpenters or else they
-couldn't build the nice restraints you need in which to eat oysters. You you
-rig the game by making sure carpenters use hammers that break easily and
-regularly, so they have to keep buying new ones. And the source of those
-hammers? You guessed it! The Walrus family of generational-wealth Walruses.
+couldn't build the nice restaurants they need in which to eat oysters in
+maximum comfort. So walruses rig the game by making sure carpenters use hammers
+that break regularly (planned obsolescence), so they have to keep buying new
+ones. 
+
+This has the double-whammy setback effect on the carpenter of resetting their
+skills to apprentice baseline ***and*** putting even more money into the hands
+of the Walruses. Lather, rinse, repeat and you've got an oligarchical-style
+fortified social order. And the source of those hammers? You guessed it! The
+Walrus family of generational-wealth Walruses.
 
 So what to do if your vibe is that of the Carpenter? Don't covet the Walrus
-family. They're second-generational losers living on defending the wealth
-accumulated by their parents, who were probably crooks of some form or another.
-Most kingdoms were built on the backs of slaves and protection rackets. The
-"law" was the King's own men keeping you safe from... well, the king's own men.
-Not too dissimilar to what organized crime does today. 
+family, nor their line of fine reputation hammers. It's a trap! They're
+second-generational fakers full of imposter syndrome, living on defending the
+wealth accumulated by their parents, who were probably crooks of some form or
+another. Most kingdoms were built on the backs of slaves and protection
+rackets. The "law" was the King's own men keeping you safe from... well, the
+king's own men. Not too dissimilar to what organized crime does today. 
 
 Over time for lack of anything else more formal or stronger government, these
-protection racket tribal warlords become kings. Serf are given fiefs in
-exchange for taxes... a share of the harvest... or else. Fiefdoms. Kingdoms.
-BAM! You've got government. Serfs and peasants are the Oysters in the Walrus
-and Carpenter poem. And when your hammer is taken away, you're left not much
-different than an Oyster. My E-E-A-T (Experience, Expertise, Authority, Trust)
-should be teaching folks how to use a hammer that can not be taken away from
-you.
+protection racket tribal warlords become kings. Serfs are given fiefs in
+exchange for offerings... a share of the harvest... taxes... or else! Fiefdoms
+become kingdoms. BAM! You've got government. 
+
+Unfortunately, serfs and peasants are the Oysters in the Walrus and Carpenter
+poem, not much different than sentience to be eaten. If you're lucky enough to
+have acquired the skills of a carpetnter for the first time, be alert for signs
+that your hammer is being taken away. If you let it happen, BAM! You're an
+oyster again, ready to be eaten. 
+
+My E-E-A-T (Experience, Expertise, Authority, Trust) should be teaching folks
+how to use a hammer that can not be taken away from you, so you can never be
+eaten like an oyster.
 
 ## Categories
 
