@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
+<br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/indomitable-spirit/">Indomitable Spirit</a> (Fri Apr 28, 2023)
@@ -40,4 +42,4 @@
 <li><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a> (Tue Mar 28, 2023)
 <br/>In this blog post, I discuss the rapidly evolving Bard user interface issues and how they compare to Bing's implementations. I am balancing user needs with my own passions, which involve using Jupyter Python running locally or in Linux. To become more advanced SEOs, I am exploring cloud notebook hosts such as Google Colab, Azure Notebooks, and CoCalc. I am also applying principles of Commitment & Consistency and switching from vim to NeoVim to get Github Copilot.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/github pages/">Github Pages</a></div><div class="post-nav-next"><a href="/unix/">Unix</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl2/">WSL2</a></div><div class="post-nav-next"><a href="/ubuntu/">Ubuntu</a><span class="arrow">&nbsp;&rarr;</span></div></div>

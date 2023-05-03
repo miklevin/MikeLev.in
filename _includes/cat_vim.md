@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
+<br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)

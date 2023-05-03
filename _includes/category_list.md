@@ -4,8 +4,8 @@
 [WSL](/wsl/) | [YouTube](/youtube/) | [LXD](/lxd/) | [Github](/github/) | 
 [Jekyll](/jekyll/) | [JupyterLab](/jupyterlab/) | [Journey](/journey/) | [Journaling](/journaling/) | 
 [Jupyter](/jupyter/) | [Container](/container/) | [API](/api/) | [OpenAI](/openai/) | 
-[URLs](/url/) | [WSL2](/wsl2/) | [Ubuntu](/ubuntu/) | [Automation](/automation/) | 
-[Github Pages](/github-pages/) | [NeoVim](/neovim/) | [Unix](/unix/) | [ChatGPT](/chatgpt/) | 
+[URLs](/url/) | [WSL2](/wsl2/) | [NeoVim](/neovim/) | [Ubuntu](/ubuntu/) | 
+[Automation](/automation/) | [Github Pages](/github-pages/) | [Unix](/unix/) | [ChatGPT](/chatgpt/) | 
 [Systemd](/systemd/) | [VSCode](/vscode/) | [Jupyter Notebook](/jupyter-notebook/) | [Bing](/bing/) | 
 [Database](/database/) | [JavaScript](/javascript/) | [Windows 10](/windows-10/) | [Machine Learning](/machine-learning/) | 
 [Pipulate](/pipulate/) | [MOZ](/moz/) | [Google](/google/) | [Hardware](/hardware/) | 
@@ -30,9 +30,9 @@
 [Cats](/cat/) | [Thoughts](/thought/) | [Static Site Generator](/static-site-generator/) | [PyPI](/pypi/) | 
 [Github Copilot](/github-copilot/) | [Empathy](/empathy/) | [Chatbot](/chatbot/) | [Algorithms](/algorithm/) | 
 [Homepage](/homepage/) | [Command-Line](/command-line/) | [Loop](/loop/) | [Levinux](/levinux/) | 
-[Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | [Meta Descriptions](/meta-descriptions/) | [Productivity](/productivity/) | 
-[Flow](/flow/) | [Internet](/internet/) | [.vimrc](/vimrc/) | [Chrome](/chrome/) | 
-[Journal.md](/journal-md/) | [Error](/error/) | [Imposter Syndrome](/imposter-syndrome/) | [DrinkMe](/drinkme/) | 
-[Marketing](/marketing/) | [Sharing](/sharing/) | [Knowledge](/knowledge/) | [Windows Subsystem](/windows-subsystem/) | 
-[Strengths](/strength/) | [Easy](/easy/) | [Collaboration](/collaboration/) | [Security](/security/) | 
-[Version](/version/) | [Opportunities](/opportunity/) | [UFO](/ufo/) | [Evidence](/evidence/) | 
+[Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | 
+[Productivity](/productivity/) | [Flow](/flow/) | [Internet](/internet/) | [.vimrc](/vimrc/) | 
+[Chrome](/chrome/) | [Journal.md](/journal-md/) | [Error](/error/) | [Imposter Syndrome](/imposter-syndrome/) | 
+[DrinkMe](/drinkme/) | [Marketing](/marketing/) | [Sharing](/sharing/) | [Knowledge](/knowledge/) | 
+[Windows Subsystem](/windows-subsystem/) | [Strengths](/strength/) | [Easy](/easy/) | [Collaboration](/collaboration/) | 
+[Security](/security/) | [Version](/version/) | [Opportunities](/opportunity/) | [UFO](/ufo/) | 

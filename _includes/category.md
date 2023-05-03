@@ -21,10 +21,10 @@
 <li><a href="/openai/">OpenAI</a></li>
 <li><a href="/url/">URLs</a></li>
 <li><a href="/wsl2/">WSL2</a></li>
+<li><a href="/neovim/">NeoVim</a></li>
 <li><a href="/ubuntu/">Ubuntu</a></li>
 <li><a href="/automation/">Automation</a></li>
 <li><a href="/github-pages/">Github Pages</a></li>
-<li><a href="/neovim/">NeoVim</a></li>
 <li><a href="/unix/">Unix</a></li>
 <li><a href="/chatgpt/">ChatGPT</a></li>
 <li><a href="/systemd/">Systemd</a></li>
@@ -125,6 +125,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/muscle-memory/">Muscle Memory</a></li>
 <li><a href="/meta-descriptions/">Meta Descriptions</a></li>
 <li><a href="/productivity/">Productivity</a></li>
 <li><a href="/flow/">Flow</a></li>
@@ -148,5 +149,4 @@
 <li><a href="/ufo/">UFO</a></li>
 <li><a href="/evidence/">Evidence</a></li>
 <li><a href="/decision/">Decisions</a></li>
-<li><a href="/scheduling/">Scheduling</a></li>
 </ol>
