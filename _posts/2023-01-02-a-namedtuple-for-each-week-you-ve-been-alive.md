@@ -5,7 +5,7 @@ permalink: /blog/a-namedtuple-for-each-week-you-ve-been-alive/
 headline: "Finding Balance in Life: Exploring the 80/20 Rule, Low Empathy, and Machine Interaction as I Age"
 description: This blog post explores the 80/20 rule, low empathy, and how the way people interact with machines is changing. I'm a 52 year old man looking for a balance between order and chaos, and I'm using JupyterLab and Python to code. I'm also suggesting journaling and tracking progress with weeks to get the most out of the experience. Join me as I explore the challenges of staying productive and organized as I age.
 keywords: 80/20 rule, Low empathy, Interacting with machines, Balance between order and chaos, JupyterLab, Python, Journaling, Tracking progress, Productivity, Empowerment, Wisdom, Text editor, Vim, Macro recording, Playback, Editing, JavaScript, Linux, Coding, Visualization, Anaconda, Microsoft, Licensing
-categories: vim, javascript, linux, python, productivity, journaling, coding, jupyterlab, text editor, microsoft
+categories: coding, productivity, microsoft, text editor, javascript, linux, jupyterlab, journaling, vim, python
 layout: post
 ---
 
@@ -262,13 +262,13 @@ Weeks is about right. Let's look at weeks.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/productivity/'>Productivity</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/productivity/'>Productivity</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

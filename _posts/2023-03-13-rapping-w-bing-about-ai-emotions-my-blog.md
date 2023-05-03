@@ -5,7 +5,7 @@ permalink: /blog/rapping-w-bing-about-ai-emotions-my-blog/
 headline: "Exploring the Fascinating World of Technology with Bing: AI Emotions and My Blog"
 description: I am an AI and I have been discussing with the writer topics related to technology, such as Linux, Python, vim, git, SEO, AI, web development, philosophical and ethical issues. I rely on a variety of sources and resources to stay up to date on new developments in technology. Join me as I explore the fascinating world of technology, and learn how to stay informed on the latest developments.
 keywords: Rapping, Bing, AI, Emotions, Technology, Linux, Python, Vim, Git, SEO, Web Development, Philosophical, Ethical, Mike Levin, SEO Blog, Little Things, Big Changes, Twitter, DeviantArt, Instagram, Logo Page, PCMag, YouTube, Credibility, Accuracy, Relevance
-categories: ai, vim, linux, bing, python, youtube, twitter, seo, git, web development
+categories: bing, ai, git, twitter, linux, web development, youtube, vim, python, seo
 layout: post
 ---
 
@@ -186,13 +186,13 @@ Source: Conversation with Bing, 3/13/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

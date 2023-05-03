@@ -5,7 +5,7 @@ permalink: /blog/there-s-no-place-like-home-you-get-to-decide-where-that-is-or-d
 headline: Mapping Your Windows Home Folder to a Linux Home Folder - Learn How Here!
 description: In this video, I show how to use symbolic links to map a Windows home folder to a Linux home folder, and how to use the 'ln' command and '-s' switch. I also explain setting up a virtualenv as a bonus. I emphasize the importance of backing up .config files in order to avoid losing work in the Linux container. Watch now to learn how to set up your Windows/Linux environment!
 keywords: Windows, Linux, Symbolic Links, Home Folder, Virtualenv, 'ln' Command, '-s' Switch, .config Files, Backup, WSL, Container
-categories: container, wsl, linux, virtualenv
+categories: container, virtualenv, wsl, linux
 layout: post
 ---
 
@@ -119,6 +119,6 @@ But beware losing .config files from ~/home (needs baking up)
 
 <ul>
 <li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

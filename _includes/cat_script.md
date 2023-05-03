@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
+<br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
 <br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
 <li><a href="/blog/python-virtual-env-better-than-usr-local-sbin/">Python Virtual Env Better Than /usr/local/sbin</a> (Thu Apr 27, 2023)
@@ -88,4 +90,4 @@
 <li><a href="/blog/okay-i-m-finally-keeping-audiences-in-mind/">Okay, I'm Finally Keeping Audiences In Mind</a> (Thu Apr 7, 2022)
 <br/>I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft/">Microsoft</a></div><div class="post-nav-next"><a href="/wsl/">WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/seo/">SEO</a></div><div class="post-nav-next"><a href="/microsoft/">Microsoft</a><span class="arrow">&nbsp;&rarr;</span></div></div>

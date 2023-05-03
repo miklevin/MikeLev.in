@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
+<br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/git-rebase-i-root-vs-git-init-anew/">`git rebase -i --root` vs. `git init` anew</a> (Tue May 02, 2023)
 <br/>I attempted to learn how to use the `git rebase` command to clean up my git history and speed up my repository. I discovered on big repos with lots of issues, it's easier to just `git init` and do the old swaparoo with a new repo. Also explore philosophical questions about existence and the relative importance of things, and relationship to retiring an old git repo and starting anew.</li>
 <li><a href="/blog/lemmatizing-keywords-for-site-navigation/">Lemmatizing Keywords for Site Navigation</a> (Fri Apr 28, 2023)
