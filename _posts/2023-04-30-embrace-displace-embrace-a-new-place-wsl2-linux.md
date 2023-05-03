@@ -5,7 +5,7 @@ permalink: /blog/embrace-displace-embrace-a-new-place-wsl2-linux/
 headline: Discover the Timeless Technology of the Linux World and Embrace a New Place!
 description: In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.
 keywords: Microsoft, Embrace & Displace, Linux, WSL2, vi, vim, NeoVim, Powerpoint, Google Slides, Decks, Markdown, Web, Internet, AI, OpenAI, UI, Support, Availability, Game Market, Hardware, Word Processing, WordPerfect, Money, Intuit Quicken, Cloud, AWS, Unix, Subsystem, Text Editing, Dependency, Love-worthy, WYSIWYG, GitHub, Anxiety, Manual Work
-categories: internet, vim, github, neovim, ai, openai, dependency, microsoft, hardware, linux, wsl2, unix
+categories: vim, hardware, unix, microsoft, neovim, dependency, internet, wsl2, github, openai, linux, ai
 layout: post
 ---
 
@@ -178,15 +178,15 @@ you. They are timeless. They are the foundation of all information technology.
 ## Categories
 
 <ul>
-<li><h4><a href='/internet/'>Internet</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/internet/'>Internet</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

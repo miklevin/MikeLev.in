@@ -30,9 +30,9 @@
 [Cats](/cat/) | [Thoughts](/thought/) | [Static Site Generator](/static-site-generator/) | [PyPI](/pypi/) | 
 [Github Copilot](/github-copilot/) | [Empathy](/empathy/) | [Chatbot](/chatbot/) | [Algorithms](/algorithm/) | 
 [Homepage](/homepage/) | [Command-Line](/command-line/) | [Loop](/loop/) | [Levinux](/levinux/) | 
-[Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | 
-[Productivity](/productivity/) | [Flow](/flow/) | [Internet](/internet/) | [.vimrc](/vimrc/) | 
-[Chrome](/chrome/) | [Journal.md](/journal-md/) | [Error](/error/) | [Imposter Syndrome](/imposter-syndrome/) | 
-[DrinkMe](/drinkme/) | [Marketing](/marketing/) | [Sharing](/sharing/) | [Knowledge](/knowledge/) | 
-[Windows Subsystem](/windows-subsystem/) | [Strengths](/strength/) | [Easy](/easy/) | [Collaboration](/collaboration/) | 
-[Security](/security/) | [Version](/version/) | [Opportunities](/opportunity/) | [UFO](/ufo/) | 
+[Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | [Magic](/magic/) | [Muscle Memory](/muscle-memory/) | 
+[Meta Descriptions](/meta-descriptions/) | [Productivity](/productivity/) | [Flow](/flow/) | [Internet](/internet/) | 
+[.vimrc](/vimrc/) | [Chrome](/chrome/) | [Journal.md](/journal-md/) | [Error](/error/) | 
+[Imposter Syndrome](/imposter-syndrome/) | [DrinkMe](/drinkme/) | [Marketing](/marketing/) | [Sharing](/sharing/) | 
+[Knowledge](/knowledge/) | [Windows Subsystem](/windows-subsystem/) | [Strengths](/strength/) | [Easy](/easy/) | 
+[Collaboration](/collaboration/) | [Security](/security/) | [Version](/version/) | [Opportunities](/opportunity/) | 

@@ -5,7 +5,7 @@ permalink: /blog/seeking-structured-graphics-foss/
 headline: Exploring Feedback Loops with Free and Open Source Software for Diagramming
 description: Bing is exploring feedback loops and free and open source software (FOSS) for diagramming. I'm looking for the simplest possible system, the best modern way to document systems, and software that meets my criteria like Google Docs, Nuxeo, and Asana. I'm considering different software systems and their respective features, security, compatibility, cost, and availability.
 keywords: FOSS, Bing, Feedback Loops, Structured Graphics, Google Docs, Nuxeo, Asana, Diagrams.net, System Dynamics, Control Theory, Website Hierarchies, Networks, Nodes, Connectors, Org Charts, Logic Flow, SVG, Cartesian, X/Y Axis Plots, Venn Diagrams, Visual Paradigm Online, Diagramo, Flowcharts, ERD, HTML5, JavaScript, Linux, Web Browser
-categories: linux, bing, javascript
+categories: bing, linux, javascript
 layout: post
 ---
 
@@ -260,6 +260,6 @@ Sorry, you've reached the limit of messages you can send to Bing within 24 hours
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
