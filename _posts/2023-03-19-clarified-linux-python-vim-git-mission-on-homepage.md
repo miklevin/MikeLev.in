@@ -5,7 +5,7 @@ permalink: /blog/clarified-linux-python-vim-git-mission-on-homepage/
 headline: Promoting Literate Programming and My Vision for Linux, Python, Vim & Git on My Homepage
 description: I'm an expert in Linux, Python, vim & git and I'm promoting Literate Programming and its connection to Jupyter, Python and Markdown. On my homepage, I've collected my work and favorite articles to make my vision and message clear. Come check it out and see what I have to offer!
 keywords: Linux, Python, vim, git, Literate Programming, Jupyter, Markdown, Homepage, Messaging, Browsers, Platforms, Vision, Articles, Links, Collection, Refining
-categories: git, jupyter, python, homepage, vim, linux
+categories: git, linux, vim, homepage, jupyter, python
 layout: post
 ---
 
@@ -42,8 +42,8 @@ Clarified the Linux, Python, vim & git image.
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/homepage/'>Homepage</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/homepage/'>Homepage</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/making-a-systemd-service-with-chatgpt/
 headline: "Creating a SystemD Service with ChatGPT: A Step-by-Step Guide"
 description: I'm writing a systemd service that uses GNU screen to run a python script in the background. In this blog post, I share the details of the service, including the command to be run, the user account to run the service as, and the environment variables to be set. I also explain the meaning of the word 'majordomo' and how to create a nbdev version 2 project in a folder called majordaemo.
 keywords: SystemD, Service, ChatGPT, GNU, Screen, Python, Script, ExecStart, Directive, Daemonizing, Majordomo, Triple Entendre, Git, Github, Linux, Folder, Nbdev, Version 2, Project, Executable, Virtual Environment, Gmail, IMAP, Inbox, Unread, Seen Flag
-categories: git, chatgpt, nbdev, python, script, systemd, github, service, linux
+categories: script, git, chatgpt, systemd, github, linux, nbdev, service, python
 layout: post
 ---
 
@@ -315,12 +315,12 @@ As with the previous script, you will need to replace the username and password 
 ## Categories
 
 <ul>
+<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

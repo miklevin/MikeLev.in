@@ -5,7 +5,7 @@ permalink: /blog/moz-links-api-touch-every-endpoint-in-python/
 headline: "Exploring the MOZ Links API with Python: Learn How to Access Every Endpoint!"
 description: This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.
 keywords: MOZ, Links, API, Education, Guidance, Python, Jupyter, Notebook, Hosting, Environment, Google, Colab, Github, Code, Snippets, Endpoint, Documentation, Import, Libraries, Modules, Credentials, Access, ID, Secret, Key, Request, Body, URL, Metrics, Usage, Data, SQLite, Database, Engine, Context, Manager, Sub-endpoint, Label, Description, Example, Function
-categories: url, notebook, jupyter, database, moz, python, label, google, github, api, sqlite
+categories: url, notebook, google, sqlite, github, database, moz, label, jupyter, python, api
 layout: post
 ---
 
@@ -20,7 +20,7 @@ Import statements are usually placed at the top of a program, before any other c
 
 Once the resources have been loaded using import statements, they can be used anywhere in the program, not just in the cell where the import statement was written. This allows the program to access the functionality provided by the imported resources throughout its execution.
 
-The libraries here not part of the standard Python library are `requests' and `sqlitedict`. You can install the with `pip install requests` and `pip install sqlitedict` in your terminal or a Jupyter cell. If you're using Anaconda, requests is pre-installed.
+The libraries here not part of the standard Python library are `requests` and `sqlitedict`. You can install the with `pip install requests` and `pip install sqlitedict` in your terminal or a Jupyter cell. If you're using Anaconda, requests is pre-installed.
 
 ```python
 import json
@@ -1288,12 +1288,12 @@ This endpoint Returns the number of rows consumed so far in the current billing 
 <ul>
 <li><h4><a href='/url/'>URLs</a></h4></li>
 <li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/label/'>Labels</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
