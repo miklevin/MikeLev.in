@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: bing, youtube, microsoft, ai, coding, chatgpt
+categories: ai, coding, microsoft, chatgpt, youtube, bing
 layout: post
 ---
 
@@ -36,34 +36,48 @@ awhile. What blows up in one company's face as a PR disaster is par for the
 course for Microsoft. And since they're the underdog in search and most of
 their revenue comes from elsewhere, they're willing to take risks.
 
-## Transformers
+## Transformational Transformers
 
-Only a year after Tay, Google released a paper on the Transformer, a new type
-of neural network that was able to do machine translation better than anything
-that had come before. It's the "T" in GPT, and has made new machine learning
-output considerably more compelling than Clippy or Tay. This caught Microsoft's
-attention, who invested $10 billion in July 2019. Several earlier GPT versions
-available through the API-only were released, but failed to capture the
-public's fancy.
+Only a year after Tay, Google released [a paper on the
+Transformer](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html),
+a new type of neural network that was able to do machine translation better
+than anything that had come before. It's the "T" in GPT, and has made new
+machine learning output considerably more compelling than Clippy or Tay, with
+the simple trick of ***predicting*** what's statistically most likely to be
+typed next&151;a profoundly deeper thing than it seems at first pass.
 
-## ChatGPT
+This caught Microsoft's attention, who invested $10 billion in July 2019.
+Several earlier GPT versions available through the API-only were released and
+had many developers playing in a `playground`, but it failed to capture the
+public's fancy, behind a login and not yet following the ***chat*** paradigm as
+it was.
 
-The first version for the general public,ChatGPT, was launched on November
-30, 2022. The original release of was based on GPT-3.5. A version based on
-GPT-4 was released on March 14, 2023 right as Microsoft announced their
-intention to power The New Bing with the latest version of GP-4.
+## ChatGPT & Fastest New Tech Adoption Rate in History
+
+The first version of OpenAPI's GPT for the general public, ChatGPT, was
+launched November 30, 2022. The original ChatGPT release of was based on
+GPT-3.5. A version based on GPT-4 was released on March 14, 2023 (fast-forward
+in the timeline) right as Microsoft announced their intention to power The New
+Bing with the latest version of GP-4.5. 
+
+While the period between November 30 and March 14 was only 3.5 months, it was a
+period of intense experimentation and learning for Microsoft and the public,
+with the now famous fastest adoption-rate of any new technology in history.
+Things are moving so fast now, it's time to look at the timeline.
 
 ## The New Bing
 
 Microsoft announced the new version of Bing on February 7, 2023 at a news
 event at Microsoft's Washington headquarters. The new version of Bing launched
 on desktop in limited preview on the same day and the mobile version was
-announced to be coming soon. 
+announced to be coming soon. ChatGPT was so big by this time, many early
+adopters jumped onto the waiting list.
 
 For the general public to get this early access, they had to use the Edge
 browser, run an .exe to change your defaults to Microsoft's requirements, scan
-a QR code and download the mobile Bing app. Clearly, there's some
-habit-changing conditioning going on here.
+a QR code and download the mobile Bing app. And even then, you had to wait. And
+wait, we did. Clearly, Microsoft was in a powerful position to dictate terms,
+so took advantage of it to start changing some habits.
 
 ## Google Bard is Announced (Faux Pas)
 
@@ -71,9 +85,12 @@ The very next day, February 8, 2023, Google announced their own AI-powered
 search engine, Google Bard, at a news event at Google's California
 headquarters. This event was marked by the inauspicious faux pas of Bard
 wrongly stating that the James Webb Space Telescope was the first telescope to
-photograph an exoplanet outside our solar system, demonstrating how easily
-everyone can be fooled by the authority with which chatbots can deliver false
-information.
+photograph an exoplanet outside our solar system.
+
+The speed with which this announcement was rushed out and how easily Google
+lowered its guard against AI misinformation sent a resounding message around
+the world. Google is not infallible even in its own turf. Fortunes can change
+quickly in tech.
 
 ## Early Access to The New Bing, Citation Links & Coding
 
@@ -319,9 +336,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
