@@ -5,7 +5,7 @@ permalink: /blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-l
 headline: "Why I Choose Python: My Journey to Find the Perfect Programming Language"
 description: As a programmer, I use Python because it aligns with my vibe and allows me to express myself. It is easy to learn, free and open source, and has a large and supportive community. It is also a high-level language, dynamically-typed, and versatile, with a rich set of built-in data types and standard libraries. I'm confident that Python is the perfect language for me to use and grow with.
 keywords: Python, Programming, Language, Easy, Learn, Free, Open Source, High-Level, Dynamically-Typed, Versatile, Built-in Data Types, Standard Libraries, Simplicity, Readability, Flexibility, Vibrant Community, Users, Apply
-categories: python, easy, open source
+categories: open source, python, easy
 layout: post
 ---
 category: python
@@ -127,6 +127,6 @@ large community of users.
 ## Categories
 
 <ul>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/easy/'>Easy</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li></ul>
+<li><h4><a href='/easy/'>Easy</a></h4></li></ul>

@@ -5,7 +5,7 @@ permalink: /blog/qnap-container-station-lxc-end-of-support-notification-move-to-
 headline: "Making the Transition to LXD: My Research Journey with QNAP Container Station"
 description: As a QNAP NAS user, I recently received a notification that LXC files are no longer supported and I must transition to LXD. This left me with the need to do some research, which I have documented in this blog post. Read on to learn more about my journey and the results of my research.
 keywords: QNAP, NAS, Container Station, LXC, End of Support, LXD, Kubernetes, Research, Journey, Results
-categories: journey, lxd
+categories: lxd, journey
 layout: post
 ---
 
@@ -21,5 +21,5 @@ learnings to do.
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

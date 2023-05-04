@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a> (Thu May 04, 2023)
+<br/>I explore the idea of accepting the status quo and not striving for discovery in this ode. I emphasize the importance of practice and the power of repetition. I also caution against the pitfalls of making too much effort and the fallacy of pop culture.</li>
 <li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
 <br/>I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.</li>
 <li><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a> (Tue May 02, 2023)

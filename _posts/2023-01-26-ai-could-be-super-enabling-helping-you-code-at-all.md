@@ -5,7 +5,7 @@ permalink: /blog/ai-could-be-super-enabling-helping-you-code-at-all/
 headline: "Gaining the Superpower of Coding with AI: My Journey of Learning Python and Editing Videos"
 description: As a coding novice, I used ChatGPT to learn how to code in Python and edit videos. With the help of ChatGPT, I was able to gain the superpower of coding in Python to help me with my project. I also used OpenAI API to submit JSONL data and extract data from HTML. To store the data, I chose to use a SQLite database and DNS to translate IPs. Finally, I virtualized Linux and used a RaspberryPi-based server.
 keywords: AI, ChatGPT, Python, Video, Editing, OpenAI, API, JSONL, HTML, SQLite, Database, DNS, IPs, Virtualizing, Linux, RaspberryPi, Server, NAS, Coding, Logins
-categories: linux, chatgpt, python, database, sqlite, coding, html, api, ai, openai
+categories: linux, openai, sqlite, api, chatgpt, coding, python, database, ai, html
 layout: post
 ---
 
@@ -321,12 +321,12 @@ your laptop. You want a place to fling done things from Jupyter.
 
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/html/'>HTML</a></h4></li></ul>

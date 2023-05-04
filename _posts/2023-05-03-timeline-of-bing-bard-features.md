@@ -5,26 +5,22 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: ai, chatgpt, coding, youtube, bing, microsoft
+categories: youtube, microsoft, chatgpt, coding, bing, ai
 layout: post
 ---
 
-Okay, let's turn your starting up with MOZ and watching Bard and Bing as an
-article. I think we need some filler. Don't be excessively self-indulgent like
-you are here, but get right to the point. You can do some draft-work here, but
-be sure to hold stuff back so it's 1st-time appearing on the MOZ site.
-Particularly the timeline stuff itself. I can collect my facts here and maybe
-do the introduction. Let's set that flavor.
-
-# Introduction
-
 Microsoft is tweaking The New Bing constantly, grooming it to be the heir
-apparent to the traditional, or Top-10 blue links model that has dominated the
-online search experience since when Google was officially released in 1998, and
-arguably even earlier if you include AltaVista, the first modern search engine
-to present the top-links in a paginated list. That's a quarter century. We
-might be seeing a Sea-Change in the way we search the Web. Let's start a
-timeline.
+apparent to the traditional, or ***Top-10 blue links*** model that arguably
+first appeared in its modern form 25 years ago with AltaVista. GoTo.com taught
+Google how to monetize search results back in 1998, and for about a quarter
+century, that's been the dominant model. Sure, there's been Universal Search, 
+Knowledge Graph, and Featured Snippets, but the core of search has been the
+same for a long time.
+
+Now, Microsoft is trying to change that with Bing, with a rapid-fire roll-out
+of potentially game-changing new features leveraging the latest GPT AI-tech.
+Let's look at the timeline. But first, a word on history and why Microsoft is
+so ready to take up this battle.
 
 ## Clippy & Tay
 
@@ -319,9 +315,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

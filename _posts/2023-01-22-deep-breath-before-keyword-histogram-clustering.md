@@ -5,7 +5,7 @@ permalink: /blog/deep-breath-before-keyword-histogram-clustering/
 headline: Exploring Machine Learning to Optimize Blog Content
 description: As I explore the potential of machine learning to optimize my blog content, I am considering changes to my domain URLs to appeal to search and AI systems. Additionally, I plan to create an MLGL license and a heartbeat tech system, and use Linux commands to keep my laptop and server instances in sync. By leveraging my laptop computing power to analyze server data, I am confident I can create a more effective blog post.
 keywords: Deep Breathing, Histogram Clustering, Machine Learning, Domain URLs, Search, AI, MLGL License, Heartbeat Tech System, Linux Commands, Laptop Computing, Server Data, Optimize Content, URLs, Content Appeal
-categories: search, ai, machine learning
+categories: ai, machine learning, search
 layout: post
 ---
 
@@ -57,6 +57,6 @@ be achievable with SQLite.
 ## Categories
 
 <ul>
-<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li></ul>

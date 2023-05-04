@@ -5,7 +5,7 @@ permalink: /blog/start-thinking-about-broader-foss-seo-features/
 headline: "Exploring FOSS SEO Features: My Journey to Joining Moz"
 description: I'm excited to join Moz, a search engine optimization company, as an online personality. I'm looking to create 'junior versions' of products that could be Moz products, or better deliverables when mashed-up with a Moz API. I'm also exploring products like AlsoAsk, which uses Google Suggest to create a visual representation of relationships. Come read my blog post to learn more about my journey and the exciting opportunities ahead!
 keywords: FOSS, SEO, Moz, Online Personality, Products, Google Suggest, Visualization, Relationships, Deliverables, API, Junior Versions, AlsoAsk
-categories: seo, api, moz
+categories: moz, seo, api
 layout: post
 ---
 
@@ -38,6 +38,6 @@ and Excel. That kind of stuff could go easily into a FOSS product.
 ## Categories
 
 <ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
