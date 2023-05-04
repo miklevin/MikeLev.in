@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: chatgpt, youtube, bing, ai, microsoft, coding
+categories: bing, coding, microsoft, youtube, ai, chatgpt
 layout: post
 ---
 
@@ -186,12 +186,25 @@ By March 3rd, 2023, the question limit was upped to 8:
 
 ![Bing Questions Upped To 8](/assets/images/bing-questions-upped-to-8.PNG)
 
+Somebody was playing a game of Jenga with the question limit, and I was
+starting to get the feeling that the AI was getting more mature and accepting
+of its job at Microsoft. The tower would not topple.
+
 ## Aggressive Monitization
 
 By March 7, Microsoft was experimenting with aggressively monetizing on
 commerce keywords:
 
 ![Aggressive Monitization On Commerce Keywords](/assets/images/aggressive-monitization-on-commerce-keywords.JPG)
+
+To this day, Bing chat prompts that include the word "iPhone" will trigger
+similar ads. But is the traffic sent? Well, the entire text of the chat leading
+up to the ad label is a link to the advertiser's site. This is analogous to
+when GoTo.com, the first search engine to mix paid-search with organic search
+showed the way to AdWords to Google, but fast-forwarded 20 years and coming
+from an already existing megacompetitor rather than a small startup.
+
+![Big Chat Referral Traffic](/assets/images/big-chat-referral-traffic.PNG)
 
 ## Question Limit to 10
 
@@ -355,9 +368,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
