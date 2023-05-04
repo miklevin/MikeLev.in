@@ -4,7 +4,7 @@ title: Struggling Through Github Pages Startup Process
 headline: Successfully Setting Up Website on Github Pages After Hours of Struggle
 description: I just finished setting up a new website on Github Pages, after a long and complicated process of setting up DNS, Git repositories, Jekyll templating, and more. I'm happy with the result, but now it's time to get to work - so I'll have to wait a couple days to enjoy the fruits of my labor.
 keywords: Github Pages, DNS, Git, Repositories, Jekyll, Templates, Default.html, Banner, Google Analytics, Pico/Nano, CNAME, Config.yaml, Google Search Console, TXT Record, Propagate
-categories: jekyll, github pages, templates, git, google analytics
+categories: github pages, google analytics, jekyll, templates, git
 permalink: /blog/struggling-through-github-pages-startup-process/
 layout: post
 ---
@@ -68,11 +68,11 @@ system... oh, and framework convention... yuck!
 Let's go look at the Jekyll documentation... okay, so there's a whole
 curly-brace based templating system... just like everything else that like
 almost ever was... except back when it was <% %>. Pointy/percents of the
-ancient Microsoft HDC/IDX conventions have made way for the {{ }} conventions
-of... uh... maybe Ruby stuff that came after. Python people will know the
-Django framework and Jinja template system extraction... all the same really.
-Some syntax invented for intermixing with HTML and a subset of some language's
-logic used for variable logic flow. Jekyll no different.
+ancient Microsoft HDC/IDX conventions have made way for the double curly braces
+conventions of... uh... maybe Ruby stuff that came after. Python people will
+know the Django framework and Jinja template system extraction... all the same
+really. Some syntax invented for intermixing with HTML and a subset of some
+language's logic used for variable logic flow. Jekyll no different.
 
 So I'm jumping right into a global default template that goes in a conventional
 location. Let me show you those kooky framework conventions of Jekyll...
@@ -130,7 +130,7 @@ Got some SERPs to scrape. Later gators!
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
