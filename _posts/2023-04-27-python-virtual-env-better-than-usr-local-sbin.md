@@ -4,7 +4,7 @@ title: Python Virtual Env Better Than /usr/local/sbin
 headline: "Optimizing my Editing Process with a New `all` Script in NeoVim"
 description: "I've improved my process for editing multiple files in NeoVim with an `all` script. This script is now located in the /bin folder of my Python virtual environment, making the system more flexible and allowing me to switch between machines easily. I wrote a new script to help with this process, and I'm now able to pull from my git repos, copy the files to the correct locations, edit them in NeoVim, and push the changes back to my git repos."
 keywords: Scripts, All Scripts, Python, Virtual Environment, /bin Folder, Multiple Files, NeoVim, Reverse-Copy, Git Repos, Copy Files, Edit Files, Push Changes
-categories: python, neovim, scripts
+categories: neovim, python, scripts
 permalink: /blog/python-virtual-env-better-than-usr-local-sbin/
 layout: post
 ---
@@ -252,5 +252,5 @@ git_push()
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
