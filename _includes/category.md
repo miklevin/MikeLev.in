@@ -19,7 +19,6 @@
 <li><a href="/openai/">OpenAI</a></li>
 <li><a href="/container/">Container</a></li>
 <li><a href="/api/">API</a></li>
-<li><a href="/url/">URLs</a></li>
 <li><a href="/wsl2/">WSL2</a></li>
 <li><a href="/unix/">Unix</a></li>
 <li><a href="/chatgpt/">ChatGPT</a></li>
@@ -38,7 +37,6 @@
 <li><a href="/pipulate/">Pipulate</a></li>
 <li><a href="/moz/">MOZ</a></li>
 <li><a href="/google/">Google</a></li>
-<li><a href="/hardware/">Hardware</a></li>
 <li><a href="/windows-11/">Windows 11</a></li>
 <li><a href="/mac/">Mac</a></li>
 <li><a href="/notebook/">Notebook</a></li>
@@ -81,7 +79,6 @@
 <li><a href="/future/">Future</a></li>
 <li><a href="/tutorial/">Tutorial</a></li>
 <li><a href="/publishing/">Publishing</a></li>
-<li><a href="/label/">Labels</a></li>
 <li><a href="/strategy/">Strategy</a></li>
 <li><a href="/evolution/">Evolution</a></li>
 <li><a href="/child/">Child</a></li>
@@ -149,4 +146,7 @@
 <li><a href="/collaboration/">Collaboration</a></li>
 <li><a href="/security/">Security</a></li>
 <li><a href="/version/">Version</a></li>
+<li><a href="/opportunity/">Opportunities</a></li>
+<li><a href="/ufo/">UFO</a></li>
+<li><a href="/evidence/">Evidence</a></li>
 </ol>

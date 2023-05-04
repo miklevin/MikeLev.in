@@ -4,7 +4,7 @@ title: Seeking AI-help Getting Up To Speed on Math
 headline: Exploring Online Resources and Self-Teaching Tools to Improve Math Skills
 description: As someone who has always struggled with math, I understand that it is a skill that can be improved with practice and dedication. I recently found many online resources and self-teaching tools to help me learn at my own pace, such as the Mathematics Refresher Course on Udemy, a 16-hour Math Refresher course from Alamo Colleges, and 9 free online courses from edX. I'm also exploring the Maxwell Heaviside Schrödinger approach to physics.
 keywords: Math, Algebra, Calculus, Udemy, Alamo Colleges, edX, Refresher Course, Maxwell Heaviside Schrödinger, Schwarzschild Radius, Black Hole, Event Horizon, Quantum Theory, Planck, Quanta, Frequency, Staircase, Ramp, Relativity, Time Dilation, Gravitational Redshift, Aluminum Clocks, Q Factor, Optical Energy
-categories: quanta, math
+categories: math, quanta
 permalink: /blog/seeking-ai-help-getting-up-to-speed-on-math/
 layout: post
 ---

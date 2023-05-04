@@ -4,7 +4,7 @@ title: Stop Using Stop-Words When They Reverse Meaning
 headline: "Fixing Stopwords: How I Rescued My Post From Getting Mangled in the URL"
 description: I recently wrote a post about stopwords and noticed that the title was getting distorted in the URL. To fix this, I wrote some code to strip out all stopwords and create a post with a more appropriate URL. This code also creates a folder to store the posts and generates a blog.md file with a list of all the posts. Read my blog post to learn more about how I fixed this issue!
 keywords: stopwords, URL, code, strip, folder, store, posts, blog.md, file, list, fix, issue, meaning, mangled, appropriate
-categories: url
+categories: 
 permalink: /blog/stop-using-stop-words-when-they-reverse-meaning/
 layout: post
 ---
@@ -148,5 +148,4 @@ with open(f"{folder_name}/blog.md", "w") as fh:
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/stop-using-stop-words-when-they-reverse-meaning">Stop Using Stop-Words When They Reverse Meaning</a></div><div class="post-nav-next"><a href="/blog/massaging-10-sites-into-shape-at-once">Massaging 10 Sites Into Shape At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/url/'>URLs</a></h4></li></ul>
+<ul></ul>

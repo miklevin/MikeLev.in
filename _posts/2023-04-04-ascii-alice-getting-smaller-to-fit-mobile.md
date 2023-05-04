@@ -4,7 +4,7 @@ title: ASCII Alice Getting Smaller to Fit Mobile
 headline: Installing Ubuntu 20.04 to Make ASCII Alice Mobile-Friendly!
 description: I installed Ubuntu 20.04 at the Windows Store to make Alice smaller and optimize the mobile DrinkMe script experience. I'm eager to see the outcome of this work, and I'm excited to share my journey with you!
 keywords: ASCII, Alice, Smaller, Mobile, Ubuntu, 20.04, Windows Store, DrinkMe, Script, Optimize, Journey, Result
-categories: journey, drinkme, 20.04, script, ubuntu
+categories: script, 20.04, drinkme, ubuntu, journey
 permalink: /blog/ascii-alice-getting-smaller-to-fit-mobile/
 layout: post
 ---
@@ -47,8 +47,8 @@ Okay, very nice. This helps a lot with the mobile DrinkMe script experience.
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/20-04/'>20.04</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

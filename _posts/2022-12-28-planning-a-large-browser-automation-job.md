@@ -4,7 +4,7 @@ title: Planning A Large Browser Automation Job
 headline: Preparing for a Large Browser Automation Job
 description: I'm getting ready for a big browser automation job. I'm creating a new folder, making a repository, giving the project a codename, loading data into a dataframe, deduplicating it, calculating an estimated time of completion, and generating API-calls for the full year. Plus, I'm setting up a structure to step through a database and perform an API call or browser automation, creating a namedtuple with 100 domains, and using a template for browser automation.
 keywords: Browser Automation, Folder, Repository, Codename, Dataframe, Deduplication, Estimated Time of Completion, API-Calls, Database, Namedtuple, Template, Headless Mode, Accepting Downloads, Slow Motion
-categories: browser automation, template, database
+categories: database, template, browser automation
 permalink: /blog/planning-a-large-browser-automation-job/
 layout: post
 ---
@@ -239,6 +239,6 @@ async with async_playwright() as p:
 ## Categories
 
 <ul>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/template/'>Template</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

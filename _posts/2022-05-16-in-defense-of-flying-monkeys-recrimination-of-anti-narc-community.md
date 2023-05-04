@@ -4,7 +4,7 @@ title: In Defense of Flying Monkeys & Recrimination of Anti-Narc Community
 headline: "Uncovering the Complexity of Narcissism: A Call to Re-Examine Labels and Group-Think"
 description: As someone who has been accused of being a narcissist, I have opened my mind to the subject and come to the conclusion that most people are not a problem unless they are really a problem. I advocate for a hybrid school system so children have the opportunity to learn without labels and group-think. Furthermore, I believe terms like 'gaslighting' and 'winged monkeys' are often misused and do not fully capture the complexity of the situation. My suggestion to the anti-narciss
 keywords: Narcissism, Labels, Group-Think, Gaslighting, Winged Monkeys, Wizard of Oz, Public School, Homeschool, Hybrid System, Anti-Narcissism, Manipulation, Control, Prank, Sorceress, Wicked Witch of the West, Series, Relevant Issues
-categories: labels
+categories: 
 permalink: /blog/in-defense-of-flying-monkeys-recrimination-of-anti-narc-community/
 layout: post
 ---

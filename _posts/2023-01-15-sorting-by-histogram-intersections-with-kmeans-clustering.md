@@ -4,7 +4,7 @@ title: Sorting by Histogram Intersections with KMeans Clustering
 headline: Exploring KMeans Clustering with Histogram Intersections and the Elbow Method
 description: I'm exploring the KMeans clustering algorithm to better understand how it works. To do this, I'm using the Elbow method to determine the optimal number of clusters and then using the KMeans fit method to sort the data into the chosen number of clusters. I plotted a scatter graph with x and y values, and used the kmeans.labels_ parameter to color code the points and clearly show the clusters that had been formed.
 keywords: KMeans Clustering, Elbow Method, 2-dimensional numpy array, Labels, Buckets, Bin, Scatter Graph, x and y values, Color Code, Clusters, Plotting
-categories: labels
+categories: 
 permalink: /blog/sorting-by-histogram-intersections-with-kmeans-clustering/
 layout: post
 ---

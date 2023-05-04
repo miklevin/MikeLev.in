@@ -4,7 +4,7 @@ title: Finding a Site's Popular Subdomain With a Redirect Chain Resolver
 headline: Uncovering the Most Popular Subdomain of a Site with a Redirect Chain Resolver
 description: I created a mini-project to find the most popular subdomain of a site using a redirect chain resolver, Requests library, and a blacklist filter. After excluding certain sites, I was able to pull data from 53 sites. Read my blog post to find out how I did it!
 keywords: Redirect Chain Resolver, Requests Library, Blacklist Filter, Mini-Project, Subdomain, Popular, URL, Protocol
-categories: url
+categories: 
 permalink: /blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/
 layout: post
 ---
@@ -233,5 +233,4 @@ print(f"{save_as} saved!")
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automatically-log-into-moz-pro-with-playwright-browser-automation">Automatically Log Into MOZ Pro with Playwright Browser Automation</a></div><div class="post-nav-next"><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/url/'>URLs</a></h4></li></ul>
+<ul></ul>

@@ -4,7 +4,7 @@ title: Researching Most Credible Voices In UFO / UAP Space With The New Bing
 headline: Exploring the Beliefs of Nine Credible Scientists in the UFO and UAP Space
 description: This blog post explores the beliefs of nine credible scientific voices in the UFO and UAP space, including Eric Weinstein, Hal Puthoff, Jacques Vallée, Kevin Knuth, and Avi Loeb. I provide a ranking system based on each scientist's connection to government and scientific credentials, and discuss the core beliefs and take-away messages of each. Discover why some believe UFOs are extraterrestrial, extradimensional, or simply natural phenomena.
 keywords: UFO, UAP, Eric Weinstein, Hal Puthoff, Jacques Vallée, Kevin Knuth, Avi Loeb, Carl Sagan, Mick West, Project Galileo, Unified Theory, Physics, CIA, NSA, Extraterrestrial, Extradimensional, Natural Phenomena, Human Error, Optical Illusions, Hoax
-categories: 
+categories: ufo
 permalink: /blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/
 layout: post
 ---
@@ -203,4 +203,5 @@ You’re very welcome. I’m glad you appreciate my work. Here is the list of sc
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a></div><div class="post-nav-next"><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing">Researching Most Likely UFO Propulsion Research Institutions With Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/ufo/'>UFO</a></h4></li></ul>
