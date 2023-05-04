@@ -4,7 +4,7 @@ title: Editing Files That Are The Same Across Multiple Sites
 headline: Just Finished My Work Day and Taking Extra Time to Update Blogging System
 description: After a long work day, I'm taking extra time to make sure my blogging system is up-to-date. I'm creating a list of common files to edit, as well as a list of files that need to be copied for each release. I'm also setting up an 'includes' directory and adjusting the release code to make sure everything is pushed properly. Ready to get your blogging system up-to-date? Read on to find out how!
 keywords: Editing, Files, Multiple Sites, Work Day, Blogging System, List, Common Files, Edit, Copy, Release, Includes, Directory, Adjust, Push
-categories: 
+categories: edit
 permalink: /blog/editing-files-that-are-the-same-across-multiple-sites/
 layout: post
 ---
@@ -59,4 +59,5 @@ done < $filename
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-files-that-are-the-same-across-multiple-sites">Editing Files That Are The Same Across Multiple Sites</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-new-way-to-visualize-general-relativity">A New Way To Visualize General Relativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/edit/'>Edit</a></h4></li></ul>

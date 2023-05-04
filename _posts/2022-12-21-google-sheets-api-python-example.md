@@ -4,7 +4,7 @@ title: Google Sheets API Python Example
 headline: Populate Data Into a Google Spreadsheet with the Google Sheets API and Python
 description: "Learn how to use the Google Sheets API and Python to populate data into a Google Spreadsheet. This project will use the Google APIs released with GA4 and the URL https://developers.google.com/sheets/api/guides/concepts to connect to Google Sheets and capture an easy-to-read example of reading and writing. Follow my step-by-step guide to learn how to do this!"
 keywords: Google Sheets API, Python, GA4, Reading, Writing, Populate Data, Google Spreadsheet, Tutorial, Step-by-Step Guide
-categories: python, tutorial
+categories: tutorial, python
 permalink: /blog/google-sheets-api-python-example/
 layout: post
 ---
@@ -104,5 +104,5 @@ ranges = result.get("valueRanges", [])
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -12,4 +12,4 @@
 <li><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a> (Sun Mar 05, 2023)
 <br/>I recently discussed the mysterious 486958 Arrokoth, an object encountered by NASA's New Horizons mission. I explored possible scenarios, including the possibility of an alien spacecraft or probe, but ultimately concluded that the natural explanation is much more plausible and consistent with current scientific knowledge. I believe it is important to remember to not confuse science with speculation and imagination. Join me to explore the fascinating possibilities of Arrokoth and the implications of our discoveries.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/opportunity/">Opportunities</a></div> &nbsp; <div class="post-nav-next"><a href="/evidence/">Evidence</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/security/">Security</a></div> &nbsp; <div class="post-nav-next"><a href="/evidence/">Evidence</a><span class="arrow">&nbsp;&rarr;</span></div></div>

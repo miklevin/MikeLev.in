@@ -12,4 +12,4 @@
 <li><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a> (Thu May 26, 2022)
 <br/>As a professional programmer, I'm exploring the world of webcrawling with Python. I'll discuss how to avoid recursion and use iteration, as well as key-value data-stores, Python context managers, user agents, and the DRY principle. I'll also compare Python to other languages like RUST, and discuss the challenges of being a programmer in the digital age. Join me as I explore the world of programming and share my secret weapons as a tech Samurai!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/drinkme/">DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/sharing/">Sharing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/drinkme/">DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/windows-subsystem/">Windows Subsystem</a><span class="arrow">&nbsp;&rarr;</span></div></div>

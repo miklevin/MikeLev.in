@@ -1,0 +1,15 @@
+<ol>
+<li><a href="/blog/happy-birthday-adi/">Happy Birthday Adi!</a> (Mon Nov 07, 2022)
+<br/>Today is my birthday and I'm feeling motivated to keep pushing forward with my progress. Celebrating five years of employment, I'm ready to take on the next task - resolving an unexpected issue with my table-joins. Join me as I explore how to ensure my search volumes don't get lost in the process.</li>
+<li><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a> (Sun Jun 19, 2022)
+<br/>I recently revamped my content release system and made changes to my .vimrc file, including replacing the blast.sh bash file with a new core.py file renamed to skite.py. Additionally, I deleted the blogslicer repo and removed it from PyPI. I'm pleased with my progress and will be writing a new article about it - come read all about my journey!</li>
+<li><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a> (Tue May 03, 2022)
+<br/>Today I was able to make a few easy tweaks to my 15 active websites, and I added a make_helpers.py script to my release script. I also figured out how to navigate to my .vimrc file with the command :b~[Tab], and I'm feeling good about the progress I'm making. Read more to find out how I achieved these results.</li>
+<li><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a> (Fri Apr 29, 2022)
+<br/>I recently changed the name of my project to ELTgd (Every Little Thing Gets Done) to push myself to do more and practice my vim skills. I'm also using whatsametafor.io to document my progress. Click through to read more about my journey and how I'm getting things done!</li>
+<li><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a> (Tue Apr 26, 2022)
+<br/>I'm excited to share that I made great progress on a blog slicing and dicing system. I managed to maintain my blogging format while also figuring out the title stuff. I now have `_counter_` posts, each with a unique filename based on the post title, as well as the title, layout, categories, and slug. Come read more to learn how I did it!</li>
+<li><a href="/blog/concurrent-web-crawling-in-python/">Concurrent Web Crawling in Python</a> (Mon Feb 21, 2022)
+<br/>Today, I'm celebrating President's Day by accomplishing a mission: creating an async Python function to return zipped input/output promises. I'm also working on handling a list of tuples as input and building a package called mlseo on PyPI. To top it off, I've completed a concurrent site crawler in Python that uses SQLite. Join me in celebrating President's Day with this amazing progress!</li>
+</ol>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wisdom/">Wisdom</a></div> &nbsp; <div class="post-nav-next"><a href="/lxc/">LXC</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -12,4 +12,4 @@
 <li><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a> (Fri Dec 30, 2022)
 <br/>I'm pushing myself to take the next steps in the Pipulate project, focusing on collaboration and best practices. I'm exploring ideas to use AI to edit my YouTube videos, setting up the Pipulate repo and practice folder, and activating scheduling under a systemd service. I'm using nbdev version 2 and OhAwf with the addition of the run_console feature. All the necessary software can be found on the Pipulate Software page. Come explore the possibilities with me!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/easy/">Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/security/">Security</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/windows-subsystem/">Windows Subsystem</a></div> &nbsp; <div class="post-nav-next"><a href="/security/">Security</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -4,7 +4,7 @@ title: Is This Jungian Insights Into Bing's Subconscious?
 headline: Brave Heroes Lily, Jack, and Sarah Save the World from a Dark Force
 description: Join Lily, Jack, and Sarah on their epic quest to save the world from a dark force. With the help of a wise old sage, they set out to find the source of the dark force, but when they hear a loud explosion, they realize it's too late. Follow the trio as they use their bravery, intelligence, knowledge, and love to overcome the enemy and become known as the greatest heroes of all time. Read this story to find out how they save the world and find love.
 keywords: Lily, Jack, Sarah, Adventure, Quest, Dark Force, Wise Old Sage, Bravery, Intelligence, Knowledge, Love, Hero, Save the World, Injured Bird, Injured Dolphin, Bandits, Pirates, Treasure, Library, Evil Sorcerer, Glowing Crystal, Powerful Spell, Rumbling Sound, Smoke, Explosion
-categories: knowledge
+categories: 
 permalink: /blog/is-this-jungian-insights-into-bing-s-subconscious/
 layout: post
 ---
@@ -225,5 +225,4 @@ The end.
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-you-do-when-you-approach-a-new-api">What do you do when you approach a new API?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage">Clarified Linux, Python, vim & git Mission on Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/knowledge/'>Knowledge</a></h4></li></ul>
+<ul></ul>
