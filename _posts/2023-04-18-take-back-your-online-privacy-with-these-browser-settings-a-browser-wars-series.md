@@ -4,7 +4,7 @@ title: "Take Back Your Online Privacy with These Browser Settings: A Browser War
 headline: "Secure Your Online Privacy: Uncover the Latest Tricks Microsoft is Using to Hide How to Change Your Default Search Engine"
 description: Learn how to take back control of your online privacy in this episode of the 'Browser Wars' series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.
 keywords: Browser Wars, Edge settings, Microsoft, privacy, default search, Bing, online privacy, search engine
-categories: bing, microsoft
+categories: microsoft, bing
 permalink: /blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/
 layout: post
 ---
@@ -72,9 +72,9 @@ digital privacy, protect data, protect online privacy, protect browsing
 history, protect personal information.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a></div><div class="post-nav-next"><a href="nbdev-packaging-is-the-first-step-in-every-project">Nbdev Packaging Is The First Step In Every Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

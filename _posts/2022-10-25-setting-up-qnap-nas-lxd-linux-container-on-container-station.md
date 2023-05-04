@@ -37,7 +37,7 @@ Okay, now get rid of the password. And another video:
 {% include youtubePlayer.html id="lzGO_y8QN1U" %}
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="bank-a-win-then-figure-out-how-you-did-it">Bank a Win Then Figure Out How You Did It</a></div><div class="post-nav-next"><a href="getting-my-local-24x7-place-to-run-code">Getting My Local 24x7 Place to Run Code</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

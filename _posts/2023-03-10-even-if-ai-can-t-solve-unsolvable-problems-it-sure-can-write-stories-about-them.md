@@ -965,7 +965,7 @@ Source: Conversation with Bing, 3/9/2023
     (5) Twin prime - Wikipedia. https://en.wikipedia.org/wiki/Twin_prime Accessed 3/9/2023.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="most-influential-scientists-women-women-scientists">Most Influential Scientists & Women & Women Scientists</a></div><div class="post-nav-next"><a href="reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged">Reconstructing Math Under Python for The Syntactically Ambiguous Challenged</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

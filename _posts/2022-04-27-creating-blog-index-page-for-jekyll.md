@@ -116,7 +116,7 @@ with open(f"{folder_name}/blog.md", "w") as fh:
 ```
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="creating-blog-index-page-for-jekyll">Creating Blog Index Page for Jekyll</a></div><div class="post-nav-next"><a href="turning-repo-into-nbdev-project">Turning Repo into nbdev Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

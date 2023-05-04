@@ -128,7 +128,7 @@ Source: Conversation with Bing, 3/10/2023
     (5) (PDF) Deep Learning meets Game Theory - ResearchGate. https://www.researchgate.net/publication/317062658_Deep_Learning_meets_Game_Theory Accessed 3/10/2023.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="science-experiments-for-12-year-olds">Science Experiments for 12 Year Olds</a></div><div class="post-nav-next"><a href="desperately-seeking-a-better-intro-to-math-science-a-pythonic-one">Desperately Seeking a Better Intro to Math & Science. A Pythonic One?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

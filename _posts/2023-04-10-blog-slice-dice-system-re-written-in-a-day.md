@@ -379,7 +379,7 @@ python ~/repos/skite/chopchop.py -f /mnt/c/Users/mikle/repos/hide/MikeLev.in/jou
 Bingo! I'm up to 541 posts now and a short OpenAI meta description was used on
 the blog's index page as it's description.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="creating-github-repo-specifically-for-copilot-explorations">Creating Github Repo Specifically For Copilot Explorations</a></div><div class="post-nav-next"><a href="let-me-show-you-how-to-get-how-to-get-to-wonderland">Let Me Show You How to Get, How to Get to Wonderland</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Recovering Old Laptops For Video Production Purposes
 headline: Upgrading WSL1 and Resetting Windows 11 to Windows 10 - My Journey to Create a Video Tutorial
 description: I'm creating a video tutorial to show how to upgrade WSL1 and reset Windows 11 to Windows 10, using a laptop with a version lower than 18917. To ensure accuracy, I'm researching Wikipedia pages and downloading Windows Win10_1809Oct_v2_English_x64.iso. Join me on my journey as I work to make this video and worry about ruining it with a system update!
 keywords: Laptops, Video Production, Tutorial, Upgrade, Reset, Windows 11, Windows 10, Version, 18917, Wikipedia, Win10_1809Oct_v2_English_x64.iso, WSL1, Factory Reset, System Update
-categories: windows 11, tutorial, version, windows 10
+categories: tutorial, version, windows 10, windows 11
 permalink: /blog/recovering-old-laptops-for-video-production-purposes/
 layout: post
 ---
@@ -54,11 +54,11 @@ I'm worried that goes past the WSL2 boundary and will ruin the video I'm trying
 to produce. I can always roll-back, but lost time effit!
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="developing-priceless-and-timeless-tech-habits">Developing Priceless and Timeless Tech Habits</a></div><div class="post-nav-next"><a href="let-people-know-how-you-feel">Let People Know How You Feel</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
 <li><h4><a href='/version/'>Version</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

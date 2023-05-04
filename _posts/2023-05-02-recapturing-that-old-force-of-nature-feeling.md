@@ -4,7 +4,7 @@ title: Recapturing That Old Force of Nature Feeling
 headline: Using AI to Get Back That Old Force of Nature Feeling From When I Was Younger
 description: I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.
 keywords: force of nature, info-tech, AI-assisted coding, Python, rsplit, token limit, text-davinci-003 engine, while loop, for loop, Microsoft Office suite, Google Slides, md2googleslides, NodeJS, npm, proprietary, open-source, open-data, open-everything, open-minded, Powerpoint-like concepts, markdown, 80/20-rule, copy/paste, hand-drawn images, Note
-categories: 80/20-rule, python, nodejs, proprietary
+categories: proprietary, 80/20-rule, python, nodejs
 permalink: /blog/recapturing-that-old-force-of-nature-feeling/
 layout: post
 ---
@@ -134,11 +134,11 @@ groceries. Be back soon, renewed, refreshed and able to do more with less.
 
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="rappelling-down-the-rabbit-hole-x-marks-the-spot">Rappelling Down the Rabbit Hole, X-Marks The Spot</a></div><div class="post-nav-next"><a href="openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li></ul>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Pushing Blogslicer to PyPI (From Jupyter Notebook)
 headline: Successfully Releasing Packages Built in Jupyter Notebooks to PyPI with nbdev
 description: I successfully created a pattern for releasing packages built in Jupyter Notebooks into PyPI, using nbdev from Fast.ai. I pushed my package, Blogslicer, to PyPI, but still have more work to do before I can add it to my blog release script. Read more to find out how I did it!
 keywords: PyPI, Jupyter Notebook, nbdev, Fast.ai, Blogslicer, package, command-line, parameterized, release, script, version, docs, library, commit, upload, python, interpreter
-categories: jupyter notebook, script, nbdev, version, command-line, python, pypi
+categories: jupyter notebook, command-line, version, python, script, pypi, nbdev
 permalink: /blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/
 layout: post
 ---
@@ -177,14 +177,14 @@ Okay, so one more time, but from scratch (blogslicer was already well
 underway).
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="pushing-blogslicer-to-pypi-from-jupyter-notebook">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a></div><div class="post-nav-next"><a href="making-youtube-embeds-100-width-but-fixed-aspect-ratio-height">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/version/'>Version</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
+<li><h4><a href='/version/'>Version</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

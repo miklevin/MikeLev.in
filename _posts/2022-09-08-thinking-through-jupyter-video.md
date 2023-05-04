@@ -86,7 +86,7 @@ route. It's a trap! Make this your break-out video. Make this a must-watch
 video for everyone who uses Jupyter.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="run-jupyter-from-lxd-linux-container-on-windows">Run Jupyter from LXD Linux Container on Windows</a></div><div class="post-nav-next"><a href="getting-ready-to-teach-installing-jupyter-right">Getting Ready to Teach Installing Jupyter Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

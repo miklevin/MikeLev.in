@@ -258,7 +258,7 @@ print("Done")
 ```
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="flattening-the-curve-of-ai-free-energy">Flattening The Curve of AI & Free Energy</a></div><div class="post-nav-next"><a href="planning-a-pivot-of-big-data-pull">Planning a Pivot of Big Data Pull</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

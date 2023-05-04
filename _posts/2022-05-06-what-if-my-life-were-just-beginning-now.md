@@ -181,7 +181,7 @@ necessarily true. And although my relationships have been hit-or-miss over the
 years, whose haven't. I don't think I'd trade my life for any other. If I were
 to do it all over again, I would be quite happy taking the exact same path.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="what-if-my-life-were-just-beginning-now">What If My Life Were Just Beginning Now?</a></div><div class="post-nav-next"><a href="of-green-arrows-and-red-armor">Of Green Arrows and Red Armor</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -29,7 +29,7 @@ yo something.
 > Who had me fooled again you see\
 > Which makes it twice so shame on me
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="what-s-most-broken">What's Most Broken?</a></div><div class="post-nav-next"><a href="bopping-between-python-bash-scripts-no-biggie">Bopping Between Python & Bash Scripts No Biggie</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

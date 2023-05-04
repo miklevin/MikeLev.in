@@ -38,7 +38,7 @@ then you scramble to get things out of its way. Ready, fire, aim! Not for all
 things, but for organizing an environment for sure. Front-load the big wins.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="openai-codex-api-cost-getting-started-usage-pattern">OpenAI Codex API Cost Getting Started Usage Pattern</a></div><div class="post-nav-next"><a href="testing-auto-publish-prevention-when-ai-has-written-fields">Testing Auto-Publish Prevention When AI Has Written Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Preserving ~/.jupyter config files between WSL 2 LXD installs
 headline: Preserving JupyterLab Dark Theme Across WSL 2 LXD Installs
 description: I'm working on a project that requires WSL 2 LXD, and I needed to save my ~/.jupyter config files between installs. I identified the default location and created a transfer directory, added an environment variable, and tested the process. After reinstalling, I confirmed that my JupyterLab dark theme was still active. Follow my journey as I go through the process and make sure my JupyterLab dark theme is still active.
 keywords: "WSL 2 LXD, ~/.jupyter, config files, transfer directory, environment variable, JupyterLab, dark theme, PowerShell, lxc jupyterlogin, jupyterscreen, localhost:8888, install.bat, repos/wsl2lxd"
-categories: jupyterlab, powershell
+categories: powershell, jupyterlab
 permalink: /blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs/
 layout: post
 ---
@@ -112,9 +112,9 @@ the way. I'll drop those files directly into ~/repos/transfer. Avoid
 subdirectory-hell. You're already two deep.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a></div><div class="post-nav-next"><a href="ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>

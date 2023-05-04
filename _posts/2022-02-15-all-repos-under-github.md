@@ -17,7 +17,7 @@ numerous. Folder propagation inside ~/github is a potential problem I need to
 keep an eye on. There's need for organization and pruning. Speaking of which
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="all-repos-under-github">All Repos Under ~/github</a></div><div class="post-nav-next"><a href="all-my-sites-will-be-in-play">All My Sites Will Be In Play</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

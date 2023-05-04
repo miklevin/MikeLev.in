@@ -36,7 +36,7 @@ visualization of relationships. I do this already in non-visual Python scripts
 and Excel. That kind of stuff could go easily into a FOSS product.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="unix-linux-won-are-now-the-rules-of-the-road">Unix/Linux Won & Are Now The Rules of The Road</a></div><div class="post-nav-next"><a href="hey-ai-give-me-credit-consent-compensation">Hey AI: Give Me Credit, Consent & Compensation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

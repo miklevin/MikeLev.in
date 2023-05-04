@@ -4,7 +4,7 @@ title: Massaging 10 Sites Into Shape At Once
 headline: "Speed Up Site Optimization: How I Massaged 10 Sites Into Shape At Once"
 description: I recently optimized my Jekyll blog post URLs by removing stopwords, and I wanted to roll out the changes across all my sites. To make the process faster, I created a script that I could execute from Linux on Windows. With this script, I was able to quickly and easily make the same changes across all my sites. Read more to learn how I did it.
 keywords: "Jekyll, URLs, Stopwords, Linux, Windows, Script, Git, Index.md, `_config.yml`, Helper Folder"
-categories: linux, script, urls, git, jekyll
+categories: jekyll, linux, urls, git, script
 permalink: /blog/massaging-10-sites-into-shape-at-once/
 layout: post
 ---
@@ -75,11 +75,11 @@ for site in sites:
     print()
 ```
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="massaging-10-sites-into-shape-at-once">Massaging 10 Sites Into Shape At Once</a></div><div class="post-nav-next"><a href="adding-command-line-argument-support-to-jupyter-notebook">Adding Command-Line Argument Support to Jupyter Notebook</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

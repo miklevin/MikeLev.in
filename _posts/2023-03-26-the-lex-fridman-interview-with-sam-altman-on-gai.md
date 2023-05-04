@@ -78,7 +78,7 @@ super-great. If GPT is going to take your job, maybe you were a shitty
 programmer.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a></div><div class="post-nav-next"><a href="time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

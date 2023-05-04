@@ -17,7 +17,7 @@ that locked-up Windows Terminals happen so often that the Microsoft programmer
 in charge of it decided to give it an easy-to-press keyboard shortcut.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a></div><div class="post-nav-next"><a href="turning-python-huey-data-pipeline-into-schedule-repo-alternative">Turning Python Huey Data Pipeline into Schedule Repo Alternative</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2
 headline: Successfully Installed Sun Microsystems' Zettabyte File System (OpenSolaris ZFS) on WSL2 to Access Best Developer Tools.
 description: I'm installing OpenSolaris ZFS as part of a larger effort to have access to all the best developer stuff on my Linux WSL2 system. I ran into some errors while trying to get LXC and LXD running, but I was able to get everything working with the help of the 'wsl --help' command. I'm excited to have LXD running under WSL and am looking forward to the next livestream which will be about developing Linux system services with LXD.
 keywords: Sun Microsystems, Zettabyte File System, OpenSolaris, ZFS, WSL2, Linux, LXC, LXD, 'wsl --help', Windows Subsystem, Oracle, Solaris, ICs, SNAP store, Docker, systemd, 'lxd init', livestream, blog
-categories: docker, linux, windows subsystem, lxd, systemd, wsl2
+categories: linux, docker, wsl2, lxd, systemd, windows subsystem
 permalink: /blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/
 layout: post
 ---
@@ -350,13 +350,13 @@ Done, done and done!
 See you folks soon for the ***really exciting*** part: LXD under WSL, a.k.a.
 local Linux playgrounds for Linux system service (daemon) development.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux">Trying Again To Get LXD Working Under Microsoft Subsystem For Linux</a></div><div class="post-nav-next"><a href="my-formative-years-at-all-boys-science-summer-camp-integrated-life">My Formative Years at All-Boys Science Summer Camp / Integrated Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/windows-subsystem/'>Windows Subsystem</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>
+<li><h4><a href='/windows-subsystem/'>Windows Subsystem</a></h4></li></ul>

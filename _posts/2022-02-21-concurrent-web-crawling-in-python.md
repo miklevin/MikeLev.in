@@ -4,7 +4,7 @@ title: Concurrent Web Crawling in Python
 headline: "Celebrating President's Day with Amazing Progress: Concurrent Web Crawling in Python!"
 description: "Today, I'm celebrating President's Day by accomplishing a mission: creating an async Python function to return zipped input/output promises. I'm also working on handling a list of tuples as input and building a package called mlseo on PyPI. To top it off, I've completed a concurrent site crawler in Python that uses SQLite. Join me in celebrating President's Day with this amazing progress!"
 keywords: Python, Async, Function, Zipped, Input/Output, Promises, Tuples, Package, mlseo, PyPI, Concurrent, Crawling, SQLite, President's Day, Mission, Progress
-categories: sqlite, python, pypi, mlseo
+categories: sqlite, pypi, python, mlseo
 permalink: /blog/concurrent-web-crawling-in-python/
 layout: post
 ---
@@ -22,11 +22,11 @@ great things for doing generic broad SEO tasks.
 
 We finished a site crawler. It's concurrent. It's Python. It uses SQLite.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="concurrent-web-crawling-in-python">Concurrent Web Crawling in Python</a></div><div class="post-nav-next"><a href="testing-nbdev">Testing nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/mlseo/'>mlseo</a></h4></li></ul>

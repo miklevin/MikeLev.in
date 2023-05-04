@@ -509,7 +509,7 @@ Sorry, you've reached the limit of messages you can send to Bing within 24 hours
 Drat!
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a></div><div class="post-nav-next"><a href="most-influential-scientists-women-women-scientists">Most Influential Scientists & Women & Women Scientists</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

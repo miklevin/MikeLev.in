@@ -39,7 +39,7 @@ in one of the other sites.
 I also by the way can leave the original entry in my :b1 journal because it
 never gets published and so will never cause duplicate content issues.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="vim-b1-commands-much-force-like-obi-wan">vim :b1 Commands Much Force Like Obi-Wan</a></div><div class="post-nav-next"><a href="what-s-most-broken">What's Most Broken?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

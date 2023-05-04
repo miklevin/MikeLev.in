@@ -45,7 +45,7 @@ blogslicer repo, and even remove it from PyPI! Wow, I should cut this journal
 entry and make that the focus of a wholly new article.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="removing-a-package-from-pypi-org-a-pip-installable-app-i-created">Removing a Package From PyPI.org (a pip installable app I created)</a></div><div class="post-nav-next"><a href="i-ll-just-put-this-in-my-usr-local-sbin">I'll Just Put This In My /usr/local/sbin/</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

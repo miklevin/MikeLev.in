@@ -4,7 +4,7 @@ title: My Personal SEO to AI via FOSS on LPvg Transition Plan
 headline: "Transitioning from SEO to AI: My Plan for a Hardware and Vendor-Independent Computing Environment"
 description: This blog post outlines a plan for transitioning from SEO to AI via FOSS on LPvg. I will be familiarizing readers with Moz's products and teaching them how to use tools like Vim and JupyterLab to create a nomadic computing environment that is hardware and vendor independent. I will provide a prescribed, vetted, and proven process to become more technical and free of Google, Microsoft, and other paid services.
 keywords: SEO, AI, FOSS, LPvg, Moz, Vim, JupyterLab, Python, Linux, Automation, Data Visualization, Data Tables, Git, Writing, Sharing, Code, Nomadic Computing, Hardware, Vendor, Independent, Processes, End-to-End, Journal
-categories: jupyterlab, linux, moz, sharing, hardware, ai, seo, vim, git, automation, python, lpvg
+categories: vim, lpvg, linux, sharing, python, git, jupyterlab, automation, moz, hardware, seo, ai
 permalink: /blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/
 layout: post
 ---
@@ -59,19 +59,19 @@ Even once you do, it's going to take continual daily practice to commit or to mu
 I usually either get too technical too fast or too abstract too fast and lose my audience. I know that.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged">Reconstructing Math Under Python for The Syntactically Ambiguous Challenged</a></div><div class="post-nav-next"><a href="are-quantum-computers-fake-proof-what-about-superdeterminism">Are Quantum Computers Fake? Proof? What About Superdeterminism?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/sharing/'>Sharing</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/sharing/'>Sharing</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

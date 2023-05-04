@@ -4,7 +4,7 @@ title: Every Little Project Gets Done!
 headline: "Pushing Myself to Do More: My Journey to ELTgd (Every Little Thing Gets Done)"
 description: I recently changed the name of my project to ELTgd (Every Little Thing Gets Done) to push myself to do more and practice my vim skills. I'm also using whatsametafor.io to document my progress. Click through to read more about my journey and how I'm getting things done!
 keywords: Project, ELTgd, Vim, Skills, Progress, Journey, Little Things, Journaling, Macros, Formatting, Whatsametafor.io
-categories: vim, skills, journaling, macros, journey
+categories: vim, skills, journey, macros, journaling
 permalink: /blog/every-little-project-gets-done/
 layout: post
 ---
@@ -62,10 +62,10 @@ Just keep it in mind to document later. Right now, it's what whatsametafor.io
 is for.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="every-little-project-gets-done">Every Little Project Gets Done!</a></div><div class="post-nav-next"><a href="removing-stopwords-from-jekyll-blog-urls">Removing Stopwords From Jekyll Blog URLs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

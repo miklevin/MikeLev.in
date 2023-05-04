@@ -4,7 +4,7 @@ title: But Should We Still Blog? Should It All Just Fade Away?
 headline: "Adapting to the Changing Rules of SEO: Crafting Evergreen Content and Unpublishing Old Pages"
 description: As an SEO, I have been adapting to the changing rules of the game and am now focusing on creating evergreen topic pages with the right level of detail, decrufting my website, and unpublishing old content to make way for new content. I am also striving to publish content in a blog-like long tail style, curating my path to keep up with the changing circumstances. Join me on my journey as I strive to create a website that is both helpful and polished.
 keywords: SEO, Evergreen Topic Pages, Decrufting, Unpublishing, Long Tail Style, Curation, Polished Turds, Helpful Content, Linux, Python, Vim, Git, Long Tail SEO, Best Foot Forward SEO, Incumbents, Fading Assets, Interesting Components, Prettier
-categories: linux, seo, vim, git, python
+categories: vim, linux, python, git, seo
 permalink: /blog/but-should-we-still-blog-should-it-all-just-fade-away/
 layout: post
 ---
@@ -184,12 +184,12 @@ Let's make my site a little prettier.
 ![Blue Balloons](/assets/images/blue-balloons.jpg)
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="e-e-a-t-the-new-google-quality-guidelines">E-E-A-T The New Google Quality Guidelines</a></div><div class="post-nav-next"><a href="managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

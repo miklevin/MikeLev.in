@@ -55,7 +55,7 @@ creating collision situations. The `cat_*` pages are going to be output all the
 time in both website root and in `_includes`.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a></div><div class="post-nav-next"><a href="chip-chop-chip-chop-top-10-done">Chip, Chop, Chip, Chop, Top-10 Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -386,7 +386,7 @@ because it still must be a unique key, albeit not multi-column anymore and we
 have to deal with tuple/string conversions here and there. An eval() readily
 turns the stringified key back into a tuple.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="let-the-decrufting-begin">Let The Decrufting Begin!</a></div><div class="post-nav-next"><a href="editing-all-pages-all-at-once">Editing All Pages All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

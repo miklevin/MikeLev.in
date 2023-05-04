@@ -56,7 +56,7 @@ whenever I publish a blog post. Choose a headline now, and challenge OpenAI to
 choose a better subhead.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="allow-github-to-use-my-code-snippets-for-product-improvements">Allow GitHub To Use My Code Snippets For Product Improvements</a></div><div class="post-nav-next"><a href="learnings-from-weekend-openai-keyword-extraction-clustering-project">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

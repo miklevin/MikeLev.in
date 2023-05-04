@@ -146,7 +146,7 @@ intuitively all along!
 {% include youtubePlayer.html id="4aPV0SGdBn8" %}
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="go-for-broke-connecting-the-dots">Go For Broke Connecting The Dots</a></div><div class="post-nav-next"><a href="fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster">Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

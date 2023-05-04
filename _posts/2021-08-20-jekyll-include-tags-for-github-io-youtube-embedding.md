@@ -58,7 +58,7 @@ That's "before" and that's after.
 
 Okay, done. Onto main work!
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="jekyll-include-tags-for-github-io-youtube-embedding">Jekyll include tags for Github.io YouTube Embedding</a></div><div class="post-nav-next"><a href="re-launch-mikelevinseo-com-on-github-io">(Re)Launch MikeLevinSEO.com on Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: The Epic nbdev Static Site Generator Post
 headline: "Switching to Python Programs: Setting Up a Blog Release System with nbdev"
 description: I recently downgraded from Ubuntu 20.04 to Ubuntu 18.04, which broke my blog release system. To fix this, I am switching from Unix Scripts to Python Programs, using argparse and the Python Standard Library to modularize my programs and make them work from the command-line with arguments. I'm learning about the subprocess API options, setting up a virtualenv and installing Python 3.10, creating a git repo, and writing a blog post.
 keywords: Python, Subprocess, API, argparse, Standard Library, Unix/Linux, 80/20-rule, run() function, Popen, virtualenv, Python 3.10, git, repo, blog post, Pandas, dataframe, namedtuple, csv, pipe delimited, Bash, Jupyter Notebook, command line, settings.ini, continuous integration, fails, read() method, cd, echo, OS-independent, PowerShell, environment variables,
-categories: jupyter notebook, pandas, 80/20-rule, api, virtualenv, git, csv, bash, python, powershell
+categories: pandas, csv, jupyter notebook, python, git, powershell, api, 80/20-rule, virtualenv, bash
 permalink: /blog/the-epic-nbdev-static-site-generator-post/
 layout: post
 ---
@@ -1161,16 +1161,16 @@ h2("Done!")
 
 I need to tie this process to a vim macro again.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="throw-all-the-meat-veggies-into-the-stew-stir-the-blog-vlog">Throw All The Meat & Veggies Into The Stew & Stir The Blog / Vlog</a></div><div class="post-nav-next"><a href="there-s-no-place-like-home-you-get-to-decide-where-that-is-or-do-you">There's No Place Like Home & You Get To Decide Where That Is... Or Do You?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/csv/'>CSV</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
+<li><h4><a href='/bash/'>Bash</a></h4></li></ul>

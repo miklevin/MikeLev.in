@@ -4,7 +4,7 @@ title: You Need a Personal Server In Your Life & The Time is Nigh
 headline: Create Your Own Personal Server and Reach Your Goals!
 description: I discovered that I could use my NAS as an application server, and with the help of Linux containers, I could transfer my laptop simulations to a home cloud without any fees. I was able to condition myself to go the direction I wanted to go and reach my goals, and mastering generic Linux was key for my long-term success. Read my blog post to learn how I did it and create your own personal server.
 keywords: NAS, Linux, Containers, LXD, Home Cloud, Cloud Provider, Laptop Simulations, Application Server, Personal Server, Long-term Success, External Influences, Conditioning, Goals, On-task
-categories: goals, linux, containers, lxd
+categories: containers, linux, lxd, goals
 permalink: /blog/you-need-a-personal-server-in-your-life-the-time-is-nigh/
 layout: post
 ---
@@ -133,7 +133,7 @@ automatically starting services.
 Layer in better messaging and intent to keep compelling me forward every day.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="how-to-use-the-screen-command-for-linux-service">How to Use the Screen Command for Linux Service</a></div><div class="post-nav-next"><a href="running-automated-script-on-nas-24x7-under-lxd-container">Running Automated Script on NAS 24x7 Under LXD Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Testing Google Photos Organization Program
 headline: Exploring the Impact of Media on Society with Google Photos Organization
 description: I'm testing a Google Photos organization system, uploading photos to my NAS, and setting up a home cloud to increase my storage capabilities. To get around certain API limitations, I'm using Microsoft Playwright browser automation on a headless LXD server. In this blog post, I discuss the impact of media on society and how it can be used to shape public opinion and create a more informed and connected society. Read more to find out my thoughts on this important topic.
 keywords: Google Photos, Organization, API, Microsoft Playwright, Browser Automation, Headless LXD, Server, Media, Society, Public Opinion, Informed, Connected
-categories: api, organization, browser automation, microsoft playwright, google photos
+categories: google photos, api, browser automation, organization, microsoft playwright
 permalink: /blog/testing-google-photos-organization-program/
 layout: post
 ---
@@ -75,12 +75,12 @@ to that user data. And it worked. I can automate Google Photos and get around
 certain API limitations, like not being able to delete media.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="using-google-photos-api-to-generate-main-archive-favorite-media-lists">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a></div><div class="post-nav-next"><a href="where-to-begin-pickle-your-dicts">Where to Begin? Pickle Your Dicts!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/organization/'>Organization</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li></ul>
+<li><h4><a href='/organization/'>Organization</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>

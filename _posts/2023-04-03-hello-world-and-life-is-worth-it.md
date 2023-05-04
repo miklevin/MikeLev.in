@@ -4,7 +4,7 @@ title: Hello World and Life is Worth It 🦋!
 headline: Exploring AI and Quantum Computing to Unlock Creative Prompting and High Salaries
 description: Since March 10, 2020, I've been streaming and journaling with an AI assistant. I'm researching quantum computing, SEO tools, and how to join data from different sources. I'm advocating for timeless tools like Linux, Python, vim, and git, and exploring creative prompting as a skill that can lead to high salaries. As I'm not interested in creating a computer intelligence, I'm looking into how Microsoft and Google are raising their AI kids.
 keywords: SEO, Links API, MozBar, Moz Pro, Linux, Python, Vim, Git, Quantum Computing, AI, Microsoft, Google, Language, Empathy, Creativity, Alignment, Human Values, Internal Assets, Million Dollars
-categories: google, linux, seo, ai, empathy, vim, git, moz pro, python, microsoft
+categories: vim, linux, empathy, python, git, google, moz pro, microsoft, seo, ai
 permalink: /blog/hello-world-and-life-is-worth-it/
 layout: post
 ---
@@ -348,17 +348,17 @@ And it gives me a sense of purpose.
 And it gives me stuff to share.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="watch-me-struggle-with-mermaid-js">Watch Me Struggle With Mermaid JS</a></div><div class="post-nav-next"><a href="playing-with-bard">Playing with Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

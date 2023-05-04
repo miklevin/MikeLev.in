@@ -106,7 +106,7 @@ project, which more appropriately belongs on that domain.
 Okay, all mikelevinseo.com journal-like content has been yanked over here.
 Commit and publish.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="always-be-publishing-via-journaling">Always Be Publishing Via Journaling</a></div><div class="post-nav-next"><a href="okay-i-m-finally-keeping-audiences-in-mind">Okay, I'm Finally Keeping Audiences In Mind</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

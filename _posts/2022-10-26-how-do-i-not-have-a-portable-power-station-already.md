@@ -49,7 +49,7 @@ but the battery was actually toast after 10-years. It was the first thing to go
 wrong on my Jeep Wrangler in a decade.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="is-dark-energy-consciousness-choosing-gated-communities-over-heat-death">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a></div><div class="post-nav-next"><a href="bank-a-win-then-figure-out-how-you-did-it">Bank a Win Then Figure Out How You Did It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

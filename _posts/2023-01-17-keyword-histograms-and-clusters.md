@@ -50,7 +50,7 @@ I've done really good work with these lambda functions that look just like
 applied text-processing.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="thinking-through-python-google-photos-sorter">Thinking Through Python Google Photos Sorter</a></div><div class="post-nav-next"><a href="the-critical-juncture-with-ai-my-next-steps">The Critical Juncture With AI & My Next Steps</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

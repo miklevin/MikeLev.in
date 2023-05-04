@@ -145,7 +145,7 @@ with open(f"{folder_name}/blog.md", "w") as fh:
 ```
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="stop-using-stop-words-when-they-reverse-meaning">Stop Using Stop-Words When They Reverse Meaning</a></div><div class="post-nav-next"><a href="massaging-10-sites-into-shape-at-once">Massaging 10 Sites Into Shape At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

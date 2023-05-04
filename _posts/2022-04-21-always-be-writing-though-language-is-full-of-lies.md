@@ -103,7 +103,7 @@ lizard who aren't really expressing opinions in a lingual form at all. We just
 give them words to justify the things we've done already and are defending our
 self-images through ridiculous justification.
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="always-be-writing-though-language-is-full-of-lies">Always Be Writing Though Language Is Full of Lies</a></div><div class="post-nav-next"><a href="the-importance-of-digital-housekeeping">The Importance of Digital Housekeeping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

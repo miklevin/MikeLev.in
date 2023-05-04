@@ -128,7 +128,7 @@ Source: Conversation with Bing, 3/10/2023
     (5) (PDF) Deep Learning meets Game Theory - ResearchGate. https://www.researchgate.net/publication/317062658_Deep_Learning_meets_Game_Theory Accessed 3/10/2023.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="can-large-language-models-help-you-learn-math">Can Large Language Models Help You Learn Math?</a></div><div class="post-nav-next"><a href="parsing-planck-s-equation">Parsing Planck's Equation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

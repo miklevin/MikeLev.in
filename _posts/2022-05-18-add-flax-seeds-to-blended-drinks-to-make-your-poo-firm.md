@@ -26,7 +26,7 @@ flatulence. What can I add for that?
 {% include youtubePlayer.html id="bkrEKpODzto" %}
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="add-flax-seeds-to-blended-drinks-to-make-your-poo-firm">Add Flax Seeds to Blended Drinks to Make Your Poo Firm</a></div><div class="post-nav-next"><a href="yes-i-am-a-dick-bucket">Yes, I Am a Dick Bucket</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

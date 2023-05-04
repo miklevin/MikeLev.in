@@ -107,7 +107,7 @@ Categorinator
 vim dictionator
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="this-is-where-i-reversed-the-ascii-rabbit">This Is Where I Reversed The ASCII Rabbit</a></div><div class="post-nav-next"><a href="plot-the-awakening-rig-for-youtube-success">Plot The Awakening / Rig For YouTube Success</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

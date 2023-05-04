@@ -22,7 +22,7 @@ to hear from you. Just leave a comment below.
 
 ![A Good Laugh and a Long Sleep are the Two Best Cures for Anything](/assets/images/good-joke-and-long-sleep-cure-for-anything-irish-proverb.jpg)
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="it-s-time-someone-stood-up-to-you-and-survived">It's Time Someone Stood Up To You... And Survived</a></div><div class="post-nav-next"><a href="righteous-feedback-loops-of-self-improvement">Righteous Feedback Loops of Self-Improvement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

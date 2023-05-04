@@ -4,7 +4,7 @@ title: Notebook-based Browser Automation With NBDev
 headline: "Improving My Life with NBDev: My Journal Begins!"
 description: I'm starting a journal to document my journey of improving my life with NBDev. NBDev makes writing code easier and more organized, and it's a great improvement over VSCode's Jupyter Notebook extension. I had some trouble shooting a video with OBS, but the nbdev_export worked well. Follow my journey as I document my successes and learn from my mistakes!
 keywords: NBDev, Browser Automation, Jupyter Notebook, VSCode, OBS, nbdev_export, Life Improvement, Experimental Environment, Production Environment
-categories: jupyter notebook, nbdev, browser automation, vscode
+categories: jupyter notebook, vscode, nbdev, browser automation
 permalink: /blog/notebook-based-browser-automation-with-nbdev/
 layout: post
 ---
@@ -38,11 +38,11 @@ But the nbdev_export worked well. In fact all the steps that did work well are:
 - nbdev_export
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="planning-the-day-discussing-the-future-with-bard">Planning The Day & Discussing The Future With Bard</a></div><div class="post-nav-next"><a href="tackling-moz-browser-automation-until-i-get-it-right">Tackling MOZ Browser Automation Until I Get It Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

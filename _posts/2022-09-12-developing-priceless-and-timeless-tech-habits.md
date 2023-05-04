@@ -57,7 +57,7 @@ connection, virtual screens for fullscreen apps and a taskbar for switching
 between them—little more.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="going-down-the-wsl-to-lxd-install-script-rabbit-hole">Going Down the WSL to LXD Install Script Rabbit Hole</a></div><div class="post-nav-next"><a href="recovering-old-laptops-for-video-production-purposes">Recovering Old Laptops For Video Production Purposes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

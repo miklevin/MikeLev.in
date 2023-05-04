@@ -140,7 +140,7 @@ are made, sometimes in life-crippling ways and sometimes in life-broadening
 ways.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="but-should-we-still-blog-should-it-all-just-fade-away">But Should We Still Blog? Should It All Just Fade Away?</a></div><div class="post-nav-next"><a href="me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language">Me vs. ChatGPT: Tell me why I should use the Python programming language.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

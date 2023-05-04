@@ -4,7 +4,7 @@ title: Marathon Live Streaming Getting Copilot Working in NeoVim
 headline: "Successfully Installing Copilot in NeoVim: My Journey"
 description: I successfully got Copilot working in NeoVim by updating the drinkme script, installing vim-plug and the Copilot plug-in from Github, and testing the authentication process. Although I'm done for the night, there are still tests and polish that need to be done. Read about my journey to get Copilot working in NeoVim on my blog.
 keywords: Marathon, Live Streaming, Copilot, NeoVim, Drinkme Script, Vim-Plug, Plug-in, Authentication Process, Tests, Polish, Linux, Graphics, Browser
-categories: copilot, neovim, linux, graphics
+categories: copilot, linux, graphics, neovim
 permalink: /blog/marathon-live-streaming-getting-copilot-working-in-neovim/
 layout: post
 ---
@@ -86,10 +86,10 @@ Hmmm. Going to re-activate Chrome. Mostly done for the night, but there's some
 tests and polish that still needs to be performed.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="fear-sells-don-t-buy-it">Fear Sells. Don't Buy It.</a></div><div class="post-nav-next"><a href="i-m-live-streaming-youtube-again-more-freely-than-before">I'm Live streaming YouTube again More Freely Than Before</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

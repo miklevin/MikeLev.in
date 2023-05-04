@@ -194,7 +194,7 @@ And then remember to look at it tomorrow to ensure it ran on schedule.
 Now I'm done.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster">Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster</a></div><div class="post-nav-next"><a href="movie-night-from-mean-girls-to-heathers-and-beyond">Movie Night: From Mean Girls to Heathers and Beyond!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

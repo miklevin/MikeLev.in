@@ -135,7 +135,7 @@ done
 exit
 ```
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="bash-script-loading-external-files">Bash Script Loading External Files</a></div><div class="post-nav-next"><a href="from-jupyter-notebook-to-pip-installable-package-in-one-go">From Jupyter Notebook to pip Installable Package In One Go</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

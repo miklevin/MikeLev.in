@@ -122,7 +122,7 @@ Oh, capture John Henry:
     You can hear John Henry's hammer ring
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="an-ode-tuple-keys">An Ode Tuple Keys</a></div><div class="post-nav-next"><a href="thinking-through-python-google-photos-sorter">Thinking Through Python Google Photos Sorter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -112,7 +112,7 @@ set /p warning=Press [Enter] to release this console window. %
 ```
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="meissner-effect-schwinger-effect-tictac-flux-liner">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a></div><div class="post-nav-next"><a href="the-tale-of-the-planckian-and-the-wall">The Tale of The Planckian and The Wall</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

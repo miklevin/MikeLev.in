@@ -4,7 +4,7 @@ title: Project Deteriorates Into Tools Discussion Again
 headline: "My Experience With MOZ Pro: Trying Out VSCode on WSL"
 description: I started a project in MOZ Pro by selecting a domain and downloading the CSV file. I then added 30_data.ipynb to the repo, using the apex domain as part of the filename. After that, I had a list of competitors and I could pull their keywords. I was tempted to try VSCode running as a Linux app on WSL, but the UI was too clunky. I share my experience in this blog post.
 keywords: MOZ Pro, CSV file, apex domain, competitors, keywords, VSCode, Linux, WSL, UI, clunky
-categories: keywords, linux, wsl, moz pro, vscode
+categories: keywords, vscode, linux, wsl, moz pro
 permalink: /blog/project-deteriorates-into-tools-discussion-again/
 layout: post
 ---
@@ -74,12 +74,12 @@ without it. I'm going to try to get past that because it feels a lot like
 training wheels. It should have been called Training Wheels, haha!
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="openai-vs-kmeans-for-keyword-clustering">OpenAI Vs. KMeans for Keyword Clustering</a></div><div class="post-nav-next"><a href="keyword-clustering-my-blog-posts-with-kmeans">Keyword Clustering My Blog Posts With KMeans</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/keywords/'>Keywords</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: vim Macro to Format Markdown Poetry
 headline: "Discover Independence from Microsoft with Vim: Unlock the Power of Jupyter and Writing Every Day"
 description: I'm talking about how to use vim to break free from Microsoft, how they are trying to steal Jupyter's features, and why their attempt to create their own version of Unix, Xenix, flopped. I'm also discussing how writing in vim is like driving and how it can free up your executive function for more difficult tasks, and how writing every day can help you become more proficient with your tools.
 keywords: vim, Microsoft, Jupyter, Unix, Xenix, executive function, ZeroMQ, JavaScript, VSCode, independence, ah-ha moment, discovery, Linus Torvalds, Guido van Rossum, Ada Lovelace, Grace Hopper, poem, stilling the wolf, driving, proficiency, tools
-categories: javascript, vim, unix, jupyter, microsoft, vscode
+categories: vim, vscode, jupyter, microsoft, javascript, unix
 permalink: /blog/vim-macro-to-format-markdown-poetry/
 layout: post
 ---
@@ -268,13 +268,13 @@ SVr4 was threatening to take the world, Microsoft made their own version of
 Unix called Xenix. It flopped. Microsoft is no Linus Torvalds.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="web-development-is-for-chumps-try-linux-services-instead">Web Development is For Chumps. Try Linux Services, Instead.</a></div><div class="post-nav-next"><a href="trying-to-get-python-sbin-commands-from-nbdev">Trying to get Python sbin commands from nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li></ul>

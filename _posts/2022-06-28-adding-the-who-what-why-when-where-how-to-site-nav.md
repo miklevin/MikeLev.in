@@ -4,7 +4,7 @@ title: Adding the Who, What, Why, When, Where & How To Site Nav
 headline: Revolutionizing Life Management with Linux, Python, vim & git
 description: I'm proposing a new way to manage life as a whole, by creating and automating tasks to be internalized and passed onto muscle memory. To help with this, I'm suggesting the use of Linux, Python, vim & git. I've added the Who, What, Why, When, Where & How to my website's navigation, and I'm now working on creating the pages to go along with it. Come find out more about my revolutionary idea and how it can help you manage life.
 keywords: Life, Management, Automation, Linux, Python, Vim, Git, Website, Navigation, Revolutionary, Idea, Help
-categories: linux, vim, git, automation, python
+categories: vim, linux, python, git, automation
 permalink: /blog/adding-the-who-what-why-when-where-how-to-site-nav/
 layout: post
 ---
@@ -41,12 +41,12 @@ basic literacy today.
 To this end, I propose Linux, Python, vim & git
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="fairly-certain-i-had-a-brush-with-catknappers">Fairly Certain I Had a Brush With Catknappers</a></div><div class="post-nav-next"><a href="the-key-lxc-api-detail-i-must-master">The Key LXC API Detail I Must Master</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

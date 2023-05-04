@@ -117,7 +117,7 @@ keeping that behavior in order to always have a chance to edit the AI's work
 before first publish. 
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="neovim-publishing-macro-using-terminal-expand">NeoVim Publishing Macro Using :terminal & expand()</a></div><div class="post-nav-next"><a href="have-journal-will-travel-across-machines">Have Journal Will Travel (across machines)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -19,7 +19,7 @@ Hmm, I thought lxc files were the containers for the LXD service. I got some
 learnings to do.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="github-pages-jekyll-previous-next-arrows-for-categories">Github Pages Jekyll Previous/Next Arrows For Categories</a></div><div class="post-nav-next"><a href="gutting-dependencies-out-of-your-projects-life">Gutting Dependencies Out Of Your Projects & Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

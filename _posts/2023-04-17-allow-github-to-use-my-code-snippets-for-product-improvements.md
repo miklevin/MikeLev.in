@@ -87,7 +87,7 @@ Github Settings where my mouth is.
 > But to do recalibration will reduce a lot of pain.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="planning-python-packaging-for-seo-deliverable">Planning Python Packaging for SEO Deliverable</a></div><div class="post-nav-next"><a href="challenging-openai-to-write-a-better-subhead-than-this-headline">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

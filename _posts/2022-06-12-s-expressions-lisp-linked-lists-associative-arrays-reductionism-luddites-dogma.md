@@ -96,7 +96,7 @@ Go go pack & think on it!
     - Luddites
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="my-formative-years-at-all-boys-science-summer-camp-integrated-life">My Formative Years at All-Boys Science Summer Camp / Integrated Life</a></div><div class="post-nav-next"><a href="say-the-magic-words-open-terminal">Say The Magic Words: Open Terminal!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

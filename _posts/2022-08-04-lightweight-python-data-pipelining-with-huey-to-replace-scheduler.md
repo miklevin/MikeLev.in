@@ -126,7 +126,7 @@ file. And here it is:
 And in fact it worked!
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords">How to Share an SSH Key with Linux Container to Eliminate Passwords</a></div><div class="post-nav-next"><a href="use-perceptual-image-hash-as-database-primary-key-for-cats">Use Perceptual Image Hash as Database Primary Key for Cats</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

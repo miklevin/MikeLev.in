@@ -48,7 +48,7 @@ life and do something well.
 
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts">Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts</a></div><div class="post-nav-next"><a href="git-rebase-i-root-vs-git-init-anew">`git rebase -i --root` vs. `git init` anew</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

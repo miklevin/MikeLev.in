@@ -4,7 +4,7 @@ title: "Moved 1-long-page version of journal.md to `_drafts`"
 headline: With this change, I can keep posts unpublished without giving them a yaml title.
 description: "I have moved the 1-long-page version of my journal.md file to the `_drafts` folder, allowing me to keep posts unpublished without giving them a yaml title. This is a great way to keep posts out of Github publishing space, while still allowing them to be sliced & diced."
 keywords: Journal, Writing, Editing, Cross-cutting Skill, 80/20-rule, Github, Publishing, Yaml, Program, Vim, Repo, All Program, Marine, PATH, YouTube, Embeds, Browser, Jekyll, System, Folder
-categories: 80/20-rule, github, publishing, vim, youtube, jekyll, yaml
+categories: vim, jekyll, publishing, 80/20-rule, youtube, yaml, github
 permalink: /blog/moved-1-long-page-version-of-journal-md-to-drafts/
 layout: post
 ---
@@ -49,14 +49,14 @@ intended.
 This is really quite enough to cut the post.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="testing-auto-publish-prevention-when-ai-has-written-fields">Testing Auto-Publish Prevention When AI Has Written Fields</a></div><div class="post-nav-next"><a href="lemmatizing-keywords-for-site-navigation">Lemmatizing Keywords for Site Navigation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

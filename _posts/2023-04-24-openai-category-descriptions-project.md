@@ -67,7 +67,7 @@ And that's about it. I'm going to go ahead and release this post. It's a good
 stopping point and I know where to begin when I next re-approach this project.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="gathering-all-category-logic-into-one-place">Gathering All Category Logic into One Place</a></div><div class="post-nav-next"><a href="defaultdict-s-returning-keys-with-lambdas-needs-default-none">DefaultDict's Returning Keys with Lambdas Needs Default None</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

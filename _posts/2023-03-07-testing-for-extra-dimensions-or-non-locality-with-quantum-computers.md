@@ -184,7 +184,7 @@ Source: Conversation with Bing, 3/7/2023
     (4) [2010.01324] Superdeterminism: A Guide for the Perplexed - arXiv.org. https://arxiv.org/abs/2010.01324 Accessed 3/7/2023.
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="the-nomadic-robotic-cozy-hove-abode">The Nomadic Robotic Cozy Hove Abode</a></div><div class="post-nav-next"><a href="exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

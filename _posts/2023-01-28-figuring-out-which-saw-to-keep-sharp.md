@@ -4,7 +4,7 @@ title: Figuring Out Which Saw To Keep Sharp
 headline: Exploring AI to Stay Ahead of the Curve and Increase Economic Value
 description: As I look for ways to stay marketable and increase my economic value, I'm exploring the use of AI as an agent with my login credentials. SEO has become my purpose and I'm researching the potential of new technologies like ChatGPT to bridge the gap between what people can do and what machines can do. Join me as I dive into this research and discover how AI can help me stay ahead of the curve.
 keywords: AI, Login Credentials, SEO, ChatGPT, Marketable, Economic Value, New Technologies, Skills, Trade, Gap, Machines, Learn, Purpose
-categories: chatgpt, skills, seo, ai
+categories: skills, chatgpt, seo, ai
 permalink: /blog/figuring-out-which-saw-to-keep-sharp/
 layout: post
 ---
@@ -70,7 +70,7 @@ In the field of search engine optimization (SEO), I sometimes felt like an icky
 guy. But in the tools, I found ikigai. b
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="start-that-foss-seo-book">Start That FOSS SEO Book</a></div><div class="post-nav-next"><a href="chatgpt-helped-python-tweepy-my-tweets-onto-my-website">ChatGPT Helped Python Tweepy my Tweets Onto My Website</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

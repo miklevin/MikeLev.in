@@ -22,7 +22,7 @@ But what should the nature of that spell be? Well, one of teaching others how
 to cast a powerful spell, of course. We go right for
 
 
-
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="microsoft-added-linux-graphics-and-systemd-to-wsl-for-windows-10">Microsoft Added Linux Graphics and Systemd to WSL for Windows 10</a></div><div class="post-nav-next"><a href="planning-total-life-s-work">Planning Total Life's Work</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
