@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: chatgpt, coding, youtube, bing, ai, microsoft
+categories: microsoft, youtube, chatgpt, ai, bing, coding
 layout: post
 ---
 
@@ -44,7 +44,7 @@ a new type of neural network that was able to do machine translation better
 than anything that had come before. It's the "T" in GPT, and has made new
 machine learning output considerably more compelling than Clippy or Tay, with
 the simple trick of ***predicting*** what's statistically most likely to be
-typed next&151;a profoundly deeper thing than it seems at first pass.
+typed next&#151;a profoundly deeper thing than it seems at first pass.
 
 This caught Microsoft's attention, who invested $10 billion in July 2019.
 Several earlier GPT versions available through the API-only were released and
@@ -52,17 +52,17 @@ had many developers playing in a `playground`, but it failed to capture the
 public's fancy, behind a login and not yet following the ***chat*** paradigm as
 it was.
 
-## ChatGPT & Fastest New Tech Adoption Rate in History
+## ChatGPT & Fastest New Service Adoption Rate in History
 
 The first version of OpenAPI's GPT for the general public, ChatGPT, was
 launched November 30, 2022. The original ChatGPT release of was based on
 GPT-3.5. A version based on GPT-4 was released on March 14, 2023 (fast-forward
 in the timeline) right as Microsoft announced their intention to power The New
-Bing with the latest version of GP-4.5. 
+Bing with the latest version, 4.5. 
 
 While the period between November 30 and March 14 was only 3.5 months, it was a
 period of intense experimentation and learning for Microsoft and the public,
-with the now famous fastest adoption-rate of any new technology in history.
+with the now famous fastest adoption-rate of any new online service in history.
 Things are moving so fast now, it's time to look at the timeline.
 
 ## The New Bing
@@ -368,9 +368,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

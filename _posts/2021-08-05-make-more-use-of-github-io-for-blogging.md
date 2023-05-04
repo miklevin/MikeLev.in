@@ -5,7 +5,7 @@ permalink: /blog/make-more-use-of-github-io-for-blogging/
 headline: "Embarking on a Book Publishing Adventure: My Strategy for Using github.io and Jekyll"
 description: MikeLevinSEO shares his strategy for publishing a book, including his plan to use Jekyll and switch his domains from GoDaddy to NameCheap. He explains how he prioritizes his work using three metaphors, and shares his plan to use mikelevinseo.com as his domain name. Follow MikeLevinSEO's journey as he embarks on his book publishing adventure!
 keywords: Github.io, Blogging, MikeLevinSEO, Book Publishing, Jekyll, GoDaddy, NameCheap, Prioritizing, Domain Name, DNS Zones
-categories: blogging, jekyll
+categories: jekyll, blogging
 layout: post
 ---
 
@@ -90,5 +90,5 @@ click "Use My Domain" and then DNS / Manage Zones.
 ## Categories
 
 <ul>
-<li><h4><a href='/blogging/'>Blogging</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/blogging/'>Blogging</a></h4></li></ul>
