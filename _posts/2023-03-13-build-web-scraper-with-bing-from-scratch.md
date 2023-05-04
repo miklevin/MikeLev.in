@@ -5,7 +5,7 @@ permalink: /blog/build-web-scraper-with-bing-from-scratch/
 headline: Build a Web Scraper with Bing in Python - Step-by-Step Guide
 description: This step-by-step guide shows you how to build a web scraper with Bing from scratch in Python, starting with a basic example of printing 'Hello World' and building up to extracting the title tag with BeautifulSoup4. Learn how to collect all the links from a webpage, convert them from relative to absolute links, and store them in a persistent dictionary using SQLite. Discover how to compete with commercial web scraping products and get the same features for less.
 keywords: Web Scraper, Bing, Python, Hello World, Requests, BeautifulSoup4, Links, Relative Links, Absolute Links, SQLite, Octoparse, Import.io, ProWebScraper, Mozenda, User-friendly, Scalable, Reliable, Feature-rich, Expensive, Flexible
-categories: bing, sqlite, python
+categories: sqlite, python, bing
 layout: post
 ---
 
@@ -160,6 +160,6 @@ Source: Conversation with Bing, 3/11/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

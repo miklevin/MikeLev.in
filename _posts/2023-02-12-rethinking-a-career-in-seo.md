@@ -5,7 +5,7 @@ permalink: /blog/rethinking-a-career-in-seo/
 headline: Exploring the Implications of a New Era of Search Engines on My Career in SEO
 description: As an SEO professional, I am rethinking my career in light of the new era of search engines. Google's dominance has been challenged by ChatGPT and Microsoft, and content production techniques that don't add value are now being ignored. I'm noticing that Google is favoring incumbents more than ever, and the old PageRank system is slowly being replaced by other systems. I'm exploring the implications of this shift, and the impact it will have on my career.
 keywords: SEO, Career, Rethinking, Google, ChatGPT, Microsoft, Content Production, Value, Unique, Undiscovered, Algorithms, PageRank, Discover, Knowledge Graph, Incumbents, Results
-categories: google, seo, microsoft, chatgpt
+categories: microsoft, google, chatgpt, seo
 layout: post
 ---
 
@@ -87,7 +87,7 @@ Graph and various carousel systems get replaced by complete alternative
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

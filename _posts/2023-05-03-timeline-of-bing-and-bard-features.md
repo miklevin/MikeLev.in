@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: ai, bing, microsoft, chatgpt
+categories: ai, microsoft, chatgpt, bing
 layout: post
 ---
 
@@ -24,7 +24,7 @@ so ready to take up this battle.
 
 ## Clippy, Tay & Shameless Risk Taking
 
-AI-like features in Microsoft products is nothing new. Some may remember
+AI-like features in Microsoft products are nothing new. Some may remember
 `Clippy`, the paperclip Office Assistant from last century who was retired
 after a few years for being annoying. A decade later, Microsoft launched the
 experimental teen girl `Tay` chatbot on Twitter in 2016 that only lasted a day
@@ -367,6 +367,6 @@ the code in a cloud-based Notebook environment.
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
