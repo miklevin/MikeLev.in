@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: youtube, microsoft, coding, chatgpt, ai, bing
+categories: bing, chatgpt, ai, youtube, coding, microsoft
 layout: post
 ---
 
@@ -366,9 +366,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

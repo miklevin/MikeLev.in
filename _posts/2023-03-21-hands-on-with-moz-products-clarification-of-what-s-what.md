@@ -5,7 +5,7 @@ permalink: /blog/hands-on-with-moz-products-clarification-of-what-s-what/
 headline: Exploring Moz Products & Making a Big Impact in My Fourth Week at Moz
 description: I am currently in my fourth week as a Moz employee, and I am learning about the various products they offer. I am using the Free SEO Tools to test the boundaries of the free product, exploring Moz Local, Moz Pro, Free SEO Tools, and Resources, as well as the MozBar Premium and the Links API V1 & V2. I am documenting my progress and thoughts on my public blog, and publishing videos on YouTube to reduce fear and create consistency.
 keywords: Moz, Free SEO Tools, Moz Local, Moz Pro, Resources, MozBar Premium, Links API V1, Links API V2, YouTube, Fear, Consistency, Data, False Dependencies, Busy-Work, Practice, Practice_Save, Fresh Starting Point, Impact
-categories: moz, youtube, moz pro
+categories: moz, moz pro, youtube
 layout: post
 ---
 
@@ -128,5 +128,5 @@ compromise, commitment & consistency but only visible within Moz.
 
 <ul>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li></ul>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

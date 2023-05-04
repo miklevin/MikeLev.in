@@ -5,7 +5,7 @@ permalink: /blog/planning-python-packaging-for-seo-deliverable/
 headline: Creating a Python Packaging Project for SEO Deliverables
 description: I am starting a new project that requires the use of a traditional Python project structure, as well as AI-assistance and testing to ensure it works properly. I am conducting a study to determine the most important traffic and keywords for my business, and I am creating a deliverable-making deliverable with Python code to output Excel files, PDFs, and decks. All that tedious housekeeping work I'm delegating to AI.
 keywords: Python, Packaging, SEO, Deliverable, AI-Assistance, Testing, Excel, PDF, Decks, PyPI, nbdev2, Jupyter Notebooks, setup.ini, index.ipynb, 001.practice.ipynb, 002_staging.ipynb, practice.py, testing.py, staging.py, production.py, mermaid diagrams, flow, data
-categories: flow, jupyter notebooks, python, pypi, seo, excel
+categories: python, pypi, flow, excel, jupyter notebooks, seo
 layout: post
 ---
 
@@ -203,9 +203,9 @@ This is good. Let's bank this post and move on.
 ## Categories
 
 <ul>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/excel/'>Excel</a></h4></li></ul>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/excel/'>Excel</a></h4></li>
+<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

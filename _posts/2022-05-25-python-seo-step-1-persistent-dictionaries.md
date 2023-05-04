@@ -5,7 +5,7 @@ permalink: /blog/python-seo-step-1-persistent-dictionaries/
 headline: "Master Python for SEO: Learn to Target Keywords, Collect Data, and Use Machine Learning Algorithms"
 description: In this session, I will teach you how to use Python for SEO, including how to target keywords, collect data, and use machine learning algorithms. We will use JupyterLab, Python dictionaries, and a context manager to eliminate extra code. I will also discuss SqliteDict, a free and open source SQL database, as a key/value system. Learn how to use URLs as keys in key/value pair systems, and gain a great understanding of how to use
 keywords: Python, SEO, JupyterLab, Python Dictionaries, Context Manager, SqliteDict, SQL Database, NoSQL, Key/Value Pair Systems, URLs, Keys, Value, Rows, Columns, Machine Learning Algorithms, Target Keywords, Collect Data
-categories: seo, python, jupyterlab, sqlitedict
+categories: python, sqlitedict, jupyterlab, seo
 layout: post
 ---
 
@@ -187,7 +187,7 @@ Cure to anxiety, groudlessness, existential crisis, plagues of youth.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
