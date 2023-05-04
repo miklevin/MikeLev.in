@@ -4,7 +4,7 @@ title: Being On Your Own In Life
 headline: "My Unique Life Journey: A Single Parent Working in IT and Never Really On My Own"
 description: I'm in my mid-twenties and a single parent, working in the IT industry to provide for my child. I sometimes consider hitting the road in an RV, but I stay put for my family. Life is funny and I'm never really on my own. Read my story to find out more about my unique life journey.
 keywords: Mid-twenties, Single Parent, IT Industry, RV, Family, Life Journey, On Own, Child, Information Technology, Data, Stakeholders, Cats
-categories: cats, child
+categories: child, cats
 permalink: /blog/being-on-your-own-in-life/
 layout: post
 ---

@@ -4,7 +4,7 @@ title: "NeoVim Publishing Macro Using :terminal & expand()"
 headline: "Rebuilding My Workflow: Refreshing Google, Microsoft, NAS, and JupyterLab Icons"
 description: I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.
 keywords: Windows 11, OpenAI, NeoVim, Google, Microsoft, NAS drive, Terminal, JupyterLab, known_hosts, Moz, Python, Script, Macro, YouTube, Tristan Harris, Aza Raskin, Brainstem, Intimate Relationship
-categories: jupyterlab, neovim, python, terminal, google, microsoft, openai, windows 11, moz, macro, script, youtube
+categories: terminal, youtube, jupyterlab, google, microsoft, python, windows 11, neovim, openai, moz, script, macro
 permalink: /blog/neovim-publishing-macro-using-terminal-expand/
 layout: post
 ---
@@ -175,15 +175,15 @@ Listening to Tristan Harris and Aza Raskin on YouTube.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/macro/'>Macro</a></h4></li></ul>
