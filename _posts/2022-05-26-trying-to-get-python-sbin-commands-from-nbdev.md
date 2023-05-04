@@ -4,7 +4,7 @@ title: Trying to get Python sbin commands from nbdev
 headline: Using My Experience to Help My Homeschooled Child Find the Right Path with Python and JupyterLabs
 description: I'm using my experience as a former mechanical engineer and current search engine optimization expert to help my homeschooled child find the right path. I'm re-implementing my blog slice & dice system with Python, JupyterLabs 3.3.4-2, and setuptools setup.py to make a command-line interface (CLI) command. With this jigsaw puzzle approach, I'm hoping to make the most of my time and help my child.
 keywords: Python, sbin, nbdev, mechanical engineer, search engine optimization, homeschooled, re-implementing, blog slice & dice, JupyterLabs, setuptools, setup.py, CLI, command-line interface, jigsaw puzzle, college career, math, SEO, fifty-one
-categories: seo, math, nbdev, python
+categories: python, math, nbdev, seo
 permalink: /blog/trying-to-get-python-sbin-commands-from-nbdev/
 layout: post
 ---
@@ -182,7 +182,7 @@ next entry.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/math/'>Math</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

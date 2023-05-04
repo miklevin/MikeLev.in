@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
+<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive and a stripped-down template in Jekyll `_layouts` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
 <br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)
@@ -22,4 +24,4 @@
 <li><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a> (Mon Apr 17, 2023)
 <br/>I'm working to fix OpenAI keyword problems by writing code to recognize text that doesn't match the keyword format, handling commas inside quotes, and creating histograms. I've used this code to re-write the database of keywords for my blog, validate YAML in Python without Jekyll, and create category pages and navigation. I'm committed to developing a code that can consistently format keywords.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/learning/">Learning</a></div> &nbsp; <div class="post-nav-next"><a href="/headline/">Headlines</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/service/">Service</a></div> &nbsp; <div class="post-nav-next"><a href="/keywords/">Keywords</a><span class="arrow">&nbsp;&rarr;</span></div></div>

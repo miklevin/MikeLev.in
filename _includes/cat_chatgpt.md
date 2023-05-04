@@ -40,4 +40,4 @@
 <li><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a> (Sun Dec 11, 2022)
 <br/>I'm using ChatGPT to help me visualize the future, tell stories, and articulate the Hero's Journey. I'm learning valuable lessons like it's never too late, and I'm pushing Linux, Python, vim, and git into the unconscious and automatic quadrant so I can use them like I use spoken language or driving. I'm testing to see if ChatGPT is really a game-changer.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/unix/">Unix</a></div> &nbsp; <div class="post-nav-next"><a href="/neovim/">NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/github-pages/">Github Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/systemd/">Systemd</a><span class="arrow">&nbsp;&rarr;</span></div></div>

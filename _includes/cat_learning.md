@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
+<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive and a stripped-down template in Jekyll `_layouts` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos/">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a> (Thu Mar 30, 2023)
 <br/>As an SEO consultant, I have suggested to a client to create a range of SEO deliverables beyond the traditional, such as a Bonsai report to identify low-quality pages and provide recommendations, a Striking Distance report to identify keywords that could be ranking higher, and a Gap Analysis report to compare the site's rankings to competitors. Additionally, I outline ideas for how to monetize this data, such as selling it to other businesses, creating products or services, and teaching others about SEO.</li>
 <li><a href="/blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/">A Zero Fuel Solar Nomadic Lifestyle Plus Homeschooling</a> (Fri Mar 24, 2023)
@@ -24,4 +26,4 @@
 <li><a href="/blog/teaching-my-wife-vim/">Teaching My Wife vim</a> (Sun Apr 10, 2022)
 <br/>I'm teaching my wife vim, which I use to copy and paste text files and back up code to Github. I've been using vim for decades, and I'm excited to help my wife learn this timeless technology. I overcame my own negative experience with vim to understand its importance, and I'm enjoying the meaningful experience of helping my wife learn it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copilot/">Copilot</a></div> &nbsp; <div class="post-nav-next"><a href="/yaml/">YAML</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google-analytics/">Google Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/terminal/">Terminal</a><span class="arrow">&nbsp;&rarr;</span></div></div>

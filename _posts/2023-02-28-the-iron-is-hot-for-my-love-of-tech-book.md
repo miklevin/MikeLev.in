@@ -4,7 +4,7 @@ title: The Iron is Hot for My Love-Of Tech Book
 headline: "Embracing the Challenge: Navigating My Journey Through the Tech World."
 description: As someone who is not naturally tech-savvy, I'm taking my time to learn the tools, patterns, and predictions of the tech world. I'm aware of the potential pitfalls, but I'm embracing the challenge and making the most of every moment. Join me as I navigate my journey of learning and growing in the tech world.
 keywords: iron, tech, learning, tools, patterns, predictions, pitfalls, challenge, journey, embrace, navigate, growing, natural, understand, rise, occasion, defeated, making, moment
-categories: journey, learning
+categories: learning, journey
 permalink: /blog/the-iron-is-hot-for-my-love-of-tech-book/
 layout: post
 ---
@@ -35,5 +35,5 @@ We get challenged in life in ways we don't always expect and then ways that are 
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

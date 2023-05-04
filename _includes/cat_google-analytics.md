@@ -28,4 +28,4 @@
 <li><a href="/blog/re-launch-mikelevinseo-com-on-github-io/">(Re)Launch MikeLevinSEO.com on Github.io</a> (Fri Aug 6, 2021)
 <br/>I'm excited to announce the relaunch of my blog/journal on Github.io! After finding the DNS, deleting records, and setting up the Github repository, I enabled Github Pages, added the domain to Github settings, and customized the template. To top it off, I added Google Analytics and Search Console tracking. Come check out my new blog and join me on this journey!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nbdev/">nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/terminal/">Terminal</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nbdev/">nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/learning/">Learning</a><span class="arrow">&nbsp;&rarr;</span></div></div>
