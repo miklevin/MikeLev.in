@@ -5,7 +5,7 @@ permalink: /blog/a-new-way-to-visualize-general-relativity/
 headline: "Exploring General Relativity with Python Manim: My Journey Begins"
 description: Today was a big day for me - I installed Manim on my Windows machine, used Chocolatey to install vim, and Powershell to create .py files. To top it off, I sent a video that visualizes general relativity. I'm really enjoying exploring the Python Manim math visualization and animation package and all the possibilities it offers. Come join me on my journey and explore the wonders of Python Manim!
 keywords: Manim, Windows, Chocolatey, Powershell, Python, Math, Visualization, Animation, General Relativity, Curvature, Space, Time, Virtualenv, JupyterLab
-categories: python, powershell, jupyterlab, math, virtualenv
+categories: python, math, jupyterlab, powershell, virtualenv
 layout: post
 ---
 
@@ -43,7 +43,7 @@ Python Manim math visualization and animation package.
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/math/'>Math</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
 <li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li></ul>

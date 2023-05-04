@@ -5,7 +5,7 @@ permalink: /blog/monitoring-github-pages-github-io-system-for-errors/
 headline: Creating a Unique Website Experience with Github Pages and Jekyll Liquid Markdown
 description: "I'm creating a unique and awesome website experience for users, using a framework, slice.py, skite.py and more. I'm making pseudo-dynamic pages and working on the blog.md page, learning the workflow and making changes to output markdown into Github Pages Jekyll Liquid markdown `_includes` folder. After figuring it out, I'm ready to share my journey and the lessons I've learned."
 keywords: "Github, Pages, github.io, System, Errors, Unique, Awesome, Website, Experience, Users, Framework, slice.py, skite.py, Pseudo-dynamic, Pages, blog.md, Workflow, Changes, Output, Markdown, Jekyll, Liquid, `_include`s, Folder, Journey, Lessons, Learned, CMS, Sub-system, Editing, Git, Commands, Frontmatter, posts-main.md, Desktop, Linux, System,"
-categories: git, jekyll, journey, linux
+categories: jekyll, journey, git, linux
 layout: post
 ---
 
@@ -134,7 +134,7 @@ Okay, now actually put a git.md in place, LOL!
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
