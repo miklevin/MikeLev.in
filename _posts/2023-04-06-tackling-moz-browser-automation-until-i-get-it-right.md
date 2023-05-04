@@ -4,7 +4,7 @@ title: Tackling MOZ Browser Automation Until I Get It Right
 headline: Exploring Automated Browser Tasks with MOZ Pro - Join Me on My Journey!
 description: I'm tackling browser automation with the MOZ Links API and Chrome, and have set up a Playwright context on a Linux server. I'm writing code to automate tasks for MOZ Pro, and running the code from the command line with 'python mozpro.py -k' to analyze keywords and download the results. Join me on my journey as I explore the possibilities of automated browser tasks with MOZ Pro!
 keywords: Browser Automation, MOZ Links API, Chrome, Playwright, Linux Server, MOZ Pro, Python, Keyword Explorer, CSV File, Headless Chrome, Endpoints, Command Line
-categories: python, moz pro, chrome, browser automation, moz links api
+categories: moz pro, browser automation, chrome, python, moz links api
 permalink: /blog/tackling-moz-browser-automation-until-i-get-it-right/
 layout: post
 ---
@@ -422,12 +422,12 @@ parameters! I'm not going to start a holy endeavor to cover everything. I'm
 just going to provide a few excellent template examples.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/notebook-based-browser-automation-with-nbdev">Notebook-based Browser Automation With NBDev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moz-links-api-an-introduction">MOZ Links API, An Introduction</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/moz-links-api-an-introduction">MOZ Links API, An Introduction</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/notebook-based-browser-automation-with-nbdev">Notebook-based Browser Automation With NBDev</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/chrome/'>Chrome</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Sending an HTML Email with Embedded Image From Python
 headline: I'm Excited to Share My Project of Sending an HTML Email with an Embedded Image from Python!
 description: I'm excited to share my project of sending an HTML email with an embedded image from Python. This code sets up a scheduler to run certain functions at set intervals, including printing 'Hello World' every 10 seconds, writing the pulse count and current date/time to a file every 5 seconds, and sending an email with an HTML attachment every minute. Come read more about my project and how it can be used as a template for other projects around the world.
 keywords: Python, HTML Email, Embedded Image, Scheduler, Intervals, Printing, Pulse Count, Date/Time, File, Attachment, Template, Projects
-categories: template, python
+categories: python, template
 permalink: /blog/sending-an-html-email-with-embedded-image-from-python/
 layout: post
 ---
@@ -248,9 +248,9 @@ while True:
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/send-email-with-file-attachment-from-python">Send Email With File Attachment From Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-sending-email-in-jupyter-to-sending-email-in-linux-service">From Sending Email in Jupyter to Sending Email in Linux Service</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/from-sending-email-in-jupyter-to-sending-email-in-linux-service">From Sending Email in Jupyter to Sending Email in Linux Service</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/send-email-with-file-attachment-from-python">Send Email With File Attachment From Python</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/template/'>Template</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/template/'>Template</a></h4></li></ul>

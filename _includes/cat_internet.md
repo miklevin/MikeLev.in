@@ -12,4 +12,4 @@
 <li><a href="/blog/little-things-big-changes/">Little Things, Big Changes</a> (Thu May 19, 2022)
 <br/>I'm reflecting on the idea of making small changes day-by-day rather than committing to long-term projects. I'm also revising and editing my writing style, and I'm excited to share something that isn't yet on the internet. Read my blog post to find out what it is and to learn more about making permanent changes in my life.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/flow/">Flow</a></div> &nbsp; <div class="post-nav-next"><a href="/.vimrc/">.vimrc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/.vimrc/">.vimrc</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/flow/">Flow</a></div></div>

@@ -96,7 +96,7 @@ thus breaking out and blowing up on YouTube and other outlets.
 {% include youtubePlayer.html id="5DNtKVNqrno" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-ready-to-teach-installing-jupyter-right">Getting Ready to Teach Installing Jupyter Right</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-ready-to-teach-installing-jupyter-right">Getting Ready to Teach Installing Jupyter Right</a></div></div>
 ## Categories
 
 <ul>

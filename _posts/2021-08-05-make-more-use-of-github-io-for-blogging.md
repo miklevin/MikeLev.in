@@ -88,7 +88,7 @@ domain name on github.io. So, pick a domain... GoDaddy / My Name / My Products
 / Domains.  Okay, in my typical tradition it's going to be mikelevinseo.com. So
 click "Use My Domain" and then DNS / Manage Zones.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-more-use-of-github-io-for-blogging">Make More Use of github.io for Blogging</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><span class="arrow">&nbsp;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-more-use-of-github-io-for-blogging">Make More Use of github.io for Blogging</a></div></div>
 ## Categories
 
 <ul>

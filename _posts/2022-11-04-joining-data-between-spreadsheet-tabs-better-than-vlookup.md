@@ -4,7 +4,7 @@ title: Joining Data Between Spreadsheet Tabs Better Than VLookup
 headline: Discover How I Joined Data Between Spreadsheet Tabs Without VLookup or Pivot Tables
 description: Discover how I joined data between spreadsheet tabs without using VLookup or Pivot Tables. I explored connecting to Google Sheets and the OAuth2 enabled GSheets API, but I eventually figured out a way to save the data as an .xlsx file and load individual tabs using Pandas. Now I'm exploring the best way to log into Google services from Jupyter - read my blog post to find out how!
 keywords: Spreadsheet, Tabs, VLookup, Pivot Tables, Google Sheets, OAuth2, GSheets API, .xlsx, Pandas, Jupyter, Logging, Google Services
-categories: jupyter, pandas
+categories: pandas, jupyter
 permalink: /blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/
 layout: post
 ---
@@ -67,7 +67,7 @@ The question now arises: what is the best way to log into Google services from
 Jupyter?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github">Made a Python Program to Rot13 an id_rsa file for Github</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository">Permission denied publickey fatal Could not read from remote repository</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository">Permission denied publickey fatal Could not read from remote repository</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github">Made a Python Program to Rot13 an id_rsa file for Github</a></div></div>
 ## Categories
 
 <ul>

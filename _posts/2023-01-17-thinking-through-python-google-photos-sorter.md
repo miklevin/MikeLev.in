@@ -97,7 +97,7 @@ resources. Step 1: keep source file data elsewhere when you can. A NAS would be
 nice.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-ideate-the-idea-capture-device">Starting to Ideate the Idea Capture Device</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keyword-histograms-and-clusters">Keyword Histograms and Clusters</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/keyword-histograms-and-clusters">Keyword Histograms and Clusters</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-ideate-the-idea-capture-device">Starting to Ideate the Idea Capture Device</a></div></div>
 ## Categories
 
 <ul>

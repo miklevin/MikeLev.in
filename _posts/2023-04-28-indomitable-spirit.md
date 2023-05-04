@@ -4,7 +4,7 @@ title: Indomitable Spirit
 headline: "Rebuilding Life After Setbacks: Using NeoVim and Journaling to Move Forward"
 description: I recently restarted WSL to get my Linux and Windows clocks in sync. I'm actively working my way back from several setbacks, including a move, my cat escaping, and changes at my job. To help me on my journey, I'm using NeoVim, updating my journaling system, rolling with the punches and navigating my next step.
 keywords: WSL, --shutdown, Powershell, Linux, Windows, Clock, Life, Poconos, Move, Cat, Escape, Job, NeoVim, Journaling, System, Data-fields, Windows, Laptop
-categories: cat, neovim, journaling, powershell, wsl, linux
+categories: cat, wsl, journaling, linux, powershell, neovim
 permalink: /blog/indomitable-spirit/
 layout: post
 ---
@@ -78,13 +78,13 @@ with MOZ more productive, and I have to make my time with my kid.
 The quality-level on both fronts needs to go up.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-pipulate-yamlesque">Levinux, Pipulate & YAMLesque</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/python-virtual-env-better-than-usr-local-sbin">Python Virtual Env Better Than /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/python-virtual-env-better-than-usr-local-sbin">Python Virtual Env Better Than /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-pipulate-yamlesque">Levinux, Pipulate & YAMLesque</a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/cat/'>Cats</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

@@ -55,7 +55,7 @@ corporations and their stockholders will be their main beneficiaries. If we do
 this right, it can be distributed a little more fairly.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/still-figuring-out-next-step-what-i-want-at-52">Still Figuring Out Next Step & What I Want at 52</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-on-your-own-in-life">Being On Your Own In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/being-on-your-own-in-life">Being On Your Own In Life</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/still-figuring-out-next-step-what-i-want-at-52">Still Figuring Out Next Step & What I Want at 52</a></div></div>
 ## Categories
 
 <ul>

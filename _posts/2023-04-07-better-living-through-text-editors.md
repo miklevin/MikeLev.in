@@ -4,7 +4,7 @@ title: Better Living Through Text Editors
 headline: "Living Independently: Using Text Editors for Deliberate and Thoughtful Writing"
 description: As someone who is striving to become more independent from AI and the corporate world, I'm learning to use a text editor to become more deliberate and thoughtful. I'm using OpenAI API to slice and dice my journal.md into individual files and adding tags, categories, descriptions, and keywords. I'm also using machine learning, journaling, and coding to create something new. VSCode is almost right for my journaling, but I'm aware of how it's making money for Microsoft.
 keywords: Text Editors, OpenAI API, Machine Learning, Journaling, Coding, VSCode, NeoVim, YouTube, AI, Investing, Microsoft
-categories: microsoft, neovim, youtube, ai, journaling, vscode, machine learning, coding
+categories: journaling, microsoft, vscode, coding, machine learning, ai, youtube, neovim
 permalink: /blog/better-living-through-text-editors/
 layout: post
 ---
@@ -181,15 +181,15 @@ This statement auto-suggested by Copilot:
 but getting it wrong in a way that makes a lot of money for Microsoft.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks">Embedding SVG Images in Markdown Cells of Jupyter Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-day-discussing-the-future-with-bard">Planning The Day & Discussing The Future With Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/planning-the-day-discussing-the-future-with-bard">Planning The Day & Discussing The Future With Bard</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks">Embedding SVG Images in Markdown Cells of Jupyter Notebooks</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

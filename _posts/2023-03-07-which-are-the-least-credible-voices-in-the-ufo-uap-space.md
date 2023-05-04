@@ -4,7 +4,7 @@ title: Which Are The Least Credible Voices In The UFO / UAP Space?
 headline: Uncovering the Credibility of UFO/UAP Community Members and Profiteers
 description: This article explores the UFO community and examines the evidence, credibility, and profiteering of people like Kenneth Arnold, Bob Lazar, George Knapp, and John Lear. I share my personal experience with a secret program to investigate UFOs and discuss who may be the most likely fakers and profiteers in the UFO community. Read on to learn more and ask me any questions you have about these people.
 keywords: UFO, UAP, Kenneth Arnold, Bob Lazar, George Knapp, John Lear, Area 51, Evidence, Credibility, Profiteering, Secret Program, Military Credentials, Media Company, Documentaries, Books, Skepticism, Opposition
-categories: evidence, ufo
+categories: ufo, evidence
 permalink: /blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/
 layout: post
 ---
@@ -120,9 +120,9 @@ Source: Conversation with Bing, 3/6/2023
     (4) ‘Something’s coming’: is America finally ready to take UFOs seriously .... https://www.theguardian.com/world/2022/feb/05/ufos-america-aliens-government-report Accessed 3/6/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert">What is the best thing I can do for Moz as a subject matter expert?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert">What is the best thing I can do for Moz as a subject matter expert?</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/evidence/'>Evidence</a></h4></li>
-<li><h4><a href='/ufo/'>UFO</a></h4></li></ul>
+<li><h4><a href='/ufo/'>UFO</a></h4></li>
+<li><h4><a href='/evidence/'>Evidence</a></h4></li></ul>

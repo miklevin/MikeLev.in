@@ -76,7 +76,7 @@ Wow, that's eerie cool how easy it is to slam out a new container.
 They don't even have a default python!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div></div>
 ## Categories
 
 <ul>

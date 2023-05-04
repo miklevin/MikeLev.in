@@ -81,7 +81,7 @@ I need to put the time in on learning the lxc commands and general API.
 I am feeling bleeding edge pain of early adopters.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off">Microsoft Edge history is now syncing (turn off)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off">Microsoft Edge history is now syncing (turn off)</a></div></div>
 ## Categories
 
 <ul>

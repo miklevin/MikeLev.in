@@ -4,7 +4,7 @@ title: Gonna Get Bing to Name An Emerging New Field
 headline: "Introducing a New Field of Marketing: AI-Optimized SEO"
 description: As a content producer, I'm exploring how SEO has evolved to include AI, and I'm proposing a new name for this field of marketing. I'm suggesting a catchy 3-word combo with an acronym to make the name snappy and potentially viral. Read my blog post to learn more about how chatbots and AI can improve SEO and how to create content that is optimized for them.
 keywords: AI, SEO, Chatbots, Content, Optimization, Marketing, Acronym, Viral, Engagement, Emerging, Field
-categories: marketing, seo, ai, field
+categories: ai, seo, marketing, field
 permalink: /blog/gonna-get-bing-to-name-an-emerging-new-field/
 layout: post
 ---
@@ -88,11 +88,11 @@ This is really important, because it could become known as the moment AI named t
 Sorry, you've reached the limit of messages you can send to Bing within 24 hours. Check back soon!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/field/'>Fields</a></h4></li></ul>

@@ -83,7 +83,7 @@ even semi-modern):
 
 BAM!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/writing-a-bash-loop-script-for-jekyll">Writing a Bash Loop Script for Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/writing-a-bash-loop-script-for-jekyll">Writing a Bash Loop Script for Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a></div></div>
 ## Categories
 
 <ul>

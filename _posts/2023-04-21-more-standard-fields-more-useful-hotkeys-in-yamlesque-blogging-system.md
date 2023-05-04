@@ -4,7 +4,7 @@ title: More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System
 headline: Edit AI-Generated Meta Descriptions with Improved YAML Blogging System
 description: "I changed the topics field to keywords in my blog posts and used a search/replace to make sure everything was up to date. To make sure my meta descriptions were accurate, I wrote a regex pattern for vim to search for lines beginning with description: and end with any character that is not sentence-ending punctuation. I created a macro to help me quickly search for and edit the AI-generated meta descriptions. Now I can easily make sure my blog posts have the best meta descriptions possible."
 keywords: YAMLesque, Blogging System, Topics Field, Keywords, Meta Descriptions, Regex Pattern, Vim, Macro, AI-generated, Wrapped Text Mode, NeoVim
-categories: vim, keywords, neovim, meta descriptions, macro
+categories: vim, macro, meta descriptions, keywords, neovim
 permalink: /blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system/
 layout: post
 ---
@@ -133,12 +133,12 @@ I do all my all-posts-all-at-once blogging and fix the AI-generated meta
 descriptions. I'll also get mure used to working in wrapped text mode in
 vim/NeoVim, which is a song this hard-wrapping vimmer usually doesn't sing.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system">YAML-validation Now Baked Into YAMLesque Journaling System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release">Starting a New Blogging System (create a title field under date to release)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release">Starting a New Blogging System (create a title field under date to release)</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system">YAML-validation Now Baked Into YAMLesque Journaling System</a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/macro/'>Macro</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li></ul>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

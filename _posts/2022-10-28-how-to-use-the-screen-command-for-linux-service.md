@@ -4,7 +4,7 @@ title: How to Use the Screen Command for Linux Service
 headline: Exploring Linux Service with the Screen Command - Join Me on My Journey!
 description: As I learn how to use the Screen Command for Linux Service, I'm documenting my journey with a blog post. I've written a file to be placed in /etc/systemd/system/ and have watched a video to help me better understand the process. Come join me as I explore this new technology!
 keywords: Linux, Screen, Command, Service, Systemd, System, File, Video, Explore, Technology, Learning, Journey, Documentation
-categories: service, learning, journey, systemd, linux
+categories: systemd, learning, service, journey, linux
 permalink: /blog/how-to-use-the-screen-command-for-linux-service/
 layout: post
 ---
@@ -37,12 +37,12 @@ And here's the video:
 {% include youtubePlayer.html id="9ySgYAb27FA" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life">Cast a Homunculus Majordomo to Help Run Your Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-need-a-personal-server-in-your-life-the-time-is-nigh">You Need a Personal Server In Your Life & The Time is Nigh</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/you-need-a-personal-server-in-your-life-the-time-is-nigh">You Need a Personal Server In Your Life & The Time is Nigh</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life">Cast a Homunculus Majordomo to Help Run Your Life</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
+<li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

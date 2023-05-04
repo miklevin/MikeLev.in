@@ -27,7 +27,7 @@ the Web as learning material is going to be to ferret out those unique
 individuals with unique content.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest">Considering Generating a 100% AI Site From Google Suggest</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/backup-google-photos-to-self-hosted-alternative">Backup Google Photos to Self Hosted Alternative</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/backup-google-photos-to-self-hosted-alternative">Backup Google Photos to Self Hosted Alternative</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest">Considering Generating a 100% AI Site From Google Suggest</a></div></div>
 ## Categories
 
 <ul>

@@ -265,7 +265,7 @@ are able to:
 
 {% include youtubePlayer.html id="hBjWtJnMriQ" %}
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-kick-that-football-charlie-brown">Don't Kick That Football, Charlie Brown!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived">It's Time Someone Stood Up To You... And Survived</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived">It's Time Someone Stood Up To You... And Survived</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-kick-that-football-charlie-brown">Don't Kick That Football, Charlie Brown!</a></div></div>
 ## Categories
 
 <ul>

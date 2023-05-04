@@ -12,4 +12,4 @@
 <li><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a> (Wed May 18, 2022)
 <br/>I'm trying to learn how to connect the dots and it's not easy. I'm taking a different approach: instead of drawing first, I'm learning how to look. Join me on my journey to figure out how to connect the dots and start seeing the bigger picture.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/strength/">Strengths</a></div> &nbsp; <div class="post-nav-next"><a href="/collaboration/">Collaboration</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/collaboration/">Collaboration</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/strength/">Strengths</a></div></div>

@@ -59,7 +59,7 @@ There's also advice on sharing host volumes (including home):
 - https://www.cyberciti.biz/faq/how-to-add-or-mount-directory-in-lxd-linux-container/
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a></div></div>
 ## Categories
 
 <ul>

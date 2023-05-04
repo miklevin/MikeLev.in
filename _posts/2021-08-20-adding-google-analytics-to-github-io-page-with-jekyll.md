@@ -56,7 +56,7 @@ what's going on underneath.
 Thanks, and later gators!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll">Adding Google Analytics to Github.io Page with Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll">Adding Google Analytics to Github.io Page with Jekyll</a></div></div>
 ## Categories
 
 <ul>

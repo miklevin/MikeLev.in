@@ -50,7 +50,7 @@ Source: Conversation with Bing, 3/1/2023
     (4) Laverne & Shirley theme song - Make All Our Dreams Come True ... - YouTube. https://www.youtube.com/watch?v=k6tRnbz90R4 Accessed 3/1/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/parsing-planck-s-equation">Parsing Planck's Equation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/science-experiments-for-12-year-olds">Science Experiments for 12 Year Olds</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/science-experiments-for-12-year-olds">Science Experiments for 12 Year Olds</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/parsing-planck-s-equation">Parsing Planck's Equation</a></div></div>
 ## Categories
 
 <ul></ul>

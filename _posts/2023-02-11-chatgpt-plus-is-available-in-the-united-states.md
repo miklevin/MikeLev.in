@@ -15,7 +15,7 @@ layout: post
 This just in!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt">Advice How to Incubate AI at Home From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-start-an-ai-novel-about-dystopizon-with-chatgpt">Let's Start an AI-Novel About Dystopizon with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/let-s-start-an-ai-novel-about-dystopizon-with-chatgpt">Let's Start an AI-Novel About Dystopizon with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt">Advice How to Incubate AI at Home From ChatGPT</a></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Do The Right Thing Morally, Spiritually & Technically
 headline: "Reinventing Myself: Mike Levin's Journey of Overcoming Negativity and Staying Relevant"
 description: I'm Mike, and I'm determined to not let negativity stop me. I'm taking steps to stay relevant in my industry by learning Linux, Python, vim, and git, while also working on building self-confidence. From my father, a quality assurance engineer, to the Commodore tech of my childhood, to the Microsoft Web-tech I encountered later, I'm learning important lessons and continuously reinventing myself.
 keywords: Moral, Spiritual, Technical, Linux, Python, Vim, Git, Quality Assurance, Commodore, Microsoft, Web-Tech, Public Relations, Amazon.com, Microsoft Active Server Pages, SEO, NYC, Divorce, Pandemic
-categories: git, microsoft, seo, python, vim, nyc, linux
+categories: vim, microsoft, git, seo, nyc, linux, python
 permalink: /blog/do-the-right-thing-morally-spiritually-technically/
 layout: post
 ---
@@ -215,14 +215,14 @@ But I'm gradually marshalling my energies and the next chapter is beginning.
 The next chapter ***has begun***.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to">I'll Blow Up On YouTube When I Want To</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to">I'll Blow Up On YouTube When I Want To</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

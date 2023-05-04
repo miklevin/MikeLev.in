@@ -59,7 +59,7 @@ term screen-256color
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sending-emails-with-python-through-smtp">Sending Emails With Python Through SMTP</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/sending-emails-with-python-through-smtp">Sending Emails With Python Through SMTP</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a></div></div>
 ## Categories
 
 <ul></ul>

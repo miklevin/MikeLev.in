@@ -50,7 +50,7 @@ that dropping magic little sbin commands into place and calling ***them*** on
 the command-line seems to always work.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you">The Two Maxwell's of Light / You Can't Take It With You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you">The Two Maxwell's of Light / You Can't Take It With You</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div></div>
 ## Categories
 
 <ul>

@@ -166,7 +166,7 @@ folder. I'm basically reversing most of the stuff from the last few posts and
 hoping I can get to sleep early enough to hit the work I urgently need to
 deliver for work.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented">WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd">Created Windows Shortcut To Start Linux Jupyter on LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd">Created Windows Shortcut To Start Linux Jupyter on LXD</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented">WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.</a></div></div>
 ## Categories
 
 <ul>

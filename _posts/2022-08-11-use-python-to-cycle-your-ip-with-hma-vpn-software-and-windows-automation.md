@@ -53,7 +53,7 @@ print(connect_button.get_toggle_state())
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04">Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04">Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04</a></div></div>
 ## Categories
 
 <ul>

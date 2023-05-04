@@ -316,4 +316,4 @@
 <li><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a> (Tue Aug 24, 2021)
 <br/>Mike Levin, a SEO from New York City, moved to the Poconos during the pandemic and has been telecommuting ever since. In order to make sure his stories last forever, he's using search engine optimization and has just registered a new domain, linuxpythonvimgit. Learn more about Mike's journey and his determination to make his stories last.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/python/">Python</a></div> &nbsp; <div class="post-nav-next"><a href="/vim/">Vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/vim/">Vim</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/python/">Python</a></div></div>

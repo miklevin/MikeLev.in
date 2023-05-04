@@ -4,7 +4,7 @@ title: Combine CSV Files with Python Pandas
 headline: Process CSVs Easily with Python Pandas and DrinkMe Linux!
 description: Create a new repo in DrinkMe Linux called 'combinecsvfiles' for processing CSVs. Extract information from filenames and add it to rows of the CSV using Python Pandas. Easily stack CSV dataframes in a Python list using 'pd.concat(lot)'. Discover how easy it is to combine CSVs into a single file - just use the code 'df = pd.concat(lot)'!
 keywords: Python, Pandas, DrinkMe, Linux, CSV, files, combine, extract, information, filenames, rows, stack, dataframes, list, df, concat, easy, peasy
-categories: easy, python, drinkme, pandas, linux, csv
+categories: pandas, easy, drinkme, linux, python, csv
 permalink: /blog/combine-csv-files-with-python-pandas/
 layout: post
 ---
@@ -119,12 +119,12 @@ list "lot" variable is simply:
 Easy peasy!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines">Don't Miss My Talk with OpenAI about clickbait headlines!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/much-starts-with-the-ability-to-create-and-use-local-caches">Much Starts With the Ability To Create and Use Local Caches</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/much-starts-with-the-ability-to-create-and-use-local-caches">Much Starts With the Ability To Create and Use Local Caches</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines">Don't Miss My Talk with OpenAI about clickbait headlines!</a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/easy/'>Easy</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/csv/'>CSV</a></h4></li></ul>

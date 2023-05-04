@@ -20,7 +20,7 @@ volumes I pulled on a more granular level than higher in the hierarchy are
 getting lost.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-change-is-projecting-epigenetic-templates">Visualizing Change is Projecting Epigenetic Templates</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-things-easy">Are Things Easy?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/are-things-easy">Are Things Easy?</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-change-is-projecting-epigenetic-templates">Visualizing Change is Projecting Epigenetic Templates</a></div></div>
 ## Categories
 
 <ul>

@@ -87,7 +87,7 @@ erDiagram
 </div>
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile">ASCII Alice Getting Smaller to Fit Mobile</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-mike-levin-seo-vanity-search-test-w-bing-bard">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/a-mike-levin-seo-vanity-search-test-w-bing-bard">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile">ASCII Alice Getting Smaller to Fit Mobile</a></div></div>
 ## Categories
 
 <ul>

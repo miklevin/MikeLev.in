@@ -82,7 +82,7 @@ So let me pull the scheduler repo I just made on Github back down on my Linux
 host machine.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative">Turning Python Huey Data Pipeline into Schedule Repo Alternative</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler">Lightweight Python Data Pipelining With Huey (to Replace Scheduler)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler">Lightweight Python Data Pipelining With Huey (to Replace Scheduler)</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative">Turning Python Huey Data Pipeline into Schedule Repo Alternative</a></div></div>
 ## Categories
 
 <ul>

@@ -240,7 +240,7 @@ plt.show()
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-critical-juncture-with-ai-my-next-steps">The Critical Juncture With AI & My Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-critical-juncture-with-ai-my-next-steps">The Critical Juncture With AI & My Next Steps</a></div></div>
 ## Categories
 
 <ul></ul>

@@ -4,7 +4,7 @@ title: Bing Reads My Machine Learning General License & Writes Haiku About Me
 headline: "Creating a System of Reciprocity: I Offer to Write a Haiku About Any Topic from My Website"
 description: I was talking to Bing about RAMorize and related topics, and discussed the TV show Person of Interest and the episode called RAM. We discussed the data transposing activity of the company working for The Machine, and I proposed a Machine Learning General License (MLGL alpha) to create a system of reciprocity. Bing offered to write a haiku poem on any topic from my website. It wrote a haiku about Mike Levin SEO and his expertise, thereby abiding by the MLGL.
 keywords: Machine Learning, RAMorize, Reamortize, Randomize, Person of Interest, RAM, The Machine, MLGL alpha, Reciprocity, Haiku Poem, Mike Levin SEO, Linux, Python
-categories: python, linux, machine learning
+categories: linux, python, machine learning
 permalink: /blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/
 layout: post
 ---
@@ -134,10 +134,10 @@ Okay, I chose a topic off your website:
 I hope you like it 😊
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid">Easier Illustration Technique I Seek May Be Mermaid</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid">Easier Illustration Technique I Seek May Be Mermaid</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

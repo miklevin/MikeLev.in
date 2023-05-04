@@ -240,7 +240,7 @@ Ugh! Okay, I fixed it in the .py files but nbdev is no longer generating the
 .py files from the Python Notebook. I'm going to have to be very careful to not
 lose these updates.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-pipulate-levinux-back-into-the-picture">Bring Pipulate & Levinux Back Into The Picture</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll">Choosing Best CSS Framework For Github Pages and Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll">Choosing Best CSS Framework For Github Pages and Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-pipulate-levinux-back-into-the-picture">Bring Pipulate & Levinux Back Into The Picture</a></div></div>
 ## Categories
 
 <ul></ul>

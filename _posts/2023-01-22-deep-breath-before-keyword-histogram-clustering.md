@@ -55,7 +55,7 @@ computing power. I resist setting up dedicated databases for this. It still may
 be achievable with SQLite.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/unique-conversation-let-s-talk-ai-python-next-steps">Unique Conversation. Let's talk AI & Python Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-tuple-keys">An Ode Tuple Keys</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/an-ode-tuple-keys">An Ode Tuple Keys</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/unique-conversation-let-s-talk-ai-python-next-steps">Unique Conversation. Let's talk AI & Python Next Steps</a></div></div>
 ## Categories
 
 <ul>

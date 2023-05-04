@@ -4,7 +4,7 @@ title: Embedding YouTube Video Thumbnails on Github.io Pages
 headline: "Building My YouTube Channel: Embedding YouTube Video Thumbnails on Github.io Pages"
 description: I'm streaming on my main journal and building up my YouTube channel by experimenting with video trimming, embedding thumbnails, adding markdown headlines, and creating a to-do list. Come check out my blog post to see how I'm making it happen!
 keywords: YouTube, Video, Trimming, Embedding, Thumbnails, Markdown, Headlines, SEO, Vim, Copy, Paste, To-Do, List, Channel, Journal, Streaming
-categories: seo, vim, youtube, headlines
+categories: headlines, seo, vim, youtube
 permalink: /blog/embedding-youtube-video-thumbnails-on-github-io-pages/
 layout: post
 ---
@@ -60,7 +60,7 @@ Okay, that's where I'll stop. I've got:
 - Embedded YouTube thumbnails for the respective videos
 - A ToDo list of what I want to do with that channel/journal.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages">Embedding YouTube Video Thumbnails on Github.io Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/make-more-use-of-github-io-for-blogging">Make More Use of github.io for Blogging</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/make-more-use-of-github-io-for-blogging">Make More Use of github.io for Blogging</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages">Embedding YouTube Video Thumbnails on Github.io Pages</a></div></div>
 ## Categories
 
 <ul>

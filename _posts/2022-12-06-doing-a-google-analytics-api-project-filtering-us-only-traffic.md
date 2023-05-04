@@ -140,7 +140,7 @@ year:
 
 Yup, that'll do it.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a></div></div>
 ## Categories
 
 <ul>

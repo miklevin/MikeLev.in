@@ -120,7 +120,7 @@ serious and deadly drained. Let them know their best ain't enough to take you
 down, then learn from your experience with them and move on.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-people-know-how-you-feel">Let People Know How You Feel</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-wsl">Writing First Version of Install Scripts for Jupyter on LXD on WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-wsl">Writing First Version of Install Scripts for Jupyter on LXD on WSL</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-people-know-how-you-feel">Let People Know How You Feel</a></div></div>
 ## Categories
 
 <ul></ul>

@@ -4,7 +4,7 @@ title: Can Large Language Models Help You Learn Math?
 headline: "Uncovering Insights from SERP Data: My Journey to Learn Math Quickly and Effectively"
 description: I'm talking to Bing about how to learn math quickly and effectively. We discussed general tips, Khan Academy, and how to convert word problems and data into calculus formulas. I also discovered Symbolab's ms Calculator, which I'm using to analyze SERP data and identify trends in the directionality of URLs and websites. Join me on my journey to learn math and uncover insights from SERP data.
 keywords: Math, Learning, Bing, General Tips, Khan Academy, Word Problems, Calculus Formulas, Symbolab's ms Calculator, SERP Data, URLs, Websites, Regression Analysis
-categories: math, bing, learning
+categories: learning, math, bing
 permalink: /blog/can-large-language-models-help-you-learn-math/
 layout: post
 ---
@@ -64,10 +64,10 @@ Source: Conversation with Bing, 3/10/2023
 I have SERP data across a broad array of keywords. That is to say I know what URLs are in what positions on what keyword searches sampled at a regular time frequency. I can identify groups of keyword and want to determine the directionality of URLs and websites going up and down in search. In other words I want to do regression analysis or some other technique to find on the rise web properties and topics.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-seo-software">What is the best SEO software?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-creates-new-competitive-pressures-for-content-providers">AI Creates New Competitive Pressures For Content Providers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/ai-creates-new-competitive-pressures-for-content-providers">AI Creates New Competitive Pressures For Content Providers</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-seo-software">What is the best SEO software?</a></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
 <li><h4><a href='/math/'>Math</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

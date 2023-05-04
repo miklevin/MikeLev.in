@@ -58,7 +58,7 @@ helping yourself in your day-job?
   - The budding narcissist at the Catskills colony
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond">Movie Night: From Mean Girls to Heathers and Beyond!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-more-month-of-respite-from-city-life">One More Month of Respite From City Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/one-more-month-of-respite-from-city-life">One More Month of Respite From City Life</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond">Movie Night: From Mean Girls to Heathers and Beyond!</a></div></div>
 ## Categories
 
 <ul>

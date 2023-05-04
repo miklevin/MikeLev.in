@@ -173,7 +173,7 @@ with DAL('mongodb://username:password@localhost/test') as db:
  ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible">Are Rigid Geometric Weather Balloons Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-new-bing-as-science-news-source">Exploring New Bing as Science News Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/exploring-new-bing-as-science-news-source">Exploring New Bing as Science News Source</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible">Are Rigid Geometric Weather Balloons Possible?</a></div></div>
 ## Categories
 
 <ul>

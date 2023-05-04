@@ -4,7 +4,7 @@ title: Hey Diddle Diddle, Now NeoVim's My Fiddle
 headline: "Exploring New Habits: 10 Years of NeoVim and the Microsoft Tax"
 description: I'm setting up macros in my NeoVim text editor to turn my journal entries into web pages. After 10 years of using this text editor, I'm vlogging the process and exploring new habits. As an advocate for Linux, Python, vim, and git, I still have to pay a Microsoft tax for tools like Github Pro, Github CoPilot, and Microsoft 365. I'm currently formatting the output of a new dice.py file.
 keywords: NeoVim, Text Editor, Vlogging, Linux, Python, Vim, Git, Github Pro, Github CoPilot, Microsoft 365, Philadelphia, New York City, Internet, Microsoft Independent, Old-School, Tech, Dice.py, Program
-categories: git, python, vim, neovim, github copilot, text editor, new york city, internet, linux
+categories: new york city, vim, github copilot, internet, git, linux, python, text editor, neovim
 permalink: /blog/hey-diddle-diddle-now-neovim-s-my-fiddle/
 layout: post
 ---
@@ -167,16 +167,16 @@ print("Done")
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/playing-with-bard">Playing with Bard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/playing-with-bard">Playing with Bard</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/internet/'>Internet</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

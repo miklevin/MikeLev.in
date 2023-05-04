@@ -36,7 +36,7 @@ layout: post
 {% include youtubePlayer.html id="1BIuNqwlhO4" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer">Cancelling Netflix and Chill (T-Mobile offer)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl">Install ZFSUtils-Linux To Prep For LXD on WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl">Install ZFSUtils-Linux To Prep For LXD on WSL</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer">Cancelling Netflix and Chill (T-Mobile offer)</a></div></div>
 ## Categories
 
 <ul></ul>

@@ -4,7 +4,7 @@ title: "Optimistic Utopian AI Futures Are Refreshing: Fusion, Superconductivity,
 headline: Exploring the Potential of Six Amazing Technologies to Create a Better Future
 description: As a reader, I am excited to explore the potential of six amazing technologies - fusion power, superconductivity, AI, biotechnology, quantum technology, and nanotechnology - and the risks and challenges associated with them. I understand the need for caution and responsibility when developing and using these technologies, as well as public awareness, education, and engagement. I look forward to a future where these technologies can help us create a world with clean and abundant energy, without harming the environment.
 keywords: Fusion Power, Superconductivity, AI, Biotechnology, Quantum Technology, Nanotechnology, Clean Energy, Abundant Energy, Environment, Breakthrough, Twisted Bilayer Graphene, Control Material, Electromagnets, Transmitting Power, Long Distances, Minimal Loss, Fusion Plant, France, High-Temperature Superconductors, AI Methods, Predict, Avoid Disruptions, Ethical Frameworks, Guidelines, AI Design, Public Awareness, Education, Engagement, Human
-categories: human, ai
+categories: ai, human
 permalink: /blog/optimistic-utopian-ai-futures-are-refreshing-fusion-superconductivity-ai/
 layout: post
 ---
@@ -212,9 +212,9 @@ Biotechnology needs
 Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/week-3-at-moz-step-up-your-game">Week 3 at Moz, Step-Up Your Game</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/week-3-at-moz-step-up-your-game">Week 3 at Moz, Step-Up Your Game</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/human/'>Human</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/human/'>Human</a></h4></li></ul>

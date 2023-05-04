@@ -61,7 +61,7 @@ the support and HOW you're going to test it. Think! Okay, put in some category
 data on MikeLev.in (this file).
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories">Github Pages Jekyll Previous/Next Arrows For Categories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories">Github Pages Jekyll Previous/Next Arrows For Categories</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a></div></div>
 ## Categories
 
 <ul>

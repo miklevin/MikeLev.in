@@ -24,4 +24,4 @@
 <li><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll/">Choosing Best CSS Framework For Github Pages and Jekyll</a> (Mon Aug 15, 2022)
 <br/>I'm looking for a CSS framework that provides a modern look, is search-friendly, has been around the longest, and allows me to produce clean, vanilla HTML code. After considering Bootstrap, Foundation, Bulma, Semantic, and UIkit, I decided to go with Foundation because it doesn't require btn classes. I activated lpvg.org on Github pages, created a `_layouts` folder and default.html file, and reminded myself to take baby steps.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/keywords/">Keywords</a></div> &nbsp; <div class="post-nav-next"><a href="/search/">Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/search/">Search</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/keywords/">Keywords</a></div></div>

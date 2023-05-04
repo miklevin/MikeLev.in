@@ -4,7 +4,7 @@ title: When Are We Not Adapting to New Realities?
 headline: "Exploring the Options: Reusing Pipulate, Using DrinkMe Linux, or Creating a Modern Noah's Ark Platform"
 description: Today I'm excited to read the last book in the ExForce SciFi series. I'm also working on a project and considering reusing the Pipulate library, using the DrinkMe Linux platform, or creating a modern Noah's Ark platform. I need to be aware of vendors trying to lure me into a dependency and alternatives to local Jupyter. Join me as I explore the options and decide which is best for my project.
 keywords: ExForce SciFi, Pipulate library, DrinkMe Linux, Noah's Ark platform, Microsoft, Linux services, vendors, dependency, alternatives, local Jupyter
-categories: microsoft, dependency
+categories: dependency, microsoft
 permalink: /blog/when-are-we-not-adapting-to-new-realities/
 layout: post
 ---
@@ -41,9 +41,9 @@ Every vendor product is trying to lure you into a dependency.
 Everyone with an alternative to local Jupyter
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles">What OpenAI GPT-3 Knows About Virtual Particles</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-next"><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles">What OpenAI GPT-3 Knows About Virtual Particles</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li></ul>
+<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
