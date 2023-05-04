@@ -5,7 +5,7 @@ permalink: /blog/can-large-language-models-help-you-learn-math/
 headline: "Uncovering Insights from SERP Data: My Journey to Learn Math Quickly and Effectively"
 description: I'm talking to Bing about how to learn math quickly and effectively. We discussed general tips, Khan Academy, and how to convert word problems and data into calculus formulas. I also discovered Symbolab's ms Calculator, which I'm using to analyze SERP data and identify trends in the directionality of URLs and websites. Join me on my journey to learn math and uncover insights from SERP data.
 keywords: Math, Learning, Bing, General Tips, Khan Academy, Word Problems, Calculus Formulas, Symbolab's ms Calculator, SERP Data, URLs, Websites, Regression Analysis
-categories: math, learning, bing
+categories: learning, bing, math
 layout: post
 ---
 
@@ -66,6 +66,6 @@ I have SERP data across a broad array of keywords. That is to say I know what UR
 ## Categories
 
 <ul>
-<li><h4><a href='/math/'>Math</a></h4></li>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/math/'>Math</a></h4></li></ul>

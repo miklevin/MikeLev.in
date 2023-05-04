@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: microsoft, bing, coding, ai, youtube, chatgpt
+categories: chatgpt, youtube, bing, ai, microsoft, coding
 layout: post
 ---
 
@@ -140,6 +140,12 @@ were using it.
 
 ![My First Access To New Bing](/assets/images/my-first-access-to-new-bing.JPG)
 
+It was not announced, but some sort of new rules were in place that whenever
+the AI was asked a question that made it ***uncomfortable***, it
+unceremoniously ended the chat session. You now have to hit a little dustbin
+icon to blank its memory and start over. *Eternal Sunshine of the Spotless
+Mind* much?
+
 # Tone Control & Special Superscripts
 
 On February 25, 2023, Microsoft announced a new feature called Tone Control
@@ -151,15 +157,23 @@ Also on February 25, 2023, an unannounced feature appeared by which
 
 ## Ads in Bing
 
-On February 28, 2023, still ahead of the 5-question limit even appeared for
+On February 28, 2023, still ahead of the 5-question limit even appearing for
 me, the next big advancement hit. I remember it clearly because it was my first
 day working for MOZ and I threw out my back and distinctly remembering I'd
 rather chat with Bing than wade through top-10 links that will inevitably be
-dominated by ads. Imagine my surprise this being the first moment I notice ads
-in The New Bing. AdWords-like ads in AI-chat! Isn't this what Google should be
-doing?
+dominated by ads. 
+
+Imagine my surprise this being the first moment I notice ads in The New Bing.
+AdWords-like ads in AI-chat! Isn't this what Google should be doing?
 
 ![Ads First Appearing In The New Bing](/assets/images/ads-first-appearing-in-the-new-bing.JPG)
+
+What struck me with this experience even more than the ads was the fact that
+when I needed to search fast, I didn't want to be hit with the traditional
+search interface. I just wanted to talk to an expert. This went beyond the "1
+right answer" of a rich snippet. I was already used to the back-and-forth
+discussion aspect of chat-enhanced search, and was impressed by how the AI
+seemed to ***empathize*** with my situation.
 
 ## Upping the Question Limit to 6
 
@@ -341,9 +355,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

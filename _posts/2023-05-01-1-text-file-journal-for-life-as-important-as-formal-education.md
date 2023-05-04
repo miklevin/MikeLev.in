@@ -5,7 +5,7 @@ permalink: /blog/1-text-file-journal-for-life-as-important-as-formal-education/
 headline: My Journey to Master Text-file Journaling for Life-Long Learning
 description: I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.
 keywords: Journaling, Life, Education, Science, Engineering, Graphic Design, Web Development, Data, NodeJS, JavaScript, htmx, Literacy, Language, Math, Interaction, Beliefs, Experiences, Tools, Hardware, YAML, Markdown, XML, JSON, Jekyll, Hugo, TOML, SSG, GitHub Pages, CMS, Documentum, Interwoven, Vignette, Joomla, Drupal, Django, Wordpress, Site Migration
-categories: math, github pages, science, nodejs, jekyll, journaling, hardware, javascript, yaml, web development
+categories: science, nodejs, math, journaling, hardware, jekyll, yaml, javascript, web development, github pages
 layout: post
 ---
 
@@ -249,13 +249,13 @@ large language model learn from it for whatever purpose you can imagine.
 ## Categories
 
 <ul>
-<li><h4><a href='/math/'>Math</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
 <li><h4><a href='/science/'>Science</a></h4></li>
 <li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/math/'>Math</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
