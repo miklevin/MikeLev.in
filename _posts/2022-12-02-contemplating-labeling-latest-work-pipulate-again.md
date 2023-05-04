@@ -4,7 +4,7 @@ title: Contemplating Labeling Latest Work Pipulate Again
 headline: Considering Changes to My Workflow and Pipulate Labeling for Latest Project
 description: I'm considering labeling my latest work as Pipulate and adding an 'automount' option to my DrinkMe Linux install script. My YouTube video on the truth about systemd under WSL2 is gaining traction and I'm contemplating a workflow change, capturing ideas and forging source as Docker becomes more popular. Come read my blog post to learn more about my journey and the decisions I'm making.
 keywords: Pipulate, Automount, WSL2, Systemd, DrinkMe Linux, Workflow Change, Capturing Ideas, Forging Source, Docker, YouTube Video, Blog Post, Journey, Decisions
-categories: docker, wsl2, journey, systemd, pipulate
+categories: docker, wsl2, journey, pipulate, systemd
 permalink: /blog/contemplating-labeling-latest-work-pipulate-again/
 layout: post
 ---
@@ -66,5 +66,5 @@ flocking flock, right?
 <li><h4><a href='/docker/'>Docker</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

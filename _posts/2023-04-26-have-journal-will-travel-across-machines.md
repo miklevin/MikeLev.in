@@ -4,7 +4,7 @@ title: Have Journal Will Travel (across machines)
 headline: "Moving Machines and Mapping Habits: Successfully Publishing with Copilot After a System Update."
 description: I recently moved to a new machine and was worried about my complex publishing system staying intact, especially with the GPT-like AI, Copilot. After getting a new keyboard and making sure my habits traveled with me, I was able to successfully set up Copilot and publish a post. Read on to find out how I overcame my worries and completed my tasks.
 keywords: Script, Admin-Editable, /usr/local/sbin, Laptop Keys, Hardware, Deck, API-way, System Update, Copilot, GPT-Like AI, Keyboard, Habits, Publish, Post
-categories: hardware, script, copilot, habits
+categories: habits, hardware, copilot, script
 permalink: /blog/have-journal-will-travel-across-machines/
 layout: post
 ---
@@ -133,5 +133,5 @@ Let's publish this post just in satisfaction in this regard.
 
 <ul>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>
