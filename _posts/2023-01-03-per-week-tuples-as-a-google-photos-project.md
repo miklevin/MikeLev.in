@@ -225,7 +225,7 @@ to some even New Years date. So the first appearance of data for date-ranges in
 Google Photo should be for approximately when I started using it.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a></div><div class="post-nav-next"><a href="/blog/life-in-weeks-ipynb">life_in_weeks.ipynb</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/life-in-weeks-ipynb">life_in_weeks.ipynb</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -41,7 +41,7 @@ Every vendor product is trying to lure you into a dependency.
 Everyone with an alternative to local Jupyter
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div><div class="post-nav-next"><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles">What OpenAI GPT-3 Knows About Virtual Particles</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles">What OpenAI GPT-3 Knows About Virtual Particles</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

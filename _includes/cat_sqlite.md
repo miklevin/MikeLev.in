@@ -20,4 +20,4 @@
 <li><a href="/blog/concurrent-web-crawling-in-python/">Concurrent Web Crawling in Python</a> (Mon Feb 21, 2022)
 <br/>Today, I'm celebrating President's Day by accomplishing a mission: creating an async Python function to return zipped input/output promises. I'm also working on handling a list of tuples as input and building a package called mlseo on PyPI. To top it off, I've completed a concurrent site crawler in Python that uses SQLite. Join me in celebrating President's Day with this amazing progress!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80/20-rule/">80/20-rule</a></div><div class="post-nav-next"><a href="/consciousness/">Consciousness</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80/20-rule/">80/20-rule</a></div> &nbsp; <div class="post-nav-next"><a href="/consciousness/">Consciousness</a><span class="arrow">&nbsp;&rarr;</span></div></div>

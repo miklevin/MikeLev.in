@@ -121,7 +121,7 @@ print("Done")
 I'm still working on and refining this thing.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a></div><div class="post-nav-next"><a href="/blog/automating-cycling-ips-on-hma-vpn-using-pywinauto">Automating Cycling IPs on HMA VPN Using PyWinAuto</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-cycling-ips-on-hma-vpn-using-pywinauto">Automating Cycling IPs on HMA VPN Using PyWinAuto</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

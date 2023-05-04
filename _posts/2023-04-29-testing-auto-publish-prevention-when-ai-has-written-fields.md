@@ -4,7 +4,7 @@ title: Testing Auto-Publish Prevention When AI Has Written Fields
 headline: Ensure AI-Written Content is Reviewed
 description: Test out my new auto-publish prevention system when AI has written fields. I'm doing one release before giving this a title as a control, and making sure the system works. This is a small article release, and I may delete it.
 keywords: AI, Journaling, System, Tweaking, Bowling, Weekend, Release, Summarize, Questions, Article, YAML, Source, File, Review, Control, Title
-categories: ai, yaml, journaling
+categories: journaling, yaml, ai
 permalink: /blog/testing-auto-publish-prevention-when-ai-has-written-fields/
 layout: post
 ---
@@ -31,10 +31,10 @@ I'm doing one release before giving this a title as a control. System's
 working. Now give it a title.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins">The 80/20-rule Means Front-loading The Big Wins</a></div><div class="post-nav-next"><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins">The 80/20-rule Means Front-loading The Big Wins</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

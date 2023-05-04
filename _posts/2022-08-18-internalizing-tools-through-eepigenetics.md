@@ -4,7 +4,7 @@ title: Internalizing Tools Through Eepigenetics
 headline: Learning to Embrace My Environment Through Tools and Eepigenetics
 description: This article reflects on my journey in life, discussing the concept of epigenetics and Mike Levin, a microbiologist who shares my name and is a hero of mine. I explore my experiences in life, including falling victim to shortcut-seekers and narcissists, and how I am learning to make sure I don't lose myself to someone else. I have embraced my environment by finding my tools, and have realized the importance of incorporating VSCode into my DNA. I discuss the power of text editors.
 keywords: Epigenetics, Mike Levin, Shortcut-Seekers, Narcissists, VSCode, Text Editors, Journal, Proto-Intelligence, Free Will, Random Circumstance, Hand, Game of Life, Foam, Glass, Time, Vulnerability, Change, Platform, Web Browser, NodeJS, Server, Vi, Linux, Vim, Python, JavaScript
-categories: javascript, python, vim, linux, vscode, platform, change, nodejs
+categories: vim, python, platform, vscode, nodejs, javascript, change, linux
 permalink: /blog/internalizing-tools-through-eepigenetics/
 layout: post
 ---
@@ -223,15 +223,15 @@ that it is still as popular as it is today and only growing, even in the face
 of JavaScript, the one language to rule them all.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-mike-levin-helping-you-fight-obsolescence">I'm Mike Levin helping you fight obsolescence</a></div><div class="post-nav-next"><a href="/blog/monitoring-github-pages-github-io-system-for-errors">Monitoring Github Pages github.io System For Errors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-mike-levin-helping-you-fight-obsolescence">I'm Mike Levin helping you fight obsolescence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/monitoring-github-pages-github-io-system-for-errors">Monitoring Github Pages github.io System For Errors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/platform/'>Platform</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

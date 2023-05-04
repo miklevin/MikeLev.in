@@ -4,7 +4,7 @@ title: Journaling In Public With Copilot For The Sake of It
 headline: Exploring GPT-4 and Sharing My Knowledge of Vim, NeoVim, and Vi
 description: I'm exploring the possibilities of GPT-4, an AI trained on the entire internet, by attempting to get it to do programming. I'm also setting up a project with the MOZ API, and checking if anyone is around to chat. As a long-time user of vim, NeoVim, and vi, I'm sharing my knowledge of their efficiency and keystroke commands with any potential readers. I'm also providing a link to the MOZ Links API Documentation, so read on.
 keywords: GPT-4, AI, Programming, Vim, NeoVim, Vi, Efficiency, Keystroke Commands, MOZ API, Links API Documentation, VSCode, Journaling, Copilot, Sake, Exploring, Possibilities, Sharing, Knowledge, Muscle Memory
-categories: neovim, sharing, vim, vscode, knowledge, ai, muscle memory, journaling, copilot
+categories: vim, copilot, neovim, sharing, ai, journaling, vscode, muscle memory, knowledge
 permalink: /blog/journaling-in-public-with-copilot-for-the-sake-of-it/
 layout: post
 ---
@@ -115,16 +115,16 @@ This is a public journal. Everything I write here goes on Web. Let's show you.
 Here is the link to the [MOZ Links API Documentation](https://moz.com/help/links-api)
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-to-the-moz-links-api-v1-for-the-first-time">Connecting to the Moz Links API V1 For the First Time</a></div><div class="post-nav-next"><a href="/blog/live-streaming-with-github-copilot-in-neovim-for-motivation">Live-streaming With Github Copilot in NeoVim for Motivation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-to-the-moz-links-api-v1-for-the-first-time">Connecting to the Moz Links API V1 For the First Time</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/live-streaming-with-github-copilot-in-neovim-for-motivation">Live-streaming With Github Copilot in NeoVim for Motivation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/sharing/'>Sharing</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/knowledge/'>Knowledge</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/knowledge/'>Knowledge</a></h4></li></ul>

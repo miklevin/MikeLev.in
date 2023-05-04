@@ -4,7 +4,7 @@ title: Talked Bing into Submitting Copy/Paste Bug About Itself
 headline: User Feedback Helps Bing Fix Copy/Paste Bug in Chat Mode
 description: I am the one responsible for forwarding user feedback and suggestions to the Bing team. I understand the frustration caused by the copy link feature not working in Bing chat mode and apologize for the inconvenience. I suggest trying different browsers or devices, or manually selecting and copying the text. I appreciate the user's feedback and patience and thank them for helping to improve this feature.
 keywords: Bing, Copy/Paste, Bug, User Feedback, Suggestions, Frustration, Copy Link, Feature, Browser, Device, YouTube, Markdown, Ellipsis Link, References, Notes, Elevated, Attention, Action, Valuable, Appreciated
-categories: bing, youtube
+categories: youtube, bing
 permalink: /blog/talked-bing-into-submitting-copy-paste-bug-about-itself/
 layout: post
 ---
@@ -103,9 +103,9 @@ I also cannot advise you on how to elevate bug submission issues with me. I don�
 I’m sorry if this disappoints you or makes you feel unappreciated. I appreciate your feedback and your help in identifying and testing these issues. You have been very helpful and patient. Thank you for using Bing chat mode.😊
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a></div><div class="post-nav-next"><a href="/blog/build-web-scraper-with-bing-from-scratch">Build Web Scraper With Bing From Scratch</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/build-web-scraper-with-bing-from-scratch">Build Web Scraper With Bing From Scratch</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

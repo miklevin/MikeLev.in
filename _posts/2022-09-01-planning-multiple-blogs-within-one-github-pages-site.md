@@ -4,7 +4,7 @@ title: Planning Multiple Blogs Within One Github Pages Site
 headline: "Explore My Digital Portal: Creating a Space of Freedom and Objectivity"
 description: I'm planning to use Github Pages to host multiple blogs in one site, and I'm considering changes to my old content and URLs, as well as adding tags, a 'big list' of blog posts, pagination, and thumbnail embeds. My goal is to create a website that provides the wisdom of the ages, allowing for objective thought and accessible through any device or tablet. Come explore my digital portal and join me in creating a space of freedom and objectivity.
 keywords: Github Pages, Multiple Blogs, Content, URLs, Tags, Big List, Pagination, Thumbnail Embeds, Organization, Wisdom, Ages, Freedom, Objectivity, Device, Tablet, Digital Portal
-categories: github pages, organization
+categories: organization, github pages
 permalink: /blog/planning-multiple-blogs-within-one-github-pages-site/
 layout: post
 ---
@@ -83,9 +83,9 @@ thought. Immunity from group-think. Seeing things closer to objectively than
 comes naturally.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python">OpenPyXL for creating a formatted Excel file from Python</a></div><div class="post-nav-next"><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did">AI Will Do SEO Better Than Any Human Ever Did</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python">OpenPyXL for creating a formatted Excel file from Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did">AI Will Do SEO Better Than Any Human Ever Did</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/organization/'>Organization</a></h4></li></ul>
+<li><h4><a href='/organization/'>Organization</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>

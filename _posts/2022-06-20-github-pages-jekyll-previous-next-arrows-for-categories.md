@@ -146,7 +146,7 @@ for this solution to not have funky side-effects. I'm iterating through a loop,
 but expecting one and only one category to return (if any) for any given post.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div><div class="post-nav-next"><a href="/blog/qnap-container-station-lxc-end-of-support-notification-move-to-lxd">Qnap Container Station Lxc End Of Support Notification, Move To Lxd</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/qnap-container-station-lxc-end-of-support-notification-move-to-lxd">Qnap Container Station Lxc End Of Support Notification, Move To Lxd</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

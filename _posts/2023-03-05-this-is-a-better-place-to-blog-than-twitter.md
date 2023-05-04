@@ -4,7 +4,7 @@ title: This is a better place to blog than Twitter
 headline: "Exploring Alternatives: My Search for the Perfect Blogging Platform"
 description: As I explore different blogging platforms, I'm learning that true automation is an illusion. I'm looking for cheaper options with less tech liability, while still remembering the debt I owe computers after being stung twice. Join me on my journey to find the perfect blogging platform.
 keywords: blogging, platform, automation, illusion, cheaper, tech, liability, debt, journey, Twitter, Hostmonster, domain, hosting, experimenting, thoughts, options, computers, stung
-categories: automation, twitter, thoughts, platform, blogging, journey
+categories: twitter, automation, platform, thoughts, journey, blogging
 permalink: /blog/this-is-a-better-place-to-blog-than-twitter/
 layout: post
 ---
@@ -23,12 +23,12 @@ People don't talk about it much but many things you build out of tech weigh you 
 True automation is an illusion. You might as well face facts right up front when you start to learn tech. Don't discover these things 20 years in after being stung twice, such as I was. I say stung twice, first by the Amiga computer, then by Microsoft Active Server Page (.asp VBScript). But in reality, I owe them both a great debt. In the case of the Amiga, their kooky OS was based on TRIP
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-ai-s-opinion-of-hottest-tech-fields">Exploring AI's Opinion of Hottest Tech Fields</a></div><div class="post-nav-next"><a href="/blog/starting-to-research-a-4k-vlogging-camera">Starting to Research a 4K Vlogging Camera</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-ai-s-opinion-of-hottest-tech-fields">Exploring AI's Opinion of Hottest Tech Fields</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-research-a-4k-vlogging-camera">Starting to Research a 4K Vlogging Camera</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/platform/'>Platform</a></h4></li>
-<li><h4><a href='/blogging/'>Blogging</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/blogging/'>Blogging</a></h4></li></ul>

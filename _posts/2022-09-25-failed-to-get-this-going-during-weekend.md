@@ -4,7 +4,7 @@ title: Failed To Get This Going During Weekend
 headline: "Failed Attempt at Multi-OS Project: My Experience and Challenges"
 description: I tried to get a project going this weekend, involving cycling IPs and installing the latest JupyterLab-Desktop, but I failed. Instead, I decided to stay on Linux and communicate with files. This project is split across multiple OSes, with a Python busy loop Windows-side without Jupyter. Read my blog post to learn more about my experience and the challenges I faced!
 keywords: Cycling IPs, JupyterLab-Desktop, Linux, Files, OSes, Python, Busy Loop, Windows-side, StackOverflow, Challenges, Experience
-categories: linux, python
+categories: python, linux
 permalink: /blog/failed-to-get-this-going-during-weekend/
 layout: post
 ---
@@ -88,9 +88,9 @@ Okay, so this project is broken into at least 2 parts, split across OSes
 communicating via files. Make a Python busy loop Windows-side without Jupyter.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine">Programming a Python Do Nothing Machine</a></div><div class="post-nav-next"><a href="/blog/if-greys-exist-they-re-a-banana-crops">If Greys Exist They're a Banana Crops</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine">Programming a Python Do Nothing Machine</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-greys-exist-they-re-a-banana-crops">If Greys Exist They're a Banana Crops</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

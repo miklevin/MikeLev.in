@@ -73,7 +73,7 @@ from time to time, but I am thrilled that deep exploration of new things is now
 possible online.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div><div class="post-nav-next"><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

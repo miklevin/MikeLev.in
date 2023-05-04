@@ -4,7 +4,7 @@ title: Starting a New Blogging System (create a title field under date to releas
 headline: Creating a Journal Entry System with AI-Generated Content
 description: I'm starting a new journal entry system with the 80-long hyphen as a blog-slicer token and place-holder for the Liquid template system. I'm using Jekyll, an open source static site generator, and a macro system to ensure reverse-chronological entries.
 keywords: Journal, Entry, System, 80-long Hyphen, Blog-slicer, Token, Place-holder, Liquid, Template, Jekyll, Open Source, Static Site Generator, Macro System, Reverse-chronological, AI-generated, Content, Chopper, Strings, Date-index, Function, Update, AI
-categories: template, static site generator, jekyll, open source, ai
+categories: open source, static site generator, ai, template, jekyll
 permalink: /blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release/
 layout: post
 ---
@@ -106,12 +106,12 @@ Okay, I'm very pleased at how this is going. Give this one a title and let it
 publish. Then do some experimentation updating meta descriptions and such.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system">More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System</a></div><div class="post-nav-next"><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like">My Secret Daily Work Journal now More YAML-like</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system">More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like">My Secret Daily Work Journal now More YAML-like</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/template/'>Template</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/template/'>Template</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

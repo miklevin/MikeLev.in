@@ -16,4 +16,4 @@
 <li><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a> (Sat May 07, 2022)
 <br/>I have created a system for writing weekly reports that is similar to how I write blog posts. I have set up the necessary files, scripts, and repository, and tested the release. I encountered a problem with the git push, but I was able to create a blog post, move it to my Github private repo, and render the markdown into HTML. Now I have a system in place to make the process flow with my vimminess!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/twitter/">Twitter</a></div><div class="post-nav-next"><a href="/20.04/">20.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/twitter/">Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/20.04/">20.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>

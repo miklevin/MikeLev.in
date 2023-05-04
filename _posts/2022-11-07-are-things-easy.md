@@ -83,7 +83,7 @@ subjugate yourself to corporate overloads? Of course it's in exchange for an
 arguably better life. But is it?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/happy-birthday-adi">Happy Birthday Adi!</a></div><div class="post-nav-next"><a href="/blog/just-moving-life-forward">Just Moving Life Forward</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/happy-birthday-adi">Happy Birthday Adi!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/just-moving-life-forward">Just Moving Life Forward</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

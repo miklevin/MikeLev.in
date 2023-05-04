@@ -4,7 +4,7 @@ title: Created Windows Shortcut To Start Linux Jupyter on LXD
 headline: Create a Windows Shortcut to Easily Access Linux Jupyter on LXD
 description: "This blog post explains how I created a Windows Shortcut (LXD.lnk) to start a Jupyter server on WSL, getting around API limitations and ensuring the command-line parameters of WSL and LXD work properly. With this shortcut, I can easily visit http://localhost:8888 and start the Jupyter server. Learn how I did it in this post!"
 keywords: Windows Shortcut, Linux Jupyter, LXD, WSL, API Limitations, Command-line Parameters, Exec Command, Localhost, 8888
-categories: wsl, lxd
+categories: lxd, wsl
 permalink: /blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/
 layout: post
 ---
@@ -50,9 +50,9 @@ that dropping magic little sbin commands into place and calling ***them*** on
 the command-line seems to always work.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div><div class="post-nav-next"><a href="/blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you">The Two Maxwell's of Light / You Can't Take It With You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you">The Two Maxwell's of Light / You Can't Take It With You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>

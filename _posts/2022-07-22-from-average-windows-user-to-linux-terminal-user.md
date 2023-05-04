@@ -4,7 +4,7 @@ title: From Average Windows User to Linux Terminal User
 headline: "Transitioning to Linux Terminal: My Journey as an Average Windows User"
 description: As an average Windows user, I'm taking advantage of Microsoft's partnership with Canonical to transition to Linux terminal. I'm installing Ubuntu on my existing laptop running Windows 10 or 11, so I can take advantage of the cloud and protect myself from obsolescence. Join me on my journey as I become a Linux terminal user.
 keywords: Windows, Linux, Terminal, Microsoft, Canonical, Ubuntu, Cloud, Desktop, Laptop, Windows 10, Windows 11, Unix, Distro, Obsolescence, Journey
-categories: terminal, windows 10, unix, microsoft, linux, ubuntu, windows 11, journey
+categories: microsoft, windows 10, ubuntu, unix, journey, terminal, linux, windows 11
 permalink: /blog/from-average-windows-user-to-linux-terminal-user/
 layout: post
 ---
@@ -52,15 +52,15 @@ is most likely running Windows 10 or 11. Either way, it's pretty easy to get to
 "simultaneous" Linux with very little downside.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-nix-today-means-learning-systemd">Learning *nix Today Means Learning systemd!</a></div><div class="post-nav-next"><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis">Do Not Lose The Power of Touch Typing Despite AI APIs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-nix-today-means-learning-systemd">Learning *nix Today Means Learning systemd!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis">Do Not Lose The Power of Touch Typing Despite AI APIs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

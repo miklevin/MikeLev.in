@@ -113,7 +113,7 @@ I didn't use subdomains when I renamed the downloads from the True Competitor
 report, so that becomes our next mini-project.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a></div><div class="post-nav-next"><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

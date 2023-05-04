@@ -4,7 +4,7 @@ title: Why Linux Fights Obsolescence and LXD is Key
 headline: "LXD: My Journey to Success with Linux and Obsolescence Avoidance"
 description: I recently released a video on LXD being a sort of Noah's Ark and am working on strategies to make my videos more successful. I'm also working on projects for my day job and creating a 24x7 scheduler for a series of projects. I need to create nicknames, imagery, and visuals for the next iteration of Pipulate, but was cut off from PyPI because of their 2FA implementation. Read my blog post to learn more about my journey to success!
 keywords: Linux, LXD, Video, YouTube, Web Content, Strategies, Quality Content, Projects, Day Job, 24x7 Scheduler, Nicknames, Imagery, Visuals, Pipulate, PyPI, 2FA Implementation
-categories: pipulate, youtube, lxd, linux, strategies, pypi
+categories: strategies, pypi, youtube, pipulate, lxd, linux
 permalink: /blog/why-linux-fights-obsolescence-and-lxd-is-key/
 layout: post
 ---
@@ -88,12 +88,12 @@ backup system tapping email or mobile. Ugh! Everything's an interesting story,
 even this. You should make a video out of your PyPI experience.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll">Choosing Best CSS Framework For Github Pages and Jekyll</a></div><div class="post-nav-next"><a href="/blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04">Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll">Choosing Best CSS Framework For Github Pages and Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04">Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

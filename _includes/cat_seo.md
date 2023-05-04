@@ -138,4 +138,4 @@
 <li><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a> (Fri Aug 20, 2021)
 <br/>I'm streaming on my main journal and building up my YouTube channel by experimenting with video trimming, embedding thumbnails, adding markdown headlines, and creating a to-do list. Come check out my blog post to see how I'm making it happen!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/git/">Git</a></div><div class="post-nav-next"><a href="/microsoft/">Microsoft</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/git/">Git</a></div> &nbsp; <div class="post-nav-next"><a href="/microsoft/">Microsoft</a><span class="arrow">&nbsp;&rarr;</span></div></div>

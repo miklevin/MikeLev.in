@@ -4,7 +4,7 @@ title: Powering My Way Through MOZ Links API Documentation
 headline: Exploring the Power of Persuasion with MOZ Links API Documentation
 description: I'm exploring the MOZ Links API with Mechvibes software, learning about the power of persuasion with Robert Cialdini's six principles, and using journaling and Python's dict native datatype to create a database to store the data and make it persistent. I'm also cleaning up a MOZ Links API Exploration Repo with NeoVim for OpenAI Github Copilot integration, making clicky sounds as I type. Join me on my journey.
 keywords: MOZ Links API, Mechvibes, Robert Cialdini, Six Principles, Journaling, Python, Dict Datatype, Database, Persistent, NeoVim, OpenAI, Github Copilot, SourceForge, Clicky Sounds, Microsoft Video, CopilotX, Autocompletion, Headline/Subhead, Notebook, Persuasion, Marketing, Salespeople, Influence, Psychology, Regents' Professor, Arizona State University, Microsoft, Jupy
-categories: github copilot, notebook, marketing, neovim, database, moz links api, python, microsoft, openai, journaling
+categories: microsoft, python, neovim, github copilot, database, journaling, openai, marketing, notebook, moz links api
 permalink: /blog/powering-my-way-through-moz-links-api-documentation/
 layout: post
 ---
@@ -527,17 +527,17 @@ What other housekeeping?
 NeoVim keeps it's .vimrc equivalent file in ~/.config/nvim/init.vim.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-conversation-about-superintelligence-with-bard">A Conversation About Superintelligence With Bard</a></div><div class="post-nav-next"><a href="/blog/continuing-my-silent-live-streaming-journaling-adventure">Continuing My Silent Live-Streaming Journaling Adventure</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-conversation-about-superintelligence-with-bard">A Conversation About Superintelligence With Bard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/continuing-my-silent-live-streaming-journaling-adventure">Continuing My Silent Live-Streaming Journaling Adventure</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Compatible Linux X Server Graphics Across Windows & Mac
 headline: Exploring Compatible Linux X Server Graphics Across Windows and Mac
 description: As a reader trying to decide between Manim and Synfig for animation software, I need to consider my individual learning style, goals, and preferences. I am looking for step-by-step instructions to install Manim and supporting libraries on Ubuntu, as well as how to access localhost port 8888 and run JupyterLab on an Intel Mac. I have found resources on Proxy for accessing host Windows in WSL2.
 keywords: Linux, X Server, Graphics, Windows, Mac, Manim, Synfig, Animation, Software, Learning, Style, Goals, Preferences, Step-by-Step, Instructions, Install, Libraries, Ubuntu, Access, Localhost, Port 8888, Run, JupyterLab, Intel Mac, Proxy, WSL2, Fixing, WSL2 Localhost Access Issue, Multipass, VirtualBox, RDP, X11 Forwarding, Math, Python, GUI
-categories: jupyterlab, mac, python, math, linux, ubuntu, learning, wsl2, goals, graphics
+categories: goals, python, mac, learning, ubuntu, math, graphics, wsl2, linux, jupyterlab
 permalink: /blog/compatible-linux-x-server-graphics-across-windows-mac/
 layout: post
 ---
@@ -555,15 +555,15 @@ Source: Conversation with Bing, 3/3/2023
     (6) Fixing WSL2 localhost access issue - abdus.dev. https://abdus.dev/posts/fixing-wsl2-localhost-access-issue/ Accessed 3/3/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-won-t-write-story-about-excessively-biased-chatbot">Bing Won't Write Story About Excessively Biased ChatBot</a></div><div class="post-nav-next"><a href="/blog/consulting-with-the-new-bing-on-how-to-go-viral">Consulting With The New Bing On How to Go Viral</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-won-t-write-story-about-excessively-biased-chatbot">Bing Won't Write Story About Excessively Biased ChatBot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/consulting-with-the-new-bing-on-how-to-go-viral">Consulting With The New Bing On How to Go Viral</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/math/'>Math</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/math/'>Math</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>

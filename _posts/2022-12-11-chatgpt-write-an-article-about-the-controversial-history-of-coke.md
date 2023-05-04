@@ -49,7 +49,7 @@ challenges that the company has faced and overcome in the past, and it remains
 to be seen how it will navigate the challenges of the future.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a></div><div class="post-nav-next"><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

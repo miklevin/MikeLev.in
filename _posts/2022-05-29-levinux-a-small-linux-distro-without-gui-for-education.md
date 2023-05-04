@@ -4,7 +4,7 @@ title: Levinux, a Small Linux Distro without GUI for Education
 headline: "Introducing Levinux: A Simple Linux Distro for Learning Unix/Linux"
 description: I'm Mike Levinux and I created Levinux, a Linux distro designed to help people learn Unix/Linux. It includes components such as Tiny Core Linux, QEMU, BusyBox, and a virtual Linux, plus a file-transfer system and a server-building script system. I advocate for the use of Vim and Git for security, and suggest using Python and forward-slashes for code that will run anywhere.
 keywords: Levinux, Linux, Unix, Tiny Core Linux, QEMU, BusyBox, Virtual Linux, File-Transfer, Server-Building, Script System, Vim, Git, Python, OpenSSH, JupyterLab Desktop, Pythonic
-categories: git, levinux, unix, python, vim, linux
+categories: git, levinux, vim, python, unix, linux
 permalink: /blog/levinux-a-small-linux-distro-without-gui-for-education/
 layout: post
 ---
@@ -365,13 +365,13 @@ In JupyterLab Desktop, the "Hello World" program is:
     "Hello World"
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gathering-my-stories">Gathering My Stories</a></div><div class="post-nav-next"><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di">If I Were Green I Would Die. Abba Di Abba Di.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gathering-my-stories">Gathering My Stories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di">If I Were Green I Would Die. Abba Di Abba Di.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

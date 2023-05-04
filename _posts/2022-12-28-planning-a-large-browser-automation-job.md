@@ -235,7 +235,7 @@ async with async_playwright() as p:
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-subsystem-for-linux-is-now-available-in-the-microsoft-store">Windows Subsystem for Linux is now available in the Microsoft Store!</a></div><div class="post-nav-next"><a href="/blog/analyzing-the-karate-club-3d-node-graph">Analyzing the Karate Club 3D Node Graph</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-subsystem-for-linux-is-now-available-in-the-microsoft-store">Windows Subsystem for Linux is now available in the Microsoft Store!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/analyzing-the-karate-club-3d-node-graph">Analyzing the Karate Club 3D Node Graph</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

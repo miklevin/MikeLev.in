@@ -60,7 +60,7 @@ slice & dice process to my master publishing script.
 Okay, wow, so I got the title logic in. Now slap some headlines on these blog
 posts. A few with, a few without.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-programming-is-easy-but-math-is-hard">Why Programming Is Easy But Math Is Hard</a></div><div class="post-nav-next"><a href="/blog/my-stories-leading-up-to-linux-python-vim-git">My Stories Leading Up To Linux, Python, vim & git</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-programming-is-easy-but-math-is-hard">Why Programming Is Easy But Math Is Hard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-stories-leading-up-to-linux-python-vim-git">My Stories Leading Up To Linux, Python, vim & git</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

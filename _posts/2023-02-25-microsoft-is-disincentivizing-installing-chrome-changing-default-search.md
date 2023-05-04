@@ -4,7 +4,7 @@ title: Microsoft is disincentivizing Installing Chrome & Changing Default Search
 headline: Microsoft Making Bold Move to Disrupt Google's Revenue Stream with Azure Cloud Computing
 description: As a tech enthusiast, I'm fascinated by Microsoft's bold move to power AI ChatBot responses with Azure cloud computing and disincentivize users from installing Chrome or changing their default search settings. This could have a huge impact on Google's main revenue stream and completely shift the landscape of the tech industry. Learn more about this fascinating development and its potential implications.
 keywords: Microsoft, Azure, Cloud Computing, AI, ChatBot, Chrome, Search, Revenue Stream, Habits, Hardware, Upgrade, Shift, Fortunes
-categories: habits, search, chatbot, microsoft, chrome, ai
+categories: search, microsoft, chrome, ai, habits, chatbot
 permalink: /blog/microsoft-is-disincentivizing-installing-chrome-changing-default-search/
 layout: post
 ---
@@ -36,12 +36,12 @@ If you were disincentivized to install Chrome or switch your default browser sea
 This sudden collapse of main revenue stream for Google would be an unlikely scenario were Microsoft not equipped with Azure cloud computing to power the very AI ChatBot responses Google is too gun-shy to release. It's a double-whammy. Microsoft changed expectations and habits through one hardware upgrade cycle.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/first-day-on-new-job-i-throw-out-my-back">First Day on New Job & I Throw Out My Back!</a></div><div class="post-nav-next"><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public">Verbalize the built-up not-yet memeified angsty feelings of the public.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/first-day-on-new-job-i-throw-out-my-back">First Day on New Job & I Throw Out My Back!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public">Verbalize the built-up not-yet memeified angsty feelings of the public.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/chrome/'>Chrome</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>

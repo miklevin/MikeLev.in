@@ -4,7 +4,7 @@ title: Doing a Google Analytics API Project (Filtering US Only Traffic)
 headline: Learning to Connect to Google Analytics via API - Filtering US Only Traffic
 description: I'm building a project to connect to Google Analytics via their API, and I've written code to retrieve metrics such as users, sessions, bounce rate, average session duration and pages/session. I'm also creating a text file with a list of profile IDs, segments and start/end dates for the past year, and I've written a loop to generate the start and end dates for each month. Follow along with my project to learn more!
 keywords: Google Analytics, API, US, Traffic, Metrics, Users, Sessions, Bounce Rate, Average Session Duration, Pages/Session, Segment, Organic Search, Profile IDs, Start Date, End Date, Loop, Pip Install
-categories: api, google analytics, loop
+categories: loop, api, google analytics
 permalink: /blog/doing-a-google-analytics-api-project-filtering-us-only-traffic/
 layout: post
 ---
@@ -140,10 +140,10 @@ year:
 
 Yup, that'll do it.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a></div><div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/loop/'>Loop</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/loop/'>Loop</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

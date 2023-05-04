@@ -18,4 +18,4 @@
 <li><a href="/blog/jupyter-notebooks-are-dev-tools-with-nbdev/">Jupyter Notebooks Are Dev Tools With nbdev</a> (Fri Apr 8, 2022)
 <br/>I'm exploring nbdev and LPvg to advance my knowledge of Python and the tools available for 24x7 automated systems. I'm using JupyterLab on Windows and have learned about commands like nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, and more to help with the release process. I'm excited to see what I can do with nbdev and am embracing the challenge of incorporating it into my workflow</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/moz pro/">MOZ Pro</a></div><div class="post-nav-next"><a href="/goal/">Goals</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/moz pro/">MOZ Pro</a></div> &nbsp; <div class="post-nav-next"><a href="/goal/">Goals</a><span class="arrow">&nbsp;&rarr;</span></div></div>

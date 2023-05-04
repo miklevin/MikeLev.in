@@ -4,7 +4,7 @@ title: Run Jupyter from LXD Linux Container on Windows
 headline: Learn to Run Jupyter from an LXD Linux Container on Windows!
 description: Learn how to run Jupyter from an LXD Linux Container on Windows with me! I walk you through setting up an LXD container, adding a proxy device, logging into the container, adding a Python 3.10 virtual environment, creating a .bash_profile to activate the venv, installing Jupyter Lab, creating a script to run Jupyter in a way that the proxy can reach, and finally setting up a browser window to access Jupyter.
 keywords: LXD, Linux, Container, Windows, Python, 3.10, Virtual, Environment, .bash_profile, Activate, Venv, Jupyter, Lab, Script, Proxy, Browser, Access
-categories: script, python, lxd, container, linux, jupyter
+categories: python, jupyter, script, container, lxd, linux
 permalink: /blog/run-jupyter-from-lxd-linux-container-on-windows/
 layout: post
 ---
@@ -150,13 +150,13 @@ You can try making a notebook and:
     os.getcwd()
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-wsl">Writing First Version of Install Scripts for Jupyter on LXD on WSL</a></div><div class="post-nav-next"><a href="/blog/thinking-through-jupyter-video">Thinking Through Jupyter Video</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-wsl">Writing First Version of Install Scripts for Jupyter on LXD on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thinking-through-jupyter-video">Thinking Through Jupyter Video</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

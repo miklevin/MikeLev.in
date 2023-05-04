@@ -22,7 +22,7 @@ layout: post
 1. Twitter adds features that make it the new Github.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-back-the-pipulate-com-website">Bring Back the Pipulate.com Website</a></div><div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-back-the-pipulate-com-website">Bring Back the Pipulate.com Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Desperately Seeking a Better Intro to Math & Science. A Pythonic One?
 headline: Exploring Math & Science with Python - Discovering the Beauty and Truth of Math.
 description: As someone who is looking to learn math and science but doesn't have a strong background in math, I have been searching for ways to learn math in a way that nurtures a love for the beauty and truth of math. I recently discovered how to use Python code to represent and manipulate basic concepts from Algebra, Geometry, and Trigonometry. I also explored some famous and easy to reproduce experiments in science, such as the two-slit experiment and cloud chambers.
 keywords: math, science, Python, Algebra, Geometry, Trigonometry, Two-slit experiment, Cloud chamber, Mendel's pea plant experiment, sympy, math, numpy, variables, operators, built-in functions, classes, methods, attributes, trigonometric ratios, functions, Boyle's air pump, baking soda and vinegar reaction, Meissner effect, black snake experiment, Mentos and Diet Coke experiment, hologram, Brazil nut effect, water metal,
-categories: math, python, science
+categories: science, python, math
 permalink: /blog/desperately-seeking-a-better-intro-to-math-science-a-pythonic-one/
 layout: post
 ---
@@ -509,10 +509,10 @@ Sorry, you've reached the limit of messages you can send to Bing within 24 hours
 Drat!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a></div><div class="post-nav-next"><a href="/blog/most-influential-scientists-women-women-scientists">Most Influential Scientists & Women & Women Scientists</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/most-influential-scientists-women-women-scientists">Most Influential Scientists & Women & Women Scientists</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/math/'>Math</a></h4></li>
+<li><h4><a href='/science/'>Science</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/science/'>Science</a></h4></li></ul>
+<li><h4><a href='/math/'>Math</a></h4></li></ul>

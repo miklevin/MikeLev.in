@@ -28,7 +28,7 @@ On a Windows 10 or 11 machine:
 {% include youtubePlayer.html id="yfSal2SzwtM" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-password-authentication-from-ssh-services">Removing Password Authentication from SSH Services</a></div><div class="post-nav-next"><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-password-authentication-from-ssh-services">Removing Password Authentication from SSH Services</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

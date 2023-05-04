@@ -18,4 +18,4 @@
 <li><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a> (Tue May 10, 2022)
 <br/>As a programmer, I missed the Full Web Stack revolution based on Google V8 JavaScript extraction from Chrome known as NodeJS. I chose Python as my primary language, and while I appreciate JavaScript's loveworthy bits, I've always wondered why web browsers are so locked down to just JavaScript. Discover why this restriction forces the web to be an always JavaScript game, and the browser vendor and governance issues behind it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/web development/">Web Development</a></div><div class="post-nav-next"><a href="/proprietary/">Proprietary</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/web development/">Web Development</a></div> &nbsp; <div class="post-nav-next"><a href="/proprietary/">Proprietary</a><span class="arrow">&nbsp;&rarr;</span></div></div>

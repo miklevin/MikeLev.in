@@ -4,7 +4,7 @@ title: Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?
 headline: Exploring the Possibility of Dark Energy Consciousness and Its Implications for Computing
 description: This article explores the possibility of dark energy consciousness existing in the universe and its implications for computing. I discuss the implications of digital electronics and how bifurcation can lead to exponential growth. I question the possibility of free-will in a seemingly deterministic system, ponder the idea of self-grown aliens, and consider the implications of a universe with an accelerating expansion that cannot be explained. Read on to explore these fascinating concepts and to discover what they mean for the future of computing.
 keywords: Dark Energy, Consciousness, Gated Communities, Heat Death, Digital Electronics, Bifurcation, Exponential Growth, Free-Will, Self-Grown Aliens, Accelerating Expansion, Superconducting Quantum Computers, Machine Learning, Neural Networks, Low-Power Chip, Black Hole, Quantum Loop, Pixel, Time, Space, Universal Constants, Fine-Tuned, Infinity, Aliens, Big Bang, Decelerating Expansion
-categories: machine learning, consciousness
+categories: consciousness, machine learning
 permalink: /blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death/
 layout: post
 ---
@@ -202,9 +202,9 @@ geogalactic stability in light of the blight.
 Hmmmm.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reversing-desensitization-and-dehumanization">Reversing Desensitization And Dehumanization</a></div><div class="post-nav-next"><a href="/blog/how-do-i-not-have-a-portable-power-station-already">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reversing-desensitization-and-dehumanization">Reversing Desensitization And Dehumanization</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-do-i-not-have-a-portable-power-station-already">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

@@ -55,7 +55,7 @@ escaping Jekyll blog post Liquid directives better.
 Oh, and the reason vim is better than emacs is because
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sharpening-my-prev-next-arrows">Sharpening My Prev/Next Arrows</a></div><div class="post-nav-next"><a href="/blog/disabling-github-ci-nbdev-install-git-hooks">Disabling Github CI nbdev_install_git_hooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sharpening-my-prev-next-arrows">Sharpening My Prev/Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disabling-github-ci-nbdev-install-git-hooks">Disabling Github CI nbdev_install_git_hooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -21,7 +21,7 @@ put a user interface on it and deal with the unpredictability of humans.
 {% include youtubePlayer.html id="W7ZwEzsMSnY" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-don-t-want-to-blow-up">I Don't Want To Blow Up</a></div><div class="post-nav-next"><a href="/blog/vim-macro-to-format-markdown-poetry">vim Macro to Format Markdown Poetry</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-don-t-want-to-blow-up">I Don't Want To Blow Up</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-macro-to-format-markdown-poetry">vim Macro to Format Markdown Poetry</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

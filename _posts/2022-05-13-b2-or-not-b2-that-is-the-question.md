@@ -77,7 +77,7 @@ way to this very important project.
 
 Do it now.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/b2-or-not-b2-that-is-the-question">:b2 or not :b2, That Is The Question</a></div><div class="post-nav-next"><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/b2-or-not-b2-that-is-the-question">:b2 or not :b2, That Is The Question</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

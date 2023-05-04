@@ -33,7 +33,7 @@ go so easily, LOL!
 
 And then looking around becomes your new checklist. Rinse and repeat.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com">Putting mlseo on subdomain of MikeLevinSEO.com</a></div><div class="post-nav-next"><a href="/blog/easy-peasy-computer-literacy">Easy Peasy Computer Literacy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com">Putting mlseo on subdomain of MikeLevinSEO.com</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/easy-peasy-computer-literacy">Easy Peasy Computer Literacy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

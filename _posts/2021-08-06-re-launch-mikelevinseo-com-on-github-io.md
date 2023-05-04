@@ -4,7 +4,7 @@ title: (Re)Launch MikeLevinSEO.com on Github.io
 headline: Relaunching My Blog/Journal on Github.io - Join Me on This Journey!
 description: I'm excited to announce the relaunch of my blog/journal on Github.io! After finding the DNS, deleting records, and setting up the Github repository, I enabled Github Pages, added the domain to Github settings, and customized the template. To top it off, I added Google Analytics and Search Console tracking. Come check out my new blog and join me on this journey!
 keywords: Github.io, DNS, ANAME, CNAME, Github Pages, Domain, Google Analytics, Search Console, Relaunch, Blog, Journal, Template, Customize, Tracking, Journey
-categories: google analytics, template, github pages, journey
+categories: template, google analytics, journey, github pages
 permalink: /blog/re-launch-mikelevinseo-com-on-github-io/
 layout: post
 ---
@@ -61,11 +61,11 @@ goes something like this:
 - Add the registered domain to the repo's Github settings.
 - Use layouts/default.html to customize template and add GA code.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/re-launch-mikelevinseo-com-on-github-io">(Re)Launch MikeLevinSEO.com on Github.io</a></div><div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/re-launch-mikelevinseo-com-on-github-io">(Re)Launch MikeLevinSEO.com on Github.io</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/template/'>Template</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>

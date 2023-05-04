@@ -93,7 +93,7 @@ with open("./index.md", "r") as fh:
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-blog-titles-for-filenames">Using Blog Titles for Filenames</a></div><div class="post-nav-next"><a href="/blog/how-to-control-urls-and-links-in-jekyll">How To Control URLs and Links in Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-blog-titles-for-filenames">Using Blog Titles for Filenames</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-control-urls-and-links-in-jekyll">How To Control URLs and Links in Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -55,7 +55,7 @@ https://github.com/jekyll/jekyll/issues/260
 It's not going to be a clear win, but there is some hope.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gutting-dependencies-out-of-your-projects-life">Gutting Dependencies Out Of Your Projects & Life</a></div><div class="post-nav-next"><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention">Having The Confidence To Diverge From nbdev File Naming Convention</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gutting-dependencies-out-of-your-projects-life">Gutting Dependencies Out Of Your Projects & Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention">Having The Confidence To Diverge From nbdev File Naming Convention</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

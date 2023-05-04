@@ -68,7 +68,7 @@ letting you have experience with each version Linux but to not run too many at
 once, giving both Microsoft and Linux a bad name. This may factor somewhat into
 them not (easily) allowing a Linux container system on WSL.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs">Preserving ~/.jupyter config files between WSL 2 LXD installs</a></div><div class="post-nav-next"><a href="/blog/install-script-and-start-script-for-jupyter-on-lxd-on-wsl-on-windows">Install Script and Start Script for Jupyter on LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs">Preserving ~/.jupyter config files between WSL 2 LXD installs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/install-script-and-start-script-for-jupyter-on-lxd-on-wsl-on-windows">Install Script and Start Script for Jupyter on LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

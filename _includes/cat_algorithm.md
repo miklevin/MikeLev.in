@@ -14,4 +14,4 @@
 <li><a href="/blog/data-jockeying-101/">Data Jockeying 101</a> (Thu Jan 05, 2023)
 <br/>I'm an experienced tech professional who focuses on creating small, meaningful data tricks to minimize tech liability. I prefer Python for its readability, shareability, and long-term potential. I'm currently working on a project that requires two date-ranges, and I'm using my data gathering and transformation skills to create economic value. I'm determined to stay true to myself and find a way to express my happiest self while creating economic value.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/chatbot/">Chatbot</a></div><div class="post-nav-next"><a href="/homepage/">Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/chatbot/">Chatbot</a></div> &nbsp; <div class="post-nav-next"><a href="/homepage/">Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>

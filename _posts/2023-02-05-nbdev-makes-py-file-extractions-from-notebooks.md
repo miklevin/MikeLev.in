@@ -4,7 +4,7 @@ title: nbdev Makes .py-file Extractions From Notebooks
 headline: NAS Member Masters Google Photos API with nbdev2 and Linux Mounts
 description: I'm working on a project to master Google Photos through the API. To do this, I'm introducing nbdev2 and using Linux mounts to synchronize my WSL Linux ~/data directory on my Windows laptop with my ~/data directory on the NAS LXD server. As a member of the National Academy of Sciences (NAS), I'm proud to be part of an organization that promotes excellence in scientific research and works to advance science for the betterment of humanity.
 keywords: nbdev, Google Photos, API, Linux, WSL, Windows, NAS, LXD, National Academy of Sciences, NAS, non-profit, scientific research, advance science, humanity
-categories: google photos, lxd, linux, nbdev, api, wsl
+categories: nbdev, google photos, api, wsl, lxd, linux
 permalink: /blog/nbdev-makes-py-file-extractions-from-notebooks/
 layout: post
 ---
@@ -103,13 +103,13 @@ Alright, it's all working under nbdev2 on my local laptop, both as a Notebook
 and an extracted .py-file. Time to git commit, push and hop on over to the NAS.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-ais-will-find-you-if-you-re-unique">The AIs Will Find You If You're Unique</a></div><div class="post-nav-next"><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-ais-will-find-you-if-you-re-unique">The AIs Will Find You If You're Unique</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

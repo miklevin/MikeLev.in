@@ -27,7 +27,7 @@ when people go searching on this topic.
 {% include youtubePlayer.html id="BlSiVkjUAyo" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/there-s-no-place-like-home-you-get-to-decide-where-that-is-or-do-you">There's No Place Like Home & You Get To Decide Where That Is... Or Do You?</a></div><div class="post-nav-next"><a href="/blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time">LXD on WSL2 is a Few Months Ahead Of Its Time</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/there-s-no-place-like-home-you-get-to-decide-where-that-is-or-do-you">There's No Place Like Home & You Get To Decide Where That Is... Or Do You?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time">LXD on WSL2 is a Few Months Ahead Of Its Time</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

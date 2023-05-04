@@ -16,4 +16,4 @@
 <li><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a> (Fri Apr 22, 2022)
 <br/>As a parent, I'm striving to cultivate a more positive outlook on life and be a better role model for my 11 year old. Recently, I watched a YouTube video that opened my eyes to the importance of this, and now I'm looking for more videos to help me cultivate a positivity bias. Join me on my journey to be a better role model and read my blog post for more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/evolution/">Evolution</a></div><div class="post-nav-next"><a href="/excel/">Excel</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/evolution/">Evolution</a></div> &nbsp; <div class="post-nav-next"><a href="/excel/">Excel</a><span class="arrow">&nbsp;&rarr;</span></div></div>

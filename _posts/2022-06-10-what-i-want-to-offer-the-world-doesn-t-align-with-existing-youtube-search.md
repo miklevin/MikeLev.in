@@ -4,7 +4,7 @@ title: What I Want To Offer The World Doesn't Align With Existing YouTube Search
 headline: "Offering Something New to the World: Hand and Finger Magic Tricks for Adults Aged 25-44"
 description: "I'm offering something new to the world: hand and finger magic tricks that I learned from my mailman. I'm targeting adults aged 25 to 44, and I want to help them grab skills for life. My YouTube analytics show that I have a large female audience and I'm now using my knowledge to become a pied piper of a new generation. Come join me and learn valuable knowledge that will help you future-proof your skills."
 keywords: Hand, Finger, Magic, Tricks, Mailman, Adults, 25-44, Female, Future-Proof, Skills, Knowledge, Pied Piper, New Generation
-categories: knowledge, magic, skills
+categories: magic, knowledge, skills
 permalink: /blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/
 layout: post
 ---
@@ -134,9 +134,9 @@ Magic tricks... ugh! Finger magic. Coin magic. Linux magic. vim magic.
 - vim magic
 - git magic
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/say-the-magic-words-open-terminal">Say The Magic Words: Open Terminal!</a></div><div class="post-nav-next"><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right">Remain Positive & Know Signs Of When You're Doing Something Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/say-the-magic-words-open-terminal">Say The Magic Words: Open Terminal!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right">Remain Positive & Know Signs Of When You're Doing Something Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/knowledge/'>Knowledge</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/knowledge/'>Knowledge</a></h4></li></ul>

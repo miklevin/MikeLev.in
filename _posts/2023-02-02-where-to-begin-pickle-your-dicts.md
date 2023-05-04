@@ -4,7 +4,7 @@ title: Where to Begin? Pickle Your Dicts!
 headline: Unlock the Potential of Data and Tech Skills - Create a Pipulate Server from a Windows Linux Instance
 description: This blog post invites readers to explore the possibilities of data and tech skills, providing an example of how to create a Pipulate server from a Windows Linux instance. It also dives into the appeal of tool use, and how to create a Python dictionary object and store it in a SQLite database using the SqliteDict package. Join me as I explore the potential of data and tech skills and the tools available to make them work!
 keywords: Pipulate, Windows Linux, Tool Use, Python, Dictionary, SQLite, Database, SqliteDict, Context Manager, .commit()
-categories: pipulate, database, python, sqlitedict, sqlite
+categories: python, database, pipulate, sqlitedict, sqlite
 permalink: /blog/where-to-begin-pickle-your-dicts/
 layout: post
 ---
@@ -125,12 +125,12 @@ only need know Python dicts and a bit about the ***with*** keyword in Python.
 Oh, and .commit(). You need to know about .commit().
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-google-photos-organization-program">Testing Google Photos Organization Program</a></div><div class="post-nav-next"><a href="/blog/the-crazy-old-batch-files-were-right">The Crazy Old Batch Files Were Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-google-photos-organization-program">Testing Google Photos Organization Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-crazy-old-batch-files-were-right">The Crazy Old Batch Files Were Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>
