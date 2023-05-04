@@ -41,7 +41,7 @@ turned it into the repo page for mlseo. I may have to rethink that.
 
 But don't lose momentum. Keep going! Every Little Project Gets Done... Next!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="disabling-github-ci-nbdev-install-git-hooks">Disabling Github CI nbdev_install_git_hooks</a></div><div class="post-nav-next"><a href="adding-style-sheets-to-github-pages-jekyll-blog">Adding Style Sheets to Github Pages Jekyll Blog</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disabling-github-ci-nbdev-install-git-hooks">Disabling Github CI nbdev_install_git_hooks</a></div><div class="post-nav-next"><a href="/blog/adding-style-sheets-to-github-pages-jekyll-blog">Adding Style Sheets to Github Pages Jekyll Blog</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

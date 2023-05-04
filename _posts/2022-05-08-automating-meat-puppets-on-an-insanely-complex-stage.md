@@ -88,7 +88,7 @@ vastly simplified interfaces, a sort of meat-puppet on an insanely complex
 stage.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="automating-meat-puppets-on-an-insanely-complex-stage">Automating Meat Puppets On an Insanely Complex Stage</a></div><div class="post-nav-next"><a href="an-ode-to-the-uncompressibles-linus-guido-ada-grace">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage">Automating Meat Puppets On an Insanely Complex Stage</a></div><div class="post-nav-next"><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

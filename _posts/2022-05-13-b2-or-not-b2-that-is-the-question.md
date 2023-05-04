@@ -4,7 +4,7 @@ title: ":b2 or not :b2, That Is The Question"
 headline: "Gutting My Project Pipulate: My Journey to Share Ideas Publicly"
 description: I'm sharing my thoughts and ideas publicly using slicing & dicing, Github Pages, mlseo, and blogslicer for search engine optimization. I'm determined to gut my project Pipulate and make way for it now. Join me on this journey and read my blog post to learn more.
 keywords: b2, Question, Thoughts, Ideas, Slicing, Dicing, Github Pages, mlseo, blogslicer, Search Engine Optimization, Project Pipulate, Web-Publishing, Software
-categories: mlseo, thoughts, github pages
+categories: thoughts, github pages, mlseo
 permalink: /blog/b2-or-not-b2-that-is-the-question/
 layout: post
 ---
@@ -77,9 +77,9 @@ way to this very important project.
 
 Do it now.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="b2-or-not-b2-that-is-the-question">:b2 or not :b2, That Is The Question</a></div><div class="post-nav-next"><a href="friday-the-13th-2022-kb5013624-cumulative-update-for-net">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/b2-or-not-b2-that-is-the-question">:b2 or not :b2, That Is The Question</a></div><div class="post-nav-next"><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/mlseo/'>mlseo</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Having The Confidence To Diverge From nbdev File Naming Convention
 headline: "Revamping My Content Release System: My Journey to Breaking From nbdev File Naming Conventions"
 description: I recently revamped my content release system and made changes to my .vimrc file, including replacing the blast.sh bash file with a new core.py file renamed to skite.py. Additionally, I deleted the blogslicer repo and removed it from PyPI. I'm pleased with my progress and will be writing a new article about it - come read all about my journey!
 keywords: Content Release System, .vimrc, blast.sh, bash file, core.py, skite.py, blogslicer, repo, PyPI, article, journey, progress, revising
-categories: .vimrc, pypi, journey
+categories: journey, .vimrc, pypi
 permalink: /blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/
 layout: post
 ---
@@ -45,10 +45,10 @@ blogslicer repo, and even remove it from PyPI! Wow, I should cut this journal
 entry and make that the focus of a wholly new article.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="removing-a-package-from-pypi-org-a-pip-installable-app-i-created">Removing a Package From PyPI.org (a pip installable app I created)</a></div><div class="post-nav-next"><a href="i-ll-just-put-this-in-my-usr-local-sbin">I'll Just Put This In My /usr/local/sbin/</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created">Removing a Package From PyPI.org (a pip installable app I created)</a></div><div class="post-nav-next"><a href="/blog/i-ll-just-put-this-in-my-usr-local-sbin">I'll Just Put This In My /usr/local/sbin/</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>

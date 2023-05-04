@@ -4,7 +4,7 @@ title: Tried To Start a Project
 headline: "Taking the Leap: Starting a Project and Overriding the URL-Generating System"
 description: Today I'm taking the plunge and starting a project I've been putting off - importing my MikeLev.in repo from WordPress. I'm considering giving up dates in the URLs so that blog posts look evergreen, but I'm wondering if I can selectively override the URL-generating system for individual blog posts. Join me as I take this journey and find out what happens next!
 keywords: importing, WordPress, URL, dates, folders, subfolders, evergreen, selectively override, project, journey, MikeLev.in, repo, blog posts
-categories: journey, url
+categories: url, journey
 permalink: /blog/tried-to-start-a-project/
 layout: post
 ---
@@ -35,9 +35,9 @@ something that belongs on MikeLev.in because I'm always re-googling the
 process... glob! Path!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="practicing-what-i-preach">Practicing What I Preach</a></div><div class="post-nav-next"><a href="the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew">The Walrus & The Carpenter Who Had Trouble Getting to Solla Sollew</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/practicing-what-i-preach">Practicing What I Preach</a></div><div class="post-nav-next"><a href="/blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew">The Walrus & The Carpenter Who Had Trouble Getting to Solla Sollew</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li></ul>
+<li><h4><a href='/url/'>URLs</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

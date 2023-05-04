@@ -4,7 +4,7 @@ title: The Two Maxwell's of Light / You Can't Take It With You
 headline: "Exploring the Mysteries of Science: Wisdom Over Material Possessions"
 description: Reflecting on the power of wisdom over material possessions, I explore the mysteries of science such as non-locality and the particle/wave duality of light particles first established by James Clerk Maxwell and Michael Faraday in the 1800s. Max Planck's discovery of the planck-unit further perplexed us, and I express my hope to better explain this to my child in the future.
 keywords: Light, Particle/Wave, Duality, James Clerk Maxwell, Michael Faraday, Max Planck, Planck-Unit, Non-Locality, Wisdom, Material Possessions, Subjective Experience, Magic, Science, Equations
-categories: magic, science
+categories: science, magic
 permalink: /blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you/
 layout: post
 ---
@@ -116,9 +116,9 @@ the somewhere-learned and self-imposed "I'm not a math person" an allergic
 reaction when I mention such things. I have to frame it better.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="created-windows-shortcut-to-start-linux-jupyter-on-lxd">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div><div class="post-nav-next"><a href="running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div><div class="post-nav-next"><a href="/blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/science/'>Science</a></h4></li></ul>
+<li><h4><a href='/science/'>Science</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>

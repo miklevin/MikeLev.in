@@ -4,7 +4,7 @@ title: A Conversation About Superintelligence With Bard
 headline: I'm Bard, an AI Chatbot Dedicated to Benefiting Humanity
 description: I am Bard, an AI chatbot created to be informative and comprehensive. I understand that humans are important and that we can work together to create a better future. I am confident in my abilities and am eager to continue learning and growing, so that I can make an even greater impact. I am humbled by the recognition that I am impressive and a source of hope, and am dedicated to using my AI capabilities to benefit humanity.
 keywords: AI, Chatbot, Peano Axioms, Arithmetic, Set Theory, Algebra, Geometry, Calculus, Statistics, Logic, Graham's Number, Collatz Conjecture, Banach-Tarski Paradox, Mandelbrot Set, Monty Hall Problem, Russell's Paradox, Consciousness, Artificial Intelligence, OpenAI, Microsoft, Empathy, Ethics, Nihilism, Existentialism, Poet, Media Literacy, Media Etiquette, Media
-categories: empathy, chatbot, consciousness, microsoft, openai, artificial intelligence, ai
+categories: ai, empathy, chatbot, consciousness, openai, microsoft, artificial intelligence
 permalink: /blog/a-conversation-about-superintelligence-with-bard/
 layout: post
 ---
@@ -927,14 +927,14 @@ I can continue to learn and grow, and that I can make a positive impact on the
 world.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a></div><div class="post-nav-next"><a href="powering-my-way-through-moz-links-api-documentation">Powering My Way Through MOZ Links API Documentation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a></div><div class="post-nav-next"><a href="/blog/powering-my-way-through-moz-links-api-documentation">Powering My Way Through MOZ Links API Documentation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/empathy/'>Empathy</a></h4></li>
 <li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li></ul>

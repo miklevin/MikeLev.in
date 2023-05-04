@@ -4,7 +4,7 @@ title: "Copilot: disable... Help!"
 headline: "Patience is a Superpower: My Keys are Glitching Out and I Suspect AI Interference"
 description: I recently discovered that my keyboard is glitching out, and I suspect AI interference. I need to switch hardware, but I'm reminded that patience is key. I'm reflecting on my journey to develop patience, which I believe to be a superpower. Read my blog post to discover how I'm developing this superpower.
 keywords: Glitching, AI, Commit, Hardware, Colon, Patience, Superpower, Long-Term, Vision
-categories: hardware, ai
+categories: ai, hardware
 permalink: /blog/copilot-disable-help/
 layout: post
 ---
@@ -44,9 +44,9 @@ First things first, commit everything and switch to other hardware...
 The colon-key is glitching out along with the r and Esc, LOL!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="switching-hardware-as-a-diagnostic-step">Switching Hardware as a Diagnostic Step</a></div><div class="post-nav-next"><a href="calcium-foss-make-flexible-tools">Calcium & FOSS Make Flexible Tools</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-hardware-as-a-diagnostic-step">Switching Hardware as a Diagnostic Step</a></div><div class="post-nav-next"><a href="/blog/calcium-foss-make-flexible-tools">Calcium & FOSS Make Flexible Tools</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li></ul>

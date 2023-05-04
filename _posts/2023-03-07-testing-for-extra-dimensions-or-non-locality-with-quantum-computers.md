@@ -4,7 +4,7 @@ title: Testing For Extra Dimensions Or Non-Locality With Quantum Computers
 headline: "Uncovering the Truth Behind Extra Dimensions: Testing My Hypothesis with Quantum Computers and Entangled Particles"
 description: As a physicist, I have a hypothesis about an extra dimension that allows non-local communication between puzzles. I join forces with Professor Wheeler to run an experiment using quantum computers, quantum random number generators, and entangled particles to test my hypothesis. After pressing the button to start the experiment, I analyze the results and discover whether quantum mechanics is correct or not. Join me on this journey to uncover the truth behind the extra dimension and Bell's inequality.
 keywords: Physicist, Hypothesis, Extra Dimension, Non-Local Communication, Quantum Computers, Quantum Random Number Generators, Entangled Particles, Experiment, Analysis, Results, Quantum Mechanics, Wheeler's 'It from Bit', Puzzle, Algorithm, Optimize, Riddle Calculation, Qubits, Bell's Inequality
-categories: algorithm, experiment
+categories: experiment, algorithm
 permalink: /blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/
 layout: post
 ---
@@ -184,9 +184,9 @@ Source: Conversation with Bing, 3/7/2023
     (4) [2010.01324] Superdeterminism: A Guide for the Perplexed - arXiv.org. https://arxiv.org/abs/2010.01324 Accessed 3/7/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="the-nomadic-robotic-cozy-hove-abode">The Nomadic Robotic Cozy Hove Abode</a></div><div class="post-nav-next"><a href="exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-nomadic-robotic-cozy-hove-abode">The Nomadic Robotic Cozy Hove Abode</a></div><div class="post-nav-next"><a href="/blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/experiment/'>Experiment</a></h4></li></ul>
+<li><h4><a href='/experiment/'>Experiment</a></h4></li>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>

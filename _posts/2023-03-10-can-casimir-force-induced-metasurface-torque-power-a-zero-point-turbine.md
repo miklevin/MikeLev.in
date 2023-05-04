@@ -301,7 +301,7 @@ Source: Conversation with Bing, 3/7/2023
     (5) Second law of thermodynamics | Definition, Formula, & Entropy. https://www.britannica.com/science/second-law-of-thermodynamics Accessed 3/7/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a></div><div class="post-nav-next"><a href="seeking-structured-graphics-foss">Seeking Structured Graphics FOSS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a></div><div class="post-nav-next"><a href="/blog/seeking-structured-graphics-foss">Seeking Structured Graphics FOSS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

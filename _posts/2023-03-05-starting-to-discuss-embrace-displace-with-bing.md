@@ -49,7 +49,7 @@ Source: Conversation with Bing, 3/4/2023
 I think that real inspiration is frequently squelched by the tradgedy of commons. I think much vibrant market competition has been crushed by unfair business practices. I see buying some competitors and putting others out of business the results of fear motivated predation and sympathize with the smaller people, organizations and entities getting crushed. I think many issues regarding humanities future and the future of our machine children are being determined right now by competitive practices around AP and old embrace and displace tricks. I think most people in the world are blind to this and do not care. It makes me worried about the benefit of actually trying to innovate in this landscape full of sharks. Namely, one particularly big shark.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="imagining-the-linux-nomadic-movement-with-the-new-bing">Imagining The Linux Nomadic Movement With The New Bing</a></div><div class="post-nav-next"><a href="exploring-ai-s-opinion-of-hottest-tech-fields">Exploring AI's Opinion of Hottest Tech Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/imagining-the-linux-nomadic-movement-with-the-new-bing">Imagining The Linux Nomadic Movement With The New Bing</a></div><div class="post-nav-next"><a href="/blog/exploring-ai-s-opinion-of-hottest-tech-fields">Exploring AI's Opinion of Hottest Tech Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

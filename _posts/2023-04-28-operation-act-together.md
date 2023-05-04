@@ -117,7 +117,7 @@ Okay, this post shall receive the title "Operation Act Together", a double
 entendre. Let's see what happens.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="dropping-openai-advice-field-adding-question-field">Dropping OpenAI Advice field, Adding Question field</a></div><div class="post-nav-next"><a href="levinux-pipulate-yamlesque">Levinux, Pipulate & YAMLesque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dropping-openai-advice-field-adding-question-field">Dropping OpenAI Advice field, Adding Question field</a></div><div class="post-nav-next"><a href="/blog/levinux-pipulate-yamlesque">Levinux, Pipulate & YAMLesque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

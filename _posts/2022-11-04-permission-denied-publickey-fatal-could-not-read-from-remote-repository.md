@@ -95,7 +95,7 @@ may be one simple command.
 {% include youtubePlayer.html id="MLV8X0PPllI" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="joining-data-between-spreadsheet-tabs-better-than-vlookup">Joining Data Between Spreadsheet Tabs Better Than VLookup</a></div><div class="post-nav-next"><a href="powering-my-way-through-3-different-data-automation-projects">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-data-between-spreadsheet-tabs-better-than-vlookup">Joining Data Between Spreadsheet Tabs Better Than VLookup</a></div><div class="post-nav-next"><a href="/blog/powering-my-way-through-3-different-data-automation-projects">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -91,7 +91,7 @@ run_console() to run_local_server(). It's a small miracle it works in the Linux
 JupyterLab across WSL. Wow.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="an-essay-on-modern-seo-a-call-to-pipulate">An Essay on Modern SEO. A Call to Pipulate.</a></div><div class="post-nav-next"><a href="a-place-to-put-things">A Place to Put Things</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-essay-on-modern-seo-a-call-to-pipulate">An Essay on Modern SEO. A Call to Pipulate.</a></div><div class="post-nav-next"><a href="/blog/a-place-to-put-things">A Place to Put Things</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

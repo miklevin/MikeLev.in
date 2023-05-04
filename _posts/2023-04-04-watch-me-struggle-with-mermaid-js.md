@@ -132,7 +132,7 @@ I did a bunch of experimenting and instead of changing colors on in Mermaid
 diagrams, I just change the background to white and lean into the defaults.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="a-mike-levin-seo-vanity-search-test-w-bing-bard">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a></div><div class="post-nav-next"><a href="hello-world-and-life-is-worth-it">Hello World and Life is Worth It 🦋!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-mike-levin-seo-vanity-search-test-w-bing-bard">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a></div><div class="post-nav-next"><a href="/blog/hello-world-and-life-is-worth-it">Hello World and Life is Worth It 🦋!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Refresh Your Mind With The LXD API
 headline: "Refreshing My Mind with LXD API: My Journey Back to NYC"
 description: Recently, I moved back to New York City and have been struggling both emotionally and financially. To thrive in tomorrow's world, I'm learning the LXD API to create containers and refresh my mind. With the lxc command, I can easily create a new container, even adding a user and password if I want. I'm amazed at how quickly I can create a container, and can't wait to see what the future holds.
 keywords: LXD API, Container, lxc command, New York City, Emotional, Financial, Thrive, Tomorrow's World, User, Password, Create, Easily, Future
-categories: container, new york city, future
+categories: new york city, future, container
 permalink: /blog/refresh-your-mind-with-the-lxd-api/
 layout: post
 ---
@@ -76,10 +76,10 @@ Wow, that's eerie cool how easy it is to slam out a new container.
 They don't even have a default python!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div><div class="post-nav-next"><a href="fairly-certain-i-had-a-brush-with-catknappers">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div><div class="post-nav-next"><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li></ul>
+<li><h4><a href='/future/'>Future</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li></ul>

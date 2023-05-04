@@ -4,7 +4,7 @@ title: Slicing & Dicing Single File to Jekyll Blog Posts
 headline: Refining My Journey of Slicing & Dicing a Single File into Jekyll Blog Posts
 description: "I recently livestreamed a project where I was slicing and dicing a single long journal file into separate files. I used debugging messages and headlines to provide a hierarchy, pre-processed titles into slugs, and added frontmatter and `_config.yml` file. Join me as I share my journey of refining the project and the challenges I faced along the way."
 keywords: Slicing, Dicing, Single File, Jekyll, Blog Posts, Debugging Messages, Headlines, Hierarchy, Pre-Processing, Titles, Slugs, Frontmatter, _config.yml
-categories: jekyll, headlines
+categories: headlines, jekyll
 permalink: /blog/slicing-dicing-single-file-to-jekyll-blog-posts/
 layout: post
 ---
@@ -57,7 +57,7 @@ changes. But these things have no headlines. Fix that, but make them optional.
 You have a system now that creates a very nice default URL /blog/post-n/
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="slicing-dicing-single-file-to-jekyll-blog-posts">Slicing & Dicing Single File to Jekyll Blog Posts</a></div><div class="post-nav-next"><a href="why-programming-is-easy-but-math-is-hard">Why Programming Is Easy But Math Is Hard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/slicing-dicing-single-file-to-jekyll-blog-posts">Slicing & Dicing Single File to Jekyll Blog Posts</a></div><div class="post-nav-next"><a href="/blog/why-programming-is-easy-but-math-is-hard">Why Programming Is Easy But Math Is Hard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

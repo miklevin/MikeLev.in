@@ -4,7 +4,7 @@ title: Jekyll include tags for Github.io YouTube Embedding
 headline: Developing Habits to Become an Expert in Technical Moves and Live-Streaming
 description: I'm developing new habits to become an expert in technical moves and live-streaming. To make sure nothing proprietary is shared, I'm setting up hotkeys and testing embedding YouTube videos in my Github.io pages. I'm also creating mikelevinseo.com as a place to write about topics instead of my main journal. Click through to read more about my journey.
 keywords: Github.io, YouTube, Embedding, Habits, Technical Moves, Live-Streaming, Hotkeys, Proprietary, Writing, Topics, Journal, Streaming, Publishing
-categories: habits, publishing, youtube, proprietary
+categories: youtube, publishing, proprietary, habits
 permalink: /blog/jekyll-include-tags-for-github-io-youtube-embedding/
 layout: post
 ---
@@ -58,10 +58,10 @@ That's "before" and that's after.
 
 Okay, done. Onto main work!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="jekyll-include-tags-for-github-io-youtube-embedding">Jekyll include tags for Github.io YouTube Embedding</a></div><div class="post-nav-next"><a href="re-launch-mikelevinseo-com-on-github-io">(Re)Launch MikeLevinSEO.com on Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding">Jekyll include tags for Github.io YouTube Embedding</a></div><div class="post-nav-next"><a href="/blog/re-launch-mikelevinseo-com-on-github-io">(Re)Launch MikeLevinSEO.com on Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li></ul>

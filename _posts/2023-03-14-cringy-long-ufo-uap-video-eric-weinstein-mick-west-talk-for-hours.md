@@ -155,7 +155,7 @@ renouncing of the topic. Take the bunk out of being a skeptic. Mick gets
 defensive. Emotional affect! Ha!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="bing-reads-my-machine-learning-general-license-writes-haiku-about-me">Bing Reads My Machine Learning General License & Writes Haiku About Me</a></div><div class="post-nav-next"><a href="how-to-learn-machine-learning-with-a-fastai-hello-world-program">How To Learn Machine Learning With a FastAI Hello World Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me">Bing Reads My Machine Learning General License & Writes Haiku About Me</a></div><div class="post-nav-next"><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program">How To Learn Machine Learning With a FastAI Hello World Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

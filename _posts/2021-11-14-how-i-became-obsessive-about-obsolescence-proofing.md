@@ -82,7 +82,7 @@ fool-me-once won't get fooled again attitude. I was 40. It was 2010. I was
 losing altitude, terrified and motivated.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="how-i-became-obsessive-about-obsolescence-proofing">How I Became Obsessive About Obsolescence-Proofing</a></div><div class="post-nav-next"><a href="struggling-through-github-pages-startup-process">Struggling Through Github Pages Startup Process</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-i-became-obsessive-about-obsolescence-proofing">How I Became Obsessive About Obsolescence-Proofing</a></div><div class="post-nav-next"><a href="/blog/struggling-through-github-pages-startup-process">Struggling Through Github Pages Startup Process</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Automatically Log Into MOZ Pro with Playwright Browser Automation
 headline: Automate Your MOZ Pro Logins with Playwright Browser Automation
 description: This blog post will walk you through using Microsoft Playwright's browser automation software to automatically log into MOZ Pro and download Keyword Explorer data for each subdomain. Using asynchronous mode and my standard Chrome automation template, I am logging into the MOZ Pro website and using the Keyword Explorer feature to pull keywords from a given site with the help of the async Python library. Read on to learn how to automate this process.
 keywords: Automation, Playwright, Browser, Microsoft, MOZ Pro, Keyword Explorer, Asynchronous, Chrome, Python, Jupyter Notebook, Competitors, Site, Close
-categories: jupyter notebook, python, automation, chrome, moz pro, microsoft
+categories: chrome, moz pro, python, jupyter notebook, automation, microsoft
 permalink: /blog/automatically-log-into-moz-pro-with-playwright-browser-automation/
 layout: post
 ---
@@ -177,13 +177,13 @@ The following blog posts will expand on this to actually use the Keyword
 Explorer to download the keyword list for each competitor site.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="a-script-to-pull-keywords-from-moz-pro-keyword-research-ranking-keywords">A Script To Pull Keywords From MOZ Pro Keyword Research Ranking Keywords</a></div><div class="post-nav-next"><a href="finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-script-to-pull-keywords-from-moz-pro-keyword-research-ranking-keywords">A Script To Pull Keywords From MOZ Pro Keyword Research Ranking Keywords</a></div><div class="post-nav-next"><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

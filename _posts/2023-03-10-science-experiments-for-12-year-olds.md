@@ -131,7 +131,7 @@ Source: Conversation with Bing, 3/11/2023
     (4) The 15 Best Science Toys of 2023 - The Spruce. https://www.thespruce.com/best-science-toys-4150533 Accessed 3/11/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="most-motivating-opening-in-tv-history">Most Motivating Opening In TV History</a></div><div class="post-nav-next"><a href="proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/most-motivating-opening-in-tv-history">Most Motivating Opening In TV History</a></div><div class="post-nav-next"><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

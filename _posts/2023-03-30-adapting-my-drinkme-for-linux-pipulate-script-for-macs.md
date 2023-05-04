@@ -4,7 +4,7 @@ title: Adapting My DrinkMe for Linux Pipulate Script for Macs
 headline: Adapting My Linux Pipulate Script for Macs with MultiPass and mDNS
 description: I'm adapting my DrinkMe Linux Pipulate Script for Macs, so I'm using a Linux VM on a Mac for the most precise code execution. To make this easy, I'm using Canonical's MultiPass, which turns on virtualization and sets up a working instance of Ubuntu. I'm also using Apple Bonjour's mDNS to map host ports to the VM ports, and I've updated the install script to ensure Linux graphics work in headful mode.
 keywords: Macs, Linux, VM, Canonical, MultiPass, Ubuntu, mDNS, headful, Dev Revolution, Unix, Proprietary, Debian, Virtual Machine, Persistent, Transferable, Tech Knowledge
-categories: linux, ubuntu, macs, proprietary, unix
+categories: unix, linux, ubuntu, macs, proprietary
 permalink: /blog/adapting-my-drinkme-for-linux-pipulate-script-for-macs/
 layout: post
 ---
@@ -318,11 +318,11 @@ Debian-derivative Linux VMs are the least worst evil. They abide by the
 transferable valuable tech knowledge, yadda, yadda, already said it.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="live-streaming-with-github-copilot-in-neovim-for-motivation">Live-streaming With Github Copilot in NeoVim for Motivation</a></div><div class="post-nav-next"><a href="what-are-the-main-differences-between-neovim-and-vim">What are the main differences between NeoVim and vim?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/live-streaming-with-github-copilot-in-neovim-for-motivation">Live-streaming With Github Copilot in NeoVim for Motivation</a></div><div class="post-nav-next"><a href="/blog/what-are-the-main-differences-between-neovim-and-vim">What are the main differences between NeoVim and vim?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li></ul>

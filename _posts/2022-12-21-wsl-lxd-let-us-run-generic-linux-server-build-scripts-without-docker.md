@@ -36,7 +36,7 @@ leads to nice little Linux servers running in the background right on your
 Windows laptop that you can get in and hack.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="a-place-to-put-things">A Place to Put Things</a></div><div class="post-nav-next"><a href="google-sheets-api-python-example">Google Sheets API Python Example</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-place-to-put-things">A Place to Put Things</a></div><div class="post-nav-next"><a href="/blog/google-sheets-api-python-example">Google Sheets API Python Example</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

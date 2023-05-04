@@ -4,7 +4,7 @@ title: Added Support for Arbitrary Jekyll YAML Fields
 headline: I Improved my Code and Gained More Control Over My Blog Posts
 description: "Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code."
 keywords: Jekyll, YAML, Rebase, Drafts, Publishing, Status, Front Matter, Unpublished, List Comprehension, Filtering, Fields, Processing, Data Structure, OpenAI, Writing, Calculating, Customizations, Release, Blog Post, Unpublishing
-categories: jekyll, publishing, yaml, openai, fields
+categories: fields, publishing, yaml, openai, jekyll
 permalink: /blog/added-support-for-arbitrary-jekyll-yaml-fields/
 layout: post
 ---
@@ -29,67 +29,7 @@ OpenAI, but which I calculate and layer in. That's mostly just the categories
 field right now.
 
 Ah! A chance to improve the core yamlchop function! Wow, that really just
-amounted to cleaning up yaml_chop(). Here's a before and after:
-
-## Before
-
-```python
-def yaml_chop():
-    # __   __ _    __  __ _     |  ____ _                  _  _  _
-    # \ \ / // \  |  \/  | |    | / ___| |__   ___  _ __  | || || |
-    #  \ V // _ \ | |\/| | |    || |   | '_ \ / _ \| '_ \ | || || |
-    #   | |/ ___ \| |  | | |___ || |___| | | | (_) | |_) ||_||_||_|
-    #   |_/_/   \_\_|  |_|_____|| \____|_| |_|\___/| .__/ (_)(_)(_)
-    fig("Chop the YAML!")  #    |                  |_|
-    """Chop a YAMLesque text-file into the individual text-files (posts) it implies."""
-    for i, (fm, body, combined) in enumerate(yaml_generator(YAMLESQUE)):
-        if fm and isinstance(fm, dict) and len(fm) > 2:
-            title = fm["title"]
-            stem = slugify(title)
-            if (i + 1) % 10 == 0:
-                print(f"{i+1} ", end="", flush=True)
-            adate = fm["date"]
-            description = sq(fm["description"])
-            headline = sq(fm["headline"])
-            keywords = sq(fm["keywords"])
-            keyword_list = keywords.split(", ")
-            categories = set()
-            top_cats = get_top_cats()
-            for keyword in keyword_list:
-                keyword = keyword.lower()
-                if keyword in top_cats:
-                    categories.add(keyword)
-            categories = ", ".join(categories)
-            permalink = f"{BLOG}{stem}/"
-            date_object = datetime.strptime(adate, "%a %b %d, %Y")
-            adate = date_object.strftime("%Y-%m-%d")
-            filename = f"{OUTPUT_PATH}/{adate}-{stem}.md"
-            with open(filename, "w", encoding="utf-8") as fh:
-                fh.write(
-                    f"""---
-date: {adate}
-title: {sq(title)}
-permalink: {permalink}
-headline: {sq(headline)}
-description: {sq(description)}
-keywords: {sq(keywords)}
-categories: {sq(categories)}
-layout: post
-[tripple-hypen]"""
-                )
-                fh.write(body)
-                fh.write("## Categories\n")
-                fh.write("\n<ul>")
-                for asubcat in categories.split(", "):
-                    asubcat = asubcat.strip().lower()
-                    if asubcat in top_cats:
-                        fh.write(f"\n<li><h4><a href='/{slugify(asubcat)}/'>{cdict[asubcat]['title']}</a></h4></li>")
-                fh.write("</ul>")
-                # fh.write("\n{% include category_list.md %}")
-    print("chopped!")
-```
-
-## After
+amounted to cleaning up yaml_chop(). Here's the new code:
 
 ```python
 def yaml_chop():
@@ -192,11 +132,11 @@ post becomes unpublished and what it does to the arrows.
 
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;</span></div><div class="post-nav-next"><a href="why-markdown-why-yaml-why-they-re-great-together">Why Markdown? Why YAML? Why They're Great Together!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;</span></div><div class="post-nav-next"><a href="/blog/why-markdown-why-yaml-why-they-re-great-together">Why Markdown? Why YAML? Why They're Great Together!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/publishing/'>Publishing</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Start Learning Linux by Learning About What Pissed Off Fernando Corbato
 headline: Discover How I Changed the World of Computing with Linux
 description: As a frustrated MIT student in the 1950s, I was determined to create a time-sharing system that was accessible to all. After a series of events, I eventually created Linux, a revolutionary operating system that allowed for standard out to standard in, treated everything like a read. Join me on a journey to discover how this summer project changed the world of computing.
 keywords: Fernando Corbato, MIT, 1950s, Time-Sharing System, Multics, UNIX, Linux, Operating System, Standard Out, Standard In, Read, Ken Thompson, Bell Labs, Custody Battle, Linux Torvalds, Summer Project
-categories: linux, unix
+categories: unix, linux
 permalink: /blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/
 layout: post
 ---
@@ -31,9 +31,9 @@ so he did. And any idea of learning a "graphical desktop" as anything having to
 do with Linux (even GNOME, KDE or xcfe) has the entirely wrong idea.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="learning-linux-lesson-2-run-run-it-from-cli">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div><div class="post-nav-next"><a href="go-for-broke-connecting-the-dots">Go For Broke Connecting The Dots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div><div class="post-nav-next"><a href="/blog/go-for-broke-connecting-the-dots">Go For Broke Connecting The Dots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

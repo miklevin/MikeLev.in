@@ -108,7 +108,7 @@ mistake the first go-around but it's very hard to not get infatuated by
 graphics and hardware.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="are-you-an-imposter-have-you-heard-of-imposter-syndrome">Are You An Imposter? Have You Heard of Imposter Syndrome?</a></div><div class="post-nav-next"><a href="python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome">Are You An Imposter? Have You Heard of Imposter Syndrome?</a></div><div class="post-nav-next"><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools">Python Playwright CodeGen and Playwright Inspector Tools</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

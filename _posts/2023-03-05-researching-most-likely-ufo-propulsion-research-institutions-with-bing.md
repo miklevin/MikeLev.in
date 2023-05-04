@@ -206,7 +206,7 @@ Source: Conversation with Bing, 3/5/2023
     https://researchguides.uic.edu/physics Accessed 3/5/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing">Researching Most Credible Voices In UFO / UAP Space With The New Bing</a></div><div class="post-nav-next"><a href="asking-ai-about-arrokoth-fravor-mind-reading">Asking AI About Arrokoth, Fravor & Mind Reading</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing">Researching Most Credible Voices In UFO / UAP Space With The New Bing</a></div><div class="post-nav-next"><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading">Asking AI About Arrokoth, Fravor & Mind Reading</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

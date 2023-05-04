@@ -26,7 +26,7 @@ Any single video can do the job. Plan the message (title) and the thumbnail
 beforehand.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="recovering-old-laptops-for-video-production-purposes">Recovering Old Laptops For Video Production Purposes</a></div><div class="post-nav-next"><a href="the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recovering-old-laptops-for-video-production-purposes">Recovering Old Laptops For Video Production Purposes</a></div><div class="post-nav-next"><a href="/blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

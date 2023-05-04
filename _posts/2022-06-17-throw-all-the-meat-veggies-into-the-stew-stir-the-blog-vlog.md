@@ -4,7 +4,7 @@ title: Throw All The Meat & Veggies Into The Stew & Stir The Blog / Vlog
 headline: "Unlocking Efficiency: How Downgrading Ubuntu & Adding Sites Streamlined My Workflow"
 description: I recently wrote a blog post about my experience with downgrading Ubuntu 20.04 to 18.04 so I could use LXD Linux containers on WSL Windows Subsystem for Linux. To make my workflow more efficient, I created a vim keyboard macro that generates the site I'm editing and added sites to sites.csv in the skite repo. Read my blog post to find out how this game-changing experience helped me streamline my workflow.
 keywords: Downgrading, Ubuntu, 20.04, 18.04, LXD, Linux, Containers, WSL, Windows, Subsystem, Vim, Keyboard, Macro, Generates, Site, Editing, Sites.csv, Skite, Repo, Technical, Content, MikeLevinSEO.com, Personal, Blog, Streamline, Workflow, Game-Changing, Experience
-categories: vim, linux, wsl, macro, lxd, ubuntu, containers, 20.04
+categories: linux, containers, 20.04, wsl, vim, macro, ubuntu, lxd
 permalink: /blog/throw-all-the-meat-veggies-into-the-stew-stir-the-blog-vlog/
 layout: post
 ---
@@ -49,14 +49,14 @@ need some figlet output! I started out thinking I would need a bash script
 wrapper. I don't! Oh boy, okay.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="education-of-the-woogle-bug">Education Of The Woogle Bug</a></div><div class="post-nav-next"><a href="the-epic-nbdev-static-site-generator-post">The Epic nbdev Static Site Generator Post</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/education-of-the-woogle-bug">Education Of The Woogle Bug</a></div><div class="post-nav-next"><a href="/blog/the-epic-nbdev-static-site-generator-post">The Epic nbdev Static Site Generator Post</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/20-04/'>20.04</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

@@ -219,7 +219,7 @@ Wow, it looks great. Okay allow the git push to occur. Give this a title. Pull
 the ripcord.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="starting-a-new-blogging-system-create-a-title-field-under-date-to-release">Starting a New Blogging System (create a title field under date to release)</a></div><div class="post-nav-next"><a href="planning-on-adding-front-matter-support-to-journal-entries">Planning on Adding Front Matter Support to Journal Entries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release">Starting a New Blogging System (create a title field under date to release)</a></div><div class="post-nav-next"><a href="/blog/planning-on-adding-front-matter-support-to-journal-entries">Planning on Adding Front Matter Support to Journal Entries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

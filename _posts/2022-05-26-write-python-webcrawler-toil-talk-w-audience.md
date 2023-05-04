@@ -4,7 +4,7 @@ title: Write Python Webcrawler! Toil & Talk w/Audience
 headline: "Explore Programming with a Tech Samurai: Writing a Python Webcrawler & Comparing Languages"
 description: As a professional programmer, I'm exploring the world of webcrawling with Python. I'll discuss how to avoid recursion and use iteration, as well as key-value data-stores, Python context managers, user agents, and the DRY principle. I'll also compare Python to other languages like RUST, and discuss the challenges of being a programmer in the digital age. Join me as I explore the world of programming and share my secret weapons as a tech Samurai!
 keywords: Python, Webcrawler, Iteration, Key-Value Data-Store, Python Context Manager, User Agent, DRY Principle, RUST, Programming, Communication, High Standards, 24/7 Availability, Generalist, Marketing, Secret Weapons, Samurai Warrior
-categories: marketing, python
+categories: python, marketing
 permalink: /blog/write-python-webcrawler-toil-talk-w-audience/
 layout: post
 ---
@@ -399,9 +399,9 @@ Especially the titles tags!
 Github Pages Jekyll system... and my blog slice & dice system.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="trying-to-get-python-sbin-commands-from-nbdev">Trying to get Python sbin commands from nbdev</a></div><div class="post-nav-next"><a href="python-seo-step-1-persistent-dictionaries">Python SEO Step #1: Persistent Dictionaries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/trying-to-get-python-sbin-commands-from-nbdev">Trying to get Python sbin commands from nbdev</a></div><div class="post-nav-next"><a href="/blog/python-seo-step-1-persistent-dictionaries">Python SEO Step #1: Persistent Dictionaries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>

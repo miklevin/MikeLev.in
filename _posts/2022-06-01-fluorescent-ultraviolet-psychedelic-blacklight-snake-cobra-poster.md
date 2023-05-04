@@ -45,7 +45,7 @@ our asses from the Nazi's, but we got to watch Indiana Jones.
 ![Coming Of Age Movies Planning Movie Night For The Kid](/assets/images/coming-of-age-movies-planning-movie-night-for-the-kid.png)
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="how-emdr-lives-between-tetris-therapy-and-psychotherapy">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a></div><div class="post-nav-next"><a href="what-to-do-how-to-always-be-doing-step">What To Do? How To Always Be Doing Step</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a></div><div class="post-nav-next"><a href="/blog/what-to-do-how-to-always-be-doing-step">What To Do? How To Always Be Doing Step</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

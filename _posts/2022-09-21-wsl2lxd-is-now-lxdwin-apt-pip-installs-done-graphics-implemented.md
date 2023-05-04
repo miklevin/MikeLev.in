@@ -4,7 +4,7 @@ title: WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.
 headline: "Reigniting the Fire: I'm on my Third Great-Twenty-Eight and Nailing It with lxdwin!"
 description: I'm feeling productive this morning and I'm on my third great-twenty-eight. I used an open-minded craftsperson's approach to tool selection and use, and after running install.bat, apt_installs.sh, and requirements.txt, I debugged a script and did a full reboot. I'm happy to say I think I nailed it and renamed the repo to lxdwin. Read my blog post to find out more!
 keywords: "WSL2LXD, lxdwin, Apt, Pip, Installs, Graphics, Implemented, Productive, Third Great-Twenty-Eight, Open-Minded Craftsperson's Approach, Tool Selection, Use, Install.bat, Apt_Installs.sh, Requirements.txt, Debugging, Script, Full Reboot, Nailed, Repo, Renamed, Blog Post, 7:00 AM"
-categories: graphics, script
+categories: script, graphics
 permalink: /blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/
 layout: post
 ---
@@ -47,7 +47,7 @@ Wow, I think I have it. Doing full reboot.
 I think I nailed it.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="google-chrome-for-linux-under-lxd-on-wsl-on-windows">Google Chrome for Linux Under LXD on WSL on Windows</a></div><div class="post-nav-next"><a href="windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows">Google Chrome for Linux Under LXD on WSL on Windows</a></div><div class="post-nav-next"><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

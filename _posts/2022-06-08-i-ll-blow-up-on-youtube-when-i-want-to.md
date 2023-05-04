@@ -78,7 +78,7 @@ blow up on YouTube despite all the polishistas. The world just might be ready
 for me. I feel twitches in the web.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="do-the-right-thing-morally-spiritually-technically">Do The Right Thing Morally, Spiritually & Technically</a></div><div class="post-nav-next"><a href="is-there-anyone-cheesier-than-whitney-avalon">Is There Anyone Cheesier Than Whitney Avalon?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-the-right-thing-morally-spiritually-technically">Do The Right Thing Morally, Spiritually & Technically</a></div><div class="post-nav-next"><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon">Is There Anyone Cheesier Than Whitney Avalon?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

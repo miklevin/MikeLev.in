@@ -24,7 +24,7 @@ money they're making off of you.
 AI is the ultimate SEO.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="planning-multiple-blogs-within-one-github-pages-site">Planning Multiple Blogs Within One Github Pages Site</a></div><div class="post-nav-next"><a href="this-is-where-i-reversed-the-ascii-rabbit">This Is Where I Reversed The ASCII Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-multiple-blogs-within-one-github-pages-site">Planning Multiple Blogs Within One Github Pages Site</a></div><div class="post-nav-next"><a href="/blog/this-is-where-i-reversed-the-ascii-rabbit">This Is Where I Reversed The ASCII Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

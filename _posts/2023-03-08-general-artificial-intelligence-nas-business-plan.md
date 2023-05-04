@@ -465,7 +465,7 @@ GAIA NAS is more than just a storage device. It's a smart device that can improv
 GAIA NAS: Your personal cloud with a heart.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="my-first-moz-programming-project-will-be-emailed-screenshots">My First MOZ Programming Project Will Be Emailed Screenshots</a></div><div class="post-nav-next"><a href="logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-first-moz-programming-project-will-be-emailed-screenshots">My First MOZ Programming Project Will Be Emailed Screenshots</a></div><div class="post-nav-next"><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

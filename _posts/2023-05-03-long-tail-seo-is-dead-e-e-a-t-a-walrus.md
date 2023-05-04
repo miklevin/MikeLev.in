@@ -4,7 +4,7 @@ title: Long-Tail SEO is Dead. E-E-A-T a Walrus.
 headline: "E-E-A-T: A Walrus's Guide to Protecting Your Sanity from Those Who Would Undo It"
 description: As an experienced SEO, I've seen the effectiveness of long-tail SEO decline due to the tragedy of the commons. To break into the industry, we must figure out how to emit signals indicating Experience, Authority and Trustworthiness to convince Google you're Expert (E-E-A-T). Learn from Lewis Carroll's timeless stories and protect your sanity from those who would undo it. Don't covet the generational wealth of the Walrus family - use your own hammer to build your own kingdom.
 keywords: SEO, E-E-A-T, Alice in Wonderland, Wizard of Oz, long-tail SEO, easy tricks, exact-match keyword, emit signals, influencer, morning joe, streaming services, audibles, kindle books, quantum physics, personality types, AI-generated content, deep fakes, polarized people, bad actors, Alice's Adventures in Wonderland, Wizard of Oz, coming-of-age stories, fantasy, nonsense, Mississippi River, N-word language, Disney movie, Lewis Carroll, Alice, Dorothy, Oz, quantum
-categories: seo, quantum
+categories: quantum, seo
 permalink: /blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/
 layout: post
 ---
@@ -152,9 +152,9 @@ My E-E-A-T (Experience, Expertise, Authority, Trust) should be teaching folks
 how to use a hammer that can not be taken away from you, so you can never be
 eaten like an oyster.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="an-ode-to-the-status-quo">An Ode to The Status Quo</a></div><div class="post-nav-next"><a href="rappelling-down-the-rabbit-hole-x-marks-the-spot">Rappelling Down the Rabbit Hole, X-Marks The Spot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-to-the-status-quo">An Ode to The Status Quo</a></div><div class="post-nav-next"><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot">Rappelling Down the Rabbit Hole, X-Marks The Spot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

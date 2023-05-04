@@ -4,7 +4,7 @@ title: Google Sheets API Python Example
 headline: Populate Data Into a Google Spreadsheet with the Google Sheets API and Python
 description: "Learn how to use the Google Sheets API and Python to populate data into a Google Spreadsheet. This project will use the Google APIs released with GA4 and the URL https://developers.google.com/sheets/api/guides/concepts to connect to Google Sheets and capture an easy-to-read example of reading and writing. Follow my step-by-step guide to learn how to do this!"
 keywords: Google Sheets API, Python, GA4, Reading, Writing, Populate Data, Google Spreadsheet, Tutorial, Step-by-Step Guide
-categories: tutorial, python
+categories: python, tutorial
 permalink: /blog/google-sheets-api-python-example/
 layout: post
 ---
@@ -100,9 +100,9 @@ ranges = result.get("valueRanges", [])
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a></div><div class="post-nav-next"><a href="are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a></div><div class="post-nav-next"><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>

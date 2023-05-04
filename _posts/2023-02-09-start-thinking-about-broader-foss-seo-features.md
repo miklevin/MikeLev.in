@@ -4,7 +4,7 @@ title: Start Thinking About Broader FOSS SEO Features
 headline: "Exploring FOSS SEO Features: My Journey to Joining Moz"
 description: I'm excited to join Moz, a search engine optimization company, as an online personality. I'm looking to create 'junior versions' of products that could be Moz products, or better deliverables when mashed-up with a Moz API. I'm also exploring products like AlsoAsk, which uses Google Suggest to create a visual representation of relationships. Come read my blog post to learn more about my journey and the exciting opportunities ahead!
 keywords: FOSS, SEO, Moz, Online Personality, Products, Google Suggest, Visualization, Relationships, Deliverables, API, Junior Versions, AlsoAsk
-categories: api, moz, seo
+categories: seo, moz, api
 permalink: /blog/start-thinking-about-broader-foss-seo-features/
 layout: post
 ---
@@ -36,10 +36,10 @@ visualization of relationships. I do this already in non-visual Python scripts
 and Excel. That kind of stuff could go easily into a FOSS product.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="unix-linux-won-are-now-the-rules-of-the-road">Unix/Linux Won & Are Now The Rules of The Road</a></div><div class="post-nav-next"><a href="hey-ai-give-me-credit-consent-compensation">Hey AI: Give Me Credit, Consent & Compensation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/unix-linux-won-are-now-the-rules-of-the-road">Unix/Linux Won & Are Now The Rules of The Road</a></div><div class="post-nav-next"><a href="/blog/hey-ai-give-me-credit-consent-compensation">Hey AI: Give Me Credit, Consent & Compensation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li></ul>

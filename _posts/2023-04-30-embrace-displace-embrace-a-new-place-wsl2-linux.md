@@ -4,7 +4,7 @@ title: "Embrace & Displace --&gt; Embrace a New Place (WSL2 Linux)"
 headline: Discover the Timeless Technology of the Linux World and Embrace a New Place!
 description: In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.
 keywords: Microsoft, Embrace & Displace, Linux, WSL2, vi, vim, NeoVim, Powerpoint, Google Slides, Decks, Markdown, Web, Internet, AI, OpenAI, UI, Support, Availability, Game Market, Hardware, Word Processing, WordPerfect, Money, Intuit Quicken, Cloud, AWS, Unix, Subsystem, Text Editing, Dependency, Love-worthy, WYSIWYG, GitHub, Anxiety, Manual Work
-categories: vim, dependency, linux, wsl2, microsoft, internet, openai, hardware, neovim, github, unix, ai
+categories: unix, linux, ai, github, vim, hardware, openai, neovim, microsoft, internet, dependency, wsl2
 permalink: /blog/embrace-displace-embrace-a-new-place-wsl2-linux/
 layout: post
 ---
@@ -176,19 +176,19 @@ you. They are timeless. They are the foundation of all information technology.
 
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="1-text-file-journal-for-life-as-important-as-formal-education">1 Text-file Journal For Life as Important as Formal Education</a></div><div class="post-nav-next"><a href="re-railing-yourself-after-getting-derailed-in-life">Re-Railing Yourself After Getting Derailed In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education">1 Text-file Journal For Life as Important as Formal Education</a></div><div class="post-nav-next"><a href="/blog/re-railing-yourself-after-getting-derailed-in-life">Re-Railing Yourself After Getting Derailed In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/internet/'>Internet</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>

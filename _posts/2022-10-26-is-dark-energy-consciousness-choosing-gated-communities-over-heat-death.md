@@ -202,7 +202,7 @@ geogalactic stability in light of the blight.
 Hmmmm.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="reversing-desensitization-and-dehumanization">Reversing Desensitization And Dehumanization</a></div><div class="post-nav-next"><a href="how-do-i-not-have-a-portable-power-station-already">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reversing-desensitization-and-dehumanization">Reversing Desensitization And Dehumanization</a></div><div class="post-nav-next"><a href="/blog/how-do-i-not-have-a-portable-power-station-already">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

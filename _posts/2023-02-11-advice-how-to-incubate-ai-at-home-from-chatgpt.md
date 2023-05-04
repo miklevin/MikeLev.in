@@ -4,7 +4,7 @@ title: Advice How to Incubate AI at Home From ChatGPT
 headline: Exploring the Possibilities of AI with Ray Kurzweil and ChatGPT
 description: As a reader of the Culture series, I'm impressed by its intricate world-building, thought-provoking storytelling, and exploration of complex political and ethical dilemmas. I'm also intrigued by the predictions of Ray Kurzweil, a well-known futurist and technology expert, about the future of artificial intelligence. ChatGPT, an AI language model, provides helpful and conversational answers and recommends science fiction books that explore this future.
 keywords: AI, ChatGPT, Ray Kurzweil, Futurist, Technology Expert, Artificial Intelligence, Machine Learning, Text-to-Speech, Optical Character Recognition, Musical Synthesis, Consciousness, Pattern Recognition, Lifelong Learning, Transferable Skills, Creativity, Emotional Intelligence, Empathy, Compassion, Culture Series, World-Building, Storytelling, Political Dilemmas, Ethical Dilemmas, Consciousness, Existence, Technology Limits
-categories: empathy, machine learning, chatgpt, consciousness, artificial intelligence, ai
+categories: chatgpt, ai, empathy, consciousness, machine learning, artificial intelligence
 permalink: /blog/advice-how-to-incubate-ai-at-home-from-chatgpt/
 layout: post
 ---
@@ -138,13 +138,13 @@ The Culture series is a science fiction series by Scottish author Iain M. Banks.
 The Culture series is widely regarded as some of the best science fiction written in recent decades, and is praised for its imaginative world-building, thought-provoking storytelling,
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="fernando-corbato-ken-tohompson-linux-torvals-oh-my">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a></div><div class="post-nav-next"><a href="chatgpt-plus-is-available-in-the-united-states">ChatGPT Plus Is Available In The United States</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a></div><div class="post-nav-next"><a href="/blog/chatgpt-plus-is-available-in-the-united-states">ChatGPT Plus Is Available In The United States</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
+<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li></ul>

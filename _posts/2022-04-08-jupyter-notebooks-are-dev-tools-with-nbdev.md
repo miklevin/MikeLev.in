@@ -4,7 +4,7 @@ title: Jupyter Notebooks Are Dev Tools With nbdev
 headline: Exploring nbdev and LPvg with JupyterLab to Automate 24x7 Systems
 description: I'm exploring nbdev and LPvg to advance my knowledge of Python and the tools available for 24x7 automated systems. I'm using JupyterLab on Windows and have learned about commands like nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, and more to help with the release process. I'm excited to see what I can do with nbdev and am embracing the challenge of incorporating it into my workflow
 keywords: Jupyter, Notebooks, Dev, Tools, nbdev, LPvg, Python, Commands, nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, Papermill, Parameterize, Notebooks, nbdev_bump_version, git, push, make, pypi, pip, installable, libraries, mistune, version, 0.8.4, Anaconda, J
-categories: lpvg, version, python, git, jupyter, notebooks, pypi, nbdev
+categories: version, jupyter, lpvg, git, python, pypi, nbdev, notebooks
 permalink: /blog/jupyter-notebooks-are-dev-tools-with-nbdev/
 layout: post
 ---
@@ -338,14 +338,14 @@ Okay, so what I want to figure out most is how the html files in /docs get
 published. Clearly the index.html becomes README.md for Github's main project
 page.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="jupyter-notebooks-are-dev-tools-with-nbdev">Jupyter Notebooks Are Dev Tools With nbdev</a></div><div class="post-nav-next"><a href="concurrent-web-crawling-in-python">Concurrent Web Crawling in Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/jupyter-notebooks-are-dev-tools-with-nbdev">Jupyter Notebooks Are Dev Tools With nbdev</a></div><div class="post-nav-next"><a href="/blog/concurrent-web-crawling-in-python">Concurrent Web Crawling in Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/version/'>Version</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

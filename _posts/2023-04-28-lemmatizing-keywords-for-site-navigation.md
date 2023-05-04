@@ -4,7 +4,7 @@ title: Lemmatizing Keywords for Site Navigation
 headline: I identified a keyword usage frequency dictionary and put it back in properly to ensure my category pages were outputting with their correct articles and capitalization.
 description: "I'm experimenting with lemmatization and keyword usage frequency to create consistent category pages for my website navigation. I'm ensuring the capitalization of the categories is correct and outputting them in both the website root and in `_includes`."
 keywords: Windows, Git, Release, Cdict, Category, Grid, Bingo, Lemmatization, Stemming, Root, Word, Normalized, Unique, Key, Lower-Case, Consistency, Common, Proper-Case, Usage, Experiment, Default, Statistically, Frequency, Dictionary, Capitalization, Outputting, Articles, Customize, Collision, Website, Root, Includes
-categories: git, experiment
+categories: experiment, git
 permalink: /blog/lemmatizing-keywords-for-site-navigation/
 layout: post
 ---
@@ -55,9 +55,9 @@ creating collision situations. The `cat_*` pages are going to be output all the
 time in both website root and in `_includes`.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a></div><div class="post-nav-next"><a href="chip-chop-chip-chop-top-10-done">Chip, Chop, Chip, Chop, Top-10 Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a></div><div class="post-nav-next"><a href="/blog/chip-chop-chip-chop-top-10-done">Chip, Chop, Chip, Chop, Top-10 Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/experiment/'>Experiment</a></h4></li></ul>
+<li><h4><a href='/experiment/'>Experiment</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

@@ -307,7 +307,7 @@ much for the better, it won't "nuke" you. No big reset button pressed on you
 and your skills and your career and your self-image and your sense of
 self-worth.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="project-deteriorates-into-tools-discussion-again">Project Deteriorates Into Tools Discussion Again</a></div><div class="post-nav-next"><a href="rid-yourself-of-imposter-syndrome-and-start-living-your-best-life">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/project-deteriorates-into-tools-discussion-again">Project Deteriorates Into Tools Discussion Again</a></div><div class="post-nav-next"><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

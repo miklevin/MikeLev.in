@@ -69,7 +69,7 @@ steps. I have to make that sort of thing central to my message. Remember the
 baby-steps. Remember the layering things on.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="fetching-saving-html-from-list-of-urls-using-python">Fetching & Saving HTML From List of URLs Using Python</a></div><div class="post-nav-next"><a href="finally-got-through-bing-waiting-list">Finally Got Through Bing Waiting List</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fetching-saving-html-from-list-of-urls-using-python">Fetching & Saving HTML From List of URLs Using Python</a></div><div class="post-nav-next"><a href="/blog/finally-got-through-bing-waiting-list">Finally Got Through Bing Waiting List</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

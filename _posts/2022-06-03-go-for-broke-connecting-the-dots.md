@@ -68,7 +68,7 @@ Yup. Connect the dots. Go for broke... OMG, there's an expression for that!
 
 # When People Get Angry At You, You Know You're On The Right Track
 {% include youtubePlayer.html id="XwnKzloaVqk" %}
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato">Start Learning Linux by Learning About What Pissed Off Fernando Corbato</a></div><div class="post-nav-next"><a href="how-emdr-lives-between-tetris-therapy-and-psychotherapy">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato">Start Learning Linux by Learning About What Pissed Off Fernando Corbato</a></div><div class="post-nav-next"><a href="/blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -157,7 +157,7 @@ The quantum Zeno effect
 If you want me to explain any of these experiments or alternatives, please let me know.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="which-are-the-least-credible-voices-in-the-ufo-uap-space">Which Are The Least Credible Voices In The UFO / UAP Space?</a></div><div class="post-nav-next"><a href="quizzing-bing-about-the-proof-for-modern-quantum-physics">Quizzing Bing About the Proof For Modern Quantum Physics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/which-are-the-least-credible-voices-in-the-ufo-uap-space">Which Are The Least Credible Voices In The UFO / UAP Space?</a></div><div class="post-nav-next"><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics">Quizzing Bing About the Proof For Modern Quantum Physics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

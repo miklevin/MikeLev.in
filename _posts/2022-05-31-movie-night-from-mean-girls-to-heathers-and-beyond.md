@@ -4,7 +4,7 @@ title: "Movie Night: From Mean Girls to Heathers and Beyond!"
 headline: "Movie Night: Exploring the Contrasts of Our Favorite Films and Characters"
 description: Last night I had Movie Night with my 11 year old kid, watching Mean Girls, ET, Back to The Future, The Godfather, and The Muppet Movie. I wanted to show my kid the contrast between myself and the characters in the movie, and the importance of true vibes and friendship, strategy and capability. I also had a great time catching up with my friend Guy, sipping wine and making fun of Kevin-what's-his-face.
 keywords: Movie Night, Mean Girls, Heathers, 11 year old, ET, Back to The Future, The Godfather, The Muppet Movie, Vibes, Friendship, Strategy, Capability, Guy, Wine, Kevin-what's-his-face, Jordan Robinson, Ira, Jumanji, Superman, Reading, Fantasy, Compassion, Empathy, Richard Lovelace, Inner Freedom, Physical Prison, Minds, Freedom, Imagination
-categories: empathy, strategy
+categories: strategy, empathy
 permalink: /blog/movie-night-from-mean-girls-to-heathers-and-beyond/
 layout: post
 ---
@@ -254,9 +254,9 @@ I may be remembering Heathers totally wrong.
 > <cite>&#151;Richard Lovelace, 1642</cite><br />
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="what-to-do-how-to-always-be-doing-step">What To Do? How To Always Be Doing Step</a></div><div class="post-nav-next"><a href="boosting-youtube-watch-time-youtube-analytics">Boosting YouTube Watch Time / YouTube Analytics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-to-do-how-to-always-be-doing-step">What To Do? How To Always Be Doing Step</a></div><div class="post-nav-next"><a href="/blog/boosting-youtube-watch-time-youtube-analytics">Boosting YouTube Watch Time / YouTube Analytics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
-<li><h4><a href='/strategy/'>Strategy</a></h4></li></ul>
+<li><h4><a href='/strategy/'>Strategy</a></h4></li>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: My First MOZ Programming Project Will Be Emailed Screenshots
 headline: Become a Valuable Asset with My Programming Project!
 description: I'm offering a project to teach people how to do data tricks that can make them valuable to employers or customers. This involves taking a screenshot of a website and emailing it to the user daily, and building up a series of baby-steps to create a durable and interoperable automation platform. Learn how to become a valuable asset with my project!
 keywords: MOZ, Programming, Project, Screenshots, Employers, Customers, Laptops, FOSS, SEO, Automation, Platform, Baby-Steps, Durable, Interoperable
-categories: automation, moz, seo, platform
+categories: platform, seo, moz, automation
 permalink: /blog/my-first-moz-programming-project-will-be-emailed-screenshots/
 layout: post
 ---
@@ -61,11 +61,11 @@ Already I can see this is too many words. Simplify!
 - Start out by observing well. This leads to a screenshot project.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="what-are-the-most-important-news-for-me-to-know-today">What are the most important news for me to know today?</a></div><div class="post-nav-next"><a href="general-artificial-intelligence-nas-business-plan">General Artificial Intelligence NAS Business Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-are-the-most-important-news-for-me-to-know-today">What are the most important news for me to know today?</a></div><div class="post-nav-next"><a href="/blog/general-artificial-intelligence-nas-business-plan">General Artificial Intelligence NAS Business Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/platform/'>Platform</a></h4></li></ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

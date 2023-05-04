@@ -4,7 +4,7 @@ title: Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)
 headline: "Activating Visual Block Mode in vim on Linux WSL: My Story"
 description: I recently discovered a powerful feature of vim called Visual Block mode, which allows you to quickly add text to multiple lines. However, this feature wasn't available in the Microsoft Terminal program when running vim under Linux in Windows via WSL. After a few steps, I was determined to figure out how to activate this feature and eventually succeeded. Learn how I overcame the challenge and how you can activate Visual Block mode in vim.
 keywords: vim, Visual Block mode, Linux, WSL, Ctrl+v, Microsoft Terminal, Windows, VSCode, JSON, Linux on Windows, VcXsrc X-Server, markdown, files, game, activate
-categories: vim, linux, vscode, wsl
+categories: linux, vim, vscode, wsl
 permalink: /blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/
 layout: post
 ---
@@ -184,11 +184,11 @@ How long you spend before you back-up and retry is up to you.
 We didn't back-up and retry this time, because visual block mode was just that
 important.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a></div><div class="post-nav-next"><a href="anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a></div><div class="post-nav-next"><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
