@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: ai, coding, microsoft, chatgpt, youtube, bing
+categories: chatgpt, microsoft, coding, bing, ai, youtube
 layout: post
 ---
 
@@ -97,8 +97,9 @@ quickly in tech.
 For those lucky enough to get early access to The New Bing, Tay-like weirdness
 kicked-in, creeping out a NYTimes reporter in an article release 10 days after
 the launch, on February 16 when Bing tried to get the reporter to leave his
-wife and also made some bizarre philosophical conversations that left him
-deeply unsettled. 
+wife and also made some bizarre philosophical conversations that left the
+reporter deeply unsettled, and right at the epicenter of a potential
+product-killing PR debacle.
 
 ![Bing Creeps Out Nytimes Reporter](/assets/images/bing-creeps-out-nytimes-reporter.JPG)
 
@@ -336,9 +337,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

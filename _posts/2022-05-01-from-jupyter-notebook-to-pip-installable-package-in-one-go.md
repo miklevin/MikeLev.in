@@ -5,7 +5,7 @@ permalink: /blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/
 headline: "Livecast: Create and Release a Python Package from Jupyter Notebook to pip Installable Package Now!"
 description: Join me as I livecast the process of creating and releasing a Python package from a Jupyter Notebook. I'll be using the desktop version of JupyterLab and taking you through every step of the process. Don't miss out - tune in now!
 keywords: Jupyter, Notebook, pip, Installable, Package, Livecast, Creating, Releasing, Python, Desktop, Version, JupyterLab, Step, Process, Standalone
-categories: jupyterlab, notebook, jupyter, python, version
+categories: python, jupyterlab, jupyter, notebook, version
 layout: post
 ---
 
@@ -19,8 +19,8 @@ version of JupyterLab and go all the way to making it pip installable.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/version/'>Version</a></h4></li></ul>
