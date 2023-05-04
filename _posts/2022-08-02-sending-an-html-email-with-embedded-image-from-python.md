@@ -5,7 +5,7 @@ permalink: /blog/sending-an-html-email-with-embedded-image-from-python/
 headline: I'm Excited to Share My Project of Sending an HTML Email with an Embedded Image from Python!
 description: I'm excited to share my project of sending an HTML email with an embedded image from Python. This code sets up a scheduler to run certain functions at set intervals, including printing 'Hello World' every 10 seconds, writing the pulse count and current date/time to a file every 5 seconds, and sending an email with an HTML attachment every minute. Come read more about my project and how it can be used as a template for other projects around the world.
 keywords: Python, HTML Email, Embedded Image, Scheduler, Intervals, Printing, Pulse Count, Date/Time, File, Attachment, Template, Projects
-categories: python, template
+categories: template, python
 layout: post
 ---
 
@@ -250,5 +250,5 @@ while True:
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/template/'>Template</a></h4></li></ul>
+<li><h4><a href='/template/'>Template</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

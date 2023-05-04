@@ -5,7 +5,7 @@ permalink: /blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you/
 headline: "Exploring the Mysteries of Science: Wisdom Over Material Possessions"
 description: Reflecting on the power of wisdom over material possessions, I explore the mysteries of science such as non-locality and the particle/wave duality of light particles first established by James Clerk Maxwell and Michael Faraday in the 1800s. Max Planck's discovery of the planck-unit further perplexed us, and I express my hope to better explain this to my child in the future.
 keywords: Light, Particle/Wave, Duality, James Clerk Maxwell, Michael Faraday, Max Planck, Planck-Unit, Non-Locality, Wisdom, Material Possessions, Subjective Experience, Magic, Science, Equations
-categories: magic, science
+categories: science, magic
 layout: post
 ---
 
@@ -118,5 +118,5 @@ reaction when I mention such things. I have to frame it better.
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/science/'>Science</a></h4></li></ul>
+<li><h4><a href='/science/'>Science</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>

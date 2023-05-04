@@ -5,7 +5,7 @@ permalink: /blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seo
 headline: Creating Innovative SEO Deliverables for Better Website Performance
 description: As an SEO consultant, I have suggested to a client to create a range of SEO deliverables beyond the traditional, such as a Bonsai report to identify low-quality pages and provide recommendations, a Striking Distance report to identify keywords that could be ranking higher, and a Gap Analysis report to compare the site's rankings to competitors. Additionally, I outline ideas for how to monetize this data, such as selling it to other businesses, creating products or services, and teaching others about SEO.
 keywords: SEO, Deliverables, Bonsai Report, Striking Distance Report, Gap Analysis Report, Monetize, Compounding Results, Snowball Effect, Strengths, Goals, Action, Network, Learning, Positive, Tracking Progress, Objectives, Steps, Regular Basis, Jupyter Notebooks, Data Analysis, Scientific Research, Reproducibility, Coding, Accessible, Easy, Share, Teach, Automate, Tasks, Custom Capabilities, Conversation, Concern
-categories: learning, coding, jupyter notebooks, seo, easy, network
+categories: jupyter notebooks, learning, network, seo, easy, coding
 layout: post
 ---
 
@@ -452,9 +452,9 @@ These are just a few ideas for how to make money with access to all the data. By
 ## Categories
 
 <ul>
-<li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/easy/'>Easy</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

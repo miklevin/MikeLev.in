@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: ai, microsoft, chatgpt, bing
+categories: chatgpt, ai, bing, microsoft
 layout: post
 ---
 
@@ -82,7 +82,7 @@ so took advantage of it to start changing some habits.
 ## Google Bard is Announced (Faux Pas)
 
 The very next day, February 8, 2023, Google announced their own AI-powered
-search engine, Google Bard, at a news event at Google's California
+chat bot, Google Bard, at a news event at Google's California
 headquarters. This event was marked by the inauspicious faux pas of Bard
 wrongly stating that the James Webb Space Telescope was the first telescope to
 photograph an exoplanet outside our solar system.
@@ -366,7 +366,7 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

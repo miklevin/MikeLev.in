@@ -5,7 +5,7 @@ permalink: /blog/figuring-out-the-lxd-lxc-command-line-api/
 headline: Exploring the LXD/LXC Command-line API After My LXC Container Became Unsupported
 description: "As a Linux user, I recently received a notice that my LXC container is unsupported. To learn the LXD/LXC command-line API, I discovered the command `lxc exec instance_name -- command` to execute commands in the LXD image, `lxc list` to view containers, `lxc start foo` to start one, and `lxc exec foo -- su --login ubuntu` to log."
 keywords: LXD, LXC, Command-line, API, Linux, Unsupported, Container, Execute, List, Start, Log
-categories: lxd, command-line, container, api, linux
+categories: lxd, linux, command-line, container, api
 layout: post
 ---
 
@@ -87,7 +87,7 @@ daemon experimental automation work I'm about to embark on:
 
 <ul>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
