@@ -4,7 +4,7 @@ title: Practicing What I Preach
 headline: "Exploring the Future of Operating Systems: Reflections on LXD Linux Container Jupyter Platform and Microsoft's NT System"
 description: I've been busy with work and family, but I'm recommitting to writing in my journal. I'm exploring the LXD Linux Container Jupyter platform, which has been challenging but rewarding, and Microsoft's NT system, which has enabled the creation of protection rings and running concurrent operating systems. I'm amazed at how Microsoft is transitioning into the future, and I'm reflecting on the fundamentals of object-oriented and concurrency that remain.
 keywords: Journal, LXD Linux Container Jupyter platform, Microsoft NT system, Protection Rings, Concurrency, Object-Oriented, Operating Systems, Hardware, Multitasking, SEO, Data Work, Writing, YouTube, Abstract Thinking, Rabbit Holes, Virtual Development Environment, Portable, Platforms, Strategy, Tools, Technology, Future
-categories: youtube, hardware, future, seo, strategy, platforms
+categories: hardware, seo, strategy, platforms, youtube, future
 permalink: /blog/practicing-what-i-preach/
 layout: post
 ---
@@ -173,8 +173,8 @@ are. Stuff like "Object-Oriented" and "Concurrency" get layered-on
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/strategy/'>Strategy</a></h4></li></ul>
+<li><h4><a href='/strategy/'>Strategy</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li></ul>

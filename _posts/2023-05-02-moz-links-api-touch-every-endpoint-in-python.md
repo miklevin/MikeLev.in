@@ -4,7 +4,7 @@ title: MOZ Links API, Touch Every Endpoint in Python
 headline: "Exploring the MOZ Links API with Python: Learn How to Access Every Endpoint!"
 description: This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.
 keywords: MOZ, Links, API, Education, Guidance, Python, Jupyter, Notebook, Hosting, Environment, Google, Colab, Github, Code, Snippets, Endpoint, Documentation, Import, Libraries, Modules, Credentials, Access, ID, Secret, Key, Request, Body, URL, Metrics, Usage, Data, SQLite, Database, Engine, Context, Manager, Sub-endpoint, Label, Description, Example, Function
-categories: google, jupyter, python, database, api, notebook, url, label, moz, github, sqlite
+categories: sqlite, jupyter, notebook, python, github, api, google, moz, url, database, label
 permalink: /blog/moz-links-api-touch-every-endpoint-in-python/
 layout: post
 ---
@@ -1288,14 +1288,14 @@ This endpoint Returns the number of rows consumed so far in the current billing 
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li>
-<li><h4><a href='/label/'>Labels</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/url/'>URLs</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/label/'>Labels</a></h4></li></ul>

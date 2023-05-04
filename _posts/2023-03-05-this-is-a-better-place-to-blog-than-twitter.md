@@ -4,7 +4,7 @@ title: This is a better place to blog than Twitter
 headline: "Exploring Alternatives: My Search for the Perfect Blogging Platform"
 description: As I explore different blogging platforms, I'm learning that true automation is an illusion. I'm looking for cheaper options with less tech liability, while still remembering the debt I owe computers after being stung twice. Join me on my journey to find the perfect blogging platform.
 keywords: blogging, platform, automation, illusion, cheaper, tech, liability, debt, journey, Twitter, Hostmonster, domain, hosting, experimenting, thoughts, options, computers, stung
-categories: blogging, journey, thoughts, twitter, platform, automation
+categories: twitter, blogging, thoughts, journey, platform, automation
 permalink: /blog/this-is-a-better-place-to-blog-than-twitter/
 layout: post
 ---
@@ -27,8 +27,8 @@ True automation is an illusion. You might as well face facts right up front when
 ## Categories
 
 <ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/blogging/'>Blogging</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/automation/'>Automation</a></h4></li></ul>

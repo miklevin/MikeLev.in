@@ -4,7 +4,7 @@ title: Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04
 headline: "Break Free from Vendor Tyranny: Install LXD Linux Containers on Windows WSL 2"
 description: This guide helps readers quickly and happily settle into a new digital home, free from vendor tyranny, using Windows Subsystem for Linux (WSL) and vendor-provided components like Github or Bitbucket. I use Windows machines as a host, WSL 2 to host Linux containers, and sprinkle my own customizations, including a Microsoft Network SAMBA/CIFS Shared Drive. I'm a big fan of LXD, the Linux Kernel Virtual Machine from Canonical.
 keywords: Linux, Containers, Windows, WSL, 2, Ubuntu, 20.04, 22.04, Windows Subsystem, Github, Bitbucket, Microsoft Network, SAMBA, CIFS, Shared Drive, LXD, Canonical, Docker, API, Fstab, Home Directory, Volatile Core Image, Installing Containers
-categories: wsl, docker, windows subsystem, 20.04, lxd, api, github, containers, linux, ubuntu
+categories: containers, linux, github, api, 20.04, lxd, docker, windows subsystem, wsl, ubuntu
 permalink: /blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04/
 layout: post
 ---
@@ -268,12 +268,12 @@ article related to mapping in drives from the Linux host to the containers.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/windows-subsystem/'>Windows Subsystem</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/20-04/'>20.04</a></h4></li>
 <li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li>
+<li><h4><a href='/windows-subsystem/'>Windows Subsystem</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>

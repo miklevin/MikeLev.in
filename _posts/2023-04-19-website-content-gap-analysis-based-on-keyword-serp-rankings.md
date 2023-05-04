@@ -4,7 +4,7 @@ title: Website Content GAP Analysis Based on Keyword SERP Rankings
 headline: Creating a Content GAP Analysis Using Python and Microsoft Playwright
 description: I recently completed a project to create a content GAP analysis between websites using MOZ data. I wrote code in Python and used Microsoft Playwright to automate the download of keyword lists. I used Pandas to create a pivot table, merge the dataframes, sort the data, drop duplicates, and save the data to an Excel file. My program helps identify gaps in content ranking between different sites and filter out keywords with less than 1000 monthly searches.
 keywords: Website, Content, GAP Analysis, Keyword, SERP, Rankings, OpenAI, MOZ, Python, Microsoft Playwright, Automation, Download, Lists, Pandas, Pivot Table, Merge, Dataframes, Sort, Duplicates, Excel, File, Volume, Difficulty, Top Rank, URL, Standardize, Columns, NaN, Integers, Sample, Descending, Filter, Searches, CSVs, Clean, Remove, Blanks, Compare
-categories: excel, searches, python, openai, microsoft playwright, url, moz, automation, pandas
+categories: pandas, excel, python, searches, openai, microsoft playwright, url, moz, automation
 permalink: /blog/website-content-gap-analysis-based-on-keyword-serp-rankings/
 layout: post
 ---
