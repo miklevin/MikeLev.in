@@ -1,13 +1,14 @@
 ---
 date: 2022-06-01
 title: Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster
-permalink: /blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster/
 headline: Relive the Nostalgia of Growing Up in the 70s and 80s with Classic Coming-of-Age Movies
 description: As a kid growing up in the 70s and 80s, I fondly remember the Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster, and all the classic coming-of-age movies from that time, like Fast Times at Ridgemont High, Sixteen Candles, The Breakfast Club, Rocky, The Godfather, Alien, Star Wars, and Indiana. Join me on a nostalgic journey as I take a look back at these films and the memories they evoke.
 keywords: Fluorescent, Ultraviolet, Psychedelic, Blacklight, Snake, Cobra, Poster, 70s, 80s, Fast Times at Ridgemont High, Sixteen Candles, The Breakfast Club, Rocky, The Godfather, Alien, Star Wars, Indiana
 categories: 
+permalink: /blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster/
 layout: post
 ---
+
 
 Remember this? I do! It was on my wall growing up, and now it's burned into my
 psyche like the red hot colors its made from. If you remember it too, you may
@@ -42,6 +43,7 @@ our asses from the Nazi's, but we got to watch Indiana Jones.
 # Now Let's Pick Some More Movies for Movie Night!
 
 ![Coming Of Age Movies Planning Movie Night For The Kid](/assets/images/coming-of-age-movies-planning-movie-night-for-the-kid.png)
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-07-31
 title: Do You Still Really Need Windows? Switching To Linux in 2022
-permalink: /blog/do-you-still-really-need-windows-switching-to-linux-in-2022/
 headline: "Switching to Linux in 2022: Why Windows is Becoming Obsolete and Why Containers Under Linux are the Best Way to Future-Proof Your Work"
 description: As tech becomes more and more essential to our daily lives, I'm discussing the importance of understanding generic tech, and why Windows is becoming obsolete. I'm exploring why Linux is the way to go, and why using containers under Linux is the best way to future-proof your work. I'm also discussing why Docker should be used from Windows and why it's important. Join me as I explain why it's essential to keep up with tech trends.
 keywords: Windows, Linux, Containers, Docker, Tech Trends, Dev, Microsoft, Linux Terminal, Future-Proofing, Generic Tech, Proprietary, Literacy
-categories: proprietary, docker, microsoft, linux
+categories: microsoft, proprietary, linux, docker, containers
+permalink: /blog/do-you-still-really-need-windows-switching-to-linux-in-2022/
 layout: post
 ---
+
 
 Livecast from last night moved to this morning because my kid showed interest
 in doing stuff together, yay! Back to the livestreaming... what a great point I
@@ -71,10 +72,11 @@ Why not "just use docker" for this? And why not Docker from Windows for even
 more simplicity?
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li></ul>

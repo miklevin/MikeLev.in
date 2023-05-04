@@ -1,13 +1,14 @@
 ---
 date: 2022-05-23
 title: Center, A Poem
-permalink: /blog/center-a-poem/
 headline: "Staying Centered: Finding Balance Through Poetry and Inline Styling"
 description: As a poet, I often feel off-center. I use my poetry to stay centered, but when I publish it, I'm too far left. To stay centered, I need to create a style definition that sets margin to auto and width to a percentage of the containing element, and put my styles inline. Even though the world is not perfect, I need to stay centered and put my styles inline to make sure my message is heard.
 keywords: Poet, Poetry, Publish, Style, Definition, Margin, Auto, Width, Percentage, Containing Element, Inline, World, Perfect, Divide, Div Class, Dissociation
 categories: 
+permalink: /blog/center-a-poem/
 layout: post
 ---
+
 
 > I write poetry<br />
 > And am often off-center<br />
@@ -33,6 +34,7 @@ layout: post
 > &#151;Mike Levin, 2022<br />
 
 {% include youtubePlayer.html id="1BIuNqwlhO4" %}
+
 
 
 ## Categories

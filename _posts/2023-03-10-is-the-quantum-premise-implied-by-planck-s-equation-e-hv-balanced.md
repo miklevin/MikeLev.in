@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?
-permalink: /blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/
 headline: Exploring the Implications of a Nonzero Photon Mass
 description: I was asked about Planck's equation E=hv and the quantum premise it implies. I explained the equation, dimensional analysis, and SI based units. I argued in favor of the quantum hypothesis and discussed theories that accommodate a very tiny photon mass. I also discussed the implications of a nonzero photon mass for physics and cosmology, and proposed an experiment to measure the mass of a photon using a photon resonance chamber. Finally, I discussed the Schwinger effect, the gravitational field of a photon.
 keywords: Quantum, Premise, Planck's, Equation, E=hv, Balanced, Dimensional, Analysis, SI, Units, Hypothesis, Photon, Mass, Physics, Cosmology, Experiment, Measure, Schwinger, Effect, Gravitational, Field, Einstein-de, Broglie-Proca, Theory, Stueckelberg, Theory, U(1)-gauge, Symmetry, Photoelectric, Effect, Compton, Effect, Spect
 categories: experiment, quantum
+permalink: /blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/
 layout: post
 ---
+
 
 E = hv accounting for time t
 
@@ -630,6 +631,7 @@ When a voltage is applied to a capacitor, electrons flow from one plate to the o
 As the capacitor charges, the electric field between the plates becomes stronger and the energy stored in the capacitor increases. Once the capacitor is fully charged, no more electrons can flow between the plates, and the capacitor remains charged until it is discharged or the voltage across it is removed.
 
 When a capacitor is discharged, the electric field between the plates collapses and the energy stored in the capacitor is released in the form of an electrical current. This current can be used to power electronic devices or to perform work.
+
 
 
 ## Categories

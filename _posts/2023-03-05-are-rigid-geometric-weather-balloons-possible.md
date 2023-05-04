@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Are Rigid Geometric Weather Balloons Possible?
-permalink: /blog/are-rigid-geometric-weather-balloons-possible/
 headline: Exploring the Fascinating Possibilities of 486958 Arrokoth and Its Implications
 description: I recently discussed the mysterious 486958 Arrokoth, an object encountered by NASA's New Horizons mission. I explored possible scenarios, including the possibility of an alien spacecraft or probe, but ultimately concluded that the natural explanation is much more plausible and consistent with current scientific knowledge. I believe it is important to remember to not confuse science with speculation and imagination. Join me to explore the fascinating possibilities of Arrokoth and the implications of our discoveries.
 keywords: Arrokoth, 486958 Arrokoth, New Horizons mission, Alien spacecraft, Probe, Natural explanation, Metamaterials, Weather balloons, Shapes, Materials, Trade-offs, High altitude balloons, UFO, UAP, Radar events, Advancing technology, Hoaxers, Science, Hobbyists, Sudden change of direction, Acceleration, U.S. Navy, Pilots, Sailors, Modern radar, Space probes, Objects in Solar System, Gl
-categories: science, ufo
+categories: ufo, science
+permalink: /blog/are-rigid-geometric-weather-balloons-possible/
 layout: post
 ---
+
 
 Can actual breakthroughs that have already occurred allow the construction of a meta material strong enough to create rigid weather balloons that would be stable at 40000 feet? A mean like geometric shapes like cylinders and rectangles instead of round balloon shapes?
 
@@ -177,8 +178,9 @@ Source: Conversation with Bing, 3/5/2023
     (6) In Depth | Arrokoth (2014 MU69) – NASA Solar System Exploration. https://solarsystem.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/in-depth/ Accessed 3/5/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/science/'>Science</a></h4></li>
-<li><h4><a href='/ufo/'>UFO</a></h4></li></ul>
+<li><h4><a href='/ufo/'>UFO</a></h4></li>
+<li><h4><a href='/science/'>Science</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-13
 title: ":b2 or not :b2, That Is The Question"
-permalink: /blog/b2-or-not-b2-that-is-the-question/
 headline: "Gutting My Project Pipulate: My Journey to Share Ideas Publicly"
 description: I'm sharing my thoughts and ideas publicly using slicing & dicing, Github Pages, mlseo, and blogslicer for search engine optimization. I'm determined to gut my project Pipulate and make way for it now. Join me on this journey and read my blog post to learn more.
 keywords: b2, Question, Thoughts, Ideas, Slicing, Dicing, Github Pages, mlseo, blogslicer, Search Engine Optimization, Project Pipulate, Web-Publishing, Software
-categories: mlseo, github pages
+categories: thoughts, github pages, mlseo
+permalink: /blog/b2-or-not-b2-that-is-the-question/
 layout: post
 ---
+
 
 :b2 or not :b2, that is the question: whether 'tis nobler in the mind to
 publish and share with you the slings and arrows of outrageous fortune here on
@@ -76,8 +77,9 @@ way to this very important project.
 
 Do it now.
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/mlseo/'>mlseo</a></h4></li></ul>

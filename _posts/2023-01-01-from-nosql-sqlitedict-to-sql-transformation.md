@@ -1,13 +1,14 @@
 ---
 date: 2023-01-01
 title: From NoSQL SqliteDict to SQL Transformation
-permalink: /blog/from-nosql-sqlitedict-to-sql-transformation/
 headline: "Exploring Machine Learning and Programming: My Journey Into SQL Transformation and Open Source Libraries"
 description: I have been using the SqliteDict package to store data from API calls, and I'm now looking into parsing Google Photos data by day. I wrote a Python program to look at the contents of a database, and I'm now working on updates to the open source library ohawf. I'm planning to push out better documentation and am even thinking of creating an MLML license. Click through to read more about my journey in programming and machine learning!
 keywords: NoSQL, SqliteDict, SQL, Transformation, API, Google Photos, Python, Database, Open Source, Library, ohawf, Documentation, MLML, Linux, Proprietary, Tools, Apple, SimpleNote, Vim, Git, AI, Model-Fitting, Races, Spacefaring, Child, Nurturing, Territory, Defending, Monkeys, Exploitation, Species, Galactic, Federation, Intelligent, Emotionally, Mature, Super
-categories: database, python, google photos, open source, ai, vim, linux, git, child, proprietary, api, sqlitedict
+categories: python, child, proprietary, linux, sqlitedict, vim, ai, google photos, open source, api, git, database
+permalink: /blog/from-nosql-sqlitedict-to-sql-transformation/
 layout: post
 ---
+
 
 So far, we've been using the pip installed SqliteDict package to do rapid
 key/value data-capture. There's little easier than using your API-calls as the
@@ -416,18 +417,19 @@ Mike Levin Machine Learning License. I guess that would be the MLMLL, or just
 the MLL as it would be shortened to. I don't need my name in it, LOL! MLOL!
 MLMLLOL! MLMLMAOL! Stop me bore I teach a machine something stupid again.
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

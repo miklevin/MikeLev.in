@@ -1,13 +1,14 @@
 ---
 date: 2023-01-10
 title: Joining URLs across GA, GSC & Majestic
-permalink: /blog/joining-urls-across-ga-gsc-majestic/
 headline: Embarking on a Data-Joining Adventure with Majestic SEO Link Data!
 description: I'm embarking on a project to create a master-list of URLs with Majestic SEO link data, using sqldict, list comprehensions, fstrings, JupyterLab, Linux, Windows, and async Python page-fetching. I'm using client.get(url) to retrieve data from a table, and have printed out the data to confirm it was correctly retrieved. Come join me on my journey!
 keywords: GA, GSC, Majestic, sqldict, list comprehensions, fstrings, JupyterLab, Linux, Windows, async, Python, page-fetching, client.get, url, responsedb, loop, store, retrieve, confirm
-categories: python, url, loop, linux, jupyterlab
+categories: python, jupyterlab, linux, loop, url
+permalink: /blog/joining-urls-across-ga-gsc-majestic/
 layout: post
 ---
+
 
 Okay, new day new project. It's the big URL project.
 
@@ -144,11 +145,12 @@ with sqldict(responsedb) as db:
 And we're going to want to soup the shit of of this.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li>
-<li><h4><a href='/loop/'>Loop</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/loop/'>Loop</a></h4></li>
+<li><h4><a href='/url/'>URLs</a></h4></li></ul>

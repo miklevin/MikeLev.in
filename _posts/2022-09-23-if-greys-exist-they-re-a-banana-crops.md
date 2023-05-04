@@ -1,13 +1,14 @@
 ---
 date: 2022-09-23
 title: If Greys Exist They're a Banana Crops
-permalink: /blog/if-greys-exist-they-re-a-banana-crops/
 headline: Live Long, Follow Evidence-Based Thoughts and Provide Tools for Future Generations
 description: I'm on a mission to make enough ad revenue from YouTube and other platforms to support myself financially over the next 15 years. My goal is to live a long life, nurture and engage with an audience, and have empathy for all life forms. I'm determined to move somewhere with a low cost of living and die alone, not burdening family or friends. I'm sharing my stories and encouraging people to do what they love, follow evidence-based thoughts, and provide tools for future generations.
 keywords: YouTube, Ad Revenue, Financial Support, Long Life, Engage Audience, Empathy, Low Cost Living, Die Alone, Share Stories, Follow Evidence-Based Thoughts, Tools, Future Generations, Virtual Particles, Magnetized, Electric Field, Hybridization, Misinformation, Evidence-Based Decisions
-categories: youtube, empathy
+categories: empathy, youtube
+permalink: /blog/if-greys-exist-they-re-a-banana-crops/
 layout: post
 ---
+
 
 But before I tell you about this, I save this love message from OBS Open
 Broadcast Studio for my own edification. If you want to learn about the Greys
@@ -164,8 +165,9 @@ that can help provide tools to future generations of catastrophe-diverting
 moles.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

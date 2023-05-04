@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?
-permalink: /blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/
 headline: Exploring the Possibility of Casimir Force-Induced Metasurface Torque to Power a Zero Point Turbine
 description: I recently explored the possibility of engineering a metasurface to create torque and spin a disk using Casimir force, but found that there were no papers directly addressing this question. I then discussed the implications of Newton's First Law of Motion and the First and Second Laws of Thermodynamics, and read two papers by Professor Barash from MIT about zero point energy and dark matter. I also discussed the relationship between evolution and the Second Law of Thermodynamics and concluded that it is consistent.
 keywords: Casimir Force, Metasurface, Torque, Zero Point Turbine, Newton's First Law of Motion, First Law of Thermodynamics, Second Law of Thermodynamics, Professor Barash, MIT, Dark Matter, Evolution, Entropy, Disorder, Isolated System
 categories: evolution
+permalink: /blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/
 layout: post
 ---
+
 
 Has the Casimir force been proven and has it been proven to produce a repulsive force as well as an attractive one?
 
@@ -298,6 +299,7 @@ Source: Conversation with Bing, 3/7/2023
     (3) (PDF) The Second Law of Thermodynamics - ResearchGate. https://www.researchgate.net/publication/336680888_The_Second_Law_of_Thermodynamics Accessed 3/7/2023.
     (4) Evolution and the Second Law of Thermodynamics: Effectively .... https://evolution-outreach.biomedcentral.com/articles/10.1007/s12052-009-0195-3 Accessed 3/7/2023.
     (5) Second law of thermodynamics | Definition, Formula, & Entropy. https://www.britannica.com/science/second-law-of-thermodynamics Accessed 3/7/2023.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-06-15
 title: LXD on WSL2 is a Few Months Ahead Of Its Time
-permalink: /blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/
 headline: Exploring the Challenges and Solutions of LXD on WSL2 as an Early Adopter
 description: As an early adopter of LXD on WSL2, I've encountered confusion between LXD and Docker, downgraded tutorials to Ubuntu 18.04, confirmed LXD requires systemd, tested to see if it is running, and encountered network context issues. I have also found various approaches to solve them. Join me as I explore the challenges and solutions of LXD on WSL2.
 keywords: LXD, WSL2, Early Adopter, Confusion, Docker, Ubuntu 18.04, Systemd, Running, Network Context, Challenges, Solutions
-categories: lxd, wsl2, docker, systemd
+categories: systemd, wsl2, lxd, docker
+permalink: /blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/
 layout: post
 ---
+
 
 I am almost always doing what people are really going to want to do a few
 months from now.
@@ -80,10 +81,11 @@ I need to put the time in on learning the lxc commands and general API.
 I am feeling bleeding edge pain of early adopters.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li></ul>

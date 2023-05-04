@@ -1,13 +1,14 @@
 ---
 date: 2022-12-08
 title: Python Playwright CodeGen and Playwright Inspector Tools
-permalink: /blog/python-playwright-codegen-and-playwright-inspector-tools/
 headline: Making Automation Easier with Python Playwright CodeGen and Playwright Inspector Tools
 description: I'm using the Python Playwright CodeGen and Playwright Inspector Tools to make automation easier. With the built-in tools I can record my browser activity and generate code for it. After experimenting with different commands, I was able to successfully run the python -m playwright codegen --target python-async command, allowing me to record my automation code in JupyterLab. I also created two templates for easier development.
 keywords: Python, Playwright, CodeGen, Inspector, Tools, Automation, Browser, JupyterLab, Templates, Development, Headless, Server
-categories: automation, development, python, jupyterlab
+categories: python, jupyterlab, templates, development, automation
+permalink: /blog/python-playwright-codegen-and-playwright-inspector-tools/
 layout: post
 ---
+
 
 I always make the first Virtual Desktop on my Windows systems a maximized Linux
 Terminal running vim with my journal in it. Now I do keep multiple journals,
@@ -147,10 +148,11 @@ This is the template that gets recorded from Playwright Inspector:
     asyncio.run(main())
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/development/'>Development</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

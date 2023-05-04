@@ -1,13 +1,14 @@
 ---
 date: 2023-02-15
 title: OnTheRise.AI Registered & About To Be Launched
-permalink: /blog/ontherise-ai-registered-about-to-be-launched/
 headline: "Exploring AI-World: My Journey To Become Tech Literate and Understand Event-driven Programming"
 description: As Mike Levin, a self-promoting SEO in NYC, I'm documenting my journey in the rising AI-world on my blog OnTheRise.AI. I'm exploring idea-capture by humans and the potential of AI to make tasks like fusion energy easier and more efficient. I'm also discussing how to use WSL and JupyterLab to become more tech literate, as well as the advantages and disadvantages of event-driven programming and push information systems.
 keywords: AI, Fusion Energy, WSL, JupyterLab, Event-Driven Programming, Push Information Systems, Unix Terminal, Vim Editor, Automation, Tech Literacy, Python, Linux Daemons, Web Development, Software Development, Long-Term Maintainability
-categories: automation, python, ai, wsl, web development, jupyterlab
+categories: python, web development, jupyterlab, wsl, automation, ai
+permalink: /blog/ontherise-ai-registered-about-to-be-launched/
 layout: post
 ---
+
 
 The thing that reduces publishing friction the most in my life would be the
 ability to publish by emailing to a particular email address. Yes, yes, there
@@ -204,12 +205,13 @@ To pitch the idea of learning Linux daemon development as a key skill in tech, i
 Building and maintaining daemons requires a more thorough understanding of how computer systems work,
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

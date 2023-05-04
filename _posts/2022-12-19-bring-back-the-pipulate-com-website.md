@@ -1,13 +1,14 @@
 ---
 date: 2022-12-19
 title: Bring Back the Pipulate.com Website
-permalink: /blog/bring-back-the-pipulate-com-website/
 headline: Bringing Pipulate.com Back to Life with Python and FOSS SEO Software
 description: I'm bringing back Pipulate.com with a new version that's similar to MikeLev.in/index.md. I'm finally able to make my ideas on FOSS SEO software come to life using Python - the ultimate tool for SEO. Come check out my blog post to find out more!
 keywords: Pipulate.com, MikeLev.in, FOSS, SEO, Software, Python, Ultimate, Tool, Express, Ideas
 categories: seo, python
+permalink: /blog/bring-back-the-pipulate-com-website/
 layout: post
 ---
+
 
 There are tools that are external to your body, and there are tools that are
 internal to your body, and the difference is in a combination of:
@@ -42,6 +43,7 @@ Python is the ultimate tool for SEO. All the things you can do in Python are
 amazing, but ultimately you are just expressing yourself. If you lack the words
 to execute on a technical project that you have in your head and can express in
 great detail verbally
+
 
 
 ## Categories

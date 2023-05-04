@@ -1,13 +1,14 @@
 ---
 date: 2023-01-05
 title: Data Jockeying 101
-permalink: /blog/data-jockeying-101/
 headline: Creating Economic Value with Data Jockeying Skills
 description: I'm an experienced tech professional who focuses on creating small, meaningful data tricks to minimize tech liability. I prefer Python for its readability, shareability, and long-term potential. I'm currently working on a project that requires two date-ranges, and I'm using my data gathering and transformation skills to create economic value. I'm determined to stay true to myself and find a way to express my happiest self while creating economic value.
 keywords: Data-Jockeying, Experienced-Tech-Professional, Small-Meaningful-Data-Tricks, Minimize-Tech-Liability, Python, Readability, Shareability, Long-Term-Potential, Data-Gathering-Transformation-Skills, Economic-Value, Internalizable-Tools, Algorithms, Express-Happiest-Self, Data-Gathering-Transformation-Skills
-categories: python
+categories: python, algorithms
+permalink: /blog/data-jockeying-101/
 layout: post
 ---
+
 
 SEO? Technical SEO, for sure. Data Scientist? Nope. Data Engineer? Maybe. But
 Mikey don't scale and get on the hook for swarms of daemons. I don't build
@@ -119,6 +120,7 @@ they are to use.
 Okay, so this latest project. I need to create a couple of date-ranges. They
 are from the beginning of the year to current (minus a few days) and beginning
 of the year to a couple of days ago.
+
 
 
 ## Categories

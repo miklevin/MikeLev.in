@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Starting to Research a 4K Vlogging Camera
-permalink: /blog/starting-to-research-a-4k-vlogging-camera/
 headline: Exploring the Best 4K Vlogging Cameras on a Budget
 description: I'm researching 4K vlogging cameras and comparing budget, size, weight, and features to decide which one is best. Popular cameras include the Sony RX100 V, Panasonic G85, Sony a6500, and Panasonic Lumix G7. I'm also looking at cameras under $500 with a flip screen, such as the Panasonic Lumix FZ300, Canon EOS M50 Mark II, and Nikon D5600.
 keywords: 4K, Vlogging, Camera, Budget, Size, Weight, Features, Sony RX100 V, Panasonic G85, Sony a6500, Panasonic Lumix G7, Flip Screen, Panasonic Lumix FZ300, Canon EOS M50 Mark II, Nikon D5600, Compare, Specific Features
 categories: 
+permalink: /blog/starting-to-research-a-4k-vlogging-camera/
 layout: post
 ---
+
 
 There are many cameras that can shoot 4K videos for YouTube vlogging. Some of the popular ones are:
 
@@ -40,6 +41,7 @@ Source: Conversation with Bing, 2/26/2023(1) 7 Best Vlogging Cameras with Flip S
 (3) 12 Best YouTube Vlogging Cameras with flip screen under $500 in 2021. https://www.masstoclass.com/best-vlogging-camera-with-flip-screen/ Accessed 2/26/2023.
 (4) The 4 Best Vlogging Cameras With Flip Screens - Winter 2023. https://www.rtings.com/camera/reviews/best/vlogging-flip-screen Accessed 2/26/2023.
 (5) The best camera under $500 in 2023 | Digital Camera World. https://www.digitalcameraworld.com/buying-guides/best-camera-under-dollar500 Accessed 2/26/2023.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-02-02
 title: Where to Begin? Pickle Your Dicts!
-permalink: /blog/where-to-begin-pickle-your-dicts/
 headline: Unlock the Potential of Data and Tech Skills - Create a Pipulate Server from a Windows Linux Instance
 description: This blog post invites readers to explore the possibilities of data and tech skills, providing an example of how to create a Pipulate server from a Windows Linux instance. It also dives into the appeal of tool use, and how to create a Python dictionary object and store it in a SQLite database using the SqliteDict package. Join me as I explore the potential of data and tech skills and the tools available to make them work!
 keywords: Pipulate, Windows Linux, Tool Use, Python, Dictionary, SQLite, Database, SqliteDict, Context Manager, .commit()
-categories: database, python, sqlite, pipulate, sqlitedict
+categories: python, sqlite, sqlitedict, pipulate, database
+permalink: /blog/where-to-begin-pickle-your-dicts/
 layout: post
 ---
+
 
 Welcome to my opening paragraph. You will desperately want to skip around and
 get to the good parts, and you're not even through the 2nd sentence yet. See?
@@ -124,11 +125,12 @@ only need know Python dicts and a bit about the ***with*** keyword in Python.
 Oh, and .commit(). You need to know about .commit().
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

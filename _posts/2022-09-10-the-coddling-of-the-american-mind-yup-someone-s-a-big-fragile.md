@@ -1,13 +1,14 @@
 ---
 date: 2022-09-10
 title: The Coddling Of The American Mind. Yup. Someone's a Big Fragile.
-permalink: /blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile/
 headline: "Unlock Your Inner Strength: Reading The Coddling of The American Mind to Understand My Child's Behaviors"
 description: I'm reading The Coddling of The American Mind and it's helping me to understand the behaviors I'm seeing in my child. Chapter one covers the importance of exposing children to challenges and stressors in appropriate ways and the concept of safetyism. I'm learning to take control of my life and not be influenced by society or group norms. I'm also learning to not be bothered by people who may spread false stories about me and instead use it as a form of validation.
 keywords: Coddling, American, Mind, Greg, Lukianoff, Jonathan, Haidt, Fragility, Untruth, Challenges, Stressors, Safetyism, Obsession, Society, Group, Norms, Validation, Life, King, Happy, Stories
 categories: 
+permalink: /blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile/
 layout: post
 ---
+
 
 I am reading The Coddling of The American Mind by Greg Lukianoff and Jonathan
 Haidt. Wow, this explains a lot. I can't believe some of the behavioral
@@ -117,6 +118,7 @@ conquest won't feed the village. If you find yourself in that situation, I
 recommend honking their nose like a clown when they think you should be deadly
 serious and deadly drained. Let them know their best ain't enough to take you
 down, then learn from your experience with them and move on.
+
 
 
 ## Categories

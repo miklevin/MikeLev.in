@@ -1,13 +1,14 @@
 ---
 date: 2022-04-23
 title: How To Control URLs and Links in Jekyll
-permalink: /blog/how-to-control-urls-and-links-in-jekyll/
 headline: Successfully Controlling URLs and Links in Jekyll
 description: I'm blogging using Jekyll and Github Pages and have just made some changes to the theme. I'm now following a DigitalOcean tutorial to control URLs and links in Jekyll - hoping for successful changes to propagate soon! Read my blog post to find out how I did it.
 keywords: "Jekyll, Github Pages, DigitalOcean, Tutorial, URLs, Links, Theme, Changes, Propagate, Pythonically.com, Default Blog Post System, `_config.yml`, Git Pull"
-categories: github pages, tutorial
+categories: github pages, changes, tutorial, jekyll, urls
+permalink: /blog/how-to-control-urls-and-links-in-jekyll/
 layout: post
 ---
+
 
 We are blogging using just a plain old text-file which currently becomes one
 long file on pythonically.com. On my last video I got Jekyll's default blog
@@ -28,8 +29,10 @@ I'm waiting for the Jekyll changes to propagate.
 Success!
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

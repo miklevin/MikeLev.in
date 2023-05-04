@@ -1,13 +1,14 @@
 ---
 date: 2023-03-24
 title: Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane
-permalink: /blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/
 headline: "Saving the Mushroom Mother: Our Mission to Defeat the Myco Raiders"
 description: I was part of a team of researchers studying the mysterious Mushroom Mother, an organism with a role in the galaxy. We were shocked to discover that the Myco Raiders had come to plunder it, so we acted quickly to modify the spores and make them toxic to the Raiders. In the end, our efforts were successful and the Mushroom Mother was able to recover. Join me on this journey of exploration, discovery, and success as I tell the story of our mission to save the Mushroom Mother.
 keywords: Time Dilation, Galactic Nomads, Slingshots, Outer Rim, Galactic Plane, Exploration, Discovery, Success, Mission, Spirograph, Octatriacontagon, Spiral Galaxy, Relativistic Effects, Fuel Conservation, Shimmering Light, Decades, Primitive Species, Advanced Technology, Time Travel, Complex Civilizations, Cultural Diffusion, Benefits, Exploration, Discovery, Freedom, Resources, Drawbacks, Stability, Continuity, Long-Term Relationships, Host
 categories: success
+permalink: /blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/
 layout: post
 ---
+
 
 **Mike Levin:** Are Spirograph patterns orbits?
 
@@ -352,6 +353,7 @@ But there was hope. A small group of researchers discovered the connection betwe
 The researchers spread a special mixture of chemicals throughout the Mushroom Mother's network, causing the spores to become toxic to the Myco Raiders. Slowly but surely, the Myco Raiders began to die off, unable to sustain their addiction to the spores.
 
 In the end, the Myco Raiders were defeated, and the Mushroom Mother was able to recover from the damage caused by their greed. The researchers continued to study the Mushroom Mother, hoping to learn more about the incredible organism and its role in the galaxy.
+
 
 
 ## Categories

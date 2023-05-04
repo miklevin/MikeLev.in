@@ -1,13 +1,14 @@
 ---
 date: 2022-08-06
 title: Turning Python Huey Data Pipeline into Schedule Repo Alternative
-permalink: /blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative/
 headline: Transitioning My Scheduler and Data Pipeline to Huey on Windows
 description: I recently discovered Huey, a task scheduler for Python that is similar to Schedule but with the added convenience of a huey_consumer.py file that is automatically added to the command-line path after a pip install. I'm currently in the process of transitioning my scheduler and data pipeline dask queue from two Linux containers to Huey on my Windows system. Read my blog post to learn more about this transition!
 keywords: Python, Huey, Schedule, Repo, Alternative, Task Scheduler, huey_consumer.py, Command-Line Path, Pip Install, Transition, Scheduler, Data Pipeline, Dask Queue, Linux Containers, Windows System
 categories: python
+permalink: /blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative/
 layout: post
 ---
+
 
 My previous videos walked through setting up a scheduler and a proper data
 pipeline dask queue on two different Linux containers on my Windows system. I
@@ -105,6 +106,7 @@ scheduling is just a matter of doing a pip install huey and putting those 2
 files in place. But instead of 2 scheduler services, I'll replace the old one
 with Huey. I wish huey had such a good API for setting scheduling as pip
 install schedule.
+
 
 ## Categories
 

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-16
 title: When I Grew a Backbone, Story of The Samurai Mudskipper
-permalink: /blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/
 headline: "Growing a Backbone: An Old Warrior's Story to Prepare His Child for the Future"
 description: Mike Levin, an old warrior, tells his child a story about the evolution of the backbone. He explains that the backbone developed over a long period of time, beginning with single-celled organisms and ending with the Cambrian Explosion. Mike then tells his child that he can grow a backbone and map out the life of a single being, starting with the present. With this story, Mike hopes to prepare his child for the predators of the future. Read this blog post to learn more about the evolution
 keywords: Backbone, Evolution, Single-Celled Organisms, Cambrian Explosion, Switchblade-Wielding Worm, Mudskipper, Pituitary Gland, Logarithmic Scale, Trillion, Warrior, Predators, Future, Mapping, Life, Present
-categories: evolution, future
+categories: future, evolution
+permalink: /blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/
 layout: post
 ---
+
 
 > Backbones aren't born overnight my child.<br />
 > They take some time to evolve.<br />
@@ -245,8 +246,9 @@ I am just ten, Daddy.
 Okay then, that's a perfect place to begin. Now what's a hundred divided by
 ten?
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li></ul>
+<li><h4><a href='/future/'>Future</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

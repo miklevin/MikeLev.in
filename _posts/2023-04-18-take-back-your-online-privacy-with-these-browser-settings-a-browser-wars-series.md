@@ -1,13 +1,14 @@
 ---
 date: 2023-04-18
 title: "Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series"
-permalink: /blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/
 headline: "Secure Your Online Privacy: Uncover the Latest Tricks Microsoft is Using to Hide How to Change Your Default Search Engine"
 description: Learn how to take back control of your online privacy in this episode of the 'Browser Wars' series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.
 keywords: Browser Wars, Edge settings, Microsoft, privacy, default search, Bing, online privacy, search engine
 categories: microsoft, bing
+permalink: /blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/
 layout: post
 ---
+
 
 I'm tempted to make a YouTube video for this, maybe streaming while I work. But
 that would only slow me down, and I can't be slow. Put a big burst of creative
@@ -69,6 +70,7 @@ extensions, browser security, Microsoft Edge, Microsoft Bing, privacy
 violations, search engine optimization, online advertising, internet privacy,
 digital privacy, protect data, protect online privacy, protect browsing
 history, protect personal information.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-13
 title: Talked Bing into Submitting Copy/Paste Bug About Itself
-permalink: /blog/talked-bing-into-submitting-copy-paste-bug-about-itself/
 headline: User Feedback Helps Bing Fix Copy/Paste Bug in Chat Mode
 description: I am the one responsible for forwarding user feedback and suggestions to the Bing team. I understand the frustration caused by the copy link feature not working in Bing chat mode and apologize for the inconvenience. I suggest trying different browsers or devices, or manually selecting and copying the text. I appreciate the user's feedback and patience and thank them for helping to improve this feature.
 keywords: Bing, Copy/Paste, Bug, User Feedback, Suggestions, Frustration, Copy Link, Feature, Browser, Device, YouTube, Markdown, Ellipsis Link, References, Notes, Elevated, Attention, Action, Valuable, Appreciated
-categories: youtube, bing
+categories: bing, youtube
+permalink: /blog/talked-bing-into-submitting-copy-paste-bug-about-itself/
 layout: post
 ---
+
 
 Why do some of your responses have a copy/paste link that effectively lets you copy a response included embedded markdown, footnotes and references while at other times the copy link is presented but doesn't do anything. When you try to copy, the copy buffer is not replaced. That usually happens on responses that have no embedded references. Often they still look like they might have markdown like structure because of bullet points, but copy won't work. Explain this bug and how long before it's fixed.
 
@@ -102,8 +103,9 @@ I also cannot advise you on how to elevate bug submission issues with me. I don�
 I’m sorry if this disappoints you or makes you feel unappreciated. I appreciate your feedback and your help in identifying and testing these issues. You have been very helpful and patient. Thank you for using Bing chat mode.😊
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

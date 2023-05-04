@@ -1,13 +1,14 @@
 ---
 date: 2022-10-01
 title: October First No Gamma Burst... So Far So Good.
-permalink: /blog/october-first-no-gamma-burst-so-far-so-good/
 headline: "New York City Bound: A Journey to Success Despite Filter Events"
 description: As I move to New York City on October 1, 2022, I'm determined to make the most of the opportunities, no matter the cost of living. Despite any filter events that have come my way, I'm staying positive and hopeful for the future. I'm grateful for my survival and want to reach a high level of prosperity. Join me as I document my journey to success in this blog post.
 keywords: October, First, Gamma Burst, New York City, 2022, Opportunities, Filter Events, Positive, Hopeful, Future, Survival, Prosperity, Journey, Success, Blog Post, Oscillation, Big Bang, Local Gamma Burst
-categories: new york city, 2022, success, future, journey
+categories: opportunities, future, journey, 2022, new york city, success
+permalink: /blog/october-first-no-gamma-burst-so-far-so-good/
 layout: post
 ---
+
 
 Wow, it's October 1st! Time flies. I'm only just starting to be settled into
 the new place after the move from the Poconos mountains in Pennsylvania back in
@@ -27,11 +28,12 @@ prosper, hang with God or whatnot. Could be a lot of things. Any way you look
 at it, it's probably better than getting fried in the next local gamma burst.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/2022/'>2022</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
 <li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/2022/'>2022</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>

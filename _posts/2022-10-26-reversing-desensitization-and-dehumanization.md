@@ -1,13 +1,14 @@
 ---
 date: 2022-10-26
 title: Reversing Desensitization And Dehumanization
-permalink: /blog/reversing-desensitization-and-dehumanization/
 headline: "Stay Curious and Engaged: How to Reclaim Your Capacity to Care and Explore New Paths"
 description: As a human, it's important to keep our capacity to care and stay curious. As children, we learn to go from satisfying internal needs to external ones, forming healthy habits. As adults, it's easy to become distracted and stuck in the daily grind. I'm here to remind you to stay open to trying new things and exploring new paths. Read on to find out how to stay curious and engaged in life.
 keywords: Caring, Habits, Distractions, Daily Grind, Curiosity, Learning, Engagement, Openness, Exploring, New Things, New Paths
-categories: learning
+categories: learning, habits
+permalink: /blog/reversing-desensitization-and-dehumanization/
 layout: post
 ---
+
 
 It's good to care. If you find yourself caring about anything, that's a good
 thing. It's a precious gift of being human. Hang onto it. The enemy of "being
@@ -70,6 +71,7 @@ to engage different ways and at different times. For example, I still need to
 make a living. So I fight the tendency to isolate myself and so I still get out
 from time to time, but I am thrilled that deep exploration of new things is now
 possible online.
+
 
 
 ## Categories

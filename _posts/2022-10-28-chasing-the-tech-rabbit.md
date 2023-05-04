@@ -1,13 +1,14 @@
 ---
 date: 2022-10-28
 title: Chasing The Tech Rabbit
-permalink: /blog/chasing-the-tech-rabbit/
 headline: "Exploring New Technology: Join Me on My Journey!"
 description: "Today, I'm trying something new by using vim :b2 for my personal journaling and creating videos to show the best experiences. I'm also creating something that would be useful to SEOs, exploring GPU utilization, CUDA and alternatives, and doing a JupyterLab demo. Join me on my journey and learn more about these topics!"
 keywords: vim, personal journaling, videos, SEOs, GPU utilization, CUDA, alternatives, JupyterLab, JupyterLab Server, portable switch army SEO product
 categories: vim, jupyterlab
+permalink: /blog/chasing-the-tech-rabbit/
 layout: post
 ---
+
 
 My actual personal journal being on vim :b2 is really a change. My
 muscle-memory can feel it. But I'm doing enough videos where I'm starting with
@@ -28,6 +29,7 @@ Why not mention GPU-utilization, CUDA and alternatives?
 But then go do a JupyterLab demo. All roads lead to VSCode. Learning Web
 Browser automation in yet another road to VSCode. Beware. I'm taking you down
 the JupyterLab Server (on Linux) route.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-05-02
 title: Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts
-permalink: /blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/
 headline: The Easily Typed Ctrl+S and Ctrl+Space Keyboard Shortcuts Surprisingly Available to Give vim/NeoVim Productivity Boost!
 description: "Discover how I maximize my productivity with my new journaling approach, allowing myself to edit multiple files with ease without getting lost in a sea of tabs. Utilize the astoundingly available `Ctrl+S` and `Ctrl+Space` keyboard shortcuts to quickly cycle through buffers and access important resources instantly. Get lost in a sea of open screens and windows no more!"
 keywords: Vim/NeoVim, Terminal, Keyboard Shortcuts, Ctrl+S, Ctrl+Space, Journaling, Buffers, Website, Productivity, Metaphors, Resources, Fixed Position, Random-Access
 categories: productivity, terminal, journaling
+permalink: /blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/
 layout: post
 ---
+
 
 With my new journaling approach, I have fewer files loaded simultaneously into
 my vim/NeoVim buffers by default. I have the ones that I truly every day feel
@@ -43,6 +44,7 @@ sub-index in my head of all my important files that I already know are open.
 This is a wonderful "fixed position" approach to random-access of your
 important resources. Again, it's about local paths to resources, your most
 valuable asset. Get to what you need instantly.
+
 
 
 

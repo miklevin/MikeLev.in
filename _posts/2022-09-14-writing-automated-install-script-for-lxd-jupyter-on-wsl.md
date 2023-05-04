@@ -1,13 +1,14 @@
 ---
 date: 2022-09-14
 title: Writing Automated Install Script for LXD & Jupyter on WSL
-permalink: /blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/
 headline: Unlocking the Potential of JupyterLab with LXD and WSL
 description: This article describes my attempt to use JupyterLab under LXC and my progress on an automated install script for LXD and Jupyter on WSL. I'm also trying to simulate the tftp tricks I've done in Levinux and make my own bit optional graphics build. Read on to find out more about my journey and how it can help you!
 keywords: Writing, Automated Install Script, LXD, Jupyter, WSL, JupyterLab, LXC, Windows Settings, Apps, Overhead Lag, Bit Optional Graphics Build, Tftp, Tricks, Levinux
-categories: levinux, jupyter, lxd, wsl, jupyterlab
+categories: jupyterlab, wsl, jupyter, levinux, lxd
+permalink: /blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/
 layout: post
 ---
+
 
 Wow, wow, wow! In an attempt to force myself to use JupyterLab under LXC, I
 uninstalled Jupyter-Desktop through Windows Settings / Apps per their upgrade
@@ -65,11 +66,12 @@ profoundly big win... wow, releasing such potential. As simple as possible!
 Hmmm, maybe even make your WSL default instance
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

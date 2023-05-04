@@ -1,13 +1,14 @@
 ---
 date: 2023-03-06
 title: Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently Proved
-permalink: /blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/
 headline: "Observing the Schwinger Effect: Scientists Use Graphene to Create Particle-Antiparticle Pairs from Vacuum"
 description: As a researcher, I recently studied the Schwinger effect, a phenomenon predicted by Nobel laureate Julian Schwinger 70 years ago, which requires extremely high field strengths and had never been observed directly. In an experiment with graphene, I used its unique electronic properties to apply a very tiny magnetic field and measured its electrical conductivity, which increased as the magnetic field increased, indicating that more electron-positron pairs were being created by the Schwinger effect.
 keywords: Dr. Salvatore Pais, Navy UFO, Pais Effect, Schwinger Effect, Julian Schwinger, Graphene, Electronic Properties, Magnetic Field, Electrical Conductivity, Electron-Positron Pairs, Antigravity Propulsion System, Quantum Electrodynamics, Quantum Phase Locking, Vacuum, Matter Creation, Electric Field, Earth Gravity Field, Vortexes, Mercury Sphere, Spacecraft, Mass Reduction, Models, Hypotheses, Experiment, University of Manchester
 categories: experiment
+permalink: /blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/
 layout: post
 ---
+
 
 If the Schwinger effect is proven real does that mean an antigravity propulsion system powered by quantum phase locking between the magnetic field of polarized electron positron pairs and type 2 superconductor using the Meissner effect assuming you could ramp-up, contain and manipulate the field if sufficiently high energy? Has the Schwinger effect been proven? Had the experiment been reproduced? Are the results compelling and valid?
 
@@ -155,6 +156,7 @@ Source: Conversation with Bing, 3/5/2023
     (4) The Schwinger Effect: Scientists Finally Created a Matter From Nothing .... https://www.sciencetimes.com/articles/40000/20220918/schwinger-effect-scientists-finally-created-particle-nothing-using-electromagnetic-fields.htm Accessed 3/5/2023.
     (5) Graphene assists in observing the elusive Schwinger effect. https://www.graphene-info.com/graphene-assists-observing-elusive-schwinger-effect Accessed 3/5/2023.
     (6) Phys. Rev. D 78, 096009 (2008) - Schwinger mechanism and graphene. https://link.aps.org/doi/10.1103/PhysRevD.78.096009 Accessed 3/5/2023.
+
 
 
 ## Categories

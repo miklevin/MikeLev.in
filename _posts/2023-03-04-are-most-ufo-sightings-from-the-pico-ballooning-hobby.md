@@ -1,13 +1,14 @@
 ---
 date: 2023-03-04
 title: Are Most UFO Sightings From the Pico Ballooning Hobby?
-permalink: /blog/are-most-ufo-sightings-from-the-pico-ballooning-hobby/
 headline: Explore the Possibilities of Pico Ballooning!
 description: As a hobbyist, I'm always looking for something new and exciting to try. Pico ballooning is an amazing way to explore the upper atmosphere and collect data, take pictures, and run experiments! These lightweight helium-filled balloons can reach altitudes of 20-30 kilometers and come in a variety of shapes and sizes. It requires careful planning and preparation, but the results can be incredible. Come join me as I explore the possibilities of pico ballooning!
 keywords: Pico Ballooning, Upper Atmosphere, Helium-Filled Balloons, Data Collection, Photography, Experiments, Altitudes, Shapes, Sizes, Planning, Preparation, Results
-categories: 
+categories: experiments
+permalink: /blog/are-most-ufo-sightings-from-the-pico-ballooning-hobby/
 layout: post
 ---
+
 
 Hey ChatGPT: What is the hobby of pico ballooning?
 
@@ -39,6 +40,7 @@ In terms of shape, pico balloons can come in a variety of shapes and sizes, but 
 Pico balloons can reach altitudes of 20-30 kilometers (12-19 miles), which is within the stratosphere. At this altitude, the balloon will be exposed to low temperatures, low pressure, and low humidity, so the payload must be designed to operate in these conditions. The balloon's ascent rate will also need to be carefully controlled to prevent it from bursting or drifting too far off course.
 
 Overall, pico ballooning is a fascinating and challenging hobby that requires a lot of planning and preparation, but it can yield some incredible results in terms of data collection, photography, and scientific research.
+
 
 
 ## Categories

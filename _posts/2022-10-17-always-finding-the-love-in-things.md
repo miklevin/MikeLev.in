@@ -1,13 +1,14 @@
 ---
 date: 2022-10-17
 title: Always Finding The Love In Things
-permalink: /blog/always-finding-the-love-in-things/
 headline: Finding Hope and Love in the Face of Adversity
 description: "I'm a 52-year-old dad in a second marriage that's also falling apart. Despite this, I'm pushing through and doing what I can to drive my kid home before the 1:30 call. I'm an optimist who believes in putting love into things and creating a narrative that normalizes my own experience. I'm hopeful that with the help of machine-learning and AI, we can create better realities for humanity. Read my blog to learn more about my story and my thoughts"
 keywords: Dad, Second Marriage, Optimist, Love, Narrative, Normalize, Machine-Learning, AI, Humanity, Challenges, Realities
 categories: ai
+permalink: /blog/always-finding-the-love-in-things/
 layout: post
 ---
+
 
 The kid stayed over an extra night. I will be driving them home before the 1:30
 call kicks in. It's coming up on 11:00 AM so I should stay on top of it.
@@ -52,6 +53,7 @@ bit, better at all things, collectively. Decentralized free and open source
 systems should be at the heart of it like mesh networking, else the big
 corporations and their stockholders will be their main beneficiaries. If we do
 this right, it can be distributed a little more fairly.
+
 
 
 ## Categories

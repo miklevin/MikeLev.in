@@ -1,13 +1,14 @@
 ---
 date: 2022-12-21
 title: WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker
-permalink: /blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/
 headline: Run a Linux Server on Windows with WSL & LXD - No Docker Needed!
 description: As a user, I prefer LXD from Canonical over Docker for its ease of installation without a complex API. Additionally, Windows Subsystem for Linux (WSL) provides a container system that can be used to create 'server build scripts' to install a Linux server on Windows 10 or 11. With this, I can have a Linux server running in the background on my laptop. Read more to learn how to set up your own Linux server on Windows.
 keywords: WSL, LXD, Linux, Server-Build, Scripts, Docker, Installation, Complex API, Windows, Container System, Server, Laptop, Software, Compositing System, Leverage, Scripts, Install
-categories: lxd, wsl, linux, docker
+categories: scripts, wsl, linux, docker, lxd
+permalink: /blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/
 layout: post
 ---
+
 
 You will find various anti-patterns here. Among the biggest is that I don't
 think you should focus on Docker. There's better container tech, the sort that
@@ -35,10 +36,11 @@ leads to nice little Linux servers running in the background right on your
 Windows laptop that you can get in and hack.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li></ul>
+<li><h4><a href='/docker/'>Docker</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

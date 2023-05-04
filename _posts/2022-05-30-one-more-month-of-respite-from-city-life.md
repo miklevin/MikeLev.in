@@ -1,13 +1,14 @@
 ---
 date: 2022-05-30
 title: One More Month of Respite From City Life
-permalink: /blog/one-more-month-of-respite-from-city-life/
 headline: Reflecting on the Gift of Time with My Child at Winona Lakes Pool
 description: I am taking a break from city life to enjoy a day of swimming and activities with my child at Winona Lakes pool. We have experienced trampolining, campfires, ziplining, canoeing, and gocart racing, and now I am reflecting on the gift of an extra day with my child and the importance of living, laughing, and loving. I am soon to move my belongings into public storage and drive back to Staten Island, so join me on this journey of reflection
 keywords: Swimming, Winona Lakes Pool, Trampolining, Campfires, Ziplining, Canoeing, Gocart Racing, Reflection, City Life, Respite, Living, Laughing, Loving, Public Storage, Staten Island, Green Belt Parks, Experiences, Movie, Adi
 categories: 
+permalink: /blog/one-more-month-of-respite-from-city-life/
 layout: post
 ---
+
 
 I'm at the Winona Lakes pool on our second day of Memorial day swimming. What a
 gift this community has been over the past two years--a true cure for the
@@ -111,6 +112,7 @@ Adi. It's feeling like the highlights of my life, the simple pleasures of
 watching a movie with and connecting with my kid.
 
 {% include youtubePlayer.html id="bmBMTYxJWDA" %}
+
 
 
 ## Categories

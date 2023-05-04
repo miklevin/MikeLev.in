@@ -1,13 +1,14 @@
 ---
 date: 2022-12-30
 title: Flattening The Curve of AI & Free Energy
-permalink: /blog/flattening-the-curve-of-ai-free-energy/
 headline: Exploring The Impact of AI and How to Flatten the Curve of Change
 description: This blog post explores the impact of AI on our world and how it can be leveraged to create cheap, clean energy and new technologies. I discuss the need to flatten the curve of these changes and suggest using memetic hacking to shape the future. I explain how decisions must be made based on approximations and how AI will allow us to solve problems in a fraction of the time. I conclude by exploring the potential of fusion as a viable option for the future.
 keywords: AI, Free Energy, Flattening the Curve, Memetic Hacking, Decisions, Approximations, Fusion, Cheap, Clean Energy, New Technologies, Existential Crisis, Solving Problems, Viable Option
 categories: ai
+permalink: /blog/flattening-the-curve-of-ai-free-energy/
 layout: post
 ---
+
 
 This article is about human consciousness, and how to survive the coming craziness about to be wrought upon our world with AI. Let's start with the fact, sentient or not, it's pretty cool to have a flashlight that could analyze a bridge for collapse-danger without you yourself needing the expertise. At very least, learned-skill devices are here. Society's about to be transformed.
 
@@ -36,6 +37,7 @@ We life in a focused snapshot of blurred possibilities. Everybody else you know,
 We're understanding a thing or two, and we're getting a lot of things right now, finally — as you can see through the rapid rise of Machine Learning, more sexily coined AI. Okay, okay AI. I've been beaten into accepting it by the media and culture. But remember in you're heads, we're really talking about "machine learning" in practical sense for the foreseeable future. But that's quite enough to cause the future to be unforeseeable, because AI. Neat, huh?
 
 With the type of rapid design iteration that ML/AI make possible, certain solutions should take only 30 days or 30 hours that used to be projected at 30 years. Take a magnetic containment system for fusion for example. A sustained star-in-a-jar is not possible today because
+
 
 
 ## Categories

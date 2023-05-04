@@ -1,13 +1,14 @@
 ---
 date: 2022-09-15
 title: Already Renamed Jupyme to WSL2LXD
-permalink: /blog/already-renamed-jupyme-to-wsl2lxd/
 headline: "Reclaiming My Detail-Oriented Skills: My Journey to Mastering Detail with WSL2LXD"
 description: I recently renamed my jupyme repository to wsl2lxd for improved searchability and memorability. After 15-20 years of being away from detail-oriented work, I'm back and better than ever. To further my skills, I leveraged my vim spell-checking, putting my en.utf-8.add file in my vim repo and activated an Ubuntu 20.04 under WSL to be separate from my LXD work.
 keywords: renaming, jupyme, wsl2lxd, searchability, memorability, detail-oriented, vim, spell-checking, en.utf-8.add, file, vim repo, Ubuntu, 20.04, WSL, LXD, mastering, thorough, detailed, work
-categories: ubuntu, 20.04, lxd, vim, wsl
+categories: wsl, vim, ubuntu, lxd, 20.04
+permalink: /blog/already-renamed-jupyme-to-wsl2lxd/
 layout: post
 ---
+
 
 Pulling out all stops. My first version of the WSL 2 LXD install script is
 already pretty solid. I renamed jupyme repo to wsl2lxd which is a lot easier to
@@ -31,11 +32,12 @@ to edit my journals here and otherwise have a stable instance of Linux always
 running.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/20-04/'>20.04</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-04-21
 title: Always Be Writing Though Language Is Full of Lies
-permalink: /blog/always-be-writing-though-language-is-full-of-lies/
 headline: "Writing: Unlocking the Power of Ideas and Improving Life in Unexpected Ways"
 description: I understand why my brain wants to automate decisions so I can focus on more important matters like writing and vlogging. Writing and vlogging are both ways of encoding thoughts into words, and can help manifest ideas into reality. With practice, I can capture ideas and turn them into coherent thoughts. Learn how writing can be used to your advantage and improve your life in unexpected ways.
 keywords: Writing, Language, Automate, Decisions, Vlogging, Ideas, Reality, Executive Function, Higher-Order, Manifest, Capture, Coherent, Thoughts, Walking, Driving, Video-Journaling
-categories: 
+categories: thoughts
+permalink: /blog/always-be-writing-though-language-is-full-of-lies/
 layout: post
 ---
+
 
 - NNBP Never Not Be Processing
 - AOBP Always Optionally Be Publishing
@@ -101,6 +102,7 @@ stability and the ability to overrule the opinions of your inner worm and
 lizard who aren't really expressing opinions in a lingual form at all. We just
 give them words to justify the things we've done already and are defending our
 self-images through ridiculous justification.
+
 
 ## Categories
 

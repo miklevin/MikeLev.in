@@ -1,13 +1,14 @@
 ---
 date: 2022-12-21
 title: Google Analytics GA4 API Access Will Be My First Project for Pipulate
-permalink: /blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/
 headline: "Exploring Google Analytics GA4 API with Pipulate: My First Project is GA4mageddon"
 description: I'm excited to start my first project for Pipulate, which involves accessing the Google Analytics GA4 API. I'm taking a top-down and bottom-up approach to SEO, and I've named my repo GA4mageddon. I'm using the impending Google-induced panic about GA4 to create better examples and instructions for readers to entice them to click through to the blog post.
 keywords: Google Analytics, GA4, API, Access, Pipulate, SEO, Repo, GA4mageddon, Linux, Vim, Top-Down, Bottom-Up, SEO, Examples, Instructions
-categories: google analytics, pipulate, seo, vim, linux, api
+categories: google analytics, linux, vim, pipulate, api, seo
+permalink: /blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/
 layout: post
 ---
+
 
 The tenants of Pipulate include, you will be running a 100% genuine generic
 Linux server at home, first probably on your Windows laptop under WSL and not
@@ -59,12 +60,13 @@ ripple through the world of online marketing. I can be the beneficiary of much
 of that because the examples out there for GA4 API access, the Python client
 libraries, instructions and how-to's are really terrible right now.
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

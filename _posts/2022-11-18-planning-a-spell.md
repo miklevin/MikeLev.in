@@ -1,13 +1,14 @@
 ---
 date: 2022-11-18
 title: Planning a Spell
-permalink: /blog/planning-a-spell/
 headline: "Unlocking the Secrets of the Universe: Join Me on My Journey to Make Magic Happen!"
 description: I recently had a life-changing realization that life is full of mysteries and that consciousness is still beyond science. This inspired me to plan a powerful spell that I will share with others, teaching them how to cast a spell of their own. Join me on my journey as I unlock the secrets of the universe and discover how to make magic happen.
 keywords: Mystery, Consciousness, Spell, Universe, Magic, Realization, Life-Changing, Journey, Unlock, Secrets
-categories: consciousness, magic, journey
+categories: journey, magic, consciousness
+permalink: /blog/planning-a-spell/
 layout: post
 ---
+
 
 Things don't sink in fast for me. Life's sprinkled with little ah-ha moments;
 instants of revelation where cause and effect relationships in real life become
@@ -21,9 +22,10 @@ But what should the nature of that spell be? Well, one of teaching others how
 to cast a powerful spell, of course. We go right for
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>

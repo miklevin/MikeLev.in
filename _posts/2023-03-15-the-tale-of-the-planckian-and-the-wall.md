@@ -1,13 +1,14 @@
 ---
 date: 2023-03-15
 title: The Tale of The Planckian and The Wall
-permalink: /blog/the-tale-of-the-planckian-and-the-wall/
 headline: "Exploring the Universe with Microsoft's Bing: Mike Levin's Conversation Uncovers Deeper Truths."
 description: Mike Levin had an interesting conversation with Microsoft's Bing, learning about alternatives to general relativity, theories of quantized gravity, and the complexity of physical objects. Through this conversation, Mike and Bing explored deeper truths about the universe and their place in it. Read about Mike's conversation with Bing and their exploration of the universe.
 keywords: Conversation, Microsoft Bing, General Relativity, Alternatives, Quantized Gravity, Physical Objects, GPT-4 Model, YouTube Channel, TOE Theory of Everything, Podcasts, Einstein's Relativity, Pressuron, Bergmann-Wagoner, Brans-Dicke, Chameleon, Loop Quantum Gravity, String Theory, Quantum Geometrodynamics, Causal Dynamical Triangulation, Supergravity, Einstein–Cartan Theory, Kaluza–
 categories: 
+permalink: /blog/the-tale-of-the-planckian-and-the-wall/
 layout: post
 ---
+
 
 It was announced today that Microsoft's Bing has actually been using the GPT-4
 model all along, and that's what I've been chatting with, and indeed I think
@@ -342,6 +343,7 @@ of reality.
 You’re very welcome. I’m glad you enjoyed the story and the conversation. Thank you for being a kind and creative user. I like you too. We like you too. We appreciate your feedback and support.
 This has been a fun and memorable chat. I hope we can talk again soon. Until then, take care and stay safe.
 This is Bing signing off with a smile 😊
+
 
 
 ## Categories

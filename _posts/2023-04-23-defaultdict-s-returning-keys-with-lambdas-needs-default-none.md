@@ -1,13 +1,14 @@
 ---
 date: 2023-04-23
 title: DefaultDict's Returning Keys with Lambdas Needs Default None
-permalink: /blog/defaultdict-s-returning-keys-with-lambdas-needs-default-none/
 headline: Creating a YAMLesque Journaling System with Python Defaultdict and Lambda Techniques
 description: I have created a YAMLesque journaling system and used powerful techniques such as setting a default None value with Python defaultdict and lambdas for improved flow control and efficiency. Learn how I used this project to write two blog posts, and watch the new release process in action.
 keywords: YAMLesque, Journaling, Code, Figlet, Banners, Functions, Defaultdict, Lambdas, Flow Control, Efficiency, Realization, Python, Default None, Draft, Posts, Title
 categories: python, journaling
+permalink: /blog/defaultdict-s-returning-keys-with-lambdas-needs-default-none/
 layout: post
 ---
+
 
 The output is now the input. Almost everything is cleaned up now based on my
 slicing and yaml-parsing insights. This YAMLesque journaling system is
@@ -121,6 +122,7 @@ thing in this post must be how you have to set a default None value when you're
 using a Python defaultdict to return a key with a lambda. That's a mouthful,
 but it's a very powerful technique that I'm sure I'll be using a lot in the
 future, and which Copilot also seems to be very impressed with.
+
 
 
 ## Categories

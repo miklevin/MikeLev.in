@@ -1,13 +1,14 @@
 ---
 date: 2022-12-15
 title: Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You
-permalink: /blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/
 headline: "Navigating Childhood to Adulthood: Finding Balance in Static and Dynamic States"
 description: As a parent, I am helping my preteen navigate the transition from childhood to adulthood by encouraging them to observe, ask questions, and narrate their experiences. I am teaching them the importance of both static and dynamic states of being, which are both necessary for growth, from developing atomic energy to the inner workings of our own lives. I am also reflecting on my own journey of self-inspection and self-modification, which I had to do in order to grow and develop during transitional periods.
 keywords: Parenting, Preteens, Transition, Childhood, Adulthood, Static, Dynamic, Observation, Questions, Narration, Growth, Atomic Energy, Self-Inspection, Self-Modification, Development, Crawling, Walking, Talking, Self-Awareness, Decisions
 categories: development
+permalink: /blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/
 layout: post
 ---
+
 
 Yesterday my kid called me in tears over being forced to go to scouts. They are
 homeschooled and I moved back into the state 6 months ago because such calls
@@ -137,6 +138,7 @@ all changes between about 6 years old and teen. BAM! Self-awareness.
 Self-referentiality. Decisions regarding ones own static-ness vs. dynamicness
 are made, sometimes in life-crippling ways and sometimes in life-broadening
 ways.
+
 
 
 ## Categories

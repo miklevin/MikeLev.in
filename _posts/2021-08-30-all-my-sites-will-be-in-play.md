@@ -1,13 +1,14 @@
 ---
 date: 2021-08-30
 title: All My Sites Will Be In Play
-permalink: /blog/all-my-sites-will-be-in-play/
 headline: At 51, I'm Still an SEO and Datamaster - Read My Blog to Find Out More!
 description: As an experienced SEO and Datamaster at 51 years old, I'm focused on collecting and scraping data. I'm currently in the process of general SERP collection, and my sites guerillatech.com, levinux.com, linuxpythonvimgit.com, lundervand.com, mikeateleven.com, mikelev.in, and mike-lev are all in play.
 keywords: SEO, Datamaster, SERP collection, guerillatech.com, levinux.com, linuxpythonvimgit.com, lundervand.com, mikeateleven.com, mikelev.in, mike-lev, 51 years old
 categories: seo
+permalink: /blog/all-my-sites-will-be-in-play/
 layout: post
 ---
+
 
 I am now 51 years old, and I'm STILL an SEO! Okay, the idea really is to be a
 Datamaster and a Master Carpenter, such as it were. Even walruses get in
@@ -36,6 +37,7 @@ mikelevinseo.com. Your general "in-play" (or soon-to-be in-play) sites are:
 
 But don't get distracted by that yet. Okay, and so this site is where I think
 through the SEO issues of all the sites.
+
 
 
 ## Categories

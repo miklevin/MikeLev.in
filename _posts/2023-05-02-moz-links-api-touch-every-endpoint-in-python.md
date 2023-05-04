@@ -1,13 +1,14 @@
 ---
 date: 2023-05-02
 title: MOZ Links API, Touch Every Endpoint in Python
-permalink: /blog/moz-links-api-touch-every-endpoint-in-python/
 headline: "Exploring the MOZ Links API with Python: Learn How to Access Every Endpoint!"
 description: This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.
 keywords: MOZ, Links, API, Education, Guidance, Python, Jupyter, Notebook, Hosting, Environment, Google, Colab, Github, Code, Snippets, Endpoint, Documentation, Import, Libraries, Modules, Credentials, Access, ID, Secret, Key, Request, Body, URL, Metrics, Usage, Data, SQLite, Database, Engine, Context, Manager, Sub-endpoint, Label, Description, Example, Function
-categories: database, python, google, github, notebook, sqlite, url, label, moz, api, jupyter
+categories: python, sqlite, jupyter, moz, label, notebook, api, url, database, github, google
+permalink: /blog/moz-links-api-touch-every-endpoint-in-python/
 layout: post
 ---
+
 
 # MOZ Links API Education & Guidance
 The purpose of this Jupyter Notebook is to introduce using the MOZ Links API using Python. This should work on any Notebook hosting environment, such as Google Colab. If you're looking at this on Github, the code snippets can be copy/pasted into your own Notebook environment. By the time you've run this script to the bottom, you will have used every MOZ Links API endpoint, and can pick the parts you want for your own project. The official documentation is at [https://moz.com/help/links-api](https://moz.com/help/links-api)
@@ -1283,17 +1284,18 @@ This endpoint Returns the number of rows consumed so far in the current billing 
 
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/url/'>URLs</a></h4></li>
-<li><h4><a href='/label/'>Labels</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/label/'>Labels</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/url/'>URLs</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

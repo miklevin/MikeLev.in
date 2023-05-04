@@ -1,13 +1,14 @@
 ---
 date: 2023-02-09
 title: Planning My Moves As Machines Rise
-permalink: /blog/planning-my-moves-as-machines-rise/
 headline: "Navigating the Rise of Machines: A 52-Year-Old Marketer's Journey to Starting an International Education Initiative"
 description: I am a 52-year-old marketer who has been trying to use the past to inform my decisions and understand the rise of machines. After recently losing my job, I am looking to start my own international education initiative, LPvg.org, and charge people $10/month for spiritual guidance and a competitive edge. I have also updated my Twitter profile to promote my blog and YouTube channel, as well as my latest venture, Pipulate.com/MLGL.
 keywords: Marketing, Machines, International Education, Spiritual Guidance, Competitive Edge, Twitter, Blog, YouTube, Pipulate.com/MLGL, SEO, Reddit, Kickstarter, Angel Investors, Subscription Service, Payment Processor, Sales Tax, Payment Regulations, Privacy Regulations
-categories: marketing, youtube, seo, twitter
+categories: seo, marketing, twitter, youtube
+permalink: /blog/planning-my-moves-as-machines-rise/
 layout: post
 ---
+
 
 The distillation of images (and other media) that mean the most to you in life,
 and then the ability to interact with those images for various purposes. Don't
@@ -246,10 +247,11 @@ To offer a $10 subscription, you'll need to set up a payment system and a way fo
 Keep in mind that there may be legal and financial requirements you need to consider, such as collecting sales tax and complying with payment and privacy regulations. Be sure to research the requirements for your jurisdiction before launching your subscription service.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

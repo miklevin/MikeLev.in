@@ -1,13 +1,14 @@
 ---
 date: 2022-09-26
 title: SERP Scraping with site Search Modifier and Custom Date Range
-permalink: /blog/serp-scraping-with-site-search-modifier-and-custom-date-range/
 headline: Improving SERP Job Efficiency with Custom Code and Automation
 description: I'm working on a project to get SERP job running quickly and efficiently. I'm using Linux-side programs in JupyterLab, server automation, IP-cycling with HMA vpn on Windows, and custom code to scrape SERPs with a custom date range and site search modifier. I'm looping through a list of sites and date ranges to perfect the project. Come read more about my progress and join me on this journey!
 keywords: SERP, Scraping, Site Search Modifier, Custom Date Range, Linux-side programs, JupyterLab, Server Automation, IP-cycling, HMA VPN, Windows, Code, Date Range, List of Sites, Looping, Improvement, Perfecting, Project
 categories: jupyterlab
+permalink: /blog/serp-scraping-with-site-search-modifier-and-custom-date-range/
 layout: post
 ---
+
 
 Okay, that was quite a journey. I lost the original code but this is much
 better. It lets me work Linux-side in both JupyterLab and for server
@@ -118,6 +119,7 @@ print("Done")
 ```
 
 I'm still working on and refining this thing.
+
 
 
 ## Categories

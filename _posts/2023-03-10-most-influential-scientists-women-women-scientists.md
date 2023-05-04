@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Most Influential Scientists & Women & Women Scientists
-permalink: /blog/most-influential-scientists-women-women-scientists/
 headline: Celebrating the Contributions of Women Scientists Throughout History
 description: As a woman scientist, I have heard stories of the incredible accomplishments of my peers who have been denied recognition, credit, or opportunities due to discrimination. I have compiled a list of some of the most famous scientists in history, such as Albert Einstein, Marie Curie, and Charles Darwin, as well as some of the lesser-known women pioneers, like Mary Anning, Harriet Martineau, and Ida B. Wells-Barnett, who have made significant contributions to science and society.
 keywords: Women, Scientists, Albert Einstein, Marie Curie, Charles Darwin, Mary Anning, Harriet Martineau, Ida B. Wells-Barnett, Marian Croak, Voice over Internet Protocol, Map Requests, Quality of Service, Text-to-Donate, Tu Youyou, Rosalind Franklin, Janaki Ammal, Katherine Johnson, Florence Nightingale, Lise Meitner, Rachel Carson, Chien-Shiung Wu, Rita Levi-Montal
 categories: 
+permalink: /blog/most-influential-scientists-women-women-scientists/
 layout: post
 ---
+
 
 Who is the woman working for Google who enabled video chat with all her discoveries, inventions and patents?
 
@@ -204,6 +205,7 @@ Source: Conversation with Bing, 3/10/2023
     (1) Our Most Popular Scientists – Top 100 - Biography, Facts and Pictures. https://www.famousscientists.org/popular/ Accessed 3/10/2023.
     (2) The 10 Greatest Scientists of All Time | Discover Magazine. https://www.discovermagazine.com/the-sciences/the-10-greatest-scientists-of-all-time Accessed 3/10/2023.
     (3) SAPAVIVA – The 100 greatest scientists. https://www.sapaviva.com/ Accessed 3/10/2023.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-01
 title: Bash Script Loading External Files
-permalink: /blog/bash-script-loading-external-files/
 headline: "Simplifying My Release System: Introducing blast.sh"
 description: I've simplified my release system and renamed it blast.sh. This script helps me delete old files, slice blogs, update my vimrc, journal, and mlseo. After that, it publishes my 15 domains for SEO purposes and I'm done! Join me as I dive into the details of this helpful script.
 keywords: Bash Script, External Files, Release System, 'blast.sh', Delete Old Files, Slice Blogs, Update Vimrc, Journal, MLSeo, Publish Domains, SEO Purposes, Registered Domains, Simplify, Script, Sites
 categories: script, mlseo
+permalink: /blog/bash-script-loading-external-files/
 layout: post
 ---
+
 
 Surprise again! All this content is moved over to MikeLevinSEO.com, where it
 really belongs. I'm going to keep Pythonic Ally "free" for better posts. I'll
@@ -133,6 +134,7 @@ fi
 done
 exit
 ```
+
 
 ## Categories
 

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-02
 title: Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages
-permalink: /blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/
 headline: Creating a Templatized System for Google Analytics MEASUREMENT ID in Jekyll Github Pages
 description: "I have developed a system using Jekyll and Liquid template language to templatize the Google Analytics MEASUREMENT ID for my websites. To keep track of them, I wrote Python scripts to parse through the lines in sites.txt and create a `_config.yml` file for each website. With this system, I have a master list of my sites and a quick way to update the information."
 keywords: "Google Analytics, MEASUREMENT ID, Jekyll, Github Pages, Liquid template language, Python, sites.txt, `_config.yml`, blogging, make_helpers.py, gaids.txt, loop, master list, update"
-categories: jekyll, python, github pages, loop, blogging
+categories: github pages, google analytics, python, loop, jekyll, blogging
+permalink: /blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/
 layout: post
 ---
+
 
 Okay, wow. To say that I'm profoundly happy with my new blogging and release
 system would be an understatement. Over the past week everything from slicing
@@ -126,11 +127,13 @@ title: {title}'''
 ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/blogging/'>Blogging</a></h4></li></ul>

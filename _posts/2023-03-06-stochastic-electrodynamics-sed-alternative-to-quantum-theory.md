@@ -1,13 +1,14 @@
 ---
 date: 2023-03-06
 title: Stochastic Electrodynamics (SED) Alternative to Quantum Theory
-permalink: /blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/
 headline: Exploring Stochastic Electrodynamics (SED) as an Alternative to Quantum Theory
 description: I'm exploring Stochastic Electrodynamics (SED) as an alternative to quantum theory to explain phenomena such as The Double-Slit Experiment, The EPR Paradox Experiment, The Quantum Tunneling Experiment, The Quantum Zeno Effect Experiment, The Quantum Teleportation Experiment, The Quantum Cryptography Experiment, The Quantum Computing Experiment, The Quantum Metrology Experiment, The Quantum Levitation Experiment, The Quantum Eraser Experiment, and The Quantum Hall Effect Experiment.
 keywords: Stochastic Electrodynamics (SED), Alternative to Quantum Theory, Double-Slit Experiment, EPR Paradox Experiment, Quantum Tunneling Experiment, Quantum Zeno Effect Experiment, Quantum Teleportation Experiment, Quantum Cryptography Experiment, Quantum Computing Experiment, Quantum Metrology Experiment, Quantum Levitation Experiment, Quantum Eraser Experiment, Quantum Hall Effect Experiment, Lorentz-Invariant Spectrum, Planck's Constant, Nonlocality, Stern-Gerlach Experiment, Delayed-
 categories: 
+permalink: /blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/
 layout: post
 ---
+
 
 What are some practically possible alternatives to quantum theory on explaining the results of experiments like The Double-Slit Experiment, The EPR Paradox Experiment, The Quantum Tunneling Experiment, The Quantum Zeno Effect Experiment, The Quantum Teleportation Experiment, The Quantum Cryptography Experiment, The Quantum Computing Experiment, The Quantum Metrology Experiment, The Quantum Levitation Experiment, The Quantum Eraser Experiment, The Quantum Hall Effect Experiment. I heard something about particles going back in time and something else about super determinism. Include something about each of those and more.
 
@@ -154,6 +155,7 @@ The Stern-Gerlach experiment
 The delayed-choice quantum eraser
 The quantum Zeno effect
 If you want me to explain any of these experiments or alternatives, please let me know.
+
 
 
 ## Categories

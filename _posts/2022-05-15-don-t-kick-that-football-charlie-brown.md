@@ -1,13 +1,14 @@
 ---
 date: 2022-05-15
 title: Don't Kick That Football, Charlie Brown!
-permalink: /blog/don-t-kick-that-football-charlie-brown/
 headline: Take Control of Your Growth and Development - Learn from Charlie Brown's Example
 description: As a person who prefers to make up my own games and rules, I understand the importance of understanding different levels of the brain in order to grow. I also recognize that what makes us human is our ability to think and act in ways that are beyond the capabilities of animals. I believe that by examining ourselves, recording our thoughts and interactions, and drawing conclusions, we can take control of our growth and development and increase our chances of success. Through this blog post, I will share my insights on how
 keywords: Brain, Growth, Development, Human, Animals, Creativity, Technology, Blockchain, Non-Fungible Tokens, Communication, Acknowledgement, Predictions, Actions, Survival, Calvin-Ball, Charlie Brown, Mistakes, Spinal Cord, Worm-Brain, Frog-Brain, Lizard-Brain, Colony-Mammal Brain, Primate Brain, Neocortex
 categories: human, development
+permalink: /blog/don-t-kick-that-football-charlie-brown/
 layout: post
 ---
+
 
 The important thing at this time in your life is to keep forging on forward
 with a sort of force and truth that makes it clear to everyone interacting with
@@ -263,6 +264,7 @@ are able to:
 # Congratulations! You Win.
 
 {% include youtubePlayer.html id="hBjWtJnMriQ" %}
+
 
 ## Categories
 

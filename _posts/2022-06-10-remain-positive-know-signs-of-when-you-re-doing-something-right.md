@@ -1,13 +1,14 @@
 ---
 date: 2022-06-10
 title: Remain Positive & Know Signs Of When You're Doing Something Right
-permalink: /blog/remain-positive-know-signs-of-when-you-re-doing-something-right/
 headline: Making a Big Move to New York? Here's How I'm Staying Positive and Moving Forward.
 description: I'm making a big move back to New York and embracing the challenge. I'm learning to think more deeply, choose who I want to be, and move my life forward like a scientist. I'm no longer allowing myself to stay stuck and instead am taking action to do what's right. Read my blog post to find out more about my journey and how I'm staying positive during this transition.
 keywords: positive, signs, move, New York, challenge, think, choose, life, forward, scientist, stuck, action, journey, transition, brain, interactions, experiences, person, infant, strive, right
 categories: journey
+permalink: /blog/remain-positive-know-signs-of-when-you-re-doing-something-right/
 layout: post
 ---
+
 
 The iron is hot, such as they say. Things are busy on all fronts in life and I
 have to start really focusing on my move back to New York now. I'm really going
@@ -44,6 +45,7 @@ such children-adults) brings out a sort of crying and escalation. Root causes
 are not allowed to be addressed. That ends now.
 
 Continue to do what's right.
+
 
 
 ## Categories

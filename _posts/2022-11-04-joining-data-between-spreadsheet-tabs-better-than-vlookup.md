@@ -1,13 +1,14 @@
 ---
 date: 2022-11-04
 title: Joining Data Between Spreadsheet Tabs Better Than VLookup
-permalink: /blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/
 headline: Discover How I Joined Data Between Spreadsheet Tabs Without VLookup or Pivot Tables
 description: Discover how I joined data between spreadsheet tabs without using VLookup or Pivot Tables. I explored connecting to Google Sheets and the OAuth2 enabled GSheets API, but I eventually figured out a way to save the data as an .xlsx file and load individual tabs using Pandas. Now I'm exploring the best way to log into Google services from Jupyter - read my blog post to find out how!
 keywords: Spreadsheet, Tabs, VLookup, Pivot Tables, Google Sheets, OAuth2, GSheets API, .xlsx, Pandas, Jupyter, Logging, Google Services
-categories: jupyter
+categories: pandas, jupyter
+permalink: /blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/
 layout: post
 ---
+
 
 Okay, certain tasks just keep recurring. For anyone in the field of data
 manipulating and making sense of it, some of the more common tasks are vlookups
@@ -64,6 +65,7 @@ running in case they happen to be logged out.
 
 The question now arises: what is the best way to log into Google services from
 Jupyter?
+
 
 
 ## Categories

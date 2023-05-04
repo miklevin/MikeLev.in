@@ -1,13 +1,14 @@
 ---
 date: 2023-03-30
 title: Should You Use Bing or Bard to Help With Your Homework?
-permalink: /blog/should-you-use-bing-or-bard-to-help-with-your-homework/
 headline: "Exploring the Impact of Technology on Society: Snow Crash and Rainbows End"
 description: I wrote two influential science fiction novels in the 1990s, Snow Crash and Rainbows End, that explore the potential of technology to transform society. Snow Crash has been praised for its prescient vision of the internet, and Rainbows End for its exploration of the ethical implications of technology. Read on to learn more about how these novels have impacted our society today!
 keywords: Vernor Vinge, Snow Crash, Rainbows End, Science Fiction, 1990s, Internet, Ethical Implications, Technology, Transform Society, Impact on Society
 categories: internet
+permalink: /blog/should-you-use-bing-or-bard-to-help-with-your-homework/
 layout: post
 ---
+
 
 Which would you want helping with your homework, Bing or Bard? Citations coming up empty or one that will have fallacies sprinkled in?
 
@@ -39,6 +40,7 @@ It is difficult to say which novel has had a greater impact on today's society. 
 As for the title, there is no plural possessive hyphen because the title is not a possessive. The title is a reference to the rainbow bridge that connects the physical world to the virtual world. The bridge is a metaphor for the way that technology can connect people from all over the world.
 
 Notable in Bard's 2nd answer: Snow Crash and Rainbows End are two science fiction novels by Vernor Vinge that explore the potential impact of technology on society... not true.
+
 
 
 ## Categories

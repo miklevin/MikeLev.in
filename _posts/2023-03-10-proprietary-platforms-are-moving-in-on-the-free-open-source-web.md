@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Proprietary Platforms Are Moving In On The Free & Open Source Web
-permalink: /blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web/
 headline: Unlock AI Solutions with Deep Learning and Game Theory
 description: Discover how deep learning and game theory can be used together to create more effective AI solutions. In this blog post, I discuss the potential applications of deep learning to game theory and the importance of collaboration between the two disciplines. I also explain how game theory can help to model and solve various deep learning problems, and how AI can create competitive pressures for content providers. Finally, I explore how deep language learning models can make the web more transparent and accountable by providing evidence and sources for their claims.
 keywords: Deep Learning, Game Theory, AI Solutions, Collaboration, Chatbot Technology, Natural Language, Personalized Responses, Web Search, Customer Acquisition, Retention Funnel, Automate Workflows, PageRank, Google, Spamming, Fake Websites, Tragedy of the Commons, Competitive Pressures, Content Providers, E-A-T, Evidence, Sources, ResearchGate, Article
-categories: google, collaboration
+categories: collaboration, google
+permalink: /blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web/
 layout: post
 ---
+
 
 Modify this statement to also include the rising ChatBot form of searching and navigating information: Web search and search results are the very wide mouth of the customer acquisition and retention funnel in almost any and every business today because they influence what people think, feel, and do online and offline.
 
@@ -127,8 +128,9 @@ Source: Conversation with Bing, 3/10/2023
     (5) (PDF) Deep Learning meets Game Theory - ResearchGate. https://www.researchgate.net/publication/317062658_Deep_Learning_meets_Game_Theory Accessed 3/10/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/collaboration/'>Collaboration</a></h4></li></ul>
+<li><h4><a href='/collaboration/'>Collaboration</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

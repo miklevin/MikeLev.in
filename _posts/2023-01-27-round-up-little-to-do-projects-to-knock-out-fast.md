@@ -1,13 +1,14 @@
 ---
 date: 2023-01-27
 title: Round Up Little To-Do Projects to Knock Out Fast
-permalink: /blog/round-up-little-to-do-projects-to-knock-out-fast/
 headline: "Creating My Own Website: Joining Me On My Journey to the Instapaper API!"
 description: I'm creating a version of my projects on my own website, starting with the Twitter API and then hitting the Instapaper API to create an RSS feed on my blog. To do this, I'll need an Instapaper API key and the requests library in Python. Come join me on my journey as I make a GET request to the Instapaper API!
 keywords: Round Up, Little To-Do Projects, Knock Out Fast, Twitter API, Instapaper API, RSS Feed, Instapaper API Key, Requests Library, Python, GET Request
 categories: python
+permalink: /blog/round-up-little-to-do-projects-to-knock-out-fast/
 layout: post
 ---
+
 
 Lets work our way through every side-project while ChatGPT is still free. Round
 up my content from around the web and make a version on my own website. Whether
@@ -50,6 +51,7 @@ for item in data["bookmarks"]:
 ---
 
 Okay, so I've got Instapaper documented.
+
 
 
 ## Categories

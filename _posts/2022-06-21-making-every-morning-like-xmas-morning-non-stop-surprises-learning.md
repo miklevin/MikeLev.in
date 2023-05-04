@@ -1,13 +1,14 @@
 ---
 date: 2022-06-21
 title: Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning
-permalink: /blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/
 headline: Experience Surprises & Learning Every Morning - Make Every Day Feel Like Xmas Morning!
 description: As an individual, I believe that every morning should be an opportunity to learn something new and experience surprises. We should be able to identify symbols of meaning and feelings, and have the ability to uncover what motivates us. Unfortunately, the gap between the haves and have-nots is widening, making it difficult to stay at the top or bottom of the hierarchy. To lead a stress-free life, I suggest staying in the middle. Come read my blog post for more insights on how to
 keywords: morning, Xmas, surprises, learning, symbols, meaning, feelings, motivates, gap, haves, have-nots, hierarchy, stress-free, life, insights, recognize, discover, drives, information, population, growth, ratio, top, bottom, middle
 categories: learning
+permalink: /blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/
 layout: post
 ---
+
 
 Every morning should feel like Xmas morning (or equivalent). We need common
 language; symbols we can all use to convey meaning and feelings. The feeling
@@ -52,6 +53,7 @@ top and bottom is a life of always watching your back or no one ever having
 your back. Neither is very appealing and so the wise monkey spends his morning
 time figuring out how to be and stay in the middle. Interestingly, 1/X has no
 inflection point and zooming in on any segment looks identical.
+
 
 
 ## Categories

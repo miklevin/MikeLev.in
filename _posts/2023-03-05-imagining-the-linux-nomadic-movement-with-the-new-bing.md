@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Imagining The Linux Nomadic Movement With The New Bing
-permalink: /blog/imagining-the-linux-nomadic-movement-with-the-new-bing/
 headline: Experience the Freedom, Flexibility and Stability of Linux with Vim - Join the Linux Nomadic Movement!
 description: As a developer who values speed, productivity and ergonomics, I have been using Vim since 1976 and it has proven to be a reliable and robust tool. With a large and active community that provides support, documentation and plugins for various purposes, Vim offers advantages over VSCode, such as rapid key sequences, not requiring arrow keys, and performing complex operations with minimal keystrokes. Join me in the Linux nomadic movement.
 keywords: Vim, VSCode, Text Editing, Linux, Unix, Command-line, JupyterLab, Windows, Mac, Productivity, Ergonomics, Speed, Flexibility, Stability, GPL, Cross-Platform, Automation, Scripts, Compatibility, Long-Term, Free, Open-Source, Telemetry, Extensions, Key Sequences, Arrow Keys, Complex Operations, Documentation, Plugins
-categories: automation, vscode, mac, vim, linux, command-line, productivity, unix, jupyterlab
+categories: scripts, jupyterlab, unix, vim, linux, mac, vscode, productivity, command-line, automation
+permalink: /blog/imagining-the-linux-nomadic-movement-with-the-new-bing/
 layout: post
 ---
+
 Help me make the argument to take up Python on Linux in particular because of how now that Linux ships with Windows and is easy to get running on Mac and is so much more widely deployed on the back and and is the main thing used for machine learning and AI systems that it's ridiculous now to do anything directly on a proprietary host system such as Windows or Mac. The role of proprietary systems now actually always to host Linux so that the work you do actually have a wide reach and a future, along with the skills you learn how to do it, especially with particular timeless sub-technologies of Linux such as vim, Python and git. While these tools will run on the proprietary native hosts, they "lock you in" and using them on Linux is the only true path to technology freedom. You can explain how GPL helped make this so.
 
 Hello, this is Bing. I can help you with some points to make your argument for using Python on Linux. Here are some benefits of Python on Linux that you can use:
@@ -269,15 +270,16 @@ Source: Conversation with Bing, 3/4/2023
     (3) Vim vs VS Code | The Ultimate face-off | Programmer Hat. https://www.programmerhat.com/vim-vs-vscode/ Accessed 3/4/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/command-line/'>Command-Line</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/productivity/'>Productivity</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/command-line/'>Command-Line</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

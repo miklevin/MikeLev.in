@@ -1,13 +1,14 @@
 ---
 date: 2022-09-17
 title: Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2
-permalink: /blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2/
 headline: My Obsessive Compulsive Journey of Running Ubuntu 18.04 and 20.04 Simultaneously Under WSL 2
 description: I recently updated my Windows taskbar to include a BASH Shell, Jupyter and Web browser, and it's become part of my daily routine. I had to decide whether to keep one copy of Linux running under WSL, so I chose to run both 18.04 and 20.04 side-by-side. Follow me as I take you through my obsessive compulsive journey of updating my taskbar and deciding which Linux OS to run.
 keywords: Running, Ubuntu, 18.04, 20.04, WSL, 2, Windows, Taskbar, BASH, Shell, Jupyter, Web, Browser, Routine, Linux, OS, Update, Project, Side-by-Side
-categories: ubuntu, 20.04, linux, wsl, bash, jupyter
+categories: wsl, linux, jupyter, 20.04, ubuntu, bash
+permalink: /blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2/
 layout: post
 ---
+
 
 This latest round of wsl2lxd updates, it has stabilized. My Windows taskbar can
 once again look like this: a BASH Shell, Jupyter and Web browser.
@@ -33,12 +34,13 @@ requiring a Ctrl+Shift+W to close and the following cleanup work of
 performance issue, but there is none.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/20-04/'>20.04</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/bash/'>Bash</a></h4></li></ul>

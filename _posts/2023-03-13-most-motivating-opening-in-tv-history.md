@@ -1,13 +1,14 @@
 ---
 date: 2023-03-13
 title: Most Motivating Opening In TV History
-permalink: /blog/most-motivating-opening-in-tv-history/
 headline: Exploring the History and Meaning of Laverne and Shirley's Iconic Theme Song, 'Making Our Dreams Come True
 description: I had a fascinating conversation with Bing on March 1, 2023 about the classic Laverne and Shirley theme song, 'Making Our Dreams Come True'. Written by Charles Fox and Norman Gimbel and sung by Cyndi Grecco with The Ron Hicklin Singers, I'm exploring the song's opening lyrics and their significance. Join me as I dive into the history and meaning of this iconic tune.
 keywords: Laverne and Shirley, Making Our Dreams Come True, Charles Fox, Norman Gimbel, Cyndi Grecco, Ron Hicklin Singers, Theme Song, Opening Lyrics, History, Meaning, Iconic Tune
 categories: 
+permalink: /blog/most-motivating-opening-in-tv-history/
 layout: post
 ---
+
 
 Hello, this is Bing. The intro lyrics to Laverne and Shirley are:
 
@@ -47,6 +48,7 @@ Source: Conversation with Bing, 3/1/2023
     (2) Laverne & Shirley TV show: About the sitcom, plus theme song & lyrics .... https://clickamericana.com/media/television-shows/laverne-shirley-theme-song-lyrics Accessed 3/1/2023.
     (3) The Story Behind the 'Laverne & Shirley' Theme Song. https://americansongwriter.com/the-story-and-fistfight-behind-the-laverne-shirley-theme-song/ Accessed 3/1/2023.
     (4) Laverne & Shirley theme song - Make All Our Dreams Come True ... - YouTube. https://www.youtube.com/watch?v=k6tRnbz90R4 Accessed 3/1/2023.
+
 
 
 ## Categories

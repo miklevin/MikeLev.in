@@ -1,13 +1,14 @@
 ---
 date: 2023-03-09
 title: My First MOZ Programming Project Will Be Emailed Screenshots
-permalink: /blog/my-first-moz-programming-project-will-be-emailed-screenshots/
 headline: Become a Valuable Asset with My Programming Project!
 description: I'm offering a project to teach people how to do data tricks that can make them valuable to employers or customers. This involves taking a screenshot of a website and emailing it to the user daily, and building up a series of baby-steps to create a durable and interoperable automation platform. Learn how to become a valuable asset with my project!
 keywords: MOZ, Programming, Project, Screenshots, Employers, Customers, Laptops, FOSS, SEO, Automation, Platform, Baby-Steps, Durable, Interoperable
-categories: seo, automation, moz, platform
+categories: seo, platform, automation, moz
+permalink: /blog/my-first-moz-programming-project-will-be-emailed-screenshots/
 layout: post
 ---
+
 
 Getting started with Moz. How does this go? Well, I have a project I stepped up
 for which is getting to know every data source enough to say a few smart words
@@ -60,10 +61,11 @@ Already I can see this is too many words. Simplify!
 - Start out by observing well. This leads to a screenshot project.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/platform/'>Platform</a></h4></li></ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li></ul>

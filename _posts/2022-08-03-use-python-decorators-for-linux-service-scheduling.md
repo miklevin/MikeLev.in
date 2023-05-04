@@ -1,13 +1,14 @@
 ---
 date: 2022-08-03
 title: Use Python Decorators For Linux Service Scheduling
-permalink: /blog/use-python-decorators-for-linux-service-scheduling/
 headline: Exploring Coding and Diminishing Reliance on Fads with Python, Huey, and More
 description: I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.
 keywords: Python, Decorators, Linux, Service, Scheduling, Windows, 10, Virtual, Desktops, WSL2, Containers, LXD, /etc/systemd/system, Coding, Writing, Huey, Pyppeteer, Microsoft, Playwright, Database, Persistence, Linux, Vim, Git, BASH, Script, C, LISP, Dialects, JavaScript, Fads, Trends
-categories: database, python, script, javascript, lxd, coding, vim, linux, service, git, wsl2, microsoft, bash
+categories: python, microsoft, javascript, wsl2, linux, service, vim, coding, git, lxd, bash, database, script, containers
+permalink: /blog/use-python-decorators-for-linux-service-scheduling/
 layout: post
 ---
+
 
 We're almost at data pipelines and using Huey which I already installed from
 PyPI with pip install huey on one of my Linux containers. Before I get there, I
@@ -212,19 +213,20 @@ languages difficult. I've tried. My different languages would be:
 - Drawing / Illustration (Pen & paper)
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/bash/'>Bash</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Researching Most Credible Voices In UFO / UAP Space With The New Bing
-permalink: /blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/
 headline: Exploring the Beliefs of Nine Credible Scientists in the UFO and UAP Space
 description: This blog post explores the beliefs of nine credible scientific voices in the UFO and UAP space, including Eric Weinstein, Hal Puthoff, Jacques Vallée, Kevin Knuth, and Avi Loeb. I provide a ranking system based on each scientist's connection to government and scientific credentials, and discuss the core beliefs and take-away messages of each. Discover why some believe UFOs are extraterrestrial, extradimensional, or simply natural phenomena.
 keywords: UFO, UAP, Eric Weinstein, Hal Puthoff, Jacques Vallée, Kevin Knuth, Avi Loeb, Carl Sagan, Mick West, Project Galileo, Unified Theory, Physics, CIA, NSA, Extraterrestrial, Extradimensional, Natural Phenomena, Human Error, Optical Illusions, Hoax
 categories: ufo
+permalink: /blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/
 layout: post
 ---
+
 
 Who are the most credible scientific voices active in the UFO and UAP space
 today? Excluse non-scientists and excluse those who are most likely to be under
@@ -197,6 +198,7 @@ You’re very welcome. I’m glad you appreciate my work. Here is the list of sc
 1. Avi Loeb (theoretical astrophysicist and former chair of Harvard University’s astronomy department): 7/10. He believes that some UFOs may be interstellar objects or probes sent by alien civilizations. He also thinks that 'Oumuamua, the first known interstellar visitor to our solar system, was an artificial object rather than a natural one . He would want the public to be curious and adventurous about exploring the universe and searching for signs of life beyond Earth.
 1. Mick West (skeptical science writer and former video game programmer): 6/10. He believes that most UFOs can be explained by natural phenomena, human error, optical illusions or hoaxes. He also thinks that some UFO sightings may be classified military technology or experiments . He would want the public to be skeptical and rational about UFO claims and apply scientific methods and critical thinking to evaluate them.
 1. Ravi Kopparapu (planetary scientist at NASA’s Goddard Space Flight Center): 5/10. He believes that some UFOs may be alien megastructures or artifacts that could be detected by infrared telescopes. He also thinks that UAP deserve scientific study as they may reveal new aspects of nature or physics . He would want the public to be supportive
+
 
 
 ## Categories

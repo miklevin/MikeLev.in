@@ -1,13 +1,14 @@
 ---
 date: 2022-04-08
 title: Jupyter Notebooks Are Dev Tools With nbdev
-permalink: /blog/jupyter-notebooks-are-dev-tools-with-nbdev/
 headline: Exploring nbdev and LPvg with JupyterLab to Automate 24x7 Systems
 description: I'm exploring nbdev and LPvg to advance my knowledge of Python and the tools available for 24x7 automated systems. I'm using JupyterLab on Windows and have learned about commands like nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, and more to help with the release process. I'm excited to see what I can do with nbdev and am embracing the challenge of incorporating it into my workflow
 keywords: Jupyter, Notebooks, Dev, Tools, nbdev, LPvg, Python, Commands, nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, Papermill, Parameterize, Notebooks, nbdev_bump_version, git, push, make, pypi, pip, installable, libraries, mistune, version, 0.8.4, Anaconda, J
-categories: version, python, lpvg, nbdev, git, pypi, jupyter
+categories: python, pypi, notebooks, nbdev, jupyter, version, git, lpvg
+permalink: /blog/jupyter-notebooks-are-dev-tools-with-nbdev/
 layout: post
 ---
+
 
 Well, I just copy/pasted that entry from yesterday about whatsametafor.io and
 nbdev out to that site. In fact, this very entry now will probably be the
@@ -337,13 +338,14 @@ Okay, so what I want to figure out most is how the html files in /docs get
 published. Clearly the index.html becomes README.md for Github's main project
 page.
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/version/'>Version</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/version/'>Version</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>

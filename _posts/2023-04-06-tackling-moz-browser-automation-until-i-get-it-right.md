@@ -1,13 +1,14 @@
 ---
 date: 2023-04-06
 title: Tackling MOZ Browser Automation Until I Get It Right
-permalink: /blog/tackling-moz-browser-automation-until-i-get-it-right/
 headline: Exploring Automated Browser Tasks with MOZ Pro - Join Me on My Journey!
 description: I'm tackling browser automation with the MOZ Links API and Chrome, and have set up a Playwright context on a Linux server. I'm writing code to automate tasks for MOZ Pro, and running the code from the command line with 'python mozpro.py -k' to analyze keywords and download the results. Join me on my journey as I explore the possibilities of automated browser tasks with MOZ Pro!
 keywords: Browser Automation, MOZ Links API, Chrome, Playwright, Linux Server, MOZ Pro, Python, Keyword Explorer, CSV File, Headless Chrome, Endpoints, Command Line
-categories: browser automation, python, moz links api, moz pro, chrome
+categories: python, moz pro, moz links api, browser automation, chrome
+permalink: /blog/tackling-moz-browser-automation-until-i-get-it-right/
 layout: post
 ---
+
 
 Wow, okay, I just slammed out what I think is a great introduction to the MOZ
 Links API. Knock people's socks off with how effectively I can walk people
@@ -421,11 +422,12 @@ parameters! I'm not going to start a holy endeavor to cover everything. I'm
 just going to provide a few excellent template examples.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/chrome/'>Chrome</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-07
 title: What is the best thing I can do for Moz as a subject matter expert?
-permalink: /blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/
 headline: Become a Linux Server Admin and Junior DevOps Person in Days with LPvg and AI Automation!
 description: I'm Mike Levin, an SEO in NYC passionate about learning Linux, Python, vim & git (LPvg). I'm advocating for the use of Linux API and Debian-style repo startups to help automate tasks and speak on behalf of the spoken word. I'm currently working as a Subject Matter Expert for MOZ and helping people go from Windows or Mac laptop users to Linux server admins and junior devops people and data engineers.
 keywords: SEO, NYC, Linux, Python, Vim, Git, LPvg, Linux API, Debian-style repo, Windows, Mac, Subject Matter Expert, MOZ, Automation, Scripts, Apps, Networks, Data Engineering, Excel, Manual Steps, AI, JupyterLab, Apache, MIT, Licenses, Humanly Accessible API-Layer, Type-2 Automation, Python, Pandas, Proprietary Tools, WSL, Jupyter,
-categories: automation, python, ai, nyc, mac, seo, vim, lpvg, moz, excel, linux, git, wsl, jupyterlab
+categories: python, scripts, jupyterlab, linux, vim, wsl, mac, moz, nyc, networks, automation, git, seo, lpvg, pandas, ai, excel
+permalink: /blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/
 layout: post
 ---
+
 
 Hello World. TLDR: This is an introduction and an argument for a tech platform for SEO called LPvg, for Linux, Python, vim & git. It's based on the world being suddenly different because Ubuntu Linux just became a canonical part of Windows and Mac. Therefore, the era of generic tech is upon us, and now is a good time to jump on the bandwagon. The rest of the article is how.
 
@@ -80,20 +81,21 @@ Browser automation is a very deep and special sort of magic I always used to con
 I know this article is an awful lot to absorb. This is why I make such a modest first step of just activating WSL on your Windows laptop or MultiPass Ubuntu on your Mac. Unfortuanly what goes into making an instance of Linux-hosted JupyterLab then accessible to the Windows or Mac side is not so straight forward. This, plus systemd being turned off by default, I believe are the 2 main barriers to this baby-step approach to hands-on Linux from being more popular. In my estimation we are just one properly pre-configured WSL Linix server away from a Jupyter+Linux revolution that bridges the gap between Jupyter "Lost" mode where you have to sit there and hit a button versus true (Type-2) 24x7 Linux daemon automaton.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/excel/'>Excel</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/nyc/'>NYC</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/excel/'>Excel</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-04-25
 title: Steve Jobs and Bill Gates having Amiga-envy
-permalink: /blog/steve-jobs-and-bill-gates-having-amiga-envy/
 headline: Creating an AI-Assisted Journaling System with Vim/NeoVim and Python
 description: I'm working on an AI-assisted YAMLesque journaling system and have made changes to my website using Jekyll, Liquid Template, and Python to create an open source SEO software. I'm almost finished and ready to release my post, so come and see the results of my project!
 keywords: AI, YAMLesque, journaling, Bing/Bard, Vim/NeoVim, Python, Open Source, SEO, Linux, Category Page, Jekyll, Liquid Template, prev/next arrows, Markdown, Mermaid, Synchronization, OpenAI
-categories: jekyll, python, open source, ai, journaling, seo, linux, openai
+categories: python, journaling, linux, openai, open source, jekyll, seo, ai
+permalink: /blog/steve-jobs-and-bill-gates-having-amiga-envy/
 layout: post
 ---
+
 
 I am making an AI-assisted YAMLesque journaling system. The Content + SMEs
 meeting is going on now. It's so weird to type here with one of those
@@ -178,14 +179,15 @@ WARN. And so that will set me up for writing it back into YAMLESQUE, and
 that'll be a good place to stop for the day.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

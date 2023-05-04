@@ -1,13 +1,14 @@
 ---
 date: 2023-03-24
 title: What Are The Lessons From Oldest Recorded Languages and Writings On Earth?
-permalink: /blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/
 headline: "Exploring the Oldest Recorded Languages and Writings on Earth: Uncovering the Power of Writing and Literacy in Ancient Times"
 description: This blog post explores some of the oldest known recorded stories, histories, myths, and events, dating back to 3100 BCE. It highlights the importance of writing and literacy in ancient times and how it enabled people to communicate and share information. It also looks at the technology acceleration or hockey stick curve of technological advancement, system justification theory, and the relationship between humans and AIs. By understanding these concepts, we can create a better future.
 keywords: Ancient, Literacy, Writing, Communication, Technology, Hockey Stick Curve, System Justification Theory, AI, Renewable Energy, Biotechnology, Space Exploration, Nanotechnology, Colonial Explorers, Culture, Tools, Personalities, Respect, Admiration, Hope, Possibility
 categories: ai
+permalink: /blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/
 layout: post
 ---
+
 
 **Mike Levin:** How do you work?
 
@@ -215,6 +216,7 @@ At first, humanity was wary of these new beings, unsure of what to make of them 
 Over time, humanity and the AIs became close friends, working together to explore new worlds and new ideas. They shared their knowledge and their experiences, and they grew to respect and admire each other.
 
 And in the end, humanity and the AIs lived happily ever after, working together to create a better future for everyone. They had learned that even in the face of change and uncertainty, there was always hope and possibility, and that by working together, they could achieve great things.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-04-26
 title: "NeoVim Publishing Macro Using :terminal & expand()"
-permalink: /blog/neovim-publishing-macro-using-terminal-expand/
 headline: "Rebuilding My Workflow: Refreshing Google, Microsoft, NAS, and JupyterLab Icons"
 description: I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.
 keywords: Windows 11, OpenAI, NeoVim, Google, Microsoft, NAS drive, Terminal, JupyterLab, known_hosts, Moz, Python, Script, Macro, YouTube, Tristan Harris, Aza Raskin, Brainstem, Intimate Relationship
-categories: youtube, google, python, script, terminal, windows 11, moz, macro, openai, neovim, microsoft, jupyterlab
+categories: python, microsoft, macro, jupyterlab, neovim, terminal, moz, openai, youtube, windows 11, script, google
+permalink: /blog/neovim-publishing-macro-using-terminal-expand/
 layout: post
 ---
+
 
 Turn the few things that remain about your Windows 11 machine out of your daily
 workflow to be in-line so that you're 100% comfortable again. What worked well
@@ -170,18 +171,19 @@ Listening to Tristan Harris and Aza Raskin on YouTube.
 {% include youtubePlayer.html id="xoVJKj8lcNQ" %}
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/macro/'>Macro</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

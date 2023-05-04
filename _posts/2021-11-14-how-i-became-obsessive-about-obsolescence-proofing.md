@@ -1,13 +1,14 @@
 ---
 date: 2021-11-14
 title: How I Became Obsessive About Obsolescence-Proofing
-permalink: /blog/how-i-became-obsessive-about-obsolescence-proofing/
 headline: "Never Become Obsolete: My Journey to Obsolescence-Proof My Career After a Near-Death Experience"
 description: Mike Levin, an SEO expert who coined the phrase 'long-tail marketing' in the industry, is determined to stay relevant in his field. After his father's death due to diabetes and heart failure, Mike was nearly killed by a robber, motivating him to study SEO with a 'fool me once won't get fooled again' attitude. With HitTail, a keyword suggestion tool he created in 2005, Mike is determined to stay ahead of the curve and never become obsolete.
 keywords: SEO, Long-Tail Marketing, HitTail, Keyword Suggestion Tool, Parent, Diabetes, Heart Failure, Robber, Textile Quality Assurance, Check Cashing Store
 categories: seo
+permalink: /blog/how-i-became-obsessive-about-obsolescence-proofing/
 layout: post
 ---
+
 
 Hello World! I'm Mike Levin. I'm an SEO who hasn't done much SEO for myself in
 ages. In the early days before Google got so smart (before RankBrain), I could
@@ -79,6 +80,7 @@ way the way with my marriage and career going downhill, I was terrified of
 going obsolete in my own field just like my dad. So I made a study of it with a
 fool-me-once won't get fooled again attitude. I was 40. It was 2010. I was
 losing altitude, terrified and motivated.
+
 
 
 ## Categories

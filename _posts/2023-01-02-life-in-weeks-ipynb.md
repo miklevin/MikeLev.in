@@ -1,13 +1,14 @@
 ---
 date: 2023-01-02
 title: life_in_weeks.ipynb
-permalink: /blog/life-in-weeks-ipynb/
 headline: "Exploring My Life Through Photos: Join Me on My Journey With life_in_weeks.ipynb!"
 description: I'm creating a Jupyter Notebook called 'life_in_weeks.ipynb' that uses a namedtuple-per-week approach to explore my life through photos. Using the Google Photos API, I'm filtering images from Jan 02, 2023 and beyond. Come explore my life with me!
 keywords: Jupyter Notebook, life_in_weeks.ipynb, namedtuple-per-week, Google Photos API, Jan 02, 2023, explore life, photos, filter images
 categories: jupyter notebook
+permalink: /blog/life-in-weeks-ipynb/
 layout: post
 ---
+
 
 What do you do once you've created a week_index of your life starting from the
 week you were born? Well, you scan Google Photos. Oh, this idea is too good to
@@ -21,6 +22,7 @@ happy with this namedtuple-per-week approach. Next step? It seems the Google
 Photos API supports:
 
     dateFilter={'ranges': [{'startDate': start_date}]},
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-31
 title: "Movie Night: From Mean Girls to Heathers and Beyond!"
-permalink: /blog/movie-night-from-mean-girls-to-heathers-and-beyond/
 headline: "Movie Night: Exploring the Contrasts of Our Favorite Films and Characters"
 description: Last night I had Movie Night with my 11 year old kid, watching Mean Girls, ET, Back to The Future, The Godfather, and The Muppet Movie. I wanted to show my kid the contrast between myself and the characters in the movie, and the importance of true vibes and friendship, strategy and capability. I also had a great time catching up with my friend Guy, sipping wine and making fun of Kevin-what's-his-face. I understand the need to be
 keywords: Movie Night, Mean Girls, Heathers, 11 year old, ET, Back to The Future, The Godfather, The Muppet Movie, Vibes, Friendship, Strategy, Capability, Guy, Wine, Kevin-what's-his-face, Jordan Robinson, Ira, Jumanji, Superman, Reading, Fantasy, Compassion, Empathy, Richard Lovelace, Inner Freedom, Physical Prison, Minds, Freedom, Imagination
 categories: strategy, empathy
+permalink: /blog/movie-night-from-mean-girls-to-heathers-and-beyond/
 layout: post
 ---
+
 
 Last night was Movie Night with The Kid. The Kid is 11 years old, rapidly
 approaching twelve. Movie nights of recent past have included movies of their
@@ -251,6 +252,7 @@ I may be remembering Heathers totally wrong.
 > Enjoy such liberty.<br />
 > <br />
 > <cite>&#151;Richard Lovelace, 1642</cite><br />
+
 
 
 ## Categories

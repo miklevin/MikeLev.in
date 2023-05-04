@@ -1,13 +1,14 @@
 ---
 date: 2022-05-07
 title: My Blogging System Is Now My Weekly Report System Too
-permalink: /blog/my-blogging-system-is-now-my-weekly-report-system-too/
 headline: I Have Created a System for Writing Weekly Reports with My Vimminess!
 description: I have created a system for writing weekly reports that is similar to how I write blog posts. I have set up the necessary files, scripts, and repository, and tested the release. I encountered a problem with the git push, but I was able to create a blog post, move it to my Github private repo, and render the markdown into HTML. Now I have a system in place to make the process flow with my vimminess!
 keywords: weekly-reports, system, files, scripts, repository, release, git-push, blog-post, Github, private-repo, markdown, HTML, vimminess, sites.txt, gaids.txt, script, release-scripts, copy-paste, email
-categories: script, github, email, html
+categories: scripts, email, html, script, github
+permalink: /blog/my-blogging-system-is-now-my-weekly-report-system-too/
 layout: post
 ---
+
 
 Okay, what a kick-ass weekly report. Now make them easy to deliver. I'd be
 crazy not to continue writing them in vim exactly like this. Now I have to
@@ -173,10 +174,11 @@ Double-click browsme.html, copy/paste from browser (local machine!) to email.
 Add title and greetings. Hit send. Weekly report sent and killer system in
 place to make it flow along with all the rest of my vimmy vim vimminess! Woot!
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li></ul>
+<li><h4><a href='/html/'>HTML</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

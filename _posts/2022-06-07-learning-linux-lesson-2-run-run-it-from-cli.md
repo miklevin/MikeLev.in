@@ -1,13 +1,14 @@
 ---
 date: 2022-06-07
 title: "Learning Linux Lesson #2: RUN! Run it from CLI!"
-permalink: /blog/learning-linux-lesson-2-run-run-it-from-cli/
 headline: Embrace the Future of Computing with Linux - It's Easier Than Ever!
 description: As someone who knows that Linux is the future, I'm here to tell you that learning it doesn't have to be intimidating. With the help of commands like ls, cd, and pwd, you can easily navigate the command-line interface. And with Windows 11, it's easier than ever to install Linux. So take my advice and join the future of computing!
 keywords: Linux, CLI, Terminal, Shell, ls, cd, pwd, Windows 11, Dorothy, Oz, Install, Future, Computing, Intimidating, Microsoft, Apple
-categories: terminal, future, windows 11, linux, microsoft
+categories: microsoft, future, linux, terminal, windows 11
+permalink: /blog/learning-linux-lesson-2-run-run-it-from-cli/
 layout: post
 ---
+
 
 Two legs good. Four legs baaad. The second lesson in learning Linux is to not
 have panic attacks when you open those little black type-in boxes. And believe
@@ -38,11 +39,12 @@ my advice and RUN. Make sure you're running with copies of things and that no
 single instance is all that important.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

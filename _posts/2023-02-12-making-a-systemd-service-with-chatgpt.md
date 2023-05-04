@@ -1,13 +1,14 @@
 ---
 date: 2023-02-12
 title: Making a SystemD Service With ChatGPT
-permalink: /blog/making-a-systemd-service-with-chatgpt/
 headline: "Creating a SystemD Service with ChatGPT: A Step-by-Step Guide"
 description: I'm writing a systemd service that uses GNU screen to run a python script in the background. In this blog post, I share the details of the service, including the command to be run, the user account to run the service as, and the environment variables to be set. I also explain the meaning of the word 'majordomo' and how to create a nbdev version 2 project in a folder called majordaemo.
 keywords: SystemD, Service, ChatGPT, GNU, Screen, Python, Script, ExecStart, Directive, Daemonizing, Majordomo, Triple Entendre, Git, Github, Linux, Folder, Nbdev, Version 2, Project, Executable, Virtual Environment, Gmail, IMAP, Inbox, Unread, Seen Flag
-categories: systemd, python, script, github, nbdev, chatgpt, git, service, linux
+categories: python, git, chatgpt, service, linux, nbdev, systemd, script, github
+permalink: /blog/making-a-systemd-service-with-chatgpt/
 layout: post
 ---
+
 
 Hey ChatGPT: I'm on a headless Linux server that's connected to the net. I have
 SSH access to this server and admin rights. This server is running Linux
@@ -312,15 +313,16 @@ This script works in a similar way to the previous one. It connects to the Gmail
 As with the previous script, you will need to replace the username and password variables with your own Gmail address and application password.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

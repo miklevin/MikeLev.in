@@ -1,13 +1,14 @@
 ---
 date: 2022-06-20
 title: Github Pages Jekyll Previous/Next Arrows For Categories
-permalink: /blog/github-pages-jekyll-previous-next-arrows-for-categories/
 headline: Discovering a Tag-Aware Solution for Cross-Cutting & Category-Specific Navigation Arrows on Github Pages Jekyll
 description: This blog post explains how I figured out a way to have two different meanings for the previous/next arrows on my site, without having to use a plugin. I found a tag-aware solution that worked for me and then implemented a one-to-many relationship between categories. I'm sharing my journey and the solutions I found so readers can benefit from my experience.
 keywords: Github,Pages,Jekyll,Previous,Next,Arrows,Categories,Tag-Aware,Solution,Skite,Slice,System,Frontmatter,Route,Test,Generate,Site,Layouts,Posts,Commit,Push,Maintain,One-to-Many,Relationship
 categories: 
+permalink: /blog/github-pages-jekyll-previous-next-arrows-for-categories/
 layout: post
 ---
+
 
 One of the most profoundly differentiating and SEO-lovely things I could do on
 my site is to have 2 different meanings for the previous/next arrows on my
@@ -143,6 +144,7 @@ I will have to maintain a one-to-many relationship between categories and posts
 manually (versus many categories to many posts which Jekyll supports) in order
 for this solution to not have funky side-effects. I'm iterating through a loop,
 but expecting one and only one category to return (if any) for any given post.
+
 
 
 ## Categories

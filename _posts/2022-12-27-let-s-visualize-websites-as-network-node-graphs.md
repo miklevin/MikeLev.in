@@ -1,13 +1,14 @@
 ---
 date: 2022-12-27
 title: Let's Visualize Websites as Network Node Graphs
-permalink: /blog/let-s-visualize-websites-as-network-node-graphs/
 headline: Visualizing Websites with 3D Interactive Graphs in Jupyter Notebooks
 description: I've been researching the best way to visualize large link and node graphs in Jupyter notebooks, comparing the advantages and disadvantages of using NetworkX and Bokeh, and have decided to try out Plotly. Over the holiday I made progress and outlined a plan to create 3D interactive visualizations in JupyterLab. I'm also teaching stakeholders how to access data on their own by setting up an instance of Linux WSL, installing nodejs and jupyter.
 keywords: Visualize, Websites, Network, Node, Graphs, Jupyter, Notebooks, NetworkX, Bokeh, Plotly, 3D, Interactive, Visualizations, JupyterLab, Linux, WSL, Nodejs, Labextension, Automating, Delivery, Portable, Low-Dependency, Apt_Install, Pip_Install, Git_Install
-categories: jupyter, nodejs, linux, wsl, network, jupyterlab
+categories: notebooks, jupyterlab, linux, wsl, jupyter, network, nodejs
+permalink: /blog/let-s-visualize-websites-as-network-node-graphs/
 layout: post
 ---
+
 
 The time has come to visualize link-graphs in Jupyter, so I ask ChatGPT what it
 thinks is best:
@@ -87,12 +88,13 @@ things like lxml and such, and git_install for both git cloning and post-pip
 stuff like playwright and jupyter install commands.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/network/'>Network</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li></ul>

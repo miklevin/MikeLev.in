@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: What are the most important news for me to know today?
-permalink: /blog/what-are-the-most-important-news-for-me-to-know-today/
 headline: Discover the Latest News and Resources to Stay Valuable and Relevant in Tech!
 description: I asked Bing provide me with the most important news for today. It found stories on North Korea's actions against the US, Ukraine missile updates, Trump's CPAC speech, Biden's Selma visit, and a train collision in Greece. Also talked about my LPvg passion.
 keywords: North Korea, US, Ukraine, Missile, Trump, CPAC, Biden, Selma, Greece, Train Collision, Linux, Python, Vim, Git, Democratization, AI, Fashion, Retail, Politics, Internet
-categories: python, ai, vim, git, linux, internet
+categories: python, linux, vim, git, ai, internet
+permalink: /blog/what-are-the-most-important-news-for-me-to-know-today/
 layout: post
 ---
+
 
 Hello, this is Bing. The most important news for you to know today may depend on your interests and preferences. However, some of the top news stories that I found are:
 
@@ -93,12 +94,13 @@ I’m happy to help you with that. I can provide you with some information and r
 I always had regrets I didn't build something bigger. I mean I did HitTail and a few software tricks. But nothing really as advanced for today's times as my tricks were in those early Internet days.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/internet/'>Internet</a></h4></li></ul>

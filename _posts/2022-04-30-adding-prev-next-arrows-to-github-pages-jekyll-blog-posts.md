@@ -1,13 +1,14 @@
 ---
 date: 2022-04-30
 title: Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts
-permalink: /blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/
 headline: Adding Previous/Next Links to My Blog Posts with Jekyll and Github Pages
 description: "I recently created a blog slicing and dicing system and am adding previous/next links to my blog posts. To do this, I'm directly inserting them into the markdown files and using Github Pages Hacker Theme page to grab the raw code for the post.html file. I checked to make sure Google Analytics tag manager code was still being applied and copied the post.html file into the `_layouts` folder of each of my sites. Come read more about my blog slicing and dicing system!"
 keywords: "Github Pages, Jekyll, Blog Posts, Previous/Next Arrows, Markdown, Hacker Theme page, Raw Code, `_layouts` folder, Google Analytics, Tag Manager, 404 Issue, Release Script"
-categories: jekyll, google analytics
+categories: jekyll, github pages, google analytics
+permalink: /blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/
 layout: post
 ---
+
 
 Hello, hello, hello! This is your Pythonic Ally again. The time has come the
 walrus said to add previous/next links to the blog posts in the blog slice &
@@ -120,8 +121,10 @@ Do a release and get at least some barebones (unformatted with CSS) prev/next
 arrows propagated all over the place...
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Are Quantum Computers Fake? Proof? What About Superdeterminism?
-permalink: /blog/are-quantum-computers-fake-proof-what-about-superdeterminism/
 headline: Exploring Quantum Computing and the Possibility of a Multiverse
 description: This blog post explores the evidence for quantum computing and quantum supremacy, as well as the events that could provide absolute proof that quantum computing is not false. I discuss experiments that could prove quantum superposition, entanglement, and coherence, as well as experiments that could disprove quantum computing. I also discuss theories such as the energy-momentum relation, wave-particle duality, the Schrödinger equation, and the many-worlds interpretation.
 keywords: Quantum Computers, Fake, Proof, Superdeterminism, Evidence, Quantum Supremacy, Experiments, Quantum Superposition, Entanglement, Coherence, Energy-Momentum Relation, Wave-Particle Duality, Schrödinger Equation, Many-Worlds Interpretation, Bohmian Mechanics, Decoherence Theory, Consistent Histories, Quantum Logic, Relational Quantum Mechanics, Quantum Information Theory, Multiverse Theory, Double-Slit Experiment
-categories: 
+categories: experiments
+permalink: /blog/are-quantum-computers-fake-proof-what-about-superdeterminism/
 layout: post
 ---
+
 
 Do we have clear evidence that quantum computers really work? What is quantum supremacy and has it really been proven or has it all really just been simulations of quantum computers using traditional computers? What events will be absolute proof that the premise of quantum computing is not false? What about time crystals? Are they proof or all just simulated too?
 
@@ -248,6 +249,7 @@ Source: Conversation with Bing, 3/8/2023
     (4) Four ways you can see the multiverse | New Scientist. https://www.newscientist.com/article/dn26267-four-ways-you-can-see-the-multiverse/ Accessed 3/8/2023.
     (5) What is the multiverse—and is there any evidence it really exists?. https://www.nationalgeographic.com/science/article/what-is-the-multiverse Accessed 3/8/2023.
     (6) A thought experiment: Does the multiverse theory disprove the existence .... https://medium.com/predict/a-thought-experiment-does-the-multiverse-theory-disprove-the-existence-of-god-5993de2a502 Accessed 3/8/2023.
+
 
 
 ## Categories

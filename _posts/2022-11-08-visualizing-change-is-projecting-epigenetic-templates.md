@@ -1,13 +1,14 @@
 ---
 date: 2022-11-08
 title: Visualizing Change is Projecting Epigenetic Templates
-permalink: /blog/visualizing-change-is-projecting-epigenetic-templates/
 headline: "Exploring Particles, Fractals, and Epigenetics: Uncovering the Power of Design in Our DNA"
 description: As a YouTuber, I am exploring the idea that particles have memories, self-similarity is found throughout because of fractals, and that our DNA contains 3.2 billion base-pairs of amino acids. I am amazed by the implications of epigenetics and the power to shape ourselves and our environment. I'm also fascinated by the idea of life having a way of returning to the center, no matter what. Join me as I explore these ideas.
 keywords: Visualizing Change, Projecting Epigenetic Templates, Particles, Memories, Self-Similarity, Fractals, DNA, Amino Acids, Epigenetics, Shaping, Environment, Michael Levin, Scrambling, Frog Faces, Self-Correcting, Designs, Encoded, DNA, Being
 categories: 
+permalink: /blog/visualizing-change-is-projecting-epigenetic-templates/
 layout: post
 ---
+
 
 I am the hard-to-discover on YouTube, and once discovered even harder to
 follow, for you see, I follow no particular formula and I despise editing. Yes,
@@ -84,6 +85,7 @@ not? An actual 3D-esque design is encoded into the DNA. Is the image of a frog
 not in a frog's DNA? Is the image of you not in your DNA? If not, then what? Is
 there some level of sentient awareness where simply looking at a lifeform's DNA
 reveal what sort of being it is?
+
 
 
 ## Categories

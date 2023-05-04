@@ -1,13 +1,14 @@
 ---
 date: 2023-03-13
 title: Build Web Scraper With Bing From Scratch
-permalink: /blog/build-web-scraper-with-bing-from-scratch/
 headline: Build a Web Scraper with Bing in Python - Step-by-Step Guide
 description: This step-by-step guide shows you how to build a web scraper with Bing from scratch in Python, starting with a basic example of printing 'Hello World' and building up to extracting the title tag with BeautifulSoup4. Learn how to collect all the links from a webpage, convert them from relative to absolute links, and store them in a persistent dictionary using SQLite. Discover how to compete with commercial web scraping products and get the same features for less.
 keywords: Web Scraper, Bing, Python, Hello World, Requests, BeautifulSoup4, Links, Relative Links, Absolute Links, SQLite, Octoparse, Import.io, ProWebScraper, Mozenda, User-friendly, Scalable, Reliable, Feature-rich, Expensive, Flexible
 categories: python, sqlite, bing
+permalink: /blog/build-web-scraper-with-bing-from-scratch/
 layout: post
 ---
+
 
 Give some examples in Python that build up from Hello World to doing a Requests package get of a URL and finally extracting the title tag with BeautifulSoup4.
 
@@ -155,6 +156,7 @@ Source: Conversation with Bing, 3/11/2023
     (4) Picking the Best Web Scraping Tools – A Complete Comparison!. https://www.stupidproxy.com/web-scraping-tools/ Accessed 3/11/2023.
     (5) The Best Web Scraping Tools for 2022 | ScrapingBee. https://www.scrapingbee.com/blog/web-scraping-tools/ Accessed 3/11/2023.
     (6) 24 Best Web Scraping Tools and Software in 2023 - ScrapeHero. https://www.scrapehero.com/top-free-and-paid-web-scraping-tools-and-software/ Accessed 3/11/2023.
+
 
 
 ## Categories

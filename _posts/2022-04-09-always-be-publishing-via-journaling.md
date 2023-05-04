@@ -1,13 +1,14 @@
 ---
 date: 2022-04-09
 title: Always Be Publishing Via Journaling
-permalink: /blog/always-be-publishing-via-journaling/
 headline: "Sharing My Web Development Projects: WhatsaMetaFor.io, guerillatech.com and more!"
 description: I'm a web developer and I'm proud to show off my sites, including WhatsaMetaFor.io, guerillatech.com, levinux.com, linuxpythonvimgit.com, lundervand.com, mike-levin.com, mikeateleven.com, mikelev.in, mikelevinseo.com, pipulate.com, pythonically.com, pythonically.org, removablefinger.com
 keywords: web developer, WhatsaMetaFor.io, guerillatech.com, levinux.com, linuxpythonvimgit.com, lundervand.com, mike-levin.com, mikeateleven.com, mikelev.in, mikelevinseo.com, pipulate.com, pythonically.com, pythonically.org, removablefinger.com, tardigrade
 categories: 
+permalink: /blog/always-be-publishing-via-journaling/
 layout: post
 ---
+
 
 Definitely keep thinking and keep moving forward. Evaluate your sites:
 
@@ -104,6 +105,7 @@ project, which more appropriately belongs on that domain.
 
 Okay, all mikelevinseo.com journal-like content has been yanked over here.
 Commit and publish.
+
 
 ## Categories
 

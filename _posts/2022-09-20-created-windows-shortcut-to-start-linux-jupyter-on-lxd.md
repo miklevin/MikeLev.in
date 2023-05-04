@@ -1,13 +1,14 @@
 ---
 date: 2022-09-20
 title: Created Windows Shortcut To Start Linux Jupyter on LXD
-permalink: /blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/
 headline: Create a Windows Shortcut to Easily Access Linux Jupyter on LXD
 description: "This blog post explains how I created a Windows Shortcut (LXD.lnk) to start a Jupyter server on WSL, getting around API limitations and ensuring the command-line parameters of WSL and LXD work properly. With this shortcut, I can easily visit http://localhost:8888 and start the Jupyter server. Learn how I did it in this post!"
 keywords: Windows Shortcut, Linux Jupyter, LXD, WSL, API Limitations, Command-line Parameters, Exec Command, Localhost, 8888
 categories: lxd, wsl
+permalink: /blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/
 layout: post
 ---
+
 
 Okay, I added LXD.lnk to the WSL2LXD repo. It's very simple:
 
@@ -47,6 +48,7 @@ them on the command-line parameters of wsl and lxd, but that generally doesn't
 work. If it's not permission problems then it's semicolon parsing. It turns out
 that dropping magic little sbin commands into place and calling ***them*** on
 the command-line seems to always work.
+
 
 
 ## Categories

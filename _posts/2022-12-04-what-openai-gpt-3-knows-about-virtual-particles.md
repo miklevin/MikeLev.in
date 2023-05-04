@@ -1,13 +1,14 @@
 ---
 date: 2022-12-04
 title: What OpenAI GPT-3 Knows About Virtual Particles
-permalink: /blog/what-openai-gpt-3-knows-about-virtual-particles/
 headline: Exploring the Laws of Motion with OpenAI GPT-3 and Learning About Virtual Particles
 description: On December 4th, 2022, I had a fascinating conversation with OpenAI GPT-3 about the differences between rotational and circular motion, and the energy required for each. I discovered that rotational motion requires energy, while circular motion does not, and was even taught the three laws of motion formulated by Isaac Newton. Additionally, I learned about the existence of virtual particles, which interact with other particles and exchange energy and momentum, causing changes in the environment.
 keywords: OpenAI, GPT-3, Rotational Motion, Circular Motion, Energy, Isaac Newton, Virtual Particles, Quantum Fluctuations, Casimir Effect, Lamb Shift, Hawking Radiation, Electrons, Photons, Quarks, Gluons
 categories: openai
+permalink: /blog/what-openai-gpt-3-knows-about-virtual-particles/
 layout: post
 ---
+
 
 Wow, December 4th! 2 more days until the final Audible book in the Skippy
 series. The series' nickname is Exforce, for Expeditionary Force, but most
@@ -190,6 +191,7 @@ observable and do not carry any charge.
 ## Do photons carry a charge?
 
 No, photons do not carry a charge, as they are neutral particles.
+
 
 
 ## Categories

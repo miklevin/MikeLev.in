@@ -1,13 +1,14 @@
 ---
 date: 2022-09-30
 title: Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?
-permalink: /blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/
 headline: Exploring the Intersection of Quantum Mechanics and Remote Viewing in 'Entangled Minds
 description: In 'Entangled Minds' by Dean Radin, I explore the CIA's retired Stargate program and its implications for quantum mechanics and non-locality. Through this journey, I have come to realize that particles are only separate from each other because they are different wave crests popping into our realm. I also understand that coherence is meant to be erased, but quantum effects are used for life. Join me on my journey as I explore these fascinating concepts.
 keywords: Quantum Mechanics, Remote Viewing, Entangled Minds, Dean Radin, CIA, Stargate Program, Wave Crests, Coherence, Erasure, Quantum Effects, Life, Virtual, Persistence
 categories: 
+permalink: /blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/
 layout: post
 ---
+
 
 I just bought the Audible Entangled Minds by  Dean Radein. ESP isn't something
 I'm usually interested in, but the talk about the CIA's "retired" Stargate
@@ -20,6 +21,7 @@ others. But all this entanglement is usually erased at a macro-scale and that's
 much the point of existence. Coherence is intended to be erased for answering
 the big questions. Reverting to quantum effects is a sort of regression, but
 it's what's used for life. The way chlorophyll works is a great example.
+
 
 
 ## Categories

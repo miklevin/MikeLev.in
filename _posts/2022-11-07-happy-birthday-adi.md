@@ -1,13 +1,14 @@
 ---
 date: 2022-11-07
 title: Happy Birthday Adi!
-permalink: /blog/happy-birthday-adi/
 headline: "Celebrating 5 Years of Employment: Resolving an Unexpected Table-Join Issue and Keeping My Search Volumes Intact."
 description: Today is my birthday and I'm feeling motivated to keep pushing forward with my progress. Celebrating five years of employment, I'm ready to take on the next task - resolving an unexpected issue with my table-joins. Join me as I explore how to ensure my search volumes don't get lost in the process.
 keywords: Birthday, Adi, Progress, Employment, Task, Resolution, Issue, Table-joins, Search, Volumes, Granular, Maintain, Accomplishment, Focus, Unexpected
-categories: focus, search
+categories: search, focus
+permalink: /blog/happy-birthday-adi/
 layout: post
 ---
+
 
 Take your tiny toe-hold points of progress and move them forward. You've got
 lots. The fact you hold down a day-job and do well enough to keep it for over
@@ -19,8 +20,9 @@ volumes I pulled on a more granular level than higher in the hierarchy are
 getting lost.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/focus/'>Focus</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li></ul>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/focus/'>Focus</a></h4></li></ul>

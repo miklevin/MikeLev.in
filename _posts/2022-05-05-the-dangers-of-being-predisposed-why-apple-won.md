@@ -1,13 +1,14 @@
 ---
 date: 2022-05-05
 title: The Dangers of Being Predisposed (Why Apple Won)
-permalink: /blog/the-dangers-of-being-predisposed-why-apple-won/
 headline: Exploring the Amiga Computer and Apple's Superior Marketing Strategies
 description: As a fan of the Amiga computer, I was angry to see Apple Computers winning in the education market. Jay Miner, the creator of the Amiga, suggested a guerilla tactic to bring his computer magazines into doctors and dentists offices. Despite Apple's superior marketing, I still love the Amiga and look for its features in today's technology. I advocate for Linux, Python, vim & git, and I encourage others to explore these technologies.
 keywords: Amiga, Apple Computers, Education Market, Jay Miner, Guerilla Tactic, Superior Marketing, Linux, Python, Vim, Git
-categories: vim, git, linux, python
+categories: git, python, linux, vim
+permalink: /blog/the-dangers-of-being-predisposed-why-apple-won/
 layout: post
 ---
+
 
 Like every issue with two sides, the side that predisposes your thinking first
 wins. You can see organizations doing this all over the world with both social
@@ -48,10 +49,11 @@ Python, vim & git. But you should use Windows, LISP, emacs and... uh,
 Mercurial? Whatever. Try lots of things. Keep an open mind.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

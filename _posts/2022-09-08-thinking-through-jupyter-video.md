@@ -1,13 +1,14 @@
 ---
 date: 2022-09-08
 title: Thinking Through Jupyter Video
-permalink: /blog/thinking-through-jupyter-video/
 headline: Create a Step-by-Step Jupyter Video Tutorial with Symbolic Links and Nicknames!
 description: I'm creating a Jupyter video tutorial that will make it easy for people to understand. I'll replace the data folder with a symbolic link, shorten the slide, and create a new repo to curl from. I'll also give each sequence/playlist a strong nickname and use single words to make it easier to follow. Join me on this journey and learn more about Jupyter!
 keywords: Jupyter, Video Tutorial, Symbolic Link, Slide, Repo, Curl, Sequence, Playlist, Nickname, Single Words
 categories: jupyter
+permalink: /blog/thinking-through-jupyter-video/
 layout: post
 ---
+
 
 Okay, I want to do this Jupyter video right. I want to do it in a way people
 can follow along step-by-step. That means take the /data folder out of the
@@ -83,6 +84,7 @@ I want to get my single-take practice in, and finish the script for that
 matter. Avoid all the distractions and tangential paths that exist on this
 route. It's a trap! Make this your break-out video. Make this a must-watch
 video for everyone who uses Jupyter.
+
 
 
 ## Categories

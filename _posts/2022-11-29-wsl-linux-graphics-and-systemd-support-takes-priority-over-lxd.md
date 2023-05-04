@@ -1,13 +1,14 @@
 ---
 date: 2022-11-29
 title: WSL Linux Graphics and Systemd Support Takes Priority Over LXD
-permalink: /blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/
 headline: Prioritizing Linux Graphics and Systemd Over LXD in WSL - Check Out My Repository 'drinkme'
 description: "I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes."
 keywords: WSL, Linux, Graphics, Systemd, LXD, Containers, Windows, Subsystem, MikleVin, Repository, Drinkme, Video, Prioritize, Changes
-categories: drinkme, systemd, lxd, linux, wsl
+categories: drinkme, wsl, linux, graphics, changes, systemd, lxd, containers
+permalink: /blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/
 layout: post
 ---
+
 
 {% include youtubePlayer.html id="SgN6nWn6JHk" %}
 
@@ -57,11 +58,12 @@ It's time to make a video, right? ASAP. The iron is hot. Lots of people are
 probably trying to figure out what these changes mean.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

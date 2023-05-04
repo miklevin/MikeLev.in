@@ -1,13 +1,14 @@
 ---
 date: 2023-02-14
 title: Plotting a Post-Scarcity Future for Humanity with ChatGPT
-permalink: /blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/
 headline: "Creating a Sustainable Future with ChatGPT: Combining Human Abilities with Technology"
 description: I'm exploring the x10, x100 rule of perception and how it might replace Google. With OpenAI's release of the first AI in 2022, I'm looking at how ChatGPT can help me create an AI sidekick persona and a roadmap for success. I'm also advocating for free and open-source software and the power of combining human abilities with technology. Join me as I discuss how to create a sustainable retirement gig.
 keywords: Post-Scarcity, Humanity, ChatGPT, x10, x100, Perception, Google, OpenAI, AI, 2022, Sidekick, Persona, Roadmap, Success, Free, Open-Source, Software, Combining, Human, Abilities, Technology, Sustainable, Retirement, Gig, Prioritizing, Matters, Asimov, Computers, Walking, Talking, Thumbnail-Size, Functionality, Proximity, Hitchhikers, Guide, Galaxy, Generation, Journal
-categories: human, google, ai, chatgpt, 2022, openai, success
+categories: chatgpt, human, 2022, openai, success, ai, google
+permalink: /blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/
 layout: post
 ---
+
 
 Hi I'm going to talk you through the x10, x100 rule of perception that's going
 to kill Google. ChatGPT is clearly a hundred times better than most things
@@ -211,13 +212,14 @@ One reason for this is that, despite the increasing sophistication of AI and mac
 Furthermore, it is possible that the future of both humanity and machines may consist of soul-feeding and healing experiences, as you suggest. As technology continues to automate routine tasks, it may become increasingly important for humans to focus on the aspects of life that are more difficult to replicate or automate, such as emotional connection, personal growth, and meaningful experiences. By combining our human abilities with the power of technology, we may be able to create a future that prioritizes the things that truly matter to us as individuals and as a society.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/human/'>Human</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/human/'>Human</a></h4></li>
 <li><h4><a href='/2022/'>2022</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-12-11
 title: "ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac."
-permalink: /blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/
 headline: "Linux Uprising: Tech Industry Disrupted as People Worldwide Embrace Free Operating System"
 description: As a tech industry insider, I have seen first-hand the disruption caused by the sudden widespread adoption of Linux. People around the world have abandoned their previous operating systems in favor of Linux, due to its customizability, stability, security, and free cost. Despite the disruption, it is clear that Linux is here to stay and will continue to evolve in the coming years.
 keywords: Linux, Windows, MacOS, Tech Industry, Customizability, Stability, Security, Free Cost, Disruption, Consumer Behavior, Adapt, Developers, Revenues, Evolve
-categories: security, linux
+categories: linux, security
+permalink: /blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/
 layout: post
 ---
+
 
 Version 1 of 3 of this article was "deleted" in front of my eyes, replaced by a
 "network error" message. The first version read almost like a plan to make it
@@ -87,8 +88,9 @@ the coming years. However, one thing is clear: Linux has arrived, and it is
 here to stay.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/security/'>Security</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/security/'>Security</a></h4></li></ul>

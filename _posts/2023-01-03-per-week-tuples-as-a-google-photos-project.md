@@ -1,13 +1,14 @@
 ---
 date: 2023-01-03
 title: Per Week Tuples as a Google Photos Project?
-permalink: /blog/per-week-tuples-as-a-google-photos-project/
 headline: Preserving My Lifetime Experience with Google Photos API and Weekly Named Tuples
 description: As a parent, I'm looking for ways to teach my kid while still making it fun. I'm exploring the capabilities of the Google Photos API, such as albums and mediaItems, and using SQLite3 and SqliteDict to rapidly organize my data better than the Google UI provides. I'm creating a project to capture my lifetime experience with data and preserve it as metadata, using weekly namedtuples to ensure the data is unique.
 keywords: Google Photos API, Albums, MediaItems, SQLite3, SqliteDict, NamedTuples, Data, Metadata, Parenting, Teaching, Fun, Cloud, Data-Source, Data-Paging
 categories: sqlitedict
+permalink: /blog/per-week-tuples-as-a-google-photos-project/
 layout: post
 ---
+
 
 Wow, January 3rd and the first work-day of the new year. I still have my kid,
 woot! That's Friday night to Tuesday! I love spending time with my kid. We have
@@ -222,6 +223,7 @@ graphic into Google Photos that has a ridiculously old creation date will look
 like it went into your albums on that impossible date. I cleaned most of those
 to some even New Years date. So the first appearance of data for date-ranges in
 Google Photo should be for approximately when I started using it.
+
 
 
 ## Categories

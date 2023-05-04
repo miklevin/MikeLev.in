@@ -1,13 +1,14 @@
 ---
 date: 2022-07-21
 title: "Moving Is Not Easy To Do: Real-life or Linux"
-permalink: /blog/moving-is-not-easy-to-do-real-life-or-linux/
 headline: "Navigating the Move: My Experience with Windows 11"
 description: I recently moved, and it was a lot of work to stay organized. Moving to a new place has allowed me to think things through and reorient myself, and I'm looking to establish momentum, reacquire my equilibrium, and keep creating. Unfortunately, I've found that Windows 11 doesn't let you hide taskbar icons, and even hacks to remove the clock don't work. Read my blog post to find out how I'm dealing with the transition.
 keywords: Moving, Organization, Thinking, Reorient, Momentum, Equilibrium, Creating, Windows 10, Windows 11, Taskbar, Icons, Clock, Hacks, Transition, Virtual Desktops
-categories: windows 10, windows 11, organization
+categories: organization, windows 10, windows 11
+permalink: /blog/moving-is-not-easy-to-do-real-life-or-linux/
 layout: post
 ---
+
 
 Moving is not easy to do. I have moved. I moved myself without a truck. I did
 it just through my Jeep. It's taken a lot of trips and will take a few more
@@ -61,9 +62,10 @@ for people who love virtual desktops!
 {% include youtubePlayer.html id="wTnrCprlCB8" %}
 
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/organization/'>Organization</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
-<li><h4><a href='/organization/'>Organization</a></h4></li></ul>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

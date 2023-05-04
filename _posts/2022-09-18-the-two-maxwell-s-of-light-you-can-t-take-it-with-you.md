@@ -1,13 +1,14 @@
 ---
 date: 2022-09-18
 title: The Two Maxwell's of Light / You Can't Take It With You
-permalink: /blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you/
 headline: "Exploring the Mysteries of Science: Wisdom Over Material Possessions"
 description: Reflecting on the power of wisdom over material possessions, I explore the mysteries of science such as non-locality and the particle/wave duality of light particles first established by James Clerk Maxwell and Michael Faraday in the 1800s. Max Planck's discovery of the planck-unit further perplexed us, and I express my hope to better explain this to my child in the future.
 keywords: Light, Particle/Wave, Duality, James Clerk Maxwell, Michael Faraday, Max Planck, Planck-Unit, Non-Locality, Wisdom, Material Possessions, Subjective Experience, Magic, Science, Equations
-categories: science, magic
+categories: magic, science
+permalink: /blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you/
 layout: post
 ---
+
 
 You can't take it with you. And leaving it all to your children interferes with
 their journey. You and they are different beings and you should focus on your
@@ -115,8 +116,9 @@ the somewhere-learned and self-imposed "I'm not a math person" an allergic
 reaction when I mention such things. I have to frame it better.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/science/'>Science</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/science/'>Science</a></h4></li></ul>

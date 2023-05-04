@@ -1,13 +1,14 @@
 ---
 date: 2022-05-19
 title: I've Got a Mic
-permalink: /blog/i-ve-got-a-mic/
 headline: "Explore the Mic Lovin' Goodness: Learn How to Find Carnac, Record a Vim Macro, and Use HTML Singletons"
 description: I'm passionate about talking into the mic and sharing my stories. In this blog post, I'll show you how to find Carnac, record a Vim macro, and use HTML singletons. Plus, learn how to add the macro to a .vimrc file, use Vim buffers, and more. Don't miss out on this 'mic lovin' goodness!
 keywords: Mic, Carnac, Vim, Macro, HTML, Singletons, .vimrc, Buffers, Tales, Demonstrate, Magnificent, Add, Much, Goodness
-categories: vim, macro, html, .vimrc
+categories: .vimrc, html, vim, macro
+permalink: /blog/i-ve-got-a-mic/
 layout: post
 ---
+
 
 > I got a mic.<br />
 > I like to talk.<br />
@@ -34,10 +35,11 @@ more. This one is chock full 0' mic lovin' goodness.
 
 {% include youtubePlayer.html id="KIztrN6RlIY" %}
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li>
+<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/vimrc/'>.vimrc</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/macro/'>Macro</a></h4></li></ul>

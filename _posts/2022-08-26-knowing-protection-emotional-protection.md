@@ -1,13 +1,14 @@
 ---
 date: 2022-08-26
 title: Knowing Protection & Emotional Protection
-permalink: /blog/knowing-protection-emotional-protection/
 headline: "Learning to Protect Myself Emotionally: My Journey of Self-Discovery"
 description: As I grew older, I realized I had to protect myself emotionally to survive. It's okay to be callous and insensitive sometimes, and I'm reminded of my place in the world and the importance of accepting that some things don't have to stay in my life forever. Read my story of self-discovery and learn how to protect yourself emotionally.
 keywords: Protection, Emotional Protection, Self-Discovery, Self-Protection, Callousness, Insensitivity, Acceptance, Past, Reminiscence, Place in the World
 categories: 
+permalink: /blog/knowing-protection-emotional-protection/
 layout: post
 ---
+
 
 Not everything you think you've fallen in love with has to survive, be featured
 in your life, get shown on your website, live on in your prayers or whatever.
@@ -56,6 +57,7 @@ close to the heart of their own issues.
 Once upon a time you had more reason to be satisfied with the lot you were
 given in life. You were born somewhere into the social hierarchy of a tribal
 society of probably around 100 creatures, not too dissimilar from chimps.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-07
 title: Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI
-permalink: /blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/
 headline: Exploring the Possibilities of Extra-Dimensional Communication, Consciousness, and Non-Locality with Bing
 description: In this conversation with Bing, I explore the concept of intelligent design and its implications, the distinction between biological intelligence and consciousness, and the possibility of extra-dimensional communication. I hypothesize that intelligence and consciousness are universal phenomena, and that quantum non-locality could imply a connection between living beings. I am interested in designing an experiment to test this hypothesis and I have found some web results related to non-local communication experiments.
 keywords: Epigenetics, Consciousness, Non-Locality, Big AI, Intelligent Design, Biological Intelligence, Extra-dimensional Communication, Perception Mediated Selection, Artificial Selection, Natural Selection, Intelligent Design Theory, Supernatural, Divine, Organic Molecules, Conscious Plan, Replication, Complex Cognition, Brain Structure, Self-Awareness, Bioelectricity, Origin of Consciousness, Complexity, Amino Acids, Single-Celled Organisms, Amoebas, Bees,
 categories: consciousness
+permalink: /blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/
 layout: post
 ---
+
 
 Is perception mediated selection?
 
@@ -365,6 +366,7 @@ I’m not sure if I understand your word-view, theory and beliefs completely, bu
 1. Your hypothesis involves non-local communication, which means that you assume that information can be transmitted faster than light or without any physical medium. These experiments do not involve any non-local communication, but only non-local correlations. They also do not test if information can be transmitted faster than light or without any physical medium, but only if physical systems can violate local realism.
 
 These are some of the ways in which your word-view, theory and beliefs are not tested by these experiments. However, this does not mean that they are wrong or impossible. It just means that they are different and require different kinds of tests to verify them.🔬
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-12-21
 title: ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome
-permalink: /blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/
 headline: "Discover the Power of Self-Learning: Join Me on My Journey with Project Pipulate!"
 description: I'm relaunching project Pipulate, an automatable system that ChatGPT can't do. With this project, I'm on a soul-cleansing path to learn to code without relying on cloud services and to talk code into existence. Join me on my journey and discover the power of self-learning!
 keywords: ChatGPT, Imposter Syndrome, Automatable System, Self-Learning, Conversational-Based, Cloud Services, Soul-Cleansing, Code, Journey, Relaunch, Project Pipulate
-categories: imposter syndrome, chatgpt, journey
+categories: journey, imposter syndrome, chatgpt
+permalink: /blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/
 layout: post
 ---
+
 
 So many people are enamored with ChatGPT teaching them how to code. You'll hear
 the term "game changer" over and over. The funny thing is that we as human
@@ -71,9 +72,10 @@ conversationally based. You talk code into existence in Jupyter (without paying
 cloud services). There's an unlikely but potentially popular and soul-cleansing
 path here. Articulate it and promote it.
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-10-02
 title: Tried To Start a Project
-permalink: /blog/tried-to-start-a-project/
 headline: "Taking the Leap: Starting a Project and Overriding the URL-Generating System"
 description: Today I'm taking the plunge and starting a project I've been putting off - importing my MikeLev.in repo from WordPress. I'm considering giving up dates in the URLs so that blog posts look evergreen, but I'm wondering if I can selectively override the URL-generating system for individual blog posts. Join me as I take this journey and find out what happens next!
 keywords: importing, WordPress, URL, dates, folders, subfolders, evergreen, selectively override, project, journey, MikeLev.in, repo, blog posts
 categories: journey, url
+permalink: /blog/tried-to-start-a-project/
 layout: post
 ---
+
 
 I'm going to try to do a project I've been putting off. My MikeLev.in repo is a
 bit out of hand because I imported it from WordPress maybe a year or so ago
@@ -32,6 +33,7 @@ permalink frontmatter directive will allow me to preserve old URLs.
 Now start the 1, 2, 3... 1 procedure. Step 1 is globbing dirs. This looks like
 something that belongs on MikeLev.in because I'm always re-googling the
 process... glob! Path!
+
 
 
 ## Categories

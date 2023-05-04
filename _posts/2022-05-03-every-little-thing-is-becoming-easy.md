@@ -1,13 +1,14 @@
 ---
 date: 2022-05-03
 title: Every Little Thing Is Becoming Easy
-permalink: /blog/every-little-thing-is-becoming-easy/
 headline: Making Progress on My Websites and Navigating Vim Easier Than Ever
 description: "Today I was able to make a few easy tweaks to my 15 active websites, and I added a make_helpers.py script to my release script. I also figured out how to navigate to my .vimrc file with the command :b~[Tab], and I'm feeling good about the progress I'm making. Read more to find out how I achieved these results."
 keywords: websites, tweaks, make_helpers.py, script, .vimrc, navigation, element, RSS, Atom, feed, home link, title, command, returns, progress
-categories: script, .vimrc
+categories: .vimrc, script
+permalink: /blog/every-little-thing-is-becoming-easy/
 layout: post
 ---
+
 
 I have all 15 of my registered sites active now. Pipulate and Levinux, two of
 my oldest, still need a little work. I also want to do a few light touches that
@@ -42,8 +43,9 @@ That will make it the 3rd position back. So make_helpers.py becomes the
 2nd-to-last position.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/vimrc/'>.vimrc</a></h4></li></ul>
+<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

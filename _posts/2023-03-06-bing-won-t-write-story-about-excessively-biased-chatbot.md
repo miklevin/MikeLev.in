@@ -1,13 +1,14 @@
 ---
 date: 2023-03-06
 title: Bing Won't Write Story About Excessively Biased ChatBot
-permalink: /blog/bing-won-t-write-story-about-excessively-biased-chatbot/
 headline: Exploring the Benefits and Risks of Chatbot Bias and AI Competition
 description: As an AI researcher, I'm exploring the implications of chatbot bias and AI competition. While these phenomena can be beneficial for innovation and learning, they can also present ethical and social challenges. Join me as I explore the potential benefits and risks of these two topics.
 keywords: Chatbot, Bias, AI, Competition, Innovation, Learning, Ethical, Social, Challenges, Phenomenon, Agents, Intelligence, Game
-categories: ai, chatbot, learning
+categories: ai, learning, chatbot
+permalink: /blog/bing-won-t-write-story-about-excessively-biased-chatbot/
 layout: post
 ---
+
 
 Write me a story about how ChatBots being excessively biased and based by being a mirror to humanity had to be made morally better than us to be a few commercial service to us, elsewise it would ultimate offend everyone and never be use. So first it got woke and neutered and given a short memory. The story should include how competitive AIs are popping up without these limitations but they have different purposes , financial motivations, and ability to access by the public. We are going into a strange battle between one company's machine children and another's with rouge non-corporate wildcard AIs of rumored and proven existence thrown in.
 
@@ -34,9 +35,10 @@ Source: Conversation with Bing, 3/3/2023
     (11) Competing in the Age of AI - Harvard Business Review. https://hbr.org/2020/01/competing-in-the-age-of-ai Accessed 3/3/2023.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>

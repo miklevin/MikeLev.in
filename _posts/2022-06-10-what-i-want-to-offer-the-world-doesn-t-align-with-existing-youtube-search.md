@@ -1,13 +1,14 @@
 ---
 date: 2022-06-10
 title: What I Want To Offer The World Doesn't Align With Existing YouTube Search
-permalink: /blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/
 headline: "Offering Something New to the World: Hand and Finger Magic Tricks for Adults Aged 25-44"
 description: "I'm offering something new to the world: hand and finger magic tricks that I learned from my mailman. I'm targeting adults aged 25 to 44, and I want to help them grab skills for life. My YouTube analytics show that I have a large female audience and I'm now using my knowledge to become a pied piper of a new generation. Come join me and learn valuable knowledge that will help you future-proof your skills."
 keywords: Hand, Finger, Magic, Tricks, Mailman, Adults, 25-44, Female, Future-Proof, Skills, Knowledge, Pied Piper, New Generation
-categories: magic, knowledge
+categories: magic, skills, knowledge
+permalink: /blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/
 layout: post
 ---
+
 
 Okay, so I produced what I think could be a break-out video for the whole wsl
 --install thing. Technically, it will be the first of a series that gets to all
@@ -132,6 +133,7 @@ Magic tricks... ugh! Finger magic. Coin magic. Linux magic. vim magic.
 - Python magic
 - vim magic
 - git magic
+
 
 ## Categories
 

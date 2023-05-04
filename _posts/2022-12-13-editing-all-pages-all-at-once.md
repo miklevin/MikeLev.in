@@ -1,13 +1,14 @@
 ---
 date: 2022-12-13
 title: Editing All Pages All At Once
-permalink: /blog/editing-all-pages-all-at-once/
 headline: Making the Big Transition to Best Foot Forward SEO
 description: This blog post explores the challenges of adjusting to a new SEO workflow, including editing 13 files in vim buffers, cleaning up a Skite static site generator repo, and making changes to the main pages and blog query. It's a difficult transition for the author, who is a pack-rat when it comes to online things, and they must learn to let go of old habits in order to make the most of the blog query and toggle active or inactive posts.
 keywords: SEO, Workflow, Editing, Vim Buffers, Skite, Static Site Generator, Main Pages, Blog Query, Toggle Active/Inactive, Best Foot Forward SEO, Pack-Rat, Online Things, Categorization, Navigation, Surf Straight Through, Publish-Date Oriented
 categories: seo, static site generator
+permalink: /blog/editing-all-pages-all-at-once/
 layout: post
 ---
+
 
 In my continuing effort to practice "Best Foot Forward" SEO, I've de-linked all
 the old cruft off of my MikeLev.in homepage. All that old content is "orphaned"
@@ -87,6 +88,7 @@ ability to toggle active or inactive posts, etc.
 Best Foot Forward SEO is a really big shift in thinking for me. It's taking me
 some time to clean the slate. It's the pack-rat in me with these online things,
 just like it is in real-life. I've got to get past that.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-04-29
 title: Stop Using Stop-Words When They Reverse Meaning
-permalink: /blog/stop-using-stop-words-when-they-reverse-meaning/
 headline: "Fixing Stopwords: How I Rescued My Post From Getting Mangled in the URL"
 description: I recently wrote a post about stopwords and noticed that the title was getting distorted in the URL. To fix this, I wrote some code to strip out all stopwords and create a post with a more appropriate URL. This code also creates a folder to store the posts and generates a blog.md file with a list of all the posts. Read my blog post to learn more about how I fixed this issue!
 keywords: stopwords, URL, code, strip, folder, store, posts, blog.md, file, list, fix, issue, meaning, mangled, appropriate
 categories: url
+permalink: /blog/stop-using-stop-words-when-they-reverse-meaning/
 layout: post
 ---
+
 
 Ugh, after all that stopwords stuff from the earlier post, I'm stripping it
 out. The meaning can get totally mangled. For example, the title:
@@ -142,6 +143,7 @@ index_page = index_front_matter + "\n\n" + "\n".join(index_list)
 with open(f"{folder_name}/blog.md", "w") as fh:
     fh.writelines(index_page)
 ```
+
 
 
 ## Categories

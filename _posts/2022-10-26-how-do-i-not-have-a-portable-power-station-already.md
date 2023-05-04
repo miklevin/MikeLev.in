@@ -1,13 +1,14 @@
 ---
 date: 2022-10-26
 title: How Do I Not Have a Portable Power Station Already?
-permalink: /blog/how-do-i-not-have-a-portable-power-station-already/
 headline: "Grateful for Modern Technology: How I Tested My Independence on Staten Island with an On-Sale DeWALT Battery"
 description: As an introvert, I was amazed at how modern technology allowed me to become more independent and powerful. When my car battery went dead on Staten Island, I took the opportunity to test my independence by ordering an on-sale DeWALT battery from Amazon to jump-start my car and power my electronics. I realized I should have had a portable power station already and was grateful for the modern world.
 keywords: Introvert, Car Battery, Staten Island, Independence, DeWALT, Amazon, Portable Power Station, Modern Technology, Jump-Start, Electronics, Power, Grateful
 categories: 
+permalink: /blog/how-do-i-not-have-a-portable-power-station-already/
 layout: post
 ---
+
 
 My car battery went dead. I can barely get a sentence out. Isolated and alone
 on Staten Island although I know that I'm not either, really. I fancy myself a
@@ -46,6 +47,7 @@ how do I not have a portable power station already? I guess my car battery has
 never gone dead in a situation like this. It went dead once before on the road,
 but the battery was actually toast after 10-years. It was the first thing to go
 wrong on my Jeep Wrangler in a decade.
+
 
 
 ## Categories

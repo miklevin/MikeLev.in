@@ -1,13 +1,14 @@
 ---
 date: 2023-03-28
 title: Fear Sells. Don't Buy It.
-permalink: /blog/fear-sells-don-t-buy-it/
 headline: "Be Indomitable and Make Yourself Invaluable: How to Drive More Customers"
 description: As an employee, I learned the importance of making myself invaluable to my employer and helping others reach their aspirations. I need to have an indomitable spirit and be Teflon like the Gipper, and most importantly, I should make sure that everything I do drives more customers. Read my blog post to learn more about how to make yourself invaluable to your employer.
 keywords: Fear, Don't Buy, Employee, Indomitable Spirit, Teflon, Gipper, Customers, Employer, Aspirations, Achievable Path, Prevent, Try, New Things
 categories: 
+permalink: /blog/fear-sells-don-t-buy-it/
 layout: post
 ---
+
 
 This is my first journal entry with Copilot turned on, haha! Is it going to
 start suggesting stuff in a journal.markdown file that's 65K lines long. Let's
@@ -77,6 +78,7 @@ superpower suit and save some folks.
 
 Care. Empathy. Creative problem solving. Indomitable spirit. And be Teflon as
 the Gipper.
+
 
 
 ## Categories

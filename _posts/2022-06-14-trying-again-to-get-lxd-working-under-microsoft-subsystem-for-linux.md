@@ -1,13 +1,14 @@
 ---
 date: 2022-06-14
 title: Trying Again To Get LXD Working Under Microsoft Subsystem For Linux
-permalink: /blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/
 headline: Determined To Get LXD Working Under Microsoft Subsystem For Linux - Join My Journey!
 description: I'm determined to get LXD running under Microsoft Subsystem for Linux, and I'm not giving up! I've followed the official instructions and attempted to create a new storage pool, but I keep running into errors. To document my journey, I'm creating a new video - join me as I work to make this work!
 keywords: LXD, Microsoft Subsystem for Linux, Storage Pool, Errors, Video, Command, Documentation, Journey, Determined, Attempting
-categories: lxd, journey
+categories: journey, lxd, errors
+permalink: /blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/
 layout: post
 ---
+
 
 Wow, get right to the wizard:
 
@@ -83,8 +84,9 @@ explored this particular Wonderland. Figure out how to walk in their footsteps.
 Make the above the beginning to a new video!
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-04-17
 title: Learnings From Weekend OpenAI Keyword Extraction & Clustering Project
-permalink: /blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/
 headline: "Gaining Experience with OpenAI: Learning to Leverage Virtual Assistants for Data Projects and Taxes"
 description: I recently used the OpenAI API to gain hands-on experience with keyword extraction and clustering to create a story-like visualization in the console. I applied the 80/20 rule to solve the issue of errors with structured lists, and gained new respect for Vim/NeoVim and caution for VSCode. I'm now using NeoVim and Copilot to finish a data project, and have discovered that machines being intelligent now means that I have a virtual assistant.
 keywords: OpenAI, API, Keyword Extraction, Clustering, Story Visualization, 80/20 Rule, Error, Structured Lists, Vim/NeoVim, VSCode, Data Project, Taxes, NeoVim, Copilot, Paid-for Intelligence, Virtual Assistant, Learn Faster, Learn Better
-categories: vscode, copilot, openai, error, neovim, api
+categories: neovim, copilot, openai, vscode, api, error
+permalink: /blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/
 layout: post
 ---
+
 
 Key learning from the weekend is that I shouldn't trust data returned from
 OpenAI if it's supposed to end up as well structured lists and stuff. While
@@ -110,12 +111,13 @@ assistant coming that can also teach me to jump off cliffs and learn to fly
 better, more often, and across a broader variety of situations.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/error/'>Error</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/error/'>Error</a></h4></li></ul>

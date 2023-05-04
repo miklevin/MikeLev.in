@@ -1,13 +1,14 @@
 ---
 date: 2023-03-07
 title: Which Are The Least Credible Voices In The UFO / UAP Space?
-permalink: /blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/
 headline: Uncovering the Credibility of UFO/UAP Community Members and Profiteers
 description: This article explores the UFO community and examines the evidence, credibility, and profiteering of people like Kenneth Arnold, Bob Lazar, George Knapp, and John Lear. I share my personal experience with a secret program to investigate UFOs and discuss who may be the most likely fakers and profiteers in the UFO community. Read on to learn more and ask me any questions you have about these people.
 keywords: UFO, UAP, Kenneth Arnold, Bob Lazar, George Knapp, John Lear, Area 51, Evidence, Credibility, Profiteering, Secret Program, Military Credentials, Media Company, Documentaries, Books, Skepticism, Opposition
 categories: ufo
+permalink: /blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/
 layout: post
 ---
+
 
 Did John Lear know Bob Lazar?
 
@@ -117,6 +118,7 @@ Source: Conversation with Bing, 3/6/2023
     (2) List of ufologists - Wikipedia. https://en.wikipedia.org/wiki/List_of_ufologists Accessed 3/6/2023.
     (3) 10 People Connected to UFOs Who Met Very Suspicious Ends. https://listverse.com/2022/02/05/10-people-connected-to-ufos-who-met-very-suspicious-ends/ Accessed 3/6/2023.
     (4) ‘Something’s coming’: is America finally ready to take UFOs seriously .... https://www.theguardian.com/world/2022/feb/05/ufos-america-aliens-government-report Accessed 3/6/2023.
+
 
 
 ## Categories

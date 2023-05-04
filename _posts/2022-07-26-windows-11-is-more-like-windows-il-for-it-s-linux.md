@@ -1,13 +1,14 @@
 ---
 date: 2022-07-26
 title: Windows 11 is more like Windows Il (for It's Linux)
-permalink: /blog/windows-11-is-more-like-windows-il-for-it-s-linux/
 headline: "Experience the Move to Linux with Windows 11: It's Time to Take Up the Old-School Terminal Stuff!"
 description: Get ready to take the plunge into the world of Linux and Unix-based systems with Windows 11! I'm stubbornly staying on Windows 10 for now, but by enabling Windows Subsystem for Linux and the Hypervisor, I can still experience the move-to-Linux experience Microsoft has planned for us. With the help of Steve Jobs and Lennart Poettering, I can run Linux Terminal sessions under WSL2 and even upgrade my instance to Linux Containers.
 keywords: Windows 11, Linux, Unix, Windows Subsystem for Linux, Hypervisor, Linux Terminal, WSL2, Linux Containers, Ubuntu 18, Steve Jobs, Lennart Poettering, System Management, Lauchd, Init, Text-based Terminal
-categories: wsl2, windows 11, unix, linux
+categories: unix, wsl2, linux, windows 11
+permalink: /blog/windows-11-is-more-like-windows-il-for-it-s-linux/
 layout: post
 ---
+
 
 I'm not going to make the argument that it's time for you to learn Linux. If
 you don't know that by now, it's your bad. However, I will clarify that this
@@ -143,10 +144,11 @@ to be on Ubuntu 18.04 for your main WSL2 Linux system, and that's not the
 default.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

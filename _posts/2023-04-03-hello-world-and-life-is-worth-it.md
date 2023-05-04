@@ -1,13 +1,14 @@
 ---
 date: 2023-04-03
 title: Hello World and Life is Worth It 🦋!
-permalink: /blog/hello-world-and-life-is-worth-it/
 headline: Exploring AI and Quantum Computing to Unlock Creative Prompting and High Salaries
 description: Since March 10, 2020, I've been streaming and journaling with an AI assistant. I'm researching quantum computing, SEO tools, and how to join data from different sources. I'm advocating for timeless tools like Linux, Python, vim, and git, and exploring creative prompting as a skill that can lead to high salaries. As I'm not interested in creating a computer intelligence, I'm looking into how Microsoft and Google are raising their AI kids.
 keywords: SEO, Links API, MozBar, Moz Pro, Linux, Python, Vim, Git, Quantum Computing, AI, Microsoft, Google, Language, Empathy, Creativity, Alignment, Human Values, Internal Assets, Million Dollars
-categories: python, google, ai, seo, vim, linux, git, empathy, moz pro, microsoft
+categories: python, microsoft, moz pro, empathy, linux, vim, git, seo, ai, google
+permalink: /blog/hello-world-and-life-is-worth-it/
 layout: post
 ---
+
 
 There are too many Mike Levins, and some of rather large notoriety who block me
 from the search results. That's fine. It wasn't that way back in 2000 when I
@@ -347,16 +348,17 @@ And it gives me a sense of purpose.
 And it gives me stuff to share.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

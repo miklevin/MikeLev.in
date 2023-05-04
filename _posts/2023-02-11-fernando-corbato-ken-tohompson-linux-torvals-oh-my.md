@@ -1,13 +1,14 @@
 ---
 date: 2023-02-11
 title: Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!
-permalink: /blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/
 headline: "Explore my Linux Wonderland: A Journey Inspired by Fernando Corbato, Ken Thompson, and Linus Torvalds"
 description: "Explore my Linux Wonderland, an idea inspired by the individuals who made star-nix possible: Fernando Corbato, Ken Thompson, and Linus Torvalds. I'm creating projects under starnix, doing long-running scripts that run in the context of Linux services called daemons. See how this approach to tech is now as big as webdev, thanks to the Windows Subsystem for Linux, W. Come join me on this journey!"
 keywords: Fernando Corbato, Ken Thompson, Linus Torvalds, Linux, star-nix, Starnix, Daemons, Webdev, Windows Subsystem for Linux, W, Homepage, Projects, Scripts, Services, Journey, Tech, Idea
-categories: linux, journey, homepage
+categories: scripts, journey, linux, homepage, services
+permalink: /blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/
 layout: post
 ---
+
 
 This is just jotting down an idea for my homepage.
 
@@ -54,9 +55,10 @@ It's not quite Vista-level, but Windows 11 is blech! And so WSLg backports to
 Windows 10, and so now everybody can [Drink Me](https://mikelev.in/drinkme).
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/homepage/'>Homepage</a></h4></li></ul>

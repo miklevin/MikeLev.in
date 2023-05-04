@@ -1,13 +1,14 @@
 ---
 date: 2022-06-19
 title: Having The Confidence To Diverge From nbdev File Naming Convention
-permalink: /blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/
 headline: "Revamping My Content Release System: My Journey to Breaking From nbdev File Naming Conventions"
 description: I recently revamped my content release system and made changes to my .vimrc file, including replacing the blast.sh bash file with a new core.py file renamed to skite.py. Additionally, I deleted the blogslicer repo and removed it from PyPI. I'm pleased with my progress and will be writing a new article about it - come read all about my journey!
 keywords: Content Release System, .vimrc, blast.sh, bash file, core.py, skite.py, blogslicer, repo, PyPI, article, journey, progress, revising
-categories: journey, pypi, .vimrc
+categories: journey, .vimrc, pypi
+permalink: /blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/
 layout: post
 ---
+
 
 I could not be more pleased with how the my content release system has
 developed over the past few days. It is unfortunate the reason why I have the
@@ -44,9 +45,10 @@ blogslicer repo, and even remove it from PyPI! Wow, I should cut this journal
 entry and make that the focus of a wholly new article.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li>
-<li><h4><a href='/vimrc/'>.vimrc</a></h4></li></ul>
+<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>

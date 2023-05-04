@@ -1,13 +1,14 @@
 ---
 date: 2023-04-26
 title: "Copilot: disable... Help!"
-permalink: /blog/copilot-disable-help/
 headline: "Patience is a Superpower: My Keys are Glitching Out and I Suspect AI Interference"
 description: I recently discovered that my keyboard is glitching out, and I suspect AI interference. I need to switch hardware, but I'm reminded that patience is key. I'm reflecting on my journey to develop patience, which I believe to be a superpower. Read my blog post to discover how I'm developing this superpower.
 keywords: Glitching, AI, Commit, Hardware, Colon, Patience, Superpower, Long-Term, Vision
-categories: hardware, ai
+categories: ai, hardware
+permalink: /blog/copilot-disable-help/
 layout: post
 ---
+
 
 Have patience. Not everything can be done at once, and having "little bits" of
 vision is just as important as having that longer-term vision and willingness
@@ -43,8 +44,9 @@ First things first, commit everything and switch to other hardware...
 The colon-key is glitching out along with the r and Esc, LOL!
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li></ul>

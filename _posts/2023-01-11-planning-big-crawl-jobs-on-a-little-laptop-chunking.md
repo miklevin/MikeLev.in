@@ -1,13 +1,14 @@
 ---
 date: 2023-01-11
 title: Planning Big Crawl Jobs On a Little Laptop (Chunking)
-permalink: /blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/
 headline: Tackling a Million-Page Crawl on One Machine with Momentary Unthrottled Concurrency
 description: I recently had a breakthrough in creating a SQLite3 database to capture data from a list of URLs, and now I'm creating a keyword histogram and grouping the pages by keyword themes. I've been assigned a million-page crawl, and I'm tackling it all on one machine with momentarily unthrottled concurrency in chunks. Come read about my journey and how I'm processing the data in finite jobs and moving the chunks off my local.
 keywords: Crawl Jobs, Little Laptop, Chunking, SQLite3 Database, Keyword Histogram, Grouping, Million-Page Crawl, Concurrency, Processing, Data, Finite Jobs, Moving Chunks
 categories: 
+permalink: /blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/
 layout: post
 ---
+
 
 Wow, okay. Yesterday's late-night project was to do the http fetching against a
 list of URLs. I capture all that data into a SQLite3 database properly using
@@ -34,6 +35,7 @@ in N-sized chunks and spew them right onto the drive. Process chunk-by-chunk
 and optionally even move them off your local drive and onto your NAS while you
 go. Nice, sequential finite jobs. Even concurrency gets mapped onto sequential
 chunks, haha!
+
 
 
 ## Categories

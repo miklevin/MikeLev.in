@@ -1,13 +1,14 @@
 ---
 date: 2022-05-01
 title: Pushing Blogslicer to PyPI (From Jupyter Notebook)
-permalink: /blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/
 headline: Successfully Releasing Packages Built in Jupyter Notebooks to PyPI with nbdev
 description: I successfully created a pattern for releasing packages built in Jupyter Notebooks into PyPI, using nbdev from Fast.ai. I pushed my package, Blogslicer, to PyPI, but still have more work to do before I can add it to my blog release script. Read more to find out how I did it!
 keywords: PyPI, Jupyter Notebook, nbdev, Fast.ai, Blogslicer, package, command-line, parameterized, release, script, version, docs, library, commit, upload, python, interpreter
-categories: version, jupyter notebook, python, script, nbdev, command-line, pypi
+categories: python, pypi, script, nbdev, version, command-line, jupyter notebook
+permalink: /blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/
 layout: post
 ---
+
 
 I hate smart quotes. I don't think they're good for SEO (search engine
 optimization). I adhere to a principle called "The Weakest Link In The Chain".
@@ -176,13 +177,14 @@ Okay, so one more time, but from scratch (blogslicer was already well
 underway).
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/version/'>Version</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/version/'>Version</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

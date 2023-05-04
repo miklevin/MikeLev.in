@@ -1,13 +1,14 @@
 ---
 date: 2023-03-13
 title: AI Creates New Competitive Pressures For Content Providers
-permalink: /blog/ai-creates-new-competitive-pressures-for-content-providers/
 headline: "AI and Game Theory: Exploring the Intersection of Deep Learning and Competitive Pressures for Content Providers"
 description: This blog post explores the intersection of deep learning and game theory, discussing how deep learning can be used to solve complex game theory problems and how game theory can be used to improve the performance of deep learning algorithms. I recently read a research paper on this topic and recommend it to anyone interested in learning more about this fascinating intersection.
 keywords: AI, Competitive Pressures, Content Providers, Deep Learning, Game Theory, Chatbot, Natural Language, Automation, Web Search, Customer Acquisition, Retention, Traffic Arbitrating, King Making, Personalized Responses, Cite Sources, Link Back, Platform, PageRank, Webmasters, Spamming, Buying Links, Fake Websites, Quality, Reliability, Filter, Malicious Web Pages, Expertise, Authority, Trustworthiness, E-A-T, Deep
-categories: ai, automation, platform, chatbot
+categories: platform, ai, automation, chatbot
+permalink: /blog/ai-creates-new-competitive-pressures-for-content-providers/
 layout: post
 ---
+
 
 Modify this statement to also include the rising ChatBot form of searching and navigating information: Web search and search results are the very wide mouth of the customer acquisition and retention funnel in almost any and every business today because they influence what people think, feel, and do online and offline.
 
@@ -127,10 +128,11 @@ Source: Conversation with Bing, 3/10/2023
     (5) (PDF) Deep Learning meets Game Theory - ResearchGate. https://www.researchgate.net/publication/317062658_Deep_Learning_meets_Game_Theory Accessed 3/10/2023.
 
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>

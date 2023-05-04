@@ -1,13 +1,14 @@
 ---
 date: 2022-08-02
 title: Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults
-permalink: /blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/
 headline: "Testing Ubuntu 20.04 for Easier LXD Installation: Ubuntu 18.04 is the Easier Option"
 description: In this blog post, I share how I tested Ubuntu 20.04 to see if I could easily install LXD. I found that Ubuntu 18.04 is the easier option, since it comes pre-installed with LXD and allows you to quickly get up and running. I also discuss my preference for local services over cloud resources, my advocacy for Linux and my blue-collar mechanic approach to tech literacy. Finally, I suggest JupyterLab-Desktop as a great way to learn Python.
 keywords: Ubuntu, 18.04, 20.04, LXD, WSL2, Wizard, Pre-installed, Local Services, Cloud Resources, Linux, Tech Literacy, JupyterLab-Desktop, Python, Systemd, QNAP, Synology NAS, Microsoft, Apple, Unix, Code, REPL, iPython, nbdev, vim, git
-categories: ubuntu, python, systemd, 20.04, lxd, vim, nbdev, linux, git, wsl2, microsoft, unix
+categories: python, microsoft, git, unix, wsl2, linux, vim, nbdev, ubuntu, systemd, lxd, 20.04
+permalink: /blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/
 layout: post
 ---
+
 
 Regarding the need for Ubuntu 18.04 for a easy LXD install, let's do a test. It
 should be easy, because WSL2 & distrod & containers, am I right?
@@ -257,18 +258,19 @@ nbdev framework. Yuck, frameworks. Okay, I'll take the nbdev one. The benefits
 are just too great.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/20-04/'>20.04</a></h4></li></ul>

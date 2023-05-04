@@ -1,13 +1,14 @@
 ---
 date: 2023-03-07
 title: Seeking AI-help Getting Up To Speed on Math
-permalink: /blog/seeking-ai-help-getting-up-to-speed-on-math/
 headline: Exploring Online Resources and Self-Teaching Tools to Improve Math Skills
 description: As someone who has always struggled with math, I understand that it is a skill that can be improved with practice and dedication. I recently found many online resources and self-teaching tools to help me learn at my own pace, such as the Mathematics Refresher Course on Udemy, a 16-hour Math Refresher course from Alamo Colleges, and 9 free online courses from edX. I'm also exploring the Maxwell Heaviside Schrödinger approach to physics.
 keywords: Math, Algebra, Calculus, Udemy, Alamo Colleges, edX, Refresher Course, Maxwell Heaviside Schrödinger, Schwarzschild Radius, Black Hole, Event Horizon, Quantum Theory, Planck, Quanta, Frequency, Staircase, Ramp, Relativity, Time Dilation, Gravitational Redshift, Aluminum Clocks, Q Factor, Optical Energy
-categories: math
+categories: quanta, math
+permalink: /blog/seeking-ai-help-getting-up-to-speed-on-math/
 layout: post
 ---
+
 
 I've never considered myself good at math. I was good at trig and analysis but not calculus or physics. I think I'm more of a visual person than a numbers person. In particular the chances in syntax between Algebra and Calculus have been difficult. How much do approach the subject of math to have the critical insights that are so difficult to me which seem to come natural to some people.
 
@@ -157,6 +158,7 @@ Source: Conversation with Bing, 3/6/2023
     (4) What is a black hole event horizon (and what happens there)?. https://www.space.com/black-holes-event-horizon-explained.html Accessed 3/6/2023.
     (5) What happens beyond an event horizon? - UC Santa Barbara. http://scienceline.ucsb.edu/getkey.php?key=1842 Accessed 3/6/2023.
     (6) Telescopes Get Extraordinary View of Milky Way's Black Hole. https://www.jpl.nasa.gov/edu/news/2022/5/12/telescopes-get-extraordinary-view-of-milky-ways-black-hole/ Accessed 3/6/2023.
+
 
 
 ## Categories

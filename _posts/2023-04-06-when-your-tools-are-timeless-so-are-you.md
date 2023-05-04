@@ -1,13 +1,14 @@
 ---
 date: 2023-04-06
 title: When Your Tools Are Timeless, So Are You
-permalink: /blog/when-your-tools-are-timeless-so-are-you/
 headline: Using Linux, Python, Vim & Git to Automate Web Browsers and Become a Technologically Literate Citizen
 description: As a Subject Matter Expert (SME) at MOZ and an advocate of Linux, Python, vim & git, I am passionate about finding ways to use these technologies in my workflow. I am exploring fringe tech that should be mainstream, promoting Linux, Python, vim, and git as a minimum toolchain. I am also discussing the importance of language and how it helps machines think like us, as well as the Microsoft taxes that cannot be avoided.
 keywords: Linux, Python, Vim, Git, Jupyter, Browser, Devtools, Protocol, NodeJS, Automation, End-to-End Testing, Cross-Browser Testing, JavaScript, Java, .NET, Microsoft Playwright, Microsoft 365, Github Membership, Github Copilot, Ergo, Npx, Chrome DevTools, CSS Selector Generator, Extract, Transform, Load (ETL)
-categories: automation, python, microsoft playwright, javascript, vim, nodejs, git, linux, github copilot, jupyter
+categories: github copilot, python, javascript, linux, vim, jupyter, automation, microsoft playwright, git, nodejs
+permalink: /blog/when-your-tools-are-timeless-so-are-you/
 layout: post
 ---
+
 
 Not every journaling session needs to be a live-streaming session. Today, this
 morning, I'm going to just think by myself and for myself... though some of my
@@ -998,16 +999,17 @@ NBDev both a Links API and Chrome Automation example.
 Maybe a SERPs example.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li></ul>

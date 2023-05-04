@@ -1,13 +1,14 @@
 ---
 date: 2022-07-29
 title: Using GNU Screen to Monitor Linux System Daemon Service
-permalink: /blog/using-gnu-screen-to-monitor-linux-system-daemon-service/
 headline: Mastering Linux Technology with GNU Screen and LXD Containers
 description: Learn how to install Linux on Windows machines and get Linux services running under GNU Screen under an LXD Container. Discover the advantages of mastering generic Linux tech over web development and how to get started. I provide an example of a Python script to monitor a Linux system daemon service, and I walk you through the steps for installing Ubuntu 18.04, updating the file /etc/systemd/system/pulse.service, installing the program screen.
 keywords: Linux, Ubuntu, Windows, WSL, LXD, Container, GNU Screen, System Daemon, Service, Monitor, Install, Update, File, Program, Command, Python, Script, Web Development, Advantages, Master
-categories: ubuntu, python, script, lxd, linux, service, container, wsl, web development
+categories: python, web development, service, wsl, linux, ubuntu, lxd, container, script
+permalink: /blog/using-gnu-screen-to-monitor-linux-system-daemon-service/
 layout: post
 ---
+
 
 This is a pretty epic blog entry and video in which I get Linux services
 running under GNU Screen under an LXD Container under Ubuntu 18.04 Linux under
@@ -214,15 +215,16 @@ why it's not always there. I like this YouTuber guy Dave's Garage.
 
     sudo apt install net-tools
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

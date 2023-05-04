@@ -1,13 +1,14 @@
 ---
 date: 2022-07-24
 title: Learning *nix Today Means Learning systemd!
-permalink: /blog/learning-nix-today-means-learning-systemd/
 headline: Take Control of Your Life with Linux and Systemd!
 description: As I introduce you to the world of *nix, you'll learn how Linux has pulled ahead of the FreeBSD Unix community, allowing us to take control of our own lives. Discover how Lennart Poettering's controversial systemd for Linux, based on Apple's launchd and launch, has made system automation possible, replacing SysV. Get all the details on this exciting new development in my blog post.
 keywords: Linux, Unix, FreeBSD, Systemd, Lennart Poettering, Launchd, Launch, Hypervisor, System Automation, SysV, Operating System
 categories: unix, linux, systemd
+permalink: /blog/learning-nix-today-means-learning-systemd/
 layout: post
 ---
+
 
 I am going to initiate you to the world of nix. Everyone's got to go through
 some course in life. From some point, we choose and decide. We break down
@@ -38,6 +39,7 @@ Linux.
 
 And do uh yeah, Unix was there first with replacement to a bash-file oriented
 init system.
+
 
 ## Categories
 

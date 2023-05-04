@@ -1,13 +1,14 @@
 ---
 date: 2022-04-25
 title: Slicing & Dicing Single File to Jekyll Blog Posts
-permalink: /blog/slicing-dicing-single-file-to-jekyll-blog-posts/
 headline: Refining My Journey of Slicing & Dicing a Single File into Jekyll Blog Posts
 description: "I recently livestreamed a project where I was slicing and dicing a single long journal file into separate files. I used debugging messages and headlines to provide a hierarchy, pre-processed titles into slugs, and added frontmatter and `_config.yml` file. Join me as I share my journey of refining the project and the challenges I faced along the way."
 keywords: Slicing, Dicing, Single File, Jekyll, Blog Posts, Debugging Messages, Headlines, Hierarchy, Pre-Processing, Titles, Slugs, Frontmatter, _config.yml
-categories: jekyll
+categories: jekyll, headlines
+permalink: /blog/slicing-dicing-single-file-to-jekyll-blog-posts/
 layout: post
 ---
+
 
 I pushed out a few livestreams yesterday slice and dicing these single long
 journal files into smaller separate files. I did it under the pressure of
@@ -54,6 +55,7 @@ Okay, done. I had to start the counter from -1 to get it right. It counts-up
 and then counts-down. The URLs will never change so long as the headline never
 changes. But these things have no headlines. Fix that, but make them optional.
 You have a system now that creates a very nice default URL /blog/post-n/
+
 
 
 ## Categories

@@ -1,13 +1,15 @@
 ---
 date: 2023-04-28
 title: Operation Act Together!
-permalink: /blog/operation-act-together/
 headline: "Exploring Mental Health, SciFi, and Angel-Analogues: A Journey of Self-Reflection and Bounce-Back Healing"
 description: After grocery shopping, I made a blended drink full of fiber, fruit, and vegetables. I'm listening to Noam Chomsky and thinking about how I would go about life if I was just starting out. I'm imagining angel-analogues making bets on all forms of life, and I'm running a Roomba in one of my rooms. Read my story at {url} to learn more.
 keywords: Grocery Shopping, Blended Drink, Fiber, Fruit, Vegetables, Noam Chomsky, Trump, YouTube, Mental Health, Starting Out, Angel-Analogues, Bets, Life, Humans, Bounce-Back Healing, SciFi, Jeraptha, Expeditionary Force, Roomba, Open Query
-categories: youtube
+question: I noticed that you mentioned that you use a variety of tools to measure the success of your campaigns. Could you provide more detail about these tools and how they help you measure success?
+categories: humans, youtube
+permalink: /blog/operation-act-together/
 layout: post
 ---
+
 
 - Get the groceries.
 - Bring up standing desk.
@@ -113,6 +115,7 @@ will be at this page" query to OpenAI upon publishing.
 
 Okay, this post shall receive the title "Operation Act Together", a double
 entendre. Let's see what happens.
+
 
 
 ## Categories

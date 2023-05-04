@@ -1,13 +1,14 @@
 ---
 date: 2022-07-22
 title: Do Not Lose The Power of Touch Typing Despite AI APIs
-permalink: /blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/
 headline: Master Machines and Express Your Inner Vibe - Don't Lose the Power of Touch Typing!
 description: As a tech enthusiast, I believe that touch typing on a standard keyboard is still an important skill to learn and practice, even in the age of smartphones and AI. Touchscreens can't provide the same muscle memory as a standard keyboard, and touch typing is a great way to express your inner vibe. Don't let the power of touch typing be lost - learning this highly useful skill is key to mastering machines and taking control of your life.
 keywords: Touch Typing, Standard Keyboard, Smartphones, AI, Voice Recognition, Muscle Memory, Shifting Layouts, Fundamentals, Control, Master Machines, Express Inner Vibe
 categories: ai, muscle memory
+permalink: /blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/
 layout: post
 ---
+
 
 The ability to actually do a thing is often looked down upon, due either to
 jealousy or a classist attitude, neither of which are good reasons to not learn
@@ -77,6 +78,7 @@ experience, it doesn't rival always being in you like mobile is today.
 While there is some truth to this statement, why what for for increasingly
 parental AIs to take over just to avoid developing a highly useful skill?
 That's like arguing to stay a baby.
+
 
 
 ## Categories

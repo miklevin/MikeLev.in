@@ -1,13 +1,14 @@
 ---
 date: 2022-04-27
 title: Every Little Project Gets Done (ELPGD)
-permalink: /blog/every-little-project-gets-done-elpgd/
 headline: "Successfully Completed a Blog Slicer App Project: ELPGD in Action!"
 description: I successfully completed a project for a blog slicer app, demonstrating the power of ELPGD (Every Little Project Gets Done). I figured out how to put the sliced and diced version of my blog in the repo root, and have created a blog that I'm sure readers will find interesting. Read my post to learn more!
 keywords: Project, Blog Slicer, ELPGD, Repo Root, File Naming Convention, Journal File, Homepage, Link, Sliced and Diced, Create Blog
 categories: homepage
+permalink: /blog/every-little-project-gets-done-elpgd/
 layout: post
 ---
+
 
 Okay, I did such good work on this blogslicer app. It's working in a repo
 folder side-by-side with other repo folders, which is very important. It's easy
@@ -38,6 +39,7 @@ slug: blog
 
 This is a test.
 ```
+
 
 ## Categories
 

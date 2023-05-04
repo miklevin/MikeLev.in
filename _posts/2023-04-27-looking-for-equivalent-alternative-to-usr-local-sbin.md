@@ -1,13 +1,14 @@
 ---
 date: 2023-04-27
 title: Looking For Equivalent Alternative to /usr/local/sbin
-permalink: /blog/looking-for-equivalent-alternative-to-usr-local-sbin/
 headline: Successfully Publishing from Windows 11 with NeoVim - Testing and Troubleshooting Drafts
 description: "I recently published from a Windows 11 laptop using NeoVim's new terminal macro and I'm starting to see the vimscript command: if has('nvim'). With this, I'm hoping to have a single .vimrc that works for both vim and NeoVim. I tested moving a draft post between machines and it worked, but I noticed that when I add anything to my spell-check library with the zg command, I lose syntax highlighting in NeoVim."
 keywords: Windows, 11, laptop, terminal, macro, NeoVim, vimscript, if, has, nvim, single, .vimrc, vim, draft, post, machines, zg, command, spell-check, library, syntax, highlighting, switch
-categories: terminal, vim, macro, .vimrc, neovim
+categories: macro, vim, neovim, terminal, .vimrc
+permalink: /blog/looking-for-equivalent-alternative-to-usr-local-sbin/
 layout: post
 ---
+
 
 Okay, I did my first successful publish from the Windows 11 laptop, using the
 new :terminal macro in NeoVim, so no more separate command-lines to manually
@@ -75,11 +76,12 @@ commands, but it's not a great place for scripts that you want to edit
 regularly. I should look at how nbdev installs their OS-independent commands.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/vimrc/'>.vimrc</a></h4></li></ul>

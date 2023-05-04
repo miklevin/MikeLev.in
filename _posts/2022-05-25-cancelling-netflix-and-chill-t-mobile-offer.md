@@ -1,13 +1,14 @@
 ---
 date: 2022-05-25
 title: Cancelling Netflix and Chill (T-Mobile offer)
-permalink: /blog/cancelling-netflix-and-chill-t-mobile-offer/
 headline: "Cancelling Netflix and Shouting Out YouTube Viewers: Evaluating My Options and Exploring LPvg as a Practical Alternative to Web Development"
 description: I'm cancelling my Netflix subscription and shouting out to some YouTube viewers that make streaming fun. I'm also evaluating what I should do today using three daily metaphors, considering moving back to NYC, and discussing the benefits of being anti-fragile. I'm advocating for the use of Linux, Python, Vim, and Git (LPvg) as a practical alternative to Web Development. LPvg is a great way to become a programmer without needing to learn a whole new language. Come join
 keywords: Netflix, YouTube, Metaphors, NYC, Anti-Fragile, Yankee Doodle Dandies, Mystic Celtic Druids, Linux, Python, Vim, Git, LPvg, Programming, Rabbit Holes, Good Sense, Flexibility
-categories: youtube, python, nyc, vim, lpvg, linux, git
+categories: python, linux, vim, nyc, youtube, git, lpvg
+permalink: /blog/cancelling-netflix-and-chill-t-mobile-offer/
 layout: post
 ---
+
 
 # Some YouTube Viewers I'm Shouting Out To
 
@@ -178,13 +179,14 @@ Linux is full of rabbit holes of both the good and the bad variety.
 Knowing which is which ain't easy.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/nyc/'>NYC</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>

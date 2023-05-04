@@ -1,13 +1,14 @@
 ---
 date: 2022-05-01
 title: Sharpening My Prev/Next Arrows
-permalink: /blog/sharpening-my-prev-next-arrows/
 headline: "Polishing My Prev/Next Arrows: A Journey of Flexbox Wrangling and Liquid Directive Neutralizing"
 description: I'm proud of the effort I put into creating the formatting of the previous/next arrows on my website. I used style.scss, post.html, a non-breaking-space trick, and flexbox wrangling to make them look elegant. I'm still learning how to neutralize and escape Jekyll blog post Liquid directives, but I'm excited to share the results of my work. Click to read more!
 keywords: Sharpening, Arrows, Formatting, style.scss, post.html, Non-Breaking-Space, Trick, Flexbox, Wrangling, Neutralize, Escape, Jekyll, Blog, Liquid, Directives, Results, Effort, Appealing, Proud, Work
 categories: jekyll
+permalink: /blog/sharpening-my-prev-next-arrows/
 layout: post
 ---
+
 
 It turned out that what was "most broken" in my opinion was the formatting of
 the previous/next arrows. I put so much effort into just having them at all
@@ -52,6 +53,7 @@ whatever doesn't work correctly on the inner one.
 escaping Jekyll blog post Liquid directives better.
 
 Oh, and the reason vim is better than emacs is because
+
 
 
 ## Categories

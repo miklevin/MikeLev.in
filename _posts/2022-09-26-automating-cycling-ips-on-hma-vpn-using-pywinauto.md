@@ -1,13 +1,14 @@
 ---
 date: 2022-09-26
 title: Automating Cycling IPs on HMA VPN Using PyWinAuto
-permalink: /blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/
 headline: Successfully Automating Cycling IPs on HMA VPN with PyWinAuto
 description: I was hesitant to install Python from the Microsoft Store, but it was necessary to write a script with pywinauto that automates cycling IPs on HMA VPN. I'm happy to report that the script runs successfully and checks for goodip.txt to make sure it changes the IP address. Read my blog post to find out more about my journey of writing this script.
 keywords: Cycling IPs, HMA VPN, PyWinAuto, Python, Microsoft Store, Script, Automation, Goodip.txt, Change IP, Journey, Module
-categories: script, automation, journey, python
+categories: journey, python, script, automation
+permalink: /blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/
 layout: post
 ---
+
 
 Alright, I usually like to make one long post on each project but this one
 deserves being broken into two. The first was essentially the creation of a
@@ -104,10 +105,11 @@ while True:
 ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

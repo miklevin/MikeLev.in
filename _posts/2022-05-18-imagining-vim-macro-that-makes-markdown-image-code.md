@@ -1,13 +1,14 @@
 ---
 date: 2022-05-18
 title: Imagining vim Macro That Makes Markdown Image Code
-permalink: /blog/imagining-vim-macro-that-makes-markdown-image-code/
 headline: Vim Macro Makes Web Publishing Easier for Information Age Professionals
 description: As an Information Age professional, I use vim as my text editor to create image tags from keyworded filenames for my web publishing system based on Github's Github Pages Jekyll static site generator. I use proper-case for the web accessible alt-text area, which is beneficial for both the visually impaired and search engines. With vim, I can easily name my files with keywords and tag my images for search with alt-text. Learn how I use vim to make web publishing easier.
 keywords: vim, macro, Markdown, image, code, Information Age, text editor, web publishing, Github Pages, Jekyll, static site generator, proper-case, alt-text, keywords, files, search, tool
-categories: jekyll, search, keywords, github pages, text editor, vim, macro, static site generator
+categories: github pages, macro, static site generator, vim, keywords, search, text editor, jekyll
+permalink: /blog/imagining-vim-macro-that-makes-markdown-image-code/
 layout: post
 ---
+
 
 The time has come to cast a new vim-spell so powerful, it boggles.
 
@@ -53,14 +54,15 @@ Age professional is, right? Otherwise you've put your gonads in Microsoft's
 hands (VSCode, right, right, am I right?).
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

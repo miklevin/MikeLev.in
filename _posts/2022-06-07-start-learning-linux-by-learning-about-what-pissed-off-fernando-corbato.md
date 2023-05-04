@@ -1,13 +1,14 @@
 ---
 date: 2022-06-07
 title: Start Learning Linux by Learning About What Pissed Off Fernando Corbato
-permalink: /blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/
 headline: Discover How I Changed the World of Computing with Linux
 description: As a frustrated MIT student in the 1950s, I was determined to create a time-sharing system that was accessible to all. After a series of events, I eventually created Linux, a revolutionary operating system that allowed for standard out to standard in, treated everything like a read. Join me on a journey to discover how this summer project changed the world of computing.
 keywords: Fernando Corbato, MIT, 1950s, Time-Sharing System, Multics, UNIX, Linux, Operating System, Standard Out, Standard In, Read, Ken Thompson, Bell Labs, Custody Battle, Linux Torvalds, Summer Project
 categories: unix, linux
+permalink: /blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/
 layout: post
 ---
+
 
 The first thing to do when learning Linux is to understand that a young MIT
 student got frustrated from snooty elitists keeping him from having computer
@@ -28,6 +29,7 @@ ported between different hardware easily is the right way to go with computer
 operating systems, so I'll make changing the world into a summer project. And
 so he did. And any idea of learning a "graphical desktop" as anything having to
 do with Linux (even GNOME, KDE or xcfe) has the entirely wrong idea.
+
 
 
 ## Categories

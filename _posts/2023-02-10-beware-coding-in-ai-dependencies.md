@@ -1,13 +1,14 @@
 ---
 date: 2023-02-10
 title: Beware Coding In AI-Dependencies
-permalink: /blog/beware-coding-in-ai-dependencies/
 headline: "Don't Depend on Big Companies: Create Your Own AI Datacenter on Your Bookshelf!"
 description: I am warning of the dangers of coding AI-dependencies, which only serves to increase the gap between the rich and the poor. Instead of relying on big companies for competitive advantage, I am encouraging people to make it happen on their own. With the decrease in cost of AI model-training hardware, I am suggesting that people can have a datacenter on their bookshelf. To learn more, I am advising people to chat with ChatGPT about the Socratic Method.
 keywords: AI-Dependencies, Rich, Poor, Big Companies, Competitive Advantage, Decrease in Cost, AI Model-Training, Hardware, Datacenter, Bookshelf, ChatGPT, Socratic Method
 categories: hardware, chatgpt
+permalink: /blog/beware-coding-in-ai-dependencies/
 layout: post
 ---
+
 
 I could not have positioned my schtick better for the rise of AI: How to resist
 obsolescence. While yeah sure, it seems profoundly enabling of the little-guy,
@@ -38,6 +39,7 @@ world is. Ask if it knows what Intel IME is. Etc.
 
 Continue working on the MikeLev.in website. It's my CSS playground. Forget
 JavaScript. Push the boundaries with HTML, CSS and even SVG.
+
 
 
 ## Categories

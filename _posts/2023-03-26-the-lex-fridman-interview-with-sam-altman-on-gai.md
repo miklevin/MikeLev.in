@@ -1,13 +1,14 @@
 ---
 date: 2023-03-26
 title: The Lex Fridman Interview with Sam Altman on GAI
-permalink: /blog/the-lex-fridman-interview-with-sam-altman-on-gai/
 headline: "Exploring GAI with Sam Altman: Regulations, GPT-4, Steve Jobs, and LL"
 description: In this recent Lex Fridman interview, I heard from Sam Altman about GAI. He discussed the challenge of creating a system that is in line with people's beliefs, as well as the need to regulate other's speech. We also discussed the GPT-4 System Card PDF, Steve Jobs' story about why he added a handle to the original iMac, the advancements from GPT-3 to GPT-4, and the concept of LL. Join me as I explore these topics.
 keywords: Lex Fridman, Sam Altman, GAI, System Alignment, Speech Regulation, GPT-4 System Card PDF, Steve Jobs, iMac, GPT-3, GPT-4, LL
 categories: 
+permalink: /blog/the-lex-fridman-interview-with-sam-altman-on-gai/
 layout: post
 ---
+
 
 Listing to this Lex Fridman interview with Sam Altman that just came out.
 Really important to listen to, beginning to end (and I'm only 1/4 through it).
@@ -75,6 +76,7 @@ I am excited about a future where AI is an extension of human will and an
 amplifier of our abilities. Maybe we never build AGI but make humans
 super-great. If GPT is going to take your job, maybe you were a shitty
 programmer.
+
 
 
 ## Categories

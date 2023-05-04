@@ -1,13 +1,14 @@
 ---
 date: 2022-05-01
 title: Writing a Bash Loop Script for Jekyll
-permalink: /blog/writing-a-bash-loop-script-for-jekyll/
 headline: Successfully Completed Bash Loop Script for Jekyll to Edit 10 Sites Simultaneously
 description: I wrote a Bash loop script for Jekyll to edit 10 sites at once, centralizing the identical files. I tested the script by adding line-height to style.scss, and it was successful. I then pushed the changes to all of my sites using git commands, and I'm excited to share the results with you!
 keywords: Bash, Loop, Script, Jekyll, Edit, Sites, Centralizing, Identical, Files, Line-Height, Style.scss, Push, Changes, MikeLevin, Pythonically, Linuxpythonvimgit, Mikeateleven, Tardigradecircus, Removablefinger, Mike-Levin, Lundervand, Pipulate, Whatsametafor, Guerillatech, Git, Add, Commit
-categories: jekyll, script, pipulate, loop, git, bash
+categories: git, loop, pipulate, changes, jekyll, script, bash
+permalink: /blog/writing-a-bash-loop-script-for-jekyll/
 layout: post
 ---
+
 
 Editing 10 sites at once that are all actually in-play requires editing a lot
 of files at once, quite often identical. So long as they are identical, I
@@ -143,12 +144,13 @@ going to be nice.
 
 Think through next steps. Every Little Project Gets Done!
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/loop/'>Loop</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/bash/'>Bash</a></h4></li></ul>

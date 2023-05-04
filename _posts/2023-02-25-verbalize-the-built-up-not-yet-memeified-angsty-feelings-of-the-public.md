@@ -1,13 +1,14 @@
 ---
 date: 2023-02-25
 title: Verbalize the built-up not-yet memeified angsty feelings of the public.
-permalink: /blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/
 headline: "Maximizing Personal Advantage in the Age of AI: My Advocacy for 280 Character Tweets"
 description: As I experience the impact of AI, I'm advocating for the use of 280 character tweets to spread ideas and leverage current tools for personal gain. This is a unique moment in history and I'm determined to make the most of it. Click through to find out how.
 keywords: AI, 280 characters, spread ideas, leverage tools, personal gain, craftspeople, code, unique moment, history, maximize advantage
 categories: ai
+permalink: /blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/
 layout: post
 ---
+
 
 I get the feeling that the technically lazy are rejoicing at them not having to learn to code now thanks to AI. It feels like a leveling of the playing field between those who are forever able to earn as an infotech craftsperson and those who have to bullshit to live.
 
@@ -32,6 +33,7 @@ Society had always become stratified between the can's and the cannot's based on
 Because nobody knows what the future will bring (even the super-wealthy & fortified), the field is leveled. Be sufficiently clever today and in subsequent days, and be the author of your own future. We're now firmly on one of our own #SciFi stories.
 
 Cleverly utilizing todays common tools to maximum long-term personal advantage is the personal mission I propose to you today.
+
 
 
 ## Categories

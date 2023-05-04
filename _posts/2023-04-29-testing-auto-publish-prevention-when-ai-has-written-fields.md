@@ -1,13 +1,14 @@
 ---
 date: 2023-04-29
 title: Testing Auto-Publish Prevention When AI Has Written Fields
-permalink: /blog/testing-auto-publish-prevention-when-ai-has-written-fields/
 headline: Ensure AI-Written Content is Reviewed
 description: Test out my new auto-publish prevention system when AI has written fields. I'm doing one release before giving this a title as a control, and making sure the system works. This is a small article release, and I may delete it.
 keywords: AI, Journaling, System, Tweaking, Bowling, Weekend, Release, Summarize, Questions, Article, YAML, Source, File, Review, Control, Title
-categories: ai, yaml, journaling
+categories: journaling, ai, yaml
+permalink: /blog/testing-auto-publish-prevention-when-ai-has-written-fields/
 layout: post
 ---
+
 
 Okay, I could just keep on tweaking this journaling system forever now over the
 weekend, but no! The kid is interested in bowling and they want to gear up, so
@@ -30,9 +31,10 @@ I'm doing one release before giving this a title as a control. System's
 working. Now give it a title.
 
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

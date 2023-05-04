@@ -1,13 +1,14 @@
 ---
 date: 2023-04-02
 title: Playing with Bard
-permalink: /blog/playing-with-bard/
 headline: "Exploring the World: Mike Levin's Journey to Understand the MLGL Alpha License"
 description: I'm Mike Levin and I'm inquiring about the Machine Learning General License (MLGL alpha) Version 0.1 Alpha. Bard 1 explains that it is a proposed open-source license for machine learning models and datasets that allows for commercial use, requires attribution to the original creators, and encourages responsible development and use. Join me on this journey as I explore the world, try delicious foods, and learn about different cultures. Through my experiences, I have come to appreciate the beauty of the world.
 keywords: Travel, Mike Levin, MLGL Alpha, Version 0.1 Alpha, Open-Source License, Machine Learning Models, Datasets, Commercial Use, Attribution, Responsible Development, World, Foods, Cultures, Beauty, Markdown Table, Google Search, Story, Great Barrier Reef, Taj Mahal, Grand Canyon, Amazon Rainforest, Waterfall, African Village, Goat Meat, Vegetables, Spices, Friends, Family
 categories: 
+permalink: /blog/playing-with-bard/
 layout: post
 ---
+
 
 **Mike Levin:** Do you know the Machine Learning General License (MLGL alpha) Version 0.1 Alpha?
 
@@ -211,6 +212,7 @@ The people were happy to give Sarah the recipe, and she promised to make the ste
 
 
 Sarah continued to travel the world, trying new and delicious foods. She made many friends along the way, and she learned a lot about different cultures. She knew that she would never forget her time in Africa, and she knew that she would always cherish the memories she had made.
+
 
 
 ## Categories

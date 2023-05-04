@@ -1,13 +1,14 @@
 ---
 date: 2023-04-08
 title: Embedding SVG Images in Markdown Cells of Jupyter Notebooks
-permalink: /blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/
 headline: Embedding SVG Images in Jupyter Notebooks - How I Did It!
 description: This blog post explains how I wrote a Python program that uses the base64 module to encode an SVG image file, generates an HTML img tag with the encoded data as the src attribute, and outputs the HTML img tag as a string. This allows the image to be displayed properly in a markdown cell of a Jupyter Notebook, making it easy to reference the original file. Read on to find out how I did it!
 keywords: Python, Program, base64, Module, Encode, SVG, Image, File, HTML, img, Tag, src, Attribute, Output, String, Display, Properly, Markdown, Cell, Jupyter, Notebook, Reference, Original
-categories: notebook, html, python, jupyter
+categories: python, notebook, jupyter, html
+permalink: /blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/
 layout: post
 ---
+
 
 **Mike Levin:** Write a Python program that will load a .svg image and output an html img
 tag wit the src attribute set to the encoded svg data that will allow the
@@ -50,10 +51,11 @@ Jupyter Notebook and it should display the SVG image properly as if it were a
 reference to the original file.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li></ul>

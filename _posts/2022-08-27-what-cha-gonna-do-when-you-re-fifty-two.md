@@ -1,13 +1,14 @@
 ---
 date: 2022-08-27
 title: What'cha Gonna Do When You're Fifty Two?
-permalink: /blog/what-cha-gonna-do-when-you-re-fifty-two/
 headline: "Reflecting on 52 Years: My Birthday Gift to Myself and the World"
 description: On my 52nd birthday, I'm reflecting on my life and the changes that have occurred. I was pleasantly surprised to receive 6 months of free Disney+ from Verizon, and I watched She Hulk and Obi-wan, which brought tears to my eyes. I'm pushing forward with Operation ELTgd and the principle of 'Power Good', to help myself, those in my life, and the world. As a birthday gift to myself, I'm making a Bagel-All-The-Way.
 keywords: 52nd Birthday, Changes, Disney+, She Hulk, Obi-wan, Operation ELTgd, Power Good, Bagel-All-The-Way, Belly-Lox, Capers, Red Onion, Philly Cream Cheese, Everything Bagel, Website, Wisdom, Category System, Subnavigation, Vim Custom Dictionary
-categories: 
+categories: changes
+permalink: /blog/what-cha-gonna-do-when-you-re-fifty-two/
 layout: post
 ---
+
 
 Happy Birthday to me! I offered Adi Great Adventure tomorrow but they said
 they'd prefer a Michael's crafting weekend. It almost brought tears to my eyes.
@@ -104,6 +105,7 @@ Give the different things you're focusing on good, strong nicknames.
 
 Categorinator
 vim dictionator
+
 
 
 ## Categories

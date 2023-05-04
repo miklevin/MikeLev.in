@@ -1,13 +1,14 @@
 ---
 date: 2022-08-17
 title: Reworking Site
-permalink: /blog/reworking-site/
 headline: Creating a New Website with SimpleCSS, Linux, Python, Vim, Git and Jekyll Skills
 description: I'm working on my website today, using SimpleCSS for a new look. I'm using Linux, Python, Vim, Git and Jekyll skills to create a static page generator system. Testing out the Jekyll include system to create secondary navigation buttons, and considering externalizing the primary nav. Plus, two headers and lowercase versions of categories for my blogging. Come and join me on my journey!
 keywords: Website, SimpleCSS, Linux, Python, Vim, Git, Jekyll, Secondary Navigation, Primary Navigation, Header, Lowercase, Categories, Blogging, Journey
-categories: jekyll, python, vim, git, linux, blogging, journey
+categories: python, journey, linux, vim, git, blogging, jekyll
+permalink: /blog/reworking-site/
 layout: post
 ---
+
 
 Wow, another day for the history books. Yesterday I tried simplecss and it went
 well. I have a whole new look for my website and some advantage of a css
@@ -68,13 +69,14 @@ But I'm too tired to do it now and I may have a big day ahead of me tomorrow
 with the kid coming over.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/blogging/'>Blogging</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

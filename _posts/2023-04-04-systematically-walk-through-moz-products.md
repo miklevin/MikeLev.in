@@ -1,13 +1,14 @@
 ---
 date: 2023-04-04
 title: Systematically Walk Through MOZ Products
-permalink: /blog/systematically-walk-through-moz-products/
 headline: Unlock the Competitive Advantage of MOZ with My Systematic Review of Products
 description: as an employee of moz, i am on a mission to make sure moz is the source of competitive advantage in the seo software category. to do this, i am systematically reviewing moz products, such as moz free, moz pro, moz local, moz links api, moz toolbar, and stat, and capturing the new user experience of moz pro. additionally, i am doing some browser automation stuff.
 keywords: MOZ, SEO, Software, Free, Pro, Local, Links API, Toolbar, Stat, User Experience, Browser
 categories: seo, moz
+permalink: /blog/systematically-walk-through-moz-products/
 layout: post
 ---
+
 
 Goal: Capture the MOZ Pro new user experience with a fresh pair of eyes. In the
 eternal question of build vs. buy, I tend to land on the build side, because
@@ -56,6 +57,7 @@ graph LR;
 ```
 
 Let's do some browser stuff.
+
 
 
 ## Categories

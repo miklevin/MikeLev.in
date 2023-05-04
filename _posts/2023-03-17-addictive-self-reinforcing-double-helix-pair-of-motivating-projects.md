@@ -1,13 +1,14 @@
 ---
 date: 2023-03-17
 title: Addictive & Self-Reinforcing Double-Helix Pair of Motivating Projects
-permalink: /blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/
 headline: Exploring Data with a Double-Helix of Motivating Projects
 description: I'm starting two exciting projects that will motivate and energize each other. The first is creating a comprehensive slide deck about our data and how it compares to competitors, in a storytelling format. The second is to Moz-itize my work, easing people into this approach and starting each project with a kernel. Come join me on this journey and learn how to make the most of your data!
 keywords: Storytelling, Slide Deck, Competitors, Moz-itize, Kernel, Projects, Motivating, Self-Reinforcing, Double-Helix, Addictive
 categories: 
+permalink: /blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/
 layout: post
 ---
+
 
 I need 2 projects now that motivate me and cross-pollinate, feeding off of each
 others energy and get me excited to get and keep working on them.
@@ -33,6 +34,7 @@ Between throwing out my back and all the GPT ChatBot news of late, it's almost
 like I started at Moz twice. This is me sinking my teeth in now. Start each
 project as just that initial kernel. Then start building on each. And the
 nature of that kernel is important. You know enough to do it well now.
+
 
 
 ## Categories

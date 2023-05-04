@@ -1,13 +1,14 @@
 ---
 date: 2023-03-06
 title: Predicting The Best & Worst Most Likely Things To Expect From AI
-permalink: /blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/
 headline: Exploring the Potential of AI to Improve Life for Everyone
 description: I explore the potential of using decentralized distributed tech to give an advantage to the good guys, and how AI can be used for the greater good. I discuss the ethical and social challenges of pitting AIs in competition with each other, and provide five examples of possible headline-making scenarios. To create a positive perspective on the use of AI technology, I created a top 10 list of how it can improve life for everyone, from renewable energy solutions to enhancing healthcare delivery and education.
 keywords: AI, Predictions, Decentralized, Distributed, Tech, Ethical, Social, Challenges, Renewable, Energy, Healthcare, Delivery, Education, Positive, Perspective, Greater Good, Cryptographic, Primitives, Economic, Political, Mechanics, Open-Source, Software, Blockchain, Platforms, Public, Interest, Technology, Initiatives, Empathy, Equality, Opportunity, Cruel, Elite, Repressive
-categories: ai, opportunity, empathy
+categories: platforms, opportunity, ai, empathy
+permalink: /blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/
 layout: post
 ---
+
 
 What are some of the ethical and social challenges of pitting AIs in competition with each other over topics such as amassing finantial weath and shifting the centers of power? Give me a bunch of scenarios which when they happen will likely be too headline news.
 
@@ -124,9 +125,10 @@ Source: Conversation with Bing, 3/3/2023
     (6) Harvard Tech for Social Good. https://socialgood.hcs.harvard.edu/ Accessed 3/3/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/opportunity/'>Opportunities</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>

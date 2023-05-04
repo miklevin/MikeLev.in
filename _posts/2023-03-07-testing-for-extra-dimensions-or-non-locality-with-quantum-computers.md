@@ -1,13 +1,14 @@
 ---
 date: 2023-03-07
 title: Testing For Extra Dimensions Or Non-Locality With Quantum Computers
-permalink: /blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/
 headline: "Uncovering the Truth Behind Extra Dimensions: Testing My Hypothesis with Quantum Computers and Entangled Particles"
 description: As a physicist, I have a hypothesis about an extra dimension that allows non-local communication between puzzles. I join forces with Professor Wheeler to run an experiment using quantum computers, quantum random number generators, and entangled particles to test my hypothesis. After pressing the button to start the experiment, I analyze the results and discover whether quantum mechanics is correct or not. Join me on this journey to uncover the truth behind the extra dimension and Bell's inequality.
 keywords: Physicist, Hypothesis, Extra Dimension, Non-Local Communication, Quantum Computers, Quantum Random Number Generators, Entangled Particles, Experiment, Analysis, Results, Quantum Mechanics, Wheeler's 'It from Bit', Puzzle, Algorithm, Optimize, Riddle Calculation, Qubits, Bell's Inequality
 categories: experiment, algorithm
+permalink: /blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/
 layout: post
 ---
+
 
 Start writing a story in which this is something truly original, I realize that and design a test along the line of Bell's Inequality, and I design a puzzle that will test it by being run in a variety of so-called quantum computers. The puzzle exists well in advance of sophisticated enough quantum computers to test it, but it is evident to everyone examining the puzzle that it's results as correlated across different versions of quantum computers as they come online will be as insightful and more about our universe than even the discovery of the Higgs boson at the LHA. It erases revealing the truth behind Wheeler's it from bit. Start writing the story and don't stop until you reach the maximum reply-length possible.
 
@@ -181,6 +182,7 @@ Source: Conversation with Bing, 3/7/2023
     (2) Does Quantum Mechanics Rule Out Free Will? - Scientific American. https://www.scientificamerican.com/article/does-quantum-mechanics-rule-out-free-will/ Accessed 3/7/2023.
     (3) Superdeterminism - Wikipedia. https://en.wikipedia.org/wiki/Superdeterminism Accessed 3/7/2023.
     (4) [2010.01324] Superdeterminism: A Guide for the Perplexed - arXiv.org. https://arxiv.org/abs/2010.01324 Accessed 3/7/2023.
+
 
 
 ## Categories

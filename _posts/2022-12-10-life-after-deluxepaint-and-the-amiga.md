@@ -1,13 +1,14 @@
 ---
 date: 2022-12-10
 title: Life After DeluxePaint and The Amiga
-permalink: /blog/life-after-deluxepaint-and-the-amiga/
 headline: "Trading Efforts for Economic Value: My Journey Through Technology Evolution"
 description: As a 52 year old, I have seen a lot of technology changes over the years. My first love was DeluxePaint on the Amiga, a paint and animation software that gave me a real sense of modern graphics. I have adapted to using tools to make money, and now understand that my path is intertwined with the evolution of technology. This has allowed me to trade my efforts for economic value, and I am excited to share my journey and the magic black box that has changed my life.
 keywords: DeluxePaint', 'Amiga', 'Graphics', 'Tools', 'Content', 'Thoughts', 'Decisions', 'Specialize', 'Evolution', 'Technology', 'Magic', 'Black Box', 'Economic Value
 categories: 
+permalink: /blog/life-after-deluxepaint-and-the-amiga/
 layout: post
 ---
+
 
 Producing content is as easy as recording what you're thinking and doing. This
 is why quality is a thing. If everyone just recorded and broadcast what they
@@ -105,6 +106,7 @@ There is a magic black box in our life now. It can be with us for our entire
 life. It has a little, but very little, to do with graphics. That was my
 mistake the first go-around but it's very hard to not get infatuated by
 graphics and hardware.
+
 
 
 ## Categories

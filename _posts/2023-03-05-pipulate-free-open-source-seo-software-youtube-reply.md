@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Pipulate Free & Open Source SEO Software YouTube Reply
-permalink: /blog/pipulate-free-open-source-seo-software-youtube-reply/
 headline: Develop Open-Source SEO Software with Me - Pipulate, Linux, Python, JupyterLab, and Raspberry Pi's!
 description: Join me in developing Pipulate, an open-source SEO software powered by Linux, Python, JupyterLab, and Raspberry Pi's. I'm creating a 24/7 service to do SERP scraping, HTML report emailing, and more. Plus, I'm working on a way to simplify the scripts and update the W - come join me!
 keywords: Pipulate, Free, Open Source, SEO, Software, YouTube, Reply, Linux, Python, JupyterLab, Raspberry Pi, 24/7 service, SERP scraping, HTML report emailing, Vim, VSCode, Paid Sources, Scripts, Update
-categories: youtube, python, open source, vscode, pipulate, seo, vim, linux, jupyterlab
+categories: python, scripts, jupyterlab, linux, vim, vscode, open source, youtube, pipulate, seo
+permalink: /blog/pipulate-free-open-source-seo-software-youtube-reply/
 layout: post
 ---
+
 
 I have a premise with which the mainstream disagrees: no one in the SEO world actually wants to become technical beyond Excel macros or maybe GSheet AppScripts. I say pishaw to the mainstream. I say we just entered a new world where generic and usually Ubuntu Linux, often headless, is the great interoperable and long-lived API of tech. Live there. Learn it.
 
@@ -28,15 +29,16 @@ We'll, I'm wrapping Macs into the equation (a drinkme.sh for macs). I also want 
 Thoughts so far?
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

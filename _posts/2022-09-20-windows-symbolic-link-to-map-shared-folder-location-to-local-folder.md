@@ -1,13 +1,14 @@
 ---
 date: 2022-09-20
 title: Windows Symbolic Link to Map Shared Folder Location to Local Folder
-permalink: /blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/
 headline: "Mapping Shared Folder Location to Local Folder: My Journey to Get My Repos Folder Working on Windows and WSL"
 description: I recently set up a shared folder on my NAS to use as a repos drive. After a lot of work, I managed to get it working in both Windows and WSL, but the performance dropped too much when I moved the repos folder to the NAS. I had to reverse my work, updating the firmware on my NAS, renaming the Windows 'D' drive to an 'R' drive, and running an install.bat script and creating an apt_installs.sh file.
 keywords: Windows, Symbolic Link, Map, Shared Folder, Location, Local Folder, NAS, Repos Drive, Firmware, Rename, Install.bat, Apt_installs.sh, Chrome OS, Linux, Commands, Restart
 categories: linux
+permalink: /blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/
 layout: post
 ---
+
 
 It's really nice when what I want to do for the public is what I ***have to***
 do for myself. Starting up the Linux Jupyter service after a Windows restart
@@ -164,6 +165,7 @@ went back to a separate data folder on the NAS (home cloud) and a local repos
 folder. I'm basically reversing most of the stuff from the last few posts and
 hoping I can get to sleep early enough to hit the work I urgently need to
 deliver for work.
+
 
 ## Categories
 

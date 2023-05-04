@@ -1,13 +1,14 @@
 ---
 date: 2022-12-18
 title: My Technology Predictions For 2023
-permalink: /blog/my-technology-predictions-for-2023/
 headline: "2023: Fusion Self-Sustaining, Maglev Antigravity, and More!"
 description: As we enter 2023, I predict a shift from 'does it blend' videos to 'is it sentient' videos. Fusion will become self-sustaining, but set back 30 years. Python will adopt a Frenchman as its mascot, Elon Musk will release a Starlink phone without a telecom provider, and Microsoft will make VSCode a requirement for WSL2. Finally, I'll reveal that we have maglev antigravity technology, but it's not what you expect.
 keywords: 2023, Fusion, Self-Sustaining, Python, Frenchman, Mascot, Elon Musk, Starlink, Telecom Provider, Microsoft, VSCode, WSL2, Maglev, Antigravity
-categories: wsl2, microsoft, python, vscode
+categories: vscode, python, microsoft, wsl2
+permalink: /blog/my-technology-predictions-for-2023/
 layout: post
 ---
+
 
 1. ***But Does It Blend*** videos get replaced by ***But Is It Sentient?***
 1. Fusion finally becomes self-sustaining, but is somehow set back another 30 years.
@@ -21,10 +22,11 @@ layout: post
 1. Twitter adds features that make it the new Github.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-31
 title: Continuing My Silent Live-Streaming Journaling Adventure
-permalink: /blog/continuing-my-silent-live-streaming-journaling-adventure/
 headline: Exploring the Possibilities of Journaling and Coding Through Live-Streaming My Journey
 description: I'm live-streaming my journey of journaling and making the argument for keeping a single text file for life. I'm also creating a Github repo with code examples, watching cartoons with my kid, and making them food. I've written sample code and converted them into Python dict objects, and I now have a Jupyter Notebook to share with the community. Join me on my journey and explore the possibilities of journaling and coding!
 keywords: Journaling, Single Text File, Live-Streaming, Github, Code Examples, Python, Dict Objects, Jupyter Notebook, Personal Journal, Professional Journal, Vi-like Editor, API, Cartoon, Food, String JSON
-categories: jupyter notebook, python, github, journaling, api
+categories: python, journaling, api, jupyter notebook, github
+permalink: /blog/continuing-my-silent-live-streaming-journaling-adventure/
 layout: post
 ---
+
 
 My journaling adventure continues. I make the argument for keeping a daily
 personal and professional journal with a vi-like editor, and keeping it as one
@@ -96,11 +97,12 @@ in the Jupyter Notebook. That's a good starting point for future projects. And
 you can share in the resource.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

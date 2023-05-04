@@ -1,13 +1,14 @@
 ---
 date: 2023-05-03
 title: Rappelling Down the Rabbit Hole, X-Marks The Spot
-permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: muscle memory, vim, neovim, api, magic
+categories: vim, neovim, muscle memory, magic, api
+permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 ---
+
 
 Three sort lines and a YAMLchop! Poetry strikes when you least expect it, and
 when it does, you're channeling from somewhere deep, either an eternal
@@ -320,11 +321,12 @@ fantasy, silly.
 
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>

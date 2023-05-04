@@ -1,13 +1,14 @@
 ---
 date: 2022-08-02
 title: From Sending Email in Jupyter to Sending Email in Linux Service
-permalink: /blog/from-sending-email-in-jupyter-to-sending-email-in-linux-service/
 headline: I'm Learning Zawinski's Law, Python's SMTP Library, and Systemd - How I'm Testing My Work in JupyterLab
 description: I'm learning Zawinski's Law, Python's SMTP library, and systemd. I'm using JupyterLab to show how to work with mail-from and mail-to files, move them into a Linux container pulse folder, and create a sendmail.py file. Come read my blog post to find out how I'm testing my work!
 keywords: Email, Jupyter, Linux, Zawinski's Law, Python, SMTP, Library, Systemd, JupyterLab, Mail-from, Mail-to, Container Pulse, Sendmail.py, Testing
-categories: systemd, python, jupyterlab, linux, email, jupyter
+categories: python, email, jupyterlab, linux, jupyter, systemd
+permalink: /blog/from-sending-email-in-jupyter-to-sending-email-in-linux-service/
 layout: post
 ---
+
 
 Ever need a running process to reach out and let you know how things are going?
 Per Zawinski's Law, the time has come the Walrus said to make our Python Linux
@@ -37,12 +38,13 @@ Linux service management system called systemd.
 - Run it as a service
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/email/'>Email</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

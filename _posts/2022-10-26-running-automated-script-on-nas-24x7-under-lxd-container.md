@@ -1,13 +1,14 @@
 ---
 date: 2022-10-26
 title: Running Automated Script on NAS 24x7 Under LXD Container
-permalink: /blog/running-automated-script-on-nas-24x7-under-lxd-container/
 headline: "Learning LXD and Container Station: My Journey to Automate Tasks on my NAS 24x7!"
 description: I'm documenting my journey of learning about Container Station and LXD, and how I successfully set up a long-running script in a Linux Container on my QNAP NAS. I've already created two YouTube videos to document the process, and now I'm working on changing the script into a Python one and making it do something to remind me of something daily. Follow my journey and learn how to set up your own Linux Container!
 keywords: Container Station, LXD, lxc, QNAP NAS, automated script, long-running script, Linux Container, Python, YouTube, video, documentation, journey, learning
-categories: youtube, python, learning, lxd, journey
+categories: python, journey, youtube, learning, lxd
+permalink: /blog/running-automated-script-on-nas-24x7-under-lxd-container/
 layout: post
 ---
+
 
 Hello World! I just did the final step so that my LXD Linux Container running
 in my "home cloud" (QNAP NAS / not my laptop) just as capable as the ones I'm
@@ -37,11 +38,12 @@ That went well but now we should make it do something to remind us. To keep
 pushing us to do something daily.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-04-04
 title: A Mike Levin SEO Vanity Search Test w/ Bing & Bard
-permalink: /blog/a-mike-levin-seo-vanity-search-test-w-bing-bard/
 headline: I'm Mike Levin, an SEO Expert Helping Others Succeed in Tech and SEO.
 description: I'm Mike Levin, an SEO expert based in NYC. I specialize in free and open source software and services, and have created a bookmarklet to help SEO Managers and Technologists. I've achieved a lot in the SEO field, including devising and aiding in the implementation of SEO strategies for Fortune 100s, and lifting the most notorious Google penalty in history. I'm passionate about helping others succeed, and I'm always looking for the next big thing in tech.
 keywords: Mike Levin, SEO, NYC, FOSS, Software, Services, Bookmarklet, SEO Managers, Technologists, Fortune 100s, Google Penalty, Helping Others, JupyterLab, Headless Cloud Servers, Linux Services, Raspberry Pi, 360iTiger, Crawling, Websites, SAP, SEO Director
-categories: seo, nyc, jupyterlab
+categories: nyc, seo, services, jupyterlab
+permalink: /blog/a-mike-levin-seo-vanity-search-test-w-bing-bard/
 layout: post
 ---
+
 
 Vanity searches are a okay benchmark test. That is, you probably do them enough
 so that you can notice changes in the search engines or chatbot responses. This
@@ -88,9 +89,10 @@ Here are some of his notable accomplishments:
 * First truly satisfying PowerPoint of his career, enjoying PowerPoint 365's auto-alignment features and the Surface Pro's stylus for illustration, at the top of the Empire State Building.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/nyc/'>NYC</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>

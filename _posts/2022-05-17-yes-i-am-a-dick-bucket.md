@@ -1,13 +1,14 @@
 ---
 date: 2022-05-17
 title: Yes, I Am a Dick Bucket
-permalink: /blog/yes-i-am-a-dick-bucket/
 headline: "Fostering Meaningful Conversations: My Experience in Emotional Growth with My Child"
 description: In this blog post, I share my experience of an important moment of growth with my child, where we discussed the differences between male and female. I discuss how to identify signs of a closed mind, and how controlling your breath is the first step to emotional growth. Read this blog post to learn how to foster meaningful conversations and grow emotionally.
 keywords: male, female, labels, discourse, closed mind, vibrating eyes, emotional growth, controlling breath, meaningful conversations, irrational, triggered, emotionally stable
-categories: 
+categories: labels
+permalink: /blog/yes-i-am-a-dick-bucket/
 layout: post
 ---
+
 
 Knowing when you're a Dick Bucket, HA HA HA! I think I'm going to keep this one
 unlisted. I'm not going for views here, ladies and gentlemen. I'm going for
@@ -133,6 +134,7 @@ whole minute.
 Controlling your breath is the first step to growing up emotionally.
 
 Breath.
+
 
 
 ## Categories

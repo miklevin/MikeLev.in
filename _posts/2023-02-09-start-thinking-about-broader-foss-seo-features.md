@@ -1,13 +1,14 @@
 ---
 date: 2023-02-09
 title: Start Thinking About Broader FOSS SEO Features
-permalink: /blog/start-thinking-about-broader-foss-seo-features/
 headline: "Exploring FOSS SEO Features: My Journey to Joining Moz"
 description: I'm excited to join Moz, a search engine optimization company, as an online personality. I'm looking to create 'junior versions' of products that could be Moz products, or better deliverables when mashed-up with a Moz API. I'm also exploring products like AlsoAsk, which uses Google Suggest to create a visual representation of relationships. Come read my blog post to learn more about my journey and the exciting opportunities ahead!
 keywords: FOSS, SEO, Moz, Online Personality, Products, Google Suggest, Visualization, Relationships, Deliverables, API, Junior Versions, AlsoAsk
 categories: seo, api, moz
+permalink: /blog/start-thinking-about-broader-foss-seo-features/
 layout: post
 ---
+
 
 Wow, what a roller coaster ride. I just got word that I'll be joining Moz! I
 don't want to jinx it by writing about it too soon, but this is something I was
@@ -33,6 +34,7 @@ graph:
 Stuff like this just hits Google Suggest, most likely and spews out a cool
 visualization of relationships. I do this already in non-visual Python scripts
 and Excel. That kind of stuff could go easily into a FOSS product.
+
 
 
 ## Categories

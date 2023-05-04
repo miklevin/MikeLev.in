@@ -1,13 +1,14 @@
 ---
 date: 2022-11-07
 title: Are Things Easy?
-permalink: /blog/are-things-easy/
 headline: "Making the Tough Decision: Smartphones or Free Will?"
 description: "As a hardworking individual, I'm faced with a difficult decision: do I choose to have a smartphone in my life and give in to collective consciousness, or do I resist corporate overloads and maintain my own free will? It's a trade-off, as having a smartphone could lead to an arguably better life, but is it really worth it? Read on to explore the implications of this complex decision and discover how to draw a line in the sand."
 keywords: Smartphone, Collective Consciousness, Free Will, Trade-Off, Easily Offended, Hard Work, Dedication, Success, Hypnotized, Behavior, Manipulated, Corporate Profits, Draw Line in the Sand, Implications, Complex Decision
 categories: success
+permalink: /blog/are-things-easy/
 layout: post
 ---
+
 
 No. You might think they are, because r that's because you practiced hard and
 programmed yourself up to walk and talk when you didn't mind doing so and
@@ -80,6 +81,7 @@ going to not let yourself merge into the collective consciousness? How much are
 you going to maintain your own free will and how much are you going to
 subjugate yourself to corporate overloads? Of course it's in exchange for an
 arguably better life. But is it?
+
 
 
 ## Categories

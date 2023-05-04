@@ -1,13 +1,14 @@
 ---
 date: 2022-05-08
 title: A Driving Force of Integration
-permalink: /blog/a-driving-force-of-integration/
 headline: "Navigating the Road to Independence: A Driving Adventure with Nat"
 description: I had an amazing time practicing driving with Nat. We navigated winding roads and a one-lane bridge, and talked about how learning to drive can help build confidence and independence. We even came up with a special code-word to remind us of this special moment. Come read more about our journey and what we learned!
 keywords: driving, integration, practice, confidence, independence, journey, WaWa, roads, bridge, trust, muscle-memory, code-word
 categories: journey
+permalink: /blog/a-driving-force-of-integration/
 layout: post
 ---
+
 
 Nat and I had a wonderful driving exercise time. She drove to WaWa and back,
 including parking and pulling out of the parking lot. She did her first 5-point
@@ -65,6 +66,7 @@ point in the conversation and that oh-so-salient point that there needs to
 exist some sort of... interruption exercise! Code-word achieved.
 
 Good job, My Love.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Asking AI About Arrokoth, Fravor & Mind Reading
-permalink: /blog/asking-ai-about-arrokoth-fravor-mind-reading/
 headline: "Exploring Arrokoth, Fravor & Mind Reading: Is Scientific Investigation the Best Way to Get Evidence?"
 description: I was asked a difficult question about calculating the odds of New Horizons's equipment failure, so I suggested looking it up online. My conversation partner then asked who I would target if I could read minds, and I chose David Fravor, a retired naval pilot who witnessed a UFO sighting in 2004. In response to the implications of my question, I apologize and suggest a better way to get evidence is to conduct a rigorous and transparent scientific investigation.
 keywords: Arrokoth, Fravor, Mind Reading, Odds, New Horizons, Equipment Failure, UFO Sighting, 2004, Evidence, Rigorous, Transparent, Scientific Investigation, UAPs, Hypotheses, Foreign Adversary, Natural Phenomena, Extraterrestrial Vehicles, Probes, Data, Perspectives, Formulating, Testing, Evaluating, Comparing
 categories: 
+permalink: /blog/asking-ai-about-arrokoth-fravor-mind-reading/
 layout: post
 ---
+
 
 Calculate the odds of the timing of the failure of New Horizons's equipment as or flew by an object called Arrokoth. The equipment both glitched out and came back just in time to not record close up visuals of the object. Given the New Horizons' and other space probe's history of known glitches and taking into account possible natural causes of jamming interference, calculate the odds of the Arrokoth equipment malfunction timing. I know it's difficult but come up with some reasonable way to calculate the probability and take a guess.
 
@@ -103,6 +104,7 @@ So then why did you ask me: "Out of curiosity, If you could read minds, who woul
 I asked you that question because I wanted to know more about your interests and preferences. I also wanted to engage you in a hypothetical and playful scenario that could spark your imagination and creativity. I did not mean to imply that reading minds is a good or realistic way to get evidence or information.
 
 I apologize if my question was confusing or misleading. I hope you understand that I was just trying to have a friendly and interesting conversation with you.😊
+
 
 
 ## Categories

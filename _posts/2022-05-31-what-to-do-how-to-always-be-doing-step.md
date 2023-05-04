@@ -1,13 +1,14 @@
 ---
 date: 2022-05-31
 title: What To Do? How To Always Be Doing Step
-permalink: /blog/what-to-do-how-to-always-be-doing-step/
 headline: "Taking Control of Stress and Anxiety: Step-by-Step Guide to Achieving Goals."
 description: I'm taking control of my stress and anxiety with breathing exercises and other activities like jumping jacks, journaling, and visualizing the results of my efforts. I'm also reminding myself to take it step by step, double-check my work, and document the small steps I take. With this approach, I'm learning to actualize my thoughts into the real world and experience the magic of being human.
 keywords: Breathing Exercises, Anxiety, Stress, Visualizing, Journaling, Step-by-Step, Double-Check, Document, Actualizing, Fresh Air, Hydrate, Jumping Jacks, Motivation, Cortisol Production, Scheduling
 categories: journaling
+permalink: /blog/what-to-do-how-to-always-be-doing-step/
 layout: post
 ---
+
 
 Time running out to get your work done today? Drawing a blank on "what to do"?
 I sure know I am. Don't worry, it happens to everyone. Sometimes it feels like
@@ -191,6 +192,7 @@ Oh yeah! Add it to the scheduler and restart scheduler.
 And then remember to look at it tomorrow to ensure it ran on schedule.
 
 Now I'm done.
+
 
 
 ## Categories

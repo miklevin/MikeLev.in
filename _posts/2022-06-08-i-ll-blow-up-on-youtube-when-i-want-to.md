@@ -1,13 +1,14 @@
 ---
 date: 2022-06-08
 title: I'll Blow Up On YouTube When I Want To
-permalink: /blog/i-ll-blow-up-on-youtube-when-i-want-to/
 headline: "Ready to Make My Mark: 20.3 Years of YouTube Watchtime Accumulated in One Year"
 description: I've been on YouTube since 2006 and have accumulated 178,223 hours of watchtime in the last 365 days - equivalent to 20.3 years of continuous watchtime! My videos have been successful in introducing the world to the Raspberry Pi and teaching a generation of children the removable finger trick. Now, I'm taking advantage of new technology like iPhone and Github Pages to record and upload videos more easily. My mission is to help more people move away from Windows and I'm ready to make my mark -
 keywords: YouTube, 2006, 178,223, 365, watchtime, 20.3, years, continuous, Raspberry Pi, removable finger trick, iPhone, Github Pages, Windows, storm, polished, presence
-categories: youtube, github pages
+categories: github pages, youtube
+permalink: /blog/i-ll-blow-up-on-youtube-when-i-want-to/
 layout: post
 ---
+
 
 Part of the YouTube algorithm wants to reward me. Here's the last 365-day view
 of my YouTube analytics. I'm different than other YouTubers in that I go back
@@ -77,8 +78,9 @@ blow up on YouTube despite all the polishistas. The world just might be ready
 for me. I feel twitches in the web.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

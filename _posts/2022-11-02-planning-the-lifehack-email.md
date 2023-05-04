@@ -1,13 +1,14 @@
 ---
 date: 2022-11-02
 title: Planning the Lifehack Email
-permalink: /blog/planning-the-lifehack-email/
 headline: "Exploring Lifehack: My Journey to Professional and Personal Growth"
 description: I'm learning the basics of machine learning and sending out an email daily. I'm building projects to help me professionally and personally, such as organizing my YouTube videos, website, and repos/packages. I'm also thinking of tasks to accomplish on a personal and professional level, and writing essays about my worldview, professional needs, spiritual needs, how to get a good base salary, and how to not hate myself in the process. Join me on this journey as I explore and learn!
 keywords: Lifehack, Machine Learning, YouTube Videos, Website, Repos/Packages, Tasks, Professional, Personal, Worldview, Spiritual Needs, Salary, Self-Hate
 categories: machine learning
+permalink: /blog/planning-the-lifehack-email/
 layout: post
 ---
+
 
 Busy, busy, busy! The deliverables for my day job are becoming challenging,
 pulling me into machine learning in about the most modest way possible, mere
@@ -81,6 +82,7 @@ Have chapter titles, essay names or whatever ready.
 - The Walrus & The Carpenter
 - Tools Become a Part of You
 - Hitting a Technical Wall
+
 
 
 ## Categories

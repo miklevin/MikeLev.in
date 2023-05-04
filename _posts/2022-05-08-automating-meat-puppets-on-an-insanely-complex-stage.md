@@ -1,13 +1,14 @@
 ---
 date: 2022-05-08
 title: Automating Meat Puppets On an Insanely Complex Stage
-permalink: /blog/automating-meat-puppets-on-an-insanely-complex-stage/
 headline: "Controlling My Reality Through Automation: A Journey of Writing and Self-Awareness"
 description: I have created a system for releasing my writing to the public, using Github Pages, Python, bash scripts, and markdown. Writing takes discipline and commitment, and I have to be an objective observer, often putting myself in the mind of an opposing character - the 'lizard-brain' - to gain insight. My awareness is a feedback loop, allowing me to keep a calculated version of the world in my head, like a puppet on a stage. Read my blog post to learn more about
 keywords: Automating, Meat Puppets, Insanely Complex Stage, Github Pages, Python, Bash Scripts, Markdown, Discipline, Commitment, Objective Observer, Lizard-Brain, Awareness, Feedback Loop, Simulated World, Objective Reality, Puppet, Stage
 categories: github pages, python
+permalink: /blog/automating-meat-puppets-on-an-insanely-complex-stage/
 layout: post
 ---
+
 
 
 A very common pattern now that I have this nifty release system based on Github
@@ -85,6 +86,7 @@ induction) objective reality that we all occupy. But in any of those cases, the
 world we live in is primarily in our heads, and we're controlling through
 vastly simplified interfaces, a sort of meat-puppet on an insanely complex
 stage.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-04-30
 title: Edit 10 Blogs, Homepages or Templates All At Once
-permalink: /blog/edit-10-blogs-homepages-or-templates-all-at-once/
 headline: "Breathing New Life into MikeLev.in: Creating a layouts Folder and Using Helper-Scripts to Edit Files"
 description: I'm breathing new life into MikeLev.in, creating a \_layouts folder in each repo with a default.html file to get my Google Analytics code on each site. I've also created helper-scripts to edit all my site-files at once and am putting rudimentary site-navigation links in place. I'm considering switching gears to make it about previous/next blog, so stay tuned for more updates!
 keywords: Edit, Blogs, Homepages, Templates, MikeLev.in, \_layouts, default.html, Google Analytics, helper-scripts, site-files, site-navigation, previous/next blog
-categories: google analytics
+categories: homepages, templates, google analytics
+permalink: /blog/edit-10-blogs-homepages-or-templates-all-at-once/
 layout: post
 ---
+
 
 Okay, so I am breathing new life into MikeLev.in. I struggled to figure out
 which of my registered domains I should put this sort of open-ended rambling
@@ -68,6 +69,7 @@ that I should switch gears to make it about that.
 
 Hmm, nope. It should be a wholly separate post that I put over there on
 Pythonic Ally site.
+
 
 
 ## Categories

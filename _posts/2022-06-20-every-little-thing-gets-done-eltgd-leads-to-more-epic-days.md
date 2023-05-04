@@ -1,13 +1,14 @@
 ---
 date: 2022-06-20
 title: Every Little Thing gets done (ELTgd) Leads to More Epic Days
-permalink: /blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/
 headline: "ELTgd: Juneteenth 2022 - A Day of Accomplishment, Pleasure, and Self-Realization."
 description: On Juneteenth of 2022, I had a productive day full of accomplishment and pleasure. I wrote a difficult letter to my ex, created a sub-arrow system for my Jekyll and GitHub Pages static site generator, enjoyed a hot bath and a meal at the local diner, interacted with my YouTube audience, and created one of my best videos ever. I was reminded that life is what we make of it, and that everything after a certain point is of my own choosing.
 keywords: Every Little Thing gets done (ELTgd), Productive Day, Accomplishment, Pleasure, Difficult Letter, Ex, Sub-arrow System, Jekyll, GitHub Pages, Static Site Generator, Hot Bath, Meal, Local Diner, YouTube Audience, Video, Life, Choices, Impossible
 categories: jekyll, github pages, static site generator
+permalink: /blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/
 layout: post
 ---
+
 
 My precious time-off from work time on this Monday the Juneteenth of 2022 are
 rapidly winding down. I pulled off some things I previously thought impossible
@@ -58,6 +59,7 @@ that not even one little thing can get done. Don't let that happen. 1, 2, 3...
 Look at the 10\_slice.ipynb code. Look at the most convenient place to inject
 the support and HOW you're going to test it. Think! Okay, put in some category
 data on MikeLev.in (this file).
+
 
 
 ## Categories

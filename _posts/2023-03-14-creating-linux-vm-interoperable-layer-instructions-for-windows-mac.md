@@ -1,13 +1,14 @@
 ---
 date: 2023-03-14
 title: Creating Linux VM Interoperable Layer Instructions for Windows & Mac
-permalink: /blog/creating-linux-vm-interoperable-layer-instructions-for-windows-mac/
 headline: Exploring a Unique Approach to Web Development with Linux VMs, nbdev, Vim, and systemd
 description: I'm exploring an approach to web development and tech development that combines Linux VMs, nbdev, Vim, and systemd. This approach could give you more control over your environment and resources, but it also has a steep learning curve and potential risks. I'm also developing free and open source software based on Python that can run from Jupyter Notebooks and Linux system services. Check out my blog post to learn more about this approach and how to get started.
 keywords: Linux,VM,Interoperable,Layer,Windows,Mac,Web,Development,Tech,Vim,Systemd,Python,Jupyter,Notebooks,URL,Crawl,Index,Robots.txt,Relevant,Useful,Software,Analysis,Insights,Solutions,Vim,Git,Local,Resources,IDE,Text,Editor,nbdev,System,Service,Config,Details,Scripts,Pipulate,Open,
 categories: 
+permalink: /blog/creating-linux-vm-interoperable-layer-instructions-for-windows-mac/
 layout: post
 ---
+
 
 Of course, I’m happy to start over. What can I assist you with now?
 
@@ -240,6 +241,7 @@ Source: Conversation with Bing, 3/14/2023
     (3) 5 Most Effective Web Development Methodologies [2023] - ADCI Solutions. https://www.adcisolutions.com/knowledge/web-development-methodologies-and-approaches Accessed 3/14/2023.
     (4) 7 Web Development Best Practices - Visual Objects. https://visualobjects.com/web-development/blog/web-development-best-practices Accessed 3/14/2023.
     (5) What Is Web Development? - Codecademy News. https://www.codecademy.com/resources/blog/what-is-web-development/ Accessed 3/14/2023.
+
 
 
 ## Categories

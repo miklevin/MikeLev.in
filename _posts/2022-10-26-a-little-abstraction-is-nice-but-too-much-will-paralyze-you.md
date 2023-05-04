@@ -1,13 +1,14 @@
 ---
 date: 2022-10-26
 title: A Little Abstraction Is Nice But Too Much Will Paralyze You
-permalink: /blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/
 headline: "Living in Harmony: How Compassion and the Golden Rule Help Us Survive in a Chaotic World"
 description: I explore the idea that we are mammals with an innate sense of compassion, yet have the ability to override this with cruelty. I believe the golden rule is a good code of conduct that helps us to survive, and that we were created as a solution to the creator's boredom. I discuss the limitations of our senses and the need to accept complex processes and abstractions, and how quantum effects may appear in our everyday lives.
 keywords: Compassion, Cruelty, Golden Rule, Self-Awareness, Creator, Existence, Material World, Limitations, Senses, Predictions, Complex Processes, Abstractions, Quantum, Photosynthesis, Doorknob, Push, Walk
 categories: quantum
+permalink: /blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/
 layout: post
 ---
+
 
 Our own awareness is all we really know, so makes for a fine starting point for
 the big questions. Given the evidence of our senses, we can infer that we are
@@ -217,6 +218,7 @@ to open. Understand that while the need to go through the door many have been
 revealed to you through quantum mechanical processes, you still need to reach
 your hand out, turn the doorknob, push the door open and walk through. You're
 not going to just ***POP*** there.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-04-04
 title: Watch Me Struggle With Mermaid JS
-permalink: /blog/watch-me-struggle-with-mermaid-js/
 headline: "Exploring Noosphere with Mermaid JS: Live-Streaming My Data Project Journey Before 9:30 AM Call"
 description: "I'm live-streaming my daily journal before my 9:30 AM call. I'm using NeoVim, OpenAI auto-suggest, and Mermaid JS to work on a data project with a deadline. I'm also using CoPilot AI Pair Programming and Github CoPilot to help me out. I'm avoiding full web stack technologies and changing the background to white. Come join me on my journey as I explore noosphere and create quick diagrams with Mermaid!"
 keywords: NeoVim, OpenAI, Auto-Suggest, Mermaid JS, CoPilot AI, Pair Programming, Github CoPilot, Noosphere, Data Sources, Join Tables, Tests and Assumptions, Milestones, Quick Diagrams, Full Web Stack, White Background
-categories: neovim, github copilot, openai
+categories: openai, github copilot, neovim
+permalink: /blog/watch-me-struggle-with-mermaid-js/
 layout: post
 ---
+
 
 An error at the beginning of my WSL boot sequence:
 
@@ -131,9 +132,10 @@ I did a bunch of experimenting and instead of changing colors on in Mermaid
 diagrams, I just change the background to white and lean into the defaults.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

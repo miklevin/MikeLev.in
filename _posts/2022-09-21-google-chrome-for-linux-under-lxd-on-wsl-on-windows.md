@@ -1,13 +1,14 @@
 ---
 date: 2022-09-21
 title: Google Chrome for Linux Under LXD on WSL on Windows
-permalink: /blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/
 headline: Successfully Launched Google Chrome on Linux Using LXD on WSL on Windows
 description: I succeeded in getting Google Chrome up and running on my Linux system using LXD on WSL on Windows. I followed several steps to make sure the configuration settings would survive between reinstalls, and I'm thrilled to be able to launch it with google-chrome. After some hard work, I'm finally able to enjoy the fruits of my labor!
 keywords: Google, Chrome, Linux, LXD, WSL, Windows, Configuration, Settings, Reinstalls, Requirements, Repo, Commands, Apt_installs.sh, Requirements.txt, Launch, Working, Hard Work
-categories: google, lxd, linux, wsl, chrome
+categories: linux, wsl, chrome, lxd, google
+permalink: /blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/
 layout: post
 ---
+
 
 Okay I'm in a great position. I need to use this for my dayjob pronto! I have
 graphics working on the lxdwin default install. I have the optional apt and
@@ -33,11 +34,12 @@ Anyhow, on the lxdwin front, I got Google Chrome installing and its
 configuration settings surviving between reinstalls.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/chrome/'>Chrome</a></h4></li></ul>
+<li><h4><a href='/chrome/'>Chrome</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

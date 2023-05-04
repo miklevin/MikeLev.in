@@ -1,13 +1,14 @@
 ---
 date: 2022-04-07
 title: Okay, I'm Finally Keeping Audiences In Mind
-permalink: /blog/okay-i-m-finally-keeping-audiences-in-mind/
 headline: "Exploring the Rabbit Hole: My Journey to Releasing My Project"
 description: I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!
 keywords: Audience, WhatsaMetaFor.io, mlseo, 80/20 rule, Rabbit Hole Evaluations, nbdev, Github, Repository, Script, JupyterLab, Standalone, Issues, Documentation
-categories: mlseo, jupyterlab, script, github, nbdev, audience
+categories: jupyterlab, nbdev, audience, mlseo, script, github
+permalink: /blog/okay-i-m-finally-keeping-audiences-in-mind/
 layout: post
 ---
+
 
 Solve things in the order and way they need to be solved. Don't over-complicate
 things. Make a journal entry that's appropriate for public consumption on these
@@ -151,12 +152,13 @@ Think! vim release.sh... shouldn't be too hard! No, I need a prerelease.sh
 because I don't really want to be pushing to pypy all the time. In fact, maybe
 it should be prepare.sh because I'll still want to manually make pypi. Yes!
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/audience/'>Audience</a></h4></li></ul>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

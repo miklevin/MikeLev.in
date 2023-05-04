@@ -1,13 +1,14 @@
 ---
 date: 2023-04-19
 title: Website Content GAP Analysis Based on Keyword SERP Rankings
-permalink: /blog/website-content-gap-analysis-based-on-keyword-serp-rankings/
 headline: Creating a Content GAP Analysis Using Python and Microsoft Playwright
 description: I recently completed a project to create a content GAP analysis between websites using MOZ data. I wrote code in Python and used Microsoft Playwright to automate the download of keyword lists. I used Pandas to create a pivot table, merge the dataframes, sort the data, drop duplicates, and save the data to an Excel file. My program helps identify gaps in content ranking between different sites and filter out keywords with less than 1000 monthly searches.
 keywords: Website, Content, GAP Analysis, Keyword, SERP, Rankings, OpenAI, MOZ, Python, Microsoft Playwright, Automation, Download, Lists, Pandas, Pivot Table, Merge, Dataframes, Sort, Duplicates, Excel, File, Volume, Difficulty, Top Rank, URL, Standardize, Columns, NaN, Integers, Sample, Descending, Filter, Searches, CSVs, Clean, Remove, Blanks, Compare
-categories: automation, python, microsoft playwright, url, excel, moz, openai
+categories: python, searches, moz, openai, automation, microsoft playwright, url, pandas, excel
+permalink: /blog/website-content-gap-analysis-based-on-keyword-serp-rankings/
 layout: post
 ---
+
 
 Wow, that last quick project on the way to creating category pages using the
 OpenAI produced keywords was profoundly cool. I think it's one of my best
@@ -675,13 +676,14 @@ projects that are more SERP-oriented than Site-oriented. Site-oriented is good
 for gap analysis. SERP-oriented is good for finding open-ended things, like new
 sites you haven't considered that are scoring well for a keyword.
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/url/'>URLs</a></h4></li>
-<li><h4><a href='/excel/'>Excel</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/excel/'>Excel</a></h4></li></ul>

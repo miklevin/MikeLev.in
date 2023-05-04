@@ -1,13 +1,14 @@
 ---
 date: 2023-02-20
 title: Finally Got Through Bing Waiting List
-permalink: /blog/finally-got-through-bing-waiting-list/
 headline: Finally Accessed Bing's 'New Topic' Button - Unveiling Mike Levin SEO and Math Solutions!
 description: Today I finally accessed Bing's 'New Topic' button and asked it questions about Mike Levin SEO and why math is difficult for many people. Bing told me that Mike is a Senior SEO Director at Ziff Davis and believes in digital marketing, open source software, and Linux and Python. It also gave me an explanation of equations and inequalities, and how to solve them using various methods. I'm excited to share my findings and help others understand equations and inequalities better. Click to read more!
 keywords: Bing, Waiting List, Mike Levin SEO, Digital Marketing, Open Source Software, Linux, Python, Equations, Inequalities, Solving, Adding/Subtracting, Multiplying/Dividing, Distributing, Combining Like Terms, Substitution
 categories: python, linux, bing
+permalink: /blog/finally-got-through-bing-waiting-list/
 layout: post
 ---
+
 
 Finally talking to the new Bing. Encountering it's "New topic" button usage
 insistence, effectively erasing its memory.
@@ -123,6 +124,7 @@ Source: Conversation with Bing, 2/20/2023
     (5) Equations & inequalities introduction | Khan Academy.
     https://www.khanacademy.org/kmap/operations-and-algebraic-thinking-g/oat220-equations-inequalities-introduction
     Accessed 2/20/2023.
+
 
 
 ## Categories

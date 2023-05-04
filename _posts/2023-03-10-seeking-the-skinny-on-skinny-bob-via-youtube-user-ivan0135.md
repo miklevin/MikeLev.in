@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Seeking the Skinny on Skinny Bob via YouTube user ivan0135
-permalink: /blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/
 headline: "Exploring Skinny Bob Type Aliens: Uncovering the Truth Behind Extra-Dimensional Realities and Consciousness"
 description: I'm exploring the possibility that Skinny Bob type aliens may be from an extra-dimensional reality or consciousness, and I'm considering four different scenarios to explain their origin. I've given each scenario a score out of 10, and I'm looking for corroborating evidence to verify my findings. Join me on my journey to uncover the truth about Skinny Bob type aliens!
 keywords: YouTube, Ivan0135, Skinny Bob, Aliens, Extra-Dimensional, Consciousness, Scenarios, Evidence, MeniThings, CGI, Animated, Freak, Battle, Terra, Skeptics, Authenticity, Corroborating, Theories, Planet, Future, Panspermia, Species, Evolution, Earth, Silurian, Acclimating, Scoring
-categories: consciousness, youtube, evolution, future
+categories: future, evolution, consciousness, youtube
+permalink: /blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/
 layout: post
 ---
+
 
 Who is ivan0135?
 
@@ -185,10 +186,11 @@ Source: Conversation with Bing, 3/8/2023
     (5) Life History Evolution | Learn Science at Scitable - Nature. https://www.nature.com/scitable/knowledge/library/life-history-evolution-68245673/ Accessed 3/8/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li></ul>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

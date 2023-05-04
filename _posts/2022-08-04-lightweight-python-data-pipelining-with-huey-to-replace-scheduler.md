@@ -1,13 +1,14 @@
 ---
 date: 2022-08-04
 title: Lightweight Python Data Pipelining With Huey (to Replace Scheduler)
-permalink: /blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/
 headline: "Replacing My Scheduling System With Huey: My Experience With Setting Up and Monitoring a Lightweight Python Data Pipelining Tool"
 description: I replaced my existing scheduling system with Huey, a lightweight Python data pipelining tool. I followed the Huey documentation and wrote a configuration file, and after putting it in place, it worked as expected! I'm sharing my experience of setting up Huey, including how I used the huey_consumer.py script and a systemd service to monitor it.
 keywords: Huey, Python, Data Pipelining, Scheduler, Configuration File, huey_consumer.py, Systemd Service, Monitoring, Setup, Working Directory, Executable, Standard Output, Standard Error
 categories: python
+permalink: /blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/
 layout: post
 ---
+
 
 Time to finally do the Huey work!
 
@@ -123,6 +124,7 @@ file. And here it is:
     WantedBy=multi-user.target
 
 And in fact it worked!
+
 
 
 ## Categories

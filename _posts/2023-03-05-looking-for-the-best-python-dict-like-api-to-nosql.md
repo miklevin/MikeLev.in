@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Looking For The Best Python dict-like API to NoSQL
-permalink: /blog/looking-for-the-best-python-dict-like-api-to-nosql/
 headline: Exploring Python Dict-Like APIs for NoSQL Databases
 description: "This blog post explores the question of whether making a Python dictionary persistent would make it considered a database, and if so, a NoSQL system. It explains the features needed from the database and provides information about three libraries: ZODB, UnQLite and SqliteDict. I also discuss the possibility of using Python packages to provide a unified dict-like key-value persistent store across different back ends, and provide an example of how to use PyDAL to create a dict-"
 keywords: Python, dict-like API, NoSQL, database, ZODB, UnQLite, SqliteDict, PyDAL, MongoDB, key-value, name Alice, age 26
-categories: database, sqlitedict, python
+categories: python, sqlitedict, database
+permalink: /blog/looking-for-the-best-python-dict-like-api-to-nosql/
 layout: post
 ---
+
 
 When did the term NoSQL start being used? Who coined it? And what is the status of NoSQL today? Name some popular NoSQL products and tell me about BerkeleyDB. Was it NoSQL? Why wasn't it called NoSQL back in the day? What happened to it? What is the key-value database built into Unix and how does it relate? What are the alternatives to NoSQL today such as Postgres which can use 2-column tables to accomplish much the same thing. And how does this all relate to Python dictionaries?
 
@@ -172,9 +173,10 @@ with DAL('mongodb://username:password@localhost/test') as db:
  ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

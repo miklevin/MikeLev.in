@@ -1,13 +1,14 @@
 ---
 date: 2023-02-20
 title: Back Hurts, But Maintain Your Indomitable Spirit
-permalink: /blog/back-hurts-but-maintain-your-indomitable-spirit/
 headline: "Making a Positive Impact Despite Back Pain: Achieving Goals and Helping Others Today"
 description: I'm setting out to make a positive difference in my life and the lives of others today. My goals for the day include completing paperwork for my upcoming job, creating a new website, and organizing my home. I'm also taking care of my leopard gecko and staying engaged. My motivation is to make sure my child has a good experience in life and to help others feel good about life. I'm starting with the living room to make it a special place for my family.
 keywords: Back Hurts, Indomitable Spirit, Life, Goals, Job, Website, Home, Leopard Gecko, Child, World, Living Room, Family, Focus, Nice
-categories: focus, child
+categories: focus, goals, child
+permalink: /blog/back-hurts-but-maintain-your-indomitable-spirit/
 layout: post
 ---
+
 
 Okay, I'm going to take today to get my life in order and help bring about the
 best possible futures for both myself and my child. That's the goal here, along
@@ -66,6 +67,7 @@ Flip from explore to utilize.
 Ugh okay I did a lot. This kind of thing has to be in layers. Lots of small
 steps. I have to make that sort of thing central to my message. Remember the
 baby-steps. Remember the layering things on.
+
 
 
 ## Categories

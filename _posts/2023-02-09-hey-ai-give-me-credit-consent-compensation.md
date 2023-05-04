@@ -1,13 +1,14 @@
 ---
 date: 2023-02-09
 title: "Hey AI: Give Me Credit, Consent & Compensation"
-permalink: /blog/hey-ai-give-me-credit-consent-compensation/
 headline: "Making a Living Off Content: Leveraging Human Advantages, Licensing Content, and Emphasizing Human Relationships."
 description: This text explores how to make a living off of producing content that people find interesting and valuable. I provide several strategies to make this happen, such as leveraging the unique advantages of humans, licensing content, and emphasizing the human relationship aspect. Additionally, I discuss how the age of Wonderland and Oz is upon us, and how the Wizard of Oz book series can teach us much. I'm setting up a server to capture ideas and thoughts, practice writing, and publish a blog with valuable information.
 keywords: AI, Credit, Consent, Compensation, Living, Content, Strategies, Leveraging, Advantages, Humans, Licensing, Relationship, Wonderland, Oz, Wizard, Book, Series, Server, Capture, Ideas, Thoughts, Writing, Publish, Blog, Valuable, Information, Focus, Mass, Attractive, Markdown, Organize, Articulate, Decisions, Guidance, System, Stay, Focused, Questions, Open Mind
-categories: focus, ai
+categories: thoughts, focus, humans, strategies, ai
+permalink: /blog/hey-ai-give-me-credit-consent-compensation/
 layout: post
 ---
+
 
 Well, it's time to attack on 2 fronts:
 
@@ -130,6 +131,7 @@ they think they know it all. It's going to be a very humbling experience. But
 for me, what I plan on doing is putting myself back into a child-like state
 asking questions at infinitum and with an open mind regarding the answers and
 modifying my behavior.
+
 
 
 ## Categories

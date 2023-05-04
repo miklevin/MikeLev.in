@@ -1,13 +1,14 @@
 ---
 date: 2023-03-29
 title: Using Copilot to Help With Daily Journaling
-permalink: /blog/using-copilot-to-help-with-daily-journaling/
 headline: Exploring AIs and Staying Ahead of the Curve with Copilot
 description: I recently received a video from my boss about the potential of AIs in the future and was reminded of the opportunities and dangers that come with this technology. I decided to write in my journal about the potential of technology and my plans to stay ahead of the curve. I switched from Vim to NeoVim, enabled Copilot for markdown files, and tested out the new feature. I also discussed my plans to stream the breakthrough live on YouTube and shared my thoughts on SEO.
 keywords: AI, Copilot, NeoVim, markdown, YouTube, SEO, TTYL, Links API, Moz Pro, Pipulate, 404.html
-categories: youtube, copilot, ai, pipulate, seo, neovim, moz pro
+categories: moz pro, neovim, copilot, youtube, pipulate, seo, ai
+permalink: /blog/using-copilot-to-help-with-daily-journaling/
 layout: post
 ---
+
 
 When someone generalizes about a whole population, they're projecting things
 they think about themselves, because whole populations will abide by average
@@ -254,13 +255,14 @@ I'm most interest's ted in crawling are referring.
   https://moz.com/help/links-api
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

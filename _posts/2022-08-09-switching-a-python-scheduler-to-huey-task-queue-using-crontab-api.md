@@ -1,13 +1,14 @@
 ---
 date: 2022-08-09
 title: Switching a Python Scheduler to Huey Task Queue Using Crontab API
-permalink: /blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api/
 headline: Switching to Huey Task Queue Using Crontab API - My Journey and Tips!
 description: In this video, I show how I successfully switched from the Python pip install schedule package to the less Pythonic crontab method of Huey. I walk through the nuances of periodic scheduling, working directory .service file values, and more. Subscribe to my channel for more tips and tricks on switching over to Huey!
 keywords: Python, Scheduler, Huey, Task Queue, Crontab API, Periodic Scheduling, Working Directory, .Service File Values, Switching, Pip Install, Data Pipeline
 categories: python
+permalink: /blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api/
 layout: post
 ---
+
 
 Here's a video I didn't think I was going to do. I was going to switch over
 from one Python Scheduler to another, dealing with the changing "API-language"
@@ -84,6 +85,7 @@ scheduling, but we got it to work. Nuances:
 - The WorkingDirectory .service file value is very important for Huey.
 
 Don't forget to subscribe!
+
 
 
 ## Categories

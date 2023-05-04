@@ -1,13 +1,14 @@
 ---
 date: 2022-02-17
 title: Testing nbdev
-permalink: /blog/testing-nbdev/
 headline: "Learning nbdev: My 20+ Year Journey as an SEO"
 description: I'm an SEO with over 20 years of experience, and I'm learning the nbdev library. I've set up the settings.ini file and tested out nbdev_build_libs, and I'm now creating a 00_core.ipynb file. I'm making sure to record the dependencies and to avoid using the 'black' uncompromising code formatter in iPhone Carnets. Join me as I share my journey of learning nbdev and how I'm adapting
 keywords: nbdev, SEO, settings.ini, nbdev_build_libs, 00_core.ipynb, dependencies, black, iPhone Carnets, 1996, instructions, website, note, adapting
-categories: seo, nbdev
+categories: seo, dependencies, nbdev
+permalink: /blog/testing-nbdev/
 layout: post
 ---
+
 
 Okay, let's add some continuity here. I've been an SEO on and off for what,
 since like around 1996. Technically much of that was as a Webmaster. Webmaster
@@ -82,6 +83,7 @@ deliverables will be produced.
 Kite or TabNine plugins on standalone Jupyter? No, doesn't look like it.
 
 Did the live-cast.
+
 
 
 ## Categories

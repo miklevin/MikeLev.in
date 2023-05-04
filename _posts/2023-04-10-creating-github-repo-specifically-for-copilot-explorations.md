@@ -1,13 +1,14 @@
 ---
 date: 2023-04-10
 title: Creating Github Repo Specifically For Copilot Explorations
-permalink: /blog/creating-github-repo-specifically-for-copilot-explorations/
 headline: Exploring the Attributes of Individual Items with Instapaper, YouTube, Twitter, and Github
 description: I have updated my Github repo and am now creating one specifically for Copilot explorations. I have created files such APIs as Instapaper to list Bookmarks, Twitter to list Tweets, YouTube to list Videos, and Github to list Repos. I am using various tools to express myself by transforming the output of theses systems into Web content, using AI to coach me. Learn how I'm using Instapaper, YouTube, Twitter, and Github with AI to explore.
 keywords: Github, Repo, Copilot, Explorations, Instapaper, List, Bookmarks, Twitter, Tweets, YouTube, Videos, Tools, Express, Attributes, Individual, Items, Fill-in, Descriptions, Articles, README.md, News, Following
-categories: github, youtube, twitter, copilot
+categories: twitter, youtube, github, copilot
+permalink: /blog/creating-github-repo-specifically-for-copilot-explorations/
 layout: post
 ---
+
 
 Okay, it's Monday morning not even 8:00 AM yet. The kid's still here and I need
 to drop them off around 11:00 AM. If I have anything I want on the Content &
@@ -93,10 +94,11 @@ README.md's to my Github repos. With Instapaper, I can just expose those items
 from the news I've been following.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>

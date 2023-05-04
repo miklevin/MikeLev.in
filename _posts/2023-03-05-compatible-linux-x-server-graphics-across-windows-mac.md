@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Compatible Linux X Server Graphics Across Windows & Mac
-permalink: /blog/compatible-linux-x-server-graphics-across-windows-mac/
 headline: Exploring Compatible Linux X Server Graphics Across Windows and Mac
 description: As a reader trying to decide between Manim and Synfig for animation software, I need to consider my individual learning style, goals, and preferences. I am looking for step-by-step instructions to install Manim and supporting libraries on Ubuntu, as well as how to access localhost port 8888 and run JupyterLab on an Intel Mac. I have found resources on Proxy for accessing host Windows in WSL2.
 keywords: Linux, X Server, Graphics, Windows, Mac, Manim, Synfig, Animation, Software, Learning, Style, Goals, Preferences, Step-by-Step, Instructions, Install, Libraries, Ubuntu, Access, Localhost, Port 8888, Run, JupyterLab, Intel Mac, Proxy, WSL2, Fixing, WSL2 Localhost Access Issue, Multipass, VirtualBox, RDP, X11 Forwarding, Math, Python, GUI
-categories: ubuntu, python, mac, learning, math, linux, wsl2, jupyterlab
+categories: python, jupyterlab, wsl2, linux, mac, graphics, goals, learning, ubuntu, math
+permalink: /blog/compatible-linux-x-server-graphics-across-windows-mac/
 layout: post
 ---
+
 
 Which FOSS is believed to have the lowest learning curve and which is also able
 to advance with you especially by taking instructions from a python api? I want
@@ -554,14 +555,15 @@ Source: Conversation with Bing, 3/3/2023
     (6) Fixing WSL2 localhost access issue - abdus.dev. https://abdus.dev/posts/fixing-wsl2-localhost-access-issue/ Accessed 3/3/2023.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/math/'>Math</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/math/'>Math</a></h4></li></ul>

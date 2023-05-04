@@ -1,13 +1,14 @@
 ---
 date: 2022-08-11
 title: Use Python to Cycle Your IP with HMA VPN Software and Windows Automation
-permalink: /blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation/
 headline: Discover How I Used Python to Cycle My IP with HMA VPN Software and Windows Automation
 description: In October 2021, I discovered a solution to cycle my IP using Python, HMA VPN Software, and Windows Automation. With this code, I was able to connect and disconnect the VPN, change the IP address, and check the VPN state - all found on Stack Overflow. Come find out how I did it!
 keywords: Python, HMA, VPN, Software, Windows, Automation, Stack Overflow, IP, Address, pywinauto, Connect, Disconnect, State, October 2021
-categories: automation, python
+categories: python, automation
+permalink: /blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation/
 layout: post
 ---
+
 
 Wow wee! This is not a nut I thought I'd crack. Actually, someone else cracked
 the nut and it was October of 2021. I wish I was staying on top of this topic
@@ -52,8 +53,9 @@ print(connect_button.get_toggle_state())
 ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

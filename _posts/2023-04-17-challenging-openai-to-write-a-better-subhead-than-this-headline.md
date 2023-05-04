@@ -1,13 +1,14 @@
 ---
 date: 2023-04-17
 title: Challenging OpenAI to Write a Better Subhead Than this Headline
-permalink: /blog/challenging-openai-to-write-a-better-subhead-than-this-headline/
 headline: Exploring Home and Spiritual Connection - My Journey of Self-Discovery
 description: I recently signed up for Copilot, an AI that can summarize and assign keywords to my writing. I'm exploring the idea of home and how it is not confined to the place you were born into. I'm discovering my roots are inside me and that I can find places I feel most at home. I'm also investigating spiritual connection and its impact on our lives. Read my blog post to explore these ideas with me.
 keywords: Home, Place, Roots, Spiritual Connection, Impact, Explore, Discover, Copilot, AI, Writing, Summarize
 categories: ai, copilot
+permalink: /blog/challenging-openai-to-write-a-better-subhead-than-this-headline/
 layout: post
 ---
+
 
 Think! Idea capture sure has become a lot more exciting. The idea that even my
 all-over-the-place ramblings will be examined, summarized, turned into a meta
@@ -53,6 +54,7 @@ means to question-answering ends on these accounts.  Once again,
 Don't give it a headline till the end. Okay, it's like surprise gift time
 whenever I publish a blog post. Choose a headline now, and challenge OpenAI to
 choose a better subhead.
+
 
 
 ## Categories

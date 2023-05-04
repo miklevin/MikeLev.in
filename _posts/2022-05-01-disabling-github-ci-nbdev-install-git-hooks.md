@@ -1,13 +1,14 @@
 ---
 date: 2022-05-01
 title: Disabling Github CI nbdev_install_git_hooks
-permalink: /blog/disabling-github-ci-nbdev-install-git-hooks/
 headline: "Deciding Where to Host My Project: How Disabling Github CI nbdev_install_git_hooks Led Me to mikelevinseo.com"
 description: I recently updated my release script using a bash loop and asked myself a few questions to help me decide what the next steps should be. After disabling Github CI nbdev_install_git_hooks and running my release script, I decided the best place to host my project was mikelevinseo.com. Read my blog post to find out how I got there and what I did next.
 keywords: Github, CI, nbdev_install_git_hooks, Bash, Loop, Release Script, Hosting, mikelevinseo.com, Repo Page
-categories: github, loop, bash
+categories: loop, bash, github
+permalink: /blog/disabling-github-ci-nbdev-install-git-hooks/
 layout: post
 ---
+
 
 I just updated my release script using a bash loop. That was very satisfying. I
 guess I question now how much these next steps on the blogslicer project belong
@@ -40,9 +41,10 @@ turned it into the repo page for mlseo. I may have to rethink that.
 
 But don't lose momentum. Keep going! Every Little Project Gets Done... Next!
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li></ul>
+<li><h4><a href='/bash/'>Bash</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-04-29
 title: Massaging 10 Sites Into Shape At Once
-permalink: /blog/massaging-10-sites-into-shape-at-once/
 headline: "Speed Up Site Optimization: How I Massaged 10 Sites Into Shape At Once"
 description: I recently optimized my Jekyll blog post URLs by removing stopwords, and I wanted to roll out the changes across all my sites. To make the process faster, I created a script that I could execute from Linux on Windows. With this script, I was able to quickly and easily make the same changes across all my sites. Read more to learn how I did it.
 keywords: "Jekyll, URLs, Stopwords, Linux, Windows, Script, Git, Index.md, `_config.yml`, Helper Folder"
-categories: script, linux, git
+categories: git, linux, jekyll, urls, script
+permalink: /blog/massaging-10-sites-into-shape-at-once/
 layout: post
 ---
+
 
 Okay, I just removed stopwords from Jekyll blog post URLs. I did it quite
 easily borrowing some code I recently did for [mlseo](https://pypi.org/project/mlseo/).
@@ -74,9 +75,11 @@ for site in sites:
     print()
 ```
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

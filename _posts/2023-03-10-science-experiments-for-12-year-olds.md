@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Science Experiments for 12 Year Olds
-permalink: /blog/science-experiments-for-12-year-olds/
 headline: Explore Cool Science Toys for 12 Year Olds with Bing!
 description: Bing helped me find experiments for a 12 year old to conduct. I'm making an exhaustive list of kid's science toys that are cool and demonstrate a science principle, such as the Levitron, electronic building block set, stretchy thinking putty and more. Bing suggested a few more cool science toys for a 12 year old, including a kids' first chemistry set, a bubble science kit and a Root RT1 iRobot coding robot.
 keywords: Science, Experiments, 12 Year Olds, Levitron, Electronic Building Block Set, Stretchy Thinking Putty, Kids' First Chemistry Set, Bubble Science Kit, Root RT1 iRobot Coding Robot, Medical Kit, Crystal Geode Kit, Electricity and Magnetism Kit, Snap Circuits Jr. Electronics Discovery Kit, Interactive Human Body Model, Klutz LEGO Chain Reactions Activity Kit, Be Amazing! Toys Big Bag of Science, CIRO STEM Project 12-in-1
-categories: science
+categories: experiments, science
+permalink: /blog/science-experiments-for-12-year-olds/
 layout: post
 ---
+
 
 Which of these experiments is best for a 12 year old to conduct: - Two-slit experiment - Cloud chamber - Brownian motion - Mendel's pea plant experiment - Extract DNA - Boyle's air pump - Baking soda and vinegar reaction - Meissner effect - Black snake - Time crystal
 
@@ -128,6 +129,7 @@ Source: Conversation with Bing, 3/11/2023
     (2) Best Science Gifts For 12 Year Olds 2021: Reviews & Buyer’s Guide. https://rubysgarden.com/gifts/best-science-gifts-for-12-year-olds/ Accessed 3/11/2023.
     (3) Best Science Gifts for 11, 12 and 13 Year Olds | HST - Home Science Tools. https://www.homesciencetools.com/science-gifts/gifts-by-age/kids-11-13/ Accessed 3/11/2023.
     (4) The 15 Best Science Toys of 2023 - The Spruce. https://www.thespruce.com/best-science-toys-4150533 Accessed 3/11/2023.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-05-06
 title: Getting Into The Flow Or The Zone
-permalink: /blog/getting-into-the-flow-or-the-zone/
 headline: "Unlocking Productivity and Focus: My Journey to Re-Achieve the Flow During the Covid-19 Lockdown"
 description: For the past 15 years, I've been struggling to get into the flow while working in a cubicle. But thanks to the Covid-19 lockdown, I've been able to re-achieve this state of productivity and focus -- just like in the Disney Pixar movie Soul. Working from home has allowed me to block out distractions and become more productive, and I'm exploring the concept of 'feeding the love-worthiness of things'. Read my blog post to learn more about my journey!
 keywords: Flow, Zone, Covid-19, Lockdown, Working from Home, Productivity, Focus, Disney Pixar, Soul, Distractions, Love-worthiness, Movie, Journey, Cubicle, Quarantine
-categories: focus, flow, journey, productivity
+categories: journey, productivity, flow, focus
+permalink: /blog/getting-into-the-flow-or-the-zone/
 layout: post
 ---
+
 
 Being able to get into the flow or the zone on-demand is such a wonderful gift,
 or as it seems, developed ability. As a programmer who has had to work in the
@@ -42,10 +43,11 @@ for being in the zone so much for it to be a pitfall.
 > Thanks to the covid.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/focus/'>Focus</a></h4></li>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/productivity/'>Productivity</a></h4></li></ul>
+<li><h4><a href='/productivity/'>Productivity</a></h4></li>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/focus/'>Focus</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-07-03
 title: Fairly Certain I Had a Brush With Catknappers
-permalink: /blog/fairly-certain-i-had-a-brush-with-catknappers/
 headline: My Cat Lynnie Returns After Suspected Catnapping Incident
 description: I recently moved and my cat Lynnie escaped during the transfer. After suspecting someone had been in my house and broken up the cat treats, I feared someone was taking advantage of the situation. I posted a plea on a community Facebook group and, sure enough, my cat returned 10 minutes later. My neighbor had warned me of bad luck for reworking a stone wall and I suspected they had taken my cat. Read this blog post to find out how I got my cat back.
 keywords: moving, cat, Lynnie, house, cat treats, Facebook, neighbor, stone wall, tree swing, June 30th, 2022, sliding-glass door, Michael's stone wall
 categories: 2022, cat
+permalink: /blog/fairly-certain-i-had-a-brush-with-catknappers/
 layout: post
 ---
+
 
 Wow, so I'm moved into the new place. One encounters interesting events in life
 and must move on. Lingering longer does no good, such as with the circumstances
@@ -196,6 +197,7 @@ confirmed it.
     await judgement. And I don't mean only in the afterlife while there is that
     too, this will go on Reddit if Lynnie does not reappear. I will be in the
     neighborhood tonight calling for her. Find salvation. Anonymous tips welcome.
+
 
 
 ## Categories

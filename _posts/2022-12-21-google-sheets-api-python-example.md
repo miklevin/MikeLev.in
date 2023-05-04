@@ -1,13 +1,14 @@
 ---
 date: 2022-12-21
 title: Google Sheets API Python Example
-permalink: /blog/google-sheets-api-python-example/
 headline: Populate Data Into a Google Spreadsheet with the Google Sheets API and Python
 description: "Learn how to use the Google Sheets API and Python to populate data into a Google Spreadsheet. This project will use the Google APIs released with GA4 and the URL https://developers.google.com/sheets/api/guides/concepts to connect to Google Sheets and capture an easy-to-read example of reading and writing. Follow my step-by-step guide to learn how to do this!"
 keywords: Google Sheets API, Python, GA4, Reading, Writing, Populate Data, Google Spreadsheet, Tutorial, Step-by-Step Guide
 categories: python, tutorial
+permalink: /blog/google-sheets-api-python-example/
 layout: post
 ---
+
 
 Okay, so I've got data from GA4. Whatcha gonna do? Whatcha gonna do is
 inevitably populate data in a Google Spreadsheet, am I right? Am I right?
@@ -97,6 +98,7 @@ result = (
 )
 ranges = result.get("valueRanges", [])
 ```
+
 
 
 ## Categories

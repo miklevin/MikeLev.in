@@ -1,13 +1,14 @@
 ---
 date: 2023-03-28
 title: Marathon Live Streaming Getting Copilot Working in NeoVim
-permalink: /blog/marathon-live-streaming-getting-copilot-working-in-neovim/
 headline: "Successfully Installing Copilot in NeoVim: My Journey"
 description: I successfully got Copilot working in NeoVim by updating the drinkme script, installing vim-plug and the Copilot plug-in from Github, and testing the authentication process. Although I'm done for the night, there are still tests and polish that need to be done. Read about my journey to get Copilot working in NeoVim on my blog.
 keywords: Marathon, Live Streaming, Copilot, NeoVim, Drinkme Script, Vim-Plug, Plug-in, Authentication Process, Tests, Polish, Linux, Graphics, Browser
-categories: neovim, linux, copilot
+categories: neovim, linux, graphics, copilot
+permalink: /blog/marathon-live-streaming-getting-copilot-working-in-neovim/
 layout: post
 ---
+
 
 Copilot on NeoVim... got it working! And it's a disjointed experience because I
 journal in vim and I'm all tooled up around vim. However, vim and NeoVim are
@@ -83,6 +84,7 @@ the Linux graphics browser components are installed.
 
 Hmmm. Going to re-activate Chrome. Mostly done for the night, but there's some
 tests and polish that still needs to be performed.
+
 
 
 ## Categories

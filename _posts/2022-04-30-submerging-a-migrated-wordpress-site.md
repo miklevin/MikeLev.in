@@ -1,13 +1,14 @@
 ---
 date: 2022-04-30
 title: Submerging A Migrated WordPress Site
-permalink: /blog/submerging-a-migrated-wordpress-site/
 headline: "Migrating My WordPress Blog to Jekyll: Fixing Broken Picture Links Along the Way"
 description: I'm in the midst of migrating my WordPress blog to Jekyll and am running into a few issues. I'm moving the index.md file, making a subfolder, and renaming the file to index.md. While I've brought my old homepage back to life, I'm now dealing with broken picture links that I must fix. Follow my journey as I work through this process.
 keywords: Migrating, WordPress, Jekyll, index.md, Subfolder, Renaming, Broken Picture Links, Site Hierarchy, Shell Commands, Homepage, Fixing
 categories: jekyll, homepage
+permalink: /blog/submerging-a-migrated-wordpress-site/
 layout: post
 ---
+
 
 For my next ELTGD trick, I'm going to add site-navigation across all my sites.
 There's got to be a "home" link and a "blog" link. And I don't even know enough
@@ -45,6 +46,7 @@ Oops! My system on MikeLev.in is a bit different than all the new sites so I
 had to actually make a /mike-levin/ subfolder and move mike-levin.md into it
 and rename it as index.md. That should bring my old homepage back alive in a
 subfolder. It did, but all the picture links broke. Fix them...
+
 
 
 ## Categories

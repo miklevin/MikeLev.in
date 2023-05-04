@@ -1,13 +1,14 @@
 ---
 date: 2023-03-13
 title: Parsing Planck's Equation
-permalink: /blog/parsing-planck-s-equation/
 headline: "Uncovering the Hidden Flaws in Physics Calculations: Why Attention to Units and Dimensions is Essential"
 description: As a physicist, I understand how important it is to pay attention to units and dimensions when doing calculations. I explain why it is not valid to drop seconds from Planck's equation and provide an analogy of radians versus degrees to illustrate why radians are better for showing balanced equations. I also discuss how misapplied axioms can create blind spots when it comes to mathematics and the need to be aware of deceptively difficult arguments that may contain hidden flaws.
 keywords: Planck's Equation, Physics, Units, Dimensions, Radians, Degrees, Axioms, Mathematics, Joules, Planck's Constant, Hertz, Inverse Seconds, SI Unit, Time Measurement, Speed of Light, Motion of Observer, Ratios of Arc Lengths, Circles, Physical Quantities, Cancellation, E = hv, Energy, Frequency, Joule-Seconds, Unit Blindness, Misapplied Axioms, Blind Sp
 categories: 
+permalink: /blog/parsing-planck-s-equation/
 layout: post
 ---
+
 
 Work through Planck's quantum premise formula E = hv using symbol substitution to expand the formula with unit labels. Use algebraic axions to cancel label units. Do it 2 ways: one where it cancels the "seconds" frequency component of v and one where it doesn't. What are the ramifications to quantum regarding dropping (or not) the cycles per second frequency implied by v.  Show the steps.
 
@@ -489,6 +490,7 @@ This issue shows us how important it is to pay attention to units and dimensions
 We also need to be careful about applying axioms or rules of mathematics blindly without considering their applicability or validity for physical quantities with units and dimensions. We need to check if our premises are true before drawing conclusions from them.
 
 We need to beware of deceptively difficult arguments that may seem logical at first glance but actually contain hidden flaws or fallacies based on misapplied axioms or rules. We need to avoid creating blind spots by relying on our intuition or assumptions without verifying them with facts or evidence.
+
 
 
 ## Categories

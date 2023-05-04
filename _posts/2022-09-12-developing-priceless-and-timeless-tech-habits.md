@@ -1,13 +1,14 @@
 ---
 date: 2022-09-12
 title: Developing Priceless and Timeless Tech Habits
-permalink: /blog/developing-priceless-and-timeless-tech-habits/
 headline: "Mastering Tech: My Journey to Become an Active Participant"
 description: As I learn to develop timeless habits for tech, I'm determined to become an active participant in the process. I'm sharing my own tips on how to get started and emphasizing the importance of simplicity. I'm proposing to show how to become comfortable with any hardware and virtual desktops, and encouraging the practice of entering flow state and writing. Join me on my journey to master tech and become an active participant.
 keywords: Tech Habits, Active Participant, Simplicity, Virtual Desktops, Flow State, Writing, Master Tech, Internalizing, Tools, Effective Starters, Hardware, Fullscreen Mode
 categories: hardware
+permalink: /blog/developing-priceless-and-timeless-tech-habits/
 layout: post
 ---
+
 
 I did a great video in the car yesterday about my theme and niche being the
 gradual internalization of the tools of our age, the way our ancestors
@@ -54,6 +55,7 @@ environment in the future.
 View the desktop environment of your OS as an empty shim with nothing but a Net
 connection, virtual screens for fullscreen apps and a taskbar for switching
 between them—little more.
+
 
 
 ## Categories

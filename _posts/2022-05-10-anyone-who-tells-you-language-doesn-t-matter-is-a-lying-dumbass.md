@@ -1,13 +1,14 @@
 ---
 date: 2022-05-10
 title: Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass
-permalink: /blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/
 headline: Uncovering the Reasons Behind the Restriction of Web Browsers to JavaScript
 description: As a programmer, I missed the Full Web Stack revolution based on Google V8 JavaScript extraction from Chrome known as NodeJS. I chose Python as my primary language, and while I appreciate JavaScript's loveworthy bits, I've always wondered why web browsers are so locked down to just JavaScript. Discover why this restriction forces the web to be an always JavaScript game, and the browser vendor and governance issues behind it.
 keywords: Programming, Python, JavaScript, NodeJS, Google V8, Web Stack, LISP, Browser, Governance, English, Restriction, Game
-categories: javascript, nodejs, python
+categories: python, javascript, nodejs
+permalink: /blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/
 layout: post
 ---
+
 
 You know, I pretty much missed the entire Full Web Stack revolution based on
 the Google V8 JavaScript extraction from Chrome known as NodeJS. It's the
@@ -78,9 +79,10 @@ JavaScript is the one language to rule them all is a browser vendor and
 governance issue. It's approximately like saying that all business must be
 conducted in English or you can't conduct business at all.
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li></ul>

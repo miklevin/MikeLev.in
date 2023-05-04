@@ -1,13 +1,14 @@
 ---
 date: 2022-05-07
 title: An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)
-permalink: /blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/
 headline: "Celebrating the Uncompressibles: Appreciating Originality and Great Ideas"
 description: I reflect on the power of originality and the importance of the 'uncompressibles' - Linus Torvalds and Guido van Rossum - who have created revolutionary ideas despite copying plenty. I explore the need to recognize and appreciate newness and uniqueness, and the potential of great ideas yet to be realized. I recognize the work of uncompressibles like Linus, Guido, Ada Lovelace, and Grace Hopper, and admire their contrast to the 'Alphas
 keywords: Linus Torvalds, Guido van Rossum, Ada Lovelace, Grace Hopper, Originality, Uncompressibles, Revolutionary Ideas, Newness, Uniqueness, Blockchain, Nonfungible Tokens, NFTs, Alphas, Optimization, Copying, Contributions
 categories: 
+permalink: /blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/
 layout: post
 ---
+
 
 Okay, I feel like getting out one more blog post on MikeLevinSEO.com since it's
 so darn easy these days, and as I pointed out just now on MikeLev.in, we are
@@ -104,6 +105,7 @@ improve my life and the lives of others I care about? Learn. Improve. Create a
 righteous feedback loop using the kinds of tools that Linus and Guido create in
 creative new ways, perchance to be an uncompressible myself, albeit of a much
 smaller order than the masters.
+
 
 
 ## Categories

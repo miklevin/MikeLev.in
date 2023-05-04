@@ -1,13 +1,14 @@
 ---
 date: 2023-03-04
 title: Has The Hebrew Bible Changed? What is the Oldest Hebrew Bible?
-permalink: /blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible/
 headline: "Exploring the Hebrew Bible: Uncovering the History and Significance of the Torah, Prophets, and Writings."
 description: As a practicing Jew, I understand the importance of the Hebrew Bible, which is composed of the Torah, Prophets, and Writings. The Codex Sassoon is a 10th century collection of these sacred texts, including the earliest known complete copy of the Masoretic text, as well as writings from prominent Jewish philosophers. I recognize the importance of the Torah and the Prophets, and appreciate the moral and ethical teachings of the literature and historical writings.
 keywords: Hebrew Bible, Torah, Prophets, Writings, Codex Sassoon, Masoretic Text, Jewish Philosophy, Liturgical Poems, Biblical Commentaries, Talmudic Commentaries, Kabbalistic Writings, Judaism, Proverbs, Ecclesiastes, Historical Writings, Chronicles, Minor Prophets, Amos, Hosea, Malachi
 categories: 
+permalink: /blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible/
 layout: post
 ---
+
 
 Hey ChatGPT What is the Codex Sassoon?
 
@@ -68,6 +69,7 @@ It is important to note that the perceived importance of the books of the Hebrew
 1. Minor Prophets: The Minor Prophets, including books like Amos, Hosea, and Malachi, are shorter prophetic works that are often included in the Prophets section but are sometimes considered to be less important than the major prophetic books.
 
 Again, it is important to note that this is just one possible ordering of the books of the Hebrew Bible, and the perceived importance of each book can vary depending on the individual and the community.
+
 
 
 ## Categories

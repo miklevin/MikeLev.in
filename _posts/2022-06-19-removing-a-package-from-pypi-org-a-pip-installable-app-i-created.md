@@ -1,13 +1,14 @@
 ---
 date: 2022-06-19
 title: Removing a Package From PyPI.org (a pip installable app I created)
-permalink: /blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created/
 headline: "Exploring Solutions to My Challenges: Removing a Package from PyPI.org and Renaming a Notebook"
 description: I'm removing a package from PyPI.org that I created, renaming a notebook from 00_core.ipynb to 10_slice.ipynb, and researching how to request an account recovery. I'm also switching to making 'sub-groups' of blog posts and looking for a solution. Come read about my journey and see how I'm tackling these challenges.
 keywords: PyPI.org, Package Removal, Notebook Renaming, Account Recovery, Sub-Groups, Blog Posts, Solutions, Challenges
 categories: 
+permalink: /blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created/
 layout: post
 ---
+
 
 It's not often I break the flow of a single-session getting-something-done into
 two articles here. Just a few days ago I did that epic post about getting my
@@ -52,6 +53,7 @@ and this
 https://github.com/jekyll/jekyll/issues/260
 
 It's not going to be a clear win, but there is some hope.
+
 
 
 ## Categories

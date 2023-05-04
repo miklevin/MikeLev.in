@@ -1,13 +1,14 @@
 ---
 date: 2023-03-17
 title: Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)
-permalink: /blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/
 headline: Discovering the Difference Between Gerunds and Adjectives with Bing
 description: Confused about the difference between gerunds and adjectives that end in '-ing'? I asked Bing for help and was surprised to learn that gerunds are verbs that function as nouns, and adjectives are words that describe nouns. Bing also gave me the term for two words that are spelled identically but have different meanings based on context - homograph - and provided examples. We discussed how to differentiate between the words bing and binge.
 keywords: Netflix, Binging, Microsoft, Gerunds, Adjectives, Verbs, Nouns, Homograph, Search, Television, Homographs, Distinction, General, Audience, Cleverly, Effectively
-categories: microsoft, search, audience
+categories: search, microsoft, audience
+permalink: /blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/
 layout: post
 ---
+
 
 All roads lead to Bing. Microsoft's seeing to it. So "binging" is going to be
 hijacked from Netflix binge-watching to Binging for chatting with Bing. Just
@@ -121,9 +122,10 @@ immediately obvious because it's the cleverness of the comparison that makes it
 so potentially impactful.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/audience/'>Audience</a></h4></li></ul>

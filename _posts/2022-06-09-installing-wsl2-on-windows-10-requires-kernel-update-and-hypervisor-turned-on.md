@@ -1,13 +1,14 @@
 ---
 date: 2022-06-09
 title: Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On
-permalink: /blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/
 headline: Three Steps to Get WSL2 Running on Windows 10
 description: "Learn how to use WSL2 (Windows Subsystem for Linux) on Windows 10 with just three steps: enabling Windows Subsystem for Linux, enabling Hypervisor, and downloading and running a patch. To make sure any future WSL instances are version 2, run the command 'wsl --set-default-version 2'. For more information on Terminal-based Linux, follow Mike Levin on YouTube."
 keywords: WSL2, Windows 10, Kernel Update, Hypervisor, Enable, Download, Run, Patch, Command, Terminal-based Linux, Mike Levin, YouTube
-categories: wsl2, youtube, windows 10
+categories: wsl2, windows 10, youtube
+permalink: /blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/
 layout: post
 ---
+
 
 Get your ass to Linux! If you're on Windows, it's most easily done immediately
 after the Windows 11 update. But if you're anything like me, you're going to
@@ -76,9 +77,10 @@ Follow [this dude](https://YouTube.com/MikeLevin) on YouTube. He seems to know
 what he's talking about.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

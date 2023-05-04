@@ -1,13 +1,14 @@
 ---
 date: 2023-02-22
 title: Keep Taking Those Baby-Steps Every Day
-permalink: /blog/keep-taking-those-baby-steps-every-day/
 headline: Exploring New Technologies to Benefit from the Economic Value Chain and Make a Difference in the World
 description: I have had to scale down my dreams over the years, but I still strive to maintain stability. In this era of unprecedented technological advancement, I am exploring how to benefit from the economic value chain and embracing easy APIs. To make a compelling argument, I am launching OnTheRise.AI, thinking about how Pipulate will work on a Mac, and reflecting on why many people resist becoming technical and why Oracle has a negative effect on FOSS software.
 keywords: AI, Fusion, Quantum Computing, Post-Scarcity Economy, Economic Value Chain, Easy APIs, OnTheRise.AI, Pipulate, Mac, Technical, Oracle, FOSS, Software, Convince, Friend, Kid
-categories: ai, mac, pipulate
+categories: ai, pipulate, mac
+permalink: /blog/keep-taking-those-baby-steps-every-day/
 layout: post
 ---
+
 
 Things get built up in layers, and the reconstruction of my life around my
 dreams and goals, which are much more humble than ever, is no exception.
@@ -112,9 +113,10 @@ Berkeley DB for another example. Oracle is where industry transforming FOSS
 tech goes to die. And now they have Java too.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li></ul>

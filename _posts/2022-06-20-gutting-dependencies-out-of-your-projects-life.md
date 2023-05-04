@@ -1,13 +1,14 @@
 ---
 date: 2022-06-20
 title: Gutting Dependencies Out Of Your Projects & Life
-permalink: /blog/gutting-dependencies-out-of-your-projects-life/
 headline: "Juneteenth: My Journey to Becoming a Better Coder"
 description: Today, I'm using Juneteenth as a day off from work to get some stuff done. I'm severing the dependency on Github Pages templates from my Jekyll static site generator and gradually getting better at coding. After making changes to the CSS file and deleting an import line, I inspected the cached CSS and transposed bits I wanted to keep. After publishing the page, the background turned white and the text and links were a more traditional color. Join me on my journey to becoming a better
 keywords: Juneteenth, Dependencies, Projects, Life, Static Site Generator, Coding, CSS, Import Line, Cached CSS, White Background, Traditional Color, Journey, Github Pages, Config File, SCSS, Code, Publish
-categories: coding, github pages, static site generator, journey
+categories: github pages, static site generator, journey, dependencies, coding
+permalink: /blog/gutting-dependencies-out-of-your-projects-life/
 layout: post
 ---
+
 
 Gradually get better at everything. Every little thing gets done. ELTgd. And it
 felt good. Good God, it feels good to get every little thing done. This is my
@@ -177,10 +178,11 @@ gutting. Let's keep gutting.
 Hit @p to publish ***THIS*** page and see if it looks correct.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-02
 title: AI Amplifies You
-permalink: /blog/ai-amplifies-you/
 headline: "AI-Powered Learning: Helping My Child Prepare for the AI Revolution"
 description: As a father of a 12 year old, I'm looking for ways to help them get interested in AI and technology. I've written a script called 'drinkme' to set up a Linux server, and I'm creating a Pipulate server with a Jupyter Notebook for foundational tech skills. My goal is to help my child survive the coming AI craziness and learn real skills and knowledge. Come explore how AI can be used to help your child!
 keywords: AI, Parenting, Linux, Programming, Jupyter, Notebook, Script, Server, Skills, Knowledge, Cheating, Content, Money, Messages, Platform
-categories: platform, script, ai, notebook, linux, knowledge, jupyter
+categories: platform, knowledge, linux, jupyter, skills, messages, notebook, ai, script
+permalink: /blog/ai-amplifies-you/
 layout: post
 ---
+
 
 If you are a cheater, AI will help you cheat. You can cheat in a statistically
 optimized way and achieve your goals of perfect cheating. But if all life is
@@ -158,13 +159,14 @@ coming AI craziness. These are good solid foundational tech skills that resist
 disruption.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/platform/'>Platform</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/knowledge/'>Knowledge</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>

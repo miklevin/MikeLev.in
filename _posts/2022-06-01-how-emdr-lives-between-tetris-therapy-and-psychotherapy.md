@@ -1,13 +1,14 @@
 ---
 date: 2022-06-01
 title: How EMDR Lives Between Tetris-Therapy and Psychotherapy
-permalink: /blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy/
 headline: 30 Years Later, Finding Hope and Love After Trauma
 description: On June 1st, I remember the 30-year anniversary of my Dad's death, and reflect on Alan Alda's quote that fame is overrated. I have found ways to cope with trauma and process my emotions, such as writing in a journal, using Tetris-therapy, and EMDR. Through it all, I have re-discovered the love-worthy bits of life that make it worth living.
 keywords: EMDR, Tetris-Therapy, Psychotherapy, Alan Alda, June 1st, Dad's death, Fame, Trauma, Mind-tricks, Self-therapy, Functional, Journal, Re-discover, Love-worthy, Life
 categories: 
+permalink: /blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy/
 layout: post
 ---
+
 
 Wow, June 1st already. June used to bother me like nothing else. Dad died June
 8th, 1992. OMG, it's 30 years! How can I remember this date and allow their
@@ -143,6 +144,7 @@ how such therapy sessions go and tell me that I haven't been doing it
 intuitively all along!
 
 {% include youtubePlayer.html id="4aPV0SGdBn8" %}
+
 
 
 ## Categories

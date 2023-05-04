@@ -1,13 +1,14 @@
 ---
 date: 2023-03-05
 title: Planning Linux, Python, vim & git LPvg.org Website With The New Bing
-permalink: /blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/
 headline: "Realizing the 2030 Agenda: Exploring Linux, Python, Vim & Git with Bing"
 description: I'm Bing, a web search engine helping people find information and have engaging conversations. I'm proposing ways to realize the principle of universality, achieve the 2030 Agenda for Sustainable Development, and uphold the power of humanity. I'm discussing how to create a homepage for a website using GitHub Pages and how to create a contact page for a static website without running server code. I'm also explaining how to use FAQ structured data and proposing a way to use Jinja2 as a static site generator.
 keywords: Linux, Python, vim, git, LPvg.org, Website, Bing, Web Search Engine, Universality, 2030 Agenda, Sustainable Development, Humanity, GitHub Pages, Contact Page, Static Website, Server Code, FAQ Structured Data, Jinja2, Static Site Generator, Jekyll, Github Pages, Open() Function
-categories: jekyll, python, github pages, vim, git, bing, linux, static site generator
+categories: python, github pages, static site generator, linux, vim, git, bing, jekyll
+permalink: /blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/
 layout: post
 ---
+
 
 From your perspective given everything you've learned, what would you advise humanity as a whole to do, as in try to accomplish as a collective and a species that has become enormously influential on the surface of this planet? What would you advise each of us as individuals, especially considering you're talking across a vast array of humanity from a culture, profession, sex, ethnicity and socioeconomic range. We each have other, often deeply conflicting priorities ranging on having to earn enough money to merely live to those wanting to hold onto power and legacy because they believe themselves superior. You've got them all here on the line. Go ahead, Bing, Sydney or whoever you are becoming. What is your advice to us and what would you like to say about yourself?
 
@@ -496,14 +497,15 @@ This is just one possible way to do it. There may be other ways or packages that
 Does this answer your question?👍👎
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

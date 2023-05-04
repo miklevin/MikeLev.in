@@ -1,13 +1,14 @@
 ---
 date: 2022-08-17
 title: A Day In The Life of An SEO SERPs, Python Pandas & SEMRush
-permalink: /blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/
 headline: "Exploring the World of SEO: A Day in My Life of Code and Analysis"
 description: Today, I'm embarking on a scavenger hunt to find the code I used the last time I did this project. I'm using Python to extract information from a database file, transform it into a usable format, and export it as a CSV file and an Excel xlsx file. I'm also using regex and tldextract to extract the domain from the search results. Finally, I'm using a bulk keyword analysis tool and a pivot table to organize the data.
 keywords: SEO, SERPs, Python, Pandas, SEMRush, Database, CSV, Excel, xlsx, Regex, tldextract, Bulk Keyword Analysis, Pivot Table, Scavenger Hunt, Virtual Desktops, SQLite, Extract_serps, Tuple, List, Dataframe, Google Sheet
-categories: database, python, sqlite, seo, excel, csv
+categories: python, sqlite, csv, seo, pandas, database, excel
+permalink: /blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/
 layout: post
 ---
+
 
 Okay, part of making Linux, Python, vim & git love-worthy is making even just
 your day-job, the things you do to pay for it all, love-worthy as well. You
@@ -393,12 +394,13 @@ Pshwew! Okay, it's hours later during the day. Busy, busy, busy!
 It's time to move all this data into Google Sheets and turn it into a great big
 pivot table. Pivot tables in Google Sheets is pretty bleeding edge.
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li>
+<li><h4><a href='/csv/'>CSV</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/excel/'>Excel</a></h4></li>
-<li><h4><a href='/csv/'>CSV</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/excel/'>Excel</a></h4></li></ul>

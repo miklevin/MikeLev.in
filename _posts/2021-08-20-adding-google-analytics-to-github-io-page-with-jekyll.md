@@ -1,13 +1,14 @@
 ---
 date: 2021-08-20
 title: Adding Google Analytics to Github.io Page with Jekyll
-permalink: /blog/adding-google-analytics-to-github-io-page-with-jekyll/
 headline: Successfully Installing Google Analytics on my Github.io Page with Jekyll
 description: I recently installed Google Analytics on my Github.io Page with Jekyll, and I'm so glad I took the time to understand the Liquid system and what was going on underneath. After a few moments of research, I was able to successfully install Google Analytics and now I'm ready to move on to the next step. Read my blog post to find out how I did it!
 keywords: Google Analytics, Github.io, Jekyll, Liquid system, Installation, Configuration, Tweaking, Research, Understanding
 categories: jekyll, google analytics
+permalink: /blog/adding-google-analytics-to-github-io-page-with-jekyll/
 layout: post
 ---
+
 
 Hello World... again! This is an exercise in commitment and consistency. I have
 a number of small touches to do here. Let's fix the .vimrc! Okay, that should
@@ -53,6 +54,7 @@ to get started and learn "form" but you really have to understand more of
 what's going on underneath.
 
 Thanks, and later gators!
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-06-07
 title: Is There Anyone Cheesier Than Whitney Avalon?
-permalink: /blog/is-there-anyone-cheesier-than-whitney-avalon/
 headline: "Whitney Avalon's New Song: Cheesy and Dairy-Free!"
 description: As a huge fan of Whitney Avalon's witty lyricism and performance art, I'm so glad she released a song about dairy-free cheese balls! Her talent is amazing and she's not just a Disney Princess - she's a top-tier one in my book. Who controls the balls? Whitney Avalon does! Read my blog post to find out more about her amazing song.
 keywords: Whitney Avalon, Lyricism, Performance Art, Dairy-Free Cheese Balls, Cheesy Poofs, Disney Princess, Song, Talent, Blog Post
 categories: 
+permalink: /blog/is-there-anyone-cheesier-than-whitney-avalon/
 layout: post
 ---
+
 
 I don't consume much mass media but when I do, it's witty lyricists. If Linux,
 Python, vim & git didn't end up being my calling, I would almost certainly have
@@ -63,6 +64,7 @@ Cee Lo where to go. Whit, you're a top-tier Disney Princess in my book.
 # Who Controls The Balls? You Control The Balls!
 
 {% include youtubePlayer.html id="v53Z_6RWuNM" %}
+
 
 
 ## Categories

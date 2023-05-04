@@ -1,13 +1,14 @@
 ---
 date: 2022-09-17
 title: Preserving ~/.jupyter config files between WSL 2 LXD installs
-permalink: /blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs/
 headline: Preserving JupyterLab Dark Theme Across WSL 2 LXD Installs
 description: I'm working on a project that requires WSL 2 LXD, and I needed to save my ~/.jupyter config files between installs. I identified the default location and created a transfer directory, added an environment variable, and tested the process. After reinstalling, I confirmed that my JupyterLab dark theme was still active. Follow my journey as I go through the process and make sure my JupyterLab dark theme is still active.
 keywords: "WSL 2 LXD, ~/.jupyter, config files, transfer directory, environment variable, JupyterLab, dark theme, PowerShell, lxc jupyterlogin, jupyterscreen, localhost:8888, install.bat, repos/wsl2lxd"
 categories: powershell, jupyterlab
+permalink: /blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs/
 layout: post
 ---
+
 
 I have tons of work to do this weekend on an entirely other front than either
 my kid or this new... uh... wsl2lxd... work. It still doesn't roll off the
@@ -109,6 +110,7 @@ survived between re-installs. Great success.
 Think through next steps regarding apt and pip installs. This very much clears
 the way. I'll drop those files directly into ~/repos/transfer. Avoid
 subdirectory-hell. You're already two deep.
+
 
 
 ## Categories

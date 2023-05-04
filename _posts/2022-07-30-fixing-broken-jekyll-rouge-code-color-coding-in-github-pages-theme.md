@@ -1,13 +1,14 @@
 ---
 date: 2022-07-30
 title: Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme
-permalink: /blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/
 headline: My Website, MikeLev.in, Re-Connected to Github Pages with Proper Color-Coding
 description: I recently changed the theme of my website, MikeLev.in, and had to make some tweaks to get the programming code color-coding working properly. After some research, I found the .css file I needed and made one entry in my style.css file. With these changes, the fancy color-coding is now working on my website.
 keywords: Jekyll, Rouge, Code, Color-Coding, Github, Pages, Theme, CSS, Website, MikeLev.in, Hacker, Styles.scss, Imports, Fancy
 categories: jekyll, github
+permalink: /blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/
 layout: post
 ---
+
 
 A few months ago I severed the connection between this website (MikeLev.in) and
 the Github Pages Jekyll default Hacker theme that I started out with. While the
@@ -50,6 +51,7 @@ if I find too much stuff indented:
     margin-left: 1em;
 }
 ```
+
 
 
 ## Categories

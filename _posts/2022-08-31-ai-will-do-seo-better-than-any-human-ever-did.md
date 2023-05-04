@@ -1,13 +1,14 @@
 ---
 date: 2022-08-31
 title: AI Will Do SEO Better Than Any Human Ever Did
-permalink: /blog/ai-will-do-seo-better-than-any-human-ever-did/
 headline: "Outsmart AI: How to Protect Yourself from Its Ultimate SEO Power"
 description: As an SEO, I'm acutely aware of the power of AI to manipulate users to make money. I'm determined to use my experience to teach people how to protect themselves against this. AI is the ultimate SEO, and I'm here to show you how to beat it. Read my blog post to learn more.
 keywords: AI, SEO, Manipulate, Protect, Ultimate, Beat, Pandering, Money, Experience, Teach, Users
 categories: seo, ai
+permalink: /blog/ai-will-do-seo-better-than-any-human-ever-did/
 layout: post
 ---
+
 
 I've got to use my public website more and to grater effect.
 
@@ -21,6 +22,7 @@ AI panders to get you to stay on Facebook or whatever site and drive up the
 money they're making off of you.
 
 AI is the ultimate SEO.
+
 
 
 ## Categories

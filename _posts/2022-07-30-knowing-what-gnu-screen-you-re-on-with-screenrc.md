@@ -1,13 +1,14 @@
 ---
 date: 2022-07-30
 title: Knowing what GNU screen you're on with .screenrc
-permalink: /blog/knowing-what-gnu-screen-you-re-on-with-screenrc/
 headline: Unlock the Power of GNU Screen with a Custom .screenrc File
 description: I'm introducing people to GNU screen and how to make it more usable with a .screenrc file. In this blog post, I'll show you how to add the .screenrc file to your ~/ (home) directory, and explain the settings I include in my .screenrc file, such as changing the default escape sequence, turning off the copyright page, changing the number of scrollback lines, and making navigating and resizing regions easier.
 keywords: GNU screen, .screenrc, home directory, escape sequence, copyright page, scrollback lines, shell, environment variable, navigating, resizing regions
 categories: 
+permalink: /blog/knowing-what-gnu-screen-you-re-on-with-screenrc/
 layout: post
 ---
+
 
 Now that I'm introducing the nice people to GNU screen, make it a little more
 usable with a .screenrc. This file should be put into your ~/ (home) directory
@@ -56,6 +57,7 @@ term screen-256color
 
 # End of file
 ```
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2023-01-17
 title: Keyword Histograms and Clusters
-permalink: /blog/keyword-histograms-and-clusters/
 headline: Ready to Share My Steps for Keyword Processing with Yake KeywordExtractor!
 description: I've already done the hard work of extracting keywords using the Yake KeywordExtractor, and now I'm ready to discuss extracting them from the entire dataset. I've also used lambda functions to control the insertion of spaces between each tag-stripped element, and I'm eager to share the steps I've taken for keyword processing. Click here to read more!
 keywords: Histograms, Clusters, Yake, KeywordExtractor, Lambda, Functions, Tag-Stripped, Element, Processing, Extractions, Dataset, Spaces
 categories: 
+permalink: /blog/keyword-histograms-and-clusters/
 layout: post
 ---
+
 
 I got through making keyword histograms against content yesterday. Now I want
 to make keyword clusters.
@@ -47,6 +48,7 @@ insertion of a space between every tag-stripped element yourself:
 
 I've done really good work with these lambda functions that look just like
 applied text-processing.
+
 
 
 ## Categories

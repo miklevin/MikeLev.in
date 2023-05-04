@@ -1,13 +1,14 @@
 ---
 date: 2023-03-10
 title: Reconstructing Math Under Python for The Syntactically Ambiguous Challenged
-permalink: /blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/
 headline: "Unravelling the Mysteries of Physics: Exploring Temperature, Pressure, and Electric Fields"
 description: I'm exploring some of the most fascinating and challenging questions in science today, from the Theory of Everything to Dark Matter and Dark Energy. I'm also looking into physical factors such as temperature, pressure and electric fields, and the ambitious experiments planned to answer these questions. I'm passionate about learning and encourage others to pursue physics and discover something amazing!
 keywords: Physics, Theory of Everything, Dark Matter, Dark Energy, Temperature, Pressure, Electric Fields, Algebra, Axioms, Substitution, Notation, Calculus, Theorem, Rules of Inference, Logic, Reasoning, Argumentation, Mathematics, Computer Science, Philosophy, Law, Linguistics, Climate Change, Evolution, Cosmology, Artificial Intelligence, Quantum Gravity, Quantum Mechanics, Particle Physics, Astrophysics, Condensed Matter Physics, Biophysics, Mit
 categories: evolution, artificial intelligence
+permalink: /blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/
 layout: post
 ---
+
 
 If axioms are stipulated then isn't all math just made up?
 
@@ -531,6 +532,7 @@ and evolution of the universe, the formation of the first stars and galaxies, an
 Event Horizon Telescope (EHT): A global network of radio telescopes that combines their signals to create a virtual telescope the size of the Earth. It is expected to continue observing black holes and their surroundings with unprecedented resolution. It may test the predictions of general relativity and quantum mechanics near the event horizon^ ^.
 Laser Interferometer Gravitational-Wave Observatory (LIGO): A pair of detectors that measure tiny distortions in space-time caused by gravitational waves from violent cosmic events such as mergers of black holes or neutron stars. It is expected to improve its sensitivity and join forces with other detectors around the world. It may detect new sources of gravitational waves and explore their properties and implications^ ^.
 These are some of the most exciting and ambitious experiments in physics today. They may answer some of the unsolved problems or raise new ones. Physics is a fascinating field that explores the fundamental nature of reality and its mysteries. If you are thinking about getting into physics, I encourage you to pursue your curiosity and passion for learning. You may discover something amazing!😊
+
 
 
 ## Categories

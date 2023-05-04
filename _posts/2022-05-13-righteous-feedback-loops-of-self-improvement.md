@@ -1,13 +1,14 @@
 ---
 date: 2022-05-13
 title: Righteous Feedback Loops of Self-Improvement
-permalink: /blog/righteous-feedback-loops-of-self-improvement/
 headline: Unlocking the Power of Small Wins with Self-Improvement Rituals
 description: I start every day with a mantra of three questions and two modifiers to help condition my mind and get into the mindset of journaling. Through this daily practice, I'm learning to focus on small wins and use tools like Linux, Python, vim, and git to mechanically get tasks done. I'm also avoiding activities like video games and sports that may have long-term payoffs, and instead focusing on projects that will help me achieve small wins. By using the 80/20 rule and Rabbit
 keywords: Self-Improvement, Journaling, Small Wins, Linux, Python, Vim, Git, 80/20 Rule, Rabbit Hole Evaluation, Animalistic, Human, Procrastination, Muscle Memory, Triggering
-categories: human, muscle memory, python, journaling, vim, git, linux
+categories: python, journaling, human, vim, linux, muscle memory, git
+permalink: /blog/righteous-feedback-loops-of-self-improvement/
 layout: post
 ---
+
 
 Doing better for yourself starts with a few words.
 
@@ -223,13 +224,14 @@ Now if you can just find where to grip that lever to release the
 neurotransmitters on achieving the small wins, the floodgates will open.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/human/'>Human</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/human/'>Human</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

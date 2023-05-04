@@ -1,13 +1,14 @@
 ---
 date: 2023-02-08
 title: Considering Generating a 100% AI Site From Google Suggest
-permalink: /blog/considering-generating-a-100-ai-site-from-google-suggest/
 headline: "Creating a 100% AI Website: Join me on this Journey!"
 description: I'm embarking on a public project to create a 100% AI-generated website using free tools and no particular topics in mind. To do this, I've set up a hosted site on Github Pages, added Google Analytics Measurement ID, and filled in some basic content suggested by Google Suggest and ChatGPT. I'm looking for readers to join me on this journey and help me come up with new ideas to complete this project.
 keywords: AI, Generate, Website, Free Tools, Google Suggest, Github Pages, Google Analytics, Measurement ID, ChatGPT, Markdown, CSS, Pipulate.com, Logo, Content, Public Project
-categories: google analytics, ai, github pages, chatgpt
+categories: github pages, google analytics, ai, chatgpt
+permalink: /blog/considering-generating-a-100-ai-site-from-google-suggest/
 layout: post
 ---
+
 
 Let's create a site that's 100% AI-generated just for the experience. I'm going
 to use 100% free tools and perhaps even have a little manual involvement at
@@ -37,10 +38,11 @@ stuff that has a slightly higher barrier to entry and which is still of great
 public interest. Choose one of them and take it to best-in-the-world status.
 
 
+
 ## Categories
 
 <ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>

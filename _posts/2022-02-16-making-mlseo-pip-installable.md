@@ -1,13 +1,14 @@
 ---
 date: 2022-02-16
 title: Making mlseo pip installable
-permalink: /blog/making-mlseo-pip-installable/
 headline: "Creating mlseo: My Journey to Setting Up a Pip Installable Module"
 description: I'm using mlseo as a pip installable module to get the process of making packages into my fingers. I'm creating a package called mlseo which will include my latest techniques for pulling data from Google Analytics and Search Console. I'm setting up the settings.ini file and extracting the packages, and I'm following the nbdev instructions to install and create a Github personal access token. Come follow my journey and learn how to set up your own mlseo package!
 keywords: Mlseo, Pip Installable, Package, Google Analytics, Search Console, Nbdev, Github, Personal Access Token, Settings.ini, Extracting Packages
-categories: mlseo, github, google analytics, nbdev
+categories: github, google analytics, nbdev, mlseo
+permalink: /blog/making-mlseo-pip-installable/
 layout: post
 ---
+
 
 Well, so another day. I'm going to use mlseo as the pip installable module name
 that will take the place of pipulate in my heart and mind for awhile, because I
@@ -82,10 +83,11 @@ That was actually a hurdle overcome, nbdev_new'ing into an already existing
 private repo. Check!
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/mlseo/'>mlseo</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/mlseo/'>mlseo</a></h4></li></ul>

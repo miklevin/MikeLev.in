@@ -1,13 +1,14 @@
 ---
 date: 2022-08-16
 title: Why Pages Aren't Usable On Mobile, Fixing!
-permalink: /blog/why-pages-aren-t-usable-on-mobile-fixing/
 headline: "Improving My Website Design: A Journey to Improve SEO Rankings"
 description: I'm working on improving my website design and SEO rankings. To do this, I'm switching from a spinning logo experiment to a more simple design with bigger, clickable links. I'm also focusing on improving the categories of my site and tagging them correctly. I'm experimenting with SimpleCSS and Jekyll plugins to get the accent color of the navigation elements, and making sure I'm not compromising my special habits that give me a competitive edge.
 keywords: Website Design, SEO Rankings, Logo Experiment, Clickable Links, Categories, Tagging, SimpleCSS, Jekyll Plugins, Accent Color, Navigation Elements, Fluid Layout, Header, Brand Identity, Hamburger Links, CSS Frameworks, File Protocol, Meta Refresh, Git Commit, Push, Assets, Style.css, Config.yml, CSS Elements
 categories: 
+permalink: /blog/why-pages-aren-t-usable-on-mobile-fixing/
 layout: post
 ---
+
 
 Okay after yesterday's only so-so venture into classless (a.k.a. class-less)
 CSS frameworks, it's pretty obvious there are many and they're not really
@@ -238,6 +239,7 @@ Look on my macro what happens when I hit @p.
 Ugh! Okay, I fixed it in the .py files but nbdev is no longer generating the
 .py files from the Python Notebook. I'm going to have to be very careful to not
 lose these updates.
+
 
 ## Categories
 

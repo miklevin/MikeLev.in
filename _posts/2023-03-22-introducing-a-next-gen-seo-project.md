@@ -1,13 +1,14 @@
 ---
 date: 2023-03-22
 title: Introducing A Next Gen SEO Project
-permalink: /blog/introducing-a-next-gen-seo-project/
 headline: "Unveiling My Next-Gen Interoperable Project: Linux, Python, vim, git, and Jupyter"
 description: I'm introducing a complex project that uses Linux, browser automation, and Microsoft's implementation of Linux to automate data tasks. I'm also transitioning to Linux, Python, vim, git, and Jupyter for web development, and I'll be using a Linux VM and a web browser to access a Linux CLI from my Windows system. This will allow me to automate tasks and build a Linux server from my Windows system.
 keywords: Linux, Python, Vim, Git, Jupyter, Browser Automation, Microsoft, Windows, Virtual Machines, VMs, Web Development, CLI, Docker, Automation, Server, Localhost, 8888
-categories: automation, browser automation, python, docker, vim, git, linux, web development, microsoft, jupyter
+categories: python, microsoft, web development, linux, vim, jupyter, browser automation, automation, git, docker
+permalink: /blog/introducing-a-next-gen-seo-project/
 layout: post
 ---
+
 
 The concept of using Linux as an interoperable, portable code-layer, like a VM
 in a similar spirit as Java intended, but so much better for so many reasons
@@ -213,16 +214,17 @@ already comes with Windows. It's win/win using Linux as your interoperable code
 execution layer.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li></ul>

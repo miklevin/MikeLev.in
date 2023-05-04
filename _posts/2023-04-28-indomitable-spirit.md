@@ -1,13 +1,14 @@
 ---
 date: 2023-04-28
 title: Indomitable Spirit
-permalink: /blog/indomitable-spirit/
 headline: "Rebuilding Life After Setbacks: Using NeoVim and Journaling to Move Forward"
 description: I recently restarted WSL to get my Linux and Windows clocks in sync. I'm actively working my way back from several setbacks, including a move, my cat escaping, and changes at my job. To help me on my journey, I'm using NeoVim, updating my journaling system, rolling with the punches and navigating my next step.
 keywords: WSL, --shutdown, Powershell, Linux, Windows, Clock, Life, Poconos, Move, Cat, Escape, Job, NeoVim, Journaling, System, Data-fields, Windows, Laptop
-categories: powershell, journaling, linux, cat, neovim, wsl
+categories: journaling, linux, wsl, neovim, cat, powershell
+permalink: /blog/indomitable-spirit/
 layout: post
 ---
+
 
 I had to restart WSL with the --shutdown command under Powershell to get my
 Linux clock back in sync with my Windows clock. The normal trick of:
@@ -77,12 +78,13 @@ with MOZ more productive, and I have to make my time with my kid.
 The quality-level on both fronts needs to go up.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/cat/'>Cats</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/cat/'>Cats</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>

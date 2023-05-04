@@ -1,13 +1,14 @@
 ---
 date: 2023-02-14
 title: Secure a Home Server For AI at Home
-permalink: /blog/secure-a-home-server-for-ai-at-home/
 headline: "Gain Tech Literacy: Setting Up a Home Server for AI"
 description: I'm encouraging people to gain tech literacy by setting up a home server for AI. I'm offering advice on how to do this, including using Microsoft Word or Google Docs, Linux, Python, vim, git, Edge, htmx, and a lightweight JavaScript framework like Alpine. I'm also discussing Microsoft's Prometheus model and the GPT3 ChatGI, and how to set up a server to help kickstart creating content.
 keywords: Home Server, AI, Tech Literacy, Microsoft Word, Google Docs, Linux, Python, vim, git, Edge, htmx, JavaScript, Alpine, Prometheus Model, GPT3 ChatGI, FOSS SEO Software
-categories: python, ai, javascript, vim, git, linux
+categories: python, javascript, linux, vim, git, ai
+permalink: /blog/secure-a-home-server-for-ai-at-home/
 layout: post
 ---
+
 
 I like rabble on. I like to speak from the heart and follow where've the flow is leading. I like getting onto that flow-state where verklempting meta-awareness dissolves away and you're answering questions for the angels. That's kinda sorta my religion.
 
@@ -34,12 +35,13 @@ Microsoft's making a brilliant move. One can only wait with baited breadth knowi
 You need a server, my friend. It'd needs to be running on your behalf, 24x7, preferably free from cloud dependencies. We're going to start it out as the second daemon we set running on the drinkme Pipulate server. Mayvbe I should document that on the install.bat file, hoe it builds a Pipulate server. Start spreading the FOSS SEO software message right there.
 
 
+
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

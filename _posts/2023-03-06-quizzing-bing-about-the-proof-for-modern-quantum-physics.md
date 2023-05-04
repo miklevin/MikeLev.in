@@ -1,13 +1,14 @@
 ---
 date: 2023-03-06
 title: Quizzing Bing About the Proof For Modern Quantum Physics
-permalink: /blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/
 headline: Exploring 11 Experiments that Confirm Quantum Mechanics and the Quantum Hall Effect Experiment
 description: As a quantum physicist, I recently explored 11 experiments that demonstrate principles of quantum mechanics, such as interference, entanglement, tunneling, teleportation, cryptography, computing, metrology, and levitation. I discussed these experiments with Bing, and also conducted the Quantum Hall Effect Experiment, which demonstrated that the electrical conductivity of a two-dimensional electron gas can take on discrete values when exposed to a strong magnetic field. Join me as I explore these fascinating experiments and their implications.
 keywords: Quantum Physics, Thomas Young, Wave Theory of Light, Fermions, Bosons, John Wheeler, Electrons, Positrons, Two-Slit Experiment, Bell Experiments, Lamb Shift, Magnetic Moment, Schwinger Effect, Graphene, Black Body Radiation, Photoelectric Effect, Quantum Cryptography, Quantum Computing, Quantum Metrology, Quantum Levitation, Interference, Entanglement, Tunneling, Zeno Effect, Teleportation
 categories: 
+permalink: /blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/
 layout: post
 ---
+
 
 Explain Young's 2-slits experiment, what kind of particle it was done with and then each subsequent 2-slits experiment, name of experimenter, date of experiment and type of particle it was. Continue up to the 2-slits experiment with Bucky balls.
 
@@ -186,6 +187,7 @@ Here is the list of experiments I mentioned:
 1. The Quantum Levitation Experiment: Shows that a superconductor can levitate and suspend itself above a magnet, without any external support or stabilization.
 1. The Quantum Eraser Experiment: Shows that one can erase the which-path information of a quantum system and restore its interference pattern, even after the system has been detected.
 1. The Quantum Hall Effect Experiment: Shows that the electrical conductivity of a two-dimensional electron gas can take on discrete values when subjected to a strong magnetic field.
+
 
 
 ## Categories

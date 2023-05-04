@@ -1,13 +1,14 @@
 ---
 date: 2022-12-22
 title: Changing InstalledAppFlow from run_console() to run_local_server()
-permalink: /blog/changing-installedappflow-from-run-console-to-run-local-server/
 headline: Successfully Connecting Google Analytics GA4 and Retrieving Organic Traffic Data in Linux JupyterLab Across WSL
 description: I spent the day working on a code project that involved connecting to Google Analytics GA4, updating my library ohawf for OAuth2 authentication and changing the InstalledAppFlow flow. After a long session, I'm proud to say I got it to work in Linux JupyterLab across WSL. Read my blog post to find out more about my journey and how I achieved success.
 keywords: Google Analytics GA4, OAuth2, InstalledAppFlow, run_console(), run_local_server(), Linux JupyterLab, WSL, Organic Traffic
 categories: wsl
+permalink: /blog/changing-installedappflow-from-run-console-to-run-local-server/
 layout: post
 ---
+
 
 Today's work is going to be adding a single line to the end of a list in Google
 Sheets. Everything I'm going to do for Pipulate is going to start out as a
@@ -88,6 +89,7 @@ library which is for Google OAuth2 authentication. I had to upgrade from nbdev
 to nbdev 2. I also had to change the InstalledAppFlow flow from to
 run_console() to run_local_server(). It's a small miracle it works in the Linux
 JupyterLab across WSL. Wow.
+
 
 
 ## Categories

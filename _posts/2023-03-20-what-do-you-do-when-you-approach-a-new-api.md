@@ -1,13 +1,14 @@
 ---
 date: 2023-03-20
 title: What do you do when you approach a new API?
-permalink: /blog/what-do-you-do-when-you-approach-a-new-api/
 headline: "Exploring a New API: My Journey to Find Answers"
 description: As I explore a new API, I have many questions to answer. I need to know the protocols, endpoints, versions, methods, login process, API reference guide, client libraries, batch requests, paged responses, quota handling, and more. I'm taking you through my journey to get the answers I need. Join me in exploring this new API!
 keywords: API, Protocols, Endpoints, Versions, Methods, Login Process, API Reference Guide, Client Libraries, Batch Requests, Paged Responses, Quota Handling, HTTP, HTTPS, GET, POST, Non-Logged-in Services, Strange, Unique Features
-categories: api
+categories: versions, api
+permalink: /blog/what-do-you-do-when-you-approach-a-new-api/
 layout: post
 ---
+
 
 When approaching an API you haven't used before for the first time, what
 happens? Well, you'll have a few questions. They go something like:
@@ -51,6 +52,7 @@ My mind is a fresh slate. I only have my recollections of using Moz APIs from
 time to time over the years. So log in under your old account and poke around.
 
 Consider doing a live session actually using the API screen-sharing.
+
 
 
 ## Categories

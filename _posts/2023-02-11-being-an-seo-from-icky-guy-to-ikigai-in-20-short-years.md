@@ -1,13 +1,14 @@
 ---
 date: 2023-02-11
 title: "Being An SEO: From Icky Guy to Ikigai in 20 Short Years"
-permalink: /blog/being-an-seo-from-icky-guy-to-ikigai-in-20-short-years/
 headline: "From Science to SEO: My Journey to Find a Career Aligned with My Values and Interests"
 description: After considering a career in science, I chose to pursue SEO due to its data-driven nature. When Google stopped passing on keyword data, I was forced to switch to statistical models, which I was unprepared for. After years of feeling icky, I am now looking for a career that aligns with my values and interests. I am excited to start a new project which involves reading emails and creating a majordomo-like program using the string method splitlines and join.
 keywords: SEO, Science, Google, Statistical Models, Values, Interests, Strengths, Passions, Insert, Text, File, Python, Read Mode, String, Insert Method, Join Method, Splitlines, Majordomo, Write Mode, Overwrite
-categories: seo, science, python, google
+categories: python, science, strengths, seo, google
+permalink: /blog/being-an-seo-from-icky-guy-to-ikigai-in-20-short-years/
 layout: post
 ---
+
 
 I could have been a scientist. I ended up in marketing. Hey, it's a living.
 What moved me towards SEO was that it was data-driven. That
@@ -156,10 +157,11 @@ public sufficiently right now to take off. This email reading majordomo like
 project is a better starting point. I can get into it and dig it.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/science/'>Science</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/science/'>Science</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li></ul>

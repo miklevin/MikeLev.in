@@ -1,13 +1,14 @@
 ---
 date: 2023-05-03
 title: Long-Tail SEO is Dead. E-E-A-T a Walrus.
-permalink: /blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/
 headline: "E-E-A-T: A Walrus's Guide to Protecting Your Sanity from Those Who Would Undo It"
 description: As an experienced SEO, I've seen the effectiveness of long-tail SEO decline due to the tragedy of the commons. To break into the industry, we must figure out how to emit signals indicating Experience, Authority and Trustworthiness to convince Google you're Expert (E-E-A-T). Learn from Lewis Carroll's timeless stories and protect your sanity from those who would undo it. Don't covet the generational wealth of the Walrus family - use your own hammer to build your own kingdom.
 keywords: SEO, E-E-A-T, Alice in Wonderland, Wizard of Oz, long-tail SEO, easy tricks, exact-match keyword, emit signals, influencer, morning joe, streaming services, audibles, kindle books, quantum physics, personality types, AI-generated content, deep fakes, polarized people, bad actors, Alice's Adventures in Wonderland, Wizard of Oz, coming-of-age stories, fantasy, nonsense, Mississippi River, N-word language, Disney movie, Lewis Carroll, Alice, Dorothy, Oz, quantum
 categories: seo, quantum
+permalink: /blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/
 layout: post
 ---
+
 
 Easy tricks that once worked stop working because of the tragedy of the
 commons. And so has gone the effectiveness of long-tail SEO. You can no longer
@@ -150,6 +151,7 @@ oyster again, ready to be eaten.
 My E-E-A-T (Experience, Expertise, Authority, Trust) should be teaching folks
 how to use a hammer that can not be taken away from you, so you can never be
 eaten like an oyster.
+
 
 ## Categories
 

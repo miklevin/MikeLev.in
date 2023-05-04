@@ -1,13 +1,14 @@
 ---
 date: 2023-01-02
 title: Every Week Date for Last 30 Years With Fixed IDs
-permalink: /blog/every-week-date-for-last-30-years-with-fixed-ids/
 headline: "Enumerating Life in Weeks: A Simple Way to Remember Birthdays"
 description: I had a project to work on that required me to work with a lot of data. To make sense of the data, I decided to enumerate life in terms of weeks starting from the week of birth. Using named tuples, I was able to calculate clean week-start dates and give each week a fixed ID. This allowed me to list the data in a way that I could easily remember what day of the week a person was born on.
 keywords: Enumerate, Week, Birth, Named Tuples, Fixed IDs, Chart Lines, Trends, API-Parameters, Database
 categories: database
+permalink: /blog/every-week-date-for-last-30-years-with-fixed-ids/
 layout: post
 ---
+
 
 Wow, January 2nd. Okay, it's the second day of the new year, and I have off
 from work. Take inventory. Make your next steps easier. Think! I've got
@@ -120,6 +121,7 @@ you were born, this is a good way to check. First row is Monday. I was born on
 a Thursday.
 
 Okay, so now we have a tuple for each week you've been alive. What now?
+
 
 
 ## Categories

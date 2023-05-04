@@ -1,13 +1,14 @@
 ---
 date: 2022-10-16
 title: Being On Your Own In Life
-permalink: /blog/being-on-your-own-in-life/
 headline: "My Unique Life Journey: A Single Parent Working in IT and Never Really On My Own"
 description: I'm in my mid-twenties and a single parent, working in the IT industry to provide for my child. I sometimes consider hitting the road in an RV, but I stay put for my family. Life is funny and I'm never really on my own. Read my story to find out more about my unique life journey.
 keywords: Mid-twenties, Single Parent, IT Industry, RV, Family, Life Journey, On Own, Child, Information Technology, Data, Stakeholders, Cats
-categories: child
+categories: cats, child
+permalink: /blog/being-on-your-own-in-life/
 layout: post
 ---
+
 
 I like to make sure by blog publishing system is still working. Finally
 watching The Shawshank Redemption again... again being probably for the second
@@ -33,6 +34,7 @@ thing now besides wanting to be stable for my kid keeping me from going all RV.
 Why pay rent? Why not take it on the road? Only the cats. The child on weekends
 and the cats. I could go RV sometime soon. It seems likely in my future. I
 wonder how that would be with cats? Persistence. Purrsistence.
+
 
 
 ## Categories

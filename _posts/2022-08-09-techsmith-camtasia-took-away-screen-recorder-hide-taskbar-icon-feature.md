@@ -1,13 +1,14 @@
 ---
 date: 2022-08-09
 title: TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature
-permalink: /blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/
 headline: "Learning Blender to Replace Camtasia: Why I Won't Edit Videos to Hide Taskbar Icon"
 description: As a video creator, I'm considering learning Blender to replace TechSmith Camtasia's recent feature roll-back which removed the ability to hide the taskbar icon for the screen recorder. I recently recorded a video discussing why I won't edit my videos just to hide the taskbar icon. Come read my blog post to find out why!
 keywords: TechSmith, Camtasia, Screen Recorder, Hide Taskbar Icon, Feature Roll-back, Blender, Video Creator, Minimal Editing, Quickly, Editing, Videos, Taskbar Icon
 categories: 
+permalink: /blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/
 layout: post
 ---
+
 
 How to record your day-to-day work honestly and without much editing.
 
@@ -40,6 +41,7 @@ the editing with Camtasia 2022. Why? Because only Screen Recorder 2020 or
 earlier has this feature, an important reason why I use(d) it, and only the
 newer editors make the user interface fonts large enough for my poor old eyes
 to read.
+
 
 
 ## Categories

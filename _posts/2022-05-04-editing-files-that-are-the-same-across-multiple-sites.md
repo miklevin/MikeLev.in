@@ -1,13 +1,14 @@
 ---
 date: 2022-05-04
 title: Editing Files That Are The Same Across Multiple Sites
-permalink: /blog/editing-files-that-are-the-same-across-multiple-sites/
 headline: Just Finished My Work Day and Taking Extra Time to Update Blogging System
 description: After a long work day, I'm taking extra time to make sure my blogging system is up-to-date. I'm creating a list of common files to edit, as well as a list of files that need to be copied for each release. I'm also setting up an 'includes' directory and adjusting the release code to make sure everything is pushed properly. Ready to get your blogging system up-to-date? Read on to find out how!
 keywords: Editing, Files, Multiple Sites, Work Day, Blogging System, List, Common Files, Edit, Copy, Release, Includes, Directory, Adjust, Push
 categories: 
+permalink: /blog/editing-files-that-are-the-same-across-multiple-sites/
 layout: post
 ---
+
 
 Okay, the work day is over. Let's get a little more done on the blogging
 system. The main thing wrong is the inability to edit everything common to all
@@ -55,6 +56,7 @@ while read line; do
     n=$((n+1))
 done < $filename
 ```
+
 ## Categories
 
 <ul></ul>

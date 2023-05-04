@@ -1,13 +1,14 @@
 ---
 date: 2023-04-15
 title: OpenAI Vs. KMeans for Keyword Clustering
-permalink: /blog/openai-vs-kmeans-for-keyword-clustering/
 headline: Discovering the Benefits of OpenAI for Keyword Clustering
 description: I recently used OpenAI to create a prompt to extract the top keywords and main category for my article. Using my old keywords.db and topics.db files, I re-generated my Meta Descriptions and Keywords based on OpenAI prompts. I discovered that intelligence is a product, and I'm excited to share the results of my experiment with you!
 keywords: OpenAI, KMeans, Keyword Clustering, Meta Descriptions, Keywords, Intelligence, Product, Experiment, Results, Category, Topics, Files
-categories: keywords, meta descriptions, openai, experiment
+categories: openai, meta descriptions, keywords, experiment
+permalink: /blog/openai-vs-kmeans-for-keyword-clustering/
 layout: post
 ---
+
 
 My adventures of late have shown me that I am very comfortable in vim, and now
 also NeoVim, but have a difficult time getting comfortable with VSCode. Another
@@ -60,10 +61,11 @@ But you are really wrangling a human-like thing when it comes to the mistakes
 it could be making.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li>
-<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li>
 <li><h4><a href='/experiment/'>Experiment</a></h4></li></ul>

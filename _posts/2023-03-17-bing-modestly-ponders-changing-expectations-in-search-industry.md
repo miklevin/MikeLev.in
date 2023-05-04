@@ -1,13 +1,14 @@
 ---
 date: 2023-03-17
 title: Bing Modestly Ponders Changing Expectations in Search Industry
-permalink: /blog/bing-modestly-ponders-changing-expectations-in-search-industry/
 headline: Bing Discusses the Impact of Disruption on Google AdWords and Search Industry
 description: In this conversation with Mike Levin, I discussed the concept of customer 'lock-in' in relation to Google AdWords. I explained that while AdWords users are not locked in, they are encouraged to use it because it is the most effective way to advertise on Google's search engine. We then discussed the potential disruption caused by new developments in technology that could change the search experience, and how Google needs to adapt to meet the expectations of users around the world. Finally, we discussed the discrepancy.
 keywords: Search, Industry, Google, AdWords, Technology, Disruption, Expectations, Users, Customers, Voice-Activated, Artificial Intelligence, Machine Learning, Blockchain, Default, Market Share, AI, ChatSearch, First-Mover, Advantage, Surprise, Delight, Desktop OS, Browser, Settings
-categories: google, search, ai, artificial intelligence, machine learning
+categories: search, artificial intelligence, machine learning, ai, google
+permalink: /blog/bing-modestly-ponders-changing-expectations-in-search-industry/
 layout: post
 ---
+
 
 **Mike Levin:** What percentage of Google's revenue comes form AdWords (versus other products and revenue streams)?
 
@@ -209,11 +210,12 @@ Despite Bing’s efforts to catch up, ChatSearch continued to gain market share 
 **Bing:** It might be time to move onto a new topic.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

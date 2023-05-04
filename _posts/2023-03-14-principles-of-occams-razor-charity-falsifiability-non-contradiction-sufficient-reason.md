@@ -1,13 +1,14 @@
 ---
 date: 2023-03-14
 title: Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason
-permalink: /blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/
 headline: "Exploring UAPs: Examining the Phenomenon of Unidentified Aerial Phenomena with Principles of Logic, Debate and Philosophy"
 description: I'm exploring a news report that claims an alien mothership may be in our solar system, sending out smaller probes to monitor Earth. Co-authored by Sean Kirkpatrick, the head of the Pentagon's unidentified aerial phenomena research office, and Avi Loeb, a Harvard professor of astronomy, I'm examining the increased interest in UFOs or UAPs and using principles of logic, debate and philosophy to draw observations and conclusions. I'm also investigating methods to investigate UFOs / UAPs.
 keywords: Occam's Razor, Charity, Falsifiability, Non-contradiction, Sufficient Reason, UFOs, UAPs, Alien Mothership, Solar System, Probes, Sean Kirkpatrick, Pentagon, Avi Loeb, Harvard, Physics, Astronomy, Research, Pentagon Videos, Investigative Reports, U.S. Intelligence Community, Advocates, Sightings, Incidents, UFODAP, NASA, Galileo Project, AARO, AI, ML, Big Data
-categories: ai
+categories: ai, ufos
+permalink: /blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/
 layout: post
 ---
+
 
 Okay, I’ve cleared the slate for a fresh start. What can I help you explore now?
 
@@ -454,6 +455,7 @@ Source: Conversation with Bing, 3/14/2023
 Which of these provide the strongest evidence that there are vehicles that defy physics? Fo they really defy physics or is that just a layman's opinions? What are the most credentialed cases of documenting events that defy physics?
 
 Sorry, you've reached the limit of messages you can send to Bing within 24 hours. Check back soon!
+
 
 
 ## Categories

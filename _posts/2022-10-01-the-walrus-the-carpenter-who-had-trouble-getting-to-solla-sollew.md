@@ -1,13 +1,14 @@
 ---
 date: 2022-10-01
 title: The Walrus & The Carpenter Who Had Trouble Getting to Solla Sollew
-permalink: /blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew/
 headline: "Gaining Strength from Mistakes: My Story of Overcoming Deception Like the Walrus in Dr. Seuss' I Had Trouble in Getting to Solla Sollew"
 description: I have learned from my own mistakes, like the ones in Dr. Seuss' I Had Trouble in Getting to Solla Sollew. People have tried to take advantage of me, like the Walrus in the story, but I have come out stronger and wiser because of it. Read my story to find out how I overcame these obstacles and gained strength from them.
 keywords: Dr. Seuss, Walrus, Carpenter, Solla Sollew, Mistakes, Tricked, Strength, Overcome, Obstacles, Lessons
 categories: strength
+permalink: /blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew/
 layout: post
 ---
+
 
 Much of life is about not being pushed around. Much of life's lessons are in
 Dr. Seuss' I Had Trouble in Getting to Solla Sollew. I feel that effect often
@@ -20,6 +21,7 @@ on your first journey or two out into the world, such as I was... several
 times. The definition of stupid is repeating your same mistakes without
 learning. Yup, I was stupid. But such is life. What doesn't kill you makes you
 stronger, and oh how strong I have become!
+
 
 
 ## Categories

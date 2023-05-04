@@ -1,13 +1,14 @@
 ---
 date: 2023-04-09
 title: Refining my .vimrc now that it's a NeoVim init.vim
-permalink: /blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/
 headline: "Exploring NeoVim and Vim: Refining my init.vim File"
 description: I just updated my init.vim with some new plugins and options, making it compatible with both NeoVim and Vim. I'm testing out a macro that returns the entire path and name of the file, and I'm creating a new file called chopchop.py to replace the old skite repo. Come check out my blog post to learn more about my experience with NeoVim and Vim!
 keywords: NeoVim, Vim, init.vim, plugins, options, macro, path, name, file, chopchop.py, skite repo, syntax highlighting, cursor shape, spellfile, highlight groups, key bindings, @q macro, argument, path, parse
 categories: neovim, vim, macro
+permalink: /blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/
 layout: post
 ---
+
 
 Wow, I basically re-wrote by journal to blog slice & dice system in a day,
 layering in OpenAI description-writing. However, all the descriptions are now
@@ -307,6 +308,7 @@ Everything gets parsed out of it. There's never a case where I have to chop
 path parts into smaller bits and send them as individual arguments. Only the
 blog folder name needs to remain because you don't know what has to be used in
 the permalink.
+
 
 
 ## Categories

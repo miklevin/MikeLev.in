@@ -1,13 +1,14 @@
 ---
 date: 2022-04-22
 title: Dial-down Negativity & Dial-up Positivity
-permalink: /blog/dial-down-negativity-dial-up-positivity/
 headline: "Cultivating a Positive Outlook: My Journey to be a Better Role Model for My Child"
 description: As a parent, I'm striving to cultivate a more positive outlook on life and be a better role model for my 11 year old. Recently, I watched a YouTube video that opened my eyes to the importance of this, and now I'm looking for more videos to help me cultivate a positivity bias. Join me on my journey to be a better role model and read my blog post for more!
 keywords: Parenting, Negativity, Positivity, Role Model, YouTube Video, Cultivate, Outlook, Life, Better, Child, Realize, Importance, Videos, Bias
 categories: child
+permalink: /blog/dial-down-negativity-dial-up-positivity/
 layout: post
 ---
+
 
 I'm spending more time on cultivating a positivity bias. I've had difficulty in
 recent years... recent being like the past 15 years which is terribly
@@ -24,6 +25,7 @@ I am now hungry for more videos to help me cultivate a positivity bias. Here's
 one from the same YouTuber:
 
 {% include youtubePlayer.html id="YAs2IzSCNMU" %}
+
 
 
 ## Categories

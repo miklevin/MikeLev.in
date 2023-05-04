@@ -1,13 +1,14 @@
 ---
 date: 2022-05-05
 title: Editing 15 Homepages at Once in vim
-permalink: /blog/editing-15-homepages-at-once-in-vim/
 headline: Editing 15 Homepages Simultaneously with vim - A Step-by-Step Guide
 description: I'm editing 15 homepages at once using vim, creating necessary files and folders, and writing a configuration file for a Jekyll website. This configuration file includes a list of plugins, a theme name, an author, a permalink, a Google Analytics ID, a title, a description, and an apex - all saved in the apex directory of the website. Come read my blog post to learn more!
 keywords: Vim, Homepages, Files, Folders, Configuration, Jekyll, Plugins, Theme, Permalink, Google Analytics, Title, Description, Apex, all.sh, hps.sh, default.html, _config.yml
-categories: google analytics, vim, jekyll
+categories: jekyll, homepages, vim, google analytics
+permalink: /blog/editing-15-homepages-at-once-in-vim/
 layout: post
 ---
+
 
 Let's edit 15 homepages at once! So I start out with the file that
 creates my all.sh file that lets me edit 15 journal.md files at once (which
@@ -162,9 +163,10 @@ apex: {apex}'''
 ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

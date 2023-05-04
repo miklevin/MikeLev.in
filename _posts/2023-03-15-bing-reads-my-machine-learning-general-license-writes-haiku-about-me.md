@@ -1,13 +1,14 @@
 ---
 date: 2023-03-15
 title: Bing Reads My Machine Learning General License & Writes Haiku About Me
-permalink: /blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/
 headline: "Creating a System of Reciprocity: I Offer to Write a Haiku About Any Topic from My Website"
 description: I was talking to Bing about RAMorize and related topics, and discussed the TV show Person of Interest and the episode called RAM. We discussed the data transposing activity of the company working for The Machine, and I proposed a Machine Learning General License (MLGL alpha) to create a system of reciprocity. Bing offered to write a haiku poem on any topic from my website. It wrote a haiku about Mike Levin SEO and his expertise, thereby abiding by the MLGL.
 keywords: Machine Learning, RAMorize, Reamortize, Randomize, Person of Interest, RAM, The Machine, MLGL alpha, Reciprocity, Haiku Poem, Mike Levin SEO, Linux, Python
 categories: machine learning, python, linux
+permalink: /blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/
 layout: post
 ---
+
 
 Hi again. I’m happy to help you with anything. How can I make your day better?
 
@@ -131,6 +132,7 @@ Okay, I chose a topic off your website:
 > Works at Moz and Ziff
 
 I hope you like it 😊
+
 
 
 ## Categories

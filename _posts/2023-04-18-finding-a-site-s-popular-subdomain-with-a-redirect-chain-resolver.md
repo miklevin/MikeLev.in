@@ -1,13 +1,14 @@
 ---
 date: 2023-04-18
 title: Finding a Site's Popular Subdomain With a Redirect Chain Resolver
-permalink: /blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/
 headline: Uncovering the Most Popular Subdomain of a Site with a Redirect Chain Resolver
 description: I created a mini-project to find the most popular subdomain of a site using a redirect chain resolver, Requests library, and a blacklist filter. After excluding certain sites, I was able to pull data from 53 sites. Read my blog post to find out how I did it!
 keywords: Redirect Chain Resolver, Requests Library, Blacklist Filter, Mini-Project, Subdomain, Popular, URL, Protocol
 categories: url
+permalink: /blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/
 layout: post
 ---
+
 
 This is a mini-project that I do all the time. But since I'm building this
 project up from scratch, let's do it again. This adds a couple of new
@@ -228,6 +229,7 @@ print(f"{save_as} saved!")
     Combined before fitlering: 66
     Combined after fitlering: 53
     ../data/pull_keywords.txt saved!
+
 
 ## Categories
 

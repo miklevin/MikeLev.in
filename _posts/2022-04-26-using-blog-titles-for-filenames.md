@@ -1,13 +1,14 @@
 ---
 date: 2022-04-26
 title: Using Blog Titles for Filenames
-permalink: /blog/using-blog-titles-for-filenames/
 headline: "Success: Using Blog Titles for Unique Filenames"
 description: "I'm excited to share that I made great progress on a blog slicing and dicing system. I managed to maintain my blogging format while also figuring out the title stuff. I now have `_counter_` posts, each with a unique filename based on the post title, as well as the title, layout, categories, and slug. Come read more to learn how I did it!"
 keywords: blogging, filename, post title, layout, categories, slug, slicing, dicing, system, progress, concessions, unique
 categories: blogging
+permalink: /blog/using-blog-titles-for-filenames/
 layout: post
 ---
+
 
 Made a lot of good progress yesterday on the blog slice & dice system. Just
 have to get that title stuff down. Okay, got it done. There are little
@@ -90,6 +91,7 @@ with open("./index.md", "r") as fh:
             table = []
         table.append(line)
 ```
+
 
 
 ## Categories

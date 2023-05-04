@@ -1,13 +1,14 @@
 ---
 date: 2023-04-06
 title: MOZ Links API, An Introduction
-permalink: /blog/moz-links-api-an-introduction/
 headline: Learn How to Use APIs with Python and the MOZ Links API
 description: As a Python programmer, I'm here to tell you about APIs and how to use them. I'll explain the MOZ Links API, GET and POST methods, JSON format, and Python dictionaries. Plus, I'll show you how to make a request using the requests library, and how to use the 'json.dumps' and 'json.loads' functions to convert a Python object into a JSON string. Read my blog post to learn more!
 keywords: API, MOZ Links API, GET, POST, JSON, Python, Dictionaries, Requests Library, Assignment, Equality, Keyword Parameters, Arguments, ACCESSID, SECRETKEY, AUTH_TUPLE, Endpoints, Jupyter Notebook
-categories: api, jupyter notebook, moz links api, python
+categories: python, jupyter notebook, api, moz links api
+permalink: /blog/moz-links-api-an-introduction/
 layout: post
 ---
+
 
 Hello World! Do you know what an API is? They're those things that you
 copy/paste long strange codes into ScreamingFrog for Links data on a crawl,
@@ -402,10 +403,11 @@ available endpoints to create a variety of useful deliverables, which will be
 the subject of articles to follow.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li></ul>

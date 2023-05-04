@@ -1,13 +1,14 @@
 ---
 date: 2022-12-28
 title: Analyzing the Karate Club 3D Node Graph
-permalink: /blog/analyzing-the-karate-club-3d-node-graph/
 headline: Creating a 3D Rotating Network Node Graph with Plotly and NetworkX
 description: I'm creating a 3D rotating shape from a website using Linux Jupyter on Windows. I'm analyzing the Karate Club 3D Node Graph and have written code to plot it. I'm exploring NetworkX, a Python library for creating and manipulating graphs, to create a networkx.classes.graph.Graph object and plotting nodes and edges in 3D space. I'm using Plotly to generate a 3D rotating network node graph with different colored nodes.
 keywords: Karate Club, 3D Node Graph, Linux, Jupyter, Windows, NetworkX, Python, Plotly, Graph, Nodes, Edges, Colors, Labels, Spring Layout, URLs, Links, Figure
-categories: linux, python, jupyter
+categories: python, labels, linux, jupyter, urls
+permalink: /blog/analyzing-the-karate-club-3d-node-graph/
 layout: post
 ---
+
 
 I'm pursuing a dream that I've had for awhile now to graph the data from a
 crawled website so that you can interact with it like a 3D rotating shape. This
@@ -406,9 +407,10 @@ fig.show()
 ```
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

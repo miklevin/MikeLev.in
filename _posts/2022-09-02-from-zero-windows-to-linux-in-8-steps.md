@@ -1,13 +1,14 @@
 ---
 date: 2022-09-02
 title: From Zero (Windows) to Linux In 8 Steps
-permalink: /blog/from-zero-windows-to-linux-in-8-steps/
 headline: Make the Switch from Windows to Linux with My 8 Step Video Series!
 description: I'm creating a series of videos to help people transition from Windows to Linux, covering topics such as uninstalling OneDrive, unpinning the taskbar, changing settings and personalization, turning off notifications and weather, and more. Plus, I'll show you what installing Linux on a Windows 10 computer looks like. Click through to find out more!
 keywords: Windows, Linux, Uninstalling, OneDrive, Taskbar, Settings, Personalization, Notifications, Weather, Installing, Tiles, Start Menu, Cortana, Keyboard Shortcuts, Virtual Desktops, Icons, Flow, Transition
-categories: flow, linux
+categories: linux, flow
+permalink: /blog/from-zero-windows-to-linux-in-8-steps/
 layout: post
 ---
+
 
 Okay, plan out this video series.
 
@@ -95,8 +96,9 @@ thus breaking out and blowing up on YouTube and other outlets.
 {% include youtubePlayer.html id="5DNtKVNqrno" %}
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/flow/'>Flow</a></h4></li></ul>

@@ -1,13 +1,14 @@
 ---
 date: 2022-12-11
 title: Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)
-permalink: /blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/
 headline: "Maximize Success with Best Foot Forward SEO: My Journey to BFF SEO Principles"
 description: I recently updated my publishing system to conform to Best Foot Forward (BFF) SEO principles. BFF SEO is the opposite of Long Tail SEO and involves fewer URLs with the best topics. I'm promoting the top-producers and making sure each page experience is the best it can be. Come read my blog post to learn more about how to maximize success with BFF SEO!
 keywords: BFF SEO, Long-Tail SEO, Fewer URLs, Hierarchical Site-Structure, Fewest but Best Topics, Promoting Top-Producers, Maximize Success, Page Experiences, Best they can be
 categories: 
+permalink: /blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/
 layout: post
 ---
+
 
 Okay, what can't I get across without just the main pages:
 
@@ -71,6 +72,7 @@ the experiences on each of those pages the best they can be.
 Hmmm. Let's jump on that ChatGPT bandwagon. Cut this blog post here and publish
 some stand-alone blog pages produced totally by ChatGPT, in complete
 contradiction to BFF SEO, haha!
+
 
 
 ## Categories

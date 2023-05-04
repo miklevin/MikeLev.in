@@ -1,13 +1,14 @@
 ---
 date: 2023-03-24
 title: Are Line of Sight Powered Robots With Scalable Neural Processing Possible?
-permalink: /blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/
 headline: Exploring the Depths of the Ocean with Line of Sight Powered Robots and Drones
 description: I recently asked Bing about the influential submarine designer Graham Hawkes, who is known for designing 70% of the crewed submersibles produced in the 1980s and 1990s. I then asked about his use of upside down lift designs and whether robots or drones can be equipped to send and receive power by line-of-sight transmission. Bing provided me with some answers, and I'm now exploring the depths of the ocean to find new species of fish and other sea creatures. Join me on my journey.
 keywords: Robots, Drones, Line-of-Sight, Power Transmission, Graham Hawkes, Submersibles, Upside Down Lift Designs, Deepest Trench, Ravine, Exploration, Scientists, Neural Node, Fish, Sea Creatures
 categories: 
+permalink: /blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/
 layout: post
 ---
+
 
 **Mike Levin:** Who is the influential submarine designer who uses upside down lift designs? I think his name is Graham Lawlor or something like that.
 
@@ -168,6 +169,7 @@ Is there anything else I can help you with?
 **Bing:** Once upon a time, there was a group of scientists who wanted to explore the depths of the ocean. They decided to use line of sight powered neural node robots or drones to explore the ocean floor. They linked two or more miles long chains together and interspersed new power sources on the chain to extend the range of the robots or drones. They were able to explore the depths of the ocean and discover new species of fish and other sea creatures.
 
 Is there anything else I can help you with?
+
 
 
 ## Categories

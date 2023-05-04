@@ -1,13 +1,14 @@
 ---
 date: 2022-07-30
 title: You Won't Be Using Windows in 5 Years
-permalink: /blog/you-won-t-be-using-windows-in-5-years/
 headline: "Prepare for the Future of Computing: Learn About Virtual Machines and Resource Isolation"
 description: As a tech-savvy individual, I'm warning myself to stay ahead of the curve and be aware of the future of computing. With software becoming obsolete quickly, I need to be informed about the concept of Virtual Machines, which is really about resource isolation. I'm also exploring the implications of this technology, which has been around for decades, in terms of performance and security. Read on to learn more.
 keywords: Windows, Virtual Machines, Resource Isolation, Performance, Security, *nix, Obsolete Software
 categories: security
+permalink: /blog/you-won-t-be-using-windows-in-5-years/
 layout: post
 ---
+
 
 If you really want to blow up here on YouTube (speaking to myself) without
 compromising yourself as one of those bombastic hyperbole algorithm chasers,
@@ -27,6 +28,7 @@ FORGET VMS
   - These tricks go back to 1967 (pre-Unix) and BCPL by Martin Richards in the UK
   - Unix was invented 1970, but around 1982 the "chroot" command formalized the
 - The rest is details pertaining to performance, security and the like.
+
 
 
 ## Categories

@@ -1,13 +1,14 @@
 ---
 date: 2022-10-26
 title: Bank a Win Then Figure Out How You Did It
-permalink: /blog/bank-a-win-then-figure-out-how-you-did-it/
 headline: "Embracing the Challenge of Tech: Banking a Win and Figuring It Out!"
 description: I'm not a natural linguist, but I'm determined to pursue a career in tech because of its precise language. Instead of relying on others to do the work for me, I'm investing my free time to become more comfortable with the language of technology. I'm banking a win and embracing the challenge, just like a Thanksgiving turkey!
 keywords: bank, win, linguist, tech, language, programming, computers, drive, servants, surrogate parents, indulging, Thanksgiving, turkey
 categories: 
+permalink: /blog/bank-a-win-then-figure-out-how-you-did-it/
 layout: post
 ---
+
 
 I do a lot of writing in SimpleNote in the bathtub and stuff that normally
 doesn't reach here. These are mostly unfinished pieces, but none-the-less would
@@ -75,6 +76,7 @@ you'll always have a ride because AI. If you look carefully at that situation,
 they're waiting for either servants or surrogate parents. They're trying to
 remain in a child-like state. A life of luxury, free time and fattening up like
 a Thanksgiving turkey.
+
 
 
 ## Categories

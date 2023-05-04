@@ -1,13 +1,14 @@
 ---
 date: 2023-03-04
 title: A Chat with ChatGPT About the Cancel Culture & Full-scroll Browser Snapshots
-permalink: /blog/a-chat-with-chatgpt-about-the-cancel-culture-full-scroll-browser-snapshots/
 headline: Exploring the Benefits of AI at Home and How to Capture Full-scroll Browser Snapshots with ChatGPT
 description: I discuss the potential of using AI at home with now cheap GPUs, exploring the improved efficiency, enhanced security, better health monitoring, and entertainment and education it can provide. Additionally, I explore potential ways to make money by promoting the ideas and benefits of AI at home, such as through affiliate marketing, advertising, consulting, and e-commerce. I also provide a code example of how to use Puppeteer or Playwright to capture the full vertical scroll.
 keywords: AI, Home, GPUs, Efficiency, Security, Health, Monitoring, Entertainment, Education, Money, Making, Promotion, Ideas, Benefits, Affiliate, Marketing, Advertising, Consulting, E-commerce, Linux, Windows, Services, SEO, Data Science, Automated, Email, Checking, Journal, Publishing, Hosting, JupyterLab, Python, .py, Scripts, Systemd, .service, Files, Movement, Competitive, Screenshot, Puppeteer, Play
-categories: publishing, systemd, python, ai, seo, security, linux, marketing, email, jupyterlab
+categories: python, scripts, email, jupyterlab, linux, publishing, security, systemd, seo, services, ai, marketing
+permalink: /blog/a-chat-with-chatgpt-about-the-cancel-culture-full-scroll-browser-snapshots/
 layout: post
 ---
+
 
 Home grown capabilities are are important to consider no matter how big and
 popular the cloud may become. This I believe may be seen in the rapid rise in
@@ -298,16 +299,17 @@ Furthermore, there may be legal and regulatory requirements that make it necessa
 Ultimately, whether public AIs that are required to abide by fair and transparent algorithms are at a disadvantage compared to other AIs will depend on the specific context and the goals of the AI system. However, it is generally believed that promoting transparency and accountability in AI development and deployment can help to build trust and ensure that these technologies are used in an ethical and responsible manner.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/security/'>Security</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/security/'>Security</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>

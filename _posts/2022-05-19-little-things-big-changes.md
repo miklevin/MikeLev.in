@@ -1,13 +1,14 @@
 ---
 date: 2022-05-19
 title: Little Things, Big Changes
-permalink: /blog/little-things-big-changes/
 headline: "Making Small Changes Day-by-Day: My Reflection and Writing Revisions"
 description: I'm reflecting on the idea of making small changes day-by-day rather than committing to long-term projects. I'm also revising and editing my writing style, and I'm excited to share something that isn't yet on the internet. Read my blog post to find out what it is and to learn more about making permanent changes in my life.
 keywords: Small Changes, Long-Term Projects, Writing Style, Revise, Edit, Permanent Changes, Life, Pictures, Insider, Internet
 categories: internet
+permalink: /blog/little-things-big-changes/
 layout: post
 ---
+
 
 Connecting the dots ain't easy. It takes a little work ever day. My latest
 thoughts is annihilating the concept of "project". ***Projects*** are too
@@ -66,6 +67,7 @@ of those insider "found it early / ahead of everyone else" sort of things.
 Or not. We'll see.
 
 ![Chicken Hawk From Foghorn Leghorn](/assets/images/chicken-hawk-from-foghorn-leghorn.jpg)
+
 
 ## Categories
 

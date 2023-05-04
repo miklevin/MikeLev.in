@@ -1,13 +1,14 @@
 ---
 date: 2022-08-26
 title: Plot The Awakening / Rig For YouTube Success
-permalink: /blog/plot-the-awakening-rig-for-youtube-success/
 headline: "Fight Chaos and Increase Focus: Learn How to Make the Command Line Interface Your New Home"
 description: I'm taking steps to fight chaos and increase my focus by switching apps with the taskbar, deleting everything from my start menu, hiding all alerts, and turning off my clock. In this series of quick videos, I'll be teaching viewers how to make the command line interface (CLI) their new home, starting with the best modern habits for focus and productivity. Additionally, I'll be discussing the mind control battle between Apple, Google, Microsoft, and Amazon.
 keywords: Plot, Awakening, Rig, YouTube, Success, Apps, Taskbar, Start Menu, Alerts, Clock, Command Line Interface, CLI, Focus, Productivity, Mind Control, Apple, Google, Microsoft, Amazon, Silicon Valley, Win+Left, Win+Right, Win+Tab, Agents of Chaos, Growth
-categories: youtube, google, focus, success, microsoft, productivity
+categories: microsoft, focus, productivity, youtube, success, google
+permalink: /blog/plot-the-awakening-rig-for-youtube-success/
 layout: post
 ---
+
 
 A micro-blip 1-min video every day. That'll give you time to edit. Also make it
 vertical format friendly for TikTok and such.
@@ -107,12 +108,13 @@ are not your friends. They fear your change from a static to a dynamic
 personality. Use it to identify those who fear your growth.
 
 
+
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/focus/'>Focus</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/productivity/'>Productivity</a></h4></li></ul>
+<li><h4><a href='/focus/'>Focus</a></h4></li>
+<li><h4><a href='/productivity/'>Productivity</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

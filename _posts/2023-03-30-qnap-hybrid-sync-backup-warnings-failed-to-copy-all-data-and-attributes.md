@@ -1,13 +1,14 @@
 ---
 date: 2023-03-30
 title: QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes
-permalink: /blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/
 headline: NAS Backup Fails Due to Unsupported Filenames - Read How I Fixed It!
 description: After experiencing a terrible headache, I decided to err on the side of caution and turn off the Copilot plugin for .txt files. I then noticed a warning that my NAS backup had failed to copy all data and attributes, and after logging in by SSH, I discovered the issue was with unsupported filenames. I resolved to fix it later - read my blog post to find out how!
 keywords: "QNAP, Hybrid Sync, Backup, Warnings, Failed, Copy, Attributes, Headache, Copilot, Plugin, .txt, Files, NAS, SSH, Unsupported, Filenames, Fix, Research, GitHub, Conversation, Caution, Sleep, 5:00, AM"
 categories: github, copilot
+permalink: /blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/
 layout: post
 ---
+
 
 Wow, yesterday I got a terrible headache around 4:00 PM and was out for the
 day. And I had big plans! But maybe need for sleep caught up with me, because I
@@ -50,6 +51,7 @@ So I'm constructing filenames that can't be backed up, almost definitely the
 colons in the filename. Okay, I can fix that later. Some things are not getting
 backed up, but that's not a problem for now. Not a priority. It's coming up on
 8:30 AM and I have my plans for the day.
+
 
 
 ## Categories
