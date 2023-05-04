@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)
+<br/>In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.</li>
 <li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
 <br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
@@ -80,4 +82,4 @@
 <li><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a> (Wed Feb 16, 2022)
 <br/>I'm using mlseo as a pip installable module to get the process of making packages into my fingers. I'm creating a package called mlseo which will include my latest techniques for pulling data from Google Analytics and Search Console. I'm setting up the settings.ini file and extracting the packages, and I'm following the nbdev instructions to install and create a Github personal access token. Come follow my journey and learn how to set up your own mlseo package!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/lxd/">LXD</a></div><div class="post-nav-next"><a href="/jekyll/">Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/jekyll/">Jekyll</a></div><div class="post-nav-next"><a href="/jupyterlab/">JupyterLab</a><span class="arrow">&nbsp;&rarr;</span></div></div>

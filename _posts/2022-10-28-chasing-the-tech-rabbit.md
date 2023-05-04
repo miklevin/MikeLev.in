@@ -4,7 +4,7 @@ title: Chasing The Tech Rabbit
 headline: "Exploring New Technology: Join Me on My Journey!"
 description: "Today, I'm trying something new by using vim :b2 for my personal journaling and creating videos to show the best experiences. I'm also creating something that would be useful to SEOs, exploring GPU utilization, CUDA and alternatives, and doing a JupyterLab demo. Join me on my journey and learn more about these topics!"
 keywords: vim, personal journaling, videos, SEOs, GPU utilization, CUDA, alternatives, JupyterLab, JupyterLab Server, portable switch army SEO product
-categories: vim, jupyterlab
+categories: jupyterlab, vim
 permalink: /blog/chasing-the-tech-rabbit/
 layout: post
 ---
@@ -35,5 +35,5 @@ the JupyterLab Server (on Linux) route.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

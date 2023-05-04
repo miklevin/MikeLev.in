@@ -2,7 +2,7 @@
 date: 2022-06-08
 title: Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)
 headline: "Thirty Years Later: Remembering Dad's Dreams and Taking Advantage of Life"
-description: 30 years ago today, my father Charles Levin passed away. I remember the Amiga computer dying and my mother's mental health declining, as well as my sister and her friend moving in. I was forced to take over my father's check cashing store and in the process, a man attempted to rob me and I shot him four times. I was charged for a crime and my career plans were ruined. I learned from my father not to take the advice of his uncles, who wanted him
+description: 30 years ago today, my father Charles Levin passed away. I remember the Amiga computer dying and my mother's mental health declining, as well as my sister and her friend moving in. I was forced to take over my father's check cashing store and in the process, a man attempted to rob me and I shot him four times. I was charged for a crime and my career plans were ruined. I learned from my father not to take the advice of his uncles.
 keywords: Charles Levin, 30th anniversary, Amiga computer, mental health, check cashing store, robbery, crime, textile industry, aeronautical engineer, IBM, Jews, Drexel, mechanical engineering, life, dreams, personal experience
 categories: 
 permalink: /blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/

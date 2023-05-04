@@ -4,7 +4,7 @@ title: (Re)Launch MikeLevinSEO.com on Github.io
 headline: Relaunching My Blog/Journal on Github.io - Join Me on This Journey!
 description: I'm excited to announce the relaunch of my blog/journal on Github.io! After finding the DNS, deleting records, and setting up the Github repository, I enabled Github Pages, added the domain to Github settings, and customized the template. To top it off, I added Google Analytics and Search Console tracking. Come check out my new blog and join me on this journey!
 keywords: Github.io, DNS, ANAME, CNAME, Github Pages, Domain, Google Analytics, Search Console, Relaunch, Blog, Journal, Template, Customize, Tracking, Journey
-categories: journey, github pages, google analytics, template
+categories: google analytics, journey, github pages, template
 permalink: /blog/re-launch-mikelevinseo-com-on-github-io/
 layout: post
 ---
@@ -65,7 +65,7 @@ goes something like this:
 ## Categories
 
 <ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/template/'>Template</a></h4></li></ul>

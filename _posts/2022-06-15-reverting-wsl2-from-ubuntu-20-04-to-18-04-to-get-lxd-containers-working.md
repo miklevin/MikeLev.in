@@ -2,9 +2,9 @@
 date: 2022-06-15
 title: Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working
 headline: "Learning New Technologies: Exploring WSL2, LXD, venv, virtualenv, tmux, screen, and Python"
-description: I recently explored the process of downgrading Ubuntu 20.04 to 18.04 under WSL2, as well as concepts such as LXD, venv, virtualenv, tmux, screen, and Python. I discussed the importance of good fixed-file-location habits, and how LXD is similar to venv/virtualenv in terms of packaging dependencies. I also compared Docker and LXD. To further my learning, I am dedicating my lunch break and free time to
+description: I recently explored the process of downgrading Ubuntu 20.04 to 18.04 under WSL2, as well as concepts such as LXD, venv, virtualenv, tmux, screen, and Python. I discussed the importance of good fixed-file-location habits, and how LXD is similar to venv/virtualenv in terms of packaging dependencies. I also compared Docker and LXD.
 keywords: WSL2, Ubuntu, 20.04, 18.04, LXD, Containers, venv, virtualenv, tmux, screen, Python, Good Habits, Packaging Dependencies, Docker, \*nix Commands, venv, virtualenv, Python, In-House SEO, Kubernetes, MySQL, PostgreSQL, Redis, MongoDB, Virtualenv, Python Standard Library
-categories: python, virtualenv, wsl2, 20.04, ubuntu, docker, lxd, containers
+categories: containers, lxd, python, 20.04, virtualenv, ubuntu, docker, wsl2
 permalink: /blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/
 layout: post
 ---
@@ -158,10 +158,10 @@ I'd be on venv full-time, except all sample code uses virtualenv
 ## Categories
 
 <ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/20-04/'>20.04</a></h4></li>
+<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>

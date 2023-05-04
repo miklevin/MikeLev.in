@@ -2,7 +2,7 @@
 date: 2022-06-21
 title: Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning
 headline: Experience Surprises & Learning Every Morning - Make Every Day Feel Like Xmas Morning!
-description: As an individual, I believe that every morning should be an opportunity to learn something new and experience surprises. We should be able to identify symbols of meaning and feelings, and have the ability to uncover what motivates us. Unfortunately, the gap between the haves and have-nots is widening, making it difficult to stay at the top or bottom of the hierarchy. To lead a stress-free life, I suggest staying in the middle. Come read my blog post for more insights on how to
+description: As an individual, I believe that every morning should be an opportunity to learn something new and experience surprises. We should be able to identify symbols of meaning and feelings, and have the ability to uncover what motivates us. Unfortunately, the gap between the haves and have-nots is widening, making it difficult to stay at the top or bottom of the hierarchy. To lead a stress-free life, I suggest staying in the middle.
 keywords: morning, Xmas, surprises, learning, symbols, meaning, feelings, motivates, gap, haves, have-nots, hierarchy, stress-free, life, insights, recognize, discover, drives, information, population, growth, ratio, top, bottom, middle
 categories: learning
 permalink: /blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/

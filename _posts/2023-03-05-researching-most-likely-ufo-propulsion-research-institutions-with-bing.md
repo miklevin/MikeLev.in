@@ -4,7 +4,7 @@ title: Researching Most Likely UFO Propulsion Research Institutions With Bing
 headline: Exploring the 2004 Nimitz TicTac UAP Incident to Uncover the Truth
 description: I'm researching the 2004 Nimitz TicTac UAP incident and exploring explanations that adhere to Occam's Razor. From secret military aircraft or drones to optical illusions or natural phenomena, I'm investigating the forms of propulsion that could be used in a UAP. I'm also looking into scientific institutions, companies, and universities that have the resources to design propulsion systems, as well as potential candidates for research related to antigravity and propulsion.
 keywords: Research, UFO, Propulsion, Institutions, Bing, Nimitz, TicTac, UAP, Occam's Razor, Military, Aircraft, Drones, Optical Illusions, Natural Phenomena, Design, Antigravity, UCF, Purdue, NASA Langley, UC Berkeley, MIT, Princeton, Lockheed Martin, Boeing, Northrop Grumman, JPL, DARPA, Texas, New York, Long Island, UT Dallas, TSU, UT Austin,
-categories: ufo, bing
+categories: bing
 permalink: /blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/
 layout: post
 ---
@@ -210,5 +210,4 @@ Source: Conversation with Bing, 3/5/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/ufo/'>UFO</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li></ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)
+<br/>In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)
 <br/>I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.</li>
 <li><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a> (Sun Apr 09, 2023)
@@ -16,4 +18,4 @@
 <li><a href="/blog/using-gnu-screen-to-monitor-linux-system-daemon-service/">Using GNU Screen to Monitor Linux System Daemon Service</a> (Fri Jul 29, 2022)
 <br/>Learn how to install Linux on Windows machines and get Linux services running under GNU Screen under an LXD Container. Discover the advantages of mastering generic Linux tech over web development and how to get started. I provide an example of a Python script to monitor a Linux system daemon service, and I walk you through the steps for installing Ubuntu 18.04, updating the file /etc/systemd/system/pulse.service, installing the program screen.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/label/">Labels</a></div><div class="post-nav-next"><a href="/strategy/">Strategy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google photos/">Google Photos</a></div><div class="post-nav-next"><a href="/nodejs/">NodeJS</a><span class="arrow">&nbsp;&rarr;</span></div></div>

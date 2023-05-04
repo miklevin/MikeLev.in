@@ -1,4 +1,8 @@
 <ol>
+<li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
+<br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
+<li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)
+<br/>In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)
 <br/>I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.</li>
 <li><a href="/blog/testing-auto-publish-prevention-when-ai-has-written-fields/">Testing Auto-Publish Prevention When AI Has Written Fields</a> (Sat Apr 29, 2023)
@@ -18,4 +22,4 @@
 <li><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a> (Mon Apr 17, 2023)
 <br/>I'm working to fix OpenAI keyword problems by writing code to recognize text that doesn't match the keyword format, handling commas inside quotes, and creating histograms. I've used this code to re-write the database of keywords for my blog, validate YAML in Python without Jekyll, and create category pages and navigation. I'm committed to developing a code that can consistently format keywords.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/math/">Math</a></div><div class="post-nav-next"><a href="/habit/">Habits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/learning/">Learning</a></div><div class="post-nav-next"><a href="/headline/">Headlines</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
+<br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)
 <br/>I'm a 52-year-old technology generalist who has been exploring the noosphere, the world of ideas and creativity. I've been building up my internal tools, such as Linux, Python, vim and git, to create potential. I'm now combining YAML and Markdown to create a 1-text-file journaling system that is more flexible and intuitive than other solutions. I'm exploring the power of text, and how it can be transformed and used to create something meaningful.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
@@ -80,4 +82,4 @@
 <li><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a> (Thu Aug 5, 2021)
 <br/>MikeLevinSEO shares his strategy for publishing a book, including his plan to use Jekyll and switch his domains from GoDaddy to NameCheap. He explains how he prioritizes his work using three metaphors, and shares his plan to use mikelevinseo.com as his domain name. Follow MikeLevinSEO's journey as he embarks on his book publishing adventure!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/github/">Github</a></div><div class="post-nav-next"><a href="/jupyterlab/">JupyterLab</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/lxd/">LXD</a></div><div class="post-nav-next"><a href="/github/">Github</a><span class="arrow">&nbsp;&rarr;</span></div></div>

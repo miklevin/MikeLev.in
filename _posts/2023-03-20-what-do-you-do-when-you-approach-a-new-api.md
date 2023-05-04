@@ -4,7 +4,7 @@ title: What do you do when you approach a new API?
 headline: "Exploring a New API: My Journey to Find Answers"
 description: As I explore a new API, I have many questions to answer. I need to know the protocols, endpoints, versions, methods, login process, API reference guide, client libraries, batch requests, paged responses, quota handling, and more. I'm taking you through my journey to get the answers I need. Join me in exploring this new API!
 keywords: API, Protocols, Endpoints, Versions, Methods, Login Process, API Reference Guide, Client Libraries, Batch Requests, Paged Responses, Quota Handling, HTTP, HTTPS, GET, POST, Non-Logged-in Services, Strange, Unique Features
-categories: versions, api
+categories: api, versions
 permalink: /blog/what-do-you-do-when-you-approach-a-new-api/
 layout: post
 ---

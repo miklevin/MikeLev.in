@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
+<br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)
 <br/>I have moved the 1-long-page version of my journal.md file to the `_drafts` folder, allowing me to keep posts unpublished without giving them a yaml title. This is a great way to keep posts out of Github publishing space, while still allowing them to be sliced & diced.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
@@ -14,4 +16,4 @@
 <li><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a> (Fri Aug 20, 2021)
 <br/>I'm developing new habits to become an expert in technical moves and live-streaming. To make sure nothing proprietary is shared, I'm setting up hotkeys and testing embedding YouTube videos in my Github.io pages. I'm also creating mikelevinseo.com as a place to write about topics instead of my main journal. Click through to read more about my journey.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nyc/">NYC</a></div><div class="post-nav-next"><a href="/human/">Human</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div><div class="post-nav-next"><a href="/label/">Labels</a><span class="arrow">&nbsp;&rarr;</span></div></div>

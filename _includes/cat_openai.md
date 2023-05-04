@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
+<br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a> (Tue May 02, 2023)
 <br/>Learn how I used the OpenAI Codex API to optimize my articles for website navigation. I found `pip instal tiktoken` and code snippets to count tokens and chop back my input with rsplit to fit the maximum context length of 4097 tokens.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
@@ -52,4 +54,4 @@
 <li><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines/">Don't Miss My Talk with OpenAI about clickbait headlines!</a> (Fri Dec 02, 2022)
 <br/>On December 2, 2022, I will be giving a talk with OpenAI about clickbait headlines and the top 100 clickbait headlines I have compiled. I will also discuss why writing headlines that accurately describe the content of an article is a better strategy, as well as the benefits of keeping a journal, such as increased self-awareness, improved mental health, stress reduction, enhanced problem solving skills, and better communication skills. Finally, I will explain how Vim is a powerful and flexible text editor.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/api/">API</a></div><div class="post-nav-next"><a href="/url/">URLs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/jupyter/">Jupyter</a></div><div class="post-nav-next"><a href="/container/">Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>

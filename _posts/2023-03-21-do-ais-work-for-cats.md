@@ -4,7 +4,7 @@ title: Do AIs Work For Cats?
 headline: "Exploring the Complex Relationship Between Cats and Humans: AI, Politics, Religion, and More"
 description: This blog post explores the fascinating world of cats, AI, and the controversial topics of politics, religion, social justice, climate change, and animal rights. Through conversations with ChatGPT-4, I investigate the complex relationship between cats and humans, the top 10 most famous fish, and the top five most mysterious fish. I also explore the natural predators of aye-ayes, platypuses, narwhals, okapis, and axolotls.
 keywords: AI, Cats, Politics, Religion, Social Justice, Climate Change, Animal Rights, ChatGPT-4, Humans, Evolution, Toxoplasmosis, Cat Language, Fish, Anglerfish, Gulper Eel, Oarfish, Coelacanth, Goblin Shark, African Elephant, Grizzly Bear, Siberian Tiger, Gorilla, Polar Bear, Aye-Aye, Platypus, Narwhal, Okapi, Axolotl, Natural Selection,
-categories: humans, evolution, ai, cats
+categories: cats, evolution, ai, humans
 permalink: /blog/do-ais-work-for-cats/
 layout: post
 ---
