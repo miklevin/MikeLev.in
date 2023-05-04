@@ -6,9 +6,9 @@
 <li><a href="/git/">Git</a></li>
 <li><a href="/seo/">SEO</a></li>
 <li><a href="/microsoft/">Microsoft</a></li>
-<li><a href="/youtube/">YouTube</a></li>
 <li><a href="/script/">Script</a></li>
 <li><a href="/wsl/">WSL</a></li>
+<li><a href="/youtube/">YouTube</a></li>
 <li><a href="/lxd/">LXD</a></li>
 <li><a href="/github/">Github</a></li>
 <li><a href="/jekyll/">Jekyll</a></li>
@@ -54,13 +54,13 @@
 <li><a href="/macro/">Macro</a></li>
 <li><a href="/copilot/">Copilot</a></li>
 <li><a href="/learning/">Learning</a></li>
-<li><a href="/coding/">Coding</a></li>
 <li><a href="/headline/">Headlines</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
 <li><a href="/80-20-rule/">80/20-rule</a></li>
 <li><a href="/sqlite/">SQLite</a></li>
 <li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/docker/">Docker</a></li>
+<li><a href="/coding/">Coding</a></li>
 <li><a href="/open-source/">Open Source</a></li>
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>

@@ -5,7 +5,7 @@ permalink: /blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/
 headline: Master Machines and Express Your Inner Vibe - Don't Lose the Power of Touch Typing!
 description: As a tech enthusiast, I believe that touch typing on a standard keyboard is still an important skill to learn and practice, even in the age of smartphones and AI. Touchscreens can't provide the same muscle memory as a standard keyboard, and touch typing is a great way to express your inner vibe. Don't let the power of touch typing be lost - learning this highly useful skill is key to mastering machines and taking control of your life.
 keywords: Touch Typing, Standard Keyboard, Smartphones, AI, Voice Recognition, Muscle Memory, Shifting Layouts, Fundamentals, Control, Master Machines, Express Inner Vibe
-categories: muscle memory, ai
+categories: ai, muscle memory
 layout: post
 ---
 
@@ -82,5 +82,5 @@ That's like arguing to stay a baby.
 ## Categories
 
 <ul>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>

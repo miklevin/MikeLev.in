@@ -5,7 +5,7 @@ permalink: /blog/internalizing-tools-through-eepigenetics/
 headline: Learning to Embrace My Environment Through Tools and Eepigenetics
 description: This article reflects on my journey in life, discussing the concept of epigenetics and Mike Levin, a microbiologist who shares my name and is a hero of mine. I explore my experiences in life, including falling victim to shortcut-seekers and narcissists, and how I am learning to make sure I don't lose myself to someone else. I have embraced my environment by finding my tools, and have realized the importance of incorporating VSCode into my DNA. I discuss the power of text editors.
 keywords: Epigenetics, Mike Levin, Shortcut-Seekers, Narcissists, VSCode, Text Editors, Journal, Proto-Intelligence, Free Will, Random Circumstance, Hand, Game of Life, Foam, Glass, Time, Vulnerability, Change, Platform, Web Browser, NodeJS, Server, Vi, Linux, Vim, Python, JavaScript
-categories: linux, python, javascript, vim, nodejs, vscode, change, platform
+categories: change, vim, nodejs, linux, javascript, platform, vscode, python
 layout: post
 ---
 
@@ -225,11 +225,11 @@ of JavaScript, the one language to rule them all.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/platform/'>Platform</a></h4></li>
 <li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/platform/'>Platform</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

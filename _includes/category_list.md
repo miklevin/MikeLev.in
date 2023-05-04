@@ -1,7 +1,7 @@
 
 [Python](/python/) | [Linux](/linux/) | [Vim](/vim/) | [AI](/ai/) | 
-[Git](/git/) | [SEO](/seo/) | [Microsoft](/microsoft/) | [YouTube](/youtube/) | 
-[Script](/script/) | [WSL](/wsl/) | [LXD](/lxd/) | [Github](/github/) | 
+[Git](/git/) | [SEO](/seo/) | [Microsoft](/microsoft/) | [Script](/script/) | 
+[WSL](/wsl/) | [YouTube](/youtube/) | [LXD](/lxd/) | [Github](/github/) | 
 [Jekyll](/jekyll/) | [JupyterLab](/jupyterlab/) | [Journey](/journey/) | [Journaling](/journaling/) | 
 [Jupyter](/jupyter/) | [Container](/container/) | [API](/api/) | [OpenAI](/openai/) | 
 [URLs](/url/) | [WSL2](/wsl2/) | [ChatGPT](/chatgpt/) | [NeoVim](/neovim/) | 
@@ -12,9 +12,9 @@
 [Windows 11](/windows-11/) | [Mac](/mac/) | [Notebook](/notebook/) | [nbdev](/nbdev/) | 
 [Google Analytics](/google-analytics/) | [Terminal](/terminal/) | [Platform](/platform/) | [Pandas](/panda/) | 
 [Service](/service/) | [Keywords](/keywords/) | [Experiment](/experiment/) | [Search](/search/) | 
-[Macro](/macro/) | [Copilot](/copilot/) | [Learning](/learning/) | [Coding](/coding/) | 
-[Headlines](/headline/) | [Browser Automation](/browser-automation/) | [80/20-rule](/80-20-rule/) | [SQLite](/sqlite/) | 
-[Consciousness](/consciousness/) | [Docker](/docker/) | [Open Source](/open-source/) | [Success](/success/) | 
+[Macro](/macro/) | [Copilot](/copilot/) | [Learning](/learning/) | [Headlines](/headline/) | 
+[Browser Automation](/browser-automation/) | [80/20-rule](/80-20-rule/) | [SQLite](/sqlite/) | [Consciousness](/consciousness/) | 
+[Docker](/docker/) | [Coding](/coding/) | [Open Source](/open-source/) | [Success](/success/) | 
 [Skills](/skill/) | [Google Photos](/google-photos/) | [NodeJS](/nodejs/) | [Proprietary](/proprietary/) | 
 [Focus](/focus/) | [Changes](/change/) | [Math](/math/) | [YAML](/yaml/) | 
 [Habits](/habit/) | [Template](/template/) | [Microsoft Playwright](/microsoft-playwright/) | [MOZ Pro](/moz-pro/) | 

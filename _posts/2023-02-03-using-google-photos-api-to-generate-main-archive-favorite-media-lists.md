@@ -5,7 +5,7 @@ permalink: /blog/using-google-photos-api-to-generate-main-archive-favorite-media
 headline: Creating Easier Access to Google Photos API with Python Functions
 description: I'm using Google Photos API to generate three databases - 'all', 'main', and 'favorites' - and an 'archive' database. I'm using Python functions to query the API, store the results, and create custom labeled tuples with a start date and end date. I'm also chunking the project into week-by-week chunks, making it easier to manage. This code provides a way to make the code clearer and easier to understand.
 keywords: Google Photos API, Generate, Main, Archive, Favorite, Media Lists, Python, Query, Store, Results, Create, Custom, Labeled, Tuples, Start Date, End Date, Chunking, Project, Manage, Code, Clearer, Understand, Database, Input Values, Pickled Format, SQLite, Week-by-Week, Namedtuple, Splat, Query-Writing, Function, Labels, Meaning, Table
-categories: python, sqlite, database
+categories: database, python, sqlite
 layout: post
 ---
 
@@ -307,6 +307,6 @@ Wow such a small piece of outer loop code and so much it accomplishes.
 ## Categories
 
 <ul>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>

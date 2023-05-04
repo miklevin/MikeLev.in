@@ -5,7 +5,7 @@ permalink: /blog/re-railing-yourself-after-getting-derailed-in-life/
 headline: My Journey from Derailed to Re-Railing Myself with Timeless Tools and AI Assistance
 description: At 52 years old, I've figured out how to re-rail myself and avoid getting derailed in life. I've gone through 10 years or 10,000 hours of attaining spontaneous mastery and expertise, and I'm now using tools like Linux, Python, vim & git to create applications that have an eternal life. My system, YAMLchop, focuses on journaling into one single text file, using title tags to decide what gets published and using OpenAI to write headlines and metas.
 keywords: Re-Railing, Derailed, Circumstances, 16, 18, 25, Career, Vice President, Public Relations, Amazon.com, Pisher, NYC, Rat Race, Eight Ball, Chasing Tail, Hamster Wheel, Operating Systems, Windows 10, Windows 11, Designed Obsolescence, Lightbulb, Laptop, Mobile Phone, Programming Languages, Platforms, Lock-In, Active Server Pages, Cold Fusion, Flash, Java, Ruby on Rails, Node
-categories: nyc, windows 10, windows 11
+categories: nyc, windows 11, windows 10
 layout: post
 ---
 
@@ -175,5 +175,5 @@ basic Github developer account. You can even do it on the free Github version.
 
 <ul>
 <li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>

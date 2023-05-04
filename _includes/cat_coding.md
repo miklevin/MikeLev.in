@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/timeline-of-bing-and-bard-features/">Timeline of Bing and Bard Features</a> (Wed May 03, 2023)
-<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
 <br/>This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.</li>
 <li><a href="/blog/designing-yamlesque-post-generator-api/">Designing YAMLesque Post Generator API</a> (Sat Apr 22, 2023)
@@ -22,4 +20,4 @@
 <li><a href="/blog/gutting-dependencies-out-of-your-projects-life/">Gutting Dependencies Out Of Your Projects & Life</a> (Mon Jun 20, 2022)
 <br/>Today, I'm using Juneteenth as a day off from work to get some stuff done. I'm severing the dependency on Github Pages templates from my Jekyll static site generator and gradually getting better at coding. After making changes to the CSS file and deleting an import line, I inspected the cached CSS and transposed bits I wanted to keep. After publishing the page, the background turned white and the text and links were a more traditional color. Join me on my journey to becoming a better</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/learning/">Learning</a></div><div class="post-nav-next"><a href="/headline/">Headlines</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/docker/">Docker</a></div><div class="post-nav-next"><a href="/open source/">Open Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>

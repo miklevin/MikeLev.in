@@ -5,7 +5,7 @@ permalink: /blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/
 headline: Exploring the Challenges and Solutions of LXD on WSL2 as an Early Adopter
 description: As an early adopter of LXD on WSL2, I've encountered confusion between LXD and Docker, downgraded tutorials to Ubuntu 18.04, confirmed LXD requires systemd, tested to see if it is running, and encountered network context issues. I have also found various approaches to solve them. Join me as I explore the challenges and solutions of LXD on WSL2.
 keywords: LXD, WSL2, Early Adopter, Confusion, Docker, Ubuntu 18.04, Systemd, Running, Network Context, Challenges, Solutions
-categories: docker, wsl2, systemd, lxd
+categories: docker, lxd, systemd, wsl2
 layout: post
 ---
 
@@ -84,6 +84,6 @@ I am feeling bleeding edge pain of early adopters.
 
 <ul>
 <li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>
