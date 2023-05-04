@@ -5,7 +5,7 @@ permalink: /blog/a-chat-with-chatgpt-about-the-cancel-culture-full-scroll-browse
 headline: Exploring the Benefits of AI at Home and How to Capture Full-scroll Browser Snapshots with ChatGPT
 description: I discuss the potential of using AI at home with now cheap GPUs, exploring the improved efficiency, enhanced security, better health monitoring, and entertainment and education it can provide. Additionally, I explore potential ways to make money by promoting the ideas and benefits of AI at home, such as through affiliate marketing, advertising, consulting, and e-commerce. I also provide a code example of how to use Puppeteer or Playwright to capture the full vertical scroll.
 keywords: AI, Home, GPUs, Efficiency, Security, Health, Monitoring, Entertainment, Education, Money, Making, Promotion, Ideas, Benefits, Affiliate, Marketing, Advertising, Consulting, E-commerce, Linux, Windows, Services, SEO, Data Science, Automated, Email, Checking, Journal, Publishing, Hosting, JupyterLab, Python, .py, Scripts, Systemd, .service, Files, Movement, Competitive, Screenshot, Puppeteer, Play
-categories: linux, seo, ai, security, publishing, systemd, email, python, jupyterlab, marketing
+categories: seo, security, jupyterlab, systemd, ai, publishing, python, marketing, email, linux
 layout: post
 ---
 
@@ -301,13 +301,13 @@ Ultimately, whether public AIs that are required to abide by fair and transparen
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/security/'>Security</a></h4></li>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/email/'>Email</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

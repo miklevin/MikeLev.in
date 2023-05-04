@@ -5,7 +5,7 @@ permalink: /blog/testing-auto-publish-prevention-when-ai-has-written-fields/
 headline: Ensure AI-Written Content is Reviewed
 description: Test out my new auto-publish prevention system when AI has written fields. I'm doing one release before giving this a title as a control, and making sure the system works. This is a small article release, and I may delete it.
 keywords: AI, Journaling, System, Tweaking, Bowling, Weekend, Release, Summarize, Questions, Article, YAML, Source, File, Review, Control, Title
-categories: ai, journaling, yaml
+categories: yaml, ai, journaling
 layout: post
 ---
 
@@ -33,6 +33,6 @@ working. Now give it a title.
 ## Categories
 
 <ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

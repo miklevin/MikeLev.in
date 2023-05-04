@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: microsoft, youtube, chatgpt, ai, bing, coding
+categories: youtube, coding, microsoft, chatgpt, ai, bing
 layout: post
 ---
 
@@ -111,10 +111,10 @@ allows copy/paste of the "Markdown" of the chat ***including the
 citation-links*** was there right from the time of early access release. 
 
 This was very well thought-out and executed from the start, instantly won me
-over from the start as very generously giving out Web traffic countering
-perhaps one of the greatest concerns, and struck me very much as an
-implementation worth of Google. It alleviated many concerns gnawing at SEOs
-that a chat interface to search could mean the end of referral traffic.
+over, as it was generously giving out Web traffic countering perhaps one of the
+greatest concerns, and struck me very much as an implementation worth of
+Google. It alleviated many concerns gnawing at SEOs that a chat interface to
+search could mean the end of referral traffic.
 
 Another big "out of the gate" feature that surprised a lot of people and has
 become a cornerstone of The New Bing is the ability to "code" in the chat
@@ -368,9 +368,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

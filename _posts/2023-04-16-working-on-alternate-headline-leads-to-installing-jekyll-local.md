@@ -5,7 +5,7 @@ permalink: /blog/working-on-alternate-headline-leads-to-installing-jekyll-local/
 headline: "AI Powers My Content Production: Installing Jekyll Local to Diagnose Liquid Template Issues"
 description: I'm a 52 year old working for MOZ SEO Software, using AI to capture ideas, distill them, and turn them into something accessible for all. I'm also using AI to edit my videos and stand out from the 8 billion other people in the world. Recently, I've been writing a program to format blog posts by running a Linux git command that hits the OpenAI API for topics, meta descriptions and better headlines. You are looking at the results.
 keywords: MOZ, SEO, Software, AI, Videos, OpenAI, Jekyll, Liquid, Templates, Journal.md, Post.date, Title, Slug, Permalink, Chopchop.py, Delete_me, Parse, Write, Index, Page, Countdown, List, Push, Github, Repository
-categories: seo, journal.md, github, ai, jekyll, openai, moz
+categories: seo, jekyll, journal.md, ai, openai, moz, github
 layout: post
 ---
 
@@ -542,9 +542,9 @@ fig("Done")
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li></ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>
