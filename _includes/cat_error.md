@@ -12,4 +12,4 @@
 <li><a href="/blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/">Trying Again To Get LXD Working Under Microsoft Subsystem For Linux</a> (Tue Jun 14, 2022)
 <br/>I'm determined to get LXD running under Microsoft Subsystem for Linux, and I'm not giving up! I've followed the official instructions and attempted to create a new storage pool, but I keep running into errors. To document my journey, I'm creating a new video - join me as I work to make this work!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/journal.md/">Journal.md</a></div> &nbsp; <div class="post-nav-next"><a href="/imposter syndrome/">Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/journal-md/">Journal.md</a></div> &nbsp; <div class="post-nav-next"><a href="/imposter-syndrome/">Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -12,4 +12,4 @@
 <li><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a> (Wed Jun 22, 2022)
 <br/>I'm Mic Lovin' and I'm here to share the redemption arc of The Wizard of Oz from L. Frank Baum's fourteen-book series. Join me as I explore how Dorothy and Ozma's coming of age adventures shape them into dynamic personalities, while The Wizard learns real magic from Glinda the Good Witch of The North. Follow my journey as I create my own story arc and learn from the Good Linux of the GNUrth.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/windows subsystem/">Windows Subsystem</a></div> &nbsp; <div class="post-nav-next"><a href="/easy/">Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/windows-subsystem/">Windows Subsystem</a></div> &nbsp; <div class="post-nav-next"><a href="/easy/">Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>

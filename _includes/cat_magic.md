@@ -12,4 +12,4 @@
 <li><a href="/blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/">What I Want To Offer The World Doesn't Align With Existing YouTube Search</a> (Fri Jun 10, 2022)
 <br/>I'm offering something new to the world: hand and finger magic tricks that I learned from my mailman. I'm targeting adults aged 25 to 44, and I want to help them grab skills for life. My YouTube analytics show that I have a large female audience and I'm now using my knowledge to become a pied piper of a new generation. Come join me and learn valuable knowledge that will help you future-proof your skills.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/quantum/">Quantum</a></div> &nbsp; <div class="post-nav-next"><a href="/muscle memory/">Muscle Memory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/quantum/">Quantum</a></div> &nbsp; <div class="post-nav-next"><a href="/muscle-memory/">Muscle Memory</a><span class="arrow">&nbsp;&rarr;</span></div></div>

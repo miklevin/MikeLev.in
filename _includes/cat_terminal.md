@@ -26,4 +26,4 @@
 <li><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a> (Fri May 20, 2022)
 <br/>Today, I heard a thought-provoking poem by Mike Levin about the two types of Pied Pipers - the Falsey and the FLOSSy - and the consequences of choosing which one to follow. It could be a Chromium swiper or a Terminal typer, and it will decide whether you are sealed or free. I invite you to read my blog post to learn more about this fascinating poem.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google analytics/">Google Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/platform/">Platform</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google-analytics/">Google Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/platform/">Platform</a><span class="arrow">&nbsp;&rarr;</span></div></div>

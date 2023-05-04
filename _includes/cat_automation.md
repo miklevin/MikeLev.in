@@ -42,4 +42,4 @@
 <li><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav/">Adding the Who, What, Why, When, Where & How To Site Nav</a> (Tue Jun 28, 2022)
 <br/>I'm proposing a new way to manage life as a whole, by creating and automating tasks to be internalized and passed onto muscle memory. To help with this, I'm suggesting the use of Linux, Python, vim & git. I've added the Who, What, Why, When, Where & How to my website's navigation, and I'm now working on creating the pages to go along with it. Come find out more about my revolutionary idea and how it can help you manage life.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/ubuntu/">Ubuntu</a></div> &nbsp; <div class="post-nav-next"><a href="/github pages/">Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/ubuntu/">Ubuntu</a></div> &nbsp; <div class="post-nav-next"><a href="/github-pages/">Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
