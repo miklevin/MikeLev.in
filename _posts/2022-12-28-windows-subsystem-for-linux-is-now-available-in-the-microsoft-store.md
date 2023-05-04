@@ -4,7 +4,7 @@ title: Windows Subsystem for Linux is now available in the Microsoft Store!
 headline: Upgrade to WSL Now! Get the Latest Updates and Faster Performance from the Microsoft Store.
 description: Upgrade to Windows Subsystem for Linux now available in the Microsoft Store! Get the latest updates and faster performance with 'wsl.exe --update' or a visit to the Microsoft Store page. For more information, visit the Microsoft Store info page to learn how to get the most out of WSL.
 keywords: Windows, Subsystem, Linux, Microsoft, Store, Upgrade, Update, WSL, Installing, Latest, Performance, Information, Visit, Installing, Upgrade
-categories: microsoft, wsl, linux
+categories: wsl, linux, microsoft
 permalink: /blog/windows-subsystem-for-linux-is-now-available-in-the-microsoft-store/
 layout: post
 ---
@@ -23,6 +23,6 @@ You will see this. It is good. Take it's advice.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/timeline-of-bing-and-bard-features/">Timeline of Bing and Bard Features</a> (Wed May 03, 2023)
-<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
 <br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
 <li><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a> (Sat Apr 08, 2023)

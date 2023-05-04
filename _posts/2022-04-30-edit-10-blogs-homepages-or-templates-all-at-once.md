@@ -4,7 +4,7 @@ title: Edit 10 Blogs, Homepages or Templates All At Once
 headline: "Breathing New Life into MikeLev.in: Creating a layouts Folder and Using Helper-Scripts to Edit Files"
 description: I'm breathing new life into MikeLev.in, creating a \_layouts folder in each repo with a default.html file to get my Google Analytics code on each site. I've also created helper-scripts to edit all my site-files at once and am putting rudimentary site-navigation links in place. I'm considering switching gears to make it about previous/next blog, so stay tuned for more updates!
 keywords: Edit, Blogs, Homepages, Templates, MikeLev.in, \_layouts, default.html, Google Analytics, helper-scripts, site-files, site-navigation, previous/next blog
-categories: google analytics, homepages, templates
+categories: templates, homepages, google analytics
 permalink: /blog/edit-10-blogs-homepages-or-templates-all-at-once/
 layout: post
 ---

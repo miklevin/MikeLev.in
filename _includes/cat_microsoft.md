@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/timeline-of-bing-and-bard-features/">Timeline of Bing and Bard Features</a> (Wed May 03, 2023)
-<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)
