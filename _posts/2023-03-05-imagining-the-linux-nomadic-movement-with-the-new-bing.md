@@ -4,7 +4,7 @@ title: Imagining The Linux Nomadic Movement With The New Bing
 headline: Experience the Freedom, Flexibility and Stability of Linux with Vim - Join the Linux Nomadic Movement!
 description: As a developer who values speed, productivity and ergonomics, I have been using Vim since 1976 and it has proven to be a reliable and robust tool. With a large and active community that provides support, documentation and plugins for various purposes, Vim offers advantages over VSCode, such as rapid key sequences, not requiring arrow keys, and performing complex operations with minimal keystrokes. Join me in the Linux nomadic movement.
 keywords: Vim, VSCode, Text Editing, Linux, Unix, Command-line, JupyterLab, Windows, Mac, Productivity, Ergonomics, Speed, Flexibility, Stability, GPL, Cross-Platform, Automation, Scripts, Compatibility, Long-Term, Free, Open-Source, Telemetry, Extensions, Key Sequences, Arrow Keys, Complex Operations, Documentation, Plugins
-categories: vim, jupyterlab, unix, productivity, scripts, vscode, command-line, linux, automation, mac
+categories: automation, linux, mac, unix, vim, jupyterlab, vscode, scripts, command-line, productivity
 permalink: /blog/imagining-the-linux-nomadic-movement-with-the-new-bing/
 layout: post
 ---
@@ -270,16 +270,16 @@ Source: Conversation with Bing, 3/4/2023
     (3) Vim vs VS Code | The Ultimate face-off | Programmer Hat. https://www.programmerhat.com/vim-vs-vscode/ Accessed 3/4/2023.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/starting-to-discuss-embrace-displace-with-bing">Starting to discuss Embrace & Displace with Bing</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-new-bing-as-science-news-source">Exploring New Bing as Science News Source</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-new-bing-as-science-news-source">Exploring New Bing as Science News Source</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-discuss-embrace-displace-with-bing">Starting to discuss Embrace & Displace with Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/productivity/'>Productivity</a></h4></li>
 <li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
+<li><h4><a href='/productivity/'>Productivity</a></h4></li></ul>

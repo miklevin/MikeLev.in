@@ -4,7 +4,7 @@ title: What do you do when you approach a new API?
 headline: "Exploring a New API: My Journey to Find Answers"
 description: As I explore a new API, I have many questions to answer. I need to know the protocols, endpoints, versions, methods, login process, API reference guide, client libraries, batch requests, paged responses, quota handling, and more. I'm taking you through my journey to get the answers I need. Join me in exploring this new API!
 keywords: API, Protocols, Endpoints, Versions, Methods, Login Process, API Reference Guide, Client Libraries, Batch Requests, Paged Responses, Quota Handling, HTTP, HTTPS, GET, POST, Non-Logged-in Services, Strange, Unique Features
-categories: api, versions
+categories: versions, api
 permalink: /blog/what-do-you-do-when-you-approach-a-new-api/
 layout: post
 ---
@@ -54,7 +54,7 @@ time to time over the years. So log in under your old account and poke around.
 Consider doing a live session actually using the API screen-sharing.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious">Is This Jungian Insights Into Bing's Subconscious?</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-ais-work-for-cats">Do AIs Work For Cats?</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-ais-work-for-cats">Do AIs Work For Cats?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious">Is This Jungian Insights Into Bing's Subconscious?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

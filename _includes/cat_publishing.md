@@ -16,4 +16,4 @@
 <li><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a> (Fri Aug 20, 2021)
 <br/>I'm developing new habits to become an expert in technical moves and live-streaming. To make sure nothing proprietary is shared, I'm setting up hotkeys and testing embedding YouTube videos in my Github.io pages. I'm also creating mikelevinseo.com as a place to write about topics instead of my main journal. Click through to read more about my journey.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/strategy/">Strategy</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div> &nbsp; <div class="post-nav-next"><a href="/strategy/">Strategy</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -43,7 +43,7 @@ newer editors make the user interface fonts large enough for my poor old eyes
 to read.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

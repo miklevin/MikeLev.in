@@ -14,4 +14,4 @@
 <li><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a> (Wed Apr 27, 2022)
 <br/>I successfully completed a project for a blog slicer app, demonstrating the power of ELPGD (Every Little Project Gets Done). I figured out how to put the sliced and diced version of my blog in the repo root, and have created a blog that I'm sure readers will find interesting. Read my post to learn more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/command-line/">Command-Line</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/algorithm/">Algorithms</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/algorithm/">Algorithms</a></div> &nbsp; <div class="post-nav-next"><a href="/command-line/">Command-Line</a><span class="arrow">&nbsp;&rarr;</span></div></div>

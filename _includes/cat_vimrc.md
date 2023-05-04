@@ -12,4 +12,4 @@
 <li><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a> (Tue May 03, 2022)
 <br/>Today I was able to make a few easy tweaks to my 15 active websites, and I added a make_helpers.py script to my release script. I also figured out how to navigate to my .vimrc file with the command :b~[Tab], and I'm feeling good about the progress I'm making. Read more to find out how I achieved these results.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/chrome/">Chrome</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/internet/">Internet</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/internet/">Internet</a></div> &nbsp; <div class="post-nav-next"><a href="/chrome/">Chrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>

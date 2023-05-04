@@ -47,7 +47,7 @@ Wow, I think I have it. Doing full reboot.
 I think I nailed it.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows">Google Chrome for Linux Under LXD on WSL on Windows</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows">Google Chrome for Linux Under LXD on WSL on Windows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

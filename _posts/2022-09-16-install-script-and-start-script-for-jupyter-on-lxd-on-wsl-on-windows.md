@@ -99,7 +99,7 @@ time just to make sure its latest status is proven working and percolating in
 the background for next steps... done!
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/already-renamed-jupyme-to-wsl2lxd">Already Renamed Jupyme to WSL2LXD</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/already-renamed-jupyme-to-wsl2lxd">Already Renamed Jupyme to WSL2LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

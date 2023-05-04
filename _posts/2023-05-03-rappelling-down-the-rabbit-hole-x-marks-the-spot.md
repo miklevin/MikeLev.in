@@ -4,7 +4,7 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: api, vim, muscle memory, magic, neovim
+categories: muscle memory, magic, vim, api, neovim
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 ---
@@ -321,12 +321,12 @@ fantasy, silly.
 
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/recapturing-that-old-force-of-nature-feeling">Recapturing That Old Force of Nature Feeling</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recapturing-that-old-force-of-nature-feeling">Recapturing That Old Force of Nature Feeling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>

@@ -12,4 +12,4 @@
 <li><a href="/blog/say-the-magic-words-open-terminal/">Say The Magic Words: Open Terminal!</a> (Sat Jun 11, 2022)
 <br/>I learned the French Drop finger magic trick from my camp counselor Mike Silver at Science Camp Watonka when I was 12 years old. Now, I'm introducing a new skill called the French Drop and Miss. Direction, closely aligned with Unix/Linux. This skill is future-proof, obsolescence resistant, and immune to disruption. It's important to not solely depend on GUIs and to focus on Unix/Linux terminal.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/quantum/">Quantum</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/field/">Fields</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/field/">Fields</a></div> &nbsp; <div class="post-nav-next"><a href="/quantum/">Quantum</a><span class="arrow">&nbsp;&rarr;</span></div></div>

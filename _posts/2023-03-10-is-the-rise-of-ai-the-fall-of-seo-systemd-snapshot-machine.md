@@ -52,7 +52,7 @@ projects here, and I talked with Jo who likes where I'm going (I think), and so
 the systemd snapshot machine is coming.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine">Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced">Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced">Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine">Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

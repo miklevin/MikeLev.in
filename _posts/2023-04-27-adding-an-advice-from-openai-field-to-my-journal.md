@@ -4,7 +4,7 @@ title: Adding an Advice From OpenAI Field to my Journal
 headline: "Exploring the Value of OpenAI: My Journey as a Cyborg with AI-Assisted Thought Processes"
 description: I'm a cyborg who is exploring the value of OpenAI, utilizing AI-assisted thought processes and hotkeys to turn the AI on and off. I'm testing a function to give advice from the OpenAI API and am using it to summarize blog posts into meta descriptions, headlines, and keywords, as well as suggest life improvements.
 keywords: Cyborg, AI, Hotkeys, Laptop Keyboard, OpenAI, Summarizing, Meta Descriptions, Headlines, Keywords, Life Improvements, Function, Advice, API, Testing
-categories: api, openai, meta descriptions, keywords, ai, headlines
+categories: meta descriptions, keywords, api, openai, headlines, ai
 permalink: /blog/adding-an-advice-from-openai-field-to-my-journal/
 layout: post
 ---
@@ -69,12 +69,12 @@ My existing code should create the new advice.db if it doesn't exist (which it
 doesn't) on the first run. Let's test...
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/looking-for-equivalent-alternative-to-usr-local-sbin">Looking For Equivalent Alternative to /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-virtual-env-better-than-usr-local-sbin">Python Virtual Env Better Than /usr/local/sbin</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-virtual-env-better-than-usr-local-sbin">Python Virtual Env Better Than /usr/local/sbin</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/looking-for-equivalent-alternative-to-usr-local-sbin">Looking For Equivalent Alternative to /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
 <li><h4><a href='/keywords/'>Keywords</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Google Analytics GA4 API Access Will Be My First Project for Pipulate
 headline: "Exploring Google Analytics GA4 API with Pipulate: My First Project is GA4mageddon"
 description: I'm excited to start my first project for Pipulate, which involves accessing the Google Analytics GA4 API. I'm taking a top-down and bottom-up approach to SEO, and I've named my repo GA4mageddon. I'm using the impending Google-induced panic about GA4 to create better examples and instructions for readers to entice them to click through to the blog post.
 keywords: Google Analytics, GA4, API, Access, Pipulate, SEO, Repo, GA4mageddon, Linux, Vim, Top-Down, Bottom-Up, SEO, Examples, Instructions
-categories: api, vim, google analytics, linux, pipulate, seo
+categories: linux, pipulate, vim, api, google analytics, seo
 permalink: /blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/
 layout: post
 ---
@@ -60,13 +60,13 @@ ripple through the world of online marketing. I can be the beneficiary of much
 of that because the examples out there for GA4 API access, the Python client
 libraries, instructions and how-to's are really terrible right now.
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

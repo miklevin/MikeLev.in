@@ -4,7 +4,7 @@ title: Windows 11 is more like Windows Il (for It's Linux)
 headline: "Experience the Move to Linux with Windows 11: It's Time to Take Up the Old-School Terminal Stuff!"
 description: Get ready to take the plunge into the world of Linux and Unix-based systems with Windows 11! I'm stubbornly staying on Windows 10 for now, but by enabling Windows Subsystem for Linux and the Hypervisor, I can still experience the move-to-Linux experience Microsoft has planned for us. With the help of Steve Jobs and Lennart Poettering, I can run Linux Terminal sessions under WSL2 and even upgrade my instance to Linux Containers.
 keywords: Windows 11, Linux, Unix, Windows Subsystem for Linux, Hypervisor, Linux Terminal, WSL2, Linux Containers, Ubuntu 18, Steve Jobs, Lennart Poettering, System Management, Lauchd, Init, Text-based Terminal
-categories: windows 11, unix, wsl2, linux
+categories: unix, wsl2, linux, windows 11
 permalink: /blog/windows-11-is-more-like-windows-il-for-it-s-linux/
 layout: post
 ---
@@ -144,11 +144,11 @@ to be on Ubuntu 18.04 for your main WSL2 Linux system, and that's not the
 default.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/linux-container-under-windows-10-wsl-supporting-graphics">Linux Container Under Windows 10 WSL Supporting Graphics</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-lxd-on-wsl2-with-systemd-enabled-ubuntu-18-04">Setting Up LXD on WSL2 with systemd enabled Ubuntu 18.04</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-lxd-on-wsl2-with-systemd-enabled-ubuntu-18-04">Setting Up LXD on WSL2 with systemd enabled Ubuntu 18.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/linux-container-under-windows-10-wsl-supporting-graphics">Linux Container Under Windows 10 WSL Supporting Graphics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>

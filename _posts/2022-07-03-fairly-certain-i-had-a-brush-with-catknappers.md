@@ -199,7 +199,7 @@ confirmed it.
     neighborhood tonight calling for her. Find salvation. Anonymous tips welcome.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav">Adding the Who, What, Why, When, Where & How To Site Nav</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refresh-your-mind-with-the-lxd-api">Refresh Your Mind With The LXD API</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refresh-your-mind-with-the-lxd-api">Refresh Your Mind With The LXD API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav">Adding the Who, What, Why, When, Where & How To Site Nav</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

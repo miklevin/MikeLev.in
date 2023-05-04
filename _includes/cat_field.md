@@ -12,4 +12,4 @@
 <li><a href="/blog/just-moving-life-forward/">Just Moving Life Forward</a> (Sun Nov 06, 2022)
 <br/>Today is my child's 12th birthday and I'm taking the time to prepare for it. Unloading the car, I'm reflecting on the entanglement of things and how our lives are like quantized units of energy. Are we unique or part of the same rippling quantum field? I'm also reflecting on the Python command I programmed yesterday and its potential future uses. Join me as I explore these thoughts and prepare for a special day.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/gnu/">GNU</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/mlseo/">mlseo</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/mlseo/">mlseo</a></div> &nbsp; <div class="post-nav-next"><a href="/gnu/">GNU</a><span class="arrow">&nbsp;&rarr;</span></div></div>

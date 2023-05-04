@@ -113,7 +113,7 @@ information and how to make it come alive again that's important, and not the
 particular laptop.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/send-email-with-file-attachment-from-python">Send Email With File Attachment From Python</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/send-email-with-file-attachment-from-python">Send Email With File Attachment From Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

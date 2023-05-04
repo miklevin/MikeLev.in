@@ -112,7 +112,7 @@ the way. I'll drop those files directly into ~/repos/transfer. Avoid
 subdirectory-hell. You're already two deep.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

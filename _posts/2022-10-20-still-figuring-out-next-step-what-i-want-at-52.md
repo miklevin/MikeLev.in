@@ -59,7 +59,7 @@ in Github because of accidentally deleting it. No big deal.
 Move onto your next big step.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/always-finding-the-love-in-things">Always Finding The Love In Things</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/always-finding-the-love-in-things">Always Finding The Love In Things</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

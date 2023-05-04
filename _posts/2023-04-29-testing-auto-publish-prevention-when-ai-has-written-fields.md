@@ -31,7 +31,7 @@ I'm doing one release before giving this a title as a control. System's
 working. Now give it a title.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins">The 80/20-rule Means Front-loading The Big Wins</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins">The 80/20-rule Means Front-loading The Big Wins</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts">Moved 1-long-page version of journal.md to `_drafts`</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

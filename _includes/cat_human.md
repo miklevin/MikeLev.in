@@ -14,4 +14,4 @@
 <li><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a> (Fri May 13, 2022)
 <br/>I start every day with a mantra of three questions and two modifiers to help condition my mind and get into the mindset of journaling. Through this daily practice, I'm learning to focus on small wins and use tools like Linux, Python, vim, and git to mechanically get tasks done. I'm also avoiding activities like video games and sports that may have long-term payoffs, and instead focusing on projects that will help me achieve small wins. By using the 80/20 rule and Rabbit</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/powershell/">Powershell</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nyc/">NYC</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/nyc/">NYC</a></div> &nbsp; <div class="post-nav-next"><a href="/powershell/">Powershell</a><span class="arrow">&nbsp;&rarr;</span></div></div>

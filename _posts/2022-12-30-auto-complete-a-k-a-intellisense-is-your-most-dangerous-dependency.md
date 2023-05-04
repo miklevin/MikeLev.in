@@ -35,7 +35,7 @@ metered pump, not so much. You're locked-in. You're herded. And relearning the
 shiny next new ain't so easy as things get more competitive and you get older.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created">Pipulate Practice Folder Created</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created">Pipulate Practice Folder Created</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

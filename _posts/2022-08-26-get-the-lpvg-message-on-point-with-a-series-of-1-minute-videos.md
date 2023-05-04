@@ -4,7 +4,7 @@ title: Get the LPvg Message On-Point with a series of 1-minute videos
 headline: "25 Years of SEO Experience: Join the LPvg Movement for Development and Delivery!"
 description: I have been an SEO for 25 years and am now creating a series of 1-minute videos to grow my presence on YouTube. I'm using heavily edited videos, optimized for keywords and titles, to spread my message and mission. I decided to promote the idea of Linux, Python, vim and git as a single platform for development and delivery, and called it the LPvg movement. Join me as I share my 25 years of SEO experience to help you grow your presence on YouTube.
 keywords: SEO, 25 years, 1-minute videos, YouTube, heavily edited, keywords, titles, message, mission, Linux, Python, vim, git, static site generators, XSLT, markdown, templates, Github, alignment, stars, nuances, subtleties, vendor schlock, LPvg movement
-categories: vim, python, git, templates, keywords, linux, seo, youtube, github, message
+categories: keywords, linux, templates, python, vim, github, git, seo, youtube, message
 permalink: /blog/get-the-lpvg-message-on-point-with-a-series-of-1-minute-videos/
 layout: post
 ---
@@ -94,16 +94,16 @@ delivery, and as an alternative to vendor schlock, is it. The time for LPvg has
 come. It's a legit movement identity, acronym, yadda yadda.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/sub-linux-sub-love-so-learn">Sub-Linux Sub-Love So-Learn</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/knowing-protection-emotional-protection">Knowing Protection & Emotional Protection</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/knowing-protection-emotional-protection">Knowing Protection & Emotional Protection</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sub-linux-sub-love-so-learn">Sub-Linux Sub-Love So-Learn</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/keywords/'>Keywords</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li></ul>

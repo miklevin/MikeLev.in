@@ -185,7 +185,7 @@ Cure to anxiety, groudlessness, existential crisis, plagues of youth.
 > Figure out how to release already built-up potential.<br />
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-webcrawler-toil-talk-w-audience">Write Python Webcrawler! Toil & Talk w/Audience</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-webcrawler-toil-talk-w-audience">Write Python Webcrawler! Toil & Talk w/Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

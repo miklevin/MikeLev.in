@@ -79,7 +79,7 @@ Okay, make a gsheet_barebones.ipynb... okay, done. The page
 [https://MikeLev.in/gsheet/](https://MikeLev.in/gsheet/) is pretty good.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

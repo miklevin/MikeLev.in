@@ -4,7 +4,7 @@ title: "Moving Is Not Easy To Do: Real-life or Linux"
 headline: "Navigating the Move: My Experience with Windows 11"
 description: I recently moved, and it was a lot of work to stay organized. Moving to a new place has allowed me to think things through and reorient myself, and I'm looking to establish momentum, reacquire my equilibrium, and keep creating. Unfortunately, I've found that Windows 11 doesn't let you hide taskbar icons, and even hacks to remove the clock don't work. Read my blog post to find out how I'm dealing with the transition.
 keywords: Moving, Organization, Thinking, Reorient, Momentum, Equilibrium, Creating, Windows 10, Windows 11, Taskbar, Icons, Clock, Hacks, Transition, Virtual Desktops
-categories: windows 11, organization, windows 10
+categories: organization, windows 11, windows 10
 permalink: /blog/moving-is-not-easy-to-do-real-life-or-linux/
 layout: post
 ---
@@ -62,10 +62,10 @@ for people who love virtual desktops!
 {% include youtubePlayer.html id="wTnrCprlCB8" %}
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis">Do Not Lose The Power of Touch Typing Despite AI APIs</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis">Do Not Lose The Power of Touch Typing Despite AI APIs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/organization/'>Organization</a></h4></li>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>

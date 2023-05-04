@@ -87,7 +87,7 @@ scheduling, but we got it to work. Nuances:
 Don't forget to subscribe!
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation">Use Python to Cycle Your IP with HMA VPN Software and Windows Automation</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation">Use Python to Cycle Your IP with HMA VPN Software and Windows Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -71,7 +71,7 @@ professional... and spouses wanting their counterpart's powerful wizarding
 abilities.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/use-vim-to-keep-one-journal-for-life">Use vim to Keep One Journal For Life</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl">Teach Your Spouse vim on Windows Linux (WSL)</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl">Teach Your Spouse vim on Windows Linux (WSL)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-vim-to-keep-one-journal-for-life">Use vim to Keep One Journal For Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

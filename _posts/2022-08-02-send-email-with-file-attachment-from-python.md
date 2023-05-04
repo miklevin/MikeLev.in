@@ -99,7 +99,7 @@ while True:
 ```
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/sending-an-html-email-with-embedded-image-from-python">Sending an HTML Email with Embedded Image From Python</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-get-blinded-by-the-hardware">You Get Blinded By The Hardware</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-get-blinded-by-the-hardware">You Get Blinded By The Hardware</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sending-an-html-email-with-embedded-image-from-python">Sending an HTML Email with Embedded Image From Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!
 headline: "Explore my Linux Wonderland: A Journey Inspired by Fernando Corbato, Ken Thompson, and Linus Torvalds"
 description: "Explore my Linux Wonderland, an idea inspired by the individuals who made star-nix possible: Fernando Corbato, Ken Thompson, and Linus Torvalds. I'm creating projects under starnix, doing long-running scripts that run in the context of Linux services called daemons. See how this approach to tech is now as big as webdev, thanks to the Windows Subsystem for Linux, W. Come join me on this journey!"
 keywords: Fernando Corbato, Ken Thompson, Linus Torvalds, Linux, star-nix, Starnix, Daemons, Webdev, Windows Subsystem for Linux, W, Homepage, Projects, Scripts, Services, Journey, Tech, Idea
-categories: services, scripts, journey, linux, homepage
+categories: linux, journey, scripts, services, homepage
 permalink: /blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/
 layout: post
 ---
@@ -55,10 +55,10 @@ It's not quite Vista-level, but Windows 11 is blech! And so WSLg backports to
 Windows 10, and so now everybody can [Drink Me](https://mikelev.in/drinkme).
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt">Advice How to Incubate AI at Home From ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny">One Penguin Turns and Says to The Other, You Know It's Funny...</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny">One Penguin Turns and Says to The Other, You Know It's Funny...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt">Advice How to Incubate AI at Home From ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/homepage/'>Homepage</a></h4></li></ul>

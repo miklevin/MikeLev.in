@@ -221,7 +221,7 @@ Pshwew! Hope that helps. If so, follow me on YouTube and the social medias for
 more.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/e-e-a-t-the-new-google-quality-guidelines">E-E-A-T The New Google Quality Guidelines</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rotating-logo-returns-and-key-advice-in-life">Rotating Logo Returns and Key Advice in Life</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rotating-logo-returns-and-key-advice-in-life">Rotating Logo Returns and Key Advice in Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/e-e-a-t-the-new-google-quality-guidelines">E-E-A-T The New Google Quality Guidelines</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

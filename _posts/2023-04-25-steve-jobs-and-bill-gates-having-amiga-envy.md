@@ -4,7 +4,7 @@ title: Steve Jobs and Bill Gates having Amiga-envy
 headline: Creating an AI-Assisted Journaling System with Vim/NeoVim and Python
 description: I'm working on an AI-assisted YAMLesque journaling system and have made changes to my website using Jekyll, Liquid Template, and Python to create an open source SEO software. I'm almost finished and ready to release my post, so come and see the results of my project!
 keywords: AI, YAMLesque, journaling, Bing/Bard, Vim/NeoVim, Python, Open Source, SEO, Linux, Category Page, Jekyll, Liquid Template, prev/next arrows, Markdown, Mermaid, Synchronization, OpenAI
-categories: openai, open source, journaling, linux, seo, jekyll, ai, python
+categories: linux, open source, python, journaling, jekyll, openai, seo, ai
 permalink: /blog/steve-jobs-and-bill-gates-having-amiga-envy/
 layout: post
 ---
@@ -179,15 +179,15 @@ WARN. And so that will set me up for writing it back into YAMLESQUE, and
 that'll be a good place to stop for the day.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/gathering-all-category-logic-into-one-place">Gathering All Category Logic into One Place</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/calcium-foss-make-flexible-tools">Calcium & FOSS Make Flexible Tools</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/calcium-foss-make-flexible-tools">Calcium & FOSS Make Flexible Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gathering-all-category-logic-into-one-place">Gathering All Category Logic into One Place</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

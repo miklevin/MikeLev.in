@@ -4,7 +4,7 @@ title: Science Experiments for 12 Year Olds
 headline: Explore Cool Science Toys for 12 Year Olds with Bing!
 description: Bing helped me find experiments for a 12 year old to conduct. I'm making an exhaustive list of kid's science toys that are cool and demonstrate a science principle, such as the Levitron, electronic building block set, stretchy thinking putty and more. Bing suggested a few more cool science toys for a 12 year old, including a kids' first chemistry set, a bubble science kit and a Root RT1 iRobot coding robot.
 keywords: Science, Experiments, 12 Year Olds, Levitron, Electronic Building Block Set, Stretchy Thinking Putty, Kids' First Chemistry Set, Bubble Science Kit, Root RT1 iRobot Coding Robot, Medical Kit, Crystal Geode Kit, Electricity and Magnetism Kit, Snap Circuits Jr. Electronics Discovery Kit, Interactive Human Body Model, Klutz LEGO Chain Reactions Activity Kit, Be Amazing! Toys Big Bag of Science, CIRO STEM Project 12-in-1
-categories: science, experiments
+categories: experiments, science
 permalink: /blog/science-experiments-for-12-year-olds/
 layout: post
 ---
@@ -131,7 +131,7 @@ Source: Conversation with Bing, 3/11/2023
     (4) The 15 Best Science Toys of 2023 - The Spruce. https://www.thespruce.com/best-science-toys-4150533 Accessed 3/11/2023.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/most-motivating-opening-in-tv-history">Most Motivating Opening In TV History</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/most-motivating-opening-in-tv-history">Most Motivating Opening In TV History</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web">Proprietary Platforms Are Moving In On The Free & Open Source Web</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

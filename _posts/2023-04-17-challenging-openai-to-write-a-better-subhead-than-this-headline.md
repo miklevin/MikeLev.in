@@ -4,7 +4,7 @@ title: Challenging OpenAI to Write a Better Subhead Than this Headline
 headline: Exploring Home and Spiritual Connection - My Journey of Self-Discovery
 description: I recently signed up for Copilot, an AI that can summarize and assign keywords to my writing. I'm exploring the idea of home and how it is not confined to the place you were born into. I'm discovering my roots are inside me and that I can find places I feel most at home. I'm also investigating spiritual connection and its impact on our lives. Read my blog post to explore these ideas with me.
 keywords: Home, Place, Roots, Spiritual Connection, Impact, Explore, Discover, Copilot, AI, Writing, Summarize
-categories: ai, copilot
+categories: copilot, ai
 permalink: /blog/challenging-openai-to-write-a-better-subhead-than-this-headline/
 layout: post
 ---
@@ -56,9 +56,9 @@ whenever I publish a blog post. Choose a headline now, and challenge OpenAI to
 choose a better subhead.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements">Allow GitHub To Use My Code Snippets For Product Improvements</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements">Allow GitHub To Use My Code Snippets For Product Improvements</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

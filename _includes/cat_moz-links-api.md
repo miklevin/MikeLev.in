@@ -14,4 +14,4 @@
 <li><a href="/blog/live-streaming-with-github-copilot-in-neovim-for-motivation/">Live-streaming With Github Copilot in NeoVim for Motivation</a> (Thu Mar 30, 2023)
 <br/>I'm experimenting with NeoVim, a vim-compatible fork, to live-stream in my journal. I'm also exploring the Meissner and Schwinger effects to create more thrust. To achieve my goals, I'm using Linux, Python, Vim, and Git. I'm creating an updated graphic of my stack to help others succeed. Join me as I dive head-first into my project tomorrow.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/science/">Science</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/bash/">Bash</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/bash/">Bash</a></div> &nbsp; <div class="post-nav-next"><a href="/science/">Science</a><span class="arrow">&nbsp;&rarr;</span></div></div>

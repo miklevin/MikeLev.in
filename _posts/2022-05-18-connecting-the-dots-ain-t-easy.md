@@ -19,7 +19,7 @@ layout: post
 > <cite>--by Mike Levin, 2022</cite><br />
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/upgrading-jupyterlab-pip-installs">Upgrading JupyterLab pip installs</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-the-dots-ain-t-easy">Connecting The Dots Ain't Easy</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-the-dots-ain-t-easy">Connecting The Dots Ain't Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/upgrading-jupyterlab-pip-installs">Upgrading JupyterLab pip installs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

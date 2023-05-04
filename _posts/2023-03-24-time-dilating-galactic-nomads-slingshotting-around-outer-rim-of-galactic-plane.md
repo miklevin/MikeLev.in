@@ -355,7 +355,7 @@ The researchers spread a special mixture of chemicals throughout the Mushroom Mo
 In the end, the Myco Raiders were defeated, and the Mushroom Mother was able to recover from the damage caused by their greed. The researchers continued to study the Mushroom Mother, hoping to learn more about the incredible organism and its role in the galaxy.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai">The Lex Fridman Interview with Sam Altman on GAI</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai">The Lex Fridman Interview with Sam Altman on GAI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

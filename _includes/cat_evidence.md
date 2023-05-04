@@ -12,4 +12,4 @@
 <li><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a> (Sat Dec 17, 2022)
 <br/>Today is the day to put my rotating logo back on the homepage with a bit of animation. I believe that life is a delicate balance of pushing past the hard bits, thinking clearly, journaling, using the 80/20-rule, and avoiding rabbit-holes. We must also be aware of the false dichotomies that label people and the power of those who oppose peace. Times are changing and the public is being held down, but I'm confident that we can break through.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><span class="arrow">&nbsp;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/ufo/">UFO</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/ufo/">UFO</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>

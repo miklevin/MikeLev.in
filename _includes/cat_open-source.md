@@ -20,4 +20,4 @@
 <li><a href="/blog/clear-screen-clear-mind-focus-focus-focus/">Clear Screen, Clear Mind... Focus, Focus, Focus!</a> (Wed Nov 30, 2022)
 <br/>I am writing a Linux install script for Windows 10 or 11 users, and taking the time to reboot my system each morning to focus on what sparks joy, motivation and momentum. I am also striving to reduce surface area, factors, variables and general noise. I am passionate about Linux and its many features, such as security, flexibility, and scalability, making it a great choice for a variety of applications.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/success/">Success</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/coding/">Coding</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/coding/">Coding</a></div> &nbsp; <div class="post-nav-next"><a href="/success/">Success</a><span class="arrow">&nbsp;&rarr;</span></div></div>

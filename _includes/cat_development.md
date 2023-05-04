@@ -16,4 +16,4 @@
 <li><a href="/blog/don-t-kick-that-football-charlie-brown/">Don't Kick That Football, Charlie Brown!</a> (Sun May 15, 2022)
 <br/>As a person who prefers to make up my own games and rules, I understand the importance of understanding different levels of the brain in order to grow. I also recognize that what makes us human is our ability to think and act in ways that are beyond the capabilities of animals. I believe that by examining ourselves, recording our thoughts and interactions, and drawing conclusions, we can take control of our growth and development and increase our chances of success. Through this blog post, I will share my insights on how</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/2022/">2022</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/2022/">2022</a></div> &nbsp; <div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div></div>

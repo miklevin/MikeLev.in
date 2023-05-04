@@ -42,4 +42,4 @@
 <li><a href="/blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/">Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04</a> (Wed Jun 15, 2022)
 <br/>After a long update process, I realized the Windows Updates I had downloaded weren't what I was looking for. I then tried to get LXD running under WSL2 on Ubuntu 20.04 but was unsuccessful. Switching to Ubuntu 18.04 allowed me to get LXD running, but now I'm faced with a difficult decision: do I make my next video out of the arts? Read my blog post to find out what I decide!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/automation/">Automation</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/neovim/">NeoVim</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/neovim/">NeoVim</a></div> &nbsp; <div class="post-nav-next"><a href="/automation/">Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>

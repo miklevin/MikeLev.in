@@ -150,7 +150,7 @@ about this amazing technology, and they thanked Mike for his incredible
 contribution to the world of computing.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

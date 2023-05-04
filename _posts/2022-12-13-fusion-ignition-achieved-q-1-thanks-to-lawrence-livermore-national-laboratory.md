@@ -22,7 +22,7 @@ energy. The societally transforming "free" part that puts us on the path to a
 post-scarcity society can be delayed a few decades if that's what it has to be.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons">With AI On The Way, You Had Better Be Able to Write Daemons</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-all-pages-all-at-once">Editing All Pages All At Once</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-all-pages-all-at-once">Editing All Pages All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons">With AI On The Way, You Had Better Be Able to Write Daemons</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

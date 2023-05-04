@@ -14,4 +14,4 @@
 <li><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers/">Fairly Certain I Had a Brush With Catknappers</a> (Sun Jul 03, 2022)
 <br/>I recently moved and my cat Lynnie escaped during the transfer. After suspecting someone had been in my house and broken up the cat treats, I feared someone was taking advantage of the situation. I posted a plea on a community Facebook group and, sure enough, my cat returned 10 minutes later. My neighbor had warned me of bad luck for reworking a stone wall and I suspected they had taken my cat. Read this blog post to find out how I got my cat back.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/thought/">Thoughts</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/powershell/">Powershell</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/powershell/">Powershell</a></div> &nbsp; <div class="post-nav-next"><a href="/thought/">Thoughts</a><span class="arrow">&nbsp;&rarr;</span></div></div>

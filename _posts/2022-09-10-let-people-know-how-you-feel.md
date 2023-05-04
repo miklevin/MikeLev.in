@@ -4,7 +4,7 @@ title: Let People Know How You Feel
 headline: Taking A Stand Against Drama - My Journey to Lead by Example!
 description: I'm taking a stand against the drama in my life by leading by example and spreading my message with YouTube videos. I'm planning out the title and thumbnail for each video to make sure I'm sending the right message. Follow my journey and click through to the blog post to find out more!
 keywords: YouTube, Videos, Message, Drama, Stand, Example, Lead, Journey, Thumbnail, Title, Publicly
-categories: journey, message, youtube
+categories: youtube, message, journey
 permalink: /blog/let-people-know-how-you-feel/
 layout: post
 ---
@@ -26,10 +26,10 @@ Any single video can do the job. Plan the message (title) and the thumbnail
 beforehand.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recovering-old-laptops-for-video-production-purposes">Recovering Old Laptops For Video Production Purposes</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recovering-old-laptops-for-video-production-purposes">Recovering Old Laptops For Video Production Purposes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

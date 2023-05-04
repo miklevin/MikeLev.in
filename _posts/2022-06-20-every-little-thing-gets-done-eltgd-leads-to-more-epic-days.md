@@ -4,7 +4,7 @@ title: Every Little Thing gets done (ELTgd) Leads to More Epic Days
 headline: "ELTgd: Juneteenth 2022 - A Day of Accomplishment, Pleasure, and Self-Realization."
 description: On Juneteenth of 2022, I had a productive day full of accomplishment and pleasure. I wrote a difficult letter to my ex, created a sub-arrow system for my Jekyll and GitHub Pages static site generator, enjoyed a hot bath and a meal at the local diner, interacted with my YouTube audience, and created one of my best videos ever. I was reminded that life is what we make of it, and that everything after a certain point is of my own choosing.
 keywords: Every Little Thing gets done (ELTgd), Productive Day, Accomplishment, Pleasure, Difficult Letter, Ex, Sub-arrow System, Jekyll, GitHub Pages, Static Site Generator, Hot Bath, Meal, Local Diner, YouTube Audience, Video, Life, Choices, Impossible
-categories: jekyll, static site generator, github pages
+categories: static site generator, github pages, jekyll
 permalink: /blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/
 layout: post
 ---
@@ -61,10 +61,10 @@ the support and HOW you're going to test it. Think! Okay, put in some category
 data on MikeLev.in (this file).
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories">Github Pages Jekyll Previous/Next Arrows For Categories</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories">Github Pages Jekyll Previous/Next Arrows For Categories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

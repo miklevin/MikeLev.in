@@ -66,7 +66,7 @@ your OhAwf repo where you're using exactly this technique, on nbdev2 already.
 It's a good model.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world">We Power Our Way Through This Material Life & World</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks">nbdev Makes .py-file Extractions From Notebooks</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks">nbdev Makes .py-file Extractions From Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world">We Power Our Way Through This Material Life & World</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

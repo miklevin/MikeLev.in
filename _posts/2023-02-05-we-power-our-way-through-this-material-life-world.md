@@ -52,7 +52,7 @@ not stock trading or clock punching. It is engaging in life, engaging with the
 material world, in a way that you love.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/how-to-cluster-keywords-from-google-suggest-api">How To Cluster Keywords From Google Suggest API</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-cluster-keywords-from-google-suggest-api">How To Cluster Keywords From Google Suggest API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

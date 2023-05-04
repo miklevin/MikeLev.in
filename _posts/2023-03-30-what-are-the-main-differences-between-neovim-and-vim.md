@@ -4,7 +4,7 @@ title: What are the main differences between NeoVim and vim?
 headline: Discovering the Benefits of NeoVim Over Vim
 description: I recently discovered the advantages of using NeoVim over Vim, including its improved maintainability, plugin system, and customizability. After learning about the ability to work with Jupyter Notebooks in Visual Studio Code, I asked Bing why Github Copilot was only integrated with NeoVim. He provided resources to help me understand and I used the Getting Started with Jupyter Notebooks in Visual Studio Code guide to learn how to use the extension.
 keywords: NeoVim, Vim, Maintainability, Plugin System, Customizability, Jupyter Notebooks, Visual Studio Code, Github Copilot, OpenAI Codex API, Language Server Protocol, Microsoft, Extension, Interactive Python Coding
-categories: vim, github copilot, microsoft, jupyter notebooks, neovim
+categories: jupyter notebooks, vim, microsoft, neovim, github copilot
 permalink: /blog/what-are-the-main-differences-between-neovim-and-vim/
 layout: post
 ---
@@ -103,12 +103,12 @@ Source: Conversation with Bing, 3/30/2023
     (4) Announcing Support for Native Editing of Jupyter Notebooks in VS Code. https://devblogs.microsoft.com/python/announcing-support-for-native-editing-of-jupyter-notebooks-in-vs-code/ Accessed 3/30/2023.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adapting-my-drinkme-for-linux-pipulate-script-for-macs">Adapting My DrinkMe for Linux Pipulate Script for Macs</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adapting-my-drinkme-for-linux-pipulate-script-for-macs">Adapting My DrinkMe for Linux Pipulate Script for Macs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li></ul>

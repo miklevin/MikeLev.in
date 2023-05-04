@@ -248,7 +248,7 @@ git_push()
 ```
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/adding-an-advice-from-openai-field-to-my-journal">Adding an Advice From OpenAI Field to my Journal</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/indomitable-spirit">Indomitable Spirit</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/indomitable-spirit">Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-an-advice-from-openai-field-to-my-journal">Adding an Advice From OpenAI Field to my Journal</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -12,4 +12,4 @@
 <li><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a> (Sat Jul 30, 2022)
 <br/>As a tech-savvy individual, I'm warning myself to stay ahead of the curve and be aware of the future of computing. With software becoming obsolete quickly, I need to be informed about the concept of Virtual Machines, which is really about resource isolation. I'm also exploring the implications of this technology, which has been around for decades, in terms of performance and security. Read on to learn more.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/version/">Version</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/collaboration/">Collaboration</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/collaboration/">Collaboration</a></div> &nbsp; <div class="post-nav-next"><a href="/version/">Version</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -278,7 +278,7 @@ It's now time to give this a title and publish it, let OpenAI do its thing, and
 get onto how I'm going to get those category descriptions written.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/openai-category-pages-nearly-done">OpenAI Category Pages Nearly Done</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/designing-yamlesque-post-generator-api">Designing YAMLesque Post Generator API</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/designing-yamlesque-post-generator-api">Designing YAMLesque Post Generator API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-category-pages-nearly-done">OpenAI Category Pages Nearly Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

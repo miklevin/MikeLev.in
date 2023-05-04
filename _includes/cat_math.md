@@ -18,4 +18,4 @@
 <li><a href="/blog/why-programming-is-easy-but-math-is-hard/">Why Programming Is Easy But Math Is Hard</a> (Sat Apr 23, 2022)
 <br/>As someone who has struggled with math since high school, I have used Python and other tools to make it easier for me. I recently created my first Jekyll blog post and am now working on adding headlines. I'm excited to share my journey and hope it helps other people who are also struggling with math. Come read my blog post and join me on this journey!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-next"><a href="/habit/">Habits</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/change/">Changes</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/change/">Changes</a></div> &nbsp; <div class="post-nav-next"><a href="/habit/">Habits</a><span class="arrow">&nbsp;&rarr;</span></div></div>

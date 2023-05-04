@@ -88,7 +88,7 @@ the coming years. However, one thing is clear: Linux has arrived, and it is
 here to stay.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-the-controversial-history-of-coke">ChatGPT: Write an article about the controversial history of Coke.</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-the-controversial-history-of-coke">ChatGPT: Write an article about the controversial history of Coke.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

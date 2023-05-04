@@ -145,7 +145,7 @@ This is what we're used to for fetching http (web pages).
 Okay, pushed out a very nice video.
 
 
-<div class="post-nav"><div class="post-nav-next"><a href="/blog/making-mlseo-pip-installable">Making mlseo pip installable</a><span class="arrow">&nbsp;&rarr;</span></div> &nbsp; <div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/journaling-as-performance-art">Journaling As Performance Art</a></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/journaling-as-performance-art">Journaling As Performance Art</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-mlseo-pip-installable">Making mlseo pip installable</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
