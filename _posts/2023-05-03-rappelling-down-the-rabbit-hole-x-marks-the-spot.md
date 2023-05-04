@@ -5,7 +5,7 @@ permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: vim, magic, neovim, api, muscle memory
+categories: neovim, vim, magic, muscle memory, api
 layout: post
 ---
 
@@ -41,14 +41,19 @@ straight and if I have a chance to have my kid for a whole week straight, I
 take it.
 
 MOZ is a kid-friendly place it seems, and everyone understands. But I have to
-strive for clearer situations with that side when these situations come up.
-It's so easy to commit yourself to something, then suddenly everything's
-changed in ways you don't expect. That's typical of life, really. There's
-different ways to respond, and looking back at growing up, I can see my usual
-way has been to disengage and move on. If you're choosing to do a thing because
-you want to and not because you have to, it had better be love-worthy and leave
-you all the better for it. When you're forced to stay with something you agreed
-too, it plants the seeds for it blowing up in your face, eventually.
+strive for clearer communication with that side when these situations come up.
+My 12 year old isn't able to articlate these things yet, so it lands on me to
+aggressively interrogate the quick incomplete answers I get that leave out
+important facts. It's so easy to commit yourself to something, then suddenly
+everything's changed in ways you don't expect. It comes from some channels more
+than others, so know your channels.
+
+That's typical of life, really. There's different ways to respond, and looking
+back at growing up, I can see my usual way has been to disengage and move on.
+If you're choosing to do a thing because you want to and not because you have
+to, it had better be love-worthy and leave you all the better for it. When
+you're forced to stay with something you agreed too, it plants the seeds for it
+blowing up in your face, eventually.
 
 But life isn't some ideally love-worthy path, either. There are lots of false
 starts, rough trails, diversions, and deep rabbit holes. The rabbit hole
@@ -318,8 +323,8 @@ fantasy, silly.
 ## Categories
 
 <ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
