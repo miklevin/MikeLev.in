@@ -57,6 +57,7 @@ category_filter:
   - frequency
   - function
   - game
+  - hardware
   - home
   - idea
   - image
@@ -64,6 +65,7 @@ category_filter:
   - install
   - job
   - journal
+  - label
   - labels
   - language
   - laptop
@@ -109,6 +111,7 @@ category_filter:
   - transition
   - update
   - upgrade
+  - url
   - user
   - video
   - website
