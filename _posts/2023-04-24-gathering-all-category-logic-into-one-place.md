@@ -5,7 +5,7 @@ permalink: /blog/gathering-all-category-logic-into-one-place/
 headline: "Creating a Website with AI: Journaling, SEO, and OpenAI Categorization"
 description: I'm using AI, Linux, Python, vim & git to create a journal with entries written by me. I'm optimizing for search engines and testing Copilot to process my thoughts. I'm also writing code to create a description of the OpenAI category and using nltk and collections libraries to find the most common categories. I'm sharing my thoughts and experiences in this journal and making it available to the public.
 keywords: Website, AI, Linux, Python, vim, git, Journal, Entries, Histogram, Keyword, Frequencies, Mapping, Dictionary, Capitalization, Thoughts, Experiences, Search Engine Optimization, Copilot, Microsoft, OpenAI, Generation, Thinking, Code, Generator, YAML, Data, Dict, NLTK, Collections, Categories, Frequency, Word
-categories: yaml, copilot, git, microsoft, ai, python, vim, linux, openai
+categories: vim, yaml, linux, git, microsoft, openai, copilot, ai, python
 layout: post
 ---
 
@@ -352,12 +352,12 @@ for i, cat in enumerate(common_cats):
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/openai/'>OpenAI</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/openai/'>OpenAI</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
