@@ -5,7 +5,7 @@ permalink: /blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-auto
 headline: Exploring Automation Possibilities with LXD 2 WSL, Selenium, NodeJS, and Pyppeteer
 description: I'm creating a public repository to limit my dependencies and use ohawf for Google OAuth2 authentication. I'm using the LXD 2 WSL project and Chrome automation with Selenium and NodeJS Puppeteer and Pyppeteer libraries to control Google Chrome or Chromium. Join me as I explore the possibilities of this project!
 keywords: LXD, Linux, Container, Pyppeteer, Playwright, Automation, Public Repository, Dependencies, ohawf, Google OAuth2, Authentication, WSL, Windows, Chrome, Selenium, NodeJS, Puppeteer, Chromium, Explore, Possibilities, JavaScript, Python
-categories: automation, lxd, chrome, javascript, linux, container, nodejs, wsl, python
+categories: automation, python, javascript, lxd, nodejs, linux, container, wsl, chrome
 layout: post
 ---
 
@@ -65,11 +65,11 @@ for unlimited baked-in sub-projects.
 
 <ul>
 <li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/chrome/'>Chrome</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/chrome/'>Chrome</a></h4></li></ul>

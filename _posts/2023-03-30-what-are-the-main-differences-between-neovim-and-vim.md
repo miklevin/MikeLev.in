@@ -5,7 +5,7 @@ permalink: /blog/what-are-the-main-differences-between-neovim-and-vim/
 headline: Discovering the Benefits of NeoVim Over Vim
 description: I recently discovered the advantages of using NeoVim over Vim, including its improved maintainability, plugin system, and customizability. After learning about the ability to work with Jupyter Notebooks in Visual Studio Code, I asked Bing why Github Copilot was only integrated with NeoVim. He provided resources to help me understand and I used the Getting Started with Jupyter Notebooks in Visual Studio Code guide to learn how to use the extension.
 keywords: NeoVim, Vim, Maintainability, Plugin System, Customizability, Jupyter Notebooks, Visual Studio Code, Github Copilot, OpenAI Codex API, Language Server Protocol, Microsoft, Extension, Interactive Python Coding
-categories: neovim, jupyter notebooks, microsoft, github copilot, vim
+categories: vim, neovim, microsoft, github copilot, jupyter notebooks
 layout: post
 ---
 
@@ -105,8 +105,8 @@ Source: Conversation with Bing, 3/30/2023
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li></ul>

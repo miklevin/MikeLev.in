@@ -5,7 +5,7 @@ permalink: /blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-li
 headline: "No More Imposter Syndrome: I'm Living My Best Life with LPvg"
 description: I never really became an entrepreneur, but I do use their tools such as Linux, Python, vim & git to build my projects and occasionally consider Kickstarting campaign. I no longer suffer from imposter syndrome, as I have learned that I am good enough and can be proud of my work. I now show others that it is possible to follow their dreams and make a difference, without being an assholepreneur. LPvg gives me the tools I need to build and stay ahead of the curve. Join me.
 keywords: Imposter Syndrome, Self-Improvement, LPvg, Linux, Python, VIM, GIT, Kickstarter, Entrepreneur, Role Model, Life, Organization, Metabolism, Homeostasis, Growth, Reproduction, Adaptation, Sensitivity, Movement, Evolution, AI, Viruses, Definition, Paradoxes, Infinity, Calculus, Goals, Success, Relationships, Jealousy, Envy, Self-Doubt, Self-Esteem, Confidence,
-categories: evolution, linux, imposter syndrome, git, success, ai, organization, python, lpvg, vim
+categories: evolution, imposter syndrome, python, ai, organization, lpvg, vim, linux, git, success
 layout: post
 ---
 
@@ -490,12 +490,12 @@ Hmmm. Maybe it's still actually best to do this next step the OpenAI way.
 
 <ul>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/organization/'>Organization</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>

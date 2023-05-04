@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-and-bard-features/
 headline: I Experienced Bing and Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: chatgpt, ai, bing, microsoft
+categories: ai, microsoft, chatgpt, bing
 layout: post
 ---
 
@@ -148,7 +148,7 @@ Mind* much?
 
 # Tone Control & Special Superscripts
 
-On February 25, 2023, Microsoft announced a new feature called Tone Control
+On February 25, 2023, Microsoft announced a new feature called `Tone Control`
 that would allow users to set the tone of the AI to be more or less human-like.
 
 ![Bing Tone Control Announced](/assets/images/bing-tone-control-announced.PNG)
@@ -366,7 +366,7 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
