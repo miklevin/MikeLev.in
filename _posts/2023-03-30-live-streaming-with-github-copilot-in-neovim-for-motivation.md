@@ -4,7 +4,7 @@ title: Live-streaming With Github Copilot in NeoVim for Motivation
 headline: Experimenting with NeoVim to Live-Stream and Create More Thrust with Linux, Python, Vim, and Git
 description: I'm experimenting with NeoVim, a vim-compatible fork, to live-stream in my journal. I'm also exploring the Meissner and Schwinger effects to create more thrust. To achieve my goals, I'm using Linux, Python, Vim, and Git. I'm creating an updated graphic of my stack to help others succeed. Join me as I dive head-first into my project tomorrow.
 keywords: NeoVim, Github, Copilot, Motivation, Meissner, Schwinger, Effects, Linux, Python, Vim, Git, MOZ Links API, Windows Subsystem, Linux, Canonical, Mac, Debian-derivative, systemd, Services, GPT-4, Integration, Live-streaming, Journal, Project, Graphic, Stack
-categories: github, neovim, mac, copilot, graphic, linux, python, git, moz links api, vim, windows subsystem, systemd, services
+categories: vim, neovim, python, git, mac, services, graphic, linux, systemd, windows subsystem, moz links api, copilot, github
 permalink: /blog/live-streaming-with-github-copilot-in-neovim-for-motivation/
 layout: post
 ---
@@ -174,15 +174,15 @@ Oh, hello! Let's start fresh...
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/windows-subsystem/'>Windows Subsystem</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/moz-links-api/'>MOZ Links API</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

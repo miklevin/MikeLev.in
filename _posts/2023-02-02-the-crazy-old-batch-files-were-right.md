@@ -4,7 +4,7 @@ title: The Crazy Old Batch Files Were Right
 headline: Unlocking the Power of Browser Automation and Python 3 to Manipulate Media and Control Hardware
 description: I recently used browser automation to work around Google Photo API limitations and am now attempting to slurp down all the images that have been uploaded to the cloud over the years, while keeping the Apple Motion data intact. I'm teaching people how to set up a Pipulate Free & Open Source SEO server on their Windows 10 or 11 desktop, leveraging the Microsoft Subsystem for Linux and Jupyter Notebooks. I'm also exploring how Python 3 will remain the final version of Python.
 keywords: Browser Automation, Google Photo API, Images, Apple Motion Data, Pipulate Free & Open Source SEO, Windows 10, Windows 11, Microsoft Subsystem for Linux, Jupyter Notebooks, Python 3, Linux Graphics, Systemd Service Manager, Ubuntu Linux, Data Manipulation, Tech Mechanics, Real-Time, Hardware, Batch Files, Generic Hardware, Startup
-categories: windows 10, hardware, jupyter notebooks, windows 11, browser automation
+categories: hardware, windows 11, jupyter notebooks, windows 10, browser automation
 permalink: /blog/the-crazy-old-batch-files-were-right/
 layout: post
 ---
@@ -169,8 +169,8 @@ hardware from startup.
 ## Categories
 
 <ul>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

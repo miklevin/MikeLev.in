@@ -4,7 +4,7 @@ title: Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?
 headline: Exploring the Implications of a Nonzero Photon Mass
 description: I was asked about Planck's equation E=hv and the quantum premise it implies. I explained the equation, dimensional analysis, and SI based units. I argued in favor of the quantum hypothesis and discussed theories that accommodate a very tiny photon mass. I also discussed the implications of a nonzero photon mass for physics and cosmology, and proposed an experiment to measure the mass of a photon using a photon resonance chamber. Finally, I discussed the Schwinger effect, the gravitational field of a photon.
 keywords: Quantum, Premise, Planck's, Equation, E=hv, Balanced, Dimensional, Analysis, SI, Units, Hypothesis, Photon, Mass, Physics, Cosmology, Experiment, Measure, Schwinger, Effect, Gravitational, Field, Einstein-de, Broglie-Proca, Theory, Stueckelberg, Theory, U(1)-gauge, Symmetry, Photoelectric, Effect, Compton, Effect, Spect
-categories: field, experiment, quantum
+categories: experiment, field, quantum
 permalink: /blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/
 layout: post
 ---
@@ -637,6 +637,6 @@ When a capacitor is discharged, the electric field between the plates collapses 
 ## Categories
 
 <ul>
-<li><h4><a href='/field/'>Fields</a></h4></li>
 <li><h4><a href='/experiment/'>Experiment</a></h4></li>
+<li><h4><a href='/field/'>Fields</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>

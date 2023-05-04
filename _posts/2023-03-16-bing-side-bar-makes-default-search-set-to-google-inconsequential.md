@@ -4,7 +4,7 @@ title: Bing Side Bar Makes Default Search Set To Google Inconsequential
 headline: Discover How Bing Side-Bar Makes Google Default Search Inconsequential
 description: Discover how I recently updated my browser to the newest version and found Bing integrated into the upper-right corner. I was curious to see if I could use it beyond my daily quota, and found out it's more about rate than queries per day. I activated the side-panel to see what it looks like and tried it out - read my blog post to find out what I discovered!
 keywords: Bing, Google, Browser, Version, Queries, Rate, Side-Panel, Activated, Inconsequential
-categories: google, version, bing
+categories: google, bing, version
 permalink: /blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/
 layout: post
 ---
@@ -44,5 +44,5 @@ Trying it out... sort of.
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/version/'>Version</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/version/'>Version</a></h4></li></ul>

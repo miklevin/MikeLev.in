@@ -4,7 +4,7 @@ title: Is The Rise of AI The Fall of SEO? (systemd snapshot machine)
 headline: "Gaining Competitive Advantages with AI: My Journey with Jo and Systemd Snapshot Machine"
 description: As a passionate FOSS SEO professional, I remember the early days of search engine forums and giving advice on how to optimize websites. With the rise of AI, I recognize that my skills are becoming less applicable and understand the anxiety this may cause. I discussed my idea of collecting data to gain competitive advantages with Jo, and am now working on a systemd snapshot machine.
 keywords: SEO, AI, Search Engine, FOSS, Optimize, Web-Tracking, Intranet, VBScript, Keyword Suggestion, Observe, Record, Pictures, Collect Data, Systemd, Snapshot Machine
-categories: systemd, ai, seo
+categories: ai, systemd, seo
 permalink: /blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/
 layout: post
 ---
@@ -56,6 +56,6 @@ the systemd snapshot machine is coming.
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

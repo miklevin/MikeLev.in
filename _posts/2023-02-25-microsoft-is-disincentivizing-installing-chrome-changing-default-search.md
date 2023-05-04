@@ -4,7 +4,7 @@ title: Microsoft is disincentivizing Installing Chrome & Changing Default Search
 headline: Microsoft Making Bold Move to Disrupt Google's Revenue Stream with Azure Cloud Computing
 description: As a tech enthusiast, I'm fascinated by Microsoft's bold move to power AI ChatBot responses with Azure cloud computing and disincentivize users from installing Chrome or changing their default search settings. This could have a huge impact on Google's main revenue stream and completely shift the landscape of the tech industry. Learn more about this fascinating development and its potential implications.
 keywords: Microsoft, Azure, Cloud Computing, AI, ChatBot, Chrome, Search, Revenue Stream, Habits, Hardware, Upgrade, Shift, Fortunes
-categories: habits, search, hardware, chrome, chatbot, ai, microsoft
+categories: hardware, ai, chrome, habits, chatbot, search, microsoft
 permalink: /blog/microsoft-is-disincentivizing-installing-chrome-changing-default-search/
 layout: post
 ---
@@ -40,9 +40,9 @@ This sudden collapse of main revenue stream for Google would be an unlikely scen
 ## Categories
 
 <ul>
-<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/chrome/'>Chrome</a></h4></li>
 <li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
