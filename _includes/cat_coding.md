@@ -1,5 +1,5 @@
 <ol>
-<li><a href="/blog/timeline-of-bing-bard-features/">Timeline of Bing & Bard Features</a> (Wed May 03, 2023)
+<li><a href="/blog/timeline-of-bing-and-bard-features/">Timeline of Bing and Bard Features</a> (Wed May 03, 2023)
 <br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
 <br/>This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.</li>

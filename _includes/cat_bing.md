@@ -1,5 +1,5 @@
 <ol>
-<li><a href="/blog/timeline-of-bing-bard-features/">Timeline of Bing & Bard Features</a> (Wed May 03, 2023)
+<li><a href="/blog/timeline-of-bing-and-bard-features/">Timeline of Bing and Bard Features</a> (Wed May 03, 2023)
 <br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a> (Tue Apr 18, 2023)
 <br/>Learn how to take back control of your online privacy in this episode of the "Browser Wars" series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.</li>
