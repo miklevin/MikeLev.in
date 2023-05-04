@@ -5,13 +5,13 @@ permalink: /blog/calcium-foss-make-flexible-tools/
 headline: "Exploring Text Editors: A Journey Through Evolution and AI"
 description: I've been exploring text editors and I've come to the realization that they are close to being tools in our bodies like calcium-based structures like bones. I believe that text editors are the most personal of all software, and AI is evolving AI to express itself inside them along with us. We're designing ourselves in another sort of Cambrian Explosion. Read my blog post to discover why I'm an optimist despite pervasive pessimistic arguments.
 keywords: Text Editors, Calcium Atoms, Silicon Atoms, Evolution, Software, Microsoft Word, VSCode, Sublime Text, AI, Filter Events, Survival, Express, Discover, Atoms, Cambrian Explosion, Life Epoch, Earth, Pessimists
-categories: evolution, ai, vscode
+categories: vscode, evolution, ai
 layout: post
 ---
 
 Welcome to how I think. I did fall down the rabbit hole over the past few days,
 going into the weekend, going into last week, and in its own way, going back to
-August 5th of 2021, and to circa 1991, when I was first exposed to vim.
+August 5 of 2021, and to circa 1991, when I was first exposed to vim.
 
 Text editors are different. They are the most personal of all software. As far
 as the "fundamental-ness" of tools go with the most fundamental being the
@@ -111,6 +111,6 @@ here.
 ## Categories
 
 <ul>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

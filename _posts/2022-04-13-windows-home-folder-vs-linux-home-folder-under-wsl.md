@@ -5,7 +5,7 @@ permalink: /blog/windows-home-folder-vs-linux-home-folder-under-wsl/
 headline: "Organizing Your Tech-Tools: Strategies for Windows Home Folder and Linux Home Folder Under WSL"
 description: As an experienced user of tech-tools, I have established conventions for storing files in my local system and online. I use the 'home' folder of the operating system as my starting point, and I'm also utilizing the Windows Subsystem for Linux (WSL) to access the Linux home folder. I'm currently considering what audience my writing should appeal to, and have identified two primary groups. Read my blog post to learn more about my strategies for organizing and using tech-tools.
 keywords: Windows, Home Folder, Linux, WSL, Experienced User, Tech-Tools, Local System, Online, Strategies, Organizing, Mac, Github, Audience, Writing, Groups, Tech-Tools
-categories: audience, linux, mac, github, wsl
+categories: wsl, linux, github, audience, mac
 layout: post
 ---
 
@@ -82,8 +82,8 @@ THOSE WITH A DATA OR SEO-FOCUS
 ## Categories
 
 <ul>
-<li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li></ul>

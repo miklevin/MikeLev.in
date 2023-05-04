@@ -5,7 +5,7 @@ permalink: /blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hyperv
 headline: Three Steps to Get WSL2 Running on Windows 10
 description: "Learn how to use WSL2 (Windows Subsystem for Linux) on Windows 10 with just three steps: enabling Windows Subsystem for Linux, enabling Hypervisor, and downloading and running a patch. To make sure any future WSL instances are version 2, run the command 'wsl --set-default-version 2'. For more information on Terminal-based Linux, follow Mike Levin on YouTube."
 keywords: WSL2, Windows 10, Kernel Update, Hypervisor, Enable, Download, Run, Patch, Command, Terminal-based Linux, Mike Levin, YouTube
-categories: wsl2, youtube, windows 10
+categories: youtube, windows 10, wsl2
 layout: post
 ---
 
@@ -79,6 +79,6 @@ what he's talking about.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>
