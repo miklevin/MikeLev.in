@@ -5,7 +5,7 @@ permalink: /blog/bopping-between-python-bash-scripts-no-biggie/
 headline: Migrating Wordpress Content to Github Pages with Python & Bash Scripts
 description: I recently moved my Wordpress site off of my HostMonster account and exported the content as markdown. To re-publish the content, I used Github Pages and managed the blog content across 15 sites with a single journal.md file and a bash file. To make the process easier, I wrote a Python script, make_helpers, to manage the sites.txt file and change the order of the file locations. Read my blog post to find out how I did it.
 keywords: Python, Bash, Scripts, Wordpress, HostMonster, Markdown, Github, Pages, Journal.md, Sites.txt, File Locations, Make_Helpers
-categories: github, bash, journal.md, python
+categories: bash, journal.md, python, github
 layout: post
 ---
 
@@ -106,7 +106,7 @@ Woot!
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/bash/'>Bash</a></h4></li>
 <li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

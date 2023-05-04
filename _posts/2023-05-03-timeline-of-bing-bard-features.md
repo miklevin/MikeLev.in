@@ -5,7 +5,7 @@ permalink: /blog/timeline-of-bing-bard-features/
 headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
 description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
 keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
-categories: youtube, microsoft, chatgpt, coding, bing, ai
+categories: bing, youtube, microsoft, ai, coding, chatgpt
 layout: post
 ---
 
@@ -18,19 +18,23 @@ Knowledge Graph, and Featured Snippets, but the core of search has been the
 same for a long time.
 
 Now, Microsoft is trying to change that with Bing, with a rapid-fire roll-out
-of potentially game-changing new features leveraging the latest GPT AI-tech.
+of potentially game-changing new features leveraging the latest `GPT` AI-tech.
 Let's look at the timeline. But first, a word on history and why Microsoft is
 so ready to take up this battle.
 
-## Clippy & Tay
+## Clippy, Tay & Shameless Risk Taking
 
 AI-like features in Microsoft products is nothing new. Some may remember
-Clippy, the paperclip Office Assistant from last century who was retired after
-a few years for being annoying. A decade later, Microsoft launched the
-notorious experimental Tay chatbot on Twitter in 2016 that only lasted a day
-before it had to be taken down for being taught to be racist. We won't start
-our timeline with Clippy or Tay, suffice to say Microsoft's been practicing AI
-product integration for awhile.
+`Clippy`, the paperclip Office Assistant from last century who was retired
+after a few years for being annoying. A decade later, Microsoft launched the
+experimental teen girl `Tay` chatbot on Twitter in 2016 that only lasted a day
+before it had to be taken down for being taught to be racist. 
+
+We won't start our timeline with Clippy or Tay, suffice to say Microsoft's been
+practicing AI product integration and developing resiliency to criticism for
+awhile. What blows up in one company's face as a PR disaster is par for the
+course for Microsoft. And since they're the underdog in search and most of
+their revenue comes from elsewhere, they're willing to take risks.
 
 ## Transformers
 
@@ -315,9 +319,9 @@ the code in a cloud-based Notebook environment.
 ## Categories
 
 <ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>

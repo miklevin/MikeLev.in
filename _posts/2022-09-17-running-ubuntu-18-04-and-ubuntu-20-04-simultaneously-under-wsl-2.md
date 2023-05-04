@@ -5,7 +5,7 @@ permalink: /blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-
 headline: My Obsessive Compulsive Journey of Running Ubuntu 18.04 and 20.04 Simultaneously Under WSL 2
 description: I recently updated my Windows taskbar to include a BASH Shell, Jupyter and Web browser, and it's become part of my daily routine. I had to decide whether to keep one copy of Linux running under WSL, so I chose to run both 18.04 and 20.04 side-by-side. Follow me as I take you through my obsessive compulsive journey of updating my taskbar and deciding which Linux OS to run.
 keywords: Running, Ubuntu, 18.04, 20.04, WSL, 2, Windows, Taskbar, BASH, Shell, Jupyter, Web, Browser, Routine, Linux, OS, Update, Project, Side-by-Side
-categories: linux, bash, 20.04, jupyter, ubuntu, wsl
+categories: 20.04, wsl, linux, bash, ubuntu, jupyter
 layout: post
 ---
 
@@ -36,9 +36,9 @@ performance issue, but there is none.
 ## Categories
 
 <ul>
+<li><h4><a href='/20-04/'>20.04</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/bash/'>Bash</a></h4></li>
-<li><h4><a href='/20-04/'>20.04</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

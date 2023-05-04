@@ -5,7 +5,7 @@ permalink: /blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-
 headline: "Becoming More Independent: Setting Up a New Environment on LXD on WSL"
 description: I'm helping people become more independent of desktop software and be able to use Linux terminal for their day-to-day tasks. To do this, I set up a new environment on LXD on WSL, trimmed my public Github repos, and created a new repo with an install script. I'm also crafting a message for my public website that will appeal to people in general and capture their attention. Come and learn how to become more independent and use Linux terminal for your daily tasks.
 keywords: Writing, Install Scripts, Jupyter, LXD, WSL, Linux Terminal, Public Github Repos, Configuration Files, Free Software, GI, Website, Message, Attention, Plowing, Competition
-categories: jupyter, lxd, message, wsl
+categories: message, lxd, wsl, jupyter
 layout: post
 ---
 
@@ -134,7 +134,7 @@ Cut this journal entry here. :w
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
