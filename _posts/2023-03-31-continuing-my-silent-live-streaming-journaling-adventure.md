@@ -4,7 +4,7 @@ title: Continuing My Silent Live-Streaming Journaling Adventure
 headline: Exploring the Possibilities of Journaling and Coding Through Live-Streaming My Journey
 description: I'm live-streaming my journey of journaling and making the argument for keeping a single text file for life. I'm also creating a Github repo with code examples, watching cartoons with my kid, and making them food. I've written sample code and converted them into Python dict objects, and I now have a Jupyter Notebook to share with the community. Join me on my journey and explore the possibilities of journaling and coding!
 keywords: Journaling, Single Text File, Live-Streaming, Github, Code Examples, Python, Dict Objects, Jupyter Notebook, Personal Journal, Professional Journal, Vi-like Editor, API, Cartoon, Food, String JSON
-categories: journaling, python, jupyter notebook, api, github
+categories: github, api, journaling, python, jupyter notebook
 permalink: /blog/continuing-my-silent-live-streaming-journaling-adventure/
 layout: post
 ---
@@ -101,8 +101,8 @@ you can share in the resource.
 ## Categories
 
 <ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Adding Style Sheets to Github Pages Jekyll Blog
 headline: Successfully Added Style Sheets to My Github Pages Jekyll Blog!
 description: I figured out how to add style sheets to my Github Pages Jekyll Blog using the sass css generator. After pasting the CSS provided in the article I was working off of underneath the @import 'jekyll-theme-hacker' line, I was able to add the prev/next arrows to my blog. Come read more about my journey in adding style sheets to my blog!
 keywords: Github Pages, Jekyll Blog, Style Sheets, Sass CSS Generator, CSS, @import 'jekyll-theme-hacker', Prev/Next Arrows, Article, Journey
-categories: github pages, journey
+categories: journey, github pages
 permalink: /blog/adding-style-sheets-to-github-pages-jekyll-blog/
 layout: post
 ---
@@ -57,5 +57,5 @@ simply paste it underneath:
 ## Categories
 
 <ul>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>

@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/moz-links-api-touch-every-endpoint-in-python/">MOZ Links API, Touch Every Endpoint in Python</a> (Tue May 02, 2023)
-<br/>This article provides an introduction to using the MOZ Links API with Python. It covers how to import resources, load login credentials, configure variables, and make API requests. It also includes code to list the available sub-endpoints, provide human-friendly labels, and show example requests for each endpoint. Finally, it includes a function to hit the API and a code snippet to store the response in a SQLite database.</li>
 <li><a href="/blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/">Embedding SVG Images in Markdown Cells of Jupyter Notebooks</a> (Sat Apr 08, 2023)
 <br/>This blog post explains how I wrote a Python program that uses the base64 module to encode an SVG image file, generates an HTML img tag with the encoded data as the src attribute, and outputs the HTML img tag as a string. This allows the image to be displayed properly in a markdown cell of a Jupyter Notebook, making it easy to reference the original file. Read on to find out how I did it!</li>
 <li><a href="/blog/powering-my-way-through-moz-links-api-documentation/">Powering My Way Through MOZ Links API Documentation</a> (Sat Apr 01, 2023)
