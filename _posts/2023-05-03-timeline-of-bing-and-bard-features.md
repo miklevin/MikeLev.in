@@ -7,6 +7,8 @@ keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Cit
 permalink: /blog/timeline-of-bing-and-bard-features/
 layout: plain
 ---
+# Timeline of Bing and Bard Features
+
 
 
 Microsoft is tweaking The New Bing constantly, grooming it to be the heir

@@ -4,7 +4,7 @@ title: Planning Multiple Blogs Within One Github Pages Site
 headline: "Explore My Digital Portal: Creating a Space of Freedom and Objectivity"
 description: I'm planning to use Github Pages to host multiple blogs in one site, and I'm considering changes to my old content and URLs, as well as adding tags, a 'big list' of blog posts, pagination, and thumbnail embeds. My goal is to create a website that provides the wisdom of the ages, allowing for objective thought and accessible through any device or tablet. Come explore my digital portal and join me in creating a space of freedom and objectivity.
 keywords: Github Pages, Multiple Blogs, Content, URLs, Tags, Big List, Pagination, Thumbnail Embeds, Organization, Wisdom, Ages, Freedom, Objectivity, Device, Tablet, Digital Portal
-categories: organization, github pages, wisdom
+categories: wisdom, github pages, organization
 permalink: /blog/planning-multiple-blogs-within-one-github-pages-site/
 layout: post
 ---
@@ -87,6 +87,6 @@ comes naturally.
 ## Categories
 
 <ul>
-<li><h4><a href='/organization/'>Organization</a></h4></li>
+<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
 <li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/wisdom/'>Wisdom</a></h4></li></ul>
+<li><h4><a href='/organization/'>Organization</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs
 headline: Creating Innovative SEO Deliverables for Better Website Performance
 description: As an SEO consultant, I have suggested to a client to create a range of SEO deliverables beyond the traditional, such as a Bonsai report to identify low-quality pages and provide recommendations, a Striking Distance report to identify keywords that could be ranking higher, and a Gap Analysis report to compare the site's rankings to competitors. Additionally, I outline ideas for how to monetize this data, such as selling it to other businesses, creating products or services, and teaching others about SEO.
 keywords: SEO, Deliverables, Bonsai Report, Striking Distance Report, Gap Analysis Report, Monetize, Compounding Results, Snowball Effect, Strengths, Goals, Action, Network, Learning, Positive, Tracking Progress, Objectives, Steps, Regular Basis, Jupyter Notebooks, Data Analysis, Scientific Research, Reproducibility, Coding, Accessible, Easy, Share, Teach, Automate, Tasks, Custom Capabilities, Conversation, Concern
-categories: jupyter notebooks, coding, learning, seo, goals, network
+categories: goals, jupyter notebooks, coding, learning, seo, network
 permalink: /blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos/
 layout: post
 ---

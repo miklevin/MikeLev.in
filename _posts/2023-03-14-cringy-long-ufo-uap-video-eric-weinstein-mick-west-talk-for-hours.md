@@ -4,7 +4,7 @@ title: "Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours"
 headline: Exploring the Wacky World of UFOs and UAPs with Eric Weinstein and Mick West
 description: As a fan of Mick West and Eric Weinstein, I have been watching their videos to understand their different theories about UFOs and UAPs, including the possibility of our existence being different than we think. Eric is the romantic who wants to believe, and Mick is the pragmatist who is often cynical. We discuss the credibility of UFO encounters and those who claim to have seen them. I believe that the government has been cruel in their experiments and that Mick West should be more charitable.
 keywords: UFO, UAP, Eric Weinstein, Mick West, Credibility, Government, Experiments, Bob Lazar, Steven Greer, Jeremy Corbell, Lou Elizondo, Existence, Theory, Romantic, Pragmatist, Cynical, Cringe-Worthy
-categories: ufo, experiments
+categories: experiments, ufo
 permalink: /blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/
 layout: post
 ---
