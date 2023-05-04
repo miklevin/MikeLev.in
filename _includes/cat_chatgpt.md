@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/timeline-of-bing-bard-features/">Timeline of Bing & Bard Features</a> (Wed May 03, 2023)
+<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
 <br/>I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too.</li>
 <li><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a> (Sat Apr 08, 2023)
@@ -40,4 +42,4 @@
 <li><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a> (Sun Dec 11, 2022)
 <br/>I'm using ChatGPT to help me visualize the future, tell stories, and articulate the Hero's Journey. I'm learning valuable lessons like it's never too late, and I'm pushing Linux, Python, vim, and git into the unconscious and automatic quadrant so I can use them like I use spoken language or driving. I'm testing to see if ChatGPT is really a game-changer.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/unix/">Unix</a></div><div class="post-nav-next"><a href="/systemd/">Systemd</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl2/">WSL2</a></div><div class="post-nav-next"><a href="/neovim/">NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>

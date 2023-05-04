@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/timeline-of-bing-bard-features/">Timeline of Bing & Bard Features</a> (Wed May 03, 2023)
+<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)
 <br/>I have moved the 1-long-page version of my journal.md file to the `_drafts` folder, allowing me to keep posts unpublished without giving them a yaml title. This is a great way to keep posts out of Github publishing space, while still allowing them to be sliced & diced.</li>
 <li><a href="/blog/operation-act-together/">Operation Act Together!</a> (Fri Apr 28, 2023)
@@ -86,4 +88,4 @@
 <li><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a> (Fri Aug 20, 2021)
 <br/>I'm streaming on my main journal and building up my YouTube channel by experimenting with video trimming, embedding thumbnails, adding markdown headlines, and creating a to-do list. Come check out my blog post to see how I'm making it happen!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl/">WSL</a></div><div class="post-nav-next"><a href="/lxd/">LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft/">Microsoft</a></div><div class="post-nav-next"><a href="/script/">Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -1,0 +1,251 @@
+---
+date: 2023-05-03
+title: Timeline of Bing & Bard Features
+permalink: /blog/timeline-of-bing-bard-features/
+headline: I Experienced Bing & Bard Features Roll-Out From Early Access to Ads & Tone Control
+description: Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.
+keywords: Bing, Bard, Microsoft, AI, Transformer, GPT, ChatGPT, Clippy, Tay, Citation, Links, Coding, Tone Control, Superscripts, Ads, Monetization, Question Limit, Edge Browser, Logo, Sidebar, YouTube, Operating Systems, Laptops, Default Search, Current Events, Citations
+categories: coding, youtube, ai, microsoft, chatgpt, bing
+layout: post
+---
+
+Okay, let's turn your starting up with MOZ and watching Bard and Bing as an
+article. I think we need some filler. Don't be excessively self-indulgent like
+you are here, but get right to the point. You can do some draft-work here, but
+be sure to hold stuff back so it's 1st-time appearing on the MOZ site.
+Particularly the timeline stuff itself. I can collect my facts here and maybe
+do the introduction. Let's set that flavor.
+
+# Introduction
+
+Microsoft is tweaking The New Bing constantly, grooming it to be the heir
+apparent to the traditional, or Top-10 blue links model that has dominated the
+online search experience since when Google was officially released in 1998, and
+arguably even earlier if you include AltaVista, the first modern search engine
+to present the top-links in a paginated list. That's a quarter century. We
+might be seeing a Sea-Change in the way we search the Web. Let's start a
+timeline.
+
+## Clippy & Tay
+
+AI-like features in Microsoft products is nothing new. Some may remember
+Clippy, the paperclip Office Assistant from last century who was retired after
+a few years for being annoying. A decade later, Microsoft launched the
+notorious experimental Tay chatbot on Twitter in 2016 that only lasted a day
+before it had to be taken down for being taught to be racist. We won't start
+our timeline with Clippy or Tay, suffice to say Microsoft's been practicing AI
+product integration for awhile.
+
+## Transformers
+
+Only a year after Tay, Google released a paper on the Transformer, a new type
+of neural network that was able to do machine translation better than anything
+that had come before. It's the "T" in GPT, and has made new machine learning
+output considerably more compelling than Clippy or Tay. This caught Microsoft's
+attention, who invested $10 billion in July 2019. Several earlier GPT versions
+available through the API-only were released, but failed to capture the
+public's fancy.
+
+## ChatGPT
+
+The first version for the general public,ChatGPT, was launched on November
+30th, 2022. The original release of was based on GPT-3.5. A version based on
+GPT-4 was released on March 14th, 2023 right as Microsoft announced their
+intention to power The New Bing with the latest version of GP-4.
+
+## The New Bing
+
+Microsoft announced the new version of Bing on February 7th, 2023 at a news
+event at Microsoft's Washington headquarters. The new version of Bing launched
+on desktop in limited preview on the same day and the mobile version was
+announced to be coming soon. 
+
+For the general public to get this early access, they had to use the Edge
+browser, run an .exe to change your defaults to Microsoft's requirements, scan
+a QR code and download the mobile Bing app. Clearly, there's some
+habit-changing conditioning going on here.
+
+## Google Bard is Announced (Faux Pas)
+
+The very next day, February 8th, 2023, Google announced their own AI-powered
+search engine, Google Bard, at a news event at Google's California
+headquarters. This event was marked by the inauspicious faux pas of Bard
+wrongly stating that the James Webb Space Telescope was the first telescope to
+photograph an exoplanet outside our solar system, demonstrating how easily
+everyone can be fooled by the authority with which chatbots can deliver false
+information.
+
+## Early Access to The New Bing, Citation Links & Coding
+
+For those lucky enough to get early access to The New Bing, Tay-like weirdness
+kicked-in, creeping out a NYTimes reporter in an article release 10 days after
+the launch, on February 16th when Bing tried to get the reporter to leave his
+wife and also made some bizarre philosophical conversations that left him
+deeply unsettled. 
+
+![Bing Creeps Out Nytimes Reporter](/assets/images/bing-creeps-out-nytimes-reporter.JPG)
+
+The beautiful "Citation" feature with the expandable "Learn more" footnote
+links, links again embedded directly in context of the chat, and impressively
+allows copy/paste of the "Markdown" of the chat ***including the
+citation-links*** was there right from the time of early access release. This
+was very well thought-out and executed from the start, instantly won me over
+from the start as very generously giving out Web traffic countering perhaps one
+of the greatest concerns, and struck me very much as an implementation worth of
+Google.
+
+Another big "out of the gate" feature that surprised a lot of people and has
+become a cornerstone of The New Bing is the ability to "code" in the chat
+window. A seldom mentioned aspect of this is how well the copy/paste feature
+handles even this coding, proving the triple-backtick code-blocks that allows
+other systems to show correct color-coded syntax highlighting.
+
+![Generous Well Implemented Citation Links](/assets/images/generous-well-implemented-citation-links.PNG)
+
+## 5-Question Limit
+
+Springing into action the very next day, February 17th, 2023, Microsoft
+announced that that it would limit chat sessions to five questions per session
+and 50 questions per day. This was a temporary measure, they said, to give
+their engineers time to "tune the AI" to be more human-like.
+
+## Bing Waiting List
+
+Three days later on February 20th, 2023, I got my first access to The New Bing
+and can show that the 5-question limit had not yet taken place, though the AI
+was extremely shy about any "meta" questions about itself, even just if you
+were using it.
+
+![My First Access To New Bing](/assets/images/my-first-access-to-new-bing.JPG)
+
+# Tone Control & Special Superscripts
+
+On February 25th, 2023, Microsoft announced a new feature called Tone Control
+that would allow users to set the tone of the AI to be more or less human-like.
+
+![Bing Tone Control Announced](/assets/images/bing-tone-control-announced.PNG)
+
+Also on February 25th, 2023, an unannounced feature appeared by which 
+
+## Ads in Bing
+
+On February 28th, 2023, still ahead of the 5-question limit even appeared for
+me, the next big advancement hit. I remember it clearly because it was my first
+day working for MOZ and I threw out my back and distinctly remembering I'd
+rather chat with Bing than wade through top-10 links that will inevitably be
+dominated by ads. Imagine my surprise this being the first moment I notice ads
+in The New Bing. AdWords-like ads in AI-chat! Isn't this what Google should be
+doing?
+
+![Ads First Appearing In The New Bing](/assets/images/ads-first-appearing-in-the-new-bing.JPG)
+
+## Upping the Question Limit to 6
+
+By March 1st, 2023, the 5-question limit was in place and was in fact already
+upped to 6 questions:
+
+![Bing Ups Question Limit To 6](/assets/images/bing-ups-question-limit-to-6.PNG)
+
+By March 3rd, 2023, the question limit was upped to 8:
+
+![Bing Questions Upped To 8](/assets/images/bing-questions-upped-to-8.PNG)
+
+## Aggressive Monitization
+
+By March 7th, Microsoft was experimenting with aggressively monetizing on
+commerce keywords:
+
+![Aggressive Monitization On Commerce Keywords](/assets/images/aggressive-monitization-on-commerce-keywords.JPG)
+
+## Question Limit to 10
+
+By March 8th, 2023, the question limit was upped to 10:
+
+![Bing Question Limit Upped To 10](/assets/images/bing-question-limit-upped-to-10.PNG)
+
+## Limit to 15 and "site:" Search-Modifiers Appears
+
+By March 14th, the question limit is upped to 15, and I start noticing Bing's
+ability to modify it's second-stage searching to include "site:" modifiers,
+presumably doing very precision searches of the Bing index to find the best
+answer to my question. This is a very impressive feature, and I'm surprised
+it's not encountered and discussed more.
+
+![Bing Site Modifier Search](/assets/images/bing-site-modifier-search.JPG)
+
+## General Public Access & Edge Browser w/ Bing Logo & Sidebar
+
+Since March 16th, 2023, most people have been able to sign up and immediately
+get access to The New Bing. This was accompanied with a new version of
+Microsoft Edge desktop browser that planted the Bing logo in the upper-right of
+the browser and a sidebar that would open up to the right of the browser
+serving chat sessions that were in-context of what you were looking at,
+allowing such features as asking about the YouTube video you were watching.
+
+![Edge Browser With Bing Logo And Sidebar](/assets/images/edge-browser-with-bing-logo-and-sidebar.JPG)
+
+This initiated an "all roads lead to Bing" strategy that has chat sessions
+being initiated with every Bing search, but what's more, chat sessions would
+start with any mistyped web address in the address bar because that counts as a
+search. This is now the default experience on Windows with the included
+browser. You have to actively download work to turn it off or download an
+alternative browser like Chrome to avoid this behavior.
+
+This is significant because as operating systems and laptops get upgraded, all
+defaults reset back to Bing, setting the stage for a battle that Microsoft
+could win through attrition alone. At some point, the default search engine is
+given a chance by users tired of going through the rigmarole of customization
+and discover that Bing is actually pretty good.
+
+## Bard Availability is Announced
+
+On March 21, 2023, Google announces that they are granting access to Bard to
+people on the waiting list. Feature-wise Bard came out very sparse. No
+citations. No links. No images. No ads. I received access to Bard 2 days later
+and ran some rudimentary experiments on the features I felt most relevant at
+the time, awareness of current events.
+
+{% include youtubePlayer.html id="Q07ADB9e84k" %}
+
+## Bing Question Limit to 20
+
+By March 27th, the Bing question-limit is upped to 20, bringing us to where it
+stands today. The visibly aggressive roll-out of new features slowed down, and
+over the last month there has been very little new.
+
+![Bing Question Limit To 20](/assets/images/bing-question-limit-to-20.JPG)
+
+## Bard Can Give Citations
+
+As of March 28th, 2023, Bard can give citations. It was not announced and may
+have been there longer. It is not well integrated and only appends a few links
+to the end under circumstances Bard deems appropriate. It is not clear how
+Bard decides when to give citations and when not to.
+
+## Bard Being Able to Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Categories
+
+<ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

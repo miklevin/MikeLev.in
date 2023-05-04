@@ -5,7 +5,7 @@ permalink: /blog/much-starts-with-the-ability-to-create-and-use-local-caches/
 headline: Exploring Local Caches for Self-Reliance and Independence
 description: I have been exploring Microsoft's implementation of systemd under wsl and have had mixed results. To ensure self worth and independence, I suggest investing in free and open source software (FOSS) and using caches, such as a SQLite .db file, to ensure persistence. I have been exploring the use of local caches for short-term memory and for storing variables used in programs, and share my experiences to help others.
 keywords: Microsoft, systemd, wsl, FOSS, SQLite, .db, Unix-system, local caches, short-term memory, variables, programs, December 1st, 2022, background services, Linux, abstraction, hardware, proprietary systems, cloud, persistence, caches
-categories: hardware, 2022, wsl, microsoft, systemd, linux, sqlite
+categories: systemd, 2022, linux, hardware, microsoft, wsl, sqlite
 layout: post
 ---
 
@@ -143,10 +143,10 @@ So, let's learn local cashes.
 ## Categories
 
 <ul>
-<li><h4><a href='/hardware/'>Hardware</a></h4></li>
-<li><h4><a href='/2022/'>2022</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/2022/'>2022</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/hardware/'>Hardware</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>

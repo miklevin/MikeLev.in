@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/timeline-of-bing-bard-features/">Timeline of Bing & Bard Features</a> (Wed May 03, 2023)
+<br/>Explore the timeline of Bing & Bard features, from Microsoft's earlier AI experiments to the latest updates of Bing and Google Bard. Learn about the features of both search engines, including Tone Control, Citation Links, and Coding, as well as the 5-question limit and aggressive monitization of Bing. Get a comprehensive overview of the history of both search engines.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)
@@ -88,4 +90,4 @@
 <li><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a> (Fri May 13, 2022)
 <br/>As a Windows user, I'm on a mission to acquire the same text-editing superpowers as my vim-master spouse. With Microsoft's Windows Subsystem for Linux (WSL) and Windows Terminal, I can make it happen! Installing WSL is a breeze - just type "wsl --install" in the Windows command window. Then, I can get Windows Terminal from the Microsoft Store, and I'll be ready to take my text-editing skills to the next level</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/seo/">SEO</a></div><div class="post-nav-next"><a href="/script/">Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/seo/">SEO</a></div><div class="post-nav-next"><a href="/youtube/">YouTube</a><span class="arrow">&nbsp;&rarr;</span></div></div>
