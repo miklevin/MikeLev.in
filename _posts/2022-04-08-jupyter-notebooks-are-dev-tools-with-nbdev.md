@@ -5,7 +5,7 @@ permalink: /blog/jupyter-notebooks-are-dev-tools-with-nbdev/
 headline: Exploring nbdev and LPvg with JupyterLab to Automate 24x7 Systems
 description: I'm exploring nbdev and LPvg to advance my knowledge of Python and the tools available for 24x7 automated systems. I'm using JupyterLab on Windows and have learned about commands like nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, and more to help with the release process. I'm excited to see what I can do with nbdev and am embracing the challenge of incorporating it into my workflow
 keywords: Jupyter, Notebooks, Dev, Tools, nbdev, LPvg, Python, Commands, nbdev_clean_nbs, nbdev_build_lib, nbdev_build_docs, Papermill, Parameterize, Notebooks, nbdev_bump_version, git, push, make, pypi, pip, installable, libraries, mistune, version, 0.8.4, Anaconda, J
-categories: nbdev, jupyter, version, git, lpvg, pypi, python
+categories: git, lpvg, python, jupyter, pypi, nbdev, version
 layout: post
 ---
 
@@ -340,10 +340,10 @@ page.
 ## Categories
 
 <ul>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/version/'>Version</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/version/'>Version</a></h4></li></ul>

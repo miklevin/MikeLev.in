@@ -5,7 +5,7 @@ permalink: /blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/
 headline: "Uncovering Microsoft's Plans to Compete with Google: My Quest to Find Alternatives to ChatBot Prometheus"
 description: As an SEO expert, I love helping people find what they need online, but I despise how it is used to promote and shill poor-quality products. In the past, Google encouraged the creation of large websites with interconnected content to make them more discoverable, but this caused a lot of technical debt. Microsoft is now taking advantage of this by controlling Windows, Github, VSCode, and the default browser on the desktop.
 keywords: Microsoft, Bing, SEO, Google, Windows, Github, VSCode, Browser, ChatBot, Prometheus, Domain Authority, SERPs, Links, Quality, Age, Total Links, Strength
-categories: seo, bing, google, microsoft, github, strength, vscode, chatbot
+categories: vscode, microsoft, github, seo, strength, google, chatbot, bing
 layout: post
 ---
 
@@ -146,11 +146,11 @@ Improving your website's Domain Authority can help improve your website's search
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/strength/'>Strengths</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
