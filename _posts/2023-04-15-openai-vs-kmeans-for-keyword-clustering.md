@@ -4,7 +4,7 @@ title: OpenAI Vs. KMeans for Keyword Clustering
 headline: Discovering the Benefits of OpenAI for Keyword Clustering
 description: I recently used OpenAI to create a prompt to extract the top keywords and main category for my article. Using my old keywords.db and topics.db files, I re-generated my Meta Descriptions and Keywords based on OpenAI prompts. I discovered that intelligence is a product, and I'm excited to share the results of my experiment with you!
 keywords: OpenAI, KMeans, Keyword Clustering, Meta Descriptions, Keywords, Intelligence, Product, Experiment, Results, Category, Topics, Files
-categories: meta descriptions, keywords, openai, experiment
+categories: experiment, meta descriptions, openai, keywords
 permalink: /blog/openai-vs-kmeans-for-keyword-clustering/
 layout: post
 ---
@@ -65,7 +65,7 @@ it could be making.
 ## Categories
 
 <ul>
+<li><h4><a href='/experiment/'>Experiment</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
-<li><h4><a href='/keywords/'>Keywords</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/experiment/'>Experiment</a></h4></li></ul>
+<li><h4><a href='/keywords/'>Keywords</a></h4></li></ul>
