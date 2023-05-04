@@ -4,7 +4,7 @@ title: Are Quantum Computers Fake? Proof? What About Superdeterminism?
 headline: Exploring Quantum Computing and the Possibility of a Multiverse
 description: This blog post explores the evidence for quantum computing and quantum supremacy, as well as the events that could provide absolute proof that quantum computing is not false. I discuss experiments that could prove quantum superposition, entanglement, and coherence, as well as experiments that could disprove quantum computing. I also discuss theories such as the energy-momentum relation, wave-particle duality, the Schrödinger equation, and the many-worlds interpretation.
 keywords: Quantum Computers, Fake, Proof, Superdeterminism, Evidence, Quantum Supremacy, Experiments, Quantum Superposition, Entanglement, Coherence, Energy-Momentum Relation, Wave-Particle Duality, Schrödinger Equation, Many-Worlds Interpretation, Bohmian Mechanics, Decoherence Theory, Consistent Histories, Quantum Logic, Relational Quantum Mechanics, Quantum Information Theory, Multiverse Theory, Double-Slit Experiment
-categories: evidence, experiments
+categories: experiments, evidence
 permalink: /blog/are-quantum-computers-fake-proof-what-about-superdeterminism/
 layout: post
 ---
