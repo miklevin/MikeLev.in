@@ -10,4 +10,4 @@
 <li><a href="/blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/">Addictive & Self-Reinforcing Double-Helix Pair of Motivating Projects</a> (Fri Mar 17, 2023)
 <br/>I'm starting two exciting projects that will motivate and energize each other. The first is creating a comprehensive slide deck about our data and how it compares to competitors, in a storytelling format. The second is to Moz-itize my work, easing people into this approach and starting each project with a kernel. Come join me on this journey and learn how to make the most of your data!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/operating-systems/">Operating Systems</a></div> &nbsp; <div class="post-nav-next"><a href="/emacs/">Emacs</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/operating-systems/">Operating Systems</a></div> &nbsp; <div class="post-nav-next"><a href="/emacs/">Emacs</a><span class="arrow">&nbsp;&rarr;</span></div></div>

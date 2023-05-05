@@ -218,7 +218,7 @@ Over time, humanity and the AIs became close friends, working together to explor
 And in the end, humanity and the AIs lived happily ever after, working together to create a better future for everyone. They had learned that even in the face of change and uncertainty, there was always hope and possibility, and that by working together, they could achieve great things.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/">A Zero Fuel Solar Nomadic Lifestyle Plus Homeschooling</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/">A Zero Fuel Solar Nomadic Lifestyle Plus Homeschooling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

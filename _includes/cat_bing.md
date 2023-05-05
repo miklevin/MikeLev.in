@@ -36,4 +36,4 @@
 <li><a href="/blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/">Like Microsoft Always Said, Try To Put a Bing In The Universe</a> (Sun Feb 12, 2023)
 <br/>As an SEO expert, I love helping people find what they need online, but I despise how it is used to promote and shill poor-quality products. In the past, Google encouraged the creation of large websites with interconnected content to make them more discoverable, but this caused a lot of technical debt. Microsoft is now taking advantage of this by controlling Windows, Github, VSCode, and the default browser on the desktop.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/systemd/">Systemd</a></div> &nbsp; <div class="post-nav-next"><a href="/vscode/">VSCode</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/systemd/">Systemd</a></div> &nbsp; <div class="post-nav-next"><a href="/vscode/">VSCode</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -35,7 +35,7 @@ a droplet and push it out as a blog post like this one.
 > Least you go insane
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

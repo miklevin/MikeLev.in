@@ -8,4 +8,4 @@
 <li><a href="/blog/run-jupyter-from-lxd-linux-container-on-windows/">Run Jupyter from LXD Linux Container on Windows</a> (Thu Sep 08, 2022)
 <br/>Learn how to run Jupyter from an LXD Linux Container on Windows with me! I walk you through setting up an LXD container, adding a proxy device, logging into the container, adding a Python 3.10 virtual environment, creating a .bash_profile to activate the venv, installing Jupyter Lab, creating a script to run Jupyter in a way that the proxy can reach, and finally setting up a browser window to access Jupyter.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/copy-paste/">Copy/Paste</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copy-paste/">Copy/Paste</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&nbsp;&rarr;</span></div></div>

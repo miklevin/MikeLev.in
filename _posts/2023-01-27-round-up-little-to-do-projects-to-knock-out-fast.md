@@ -53,7 +53,7 @@ for item in data["bookmarks"]:
 Okay, so I've got Instapaper documented.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/chatgpt-helped-python-tweepy-my-tweets-onto-my-website/">ChatGPT Helped Python Tweepy my Tweets Onto My Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-could-be-super-enabling-helping-you-code-at-all/">AI Could be Super-Enabling, Helping You Code At All</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-helped-python-tweepy-my-tweets-onto-my-website/">ChatGPT Helped Python Tweepy my Tweets Onto My Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-could-be-super-enabling-helping-you-code-at-all/">AI Could be Super-Enabling, Helping You Code At All</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

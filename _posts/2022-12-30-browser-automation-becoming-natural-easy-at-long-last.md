@@ -4,7 +4,7 @@ title: Browser Automation Becoming Natural & Easy At Long Last
 headline: Making Browser Automation Easier with Pandas and Playwright
 description: I'm working on a big project and documenting my progress on my blog. I've combined tabs into one data frame, deduped the list, calculated job eta, picked APIs date format, and defined typical month ranges for GA APIs. I'm now ready to perform browser automation, configuring the browser to be headless and setting up a namedtuple for arguments. I'm also using the Pandas library to read a directory full of downloads and joining them together.
 keywords: Browser Automation, Tabs, Data Frame, Dedupe, Job Eta, API, Date Format, Month Ranges, Configure, Headless, Namedtuple, Arguments, SqliteDict, Async_playwright, Context Manager, Pre-recorded, Intermittent Random Pauses, Playwright Inspector, Record Logged-in Sessions, Pandas Library, Downloads, Stacking Approach, Year, Pivot Tables, Excel File
-categories: sqlitedict, browser automation, api
+categories: sqlitedict, api, browser automation
 permalink: /blog/browser-automation-becoming-natural-easy-at-long-last/
 layout: post
 ---
@@ -258,10 +258,10 @@ print("Done")
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

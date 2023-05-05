@@ -4,7 +4,7 @@ title: "Say The Magic Words: Open Terminal!"
 headline: Unlock the Magic of Unix/Linux with the French Drop and Miss. Direction!
 description: I learned the French Drop finger magic trick from my camp counselor Mike Silver at Science Camp Watonka when I was 12 years old. Now, I'm introducing a new skill called the French Drop and Miss. Direction, closely aligned with Unix/Linux. This skill is future-proof, obsolescence resistant, and immune to disruption. It's important to not solely depend on GUIs and to focus on Unix/Linux terminal.
 keywords: Magic, French Drop, Finger Trick, Mike Silver, Science Camp Watonka, Unix/Linux, Terminal, GUIs, Vim, Text Editor, GNU, Wax-on Wax-off, Proprietary, Linux
-categories: text editor, gnu, proprietary, linux, terminal, magic, vim
+categories: magic, proprietary, gnu, linux, terminal, vim, text editor
 permalink: /blog/say-the-magic-words-open-terminal/
 layout: post
 ---
@@ -163,14 +163,14 @@ VSCode... while crazy-great
   - The Web LAMP
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/">s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites & Dogma</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/">What I Want To Offer The World Doesn't Align With Existing YouTube Search</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/">s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites & Dogma</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/">What I Want To Offer The World Doesn't Align With Existing YouTube Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>

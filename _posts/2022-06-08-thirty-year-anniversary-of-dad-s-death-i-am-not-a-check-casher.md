@@ -138,7 +138,7 @@ twenty-one. I can imagine that would have been a lesson for me to learn in my
 fifties and sixties like it was you.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/">Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/">Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

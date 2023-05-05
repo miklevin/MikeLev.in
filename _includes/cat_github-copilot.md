@@ -14,4 +14,4 @@
 <li><a href="/blog/what-are-the-main-differences-between-neovim-and-vim/">What are the main differences between NeoVim and vim?</a> (Thu Mar 30, 2023)
 <br/>I recently discovered the advantages of using NeoVim over Vim, including its improved maintainability, plugin system, and customizability. After learning about the ability to work with Jupyter Notebooks in Visual Studio Code, I asked Bing why Github Copilot was only integrated with NeoVim. He provided resources to help me understand and I used the Getting Started with Jupyter Notebooks in Visual Studio Code guide to learn how to use the extension.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/pypi/">PyPI</a></div> &nbsp; <div class="post-nav-next"><a href="/empathy/">Empathy</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pypi/">PyPI</a></div> &nbsp; <div class="post-nav-next"><a href="/empathy/">Empathy</a><span class="arrow">&nbsp;&rarr;</span></div></div>

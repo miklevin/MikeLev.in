@@ -4,7 +4,7 @@ title: Do AIs Work For Cats?
 headline: "Exploring the Complex Relationship Between Cats and Humans: AI, Politics, Religion, and More"
 description: This blog post explores the fascinating world of cats, AI, and the controversial topics of politics, religion, social justice, climate change, and animal rights. Through conversations with ChatGPT-4, I investigate the complex relationship between cats and humans, the top 10 most famous fish, and the top five most mysterious fish. I also explore the natural predators of aye-ayes, platypuses, narwhals, okapis, and axolotls.
 keywords: AI, Cats, Politics, Religion, Social Justice, Climate Change, Animal Rights, ChatGPT-4, Humans, Evolution, Toxoplasmosis, Cat Language, Fish, Anglerfish, Gulper Eel, Oarfish, Coelacanth, Goblin Shark, African Elephant, Grizzly Bear, Siberian Tiger, Gorilla, Polar Bear, Aye-Aye, Platypus, Narwhal, Okapi, Axolotl, Natural Selection,
-categories: evolution, ai
+categories: ai, evolution
 permalink: /blog/do-ais-work-for-cats/
 layout: post
 ---
@@ -483,9 +483,9 @@ Organizations across various sectors, including businesses, nonprofits, and acad
 Ultimately, addressing these complex issues will require a collaborative and multi-stakeholder approach, with individuals, communities, governments, and organizations all working together towards a common goal of creating a more equitable, sustainable, and just world.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

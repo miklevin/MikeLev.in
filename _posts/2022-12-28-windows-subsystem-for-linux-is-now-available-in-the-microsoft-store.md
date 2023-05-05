@@ -19,7 +19,7 @@ You will see this. It is good. Take it's advice.
 >>>>>>> 9badb1890c6c7940fc1965242aa5e9c77d88aee8
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

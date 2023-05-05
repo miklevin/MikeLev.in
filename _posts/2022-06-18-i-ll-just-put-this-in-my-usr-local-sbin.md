@@ -158,7 +158,7 @@ this vim session, all my system customizations are backed up to vim.
 I wish I worked this way since I discovered stuff like this at 18 years old on
 the Amiga. Well, I know now. Share it with the world. Okay, done.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

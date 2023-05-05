@@ -165,7 +165,7 @@ that can help provide tools to future generations of catastrophe-diverting
 moles.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

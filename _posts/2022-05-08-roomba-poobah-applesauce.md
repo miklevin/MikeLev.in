@@ -105,7 +105,7 @@ You'll get the knack. So says carbon creature.
 > And call out for an encore
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

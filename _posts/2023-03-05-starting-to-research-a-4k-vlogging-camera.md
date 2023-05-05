@@ -43,7 +43,7 @@ Source: Conversation with Bing, 2/26/2023(1) 7 Best Vlogging Cameras with Flip S
 (5) The best camera under $500 in 2023 | Digital Camera World. https://www.digitalcameraworld.com/buying-guides/best-camera-under-dollar500 Accessed 2/26/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-tale-of-3-daemons-laplace-s-maxwell-s-and-linux-s/">A Tale of 3 Daemons: Laplace's, Maxwell's and Linux's</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-tale-of-3-daemons-laplace-s-maxwell-s-and-linux-s/">A Tale of 3 Daemons: Laplace's, Maxwell's and Linux's</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

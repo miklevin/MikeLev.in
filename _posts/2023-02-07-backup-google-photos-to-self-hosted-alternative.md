@@ -4,7 +4,7 @@ title: Backup Google Photos to Self Hosted Alternative
 headline: "Backing Up Google Photos: Exploring Self-Hosted Alternatives"
 description: I have created a program to back up my Google Photos, combining two scripts into a single file. I am now considering whether to keep the program as an nbdev app, and am exploring options to transition it from a notebook to a server. I am also considering not using the app in my FOSS SEO book, but recognize the value of the Jupyter Notebook under nbdev. Come read about my journey to make the best decision for my program!
 keywords: Backup, Google Photos, Self Hosted, Alternative, Program, nbdev, App, Notebook, Server, QNAP, Container Station, Upgrade, Container, Metaphor, Tutorial, FOSS, SEO, Book, Jupyter
-categories: nbdev, google photos, tutorial, notebook, seo, jupyter, container
+categories: jupyter, nbdev, seo, google photos, container, tutorial, notebook
 permalink: /blog/backup-google-photos-to-self-hosted-alternative/
 layout: post
 ---
@@ -180,14 +180,14 @@ code, so long as the live running code on the server has been precisely
 extracted from it.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/used-twitter-4000-characters-for-machine-learning-general-license/">Used Twitter 4000 Characters For Machine Learning General License</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-ais-will-find-you-if-you-re-unique/">The AIs Will Find You If You're Unique</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/used-twitter-4000-characters-for-machine-learning-general-license/">Used Twitter 4000 Characters For Machine Learning General License</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-ais-will-find-you-if-you-re-unique/">The AIs Will Find You If You're Unique</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li></ul>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li></ul>

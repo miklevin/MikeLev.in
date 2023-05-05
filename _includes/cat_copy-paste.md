@@ -10,4 +10,4 @@
 <li><a href="/blog/vim-b1-commands-much-force-like-obi-wan/">vim :b1 Commands Much Force Like Obi-Wan</a> (Wed May 04, 2022)
 <br/>I use the vim command :b1 to get back to my personal private journal, which is the most important one. With vim, I can easily edit multiple files and copy/paste them to different websites, while keeping the original entry in my journal. Join me as I explore the power of vim and the special connection I have with Obi-Wan when I'm using it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/open-source/">Open-Source</a></div> &nbsp; <div class="post-nav-next"><a href="/access/">Access</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/open-source/">Open-Source</a></div> &nbsp; <div class="post-nav-next"><a href="/access/">Access</a><span class="arrow">&nbsp;&rarr;</span></div></div>

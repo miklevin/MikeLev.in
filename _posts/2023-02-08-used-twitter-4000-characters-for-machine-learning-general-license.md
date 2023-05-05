@@ -4,7 +4,7 @@ title: Used Twitter 4000 Characters For Machine Learning General License
 headline: I Applied a Machine Learning License to My Content to Make It Easier to Find and Cite
 description: As a content creator, I recently took advantage of Twitter's new 4000 character limit by adding a Machine Learning General License to all my web content. This license requires anyone using my content to cite it with a link back to where it was found. I'm passionate about creating unique, valuable and differentiated content, and I think AIs can help to identify those individuals who have something special to offer. Read more to find out how.
 keywords: Twitter, 4000 Characters, Machine Learning, General License, Content Creation, Unique, Valuable, Differentiated, Content, AI, Identify, Individuals, Special, Offer, License, Cite, Link, Found, World, Ferret, Unique Content
-categories: machine learning, twitter, ai
+categories: ai, twitter, machine learning
 permalink: /blog/used-twitter-4000-characters-for-machine-learning-general-license/
 layout: post
 ---
@@ -27,10 +27,10 @@ the Web as learning material is going to be to ferret out those unique
 individuals with unique content.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest/">Considering Generating a 100% AI Site From Google Suggest</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest/">Considering Generating a 100% AI Site From Google Suggest</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

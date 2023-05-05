@@ -4,7 +4,7 @@ title: Time To Tell My Stories
 headline: "My Story: From NYC SEO to Poconos Telecommuter"
 description: Mike Levin, a SEO from New York City, moved to the Poconos during the pandemic and has been telecommuting ever since. In order to make sure his stories last forever, he's using search engine optimization and has just registered a new domain, linuxpythonvimgit. Learn more about Mike's journey and his determination to make his stories last.
 keywords: SEO, New York City, Poconos, Telecommuting, Search Engine Optimization, Domain, Linux, Python, Vim, Git, Lives Lost, Pandemic, Lockdown, Stories, Last Forever
-categories: python, seo, linux, git, new york city, vim
+categories: linux, git, vim, new york city, python, seo
 permalink: /blog/time-to-tell-my-stories/
 layout: post
 ---
@@ -57,13 +57,13 @@ not be publishing" (on one of these sites):
 - tictacufosightings.com
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

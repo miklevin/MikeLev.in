@@ -4,7 +4,7 @@ title: Bing Won't Write Story About Excessively Biased ChatBot
 headline: Exploring the Benefits and Risks of Chatbot Bias and AI Competition
 description: As an AI researcher, I'm exploring the implications of chatbot bias and AI competition. While these phenomena can be beneficial for innovation and learning, they can also present ethical and social challenges. Join me as I explore the potential benefits and risks of these two topics.
 keywords: Chatbot, Bias, AI, Competition, Innovation, Learning, Ethical, Social, Challenges, Phenomenon, Agents, Intelligence, Game
-categories: chatbot, learning, ai
+categories: ai, learning, chatbot
 permalink: /blog/bing-won-t-write-story-about-excessively-biased-chatbot/
 layout: post
 ---
@@ -35,10 +35,10 @@ Source: Conversation with Bing, 3/3/2023
     (11) Competing in the Age of AI - Harvard Business Review. https://hbr.org/2020/01/competing-in-the-age-of-ai Accessed 3/3/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/compatible-linux-x-server-graphics-across-windows-mac/">Compatible Linux X Server Graphics Across Windows & Mac</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/compatible-linux-x-server-graphics-across-windows-mac/">Compatible Linux X Server Graphics Across Windows & Mac</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>

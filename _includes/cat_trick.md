@@ -12,4 +12,4 @@
 <li><a href="/blog/sharpening-my-prev-next-arrows/">Sharpening My Prev/Next Arrows</a> (Sun May 01, 2022)
 <br/>I'm proud of the effort I put into creating the formatting of the previous/next arrows on my website. I used style.scss, post.html, a non-breaking-space trick, and flexbox wrangling to make them look elegant. I'm still learning how to neutralize and escape Jekyll blog post Liquid directives, but I'm excited to share the results of my work. Click to read more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/scheduling/">Scheduling</a></div> &nbsp; <div class="post-nav-next"><a href="/wisdom/">Wisdom</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/scheduling/">Scheduling</a></div> &nbsp; <div class="post-nav-next"><a href="/wisdom/">Wisdom</a><span class="arrow">&nbsp;&rarr;</span></div></div>

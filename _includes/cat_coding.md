@@ -20,4 +20,4 @@
 <li><a href="/blog/gutting-dependencies-out-of-your-projects-life/">Gutting Dependencies Out Of Your Projects & Life</a> (Mon Jun 20, 2022)
 <br/>Today, I'm using Juneteenth as a day off from work to get some stuff done. I'm severing the dependency on Github Pages templates from my Jekyll static site generator and gradually getting better at coding. After making changes to the CSS file and deleting an import line, I inspected the cached CSS and transposed bits I wanted to keep. After publishing the page, the background turned white and the text and links were a more traditional color.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/docker/">Docker</a></div> &nbsp; <div class="post-nav-next"><a href="/open-source/">Open Source</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/docker/">Docker</a></div> &nbsp; <div class="post-nav-next"><a href="/open-source/">Open Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>

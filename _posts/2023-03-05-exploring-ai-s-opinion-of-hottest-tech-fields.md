@@ -4,7 +4,7 @@ title: Exploring AI's Opinion of Hottest Tech Fields
 headline: Discover the Five Most Valuable Tech Skills for Employers and How to Choose the Right One for You
 description: "I asked ChatGPTL what the top five tech specialties following Linux were that would give me the most value to employers. ChatGPTL responded with a list of five highly sought-after and well-paying skills: IT Automation, AI & Machine Learning, Quantum Computing, Connected Technologies, and Fintech. Read my blog post to learn more about these skills and how to determine which ones are right for you."
 keywords: AI, Machine Learning, Quantum Computing, Connected Technologies, Fintech, IT Automation, Employers, Value, Skills, Interests, Goals, Strengths, Choosing, Learn
-categories: machine learning, goals, skills, ai
+categories: ai, goals, machine learning, skills
 permalink: /blog/exploring-ai-s-opinion-of-hottest-tech-fields/
 layout: post
 ---
@@ -48,9 +48,9 @@ Source: Conversation with Bing, 3/3/2023
     (5) 20 highest paying, fastest growing tech skills in the US. https://www.techrepublic.com/article/20-highest-paying-fastest-growing-tech-skills-in-the-us/ Accessed 3/3/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/starting-to-discuss-embrace-displace-with-bing/">Starting to discuss Embrace & Displace with Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-discuss-embrace-displace-with-bing/">Starting to discuss Embrace & Displace with Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

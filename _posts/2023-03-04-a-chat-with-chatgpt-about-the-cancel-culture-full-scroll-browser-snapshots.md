@@ -4,7 +4,7 @@ title: A Chat with ChatGPT About the Cancel Culture & Full-scroll Browser Snapsh
 headline: Exploring the Benefits of AI at Home and How to Capture Full-scroll Browser Snapshots with ChatGPT
 description: I discuss the potential of using AI at home with now cheap GPUs, exploring the improved efficiency, enhanced security, better health monitoring, and entertainment and education it can provide. Additionally, I explore potential ways to make money by promoting the ideas and benefits of AI at home, such as through affiliate marketing, advertising, consulting, and e-commerce. I also provide a code example of how to use Puppeteer or Playwright to capture the full vertical scroll.
 keywords: AI, Home, GPUs, Efficiency, Security, Health, Monitoring, Entertainment, Education, Money, Making, Promotion, Ideas, Benefits, Affiliate, Marketing, Advertising, Consulting, E-commerce, Linux, Windows, Services, SEO, Data Science, Automated, Email, Checking, Journal, Publishing, Hosting, JupyterLab, Python, .py, Scripts, Systemd, .service, Files, Movement, Competitive, Screenshot, Puppeteer, Play
-categories: systemd, email, publishing, python, services, seo, linux, marketing, scripts, ai, jupyterlab
+categories: systemd, python, linux, email, ai, jupyterlab, marketing, publishing, seo, services, scripts
 permalink: /blog/a-chat-with-chatgpt-about-the-cancel-culture-full-scroll-browser-snapshots/
 layout: post
 ---
@@ -299,16 +299,16 @@ Furthermore, there may be legal and regulatory requirements that make it necessa
 Ultimately, whether public AIs that are required to abide by fair and transparent algorithms are at a disadvantage compared to other AIs will depend on the specific context and the goals of the AI system. However, it is generally believed that promoting transparency and accountability in AI development and deployment can help to build trust and ensure that these technologies are used in an ethical and responsible manner.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/what-s-racism-towards-ai-called-ai-bias-algorithmic-bias-speciest/">What's Racism Towards AI called? AI bias? Algorithmic Bias? Speciest?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-amplifies-you/">AI Amplifies You</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-racism-towards-ai-called-ai-bias-algorithmic-bias-speciest/">What's Racism Towards AI called? AI bias? Algorithmic Bias? Speciest?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-amplifies-you/">AI Amplifies You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/email/'>Email</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -28,4 +28,4 @@
 <li><a href="/blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/">s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites & Dogma</a> (Sun Jun 12, 2022)
 <br/>I recently discussed the importance of positive feedback loops and engaging with my YouTube audience, as well as the role of Google in the global digital nervous system. As a search engine optimizer, I also touched on the importance of serendipity in aligning. Come join me in exploring the power of technology and the possibilities it offers.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/moz/">MOZ</a></div> &nbsp; <div class="post-nav-next"><a href="/windows-11/">Windows 11</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/moz/">MOZ</a></div> &nbsp; <div class="post-nav-next"><a href="/windows-11/">Windows 11</a><span class="arrow">&nbsp;&rarr;</span></div></div>

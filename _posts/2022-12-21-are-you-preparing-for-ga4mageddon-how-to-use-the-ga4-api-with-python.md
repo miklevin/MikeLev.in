@@ -348,7 +348,7 @@ request structure. Interesting!
 Okay, roll a notebook into Pipulate for this.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/google-sheets-api-python-example/">Google Sheets API Python Example</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/">Google Analytics GA4 API Access Will Be My First Project for Pipulate</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-sheets-api-python-example/">Google Sheets API Python Example</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/">Google Analytics GA4 API Access Will Be My First Project for Pipulate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -54,7 +54,7 @@ time to time over the years. So log in under your old account and poke around.
 Consider doing a live session actually using the API screen-sharing.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/do-ais-work-for-cats/">Do AIs Work For Cats?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious/">Is This Jungian Insights Into Bing's Subconscious?</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-ais-work-for-cats/">Do AIs Work For Cats?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious/">Is This Jungian Insights Into Bing's Subconscious?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

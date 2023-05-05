@@ -4,7 +4,7 @@ title: Adding Google Analytics to Github.io Page with Jekyll
 headline: Successfully Installing Google Analytics on my Github.io Page with Jekyll
 description: I recently installed Google Analytics on my Github.io Page with Jekyll, and I'm so glad I took the time to understand the Liquid system and what was going on underneath. After a few moments of research, I was able to successfully install Google Analytics and now I'm ready to move on to the next step. Read my blog post to find out how I did it!
 keywords: Google Analytics, Github.io, Jekyll, Liquid system, Installation, Configuration, Tweaking, Research, Understanding
-categories: jekyll, google analytics, github.io
+categories: github.io, google analytics, jekyll
 permalink: /blog/adding-google-analytics-to-github-io-page-with-jekyll/
 layout: post
 ---
@@ -56,10 +56,10 @@ what's going on underneath.
 Thanks, and later gators!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll/">Adding Google Analytics to Github.io Page with Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll/">Adding Google Analytics to Github.io Page with Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/github-io/'>Github.io</a></h4></li>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/github-io/'>Github.io</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

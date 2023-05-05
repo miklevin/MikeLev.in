@@ -14,4 +14,4 @@
 <li><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a> (Wed May 04, 2022)
 <br/>Today was a big day for me - I installed Manim on my Windows machine, used Chocolatey to install vim, and Powershell to create .py files. To top it off, I sent a video that visualizes general relativity. I'm really enjoying exploring the Python Manim math visualization and animation package and all the possibilities it offers. Come join me on my journey and explore the wonders of Python Manim!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/levinux/">Levinux</a></div> &nbsp; <div class="post-nav-next"><a href="/mlseo/">mlseo</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/levinux/">Levinux</a></div> &nbsp; <div class="post-nav-next"><a href="/mlseo/">mlseo</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -34,4 +34,4 @@
 <li><a href="/blog/adding-command-line-argument-support-to-jupyter-notebook/">Adding Command-Line Argument Support to Jupyter Notebook</a> (Thu Apr 28, 2022)
 <br/>I have added command-line argument support to my Jupyter Notebook using the Python standard library argparse. I have coded up a .py file and tested it successfully, and am now transplanting it into blogslicer, creating functions for displaying headings, and using dateutil and slugify modules. I wrote a script to slice and dice my blog posts into the correct format for Jekyll and incorporated it into my regular publishing release script. I made a change to my world</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/vscode/">VSCode</a></div> &nbsp; <div class="post-nav-next"><a href="/javascript/">JavaScript</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/vscode/">VSCode</a></div> &nbsp; <div class="post-nav-next"><a href="/javascript/">JavaScript</a><span class="arrow">&nbsp;&rarr;</span></div></div>

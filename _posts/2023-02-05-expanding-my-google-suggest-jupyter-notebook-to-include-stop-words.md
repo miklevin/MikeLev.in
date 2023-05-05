@@ -4,7 +4,7 @@ title: Expanding My Google Suggest Jupyter Notebook to Include Stop Words
 headline: Exploring the Success of Refining My Google Suggest Probing with Stop Words and Jupyter Notebook
 description: I recently moved my Google Photos project to a server running LXD Linux and am refining my Google Suggest probing to include stop words. I'm also exploring the idea of switching my project to Jupyter Notebook based locally. I'm using the same technique on my OhAwf repo and it's proving to be successful. Read more to find out how I'm making this transition and the success I'm having with it.
 keywords: Google Suggest, Jupyter Notebook, Stop Words, Google Photos, LXD Linux, OhAwf, Transition, Success
-categories: google photos, success, jupyter notebook
+categories: success, jupyter notebook, google photos
 permalink: /blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words/
 layout: post
 ---
@@ -66,10 +66,10 @@ your OhAwf repo where you're using exactly this technique, on nbdev2 already.
 It's a good model.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks/">nbdev Makes .py-file Extractions From Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks/">nbdev Makes .py-file Extractions From Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li></ul>

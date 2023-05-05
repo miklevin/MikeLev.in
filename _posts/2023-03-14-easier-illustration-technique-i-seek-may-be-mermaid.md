@@ -4,7 +4,7 @@ title: Easier Illustration Technique I Seek May Be Mermaid
 headline: "Discovering Mermaid: An Easier Way to Illustrate and Diagram for SEO Purposes"
 description: I recently discovered Mermaid, a JavaScript-based diagramming and charting tool that makes illustration and diagramming for SEO purposes easier. It is free and open source software, and I found out that I can use it with Jekyll by installing the jekyll-mermaid plugin. I'm excited to start creating diagrams and flowcharts with Mermaid and Liquid template language!
 keywords: "Illustration, Technique, Mermaid, JavaScript, Diagramming, Charting, SEO, Free, Open Source, Software, Jekyll, Plugin, Flowcharts, ER Diagrams, Logic Flows, Org Charts, Markdown, Syntax, Venn Diagrams, JavaScript, GitHub, Repository, Venn.js, Euler Diagrams, Liquid Template Language, Spotify, Jekyll Plugin, Gem, `_config.yml`, Markdown"
-categories: seo, open source, jekyll, javascript, github
+categories: javascript, open source, jekyll, github, seo
 permalink: /blog/easier-illustration-technique-i-seek-may-be-mermaid/
 layout: post
 ---
@@ -209,12 +209,12 @@ graph td;
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/">Bing Reads My Machine Learning General License & Writes Haiku About Me</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/">Bing Reads My Machine Learning General License & Writes Haiku About Me</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

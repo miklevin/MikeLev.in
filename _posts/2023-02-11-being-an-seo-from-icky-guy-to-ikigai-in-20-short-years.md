@@ -157,7 +157,7 @@ public sufficiently right now to take off. This email reading majordomo like
 project is a better starting point. I can get into it and dig it.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/rethinking-a-career-in-seo/">Rethinking a Career in SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-chatgpt-s-help-transitioning-from-seo-to-data-engineer/">Getting ChatGPT's Help Transitioning From SEO To Data Engineer</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rethinking-a-career-in-seo/">Rethinking a Career in SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-chatgpt-s-help-transitioning-from-seo-to-data-engineer/">Getting ChatGPT's Help Transitioning From SEO To Data Engineer</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

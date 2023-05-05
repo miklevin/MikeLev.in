@@ -4,7 +4,7 @@ title: Moved WhatsaMetaFor.io Blog Content Here
 headline: I'm Excited to Announce My Move to MikeLev.in, and Learning Jekyll and Liquid!
 description: I'm excited to share that I've moved my blog to MikeLev.in, a better platform for hosting my blog. I'm also learning Jekyll and Liquid, two powerful tools that will give me more control over my site. Come check out my blog and see how I'm using them!
 keywords: Move, WhatsaMetaFor.io, MikeLev.in, Platform, Host, Blog, Jekyll, Liquid, Static Site Generator, Ruby, Github, Templating System, Control
-categories: jekyll, github, static site generator, platform
+categories: static site generator, github, platform, jekyll
 permalink: /blog/moved-whatsametafor-io-blog-content-here/
 layout: post
 ---
@@ -33,11 +33,11 @@ existing packages that do it. So I'm not going to sweat it. Forge on ahead,
 learning the Liquid templating system to assert some control over my sites.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stop-using-stop-words-when-they-reverse-meaning/">Stop Using Stop-Words When They Reverse Meaning</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stop-using-stop-words-when-they-reverse-meaning/">Stop Using Stop-Words When They Reverse Meaning</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/platform/'>Platform</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/platform/'>Platform</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Bundle an LXD Linux Container for Pyppeteer and Playwright Automation
 headline: Exploring Automation Possibilities with LXD 2 WSL, Selenium, NodeJS, and Pyppeteer
 description: I'm creating a public repository to limit my dependencies and use ohawf for Google OAuth2 authentication. I'm using the LXD 2 WSL project and Chrome automation with Selenium and NodeJS Puppeteer and Pyppeteer libraries to control Google Chrome or Chromium. Join me as I explore the possibilities of this project!
 keywords: LXD, Linux, Container, Pyppeteer, Playwright, Automation, Public Repository, Dependencies, ohawf, Google OAuth2, Authentication, WSL, Windows, Chrome, Selenium, NodeJS, Puppeteer, Chromium, Explore, Possibilities, JavaScript, Python
-categories: nodejs, dependencies, wsl, python, lxd, javascript, linux, container, automation
+categories: nodejs, dependencies, wsl, javascript, linux, automation, lxd, python, container
 permalink: /blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation/
 layout: post
 ---
@@ -62,15 +62,15 @@ This is inching very close to a "canned" SEO product and launching-off point
 for unlimited baked-in sub-projects.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/getting-my-local-24x7-place-to-run-code/">Getting My Local 24x7 Place to Run Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/still-figuring-out-next-step-what-i-want-at-52/">Still Figuring Out Next Step & What I Want at 52</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-my-local-24x7-place-to-run-code/">Getting My Local 24x7 Place to Run Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/still-figuring-out-next-step-what-i-want-at-52/">Still Figuring Out Next Step & What I Want at 52</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li></ul>
+<li><h4><a href='/automation/'>Automation</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li></ul>

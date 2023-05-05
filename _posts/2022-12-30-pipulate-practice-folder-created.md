@@ -4,7 +4,7 @@ title: Pipulate Practice Folder Created
 headline: Exploring AI Editing & Best Practices for the Pipulate Project
 description: I'm pushing myself to take the next steps in the Pipulate project, focusing on collaboration and best practices. I'm exploring ideas to use AI to edit my YouTube videos, setting up the Pipulate repo and practice folder, and activating scheduling under a systemd service. I'm using nbdev version 2 and OhAwf with the addition of the run_console feature. All the necessary software can be found on the Pipulate Software page. Come explore the possibilities with me!
 keywords: Pipulate, Practice, Folder, Collaboration, Best Practices, AI, YouTube, Repo, Scheduling, Systemd, Service, nbdev, Version 2, OhAwf, Run_Console, Software
-categories: service, nbdev, youtube, collaboration, scheduling, pipulate, ai, systemd
+categories: pipulate, systemd, scheduling, nbdev, service, ai, collaboration, youtube
 permalink: /blog/pipulate-practice-folder-created/
 layout: post
 ---
@@ -101,15 +101,15 @@ I'm using nbdev again (version 2). It's back in use on ohawf.
 OhAwf now supports run_console
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/should-i-no-longer-hyde-from-a-jekyll-server/">Should I No Longer Hyde From a Jekyll Server?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-i-no-longer-hyde-from-a-jekyll-server/">Should I No Longer Hyde From a Jekyll Server?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/collaboration/'>Collaboration</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/service/'>Service</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/collaboration/'>Collaboration</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

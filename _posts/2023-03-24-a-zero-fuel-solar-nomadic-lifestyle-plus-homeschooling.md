@@ -123,7 +123,7 @@ Source: Conversation with Bing, 3/24/2023
     (6) 13 of the Best Canada Road Trips That Will Blow Your Mind. https://www.mustdocanada.com/canada-road-trips-for-your-canada-tour/ Accessed 3/24/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/">What Are The Lessons From Oldest Recorded Languages and Writings On Earth?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/">From The Singularity to Galactic 3D Printed Mycelial Network</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/">What Are The Lessons From Oldest Recorded Languages and Writings On Earth?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/">From The Singularity to Galactic 3D Printed Mycelial Network</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

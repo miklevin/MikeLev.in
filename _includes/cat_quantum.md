@@ -12,4 +12,4 @@
 <li><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a> (Wed Oct 26, 2022)
 <br/>I explore the idea that we are mammals with an innate sense of compassion, yet have the ability to override this with cruelty. I believe the golden rule is a good code of conduct that helps us to survive, and that we were created as a solution to the creator's boredom. I discuss the limitations of our senses and the need to accept complex processes and abstractions, and how quantum effects may appear in our everyday lives.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/gnu/">GNU</a></div> &nbsp; <div class="post-nav-next"><a href="/magic/">Magic</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/gnu/">GNU</a></div> &nbsp; <div class="post-nav-next"><a href="/magic/">Magic</a><span class="arrow">&nbsp;&rarr;</span></div></div>

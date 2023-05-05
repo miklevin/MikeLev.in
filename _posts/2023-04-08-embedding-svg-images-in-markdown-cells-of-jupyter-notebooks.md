@@ -4,7 +4,7 @@ title: Embedding SVG Images in Markdown Cells of Jupyter Notebooks
 headline: Embedding SVG Images in Jupyter Notebooks - How I Did It!
 description: This blog post explains how I wrote a Python program that uses the base64 module to encode an SVG image file, generates an HTML img tag with the encoded data as the src attribute, and outputs the HTML img tag as a string. This allows the image to be displayed properly in a markdown cell of a Jupyter Notebook, making it easy to reference the original file. Read on to find out how I did it!
 keywords: Python, Program, base64, Module, Encode, SVG, Image, File, HTML, img, Tag, src, Attribute, Output, String, Display, Properly, Markdown, Cell, Jupyter, Notebook, Reference, Original
-categories: jupyter, python, html, notebook
+categories: notebook, python, html, jupyter
 permalink: /blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/
 layout: post
 ---
@@ -51,11 +51,11 @@ Jupyter Notebook and it should display the SVG image properly as if it were a
 reference to the original file.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/better-living-through-text-editors/">Better Living Through Text Editors</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/better-living-through-text-editors/">Better Living Through Text Editors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/notebook/'>Notebook</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/notebook/'>Notebook</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

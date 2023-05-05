@@ -4,7 +4,7 @@ title: Linux Container Under Windows 10 WSL Supporting Graphics
 headline: Unlocking Linux Graphics with Containers on Windows 10 WSL
 description: I recently discovered that it is possible to get Linux graphics working with Linux containers on Windows 10 using VcXsrv. I figured out how to capture the DISPLAY variable from the host Linux and pass it to the container by writing it to a shared file. This technique is similar to activating Python virtual environments, and I'm excited to share my findings with you.
 keywords: Linux, Windows 10, WSL, VcXsrv, DISPLAY variable, Python, Virtual Environments, Containers, Graphics, Host Linux, Shared File
-categories: wsl, containers, graphics, python, linux, windows 10
+categories: windows 10, graphics, containers, wsl, linux, python
 permalink: /blog/linux-container-under-windows-10-wsl-supporting-graphics/
 layout: post
 ---
@@ -63,11 +63,11 @@ Python venvs:
 ...because it's using the same trick!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/windows-11-is-more-like-windows-il-for-it-s-linux/">Windows 11 is more like Windows Il (for It's Linux)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/removing-password-authentication-from-ssh-services/">Removing Password Authentication from SSH Services</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-11-is-more-like-windows-il-for-it-s-linux/">Windows 11 is more like Windows Il (for It's Linux)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/removing-password-authentication-from-ssh-services/">Removing Password Authentication from SSH Services</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

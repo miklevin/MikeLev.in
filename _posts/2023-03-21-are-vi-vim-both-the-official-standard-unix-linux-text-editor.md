@@ -4,7 +4,7 @@ title: Are vi & vim Both The Official Standard Unix / Linux Text Editor?
 headline: Exploring the Evolution of Text Editors from QED to Vim with Bing
 description: I asked Bing about the evolution of text editors, and they provided a timeline beginning with the 1967 development of QED and ending with Emacs and Vim's 2023 dominance. I then asked if vi was first released in 1976, and Bing confirmed. They also provided a list of 20 text editors based on vi, as well as a description of vi's influence. Bing discussed the POSIX standard and other Unix/Linux standards, and offered to answer any questions I had about them.
 keywords: QED, Emacs, Vim, Vi, Bill Joy, Low Memory Footprint, Command Centric Design, Configurable Settings, Multiple Windows, Multiple Buffers, Multiple Tabs, POSIX, Debian, YUM, APT, RPM, dpkg, Linux Standard Base, Cygnus Standard, Filesystem Hierarchy Standard, GNU Coding Standards
-categories: vim, emacs
+categories: emacs, vim
 permalink: /blog/are-vi-vim-both-the-official-standard-unix-linux-text-editor/
 layout: post
 ---
@@ -183,9 +183,9 @@ Source: Conversation with Bing, 3/20/2023
 **Bing:** I’m sorry, but I cannot generate creative content such as stories. However, I can help you with any questions you have about the standards we discussed earlier. Is there anything else I can help you with?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

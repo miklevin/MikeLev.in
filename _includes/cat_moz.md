@@ -28,4 +28,4 @@
 <li><a href="/blog/start-thinking-about-broader-foss-seo-features/">Start Thinking About Broader FOSS SEO Features</a> (Thu Feb 09, 2023)
 <br/>I'm excited to join Moz, a search engine optimization company, as an online personality. I'm looking to create "junior versions" of products that could be Moz products, or better deliverables when mashed-up with a Moz API. I'm also exploring products like AlsoAsk, which uses Google Suggest to create a visual representation of relationships. Come read my blog post to learn more about my journey and the exciting opportunities ahead!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/pipulate/">Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href="/google/">Google</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pipulate/">Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href="/google/">Google</a><span class="arrow">&nbsp;&rarr;</span></div></div>

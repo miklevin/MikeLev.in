@@ -220,7 +220,7 @@ your hand out, turn the doorknob, push the door open and walk through. You're
 not going to just ***POP*** there.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reversing-desensitization-and-dehumanization/">Reversing Desensitization And Dehumanization</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reversing-desensitization-and-dehumanization/">Reversing Desensitization And Dehumanization</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -37,7 +37,7 @@ go. Nice, sequential finite jobs. Even concurrency gets mapped onto sequential
 chunks, haha!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a><span class="arrow">&larr;&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
