@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
-<br/>This post outlines the process of moving all OpenAI Completion calls to one function for the chop.py to-do list. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. The author has completed the changes and is now ready to test the results.</li>
+<br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)
 <br/>In this article, I discuss Microsoft's Embrace & Displace strategy and how it relates to Linux. I explore how this strategy can be used to benefit you, by embracing Linux and its timeless tools, and avoiding the pitfalls of planned obsolescence. Learn how to use vi, vim, NeoVim, the command-line, git, and ssh to stay competitive and never be displaced.</li>
 <li><a href="/blog/testing-auto-publish-prevention-when-ai-has-written-fields/">Testing Auto-Publish Prevention When AI Has Written Fields</a> (Sat Apr 29, 2023)

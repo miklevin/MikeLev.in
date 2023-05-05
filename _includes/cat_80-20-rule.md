@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
-<br/>This post outlines the process of moving all OpenAI Completion calls to one function for the chop.py to-do list. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. The author has completed the changes and is now ready to test the results.</li>
+<br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
 <br/>I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.</li>
 <li><a href="/blog/the-80-20-rule-means-front-loading-the-big-wins/">The 80/20-rule Means Front-loading The Big Wins</a> (Sun Apr 30, 2023)

@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
-<br/>This post outlines the process of moving all OpenAI Completion calls to one function for the chop.py to-do list. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. The author has completed the changes and is now ready to test the results.</li>
+<br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a> (Tue May 02, 2023)
 <br/>I recently had an interesting discussion with my kid about the importance of being in the zone and not thinking about being in the zone. We discussed how it's important to know the difference between being in the zone and getting into a 'meta' state, which can derail your groove and prevent you from doing something well.</li>
 <li><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a> (Mon Feb 20, 2023)

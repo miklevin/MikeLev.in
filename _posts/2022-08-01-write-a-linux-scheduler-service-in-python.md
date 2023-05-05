@@ -4,7 +4,7 @@ title: Write a Linux Scheduler Service in Python
 headline: Creating a Lightweight Linux Scheduler Service in Python with the 'schedule' Package
 description: I'm creating a lightweight Linux Scheduler Service in Python that uses the 'schedule' package to define and execute Python functions. I'm exploring ways to manage files and keep scheduled tasks in separate folders. In this blog post, I'll be taking you through the process of setting up a precursor to a data pipelining video. Read on to learn how to create a powerful, yet lightweight, scheduling system!
 keywords: Linux, Scheduler, Service, Python, Schedule, Package, Manage, Files, Separate, Folders, Pipelining, Video, Define, Execute, Functions, Apache, Airflow, Luigi, Lightweight, Precusor, Data, Tasks
-categories: python, linux, service
+categories: python, service, linux
 permalink: /blog/write-a-linux-scheduler-service-in-python/
 layout: post
 ---
@@ -126,5 +126,5 @@ def onepulse():
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/service/'>Service</a></h4></li></ul>
+<li><h4><a href='/service/'>Service</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

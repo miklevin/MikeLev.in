@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
-<br/>This post outlines the process of moving all OpenAI Completion calls to one function for the chop.py to-do list. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. The author has completed the changes and is now ready to test the results.</li>
+<br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
 <br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)
