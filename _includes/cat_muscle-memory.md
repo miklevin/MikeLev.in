@@ -12,4 +12,4 @@
 <li><a href="/blog/use-vim-to-keep-one-journal-for-life/">Use vim to Keep One Journal For Life</a> (Tue May 10, 2022)
 <br/>I've been using Vim to journal and it has changed my life. It's difficult to learn, but the skills and muscle memory I've gained are permanent. Writing in Vim has helped me to better understand myself, and I've been able to use version control systems like Github to keep my .vimrc file with me wherever I go. I've also been learning new vim-tricks like buffers and registers to increase my power. Finally, I've created a single file, journal.md</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/magic/">Magic</a></div> &nbsp; <div class="post-nav-next"><a href="/meta-descriptions/">Meta Descriptions</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/magic/">Magic</a></div> &nbsp; <div class="post-nav-next"><a href="/meta-descriptions/">Meta Descriptions</a><span class="arrow">&nbsp;&rarr;</span></div></div>

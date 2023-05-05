@@ -28,7 +28,7 @@ prosper, hang with God or whatnot. Could be a lot of things. Any way you look
 at it, it's probably better than getting fried in the next local gamma burst.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

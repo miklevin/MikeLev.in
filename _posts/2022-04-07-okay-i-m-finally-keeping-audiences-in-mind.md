@@ -4,7 +4,7 @@ title: Okay, I'm Finally Keeping Audiences In Mind
 headline: "Exploring the Rabbit Hole: My Journey to Releasing My Project"
 description: I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!
 keywords: Audience, WhatsaMetaFor.io, mlseo, 80/20 rule, Rabbit Hole Evaluations, nbdev, Github, Repository, Script, JupyterLab, Standalone, Issues, Documentation
-categories: audience, nbdev, mlseo, jupyterlab, github, script
+categories: audience, nbdev, mlseo, script, github, jupyterlab
 permalink: /blog/okay-i-m-finally-keeping-audiences-in-mind/
 layout: post
 ---
@@ -152,13 +152,13 @@ Think! vim release.sh... shouldn't be too hard! No, I need a prerelease.sh
 because I don't really want to be pushing to pypy all the time. In fact, maybe
 it should be prepare.sh because I'll still want to manually make pypi. Yes!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/okay-i-m-finally-keeping-audiences-in-mind/">Okay, I'm Finally Keeping Audiences In Mind</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/journaling-as-performance-art/">Journaling As Performance Art</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/okay-i-m-finally-keeping-audiences-in-mind/">Okay, I'm Finally Keeping Audiences In Mind</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/journaling-as-performance-art/">Journaling As Performance Art</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/mlseo/'>mlseo</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li></ul>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>

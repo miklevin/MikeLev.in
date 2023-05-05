@@ -422,7 +422,7 @@ parameters! I'm not going to start a holy endeavor to cover everything. I'm
 just going to provide a few excellent template examples.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/notebook-based-browser-automation-with-nbdev/">Notebook-based Browser Automation With NBDev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/notebook-based-browser-automation-with-nbdev/">Notebook-based Browser Automation With NBDev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

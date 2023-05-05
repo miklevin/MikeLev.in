@@ -109,7 +109,7 @@ that point. So far, pessimists are wrong. If they were right, we wouldn't be
 here.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/copilot-disable-help/">Copilot: disable... Help!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/steve-jobs-and-bill-gates-having-amiga-envy/">Steve Jobs and Bill Gates having Amiga-envy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/copilot-disable-help/">Copilot: disable... Help!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/steve-jobs-and-bill-gates-having-amiga-envy/">Steve Jobs and Bill Gates having Amiga-envy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

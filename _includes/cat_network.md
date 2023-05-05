@@ -16,4 +16,4 @@
 <li><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a> (Thu Jun 23, 2022)
 <br/>As someone who recently figured out how to log into a running LXD session from WSL2, I'm encouraging readers to not let anyone or anything stop them from advancing and learning. I use the example of Maxwell's Demon to explain how entropy can be overcome, and suggest using Linux Daemons to help us become Maxwell's Demon. I emphasize the importance of protecting the quality of information coming in and recognizing lies, as well as staying relentless in the pursuit of truth.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/graphic/">Graphics</a></div> &nbsp; <div class="post-nav-next"><a href="/blogging/">Blogging</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/graphic/">Graphics</a></div> &nbsp; <div class="post-nav-next"><a href="/blogging/">Blogging</a><span class="arrow">&nbsp;&rarr;</span></div></div>

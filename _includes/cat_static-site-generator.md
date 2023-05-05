@@ -14,4 +14,4 @@
 <li><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a> (Sat Apr 30, 2022)
 <br/>I'm excited to share that I've moved my blog to MikeLev.in, a better platform for hosting my blog. I'm also learning Jekyll and Liquid, two powerful tools that will give me more control over my site. Come check out my blog and see how I'm using them!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/powershell/">Powershell</a></div> &nbsp; <div class="post-nav-next"><a href="/pypi/">PyPI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/powershell/">Powershell</a></div> &nbsp; <div class="post-nav-next"><a href="/pypi/">PyPI</a><span class="arrow">&nbsp;&rarr;</span></div></div>

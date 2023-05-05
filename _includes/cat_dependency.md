@@ -14,4 +14,4 @@
 <li><a href="/blog/testing-nbdev/">Testing nbdev</a> (Thu Feb 17, 2022)
 <br/>I'm an SEO with over 20 years of experience, and I'm learning the nbdev library. I've set up the settings.ini file and tested out nbdev_build_libs, and I'm now creating a 00_core.ipynb file. I'm making sure to record the dependencies and to avoid using the "black" uncompromising code formatter in iPhone Carnets. Join me as I share my journey of learning nbdev and how I'm adapting</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/science/">Science</a></div> &nbsp; <div class="post-nav-next"><a href="/nyc/">NYC</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/science/">Science</a></div> &nbsp; <div class="post-nav-next"><a href="/nyc/">NYC</a><span class="arrow">&nbsp;&rarr;</span></div></div>

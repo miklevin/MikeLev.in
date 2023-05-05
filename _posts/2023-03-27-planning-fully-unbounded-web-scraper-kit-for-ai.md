@@ -4,7 +4,7 @@ title: Planning Fully Unbounded Web Scraper Kit For AI
 headline: Unlock the Power of AI with Fully Unbounded Web Scraper Kit (FUWSK)!
 description: I'm creating a project called Fully Unbounded Web Scraper Kit (FUWSK) to help me stay competitive and produce results with a compounding effect. FUWSK will be like a command-line interface command that uses genuine browser and web-scraping output to feed OpenAI and automate subsequent browsing commands. Join me on this journey to discover how FUWSK can help me stay ahead in this rapidly changing world.
 keywords: AI, Web Scraping, OpenAI, Automation, Scripts, Browsing, Compounding Effect, Command-Line Interface, FUWSK
-categories: ai, openai, scripts, automation
+categories: scripts, ai, openai, automation
 permalink: /blog/planning-fully-unbounded-web-scraper-kit-for-ai/
 layout: post
 ---
@@ -71,7 +71,7 @@ results that are highly competitive in that snowballing, compounding returns
 way I discussed.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

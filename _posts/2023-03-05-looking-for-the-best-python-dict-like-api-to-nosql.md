@@ -4,7 +4,7 @@ title: Looking For The Best Python dict-like API to NoSQL
 headline: Exploring Python Dict-Like APIs for NoSQL Databases
 description: "This blog post explores the question of whether making a Python dictionary persistent would make it considered a database, and if so, a NoSQL system. It explains the features needed from the database and provides information about three libraries: ZODB, UnQLite and SqliteDict. I also discuss the possibility of using Python packages to provide a unified dict-like key-value persistent store across different back ends, and provide an example of how to use PyDAL to create a dict-"
 keywords: Python, dict-like API, NoSQL, database, ZODB, UnQLite, SqliteDict, PyDAL, MongoDB, key-value, name Alice, age 26
-categories: sqlitedict, python, database
+categories: python, sqlitedict, database
 permalink: /blog/looking-for-the-best-python-dict-like-api-to-nosql/
 layout: post
 ---
@@ -173,10 +173,10 @@ with DAL('mongodb://username:password@localhost/test') as db:
  ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-new-bing-as-science-news-source/">Exploring New Bing as Science News Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-new-bing-as-science-news-source/">Exploring New Bing as Science News Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li></ul>

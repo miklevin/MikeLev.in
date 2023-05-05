@@ -4,7 +4,7 @@ title: Using Named Tuples to Define API-job & Perform Housekeeping
 headline: Using Named Tuples to Store and Track Data Over 12 Months
 description: I'm using named tuples from the Python standard library to store data in a SqliteDict file-handle as a database-dict. I've created a named tuple datatype, Arg, to store the site, start date, and end date for each loop iteration. I'm using a bit of code to output the first and last day of each month for the past year in the format of dd/mm/yyyy.
 keywords: Python, Named Tuples, Standard Library, SqliteDict, File-Handle, Database-Dict, Arg, Date Range, dd/mm/yyyy, 12-Month Period, 3rd Party Package, Str(), Eval(), Unique-Constraint
-categories: sqlitedict, python
+categories: python, sqlitedict
 permalink: /blog/using-named-tuples-to-define-api-job-perform-housekeeping/
 layout: post
 ---
@@ -386,9 +386,9 @@ because it still must be a unique key, albeit not multi-column anymore and we
 have to deal with tuple/string conversions here and there. An eval() readily
 turns the stringified key back into a tuple.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li></ul>

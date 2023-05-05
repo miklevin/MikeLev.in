@@ -138,7 +138,7 @@ racing. Looking forward to editing that email I auto-send to myself. Don't let
 myself overlook it!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/">Permission denied publickey fatal Could not read from remote repository</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/">Permission denied publickey fatal Could not read from remote repository</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

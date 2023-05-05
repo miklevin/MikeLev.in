@@ -85,7 +85,7 @@ site) and blog pages are blog pages. Jekyll knows this, and it's part of the
 reason I chose it (aside from being built into Github). It makes these
 prev/next arrows a cinch. Why doesn't everybody do that?
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/of-green-arrows-and-red-armor/">Of Green Arrows and Red Armor</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/of-green-arrows-and-red-armor/">Of Green Arrows and Red Armor</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

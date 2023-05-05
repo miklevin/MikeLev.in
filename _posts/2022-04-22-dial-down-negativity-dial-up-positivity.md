@@ -27,7 +27,7 @@ one from the same YouTuber:
 {% include youtubePlayer.html id="YAs2IzSCNMU" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

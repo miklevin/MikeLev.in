@@ -29,7 +29,7 @@ I'm waiting for the Jekyll changes to propagate.
 Success!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

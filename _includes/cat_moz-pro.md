@@ -18,4 +18,4 @@
 <li><a href="/blog/what-is-the-best-seo-software/">What is the best SEO software?</a> (Mon Mar 13, 2023)
 <br/>Discover the benefits of using Python under JupyterLab and Linux for SEO needs. I'm encouraging readers to try this free and open source software, which offers more flexibility and control than proprietary systems and expensive services. I'm assuring readers that it's an approachable and enjoyable process and that they don't need to be an expert in Linux or Python to use these tools. Join me in exploring the potential of Python and Linux for SEO optimization.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft-playwright/">Microsoft Playwright</a></div> &nbsp; <div class="post-nav-next"><a href="/lpvg/">LPvg</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft-playwright/">Microsoft Playwright</a></div> &nbsp; <div class="post-nav-next"><a href="/lpvg/">LPvg</a><span class="arrow">&nbsp;&rarr;</span></div></div>

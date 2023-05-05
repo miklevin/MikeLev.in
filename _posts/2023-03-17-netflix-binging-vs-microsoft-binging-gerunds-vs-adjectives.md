@@ -122,7 +122,7 @@ immediately obvious because it's the cleverness of the comparison that makes it
 so potentially impactful.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/">How many roads must a man walk down before Microsoft gets you to Bing?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/">How many roads must a man walk down before Microsoft gets you to Bing?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

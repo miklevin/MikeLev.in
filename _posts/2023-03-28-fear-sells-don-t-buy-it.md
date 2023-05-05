@@ -80,7 +80,7 @@ Care. Empathy. Creative problem solving. Indomitable spirit. And be Teflon as
 the Gipper.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

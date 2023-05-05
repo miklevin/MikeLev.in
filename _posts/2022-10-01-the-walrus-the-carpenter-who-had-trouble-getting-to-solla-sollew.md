@@ -23,7 +23,7 @@ learning. Yup, I was stupid. But such is life. What doesn't kill you makes you
 stronger, and oh how strong I have become!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/tried-to-start-a-project/">Tried To Start a Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/tried-to-start-a-project/">Tried To Start a Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

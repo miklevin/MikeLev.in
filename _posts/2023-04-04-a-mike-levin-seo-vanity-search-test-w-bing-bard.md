@@ -89,7 +89,7 @@ Here are some of his notable accomplishments:
 * First truly satisfying PowerPoint of his career, enjoying PowerPoint 365's auto-alignment features and the Surface Pro's stylus for illustration, at the top of the Empire State Building.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/watch-me-struggle-with-mermaid-js/">Watch Me Struggle With Mermaid JS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/watch-me-struggle-with-mermaid-js/">Watch Me Struggle With Mermaid JS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

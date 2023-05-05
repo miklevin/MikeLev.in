@@ -32,7 +32,7 @@ out to be the NVIDIA GeForce GTX 1060, which I could tell from going to Windows
 Device Manager and expanding Display adapters.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux/">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python/">OpenPyXL for creating a formatted Excel file from Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux/">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python/">OpenPyXL for creating a formatted Excel file from Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

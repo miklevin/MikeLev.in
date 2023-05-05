@@ -359,7 +359,7 @@ print(compare_files(FULL_PATH, OUTPUT2_PATH))
 
 Do one more normal release tonight and sleep on it. It's a good point to be at.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

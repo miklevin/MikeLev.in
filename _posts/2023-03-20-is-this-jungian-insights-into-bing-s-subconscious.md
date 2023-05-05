@@ -222,7 +222,7 @@ In the end, there was nothing left but darkness. The world was destroyed, and th
 The end.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage/">Clarified Linux, Python, vim & git Mission on Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage/">Clarified Linux, Python, vim & git Mission on Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

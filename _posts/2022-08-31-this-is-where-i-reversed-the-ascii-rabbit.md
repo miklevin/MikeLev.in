@@ -35,7 +35,7 @@ This was to update my public journal banner to this:
 
          Chase the rabbit to the wonderland of Linux, Python, vim & git -->
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-cha-gonna-do-when-you-re-fifty-two/">What'cha Gonna Do When You're Fifty Two?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-cha-gonna-do-when-you-re-fifty-two/">What'cha Gonna Do When You're Fifty Two?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

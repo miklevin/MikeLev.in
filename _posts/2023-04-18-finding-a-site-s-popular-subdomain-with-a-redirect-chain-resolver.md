@@ -230,7 +230,7 @@ print(f"{save_as} saved!")
     Combined after fitlering: 53
     ../data/pull_keywords.txt saved!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automatically-log-into-moz-pro-with-playwright-browser-automation/">Automatically Log Into MOZ Pro with Playwright Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automatically-log-into-moz-pro-with-playwright-browser-automation/">Automatically Log Into MOZ Pro with Playwright Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

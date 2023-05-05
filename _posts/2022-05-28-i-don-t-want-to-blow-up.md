@@ -4,7 +4,7 @@ title: I Don't Want To Blow Up
 headline: "Learn Vim: Unlock the Power of a Text Editor with WSL and Vimtutor"
 description: "As a tech enthusiast, I use Linux, Python, Vim and Git as my go-to tools. I'm a big fan of Bram Moolenaar's plain old Vim from 1991, as it's more future-proof and resistant to obsolescence. Are you looking to learn Vim? I'm encouraging you to do so - just type `wsl --install` in a DOS COM to get started. Vim is a powerful tool and is much more fundamental than the full web stack."
 keywords: Linux, Python, Vim, Git, Bram Moolenaar, DOS COM, JavaScript, NodeJS, Text Editor, Terminal, Sun
-categories: nodejs, javascript, linux, git, terminal, vim, python, text editor
+categories: git, nodejs, linux, vim, terminal, javascript, python, text editor
 permalink: /blog/i-don-t-want-to-blow-up/
 layout: post
 ---
@@ -167,15 +167,15 @@ Yes, blend that with your life stories.
   - Reading the tea-leaves in the data
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di/">If I Were Green I Would Die. Abba Di Abba Di.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/web-development-is-for-chumps-try-linux-services-instead/">Web Development is For Chumps. Try Linux Services, Instead.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di/">If I Were Green I Would Die. Abba Di Abba Di.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/web-development-is-for-chumps-try-linux-services-instead/">Web Development is For Chumps. Try Linux Services, Instead.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>

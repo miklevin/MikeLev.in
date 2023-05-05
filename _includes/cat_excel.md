@@ -16,4 +16,4 @@
 <li><a href="/blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/">A Day In The Life of An SEO SERPs, Python Pandas & SEMRush</a> (Wed Aug 17, 2022)
 <br/>Today, I'm embarking on a scavenger hunt to find the code I used the last time I did this project. I'm using Python to extract information from a database file, transform it into a usable format, and export it as a CSV file and an Excel xlsx file. I'm also using regex and tldextract to extract the domain from the search results. Finally, I'm using a bulk keyword analysis tool and a pivot table to organize the data.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/child/">Child</a></div> &nbsp; <div class="post-nav-next"><a href="/jupyter-notebooks/">Jupyter Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/child/">Child</a></div> &nbsp; <div class="post-nav-next"><a href="/jupyter-notebooks/">Jupyter Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>

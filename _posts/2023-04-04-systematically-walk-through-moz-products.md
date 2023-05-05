@@ -59,7 +59,7 @@ graph LR;
 Let's do some browser stuff.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile/">ASCII Alice Getting Smaller to Fit Mobile</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile/">ASCII Alice Getting Smaller to Fit Mobile</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -12,4 +12,4 @@
 <li><a href="/blog/get-your-daily-vim-exercise/">Get Your Daily vim Exercise</a> (Fri Apr 15, 2022)
 <br/>I'm learning to express myself fluently in English, use Linux, Python, vim, and git, and focus on joy-filled habits. I'm also recognizing the importance of maintenance and organization to achieve flow, but understand the difficulty of developing habits in a constantly changing environment. I'm exploring the luxuries of static environments, like properties and inheritances, and how they can help with habit formation.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/productivity/">Productivity</a></div> &nbsp; <div class="post-nav-next"><a href="/vimrc/">.vimrc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/productivity/">Productivity</a></div> &nbsp; <div class="post-nav-next"><a href="/vimrc/">.vimrc</a><span class="arrow">&nbsp;&rarr;</span></div></div>

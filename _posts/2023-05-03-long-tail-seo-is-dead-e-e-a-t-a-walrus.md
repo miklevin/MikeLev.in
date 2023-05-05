@@ -152,7 +152,7 @@ My E-E-A-T (Experience, Expertise, Authority, Trust) should be teaching folks
 how to use a hammer that can not be taken away from you, so you can never be
 eaten like an oyster.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

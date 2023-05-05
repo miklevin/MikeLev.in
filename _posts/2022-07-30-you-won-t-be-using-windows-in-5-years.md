@@ -30,7 +30,7 @@ FORGET VMS
 - The rest is details pertaining to performance, security and the like.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-you-still-really-need-windows-switching-to-linux-in-2022/">Do You Still Really Need Windows? Switching To Linux in 2022</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-you-still-really-need-windows-switching-to-linux-in-2022/">Do You Still Really Need Windows? Switching To Linux in 2022</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

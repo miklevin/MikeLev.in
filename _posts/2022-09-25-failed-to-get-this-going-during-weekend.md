@@ -88,7 +88,7 @@ Okay, so this project is broken into at least 2 parts, split across OSes
 communicating via files. Make a Python busy loop Windows-side without Jupyter.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-greys-exist-they-re-a-banana-crops/">If Greys Exist They're a Banana Crops</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-greys-exist-they-re-a-banana-crops/">If Greys Exist They're a Banana Crops</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

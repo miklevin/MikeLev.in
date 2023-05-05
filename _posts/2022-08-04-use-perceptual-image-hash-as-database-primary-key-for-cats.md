@@ -37,7 +37,7 @@ through this video and you'll see how we:
 {% include youtubePlayer.html id="usBoZ38Exak" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/">Lightweight Python Data Pipelining With Huey (to Replace Scheduler)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/">Lightweight Python Data Pipelining With Huey (to Replace Scheduler)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

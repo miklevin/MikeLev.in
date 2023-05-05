@@ -121,7 +121,7 @@ Do a release and get at least some barebones (unformatted with CSS) prev/next
 arrows propagated all over the place...
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/">Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/">Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

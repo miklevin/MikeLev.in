@@ -68,7 +68,7 @@ We definitely want to talk about baby-steps, iterative passes, the 80/20-rule
 and rabbit hole detection and escaping. `
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/life-after-deluxepaint-and-the-amiga/">Life After DeluxePaint and The Amiga</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/life-after-deluxepaint-and-the-amiga/">Life After DeluxePaint and The Amiga</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

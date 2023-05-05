@@ -26,4 +26,4 @@
 <li><a href="/blog/using-gnu-screen-to-monitor-linux-system-daemon-service/">Using GNU Screen to Monitor Linux System Daemon Service</a> (Fri Jul 29, 2022)
 <br/>Learn how to install Linux on Windows machines and get Linux services running under GNU Screen under an LXD Container. Discover the advantages of mastering generic Linux tech over web development and how to get started. I provide an example of a Python script to monitor a Linux system daemon service, and I walk you through the steps for installing Ubuntu 18.04, updating the file /etc/systemd/system/pulse.service, installing the program screen.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/panda/">Pandas</a></div> &nbsp; <div class="post-nav-next"><a href="/yaml/">YAML</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/panda/">Pandas</a></div> &nbsp; <div class="post-nav-next"><a href="/yaml/">YAML</a><span class="arrow">&nbsp;&rarr;</span></div></div>

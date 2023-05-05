@@ -14,4 +14,4 @@
 <li><a href="/blog/chatgpt-plus-is-available-in-the-united-states/">ChatGPT Plus Is Available In The United States</a> (Sat Feb 11, 2023)
 <br/>Discover ChatGPT Plus, the revolutionary new technology combining natural language processing and AI to create an interactive chatbot. With ChatGPT Plus, I can ask questions and get answers quickly and easily. Get it now and start having conversations with my virtual assistant!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/empathy/">Empathy</a></div> &nbsp; <div class="post-nav-next"><a href="/algorithm/">Algorithms</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/empathy/">Empathy</a></div> &nbsp; <div class="post-nav-next"><a href="/algorithm/">Algorithms</a><span class="arrow">&nbsp;&rarr;</span></div></div>

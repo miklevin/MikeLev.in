@@ -122,7 +122,7 @@ the same machine. Living with crappy output using :execute may be the right way
 to go. Do some experiments.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: A Place to Put Things
 headline: "Embark on a Tech Literacy Adventure: Learn PyTorch, Group Keywords, and Build Robots!"
 description: I'm taking you on a journey to become a modern tech literate person. Learn the basics of PyTorch, group keywords, and build robots. Familiarize yourself with Linux, Git, and Vim. Set up a GitLab repo and gain the freedom that comes with it. Join me as I guide you through this tech literacy adventure!
 keywords: PyTorch, Group Keywords, Build Robots, Linux, Command-Line, Linux Daemon, Git, Vim, GitLab, Repo, Freedom, Pipulate, Python Standard Library, Pip Install, Pandas, Requests, Httpx, ScikitLearn
-categories: pandas, linux, command-line, git, vim, pipulate
+categories: git, vim, linux, pandas, command-line, pipulate
 permalink: /blog/a-place-to-put-things/
 layout: post
 ---
@@ -124,12 +124,12 @@ to code a dependency upon them into your day to day work. Just know that down
 the path I'm taking you on is eventual freedom, even from that.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/changing-installedappflow-from-run-console-to-run-local-server/">Changing InstalledAppFlow from run_console() to run_local_server()</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/changing-installedappflow-from-run-console-to-run-local-server/">Changing InstalledAppFlow from run_console() to run_local_server()</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/command-line/'>Command-Line</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/command-line/'>Command-Line</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>

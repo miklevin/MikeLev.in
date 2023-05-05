@@ -143,7 +143,7 @@ main character. It was just so delightful and plausible. It started out like
 Asimov's
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/general-artificial-intelligence-nas-business-plan/">General Artificial Intelligence NAS Business Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-nomadic-robotic-cozy-hove-abode/">The Nomadic Robotic Cozy Hove Abode</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/general-artificial-intelligence-nas-business-plan/">General Artificial Intelligence NAS Business Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-nomadic-robotic-cozy-hove-abode/">The Nomadic Robotic Cozy Hove Abode</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -71,7 +71,7 @@ Hmm, nope. It should be a wholly separate post that I put over there on
 Pythonic Ally site.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

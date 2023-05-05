@@ -10,4 +10,4 @@
 <li><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a> (Wed Jan 11, 2023)
 <br/>I recently had a breakthrough in creating a SQLite3 database to capture data from a list of URLs, and now I'm creating a keyword histogram and grouping the pages by keyword themes. I've been assigned a million-page crawl, and I'm tackling it all on one machine with momentarily unthrottled concurrency in chunks. Come read about my journey and how I'm processing the data in finite jobs and moving the chunks off my local.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/theory/">Theory</a></div> &nbsp; <div class="post-nav-next"><a href="/json/">JSON</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/theory/">Theory</a></div> &nbsp; <div class="post-nav-next"><a href="/json/">JSON</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -12,4 +12,4 @@
 <li><a href="/blog/what-to-do-how-to-always-be-doing-step/">What To Do? How To Always Be Doing Step</a> (Tue May 31, 2022)
 <br/>I'm taking control of my stress and anxiety with breathing exercises and other activities like jumping jacks, journaling, and visualizing the results of my efforts. I'm also reminding myself to take it step by step, double-check my work, and document the small steps I take. With this approach, I'm learning to actualize my thoughts into the real world and experience the magic of being human.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/collaboration/">Collaboration</a></div> &nbsp; <div class="post-nav-next"><a href="/trick/">Tricks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/collaboration/">Collaboration</a></div> &nbsp; <div class="post-nav-next"><a href="/trick/">Tricks</a><span class="arrow">&nbsp;&rarr;</span></div></div>

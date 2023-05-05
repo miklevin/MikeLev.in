@@ -4,7 +4,7 @@ title: Reconstructing Math Under Python for The Syntactically Ambiguous Challeng
 headline: "Unravelling the Mysteries of Physics: Exploring Temperature, Pressure, and Electric Fields"
 description: I'm exploring some of the most fascinating and challenging questions in science today, from the Theory of Everything to Dark Matter and Dark Energy. I'm also looking into physical factors such as temperature, pressure and electric fields, and the ambitious experiments planned to answer these questions. I'm passionate about learning and encourage others to pursue physics and discover something amazing!
 keywords: Physics, Theory of Everything, Dark Matter, Dark Energy, Temperature, Pressure, Electric Fields, Algebra, Axioms, Substitution, Notation, Calculus, Theorem, Rules of Inference, Logic, Reasoning, Argumentation, Mathematics, Computer Science, Philosophy, Law, Linguistics, Climate Change, Evolution, Cosmology, Artificial Intelligence, Quantum Gravity, Quantum Mechanics, Particle Physics, Astrophysics, Condensed Matter Physics, Biophysics, Mit
-categories: evolution, artificial intelligence
+categories: artificial intelligence, evolution
 permalink: /blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/
 layout: post
 ---
@@ -534,9 +534,9 @@ Laser Interferometer Gravitational-Wave Observatory (LIGO): A pair of detectors 
 These are some of the most exciting and ambitious experiments in physics today. They may answer some of the unsolved problems or raise new ones. Physics is a fascinating field that explores the fundamental nature of reality and its mysteries. If you are thinking about getting into physics, I encourage you to pursue your curiosity and passion for learning. You may discover something amazing!😊
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/even-if-ai-can-t-solve-unsolvable-problems-it-sure-can-write-stories-about-them/">Even if AI Can't Solve Unsolvable Problems, It Sure Can Write Stories About Them!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/even-if-ai-can-t-solve-unsolvable-problems-it-sure-can-write-stories-about-them/">Even if AI Can't Solve Unsolvable Problems, It Sure Can Write Stories About Them!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li></ul>
+<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

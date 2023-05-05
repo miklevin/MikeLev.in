@@ -4,7 +4,7 @@ title: Refining my .vimrc now that it's a NeoVim init.vim
 headline: "Exploring NeoVim and Vim: Refining my init.vim File"
 description: I just updated my init.vim with some new plugins and options, making it compatible with both NeoVim and Vim. I'm testing out a macro that returns the entire path and name of the file, and I'm creating a new file called chopchop.py to replace the old skite repo. Come check out my blog post to learn more about my experience with NeoVim and Vim!
 keywords: NeoVim, Vim, init.vim, plugins, options, macro, path, name, file, chopchop.py, skite repo, syntax highlighting, cursor shape, spellfile, highlight groups, key bindings, @q macro, argument, path, parse
-categories: vim, macro, neovim
+categories: neovim, vim, macro
 permalink: /blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/
 layout: post
 ---
@@ -310,10 +310,10 @@ blog folder name needs to remain because you don't know what has to be used in
 the permalink.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/macro/'>Macro</a></h4></li></ul>

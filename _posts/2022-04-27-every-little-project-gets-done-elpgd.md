@@ -40,7 +40,7 @@ slug: blog
 This is a test.
 ```
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

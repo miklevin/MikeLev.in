@@ -12,4 +12,4 @@
 <li><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a> (Fri May 06, 2022)
 <br/>I'm 51 years old and have gained a lot of wisdom over the years. From understanding my likes and dislikes and the role of major events in my life, to recognizing the importance of financial security, I have learned a lot. I regret not taking up Python sooner, and I'm grateful for the opportunities Unix has given me. Despite the ups and downs, I wouldn't change my path and am content with how things have turned out. Read my blog post to learn more about my journey and</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/trick/">Tricks</a></div> &nbsp; <div class="post-nav-next"><a href="/progress/">Progress</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/trick/">Tricks</a></div> &nbsp; <div class="post-nav-next"><a href="/progress/">Progress</a><span class="arrow">&nbsp;&rarr;</span></div></div>

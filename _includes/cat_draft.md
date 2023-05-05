@@ -10,4 +10,4 @@
 <li><a href="/blog/defaultdict-s-returning-keys-with-lambdas-needs-default-none/">DefaultDict's Returning Keys with Lambdas Needs Default None</a> (Sun Apr 23, 2023)
 <br/>I have created a YAMLesque journaling system and used powerful techniques such as setting a default None value with Python defaultdict and lambdas for improved flow control and efficiency. Learn how I used this project to write two blog posts, and watch the new release process in action.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blogslicer/">blogslicer</a></div> &nbsp; <div class="post-nav-next"><a href="/theory/">Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blogslicer/">blogslicer</a></div> &nbsp; <div class="post-nav-next"><a href="/theory/">Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>

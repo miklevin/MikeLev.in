@@ -4,7 +4,7 @@ title: ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome
 headline: "Discover the Power of Self-Learning: Join Me on My Journey with Project Pipulate!"
 description: I'm relaunching project Pipulate, an automatable system that ChatGPT can't do. With this project, I'm on a soul-cleansing path to learn to code without relying on cloud services and to talk code into existence. Join me on my journey and discover the power of self-learning!
 keywords: ChatGPT, Imposter Syndrome, Automatable System, Self-Learning, Conversational-Based, Cloud Services, Soul-Cleansing, Code, Journey, Relaunch, Project Pipulate
-categories: chatgpt, journey, imposter syndrome
+categories: journey, imposter syndrome, chatgpt
 permalink: /blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/
 layout: post
 ---
@@ -72,10 +72,10 @@ conversationally based. You talk code into existence in Jupyter (without paying
 cloud services). There's an unlikely but potentially popular and soul-cleansing
 path here. Articulate it and promote it.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/">Google Analytics GA4 API Access Will Be My First Project for Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/">Google Analytics GA4 API Access Will Be My First Project for Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li></ul>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>

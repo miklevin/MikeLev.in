@@ -23,7 +23,7 @@ the big questions. Reverting to quantum effects is a sort of regression, but
 it's what's used for life. The way chlorophyll works is a great example.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/october-first-no-gamma-burst-so-far-so-good/">October First No Gamma Burst... So Far So Good.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/start-documenting-my-best-tricks-on-this-site/">Start Documenting My Best Tricks On This Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/october-first-no-gamma-burst-so-far-so-good/">October First No Gamma Burst... So Far So Good.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/start-documenting-my-best-tricks-on-this-site/">Start Documenting My Best Tricks On This Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

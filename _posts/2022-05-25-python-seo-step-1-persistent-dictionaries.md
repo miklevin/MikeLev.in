@@ -4,7 +4,7 @@ title: "Python SEO Step #1: Persistent Dictionaries"
 headline: "Master Python for SEO: Learn to Target Keywords, Collect Data, and Use Machine Learning Algorithms"
 description: In this session, I will teach you how to use Python for SEO, including how to target keywords, collect data, and use machine learning algorithms. We will use JupyterLab, Python dictionaries, and a context manager to eliminate extra code. I will also discuss SqliteDict, a free and open source SQL database, as a key/value system. Learn how to use URLs as keys in key/value pair systems.
 keywords: Python, SEO, JupyterLab, Python Dictionaries, Context Manager, SqliteDict, SQL Database, NoSQL, Key/Value Pair Systems, URLs, Keys, Value, Rows, Columns, Machine Learning Algorithms, Target Keywords, Collect Data
-categories: jupyterlab, python, sqlitedict, seo
+categories: python, sqlitedict, jupyterlab, seo
 permalink: /blog/python-seo-step-1-persistent-dictionaries/
 layout: post
 ---
@@ -185,11 +185,11 @@ Cure to anxiety, groudlessness, existential crisis, plagues of youth.
 > Figure out how to release already built-up potential.<br />
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/sqlitedict/'>SqliteDict</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

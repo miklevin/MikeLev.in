@@ -36,7 +36,7 @@ and the cats. I could go RV sometime soon. It seems likely in my future. I
 wonder how that would be with cats? Persistence. Purrsistence.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-finding-the-love-in-things/">Always Finding The Love In Things</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-finding-the-love-in-things/">Always Finding The Love In Things</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

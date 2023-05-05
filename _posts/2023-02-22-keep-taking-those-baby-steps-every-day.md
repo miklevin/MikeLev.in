@@ -113,7 +113,7 @@ Berkeley DB for another example. Oracle is where industry transforming FOSS
 tech goes to die. And now they have Java too.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/">Verbalize the built-up not-yet memeified angsty feelings of the public.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fetching-saving-html-from-list-of-urls-using-python/">Fetching & Saving HTML From List of URLs Using Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/">Verbalize the built-up not-yet memeified angsty feelings of the public.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fetching-saving-html-from-list-of-urls-using-python/">Fetching & Saving HTML From List of URLs Using Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

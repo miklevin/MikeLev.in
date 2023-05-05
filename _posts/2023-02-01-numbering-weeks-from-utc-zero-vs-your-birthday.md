@@ -84,7 +84,7 @@ from API documentation, it might not work right away, but at least I'm
 debugging my own code, based on more recent documentation to boot!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

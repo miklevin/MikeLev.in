@@ -78,4 +78,4 @@
 <li><a href="/blog/okay-i-m-finally-keeping-audiences-in-mind/">Okay, I'm Finally Keeping Audiences In Mind</a> (Thu Apr 7, 2022)
 <br/>I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/github/">Github</a></div> &nbsp; <div class="post-nav-next"><a href="/journey/">Journey</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/github/">Github</a></div> &nbsp; <div class="post-nav-next"><a href="/journey/">Journey</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -4,7 +4,7 @@ title: If I Were Green I Would Die. Abba Di Abba Di.
 headline: "Determined to Succeed: A YouTuber’s Journey of Resilience and Creativity"
 description: I am a YouTuber determined to succeed without compromising my standards. I discuss the difficulty of editing videos on YouTube, how APIs can be misleading, and the power of programming languages like Python and vi. I also explore the duality of red and green energy, the strength of diversity, and the power of creativity and natural hunting skills. Finally, I share my experience of shooting my best livecast ever and how it reminded me of the resilience I have developed over the years.
 keywords: green, die, Abba Di Abba Di, YouTuber, succeed, standards, editing, videos, YouTube, APIs, misleading, programming, languages, Python, vi, red, energy, diversity, creativity, natural hunting skills, livecast, resilience, mik, racial slur, streaming, analytics, text editors, Saint IGNUcius, yin language, yang clothing, soft blue, sharp green, SNL, Green Lantern, Green Arrow, Litany Against Fear,
-categories: text editors, python, youtube
+categories: python, youtube, text editors
 permalink: /blog/if-i-were-green-i-would-die-abba-di-abba-di/
 layout: post
 ---
@@ -393,10 +393,10 @@ in life steal the time from your day and the oxygen from your lungs, you can
 navigate the impossible route... become the worm.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li></ul>

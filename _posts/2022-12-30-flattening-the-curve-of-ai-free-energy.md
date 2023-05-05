@@ -39,7 +39,7 @@ We're understanding a thing or two, and we're getting a lot of things right now,
 With the type of rapid design iteration that ML/AI make possible, certain solutions should take only 30 days or 30 hours that used to be projected at 30 years. Take a magnetic containment system for fusion for example. A sustained star-in-a-jar is not possible today because
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass
 headline: Uncovering the Reasons Behind the Restriction of Web Browsers to JavaScript
 description: As a programmer, I missed the Full Web Stack revolution based on Google V8 JavaScript extraction from Chrome known as NodeJS. I chose Python as my primary language, and while I appreciate JavaScript's loveworthy bits, I've always wondered why web browsers are so locked down to just JavaScript. Discover why this restriction forces the web to be an always JavaScript game, and the browser vendor and governance issues behind it.
 keywords: Programming, Python, JavaScript, NodeJS, Google V8, Web Stack, LISP, Browser, Governance, English, Restriction, Game
-categories: nodejs, python, javascript
+categories: python, nodejs, javascript
 permalink: /blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/
 layout: post
 ---
@@ -79,10 +79,10 @@ JavaScript is the one language to rule them all is a browser vendor and
 governance issue. It's approximately like saying that all business must be
 conducted in English or you can't conduct business at all.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

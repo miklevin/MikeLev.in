@@ -36,7 +36,7 @@ get onto follow-up issues, like:
 - Having the correct Titles & Descriptions for each category post
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/admiring-the-usefulness-of-yaml-ness-in-my-journaling-system/">Admiring the Usefulness of YAML-ness in my Journaling System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/admiring-the-usefulness-of-yaml-ness-in-my-journaling-system/">Admiring the Usefulness of YAML-ness in my Journaling System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

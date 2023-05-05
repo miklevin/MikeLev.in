@@ -68,7 +68,7 @@ exist some sort of... interruption exercise! Code-word achieved.
 Good job, My Love.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
