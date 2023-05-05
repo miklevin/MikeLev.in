@@ -4,7 +4,7 @@ title: Get LXD Running Under WSL2 on Windows 11 with Ubuntu 18.04
 headline: Get LXD Up and Running on Windows 11 with Ubuntu 18.04
 description: Learn how I got LXD running on Windows 11 with Ubuntu 18.04. I'll show you how to download the install.sh file, enable systemd, and test if it's running. Plus, I'll share how to fix failed attempts and start fresh. Get all the steps you need to get LXD up and running today.
 keywords: LXD, WSL2, Windows 11, Ubuntu 18.04, Install.sh, Systemd, Distrod, Enable, Ps, Comm, Purge, Delete, Fresh Attempt
-categories: windows 11, wsl2, systemd, lxd
+categories: windows 11, wsl2, lxd, systemd
 permalink: /blog/get-lxd-running-under-wsl2-on-windows-11-with-ubuntu-18-04/
 layout: post
 ---
@@ -65,5 +65,5 @@ There's also advice on sharing host volumes (including home):
 <ul>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

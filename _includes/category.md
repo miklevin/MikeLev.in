@@ -8,9 +8,9 @@
 <li><a href="/microsoft/">Microsoft</a></li>
 <li><a href="/script/">Script</a></li>
 <li><a href="/wsl/">WSL</a></li>
+<li><a href="/jekyll/">Jekyll</a></li>
 <li><a href="/youtube/">YouTube</a></li>
 <li><a href="/lxd/">LXD</a></li>
-<li><a href="/jekyll/">Jekyll</a></li>
 <li><a href="/github/">Github</a></li>
 <li><a href="/jupyterlab/">JupyterLab</a></li>
 <li><a href="/journey/">Journey</a></li>
@@ -53,10 +53,11 @@
 <li><a href="/search/">Search</a></li>
 <li><a href="/macro/">Macro</a></li>
 <li><a href="/copilot/">Copilot</a></li>
+<li><a href="/80-20-rule/">80/20-Rule</a></li>
 <li><a href="/sqlite/">SQLite</a></li>
 <li><a href="/headline/">Headlines</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
-<li><a href="/80-20-rule/">80/20-rule</a></li>
+<li><a href="/focus/">Focus</a></li>
 <li><a href="/consciousness/">Consciousness</a></li>
 <li><a href="/docker/">Docker</a></li>
 <li><a href="/coding/">Coding</a></li>
@@ -64,10 +65,10 @@
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>
 <li><a href="/google-photos/">Google Photos</a></li>
+<li><a href="/publishing/">Publishing</a></li>
 <li><a href="/web-development/">Web Development</a></li>
 <li><a href="/nodejs/">NodeJS</a></li>
 <li><a href="/proprietary/">Proprietary</a></li>
-<li><a href="/focus/">Focus</a></li>
 <li><a href="/change/">Changes</a></li>
 <li><a href="/math/">Math</a></li>
 <li><a href="/habit/">Habits</a></li>
@@ -78,7 +79,6 @@
 <li><a href="/goal/">Goals</a></li>
 <li><a href="/future/">Future</a></li>
 <li><a href="/tutorial/">Tutorial</a></li>
-<li><a href="/publishing/">Publishing</a></li>
 <li><a href="/strategy/">Strategy</a></li>
 <li><a href="/evolution/">Evolution</a></li>
 <li><a href="/child/">Child</a></li>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
+<br/>This post outlines the process of moving all OpenAI Completion calls to one function for the chop.py to-do list. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. The author has completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
 <br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
@@ -84,4 +86,4 @@
 <li><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a> (Thu Aug 5, 2021)
 <br/>MikeLevinSEO shares his strategy for publishing a book, including his plan to use Jekyll and switch his domains from GoDaddy to NameCheap. He explains how he prioritizes his work using three metaphors, and shares his plan to use mikelevinseo.com as his domain name. Follow MikeLevinSEO's journey as he embarks on his book publishing adventure!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/lxd/">LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/github/">Github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl/">WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/youtube/">YouTube</a><span class="arrow">&nbsp;&rarr;</span></div></div>

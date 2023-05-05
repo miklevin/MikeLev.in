@@ -4,7 +4,7 @@ title: "vim :b1 Commands Much Force Like Obi-Wan"
 headline: Exploring the Power of Vim and My Special Connection with Obi-Wan
 description: "I use the vim command :b1 to get back to my personal private journal, which is the most important one. With vim, I can easily edit multiple files and copy/paste them to different websites, while keeping the original entry in my journal. Join me as I explore the power of vim and the special connection I have with Obi-Wan when I'm using it."
 keywords: Vim, Commands, Force, Obi-Wan, Personal, Private, Journal, Edit, Multiple, Files, Copy/Paste, Websites, Original, Entry, Explore, Power, Special, Connection
-categories: vim, edit
+categories: edit, vim
 permalink: /blog/vim-b1-commands-much-force-like-obi-wan/
 layout: post
 ---
@@ -43,5 +43,5 @@ never gets published and so will never cause duplicate content issues.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/edit/'>Edit</a></h4></li></ul>
+<li><h4><a href='/edit/'>Edit</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

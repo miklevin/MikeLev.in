@@ -1,7 +1,7 @@
 
 [Python](/python/) | [Linux](/linux/) | [Vim](/vim/) | [AI](/ai/) | 
 [Git](/git/) | [SEO](/seo/) | [Microsoft](/microsoft/) | [Script](/script/) | 
-[WSL](/wsl/) | [YouTube](/youtube/) | [LXD](/lxd/) | [Jekyll](/jekyll/) | 
+[WSL](/wsl/) | [Jekyll](/jekyll/) | [YouTube](/youtube/) | [LXD](/lxd/) | 
 [Github](/github/) | [JupyterLab](/jupyterlab/) | [Journey](/journey/) | [Journaling](/journaling/) | 
 [Jupyter](/jupyter/) | [OpenAI](/openai/) | [Container](/container/) | [API](/api/) | 
 [WSL2](/wsl2/) | [Unix](/unix/) | [ChatGPT](/chatgpt/) | [NeoVim](/neovim/) | 
@@ -12,13 +12,13 @@
 [Notebook](/notebook/) | [nbdev](/nbdev/) | [Google Analytics](/google-analytics/) | [Learning](/learning/) | 
 [Terminal](/terminal/) | [Platform](/platform/) | [Pandas](/panda/) | [Service](/service/) | 
 [YAML](/yaml/) | [Keywords](/keywords/) | [Experiment](/experiment/) | [Search](/search/) | 
-[Macro](/macro/) | [Copilot](/copilot/) | [SQLite](/sqlite/) | [Headlines](/headline/) | 
-[Browser Automation](/browser-automation/) | [80/20-rule](/80-20-rule/) | [Consciousness](/consciousness/) | [Docker](/docker/) | 
-[Coding](/coding/) | [Open Source](/open-source/) | [Success](/success/) | [Skills](/skill/) | 
-[Google Photos](/google-photos/) | [Web Development](/web-development/) | [NodeJS](/nodejs/) | [Proprietary](/proprietary/) | 
-[Focus](/focus/) | [Changes](/change/) | [Math](/math/) | [Habits](/habit/) | 
-[Template](/template/) | [Microsoft Playwright](/microsoft-playwright/) | [MOZ Pro](/moz-pro/) | [LPvg](/lpvg/) | 
-[Goals](/goal/) | [Future](/future/) | [Tutorial](/tutorial/) | [Publishing](/publishing/) | 
+[Macro](/macro/) | [Copilot](/copilot/) | [80/20-Rule](/80-20-rule/) | [SQLite](/sqlite/) | 
+[Headlines](/headline/) | [Browser Automation](/browser-automation/) | [Focus](/focus/) | [Consciousness](/consciousness/) | 
+[Docker](/docker/) | [Coding](/coding/) | [Open Source](/open-source/) | [Success](/success/) | 
+[Skills](/skill/) | [Google Photos](/google-photos/) | [Publishing](/publishing/) | [Web Development](/web-development/) | 
+[NodeJS](/nodejs/) | [Proprietary](/proprietary/) | [Changes](/change/) | [Math](/math/) | 
+[Habits](/habit/) | [Template](/template/) | [Microsoft Playwright](/microsoft-playwright/) | [MOZ Pro](/moz-pro/) | 
+[LPvg](/lpvg/) | [Goals](/goal/) | [Future](/future/) | [Tutorial](/tutorial/) | 
 [Strategy](/strategy/) | [Evolution](/evolution/) | [Child](/child/) | [Excel](/excel/) | 
 [Jupyter Notebooks](/jupyter-notebooks/) | [CSV](/csv/) | [Organization](/organization/) | [Twitter](/twitter/) | 
 [HTML](/html/) | [20.04](/20-04/) | [Text Editor](/text-editor/) | [New York City](/new-york-city/) | 

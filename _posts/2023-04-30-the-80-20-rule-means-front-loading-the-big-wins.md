@@ -43,4 +43,4 @@ things, but for organizing an environment for sure. Front-load the big wins.
 
 <ul>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
