@@ -4,7 +4,7 @@ title: WSL Linux Graphics and Systemd Support Takes Priority Over LXD
 headline: Prioritizing Linux Graphics and Systemd Over LXD in WSL - Check Out My Repository 'drinkme'
 description: "I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes."
 keywords: WSL, Linux, Graphics, Systemd, LXD, Containers, Windows, Subsystem, MikleVin, Repository, Drinkme, Video, Prioritize, Changes
-categories: lxd, containers, changes, systemd, wsl, graphics, drinkme, linux
+categories: drinkme, wsl, containers, graphics, lxd, linux, systemd, changes
 permalink: /blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/
 layout: post
 ---
@@ -58,12 +58,12 @@ It's time to make a video, right? ASAP. The iron is hot. Lots of people are
 probably trying to figure out what these changes mean.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/">LXDWIN is now the DrinkMe JupyterLab Linux Install Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-added-linux-graphics-and-systemd-to-wsl-for-windows-10/">Microsoft Added Linux Graphics and Systemd to WSL for Windows 10</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/">LXDWIN is now the DrinkMe JupyterLab Linux Install Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-added-linux-graphics-and-systemd-to-wsl-for-windows-10/">Microsoft Added Linux Graphics and Systemd to WSL for Windows 10</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

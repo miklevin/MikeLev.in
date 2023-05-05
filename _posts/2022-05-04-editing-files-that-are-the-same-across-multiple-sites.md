@@ -56,7 +56,7 @@ while read line; do
     n=$((n+1))
 done < $filename
 ```
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-files-that-are-the-same-across-multiple-sites/">Editing Files That Are The Same Across Multiple Sites</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/editing-files-that-are-the-same-across-multiple-sites/">Editing Files That Are The Same Across Multiple Sites</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

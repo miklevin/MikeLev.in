@@ -10,4 +10,4 @@
 <li><a href="/blog/when-are-we-not-adapting-to-new-realities/">When Are We Not Adapting to New Realities?</a> (Mon Dec 05, 2022)
 <br/>Today I'm excited to read the last book in the ExForce SciFi series. I'm also working on a project and considering reusing the Pipulate library, using the DrinkMe Linux platform, or creating a modern Noah's Ark platform. I need to be aware of vendors trying to lure me into a dependency and alternatives to local Jupyter. Join me as I explore the options and decide which is best for my project.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/json/">JSON</a></div> &nbsp; <div class="post-nav-next"><a href="/operating-systems/">Operating Systems</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/json/">JSON</a></div> &nbsp; <div class="post-nav-next"><a href="/operating-systems/">Operating Systems</a><span class="arrow">&larr;&nbsp;</span></div></div>

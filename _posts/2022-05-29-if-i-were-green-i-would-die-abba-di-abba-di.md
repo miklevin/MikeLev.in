@@ -393,7 +393,7 @@ in life steal the time from your day and the oxygen from your lungs, you can
 navigate the impossible route... become the worm.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

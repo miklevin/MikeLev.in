@@ -53,7 +53,7 @@ simply paste it underneath:
     }
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-style-sheets-to-github-pages-jekyll-blog/">Adding Style Sheets to Github Pages Jekyll Blog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/adding-style-sheets-to-github-pages-jekyll-blog/">Adding Style Sheets to Github Pages Jekyll Blog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

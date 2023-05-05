@@ -114,7 +114,7 @@ watching a movie with and connecting with my kid.
 {% include youtubePlayer.html id="bmBMTYxJWDA" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/boosting-youtube-watch-time-youtube-analytics/">Boosting YouTube Watch Time / YouTube Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gathering-my-stories/">Gathering My Stories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/boosting-youtube-watch-time-youtube-analytics/">Boosting YouTube Watch Time / YouTube Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gathering-my-stories/">Gathering My Stories</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

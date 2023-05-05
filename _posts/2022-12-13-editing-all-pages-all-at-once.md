@@ -90,7 +90,7 @@ some time to clean the slate. It's the pack-rat in me with these online things,
 just like it is in real-life. I've got to get past that.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/">Fusion Ignition Achieved! Q = 1 Thanks to Lawrence Livermore National Laboratory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/">Fusion Ignition Achieved! Q = 1 Thanks to Lawrence Livermore National Laboratory</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

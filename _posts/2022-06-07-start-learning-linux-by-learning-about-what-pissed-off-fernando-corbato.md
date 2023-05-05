@@ -31,7 +31,7 @@ so he did. And any idea of learning a "graphical desktop" as anything having to
 do with Linux (even GNOME, KDE or xcfe) has the entirely wrong idea.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/go-for-broke-connecting-the-dots/">Go For Broke Connecting The Dots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/go-for-broke-connecting-the-dots/">Go For Broke Connecting The Dots</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

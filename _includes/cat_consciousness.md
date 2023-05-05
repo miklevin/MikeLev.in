@@ -20,4 +20,4 @@
 <li><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a> (Sat May 07, 2022)
 <br/>I'm constantly channeling, but I don't always recognize it. My sensitivity levels have been lowered for my own peace of mind, but that doesn't mean I'm not still receiving messages. In this blog post, I'm capturing a droplet of that messaging and sharing it with you, so you can understand how consciousness works and why it's important to pay attention to these signals. Come explore this new normal with me.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/focus/">Focus</a></div> &nbsp; <div class="post-nav-next"><a href="/docker/">Docker</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/focus/">Focus</a></div> &nbsp; <div class="post-nav-next"><a href="/docker/">Docker</a><span class="arrow">&larr;&nbsp;</span></div></div>

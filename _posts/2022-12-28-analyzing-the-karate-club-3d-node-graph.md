@@ -407,7 +407,7 @@ fig.show()
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-visualize-websites-as-network-node-graphs/">Let's Visualize Websites as Network Node Graphs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-visualize-websites-as-network-node-graphs/">Let's Visualize Websites as Network Node Graphs</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

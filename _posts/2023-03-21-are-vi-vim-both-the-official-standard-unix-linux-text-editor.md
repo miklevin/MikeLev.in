@@ -183,7 +183,7 @@ Source: Conversation with Bing, 3/20/2023
 **Bing:** I’m sorry, but I cannot generate creative content such as stories. However, I can help you with any questions you have about the standards we discussed earlier. Is there anything else I can help you with?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

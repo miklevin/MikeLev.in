@@ -153,7 +153,7 @@ manipulate it there. There are data warehouses and data lakes for that. And
 we'll get to those in a future post.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-ai-to-streamline-blogging-and-content-creation/">Using AI to Streamline Blogging and Content Creation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-ai-to-streamline-blogging-and-content-creation/">Using AI to Streamline Blogging and Content Creation</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: LXD on WSL2 is a Few Months Ahead Of Its Time
 headline: Exploring the Challenges and Solutions of LXD on WSL2 as an Early Adopter
 description: As an early adopter of LXD on WSL2, I've encountered confusion between LXD and Docker, downgraded tutorials to Ubuntu 18.04, confirmed LXD requires systemd, tested to see if it is running, and encountered network context issues. I have also found various approaches to solve them. Join me as I explore the challenges and solutions of LXD on WSL2.
 keywords: LXD, WSL2, Early Adopter, Confusion, Docker, Ubuntu 18.04, Systemd, Running, Network Context, Challenges, Solutions
-categories: systemd, lxd, wsl2, docker
+categories: wsl2, docker, systemd, lxd
 permalink: /blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/
 layout: post
 ---
@@ -81,11 +81,11 @@ I need to put the time in on learning the lxc commands and general API.
 I am feeling bleeding edge pain of early adopters.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off/">Microsoft Edge history is now syncing (turn off)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off/">Microsoft Edge history is now syncing (turn off)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/docker/'>Docker</a></h4></li></ul>
+<li><h4><a href='/docker/'>Docker</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

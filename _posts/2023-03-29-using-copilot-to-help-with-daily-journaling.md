@@ -4,7 +4,7 @@ title: Using Copilot to Help With Daily Journaling
 headline: Exploring AIs and Staying Ahead of the Curve with Copilot
 description: I recently received a video from my boss about the potential of AIs in the future and was reminded of the opportunities and dangers that come with this technology. I decided to write in my journal about the potential of technology and my plans to stay ahead of the curve. I switched from Vim to NeoVim, enabled Copilot for markdown files, and tested out the new feature. I also discussed my plans to stream the breakthrough live on YouTube and shared my thoughts on SEO.
 keywords: AI, Copilot, NeoVim, markdown, YouTube, SEO, TTYL, Links API, Moz Pro, Pipulate, 404.html
-categories: copilot, moz pro, ai, neovim, seo, youtube, pipulate
+categories: youtube, seo, neovim, moz pro, pipulate, ai, copilot
 permalink: /blog/using-copilot-to-help-with-daily-journaling/
 layout: post
 ---
@@ -255,14 +255,14 @@ I'm most interest's ted in crawling are referring.
   https://moz.com/help/links-api
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fear-sells-don-t-buy-it/">Fear Sells. Don't Buy It.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fear-sells-don-t-buy-it/">Fear Sells. Don't Buy It.</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>

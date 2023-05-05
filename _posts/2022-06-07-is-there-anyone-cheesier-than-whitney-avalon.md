@@ -66,7 +66,7 @@ Cee Lo where to go. Whit, you're a top-tier Disney Princess in my book.
 {% include youtubePlayer.html id="v53Z_6RWuNM" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to/">I'll Blow Up On YouTube When I Want To</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to/">I'll Blow Up On YouTube When I Want To</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

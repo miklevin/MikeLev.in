@@ -100,7 +100,7 @@ ranges = result.get("valueRanges", [])
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python/">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python/">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

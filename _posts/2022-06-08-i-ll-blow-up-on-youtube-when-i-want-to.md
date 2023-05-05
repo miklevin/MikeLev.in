@@ -4,7 +4,7 @@ title: I'll Blow Up On YouTube When I Want To
 headline: "Ready to Make My Mark: 20.3 Years of YouTube Watchtime Accumulated in One Year"
 description: I've been on YouTube since 2006 and have accumulated 178,223 hours of watchtime in the last 365 days - equivalent to 20.3 years of continuous watchtime! My videos have been successful in introducing the world to the Raspberry Pi and teaching a generation of children the removable finger trick. Now, I'm taking advantage of new technology like iPhone and Github Pages to record and upload videos more easily.
 keywords: YouTube, 2006, 178,223, 365, watchtime, 20.3, years, continuous, Raspberry Pi, removable finger trick, iPhone, Github Pages, Windows, storm, polished, presence
-categories: youtube, github pages
+categories: github pages, youtube
 permalink: /blog/i-ll-blow-up-on-youtube-when-i-want-to/
 layout: post
 ---
@@ -78,9 +78,9 @@ blow up on YouTube despite all the polishistas. The world just might be ready
 for me. I feel twitches in the web.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon/">Is There Anyone Cheesier Than Whitney Avalon?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon/">Is There Anyone Cheesier Than Whitney Avalon?</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

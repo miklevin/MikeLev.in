@@ -4,7 +4,7 @@ title: Editing 15 Homepages at Once in vim
 headline: Editing 15 Homepages Simultaneously with vim - A Step-by-Step Guide
 description: I'm editing 15 homepages at once using vim, creating necessary files and folders, and writing a configuration file for a Jekyll website. This configuration file includes a list of plugins, a theme name, an author, a permalink, a Google Analytics ID, a title, a description, and an apex - all saved in the apex directory of the website. Come read my blog post to learn more!
 keywords: Vim, Homepages, Files, Folders, Configuration, Jekyll, Plugins, Theme, Permalink, Google Analytics, Title, Description, Apex, all.sh, hps.sh, default.html, _config.yml
-categories: google analytics, vim, jekyll
+categories: jekyll, vim, google analytics
 permalink: /blog/editing-15-homepages-at-once-in-vim/
 layout: post
 ---
@@ -163,10 +163,10 @@ apex: {apex}'''
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-15-homepages-at-once-in-vim/">Editing 15 Homepages at Once in vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-dangers-of-being-predisposed-why-apple-won/">The Dangers of Being Predisposed (Why Apple Won)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/editing-15-homepages-at-once-in-vim/">Editing 15 Homepages at Once in vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-dangers-of-being-predisposed-why-apple-won/">The Dangers of Being Predisposed (Why Apple Won)</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>

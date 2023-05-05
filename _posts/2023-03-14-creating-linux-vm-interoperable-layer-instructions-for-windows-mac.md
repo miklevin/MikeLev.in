@@ -243,7 +243,7 @@ Source: Conversation with Bing, 3/14/2023
     (5) What Is Web Development? - Codecademy News. https://www.codecademy.com/resources/blog/what-is-web-development/ Accessed 3/14/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/">Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/introducing-the-new-bing-how-to-get-indexed/">Introducing The New Bing / How to Get Indexed</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/">Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/introducing-the-new-bing-how-to-get-indexed/">Introducing The New Bing / How to Get Indexed</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

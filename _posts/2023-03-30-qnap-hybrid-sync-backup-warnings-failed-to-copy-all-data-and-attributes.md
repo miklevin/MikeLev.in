@@ -53,7 +53,7 @@ backed up, but that's not a problem for now. Not a priority. It's coming up on
 8:30 AM and I have my plans for the day.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

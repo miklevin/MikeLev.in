@@ -62,7 +62,7 @@ for people who love virtual desktops!
 {% include youtubePlayer.html id="wTnrCprlCB8" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/">Do Not Lose The Power of Touch Typing Despite AI APIs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/">Do Not Lose The Power of Touch Typing Despite AI APIs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: What are the most important news for me to know today?
 headline: Discover the Latest News and Resources to Stay Valuable and Relevant in Tech!
 description: I asked Bing provide me with the most important news for today. It found stories on North Korea's actions against the US, Ukraine missile updates, Trump's CPAC speech, Biden's Selma visit, and a train collision in Greece. Also talked about my LPvg passion.
 keywords: North Korea, US, Ukraine, Missile, Trump, CPAC, Biden, Selma, Greece, Train Collision, Linux, Python, Vim, Git, Democratization, AI, Fashion, Retail, Politics, Internet
-categories: python, vim, git, ai, linux
+categories: python, linux, git, ai, vim
 permalink: /blog/what-are-the-most-important-news-for-me-to-know-today/
 layout: post
 ---
@@ -94,12 +94,12 @@ I’m happy to help you with that. I can provide you with some information and r
 I always had regrets I didn't build something bigger. I mean I did HitTail and a few software tricks. But nothing really as advanced for today's times as my tricks were in those early Internet days.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-structured-graphics-foss/">Seeking Structured Graphics FOSS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-first-moz-programming-project-will-be-emailed-screenshots/">My First MOZ Programming Project Will Be Emailed Screenshots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/seeking-structured-graphics-foss/">Seeking Structured Graphics FOSS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-first-moz-programming-project-will-be-emailed-screenshots/">My First MOZ Programming Project Will Be Emailed Screenshots</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

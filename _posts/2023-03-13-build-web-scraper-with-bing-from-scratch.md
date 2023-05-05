@@ -158,7 +158,7 @@ Source: Conversation with Bing, 3/11/2023
     (6) 24 Best Web Scraping Tools and Software in 2023 - ScrapeHero. https://www.scrapehero.com/top-free-and-paid-web-scraping-tools-and-software/ Accessed 3/11/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/talked-bing-into-submitting-copy-paste-bug-about-itself/">Talked Bing into Submitting Copy/Paste Bug About Itself</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-is-the-best-seo-software/">What is the best SEO software?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/talked-bing-into-submitting-copy-paste-bug-about-itself/">Talked Bing into Submitting Copy/Paste Bug About Itself</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-is-the-best-seo-software/">What is the best SEO software?</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

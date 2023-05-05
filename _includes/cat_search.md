@@ -24,4 +24,4 @@
 <li><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code/">Imagining vim Macro That Makes Markdown Image Code</a> (Wed May 18, 2022)
 <br/>As an Information Age professional, I use vim as my text editor to create image tags from keyworded filenames for my web publishing system based on Github's Github Pages Jekyll static site generator. I use proper-case for the web accessible alt-text area, which is beneficial for both the visually impaired and search engines. With vim, I can easily name my files with keywords and tag my images for search with alt-text. Learn how I use vim to make web publishing easier.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/experiment/">Experiment</a></div> &nbsp; <div class="post-nav-next"><a href="/macro/">Macro</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/experiment/">Experiment</a></div> &nbsp; <div class="post-nav-next"><a href="/macro/">Macro</a><span class="arrow">&larr;&nbsp;</span></div></div>

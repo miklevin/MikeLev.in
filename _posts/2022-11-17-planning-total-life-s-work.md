@@ -15,7 +15,7 @@ kept-published way. I have a new sort of magic here with my slice & dice
 blogging system and the LXD container system working on Windows 10 & 11.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-spell/">Planning a Spell</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxdwin-and-the-day-job/">LXDWIN and The Day Job</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/planning-a-spell/">Planning a Spell</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxdwin-and-the-day-job/">LXDWIN and The Day Job</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

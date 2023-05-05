@@ -212,7 +212,7 @@ Biotechnology needs
 Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/week-3-at-moz-step-up-your-game/">Week 3 at Moz, Step-Up Your Game</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/week-3-at-moz-step-up-your-game/">Week 3 at Moz, Step-Up Your Game</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

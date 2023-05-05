@@ -4,7 +4,7 @@ title: Testing nbdev
 headline: "Learning nbdev: My 20+ Year Journey as an SEO"
 description: I'm an SEO with over 20 years of experience, and I'm learning the nbdev library. I've set up the settings.ini file and tested out nbdev_build_libs, and I'm now creating a 00_core.ipynb file. I'm making sure to record the dependencies and to avoid using the 'black' uncompromising code formatter in iPhone Carnets. Join me as I share my journey of learning nbdev and how I'm adapting
 keywords: nbdev, SEO, settings.ini, nbdev_build_libs, 00_core.ipynb, dependencies, black, iPhone Carnets, 1996, instructions, website, note, adapting
-categories: dependencies, nbdev, seo
+categories: nbdev, dependencies, seo
 permalink: /blog/testing-nbdev/
 layout: post
 ---
@@ -85,7 +85,7 @@ Kite or TabNine plugins on standalone Jupyter? No, doesn't look like it.
 Did the live-cast.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-nbdev/">Testing nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/testing-nbdev/">Testing nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

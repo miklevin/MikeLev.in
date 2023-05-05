@@ -4,7 +4,7 @@ title: Activating All My Registered Domains
 headline: Organizing My Domains with Scripts and Google Analytics
 description: I have taken the initiative to activate all of my registered domains, creating scripts to help me organize them. I have created a sites.txt file, an edit.sh file, and have gone to Google Analytics to get new GA-4 codes. I have also moved content from one website to another, and made mikelevinseo.com its own site. Read this blog post to learn how I organized my domains and content!
 keywords: Domains, Scripts, sites.txt, edit.sh, Google Analytics, GA-4 codes, Website, Folders, Journals, Jupyter Notebook, .py file, Git, List, Repos, Content, mikelevinseo.com, PythonicAlly.com
-categories: scripts, google analytics, jupyter notebook, git
+categories: google analytics, git, scripts, jupyter notebook
 permalink: /blog/activating-all-my-registered-domains/
 layout: post
 ---
@@ -206,10 +206,10 @@ stuff I've been loading in PythonicAlly.com that is much too in-depth for so
 early in that site.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/activating-all-my-registered-domains/">Activating All My Registered Domains</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/activating-all-my-registered-domains/">Activating All My Registered Domains</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

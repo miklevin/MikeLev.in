@@ -116,7 +116,7 @@ the somewhere-learned and self-imposed "I'm not a math person" an allergic
 reaction when I mention such things. I have to frame it better.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2/">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-ubuntu-18-04-and-ubuntu-20-04-simultaneously-under-wsl-2/">Running Ubuntu 18.04 and Ubuntu 20.04 Simultaneously Under WSL 2</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

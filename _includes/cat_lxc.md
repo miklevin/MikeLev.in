@@ -12,4 +12,4 @@
 <li><a href="/blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/">Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2</a> (Tue Jun 14, 2022)
 <br/>I'm installing OpenSolaris ZFS as part of a larger effort to have access to all the best developer stuff on my Linux WSL2 system. I ran into some errors while trying to get LXC and LXD running, but I was able to get everything working with the help of the 'wsl --help' command. I'm excited to have LXD running under WSL and am looking forward to the next livestream which will be about developing Linux system services with LXD.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/progress/">Progress</a></div> &nbsp; <div class="post-nav-next"><a href="/desktop/">Desktop</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/progress/">Progress</a></div> &nbsp; <div class="post-nav-next"><a href="/desktop/">Desktop</a><span class="arrow">&larr;&nbsp;</span></div></div>

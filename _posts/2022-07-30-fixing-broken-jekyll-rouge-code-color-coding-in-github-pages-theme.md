@@ -53,7 +53,7 @@ if I find too much stuff indented:
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/knowing-what-gnu-screen-you-re-on-with-screenrc/">Knowing what GNU screen you're on with .screenrc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/knowing-what-gnu-screen-you-re-on-with-screenrc/">Knowing what GNU screen you're on with .screenrc</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

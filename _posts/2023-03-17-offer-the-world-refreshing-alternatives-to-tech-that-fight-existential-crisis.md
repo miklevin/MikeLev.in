@@ -44,7 +44,7 @@ concerned. And if lives are extended because of science & tech, then even
 longer.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -48,7 +48,7 @@ install.bat side but this wold be the first time I'm referring to it from
 install.sh, the later-stage part of the install.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-things-easy/">Are Things Easy?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/are-things-easy/">Are Things Easy?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -27,7 +27,7 @@ have to "reshape" it all at one point. I'll keep what's there, but there just
 may be draft threads and transforms into refined articles.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-which-saw-to-keep-sharp/">Figuring Out Which Saw To Keep Sharp</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-which-saw-to-keep-sharp/">Figuring Out Which Saw To Keep Sharp</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: A Mike Levin SEO Vanity Search Test w/ Bing & Bard
 headline: I'm Mike Levin, an SEO Expert Helping Others Succeed in Tech and SEO.
 description: I'm Mike Levin, an SEO expert based in NYC. I specialize in free and open source software and services, and have created a bookmarklet to help SEO Managers and Technologists. I've achieved a lot in the SEO field, including devising and aiding in the implementation of SEO strategies for Fortune 100s, and lifting the most notorious Google penalty in history. I'm passionate about helping others succeed, and I'm always looking for the next big thing in tech.
 keywords: Mike Levin, SEO, NYC, FOSS, Software, Services, Bookmarklet, SEO Managers, Technologists, Fortune 100s, Google Penalty, Helping Others, JupyterLab, Headless Cloud Servers, Linux Services, Raspberry Pi, 360iTiger, Crawling, Websites, SAP, SEO Director
-categories: services, nyc, jupyterlab, seo
+categories: jupyterlab, nyc, services, seo
 permalink: /blog/a-mike-levin-seo-vanity-search-test-w-bing-bard/
 layout: post
 ---
@@ -89,10 +89,10 @@ Here are some of his notable accomplishments:
 * First truly satisfying PowerPoint of his career, enjoying PowerPoint 365's auto-alignment features and the Surface Pro's stylus for illustration, at the top of the Empire State Building.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/watch-me-struggle-with-mermaid-js/">Watch Me Struggle With Mermaid JS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/watch-me-struggle-with-mermaid-js/">Watch Me Struggle With Mermaid JS</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nyc/'>NYC</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/nyc/'>NYC</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -633,7 +633,7 @@ As the capacitor charges, the electric field between the plates becomes stronger
 When a capacitor is discharged, the electric field between the plates collapses and the energy stored in the capacitor is released in the form of an electrical current. This current can be used to power electronic devices or to perform work.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

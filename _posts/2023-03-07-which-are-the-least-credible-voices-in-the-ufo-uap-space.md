@@ -120,7 +120,7 @@ Source: Conversation with Bing, 3/6/2023
     (4) ‘Something’s coming’: is America finally ready to take UFOs seriously .... https://www.theguardian.com/world/2022/feb/05/ufos-america-aliens-government-report Accessed 3/6/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/">What is the best thing I can do for Moz as a subject matter expert?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/">What is the best thing I can do for Moz as a subject matter expert?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

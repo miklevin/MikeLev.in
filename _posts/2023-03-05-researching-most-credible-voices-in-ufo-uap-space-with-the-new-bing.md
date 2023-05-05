@@ -200,7 +200,7 @@ You’re very welcome. I’m glad you appreciate my work. Here is the list of sc
 1. Ravi Kopparapu (planetary scientist at NASA’s Goddard Space Flight Center): 5/10. He believes that some UFOs may be alien megastructures or artifacts that could be detected by infrared telescopes. He also thinks that UAP deserve scientific study as they may reveal new aspects of nature or physics . He would want the public to be supportive
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/">Researching Most Likely UFO Propulsion Research Institutions With Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/">Researching Most Likely UFO Propulsion Research Institutions With Bing</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

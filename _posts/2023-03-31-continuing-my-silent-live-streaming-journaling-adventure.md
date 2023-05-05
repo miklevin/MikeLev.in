@@ -4,7 +4,7 @@ title: Continuing My Silent Live-Streaming Journaling Adventure
 headline: Exploring the Possibilities of Journaling and Coding Through Live-Streaming My Journey
 description: I'm live-streaming my journey of journaling and making the argument for keeping a single text file for life. I'm also creating a Github repo with code examples, watching cartoons with my kid, and making them food. I've written sample code and converted them into Python dict objects, and I now have a Jupyter Notebook to share with the community. Join me on my journey and explore the possibilities of journaling and coding!
 keywords: Journaling, Single Text File, Live-Streaming, Github, Code Examples, Python, Dict Objects, Jupyter Notebook, Personal Journal, Professional Journal, Vi-like Editor, API, Cartoon, Food, String JSON
-categories: python, journaling, jupyter notebook, api, github
+categories: python, jupyter notebook, journaling, github, api
 permalink: /blog/continuing-my-silent-live-streaming-journaling-adventure/
 layout: post
 ---
@@ -97,12 +97,12 @@ in the Jupyter Notebook. That's a good starting point for future projects. And
 you can share in the resource.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/powering-my-way-through-moz-links-api-documentation/">Powering My Way Through MOZ Links API Documentation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/curiouser-and-curiouser-personal-journaling-w-ai/">Curiouser and Curiouser Personal Journaling w/AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/powering-my-way-through-moz-links-api-documentation/">Powering My Way Through MOZ Links API Documentation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/curiouser-and-curiouser-personal-journaling-w-ai/">Curiouser and Curiouser Personal Journaling w/AI</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>

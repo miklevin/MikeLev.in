@@ -103,7 +103,7 @@ evidence that the public at large is indeed "held down". But times are
 achangin.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/">The Python Pandas .iloc Interface Explained For The Befuddled</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/">The Python Pandas .iloc Interface Explained For The Befuddled</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

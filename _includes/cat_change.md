@@ -18,4 +18,4 @@
 <li><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a> (Sat Apr 23, 2022)
 <br/>I'm blogging using Jekyll and Github Pages and have just made some changes to the theme. I'm now following a DigitalOcean tutorial to control URLs and links in Jekyll - hoping for successful changes to propagate soon! Read my blog post to find out how I did it.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/proprietary/">Proprietary</a></div> &nbsp; <div class="post-nav-next"><a href="/math/">Math</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/proprietary/">Proprietary</a></div> &nbsp; <div class="post-nav-next"><a href="/math/">Math</a><span class="arrow">&larr;&nbsp;</span></div></div>

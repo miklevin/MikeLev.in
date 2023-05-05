@@ -40,7 +40,7 @@ Linux.
 And do uh yeah, Unix was there first with replacement to a bash-file oriented
 init system.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -158,7 +158,7 @@ Source: Conversation with Bing, 3/5/2023
     (6) Phys. Rev. D 78, 096009 (2008) - Schwinger mechanism and graphene. https://link.aps.org/doi/10.1103/PhysRevD.78.096009 Accessed 3/5/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

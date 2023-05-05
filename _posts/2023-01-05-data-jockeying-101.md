@@ -122,7 +122,7 @@ are from the beginning of the year to current (minus a few days) and beginning
 of the year to a couple of days ago.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/api-choices-rational-folks-won-t-say-magic/">API Choices & Rational Folks Won't Say Magic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/api-choices-rational-folks-won-t-say-magic/">API Choices & Rational Folks Won't Say Magic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

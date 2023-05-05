@@ -16,4 +16,4 @@
 <li><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a> (Sun May 08, 2022)
 <br/>In this post, I explore the implications of Artificial Intelligence and its potential to be considered an art form. I reflect on the Roomba robot vacuum cleaner and how its backoff-and-retry algorithms can be applied to life. I also encourage love and empathy for those being raised by AI, suggesting they read The Culture series by Ian M. Banks. Finally, I end with a light-hearted rhyme to motivate readers to not hold back and to look for the little wins. Read</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/new-york-city/">New York City</a></div> &nbsp; <div class="post-nav-next"><a href="/graphic/">Graphics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/new-york-city/">New York City</a></div> &nbsp; <div class="post-nav-next"><a href="/graphic/">Graphics</a><span class="arrow">&larr;&nbsp;</span></div></div>

@@ -79,7 +79,7 @@ JavaScript is the one language to rule them all is a browser vendor and
 governance issue. It's approximately like saying that all business must be
 conducted in English or you can't conduct business at all.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server
 headline: "Making Day-to-Day Work Easier with Pipulate: A FOSS SEO Awesome List Pre-Installed on Linux Server"
 description: I'm working on a project called Pipulate, and I've been editing everything all at once to make day-to-day work easier. I'm using Jekyll as the static website generator, but I'm considering switching to Hugo. I've also made my logo into an animated gif and used it in the headline of my main site, and I'm documenting the fact that Pipulate is a full Linux server. Come check out my project and see what I'm up to!
 keywords: Pipulate, FOSS, SEO, Awesome List, Pre-Installed, Linux Server, Jekyll, Hugo, Animated GIF, Script, Day-to-Day, Project, Static Website Generator, Logo, Headline
-categories: script, headline, jekyll, seo, pipulate
+categories: script, headline, seo, jekyll, pipulate
 permalink: /blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/
 layout: post
 ---
@@ -57,12 +57,12 @@ and you just think to do things you normally wouldn't because they've become so
 much easier.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/headline/'>Headlines</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>

@@ -123,7 +123,7 @@ a Thursday.
 Okay, so now we have a tuple for each week you've been alive. What now?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-namedtuple-for-each-week-you-ve-been-alive/">A NamedTuple For Each Week You've Been Alive</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/a-namedtuple-for-each-week-you-ve-been-alive/">A NamedTuple For Each Week You've Been Alive</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

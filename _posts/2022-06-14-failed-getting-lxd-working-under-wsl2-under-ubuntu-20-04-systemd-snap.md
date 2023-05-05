@@ -4,7 +4,7 @@ title: Failed Getting LXD Working Under WSL2 Under Ubuntu 20.04 systemd & snap
 headline: "My Journey to Get LXD Working Under WSL2: A Failed Attempt"
 description: "I tried to get LXD running on WSL2, but couldn't make it work. Now I'm trying two things to make it work: installing the kernel headers and ZFS, and loading the module. I'll need to reload the module after each restart. Read my blog post to find out how this journey went!"
 keywords: LXD, WSL2, Ubuntu 20.04, systemd, snap, kernel headers, ZFS, module, restart, failed, journey, efforts
-categories: systemd, journey, lxd, wsl2
+categories: wsl2, journey, systemd, lxd
 permalink: /blog/failed-getting-lxd-working-under-wsl2-under-ubuntu-20-04-systemd-snap/
 layout: post
 ---
@@ -66,11 +66,11 @@ do with this:
     echo "zfs" >> /etc/modules
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/">Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/">Trying Again To Get LXD Working Under Microsoft Subsystem For Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/">Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/">Trying Again To Get LXD Working Under Microsoft Subsystem For Linux</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/wsl2/'>WSL2</a></h4></li>
 <li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/wsl2/'>WSL2</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

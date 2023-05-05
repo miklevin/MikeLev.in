@@ -4,7 +4,7 @@ title: Fixing Jupyter Desktop Set Python Environment Error Message
 headline: Fix JupterLab-Desktop Error Message with Python 3.10.5 and venv pyw3105
 description: I recently encountered an error message when using JupterLab-Desktop 3.3.4-2 and was able to fix it by installing the official Python 3.10.5 from Python.org and creating a venv named pyw3105. Read my blog post to find out how I did it and learn how to fix the Jupter Desktop Set Python Environment problem.
 keywords: Jupyter, Desktop, Set, Python, Environment, Error, Message, Fix, Install, Official, Python.org, Venv, Pyw3105, Instructions, Readthedocs.io
-categories: jupyter, desktop, message, python
+categories: jupyter, message, python, desktop
 permalink: /blog/fixing-jupyter-desktop-set-python-environment-error-message/
 layout: post
 ---
@@ -62,11 +62,11 @@ Jupyter Desktop Set Python Environment error).
 {% include youtubePlayer.html id="MRGgahrrNAs" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/livestreaming-question-answers-with-youtube-audience/">Livestreaming Question & Answers With YouTube Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/livestreaming-question-answers-with-youtube-audience/">Livestreaming Question & Answers With YouTube Audience</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/desktop/'>Desktop</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/desktop/'>Desktop</a></h4></li></ul>

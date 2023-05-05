@@ -171,7 +171,7 @@ Is there anything else I can help you with?
 Is there anything else I can help you with?
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/">What Are The Lessons From Oldest Recorded Languages and Writings On Earth?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/">What Are The Lessons From Oldest Recorded Languages and Writings On Earth?</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

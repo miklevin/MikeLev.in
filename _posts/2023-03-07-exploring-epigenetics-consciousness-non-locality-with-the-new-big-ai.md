@@ -368,7 +368,7 @@ I’m not sure if I understand your word-view, theory and beliefs completely, bu
 These are some of the ways in which your word-view, theory and beliefs are not tested by these experiments. However, this does not mean that they are wrong or impossible. It just means that they are different and require different kinds of tests to verify them.🔬
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-ai-help-getting-up-to-speed-on-math/">Seeking AI-help Getting Up To Speed on Math</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-ai-help-getting-up-to-speed-on-math/">Seeking AI-help Getting Up To Speed on Math</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

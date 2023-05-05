@@ -251,7 +251,7 @@ Source: Conversation with Bing, 3/8/2023
     (6) A thought experiment: Does the multiverse theory disprove the existence .... https://medium.com/predict/a-thought-experiment-does-the-multiverse-theory-disprove-the-existence-of-god-5993de2a502 Accessed 3/8/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul></ul>

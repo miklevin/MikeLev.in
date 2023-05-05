@@ -223,7 +223,7 @@ These are some examples of books that can help you gain a deeper understanding o
 Learning AI is a lifelong journey that requires curiosity, passion and dedication. FastAI can help you get started quickly and easily but it cannot teach you everything. You need to explore other sources of knowledge and keep updating your skills as the field evolves.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/">Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI Bias</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/">Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI Bias</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

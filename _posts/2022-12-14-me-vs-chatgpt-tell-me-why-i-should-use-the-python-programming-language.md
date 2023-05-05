@@ -125,7 +125,7 @@ developers who want a language that is flexible, easy to work with, and has a
 large community of users.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>

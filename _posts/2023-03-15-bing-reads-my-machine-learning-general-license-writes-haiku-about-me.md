@@ -134,7 +134,7 @@ Okay, I chose a topic off your website:
 I hope you like it 😊
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid/">Easier Illustration Technique I Seek May Be Mermaid</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;&rarr;</span><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid/">Easier Illustration Technique I Seek May Be Mermaid</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a><span class="arrow">&larr;&nbsp;</span></div></div>
 ## Categories
 
 <ul>
