@@ -4,7 +4,7 @@ title: Surviving Google's Helpful Content Update (Surviving Helpfulgeddon)
 headline: Surviving Google's 'Helpfulgeddon' - How I'm Differentiating My Content from the Endless Deluge
 description: I recently tested out ChatGPT and was amazed by the results. With its help, I'm ready to start fresh and create a better site by looking at data from Google Analytics, Search Console, and others. I plan to focus on creating content that will help others learn Linux, Python, vim, and git, and will listen to feedback from my audience. Join me as I strive to differentiate my inner voice from the endless content deluge and make the most of SEO principles that still work.
 keywords: Google, Helpful Content Update, ChatGPT, Google Analytics, Search Console, Linux, Python, vim, git, SEO, Long-Tail Traffic, URLs, Content, Audience, Differentiate, Inner Voice, Content Deluge
-categories: google analytics, chatgpt, google, git, seo, linux, vim, audience, python
+categories: linux, chatgpt, audience, google, python, seo, git, vim, google analytics
 permalink: /blog/surviving-google-s-helpful-content-update-surviving-helpfulgeddon/
 layout: post
 ---
@@ -129,12 +129,12 @@ start the process of sorting you from them right now.
 ## Categories
 
 <ul>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/audience/'>Audience</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>
