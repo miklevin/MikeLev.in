@@ -4,7 +4,7 @@ title: Fairly Certain I Had a Brush With Catknappers
 headline: My Cat Lynnie Returns After Suspected Catnapping Incident
 description: I recently moved and my cat Lynnie escaped during the transfer. After suspecting someone had been in my house and broken up the cat treats, I feared someone was taking advantage of the situation. I posted a plea on a community Facebook group and, sure enough, my cat returned 10 minutes later. My neighbor had warned me of bad luck for reworking a stone wall and I suspected they had taken my cat. Read this blog post to find out how I got my cat back.
 keywords: moving, cat, Lynnie, house, cat treats, Facebook, neighbor, stone wall, tree swing, June 30th, 2022, sliding-glass door, Michael's stone wall
-categories: cat, 2022
+categories: cat
 permalink: /blog/fairly-certain-i-had-a-brush-with-catknappers/
 layout: post
 ---
@@ -203,5 +203,4 @@ confirmed it.
 ## Categories
 
 <ul>
-<li><h4><a href='/cat/'>Cats</a></h4></li>
-<li><h4><a href='/2022/'>2022</a></h4></li></ul>
+<li><h4><a href='/cat/'>Cats</a></h4></li></ul>

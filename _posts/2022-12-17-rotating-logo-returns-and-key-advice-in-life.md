@@ -4,7 +4,7 @@ title: Rotating Logo Returns and Key Advice in Life
 headline: Reinvigorate Your Life with Animation and Key Advice Today!
 description: Today is the day to put my rotating logo back on the homepage with a bit of animation. I believe that life is a delicate balance of pushing past the hard bits, thinking clearly, journaling, using the 80/20-rule, and avoiding rabbit-holes. We must also be aware of the false dichotomies that label people and the power of those who oppose peace. Times are changing and the public is being held down, but I'm confident that we can break through.
 keywords: Rotating Logo, Animation, Pushing, Hard Bits, Thinking, Journaling, 80/20-Rule, Rabbit-Holes, False Dichotomies, Labeling People, Opponents of Peace, Public, Held Down, Times Changing, Delicate Balance, Deliberation, Differences, Success, Failure, Ascending, Social Ranks, Evidence
-categories: 80/20-rule, journaling, evidence, success
+categories: evidence, journaling, success, 80/20-rule
 permalink: /blog/rotating-logo-returns-and-key-advice-in-life/
 layout: post
 ---
@@ -107,7 +107,7 @@ achangin.
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/evidence/'>Evidence</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>

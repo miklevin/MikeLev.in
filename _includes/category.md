@@ -99,7 +99,6 @@
 <li><a href="/sqlitedict/">SqliteDict</a></li>
 <li><a href="/email/">Email</a></li>
 <li><a href="/message/">Message</a></li>
-<li><a href="/2022/">2022</a></li>
 <li><a href="/development/">Development</a></li>
 <li><a href="/bash/">Bash</a></li>
 <li><a href="/moz-links-api/">MOZ Links API</a></li>
@@ -149,4 +148,5 @@
 <li><a href="/lxc/">LXC</a></li>
 <li><a href="/18-04/">18.04</a></li>
 <li><a href="/desktop/">Desktop</a></li>
+<li><a href="/linux-terminal/">Linux Terminal</a></li>
 </ol>
