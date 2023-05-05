@@ -4,7 +4,7 @@ title: Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs
 headline: I Upgraded My Game by Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs
 description: "Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs."
 keywords: rendering, un-styled, Jekyll, Markdown, drafts, pasting, Google Docs, up game, AI-assistance, first-hand advice, life, learnings, theories, pan out, deep breath, marshalling resources, starting, new life, predictive, GPT, think, 2, 3, step-1, now moment, data, SQlite, textfile-first, support, yaml, front matter, core code, generic,
-categories: jekyll, learnings, yaml, sqlite
+categories: sqlite, jekyll, learnings, yaml
 permalink: /blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/
 layout: post
 ---
@@ -259,10 +259,55 @@ def drafts():
     print("drafts chopped!")
 ```
 
+Well, it was almost that easy. I have yaml_generator serving quite a few
+purposes. I don't want to spread this core code over different locations, so
+there's quite a few parameters to control the behavior. The complexity of this
+sort of thing has to be held at bay. This is just about the upper limit.
+
+```
+def yaml_generator(full_path, reverse=False, drafts=False, clone=False):
+    # __   __ _    __  __ _        ____                           _
+    # \ \ / // \  |  \/  | |      / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
+    #  \ V // _ \ | |\/| | |     | |  _ / _ \ '_ \ / _ \ '__/ _` | __/ _ \| '__|
+    #   | |/ ___ \| |  | | |___  | |_| |  __/ | | |  __/ | | (_| | || (_) | |
+    #   |_/_/   \_\_|  |_|_____|  \____|\___|_| |_|\___|_|  \__,_|\__\___/|_|
+    """Yields a stream of 3-tuples (YAML, post, original) from YAMLesque file.
+    If there's no YAML, the yielded tuple will be (None, original, original)"""
+    with open(full_path, "r") as fh:
+        posts = CHOP.split(fh.read())
+        if reverse:
+            posts.reverse()  # Reverse so article indexes don't change.
+        for i, post in enumerate(posts):
+            rv = None, post, post  # Always rebuild source at very least.
+            py, yaml_str, body = None, "", ""
+            if "---" in post:
+                yaml_str, body = post.split("---", 1)
+                try:
+                    py = yaml.load(yaml_str, Loader=yaml.FullLoader)
+                    rv = py, body, post
+                except yaml.YAMLError:
+                    # Deliberately passing silently to prevent attempts
+                    # to create pages where there is no page to create.
+                    ...
+            if clone:
+                # If we're cloning, we want to yield everything.
+                yield rv
+            elif py and "published" in py and py["published"] == False and drafts:
+                # It's a draft and we're rendering drafts.
+                yield rv
+            elif py and "published" in py and py["published"] == False:
+                # It's a draft and we're not rendering drafts.
+                # so skip it.
+                continue
+            elif not drafts:
+                # The general default.
+                yield rv
+```
+
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&nbsp;</span></div> &nbsp; <div class="post-nav-next"><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields">Added Support for Arbitrary Jekyll YAML Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

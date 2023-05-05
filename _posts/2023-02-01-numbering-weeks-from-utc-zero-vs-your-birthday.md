@@ -4,7 +4,7 @@ title: Numbering Weeks from UTC-Zero Vs. Your Birthday
 headline: Deciding the Best Way to Chunk Time for a Google Photos Querying Project
 description: I'm trying to decide the best way to break up my Google Photos querying project into chunks of time. Should I use weeks measured from Unix Timestamp or from my own birthday? I'm now considering writing my own code, as I'm losing faith in the code I was given from ChatGPT. Read more to find out how I'm tackling this project.
 keywords: Google Photos, Unix Timestamp, Birthday, Chunk Time, Code, API, Documentation
-categories: google photos, api
+categories: api, google photos
 permalink: /blog/numbering-weeks-from-utc-zero-vs-your-birthday/
 layout: post
 ---
@@ -88,5 +88,5 @@ debugging my own code, based on more recent documentation to boot!
 ## Categories
 
 <ul>
-<li><h4><a href='/google-photos/'>Google Photos</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li></ul>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/google-photos/'>Google Photos</a></h4></li></ul>
