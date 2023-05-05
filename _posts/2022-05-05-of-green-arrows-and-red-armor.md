@@ -4,7 +4,7 @@ title: Of Green Arrows and Red Armor
 headline: Exploring the Benefits of Jekyll for Editing Multiple Homepages
 description: As a web publisher optimizing content for search engines, I chose Vim for its utility over Emacs and am competing with the younguns using proprietary IDEs. I'm editing 15 homepages at once with Jekyll, and wondering why everyone doesn't do the same. I'm a lawyer, so I'm always prepared for a fight. Join me in my journey as I explore the potential pitfalls of using a macro system and discover why Jekyll is the best choice for editing multiple homepages.
 keywords: Web Publisher, Search Engine Optimization, Vim, Emacs, Proprietary IDEs, Jekyll, Lawyer, Macros, Homepages, Editing, Multiple Homepages, Linear Tool, Circular Tool, Green Arrows, Red Armor, Prev/Next Arrows
-categories: macros, vim, jekyll, emacs
+categories: macros, vim, emacs, jekyll
 permalink: /blog/of-green-arrows-and-red-armor/
 layout: post
 ---
@@ -85,10 +85,10 @@ site) and blog pages are blog pages. Jekyll knows this, and it's part of the
 reason I chose it (aside from being built into Github). It makes these
 prev/next arrows a cinch. Why doesn't everybody do that?
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/of-green-arrows-and-red-armor">Of Green Arrows and Red Armor</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/of-green-arrows-and-red-armor/">Of Green Arrows and Red Armor</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

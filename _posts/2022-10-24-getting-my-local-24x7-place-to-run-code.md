@@ -36,7 +36,7 @@ to test them, especially since the things I'm developing are more
 schedule-based than web-based.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-qnap-nas-lxd-linux-container-on-container-station">Setting Up QNAP NAS LXD Linux Container on Container Station</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/">Setting Up QNAP NAS LXD Linux Container on Container Station</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation/">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

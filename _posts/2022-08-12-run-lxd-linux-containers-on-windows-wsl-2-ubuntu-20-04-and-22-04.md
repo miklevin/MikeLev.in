@@ -4,7 +4,7 @@ title: Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04
 headline: "Break Free from Vendor Tyranny: Install LXD Linux Containers on Windows WSL 2"
 description: This guide helps readers quickly and happily settle into a new digital home, free from vendor tyranny, using Windows Subsystem for Linux (WSL) and vendor-provided components like Github or Bitbucket. I use Windows machines as a host, WSL 2 to host Linux containers, and sprinkle my own customizations, including a Microsoft Network SAMBA/CIFS Shared Drive. I'm a big fan of LXD, the Linux Kernel Virtual Machine from Canonical.
 keywords: Linux, Containers, Windows, WSL, 2, Ubuntu, 20.04, 22.04, Windows Subsystem, Github, Bitbucket, Microsoft Network, SAMBA, CIFS, Shared Drive, LXD, Canonical, Docker, API, Fstab, Home Directory, Volatile Core Image, Installing Containers
-categories: docker, ubuntu, github, linux, containers, wsl, api, lxd
+categories: api, containers, lxd, wsl, ubuntu, linux, docker, github
 permalink: /blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04/
 layout: post
 ---
@@ -264,14 +264,14 @@ article related to mapping in drives from the Linux host to the containers.
 {% include youtubePlayer.html id="xmZcsq8Mqk4" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-linux-fights-obsolescence-and-lxd-is-key">Why Linux Fights Obsolescence and LXD is Key</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation">Use Python to Cycle Your IP with HMA VPN Software and Windows Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-linux-fights-obsolescence-and-lxd-is-key/">Why Linux Fights Obsolescence and LXD is Key</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation/">Use Python to Cycle Your IP with HMA VPN Software and Windows Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/docker/'>Docker</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/docker/'>Docker</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

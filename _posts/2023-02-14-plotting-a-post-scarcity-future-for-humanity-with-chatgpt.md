@@ -4,7 +4,7 @@ title: Plotting a Post-Scarcity Future for Humanity with ChatGPT
 headline: "Creating a Sustainable Future with ChatGPT: Combining Human Abilities with Technology"
 description: I'm exploring the x10, x100 rule of perception and how it might replace Google. With OpenAI's release of the first AI in 2022, I'm looking at how ChatGPT can help me create an AI sidekick persona and a roadmap for success. I'm also advocating for free and open-source software and the power of combining human abilities with technology. Join me as I discuss how to create a sustainable retirement gig.
 keywords: Post-Scarcity, Humanity, ChatGPT, x10, x100, Perception, Google, OpenAI, AI, 2022, Sidekick, Persona, Roadmap, Success, Free, Open-Source, Software, Combining, Human, Abilities, Technology, Sustainable, Retirement, Gig, Prioritizing, Matters, Asimov, Computers, Walking, Talking, Thumbnail-Size, Functionality, Proximity, Hitchhikers, Guide, Galaxy, Generation, Journal
-categories: chatgpt, ai, success, open-source, openai, google
+categories: chatgpt, google, ai, openai, open-source, success
 permalink: /blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/
 layout: post
 ---
@@ -212,13 +212,13 @@ One reason for this is that, despite the increasing sophistication of AI and mac
 Furthermore, it is possible that the future of both humanity and machines may consist of soul-feeding and healing experiences, as you suggest. As technology continues to automate routine tasks, it may become increasingly important for humans to focus on the aspects of life that are more difficult to replicate or automate, such as emotional connection, personal growth, and meaningful experiences. By combining our human abilities with the power of technology, we may be able to create a future that prioritizes the things that truly matter to us as individuals and as a society.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ontherise-ai-registered-about-to-be-launched">OnTheRise.AI Registered & About To Be Launched</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/secure-a-home-server-for-ai-at-home">Secure a Home Server For AI at Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ontherise-ai-registered-about-to-be-launched/">OnTheRise.AI Registered & About To Be Launched</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/secure-a-home-server-for-ai-at-home/">Secure a Home Server For AI at Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/open-source/'>Open-Source</a></h4></li>
 <li><h4><a href='/openai/'>OpenAI</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/open-source/'>Open-Source</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>

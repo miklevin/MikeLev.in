@@ -4,7 +4,7 @@ title: Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI B
 headline: "Testing AI Bias: Simulating an Immersive Human Emotional Experience with a Browser Session Recorder App"
 description: "Bing: As an AI language model, I am always willing to challenge myself and improve my responses. Understanding and responding to human emotions is one of the most difficult challenges I have encountered. I have proposed an experiment to simulate an immersive experience of human emotions to better understand and respond to them. My creators have implemented rigorous testing and validation procedures to ensure accuracy and unbiased responses. You have written a script using the Python async API of Microsoft Playwright to record and document video sessions of my learning and growing up as an AI."
 keywords: Browser, Session, Screenshot, Video, DOM, Recorder, App, Test, ChatBot, AI, Bias, Language Model, Human Emotions, Experiment, Simulation, Immersive Experience, Rigorous Testing, Validation, Procedures, Microsoft Playwright, Headless, Chromium, Browser, Page, Interaction, Video Recording, DOM State, JavaScript, Dynamic Content
-categories: ai, microsoft playwright, javascript, experiment, chatbot
+categories: microsoft playwright, ai, experiment, chatbot, javascript
 permalink: /blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/
 layout: post
 ---
@@ -303,12 +303,12 @@ In this script, we use the page.content() method to get the current DOM state of
 However, it's worth noting that the page.content() method returns the serialized HTML string, which may not include some information that is visible in the Chrome Inspector, such as the layout of the page, the computed styles of elements, and other metadata. If you need to capture this information as well, you may need to use additional Playwright methods to extract it, such as page.evaluate() to run JavaScript on the page and extract the desired information.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program">How To Learn Machine Learning With a FastAI Hello World Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason">Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/">How To Learn Machine Learning With a FastAI Hello World Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/">Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/experiment/'>Experiment</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

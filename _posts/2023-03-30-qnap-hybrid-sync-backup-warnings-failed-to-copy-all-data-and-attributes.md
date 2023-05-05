@@ -4,7 +4,7 @@ title: QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes
 headline: NAS Backup Fails Due to Unsupported Filenames - Read How I Fixed It!
 description: After experiencing a terrible headache, I decided to err on the side of caution and turn off the Copilot plugin for .txt files. I then noticed a warning that my NAS backup had failed to copy all data and attributes, and after logging in by SSH, I discovered the issue was with unsupported filenames. I resolved to fix it later - read my blog post to find out how!
 keywords: "QNAP, Hybrid Sync, Backup, Warnings, Failed, Copy, Attributes, Headache, Copilot, Plugin, .txt, Files, NAS, SSH, Unsupported, Filenames, Fix, Research, GitHub, Conversation, Caution, Sleep, 5:00, AM"
-categories: github, copilot
+categories: copilot, github
 permalink: /blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/
 layout: post
 ---
@@ -53,9 +53,9 @@ backed up, but that's not a problem for now. Not a priority. It's coming up on
 8:30 AM and I have my plans for the day.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework">Should You Use Bing or Bard to Help With Your Homework?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-copilot-to-help-with-daily-journaling">Using Copilot to Help With Daily Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Trying Again To Get LXD Working Under Microsoft Subsystem For Linux
 headline: Determined To Get LXD Working Under Microsoft Subsystem For Linux - Join My Journey!
 description: I'm determined to get LXD running under Microsoft Subsystem for Linux, and I'm not giving up! I've followed the official instructions and attempted to create a new storage pool, but I keep running into errors. To document my journey, I'm creating a new video - join me as I work to make this work!
 keywords: LXD, Microsoft Subsystem for Linux, Storage Pool, Errors, Video, Command, Documentation, Journey, Determined, Attempting
-categories: lxd, journey
+categories: journey, lxd
 permalink: /blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/
 layout: post
 ---
@@ -84,9 +84,9 @@ explored this particular Wonderland. Figure out how to walk in their footsteps.
 Make the above the beginning to a new video!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/failed-getting-lxd-working-under-wsl2-under-ubuntu-20-04-systemd-snap">Failed Getting LXD Working Under WSL2 Under Ubuntu 20.04 systemd & snap</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2">Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/failed-getting-lxd-working-under-wsl2-under-ubuntu-20-04-systemd-snap/">Failed Getting LXD Working Under WSL2 Under Ubuntu 20.04 systemd & snap</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/">Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
+<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: "Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours"
 headline: Exploring the Wacky World of UFOs and UAPs with Eric Weinstein and Mick West
 description: As a fan of Mick West and Eric Weinstein, I have been watching their videos to understand their different theories about UFOs and UAPs, including the possibility of our existence being different than we think. Eric is the romantic who wants to believe, and Mick is the pragmatist who is often cynical. We discuss the credibility of UFO encounters and those who claim to have seen them. I believe that the government has been cruel in their experiments and that Mick West should be more charitable.
 keywords: UFO, UAP, Eric Weinstein, Mick West, Credibility, Government, Experiments, Bob Lazar, Steven Greer, Jeremy Corbell, Lou Elizondo, Existence, Theory, Romantic, Pragmatist, Cynical, Cringe-Worthy
-categories: theory, experiments
+categories: experiments, theory
 permalink: /blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/
 layout: post
 ---
@@ -155,7 +155,7 @@ renouncing of the topic. Take the bunk out of being a skeptic. Mick gets
 defensive. Emotional affect! Ha!
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me">Bing Reads My Machine Learning General License & Writes Haiku About Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program">How To Learn Machine Learning With a FastAI Hello World Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/">Bing Reads My Machine Learning General License & Writes Haiku About Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/">How To Learn Machine Learning With a FastAI Hello World Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

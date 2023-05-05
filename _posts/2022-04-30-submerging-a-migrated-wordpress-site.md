@@ -48,7 +48,7 @@ and rename it as index.md. That should bring my old homepage back alive in a
 subfolder. It did, but all the picture links broke. Fix them...
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/submerging-a-migrated-wordpress-site">Submerging A Migrated WordPress Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done">Every Little Project Gets Done!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

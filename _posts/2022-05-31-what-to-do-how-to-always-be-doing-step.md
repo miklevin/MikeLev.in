@@ -4,7 +4,7 @@ title: What To Do? How To Always Be Doing Step
 headline: "Taking Control of Stress and Anxiety: Step-by-Step Guide to Achieving Goals."
 description: I'm taking control of my stress and anxiety with breathing exercises and other activities like jumping jacks, journaling, and visualizing the results of my efforts. I'm also reminding myself to take it step by step, double-check my work, and document the small steps I take. With this approach, I'm learning to actualize my thoughts into the real world and experience the magic of being human.
 keywords: Breathing Exercises, Anxiety, Stress, Visualizing, Journaling, Step-by-Step, Double-Check, Document, Actualizing, Fresh Air, Hydrate, Jumping Jacks, Motivation, Cortisol Production, Scheduling
-categories: scheduling, journaling
+categories: journaling, scheduling
 permalink: /blog/what-to-do-how-to-always-be-doing-step/
 layout: post
 ---
@@ -194,9 +194,9 @@ And then remember to look at it tomorrow to ensure it ran on schedule.
 Now I'm done.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster">Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond">Movie Night: From Mean Girls to Heathers and Beyond!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster/">Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond/">Movie Night: From Mean Girls to Heathers and Beyond!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li></ul>

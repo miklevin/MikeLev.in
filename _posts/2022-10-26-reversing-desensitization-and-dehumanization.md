@@ -4,7 +4,7 @@ title: Reversing Desensitization And Dehumanization
 headline: "Stay Curious and Engaged: How to Reclaim Your Capacity to Care and Explore New Paths"
 description: As a human, it's important to keep our capacity to care and stay curious. As children, we learn to go from satisfying internal needs to external ones, forming healthy habits. As adults, it's easy to become distracted and stuck in the daily grind. I'm here to remind you to stay open to trying new things and exploring new paths. Read on to find out how to stay curious and engaged in life.
 keywords: Caring, Habits, Distractions, Daily Grind, Curiosity, Learning, Engagement, Openness, Exploring, New Things, New Paths
-categories: habits, learning
+categories: learning, habits
 permalink: /blog/reversing-desensitization-and-dehumanization/
 layout: post
 ---
@@ -73,7 +73,7 @@ from time to time, but I am thrilled that deep exploration of new things is now
 possible online.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death/">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

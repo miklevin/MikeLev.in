@@ -107,7 +107,7 @@ files in place. But instead of 2 scheduler services, I'll replace the old one
 with Huey. I wish huey had such a good API for setting scheduling as pip
 install schedule.
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords">How to Share an SSH Key with Linux Container to Eliminate Passwords</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1/">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords/">How to Share an SSH Key with Linux Container to Eliminate Passwords</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

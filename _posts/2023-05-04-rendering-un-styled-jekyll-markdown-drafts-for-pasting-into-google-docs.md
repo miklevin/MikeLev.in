@@ -4,7 +4,7 @@ title: Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs
 headline: I Upgraded My Game by Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs
 description: "Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs."
 keywords: rendering, un-styled, Jekyll, Markdown, drafts, pasting, Google Docs, up game, AI-assistance, first-hand advice, life, learnings, theories, pan out, deep breath, marshalling resources, starting, new life, predictive, GPT, think, 2, 3, step-1, now moment, data, SQlite, textfile-first, support, yaml, front matter, core code, generic,
-categories: learnings, yaml, drafts, theories, sqlite, jekyll
+categories: drafts, yaml, theories, jekyll, learnings, sqlite
 permalink: /blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/
 layout: post
 ---
@@ -304,10 +304,10 @@ def yaml_generator(full_path, reverse=False, drafts=False, clone=False):
                 yield rv
 ```
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-all-openai-completion-calls-to-one-function">Moving All OpenAI Completion Calls to One Function</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields">Added Support for Arbitrary Jekyll YAML Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/sqlite/'>SQLite</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/sqlite/'>SQLite</a></h4></li></ul>

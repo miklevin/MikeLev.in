@@ -4,7 +4,7 @@ title: The 80/20-rule Means Front-loading The Big Wins
 headline: "Ready, Fire, Aim: Disorganization is a Reverse Snowball Effect"
 description: Ready to make big improvements in your life? I'm sharing my experience on how to use the 80/20-rule and front-load the big wins. Learn how to organize your environment and make the most of your time.
 keywords: Journaling, Thought Processing, Home Organization, Decision Making, Motivation, Environment, 80/20-rule, Roomba, Big Wins, Front-loading
-categories: 80/20-rule, journaling
+categories: journaling, 80/20-rule
 permalink: /blog/the-80-20-rule-means-front-loading-the-big-wins/
 layout: post
 ---
@@ -38,9 +38,9 @@ then you scramble to get things out of its way. Ready, fire, aim! Not for all
 things, but for organizing an environment for sure. Front-load the big wins.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern">OpenAI Codex API Cost Getting Started Usage Pattern</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-auto-publish-prevention-when-ai-has-written-fields">Testing Auto-Publish Prevention When AI Has Written Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-auto-publish-prevention-when-ai-has-written-fields/">Testing Auto-Publish Prevention When AI Has Written Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>

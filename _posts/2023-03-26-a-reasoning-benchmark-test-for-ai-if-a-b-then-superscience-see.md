@@ -204,7 +204,7 @@ fixing our sights on and driving a thing from TR1 (technological readiness 1)
 up to being part of our admittedly radically different everyday lives.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai">Planning Fully Unbounded Web Scraper Kit For AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai">The Lex Fridman Interview with Sam Altman on GAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai/">Planning Fully Unbounded Web Scraper Kit For AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai/">The Lex Fridman Interview with Sam Altman on GAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -163,7 +163,7 @@ apex: {apex}'''
 ```
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-15-homepages-at-once-in-vim">Editing 15 Homepages at Once in vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-dangers-of-being-predisposed-why-apple-won">The Dangers of Being Predisposed (Why Apple Won)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-15-homepages-at-once-in-vim/">Editing 15 Homepages at Once in vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-dangers-of-being-predisposed-why-apple-won/">The Dangers of Being Predisposed (Why Apple Won)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -31,7 +31,7 @@ Browser automation in yet another road to VSCode. Beware. I'm taking you down
 the JupyterLab Server (on Linux) route.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-the-lifehack-email">Planning the Lifehack Email</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life">Cast a Homunculus Majordomo to Help Run Your Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life/">Cast a Homunculus Majordomo to Help Run Your Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

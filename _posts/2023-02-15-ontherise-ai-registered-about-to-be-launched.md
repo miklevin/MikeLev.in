@@ -4,7 +4,7 @@ title: OnTheRise.AI Registered & About To Be Launched
 headline: "Exploring AI-World: My Journey To Become Tech Literate and Understand Event-driven Programming"
 description: As Mike Levin, a self-promoting SEO in NYC, I'm documenting my journey in the rising AI-world on my blog OnTheRise.AI. I'm exploring idea-capture by humans and the potential of AI to make tasks like fusion energy easier and more efficient. I'm also discussing how to use WSL and JupyterLab to become more tech literate, as well as the advantages and disadvantages of event-driven programming and push information systems.
 keywords: AI, Fusion Energy, WSL, JupyterLab, Event-Driven Programming, Push Information Systems, Unix Terminal, Vim Editor, Automation, Tech Literacy, Python, Linux Daemons, Web Development, Software Development, Long-Term Maintainability
-categories: ai, web development, python, wsl, automation, jupyterlab
+categories: web development, python, ai, jupyterlab, wsl, automation
 permalink: /blog/ontherise-ai-registered-about-to-be-launched/
 layout: post
 ---
@@ -205,13 +205,13 @@ To pitch the idea of learning Linux daemon development as a key skill in tech, i
 Building and maintaining daemons requires a more thorough understanding of how computer systems work,
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linear-algebra-from-chatgpt">Learning Linear Algebra From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt">Plotting a Post-Scarcity Future for Humanity with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linear-algebra-from-chatgpt/">Learning Linear Algebra From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/">Plotting a Post-Scarcity Future for Humanity with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/automation/'>Automation</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/automation/'>Automation</a></h4></li></ul>

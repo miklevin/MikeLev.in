@@ -35,7 +35,7 @@ Source: Conversation with Bing, 3/4/2023
     (6) Top Science News -- ScienceDaily. https://www.sciencedaily.com/news/top/science/ Accessed 3/4/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/looking-for-the-best-python-dict-like-api-to-nosql">Looking For The Best Python dict-like API to NoSQL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/imagining-the-linux-nomadic-movement-with-the-new-bing">Imagining The Linux Nomadic Movement With The New Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/looking-for-the-best-python-dict-like-api-to-nosql/">Looking For The Best Python dict-like API to NoSQL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/imagining-the-linux-nomadic-movement-with-the-new-bing/">Imagining The Linux Nomadic Movement With The New Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

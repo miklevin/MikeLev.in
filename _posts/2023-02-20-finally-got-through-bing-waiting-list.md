@@ -126,7 +126,7 @@ Source: Conversation with Bing, 2/20/2023
     Accessed 2/20/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit">Back Hurts, But Maintain Your Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-few-things-about-me">A Few Things About Me</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-few-things-about-me/">A Few Things About Me</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

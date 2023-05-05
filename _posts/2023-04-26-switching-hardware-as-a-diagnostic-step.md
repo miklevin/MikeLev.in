@@ -30,7 +30,7 @@ is responsible for this, because sometimes the "r's" just flow like there's
 nothing wrong with my hardware. Oh yeah, switch hardware as a diagnostic step.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/have-journal-will-travel-across-machines">Have Journal Will Travel (across machines)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/copilot-disable-help">Copilot: disable... Help!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/copilot-disable-help/">Copilot: disable... Help!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

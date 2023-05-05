@@ -133,7 +133,7 @@ automatically starting services.
 Layer in better messaging and intent to keep compelling me forward every day.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-the-screen-command-for-linux-service">How to Use the Screen Command for Linux Service</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container">Running Automated Script on NAS 24x7 Under LXD Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-the-screen-command-for-linux-service/">How to Use the Screen Command for Linux Service</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

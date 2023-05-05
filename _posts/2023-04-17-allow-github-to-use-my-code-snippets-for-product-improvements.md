@@ -4,7 +4,7 @@ title: Allow GitHub To Use My Code Snippets For Product Improvements
 headline: Unlocking AI Power for My Work-Journal - Allowing GitHub to Use My Code Snippets for Product Improvements
 description: I recently uncovered the power of AI and put it to work for me in my work-journal. To get the most out of these tools, I configured my GitHub Copilot settings in my JetBrains IDE or on GitHub.com. I'm excited to see how GitHub will use my code snippets to improve their products and how my journal.md entries will be transformed. See what AI can do for me - click through to find out more!
 keywords: AI, GitHub, Copilot, JetBrains, IDE, Code Snippets, Product Improvements, Work-Journal, Journal.md, Discoveries
-categories: github, journal.md, ai, copilot
+categories: journal.md, copilot, ai, github
 permalink: /blog/allow-github-to-use-my-code-snippets-for-product-improvements/
 layout: post
 ---
@@ -87,11 +87,11 @@ Github Settings where my mouth is.
 > But to do recalibration will reduce a lot of pain.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-python-packaging-for-seo-deliverable">Planning Python Packaging for SEO Deliverable</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-python-packaging-for-seo-deliverable/">Planning Python Packaging for SEO Deliverable</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline/">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github/'>Github</a></h4></li>
 <li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

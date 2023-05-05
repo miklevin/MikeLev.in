@@ -410,7 +410,7 @@ Repeated testing, learning and refinement improves product over time, both in na
 Much of what's what about life is in slime-mold which has so much in common with neural networks and the cosmic web of bright matter made by neighboring threads of galactic clusters, such as which our galaxy is a member of.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-research-a-4k-vlogging-camera">Starting to Research a 4K Vlogging Camera</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible">Has The Hebrew Bible Changed? What is the Oldest Hebrew Bible?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-research-a-4k-vlogging-camera/">Starting to Research a 4K Vlogging Camera</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible/">Has The Hebrew Bible Changed? What is the Oldest Hebrew Bible?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

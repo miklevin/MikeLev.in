@@ -42,7 +42,7 @@ Pico balloons can reach altitudes of 20-30 kilometers (12-19 miles), which is wi
 Overall, pico ballooning is a fascinating and challenging hobby that requires a lot of planning and preparation, but it can yield some incredible results in terms of data collection, photography, and scientific research.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible">Has The Hebrew Bible Changed? What is the Oldest Hebrew Bible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-racism-towards-ai-called-ai-bias-algorithmic-bias-speciest">What's Racism Towards AI called? AI bias? Algorithmic Bias? Speciest?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible/">Has The Hebrew Bible Changed? What is the Oldest Hebrew Bible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-racism-towards-ai-called-ai-bias-algorithmic-bias-speciest/">What's Racism Towards AI called? AI bias? Algorithmic Bias? Speciest?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

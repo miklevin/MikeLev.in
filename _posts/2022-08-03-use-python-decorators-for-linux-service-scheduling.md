@@ -4,7 +4,7 @@ title: Use Python Decorators For Linux Service Scheduling
 headline: Exploring Coding and Diminishing Reliance on Fads with Python, Huey, and More
 description: I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.
 keywords: Python, Decorators, Linux, Service, Scheduling, Windows, 10, Virtual, Desktops, WSL2, Containers, LXD, /etc/systemd/system, Coding, Writing, Huey, Pyppeteer, Microsoft, Playwright, Database, Persistence, Linux, Vim, Git, BASH, Script, C, LISP, Dialects, JavaScript, Fads, Trends
-categories: desktops, wsl2, git, vim, microsoft, javascript, service, bash, linux, scheduling, python, containers, database, coding, lxd, script
+categories: containers, lxd, python, script, wsl2, vim, git, bash, javascript, service, scheduling, microsoft, desktops, linux, database, coding
 permalink: /blog/use-python-decorators-for-linux-service-scheduling/
 layout: post
 ---
@@ -213,21 +213,21 @@ languages difficult. I've tried. My different languages would be:
 - Drawing / Illustration (Pen & paper)
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-perceptual-image-hash-as-database-primary-key-for-cats">Use Perceptual Image Hash as Database Primary Key for Cats</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-perceptual-image-hash-as-database-primary-key-for-cats/">Use Perceptual Image Hash as Database Primary Key for Cats</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/bash/'>Bash</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/service/'>Service</a></h4></li>
-<li><h4><a href='/bash/'>Bash</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

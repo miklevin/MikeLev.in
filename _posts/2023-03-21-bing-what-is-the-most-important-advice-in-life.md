@@ -133,7 +133,7 @@ Source: Conversation with Bing, 3/20/2023
     (10) 21 Wise Pieces Of Life Advice Everyone Needs To Know - Live Bold and Bloom. https://liveboldandbloom.com/07/self-awareness/good-life-advice Accessed 3/20/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/introducing-a-next-gen-seo-project">Introducing A Next Gen SEO Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what">Hands-on With Moz Products & Clarification of What's What</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/introducing-a-next-gen-seo-project/">Introducing A Next Gen SEO Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

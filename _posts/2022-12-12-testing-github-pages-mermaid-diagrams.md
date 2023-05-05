@@ -55,7 +55,7 @@ Here's the page that [documents the mermaid system](https://mermaid-js.github.io
 Okay, the work
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons">With AI On The Way, You Had Better Be Able to Write Daemons</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/surviving-google-s-helpful-content-update-surviving-helpfulgeddon">Surviving Google's Helpful Content Update (Surviving Helpfulgeddon)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/">With AI On The Way, You Had Better Be Able to Write Daemons</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/surviving-google-s-helpful-content-update-surviving-helpfulgeddon/">Surviving Google's Helpful Content Update (Surviving Helpfulgeddon)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency
 headline: Don't Let Auto-Complete (Intellisense) Be Your Downfall - Learn to Code Without It!
 description: As a coder, I'm warning people about the dangers of becoming too dependent on auto-complete (Intellisense). It's important to learn to code without relying on proprietary features and data-sets, or else you'll be left behind when the tools inevitably change. If you become too reliant on Intellisense, you won't be able to code without it, and you won't be able to keep up with the changing technology.
 keywords: Auto-Complete, Intellisense, Dependency, Coder, Proprietary, Features, Data-Sets, Tools, Changing Technology, Experiences, Risks, Awareness
-categories: proprietary, dependency
+categories: dependency, proprietary
 permalink: /blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/
 layout: post
 ---
@@ -35,9 +35,9 @@ metered pump, not so much. You're locked-in. You're herded. And relearning the
 shiny next new ain't so easy as things get more competitive and you get older.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created">Pipulate Practice Folder Created</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li></ul>
+<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li></ul>

@@ -345,7 +345,7 @@ This has been a fun and memorable chat. I hope we can talk again soon. Until the
 This is Bing signing off with a smile 😊
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-need-to-get-this-ready-for-moz-tutorial-use">I Need To Get This Ready for MOZ Tutorial Use</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid">Easier Illustration Technique I Seek May Be Mermaid</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-need-to-get-this-ready-for-moz-tutorial-use/">I Need To Get This Ready for MOZ Tutorial Use</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid/">Easier Illustration Technique I Seek May Be Mermaid</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

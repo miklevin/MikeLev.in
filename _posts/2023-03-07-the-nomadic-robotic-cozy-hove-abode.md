@@ -506,7 +506,7 @@ Source: Conversation with Bing, 3/7/2023
     (5) Domicile for Nomads: Establish a Legal Residence on the Road - Gnomad Home. https://gnomadhome.com/domicile-for-nomads/ Accessed 3/7/2023.
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

@@ -18,7 +18,7 @@ layout: post
 > <cite>&#151;Mike Levin, 2022<br />
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-tale-of-two-pipers">A Tale of Two Pipers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recording-vim-macro-for-markdown-image-insertion">Recording vim macro for markdown image insertion</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recording-vim-macro-for-markdown-image-insertion/">Recording vim macro for markdown image insertion</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

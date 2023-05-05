@@ -4,7 +4,7 @@ title: Why Markdown? Why YAML? Why They're Great Together!
 headline: I'm Combining Markdown and YAML to Create a Text File for Life!
 description: In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.
 keywords: Markdown, YAML, Python, RST, Daring Fireball, Content Management Systems, Github, README.md, README.rst, Serialization, JSON, XML, EDI, Electronic Data Interchange, Binary, JavaScript, Web Development, YAML Ain't Markup Language, Structure, Curly-Braces, EDS, GNU, Unix, Gatekeeping, Proprietary Formats, Vendors, Human-Readable, JSON Data Format
-categories: vendors, web development, gnu, yaml, javascript, github, python, json, unix
+categories: json, web development, python, unix, yaml, vendors, gnu, github, javascript
 permalink: /blog/why-markdown-why-yaml-why-they-re-great-together/
 layout: post
 ---
@@ -124,15 +124,15 @@ Hmm, first-off, keep your Bing/Bard observations published where they are now.
 If damage is done, I might as well keep it there. But that leaves the challenge
 of rendering the markdown and pushing it into Google Docs. Think it through!
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields">Added Support for Arbitrary Jekyll YAML Fields</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-status-quo">An Ode to The Status Quo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/json/'>JSON</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li></ul>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

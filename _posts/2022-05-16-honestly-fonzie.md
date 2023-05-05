@@ -28,7 +28,7 @@ layout: post
 {% include youtubePlayer.html id="Wy-tZy7EHKI" %}
 
 
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/honestly-fonzie">Honestly, Fonzie</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper">When I Grew a Backbone, Story of The Samurai Mudskipper</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/honestly-fonzie/">Honestly, Fonzie</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/">When I Grew a Backbone, Story of The Samurai Mudskipper</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>
