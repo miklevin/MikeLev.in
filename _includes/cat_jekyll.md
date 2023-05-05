@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
-<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive and a stripped-down template in Jekyll `_layouts` to generate drafts that can be pasted into Google Docs.</li>
+<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
 <br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)

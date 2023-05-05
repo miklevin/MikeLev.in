@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
-<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive and a stripped-down template in Jekyll `_layouts` to generate drafts that can be pasted into Google Docs.</li>
+<br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a> (Wed Apr 19, 2023)
 <br/>I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.</li>
 <li><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a> (Mon Mar 13, 2023)
@@ -20,4 +20,4 @@
 <li><a href="/blog/concurrent-web-crawling-in-python/">Concurrent Web Crawling in Python</a> (Mon Feb 21, 2022)
 <br/>Today, I'm celebrating President's Day by accomplishing a mission: creating an async Python function to return zipped input/output promises. I'm also working on handling a list of tuples as input and building a package called mlseo on PyPI. To top it off, I've completed a concurrent site crawler in Python that uses SQLite. Join me in celebrating President's Day with this amazing progress!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/browser-automation/">Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/80-20-rule/">80/20-rule</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copilot/">Copilot</a></div> &nbsp; <div class="post-nav-next"><a href="/headline/">Headlines</a><span class="arrow">&nbsp;&rarr;</span></div></div>

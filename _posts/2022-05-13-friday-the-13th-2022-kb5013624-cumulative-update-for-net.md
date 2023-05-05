@@ -4,7 +4,7 @@ title: Friday The 13th 2022 KB5013624 Cumulative Update for .NET
 headline: KB5013624 Update for .NET Causes Internet Connection Issues, But Not Windows 11 Upgrade
 description: Having trouble with my internet connection, I realize it was the KB5013624 update for .NET. After researching, I find it's a phishing vulnerability patch, but can't find more information. I decide to let it install, fearing it might be the Windows 11 update I'm not ready for. Relieved to find out it's not, I make a mental note to upgrade to Windows.
 keywords: Friday The 13th, 2022, KB5013624, Cumulative Update, .NET, Internet Connection, Phishing Vulnerability, Patch, Windows 11, Upgrade, Windows
-categories: 2022, windows 11
+categories: windows 11, 2022
 permalink: /blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/
 layout: post
 ---
@@ -42,5 +42,5 @@ under Windows 11. It doesn't. I was almost fooled... again.
 ## Categories
 
 <ul>
-<li><h4><a href='/2022/'>2022</a></h4></li>
-<li><h4><a href='/windows-11/'>Windows 11</a></h4></li></ul>
+<li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/2022/'>2022</a></h4></li></ul>

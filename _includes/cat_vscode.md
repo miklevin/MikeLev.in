@@ -38,4 +38,4 @@
 <li><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a> (Wed May 11, 2022)
 <br/>I recently discovered a powerful feature of vim called Visual Block mode, which allows you to quickly add text to multiple lines. However, this feature wasn't available in the Microsoft Terminal program when running vim under Linux in Windows via WSL. After a few steps, I was determined to figure out how to activate this feature and eventually succeeded. Learn how I overcame the challenge and how you can activate Visual Block mode in vim.</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/systemd/">Systemd</a></div> &nbsp; <div class="post-nav-next"><a href="/bing/">Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/bing/">Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/jupyter-notebook/">Jupyter Notebook</a><span class="arrow">&nbsp;&rarr;</span></div></div>

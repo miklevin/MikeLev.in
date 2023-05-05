@@ -4,7 +4,7 @@ title: Gathering My Stories
 headline: "Exploring My Stories: Bullying of Blues, Rabbit Hole of Tech, and More"
 description: I'm reflecting on my stories and topics to discuss, including the bullying of blues, the rabbit hole of tech, the politically correct main branch of Microsoft, collecting comics, and the Superbad Mic Loving Mr. McLovin. I'll also be exploring the deeper meanings of characters from Alice in Wonderland, the Shaggy Man, and Love Magnet, and discussing the LGBTQ community, how parents should listen better, and the Twitter/Instagram culture.
 keywords: bullying, blues, tech, Microsoft, comics, Superbad, Mr. McLovin, Alice in Wonderland, Shaggy Man, Love Magnet, LGBTQ, parents, listening, Twitter, Instagram, stories, topics, discuss, politically correct, main branch, explore, deeper meanings, characters, culture
-categories: microsoft, twitter
+categories: twitter, microsoft
 permalink: /blog/gathering-my-stories/
 layout: post
 ---
@@ -83,5 +83,5 @@ few of the topics and sub-topics that roll off easily...
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
