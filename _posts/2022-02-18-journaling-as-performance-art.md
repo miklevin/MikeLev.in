@@ -4,7 +4,7 @@ title: Journaling As Performance Art
 headline: Creating Performance Art with Journal Entries and Github.io
 description: I'm creating a performance art piece that auto-publishes my journal entries on Github.io. I'm also building a get_responses function that takes a list of URLs or tuples and returns a list of tuples. I'm testing it by providing it with a list of URLs and a function and checking the output. My goal is to get responses from a list of URLs and assign them either 'foo' or 'bar', then return them as a list. For example, when
 keywords: Journaling, Performance Art, Github, Github.io, mlseo, URLs, Tuples, Function, Output, Response, Assignment, Example
-categories: mlseo, journaling, github, github.io
+categories: mlseo, journaling, github.io, github
 permalink: /blog/journaling-as-performance-art/
 layout: post
 ---
@@ -151,5 +151,5 @@ Okay, pushed out a very nice video.
 <ul>
 <li><h4><a href='/mlseo/'>mlseo</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/github-io/'>Github.io</a></h4></li></ul>
+<li><h4><a href='/github-io/'>Github.io</a></h4></li>
+<li><h4><a href='/github/'>Github</a></h4></li></ul>

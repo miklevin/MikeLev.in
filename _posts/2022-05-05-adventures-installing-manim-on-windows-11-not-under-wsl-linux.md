@@ -4,7 +4,7 @@ title: Adventures Installing Manim on Windows 11 (Not Under WSL Linux)
 headline: Successfully Installing Manim on Windows 10 - A Journey of Resilience and Lessons Learned
 description: "I recently switched from Mac to Microsoft and discovered the power of the vim command :b1. This blog post explores the importance of developing internal resilience and extracting the lessons from life experiences. I discuss the differences between the neocortex and the pituitary gland and how the neocortex can override the signals of the pituitary gland. I also share my experience of trying to get Manim to work on my Windows 11 system, and how I ultimately got it to work on Windows 10. I"
 keywords: "Windows 11, Vim command :b1, Internal Resilience, Neocortex, Pituitary Gland, Manim, Windows 10, Linux, Chocolatey, Python, JupyterLab Desktop, Virtualenv, Powershell, Mac, Driver Problem, Touchscreen, Stylus, Nbconvert"
-categories: virtualenv, linux, windows 11, powershell, windows 10, python, mac
+categories: python, linux, windows 11, powershell, mac, virtualenv, windows 10
 permalink: /blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/
 layout: post
 ---
@@ -309,10 +309,10 @@ great success!
 ## Categories
 
 <ul>
-<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
 <li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li></ul>

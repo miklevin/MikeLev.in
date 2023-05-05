@@ -4,7 +4,7 @@ title: How To Learn Machine Learning With a FastAI Hello World Program
 headline: "Learning AI with FastAI: A Quick and Easy Introduction to Machine Learning"
 description: I'm learning about AI and parameters, which are variables that determine how an AI model behaves. GPT-4 is an example of a large language model with 170 trillion parameters. I'm using FastAI to quickly learn the fundamentals of deep learning, but I'm also exploring other sources of knowledge to stay ahead of the curve. If you're interested in learning more about AI, I recommend starting with FastAI and supplementing it with other resources to gain a deeper understanding.
 keywords: Machine Learning, FastAI, AI, Parameters, Variables, GPT-4, Deep Learning, Jeremy Howard, Mathematics, Algorithms, Recognize, Classify, Handwritten Digits
-categories: machine learning, ai, algorithms
+categories: ai, algorithms, machine learning
 permalink: /blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/
 layout: post
 ---
@@ -227,5 +227,5 @@ Learning AI is a lifelong journey that requires curiosity, passion and dedicatio
 ## Categories
 
 <ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: A Zero Fuel Solar Nomadic Lifestyle Plus Homeschooling
 headline: Exploring the US and Canada with a Zero Fuel Solar Nomadic Lifestyle and Homeschooling in 2023!
 description: I'm planning the ultimate road trip for 2023 and I'm excited to explore the United States and Canada! I'm looking into a nomadic lifestyle with solar energy as my fuel source and researching solar generators, Toyota Prius Prime, Aptera, and ElectraMeccanica's SOLO. I'm also homeschooling my child and teaching them about renewable energy, sustainable living, and problem-solving. With this curriculum, I'm sure to have an unforgettable experience!
 keywords: Solar, Nomadic, Lifestyle, Homeschooling, Road Trip, United States, Canada, Solar Generator, Toyota Prius Prime, Aptera, ElectraMeccanica's SOLO, Renewable Energy, Sustainable Living, Problem-Solving, Curriculum, Solar-Powered Vehicles, Cats, Learning, Growing Opportunities, Time Management, Self-Discipline, Critical Thinking, Social Skills, Different Perspectives, Mathematics, Science, Social Studies, Language Arts, Physical
-categories: learning, science
+categories: science, learning
 permalink: /blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/
 layout: post
 ---
@@ -127,5 +127,5 @@ Source: Conversation with Bing, 3/24/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/learning/'>Learning</a></h4></li>
-<li><h4><a href='/science/'>Science</a></h4></li></ul>
+<li><h4><a href='/science/'>Science</a></h4></li>
+<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
