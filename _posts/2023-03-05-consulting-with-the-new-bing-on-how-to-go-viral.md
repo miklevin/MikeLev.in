@@ -4,7 +4,7 @@ title: Consulting With The New Bing On How to Go Viral
 headline: "Creating Viral Content: 6 Tips for Success"
 description: This blog post provides advice on how to create content that will go viral, from using visuals and interactive content to understanding the target audience. I researched six articles on the topic, covering topics such as quality content, platform optimization, and evoking high-arousal emotions. This post is a great resource for anyone looking to create content that will have an impact.
 keywords: consulting, Bing, go viral, visuals, interactive content, target audience, quality content, platform optimization, high-arousal emotions, longform content, Excel, Google Sheets, Python, Linux, LinkedIn, YouTube, Reddit, create content, viral content, strategies, optimize, understanding, works best
-categories: strategies, youtube, excel, python, bing, linux
+categories: excel, strategies, linux, python, bing, youtube
 permalink: /blog/consulting-with-the-new-bing-on-how-to-go-viral/
 layout: post
 ---
@@ -48,8 +48,8 @@ Source: Conversation with Bing, 3/3/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/excel/'>Excel</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

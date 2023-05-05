@@ -12,4 +12,4 @@
 <li><a href="/blog/i-ll-just-put-this-in-my-usr-local-sbin/">I'll Just Put This In My /usr/local/sbin/</a> (Sat Jun 18, 2022)
 <br/>I recently changed my journal from .txt to .md to be compatible with my new content management system. I'm excited to have discovered this system which allows me to back up my system customizations with a vim repo, and to edit all files listed in a csv file at once. I'm now sharing this with the world - join me to learn how to work this way and make the most of your system!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/desktop/">Desktop</a></div> &nbsp; <div class="post-nav-next"><span class="arrow">&nbsp;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/desktop/">Desktop</a></div> &nbsp; <div class="post-nav-next"><a href="/github-io/">Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>

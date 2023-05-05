@@ -14,4 +14,4 @@
 <li><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a> (Sun May 01, 2022)
 <br/>I successfully created a pattern for releasing packages built in Jupyter Notebooks into PyPI, using nbdev from Fast.ai. I pushed my package, Blogslicer, to PyPI, but still have more work to do before I can add it to my blog release script. Read more to find out how I did it!</li>
 </ol>
-<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/homepage/">Homepage</a></div> &nbsp; <div class="post-nav-next"><a href="/loop/">Loop</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/algorithm/">Algorithms</a></div> &nbsp; <div class="post-nav-next"><a href="/loop/">Loop</a><span class="arrow">&nbsp;&rarr;</span></div></div>

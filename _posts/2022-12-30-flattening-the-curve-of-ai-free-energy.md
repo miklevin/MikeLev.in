@@ -4,7 +4,7 @@ title: Flattening The Curve of AI & Free Energy
 headline: Exploring The Impact of AI and How to Flatten the Curve of Change
 description: This blog post explores the impact of AI on our world and how it can be leveraged to create cheap, clean energy and new technologies. I discuss the need to flatten the curve of these changes and suggest using memetic hacking to shape the future. I explain how decisions must be made based on approximations and how AI will allow us to solve problems in a fraction of the time. I conclude by exploring the potential of fusion as a viable option for the future.
 keywords: AI, Free Energy, Flattening the Curve, Memetic Hacking, Decisions, Approximations, Fusion, Cheap, Clean Energy, New Technologies, Existential Crisis, Solving Problems, Viable Option
-categories: decisions, ai
+categories: ai
 permalink: /blog/flattening-the-curve-of-ai-free-energy/
 layout: post
 ---

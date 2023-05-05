@@ -4,7 +4,7 @@ title: Should You Use Bing or Bard to Help With Your Homework?
 headline: "Exploring the Impact of Technology on Society: Snow Crash and Rainbows End"
 description: I wrote two influential science fiction novels in the 1990s, Snow Crash and Rainbows End, that explore the potential of technology to transform society. Snow Crash has been praised for its prescient vision of the internet, and Rainbows End for its exploration of the ethical implications of technology. Read on to learn more about how these novels have impacted our society today!
 keywords: Vernor Vinge, Snow Crash, Rainbows End, Science Fiction, 1990s, Internet, Ethical Implications, Technology, Transform Society, Impact on Society
-categories: internet
+categories: 
 permalink: /blog/should-you-use-bing-or-bard-to-help-with-your-homework/
 layout: post
 ---
@@ -45,5 +45,4 @@ Notable in Bard's 2nd answer: Snow Crash and Rainbows End are two science fictio
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/internet/'>Internet</a></h4></li></ul>
+<ul></ul>

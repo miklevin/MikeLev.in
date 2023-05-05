@@ -1,0 +1,13 @@
+<ol>
+<li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)
+<br/>Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code.</li>
+<li><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a> (Sun Apr 30, 2023)
+<br/>Getting started with the OpenAI Codex API and worried about cost? Understand the cost pattern of catching up with a backlog, and then costs going down moving forward. Once my job was 'caught up', processing going forward was only 50 cents per day.</li>
+<li><a href="/blog/switched-from-text-davinci-002-to-text-davinci-003/">Switched from text-davinci-002 to text-davinci-003</a> (Tue Apr 18, 2023)
+<br/>I switched to text-davinci-003 to get better summaries, descriptions, headlines, and keywords from OpenAI, but it cost me more. I committed the data to a git repo so I could access it even if the databases got deleted. Going forward, I'll only process single posts as I explore AI capabilities. Join me as I explore the AI capabilities and the cost of processing data.</li>
+<li><a href="/blog/keyword-histograms-and-clusters/">Keyword Histograms and Clusters</a> (Tue Jan 17, 2023)
+<br/>I've already done the hard work of extracting keywords using the Yake KeywordExtractor, and now I'm ready to discuss extracting them from the entire dataset. I've also used lambda functions to control the insertion of spaces between each tag-stripped element, and I'm eager to share the steps I've taken for keyword processing. Click here to read more!</li>
+<li><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a> (Wed Jan 11, 2023)
+<br/>I recently had a breakthrough in creating a SQLite3 database to capture data from a list of URLs, and now I'm creating a keyword histogram and grouping the pages by keyword themes. I've been assigned a million-page crawl, and I'm tackling it all on one machine with momentarily unthrottled concurrency in chunks. Come read about my journey and how I'm processing the data in finite jobs and moving the chunks off my local.</li>
+</ol>
+<div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/theory/">Theory</a></div> &nbsp; <div class="post-nav-next"><a href="/json/">JSON</a><span class="arrow">&nbsp;&rarr;</span></div></div>

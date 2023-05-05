@@ -4,7 +4,7 @@ title: Little Things, Big Changes
 headline: "Making Small Changes Day-by-Day: My Reflection and Writing Revisions"
 description: I'm reflecting on the idea of making small changes day-by-day rather than committing to long-term projects. I'm also revising and editing my writing style, and I'm excited to share something that isn't yet on the internet. Read my blog post to find out what it is and to learn more about making permanent changes in my life.
 keywords: Small Changes, Long-Term Projects, Writing Style, Revise, Edit, Permanent Changes, Life, Pictures, Insider, Internet
-categories: edit, internet
+categories: 
 permalink: /blog/little-things-big-changes/
 layout: post
 ---
@@ -71,6 +71,4 @@ Or not. We'll see.
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/little-things-big-changes">Little Things, Big Changes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code">Imagining vim Macro That Makes Markdown Image Code</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/edit/'>Edit</a></h4></li>
-<li><h4><a href='/internet/'>Internet</a></h4></li></ul>
+<ul></ul>

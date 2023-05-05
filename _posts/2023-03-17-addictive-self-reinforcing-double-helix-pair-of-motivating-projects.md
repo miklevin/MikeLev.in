@@ -4,7 +4,7 @@ title: Addictive & Self-Reinforcing Double-Helix Pair of Motivating Projects
 headline: Exploring Data with a Double-Helix of Motivating Projects
 description: I'm starting two exciting projects that will motivate and energize each other. The first is creating a comprehensive slide deck about our data and how it compares to competitors, in a storytelling format. The second is to Moz-itize my work, easing people into this approach and starting each project with a kernel. Come join me on this journey and learn how to make the most of your data!
 keywords: Storytelling, Slide Deck, Competitors, Moz-itize, Kernel, Projects, Motivating, Self-Reinforcing, Double-Helix, Addictive
-categories: 
+categories: competitors
 permalink: /blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/
 layout: post
 ---

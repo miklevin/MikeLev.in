@@ -4,7 +4,7 @@ title: This Is Where I Reversed The ASCII Rabbit
 headline: I Reversed an ASCII Rabbit - Come See My Journal Banner!
 description: On August 31, 2022, I used vim block select and the command '![Space]rev' to create a new ASCII rabbit, running in the right direction. I was so proud of my work that I updated my public journal banner with the new ASCII rabbit - come read about my journey and see the new banner!
 keywords: ASCII, Rabbit, Reverse, Vim, Block Select, Command, ![Space]rev, August 31, 2022, Direction, Slashes, Parenthesis, Journal, Banner, Journey
-categories: journey, vim
+categories: vim, journey
 permalink: /blog/this-is-where-i-reversed-the-ascii-rabbit/
 layout: post
 ---
@@ -39,5 +39,5 @@ This was to update my public journal banner to this:
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

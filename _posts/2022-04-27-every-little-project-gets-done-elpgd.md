@@ -4,7 +4,7 @@ title: Every Little Project Gets Done (ELPGD)
 headline: "Successfully Completed a Blog Slicer App Project: ELPGD in Action!"
 description: I successfully completed a project for a blog slicer app, demonstrating the power of ELPGD (Every Little Project Gets Done). I figured out how to put the sliced and diced version of my blog in the repo root, and have created a blog that I'm sure readers will find interesting. Read my post to learn more!
 keywords: Project, Blog Slicer, ELPGD, Repo Root, File Naming Convention, Journal File, Homepage, Link, Sliced and Diced, Create Blog
-categories: homepage
+categories: 
 permalink: /blog/every-little-project-gets-done-elpgd/
 layout: post
 ---
@@ -43,5 +43,4 @@ This is a test.
 <div class="post-nav"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-project-gets-done-elpgd">Every Little Project Gets Done (ELPGD)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-blog-titles-for-filenames">Using Blog Titles for Filenames</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/homepage/'>Homepage</a></h4></li></ul>
+<ul></ul>

@@ -1,9 +1,9 @@
 ---
-title: Open Source
+title: Open-Source
 permalink: /open-source/
 layout: default
 ---
 
-# Open Source
+# Open-Source
 
 {% include cat_open-source.md %}
