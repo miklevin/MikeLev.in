@@ -16,4 +16,4 @@
 <li><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a> (Tue Jan 17, 2023)
 <br/>I'm creating processes to gradually move images from Google Photos to a home cloud NAS in a fun and addicting way. I'm using Python sets to identify and remove duplicates, chunking data to create indexed sequential namedtuples for each week of my life up to 100 years, and creating thumbnail folders when I'm ready.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/excel/">Excel</a></div> &nbsp; <div class="post-nav-next"><a href="/csv/">CSV</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/csv/">CSV</a></div> &nbsp; <div class="post-nav-next"><a href="/excel/">Excel</a><span class="arrow">&nbsp;&rarr;</span></div></div>

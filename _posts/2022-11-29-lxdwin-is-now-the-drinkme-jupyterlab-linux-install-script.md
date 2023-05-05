@@ -4,7 +4,7 @@ title: LXDWIN is now the DrinkMe JupyterLab Linux Install Script
 headline: Come Join Me on My Big Data-Pull Project!
 description: I've rebranded my lxdwin repository to drinkme, and I'm starting a big data-pull project for work. I'm creating a repo folder so everyone can follow along and I'll make a video about it. Come join me and see how it all unfolds!
 keywords: LXDWIN, DrinkMe, JupyterLab, Linux, Install, Script, Repository, Big Data-Pull, Project, Work, Repo Folder, Video, Focus, Scratch, Rework
-categories: linux, drinkme, script, jupyterlab, focus
+categories: jupyterlab, script, focus, linux, drinkme
 permalink: /blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/
 layout: post
 ---
@@ -26,12 +26,12 @@ drinkme. Let everyone follow along from scratch!
 Yes! It's video-time.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bottom-turtle-is-microsoft-and-that-s-okay/">The Bottom Turtle is Microsoft, and That's Okay</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-bottom-turtle-is-microsoft-and-that-s-okay/">The Bottom Turtle is Microsoft, and That's Okay</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
-<li><h4><a href='/focus/'>Focus</a></h4></li></ul>
+<li><h4><a href='/script/'>Script</a></h4></li>
+<li><h4><a href='/focus/'>Focus</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li></ul>

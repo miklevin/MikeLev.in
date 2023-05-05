@@ -4,7 +4,7 @@ title: Do Not Lose The Power of Touch Typing Despite AI APIs
 headline: Master Machines and Express Your Inner Vibe - Don't Lose the Power of Touch Typing!
 description: As a tech enthusiast, I believe that touch typing on a standard keyboard is still an important skill to learn and practice, even in the age of smartphones and AI. Touchscreens can't provide the same muscle memory as a standard keyboard, and touch typing is a great way to express your inner vibe. Don't let the power of touch typing be lost - learning this highly useful skill is key to mastering machines and taking control of your life.
 keywords: Touch Typing, Standard Keyboard, Smartphones, AI, Voice Recognition, Muscle Memory, Shifting Layouts, Fundamentals, Control, Master Machines, Express Inner Vibe
-categories: ai, muscle memory
+categories: muscle memory, ai
 permalink: /blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/
 layout: post
 ---
@@ -80,9 +80,9 @@ parental AIs to take over just to avoid developing a highly useful skill?
 That's like arguing to stay a baby.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-is-not-easy-to-do-real-life-or-linux/">Moving Is Not Easy To Do: Real-life or Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-is-not-easy-to-do-real-life-or-linux/">Moving Is Not Easy To Do: Real-life or Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Re-Railing Yourself After Getting Derailed In Life
 headline: My Journey from Derailed to Re-Railing Myself with Timeless Tools and AI Assistance
 description: At 52 years old, I've figured out how to re-rail myself and avoid getting derailed in life. I've gone through 10 years or 10,000 hours of attaining spontaneous mastery and expertise, and I'm now using tools like Linux, Python, vim & git to create applications that have an eternal life. My system, YAMLchop, focuses on journaling into one single text file, using title tags to decide what gets published and using OpenAI to write headlines and metas.
 keywords: Re-Railing, Derailed, Circumstances, 16, 18, 25, Career, Vice President, Public Relations, Amazon.com, Pisher, NYC, Rat Race, Eight Ball, Chasing Tail, Hamster Wheel, Operating Systems, Windows 10, Windows 11, Designed Obsolescence, Lightbulb, Laptop, Mobile Phone, Programming Languages, Platforms, Lock-In, Active Server Pages, Cold Fusion, Flash, Java, Ruby on Rails, Node
-categories: windows 10, platforms, windows 11, nyc, operating systems
+categories: operating systems, windows 11, windows 10, nyc, platforms
 permalink: /blog/re-railing-yourself-after-getting-derailed-in-life/
 layout: post
 ---
@@ -172,11 +172,11 @@ journal-generated site at no more cost than the $100/year or whatever for your
 basic Github developer account. You can even do it on the free Github version.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
-<li><h4><a href='/nyc/'>NYC</a></h4></li>
-<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li></ul>
+<li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
+<li><h4><a href='/nyc/'>NYC</a></h4></li></ul>

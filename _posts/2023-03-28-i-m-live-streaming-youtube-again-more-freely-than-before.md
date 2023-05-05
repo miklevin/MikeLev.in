@@ -4,7 +4,7 @@ title: I'm Live streaming YouTube again More Freely Than Before
 headline: Mastering Cloud Notebook Hosts to Become an Advanced SEO
 description: In this blog post, I discuss the rapidly evolving Bard user interface issues and how they compare to Bing's implementations. I am balancing user needs with my own passions, which involve using Jupyter Python running locally or in Linux. To become more advanced SEOs, I am exploring cloud notebook hosts such as Google Colab, Azure Notebooks, and CoCalc. I am also applying principles of Commitment & Consistency and switching from vim to NeoVim to get Github Copilot.
 keywords: Live streaming, YouTube, Bard, user interface, Bing, Jupyter Python, Linux, Google Colab, Azure Notebooks, CoCalc, Commitment & Consistency, NeoVim, Github Co, Kaggle Kernels, Binder, Robert Cialdini, Influence, git, vim, vi-based platform
-categories: git, linux, youtube, bing, vim, neovim
+categories: git, neovim, youtube, linux, vim, bing
 permalink: /blog/i-m-live-streaming-youtube-again-more-freely-than-before/
 layout: post
 ---
@@ -236,13 +236,13 @@ As the world changes, your mastery of vim (muscle memory similar to driving)
 carries over to the new vi-based platform.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai/">Planning Fully Unbounded Web Scraper Kit For AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai/">Planning Fully Unbounded Web Scraper Kit For AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

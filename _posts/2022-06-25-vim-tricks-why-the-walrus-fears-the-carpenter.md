@@ -29,7 +29,7 @@ in my head for a long time and is only natural to finally get out there.
 ![Linux Python Vim Git Venn Diagram](/assets/images/linux-python-vim-git-venn-diagram.png)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

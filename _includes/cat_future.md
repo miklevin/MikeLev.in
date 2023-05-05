@@ -18,4 +18,4 @@
 <li><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/">When I Grew a Backbone, Story of The Samurai Mudskipper</a> (Mon May 16, 2022)
 <br/>Mike Levin, an old warrior, tells his child a story about the evolution of the backbone. He explains that the backbone developed over a long period of time, beginning with single-celled organisms and ending with the Cambrian Explosion. Mike then tells his child that he can grow a backbone and map out the life of a single being, starting with the present. With this story, Mike hopes to prepare his child for the predators of the future. Read this blog post to learn more about the evolution</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/goal/">Goals</a></div> &nbsp; <div class="post-nav-next"><a href="/tutorial/">Tutorial</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div> &nbsp; <div class="post-nav-next"><a href="/goal/">Goals</a><span class="arrow">&nbsp;&rarr;</span></div></div>

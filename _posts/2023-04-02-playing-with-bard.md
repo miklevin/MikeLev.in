@@ -214,7 +214,7 @@ The people were happy to give Sarah the recipe, and she promised to make the ste
 Sarah continued to travel the world, trying new and delicious foods. She made many friends along the way, and she learned a lot about different cultures. She knew that she would never forget her time in Africa, and she knew that she would always cherish the memories she had made.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hello-world-and-life-is-worth-it/">Hello World and Life is Worth It 🦋!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hello-world-and-life-is-worth-it/">Hello World and Life is Worth It 🦋!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

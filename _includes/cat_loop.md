@@ -14,4 +14,4 @@
 <li><a href="/blog/writing-a-bash-loop-script-for-jekyll/">Writing a Bash Loop Script for Jekyll</a> (Sun May 01, 2022)
 <br/>I wrote a Bash loop script for Jekyll to edit 10 sites at once, centralizing the identical files. I tested the script by adding line-height to style.scss, and it was successful. I then pushed the changes to all of my sites using git commands, and I'm excited to share the results with you!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/command-line/">Command-Line</a></div> &nbsp; <div class="post-nav-next"><a href="/levinux/">Levinux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/levinux/">Levinux</a></div> &nbsp; <div class="post-nav-next"><a href="/command-line/">Command-Line</a><span class="arrow">&nbsp;&rarr;</span></div></div>

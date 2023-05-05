@@ -4,7 +4,7 @@ title: Analyzing the Karate Club 3D Node Graph
 headline: Creating a 3D Rotating Network Node Graph with Plotly and NetworkX
 description: I'm creating a 3D rotating shape from a website using Linux Jupyter on Windows. I'm analyzing the Karate Club 3D Node Graph and have written code to plot it. I'm exploring NetworkX, a Python library for creating and manipulating graphs, to create a networkx.classes.graph.Graph object and plotting nodes and edges in 3D space. I'm using Plotly to generate a 3D rotating network node graph with different colored nodes.
 keywords: Karate Club, 3D Node Graph, Linux, Jupyter, Windows, NetworkX, Python, Plotly, Graph, Nodes, Edges, Colors, Labels, Spring Layout, URLs, Links, Figure
-categories: python, jupyter, linux
+categories: linux, jupyter, python
 permalink: /blog/analyzing-the-karate-club-3d-node-graph/
 layout: post
 ---
@@ -407,10 +407,10 @@ fig.show()
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-visualize-websites-as-network-node-graphs/">Let's Visualize Websites as Network Node Graphs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-s-visualize-websites-as-network-node-graphs/">Let's Visualize Websites as Network Node Graphs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

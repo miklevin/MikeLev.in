@@ -42,4 +42,4 @@
 <li><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a> (Tue Mar 28, 2023)
 <br/>In this blog post, I discuss the rapidly evolving Bard user interface issues and how they compare to Bing's implementations. I am balancing user needs with my own passions, which involve using Jupyter Python running locally or in Linux. To become more advanced SEOs, I am exploring cloud notebook hosts such as Google Colab, Azure Notebooks, and CoCalc. I am also applying principles of Commitment & Consistency and switching from vim to NeoVim to get Github Copilot.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/chatgpt/">ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/ubuntu/">Ubuntu</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/ubuntu/">Ubuntu</a></div> &nbsp; <div class="post-nav-next"><a href="/chatgpt/">ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>

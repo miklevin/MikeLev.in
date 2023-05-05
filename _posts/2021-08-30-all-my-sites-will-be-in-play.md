@@ -39,7 +39,7 @@ But don't get distracted by that yet. Okay, and so this site is where I think
 through the SEO issues of all the sites.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/all-my-sites-will-be-in-play/">All My Sites Will Be In Play</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-my-sites-will-be-in-play/">All My Sites Will Be In Play</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

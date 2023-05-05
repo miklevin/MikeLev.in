@@ -48,7 +48,7 @@ Source: Conversation with Bing, 3/3/2023
     (5) 20 highest paying, fastest growing tech skills in the US. https://www.techrepublic.com/article/20-highest-paying-fastest-growing-tech-skills-in-the-us/ Accessed 3/3/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-discuss-embrace-displace-with-bing/">Starting to discuss Embrace & Displace with Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-discuss-embrace-displace-with-bing/">Starting to discuss Embrace & Displace with Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

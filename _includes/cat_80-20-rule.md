@@ -22,4 +22,4 @@
 <li><a href="/blog/what-s-most-broken/">What's Most Broken?</a> (Mon May 02, 2022)
 <br/>As a daily reminder, I have three rules I live by: identify what's most broken, focus on where I can get the biggest bang for the buck, and keep track of what plates need to be spun. I also try to stay mindful of the 80/20-rule and Rabbit-Hole evaluations, and pay attention to any poetry that comes to mind. Quasi Joe D'Ohhh is a reminder to stay vigilant and not be fooled twice. Read my blog post to find out</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copilot/">Copilot</a></div> &nbsp; <div class="post-nav-next"><a href="/sqlite/">SQLite</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/sqlite/">SQLite</a></div> &nbsp; <div class="post-nav-next"><a href="/copilot/">Copilot</a><span class="arrow">&nbsp;&rarr;</span></div></div>

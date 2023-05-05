@@ -4,7 +4,7 @@ title: I've Got a Mic
 headline: "Explore the Mic Lovin' Goodness: Learn How to Find Carnac, Record a Vim Macro, and Use HTML Singletons"
 description: I'm passionate about talking into the mic and sharing my stories. In this blog post, I'll show you how to find Carnac, record a Vim macro, and use HTML singletons. Plus, learn how to add the macro to a .vimrc file, use Vim buffers, and more. Don't miss out on this 'mic lovin' goodness!
 keywords: Mic, Carnac, Vim, Macro, HTML, Singletons, .vimrc, Buffers, Tales, Demonstrate, Magnificent, Add, Much, Goodness
-categories: html, .vimrc, macro, vim
+categories: vim, macro, .vimrc, html
 permalink: /blog/i-ve-got-a-mic/
 layout: post
 ---
@@ -35,11 +35,11 @@ more. This one is chock full 0' mic lovin' goodness.
 
 {% include youtubePlayer.html id="KIztrN6RlIY" %}
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/macro/'>Macro</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vimrc/'>.vimrc</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li></ul>

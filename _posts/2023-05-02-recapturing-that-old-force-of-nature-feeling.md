@@ -4,7 +4,7 @@ title: Recapturing That Old Force of Nature Feeling
 headline: Using AI to Get Back That Old Force of Nature Feeling From When I Was Younger
 description: I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.
 keywords: force of nature, info-tech, AI-assisted coding, Python, rsplit, token limit, text-davinci-003 engine, while loop, for loop, Microsoft Office suite, Google Slides, md2googleslides, NodeJS, npm, proprietary, open-source, open-data, open-everything, open-minded, Powerpoint-like concepts, markdown, 80/20-rule, copy/paste, hand-drawn images, Note
-categories: nodejs, open-source, proprietary, python, copy/paste, 80/20-rule
+categories: open-source, 80/20-rule, nodejs, proprietary, copy/paste, python
 permalink: /blog/recapturing-that-old-force-of-nature-feeling/
 layout: post
 ---
@@ -134,13 +134,13 @@ groceries. Be back soon, renewed, refreshed and able to do more with less.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/open-source/'>Open-Source</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
+<li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

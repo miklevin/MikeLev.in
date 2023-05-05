@@ -72,7 +72,7 @@ digital privacy, protect data, protect online privacy, protect browsing
 history, protect personal information.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis/">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/nbdev-packaging-is-the-first-step-in-every-project/">Nbdev Packaging Is The First Step In Every Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-packaging-is-the-first-step-in-every-project/">Nbdev Packaging Is The First Step In Every Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis/">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

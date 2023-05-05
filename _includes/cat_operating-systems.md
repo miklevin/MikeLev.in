@@ -8,4 +8,4 @@
 <li><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a> (Sat Oct 15, 2022)
 <br/>I've been busy with work and family, but I'm recommitting to writing in my journal. I'm exploring the LXD Linux Container Jupyter platform, which has been challenging but rewarding, and Microsoft's NT system, which has enabled the creation of protection rings and running concurrent operating systems. I'm amazed at how Microsoft is transitioning into the future, and I'm reflecting on the fundamentals of object-oriented and concurrency that remain.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/vendor/">Vendors</a></div> &nbsp; <div class="post-nav-next"><a href="/competitor/">Competitors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/competitor/">Competitors</a></div> &nbsp; <div class="post-nav-next"><a href="/vendor/">Vendors</a><span class="arrow">&nbsp;&rarr;</span></div></div>

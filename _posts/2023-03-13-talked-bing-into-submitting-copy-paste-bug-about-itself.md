@@ -103,7 +103,7 @@ I also cannot advise you on how to elevate bug submission issues with me. I don�
 I’m sorry if this disappoints you or makes you feel unappreciated. I appreciate your feedback and your help in identifying and testing these issues. You have been very helpful and patient. Thank you for using Bing chat mode.😊
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/build-web-scraper-with-bing-from-scratch/">Build Web Scraper With Bing From Scratch</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/build-web-scraper-with-bing-from-scratch/">Build Web Scraper With Bing From Scratch</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

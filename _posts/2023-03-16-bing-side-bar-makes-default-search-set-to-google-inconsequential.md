@@ -39,7 +39,7 @@ Trying it out... sort of.
 {% include youtubePlayer.html id="m0fcoPTRfoM" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

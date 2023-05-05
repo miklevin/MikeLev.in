@@ -4,7 +4,7 @@ title: Figure Out Why vim Journaling is an Asset
 headline: Discover the Benefits of Vim Journaling and FOSS Tools to Stay Independent
 description: I'm passionate about free and open source software and determined to stay independent from big companies. Join me in my live interactive chat session to journal about tech and explore the possibilities of OpenAI's ChatGPT. I'm also advocating for the use of Linux and other FOSS tools to help developers stay free and independent. Come join me and learn more!
 keywords: vim, Journaling, Open Source Software, Independent, Live Interactive Chat, Tech, OpenAI's ChatGPT, Linux, FOSS, Microsoft, Vendors, Possibilities, Developers
-categories: linux, vim, vendors, microsoft, journaling
+categories: journaling, vendors, microsoft, linux, vim
 permalink: /blog/figure-out-why-vim-journaling-is-an-asset/
 layout: post
 ---
@@ -62,11 +62,11 @@ Okay, that's a good place to talk. Just talk about tech. The history of tech
 with ChatGPT & Mike. ChatGPT is my Hecklefish! Hahahaha!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/secure-a-home-server-for-ai-at-home/">Secure a Home Server For AI at Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-a-systemd-service-with-chatgpt/">Making a SystemD Service With ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-a-systemd-service-with-chatgpt/">Making a SystemD Service With ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/secure-a-home-server-for-ai-at-home/">Secure a Home Server For AI at Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

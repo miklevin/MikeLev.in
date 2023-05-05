@@ -12,4 +12,4 @@
 <li><a href="/blog/openai-vs-kmeans-for-keyword-clustering/">OpenAI Vs. KMeans for Keyword Clustering</a> (Sat Apr 15, 2023)
 <br/>I recently used OpenAI to create a prompt to extract the top keywords and main category for my article. Using my old keywords.db and topics.db files, I re-generated my Meta Descriptions and Keywords based on OpenAI prompts. I discovered that intelligence is a product, and I'm excited to share the results of my experiment with you!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/muscle-memory/">Muscle Memory</a></div> &nbsp; <div class="post-nav-next"><a href="/productivity/">Productivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/productivity/">Productivity</a></div> &nbsp; <div class="post-nav-next"><a href="/muscle-memory/">Muscle Memory</a><span class="arrow">&nbsp;&rarr;</span></div></div>

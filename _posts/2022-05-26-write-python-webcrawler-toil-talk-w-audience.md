@@ -399,7 +399,7 @@ Especially the titles tags!
 Github Pages Jekyll system... and my blog slice & dice system.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/trying-to-get-python-sbin-commands-from-nbdev/">Trying to get Python sbin commands from nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/trying-to-get-python-sbin-commands-from-nbdev/">Trying to get Python sbin commands from nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

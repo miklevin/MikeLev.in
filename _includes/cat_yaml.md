@@ -24,4 +24,4 @@
 <li><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a> (Mon Apr 17, 2023)
 <br/>I'm working to fix OpenAI keyword problems by writing code to recognize text that doesn't match the keyword format, handling commas inside quotes, and creating histograms. I've used this code to re-write the database of keywords for my blog, validate YAML in Python without Jekyll, and create category pages and navigation. I'm committed to developing a code that can consistently format keywords.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/service/">Service</a></div> &nbsp; <div class="post-nav-next"><a href="/keywords/">Keywords</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/keywords/">Keywords</a></div> &nbsp; <div class="post-nav-next"><a href="/service/">Service</a><span class="arrow">&nbsp;&rarr;</span></div></div>

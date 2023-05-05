@@ -4,7 +4,7 @@ title: I Need To Get This Ready for MOZ Tutorial Use
 headline: Optimizing Scripts for Efficient and Readable Use on Ubuntu-20.04
 description: I have been optimizing scripts to make them more efficient and readable. I have set up a default user for Ubuntu-20.04, created a 'repos' folder for Windows/Linux file sharing, updated software repositories, installed figlet and upgraded Ubuntu 20. I have also created a shortcut for 'Linux Shell' on my desktop, deleted some files and ran a figlet command. Join me as I take you through my journey of setting up and running scripts on Ubuntu-20.04!
 keywords: Scripts, Optimizing, Ubuntu-20.04, Default User, 'Repos' Folder, Windows/Linux File Sharing, Software Repositories, Figlet, Upgrade, Shortcut, Linux Shell, Delete Files, Install.sh, Reboot, Access Control List, Post-Reboot Scripts, WSL, Commands, Jup
-categories: scripts, wsl
+categories: wsl, scripts
 permalink: /blog/i-need-to-get-this-ready-for-moz-tutorial-use/
 layout: post
 ---
@@ -112,7 +112,7 @@ set /p warning=Press [Enter] to release this console window. %
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

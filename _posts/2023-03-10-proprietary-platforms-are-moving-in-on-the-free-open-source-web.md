@@ -4,7 +4,7 @@ title: Proprietary Platforms Are Moving In On The Free & Open Source Web
 headline: Unlock AI Solutions with Deep Learning and Game Theory
 description: Discover how deep learning and game theory can be used together to create more effective AI solutions. In this blog post, I discuss the potential applications of deep learning to game theory and the importance of collaboration between the two disciplines. I also explain how game theory can help to model and solve various deep learning problems, and how AI can create competitive pressures for content providers. Finally, I explore how deep language learning models can make the web more transparent and accountable by providing evidence and sources for their claims.
 keywords: Deep Learning, Game Theory, AI Solutions, Collaboration, Chatbot Technology, Natural Language, Personalized Responses, Web Search, Customer Acquisition, Retention Funnel, Automate Workflows, PageRank, Google, Spamming, Fake Websites, Tragedy of the Commons, Competitive Pressures, Content Providers, E-A-T, Evidence, Sources, ResearchGate, Article
-categories: collaboration, google
+categories: google, collaboration
 permalink: /blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web/
 layout: post
 ---
@@ -128,9 +128,9 @@ Source: Conversation with Bing, 3/10/2023
     (5) (PDF) Deep Learning meets Game Theory - ResearchGate. https://www.researchgate.net/publication/317062658_Deep_Learning_meets_Game_Theory Accessed 3/10/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/science-experiments-for-12-year-olds/">Science Experiments for 12 Year Olds</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/desperately-seeking-a-better-intro-to-math-science-a-pythonic-one/">Desperately Seeking a Better Intro to Math & Science. A Pythonic One?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/desperately-seeking-a-better-intro-to-math-science-a-pythonic-one/">Desperately Seeking a Better Intro to Math & Science. A Pythonic One?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/science-experiments-for-12-year-olds/">Science Experiments for 12 Year Olds</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/collaboration/'>Collaboration</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/collaboration/'>Collaboration</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: OpenPyXL for creating a formatted Excel file from Python
 headline: Creating a Formatted Excel File with OpenPyXL and Pandas
 description: I used openpyxl and pandas to create a formatted Excel file from Python. I stepped through each item in a loop and outputted a different tab into the spreadsheet, and then finished the task by deleting. Read my blog post to find out how I did it!
 keywords: OpenPyXL, Python, Excel, File, Loop, Spreadsheet, Pandas, Dataframes, Documentation, Delete
-categories: python, pandas, excel, loop
+categories: pandas, python, excel, loop
 permalink: /blog/openpyxl-for-creating-a-formatted-excel-file-from-python/
 layout: post
 ---
@@ -113,7 +113,7 @@ wb.save(xlfile)
 Okay, one giant step towards automating one of my bigger SEO deliverables.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/">Your current video card driver does not support this NVENC version please update your drivers.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-multiple-blogs-within-one-github-pages-site/">Planning Multiple Blogs Within One Github Pages Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-multiple-blogs-within-one-github-pages-site/">Planning Multiple Blogs Within One Github Pages Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/">Your current video card driver does not support this NVENC version please update your drivers.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -85,7 +85,7 @@ Kite or TabNine plugins on standalone Jupyter? No, doesn't look like it.
 Did the live-cast.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-nbdev/">Testing nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-nbdev/">Testing nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

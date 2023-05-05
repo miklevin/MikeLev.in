@@ -18,4 +18,4 @@
 <li><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a> (Thu Apr 21, 2022)
 <br/>As a Harvard University researcher, I recently completed a 25-year study that concluded that the people around us have a major impact on our success - up to 95%! I invite you to read more about my findings and how they can help you reach your goals.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/lpvg/">LPvg</a></div> &nbsp; <div class="post-nav-next"><a href="/future/">Future</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/future/">Future</a></div> &nbsp; <div class="post-nav-next"><a href="/lpvg/">LPvg</a><span class="arrow">&nbsp;&rarr;</span></div></div>

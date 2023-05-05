@@ -4,7 +4,7 @@ title: Planning on Adding Front Matter Support to Journal Entries
 headline: Ready to Take the First Steps in Adding Front Matter Support to Journal Entries?
 description: I worked on a Content Gap Analysis project today and thought about adding Front Matter Support to my Journal Entries. I'm writing a program to parse a file, reconstruct it, and compare it to its source. I'm then transferring the logic into a python script and reversing the order of the posts in the live code to prevent bloat. I'm creating a new file - journal_ - to make this happen. Ready to take the first steps? Read my blog post to find out more.
 keywords: Front Matter Support, Journal Entries, Content Gap Analysis, Program, Parse File, Reconstruct, Compare, Python Script, Reverse Order, Live Code, Jekyll Post-Format, New File, Journal_, Jupyter Notebook, Meta Descriptions, Subheadings, Tags, Pros and Cons, Deliverable, Agencies
-categories: jupyter notebook, meta descriptions
+categories: meta descriptions, jupyter notebook
 permalink: /blog/planning-on-adding-front-matter-support-to-journal-entries/
 layout: post
 ---
@@ -359,9 +359,9 @@ print(compare_files(FULL_PATH, OUTPUT2_PATH))
 
 Do one more normal release tonight and sleep on it. It's a good point to be at.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li></ul>
+<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>

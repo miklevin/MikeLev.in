@@ -43,7 +43,7 @@ That will make it the 3rd position back. So make_helpers.py becomes the
 2nd-to-last position.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/">Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/">Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

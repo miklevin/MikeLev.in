@@ -24,4 +24,4 @@
 <li><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a> (Tue Mar 28, 2023)
 <br/>I successfully got Copilot working in NeoVim by updating the drinkme script, installing vim-plug and the Copilot plug-in from Github, and testing the authentication process. Although I'm done for the night, there are still tests and polish that need to be done. Read about my journey to get Copilot working in NeoVim on my blog.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/macro/">Macro</a></div> &nbsp; <div class="post-nav-next"><a href="/80-20-rule/">80/20-Rule</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80-20-rule/">80/20-Rule</a></div> &nbsp; <div class="post-nav-next"><a href="/macro/">Macro</a><span class="arrow">&nbsp;&rarr;</span></div></div>

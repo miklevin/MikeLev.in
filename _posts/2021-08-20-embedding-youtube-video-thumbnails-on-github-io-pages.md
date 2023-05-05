@@ -60,7 +60,7 @@ Okay, that's where I'll stop. I've got:
 - Embedded YouTube thumbnails for the respective videos
 - A ToDo list of what I want to do with that channel/journal.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -53,7 +53,7 @@ became known as a pioneer in the field. He continued to help businesses succeed
 online and his legacy as the "King of BFF SEO" lived on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/">A Magic Spell Called Levinux That Introduces People to Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/">A Magic Spell Called Levinux That Introduces People to Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

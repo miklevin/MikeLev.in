@@ -4,7 +4,7 @@ title: An Ode Tuple Keys
 headline: Exploring the Power of Tuples in Python and Web Crawling
 description: I'm downloading an update for Windows 10 Version 22H2 and transitioning to Linux, using the power of NT's 'rings of protection'. I'm running Web browser automation under Microsoft Playwright and using iPython Notebooks under JupyterLab running on Linux. I'm also exploring the usefulness of tuples in Python, and looping through a database of URLs to extract data and create a table which I'm writing to a parquet file.
 keywords: Windows 10, Version 22H2, Linux, NT, Rings of Protection, Web Browser Automation, Microsoft Playwright, iPython Notebooks, JupyterLab, Python, Tuples, URLs, Database, HTTP Response Code, HTML Parsing, Title, Description, Headlines, Body Copy, Parquet File
-categories: windows 10, headlines, linux, python, microsoft playwright, database, jupyterlab
+categories: microsoft playwright, jupyterlab, database, windows 10, linux, headlines, python
 permalink: /blog/an-ode-tuple-keys/
 layout: post
 ---
@@ -253,13 +253,13 @@ print("Done")
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

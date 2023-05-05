@@ -4,7 +4,7 @@ title: An Ode to The Status Quo
 headline: I Celebrate The Status Quo and All Its Possibilities
 description: I explore the idea of accepting the status quo and not striving for discovery in this ode. I emphasize the importance of practice and the power of repetition. I also caution against the pitfalls of making too much effort and the fallacy of pop culture.
 keywords: Poetry, Poem, Ode, Status Quo, Discovered, Lamented, Preach, Python, Indented, Notions, Deface, Clutterduck, Curly Brace, Duty, Clues, Content, Ignored, Competitor, Imbues, Lather, Rinse, Repeat, Writing, Gall, Roll, Snowballing, Wave, Surf, Faux Pas, Effort, Fizzle, Popcultfallacy, Steak, Sizzle
-categories: python, competitor
+categories: competitor, python
 permalink: /blog/an-ode-to-the-status-quo/
 layout: post
 ---
@@ -62,9 +62,9 @@ layout: post
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/competitor/'>Competitors</a></h4></li></ul>
+<li><h4><a href='/competitor/'>Competitors</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Seeking AI-help Getting Up To Speed on Math
 headline: Exploring Online Resources and Self-Teaching Tools to Improve Math Skills
 description: As someone who has always struggled with math, I understand that it is a skill that can be improved with practice and dedication. I recently found many online resources and self-teaching tools to help me learn at my own pace, such as the Mathematics Refresher Course on Udemy, a 16-hour Math Refresher course from Alamo Colleges, and 9 free online courses from edX. I'm also exploring the Maxwell Heaviside Schrödinger approach to physics.
 keywords: Math, Algebra, Calculus, Udemy, Alamo Colleges, edX, Refresher Course, Maxwell Heaviside Schrödinger, Schwarzschild Radius, Black Hole, Event Horizon, Quantum Theory, Planck, Quanta, Frequency, Staircase, Ramp, Relativity, Time Dilation, Gravitational Redshift, Aluminum Clocks, Q Factor, Optical Energy
-categories: math, quanta
+categories: quanta, math
 permalink: /blog/seeking-ai-help-getting-up-to-speed-on-math/
 layout: post
 ---
@@ -160,7 +160,7 @@ Source: Conversation with Bing, 3/6/2023
     (6) Telescopes Get Extraordinary View of Milky Way's Black Hole. https://www.jpl.nasa.gov/edu/news/2022/5/12/telescopes-get-extraordinary-view-of-milky-ways-black-hole/ Accessed 3/6/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/">What is the best thing I can do for Moz as a subject matter expert?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/">What is the best thing I can do for Moz as a subject matter expert?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

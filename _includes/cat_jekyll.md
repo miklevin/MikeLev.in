@@ -86,4 +86,4 @@
 <li><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a> (Thu Aug 5, 2021)
 <br/>MikeLevinSEO shares his strategy for publishing a book, including his plan to use Jekyll and switch his domains from GoDaddy to NameCheap. He explains how he prioritizes his work using three metaphors, and shares his plan to use mikelevinseo.com as his domain name. Follow MikeLevinSEO's journey as he embarks on his book publishing adventure!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl/">WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/youtube/">YouTube</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/youtube/">YouTube</a></div> &nbsp; <div class="post-nav-next"><a href="/wsl/">WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>

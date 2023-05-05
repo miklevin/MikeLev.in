@@ -198,7 +198,7 @@ again. I used it on a previous project, and it's a million$ bit of magic.
     python -m playwright codegen --target python-async --load-storage keep.db --viewport-size 1400,1200
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/data-jockeying-101/">Data Jockeying 101</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/per-week-tuples-as-a-google-photos-project/">Per Week Tuples as a Google Photos Project?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/per-week-tuples-as-a-google-photos-project/">Per Week Tuples as a Google Photos Project?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/data-jockeying-101/">Data Jockeying 101</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

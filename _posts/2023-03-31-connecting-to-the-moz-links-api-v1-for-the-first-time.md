@@ -224,7 +224,7 @@ That's about it for this video. It was a great successful moment. Anything
 further I do warrants a separate video.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/curiouser-and-curiouser-personal-journaling-w-ai/">Curiouser and Curiouser Personal Journaling w/AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/journaling-in-public-with-copilot-for-the-sake-of-it/">Journaling In Public With Copilot For The Sake of It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/journaling-in-public-with-copilot-for-the-sake-of-it/">Journaling In Public With Copilot For The Sake of It</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/curiouser-and-curiouser-personal-journaling-w-ai/">Curiouser and Curiouser Personal Journaling w/AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

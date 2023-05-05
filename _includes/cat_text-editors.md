@@ -10,4 +10,4 @@
 <li><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di/">If I Were Green I Would Die. Abba Di Abba Di.</a> (Sun May 29, 2022)
 <br/>I am a YouTuber determined to succeed without compromising my standards. I discuss the difficulty of editing videos on YouTube, how APIs can be misleading, and the power of programming languages like Python and vi. I also explore the duality of red and green energy, the strength of diversity, and the power of creativity and natural hunting skills. Finally, I share my experience of shooting my best livecast ever and how it reminded me of the resilience I have developed over the years.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/emacs/">Emacs</a></div> &nbsp; <div class="post-nav-next"><a href="/open-source/">Open-Source</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/open-source/">Open-Source</a></div> &nbsp; <div class="post-nav-next"><a href="/emacs/">Emacs</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -71,7 +71,7 @@ It is important to note that the perceived importance of the books of the Hebrew
 Again, it is important to note that this is just one possible ordering of the books of the Hebrew Bible, and the perceived importance of each book can vary depending on the individual and the community.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-tale-of-3-daemons-laplace-s-maxwell-s-and-linux-s/">A Tale of 3 Daemons: Laplace's, Maxwell's and Linux's</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-most-ufo-sightings-from-the-pico-ballooning-hobby/">Are Most UFO Sightings From the Pico Ballooning Hobby?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-most-ufo-sightings-from-the-pico-ballooning-hobby/">Are Most UFO Sightings From the Pico Ballooning Hobby?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-tale-of-3-daemons-laplace-s-maxwell-s-and-linux-s/">A Tale of 3 Daemons: Laplace's, Maxwell's and Linux's</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

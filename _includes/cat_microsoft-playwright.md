@@ -18,4 +18,4 @@
 <li><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a> (Thu Dec 29, 2022)
 <br/>I'm organizing data from a browser automation job using Microsoft Playwright and Python. To practice "Best Foot Forward" SEO, I'm using Google Sheets to create sparklines with linear regression lines. I'm also using pivot tables and group by functions to summarize and analyze the data in Excel and Google Sheets. I'll deliver the data transforms by tonight, and the choice between the two depends on my needs and the complexity of the data.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/template/">Template</a></div> &nbsp; <div class="post-nav-next"><a href="/moz-pro/">MOZ Pro</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/moz-pro/">MOZ Pro</a></div> &nbsp; <div class="post-nav-next"><a href="/template/">Template</a><span class="arrow">&nbsp;&rarr;</span></div></div>

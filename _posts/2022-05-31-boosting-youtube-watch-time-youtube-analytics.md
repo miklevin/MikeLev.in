@@ -4,7 +4,7 @@ title: Boosting YouTube Watch Time / YouTube Analytics
 headline: Exploring How to Make Extra Money and Improve YouTube Analytics on the Last Day of May
 description: As the last day of May approaches, I'm trying to figure out how to make extra money and boost my YouTube watch time and analytics. To do this, I need to understand my subject-matter, audience, and how to convey the love-worthiness of things. I'm also exploring the criss-crossing elements of success and how to teach a narcissist. Join me on my journey to figure out the answers.
 keywords: YouTube, Watch Time, Analytics, Supplementary Income, Subject-Matter, Audience, Love-Worthiness, Success, Narcissist
-categories: audience, success, youtube
+categories: success, audience, youtube
 permalink: /blog/boosting-youtube-watch-time-youtube-analytics/
 layout: post
 ---
@@ -58,10 +58,10 @@ helping yourself in your day-job?
   - The budding narcissist at the Catskills colony
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond/">Movie Night: From Mean Girls to Heathers and Beyond!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-more-month-of-respite-from-city-life/">One More Month of Respite From City Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/one-more-month-of-respite-from-city-life/">One More Month of Respite From City Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond/">Movie Night: From Mean Girls to Heathers and Beyond!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Offer the World Refreshing Alternatives to Tech That Fight Existential Cr
 headline: "Exploring 45 Years of Digital Technology: My Journey Toward Making a Meaningful Contribution to the World"
 description: For 45 years, I have been playing with digital technology, from the Atari 2600 to developing a highly technical approach to SEO and other tasks using Linux VMs. I am excited for the future of digital technology, and I believe I am getting closer to having something meaningful to contribute to the world. Join me as I explore my journey through digital technology and the possibilities of the future.
 keywords: Digital Technology, Atari 2600, Linux VMs, SEO, Artificial Intelligence, Machine Learning, Future of Technology, Sentient Machines, Mobile Machines, Contributing to the World
-categories: machine learning, artificial intelligence, seo
+categories: artificial intelligence, seo, machine learning
 permalink: /blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/
 layout: post
 ---
@@ -44,10 +44,10 @@ concerned. And if lives are extended because of science & tech, then even
 longer.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>

@@ -84,7 +84,7 @@ Have chapter titles, essay names or whatever ready.
 - Hitting a Technical Wall
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

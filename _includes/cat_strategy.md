@@ -16,4 +16,4 @@
 <li><a href="/blog/windows-home-folder-vs-linux-home-folder-under-wsl/">Windows Home Folder vs. Linux Home Folder Under WSL</a> (Wed Apr 13, 2022)
 <br/>As an experienced user of tech-tools, I have established conventions for storing files in my local system and online. I use the "home" folder of the operating system as my starting point, and I'm also utilizing the Windows Subsystem for Linux (WSL) to access the Linux home folder. I'm currently considering what audience my writing should appeal to, and have identified two primary groups. Read my blog post to learn more about my strategies for organizing and using tech-tools.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/tutorial/">Tutorial</a></div> &nbsp; <div class="post-nav-next"><a href="/evolution/">Evolution</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/evolution/">Evolution</a></div> &nbsp; <div class="post-nav-next"><a href="/tutorial/">Tutorial</a><span class="arrow">&nbsp;&rarr;</span></div></div>

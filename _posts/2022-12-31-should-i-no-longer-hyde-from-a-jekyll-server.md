@@ -57,7 +57,7 @@ will then build and deploy your site automatically.
 Okay, keep that in mind. I have a New Years party I'm going to shortly.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

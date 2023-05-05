@@ -164,4 +164,4 @@
 <li><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/">Do Not Lose The Power of Touch Typing Despite AI APIs</a> (Fri Jul 22, 2022)
 <br/>As a tech enthusiast, I believe that touch typing on a standard keyboard is still an important skill to learn and practice, even in the age of smartphones and AI. Touchscreens can't provide the same muscle memory as a standard keyboard, and touch typing is a great way to express your inner vibe. Don't let the power of touch typing be lost - learning this highly useful skill is key to mastering machines and taking control of your life.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/vim/">Vim</a></div> &nbsp; <div class="post-nav-next"><a href="/git/">Git</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/git/">Git</a></div> &nbsp; <div class="post-nav-next"><a href="/vim/">Vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>

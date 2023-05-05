@@ -4,7 +4,7 @@ title: I'll Just Put This In My /usr/local/sbin/
 headline: Discovering a System to Back Up System Customizations and Edit Files Listed in a CSV File at Once
 description: I recently changed my journal from .txt to .md to be compatible with my new content management system. I'm excited to have discovered this system which allows me to back up my system customizations with a vim repo, and to edit all files listed in a csv file at once. I'm now sharing this with the world - join me to learn how to work this way and make the most of your system!
 keywords: usr/local/sbin/, journal, .txt, .md, content management system, vim repo, csv file, Linux Terminal, git repo, sites.csv, vim buffer, script, system customizations, Microsoft, annual dues, organized, world, sharing
-categories: script, linux terminal, microsoft
+categories: linux terminal, script, microsoft
 permalink: /blog/i-ll-just-put-this-in-my-usr-local-sbin/
 layout: post
 ---
@@ -158,10 +158,10 @@ this vim session, all my system customizations are backed up to vim.
 I wish I worked this way since I discovered stuff like this at 18 years old on
 the Amiga. Well, I know now. Share it with the world. Okay, done.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

@@ -57,7 +57,7 @@ correctly:
 And so on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/linux-container-under-windows-10-wsl-supporting-graphics/">Linux Container Under Windows 10 WSL Supporting Graphics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/linux-container-under-windows-10-wsl-supporting-graphics/">Linux Container Under Windows 10 WSL Supporting Graphics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

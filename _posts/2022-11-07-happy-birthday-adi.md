@@ -4,7 +4,7 @@ title: Happy Birthday Adi!
 headline: "Celebrating 5 Years of Employment: Resolving an Unexpected Table-Join Issue and Keeping My Search Volumes Intact."
 description: Today is my birthday and I'm feeling motivated to keep pushing forward with my progress. Celebrating five years of employment, I'm ready to take on the next task - resolving an unexpected issue with my table-joins. Join me as I explore how to ensure my search volumes don't get lost in the process.
 keywords: Birthday, Adi, Progress, Employment, Task, Resolution, Issue, Table-joins, Search, Volumes, Granular, Maintain, Accomplishment, Focus, Unexpected
-categories: focus, progress, search
+categories: focus, search, progress
 permalink: /blog/happy-birthday-adi/
 layout: post
 ---
@@ -20,10 +20,10 @@ volumes I pulled on a more granular level than higher in the hierarchy are
 getting lost.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-change-is-projecting-epigenetic-templates/">Visualizing Change is Projecting Epigenetic Templates</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-things-easy/">Are Things Easy?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-things-easy/">Are Things Easy?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/visualizing-change-is-projecting-epigenetic-templates/">Visualizing Change is Projecting Epigenetic Templates</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/focus/'>Focus</a></h4></li>
-<li><h4><a href='/progress/'>Progress</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li></ul>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/progress/'>Progress</a></h4></li></ul>

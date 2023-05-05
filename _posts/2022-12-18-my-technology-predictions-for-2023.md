@@ -4,7 +4,7 @@ title: My Technology Predictions For 2023
 headline: "2023: Fusion Self-Sustaining, Maglev Antigravity, and More!"
 description: As we enter 2023, I predict a shift from 'does it blend' videos to 'is it sentient' videos. Fusion will become self-sustaining, but set back 30 years. Python will adopt a Frenchman as its mascot, Elon Musk will release a Starlink phone without a telecom provider, and Microsoft will make VSCode a requirement for WSL2. Finally, I'll reveal that we have maglev antigravity technology, but it's not what you expect.
 keywords: 2023, Fusion, Self-Sustaining, Python, Frenchman, Mascot, Elon Musk, Starlink, Telecom Provider, Microsoft, VSCode, WSL2, Maglev, Antigravity
-categories: python, vscode, wsl2, microsoft
+categories: wsl2, vscode, python, microsoft
 permalink: /blog/my-technology-predictions-for-2023/
 layout: post
 ---
@@ -22,11 +22,11 @@ layout: post
 1. Twitter adds features that make it the new Github.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vscode/'>VSCode</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
+<li><h4><a href='/vscode/'>VSCode</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

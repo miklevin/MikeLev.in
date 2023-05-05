@@ -4,7 +4,7 @@ title: Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard 
 headline: The Easily Typed Ctrl+S and Ctrl+Space Keyboard Shortcuts Surprisingly Available to Give vim/NeoVim Productivity Boost!
 description: "Discover how I maximize my productivity with my new journaling approach, allowing myself to edit multiple files with ease without getting lost in a sea of tabs. Utilize the astoundingly available `Ctrl+S` and `Ctrl+Space` keyboard shortcuts to quickly cycle through buffers and access important resources instantly. Get lost in a sea of open screens and windows no more!"
 keywords: Vim/NeoVim, Terminal, Keyboard Shortcuts, Ctrl+S, Ctrl+Space, Journaling, Buffers, Website, Productivity, Metaphors, Resources, Fixed Position, Random-Access
-categories: productivity, terminal, journaling
+categories: journaling, productivity, terminal
 permalink: /blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/
 layout: post
 ---
@@ -63,10 +63,10 @@ valuable asset. Get to what you need instantly.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/">openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/productivity/'>Productivity</a></h4></li>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li></ul>

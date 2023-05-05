@@ -4,7 +4,7 @@ title: Planning Python Packaging for SEO Deliverable
 headline: Creating a Python Packaging Project for SEO Deliverables
 description: I am starting a new project that requires the use of a traditional Python project structure, as well as AI-assistance and testing to ensure it works properly. I am conducting a study to determine the most important traffic and keywords for my business, and I am creating a deliverable-making deliverable with Python code to output Excel files, PDFs, and decks. All that tedious housekeeping work I'm delegating to AI.
 keywords: Python, Packaging, SEO, Deliverable, AI-Assistance, Testing, Excel, PDF, Decks, PyPI, nbdev2, Jupyter Notebooks, setup.ini, index.ipynb, 001.practice.ipynb, 002_staging.ipynb, practice.py, testing.py, staging.py, production.py, mermaid diagrams, flow, data
-categories: python, jupyter notebooks, excel, flow, seo, pypi
+categories: seo, excel, jupyter notebooks, pypi, flow, python
 permalink: /blog/planning-python-packaging-for-seo-deliverable/
 layout: post
 ---
@@ -201,13 +201,13 @@ production files manually.
 This is good. Let's bank this post and move on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements/">Allow GitHub To Use My Code Snippets For Product Improvements</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements/">Allow GitHub To Use My Code Snippets For Product Improvements</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
-<li><h4><a href='/excel/'>Excel</a></h4></li>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/excel/'>Excel</a></h4></li>
+<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

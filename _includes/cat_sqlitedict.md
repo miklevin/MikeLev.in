@@ -16,4 +16,4 @@
 <li><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a> (Wed May 25, 2022)
 <br/>In this session, I will teach you how to use Python for SEO, including how to target keywords, collect data, and use machine learning algorithms. We will use JupyterLab, Python dictionaries, and a context manager to eliminate extra code. I will also discuss SqliteDict, a free and open source SQL database, as a key/value system. Learn how to use URLs as keys in key/value pair systems.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/audience/">Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/email/">Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/email/">Email</a></div> &nbsp; <div class="post-nav-next"><a href="/audience/">Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
