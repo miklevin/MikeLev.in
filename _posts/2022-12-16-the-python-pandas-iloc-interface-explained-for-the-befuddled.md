@@ -4,7 +4,7 @@ title: The Python Pandas .iloc Interface Explained For The Befuddled
 headline: Master the .iloc Interface of Pandas for Data Manipulation
 description: I'm sharing my knowledge of how to use Pandas, a data manipulation tool, to select columns from a DataFrame by using its name or the .loc or .iloc interfaces. I'll explain how to use slices to specify row and column ranges, how to use a colon to select all rows, and why the Pandas API has chosen to drop the use of square-brackets for slices.
 keywords: Python, Pandas, .iloc, DataFrame, Slicing, Strings, API, Square-Brackets, Colon, Positional Argument, Rows, Columns
-categories: api, python, pandas
+categories: python, pandas, api
 permalink: /blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/
 layout: post
 ---
@@ -225,5 +225,5 @@ more.
 ## Categories
 
 <ul>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>

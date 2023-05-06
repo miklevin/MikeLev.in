@@ -125,12 +125,18 @@ me down big-time with what I've come to understand as a series of classic
 Machiavellian strategies such as discrediting you behind your back with lies,
 and trying to rig the game against you. I'd do things like schedule a vacation
 I didn't take just to demonstrate the timing of the things that were going to
-go wrong in my absence. Livingston routers don't have to be rebooted every
-night, and the fact that they were was a sign of a deeper problem.
+go wrong in my absence. Livingston routers don't have to be manually restarted
+after random outages. I wrote a script for him in Cisco's proprietary language
+to prove it, but alas, solutions didn't matter. The problems like that were the
+point. They were gatekeeper dependency-inducing.
 
-Wow, did he get a rude awakening. A series of crystal clear "if this than that"
-demonstrations where I 100% predicted the outcome happened. Dude got a stern
-talking to, but inexplicably remained in his position.
+Well, I finally woke up as to what was going on, and wow, did he get a rude
+awakening. A series of crystal clear "if this than that" that I conducted where
+I 100% predicted the outcome happened. Every one of them. It was uncanny, like
+a magic show. It was so undeniable that Claw, who was supposed to be very
+senior in the company, got a stern talking to, but inexplicably remained in his
+position. My life would be very different today if that company wasn't held in
+the thrall of the Claw.
 
 But alas, when someone holds an entire organization in such a grip of fear as
 he did, even the exact medicine an organization needs can come off as poison,

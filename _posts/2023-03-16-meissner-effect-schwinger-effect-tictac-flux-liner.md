@@ -4,7 +4,7 @@ title: Meissner Effect + Schwinger Effect = TicTac Flux Liner
 headline: Unlocking the Mysteries of Quantum Physics with the Meissner and Schwinger Effects
 description: As an SEO working at MOZ, I recently pushed the limits of imagination and tested the boundaries of antigravity. I discussed this with ChatGPT, which led me to learn about the Pocono Conference in 1948 and the Shelter Island Conference in 1947. Through research and experimentation, I am now exploring the possibility of using the Meissner effect and the Schwinger effect for propulsion. I also develop a plan to market the TicTac Flux Liner, a revolutionary antigravity product.
 keywords: Meissner Effect, Schwinger Effect, TicTac Flux Liner, SEO, MOZ, ChatGPT, Pocono Conference, Shelter Island Conference, Quantum Electrodynamics, QED, Duncan MacInnes, Karl K. Darrow, John A. Wheeler, Richard Feynman, Theory of Quantum Electrodynamics, Solvay Congress, Research Institute for Advanced Study, RIAS, Gravitational Waves, Black Holes, Early Universe, Propulsion
-categories: seo, chatgpt, moz
+categories: moz, seo, chatgpt
 permalink: /blog/meissner-effect-schwinger-effect-tictac-flux-liner/
 layout: post
 ---
@@ -1051,6 +1051,6 @@ There are certainly alternative theories to quantum mechanics, but none of them 
 ## Categories
 
 <ul>
+<li><h4><a href='/moz/'>MOZ</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
-<li><h4><a href='/moz/'>MOZ</a></h4></li></ul>
+<li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li></ul>
