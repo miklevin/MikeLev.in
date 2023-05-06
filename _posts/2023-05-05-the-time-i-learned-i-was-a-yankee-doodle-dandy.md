@@ -244,32 +244,40 @@ gatekeepers results in attempted quick invalidation of whatever you say. It
 doesn't matter what it is. They have very polished language-skills, rife with
 practiced fallacies and logical errors. They're very good at it. 
 
-The rapid shoot-down and invalidation of anything you say is the most classic
-and predictable. When faced with it, a Secret Alpha has to decide quick whether
-to let them see you using vim. Sometimes detente can be struck. Just convince
-them you don't want that damn garden behind the gate. You're just chasing some
-rabbit and you'll be leaving them alone.
+When faced with the rapid invalidating shoot-down of a gatekeeper, a Secret
+Alpha has to decide quick whether to let them see you using vim. There's just
+something about slamming text around like an adept on an old-school hacker
+screen that gets the message across.
+
+Sometimes detente can be struck. Just convince them you don't want that damn
+garden behind the gate. You're just chasing some rabbit and you'll be leaving
+them alone.
 
 A still-panicky skilled gatekeeper will try to plant the seeds of your demise
 in the form of saddling you with some impossible seeming Herculean task that's
 supposed to be right up your alley, right? It's a trap. From their
 semi-authoritative position, they know the difficulty of that task and is even
 perhaps something they themselves couldn't do, and it's been playing the role
-of the mythical unicorn. Your success or failure unicorn-hunting will be the by
-measure by which you are judged. It has been arranged. If you desire your "one
-more thing" Columbo moment, they just handed it to you, LOL. 
+of the mythical unicorn.
 
-But be careful. Turn the trap around on them and give them a graceful way out
-if you can. No matter how right you are, you're still the outsider. Poisoned
-waters are poisoned waters, as I learned too well at Scala.
+Your success or failure in the unicorn-hunting mission they manage to tag you
+with will be the by measure by which you are judged. It has been arranged so.
+They've done this before and know the technique to work. If you're not the
+poser they think you are, then you've just been handed a golden opportunity to
+lay down a "one more thing" Columbo-like moment of fair play turnaround. 
+
+But don't. I learned from Scala that if too venomous a gatekeeper, just walk
+away. No matter how right you are, you're still the outsider. Poisoned waters
+are poisoned waters. If the gatekeeper seems redeemable, then you show them the
+graceful way to coexist with you.
 
 I find it worlds better to gently befriend such gatekeepers. They're not
-*really* Columbo's murderer suspects. They're just nervous fellow human beings
-trying to maintain their image and hold onto their jobs. As long as the rewards
-are large enough to go around to everyone, it's better to let their efforts to
-tank you mysteriously fizzle by you just being you and doing what you do
-without feeling the need for the big reveal and dramatic conclusion to the
-episode. 
+*really* the murderer suspects of a Columbo story. They're just nervous fellow
+human beings trying to maintain their image and hold onto their jobs. As long
+as the rewards are large enough to go around to everyone, it's better to let
+their efforts to tank you mysteriously fizzle by you just being you and doing
+what you do without feeling the need for the big reveal and dramatic conclusion
+to the episode. 
 
 Gently help them realize that the hound they're trying to throw off the scent
 and confuse is a very different and potentially dangerous breed of mutt than

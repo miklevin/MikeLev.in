@@ -4,7 +4,7 @@ title: "Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!"
 headline: "Exploring the Latest Tech Tools with Moz: An Opportunity of a Lifetime!"
 description: I'm excited to be working in tech again after the early 90s, and I'm thrilled to have the opportunity to work for Moz. I'm helping people with their existential crisis in this tech-filled world by using Jupyter Notebooks to copy/paste code from AIs and debug. I'm also showing people how to run a Linux VM cheaply, cleanly, and locally. Join me on this journey of tech exploration and discover how to use the latest tools and techniques.
 keywords: Visualizing, Plan, LPvg, FOSS, SEO, Easy, Tech, Jupyter, Notebooks, AI, Debugging, Linux, VM, Working, Moz, Opportunity, Early 90s, Existential Crisis, Copy/Paste, Code, Latest, Tools, Techniques.
-categories: jupyter, lpvg, notebooks, linux, ai, copy/paste, moz, seo
+categories: seo, notebooks, linux, moz, lpvg, jupyter, ai, copy/paste
 permalink: /blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/
 layout: post
 ---
@@ -76,10 +76,10 @@ Pipulate that I can use for all the other responsibilities I'll have.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
 <li><h4><a href='/moz/'>MOZ</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li></ul>
