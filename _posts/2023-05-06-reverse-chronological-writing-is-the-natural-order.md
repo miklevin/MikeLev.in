@@ -2,7 +2,7 @@
 date: 2023-05-06
 title: Reverse Chronological Writing is the Natural Order
 headline: "I Discovered the Natural Order of Writing: Reverse Chronological"
-description: As the author, I explore how reverse chronological writing is the natural order for blogging. I discuss the history of writing, how technology has changed the way we write, and the instinctive feeling of starting with a blank page that comes with reverse chronological order. This is the format that satisfies our human need to start at the top of a blank page every time.
+description: I explore how reverse chronological writing is the natural order for blogging. I discuss the history of writing, how technology has changed the way we write, and the instinctive feeling of starting with a blank page that comes with reverse chronological order. This is the format that satisfies our human need to start at the top of a blank page every time.
 keywords: reverse chronological, writing, journal entries, formative experience, personality type, arrow direction, blogging software, subtlety, nuance, life, magic spell, traditional blogging, logs, ledgers, scrolls, text editors, word processors, cursor, electronic media, top-to-bottom, left-to-right, right-to-left, software tricks, blank page, fresh page, night/day, sleep/wake cycle, micro-inversions, blog post, blog, readers
 categories: text editors
 permalink: /blog/reverse-chronological-writing-is-the-natural-order/
@@ -99,14 +99,15 @@ another which is the reverse chronological order of the posts themselves. The
 rapid-fire assuming you're writing frequently enough to call it a journal.
 
 Thus, electronic media has allowed us to follow a more natural and analogous to
-life blogging format that the physical media of scrolls and books *easily*
-allowed. Yes, yes, scrolls are not made from a single sheet of paper so you can
-always bind new pages to the top, and I'm sure this was done. But it's not
-easy. Just ask a Sofer, one of the modern scribes who fixes Torahs. But to have
-such a skilled technical craft required as route part of day-in-day-out work
-would be a huge burden and not a big encouragement to write. The bound nature
-of books (called binding) poses a similar challenge to adding pages in the
-beginning.
+life blogging format that the physical media of scrolls and books did not
+*easily* allow. Yes, yes, it's possible with physical media to do reverse
+chronology. It's just not easy, Scrolls for example are not made from a single
+sheet of paper so you can always bind new pages to the top, and I'm sure this
+was done, but it's not easy. Just ask a Sofer, one of the modern scribes who
+fixes Torahs. But to have such a skilled technical craft required as route part
+of day-in-day-out work would be a huge burden and not a big encouragement to
+write. The bound nature of books (called binding) poses a similar challenge to
+adding pages in the beginning.
 
 When I sat down to make an 1-text-file blog, I had to make a decision as to
 which way to go. I used the natural order of writing, and started at the top of

@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/reverse-chronological-writing-is-the-natural-order/">Reverse Chronological Writing is the Natural Order</a> (Sat May 06, 2023)
-<br/>As the author, I explore how reverse chronological writing is the natural order for blogging. I discuss the history of writing, how technology has changed the way we write, and the instinctive feeling of starting with a blank page that comes with reverse chronological order. This is the format that satisfies our human need to start at the top of a blank page every time.</li>
+<br/>I explore how reverse chronological writing is the natural order for blogging. I discuss the history of writing, how technology has changed the way we write, and the instinctive feeling of starting with a blank page that comes with reverse chronological order. This is the format that satisfies our human need to start at the top of a blank page every time.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
 <br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/calcium-foss-make-flexible-tools/">Calcium & FOSS Make Flexible Tools</a> (Wed Apr 26, 2023)
