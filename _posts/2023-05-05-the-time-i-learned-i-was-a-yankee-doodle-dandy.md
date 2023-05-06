@@ -146,24 +146,36 @@ gatekeeper&#151;quite literally using a router as the weapon. The symbolism was
 comically thick.
 
 Well, I finally woke up as to what was going on, and wow, did he get a rude
-awakening. A series of crystal clear "if this than that" that I conducted where
-I 100% predicted the outcome happened. Every one of them. It was uncanny, like
-a magic show. It was so undeniable that Claw, who was supposed to be very
-senior in the company, got a stern talking to, but inexplicably remained in his
-position. My life would be very different today if that company wasn't held in
-the thrall of the Claw.
+awakening. A series of tests and demonstrations like the one I described 100%
+predicted subterfuge. Every one of them. It was uncanny, like a magic
+show. Specifically, I made a sales lead generation and routing system that
+"kept tension in the machine" and everyone accountable in an unaccustomed way.
+It was based on a simple system and simple premise, and there were only so many
+ways to attack it: make it stop working.
+
+The cat came back the very next day. It was funny watching him try to figure
+out the next way to make it stop working and encountering my countermeasures.
+Such a situation would have gotten either him or me fired at any sane company,
+but this was my livelihood and fortune and I was defending. I think that was
+lost on Claw. Anyway, his anti-company practices were so egregious and
+self-evident by that time that he at least got a stern talking to. But he still
+inexplicably remained in his position. 
+
+My life would be very different today if that company wasn't held in the thrall
+of the Claw. I would probably have never moved to New York City. I'm sure I'd
+be running a sprawling "digital signage" empire today.
 
 But alas, when someone holds an entire organization in such a grip of fear as
 he did, even the exact medicine an organization needs can come off as poison,
 and ultimately and ironically, I looked like the bad guy. Becoming your enemy
 to contend with your enemy is a stinky poo poo thing. I'm only still
-recovering.
+recovering over 25 years later. Ick!
 
 Even acknowledgement that I was the one that architected the financial
-turnaround wasn't enough. There was no amount of money I could make staying
-there to make it worth it. Even the righteous and the vindicated can die from
-poisoned waters. And it wasn't long after that when I took an opportunity that
-came up in New York City.
+turnaround wasn't enough to keep me there. There was no amount of money I could
+make staying there to make it worth it. Even the righteous and the vindicated
+can die from poisoned waters. And it wasn't long after that when I took an
+opportunity that came up in New York City.
 
 That dude, Claw, was the first and last of a truly pure archetype I've ever
 encountered, the classic gatekeeper type mentioned above. While he wasn't as
@@ -174,7 +186,7 @@ the vi text editor, and the SciFi write Vernor Vinge by recommending the book
 than ever). He was a very smart guy, but he was also a very insecure guy. I
 learned so much from him about gatekeepers.
 
-In the years since, I've learned that very similar behavior has his emanates
+In the years since, I've learned that very similar behavior as his emanates
 from anther personality type who can't walk the walk at all. Claw could walk
 the walk, maybe 50% of the time. Gatekeepers keep gates for a reason. They can.
 The other type? Call them the posers. They cheat and look for loopholes, and
@@ -187,8 +199,8 @@ always think Secret Alphas of the world are the posers. They themselves are
 posers and think they recognize their own kind.
 
 You know who else is a Secret Alpha? Detective Lieutenant Columbo, the old
-Peter Falk TV Columbo character... just one more thing. Whereas the Maxwell
-Smart character succeeds despite himself (an accidental Secret Alpha), Columbo
+Peter Falk TV character... just one more thing. Whereas the Maxwell Smart
+character succeeds despite himself (an accidental Secret Alpha), Columbo
 succeeds because of himself (a deliberate Secret Alpha). It is a cultivated
 personality he uses to get people to underestimate him.
 

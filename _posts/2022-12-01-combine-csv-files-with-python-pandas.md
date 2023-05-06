@@ -4,7 +4,7 @@ title: Combine CSV Files with Python Pandas
 headline: Process CSVs Easily with Python Pandas and DrinkMe Linux!
 description: Create a new repo in DrinkMe Linux called 'combinecsvfiles' for processing CSVs. Extract information from filenames and add it to rows of the CSV using Python Pandas. Easily stack CSV dataframes in a Python list using 'pd.concat(lot)'. Discover how easy it is to combine CSVs into a single file - just use the code 'df = pd.concat(lot)'!
 keywords: Python, Pandas, DrinkMe, Linux, CSV, files, combine, extract, information, filenames, rows, stack, dataframes, list, df, concat, easy, peasy
-categories: python, linux, drinkme, pandas, csv
+categories: python, linux, pandas, drinkme, csv
 permalink: /blog/combine-csv-files-with-python-pandas/
 layout: post
 ---
