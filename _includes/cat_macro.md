@@ -24,4 +24,4 @@
 <li><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a> (Fri Apr 29, 2022)
 <br/>I recently changed the name of my project to ELTgd (Every Little Thing Gets Done) to push myself to do more and practice my vim skills. I'm also using whatsametafor.io to document my progress. Click through to read more about my journey and how I'm getting things done!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copilot/">Copilot</a></div> &nbsp; <div class="post-nav-next"><a href="/search/">Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/sqlite/">SQLite</a></div> &nbsp; <div class="post-nav-next"><a href="/search/">Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>

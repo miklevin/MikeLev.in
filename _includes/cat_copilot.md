@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
+<br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a> (Wed Apr 26, 2023)
 <br/>I recently moved to a new machine and was worried about my complex publishing system staying intact, especially with the GPT-like AI, Copilot. After getting a new keyboard and making sure my habits traveled with me, I was able to successfully set up Copilot and publish a post. Read on to find out how I overcame my worries and completed my tasks.</li>
 <li><a href="/blog/switching-hardware-as-a-diagnostic-step/">Switching Hardware as a Diagnostic Step</a> (Wed Apr 26, 2023)
@@ -24,4 +26,4 @@
 <li><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a> (Tue Mar 28, 2023)
 <br/>I successfully got Copilot working in NeoVim by updating the drinkme script, installing vim-plug and the Copilot plug-in from Github, and testing the authentication process. Although I'm done for the night, there are still tests and polish that need to be done. Read about my journey to get Copilot working in NeoVim on my blog.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80-20-rule/">80/20-Rule</a></div> &nbsp; <div class="post-nav-next"><a href="/macro/">Macro</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/learning/">Learning</a></div> &nbsp; <div class="post-nav-next"><a href="/google-analytics/">Google Analytics</a><span class="arrow">&nbsp;&rarr;</span></div></div>

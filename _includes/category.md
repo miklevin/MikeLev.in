@@ -42,18 +42,18 @@
 <li><a href="/notebook/">Notebook</a></li>
 <li><a href="/nbdev/">nbdev</a></li>
 <li><a href="/google-analytics/">Google Analytics</a></li>
+<li><a href="/copilot/">Copilot</a></li>
 <li><a href="/learning/">Learning</a></li>
 <li><a href="/terminal/">Terminal</a></li>
 <li><a href="/platform/">Platform</a></li>
 <li><a href="/panda/">Pandas</a></li>
 <li><a href="/service/">Service</a></li>
+<li><a href="/80-20-rule/">80/20-rule</a></li>
 <li><a href="/yaml/">YAML</a></li>
 <li><a href="/keywords/">Keywords</a></li>
 <li><a href="/experiment/">Experiment</a></li>
 <li><a href="/search/">Search</a></li>
 <li><a href="/macro/">Macro</a></li>
-<li><a href="/copilot/">Copilot</a></li>
-<li><a href="/80-20-rule/">80/20-Rule</a></li>
 <li><a href="/sqlite/">SQLite</a></li>
 <li><a href="/headline/">Headlines</a></li>
 <li><a href="/browser-automation/">Browser Automation</a></li>
@@ -116,6 +116,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/navigation/">Navigation</a></li>
 <li><a href="/gnu/">GNU</a></li>
 <li><a href="/quantum/">Quantum</a></li>
 <li><a href="/magic/">Magic</a></li>
@@ -137,6 +138,8 @@
 <li><a href="/linux-terminal/">Linux Terminal</a></li>
 <li><a href="/github-io/">Github.io</a></li>
 <li><a href="/blogslicer/">blogslicer</a></li>
+<li><a href="/web/">Web</a></li>
+<li><a href="/mapping/">Mapping</a></li>
 <li><a href="/draft/">Drafts</a></li>
 <li><a href="/theory/">Theory</a></li>
 <li><a href="/processing/">Processing</a></li>
@@ -146,7 +149,4 @@
 <li><a href="/competitor/">Competitors</a></li>
 <li><a href="/emacs/">Emacs</a></li>
 <li><a href="/text-editors/">Text Editors</a></li>
-<li><a href="/open-source/">Open-Source</a></li>
-<li><a href="/copy-paste/">Copy/Paste</a></li>
-<li><a href="/access/">Access</a></li>
 </ol>

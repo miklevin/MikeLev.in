@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
+<br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
 <br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a> (Tue May 02, 2023)
@@ -22,4 +24,4 @@
 <li><a href="/blog/what-s-most-broken/">What's Most Broken?</a> (Mon May 02, 2022)
 <br/>As a daily reminder, I have three rules I live by: identify what's most broken, focus on where I can get the biggest bang for the buck, and keep track of what plates need to be spun. I also try to stay mindful of the 80/20-rule and Rabbit-Hole evaluations, and pay attention to any poetry that comes to mind. Quasi Joe D'Ohhh is a reminder to stay vigilant and not be fooled twice. Read my blog post to find out</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/sqlite/">SQLite</a></div> &nbsp; <div class="post-nav-next"><a href="/copilot/">Copilot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/yaml/">YAML</a></div> &nbsp; <div class="post-nav-next"><a href="/service/">Service</a><span class="arrow">&nbsp;&rarr;</span></div></div>

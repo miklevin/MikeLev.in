@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
+<br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a> (Wed May 03, 2023)
 <br/>As an experienced SEO, I've seen the effectiveness of long-tail SEO decline due to the tragedy of the commons. To break into the industry, we must figure out how to emit signals indicating Experience, Authority and Trustworthiness to convince Google you're Expert (E-E-A-T). Learn from Lewis Carroll's timeless stories and protect your sanity from those who would undo it. Don't covet the generational wealth of the Walrus family - use your own hammer to build your own kingdom.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
