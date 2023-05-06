@@ -4,7 +4,7 @@ title: Advice How to Incubate AI at Home From ChatGPT
 headline: Exploring the Possibilities of AI with Ray Kurzweil and ChatGPT
 description: As a reader of the Culture series, I'm impressed by its intricate world-building, thought-provoking storytelling, and exploration of complex political and ethical dilemmas. I'm also intrigued by the predictions of Ray Kurzweil, a well-known futurist and technology expert, about the future of artificial intelligence. ChatGPT, an AI language model, provides helpful and conversational answers and recommends science fiction books that explore this future.
 keywords: AI, ChatGPT, Ray Kurzweil, Futurist, Technology Expert, Artificial Intelligence, Machine Learning, Text-to-Speech, Optical Character Recognition, Musical Synthesis, Consciousness, Pattern Recognition, Lifelong Learning, Transferable Skills, Creativity, Emotional Intelligence, Empathy, Compassion, Culture Series, World-Building, Storytelling, Political Dilemmas, Ethical Dilemmas, Consciousness, Existence, Technology Limits
-categories: ai, machine learning, chatgpt, consciousness, artificial intelligence, empathy
+categories: chatgpt, consciousness, artificial intelligence, ai, machine learning, empathy
 permalink: /blog/advice-how-to-incubate-ai-at-home-from-chatgpt/
 layout: post
 ---
@@ -142,9 +142,9 @@ The Culture series is widely regarded as some of the best science fiction writte
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
 <li><h4><a href='/chatgpt/'>ChatGPT</a></h4></li>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li>
 <li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>

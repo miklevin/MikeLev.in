@@ -12,4 +12,4 @@
 <li><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a> (Tue Nov 29, 2022)
 <br/>I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/marketing/">Marketing</a></div> &nbsp; <div class="post-nav-next"><a href="/imposter-syndrome/">Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/marketing/">Marketing</a></div> &nbsp; <div class="post-nav-next"><a href="/journal-md/">Journal.md</a><span class="arrow">&nbsp;&rarr;</span></div></div>

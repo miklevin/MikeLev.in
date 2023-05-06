@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/">The Time I Learned I Was a Yankee Doodle Dandy</a> (Fri May 05, 2023)
+<br/>Am I'm Michael Scott? I sometimes think so. But them I remind myself I spent a lot of time making sure I wasn't, and I've got the vim skills to prove it. I've learned that subtlety and nuance make all the difference, and even if you come off like the bumbling fool, that's okay. Creative folks have to run alone sometimes, so that they can offer their greatest value when they return to the pack.</li>
 <li><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life/">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a> (Mon Apr 10, 2023)
 <br/>I never really became an entrepreneur, but I do use their tools such as Linux, Python, vim & git to build my projects and occasionally consider Kickstarting campaign. I no longer suffer from imposter syndrome, as I have learned that I am good enough and can be proud of my work. I now show others that it is possible to follow their dreams and make a difference, without being an assholepreneur. LPvg gives me the tools I need to build and stay ahead of the curve. Join me.</li>
 <li><a href="/blog/how-to-cope-thrive-through-ai-induced-existential-crisis/">How To Cope & Thrive Through AI-Induced Existential Crisis</a> (Sun Mar 19, 2023)
@@ -12,4 +14,4 @@
 <li><a href="/blog/still-figuring-out-next-step-what-i-want-at-52/">Still Figuring Out Next Step & What I Want at 52</a> (Thu Oct 20, 2022)
 <br/>At 52, I'm still trying to figure out my life and how to make a living without taking advantage of others. I'm exploring how human beings can evolve in a post-scarcity world and creating an unending stream of interesting experiences. I'm grateful to be alive and functional in society and am looking for my next step.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/drinkme/">DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/journal-md/">Journal.md</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/science/">Science</a></div> &nbsp; <div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -4,7 +4,7 @@ title: Putting mlseo on subdomain of MikeLevinSEO.com
 headline: Successfully Launching Subdomain for MikeLevinSEO.com with Ease!
 description: I recently set up a subdomain for my website, MikeLevinSEO.com, and was thrilled to see that everything went smoothly. I love it when things are this easy, and I'm always looking for new challenges. Check out my blog post to learn more about my journey and how I set up the subdomain.
 keywords: Subdomain, MikeLevinSEO.com, A-Records, Custom Domain, Github, Website, Challenges, Journey, Setup, Easily, Tasks
-categories: journey, github
+categories: github, journey
 permalink: /blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/
 layout: post
 ---
@@ -37,5 +37,5 @@ And then looking around becomes your new checklist. Rinse and repeat.
 ## Categories
 
 <ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/github/'>Github</a></h4></li></ul>
+<li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

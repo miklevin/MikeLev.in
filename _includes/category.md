@@ -100,6 +100,7 @@
 <li><a href="/message/">Message</a></li>
 <li><a href="/development/">Development</a></li>
 <li><a href="/bash/">Bash</a></li>
+<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 <li><a href="/science/">Science</a></li>
 <li><a href="/dependency/">Dependencies</a></li>
 <li><a href="/nyc/">NYC</a></li>
@@ -124,7 +125,6 @@
 <li><a href="/flow/">Flow</a></li>
 <li><a href="/vimrc/">.vimrc</a></li>
 <li><a href="/journal-md/">Journal.md</a></li>
-<li><a href="/imposter-syndrome/">Imposter Syndrome</a></li>
 <li><a href="/drinkme/">DrinkMe</a></li>
 <li><a href="/marketing/">Marketing</a></li>
 <li><a href="/collaboration/">Collaboration</a></li>

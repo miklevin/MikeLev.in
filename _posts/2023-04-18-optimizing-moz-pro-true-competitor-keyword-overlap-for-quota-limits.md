@@ -4,7 +4,7 @@ title: Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits
 headline: "Ready to Tackle a Mini-Project: Optimizing MOZ Pro True Competitor Keyword Overlap for Quota Limits"
 description: I'm using the MOZ Pro True Competitor report to optimize keyword overlap, and have identified 128 competitors. After filtering them to those with at least 2% overlap, I'm left with 59 unique sites to download. To ensure accuracy, I'm adding the original sites and their subdomains back into the list. Now, I'm feeling rested and ready to tackle a mini-project of renaming the downloads without subdomains. Join me as I take on this task!
 keywords: MOZ Pro, True Competitor, Keyword Overlap, Quota Limits, Competitors, Filtering, Unique Sites, Downloading, Subdomains, Accuracy, Original Sites, Renaming, Downloads, Mini-Project
-categories: competitors, moz pro
+categories: moz pro, competitors
 permalink: /blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/
 layout: post
 ---

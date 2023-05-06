@@ -4,7 +4,7 @@ title: Bing Won't Write Story About Excessively Biased ChatBot
 headline: Exploring the Benefits and Risks of Chatbot Bias and AI Competition
 description: As an AI researcher, I'm exploring the implications of chatbot bias and AI competition. While these phenomena can be beneficial for innovation and learning, they can also present ethical and social challenges. Join me as I explore the potential benefits and risks of these two topics.
 keywords: Chatbot, Bias, AI, Competition, Innovation, Learning, Ethical, Social, Challenges, Phenomenon, Agents, Intelligence, Game
-categories: ai, chatbot, learning
+categories: chatbot, learning, ai
 permalink: /blog/bing-won-t-write-story-about-excessively-biased-chatbot/
 layout: post
 ---
@@ -39,6 +39,6 @@ Source: Conversation with Bing, 3/3/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
+<li><h4><a href='/learning/'>Learning</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
