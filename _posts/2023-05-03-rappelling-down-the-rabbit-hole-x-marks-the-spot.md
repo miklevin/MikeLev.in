@@ -4,7 +4,7 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: neovim, api, emacs, text editors, magic, vim, muscle memory
+categories: magic, text editors, api, vim, neovim, muscle memory, emacs
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 ---
@@ -19,10 +19,10 @@ it matter? Now, down to business.
 Wow, the experience now of running my `all` script to get started for the day
 is so much better. The repo for my main site takes no longer to load than any
 of the other repos, whereas previously it took a good 30 seconds. The repo
-history isn't there anymore, but I technically it's a different repo altogether
-with just a bit of renaming, so the old repo has the history. I can always go
-digging through it. Too bad git isn't as SQL-like query-able as Mercurial, the
-other DVCS that could have been git if git weren't so popular.
+history isn't there anymore, but it's technically in a different repo
+altogether with just a bit of renaming, so the old repo has the history. I can
+always go digging through it. Too bad git isn't as SQL-like query-able as
+Mercurial, the other DVCS that could have been git if git weren't so popular.
 
 At some point I'm going to have to show off the YAMLesque file format I'm
 using. The iron is hot, and if others are looking for meaning in their lives,
@@ -325,10 +325,10 @@ fantasy, silly.
 ## Categories
 
 <ul>
-<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
