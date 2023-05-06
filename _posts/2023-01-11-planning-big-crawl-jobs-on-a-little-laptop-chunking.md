@@ -4,7 +4,7 @@ title: Planning Big Crawl Jobs On a Little Laptop (Chunking)
 headline: Tackling a Million-Page Crawl on One Machine with Momentary Unthrottled Concurrency
 description: I recently had a breakthrough in creating a SQLite3 database to capture data from a list of URLs, and now I'm creating a keyword histogram and grouping the pages by keyword themes. I've been assigned a million-page crawl, and I'm tackling it all on one machine with momentarily unthrottled concurrency in chunks. Come read about my journey and how I'm processing the data in finite jobs and moving the chunks off my local.
 keywords: Crawl Jobs, Little Laptop, Chunking, SQLite3 Database, Keyword Histogram, Grouping, Million-Page Crawl, Concurrency, Processing, Data, Finite Jobs, Moving Chunks
-categories: processing
+categories: 
 permalink: /blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/
 layout: post
 ---
@@ -40,5 +40,4 @@ chunks, haha!
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/processing/'>Processing</a></h4></li></ul>
+<ul></ul>

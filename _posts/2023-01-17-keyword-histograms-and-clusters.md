@@ -4,7 +4,7 @@ title: Keyword Histograms and Clusters
 headline: Ready to Share My Steps for Keyword Processing with Yake KeywordExtractor!
 description: I've already done the hard work of extracting keywords using the Yake KeywordExtractor, and now I'm ready to discuss extracting them from the entire dataset. I've also used lambda functions to control the insertion of spaces between each tag-stripped element, and I'm eager to share the steps I've taken for keyword processing. Click here to read more!
 keywords: Histograms, Clusters, Yake, KeywordExtractor, Lambda, Functions, Tag-Stripped, Element, Processing, Extractions, Dataset, Spaces
-categories: processing
+categories: 
 permalink: /blog/keyword-histograms-and-clusters/
 layout: post
 ---
@@ -53,5 +53,4 @@ applied text-processing.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-critical-juncture-with-ai-my-next-steps/">The Critical Juncture With AI & My Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/processing/'>Processing</a></h4></li></ul>
+<ul></ul>

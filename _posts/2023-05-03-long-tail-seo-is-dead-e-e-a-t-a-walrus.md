@@ -24,9 +24,9 @@ to have E-E-A-T, really? I'm going to try to be one of those E-E-A-T people, I
 guess. Maybe try to be an influencer. If you have the potential to be a
 genuinely interesting person, then be that person. Lots of people do that by
 traveling our seeking out interesting experiences, but this is so unappealing
-to me now, except maybe for the education of my child. I generally I like to
-travel in the space of my own mind (reading & writing). It's just so much less
-drama and rigmarole.
+to me now, except maybe for the education of my child. I like to travel in the
+space of my own mind (reading & writing). It's just so much less drama and
+rigmarole.
 
 I will not be a cryptobro nor an instapeep. Rather, I'll continue to be the
 alternative-path oddball. The path less travelled, and all that. I've gone

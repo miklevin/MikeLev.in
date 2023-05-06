@@ -4,7 +4,7 @@ title: LXD Linux Containers in Windows Linux WSL2, But What Is Home?
 headline: "Creating a Home: Exploring the Concept of Home with John Belushi and George Carlin"
 description: I explore the concept of home, referencing John Belushi and George Carlin to illustrate how labels are unnecessary. I compare the book The Wonderful Wizard of Oz and the MGM movie, and discuss how my mother escaped her home life in the same year as the movie. I conclude that home is where you make it, and that I am continuously reinventing myself and encouraging my loved-ones to do the same. To create a new home, I'm developing a special git repo, creating a personal homepage.
 keywords: LXD, Linux, Containers, Windows, WSL2, John Belushi, George Carlin, Labels, The Wonderful Wizard of Oz, MGM Movie, Home, Reinventing, Git Repos, Linux Terminal, UNIX, Private Cloud Server, Remote Repositories, Generic, Information, Experiences, Scott M.
-categories: wsl2, linux, linux terminal, unix, containers, lxd
+categories: lxd, wsl2, unix, linux terminal, containers, linux
 permalink: /blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/
 layout: post
 ---
@@ -180,8 +180,8 @@ current home.
 ## Categories
 
 <ul>
+<li><h4><a href='/lxd/'>LXD</a></h4></li>
 <li><h4><a href='/wsl2/'>WSL2</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
 <li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/lxd/'>LXD</a></h4></li></ul>
+<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
