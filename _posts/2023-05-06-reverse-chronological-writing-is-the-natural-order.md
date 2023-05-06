@@ -195,8 +195,9 @@ I'll still use the canonical tag to decide which one is the intended
 master-copy, but that's a lower priority now than user experience. It's a dog
 E-E-A-T dog world out there, and if in your experience, you have to use your
 expertise to duplicate content that expresses your authority in order to
-communicate effusively and thus become trustworthy, then that's what you do.
-Concerns for new realities trump the concerns for old dead realities.
+communicate effectively, thus becoming trustworthy, then so be it. Google makes
+the new realities. Google lives with the new realities. Concerns for new
+realities trump the concerns for old dead realities.
 
 And so my plan is forming. I keep a reverse chronological "master list" of my
 blog posts. But then I start poaching that to shape better user experiences
