@@ -172,10 +172,11 @@ to contend with your enemy is a stinky poo poo thing. I'm only still
 recovering over 25 years later. Ick!
 
 Even acknowledgement that I was the one that architected the financial
-turnaround wasn't enough to keep me there. There was no amount of money I could
-make staying there to make it worth it. Even the righteous and the vindicated
-can die from poisoned waters. And it wasn't long after that when I took an
-opportunity that came up in New York City.
+turnaround wasn't enough to keep me there. No amount of money could make it
+worth it. The effort I put in is on the level that company founders put in, and
+all I got was lousy validation of everything I was saying. But even the
+righteous and the vindicated can die from poisoned waters. And it wasn't long
+after that when I took an opportunity that came up in New York City.
 
 That dude, Claw, was the first and last of a truly pure archetype I've ever
 encountered, the classic gatekeeper type mentioned above. While he wasn't as

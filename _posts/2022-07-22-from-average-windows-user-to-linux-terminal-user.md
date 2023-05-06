@@ -4,7 +4,7 @@ title: From Average Windows User to Linux Terminal User
 headline: "Transitioning to Linux Terminal: My Journey as an Average Windows User"
 description: As an average Windows user, I'm taking advantage of Microsoft's partnership with Canonical to transition to Linux terminal. I'm installing Ubuntu on my existing laptop running Windows 10 or 11, so I can take advantage of the cloud and protect myself from obsolescence. Join me on my journey as I become a Linux terminal user.
 keywords: Windows, Linux, Terminal, Microsoft, Canonical, Ubuntu, Cloud, Desktop, Laptop, Windows 10, Windows 11, Unix, Distro, Obsolescence, Journey
-categories: linux, journey, ubuntu, unix, terminal, microsoft, windows 11, windows 10, desktop
+categories: linux, windows 11, unix, windows 10, desktop, microsoft, ubuntu, terminal, journey
 permalink: /blog/from-average-windows-user-to-linux-terminal-user/
 layout: post
 ---
@@ -57,11 +57,11 @@ is most likely running Windows 10 or 11. Either way, it's pretty easy to get to
 
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/unix/'>Unix</a></h4></li>
-<li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/windows-11/'>Windows 11</a></h4></li>
+<li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/windows-10/'>Windows 10</a></h4></li>
-<li><h4><a href='/desktop/'>Desktop</a></h4></li></ul>
+<li><h4><a href='/desktop/'>Desktop</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/terminal/'>Terminal</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li></ul>

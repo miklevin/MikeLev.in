@@ -4,7 +4,7 @@ title: My Blogging System Is Now My Weekly Report System Too
 headline: I Have Created a System for Writing Weekly Reports with My Vimminess!
 description: I have created a system for writing weekly reports that is similar to how I write blog posts. I have set up the necessary files, scripts, and repository, and tested the release. I encountered a problem with the git push, but I was able to create a blog post, move it to my Github private repo, and render the markdown into HTML. Now I have a system in place to make the process flow with my vimminess!
 keywords: weekly-reports, system, files, scripts, repository, release, git-push, blog-post, Github, private-repo, markdown, HTML, vimminess, sites.txt, gaids.txt, script, release-scripts, copy-paste, email
-categories: scripts, html, email, github, script
+categories: html, email, github, script, scripts
 permalink: /blog/my-blogging-system-is-now-my-weekly-report-system-too/
 layout: post
 ---
