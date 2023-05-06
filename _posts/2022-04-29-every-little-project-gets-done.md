@@ -4,7 +4,7 @@ title: Every Little Project Gets Done!
 headline: "Pushing Myself to Do More: My Journey to ELTgd (Every Little Thing Gets Done)"
 description: I recently changed the name of my project to ELTgd (Every Little Thing Gets Done) to push myself to do more and practice my vim skills. I'm also using whatsametafor.io to document my progress. Click through to read more about my journey and how I'm getting things done!
 keywords: Project, ELTgd, Vim, Skills, Progress, Journey, Little Things, Journaling, Macros, Formatting, Whatsametafor.io
-categories: journey, macros, skills, progress, vim, journaling
+categories: journey, skills, macros, progress, vim, journaling
 permalink: /blog/every-little-project-gets-done/
 layout: post
 ---

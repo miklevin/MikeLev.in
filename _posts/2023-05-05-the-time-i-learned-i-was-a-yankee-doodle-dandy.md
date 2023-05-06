@@ -311,8 +311,26 @@ And so in that spirit, I'm going to do a quick 80/20-rule sweep on in my
 journal chopping and publishing system this morning. Let's start with automatic
 category identifying. No matter how harrowing and significant years like 2020
 are and Ubuntu versions to 20.04 are, numbers don't belong in my site's
-category master-list. Okay... next post. Drill down on those prev/next arrow
-details.
+category master-list. 
+
+```python
+# Check if keyword is just a number-string (like "404")
+# or a float like "20.04". Allow domain names like "example.com":
+if keyword.isnumeric() or keyword.replace(".", "").isnumeric():
+    continue
+```
+
+Okay, done. No more *numbers* in my category list. I wonder what categories
+this long post will be sorted into, hmm.
+
+Anyhow, did somebody mention detail and nuance? It's time to tackle one of my
+most detailed and nuanced challenges yet. I'm going to make my prev/next arrows
+a bit more to my liking. Forward is not the past. Left is past. Right is
+future. Western bias, much? Okay, let's give the Israelis and Arabs a chance to
+use my arrow-system to. Henceforth, the directional behavior of my blogging
+navigation arrows shall be configurable! Next post...
+
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a></div> &nbsp; <div class="post-nav-next"><a href="None">None</a></div></div>
 ## Categories

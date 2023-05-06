@@ -4,7 +4,7 @@ title: Activating All My Registered Domains
 headline: Organizing My Domains with Scripts and Google Analytics
 description: I have taken the initiative to activate all of my registered domains, creating scripts to help me organize them. I have created a sites.txt file, an edit.sh file, and have gone to Google Analytics to get new GA-4 codes. I have also moved content from one website to another, and made mikelevinseo.com its own site. Read this blog post to learn how I organized my domains and content!
 keywords: Domains, Scripts, sites.txt, edit.sh, Google Analytics, GA-4 codes, Website, Folders, Journals, Jupyter Notebook, .py file, Git, List, Repos, Content, mikelevinseo.com, PythonicAlly.com
-categories: jupyter notebook, git, google analytics, scripts
+categories: git, google analytics, jupyter notebook, scripts
 permalink: /blog/activating-all-my-registered-domains/
 layout: post
 ---
@@ -210,6 +210,6 @@ early in that site.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li></ul>
+<li><h4><a href='/google-analytics/'>Google Analytics</a></h4></li>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li></ul>
