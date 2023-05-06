@@ -4,7 +4,7 @@ title: Ever Have to Combine CSVs? Do It Better With Python Pandas!
 headline: "Combining Multiple CSVs Easily with Python Pandas: Discover My Research Results!"
 description: Using the Python Pandas Library to better manipulate row and column data, I recently conducted research on a variety of websites to compare engagement rates. My findings included 15 visitors and a 1% engagement rate for Netflix.com, and 20 visitors and a 2% engagement rate for IMDB.com. Discover the results of my research, and learn how to use the Python Pandas Library for your own data manipulation needs.
 keywords: Python, Pandas, CSV, API, Data Manipulation, Research, Netflix.com, IMDB.com, cancer.gov, cdc.gov, developer.mozilla.org, verywellfamily.com, businessinsider.com, popularmechanics.com, healthline.com, blog.hubspot.com, developers.google.com, techopedia.com
-categories: python, pandas, api, csv
+categories: pandas, python, csv, api
 permalink: /blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/
 layout: post
 ---
@@ -135,5 +135,5 @@ Produces:
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
-<li><h4><a href='/csv/'>CSV</a></h4></li></ul>
+<li><h4><a href='/csv/'>CSV</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li></ul>
