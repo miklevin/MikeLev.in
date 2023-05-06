@@ -4,7 +4,7 @@ title: How To Control URLs and Links in Jekyll
 headline: Successfully Controlling URLs and Links in Jekyll
 description: I'm blogging using Jekyll and Github Pages and have just made some changes to the theme. I'm now following a DigitalOcean tutorial to control URLs and links in Jekyll - hoping for successful changes to propagate soon! Read my blog post to find out how I did it.
 keywords: "Jekyll, Github Pages, DigitalOcean, Tutorial, URLs, Links, Theme, Changes, Propagate, Pythonically.com, Default Blog Post System, `_config.yml`, Git Pull"
-categories: jekyll, github pages, changes, tutorial
+categories: jekyll, changes, tutorial, github pages
 permalink: /blog/how-to-control-urls-and-links-in-jekyll/
 layout: post
 ---
@@ -34,5 +34,5 @@ Success!
 
 <ul>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/github-pages/'>Github Pages</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/github-pages/'>Github Pages</a></h4></li></ul>

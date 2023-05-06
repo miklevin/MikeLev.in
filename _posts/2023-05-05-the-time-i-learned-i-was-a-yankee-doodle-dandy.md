@@ -22,17 +22,17 @@ Oh yeah, if you're feeling imposter syndrome, maybe you are an imposter. That's
 the kind of shit that gets me in trouble.
 
 I have history. I have had conflicts with folks in the past. You know who I am?
-I'm Michael Scott, Steve Carell's character from The Office. I have some
+I'm Michael Scott, Steve Carell's character from *The Office*. I have some
 natural skill for the field I'm in, but in so many ways, I'm the bumbling fool.
 It's a classic personality type. It's no wonder that Steve Carell who plays
 that role so well was also tapped to play Don Adams... uh I mean Maxwell Smart
 in the Get Smart movie, the all-time ***second greatest*** Secret Alpha.
 
-For those too young to remember (everyone, I think), there was an old TV show
-called Get Smart. It was a spoof of the James Bond movies and was what was
-remade into the movie with The Office's Steve Carell. Maxwell Smart is the
-archetype of that bumbling spy who always manages to succeed anyway, with the
-catchphrase "Would you believe...?" and "Sorry about that, Chief!" 
+For those too young to remember, there was an old TV show called *Get Smart*.
+It was a spoof of the James Bond movies and was what was remade into the movie
+with *The Office's* Steve Carell. Maxwell Smart is the archetype of that
+bumbling spy who always manages to succeed anyway, with the catchphrase "Would
+you believe...?" and "Sorry about that, Chief!" 
 
 Sound familiar? No? Well anyway, they're classic fictional examples classic
 personality types I call ***"Secret Alphas"***. It's very American and about
@@ -40,10 +40,10 @@ the opposite of say a James Bond, the polished and respectable British
 gentleman spy. But the Brits do have Rowan Atkinson's Johnny English, so maybe
 it's not so much a cultural thing as a universal personality type thing.
 
-The contrast between the two types is a classic one. It's the classic Yankee
-Doodle Dandy embracing his own buffoonery of which he's accused and fully
-owning it&151;even as far as singing it about himself. When it works, it can be
-one of the most confounding personality types on the playing field, full of
+The contrast between the two types is classic. It's the uncouth Yankee Doodle
+Dandy embracing his own buffoonery of which he's accused and fully owning
+it&#151;even as far as singing it about himself. When it works, it can be one
+of the most confounding personality types on the playing field, full of
 non-traditional and unexpected moves. A real wildcard. Anti-patterns that work.
 How terrifying is that? Naturally, they're disliked automatically by their
 opposite.
