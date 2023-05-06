@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a> (Sat May 06, 2023)
+<br/>Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.</li>
 <li><a href="/blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/">Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts</a> (Tue May 02, 2023)
 <br/>Discover how I maximize my productivity with my new journaling approach, allowing myself to edit multiple files with ease without getting lost in a sea of tabs. Utilize the astoundingly available `Ctrl+S` and `Ctrl+Space` keyboard shortcuts to quickly cycle through buffers and access important resources instantly. Get lost in a sea of open screens and windows no more!</li>
 <li><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a> (Mon May 01, 2023)

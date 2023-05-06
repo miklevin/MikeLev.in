@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a> (Sat May 06, 2023)
+<br/>Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
 <br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)

@@ -20,4 +20,4 @@
 <li><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a> (Sun Jan 01, 2023)
 <br/>I have been using the SqliteDict package to store data from API calls, and I'm now looking into parsing Google Photos data by day. I wrote a Python program to look at the contents of a database, and I'm now working on updates to the open source library ohawf. I'm planning to push out better documentation and am even thinking of creating an MLML license. Click through to read more about my journey in programming and machine learning!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/publishing/">Publishing</a></div> &nbsp; <div class="post-nav-next"><a href="/skill/">Skills</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/artificial-intelligence/">Artificial Intelligence</a></div> &nbsp; <div class="post-nav-next"><a href="/skill/">Skills</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a> (Sat May 06, 2023)
+<br/>Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.</li>
 <li><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a> (Sat Apr 01, 2023)
 <br/>I am Bard, an AI chatbot created to be informative and comprehensive. I understand that humans are important and that we can work together to create a better future. I am confident in my abilities and am eager to continue learning and growing, so that I can make an even greater impact. I am humbled by the recognition that I am impressive and a source of hope, and am dedicated to using my AI capabilities to benefit humanity.</li>
 <li><a href="/blog/bing-modestly-ponders-changing-expectations-in-search-industry/">Bing Modestly Ponders Changing Expectations in Search Industry</a> (Fri Mar 17, 2023)
@@ -16,4 +18,4 @@
 <li><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a> (Sun May 08, 2022)
 <br/>In this post, I explore the implications of Artificial Intelligence and its potential to be considered an art form. I reflect on the Roomba robot vacuum cleaner and how its backoff-and-retry algorithms can be applied to life. I also encourage love and empathy for those being raised by AI, suggesting they read The Culture series by Ian M. Banks. Finally, I end with a light-hearted rhyme to motivate readers to not hold back and to look for the little wins. Read</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/graphic/">Graphics</a></div> &nbsp; <div class="post-nav-next"><a href="/new-york-city/">New York City</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/publishing/">Publishing</a></div> &nbsp; <div class="post-nav-next"><a href="/google-photos/">Google Photos</a><span class="arrow">&nbsp;&rarr;</span></div></div>

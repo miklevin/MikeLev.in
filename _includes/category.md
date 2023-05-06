@@ -65,6 +65,7 @@
 <li><a href="/success/">Success</a></li>
 <li><a href="/skill/">Skills</a></li>
 <li><a href="/google-photos/">Google Photos</a></li>
+<li><a href="/artificial-intelligence/">Artificial Intelligence</a></li>
 <li><a href="/publishing/">Publishing</a></li>
 <li><a href="/web-development/">Web Development</a></li>
 <li><a href="/nodejs/">NodeJS</a></li>
@@ -90,7 +91,6 @@
 <li><a href="/html/">HTML</a></li>
 <li><a href="/text-editor/">Text Editor</a></li>
 <li><a href="/new-york-city/">New York City</a></li>
-<li><a href="/artificial-intelligence/">Artificial Intelligence</a></li>
 <li><a href="/graphic/">Graphics</a></li>
 <li><a href="/network/">Network</a></li>
 <li><a href="/blogging/">Blogging</a></li>

@@ -4,7 +4,7 @@ title: Education Of The Woogle Bug
 headline: I Fixed a Bug and Improved My Output - A Story of Triumph
 description: Yesterday was a difficult day, but I'm determined to move forward. I'm rewriting my content management system and conditioning my mind to be kind and gentle. I'm supplementing my income while getting closer to my child, and using various tools to debug and fix a problem with a script. I wrote a program to create websites with Python and I'm using the blogslicer program to create blogs for multiple websites.
 keywords: Education, Woogle, Bug, Content Management System, Kindness, Gentleness, Income, Tools, Debugging, Script, Python, Blogslicer, Websites, Output, Police, Rewriting, Conditioning, Private Conversation, Events, Yesterday, Love, Unconditionally, Labeling, Absolute Paths, Figlet, Language, Emotionally Abusive, Record, Git Repository, SystemExit, Cybermedium, Jupyter, Execute, Argument,
-categories: blogslicer, script, python, jupyter
+categories: jupyter, script, python, blogslicer
 permalink: /blog/education-of-the-woogle-bug/
 layout: post
 ---
@@ -812,7 +812,7 @@ h2("Done!")
 ## Categories
 
 <ul>
-<li><h4><a href='/blogslicer/'>blogslicer</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/blogslicer/'>blogslicer</a></h4></li></ul>

@@ -15,13 +15,13 @@
 [Experiment](/experiment/) | [Search](/search/) | [Macro](/macro/) | [SQLite](/sqlite/) | 
 [Headlines](/headline/) | [Browser Automation](/browser-automation/) | [Focus](/focus/) | [Consciousness](/consciousness/) | 
 [Docker](/docker/) | [Coding](/coding/) | [Open Source](/open-source/) | [Success](/success/) | 
-[Skills](/skill/) | [Google Photos](/google-photos/) | [Publishing](/publishing/) | [Web Development](/web-development/) | 
-[NodeJS](/nodejs/) | [Proprietary](/proprietary/) | [Changes](/change/) | [Math](/math/) | 
-[Habits](/habit/) | [Template](/template/) | [Microsoft Playwright](/microsoft-playwright/) | [MOZ Pro](/moz-pro/) | 
-[LPvg](/lpvg/) | [Goals](/goal/) | [Future](/future/) | [Tutorial](/tutorial/) | 
-[Strategy](/strategy/) | [Evolution](/evolution/) | [Child](/child/) | [Excel](/excel/) | 
-[Jupyter Notebooks](/jupyter-notebooks/) | [CSV](/csv/) | [Organization](/organization/) | [Twitter](/twitter/) | 
-[HTML](/html/) | [Text Editor](/text-editor/) | [New York City](/new-york-city/) | [Artificial Intelligence](/artificial-intelligence/) | 
+[Skills](/skill/) | [Google Photos](/google-photos/) | [Artificial Intelligence](/artificial-intelligence/) | [Publishing](/publishing/) | 
+[Web Development](/web-development/) | [NodeJS](/nodejs/) | [Proprietary](/proprietary/) | [Changes](/change/) | 
+[Math](/math/) | [Habits](/habit/) | [Template](/template/) | [Microsoft Playwright](/microsoft-playwright/) | 
+[MOZ Pro](/moz-pro/) | [LPvg](/lpvg/) | [Goals](/goal/) | [Future](/future/) | 
+[Tutorial](/tutorial/) | [Strategy](/strategy/) | [Evolution](/evolution/) | [Child](/child/) | 
+[Excel](/excel/) | [Jupyter Notebooks](/jupyter-notebooks/) | [CSV](/csv/) | [Organization](/organization/) | 
+[Twitter](/twitter/) | [HTML](/html/) | [Text Editor](/text-editor/) | [New York City](/new-york-city/) | 
 [Graphics](/graphic/) | [Network](/network/) | [Blogging](/blogging/) | [Audience](/audience/) | 
 [SqliteDict](/sqlitedict/) | [Email](/email/) | [Message](/message/) | [Development](/development/) | 
 [Bash](/bash/) | [Imposter Syndrome](/imposter-syndrome/) | [Science](/science/) | [Dependencies](/dependency/) | 
