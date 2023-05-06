@@ -4,7 +4,7 @@ title: I Don't Want To Blow Up
 headline: "Learn Vim: Unlock the Power of a Text Editor with WSL and Vimtutor"
 description: "As a tech enthusiast, I use Linux, Python, Vim and Git as my go-to tools. I'm a big fan of Bram Moolenaar's plain old Vim from 1991, as it's more future-proof and resistant to obsolescence. Are you looking to learn Vim? I'm encouraging you to do so - just type `wsl --install` in a DOS COM to get started. Vim is a powerful tool and is much more fundamental than the full web stack."
 keywords: Linux, Python, Vim, Git, Bram Moolenaar, DOS COM, JavaScript, NodeJS, Text Editor, Terminal, Sun
-categories: python, nodejs, vim, linux, javascript, git, terminal, text editor
+categories: python, nodejs, linux, text editor, terminal, vim, git, javascript
 permalink: /blog/i-don-t-want-to-blow-up/
 layout: post
 ---
@@ -193,9 +193,9 @@ Don't give in. Open a terminal and type:
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/nodejs/'>NodeJS</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/terminal/'>Terminal</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

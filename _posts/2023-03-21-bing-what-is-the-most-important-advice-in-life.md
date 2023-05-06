@@ -4,7 +4,7 @@ title: "Bing: What is the most important advice in life?"
 headline: Bing Offers Important Advice for Living a Meaningful Life
 description: On March 21, 2023, I asked Bing for the most important advice in life. Bing suggested I prioritize my tasks, take care of myself, and connect with others. When I asked what to do if I'm feeling alone, Bing suggested reaching out to someone I trust, finding a community, and taking care of myself. Finally, I asked what is the best thing I can do for my child and Bing suggested visiting the zoo, taking a book out of the library, and going for a walk.
 keywords: Bing, Advice, Prioritize, Tasks, Take Care, Connect, Others, Feeling Alone, Reach Out, Community, Child, Zoo, Library, World, Population, Digital Revolution, Medicine, Climate Change, Fossil Fuels, Warming, Tips, Stay True, Love, Environment, Friends, Habits, Uncertainty, Vulnerable, Courage, Malice, Stupidity, Breathing, Calmer, Healthier, Happier, Marry, Best Friend
-categories: bing, habits, child
+categories: child, habits, bing
 permalink: /blog/bing-what-is-the-most-important-advice-in-life/
 layout: post
 ---
@@ -137,5 +137,5 @@ Source: Conversation with Bing, 3/20/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/child/'>Child</a></h4></li></ul>
+<li><h4><a href='/child/'>Child</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

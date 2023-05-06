@@ -95,8 +95,8 @@ Learning that triggered me and brought the A-game out in me. Let's first
 acknowledge everything you accuse others of is a projection of something you're
 doing yourself. It's a classic psychological phenomenon. And yes, I am terribly
 fearful of being a fraud. Perhaps that's why my obsession with tools and
-resisting planned obsolescence. So many people are could be less of fools than
-they actually turn out being if only they didn't have their efforts foiled by a
+resisting planned obsolescence. So many people could be less of fools than they
+actually turn out being if only they didn't have their efforts foiled by a
 system that's designed to make them fail. 
 
 This was a period in my life I talked about in a recent video as my "great
@@ -113,9 +113,10 @@ Bearing down on my mission as I did, I mastered my tools and outperformed
 everyone's expectations to a degree where I'd have called myself the unofficial
 president and CEO of that place for awhile. It was because they were blowing
 off legitimate pre-qualified sales-leads at a criminal rate while I was being
-compensated on a percentage of company gross revenue. You can imagine. As I
-exposed this fact, there were those who wanted to hang me out to dry. And they
-tried. Oh, the stories that got back to me. But I was fortunate to have a
+compensated on a percentage of company gross revenue. Can you imagine?
+
+As I exposed this fact, there were those who wanted to hang me out to dry. And
+they tried. Oh, the stories that got back to me. But I was fortunate to have a
 representative of those Norwegian ship builders step in and let me finish my
 act. Gerard was the closest thing to a real mentor I ever had.
 
@@ -123,12 +124,26 @@ Well, as it turns out, that one particular dude who played Claw to my Inspector
 Gadget (oh yeah, Inspector Gadget was based on Maxwell Smart) decided to shut
 me down big-time with what I've come to understand as a series of classic
 Machiavellian strategies such as discrediting you behind your back with lies,
-and trying to rig the game against you. I'd do things like schedule a vacation
-I didn't take just to demonstrate the timing of the things that were going to
-go wrong in my absence. Livingston routers don't have to be manually restarted
-after random outages. I wrote a script for him in Cisco's proprietary language
-to prove it, but alas, solutions didn't matter. The problems like that were the
-point. They were gatekeeper dependency-inducing.
+and trying to rig the game against you. 
+
+An example of how directly I could predict what was going to occur is this one
+time I scheduled a vacation that I didn't actually take just to demonstrate the
+timing of the things that were going to go wrong in my absence. Like clockwork,
+the website went down on the first day I was supposed to be away, and didn't
+come back up until a furious "I told you so" exchange with the new big-boss who
+stepped in on behalf of the board of directors as a result of my shenanigans.
+
+It's just a completely random outage by a Livingston router. Routers don't have
+to be manually restarted after random outages. If the fundamental fix can't be
+made, there's scripts for that. I wrote a script in the router's own
+proprietary language and offered it up to prove it after this event, but alas,
+solutions didn't actually matter. 
+
+Solutions weren't the point. Problems were what Claw wanted; problems that hung
+over you all the time. Problems like that were the actual point. They induced
+fear and uncertainty. They created an artificial dependency on the
+gatekeeper&#151;quite literally using a router as the weapon. The symbolism was
+comically thick.
 
 Well, I finally woke up as to what was going on, and wow, did he get a rude
 awakening. A series of crystal clear "if this than that" that I conducted where
