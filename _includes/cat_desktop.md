@@ -12,4 +12,4 @@
 <li><a href="/blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/">From Jupyter Notebook to pip Installable Package In One Go</a> (Sun May 01, 2022)
 <br/>Join me as I livecast the process of creating and releasing a Python package from a Jupyter Notebook. I'll be using the desktop version of JupyterLab and taking you through every step of the process. Don't miss out - tune in now!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/linux-terminal/">Linux Terminal</a></div> &nbsp; <div class="post-nav-next"><a href="/lxc/">LXC</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/linux-terminal/">Linux Terminal</a></div> &nbsp; <div class="post-nav-next"><a href="/18-04/">18.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>

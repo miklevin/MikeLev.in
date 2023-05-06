@@ -10,4 +10,4 @@
 <li><a href="/blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/">Plotting a Post-Scarcity Future for Humanity with ChatGPT</a> (Tue Feb 14, 2023)
 <br/>I'm exploring the x10, x100 rule of perception and how it might replace Google. With OpenAI's release of the first AI in 2022, I'm looking at how ChatGPT can help me create an AI sidekick persona and a roadmap for success. I'm also advocating for free and open-source software and the power of combining human abilities with technology. Join me as I discuss how to create a sustainable retirement gig.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/copy-paste/">Copy/Paste</a></div> &nbsp; <div class="post-nav-next"><a href="/emacs/">Emacs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><a href=""></a></div> &nbsp; <div class="post-nav-next"><a href="/emacs/">Emacs</a><span class="arrow">&nbsp;&rarr;</span></div></div>

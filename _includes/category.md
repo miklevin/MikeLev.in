@@ -89,6 +89,7 @@
 <li><a href="/organization/">Organization</a></li>
 <li><a href="/twitter/">Twitter</a></li>
 <li><a href="/html/">HTML</a></li>
+<li><a href="/20-04/">20.04</a></li>
 <li><a href="/text-editor/">Text Editor</a></li>
 <li><a href="/new-york-city/">New York City</a></li>
 <li><a href="/graphic/">Graphics</a></li>
@@ -98,6 +99,7 @@
 <li><a href="/sqlitedict/">SqliteDict</a></li>
 <li><a href="/email/">Email</a></li>
 <li><a href="/message/">Message</a></li>
+<li><a href="/2022/">2022</a></li>
 <li><a href="/development/">Development</a></li>
 <li><a href="/bash/">Bash</a></li>
 <li><a href="/flow/">Flow</a></li>
@@ -129,12 +131,12 @@
 <li><a href="/journal-md/">Journal.md</a></li>
 <li><a href="/drinkme/">DrinkMe</a></li>
 <li><a href="/marketing/">Marketing</a></li>
-<li><a href="/collaboration/">Collaboration</a></li>
 <li><a href="/scheduling/">Scheduling</a></li>
 <li><a href="/trick/">Tricks</a></li>
 <li><a href="/wisdom/">Wisdom</a></li>
 <li><a href="/progress/">Progress</a></li>
 <li><a href="/lxc/">LXC</a></li>
+<li><a href="/18-04/">18.04</a></li>
 <li><a href="/desktop/">Desktop</a></li>
 <li><a href="/linux-terminal/">Linux Terminal</a></li>
 <li><a href="/github-io/">Github.io</a></li>
@@ -147,6 +149,4 @@
 <li><a href="/competitor/">Competitors</a></li>
 <li><a href="/emacs/">Emacs</a></li>
 <li><a href="/open-source/">Open-Source</a></li>
-<li><a href="/copy-paste/">Copy/Paste</a></li>
-<li><a href="/access/">Access</a></li>
 </ol>
