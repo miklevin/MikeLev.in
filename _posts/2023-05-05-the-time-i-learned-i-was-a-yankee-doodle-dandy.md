@@ -49,19 +49,22 @@ How terrifying is that? Naturally, they're disliked automatically by their
 opposite.
 
 One day I realized I had technical powers that some of my highly esteemed and
-vaulted technical coworkers didn't at a place I worked called Scala (an old
-Commodore computers software company spin-off). That made me formulate a few
-theories and put them to the test. If I made it impossible to ignore, deny or
-otherwise bury the river of sales leads that were coming in, we would be on the
-way to profitability and a company turn-around. Wow! It was like I whacked a
-hornet's nest.
+vaulted technical coworkers didn't, at a place called Scala (an old Commodore
+computers spin-off). That made me formulate a few theories and put them to the
+test. If I made it impossible to ignore, deny or otherwise bury the river of
+sales leads that were coming in, we would be on the way to profitability and a
+company turn-around. Wow! It was like I whacked a hornet's nest.
 
 I was met by as steady flow of mysteries, like parts disappearing from my
-computer overnight. I had stepped right into the turf of the second most
-jealous gatekeeper I ever encountered. If I was Inspector Gadget, you might
-think of my particular James Bond villain as Claw. Claw was a very well
-regarded and almost feared within the company, and was generally acknowledged
-as the fountain of all knowledge, both right and wrong.
+computer overnight. Webmasters don't need audio, I was told. I was stunned. I
+had stepped right into the turf of the second most jealous gatekeeper I ever
+encountered. If I was Inspector Gadget, you might think of my particular James
+Bond villain as Claw. Claw was highly regarded in a tongue-in-cheek sort of
+way, and known as the fount of all knowledge, both right and wrong. I only ever
+witnessed one other person ever stand up to Claw, a guy so smart he ended up
+working on a secret operating system for Microsoft called Midori (the real
+deal). So while Mike went off to Seattle to school Microsoft in OSes, I was
+stuck with Claw, the soundblaster stealer of the night.
 
 This was in the early-to-mid 90s, and the Web was in its infancy. There was
 certainly no Google around to make experts of the intellectually inquisitive. I

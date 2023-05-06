@@ -4,7 +4,7 @@ title: How to Share an SSH Key with Linux Container to Eliminate Passwords
 headline: I Figured Out How to Eliminate Passwords from Linux Containers with SSH Keys
 description: I recently faced a challenge when trying to get code up to Github from a newly created Linux container. To solve this, I figured out a way to share my SSH keys from my host system to the container, eliminating the need for passwords. To help others, I created a video and shared the code on Github. Learn how to share SSH keys from a host system to a Linux container with my easy-to-follow guide.
 keywords: Linux, Container, SSH Key, Host System, Github, Password, Video, Code, Guide, Challenge, Developing
-categories: container, github, linux
+categories: github, linux, container
 permalink: /blog/how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords/
 layout: post
 ---
@@ -86,6 +86,6 @@ host machine.
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li></ul>

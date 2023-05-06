@@ -4,7 +4,7 @@ title: What are the most important news for me to know today?
 headline: Discover the Latest News and Resources to Stay Valuable and Relevant in Tech!
 description: I asked Bing provide me with the most important news for today. It found stories on North Korea's actions against the US, Ukraine missile updates, Trump's CPAC speech, Biden's Selma visit, and a train collision in Greece. Also talked about my LPvg passion.
 keywords: North Korea, US, Ukraine, Missile, Trump, CPAC, Biden, Selma, Greece, Train Collision, Linux, Python, Vim, Git, Democratization, AI, Fashion, Retail, Politics, Internet
-categories: ai, linux, python, git, vim
+categories: ai, linux, python, vim, git
 permalink: /blog/what-are-the-most-important-news-for-me-to-know-today/
 layout: post
 ---
@@ -101,5 +101,5 @@ I always had regrets I didn't build something bigger. I mean I did HitTail and a
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
