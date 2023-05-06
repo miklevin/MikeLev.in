@@ -4,7 +4,7 @@ title: A Script To Pull Keywords From MOZ Pro Keyword Research Ranking Keywords
 headline: Automating Keyword Research With Playwright and Jupyter Notebook
 description: This blog post provides a step-by-step guide to automating browser actions using Playwright Browser Automation and Jupyter Notebook to pull keywords from MOZ Pro's Keyword Research Ranking Keywords. Additionally, I explain how to set up the environment, execute the code, and download files from a website.
 keywords: Automating, Browser, Actions, Playwright, Browser Automation, Jupyter Notebook, MOZ Pro, Keyword Research, Ranking Keywords, Environment, Execute, Code, Download, Files, Website, Script, Set, Click, Link, Subdomain, List Item, Placeholder, Analyze, Button, Export, CSV, Save, Folder, Close
-categories: moz pro, jupyter notebook, script, csv, browser automation
+categories: browser automation, moz pro, csv, jupyter notebook, script
 permalink: /blog/a-script-to-pull-keywords-from-moz-pro-keyword-research-ranking-keywords/
 layout: post
 ---
@@ -173,8 +173,8 @@ else:
 ## Categories
 
 <ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/moz-pro/'>MOZ Pro</a></h4></li>
-<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
-<li><h4><a href='/script/'>Script</a></h4></li>
 <li><h4><a href='/csv/'>CSV</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
+<li><h4><a href='/jupyter-notebook/'>Jupyter Notebook</a></h4></li>
+<li><h4><a href='/script/'>Script</a></h4></li></ul>
