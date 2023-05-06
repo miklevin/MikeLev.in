@@ -28,11 +28,11 @@
 [NYC](/nyc/) | [Powershell](/powershell/) | [Static Site Generator](/static-site-generator/) | [PyPI](/pypi/) | 
 [Github Copilot](/github-copilot/) | [Empathy](/empathy/) | [Chatbot](/chatbot/) | [Algorithms](/algorithm/) | 
 [Command-Line](/command-line/) | [Loop](/loop/) | [Levinux](/levinux/) | [Virtualenv](/virtualenv/) | 
-[mlseo](/mlseo/) | [Navigation](/navigation/) | [GNU](/gnu/) | [Quantum](/quantum/) | 
-[Magic](/magic/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | [Productivity](/productivity/) | 
-[Flow](/flow/) | [.vimrc](/vimrc/) | [Journal.md](/journal-md/) | [DrinkMe](/drinkme/) | 
-[Marketing](/marketing/) | [Collaboration](/collaboration/) | [Scheduling](/scheduling/) | [Tricks](/trick/) | 
-[Wisdom](/wisdom/) | [Progress](/progress/) | [LXC](/lxc/) | [Desktop](/desktop/) | 
-[Linux Terminal](/linux-terminal/) | [Github.io](/github-io/) | [blogslicer](/blogslicer/) | [Drafts](/draft/) | 
-[Theory](/theory/) | [JSON](/json/) | [Vendors](/vendor/) | [Operating Systems](/operating-systems/) | 
-[Competitors](/competitor/) | [Emacs](/emacs/) | [Text Editors](/text-editors/) | [Open-Source](/open-source/) | 
+[mlseo](/mlseo/) | [text editors](/text-editors/) | [Navigation](/navigation/) | [GNU](/gnu/) | 
+[Quantum](/quantum/) | [Magic](/magic/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | 
+[Productivity](/productivity/) | [Flow](/flow/) | [.vimrc](/vimrc/) | [Journal.md](/journal-md/) | 
+[DrinkMe](/drinkme/) | [Marketing](/marketing/) | [Collaboration](/collaboration/) | [Scheduling](/scheduling/) | 
+[Tricks](/trick/) | [Wisdom](/wisdom/) | [Progress](/progress/) | [LXC](/lxc/) | 
+[Desktop](/desktop/) | [Linux Terminal](/linux-terminal/) | [Github.io](/github-io/) | [blogslicer](/blogslicer/) | 
+[Drafts](/draft/) | [Theory](/theory/) | [JSON](/json/) | [Vendors](/vendor/) | 
+[Operating Systems](/operating-systems/) | [Competitors](/competitor/) | [Emacs](/emacs/) | [Open-Source](/open-source/) | 

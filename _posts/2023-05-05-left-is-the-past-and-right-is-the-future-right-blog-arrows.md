@@ -4,7 +4,7 @@ title: Left is The Past and Right is The Future, Right? (Blog Arrows)
 headline: "Exploring the Nuances of Blog Navigation: Reversing Arrows for a Configurable Past and Future"
 description: I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.
 keywords: arrows, navigation, web, linear sequences, story-telling, prev/next, SEO, anchor text, long-tail trick, exact-matches, off-popular keywords, related pages, autocompletes, numbers, periods, floats, domain names, Copilot, 80/20-rule, Western culture, reading directions, present, configurable, ALL Blog Posts, light touch, classes, mapping, left-arrow, right-arrow, previous, next, side,
-categories: 80/20-rule, copilot, navigation, seo
+categories: seo, 80/20-rule, navigation, copilot
 permalink: /blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/
 layout: post
 ---
@@ -294,11 +294,11 @@ Wanna see the output? Look around.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/">The Time I Learned I Was a Yankee Doodle Dandy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/">The Time I Learned I Was a Yankee Doodle Dandy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reverse-chronological-writing-is-the-natural-order/">Reverse Chronological Writing is the Natural Order</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li>
 <li><h4><a href='/navigation/'>Navigation</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>

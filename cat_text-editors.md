@@ -1,9 +1,9 @@
 ---
-title: Text Editors
+title: text editors
 permalink: /text-editors/
 layout: default
 ---
 
-# Text Editors
+# text editors
 
 {% include cat_text-editors.md %}

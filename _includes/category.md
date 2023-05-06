@@ -116,6 +116,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/virtualenv/">Virtualenv</a></li>
 <li><a href="/mlseo/">mlseo</a></li>
+<li><a href="/text-editors/">text editors</a></li>
 <li><a href="/navigation/">Navigation</a></li>
 <li><a href="/gnu/">GNU</a></li>
 <li><a href="/quantum/">Quantum</a></li>
@@ -145,7 +146,6 @@
 <li><a href="/operating-systems/">Operating Systems</a></li>
 <li><a href="/competitor/">Competitors</a></li>
 <li><a href="/emacs/">Emacs</a></li>
-<li><a href="/text-editors/">Text Editors</a></li>
 <li><a href="/open-source/">Open-Source</a></li>
 <li><a href="/copy-paste/">Copy/Paste</a></li>
 <li><a href="/access/">Access</a></li>
