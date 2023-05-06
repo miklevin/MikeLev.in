@@ -4,7 +4,7 @@ title: Long-Tail SEO is Dead. E-E-A-T a Walrus.
 headline: "E-E-A-T: A Walrus's Guide to Protecting Your Sanity from Those Who Would Undo It"
 description: As an experienced SEO, I've seen the effectiveness of long-tail SEO decline due to the tragedy of the commons. To break into the industry, we must figure out how to emit signals indicating Experience, Authority and Trustworthiness to convince Google you're Expert (E-E-A-T). Learn from Lewis Carroll's timeless stories and protect your sanity from those who would undo it. Don't covet the generational wealth of the Walrus family - use your own hammer to build your own kingdom.
 keywords: SEO, E-E-A-T, Alice in Wonderland, Wizard of Oz, long-tail SEO, easy tricks, exact-match keyword, emit signals, influencer, morning joe, streaming services, audibles, kindle books, quantum physics, personality types, AI-generated content, deep fakes, polarized people, bad actors, Alice's Adventures in Wonderland, Wizard of Oz, coming-of-age stories, fantasy, nonsense, Mississippi River, N-word language, Disney movie, Lewis Carroll, Alice, Dorothy, Oz, quantum
-categories: seo, quantum
+categories: quantum, seo
 permalink: /blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/
 layout: post
 ---
@@ -75,9 +75,9 @@ makes them more palatable to the masses, especially when it comes to a young
 girl whose prospects in life especially in the 1800s were so limited. But by
 introducing the ambiguity of the real world into the fantasy world, it made it
 more palatable, and perhaps even more timeless. It certainly ages better than a
-boy is cast into a very realistic world floating down the Mississippi River
-with a runaway slave and triggering N-word language that gets it banned. Alice
-is virtually ban-proof in addition to timeless.
+boy who is cast by Mark Twain into a very realistic world floating down the
+Mississippi River with a runaway slave and triggering N-word language that gets
+it banned. Alice is virtually ban-proof in addition to timeless.
 
 If you only know Alice through the Disney movie, I suggest you read it. It's
 not a long read, and it's a very different experience. The subtle difference
@@ -156,5 +156,5 @@ eaten like an oyster.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
