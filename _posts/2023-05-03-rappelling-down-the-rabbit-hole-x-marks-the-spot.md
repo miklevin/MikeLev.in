@@ -4,7 +4,7 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: magic, text editors, api, vim, neovim, muscle memory, emacs
+categories: emacs, vim, neovim, api, muscle memory, text editors, magic
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 ---
@@ -157,8 +157,8 @@ safety gear and a brake. It's a good metaphor for the type of exploration we
 sometimes must do of the more dangerous rabbit holes. It also helps to have the
 resources up top to pull you up and out if something goes wrong.
 
-I don't rappel much down clearly dangerous rabbit holes anymore, even though
-life clearly begins outside out comfort zone. Otherwise, we'd all still be in
+I don't rappel much down obviously dangerous rabbit holes anymore, even though
+life tends to begin outside our comfort zone. Otherwise, we'd all still be in
 the womb. Peering down them is fine, and observing others who have is fine. You
 know what I hate? Crypto. Those crypto bros telling you how if you're not
 getting rich off of XYZ-tech right now that you're missing out. South Park did
@@ -325,10 +325,10 @@ fantasy, silly.
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>

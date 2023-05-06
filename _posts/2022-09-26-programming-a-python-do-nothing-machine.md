@@ -4,7 +4,7 @@ title: Programming a Python Do Nothing Machine
 headline: Exploring the Possibilities of a Python Do Nothing Machine
 description: I'm writing a program in Python to create a Do Nothing Machine. Using a command-line, I'm coding a loop that will run until a particular file is removed. The loop will print out the number of seconds it has been running, and once the file is removed, it will print 'Need new IP' and create a new file to reset the counter. Follow my journey as I create this program and explore the possibilities of the Do Nothing Machine.
 keywords: Python, Programming, Do Nothing Machine, Command-Line, Loop, File, Remove, Seconds, Counter, Create, Program, Possibilities, Journey
-categories: python, command-line, loop, journey
+categories: command-line, journey, loop, python
 permalink: /blog/programming-a-python-do-nothing-machine/
 layout: post
 ---
@@ -102,7 +102,7 @@ while True:
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
+<li><h4><a href='/journey/'>Journey</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
