@@ -26,7 +26,7 @@ I'm Michael Scott, Steve Carell's character from *The Office*. I have some
 natural skill for the field I'm in, but in so many ways, I'm the bumbling fool.
 It's a classic personality type. It's no wonder that Steve Carell who plays
 that role so well was also tapped to play Don Adams... uh I mean Maxwell Smart
-in the Get Smart movie, the all-time ***second greatest*** Secret Alpha.
+in the `Get Smart` movie, the all-time ***second greatest*** Secret Alpha.
 
 For those too young to remember, there was an old TV show called *Get Smart*.
 It was a spoof of the James Bond movies and was what was remade into the movie
@@ -100,12 +100,11 @@ actually turn out being if only they didn't have their efforts foiled by a
 system that's designed to make them fail. 
 
 This was a period in my life I talked about in a recent video as my "great
-twenty-eights". Many people go through them, and the sensitive artist types
-tend to clock-out during these years. You know you're turning 30 soon, do lots
-of introspection, and bear-down on your shit in a panic like you're on a
-permanent Ibogaine trip. Over-sensitive artist-types who feel the pain of the
-world commit suicide. Obnoxious punks like me with something to prove bear down
-on it. Everyone else settles down and raises a family.
+twenty-eights". Many people go through them and it's famous among artists and
+performers who don't always make it through them. You know you're turning 30
+soon, do lots of introspection, and bear-down on your shit in a panic. If you
+have something to prove like I did, you bear down on it. Everyone else settles
+down and raises a family.
 
 {% include youtubePlayer.html id="dmWLlEDoEt0" %}
 
