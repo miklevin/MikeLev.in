@@ -12,4 +12,4 @@
 <li><a href="/blog/turning-repo-into-nbdev-project/">Turning Repo into nbdev Project</a> (Tue Apr 26, 2022)
 <br/>I created a GitHub repo for my project, blogslicer, and connected it to my local directory. After editing the settings.ini file, I moved and renamed the notebook into the repo, added the necessary cells and comments for nbdev, and attempted to publish the project. Finally, I altered pythonically.com to not use index.md as the journal. Read my blog post to learn how I did it!</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/web/">Web</a></div> &nbsp; <div class="post-nav-next"><a href="/github-io/">Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/draft/">Drafts</a></div> &nbsp; <div class="post-nav-next"><a href="/github-io/">Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>

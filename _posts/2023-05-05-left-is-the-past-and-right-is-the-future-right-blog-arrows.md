@@ -4,7 +4,7 @@ title: Left is The Past and Right is The Future, Right? (Blog Arrows)
 headline: "Exploring the Nuances of Blog Navigation: Reversing Arrows for a Configurable Past and Future"
 description: I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.
 keywords: arrows, navigation, web, linear sequences, story-telling, prev/next, SEO, anchor text, long-tail trick, exact-matches, off-popular keywords, related pages, autocompletes, numbers, periods, floats, domain names, Copilot, 80/20-rule, Western culture, reading directions, present, configurable, ALL Blog Posts, light touch, classes, mapping, left-arrow, right-arrow, previous, next, side,
-categories: seo, 80/20-rule, web, mapping, copilot, navigation
+categories: seo, 80/20-rule, navigation, copilot
 permalink: /blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/
 layout: post
 ---
@@ -174,12 +174,12 @@ def arrow_maker(i, length, href_title_list):
     # Handle arrows at beginning and end of sequence
     if not i:
         older_slug, older_title = href_title_list[i + 1]
-        newer_slug, newer_title = None, None
+        newer_slug, newer_title = "", ""
     elif i < length - 1:
         older_slug, older_title = href_title_list[i + 1]
         newer_slug, newer_title = href_title_list[i - 1]
     else:
-        older_slug, older_title = None, None
+        older_slug, older_title = "", ""
         newer_slug, newer_title = href_title_list[i - 1]
 
     if PAST_IS_LEFT:
@@ -210,7 +210,8 @@ Hmmm. There are parts of this that are tough to understand, not the least of
 which is what those parameters are. I tried to make them self-explanatory, but
 seeing how it's called may make it clearer. And I can hardly show it out of
 context of the function it resides in, so here's the whole `yaml_chop()`
-function. Look for where `arrow_maker()` is called:
+function. Look for where `arrow_maker()` is called, and look near the top of
+the function for where `href_title_list` is populated:
 
 ```python
 def yaml_chop():
@@ -221,6 +222,7 @@ def yaml_chop():
     #   |_/_/   \_\_|  |_|_____|| \____|_| |_|\___/| .__/ (_)(_)(_)
     fig("Chop the YAML!")  #    |                  |_|
     """Chop a YAMLesque text-file into the individual text-files (posts) it implies."""
+    global ydict
     num_pages = len(ydict)
     href_title_list = [(f'{BLOG}{ydict[x]["slug"]}/', ydict[x]["title"]) for x in ydict]
     counter = 0
@@ -292,13 +294,11 @@ Wanna see the output? Look around.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/">The Time I Learned I Was a Yankee Doodle Dandy</a></div> &nbsp; <div class="post-nav-next"><a href="None">None</a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/">The Time I Learned I Was a Yankee Doodle Dandy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/web/'>Web</a></h4></li>
-<li><h4><a href='/mapping/'>Mapping</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li></ul>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>

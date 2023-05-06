@@ -138,8 +138,6 @@
 <li><a href="/linux-terminal/">Linux Terminal</a></li>
 <li><a href="/github-io/">Github.io</a></li>
 <li><a href="/blogslicer/">blogslicer</a></li>
-<li><a href="/web/">Web</a></li>
-<li><a href="/mapping/">Mapping</a></li>
 <li><a href="/draft/">Drafts</a></li>
 <li><a href="/theory/">Theory</a></li>
 <li><a href="/processing/">Processing</a></li>
@@ -149,4 +147,6 @@
 <li><a href="/competitor/">Competitors</a></li>
 <li><a href="/emacs/">Emacs</a></li>
 <li><a href="/text-editors/">Text Editors</a></li>
+<li><a href="/open-source/">Open-Source</a></li>
+<li><a href="/copy-paste/">Copy/Paste</a></li>
 </ol>

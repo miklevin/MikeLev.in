@@ -33,6 +33,6 @@
 [Flow](/flow/) | [.vimrc](/vimrc/) | [Journal.md](/journal-md/) | [DrinkMe](/drinkme/) | 
 [Marketing](/marketing/) | [Collaboration](/collaboration/) | [Scheduling](/scheduling/) | [Tricks](/trick/) | 
 [Wisdom](/wisdom/) | [Progress](/progress/) | [LXC](/lxc/) | [Desktop](/desktop/) | 
-[Linux Terminal](/linux-terminal/) | [Github.io](/github-io/) | [blogslicer](/blogslicer/) | [Web](/web/) | 
-[Mapping](/mapping/) | [Drafts](/draft/) | [Theory](/theory/) | [Processing](/processing/) | 
-[JSON](/json/) | [Vendors](/vendor/) | [Operating Systems](/operating-systems/) | [Competitors](/competitor/) | 
+[Linux Terminal](/linux-terminal/) | [Github.io](/github-io/) | [blogslicer](/blogslicer/) | [Drafts](/draft/) | 
+[Theory](/theory/) | [Processing](/processing/) | [JSON](/json/) | [Vendors](/vendor/) | 
+[Operating Systems](/operating-systems/) | [Competitors](/competitor/) | [Emacs](/emacs/) | [Text Editors](/text-editors/) | 
