@@ -4,7 +4,7 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: emacs, vim, neovim, api, muscle memory, text editors, magic
+categories: neovim, magic, muscle memory, vim, api, emacs, text editors
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 ---
@@ -202,15 +202,15 @@ That world-changing billionaire who's schooling the world on the dangers of AI
 is right to draw the parallels with old school demon summoning magic.
 
 With ease I start my incantations each day, with an `all` script I run by just
-typing `all` and hitting enter. It's a bash script that runs comes from
-(interestingly and until recently, unexpectedly) from my Python virtual
-environment, currently set to Python 3.11 and on the path `~/py311/bin`. This
-allows me to put stuff in that location without the .py file extension, but
-having the shebang line at the top of the file, and making it executable with
-`chmod +x`. The shebang line is `#! /usr/bin/env python` which is another
-wonderful trick. Wonderful trick is built on wonderful trick to eliminate the
-need to use the more traditional and limiting `/usr/local/sbin/` location for
-such things where you need to use the `sudo` command to edit them.
+typing `all` and hitting enter. It's a bash script that runs comes from out of
+my Python virtual environment, currently set to Python 3.11 and on the path
+`~/py311/bin`. This allows me to put stuff in that location without the .py
+file extension, but having the shebang line at the top of the file, and making
+it executable with `chmod +x`. The shebang line is `#! /usr/bin/env python`
+which is another wonderful trick. Wonderful trick is built on wonderful trick
+to eliminate the need to use the more traditional and limiting
+`/usr/local/sbin/` location for such things where you need to use the `sudo`
+command to edit them.
 
 So I made my incantation-magic as straight forward and "alive" as possible.
 It's alive in the sense that now that I don't need `sudo` to edit it, I can
@@ -325,10 +325,10 @@ fantasy, silly.
 ## Categories
 
 <ul>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/neovim/'>NeoVim</a></h4></li>
-<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/api/'>API</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li></ul>
