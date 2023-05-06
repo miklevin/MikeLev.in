@@ -4,7 +4,7 @@ title: Left is The Past and Right is The Future, Right? (Blog Arrows)
 headline: "Exploring the Nuances of Blog Navigation: Reversing Arrows for a Configurable Past and Future"
 description: I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.
 keywords: arrows, navigation, web, linear sequences, story-telling, prev/next, SEO, anchor text, long-tail trick, exact-matches, off-popular keywords, related pages, autocompletes, numbers, periods, floats, domain names, Copilot, 80/20-rule, Western culture, reading directions, present, configurable, ALL Blog Posts, light touch, classes, mapping, left-arrow, right-arrow, previous, next, side,
-categories: navigation, seo, 80/20-rule, mapping, web, copilot
+categories: seo, 80/20-rule, web, mapping, copilot, navigation
 permalink: /blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/
 layout: post
 ---
@@ -29,21 +29,14 @@ because exact-matches on off-popular keywords don't work anymore, I still like
 the idea of a sequence of pages that are related to each other and the sheer
 beauty and logic of well-labeled arrows as a navigational device.
 
-It took some finagling to get Copilot to come up with a beautiful solution like
-this and I learned from it. It's a good 80/20-rule solution. Most of the first
-autocompletes where I asked for looking for numbers with periods would have
-also filtered domain names. It took me changing my language to "floats" and to
-explicitly keep domain names was necessary to spur Copilot to come up with this 
-righteous solution.
-
-Okay, next is the direction of the prev/next arrows that let you step through
-the blog. I currently have you entering into the most recent post in a
-sequence, representing ***the present***. But then to go into the past, you
-have to click the forward button. Now it's probably a Western culture thing
-with left being the past and right being the future, because of reading
-directions, so I don't want to hardwire it either way. Go figure out how to
-make it configurable, then configure it into the opposite direction as I
-currently have it on the ***ALL Blog Posts*** sequence.
+What direction do the prev/next arrows that let you step through the blog? I
+currently have you entering into the most recent post in a sequence,
+representing ***the present***. But then to go into the past, you have to click
+the forward button. Now it's probably a Western culture thing with left being
+the past and right being the future, because of reading directions, so I don't
+want to hardwire it either way. Go figure out how to make it configurable, then
+configure it into the opposite direction as I currently have it on the ***ALL
+Blog Posts*** sequence.
 
 The fist time I tried reversing these arrows, I got this:
 
@@ -303,9 +296,9 @@ Wanna see the output? Look around.
 ## Categories
 
 <ul>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/mapping/'>Mapping</a></h4></li>
 <li><h4><a href='/web/'>Web</a></h4></li>
-<li><h4><a href='/copilot/'>Copilot</a></h4></li></ul>
+<li><h4><a href='/mapping/'>Mapping</a></h4></li>
+<li><h4><a href='/copilot/'>Copilot</a></h4></li>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li></ul>

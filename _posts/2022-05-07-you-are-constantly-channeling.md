@@ -4,7 +4,7 @@ title: You Are Constantly Channeling
 headline: "Unlocking the Secrets of Consciousness: Exploring the New Normal"
 description: I'm constantly channeling, but I don't always recognize it. My sensitivity levels have been lowered for my own peace of mind, but that doesn't mean I'm not still receiving messages. In this blog post, I'm capturing a droplet of that messaging and sharing it with you, so you can understand how consciousness works and why it's important to pay attention to these signals. Come explore this new normal with me.
 keywords: Channeling, Sensitivity, Messages, Consciousness, Stimulated, Droplet, Messaging, Sharing, New Normal, Nerves, Life, Trying, Capture
-categories: messages, consciousness
+categories: consciousness, messages
 permalink: /blog/you-are-constantly-channeling/
 layout: post
 ---

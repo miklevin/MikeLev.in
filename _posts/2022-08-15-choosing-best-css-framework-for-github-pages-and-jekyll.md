@@ -4,7 +4,7 @@ title: Choosing Best CSS Framework For Github Pages and Jekyll
 headline: Exploring CSS Frameworks for Jekyll and Github Pages
 description: "I'm looking for a CSS framework that provides a modern look, is search-friendly, has been around the longest, and allows me to produce clean, vanilla HTML code. After considering Bootstrap, Foundation, Bulma, Semantic, and UIkit, I decided to go with Foundation because it doesn't require btn classes. I activated lpvg.org on Github pages, created a `_layouts` folder and default.html file, and reminded myself to take baby steps."
 keywords: CSS, Framework, Modern, Look, Search-Friendly, Longest, Clean, Vanilla, HTML, Bootstrap, Foundation, Bulma, Semantic, UIkit, Btn, Classes, Github, Pages, Jekyll, Experiment, Rabbit, Holes, Baby, Steps, Categories, Feature, Blogging, Software, To-Do, List
-categories: experiment, html, jekyll, github, blogging
+categories: github, experiment, jekyll, html, blogging
 permalink: /blog/choosing-best-css-framework-for-github-pages-and-jekyll/
 layout: post
 ---
@@ -107,8 +107,8 @@ down to the bare essentials.
 ## Categories
 
 <ul>
-<li><h4><a href='/experiment/'>Experiment</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/github/'>Github</a></h4></li>
+<li><h4><a href='/experiment/'>Experiment</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/blogging/'>Blogging</a></h4></li></ul>

@@ -313,6 +313,13 @@ category identifying. No matter how harrowing and significant years like 2020
 are and Ubuntu versions to 20.04 are, numbers don't belong in my site's
 category master-list. 
 
+It took some finagling to get Copilot to come up with a beautiful solution like
+this and I learned from it. It's a good 80/20-rule solution. Most of the first
+autocompletes where I asked for looking for numbers with periods would have
+also filtered domain names. It took me changing my language to "floats" and to
+explicitly keep domain names was necessary to spur Copilot to come up with this 
+righteous solution.
+
 ```python
 # Check if keyword is just a number-string (like "404")
 # or a float like "20.04". Allow domain names like "example.com":
