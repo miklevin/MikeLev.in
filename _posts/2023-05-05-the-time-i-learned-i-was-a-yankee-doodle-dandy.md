@@ -283,11 +283,13 @@ Gently help them realize that the hound they're trying to throw off the scent
 and confuse is a very different and potentially dangerous breed of mutt than
 they originally thought. Don't reveal all your cards, but give 'em a wink. It's
 got to be emotional. You're not appealing to their rational human-animal side
-of their brain with good ol' Pavlov's methods. You're reaching into their heads
-and traveling down to their lower down their upper-brainstem and lower limbic
-system, their amygdala and pituitary gland that knows hunger and fear. This
-inner animal has to "get it", and associate you with getting food, not having
-it taken away. Anything less and you'll always be bathing with the crocs.
+of their brain with good ol' Pavlov's methods. 
+
+You're reaching into their heads and down to their upper-brainstem and lower
+limbic system, their amygdala and pituitary gland that knows hunger and fear.
+This inner animal has to "get it", and associate you with getting food, not
+having it taken away. Anything less and you'll always be swimming with
+crocodiles.
 
 If you're a hound in pursuit of details, don't get thrown off the scent.
 Recognize those things that are designed precisely to do so. Sometimes it's
