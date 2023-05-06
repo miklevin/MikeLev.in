@@ -4,7 +4,7 @@ title: Beware the Re-Corralling
 headline: Stay Up-to-Date and Avoid Re-Corralling with Modern Computer Technology
 description: In this blog post, I discuss the need to stay up-to-date with the latest technological advancements and the potential for AI to disrupt our lives. To prevent becoming too reliant on AI, I suggest running scripts from home to republish blogs and switching to Linux or Unix systems instead of Windows. I also provide tips on how to use modern computer technology, such as connecting to remote computers through SSH, transmitting files with git, editing files with vim, and controlling servicew with the CLI.
 keywords: AI, Disruption, Windows, Linux, Unix, SSH, Git, Vim, Command-Line, Ubuntu, VSCode, YouTube, Easter Egg
-categories: git, ai, command-line, youtube, unix, vscode, vim, ubuntu, linux
+categories: command-line, ubuntu, ai, youtube, git, unix, vscode, linux, vim
 permalink: /blog/beware-the-re-corralling/
 layout: post
 ---
@@ -164,12 +164,12 @@ post. Then I string them together with the categories feature. Hmmm. Nice.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/command-line/'>Command-Line</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/unix/'>Unix</a></h4></li>
 <li><h4><a href='/vscode/'>VSCode</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

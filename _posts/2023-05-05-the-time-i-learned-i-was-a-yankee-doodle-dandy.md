@@ -244,21 +244,21 @@ gatekeepers results in attempted quick invalidation of whatever you say. It
 doesn't matter what it is. They have very polished language-skills, rife with
 practiced fallacies and logical errors. They're very good at it. 
 
-When faced with the rapid invalidating shoot-down of a gatekeeper, a Secret
+When faced with the rapid invalidating shoot-down by a gatekeeper, a Secret
 Alpha has to decide quick whether to let them see you using vim. There's just
 something about slamming text around like an adept on an old-school hacker
 screen that gets the message across.
 
 Sometimes detente can be struck. Just convince them you don't want that damn
-garden behind the gate. You're just chasing some rabbit and you'll be leaving
-them alone.
+garden they're guarding behind that gate. You're just chasing some white rabbit
+'cause you're a "journey is the reward" kind of character and just passing
+through.
 
 A still-panicky skilled gatekeeper will try to plant the seeds of your demise
 in the form of saddling you with some impossible seeming Herculean task that's
-supposed to be right up your alley, right? It's a trap. From their
-semi-authoritative position, they know the difficulty of that task and is even
-perhaps something they themselves couldn't do, and it's been playing the role
-of the mythical unicorn.
+supposed to be right up your alley, right? It's a trap. From their position,
+they know the difficulty of that task and is even perhaps something they
+themselves couldn't do, and it's been playing the role of the mythical unicorn.
 
 Your success or failure in the unicorn-hunting mission they manage to tag you
 with will be the by measure by which you are judged. It has been arranged so.
