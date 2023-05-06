@@ -4,7 +4,7 @@ title: Reverse Chronological Writing is the Natural Order
 headline: "I Discovered the Natural Order of Writing: Reverse Chronological"
 description: I explore how reverse chronological writing is the natural order for blogging. I discuss the history of writing, how technology has changed the way we write, and the instinctive feeling of starting with a blank page that comes with reverse chronological order. This is the format that satisfies our human need to start at the top of a blank page every time.
 keywords: reverse chronological, writing, journal entries, formative experience, personality type, arrow direction, blogging software, subtlety, nuance, life, magic spell, traditional blogging, logs, ledgers, scrolls, text editors, word processors, cursor, electronic media, top-to-bottom, left-to-right, right-to-left, software tricks, blank page, fresh page, night/day, sleep/wake cycle, micro-inversions, blog post, blog, readers
-categories: text editors
+categories: 
 permalink: /blog/reverse-chronological-writing-is-the-natural-order/
 layout: post
 ---
@@ -224,5 +224,4 @@ sequence of events that you can only see in hindsight.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/text-editors/'>text editors</a></h4></li></ul>
+<ul></ul>

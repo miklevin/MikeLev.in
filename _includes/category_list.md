@@ -24,15 +24,3 @@
 [Twitter](/twitter/) | [HTML](/html/) | [20.04](/20-04/) | [Text Editor](/text-editor/) | 
 [New York City](/new-york-city/) | [Graphics](/graphic/) | [Network](/network/) | [Blogging](/blogging/) | 
 [Audience](/audience/) | [SqliteDict](/sqlitedict/) | [Email](/email/) | [Message](/message/) | 
-[2022](/2022/) | [Development](/development/) | [Bash](/bash/) | [Flow](/flow/) | 
-[Imposter Syndrome](/imposter-syndrome/) | [Science](/science/) | [Dependencies](/dependency/) | [NYC](/nyc/) | 
-[Powershell](/powershell/) | [Static Site Generator](/static-site-generator/) | [PyPI](/pypi/) | [Github Copilot](/github-copilot/) | 
-[Empathy](/empathy/) | [Chatbot](/chatbot/) | [Algorithms](/algorithm/) | [Command-Line](/command-line/) | 
-[Loop](/loop/) | [Levinux](/levinux/) | [Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | 
-[text editors](/text-editors/) | [Navigation](/navigation/) | [GNU](/gnu/) | [Quantum](/quantum/) | 
-[Magic](/magic/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | [Productivity](/productivity/) | 
-[.vimrc](/vimrc/) | [Journal.md](/journal-md/) | [DrinkMe](/drinkme/) | [Marketing](/marketing/) | 
-[Scheduling](/scheduling/) | [Tricks](/trick/) | [Wisdom](/wisdom/) | [Progress](/progress/) | 
-[LXC](/lxc/) | [18.04](/18-04/) | [Desktop](/desktop/) | [Linux Terminal](/linux-terminal/) | 
-[Github.io](/github-io/) | [blogslicer](/blogslicer/) | [Drafts](/draft/) | [Theory](/theory/) | 
-[JSON](/json/) | [Vendors](/vendor/) | [Operating Systems](/operating-systems/) | [Competitors](/competitor/) | 

@@ -1,8 +1,9 @@
 title: Mike Levin SEO
 author: Mike Levin, SEO in NYC
-apex: MikeLev.in
+base_url: https://mikelev.in/
 permalink: /:slug/
 gaid: G-RX2D1N1P2Y
+apex: MikeLev.in
 
 # Conversion
 markdown:    kramdown
@@ -24,6 +25,106 @@ defaults:
 
 # Metadata
 categories:
+  python:
+  linux:
+  vim:
+  ai:
+  git:
+  seo:
+  microsoft:
+  script:
+  wsl:
+  jekyll:
+  youtube:
+  lxd:
+  github:
+  jupyterlab:
+  journey:
+  journaling:
+  jupyter:
+  openai:
+  container:
+  api:
+  wsl2:
+  unix:
+  chatgpt:
+  neovim:
+  ubuntu:
+  automation:
+  github pages:
+  systemd:
+  bing:
+  vscode:
+  jupyter notebook:
+  javascript:
+  database:
+  windows 10:
+  machine learning:
+  pipulate:
+  moz:
+  google:
+  windows 11:
+  mac:
+  notebook:
+  nbdev:
+  google analytics:
+  copilot:
+  learning:
+  terminal:
+  platform:
+  panda:
+  service:
+  80/20-rule:
+  yaml:
+  keywords:
+  experiment:
+  search:
+  macro:
+  sqlite:
+  headline:
+  browser automation:
+  focus:
+  consciousness:
+  docker:
+  coding:
+  open source:
+  success:
+  skill:
+  google photos:
+  artificial intelligence:
+  publishing:
+  web development:
+  nodejs:
+  proprietary:
+  change:
+  math:
+  habit:
+  template:
+  microsoft playwright:
+  moz pro:
+  lpvg:
+  goal:
+  future:
+  tutorial:
+  strategy:
+  evolution:
+  child:
+  excel:
+  jupyter notebooks:
+  csv:
+  organization:
+  twitter:
+  html:
+  '20.04':
+  text editor:
+  new york city:
+  graphic:
+  network:
+  blogging:
+  audience:
+  sqlitedict:
+  email:
+  message:
   filter:
     - article
     - blog
@@ -147,106 +248,6 @@ categories:
     - world
     - writing
   all:
-    - python
-    - linux
-    - vim
-    - ai
-    - git
-    - seo
-    - microsoft
-    - script
-    - wsl
-    - jekyll
-    - youtube
-    - lxd
-    - github
-    - jupyterlab
-    - journey
-    - journaling
-    - jupyter
-    - openai
-    - container
-    - api
-    - wsl2
-    - unix
-    - chatgpt
-    - neovim
-    - ubuntu
-    - automation
-    - github pages
-    - systemd
-    - bing
-    - vscode
-    - jupyter notebook
-    - javascript
-    - database
-    - windows 10
-    - machine learning
-    - pipulate
-    - moz
-    - google
-    - windows 11
-    - mac
-    - notebook
-    - nbdev
-    - google analytics
-    - copilot
-    - learning
-    - terminal
-    - platform
-    - panda
-    - service
-    - 80/20-rule
-    - yaml
-    - keywords
-    - experiment
-    - search
-    - macro
-    - sqlite
-    - headline
-    - browser automation
-    - focus
-    - consciousness
-    - docker
-    - coding
-    - open source
-    - success
-    - skill
-    - google photos
-    - artificial intelligence
-    - publishing
-    - web development
-    - nodejs
-    - proprietary
-    - change
-    - math
-    - habit
-    - template
-    - microsoft playwright
-    - moz pro
-    - lpvg
-    - goal
-    - future
-    - tutorial
-    - strategy
-    - evolution
-    - child
-    - excel
-    - jupyter notebooks
-    - csv
-    - organization
-    - twitter
-    - html
-    - '20.04'
-    - text editor
-    - new york city
-    - graphic
-    - network
-    - blogging
-    - audience
-    - sqlitedict
-    - email
-    - message
     - '2022'
     - development
     - bash

@@ -4,7 +4,7 @@ title: The Time I Learned I Was a Yankee Doodle Dandy
 headline: Maxwell Smart vs. Detective Columbo, A Tale of 2 Secret Alphas
 description: Am I Michael Scott? I think so sometimes. But then I remember I trained like a mofo to never be an imposter, and I've got the vim skills to prove it. I've learned that subtlety and nuance make all the difference, and even if you come off like the bumbling fool, that's okay. Creative folks have to run alone sometimes, so that they can offer their greatest value when they return to the pack.
 keywords: Imposter, Imposter Syndrome, Cracking the Code, Second Greatest, Secret Alpha, Bumbling Fool, Michael Scott, Steve Carell, Don Adams, Maxwell Smart, Get Smart, James Bond, TV Show, Movie, The Office, Archetype, Bumbling Spy, Catchphrase, Would You Believe, Sorry About That Chief
-categories: imposter syndrome
+categories: 
 permalink: /blog/the-time-i-learned-i-was-a-yankee-doodle-dandy/
 layout: post
 ---
@@ -342,5 +342,4 @@ navigation arrows shall be configurable! Next post...
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li></ul>
+<ul></ul>
