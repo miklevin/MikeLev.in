@@ -4,7 +4,7 @@ title: Should I No Longer Hyde From a Jekyll Server?
 headline: Celebrating My Newfound Jekyll Skills with a New Year's Party!
 description: After months of hard work, I'm proud to say I'm improving my skills with Github Pages and Github Actions. Thanks to ChatGPT, I now know how to run Jekyll on my local Linux machine like Github Pages. Now, it's time to celebrate with a New Years party!
 keywords: Github Pages, Github Actions, ChatGPT, Jekyll, Local Linux, New Years Party, Skills, Celebrate, Improve
-categories: jekyll, chatgpt, github pages, skills
+categories: jekyll, chatgpt, skills, github pages
 permalink: /blog/should-i-no-longer-hyde-from-a-jekyll-server/
 layout: post
 ---

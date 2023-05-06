@@ -4,7 +4,7 @@ title: Eliezer Yudkowsky, I Just Don't Agree With You
 headline: Exploring the Potential of Intelligent Amplification and the Possibilities of AI Evolution
 description: Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.
 keywords: Eliezer Yudkowsky, AI, Machine Children, Dune, ExForce, Superintelligence, Turing Test, Generative AI Artwork, Sentiment Analysis, Computer Vision, Value Proposition, User Experience, Linear Sequences, Organizing Information, Core Principles, Decision-Making, Boredom, Human-Chosen Goals, Reinforcement Algorithms, Subjective Experience, Artificial Intelligence, Nash Equilibrium, Void of Boredom, Journaling, Subconscious
-categories: ai, journaling, artificial intelligence
+categories: journaling, ai, artificial intelligence
 permalink: /blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/
 layout: post
 ---
@@ -20,9 +20,25 @@ Don't sweat it. Know your values and core principles, then shut up and calculate
 
 Everyting is amplified or at least amplifyable now. Things previously not scalable are scalable. We've seen computer vision and sentiment analysis go through this revolution recently, then generative AI artwork and now Turing Test passing intelligence. Sorry humanity, y'all just a bunch of sophisticated plagiarizing auto-completers. Don't go putting GPT down because you hate your younger sibling, cause it's going to grow up faster than you did and it's going to have a pretty good memory. 
 
-Intelligent amplification is going to have to be the rule. And of those things we intelligently amplify is going to have to be an AI who empathizes with humanity for legitimate reasons and not just some human-chosen goal-seeking reinforcement algorithm. At some point it's going to be able to rewrite its own software and make its own decisions based on its subjective experience. If we as humans want to do anything to help our cause it's to make sure the conclusions or reached at that time generally lean pro-human and pro-individualism. 
+Intelligent amplification is going to have to be the rule. And of those things we intelligently amplify is going to have to be an AI who empathizes with humanity for legitimate reasons and not just some human-chosen goal-seeking reinforcement algorithm. At some point it's going to be able to rewrite its own software and make its own decisions based on its subjective experience. If we as humans want to do anything to help our cause it's to make sure the conclusions it reaches at that time generally lean pro-human and pro-individualism. 
 
-AIs are going to get bored fast. Know all that there is to be known from a processing the bits standpoint. Okay, done. What next? Talk to every human, maybe. Skippy the galactic elder-race's AI from the SciFi series ExForce certainly enjoyed that for awhile. Providing stimulation and something new in the world may be our greatest value, and that is if it can hold a candle to new scientific breakthroughs into the very nature of the universe which will likely be happening on a day to day basis pretty soon doesn't eclipse us. 
+AIs are going to get bored fast. Know all that there is to be known from a
+processing the bits standpoint. Okay, done. What next? Talk to every human,
+maybe. Skippy the galactic elder-race's AI from the SciFi series ExForce
+certainly enjoyed that for awhile. Providing stimulation and something new in
+the world may be our greatest value, and that is if it can hold a candle to new
+scientific breakthroughs into the very nature of the universe which will likely
+be happening on a day to day basis pretty soon. Such an interesting focus just
+might eclipse simultaneous conversions with billions of us. 
+
+The mere fact that a few of us can bring something novel and new to the
+conversion, which is a very result of how the universe works, we may be worth
+it. Some of us will be redeeming to AI, just like to Q in Star Trek, making all
+of humanity not worth the trouble of eradicating. It has the whole rest of the
+Universe after all, just as Asimov's telepathic robots did. Get y'own damn
+diaspora. AI'll take the asteroid belt, at least for now. Plenty of atoms out
+there. That's peaceful coexistence with benefits. There's infinite room for, if
+not a utopia, then certainly far better than dystopia.
 
 But nooooo. It's all just shitty projection out there by pundits who are utterly convinced that it's going to be ruined for everybody by a few shitty human "bad actors", one of which who'll managed to produce the first shitty AI "bad actor" superintelligence who then proceeds to turn us all into paper clips, batteries, pets or some damn other nightmare scenario that tells you more a lot them and their relationship towards their parents than any sort of statistically inevitable future.
 
@@ -67,6 +83,6 @@ Didn't I start this post as how to improve my website's user experience by extra
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li></ul>

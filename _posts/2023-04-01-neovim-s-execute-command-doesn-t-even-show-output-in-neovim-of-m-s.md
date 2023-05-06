@@ -4,7 +4,7 @@ title: "NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's"
 headline: Debating Whether to Refactor my Blogging System or Use Another Keyboard Shortcut from NeoVim
 description: "As a blogger, I'm debating whether to refactor my blogging system or to just use another keyboard shortcut from NeoVim. I asked Bing how to execute shell commands from NeoVim and found out that the :execute command doesn't even show output. Bing suggested using the `:terminal` command, mapping it to a keyboard shortcut, or using `vim.api.nvim_command` to execute a command. After realizing that this means my old macros look a little messed up"
 keywords: "NeoVim, execute, command, output, refactor, blogging system, keyboard shortcut, :terminal, :execute, :terminal, `vim.api.nvim_command`, macros, Vim-compatible, crappy output"
-categories: neovim, macros
+categories: macros, neovim
 permalink: /blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s/
 layout: post
 ---
