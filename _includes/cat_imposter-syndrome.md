@@ -14,4 +14,4 @@
 <li><a href="/blog/still-figuring-out-next-step-what-i-want-at-52/">Still Figuring Out Next Step & What I Want at 52</a> (Thu Oct 20, 2022)
 <br/>At 52, I'm still trying to figure out my life and how to make a living without taking advantage of others. I'm exploring how human beings can evolve in a post-scarcity world and creating an unending stream of interesting experiences. I'm grateful to be alive and functional in society and am looking for my next step.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/science/">Science</a></div> &nbsp; <div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/science/">Science</a></div> &nbsp; <div class="post-nav-next"><a href="/flow/">Flow</a><span class="arrow">&nbsp;&rarr;</span></div></div>

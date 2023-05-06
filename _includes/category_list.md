@@ -24,13 +24,13 @@
 [Twitter](/twitter/) | [HTML](/html/) | [Text Editor](/text-editor/) | [New York City](/new-york-city/) | 
 [Graphics](/graphic/) | [Network](/network/) | [Blogging](/blogging/) | [Audience](/audience/) | 
 [SqliteDict](/sqlitedict/) | [Email](/email/) | [Message](/message/) | [Development](/development/) | 
-[Bash](/bash/) | [Imposter Syndrome](/imposter-syndrome/) | [Science](/science/) | [Dependencies](/dependency/) | 
-[NYC](/nyc/) | [Powershell](/powershell/) | [Static Site Generator](/static-site-generator/) | [PyPI](/pypi/) | 
-[Github Copilot](/github-copilot/) | [Empathy](/empathy/) | [Chatbot](/chatbot/) | [Algorithms](/algorithm/) | 
-[Command-Line](/command-line/) | [Loop](/loop/) | [Levinux](/levinux/) | [Virtualenv](/virtualenv/) | 
-[mlseo](/mlseo/) | [text editors](/text-editors/) | [Navigation](/navigation/) | [GNU](/gnu/) | 
-[Quantum](/quantum/) | [Magic](/magic/) | [Muscle Memory](/muscle-memory/) | [Meta Descriptions](/meta-descriptions/) | 
-[Productivity](/productivity/) | [Flow](/flow/) | [.vimrc](/vimrc/) | [Journal.md](/journal-md/) | 
+[Bash](/bash/) | [Flow](/flow/) | [Imposter Syndrome](/imposter-syndrome/) | [Science](/science/) | 
+[Dependencies](/dependency/) | [NYC](/nyc/) | [Powershell](/powershell/) | [Static Site Generator](/static-site-generator/) | 
+[PyPI](/pypi/) | [Github Copilot](/github-copilot/) | [Empathy](/empathy/) | [Chatbot](/chatbot/) | 
+[Algorithms](/algorithm/) | [Command-Line](/command-line/) | [Loop](/loop/) | [Levinux](/levinux/) | 
+[Virtualenv](/virtualenv/) | [mlseo](/mlseo/) | [text editors](/text-editors/) | [Navigation](/navigation/) | 
+[GNU](/gnu/) | [Quantum](/quantum/) | [Magic](/magic/) | [Muscle Memory](/muscle-memory/) | 
+[Meta Descriptions](/meta-descriptions/) | [Productivity](/productivity/) | [.vimrc](/vimrc/) | [Journal.md](/journal-md/) | 
 [DrinkMe](/drinkme/) | [Marketing](/marketing/) | [Collaboration](/collaboration/) | [Scheduling](/scheduling/) | 
 [Tricks](/trick/) | [Wisdom](/wisdom/) | [Progress](/progress/) | [LXC](/lxc/) | 
 [Desktop](/desktop/) | [Linux Terminal](/linux-terminal/) | [Github.io](/github-io/) | [blogslicer](/blogslicer/) | 

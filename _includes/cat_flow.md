@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/">Editing Text As a Form of Meditation or Martial Arts Kata</a> (Sat May 06, 2023)
+<br/>Let me show you how to use text editing as a form of meditation or martial arts. I explain the mechanics of the tool and how it can be used to access the subconscious, like meditation and martial arts. Learn how to use text editing to access the flow state and improve your writing skills.</li>
 <li><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a> (Tue May 02, 2023)
 <br/>I recently had an interesting discussion with my kid about the importance of being in the zone and not thinking about being in the zone. We discussed how it's important to know the difference between being in the zone and getting into a 'meta' state, which can derail your groove and prevent you from doing something well.</li>
 <li><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a> (Sun Apr 30, 2023)
@@ -12,4 +14,4 @@
 <li><a href="/blog/get-your-daily-vim-exercise/">Get Your Daily vim Exercise</a> (Fri Apr 15, 2022)
 <br/>I'm learning to express myself fluently in English, use Linux, Python, vim, and git, and focus on joy-filled habits. I'm also recognizing the importance of maintenance and organization to achieve flow, but understand the difficulty of developing habits in a constantly changing environment. I'm exploring the luxuries of static environments, like properties and inheritances, and how they can help with habit formation.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/vimrc/">.vimrc</a></div> &nbsp; <div class="post-nav-next"><a href="/productivity/">Productivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/imposter-syndrome/">Imposter Syndrome</a></div> &nbsp; <div class="post-nav-next"><a href="/bash/">Bash</a><span class="arrow">&nbsp;&rarr;</span></div></div>
