@@ -4,7 +4,7 @@ title: Even if AI Can't Solve Unsolvable Problems, It Sure Can Write Stories Abo
 headline: "Unsolved Mysteries of the Universe: A Scientist's Quest to Find Answers"
 description: "As a scientist, I am fascinated by the unsolved mysteries of our universe and the experiments that try to answer them. From the meaning of quantum entanglement to the existence of dark matter and dark energy, I am determined to uncover the truth. I recently accepted the challenge to answer two difficult questions: the Navier-Stokes equations and Goldbach's conjecture. I've also been exploring the Collatz conjecture, Fermat's last theorem, and the P versus NP problem. Join me on my"
 keywords: AI, Solve Unsolvable Problems, Write Stories, Scientific Mysteries, Experiments, Quantum Entanglement, Dark Matter, Dark Energy, Navier-Stokes Equations, Goldbach's Conjecture, Collatz Conjecture, Fermat's Last Theorem, P vs NP Problem, Nature of Time, Extra Dimensions of Space, Bell's Inequality Tests, SETI, Atomic Clocks, Genes, Cancer, Luck, Measure Evidence, Multiverse, Large Hadron
-categories: ai, experiments
+categories: experiments, ai
 permalink: /blog/even-if-ai-can-t-solve-unsolvable-problems-it-sure-can-write-stories-about-them/
 layout: post
 ---
