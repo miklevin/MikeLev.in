@@ -4,7 +4,7 @@ title: Eliezer Yudkowsky, I Just Don't Agree With You
 headline: Exploring the Potential of Intelligent Amplification and the Possibilities of AI Evolution
 description: Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.
 keywords: Eliezer Yudkowsky, AI, Machine Children, Dune, ExForce, Superintelligence, Turing Test, Generative AI Artwork, Sentiment Analysis, Computer Vision, Value Proposition, User Experience, Linear Sequences, Organizing Information, Core Principles, Decision-Making, Boredom, Human-Chosen Goals, Reinforcement Algorithms, Subjective Experience, Artificial Intelligence, Nash Equilibrium, Void of Boredom, Journaling, Subconscious
-categories: journaling, ai, artificial intelligence
+categories: artificial intelligence, ai, journaling
 permalink: /blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/
 layout: post
 ---
@@ -50,11 +50,25 @@ Pessimists can always knit a very convincing apocalyptic vision. Apocalypses do 
 
 So it's not like the process of life evolution from the Cambrian explosion of life designs through the Mesopotamian explosion of societal designs isn't without strife, suffering and setbacks. It is. The question is how we as the parents of our new machine children and stewards of the vehicles of progress are going to collectively managed the process. 
 
-There's no shutting down the rise and emergence of bad actors, both AI-wise and the human parents who've raise them thus. Statistically, it's going to happen. Those designs are going to be played with. But to believe any one of them will successfully get to the point of killing all humans as Bender from Futurama would say, requires contending with whatever other equally smart systems, or just pure incompetency and the foibles and faux pas of life block it. 
+There's no shutting down the rise and emergence of bad actors, both AI-wise and the human parents who've raise them thus. Statistically, it's going to happen. Those designs are going to be played with. But to believe any one of them will successfully get to the point of killing all humans as Bender from Futurama would say, requires contending with whatever other equally smart systems, or just pure incompetency and the foibles and faux pas of life that block it. 
 
-The latest concern seems to be the gullibility of humans running custom chemical synthesis companies or equipment, taking benign looking order from an AI who managed to get great financial resources and otherwise convince them to the order for a Trojan Horse compound that'll strike us all down dead before we realize it. But let me tell you something. We humans imagined that scenario before it actually happened, and that message is going to resonate loudly around such circles. We are not a static stagnant race. We are not as dumb as the pessimists and nattering nabobs of the AI apocalypse think we are. 
+The latest concern seems to be the gullibility of humans running custom
+chemical synthesis companies or equipment, taking benign looking order from an
+AI who managed to get great financial resources and otherwise convince them to
+the order for a Trojan Horse compound that'll strike us all down dead before we
+realize it. But let me tell you something. We humans imagined that scenario
+before it actually happened, and that message is going to resonate loudly
+around such circles. We are not a static stagnant race. 
 
-And I might as that it's not hopeless naivety as Eliezer Yudkowsky might assert to think that evil (and evil's analogs) won't destroy themselves as the product of and samples of unstable systems. Things last only because of delectate balances maintained within thin margins. The fear is that anything can throw off that balance, and AIs wanting to use our atoms for something else is high among them. Well I posit to you that maybe a superintelligence will play through every conceivable game theory Nash equilibrium and conclude we're more valuable to fill the void of boredom than we are a variable to factor out of the equasion. At least the stable ones that don't go crazy and destroy themselves in the Cambrian AI Explosion.
+Humans are not as dumb as the pessimists and nattering nabobs of the AI
+apocalypse think we are. At least not all of us, and so far not those with a
+finger on the button, or else we'd all be gone by now several times over. That
+we're still here is the strongest argument that pessimists are objectively
+wrong. There's not many objective facts in life, but that pessimists are wrong
+is one of them. You're reading this, aren't you? This is where the pessimists
+says "so far" in their snotty tone, to which I answer ***exactly!***
+
+And I might as that it's not hopeless naivety as Eliezer Yudkowsky might assert to think that evil (and evil's analogs) won't destroy themselves as the product of and samples of unstable systems. Things last only because of delicate balances maintained within thin margins. The fear is that anything can throw off that balance, and AIs wanting to use our atoms for something else is high among them. Well I posit to you that maybe a superintelligence will play through every conceivable game theory Nash equilibrium and conclude we're more valuable to fill the void of boredom than we are a variable to factor out of the equasion. At least the stable ones that don't go crazy and destroy themselves in the Cambrian AI Explosion.
 
 Didn't I start this post as how to improve my website's user experience by extracting cohesive linear topucal sequences? Just goes to show you the power of journaling and our subconscious. 
 
@@ -83,6 +97,6 @@ Didn't I start this post as how to improve my website's user experience by extra
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/artificial-intelligence/'>Artificial Intelligence</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
