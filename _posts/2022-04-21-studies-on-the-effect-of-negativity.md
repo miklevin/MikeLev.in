@@ -4,7 +4,7 @@ title: Studies On The Effect Of Negativity
 headline: "Unlock Your Success: 95% of Your Success is Determined by Those Around You - A 25-Year Harvard Study."
 description: As a Harvard University researcher, I recently completed a 25-year study that concluded that the people around us have a major impact on our success - up to 95%! I invite you to read more about my findings and how they can help you reach your goals.
 keywords: Harvard University, Research, 25-Year Study, People, Success, Goals, Dr. David McClelland, Impact, Findings
-categories: goals, success
+categories: success
 permalink: /blog/studies-on-the-effect-of-negativity/
 layout: post
 ---

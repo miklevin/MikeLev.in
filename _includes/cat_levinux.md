@@ -14,4 +14,4 @@
 <li><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a> (Sun May 29, 2022)
 <br/>I'm Mike Levinux and I created Levinux, a Linux distro designed to help people learn Unix/Linux. It includes components such as Tiny Core Linux, QEMU, BusyBox, and a virtual Linux, plus a file-transfer system and a server-building script system. I advocate for the use of Vim and Git for security, and suggest using Python and forward-slashes for code that will run anywhere.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pipulate/">Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/pipulate/">Pipulate</a></div> &nbsp; <div class="post-nav-next"><a href="/microsoft/">Microsoft</a><span class="arrow">&nbsp;&rarr;</span></div></div>

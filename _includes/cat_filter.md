@@ -1,7 +1,0 @@
-<ol>
-<li><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a> (Wed Apr 19, 2023)
-<br/>I recently completed a project to create a content GAP analysis between websites using MOZ data. I wrote code in Python and used Microsoft Playwright to automate the download of keyword lists. I used Pandas to create a pivot table, merge the dataframes, sort the data, drop duplicates, and save the data to an Excel file. My program helps identify gaps in content ranking between different sites and filter out keywords with less than 1000 monthly searches.</li>
-<li><a href="/blog/ai-creates-new-competitive-pressures-for-content-providers/">AI Creates New Competitive Pressures For Content Providers</a> (Mon Mar 13, 2023)
-<br/>This blog post explores the intersection of deep learning and game theory, discussing how deep learning can be used to solve complex game theory problems and how game theory can be used to improve the performance of deep learning algorithms. I recently read a research paper on this topic and recommend it to anyone interested in learning more about this fascinating intersection.</li>
-</ol>
-<div class="arrow-links"><div class="post-nav-prev"><a href=""></a></div> &nbsp; <div class="post-nav-next"><a href="/amiga/">Amiga</a><span class="arrow">&nbsp;&rarr;</span></div></div>

@@ -1,15 +1,48 @@
-- category mapping
-- openai
-- keyword extraction
-- yaml
+- category
 - mapping
+- ascii
+- alice
+- openai
+- keyword
+- extraction
+- top
+- sub-category
+- 80/20
+- rule
+- control
+- name
+- data
+- structure
+- brain
+- calorie
+- benefit
+- approach
+- python
+- yaml
+- config
+- raw
+- map
+- key-name
+- value-list
 - dictionary
+- parent
+- deduping
+- set
+- accurate
+- inclusion
+- article
+- fine-tune
+- category-names
+- category-belonging
+- hierarchy
+- category mapping
+- keyword extraction
 - sub-dictionaries
 - nested mappings
 - lemmatized version
 - top categories
-- _config.yml
-- _data
+- '`_config.yml`'
+- '`_data`'
 - categories.yml
 - cdict
 - ipython
@@ -193,7 +226,6 @@
 - '3'
 - step-1
 - now moment
-- data
 - sqlite
 - textfile-first
 - support
@@ -212,7 +244,6 @@
 - customizations
 - release
 - unpublishing
-- python
 - rst
 - daring fireball
 - content management systems
@@ -228,7 +259,6 @@
 - javascript
 - web development
 - yaml ain't markup language
-- structure
 - curly-braces
 - ed
 - gnu
@@ -316,7 +346,6 @@
 - n-word language
 - disney movie
 - lewis carroll
-- alice
 - dorothy
 - oz
 - quantum
@@ -441,7 +470,6 @@
 - change
 - overwrite
 - caution
-- article
 - philosophical
 - importance
 - consciousness
@@ -539,13 +567,11 @@
 - java
 - ruby on rails
 - node
-- config
 - yml
 - file
 - digital
 - world
 - capitalization
-- category
 - page
 - homeschooling
 - pandemic
@@ -574,7 +600,6 @@
 - caught up
 - summary
 - describe
-- keyword
 - thought processing
 - home organization
 - decision making
@@ -590,7 +615,6 @@
 - question
 - source
 - review
-- control
 - title
 - editing
 - cross-cutting skill
@@ -946,7 +970,6 @@
 - upgrading
 - conference
 - meetups
-- deduping
 - slug
 - automating
 - action
@@ -956,7 +979,6 @@
 - keyword research
 - ranking keywords
 - execute
-- set
 - click
 - subdomain
 - list item
@@ -1158,7 +1180,6 @@
 - init.vim
 - plugins
 - option
-- name
 - syntax highlighting
 - cursor shape
 - spellfile
@@ -1258,7 +1279,6 @@
 - links api
 - toolbar
 - stat
-- ascii
 - smaller
 - mobile
 - '20.04'
@@ -1597,7 +1617,6 @@
 - time travel
 - complex civilizations
 - cultural diffusion
-- benefit
 - freedom
 - drawback
 - stability
@@ -1944,7 +1963,6 @@
 - spotify
 - jekyll plugin
 - gem
-- '`_config.yml`'
 - ramorize
 - reamortize
 - randomize
@@ -3232,7 +3250,6 @@
 - freeze
 - limit
 - movie maker
-- map
 - magic eraser
 - collage
 - metadata
@@ -3367,7 +3384,6 @@
 - keywordextractor
 - tag-stripped
 - element
-- extraction
 - dataset
 - space
 - mlgl
@@ -3898,7 +3914,6 @@
 - life's work
 - slice & dice blogging
 - lxd containers
-- hierarchy
 - passion project
 - day job
 - latest instance
@@ -4783,7 +4798,6 @@
 - have-not
 - stress-free
 - ratio
-- top
 - bottom
 - middle
 - every little thing gets done (eltgd)
@@ -4947,7 +4961,6 @@
 - sign
 - choose
 - forward
-- brain
 - person
 - infant
 - strive
@@ -5097,7 +5110,6 @@
 - shaggy man
 - love magnet
 - lgbtq
-- parent
 - listening
 - discus
 - politically correct
@@ -5246,7 +5258,6 @@
 - much
 - goodness
 - alt-text
-- approach
 - drawing
 - take
 - in
@@ -5419,6 +5430,7 @@
 - all.sh
 - hps.sh
 - default.html
+- _config.yml
 - web publisher
 - proprietary ides
 - lawyer

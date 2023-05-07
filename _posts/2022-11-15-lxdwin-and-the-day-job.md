@@ -4,7 +4,7 @@ title: LXDWIN and The Day Job
 headline: "Balancing Passion and Responsibility: How I'm Using LXDWIN to Get Through My Day Job"
 description: I'm feeling torn between my passion project LXDWIN and my day job. To make it more bearable, I'm using the latest LXDWIN instance to complete a task I'm not fond of. Join me as I try to balance my passion and my job in this blog post.
 keywords: LXDWIN, Passion Project, Day Job, Task, Balance, Focus, Local, Latest Instance
-categories: focus
+categories: success
 permalink: /blog/lxdwin-and-the-day-job/
 layout: post
 ---
@@ -26,4 +26,4 @@ instance and that's the first part to making it love-worthy.
 ## Categories
 
 <ul>
-<li><h4><a href='/focus/'>Focus</a></h4></li></ul>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>

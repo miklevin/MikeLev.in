@@ -4,7 +4,7 @@ title: Nbdev Packaging Is The First Step In Every Project
 headline: "Setting Up My Python Project: Using Jupyter Notebooks, nbdev_new & nbdev_export Commands, and Black Code Formatter"
 description: I'm emphasizing the importance of making early decisions about the packaging of a Python project, such as using the traditional file-arrangement and thinking about the package as a whole. To do this, I'm using Jupyter Notebooks, the nbdev_new command, the nbdev_export command, and the black code formatter. I'm also introducing the idea of using pip install -e to install the package in 'editable' mode. Come join me!
 keywords: Python, Packaging, Jupyter Notebooks, nbdev_new, nbdev_export, black code formatter, setup.ini, practice.ipynb, practice.py, pip install -e, resource files, local file, folder, repo
-categories: python, jupyter notebooks
+categories: jupyter, python
 permalink: /blog/nbdev-packaging-is-the-first-step-in-every-project/
 layout: post
 ---
@@ -157,5 +157,5 @@ we'll get to those in a future post.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter-notebooks/'>Jupyter Notebooks</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

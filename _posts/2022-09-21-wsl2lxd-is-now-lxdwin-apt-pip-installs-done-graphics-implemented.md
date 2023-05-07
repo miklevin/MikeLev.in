@@ -4,7 +4,7 @@ title: WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.
 headline: "Reigniting the Fire: I'm on my Third Great-Twenty-Eight and Nailing It with lxdwin!"
 description: I'm feeling productive this morning and I'm on my third great-twenty-eight. I used an open-minded craftsperson's approach to tool selection and use, and after running install.bat, apt_installs.sh, and requirements.txt, I debugged a script and did a full reboot. I'm happy to say I think I nailed it and renamed the repo to lxdwin. Read my blog post to find out more!
 keywords: "WSL2LXD, lxdwin, Apt, Pip, Installs, Graphics, Implemented, Productive, Third Great-Twenty-Eight, Open-Minded Craftsperson's Approach, Tool Selection, Use, Install.bat, Apt_Installs.sh, Requirements.txt, Debugging, Script, Full Reboot, Nailed, Repo, Renamed, Blog Post, 7:00 AM"
-categories: graphics
+categories: graphic, python
 permalink: /blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/
 layout: post
 ---
@@ -50,4 +50,6 @@ I think I nailed it.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/">Google Chrome for Linux Under LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

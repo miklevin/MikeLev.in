@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/category-mapping-go-ascii-alice/">Category Mapping? Go ASCII Alice!</a> (Sun May 07, 2023)
+<br/>I'm implementing a more controlled and explicit category system for my blog, by mapping keywords to top categories and sub-categories. This post explains the process and code I used to create a dictionary to map each keyword to its parent category. I'm also exploring the potential for deeper hierarchies and ontological, taxonomy and canonicalization issues.</li>
 <li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)
 <br/>In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.</li>
 <li><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a> (Thu May 04, 2023)

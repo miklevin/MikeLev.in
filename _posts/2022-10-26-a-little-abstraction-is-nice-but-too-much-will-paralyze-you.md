@@ -4,7 +4,7 @@ title: A Little Abstraction Is Nice But Too Much Will Paralyze You
 headline: "Living in Harmony: How Compassion and the Golden Rule Help Us Survive in a Chaotic World"
 description: I explore the idea that we are mammals with an innate sense of compassion, yet have the ability to override this with cruelty. I believe the golden rule is a good code of conduct that helps us to survive, and that we were created as a solution to the creator's boredom. I discuss the limitations of our senses and the need to accept complex processes and abstractions, and how quantum effects may appear in our everyday lives.
 keywords: Compassion, Cruelty, Golden Rule, Self-Awareness, Creator, Existence, Material World, Limitations, Senses, Predictions, Complex Processes, Abstractions, Quantum, Photosynthesis, Doorknob, Push, Walk
-categories: quantum
+categories: ai, quantum
 permalink: /blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/
 layout: post
 ---
@@ -224,4 +224,5 @@ not going to just ***POP*** there.
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>

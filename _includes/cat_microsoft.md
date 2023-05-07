@@ -88,4 +88,4 @@
 <li><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a> (Fri May 13, 2022)
 <br/>As a Windows user, I'm on a mission to acquire the same text-editing superpowers as my vim-master spouse. With Microsoft's Windows Subsystem for Linux (WSL) and Windows Terminal, I can make it happen! Installing WSL is a breeze - just type "wsl --install" in the Windows command window. Then, I can get Windows Terminal from the Microsoft Store, and I'll be ready to take my text-editing skills to the next level</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/wsl/">WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/poetry/">Poetry</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/levinux/">Levinux</a></div> &nbsp; <div class="post-nav-next"><a href="/poetry/">Poetry</a><span class="arrow">&nbsp;&rarr;</span></div></div>

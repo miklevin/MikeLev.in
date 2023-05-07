@@ -23,14 +23,13 @@ defaults:
       layout: "default"
       author: "Mike Levin"
 
-# Metadata
+# The number of "top-level" keys under categories must be >= NUMBER_OF_CATEGORIES
 categories:
-  levinux:
-  pipulate:
   linux:
     - command-line
     - unix
     - terminal
+    - bash
   python:
     - automation
     - script
@@ -57,7 +56,6 @@ categories:
     - search engine optimization
     - moz pro
     - keywords
-    - mlseo
     - moz
   poetry:
     - poem
@@ -65,8 +63,13 @@ categories:
     - window
     - windows 10
     - windows 11
-    - vscode:
+    - vscode
     - windows store
+  levinux:
+  pipulate:
+    - mlseo
+  rabbit holes:
+  80/20-rule:
   wsl:
     - wsl2
     - windows subsystem
@@ -78,6 +81,7 @@ categories:
     - lxd
     - docker
   jupyter:
+    - jupyter notebooks
     - jupyter notebook
     - jupyterlab
     - notebook
@@ -87,6 +91,7 @@ categories:
   systemd:
   bing:
   javascript:
+    - nodejs
   database:
     - sqlitedict
     - sqlite
@@ -101,33 +106,29 @@ categories:
   mac:
   nbdev:
   panda:
-  80/20-rule:
+    - excel
+    - csv
   yaml:
   search:
   browser automation:
-  focus:
+  success:
+    - strategy
+    - goal
+    - focus
   consciousness:
+  change:
   coding:
     - programming
   open source:
-  success:
-  publishing:
   web development:
-  nodejs:
   proprietary:
-  change:
   microsoft playwright:
     - playwright
   lpvg:
-  goal:
   future:
   tutorial:
-  strategy:
   evolution:
   child:
-  excel:
-  jupyter notebooks:
-  csv:
   twitter:
   html:
   text editor:
@@ -135,8 +136,9 @@ categories:
     - nyc
   graphic:
   network:
-  blogging:
-    - journaling
+  journaling:
+    -blogging
+    - publishing
     - journey
     - story
     - writing
@@ -151,7 +153,6 @@ categories:
   email:
   message:
   development:
-  bash:
   flow:
   imposter syndrome:
   science:
@@ -1247,7 +1248,6 @@ categories:
     - pyppeteer
     - functional
     - reality
-    - rabbit holes
     - carpenter
     - mistake
     - overcome
