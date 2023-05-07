@@ -4,7 +4,7 @@ title: Use vim to Keep One Journal For Life
 headline: Life-Changing Benefits of Using Vim to Journal
 description: I've been using Vim to journal and it has changed my life. It's difficult to learn, but the skills and muscle memory I've gained are permanent. Writing in Vim has helped me to better understand myself, and I've been able to use version control systems like Github to keep my .vimrc file with me wherever I go. I've also been learning new vim-tricks like buffers and registers to increase my power. Finally, I've created a single file, journal.md
 keywords: Vim, Journaling, Skills, Muscle Memory, Version Control, Github, .vimrc, Buffers, Registers, journal.md
-categories: journal.md, muscle memory, vim
+categories: vim, journal.md, muscle memory
 permalink: /blog/use-vim-to-keep-one-journal-for-life/
 layout: post
 ---
@@ -109,6 +109,6 @@ journal.md and use it for journaling for the rest of your life.
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>

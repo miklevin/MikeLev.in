@@ -195,7 +195,7 @@ down.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

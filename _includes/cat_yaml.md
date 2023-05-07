@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a> (Sat May 06, 2023)
+<br/>I'm optimizing my blog post categorization system by grouping common keywords into parent categories. I'm learning about YAML dictionaries and sub-dictionaries to create a nested structure for my categories. I'm also making sure to keep the list of categories as short as possible by using the lemmatized version of words. Finally, I'm working on a custom object shape to keep the categorization system running smoothly.</li>
 <li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)
 <br/>Render un-styled Jekyll Markdown drafts for pasting into Google Docs with this easy-to-implement technique. Learn how to use the `published: false` directive, the `yaml_generator` function, and a stripped-down template named `plain.html` to generate drafts that can be pasted into Google Docs.</li>
 <li><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a> (Thu May 04, 2023)

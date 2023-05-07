@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a> (Sat May 06, 2023)
+<br/>I'm optimizing my blog post categorization system by grouping common keywords into parent categories. I'm learning about YAML dictionaries and sub-dictionaries to create a nested structure for my categories. I'm also making sure to keep the list of categories as short as possible by using the lemmatized version of words. Finally, I'm working on a custom object shape to keep the categorization system running smoothly.</li>
 <li><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a> (Wed Apr 19, 2023)
 <br/>I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.</li>
 <li><a href="/blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/">Embedding SVG Images in Markdown Cells of Jupyter Notebooks</a> (Sat Apr 08, 2023)

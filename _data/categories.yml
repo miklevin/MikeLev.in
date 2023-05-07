@@ -1,3 +1,21 @@
+- category mapping
+- openai
+- keyword extraction
+- yaml
+- mapping
+- dictionary
+- sub-dictionaries
+- nested mappings
+- lemmatized version
+- top categories
+- _config.yml
+- _data
+- categories.yml
+- cdict
+- ipython
+- jupyter
+- vscode
+- pickle
 - writing
 - text editing
 - meditation
@@ -107,7 +125,6 @@
 - all blog posts
 - light touch
 - class
-- mapping
 - left-arrow
 - right-arrow
 - previous
@@ -133,7 +150,6 @@
 - catchphrase
 - would you believe
 - sorry about that chief
-- openai
 - completion
 - function
 - jekyll
@@ -181,7 +197,6 @@
 - sqlite
 - textfile-first
 - support
-- yaml
 - front matter
 - core code
 - generic,
@@ -353,7 +368,6 @@
 - moz
 - education
 - guidance
-- jupyter
 - notebook
 - hosting
 - environment
@@ -589,7 +603,6 @@
 - browser
 - folder
 - window
-- cdict
 - grid
 - bingo
 - lemmatization
@@ -605,7 +618,6 @@
 - default
 - statistically
 - frequency
-- dictionary
 - outputting
 - customize
 - collision
@@ -755,7 +767,6 @@
 - evolution
 - software
 - microsoft word
-- vscode
 - sublime text
 - filter events
 - survival
@@ -1056,7 +1067,6 @@
 - place
 - spiritual connection
 - impact
-- keyword extraction
 - clustering
 - story visualization
 - 80/20 rule
@@ -4557,7 +4567,6 @@
 - cloud resources
 - synology nas
 - repl
-- ipython
 - adapting
 - new
 - changing
@@ -5410,7 +5419,6 @@
 - all.sh
 - hps.sh
 - default.html
-- _config.yml
 - web publisher
 - proprietary ides
 - lawyer
