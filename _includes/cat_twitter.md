@@ -16,4 +16,4 @@
 <li><a href="/blog/gathering-my-stories/">Gathering My Stories</a> (Mon May 30, 2022)
 <br/>I'm reflecting on my stories and topics to discuss, including the bullying of blues, the rabbit hole of tech, the politically correct main branch of Microsoft, collecting comics, and the Superbad Mic Loving Mr. McLovin. I'll also be exploring the deeper meanings of characters from Alice in Wonderland, the Shaggy Man, and Love Magnet, and discussing the LGBTQ community, how parents should listen better, and the Twitter/Instagram culture.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/html/">HTML</a></div> &nbsp; <div class="post-nav-next"><a href="/organization/">Organization</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/html/">HTML</a></div> &nbsp; <div class="post-nav-next"><a href="/csv/">CSV</a><span class="arrow">&nbsp;&rarr;</span></div></div>

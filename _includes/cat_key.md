@@ -1,0 +1,11 @@
+<ol>
+<li><a href="/blog/lemmatizing-keywords-for-site-navigation/">Lemmatizing Keywords for Site Navigation</a> (Fri Apr 28, 2023)
+<br/>I'm experimenting with lemmatization and keyword usage frequency to create consistent category pages for my website navigation. I'm ensuring the capitalization of the categories is correct and outputting them in both the website root and in `_includes`.</li>
+<li><a href="/blog/admiring-the-usefulness-of-yaml-ness-in-my-journaling-system/">Admiring the Usefulness of YAML-ness in my Journaling System</a> (Sat Apr 22, 2023)
+<br/>I'm reveling in the glory of my code working as it should. I'm using YAML-ness to create a journaling system with a dictionary of lower-case usage as keys and all the happenstance uses as lists in each value. I wrote a program to parse a journal file and extracted the front matter of each post, then loaded it into a YAML dictionary. I'm now ready to give this a title and share my journey of slicing up my life into chunks.</li>
+<li><a href="/blog/removing-password-authentication-from-ssh-services/">Removing Password Authentication from SSH Services</a> (Mon Jul 25, 2022)
+<br/>I created a new Linux container with OpenSSH service and disabled the ability to challenge passwords, then moved keys over to eliminate passwords. I also set up a shared folder with three sub-folders, changed permissions on the keys, and restarted the SSH service. Read my blog post to learn how I did it.</li>
+<li><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a> (Wed May 25, 2022)
+<br/>In this session, I will teach you how to use Python for SEO, including how to target keywords, collect data, and use machine learning algorithms. We will use JupyterLab, Python dictionaries, and a context manager to eliminate extra code. I will also discuss SqliteDict, a free and open source SQL database, as a key/value system. Learn how to use URLs as keys in key/value pair systems.</li>
+</ol>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/request/">Requests</a></div> &nbsp; <div class="post-nav-next"><a href="/access/">Access</a><span class="arrow">&nbsp;&rarr;</span></div></div>

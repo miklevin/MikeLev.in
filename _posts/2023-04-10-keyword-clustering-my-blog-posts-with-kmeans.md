@@ -4,7 +4,7 @@ title: Keyword Clustering My Blog Posts With KMeans
 headline: Using KMeans Clustering to Group 500 Blog Posts and Extract Keywords for Topic Modeling
 description: As a computer user, I appreciate the consistency of the user interface, which has remained largely unchanged since the 1960s. I'm grateful for the tools that have the perfect balance of usability and staying-power, which improve gradually and don't require me to press the reset button on my skills and career. This blog post explores how to use KMeans clustering to group 500 articles into 10 clusters based on their keyword metadata, extract keywords from each article, and identify topics in the posts.
 keywords: Computer, User Interface, Usability, Staying-Power, KMeans Clustering, Natural Language Processing, Keyword Metadata, Clustering Algorithms, Topic Modeling Algorithms, TTY, Yake, Pandas
-categories: pandas
+categories: computer, pandas
 permalink: /blog/keyword-clustering-my-blog-posts-with-kmeans/
 layout: post
 ---
@@ -310,4 +310,5 @@ self-worth.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life/">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/project-deteriorates-into-tools-discussion-again/">Project Deteriorates Into Tools Discussion Again</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/computer/'>Computer</a></h4></li></ul>

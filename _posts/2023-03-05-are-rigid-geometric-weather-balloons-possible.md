@@ -4,7 +4,7 @@ title: Are Rigid Geometric Weather Balloons Possible?
 headline: Exploring the Fascinating Possibilities of 486958 Arrokoth and Its Implications
 description: I recently discussed the mysterious 486958 Arrokoth, an object encountered by NASA's New Horizons mission. I explored possible scenarios, including the possibility of an alien spacecraft or probe, but ultimately concluded that the natural explanation is much more plausible and consistent with current scientific knowledge. I believe it is important to remember to not confuse science with speculation and imagination. Join me to explore the fascinating possibilities of Arrokoth and the implications of our discoveries.
 keywords: Arrokoth, 486958 Arrokoth, New Horizons mission, Alien spacecraft, Probe, Natural explanation, Metamaterials, Weather balloons, Shapes, Materials, Trade-offs, High altitude balloons, UFO, UAP, Radar events, Advancing technology, Hoaxers, Science, Hobbyists, Sudden change of direction, Acceleration, U.S. Navy, Pilots, Sailors, Modern radar, Space probes, Objects in Solar System, Gl
-categories: 
+categories: science
 permalink: /blog/are-rigid-geometric-weather-balloons-possible/
 layout: post
 ---
@@ -181,4 +181,5 @@ Source: Conversation with Bing, 3/5/2023
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/looking-for-the-best-python-dict-like-api-to-nosql/">Looking For The Best Python dict-like API to NoSQL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading/">Asking AI About Arrokoth, Fravor & Mind Reading</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/science/'>Science</a></h4></li></ul>

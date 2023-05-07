@@ -4,7 +4,7 @@ title: My Secret Daily Work Journal now More YAML-like
 headline: "Unveiling My Secret Daily Work Journal: Now with YAML-like Structure!"
 description: I've created a new journaling format that uses YAML-like front-matter and a few transformations. I just hit a button, but the 1-page journal.md where I edit all my blog posts at once gets sliced & diced into individual Jekyll-style posts, gets AI suggested headline, meta description and keywords, then rolls it all back into journal.md for further editing, revision and refinement. Come see how!
 keywords: Journaling, YAML-like, Parsing, Post-by-Post, Line-by-Line, Date, Title, URL Slug, Front-Matter, 3-Hyphens, Output File, Input File, Comparison Function, Testing, Publishing
-categories: publishing, journaling
+categories: publishing
 permalink: /blog/my-secret-daily-work-journal-now-more-yaml-like/
 layout: post
 ---
@@ -223,5 +223,4 @@ the ripcord.
 ## Categories
 
 <ul>
-<li><h4><a href='/publishing/'>Publishing</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/publishing/'>Publishing</a></h4></li></ul>

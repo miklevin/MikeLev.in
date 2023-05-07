@@ -4,7 +4,7 @@ title: Still Figuring Out Next Step & What I Want at 52
 headline: "Exploring Life at 52: Finding My Next Step & What I Want Out of Life"
 description: At 52, I'm still trying to figure out my life and how to make a living without taking advantage of others. I'm exploring how human beings can evolve in a post-scarcity world and creating an unending stream of interesting experiences. I'm grateful to be alive and functional in society and am looking for my next step.
 keywords: Life, Post-Scarcity, Experiences, Imposter Syndrome, Evolution, Human Beings, Functional, Society, Next Step, Living, Interesting, Randomness, Orderly Patterns, Counting Blessings
-categories: evolution
+categories: imposter syndrome, evolution
 permalink: /blog/still-figuring-out-next-step-what-i-want-at-52/
 layout: post
 ---
@@ -63,4 +63,5 @@ Move onto your next big step.
 ## Categories
 
 <ul>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

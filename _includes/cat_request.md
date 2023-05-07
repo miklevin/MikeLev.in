@@ -1,0 +1,11 @@
+<ol>
+<li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
+<br/>This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.</li>
+<li><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a> (Fri Apr 28, 2023)
+<br/>This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.</li>
+<li><a href="/blog/build-web-scraper-with-bing-from-scratch/">Build Web Scraper With Bing From Scratch</a> (Mon Mar 13, 2023)
+<br/>This step-by-step guide shows you how to build a web scraper with Bing from scratch in Python, starting with a basic example of printing "Hello World" and building up to extracting the title tag with BeautifulSoup4. Learn how to collect all the links from a webpage, convert them from relative to absolute links, and store them in a persistent dictionary using SQLite. Discover how to compete with commercial web scraping products and get the same features for less.</li>
+<li><a href="/blog/a-place-to-put-things/">A Place to Put Things</a> (Thu Dec 22, 2022)
+<br/>I'm taking you on a journey to become a modern tech literate person. Learn the basics of PyTorch, group keywords, and build robots. Familiarize yourself with Linux, Git, and Vim. Set up a GitLab repo and gain the freedom that comes with it. Join me as I guide you through this tech literacy adventure!</li>
+</ol>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/history/">history</a></div> &nbsp; <div class="post-nav-next"><a href="/key/">Keys</a><span class="arrow">&nbsp;&rarr;</span></div></div>

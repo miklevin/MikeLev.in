@@ -30,4 +30,4 @@
 <li><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a> (Wed Aug 03, 2022)
 <br/>I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/windows-10/">Windows 10</a></div> &nbsp; <div class="post-nav-next"><a href="/javascript/">JavaScript</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/google/">Google</a></div> &nbsp; <div class="post-nav-next"><a href="/javascript/">JavaScript</a><span class="arrow">&nbsp;&rarr;</span></div></div>

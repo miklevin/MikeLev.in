@@ -4,7 +4,7 @@ title: Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning
 headline: Experience Surprises & Learning Every Morning - Make Every Day Feel Like Xmas Morning!
 description: As an individual, I believe that every morning should be an opportunity to learn something new and experience surprises. We should be able to identify symbols of meaning and feelings, and have the ability to uncover what motivates us. Unfortunately, the gap between the haves and have-nots is widening, making it difficult to stay at the top or bottom of the hierarchy. To lead a stress-free life, I suggest staying in the middle.
 keywords: morning, Xmas, surprises, learning, symbols, meaning, feelings, motivates, gap, haves, have-nots, hierarchy, stress-free, life, insights, recognize, discover, drives, information, population, growth, ratio, top, bottom, middle
-categories: learning
+categories: 
 permalink: /blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/
 layout: post
 ---
@@ -58,5 +58,4 @@ inflection point and zooming in on any segment looks identical.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/learning/'>Learning</a></h4></li></ul>
+<ul></ul>

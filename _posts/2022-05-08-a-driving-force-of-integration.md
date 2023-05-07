@@ -4,7 +4,7 @@ title: A Driving Force of Integration
 headline: "Navigating the Road to Independence: A Driving Adventure with Nat"
 description: I had an amazing time practicing driving with Nat. We navigated winding roads and a one-lane bridge, and talked about how learning to drive can help build confidence and independence. We even came up with a special code-word to remind us of this special moment. Come read more about our journey and what we learned!
 keywords: driving, integration, practice, confidence, independence, journey, WaWa, roads, bridge, trust, muscle-memory, code-word
-categories: journey
+categories: 
 permalink: /blog/a-driving-force-of-integration/
 layout: post
 ---
@@ -71,5 +71,4 @@ Good job, My Love.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/journey/'>Journey</a></h4></li></ul>
+<ul></ul>

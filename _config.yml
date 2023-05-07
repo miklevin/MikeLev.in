@@ -25,83 +25,99 @@ defaults:
 
 # Metadata
 categories:
-  python:
+  levinux:
+  pipulate:
   linux:
+    - command-line
+    - unix
+    - terminal
+  python:
+    - automation
+    - script
+    - api
+    - service
   vim:
-  ai:
+    - macro
+    - .vimrc
+    - vim/neovim
+    - vim repo
+    - neovim
   git:
+    - github
+  ai:
+    - chatgpt
+    - copilot
+    - machine learning
+    - artificial intelligence
+    - openai
+    - prediction
+    - gpt-4
   seo:
+    - google search console
+    - search engine optimization
+    - moz pro
+    - keywords
+    - mlseo
+    - moz
+  poetry:
+    - poem
   microsoft:
-  script:
+    - window
+    - windows 10
+    - windows 11
+    - vscode:
+    - windows store
   wsl:
+    - wsl2
+    - windows subsystem
+    - windows subsystem for linux
   jekyll:
+    - github pages
   youtube:
-  lxd:
-  github:
-  jupyterlab:
-  journey:
-  journaling:
-  jupyter:
-  openai:
   container:
-  api:
-  wsl2:
-  unix:
-  chatgpt:
-  neovim:
+    - lxd
+    - docker
+  jupyter:
+    - jupyter notebook
+    - jupyterlab
+    - notebook
   ubuntu:
-  automation:
-  github pages:
+    - '18.04'
+    - '20.04'
   systemd:
   bing:
-  vscode:
-  jupyter notebook:
   javascript:
   database:
-  windows 10:
-  machine learning:
-  pipulate:
-  moz:
+    - sqlitedict
+    - sqlite
   google:
-  windows 11:
+    - google analytics
+    - google photos
+    - google docs
+    - google suggest
+    - google sheets
+    - google photos api
+    - google slides
   mac:
-  notebook:
   nbdev:
-  google analytics:
-  copilot:
-  learning:
-  terminal:
-  platform:
   panda:
-  service:
   80/20-rule:
   yaml:
-  keywords:
-  experiment:
   search:
-  macro:
-  sqlite:
-  headline:
   browser automation:
   focus:
   consciousness:
-  docker:
   coding:
+    - programming
   open source:
   success:
-  skill:
-  google photos:
-  artificial intelligence:
   publishing:
   web development:
   nodejs:
   proprietary:
   change:
-  math:
-  habit:
-  template:
   microsoft playwright:
-  moz pro:
+    - playwright
   lpvg:
   goal:
   future:
@@ -112,23 +128,128 @@ categories:
   excel:
   jupyter notebooks:
   csv:
-  organization:
   twitter:
   html:
-  '20.04':
   text editor:
   new york city:
+    - nyc
   graphic:
   network:
   blogging:
-  audience:
-  sqlitedict:
-  email:
-  message:
-  filter:
-    - article
+    - journaling
+    - journey
+    - story
+    - writing
     - blog
     - blog post
+    - blogslicer
+    - blog posts
+    - blogging system
+    - blog.md
+    - blog-post
+  audience:
+  email:
+  message:
+  development:
+  bash:
+  flow:
+  imposter syndrome:
+  science:
+  dependency:
+  powershell:
+  static site generator:
+  pypi:
+  github copilot:
+  empathy:
+  chatbot:
+  algorithm:
+  loop:
+  virtualenv:
+  text editors:
+  navigation:
+  gnu:
+  quantum:
+  magic:
+  muscle memory:
+  meta descriptions:
+  productivity:
+  journal.md:
+  drinkme:
+  marketing:
+  scheduling:
+  trick:
+  wisdom:
+  progress:
+  lxc:
+  desktop:
+  linux terminal:
+  github.io:
+  draft:
+  theory:
+  json:
+  vendor:
+  operating systems:
+  competitor:
+  emacs:
+  open-source:
+  copy/paste:
+  access:
+  key:
+  request:
+  history:
+  wordpress:
+  vi:
+  node:
+  motivation:
+  question:
+  unique:
+  joy:
+  setting:
+  publish:
+  string:
+  value:
+  liquid:
+  deliverable:
+  action:
+  execute:
+  computer:
+  qnap:
+  tuples:
+  amiga:
+    - commodore
+  filter:
+    - math
+    - habit
+    - template
+    - growth
+    - output
+    - communication
+    - optimize
+    - creativity
+    - positive
+    - learning
+    - flexibility
+    - platform
+    - headline
+    - skill
+    - backup
+    - fear
+    - energy
+    - love
+    - freedom
+    - mathematics
+    - alternative
+    - '2022'
+    - physic
+    - feature
+    - organization
+    - permission
+    - uap
+    - mit
+    - learn
+    - store
+    - experiment
+    - article
     - book
     - browser
     - cat
@@ -151,7 +272,6 @@ categories:
     - documentation
     - download
     - easy
-    - edit
     - edit
     - editing
     - education
@@ -203,12 +323,10 @@ categories:
     - package
     - page
     - path
-    - playwright
     - possibility
     - post
     - processing
     - program
-    - programming
     - project
     - push
     - release
@@ -243,112 +361,7 @@ categories:
     - video
     - web
     - website
-    - window
-    - windows subsystem
     - world
-    - writing
-  all:
-    - '2022'
-    - development
-    - bash
-    - flow
-    - imposter syndrome
-    - science
-    - dependency
-    - nyc
-    - powershell
-    - static site generator
-    - pypi
-    - github copilot
-    - empathy
-    - chatbot
-    - algorithm
-    - command-line
-    - loop
-    - levinux
-    - virtualenv
-    - mlseo
-    - text editors
-    - navigation
-    - gnu
-    - quantum
-    - magic
-    - muscle memory
-    - meta descriptions
-    - productivity
-    - .vimrc
-    - journal.md
-    - drinkme
-    - marketing
-    - scheduling
-    - trick
-    - wisdom
-    - progress
-    - lxc
-    - '18.04'
-    - desktop
-    - linux terminal
-    - github.io
-    - blogslicer
-    - draft
-    - theory
-    - json
-    - vendor
-    - operating systems
-    - competitor
-    - emacs
-    - open-source
-    - copy/paste
-    - access
-    - key
-    - request
-    - history
-    - wordpress
-    - vi
-    - node
-    - motivation
-    - question
-    - unique
-    - joy
-    - setting
-    - publish
-    - search engine optimization
-    - string
-    - value
-    - liquid
-    - deliverable
-    - action
-    - execute
-    - computer
-    - growth
-    - output
-    - communication
-    - optimize
-    - creativity
-    - story
-    - prediction
-    - gpt-4
-    - positive
-    - qnap
-    - backup
-    - fear
-    - freedom
-    - mathematics
-    - energy
-    - love
-    - alternative
-    - uap
-    - physic
-    - tuples
-    - feature
-    - flexibility
-    - mit
-    - permission
-    - learn
-    - amiga
-    - commodore
-    - store
-    - blog posts
     - information
     - cs
     - pipulate.com
@@ -361,11 +374,8 @@ categories:
     - mikelevinseo.com
     - walking
     - chunking
-    - google docs
     - front matter
     - logo
-    - poetry
-    - poem
     - wizard of oz
     - dorothy
     - hosting
@@ -402,7 +412,6 @@ categories:
     - dataframes
     - directory
     - privacy
-    - google suggest
     - discovery
     - impact
     - 80/20 rule
@@ -498,7 +507,6 @@ categories:
     - spell
     - note
     - usage
-    - vim/neovim
     - keyboard shortcuts
     - metaphor
     - zone
@@ -543,7 +551,6 @@ categories:
     - attention
     - planet
     - computing
-    - blogging system
     - compare
     - column
     - automating
@@ -637,11 +644,9 @@ categories:
     - manim
     - animation
     - proxy
-    - google sheets
     - reddit
     - understanding
     - natural phenomena
-    - windows subsystem for linux
     - understand
     - hittail
     - technical
@@ -665,7 +670,6 @@ categories:
     - cluster
     - group
     - map
-    - google photos api
     - create
     - society
     - context manager
@@ -704,12 +708,10 @@ categories:
     - wsl2lxd
     - install.bat
     - symbolic link
-    - vim repo
     - password
     - start menu
     - icon
     - solution
-    - blog.md
     - home directory
     - quickly
     - linux containers
@@ -759,7 +761,6 @@ categories:
     - yamlchop
     - channeling
     - mercurial
-    - google slides
     - guidance
     - import
     - secret
@@ -1195,7 +1196,6 @@ categories:
     - networkx
     - plotly
     - figure
-    - google search console
     - oauth2
     - gitlab
     - python standard library
@@ -1211,7 +1211,6 @@ categories:
     - childhood
     - simplicity
     - categorization
-    - blog-post
     - standard library
     - date range
     - improvement
@@ -2073,7 +2072,6 @@ categories:
     - stat
     - smaller
     - mobile
-    - windows store
     - erds
     - april 4
     - entity relationship diagrams

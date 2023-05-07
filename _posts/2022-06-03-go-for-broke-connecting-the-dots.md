@@ -4,7 +4,7 @@ title: Go For Broke Connecting The Dots
 headline: "Exploring Life's Mysteries: Join Me on My Journey to Connect the Dots and Create a Better Life for Myself"
 description: I'm using my YouTube channel to explore the mysteries of life and figure out how to create a better life for myself. I'm talking about money, expensive problems, building internal resources, game theory, symbols, and more. Join me on my journey as I connect the dots and tackle the big questions!
 keywords: Money, Expensive Problems, Internal Resources, Game Theory, Symbols, Self-Therapy, Life Mysteries, Create Better Life, Connecting Dots, YouTube Channel, Platform, Handle
-categories: platform
+categories: 
 permalink: /blog/go-for-broke-connecting-the-dots/
 layout: post
 ---
@@ -71,5 +71,4 @@ Yup. Connect the dots. Go for broke... OMG, there's an expression for that!
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy/">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/">Start Learning Linux by Learning About What Pissed Off Fernando Corbato</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/platform/'>Platform</a></h4></li></ul>
+<ul></ul>

@@ -4,7 +4,7 @@ title: Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently P
 headline: "Observing the Schwinger Effect: Scientists Use Graphene to Create Particle-Antiparticle Pairs from Vacuum"
 description: As a researcher, I recently studied the Schwinger effect, a phenomenon predicted by Nobel laureate Julian Schwinger 70 years ago, which requires extremely high field strengths and had never been observed directly. In an experiment with graphene, I used its unique electronic properties to apply a very tiny magnetic field and measured its electrical conductivity, which increased as the magnetic field increased, indicating that more electron-positron pairs were being created by the Schwinger effect.
 keywords: Dr. Salvatore Pais, Navy UFO, Pais Effect, Schwinger Effect, Julian Schwinger, Graphene, Electronic Properties, Magnetic Field, Electrical Conductivity, Electron-Positron Pairs, Antigravity Propulsion System, Quantum Electrodynamics, Quantum Phase Locking, Vacuum, Matter Creation, Electric Field, Earth Gravity Field, Vortexes, Mercury Sphere, Spacecraft, Mass Reduction, Models, Hypotheses, Experiment, University of Manchester
-categories: experiment
+categories: 
 permalink: /blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/
 layout: post
 ---
@@ -161,5 +161,4 @@ Source: Conversation with Bing, 3/5/2023
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/experiment/'>Experiment</a></h4></li></ul>
+<ul></ul>

@@ -4,7 +4,7 @@ title: SERP Scraping with site Search Modifier and Custom Date Range
 headline: Improving SERP Job Efficiency with Custom Code and Automation
 description: I'm working on a project to get SERP job running quickly and efficiently. I'm using Linux-side programs in JupyterLab, server automation, IP-cycling with HMA vpn on Windows, and custom code to scrape SERPs with a custom date range and site search modifier. I'm looping through a list of sites and date ranges to perfect the project. Come read more about my progress and join me on this journey!
 keywords: SERP, Scraping, Site Search Modifier, Custom Date Range, Linux-side programs, JupyterLab, Server Automation, IP-cycling, HMA VPN, Windows, Code, Date Range, List of Sites, Looping, Improvement, Perfecting, Project
-categories: jupyterlab
+categories: 
 permalink: /blog/serp-scraping-with-site-search-modifier-and-custom-date-range/
 layout: post
 ---
@@ -124,5 +124,4 @@ I'm still working on and refining this thing.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/">Automating Cycling IPs on HMA VPN Using PyWinAuto</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang/">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/jupyterlab/'>JupyterLab</a></h4></li></ul>
+<ul></ul>

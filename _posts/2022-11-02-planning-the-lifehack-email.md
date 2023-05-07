@@ -4,7 +4,7 @@ title: Planning the Lifehack Email
 headline: "Exploring Lifehack: My Journey to Professional and Personal Growth"
 description: I'm learning the basics of machine learning and sending out an email daily. I'm building projects to help me professionally and personally, such as organizing my YouTube videos, website, and repos/packages. I'm also thinking of tasks to accomplish on a personal and professional level, and writing essays about my worldview, professional needs, spiritual needs, how to get a good base salary, and how to not hate myself in the process. Join me on this journey as I explore and learn!
 keywords: Lifehack, Machine Learning, YouTube Videos, Website, Repos/Packages, Tasks, Professional, Personal, Worldview, Spiritual Needs, Salary, Self-Hate
-categories: machine learning
+categories: 
 permalink: /blog/planning-the-lifehack-email/
 layout: post
 ---
@@ -87,5 +87,4 @@ Have chapter titles, essay names or whatever ready.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/machine-learning/'>Machine Learning</a></h4></li></ul>
+<ul></ul>

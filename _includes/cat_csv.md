@@ -16,4 +16,4 @@
 <li><a href="/blog/the-epic-nbdev-static-site-generator-post/">The Epic nbdev Static Site Generator Post</a> (Thu Jun 16, 2022)
 <br/>I recently downgraded from Ubuntu 20.04 to Ubuntu 18.04, which broke my blog release system. To fix this, I am switching from Unix Scripts to Python Programs, using argparse and the Python Standard Library to modularize my programs and make them work from the command-line with arguments. I'm learning about the subprocess API options, setting up a virtualenv and installing Python 3.10, creating a git repo, and writing a blog post.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/organization/">Organization</a></div> &nbsp; <div class="post-nav-next"><a href="/jupyter-notebooks/">Jupyter Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/twitter/">Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/jupyter-notebooks/">Jupyter Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>

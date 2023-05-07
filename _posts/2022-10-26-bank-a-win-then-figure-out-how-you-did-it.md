@@ -4,7 +4,7 @@ title: Bank a Win Then Figure Out How You Did It
 headline: "Embracing the Challenge of Tech: Banking a Win and Figuring It Out!"
 description: I'm not a natural linguist, but I'm determined to pursue a career in tech because of its precise language. Instead of relying on others to do the work for me, I'm investing my free time to become more comfortable with the language of technology. I'm banking a win and embracing the challenge, just like a Thanksgiving turkey!
 keywords: bank, win, linguist, tech, language, programming, computers, drive, servants, surrogate parents, indulging, Thanksgiving, turkey
-categories: 
+categories: computers
 permalink: /blog/bank-a-win-then-figure-out-how-you-did-it/
 layout: post
 ---

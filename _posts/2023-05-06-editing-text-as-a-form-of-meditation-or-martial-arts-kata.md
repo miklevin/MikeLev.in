@@ -4,7 +4,7 @@ title: Editing Text As a Form of Meditation or Martial Arts Kata
 headline: "Unlocking the Power of Writing: Get Into the Zone Even When AI-Assisted"
 description: Let me show you how to use text editing as a form of meditation or martial arts. I explain the mechanics of the tool and how it can be used to access the subconscious, like meditation and martial arts. Learn how to use text editing to access the flow state and improve your writing skills.
 keywords: Writing, Text Editing, Meditation, Martial Arts, Kata, Focused Writing Software, Proprietary Tools, Structured Writing, Ritual, Focal Point, Om Symbol, Mantra, Cosmic Vibration, Language, Body Motions, Spoken Language, Walking, Vocal Chords, Tongue, Lips, Quantum Physics, Flow, Subconscious Dredging, Dreams, Waking Hours Decisions, Visualize, Imaginary Opponent, Pre-determined, Beginning
-categories: 
+categories: flow
 permalink: /blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/
 layout: post
 ---
@@ -198,4 +198,5 @@ down.
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
-<ul></ul>
+<ul>
+<li><h4><a href='/flow/'>Flow</a></h4></li></ul>
