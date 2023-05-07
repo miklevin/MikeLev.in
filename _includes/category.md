@@ -1,4 +1,4 @@
-<ol start='50' reversed>
+<ol start='24' reversed>
 <li><a href="/linux/">Linux</a></li>
 <li><a href="/python/">Python</a></li>
 <li><a href="/vim/">Vim</a></li>
@@ -23,30 +23,4 @@
 <li><a href="/database/">Database</a></li>
 <li><a href="/google/">Google</a></li>
 <li><a href="/mac/">Mac</a></li>
-<li><a href="/nbdev/">nbdev</a></li>
-<li><a href="/panda/">Pandas</a></li>
-<li><a href="/yaml/">YAML</a></li>
-<li><a href="/search/">Search</a></li>
-<li><a href="/browser-automation/">Browser Automation</a></li>
-<li><a href="/success/">Success</a></li>
-<li><a href="/consciousness/">Consciousness</a></li>
-<li><a href="/change/">Changes</a></li>
-<li><a href="/coding/">Coding</a></li>
-<li><a href="/open-source/">Open Source</a></li>
-<li><a href="/web-development/">Web Development</a></li>
-<li><a href="/proprietary/">Proprietary</a></li>
-<li><a href="/microsoft-playwright/">Microsoft Playwright</a></li>
-<li><a href="/lpvg/">LPvg</a></li>
-<li><a href="/future/">Future</a></li>
-<li><a href="/tutorial/">Tutorial</a></li>
-<li><a href="/evolution/">Evolution</a></li>
-<li><a href="/child/">Child</a></li>
-<li><a href="/twitter/">Twitter</a></li>
-<li><a href="/html/">HTML</a></li>
-<li><a href="/text-editor/">Text Editor</a></li>
-<li><a href="/new-york-city/">New York City</a></li>
-<li><a href="/graphic/">Graphics</a></li>
-<li><a href="/network/">Network</a></li>
-<li><a href="/journaling/">Journaling</a></li>
-<li><a href="/audience/">Audience</a></li>
 </ol>

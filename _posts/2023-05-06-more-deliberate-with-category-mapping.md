@@ -4,7 +4,7 @@ title: More Deliberate With Category Mapping
 headline: Exploring YAML Dicts to Optimize Category Mapping
 description: I'm optimizing my blog post categorization system by grouping common keywords into parent categories. I'm learning about YAML dictionaries and sub-dictionaries to create a nested structure for my categories. I'm also making sure to keep the list of categories as short as possible by using the lemmatized version of words. Finally, I'm working on a custom object shape to keep the categorization system running smoothly.
 keywords: "category mapping, OpenAI, keyword extraction, YAML, mappings, dictionaries, sub-dictionaries, nested mappings, lemmatized version, top categories, `_config.yml`, `_data`, categories.yml, cdict, iPython, Jupyter, VSCode, pickle"
-categories: microsoft, jupyter, yaml, ai
+categories: microsoft, ai, jupyter, yaml
 permalink: /blog/more-deliberate-with-category-mapping/
 layout: post
 ---
@@ -240,6 +240,6 @@ the last step tomorrow morning. Sleep on it.
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
