@@ -752,6 +752,9 @@ dictitems:
   airflow:
     count: 1
     title: Airflow
+  al-khalili:
+    count: 1
+    title: Al-Khalili
   alamo colleges:
     count: 1
     title: Alamo Colleges
@@ -1113,8 +1116,8 @@ dictitems:
     count: 1
     title: Arrow Keys
   art:
-    count: 2
-    title: Arts
+    count: 3
+    title: Art
   art form:
     count: 1
     title: Art form
@@ -1509,8 +1512,8 @@ dictitems:
     count: 1
     title: Being
   belief:
-    count: 1
-    title: Beliefs
+    count: 2
+    title: Belief
   bell experiments:
     count: 1
     title: Bell Experiments
@@ -1584,7 +1587,7 @@ dictitems:
     count: 1
     title: Big AI
   big bang:
-    count: 2
+    count: 3
     title: Big Bang
   big changes:
     count: 1
@@ -5172,7 +5175,7 @@ dictitems:
     count: 1
     title: False Dependencies
   false dichotomies:
-    count: 1
+    count: 2
     title: False Dichotomies
   falsey:
     count: 1
@@ -6530,6 +6533,9 @@ dictitems:
   have-not:
     count: 1
     title: have-nots
+  hawking:
+    count: 1
+    title: Hawking
   hawking radiation:
     count: 1
     title: Hawking Radiation
@@ -6689,6 +6695,9 @@ dictitems:
   high-level:
     count: 1
     title: High-Level
+  high-level programming:
+    count: 1
+    title: High-Level Programming
   high-quality content:
     count: 1
     title: High-Quality Content
@@ -7661,6 +7670,9 @@ dictitems:
   jigsaw puzzle:
     count: 1
     title: jigsaw puzzle
+  jim al-khalili:
+    count: 1
+    title: Jim Al-Khalili
   jinja2:
     count: 1
     title: Jinja2
@@ -8021,6 +8033,9 @@ dictitems:
   knock out fast:
     count: 1
     title: Knock Out Fast
+  knowability:
+    count: 1
+    title: Knowability
   knowledge:
     count: 6
     title: Knowledge
@@ -8252,6 +8267,9 @@ dictitems:
   lgbtq:
     count: 1
     title: LGBTQ
+  lhc:
+    count: 1
+    title: LHC
   liability:
     count: 1
     title: liability
@@ -8772,7 +8790,7 @@ dictitems:
     count: 7
     title: Loop
   loop quantum gravity:
-    count: 1
+    count: 2
     title: Loop Quantum Gravity
   looping:
     count: 1
@@ -8819,6 +8837,9 @@ dictitems:
   low-dependency:
     count: 1
     title: Low-Dependency
+  low-level programming:
+    count: 1
+    title: Low-Level Programming
   low-power chip:
     count: 1
     title: Low-Power Chip
@@ -9458,6 +9479,9 @@ dictitems:
   michael's stone wall:
     count: 1
     title: Michael's stone wall
+  michio kaku:
+    count: 1
+    title: Michio Kaku
   mick west:
     count: 2
     title: Mick West
@@ -9972,7 +9996,7 @@ dictitems:
     count: 1
     title: NAS drive
   nasa:
-    count: 1
+    count: 2
     title: NASA
   nasa langley:
     count: 1
@@ -10076,6 +10100,9 @@ dictitems:
   neighbor:
     count: 2
     title: neighbor
+  neil degrasse tyson:
+    count: 1
+    title: Neil deGrasse Tyson
   neil patel:
     count: 1
     title: Neil Patel
@@ -10358,6 +10385,9 @@ dictitems:
   nuance:
     count: 3
     title: nuance
+  numa:
+    count: 1
+    title: NUMA
   number:
     count: 1
     title: numbers
@@ -11121,7 +11151,7 @@ dictitems:
     count: 2
     title: philosophical
   philosophy:
-    count: 1
+    count: 2
     title: Philosophy
   phishing vulnerability:
     count: 1
@@ -11558,6 +11588,9 @@ dictitems:
   practice_save:
     count: 1
     title: Practice_Save
+  pragmatic behavior:
+    count: 1
+    title: Pragmatic Behavior
   pragmatist:
     count: 1
     title: Pragmatist
@@ -11781,7 +11814,7 @@ dictitems:
     count: 1
     title: programmer
   programming:
-    count: 14
+    count: 15
     title: Programming
   programming languages:
     count: 2
@@ -13109,6 +13142,9 @@ dictitems:
   routine:
     count: 1
     title: Routine
+  rovelli:
+    count: 1
+    title: Rovelli
   row:
     count: 3
     title: Rows
@@ -13284,7 +13320,7 @@ dictitems:
     count: 3
     title: Schwinger Effect
   science:
-    count: 7
+    count: 8
     title: Science
   science camp watonka:
     count: 1
@@ -13373,6 +13409,9 @@ dictitems:
   sealed:
     count: 1
     title: Sealed
+  sean carroll:
+    count: 1
+    title: Sean Carroll
   sean kirkpatrick:
     count: 1
     title: Sean Kirkpatrick
@@ -14640,8 +14679,8 @@ dictitems:
     count: 1
     title: Striking Distance Report
   string:
-    count: 5
-    title: String
+    count: 6
+    title: Strings
   string json:
     count: 1
     title: String JSON
@@ -14840,6 +14879,9 @@ dictitems:
   super:
     count: 1
     title: Super
+  super-symmetry:
+    count: 1
+    title: Super-Symmetry
   superbad:
     count: 1
     title: Superbad
@@ -15194,6 +15236,9 @@ dictitems:
   teflon:
     count: 1
     title: Teflon
+  tegmark:
+    count: 1
+    title: Tegmark
   telecom provider:
     count: 1
     title: Telecom Provider
@@ -15722,6 +15767,12 @@ dictitems:
   trustworthiness:
     count: 1
     title: Trustworthiness
+  truth:
+    count: 1
+    title: Truth
+  truthiness:
+    count: 1
+    title: Truthiness
   try:
     count: 1
     title: Try
@@ -16920,7 +16971,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 25
+    count: 26
     title: Writing
   writing code:
     count: 1
