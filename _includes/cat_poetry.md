@@ -1,0 +1,11 @@
+<ol>
+<li><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a> (Thu May 04, 2023)
+<br/>I explore the idea of accepting the status quo and not striving for discovery in this ode. I emphasize the importance of practice and the power of repetition. I also caution against the pitfalls of making too much effort and the fallacy of pop culture.</li>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
+<br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
+<li><a href="/blog/center-a-poem/">Center, A Poem</a> (Mon May 23, 2022)
+<br/>As a poet, I often feel off-center. I use my poetry to stay centered, but when I publish it, I'm too far left. To stay centered, I need to create a style definition that sets margin to auto and width to a percentage of the containing element, and put my styles inline. Even though the world is not perfect, I need to stay centered and put my styles inline to make sure my message is heard.</li>
+<li><a href="/blog/what-s-most-broken/">What's Most Broken?</a> (Mon May 02, 2022)
+<br/>As a daily reminder, I have three rules I live by: identify what's most broken, focus on where I can get the biggest bang for the buck, and keep track of what plates need to be spun. I also try to stay mindful of the 80/20-rule and Rabbit-Hole evaluations, and pay attention to any poetry that comes to mind. Quasi Joe D'Ohhh is a reminder to stay vigilant and not be fooled twice. Read my blog post to find out</li>
+</ol>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/microsoft/">Microsoft</a></div> &nbsp; <div class="post-nav-next"><a href="/seo/">SEO</a><span class="arrow">&nbsp;&rarr;</span></div></div>
