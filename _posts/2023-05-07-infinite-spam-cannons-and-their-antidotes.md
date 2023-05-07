@@ -4,7 +4,7 @@ title: Infinite Spam Cannons And Their Antidotes
 headline: Unlocking the Secrets of Infinite Spam Cannons and Their Antidotes
 description: The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.
 keywords: SEO, Content, Production, GPT-3 API, Generative Transformers, Midjourney, ChatGPT, Linear vs. Exponential, Cosmic Inflation, Traveling Salesperson Problem, Google, Search Engine, Signal-to-Noise Ratio, Copilot, SimpleNote, AltaVista, Crawl-and-Index Model, Bandaids, Script Kiddie, AI, Virtual-Philosophers, Phase Space, Generative Trick, Paywalled Content
-categories: ai, seo, google
+categories: ai, google, seo
 permalink: /blog/infinite-spam-cannons-and-their-antidotes/
 layout: post
 ---
@@ -17,7 +17,9 @@ the tooth, it comes from horses. As horses age, their gums recede, making their
 teeth look longer. Or was that rabbits who have teeth that grow continuously?
 
 And so it is with this long-in-the-tooth view I look the long-in-the-tail
-strategies of yore in SEO.
+strategies of yore in SEO. Hold on for a wacky few paragraphs for me to delve
+into the new world realities. We start out with something called an O-scale
+problem. Or more specifically, O to the power of O. Follow along!
 
 Whether or not cosmic inflation was real or not in the birth of our universe,
 the concept of exponentially growing "O-scale" problems is a thing. You've
@@ -147,5 +149,5 @@ and reward this fact.
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
