@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
+<br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
 <br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a> (Wed May 03, 2023)

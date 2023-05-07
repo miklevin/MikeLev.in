@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
+<br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)
 <br/>I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.</li>
 <li><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a> (Fri Apr 21, 2023)

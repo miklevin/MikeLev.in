@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
+<br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a> (Sat May 06, 2023)
 <br/>Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)

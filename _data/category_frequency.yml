@@ -702,7 +702,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 84
+    count: 85
     title: AI
   ai design:
     count: 1
@@ -839,6 +839,9 @@ dictitems:
   alt-text:
     count: 1
     title: alt-text
+  altavista:
+    count: 1
+    title: AltaVista
   alternative:
     count: 5
     title: Alternative
@@ -1427,6 +1430,9 @@ dictitems:
   banach-tarski paradox:
     count: 1
     title: Banach-Tarski Paradox
+  bandaids:
+    count: 1
+    title: Bandaids
   bandit:
     count: 1
     title: Bandits
@@ -2289,7 +2295,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 21
+    count: 22
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3012,7 +3018,7 @@ dictitems:
     count: 1
     title: Containing Element
   content:
-    count: 21
+    count: 22
     title: Content
   content appeal:
     count: 1
@@ -3114,7 +3120,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 13
+    count: 14
     title: Copilot
   copilot ai:
     count: 1
@@ -3173,6 +3179,9 @@ dictitems:
   cosmic:
     count: 1
     title: Cosmic
+  cosmic inflation:
+    count: 1
+    title: Cosmic Inflation
   cosmic vibration:
     count: 1
     title: Cosmic Vibration
@@ -3236,6 +3245,9 @@ dictitems:
   crawl jobs:
     count: 1
     title: Crawl Jobs
+  crawl-and-index model:
+    count: 1
+    title: Crawl-and-Index Model
   crawling:
     count: 4
     title: Crawling
@@ -5942,6 +5954,12 @@ dictitems:
   generative ai artwork:
     count: 1
     title: Generative AI Artwork
+  generative transformers:
+    count: 1
+    title: Generative Transformers
+  generative trick:
+    count: 1
+    title: Generative Trick
   generator:
     count: 3
     title: Generator
@@ -6171,7 +6189,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 15
+    count: 16
     title: Google
   google analytics:
     count: 14
@@ -6281,6 +6299,9 @@ dictitems:
   gpt-3:
     count: 2
     title: GPT-3
+  gpt-3 api:
+    count: 1
+    title: GPT-3 API
   gpt-3.5:
     count: 1
     title: GPT-3.5
@@ -8384,6 +8405,9 @@ dictitems:
   linear tool:
     count: 1
     title: Linear Tool
+  linear vs. exponential:
+    count: 1
+    title: Linear vs. Exponential
   linefeeds:
     count: 1
     title: Linefeeds
@@ -9545,6 +9569,9 @@ dictitems:
   middle:
     count: 1
     title: middle
+  midjourney:
+    count: 1
+    title: Midjourney
   migrating:
     count: 1
     title: Migrating
@@ -11000,6 +11027,9 @@ dictitems:
   payment regulations:
     count: 1
     title: Payment Regulations
+  paywalled content:
+    count: 1
+    title: Paywalled Content
   pc:
     count: 1
     title: PC
@@ -11138,6 +11168,9 @@ dictitems:
   pessimist:
     count: 1
     title: Pessimists
+  phase space:
+    count: 1
+    title: Phase Space
   phenomenon:
     count: 1
     title: Phenomenon
@@ -11772,7 +11805,7 @@ dictitems:
     count: 1
     title: Product Improvements
   production:
-    count: 2
+    count: 3
     title: Production
   production environment:
     count: 1
@@ -13391,6 +13424,9 @@ dictitems:
   script:
     count: 44
     title: Script
+  script kiddie:
+    count: 1
+    title: Script Kiddie
   script system:
     count: 1
     title: Script System
@@ -13422,8 +13458,8 @@ dictitems:
     count: 4
     title: Search Console
   search engine:
-    count: 2
-    title: search engine
+    count: 3
+    title: Search Engine
   search engine optimization:
     count: 5
     title: Search Engine Optimization
@@ -13602,7 +13638,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 70
+    count: 71
     title: SEO
   seo blog:
     count: 1
@@ -13826,6 +13862,9 @@ dictitems:
   sign:
     count: 1
     title: signs
+  signal-to-noise ratio:
+    count: 1
+    title: Signal-to-Noise Ratio
   silicon atoms:
     count: 1
     title: Silicon Atoms
@@ -13845,7 +13884,7 @@ dictitems:
     count: 1
     title: simplecss.org
   simplenote:
-    count: 1
+    count: 2
     title: SimpleNote
   simplenotes:
     count: 1
@@ -15707,6 +15746,9 @@ dictitems:
   travel:
     count: 1
     title: Travel
+  traveling salesperson problem:
+    count: 1
+    title: Traveling Salesperson Problem
   travis wright:
     count: 1
     title: Travis Wright
@@ -16445,6 +16487,9 @@ dictitems:
   virtual-desktops:
     count: 1
     title: Virtual-Desktops
+  virtual-philosophers:
+    count: 1
+    title: Virtual-Philosophers
   virtualbox:
     count: 1
     title: VirtualBox
