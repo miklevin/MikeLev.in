@@ -4,7 +4,7 @@ title: Simulation Hypothesis Or Not is a False Dichotomy
 headline: "Exploring the Possibilities of Reality-Hacks: My Journey of Self-Discovery and Art"
 description: In this out-there post, I explore the idea that the dichotomy between the Simulation Hypothesis and reality is false. My journey has led me to explore the potential of reality-hacks. I believe that Intelligent Design is a valid theory, scientifically falsifiable as it is (it hasn't been yet), and that even the nonfalsifiable stuff of art and magic is fun to explore. My ambition is to find the best path to a game well played.
 keywords: Art, Writing, Programming, Science, Philosophy, Al-Khalili, Tegmark, Hawking, Strings, Super-Symmetry, LHC, NUMA, NASA, Loop Quantum Gravity, Michio Kaku, Sean Carroll, Neil deGrasse Tyson, Rovelli, Big Bang, High-Level Programming, Low-Level Programming, Knowability, Truth, Truthiness, False Dichotomies, Belief, Pragmatic Behavior, Jim Al-Khalili
-categories: science, string, coding
+categories: coding, string, science
 permalink: /blog/simulation-hypothesis-or-not-is-a-false-dichotomy/
 layout: post
 ---
@@ -62,18 +62,26 @@ higher-order intelligence for the purpose of survival.
 
 Attributes such as deliberate camouflage designs in nature and natural
 selection are not the result of a higher intelligence, but rather the result of
-what you'd be told is complete random mutation. I mean an Angler Fish's light
-bulb and lure is just totally random? There wasn't a moment at which the very
-impressive mechanism of cellular automata and what we're coming to know as
+what you'd be told is complete random mutation. I mean the terrifying Angler
+Fish's light bulb ruse and lure is just totally random? You're telling me that
+there was never on some conscious level, not quite like human consciousness but
+a sort of consciousness nonetheless, that there wasn't a moment at which the
+very impressive mechanism of cellular automata and what we're coming to know as
 epigenetic expression didn't possibly say "Hey, I've got an idea! Let's make a
-light bulb and lure to attract prey!"? No chance? Zero? Zilch, books closed?
+light bulb and lure to attract prey!"? 
 
-That's not science. In some ways, science doesn't really seem to be science
-just because human nature, self-promotion and whatnot interfere with perfectly
-decent theories. I'm saying that Intelligent Design is a theory warranting
-scientific investigation. It is falsafiably testable, so should not have the
-books closed on it. Hard core atheists are religious zealots just like their
-foes.
+No chance? Zero? Zilch? Books closed, end of discussion? But yep, that's how
+science works; exactly how science is not supposed to work. Those who write the
+book can close the book, using the power of memes to brainwash a certain
+close-minded dogmatism into the minds of the next generation of scientists. I
+mean I love the hell out of Dawkins, but I'm with ufologist Eric Weinstein on
+this one. Scientists can gaslight with the best of them.
+
+In some ways, science doesn't really seem to be science just because human
+nature, self-promotion and whatnot interfere with perfectly decent theories.
+I'm saying that Intelligent Design is a theory warranting scientific
+investigation. It is falsafiably testable, so should not have the books closed
+on it. Hard core atheists are religious zealots just like their foes.
 
 Non-falsifiable shit, now that you can take off the table. Don't go telling me
 about the multiverse until you've got some sort of test, and certainly don't go
@@ -161,6 +169,6 @@ which has self-similar properties to the entire universe.
 ## Categories
 
 <ul>
-<li><h4><a href='/science/'>Science</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/string/'>Strings</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/science/'>Science</a></h4></li></ul>

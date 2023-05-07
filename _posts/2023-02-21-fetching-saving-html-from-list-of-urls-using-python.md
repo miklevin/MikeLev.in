@@ -4,7 +4,7 @@ title: Fetching & Saving HTML From List of URLs Using Python
 headline: Creating a Program to Scrape Data from a Website for a Friend Using Python and Linux
 description: As I prepare to start my new job, I'm taking care of all the necessary tasks, including ordering a standing desk and organizing my apartment. I also attended a group meeting with my employer and got all the onboarding paperwork done. To help out a friend, I'm creating a program to scrape data from a website and store it in an Excel file, using Python and Linux.
 keywords: Fetching, Saving, HTML, URLs, Python, Standing Desk, Organizing, Group Meeting, Employer, Onboarding, Scrape, Store, Excel, Linux, SEO, Tuesday, Job, Monday, Supermarket, Ikea, Apartment, JupyterLab, Server, Practice Directory, Notebook, HTTPX, Synchronous Work, Read, Lists, Crawl, HTTP Request, SQLite3, Database, File, Extract, Title, Description, Head
-categories: python, linux, database, seo, jupyter, html, panda
+categories: panda, database, html, python, jupyter, seo, linux
 permalink: /blog/fetching-saving-html-from-list-of-urls-using-python/
 layout: post
 ---
@@ -278,10 +278,10 @@ df.to_excel("business.xlsx", index=False)
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
