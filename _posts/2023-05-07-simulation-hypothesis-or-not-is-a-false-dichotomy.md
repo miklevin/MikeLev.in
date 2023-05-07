@@ -30,11 +30,12 @@ is a lot more local than you think, hidden in plain sight.
 
 That's just intuition talking. As I said, I'm no scientist. This evolved
 attitude of mine has made me look less lovingly at Michio Kaku, Sean Carroll,
-and of course Neil deGrasse Tyson. They seem are wrong, with vindication too
-far off to be my Monday Night Football. Even the prolific Rovelli, one of the
-few from the Loop Quantum Gravity camp who can hold their own against
-the superstring rockstars is starting to sound a little floundering. At least
-he can watch for the ripples and echoes of the Big Bang in plain sight.
+and of course Neil deGrasse Tyson. They seem wrong, with validation of their
+high fallutin way too complex math too far off to be my particular Monday Night
+Football. Even the prolific Rovelli, one of the few from the Loop Quantum
+Gravity camp who can hold their own against the superstring rockstars is
+starting to sound a little floundering. At least he can watch for the ripples
+and echoes of the Big Bang in plain sight.
 
 The lesson here is about high-level and low-level programming, knowability,
 truth and truthiness, excessive confidence, false dichotomies, and setting your
