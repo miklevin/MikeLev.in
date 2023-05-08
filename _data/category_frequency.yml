@@ -10391,9 +10391,6 @@ dictitems:
   non-profit:
     count: 1
     title: non-profit
-  none:
-    count: 1
-    title: None
   nonfungible tokens:
     count: 1
     title: Nonfungible Tokens
