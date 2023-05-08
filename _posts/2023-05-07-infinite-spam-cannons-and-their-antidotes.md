@@ -4,7 +4,7 @@ title: Infinite Spam Cannons And Their Antidotes
 headline: Unlocking the Secrets of Infinite Spam Cannons and Their Antidotes
 description: The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.
 keywords: SEO, Content, Production, GPT-3 API, Generative Transformers, Midjourney, ChatGPT, Linear vs. Exponential, Cosmic Inflation, Traveling Salesperson Problem, Google, Search Engine, Signal-to-Noise Ratio, Copilot, SimpleNote, AltaVista, Crawl-and-Index Model, Bandaids, Script Kiddie, AI, Virtual-Philosophers, Phase Space, Generative Trick, Paywalled Content
-categories: ai, seo, google
+categories: google, seo, ai
 permalink: /blog/infinite-spam-cannons-and-their-antidotes/
 layout: post
 ---
@@ -145,10 +145,10 @@ and reward this fact.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/simulation-hypothesis-or-not-is-a-false-dichotomy/">Simulation Hypothesis Or Not is a False Dichotomy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/simulation-hypothesis-or-not-is-a-false-dichotomy/">Simulation Hypothesis Or Not is a False Dichotomy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gotta-start-my-journey-into-midjourney-discord-ugh-okay/">Gotta Start my Journey into Midjourney... Discord?!?! Ugh, okay.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -1587,13 +1587,13 @@ dictitems:
     count: 1
     title: Biden
   bifurcation:
-    count: 1
+    count: 2
     title: Bifurcation
   big ai:
     count: 1
     title: Big AI
   big bang:
-    count: 3
+    count: 4
     title: Big Bang
   big changes:
     count: 1
@@ -2216,6 +2216,9 @@ dictitems:
   cell:
     count: 2
     title: Cell
+  cellular automata:
+    count: 1
+    title: Cellular Automata
   centralizing:
     count: 1
     title: Centralizing
@@ -2333,6 +2336,9 @@ dictitems:
   chemistry:
     count: 1
     title: Chemistry
+  chewing gum wrapper:
+    count: 1
+    title: Chewing Gum Wrapper
   chien-shiung wu:
     count: 1
     title: Chien-Shiung Wu
@@ -3185,6 +3191,9 @@ dictitems:
   cosmic vibration:
     count: 1
     title: Cosmic Vibration
+  cosmic web:
+    count: 1
+    title: Cosmic Web
   cosmology:
     count: 2
     title: Cosmology
@@ -4583,6 +4592,9 @@ dictitems:
   electron:
     count: 2
     title: Electrons
+  electron probability clouds:
+    count: 1
+    title: Electron Probability Clouds
   electron-positron pairs:
     count: 1
     title: Electron-Positron Pairs
@@ -4667,6 +4679,9 @@ dictitems:
   emergent behavior:
     count: 1
     title: Emergent Behavior
+  emergent properties:
+    count: 1
+    title: Emergent Properties
   emerging:
     count: 1
     title: Emerging
@@ -4829,6 +4844,9 @@ dictitems:
   envy:
     count: 1
     title: Envy
+  epigenetic:
+    count: 1
+    title: Epigenetic
   epigenetics:
     count: 4
     title: Epigenetics
@@ -5309,6 +5327,9 @@ dictitems:
   fiber:
     count: 1
     title: Fiber
+  fibonacci spiral:
+    count: 1
+    title: Fibonacci Spiral
   fiction:
     count: 1
     title: Fiction
@@ -5619,7 +5640,7 @@ dictitems:
     count: 1
     title: Foundation
   fractal:
-    count: 1
+    count: 2
     title: Fractals
   fragile:
     count: 1
@@ -5864,9 +5885,12 @@ dictitems:
   galactic plane:
     count: 1
     title: Galactic Plane
-  galaxy:
+  galactic spirals:
     count: 1
-    title: Galaxy
+    title: Galactic Spirals
+  galaxy:
+    count: 2
+    title: Galaxies
   galileo project:
     count: 1
     title: Galileo Project
@@ -7229,6 +7253,9 @@ dictitems:
   infinity:
     count: 2
     title: Infinity
+  inflation:
+    count: 1
+    title: Inflation
   influence:
     count: 2
     title: Influence
@@ -8066,6 +8093,9 @@ dictitems:
   known_hosts:
     count: 1
     title: known_hosts
+  koch snowflake:
+    count: 1
+    title: Koch Snowflake
   kubernetes:
     count: 2
     title: Kubernetes
@@ -8285,6 +8315,9 @@ dictitems:
   lex fridman:
     count: 1
     title: Lex Fridman
+  lex luthor:
+    count: 1
+    title: Lex Luthor
   lgbtq:
     count: 1
     title: LGBTQ
@@ -9108,7 +9141,7 @@ dictitems:
     count: 2
     title: Manager
   mandelbrot set:
-    count: 1
+    count: 2
     title: Mandelbrot Set
   mangled:
     count: 1
@@ -9896,6 +9929,9 @@ dictitems:
   mudskipper:
     count: 1
     title: Mudskipper
+  multicellular organism:
+    count: 1
+    title: Multicellular Organism
   multics:
     count: 1
     title: Multics
@@ -9953,6 +9989,9 @@ dictitems:
   mutabledocument:
     count: 1
     title: MutableDocument
+  mycelial network:
+    count: 1
+    title: Mycelial Network
   mycelium network:
     count: 1
     title: Mycelium Network
@@ -10337,6 +10376,9 @@ dictitems:
   non-profit:
     count: 1
     title: non-profit
+  none:
+    count: 1
+    title: None
   nonfungible tokens:
     count: 1
     title: Nonfungible Tokens
@@ -10442,6 +10484,9 @@ dictitems:
   o:
     count: 1
     title: OS
+  o-scale:
+    count: 1
+    title: O-Scale
   oarfish:
     count: 1
     title: Oarfish
@@ -11357,6 +11402,9 @@ dictitems:
   planet:
     count: 3
     title: Planet
+  planetary orbits:
+    count: 1
+    title: Planetary Orbits
   planning:
     count: 2
     title: Planning
@@ -13587,7 +13635,7 @@ dictitems:
     count: 1
     title: Self-Reinforcing
   self-similarity:
-    count: 1
+    count: 2
     title: Self-Similarity
   self-sustaining:
     count: 1
@@ -14052,7 +14100,7 @@ dictitems:
     count: 1
     title: sliding-glass door
   slime mold:
-    count: 1
+    count: 2
     title: Slime Mold
   slingshot:
     count: 1
@@ -15744,7 +15792,7 @@ dictitems:
     count: 1
     title: Trauma
   travel:
-    count: 1
+    count: 2
     title: Travel
   traveling salesperson problem:
     count: 1
@@ -16050,7 +16098,7 @@ dictitems:
     count: 1
     title: Universality
   universe:
-    count: 2
+    count: 3
     title: Universe
   university of manchester:
     count: 1
@@ -16616,6 +16664,9 @@ dictitems:
   war:
     count: 1
     title: war
+  war and peace:
+    count: 1
+    title: War and Peace
   warming:
     count: 1
     title: Warming
