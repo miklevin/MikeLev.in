@@ -4,17 +4,18 @@ title: Infinite Spam Cannons And Their Antidotes
 headline: Unlocking the Secrets of Infinite Spam Cannons and Their Antidotes
 description: The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.
 keywords: SEO, Content, Production, GPT-3 API, Generative Transformers, Midjourney, ChatGPT, Linear vs. Exponential, Cosmic Inflation, Traveling Salesperson Problem, Google, Search Engine, Signal-to-Noise Ratio, Copilot, SimpleNote, AltaVista, Crawl-and-Index Model, Bandaids, Script Kiddie, AI, Virtual-Philosophers, Phase Space, Generative Trick, Paywalled Content
-categories: ai, google, seo
+categories: ai, seo, google
 permalink: /blog/infinite-spam-cannons-and-their-antidotes/
 layout: post
 ---
 
 
-I've been putting off stuff from work. It's because I haven't done the deep
-thought-work necessary to support it. But now I have. I'm what you would call
-long in the tooth in the field of SEO. If you don't know the expression long in
-the tooth, it comes from horses. As horses age, their gums recede, making their
-teeth look longer. Or was that rabbits who have teeth that grow continuously?
+I've had difficulty producing one particular deliverable for work because of
+the deep thought-work that had to go into supporting it. But now I have. I'm
+what you would call long in the tooth in the field of SEO. If you don't know
+the expression long in the tooth, it comes from horses. As horses age, their
+gums recede, making their teeth look longer. Or was that rabbits who have teeth
+that grow continuously?
 
 And so it is with this long-in-the-tooth view I look the long-in-the-tail
 strategies of yore in SEO. Hold on for a wacky few paragraphs for me to delve
@@ -149,5 +150,5 @@ and reward this fact.
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
