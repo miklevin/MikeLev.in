@@ -1,4 +1,8 @@
 <ol>
+<li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-slashes/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Slashes</a> (Mon May 08, 2023)
+<br/>Learn how to use Regular Expressions (RegEx) in NeoVim to format Markdown quotes with two trailing slashes. Discover how to create an automatic backup of your journal in the `_data` folder, and how to use Vim commands to add, delete, and edit text. Get started with Midjourney AI with a paid account and access documentation on their Gitbook.</li>
+<li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-slashes/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Slashes</a> (Mon May 08, 2023)
+<br/>Learn how to use Regular Expressions (RegEx) in NeoVim to format Markdown quotes with two trailing slashes. Discover how to create an automatic backup of your journal in the `_data` folder, and how to use Vim commands to add, delete, and edit text. Get started with Midjourney AI with a paid account and access documentation on their Gitbook.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
 <br/>Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-slashes/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Slashes</a> (Mon May 08, 2023)
+<br/>Learn how to use Regular Expressions (RegEx) in NeoVim to format Markdown quotes with two trailing slashes. Discover how to create an automatic backup of your journal in the `_data` folder, and how to use Vim commands to add, delete, and edit text. Get started with Midjourney AI with a paid account and access documentation on their Gitbook.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)
 <br/>This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.</li>
 <li><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a> (Thu May 04, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-slashes/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Slashes</a> (Mon May 08, 2023)
+<br/>Learn how to use Regular Expressions (RegEx) in NeoVim to format Markdown quotes with two trailing slashes. Discover how to create an automatic backup of your journal in the `_data` folder, and how to use Vim commands to add, delete, and edit text. Get started with Midjourney AI with a paid account and access documentation on their Gitbook.</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
 <br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a> (Sat May 06, 2023)

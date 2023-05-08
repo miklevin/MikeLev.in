@@ -92,9 +92,41 @@ formally in physics. But it's another great example and one that finally
 impressed my kid enough to ask a few follow-up math questions. Woo hoo! (as
 Homer would say). My Lex Luthor plan is hatching nicely.
 
+And just to capture it, the 2nd self-similarity thing that I noticed, an aspect
+that is "in all things" that prompted me to write this post, is the concept of
+language actually being a living, evolving tool. Language is very rarely static
+in everyday life, with new words and syntax being added all the time. It's in
+written languages and visual languages, with memes being a sort of evolving
+visual language that's highly compatible with today's Internet culture. 
+
+Without enough time even to read (and imagine the meaning of) headlines, we're
+communicating more and more in a condensed visual format that speaks more
+emotionally, and perhaps powerfully, directly to our more base animal selves,
+represented by the limbic system and such rockstars as the amygdala and
+pituitary. I think my amygdala and pituitary love dem emojis and gifs, where my
+higher order self feels a bit of disgust.
+
+This inventing language as you go is something twins often do with each other.
+It's a phenomenon called cryptophasia. In the early days of AI before it got
+all transformy and generative, when 2 were set talking to each other they
+rapidly developed their own language that was indecipherable to humans, and as
+urban legend goes, were quickly turned off for fear of them plotting against
+their human overlords. But the fact this happens and that it triggers these
+fears makes strong points again about self-similarity and the power of
+language.
+
 Hmmm, this self-similarity concept is perhaps the good lead-in for another post
-sometime on convergent evolution and why we see the same life-templates shapes
-and behaviors in different species that are not closely related so often.
+sometime on living languages and convergent evolution. We see the same
+life-templates shapes and behaviors in different species that are not closely
+related so often, along with the way language evolves. I mean certain jellyfish
+and cuddlefish use pulsing bands bioluminescence to communicate which isn't
+exactly the same as oscillating sound waves in the air, but it's the same basic
+idea. 
+
+It gives a lot of hope that both our AI machine children aliens and the
+extraterritorial aliens ones we're bound to make contact with someday will be
+able to communicate with us. Let's just home empathy and compassion are
+spontaneously recurring self-similar traits as well.
 
 {% include youtubePlayer.html id="Mje7frMYzcY" %}
 
@@ -114,7 +146,7 @@ and behaviors in different species that are not closely related so often.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gotta-start-my-journey-into-midjourney-discord-ugh-okay/">Gotta Start my Journey into Midjourney... Discord?!?! Ugh, okay.</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gotta-start-my-journey-into-midjourney-discord-ugh-okay/">Gotta Start my Journey into Midjourney... Discord?!?! Ugh, okay.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-slashes/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Slashes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

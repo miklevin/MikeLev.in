@@ -1,3 +1,40 @@
+- regex
+- neovim
+- format
+- markdown
+- quote
+- trailing
+- slash
+- draft
+- post
+- backup
+- vim
+- command
+- paradigm
+- writing
+- editing
+- text
+- vi
+- word
+- processor
+- editor
+- thinking
+- source
+- decompose
+- recompose
+- automate
+- yaml
+- jekyll
+- lashing
+- discord
+- server
+- ai
+- image
+- microsoft
+- store
+- verify
+- ip
+- email
 - lex luthor
 - war and peace
 - chewing gum wrapper
@@ -43,13 +80,11 @@
 - crawl-and-index model
 - bandaids
 - script kiddie
-- ai
 - virtual-philosophers
 - phase space
 - generative trick
 - paywalled content
 - art
-- writing
 - programming
 - science
 - philosophy
@@ -95,7 +130,6 @@
 - benefit
 - approach
 - python
-- yaml
 - config
 - raw
 - map
@@ -258,9 +292,7 @@
 - sorry about that chief
 - completion
 - function
-- jekyll
 - rendering
-- draft
 - publishing
 - journal
 - tool-divergence
@@ -279,7 +311,6 @@
 - implementation
 - commit
 - un-styled
-- markdown
 - pasting
 - google docs
 - up game
@@ -343,7 +374,6 @@
 - json data format
 - bing
 - bard
-- microsoft
 - transformer
 - clippy
 - tay
@@ -424,9 +454,7 @@
 - magic
 - spell
 - muscle memory
-- vim
 - emacs
-- neovim
 - yamlchop
 - api
 - channeling
@@ -520,7 +548,6 @@
 - game
 - zone
 - meta-awareness
-- thinking
 - living
 - doing
 - git
@@ -555,7 +582,6 @@
 - tech
 - book
 - visual
-- image
 - noah's ark
 - religion
 - connecting
@@ -586,7 +612,6 @@
 - embrace & displace
 - linux
 - wsl2
-- vi
 - powerpoint
 - deck
 - internet
@@ -681,10 +706,8 @@
 - weekend
 - summarize
 - question
-- source
 - review
 - title
-- editing
 - cross-cutting skill
 - program
 - repo
@@ -699,7 +722,6 @@
 - bingo
 - lemmatization
 - stemming
-- word
 - normalized
 - unique
 - lower-case
@@ -736,7 +758,6 @@
 - deliverable-maker
 - voice
 - strategy
-- post
 - journaling system
 - life advice
 - delete
@@ -819,7 +840,6 @@
 - .vimrc
 - machine
 - zg
-- command
 - spell-check
 - syntax
 - highlighting
@@ -931,7 +951,6 @@
 - megabyte
 - category pages
 - post slugs
-- format
 - write_post_to_file
 - front_matter_inserter
 - chunk
@@ -1130,7 +1149,6 @@
 - capability
 - formatting
 - comma
-- quote
 - re-write
 - validate
 - regular expressions
@@ -1562,7 +1580,6 @@
 - easy
 - share
 - teach
-- automate
 - custom capabilities
 - conversation
 - concern
@@ -1577,7 +1594,6 @@
 - impact on society
 - qnap
 - hybrid sync
-- backup
 - warning
 - failed
 - copy
@@ -1747,7 +1763,6 @@
 - virtual machines
 - vms
 - cli
-- server
 - localhost
 - '8888'
 - prioritize
@@ -2960,7 +2975,6 @@
 - advertising
 - e-commerce
 - automated
-- email
 - checking
 - .py
 - .service
@@ -3025,7 +3039,6 @@
 - group meeting
 - onboarding
 - scrape
-- store
 - tuesday
 - monday
 - supermarket
@@ -3139,7 +3152,6 @@
 - incumbent
 - statistical models
 - insert
-- text
 - read mode
 - insert method
 - join method
@@ -3394,7 +3406,6 @@
 - get request
 - jsonl
 - dns
-- ip
 - virtualizing
 - raspberrypi
 - logins
@@ -4417,7 +4428,6 @@
 - '![space]rev'
 - august 31
 - direction
-- slash
 - parenthesis
 - 52nd birthday
 - disney+
@@ -4511,7 +4521,6 @@
 - header
 - lowercase
 - xlsx
-- regex
 - tldextract
 - bulk keyword analysis
 - scavenger hunt

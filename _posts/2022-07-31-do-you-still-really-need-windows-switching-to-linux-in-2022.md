@@ -4,7 +4,7 @@ title: Do You Still Really Need Windows? Switching To Linux in 2022
 headline: "Switching to Linux in 2022: Why Windows is Becoming Obsolete and Why Containers Under Linux are the Best Way to Future-Proof Your Work"
 description: As tech becomes more and more essential to our daily lives, I'm discussing the importance of understanding generic tech, and why Windows is becoming obsolete. I'm exploring why Linux is the way to go, and why using containers under Linux is the best way to future-proof your work. I'm also discussing why Docker should be used from Windows and why it's important. Join me as I explain why it's essential to keep up with tech trends.
 keywords: Windows, Linux, Containers, Docker, Tech Trends, Dev, Microsoft, Linux Terminal, Future-Proofing, Generic Tech, Proprietary, Literacy
-categories: container, proprietary, linux, linux terminal, microsoft
+categories: proprietary, linux, container, linux terminal, microsoft
 permalink: /blog/do-you-still-really-need-windows-switching-to-linux-in-2022/
 layout: post
 ---
@@ -76,8 +76,8 @@ more simplicity?
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

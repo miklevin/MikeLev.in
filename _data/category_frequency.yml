@@ -702,7 +702,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 85
+    count: 86
     title: AI
   ai design:
     count: 1
@@ -1293,7 +1293,7 @@ dictitems:
     count: 1
     title: Automatable System
   automate:
-    count: 3
+    count: 4
     title: Automate
   automate workflows:
     count: 1
@@ -1401,7 +1401,7 @@ dictitems:
     count: 1
     title: Backspace
   backup:
-    count: 5
+    count: 6
     title: Backup
   bad actors:
     count: 1
@@ -2712,7 +2712,7 @@ dictitems:
     count: 1
     title: Comma Separated Values
   command:
-    count: 17
+    count: 18
     title: Command
   command centric design:
     count: 1
@@ -3719,6 +3719,9 @@ dictitems:
   decoherence theory:
     count: 1
     title: Decoherence Theory
+  decompose:
+    count: 1
+    title: Decompose
   decorator:
     count: 1
     title: Decorators
@@ -4088,6 +4091,9 @@ dictitems:
   disconnect:
     count: 1
     title: Disconnect
+  discord:
+    count: 1
+    title: Discord
   discourse:
     count: 1
     title: discourse
@@ -4326,8 +4332,8 @@ dictitems:
     count: 1
     title: Dr. Seuss
   draft:
-    count: 5
-    title: Drafts
+    count: 6
+    title: Draft
   drama:
     count: 1
     title: Drama
@@ -4521,11 +4527,14 @@ dictitems:
     count: 1
     title: edit.sh
   editing:
-    count: 13
+    count: 14
     title: Editing
   editing human embryos:
     count: 1
     title: Editing Human Embryos
+  editor:
+    count: 1
+    title: Editors
   education:
     count: 7
     title: Education
@@ -4650,7 +4659,7 @@ dictitems:
     count: 1
     title: Emacs Wizards
   email:
-    count: 8
+    count: 9
     title: Email
   embed:
     count: 1
@@ -5598,7 +5607,7 @@ dictitems:
     count: 1
     title: Forking Mode
   format:
-    count: 1
+    count: 2
     title: Format
   formative experience:
     count: 1
@@ -7077,7 +7086,7 @@ dictitems:
     count: 1
     title: iMac
   image:
-    count: 6
+    count: 7
     title: image
   image attachment:
     count: 1
@@ -7578,7 +7587,7 @@ dictitems:
     count: 1
     title: Inviting
   ip:
-    count: 3
+    count: 4
     title: IP
   ip-cycling:
     count: 1
@@ -7677,7 +7686,7 @@ dictitems:
     count: 1
     title: Jealousy
   jekyll:
-    count: 43
+    count: 44
     title: Jekyll
   jekyll blog:
     count: 1
@@ -8189,6 +8198,9 @@ dictitems:
   large hadron:
     count: 1
     title: Large Hadron
+  lashing:
+    count: 1
+    title: Lashing
   last forever:
     count: 1
     title: Last Forever
@@ -9204,7 +9216,7 @@ dictitems:
     count: 1
     title: Marine
   markdown:
-    count: 27
+    count: 28
     title: Markdown
   markdown file:
     count: 2
@@ -9549,7 +9561,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 45
+    count: 46
     title: Microsoft
   microsoft 365:
     count: 2
@@ -10176,7 +10188,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 21
+    count: 23
     title: NeoVim
   nerve:
     count: 1
@@ -10970,6 +10982,9 @@ dictitems:
   papermill:
     count: 1
     title: Papermill
+  paradigm:
+    count: 1
+    title: Paradigm
   paradox:
     count: 1
     title: Paradoxes
@@ -11583,7 +11598,7 @@ dictitems:
     count: 7
     title: Possibilities
   post:
-    count: 10
+    count: 11
     title: Posts
   post requests:
     count: 1
@@ -11843,6 +11858,9 @@ dictitems:
   processing:
     count: 5
     title: Processing
+  processor:
+    count: 1
+    title: Processors
   procrastination:
     count: 1
     title: Procrastination
@@ -12408,7 +12426,7 @@ dictitems:
     count: 1
     title: Quota Management
   quote:
-    count: 1
+    count: 2
     title: Quotes
   r:
     count: 1
@@ -12632,6 +12650,9 @@ dictitems:
   recognize:
     count: 2
     title: Recognize
+  recompose:
+    count: 1
+    title: Recompose
   reconstruct:
     count: 1
     title: Reconstruct
@@ -12702,7 +12723,7 @@ dictitems:
     count: 1
     title: Regents' Professor
   regex:
-    count: 1
+    count: 2
     title: Regex
   regex pattern:
     count: 1
@@ -13746,7 +13767,7 @@ dictitems:
     count: 1
     title: servants
   server:
-    count: 15
+    count: 16
     title: Server
   server automation:
     count: 1
@@ -14055,7 +14076,7 @@ dictitems:
     count: 1
     title: Skittles
   slash:
-    count: 1
+    count: 2
     title: Slashes
   slave:
     count: 1
@@ -14301,7 +14322,7 @@ dictitems:
     count: 1
     title: Sound
   source:
-    count: 4
+    count: 5
     title: Source
   sourceforge:
     count: 1
@@ -14700,7 +14721,7 @@ dictitems:
     count: 1
     title: Storage Solutions
   store:
-    count: 5
+    count: 6
     title: Store
   storm:
     count: 1
@@ -15390,7 +15411,7 @@ dictitems:
     count: 1
     title: Texas Instruments
   text:
-    count: 1
+    count: 3
     title: Text
   text editing:
     count: 3
@@ -15492,7 +15513,7 @@ dictitems:
     count: 2
     title: think
   thinking:
-    count: 4
+    count: 5
     title: Thinking
   third great-twenty-eight:
     count: 1
@@ -15734,6 +15755,9 @@ dictitems:
   tragedy of the commons:
     count: 1
     title: Tragedy of the Commons
+  trailing:
+    count: 1
+    title: Trailing
   train collision:
     count: 1
     title: Train Collision
@@ -16349,6 +16373,9 @@ dictitems:
   verb:
     count: 1
     title: Verbs
+  verify:
+    count: 1
+    title: Verify
   vernor vinge:
     count: 1
     title: Vernor Vinge
@@ -16377,7 +16404,7 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 5
+    count: 6
     title: Vi
   vi-based platform:
     count: 1
@@ -16446,7 +16473,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 101
+    count: 103
     title: Vim
   vim buffer:
     count: 1
@@ -16980,7 +17007,7 @@ dictitems:
     count: 1
     title: WooRank
   word:
-    count: 3
+    count: 4
     title: Word
   word problems:
     count: 1
@@ -17067,7 +17094,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 26
+    count: 27
     title: Writing
   writing code:
     count: 1
@@ -17148,7 +17175,7 @@ dictitems:
     count: 2
     title: Yake
   yaml:
-    count: 14
+    count: 15
     title: YAML
   yaml ain't markup language:
     count: 1
