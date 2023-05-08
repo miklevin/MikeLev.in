@@ -3,10 +3,8 @@
 - format
 - markdown
 - quote
-- trailing
-- slash
-- draft
-- post
+- trailing spaces
+- draft posts
 - backup
 - vim
 - command
@@ -14,15 +12,14 @@
 - writing
 - editing
 - text
-- vi
-- word
-- processor
-- editor
+- word processors
+- text editors
 - thinking
 - source
 - decompose
-- recompose
+- reconstruct
 - automate
+- journal
 - yaml
 - jekyll
 - lashing
@@ -30,11 +27,15 @@
 - server
 - ai
 - image
-- microsoft
-- store
-- verify
+- microsoft store
 - ip
 - email
+- login
+- browser
+- web ui
+- app
+- paid account
+- documentation,
 - lex luthor
 - war and peace
 - chewing gum wrapper
@@ -226,8 +227,6 @@
 - log
 - ledger
 - scroll
-- text editors
-- word processors
 - cursor
 - electronic media
 - top-to-bottom
@@ -293,8 +292,8 @@
 - completion
 - function
 - rendering
+- draft
 - publishing
-- journal
 - tool-divergence
 - dilute
 - focus
@@ -374,6 +373,7 @@
 - json data format
 - bing
 - bard
+- microsoft
 - transformer
 - clippy
 - tay
@@ -612,6 +612,7 @@
 - embrace & displace
 - linux
 - wsl2
+- vi
 - powerpoint
 - deck
 - internet
@@ -715,13 +716,13 @@
 - marine
 - youtube
 - embeds
-- browser
 - folder
 - window
 - grid
 - bingo
 - lemmatization
 - stemming
+- word
 - normalized
 - unique
 - lower-case
@@ -740,7 +741,6 @@
 - mac
 - wsl
 - ubuntu
-- microsoft store
 - machine learning
 - human-machine interface
 - unix philosophies
@@ -758,6 +758,7 @@
 - deliverable-maker
 - voice
 - strategy
+- post
 - journaling system
 - life advice
 - delete
@@ -959,7 +960,6 @@
 - lemmatizing
 - keyword groups
 - top-n list
-- app
 - automation
 - slave
 - fictional
@@ -1013,7 +1013,6 @@
 - front matter support
 - content gap analysis
 - parse file
-- reconstruct
 - compare
 - python script
 - reverse order
@@ -3039,6 +3038,7 @@
 - group meeting
 - onboarding
 - scrape
+- store
 - tuesday
 - monday
 - supermarket
@@ -3527,7 +3527,6 @@
 - convoluted
 - poorly documented
 - web browser sessions
-- login
 - load
 - album
 - mediaitems
@@ -4428,6 +4427,7 @@
 - '![space]rev'
 - august 31
 - direction
+- slash
 - parenthesis
 - 52nd birthday
 - disney+
