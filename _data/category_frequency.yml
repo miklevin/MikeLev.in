@@ -783,7 +783,7 @@ dictitems:
     count: 1
     title: Algorithmic Bias
   alice:
-    count: 3
+    count: 4
     title: Alice
   alice in wonderland:
     count: 2
@@ -1322,6 +1322,9 @@ dictitems:
   autonomy:
     count: 2
     title: Autonomy
+  autosuggest:
+    count: 1
+    title: Autosuggest
   availability:
     count: 1
     title: Availability
@@ -3035,6 +3038,9 @@ dictitems:
   content deluge:
     count: 1
     title: Content Deluge
+  content filters:
+    count: 1
+    title: Content Filters
   content gap analysis:
     count: 1
     title: Content Gap Analysis
@@ -3126,7 +3132,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 14
+    count: 15
     title: Copilot
   copilot ai:
     count: 1
@@ -5990,6 +5996,9 @@ dictitems:
   generative ai artwork:
     count: 1
     title: Generative AI Artwork
+  generative birdcall:
+    count: 1
+    title: Generative Birdcall
   generative transformers:
     count: 1
     title: Generative Transformers
@@ -7262,6 +7271,9 @@ dictitems:
   infant:
     count: 1
     title: infant
+  infinite spam filter:
+    count: 1
+    title: Infinite Spam Filter
   infinity:
     count: 2
     title: Infinity
@@ -7532,6 +7544,9 @@ dictitems:
   interoperable:
     count: 2
     title: Interoperable
+  interpersonal authority:
+    count: 1
+    title: Interpersonal Authority
   interpreter:
     count: 1
     title: interpreter
@@ -9047,6 +9062,9 @@ dictitems:
   macromedia:
     count: 1
     title: Macromedia
+  mad hatter's tea party:
+    count: 1
+    title: Mad Hatter's Tea Party
   mad scientist:
     count: 1
     title: Mad Scientist
@@ -9240,7 +9258,7 @@ dictitems:
     count: 1
     title: Marketable
   marketing:
-    count: 6
+    count: 7
     title: Marketing
   marriage:
     count: 1
@@ -10191,7 +10209,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 22
+    count: 23
     title: NeoVim
   nerve:
     count: 1
@@ -10692,7 +10710,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 30
+    count: 31
     title: OpenAI
   openai api:
     count: 2
@@ -11042,6 +11060,9 @@ dictitems:
   passion project:
     count: 1
     title: Passion Project
+  passive income:
+    count: 1
+    title: Passive Income
   password:
     count: 3
     title: Password
@@ -11084,6 +11105,9 @@ dictitems:
   pattern recognition:
     count: 3
     title: Pattern Recognition
+  pavlovian conditioned:
+    count: 1
+    title: Pavlovian Conditioned
   payment processor:
     count: 1
     title: Payment Processor
@@ -12125,6 +12149,9 @@ dictitems:
   purge:
     count: 1
     title: Purge
+  purple unicorn:
+    count: 1
+    title: Purple Unicorn
   purpose:
     count: 1
     title: Purpose
@@ -12605,6 +12632,9 @@ dictitems:
   real:
     count: 1
     title: Real
+  real estate:
+    count: 1
+    title: Real Estate
   real magic:
     count: 1
     title: Real Magic
@@ -12720,7 +12750,7 @@ dictitems:
     count: 1
     title: Regents' Professor
   regex:
-    count: 2
+    count: 3
     title: RegEx
   regex pattern:
     count: 1
@@ -13704,11 +13734,14 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 71
+    count: 72
     title: SEO
   seo blog:
     count: 1
     title: SEO Blog
+  seo counterparts:
+    count: 1
+    title: SEO Counterparts
   seo director:
     count: 1
     title: SEO Director
@@ -14339,6 +14372,9 @@ dictitems:
   spacefaring:
     count: 1
     title: Spacefaring
+  spam cannon:
+    count: 1
+    title: Spam Cannon
   spam score:
     count: 1
     title: Spam Score
@@ -17021,6 +17057,9 @@ dictitems:
   wordpress:
     count: 5
     title: WordPress
+  wordpress plugin:
+    count: 1
+    title: Wordpress Plugin
   work:
     count: 4
     title: Work
@@ -17208,7 +17247,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 43
+    count: 44
     title: YouTube
   youtube analytics:
     count: 1

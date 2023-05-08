@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/">I Never Saw a Purple Unicorn And Never Hope to See One... Take and Reverse!</a> (Mon May 08, 2023)
+<br/>I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
 <br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
