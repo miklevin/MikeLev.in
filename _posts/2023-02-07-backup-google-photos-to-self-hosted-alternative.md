@@ -4,7 +4,7 @@ title: Backup Google Photos to Self Hosted Alternative
 headline: "Backing Up Google Photos: Exploring Self-Hosted Alternatives"
 description: I have created a program to back up my Google Photos, combining two scripts into a single file. I am now considering whether to keep the program as an nbdev app, and am exploring options to transition it from a notebook to a server. I am also considering not using the app in my FOSS SEO book, but recognize the value of the Jupyter Notebook under nbdev. Come read about my journey to make the best decision for my program!
 keywords: Backup, Google Photos, Self Hosted, Alternative, Program, nbdev, App, Notebook, Server, QNAP, Container Station, Upgrade, Container, Metaphor, Tutorial, FOSS, SEO, Book, Jupyter
-categories: container, google, tutorial, seo, nbdev, qnap, jupyter
+categories: jupyter, nbdev, qnap, seo, google, container, tutorial
 permalink: /blog/backup-google-photos-to-self-hosted-alternative/
 layout: post
 ---
@@ -184,10 +184,10 @@ extracted from it.
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/qnap/'>QNAP</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>

@@ -24,6 +24,12 @@ angle so that when you keep doing it, you get the image of the original shape
 again. We see this in the famous Mandelbrot set, and maybe the most famous
 example is the Koch snowflake or the fibonacci spiral. But it's everywhere.
 
+> Miss Teschmacher, some people can read War and Peace and come away thinking
+> it's a simple adventure story. Others can read the ingredients on a chewing
+> gum wrapper and unlock the secrets of the universe.
+
+{% include youtubePlayer.html id="RNHqe30uu-I" %}
+
 When you see an "emergent property", there's a very good chance that it's
 actually a large manifestation of that smaller "seed" shape allowed to run
 wild. While the flat roundness of planetary orbits and galactic spirals aren't
