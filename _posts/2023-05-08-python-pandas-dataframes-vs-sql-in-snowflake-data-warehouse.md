@@ -4,7 +4,7 @@ title: Python Pandas Dataframes vs SQL in Snowflake Data Warehouse
 headline: Discovering the Benefits of Python Pandas Dataframes and Snowflake Data Warehouse for Joining Data from Disparate Sources
 description: I've been working with SQL since the 90s and discovered the power of Python Pandas Dataframes around 10 years ago. Today, I'm surprised to find Snowflake Data Warehouse makes expensive use of Python, and am very happy that that Dataframes are shaping up to be such a mainstream data API alternative to SQL.
 keywords: Microsoft SQL Server, Sybase, SQL Server 6.5, Active Server Pages, ADO library, SQL Server personal edition, Microsoft Access, Cloud, Local Database, Linux, MySQL, Python, Pandas Dataframe, In-Memory, Joins, Unions, Filters, Aggregates, ANSI SQL, Transact SQL, T-SQL, Theta Joins, CRUD, ETL, Extract Transform Load, Jupyter Notebook, Data Science, Snow
-categories: jupyter, python, filter, linux
+categories: filter, linux, python, jupyter
 permalink: /blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/
 layout: post
 ---
@@ -63,10 +63,10 @@ that I was in a state of revolt from the proprietary stuff.
 
 I was also approaching the free and open source software (FOSS) with a fair
 degree of skepticism, especially on the database front. MySQL was gobbled up by
-Oracle in this time, so even the safest of safe havens were not so safe. I came
-to Pandas dataframes slowly, and it wasn't until a good 5 years into Python
-before I was won over by the Jupyter Notebook and Python pandas-based Data
-Science revolution. And a revolution it was. Revelations and revolutions.
+Oracle in this time, so even the safest of safe harbors were not so safe. I
+came to Pandas dataframes slowly, and it wasn't until a good 5 years into
+Python before I was won over by the Jupyter Notebook and Python pandas-based
+Data Science revolution. And a revolution it was. Revelations and revolutions.
 
 That there were better data-APIs than SQL out there was quite a revelation. I
 mean it's like saying there's better HTML out there. Oh wait, there is. It's
@@ -88,14 +88,6 @@ dataset, and get a feel for the data and what it can do for you. If you buy the
 bigger datasets, you'll already know the schemas from the sample. You can even
 design your sample queries against the sample data, and then just change the
 table names to the real ones when you buy the data.
-
-sources there and do SQL-like joins across data from different systems that you
-would not normally be able  meaning that no matter where else your data lives,
-it can ***also*** live in l.
-
-As a marketplace, it also brings a lot of data from other companies to your
-fingertips, at a price usually for anything gr you. If you buy the bigger
-datasets, you'll already know the schemas from the sample.
 
 After I distanced myself from the proprietary stuff and the tech liability of
 local database installs, I never really dove into the cloud databases. I
@@ -159,6 +151,7 @@ like it's even calling the function.
 import snowflake.snowpark as snowpark
 from snowflake.snowpark.functions import col
 
+```python
 def main(session: snowpark.Session): 
     # Your code goes here, inside the "main" handler.
     tableName = 'information_schema.packages'
@@ -237,7 +230,7 @@ To be continued.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/filter/'>Filter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
