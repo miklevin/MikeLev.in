@@ -729,8 +729,8 @@ dictitems:
     count: 1
     title: AI Writing
   ai-assistance:
-    count: 2
-    title: AI-assistance
+    count: 3
+    title: AI-Assistance
   ai-assisted coding:
     count: 1
     title: AI-assisted coding
@@ -1034,6 +1034,9 @@ dictitems:
   apple motion data:
     count: 1
     title: Apple Motion Data
+  apple photos app:
+    count: 1
+    title: Apple Photos App
   applesauce:
     count: 1
     title: Applesauce
@@ -1167,8 +1170,8 @@ dictitems:
     count: 3
     title: ASCII
   ascii art:
-    count: 1
-    title: ASCII art
+    count: 2
+    title: ASCII Art
   asimov:
     count: 1
     title: Asimov
@@ -1589,6 +1592,9 @@ dictitems:
   bff seo:
     count: 2
     title: BFF SEO
+  bg eraser:
+    count: 1
+    title: BG Eraser
   bias:
     count: 4
     title: Bias
@@ -2633,6 +2639,9 @@ dictitems:
   coding:
     count: 10
     title: Coding
+  coding assistant:
+    count: 1
+    title: Coding Assistant
   coelacanth:
     count: 1
     title: Coelacanth
@@ -3162,7 +3171,7 @@ dictitems:
     count: 2
     title: copy-paste
   copy/paste:
-    count: 5
+    count: 6
     title: Copy/Paste
   copying:
     count: 1
@@ -6086,6 +6095,9 @@ dictitems:
   gig:
     count: 1
     title: Gig
+  gimp:
+    count: 1
+    title: GIMP
   gipper:
     count: 1
     title: Gipper
@@ -6324,7 +6336,7 @@ dictitems:
     count: 1
     title: Google Sheets API
   google slides:
-    count: 2
+    count: 3
     title: Google Slides
   google spreadsheet:
     count: 1
@@ -7715,6 +7727,9 @@ dictitems:
   javascript:
     count: 17
     title: JavaScript
+  javascript-rendering:
+    count: 1
+    title: JavaScript-Rendering
   jay miner:
     count: 1
     title: Jay Miner
@@ -9504,7 +9519,7 @@ dictitems:
     count: 1
     title: Merge
   mermaid:
-    count: 3
+    count: 4
     title: Mermaid
   mermaid diagrams:
     count: 2
@@ -9621,8 +9636,11 @@ dictitems:
     count: 2
     title: Microsoft Bing
   microsoft edge:
-    count: 2
+    count: 3
     title: Microsoft Edge
+  microsoft images search:
+    count: 1
+    title: Microsoft Images Search
   microsoft independent:
     count: 1
     title: Microsoft Independent
@@ -10239,7 +10257,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 23
+    count: 24
     title: NeoVim
   nerve:
     count: 1
@@ -11087,6 +11105,9 @@ dictitems:
   particle/wave:
     count: 1
     title: Particle/Wave
+  partitioning:
+    count: 1
+    title: Partitioning
   passion:
     count: 3
     title: Passion
@@ -11538,7 +11559,7 @@ dictitems:
     count: 1
     title: Plugin System
   plugins:
-    count: 3
+    count: 4
     title: Plugins
   pocono conference:
     count: 1
@@ -11873,6 +11894,9 @@ dictitems:
   privacy tools:
     count: 1
     title: Privacy Tools
+  privacy violations:
+    count: 1
+    title: Privacy Violations
   private:
     count: 1
     title: Private
@@ -12047,6 +12071,9 @@ dictitems:
   proprietary ides:
     count: 1
     title: Proprietary IDEs
+  proprietary software:
+    count: 1
+    title: Proprietary Software
   proprietary systems:
     count: 2
     title: Proprietary Systems
@@ -15533,6 +15560,9 @@ dictitems:
   textfile-first:
     count: 1
     title: textfile-first
+  textfile-for-life:
+    count: 1
+    title: Textfile-for-Life
   textile industry:
     count: 1
     title: textile industry
@@ -15671,6 +15701,9 @@ dictitems:
   timeless:
     count: 1
     title: timeless
+  timeless design patterns:
+    count: 1
+    title: Timeless Design Patterns
   timeless tech tools:
     count: 1
     title: timeless tech tools
@@ -15896,6 +15929,9 @@ dictitems:
   transparent:
     count: 1
     title: Transparent
+  transparent backgrounds:
+    count: 1
+    title: Transparent Backgrounds
   trash:
     count: 1
     title: Trash
@@ -16583,11 +16619,14 @@ dictitems:
   vim wizards:
     count: 1
     title: Vim Wizards
+  vim-asciio:
+    count: 1
+    title: Vim-Asciio
   vim-compatible:
     count: 1
     title: Vim-compatible
   vim-plug:
-    count: 1
+    count: 2
     title: Vim-Plug
   vim/neovim:
     count: 3
@@ -16749,7 +16788,7 @@ dictitems:
     count: 2
     title: VPN
   vscode:
-    count: 20
+    count: 21
     title: VSCode
   vulnerability:
     count: 1
