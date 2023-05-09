@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: ai, seo, youtube, marketing, vim
+categories: youtube, vim, ai, seo, marketing
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -97,12 +97,12 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>

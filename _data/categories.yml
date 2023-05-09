@@ -1,3 +1,31 @@
+- microsoft sql server
+- sybase
+- sql server 6.5
+- active server pages
+- ado library
+- sql server personal edition
+- microsoft access
+- cloud
+- local database
+- linux
+- mysql
+- python
+- pandas dataframe
+- in-memory
+- join
+- union
+- filter
+- aggregate
+- ansi sql
+- transact sql
+- t-sql
+- theta joins
+- crud
+- etl
+- extract transform load
+- jupyter notebook
+- data science
+- snow
 - neovim
 - regex
 - openai
@@ -144,7 +172,6 @@
 - calorie
 - benefit
 - approach
-- python
 - config
 - raw
 - map
@@ -624,7 +651,6 @@
 - wordpress
 - site migration
 - embrace & displace
-- linux
 - wsl2
 - vi
 - powerpoint
@@ -637,7 +663,6 @@
 - wordperfect
 - money
 - intuit quicken
-- cloud
 - aws
 - subsystem
 - dependency
@@ -669,7 +694,6 @@
 - programming languages
 - platform
 - lock-in
-- active server pages
 - cold fusion
 - flash
 - java
@@ -941,7 +965,6 @@
 - chopper token
 - text-file
 - ai-writing
-- jupyter notebook
 - sqlite database
 - defaultdicts
 - key-value
@@ -1058,7 +1081,6 @@
 - integer
 - sample
 - descending
-- filter
 - csvs
 - clean
 - remove
@@ -1512,7 +1534,6 @@
 - cartoon
 - string json
 - software engineering
-- data science
 - microsoft terminal
 - carnac
 - microsoft edge
@@ -1847,7 +1868,6 @@
 - introspection
 - unix-based
 - apache http server
-- mysql
 - ansible
 - command line interface
 - privacy tools
@@ -4846,7 +4866,6 @@
 - video commenting
 - web-scraping
 - data transformation
-- etl
 - storytime
 - mic lovin'
 - redemption story arc

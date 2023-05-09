@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a> (Mon May 08, 2023)
+<br/>I've been working with SQL since the 90s and discovered the power of Python Pandas Dataframes around 10 years ago. Today, I'm surprised to find Snowflake Data Warehouse makes expensive use of Python, and am very happy that that Dataframes are shaping up to be such a mainstream data API alternative to SQL.</li>
 <li><a href="/blog/category-mapping-go-ascii-alice/">Category Mapping? Go ASCII Alice!</a> (Sun May 07, 2023)
 <br/>I'm implementing a more controlled and explicit category system for my blog, by mapping keywords to top categories and sub-categories. This post explains the process and code I used to create a dictionary to map each keyword to its parent category. I'm also exploring the potential for deeper hierarchies and ontological, taxonomy and canonicalization issues.</li>
 <li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)

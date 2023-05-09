@@ -4,7 +4,7 @@ title: Use Perceptual Image Hash as Database Primary Key for Cats
 headline: Switching to pip install huey - Using Perceptual Image Hash to Store Cat Data in SQLite3 Database
 description: I switched up my pip install scheduler to pip install huey and used Python PIL and ImageHash libraries to calculate a perceptual image hash for each cat. This hash was used as the filename and primary key for a shared SQLite3 database, which I then accessed from a Windows system in JupyterLab Desktop. Check out my blog post to see how it all worked out!
 keywords: Perceptual Image Hash, Database Primary Key, Cats, pip install scheduler, pip install huey, Python PIL, ImageHash, SQLite3, Windows, JupyterLab Desktop, Linux, Hosts, Containers, Jupyter Notebook
-categories: microsoft, container, linux, jupyter
+categories: microsoft, linux, container, jupyter
 permalink: /blog/use-perceptual-image-hash-as-database-primary-key-for-cats/
 layout: post
 ---
@@ -42,6 +42,6 @@ through this video and you'll see how we:
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

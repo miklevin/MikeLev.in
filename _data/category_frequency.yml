@@ -564,7 +564,7 @@ dictitems:
     count: 1
     title: Active Participant
   active server pages:
-    count: 1
+    count: 2
     title: Active Server Pages
   actualizing:
     count: 1
@@ -620,6 +620,9 @@ dictitems:
   admiration:
     count: 1
     title: Admiration
+  ado library:
+    count: 1
+    title: ADO library
   adobe flash:
     count: 1
     title: Adobe Flash
@@ -692,6 +695,9 @@ dictitems:
   agents of chaos:
     count: 1
     title: Agents of Chaos
+  aggregate:
+    count: 1
+    title: Aggregates
   aggregate columns:
     count: 1
     title: Aggregate Columns
@@ -950,6 +956,9 @@ dictitems:
   annual dues:
     count: 1
     title: annual dues
+  ansi sql:
+    count: 1
+    title: ANSI SQL
   ansible:
     count: 1
     title: Ansible
@@ -2514,7 +2523,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 6
+    count: 7
     title: Cloud
   cloud chamber:
     count: 1
@@ -3323,6 +3332,9 @@ dictitems:
   crouton:
     count: 1
     title: Crouton
+  crud:
+    count: 1
+    title: CRUD
   cruel:
     count: 1
     title: Cruel
@@ -3579,7 +3591,7 @@ dictitems:
     count: 2
     title: Data Project
   data science:
-    count: 3
+    count: 4
     title: Data Science
   data sources:
     count: 1
@@ -4950,7 +4962,7 @@ dictitems:
     count: 1
     title: Ethical Implications
   etl:
-    count: 1
+    count: 2
     title: ETL
   euler diagrams:
     count: 1
@@ -5165,6 +5177,9 @@ dictitems:
   extract:
     count: 3
     title: Extract
+  extract transform load:
+    count: 1
+    title: Extract Transform Load
   extract_serps:
     count: 1
     title: Extract_serps
@@ -5409,7 +5424,7 @@ dictitems:
     count: 1
     title: Fill-in
   filter:
-    count: 2
+    count: 3
     title: Filter
   filter events:
     count: 2
@@ -7187,6 +7202,9 @@ dictitems:
   in-house seo:
     count: 1
     title: In-House SEO
+  in-memory:
+    count: 1
+    title: In-Memory
   inbox:
     count: 1
     title: Inbox
@@ -7778,6 +7796,9 @@ dictitems:
   john wheeler:
     count: 1
     title: John Wheeler
+  join:
+    count: 1
+    title: Joins
   join method:
     count: 1
     title: Join Method
@@ -7893,7 +7914,7 @@ dictitems:
     count: 1
     title: Jupyter Environment
   jupyter notebook:
-    count: 18
+    count: 19
     title: Jupyter Notebook
   jupyter notebooks:
     count: 8
@@ -8508,7 +8529,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 158
+    count: 159
     title: Linux
   linux api:
     count: 1
@@ -8720,6 +8741,9 @@ dictitems:
   local computing:
     count: 1
     title: Local Computing
+  local database:
+    count: 1
+    title: Local Database
   local diner:
     count: 1
     title: Local Diner
@@ -9587,6 +9611,9 @@ dictitems:
   microsoft 365:
     count: 2
     title: Microsoft 365
+  microsoft access:
+    count: 1
+    title: Microsoft Access
   microsoft active server pages:
     count: 1
     title: Microsoft Active Server Pages
@@ -9611,6 +9638,9 @@ dictitems:
   microsoft playwright:
     count: 9
     title: Microsoft Playwright
+  microsoft sql server:
+    count: 1
+    title: Microsoft SQL Server
   microsoft store:
     count: 3
     title: Microsoft Store
@@ -10029,7 +10059,7 @@ dictitems:
     count: 1
     title: Mycelium Network
   mysql:
-    count: 2
+    count: 3
     title: MySQL
   mystery:
     count: 1
@@ -10985,6 +11015,9 @@ dictitems:
   panda:
     count: 13
     title: Pandas
+  pandas dataframe:
+    count: 1
+    title: Pandas Dataframe
   pandas library:
     count: 1
     title: Pandas Library
@@ -12201,7 +12234,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 177
+    count: 178
     title: Python
   python 3:
     count: 1
@@ -14234,6 +14267,9 @@ dictitems:
   snl:
     count: 1
     title: SNL
+  snow:
+    count: 1
+    title: Snow
   snow crash:
     count: 1
     title: Snow Crash
@@ -14483,6 +14519,12 @@ dictitems:
   sql database:
     count: 1
     title: SQL Database
+  sql server 6.5:
+    count: 1
+    title: SQL Server 6.5
+  sql server personal edition:
+    count: 1
+    title: SQL Server personal edition
   sqldict:
     count: 1
     title: sqldict
@@ -15113,6 +15155,9 @@ dictitems:
   switching:
     count: 3
     title: Switching
+  sybase:
+    count: 1
+    title: Sybase
   symbol:
     count: 2
     title: symbols
@@ -15209,6 +15254,9 @@ dictitems:
   sysv:
     count: 1
     title: SysV
+  t-sql:
+    count: 1
+    title: T-SQL
   tab:
     count: 2
     title: Tabs
@@ -15542,6 +15590,9 @@ dictitems:
   theory of quantum electrodynamics:
     count: 1
     title: Theory of Quantum Electrodynamics
+  theta joins:
+    count: 1
+    title: Theta Joins
   think:
     count: 2
     title: think
@@ -15800,6 +15851,9 @@ dictitems:
   trampolining:
     count: 1
     title: Trampolining
+  transact sql:
+    count: 1
+    title: Transact SQL
   transcoding:
     count: 1
     title: Transcoding
@@ -16112,6 +16166,9 @@ dictitems:
   uninstalling:
     count: 1
     title: Uninstalling
+  union:
+    count: 1
+    title: Unions
   unique:
     count: 5
     title: Unique
