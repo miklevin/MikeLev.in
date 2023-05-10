@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a> (Wed May 10, 2023)
+<br/>I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.</li>
 <li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
 <br/>This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.</li>
 <li><a href="/blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/">I Never Saw a Purple Unicorn And Never Hope to See One... Take and Reverse!</a> (Mon May 08, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a> (Wed May 10, 2023)
+<br/>I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.</li>
 <li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a> (Mon May 08, 2023)
 <br/>Learn how to use RegEx in NeoVim to format Markdown quotes with 2 trailing spaces. I describe the process of using Vim commands to back up my journal and the paradigm of writing and editing text with vi/vim/NeoVim. I also discuss my journey with the Midjourney AI, including the Microsoft Store installation, the paid account link, and the documentation link.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)

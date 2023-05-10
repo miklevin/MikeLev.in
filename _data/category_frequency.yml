@@ -1170,8 +1170,8 @@ dictitems:
     count: 3
     title: ASCII
   ascii art:
-    count: 3
-    title: ASCII Art
+    count: 4
+    title: ASCII art
   asimov:
     count: 1
     title: Asimov
@@ -4017,7 +4017,7 @@ dictitems:
     count: 2
     title: Diagrams
   diagramming:
-    count: 1
+    count: 2
     title: Diagramming
   diagramo:
     count: 1
@@ -6150,7 +6150,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 42
+    count: 43
     title: Github
   github actions:
     count: 1
@@ -6975,7 +6975,7 @@ dictitems:
     count: 1
     title: hps.sh
   html:
-    count: 8
+    count: 9
     title: HTML
   html email:
     count: 1
@@ -7773,7 +7773,7 @@ dictitems:
     count: 1
     title: Jealousy
   jekyll:
-    count: 44
+    count: 45
     title: Jekyll
   jekyll blog:
     count: 1
@@ -8198,6 +8198,9 @@ dictitems:
   kubernetes:
     count: 2
     title: Kubernetes
+  kung fu:
+    count: 1
+    title: Kung Fu
   kwfinder:
     count: 1
     title: KWFinder
@@ -9315,7 +9318,7 @@ dictitems:
     count: 1
     title: Marine
   markdown:
-    count: 29
+    count: 30
     title: Markdown
   markdown file:
     count: 2
@@ -9570,7 +9573,7 @@ dictitems:
     count: 2
     title: Mermaid JS
   mermaidjs:
-    count: 1
+    count: 2
     title: MermaidJS
   message:
     count: 8
@@ -9759,7 +9762,7 @@ dictitems:
     count: 2
     title: mikeateleven.com
   mikelev.in:
-    count: 11
+    count: 12
     title: MikeLev.in
   mikelevin:
     count: 1
@@ -10815,7 +10818,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 32
+    count: 33
     title: OpenAI
   openai api:
     count: 2
@@ -11912,6 +11915,9 @@ dictitems:
   previous:
     count: 2
     title: previous
+  previous next arrows:
+    count: 1
+    title: Previous Next Arrows
   previous/next arrows:
     count: 1
     title: Previous/Next Arrows
@@ -12632,6 +12638,9 @@ dictitems:
   ram:
     count: 1
     title: RAM
+  rambling:
+    count: 1
+    title: Rambling
   ramorize:
     count: 1
     title: RAMorize
@@ -13857,7 +13866,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 73
+    count: 74
     title: SEO
   seo blog:
     count: 1
@@ -14333,6 +14342,9 @@ dictitems:
   smbclient:
     count: 1
     title: smbclient
+  sme:
+    count: 1
+    title: SME
   smoke:
     count: 1
     title: Smoke
@@ -14781,7 +14793,7 @@ dictitems:
     count: 1
     title: Static Environments
   static site generator:
-    count: 7
+    count: 8
     title: Static Site Generator
   static site generators:
     count: 2
@@ -16562,6 +16574,9 @@ dictitems:
   venn diagrams:
     count: 2
     title: Venn Diagrams
+  venn-nvim:
+    count: 1
+    title: Venn-nvim
   venn-nvim diagrams:
     count: 1
     title: Venn-nvim Diagrams
@@ -16953,7 +16968,7 @@ dictitems:
     count: 1
     title: Weather balloons
   web:
-    count: 5
+    count: 6
     title: Web
   web 2.0:
     count: 1
@@ -17391,7 +17406,7 @@ dictitems:
     count: 2
     title: Yake
   yaml:
-    count: 15
+    count: 16
     title: YAML
   yaml ain't markup language:
     count: 1

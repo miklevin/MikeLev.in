@@ -1,9 +1,26 @@
+- sme
+- web
+- kung fu
+- ascii art
+- diagramming
+- venn-nvim
+- mermaidjs
+- jekyll
+- static site generator
+- github
+- yaml
+- markdown
+- html
+- openai
+- seo
+- previous next arrows
+- rambling
+- mikelev.in
 - date
 - wed
 - may
 - '10'
 - '2023'
-- ascii art
 - neovim
 - diagram
 - mermaid js
@@ -12,12 +29,10 @@
 - javascript
 - online service
 - integration
-- github
 - gem
 - cdn
 - svg
 - pre-rendering
-- markdown
 - language
 - static site generators
 - wordpress
@@ -33,7 +48,6 @@
 - dynamic
 - client-
 - murphy's law
-- openai
 - python
 - encoding issues
 - venn-nvim diagrams
@@ -51,7 +65,6 @@
 - natural sequences
 - gpt-like model
 - custom-trained
-- seo
 - moz
 - spring fling
 - city
@@ -143,8 +156,6 @@
 - reconstruct
 - automate
 - journal
-- yaml
-- jekyll
 - lashing
 - discord
 - server
@@ -358,7 +369,6 @@
 - reader
 - arrow
 - navigation
-- web
 - story-telling
 - prev/next
 - anchor text
@@ -1092,7 +1102,6 @@
 - place-holder
 - liquid
 - template
-- static site generator
 - macro system
 - reverse-chronological
 - chopper
@@ -1385,7 +1394,6 @@
 - c
 - base64
 - encode
-- html
 - img
 - src
 - output
@@ -1465,7 +1473,6 @@
 - erds
 - april 4
 - entity relationship diagrams
-- mermaidjs
 - markdown-based
 - language tool
 - plantuml
@@ -2111,7 +2118,6 @@
 - "kaluza\u2013"
 - illustration
 - technique
-- diagramming
 - charting
 - flowchart
 - er diagrams
@@ -2200,7 +2206,6 @@
 - indexnow
 - url submission
 - webmaster tools
-- mikelev.in
 - linux vm
 - foss seo software
 - chrome os
