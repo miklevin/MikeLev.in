@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: wordpress, javascript, git, vim
+categories: git, wordpress, vim, javascript
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
@@ -110,7 +110,7 @@ page-length. All that site section's content could go in one file. It has a
 strong filename convention, so you can easily find the file you want to edit
 and it lives in a folder of only as many files as you have site sections.
 
-## But wait, there's more! (in the voice of Billy Mays)
+## But wait, there's more!
 
 ![But Wait There's More Billy Mays](/assets/images/but-wait-theres-more-billy-mays.jpg)
 
@@ -125,12 +125,13 @@ sequence of pages you want to read.
 ## I Fixed The Non-Linear Aspect of The Web
 
 I fixed that terrible user experience aspect of the Web (back in 1999) and it
-didn't hurt this produced ***perfectly optimized pages for SEO***. Get it? All
-the right keywords in all the right anchor text. Page B is ***buoyed*** by the
-links from page A and C. And likewise with A and C. Only the beginning and end
-of sequences aren't buoyed twice, but page A usually gets the link to drop you
-into the sequence, and you could always put a table of contents or index after
-C. It was a perfect system. It still is.
+didn't hurt that this very process *coincidentally* happened to produce
+***perfectly optimized pages for SEO***. Get it? All the right keywords in all
+the right anchor text. Page B is ***buoyed*** by the links from page A and C.
+And likewise with A and C. Only the beginning and end of sequences aren't
+buoyed twice, but page A usually gets the link to drop you into the sequence,
+and you could always put a table of contents or index after C. It was a perfect
+system. It still is.
 
 
            TOPIC A                      TOPIC B                     TOPIC C
@@ -144,11 +145,18 @@ C. It was a perfect system. It still is.
     
 The main problem with this system is that I am me. I did not promote it. I did
 not turn it into a product. It was not Ruby on Rails. It was not Drupal. It was
-a time long before Jekyll and Hyde. And XML/XSLT was too complex and stupid for
-the masses, though little did I know it at the time. Oh, did I mention that the
-only XML parser with the xsl-document directive was in a Java product called 
-Saxon, and I was just starting to hate Java very deeply? Ahead of my time, but
-it was not meant to be.
+a time long before Jekyll and Hyde. And XML/XSLT was too complex and convoluted
+for the masses, though little did I know it at the time. I even wrapped it in a
+nice web user interface (built in ASP) that allowed you to edit the content
+right in the browser without dealing with XML. But being based on asp as it was
+right when Ruby on Rails was coming out and me not being clued in, well...
+fizzle.
+
+There were technical reasons too this was not great. The only XML parser with
+the xsl-document directive I needed was in a Java product called Saxon, and I
+was just starting to hate Java very deeply? Ahead of my time, but it was not
+meant to be. It was nothing like the Python world of today that suits my vibe,
+and when combined with YAML and Markdown is all perfect-stormy.
     
 I'm getting tired of writing about history, and you're probably getting tired of
 reading about it. I'll try to wrap up quickly. XML mixed markdown and content in
@@ -312,7 +320,7 @@ weapon for SEO as it once was.
 ## Categories
 
 <ul>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

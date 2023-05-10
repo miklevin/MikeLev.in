@@ -4,7 +4,7 @@ title: Admiring the Usefulness of YAML-ness in my Journaling System
 headline: "Reveling in the Glory of My Code Working as It Should: Exploring the Benefits of YAML-ness in My Journaling System"
 description: I'm reveling in the glory of my code working as it should. I'm using YAML-ness to create a journaling system with a dictionary of lower-case usage as keys and all the happenstance uses as lists in each value. I wrote a program to parse a journal file and extracted the front matter of each post, then loaded it into a YAML dictionary. I'm now ready to give this a title and share my journey of slicing up my life into chunks.
 keywords: YAML, Journaling, System, Dictionary, Lower-Case, Usage, Keys, Lists, Value, Parsing, File, Front Matter, Posts, Validation, Code, Common, Proper Case, Slice, Function, Comma Separated Values, Megabyte, Titles, Descriptions, Category Pages, Post Slugs, Format, Write_post_to_file, Front_matter_inserter, Life, Chunks, Whole
-categories: value, yaml, key, journaling
+categories: yaml, journaling, key, value
 permalink: /blog/admiring-the-usefulness-of-yaml-ness-in-my-journaling-system/
 layout: post
 ---
@@ -282,7 +282,7 @@ get onto how I'm going to get those category descriptions written.
 ## Categories
 
 <ul>
-<li><h4><a href='/value/'>Value</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/key/'>Keys</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/value/'>Value</a></h4></li></ul>
