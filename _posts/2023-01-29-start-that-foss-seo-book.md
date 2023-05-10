@@ -4,7 +4,7 @@ title: Start That FOSS SEO Book
 headline: "Commencing a FOSS SEO Book: Join My Journey and the Discussion!"
 description: "On January 29, 2023, I committed to writing a FOSS SEO Book. I'm learning how to use Twitter to best resonate my message and build an audience. I've started the project on the URL https://twitter.com/miklevin/status/1619125800477020160 and I'm dedicated to seeing it through. Follow my journey and join the discussion!"
 keywords: FOSS, SEO, Book, January 29, 2023, Twitter, Message, Resonate, Audience, URL, Dedication, Consistency, Connect, Reshape, Discussion, Thread
-categories: twitter, message, seo, audience
+categories: message, audience, seo, twitter
 permalink: /blog/start-that-foss-seo-book/
 layout: post
 ---
@@ -31,7 +31,7 @@ may be draft threads and transforms into refined articles.
 ## Categories
 
 <ul>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/message/'>Message</a></h4></li>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/audience/'>Audience</a></h4></li></ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>

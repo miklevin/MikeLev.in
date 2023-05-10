@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: wordpress, javascript, git, vim
+categories: javascript, wordpress, vim, git
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
@@ -289,11 +289,27 @@ And you just internally organize it with... well...
      │        │
      └────────┘
 
+A conclusion? Hitting it home? Well, this is an article about ASCII diagrams,
+isn't it? Because nobody but me is ever going to used this system, because it's
+time has come and gone.
+
+Or is it that it's time is just arriving as people clobbered by the confusion
+of the modern world could find a bit of peace and respite in one file for life
+in which they can do personal journaling, or optionally publish. Or do as I do,
+two versions, one for the public and one for yourself.
+
+Oh, and sure you can still publish websites with this, keeping each site
+section as one file and manage a sprawling vast website with all sorts of
+prescribed linear user experiences lurking within, waiting to please your
+visitors with that wonderful keyworded previous/next arrow navigation that is
+as relevant today as it ever was, albeit not quite so super-juicy a secret
+weapon for SEO as it once was.
+
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
