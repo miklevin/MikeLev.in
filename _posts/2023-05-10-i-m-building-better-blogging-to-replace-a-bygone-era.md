@@ -4,11 +4,18 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: git, wordpress, vim, javascript
+categories: javascript, wordpress, vim, git
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
 
+
+TLDR: Here's a repo you should go look at that chops long files into short ones
+for the Github Pages static site generator Jekyll:
+[miklevin/yamlchop](https://github.com/miklevin/yamlchop/). It could change
+your life.
+
+## First a Word About Diagramming
 
 Now that I have an ASCII Art plugin in NeoVim, I need to crank out a few
 diagrams to assure myself this isn't some big new gotcha undertaking like
@@ -31,6 +38,8 @@ First, people must understand the wonders of static site generators. They
 remove dependence on WordPress, Joomla, Drupal, and all the other CMSes that
 have been around for decades. 
 
+## The Bygone Era of CMSes
+
 Google Blogger/Blogspot-inspired CMSes like WordPress, MovableType and
 Squarespace were great for their time, but you have to pay for web hosts and
 all the server-side dynamic site features running such a site requires on the
@@ -45,6 +54,8 @@ back in the day and are still around, but do you want to be on them? I don't.
 Then there's the completely proprietary hosted stuff that makes building
 websites wonderfully easy, but now you're locked into a particular vendor and
 their ecosystem. You can't just move your site to another host.
+
+## Static Site Generators
 
 Well, my situation wasn't that bad. I was on WordPress, so I was able to do a
 1-time export of my site to markdown files. These markdown files could just
@@ -69,6 +80,8 @@ completely walking away from like the main and original advantage and strength
 of the web, just serving up HTML files, which are really just text files, from
 the drive. It's fast! It's low tech-liability. And there's no vendor or product
 lock-in.
+
+## Slicing & Dicing Files
 
 Back in those days I made my first slice and dice system based on something
 called XML. It was 1998 and I was at a company called Prophet 21 that made
@@ -122,7 +135,7 @@ makes it hard to do this. You can't just say "next" and "previous" because
 there's no guarantee that the next page is going to be the next page in the
 sequence of pages you want to read. 
 
-## I Fixed The Non-Linear Aspect of The Web
+## Yes, I Fixed The Non-Linear Aspect of The Web
 
 I fixed that terrible user experience aspect of the Web (back in 1999) and it
 didn't hurt that this very process *coincidentally* happened to produce
@@ -157,6 +170,8 @@ the xsl-document directive I needed was in a Java product called Saxon, and I
 was just starting to hate Java very deeply? Ahead of my time, but it was not
 meant to be. It was nothing like the Python world of today that suits my vibe,
 and when combined with YAML and Markdown is all perfect-stormy.
+
+## YAML & Markdown, A Match Made in Heaven
     
 I'm getting tired of writing about history, and you're probably getting tired of
 reading about it. I'll try to wrap up quickly. XML mixed markdown and content in
@@ -223,10 +238,13 @@ WordPress, Drupal, Squarespace, or any one of dozens of other CMSes that are
 going to be abandoned, make you pay and pay, or have so many PHP security holes
 that you're going to get hacked.
 
-You can just type a text file. You can use a text editor. You can use a static
-site generator. You can use a template system. The template systems like Liquid
-are admittedly the weakness here (which I don't really diagram), but they have
-these curly-brace syntax that goes back to before there were really even CMSes.
+## Lower Your Tech Liability with Text Files
+
+If you can type into a text file, you can maintain a whole site with static
+site generators. There is a template system you need to use. The template
+systems like Liquid are admittedly the weakness here (which I don't really
+diagram), but they have these curly-brace syntax that goes back to before there
+were really even CMSes.
 
 My first experience with such things was a Microsoft product called IDC/HTX,
 probably cica 1997 and was Microsoft's precursor response to PHP. It used pointy
@@ -320,7 +338,7 @@ weapon for SEO as it once was.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

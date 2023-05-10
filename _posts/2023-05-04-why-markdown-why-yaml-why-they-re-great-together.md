@@ -4,7 +4,7 @@ title: Why Markdown? Why YAML? Why They're Great Together!
 headline: I'm Combining Markdown and YAML to Create a Text File for Life!
 description: In this article, I discuss why I chose to use Markdown and YAML together for my 1-textfile-for-life system. I explain why Markdown is popular and why YAML is a great serialization format that is human-readable. I also discuss the benefits of using a static site generator like Jekyll and how YAMLchop can help with creating a 1000-page site from 1 file. Finally, I explore how to render the markdown.
 keywords: Markdown, YAML, Python, RST, Daring Fireball, Content Management Systems, Github, README.md, README.rst, Serialization, JSON, XML, EDI, Electronic Data Interchange, Binary, JavaScript, Web Development, YAML Ain't Markup Language, Structure, Curly-Braces, EDS, GNU, Unix, Gatekeeping, Proprietary Formats, Vendors, Human-Readable, JSON Data Format
-categories: yaml, vendor, javascript, git, json, gnu, python, web development, linux
+categories: javascript, python, linux, git, gnu, vendor, json, yaml, web development
 permalink: /blog/why-markdown-why-yaml-why-they-re-great-together/
 layout: post
 ---
@@ -128,12 +128,12 @@ of rendering the markdown and pushing it into Google Docs. Think it through!
 ## Categories
 
 <ul>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/json/'>JSON</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/json/'>JSON</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>
