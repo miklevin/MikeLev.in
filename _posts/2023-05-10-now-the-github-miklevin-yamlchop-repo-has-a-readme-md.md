@@ -4,7 +4,7 @@ title: Now The Github miklevin/yamlchop Repo has a README.md
 headline: "I Share My Best Tricks: Now The Github miklevin/yamlchop Repo Has a README.md"
 description: I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.
 keywords: SME, Web, Kung Fu, ASCII art, Diagramming, Venn-nvim, MermaidJS, Jekyll, Static Site Generator, Github, YAML, Markdown, HTML, OpenAI, SEO, Previous Next Arrows, Rambling, Mikelev.in
-categories: git, yaml, static site generator, seo, html, ai, jekyll
+categories: git, ai, yaml, html, seo, static site generator, jekyll
 permalink: /blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/
 layout: post
 ---
@@ -165,14 +165,45 @@ and read lots of rambling at
 
 2. Add a YAML front-matter block to the top of the file, like this:
 
-        <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+        ---------------------- 80 -->
+        date: 2021-05-09
+        [triple -]
+
+3. Add a Markdown block to the bottom of the file, like this:
+
+        # My Blog Post
+
+        This is my blog post.
+
+4. Repeat steps 2 and 3 for each page you want to add to your site.
+
+5. Only give YAML title fields to the posts you want published. Everything
+   else will be considered a draft. OpenAI will write your headline, meta
+   description and extract keywords for you and organize categories.
+
+6. Run: `python ~/repos/yamlchop/chop.py -f ~/[path_to_jekyll_repo]/_drafts/journal.md`
+
+7. This will git commit and push your change.
+
+If anything needed OpenAI fields written, the automatic git commit and push
+that publishes the site will not occur until the next time you run that
+command, assuming you wish to have a chance to review and edit the OpenAI
+fields.
+
+## License
+
+This software is provided under a very liberal MIT license that only requires
+you to include the license text in any redistribution. See the LICENSE file for
+details.
+
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
