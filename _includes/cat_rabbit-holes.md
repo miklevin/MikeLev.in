@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
+<br/>This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.</li>
 <li><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a> (Sat Oct 15, 2022)
 <br/>I've been busy with work and family, but I'm recommitting to writing in my journal. I'm exploring the LXD Linux Container Jupyter platform, which has been challenging but rewarding, and Microsoft's NT system, which has enabled the creation of protection rings and running concurrent operating systems. I'm amazed at how Microsoft is transitioning into the future, and I'm reflecting on the fundamentals of object-oriented and concurrency that remain.</li>
 <li><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a> (Wed May 25, 2022)

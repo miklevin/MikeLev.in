@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
+<br/>This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.</li>
 <li><a href="/blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/">I Never Saw a Purple Unicorn And Never Hope to See One... Take and Reverse!</a> (Mon May 08, 2023)
 <br/>I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)

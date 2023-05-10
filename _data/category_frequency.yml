@@ -2460,7 +2460,7 @@ dictitems:
     count: 1
     title: Cite Sources
   city:
-    count: 1
+    count: 2
     title: City
   city life:
     count: 1
@@ -3464,6 +3464,9 @@ dictitems:
   custom domain:
     count: 1
     title: Custom Domain
+  custom-trained:
+    count: 1
+    title: Custom-trained
   customer:
     count: 3
     title: Customers
@@ -3896,6 +3899,9 @@ dictitems:
   dependency:
     count: 7
     title: Dependencies
+  dependency injection:
+    count: 1
+    title: Dependency Injection
   dependent:
     count: 1
     title: Dependent
@@ -4055,6 +4061,9 @@ dictitems:
   differentiated:
     count: 1
     title: Differentiated
+  differentiation:
+    count: 1
+    title: Differentiation
   difficult letter:
     count: 1
     title: Difficult Letter
@@ -4401,7 +4410,7 @@ dictitems:
     count: 1
     title: Driver Problem
   driving:
-    count: 4
+    count: 5
     title: Driving
   drone:
     count: 2
@@ -4787,6 +4796,9 @@ dictitems:
   encoded:
     count: 1
     title: Encoded
+  encoding issues:
+    count: 1
+    title: Encoding Issues
   encryption:
     count: 1
     title: Encryption
@@ -5328,7 +5340,7 @@ dictitems:
     count: 2
     title: Feedback
   feedback loop:
-    count: 1
+    count: 2
     title: Feedback Loop
   feedback loops:
     count: 2
@@ -5354,6 +5366,9 @@ dictitems:
   ferret:
     count: 1
     title: Ferret
+  ferry:
+    count: 1
+    title: Ferry
   fetching:
     count: 1
     title: Fetching
@@ -6389,6 +6404,9 @@ dictitems:
   gpt-like ai:
     count: 1
     title: GPT-Like AI
+  gpt-like model:
+    count: 1
+    title: GPT-like Model
   gpt3 chatgi:
     count: 1
     title: GPT3 ChatGI
@@ -7523,6 +7541,9 @@ dictitems:
   interactive python coding:
     count: 1
     title: Interactive Python Coding
+  interchangeable:
+    count: 1
+    title: Interchangeable
   interest:
     count: 4
     title: Interest
@@ -7685,6 +7706,9 @@ dictitems:
   item:
     count: 1
     title: Items
+  iterating:
+    count: 1
+    title: Iterating
   iteration:
     count: 1
     title: Iteration
@@ -8936,6 +8960,9 @@ dictitems:
   love:
     count: 5
     title: Love
+  love and intensity:
+    count: 1
+    title: Love and Intensity
   love magnet:
     count: 1
     title: Love Magnet
@@ -9972,7 +9999,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 15
+    count: 16
     title: MOZ
   moz api:
     count: 1
@@ -10055,6 +10082,9 @@ dictitems:
   multiverse theory:
     count: 1
     title: Multiverse Theory
+  murphy's law:
+    count: 1
+    title: Murphy's Law
   muscle memory:
     count: 6
     title: Muscle Memory
@@ -10184,6 +10214,9 @@ dictitems:
   natural selection,:
     count: 1
     title: Natural Selection,
+  natural sequences:
+    count: 1
+    title: Natural Sequences
   natural ways:
     count: 1
     title: Natural Ways
@@ -10688,6 +10721,9 @@ dictitems:
   onboarding:
     count: 1
     title: Onboarding
+  one monitor:
+    count: 1
+    title: One Monitor
   one-page-for-life:
     count: 1
     title: One-Page-For-Life
@@ -10758,7 +10794,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 31
+    count: 32
     title: OpenAI
   openai api:
     count: 2
@@ -12261,7 +12297,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 178
+    count: 179
     title: Python
   python 3:
     count: 1
@@ -12534,7 +12570,7 @@ dictitems:
     count: 1
     title: Rabbit Hole Evaluations
   rabbit holes:
-    count: 2
+    count: 3
     title: Rabbit Holes
   rabbit-hole evaluations:
     count: 1
@@ -13283,6 +13319,9 @@ dictitems:
   roll:
     count: 1
     title: Roll
+  roller coaster:
+    count: 1
+    title: Roller Coaster
   romantic:
     count: 1
     title: Romantic
@@ -13794,7 +13833,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 72
+    count: 73
     title: SEO
   seo blog:
     count: 1
@@ -14537,6 +14576,9 @@ dictitems:
   spreadsheet:
     count: 2
     title: Spreadsheet
+  spring fling:
+    count: 1
+    title: Spring Fling
   spring layout:
     count: 1
     title: Spring Layout
@@ -15173,6 +15215,9 @@ dictitems:
   switch:
     count: 1
     title: switch
+  switch hardware regularly:
+    count: 1
+    title: Switch Hardware Regularly
   switch to linux:
     count: 1
     title: Switch to Linux
@@ -16487,6 +16532,9 @@ dictitems:
   venn diagrams:
     count: 2
     title: Venn Diagrams
+  venn-nvim diagrams:
+    count: 1
+    title: Venn-nvim Diagrams
   venn.js:
     count: 1
     title: Venn.js
@@ -16656,7 +16704,7 @@ dictitems:
     count: 2
     title: Virtual Assistant
   virtual desktops:
-    count: 5
+    count: 6
     title: Virtual Desktops
   virtual development environment:
     count: 1
@@ -16806,7 +16854,7 @@ dictitems:
     count: 1
     title: Waking Hours Decisions
   walk:
-    count: 1
+    count: 2
     title: Walk
   walking:
     count: 4

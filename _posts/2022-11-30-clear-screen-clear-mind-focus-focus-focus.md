@@ -4,7 +4,7 @@ title: Clear Screen, Clear Mind... Focus, Focus, Focus!
 headline: "Discovering Linux: Striving to Reduce Noise and Focus on What Sparks Joy"
 description: I am writing a Linux install script for Windows 10 or 11 users, and taking the time to reboot my system each morning to focus on what sparks joy, motivation and momentum. I am also striving to reduce surface area, factors, variables and general noise. I am passionate about Linux and its many features, such as security, flexibility, and scalability, making it a great choice for a variety of applications.
 keywords: Linux, Windows 10, Windows 11, Reboot, Focus, Joy, Motivation, Momentum, Noise, Features, Security, Flexibility, Scalability, Online Courses, Reading Resources, Forums, Repos, SimpleNotes, Open Source, Operating System, Community, Developers, Users, Stability, Customizability, Hardware, GNU, GNU Linux, GNU Project, GNU Public License
-categories: motivation, gnu, microsoft, success, joy, open source, linux
+categories: open source, gnu, motivation, microsoft, joy, linux, success
 permalink: /blog/clear-screen-clear-mind-focus-focus-focus/
 layout: post
 ---
@@ -220,10 +220,10 @@ distribute the software.
 ## Categories
 
 <ul>
-<li><h4><a href='/motivation/'>Motivation</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/joy/'>Joy</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
+<li><h4><a href='/motivation/'>Motivation</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/joy/'>Joy</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>
