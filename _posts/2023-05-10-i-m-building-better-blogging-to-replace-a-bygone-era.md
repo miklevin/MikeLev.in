@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: javascript, wordpress, git, vim
+categories: git, wordpress, javascript, vim
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
@@ -202,12 +202,12 @@ but called Liquid, because the Ruby community has Drupal-envy, and you've got
 Jekyll.
 
 Of course the Python community said "Hey, we can do that too!" and you got Hyde
-to go with Jekyll. But then Hyde was abandoned because slamming such systems out
-in Python is easier than supporting them in the long-term, so then you got Hyde.
-There's also Pelican and probably a bunch of others because everyone's favorite
-sport in Python is to just keep slamming out infinite varieties of such things
-because Python gets you like 80% of the way there by just being Python. But this
-is what they're all doing:
+to go with Jekyll. But then Hyde was abandoned because slamming such systems
+out in Python is easier than supporting them in the long-term. There's also
+Pelican and probably a bunch of others because everyone's favorite sport in
+Python is to just keep slamming out infinite varieties of such things because
+Python gets you like 80% of the way there by just being Python. But this is
+what they're all basically doing:
     
     ┌─────────────────┐          ┌────────────┐ 
     │YAML Front Matter│          │ HTML + CSS │ 
@@ -232,12 +232,19 @@ haha!
                                       │</html>                         │
                                       └────────────────────────────────┘
 
-Think on this. Absorb the beauty. You can type a text file, right? For the mere
-cost of learning how to be competent in a text editor, something you should be
-doing anyway for 1000 different reasons, you no longer are dependent on
-WordPress, Drupal, Squarespace, or any one of dozens of other CMSes that are
-going to be abandoned, make you pay and pay, or have so many PHP security holes
-that you're going to get hacked.
+Think on this. Absorb the beauty of static site generators. By doing this ahead
+of time, your webserver could be old fashioned Apache or Nginx or even IIS.
+There are no technical back-end requirements. We all host it on Github because
+thank you uncle Microsoft, but we don't have to. The files can be plopped
+anywhere. 
+
+Also, the amount of work you put into creating and managing content goes down
+too. You can type a text file, right? For the mere cost of learning how to be
+competent in a text editor, something you should be doing anyway for 1000
+different reasons, you no longer are dependent on WordPress, Drupal,
+Squarespace, or any one of dozens of other CMSes that are going to be
+abandoned, make you pay and pay, or have so many PHP security holes that you're
+going to get hacked.
 
 ## Lower Your Tech Liability with Text Files
 
@@ -339,7 +346,7 @@ weapon for SEO as it once was.
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>
