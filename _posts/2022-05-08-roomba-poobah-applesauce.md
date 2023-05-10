@@ -4,7 +4,7 @@ title: Roomba Poobah Applesauce
 headline: Exploring the Potential of Artificial Intelligence as an Art Form.
 description: In this post, I explore the implications of Artificial Intelligence and its potential to be considered an art form. I reflect on the Roomba robot vacuum cleaner and how its backoff-and-retry algorithms can be applied to life. I also encourage love and empathy for those being raised by AI, suggesting they read The Culture series by Ian M. Banks. Finally, I end with a light-hearted rhyme to motivate readers to not hold back and to look for the little wins. Read
 keywords: Roomba, Poobah, Applesauce, Artificial Intelligence, Machine Learning, Sentience, Labels, Love, Empathy, Culture series, Ian M. Banks, Rhyme, Motivation, Fear, Retrying, Overcome, Art form
-categories: motivation, empathy, ai
+categories: empathy, motivation, ai
 permalink: /blog/roomba-poobah-applesauce/
 layout: post
 ---
@@ -109,6 +109,6 @@ You'll get the knack. So says carbon creature.
 ## Categories
 
 <ul>
-<li><h4><a href='/motivation/'>Motivation</a></h4></li>
 <li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/motivation/'>Motivation</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Now The Github miklevin/yamlchop Repo has a README.md
 headline: "I Share My Best Tricks: Now The Github miklevin/yamlchop Repo Has a README.md"
 description: I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.
 keywords: SME, Web, Kung Fu, ASCII art, Diagramming, Venn-nvim, MermaidJS, Jekyll, Static Site Generator, Github, YAML, Markdown, HTML, OpenAI, SEO, Previous Next Arrows, Rambling, Mikelev.in
-categories: ai, yaml, jekyll, git, seo, html, static site generator
+categories: yaml, static site generator, jekyll, html, git, ai, seo
 permalink: /blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/
 layout: post
 ---
@@ -123,20 +123,20 @@ During this process, if there are any posts for which you have given a title
 description, and a keyword field with extracted keywords. You'll need an
 `openai.txt` file with your API key in it in the yamlchop repo folder.
 `.gitignore` will keep it from getting committed.
-
- ┌──────────────────────┐     ┌──────────────────────┐
- │title: My Blog Post   │     │title: My Blog Post   │
- │date: 2021-05-09      │     │date: 2021-05-09      │
- │---                   │     │headline: [OpenAI]    │
- │                      │────►│description: [OpenAI] │
- │# My Blog Post        │     │keywords: [OpenAI]    │
- │                      │     │---                   │
- │This is my blog post. │     │                      │
- └──────────────────────┘     │# My Blog Post        │
-                              │                      │
-                              │This is my blog post. │
-                              └──────────────────────┘
-
+    
+     ┌──────────────────────┐     ┌──────────────────────┐
+     │title: My Blog Post   │     │title: My Blog Post   │
+     │date: 2021-05-09      │     │date: 2021-05-09      │
+     │---                   │     │headline: [OpenAI]    │
+     │                      │────►│description: [OpenAI] │
+     │# My Blog Post        │     │keywords: [OpenAI]    │
+     │                      │     │---                   │
+     │This is my blog post. │     │                      │
+     └──────────────────────┘     │# My Blog Post        │
+                                  │                      │
+                                  │This is my blog post. │
+                                  └──────────────────────┘
+    
 ## Tell Them About the Arrows!
 
 Since the pages have a natural sequential order, that can help with Web
@@ -169,10 +169,10 @@ and read lots of rambling at
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
