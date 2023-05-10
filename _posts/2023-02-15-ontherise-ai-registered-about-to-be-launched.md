@@ -4,7 +4,7 @@ title: OnTheRise.AI Registered & About To Be Launched
 headline: "Exploring AI-World: My Journey To Become Tech Literate and Understand Event-driven Programming"
 description: As Mike Levin, a self-promoting SEO in NYC, I'm documenting my journey in the rising AI-world on my blog OnTheRise.AI. I'm exploring idea-capture by humans and the potential of AI to make tasks like fusion energy easier and more efficient. I'm also discussing how to use WSL and JupyterLab to become more tech literate, as well as the advantages and disadvantages of event-driven programming and push information systems.
 keywords: AI, Fusion Energy, WSL, JupyterLab, Event-Driven Programming, Push Information Systems, Unix Terminal, Vim Editor, Automation, Tech Literacy, Python, Linux Daemons, Web Development, Software Development, Long-Term Maintainability
-categories: wsl, web development, jupyter, python, ai
+categories: wsl, web development, ai, jupyter, python
 permalink: /blog/ontherise-ai-registered-about-to-be-launched/
 layout: post
 ---
@@ -211,6 +211,6 @@ Building and maintaining daemons requires a more thorough understanding of how c
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
