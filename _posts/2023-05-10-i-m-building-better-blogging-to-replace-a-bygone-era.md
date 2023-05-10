@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: javascript, vim, wordpress, git
+categories: wordpress, javascript, git, vim
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
@@ -62,11 +62,13 @@ published.
      │  System  │    │ Websites │
      └──────────┘◄───└──────────┘
 
-This model is more expensive because of that on-the-fly generation of website.
-It needs for example some sort of database to be there, completely walking away
-from like the main and original advantage and strength of the web, just serving
-up HTML files, which are really just text files, from the drive. It's fast!
-It's low tech-liability. And there's no vendor or product lock-in.
+The older model of websites portrayed in this diagram (WordPress) are more
+expensive because they generate the website "on-the-fly" (aside from caching).
+WordPress and its ilk need for example some sort of database to be there,
+completely walking away from like the main and original advantage and strength
+of the web, just serving up HTML files, which are really just text files, from
+the drive. It's fast! It's low tech-liability. And there's no vendor or product
+lock-in.
 
 Back in those days I made my first slice and dice system based on something
 called XML. It was 1998 and I was at a company called Prophet 21 that made
@@ -310,7 +312,7 @@ weapon for SEO as it once was.
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
