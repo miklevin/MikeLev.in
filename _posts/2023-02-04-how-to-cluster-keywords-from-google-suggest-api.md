@@ -4,7 +4,7 @@ title: How To Cluster Keywords From Google Suggest API
 headline: "Exploring Google Photos: Clustering Keywords with Python for SEO-Friendly Names"
 description: I'm exploring all the amazing features Google Photos has to offer, from converting HEIC to JPG to downloading, editing videos, and more. To come up with SEO-friendly names for my project, I wrote code to cluster keywords into groups and created a dictionary mapping each keyword to its group. I also wrote a function to find the most common two-word combination for each group and mapped that to the group name, creating a csv file with the results.
 keywords: Google Photos, HEIC, JPG, Video, SEO, Python, Code, Cluster, Dictionary, Group, CSV, Project, Query, Suggest API, Download, Edit, Convert, Backup, Crash, Freeze, Delete, Keyboard Shortcuts, Logo, Limit, Link, Movie Maker, Memories, Map, Magic Eraser, Collage, Metadata, Mirror Flip, Storage, Email, Gift, Game, Gallery, Gift Cards, QR Scanner, Quota Management, Quality Settings,
-categories: google, panda, python, seo, email
+categories: seo, python, email, panda, google
 permalink: /blog/how-to-cluster-keywords-from-google-suggest-api/
 layout: post
 ---
@@ -624,8 +624,8 @@ for best results.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/email/'>Email</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
