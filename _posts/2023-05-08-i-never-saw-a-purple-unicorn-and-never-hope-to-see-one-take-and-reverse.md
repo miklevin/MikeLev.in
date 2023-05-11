@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: seo, vim, marketing, youtube, ai
+categories: youtube, ai, vim, seo, marketing
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -30,17 +30,18 @@ what's statistically going to be written next and contradicting it. I often
 encounter people whose main interpersonal authority asserting tactic is instant
 contraction. Make people get into the habit of hearing whatever you say
 questioned, and they will be Pavlovian conditioned to automatically be
-suspicious of anything you say. Those people scared of purple unicorns will try
-to kill them as what they see out of the gate of some sort of race.
+suspicious of anything you say. Those people are scared of purple unicorns will
+try to kill them on the vine, such as it were. Like how new the new king of a
+lion pride will kill the old one's cubs to knock off potential competitors.
 
-And so Github Copilot has completely given up on even proving autosuggest. And
-no, I've check and I have not disabled it. Copilot is enabled. It just doesn't
-have anything to say. This Rick is off the Central Finite Curve, which I always
-thought was some sort of centerline of the average distribution curve, but
-turns out to be something else, but I can't break the habit of thinking the
-Rickest Rick is the one at the top of a bell-shaped curve where the inflection
-point occurs, because that is the only point where there is not a symmetrically
-opposite Rick. Clear?
+And so Github Copilot has completely given up on even proving autosuggest. Do
+so few others really have my patterns? And no, I've check and I have not
+disabled it. Copilot is enabled. It just doesn't have anything to say. This
+Rick is off the Central Finite Curve, which I always thought was some sort of
+centerline of the average distribution curve, but turns out to be something
+else, but I can't break the habit of thinking the Rickest Rick is the one at
+the top of a bell-shaped curve where the inflection point occurs, because that
+is the only point where there is not a symmetrically opposite Rick. Clear?
 
 Yeah, Copilot does not have an easy time with me. I think this bodes well with
 this particular academic exercise I'm carrying out. Whereas my illustrious SEO
@@ -101,8 +102,8 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
