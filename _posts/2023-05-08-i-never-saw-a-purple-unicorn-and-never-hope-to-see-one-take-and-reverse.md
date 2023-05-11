@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: seo, ai, youtube, vim, marketing
+categories: ai, seo, youtube, vim, marketing
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -98,13 +98,12 @@ want insight into the real estate mind, read Rob Ringer's book, *Winning
 Through Intimidation*, one of the great unwitting gifts to me by my father. I
 don't vibe like a landlord, but this book taught me about those who do.
 
-Such personalities are always at risk. They must occasionally don the disguise
-of the buttoned-up, non-emotional, stiff upper lipped types to have a seat at
-the table. And so, we do insofar as we can hold our noses and take the
-medicine. The ridiculousness of such situations is perfectly channeled in the
-Mad Hatter's tea party, by the way. Alice is a very rude girl.
-
-
+Such personalities are always at risk. They lose the land, they lose everything
+they think is special and of value about themselves. They don't invest
+internally in themselves. They would never learn a text editor like vim or
+emacs for example, the very idea being incomprehensible to them. They are not
+carpenters. They hire carpenters, and will proudly tell you so. I've learned to
+just continue enjoying my craft, going my direction while they go theirs.
 
 
 
@@ -127,8 +126,8 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
