@@ -88,7 +88,7 @@ Walrus for another slice of bread.
 
 The actual Alice book leaves it ambiguous whether the Carpenter eats oysters.
 Walt definitely thinks the proletariat class (working class craftspeople) will
-always and necessarily be screwed over by the bourgeoisie (orating,
+always and necessarily be screwed over by the aristocracy (orating,
 self-important ruling class). Projecting there much, Walt? You haven't read
 Alice until you get this subtle distinction regarding the Carpenter.
 Identifying with the Carpenter such as I do (I ***love*** oysters), this is of

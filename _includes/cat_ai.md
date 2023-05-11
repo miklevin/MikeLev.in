@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)
+<br/>I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.</li>
 <li><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a> (Thu May 11, 2023)
 <br/>As an SEO specialist, I share my experience and advice on why the best SEOs should focus on their passions and use their skills to make money doing what they love, and not SEO. I also discuss the implications of Artificial Intelligence on SEO, and the importance of giving humanity a fair chance in the future.</li>
 <li><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a> (Wed May 10, 2023)

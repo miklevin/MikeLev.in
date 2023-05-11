@@ -4,7 +4,7 @@ title: vim Macro to Format Markdown Poetry
 headline: "Discover Independence from Microsoft with Vim: Unlock the Power of Jupyter and Writing Every Day"
 description: I'm talking about how to use vim to break free from Microsoft, how they are trying to steal Jupyter's features, and why their attempt to create their own version of Unix, Xenix, flopped. I'm also discussing how writing in vim is like driving and how it can free up your executive function for more difficult tasks, and how writing every day can help you become more proficient with your tools.
 keywords: vim, Microsoft, Jupyter, Unix, Xenix, executive function, ZeroMQ, JavaScript, VSCode, independence, ah-ha moment, discovery, Linus Torvalds, Guido van Rossum, Ada Lovelace, Grace Hopper, poem, stilling the wolf, driving, proficiency, tools
-categories: vim, linux, jupyter, microsoft, poetry, javascript
+categories: microsoft, poetry, jupyter, javascript, vim, linux
 permalink: /blog/vim-macro-to-format-markdown-poetry/
 layout: post
 ---
@@ -43,10 +43,10 @@ differently, switching from expressing mostly exploratory activity to
 exploitative activity.
 
 What? Exploit? Doesn't the English language suck? Yes, the English language
-really sucks, the bourgeoisie aristocracy keeping the common man like me down.
-Well, eff-that. We common folk can rise-up... but not in rebellion but rather
-in taking over the system. What's that? We already have? The nerds won, you
-say? New royalty is the Bill Gates, Elon Musks, Jeff Bezoses and the unheard-of
+really sucks, the aristocracy keeping the common man like me down. Well,
+eff-that. We common folk can rise-up... but not in rebellion but rather in
+taking over the system. What's that? We already have? The nerds won, you say?
+New royalty is the Bill Gates, Elon Musks, Jeff Bezoses and the unheard-of
 Larry Ellisons? Well, maybe. But not all the nerds won equally.
 
 It's the wolf-nerds who won. I don't wanna be a wolf. I want to be a sensitive
@@ -272,9 +272,9 @@ Unix called Xenix. It flopped. Microsoft is no Linus Torvalds.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/poetry/'>Poetry</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

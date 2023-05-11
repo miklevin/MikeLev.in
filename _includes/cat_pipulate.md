@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)
+<br/>I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.</li>
 <li><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a> (Wed Mar 29, 2023)
 <br/>I recently received a video from my boss about the potential of AIs in the future and was reminded of the opportunities and dangers that come with this technology. I decided to write in my journal about the potential of technology and my plans to stay ahead of the curve. I switched from Vim to NeoVim, enabled Copilot for markdown files, and tested out the new feature. I also discussed my plans to stream the breakthrough live on YouTube and shared my thoughts on SEO.</li>
 <li><a href="/blog/introducing-the-new-bing-how-to-get-indexed/">Introducing The New Bing / How to Get Indexed</a> (Mon Mar 13, 2023)

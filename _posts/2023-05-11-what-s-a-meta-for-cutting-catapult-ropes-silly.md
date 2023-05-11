@@ -85,6 +85,7 @@ metaphors in SEO, accompanied by all the strong metaphor visuals like:
 - The Sunk Cost Fallacy
 - The Tipping Point
 - The Tragedy of the Commons
+- The War of Attrition Principle
 - The Weakest Link in the Chain
 
 Oh, the list goes on. And the idea of this site was immediately loved by the
@@ -111,7 +112,7 @@ it. But there is now. Oh, did I mention the metaphor of cutting catapult ropes?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>
