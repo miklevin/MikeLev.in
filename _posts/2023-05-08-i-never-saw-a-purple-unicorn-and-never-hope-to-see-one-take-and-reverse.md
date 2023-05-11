@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: vim, youtube, ai, seo, marketing
+categories: vim, seo, ai, marketing, youtube
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -65,12 +65,17 @@ this particular academic exercise I'm carrying out. Whereas my illustrious SEO
 counterparts are conducting spam-cannon experiments about how many thousands of
 remixed generative birdcall pages you can spin out with an OpenAI Wordpress
 plugin, I'm experimenting with producing a critical mass of undeniably original
-and non-AI-written content to see what the filters all make of it.
+and non-AI-written content to see what the filters all make of it. I think only
+content like this of a deeply and personal and undeniably springing from the
+mind of the original human stands a long-term chance of surfacing through the
+coming and inevitable out of necessity AI super-filters. AI powers content. AI
+powers filters. Only the genuine articles will survive.
 
-Yes, filters. The infinite spam cannon requires the infinite spam filter. And
-helping my employer write the infinite spam filter to content with the infinite
-spam cannon is shaping up to be one of my self-selected purple unicorn to-do
-items. 
+Yes, filters. The infinite spam cannon now calls for the infinite spam filter.
+And helping my employer write the infinite spam filter to content with the
+infinite spam cannon is shaping up to be one of my self-selected purple unicorn
+to-do items. Worsen the problem then sell them the antidote, hahaha! I will try
+my hardest to be on the morally correct side of this equation.
 
 > I sometimes see a Unicorn
 > That's purple but don't fear her.
@@ -120,7 +125,7 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
