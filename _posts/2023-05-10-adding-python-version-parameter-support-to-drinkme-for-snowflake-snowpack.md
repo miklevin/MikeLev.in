@@ -4,31 +4,15 @@ title: Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack
 headline: Exploring the Possibilities of Python Version Parameter Support with DrinkMe and Snowflake Snowpack
 description: Explore the power of Snowflake's Snowpack data warehouse with Python 3.8 support. Learn how to set up a parameterized .bat file to install the Snowflake connector and access the data in a familiar Python environment. Discover the advantages of manipulating terabytes of data without pulling it down to your local machine.
 keywords: Python, Version, Parameter, Support, DrinkMe, Snowflake, Snowpack, MOZ, Links, Data, SEOs, Content, Auto-Generated, AI, Industry, Ziff Davis, Jupyter Notebook, Experiential, Internal Clients, Abstract, Fictional, Sites, Brand, Impact, Rapidly Changing, Streamlit, Visualization, Lazy Loading, Terabytes, Query, APIs, Cloud, Data Warehouse, Marketplace, Copilot,
-categories: seo, python, jupyter, ai, drinkme
+categories: jupyter, drinkme, python, seo, ai
 permalink: /blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/
 layout: post
 ---
 
 
-So what brings this up? Well, the conceptual enemy at MOZ is the perception in
-the industry that it's anything less than a top-tier offering, ***STILL***
-after all these years. The MOZ Links data is so top-notch and I think I can
-give that fact more visibility in a series of articles. I think I want to keep
-rolling out article after article that forges a new path for SEOs in a new
-landscape, mostly characterized by staying competitive in light of infinite
-content of steadily increasing quality. The quality of auto-generated content
-will get better and better across everywhere it will make somebody money.
-
-There's also a many-headed hydra of industry-related issues, such as the rise
-of AI and what to do. I'm not giving anything away by saying part of my
-solution is to have first-hand experience with all the many pieces that may be
-in play. It's a surveying of the landscape and a gathering of the reins. It's a
-re-assertion of the brand and a re-assertion of my ability to have an impact in
-a rapidly changing field.
-
-I want to just produce a series of Jupyter Notebook deliverables, alternating
-between experiential stuff for real Ziff Davis properties and internal clients,
-and then more abstract or fictional sites for the public. Working for MOZ and
+I'm producing a series of Jupyter Notebook deliverables, alternating between
+experiential stuff for real Ziff Davis properties and internal clients, and
+then more abstract or fictional sites for the public. Working for MOZ and
 helping to sell MOZ products, I can be much more free with deliverables.
 
 YES! That's the story. That's the Hello World! I've got to keep tension in that
@@ -191,8 +175,8 @@ number-like argument 3.6, 3.8, 3.10, etc.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li></ul>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
