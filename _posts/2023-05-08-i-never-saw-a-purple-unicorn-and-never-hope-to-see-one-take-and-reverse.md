@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: marketing, seo, ai, youtube, vim
+categories: vim, youtube, seo, marketing, ai
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -19,10 +19,12 @@ everything I discuss in a professional job capacity.
 
 Others can always focus on the rote and frankly mundane and not very
 interesting to me aspects of SEO and marketing. I'm a purple unicorn and I know
-it. But the world needs purple unicorns too. Problem being the product of such 
+it. But the world needs purple unicorns too. Problem being the product of such
 a unicorn is not going to be as popular as the economic product of the old
-workhorse... or the ass? Haha, well anyway it's time to drop a few words about
-being a purple unicorn.
+workhorse. Well anyway it's time to drop a few words about being a purple
+unicorn and why I believe GPT models like it will spot them and perchance
+reward them. I'm already playing the AI optimization long-game. Hehe, you
+*know* GPT didn't write this.
 
 Two roads diverge in the woods, and everything else being equal we paraphrase
 something Copilot can't even figure out, haha! I'm having a good time seeing
@@ -126,8 +128,8 @@ just continue enjoying my craft, going my direction while they go theirs.
 ## Categories
 
 <ul>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
