@@ -11,30 +11,33 @@ layout: post
 
 
 There was a superhero, or perhaps an anti-hero, in the Batman comic books when
-Bane first appeared and broke Batman's back. Azrael was the not-so
-heir-apparent to the mantle of the Bat, which really pissed off Robin (before
-he was cool) who thought he was a shoe-in to be tapped to cover for his mentor,
-so he went off to be Nightwing. But I digress.
+the venom-throbbing mobster Bane first appeared and broke Batman's back. Azrael
+was the not-so heir-apparent to the mantle of the Bat, which really pissed off
+Robin (before he was cool) who thought he was a shoe-in to be tapped to cover
+for his mentor, so he stomped off to be Nightwing. But I digress.
 
 Azrael was a knight of the Order of Saint Dumas, and he was a bit of a zealot.
 His thing was after a night out on the town of Gotham fighting crime in his
 fancy neo-bat armor, he would return to the batcave and go into a fugue state
 where he would crank out the exact right high-tech gadgets for the next night's
 adventure, giving him precisely what he needed so as to not repeat the same
-mistakes. Fugue states are an altered state of consciousness where you're
-awake, but your subconscious takes over. They're a totally real thing. The
-purpose of this journal is to get me into that state.
+mistakes. 
 
-So as you might imagine, I loved and related to this story and related to it,
-because that's exactly how poetry works for me. Not like all stuff, but poetry
-for sure. I do not write in verse quite so much as I wake up to find the verse
-asserting itself.
+Fugue states are an altered state of consciousness where you're awake, but your
+subconscious takes over. They're a totally real thing. The purpose of this
+journal is to get me into that state.
 
-This, for example was a little ditty I found in my head this morning after my
-company's Spring Fling, which was my first time going into the Manhattan office
-in years, and the first time in my new job role. Not sure if I was looking for
-The Bat Man or what, but since it was sort of superhero related, I thought I'd
-publish it along with the story of where this stuff comes from.
+So as you might imagine, I loved and related to this story, because that's
+exactly how poetry works for me. Not like all stuff, but poetry for sure. I do
+not write in verse quite so much as I wake up to find the verse asserting
+itself. In a way, having to go have a place to do my Azrael gadget-making is
+the origin story of this YAMLchop journaling system.
+
+This little ditty for example I found needing to be freed from my head and
+actualized this morning. Being superhero related, and my having just been in
+the Gotham office, uh I mean the Manhattan office, for the first time in years,
+I thought I'd tell the comic-book backstory of this journaling system and my
+poetry.
 
 ## Vocation of the Mythical White Knight
 
