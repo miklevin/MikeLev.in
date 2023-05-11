@@ -161,9 +161,7 @@ desktop double-click trick if you want to change the Python version. Instead,
 you open a CMD or Powershell and run it from a command-line with the
 number-like argument 3.6, 3.8, 3.10, etc.
 
-```bash
-.\install.bat 3.8
-```
+    .\install.bat 3.8
 
 
 
