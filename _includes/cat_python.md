@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a> (Wed May 10, 2023)
+<br/>Explore the power of Snowflake's Snowpack data warehouse with Python 3.8 support. Learn how to set up a parameterized .bat file to install the Snowflake connector and access the data in a familiar Python environment. Discover the advantages of manipulating terabytes of data without pulling it down to your local machine.</li>
 <li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
 <br/>This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.</li>
 <li><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a> (Mon May 08, 2023)

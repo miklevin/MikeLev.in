@@ -485,6 +485,9 @@ dictitems:
   absolute paths:
     count: 1
     title: Absolute Paths
+  abstract:
+    count: 1
+    title: Abstract
   abstract thinking:
     count: 1
     title: Abstract Thinking
@@ -714,7 +717,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 87
+    count: 88
     title: AI
   ai design:
     count: 1
@@ -1032,7 +1035,7 @@ dictitems:
     count: 1
     title: API-way
   apis:
-    count: 2
+    count: 3
     title: APIs
   app:
     count: 4
@@ -1304,6 +1307,9 @@ dictitems:
   auto-complete:
     count: 2
     title: Auto-Complete
+  auto-generated:
+    count: 1
+    title: Auto-Generated
   auto-suggest:
     count: 1
     title: Auto-Suggest
@@ -1929,7 +1935,7 @@ dictitems:
     count: 1
     title: branch
   brand:
-    count: 1
+    count: 2
     title: Brand
   brand identity:
     count: 1
@@ -2568,7 +2574,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 7
+    count: 8
     title: Cloud
   cloud chamber:
     count: 1
@@ -3084,7 +3090,7 @@ dictitems:
     count: 1
     title: Containing Element
   content:
-    count: 23
+    count: 24
     title: Content
   content appeal:
     count: 1
@@ -3194,6 +3200,9 @@ dictitems:
   copilot ai:
     count: 1
     title: CoPilot AI
+  copilot,:
+    count: 1
+    title: Copilot,
   copilotx:
     count: 1
     title: CopilotX
@@ -3606,7 +3615,7 @@ dictitems:
     count: 1
     title: Dask Queue
   data:
-    count: 14
+    count: 15
     title: Data
   data analysis:
     count: 3
@@ -3662,6 +3671,9 @@ dictitems:
   data visualization:
     count: 1
     title: Data Visualization
+  data warehouse:
+    count: 1
+    title: Data Warehouse
   data work:
     count: 1
     title: Data Work
@@ -4437,7 +4449,7 @@ dictitems:
     count: 1
     title: Drexel
   drinkme:
-    count: 6
+    count: 7
     title: DrinkMe
   drinkme linux:
     count: 2
@@ -5168,6 +5180,9 @@ dictitems:
   experienced-tech-professional:
     count: 1
     title: Experienced-Tech-Professional
+  experiential:
+    count: 1
+    title: Experiential
   experiment:
     count: 12
     title: Experiment
@@ -5439,7 +5454,7 @@ dictitems:
     count: 1
     title: Fiction
   fictional:
-    count: 1
+    count: 2
     title: Fictional
   field:
     count: 6
@@ -7245,7 +7260,7 @@ dictitems:
     count: 1
     title: Immersive Experience
   impact:
-    count: 4
+    count: 5
     title: Impact
   impact on society:
     count: 1
@@ -7371,7 +7386,7 @@ dictitems:
     count: 1
     title: indulging
   industry:
-    count: 2
+    count: 3
     title: Industry
   industry standard:
     count: 2
@@ -7634,6 +7649,9 @@ dictitems:
   internal assets:
     count: 1
     title: Internal Assets
+  internal clients:
+    count: 1
+    title: Internal Clients
   internal resilience:
     count: 1
     title: Internal Resilience
@@ -8034,7 +8052,7 @@ dictitems:
     count: 1
     title: Jupyter Environment
   jupyter notebook:
-    count: 19
+    count: 20
     title: Jupyter Notebook
   jupyter notebooks:
     count: 8
@@ -8411,6 +8429,9 @@ dictitems:
   layout:
     count: 2
     title: layout
+  lazy loading:
+    count: 1
+    title: Lazy Loading
   lead:
     count: 1
     title: Lead
@@ -8625,7 +8646,7 @@ dictitems:
     count: 1
     title: Linguistics
   link:
-    count: 12
+    count: 13
     title: Links
   link back:
     count: 1
@@ -9413,6 +9434,9 @@ dictitems:
   marketing:
     count: 7
     title: Marketing
+  marketplace:
+    count: 1
+    title: Marketplace
   marriage:
     count: 1
     title: marriage
@@ -10092,7 +10116,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 16
+    count: 17
     title: MOZ
   moz api:
     count: 1
@@ -11208,8 +11232,8 @@ dictitems:
     count: 1
     title: Paralysis
   parameter:
-    count: 3
-    title: Parameters
+    count: 4
+    title: Parameter
   parameterize:
     count: 1
     title: Parameterize
@@ -12414,7 +12438,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 179
+    count: 180
     title: Python
   python 3:
     count: 1
@@ -12633,7 +12657,7 @@ dictitems:
     count: 1
     title: Qubits
   query:
-    count: 3
+    count: 4
     title: Query
   query-writing:
     count: 1
@@ -12755,6 +12779,9 @@ dictitems:
   ranking keywords:
     count: 1
     title: Ranking Keywords
+  rapidly changing:
+    count: 1
+    title: Rapidly Changing
   rapping:
     count: 1
     title: Rapping
@@ -13986,7 +14013,7 @@ dictitems:
     count: 1
     title: SEOptimer
   seos:
-    count: 1
+    count: 2
     title: SEOs
   separate:
     count: 2
@@ -14274,7 +14301,7 @@ dictitems:
     count: 1
     title: Singularity
   site:
-    count: 6
+    count: 7
     title: Site
   site categories:
     count: 1
@@ -14483,6 +14510,12 @@ dictitems:
   snowballing:
     count: 1
     title: Snowballing
+  snowflake:
+    count: 1
+    title: Snowflake
+  snowpack:
+    count: 1
+    title: Snowpack
   so-learn:
     count: 1
     title: So-Learn
@@ -15050,6 +15083,9 @@ dictitems:
   streamline:
     count: 1
     title: Streamline
+  streamlit:
+    count: 1
+    title: Streamlit
   strength:
     count: 6
     title: Strengths
@@ -15318,8 +15354,8 @@ dictitems:
     count: 1
     title: Supplementary Income
   support:
-    count: 2
-    title: support
+    count: 3
+    title: Support
   surf:
     count: 1
     title: Surf
@@ -15671,6 +15707,9 @@ dictitems:
   templating system:
     count: 1
     title: Templating System
+  terabyte:
+    count: 1
+    title: Terabytes
   terminal:
     count: 13
     title: Terminal
@@ -16707,7 +16746,7 @@ dictitems:
     count: 1
     title: Versatile
   version:
-    count: 6
+    count: 7
     title: Version
   version 0.1 alpha:
     count: 1
@@ -16926,7 +16965,7 @@ dictitems:
     count: 1
     title: Visual Studio Code
   visualization:
-    count: 4
+    count: 5
     title: Visualization
   visualize:
     count: 3
@@ -17603,6 +17642,9 @@ dictitems:
   zg:
     count: 1
     title: zg
+  ziff davis:
+    count: 1
+    title: Ziff Davis
   zilog:
     count: 1
     title: Zilog

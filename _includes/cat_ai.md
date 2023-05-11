@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a> (Wed May 10, 2023)
+<br/>Explore the power of Snowflake's Snowpack data warehouse with Python 3.8 support. Learn how to set up a parameterized .bat file to install the Snowflake connector and access the data in a familiar Python environment. Discover the advantages of manipulating terabytes of data without pulling it down to your local machine.</li>
 <li><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a> (Wed May 10, 2023)
 <br/>Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.</li>
 <li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a> (Mon May 08, 2023)
