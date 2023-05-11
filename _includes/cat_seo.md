@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a> (Thu May 11, 2023)
-<br/>As an SEO specialist, I share my experience and advice on why the best SEOs should focus on their passions and use their skills to make money. I also discuss the implications of Artificial Intelligence on SEO, and the importance of giving humanity a fair chance in the future.</li>
+<br/>As an SEO specialist, I share my experience and advice on why the best SEOs should focus on their passions and use their skills to make money doing what they love, and not SEO. I also discuss the implications of Artificial Intelligence on SEO, and the importance of giving humanity a fair chance in the future.</li>
 <li><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a> (Wed May 10, 2023)
 <br/>I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.</li>
 <li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
