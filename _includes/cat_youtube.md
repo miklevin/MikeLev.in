@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a> (Wed May 10, 2023)
+<br/>Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.</li>
 <li><a href="/blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/">I Never Saw a Purple Unicorn And Never Hope to See One... Take and Reverse!</a> (Mon May 08, 2023)
 <br/>I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!</li>
 <li><a href="/blog/moved-1-long-page-version-of-journal-md-to-drafts/">Moved 1-long-page version of journal.md to `_drafts`</a> (Sat Apr 29, 2023)

@@ -461,6 +461,9 @@ dictitems:
   '`vim.api.nvim_command`':
     count: 1
     title: '`vim.api.nvim_command`'
+  a-game:
+    count: 1
+    title: A-game
   a-records:
     count: 1
     title: A-Records
@@ -708,7 +711,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 86
+    count: 87
     title: AI
   ai design:
     count: 1
@@ -905,6 +908,9 @@ dictitems:
   amos:
     count: 1
     title: Amos
+  amplification:
+    count: 1
+    title: Amplification
   anaconda:
     count: 2
     title: Anaconda
@@ -2586,8 +2592,8 @@ dictitems:
     count: 2
     title: CNAME
   co-op board:
-    count: 1
-    title: co-op board
+    count: 2
+    title: Co-op Board
   cobra:
     count: 1
     title: Cobra
@@ -3054,7 +3060,7 @@ dictitems:
     count: 1
     title: Containing Element
   content:
-    count: 22
+    count: 23
     title: Content
   content appeal:
     count: 1
@@ -6857,6 +6863,9 @@ dictitems:
   hittail:
     count: 3
     title: HitTail
+  hittail system:
+    count: 1
+    title: HitTail System
   hma:
     count: 1
     title: HMA
@@ -7331,6 +7340,9 @@ dictitems:
   infant:
     count: 1
     title: infant
+  infinite spam cannon:
+    count: 1
+    title: Infinite Spam Cannon
   infinite spam filter:
     count: 1
     title: Infinite Spam Filter
@@ -7697,6 +7709,12 @@ dictitems:
   irrational:
     count: 1
     title: irrational
+  irrepressible:
+    count: 1
+    title: Irrepressible
+  irresistible:
+    count: 1
+    title: Irresistible
   isaac newton:
     count: 1
     title: Isaac Newton
@@ -10398,7 +10416,7 @@ dictitems:
     count: 2
     title: New York
   new york city:
-    count: 8
+    count: 9
     title: New York City
   new york seo:
     count: 1
@@ -10895,6 +10913,9 @@ dictitems:
   optimize content:
     count: 1
     title: Optimize Content
+  optimized blog posts:
+    count: 1
+    title: Optimized Blog Posts
   optimizing:
     count: 1
     title: Optimizing
@@ -11981,6 +12002,9 @@ dictitems:
   privileged:
     count: 1
     title: Privileged
+  prize-rich environments:
+    count: 1
+    title: Prize-rich Environments
   pro:
     count: 2
     title: Pro
@@ -12761,6 +12785,9 @@ dictitems:
   real:
     count: 1
     title: Real
+  real enemies:
+    count: 1
+    title: Real Enemies
   real estate:
     count: 1
     title: Real Estate
@@ -13823,6 +13850,9 @@ dictitems:
   self-therapy:
     count: 2
     title: Self-Therapy
+  selling the dream:
+    count: 1
+    title: Selling The Dream
   selma:
     count: 1
     title: Selma
@@ -14018,6 +14048,9 @@ dictitems:
   sharing:
     count: 6
     title: Sharing
+  shark:
+    count: 1
+    title: Shark
   sharp green:
     count: 1
     title: sharp green
@@ -15231,7 +15264,7 @@ dictitems:
     count: 1
     title: surrogate parents
   survival:
-    count: 3
+    count: 4
     title: Survival
   sustainability:
     count: 1
@@ -16529,6 +16562,9 @@ dictitems:
   variable:
     count: 3
     title: variables
+  variable revenue component:
+    count: 1
+    title: Variable Revenue Component
   variation:
     count: 1
     title: Variations
@@ -16913,6 +16949,9 @@ dictitems:
   war and peace:
     count: 1
     title: War and Peace
+  war stories:
+    count: 1
+    title: War Stories
   warming:
     count: 1
     title: Warming
@@ -17442,7 +17481,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 44
+    count: 45
     title: YouTube
   youtube analytics:
     count: 1

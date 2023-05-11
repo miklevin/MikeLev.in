@@ -4,7 +4,7 @@ title: Now The Github miklevin/yamlchop Repo has a README.md
 headline: "I Share My Best Tricks: Now The Github miklevin/yamlchop Repo Has a README.md"
 description: I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.
 keywords: SME, Web, Kung Fu, ASCII art, Diagramming, Venn-nvim, MermaidJS, Jekyll, Static Site Generator, Github, YAML, Markdown, HTML, OpenAI, SEO, Previous Next Arrows, Rambling, Mikelev.in
-categories: git, ai, yaml, html, seo, static site generator, jekyll
+categories: yaml, seo, git, html, static site generator, ai, jekyll
 permalink: /blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/
 layout: post
 ---
@@ -196,14 +196,14 @@ This software is provided under a very liberal MIT license that only requires
 you to include the license text in any redistribution. See the LICENSE file for
 details.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

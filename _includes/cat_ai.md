@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a> (Wed May 10, 2023)
+<br/>Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.</li>
 <li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a> (Mon May 08, 2023)
 <br/>Learn how to use RegEx in NeoVim to format Markdown quotes with 2 trailing spaces. I describe the process of using Vim commands to back up my journal and the paradigm of writing and editing text with vi/vim/NeoVim. I also discuss my journey with the Midjourney AI, including the Microsoft Store installation, the paid account link, and the documentation link.</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
