@@ -11,10 +11,12 @@ layout: post
 
 
 SEOs deal in metaphors. What's a meta for? It's for describing something else.
-So metas in the context of SEO isn't really that different than that of 
+So metas in the context of SEO isn't really that different than that of
 language. If it's not part of the main body of the thing, then you put it
-somewhere else, make stupid decisions about structure and schema nobody's ever
-going to see but a bot, and then you hope for the best. That's SEO. Meta.
+somewhere else, make decisions about structure and schema nobody's ever going
+to see but a bot, and then you hope for the best. That tweaking of meta-data is
+a big part of SEO. If not the actual meta tags, then other meta-attributes of
+the page that "describe" it, such as structured data, schema, and the like.
 
 Facebook took the term from another fine Sci-Fi writer, Vernor Vinge, in his
 2006 book "Rainbows End". In it, he describes a world where everyone is

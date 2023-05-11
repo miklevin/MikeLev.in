@@ -4,7 +4,7 @@ title: Gutting Dependencies Out Of Your Projects & Life
 headline: "Juneteenth: My Journey to Becoming a Better Coder"
 description: Today, I'm using Juneteenth as a day off from work to get some stuff done. I'm severing the dependency on Github Pages templates from my Jekyll static site generator and gradually getting better at coding. After making changes to the CSS file and deleting an import line, I inspected the cached CSS and transposed bits I wanted to keep. After publishing the page, the background turned white and the text and links were a more traditional color.
 keywords: Juneteenth, Dependencies, Projects, Life, Static Site Generator, Coding, CSS, Import Line, Cached CSS, White Background, Traditional Color, Journey, Github Pages, Config File, SCSS, Code, Publish
-categories: jekyll, static site generator, publish, dependency, coding
+categories: jekyll, coding, publish, static site generator, dependency
 permalink: /blog/gutting-dependencies-out-of-your-projects-life/
 layout: post
 ---
@@ -183,7 +183,7 @@ Hit @p to publish ***THIS*** page and see if it looks correct.
 
 <ul>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/publish/'>Publish</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/dependency/'>Dependencies</a></h4></li></ul>
