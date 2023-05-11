@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: vim, seo, ai, marketing, youtube
+categories: seo, ai, youtube, vim, marketing
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -87,13 +87,16 @@ been told such and felt the attempts to knock me down a few pegs, but it always
 feels like little hatchets chipping away at my ankles... uncles... ankles. I
 often get the feeling that those who covet money and projecting a tight
 buttoned-up appearance of authority and "the patriarchy" dislike this sort of
-attitude and behavior pattern. 
+attitude and behavior pattern. They want to be lords.
 
-They usually get into real estate, because it's really the best path for an
-average person to become rich. Land is one of the only indisputable things of
-value from which you can always extract money once you have it, the ultimate
-passive income source for the ultimate passive minds. I don't vibe like a
-landlord, that's for sure.
+They usually get into real estate, because it's really the best path for those
+of little creativity to become rich. Land is one of the only indisputable
+things of value from which you can always extract money once you have it, the
+ultimate passive income source for the ultimate passive minds. A finite
+resource you can seize and extract money from others for access to it. If you
+want insight into the real estate mind, read Rob Ringer's book, *Winning
+Through Intimidation*, one of the great unwitting gifts to me by my father. I
+don't vibe like a landlord, but this book taught me about those who do.
 
 Such personalities are always at risk. They must occasionally don the disguise
 of the buttoned-up, non-emotional, stiff upper lipped types to have a seat at
@@ -124,8 +127,8 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
