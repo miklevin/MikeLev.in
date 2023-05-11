@@ -4,7 +4,7 @@ title: Bash Script Loading External Files
 headline: "Simplifying My Release System: Introducing blast.sh"
 description: I've simplified my release system and renamed it blast.sh. This script helps me delete old files, slice blogs, update my vimrc, journal, and mlseo. After that, it publishes my 15 domains for SEO purposes and I'm done! Join me as I dive into the details of this helpful script.
 keywords: Bash Script, External Files, Release System, 'blast.sh', Delete Old Files, Slice Blogs, Update Vimrc, Journal, MLSeo, Publish Domains, SEO Purposes, Registered Domains, Simplify, Script, Sites
-categories: python, pipulate
+categories: pipulate, python
 permalink: /blog/bash-script-loading-external-files/
 layout: post
 ---
@@ -139,5 +139,5 @@ exit
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
