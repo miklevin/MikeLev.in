@@ -4,7 +4,7 @@ title: Happy Birthday Adi!
 headline: "Celebrating 5 Years of Employment: Resolving an Unexpected Table-Join Issue and Keeping My Search Volumes Intact."
 description: Today is my birthday and I'm feeling motivated to keep pushing forward with my progress. Celebrating five years of employment, I'm ready to take on the next task - resolving an unexpected issue with my table-joins. Join me as I explore how to ensure my search volumes don't get lost in the process.
 keywords: Birthday, Adi, Progress, Employment, Task, Resolution, Issue, Table-joins, Search, Volumes, Granular, Maintain, Accomplishment, Focus, Unexpected
-categories: success, search, progress
+categories: success, progress, search
 permalink: /blog/happy-birthday-adi/
 layout: post
 ---
@@ -25,5 +25,5 @@ getting lost.
 
 <ul>
 <li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/progress/'>Progress</a></h4></li></ul>
+<li><h4><a href='/progress/'>Progress</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li></ul>

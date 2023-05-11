@@ -674,6 +674,9 @@ dictitems:
   aerosnap:
     count: 1
     title: AeroSnap
+  affectation:
+    count: 1
+    title: affectation
   affiliate:
     count: 1
     title: Affiliate
@@ -932,6 +935,9 @@ dictitems:
   ancient:
     count: 1
     title: Ancient
+  angel:
+    count: 1
+    title: angels
   angel investors:
     count: 1
     title: Angel Investors
@@ -974,6 +980,9 @@ dictitems:
   anti-fragile:
     count: 1
     title: Anti-Fragile
+  anti-hero:
+    count: 1
+    title: anti-hero
   anti-narcissism:
     count: 1
     title: Anti-Narcissism
@@ -1382,6 +1391,9 @@ dictitems:
   aza raskin:
     count: 1
     title: Aza Raskin
+  azrael:
+    count: 1
+    title: Azrael
   azure:
     count: 2
     title: Azure
@@ -1457,6 +1469,9 @@ dictitems:
   bandit:
     count: 1
     title: Bandits
+  bane:
+    count: 1
+    title: Bane
   bang:
     count: 1
     title: Bang
@@ -1464,7 +1479,7 @@ dictitems:
     count: 1
     title: bank
   banner:
-    count: 3
+    count: 4
     title: Banner
   bard:
     count: 3
@@ -1502,12 +1517,18 @@ dictitems:
   bathroom:
     count: 1
     title: Bathroom
+  batman:
+    count: 1
+    title: Batman
   battery:
     count: 1
     title: Batteries
   battle:
     count: 1
     title: Battle
+  battle cries:
+    count: 1
+    title: battle cries
   bcpl:
     count: 1
     title: BCPL
@@ -1970,6 +1991,9 @@ dictitems:
   browsing history:
     count: 1
     title: Browsing History
+  bruce:
+    count: 1
+    title: Bruce
   btn:
     count: 1
     title: Btn
@@ -3923,6 +3947,9 @@ dictitems:
   derailed:
     count: 1
     title: Derailed
+  deranged:
+    count: 1
+    title: deranged
   descendant:
     count: 1
     title: descendants
@@ -4628,6 +4655,9 @@ dictitems:
   "einstein\u2013cartan theory":
     count: 1
     title: "Einstein\u2013Cartan Theory"
+  elation:
+    count: 1
+    title: elation
   elbow method:
     count: 1
     title: Elbow Method
@@ -5111,6 +5141,9 @@ dictitems:
   existing context:
     count: 1
     title: Existing Context
+  exit:
+    count: 1
+    title: exits
   expectation:
     count: 2
     title: Expectations
@@ -5711,6 +5744,9 @@ dictitems:
   foundation:
     count: 1
     title: Foundation
+  founder:
+    count: 1
+    title: founder
   fractal:
     count: 2
     title: Fractals
@@ -5849,6 +5885,9 @@ dictitems:
   fuel conservation:
     count: 1
     title: Fuel Conservation
+  fugue state:
+    count: 1
+    title: fugue state
   fulfillment:
     count: 1
     title: Fulfillment
@@ -6389,6 +6428,9 @@ dictitems:
   gorilla:
     count: 1
     title: Gorilla
+  gotham:
+    count: 1
+    title: Gotham
   governance:
     count: 1
     title: Governance
@@ -6486,8 +6528,8 @@ dictitems:
     count: 1
     title: Greece
   greed:
-    count: 1
-    title: Greed
+    count: 2
+    title: greed
   green:
     count: 1
     title: green
@@ -6830,6 +6872,9 @@ dictitems:
   high-quality content:
     count: 1
     title: High-Quality Content
+  high-tech gadgets:
+    count: 1
+    title: high-tech gadgets
   high-temperature superconductors:
     count: 1
     title: High-Temperature Superconductors
@@ -7676,6 +7721,9 @@ dictitems:
   invisible wall:
     count: 1
     title: Invisible Wall
+  invitation:
+    count: 1
+    title: invitation
   inviting:
     count: 1
     title: Inviting
@@ -7844,6 +7892,9 @@ dictitems:
   job eta:
     count: 1
     title: Job Eta
+  job role:
+    count: 1
+    title: job role
   john a. wheeler:
     count: 1
     title: John A. Wheeler
@@ -9278,6 +9329,9 @@ dictitems:
   mangled:
     count: 1
     title: mangled
+  manhattan office:
+    count: 1
+    title: Manhattan office
   manifest:
     count: 1
     title: Manifest
@@ -9864,7 +9918,7 @@ dictitems:
     count: 1
     title: Missile
   mission:
-    count: 4
+    count: 5
     title: Mission
   mississippi river:
     count: 1
@@ -10154,6 +10208,9 @@ dictitems:
   mystic celtic druids:
     count: 1
     title: Mystic Celtic Druids
+  mythical white knight:
+    count: 1
+    title: mythical white knight
   n-word language:
     count: 1
     title: N-word language
@@ -10325,6 +10382,9 @@ dictitems:
   neil patel:
     count: 1
     title: Neil Patel
+  neo-bat armor:
+    count: 1
+    title: neo-bat armor
   neocortex:
     count: 2
     title: Neocortex
@@ -10931,6 +10991,9 @@ dictitems:
   order:
     count: 1
     title: Order
+  order of saint dumas:
+    count: 1
+    title: Order of Saint Dumas
   orderly patterns:
     count: 1
     title: Orderly Patterns
@@ -11658,7 +11721,7 @@ dictitems:
     count: 2
     title: Poet
   poetry:
-    count: 4
+    count: 5
     title: Poetry
   polar bear:
     count: 1
@@ -12114,8 +12177,8 @@ dictitems:
     count: 1
     title: Prometheus Model
   promise:
-    count: 1
-    title: Promises
+    count: 2
+    title: promise
   promote:
     count: 1
     title: promote
@@ -13361,6 +13424,9 @@ dictitems:
   robert cialdini:
     count: 2
     title: Robert Cialdini
+  robin:
+    count: 1
+    title: Robin
   robot:
     count: 2
     title: Robots
@@ -14649,7 +14715,7 @@ dictitems:
     count: 2
     title: Spreadsheet
   spring fling:
-    count: 1
+    count: 2
     title: Spring Fling
   spring layout:
     count: 1
@@ -15224,6 +15290,9 @@ dictitems:
   supergravity:
     count: 1
     title: Supergravity
+  superhero:
+    count: 1
+    title: superhero
   superintelligence:
     count: 1
     title: Superintelligence
@@ -16313,6 +16382,9 @@ dictitems:
   unexpected:
     count: 1
     title: Unexpected
+  unicorn:
+    count: 1
+    title: unicorn
   unified theory:
     count: 1
     title: Unified Theory
@@ -17328,7 +17400,7 @@ dictitems:
     count: 1
     title: works best
   world:
-    count: 9
+    count: 10
     title: World
   world-building:
     count: 1

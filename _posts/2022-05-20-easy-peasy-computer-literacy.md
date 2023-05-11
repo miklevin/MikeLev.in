@@ -4,7 +4,7 @@ title: Easy Peasy Computer Literacy
 headline: Discovering My Computer Literacy at 50 - Exploring the Divide Between VSCode and Vim
 description: At 50 years old, I discovered my passion for Linux, Python, vim & git, and have been mastering it for 10 years. I use JupyterLab for learning, and am concerned about relying on vendor-driven power-tools like VSCode. To combat this, I'm following the JupyterLab contributors on Github and Twitter to ensure the Mac and Windows versions are up-to-date. Read my article to learn more about the divide between VSCode.
 keywords: Computer Literacy, Linux, Python, Vim, Git, JupyterLab, VSCode, Jeremy Howard, Donald Knuth, .ipynb-files, .py-files, Copy/Paste, Article, Vendor-Driven Power-Tools, Mac, Windows, Auto-Update, Uninstall, Download, Re-Install
-categories: jupyter, git, mac, microsoft, copy/paste, linux, vim, python
+categories: vim, python, linux, copy/paste, git, jupyter, microsoft, mac
 permalink: /blog/easy-peasy-computer-literacy/
 layout: post
 ---
@@ -148,11 +148,11 @@ electron) version.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li></ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/ode-to-azrael-and-a-world-completely-changed/">Ode to Azrael And a World Completely Changed</a> (Wed May 10, 2023)
+<br/>The Legend of The Bat looms big in my head, even though I started out as a Marvel Comics guy, when Frank Miller's industry-changing Dark Knight Returns graphic novel came out in 1986, I switched to DS and followed a number of Batman stories, few of which made a bigger impression on me than the one of Azrael of The Order of St. Dumas who went into fugue states to make gadgets. It's how poetry works with me.</li>
 <li><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a> (Thu May 04, 2023)
 <br/>I explore the idea of accepting the status quo and not striving for discovery in this ode. I emphasize the importance of practice and the power of repetition. I also caution against the pitfalls of making too much effort and the fallacy of pop culture.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)
