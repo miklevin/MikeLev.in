@@ -312,7 +312,7 @@ dictitems:
     count: 1
     title: 32x32
   360i:
-    count: 1
+    count: 2
     title: 360i
   360itiger:
     count: 1
@@ -671,6 +671,9 @@ dictitems:
   adwords:
     count: 1
     title: AdWords
+  aegis:
+    count: 1
+    title: Aegis
   aeronautical engineer:
     count: 1
     title: aeronautical engineer
@@ -717,7 +720,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 88
+    count: 89
     title: AI
   ai design:
     count: 1
@@ -917,6 +920,9 @@ dictitems:
   amplification:
     count: 1
     title: Amplification
+  amy nguyen:
+    count: 1
+    title: Amy Nguyen
   anaconda:
     count: 2
     title: Anaconda
@@ -2411,6 +2417,9 @@ dictitems:
   childhood:
     count: 2
     title: Childhood
+  chinese room experiment:
+    count: 1
+    title: Chinese Room Experiment
   chmod:
     count: 1
     title: chmod
@@ -2826,7 +2835,7 @@ dictitems:
     count: 1
     title: Commodity
   commodore:
-    count: 5
+    count: 6
     title: Commodore
   common:
     count: 3
@@ -3453,8 +3462,8 @@ dictitems:
     count: 1
     title: Cultural Diffusion
   culture:
-    count: 3
-    title: Cultures
+    count: 4
+    title: Culture
   culture series:
     count: 2
     title: Culture Series
@@ -3707,6 +3716,9 @@ dictitems:
   datacenter:
     count: 1
     title: Datacenter
+  datacenters:
+    count: 1
+    title: Datacenters
   dataframe:
     count: 4
     title: Dataframe
@@ -3947,6 +3959,9 @@ dictitems:
   dense infotech forest:
     count: 1
     title: Dense Infotech Forest
+  dentsu:
+    count: 1
+    title: Dentsu
   dependency:
     count: 7
     title: Dependencies
@@ -4379,6 +4394,9 @@ dictitems:
   dotcom-boom:
     count: 1
     title: dotcom-boom
+  double slit experiment:
+    count: 1
+    title: Double Slit Experiment
   double-check:
     count: 1
     title: Double-Check
@@ -4485,7 +4503,7 @@ dictitems:
     count: 1
     title: Duncan MacInnes
   dune:
-    count: 1
+    count: 2
     title: Dune
   dungeons & dragons:
     count: 1
@@ -4871,6 +4889,9 @@ dictitems:
   end-to-end testing:
     count: 1
     title: End-to-End Testing
+  ender:
+    count: 1
+    title: Ender
   endpoint:
     count: 4
     title: Endpoints
@@ -6482,6 +6503,9 @@ dictitems:
   gpt-like model:
     count: 1
     title: GPT-like Model
+  gpt-models:
+    count: 1
+    title: GPT-models
   gpt3 chatgi:
     count: 1
     title: GPT3 ChatGI
@@ -7094,6 +7118,9 @@ dictitems:
   human error:
     count: 1
     title: Human Error
+  human intelligence:
+    count: 1
+    title: Human Intelligence
   human sweat:
     count: 1
     title: Human Sweat
@@ -7113,7 +7140,7 @@ dictitems:
     count: 1
     title: Humanism
   humanity:
-    count: 4
+    count: 5
     title: Humanity
   humanly accessible api-layer:
     count: 1
@@ -7838,6 +7865,9 @@ dictitems:
   janaki ammal:
     count: 1
     title: Janaki Ammal
+  jane:
+    count: 1
+    title: Jane
   january 29:
     count: 1
     title: January 29
@@ -9647,6 +9677,9 @@ dictitems:
   mental health:
     count: 3
     title: Mental Health
+  mentat:
+    count: 1
+    title: Mentat
   mentos and diet coke experiment:
     count: 1
     title: Mentos and Diet Coke experiment
@@ -9833,6 +9866,9 @@ dictitems:
   mik:
     count: 1
     title: mik
+  mike:
+    count: 1
+    title: Mike
   mike levin:
     count: 11
     title: Mike Levin
@@ -9891,8 +9927,8 @@ dictitems:
     count: 1
     title: Million-Page Crawl
   mind:
-    count: 2
-    title: Mind
+    count: 3
+    title: Minds
   mind control:
     count: 1
     title: Mind Control
@@ -10707,7 +10743,7 @@ dictitems:
     count: 1
     title: NVENC
   nvidia:
-    count: 1
+    count: 2
     title: NVIDIA
   nvim:
     count: 1
@@ -12609,7 +12645,7 @@ dictitems:
     count: 1
     title: Quantum Loop
   quantum mechanics:
-    count: 4
+    count: 5
     title: Quantum Mechanics
   quantum metrology:
     count: 1
@@ -12789,7 +12825,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 3
+    count: 4
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -12816,7 +12852,7 @@ dictitems:
     count: 1
     title: Raw Code
   ray kurzweil:
-    count: 2
+    count: 4
     title: Ray Kurzweil
   rdp:
     count: 1
@@ -13989,7 +14025,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 74
+    count: 75
     title: SEO
   seo blog:
     count: 1
@@ -16067,6 +16103,9 @@ dictitems:
   toyota prius prime:
     count: 1
     title: Toyota Prius Prime
+  tpus:
+    count: 1
+    title: TPUs
   tr1:
     count: 1
     title: TR1
@@ -16568,6 +16607,9 @@ dictitems:
   upload:
     count: 1
     title: upload
+  uploadable:
+    count: 1
+    title: Uploadable
   upper atmosphere:
     count: 1
     title: Upper Atmosphere

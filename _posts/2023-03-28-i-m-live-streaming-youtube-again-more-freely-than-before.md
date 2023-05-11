@@ -4,7 +4,7 @@ title: I'm Live streaming YouTube again More Freely Than Before
 headline: Mastering Cloud Notebook Hosts to Become an Advanced SEO
 description: In this blog post, I discuss the rapidly evolving Bard user interface issues and how they compare to Bing's implementations. I am balancing user needs with my own passions, which involve using Jupyter Python running locally or in Linux. To become more advanced SEOs, I am exploring cloud notebook hosts such as Google Colab, Azure Notebooks, and CoCalc. I am also applying principles of Commitment & Consistency and switching from vim to NeoVim to get Github Copilot.
 keywords: Live streaming, YouTube, Bard, user interface, Bing, Jupyter Python, Linux, Google Colab, Azure Notebooks, CoCalc, Commitment & Consistency, NeoVim, Github Co, Kaggle Kernels, Binder, Robert Cialdini, Influence, git, vim, vi-based platform
-categories: bing, youtube, git, vim, linux
+categories: vim, youtube, bing, git, linux
 permalink: /blog/i-m-live-streaming-youtube-again-more-freely-than-before/
 layout: post
 ---
@@ -240,8 +240,8 @@ carries over to the new vi-based platform.
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
