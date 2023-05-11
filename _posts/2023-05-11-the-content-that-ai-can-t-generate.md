@@ -4,7 +4,7 @@ title: The Content that AI Can't Generate
 headline: "Discovering the Content AI Can't Generate: My Journey to Uncover the Power of the Middle Class"
 description: I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.
 keywords: AI, Writing, Content, OpenAI, SEO, Platforms, Technology, Social Media, Ideas, Relevant, Perspective, Masses, Bots, FOMO, FUD, Tipping Point, Infinite Monkeys, Type-Writers, Shakespeare, Click, Money, Tragedy of the Commons, Honeymoon, Gold Rush, Crypto, AI Bros, Limited Time, Offerings, Wallet, HootSuite, Pipulate, Domain Name, IPVoid, ICANN
-categories: ai, seo, pipulate
+categories: seo, pipulate, ai
 permalink: /blog/the-content-that-ai-can-t-generate/
 layout: post
 ---
@@ -30,15 +30,12 @@ doomscrolling, absorbing the trans-fat saturated sizzle, I was busy cooking
 steak but nobody knew it, until some sort of tipping point?
 
 What if the infinite monkeys tapping away at their type-writers were actually
-real? What if while doomscrollers were gluttonously consuming junkfood, but the
-healthy meal, or at least the ingredients for it, were being seeded and sewn?
-What if nobody knew I was doing this until some sort of... oh I don't know...
-tipping point? 
-
-What if the infinite monkeys tapping away at their type-writers were actually
 real? What if the work they produced, which while most admittedly is not
 Shakespeare, was actually just good enough to get you to click and make
-somebody a little bit of money? 
+somebody a little bit of money?What if while doomscrollers were gluttonously
+consuming junkfood, but the healthy meal, or at least the ingredients for it,
+were being seeded and sewn? What if nobody knew I was doing this until some
+sort of... oh I don't know... tipping point?  
 
 What if the tragedy of the commons has not quite yet ruined it all for everyone
 quite yet because the AI honeymoon isn't over, and there was a frenzied gold
@@ -151,12 +148,18 @@ Carpenter in their animated version of Alice in Wonderland who chases the
 Walrus at the end with a hammer. So you get indentured servitude, serfs and a
 police state. It's just human nature. 
 
-Not everyone is a greedy wretch whose actual value as a human being (i.e. fear
-is their primary motivator) is in inverse proportion to their wealth, but all
-it takes is a few bad players for the distribution of wealth and resources to
-follow the traditional nearly 1/X power-law looking Pareto Principle curve of
-the infinitely few rich vs. the infinity masses of the poor. The foot-on-throat
-kind of dystopias Orwell and Huxley warn us about.
+Not everyone is a greedy wretch unwilling to get past fear as their primary
+motivator. The typical pattern is to mellow a little bit in your old age and do
+some philanthropy foundation thing, that's just because they don't want shitty
+legacies. One of the greatest powers of the underclass is the write the
+epitaphs of the rich. The rich know this. They know they can't take it with
+them and the poor can piss on their graves, so they philanthropize. 
+
+But the damage is done and the bees have a hive. All's left is to run while the
+place takes a dive. All it takes is a few bad players for the distribution of wealth and
+resources to follow the traditional nearly 1/X power-law looking Pareto
+Principle curve of the infinitely few rich vs. The infinity masses of the poor.
+The foot-on-throat kind of dystopias Orwell and Huxley warn us about.
 
 If the unfair wealth distribution of the Pareto effect is just an inevitable
 thing built into human nature, have we any hope? Well of course! The pendulum
@@ -167,11 +170,15 @@ but only if you're also the one who collects the property taxes. Otherwise you
 need wealth-hiding kung fu like the Swiss who have all the money stolen from
 the Jewish people during World War II.
 
-The fortified rich will never give it back and would rather burn it than give
-it back. But can you imagine how such personality-types fear the Carpenters?
-You can't build a wall high enough to keep out the Carpenters. You can't even
-build the wall without the Carpenters. That's why new-age new-money is almost
-always a Carpenter-like tech-entrepreneur.
+The fortified rich will never give it back and would rather see it destroyed.
+Fear is both a valid motivation and the worst for the people around you. Can
+you imagine how such personality-types fear the Carpenters? You can't build a
+wall high enough to keep out the Carpenters. You can't even build the wall
+without the Carpenters. That's why new-age new-money is almost always a
+Carpenter-like tech-entrepreneur. They're Carpenters with hammers. They had the
+wherewithall to seize the means of production and hold onto it for awhile.
+They're normally still starting out from upper-middle-class at least, because
+money pays for opportunity.
 
 Okay, so what's the math of getting the pendulum to swing back? Is it always
 revolution? Is it always Harry Seldon's psychohistory predicting the fall of
@@ -245,6 +252,6 @@ and to be optionally taken away from you at any time.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

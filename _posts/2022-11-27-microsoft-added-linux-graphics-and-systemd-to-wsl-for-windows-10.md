@@ -4,7 +4,7 @@ title: Microsoft Added Linux Graphics and Systemd to WSL for Windows 10
 headline: Exploring the Aftermath of Installing Linux Graphics and Systemd on Windows 10
 description: I recently installed Linux graphics and Systemd on Windows 10, and now I'm exploring the aftermath. I'm researching how to make the vGPU accessible and usable, mapping locations and environment variables, and setting up the WAYLAND_DISPLAY and XDG_RUNTIME_DIR. I'm looking into lxdwin script, Levinux/Getonux projects, and lxc config set to configure the jupyter environment. Join me as I explore the aftermath of this installation!
 keywords: Microsoft, Linux, Graphics, Systemd, WSL, Windows 10, vGPU, Environment Variables, WAYLAND_DISPLAY, XDG_RUNTIME_DIR, lxdwin script, Levinux, Getonux, lxc config set, GitHub, Container, Map, Jupyter Environment, PULSE_SERVER
-categories: systemd, levinux, git, graphic, microsoft, container, linux, wsl
+categories: linux, container, systemd, levinux, microsoft, git, wsl, graphic
 permalink: /blog/microsoft-added-linux-graphics-and-systemd-to-wsl-for-windows-10/
 layout: post
 ---
@@ -120,11 +120,11 @@ into install.sh.
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>
