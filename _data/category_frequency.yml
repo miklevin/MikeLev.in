@@ -1787,6 +1787,9 @@ dictitems:
   blind sp:
     count: 1
     title: Blind Sp
+  blinkist:
+    count: 1
+    title: Blinkist
   block select:
     count: 1
     title: Block Select
@@ -1902,7 +1905,7 @@ dictitems:
     count: 1
     title: Bosons
   bot:
-    count: 1
+    count: 2
     title: Bots
   bottom:
     count: 1
@@ -2766,8 +2769,8 @@ dictitems:
     count: 1
     title: Combining Like Terms
   comic:
-    count: 1
-    title: comics
+    count: 2
+    title: Comics
   comic books:
     count: 1
     title: Comic Books
@@ -3462,7 +3465,7 @@ dictitems:
     count: 1
     title: Cultural Diffusion
   culture:
-    count: 4
+    count: 5
     title: Culture
   culture series:
     count: 2
@@ -4757,6 +4760,9 @@ dictitems:
   ellipsis link:
     count: 1
     title: Ellipsis Link
+  elon:
+    count: 1
+    title: Elon
   elon musk:
     count: 1
     title: Elon Musk
@@ -4949,6 +4955,9 @@ dictitems:
   entrepreneur:
     count: 1
     title: Entrepreneur
+  entrepreneurial:
+    count: 1
+    title: Entrepreneurial
   entropy:
     count: 2
     title: Entropy
@@ -5307,7 +5316,7 @@ dictitems:
     count: 1
     title: Extraterrestrial Vehicles
   facebook:
-    count: 1
+    count: 2
     title: Facebook
   facility:
     count: 1
@@ -6542,6 +6551,9 @@ dictitems:
   graphic design:
     count: 1
     title: Graphic Design
+  graphic novel:
+    count: 1
+    title: Graphic Novel
   grateful:
     count: 1
     title: Grateful
@@ -6731,6 +6743,9 @@ dictitems:
   harriet martineau:
     count: 1
     title: Harriet Martineau
+  harry potter:
+    count: 1
+    title: Harry Potter
   harvard:
     count: 1
     title: Harvard
@@ -7175,6 +7190,9 @@ dictitems:
   hypothesis:
     count: 4
     title: Hypothesis
+  iain m. banks:
+    count: 1
+    title: Iain M. Banks
   ian m. banks:
     count: 2
     title: Ian M. Banks
@@ -7436,6 +7454,9 @@ dictitems:
   infinity:
     count: 2
     title: Infinity
+  infinity gauntlet:
+    count: 1
+    title: Infinity Gauntlet
   inflation:
     count: 1
     title: Inflation
@@ -8370,7 +8391,7 @@ dictitems:
     count: 1
     title: Land Lords
   language:
-    count: 11
+    count: 12
     title: Language
   language arts:
     count: 1
@@ -9482,6 +9503,9 @@ dictitems:
   martin richards:
     count: 1
     title: Martin Richards
+  marvel:
+    count: 1
+    title: Marvel
   mary anning:
     count: 1
     title: Mary Anning
@@ -9743,6 +9767,9 @@ dictitems:
   metaphor:
     count: 3
     title: Metaphors
+  metas:
+    count: 1
+    title: Metas
   metasurface:
     count: 1
     title: Metasurface
@@ -10250,6 +10277,9 @@ dictitems:
   musician:
     count: 1
     title: Musicians
+  musk:
+    count: 1
+    title: Musk
   mutabledocument:
     count: 1
     title: MutableDocument
@@ -10451,6 +10481,9 @@ dictitems:
   neovim:
     count: 25
     title: NeoVim
+  nerd:
+    count: 1
+    title: Nerd
   nerve:
     count: 1
     title: Nerves
@@ -10496,6 +10529,9 @@ dictitems:
   neural node:
     count: 1
     title: Neural Node
+  neuralink:
+    count: 1
+    title: Neuralink
   neutralize:
     count: 1
     title: Neutralize
@@ -10541,6 +10577,9 @@ dictitems:
   new york seo:
     count: 1
     title: New York SEO
+  new york tech meetup:
+    count: 1
+    title: New York Tech Meetup
   new zealand:
     count: 1
     title: New Zealand
@@ -11783,6 +11822,9 @@ dictitems:
   poetry:
     count: 5
     title: Poetry
+  pokemon:
+    count: 1
+    title: Pokemon
   polar bear:
     count: 1
     title: Polar Bear
@@ -11828,6 +11870,9 @@ dictitems:
   popcultfallacy:
     count: 1
     title: Popcultfallacy
+  popculture:
+    count: 1
+    title: Popculture
   popen:
     count: 1
     title: Popen
@@ -12404,6 +12449,9 @@ dictitems:
   pulling:
     count: 1
     title: pulling
+  pulp:
+    count: 1
+    title: Pulp
   pulse count:
     count: 1
     title: Pulse Count
@@ -12780,7 +12828,7 @@ dictitems:
     count: 1
     title: RAID
   rainbows end:
-    count: 1
+    count: 2
     title: Rainbows End
   ram:
     count: 1
@@ -12986,6 +13034,9 @@ dictitems:
   red hat:
     count: 1
     title: Red Hat
+  red herrings:
+    count: 1
+    title: Red Herrings
   red onion:
     count: 1
     title: Red Onion
@@ -13721,6 +13772,9 @@ dictitems:
   scheduling:
     count: 6
     title: Scheduling
+  schema:
+    count: 1
+    title: Schema
   schizophrenia:
     count: 1
     title: schizophrenia
@@ -13736,6 +13790,9 @@ dictitems:
   schwinger effect:
     count: 3
     title: Schwinger Effect
+  sci-fi:
+    count: 1
+    title: Sci-Fi
   science:
     count: 8
     title: Science
@@ -14049,7 +14106,7 @@ dictitems:
     count: 1
     title: SEOptimer
   seos:
-    count: 2
+    count: 3
     title: SEOs
   separate:
     count: 2
@@ -14945,6 +15002,9 @@ dictitems:
   startup:
     count: 1
     title: Startup
+  startup bro culture:
+    count: 1
+    title: Startup Bro Culture
   stat:
     count: 1
     title: Stat
@@ -15159,7 +15219,7 @@ dictitems:
     count: 1
     title: strive
   structure:
-    count: 3
+    count: 4
     title: Structure
   structured graphics:
     count: 1
@@ -15398,6 +15458,9 @@ dictitems:
   surf straight through:
     count: 1
     title: Surf Straight Through
+  surface detail:
+    count: 1
+    title: Surface Detail
   surprise:
     count: 2
     title: Surprise
@@ -15842,6 +15905,9 @@ dictitems:
   thanksgiving:
     count: 1
     title: Thanksgiving
+  thanos:
+    count: 1
+    title: Thanos
   the breakfast club:
     count: 1
     title: The Breakfast Club
@@ -16451,6 +16517,9 @@ dictitems:
   understanding:
     count: 3
     title: Understanding
+  undertone:
+    count: 1
+    title: Undertones
   undiscovered:
     count: 1
     title: Undiscovered
@@ -16782,7 +16851,7 @@ dictitems:
     count: 1
     title: Verbs
   vernor vinge:
-    count: 1
+    count: 2
     title: Vernor Vinge
   versatile:
     count: 1
@@ -17708,6 +17777,9 @@ dictitems:
   zoo:
     count: 1
     title: Zoo
+  zucker:
+    count: 1
+    title: Zucker
   ~/.jupyter:
     count: 1
     title: ~/.jupyter
