@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: youtube, ai, vim, seo, marketing
+categories: seo, ai, youtube, vim, marketing
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -26,22 +26,36 @@ being a purple unicorn.
 
 Two roads diverge in the woods, and everything else being equal we paraphrase
 something Copilot can't even figure out, haha! I'm having a good time seeing
-what's statistically going to be written next and contradicting it. I often
-encounter people whose main interpersonal authority asserting tactic is instant
-contraction. Make people get into the habit of hearing whatever you say
-questioned, and they will be Pavlovian conditioned to automatically be
-suspicious of anything you say. Those people are scared of purple unicorns will
-try to kill them on the vine, such as it were. Like how new the new king of a
-lion pride will kill the old one's cubs to knock off potential competitors.
+what's statistically going to be written next and contradicting it. I sometimes
+encounter people whose main interpersonal authority asserting tactic is a
+similar kind of constant contradiction. That was my life at Scala, haha! 
 
-And so Github Copilot has completely given up on even proving autosuggest. Do
-so few others really have my patterns? And no, I've check and I have not
-disabled it. Copilot is enabled. It just doesn't have anything to say. This
-Rick is off the Central Finite Curve, which I always thought was some sort of
-centerline of the average distribution curve, but turns out to be something
-else, but I can't break the habit of thinking the Rickest Rick is the one at
-the top of a bell-shaped curve where the inflection point occurs, because that
-is the only point where there is not a symmetrically opposite Rick. Clear?
+I knew a master of this passive aggressive tactic who got people into the habit
+of hearing whatever I said questioned. They were Pavlovian conditioning others
+in the company to automatically be suspicious of anything out of my mouth. I
+had to make the power of my unbreakable system and steady flow of sales-leads
+it generated speak for itself. Contradicting the truth of money was getting him
+in trouble, until finally I remember when I was getting ready to move onto my
+NYC opportunity and goodbyes were being said as a group, he started saying some
+such nonsense and then trailed off as if suddenly the emperor had no clothes.
+It took me being hired off by someone else to finally break him of the habit.
+Sad, but good life lessons.
+
+Such lion-king wannabes are scared of purple unicorns will try to kill them on
+the vine, such as it were. Like how new the new king of a lion pride will kill
+the old one's cubs to knock off potential competitors. The Sci-Fi book Ender's
+Game comes to mind, but Ender had to kill his bully. Luckily, I was able to
+just moved to New York City where I was hired as a vice president.
+
+And so Github Copilot has completely given up on even proving autosuggest. Are
+my words really so unusual? Do so few others really have my patterns? And no,
+I've check and I have not disabled it. Copilot is enabled. It just doesn't have
+anything to say. This Rick is off the Central Finite Curve, which I always
+thought was some sort of centerline of the average distribution curve, but
+turns out to be something else, but I can't break the habit of thinking the
+Rickest Rick is the one at the top of a bell-shaped curve where the inflection
+point occurs, because that is the only point where there is not a symmetrically
+opposite Rick. Clear?
 
 Yeah, Copilot does not have an easy time with me. I think this bodes well with
 this particular academic exercise I'm carrying out. Whereas my illustrious SEO
@@ -102,8 +116,8 @@ Mad Hatter's tea party, by the way. Alice is a very rude girl.
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
