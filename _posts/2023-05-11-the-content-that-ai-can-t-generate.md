@@ -4,7 +4,7 @@ title: The Content that AI Can't Generate
 headline: "Discovering the Content AI Can't Generate: My Journey to Uncover the Power of the Middle Class"
 description: I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.
 keywords: AI, Writing, Content, OpenAI, SEO, Platforms, Technology, Social Media, Ideas, Relevant, Perspective, Masses, Bots, FOMO, FUD, Tipping Point, Infinite Monkeys, Type-Writers, Shakespeare, Click, Money, Tragedy of the Commons, Honeymoon, Gold Rush, Crypto, AI Bros, Limited Time, Offerings, Wallet, HootSuite, Pipulate, Domain Name, IPVoid, ICANN
-categories: seo, pipulate, ai
+categories: pipulate, seo, ai
 permalink: /blog/the-content-that-ai-can-t-generate/
 layout: post
 ---
@@ -183,25 +183,38 @@ money pays for opportunity.
 Okay, so what's the math of getting the pendulum to swing back? Is it always
 revolution? Is it always Harry Seldon's psychohistory predicting the fall of
 the Galactic Empire? Is it always the 99% rising up? The math that opposes the
-Pareto Principle is Zipf's Law. Where the Pareto Principle is closely resembles
-the 1/X power-law, aka the "long-tail", Zipf's Law is the 1/X^2 power-law. That
-2nd power means there's an inflection-point. There's a bell-curve. There's a
-normal distribution and a symmetry favoring the middle-class.
+Pareto Principle is Zipf's Law, or the 80/20 rule. Where the Pareto Principle
+is closely resembles the 1/X power-law, aka the "long-tail", Zipf's Law is the
+1/X^2 power-law, or diminishing returns. You can only be so rich for it to have
+make a meaningful difference in your life. You can only be so poor before you
+die. The middle-class is the sweet spot. The middle-class is the 80% of the
+population in the sense that bank accounts aside, they're the ones who have
+enough to eat and a roof over their heads and much of Maslow's Hierarchy of
+Needs.
 
-Hobnail boots going up and silk slippers going down. You've got to achieve
-pretty big to have a Vatican City or Buckingham Palace. Everybody else can be
-shoved down into the trenches pretty easily. Instead of the natural
+The population is usually mostly starving. The middle-class is a fluke of
+history, but one worth protecting. It's like a higher-order product of social
+evolution, the way not all reptiles are predators. Some tortoise are
+vegetarians. Outliers are valuable and the things that made them come into
+existence are worth identifying and doing more of.
+
+First we had the French Bourgeoisie, then we had the American Dream. The
+American Dream is the middle-class. It's the ones duped into thinking they can
+be the 1%. Every home is a castle, a chicken in every pot and a car in every
+garage. A direct effect of The New Deal as a response first to the Great
+Depression and then to World War II. Fear. Factories with excess capacity.
+Returning soldiers. The GI Bill. The Baby Boom. The middle-class. Over-extended
+credit. Not the most sustainable route to a middle-class.
+
+Hobnail boots going up and silk slippers going down, that's the expression. The
+immigrant generation works hard, lives 20 to a house, pools its resources,
+opens a business, builds it up, then the kids drive it out of business because
+they're not imbued with the same qualities as 1st-generationers. You've got to
+achieve pretty big to have a Vatican City or Buckingham Palace. Everybody else
+can be shoved down into the trenches pretty easily. Instead of the natural
 back-and-forth oscillation of the haves and have-nots over that 80-year period,
 you pool all your walrus resources to ensure your long-term supply of oysters
 and create a permanent underclass.
-
-The middle-class is a fluke of history. First we had the French Bourgeoisie,
-then we had the American Dream. The American Dream is the middle-class. It's
-the ones duped into thinking they can be the 1%. Every home is a castle, a
-chicken in every pot and a car in every garage. A direct effect of The New Deal
-as a response first to the Great Depression and then to World War II. Fear.
-Factories with excess capacity. Returning soldiers. The GI Bill. The Baby 
-Boom. The middle-class. Over-extended credit.
 
 So what now? Be the hammer-equipped Carpenter, even if you never use it for
 social justice. Be the middle-class by having the skills the 1% need to
@@ -252,6 +265,6 @@ and to be optionally taken away from you at any time.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>
