@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: static site generator, jekyll, wordpress, seo, git, yaml, ai
+categories: git, ai, seo, yaml, static site generator, jekyll, wordpress
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -111,7 +111,7 @@ quietly sitting there, would you?
 If we are eternal souls learning some lesson or other while wearing these
 mortal coils, then you'll be all the better off anyway with this sort of
 thinking. Nothing to lose but misery, right? Oh you like misery. Well, my stuff
-rsn't for everyone. 
+isn't for everyone. 
 
 If life is "meaningless" such as that say, then most certainly it's not
 actually really meaningless merely based on the sheer mathematical
@@ -138,9 +138,15 @@ non falsifiable&#151;you can't prove Bigfoot exists is proof that he does,
 right? That's the pessimist's argument. We're still here. That's falsifiable.
 Optimists have science on their side.
 
-What random improbabilities are we? Angels or not, meaning can be ascribed by
-us in our lifetimes and here in this local space that defies the boundaries of
-the game. 
+What random improbabilities are we? Metaphysics or not, meaning can be (should
+be?) ascribed by us in our lifetimes, and right here in this ***local space***
+we all occupy which defies the ***boundaries*** of the game. Simulation
+hypothesis or not, it doesn't matter. Say realities are nested infinitely deep
+and we're somewhere in a cosmic fractal hierarchy, still doesn't matter. It
+means everyone's got the scale problem, and what statistics and the actually
+falsifiable scientific facts tells us is that we're still pretty rare (and
+thereby precious and valuable) even if it's our own little corner of the
+Mandelbrotiverse.
 
 Even if there's no judgement day a comin, if legacy, history and eternity is
 your thing, all the better because eternity. Start loading up your meme torpedo
@@ -319,10 +325,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
