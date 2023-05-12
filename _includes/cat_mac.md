@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)
+<br/>I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
 <br/>Learn how to use Linux, Python, vim & git (LPvg) to stay up-to-date with the latest technologies. Follow the Unix philosophies to make sure your commands are universal and portable. Read about Levinux, Pipulate, and how to use them to make SEO deliverables. Plus, discover how to write from the first person perspective, keep your content short, and link your homepage index.md to the new include.</li>
 <li><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a> (Sat Apr 08, 2023)

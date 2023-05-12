@@ -91,4 +91,4 @@ Did the live-cast.
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li></ul>
+<li><h4><a href='/dependency/'>Dependency</a></h4></li></ul>

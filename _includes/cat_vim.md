@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)
+<br/>I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.</li>
 <li><a href="/blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/">Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces</a> (Mon May 08, 2023)
 <br/>Learn how to use RegEx in NeoVim to format Markdown quotes with 2 trailing spaces. I describe the process of using Vim commands to back up my journal and the paradigm of writing and editing text with vi/vim/NeoVim. I also discuss my journey with the Midjourney AI, including the Microsoft Store installation, the paid account link, and the documentation link.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a> (Wed May 03, 2023)

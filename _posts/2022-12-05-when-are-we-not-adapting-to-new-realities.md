@@ -46,5 +46,5 @@ Everyone with an alternative to local Jupyter
 
 <ul>
 <li><h4><a href='/vendor/'>Vendors</a></h4></li>
-<li><h4><a href='/dependency/'>Dependencies</a></h4></li>
+<li><h4><a href='/dependency/'>Dependency</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

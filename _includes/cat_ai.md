@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)
+<br/>I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.</li>
 <li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)
 <br/>I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.</li>
 <li><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a> (Thu May 11, 2023)
