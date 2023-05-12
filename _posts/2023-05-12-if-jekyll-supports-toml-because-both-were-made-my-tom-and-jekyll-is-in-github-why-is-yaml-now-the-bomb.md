@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: wordpress, ai, jekyll, git, seo, static site generator, yaml
+categories: yaml, git, ai, seo, static site generator, jekyll, wordpress
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -76,22 +76,35 @@ believe, is the kind of stuff you'll just never know in this life, period,
 zilch. That's just the nature of the game. Enlightened swami guru woohoo don't
 know any more than you. They've just got opinions. 
 
-If the whole immortal soul thing, if true, you may "know" later and can worry
-about it then. If not, it's all the more amazing we exist and let's explore
-that a bit too. Either way it  rocks my socks. How similar reasoning leads some
-to nhilism and despair may be one of my things to answer, perchance offering a
-few tools to cope with or.  
+If the whole immortal soul thing is true, you'll find out later and can worry
+about it then. Or don't worry, if you've taken my advice because you should
+live the same way in life either way. If there's no immortal soul, then it's
+even it's all the more amazing that we're here, and you're here reading this.
 
-Funks are something to force yourself to get over with a shift in environment,
-leading to a shift in daily behavior, leading to a shift in habits, leading to
-a shift in perspective leading to more of the yummy neurotransmitters
-saturation your body that will make you live longer and die with fewer regrets:
-angels and demons or not. 
+The fact that similar reasoning leads some folks to nihilism and despair may be
+one of my things I have to contribute to the experience of others during my
+turn here. My purpose. My passion. SEO is a means to an end. This end. This and
+chatting with... oh, I'm getting ahead of myself again.
 
-What funks aren't is something to wallow in for an excessively long amount of
-time. If you do, you've really just fallen in love with the wrong
-neurotransmitter chemicals, the shitty ones you get from reading too much
-Friedrich Nietzsche. It's going to cause stress and shorten the miraculous
+Those nihilistic funks that sap the life out of us while we doomscroll are
+something to force yourself to get over, first with a shift in environment,
+which then leads to a shift in daily behavior, which leads to a shift in
+habits, which leads to a shift in perspective leading to more of the yummy
+neurotransmitters saturation your body that will make you live longer and die
+with fewer regrets: angels and demons or not. 
+
+It's that easy, folks. Start by changing your environment. Too hard? Okay, get
+yourself a cheap little laptop. One screen. After your first download, ongoing
+internet connection optional. That's your environment. That's your tool for
+affecting positive change in your life. Your funk will momentarily go deeper,
+but have faith. Stick with the plan I'm about to lay out.
+
+If you're in the funk, this is particularly important because externally
+induced depressed states aren't something to let yourself wallow in for an
+excessively long amount of time, no matter how reverse-good it may feel (I'm
+talking to you, goths). If you do, you've really just fallen in love with the
+wrong neurotransmitter chemicals, the shitty ones you get from reading too much
+Friedrich Nietzsche. They're going to cause stress and shorten the miraculous
 chemical reaction that is you. If you could enjoy life more, even just from
 quietly sitting there, would you?
 
@@ -294,10 +307,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
