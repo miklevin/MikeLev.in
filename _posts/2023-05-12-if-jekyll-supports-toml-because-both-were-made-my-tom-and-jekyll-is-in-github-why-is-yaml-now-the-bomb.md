@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: seo, git, yaml, static site generator, wordpress, jekyll, ai
+categories: static site generator, seo, jekyll, yaml, wordpress, ai, git
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -78,8 +78,13 @@ know any more than you. They've just got opinions.
 
 If the whole immortal soul thing is true, you'll find out later and can worry
 about it then. Or don't worry, if you've taken my advice because you should
-live the same way in life either way. If there's no immortal soul, then it's
-even it's all the more amazing that we're here, and you're here reading this.
+live the same way either way. If there's no immortal soul, then it's all the
+more amazing that we're here, and you're here reading this. All that is mundane
+in life is actually a miracle of the highest order.
+
+For some this will be a source of renewed energy. For others it will just be
+more anxiety and stress, I know. Once you've made up your mind to think about
+something a certain way, it's hard to change. Maybe journaling can help.
 
 The fact that similar reasoning leads some folks to nihilism and despair may be
 one of my things I have to contribute to the experience of others during my
@@ -362,10 +367,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
