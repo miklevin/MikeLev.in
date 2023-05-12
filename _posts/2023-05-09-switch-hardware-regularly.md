@@ -4,7 +4,7 @@ title: Switch Hardware Regularly
 headline: Discovering the Benefits of Switching Hardware Regularly and Exploring the City on a Spring Fling!
 description: This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.
 keywords: Murphy's Law, OpenAI, Python, Encoding Issues, Venn-nvim Diagrams, Switch Hardware Regularly, One Monitor, Virtual Desktops, Feedback Loop, Rabbit Holes, Iterating, Love and Intensity, Roller Coaster, Differentiation, Dependency Injection, Interchangeable, Natural Sequences, GPT-like Model, Custom-trained, SEO, MOZ, Spring Fling, City, Driving, Walk, Ferry
-categories: seo, ai, rabbit holes, python
+categories: ai, python, rabbit holes, seo
 permalink: /blog/switch-hardware-regularly/
 layout: post
 ---
@@ -85,7 +85,7 @@ Now off to the company's spring fling! Going to the city.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/rabbit-holes/'>Rabbit Holes</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

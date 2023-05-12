@@ -4,7 +4,7 @@ title: Are You Jacked Into the Metaverse or Living in Flatland?
 headline: I'm Doing the Right Things for the Right Reasons - Rekindling My Interest in Technology with the Right Spark
 description: I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.
 keywords: PC modding, LAN parties, Snow Crash, Microsoft, Visual Studio, VSCode, VSCodium, Chrome, Chromium, Carl Jung, Rebound Psychiatry, Middle East, Jew, AI, Jun, Shadow-dude, Claw, Intellisense, Copilot, NeoVim, Vim, Mac, Microsoft Edge, Azure, Dependency, Open Mind, Netscape, WordPerfect, Borland, Muscle Memory, Zone, Platform, Plugins, Noah's Ark
-categories: mac, ai, muscle memory, vim, dependency, microsoft
+categories: dependency, ai, muscle memory, mac, vim, microsoft
 permalink: /blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/
 layout: post
 ---
@@ -48,9 +48,10 @@ Jew. I was seeking to understand this gentlemen, and I suddenly did.
 
 Sometimes a light goes on in your head and you finally see what was previously
 in the dark. Everything is actually a lot different than you thought. Simpler,
-in a way. I mean I'm all for Jun's inner-world and that shadow-dude and all,
-but sometimes their shadows and your shadows, well let's say they shouldn't be
-meeting in a back ally.
+in a way. I mean I'm all for getting to know Jung's inner-world and the
+shadow-self dude as the you that you don't like about yourself, but sometimes
+***their shadows*** and ***your shadows*** recognize each other and... well,
+let's just say you don't want them meeting in dark ally.
 
 Slowly back away. Find a door. Run, Forrest, run! Don't look back.
 
@@ -186,9 +187,9 @@ spark.
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/dependency/'>Dependency</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/dependency/'>Dependency</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
