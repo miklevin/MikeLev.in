@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: yaml, git, wordpress, seo, static site generator, jekyll, ai
+categories: jekyll, ai, git, static site generator, yaml, wordpress, seo
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -54,11 +54,10 @@ name and logo it's given. You know, like Levinux. Or Pipulate. Or the one what
 I discuss here: YAMLchop.
 
 If you like this sort of nonsense, read on. For the pragmatic hard nosed SEOs
-who want to hear more about an OpenAI WordPress spam-cannon plugin is a better
-thing, I both honk your nose and offer up [this
-video](https://www.youtube.com/watch?v=kYCpDekUFvk&t=263s) and [this
-video](https://www.youtube.com/watch?v=hPY6w4YnlaI). Their pitches are better
-than mine and quite the spammy mainstream. 
+who want to hear more about an OpenAI WordPress spam-cannon plugins, I humbly
+offer up [this video](https://www.youtube.com/watch?v=kYCpDekUFvk&t=263s) and
+[this video](https://www.youtube.com/watch?v=hPY6w4YnlaI), immediately
+following honking your nose.
 
 Still with me? Okay, good start. 
 
@@ -352,10 +351,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
