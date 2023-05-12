@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: jekyll, ai, git, wordpress, static site generator, yaml, seo
+categories: wordpress, git, jekyll, ai, static site generator, yaml, seo
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -118,8 +118,9 @@ actually really meaningless merely based on the sheer mathematical
 improbability of of it all, because smell those flowers, wow! Is winning a
 1-in-an infinity-minus-one jackpot meaningless? It's not all misery I tell you.
 Get off that horse. That's mind-manipulating media talking, not your true inner
-feelings nor what you want to believe. We wouldn't still be here otherwise.
-Fortify your brain against that shit. 
+feelings nor what you want to believe, nor the way people think who make a
+positive difference. We wouldn't still be here otherwise. Fortify your brain
+against that shit. 
 
 One of the only objective facts you will ever know is that we optimists are the
 only ones with hard-and-fast proof on your side. Every argument a pessimist
@@ -352,10 +353,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>
