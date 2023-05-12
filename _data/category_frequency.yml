@@ -392,6 +392,9 @@ dictitems:
   '80':
     count: 2
     title: 80s
+  80 hyphens:
+    count: 1
+    title: 80 Hyphens
   80-hyphens:
     count: 1
     title: 80-hyphens
@@ -746,6 +749,9 @@ dictitems:
   ai solutions:
     count: 1
     title: AI Solutions
+  ai system:
+    count: 1
+    title: AI System
   ai writing:
     count: 1
     title: AI Writing
@@ -816,7 +822,7 @@ dictitems:
     count: 2
     title: Alice in Wonderland
   alice's adventures in wonderland:
-    count: 1
+    count: 2
     title: Alice's Adventures in Wonderland
   alien:
     count: 3
@@ -1004,6 +1010,9 @@ dictitems:
   anti-narcissism:
     count: 1
     title: Anti-Narcissism
+  anti-patterns:
+    count: 1
+    title: Anti-Patterns
   antigravity:
     count: 2
     title: Antigravity
@@ -3770,6 +3779,9 @@ dictitems:
   dateutil:
     count: 1
     title: dateutil
+  dawkins:
+    count: 1
+    title: Dawkins
   day job:
     count: 2
     title: Day Job
@@ -6258,7 +6270,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 43
+    count: 44
     title: Github
   github actions:
     count: 1
@@ -6822,7 +6834,7 @@ dictitems:
     count: 1
     title: Headless Mode
   headline:
-    count: 11
+    count: 12
     title: Headlines
   headline/subhead:
     count: 1
@@ -7943,8 +7955,11 @@ dictitems:
   jealousy:
     count: 1
     title: Jealousy
+  jeff atwood:
+    count: 1
+    title: Jeff Atwood
   jekyll:
-    count: 45
+    count: 46
     title: Jekyll
   jekyll blog:
     count: 1
@@ -8000,6 +8015,9 @@ dictitems:
   job role:
     count: 1
     title: job role
+  joel spolsky:
+    count: 1
+    title: Joel Spolsky
   john a. wheeler:
     count: 1
     title: John A. Wheeler
@@ -8306,6 +8324,9 @@ dictitems:
   keywords:
     count: 12
     title: Keywords
+  keywords,:
+    count: 1
+    title: Keywords,
   khan academy:
     count: 1
     title: Khan Academy
@@ -8538,7 +8559,7 @@ dictitems:
     count: 1
     title: Learned
   learning:
-    count: 13
+    count: 14
     title: Learning
   learning apis:
     count: 1
@@ -8868,7 +8889,7 @@ dictitems:
     count: 1
     title: Lise Meitner
   lisp:
-    count: 4
+    count: 5
     title: LISP
   list:
     count: 16
@@ -9501,7 +9522,7 @@ dictitems:
     count: 1
     title: Marine
   markdown:
-    count: 30
+    count: 31
     title: Markdown
   markdown file:
     count: 2
@@ -9719,6 +9740,9 @@ dictitems:
   meissner effect:
     count: 2
     title: Meissner Effect
+  meme:
+    count: 1
+    title: Memes
   memetic hacking:
     count: 1
     title: Memetic Hacking
@@ -10511,6 +10535,9 @@ dictitems:
   neil patel:
     count: 1
     title: Neil Patel
+  neil stevenson:
+    count: 1
+    title: Neil Stevenson
   neo-bat armor:
     count: 1
     title: neo-bat armor
@@ -11037,7 +11064,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 34
+    count: 35
     title: OpenAI
   openai api:
     count: 2
@@ -11838,7 +11865,7 @@ dictitems:
     count: 1
     title: Plug-in
   plugin:
-    count: 2
+    count: 3
     title: Plugin
   plugin system:
     count: 1
@@ -13421,6 +13448,9 @@ dictitems:
   restriction:
     count: 1
     title: Restriction
+  restructuredtext:
+    count: 1
+    title: reStructuredText
   restructuring:
     count: 1
     title: Restructuring
@@ -14081,6 +14111,9 @@ dictitems:
   self-therapy:
     count: 2
     title: Self-Therapy
+  selfish gene:
+    count: 1
+    title: Selfish Gene
   selling the dream:
     count: 1
     title: Selling The Dream
@@ -14127,7 +14160,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 76
+    count: 77
     title: SEO
   seo blog:
     count: 1
@@ -14646,7 +14679,7 @@ dictitems:
     count: 1
     title: Snow
   snow crash:
-    count: 1
+    count: 2
     title: Snow Crash
   snowball effect:
     count: 1
@@ -14798,6 +14831,9 @@ dictitems:
   spam score:
     count: 1
     title: Spam Score
+  spam-cannon:
+    count: 1
+    title: Spam-Cannon
   spamming:
     count: 2
     title: Spamming
@@ -15075,7 +15111,7 @@ dictitems:
     count: 1
     title: Static Environments
   static site generator:
-    count: 8
+    count: 9
     title: Static Site Generator
   static site generators:
     count: 2
@@ -15434,6 +15470,9 @@ dictitems:
   summarize:
     count: 2
     title: Summarize
+  summarized description:
+    count: 1
+    title: Summarized Description
   summarizing:
     count: 3
     title: Summarizing
@@ -16140,7 +16179,7 @@ dictitems:
     count: 1
     title: Tokenizing
   toml:
-    count: 1
+    count: 2
     title: TOML
   tomorrow's world:
     count: 1
@@ -17577,7 +17616,7 @@ dictitems:
     count: 1
     title: WordPerfect
   wordpress:
-    count: 6
+    count: 7
     title: WordPress
   wordpress plugin:
     count: 1
@@ -17733,7 +17772,7 @@ dictitems:
     count: 2
     title: Yake
   yaml:
-    count: 16
+    count: 17
     title: YAML
   yaml ain't markup language:
     count: 1

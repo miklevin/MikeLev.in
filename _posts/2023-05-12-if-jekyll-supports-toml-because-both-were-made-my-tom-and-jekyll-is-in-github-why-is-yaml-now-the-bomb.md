@@ -1,0 +1,295 @@
+---
+date: 2023-05-12
+title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?
+headline: Discover How I Improved My Life with a Single Text-file Journal
+description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
+keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
+categories: ai, git, jekyll, static site generator, wordpress, seo, yaml
+permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
+layout: post
+---
+
+
+Welcome to the first day of your life. This is the day you start keeping your
+digital eternal journal. Actually, this is just an experimental draft where I
+play with ideas and expose them to a very exclusive few who know it exists,
+because I'm an SEO practicing anti-patterns, perchance to learn something new. 
+
+Though I will shortly speak in this post of the best SEO who ever lived.
+
+And if you need an example for your people of sample content that an AI could
+never produce (from scratch) on its own, bookmark this page, cause it's a
+doozy. The rough draft of what I have in mind as my "seminal work" the way Jeff
+and Joel and the others I talk about in this post had theirs.
+
+Let's get stared. 
+
+Sticks and stones can break your bones but words have way more power. Do you
+feel the truth of that? It has to do with the fleeting nature of the
+arrangement of atoms (sticks and stones), but the potentially eternal nature of
+data and information, I.e. words.
+
+Coming to grips with this fact and using it to your advantage will improve your
+life starting this very instant—specifically, by helping you see that keeping a
+single text-file as a journal for life (which can optimally double for blogging
+software) is step-1 in transmitting your message forward in time, resonating,
+amplifying, propagating to your audience, to your customers, to your children,
+to your future AI overloads, and onto its ultimate...
+
+We'll, I get ahead of myself. Rein it in, Mike. Rein it in or they won't give
+you past next January. I know that and it's okay if I let them know that I
+know. The good news is the fruits of these experiments is already paying off,
+and it's not the kind of stuff you're going g to get from anywhere else,
+period. I guarantee that an AI can't (yet) do what I'm about to show you. 
+
+If you like this sort of nonsense, read on. For the pragmatic hard nosed SEOs
+ready with a put-down and 1000 reasons why a an OpenAI WordPress spam-cannon
+plugin is a better thing to spend your learning-time on, I honk your nose!
+
+Still with me? Okay, good start. 
+
+Here is the rule of reading further: Language is stupid, and labels often lie.
+So layer-on the lyrics because meaning will emerge. Pedantic put-downs parsing
+is not something to encourage.
+
+Preemptive put-downs of perfectly fine ideas are gross simplifications of a
+much deeper realities that could change things quick in a way gatekeepimg
+defenders of the status quo aren't necessarily happy about, even if it's for
+their own good given the direction things are going from a less subjective
+viewpoint.  
+
+Cue the whacky!
+
+We mortal beings with our short lives and limited senses will never have access
+to the objective reality, or the truth of it all. Whether or not we are some
+eternal beings who just happen to be in a mortal form, perhaps to answer
+questions, have experiences, refine and shape our soul or whatnot as many folks
+believe, is the kind of stuff you'll just never know in this life, period,
+zilch. That's just the nature of the game. Enlightened swami guru woohoo don't
+know any more than you. They've just got opinions. 
+
+If the whole immortal soul thing, if true, you may "know" later and can worry
+about it then. If not, it's all the more amazing we exist and let's explore
+that a bit too. Either way it  rocks my socks. How similar reasoning leads some
+to nhilism and despair may be one of my things to answer, perchance offering a
+few tools to cope with or.  
+
+Funks are something to force yourself to get over with a shift in environment,
+leading to a shift in daily behavior, leading to a shift in habits, leading to
+a shift in perspective leading to more of the yummy neurotransmitters
+saturation your body that will make you live longer and die with fewer regrets:
+angels and demons or not. 
+
+What funks aren't is something to wallow in for an excessively long amount of
+time. If you do, you've really just fallen in love with the wrong
+neurotransmitter chemicals, the shitty ones you get from reading too much
+Friedrich Nietzsche. It's going to cause stress and shorten the miraculous
+chemical reaction that is you. If you could enjoy life more, even just from
+quietly sitting there, would you?
+
+If we are eternal souls learning some lesson or other while we're here on this
+mortal coil, then you'll be all the better off anyway with this sort of
+thinking. Nothing to lose but misery, right? Oh you like misery. Well, my stuff
+isn't for everyone. 
+
+If life is "meaningless" such as that say, then most certainly it's not
+actually really meaningless merely based on the sheer mathematical
+improbability of of it all, because smell those flowers, wow! Is winning a
+1-in-an infinity-minus-one jackpot meaningless? It's not all misery I tell you.
+Get off that horse. That's mind-manipulating media talking, not your true inner
+feelings nor what you want to believe. We wouldn't still be here otherwise.
+Fortify your brain against that shit. 
+
+One of the only objective prices of information you will ever know is that we
+optimists have the proof of our existence on our side. Every argument a
+pessimist will ever make is speculation, what-if scenarios that show you the
+fearful place from which they find their motivation (or lack thereof).
+
+What random improbabilities are we? Angels or not, meaning can be ascribed by
+us in our lifetimes and here in this local space that defies the boundaries of
+the game. 
+
+Even if there's no judgement day a comin, if legacy, history and eternity is
+your thing, all the better because eternity. Start loading up your meme torpedo
+to shoot off into the future. If the Asimov's and Musks of the world manage to
+get us off the planet, spreading our biology and intelligence, stuff you do
+today could still echo and reverberate through eternity, no God necessary. 
+
+Blessed if you do, blessed if you don't, is how I see it. If you're like that,
+like me, there's going to be those that hate you for it and secretly want to
+see you fail. Did I mention the nose honing? Nobody asked me, you say? No,
+nobody did. But guess what? I keep a journal and with mo more effort than I put
+into my subconscious dredging sessions which I do anyway to be a better person,
+this. 
+
+And ***that's*** where our real sorry begins. Your story. The story. I am here
+to show you how to write the story of your life and add it to the tapestry of
+all that is, ever was, and ever will be in a way just slightly brighter than
+fading off into obscurity in this materiel world. 
+
+I meme therefore I am. 
+
+Read a bit. 
+
+Read Dawkins' The Selfish Gene, or at least read enough to really internalize
+the premise of the inventor of Memes. He's rich enough so if you can find a way
+to do it without paying, kudos. 
+
+What about Dawkins? The shellfish replicator. Uh, I mean the selfish
+replicator. There's about 200 amino acids, the tiniest molecule legos of life.
+We're built from the 20most  common. Our bodies make 11 of them and we need to
+consume (scavenge) the other 9, plus water. Anyone ever tell you this? No? Same
+on them. The game of life starts here. Amino acids link into ribonucleic acid,
+which are both the factory for building and the instructions for how to do so.
+They coil into DNA which coil onto chromosomes which float around in amniotic
+liquid environment packaged to go inside cell walls built the same way.
+Familiar? No? This is why you read the book. 
+
+Everything form of life on the ocean, extremophile in the methane vents,
+tardigrade in outer space, mycelial network in the soil, is carrying out
+programming acquire through the evolutionary pressure to be the Lego builder
+and not the Lego pieces. A long enough strand to have some decent coding along
+this line we call a gene. Successful genes make more like themselves. There, I
+saved you the money.  
+
+The Dawkins and the Hawkings think there needn't be the hands of some similar
+self-creative with its biblical demands. God or not, scavengers and replicators
+are a reality. It's a self-similar principle at the atomic scale, cellular
+scale, human scale, and I'm fairlu confident at the cosmic scale too with the
+Galactic web looking like slime mold and all. 
+
+After The Selfish Gene which is where the concept of Memes was born (no, it was
+not 4Chan or Reddit), take up Neil Stevenson's 1992 book Snow Crash. It's the
+perfect follow-on to Dawkins' 1976 book. Took you long enough, Neil! No but
+seriously you won't believe Snow Crash came before the Web. Raven will offer
+you a free sample of Snow Crash, so chase the rabbit. 
+
+Did somebody say chase the rabbit. Re-read Alice's Adventures in Wonderland. Or
+read it for the first time if you haven't so that you can re-read it. And then
+re-read it again. Do this every 2 to 5 years as the planned results of designed
+obsolescence strikes you and wipes your ability to make money in your field. Go
+ahead, it's a quick read and you'll have plenty of time. 
+
+Nonsense, you say? Fair enough. Go do whatever else you were planning, like
+becoming middle management so you won't actually need to know how to do stuff
+anymore and are even more replaceable by AI automation. Think the techs are the
+ones most vulnerable? Think again. Depends on your tech, and the timelessness
+of the Wonderland series will help that sink in for reasons that are not
+entirely clear. Clean cup!
+
+The time has come this author thinks to speak of precise things. Of quips
+you're told to feel like that you ought to serve a king. Thanks to the Israeli
+paratrooper turned world's best SEO and StackOverflow founder, Joel Spolsky.
+Joel's major contribution to this world was training OpenAI's ChatGPT to code,
+giving it to you formatted in the very Markdown format his buddy and co-founder
+and Daring Fireball Jeff Atwood invented. Rarely have there been more
+influential unknowns.
+
+Then GitHub was invented. Different folks than Joel and Jeff but the same deep
+double whammy concept is there as with Stack Overflow and Super User, Server
+Fault, Meta Stack Exchange, Web Applications, Arqade, Ask Ubuntu, Mathematics,
+English Language & Usage, Unix & Linux, Ask Different (Apple), WordPress
+Development, Geographic Information Systems, TeX - LaTeX, Database
+Administrators, SharePoint, User Experience, Game Development, Programmers,
+Electrical Engineering, Android Enthusiasts, Information Security, Science
+Fiction & Fantasy, Code Review, Code Golf, Quantitative Finance, Project
+Management and Movies & TV... 
+
+Uh sorry I got stuck in a Stack Exchange loop... let me try this paragraph
+again. The same double-whammy 1 + 1 = infinity collaborative content righteous
+feedback loop of assume that exists with Stack Overflow exists even more so
+with GitHub. Whereas the JJ's brought us Markdown, a key early employee of
+GitHub Tom Preston-Werner brought us TOML, Tom's Obvious, Minimal Language,
+what is to data what Markdown was to HTML. 
+
+On a profoundly related note, Tom also brought us Jekyll the static site
+generator that's built into GitHub eliminating the need for WordPress,
+Squarespace and such. TOML is used in conjunction with Markdown to crate web
+pages, adding the piece missing from Markdown: structured data. 
+
+TOML is a short textfile-based data description language similar for the also
+popular YAML language, but is more explicit and arguably easier to read than
+YAML, which begs the question: If Jekyll supports TOML because both were made
+my Tom, and Jekyll is in GitHub, why is YAML now the bomb?
+
+Answer: A 10-year head start. An 80/20-rule sort of "good enough".
+Institutionalization of YAML, which is being used in compliance requirements to
+ensure that policies are being followed, so its use becomes part of mandatory
+compliance laws. TOML can't fight all that, so it is another superior tech that
+gets tossed in the trash heap with reStructuredText (reST) and the Amiga
+computer, driving off into the sunset in a Tucker Torpedo on the LISP hardware
+highway. 
+
+Yeah, so anyway if Joel and Jeff gave us Markdown and Tom gave us Jekyll with
+YAML, then I'm knitting it all together to give you YAMLchop. 
+
+YAMLchop is a one big textfile for life. Toss in a light sprinkling of whatever
+life-level metadata as the whole file's top matter. But then use very visually
+strong "slicing" or "parsing" symbols to separate post from post, day by day,
+and... then... you... chop! Chop, chop, chop! Choppity, chop chop goes the one
+big file into all the perfectly arranged, organized, and optionally search
+engine optimized and published files of a very passable blog.
+
+For the slicing symbol to separate the posts and define the chop, I use 80
+hyphens. Its reminiscent of the 3-hyphens used by Jekyll for that system but is
+visually much stronger and sets a good readable column width to aspire to.
+
+Within each sliceable day is another YAML header with a date and title field.
+Only date is required. If you're publishing, adding a title indicates this, and
+OpenAI (or any AI system) steps on to add a headline, summarized description
+and the keywords, topics, categories, tags or whatever nearly interchangeable
+label you want to put on such things. 
+
+Keep the AI out if you want a completely private journals. Never even upload it
+to GitHub if you want it 100% private on your local machine. Keep it on your
+Mac or Windows laptop. Or put it on a Raspberry Pi server in your house as your
+own sort of GitHub and a way to make to flow to any hardware you sit down on.
+Get wherever privacy or publicity features you want. 
+
+Use it as an alternative to WordPress, Microsoft Word or Google Docs. Invite
+Copilot in while you write for some extra AI-advantage. Or don't. It all works
+well, and any way you Alice it, it's going to improve your life in countless
+ways it'll take another long rambling post like this to tell you about. 
+
+And finally, I've given it a nice permissive MIT license so you can do whatever
+you want with it. Don't like my decisions? Well, it's the easiest most
+beautiful code y'ever saw, so fork it and make your own version. Or submit pull
+requests and improve the overall system for everyone. Are you an SEO looking
+for a secret weapon? Pretty soon this'll do the URL-submit on the Google Search
+Console back-end (again, ***optionally*** for all you private journalers).
+
+Yeah, so what do you think? Good rough draft for my big contribution thing?
+Write about it in your journal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+## Categories
+
+<ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

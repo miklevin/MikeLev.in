@@ -4,7 +4,7 @@ title: "Rappelling Down The Rabbit Hole: A Linux Script Adventure"
 headline: "Ready, Set, Rappel: My Linux Script Adventure Begins!"
 description: I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.
 keywords: Linux, Script, Make, Copilot, Install, Bat, Sh, Jupyter, Systemd, Ubuntu, Python, Version, Windows, WSL, .wslconfig, .wslconf, vmIdleTimeout, Bash, Snowpark, Figlet, Root, Echo, Hello World
-categories: linux, ubuntu, python, ai, jupyter, wsl, microsoft, systemd
+categories: ai, wsl, systemd, python, microsoft, ubuntu, jupyter, linux
 permalink: /blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/
 layout: post
 ---
@@ -289,15 +289,15 @@ silencing of WSL output to do which I believe is possible in the `.wslconfig`
 file now, but diminishing returns... must sleep.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

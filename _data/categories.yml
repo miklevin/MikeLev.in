@@ -1,3 +1,31 @@
+- seo
+- anti-patterns
+- openai
+- wordpress
+- spam-cannon
+- plugin
+- learning
+- meme
+- dawkins
+- selfish gene
+- neil stevenson
+- snow crash
+- alice's adventures in wonderland
+- joel spolsky
+- jeff atwood
+- markdown
+- toml
+- jekyll
+- static site generator
+- github
+- yaml
+- restructuredtext
+- lisp
+- 80 hyphens
+- ai system
+- headline
+- summarized description
+- keywords,
 - linux
 - script
 - make
@@ -24,8 +52,6 @@
 - ai
 - writing
 - content
-- openai
-- seo
 - platform
 - technology
 - social media
@@ -195,11 +221,6 @@
 - diagramming
 - venn-nvim
 - mermaidjs
-- jekyll
-- static site generator
-- github
-- yaml
-- markdown
 - html
 - previous next arrows
 - rambling
@@ -222,7 +243,6 @@
 - svg
 - pre-rendering
 - static site generators
-- wordpress
 - joomla
 - drupal
 - cm
@@ -610,7 +630,6 @@
 - google docs
 - up game
 - first-hand advice
-- learning
 - theory
 - pan out
 - deep breath
@@ -729,7 +748,6 @@
 - deep fakes
 - polarized people
 - bad actors
-- alice's adventures in wonderland
 - coming-of-age stories
 - fantasy
 - nonsense
@@ -778,7 +796,6 @@
 - tiktoken
 - code
 - meta descriptions
-- headline
 - keywords
 - summarizing summaries
 - education
@@ -882,7 +899,6 @@
 - tool
 - hardware
 - hugo
-- toml
 - ssg
 - github pages
 - documentum
@@ -1824,7 +1840,6 @@
 - custom capabilities
 - conversation
 - concern
-- snow crash
 - science fiction
 - 1990s
 - ethical implications
@@ -1836,7 +1851,6 @@
 - failed
 - copy
 - headache
-- plugin
 - .txt
 - na
 - ssh
@@ -4833,7 +4847,6 @@
 - jupyterlab desktop
 - decorator
 - /etc/systemd/system
-- lisp
 - dialect
 - fad
 - local services
