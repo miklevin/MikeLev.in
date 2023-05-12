@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: git, ai, seo, yaml, static site generator, jekyll, wordpress
+categories: yaml, git, wordpress, seo, static site generator, jekyll, ai
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -156,10 +156,37 @@ today could still echo and reverberate through eternity, no God necessary.
 
 Blessed if you do, blessed if you don't, is how I see it. If you're like that,
 like me, there's going to be those that hate you for it and secretly want to
-see you fail. Did I mention the nose honing? Nobody asked me, you say? No,
-nobody did. But guess what? I keep a journal and with mo more effort than I put
-into my subconscious dredging sessions which I do anyway to be a better person,
-this. 
+see you fail. Some folks will make the ***humans are a virus*** argument here,
+and  cast us as just more ***greedy aliens*** in a race to colonize the galaxy
+like we did the Americas and Africa. That's just the pessimists talking. If we
+don't wipe ourselves out, we won't wipe them out. 
+
+Evolution leads either to growth and enlightenment, or a dead-end. Look at the
+most successful large-animal templates on Earth, for example. Not all reptiles
+are ambush predators, the most efficient way of getting those yummy amino
+acids. It takes intelligence to let the food come to you. Crocodilians are a
+good design. Aerodynamic. Camouflaged. They can go a long time without eating.
+They've outlasted the dinosaurs and have been around longer than any mammal. So
+all big animals should be crocodilians, right? Or at least ambush predators.
+
+But no. We have the sweet, lovable tortoise who traded shock-and-awe predation
+for a long life of slow, steady veggie chomping. Of course the trade-off is
+that you need a pretty good force field to protect you from the predators, but
+we're working on that. Of course some regress again, and you've got the
+Alligator Snapping Turtle. I mean, it's terrifying, have you seen that thing?
+It's up there with the angler fish. But the exception doesn't invalidate the
+statistically significant rule. Evolution ***can*** lead to stable, long-term
+and quite friendly designs.
+
+I'm working on such designs. Or rather, I'm working on the turtle shields of
+the mind. The 1-textfile for life journal that will shield your mind against
+today's onslaught of negativity in the media. That's ***designed*** to break
+you. The world needs tools forged from the fires of free and open source, and
+the best tools we have for thought, such as vim, Markdown and YAML.
+
+Nobody asked me, you say? No, nobody did. But guess what? I keep a journal and
+with mo more effort than I put into my subconscious dredging sessions which I
+do anyway to be a better person, this. 
 
 And ***that's*** where our real sorry begins. Your story. The story. I am here
 to show you how to write the story of your life and add it to the tapestry of
@@ -325,10 +352,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
