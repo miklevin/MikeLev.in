@@ -1,3 +1,26 @@
+- linux
+- script
+- make
+- copilot
+- install
+- bat
+- sh
+- jupyter
+- systemd
+- ubuntu
+- python
+- version
+- window
+- wsl
+- .wslconfig
+- .wslconf
+- vmidletimeout
+- bash
+- snowpark
+- figlet
+- root
+- echo
+- hello world
 - ai
 - writing
 - content
@@ -87,8 +110,6 @@
 - mind
 - ender
 - jane
-- python
-- version
 - parameter
 - support
 - drinkme
@@ -263,7 +284,6 @@
 - sql server personal edition
 - microsoft access
 - local database
-- linux
 - mysql
 - pandas dataframe
 - in-memory
@@ -283,7 +303,6 @@
 - regex
 - marketing
 - purple unicorn
-- copilot
 - autosuggest
 - interpersonal authority
 - pavlovian conditioned
@@ -441,7 +460,6 @@
 - categories.yml
 - cdict
 - ipython
-- jupyter
 - pickle
 - text editing
 - meditation
@@ -825,7 +843,6 @@
 - speed
 - operation
 - interactive
-- root
 - dangerous
 - force push
 - branch
@@ -934,7 +951,6 @@
 - transformation
 - static
 - generator
-- script
 - reading
 - sequence
 - linear
@@ -973,7 +989,6 @@
 - marine
 - embeds
 - folder
-- window
 - grid
 - bingo
 - lemmatization
@@ -995,8 +1010,6 @@
 - includes
 - shell
 - mac
-- wsl
-- ubuntu
 - machine learning
 - human-machine interface
 - unix philosophies
@@ -1168,7 +1181,6 @@
 - location
 - existing context
 - break
-- figlet
 - defaultdict
 - lambda
 - flow control
@@ -1772,7 +1784,6 @@
 - windows subsystem
 - canonical
 - debian-derivative
-- systemd
 - graphic
 - stack
 - vm
@@ -2404,7 +2415,6 @@
 - valuable
 - appreciated
 - web scraper
-- hello world
 - beautifulsoup4
 - relative links
 - absolute links
@@ -2945,7 +2955,6 @@
 - style
 - step-by-step
 - instruction
-- install
 - port 8888
 - run
 - intel mac
@@ -4493,7 +4502,6 @@
 - material possessions
 - '18.04'
 - taskbar
-- bash
 - routine
 - o
 - side-by-side
@@ -5123,7 +5131,6 @@
 - continuous integration
 - fails
 - read() method
-- echo
 - os-independent
 - environment variables,
 - symbolic links
@@ -5890,7 +5897,6 @@
 - papermill
 - parameterize
 - nbdev_bump_version
-- make
 - 0.8.4
 - j
 - rabbit hole evaluations

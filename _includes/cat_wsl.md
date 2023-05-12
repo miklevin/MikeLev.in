@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
+<br/>I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
 <br/>Learn how to use Linux, Python, vim & git (LPvg) to stay up-to-date with the latest technologies. Follow the Unix philosophies to make sure your commands are universal and portable. Read about Levinux, Pipulate, and how to use them to make SEO deliverables. Plus, discover how to write from the first person perspective, keep your content short, and link your homepage index.md to the new include.</li>
 <li><a href="/blog/indomitable-spirit/">Indomitable Spirit</a> (Fri Apr 28, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
+<br/>I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.</li>
 <li><a href="/blog/live-streaming-with-github-copilot-in-neovim-for-motivation/">Live-streaming With Github Copilot in NeoVim for Motivation</a> (Thu Mar 30, 2023)
 <br/>I'm experimenting with NeoVim, a vim-compatible fork, to live-stream in my journal. I'm also exploring the Meissner and Schwinger effects to create more thrust. To achieve my goals, I'm using Linux, Python, Vim, and Git. I'm creating an updated graphic of my stack to help others succeed. Join me as I dive head-first into my project tomorrow.</li>
 <li><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a> (Fri Mar 10, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
+<br/>I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.</li>
 <li><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a> (Mon May 08, 2023)
 <br/>I've been working with SQL since the 90s and discovered the power of Python Pandas Dataframes around 10 years ago. Today, I'm surprised to find Snowflake Data Warehouse makes expensive use of Python, and am very happy that that Dataframes are shaping up to be such a mainstream data API alternative to SQL.</li>
 <li><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a> (Sun Apr 30, 2023)

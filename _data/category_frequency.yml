@@ -128,6 +128,12 @@ dictitems:
   .vimrc:
     count: 6
     title: .vimrc
+  .wslconf:
+    count: 1
+    title: .wslconf
+  .wslconfig:
+    count: 1
+    title: .wslconfig
   .xlsx:
     count: 1
     title: .xlsx
@@ -1503,7 +1509,7 @@ dictitems:
     count: 1
     title: base64
   bash:
-    count: 8
+    count: 9
     title: Bash
   bash file:
     count: 1
@@ -1523,6 +1529,9 @@ dictitems:
   basic commands:
     count: 1
     title: basic commands
+  bat:
+    count: 1
+    title: Bat
   batch files:
     count: 1
     title: Batch Files
@@ -3210,7 +3219,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 15
+    count: 16
     title: Copilot
   copilot ai:
     count: 1
@@ -4605,8 +4614,8 @@ dictitems:
     count: 1
     title: Ecclesiastes
   echo:
-    count: 1
-    title: echo
+    count: 2
+    title: Echo
   economic:
     count: 1
     title: Economic
@@ -5499,7 +5508,7 @@ dictitems:
     count: 1
     title: fifty-one
   figlet:
-    count: 3
+    count: 4
     title: Figlet
   figure:
     count: 2
@@ -6870,7 +6879,7 @@ dictitems:
     count: 1
     title: Helium-Filled Balloons
   hello world:
-    count: 1
+    count: 2
     title: Hello World
   help:
     count: 2
@@ -7593,7 +7602,7 @@ dictitems:
     count: 2
     title: Instagram
   install:
-    count: 7
+    count: 8
     title: Install
   install script:
     count: 1
@@ -8124,7 +8133,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 30
+    count: 31
     title: Jupyter
   jupyter environment:
     count: 1
@@ -8754,7 +8763,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 159
+    count: 160
     title: Linux
   linux api:
     count: 1
@@ -9390,8 +9399,8 @@ dictitems:
     count: 2
     title: Majordomo
   make:
-    count: 1
-    title: make
+    count: 2
+    title: Make
   make_helpers:
     count: 1
     title: Make_Helpers
@@ -12555,7 +12564,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 180
+    count: 181
     title: Python
   python 3:
     count: 1
@@ -13608,7 +13617,7 @@ dictitems:
     count: 3
     title: Roomba
   root:
-    count: 4
+    count: 5
     title: Root
   root domain external links:
     count: 1
@@ -13899,7 +13908,7 @@ dictitems:
     count: 1
     title: Screenshots
   script:
-    count: 44
+    count: 45
     title: Script
   script kiddie:
     count: 1
@@ -14237,6 +14246,9 @@ dictitems:
   setuptools:
     count: 1
     title: setuptools
+  sh:
+    count: 1
+    title: Sh
   shaggy man:
     count: 1
     title: Shaggy Man
@@ -14648,6 +14660,9 @@ dictitems:
   snowpack:
     count: 1
     title: Snowpack
+  snowpark:
+    count: 1
+    title: Snowpark
   so-learn:
     count: 1
     title: So-Learn
@@ -15630,7 +15645,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 20
+    count: 21
     title: Systemd
   systemd service:
     count: 1
@@ -16491,7 +16506,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 21
+    count: 22
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -16902,7 +16917,7 @@ dictitems:
     count: 1
     title: Versatile
   version:
-    count: 7
+    count: 8
     title: Version
   version 0.1 alpha:
     count: 1
@@ -17147,6 +17162,9 @@ dictitems:
   vm:
     count: 2
     title: VM
+  vmidletimeout:
+    count: 1
+    title: vmIdleTimeout
   vms:
     count: 1
     title: VMs
@@ -17451,7 +17469,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 69
+    count: 70
     title: Windows
   windows 10:
     count: 16
@@ -17649,7 +17667,7 @@ dictitems:
     count: 1
     title: Writing Suggestion Tool
   wsl:
-    count: 44
+    count: 45
     title: WSL
   wsl 2 lxd:
     count: 1

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
+<br/>I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.</li>
 <li><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a> (Wed May 10, 2023)
 <br/>Explore the power of Snowflake's Snowpack data warehouse with Python 3.8 support. Learn how to set up a parameterized .bat file to install the Snowflake connector and access the data in a familiar Python environment. Discover the advantages of manipulating terabytes of data without pulling it down to your local machine.</li>
 <li><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a> (Tue May 09, 2023)
