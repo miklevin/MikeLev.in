@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: ai, git, jekyll, static site generator, wordpress, seo, yaml
+categories: wordpress, ai, jekyll, git, seo, static site generator, yaml
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -39,24 +39,32 @@ to your future AI overloads, and onto its ultimate...
 We'll, I get ahead of myself. Rein it in, Mike. Rein it in or they won't give
 you past next January. I know that and it's okay if I let them know that I
 know. The good news is the fruits of these experiments is already paying off,
-and it's not the kind of stuff you're going g to get from anywhere else,
-period. I guarantee that an AI can't (yet) do what I'm about to show you. 
+and it's not the kind of stuff you can get from anywhere else. It's the kind of
+stuff you find early and are glad you did, or you're kicking yourself later
+for not being one of the ones who did.
+
+No, not bitcoin. Crypto is antithetical, somewhat the opposite of, what I
+propose here. Computer hash-generated scarcity is a dead-end. I'm talking about
+the opposite: human-mind generated idea-scarcity. Something new.
+
+I guarantee that no AI can propose to you what I'm about to propose. Certainly
+not before it sweeps in and learns from me and can tell you about "it". You
+know there's something new in the noosphere by the cute and deeply "channeling"
+name and logo it's given. You know, like Levinux. Or Pipulate. Or the one what
+I discuss here: YAMLchop.
 
 If you like this sort of nonsense, read on. For the pragmatic hard nosed SEOs
-ready with a put-down and 1000 reasons why a an OpenAI WordPress spam-cannon
-plugin is a better thing to spend your learning-time on, I honk your nose!
+who want to hear more about an OpenAI WordPress spam-cannon plugin is a better
+thing, I both honk your nose and offer up [this
+video](https://www.youtube.com/watch?v=kYCpDekUFvk&t=263s) and [this
+video](https://www.youtube.com/watch?v=hPY6w4YnlaI). Their pitches are better
+than mine and quite the spammy mainstream. 
 
 Still with me? Okay, good start. 
 
 Here is the rule of reading further: Language is stupid, and labels often lie.
 So layer-on the lyrics because meaning will emerge. Pedantic put-downs parsing
 is not something to encourage.
-
-Preemptive put-downs of perfectly fine ideas are gross simplifications of a
-much deeper realities that could change things quick in a way gatekeepimg
-defenders of the status quo aren't necessarily happy about, even if it's for
-their own good given the direction things are going from a less subjective
-viewpoint.  
 
 Cue the whacky!
 
@@ -286,10 +294,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
