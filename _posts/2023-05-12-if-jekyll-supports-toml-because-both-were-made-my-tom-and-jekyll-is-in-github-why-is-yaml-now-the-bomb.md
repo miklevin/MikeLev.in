@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: yaml, git, ai, seo, static site generator, jekyll, wordpress
+categories: static site generator, jekyll, wordpress, seo, git, yaml, ai
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 ---
@@ -108,10 +108,10 @@ Friedrich Nietzsche. They're going to cause stress and shorten the miraculous
 chemical reaction that is you. If you could enjoy life more, even just from
 quietly sitting there, would you?
 
-If we are eternal souls learning some lesson or other while we're here on this
-mortal coil, then you'll be all the better off anyway with this sort of
+If we are eternal souls learning some lesson or other while wearing these
+mortal coils, then you'll be all the better off anyway with this sort of
 thinking. Nothing to lose but misery, right? Oh you like misery. Well, my stuff
-isn't for everyone. 
+rsn't for everyone. 
 
 If life is "meaningless" such as that say, then most certainly it's not
 actually really meaningless merely based on the sheer mathematical
@@ -121,10 +121,22 @@ Get off that horse. That's mind-manipulating media talking, not your true inner
 feelings nor what you want to believe. We wouldn't still be here otherwise.
 Fortify your brain against that shit. 
 
-One of the only objective prices of information you will ever know is that we
-optimists have the proof of our existence on our side. Every argument a
-pessimist will ever make is speculation, what-if scenarios that show you the
-fearful place from which they find their motivation (or lack thereof).
+One of the only objective facts you will ever know is that we optimists are the
+only ones with hard-and-fast proof on your side. Every argument a pessimist
+will ever make is speculation, what-if scenarios that show you the fearful
+place from which they find their motivation (or lack thereof). When they tell
+you that something will lead to something, ask them if it has. If they tell you
+about tipping points, tell them that's a fallacy like the domino effect or the
+butterfly effect. 
+
+Yes, yes. The domino and butterfly effects do really exist, but their
+inevitable outcomes are a long, long, long way from forgone conclusions. When
+they say their apocalyptic evidence is beyond dispute and that B necessarily
+will follow A, remind them maybe about the Cuban Missile Crisis and stuff like
+that. Saying such things will necessarily lead to our destruction someday is
+non falsifiable&#151;you can't prove Bigfoot exists is proof that he does,
+right? That's the pessimist's argument. We're still here. That's falsifiable.
+Optimists have science on their side.
 
 What random improbabilities are we? Angels or not, meaning can be ascribed by
 us in our lifetimes and here in this local space that defies the boundaries of
@@ -307,10 +319,10 @@ Write about it in your journal.
 ## Categories
 
 <ul>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
