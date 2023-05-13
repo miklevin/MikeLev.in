@@ -495,7 +495,7 @@ dictitems:
     count: 1
     title: Absolute Paths
   abstract:
-    count: 1
+    count: 2
     title: Abstract
   abstract thinking:
     count: 1
@@ -2616,7 +2616,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 8
+    count: 9
     title: Cloud
   cloud chamber:
     count: 1
@@ -2637,7 +2637,7 @@ dictitems:
     count: 2
     title: Cloud Services
   clue:
-    count: 1
+    count: 2
     title: Clues
   clunky:
     count: 1
@@ -2996,6 +2996,9 @@ dictitems:
   concession:
     count: 1
     title: concessions
+  concrete:
+    count: 1
+    title: Concrete
   concurrency:
     count: 2
     title: Concurrency
@@ -3326,6 +3329,9 @@ dictitems:
   counter:
     count: 1
     title: Counter
+  countermeasure:
+    count: 1
+    title: Countermeasures
   counting blessings:
     count: 1
     title: Counting Blessings
@@ -5001,7 +5007,7 @@ dictitems:
     count: 3
     title: Entry
   enumerate:
-    count: 1
+    count: 2
     title: Enumerate
   environment:
     count: 12
@@ -5064,8 +5070,8 @@ dictitems:
     count: 2
     title: Eric Weinstein
   error:
-    count: 6
-    title: Error
+    count: 7
+    title: Errors
   error message:
     count: 2
     title: Error Message
@@ -5357,6 +5363,9 @@ dictitems:
   facility:
     count: 1
     title: Facilities
+  fact:
+    count: 1
+    title: Facts
   factory reset:
     count: 1
     title: Factory Reset
@@ -7623,7 +7632,7 @@ dictitems:
     count: 2
     title: Instagram
   install:
-    count: 8
+    count: 9
     title: Install
   install script:
     count: 1
@@ -7706,6 +7715,9 @@ dictitems:
   intellisense:
     count: 2
     title: Intellisense
+  intense:
+    count: 1
+    title: Intense
   inter:
     count: 1
     title: Inter
@@ -7917,8 +7929,8 @@ dictitems:
     count: 1
     title: Ivan0135
   j:
-    count: 1
-    title: J
+    count: 2
+    title: j
   jack:
     count: 1
     title: Jack
@@ -8588,6 +8600,9 @@ dictitems:
   left-to-right:
     count: 1
     title: left-to-right
+  legit:
+    count: 1
+    title: Legit
   lemmatization:
     count: 1
     title: Lemmatization
@@ -9461,6 +9476,9 @@ dictitems:
   malicious web pages:
     count: 1
     title: Malicious Web Pages
+  man:
+    count: 1
+    title: Man
   manage:
     count: 2
     title: Manage
@@ -10035,8 +10053,8 @@ dictitems:
     count: 1
     title: Million-Page Crawl
   mind:
-    count: 3
-    title: Minds
+    count: 4
+    title: Mind
   mind control:
     count: 1
     title: Mind Control
@@ -10298,6 +10316,9 @@ dictitems:
   mudskipper:
     count: 1
     title: Mudskipper
+  multi-user.target.wants:
+    count: 1
+    title: multi-user.target.wants
   multicellular organism:
     count: 1
     title: Multicellular Organism
@@ -10920,7 +10941,7 @@ dictitems:
     count: 1
     title: Observation
   observe:
-    count: 1
+    count: 2
     title: Observe
   obsession:
     count: 1
@@ -11040,7 +11061,7 @@ dictitems:
     count: 1
     title: OnTheRise.AI
   open:
-    count: 3
+    count: 4
     title: Open
   open mind:
     count: 2
@@ -11136,7 +11157,7 @@ dictitems:
     count: 6
     title: Opportunities
   opposition:
-    count: 1
+    count: 2
     title: Opposition
   optical character recognition:
     count: 1
@@ -12125,6 +12146,9 @@ dictitems:
   pre-processing:
     count: 2
     title: Pre-Processing
+  pre-productivity:
+    count: 1
+    title: Pre-Productivity
   pre-recorded:
     count: 1
     title: Pre-recorded
@@ -13160,6 +13184,9 @@ dictitems:
   refine:
     count: 1
     title: refine
+  refinement:
+    count: 1
+    title: Refinement
   refining:
     count: 1
     title: Refining
@@ -13674,7 +13701,7 @@ dictitems:
     count: 3
     title: Roomba
   root:
-    count: 5
+    count: 6
     title: Root
   root domain external links:
     count: 1
@@ -13704,7 +13731,7 @@ dictitems:
     count: 1
     title: Rouge
   round:
-    count: 1
+    count: 2
     title: Round
   round up:
     count: 1
@@ -13965,7 +13992,7 @@ dictitems:
     count: 1
     title: Screenshots
   script:
-    count: 45
+    count: 46
     title: Script
   script kiddie:
     count: 1
@@ -15485,6 +15512,12 @@ dictitems:
   sudden change of direction:
     count: 1
     title: Sudden change of direction
+  sudo:
+    count: 1
+    title: Sudo
+  sudo_root:
+    count: 1
+    title: sudo_root
   sufficient reason:
     count: 1
     title: Sufficient Reason
@@ -15644,6 +15677,9 @@ dictitems:
   symbolic links:
     count: 1
     title: Symbolic Links
+  symlink:
+    count: 1
+    title: Symlink
   symmetry:
     count: 1
     title: Symmetry
@@ -15714,7 +15750,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 21
+    count: 22
     title: Systemd
   systemd service:
     count: 1
@@ -16236,7 +16272,7 @@ dictitems:
     count: 1
     title: Toolbar
   tooling:
-    count: 1
+    count: 2
     title: Tooling
   toolset:
     count: 2
@@ -16628,6 +16664,9 @@ dictitems:
   un-styled:
     count: 1
     title: un-styled
+  unassailably:
+    count: 1
+    title: Unassailably
   uncertainty:
     count: 2
     title: Uncertainty
@@ -17742,7 +17781,7 @@ dictitems:
     count: 1
     title: Writing Suggestion Tool
   wsl:
-    count: 45
+    count: 46
     title: WSL
   wsl 2 lxd:
     count: 1

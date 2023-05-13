@@ -4,7 +4,7 @@ title: Are You Jacked Into the Metaverse or Living in Flatland?
 headline: I'm Doing the Right Things for the Right Reasons - Rekindling My Interest in Technology with the Right Spark
 description: I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.
 keywords: PC modding, LAN parties, Snow Crash, Microsoft, Visual Studio, VSCode, VSCodium, Chrome, Chromium, Carl Jung, Rebound Psychiatry, Middle East, Jew, AI, Jun, Shadow-dude, Claw, Intellisense, Copilot, NeoVim, Vim, Mac, Microsoft Edge, Azure, Dependency, Open Mind, Netscape, WordPerfect, Borland, Muscle Memory, Zone, Platform, Plugins, Noah's Ark
-categories: vim, dependency, muscle memory, mac, microsoft, ai
+categories: dependency, ai, microsoft, muscle memory, mac, vim
 permalink: /blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/
 layout: post
 ---
@@ -183,13 +183,13 @@ spark.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/intense-round-of-pre-productivity-tooling-refinement/">Intense Round of Pre-Productivity Tooling Refinement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/dependency/'>Dependency</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

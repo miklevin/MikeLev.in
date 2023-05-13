@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/intense-round-of-pre-productivity-tooling-refinement/">Intense Round of Pre-Productivity Tooling Refinement</a> (Fri May 12, 2023)
+<br/>I'm refining my pre-productivity tooling with intense focus. I'm observing, enumerating errors, and writing down clues to help me find the right place in my code. I'm curling and copying, and experimenting with new techniques to get the script to function properly. After many iterations, I'm ready to take a break and attend an art exhibit in New York City. I'm also exploring ways to keep WSL from going to sleep in the background.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
 <br/>I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)
