@@ -4,7 +4,7 @@ title: Undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. I
 headline: I'm determined to make sure JupyterLab runs in the background, powered by a Linux systemd service - and I'm not compromising on my principles!
 description: Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.
 keywords: Undisruptable, Unsuppressible, Unstoppable, Unbreakable, Unconquerable, Indomitable, JupyterLab, Linux, systemd, Terminal, AI, Java, C-language, WORA, Notebook, Hosts, Google Colab, Kaggle, Azure Notebooks, Project Jupyter, Fernando Perez, iPython, MSI-installer, Cloud, AWS, IPVanish, HideMyAss, Browser Automation
-categories: linux, systemd, jupyter, ai, browser automation
+categories: linux, ai, jupyter, systemd, browser automation
 permalink: /blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/
 layout: post
 ---
@@ -130,25 +130,37 @@ But watch your dependences. I guess that's the last point. If your abilities
 come from what is within, and free and open source tools definitely helps with
 the internalization skills because of the persistence of tools.
 
-Well, I guess I wrap it up there. This all comes up because I've been
-experimenting with the name Magic Trick Linux for the heir apparent to Levinux,
-which is currently codenamed DrinkMe, merely an install-script name. But it's
-coming together rapidly enough that it's deserving of a new name and the
-concept of undisruptable is as near and dear to my heart as magic tricks. Magic
-tricks occupied much of my youth, and still resonates with me and gets to some
-of the essential vibe of what I'm doing with DrinkMe. I don't need to use an
-Alice metaphor because sprinkling just a few of those images will carry convey
-that as an attribute of the distro. But undisruptable... undistruptable really
-gets to the heart of it.
+This all comes up because I've been experimenting with the name Magic Trick
+Linux for the heir apparent to Levinux, which is currently codenamed DrinkMe,
+merely an install-script name. But it's coming together rapidly enough that
+it's deserving of a new name and the concept of undisruptable is as near and
+dear to my heart as magic tricks. Magic tricks occupied much of my youth, and
+still resonates with me and gets to some of the essential vibe of what I'm
+doing with DrinkMe. I don't need to use an Alice metaphor because sprinkling
+just a few of those images will carry convey that as an attribute of the
+distro. But undisruptable... undistruptable really gets to the heart of it.
 
 Bad people try to disrupt you. They make drama and try to disrupt your life.
-Primitive emotions like jealousy and envy are the root of it. Of course
-projection, and if I do any disruption like I did with Scala or I may again do
-in future professional situations, it's the disrupting of an abstract notion
+The economy can do the same thing. It's often about resources, and fear of
+losing them, thereof. If someone's used to the easy flow of money, products,
+lifestyle and the things they like and got used to and things become scares, be
+prepared for disruption. People will want what's yours, so stuff you already
+have is at risk. When things break and you have to buy replacements, you're
+forced to re-settle into new hardware ***and*** be out the money. That's
+double-disruption. So wheter it's a bad person or a bad economy, you want to
+be undisruptable, and that means your particular "host hardware" is not
+important. You can run on anything. You should apply this to your mobile phone
+and tablets as well. Hardware doesn't matter.
+
+Most humans don't think so. They covet the hardware. They get mad for matter.
+They'll try to use it as power over you; a land ***lord***. Primitive emotions
+like jealousy and envy are the root of it. Of course projection, and if I do
+any disruption like I did with Scala, it's the disrupting of an abstract notion
 like the status quo. Am I jealous or envious of the status quo? Perhaps being
 the kind of person who can life a life of dull drudgery, never challenging
-myself... Wait, I know! I'll close with one of the most wonderful disruptive
-characters in semi-modern Sci-Fi and Pop Culture: Q.
+myself... Emotions like fear motivate me too, it just doesn't feel that way.
+Wait, I know! I'll close with one of the most wonderful disruptive characters
+in semi-modern Sci-Fi and Pop Culture: Q.
 
 Let's dig up a YouTube link. Oh yes, The Best of Both Worlds. You can't do more
 by playing it sage. Ciao!
@@ -169,7 +181,7 @@ by playing it sage. Ciao!
 
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
