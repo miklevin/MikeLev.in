@@ -4,7 +4,7 @@ title: The Bottom Turtle is Microsoft, and That's Okay
 headline: "Windows is Now the Best Platform for Development: My Experience with Microsoft Embracing Linux"
 description: As a developer, I recently discovered that Windows is now the best platform for development. Microsoft has embraced Linux and its associated technologies, offering the Ubuntu repository and the Windows Subsystem for Linux, which enables developers to access Linux commands and the command-line interface. With popular commands such as cd, ls, chmod, and chown, I'm able to do a lot without being a hardcore programmer. Read my blog to find out why I believe Windows is the best development platform.
 keywords: Microsoft, Windows, Linux, Ubuntu, Python, vim, git, cd, ls, chmod, chown, development, platform, command-line, interface, programmer, blog, best
-categories: python, git, microsoft, ubuntu, journaling, development, linux, vim
+categories: microsoft, python, vim, development, journaling, git, ubuntu, linux
 permalink: /blog/the-bottom-turtle-is-microsoft-and-that-s-okay/
 layout: post
 ---
@@ -86,11 +86,11 @@ all the way up. Unless you're a Graphic Designer, in which case you need Adobe.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
