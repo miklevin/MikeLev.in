@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/">Smart People Read. Dumb People Tell You They Did After Watching the Movie.</a> (Sat May 13, 2023)
+<br/>Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.</li>
 <li><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">Undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a> (Sat May 13, 2023)
 <br/>Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.</li>
 <li><a href="/blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/">Down, down, down! Would systemd going down under WSL2 never come to an end?</a> (Sat May 13, 2023)

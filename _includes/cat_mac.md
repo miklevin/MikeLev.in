@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/">Smart People Read. Dumb People Tell You They Did After Watching the Movie.</a> (Sat May 13, 2023)
+<br/>Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.</li>
 <li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)
 <br/>I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.</li>
 <li><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a> (Fri Apr 28, 2023)

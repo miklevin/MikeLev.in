@@ -303,8 +303,8 @@ dictitems:
     count: 1
     title: 25-Year Study
   280 characters:
-    count: 1
-    title: 280 characters
+    count: 2
+    title: 280 Characters
   2fa:
     count: 1
     title: 2FA
@@ -1628,6 +1628,9 @@ dictitems:
   bergmann-wagoner:
     count: 1
     title: Bergmann-Wagoner
+  berkshire hathaway:
+    count: 1
+    title: Berkshire Hathaway
   bernoulli:
     count: 2
     title: Bernoulli
@@ -2919,7 +2922,7 @@ dictitems:
     count: 1
     title: Competitive
   competitive advantage:
-    count: 1
+    count: 2
     title: Competitive Advantage
   competitive edge:
     count: 1
@@ -2969,6 +2972,9 @@ dictitems:
   compounding results:
     count: 1
     title: Compounding Results
+  compounding returns:
+    count: 1
+    title: Compounding Returns
   compromise:
     count: 1
     title: Compromise
@@ -4064,6 +4070,9 @@ dictitems:
   desktop os:
     count: 1
     title: Desktop OS
+  desktop oses:
+    count: 1
+    title: Desktop OSes
   destructive:
     count: 1
     title: destructive
@@ -4436,6 +4445,9 @@ dictitems:
   donald knuth:
     count: 1
     title: Donald Knuth
+  doomscrolling:
+    count: 1
+    title: Doomscrolling
   doorknob:
     count: 1
     title: Doorknob
@@ -5433,8 +5445,8 @@ dictitems:
     count: 1
     title: Fancy
   fantasy:
-    count: 3
-    title: fantasy
+    count: 4
+    title: Fantasy
   faq structured data:
     count: 1
     title: FAQ Structured Data
@@ -6123,7 +6135,7 @@ dictitems:
     count: 1
     title: Gallery
   game:
-    count: 6
+    count: 7
     title: Game
   game market:
     count: 1
@@ -6245,6 +6257,9 @@ dictitems:
   georgia:
     count: 1
     title: Georgia
+  germ:
+    count: 1
+    title: Germs
   gerund:
     count: 1
     title: Gerunds
@@ -6740,6 +6755,9 @@ dictitems:
   gulper eel:
     count: 1
     title: Gulper Eel
+  gun:
+    count: 1
+    title: Guns
   guy:
     count: 1
     title: Guy
@@ -8069,6 +8087,9 @@ dictitems:
   joel spolsky:
     count: 1
     title: Joel Spolsky
+  john:
+    count: 1
+    title: John
   john a. wheeler:
     count: 1
     title: John A. Wheeler
@@ -8622,7 +8643,7 @@ dictitems:
     count: 1
     title: Learned
   learning:
-    count: 14
+    count: 15
     title: Learning
   learning apis:
     count: 1
@@ -8850,7 +8871,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 162
+    count: 163
     title: Linux
   linux api:
     count: 1
@@ -9372,7 +9393,7 @@ dictitems:
     count: 1
     title: Lyricism
   mac:
-    count: 16
+    count: 17
     title: Mac
   macbook pro:
     count: 1
@@ -9384,7 +9405,7 @@ dictitems:
     count: 1
     title: Machine Children
   machine learning:
-    count: 16
+    count: 17
     title: Machine Learning
   machine learning algorithms:
     count: 1
@@ -9506,6 +9527,9 @@ dictitems:
   malachi:
     count: 1
     title: Malachi
+  malcolm gladwell:
+    count: 1
+    title: Malcolm Gladwell
   male:
     count: 1
     title: male
@@ -10178,6 +10202,9 @@ dictitems:
   mo:
     count: 1
     title: MOS
+  moat:
+    count: 1
+    title: Moat
   mobile:
     count: 1
     title: Mobile
@@ -10650,7 +10677,7 @@ dictitems:
     count: 1
     title: Netpeak Spider
   netscape:
-    count: 1
+    count: 2
     title: Netscape
   netscape navigator:
     count: 1
@@ -10682,6 +10709,9 @@ dictitems:
   neuralink:
     count: 1
     title: Neuralink
+  neurotransmitter hits:
+    count: 1
+    title: Neurotransmitter Hits
   neutralize:
     count: 1
     title: Neutralize
@@ -11148,7 +11178,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 35
+    count: 36
     title: OpenAI
   openai api:
     count: 2
@@ -11534,6 +11564,9 @@ dictitems:
   patch:
     count: 2
     title: Patch
+  patent-lawyer engineers:
+    count: 1
+    title: Patent-Lawyer Engineers
   path:
     count: 8
     title: path
@@ -13802,6 +13835,9 @@ dictitems:
   rst:
     count: 1
     title: RST
+  rtx 3090:
+    count: 1
+    title: RTX 3090
   ruby:
     count: 2
     title: Ruby
@@ -13968,7 +14004,7 @@ dictitems:
     count: 3
     title: Schwinger Effect
   sci-fi:
-    count: 1
+    count: 2
     title: Sci-Fi
   science:
     count: 8
@@ -14198,6 +14234,9 @@ dictitems:
   self-modification:
     count: 1
     title: Self-Modification
+  self-motivated:
+    count: 1
+    title: Self-Motivated
   self-protection:
     count: 1
     title: Self-Protection
@@ -14787,7 +14826,7 @@ dictitems:
     count: 3
     title: Snow Crash
   snowball effect:
-    count: 1
+    count: 2
     title: Snowball Effect
   snowballing:
     count: 1
@@ -15263,8 +15302,11 @@ dictitems:
   steak:
     count: 1
     title: Steak
-  steel:
+  steam:
     count: 1
+    title: Steam
+  steel:
+    count: 2
     title: Steel
   stemming:
     count: 1
@@ -15968,6 +16010,9 @@ dictitems:
   technology:
     count: 14
     title: Technology
+  technology companies:
+    count: 1
+    title: Technology Companies
   technology expert:
     count: 1
     title: Technology Expert
@@ -17235,7 +17280,7 @@ dictitems:
     count: 2
     title: Virtual Assistant
   virtual desktops:
-    count: 6
+    count: 7
     title: Virtual Desktops
   virtual development environment:
     count: 1
@@ -17420,6 +17465,9 @@ dictitems:
   warning:
     count: 1
     title: Warnings
+  warren buffet:
+    count: 1
+    title: Warren Buffet
   warrior:
     count: 1
     title: Warrior
@@ -17643,7 +17691,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 70
+    count: 71
     title: Windows
   windows 10:
     count: 16
