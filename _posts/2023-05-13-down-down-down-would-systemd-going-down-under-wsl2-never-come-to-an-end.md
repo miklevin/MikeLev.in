@@ -4,7 +4,7 @@ title: Down, down, down! Would systemd going down under WSL2 never come to an en
 headline: I Tried Everything to Keep Systemd Alive - Here's What Finally Worked!
 description: I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price.
 keywords: date, Sat, May, 13, 2023, systemd, WSL2, Craig Loewen, Microsoft, WSL Program Manager, YAML, TOML, .INI, key/value pairs, vmIdleTimeout, %userprofile%, .wslconfig, wsl.conf, Linux, terminal, background, global scope, local scope, command, Python, venv, virtual environment, path, neovim, Markdown, link, cursor, Intel
-categories: python, vim, linux, systemd, microsoft, wsl, yaml
+categories: vim, microsoft, python, systemd, linux, wsl, yaml
 permalink: /blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/
 layout: post
 ---
@@ -349,7 +349,7 @@ looks like this:
 ```bash
 [boot]
 systemd=true
-command = nohup ping -i 6 172.17.224.1 >/dev/null 2>&1 &
+command=nohup ping -i 6 172.17.224.1 >/dev/null 2>&1 &
 [automount]
 options="metadata"
 ```
@@ -360,7 +360,7 @@ in the picture. Let's see if .profile is an Ubuntu thing.
 
 Me: What's the difference between .bashrc and .profile. Where is the best place to put something to run once on Linux boot without the risk of double-running by opening subsequent Terminals?
 
-The **.bashrc** file is executed every time a new shell is opened, while **.profile** is only executed when you log in to your computer¹. This means that if you want to set an environment variable that should be available every time you open a new shell, you should add it to your **.bashrc** file¹⁴. 
+Bing: The **.bashrc** file is executed every time a new shell is opened, while **.profile** is only executed when you log in to your computer¹. This means that if you want to set an environment variable that should be available every time you open a new shell, you should add it to your **.bashrc** file¹⁴. 
 
 To run something once on Linux boot without the risk of double-running by opening subsequent Terminals, you can add the command to **/etc/rc.local** file²³. This file is executed after all other init scripts have completed². 
 
@@ -566,10 +566,10 @@ off, haha!
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
