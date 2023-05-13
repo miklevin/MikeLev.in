@@ -4,7 +4,7 @@ title: Of Green Arrows and Red Armor
 headline: Exploring the Benefits of Jekyll for Editing Multiple Homepages
 description: As a web publisher optimizing content for search engines, I chose Vim for its utility over Emacs and am competing with the younguns using proprietary IDEs. I'm editing 15 homepages at once with Jekyll, and wondering why everyone doesn't do the same. I'm a lawyer, so I'm always prepared for a fight. Join me in my journey as I explore the potential pitfalls of using a macro system and discover why Jekyll is the best choice for editing multiple homepages.
 keywords: Web Publisher, Search Engine Optimization, Vim, Emacs, Proprietary IDEs, Jekyll, Lawyer, Macros, Homepages, Editing, Multiple Homepages, Linear Tool, Circular Tool, Green Arrows, Red Armor, Prev/Next Arrows
-categories: emacs, vim, jekyll, seo
+categories: seo, vim, jekyll, emacs
 permalink: /blog/of-green-arrows-and-red-armor/
 layout: post
 ---
@@ -89,7 +89,7 @@ prev/next arrows a cinch. Why doesn't everybody do that?
 ## Categories
 
 <ul>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>

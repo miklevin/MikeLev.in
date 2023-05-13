@@ -4,7 +4,7 @@ title: Smart People Read. Dumb People Tell You They Did After Watching the Movie
 headline: "Smart People Read: A Reflection on the Power of Writing and Lifelong Learning."
 description: Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.
 keywords: Desktop OSes, Linux, Windows, Mac, Virtual Desktops, Machine Learning, RTX 3090, Steam, Games, Sci-Fi, Fantasy, Malcolm Gladwell, Guns, Germs, Steel, Warren Buffet, Berkshire Hathaway, OpenAI, Netscape, 280 Characters, Doomscrolling, Neurotransmitter Hits, Compounding Returns, Snowball Effect, Learning, Moat, Competitive Advantage, Technology Companies, Patent-Lawyer Engineers, Self-Motivated, John
-categories: ai, mac, linux, microsoft
+categories: mac, linux, ai, microsoft
 permalink: /blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/
 layout: post
 ---
@@ -63,18 +63,38 @@ equivalent of ***long for reading*** computer literacy which gives you the
 where-with-all to do the floating ghost in the machine, or the Noah's Ark, or
 the nomadic infotech lifestyle, whatever you want to call it.
 
-This is not a reality most people come willing to. People who actually use
-their technical skills to make money for a living, express themselves, or
-otherwise do things that matter, eventually run into these issues. To everyone
-else, I'm speaking a foreign language. They just don't use tools the same way
-as professionals. They put similar amounts of time into using the exact same
-equipment, just in different ways. 
+This is not a reality most people come willing to. Those of us who actually use
+their technical skills, you know "hard skills" like carpentry or coding to make
+money for a living building things, expressing themselves, encoding automated
+behavior, or otherwise do things that matter, eventually run into these issues.
 
-They are consuming other peoples' content instead of making their own. On those
-rare occasions they do produce content, they prefer platforms that limit you to
-280 characters. I was tempted to say they're reading other peoples' writing
-instead of writing their own, but that's not true. They don't really read. They
-doomscroll for neurotransmitter hits. And they're not getting compounding
+Hardware fails. The devastating-ness of it hits home. In a way the whole Amiga
+computer platform going away was a version of this. It wasn't even particular
+hardware. It was a whole broad category of hardware. A platform.
+
+When I explain this type of thing to people, it's often like I'm speaking a
+foreign language. It took me a long time to realize it, but it's mostly because
+they only ever use it to play games. Once in a blue moon they'll fire up a word
+processor and write something, but not as a way of life. They just don't use
+tools the same way as professionals. They stunningly might put similar amounts
+of time into using the exact same equipment, just in different ways. They've
+mastered a game and will tell you about hand/eye coordination or problem
+solving. 
+
+But they're not using it to make money, nor even feed their soul in some
+creative way. They're consumers consuming. After some amount of time being a
+reader and creator, there's just a sort of split that happens. It's not just
+readers. Many professions have this split, particularly Engineers. Their brains
+just work differently after awhile. It's not as dramatic and pronounced with
+general long-form readers as it is with Engineers, but it's along the same
+line. They are in a different class than the general population of consumers.
+
+Sure it's a spectrum, but particularly these days with the emotionally
+manipulative social medias, consumers are mostly just consuming other peoples'
+content. On those rare occasions they do produce content, they prefer platforms
+that limit you to 280 characters. I was tempted to say they're reading other
+peoples' writing instead of writing their own, but that's hardly even true.
+Doomscrolling is for neurotransmitter hits. And they're not getting compounding
 returns on their time. They're not getting the snowball effect of learning,
 they're not getting the larger moat around them of Berkshire Hathaway
 investments. They're just getting all riled up.
@@ -200,7 +220,7 @@ hahaha! I'm going to love this book!
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
