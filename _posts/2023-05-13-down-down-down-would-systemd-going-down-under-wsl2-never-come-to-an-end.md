@@ -2,9 +2,9 @@
 date: 2023-05-13
 title: Down, down, down! Would systemd going down under WSL2 never come to an end?
 headline: I Tried Everything to Keep Systemd Alive - Here's What Finally Worked!
-description: I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL2. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price.
+description: I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price.
 keywords: date, Sat, May, 13, 2023, systemd, WSL2, Craig Loewen, Microsoft, WSL Program Manager, YAML, TOML, .INI, key/value pairs, vmIdleTimeout, %userprofile%, .wslconfig, wsl.conf, Linux, terminal, background, global scope, local scope, command, Python, venv, virtual environment, path, neovim, Markdown, link, cursor, Intel
-categories: systemd, yaml, linux, wsl, vim, python, microsoft
+categories: python, vim, linux, systemd, microsoft, wsl, yaml
 permalink: /blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/
 layout: post
 ---
@@ -26,15 +26,16 @@ your /etc directory Linux-side.
 
 The "language" on both is supposed to be the same. And all the good stuff
 should go global so it runs early-stage because wsl.exe has access to it before
-the Linux instance is instantiated. The format logically appears to be
-Microsoft's long-standing `.INI`, like a precursor to the aforementioned YAML
-and TOML files, but from Microsoft and using "equals" for key/value pairs
-instead of colons.
+the Linux instance is instantiated. The format appears to be Microsoft's
+long-standing `.INI`, like a precursor to the aforementioned YAML and TOML
+files, but it's from Microsoft and uses "equals" for key/value pairs instead of
+colons which JSON made all the cool kids prefer. YAML, TOML, INI, who cares?
+Here's what one looks like, and my most recent attempt:
 
 ```
 [boot]
 systemd=true
-vmIdleTimeout=1
+vmIdleTimeout=1000
 [automount]
 options="metadata"
 ```
@@ -565,10 +566,10 @@ off, haha!
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
