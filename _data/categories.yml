@@ -1,3 +1,36 @@
+- date
+- sat
+- may
+- '13'
+- '2023'
+- systemd
+- wsl2
+- craig loewen
+- microsoft
+- wsl program manager
+- yaml
+- toml
+- .ini
+- key/value pairs
+- vmidletimeout
+- '%userprofile%'
+- .wslconfig
+- wsl.conf
+- linux
+- terminal
+- background
+- global scope
+- local scope
+- command
+- python
+- venv
+- virtual environment
+- path
+- neovim
+- markdown
+- link
+- cursor
+- intel
 - intense
 - round
 - pre-productivity
@@ -18,7 +51,6 @@
 - error
 - install
 - script
-- systemd
 - cloud
 - wsl
 - root
@@ -31,7 +63,6 @@
 - pc modding
 - lan parties
 - snow crash
-- microsoft
 - visual studio
 - vscode
 - vscodium
@@ -47,7 +78,6 @@
 - claw
 - intellisense
 - copilot
-- neovim
 - vim
 - mac
 - microsoft edge
@@ -76,12 +106,9 @@
 - alice's adventures in wonderland
 - joel spolsky
 - jeff atwood
-- markdown
-- toml
 - jekyll
 - static site generator
 - github
-- yaml
 - restructuredtext
 - lisp
 - 80 hyphens
@@ -89,18 +116,14 @@
 - headline
 - summarized description
 - keywords,
-- linux
 - make
 - bat
 - sh
 - jupyter
 - ubuntu
-- python
 - version
 - window
-- .wslconfig
 - .wslconf
-- vmidletimeout
 - bash
 - snowpark
 - figlet
@@ -196,7 +219,6 @@
 - snowflake
 - snowpack
 - moz
-- link
 - data
 - auto-generated
 - industry
@@ -277,11 +299,8 @@
 - previous next arrows
 - rambling
 - mikelev.in
-- date
 - wed
-- may
 - '10'
-- '2023'
 - diagram
 - mermaid js
 - rendering
@@ -389,7 +408,6 @@
 - trailing spaces
 - draft posts
 - backup
-- command
 - paradigm
 - editing
 - text
@@ -592,7 +610,6 @@
 - log
 - ledger
 - scroll
-- cursor
 - electronic media
 - top-to-bottom
 - left-to-right
@@ -872,7 +889,6 @@
 - description
 - example
 - vim/neovim
-- terminal
 - keyboard shortcuts
 - ctrl+s
 - ctrl+space
@@ -914,7 +930,6 @@
 - philosophical
 - importance
 - consciousness
-- path
 - shared experiences
 - local space
 - global space
@@ -948,7 +963,6 @@
 - django
 - site migration
 - embrace & displace
-- wsl2
 - vi
 - powerpoint
 - deck
@@ -1140,7 +1154,6 @@
 - escape
 - data-fields
 - all scripts
-- virtual environment
 - /bin folder
 - multiple files
 - reverse-copy
@@ -3477,7 +3490,6 @@
 - datacenter
 - bookshelf
 - socratic method
-- intel
 - management
 - ime
 - development
@@ -4564,7 +4576,6 @@
 - install script
 - start script
 - desktop
-- background
 - installation process
 - jupyme
 - searchability
@@ -4623,7 +4634,6 @@
 - plowing
 - '3.10'
 - activate
-- venv
 - lab
 - video tutorial
 - slide
