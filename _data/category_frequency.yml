@@ -738,7 +738,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 91
+    count: 92
     title: AI
   ai bros:
     count: 1
@@ -1416,7 +1416,7 @@ dictitems:
     count: 1
     title: Awesome List
   aws:
-    count: 1
+    count: 2
     title: AWS
   axiom:
     count: 2
@@ -1437,7 +1437,7 @@ dictitems:
     count: 3
     title: Azure
   azure notebooks:
-    count: 1
+    count: 2
     title: Azure Notebooks
   b2:
     count: 1
@@ -2028,7 +2028,7 @@ dictitems:
     count: 20
     title: Browser
   browser automation:
-    count: 11
+    count: 12
     title: Browser Automation
   browser wars:
     count: 1
@@ -2117,6 +2117,9 @@ dictitems:
   c:
     count: 4
     title: C
+  c-language:
+    count: 1
+    title: C-language
   cache:
     count: 1
     title: caches
@@ -2625,7 +2628,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 9
+    count: 10
     title: Cloud
   cloud chamber:
     count: 1
@@ -5513,6 +5516,9 @@ dictitems:
   fernando corbato:
     count: 3
     title: Fernando Corbato
+  fernando perez:
+    count: 1
+    title: Fernando Perez
   ferret:
     count: 1
     title: Ferret
@@ -6474,7 +6480,7 @@ dictitems:
     count: 1
     title: Google Cloud Console
   google colab:
-    count: 1
+    count: 2
     title: Google Colab
   google docs:
     count: 4
@@ -6965,6 +6971,9 @@ dictitems:
   hide taskbar icon:
     count: 1
     title: Hide Taskbar Icon
+  hidemyass:
+    count: 1
+    title: HideMyAss
   hierarchical site-structure:
     count: 1
     title: Hierarchical Site-Structure
@@ -7116,8 +7125,8 @@ dictitems:
     count: 1
     title: Hosea
   host:
-    count: 3
-    title: Host
+    count: 4
+    title: Hosts
   host linux:
     count: 1
     title: Host Linux
@@ -7499,6 +7508,9 @@ dictitems:
   individual:
     count: 3
     title: Individual
+  indomitable:
+    count: 1
+    title: Indomitable
   indomitable spirit:
     count: 2
     title: Indomitable Spirit
@@ -7886,11 +7898,14 @@ dictitems:
   iphone carnets:
     count: 1
     title: iPhone Carnets
+  ipvanish:
+    count: 1
+    title: IPVanish
   ipvoid:
     count: 1
     title: IPVoid
   ipython:
-    count: 2
+    count: 3
     title: iPython
   ipython notebooks:
     count: 1
@@ -7977,7 +7992,7 @@ dictitems:
     count: 1
     title: January 29
   java:
-    count: 4
+    count: 5
     title: Java
   javascript:
     count: 18
@@ -8208,7 +8223,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 39
+    count: 40
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -8228,6 +8243,9 @@ dictitems:
   kabbalistic writings:
     count: 1
     title: Kabbalistic Writings
+  kaggle:
+    count: 1
+    title: Kaggle
   kaggle kernels:
     count: 1
     title: Kaggle Kernels
@@ -8832,7 +8850,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 161
+    count: 162
     title: Linux
   linux api:
     count: 1
@@ -10331,6 +10349,9 @@ dictitems:
   mr. mclovin:
     count: 1
     title: Mr. McLovin
+  msi-installer:
+    count: 1
+    title: MSI-installer
   much:
     count: 1
     title: Much
@@ -10860,7 +10881,7 @@ dictitems:
     count: 3
     title: Note
   notebook:
-    count: 14
+    count: 15
     title: Notebook
   notebook renaming:
     count: 1
@@ -12407,6 +12428,9 @@ dictitems:
   project galileo:
     count: 1
     title: Project Galileo
+  project jupyter:
+    count: 1
+    title: Project Jupyter
   project pipulate:
     count: 2
     title: Project Pipulate
@@ -15774,7 +15798,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 23
+    count: 24
     title: Systemd
   systemd service:
     count: 1
@@ -15993,7 +16017,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 14
+    count: 15
     title: Terminal
   terminal environment:
     count: 1
@@ -16691,6 +16715,9 @@ dictitems:
   unassailably:
     count: 1
     title: Unassailably
+  unbreakable:
+    count: 1
+    title: Unbreakable
   uncertainty:
     count: 2
     title: Uncertainty
@@ -16700,6 +16727,9 @@ dictitems:
   unconditionally:
     count: 1
     title: Unconditionally
+  unconquerable:
+    count: 1
+    title: Unconquerable
   unconscious:
     count: 1
     title: Unconscious
@@ -16715,6 +16745,9 @@ dictitems:
   undiscovered:
     count: 1
     title: Undiscovered
+  undisruptable:
+    count: 1
+    title: Undisruptable
   uneven videos:
     count: 1
     title: Uneven Videos
@@ -16839,11 +16872,14 @@ dictitems:
     count: 1
     title: Unscripted Videos
   unstoppable:
-    count: 1
+    count: 2
     title: Unstoppable
   unsupported:
     count: 2
     title: Unsupported
+  unsuppressible:
+    count: 1
+    title: Unsuppressible
   untruth:
     count: 1
     title: Untruth
@@ -17699,6 +17735,9 @@ dictitems:
   woorank:
     count: 1
     title: WooRank
+  wora:
+    count: 1
+    title: WORA
   word:
     count: 3
     title: Word

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">Undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a> (Sat May 13, 2023)
+<br/>Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.</li>
 <li><a href="/blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/">Down, down, down! Would systemd going down under WSL2 never come to an end?</a> (Sat May 13, 2023)
 <br/>I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)
