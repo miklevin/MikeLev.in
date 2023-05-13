@@ -4,7 +4,7 @@ title: Undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. I
 headline: I'm determined to make sure JupyterLab runs in the background, powered by a Linux systemd service - and I'm not compromising on my principles!
 description: Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.
 keywords: Undisruptable, Unsuppressible, Unstoppable, Unbreakable, Unconquerable, Indomitable, JupyterLab, Linux, systemd, Terminal, AI, Java, C-language, WORA, Notebook, Hosts, Google Colab, Kaggle, Azure Notebooks, Project Jupyter, Fernando Perez, iPython, MSI-installer, Cloud, AWS, IPVanish, HideMyAss, Browser Automation
-categories: linux, jupyter, ai, systemd, browser automation
+categories: linux, systemd, jupyter, ai, browser automation
 permalink: /blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/
 layout: post
 ---
@@ -119,19 +119,41 @@ licences and without the traps and pitfalls of faux-open-source software, they
 won't be able to take it away from you, or change the APIs on you to force you
 to retrain, relearn, retool, re-buy or retire.
 
-Well, I guess I wrap it up there. I'm getting ready to do what I call "cut
-catapult ropes". If I'm really as good as I think I am, now that I ***want***
-to sort of be successful, popping my head up above the radar-level, perchance
-to be shot-down by the air-defense systems, it's all about releasing the
-built-up potential that's already there. Not doing too much new, but rather
-connecting the dots on everything I already do and know, maybe sprinkling in a
-little accelerated and amplification effect now because of Copilot, ChatGPT,
-Bing, Code Whisperer, the new one from Google. But watch your dependences. I
-guess that's the last point. If your abilities come from what is within, and
-free and open source tools definitely helps with the internalization skills
-because of the persistence of tools.
+I'm getting ready to do what I call "cut catapult ropes". If I'm really as good
+as I think I am, now that I ***want*** to sort of be successful, popping my
+head up above the radar-level, perchance to be shot-down by the air-defense
+systems, it's all about releasing the built-up potential that's already there.
+Not doing too much new, but rather connecting the dots on everything I already
+do and know, maybe sprinkling in a little accelerated and amplification effect
+now because of Copilot, ChatGPT, Bing, Code Whisperer, the new one from Google.
+But watch your dependences. I guess that's the last point. If your abilities
+come from what is within, and free and open source tools definitely helps with
+the internalization skills because of the persistence of tools.
 
+Well, I guess I wrap it up there. This all comes up because I've been
+experimenting with the name Magic Trick Linux for the heir apparent to Levinux,
+which is currently codenamed DrinkMe, merely an install-script name. But it's
+coming together rapidly enough that it's deserving of a new name and the
+concept of undisruptable is as near and dear to my heart as magic tricks. Magic
+tricks occupied much of my youth, and still resonates with me and gets to some
+of the essential vibe of what I'm doing with DrinkMe. I don't need to use an
+Alice metaphor because sprinkling just a few of those images will carry convey
+that as an attribute of the distro. But undisruptable... undistruptable really
+gets to the heart of it.
 
+Bad people try to disrupt you. They make drama and try to disrupt your life.
+Primitive emotions like jealousy and envy are the root of it. Of course
+projection, and if I do any disruption like I did with Scala or I may again do
+in future professional situations, it's the disrupting of an abstract notion
+like the status quo. Am I jealous or envious of the status quo? Perhaps being
+the kind of person who can life a life of dull drudgery, never challenging
+myself... Wait, I know! I'll close with one of the most wonderful disruptive
+characters in semi-modern Sci-Fi and Pop Culture: Q.
+
+Let's dig up a YouTube link. Oh yes, The Best of Both Worlds. You can't do more
+by playing it sage. Ciao!
+
+{% include youtubePlayer.html id="LHoPLhpw2g4" %}
 
 
 
@@ -147,7 +169,7 @@ because of the persistence of tools.
 
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

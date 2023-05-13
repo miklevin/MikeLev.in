@@ -4,7 +4,7 @@ title: Share Folder Between Windows, WSL Linux, Container and Home Cloud
 headline: Setting up a Complex Shared Folder Across Windows, WSL2, LXD Containers, and a Home Cloud
 description: "As an IT professional, I'm setting up a shared ~/data folder across four different locations: my laptop's main Windows system, a Linux system running under WSL2, an LXD Linux Container hosted under WSL2, and an LXD Container hosted on a separate machine. I'm mapping a network drive from my laptop's Windows system, mounting a drive from the Linux system, and adding a device to the LXD Linux Container. Follow my journey as I set up this complex shared folder"
 keywords: Windows, WSL2, Linux, Container, Home Cloud, Network Drive, LXD, Mapping, Mounting, Device, QNAP NAS
-categories: linux, wsl, microsoft, container
+categories: microsoft, linux, container, wsl
 permalink: /blog/share-folder-between-windows-wsl-linux-container-and-home-cloud/
 layout: post
 ---
@@ -81,7 +81,7 @@ to be done from inside a container Terminal session.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
