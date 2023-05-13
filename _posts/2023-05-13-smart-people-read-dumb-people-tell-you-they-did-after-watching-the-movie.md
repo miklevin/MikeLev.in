@@ -4,7 +4,7 @@ title: Smart People Read. Dumb People Tell You They Did After Watching the Movie
 headline: "Smart People Read: A Reflection on the Power of Writing and Lifelong Learning."
 description: Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.
 keywords: Desktop OSes, Linux, Windows, Mac, Virtual Desktops, Machine Learning, RTX 3090, Steam, Games, Sci-Fi, Fantasy, Malcolm Gladwell, Guns, Germs, Steel, Warren Buffet, Berkshire Hathaway, OpenAI, Netscape, 280 Characters, Doomscrolling, Neurotransmitter Hits, Compounding Returns, Snowball Effect, Learning, Moat, Competitive Advantage, Technology Companies, Patent-Lawyer Engineers, Self-Motivated, John
-categories: mac, microsoft, linux, ai
+categories: ai, mac, linux, microsoft
 permalink: /blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/
 layout: post
 ---
@@ -161,8 +161,23 @@ and think they're as smart as someone who can genuinely write well.
 
 Recently, I had an experience where someone I knew had a wake-up call about the
 meaninglessness of particular hardware, but an appreciation for the creative
-works that was on it. It's the information that matters, not the hardware.
-Peoples' infatuation with Desktop OSes i
+works that was on it. Creative works in the digital world are information and
+should never be at risk. It's the information that matters, not the hardware.
+
+People infatuated with Desktop OSes are infatuated with the covers of the book
+and not what's between the pages. This is why Windows, Macs, Linux Desktops...
+meh. They're all the same to me. And yeah, I've spent years on various Linux
+desktops from both the Gnome and KDE camps. As virtual screens, or virtual
+desktops as Windows got them to be called, took off I was like "okay, now the
+world will see the light". Open multiple apps full-screen and flip (usually)
+left and right between them. You don't even know a desktop OS is there. Yet
+every YouTube auto-suggest I get is about this infernal this-or-that desktop
+which I couldn't care less about and try not to let play for fear the YouTube
+algorithm will think that's all I want to hear about and barrage me with more.
+
+Sigh. Now where'd I put copy of Paul Graham's Hackers and Painters? I think
+I'll finally read it. Thanks, Tanya! Chapter 1... Why Nerds are Unpopular...
+hahaha! I'm going to love this book!
 
 
 
@@ -185,7 +200,7 @@ Peoples' infatuation with Desktop OSes i
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
