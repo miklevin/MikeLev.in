@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a> (Sun May 14, 2023)
+<br/>I'm exploring the metaphor of cutting catapult ropes and how it relates to my professional trade. I'm reflecting on the opportunities available to me, the challenges I face, and my experiences with cutting catapult ropes in the past. I'm looking to make a positive difference in my own life, the lives of those around me, and the world at large.</li>
 <li><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a> (Wed May 10, 2023)
 <br/>Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.</li>
 <li><a href="/blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/">I Never Saw a Purple Unicorn And Never Hope to See One... Take and Reverse!</a> (Mon May 08, 2023)

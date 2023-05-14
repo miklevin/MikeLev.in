@@ -4,7 +4,7 @@ title: Matter Doesn't Matter, Except The Matter You Take Into Your Body
 headline: Exploring the Benefits of Proper Nutrition and Sleep for Optimal Health on Mothers' Day.
 description: Happy Mothers' Day! On this day, I'm reflecting on the importance of plural possessives and the power of documentation. In this post, I discuss the importance of taking the right matter into your body and how it can affect your health and wellbeing. I also discuss how to get the right nutrition and the parallels between nutrition and information. Finally, I wish everyone a Happy Mothers' Day and thank them for reading.
 keywords: journaling, plural possessives, Philadelphia Amiga Users' Group, Apple Macs, blog posts, NeoVim, vim, hyphens, iPhone, Samsung Note, Note 3, Note 5, Note 8, multi-platform, Apple-product, iSheep, Vitamix, nutrition, drugs, 9 amino acids, cell walls, tissues, bones, blood, antibodies, hormones, neurotransmitters, subconscious, smoothie, strawberries, flax seeds, feast and famine,
-categories: vim, journaling
+categories: journaling, vim
 permalink: /blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/
 layout: post
 ---
@@ -196,9 +196,9 @@ Happy Mothers' Day and You're Welcome!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

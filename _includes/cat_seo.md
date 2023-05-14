@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a> (Sun May 14, 2023)
+<br/>I'm exploring the metaphor of cutting catapult ropes and how it relates to my professional trade. I'm reflecting on the opportunities available to me, the challenges I face, and my experiences with cutting catapult ropes in the past. I'm looking to make a positive difference in my own life, the lives of those around me, and the world at large.</li>
 <li><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a> (Fri May 12, 2023)
 <br/>Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.</li>
 <li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)

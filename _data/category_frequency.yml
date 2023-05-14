@@ -591,7 +591,7 @@ dictitems:
     count: 1
     title: Active Participant
   active server pages:
-    count: 2
+    count: 3
     title: Active Server Pages
   actualizing:
     count: 1
@@ -705,7 +705,7 @@ dictitems:
     count: 1
     title: affectation
   affiliate:
-    count: 1
+    count: 2
     title: Affiliate
   african elephant:
     count: 1
@@ -971,6 +971,9 @@ dictitems:
   ancient:
     count: 1
     title: Ancient
+  anderson:
+    count: 1
+    title: Anderson
   angel:
     count: 1
     title: angels
@@ -1245,7 +1248,7 @@ dictitems:
     count: 1
     title: Asimov
   asp:
-    count: 1
+    count: 2
     title: ASP
   aspect ratio:
     count: 1
@@ -1326,7 +1329,7 @@ dictitems:
     count: 1
     title: audibles
   audience:
-    count: 8
+    count: 9
     title: Audience
   august 19:
     count: 1
@@ -1460,6 +1463,9 @@ dictitems:
   b2:
     count: 1
     title: b2
+  baan:
+    count: 1
+    title: BAAN
   baby:
     count: 1
     title: Baby
@@ -1733,6 +1739,9 @@ dictitems:
   bill joy:
     count: 1
     title: Bill Joy
+  bill of materials:
+    count: 1
+    title: Bill of Materials
   bin:
     count: 1
     title: Bin
@@ -2294,6 +2303,9 @@ dictitems:
   cat treats:
     count: 1
     title: cat treats
+  catapult:
+    count: 1
+    title: Catapult
   catchphrase:
     count: 1
     title: Catchphrase
@@ -2388,8 +2400,8 @@ dictitems:
     count: 1
     title: Changing Technology
   channel:
-    count: 1
-    title: Channel
+    count: 2
+    title: Channels
   channeling:
     count: 2
     title: channeling
@@ -2706,7 +2718,7 @@ dictitems:
     count: 1
     title: Cluttered
   cm:
-    count: 5
+    count: 6
     title: CMS
   cname:
     count: 2
@@ -3482,6 +3494,9 @@ dictitems:
   critical thinking:
     count: 1
     title: Critical Thinking
+  crm:
+    count: 1
+    title: CRM
   crontab api:
     count: 1
     title: Crontab API
@@ -4119,8 +4134,8 @@ dictitems:
     count: 1
     title: destructive
   detail:
-    count: 1
-    title: Detail
+    count: 2
+    title: Details
   detail-oriented:
     count: 1
     title: detail-oriented
@@ -4364,6 +4379,9 @@ dictitems:
   disruption-resistant:
     count: 1
     title: Disruption-Resistant
+  disseminating:
+    count: 1
+    title: Disseminating
   dissociation:
     count: 1
     title: Dissociation
@@ -5931,7 +5949,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 2
+    count: 3
     title: Framework
   france:
     count: 1
@@ -6260,6 +6278,9 @@ dictitems:
   generates:
     count: 1
     title: Generates
+  generating:
+    count: 1
+    title: Generating
   generation:
     count: 2
     title: Generation
@@ -6749,6 +6770,9 @@ dictitems:
   grocery shopping:
     count: 1
     title: Grocery Shopping
+  gross:
+    count: 1
+    title: Gross
   group:
     count: 3
     title: Group
@@ -6882,7 +6906,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 15
+    count: 16
     title: Hardware
   harriet martineau:
     count: 1
@@ -8150,6 +8174,9 @@ dictitems:
   job role:
     count: 1
     title: job role
+  job-switch:
+    count: 1
+    title: Job-Switch
   joel spolsky:
     count: 1
     title: Joel Spolsky
@@ -8702,6 +8729,9 @@ dictitems:
   lead by example:
     count: 1
     title: Lead by Example
+  lead-management:
+    count: 1
+    title: Lead-Management
   learn:
     count: 5
     title: Learn
@@ -9665,6 +9695,9 @@ dictitems:
   manual work:
     count: 1
     title: Manual Work
+  manufacturing:
+    count: 1
+    title: Manufacturing
   many-worlds interpretation:
     count: 1
     title: Many-Worlds Interpretation
@@ -9717,7 +9750,7 @@ dictitems:
     count: 1
     title: Marketable
   marketing:
-    count: 7
+    count: 8
     title: Marketing
   marketplace:
     count: 1
@@ -10002,8 +10035,8 @@ dictitems:
     count: 1
     title: Metamaterials
   metaphor:
-    count: 3
-    title: Metaphors
+    count: 4
+    title: Metaphor
   metas:
     count: 1
     title: Metas
@@ -10763,6 +10796,9 @@ dictitems:
   netscape navigator:
     count: 1
     title: Netscape Navigator
+  netsuite:
+    count: 1
+    title: NetSuite
   network:
     count: 8
     title: Network
@@ -11037,8 +11073,8 @@ dictitems:
     count: 1
     title: NT
   nuance:
-    count: 3
-    title: nuance
+    count: 4
+    title: Nuances
   numa:
     count: 1
     title: NUMA
@@ -11367,7 +11403,7 @@ dictitems:
     count: 1
     title: Option/Command keys
   oracle:
-    count: 2
+    count: 3
     title: Oracle
   orbit:
     count: 1
@@ -11732,6 +11768,9 @@ dictitems:
   people:
     count: 3
     title: People
+  peoplesoft:
+    count: 1
+    title: Peoplesoft
   percentage:
     count: 1
     title: Percentage
@@ -13737,7 +13776,7 @@ dictitems:
     count: 1
     title: returns
   revenue:
-    count: 2
+    count: 3
     title: Revenue
   revenue stream:
     count: 1
@@ -13910,6 +13949,9 @@ dictitems:
   root rt1 irobot coding robot:
     count: 1
     title: Root RT1 iRobot Coding Robot
+  rope:
+    count: 1
+    title: Ropes
   ror:
     count: 1
     title: ROR
@@ -14036,6 +14078,9 @@ dictitems:
   sales tax:
     count: 1
     title: Sales Tax
+  salesforce:
+    count: 1
+    title: Salesforce
   salesperson:
     count: 1
     title: Salespeople
@@ -14055,7 +14100,7 @@ dictitems:
     count: 1
     title: Samurai Warrior
   sap:
-    count: 1
+    count: 2
     title: SAP
   sarah:
     count: 1
@@ -14433,7 +14478,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 77
+    count: 78
     title: SEO
   seo blog:
     count: 1
@@ -14630,6 +14675,9 @@ dictitems:
   shimmering light:
     count: 1
     title: Shimmering Light
+  shipping:
+    count: 1
+    title: Shipping
   short openai meta description:
     count: 1
     title: Short OpenAI Meta Description
@@ -14669,6 +14717,9 @@ dictitems:
   sidekick:
     count: 1
     title: Sidekick
+  siebel:
+    count: 1
+    title: Siebel
   sighting:
     count: 1
     title: Sightings
@@ -15942,7 +15993,7 @@ dictitems:
     count: 1
     title: syntax highlighting
   system:
-    count: 16
+    count: 17
     title: System
   system alignment:
     count: 1
@@ -18150,7 +18201,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 45
+    count: 46
     title: YouTube
   youtube analytics:
     count: 1
@@ -18224,6 +18275,9 @@ dictitems:
   zoo:
     count: 1
     title: Zoo
+  zope:
+    count: 1
+    title: Zope
   zucker:
     count: 1
     title: Zucker
