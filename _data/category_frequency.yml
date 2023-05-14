@@ -270,7 +270,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 6
+    count: 7
     title: '2023'
   2030 agenda:
     count: 1
@@ -482,6 +482,9 @@ dictitems:
   '`vim.api.nvim_command`':
     count: 1
     title: '`vim.api.nvim_command`'
+  a few little kitties i know:
+    count: 1
+    title: A Few Little Kitties I Know
   a-game:
     count: 1
     title: A-game
@@ -630,7 +633,7 @@ dictitems:
     count: 1
     title: Address Bar
   adi:
-    count: 2
+    count: 3
     title: Adi
   adjective:
     count: 1
@@ -903,7 +906,7 @@ dictitems:
     count: 1
     title: AM
   amazon:
-    count: 3
+    count: 4
     title: Amazon
   amazon rainforest:
     count: 1
@@ -950,6 +953,9 @@ dictitems:
   amy nguyen:
     count: 1
     title: Amy Nguyen
+  amygdala:
+    count: 1
+    title: amygdala
   anaconda:
     count: 2
     title: Anaconda
@@ -971,6 +977,9 @@ dictitems:
   ancient:
     count: 1
     title: Ancient
+  and the lessons they taught me:
+    count: 1
+    title: And The Lessons They Taught Me
   anderson:
     count: 1
     title: Anderson
@@ -1616,6 +1625,9 @@ dictitems:
   bed:
     count: 1
     title: Beds
+  bedroom:
+    count: 1
+    title: bedroom
   bees,:
     count: 1
     title: Bees,
@@ -1742,6 +1754,9 @@ dictitems:
   bill of materials:
     count: 1
     title: Bill of Materials
+  billy:
+    count: 1
+    title: Billy
   bin:
     count: 1
     title: Bin
@@ -2295,7 +2310,7 @@ dictitems:
     count: 1
     title: Casual
   cat:
-    count: 7
+    count: 8
     title: Cats
   cat language:
     count: 1
@@ -3159,7 +3174,7 @@ dictitems:
     count: 1
     title: Consent
   consistency:
-    count: 3
+    count: 4
     title: Consistency
   consistent histories:
     count: 1
@@ -3855,7 +3870,7 @@ dictitems:
     count: 1
     title: Datasets
   date:
-    count: 6
+    count: 7
     title: date
   date format:
     count: 1
@@ -5451,7 +5466,7 @@ dictitems:
     count: 1
     title: Extraterrestrial Vehicles
   facebook:
-    count: 2
+    count: 3
     title: Facebook
   facility:
     count: 1
@@ -5906,6 +5921,9 @@ dictitems:
   formulating:
     count: 1
     title: Formulating
+  fortress of aditude:
+    count: 1
+    title: Fortress of Aditude
   fortune:
     count: 1
     title: Fortunes
@@ -6396,7 +6414,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 44
+    count: 45
     title: Github
   github actions:
     count: 1
@@ -8781,7 +8799,7 @@ dictitems:
     count: 1
     title: Leopard Gecko
   lesson:
-    count: 3
+    count: 4
     title: Lessons
   leverage:
     count: 1
@@ -8795,8 +8813,11 @@ dictitems:
   levinux:
     count: 8
     title: Levinux
+  levinux fan page:
+    count: 1
+    title: Levinux fan page
   levinux.com:
-    count: 2
+    count: 3
     title: levinux.com
   levitron:
     count: 1
@@ -8955,7 +8976,7 @@ dictitems:
     count: 1
     title: Linked Lists
   linkedin:
-    count: 1
+    count: 2
     title: LinkedIn
   links api:
     count: 3
@@ -10199,6 +10220,9 @@ dictitems:
   mikelevin:
     count: 1
     title: MikeLevin
+  mikelevin.in:
+    count: 1
+    title: MikeLevin.in
   mikelevinseo:
     count: 1
     title: MikeLevinSEO
@@ -10455,7 +10479,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 17
+    count: 18
     title: MOZ
   moz api:
     count: 1
@@ -10869,7 +10893,7 @@ dictitems:
     count: 1
     title: New Years Party
   new york:
-    count: 2
+    count: 3
     title: New York
   new york city:
     count: 9
@@ -11882,6 +11906,9 @@ dictitems:
   pessimist:
     count: 1
     title: Pessimists
+  pet:
+    count: 1
+    title: pet
   phase space:
     count: 1
     title: Phase Space
@@ -11930,6 +11957,9 @@ dictitems:
   physical:
     count: 1
     title: Physical
+  physical environment:
+    count: 1
+    title: physical environment
   physical health:
     count: 1
     title: Physical Health
@@ -12015,7 +12045,7 @@ dictitems:
     count: 1
     title: Pipulate library
   pipulate.com:
-    count: 5
+    count: 6
     title: Pipulate.com
   pipulate.com/mlgl:
     count: 1
@@ -13935,7 +13965,7 @@ dictitems:
     count: 1
     title: Ron Hicklin Singers
   roomba:
-    count: 3
+    count: 4
     title: Roomba
   root:
     count: 6
@@ -14090,6 +14120,9 @@ dictitems:
   samba:
     count: 1
     title: SAMBA
+  sammy:
+    count: 1
+    title: Sammy
   sample:
     count: 1
     title: Sample
@@ -15381,8 +15414,8 @@ dictitems:
     count: 1
     title: Standardize
   standing desk:
-    count: 1
-    title: Standing Desk
+    count: 2
+    title: standing desk
   star:
     count: 1
     title: stars
@@ -15830,6 +15863,9 @@ dictitems:
   sun:
     count: 2
     title: Sun
+  sun may 14:
+    count: 1
+    title: Sun May 14
   sun microsystems:
     count: 1
     title: Sun Microsystems
@@ -16094,6 +16130,9 @@ dictitems:
   tardigrade:
     count: 2
     title: Tardigrade
+  tardigrade circus:
+    count: 1
+    title: Tardigrade Circus
   tardigradecircus:
     count: 1
     title: Tardigradecircus
@@ -16497,7 +16536,7 @@ dictitems:
     count: 1
     title: tissues
   title:
-    count: 16
+    count: 17
     title: Title
   tldextract:
     count: 1
