@@ -78,21 +78,36 @@ act and behave better in the immediate-term and stick around for awhile and
 become part of you in the long-term. Up to 10 years in fact, if it's got
 calcium in there and gets into your bones. Electrolytes will help you think
 better. Certain amino acids will go directly to making your natural levels of
-dopamine, serotonin, and norepinephrine optimal. I do a lot of Vitamix
-blending. I only mention the brand vitamix because most blenders won't do. You
-need something that will pulverize the nutrition right out of the seeds on the
-surface of strawberries and the fiber from inside flax seeds. If you're not
-using a thoroughly blended smoothie to get your nutrition and have gone
-directly to drugs, you haven't explored the full range of more natural, healthy
-and frankly safe options available to you. Oh yeah, it takes work.
+dopamine, serotonin, and norepinephrine optimal. 
+
+I do a lot of Vitamix blending. I only mention the brand vitamix because most
+blenders won't do. You need something that will pulverize the nutrition right
+out of the seeds on the surface of strawberries and the fiber from inside flax
+seeds. If you're not using a thoroughly blended smoothie to get your nutrition
+and have gone directly to drugs, you haven't explored the full range of more
+natural, healthy and frankly safe options available to you. Oh yeah, it takes
+work.
 
 Okay, so matter doesn't really matter except the matter you take into your
-body, which should give you the 9 amino acids you can't make yourself. There's
-plenty of ways of saying it, but it's just basic nutrition science. It's the
-stuff we really do know for sure now down at the molecular level. What makes
-our cell walls and tissues, bones, blood, antibodies, hormones,
-neurotransmitters, and all the other stuff that controls us at a subconscious
-level. 
+body, which should give you the 9 amino acids you can't make yourself: alanine,
+arginine, asparagine, aspartic acid, cysteine, glutamic acid, glutamine,
+glycine, proline, serine, and tyrosine. There's plenty of ways of saying it,
+and there are some addendum's like vitamin-D from sunlight as a catalyst the
+absorption of 2 critical elements: calcium and phosphorous. Oh, and
+water-soluble fiber to keep it exiting your body with all the grace it entered.
+Those 9 missing amino acids plus sleep, sunlight, chomping on the salty rust of
+a few metals, and fiber. Oh, and carbs for energy, did I mention carbs?
+
+Even with these extra nutritional nuances, it's all still just basic nutrition
+science that should be taught as a part of your everyones' education. It's even
+more important than what all the YouTubers complain they wish they were taught
+about saving money and taxes. With good health, anything is possible. With good
+health, both mental and physical comes motivation, self-determination, a
+positive mental attitude and all the things posers project but fail to educate
+regarding. It's the stuff we really do know for sure now down at the molecular
+level. What makes our cell walls and tissues, bones, blood, antibodies,
+hormones, neurotransmitters, and all the other stuff that controls us at a
+subconscious level. 
 
 It's all those reasons for things that really are at work, but we generally
 can't articulate. And if you're not aware of them and adjusting them through
