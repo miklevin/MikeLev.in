@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a> (Sat May 13, 2023)
+<br/>This post follows a developer as they explore the default behavior of an M2 Mac and prepare to write a Mac DrinkMe install procedure. Through the post, they investigate the install procedure and test the Mac's features, including virtual desktops, Safari's Rapid Security Response, and the ability to open apps from unidentified developers. They also discover the Mac's built-in screen recording feature.</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)
 <br/>The advent of AI-generated content has created a new challenge for search engines to organize the infinite new glutton of information in a useful way. I discuss the need for us content producers to find ways to stand out from the 'infinite spam cannon' and offer solutions for optimizing our content to be recognized and rewarded by search engines.</li>
 <li><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a> (Wed Apr 26, 2023)

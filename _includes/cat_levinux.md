@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a> (Sat May 13, 2023)
+<br/>This post follows a developer as they explore the default behavior of an M2 Mac and prepare to write a Mac DrinkMe install procedure. Through the post, they investigate the install procedure and test the Mac's features, including virtual desktops, Safari's Rapid Security Response, and the ability to open apps from unidentified developers. They also discover the Mac's built-in screen recording feature.</li>
 <li><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a> (Fri Dec 16, 2022)
 <br/>I'm focusing on exuding Google's Quality Guidelines, E-E-A-T, by creating unique and genuine content that demonstrates my experience. I'm also keeping dependencies low and updating the Levinux index.html file, as well as making sure the DrinkMe script is accessible. Join me as I take you through my journey to follow Google's Quality Guidelines.</li>
 <li><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/">With AI On The Way, You Had Better Be Able to Write Daemons</a> (Tue Dec 13, 2022)

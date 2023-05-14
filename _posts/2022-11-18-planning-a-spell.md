@@ -4,7 +4,7 @@ title: Planning a Spell
 headline: "Unlocking the Secrets of the Universe: Join Me on My Journey to Make Magic Happen!"
 description: I recently had a life-changing realization that life is full of mysteries and that consciousness is still beyond science. This inspired me to plan a powerful spell that I will share with others, teaching them how to cast a spell of their own. Join me on my journey as I unlock the secrets of the universe and discover how to make magic happen.
 keywords: Mystery, Consciousness, Spell, Universe, Magic, Realization, Life-Changing, Journey, Unlock, Secrets
-categories: magic, consciousness
+categories: consciousness, magic
 permalink: /blog/planning-a-spell/
 layout: post
 ---
@@ -26,5 +26,5 @@ to cast a powerful spell, of course. We go right for
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>

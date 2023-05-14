@@ -918,7 +918,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 5
+    count: 6
     title: Amiga
   amiga computer:
     count: 1
@@ -1224,7 +1224,7 @@ dictitems:
     count: 1
     title: Ascending
   ascii:
-    count: 3
+    count: 4
     title: ASCII
   ascii art:
     count: 4
@@ -1533,7 +1533,7 @@ dictitems:
     count: 1
     title: base64
   bash:
-    count: 9
+    count: 10
     title: Bash
   bash file:
     count: 1
@@ -2508,7 +2508,7 @@ dictitems:
     count: 1
     title: chown
   chrome:
-    count: 7
+    count: 8
     title: Chrome
   chrome devtools:
     count: 1
@@ -2660,6 +2660,9 @@ dictitems:
   cloud services:
     count: 2
     title: Cloud Services
+  cloud-init:
+    count: 1
+    title: Cloud-init
   clue:
     count: 2
     title: Clues
@@ -3227,6 +3230,9 @@ dictitems:
   control:
     count: 10
     title: Control
+  control click:
+    count: 1
+    title: Control Click
   control list:
     count: 1
     title: Control List
@@ -3236,6 +3242,9 @@ dictitems:
   control theory:
     count: 1
     title: Control Theory
+  control/function keys:
+    count: 1
+    title: Control/Function keys
   controlling breath:
     count: 1
     title: controlling breath
@@ -4554,7 +4563,7 @@ dictitems:
     count: 1
     title: DrinkeMe
   drinkme:
-    count: 7
+    count: 8
     title: DrinkMe
   drinkme linux:
     count: 2
@@ -4707,7 +4716,7 @@ dictitems:
     count: 1
     title: EDS
   edge:
-    count: 4
+    count: 5
     title: Edge
   edge browser:
     count: 1
@@ -5657,6 +5666,9 @@ dictitems:
   financial worth:
     count: 1
     title: Financial Worth
+  finder:
+    count: 1
+    title: Finder
   finding:
     count: 1
     title: Findings
@@ -6477,7 +6489,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 16
+    count: 17
     title: Google
   google analytics:
     count: 14
@@ -7319,6 +7331,9 @@ dictitems:
   icann:
     count: 1
     title: ICANN
+  icloud:
+    count: 1
+    title: iCloud
   icon:
     count: 3
     title: Icons
@@ -7755,7 +7770,7 @@ dictitems:
     count: 4
     title: Integration
   intel:
-    count: 3
+    count: 4
     title: Intel
   intel mac:
     count: 1
@@ -8262,7 +8277,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 40
+    count: 41
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -8364,7 +8379,7 @@ dictitems:
     count: 1
     title: key/value pairs
   keyboard:
-    count: 2
+    count: 3
     title: Keyboard
   keyboard shortcut:
     count: 1
@@ -8642,6 +8657,9 @@ dictitems:
   lazy loading:
     count: 1
     title: Lazy Loading
+  lcd weirdness:
+    count: 1
+    title: LCD weirdness
   lead:
     count: 1
     title: Lead
@@ -8709,7 +8727,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 7
+    count: 8
     title: Levinux
   levinux.com:
     count: 2
@@ -8889,7 +8907,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 164
+    count: 165
     title: Linux
   linux api:
     count: 1
@@ -9410,12 +9428,15 @@ dictitems:
   lyricism:
     count: 1
     title: Lyricism
+  m2 pro chip:
+    count: 1
+    title: M2 Pro chip
   mac:
-    count: 18
+    count: 19
     title: Mac
   macbook pro:
-    count: 1
-    title: Macbook Pro
+    count: 2
+    title: MacBook Pro
   machine:
     count: 6
     title: Machines
@@ -9440,6 +9461,9 @@ dictitems:
   macos:
     count: 2
     title: MacOS
+  macos ventura:
+    count: 1
+    title: MacOS Ventura
   macro:
     count: 12
     title: Macro
@@ -10413,8 +10437,8 @@ dictitems:
     count: 1
     title: Multics
   multipass:
-    count: 3
-    title: MultiPass
+    count: 4
+    title: Multipass
   multiple:
     count: 1
     title: Multiple
@@ -11285,6 +11309,9 @@ dictitems:
   option:
     count: 2
     title: options
+  option/command keys:
+    count: 1
+    title: Option/Command keys
   oracle:
     count: 2
     title: Oracle
@@ -13250,6 +13277,9 @@ dictitems:
   recorder:
     count: 1
     title: Recorder
+  recovery mode:
+    count: 1
+    title: Recovery Mode
   recruiting:
     count: 1
     title: Recruiting
@@ -13826,6 +13856,9 @@ dictitems:
   rosalind franklin:
     count: 1
     title: Rosalind Franklin
+  rosettaupdateauto:
+    count: 1
+    title: RosettaUpdateAuto
   rot13:
     count: 1
     title: Rot13
@@ -13919,6 +13952,9 @@ dictitems:
   s-expressions:
     count: 1
     title: S-Expressions
+  safari:
+    count: 2
+    title: Safari
   safety:
     count: 1
     title: Safety
@@ -14106,7 +14142,7 @@ dictitems:
     count: 1
     title: Screenshots
   script:
-    count: 46
+    count: 47
     title: Script
   script kiddie:
     count: 1
@@ -14177,6 +14213,9 @@ dictitems:
   second marriage:
     count: 1
     title: Second Marriage
+  secondary:
+    count: 1
+    title: Secondary
   secondary navigation:
     count: 1
     title: Secondary Navigation
@@ -16092,7 +16131,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 15
+    count: 16
     title: Terminal
   terminal environment:
     count: 1
@@ -16823,6 +16862,9 @@ dictitems:
   undisruptable:
     count: 1
     title: Undisruptable
+  undisruptable linux:
+    count: 1
+    title: Undisruptable Linux
   uneven videos:
     count: 1
     title: Uneven Videos
@@ -17684,6 +17726,9 @@ dictitems:
   white background:
     count: 2
     title: White Background
+  white rabbit:
+    count: 1
+    title: White Rabbit
   whitewashed:
     count: 1
     title: Whitewashed
