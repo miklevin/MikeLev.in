@@ -4,7 +4,7 @@ title: Compatible Linux X Server Graphics Across Windows & Mac
 headline: Exploring Compatible Linux X Server Graphics Across Windows and Mac
 description: As a reader trying to decide between Manim and Synfig for animation software, I need to consider my individual learning style, goals, and preferences. I am looking for step-by-step instructions to install Manim and supporting libraries on Ubuntu, as well as how to access localhost port 8888 and run JupyterLab on an Intel Mac. I have found resources on Proxy for accessing host Windows in WSL2.
 keywords: Linux, X Server, Graphics, Windows, Mac, Manim, Synfig, Animation, Software, Learning, Style, Goals, Preferences, Step-by-Step, Instructions, Install, Libraries, Ubuntu, Access, Localhost, Port 8888, Run, JupyterLab, Intel Mac, Proxy, WSL2, Fixing, WSL2 Localhost Access Issue, Multipass, VirtualBox, RDP, X11 Forwarding, Math, Python, GUI
-categories: jupyter, linux, graphic, mac, access, ubuntu, wsl, python, success, microsoft
+categories: python, linux, mac, success, microsoft, wsl, access, ubuntu, jupyter, graphic
 permalink: /blog/compatible-linux-x-server-graphics-across-windows-mac/
 layout: post
 ---
@@ -559,13 +559,13 @@ Source: Conversation with Bing, 3/3/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/access/'>Access</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>
