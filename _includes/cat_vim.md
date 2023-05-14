@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/">Matter Doesn't Matter, Except The Matter You Take Into Your Body</a> (Sun May 14, 2023)
+<br/>Happy Mothers' Day! On this day, I'm reflecting on the importance of plural possessives and the power of documentation. In this post, I discuss the importance of taking the right matter into your body and how it can affect your health and wellbeing. I also discuss how to get the right nutrition and the parallels between nutrition and information. Finally, I wish everyone a Happy Mothers' Day and thank them for reading.</li>
 <li><a href="/blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/">Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Running only Once!</a> (Sat May 13, 2023)
 <br/>Learn how to use existing tools to make your daily work easier. Get tips on how to layer on improvements and changes, and how to organize your files. Find out how to set up a Mac and run a nohup ping command from your .bash_profile. Get the solution to keep it running only once!</li>
 <li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)
