@@ -1124,6 +1124,12 @@ dictitems:
   apt:
     count: 2
     title: APT
+  apt update:
+    count: 1
+    title: Apt Update
+  apt upgrade:
+    count: 1
+    title: Apt Upgrade
   apt_install:
     count: 1
     title: Apt_Install
@@ -1532,11 +1538,14 @@ dictitems:
   bash file:
     count: 1
     title: bash file
+  bash profile:
+    count: 1
+    title: Bash Profile
   bash script:
     count: 1
     title: Bash Script
   bash scripting:
-    count: 1
+    count: 2
     title: Bash Scripting
   bash scripts:
     count: 1
@@ -2631,7 +2640,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 10
+    count: 11
     title: Cloud
   cloud chamber:
     count: 1
@@ -3060,7 +3069,7 @@ dictitems:
     count: 1
     title: Configurable Settings
   configuration:
-    count: 3
+    count: 4
     title: Configuration
   configuration file:
     count: 1
@@ -3608,6 +3617,9 @@ dictitems:
   customizing systems:
     count: 1
     title: Customizing Systems
+  cutting catapult ropes:
+    count: 1
+    title: Cutting Catapult Ropes
   cybermedium:
     count: 1
     title: Cybermedium
@@ -4538,6 +4550,9 @@ dictitems:
   drexel:
     count: 1
     title: Drexel
+  drinkeme:
+    count: 1
+    title: DrinkeMe
   drinkme:
     count: 7
     title: DrinkMe
@@ -5994,7 +6009,7 @@ dictitems:
     count: 1
     title: Frustration
   fstab:
-    count: 1
+    count: 2
     title: Fstab
   fstrings:
     count: 1
@@ -8147,6 +8162,9 @@ dictitems:
   journal file:
     count: 2
     title: Journal File
+  journal repo:
+    count: 1
+    title: Journal Repo
   journal-to-blog transformation:
     count: 1
     title: Journal-to-Blog Transformation
@@ -8157,7 +8175,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 32
+    count: 33
     title: Journaling
   journaling system:
     count: 1
@@ -8871,7 +8889,7 @@ dictitems:
     count: 3
     title: Linus Torvalds
   linux:
-    count: 163
+    count: 164
     title: Linux
   linux api:
     count: 1
@@ -9393,7 +9411,7 @@ dictitems:
     count: 1
     title: Lyricism
   mac:
-    count: 17
+    count: 18
     title: Mac
   macbook pro:
     count: 1
@@ -10083,7 +10101,7 @@ dictitems:
     count: 2
     title: mikeateleven.com
   mikelev.in:
-    count: 12
+    count: 13
     title: MikeLev.in
   mikelevin:
     count: 1
@@ -10476,7 +10494,7 @@ dictitems:
     count: 1
     title: N-word language
   na:
-    count: 13
+    count: 14
     title: NAS
   nailed:
     count: 1
@@ -10826,6 +10844,9 @@ dictitems:
   nodejs:
     count: 9
     title: NodeJS
+  nohup:
+    count: 1
+    title: Nohup
   noise:
     count: 1
     title: Noise
@@ -11828,6 +11849,9 @@ dictitems:
   pilot:
     count: 1
     title: Pilots
+  ping command:
+    count: 1
+    title: Ping Command
   pip:
     count: 5
     title: pip
@@ -12704,6 +12728,9 @@ dictitems:
   pydal:
     count: 1
     title: PyDAL
+  pyenv:
+    count: 1
+    title: Pyenv
   pypi:
     count: 7
     title: PyPI
@@ -12728,6 +12755,9 @@ dictitems:
   python 3.7:
     count: 1
     title: Python 3.7
+  python 3.8:
+    count: 1
+    title: Python 3.8
   python client libraries:
     count: 1
     title: Python client libraries
@@ -14835,7 +14865,7 @@ dictitems:
     count: 1
     title: Snowflake
   snowpack:
-    count: 1
+    count: 2
     title: Snowpack
   snowpark:
     count: 1
@@ -17220,7 +17250,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 103
+    count: 104
     title: Vim
   vim buffer:
     count: 1
@@ -17694,13 +17724,13 @@ dictitems:
     count: 71
     title: Windows
   windows 10:
-    count: 16
+    count: 17
     title: Windows 10
   windows 10/11:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 15
+    count: 16
     title: Windows 11
   windows 7:
     count: 1
@@ -17973,7 +18003,7 @@ dictitems:
     count: 1
     title: YAML-like
   yamlchop:
-    count: 2
+    count: 3
     title: YAMLchop
   yamlesque:
     count: 4
