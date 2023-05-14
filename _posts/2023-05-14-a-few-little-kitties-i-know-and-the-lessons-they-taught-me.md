@@ -123,34 +123,13 @@ Sollew", the single most important and under-read Dr. Seuss book.
 
 So I've thoroughly mixed the metaphors of sailing with cutting catapult ropes.
 By the end of this article, I will have significantly changed my life by
-putting together that standing desk in my bedroom...
+putting together that standing desk in my bedroom. Again, by the time I finish
+this post, the desk will be assembled and I will have entered a new chapter in
+my life, the standing-desk chapter.
 
-Okay, so the assumption that Snowflake and things like it are an important
-thing are based on them having the ability to get and keep customers in a way
-that they become your customers too, in the same Marketplace way that Apps and
-"ecosystems" around our phone and computer platforms create, but with the
-Cloud as the platform and data of various sorts as the product.
-
-As with App stores, sometimes your first entry into the arena is just for the
-learning. Your first app won't always become TikTok, nor necessarily even
-downloaded more than a dozen times, much less bought or subscribed-to. Entry #1
-might purely be a discovery process.
-
-Even once your data is there, there is still the potential danger of
-accidentally giving away the family jewels, your data. Snowflake offers ways to
-mitigate this concern, but one way is making the volume of data too massive to
-be moved off-cloud. All "extracted" products of value have to be processed
-on-cloud. Any thievery attempts should be costly and doomed to fail.
-
-The means of using Snowflake data is greatly proprietary, with custom SQL
-clients, custom versions of Python, all geared towards interactive Data Science
-use, and none geared towards general systems-automation... except Python 3.8 in
-particular. Only Python 3.8.
-
-With Python 3.8, a special Snowflake API can be used called Snowpark which
-removes the necessity to pull data down to do very large tasks. You can process
-terabytes of data in the cloud as easily as you would megabytes of data
-locally, but it still "feels" local.
+This not a dependency for my work, but honestly with having let Adi take over
+the living room, I need this to have a sort of workspace and focus that my
+current work calls for.
 
 It is important to document:
 
