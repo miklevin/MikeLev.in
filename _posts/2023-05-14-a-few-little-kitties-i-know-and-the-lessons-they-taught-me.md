@@ -147,8 +147,8 @@ else, usually ***perceived*** weaknesses of yours that they've been sitting on
 awhile and think they can get other to come around to believing or seeing it
 their way.
 
-Don't let such cheap diversionary tactics dissuade you. take their freaking out
-is strong indication that you are on the right track, and go into higher levels
+Don't let such cheap diversionary tactics dissuade you. Take any freaking out
+as strong indication that you are on the right track, and go into higher levels
 of observational, experimental and documenting mode. Be as Watson describes
 Holmes, that bloodhound on the trail of a scent. Even if you don't attack back,
 and you really never should... does Holmes?... do what Holmes does. Recruit the
