@@ -4,7 +4,7 @@ title: Intense Round of Pre-Productivity Tooling Refinement
 headline: "Refining My Pre-Productivity Tooling: A Journey of Iterations and Refinements"
 description: I'm refining my pre-productivity tooling with intense focus. I'm observing, enumerating errors, and writing down clues to help me find the right place in my code. I'm curling and copying, and experimenting with new techniques to get the script to function properly. After many iterations, I'm ready to take a break and attend an art exhibit in New York City. I'm also exploring ways to keep WSL from going to sleep in the background.
 keywords: Intense, Round, Pre-Productivity, Tooling, Refinement, Abstract, Opposition, Countermeasures, Observe, Enumerate, Concrete, Facts, Unassailably, Legit, Clues, Open, Mind, Errors, Install, Script, Systemd, Cloud, WSL, Root, Sudo, Man, sudo_root, Symlink, multi-user.target.wants, j
-categories: python, systemd, journaling, wsl
+categories: python, wsl, journaling, systemd
 permalink: /blog/intense-round-of-pre-productivity-tooling-refinement/
 layout: post
 ---
@@ -165,6 +165,6 @@ yamlification is completely optional.
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

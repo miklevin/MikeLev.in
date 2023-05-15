@@ -194,47 +194,58 @@ You just might be dealing with an agent of chaos. Agents of chaos work against
 having places for things, for it represents preparedness, thinking ahead,
 ability to respond well and generally have your act together. If somebody
 doesn't want you having your act together, they will attack your places for
-things. It is an attack. Do experiments. Put a bedside night table of just your
-own next to your bed and watch what happens. Keep a dustpan and brush under the
-kitchen sink and watch what happens. If you're not burning all your time
-looking for things, it's not going their way. Places for things!
+things. Don't believe me? Conduct experiments. Marvel at the predictability of
+it. For example, try putting a bedside night table were you can rest your
+glasses at night and know where they are in the morning, and watch watch what
+happens. The very concept of places for things is anathema to agents of chaos.
 
-This is not blame or excuses. This is recovery, healing, regaining balance and
-doing even better now given the life-lessons learned. Under the stress of such
-prolonged attacks that you don't want to believe are happening because it's
-really quite unthinkable, your brain gets thoroughly scrambled and you lose
-touch with the real you. Sympathetic vibrations amplify, resonate, and become
-visible ***about*** you and the people you're around, whereas the opposite,
-antithetical vibrations dampen and subdue and lower the volume on your real
-self.
+This is not blame or excuses for going scatterbrained as a result. This is a
+description of how to start on the road to recovery, healing, regaining balance
+and doing even better now given the life-lessons learned. 
+
+Under the stress of such prolonged attacks that you don't want to believe are
+happening because it's really quite unthinkable, your brain gets thoroughly
+scrambled and you lose touch with the real you. Sympathetic vibrations amplify,
+resonate, and become visible ***about*** you and the people you're around,
+whereas the opposite, antithetical vibrations dampen and subdue and lower the
+volume on your real self until you quite forget who you are.
 
 Coincidentally, the sympathetic part of the autonomic nervous system that
 prepares the body for stress-related activities. Sympathetic is fight or
 flight. The other side you actually ***want*** to activate, which ironically
 gets activated by sympathy is the parasympathetic part of your nervous system,
 haha! Freeloaders who are quite the opposite of sympathetic drive your
-sympathetic nervous system into fight or flight, but because you can't believe
-the reality of that because of who its coming from, you dull yourself. You turn
-down your emotional receptiveness and vulnerability, then they're going to
-attack you for being unemotional and distant, haha!
+sympathetic nervous system into fight or flight, but because you can't even let
+yourself believe the reality of that because of who its coming from, you dull
+yourself. You turn down your emotional receptiveness and vulnerability, then
+they're going to attack you for being unemotional and distant, haha! Damned if
+you do, damned if you don't. The point is to damn you. When an agent of chaos
+finagles their way into a freeloading position, they have a lot of time on
+their hands to damn you.
 
 The way out of this is to be organized, first in your mind. Read books and get
-the opinions of others. They will hate you for it and attack your books.
-Opening a book and starting to read it is a sure-fire trigger. Another good
-test. Go grab a book you've been wanting to read for awhile and actually take
-some of your time (yes, you do have it regardless of what you're led to
-believe) and start reading. Watch what happens. No matter what label or excuse
-is put on the reason for stopping you, you will be stopped from reading.
+the opinions of others. Your freeloader will hate you for it and attack your
+books. Opening a book and starting to read it is a sure-fire trigger. Another
+good test. Go grab a book you've been wanting to read for awhile and actually
+take some of your time (yes, you do have it regardless of what you're led to
+believe) and start reading. Watch what happens. Do the eyes start to vibrate?
+Are there daggers coming out of them?
 
-Correcting course? Well, reading of course! Start with reading. They can't keep
-your phone from you, and with an OLED phone screen set to a very energy-effect
-black and a big white readable font on the Kindle or similar app, you can read
-anytime, anywhere. Don't lose the habit or the love. Of all things you can do
-to keep yourself organized, doing so in your mind should be first, and can be
-easiest. Themes in literature about how "they'll" even try to take that away
-from you can be found in the pop-culture book The Circle, a lampoon on the
-Google culture. The closing chapter of the book is quite poignant. Then of
-course there's the immortal paragraph of To Althea, From Prison:
+No matter what label or excuse is put on the reason for stopping you, you will
+be stopped from reading, guaranteed. Run if you want, but you can't hide.
+Actually, you can now thankfully due to the state of technology. That same
+damned social media vehicle can be a vehicle for regaining and maintaining your
+sanity. You can actually read quite well on your phone these days.
+
+Agents of chaos can't keep your phone from you, and with an OLED phone screen
+set to a very energy-effect black and a big white readable font on the Kindle
+or similar app, you can read anytime, anywhere. Don't lose the habit or the
+love. Of all things you can do to keep yourself organized, doing so in your
+mind should be first, and can be easiest. Themes in literature about how
+"they'll" even try to take that away from you can be found in the pop-culture
+book The Circle, a lampoon on the Google culture. The closing chapter of the
+book is quite poignant. Then of course there's the immortal paragraph of To
+Althea, From Prison:
 
 ```
 Stone walls doe not a prison make,
