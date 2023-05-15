@@ -72,7 +72,7 @@ dictitems:
     count: 1
     title: --shutdown
   .bash_profile:
-    count: 2
+    count: 3
     title: .bash_profile
   .bash_prompt:
     count: 1
@@ -776,6 +776,9 @@ dictitems:
   ai-assisted coding:
     count: 1
     title: AI-assisted coding
+  ai-bots:
+    count: 1
+    title: AI-bots
   ai-dependencies:
     count: 1
     title: AI-Dependencies
@@ -791,6 +794,9 @@ dictitems:
   ai-systems:
     count: 1
     title: AI-Systems
+  ai-world:
+    count: 1
+    title: AI-world
   ai-writing:
     count: 1
     title: AI-writing
@@ -2082,7 +2088,7 @@ dictitems:
     count: 20
     title: Browser
   browser automation:
-    count: 12
+    count: 13
     title: Browser Automation
   browser wars:
     count: 1
@@ -3464,6 +3470,9 @@ dictitems:
   crawl-and-index model:
     count: 1
     title: Crawl-and-Index Model
+  crawler:
+    count: 1
+    title: crawlers
   crawling:
     count: 4
     title: Crawling
@@ -4442,6 +4451,9 @@ dictitems:
   django:
     count: 2
     title: Django
+  dmz:
+    count: 1
+    title: DMZ
   dna:
     count: 3
     title: DNA
@@ -4971,14 +4983,17 @@ dictitems:
     count: 1
     title: Emotions
   emotional:
-    count: 1
-    title: Emotional
+    count: 2
+    title: emotional
   emotional growth:
     count: 1
     title: emotional growth
   emotional intelligence:
     count: 1
     title: Emotional Intelligence
+  emotional intelligence superpowers:
+    count: 1
+    title: Emotional Intelligence Superpowers
   emotional protection:
     count: 1
     title: Emotional Protection
@@ -6254,6 +6269,9 @@ dictitems:
   gap analysis report:
     count: 1
     title: Gap Analysis Report
+  gary:
+    count: 1
+    title: Gary
   gaslighting:
     count: 1
     title: Gaslighting
@@ -6428,6 +6446,9 @@ dictitems:
   github copilot api:
     count: 1
     title: Github Copilot API
+  github jekyll:
+    count: 1
+    title: Github Jekyll
   github membership:
     count: 1
     title: Github Membership
@@ -6498,7 +6519,7 @@ dictitems:
     count: 1
     title: GNU Public License
   gnu screen:
-    count: 2
+    count: 3
     title: GNU screen
   gnu screen session:
     count: 1
@@ -6608,6 +6629,9 @@ dictitems:
   google photos api:
     count: 3
     title: Google Photos API
+  google podcasts:
+    count: 1
+    title: Google Podcasts
   google quality guidelines:
     count: 1
     title: Google Quality Guidelines
@@ -8123,6 +8147,9 @@ dictitems:
   javascript:
     count: 18
     title: JavaScript
+  javascript-based analytics:
+    count: 1
+    title: JavaScript-based analytics
   javascript-rendering:
     count: 1
     title: JavaScript-Rendering
@@ -8348,6 +8375,9 @@ dictitems:
   jupyter notebook:
     count: 20
     title: Jupyter Notebook
+  jupyter notebook server:
+    count: 1
+    title: Jupyter Notebook server
   jupyter notebooks:
     count: 8
     title: Jupyter Notebooks
@@ -8364,8 +8394,8 @@ dictitems:
     count: 3
     title: JupyterLab Desktop
   jupyterlab server:
-    count: 1
-    title: JupyterLab Server
+    count: 2
+    title: JupyterLab server
   jupyterlab-desktop:
     count: 2
     title: JupyterLab-Desktop
@@ -9039,8 +9069,8 @@ dictitems:
     count: 2
     title: Linux Server
   linux services:
-    count: 2
-    title: Linux Services
+    count: 3
+    title: Linux services
   linux shell:
     count: 1
     title: Linux Shell
@@ -9269,6 +9299,9 @@ dictitems:
   log:
     count: 2
     title: logs
+  log files:
+    count: 1
+    title: log files
   logarithmic scale:
     count: 1
     title: Logarithmic Scale
@@ -9737,6 +9770,9 @@ dictitems:
   marathon:
     count: 1
     title: Marathon
+  marc brackett:
+    count: 1
+    title: Marc Brackett
   margin:
     count: 1
     title: Margin
@@ -9788,6 +9824,9 @@ dictitems:
   martial arts:
     count: 1
     title: Martial Arts
+  martin:
+    count: 1
+    title: Martin
   martin richards:
     count: 1
     title: Martin Richards
@@ -10113,7 +10152,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 47
+    count: 48
     title: Microsoft
   microsoft 365:
     count: 2
@@ -10188,7 +10227,7 @@ dictitems:
     count: 1
     title: mik
   mike:
-    count: 1
+    count: 2
     title: Mike
   mike levin:
     count: 11
@@ -12485,6 +12524,9 @@ dictitems:
   previous/next blog:
     count: 1
     title: previous/next blog
+  primary key:
+    count: 1
+    title: primary key
   primary navigation:
     count: 1
     title: Primary Navigation
@@ -12936,8 +12978,8 @@ dictitems:
     count: 1
     title: Python requests library
   python script:
-    count: 1
-    title: Python Script
+    count: 2
+    title: Python script
   python standard library:
     count: 2
     title: Python Standard Library
@@ -13193,6 +13235,9 @@ dictitems:
   racial slur:
     count: 1
     title: racial slur
+  radar effect:
+    count: 1
+    title: radar effect
   radar events:
     count: 1
     title: Radar events
@@ -14511,7 +14556,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 78
+    count: 79
     title: SEO
   seo blog:
     count: 1
@@ -16065,7 +16110,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 24
+    count: 25
     title: Systemd
   systemd service:
     count: 1
@@ -16124,6 +16169,9 @@ dictitems:
   talking:
     count: 2
     title: Talking
+  talks at google:
+    count: 1
+    title: Talks at Google
   talmudic commentaries:
     count: 1
     title: Talmudic Commentaries
@@ -17246,6 +17294,9 @@ dictitems:
   user-interface:
     count: 1
     title: user-interface
+  useragent:
+    count: 1
+    title: useragent
   usr/local/sbin/:
     count: 1
     title: usr/local/sbin/

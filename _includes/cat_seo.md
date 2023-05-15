@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a> (Mon May 15, 2023)
+<br/>Learn how to nurture relationships and not be emotionally bankrupt with the art of listening. Discover the five basic skills of emotional intelligence and how to apply them in relationships. Get inspired by the stories of Nelson Mandela, Martin Luther King Jr., and Gandhi. Find out how to make people feel good about themselves and rise to the occasion with emotional intelligence superpowers.</li>
 <li><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a> (Sun May 14, 2023)
 <br/>I'm exploring the metaphor of cutting catapult ropes and how it relates to my professional trade. I'm reflecting on the opportunities available to me, the challenges I face, and my experiences with cutting catapult ropes in the past. I'm looking to make a positive difference in my own life, the lives of those around me, and the world at large.</li>
 <li><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a> (Fri May 12, 2023)
