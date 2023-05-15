@@ -324,43 +324,16 @@ The movie is really quite good though, too. If you want to know what
 gaslighting is, it's Alice joining the Mad Hatter and March Hare's tea party,
 and being uninvited as she is, she's asked a riddle and allegedly "invited in".
 Oh goodie, she's got "an in". So Alice repeats the riddle to which the Mad
-Hatter and March Hare call her ***start raving mad***. Classic gaslighting.
-Classic projection. 
+Hatter and March Hare call her ***start raving mad***. Actually, that was the
+movie version which was stronger. The book goes there, but Walt really nails
+it. There was so much more situational context of which Alice was not aware when
+she joined the tea party, and she was being "set up" for a fall. 
 
-There was so much more situational context of which Alice was not aware when
-she joined the tea party, and she was being "set up" for a fall. They cast her
-out before... before what? It was really a forgone conclusion. The Mad Hatter
-and March Hare knew they were getting rid of Alice from the moment she walked
-up. It was just an experience for Alice to have, perchance to learn from and
-become better off for it.
-
-Better off? The good little Alice dutifully left like she was supposed to and
-the good old boys of the patriarchy continue smacking each others backs and
-smoking their cigars. Yes, better off! If you want to have a party, entertain
-your own damn self. Don't let others define what a good time is. Clean cup,
-indeed.
-
-Let's assume for a minute that you're in a situation like Alice, unsure of
-yourself, in new territory that's rife with good ol' boys quite content with
-their party, oh say bilking Norwegian shipbuilding investors out of the next
-and the next and the next bridge-loan to make payroll. But that was so much
-easier than actually working. Nobody wants to say it out loud... that is, until
-they do because there's some sort of pride in secret knowledge. They just want
-to show off. 
-
-And so you're sitting there thinking, if this captain of the ship, this leader,
-had the very sales-people they lunch with, follow up on the torrent of
-sales-leads I was generating. We wouldn't be in that shameful situation, gq and
-I'd be making a lot more money to boot. 
-
-You realize that you are Alice at the Mad Hatter's tea party. Your whole reason
-for being there is a ruse. They're not ever going to pay out what they promised
-because you were being set up for failure in the first place. Imagine that for
-a moment, okay?
-
-Why is a raven like a writing desk? Because it provides a shallow premise to
-gaslight you when you answer, or even just repeat the riddle. You're stark
-raving mad. It's a set-up.
+Alice dutifully left when things got nuts, leaving the good old boys of the
+patriarchy continue smacking each others backs and smoking their cigars, in a
+manner of speaking. You might think I'm talking just about interpersonal
+relationships, but no it's really about the whole of society. That's what makes
+Alice so timeless and wonderful.
 
 One must really soul-search to decide whether to stand up to gaslighting and
 the patriarchy. Oh, another Sci-Fi book to read is *This Perfect Day*, by Ira
@@ -386,15 +359,14 @@ find relationships with other people through those same material things. The
 matter parties! If they want to control or punish you, they can only do it
 through the matter and not through some deeper connection.
 
-See, these mad matter types are really quite stupid. They think matter is just
-as important to everyone else as it is to them, and so they take that matter
-away from you as punishment. You see this all the time in proprietary
-subscription software. Adobe for example makes you base all your "internal"
-artistic skills and craft on "external" and quite take-away-able tool. Sure
-while it's software and ***should*** flow from machine to machine and decade to
-decade, it won't. For 1000 little reasons Adobe will make you pay to remain a
-graphic designer or video producer. It can't just be "in you" like oh say
-Inkscape, Gimp or Blender.
+See, these mad matter types think matter is just as important to everyone else
+as it is to them, and so they take that matter away from you as punishment. You
+see this all the time in proprietary subscription software. Adobe for example
+makes you base all your "internal" artistic skills and craft on "external" and
+quite take-away-able tool. Sure while it's software and ***should*** flow from
+machine to machine and decade to decade, it won't. For 1000 little reasons
+Adobe will make you pay to remain a graphic designer or video producer. It
+can't just be "in you" like oh say Inkscape, Gimp or Blender.
 
 The March Hare is there because he validates the Mad Hatter and gives him
 power. Bullies often have friends who empower them and egg them on, like Biff
