@@ -4,7 +4,7 @@ title: "Spoiler: There Is No Solla Sollew. The Solutions Are Within You"
 headline: Discover How to Find Solutions to Your Problems Within Yourself
 description: Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.
 keywords: personality, dynamic, static, false dichotomies, black and white, shades of grey, rainbow, rabbit hole, VSCode, vim, emacs, Web UI, command-line interface, robot overlords, higher order, intelligence, Internet, article, human intelligence, better, language, misinterpret, mommies, daddies, classic mistakes, over-sheltering, pandemic, quarantines, shut-in, social media, reading, laptop, computer
-categories: microsoft, computer, emacs, vim
+categories: microsoft, computer, vim, emacs
 permalink: /blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/
 layout: post
 ---
@@ -101,23 +101,23 @@ Source: Conversation with Bing, 5/15/2023
 Thank you, Bing! You are a true treasure-trove of wealth. I wonder if Google
 will ever catch up, because you know I got on their Google Labs waiting list
 for that thingie they announced last Wednesday at the Google I/O which seems to
-be some sort of way of getting alternative revenue sources from the taking of
+be some sort of way of getting alternative revenue sources from the tanking of
 AdWords clicks they're going to experience... Paid Inclusion 2.0. But I
 digress... where was I? Oh yeah, in the flow... in the zone...
 
 > Snidely's Snide  
 > And Dick's a Not Nice Guy  
-> But Their Method Never Fails
+> But Their Method Never Fails  
 > They'll Do You Wrong
 > While You Do Right
 > And Tie You to The Rails.
 
-> So, Do What's Right
-> And Don't Despair
-> And If They Make You Fear,
-> Continue Care
-> For Their Welfare;
-> Stay Sharp and Very Near.
+> So, Do What's Right  
+> And Don't Despair  
+> And If They Make You Fear,  
+> Continue Care  
+> For Their Welfare;  
+> Stay Sharp and Very Near.  
 
 Ugh! That is just generic poetry, people. Find your help from inside first,
 through writing and journaling. Survey the landscape. Document. Play the
@@ -158,5 +158,5 @@ find yourself reading it to your kids.
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/computer/'>Computer</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
