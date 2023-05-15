@@ -4,7 +4,7 @@ title: "How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening"
 headline: "Discovering the Power of Emotional Intelligence: My Journey to Becoming an Emotional Superhero"
 description: Learn how to nurture relationships and not be emotionally bankrupt with the art of listening. Discover the five basic skills of emotional intelligence and how to apply them in relationships. Get inspired by the stories of Nelson Mandela, Martin Luther King Jr., and Gandhi. Find out how to make people feel good about themselves and rise to the occasion with emotional intelligence superpowers.
 keywords: AI-world, crawlers, log files, Github Jekyll, JavaScript-based analytics, browser automation, AI-bots, DMZ, Linux services, Microsoft, systemd, Jupyter Notebook server, JupyterLab server, GNU screen, .bash_profile, Python script, useragent, primary key, radar effect, SEO, Google Podcasts, Martin, Gary, Mike, Emotional Intelligence Superpowers, Marc Brackett, Talks at Google, emotional
-categories: microsoft, systemd, browser automation, seo
+categories: microsoft, browser automation, seo, systemd
 permalink: /blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/
 layout: post
 ---
@@ -192,7 +192,17 @@ them. They want to be around people who make them feel good about themselves.
 
 {% include youtubePlayer.html id="JcFefehMpZ0" %}
 
+If you're triggered, try breathing exercises. Don't go for the automatic
+response. Pause and ask yourself how your best-self would respond. Would they
+become violent? Would they become threatening? I hope not. I hope that you feel
+inside that you are someone who can take a timeout yourself. Take a deep
+breath, and review in your head your last few journal entires where you asked
+yourself what would Fred Rodgers do? What would Bob Ross do? But that's me.
+Please find your own inner happy neighborhood full of happy little trees.
 
+I believe that you have an inner best self. I know it's in you. Visualize it. I
+can see it. I hope you can too. I hope you have a great day, and thank you for
+reading.
 
 
 
@@ -203,6 +213,6 @@ them. They want to be around people who make them feel good about themselves.
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
