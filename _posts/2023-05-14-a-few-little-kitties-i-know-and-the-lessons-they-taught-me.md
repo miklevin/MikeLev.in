@@ -4,7 +4,7 @@ title: A Few Little Kitties I Know, And The Lessons They Taught Me
 headline: Learning Life Lessons from the Kitties I Know
 description: I've learned many important lessons from cats in my life, from Scooter who taught me how to control my roughhousing to Eri who has taught me to be a better parent. In this article, I explore the idea of cutting catapult ropes and how to use the wind of your own abilities to move forward in life. I also discuss the importance of documentation, and the importance of having places for things.
 keywords: date, Sun May 14, 2023, title, A Few Little Kitties I Know, And The Lessons They Taught Me, cats, pet, lessons, MikeLevin.in, Pipulate.com, Levinux.com, amygdala, Roomba, LinkedIn, Facebook, Levinux fan page, Github, Moz, Amazon, Adi, Fortress of Aditude, Tardigrade Circus, consistency, physical environment, bedroom, standing desk, New York, Billy, Sammy
-categories: seo, git
+categories: git, seo
 permalink: /blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/
 layout: post
 ---
@@ -152,58 +152,43 @@ as strong indication that you are on the right track, and go into higher levels
 of observational, experimental and documenting mode. Be as Watson describes
 Holmes, that bloodhound on the trail of a scent. Even if you don't attack back,
 and you really never should... does Holmes?... do what Holmes does. Recruit the
-help of Scotland Yard, and even shares the glory when he can.
+help of Scotland Yard, not trying to upstage then and graciously handing them
+credit whenever possible.
 
-Do not retreat from attacks, such as they are designed to drive you to do. Are
+Do not retreat from attacks. Bluster is designed to drive you to retreat. Are
 you going to let the bluster of blowhards rule you? If you pull on a thread and
 it starts to unravel, keep pulling on it. You've found the lynchpin, the key to
 it all.
 
-Are you in such a situation? Preform a test. Buy something form Ikea with
-someone you're not sure is a freeloader or a life companion. Freeloaders do not
-clean up for themselves. They are stuck in that child-like state where an
-over-hovering parent did everything for them. This is why Ikea furniture so has
-the reputation as a relationship ender. Start putting it together. Or if it's
-them putting it together, go get the trash bag and start throwing away and
-recycling all the unwrapping garbage.
+Are you in such a situation? Preform a test. You know how Ikea furniture
+assembly has a reputation as being a danger to relationships? That's because it
+surfaces this stuff. Freeloaders for example do not clean up for themselves.
+It's part of the whole freeloading gig. They are stuck in that child-like
+state, perhaps from an over-hovering parent who did everything for them. 
 
-Freeloaders don't clean up after themselves. In this way you will be
-demonstrating to them that you care about your collective environment, the
-space which you share with them. Hey, that's the reason you were at Ikea in the
-first place, to better your lives through improving your environment, right? So
-it's only natural that if you're the one putting it together, then they'll
-gladly make it a nice pristine and appealing environment when it's done. I mean
-it was hard enough to put that thing together, right? You don't now want to be
-tripping over that box and all that those white static electric clinging foam.
+Here's the test. Get a trashbag or trashcan and throw stuff out as you unpack.
+Hey, that's the reason you were at Ikea in the first place, to better your
+lives through improving your environment, right? There shouldn't be any problem
+with throwing out trash as you go, so easy test, right? As you unwrap the Ikea
+box, you're holding the trash anyway. Instead of dropping it on the floor, fold
+it up and put it in a trashbag. It would hardly take any more time than not
+putting the trash in the bag, but this is a trigger. 
 
-Easy test, right? It will end your marriage asking for them to help with that
-clean-up. You are the one doing everything. You did the driving. You did the
-loading and unloading of the car. You're putting it together. And you're damned
-well going to be the one cleaning up afterwards too... or not, because they
-don't care. Am I right or am I right? Oops, is that person not who you thought?
+Taking the time to throw out trash is some kind of trigger, like it's a
+personal affront or something. It's one of the strangest things I've ever seen
+that throwing out trash as you go in a situation like this should cause
+relationship-ending levels of anger. Its something in their head you're not
+clued into, or maybe even able to be clued into because your brain just works
+differently.
 
-Here's one for you. You throw out the trash as well. Go get a trashbag and
-recycling bag. As you unwrap the Ikea box, you're holding the trash anyway.
-Instead of dropping it on the floor, fold it up and put it in a trashbag. It
-would hardly take any more time than not putting the trash in the bag, but this
-is a trigger. 
-
-You'd think it was some grandiose personal affront that you'd want the nice
-place that you worked so hard to make nice and are working now to make even
-nicer is all shit because you don't want all the shit around when you're done.
-If someone's motivations become completely baffling to you, there is by
-definition something else going on than you can see. Its something in their
-head you're not clued into, or maybe even able to be clued into because your
-brain just works differently.
-
-Have places for things. Not that you have to be an organizational freak, nor am
-I prescribing a static lifestyle with a big tower computer and multi-monitor
-setup. Quite the opposite, as your experience reading my material gradually
-paints the picture of, the place for things is ultimately in your mind, in a
-very Dune Mentat way. But Sci-Fi is Sci-Fi and we can talk about why NeoVim
-turns you into a Dune Mentat later. But grab that dustpan and brush. Know where
-it is? How about a nice bedside table so you know where your glasses are when
-you wake up. Is that being denied to you?
+It's okay to  ave places for things. Not that you have to be an organizational
+freak, nor am I prescribing a static lifestyle with a big tower computer and
+multi-monitor setup. Quite the opposite, as your experience reading my material
+gradually paints the picture of, the place for things is ultimately in your
+mind, in a very Dune Mentat way. But Sci-Fi is Sci-Fi and we can talk about why
+NeoVim turns you into a Dune Mentat later. But grab that dustpan and brush.
+Know where it is? How about a nice bedside table so you know where your glasses
+are when you wake up. Is that being denied to you?
 
 You just might be dealing with an agent of chaos. Agents of chaos work against
 having places for things, for it represents preparedness, thinking ahead,
@@ -462,5 +447,5 @@ follow.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
