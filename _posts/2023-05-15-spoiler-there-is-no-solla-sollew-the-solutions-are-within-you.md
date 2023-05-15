@@ -4,7 +4,7 @@ title: "Spoiler: There Is No Solla Sollew. The Solutions Are Within You"
 headline: Discover How to Find Solutions to Your Problems Within Yourself
 description: Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.
 keywords: personality, dynamic, static, false dichotomies, black and white, shades of grey, rainbow, rabbit hole, VSCode, vim, emacs, Web UI, command-line interface, robot overlords, higher order, intelligence, Internet, article, human intelligence, better, language, misinterpret, mommies, daddies, classic mistakes, over-sheltering, pandemic, quarantines, shut-in, social media, reading, laptop, computer
-categories: microsoft, emacs, computer, vim
+categories: vim, emacs, microsoft, computer
 permalink: /blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/
 layout: post
 ---
@@ -132,15 +132,29 @@ not working on solutions to "external" problems. There is no way I can express
 in this book the power of that story, suffice to say that when you find
 yourself projecting your own internal problems onto others, especially those
 who can't defend themselves, take up lessons from Solla Sollew and ***inhibit
-yourself***. I call it the Solla Sollew Uptake Inhibitor techniqu . It's 100%
-natural and won't interfere with your natural development.
+yourself***. I call it the Solla Sollew Uptake Inhibitor technique. It's much
+more natural than the alternatives and won't interfere with the development of
+your own self-regulation mechanisms at a critical time in your life.
 
-Even though Dr. Seuss cheated on his first wife and such infidelity is very
-hard to forgive and it ended up driving Hellen Palmer to suicide, that just
-redoubles the importance of stepping in when health and safety are at issue.
-It's important enough to let go of your static ways and try to make yourself a
-better person. Open Solla Sollew and give it a read. Who knows, you might even
-find yourself reading it to your kids.
+You know, sometimes you are denied the chance to be involved in important life
+decisions as expressly laid out, and you have to take matters into your own
+hands. It's always best to explore options that are not as dramatic as what you
+are capable of, given the situation and evidence. If someone evades the issue
+every time it's brought up, make it an issue they can't evade. Some things are
+important enough.
+
+And even though Dr. Seuss cheated on his wife, thus exposing his moral
+character human weakness, ***and*** even though such infidelity and betrayal
+is always advertised in-your-face making it very hard to forgive, let's try to
+cut Dr. Seuss a break. I think you would like the same chance at redemption.
+
+The fact that Dr. Seuss drove his sick wife Hellen Palmer to suicide, just
+reinforces the importance of doing the right thing when innocent bystanders are
+at risk from your behavior.
+
+Keep an open mind and open up ***I Had Trouble in getting to Solla Sollew***
+and give it a read. Who knows, you might even find yourself reading it to your
+kids.
 
 
 
@@ -158,7 +172,7 @@ find yourself reading it to your kids.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/computer/'>Computer</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/computer/'>Computer</a></h4></li></ul>
