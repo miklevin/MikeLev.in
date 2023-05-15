@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a> (Mon May 15, 2023)
+<br/>Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.</li>
 <li><a href="/blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/">Matter Doesn't Matter, Except The Matter You Take Into Your Body</a> (Sun May 14, 2023)
 <br/>Happy Mothers' Day! On this day, I'm reflecting on the importance of plural possessives and the power of documentation. In this post, I discuss the importance of taking the right matter into your body and how it can affect your health and wellbeing. I also discuss how to get the right nutrition and the parallels between nutrition and information. Finally, I wish everyone a Happy Mothers' Day and thank them for reading.</li>
 <li><a href="/blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/">Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Running only Once!</a> (Sat May 13, 2023)

@@ -1224,7 +1224,7 @@ dictitems:
     count: 1
     title: Art form
   article:
-    count: 10
+    count: 11
     title: Article
   article ideas:
     count: 1
@@ -1704,8 +1704,8 @@ dictitems:
     count: 1
     title: BetaAnalyticsDataClient
   better:
-    count: 1
-    title: Better
+    count: 2
+    title: better
   bff seo:
     count: 2
     title: BFF SEO
@@ -1826,6 +1826,9 @@ dictitems:
   black:
     count: 1
     title: black
+  black and white:
+    count: 1
+    title: black and white
   black body radiation:
     count: 1
     title: Black Body Radiation
@@ -2627,6 +2630,9 @@ dictitems:
   class:
     count: 3
     title: classes
+  classic mistakes:
+    count: 1
+    title: classic mistakes
   classify:
     count: 1
     title: Classify
@@ -2919,7 +2925,7 @@ dictitems:
     count: 1
     title: Command-Line Argument
   command-line interface:
-    count: 4
+    count: 5
     title: Command-Line Interface
   command-line parameters:
     count: 1
@@ -3048,7 +3054,7 @@ dictitems:
     count: 1
     title: Compton
   computer:
-    count: 5
+    count: 6
     title: Computer
   computer architecture:
     count: 1
@@ -3716,6 +3722,9 @@ dictitems:
   dad's death:
     count: 1
     title: Dad's death
+  daddy:
+    count: 1
+    title: daddies
   daemon:
     count: 3
     title: Daemons
@@ -4686,7 +4695,7 @@ dictitems:
     count: 1
     title: DVCS
   dynamic:
-    count: 2
+    count: 3
     title: Dynamic
   dynamic content:
     count: 1
@@ -4935,7 +4944,7 @@ dictitems:
     count: 3
     title: ELTgd
   emacs:
-    count: 5
+    count: 6
     title: Emacs
   emacs wizards:
     count: 1
@@ -5520,7 +5529,7 @@ dictitems:
     count: 1
     title: False Dependencies
   false dichotomies:
-    count: 2
+    count: 3
     title: False Dichotomies
   falsey:
     count: 1
@@ -7145,6 +7154,9 @@ dictitems:
   high-temperature superconductors:
     count: 1
     title: High-Temperature Superconductors
+  higher order:
+    count: 1
+    title: higher order
   higher-order:
     count: 1
     title: Higher-Order
@@ -7356,8 +7368,8 @@ dictitems:
     count: 1
     title: Human Error
   human intelligence:
-    count: 1
-    title: Human Intelligence
+    count: 2
+    title: human intelligence
   human sweat:
     count: 1
     title: Human Sweat
@@ -7875,7 +7887,7 @@ dictitems:
     count: 1
     title: Intel Mac
   intelligence:
-    count: 4
+    count: 5
     title: Intelligence
   intelligent:
     count: 1
@@ -7959,7 +7971,7 @@ dictitems:
     count: 1
     title: International Education
   internet:
-    count: 6
+    count: 7
     title: Internet
   internet connection:
     count: 1
@@ -8676,7 +8688,7 @@ dictitems:
     count: 1
     title: Land Lords
   language:
-    count: 12
+    count: 13
     title: Language
   language arts:
     count: 1
@@ -8697,7 +8709,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 12
+    count: 13
     title: Laptop
   laptop computing:
     count: 1
@@ -10334,6 +10346,9 @@ dictitems:
   misinformation:
     count: 1
     title: Misinformation
+  misinterpret:
+    count: 1
+    title: misinterpret
   misleading:
     count: 1
     title: misleading
@@ -10430,6 +10445,9 @@ dictitems:
   momentum:
     count: 2
     title: Momentum
+  mommy:
+    count: 1
+    title: mommies
   monday:
     count: 1
     title: Monday
@@ -11558,6 +11576,9 @@ dictitems:
   outputting:
     count: 1
     title: Outputting
+  over-sheltering:
+    count: 1
+    title: over-sheltering
   overcome:
     count: 2
     title: Overcome
@@ -11667,7 +11688,7 @@ dictitems:
     count: 1
     title: Pandas Library
   pandemic:
-    count: 3
+    count: 4
     title: Pandemic
   pandering:
     count: 1
@@ -11919,8 +11940,8 @@ dictitems:
     count: 1
     title: Personal Server
   personality:
-    count: 1
-    title: Personalities
+    count: 2
+    title: personality
   personality type:
     count: 1
     title: personality type
@@ -13155,8 +13176,8 @@ dictitems:
     count: 1
     title: Quantum Zeno Effect Experiment
   quarantine:
-    count: 1
-    title: Quarantine
+    count: 2
+    title: quarantines
   quark:
     count: 1
     title: Quarks
@@ -13209,8 +13230,8 @@ dictitems:
     count: 2
     title: Rabbit
   rabbit hole:
-    count: 1
-    title: Rabbit Hole
+    count: 2
+    title: rabbit hole
   rabbit hole evaluation:
     count: 1
     title: Rabbit Hole Evaluation
@@ -13253,6 +13274,9 @@ dictitems:
   raid:
     count: 1
     title: RAID
+  rainbow:
+    count: 1
+    title: rainbow
   rainbows end:
     count: 2
     title: Rainbows End
@@ -13365,7 +13389,7 @@ dictitems:
     count: 1
     title: readers
   reading:
-    count: 4
+    count: 5
     title: Reading
   reading directions:
     count: 1
@@ -13985,6 +14009,9 @@ dictitems:
   robot:
     count: 2
     title: Robots
+  robot overlords:
+    count: 1
+    title: robot overlords
   robotic:
     count: 1
     title: Robotic
@@ -14678,6 +14705,9 @@ dictitems:
   sh:
     count: 1
     title: Sh
+  shades of grey:
+    count: 1
+    title: shades of grey
   shadow-dude:
     count: 1
     title: Shadow-dude
@@ -14768,6 +14798,9 @@ dictitems:
   shortcut-seekers:
     count: 1
     title: Shortcut-Seekers
+  shut-in:
+    count: 1
+    title: shut-in
   si:
     count: 1
     title: SI
@@ -15114,8 +15147,8 @@ dictitems:
     count: 1
     title: Social Justice
   social media:
-    count: 2
-    title: Social Media
+    count: 3
+    title: social media
   social ranks:
     count: 1
     title: Social Ranks
@@ -15513,7 +15546,7 @@ dictitems:
     count: 3
     title: Staten Island
   static:
-    count: 2
+    count: 3
     title: Static
   static environments:
     count: 1
@@ -17505,7 +17538,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 105
+    count: 106
     title: Vim
   vim buffer:
     count: 1
@@ -17706,7 +17739,7 @@ dictitems:
     count: 2
     title: VPN
   vscode:
-    count: 22
+    count: 23
     title: VSCode
   vscodium:
     count: 1
@@ -17856,7 +17889,7 @@ dictitems:
     count: 2
     title: Web Stack
   web ui:
-    count: 1
+    count: 2
     title: Web UI
   web-based apis:
     count: 1
