@@ -4,7 +4,7 @@ title: "Spoiler: There Is No Solla Sollew. The Solutions Are Within You"
 headline: Discover How to Find Solutions to Your Problems Within Yourself
 description: Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.
 keywords: personality, dynamic, static, false dichotomies, black and white, shades of grey, rainbow, rabbit hole, VSCode, vim, emacs, Web UI, command-line interface, robot overlords, higher order, intelligence, Internet, article, human intelligence, better, language, misinterpret, mommies, daddies, classic mistakes, over-sheltering, pandemic, quarantines, shut-in, social media, reading, laptop, computer
-categories: microsoft, computer, vim, emacs
+categories: microsoft, emacs, computer, vim
 permalink: /blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/
 layout: post
 ---
@@ -120,9 +120,11 @@ digress... where was I? Oh yeah, in the flow... in the zone...
 > Stay Sharp and Very Near.  
 
 Ugh! That is just generic poetry, people. Find your help from inside first,
-through writing and journaling. Survey the landscape. Document. Play the
-observation game. Recognize attempts to recast reality as something different.
-There is no Solla Sollew. Solutions to your troubles? They're all within you.
+through writing and journaling. Survey the landscape. Dredge your subconscious.
+As the astronomers used to say, you don't write it down, it didn't happen. Play
+the observation game. Recognize attempts to recast reality as something
+different. There is no Solla Sollew. Solutions to your troubles? They're all
+within you.
 
 But those solutions will not surface if you've committed yourself to your old
 static ways. If you're not actively doing something to better yourself, you're
@@ -157,6 +159,6 @@ find yourself reading it to your kids.
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
 <li><h4><a href='/computer/'>Computer</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

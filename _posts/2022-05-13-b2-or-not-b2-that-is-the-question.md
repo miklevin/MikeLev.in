@@ -4,7 +4,7 @@ title: ":b2 or not :b2, That Is The Question"
 headline: "Gutting My Project Pipulate: My Journey to Share Ideas Publicly"
 description: I'm sharing my thoughts and ideas publicly using slicing & dicing, Github Pages, mlseo, and blogslicer for search engine optimization. I'm determined to gut my project Pipulate and make way for it now. Join me on this journey and read my blog post to learn more.
 keywords: b2, Question, Thoughts, Ideas, Slicing, Dicing, Github Pages, mlseo, blogslicer, Search Engine Optimization, Project Pipulate, Web-Publishing, Software
-categories: pipulate, question, jekyll, seo
+categories: jekyll, question, pipulate, seo
 permalink: /blog/b2-or-not-b2-that-is-the-question/
 layout: post
 ---
@@ -81,7 +81,7 @@ Do it now.
 ## Categories
 
 <ul>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/question/'>Questions</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/question/'>Questions</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>
