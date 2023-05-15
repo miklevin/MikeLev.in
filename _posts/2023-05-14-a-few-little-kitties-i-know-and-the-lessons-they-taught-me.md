@@ -4,7 +4,7 @@ title: A Few Little Kitties I Know, And The Lessons They Taught Me
 headline: Learning Life Lessons from the Kitties I Know
 description: I've learned many important lessons from cats in my life, from Scooter who taught me how to control my roughhousing to Eri who has taught me to be a better parent. In this article, I explore the idea of cutting catapult ropes and how to use the wind of your own abilities to move forward in life. I also discuss the importance of documentation, and the importance of having places for things.
 keywords: date, Sun May 14, 2023, title, A Few Little Kitties I Know, And The Lessons They Taught Me, cats, pet, lessons, MikeLevin.in, Pipulate.com, Levinux.com, amygdala, Roomba, LinkedIn, Facebook, Levinux fan page, Github, Moz, Amazon, Adi, Fortress of Aditude, Tardigrade Circus, consistency, physical environment, bedroom, standing desk, New York, Billy, Sammy
-categories: git, seo
+categories: seo, git
 permalink: /blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/
 layout: post
 ---
@@ -244,8 +244,8 @@ love. Of all things you can do to keep yourself organized, doing so in your
 mind should be first, and can be easiest. Themes in literature about how
 "they'll" even try to take that away from you can be found in the pop-culture
 book The Circle, a lampoon on the Google culture. The closing chapter of the
-book is quite poignant. Then of course there's the immortal paragraph of To
-Althea, From Prison:
+book is quite poignant. Then of course there's the immortal paragraph of ***To
+Althea, From Prison*** by political prisoner Richard Lovelace:
 
 ```
 Stone walls doe not a prison make,
@@ -258,69 +258,67 @@ Angels alone that sore above
         Enjoy such liberty.
 ```
 
-Alice often gave herself very good advice, but she'd very seldom take it. That
-is the purpose of this journal for me. Somehow or other, I managed to move my
-journal into vim back circa 2010 when I was re platforming onto Linux, Python,
-vim and git, although I barely even knew it, forging the timeless path as I
-was. And so now I give myself this advice:
+Alice often gave herself very good advice, but she'd very seldom take it.
+Journals help fix that. That is the purpose of this very journal you're reading
+for me. Somehow or other, I managed to move my journal into vim back circa 2010
+when I was re platforming onto Linux, Python, vim and git, although I barely
+even knew it, forging the timeless path as I was. And so now I give myself this
+advice:
 
-Be careful what you post in YouTube, because that's what's watched much more
-than this. The ability even just to read a page like this top-to-bottom is
-antithetical, as they say to freeloaders. Oh sure, they'll find its existence
-and forward it people as some sort of proof of something, but I am quite
-confident that any rational mine with enough patience and open mindedness to
-get to this point in my writing has gotten to, they're going to understand the
-circumstances of the situation a wee bit deeper than maybe the
-weapons-against-you seeker may have intended.
-
-Everything that is important or meaningful to you is at the top of a hierarchy.
-
-The tippy-top bit that you're used to thinking about, because it has some
-symbol or label there that makes it easy to refer to, is surface detail.
-
-Everything is like that. Every word, every picture, every person and lifeform. 
-
-Yeah, but what does this mean? It means you will be discredited for having such
-thoughts. Deep thoughts are an offense, and all that must ever be believed or
-credited is surface details... crafted language which lies. Symbols which
-compromise deeper meaning to be expressible at all, and therefore become
-parodies of themselves and easy targets for lampooning and satire. 
+Go ahead and write. Your stories are yours. They will be used against you,
+naturally. But make it so that it is precisely what you want. Getting things
+out in the open is best. Accountability is best. Documentation is best. Dig and
+get past the surface details and help others get past the surface details.
+Don't let spin-doctoring and gaslighting and other forms of manipulation
+prevent you from getting to the truth.
 
 All of this goes directly to the point why the vi/vim/NeoVim text editors are
 not merely put down by agents of chaos and those corralling you to a fleecing,
-it is an affront. That such a thing can exist that can let you organize your
-thoughts, your mind, your code, your story, and in a way where you don't have
-to pay anyone anything, and it's not tied to any particular piece of hardware,
-and that it requires long-won skills that validates a world-view they don't
-believe in and just can't believe exists, well. It's the sailboat on the
-rolling waves.
+it is an affront. Writing helps you think. Writing gets to your real feelings,
+your core, and eventually to clarity.
 
-They can hitch a ride on a car or a boat, and when they get tired of you, they
-can easily knock you off. But if that car or boat is a vehicle of the mind,
-whoah than oh boy! Well, just like they'll tell you they read the book when
-they only saw the movie (or are planning to if you dig deeper), they will tell
-themselves that vi/vim/NeoVim couldn't be that hard. Hey, if you can do it then
-they can do it too, and they'll learn it and all your skills, and then just go
-take your job. Get into the same field, maybe run for president, you know.
+That such a thing can exist that can let you organize your thoughts, your mind,
+your code, your story, and in a way where you don't have to pay anyone
+anything, and it's not tied to any particular piece of hardware, and that it
+requires long-won skills that validates a world-view they don't believe in.
+Make it true. Gain the skills to become your own navigator on the sea of fate. 
 
-But hard-won skills are hard won. The real-deal and genuine-articles remain
-real deals and genuine articles. And posers remain posers. If your vim skills
-can't be quickly picked up like toy-writing environments like Word and Docs let
-you, they figure the grapes must be sour anyway.
+When you are a skilled navigator on the sea of fate, be wary of who hitches a
+ride on your boat. If they get tired of you, will they try to knock you off
+that boat and take it for themselves? Watch for those signs. If you start going
+scrambled in your head, fortify yourself through journaling. They'll try to
+take that away from you too. God forbid you publish any of it, it's going to be
+the bluster of the gods raining down on your head, hahaha! You are free, my
+friend. Protect the freedom of your mind first, expression next, and mobility
+third.
 
-But reality is reality, and there's no denying that there's a rich text editor
-history here going back a half-century. Perhaps there's some substance there? A
-wee bit of truth? Competitors from Emacs to VSCode want to ***be*** vim. Right?
-Evil-mode in Emac's case, and vim bindings, vim plugins, vim help in VSCode.
-Embrace and displace. Classic ambush predator.
+Hard-won skills are hard won. The real-deal and genuine-articles remain real
+deals and genuine articles. Posers and freeloaders remain just that and
+everyone eventually sees it and knows it. The long-term effect of bluster
+versus real substance is funny that way. Don't let your accomplishments or the
+fact that you're the source of everything everyone wants and is fighting for be
+lost. Freeloaders can't hide the fact that they're freeloading. People who live
+on a foundation of real skills, self-reliance, and life-codes are likewise
+recognized. They can't take vim away from you. Work on a different level.
+
+There's a powerful thought-processor and text editor going back a half-century.
+Perhaps there's some substance there? It's there for you to take up. It's a
+place you can go in your mind to start blending together escape, practice,
+problem-solving, life-betterment and the like. And because it's so powerful,
+time-tested, and free and open source, it starts to become an internal
+capability. It becomes a limbs. And no version-changes, upgrades or whatever
+can even disrupt that.
 
 What does Alice tell us? Well right from the opening chapter, Alice tells us
 that if you're going to be in the game, which requires deviation from the
 status quo, you're going to encounter oddballs, and you're likely to be one of
-them even though you may not prefer to think of yourself that way. None of his
-is in the Disney movie by the way, so if you're a poser who wants to think you
-"get it" because you can remember seeing the movie, think again. Wow, I should
-really consider doing a dramatic reading of Alice online.
+them even though you may not prefer to think of yourself that way. Really, read
+Alice over and over. It's an amazing book.
+
+Much of what I'm talking about isn't in the Disney movie by the way, so if
+you're a poser who wants to think you "get it" because you can remember seeing
+the movie, think again. Wow, I should really consider doing a dramatic reading
+of Alice online.
 
 The movie is really quite good though, too. If you want to know what
 gaslighting is, it's Alice joining the Mad Hatter and March Hare's tea party,
@@ -458,5 +456,5 @@ follow.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
