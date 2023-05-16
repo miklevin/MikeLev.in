@@ -4,7 +4,7 @@ title: "2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths"
 headline: I'm Debunking Myths and Experiencing the Rewards of AI Along the Way.
 description: Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.
 keywords: work/life balance, Robert Cialdini, Influence, Power of Persuasion, GitLab, AI, AI goldrush, Ironman, Iron Dome, MOZ, Microsoft Word, Excel, Panda, Python, Vlookup, ETLs, imposter syndrome, Computer Age, Information Age, Batman, Adam West, Caesar Romero, Burgess Meredith, Frank Gorshin, Julie Newmar, Eartha Kitt, Lee Meriwether, Yvonne Craig, Burt Ward
-categories: ai, seo, imposter syndrome, python, panda
+categories: python, ai, imposter syndrome, panda, seo
 permalink: /blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/
 layout: post
 ---
@@ -15,9 +15,15 @@ group of your talk today. I popped-in, saw it wasn't intended for me as the
 target audience, but then I stayed anyway. You were my podcast in the
 background today while I worked, and boy am I glad I did. You will recognize
 your wisdom, and that of of Ashley, Jade and the others who spoke today. I hope
-you don't mind me reiterating many of your thought, weaving them into my own as
-I went. This is one of the many unexpected rewards of working where I do. What
-a wonderful group of people. Thank you!
+you don't mind me reiterating many of your thoughts, weaving them into my own
+as I went. I don't highlight what came from the 3 of you, specifically (just
+like Bard, haha!), but this is one of the many unexpected rewards of working
+where I do and I felt compelled both to share and acknowledge. 
+
+What a wonderful group of people and place I work. And that's not just sucking
+up. I'm in my fifties and have worked a lot of places, and don't give out such
+praise lightly. It's kinda more the opposite, so I am especially grateful to
+have this in my life right now.
 
 Now back to my ol' self-deprecating self. I've got to watch that or someday my
 readers will believe I'm as much of a jerk as I project. It's the old softie
@@ -223,8 +229,8 @@ very seldom take it.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
