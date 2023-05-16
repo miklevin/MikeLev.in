@@ -35,8 +35,44 @@ would a cheater do in a situation such as mine, where the stakes are so high?
 How many times will you endure a situation where if the roles were reversed
 there is no doubt about what they would do to you. How many times would you
 endure... make someone endure... well, anyway, this is about personal versus
-public writing because I'm deciding what repos go into Rabbit Hole Linux. I
-will give templates, on for `blog` and one for `journal` and set of a little
+public writing because I'm deciding what repos go into ***Rabbit Hole Linux***. 
+
+See what I did there? I talked about ***nothing*** and kept my promise. The
+incident of last Friday could have been a relative needing help from a car
+accident. It could have been a heart attack or falling down the stairs.
+Promises kept. Nuance and detail are important, and this post is about writing
+and publishing... and not publishing... but still writing it down. The
+corollary to the old astronomer's expression that if you don't write it down
+it didn't happen is that if you do write it down, it did happen... Especially
+if you have time-stamps and a continuous history of events going back for say,
+oh, I don't know, 20 years or so. Persistence over time. Documentation.
+Publishing when appropriate and not publishing when not. Powerful stuff,
+wouldn't you agree?
+
+Well if I've got your attention, read on. I want to talk about education.
+Literacy, in particular. Why you should read books and write a lot. Not just
+write once or twice and get it published in some gimmicky rag, but writing all
+the time for the love of it. Not as a chore, but as a way of life.
+
+- I will lead by example.
+- I will not build from scratch, but I will take up where others left off.
+- I will identify the most important undertones and trends in the world, which
+  in my opinion most people are missing, putting society itself in danger.
+- I will adjust my own life accordingly, and I will do my best to teach my
+  child to do the same.
+- I will create my own distro of Linux (again) to help towards this end. 
+- It will be accessible free through the most popular full-sized keyboard
+  platform in the world.
+- It will be built on timeless, proven, battle-tested tools which when used
+  together form a powerful, cohesive, and consistent whole.
+- It will be built on the shoulders of giants, and I will give credit where
+  credit is due.
+- I am fully aware that it will require an unlikely amount of suspended
+  disbelief, and I will use creativity to mitigate that.
+- That creativity will come in the form of a story, a narrative, a journey, a
+  and a whole bunch of... of... of... re-read Snow Crash, dumbass!
+
+I will give templates, on for `blog` and one for `journal` and set of a little
 framework for people like me who feel the turn the sieve of their lost thoughts
 into the pans of panning for gold, sometimes publicly with and for the public
 and with and for the AIs, versus the private thoughts were you can transcend
