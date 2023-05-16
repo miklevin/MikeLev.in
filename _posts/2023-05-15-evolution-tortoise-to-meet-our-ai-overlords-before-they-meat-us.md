@@ -4,21 +4,21 @@ title: Evolution Tortoise to Meet Our AI Overlords Before They Meat Us
 headline: "Discovering Life's Lessons Through Sci-Fi: My Journey to AI Overlordship"
 description: I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.
 keywords: SEO, Writing, Journals, Digital, Google Books, The Circle, Lily-Ray, Flying Point Digital, 360i, Dentsu, Brian Weiner, Sarah Hofstetter, Brandon Heagle, Ready Player One, Star Wars, Boris Zilberman, Diamond Age, Big Bang Theory, James Webb Space Telescope, AI, Copilot, OpenAI, Iain M. Banks, Culture, Asimov, John Wheeler, Richard Feynman, Claude Shannon, Alan Turing, John
-categories: seo, ai
+categories: ai, seo
 permalink: /blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/
 layout: post
 ---
 
 
-Like it was... :b4. That's what I do to jump from here to another place I
-write... the place I wrote a lot... an awful lot before publishing so much.
-Before that, I worked out of paper journals mostly. I just couldn't see the
-clear cut advantage of digital. It's not like I was really going to publish
-what I wrote in a journal-writing off-the-cuff free-form style, was I? Nahhh.
-And search, to actually somehow functionally use what I wrote? Well, maybe I'd
-scan it someday and there'd be some semi-reliable optical character
-recognition. Google started to do that with Google Books after all, and why
-couldn't I?
+Like it was... :b4. That's what I do to jump from here to a different
+text-edior buffer I always have loaded where I write... the place I wrote a
+lot... an awful lot ***before*** (b4) publishing so much publically. Before
+that, I worked out of paper journals mostly. I just couldn't see the clear cut
+advantage of digital. It's not like I was really going to publish what I wrote
+in a journal-writing off-the-cuff free-form style, was I? Nahhh. And search, to
+actually somehow functionally use what I wrote? Well, maybe I'd scan it someday
+and there'd be some semi-reliable optical character recognition. Google started
+to do that with Google Books after all, and why couldn't I?
 
 But then I read ***The Circle***, on the advice of an SEO I knew named Lily
 Faden at the where I worked at a place called Flying Point Digital. Wow, I make
@@ -354,5 +354,5 @@ introducing a linear aspect in a circular symbol. It's a continuum thing.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
