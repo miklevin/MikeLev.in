@@ -70,7 +70,9 @@ the time for the love of it. Not as a chore, but as a way of life.
 - I am fully aware that it will require an unlikely amount of suspended
   disbelief, and I will use creativity to mitigate that.
 - That creativity will come in the form of a story, a narrative, a journey, a
-  and a whole bunch of... of... of... re-read Snow Crash, dumbass!
+  and a whole bunch of... of... of... re-read ***Snow Crash***, dumbass!
+- And maybe ***The Selfish Gene*** while you're at it. And try to *get through
+  it* this time, LOL!
 
 I will give templates, on for `blog` and one for `journal` and set of a little
 framework for people like me who feel the turn the sieve of their lost thoughts

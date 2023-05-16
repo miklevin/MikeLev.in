@@ -5,7 +5,7 @@ headline: I'm wrangling new stuff and practicing what I preach
 description: Learn how to use Linux, Python, vim & git (LPvg) to stay up-to-date with the latest technologies. Follow the Unix philosophies to make sure your commands are universal and portable. Read about Levinux, Pipulate, and how to use them to make SEO deliverables. Plus, discover how to write from the first person perspective, keep your content short, and link your homepage index.md to the new include.
 keywords: Unix, Linux, Terminal, Shell, Windows, Mac, WSL, Ubuntu, Microsoft Store, AI, Machine Learning, API, Human-Machine Interface, Unix philosophies, Command-Line Interface, Files, Piping, Noah's Ark, Qemu, PC Emulator, Virtual Machine, Performance, Development Environment, Hypervisor, Docker, Containerized Apps, JupyterLab, GitHub, SEO, Deliverable-Maker, Content, Voice, Strategy, Journal, Pages, Posts
 question: What kind of content do you typically post on your website?
-categories: linux, python, mac, git, ubuntu, jupyter, microsoft, success, wsl, seo, container, ai
+categories: wsl, container, jupyter, seo, git, ubuntu, microsoft, python, success, mac, ai, linux
 permalink: /blog/chip-chop-chip-chop-top-10-done/
 layout: post
 ---
@@ -109,15 +109,15 @@ articles. Now link the homepage index.md to the new include...
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
