@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a> (Mon May 15, 2023)
+<br/>I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.</li>
 <li><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a> (Sat May 13, 2023)
 <br/>Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.</li>
 <li><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a> (Fri May 12, 2023)

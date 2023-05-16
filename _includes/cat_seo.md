@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a> (Mon May 15, 2023)
+<br/>I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.</li>
 <li><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a> (Mon May 15, 2023)
 <br/>Learn how to nurture relationships and not be emotionally bankrupt with the art of listening. Discover the five basic skills of emotional intelligence and how to apply them in relationships. Get inspired by the stories of Nelson Mandela, Martin Luther King Jr., and Gandhi. Find out how to make people feel good about themselves and rise to the occasion with emotional intelligence superpowers.</li>
 <li><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a> (Sun May 14, 2023)
