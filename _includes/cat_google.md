@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)
+<br/>Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.</li>
 <li><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a> (Sat May 13, 2023)
 <br/>Follow my exploration of the default behavior of an M2 Mac as I prepare to write a Mac DrinkMe install for Undisruptible Linux. I investigate running bash scripts on Mac with a double-click, the old .app bundling technique, and the ability to open apps from unidentified developers using control-click. I refresh myself on Mac's excellent virtual desktop implementation and built-in screen recording feature.</li>
 <li><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a> (Sun May 07, 2023)

@@ -491,6 +491,9 @@ dictitems:
   a-records:
     count: 1
     title: A-Records
+  a-team:
+    count: 1
+    title: A-Team
   aaro:
     count: 1
     title: AARO
@@ -744,7 +747,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 93
+    count: 94
     title: AI
   ai bros:
     count: 1
@@ -846,7 +849,7 @@ dictitems:
     count: 2
     title: Alice in Wonderland
   alice's adventures in wonderland:
-    count: 2
+    count: 3
     title: Alice's Adventures in Wonderland
   alien:
     count: 3
@@ -933,7 +936,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 6
+    count: 7
     title: Amiga
   amiga computer:
     count: 1
@@ -992,6 +995,9 @@ dictitems:
   anderson:
     count: 1
     title: Anderson
+  android:
+    count: 1
+    title: Android
   angel:
     count: 1
     title: angels
@@ -1104,7 +1110,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 5
+    count: 6
     title: Apple
   apple computers:
     count: 1
@@ -1827,8 +1833,11 @@ dictitems:
     count: 1
     title: Bit Optional Graphics Build
   bitbucket:
-    count: 1
+    count: 2
     title: Bitbucket
+  bitkeeper:
+    count: 1
+    title: BitKeeper
   black:
     count: 1
     title: black
@@ -1998,7 +2007,7 @@ dictitems:
     count: 1
     title: Boredom
   boris zilberman:
-    count: 1
+    count: 2
     title: Boris Zilberman
   borland:
     count: 1
@@ -2054,6 +2063,9 @@ dictitems:
   brand identity:
     count: 1
     title: Brand Identity
+  brand loyalty:
+    count: 1
+    title: Brand Loyalty
   brandon heagle:
     count: 1
     title: Brandon Heagle
@@ -2298,7 +2310,7 @@ dictitems:
     count: 1
     title: Caring
   carl jung:
-    count: 1
+    count: 2
     title: Carl Jung
   carl sagan:
     count: 1
@@ -2580,7 +2592,7 @@ dictitems:
     count: 1
     title: chown
   chrome:
-    count: 8
+    count: 9
     title: Chrome
   chrome devtools:
     count: 1
@@ -3125,6 +3137,9 @@ dictitems:
   confidence:
     count: 1
     title: confidence
+  confidence game:
+    count: 1
+    title: Confidence Game
   confidence,:
     count: 1
     title: Confidence,
@@ -4713,7 +4728,7 @@ dictitems:
     count: 1
     title: Duty
   dvcs:
-    count: 1
+    count: 2
     title: DVCS
   dynamic:
     count: 3
@@ -6441,7 +6456,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 75
+    count: 76
     title: Git
   git commit:
     count: 2
@@ -6465,7 +6480,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 45
+    count: 46
     title: Github
   github actions:
     count: 1
@@ -6498,7 +6513,7 @@ dictitems:
     count: 6
     title: Github.io
   gitlab:
-    count: 2
+    count: 3
     title: GitLab
   gl:
     count: 1
@@ -6609,7 +6624,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 17
+    count: 18
     title: Google
   google analytics:
     count: 14
@@ -6968,6 +6983,9 @@ dictitems:
   handwritten digits:
     count: 1
     title: Handwritten Digits
+  hannibal:
+    count: 1
+    title: Hannibal
   happier:
     count: 1
     title: Happier
@@ -8490,7 +8508,7 @@ dictitems:
     count: 1
     title: Kennith Thompson
   kernel:
-    count: 1
+    count: 2
     title: Kernel
   kernel headers:
     count: 1
@@ -8985,7 +9003,7 @@ dictitems:
     count: 1
     title: Lily
   lily-ray:
-    count: 1
+    count: 2
     title: Lily-Ray
   limit:
     count: 1
@@ -9066,10 +9084,10 @@ dictitems:
     count: 1
     title: Links API V2
   linus torvalds:
-    count: 3
+    count: 4
     title: Linus Torvalds
   linux:
-    count: 165
+    count: 166
     title: Linux
   linux api:
     count: 1
@@ -9482,6 +9500,9 @@ dictitems:
   love-worthy:
     count: 3
     title: Love-worthy
+  lovecraft:
+    count: 1
+    title: Lovecraft
   loving:
     count: 1
     title: Loving
@@ -10197,7 +10218,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 48
+    count: 49
     title: Microsoft
   microsoft 365:
     count: 2
@@ -10704,7 +10725,7 @@ dictitems:
     count: 1
     title: N-word language
   na:
-    count: 14
+    count: 15
     title: NAS
   nailed:
     count: 1
@@ -12092,6 +12113,9 @@ dictitems:
   pierre-simon laplace:
     count: 1
     title: Pierre-Simon Laplace
+  piers anthony:
+    count: 1
+    title: Piers Anthony
   pilot:
     count: 1
     title: Pilots
@@ -12587,6 +12611,9 @@ dictitems:
   primate brain:
     count: 1
     title: Primate Brain
+  primer:
+    count: 1
+    title: Primer
   primitive:
     count: 1
     title: Primitives
@@ -14622,7 +14649,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 80
+    count: 81
     title: SEO
   seo blog:
     count: 1
@@ -14747,6 +14774,9 @@ dictitems:
   shades of grey:
     count: 1
     title: shades of grey
+  shadow self:
+    count: 1
+    title: Shadow Self
   shadow-dude:
     count: 1
     title: Shadow-dude
@@ -16598,6 +16628,9 @@ dictitems:
   tictac flux liner:
     count: 1
     title: TicTac Flux Liner
+  tides,:
+    count: 1
+    title: Tides,
   tiktoken:
     count: 1
     title: tiktoken
@@ -16983,7 +17016,7 @@ dictitems:
     count: 5
     title: Tuples
   turing test:
-    count: 1
+    count: 2
     title: Turing Test
   turkey:
     count: 1
@@ -18168,7 +18201,7 @@ dictitems:
     count: 2
     title: WordPerfect
   wordpress:
-    count: 7
+    count: 8
     title: WordPress
   wordpress plugin:
     count: 1

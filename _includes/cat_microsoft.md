@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)
+<br/>Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.</li>
 <li><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a> (Mon May 15, 2023)
 <br/>Learn how to nurture relationships and not be emotionally bankrupt with the art of listening. Discover the five basic skills of emotional intelligence and how to apply them in relationships. Get inspired by the stories of Nelson Mandela, Martin Luther King Jr., and Gandhi. Find out how to make people feel good about themselves and rise to the occasion with emotional intelligence superpowers.</li>
 <li><a href="/blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/">Down, down, down! Would systemd going down under WSL2 never come to an end?</a> (Sat May 13, 2023)

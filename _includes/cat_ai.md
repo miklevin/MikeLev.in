@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)
+<br/>Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.</li>
 <li><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a> (Mon May 15, 2023)
 <br/>I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.</li>
 <li><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a> (Sat May 13, 2023)
