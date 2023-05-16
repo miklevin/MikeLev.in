@@ -4,7 +4,7 @@ title: "2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths"
 headline: I'm Debunking Myths and Experiencing the Rewards of AI Along the Way.
 description: Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.
 keywords: work/life balance, Robert Cialdini, Influence, Power of Persuasion, GitLab, AI, AI goldrush, Ironman, Iron Dome, MOZ, Microsoft Word, Excel, Panda, Python, Vlookup, ETLs, imposter syndrome, Computer Age, Information Age, Batman, Adam West, Caesar Romero, Burgess Meredith, Frank Gorshin, Julie Newmar, Eartha Kitt, Lee Meriwether, Yvonne Craig, Burt Ward
-categories: python, ai, imposter syndrome, panda, seo
+categories: panda, ai, seo, python, imposter syndrome
 permalink: /blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/
 layout: post
 ---
@@ -23,7 +23,8 @@ where I do and I felt compelled both to share and acknowledge.
 What a wonderful group of people and place I work. And that's not just sucking
 up. I'm in my fifties and have worked a lot of places, and don't give out such
 praise lightly. It's kinda more the opposite, so I am especially grateful to
-have this in my life right now.
+have this in my life right now. You find strength from surprising places when
+you need it.
 
 Now back to my ol' self-deprecating self. I've got to watch that or someday my
 readers will believe I'm as much of a jerk as I project. It's the old softie
@@ -229,8 +230,8 @@ very seldom take it.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li></ul>

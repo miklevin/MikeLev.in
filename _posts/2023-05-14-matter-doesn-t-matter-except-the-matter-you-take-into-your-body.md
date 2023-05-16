@@ -4,7 +4,7 @@ title: Matter Doesn't Matter, Except The Matter You Take Into Your Body
 headline: Exploring the Benefits of Proper Nutrition and Sleep for Optimal Health on Mothers' Day.
 description: Happy Mothers' Day! On this day, I'm reflecting on the importance of plural possessives and the power of documentation. In this post, I discuss the importance of taking the right matter into your body and how it can affect your health and wellbeing. I also discuss how to get the right nutrition and the parallels between nutrition and information. Finally, I wish everyone a Happy Mothers' Day and thank them for reading.
 keywords: journaling, plural possessives, Philadelphia Amiga Users' Group, Apple Macs, blog posts, NeoVim, vim, hyphens, iPhone, Samsung Note, Note 3, Note 5, Note 8, multi-platform, Apple-product, iSheep, Vitamix, nutrition, drugs, 9 amino acids, cell walls, tissues, bones, blood, antibodies, hormones, neurotransmitters, subconscious, smoothie, strawberries, flax seeds, feast and famine,
-categories: journaling, vim
+categories: vim, journaling
 permalink: /blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/
 layout: post
 ---
@@ -200,5 +200,5 @@ Happy Mothers' Day and You're Welcome!
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
