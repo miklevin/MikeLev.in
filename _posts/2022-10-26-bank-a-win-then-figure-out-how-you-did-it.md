@@ -82,5 +82,5 @@ a Thanksgiving turkey.
 ## Categories
 
 <ul>
-<li><h4><a href='/computer/'>Computer</a></h4></li>
+<li><h4><a href='/computer/'>computers</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li></ul>

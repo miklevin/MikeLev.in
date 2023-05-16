@@ -581,6 +581,9 @@ dictitems:
   acknowledgement:
     count: 1
     title: Acknowledgement
+  acm turing award:
+    count: 1
+    title: ACM Turing Award
   acronym:
     count: 1
     title: Acronym
@@ -839,6 +842,9 @@ dictitems:
   algorithm:
     count: 7
     title: Algorithms
+  algorithm analysis:
+    count: 1
+    title: algorithm analysis
   algorithmic bias:
     count: 1
     title: Algorithmic Bias
@@ -1673,6 +1679,9 @@ dictitems:
   belly-lox:
     count: 1
     title: Belly-Lox
+  ben franklin:
+    count: 1
+    title: Ben Franklin
   benchmark:
     count: 1
     title: Benchmark
@@ -1754,6 +1763,9 @@ dictitems:
   big data-pull:
     count: 1
     title: Big Data-Pull
+  big life changes:
+    count: 1
+    title: Big life changes
   big list:
     count: 1
     title: Big List
@@ -3084,8 +3096,8 @@ dictitems:
     count: 1
     title: Compton
   computer:
-    count: 6
-    title: Computer
+    count: 7
+    title: computers
   computer architecture:
     count: 1
     title: Computer Architecture
@@ -3093,8 +3105,8 @@ dictitems:
     count: 1
     title: Computer Literacy
   computer science:
-    count: 1
-    title: Computer Science
+    count: 2
+    title: computer science
   computer vision:
     count: 1
     title: Computer Vision
@@ -4575,7 +4587,7 @@ dictitems:
     count: 1
     title: Don't Buy
   donald knuth:
-    count: 1
+    count: 2
     title: Donald Knuth
   doomscrolling:
     count: 1
@@ -6030,7 +6042,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 3
+    count: 4
     title: Framework
   france:
     count: 1
@@ -6929,6 +6941,9 @@ dictitems:
   gun:
     count: 1
     title: Guns
+  gutenberg:
+    count: 1
+    title: Gutenberg
   guy:
     count: 1
     title: Guy
@@ -7071,8 +7086,8 @@ dictitems:
     count: 1
     title: Headline/Subhead
   health:
-    count: 1
-    title: Health
+    count: 2
+    title: health
   health benefits:
     count: 1
     title: Health Benefits
@@ -10475,6 +10490,9 @@ dictitems:
   modern:
     count: 1
     title: Modern
+  modern literacy:
+    count: 1
+    title: modern literacy
   modern radar:
     count: 1
     title: Modern radar
@@ -10538,6 +10556,9 @@ dictitems:
   moral:
     count: 1
     title: Moral
+  moral obligation:
+    count: 1
+    title: moral obligation
   moral responsibility:
     count: 1
     title: Moral Responsibility
@@ -10547,6 +10568,9 @@ dictitems:
   morning joe:
     count: 1
     title: morning joe
+  mother:
+    count: 1
+    title: mother
   motion of observer:
     count: 1
     title: Motion of Observer
@@ -10565,6 +10589,9 @@ dictitems:
   mounting:
     count: 1
     title: Mounting
+  movable:
+    count: 1
+    title: movable
   movabletype:
     count: 1
     title: MovableType
@@ -11075,6 +11102,9 @@ dictitems:
   noam chomsky:
     count: 1
     title: Noam Chomsky
+  nobel prize:
+    count: 1
+    title: Nobel Prize
   node:
     count: 5
     title: Node
@@ -11978,6 +12008,9 @@ dictitems:
   personal access token:
     count: 1
     title: Personal Access Token
+  personal cost:
+    count: 1
+    title: personal cost
   personal experience:
     count: 1
     title: personal experience
@@ -12030,7 +12063,7 @@ dictitems:
     count: 1
     title: Phenomenon
   philadelphia:
-    count: 1
+    count: 2
     title: Philadelphia
   philadelphia amiga users' group:
     count: 1
@@ -12092,6 +12125,9 @@ dictitems:
   pickle:
     count: 1
     title: pickle
+  pickle of a predicament:
+    count: 1
+    title: pickle of a predicament
   pickled format:
     count: 1
     title: Pickled Format
@@ -12294,7 +12330,7 @@ dictitems:
     count: 1
     title: Pocono Conference
   poconos:
-    count: 2
+    count: 3
     title: Poconos
   podcasts:
     count: 1
@@ -12629,12 +12665,18 @@ dictitems:
   printing:
     count: 1
     title: Printing
+  printing press:
+    count: 1
+    title: printing press
   prioritize:
     count: 2
     title: Prioritize
   prioritizing:
     count: 2
     title: Prioritizing
+  prisoner's dilemma:
+    count: 1
+    title: prisoner's dilemma
   privacy:
     count: 4
     title: Privacy
@@ -12659,6 +12701,9 @@ dictitems:
   private industry:
     count: 1
     title: Private Industry
+  private writing:
+    count: 1
+    title: private writing
   private-repo:
     count: 1
     title: private-repo
@@ -12905,6 +12950,9 @@ dictitems:
   public key:
     count: 1
     title: Public Key
+  public library:
+    count: 1
+    title: public library
   public opinion:
     count: 1
     title: Public Opinion
@@ -12918,11 +12966,14 @@ dictitems:
     count: 1
     title: Public Repository
   public school:
-    count: 1
-    title: Public School
+    count: 2
+    title: public school
   public storage:
     count: 1
     title: Public Storage
+  public writing:
+    count: 1
+    title: public writing
   publickey:
     count: 1
     title: Publickey
@@ -13298,6 +13349,9 @@ dictitems:
   rabbit hole evaluations:
     count: 1
     title: Rabbit Hole Evaluations
+  rabbit hole linux:
+    count: 1
+    title: Rabbit Hole Linux
   rabbit holes:
     count: 3
     title: Rabbit Holes
@@ -14219,12 +14273,15 @@ dictitems:
   s-expressions:
     count: 1
     title: S-Expressions
+  sacrifice:
+    count: 1
+    title: sacrifices
   safari:
     count: 2
     title: Safari
   safety:
-    count: 1
-    title: Safety
+    count: 2
+    title: safety
   safetyism:
     count: 1
     title: Safetyism
@@ -15716,6 +15773,9 @@ dictitems:
   stochastic processes:
     count: 1
     title: Stochastic Processes
+  stockholm syndrome:
+    count: 1
+    title: Stockholm Syndrome
   stoicism:
     count: 1
     title: Stoicism
@@ -15989,6 +16049,9 @@ dictitems:
   suggestion:
     count: 1
     title: Suggestions
+  sumarian clay tablets:
+    count: 1
+    title: Sumarian clay tablets
   summarize:
     count: 2
     title: Summarize
@@ -16428,7 +16491,7 @@ dictitems:
     count: 1
     title: Temperature
   template:
-    count: 9
+    count: 10
     title: Template
   templating:
     count: 1
@@ -17345,6 +17408,9 @@ dictitems:
   upper atmosphere:
     count: 1
     title: Upper Atmosphere
+  uprooting:
+    count: 1
+    title: uprooting
   ups:
     count: 1
     title: Ups
@@ -17666,6 +17732,9 @@ dictitems:
   viral content:
     count: 1
     title: viral content
+  virginia:
+    count: 1
+    title: Virginia
   virtual:
     count: 3
     title: Virtual

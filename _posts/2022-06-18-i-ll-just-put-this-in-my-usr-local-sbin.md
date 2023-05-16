@@ -4,7 +4,7 @@ title: I'll Just Put This In My /usr/local/sbin/
 headline: Discovering a System to Back Up System Customizations and Edit Files Listed in a CSV File at Once
 description: I recently changed my journal from .txt to .md to be compatible with my new content management system. I'm excited to have discovered this system which allows me to back up my system customizations with a vim repo, and to edit all files listed in a csv file at once. I'm now sharing this with the world - join me to learn how to work this way and make the most of your system!
 keywords: usr/local/sbin/, journal, .txt, .md, content management system, vim repo, csv file, Linux Terminal, git repo, sites.csv, vim buffer, script, system customizations, Microsoft, annual dues, organized, world, sharing
-categories: python, linux terminal, vim, microsoft
+categories: microsoft, vim, python, linux terminal
 permalink: /blog/i-ll-just-put-this-in-my-usr-local-sbin/
 layout: post
 ---
@@ -162,7 +162,7 @@ the Amiga. Well, I know now. Share it with the world. Okay, done.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li></ul>
