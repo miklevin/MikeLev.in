@@ -4,11 +4,24 @@ title: "2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths"
 headline: I'm Debunking Myths and Experiencing the Rewards of AI Along the Way.
 description: Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.
 keywords: work/life balance, Robert Cialdini, Influence, Power of Persuasion, GitLab, AI, AI goldrush, Ironman, Iron Dome, MOZ, Microsoft Word, Excel, Panda, Python, Vlookup, ETLs, imposter syndrome, Computer Age, Information Age, Batman, Adam West, Caesar Romero, Burgess Meredith, Frank Gorshin, Julie Newmar, Eartha Kitt, Lee Meriwether, Yvonne Craig, Burt Ward
-categories: panda, python, imposter syndrome, ai, seo
+categories: ai, seo, imposter syndrome, python, panda
 permalink: /blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/
 layout: post
 ---
 
+
+First, a word of thanks to Cheryl Daniels who sent the notification to the MOZ
+group of your talk today. I popped-in, saw it wasn't intended for me as the
+target audience, but then I stayed anyway. You were my podcast in the
+background today while I worked, and boy am I glad I did. You will recognize
+your wisdom, and that of of Ashley, Jade and the others who spoke today. I hope
+you don't mind me reiterating many of your thought, weaving them into my own as
+I went. This is one of the many unexpected rewards of working where I do. What
+a wonderful group of people. Thank you!
+
+Now back to my ol' self-deprecating self. I've got to watch that or someday my
+readers will believe I'm as much of a jerk as I project. It's the old softie
+protecting themselves emotionally with a prickly exterior trick. Trust me.
 
 Okay, dumbass. Put the same passion and love and intensity of writing in for
 your job as you do for your personal life. Part of the problem is that I just
@@ -210,8 +223,8 @@ very seldom take it.
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
