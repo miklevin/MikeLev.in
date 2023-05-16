@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a> (Tue May 16, 2023)
+<br/>Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.</li>
 <li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)
 <br/>Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.</li>
 <li><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a> (Mon May 15, 2023)

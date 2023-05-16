@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a> (Tue May 16, 2023)
+<br/>Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.</li>
 <li><a href="/blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/">Down, down, down! Would systemd going down under WSL2 never come to an end?</a> (Sat May 13, 2023)
 <br/>I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price. s</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)

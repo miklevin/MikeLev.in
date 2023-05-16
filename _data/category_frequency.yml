@@ -614,6 +614,9 @@ dictitems:
   ada lovelace:
     count: 2
     title: Ada Lovelace
+  adam west:
+    count: 1
+    title: Adam West
   adapt:
     count: 2
     title: adapt
@@ -750,7 +753,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 94
+    count: 95
     title: AI
   ai bros:
     count: 1
@@ -758,6 +761,9 @@ dictitems:
   ai design:
     count: 1
     title: AI Design
+  ai goldrush:
+    count: 1
+    title: AI goldrush
   ai language models:
     count: 1
     title: AI Language Models
@@ -1617,7 +1623,7 @@ dictitems:
     count: 1
     title: Bathroom
   batman:
-    count: 1
+    count: 2
     title: Batman
   battery:
     count: 1
@@ -2192,6 +2198,12 @@ dictitems:
   bumbling spy:
     count: 1
     title: Bumbling Spy
+  burgess meredith:
+    count: 1
+    title: Burgess Meredith
+  burt ward:
+    count: 1
+    title: Burt Ward
   business plan:
     count: 1
     title: Business Plan
@@ -2228,6 +2240,9 @@ dictitems:
   cached css:
     count: 1
     title: Cached CSS
+  caesar romero:
+    count: 1
+    title: Caesar Romero
   caffeine:
     count: 1
     title: Caffeine
@@ -3098,6 +3113,9 @@ dictitems:
   computer:
     count: 7
     title: computers
+  computer age:
+    count: 1
+    title: Computer Age
   computer architecture:
     count: 1
     title: Computer Architecture
@@ -4790,6 +4808,9 @@ dictitems:
   earth science:
     count: 1
     title: Earth Science
+  eartha kitt:
+    count: 1
+    title: Eartha Kitt
   ease:
     count: 1
     title: Ease
@@ -5294,6 +5315,9 @@ dictitems:
   etl:
     count: 2
     title: ETL
+  etls:
+    count: 1
+    title: ETLs
   euler diagrams:
     count: 1
     title: Euler Diagrams
@@ -5367,7 +5391,7 @@ dictitems:
     count: 4
     title: Example
   excel:
-    count: 8
+    count: 9
     title: Excel
   excel file:
     count: 1
@@ -6047,6 +6071,9 @@ dictitems:
   france:
     count: 1
     title: France
+  frank gorshin:
+    count: 1
+    title: Frank Gorshin
   fravor:
     count: 1
     title: Fravor
@@ -6525,7 +6552,7 @@ dictitems:
     count: 6
     title: Github.io
   gitlab:
-    count: 3
+    count: 4
     title: GitLab
   gl:
     count: 1
@@ -7644,7 +7671,7 @@ dictitems:
     count: 1
     title: Imposter
   imposter syndrome:
-    count: 7
+    count: 8
     title: Imposter Syndrome
   improve:
     count: 2
@@ -7770,7 +7797,7 @@ dictitems:
     count: 1
     title: Inflation
   influence:
-    count: 2
+    count: 3
     title: Influence
   influencer:
     count: 1
@@ -7785,7 +7812,7 @@ dictitems:
     count: 5
     title: Information
   information age:
-    count: 2
+    count: 3
     title: Information Age
   information age samurai:
     count: 1
@@ -8138,6 +8165,12 @@ dictitems:
   iron:
     count: 2
     title: iron
+  iron dome:
+    count: 1
+    title: Iron Dome
+  ironman:
+    count: 1
+    title: Ironman
   irrational:
     count: 1
     title: irrational
@@ -8408,6 +8441,9 @@ dictitems:
   julian schwinger:
     count: 1
     title: Julian Schwinger
+  julie newmar:
+    count: 1
+    title: Julie Newmar
   jumanji:
     count: 1
     title: Jumanji
@@ -8876,6 +8912,9 @@ dictitems:
   ledger:
     count: 1
     title: ledgers
+  lee meriwether:
+    count: 1
+    title: Lee Meriwether
   left-arrow:
     count: 1
     title: left-arrow
@@ -10287,7 +10326,7 @@ dictitems:
     count: 1
     title: Microsoft Windows
   microsoft word:
-    count: 2
+    count: 3
     title: Microsoft Word
   mid-twenties:
     count: 1
@@ -10617,7 +10656,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 18
+    count: 19
     title: MOZ
   moz api:
     count: 1
@@ -11763,7 +11802,7 @@ dictitems:
     count: 1
     title: Panasonic Lumix G7
   panda:
-    count: 13
+    count: 14
     title: Pandas
   pandas dataframe:
     count: 1
@@ -12500,6 +12539,9 @@ dictitems:
   power good:
     count: 1
     title: Power Good
+  power of persuasion:
+    count: 1
+    title: Power of Persuasion
   power transmission:
     count: 1
     title: Power Transmission
@@ -13074,7 +13116,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 182
+    count: 183
     title: Python
   python 3:
     count: 1
@@ -14118,7 +14160,7 @@ dictitems:
     count: 1
     title: robbery
   robert cialdini:
-    count: 2
+    count: 3
     title: Robert Cialdini
   robin:
     count: 1
@@ -17838,8 +17880,8 @@ dictitems:
     count: 4
     title: Vlogging
   vlookup:
-    count: 2
-    title: VLookup
+    count: 3
+    title: Vlookup
   vm:
     count: 2
     title: VM
@@ -18287,6 +18329,9 @@ dictitems:
   work-journal:
     count: 1
     title: Work-Journal
+  work/life balance:
+    count: 1
+    title: work/life balance
   workflow:
     count: 4
     title: Workflow
@@ -18494,6 +18539,9 @@ dictitems:
   yum:
     count: 1
     title: YUM
+  yvonne craig:
+    count: 1
+    title: Yvonne Craig
   zawinski's law:
     count: 1
     title: Zawinski's Law
