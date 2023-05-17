@@ -4,7 +4,7 @@ title: Going Down the WSL to LXD Install Script Rabbit Hole
 headline: Exploring the WSL and LXD Install Script to Create a Jupyter Server on Windows
 description: I'm working on a project to create a bash install script that will set up a Jupyter server on a Windows machine. I'm writing the script, installing it from an Ubuntu 18.04 instance with LXD, creating a PowerShell script, and setting up a ~/repos folder and jupyme repo. Follow my journey as I build this project and learn along the way.
 keywords: Windows, Bash, Script, Ubuntu, LXD, PowerShell, Jupyter, Server, Instance, Repos, Github, Jupyme
-categories: ubuntu, microsoft, python, linux, container, jupyter, git, powershell
+categories: ubuntu, powershell, git, python, jupyter, container, microsoft, linux
 permalink: /blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/
 layout: post
 ---
@@ -104,10 +104,10 @@ for that next.
 
 <ul>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

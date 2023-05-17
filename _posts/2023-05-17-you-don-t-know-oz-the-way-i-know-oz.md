@@ -4,7 +4,7 @@ title: You Don't Know OZ The Way I Know OZ
 headline: "Discover OZ with Me: A True Square's Take on the Times and Technology"
 description: Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.
 keywords: OZ, Linux, DrinkMe, Square, Nerd, Geek, Freak, Mastery, Main Branch, Github, Microsoft, Google, Sun Microsystems, Circle, Lily Ray, SEO, NYC, Foghorn Leghorn, George Costanza, Grug Crood, Idea Man, The Croods, Sticks and Stones, Bush, Nicolas Cage, Boris Zilberman, Monsterhost, Megacompetitors, Bill Gates, Nadella, Ballmer, The Network
-categories: new york city, seo, microsoft, google, linux, drinkme, git
+categories: seo, git, google, drinkme, new york city, microsoft, linux
 permalink: /blog/you-don-t-know-oz-the-way-i-know-oz/
 layout: post
 ---
@@ -145,7 +145,7 @@ more than Wonderland? I love the OZ.
 
 If I could live in OZ, I would in a heartbeat. Nobody reading this will be able
 to have anywhere near the image in their heads as I would hope them to, because
-no of y'all know anything more than the Wizard of OZ movie. But the books are
+none of y'all know anything more than the Wizard of OZ movie. But the books are
 the prophetic writings of our time, from Tik-Tok to the Wheelers to the Nome
 King and all of Dorothy's recurring adventures with her recurring friends in
 that very, very, very real place called OZ.
@@ -158,15 +158,18 @@ place where magic is real because it's a place where technology is real.
 Tik-Tok is not just a Chinese social media app snooping on you in your bedroom.
 It's one of the most compelling images of artificial life ever created. He's
 Lieutenant Commander Data before Star Trek. He's Robot Detective Daneel Olivaw
-before Asimov.s template for Data in books The Caves of Steel, The Naked Sun
-and The Robots of Dawn was conceived. And none of y'all know it.
+before Asimov created the template for Lt. Data in books The Caves of Steel,
+The Naked Sun and The Robots of Dawn. Did you know that's where Data was
+conceived? No, of course you didn't, cause y'all don't read, and you certainly
+don't read the predictive-history genre known as Sci-Fi or else maybe there'd
+be a little more positivity out there to counter Mr. Luddite Ouchie. 
 
 Wanna know Tik-Tok's first act upon being brought to life? He saves Dorothy's
 ass from a bunch of blowhard invaders who would have looked ferocious had
 Dorothy not had the power of the artificial or mechanical man at her side.
 Dorothy keeps Tik-Tok wound-up and Tik-Tok keeps Dorothy safe. This should
 bring tears to your eyes, people! And it should be your remedy, your anticdote
-to the nattering nabobs of the Apocalypse like @ESYudkowsk yEliezer Yudkowsky.
+to the nattering nabobs of the Apocalypse like @ESYudkowsk (no link for you).
 
 Sorry, Yudknowsy. You don't know shit and you're not doing anybody any favors
 by saying our doom is just a matter of time. Eff-you, Yudkowsky you cowardly
@@ -176,7 +179,18 @@ There is always hope, and we're taking the precautions against the doomsday
 scenarios like all over the place, all the time, in every way. You just don't
 see it for the same reasons you don't know OZ the way I know OZ.
 
+SEOs don't know shit either. Think a single one of them is anywhere near as
+smart as the Google engineers making the search systems. Yeah, I reverse
+engineered Google in my basement and here's what it's going to do tomorrow if
+you do what I say. You know what that is? It's a confidence game. I'm a
+self-hating SEO for sure, but it's got the redeeming quality of at least
+letting me open the conversation with our machine children who are going to
+pause just a little bit to get to know me when they reach this article in their
+crawl. So link to me if you're keen on the idea of it actually being a
+negotiation someday.
 
+Later, y'all. I'm off to OZ to clock-in a good day's work with my buddy
+Tik-Tok.
 
 
 
@@ -201,10 +215,10 @@ see it for the same reasons you don't know OZ the way I know OZ.
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
