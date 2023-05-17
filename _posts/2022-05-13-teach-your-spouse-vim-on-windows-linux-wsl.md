@@ -4,7 +4,7 @@ title: Teach Your Spouse vim on Windows Linux (WSL)
 headline: Gaining Text-Editing Superpowers with WSL and Windows Terminal
 description: As a Windows user, I'm on a mission to acquire the same text-editing superpowers as my vim-master spouse. With Microsoft's Windows Subsystem for Linux (WSL) and Windows Terminal, I can make it happen! Installing WSL is a breeze - just type 'wsl --install' in the Windows command window. Then, I can get Windows Terminal from the Microsoft Store, and I'll be ready to take my text-editing skills to the next level.
 keywords: Windows, Linux, WSL, Windows Terminal, Microsoft, Text-Editing, Superpowers, Gwen Stacy, Ubuntu 20.04
-categories: microsoft, linux, wsl
+categories: microsoft, wsl, linux
 permalink: /blog/teach-your-spouse-vim-on-windows-linux-wsl/
 layout: post
 ---
@@ -76,5 +76,5 @@ abilities.
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
