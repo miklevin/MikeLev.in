@@ -4,7 +4,7 @@ title: You Don't Know OZ The Way I Know OZ
 headline: "Discover OZ with Me: A True Square's Take on the Times and Technology"
 description: Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.
 keywords: OZ, Linux, DrinkMe, Square, Nerd, Geek, Freak, Mastery, Main Branch, Github, Microsoft, Google, Sun Microsystems, Circle, Lily Ray, SEO, NYC, Foghorn Leghorn, George Costanza, Grug Crood, Idea Man, The Croods, Sticks and Stones, Bush, Nicolas Cage, Boris Zilberman, Monsterhost, Megacompetitors, Bill Gates, Nadella, Ballmer, The Network
-categories: linux, seo, git, drinkme, google, microsoft, new york city
+categories: git, linux, seo, drinkme, google, microsoft, new york city
 permalink: /blog/you-don-t-know-oz-the-way-i-know-oz/
 layout: post
 ---
@@ -95,9 +95,9 @@ saber-toothedness spontaneously re-evolves in the fossil record, be it
 saber-toothed cats or saber-toothed fish or saber-toothed dinosaurs,
 saber-toothed reptiles or even saber-toothed whales.
 
-Think on that. Do you know what a saber-toothedness is? Do you know what
-capability that one little tweak in your DNA gives you? It gives you the
-ability to kill your prey with a single bite. It's a game-changer.
+Think on that. Do you know what the trait of saber-toothedness actually is? Do
+you know what capability that one little tweak in your DNA gives you? It gives
+you the ability to kill your prey with a single bite. It's a game-changer.
 
 That's why it spontaneously re-evolves. Think that's tied to just our DNA in
 particular? Thing that's a uniquely Earthly phenomenon? Think again. If
@@ -224,9 +224,9 @@ Tik-Tok.
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
