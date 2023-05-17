@@ -4,7 +4,7 @@ title: You Don't Know OZ The Way I Know OZ
 headline: "Discover OZ with Me: A True Square's Take on the Times and Technology"
 description: Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.
 keywords: OZ, Linux, DrinkMe, Square, Nerd, Geek, Freak, Mastery, Main Branch, Github, Microsoft, Google, Sun Microsystems, Circle, Lily Ray, SEO, NYC, Foghorn Leghorn, George Costanza, Grug Crood, Idea Man, The Croods, Sticks and Stones, Bush, Nicolas Cage, Boris Zilberman, Monsterhost, Megacompetitors, Bill Gates, Nadella, Ballmer, The Network
-categories: google, drinkme, seo, new york city, linux, microsoft, git
+categories: linux, drinkme, git, seo, google, microsoft, new york city
 permalink: /blog/you-don-t-know-oz-the-way-i-know-oz/
 layout: post
 ---
@@ -150,7 +150,9 @@ So what's the point of all this? Well, I'm going to tell you a story. It's a
 story about a company that's been around for a long time. It's a company that
 has a lot of data. It's a company that has a lot of data about a lot of
 companies. I love Wonderland, you may have noticed. But you know what I love
-more than Wonderland? I love the OZ.
+more than Wonderland? I love how my journey in the field of SEO has brought me
+right up to the door-step of OZ. Door-step? No, I have to drop a house on a
+witch, apparently.
 
 If I could live in OZ, I would in a heartbeat. Nobody reading this will be able
 to have anywhere near the image in their heads as I would hope them to, because
@@ -224,10 +226,10 @@ Tik-Tok.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>
