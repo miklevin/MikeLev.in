@@ -566,6 +566,9 @@ dictitems:
   accountability:
     count: 1
     title: Accountability
+  accountability systems:
+    count: 1
+    title: Accountability Systems
   accuracy:
     count: 2
     title: Accuracy
@@ -749,6 +752,12 @@ dictitems:
   ah-ha moment:
     count: 1
     title: ah-ha moment
+  ahmed balfaqih:
+    count: 1
+    title: Ahmed Balfaqih
+  ahmed elridi:
+    count: 1
+    title: Ahmed ElRidi
   ahrefs:
     count: 1
     title: Ahrefs
@@ -941,6 +950,9 @@ dictitems:
   ambition:
     count: 1
     title: Ambition
+  ambitious:
+    count: 1
+    title: Ambitious
   amd:
     count: 1
     title: AMD
@@ -1772,6 +1784,9 @@ dictitems:
   big data-pull:
     count: 1
     title: Big Data-Pull
+  big impact:
+    count: 1
+    title: Big Impact
   big life changes:
     count: 1
     title: Big life changes
@@ -2811,7 +2826,7 @@ dictitems:
     count: 1
     title: Cluttered
   cm:
-    count: 6
+    count: 7
     title: CMS
   cname:
     count: 2
@@ -3504,7 +3519,7 @@ dictitems:
     count: 1
     title: Counting Blessings
   courage:
-    count: 1
+    count: 2
     title: Courage
   covid-19:
     count: 1
@@ -3590,6 +3605,9 @@ dictitems:
   crime:
     count: 1
     title: crime
+  criminal:
+    count: 1
+    title: Criminal
   cringe-worthy:
     count: 1
     title: Cringe-Worthy
@@ -5579,6 +5597,9 @@ dictitems:
   fact:
     count: 1
     title: Facts
+  factory bill-of-materials system:
+    count: 1
+    title: Factory Bill-of-Materials System
   factory reset:
     count: 1
     title: Factory Reset
@@ -6923,6 +6944,9 @@ dictitems:
   gross:
     count: 1
     title: Gross
+  gross revenue:
+    count: 1
+    title: Gross Revenue
   group:
     count: 3
     title: Group
@@ -8909,6 +8933,9 @@ dictitems:
   lead:
     count: 1
     title: Lead
+  lead assignment system:
+    count: 1
+    title: Lead Assignment System
   lead by example:
     count: 1
     title: Lead by Example
@@ -9959,6 +9986,9 @@ dictitems:
   marketplace:
     count: 1
     title: Marketplace
+  marlon brando:
+    count: 1
+    title: Marlon Brando
   marriage:
     count: 1
     title: marriage
@@ -9980,6 +10010,9 @@ dictitems:
   marvel:
     count: 1
     title: Marvel
+  marvel comics:
+    count: 1
+    title: Marvel Comics
   mary anning:
     count: 1
     title: Mary Anning
@@ -10211,6 +10244,9 @@ dictitems:
   message:
     count: 8
     title: Message
+  message board system:
+    count: 1
+    title: Message Board System
   message body:
     count: 1
     title: Message Body
@@ -11106,7 +11142,7 @@ dictitems:
     count: 1
     title: New Years Party
   new york:
-    count: 3
+    count: 4
     title: New York
   new york city:
     count: 9
@@ -11654,6 +11690,9 @@ dictitems:
   order:
     count: 1
     title: Order
+  order management system:
+    count: 1
+    title: Order Management System
   order of saint dumas:
     count: 1
     title: Order of Saint Dumas
@@ -14378,11 +14417,14 @@ dictitems:
   salary:
     count: 1
     title: Salary
+  sales leads:
+    count: 1
+    title: Sales Leads
   sales tax:
     count: 1
     title: Sales Tax
   salesforce:
-    count: 1
+    count: 2
     title: Salesforce
   salesperson:
     count: 1
@@ -14439,7 +14481,7 @@ dictitems:
     count: 1
     title: SCSS
   scala:
-    count: 1
+    count: 2
     title: Scala
   scalability:
     count: 1
@@ -15668,6 +15710,9 @@ dictitems:
   stakeholder:
     count: 1
     title: Stakeholders
+  stan lee:
+    count: 1
+    title: Stan Lee
   stand:
     count: 2
     title: Stand
@@ -16191,8 +16236,8 @@ dictitems:
     count: 1
     title: Supergravity
   superhero:
-    count: 1
-    title: superhero
+    count: 2
+    title: Superhero
   superintelligence:
     count: 1
     title: Superintelligence
@@ -16502,6 +16547,9 @@ dictitems:
   tech mechanics:
     count: 1
     title: Tech Mechanics
+  tech support system:
+    count: 1
+    title: Tech Support System
   tech tools:
     count: 1
     title: tech tools
@@ -17606,6 +17654,9 @@ dictitems:
   vanilla:
     count: 1
     title: Vanilla
+  var:
+    count: 1
+    title: VARs
   variable:
     count: 3
     title: variables
