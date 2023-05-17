@@ -4,7 +4,7 @@ title: "Logging in... Refresh error! invalid_grant: Token has been expired or re
 headline: "Unlocking the Power of Home NAS: My Journey to Becoming a Freelance Graphic Designer"
 description: As a freelance graphic designer, I have faced many challenges and obstacles in my career. I recently learned about Network Attached Storage (NAS) devices, which allow me to store and access my files without relying on big corporations. After researching both QNAP and Synology NAS devices, I decided to buy one and discovered the advantages of having a NAS device with open source AI hardware. I'm optimistic that home NAS-like products will become more common.
 keywords: Logging, Refresh, Error, Invalid_grant, Token, Expired, Revoked, Freelance, Graphic, Designer, Network, Attached, Storage, NAS, Devices, QNAP, Synology, Open, Source, AI, Hardware, Optimistic, Future, Common, Household, Appliances, Increase, Data, Storage, Capacities, Network, Sharing, Capabilities, Knowledge, Interest, Technologies, Software, Running, Home, Servers, Ease
-categories: ai, network, qnap, graphic, future
+categories: graphic, qnap, network, ai, future
 permalink: /blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/
 layout: post
 ---
@@ -147,8 +147,8 @@ Asimov's
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
-<li><h4><a href='/qnap/'>QNAP</a></h4></li>
 <li><h4><a href='/graphic/'>Graphics</a></h4></li>
+<li><h4><a href='/qnap/'>QNAP</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/future/'>Future</a></h4></li></ul>
