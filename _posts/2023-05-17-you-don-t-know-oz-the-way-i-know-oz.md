@@ -4,7 +4,7 @@ title: You Don't Know OZ The Way I Know OZ
 headline: "Discover OZ with Me: A True Square's Take on the Times and Technology"
 description: Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.
 keywords: OZ, Linux, DrinkMe, Square, Nerd, Geek, Freak, Mastery, Main Branch, Github, Microsoft, Google, Sun Microsystems, Circle, Lily Ray, SEO, NYC, Foghorn Leghorn, George Costanza, Grug Crood, Idea Man, The Croods, Sticks and Stones, Bush, Nicolas Cage, Boris Zilberman, Monsterhost, Megacompetitors, Bill Gates, Nadella, Ballmer, The Network
-categories: seo, git, google, drinkme, new york city, microsoft, linux
+categories: seo, google, linux, git, microsoft, new york city, drinkme
 permalink: /blog/you-don-t-know-oz-the-way-i-know-oz/
 layout: post
 ---
@@ -17,20 +17,25 @@ down Time Square.
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
-It's me! I am that square! Or nerd. Or geek. Or as an old really hardcore Amiga
-computer fan, ***freak*** would also be acceptable. You can't take words away
-from me! ***MASTERY***, now there's a word I won't let go, no matter how much
-Github's trying to make me change my old main branch name. All new repos, sure.
-But master craftspeople master tools. I'll give up crafts*man* for
-crafts*person* because it's an acceptable alternative, but try to tell my I'm
-trying to achieve *main*ery of my tools and I'll tell you to jump down a rabbit
-hole.
+I am the square! Or nerd. Or geek. Or as an old really hardcore Amiga computer
+fan, ***freak*** would also be acceptable. You can't take words away from me!
 
-Well, I'm going to tell you to jump down a rabbit hole too. You, your kids, and
-everyone you care about. They all can take a flying leap... and then learn to
-fly. Don't go too close to the Sun like Ikarios, but do perhaps fall slowly. If
-you take the leap with an assurance that the land won't kill you, you can have
-confidence knowing it will make you stronger.
+***MASTERY***, now there's a word I won't let go, no matter how much Github's
+trying to make me change my old main branch name. All new repos, sure. But
+master craftspeople master tools. I'll give up crafts*man* for crafts*person*
+because it's an acceptable alternative, but try to tell me that I'm trying to
+achieve ***main***ery of my tools and I'll tell you to jump down a rabbit hole.
+
+Well, I'm going to tell you to [jump down a rabbit
+hole](https://mikelev.in/drinkme) anyway. You, your kids, and everyone you care
+about. They all can take a flying leap... and then learn to fly! But don't fly
+too close to the Sun like Ikarios or your wax wings will melt. But ***do***
+take the leap outside your comfort-zone, safe in the knowledge that the fall
+will be quite slow. You'll have time to look around and think about all the
+software I just gave you. You're welcome.
+
+If you take the leap with an assurance that the land won't kill you, you can
+have confidence knowing it will make you stronger.
 
 What doesn't kill you makes you stronger, is what I say as American youth
 suffering 4 years of lock-down and what appears to be a rotten break roll their
@@ -216,9 +221,9 @@ Tik-Tok.
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li></ul>
