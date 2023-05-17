@@ -4,7 +4,7 @@ title: The Epic nbdev Static Site Generator Post
 headline: "Switching to Python Programs: Setting Up a Blog Release System with nbdev"
 description: I recently downgraded from Ubuntu 20.04 to Ubuntu 18.04, which broke my blog release system. To fix this, I am switching from Unix Scripts to Python Programs, using argparse and the Python Standard Library to modularize my programs and make them work from the command-line with arguments. I'm learning about the subprocess API options, setting up a virtualenv and installing Python 3.10, creating a git repo, and writing a blog post.
 keywords: Python, Subprocess, API, argparse, Standard Library, Unix/Linux, 80/20-rule, run() function, Popen, virtualenv, Python 3.10, git, repo, blog post, Pandas, dataframe, namedtuple, csv, pipe delimited, Bash, Jupyter Notebook, command line, settings.ini, continuous integration, fails, read() method, cd, echo, OS-independent, PowerShell, environment variables,
-categories: panda, virtualenv, jupyter, 80/20-rule, python, linux, git, powershell
+categories: virtualenv, python, linux, powershell, jupyter, git, 80/20-rule, panda
 permalink: /blog/the-epic-nbdev-static-site-generator-post/
 layout: post
 ---
@@ -1165,11 +1165,11 @@ I need to tie this process to a vim macro again.
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/virtualenv/'>Virtualenv</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
