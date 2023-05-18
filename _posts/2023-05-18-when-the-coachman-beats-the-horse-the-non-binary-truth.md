@@ -4,7 +4,7 @@ title: "When the Coachman Beats The Horse: The Non-Binary Truth"
 headline: "Exploring the Non-Binary Truth: How to Overcome False Dichotomies and Embrace the Spectrum"
 description: As humans, we are emotional creatures and rely on emotional facts for survival. This article explores the dangers of reducing complex situations to binary choices, and encourages us to take the high road and stay in the driver's seat, no matter how spooked the horses get. Don't let yourself be framed by others - broaden your view and search for the non-binary truth.
 keywords: Emotional facts, Rationale, Star Trek, Vulcans, Evolution, AIpocalypse, Eliezer Yudkowsky, Polarizing, Framing, Black and White, Spectrum, Rainbow, Mind, Sympathetic Nervous System, Parasympathetic Nervous System, Triggers, Disney, Marvel, Batman, Bambi, False Dichotomy, Cognizant, Pyramids, Bible, Internet, AI, Coachman, Horse, Horsew
-categories: evolution, ai
+categories: ai, evolution
 permalink: /blog/when-the-coachman-beats-the-horse-the-non-binary-truth/
 layout: post
 ---
@@ -26,7 +26,8 @@ spectrum... it's shades of grey... it's a rainbow of...
 
 And I find all my metaphors ruined by popular culture. You can't even tell
 someone things are on a spectrum anymore without the exact opposite result of
-polarizing them, because everything term has been claimed by some polarizing
+polarizing them, because every awesome term from ***spectrum*** to ***weakest
+link in the chain*** and ***rabbit hole*** has been claimed by some polarizing
 group, movie or gameshow.
 
 Few things are as straight forward or simple as you think, no matter how people
@@ -162,5 +163,5 @@ truth will come out, as non-binary as it is.
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
