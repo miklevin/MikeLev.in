@@ -4,7 +4,7 @@ title: You Don't Know OZ The Way I Know OZ
 headline: "Discover OZ with Me: A True Square's Take on the Times and Technology"
 description: Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.
 keywords: OZ, Linux, DrinkMe, Square, Nerd, Geek, Freak, Mastery, Main Branch, Github, Microsoft, Google, Sun Microsystems, Circle, Lily Ray, SEO, NYC, Foghorn Leghorn, George Costanza, Grug Crood, Idea Man, The Croods, Sticks and Stones, Bush, Nicolas Cage, Boris Zilberman, Monsterhost, Megacompetitors, Bill Gates, Nadella, Ballmer, The Network
-categories: drinkme, microsoft, seo, new york city, linux, google, git
+categories: seo, git, microsoft, new york city, linux, drinkme, google
 permalink: /blog/you-don-t-know-oz-the-way-i-know-oz/
 layout: post
 ---
@@ -12,7 +12,7 @@ layout: post
 
 If you're planning on going down the 🐇 Rabbit Hole 🐇 with me to Linux, using
 the magic [DrinkMe](https://mikelev.in/drinkme) script, then you'll want to
-watch this video of a true square speaking is mind about the times as he walks
+watch this video of a true square speaking his mind about the times as he walks
 down Times Square. Standard disclaimer: My views & opinions are 100% my own and
 claiming they're the words of anyone else is fighting words.
 
@@ -241,10 +241,10 @@ Tik-Tok.
 ## Categories
 
 <ul>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
