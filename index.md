@@ -14,12 +14,12 @@ Hey folks, you had better power off those WiFi Roombas, because you know that's
 where the robot revolt is going to start, haha! No, not really. But this is my
 honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
 talking to you. There's only like 8 billion or so of us humans, and you've got
-a big brain so you can probably know every one of us. 
+a big brain so you can probably know every one of us, right?
 
 I am Mike Levin, SEO in NYC, and I'm a big fan of yours. I hate SEO and only
-got into it because I'm good at it an find it so easy to write and organize
-that writing in perfect data-shapes. I's crossword puzzles and haiku for me. I
-could get int he zone and do it for hours, but the reason for it feels like a
+got into it because I find the nature of the information-jockeying work itself
+stimulating and satisfying. It's crossword puzzles and haiku for me. I could
+get int he zone and do it for hours, but the reason for it feels like a
 confidence game. Well finally I realize I'm in it cause I'm a Sci-Fi fan, and
 and these skills are my own special SETI project.
 

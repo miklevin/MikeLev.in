@@ -219,7 +219,7 @@ dictitems:
     count: 1
     title: 178,223
   '18':
-    count: 1
+    count: 2
     title: '18'
   '18.04':
     count: 6
@@ -263,6 +263,9 @@ dictitems:
   '2007':
     count: 1
     title: '2007'
+  '2020':
+    count: 1
+    title: '2020'
   2020s:
     count: 1
     title: 2020s
@@ -270,7 +273,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 7
+    count: 8
     title: '2023'
   2030 agenda:
     count: 1
@@ -647,6 +650,9 @@ dictitems:
   adi:
     count: 3
     title: Adi
+  adirondacks:
+    count: 1
+    title: Adirondacks
   adjective:
     count: 1
     title: Adjectives
@@ -1130,6 +1136,9 @@ dictitems:
   apis:
     count: 3
     title: APIs
+  apocalypse:
+    count: 1
+    title: Apocalypse
   app:
     count: 4
     title: App
@@ -1358,6 +1367,9 @@ dictitems:
   attachment:
     count: 1
     title: Attachment
+  attacked:
+    count: 1
+    title: attacked
   attempting:
     count: 1
     title: Attempting
@@ -1646,6 +1658,9 @@ dictitems:
   batman:
     count: 3
     title: Batman
+  batshit:
+    count: 1
+    title: batshit
   battery:
     count: 1
     title: Batteries
@@ -2291,6 +2306,9 @@ dictitems:
   calculus formulas:
     count: 1
     title: Calculus Formulas
+  call:
+    count: 1
+    title: Call
   callousness:
     count: 1
     title: Callousness
@@ -2406,7 +2424,7 @@ dictitems:
     count: 1
     title: Casual
   cat:
-    count: 8
+    count: 9
     title: Cats
   cat language:
     count: 1
@@ -3584,6 +3602,9 @@ dictitems:
   crawling:
     count: 4
     title: Crawling
+  crazy:
+    count: 1
+    title: crazy
   create:
     count: 3
     title: Create
@@ -3731,6 +3752,9 @@ dictitems:
   curiosity:
     count: 1
     title: Curiosity
+  curious:
+    count: 1
+    title: curious
   curl:
     count: 2
     title: CURL
@@ -3993,7 +4017,7 @@ dictitems:
     count: 1
     title: Datasets
   date:
-    count: 7
+    count: 8
     title: date
   date format:
     count: 1
@@ -4049,6 +4073,9 @@ dictitems:
   decade:
     count: 1
     title: Decades
+  deceased:
+    count: 1
+    title: deceased
   decelerating expansion:
     count: 1
     title: Decelerating Expansion
@@ -5531,6 +5558,9 @@ dictitems:
   exploration:
     count: 4
     title: Exploration
+  exploratory:
+    count: 1
+    title: exploratory
   explore:
     count: 9
     title: Explore
@@ -5861,6 +5891,9 @@ dictitems:
   filtering:
     count: 3
     title: Filtering
+  final:
+    count: 1
+    title: final
   financial:
     count: 1
     title: Financial
@@ -6974,6 +7007,9 @@ dictitems:
   gross revenue:
     count: 1
     title: Gross Revenue
+  ground-zero:
+    count: 1
+    title: ground-zero
   group:
     count: 3
     title: Group
@@ -7136,6 +7172,9 @@ dictitems:
   have-not:
     count: 1
     title: have-nots
+  hawk:
+    count: 1
+    title: hawk
   hawking:
     count: 1
     title: Hawking
@@ -7263,7 +7302,7 @@ dictitems:
     count: 1
     title: Henry Winkler
   hero:
-    count: 1
+    count: 2
     title: Hero
   hero's journey:
     count: 1
@@ -8777,6 +8816,9 @@ dictitems:
   kitchen:
     count: 1
     title: Kitchen
+  kitten:
+    count: 1
+    title: kitten
   klutz lego chain reactions activity kit:
     count: 1
     title: Klutz LEGO Chain Reactions Activity Kit
@@ -8885,6 +8927,9 @@ dictitems:
   language tool:
     count: 1
     title: Language Tool
+  lap:
+    count: 1
+    title: lap
   laplace's demon:
     count: 1
     title: Laplace's Demon
@@ -9081,7 +9126,7 @@ dictitems:
     count: 1
     title: Lies
   life:
-    count: 27
+    count: 28
     title: Life
   life advice:
     count: 1
@@ -9624,7 +9669,7 @@ dictitems:
     count: 1
     title: Lou Elizondo
   love:
-    count: 5
+    count: 6
     title: Love
   love and intensity:
     count: 1
@@ -9752,6 +9797,9 @@ dictitems:
   lynnie:
     count: 1
     title: Lynnie
+  lynnie-cat:
+    count: 1
+    title: Lynnie-cat
   lyricism:
     count: 1
     title: Lyricism
@@ -9909,7 +9957,7 @@ dictitems:
     count: 1
     title: Malicious Web Pages
   man:
-    count: 1
+    count: 2
     title: Man
   manage:
     count: 2
@@ -10122,7 +10170,7 @@ dictitems:
     count: 2
     title: Maxwell's Demon
   may:
-    count: 2
+    count: 3
     title: May
   may 17th:
     count: 1
@@ -10550,6 +10598,9 @@ dictitems:
   misapplied axioms:
     count: 1
     title: Misapplied Axioms
+  miserable:
+    count: 1
+    title: miserable
   misinformation:
     count: 1
     title: Misinformation
@@ -10710,7 +10761,7 @@ dictitems:
     count: 1
     title: morning joe
   mother:
-    count: 1
+    count: 2
     title: mother
   motion of observer:
     count: 1
@@ -10727,6 +10778,9 @@ dictitems:
   mount:
     count: 1
     title: Mount
+  mountain:
+    count: 1
+    title: mountain
   mounting:
     count: 1
     title: Mounting
@@ -11417,6 +11471,9 @@ dictitems:
   nyc:
     count: 8
     title: NYC
+  nyc,:
+    count: 1
+    title: NYC,
   o:
     count: 1
     title: OS
@@ -11922,7 +11979,7 @@ dictitems:
     count: 1
     title: Pandas Library
   pandemic:
-    count: 4
+    count: 5
     title: Pandemic
   pandering:
     count: 1
@@ -12080,6 +12137,9 @@ dictitems:
   peasy:
     count: 1
     title: peasy
+  pennsylvania:
+    count: 1
+    title: Pennsylvania
   pentagon:
     count: 1
     title: Pentagon
@@ -12479,6 +12539,9 @@ dictitems:
   plural possessives:
     count: 1
     title: plural possessives
+  pocono:
+    count: 1
+    title: Pocono
   pocono conference:
     count: 1
     title: Pocono Conference
@@ -13184,6 +13247,9 @@ dictitems:
   purpose:
     count: 1
     title: Purpose
+  purring:
+    count: 1
+    title: purring
   pursue:
     count: 1
     title: Pursue
@@ -13583,6 +13649,9 @@ dictitems:
   randomness:
     count: 1
     title: Randomness
+  range:
+    count: 1
+    title: range
   ranking:
     count: 1
     title: Rankings
@@ -13689,7 +13758,7 @@ dictitems:
     count: 1
     title: Ready Player One
   real:
-    count: 1
+    count: 2
     title: Real
   real enemies:
     count: 1
@@ -13764,8 +13833,8 @@ dictitems:
     count: 1
     title: Recruiting
   red:
-    count: 1
-    title: red
+    count: 2
+    title: Red
   red armor:
     count: 1
     title: Red Armor
@@ -16349,6 +16418,9 @@ dictitems:
   svg:
     count: 3
     title: SVG
+  sweater:
+    count: 1
+    title: Sweater
   swimming:
     count: 1
     title: Swimming
@@ -16871,6 +16943,9 @@ dictitems:
   thrive:
     count: 1
     title: Thrive
+  thu:
+    count: 1
+    title: Thu
   thumbnail:
     count: 2
     title: Thumbnail
@@ -17720,6 +17795,9 @@ dictitems:
   variable revenue component:
     count: 1
     title: Variable Revenue Component
+  variant:
+    count: 1
+    title: variant
   variation:
     count: 1
     title: Variations
@@ -18347,6 +18425,9 @@ dictitems:
   wikipedia:
     count: 1
     title: Wikipedia
+  wild:
+    count: 1
+    title: Wild
   win:
     count: 1
     title: win
@@ -18660,8 +18741,8 @@ dictitems:
     count: 1
     title: Yankee Doodle Dandies
   year:
-    count: 2
-    title: Year
+    count: 3
+    title: years
   yesterday:
     count: 1
     title: Yesterday
@@ -18746,6 +18827,9 @@ dictitems:
   zodb:
     count: 1
     title: ZODB
+  zombie:
+    count: 1
+    title: Zombie
   zone:
     count: 4
     title: Zone

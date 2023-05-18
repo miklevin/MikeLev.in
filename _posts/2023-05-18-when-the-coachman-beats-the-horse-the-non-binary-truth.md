@@ -4,7 +4,7 @@ title: "When the Coachman Beats The Horse: The Non-Binary Truth"
 headline: "Exploring the Non-Binary Truth: How to Overcome False Dichotomies and Embrace the Spectrum"
 description: As humans, we are emotional creatures and rely on emotional facts for survival. This article explores the dangers of reducing complex situations to binary choices, and encourages us to take the high road and stay in the driver's seat, no matter how spooked the horses get. Don't let yourself be framed by others - broaden your view and search for the non-binary truth.
 keywords: Emotional facts, Rationale, Star Trek, Vulcans, Evolution, AIpocalypse, Eliezer Yudkowsky, Polarizing, Framing, Black and White, Spectrum, Rainbow, Mind, Sympathetic Nervous System, Parasympathetic Nervous System, Triggers, Disney, Marvel, Batman, Bambi, False Dichotomy, Cognizant, Pyramids, Bible, Internet, AI, Coachman, Horse, Horsew
-categories: ai, evolution
+categories: evolution, ai
 permalink: /blog/when-the-coachman-beats-the-horse-the-non-binary-truth/
 layout: post
 ---
@@ -159,9 +159,9 @@ truth will come out, as non-binary as it is.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/">A Lesson from Stan Lee: It's Never Too Late to Become a Superhero</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/">A Lesson from Stan Lee: It's Never Too Late to Become a Superhero</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
