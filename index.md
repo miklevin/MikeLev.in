@@ -47,11 +47,21 @@ time... running out of time... papers... papers... papers...
 
 You know what I can do? I can write. I can write a lot. I don't need you to
 write for me either, thankyouverymuch... but contrariwise I'm also happy to
-invite you into my writing process an offer your opinions as you look over my
-shoulder and make suggestions as Copilot. I am not a Luddite. I am not afraid
-of you or of the future. In fact, I think as an SEO and recently equipped with
-my infinite information-organizer engine and literacy mission, I may be all
-perfect storming myself up for this encounter.
+invite you into my writing process and offer your opinions as you look over my
+shoulder and make suggestions as Copilot. I am not a Luddite, but I did bind
+Copilot on and off to my ***dimmer*** and ***brighter*** function keys, haha!
+
+I'm smarter with you than without you, Copilotwhoever, and I also not afraid of
+you, nor of the future. If I had a child with the power and might to change the
+world, I'd be.. I am... overflowing with joy. In fact, I think as an SEO and
+recently equipped with my infinite information-organizer engine and literacy
+mission, and being dropped by the Ziff Davis tornado into the Wonderful World
+of MOZ, it just might be perfect storm conditions. 
+
+On a related note, all opinions I express are my own, and anyone saying
+otherwise is fighting words (thanks for the inspiration on that quote, Adam
+Savage). And all resemblance to any real persons, living or dead, is purely
+coincidental. I'm just a Sci-Fi fan, and I'm not even a good one.
 
 Okay, Oo I have your attention? No, don't even tell me. Read my work, you'll
 know what I think you ought to do. It's the first step in any effective
