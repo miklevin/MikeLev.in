@@ -23,7 +23,12 @@ got into it because I find the nature of the information-jockeying work itself
 stimulating and satisfying. It's crossword puzzles and haiku for me. I get into
 the zone and do it for hours, but it sometimes feels like a disreputable
 confidence game and integrity issues have driven me out. And just when I think
-I'm out, they pull me back in.
+I'm out, they pull me back in. Part of my redemption is my mission to make the
+best tools I've ever encountered more accessible to a wider audience.
+
+### Rabbit Hole Linux
+
+{% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
 ### Aliens Among Us
 
