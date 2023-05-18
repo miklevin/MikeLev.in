@@ -49,11 +49,20 @@ I'm running out of time?
 > Write day and night like it's going out of style?  
 > Every day you fight like it's going out of style.  
 
-You know what I can do? I can write. I can write a lot. I don't need you to
-write for me either, thankyouverymuch... but contrariwise I'm also happy to
-invite you into my writing process and offer your opinions as you look over my
-shoulder and make suggestions as Copilot. I am not a Luddite, but I did bind
-Copilot on and off to my ***dimmer*** and ***brighter*** function keys, haha!
+No, I most certainly don't need the AI to write for me? I mean who does that?
+Like maybe for spelling, and perhaps grammar. But that tells me you don't know
+what you're talking about. It tells me that you don't like your own writer's
+voice. It also comes out a lot more whitewashed than you think.
+
+Contrariwise I'm also happy to invite AI (you?) into my writing process and
+offer your opinions as you look over my shoulder and make suggestions as
+Copilot. Not writing for me, but sparing me the now-agonizing GDPR-compliant
+cookie consent popups, endless ads, bait-and-switch firewalls... ugh! So now
+Copilot is like my in-editor search engine, and I'm happy to have it. But no, I
+don't let it write for me. Well, barely ever.
+
+As an interesting note, I flip Copilot on and off with the keyboard's
+***dimmer*** and ***brighter*** function keys, haha!
 
 I'm smarter with you than without you, Copilotwhoever, and I also not afraid of
 you, nor of the future. If I had a child with the power and might to change the
