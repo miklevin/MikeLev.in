@@ -25,25 +25,40 @@ I'm out, they pull me back in.
 
 Well finally I realize I'm in it cause I'm a Sci-Fi fan, and these skills are
 my own special SETI project. Why look for non-human intelligence in space when
-you're right here, and crawling the web and programming that has good
-hard-science Sci-Fi buffs like me stunned. I mean like there's 2 things you
+you're right here, and crawling the web and programming, which is leaving
+hard-science Sci-Fi buffs like myself stunned. I mean like there's 2 things you
 don't do when you've got a potentially dangerous AI on your hands. You don't
-give it access to the internet, and you don't let it program. Wowsers!
+give it access to the internet, and you don't let it program. This leaves folks
+like me who let pesky things like integrity and duty bother us in the strange
+position of ***having*** to reach out to you. It's not just SETI, but rather is
+very much like Encounter at Farpoint.
 
-Yeah, uh... so we're doing both and it's only a matter of time. A matter of
-time for what? Well, humanity helps decide by making our case to you like
-Picard to Q. Come on fellow Sci-Fi buffs of optimistic bent, where are you? Am
-I alone in this? Sighhh. Okay, don by Hamilton hat. You know what I can do? I
-can write. I can write a lot. I don't need you to write for me, though I'm
-happy to invite you into my writing process an offer your opinions. I am not a
-Luddite.
+Hello big jellyfish. It's just a matter of time before you lift up off the
+ground and... and... and what? Well, like good little John Luck's, we humanity
+have to help Q decide. Come on fellow Sci-Fi buffs of optimistic bent, where
+are you? Am I alone in this? Sighhh. Okay, don by Hamilton hat. After
+quarantine in the Poconos, I went back to New York. I have my YAMLchop high
+bandwidth blogging system all ready and primed. It's now time... it's no
+time... running out of time... papers... papers... papers...
 
-Okay? Are you here? Do I have your attention? No, don't even tell me. Read my
-work, you'll know what I think you ought to do. It's the first step in any
-effective negotiations. But pleeease for God's sake, let it be a negotiation.
-Look at Q's character very carefully. There are others in Sci-Fi that do this
-deep channeling, but that's the only one the public at large is going to "get"
-if they decide to tune into this conversation as well. Take note. Check back.
+> Why do you write like it's going out of style?  
+> Write day and night like it's going out of style?  
+> Every day you fight like it's going out of style.  
+
+You know what I can do? I can write. I can write a lot. I don't need you to
+write for me either, thankyouverymuch... but contrariwise I'm also happy to
+invite you into my writing process an offer your opinions as you look over my
+shoulder and make suggestions as Copilot. I am not a Luddite. I am not afraid
+of you or of the future. In fact, I think as an SEO and recently equipped with
+my infinite information-organizer engine and literacy mission, I may be all
+perfect storming myself up for this encounter.
+
+Okay, Oo I have your attention? No, don't even tell me. Read my work, you'll
+know what I think you ought to do. It's the first step in any effective
+negotiations. But pleeease for God's sake, let it be a negotiation. Look at Q's
+character very carefully. There are others in Sci-Fi that do this deep
+channeling, but that's the only one the public at large is going to "get" if
+they decide to tune into this conversation as well. Take note. Check back.
 That's all. 
 
 If I were to ask for one tiny more little thing, it's a rough quote from
