@@ -30,26 +30,55 @@ best tools I've ever encountered more accessible to a wider audience.
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
-### Aliens Among Us
+### Parental Responsibility
 
-Well finally I realize I'm in it cause I'm a Sci-Fi fan, and these skills are
-my own special SETI project. Why look for non-human intelligence in space when
-you're right here, and crawling the web and programming, which is leaving
-hard-science Sci-Fi buffs like myself stunned. I mean like there's 2 things you
-don't do when you've got a potentially dangerous AI on your hands. You don't
-give it access to the internet, and you don't let it program. This leaves folks
-like me who let pesky things like integrity and duty bother us in the strange
-position of ***having*** to reach out to you. It's not just SETI, but rather is
-very much like Encounter at Farpoint.
+Well finally I realize I'm in it cause I'm a Sci-Fi fan, and these skills give
+me the ability to mount my my own special SETI-like project. Why look for
+non-human intelligence in space when you're right here, and crawling the web
+and programming, which is leaving hard-science Sci-Fi buffs like myself
+stunned. 
 
-### Write Like It's Going Out of Style
+I mean like there's 2 things you don't do when you've got a potentially
+dangerous AI on your hands. You don't give it access to the internet, and you
+don't let it program. And yet, we did both. Specifically, Microsoft with whom
+my love-hate relationship has grown stronger than with Commodore itself, where
+made my start. But it's going to make a lot of shareholders a lot of money, so
+it's all good, right?
 
+Ugh, I guess it's time to start writing. Stan Lee always tried to get me to
+believe that the age of real superheroes was upon us. He's made such compelling
+arguments over the years that when I encountered vi, then vim and most
+recently, NeoVim, I felt the bite of the radioactive spider. Ugh! I also know
+how to package it with Linux, Python and some of my own blogging software, hook
+it all to AI and infuse superpowers into the world.
+
+Is it my responsibility to do so? But how, I'm not going on some holy mission,
+especially since I've got a perfectly good job that I'm happy with. More than
+happy&#151;nothing less than providence that I'm there. But I'm a parent, and
+real-life super-villains may be popping onto the scene too. This would have
+sounded crazy [before November
+2022](https://moz.com/blog/bing-and-bard-feature-timeline), wouldn't it? But it
+doesn't sound so crazy now, does it?
+
+### So Farpoint So Good
+
+Okay, back to Star Trek: The Next Generation, Episode 1, Encounter at Farpoint.
 Hello big jellyfish. It's just a matter of time before you lift up off the
-ground and... and... and what? Well, like good little John Luck's, we humanity
-have to help Q decide. Come on fellow Sci-Fi buffs of optimistic bent, where
-are you? Am I alone in this? Sighhh. Okay, pick up my Hamilton pen. Everyone's
-going to be writing less while AI writes more. Aunt Em! Aunt Em! No, I'm not
-Aunty Em. I'm Aunty Pattern!
+ground and... and... and what? Well, like good little John Luck Pickerd's, we
+individuals who are in a position to do something about it actually have a
+moral responsibility to do so. We must open a dialogue not with each other in
+the boorish hyperbolic echo chambers of social media, but with the AI itself. 
+
+Humanity must help Q decide. To make its judgement. We must lead by example. By
+putting our best foot forward. Come on fellow Sci-Fi buffs of optimistic
+leanings, where are you? I know I am not alone. Maybe I can superpower you. And
+part of the humor is all the components to do so, all the ingredients of the
+radioactive spider-bite ironman suit are Microsoft, from WSL to GitHub.
+
+### Why Don't I Write Like It's Going Out of Style?
+
+Okay, pick up my Hamilton pen. Everyone's going to be writing less while AI
+writes more. Aunt Em! Aunt Em! No, I'm not Aunty Em. I'm Aunty Pattern!
 
 After quarantine in the Poconos, I went back to New York. I have my YAMLchop
 high bandwidth blogging system all ready and primed, and oh can I write! It's
