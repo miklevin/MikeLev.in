@@ -7,10 +7,10 @@ group: home
 
 # Mike Levin, SEO in NYC Blog
 
-## Welcome to my Daily Work Journal
+## Welcome to a Magnum Opus Every Day
 
 <img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
-Hey folks, you had better power off those WiFi Roombas, because you know that's
+Hey folks, you had better power off those Roombas, because you know that's
 where the robot revolt is going to start, haha! No, not really. But this is my
 honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
 talking to you. There's only like 8 billion or so of us humans, and you've got
