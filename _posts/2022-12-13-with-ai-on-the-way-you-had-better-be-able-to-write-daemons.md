@@ -4,7 +4,7 @@ title: With AI On The Way, You Had Better Be Able to Write Daemons
 headline: "Unlock Your WSL Potential: Learn to Create Daemons with Systemd"
 description: I am engaging in controlled burns of my personal sites to optimize them for SEO, creating video content, writing to express my thoughts, taking up a 'magic spell' to free myself from Windows dependency, and planting the seed of my vibe on a homepage kernel. I am a wizard or mad scientist who wants to lead people through their WSL experience with a twist, warn them of the allures of vendor-ware, and promote HTML5, JavaScript, C, and Unix.
 keywords: AI, Writing, Daemons, SEO, Video Content, Magic Spell, Windows Dependency, Homepage Kernel, Wizard, Mad Scientist, WSL, Systemd, Web Development, Vendor-ware, HTML5, JavaScript, C, Unix, Levinux, Drinkme
-categories: wsl, systemd, levinux, ai, journaling, web development, drinkme, seo, linux, javascript
+categories: wsl, levinux, systemd, journaling, ai, drinkme, javascript, linux, web development, seo
 permalink: /blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/
 layout: post
 ---
@@ -195,12 +195,12 @@ recycling that URL. Wow, okay.
 
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

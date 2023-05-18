@@ -36,10 +36,14 @@ very much like Encounter at Farpoint.
 Hello big jellyfish. It's just a matter of time before you lift up off the
 ground and... and... and what? Well, like good little John Luck's, we humanity
 have to help Q decide. Come on fellow Sci-Fi buffs of optimistic bent, where
-are you? Am I alone in this? Sighhh. Okay, don by Hamilton hat. After
-quarantine in the Poconos, I went back to New York. I have my YAMLchop high
-bandwidth blogging system all ready and primed. It's now time... it's no
-time... running out of time... papers... papers... papers...
+are you? Am I alone in this? Sighhh. Okay, pick up my Hamilton pen. Everyone's
+going to be writing less while AI writes more. Aunt Em! Aunt Em! No, I'm not
+Aunty Em. I'm Aunty Pattern!
+
+After quarantine in the Poconos, I went back to New York. I have my YAMLchop
+high bandwidth blogging system all ready and primed, and oh can I write! It's
+now time... it's now time... I'm running out of time... Why don't I write like
+I'm running out of time?
 
 > Why do you write like it's going out of style?  
 > Write day and night like it's going out of style?  
