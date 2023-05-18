@@ -20,10 +20,10 @@ And it can be hateful, awful stuff. The vibe of impatience, arrogance and
 over-compensation for being a New Yorker without without being able to feel any
 of the ***cool*** that's supposed to go with it, like that Manhattanites or
 Brooklynites feel, might be flung at you like a sudden cut-off in traffic. If
-you dare make eye-contact, you see some small person looking at you as if
-in a great personal triumph.
+you dare make eye-contact, you see some self-satisfied person looking at you as
+if in a great personal triumph, like they scored a point in a sport.
 
-Where I live is not no vibe, no-sirree! Were I not a Philadelphian, I might
+Where I live is not my vibe, no-sirree! Were I not a Philadelphian, I might
 even find it intimidating. As a Philadelphian, I can at least relate. I mean
 hey, good 'ol city of brotherly love has at least one world-class everything.
 One world-class restaurant, one world-class museum, one world-class university,
