@@ -762,7 +762,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 95
+    count: 96
     title: AI
   ai bros:
     count: 1
@@ -821,6 +821,9 @@ dictitems:
   ai-writing:
     count: 1
     title: AI-writing
+  aipocalypse:
+    count: 1
+    title: AIpocalypse
   aircraft:
     count: 1
     title: Aircraft
@@ -1574,6 +1577,9 @@ dictitems:
   ballmer:
     count: 1
     title: Ballmer
+  bambi:
+    count: 1
+    title: Bambi
   banach-tarski paradox:
     count: 1
     title: Banach-Tarski Paradox
@@ -1638,7 +1644,7 @@ dictitems:
     count: 1
     title: Bathroom
   batman:
-    count: 2
+    count: 3
     title: Batman
   battery:
     count: 1
@@ -1754,6 +1760,9 @@ dictitems:
   bias:
     count: 4
     title: Bias
+  bible:
+    count: 1
+    title: Bible
   biblical commentaries:
     count: 1
     title: Biblical Commentaries
@@ -1881,8 +1890,8 @@ dictitems:
     count: 1
     title: black
   black and white:
-    count: 1
-    title: black and white
+    count: 2
+    title: Black and White
   black body radiation:
     count: 1
     title: Black Body Radiation
@@ -2834,6 +2843,9 @@ dictitems:
   co-op board:
     count: 2
     title: Co-op Board
+  coachman:
+    count: 1
+    title: Coachman
   cobra:
     count: 1
     title: Cobra
@@ -2900,6 +2912,9 @@ dictitems:
   coelacanth:
     count: 1
     title: Coelacanth
+  cognizant:
+    count: 1
+    title: Cognizant
   coherence:
     count: 2
     title: Coherence
@@ -4472,6 +4487,9 @@ dictitems:
   dislike:
     count: 1
     title: Dislikes
+  disney:
+    count: 1
+    title: Disney
   disney movie:
     count: 1
     title: Disney movie
@@ -5019,7 +5037,7 @@ dictitems:
     count: 1
     title: Elevated
   eliezer yudkowsky:
-    count: 1
+    count: 2
     title: Eliezer Yudkowsky
   elite:
     count: 1
@@ -5090,6 +5108,9 @@ dictitems:
   emotional:
     count: 2
     title: emotional
+  emotional facts:
+    count: 1
+    title: Emotional facts
   emotional growth:
     count: 1
     title: emotional growth
@@ -5394,7 +5415,7 @@ dictitems:
     count: 1
     title: Evil Sorcerer
   evolution:
-    count: 8
+    count: 9
     title: Evolution
   evolution of an idea:
     count: 1
@@ -5633,6 +5654,9 @@ dictitems:
   false dichotomies:
     count: 3
     title: False Dichotomies
+  false dichotomy:
+    count: 1
+    title: False Dichotomy
   falsey:
     count: 1
     title: Falsey
@@ -6101,6 +6125,9 @@ dictitems:
   framework:
     count: 4
     title: Framework
+  framing:
+    count: 1
+    title: Framing
   france:
     count: 1
     title: France
@@ -7406,6 +7433,12 @@ dictitems:
   hormone:
     count: 1
     title: hormones
+  horse:
+    count: 1
+    title: Horse
+  horsew:
+    count: 1
+    title: Horsew
   hosea:
     count: 1
     title: Hosea
@@ -8106,7 +8139,7 @@ dictitems:
     count: 1
     title: International Education
   internet:
-    count: 7
+    count: 8
     title: Internet
   internet connection:
     count: 1
@@ -10008,7 +10041,7 @@ dictitems:
     count: 1
     title: Martin Richards
   marvel:
-    count: 1
+    count: 2
     title: Marvel
   marvel comics:
     count: 1
@@ -10476,7 +10509,7 @@ dictitems:
     count: 1
     title: Million-Page Crawl
   mind:
-    count: 4
+    count: 5
     title: Mind
   mind control:
     count: 1
@@ -11921,6 +11954,9 @@ dictitems:
   parameterized:
     count: 1
     title: parameterized
+  parasympathetic nervous system:
+    count: 1
+    title: Parasympathetic Nervous System
   parent:
     count: 3
     title: parent
@@ -12470,6 +12506,9 @@ dictitems:
   polarized people:
     count: 1
     title: polarized people
+  polarizing:
+    count: 1
+    title: Polarizing
   police:
     count: 1
     title: Police
@@ -13193,6 +13232,9 @@ dictitems:
   pyppeteer:
     count: 2
     title: Pyppeteer
+  pyramid:
+    count: 1
+    title: Pyramids
   python:
     count: 183
     title: Python
@@ -13509,8 +13551,8 @@ dictitems:
     count: 1
     title: RAID
   rainbow:
-    count: 1
-    title: rainbow
+    count: 2
+    title: Rainbow
   rainbows end:
     count: 2
     title: Rainbows End
@@ -13571,6 +13613,9 @@ dictitems:
   ratio:
     count: 1
     title: ratio
+  rationale:
+    count: 1
+    title: Rationale
   ratios of arc lengths:
     count: 1
     title: Ratios of Arc Lengths
@@ -15551,6 +15596,9 @@ dictitems:
   spect:
     count: 1
     title: Spect
+  spectrum:
+    count: 1
+    title: Spectrum
   speech regulation:
     count: 1
     title: Speech Regulation
@@ -15752,6 +15800,9 @@ dictitems:
   star:
     count: 1
     title: stars
+  star trek:
+    count: 1
+    title: Star Trek
   star wars:
     count: 2
     title: Star Wars
@@ -16340,6 +16391,9 @@ dictitems:
   symmetry:
     count: 1
     title: Symmetry
+  sympathetic nervous system:
+    count: 1
+    title: Sympathetic Nervous System
   sympy:
     count: 1
     title: sympy
@@ -17141,6 +17195,9 @@ dictitems:
   tricked:
     count: 1
     title: Tricked
+  trigger:
+    count: 1
+    title: Triggers
   triggered:
     count: 1
     title: triggered
@@ -18032,6 +18089,9 @@ dictitems:
   vscodium:
     count: 1
     title: VSCodium
+  vulcan:
+    count: 1
+    title: Vulcans
   vulnerability:
     count: 1
     title: Vulnerability
