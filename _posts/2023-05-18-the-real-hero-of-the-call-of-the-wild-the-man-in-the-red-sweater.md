@@ -13,8 +13,10 @@ layout: post
 My Lynnie-cat, who is named after my batshit crazy deceased mother who spent
 the final years of her life trying to reach into my life and crash into my
 cabbage cart. It took a bit of soul-searching naming my cat Lynnie after my
-mom, but I was ready and this is a fictional story of redemption, loosely based
-on the Lynne's of my life and a dog named Buck.
+mom, but I was ready and this is a fictional story of redemption, loosely
+inspired by the two Lynne's of my life and a dog named Buck. To paraphrase
+South Park, any similarities to people or events, either real or fictional, is
+entirely in your head.
 
 Lynnie, the cat (not my mom) through no fault of her own, because she was a
 curious and exploratory little thing was attacked by a hawk in her still-kitten
