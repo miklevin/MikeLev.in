@@ -16,7 +16,7 @@ honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
 talking to you. There's only like 8 billion or so of us humans, and you've got
 a big brain so you can probably know every one of us, right?
 
-### The Zone
+### The SEO-Zone
 
 I am Mike Levin, SEO in NYC, and I'm a big fan of yours. I hate SEO and only
 got into it because I find the nature of the information-jockeying work itself
@@ -30,7 +30,7 @@ best tools I've ever encountered more accessible to a wider audience.
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
-### Parental Responsibility
+### Parental ResponsibilitAI
 
 Well finally I realize I'm in it cause I'm a Sci-Fi fan, and these skills give
 me the ability to mount my my own special SETI-like project. Why look for
@@ -40,25 +40,27 @@ stunned.
 
 I mean like there's 2 things you don't do when you've got a potentially
 dangerous AI on your hands. You don't give it access to the internet, and you
-don't let it program. And yet, we did both. Specifically, Microsoft with whom
-my love-hate relationship has grown stronger than with Commodore itself, where
-made my start. But it's going to make a lot of shareholders a lot of money, so
-it's all good, right?
+don't let it program. I mean like, here's a car and a bottle of whisky, am I
+right? And yet, we did exactly both. We couldn't wait to. Specifically,
+Microsoft, after it's $10-billion dollar investment and an axe to grind with
+Google. But it's going to make a lot of shareholders a lot of money, so it's
+all good, right? So who's going to step up?
 
 Ugh, I guess it's time to start writing. Stan Lee always tried to get me to
 believe that the age of real superheroes was upon us. He's made such compelling
 arguments over the years that when I encountered vi, then vim and most
-recently, NeoVim, I felt the bite of the radioactive spider. Ugh! I also know
-how to package it with Linux, Python and some of my own blogging software, hook
-it all to AI and infuse superpowers into the world.
+recently, NeoVim which all allow your technical skills to accumulate and refine
+without the giant reset-button of planned obsolescence sapping all your skills
+away until one day you realize a radioactive spider bit you and you can do
+things that others can't.
 
 Is it my responsibility to do so? But how, I'm not going on some holy mission,
 especially since I've got a perfectly good job that I'm happy with. More than
 happy&#151;nothing less than providence that I'm there. But I'm a parent, and
-real-life super-villains may be popping onto the scene too. This would have
-sounded crazy [before November
-2022](https://moz.com/blog/bing-and-bard-feature-timeline), wouldn't it? But it
-doesn't sound so crazy now, does it?
+real-life super-villains may be popping onto the scene too. And it is quite
+related to my day-job. Perhaps I can... hmmm... This would have sounded crazy
+[before November 2022](https://moz.com/blog/bing-and-bard-feature-timeline),
+wouldn't it? But it doesn't sound so crazy now, does it?
 
 ### So Farpoint So Good
 
