@@ -236,6 +236,9 @@ dictitems:
   1950s:
     count: 1
     title: 1950s
+  1980's:
+    count: 1
+    title: 1980's
   1990s:
     count: 2
     title: 1990s
@@ -326,6 +329,9 @@ dictitems:
   30th anniversary:
     count: 1
     title: 30th anniversary
+  30th street station:
+    count: 1
+    title: 30th Street Station
   32x32:
     count: 1
     title: 32x32
@@ -938,6 +944,9 @@ dictitems:
   alternative to quantum theory:
     count: 1
     title: Alternative to Quantum Theory
+  altima:
+    count: 1
+    title: Altima
   altitude:
     count: 1
     title: Altitudes
@@ -2174,6 +2183,9 @@ dictitems:
   broken picture links:
     count: 1
     title: Broken Picture Links
+  brooklynites:
+    count: 1
+    title: Brooklynites
   brother:
     count: 1
     title: Brothers
@@ -4034,6 +4046,9 @@ dictitems:
   dateutil:
     count: 1
     title: dateutil
+  datsun:
+    count: 1
+    title: Datsun
   dawkins:
     count: 1
     title: Dawkins
@@ -4862,6 +4877,9 @@ dictitems:
   e=hv:
     count: 1
     title: E=hv
+  eagle:
+    count: 1
+    title: Eagles
   early 90s:
     count: 1
     title: Early 90s
@@ -4934,6 +4952,9 @@ dictitems:
   ed:
     count: 1
     title: EDS
+  edgar allen poe:
+    count: 1
+    title: Edgar Allen Poe
   edge:
     count: 5
     title: Edge
@@ -6167,6 +6188,9 @@ dictitems:
   frank gorshin:
     count: 1
     title: Frank Gorshin
+  frank sessa:
+    count: 1
+    title: Frank Sessa
   fravor:
     count: 1
     title: Fravor
@@ -7556,6 +7580,9 @@ dictitems:
   huey_consumer.py:
     count: 2
     title: huey_consumer.py
+  hugh hefner:
+    count: 1
+    title: Hugh Hefner
   hugo:
     count: 3
     title: Hugo
@@ -8387,6 +8414,9 @@ dictitems:
   jealousy:
     count: 1
     title: Jealousy
+  jeep wrangler:
+    count: 1
+    title: Jeep Wrangler
   jeff atwood:
     count: 1
     title: Jeff Atwood
@@ -9101,6 +9131,9 @@ dictitems:
   lex fridman:
     count: 1
     title: Lex Fridman
+  lex luther:
+    count: 1
+    title: Lex Luther
   lex luthor:
     count: 1
     title: Lex Luthor
@@ -9977,6 +10010,9 @@ dictitems:
   manhattan office:
     count: 1
     title: Manhattan office
+  manhattanites:
+    count: 1
+    title: Manhattanites
   manifest:
     count: 1
     title: Manifest
@@ -10382,8 +10418,11 @@ dictitems:
   metropolis:
     count: 1
     title: Metropolis
-  mexico:
+  mexican prison:
     count: 1
+    title: Mexican prison
+  mexico:
+    count: 2
     title: Mexico
   mgm movie:
     count: 1
@@ -11240,6 +11279,9 @@ dictitems:
   new york tech meetup:
     count: 1
     title: New York Tech Meetup
+  new yorker:
+    count: 1
+    title: New Yorker
   new zealand:
     count: 1
     title: New Zealand
@@ -11288,6 +11330,12 @@ dictitems:
   nintendo:
     count: 1
     title: Nintendo
+  nissan:
+    count: 1
+    title: Nissan
+  nissan pathfinder:
+    count: 1
+    title: Nissan Pathfinder
   nltk:
     count: 2
     title: NLTK
@@ -11381,6 +11429,9 @@ dictitems:
   norman gimbel:
     count: 1
     title: Norman Gimbel
+  norristown r6:
+    count: 1
+    title: Norristown R6
   north korea:
     count: 1
     title: North Korea
@@ -12137,6 +12188,9 @@ dictitems:
   peasy:
     count: 1
     title: peasy
+  penn station:
+    count: 1
+    title: Penn Station
   pennsylvania:
     count: 1
     title: Pennsylvania
@@ -12281,6 +12335,9 @@ dictitems:
   philadelphia amiga users' group:
     count: 1
     title: Philadelphia Amiga Users' Group
+  philadelphian:
+    count: 1
+    title: Philadelphian
   philly cream cheese:
     count: 1
     title: Philly Cream Cheese
@@ -13757,6 +13814,9 @@ dictitems:
   ready player one:
     count: 1
     title: Ready Player One
+  reagan:
+    count: 1
+    title: Reagan
   real:
     count: 2
     title: Real
@@ -14351,6 +14411,9 @@ dictitems:
   robbery:
     count: 1
     title: robbery
+  robbie nelson:
+    count: 1
+    title: Robbie Nelson
   robert cialdini:
     count: 3
     title: Robert Cialdini
@@ -14372,6 +14435,9 @@ dictitems:
   rocky:
     count: 1
     title: Rocky
+  rocky stallone:
+    count: 1
+    title: Rocky Stallone
   role model:
     count: 2
     title: Role Model
@@ -14561,6 +14627,9 @@ dictitems:
   samurai warrior:
     count: 1
     title: Samurai Warrior
+  san felipe:
+    count: 1
+    title: San Felipe
   sap:
     count: 2
     title: SAP
@@ -14595,7 +14664,7 @@ dictitems:
     count: 1
     title: SCSS
   scala:
-    count: 2
+    count: 3
     title: Scala
   scalability:
     count: 1
@@ -15173,6 +15242,9 @@ dictitems:
   siberian tiger:
     count: 1
     title: Siberian Tiger
+  sibling cruelty:
+    count: 1
+    title: sibling cruelty
   side effects:
     count: 1
     title: Side Effects
@@ -15743,6 +15815,9 @@ dictitems:
   spring layout:
     count: 1
     title: Spring Layout
+  spring mill elementary school:
+    count: 1
+    title: Spring Mill Elementary School
   sql:
     count: 1
     title: SQL
@@ -15828,7 +15903,7 @@ dictitems:
     count: 1
     title: Stakeholders
   stan lee:
-    count: 1
+    count: 2
     title: Stan Lee
   stand:
     count: 2
@@ -16964,6 +17039,9 @@ dictitems:
   tides,:
     count: 1
     title: Tides,
+  tijuana:
+    count: 1
+    title: Tijuana
   tiktoken:
     count: 1
     title: tiktoken
@@ -18012,7 +18090,7 @@ dictitems:
     count: 1
     title: viral content
   virginia:
-    count: 1
+    count: 2
     title: Virginia
   virtual:
     count: 3
