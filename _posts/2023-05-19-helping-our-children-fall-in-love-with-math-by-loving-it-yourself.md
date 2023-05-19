@@ -111,11 +111,22 @@ wow is it awesome, colorfully and interactively building up page-by-page the
 story of ON's and OFF's and why that runs everything in the digital world. But
 the world isn't only 1's and 0's, so you have to follow-up immediately with
 something to prevent false dichotomies. In other words, things aren't nearly as
-black and white as the very useful like we call ***digital*** electronics.
-Electronics is ***analog*** by nature, so the Boolean Baby Book needs something
-like a slide whistle or swanee whistle to show the infinite range of sound.
-It's going to drive you crazy for a bit, but hey that's the price of being a
-good teacher.
+black and white as the very ***useful lie*** we call ***digital*** electronics.
+
+Did you digital is a lie? It's a complexity-reducing trick we do so that the
+principles of boolean logic (switches) can be applied to the real world. You'll
+hear the word ***thunk*** used a lot in computer science. It's the sound of a
+deep, rich analog reality being reduced to the false dichotomy of 1's and 0's.
+
+***Natural electronics*** is ***analog*** by nature. Digital electronics is
+artificial, and so is a form of art, which only makes it natural that it is
+today leading works of art... artifacts, in fact that exbibit intelligence. But
+I digress. 
+
+So to fix this common lie of digital supremacy in nature, the Boolean Baby Book
+needs something like a slide whistle or swanee whistle to show the infinite
+range of sound. It's going to drive you crazy for a bit, but hey that's the
+price of being a good teacher.
 
 When you give a curious mind a swanee, they're gonna want a saxophone. And then
 you've gone and done it, sparking an interest in music. You could end up a
