@@ -178,7 +178,8 @@ is a big flanging wing on each side, right? And we talk about butterflies in
 this A leads to B leads to C leads to colossally different outcomes because a
 butterfly is such a little thing, right? A dinosaur falls on one. One flaps its
 wings creating a little air-current in a far-distant land. Well what if I told
-you that the maths behind this actually ***draws a shape of a butterfly***?
+you that the maths behind this both ***draws a shape of a butterfly*** and
+reveals the lie in these assumptions. B does not necessarily lead to C. 
 
 I kid you not. It's called a strange attractor, but that it looks like a
 butterfly is only just the beginning of the wonder of this story, because in
