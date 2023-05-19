@@ -246,12 +246,17 @@ it will switch sides. Then it comes back.
 Many people confuse the butterfly effect with ***the law of unintended
 consequences***. Perhaps it's just labels and I could make the same argument
 about that one. Even when you make decisions that take you out of your comfort
-zone, you can always return to it. Maybe not on the first rotatation, but give
-it 2 or 3 more and you can get back to where you were. You are not actually
-following that mathematical formula. You have human free will, because we don't
-live in a super-deterministic universe. That's what we call non-falsifiable and
-about the same as believing in bigfoot. You can't prove bigfoot doesn't exist
-and you can't prove that we do live in a super-deterministic universe.
+zone, you can always return to it. Maybe not on the first rotation, but give it
+2 or 3 more and you can get back to where you were. The most damaging fallacy
+of our time is the believe that what doesn't kill you makes you damaged goods,
+forever a victim and it's downhill from there. Wrong! It means your mommy and
+daddy neglected to give you the tools to steer that dot.
+
+You are not actually following that mathematical formula. You have human free
+will, because we don't live in a super-deterministic universe. That's what we
+call non-falsifiable and about the same as believing in bigfoot. You can't
+prove bigfoot doesn't exist and you can't prove that we do live in a
+super-deterministic universe.
 
 So work on the presumption that you have free will, and that you can return to
 your comfort zone if you made a mistake. It's not proven by the Lorenz
