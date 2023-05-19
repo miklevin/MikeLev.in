@@ -124,9 +124,14 @@ Surprise! Electronics isn't necessarily digital. We just force it to be that
 way and present it like it's the whole story. It's not. That's a lie. The
 "digital" part of digital electronics is actually a complexity-reducing trick
 we do so that the principles of *boolean logic* (switches) can be applied to
-the real world. You'll hear the word ***thunk*** used a lot in computer
-science. It's the sound of a deep, rich analog reality being reduced to the
-false dichotomy of 1's and 0's.
+the real world. 
+
+You'll hear the word ***thunk*** used a lot in computer science. It's the sound
+of a deep, rich analog reality being reduced to the false dichotomy of 1's and
+0's. ***THUNK*** goes a deeper, richer full-spectrum reality full of wonder and
+insights and easy-to-conduct home experiments. Now instead of Vandergaph
+generators and Tesla coils, it's breadboards and Raspberry Pi's&#151;and even
+that's if you're lucky.
 
 ***Natural electronics*** is ***analog*** by nature. Digital electronics is
 artificial, and so is a form of art, which only makes it natural that it is
