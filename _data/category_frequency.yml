@@ -1296,7 +1296,7 @@ dictitems:
     count: 1
     title: Artificial
   artificial intelligence:
-    count: 9
+    count: 10
     title: Artificial Intelligence
   artificial selection:
     count: 1
@@ -1313,6 +1313,9 @@ dictitems:
   ascii art:
     count: 4
     title: ASCII art
+  asian:
+    count: 1
+    title: Asians
   asimov:
     count: 2
     title: Asimov
@@ -1539,14 +1542,17 @@ dictitems:
     count: 1
     title: BAAN
   baby:
-    count: 1
-    title: Baby
+    count: 2
+    title: Babies
   baby steps:
     count: 1
     title: Baby Steps
   baby-steps:
     count: 1
     title: Baby-Steps
+  bach:
+    count: 1
+    title: Bach
   back hurts:
     count: 1
     title: Back Hurts
@@ -2072,6 +2078,9 @@ dictitems:
   bookshelf:
     count: 1
     title: Bookshelf
+  boolean logic:
+    count: 1
+    title: Boolean Logic
   bootstrap:
     count: 1
     title: Bootstrap
@@ -2115,7 +2124,7 @@ dictitems:
     count: 1
     title: Brackets
   brain:
-    count: 3
+    count: 4
     title: brain
   brain structure:
     count: 1
@@ -2166,8 +2175,8 @@ dictitems:
     count: 1
     title: Brian Weiner
   bridge:
-    count: 2
-    title: Bridge
+    count: 3
+    title: bridges
   brightlocal:
     count: 1
     title: BrightLocal
@@ -2313,7 +2322,7 @@ dictitems:
     count: 1
     title: Calculating
   calculus:
-    count: 4
+    count: 5
     title: Calculus
   calculus formulas:
     count: 1
@@ -2975,6 +2984,9 @@ dictitems:
   collective consciousness:
     count: 1
     title: Collective Consciousness
+  college:
+    count: 1
+    title: college
   college career:
     count: 1
     title: college career
@@ -3636,7 +3648,7 @@ dictitems:
     count: 1
     title: Creative
   creativity:
-    count: 5
+    count: 6
     title: Creativity
   creator:
     count: 1
@@ -3656,6 +3668,9 @@ dictitems:
   criminal:
     count: 1
     title: Criminal
+  criminal protection-racket:
+    count: 1
+    title: criminal protection-racket
   cringe-worthy:
     count: 1
     title: Cringe-Worthy
@@ -3747,7 +3762,7 @@ dictitems:
     count: 1
     title: Cultural Diffusion
   culture:
-    count: 6
+    count: 7
     title: Culture
   culture series:
     count: 2
@@ -4052,6 +4067,9 @@ dictitems:
   dawkins:
     count: 1
     title: Dawkins
+  day:
+    count: 1
+    title: day
   day job:
     count: 2
     title: Day Job
@@ -4469,6 +4487,9 @@ dictitems:
   digital technology:
     count: 1
     title: Digital Technology
+  digital world:
+    count: 1
+    title: digital world
   digitalocean:
     count: 1
     title: DigitalOcean
@@ -4811,6 +4832,9 @@ dictitems:
   drone:
     count: 2
     title: Drones
+  drop out:
+    count: 1
+    title: drop out
   droplet:
     count: 1
     title: Droplet
@@ -4898,6 +4922,9 @@ dictitems:
   earth science:
     count: 1
     title: Earth Science
+  earth's orbit:
+    count: 1
+    title: Earth's orbit
   eartha kitt:
     count: 1
     title: Eartha Kitt
@@ -4983,7 +5010,7 @@ dictitems:
     count: 1
     title: Editing Human Embryos
   education:
-    count: 7
+    count: 8
     title: Education
   education market:
     count: 1
@@ -5265,11 +5292,14 @@ dictitems:
     count: 1
     title: engineers
   engineering:
-    count: 2
+    count: 3
     title: Engineering
   english:
     count: 2
     title: English
+  english language:
+    count: 1
+    title: English language
   enjoyable:
     count: 1
     title: Enjoyable
@@ -5378,6 +5408,9 @@ dictitems:
   escape sequence:
     count: 1
     title: escape sequence
+  escher:
+    count: 1
+    title: Escher
   essential vibe:
     count: 1
     title: Essential Vibe
@@ -5846,6 +5879,9 @@ dictitems:
   fictional:
     count: 2
     title: Fictional
+  fiefdom:
+    count: 1
+    title: fiefdoms
   field:
     count: 6
     title: Fields
@@ -6555,8 +6591,8 @@ dictitems:
     count: 1
     title: generic,
   genetics:
-    count: 1
-    title: Genetics
+    count: 2
+    title: genetics
   gentleness:
     count: 1
     title: Gentleness
@@ -6897,8 +6933,8 @@ dictitems:
     count: 1
     title: Governance
   government:
-    count: 1
-    title: Government
+    count: 2
+    title: government
   gpl:
     count: 2
     title: GPL
@@ -7109,6 +7145,9 @@ dictitems:
   gwen stacy:
     count: 1
     title: Gwen Stacy
+  "g\xF6del":
+    count: 1
+    title: "G\xF6del"
   ha:
     count: 1
     title: has
@@ -8819,6 +8858,9 @@ dictitems:
   kickstarter:
     count: 2
     title: Kickstarter
+  kickstarters:
+    count: 1
+    title: Kickstarters
   kid:
     count: 2
     title: Kid
@@ -8945,6 +8987,9 @@ dictitems:
   language arts:
     count: 1
     title: Language Arts
+  language evolution:
+    count: 1
+    title: language evolution
   language model:
     count: 1
     title: Language Model
@@ -10173,7 +10218,7 @@ dictitems:
     count: 2
     title: Material World
   math:
-    count: 9
+    count: 10
     title: Math
   mathematics:
     count: 5
@@ -11315,6 +11360,9 @@ dictitems:
   nietzsche:
     count: 1
     title: Nietzsche
+  night:
+    count: 1
+    title: night
   night/day:
     count: 1
     title: night/day
@@ -11648,6 +11696,9 @@ dictitems:
   on own:
     count: 1
     title: On Own
+  on's:
+    count: 1
+    title: ON's
   on-task:
     count: 1
     title: On-task
@@ -12072,7 +12123,7 @@ dictitems:
     count: 1
     title: Parenthesis
   parenting:
-    count: 4
+    count: 5
     title: Parenting
   parquet file:
     count: 1
@@ -12369,7 +12420,7 @@ dictitems:
     count: 1
     title: Photosynthesis
   physic:
-    count: 5
+    count: 6
     title: Physics
   physical:
     count: 1
@@ -14507,6 +14558,9 @@ dictitems:
   row:
     count: 3
     title: Rows
+  royalty:
+    count: 1
+    title: royalty
   rpm:
     count: 1
     title: RPM
@@ -15315,7 +15369,7 @@ dictitems:
     count: 1
     title: Simulation
   sine wave:
-    count: 1
+    count: 2
     title: sine wave
   sing:
     count: 1
@@ -15594,7 +15648,7 @@ dictitems:
     count: 1
     title: Social Studies
   society:
-    count: 3
+    count: 4
     title: Society
   socratic method:
     count: 1
@@ -15687,7 +15741,7 @@ dictitems:
     count: 1
     title: SourceForge
   space:
-    count: 3
+    count: 4
     title: Space
   space exploration:
     count: 1
@@ -16398,7 +16452,7 @@ dictitems:
     count: 1
     title: Summer Project
   sun:
-    count: 2
+    count: 3
     title: Sun
   sun may 14:
     count: 1
@@ -16995,7 +17049,7 @@ dictitems:
     count: 2
     title: think
   thinking:
-    count: 5
+    count: 6
     title: Thinking
   third great-twenty-eight:
     count: 1
@@ -17052,7 +17106,7 @@ dictitems:
     count: 1
     title: Tim Berners-Lee
   time:
-    count: 4
+    count: 5
     title: Time
   time dilation:
     count: 2
@@ -17661,7 +17715,7 @@ dictitems:
     count: 1
     title: Universality
   universe:
-    count: 3
+    count: 4
     title: Universe
   university of manchester:
     count: 1

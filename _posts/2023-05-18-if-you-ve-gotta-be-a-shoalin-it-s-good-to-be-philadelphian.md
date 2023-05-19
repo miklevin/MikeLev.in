@@ -192,7 +192,7 @@ in the world.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/helping-our-children-fall-in-love-with-math-by-loving-it-yourself/">Helping Our Children Fall In Love with Math by Loving It Yourself</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

@@ -11,8 +11,8 @@ layout: post
 
 
 Like it was... :b4. That's what I do to jump from here to a different
-text-edior buffer I always have loaded where I write... the place I wrote a
-lot... an awful lot ***before*** (b4) publishing so much publically. Before
+text-edior buffer I always have loaded where I write... The place I wrote a
+lot... an awful lot ***before*** (b4) publishing so much publicly. Before
 that, I worked out of paper journals mostly. I just couldn't see the clear cut
 advantage of digital. It's not like I was really going to publish what I wrote
 in a journal-writing off-the-cuff free-form style, was I? Nahhh. And search, to
