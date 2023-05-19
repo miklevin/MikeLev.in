@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a> (Fri May 19, 2023)
+<br/>I'm Mike Levin, an SEO in NYC, and I'm exploring how the Wizard of Oz predicted the AI-world of today. Read my story to learn about the Crooked Wizard, Paul Graham, and how we can use AI to help us think creatively and critically. Discover how I'm challenging Copilot to help me navigate my life and reach an audience of homeschooling parents, data scientists, and more.</li>
 <li><a href="/blog/when-the-coachman-beats-the-horse-the-non-binary-truth/">When the Coachman Beats The Horse: The Non-Binary Truth</a> (Thu May 18, 2023)
 <br/>As humans, we are emotional creatures and rely on emotional facts for survival. This article explores the dangers of reducing complex situations to binary choices, and encourages us to take the high road and stay in the driver's seat, no matter how spooked the horses get. Don't let yourself be framed by others - broaden your view and search for the non-binary truth.</li>
 <li><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a> (Tue May 16, 2023)

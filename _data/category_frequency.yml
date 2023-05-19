@@ -491,9 +491,15 @@ dictitems:
   '`vim.api.nvim_command`':
     count: 1
     title: '`vim.api.nvim_command`'
+  a blight upon the deep:
+    count: 1
+    title: A Blight Upon The Deep
   a few little kitties i know:
     count: 1
     title: A Few Little Kitties I Know
+  a wrinkle in time:
+    count: 1
+    title: A Wrinkle In Time
   a-game:
     count: 1
     title: A-game
@@ -774,7 +780,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 96
+    count: 97
     title: AI
   ai bros:
     count: 1
@@ -1317,7 +1323,7 @@ dictitems:
     count: 1
     title: Asians
   asimov:
-    count: 2
+    count: 3
     title: Asimov
   asp:
     count: 2
@@ -1629,7 +1635,7 @@ dictitems:
     count: 4
     title: Banner
   bard:
-    count: 3
+    count: 4
     title: Bard
   base64:
     count: 1
@@ -1658,6 +1664,9 @@ dictitems:
   basic commands:
     count: 1
     title: basic commands
+  basic literacy:
+    count: 1
+    title: basic literacy
   bat:
     count: 1
     title: Bat
@@ -1866,7 +1875,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 19
+    count: 20
     title: Bing
   bing chatbot:
     count: 1
@@ -3480,7 +3489,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 18
+    count: 19
     title: Copilot
   copilot ai:
     count: 1
@@ -5262,7 +5271,7 @@ dictitems:
     count: 1
     title: End-to-End Testing
   ender:
-    count: 1
+    count: 2
     title: Ender
   endpoint:
     count: 4
@@ -5510,6 +5519,9 @@ dictitems:
   ex:
     count: 1
     title: Ex
+  ex machina:
+    count: 1
+    title: Ex Machina
   exact-match keyword:
     count: 1
     title: exact-match keyword
@@ -6198,7 +6210,7 @@ dictitems:
     count: 1
     title: Found
   foundation:
-    count: 1
+    count: 2
     title: Foundation
   founder:
     count: 1
@@ -6974,6 +6986,9 @@ dictitems:
   gpu utilization:
     count: 1
     title: GPU utilization
+  gpu-cluster:
+    count: 1
+    title: GPU-cluster
   gpus:
     count: 1
     title: GPUs
@@ -7139,6 +7154,9 @@ dictitems:
   gutenberg:
     count: 1
     title: Gutenberg
+  guttenberg:
+    count: 1
+    title: Guttenberg
   guy:
     count: 1
     title: Guy
@@ -7223,6 +7241,9 @@ dictitems:
   harry potter:
     count: 1
     title: Harry Potter
+  harry seldon:
+    count: 1
+    title: Harry Seldon
   harvard:
     count: 1
     title: Harvard
@@ -7515,7 +7536,7 @@ dictitems:
     count: 1
     title: homeschooled
   homeschooling:
-    count: 2
+    count: 3
     title: Homeschooling
   homograph:
     count: 2
@@ -8432,6 +8453,9 @@ dictitems:
   jane:
     count: 1
     title: Jane
+  jane-earring:
+    count: 1
+    title: Jane-earring
   january 29:
     count: 1
     title: January 29
@@ -9935,6 +9959,9 @@ dictitems:
   mad scientist:
     count: 1
     title: Mad Scientist
+  "madeleine l\u2019engle":
+    count: 1
+    title: "Madeleine L\u2019Engle"
   magic:
     count: 6
     title: Magic
@@ -10503,7 +10530,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 50
+    count: 51
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11562,7 +11589,7 @@ dictitems:
     count: 1
     title: NVENC
   nvidia:
-    count: 2
+    count: 3
     title: NVIDIA
   nvim:
     count: 1
@@ -11784,7 +11811,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 37
+    count: 39
     title: OpenAI
   openai api:
     count: 2
@@ -13262,6 +13289,9 @@ dictitems:
   psychedelic:
     count: 1
     title: Psychedelic
+  psychohistory:
+    count: 1
+    title: psychohistory
   psychology:
     count: 1
     title: Psychology
@@ -13269,7 +13299,7 @@ dictitems:
     count: 1
     title: Psychotherapy
   public:
-    count: 2
+    count: 3
     title: Public
   public awareness:
     count: 1
@@ -13686,7 +13716,7 @@ dictitems:
     count: 1
     title: Rabbit Hole Evaluations
   rabbit hole linux:
-    count: 1
+    count: 2
     title: Rabbit Hole Linux
   rabbit holes:
     count: 3
@@ -14766,7 +14796,7 @@ dictitems:
     count: 3
     title: Schwinger Effect
   sci-fi:
-    count: 2
+    count: 3
     title: Sci-Fi
   science:
     count: 8
@@ -16889,6 +16919,9 @@ dictitems:
   templating system:
     count: 1
     title: Templating System
+  tensorflow:
+    count: 1
+    title: TensorFlow
   terabyte:
     count: 1
     title: Terabytes
@@ -17993,6 +18026,9 @@ dictitems:
   verb:
     count: 1
     title: Verbs
+  verner vinge:
+    count: 1
+    title: Verner Vinge
   vernor vinge:
     count: 2
     title: Vernor Vinge

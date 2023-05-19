@@ -329,7 +329,7 @@ math, just a side-effect.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-ve-gotta-be-a-shoalin-it-s-good-to-be-philadelphian/">If You've Gotta be a Shoalin, It's Good to Be Philadelphian</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-ve-gotta-be-a-shoalin-it-s-good-to-be-philadelphian/">If You've Gotta be a Shoalin, It's Good to Be Philadelphian</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
