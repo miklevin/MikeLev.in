@@ -4,7 +4,7 @@ title: "When the Coachman Beats The Horse: The Non-Binary Truth"
 headline: "Exploring the Non-Binary Truth: How to Overcome False Dichotomies and Embrace the Spectrum"
 description: As humans, we are emotional creatures and rely on emotional facts for survival. This article explores the dangers of reducing complex situations to binary choices, and encourages us to take the high road and stay in the driver's seat, no matter how spooked the horses get. Don't let yourself be framed by others - broaden your view and search for the non-binary truth.
 keywords: Emotional facts, Rationale, Star Trek, Vulcans, Evolution, AIpocalypse, Eliezer Yudkowsky, Polarizing, Framing, Black and White, Spectrum, Rainbow, Mind, Sympathetic Nervous System, Parasympathetic Nervous System, Triggers, Disney, Marvel, Batman, Bambi, False Dichotomy, Cognizant, Pyramids, Bible, Internet, AI, Coachman, Horse, Horsew
-categories: evolution, ai
+categories: ai, evolution
 permalink: /blog/when-the-coachman-beats-the-horse-the-non-binary-truth/
 layout: post
 ---
@@ -163,5 +163,5 @@ truth will come out, as non-binary as it is.
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

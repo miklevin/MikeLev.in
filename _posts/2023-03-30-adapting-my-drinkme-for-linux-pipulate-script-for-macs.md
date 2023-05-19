@@ -4,7 +4,7 @@ title: Adapting My DrinkMe for Linux Pipulate Script for Macs
 headline: Adapting My Linux Pipulate Script for Macs with MultiPass and mDNS
 description: I'm adapting my DrinkMe Linux Pipulate Script for Macs, so I'm using a Linux VM on a Mac for the most precise code execution. To make this easy, I'm using Canonical's MultiPass, which turns on virtualization and sets up a working instance of Ubuntu. I'm also using Apple Bonjour's mDNS to map host ports to the VM ports, and I've updated the install script to ensure Linux graphics work in headful mode.
 keywords: Macs, Linux, VM, Canonical, MultiPass, Ubuntu, mDNS, headful, Dev Revolution, Unix, Proprietary, Debian, Virtual Machine, Persistent, Transferable, Tech Knowledge
-categories: mac, ubuntu, proprietary, linux
+categories: ubuntu, linux, proprietary, mac
 permalink: /blog/adapting-my-drinkme-for-linux-pipulate-script-for-macs/
 layout: post
 ---
@@ -322,7 +322,7 @@ transferable valuable tech knowledge, yadda, yadda, already said it.
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li></ul>

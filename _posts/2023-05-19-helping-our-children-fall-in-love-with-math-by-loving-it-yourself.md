@@ -243,7 +243,7 @@ much? So math fortifies your mind against social manipulation and improves your
 lot in life and that of your children's. The ***butterfly effect is a
 fallacy*** because the center can hold. This is a beautiful lesson.
 
-Specifically, if he concept of the butterfly effect is causing you anxiety
+Specifically, if the concept of the butterfly effect is causing you anxiety
 because of the false believe that any little move you make is going to have
 consequences that spiral out of control, put it to rest. It won't. Oh, it
 might, but much more likely you're only ***switching wings***. To get an

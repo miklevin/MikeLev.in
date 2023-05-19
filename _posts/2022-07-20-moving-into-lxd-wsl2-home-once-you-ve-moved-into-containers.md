@@ -4,7 +4,7 @@ title: Moving Into LXD WSL2 ~/ 'Home' Once You've Moved Into Containers
 headline: Creating a Comfortable and Productive Home with LXD and WSL2
 description: This blog post explains how I am using Linux Containers (LXD) and WSL2 to create a comfortable and productive home, inspired by a YouTube video about a child prodigy. I'm detailing the steps I'm taking to mount my ~/github and ~/.ssh files to my container, codifying the steps to create a container, setting up a script to put a few files directly in ~/ including a .bash_profile, creating a 'helpers' repo.
 keywords: Linux Containers, LXD, WSL2, Home, YouTube, Child Prodigy, Github, Software Repositories, Portable, Bash_profile, Helpers Repo, Git, Python, Python3.10, Virtual Environment
-categories: youtube, wsl, git, python, container
+categories: wsl, python, youtube, container, git
 permalink: /blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/
 layout: post
 ---
@@ -147,8 +147,8 @@ Wow, and that pretty much does it.
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
