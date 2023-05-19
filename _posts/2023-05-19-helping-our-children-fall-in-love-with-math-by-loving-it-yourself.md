@@ -226,9 +226,10 @@ fallacy*** because the center can hold. This is a beautiful lesson.
 
 Specifically, if he concept of the butterfly effect is causing you anxiety
 because of the false believe that any little move you make is going to have
-consequences that spiral out of control, put it to rest. It won't. Oh, it might
-bot to get an instinctive feel of precisely how often and how damaging, watch
-the Lorenz Attractor.
+consequences that spiral out of control, put it to rest. It won't. Oh, it
+might, but much more likely you're only ***switching wings***. To get an
+instinctive feel of precisely how often and how damaging, watch the Lorenz
+Attractor. Play with the apps.
 
 Not all life parallels the particular magical formula I'm talking about:
 

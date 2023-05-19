@@ -4,7 +4,7 @@ title: Reworking Site
 headline: Creating a New Website with SimpleCSS, Linux, Python, Vim, Git and Jekyll Skills
 description: I'm working on my website today, using SimpleCSS for a new look. I'm using Linux, Python, Vim, Git and Jekyll skills to create a static page generator system. Testing out the Jekyll include system to create secondary navigation buttons, and considering externalizing the primary nav. Plus, two headers and lowercase versions of categories for my blogging. Come and join me on my journey!
 keywords: Website, SimpleCSS, Linux, Python, Vim, Git, Jekyll, Secondary Navigation, Primary Navigation, Header, Lowercase, Categories, Blogging, Journey
-categories: git, linux, vim, python, jekyll
+categories: jekyll, linux, python, vim, git
 permalink: /blog/reworking-site/
 layout: post
 ---
@@ -73,8 +73,8 @@ with the kid coming over.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
