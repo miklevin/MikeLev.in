@@ -4,7 +4,7 @@ title: LXDWIN is now the DrinkMe JupyterLab Linux Install Script
 headline: Come Join Me on My Big Data-Pull Project!
 description: I've rebranded my lxdwin repository to drinkme, and I'm starting a big data-pull project for work. I'm creating a repo folder so everyone can follow along and I'll make a video about it. Come join me and see how it all unfolds!
 keywords: LXDWIN, DrinkMe, JupyterLab, Linux, Install, Script, Repository, Big Data-Pull, Project, Work, Repo Folder, Video, Focus, Scratch, Rework
-categories: python, drinkme, linux, jupyter, success
+categories: python, linux, jupyter, drinkme, success
 permalink: /blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/
 layout: post
 ---
@@ -31,7 +31,7 @@ Yes! It's video-time.
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li></ul>

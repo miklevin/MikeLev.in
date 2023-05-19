@@ -60,8 +60,9 @@ around you, but you've likely closed your mind to them. You've been conditioned
 with negative reinforcement responses to close your mind to good solutions.
 It's pure Pavlovian conditioning, like ringing a bell when you feed an animal,
 they will begin to associate the ringing bell with the positive experience of
-food. Negative reinforcement is to use the word "math" and presenting the old
-schlock canned lessons that are as boring as the teacher is incompetent. 
+food. The very word "math" is now is a trigger for many, because of the schlock
+canned lessons pushed on them, which are as boring as the teacher who uses such
+techniques is incompetent. 
 
 Yes, there are good math teachers out there, but I can only remember two, and
 they were so fleeting, so rare. I wish I had them year after year. Thank you,
@@ -266,10 +267,23 @@ Many people confuse the butterfly effect with ***the law of unintended
 consequences***. Perhaps it's just labels and I could make the same argument
 about that one. Even when you make decisions that take you out of your comfort
 zone, you can always return to it. Maybe not on the first rotation, but give it
-2 or 3 more and you can get back to where you were. The most damaging fallacy
-of our time is the believe that what doesn't kill you makes you damaged goods,
-forever a victim and it's downhill from there. Wrong! It means your mommy and
-daddy neglected to give you the tools to steer that dot.
+2 or 3 more and you can get back to where you were. 
+
+The most damaging fallacy of our time is the belief that what doesn't kill you
+makes you forever a victim, damaged goods entitled to compensation, and it's
+downhill from there and you can beat up everyone around you with a sense of
+entitlement and correcting their language and trying to impose your belief
+system on them. Wrong! I'm sorry about whatever happendd to you, and I'm sure
+it was awful and I'm not invalidating it. It's just that you're still alive,
+aren't you? 
+
+What, are you ***not in control*** of your very own mind and how you move ahead
+in life? You've become like a feather in the breeze rather than a human, but a
+loud, complaining one? Get off it. What doesn't kill you makes you stronger,
+period. If not, your mommy and daddy let you down too early, and you haven't
+started correcting course soon enough. And because it takes as much time to
+back out of a bad situation as it took to get in, you had better start now.
+Watch the Lorenz Attractor. Okay? Now, steer that dot.
 
 You are not actually following that mathematical formula. You have human free
 will, because we don't live in a super-deterministic universe. That's what we

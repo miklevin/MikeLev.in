@@ -4,7 +4,7 @@ title: The AIs Will Find You If You're Unique
 headline: "Exploring Google Photos Processing: My Journey to Automate and Archive a Month of Photos"
 description: I'm taking my Google Photos processing to the next level by creating a service to download and copy one month of photos at random. To do this, I'm using Python scripts, headless Linux Chrome automation, and the headlines import to generate a list of files to be archived. I'm also taking the Google Photos tutorial out of the practice folder and moving it to the actual gphotos repo. Follow my journey as I take my Google Photos processing to the next level!
 keywords: Google Photos, Python, Scripts, Automation, Headless Linux Chrome, Microsoft Playwright, File Archiving, Tutorial, Repo, Scheduling, Download, Copy, Media IDs, Week-Size Chunks, Trash
-categories: microsoft playwright, python, tutorial, scheduling, google
+categories: python, microsoft playwright, google, scheduling, tutorial
 permalink: /blog/the-ais-will-find-you-if-you-re-unique/
 layout: post
 ---
@@ -182,8 +182,8 @@ Okay, done.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
