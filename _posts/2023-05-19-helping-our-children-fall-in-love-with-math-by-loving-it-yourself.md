@@ -277,14 +277,14 @@ debug inconsistencies he was encountering on a paper printout, thus discovering
 two new fields of science: Chaos and Complexity theory. And ***somebody please
 kickstart an analog computer butterfly effect toy***, cause I'm in!
 
-There are some beautiful minds out there. Maybe I'll make the whole subject of
-math the story of these minds such as Hypatia - Geometry and Astronomy, Sophie
-Germain - Number Theory, Ada Lovelace - Computer Science, Sofia Kovalevskaya -
-Analysis and Differential Equations, Emmy Noether - Abstract Algebra, Maryam
-Mirzakhani - Geometry and Dynamical Systems, Karen Uhlenbeck - Topology, Ruth
-Lawrence - Number Theory, Olga Ladyzhenskaya - Partial Differential Equations.
-
-
+There are some beautiful minds out there. Maybe I'll make the whole math
+curriculum I have planned for my child actually the story of such inspirations
+as Hypatia - Geometry and Astronomy, Sophie Germain - Number Theory, Ada
+Lovelace - Computer Science, Sofia Kovalevskaya - Analysis and Differential
+Equations, Emmy Noether - Abstract Algebra, Maryam Mirzakhani - Geometry and
+Dynamical Systems, Karen Uhlenbeck - Topology, Ruth Lawrence - Number Theory,
+Olga Ladyzhenskaya - Partial Differential Equations; and actually learning the
+math, just a side-effect.
 
 
 
