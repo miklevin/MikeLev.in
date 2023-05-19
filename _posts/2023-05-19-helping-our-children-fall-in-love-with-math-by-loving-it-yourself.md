@@ -61,9 +61,16 @@ with negative reinforcement responses to close your mind to good solutions.
 It's pure Pavlovian conditioning, like ringing a bell when you feed an animal,
 they will begin to associate the ringing bell with the positive experience of
 food. Negative reinforcement is to use the word "math" and presenting the old
-schlock canned lessons that are as boring as the teacher is incompetent. You're
-being conditioned to hate math by the very people who are supposed to be
-teaching you math. It's a crime.
+schlock canned lessons that are as boring as the teacher is incompetent. 
+
+Yes, there are good math teachers out there, but I can only remember two, and
+they were so fleeting, so rare. I wish I had them year after year. Thank you,
+Mr. Savage. You were savage. While I'm at it, Stephen White, you were all that
+and a bag of chips in English! Shout-out to Plymouth Whitemarsh!
+
+Other than those few points of light, those insanely talented and dedicated
+soldiers of the correct war, you're probably being conditioned to hate math by
+the very people who are supposed to be teaching you math. It's a crime.
 
 It's the unfortunate circumstances of your early-life (all English-speakers of
 lower socioeconomic conditions). It's not your fault, but more importantly,
