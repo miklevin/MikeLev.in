@@ -4,7 +4,7 @@ title: I Never Saw a Purple Unicorn And Never Hope to See One... Take and Revers
 headline: "I'm a Purple Unicorn: Exploring the Risks and Rewards of a Different Path."
 description: I'm a purple unicorn and I know it. In this post, I'm exploring how to use RegEx in NeoVim, while others focus on SEO and marketing. I'm experimenting with producing original content to see what the filters make of it, and learning how to don the disguise of the buttoned-up, non-emotional types to have a seat at the table. Join me on my journey of self-discovery!
 keywords: NeoVim, RegEx, OpenAI, YouTube, SEO, Marketing, Purple Unicorn, Copilot, Autosuggest, Interpersonal Authority, Pavlovian Conditioned, SEO Counterparts, Spam Cannon, Generative Birdcall, Wordpress Plugin, Infinite Spam Filter, Content Filters, Real Estate, Passive Income, Mad Hatter's Tea Party, Alice
-categories: youtube, ai, marketing, seo, vim
+categories: seo, youtube, marketing, ai, vim
 permalink: /blog/i-never-saw-a-purple-unicorn-and-never-hope-to-see-one-take-and-reverse/
 layout: post
 ---
@@ -128,8 +128,8 @@ just continue enjoying my craft, going my direction while they go theirs.
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>

@@ -64,13 +64,18 @@ use the word "math" and presenting the old schlock canned lessons that are
 as boring as the teacher is incompetent. You're being conditioned to hate math
 by the very people who are supposed to be teaching you math. It's a crime.
 
-But it's not a conspiracy. It's just the evolution of language and the
-unfortunate circumstances of your life. It's not your fault, but more
-importantly, it's never too late. With the right plan, the right tools, and the
-right instructor. Unfortunately, such plans and tools aren't so obvious to
-everybody, and such instructors aren't so common. But they do exist. You just
-can't plop a kid in front of a screen and hope it happens. It has to be totally
-integrated into their lives... as if it wasn't.
+It's the unfortunate circumstances of your early-life (all English-speakers of
+lower socioeconomic conditions). It's not your fault, but more importantly,
+it's never too late. The cycle can be broken right here, and I show you how.
+Unfortunately, it's as much time coming out as it was time going in, so the
+sooner you start righting this wrong, the better! I'm 50, so I'm personally
+going to be 100 before I get down calculus. Perhaps you can do better.
+
+With the right plan, the right tools, and the right instructor, we can do this.
+Unfortunately, such plans and tools aren't so obvious to everybody, and such
+instructors aren't so common. But they do exist. You just can't plop a kid in
+front of a screen and hope it happens. It has to be totally integrated into
+their lives... as if it wasn't.
 
 It's Pavlovian conditioning again, but the right kind. You know what kids want?
 To not be bored. To feel like they belong. To feel proud of themselves. To
