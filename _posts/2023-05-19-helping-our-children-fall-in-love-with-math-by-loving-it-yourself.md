@@ -139,9 +139,12 @@ today leading works of art... artifacts, in fact that exbibit intelligence. But
 I digress. 
 
 So to fix this common lie of digital supremacy in nature, the Boolean Baby Book
-needs something like a slide whistle or swanee whistle to show the infinite
-range of sound. It's going to drive you crazy for a bit, but hey that's the
-price of being a good teacher.
+needs something like a swanee (slide whistle) to show the infinite range of
+sound. Reveal the full spectrum! Have them try to make a high note and a low
+note without going through the middle. That reveals the lie. That shows just
+how fast switches are to do the digital trick. Then talk about canal locks,
+relays, vacuum tubes, transistors, the modern integrated circuit, optical
+computing, and quantum computing. All still math, but tech ain't the only path.
 
 When you give a curious mind a swanee, they're gonna want a saxophone. And then
 you've gone and done it, sparking an interest in music. You could end up a
