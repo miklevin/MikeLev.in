@@ -55,14 +55,15 @@ movies as a child, the right books as a pre-teen, and the right teachers a
 teenager you can overcome the handicap of English. But if you're raised by
 someone who themselves "hated math", you're screwed. 
 
-And that's colossally unfair. What's worse is if the solutions are there all
-around you, but you're being conditioned with negative reinforcement to close
-your mind to those opportunities. It's pure Pavlovian conditioning, like
-ringing a bell when you feed an animal, they will begin to associate the
-ringing bell with the positive experience of food. Negative reinforcement is to
-use the word "math" and presenting the old schlock canned lessons that are
-as boring as the teacher is incompetent. You're being conditioned to hate math
-by the very people who are supposed to be teaching you math. It's a crime.
+And that's colossally unfair. What's worse is that solutions are there all
+around you, but you've likely closed your mind to them. You've been conditioned
+with negative reinforcement responses to close your mind to good solutions.
+It's pure Pavlovian conditioning, like ringing a bell when you feed an animal,
+they will begin to associate the ringing bell with the positive experience of
+food. Negative reinforcement is to use the word "math" and presenting the old
+schlock canned lessons that are as boring as the teacher is incompetent. You're
+being conditioned to hate math by the very people who are supposed to be
+teaching you math. It's a crime.
 
 It's the unfortunate circumstances of your early-life (all English-speakers of
 lower socioeconomic conditions). It's not your fault, but more importantly,
