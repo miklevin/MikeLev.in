@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a> (Fri May 19, 2023)
-<br/>I'm Mike Levin, an SEO in NYC, and I'm exploring how the Wizard of Oz predicted the AI-world of today. Read my story to learn about the Crooked Wizard, Paul Graham, and how we can use AI to help us think creatively and critically. Discover how I'm challenging Copilot to help me navigate my life and reach an audience of homeschooling parents, data scientists, and more.</li>
 <li><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a> (Tue Apr 18, 2023)
 <br/>Learn how to take back control of your online privacy in this episode of the "Browser Wars" series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.</li>
 <li><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a> (Tue Mar 28, 2023)

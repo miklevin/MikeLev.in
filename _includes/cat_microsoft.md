@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a> (Fri May 19, 2023)
-<br/>I'm Mike Levin, an SEO in NYC, and I'm exploring how the Wizard of Oz predicted the AI-world of today. Read my story to learn about the Crooked Wizard, Paul Graham, and how we can use AI to help us think creatively and critically. Discover how I'm challenging Copilot to help me navigate my life and reach an audience of homeschooling parents, data scientists, and more.</li>
+<br/>Discover how the Wizard of Oz predicted the world of AI today. Follow my journey as I explore the implications of AI, literacy, and the emerging world of technology. Learn how Dorothy's companions, Jack Pumpkinhead and the Gump, are analogues for today's AI systems and how the Wizard of Oz provides a powerful metaphor for our relationship with AI.</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)
 <br/>Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.</li>
 <li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)

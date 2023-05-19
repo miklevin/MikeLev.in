@@ -2,9 +2,9 @@
 date: 2023-05-19
 title: How Wizard of OZ Predicted Everything About Today's AI-World
 headline: Exploring How Paul Graham is the Crooked Wizard of OZ
-description: I'm Mike Levin, an SEO in NYC, and I'm exploring how the Wizard of Oz predicted the AI-world of today. Read my story to learn about the Crooked Wizard, Paul Graham, and how we can use AI to help us think creatively and critically. Discover how I'm challenging Copilot to help me navigate my life and reach an audience of homeschooling parents, data scientists, and more.
-keywords: AI, OpenAI, Microsoft, NVidia, TensorFlow, OpenAI, Ex Machina, A Wrinkle In Time, A Blight Upon The Deep, Madeleine L’Engle, Verner Vinge, Asimov, Foundation, Harry Seldon, psychohistory, Sci-Fi, copilot, Jane-earring, Ender, Bard, Bing, GPU-cluster, Rabbit Hole Linux, homeschooling, basic literacy, Guttenberg, public
-categories: bing, ai, microsoft
+description: Discover how the Wizard of Oz predicted the world of AI today. Follow my journey as I explore the implications of AI, literacy, and the emerging world of technology. Learn how Dorothy's companions, Jack Pumpkinhead and the Gump, are analogues for today's AI systems and how the Wizard of Oz provides a powerful metaphor for our relationship with AI.
+keywords: Wizard of Oz, AI, Literacy, Homeschooling, Math, Creativity, Critical Thinking, OpenAI, Microsoft, GPT-Instance, NVidia, Paul Graham, Sam Altman, Hackers and Painters, Why Nerds are Unpopular, Blub Paradox, Beating the Averages, MOZ, Artificial Intelligence, Virtual Worlds, APIs, Jack Pumpkinhead, Tim Burton, Powder of Life, Evil Magician, GPT Models, Dorothy, Copilot,
+categories: ai, seo, microsoft
 permalink: /blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/
 layout: post
 ---
@@ -462,6 +462,6 @@ fun.
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
