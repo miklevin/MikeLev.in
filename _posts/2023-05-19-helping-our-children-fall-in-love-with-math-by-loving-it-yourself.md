@@ -120,10 +120,13 @@ the world isn't only 1's and 0's, so you have to follow-up immediately with
 something to prevent false dichotomies. In other words, things aren't nearly as
 black and white as the very ***useful lie*** we call ***digital*** electronics.
 
-Did you digital is a lie? It's a complexity-reducing trick we do so that the
-principles of boolean logic (switches) can be applied to the real world. You'll
-hear the word ***thunk*** used a lot in computer science. It's the sound of a
-deep, rich analog reality being reduced to the false dichotomy of 1's and 0's.
+Surprise! Electronics isn't necessarily digital. We just force it to be that
+way and present it like it's the whole story. It's not. That's a lie. The
+"digital" part of digital electronics is actually a complexity-reducing trick
+we do so that the principles of *boolean logic* (switches) can be applied to
+the real world. You'll hear the word ***thunk*** used a lot in computer
+science. It's the sound of a deep, rich analog reality being reduced to the
+false dichotomy of 1's and 0's.
 
 ***Natural electronics*** is ***analog*** by nature. Digital electronics is
 artificial, and so is a form of art, which only makes it natural that it is
