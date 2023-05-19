@@ -75,10 +75,9 @@ With the right plan, the right tools, and the right instructor, we can do this.
 Unfortunately, such plans and tools aren't so obvious to everybody, and such
 instructors aren't so common. But they do exist. You just can't plop a kid in
 front of a screen and hope it happens. It has to be totally integrated into
-their lives... as if it wasn't. And really you've got to find the love for math
-yourself if you want your kid to feel the love. They learn by example,
-remember? Do the maths in front of them if you can. Happily, that can just be
-playing with toys.
+their lives. And really you've got to find the love for math yourself if you
+want your kid to feel the love. They learn by example, remember? Do the maths
+in front of them if you can. Happily, that can just be playing with toys.
 
 It's Pavlovian conditioning again, but the right kind. You know what kids want?
 To not be bored. To feel like they belong. To feel proud of themselves. To
