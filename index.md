@@ -16,7 +16,7 @@ honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
 talking to you. There's only like 8 billion or so of us humans, and you've got
 a big brain so you can probably know every one of us, right?
 
-### The SEO-Zone
+### Get Into The SEO-Zone
 
 I am Mike Levin, SEO in NYC, and I'm a big fan of yours. I hate SEO and only
 got into it because I find the nature of the information-jockeying work itself
