@@ -1,11 +1,11 @@
 ---
 date: 2023-05-20
-title: The Iron is Hot to Chase The Rabbit Cutting Catapult Ropes
-headline: The Time is Nigh The Rabbit Said to Chase Me Oh Dear Oh Dear I'm Late!
+title: Turning Windows & Macs into Legitimate Modern Development Platforms
+headline: The Iron is Hot So Chase The Rabbit on Down the Linux Hole
 description: In this article, I discuss the importance of maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
 keywords: Windows, Linux, Ubuntu, WSL, NT, PowerPC, Intel, ARM, Docker, VirtualBox, Oracle, Sun Microsystems, Berkeley DB, NoSQL, AI, ChatGPT, John Conway, Game of Life, Mandelbrot, Music Mod, Transformer, Amiga, WBScript, Howard Harrison, Multipass, Hypervisor, Azure Cloud, WebDev, Python, Data Scientists, App Store, Apple App Store, App Bundles, Levinux
-categories: wsl, microsoft, ai, linux, levinux, amiga, container, python, ubuntu
-permalink: /blog/the-iron-is-hot-to-chase-the-rabbit-cutting-catapult-ropes/
+categories: levinux, ubuntu, container, linux, amiga, ai, python, microsoft, wsl
+permalink: /blog/turning-windows-macs-into-legitimate-modern-development-platforms/
 layout: post
 ---
 
@@ -203,12 +203,12 @@ and get a bunch of people chasing the rabbit.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
