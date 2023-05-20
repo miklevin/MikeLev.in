@@ -4,7 +4,7 @@ title: How Wizard of OZ Predicted Everything About Today's AI-World
 headline: Exploring How Paul Graham is the Crooked Wizard of OZ
 description: Discover how the Wizard of Oz predicted the world of AI today. Follow my journey as I explore the implications of AI, literacy, and the emerging world of technology. Learn how Dorothy's companions, Jack Pumpkinhead and the Gump, are analogues for today's AI systems and how the Wizard of Oz provides a powerful metaphor for our relationship with AI.
 keywords: Wizard of Oz, AI, Literacy, Homeschooling, Math, Creativity, Critical Thinking, OpenAI, Microsoft, GPT-Instance, NVidia, Paul Graham, Sam Altman, Hackers and Painters, Why Nerds are Unpopular, Blub Paradox, Beating the Averages, MOZ, Artificial Intelligence, Virtual Worlds, APIs, Jack Pumpkinhead, Tim Burton, Powder of Life, Evil Magician, GPT Models, Dorothy, Copilot,
-categories: ai, seo, microsoft
+categories: ai, microsoft, seo
 permalink: /blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/
 layout: post
 ---
@@ -394,10 +394,10 @@ To me, it's like yesterday, the warmth of his inviting family, our cub scout
 days, our trips to the Franklin Institute. 
 
 Josh is also a blue who was also himself was bullied horribly in middle school,
-perhaps more than I was. All I had was a nickname that stuck, but Josh had
-achene something fierce. However, to his amazing credit, and also inspiration
-to me although he doesn't know it, he took the popular-kid route, joined the
-football team and made himself one of the cool kids. 
+perhaps more than I was. All I had was a nickname that stuck, but Josh had the
+type of teenage skin that gets made fun of. However, to his amazing credit, and
+also inspiration to me although he doesn't know it, he took the popular-kid
+route, joined the football team and made himself one of the cool kids. 
 
 To put a fine point on it, Josh knows how to shape a rock and make it shine. He
 could do it with himself in his transition from middle school to high school,
@@ -408,7 +408,7 @@ instant rapport like it was yesterday is both a cinch and a pleasure. Don't
 lose touch!
 
 If I'm one example of the ***blue*** personality whose armor is is posing as a
-green-arrow hunter using the NeoVim text editor, jockying data in a way that
+green-arrow hunter using the NeoVim text editor, jockeying data in a way that
 would benefit absolutely any company that had data it needed to use better,
 then Josh's armor is rocks. Bright, shiny, beautiful rocks whose value anyone
 can sense at a glance, but his expert appraisal will tell you by what precise
@@ -463,5 +463,5 @@ fun.
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
