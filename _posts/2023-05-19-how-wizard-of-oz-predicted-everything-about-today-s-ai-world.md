@@ -353,8 +353,9 @@ just banning him on LinkedIn and be done with it. But then he said, "we can be
 really strategic about it, you like, like in Lord Foul's Bane". I'm like "You
 read it?" And he's like "Yeah man, I read it". And I was like, then what did
 you think of how Drool Rockworm manipulated Lord Foul into doing his bidding?
-And Frank was like "Yeah, man it was great. Strategy!" So I'm like, did you
-have any other favorite parts? And he changes the topic.
+(it was the other way around). And Frank was like "Yeah, man it was great.
+Strategy!" So I'm like, did you have any other favorite parts? I was looking
+for anything at all. And he changes the topic.
 
 Yes, I know. I'm an uber-nerd and I wear it proudly. But it's way better to be
 a genuine uber-nerd than a lying, cheating poser. Frank, dude what were you
