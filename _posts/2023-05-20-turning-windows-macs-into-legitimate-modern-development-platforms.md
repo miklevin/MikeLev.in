@@ -2,9 +2,9 @@
 date: 2023-05-20
 title: Turning Windows & Macs into Legitimate Modern Development Platforms
 headline: The Iron is Hot So Chase The Rabbit on Down the Linux Hole
-description: In this article, I discuss the importance of maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
+description: In this article, I discuss the importance of my maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
 keywords: Windows, Linux, Ubuntu, WSL, NT, PowerPC, Intel, ARM, Docker, VirtualBox, Oracle, Sun Microsystems, Berkeley DB, NoSQL, AI, ChatGPT, John Conway, Game of Life, Mandelbrot, Music Mod, Transformer, Amiga, WBScript, Howard Harrison, Multipass, Hypervisor, Azure Cloud, WebDev, Python, Data Scientists, App Store, Apple App Store, App Bundles, Levinux
-categories: amiga, wsl, container, ai, microsoft, python, linux, levinux, ubuntu
+categories: amiga, container, ai, linux, ubuntu, microsoft, levinux, wsl, python
 permalink: /blog/turning-windows-macs-into-legitimate-modern-development-platforms/
 layout: post
 ---
@@ -12,13 +12,18 @@ layout: post
 
 I really need to let people see me booting up and starting to journal in a very
 familiar environment, that being Windows with a standard Windows desktop
-background. The "standardness" of it is so important that I've removed pushing
-my logo, the Alice metaphors and the whole Linux, Python, vim & git thing in
-peoples' faces all the time. That's left the desired "layer" in my YouTube
-videos, and it's now time to make each respective proprietary host OS look like
-themselves, Windows on Windows and Mac on Mac. And no hearkening back to the
-good old days of early Windows 10 with the misty-blue haze that nailed it and
-won me over to Windows 10. 
+background. Projecting to the people the proper ***standardness*** of it is so
+important now. I've removed my awesome logo, the Alice metaphors and even the
+Linux, Python, vim & git logo. No need to push that in people's faces all the
+time. Get yourself ***dry*** and boring and mainstream.
+
+The logos and stuff have deposited the proper "archaeological layer" in my
+YouTube videos, haha! Now it's time time to move onto a demeanor prospective
+Data Scientists and such will be able to tolerate. I can be myself and be a bit
+wacky with ASCII art in the installer. But when on Windows 11, look it. When on
+Mac Ventura, look it. And no hearkening back to the good old days of early
+Windows 10 with the misty-blue haze that nailed it and won me over to Win10. No
+matter how much I like it, it just screams "old" to everyone else.
 
 Metro and even Windows 8 had me cringing and believing Microsoft finally shot
 themselves in the foot for the final time. Oh, was I wrong! I have since come
@@ -220,11 +225,11 @@ vi/vim/NeoVim.
 
 <ul>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
