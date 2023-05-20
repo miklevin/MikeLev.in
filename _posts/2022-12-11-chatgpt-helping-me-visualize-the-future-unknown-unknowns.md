@@ -4,7 +4,7 @@ title: ChatGPT Helping Me Visualize The Future (Unknown Unknowns)
 headline: "Exploring the Unknown with ChatGPT: Learning Valuable Lessons and Pushing Myself Out of My Comfort Zone"
 description: I'm using ChatGPT to help me visualize the future, tell stories, and articulate the Hero's Journey. I'm learning valuable lessons like it's never too late, and I'm pushing Linux, Python, vim, and git into the unconscious and automatic quadrant so I can use them like I use spoken language or driving. I'm testing to see if ChatGPT is really a game-changer.
 keywords: ChatGPT, Visualize, Future, Unknown Unknowns, Story-telling, Hero's Journey, Late, Linux, Python, Vim, Git, Unconscious, Automatic, Quadrant, Self-Examination, Whitewashed, Outliers, Behavior, Change, System
-categories: git, future, vim, linux, change, ai, python
+categories: git, ai, linux, python, vim, change, future
 permalink: /blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/
 layout: post
 ---
@@ -110,9 +110,9 @@ impressive, and it's very interesting to watch them get trained.
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li></ul>

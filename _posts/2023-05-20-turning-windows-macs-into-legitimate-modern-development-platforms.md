@@ -4,7 +4,7 @@ title: Turning Windows & Macs into Legitimate Modern Development Platforms
 headline: The Iron is Hot So Chase The Rabbit on Down the Linux Hole
 description: In this article, I discuss the importance of maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
 keywords: Windows, Linux, Ubuntu, WSL, NT, PowerPC, Intel, ARM, Docker, VirtualBox, Oracle, Sun Microsystems, Berkeley DB, NoSQL, AI, ChatGPT, John Conway, Game of Life, Mandelbrot, Music Mod, Transformer, Amiga, WBScript, Howard Harrison, Multipass, Hypervisor, Azure Cloud, WebDev, Python, Data Scientists, App Store, Apple App Store, App Bundles, Levinux
-categories: levinux, ubuntu, container, linux, amiga, ai, python, microsoft, wsl
+categories: wsl, ai, amiga, linux, python, container, microsoft, levinux, ubuntu
 permalink: /blog/turning-windows-macs-into-legitimate-modern-development-platforms/
 layout: post
 ---
@@ -173,6 +173,9 @@ little layering-up steps. Let's slam out a to-do list.
 - Wire NeoVim to Amazon Code Whisperer or other to get off your Copilot
   Microsoft $100/year tax.
 - Investigate the OpenAI plugins https://zapier.com/apps/openai/integrations
+- Go through my old content to see if anything "prophetic" needs to be
+  re-published. Support arbitrary permalinks in blog posts to keep the old
+  URLs?
 
 And above all else, tighten up the Rabbit Hole Linux story. Make it compelling
 and get a bunch of people chasing the rabbit.
@@ -189,7 +192,8 @@ and get a bunch of people chasing the rabbit.
 
 ![Rabbit Hole Linux Screen 3](/assets/images/rabbit-hole-linux-screen-3.png)
 
-
+Those screens are going to change many times but that's all the more reason to
+document them here.
 
 
 
@@ -203,12 +207,12 @@ and get a bunch of people chasing the rabbit.
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>

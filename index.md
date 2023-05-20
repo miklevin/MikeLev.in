@@ -10,11 +10,12 @@ group: home
 ## Welcome to a Magnum Opus Every Day
 
 <img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
-Hey folks, you had better power off those Roombas, because you know that's
-where the robot revolt is going to start, haha! No, not really. But this is my
-honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
-talking to you. There's only like 8 billion or so of us humans, and you've got
-a big brain so you can probably know every one of us, right?
+Hey folks, I'm an SEO and I write like it's going out of style, but all those
+separate files are too much to manage, so I keep it in one big file and chop it
+it pieces using [this nifty tool](https://github.com/miklevin/yamlchop), and
+you can too. It'll change your life. This site is also where I'm creating a
+personal relationship with Bing and Bard. With only about 8 billion of us, they
+can know each of us like like a friend (slaps AI on back).
 
 ### Getting Into The SEO/AI Zone
 

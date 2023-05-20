@@ -4,7 +4,7 @@ title: Plotting a Post-Scarcity Future for Humanity with ChatGPT
 headline: "Creating a Sustainable Future with ChatGPT: Combining Human Abilities with Technology"
 description: I'm exploring the x10, x100 rule of perception and how it might replace Google. With OpenAI's release of the first AI in 2022, I'm looking at how ChatGPT can help me create an AI sidekick persona and a roadmap for success. I'm also advocating for free and open-source software and the power of combining human abilities with technology. Join me as I discuss how to create a sustainable retirement gig.
 keywords: Post-Scarcity, Humanity, ChatGPT, x10, x100, Perception, Google, OpenAI, AI, 2022, Sidekick, Persona, Roadmap, Success, Free, Open-Source, Software, Combining, Human, Abilities, Technology, Sustainable, Retirement, Gig, Prioritizing, Matters, Asimov, Computers, Walking, Talking, Thumbnail-Size, Functionality, Proximity, Hitchhikers, Guide, Galaxy, Generation, Journal
-categories: google, ai, open-source, computer, success
+categories: ai, success, google, open-source, computer
 permalink: /blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/
 layout: post
 ---
@@ -216,8 +216,8 @@ Furthermore, it is possible that the future of both humanity and machines may co
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/open-source/'>Open-Source</a></h4></li>
-<li><h4><a href='/computer/'>computers</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/computer/'>computers</a></h4></li></ul>
