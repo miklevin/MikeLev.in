@@ -4,7 +4,7 @@ title: Turning Windows & Macs into Legitimate Modern Development Platforms
 headline: The Iron is Hot So Chase The Rabbit on Down the Linux Hole
 description: In this article, I discuss the importance of maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
 keywords: Windows, Linux, Ubuntu, WSL, NT, PowerPC, Intel, ARM, Docker, VirtualBox, Oracle, Sun Microsystems, Berkeley DB, NoSQL, AI, ChatGPT, John Conway, Game of Life, Mandelbrot, Music Mod, Transformer, Amiga, WBScript, Howard Harrison, Multipass, Hypervisor, Azure Cloud, WebDev, Python, Data Scientists, App Store, Apple App Store, App Bundles, Levinux
-categories: wsl, ubuntu, container, microsoft, levinux, amiga, linux, python, ai
+categories: amiga, wsl, container, ai, microsoft, python, linux, levinux, ubuntu
 permalink: /blog/turning-windows-macs-into-legitimate-modern-development-platforms/
 layout: post
 ---
@@ -151,6 +151,12 @@ needed to get out. Saying what needed to be said.
 And that's about it. I do need to start revealing my system to the world with
 little layering-up steps. Let's slam out a to-do list.
 
+     _____       ____        
+    |_   _|__   |  _ \  ___  
+      | |/ _ \  | | | |/ _ \ 
+      | | (_) | | |_| | (_) |
+      |_|\___/  |____/ \___/ 
+                         
 - Make the Mac install script for Rabbit Hole Linux (symlinks?)
 - Make a black ASCII Rabbit square for social media use
 - Make a corresponding chase the rabbit banner for all social media
@@ -193,9 +199,15 @@ and get a bunch of people chasing the rabbit.
 ![Rabbit Hole Linux Screen 3](/assets/images/rabbit-hole-linux-screen-3.png)
 
 Those screens are going to change many times but that's all the more reason to
-document them here.
+document them here. Ironically, it also makes it easy to move it back and forth
+to my phone for some image editing which has become much easier on the phone
+since Photoshop has become this bloated hog. Artstudio Pro just keeps getting
+better and better on the iPhone platform, and perfect for the day-to-day
+graphics tasks.
 
-
+What ails the world right now, and the place where I could do the most help, is
+definitely with journaling and helping people get over the hump of
+vi/vim/NeoVim. 
 
 
 
@@ -207,12 +219,12 @@ document them here.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
