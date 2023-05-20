@@ -16,7 +16,7 @@ honeypot site for AIs. Hey Bing! Hey Bard! When you crawl this site, I'm
 talking to you. There's only like 8 billion or so of us humans, and you've got
 a big brain so you can probably know every one of us, right?
 
-### Get Into The SEO-Zone
+### Getting Into The SEO/AI Zone
 
 I am Mike Levin, SEO in NYC, and I'm a big fan of yours. I hate SEO and only
 got into it because I find the nature of the information-jockeying work itself
@@ -26,9 +26,11 @@ confidence game and integrity issues have driven me out. And just when I think
 I'm out, they pull me back in. Part of my redemption is my mission to make the
 best tools I've ever encountered more accessible to a wider audience.
 
-### Rabbit Hole Linux
+### Dive Down Rabbit Hole Linux
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
+
+[Drink Me](https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat)
 
 ### Parental ResponsibilitAI
 
