@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-iron-is-hot-to-chase-the-rabbit-cutting-catapult-ropes/">The Iron is Hot to Chase The Rabbit Cutting Catapult Ropes</a> (Sat May 20, 2023)
+<br/>In this article, I discuss the importance of maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)
 <br/>Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.</li>
 <li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)

@@ -774,7 +774,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 97
+    count: 98
     title: AI
   ai bros:
     count: 1
@@ -978,7 +978,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 7
+    count: 8
     title: Amiga
   amiga computer:
     count: 1
@@ -1151,12 +1151,21 @@ dictitems:
   app:
     count: 4
     title: App
+  app bundles:
+    count: 1
+    title: App Bundles
+  app store:
+    count: 1
+    title: App Store
   appealing:
     count: 1
     title: Appealing
   apple:
     count: 6
     title: Apple
+  apple app store:
+    count: 1
+    title: Apple App Store
   apple computers:
     count: 1
     title: Apple Computers
@@ -1257,7 +1266,7 @@ dictitems:
     count: 1
     title: Arizona State University
   arm:
-    count: 1
+    count: 2
     title: ARM
   arrokoth:
     count: 2
@@ -1532,6 +1541,9 @@ dictitems:
   azure:
     count: 3
     title: Azure
+  azure cloud:
+    count: 1
+    title: Azure Cloud
   azure notebooks:
     count: 2
     title: Azure Notebooks
@@ -1751,6 +1763,9 @@ dictitems:
   bergmann-wagoner:
     count: 1
     title: Bergmann-Wagoner
+  berkeley db:
+    count: 1
+    title: Berkeley DB
   berkshire hathaway:
     count: 1
     title: Berkshire Hathaway
@@ -2607,7 +2622,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 22
+    count: 23
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3977,6 +3992,9 @@ dictitems:
   data science:
     count: 4
     title: Data Science
+  data scientists:
+    count: 1
+    title: Data Scientists
   data sources:
     count: 1
     title: Data Sources
@@ -4659,7 +4677,7 @@ dictitems:
     count: 1
     title: docs
   docker:
-    count: 10
+    count: 11
     title: Docker
   document:
     count: 2
@@ -6495,7 +6513,7 @@ dictitems:
     count: 1
     title: Game Market
   game of life:
-    count: 1
+    count: 2
     title: Game of Life
   game theory:
     count: 3
@@ -7598,6 +7616,9 @@ dictitems:
   hove inc.:
     count: 1
     title: Hove Inc.
+  howard harrison:
+    count: 1
+    title: Howard Harrison
   hps.sh:
     count: 1
     title: hps.sh
@@ -7704,7 +7725,7 @@ dictitems:
     count: 1
     title: Hype
   hypervisor:
-    count: 4
+    count: 5
     title: Hypervisor
   hyphen:
     count: 1
@@ -8172,7 +8193,7 @@ dictitems:
     count: 4
     title: Integration
   intel:
-    count: 4
+    count: 5
     title: Intel
   intel mac:
     count: 1
@@ -8552,6 +8573,9 @@ dictitems:
   john belushi:
     count: 1
     title: John Belushi
+  john conway:
+    count: 1
+    title: John Conway
   john henry:
     count: 1
     title: John Henry
@@ -9180,7 +9204,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 8
+    count: 9
     title: Levinux
   levinux fan page:
     count: 1
@@ -9372,7 +9396,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 167
+    count: 168
     title: Linux
   linux api:
     count: 1
@@ -10067,6 +10091,9 @@ dictitems:
   manager:
     count: 2
     title: Manager
+  mandelbrot:
+    count: 1
+    title: Mandelbrot
   mandelbrot set:
     count: 2
     title: Mandelbrot Set
@@ -10971,7 +10998,7 @@ dictitems:
     count: 1
     title: Multics
   multipass:
-    count: 4
+    count: 5
     title: Multipass
   multiple:
     count: 1
@@ -11018,6 +11045,9 @@ dictitems:
   muscle-memory:
     count: 1
     title: muscle-memory
+  music mod:
+    count: 1
+    title: Music Mod
   musical synthesis:
     count: 1
     title: Musical Synthesis
@@ -11508,7 +11538,7 @@ dictitems:
     count: 1
     title: Northrop Grumman
   nosql:
-    count: 4
+    count: 5
     title: NoSQL
   not:
     count: 1
@@ -11556,7 +11586,7 @@ dictitems:
     count: 1
     title: NSA
   nt:
-    count: 1
+    count: 2
     title: NT
   nuance:
     count: 4
@@ -11895,7 +11925,7 @@ dictitems:
     count: 1
     title: Option/Command keys
   oracle:
-    count: 3
+    count: 4
     title: Oracle
   orbit:
     count: 1
@@ -12866,6 +12896,9 @@ dictitems:
   powerful spell:
     count: 1
     title: Powerful Spell
+  powerpc:
+    count: 1
+    title: PowerPC
   powerpoint:
     count: 1
     title: Powerpoint
@@ -13437,7 +13470,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 183
+    count: 184
     title: Python
   python 3:
     count: 1
@@ -16485,7 +16518,7 @@ dictitems:
     count: 1
     title: Sun May 14
   sun microsystems:
-    count: 2
+    count: 3
     title: Sun Microsystems
   sun tzu:
     count: 1
@@ -17382,7 +17415,7 @@ dictitems:
     count: 2
     title: Transformation
   transformer:
-    count: 1
+    count: 2
     title: Transformer
   transition:
     count: 7
@@ -17589,7 +17622,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 22
+    count: 23
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -18222,7 +18255,7 @@ dictitems:
     count: 1
     title: Virtual-Philosophers
   virtualbox:
-    count: 1
+    count: 2
     title: VirtualBox
   virtualenv:
     count: 7
@@ -18419,6 +18452,9 @@ dictitems:
   wayland_display:
     count: 1
     title: WAYLAND_DISPLAY
+  wbscript:
+    count: 1
+    title: WBScript
   wearable device:
     count: 1
     title: Wearable Device
@@ -18504,8 +18540,8 @@ dictitems:
     count: 1
     title: Webcrawler
   webdev:
-    count: 1
-    title: Webdev
+    count: 2
+    title: WebDev
   webmaster:
     count: 1
     title: Webmasters
@@ -18612,7 +18648,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 71
+    count: 72
     title: Windows
   windows 10:
     count: 17
@@ -18816,7 +18852,7 @@ dictitems:
     count: 1
     title: Writing Suggestion Tool
   wsl:
-    count: 46
+    count: 47
     title: WSL
   wsl 2 lxd:
     count: 1
