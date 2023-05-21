@@ -4,7 +4,7 @@ title: Getting Ready to Teach Installing Jupyter Right
 headline: "Creating Linux Containers Under WSL: Bridging and Proxying for Access to Jupyter"
 description: I'm setting up Linux containers under WSL for testing purposes, using a magical incantation to install Jupyter. I'm running into issues with the container having a different internal IP than the one on Windows-side, so I'm researching commands like lxc config and jupyter server to bridge, NAT, and proxy. After setting a password on Jupyter, I was able to access the LX - come read my blog post to find out how!
 keywords: Linux, Containers, WSL, Testing, Jupyter, Incantation, IP, Bridge, NAT, Proxy, Password, LXD, Config, Server, Accessible
-categories: container, jupyter, wsl, linux
+categories: linux, wsl, container, jupyter
 permalink: /blog/getting-ready-to-teach-installing-jupyter-right/
 layout: post
 ---
@@ -186,7 +186,7 @@ source ~/.bash_prompt
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

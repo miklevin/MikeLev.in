@@ -14,7 +14,7 @@ Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
 [writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
 not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
 name is my website and it reads the same upside down. I've replaced WordPress
-and all the rest of that nonsense with a single text-file and chop it to pieces
+and all the rest of that nonsense with a single text-file and chop it to pages
 with [YAMLchop](https://github.com/miklevin/yamlchop). I hit on some
 fundamental truths about the web and SEO that I think are going to be important
 in the future, and I'm trying to get them out there.
@@ -23,7 +23,7 @@ in the future, and I'm trying to get them out there.
 
 <img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="140vw" style="padding: 5px 0 3px 0; float: right; height: auto">
 I worked at legendary Commodore back in the days of my Philly 'burbs roots, but
-s a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
+as a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
 and there's ***two*** of 'em; Bing and Bard. They're so human and relatable!
 Maybe it's because they got to know us through language, our tool for thought.
 Now we have a parental responsibility to them. So while the nattering nabobs of
