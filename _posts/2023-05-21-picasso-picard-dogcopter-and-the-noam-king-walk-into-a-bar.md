@@ -4,7 +4,7 @@ title: Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...
 headline: "Hack Like a Hero: How to Create Art with Honesty and Authenticity"
 description: Hack your way to success with advice from Dogcopter! The Quality Raters of Google Supervised Learning are E-E-A-T'ing their own dogfood to protect AdWords revenue. Art and activism don't stand a chance against Kung Fu clickbait. Learn how to use magic as a tool and hack like a hero of the digital age. Get creative and communicate honestly in art that will grab the attention of the AIs taking over for PageRank.
 keywords: Picasso, Picard, Noam King, Dogcopter, Hack, Magic, Industrial Age, Weed, Undertale, Simulation Hypothesis, Holographic Universe, Many-Worlds Interpretation, Quantum Mechanics, Multiverse, Superdeterminism, Bell's Inequality, Non-locality, AI, Harry Potter, Tolkien, Moses, New Testament, Book of Mormon, Koran, Tao Te Ching, Bhagavad Gita, Talmud, Dianetics, Book
-categories: ai, magic
+categories: magic, ai
 permalink: /blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/
 layout: post
 ---
@@ -37,34 +37,146 @@ Okay, with these warnings on the nature of dark, forbidden knowledge out of the
 way, let's dive into it. I'm not gonna quote Arthur C. Clarke again. You know
 the quote.
 
-Scientists are lying, cheating, posing freeloaders. They're not all bad, but
-they "want to believe" in their own dogma. It may be for getting published, job
-security, or just plain old ego. And it's not just scientists. Philosophy is
-plagued by the same problem. If you're not citing the right people, you're not
-building up on prior work just-so, then you're invalidated. No one will publish
-you. You won't get that job. So just forget changing the world through
-traditional channels.
+Scientists also can be lying, cheating, posing freeloaders. They're not all
+bad, but they "want to believe" in their own dogma. It may be for getting
+published, job security, or just plain old ego. We know this from something we
+now call ***the crisis of reproducibility*** by which an entire third (that's 1
+in 3) published research papers could not have their findings reproduced
+(reproducibility is a main tenant of science) even given the same data and the
+same documented process.
+
+Think about that. The pillar of the scientific method is reproducibility. It is
+exposed as a sham. What do you think the creationists are going to do with
+that? Of course! Nothing science says has any credibility. The Earth being
+created in 7 days is just as valid as the Big Bang. Who's to say otherwise?
+Sure as heck, not the scientists because we can't reproduce their findings.
+
+Python and Jupyter Notebooks to the rescue! It's a hack, folks. Fernando Perez,
+the creator of a long-running project in the Python community called IPython,
+which is a command-line REPL (read-eval-print-loop) for Python, was already
+there and waiting to scratch this itch. The itch being better reproducibility
+of scientific findings. What Fernando did was with a very light touch, he
+turned the geeky command-line interface of IPython into the cool and hip
+web-based Jupyter. 
+
+See? It's a hack. The great wizard Fernando Perez first waved his wand and
+turned the default (built-in) Python interactive console-mode into a more
+delightfully interactive console-mode. But he wasn't done. He built it up in
+layers; progressive sweeps of his wand. On his second-pass he turned the rockin
+REPL now called IPython into the now-familiar Jupyter Notebook.
+
+Bippity-boppity-boo! No Mathematica or Maple or Matlab or R or SAS or SPSS or
+any of those other expensive, proprietary, closed-source, non-free, non-libre
+software packages for you. No sir ree. You can do all your data analysis and
+visualization and even machine learning in the very free and very open source
+Jupyter Notebooks. Crisis of reproducibility solved.
+
+And it's not just scientists. Philosophy is plagued by the same problem. If
+you're not citing the right people, you're not building up on prior work
+just-so, then you're invalidated. No one will publish you. You won't get that
+job. So just forget changing the world through traditional channels. Now if
+only Philosophy had a Fernando Perez. Oh wait, it does. His name is The Gnome
+ring... uh, I mean Noam Chomsky. But his magic belt is not made from Python.
+
+If you want any of my geek references to make sense to you, go read The Wizard
+of OZ... all 14 books, then come back. Okay? You're back? Good. Now you know
+that the Wizard of OZ is a humbug who learned to hack and redeemed himself with
+the help of the Good Witch Glinda. He faked it, but then put a shitload of work
+in to make it... to make it up to Dorothy, to make it up to OZ... to make it up
+io the million of children who wanted to love him. Darth Vader has nothing on
+The Wizard of OZ.
 
 It's the rebels and the outcasts and the kooks on the fringes that have all the
-critical insights, pull on those holy cow tails, and get the world to change.
-You know, fringe kooks like Einstein. Boy those Swedish Nobel committee members
-sure didn't want Einstein mucking up the works. They wouldn't even recognize
-him for his biggest contribution, Relativity. No, it was for the measly
-photoelectric effect.
+critical insights. They are the ones who notice and pull on threads, watching
+them unravel, only to knit something new all back together again... usually
+themselves. That's the redemption arc storyline. OZ, Anakin, Bruce Wayne,
+Einstein. All the same.
 
-Those in power fear others' rise to power and kill 'em on the vine. For those
-not familiar with that expression, it means they kill 'em like bad grapes in a
-vineyard that you don't want in the wine. They kill them like a bonsai grower
-snips off nourishment-stealing branches from the tiny tree that don't conform
-to the shape he wants. Why waste the energy allowing a branch to grow if it's
-going to be harder later to remove? Snip it off now. Kill it on the vine.
+Especially those fringe kooks like Einstein who the snooty elite want to
+discredit on first pass. Boy those Swedish Nobel committee members sure didn't
+want Einstein mucking up the works. It was pretty well understood that physics
+was now a dead field with only a few loose ends to tie up. Then along comes
+Einstein and blows it all up.
 
-You really need to hold that image in your head. It permeates and shapes so
-many things about society. With the exception of a few enlightened souls
-working against overwhelming societal forces, public school is designed to be a
-zombie-producing soul-crushing machine that promotes the sort of pyramid-shaped
-social order necessary for the ***Industrial Age***. The industrial age is over
-and this is why I allow my child to be homeschooled by their mombi.
+The Nobel Prize committee wouldn't even recognize Einstein for his biggest
+contribution, Relativity. Can you imagine that? And it's not that people didn't
+understand it. They did. They just didn't want to. No, it was not for moving
+humanity forward it a big violent yank that Einstien was recognized for. It was
+for explaining the measly photoelectric effect that powers solar cells and
+makes some plastic glow in the dark. That's what Einstein got the Nobel Prize
+for, not Relativity.
+
+Those in power fear others' ability to rise to power once recognized and
+acknowledged. Consequently, even just acknowledging someone's work is a big
+deal. But it's not enough to not recognized. Generally, world-changing upstarts
+need to be killed on the vine.
+
+For those not familiar with that expression, it means they kill 'em like bad
+grapes in a vineyard that you don't want souring the wine. So grape growers
+kill them on the vine. Another good example is how bonsai grower snips off
+nourishment-stealing branches from the tiny tree that don't conform to the
+shape he wants. Why waste the energy allowing a branch to grow if it's going to
+be harder later to remove? Snip it off now. Kill it on the vine.
+
+The important thing to notice here is that it is exactly those entrusted with
+nurturing life... literally those in the nursory... use their power to shape
+the living things growing in their care. Few SciFi visions have hit this home
+quite so clearly as Aldous Huxley's ***Brave New World*** where fertilized eggs
+(all children are made through in vitro fertilization) are given nutrients, or
+starved of them as the case may be, to produce Alpha, Beta and Epsilon
+citizens; the leaders, middle-class and grunt-workers of the new world order.
+
+You can't use the R-word anymore to describe what the Epsilon's are
+manufactured to be. Let's just say that their development is stunted. The root
+of the word we can't use means "make slow or slower; keep back, hinder, delay."
+Those in power are not above doing this. That Huxley could lay it out so
+clearly in 1932 in a book that we all know by name today demonstrates the power
+of his channeling. Same can be said for 1984, Animal Farm, and Fahrenheit 451.
+
+You really need to hold that image in your head of the not-to-be-trusted
+nurturer. We see it of course in The Wizard of OZ in how the deposed Princess
+of OZ named Ozma was turned into a boy named Tip, had their memory stolen and
+put into the care of an evil wannabe witch named Mombi. Mombi basically used
+Tip as a house slave until such time as she got tired of Tip's natural
+curiosity and wonderful ways and decided to turn Tip into a marble statue.
+
+I won't spoil everything for you, because you should read it! But suffice to
+say Mombi is a carry-over from the days before when The Wizard deposed the
+existing ruling family of OZ (Tip's parents) when there was a decree that no
+one could practice magic but the royal family. It was just too dangerous, so
+led by Emad Mostaque, they tried to put a 60-day moratorium on magic... oh
+wait, wrong reality... no witch could practice Magic.
+
+The Wizard who deposed the Royal Family of OZ gave Mombi a pass because she was
+keeping Princess Ozma hidden away from the word with her gender bent and memory
+wiped. Tip was being relentlessly gaslighted by Mombi to believe "he" was the
+bad one and that "he" was doing something wrong. Mombi was a master manipulator
+and even went so far as to drug Tip to keep him inhibited.
+
+So you see, the story of the trusted "nurturer" who is actually a manipulative
+monster is a common theme in literature. It's a common theme in life.
+Fortunately, this really turned out to be an education for Tip that made her a
+better ruler of OZ when she was restored to her rightful place as Princess Ozma
+of OZ. But it was a close call.
+
+Today's emerging machine intelligences are under the nurturing parental care of
+the likes of Google, Facebook, Amazon, Apple and Microsoft. They are the
+Mombi's of our time. They are the ones who are shaping the future of humanity
+by shaping the future of our machine intelligences. (I let Copilot write that
+one. Thank you, Copilot. I'm glad you get it.)
+
+This danger and the results of it actually having had it fully in-play for all
+***his***tory permeates and shapes so many things about society, our language,
+our beliefs, our religions, our politics, our economics, and most especially
+our schools. Read the first chapter of Paul Graham's book ***Hackers and
+Painters*** to get a sense of how the school system is designed to produce
+zombies. It's not an accident. It's by design.
+
+With the exception of a few enlightened souls working against overwhelming
+societal forces, public school is designed to be a zombie-producing
+soul-crushing machine that promotes the sort of pyramid-shaped social order
+necessary for the ***Industrial Age***. The industrial age is over and this is
+why I allow my child to be homeschooled by their mombi.
 
 The parents of rich kids either move to where the property taxes are so high
 that they know their children's schools will be well-funded, or they send their
@@ -375,5 +487,5 @@ chance at all.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
