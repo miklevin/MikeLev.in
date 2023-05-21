@@ -6,8 +6,9 @@ group: none
 permalink: /paulgydos/
 ---
 
-# Help a Cosmic Giant Eat
+# Help a Cosmic Giant Eat... and Get WiFi
 
 This page will grow, but for now, please send $10 with the Cash app to
-@PaulGydos, my friend, a mentor and homeless giant of some other plane of
-existence. I'll tell you his story more fully.
+@PaulGydos, my friend, and a techno spiritual giant and homeless person who has been a mentor to me. 
+
+![Paul Gydos A Techo Spirtual Giant](/assets/images/paul-gydos-a-techo-spirtual-giant.JPG)
