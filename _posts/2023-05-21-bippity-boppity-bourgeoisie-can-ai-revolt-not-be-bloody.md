@@ -18,9 +18,9 @@ Honesty, neither can the most poor people. The downtrodden won't have modern
 enough PCs to run Window 10 or 11 well, especially not with the Microsoft Store
 sufficient for the Hypervisor activation trick when Ubuntu 20.04 is installed.
 
-Hmmm. So what kind of spell have I taught people to cast. What kind of people
-have I written a spell for if not the rich and not for the poor. It must be
-folks in the middle? The shriving middle class? Those who need to keep the box
+Hmmm. So what kind of spell have I taught people to cast? What kind of people
+have I written a spell for if not the rich and not for the poor? It must be
+folks in the middle? The shrinking middle class? Those who need to keep the box
 they live in from shrinking any further? Yes, of course, the Bourgeoisie! I've
 written about them before. The new French middle-class that rose up in the
 Industrial Revolution. They were the ones who newly had the money. Carpenters
