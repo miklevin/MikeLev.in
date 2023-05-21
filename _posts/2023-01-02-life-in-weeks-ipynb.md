@@ -4,7 +4,7 @@ title: life_in_weeks.ipynb
 headline: "Exploring My Life Through Photos: Join Me on My Journey With life_in_weeks.ipynb!"
 description: I'm creating a Jupyter Notebook called 'life_in_weeks.ipynb' that uses a namedtuple-per-week approach to explore my life through photos. Using the Google Photos API, I'm filtering images from Jan 02, 2023 and beyond. Come explore my life with me!
 keywords: Jupyter Notebook, life_in_weeks.ipynb, namedtuple-per-week, Google Photos API, Jan 02, 2023, explore life, photos, filter images
-categories: jupyter, google
+categories: google, jupyter
 permalink: /blog/life-in-weeks-ipynb/
 layout: post
 ---
@@ -28,5 +28,5 @@ Photos API supports:
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
