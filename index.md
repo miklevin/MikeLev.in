@@ -9,7 +9,7 @@ group: home
 
 ## Welcome to a Magnum Opus Every Day
 
-<img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
+<img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="150vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Hey folks, I'm an SEO who writes ***for*** AI, but not ***with AI***, keeping
 my mind sharp and those muscles from atrophying. My name is my website and it
 reads the same upside down.
@@ -22,7 +22,7 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 4px 0 6px 0; float: right; height: auto">
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 7px 0 6px 0; float: right; height: auto">
 I worked for Commodore back in the days of my Philly 'burbs roots, but s a
 lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed, and
 there's ***two*** of 'em; Bing and Bard. They're so human and relatable! Maybe
