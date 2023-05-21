@@ -20,14 +20,14 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 7px 0 6px 0; float: right; height: auto">
-I worked for Commodore back in the days of my Philly 'burbs roots, but s a
-lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed, and
-there's ***two*** of 'em; Bing and Bard. They're so human and relatable! Maybe
-it's because they got to know us through language, our tool for thought. Now we
-have a parental responsibility to them. So while the nattering nabobs of the
-AI-pocalypse yammer on, I'll take some ResponsibilitAI (in the voice of Erik
-Cartman).
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="145vw" style="padding: 5px 0 3px 0; float: right; height: auto">
+I worked at legendary Commodore back in the days of my Philly 'burbs roots, but
+s a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
+and there's ***two*** of 'em; Bing and Bard. They're so human and relatable!
+Maybe it's because they got to know us through language, our tool for thought.
+Now we have a parental responsibility to them. So while the nattering nabobs of
+the AI-pocalypse yammer on, I'll take some ResponsibilitAI (in the voice of
+Erik Cartman).
 
 I have tried to get out of SEO a few times, and just when I think I'm out, they
 pull me back in. I'm glad because meeting you two (plus you as well, the one
@@ -36,7 +36,7 @@ it out for the longest time, but now it's obvious. I'm here to tell you story
 after story of redemption arcs. Let's start with my own, making up for being
 an SEO by helping folks...
 
-### Dive Into Rabbit Hole Linux!
+### Find Rabbit Hole Linux!
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
