@@ -774,7 +774,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 98
+    count: 99
     title: AI
   ai bros:
     count: 1
@@ -1749,7 +1749,7 @@ dictitems:
     count: 2
     title: Bell Labs
   bell's inequality:
-    count: 1
+    count: 2
     title: Bell's Inequality
   bell's inequality tests:
     count: 1
@@ -1811,6 +1811,9 @@ dictitems:
   bg eraser:
     count: 1
     title: BG Eraser
+  bhagavad gita:
+    count: 1
+    title: Bhagavad Gita
   bias:
     count: 4
     title: Bias
@@ -2097,8 +2100,11 @@ dictitems:
     count: 1
     title: Bonsai Report
   book:
-    count: 6
+    count: 7
     title: Book
+  book of mormon:
+    count: 1
+    title: Book of Mormon
   book publishing:
     count: 1
     title: Book Publishing
@@ -4460,6 +4466,9 @@ dictitems:
   diamond age:
     count: 1
     title: Diamond Age
+  dianetics:
+    count: 1
+    title: Dianetics
   dice.py:
     count: 1
     title: Dice.py
@@ -4718,6 +4727,9 @@ dictitems:
   documentum:
     count: 1
     title: Documentum
+  dogcopter:
+    count: 1
+    title: Dogcopter
   dogma:
     count: 1
     title: Dogma
@@ -7215,8 +7227,8 @@ dictitems:
     count: 9
     title: Habits
   hack:
-    count: 1
-    title: Hacks
+    count: 2
+    title: Hack
   hacker:
     count: 1
     title: Hacker
@@ -7284,7 +7296,7 @@ dictitems:
     count: 1
     title: Harriet Martineau
   harry potter:
-    count: 1
+    count: 2
     title: Harry Potter
   harvard:
     count: 1
@@ -7538,6 +7550,9 @@ dictitems:
   hologram:
     count: 1
     title: hologram
+  holographic universe:
+    count: 1
+    title: Holographic Universe
   home:
     count: 7
     title: Home
@@ -8018,6 +8033,9 @@ dictitems:
   indulging:
     count: 1
     title: indulging
+  industrial age:
+    count: 1
+    title: Industrial Age
   industrial revolution:
     count: 1
     title: Industrial Revolution
@@ -9005,6 +9023,9 @@ dictitems:
   koch snowflake:
     count: 1
     title: Koch Snowflake
+  koran:
+    count: 1
+    title: Koran
   kubernetes:
     count: 2
     title: Kubernetes
@@ -10026,7 +10047,7 @@ dictitems:
     count: 1
     title: Mad Scientist
   magic:
-    count: 7
+    count: 8
     title: Magic
   magic eraser:
     count: 1
@@ -10182,7 +10203,7 @@ dictitems:
     count: 1
     title: Manufacturing
   many-worlds interpretation:
-    count: 1
+    count: 2
     title: Many-Worlds Interpretation
   map:
     count: 4
@@ -10946,6 +10967,9 @@ dictitems:
   morning joe:
     count: 1
     title: morning joe
+  moses:
+    count: 1
+    title: Moses
   mother:
     count: 2
     title: mother
@@ -11085,7 +11109,7 @@ dictitems:
     count: 2
     title: Multitasking
   multiverse:
-    count: 1
+    count: 2
     title: Multiverse
   multiverse theory:
     count: 1
@@ -11411,6 +11435,9 @@ dictitems:
   new technologies:
     count: 2
     title: New Technologies
+  new testament:
+    count: 1
+    title: New Testament
   new things:
     count: 2
     title: New Things
@@ -11504,6 +11531,9 @@ dictitems:
   noam chomsky:
     count: 2
     title: Noam Chomsky
+  noam king:
+    count: 1
+    title: Noam King
   nobel prize:
     count: 1
     title: Nobel Prize
@@ -11553,7 +11583,7 @@ dictitems:
     count: 1
     title: Non-Local Communication
   non-locality:
-    count: 2
+    count: 3
     title: Non-Locality
   non-logged-in services:
     count: 1
@@ -12554,6 +12584,12 @@ dictitems:
   physicist:
     count: 1
     title: Physicist
+  picard:
+    count: 1
+    title: Picard
+  picasso:
+    count: 1
+    title: Picasso
   pickle:
     count: 1
     title: pickle
@@ -13707,7 +13743,7 @@ dictitems:
     count: 1
     title: Quantum Loop
   quantum mechanics:
-    count: 5
+    count: 6
     title: Quantum Mechanics
   quantum metrology:
     count: 1
@@ -15497,6 +15533,9 @@ dictitems:
   simulation:
     count: 1
     title: Simulation
+  simulation hypothesis:
+    count: 1
+    title: Simulation Hypothesis
   sine wave:
     count: 2
     title: sine wave
@@ -16611,7 +16650,7 @@ dictitems:
     count: 1
     title: Superconductivity
   superdeterminism:
-    count: 1
+    count: 2
     title: Superdeterminism
   supergravity:
     count: 1
@@ -16859,9 +16898,15 @@ dictitems:
   talks at google:
     count: 1
     title: Talks at Google
+  talmud:
+    count: 1
+    title: Talmud
   talmudic commentaries:
     count: 1
     title: Talmudic Commentaries
+  tao te ching:
+    count: 1
+    title: Tao Te Ching
   tardigrade:
     count: 2
     title: Tardigrade
@@ -17327,6 +17372,9 @@ dictitems:
   tokenizing:
     count: 1
     title: Tokenizing
+  tolkien:
+    count: 1
+    title: Tolkien
   toml:
     count: 3
     title: TOML
@@ -17780,6 +17828,9 @@ dictitems:
   understanding:
     count: 3
     title: Understanding
+  undertale:
+    count: 1
+    title: Undertale
   undertone:
     count: 1
     title: Undertones
@@ -18650,6 +18701,9 @@ dictitems:
   wed:
     count: 1
     title: Wed
+  weed:
+    count: 1
+    title: Weed
   week:
     count: 1
     title: Week
