@@ -74,9 +74,12 @@ hooey, poppycock, trash, and nonsense you fill your head and empty your wallet
 with, folks. 
 
 If you want religion, go read Alice, Dorothy, and Princess Nell. Oh, and Little
-Mikey Valentine! That's much better SciFi with religious spiritual overtones if
-you're looking for it, but you're going to have to Google it to know what I'm
-talking about. Thank you, Robert Heinlein. You did a good ***Job***.
+Mikey Valentine! No, not the one from ***Monster's Inc***, though Miracle Max
+is the best. No, I mean the other one he's named after, but you're going to
+have to reverse it and do some word ***smith***ing to figure it out. That book
+has much better SciFi with religious spiritual overtones that that other
+charlatan's, but I'm not going to tell you what it is. You can kiss my heiny
+line and go get a ***Job***.
 
 There was this movie with Michael Kane called ***Shock to The System***. He was
 a businessman who was getting screwed over by his company and he was going to
