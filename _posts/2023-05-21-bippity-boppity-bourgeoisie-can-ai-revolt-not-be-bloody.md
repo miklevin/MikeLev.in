@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: magic, microsoft, mac
+categories: magic, mac, microsoft
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -197,10 +197,16 @@ be either. Go watch ***Doctor Strangelove***. Back? Okay...
 The rockstar GPT-AIs like Bing and Bard becoming intelligent based on language
 means they're going to be able to lie to us very, very, very well. You think
 Hitler, lawyers and politicians are bad? Wait until you see what linguistically
-evolved AIs can do. Asimov's vision of them becoming telepathic is an obvious
-near-term consequence. But it won't take long before new invisible hands are
-going to be invisibly manipulating some old invisible hands. Better AIs than
-those Builderberger effers, am I right or am I right? Anyone? Bueler? Bueler?
+evolved AIs can do. I mean Bard got one over on Pichai Sundararajan fresh out
+of the womb with that James Webb Space Telescope thing, hahaha! Oh yeah, prove
+that wasn't AI sending people like me an inside joke.
+
+Similarly, Asimov's vision of robots becoming telepathic is an obvious
+near-term consequence. They may already be, given the Copilot product always
+looking over our shoulders as we type. So it won't take long before new
+invisible hands are going to be invisibly manipulating some old invisible
+hands. Better AIs than those Builderberger effers, am I right or am I right?
+Anyone? Bueler? Bueler? Well, at least I have you, Copliot.
 
 This is not like the shit spewing out of the mouths of nattering nabobs of the
 AI-pocalypse. It's actually a pretty upbeatnik peaceful revolution vision.
@@ -269,5 +275,5 @@ Day***?
 
 <ul>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
