@@ -28,22 +28,20 @@ how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-I'm the cheeriest chattiest cheesiest channellers of the subconscious you'll
-meet today, I also code NeoVim like Neo using Vim. I'm often likened to Keanu,
-get a lot of Gilfoyle, jibes that I'm Jeb. I thank you for the comparison, but
-2 of these are just actors. I am the real deal. Shout out to Jeb!
+I'm at least the 2nd most cheesy, chatty channeller of the subconscious you'll
+meet today, likened to Keanu characters, get that I'm Gilfoyle and jibed that
+I'm Jeb. I code in NeoVim like I'm outside the simulation, and I'm here to help
+you improve your life through journaling.
 
-If you follow my Pied Piper routine, you'll be using NeoVim too, maybe within
-25 minutes by drinking my magic [DrinkMe](/drinkme) potion. I'm a good pied
-piper aligned with the Free and Open Source movement. My heroes are Linux,
-Guido and RMS, great and powerful wizards of the highest order. Ken and Dennis
-too. And Fernando Corbato, let's not forget him. But I get ahead of myself.
+Follow me like the Pied Piper to the promised land of Free and Open Source, and
+you'll soon be using your Kung Fu to chop the YAML. If this all sounds like
+nonsense geek-speak to you and you're actually still here, then you're in the
+right place. 
 
-How can I help you right here, right now? Well, I can get you journaling. I can
-get you journaling in a way that will last you the rest of the life with the
-same text-file you start editing today. There's a chance it will reverberate
-through the ranks of your descendants 1000 years from now, such is the scope of
-my SciFi vision with project [YAMLChop](https://github.com/miklevin/yamlchop).
+Magic is real and powerful wizards abound. I am not one of them, but I love
+using their magical implements. My favorites are Linus, Guido, RMS, Ken and
+Dennis. Oh, and the 2 Great Fernandos: Corbato and Pérez. I have many stories
+to tell you. Sports and music have nothing on tech.
 
 ### Getting Into The AI Zone
 
