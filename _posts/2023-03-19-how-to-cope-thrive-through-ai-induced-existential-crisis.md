@@ -4,7 +4,7 @@ title: How To Cope & Thrive Through AI-Induced Existential Crisis
 headline: "Exploring AI-Induced Existential Crisis: How I'm Learning to Cope and Thrive"
 description: As an SEO specialist, I'm exploring how to cope and thrive in this AI-induced existential crisis. I'm advocating for the use of Linux, Python, vim & git tools and habits to expand my coding capabilities. I'm confronting my fears of AI and learning that it's not a replacement for humans, but a tool to help them. Through this journey, I'm discovering how AI can create new opportunities and make jobs easier and more efficient. Join me on my journey to gain a better understanding.
 keywords: AI, Existential Crisis, Linux, Python, vim, git, Coding, Opportunities, Efficiency, Fear, Uncertainty, Doubt, FOMO, Imposter Syndrome, Hype, Transitioning, Vendor Traps, VSCode, Cloud Jupyter, Ecosystem, Obsolete, Journaling
-categories: python, coding, ai, linux, git, microsoft, imposter syndrome, journaling, vim
+categories: python, coding, ai, journaling, microsoft, linux, git, imposter syndrome, vim
 permalink: /blog/how-to-cope-thrive-through-ai-induced-existential-crisis/
 layout: post
 ---
@@ -153,9 +153,9 @@ belongs on my my homepage.
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>
