@@ -9,7 +9,8 @@ group: home
 
 ## Welcome to a Magnum Opus Every Day
 
-<img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
+mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg
+<img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Hey folks, I'm an SEO who writes ***for*** AI, but not ***with AI***, keeping
 my mind sharp and those muscles from atrophying. I've replaced WordPress and
 all the rest of that nonsense with a single text-file and chop it to pieces
@@ -45,8 +46,8 @@ Microsoft has had a axe to grind with Google for a long time, and now's their
 chance. They're schoolyard rival bullies. Don't hold it against them.
 
 <img alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
-Stan Lee always tried to get me to believe that the age of real superheroes was
-upon us, but most of those superheros have these Batman-like origin stories
+Stan Lee always tried to get me to believe that the age of real super-heroes
+was upon us, but most of those superheros have these Batman-like origin stories
 with parents getting killed and going on the Tim Campbell hero's journey. You
 get a lot of man-children today like Bezos, Musk and Jobs who got screwed up by
 their parents. And these are the folks that made you. Sometimes it takes a head
