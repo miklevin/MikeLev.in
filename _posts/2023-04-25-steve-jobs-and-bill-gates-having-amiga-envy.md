@@ -4,7 +4,7 @@ title: Steve Jobs and Bill Gates having Amiga-envy
 headline: Creating an AI-Assisted Journaling System with Vim/NeoVim and Python
 description: I'm working on an AI-assisted YAMLesque journaling system and have made changes to my website using Jekyll, Liquid Template, and Python to create an open source SEO software. I'm almost finished and ready to release my post, so come and see the results of my project!
 keywords: AI, YAMLesque, journaling, Bing/Bard, Vim/NeoVim, Python, Open Source, SEO, Linux, Category Page, Jekyll, Liquid Template, prev/next arrows, Markdown, Mermaid, Synchronization, OpenAI
-categories: linux, ai, journaling, jekyll, python, seo, vim, open source
+categories: journaling, python, ai, jekyll, linux, seo, open source, vim
 permalink: /blog/steve-jobs-and-bill-gates-having-amiga-envy/
 layout: post
 ---
@@ -183,11 +183,11 @@ that'll be a good place to stop for the day.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li></ul>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

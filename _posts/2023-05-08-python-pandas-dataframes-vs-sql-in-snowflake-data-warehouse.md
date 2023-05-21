@@ -4,7 +4,7 @@ title: Python Pandas Dataframes vs SQL in Snowflake Data Warehouse
 headline: Discovering the Benefits of Python Pandas Dataframes and Snowflake Data Warehouse for Joining Data from Disparate Sources
 description: I've been working with SQL since the 90s and discovered the power of Python Pandas Dataframes around 10 years ago. Today, I'm surprised to find Snowflake Data Warehouse makes expensive use of Python, and am very happy that that Dataframes are shaping up to be such a mainstream data API alternative to SQL.
 keywords: Microsoft SQL Server, Sybase, SQL Server 6.5, Active Server Pages, ADO library, SQL Server personal edition, Microsoft Access, Cloud, Local Database, Linux, MySQL, Python, Pandas Dataframe, In-Memory, Joins, Unions, Filters, Aggregates, ANSI SQL, Transact SQL, T-SQL, Theta Joins, CRUD, ETL, Extract Transform Load, Jupyter Notebook, Data Science, Snow
-categories: linux, python, jupyter, filter
+categories: filter, linux, python, jupyter
 permalink: /blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/
 layout: post
 ---
@@ -229,7 +229,7 @@ To be continued.
 ## Categories
 
 <ul>
+<li><h4><a href='/filter/'>Filter</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/filter/'>Filter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
