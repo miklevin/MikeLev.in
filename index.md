@@ -14,12 +14,43 @@ group: home
 Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
 [writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
 not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
-name is my website and it reads the same upside down. I've replaced WordPress
-and all the rest of that high tech-liability lock-in nonsense with a single
-text-file and chop it to [pages](/blog/) with
-[YAMLchop](https://github.com/miklevin/yamlchop). I hit on some fundamental
-truths about the web, journaling and SEO that I think are going to be important
-to you once you are ready for the message, so I'm trying to bottle it.
+name is my website and it reads the same upside down. So it is my name, my
+brand, my web address, and my magic trick by way of introduction. Hello, it's
+nice to meet you.
+
+I plan on putting nothing less than that level of creativity into every single
+piece of writing, coding, and social warror'ing I do, and I do a lot of all
+three. The writing you'll experience [here](/blog/) is a mix of SEO, AI, Linux,
+and the occasional comicbook reference. The coding you'll find
+[here](https://github.com/miklevin) where I'm very green, but then my soical
+warrior'ing is [here](https://twitter.com/miklevin) where I'm very blue.
+
+> Deep within my heart and soul  
+> Two me's fight for the truth;  
+> One's the vain green hunter,  
+> The other's soft and bluish.  
+> You'd think the one that feeds us  
+> Draws arrows and not glyphs  
+> But whiteboard-inked ideas  
+> Drive Mammoths off the cliffs.  
+
+I'm the weirdest wackiest channeller of the subconscious you'll ever meet, who
+also codes in NeoVim, well like Neo using Vim. I'm often likened to Keannu, get
+a lot of Gilfoyle, and a light sprinkling of Minecraft's Jeb. I thank you for
+the comparison, but 2 of them are actors. I am the real thing. Shout out to
+Jeb!
+
+If you follow my Pied Piper routine, you'll be using NeoVim too, maybe within
+25 minutes by drinking my magic DrinkMe potion. I'm a good pied piper aligned
+with the Free and Open Source movement. My heroes are Linux, Guido and RMS,
+great and powerful wizards of the highest order. Ken and Dennis too. And
+Fernando Corbato, let's not forget him. But I get ahead of myself.
+
+How can I help you right here, right now? Well, I can get you journaling. I can
+get you journaling in a way that will last you the rest of the life with the
+same text-file you start editing today. There's a chance it will reverberate
+through the ranks of your descendants 1000 years from now, such is the scope of
+my SciFi vision with project [YAMLChop](https://github.com/miklevin/yamlchop).
 
 ### Getting Into The AI Zone
 
@@ -52,7 +83,7 @@ Microsoft has had a axe to grind with Google for a long time, and now's their
 chance. They're schoolyard rival bullies. I know it's going to be tough, but
 find it in yourself to forgive them.
 
-# Excelsior!
+# Be My Amazing Friends
 
 <img alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Stan Lee always tried to get me to believe that the age of real super-heroes
