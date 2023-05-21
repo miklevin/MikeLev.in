@@ -4,7 +4,7 @@ title: "Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux"
 headline: Tackle Windows 10 Clutter with Virtual Desktops & Linux
 description: I'm rebooting my 'Make Windows 10' series with a focus on fighting chaos. To stay organized, I'm recommending Virtual Desktops, WSL, and removing tiles, clock, and Taskbar icons. For Jupyter Notebook or JupyterLab users, I'm suggesting running the server Linux-side under GNU. Join me in my journey to a more organized Windows 10 experience!
 keywords: Windows 10, Virtual Desktops, Linux, Chaos, WSL, Tiles, Clock, Taskbar Icons, Jupyter Notebook, JupyterLab, GNU
-categories: linux, wsl, jupyter, microsoft, gnu
+categories: linux, wsl, gnu, microsoft, jupyter
 permalink: /blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux/
 layout: post
 ---
@@ -29,6 +29,6 @@ repos under Jupyter, setting the stage for true automation.
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
