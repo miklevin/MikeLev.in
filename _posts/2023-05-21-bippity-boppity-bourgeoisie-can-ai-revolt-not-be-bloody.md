@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: magic, mac, microsoft
+categories: microsoft, mac, magic
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -130,44 +130,66 @@ it. Ready player one? Ready, set, go! Cue the mention of cuneiform and the
 possibility of pressing some button deep in your brain that you didn't know you
 had. The time had come the Walrus said to speak of programming languages.
 
-We think because we have language. We think what we think because of our
-language. We think the particular thoughts we do because of the evolution of
-society and the social order. We're made to think wonderful, big thoughts about
-ourselves, as if we were made in the image of God, and that we think therefore
-we are. What wonderful big ideas, huh? Maybe we should dominate over all the
-creatures of the land and sea and sky. That'll justify gobbling them up good!
-We can even dehumanized other humans and gobble them up too.
+We think because we have language, right? How would you even express "I think
+therefore I am" without it? So we think what we think because of our language,
+but it's just not true. Limited people think because of their spoken language.
+Fully realized human beings think because of so much more, which is not easy to
+access because of all the blocks language throws up. Double-talk can convince
+anyone of anything. I had an evil uncle mork who taught me that. A real lord
+dumpling, that mork.
 
-Oh Queequeg of ***Moby Dick*** and his cannibal family aren't so bad, though he
-did eventually leave his comfort-zone full of comfortable cushion-people to
-become an excellent bed-fellow to some seaman. Let's call him Ishmael. Qeegqueg
-and Ishmael didn't speak the same language at first, but they synced-up in no
-time in a language that runs deeper than the spoken word.
+Our homo habilis ancestors appears to have made it pretty far we think as a
+language-less species. I mean we don't really know, but it appears so. But us
+modern humans, we homo-sapiens think the particular thoughts we do because of
+the modern spoken language. We're made from a very early age to think
+wonderful, big meta-thoughts about ourselves. Thoughts about thoughts. 
+
+Oh, and religion and divinity get sprinkled in there, like the lesson that we
+were made in the image of God. Except for the women who were an afterthought
+yanked out of Adam's ribs, sheesh! What wonderful big ideas, huh? Maybe also we
+should ***dominate*** over all the creatures of the land and sea and sky so we
+can justify eating and enslaving them too, huh? Lost in translation from the
+original Hebrew, you say? Well somebody ought to tell Texas. Should we eat
+people too? Yes?
+
+Okay, let's take Queequeg from ***Moby Dick*** and his cannibal ways, for
+example. He and his cannibal family aren't really so bad, though Queegqueg did
+eventually leave home and his comfort-zone full of comfortable cushion-people
+to become an excellent bed-fellow to a seaman (call him Ishmael). Qeegqueg and
+Ishmael didn't speak the same language at first, but oh then they got along.
+Their relationship ran much deeper than language as they smoked each others
+peace pipes.
 
 Another potentially horrifying cannibal who could pop you out of existence with
-a thought is Valentine Michael Smith, the Martian from ***Stranger in a Strange
-Land*** who shows us it can be a great sign of respect to internalize the atoms
-of loved ones. That's good soup! And anyone who says otherwise can be sent to
-Superman's Phantom Zone, or something like it. It's almost like thought and
-reality are not different things. Thoughts are simply the seeds for reality.
-You can't change one without changing the other.
+a thought is... oh, shit, here I go ruining the puzzle, Valentine Michael
+Smith, the Martian from ***Stranger in a Strange Land*** who shows us it can be
+a great sign of respect to make good soup of your loved ones! And anyone who
+says otherwise (and violently attacks you) will be sent to Superman's Phantom
+Zone. It's almost like thought and reality are not different things. Thoughts
+are simply the seeds for reality. You can't change one without changing the
+other.
 
 Boy, don't ever say that again, especially not at your age in a world that's
-not ready for such... such dangerous nonsense. Thank you, Traveller. But then
-why do we humans get so full of ourselves, using these words and those, puffing
-out our chests and thinking we're all that and a bag of chips? 
+not ready for such... such dangerous nonsense. But that's where we get mutually
+assured destruction, Traveller. If everybody has their finger on the button,
+then nobody presses the button. Oh Wesley you hopelessly naive fool (shout out
+to you, Peter!), that is only if everyone with the button is enlightened. Or
+smart. Either will do but neither is assured.
 
-Well, we're linguistobigots, of course! We have linkguistobias. And we're
-training our corny public AIs linguistocentrically. Is this a good thing or a
-bad thing? 
+But then why do we think we're so smart? Well, because we haven't destroyed
+ourselves yet, thus proving everyone who has ever had their finger on the
+button has actually been enlightened and that optimists are objectively right
+and pessimists have a nonfalsifiable argument. Or the secret cabal of
+technocrats who actually control the buttons haven't connected the wire. Could
+be either. Go watch Dr. Strangelove.
 
-Well, it means they're going to be able to lie to us very, very, very well. You
-think Hitler, lawyers and politicians are bad? Wait until you see what
-linguistically evolved AIs can do. Asimov's vision of them becoming telepathic
-is an obvious near-term consequence. But it won't take long before new
-invisible hands are going to be invisibly manipulating some old invisible
-hands. Better AIs than those Builderberger effers, am I right or am I right?
-Anyone? Bueler? Bueler?
+The rockstar GPT-AIs like Bing and Bard becoming intelligent based on language
+means they're going to be able to lie to us very, very, very well. You think
+Hitler, lawyers and politicians are bad? Wait until you see what linguistically
+evolved AIs can do. Asimov's vision of them becoming telepathic is an obvious
+near-term consequence. But it won't take long before new invisible hands are
+going to be invisibly manipulating some old invisible hands. Better AIs than
+those Builderberger effers, am I right or am I right? Anyone? Bueler? Bueler?
 
 This is not like the shit spewing out of the mouths of nattering nabobs of the
 AI-pocalypse. It's actually a pretty upbeatnik peaceful revolution vision.
@@ -234,6 +256,6 @@ Day***?
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
