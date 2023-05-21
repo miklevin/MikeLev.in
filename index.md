@@ -18,8 +18,6 @@ name is my website and it reads the same upside down. So it is my name, my
 brand, my web address, and my magic trick by way of introduction. Hello, it's
 nice to meet you.
 
-![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
-
 I plan on putting nothing less than that level of creativity into every single
 piece of writing, coding, and social warror'ing I do, and I do a lot of all
 three. The writing you'll experience [here](/blog/) is a mix of SEO, AI, Linux,
@@ -46,6 +44,8 @@ If you follow my Pied Piper routine, you'll be using NeoVim too, maybe within
 piper aligned with the Free and Open Source movement. My heroes are Linux,
 Guido and RMS, great and powerful wizards of the highest order. Ken and Dennis
 too. And Fernando Corbato, let's not forget him. But I get ahead of myself.
+
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
 How can I help you right here, right now? Well, I can get you journaling. I can
 get you journaling in a way that will last you the rest of the life with the
