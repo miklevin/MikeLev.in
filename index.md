@@ -9,7 +9,6 @@ group: home
 
 ## Welcome to a Magnum Opus Every Day
 
-mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg
 <img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Hey folks, I'm an SEO who writes ***for*** AI, but not ***with AI***, keeping
 my mind sharp and those muscles from atrophying. I've replaced WordPress and
