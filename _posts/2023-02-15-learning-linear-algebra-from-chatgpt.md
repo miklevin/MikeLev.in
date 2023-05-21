@@ -4,7 +4,7 @@ title: Learning Linear Algebra From ChatGPT
 headline: Exploring Linear Algebra with Python and ChatGPT
 description: I'm exploring linear algebra using Python, and I'm learning how to solve systems of linear equations, matrix multiplication, eigenvalues, and singular value decomposition. With the help of NumPy, I'm gaining a better understanding of the concepts and applications of linear algebra. I'm also discovering the potential of AI language models, such as ChatGPT, which can help clarify my vision and provide information on TV programs like Person of Interest.
 keywords: Linear Algebra, ChatGPT, Python, NumPy, AI, Language Models, Person of Interest, The Machine, Ray Kurzweil, Singularity, Pattern Recognition, Memory, Reasoning, Decision-Making, Consciousness, Personhood, Moral Responsibility, Education, Marketing, Law Enforcement, Corporate Brainwashing, Identity Theft, Regulation, Oversight, Programming, Mathematics, Statistics, Machine Learning, Data Science, Computer Architecture, Problem-Solving, Vector Spaces, Linear Equ
-categories: coding, ai, python, consciousness, marketing
+categories: coding, consciousness, marketing, ai, python
 permalink: /blog/learning-linear-algebra-from-chatgpt/
 layout: post
 ---
@@ -291,7 +291,7 @@ Oops, Too many requests in 1 hour. Try again later.
 
 <ul>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
