@@ -4,7 +4,7 @@ title: Permission denied publickey fatal Could not read from remote repository
 headline: Git Cloning Solved After Changing LXD Linux Container to Privileged Mode
 description: I encountered a problem when trying to git clone a repository from an LXD Linux Container running on Windows Subsystem for Linux (WSL). After discovering the container was running in unprivileged mode, I changed it to privileged mode with the lxc config command and rebooted. This fixed the file permissions issue and allowed me to successfully git clone the repository. Read more about my experience and how I solved the problem.
 keywords: Permission, Denied, Publickey, Fatal, Could, Not, Read, Remote, Repository, LXD, Linux, Container, Windows, Subsystem, WSL, Privileged, Mode, lxc, Config, Command, Reboot, File, Permissions, Ownership, Git, Clone, Research, Issue, Unprivileged
-categories: lxc, linux, wsl, git, container, microsoft
+categories: lxc, linux, microsoft, git, container, wsl
 permalink: /blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/
 layout: post
 ---
@@ -101,7 +101,7 @@ may be one simple command.
 <ul>
 <li><h4><a href='/lxc/'>LXC</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
