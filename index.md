@@ -17,7 +17,7 @@ with [YAMLchop](https://github.com/miklevin/yamlchop). I hit on some fundamental
 truths about the web and SEO that I think are going to be important in the
 future, and I'm trying to get them out there.
 
-### Getting Into The SEO/AI Zone
+### Getting Into The AI Zone
 
 I am Mike Levin, SEO in NYC, and I'm a big lifetime Sci-Fi fan, and thus today
 a big fan of Bing and Bard too. I can't believe AI is upon us, and I can't
