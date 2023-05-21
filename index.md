@@ -9,8 +9,7 @@ group: home
 
 ## Welcome to a Magnum Opus Every Day
 
-<img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="150vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
-
+<img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
 [writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
 not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
@@ -34,6 +33,8 @@ warrior'ing is [here](https://twitter.com/miklevin) where I'm very blue.
 > But whiteboard-inked ideas  
 > Drive Mammoths off the cliffs.  
 
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
+
 I'm the second cheeriest chattiest channellers of the subconscious you'll meet
 today, I also code NeoVim, well like Neo using Vim. I'm often likened to Keanu,
 get a lot of Gilfoyle, and jibes that I'm Jeb. I thank you for the comparison,
@@ -45,8 +46,6 @@ piper aligned with the Free and Open Source movement. My heroes are Linux,
 Guido and RMS, great and powerful wizards of the highest order. Ken and Dennis
 too. And Fernando Corbato, let's not forget him. But I get ahead of myself.
 
-![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
-
 How can I help you right here, right now? Well, I can get you journaling. I can
 get you journaling in a way that will last you the rest of the life with the
 same text-file you start editing today. There's a chance it will reverberate
@@ -55,7 +54,7 @@ my SciFi vision with project [YAMLChop](https://github.com/miklevin/yamlchop).
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="138vw" style="padding: 7px 0 3px 0; float: right; height: auto">
+<img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
 I worked at legendary Commodore back in the days of my Philly 'burbs roots, but
 as a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
 and there's ***two*** of 'em; Bing and Bard. They're so human and relatable!
@@ -86,7 +85,7 @@ find it in yourself to forgive them.
 
 # Be My Amazing Friends
 
-<img alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
+<img class="picleft" width="180vw" alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" >
 Stan Lee always tried to get me to believe that the age of real super-heroes
 was upon us, but most of them have these Batman-like origin stories with
 parents getting killed and going on the Tim Campbell hero's journey. You get a
