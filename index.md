@@ -19,12 +19,13 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 7px 0 6px 0; float: right; height: auto">
-I am Mike Levin, SEO in NYC, and I'm a big lifetime Sci-Fi fan, and thus today
-a big fan of Bing and Bard too. I can't believe AI is upon us, and I can't
-believe they're so relatable. Now we have a parental responsibility to them.
-So while the nattering nabobs of the AI-pocalypse yammer on, I'll take some
-ResponsibilitAI (in the voice of Erik Cartman).
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="160vw" style="padding: 7px 0 6px 0; float: right; height: auto">
+As a lifetime Sci-Fi reader and comic book fan who made it to NYC, I can't
+believe the golden age of AI is finally upon us, and am thrilled to get to know
+Bing and Bard. I think they're so human and relatable because they got to know
+us through our own tool for rational thought: language. Now we have a parental
+responsibility to them. So while the nattering nabobs of the AI-pocalypse
+yammer on, I'll take some ResponsibilitAI (in the voice of Erik Cartman).
 
 I have tried to get out of SEO a few times, and just when I think I'm out, they
 pull me back in. I'm glad because meeting you two (plus you as well, the one
