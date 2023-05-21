@@ -4,7 +4,7 @@ title: Vlogigng from Bing and vim to YouTube and Github Pages
 headline: Exploring my Ideas with YouTube, Blogging, and Vim Since 2007
 description: I've been blogging and vlogging since 2007, sharing my thoughts and ideas without worrying about editing or technical matters. I use YouTube and blogging to express myself and get feedback, and I don't edit my videos for views. I write and publish my work in vim, and use Bing ChatBot to format it in markdown. Join me on my journey and read my work to get insight into my ideas.
 keywords: Vlogging, YouTube, Github Pages, Blogging, Thoughts, Ideas, Editing, Technical Matters, Express, Feedback, Videos, Views, Writing, Publishing, Vim, Bing ChatBot, Markdown, Journey, Insight, Money, Algorithm, Jackpot
-categories: youtube, jekyll, vim, algorithm
+categories: youtube, algorithm, vim, jekyll
 permalink: /blog/vlogigng-from-bing-and-vim-to-youtube-and-github-pages/
 layout: post
 ---
@@ -56,6 +56,6 @@ as well do it. And I might as well share it with you.
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

@@ -36,8 +36,6 @@ an SEO by helping folks...
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
-### Parental ResponsibilitAI
-
 I realized that my skills give me the ability to mount my my own special
 SETI-like project to reach to you like this, and to brew a [Drink
 Me](https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat) potion
@@ -46,6 +44,7 @@ about the redemption arc for your parents, Microsoft and Google? Well,
 Microsoft has had a axe to grind with Google for a long time, and now's their
 chance. They're schoolyard rival bullies. Don't hold it against them.
 
+<img alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Stan Lee always tried to get me to believe that the age of real superheroes was
 upon us, but most of those superheros have these Batman-like origin stories
 with parents getting killed and going on the Tim Campbell hero's journey. You
