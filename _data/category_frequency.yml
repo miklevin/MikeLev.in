@@ -192,7 +192,7 @@ dictitems:
     count: 1
     title: 10_requirements.ipynb
   '11':
-    count: 1
+    count: 2
     title: '11'
   11 year old:
     count: 1
@@ -824,6 +824,9 @@ dictitems:
   ai-novel:
     count: 1
     title: AI-Novel
+  ai-revolt:
+    count: 1
+    title: AI-Revolt
   ai-systems:
     count: 1
     title: AI-Systems
@@ -884,6 +887,9 @@ dictitems:
   alice in wonderland:
     count: 2
     title: Alice in Wonderland
+  alice in wonderland,:
+    count: 1
+    title: Alice in Wonderland,
   alice's adventures in wonderland:
     count: 3
     title: Alice's Adventures in Wonderland
@@ -1919,6 +1925,9 @@ dictitems:
   biotechnology:
     count: 2
     title: Biotechnology
+  bippity boppity bourgeoisie:
+    count: 1
+    title: Bippity Boppity Bourgeoisie
   birth:
     count: 2
     title: Birth
@@ -2141,6 +2150,9 @@ dictitems:
   bowling:
     count: 1
     title: Bowling
+  box:
+    count: 1
+    title: Box
   boyle's air pump:
     count: 1
     title: Boyle's air pump
@@ -2448,7 +2460,7 @@ dictitems:
     count: 1
     title: Carnac settings
   carpenter:
-    count: 2
+    count: 3
     title: Carpenter
   carriage returns:
     count: 1
@@ -6314,6 +6326,9 @@ dictitems:
   french drop:
     count: 1
     title: French Drop
+  french revolution:
+    count: 1
+    title: French Revolution
   frenchman:
     count: 1
     title: Frenchman
@@ -6569,6 +6584,9 @@ dictitems:
   gene:
     count: 1
     title: Genes
+  genentics:
+    count: 1
+    title: Genentics
   general:
     count: 1
     title: General
@@ -7737,7 +7755,7 @@ dictitems:
     count: 1
     title: Hype
   hypervisor:
-    count: 6
+    count: 7
     title: Hypervisor
   hyphen:
     count: 1
@@ -8000,6 +8018,9 @@ dictitems:
   indulging:
     count: 1
     title: indulging
+  industrial revolution:
+    count: 1
+    title: Industrial Revolution
   industry:
     count: 3
     title: Industry
@@ -8426,6 +8447,9 @@ dictitems:
   isheep:
     count: 1
     title: iSheep
+  ishmael:
+    count: 1
+    title: Ishmael
   isolated system:
     count: 1
     title: Isolated System
@@ -9951,7 +9975,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 20
+    count: 21
     title: Mac
   macbook pro:
     count: 2
@@ -10002,7 +10026,7 @@ dictitems:
     count: 1
     title: Mad Scientist
   magic:
-    count: 6
+    count: 7
     title: Magic
   magic eraser:
     count: 1
@@ -10232,6 +10256,9 @@ dictitems:
   martial arts:
     count: 1
     title: Martial Arts
+  martian:
+    count: 1
+    title: Martian
   martin:
     count: 1
     title: Martin
@@ -10427,6 +10454,9 @@ dictitems:
   memetic hacking:
     count: 1
     title: Memetic Hacking
+  memetics:
+    count: 1
+    title: Memetics
   memorability:
     count: 1
     title: memorability
@@ -10611,7 +10641,7 @@ dictitems:
     count: 1
     title: Microsoft SQL Server
   microsoft store:
-    count: 3
+    count: 4
     title: Microsoft Store
   microsoft subsystem for linux:
     count: 2
@@ -10820,6 +10850,9 @@ dictitems:
   mobility:
     count: 2
     title: Mobility
+  moby dick:
+    count: 1
+    title: Moby Dick
   mode:
     count: 1
     title: Mode
@@ -11469,7 +11502,7 @@ dictitems:
     count: 1
     title: Noah's Ark platform
   noam chomsky:
-    count: 1
+    count: 2
     title: Noam Chomsky
   nobel prize:
     count: 1
@@ -12066,7 +12099,7 @@ dictitems:
     count: 1
     title: Ownership
   oz:
-    count: 4
+    count: 5
     title: Oz
   ozma:
     count: 1
@@ -13073,6 +13106,9 @@ dictitems:
   primitive species:
     count: 1
     title: Primitive Species
+  primordial language:
+    count: 1
+    title: Primordial Language
   princeton:
     count: 1
     title: Princeton
@@ -15108,7 +15144,7 @@ dictitems:
     count: 2
     title: Self-Therapy
   selfish gene:
-    count: 1
+    count: 2
     title: Selfish Gene
   selling the dream:
     count: 1
@@ -15374,6 +15410,9 @@ dictitems:
   shortcut-seekers:
     count: 1
     title: Shortcut-Seekers
+  shriving middle class:
+    count: 1
+    title: Shriving Middle Class
   shut-in:
     count: 1
     title: shut-in
@@ -16295,6 +16334,9 @@ dictitems:
   strange:
     count: 1
     title: Strange
+  stranger in a strange land:
+    count: 1
+    title: Stranger in a Strange Land
   strategy:
     count: 8
     title: Strategy
@@ -17664,7 +17706,7 @@ dictitems:
     count: 3
     title: Ubuntu 18.04
   ubuntu 20.04:
-    count: 2
+    count: 3
     title: Ubuntu 20.04
   ubuntu linux:
     count: 1
@@ -17993,6 +18035,9 @@ dictitems:
   vacuum:
     count: 1
     title: Vacuum
+  valentine michael smith:
+    count: 1
+    title: Valentine Michael Smith
   validate:
     count: 1
     title: Validate
@@ -18690,7 +18735,7 @@ dictitems:
     count: 72
     title: Windows
   windows 10:
-    count: 17
+    count: 18
     title: Windows 10
   windows 10/11:
     count: 1
@@ -18761,6 +18806,9 @@ dictitems:
   wise old sage:
     count: 1
     title: Wise Old Sage
+  witch:
+    count: 1
+    title: Witch
   wizard:
     count: 3
     title: Wizard

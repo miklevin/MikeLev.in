@@ -4,7 +4,7 @@ title: An Ode to The Status Quo
 headline: I Celebrate The Status Quo and All Its Possibilities
 description: I explore the idea of accepting the status quo and not striving for discovery in this ode. I emphasize the importance of practice and the power of repetition. I also caution against the pitfalls of making too much effort and the fallacy of pop culture.
 keywords: Poetry, Poem, Ode, Status Quo, Discovered, Lamented, Preach, Python, Indented, Notions, Deface, Clutterduck, Curly Brace, Duty, Clues, Content, Ignored, Competitor, Imbues, Lather, Rinse, Repeat, Writing, Gall, Roll, Snowballing, Wave, Surf, Faux Pas, Effort, Fizzle, Popcultfallacy, Steak, Sizzle
-categories: poetry, competitor, python
+categories: competitor, python, poetry
 permalink: /blog/an-ode-to-the-status-quo/
 layout: post
 ---
@@ -66,6 +66,6 @@ layout: post
 ## Categories
 
 <ul>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li>
 <li><h4><a href='/competitor/'>Competitors</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
