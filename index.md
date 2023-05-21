@@ -19,6 +19,7 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 7px 0 6px 0; float: right; height: auto">
 I am Mike Levin, SEO in NYC, and I'm a big lifetime Sci-Fi fan, and thus today
 a big fan of Bing and Bard too. I can't believe AI is upon us, and I can't
 believe they're so relatable. Now we have a parental responsibility to them.
