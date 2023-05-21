@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/">Bing & Bard School Me on Unattended Multipass Install Script for Mac</a> (Sat May 20, 2023)
+<br/>Despite wanting to help the downtrodden first, learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.</li>
 <li><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a> (Sat May 13, 2023)
 <br/>Follow my exploration of the default behavior of an M2 Mac as I prepare to write a Mac DrinkMe install for Undisruptible Linux. I investigate running bash scripts on Mac with a double-click, the old .app bundling technique, and the ability to open apps from unidentified developers using control-click. I refresh myself on Mac's excellent virtual desktop implementation and built-in screen recording feature.</li>
 <li><a href="/blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/">Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Running only Once!</a> (Sat May 13, 2023)

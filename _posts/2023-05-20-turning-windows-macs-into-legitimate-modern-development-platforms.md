@@ -4,7 +4,7 @@ title: Turning Windows & Macs into Legitimate Modern Development Platforms
 headline: The Iron is Hot So Chase The Rabbit on Down the Linux Hole
 description: In this article, I discuss the importance of my maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.
 keywords: Windows, Linux, Ubuntu, WSL, NT, PowerPC, Intel, ARM, Docker, VirtualBox, Oracle, Sun Microsystems, Berkeley DB, NoSQL, AI, ChatGPT, John Conway, Game of Life, Mandelbrot, Music Mod, Transformer, Amiga, WBScript, Howard Harrison, Multipass, Hypervisor, Azure Cloud, WebDev, Python, Data Scientists, App Store, Apple App Store, App Bundles, Levinux
-categories: amiga, container, ai, linux, ubuntu, microsoft, levinux, wsl, python
+categories: amiga, microsoft, container, ubuntu, wsl, python, levinux, ai, linux
 permalink: /blog/turning-windows-macs-into-legitimate-modern-development-platforms/
 layout: post
 ---
@@ -163,8 +163,6 @@ little layering-up steps. Let's slam out a to-do list.
       |_|\___/  |____/ \___/ 
                          
 - Make the Mac install script for Rabbit Hole Linux (symlinks?)
-- Make a black ASCII Rabbit square for social media use
-- Make a corresponding chase the rabbit banner for all social media
 - Allow the output of the Github repo install to show Figlet + message
 - Leverage Pipulate.com and Levinux.com homepages for rabbit chasing
 - Getting off the OpenAI API so I don't have another $20/mo bill.
@@ -220,16 +218,16 @@ vi/vim/NeoVim.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/">Bing & Bard School Me on Unattended Multipass Install Script for Mac</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

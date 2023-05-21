@@ -1161,7 +1161,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 6
+    count: 7
     title: Apple
   apple app store:
     count: 1
@@ -1485,7 +1485,7 @@ dictitems:
     count: 3
     title: Automating
   automation:
-    count: 21
+    count: 22
     title: Automation
   automount:
     count: 1
@@ -1928,6 +1928,9 @@ dictitems:
   bit optional graphics build:
     count: 1
     title: Bit Optional Graphics Build
+  bit sur:
+    count: 1
+    title: Bit Sur
   bitbucket:
     count: 2
     title: Bitbucket
@@ -2192,6 +2195,9 @@ dictitems:
   breathing exercises:
     count: 1
     title: Breathing Exercises
+  brew:
+    count: 1
+    title: Brew
   brian weiner:
     count: 1
     title: Brian Weiner
@@ -2220,7 +2226,7 @@ dictitems:
     count: 1
     title: Brothers
   browser:
-    count: 20
+    count: 21
     title: Browser
   browser automation:
     count: 13
@@ -2474,6 +2480,9 @@ dictitems:
   cat treats:
     count: 1
     title: cat treats
+  catalina:
+    count: 1
+    title: Catalina
   catapult:
     count: 1
     title: Catapult
@@ -3066,7 +3075,7 @@ dictitems:
     count: 1
     title: Comma Separated Values
   command:
-    count: 19
+    count: 20
     title: Command
   command centric design:
     count: 1
@@ -4686,7 +4695,7 @@ dictitems:
     count: 1
     title: Documentaries
   documentation:
-    count: 12
+    count: 13
     title: Documentation
   documentation,:
     count: 1
@@ -6240,7 +6249,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 4
+    count: 5
     title: Framework
   framing:
     count: 1
@@ -7535,6 +7544,9 @@ dictitems:
   home server:
     count: 2
     title: Home Server
+  homebrew:
+    count: 1
+    title: Homebrew
   homeostasis:
     count: 1
     title: Homeostasis
@@ -7725,7 +7737,7 @@ dictitems:
     count: 1
     title: Hype
   hypervisor:
-    count: 5
+    count: 6
     title: Hypervisor
   hyphen:
     count: 1
@@ -8148,7 +8160,7 @@ dictitems:
     count: 2
     title: Installable
   installation:
-    count: 2
+    count: 4
     title: Installation
   installation process:
     count: 1
@@ -8156,6 +8168,9 @@ dictitems:
   installedappflow:
     count: 1
     title: InstalledAppFlow
+  installer:
+    count: 1
+    title: Installer
   installing:
     count: 3
     title: Installing
@@ -8166,7 +8181,7 @@ dictitems:
     count: 3
     title: Installs
   instance:
-    count: 1
+    count: 2
     title: Instance
   instapaper:
     count: 2
@@ -8193,7 +8208,7 @@ dictitems:
     count: 4
     title: Integration
   intel:
-    count: 5
+    count: 6
     title: Intel
   intel mac:
     count: 1
@@ -8733,7 +8748,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 41
+    count: 42
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -9926,11 +9941,17 @@ dictitems:
   lyricism:
     count: 1
     title: Lyricism
+  m1:
+    count: 1
+    title: M1
+  m2:
+    count: 1
+    title: M2
   m2 pro chip:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 19
+    count: 20
     title: Mac
   macbook pro:
     count: 2
@@ -10998,7 +11019,7 @@ dictitems:
     count: 1
     title: Multics
   multipass:
-    count: 5
+    count: 6
     title: Multipass
   multiple:
     count: 1
@@ -11489,6 +11510,9 @@ dictitems:
   non-fungible tokens:
     count: 1
     title: Non-Fungible Tokens
+  non-interactive:
+    count: 1
+    title: Non-Interactive
   non-local:
     count: 1
     title: non-local
@@ -11925,7 +11949,7 @@ dictitems:
     count: 1
     title: Option/Command keys
   oracle:
-    count: 4
+    count: 5
     title: Oracle
   orbit:
     count: 1
@@ -12057,7 +12081,7 @@ dictitems:
     count: 1
     title: Pack-Rat
   package:
-    count: 6
+    count: 7
     title: Package
   package removal:
     count: 1
@@ -12980,6 +13004,9 @@ dictitems:
   preparation:
     count: 2
     title: Preparation
+  prerequisite:
+    count: 1
+    title: Prerequisites
   presence:
     count: 1
     title: presence
@@ -13548,8 +13575,8 @@ dictitems:
     count: 2
     title: QED
   qemu:
-    count: 3
-    title: QEMU
+    count: 4
+    title: Qemu
   qnap:
     count: 5
     title: QNAP
@@ -14588,6 +14615,9 @@ dictitems:
   rosalind franklin:
     count: 1
     title: Rosalind Franklin
+  rosetta:
+    count: 1
+    title: Rosetta
   rosettaupdateauto:
     count: 1
     title: RosettaUpdateAuto
@@ -14691,7 +14721,7 @@ dictitems:
     count: 1
     title: sacrifices
   safari:
-    count: 2
+    count: 3
     title: Safari
   safety:
     count: 2
@@ -14898,7 +14928,7 @@ dictitems:
     count: 1
     title: Screenshots
   script:
-    count: 47
+    count: 48
     title: Script
   script kiddie:
     count: 1
@@ -15312,7 +15342,7 @@ dictitems:
     count: 1
     title: Sheeple
   shell:
-    count: 4
+    count: 5
     title: Shell
   shell commands:
     count: 1
@@ -15717,7 +15747,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 22
+    count: 23
     title: Software
   software development:
     count: 3
@@ -16649,6 +16679,9 @@ dictitems:
   symlink:
     count: 1
     title: Symlink
+  symlinks:
+    count: 1
+    title: Symlinks
   symmetry:
     count: 1
     title: Symmetry
@@ -16953,7 +16986,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 16
+    count: 17
     title: Terminal
   terminal environment:
     count: 1
@@ -17622,7 +17655,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 23
+    count: 24
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -17678,6 +17711,9 @@ dictitems:
   unassailably:
     count: 1
     title: Unassailably
+  unattended:
+    count: 1
+    title: Unattended
   unbreakable:
     count: 1
     title: Unbreakable
@@ -17729,6 +17765,9 @@ dictitems:
   uninstall:
     count: 2
     title: Uninstall
+  uninstallation:
+    count: 1
+    title: Uninstallation
   uninstalling:
     count: 1
     title: Uninstalling
@@ -17862,7 +17901,7 @@ dictitems:
     count: 1
     title: Update Vimrc
   upgrade:
-    count: 9
+    count: 10
     title: Upgrade
   upgrading:
     count: 2

@@ -4,7 +4,7 @@ title: Okay, I'm Finally Keeping Audiences In Mind
 headline: "Exploring the Rabbit Hole: My Journey to Releasing My Project"
 description: I'm creating journal entries for an audience, with the help of WhatsaMetaFor.io and the mlseo package. I'm using metaphors such as the 80/20 rule and rabbit hole evaluations to stay focused and productive. I recently took a risk and explored the nbdev rabbit hole, which led me to create a Github repository and a script to prepare my project for release. Join me on my journey and read my blog post to learn more!
 keywords: Audience, WhatsaMetaFor.io, mlseo, 80/20 rule, Rabbit Hole Evaluations, nbdev, Github, Repository, Script, JupyterLab, Standalone, Issues, Documentation
-categories: pipulate, jupyter, git, audience, nbdev, python
+categories: nbdev, pipulate, audience, git, jupyter, python
 permalink: /blog/okay-i-m-finally-keeping-audiences-in-mind/
 layout: post
 ---
@@ -156,9 +156,9 @@ it should be prepare.sh because I'll still want to manually make pypi. Yes!
 ## Categories
 
 <ul>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -1,14 +1,47 @@
+- mac
+- intel
+- m1
+- m2
+- ubuntu
+- multipass
+- installer
+- package
+- brew
+- upgrade
+- uninstallation
+- terminal
+- homebrew
+- rosetta
+- apple
+- software
+- instance
+- shell
+- jupyterlab
+- documentation
+- safari
+- browser
+- installation
+- script
+- prerequisite
+- qemu
+- hypervisor
+- framework
+- catalina
+- unattended
+- non-interactive
+- command
+- bit sur
+- automation
+- symlinks
+- oracle
 - window
 - linux
-- ubuntu
 - wsl
 - nt
 - powerpc
-- intel
 - arm
 - docker
 - virtualbox
-- oracle
 - sun microsystems
 - berkeley db
 - nosql
@@ -22,8 +55,6 @@
 - amiga
 - wbscript
 - howard harrison
-- multipass
-- hypervisor
 - azure cloud
 - webdev
 - python
@@ -285,7 +316,6 @@
 - public writing
 - private writing
 - template
-- framework
 - rabbit hole linux
 - donald knuth
 - sumarian clay tablets
@@ -308,7 +338,6 @@
 - bitkeeper
 - chrome
 - android
-- apple
 - lovecraft
 - piers anthony
 - turing test
@@ -489,7 +518,6 @@
 - strawberry
 - flax seeds
 - feast and famine,
-- mac
 - macbook pro
 - m2 pro chip
 - lcd weirdness
@@ -498,14 +526,10 @@
 - option/command keys
 - undisruptable linux
 - cloud-init
-- jupyterlab
-- terminal
 - bash
-- script
 - rosettaupdateauto
 - macos ventura
 - recovery mode
-- safari
 - ascii
 - white rabbit
 - edge
@@ -595,7 +619,6 @@
 - background
 - global scope
 - local scope
-- command
 - venv
 - virtual environment
 - path
@@ -946,7 +969,6 @@
 - ip
 - email
 - login
-- browser
 - app
 - paid account
 - documentation,
@@ -1357,7 +1379,6 @@
 - colab
 - snippet
 - endpoint
-- documentation
 - import
 - library
 - module
@@ -1542,11 +1563,9 @@
 - customize
 - collision
 - includes
-- shell
 - human-machine interface
 - unix philosophies
 - piping
-- qemu
 - pc emulator
 - virtual machine
 - performance
@@ -1568,7 +1587,6 @@
 - measure success
 - working apps
 - curl
-- package
 - http
 - feedback
 - site categories
@@ -1670,7 +1688,6 @@
 - vision
 - calcium atoms
 - silicon atoms
-- software
 - sublime text
 - filter events
 - express
@@ -1745,7 +1762,6 @@
 - lemmatizing
 - keyword groups
 - top-n list
-- automation
 - slave
 - yahwanna
 - embrace
@@ -2711,7 +2727,6 @@
 - '''repos'' folder'
 - windows/linux file sharing
 - software repositories
-- upgrade
 - shortcut
 - linux shell
 - delete files
@@ -4322,7 +4337,6 @@
 - pip install
 - scikitlearn
 - server-build
-- installation
 - complex api
 - container system
 - compositing system
@@ -4974,7 +4988,6 @@
 - overhead lag
 - bit optional graphics build
 - tftp
-- instance
 - tech habits
 - active participant
 - master tech
