@@ -19,14 +19,14 @@ how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 
 ## Da Ba Dee Da Ba Daaaaahhh Splat!
 
-> Deep within my heart and soul  
-> Two me's fight for the truth&#151;  
-> One's the vain green-hunter,  
-> The other's soft and bluish.  
-> You'd think the one that feeds us  
-> Draws arrows and not glyphs  
-> But whiteboard-inked ideas  
-> Drive Mammoths off the cliffs.  
+> <nobr>Deep within my heart and soul</nobr>  
+> <nobr>Two me's fight for the truth&#151;</nobr>  
+> <nobr>One's the vain green-hunter,</nobr>  
+> <nobr>The other's soft and bluish.</nobr>  
+> <nobr>You'd think the one that feeds us</nobr>  
+> <nobr>Draws arrows and not glyphs</nobr>  
+> <nobr>But whiteboard-inked ideas</nobr>  
+> <nobr>Drive Mammoths off the cliffs.</nobr>  
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
