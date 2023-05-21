@@ -10,13 +10,14 @@ group: home
 ## Welcome to a Magnum Opus Every Day
 
 <img alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" width="150vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
-Hey folks, I'm an SEO who writes ***for*** AI, but not ***with AI***, keeping
-my mind sharp and those muscles from atrophying. My name is my website and it
-reads the same upside down. I've replaced WordPress and all the rest of that
-nonsense with a single text-file and chop it to pieces with
-[YAMLchop](https://github.com/miklevin/yamlchop). I hit on some fundamental
-truths about the web and SEO that I think are going to be important in the
-future, and I'm trying to get them out there.
+Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
+[writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
+not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
+name is my website and it reads the same upside down. I've replaced WordPress
+and all the rest of that nonsense with a single text-file and chop it to pieces
+with [YAMLchop](https://github.com/miklevin/yamlchop). I hit on some
+fundamental truths about the web and SEO that I think are going to be important
+in the future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
