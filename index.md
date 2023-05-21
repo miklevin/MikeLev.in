@@ -41,7 +41,7 @@ right place.
 Magic is real and powerful wizards abound. I am not one of them, but I love
 using their magical implements. My favorites are Linus, Guido, RMS, Ken and
 Dennis. Oh, and the 2 Great Fernandos: Corbato and Pérez. I have many stories
-to tell you. Sports and music have nothing on tech.
+to tell you, and am going to tell 'em like no AI can.
 
 ### Getting Into The AI Zone
 
