@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: microsoft, mac, magic
+categories: mac, microsoft, magic
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -36,7 +36,7 @@ historical and political phenomenon... a powder-keg. Okay, shit.
 Yes, yes, and the rich are jealous and they want that spell for themselves too.
 But I wasn't going to pay another penny for a Mac. But I get swept up in a
 whirlwind... a tornado... a Twister and got dropped into the middle of the
-wonderful, colorful land of OZ. Everything in my dreary bleak life of a
+wonderful, colorful land of mOZ. Everything in my dreary bleak life of a
 farmer's adopted niece in Kansas turns all color and I land on a witch, getting
 increased magical abilities.
 
@@ -265,6 +265,6 @@ Day***?
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li></ul>
