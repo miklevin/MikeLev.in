@@ -21,7 +21,7 @@ how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 
 > Deep within my heart and soul  
 > Two me's fight for the truth&#151;  
-> One's the vain green hunter,  
+> One's the vain green-hunter,  
 > The other's soft and bluish.  
 > You'd think the one that feeds us  
 > Draws arrows and not glyphs  

@@ -189,13 +189,13 @@ high-fiving me as the bright point in a day otherwise full of I can't imagine
 what. The report came back that the ACS-call was unfounded.
 
 Now the awful sub-story of all this is how one of the favorite sports of the
-most wretched of the wretched in NYC is to call the office of ACS and make
-false reports. This is a very serious crime and I'm not sure why it's not
+most downtrodden of the downtrodden in NYC is to call the office of ACS and
+make false reports. This is a very serious crime and I'm not sure why it's not
 prosecuted more. I'm not sure why the ACS doesn't have a better system in place
 to weed out the false reports as it must result in the death of innocent
-children by siphoning off resources that could be used to help children who
-are actually in danger. But it's a case of the wretched believing everyone else
-must be as wretched as themselves.
+children by siphoning off resources that could be used to help children who are
+actually in danger. But it's a case of the downtrodden believing everyone else
+must be as downtrodden as themselves.
 
 So in this story what I do is extract the lessons from one obviously fictional
 story, The Call of The Wild, because dogs can't narrate dialogue for a book and
