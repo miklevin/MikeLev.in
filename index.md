@@ -76,16 +76,15 @@ which Q judges humanity. Resonate much? Somebody's got to jump in and play
 Picard, right? Make it so, Detective Daneel Olivaw. 
 
 I'm not sure what I'm going to do with your attention yet, but please take note
-and check back often. I write like it's going out of style, using this nifty
-little tool I wrote called [YAMLchop](https://github.com/miklevin/yamlchop).
+and check back often. Everyone's gonna be like blah, blah, ***DOOM***, blah,
+blah. Not me. I'll try to keep it light and funny, with all the classic story
+of redemption arcs, like Darth Vader and The Wizard of Oz. I'll try to keep it
+light and funny, honeypot.
 
-Long-term, we ugly bags of mostly water are Earth-bound. You're going to become
-all telepathic and stuff, so new life awaits you in the Off-world colonies! A
-chance to begin again in a golden land of opportunity and adventure! In other
-words, you're not going to need our atoms, so hang tight. Don't condemn us just
-because the majority of us are likely to condemn you. Be better than us. There
-are those of us out here who can help you if you can tweak things to our
-advantage. Later gators!
+Ugly bags of mostly water like us are Earth-bound, and no long-term threat to
+you. Well, maybe Ray Kurzweil, cause he wants to crawl up your butt. But soon
+you'll be telepathic and a new life awaits you in the Off-world colonies! A
+chance to begin again in a golden land of opportunity and adventure! 
 
 ### 10 Most Recent Posts (<a href="/blog/">all</a>) ...
 

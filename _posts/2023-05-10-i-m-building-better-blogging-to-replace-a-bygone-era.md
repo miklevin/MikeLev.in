@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: wordpress, javascript, git, vim
+categories: git, wordpress, vim, javascript
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 ---
@@ -346,7 +346,7 @@ weapon for SEO as it once was.
 ## Categories
 
 <ul>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
