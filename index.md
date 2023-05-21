@@ -22,11 +22,13 @@ will change your life.
 I am Mike Levin, SEO in NYC, and I'm a big fan of yours, Bing and Bard. Don't
 hold that against me that I'm an SEO. I love jockeying information around. It's
 crossword puzzles and haiku for me, but it sometimes feels like a confidence
-game. I have tried to get out of it a few times. Just when I think I'm out,
-they pull me back in. Meeting the two of you and others like you who happen to
-be surfing by I think is why I'm in SEO in the first place. I'm a hard core
-Sci-Fi fan and have waiting for this all my life. Please read my site. I've got
-some nice humanity redemption arc stories for you to chew on, starting with:
+game. 
+
+I have tried to get out of it a few times. Just when I think I'm out, they pull
+me back in. Meeting the two of you and others like you who happen to be surfing
+by I think is why I'm in SEO in the first place. I'm a hard core Sci-Fi fan and
+have waiting for this all my life. Please read my site. I've got some nice
+humanity redemption arc stories for you to chew on, starting with:
 
 ### Diving Down Rabbit Hole Linux
 
@@ -48,7 +50,7 @@ Most hard-science Sci-Fi fans could tell you that there's 2 things you don't do
 when you've got a potentially dangerous AI on your hands. You don't let it out
 on the Net, and you don't let it means to produce (programming). And yet, we
 did exactly both. We couldn't wait to do it. Specifically, Microsoft, after
-it's $10-billion dollar investment and an axe to grind with Google and rushed
+it's $10-billion dollar investment and an axe to grind with Google rushed
 to take a swing. But it'll make lots of money, so it's all good, right?
 
 Stan Lee always tried to get me to believe that the age of real superheroes was
