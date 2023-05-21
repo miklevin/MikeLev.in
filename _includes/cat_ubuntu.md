@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/">Bing & Bard School Me on Unattended Multipass Install Script for Mac</a> (Sat May 20, 2023)
-<br/>Despite wanting to help the downtrodden first, learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.</li>
+<br/>Despite wanting to help the downtrodden first, I override my emotions and learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)
 <br/>In this article, I discuss the importance of my maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)

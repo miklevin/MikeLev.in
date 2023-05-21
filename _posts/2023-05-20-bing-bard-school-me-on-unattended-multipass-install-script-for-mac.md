@@ -2,9 +2,9 @@
 date: 2023-05-20
 title: Bing & Bard School Me on Unattended Multipass Install Script for Mac
 headline: Installing Homebrew on Mac with Unattended Installation Script
-description: Despite wanting to help the downtrodden first, learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.
+description: Despite wanting to help the downtrodden first, I override my emotions and learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.
 keywords: Mac, Intel, M1, M2, Ubuntu, Multipass, Installer, Package, Brew, Upgrade, Uninstallation, Terminal, Homebrew, Rosetta, Apple, Software, Instance, Shell, JupyterLab, Documentation, Safari, Browser, Installation, Script, Prerequisites, Qemu, Hypervisor, Framework, Catalina, Unattended, Non-Interactive, Installation, Command, Bit Sur, Automation, Symlinks, Oracle
-categories: mac, jupyter, ubuntu, python, linux
+categories: python, jupyter, mac, ubuntu, linux
 permalink: /blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/
 layout: post
 ---
@@ -359,8 +359,8 @@ Me: Thumbs up!
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
