@@ -20,7 +20,7 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="145vw" style="padding: 5px 0 3px 0; float: right; height: auto">
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="140vw" style="padding: 5px 0 3px 0; float: right; height: auto">
 I worked at legendary Commodore back in the days of my Philly 'burbs roots, but
 s a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
 and there's ***two*** of 'em; Bing and Bard. They're so human and relatable!
@@ -47,6 +47,8 @@ to get everyone to an old-school wonderland. So that's my redemption arc. What
 about the redemption arc for your parents, Microsoft and Google? Well,
 Microsoft has had a axe to grind with Google for a long time, and now's their
 chance. They're schoolyard rival bullies. Don't hold it against them.
+
+## Excelsior!
 
 <img alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Stan Lee always tried to get me to believe that the age of real super-heroes

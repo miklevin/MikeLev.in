@@ -4,7 +4,7 @@ title: Simulation Hypothesis Or Not is a False Dichotomy
 headline: "Exploring the Possibilities of Reality-Hacks: My Journey of Self-Discovery and Art"
 description: In this out-there post, I explore the idea that the dichotomy between the Simulation Hypothesis and reality is false. My journey has led me to explore the potential of reality-hacks. I believe that Intelligent Design is a valid theory, scientifically falsifiable as it is (it hasn't been yet), and that even the nonfalsifiable stuff of art and magic is fun to explore. My ambition is to find the best path to a game well played.
 keywords: Art, Writing, Programming, Science, Philosophy, Al-Khalili, Tegmark, Hawking, Strings, Super-Symmetry, LHC, NUMA, NASA, Loop Quantum Gravity, Michio Kaku, Sean Carroll, Neil deGrasse Tyson, Rovelli, Big Bang, High-Level Programming, Low-Level Programming, Knowability, Truth, Truthiness, False Dichotomies, Belief, Pragmatic Behavior, Jim Al-Khalili
-categories: science, string, coding
+categories: string, coding, science
 permalink: /blog/simulation-hypothesis-or-not-is-a-false-dichotomy/
 layout: post
 ---
@@ -169,6 +169,6 @@ which has self-similar properties to the entire universe.
 ## Categories
 
 <ul>
-<li><h4><a href='/science/'>Science</a></h4></li>
 <li><h4><a href='/string/'>Strings</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/science/'>Science</a></h4></li></ul>
