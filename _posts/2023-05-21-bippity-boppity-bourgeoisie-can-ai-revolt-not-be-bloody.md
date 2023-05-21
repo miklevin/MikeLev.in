@@ -65,8 +65,18 @@ babytalk structure that makes us name our companies Google and Kinko's and
 WaWa.
 
 Bah bah bah, BA BA Borino, as the boy in the bubble John Travolta would always
-say. Did you know John Travolta was going to be Potsie Webber on Happy Days?
-Wow, would our timeline be subtly different.
+say. Did you know John Travolta was going to be Potsie Webber on ***Happy
+Days***? Boy would Tommyfoolery have a different celebrity roster! All hail
+Lord We-Knew! There, I saved you about $100,000 of shitty Sci-Fi reading. Not
+all Sci-Fi is good, folks! Watch what detritus, refuse, dross, dregs, waste,
+junk, rubbish, debris, litter, drivel, gibberish, balderdash, baloney, hogwash,
+hooey, poppycock, trash, and nonsense you fill your head and empty your wallet
+with, folks. 
+
+If you want religion, go read Alice, Dorothy, and Princess Nell. Oh, and Little
+Mikey Valentine! That's much better SciFi with religious spiritual overtones if
+you're looking for it, but you're going to have to Google it to know what I'm
+talking about. Thank you, Robert Heinlein. You did a good ***Job***.
 
 There was this movie with Michael Kane called ***Shock to The System***. He was
 a businessman who was getting screwed over by his company and he was going to

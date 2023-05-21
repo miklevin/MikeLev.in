@@ -4,7 +4,7 @@ title: Hey Diddle Diddle, Now NeoVim's My Fiddle
 headline: "Exploring New Habits: 10 Years of NeoVim and the Microsoft Tax"
 description: I'm setting up macros in my NeoVim text editor to turn my journal entries into web pages. After 10 years of using this text editor, I'm vlogging the process and exploring new habits. As an advocate for Linux, Python, vim, and git, I still have to pay a Microsoft tax for tools like Github Pro, Github CoPilot, and Microsoft 365. I'm currently formatting the output of a new dice.py file.
 keywords: NeoVim, Text Editor, Vlogging, Linux, Python, Vim, Git, Github Pro, Github CoPilot, Microsoft 365, Philadelphia, New York City, Internet, Microsoft Independent, Old-School, Tech, Dice.py, Program
-categories: vim, new york city, python, github copilot, text editor, linux, git
+categories: vim, github copilot, python, linux, git, text editor, new york city
 permalink: /blog/hey-diddle-diddle-now-neovim-s-my-fiddle/
 layout: post
 ---
@@ -172,9 +172,9 @@ print("Done")
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>
