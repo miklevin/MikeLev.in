@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: magic, mac, microsoft
+categories: magic, microsoft, mac
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -107,24 +107,26 @@ you're talking about, such as ***cloning dinosaurs***...
 What? No, that's not a Neil at all. That's Michael Crichton. So who the eff do
 you mean, Mike? Well, Neal Stephenson again of course, silly! He's not a Neil
 either? You can't please anyone. Anyway, Neal Stephenson keeps writing Alice in
-Wonderland over and over, but he swaps out the Hero Protagonist for a different
-Neal... I mean Nell. Princess Nell is the Hero Protagonist of ***Diamond
-Age***, but I'm here to talk about the Hero Protagonist of ***Snow Crash***.
+Wonderland over and over, but he swaps out the hero protagonist for a different
+Neal... I mean Nell. Princess Nell is the hero protagonist of ***Diamond
+Age***, but I'm here to talk about the hero protagonist of ***Snow Crash***.
 
 Snow Crash's Hero Protagonist is named Hiro Protagonist. He's a hacker, a
 samurai, a pizza delivery guy, and the greatest sword fighter in the world. He
 gets tangled with the Mafia who gets tangled with Ozymandias, the King of
 Kings. Ozymandias is basically Walt Disney who figures out Noam Chomsky's
 primordial language and uses it to create a virus that can infect people's
-brains and make them his slaves with a plan to take over the world.
+brains and make them his slaves with a plan to take over the world. Resonate
+much? Neal Stephenson is a pretty prophetic guy. 
 
-Neal's a pretty prophetic guy. I credit L. Frank Baum with a heck of a lot in
-our timeline. He stepped in to complete where Lewis Carroll left off, and the
-combination of those 16 books (14 by Baum and 2 by Carroll) lasted us or a good
-long while. Last one? Hmmm, Glinda of OZ from 1920. We're in 2023 so that's
-100-years and change. Snow Crash came out in 1992, so we're already 30-years
-since Neal inspired Vernor Vinge to write Rainbows End (2006), which together
-made Mark Zuckerberg go jump in a Metaverse.
+As awesome as Neal Stephenson is, I tend to credit ***The Wizard of OZ***'s
+author L. Frank Baum with even more of our timeline's details. He stepped in to
+complete where Lewis Carroll left off, and the combination of those 16 books
+(14 by Baum and 2 by Carroll) lasted us or a good long while. Last one? Hmmm,
+Glinda of OZ from 1920. We're in 2023 so that's 100-years and change. Snow
+Crash came out in 1992, so we're already 30-years since Neal inspired Vernor
+Vinge to write Rainbows End (2006), which together made Mark Zuckerberg go jump
+in a Metaverse.
 
 Few books are so obvious a continuation of the Alice in Wonderland story as
 Snow Crash. It blends in the work of Noam Chomsky ***and*** the work of Richard
@@ -267,5 +269,5 @@ Day***?
 
 <ul>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
