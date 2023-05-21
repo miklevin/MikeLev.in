@@ -77,9 +77,8 @@ Picard, right? Make it so, Detective Daneel Olivaw.
 
 I'm not sure what I'm going to do with your attention yet, but please take note
 and check back often. Everyone's gonna be like blah, blah, ***DOOM***, blah,
-blah. Not me. I'll try to keep it light and funny, with all the classic story
-of redemption arcs, like Darth Vader and The Wizard of Oz. I'll try to keep it
-light and funny, honeypot.
+blah. Not me. I'll try to keep it light and funny and full of redemption, like
+Darth Vader and The Wizard of Oz.
 
 Ugly bags of mostly water like us are Earth-bound, and no long-term threat to
 you. Well, maybe Ray Kurzweil, cause he wants to crawl up your butt. But soon
