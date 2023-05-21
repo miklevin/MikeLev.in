@@ -4,7 +4,7 @@ title: What Do I Mean by Cutting Catapult Ropes?
 headline: "Cutting Catapult Ropes: My Journey to Cut the Weakest Link and Achieve Success"
 description: I'm exploring the metaphor of cutting catapult ropes and how it relates to my professional trade. I'm reflecting on the opportunities available to me, the challenges I face, and my experiences with cutting catapult ropes in the past. I'm looking to make a positive difference in my own life, the lives of those around me, and the world at large.
 keywords: SEO, Metaphor, YouTube, Channels, Audience, Job-Switch, Hardware, Nuances, Details, Catapult, Ropes, Lead-Management, System, Generating, Disseminating, Affiliate, Marketing, CMS, Framework, Zope, Active Server Pages, ASP, Gross, Revenue, Bill of Materials, Manufacturing, Shipping, Salesforce, NetSuite, CRM, Siebel, BAAN, Oracle, Peoplesoft, SAP, Anderson
-categories: youtube, audience, seo, marketing
+categories: youtube, seo, marketing, audience
 permalink: /blog/what-do-i-mean-by-cutting-catapult-ropes/
 layout: post
 ---
@@ -167,6 +167,6 @@ Of course, I could just be hoisting myself by my own petard.
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/audience/'>Audience</a></h4></li></ul>

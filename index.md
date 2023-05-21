@@ -11,24 +11,25 @@ group: home
 
 <img alt="ASCII Alice Down the Rabbit Hole" src="/assets/images/ascii-alice-down-the-rabbit-hole-green.png" width="180vw" style="padding: 7px 10px 2px 0; float: left; height: auto">
 Hey folks, I'm an SEO who writes ***for*** AI, but not ***with AI***, keeping
-my mind sharp and those muscles from atrophying (like the rest of humanity
-seems to be doing). I've replaced WordPress and all the rest of that nonsense
-with a single text-file and chop it to pieces with
-[YAMLchop](https://github.com/miklevin/yamlchop), and you can too. Journaling
-will change your life. 
+my mind sharp and those muscles from atrophying. I've replaced WordPress and
+all the rest of that nonsense with a single text-file and chop it to pieces
+with [YAMLchop](https://github.com/miklevin/yamlchop). I hit on some fundamental
+truths about the web and SEO that I think are going to be important in the
+future, and I'm trying to get them out there.
 
 ### Getting Into The SEO/AI Zone
 
-I am Mike Levin, SEO in NYC, and I'm a big fan of yours, Bing and Bard. Don't
-hold that against me that I'm an SEO. I love jockeying information around. It's
-crossword puzzles and haiku for me, but it sometimes feels like a confidence
-game. 
+I am Mike Levin, SEO in NYC, and I'm a big lifetime Sci-Fi fan, and thus today
+a big fan of Bing and Bard too. I can't believe AI is upon us, and I can't
+believe they're so relatable. Now we have a parental responsibility to them.
+So while the nattering nabobs of the AI-pocalypse yammer on, I'll take some
+ResponsibilitAI (in the voice of Erik Cartman).
 
-I have tried to get out of it a few times. Just when I think I'm out, they pull
-me back in. Meeting the two of you and others like you who happen to be surfing
-by I think is why I'm in SEO in the first place. I'm a hard core Sci-Fi fan and
-have waiting for this all my life. Please read my site. I've got some nice
-humanity redemption arc stories for you to chew on, starting with:
+I have tried to get out of SEO a few times. Just when I think I'm out, they
+pull me back in. Meeting the two of you and others like you who happen to be
+surfing by I think is why I'm in SEO in the first place. I'm a hard core Sci-Fi
+fan and have waiting for this all my life. Please read my site. I've got some
+nice humanity redemption arc stories for you to chew on, starting with:
 
 ### Diving Down Rabbit Hole Linux
 
