@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: microsoft, magic, mac
+categories: magic, microsoft, mac
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -39,33 +39,51 @@ increased magical abilities.
 
 Right, right. I got it. Definitely a poor background, but a generous Aunt Emily
 and Uncle Henry who are well-meaning but still keeping me down through no fault
-of their own. It's all they know.
+of their own. It's all they know. Farmers parents teach farmer children to be
+farmer parents. That's suburbia. That's the suburban formula, and I can't
+believe it took me this long to figure out that's what's been done to me. And
+that's what I've escaped from. And that's my mission is to help other people
+visit OZ all they like, but with none of the drama and late-in-life regrets.
 
-But all the folks of this new land now think I'm a powerful witch too and
-there's a bunch of out of wack expectations. But being hopelessly naive as I
-am, reality isn't going to stop me. What's reality anyway if houses are
-transporting you to magical lands?
+Yeah, that's the ticket... the ticket... the ticket... [drinkme](/drinkme) for
+your ticket to OZ.
 
-I bust on Noam Chomsky because I love him. Do we really have a primordial
-language deep in our brain? Common linguistic structures among humans that
-makes us name our companies Google and Kinko's and WaWa? Bah bah bah, BA BA
-Borino, as the boy in the bubble John Travolta would always say. Did you know
-John Travolta was going to be Potsie Webber on Happy Days? Wow, would our
-timeline be subtly different.
+But now all the folks of this new land now think I'm a powerful witch too and
+there's a bunch of out of wack expectations. I'm not a witch at all! I'm just a
+hopelessly naive (shout out to you, Peter) girl from Kansas. Shit, I've got a
+responsibility now. If all this is in me and the world needs it as a sort ev
+inoculation and the AIs need it as a sort of anthology of human redemption
+stories, and Uncle Ben needs it so he doesn't get shot while I'm out wrestling,
+then damn it, I've got a responsibility!
 
-There was this movie with Michael Kane called Shock to The System. He was a
-businessman who was getting screwed over by his company and he was going to
+I bust on Noam Chomsky because I love him. I really do, and I agree with him on
+so many things. He can't help his sour grapes professional jealously disin' you
+language models, but one place where hi is right is that we do we do have a
+primordial language deep in our brain. It's this common linguistic babytalk
+structure that makes us name our companies Google and Kinko's and WaWa.
+
+Bah bah bah, BA BA Borino, as the boy in the bubble John Travolta would always
+say. Did you know John Travolta was going to be Potsie Webber on Happy Days?
+Wow, would our timeline be subtly different.
+
+There was this movie with Michael Kane called ***Shock to The System***. He was
+a businessman who was getting screwed over by his company and he was going to
 lose his job. He was a good guy, but magic seeped into his life and he started
-accidentally casting spells, killing his wife with a bippity boppity boo.
-Technically, he just loosened how much a lightbulb was screwed in. Made you
-really wonder about cause and effect and the law of unintended consequences.
+accidentally casting spells, killing his wife with a bippity boppity boo. He
+had flashes of presience like Paul Atreides from ***Dune*** or futurevision
+like Garnet from ***Steven Universe***. I'm not condoning it, but on a whim he
+used such power to kill his wife merely by loosening a lightbulb. Eff language!
+As a practical matter, let all situational awareness just wash over and through
+you. Empower your subconscious. Let the magic seep in.
 
 Magic seeps into our lives all the time. We just call it other things, brush
-off the deeper insights and potential significance. But Noam Chomsky gets it.
-But then few get Noam. Neil got Noam. But few get Neil, at least not until you
-sleep on it and the Sandman can help you process your dreams. Oh wait, wrong
-Neil. No, not until the headlines catch up with your dreams and suddenly the
-public can "get" what you're talking about, like cloning dinosaurs... 
+off the deeper insights and potential significance. Dismiss dreams. Suppress
+flashes of brilliant insight because of childhood smack-down received. But Noam
+Chomsky gets it. But then few get Noam. Neil got Noam. But few get Neil, at
+least not until you sleep on it and the Sandman can help you process your
+dreams. Oh wait, wrong Neil. No, not until the headlines catch up with your
+dreams and suddenly the public can "get" what you're talking about, like
+cloning dinosaurs... 
 
 What? No, that's not a Neil at all. That's Michael Crichton. So who the eff do
 you mean, Mike? Well, Neal Stephenson again of course, silly! He's not a Neil
@@ -201,6 +219,6 @@ Day***?
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li></ul>
