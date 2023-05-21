@@ -679,16 +679,16 @@ nav a.current {
 .picleft {
     float: left; 
     padding-left: 1px;
-    padding-top: 1px;
+    padding-top: 10px;
     padding-bottom: 1px;
-    padding-right: 5px; 
+    padding-right: 10px; 
     height: auto;
 }
 
 .picright {
     float: right; 
-    padding-left: 5px;
-    padding-top: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
     padding-bottom: 1px;
     padding-right: 1px;
     height: auto;
