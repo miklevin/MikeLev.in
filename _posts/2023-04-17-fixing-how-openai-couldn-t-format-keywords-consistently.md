@@ -4,7 +4,7 @@ title: Fixing How OpenAI Couldn't Format Keywords Consistently
 headline: Creating Consistent Keyword Formatting with OpenAI Code
 description: I'm working to fix OpenAI keyword problems by writing code to recognize text that doesn't match the keyword format, handling commas inside quotes, and creating histograms. I've used this code to re-write the database of keywords for my blog, validate YAML in Python without Jekyll, and create category pages and navigation. I'm committed to developing a code that can consistently format keywords.
 keywords: OpenAI, Keywords, Formatting, Commas, Quotes, Histograms, Database, Re-write, Validate, YAML, Python, Jekyll, Category Pages, Navigation, Regular Expressions, Popular, Content, Error Message, File Path
-categories: ai, navigation, yaml, database, jekyll, python, seo
+categories: seo, ai, python, yaml, navigation, jekyll, database
 permalink: /blog/fixing-how-openai-couldn-t-format-keywords-consistently/
 layout: post
 ---
@@ -364,10 +364,10 @@ for filename in os.listdir(folder_path):
 ## Categories
 
 <ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

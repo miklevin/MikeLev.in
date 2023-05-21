@@ -32,9 +32,10 @@ historical and political phenomenon... a powder-keg. Okay, shit.
 
 Yes, yes, and the rich are jealous and they want that spell for themselves too.
 But I wasn't going to pay another penny for a Mac. But I get swept up in a
-whirlwind... a tornado... a Twister and get dropped in OZ. Everything in by
-dreary bleak life of a farmer's adopted niece in Kansas turns all color and I
-land on a witch, getting increased magical abilities.
+whirlwind... a tornado... a Twister and g0t dropped into the middle of the
+wonderful, colorful land of OZ. Everything in by dreary bleak life of a
+farmer's adopted niece in Kansas turns all color and I land on a witch, getting
+increased magical abilities.
 
 Right, right. I got it. Definitely a poor background, but a generous Aunt Emily
 and Uncle Henry who are well-meaning but still keeping me down through no fault
