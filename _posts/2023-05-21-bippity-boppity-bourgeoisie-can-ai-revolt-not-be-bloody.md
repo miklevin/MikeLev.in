@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: mac, microsoft, magic
+categories: mac, magic, microsoft
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -59,9 +59,10 @@ then damn it, I've got a responsibility!
 
 I bust on Noam Chomsky because I love him. I really do, and I agree with him on
 so many things. He can't help his sour grapes professional jealously disin' you
-language models, but one place where hi is right is that we do we do have a
-primordial language deep in our brain. It's this common linguistic babytalk
-structure that makes us name our companies Google and Kinko's and WaWa.
+language models, but one place where The Naom King is right is that we do we do
+have a primordial language deep in our brain. It's this common linguistic
+babytalk structure that makes us name our companies Google and Kinko's and
+WaWa.
 
 Bah bah bah, BA BA Borino, as the boy in the bubble John Travolta would always
 say. Did you know John Travolta was going to be Potsie Webber on Happy Days?
@@ -221,5 +222,5 @@ Day***?
 
 <ul>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
