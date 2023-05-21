@@ -16,8 +16,8 @@ not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
 name is my website and it reads the same upside down. I've replaced WordPress
 and all the rest of that nonsense with a single text-file and chop it to pages
 with [YAMLchop](https://github.com/miklevin/yamlchop). I hit on some
-fundamental truths about the web and SEO that I think are going to be important
-in the future, and I'm trying to get them out there.
+fundamental truths about the web, journaling and SEO that I think are going to
+be important in the future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
