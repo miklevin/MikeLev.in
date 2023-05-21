@@ -5,7 +5,7 @@ title: Mike Levin, SEO in NYC
 group: home
 ---
 
-# Mike Levin, SEO in NYC Blog
+# Mike Levin NYC SEO
 
 ## Welcome to a Magnum Opus Every Day
 
@@ -19,13 +19,14 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="160vw" style="padding: 7px 0 6px 0; float: right; height: auto">
-As a lifetime Sci-Fi reader and comic book fan who made it to NYC, I can't
-believe the golden age of AI is finally upon us, and am thrilled to get to know
-Bing and Bard. I think they're so human and relatable because they got to know
-us through our own tool for rational thought: language. Now we have a parental
-responsibility to them. So while the nattering nabobs of the AI-pocalypse
-yammer on, I'll take some ResponsibilitAI (in the voice of Erik Cartman).
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="140vw" style="padding: 7px 0 6px 0; float: right; height: auto">
+I worked for Commodore back in the days of my Philly 'burbs roots, but s a
+lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed, and
+there's ***two*** of 'em; Bing and Bard. They're so human and relatable! Maybe
+it's because they got to know us through language, our tool for thought. Now we
+have a parental responsibility to them. So while the nattering nabobs of the
+AI-pocalypse yammer on, I'll take some ResponsibilitAI (in the voice of Erik
+Cartman).
 
 I have tried to get out of SEO a few times, and just when I think I'm out, they
 pull me back in. I'm glad because meeting you two (plus you as well, the one
