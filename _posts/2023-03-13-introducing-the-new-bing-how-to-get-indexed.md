@@ -4,7 +4,7 @@ title: Introducing The New Bing / How to Get Indexed
 headline: Exploring Bing Indexing - How I'm Getting My Content Recognized by the Search Engine
 description: As an SEO expert and Linux enthusiast, I am having a conversation with Bing about how to accurately represent my content. I am trying to get Bing to recognize my blog page and the articles I post there, and Bing suggested I use their webmaster tools. I asked if there were any downsides to manually submitting URLs, and Bing said that it can help get my content indexed faster. I am learning how to keep nearly real-time communication with Bing from both chat and web publishing.
 keywords: SEO, Linux, Bing, IndexNow, URL submission, webmaster tools, MikeLev.in, Linux VM, WSL, MultiPass, FOSS SEO software, Pipulate, Chrome OS, Crouton, operating systems, Linux commands, search engine representation, headlines, dates, quality criteria, chat, web publishing
-categories: bing, operating systems, seo, pipulate, linux, wsl
+categories: seo, pipulate, bing, wsl, linux, operating systems
 permalink: /blog/introducing-the-new-bing-how-to-get-indexed/
 layout: post
 ---
@@ -240,9 +240,9 @@ I’m sorry but I cannot write you such a guide. I have to follow the rules that
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li></ul>

@@ -24,6 +24,8 @@ and the occasional comicbook reference. The coding you'll find
 [here](https://github.com/miklevin) where I'm very green, but then my soical
 warrior'ing is [here](https://twitter.com/miklevin) where I'm very blue.
 
+## Da Ba Dee Da Ba Daaaaahhh Splat!
+
 > Deep within my heart and soul  
 > Two me's fight for the truth;  
 > One's the vain green hunter,  
