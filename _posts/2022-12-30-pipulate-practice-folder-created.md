@@ -4,7 +4,7 @@ title: Pipulate Practice Folder Created
 headline: Exploring AI Editing & Best Practices for the Pipulate Project
 description: I'm pushing myself to take the next steps in the Pipulate project, focusing on collaboration and best practices. I'm exploring ideas to use AI to edit my YouTube videos, setting up the Pipulate repo and practice folder, and activating scheduling under a systemd service. I'm using nbdev version 2 and OhAwf with the addition of the run_console feature. All the necessary software can be found on the Pipulate Software page. Come explore the possibilities with me!
 keywords: Pipulate, Practice, Folder, Collaboration, Best Practices, AI, YouTube, Repo, Scheduling, Systemd, Service, nbdev, Version 2, OhAwf, Run_Console, Software
-categories: systemd, ai, python, nbdev, scheduling, pipulate, youtube
+categories: systemd, python, youtube, pipulate, ai, nbdev, scheduling
 permalink: /blog/pipulate-practice-folder-created/
 layout: post
 ---
@@ -106,9 +106,9 @@ OhAwf now supports run_console
 
 <ul>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li></ul>

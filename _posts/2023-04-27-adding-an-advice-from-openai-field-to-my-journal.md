@@ -4,7 +4,7 @@ title: Adding an Advice From OpenAI Field to my Journal
 headline: "Exploring the Value of OpenAI: My Journey as a Cyborg with AI-Assisted Thought Processes"
 description: I'm a cyborg who is exploring the value of OpenAI, utilizing AI-assisted thought processes and hotkeys to turn the AI on and off. I'm testing a function to give advice from the OpenAI API and am using it to summarize blog posts into meta descriptions, headlines, and keywords, as well as suggest life improvements.
 keywords: Cyborg, AI, Hotkeys, Laptop Keyboard, OpenAI, Summarizing, Meta Descriptions, Headlines, Keywords, Life Improvements, Function, Advice, API, Testing
-categories: ai, meta descriptions, python, seo
+categories: meta descriptions, ai, python, seo
 permalink: /blog/adding-an-advice-from-openai-field-to-my-journal/
 layout: post
 ---
@@ -73,7 +73,7 @@ doesn't) on the first run. Let's test...
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

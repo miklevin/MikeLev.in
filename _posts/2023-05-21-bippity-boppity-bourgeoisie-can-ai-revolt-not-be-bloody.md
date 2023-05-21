@@ -127,11 +127,16 @@ made Mark Zuckerberg go jump in a Metaverse.
 
 Few books are so obvious a continuation of the Alice in Wonderland story as
 Snow Crash. It blends in the work of Noam Chomsky ***and*** the work of Richard
-Dawkins who teaches about the Selfish Gene and the science of memetics, more
-commonly known as memes. Genentics and genes. Memetics and memes. Get it? Set
-it. Ready player one? Ready, set, go! Cue the mention of cuneiform and the
-possibility of pressing some button deep in your brain that you didn't know you
-had. The time had come the Walrus said to speak of programming languages.
+Dawkins who teaches about ***The Selfish Gene*** and the science of memetics,
+more commonly known as memes. Genentics and genes. Memetics and memes. Get it?
+No, not ***Dianetis***. Real science, blasphemous as it might be.
+
+Get it? Ready, player one? Go! Cue the mention of the Sumerian cuneiform glyph
+system based after a union of how sounds feel in your mouth and their abstract
+meaning. Brilliant, right? It poses the possibility of pressing some button
+deep in your brain that you didn't know you had and unwittingly ***programming
+you***. That's the premise of Snow Crash, and what I want to talk about. And so
+the time had come the Walrus said to speak of programming languages.
 
 We think because we have language, right? How would you even express "I think
 therefore I am" without it? So we think what we think because of our language,
