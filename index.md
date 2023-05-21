@@ -15,12 +15,12 @@ Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
 not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
 name is my website and it reads the same upside down. Tap your creative
 subconscious and write more, not less. Start journaling today. I'll show you
-how.
+how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 
 ## Da Ba Dee Da Ba Daaaaahhh Splat!
 
 > Deep within my heart and soul  
-> Two me's fight for the truth;  
+> Two me's fight for the truth&#151;  
 > One's the vain green hunter,  
 > The other's soft and bluish.  
 > You'd think the one that feeds us  
