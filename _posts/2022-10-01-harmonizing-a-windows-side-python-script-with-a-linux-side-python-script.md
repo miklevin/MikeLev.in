@@ -4,7 +4,7 @@ title: Harmonizing a Windows-side Python Script with a Linux-side Python Script
 headline: "Tackling a Complex Project: How I Harmonized a Windows-side Python Script with a Linux-side Python Script"
 description: I recently completed a project on JupyterLab, LXD, and WSL that required 60K queries and the use of a VPN and Windows desktop client. To make the process easier, I created a Python-side script to check for the existence of a file. Read my blog post to find out how I tackled this complex project!
 keywords: Windows, Linux, Python, Script, JupyterLab, LXD, WSL, VPN, Windows Desktop Client, PyWinAuto, Automation, File, Existence
-categories: container, microsoft, linux, wsl, jupyter, python
+categories: microsoft, wsl, python, linux, jupyter, container
 permalink: /blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/
 layout: post
 ---
@@ -38,9 +38,9 @@ this, it's Python 3.10.7 from the store.
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/container/'>Container</a></h4></li></ul>
