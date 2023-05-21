@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: microsoft, magic, mac
+categories: magic, mac, microsoft
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -107,8 +107,8 @@ What? No, that's not a Neil at all. That's Michael Crichton. So who the eff do
 you mean, Mike? Well, Neal Stephenson again of course, silly! He's not a Neil
 either? You can't please anyone. Anyway, Neal Stephenson keeps writing Alice in
 Wonderland over and over, but he swaps out the Hero Protagonist for a different
-Neal... I mean Nell. Nell is the Hero Protagonist of Diamond Age, but I'm here
-to talk about the Hero Protagonist of Snow Crash.
+Neal... I mean Nell. Princess Nell is the Hero Protagonist of ***Diamond
+Age***, but I'm here to talk about the Hero Protagonist of ***Snow Crash***.
 
 Snow Crash's Hero Protagonist is named Hiro Protagonist. He's a hacker, a
 samurai, a pizza delivery guy, and the greatest sword fighter in the world. He
@@ -259,6 +259,6 @@ Day***?
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
