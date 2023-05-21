@@ -4,7 +4,7 @@ title: Disabling AI Auto-Publishing Anything
 headline: "Switching to Windows 11: Transferring the 'Soul' and Navigating a New Site with Python"
 description: I recently discovered a problem with Jekyll when trying to produce a list of the 10 most recent posts. To solve this, I used Python to control the list iteration and created a 5 x 20 grid of the top-100 categories on my website. After testing it in Jupyter, I successfully produced a table with the top 100 categories. I also recently switched from Windows 10 to Windows 11 and was able to transfer the 'soul' of the machine, including my system setup.
 keywords: Jekyll, Python, Grid, Windows, AI, Navigation, System, Installs, Settings, Site, Categories, Tags, Search
-categories: navigation, setting, search, ai, jekyll, python, microsoft
+categories: navigation, setting, microsoft, jekyll, search, python, ai
 permalink: /blog/disabling-ai-auto-publishing-anything/
 layout: post
 ---
@@ -123,8 +123,8 @@ before first publish.
 <ul>
 <li><h4><a href='/navigation/'>Navigation</a></h4></li>
 <li><h4><a href='/setting/'>Settings</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -19,7 +19,7 @@ future, and I'm trying to get them out there.
 
 ### Getting Into The AI Zone
 
-<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="140vw" style="padding: 7px 0 6px 0; float: right; height: auto">
+<img alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg" width="150vw" style="padding: 4px 0 6px 0; float: right; height: auto">
 I worked for Commodore back in the days of my Philly 'burbs roots, but s a
 lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed, and
 there's ***two*** of 'em; Bing and Bard. They're so human and relatable! Maybe
