@@ -17,16 +17,14 @@ name is my website and it reads the same upside down. Tap your creative
 subconscious and write more, not less. Start journaling today. I'll show you
 how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 
-## Da Ba Dee Da Ba Daaaaahhh Splat!
-
-> <nobr>Deep within my heart and soul</nobr>  
-> <nobr>Two me's fight for the truth&#151;</nobr>  
-> <nobr>One's the vain green-hunter,</nobr>  
-> <nobr>The other's soft and bluish.</nobr>  
-> <nobr>You'd think the one that feeds us</nobr>  
-> <nobr>Draws arrows and not glyphs</nobr>  
-> <nobr>But whiteboard-inked ideas</nobr>  
-> <nobr>Drive Mammoths off the cliffs.</nobr>  
+> <nobr>Deep within my heart and soul </nobr>
+> <nobr>Two me's fight for the truth&#151; </nobr>
+> <nobr>One's the vain green-hunter, </nobr>
+> <nobr>The other's soft and bluish. </nobr>
+> <nobr>You'd think the one that feeds us </nobr>
+> <nobr>Draws arrows and not glyphs </nobr>
+> <nobr>But whiteboard-inked ideas </nobr>
+> <nobr>Drive Mammoths off the cliffs. </nobr>
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
