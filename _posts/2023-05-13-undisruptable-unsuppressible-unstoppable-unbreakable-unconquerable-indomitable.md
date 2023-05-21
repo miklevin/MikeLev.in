@@ -4,7 +4,7 @@ title: undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. I
 headline: I'm determined to make sure JupyterLab runs in the background, powered by a Linux systemd service - and I'm not compromising on my principles!
 description: Discover the power of running JupyterLab as a Linux systemd service with all the necessary and mostly uncompromising bits. Learn how to use Linux VMs to normalize paths, home directories, software versions, and more. Get to know the benefits of IP-cycling, web-browser automation, and other essential tools for SEO. Finally, understand the importance of free and open source tools for internalization skills and persistence of tools.
 keywords: Undisruptable, Unsuppressible, Unstoppable, Unbreakable, Unconquerable, Indomitable, JupyterLab, Linux, systemd, Terminal, AI, Java, C-language, WORA, Notebook, Hosts, Google Colab, Kaggle, Azure Notebooks, Project Jupyter, Fernando Perez, iPython, MSI-installer, Cloud, AWS, IPVanish, HideMyAss, Browser Automation
-categories: linux, jupyter, systemd, ai, browser automation
+categories: linux, systemd, browser automation, ai, jupyter
 permalink: /blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/
 layout: post
 ---
@@ -181,7 +181,7 @@ by playing it sage. Ciao!
 
 <ul>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
