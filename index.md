@@ -34,17 +34,16 @@ warrior'ing is [here](https://twitter.com/miklevin) where I'm very blue.
 > But whiteboard-inked ideas  
 > Drive Mammoths off the cliffs.  
 
-I'm the weirdest wackiest channeller of the subconscious you'll ever meet, who
-also codes in NeoVim, well like Neo using Vim. I'm often likened to Keannu, get
-a lot of Gilfoyle, and a light sprinkling of Minecraft's Jeb. I thank you for
-the comparison, but 2 of them are actors. I am the real thing. Shout out to
-Jeb!
+I'm the second cheeriest chattiest channellers of the subconscious you'll meet
+today, I also code NeoVim, well like Neo using Vim. I'm often likened to Keanu,
+get a lot of Gilfoyle, and jibes that I'm Jeb. I thank you for the comparison,
+but 2 of them are actors. I am the real thing. Shout out to Jeb!
 
 If you follow my Pied Piper routine, you'll be using NeoVim too, maybe within
-25 minutes by drinking my magic DrinkMe potion. I'm a good pied piper aligned
-with the Free and Open Source movement. My heroes are Linux, Guido and RMS,
-great and powerful wizards of the highest order. Ken and Dennis too. And
-Fernando Corbato, let's not forget him. But I get ahead of myself.
+25 minutes by drinking my magic [DrinkMe](/drinkme) potion. I'm a good pied
+piper aligned with the Free and Open Source movement. My heroes are Linux,
+Guido and RMS, great and powerful wizards of the highest order. Ken and Dennis
+too. And Fernando Corbato, let's not forget him. But I get ahead of myself.
 
 How can I help you right here, right now? Well, I can get you journaling. I can
 get you journaling in a way that will last you the rest of the life with the
