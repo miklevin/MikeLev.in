@@ -18,6 +18,8 @@ name is my website and it reads the same upside down. So it is my name, my
 brand, my web address, and my magic trick by way of introduction. Hello, it's
 nice to meet you.
 
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
+
 I plan on putting nothing less than that level of creativity into every single
 piece of writing, coding, and social warror'ing I do, and I do a lot of all
 three. The writing you'll experience [here](/blog/) is a mix of SEO, AI, Linux,
