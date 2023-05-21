@@ -7,7 +7,7 @@ group: home
 
 # Mike Levin NYC SEO
 
-## Welcome to a Magnum Opus Every Day
+## Don't Let AI Atrophy Your Brain
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
