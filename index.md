@@ -13,16 +13,9 @@ group: home
 Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
 [writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
 not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
-name is my website and it reads the same upside down. So it is my name, my
-brand, my web address, and my magic trick by way of introduction. Hello, it's
-nice to meet you.
-
-I plan on putting nothing less than that level of creativity into every single
-piece of writing, coding, and social warror'ing I do, and I do a lot of all
-three. The writing you'll experience [here](/blog/) is a mix of SEO, AI, Linux,
-and the occasional comicbook reference. The coding you'll find
-[here](https://github.com/miklevin) where I'm very green, but then my soical
-warrior'ing is [here](https://twitter.com/miklevin) where I'm very blue.
+name is my website and it reads the same upside down. Tap your creative
+subconscious and write more, not less. Start journaling today. I'll show you
+how.
 
 ## Da Ba Dee Da Ba Daaaaahhh Splat!
 
