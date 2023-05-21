@@ -1,6 +1,6 @@
 ---
-author: Mike Levin, SEO in NYC
-description: Free & Open Source SEO Software on a Small Linux Distro built with Python, vim, git and AI.
+author: Mike Levin AI SEO
+description: Free & Open Source AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
 title: Mike Levin, SEO in NYC
 group: home
 ---
