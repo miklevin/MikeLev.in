@@ -4,7 +4,7 @@ title: Throw All The Meat & Veggies Into The Stew & Stir The Blog / Vlog
 headline: "Unlocking Efficiency: How Downgrading Ubuntu & Adding Sites Streamlined My Workflow"
 description: I recently wrote a blog post about my experience with downgrading Ubuntu 20.04 to 18.04 so I could use LXD Linux containers on WSL Windows Subsystem for Linux. To make my workflow more efficient, I created a vim keyboard macro that generates the site I'm editing and added sites to sites.csv in the skite repo. Read my blog post to find out how this game-changing experience helped me streamline my workflow.
 keywords: Downgrading, Ubuntu, 20.04, 18.04, LXD, Linux, Containers, WSL, Windows, Subsystem, Vim, Keyboard, Macro, Generates, Site, Editing, Sites.csv, Skite, Repo, Technical, Content, MikeLevinSEO.com, Personal, Blog, Streamline, Workflow, Game-Changing, Experience
-categories: microsoft, container, ubuntu, wsl, vim, linux
+categories: microsoft, container, ubuntu, vim, wsl, linux
 permalink: /blog/throw-all-the-meat-veggies-into-the-stew-stir-the-blog-vlog/
 layout: post
 ---
@@ -56,6 +56,6 @@ wrapper. I don't! Oh boy, okay.
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
