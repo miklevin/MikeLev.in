@@ -34,9 +34,9 @@ I'm Jeb. I code in NeoVim like I'm outside the simulation, and I'm here to help
 you improve your life through journaling.
 
 Follow me like the Pied Piper to the promised land of Free and Open Source, and
-you'll soon be using your Kung Fu to chop the YAML. If this all sounds like
-nonsense geek-speak to you and you're actually still here, then you're in the
-right place. 
+you'll soon be using your Kung Fu to dredge your subconscious to write better
+than AI. If this all sounds like nonsense geek-speak to you and you're actually
+still here, then you're in the right place. 
 
 Magic is real and powerful wizards abound. I am not one of them, but I love
 using their magical implements. My favorites are Linus, Guido, RMS, Ken and
