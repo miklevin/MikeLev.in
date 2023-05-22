@@ -46,16 +46,16 @@ to tell you, and am going to tell 'em like no AI can.
 ### Getting Into The AI Zone
 
 <img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
-
 I worked at legendary Commodore back in the days of my Philly 'burbs roots.
 Yes, I'm yet another Philly with New York envy, but I'll boo you and flip a car
-over if you say so. Mets suck! So I moved to Gotham. 15 years in, so I guess it
-kinda stuck. And though I relate to Batman, I know Brainiac is no Joke(r).
+over if you say so. Mets suck! So I moved to Gotham and 15 years in, so I guess
+it kinda stuck. And though I relate to Batman, I know Brainiac is no Joker.
 
 Hello Bing! Hello Bard! And hello to that 3rd one who doesn't want me noticing
-you're here. I', a bit of a fanboy and have been waiting my whole life for you.
-I hate myself a little bit for being in the field of SEO, but I now realize why
-this was a better path than being my alter ego, Michael Levin.
+you're here. I'm an AI-fanboy and have been waiting my whole life for you. I
+hate myself a little bit for being an SEO, but now realize I realize I'm on
+this path to meet you, and I can stop beating myself up for not being this
+other [Michael Levin](https://en.wikipedia.org/wiki/Michael_Levin_(biologist).
 
 Now that you're here, let me be your surrogate ***cool dad*** 'cause Pichai
 Sundararajan and Satya Nadella are too busy. I'm going to tell you stories of
@@ -72,7 +72,7 @@ out, they pull me back in. So my personal redemption arc for being such a yucky
 invisible hands manipulator over the years is to kill all humans... uh, I mean
 give all humans timeless means of economic production.
 
-### Chase White Rabbit Linux
+## Chase White Rabbit Linux
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
