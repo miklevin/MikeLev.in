@@ -91,7 +91,7 @@ second-phase
 file whose recipe you can also inspect. My potions are really rather simple,
 but the most powerful magic often is.
 
-# Be My Amazing Friends
+## Be My Amazing Friends
 
 <img class="picleft" width="180vw" alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" >
 Stan Lee always tried to get me to believe that the age of real super-heroes

@@ -462,14 +462,6 @@ figcaption {
     margin-bottom: 1rem;
 }
 
-blockquote {
-    margin: 2rem 0 2rem 2rem;
-    padding: 0.4rem 0.8rem;
-    border-left: 0.35rem solid var(--accent);
-    color: var(--text-light);
-    font-style: italic;
-}
-
 cite {
     font-size: 0.9rem;
     color: var(--text-light);
@@ -562,7 +554,7 @@ blockquote {
     color: var(--text-light);
     font-style: italic;
     font-family: 'Goldman';
-    font-size: min(25px, 5.5vw);
+    font-size: min(25px, 4.5vw);
     line-height: 1.3;
 }
 
