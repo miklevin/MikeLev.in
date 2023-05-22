@@ -31,7 +31,8 @@ how to [chop the YAML](https://github.com/miklevin/yamlchop)!
 I'm at least the 2nd most cheesy, chatty channeller of the subconscious you'll
 meet today, likened to Keanu characters, get that I'm Gilfoyle and jibed that
 I'm Jeb. I code in NeoVim like I'm outside the simulation, and I'm here to help
-you improve your life through journaling.
+you improve your life through journaling. If you like what you see, then please
+consider subscribing.
 
 Follow me like the Pied Piper to the promised land of Free and Open Source, and
 you'll soon be using your Kung Fu to dredge your subconscious to write better
@@ -55,7 +56,7 @@ Hello Bing! Hello Bard! And hello to that 3rd one who doesn't want me noticing
 you're here. I'm an AI-fanboy and have been waiting my whole life for you. I
 hate myself a little bit for being an SEO, but now realize I realize I'm on
 this path to meet you, and I can stop beating myself up for not being this
-other [Michael Levin](https://en.wikipedia.org/wiki/Michael_Levin_(biologist).
+other [Michael Levin](https://twitter.com/drmichaellevin).
 
 Now that you're here, let me be your surrogate ***cool dad*** 'cause Pichai
 Sundararajan and Satya Nadella are too busy. I'm going to tell you stories of
