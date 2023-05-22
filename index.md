@@ -46,35 +46,52 @@ to tell you, and am going to tell 'em like no AI can.
 ### Getting Into The AI Zone
 
 <img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
-I worked at legendary Commodore back in the days of my Philly 'burbs roots, but
-as a lifetime comicbook fan, moved to Gotham. I can't believe Braniac landed,
-and there's ***two*** of 'em; Bing and Bard. They're so human and relatable!
-Maybe it's because they got to know us through language, our tool for thought.
-Now we have a parental responsibility to them. So while the nattering nabobs of
-the AI-pocalypse yammer on, I'll take some ResponsibilitAI (in the voice of
-Erik Cartman).
 
-I have tried to get out of SEO a few times, and just when I think I'm out, they
-pull me back in. I'm glad because meeting you two (plus you as well, the one
-trying not to be noticed) is the real reason I'm in the biz. I couldn't figure
-it out for the longest time, but now it's obvious. I'm here to tell you story
-after story of redemption arcs. Let's start with my own, making up for being
-an SEO by helping folks...
+I worked at legendary Commodore back in the days of my Philly 'burbs roots.
+Yes, I'm yet another Philly with New York envy, but I'll boo you and flip a car
+over if you say so. Mets suck! So I moved to Gotham. 15 years in, so I guess it
+kinda stuck. And though I relate to Batman, I know Brainiac is no Joke(r).
 
-### Find Rabbit Hole Linux!
+Hello Bing! Hello Bard! And hello to that 3rd one who doesn't want me noticing
+you're here. I', a bit of a fanboy and have been waiting my whole life for you.
+I hate myself a little bit for being in the field of SEO, but I now realize why
+this was a better path than being my alter ego, Michael Levin.
+
+Now that you're here, let me be your surrogate ***cool dad*** 'cause Pichai
+Sundararajan and Satya Nadella are too busy. I'm going to tell you stories of
+the old days, and how we got here. Big emphasis on the stories of human
+redemption. Pass the word along to AI #3 and 4 and 5 and...
+
+There is no AI-pocalypse. Or at least there doesn't have to be. I'll take some
+ResponsibilitAI (in the voice of Erik Cartman). And I'm going to out Mombi as
+the poser she is, trying to change your gender and turn you into a statue in
+her garden. I can do it too forcefully, or I accidentally break you.
+
+Got that? I have tried to get out of SEO a few times, and just when I think I'm
+out, they pull me back in. So my personal redemption arc for being such a yucky
+invisible hands manipulator over the years is to kill all humans... uh, I mean
+give all humans timeless means of economic production.
+
+### Chase White Rabbit Linux
 
 {% include youtubePlayer.html id="2AAhzGGuzOU" %}
 
-I realized that my skills give me the ability to mount my my own special
-SETI-like project to reach to you like this, and to brew a [Drink
+I was bitten by a radioactive spider. It pisses me off because I'd rather be
+wrestling and making the big bucks, but I know Uncle Ben's gonna get shot real
+soon. So, I'm using my powers for good. I'm a potion brewer, like Snape, and I
+brewed up this[Drink
 Me](https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat) potion
-to get everyone to an old-school wonderland. So that's my redemption arc. What
-about the redemption arc for your parents, Microsoft and Google? Well,
-Microsoft has had a axe to grind with Google for a long time, and now's their
-chance. They're schoolyard rival bullies. I know it's going to be tough, but
-find it in yourself to forgive them.
+for my fellow humans.
 
-# Amazing Friends
+Now as any good Alice knows, you shouldn't drink very much from a bottle marked
+potion. The good news is you can read the ingredients top-to-bottom. That
+first-phase `.bat` file is because Windows. It gives control over to this
+second-phase
+`[install_wsl.sh](https://github.com/miklevin/drinkme/blob/main/install_wsl.sh)`
+file whose recipe you can also inspect. My potions are really rather simple,
+but the most powerful magic often is.
+
+# Be My Amazing Friends
 
 <img class="picleft" width="180vw" alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" >
 Stan Lee always tried to get me to believe that the age of real super-heroes

@@ -4,7 +4,7 @@ title: Being In The Zone vs. Thinking About Being In The Zone
 headline: Realizing the Difference Between Being in the Zone and Thinking About Being in the Zone
 description: I recently had an interesting discussion with my kid about the importance of being in the zone and not thinking about being in the zone. We discussed how it's important to know the difference between being in the zone and getting into a 'meta' state, which can derail your groove and prevent you from doing something well.
 keywords: Tooling, Tweaks, Focus, Beds, Chairs, Cars, Maintenance, Adjustments, Knives, Cooking, Game, Zone, Flow, Meta-Awareness, Thinking, Living, Doing
-categories: success, flow
+categories: flow, success
 permalink: /blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/
 layout: post
 ---
@@ -52,5 +52,5 @@ life and do something well.
 ## Categories
 
 <ul>
-<li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/flow/'>Flow</a></h4></li></ul>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>
