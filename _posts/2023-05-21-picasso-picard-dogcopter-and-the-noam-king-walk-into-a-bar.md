@@ -4,7 +4,7 @@ title: Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...
 headline: "Hack Like a Hero: How to Create Art with Honesty and Authenticity"
 description: Hack your way to success with advice from Dogcopter! The Quality Raters of Google Supervised Learning are E-E-A-T'ing their own dogfood to protect AdWords revenue. Art and activism don't stand a chance against Kung Fu clickbait. Learn how to use magic as a tool and hack like a hero of the digital age. Get creative and communicate honestly in art that will grab the attention of the AIs taking over for PageRank.
 keywords: Picasso, Picard, Noam King, Dogcopter, Hack, Magic, Industrial Age, Weed, Undertale, Simulation Hypothesis, Holographic Universe, Many-Worlds Interpretation, Quantum Mechanics, Multiverse, Superdeterminism, Bell's Inequality, Non-locality, AI, Harry Potter, Tolkien, Moses, New Testament, Book of Mormon, Koran, Tao Te Ching, Bhagavad Gita, Talmud, Dianetics, Book
-categories: ai, magic
+categories: magic, ai
 permalink: /blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/
 layout: post
 ---
@@ -180,7 +180,7 @@ With the exception of a few enlightened souls working against overwhelming
 societal forces, public school is designed to be a zombie-producing
 soul-crushing machine that promotes the sort of pyramid-shaped social order
 necessary for the ***Industrial Age***. The industrial age is over and this is
-why I allow my child to be homeschooled by their mombi.
+why I allow my child to be homeschooled by their mom bee.
 
 The parents of rich kids either move to where the property taxes are so high
 that they know their children's schools will be well-funded, or they send their
@@ -491,5 +491,5 @@ chance at all.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

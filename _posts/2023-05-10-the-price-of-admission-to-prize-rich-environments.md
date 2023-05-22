@@ -4,7 +4,7 @@ title: The Price of Admission to Prize-rich Environments
 headline: "Ready to Take on the Prize-Rich Environment: Embracing the Price of Admission."
 description: Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.
 keywords: A-game, AI, Amplification, Content, Co-op Board, Infinite Spam Cannon, HitTail System, Irresistible, Irrepressible, Optimized Blog Posts, New York City, Prize-rich Environments, Real Enemies, Selling The Dream, Shark, Survival, Variable Revenue Component, War Stories, YouTube
-categories: ai, new york city, youtube
+categories: new york city, youtube, ai
 permalink: /blog/the-price-of-admission-to-prize-rich-environments/
 layout: post
 ---
@@ -103,6 +103,6 @@ a prize-rich environment.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
