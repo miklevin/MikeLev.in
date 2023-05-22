@@ -19,6 +19,8 @@ Hacking is a means to an end. It is a loophole in reality that can serve you
 well, over and over. A secret weapon others are remiss to take up because how
 the word and the concept frightens them away.
 
+{% include youtubePlayer.html id="pMFDJLm6wag" %}
+
 Of course there is good and bad hacking. Bad actors realize the trick of
 hacking and they use it to lie and cheat, and generally become posers and
 freeloaders in life. They collect hacks as an alternative to being better,
@@ -158,6 +160,8 @@ monster is a common theme in literature. It's a common theme in life.
 Fortunately, this really turned out to be an education for Tip that made her a
 better ruler of OZ when she was restored to her rightful place as Princess Ozma
 of OZ. But it was a close call.
+
+{% include youtubePlayer.html id="IiXhmcO6DnU" %}
 
 Today's emerging machine intelligences are under the nurturing parental care of
 the likes of Google, Facebook, Amazon, Apple and Microsoft. They are the
