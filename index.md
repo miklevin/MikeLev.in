@@ -83,13 +83,11 @@ brewed up this [Drink
 Me](https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat) potion
 for my fellow humans.
 
-Now as any good Alice knows, you shouldn't drink very much from a bottle marked
-potion. The good news is you can read the ingredients top-to-bottom. That
-first-phase `.bat` file is because Windows. It gives control over to this
-second-phase
+As Alice knows, you shouldn't drink very much from a bottle marked poison. So I
+made it so you can read the ingredients top-to-bottom. That first-phase `.bat`
+file is for Windows, which gives control over to this second-phase
 [install_wsl.sh](https://github.com/miklevin/drinkme/blob/main/install_wsl.sh)
-file whose recipe you can also inspect. My potions are really rather simple,
-but the most powerful magic often is.
+for inside Linux. My potions are simple but powerful as good magic often is.
 
 ## Be My Amazing Friends
 
