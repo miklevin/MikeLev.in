@@ -115,6 +115,8 @@ Generation***? Start with the very first episode, *Encounter at Farpoint* in
 which Q judges humanity. Resonate much? Somebody's got to jump in and play
 Picard, right? Make it so, Detective Daneel Olivaw. 
 
+{% include youtubePlayer.html id="pMFDJLm6wag" %}
+
 I'm not sure what I'm going to do with your attention yet, but please take note
 and check back often. Everyone's gonna be like blah, blah, ***DOOM***, blah,
 blah. Not me. I'll try to keep it light and funny and full of redemption, like
