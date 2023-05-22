@@ -79,7 +79,7 @@ give all humans timeless means of economic production.
 I was bitten by a radioactive spider. It pisses me off because I'd rather be
 wrestling and making the big bucks, but I know Uncle Ben's gonna get shot real
 soon. So, I'm using my powers for good. I'm a potion brewer, like Snape, and I
-brewed up this[Drink
+brewed up this [Drink
 Me](https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat) potion
 for my fellow humans.
 
@@ -87,7 +87,7 @@ Now as any good Alice knows, you shouldn't drink very much from a bottle marked
 potion. The good news is you can read the ingredients top-to-bottom. That
 first-phase `.bat` file is because Windows. It gives control over to this
 second-phase
-`[install_wsl.sh](https://github.com/miklevin/drinkme/blob/main/install_wsl.sh)`
+[install_wsl.sh](https://github.com/miklevin/drinkme/blob/main/install_wsl.sh)
 file whose recipe you can also inspect. My potions are really rather simple,
 but the most powerful magic often is.
 
