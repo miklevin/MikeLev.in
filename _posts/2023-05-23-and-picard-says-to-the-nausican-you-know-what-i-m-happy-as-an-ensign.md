@@ -4,7 +4,7 @@ title: And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.
 headline: "Picard's Lesson: Stand Up for What You Believe In and Live Vicariously Through Thought Experiments"
 description: I'm John Luck Pickerd, a Jew from Lafayette Hill, PA. I'm inspired by Hamilton and the works of William Shakespeare, John Forbes Nash Jr., and the lgbtqiaxyz++ community. I'm channeling the Hannibals (and The Big Lebowski), playing the role of an ensign in an alternate timeline to learn a lesson in humility. Take that and reverse it! (in the words of Willy Wonka)
 keywords: Hiro Protagonist, Snow Crash, Spiderman, YT, Raven, Sabertooth, Ozymandisney, Media King, Smartcar, 18 wheeler truck, Walmarts, Wolverine, John Forbes Nash Jr., William Shakespeare, Hitchiker's Guide, Culture Series, NeoVim, vim, vi, Ed, Hamilton, Aaron Burr, Broadway Musical, Inside Out, Federalist Papers, Sir Patrick Stewart, Starfleet Captain, Ensign, Q, Willy Wonka
-categories: vim, vi
+categories: vi, vim
 permalink: /blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/
 layout: post
 ---
@@ -12,7 +12,7 @@ layout: post
 
 Channel, channel, flipping channels. Who to channel now? No not Lecter nor probospectre. It's Peppard… holy cow! Oh, I love it when an essay comes together. Somebody needs help and they figured out out to reach us? Okay, it's a good cause. Let's go throw something together for them, Team. 
 
-***Hamilton*** inspires me just like it inspires so many in the world—or would that be just the the United States in particular? And maybe France too. Sorry about that abandoning you during your revolution thing, France! Oh, and thanks for Lafayette! We couldn't have done it without him. I'm glad it worked out for you, France. I feel you. I grew up in your shadow in Lafayette Hill, PA and knew all about you before my neighbor in the Heights smacked down the homeyschool lesson named Hamilton.
+***Hamilton*** inspires me just like it inspires so many in the world—or would that be just the the United States in particular? And maybe France too. Sorry about that abandoning you during your revolution thing, France! Oh, and thanks for Lafayette! We couldn't have done it without him. I'm glad it worked out for you, France. I feel you. I grew up in your shadow in Lafayette Hill, PA and knew all about you before my neighbor in the Heights (I moved to Lin's Washington Heights neighborhood once I came to NYC) smacked down the homeyschool lesson named Hamilton.
 
 No, not everyone universally loved the Broadway Musical Hamilton. We have to subtract from the list of linnylovers all those friendly folks who turn red at the idea of how Hamilton was cast with minors who had have talent aplenty but the wrong skin-color. The skin color is so wrong in their eyes in fact, they turn as red as that little red guy in Disney's ***Inside Out***—red all the way down to their necks. No, they aren't inspired by Hamilton even after it was no longer only for the filthy-rich, becoming accessible as it did to the merely mildly-rich through Disney+
 
@@ -128,5 +128,5 @@ Try some thought experiments and live some vicarious experiences, Burr. Know wha
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/vi/'>vi</a></h4></li></ul>
+<li><h4><a href='/vi/'>vi</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
