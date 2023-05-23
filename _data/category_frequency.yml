@@ -221,6 +221,9 @@ dictitems:
   '18':
     count: 2
     title: '18'
+  18 wheeler truck:
+    count: 1
+    title: 18 wheeler truck
   '18.04':
     count: 6
     title: '18.04'
@@ -506,6 +509,9 @@ dictitems:
   aaro:
     count: 1
     title: AARO
+  aaron burr:
+    count: 1
+    title: Aaron Burr
   abba di abba di:
     count: 1
     title: Abba Di Abba Di
@@ -2228,6 +2234,9 @@ dictitems:
   broad interest:
     count: 1
     title: Broad Interest
+  broadway musical:
+    count: 1
+    title: Broadway Musical
   broglie-proca:
     count: 1
     title: Broglie-Proca
@@ -3813,7 +3822,7 @@ dictitems:
     count: 7
     title: Culture
   culture series:
-    count: 2
+    count: 3
     title: Culture Series
   cumulative update:
     count: 1
@@ -5034,8 +5043,8 @@ dictitems:
     count: 1
     title: Ecosystem
   ed:
-    count: 1
-    title: EDS
+    count: 2
+    title: Ed
   edgar allen poe:
     count: 1
     title: Edgar Allen Poe
@@ -5360,6 +5369,9 @@ dictitems:
   enjoyable:
     count: 1
     title: Enjoyable
+  ensign:
+    count: 1
+    title: Ensign
   entangled minds:
     count: 1
     title: Entangled Minds
@@ -5873,6 +5885,9 @@ dictitems:
   feature-rich:
     count: 1
     title: Feature-rich
+  federalist papers:
+    count: 1
+    title: Federalist Papers
   federation:
     count: 1
     title: Federation
@@ -7250,6 +7265,9 @@ dictitems:
   hamburger links:
     count: 1
     title: Hamburger Links
+  hamilton:
+    count: 1
+    title: Hamilton
   hammer:
     count: 1
     title: Hammer
@@ -7505,6 +7523,9 @@ dictitems:
   hint:
     count: 1
     title: Hints
+  hiro protagonist:
+    count: 1
+    title: Hiro Protagonist
   histogram:
     count: 4
     title: Histograms
@@ -7520,6 +7541,9 @@ dictitems:
   hitchhiker:
     count: 1
     title: Hitchhikers
+  hitchiker's guide:
+    count: 1
+    title: Hitchiker's Guide
   hittail:
     count: 3
     title: HitTail
@@ -8165,6 +8189,9 @@ dictitems:
   insertion:
     count: 1
     title: insertion
+  inside out:
+    count: 1
+    title: Inside Out
   insider:
     count: 1
     title: Insider
@@ -8633,6 +8660,9 @@ dictitems:
   john conway:
     count: 1
     title: John Conway
+  john forbes nash jr.:
+    count: 1
+    title: John Forbes Nash Jr.
   john henry:
     count: 1
     title: John Henry
@@ -10433,6 +10463,9 @@ dictitems:
   media ids:
     count: 1
     title: Media IDs
+  media king:
+    count: 1
+    title: Media King
   media lists:
     count: 1
     title: Media Lists
@@ -11340,7 +11373,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 28
+    count: 29
     title: NeoVim
   nerd:
     count: 2
@@ -12134,6 +12167,9 @@ dictitems:
   ozma:
     count: 1
     title: Ozma
+  ozymandisney:
+    count: 1
+    title: Ozymandisney
   p:
     count: 2
     title: ps
@@ -13640,6 +13676,9 @@ dictitems:
   pywinauto:
     count: 3
     title: PyWinAuto
+  q:
+    count: 1
+    title: Q
   q factor:
     count: 1
     title: Q Factor
@@ -13955,6 +13994,9 @@ dictitems:
   ratios of arc lengths:
     count: 1
     title: Ratios of Arc Lengths
+  raven:
+    count: 1
+    title: Raven
   ravine:
     count: 1
     title: Ravine
@@ -14789,6 +14831,9 @@ dictitems:
   s-expressions:
     count: 1
     title: S-Expressions
+  sabertooth:
+    count: 1
+    title: Sabertooth
   sacrifice:
     count: 1
     title: sacrifices
@@ -15572,6 +15617,9 @@ dictitems:
   singularity:
     count: 1
     title: Singularity
+  sir patrick stewart:
+    count: 1
+    title: Sir Patrick Stewart
   site:
     count: 7
     title: Site
@@ -15725,6 +15773,9 @@ dictitems:
   smart home hub:
     count: 1
     title: Smart Home Hub
+  smartcar:
+    count: 1
+    title: Smartcar
   smartphone:
     count: 1
     title: Smartphone
@@ -15777,7 +15828,7 @@ dictitems:
     count: 1
     title: Snow
   snow crash:
-    count: 3
+    count: 4
     title: Snow Crash
   snowball effect:
     count: 2
@@ -15986,6 +16037,9 @@ dictitems:
   spice:
     count: 1
     title: Spices
+  spiderman:
+    count: 1
+    title: Spiderman
   spin:
     count: 1
     title: Spin
@@ -16175,6 +16229,9 @@ dictitems:
   star-nix:
     count: 1
     title: star-nix
+  starfleet captain:
+    count: 1
+    title: Starfleet Captain
   stargate program:
     count: 1
     title: Stargate Program
@@ -18219,8 +18276,8 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 5
-    title: Vi
+    count: 6
+    title: vi
   vi-based platform:
     count: 1
     title: vi-based platform
@@ -18288,7 +18345,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 106
+    count: 107
     title: Vim
   vim buffer:
     count: 1
@@ -18527,6 +18584,9 @@ dictitems:
   wallet:
     count: 1
     title: Wallet
+  walmarts:
+    count: 1
+    title: Walmarts
   walrus:
     count: 1
     title: Walrus
@@ -18770,6 +18830,12 @@ dictitems:
   wild:
     count: 1
     title: Wild
+  william shakespeare:
+    count: 1
+    title: William Shakespeare
+  willy wonka:
+    count: 1
+    title: Willy Wonka
   win:
     count: 1
     title: win
@@ -18869,6 +18935,9 @@ dictitems:
   wizard of oz:
     count: 5
     title: Wizard of Oz
+  wolverine:
+    count: 1
+    title: Wolverine
   woman:
     count: 1
     title: Women
@@ -19124,6 +19193,9 @@ dictitems:
   youtuber:
     count: 1
     title: YouTuber
+  yt:
+    count: 1
+    title: YT
   yum:
     count: 1
     title: YUM

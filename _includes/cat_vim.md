@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/">And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.</a> (Tue May 23, 2023)
+<br/>I'm John Luck Pickerd, a Jew from Lafayette Hill, PA. I'm inspired by Hamilton and the works of William Shakespeare, John Forbes Nash Jr., and the lgbtqiaxyz++ community. I'm channeling Hannibals (and The Big Lebowski), playing the role of an ensign in an alternate timeline to learn a lesson in humility. Take that and reverse it!"</li>
 <li><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a> (Mon May 15, 2023)
 <br/>Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.</li>
 <li><a href="/blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/">Matter Doesn't Matter, Except The Matter You Take Into Your Body</a> (Sun May 14, 2023)
