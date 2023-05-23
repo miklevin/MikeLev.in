@@ -2,7 +2,7 @@
 date: 2023-05-23
 title: And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.
 headline: "Picard's Lesson: Stand Up for What You Believe In and Live Vicariously Through Thought Experiments"
-description: I'm John Luck Pickerd, a Jew from Lafayette Hill, PA. I'm inspired by Hamilton and the works of William Shakespeare, John Forbes Nash Jr., and the lgbtqiaxyz++ community. I'm channeling Hannibals (and The Big Lebowski), playing the role of an ensign in an alternate timeline to learn a lesson in humility. Take that and reverse it!
+description: I'm John Luck Pickerd, a Jew from Lafayette Hill, PA. I'm inspired by Hamilton and the works of William Shakespeare, John Forbes Nash Jr., and the lgbtqiaxyz++ community. I'm channeling Hannibals (and The Big Lebowski), playing the role of an ensign in an alternate timeline to learn a lesson in humility. Take that and reverse it! (in the words of Willy Wonka)
 keywords: Hiro Protagonist, Snow Crash, Spiderman, YT, Raven, Sabertooth, Ozymandisney, Media King, Smartcar, 18 wheeler truck, Walmarts, Wolverine, John Forbes Nash Jr., William Shakespeare, Hitchiker's Guide, Culture Series, NeoVim, vim, vi, Ed, Hamilton, Aaron Burr, Broadway Musical, Inside Out, Federalist Papers, Sir Patrick Stewart, Starfleet Captain, Ensign, Q, Willy Wonka
 categories: vi, vim
 permalink: /blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/
