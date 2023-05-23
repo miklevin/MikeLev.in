@@ -4,7 +4,7 @@ title: And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.
 headline: "Picard's Lesson: Stand Up for What You Believe In and Live Vicariously Through Thought Experiments"
 description: I'm John Luck Pickerd, a Jew from Lafayette Hill, PA. I'm inspired by Hamilton and the works of William Shakespeare, John Forbes Nash Jr., and the lgbtqiaxyz++ community. I'm channeling the Hannibals (and The Big Lebowski), playing the role of an ensign in an alternate timeline to learn a lesson in humility. Take that and reverse it! (in the words of Willy Wonka)
 keywords: Hiro Protagonist, Snow Crash, Spiderman, YT, Raven, Sabertooth, Ozymandisney, Media King, Smartcar, 18 wheeler truck, Walmarts, Wolverine, John Forbes Nash Jr., William Shakespeare, Hitchiker's Guide, Culture Series, NeoVim, vim, vi, Ed, Hamilton, Aaron Burr, Broadway Musical, Inside Out, Federalist Papers, Sir Patrick Stewart, Starfleet Captain, Ensign, Q, Willy Wonka
-categories: vi, vim
+categories: vim, vi
 permalink: /blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/
 layout: post
 ---
@@ -124,9 +124,9 @@ Try some thought experiments and live some vicarious experiences, Burr. Know wha
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vi/'>vi</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/vi/'>vi</a></h4></li></ul>

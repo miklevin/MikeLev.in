@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
+<br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)
 <br/>Explore the world of OZ with me, as I share my knowledge of the books and movies. Learn why I believe OZ is a real place where technology is indistinguishable from magic, and why I think AI can be a force for good. Join me on my journey to uncover the truth behind the Wizard of OZ.</li>
 <li><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a> (Mon May 15, 2023)

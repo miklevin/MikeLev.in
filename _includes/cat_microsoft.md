@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
+<br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a> (Fri May 19, 2023)
 <br/>Discover how the Wizard of Oz predicted the world of AI today. Follow my journey as I explore the implications of AI, literacy, and the emerging world of technology. Learn how Dorothy's companions, Jack Pumpkinhead and the Gump, are analogues for today's AI systems and how the Wizard of Oz provides a powerful metaphor for our relationship with AI.</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
+<br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a> (Tue Apr 18, 2023)
 <br/>Learn how to take back control of your online privacy in this episode of the "Browser Wars" series. I'll show you how to undo the concessions made to Microsoft for the new Bing and turn off their invasive features. Plus, discover the latest tricks Microsoft is using to hide how to change your default search engine. Click through to learn more about browser wars, Edge settings, Microsoft, privacy, default search, Bing, and more.</li>
 <li><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a> (Tue Mar 28, 2023)

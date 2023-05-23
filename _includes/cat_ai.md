@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
+<br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a> (Sun May 21, 2023)
 <br/>Hack your way to success with advice from Dogcopter! The Quality Raters of Google Supervised Learning are E-E-A-T'ing their own dogfood to protect AdWords revenue. Art and activism don't stand a chance against Kung Fu clickbait. Learn how to use magic as a tool and hack like a hero of the digital age. Get creative and communicate honestly in art that will grab the attention of the AIs taking over for PageRank.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)
