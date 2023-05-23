@@ -4,7 +4,7 @@ title: Joining Data Between Spreadsheet Tabs Better Than VLookup
 headline: Discover How I Joined Data Between Spreadsheet Tabs Without VLookup or Pivot Tables
 description: Discover how I joined data between spreadsheet tabs without using VLookup or Pivot Tables. I explored connecting to Google Sheets and the OAuth2 enabled GSheets API, but I eventually figured out a way to save the data as an .xlsx file and load individual tabs using Pandas. Now I'm exploring the best way to log into Google services from Jupyter - read my blog post to find out how!
 keywords: Spreadsheet, Tabs, VLookup, Pivot Tables, Google Sheets, OAuth2, GSheets API, .xlsx, Pandas, Jupyter, Logging, Google Services
-categories: jupyter, google, panda
+categories: panda, google, jupyter
 permalink: /blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/
 layout: post
 ---
@@ -71,6 +71,6 @@ Jupyter?
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
