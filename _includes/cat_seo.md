@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/">Read Book of 5 Rings and The Art of War... Then Do The Opposite</a> (Wed May 24, 2023)
+<br/>Learn the lessons of Miyamoto Musashi, Bruce Lee, and Sun Tzu, but don't follow their advice blindly. Instead, take a lesson from Tony Stark and be open and honest about your skills and abilities. Find a balance between secrecy and openness, and don't be afraid to take risks.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
 <br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)

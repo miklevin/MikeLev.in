@@ -12,13 +12,26 @@ group: levinux
 
 {% include youtubePlayer.html id="QrCfivcQe48" %}
 
-The Levinux Linux VM is something I built in the long, long ago. I'm talking 15
-years ago now. Some of you weren't even born yet. The itch that I was
-scratching was the fact that Linux had become the one true path to
-future-proofing yourself in tech. Specifically the command-line and the ssh
-command to get to one on other machines. But I needed practice. The world
-needed practice. It's outdated, but still generally work and you can [get
-Levinux here](https://levinux.com/).
+The Levinux Linux VM is something I built long ago. I'm talking 15 years ago
+now. Some of you weren't even born yet. The itch that I was scratching was the
+fact that Linux had become the one true path to future-proofing yourself in
+tech. Specifically the old fashioned but text-based interface called the
+***command-line*** and the SSH command to get to one on other machines. 
+
+But it was scary! And it was hard to get started. So I built Levinux to give
+people a taste of it. It was a ***tiny*** Linux server that ran in a ***virt
+machine*** whether you were on a Mac, Windows, or Linux machine. It was a tiny
+miracle, and still has a fan base today for its original form.
+
+At first I wanted to make Levinux into a whole Noah's Ark for your data,
+creating a nomadic floating development environment and code execution platform
+that could go onto your USB stick or into your Dropbox and be with you for
+life. It was (and still is) a beautiful vision. But I was too early. And my
+skills at compiling QEMU C-code and building Linux kernels were not up to the
+task. I am just not that kind of programmer. I'm a marketing guy!
+
+But I needed practice. The world needed practice. It's outdated, but still
+generally work and you can [get Levinux here](https://levinux.com/).
 
 So why not wrap it in the guise of a sort of low-expectations game? If it works
 for you, great. If not, go edit a file in Word or something. The connections to
