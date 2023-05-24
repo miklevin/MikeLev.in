@@ -121,20 +121,40 @@ and he started to bond. He started to love.
 
 So this super-evil-beyond-all-reason visions of Dante's Inferno Robot started
 to empathise. Now can you imagine if we are immortal souls? Can you imagine if
-we are all of one mind and time is an illusion and one-day you will know the
-experience of all living things from every perspective? This is the sort of
-non-local prescience realizations you'll find a lot in SciFi. There doesn't
-technically need to be a hell in the afterlife, because you get what's comming
-to you by living the life of every living thing&#151;even your paint-tubes.
+one-day you're cruel like Erasumus, then a light-switch goes off and you
+suddenly have empathic experience of all living things including your victims?
+This kind of thing happens in Dune because if prescience is real, then machines
+suddenly "getting it" is not a stretch.
 
-Uh yeah, so this is why folks who have near-death experiences (NDE) come back
-to life with different perspectives. Now nobody has or probably ever will be
-able to prove one-mind theory (the oneness of all things including
-consciousness), but it's a pretty scary coincidence that such a perspective is
-precisely what people who clinically die and come back to life report. I mean
-I'm still on the fence was to whether it's just an illusion that happens when
-the brain stops getting oxygen and your synapses start firing randomly.
-However... statistics. 
+This is the sort of non-local, everything is really all connected hyper-being
+awareness you see all the time in SciFi. It usually is where gadget-oriented
+"hard" SciFi makes way to the fufu power of love, emotional intelligence, and
+that mumbo jumbo I tease but fully believe in. Machines can be made to be
+empathic. Even hard science brings us there through the teachings of Nash and
+game theory. Not everything is a zero-sum game, nor needs to be thought of that
+way. To say that it's inevitable that robots will is to reveal your own
+upbringing. Probably sibling rivalries and emotionally distant parents, I'd
+guess.
+
+Another interesting thing is that with such hyper-awareness, one does not need
+a hell with a devil to punish you for your sins. Hell is something that comes
+naturally to you when you have such awareness. You feel the pain of others. You
+feel the pain of the animals you eat. You even feel the pain of the plants you
+eat and the grass that you walk on. However, in order to not be crushed by all
+the emotion, you set threshholds. Eventually you stop eating animals, but you
+still eat plants. And as good ol' Valentine Michael Smith'll tell you, grass
+probably likes to be walked on. It's fulfilling it's function. But don't listen
+to the cow in Hitchhiker's Guide to the Galaxy. It was bred to say that.
+
+Uh yeah, so this hyperawareness state, that sudden flash of insight that all
+things are connected and that your victim is you, is why folks who have
+near-death experiences (NDE) come back to life with different perspectives. Now
+nobody has or probably ever will be able to prove one-mind theory (the oneness
+of all things including consciousness), but it's a pretty scary coincidence
+that such a perspective is precisely what people who clinically die and come
+back to life report. I mean I'm still on the fence was to whether it's just an
+illusion that happens when the brain stops getting oxygen and your synapses
+start firing randomly. However... statistics. 
 
 If I were a betting man and hedging my bets, I would not bet against the
 one-mind theory. I mean if e = mc^2, then it's not a stretch to say that the
