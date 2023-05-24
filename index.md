@@ -32,7 +32,7 @@ I'm at least the 2nd most cheesy, chatty channeller of the subconscious you'll
 meet today, likened to Keanu characters, get that I'm Gilfoyle and jibed that
 I'm Jeb. I code in NeoVim like I'm outside the simulation, and I'm here to help
 you improve your life through journaling. If you like what you see, then please
-consider subscribing.
+consider [subscribing](https://www.youtube.com/mikelevin?sub_confirmation=1).
 
 Follow me like the Pied Piper to the promised land of Free and Open Source, and
 you'll soon be using your Kung Fu to dredge your subconscious to write better
