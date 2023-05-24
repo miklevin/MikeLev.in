@@ -4,7 +4,7 @@ title: Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...
 headline: "Unlocking the Secrets of Success: How I Learned to Fly with Vim and Python"
 description: "Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job."
 keywords: mentee, mentor, mentor-mentee, Steve Jobs, health checkups, swordfighter, bitcoin, cryptobro, muscle memory, vim, NeoVim, API-compatible, Robert Cialdini, commitment, consistency, James Clerk Maxwell, Michael Faraday, faraday cage, Vincent van Gogh, Starry Night, Max Planck, quantum mechanics, quantum, corpuscle, double slit experiment, AIpocolypse, South Park, Copilot, Bible,
-categories: ai, muscle memory, vim, quantum
+categories: quantum, ai, vim, muscle memory
 permalink: /blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/
 layout: post
 ---
@@ -16,18 +16,34 @@ out and enjoy life. Enjoy living and being alive. All the small things. It
 really truly is all those corny little platitude miracles yadda yadda. That
 poster wisdom isn't lying.
 
-Okay, so you are driven and want to make a ding in the universe, as Steve Jobs
-says. That's okay too. Just go get health checkups and listen to your doctor.
-Cancer'll get you if you don't catch it and treat it early. I mean, you might
-clock out at 61 years old even if you're the greatest swordfighter who ever
-lived. Or even earlier, who knows?
+What's that you say? You actually are driven enough to want to make a ding in
+the universe, as Steve Jobs would say? Okay tough guy. That's a fine path too.
+Only you are to judge how you play your hand in this life. If anyone else says
+otherwise, you can tell 'em to go eff themselves, okay? And if they get violent
+with you, give 'em a good Curly Howard and see if they don't come around. 
 
-Okay, so you choose path B, the less traveled one? Good choice! Okay, well
-guess what? The thing your mentor didn't tell you is that feeling of really
-wanting to get some sleep... knowing your body needs it and that it's the right
-thing to do... and you might even be jeaporizing your health by not just giving
-in and going to sleep... that feeling... that feeling right there... well,
-that's the feeling of succes.
+But just as importantly, go in for those  health checkups and listen to your
+doctor. Cancer'll get you if you don't catch it early and treat it. It got
+Jobs. We'd have another 30 or 40 years of that lovable asshole eat his own
+dogfood and live in his own reality distortion field. Don't clock out at 61
+years old even if you're the greatest swordfighter who ever lived. And don't
+clock out at 56 years old even if you're the best designer who ever lived. Your
+children deserve more than that, Steve.
+
+Okay, so still after all this, you still choose path B, the less traveled?
+Good! Good choice! In my opinion, that's a good way to play your hand.
+
+We start with the things your parents never told you. Also, if you've been
+lucky enough to have what you would call a mentor, someone who takes you into
+their care and teaches you a life-changing skill, then we start with what they
+never told you, either.
+
+They thing your parents and your mentors never told you is...
+
+You know that feeling of really wanting to get some sleep... knowing your body
+needs it and that it's the right thing to do... and you might even be
+jeopardizing your health by not just giving in and going to sleep... that
+feeling... that feeling right there... well, that's the feeling of success.
 
 I mean you could get this shallow kind of cheating yourself material success by
 just mining some bitcoin early or something, and be one of those cryptobros
@@ -234,7 +250,7 @@ are, you Amiga Video Toaster fan, you.
 ## Categories
 
 <ul>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
