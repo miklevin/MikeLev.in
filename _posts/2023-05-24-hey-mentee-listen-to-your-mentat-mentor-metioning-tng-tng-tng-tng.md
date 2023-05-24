@@ -4,7 +4,7 @@ title: Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...
 headline: "Unlocking the Secrets of Success: How I Learned to Fly with Vim and Python"
 description: "Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job."
 keywords: mentee, mentor, mentor-mentee, Steve Jobs, health checkups, swordfighter, bitcoin, cryptobro, muscle memory, vim, NeoVim, API-compatible, Robert Cialdini, commitment, consistency, James Clerk Maxwell, Michael Faraday, faraday cage, Vincent van Gogh, Starry Night, Max Planck, quantum mechanics, quantum, corpuscle, double slit experiment, AIpocolypse, South Park, Copilot, Bible,
-categories: muscle memory, vim, ai, quantum
+categories: vim, quantum, ai, muscle memory
 permalink: /blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/
 layout: post
 ---
@@ -52,22 +52,51 @@ and the sequencing of the matter... in other words, the information... that
 matters. All the rest don't mean shit because it becomes your shit. Shit you
 can't take with you.
 
-I mean you could get this shallow kind of cheating yourself material success by
-just mining some bitcoin early or something, and be one of those cryptobros
-shoving how smart you are in everyones face and getting your manboy ego stroked
-by the world. But that's not the same thing. It's a completely different kind
-of success I'm talknig about. You know how they say you can't take it with you?
-Well from a purely practical hedging your bet agaist their being an immortal
-soul and all, you can take it with you. You very much can take it with you.
+People who don't think so, and rather take a great deal of pleasure in amassing
+a great amount of shit and lording it over you... you know, like those who
+covet land over all else so that they can lord the land over you as some sort
+of... oh, I don't know... land lord. They're the worst. It might look like that
+whole landlord approach is working for them at first. They might even rise to
+positions of great power. But when the Covid hits the NYC, the world catches
+onto them and before long, ***YOU'RE FIRED!***
 
-The kind of wealth I'm talking about will fill you with vim and verve. Mostly
-vim though actually. And as of late, a new form of vim. Or shall we call it
-Neo, Neo? Lt's call it NeoVim. And that's only because it's like almost 100%
-API-compatible with Vim. And by that, I mean the commands don't change. What
-you commit to your eternal muscle memory will be with you forever. And I'm
-talking maybe forever, forever. And not just in the immortal soul sense, but if
-Ray Kurzweil is right and you can upload your brain, maybe in a soul you can
-make immortal. Or at least the rich folks can.
+I mean you could get this shallow kind of cheating yourself material success by
+just mining some bitcoin or oil early or something, and be one of those
+cryptobro rockafellows shoving how smart you are in everyones face and getting
+your manboy ego stroked by the world. But that's not the same thing as real
+success. If there's immortal souls, these madmatters are kind of like the yoyo
+toys of the emotionally superpowered in the afterlife. They're the clowns. The
+reminders of how broad the rules of this openended game is and how many
+different ways you can play your hand. But in the end, be it in afterlife or by
+your legacy, you become a lot like a collectable trading card. What will be on
+your card?
+
+So it's in this light that I encourage pursing a completely different kind of
+success than madmatters value. What kind of success, exactly? Well, you know
+how they say you can't take it with you? I think you can. I think anything that
+lives as information in your mind becomes an permanent part of your immortal
+soul, and by extension, the immortal soul of the universe (everything
+connected, remember?). And even if not, we might make it that way because Iain
+M. Banks ***Surface Detail***, Ray Kurzweil, yadda yadda tired SciFi troupe but
+truth.
+
+If even from a purely practical hedging your bet against their being an
+immortal soul, you should abide by my advice. If I'm right, you've won a much
+bigger game than madmatters ever have. In fact, they just become the Jokers in
+your hand, in your deck, in your story. If I'm wrong, then I still may be right
+because technology is definitely making information legacies that could train
+AI models and become a sort of collective digital memory more and more real. So
+why wouldn't you take my advice? There's 2 winning exits, and one where there's
+nothing to lose.
+
+So what kind of wealth can you take with you? The kind that fills you with vim
+and verve. Mostly `vim` though actually. And as of late, a new form of vim. Or
+shall we call it Neo, Neo? Lt's call it NeoVim. And that's only because it's
+like almost 100% API-compatible with Vim. And by that, I mean the commands
+don't change. What you commit to your eternal muscle memory will be with you
+forever. And I'm talking maybe forever, forever. And not just in the immortal
+soul sense, but if Ray Kurzweil is right and you can upload your brain, maybe
+in a soul you can make immortal. Or at least the rich folks can.
 
 So you see, you really don't take anything off the table when it comes to
 information assets, especially muscle memory skills, that you can modify your
@@ -257,7 +286,7 @@ are, you Amiga Video Toaster fan, you.
 ## Categories
 
 <ul>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
