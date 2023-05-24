@@ -100,9 +100,9 @@ Do you watch Futurama? Do you know the Robot who is all twitchy and robs you on
 the street? You know, the stabby one Roberto. Hmmm, or maybe The Robot Devil? I
 guess take them both and put them together and give them a Pinocchio complex
 like Data from Star Trek. That's Erasmus. He's a Robot who wants to be human,
-and to do so does little exercises like painting a picture using the disemboweled
-innards of a palate of humans. You know, squeezing out the colors alive and
-all.
+and to do so does little exercises like painting a picture using the
+disemboweled innards of a palate of still-alive humans being squeezed for their
+colors and the sensory experience it provides. So you got a picture of Erasmus?
 
 Yes, Erasmus is not a very nice robot. He's also not technically evil, either.
 He's a growing child going through his cruel phase. None of this did the father
