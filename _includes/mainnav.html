@@ -1,6 +1,6 @@
 <nav>
 <a {% if page.group == 'home' %}class="current" {% endif %}href="/">~/</a>
-<a {% if page.categories contains'levinux' %}class="current" {% endif %}href="/levinux/">Levinux</a>
+<a {% if page.group == 'levinux' %}class="current" {% endif %}href="/levinux/">Levinux</a>
 <a {% if page.categories contains'pipulate' %}class="current" {% endif %}href="/pipulate/">Pipulate</a>
 <a {% if page.categories contains'yamlchop' %}class="current" {% endif %}href="/vim/">YAMLchop</a>
 </nav>
