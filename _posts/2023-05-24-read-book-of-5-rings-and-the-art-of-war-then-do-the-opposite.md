@@ -57,9 +57,10 @@ read, as are 2 or 3 translations of Sun Tzu (don't stop at 1 translation!),
 different than what you think at first, and even more important to understand.
 
 I remember the first time I read someone putting down this Batman-complex
-mentality for the first time, and it was Mr. Could-have-been-Google himself,
-Seth Godin. Yes, he wrote the Purple Cow. The book, and not the poem. But if
-you were to ask me so, read both. You ought to know 'em. 
+mentality, and it was Mr. Could-have-been-Google himself, Seth Godin. Seth is a
+marketing genius and another one of those bald guys of tech. Yes, he wrote the
+Purple Cow. The book, and not the poem. But if you were to ask me so, read
+both. You ought to know 'em. 
 
 You will have enemies. You will have people who hate you just because you're
 the best swordfighter in the world. You will ***especially*** have enemies if
