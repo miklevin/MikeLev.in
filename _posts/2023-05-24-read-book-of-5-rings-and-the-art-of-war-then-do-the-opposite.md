@@ -145,6 +145,9 @@ Ironman and still be a billionaire playboy philanthropist. That's the lesson
 here. You can let them know you're the best swordfighter in the world and
 still... and still... Oh, you're gonna lose Gwyneth Paltrow? Sigh.
 
+Oh and Seth, if you're out there reading this, you don't need to be Google.
+You're better than them! Now go enjoy a meatball sunday together. On Walnut
+Street.
 
 
 

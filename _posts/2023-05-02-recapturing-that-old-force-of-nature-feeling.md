@@ -4,7 +4,7 @@ title: Recapturing That Old Force of Nature Feeling
 headline: Using AI to Get Back That Old Force of Nature Feeling From When I Was Younger
 description: I'm trying to recapture the old feeling of being a Force of Nature I had when younger by harnessing the power of AI-assisted coding. Learn the tricks of using Python and MermaidJS diagrams. Get to the next level with story-telling on your Powerpoint-like decks for MOZ.
 keywords: force of nature, info-tech, AI-assisted coding, Python, rsplit, token limit, text-davinci-003 engine, while loop, for loop, Microsoft Office suite, Google Slides, md2googleslides, NodeJS, npm, proprietary, open-source, open-data, open-everything, open-minded, Powerpoint-like concepts, markdown, 80/20-rule, copy/paste, hand-drawn images, Note
-categories: google, copy/paste, python, proprietary, 80/20-rule, javascript, open-source
+categories: python, copy/paste, javascript, 80/20-rule, google, open-source, proprietary
 permalink: /blog/recapturing-that-old-force-of-nature-feeling/
 layout: post
 ---
@@ -138,10 +138,10 @@ groceries. Be back soon, renewed, refreshed and able to do more with less.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/open-source/'>Open-Source</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/open-source/'>Open-Source</a></h4></li>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li></ul>
