@@ -4,7 +4,7 @@ title: Are You Preparing for GA4mageddon? How To Use The GA4 API With Python
 headline: "Preparing for GA4mageddon: Learn How to Use the GA4 API With Python"
 description: I'm getting ready for GA4mageddon and learning how to use the GA4 API with Python. I'm using resources like the GA4 API Quickstart guide, Python client libraries and Google's Quickstart Guide for GA4. I'm also using Google Query Explorer on GA4 to create a query and Pipulate to help interpret it. Join me as I prepare for GA4mageddon and access data from a Google Analytics 4 property.
 keywords: GA4mageddon, GA4 API, Python, GA4 API Quickstart guide, Python client libraries, Google's Quickstart Guide, Google Query Explorer, GA4, BetaAnalyticsDataClient, Google Analytics Reporting API, Google Analytics API, Google Analytics Data API, Google Cloud Console, Google Analytics Universal, Google APIs, metrics, RunReportRequest, notebook, Pipulate
-categories: jupyter, python, pipulate
+categories: jupyter, pipulate, python
 permalink: /blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python/
 layout: post
 ---
@@ -353,5 +353,5 @@ Okay, roll a notebook into Pipulate for this.
 
 <ul>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

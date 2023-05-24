@@ -4,7 +4,7 @@ title: Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...
 headline: "Unlocking the Secrets of Success: How I Learned to Fly with Vim and Python"
 description: "Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job."
 keywords: mentee, mentor, mentor-mentee, Steve Jobs, health checkups, swordfighter, bitcoin, cryptobro, muscle memory, vim, NeoVim, API-compatible, Robert Cialdini, commitment, consistency, James Clerk Maxwell, Michael Faraday, faraday cage, Vincent van Gogh, Starry Night, Max Planck, quantum mechanics, quantum, corpuscle, double slit experiment, AIpocolypse, South Park, Copilot, Bible,
-categories: vim, quantum, ai, muscle memory
+categories: muscle memory, quantum, ai, vim
 permalink: /blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/
 layout: post
 ---
@@ -24,11 +24,16 @@ with you, give 'em a good Curly Howard and see if they don't come around.
 
 But just as importantly, go in for those  health checkups and listen to your
 doctor. Cancer'll get you if you don't catch it early and treat it. It got
-Jobs. We'd have another 30 or 40 years of that lovable asshole eat his own
-dogfood and live in his own reality distortion field. Don't clock out at 61
-years old even if you're the greatest swordfighter who ever lived. And don't
-clock out at 56 years old even if you're the best designer who ever lived. Your
-children deserve more than that, Steve.
+Jobs. We'd have another 30 or 40 years of that lovable asshole if he just
+didn't eat his own dogfood while living in his own reality distortion field.
+Tune-in and drop-in... on your doctor! 
+
+Don't clock out at a mere 61 years old even if you're the greatest swordfighter
+who ever lived. That's Musashi, not Jobs! Jobs clocked out five years earlier,
+at 56 years old. I'm 52 and just getting started. Your kids deserved at least
+your mellowed out retirement years, Steve. My mellowing out and retiring years
+are going to be pried out of my cold, dead 10th diget for the 10x10 rotations
+I'm hellbent on making. Excelsior, Betty White!
 
 Okay, so still after all this, you still choose path B, the less traveled?
 Good! Good choice! In my opinion, that's a good way to play your hand.
@@ -236,7 +241,7 @@ nature of light as some little trick of numbers he rigged up so that the sudden
 and dramatic change in the color of light emitted by a hot object as it cools
 could be explained. Simple as that, and POP! The world changed. Light was no
 longer this perfectly smooth and continuous thing, but a particle. Not just a
-particle, but this little corpuscle of energy that when you sqeeze it, popped
+particle, but this little corpuscle of energy that when you squeeze it, popped
 like a zit! I mean, can you imagine?
 
 Science is so much cooler and stranger and unlikely than sports or music or
@@ -286,7 +291,7 @@ are, you Amiga Video Toaster fan, you.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
