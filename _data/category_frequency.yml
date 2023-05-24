@@ -845,6 +845,9 @@ dictitems:
   aipocalypse:
     count: 1
     title: AIpocalypse
+  aipocolypse:
+    count: 1
+    title: AIpocolypse
   airbnb:
     count: 1
     title: Airbnb
@@ -1151,6 +1154,9 @@ dictitems:
   api-calls:
     count: 1
     title: API-Calls
+  api-compatible:
+    count: 1
+    title: API-compatible
   api-joins:
     count: 1
     title: API-Joins
@@ -1835,6 +1841,9 @@ dictitems:
   bible:
     count: 1
     title: Bible
+  bible,:
+    count: 1
+    title: Bible,
   biblical commentaries:
     count: 1
     title: Biblical Commentaries
@@ -1961,6 +1970,9 @@ dictitems:
   bitbucket:
     count: 2
     title: Bitbucket
+  bitcoin:
+    count: 1
+    title: bitcoin
   bitkeeper:
     count: 1
     title: BitKeeper
@@ -3165,8 +3177,8 @@ dictitems:
     count: 7
     title: Commit
   commitment:
-    count: 1
-    title: Commitment
+    count: 2
+    title: commitment
   commitment & consistency:
     count: 1
     title: Commitment & Consistency
@@ -3414,7 +3426,7 @@ dictitems:
     count: 1
     title: Consent
   consistency:
-    count: 4
+    count: 5
     title: Consistency
   consistent histories:
     count: 1
@@ -3564,7 +3576,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 18
+    count: 19
     title: Copilot
   copilot ai:
     count: 1
@@ -3614,6 +3626,9 @@ dictitems:
   corporate profits:
     count: 1
     title: Corporate Profits
+  corpuscle:
+    count: 1
+    title: corpuscle
   corroborating:
     count: 1
     title: Corroborating
@@ -3797,6 +3812,9 @@ dictitems:
   crypto-bros:
     count: 1
     title: Crypto-Bros
+  cryptobro:
+    count: 1
+    title: cryptobro
   cryptographic:
     count: 1
     title: Cryptographic
@@ -4842,8 +4860,8 @@ dictitems:
     count: 1
     title: dotcom-boom
   double slit experiment:
-    count: 1
-    title: Double Slit Experiment
+    count: 2
+    title: double slit experiment
   double-check:
     count: 1
     title: Double-Check
@@ -5882,6 +5900,9 @@ dictitems:
   faq structured data:
     count: 1
     title: FAQ Structured Data
+  faraday cage:
+    count: 1
+    title: faraday cage
   fashion:
     count: 1
     title: Fashion
@@ -7451,6 +7472,9 @@ dictitems:
   health benefits:
     count: 1
     title: Health Benefits
+  health checkups:
+    count: 1
+    title: health checkups
   healthcare:
     count: 1
     title: Healthcare
@@ -8622,7 +8646,7 @@ dictitems:
     count: 1
     title: James Bond
   james clerk maxwell:
-    count: 2
+    count: 3
     title: James Clerk Maxwell
   james webb space telescope:
     count: 1
@@ -10473,7 +10497,7 @@ dictitems:
     count: 1
     title: Mature
   max planck:
-    count: 1
+    count: 2
     title: Max Planck
   maximize advantage:
     count: 1
@@ -10628,6 +10652,15 @@ dictitems:
   mentats:
     count: 1
     title: Mentats
+  mentee:
+    count: 1
+    title: mentee
+  mentor:
+    count: 1
+    title: mentor
+  mentor-mentee:
+    count: 1
+    title: mentor-mentee
   mentos and diet coke experiment:
     count: 1
     title: Mentos and Diet Coke experiment
@@ -10731,7 +10764,7 @@ dictitems:
     count: 1
     title: Mic Lovin'
   michael faraday:
-    count: 1
+    count: 2
     title: Michael Faraday
   michael levin:
     count: 1
@@ -11256,7 +11289,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 7
+    count: 8
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -11481,7 +11514,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 29
+    count: 30
     title: NeoVim
   nerd:
     count: 2
@@ -13848,7 +13881,7 @@ dictitems:
     count: 1
     title: Quantized Gravity
   quantum:
-    count: 6
+    count: 7
     title: Quantum
   quantum computers:
     count: 2
@@ -13905,7 +13938,7 @@ dictitems:
     count: 1
     title: Quantum Loop
   quantum mechanics:
-    count: 6
+    count: 7
     title: Quantum Mechanics
   quantum metrology:
     count: 1
@@ -14790,7 +14823,7 @@ dictitems:
     count: 1
     title: Robbie Nelson
   robert cialdini:
-    count: 3
+    count: 4
     title: Robert Cialdini
   robin:
     count: 1
@@ -16092,7 +16125,7 @@ dictitems:
     count: 1
     title: SourceForge
   south park:
-    count: 1
+    count: 2
     title: South Park
   space:
     count: 4
@@ -16379,6 +16412,9 @@ dictitems:
   starnix:
     count: 2
     title: Starnix
+  starry night:
+    count: 1
+    title: Starry Night
   start:
     count: 2
     title: Start
@@ -16494,7 +16530,7 @@ dictitems:
     count: 1
     title: Steve Carell
   steve jobs:
-    count: 3
+    count: 4
     title: Steve Jobs
   steven greer:
     count: 1
@@ -16943,6 +16979,9 @@ dictitems:
   switching:
     count: 3
     title: Switching
+  swordfighter:
+    count: 1
+    title: swordfighter
   sybase:
     count: 1
     title: Sybase
@@ -18501,7 +18540,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 107
+    count: 108
     title: Vim
   vim buffer:
     count: 1
@@ -18545,6 +18584,9 @@ dictitems:
   vimscript:
     count: 1
     title: vimscript
+  vincent van gogh:
+    count: 1
+    title: Vincent van Gogh
   vint cerf:
     count: 1
     title: Vint Cerf
