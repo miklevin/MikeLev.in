@@ -10,12 +10,15 @@ group: levinux
 
 ## Watch the Opening Sequence of Dune to "Get It"
 
+{% include youtubePlayer.html id="QrCfivcQe48" %}
+
 The Levinux Linux VM is something I built in the long, long ago. I'm talking 15
 years ago now. Some of you weren't even born yet. The itch that I was
 scratching was the fact that Linux had become the one true path to
 future-proofing yourself in tech. Specifically the command-line and the ssh
 command to get to one on other machines. But I needed practice. The world
-needed practice.
+needed practice. It's outdated, but still generally work and you can [get
+Levinux here](https://levinux.com/).
 
 So why not wrap it in the guise of a sort of low-expectations game? If it works
 for you, great. If not, go edit a file in Word or something. The connections to
