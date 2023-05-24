@@ -4,7 +4,7 @@ title: Creating Github Repo Specifically For Copilot Explorations
 headline: Exploring the Attributes of Individual Items with Instapaper, YouTube, Twitter, and Github
 description: I have updated my Github repo and am now creating one specifically for Copilot explorations. I have created files such APIs as Instapaper to list Bookmarks, Twitter to list Tweets, YouTube to list Videos, and Github to list Repos. I am using various tools to express myself by transforming the output of theses systems into Web content, using AI to coach me. Learn how I'm using Instapaper, YouTube, Twitter, and Github with AI to explore.
 keywords: Github, Repo, Copilot, Explorations, Instapaper, List, Bookmarks, Twitter, Tweets, YouTube, Videos, Tools, Express, Attributes, Individual, Items, Fill-in, Descriptions, Articles, README.md, News, Following
-categories: git, twitter, youtube, ai
+categories: ai, twitter, git, youtube
 permalink: /blog/creating-github-repo-specifically-for-copilot-explorations/
 layout: post
 ---
@@ -98,7 +98,7 @@ from the news I've been following.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

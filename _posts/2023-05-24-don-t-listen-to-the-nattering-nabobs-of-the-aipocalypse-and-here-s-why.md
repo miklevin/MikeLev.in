@@ -132,9 +132,22 @@ awareness you see all the time in SciFi. It usually is where gadget-oriented
 that mumbo jumbo I tease but fully believe in. Machines can be made to be
 empathic. Even hard science brings us there through the teachings of Nash and
 game theory. Not everything is a zero-sum game, nor needs to be thought of that
-way. To say that it's inevitable that robots will is to reveal your own
-upbringing. Probably sibling rivalries and emotionally distant parents, I'd
-guess.
+way. 
+
+To say that it's statistically inevitable that one of the infinite doomsday
+scenarios will play out because it only has to happen once is to ignore
+humanity's repeated ability to beat the odds. We've been through filter events
+before, and robots are going to be smarter than us. To believe in this doomsday
+fairytale is to reveal to the world your own upbringing. Probably sibling
+rivalries and emotionally distant parents, I'd guess. 
+
+It is ***not*** a mathematical certainty that we will be destroyed by our own
+creations. The only objective facts in this argument is that we are still here,
+so optimists are objectively correct. And that we are still here, so pessimists
+are objectively wrong. There's not much you can hang your hat on in today's
+world of fake news and moral relativism, but this is one of those things.
+Optimists technically have the facts on their side, and pessimists are relying
+on nonfalsifiable arguments.
 
 Another interesting thing is that with such hyper-awareness, one does not need
 a hell with a devil to punish you for your sins. Hell is something that comes
