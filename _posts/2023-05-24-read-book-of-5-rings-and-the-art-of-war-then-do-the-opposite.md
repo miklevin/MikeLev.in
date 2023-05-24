@@ -79,6 +79,8 @@ prove you wrong and steal your legend. No, I'm not going to do that. That's
 what Steve Jobs did... and Johnny Carson... but I'm not going to do that. I'm
 going in the other direction.
 
+I work for MOZ now and I'm going to tell you all my SEO secrets.
+
 Seth says, and I heard this one in-person at the University of Pennsylvania on
 Walnut Street in Philly where I drove back from NYC to hear him speak at my old
 haunt. Seth said, and I'll never forget this, that you could take your highly
