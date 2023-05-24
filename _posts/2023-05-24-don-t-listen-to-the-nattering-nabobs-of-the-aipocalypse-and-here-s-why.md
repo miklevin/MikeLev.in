@@ -19,6 +19,8 @@ systematically working our way though one little hurdle after the next. A time
 comes in not too long where you don't have to stop and think about every little
 thing you do and it just comes naturally. Same with dredging your subconscious.
 
+![Chicken Little Sky Is Falling Nattering Nabobs Of Aipocalypse](/assets/images/chicken-little-sky-is-falling-nattering-nabobs-of-aipocalypse.jpg)
+
 And my subconscious has been telling me to tell you about a very underrated
 branch of SciFi that never became popular nor even acknowledged as existing
 because the critics hated it. All the Dune stuff that came from his son Brian
