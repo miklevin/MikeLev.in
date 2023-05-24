@@ -2228,6 +2228,9 @@ dictitems:
   brew:
     count: 1
     title: Brew
+  brian herbert:
+    count: 1
+    title: Brian Herbert
   brian weiner:
     count: 1
     title: Brian Weiner
@@ -4730,6 +4733,9 @@ dictitems:
   docker:
     count: 11
     title: Docker
+  doctor strange:
+    count: 1
+    title: Doctor Strange
   document:
     count: 3
     title: Documents
@@ -4938,7 +4944,7 @@ dictitems:
     count: 1
     title: Duncan MacInnes
   dune:
-    count: 2
+    count: 3
     title: Dune
   dungeons & dragons:
     count: 1
@@ -5783,6 +5789,9 @@ dictitems:
   extraterrestrial vehicles:
     count: 1
     title: Extraterrestrial Vehicles
+  face dancers:
+    count: 1
+    title: Face Dancers
   facebook:
     count: 3
     title: Facebook
@@ -6101,6 +6110,9 @@ dictitems:
   fish:
     count: 2
     title: Fish
+  fish speakers:
+    count: 1
+    title: Fish Speakers
   fix:
     count: 4
     title: Fix
@@ -6291,7 +6303,7 @@ dictitems:
     count: 1
     title: Found
   foundation:
-    count: 1
+    count: 2
     title: Foundation
   founder:
     count: 1
@@ -6317,6 +6329,9 @@ dictitems:
   frank gorshin:
     count: 1
     title: Frank Gorshin
+  frank herbert:
+    count: 1
+    title: Frank Herbert
   frank sessa:
     count: 1
     title: Frank Sessa
@@ -6368,6 +6383,9 @@ dictitems:
   freeze:
     count: 1
     title: Freeze
+  fremen:
+    count: 1
+    title: Fremen
   french drop:
     count: 1
     title: French Drop
@@ -6605,6 +6623,9 @@ dictitems:
   gap analysis report:
     count: 1
     title: Gap Analysis Report
+  garnet:
+    count: 1
+    title: Garnet
   gary:
     count: 1
     title: Gary
@@ -7331,6 +7352,9 @@ dictitems:
   hardware:
     count: 16
     title: Hardware
+  harkonnen:
+    count: 1
+    title: Harkonnen
   harriet martineau:
     count: 1
     title: Harriet Martineau
@@ -7649,6 +7673,9 @@ dictitems:
   honeymoon:
     count: 1
     title: Honeymoon
+  honored matres:
+    count: 1
+    title: Honored Matres
   hootsuite:
     count: 1
     title: HootSuite
@@ -8546,6 +8573,9 @@ dictitems:
   ivan0135:
     count: 1
     title: Ivan0135
+  ixians:
+    count: 1
+    title: Ixians
   j:
     count: 2
     title: j
@@ -8912,6 +8942,9 @@ dictitems:
   kernel update:
     count: 1
     title: Kernel Update
+  kevin j. anderson:
+    count: 1
+    title: Kevin J. Anderson
   kevin knuth:
     count: 1
     title: Kevin Knuth
@@ -10286,6 +10319,9 @@ dictitems:
   marie curie:
     count: 1
     title: Marie Curie
+  marijuana-dmt-like spice:
+    count: 1
+    title: marijuana-DMT-like spice
   marine:
     count: 1
     title: Marine
@@ -10556,6 +10592,9 @@ dictitems:
   mentat:
     count: 1
     title: Mentat
+  mentats:
+    count: 1
+    title: Mentats
   mentos and diet coke experiment:
     count: 1
     title: Mentos and Diet Coke experiment
@@ -10856,6 +10895,9 @@ dictitems:
   minor prophets:
     count: 1
     title: Minor Prophets
+  minority report:
+    count: 1
+    title: Minority Report
   mirror flip:
     count: 1
     title: Mirror Flip
@@ -11378,6 +11420,9 @@ dictitems:
   nbdev_new:
     count: 1
     title: nbdev_new
+  near-death:
+    count: 1
+    title: near-death
   negativity:
     count: 1
     title: Negativity
@@ -12407,6 +12452,9 @@ dictitems:
   pattern recognition:
     count: 3
     title: Pattern Recognition
+  paul attreides:
+    count: 1
+    title: Paul Attreides
   paul graham:
     count: 2
     title: Paul Graham
@@ -13490,6 +13538,9 @@ dictitems:
   psychedelic:
     count: 1
     title: Psychedelic
+  psychohistory:
+    count: 1
+    title: psychohistory
   psychology:
     count: 1
     title: Psychology
@@ -14933,6 +14984,9 @@ dictitems:
   sarah hofstetter:
     count: 1
     title: Sarah Hofstetter
+  sardaukar:
+    count: 1
+    title: Sardaukar
   sass css generator:
     count: 1
     title: Sass CSS Generator
@@ -15036,7 +15090,7 @@ dictitems:
     count: 4
     title: Scientists
   scifi:
-    count: 1
+    count: 2
     title: SciFi
   scikitlearn:
     count: 1
@@ -16007,6 +16061,9 @@ dictitems:
   spacefaring:
     count: 1
     title: Spacefaring
+  spacing guild:
+    count: 1
+    title: Spacing Guild
   spam cannon:
     count: 1
     title: Spam Cannon
@@ -16397,6 +16454,9 @@ dictitems:
   steven pemberton:
     count: 1
     title: Steven Pemberton
+  steven universe:
+    count: 1
+    title: Steven Universe
   sticks and stones:
     count: 1
     title: Sticks and Stones
@@ -17348,6 +17408,9 @@ dictitems:
   thu:
     count: 1
     title: Thu
+  thufir hawat:
+    count: 1
+    title: Thufir Hawat
   thumbnail:
     count: 2
     title: Thumbnail
@@ -17438,6 +17501,9 @@ dictitems:
   tldextract:
     count: 1
     title: tldextract
+  tleilaxu:
+    count: 1
+    title: Tleilaxu
   tmux:
     count: 1
     title: tmux
