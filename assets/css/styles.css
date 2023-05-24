@@ -104,7 +104,7 @@ h3 {
 }
 
 #wheel {
-    width: min(16vw, 156px);
+    width: min(16vw, 180px);
 }
 
 /* Format links & buttons */
@@ -614,7 +614,7 @@ h6 {
 body>header div {
     color: #90b98b7a;
     font-family: 'Dorsa';
-    font-size: min(23vw, 247px);
+    font-size: min(23vw, 260px);
     line-height: 1.1;
     margin: -1vw 0vw -2vw 0vw;
     overflow-wrap: break-word;
