@@ -4,7 +4,7 @@ title: Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...
 headline: "Unlocking the Secrets of Success: How I Learned to Fly with Vim and Python"
 description: "Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job."
 keywords: mentee, mentor, mentor-mentee, Steve Jobs, health checkups, swordfighter, bitcoin, cryptobro, muscle memory, vim, NeoVim, API-compatible, Robert Cialdini, commitment, consistency, James Clerk Maxwell, Michael Faraday, faraday cage, Vincent van Gogh, Starry Night, Max Planck, quantum mechanics, quantum, corpuscle, double slit experiment, AIpocolypse, South Park, Copilot, Bible,
-categories: quantum, ai, vim, muscle memory
+categories: muscle memory, vim, ai, quantum
 permalink: /blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/
 layout: post
 ---
@@ -44,6 +44,13 @@ You know that feeling of really wanting to get some sleep... knowing your body
 needs it and that it's the right thing to do... and you might even be
 jeopardizing your health by not just giving in and going to sleep... that
 feeling... that feeling right there... well, that's the feeling of success.
+
+Oh, and the second thing they never told you is that you can't cheat your way
+to success. At least not the kind of success I'm talking about; the kind that
+matters. Matter does not matter. Matter comes and goes. It's the arrangement
+and the sequencing of the matter... in other words, the information... that
+matters. All the rest don't mean shit because it becomes your shit. Shit you
+can't take with you.
 
 I mean you could get this shallow kind of cheating yourself material success by
 just mining some bitcoin early or something, and be one of those cryptobros
@@ -250,7 +257,7 @@ are, you Amiga Video Toaster fan, you.
 ## Categories
 
 <ul>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>
