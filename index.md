@@ -18,10 +18,11 @@ somehow. My opinions are my own and would get my butt fired by anyone other
 than a place of ***Amazing Stories***. And that's a fax.
 
 Follow me! My site is easy to remember because it's my name! No dotcom. Just
-drop the dot down in front of the last 2 letters, and you're ***totally .in***!
-You've got an in. Miklev.in works too, because I often drop the "e" of Mike.
-Okay, now to business. I journal. I write. I code. I blog. I do all of this at
-an extraordinary rate because I practice, but also because I am a vim user.
+drop the dot down in front of the last 2 letters of ***Mike Levin** (no
+spaces), and you're ***totally .in***! You've got an in. Miklev.in works too,
+because I often drop the "e" of Mike. Okay, now to business. I journal. I
+write. I code. I blog. I do all of this at an extraordinary rate because I
+practice, but also because I am a vim user.
 
 Users of vim and the vi, the 1976 text editor it was based on, and the new
 (Neo) version called NeoVim are less common than those who have chosen the
