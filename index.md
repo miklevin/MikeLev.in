@@ -13,9 +13,9 @@ group: home
 Hello World! I'm an old SciFi reader and Mac & Windows fanboy who today writes
 ***with***&#151;but more importantly ***for*** AI. I lived in the dull grey of
 Kansas... I mean Pennsylvania until a Twister picked me up and dropped me into
-the middle of MOZ. I'm hopelessly naive as Dorothy, but still make it work
-somehow. My opinions are my own and would get my fired by anyone other than the
-owner of ***Amazing Stories***. And that's a fax... sort of.
+the middle of MOZ. I'm as hopelessly naive as Dorothy, but still make it work
+somehow. My opinions are my own and would get my butt fired by anyone other
+than a place of ***Amazing Stories***. And that's a fax.
 
 Follow me! My site is easy to remember because it's my name! No dotcom. Just
 drop the dot down in front of the last 2 letters, and you're ***totally .in***!
