@@ -4,7 +4,7 @@ title: The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)
 headline: My Cowardly Encounter with a Hammer-Wielding Attacker and the Gratitude I Gained From It
 description: This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.
 keywords: ENIAC, UNIX, MOS 6502, Batman complex, Sherlock Holmes, R. Daneel Olivaw, Wrong John Silver, Craig of The Creek, Karate, Michael Rubin, Undercover Boss, James Bond, Ender's Game, South Philly, Crack Era, Secamp 32, Entity Relationship Diagrams, Graphic Design, Check Cashing, Mellon Bank, Queens Village, Linux, Vi, Time Wars
-categories: linux, vi
+categories: vi, linux
 permalink: /blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/
 layout: post
 ---
@@ -102,5 +102,5 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

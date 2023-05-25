@@ -4,7 +4,7 @@ title: Sending Emails With Python Through SMTP
 headline: Learn How to Send Emails with Python Through SMTP
 description: I recently created a video tutorial on how to send emails with Python. I demonstrated how to use a Python list comprehension for carriage returns and linefeeds, as well as two text files for the sender's and recipient's email addresses. I also showed how to log into the server, write the message body, and use the sendmail function to send the email. Click through to learn how to write code to send emails with Python.
 keywords: Python, SMTP, Email, List Comprehension, Carriage Returns, Linefeeds, Sender, Recipient, Logging, Server, Message Body, Sendmail, Tutorial, Video, Writing Code
-categories: email, python, tutorial
+categories: email, tutorial, python
 permalink: /blog/sending-emails-with-python-through-smtp/
 layout: post
 ---
@@ -67,5 +67,5 @@ server.quit()
 
 <ul>
 <li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
