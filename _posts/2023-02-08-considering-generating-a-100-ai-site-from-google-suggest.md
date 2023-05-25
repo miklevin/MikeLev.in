@@ -4,7 +4,7 @@ title: Considering Generating a 100% AI Site From Google Suggest
 headline: "Creating a 100% AI Website: Join me on this Journey!"
 description: I'm embarking on a public project to create a 100% AI-generated website using free tools and no particular topics in mind. To do this, I've set up a hosted site on Github Pages, added Google Analytics Measurement ID, and filled in some basic content suggested by Google Suggest and ChatGPT. I'm looking for readers to join me on this journey and help me come up with new ideas to complete this project.
 keywords: AI, Generate, Website, Free Tools, Google Suggest, Github Pages, Google Analytics, Measurement ID, ChatGPT, Markdown, CSS, Pipulate.com, Logo, Content, Public Project
-categories: google, jekyll, ai
+categories: ai, jekyll, google
 permalink: /blog/considering-generating-a-100-ai-site-from-google-suggest/
 layout: post
 ---
@@ -42,6 +42,6 @@ public interest. Choose one of them and take it to best-in-the-world status.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

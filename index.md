@@ -19,16 +19,16 @@ than a place of ***Amazing Stories***. And that's a fax.
 
 Follow me! My site is easy to remember because it's my name! No dotcom. Just
 drop the dot down in front of the last 2 letters of ***Mike Levin** (no
-spaces), and you're ***totally .in***! You've got an in. Miklev.in works too,
-because I often drop the "e" of Mike. Okay, now to business. I journal. I
-write. I code. I blog. I do all of this at an extraordinary rate because I
-practice, but also because I am a vim user.
+spaces), and you're ***.in!*** Miklev.in works too, because I often drop the
+"e" of Mike. Okay, now to business. I journal. I write. I code. I blog. I do
+all of this at an extraordinary rate because I practice and worry that I'm
+running out of time. But also because I use the timeless editor, vim.
 
-Users of vim and the vi, the 1976 text editor it was based on, and the new
-(Neo) version called NeoVim are less common than those who have chosen the
-clearer VSCode path. It has been ages and ages since I took the less traveled
-way, and looking back I can tell you with a sigh, knowing you are unlikely to
-take my advice, this has made all the difference.
+Users of vim and the 1976 vi text editor it's based on... and users of the new
+(a.k.a. neo) version called NeoVim are less common than those who have chosen
+the clearer VSCode path. It has been ages and ages since I took the less
+traveled way, and looking back I can tell you with a sigh, knowing you are
+unlikely to take my advice, this has made all the difference.
 
 > <nobr>Deep within my heart and soul </nobr>
 > <nobr>Two me's fight for the truth&#151; </nobr>
