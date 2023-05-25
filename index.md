@@ -7,7 +7,7 @@ group: home
 
 # What's A-I-S-E-O?
 
-## Old Mike Levin Spins a Yarn...
+## Old Mike Levin Spins a Yarn, A-I-S-E-O!
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Hello World! I'm an old SciFi reader and Mac & Windows fanboy who today writes
