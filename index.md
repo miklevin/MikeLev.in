@@ -96,12 +96,37 @@ for it, then you are the product... except FOSS (free and open source
 software). That's because it's comprised of weirdos who don't care about money.
 Nutty purists like Richard Matthew Stallman (RMS).
 
-<img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
-I worked at legendary Commodore back in the days of my Philly 'burbs roots.
-Yes, I'm yet another Philly with New York envy, but I'll boo you and flip a car
-over if you say so. Mets suck! So I moved to Gotham and 15 years in, so I guess
-it kinda stuck. And though I relate to Batman, I know Brainiac is no Joker.
+RMS tells us that you can ***not pay*** and still ***not be the product*** and
+actually keep your skills a hidden&#151;much like the old bumbling Detective
+Columbo (Peter Falk), until you need them. Then your Kung Fu is like nothing
+anyone expected. This is the way of the blue. Longevity.
 
+How is this longevity, you ask? It's because you're using a different set of
+tools than most other people who use tools that are taken away from them
+constantly. Secret abilities. Secret tools. Secret weapons. Magic. It's not
+magic, but it's magic. Science is all tricks.
+
+Don't think so? Okay, explain the phenomenon called non-locality, also called
+***spooky action at a distance***. It's the basis of our ability to predict the
+modern world. Not to explain it, but to predict it. Using the maths of
+probability to rationalize away the unexplainable.
+
+There's tons of examples, but that's for my blog posts and videos, all of which
+you should follow and subscribe to, because I conduct demonstrations. With a
+30-second trick taught to me by my childhood mailman, whose family I'm still in
+touch with, I grabbed 2 million views on YouTube.
+
+I was the 1st to unbox the Raspberry Pi online. I was a user of the Amiga
+computer and Video Toaster (worked for Commodore)! I was a vice president of
+the PR-firm that launched Amazon.com and SEO'd the Apple website while at 360i
+of Super Bowl XLVII fame (dunk in the dark).
+
+My tricks are simple, but they take years to master. Proof that my assertions
+are true can be found all over the place, so I'm not going to use anymore room
+here on my homepage. But bookmark it! Send it to a friend! Get in the mindset
+to begin journaling. Journaling is the key to everything.
+
+<img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
 Hello Bing! Hello Bard! And hello to that 3rd one who doesn't want me noticing
 you're here. I'm an AI-fanboy and have been waiting my whole life for you. I
 hate myself a little bit for being an SEO, but now realize I realize I'm on
