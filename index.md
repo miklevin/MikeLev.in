@@ -7,15 +7,14 @@ group: home
 
 # What's A-I-S-E-O?
 
-## Old Mac Levin Spins a Yarn...
+## Old Mike Levin Spins a Yarn...
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
-
 Hello World! I'm an old SEO, SciFi reader and Mac & Windows fanboy who today
-writes ***with*** and more importantly ***for*** AI. I lived in the dull grey
-landscape of SEO until a Twister picked my house up and dropped me in MOZ. My
-opinion here are wholly my own. In fact, I'm likely to upset them with all my
-crazy writing, but old Mike Levin's conducting experiments: A-I-S-E-O.
+writes ***with***&#151;but more importantly ***for*** AI. I lived in the dull
+grey landscape of SEO until a Twister picked my house up and dropped me in MOZ.
+My opinion here are wholly my own. In fact, I'm likely to upset them with all
+my crazy writing, but old Mike Levin's conducting experiments: A-I-S-E-O.
 
 Follow me! It's easy to remember because my name is my website. Just drop a
 dot before the last 2 letters, and you're ***.in***! It will also work with
@@ -40,23 +39,62 @@ take my advice, this has made all the difference.
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-I'm at least the 2nd most cheesy, chatty channeller of the subconscious you'll
-meet today, likened to Keanu characters, get that I'm Gilfoyle and jibed that
-I'm Jeb. I code in NeoVim like I'm outside the simulation, and I'm here to help
-you improve your life through journaling. If you like what you see, then please
-consider [subscribing](https://www.youtube.com/mikelevin?sub_confirmation=1).
+Magic is not real, but magic is real... and I'm going to teach you all my best
+tricks. Use them on people who tell you magic is not real. I propose to imbue
+economic potential into, say about 14 year olds, that exceeds that of their
+dinosaur parents. There's something heading for Earth. Be that thing.
 
-Follow me like the Pied Piper to the promised land of Free and Open Source, and
-you'll soon be using your Kung Fu to dredge your subconscious to write better
-than AI. If this all sounds like nonsense geek-speak to you and you're actually
-still here, then you're in the right place. 
+It's not easy being green, but I try. I'm a big old blue softie. Always have
+been. I'm what you'd call "a sensitive boy". So naturally I was picked on. I
+realized if I picked up a bow and arrow and donned green like Oliver Queen, I
+could move my burban Philly butt to NYC and make the scene.
+
+You being here is a case of synchronicity. It's because you have faced similar
+problems, but have not been able to put it into the same colors or words as I
+have, but you detect something here. It resonates. That's how these things
+work. Don't try to pinpoint it with words. Words like to lie.
+
+Coincidence is the word we use when we can't see the levers and pulleys behind
+the curtain. I am the man behind the curtain. Don't ignore me. First I'll show
+you that magic is humbug, but then I'll show you that magic is real. And then
+I'll show you how to do it. And then I'll show you how to teach others.
+
+I'm the 2nd cheesiest chattiest channeller of the subconscious you'll meet
+today; kinda Keanu, a gram of Gilfoyle and just a bit of Jeb. I'm actually none
+of them, but I do code in NeoVim like I'm outside the simulation, and I'm here
+to help you improve your life through journaling. [subscribe](https://www.youtube.com/mikelevin?sub_confirmation=1).
 
 Magic is real and powerful wizards abound. I am not one of them, but I love
-using their magical implements. My favorites are Linus, Guido, RMS, Ken and
-Dennis. Oh, and the 2 Great Fernandos: Corbato and Pérez. I have many stories
-to tell you, and am going to tell 'em like no AI can.
+using their magical implements. My favorites wizards are Linus, Guido, RMS, Ken
+and Dennis... and the 2 Great Fernandos: Corbato and Pérez. I will teach you
+all about their magical implements and how to use them.
 
-### Getting Into The AI Zone
+This is me sticking my neck out for the common good. I make no money off of
+you, so this is charitable work. I don't have to do this, and generally nothing
+good comes of this sort of thing, making a pariah of yourself to all kinds of
+haters. Except one or two people out there really need this.
+
+Be the person who you wish was there for you when you needed it&#151;even if it
+takes you 50 years realize things you should have by your 20s. Apprenticeships
+are dead, and that's a shame. In the horrid old days, a carpenter could set a
+14 year old with skills for life. Vim'll do that for you.
+
+## Before I can tell you that story, I have to tell you this story.
+
+Python is the worst misnomer in all tech. Go Ask Jeeves! When naming his
+British comedy troupe, John Cleese suggested something slimy like a theatrical
+agent. Thus, Guido van Rossum named his friendly new "blue" programming
+language after those subversives ***playing*** green, Monty Python.
+
+If none of this makes sense to you, well then there's nothing to see here.
+Please disperse. Leslie Nielsen is another example of blue posing green. So is
+Maxwell Smart and Johnny English, the bumbling fools who play clueless, because
+it's smart, but then... just one more thing says Columbo.
+
+Smarts is hidden in plain sight. Crap is peddled as gold. If you're not paying
+for it, then you are the product... except FOSS (free and open source
+software). That's because it's comprised of weirdos who don't care about money.
+Nutty purists like Richard Matthew Stallman (RMS).
 
 <img class="picright" width="138vw" alt="The Original Commodore Logo Specifications" src="/assets/images/commodore-logo.jpg">
 I worked at legendary Commodore back in the days of my Philly 'burbs roots.
