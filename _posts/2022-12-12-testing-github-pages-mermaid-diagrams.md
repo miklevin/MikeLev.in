@@ -4,7 +4,7 @@ title: Testing Github Pages Mermaid Diagrams
 headline: Successfully Testing Github Pages and Mermaid Diagrams to Improve My Website
 description: I tested Github Pages Mermaid Diagrams to make sure my main homepage is up to date and optimized for SEO. My tests were successful, so I'm now able to add a mermaid diagram to my homepage. Plus, I found a page that documents the mermaid system. Read my blog post to find out how I used Github Pages and Mermaid Diagrams to improve my website.
 keywords: Github Pages, Mermaid Diagrams, SEO, Website, Documentation, Improvement
-categories: jekyll, seo
+categories: seo, jekyll
 permalink: /blog/testing-github-pages-mermaid-diagrams/
 layout: post
 ---
@@ -59,5 +59,5 @@ Okay, the work
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)
 headline: My Cowardly Encounter with a Hammer-Wielding Attacker and the Gratitude I Gained From It
 description: This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.
 keywords: ENIAC, UNIX, MOS 6502, Batman complex, Sherlock Holmes, R. Daneel Olivaw, Wrong John Silver, Craig of The Creek, Karate, Michael Rubin, Undercover Boss, James Bond, Ender's Game, South Philly, Crack Era, Secamp 32, Entity Relationship Diagrams, Graphic Design, Check Cashing, Mellon Bank, Queens Village, Linux, Vi, Time Wars
-categories: linux, vi
+categories: vi, linux
 permalink: /blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/
 layout: post
 ---
@@ -45,15 +45,27 @@ Many people in your life will give you exactly the opposite advice than what you
 
 Often, trusted relations will give you bad advice unintentionally *"because they love you"* and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking their advice? That's now detectives like Sherlock Holmes and R. Daneel Olivaw (the inspiration for Mr. Data) solve crimes: look for motivations.
 
-One thing I hated most was Wrong John Silver. I'll talk about him plenty elsewhere, suffice to say he was not a nice person. He was The Wicked Witch of The West the first time a Twister set me down in an OZ. That first trip to OZ was the legendary Commodore Computers, inexplicably in the burbs of PA where I grew up. 
+One OZ character I really hated was *Wrong John Silver*. Wrong John was a
+[schiller](https://www.urbandictionary.com/define.php?term=shill). Per Urban
+Dictionary, a shill is a person who publicly attempts to increase credibility
+and approval for some other entity without disclosing that connection. In other
+words, someone planted in the audience to boo and heckle and generally
+undermine someone else's credibility. 
 
-Little did I know the rich nearby history of the birth of the first US computer
-ENIAC, the first US portable OS UNIX and the first home computer enabling
-integrated circuit knockoff Norristown MOS 6502. I did not know I was
-already at the birthplace of magic. And I qualify that with "US" because the
-Brits did most of this stuff first, such as the codebreaking at Bletchley Park
-and BCPL, the precursor to C that made UNIX possible. We Americans love
-rewriting history. Yippee-ki-yay mudder fudder!
+Little did I know, Wrong John was a shill, and I walked right into the booing
+and heckling. But that's for another Magnum Opus. That first trip to OZ was to
+my to a spin-off of the legendary Commodore Computers, inexplicably in the
+burbs of PA where I grew up. It was after graduating college and finishing with
+a year of running a check-cashing business I had to take over when Dad died.
+
+Little did I know the rich tech-history of where I was born and grew up. It
+felt like dull, grey, drought-ridden Kansas to me. But it was the birthplace of
+the first computer, ENIAC, the first portable OS UNIX and the first home home
+computer enabling integrated circuit knockoff, the MOS 6502 out of Norristown,
+PA. I did not know I was already at the birthplace of magic. And I qualify that
+with "US" because the Brits did most of this stuff first, such as the
+codebreaking at Bletchley Park and BCPL, the precursor to C that made UNIX
+possible. We Americans love rewriting history. Yippee-ki-yay mudder fudder!
 
 I would have probably lived my whole life in a 30-mile radius of that grey dreary little ideally desolate corner of suburbia, with such wonderful character as Namby Cruller who told my sister she was adopted before she herself knew. Way to raise your kid there Crullers! My life then became miserable. 
 
@@ -113,5 +125,5 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
