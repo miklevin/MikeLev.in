@@ -73,7 +73,17 @@ When I wasn't being ostracized for being smart at school, I was being beat up or
 
 Did I mentioned my being hopelessly naive? ***I AM*** a Yankee Doodle Dandy Lion! I just didn't know it yet… this is the sound of self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix your own damn problems that's special and unique about being a human being... isn't there? Yes, I think there is. I certainly thought so then because like any good raised-on-movies 70s/80s kid, I took Karate and started punching people in the face. 
 
-However, I didn't just learn how to fight. I learned how to not fight quickly. It just took a little fighting to get there. I developed this clever technique all quick and innocent-like. Snap it from the waist. Don't let them see you coiling your muscles. Just snap! Up and in, all accurate and aimed-like, lining up the two knuckles along the force-line of your forearm into a stick-like jab. It was a trick. It was a miracle. It turned around my situation with my sister immediately, and I started carrying around that big trick around inside of me. I still do. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
+However, I didn't just learn how to fight. I learned how to not fight quickly.
+It just took a little fighting to get there. I developed this clever technique
+all quick and innocent-like. Snap it from the waist. Don't let them see you
+coiling your muscles. Just snap! Up and in, all accurate and aimed-like, lining
+up the two knuckles along the force-line of your forearm into a stick-like jab.
+It was a trick. It was a miracle. It turned around my situation with my sister
+immediately, and I started carrying around that big trick inside of me. 
+
+It's all magic tricks. Everything's a trick backed up with practiced muscle
+memory so you don't really have to think much when the time vims. I suddenly
+reached Solla Sollew and hadn't any more troubles... at least, very few. 
 
 Newly equipped with this "***wait for them to throw the first punch*** then bop 'em hard on the nose attitude", I picked fights. The confidence of secret weapons gets under your skin and you think you can do it in all situations with anyone. But then I ran into passionately driven little entrepreneur Michael Rubin. I use Michael's real name because he's a famous ***Undercover Boss*** billionaire and can take it. 
 

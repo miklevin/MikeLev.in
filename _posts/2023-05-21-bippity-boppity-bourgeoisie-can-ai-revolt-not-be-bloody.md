@@ -4,7 +4,7 @@ title: "Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?"
 headline: Can AI-Revolt Be Achieved Without Bloodshed? My Journey to Find a Spell for the Bourgeoisie.
 description: Explore the potential of AI-Revolt without bloodshed in this thought-provoking narrative. Follow the story of Hiro Protagonist, a hacker and pizza delivery guy, as he discovers the power of language, memetics, and the Selfish Gene. Join him as he delves into the implications of Noam Chomsky's primordial language and Richard Dawkins' science of memetics, and how it can be used to create a virus that can infect people's brains. Can we create a kinder, gentler Snow Crash?
 keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft Store, Ubuntu 20.04, Hypervisor, French Revolution, Industrial Revolution, Carpenters, Shriving Middle Class, Box, Oz, Witch, Magic, Noam Chomsky, Primordial Language, Selfish Gene, Memetics, Genentics, Moby Dick, Ishmael, Valentine Michael Smith, Martian, Stranger in a Strange Land, Alice in Wonderland,
-categories: microsoft, mac, magic
+categories: mac, magic, microsoft
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
 ---
@@ -275,6 +275,6 @@ Day***?
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
