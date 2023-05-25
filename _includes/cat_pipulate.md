@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)
+<br/>As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.</li>
 <li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)
 <br/>I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.</li>
 <li><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a> (Wed Mar 29, 2023)

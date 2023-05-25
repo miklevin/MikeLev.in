@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)
+<br/>As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
 <br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a> (Sun May 21, 2023)

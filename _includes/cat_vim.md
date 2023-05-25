@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)
+<br/>As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.</li>
 <li><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a> (Wed May 24, 2023)
 <br/>Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job.</li>
 <li><a href="/blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/">And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.</a> (Tue May 23, 2023)

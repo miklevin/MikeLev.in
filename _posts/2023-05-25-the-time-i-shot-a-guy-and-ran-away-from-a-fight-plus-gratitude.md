@@ -133,7 +133,7 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
