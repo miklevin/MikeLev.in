@@ -43,7 +43,7 @@ application.
 
 Many people in your life will give you exactly the opposite advice than what you need to hear. I may be doing it right now. I'm not, but entertain me. Question what I'm saying just to get in the practice of questioning everything. 
 
-Some do it unintentionally because they love you and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking their advice? That's now detectives like Sherlock Holmes and R. Daneel Olivaw (the inspiration for Mr. Data) solve crimes: look for motivations.
+Often, trusted relations will give you bad advice unintentionally *"because they love you"* and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking their advice? That's now detectives like Sherlock Holmes and R. Daneel Olivaw (the inspiration for Mr. Data) solve crimes: look for motivations.
 
 One thing I hated most was Wrong John Silver. I'll talk about him plenty elsewhere, suffice to say he was not a nice person. He was The Wicked Witch of The West the first time a Twister set me down in an OZ. That first trip to OZ was the legendary Commodore Computers, inexplicably in the burbs of PA where I grew up. 
 
