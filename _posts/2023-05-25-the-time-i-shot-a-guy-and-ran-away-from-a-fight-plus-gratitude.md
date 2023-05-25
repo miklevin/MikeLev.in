@@ -30,11 +30,16 @@ the Batman complex I've talked about so much recently. Instead of ***drive***
 and self-improvement, traumatic events can isolate and weaken the soul. 
 
 It's a trap! The angels betting against you and your vibe-type want you to
-despair. Your despair is your enemy's wins. Instead, make a meal of your
-angelic enemies' lessons and digest and draw nourishment from their best parts,
-heinous the meal may otherwise be. This is both necessary for best results, and
-divine justice. I'll leave the afterlife and eternal soul fufu for other posts.
-In this post I talk about practical application.
+despair. Despair is the feeling your enemy winning. And it's not true! It's a
+trap of the mind. Escape that rabbit hole, Forrest! Run and don't ever stop.
+No, take that and reverse it (in the words of the great Willy Wonka). Don't run
+from your problems. 
+
+Instead, make a meal of your angelic enemies' lessons and digest and draw
+nourishment from their best parts, heinous the meal may otherwise be. This is
+both necessary for best results, and divine justice. I'll leave the afterlife
+and eternal soul fufu for other posts. In this post I talk about practical
+application.
 
 Many people in your life will give you exactly the opposite advice than what you need to hear. I may be doing it right now. I'm not, but entertain me. Question what I'm saying just to get in the practice of questioning everything. 
 
