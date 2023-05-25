@@ -10,17 +10,19 @@ group: home
 ## Old Mike Levin Spins a Yarn...
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
-Hello World! I'm an old SEO, SciFi reader and Mac & Windows fanboy who today
-writes ***with***&#151;but more importantly ***for*** AI. I lived in the dull
-grey landscape of SEO until a Twister picked my house up and dropped me in MOZ.
-My opinion here are wholly my own. In fact, I'm likely to upset them with all
-my crazy writing, but old Mike Levin's conducting experiments: A-I-S-E-O.
 
-Follow me! It's easy to remember because my name is my website. Just drop a
-dot before the last 2 letters, and you're ***.in***! It will also work with
-miklev.in, because I often drop the "e" in Mike. Got it? Okay, now to business.
-I journal. I write. I code. I blog. I do all of this at an extraordinary rate
-because I practice, but also because I am a vim user.
+Hello World! I'm an old SciFi reader and Mac & Windows fanboy who today writes
+***with***&#151;but more importantly ***for*** AI. I lived in the dull grey of
+Kansas... I mean Pennsylvania until a Twister picked me up and dropped me into
+the middle of MOZ. I'm hopelessly naive as Dorothy, but make it work. My
+opinions are my own and would get my fired by anyone other than the owner of
+***Amazing Stories***. And that's a fax... sort of.
+
+Follow me! My site is easy to remember because it's my name! No dotcom. Just
+drop the dot down in front of the last 2 letters, and you're ***totally .in***!
+You've got an in. Miklev.in works too, because I often drop the "e" of Mike.
+Okay, now to business. I journal. I write. I code. I blog. I do all of this at
+an extraordinary rate because I practice, but also because I am a vim user.
 
 Users of vim and the vi, the 1976 text editor it was based on, and the new
 (Neo) version called NeoVim are less common than those who have chosen the

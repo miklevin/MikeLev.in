@@ -4,7 +4,7 @@ title: Browser Automation Becoming Natural & Easy At Long Last
 headline: Making Browser Automation Easier with Pandas and Playwright
 description: I'm working on a big project and documenting my progress on my blog. I've combined tabs into one data frame, deduped the list, calculated job eta, picked APIs date format, and defined typical month ranges for GA APIs. I'm now ready to perform browser automation, configuring the browser to be headless and setting up a namedtuple for arguments. I'm also using the Pandas library to read a directory full of downloads and joining them together.
 keywords: Browser Automation, Tabs, Data Frame, Dedupe, Job Eta, API, Date Format, Month Ranges, Configure, Headless, Namedtuple, Arguments, SqliteDict, Async_playwright, Context Manager, Pre-recorded, Intermittent Random Pauses, Playwright Inspector, Record Logged-in Sessions, Pandas Library, Downloads, Stacking Approach, Year, Pivot Tables, Excel File
-categories: python, browser automation, database
+categories: python, database, browser automation
 permalink: /blog/browser-automation-becoming-natural-easy-at-long-last/
 layout: post
 ---
@@ -263,5 +263,5 @@ print("Done")
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
