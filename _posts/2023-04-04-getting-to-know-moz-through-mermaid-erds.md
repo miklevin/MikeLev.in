@@ -4,7 +4,7 @@ title: Getting To Know MOZ Through Mermaid ERDs
 headline: Creating SEO Deliverables with MermaidJS and ERDs on April 4, 2023
 description: "I'm creating an SEO deliverable on April 4, 2023 by creating Entity Relationship Diagrams (ERDs) of the various MOZ products. To do this, I'm using MermaidJS, a markdown-based language tool. I'm exploring how to use the Mermaid syntax for ERDs, which is compatible with PlantUML, and the statement structure of `first-entity [relationship second-entity : relationship-label]`. Come"
 keywords: MOZ, Mermaid, ERDs, SEO, Deliverable, April 4, 2023, Entity Relationship Diagrams, MermaidJS, Markdown-based, Language Tool, PlantUML, Relationship, Relationship-Label
-categories: seo, deliverable
+categories: deliverable, seo
 permalink: /blog/getting-to-know-moz-through-mermaid-erds/
 layout: post
 ---
@@ -91,5 +91,5 @@ erDiagram
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/deliverable/'>Deliverable</a></h4></li></ul>
+<li><h4><a href='/deliverable/'>Deliverable</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

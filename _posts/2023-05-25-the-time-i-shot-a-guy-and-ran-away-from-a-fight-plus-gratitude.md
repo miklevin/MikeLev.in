@@ -4,7 +4,7 @@ title: The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)
 headline: My Cowardly Encounter with a Hammer-Wielding Attacker and the Gratitude I Gained From It
 description: This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.
 keywords: ENIAC, UNIX, MOS 6502, Batman complex, Sherlock Holmes, R. Daneel Olivaw, Wrong John Silver, Craig of The Creek, Karate, Michael Rubin, Undercover Boss, James Bond, Ender's Game, South Philly, Crack Era, Secamp 32, Entity Relationship Diagrams, Graphic Design, Check Cashing, Mellon Bank, Queens Village, Linux, Vi, Time Wars
-categories: linux, vi
+categories: vi, linux
 permalink: /blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/
 layout: post
 ---
@@ -71,7 +71,9 @@ I would have probably lived my whole life in a 30-mile radius of that grey drear
 
 When I wasn't being ostracized for being smart at school, I was being beat up or accidentally killing cats at home. I love you Scooter and Nermal, wherever you are! Thank you for the lessons you each taught me. Head job after head job pounded into me, pushing my sensitive ass out back into to woods and the wonderful world ***the creek***. Ever watch the amazing Matt Burnett and Ben Levin cartoon ***Craig of The Creek***? Yeah that was me except for the happy family life part. 
 
-Did I mentioned my being hopelessly naive? ***I AM*** a Yankee Doodle Dandy Lion! I just didn't know it yet… this is the sound of self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix your own damn problems that's special and unique about being a human being... isn't there? Yes, I think there is. I certainly thought so then because like any good raised-on-movies 70s/80s kid, I took Karate and started punching people in the face. However, I developed this clever technique all quick and innocent-like. Snap it from the waist. Don't let them see you coiling your muscles. Just snap! Up and in, all accurate and aimed-like, lining up the two knuckles along the force-line of your forearm into a stick-like jab. It was a trick. It was a miracle. It turned around my situation with my sister immediately, and I started carrying around that big trick around inside of me. I still do. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
+Did I mentioned my being hopelessly naive? ***I AM*** a Yankee Doodle Dandy Lion! I just didn't know it yet… this is the sound of self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix your own damn problems that's special and unique about being a human being... isn't there? Yes, I think there is. I certainly thought so then because like any good raised-on-movies 70s/80s kid, I took Karate and started punching people in the face. 
+
+However, I didn't just learn how to fight. I learned how to not fight quickly. It just took a little fighting to get there. I developed this clever technique all quick and innocent-like. Snap it from the waist. Don't let them see you coiling your muscles. Just snap! Up and in, all accurate and aimed-like, lining up the two knuckles along the force-line of your forearm into a stick-like jab. It was a trick. It was a miracle. It turned around my situation with my sister immediately, and I started carrying around that big trick around inside of me. I still do. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
 
 Newly equipped with this "***wait for them to throw the first punch*** then bop 'em hard on the nose attitude", I picked fights. The confidence of secret weapons gets under your skin and you think you can do it in all situations with anyone. But then I ran into passionately driven little entrepreneur Michael Rubin. I use Michael's real name because he's a famous ***Undercover Boss*** billionaire and can take it. 
 
@@ -125,5 +127,5 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
