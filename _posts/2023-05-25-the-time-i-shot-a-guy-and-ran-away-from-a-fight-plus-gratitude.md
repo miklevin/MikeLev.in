@@ -57,7 +57,7 @@ rewriting history. Yippee-ki-yay mudder fudder!
 
 I would have probably lived my whole life in a 30-mile radius of that grey dreary little ideally desolate corner of suburbia, with such wonderful character as Namby Cruller who told my sister she was adopted before she herself knew. Way to raise your kid there Crullers! My life then became miserable. 
 
-When I wasn't being ostracize for being smart at schools, I was being beat up or accidentally killing cats at home. The deaths were all accidents! Head job after head job pounded into me, pushing my sensitive ass out to the creek. Ever watch the wonderful cartoon Craig of The Creek? Yeah that was me except for the happy family life part. 
+When I wasn't being ostracized for being smart at school, I was being beat up or accidentally killing cats at home. The deaths were all accidents! Head job after head job pounded into me, pushing my sensitive ass out to the creek. Ever watch the wonderful cartoon Craig of The Creek? Yeah that was me except for the happy family life part. 
 
 I mentioned being hopelessly naive? Well I just didn't know… self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix problems about being human, isn't there? So I took Karate and started punching people in the face all quick and innocent like. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
 

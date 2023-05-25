@@ -4,7 +4,7 @@ title: Do The Right Thing Morally, Spiritually & Technically
 headline: "Reinventing Myself: Mike Levin's Journey of Overcoming Negativity and Staying Relevant"
 description: I'm Mike, and I'm determined to not let negativity stop me. I'm taking steps to stay relevant in my industry by learning Linux, Python, vim, and git, while also working on building self-confidence. From my father, a quality assurance engineer, to the Commodore tech of my childhood, to the Microsoft Web-tech I encountered later, I'm learning important lessons and continuously reinventing myself.
 keywords: Moral, Spiritual, Technical, Linux, Python, Vim, Git, Quality Assurance, Commodore, Microsoft, Web-Tech, Public Relations, Amazon.com, Microsoft Active Server Pages, SEO, NYC, Divorce, Pandemic
-categories: seo, git, microsoft, new york city, vim, python, amiga, linux
+categories: seo, microsoft, git, linux, vim, amiga, python, new york city
 permalink: /blog/do-the-right-thing-morally-spiritually-technically/
 layout: post
 ---
@@ -220,10 +220,10 @@ The next chapter ***has begun***.
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>
