@@ -43,7 +43,7 @@ application.
 
 Many people in your life will give you exactly the opposite advice than what you need to hear. I may be doing it right now. I'm not, but entertain me. Question what I'm saying just to get in the practice of questioning everything. 
 
-Some do it unintentionally because they love you and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking your advice. That's now destructives like Sherlock Holmes and R. Daneel Olivaw solve crimes: look for motivations.
+Some do it unintentionally because they love you and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking your advice. That's now detectives like Sherlock Holmes and R. Daneel Olivaw solve crimes: look for motivations.
 
 One thing I hated most was Wrong John Silver. I'll talk about him plenty elsewhere, suffice to say he was not a nice person. He was The Wicked Witch if The East the first time a Twister set me down in Oz. Bit that time, my OZ was legendary Commodore Computers, inexplicably in the burbs of PA where I grew up. 
 
