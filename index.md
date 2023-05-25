@@ -5,17 +5,29 @@ title: Mike Levin, SEO in NYC
 group: home
 ---
 
-# Old McLevin Spins a Yarn
+# What's A-I-S-E-O?
 
-## A-I-S-E-O
+## Old Mac Levin Spins a Yarn...
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
-Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
-[writes ***for*** AI](https://moz.com/blog/bing-and-bard-feature-timeline), but
-not ***with AI***, keeping my mind sharp and those muscles from atrophying. My
-name is my website and it reads the same upside down. Tap your creative
-subconscious and write more, not less. Start journaling today. I'll show you
-how to [chop the YAML](https://github.com/miklevin/yamlchop)!
+
+Hello World! I'm an old SEO, SciFi reader and Mac & Windows fanboy who today
+writes ***with*** and more importantly ***for*** AI. I lived in the dull grey
+landscape of SEO until a Twister picked my house up and dropped me in MOZ. My
+opinion here are wholly my own. In fact, I'm likely to upset them with all my
+crazy writing, but old Mike Levin's conducting experiments: A-I-S-E-O.
+
+Follow me! It's easy to remember because my name is my website. Just drop a
+dot before the last 2 letters, and you're ***.in***! It will also work with
+miklev.in, because I often drop the "e" in Mike. Got it? Okay, now to business.
+I journal. I write. I code. I blog. I do all of this at an extraordinary rate
+because I practice, but also because I am a vim user.
+
+Users of vim and the vi, the 1976 text editor it was based on, and the new
+(Neo) version called NeoVim are less common than those who have chosen the
+clearer VSCode path. It has been ages and ages since I took the less traveled
+way, and looking back I can tell you with a sigh, knowing you are unlikely to
+take my advice, this has made all the difference.
 
 > <nobr>Deep within my heart and soul </nobr>
 > <nobr>Two me's fight for the truth&#151; </nobr>
