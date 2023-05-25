@@ -1709,6 +1709,9 @@ dictitems:
   batman:
     count: 4
     title: Batman
+  batman complex:
+    count: 1
+    title: Batman complex
   batshit:
     count: 1
     title: batshit
@@ -2714,6 +2717,9 @@ dictitems:
   cheating:
     count: 1
     title: Cheating
+  check cashing:
+    count: 1
+    title: Check Cashing
   check cashing store:
     count: 2
     title: check cashing store
@@ -3689,6 +3695,9 @@ dictitems:
   cpac:
     count: 1
     title: CPAC
+  crack era:
+    count: 1
+    title: Crack Era
   cracking the code:
     count: 1
     title: Cracking the Code
@@ -3704,6 +3713,9 @@ dictitems:
   craig loewen:
     count: 1
     title: Craig Loewen
+  craig of the creek:
+    count: 1
+    title: Craig of The Creek
   crappy output:
     count: 1
     title: crappy output
@@ -5390,6 +5402,9 @@ dictitems:
   ender:
     count: 1
     title: Ender
+  ender's game:
+    count: 1
+    title: Ender's Game
   endpoint:
     count: 4
     title: Endpoints
@@ -5426,6 +5441,9 @@ dictitems:
   english language:
     count: 1
     title: English language
+  eniac:
+    count: 1
+    title: ENIAC
   enjoyable:
     count: 1
     title: Enjoyable
@@ -5448,7 +5466,7 @@ dictitems:
     count: 2
     title: Entertainment
   entity relationship diagrams:
-    count: 1
+    count: 2
     title: Entity Relationship Diagrams
   entrepreneur:
     count: 1
@@ -7173,7 +7191,7 @@ dictitems:
     count: 8
     title: Graphics
   graphic design:
-    count: 1
+    count: 2
     title: Graphic Design
   graphic novel:
     count: 1
@@ -8643,7 +8661,7 @@ dictitems:
     count: 1
     title: Jake
   james bond:
-    count: 1
+    count: 2
     title: James Bond
   james clerk maxwell:
     count: 3
@@ -8954,6 +8972,9 @@ dictitems:
   "kaluza\u2013":
     count: 1
     title: "Kaluza\u2013"
+  karate:
+    count: 1
+    title: Karate
   karate club:
     count: 1
     title: Karate Club
@@ -9594,7 +9615,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 168
+    count: 169
     title: Linux
   linux api:
     count: 1
@@ -10619,6 +10640,9 @@ dictitems:
   meissner effect:
     count: 2
     title: Meissner Effect
+  mellon bank:
+    count: 1
+    title: Mellon Bank
   meme:
     count: 1
     title: Memes
@@ -10769,6 +10793,9 @@ dictitems:
   michael levin:
     count: 1
     title: Michael Levin
+  michael rubin:
+    count: 1
+    title: Michael Rubin
   michael scott:
     count: 1
     title: Michael Scott
@@ -11138,6 +11165,9 @@ dictitems:
   morning joe:
     count: 1
     title: morning joe
+  mos 6502:
+    count: 1
+    title: MOS 6502
   moses:
     count: 1
     title: Moses
@@ -13985,6 +14015,9 @@ dictitems:
   qubits:
     count: 1
     title: Qubits
+  queens village:
+    count: 1
+    title: Queens Village
   query:
     count: 4
     title: Query
@@ -14027,6 +14060,9 @@ dictitems:
   r-key:
     count: 1
     title: R-key
+  r. daneel olivaw:
+    count: 1
+    title: R. Daneel Olivaw
   rabbit:
     count: 2
     title: Rabbit
@@ -15266,6 +15302,9 @@ dictitems:
   searchability:
     count: 1
     title: searchability
+  secamp 32:
+    count: 1
+    title: Secamp 32
   second:
     count: 1
     title: Seconds
@@ -15632,6 +15671,9 @@ dictitems:
   shelter island conference:
     count: 1
     title: Shelter Island Conference
+  sherlock holmes:
+    count: 1
+    title: Sherlock Holmes
   shift:
     count: 2
     title: Shift
@@ -16127,6 +16169,9 @@ dictitems:
   south park:
     count: 2
     title: South Park
+  south philly:
+    count: 1
+    title: South Philly
   space:
     count: 4
     title: Space
@@ -17549,6 +17594,9 @@ dictitems:
   time travel:
     count: 1
     title: Time Travel
+  time wars:
+    count: 1
+    title: Time Wars
   time-saving:
     count: 1
     title: time-saving
@@ -18074,6 +18122,9 @@ dictitems:
   unconscious:
     count: 1
     title: Unconscious
+  undercover boss:
+    count: 1
+    title: Undercover Boss
   understand:
     count: 3
     title: Understand
@@ -18168,7 +18219,7 @@ dictitems:
     count: 1
     title: University of Manchester
   unix:
-    count: 21
+    count: 22
     title: Unix
   unix hater's handbook:
     count: 1
@@ -18471,8 +18522,8 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 6
-    title: vi
+    count: 7
+    title: Vi
   vi-based platform:
     count: 1
     title: vi-based platform
@@ -19262,6 +19313,9 @@ dictitems:
   writing suggestion tool:
     count: 1
     title: Writing Suggestion Tool
+  wrong john silver:
+    count: 1
+    title: Wrong John Silver
   wsl:
     count: 47
     title: WSL

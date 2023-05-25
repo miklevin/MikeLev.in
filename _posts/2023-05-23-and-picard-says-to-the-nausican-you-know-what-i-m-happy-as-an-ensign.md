@@ -129,4 +129,4 @@ Try some thought experiments and live some vicarious experiences, Burr. Know wha
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/vi/'>vi</a></h4></li></ul>
+<li><h4><a href='/vi/'>Vi</a></h4></li></ul>

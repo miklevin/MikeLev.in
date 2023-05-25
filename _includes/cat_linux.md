@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/">The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)</a> (Thu May 25, 2023)
+<br/>This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)
 <br/>In this article, I discuss the importance of my maintaining a standard Windows desktop background and the advantages of using Linux containers on Windows and Mac. I also talk about the history of Microsoft's NT architecture and the emergence of WSL, Ubuntu 20.04, and the Microsoft Store. I further explore the implications of the Oracle-owned VirtualBox and the Canonical-owned Snap store, as well as the need for a Linux kernel on Macs.</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)
