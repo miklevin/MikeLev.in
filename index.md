@@ -5,9 +5,9 @@ title: Mike Levin, SEO in NYC
 group: home
 ---
 
-# Mike Levin NYC SEO
+# Old McLevin Spins a Yarn
 
-## Don't Let AI Atrophy Your Brain
+## A-I-S-E-O
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Hey folks, I'm an [SEO](https://www.pcmag.com/picks/the-best-seo-tools) who
