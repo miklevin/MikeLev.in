@@ -11,8 +11,8 @@ layout: post
 
 
 Most names are changed to protect the innocent. But if you're guilty of me
-loving you, I have not changed your name. This article is dedicated perhaps
-above all others, Guy Bruchstein, my lifelong friend, no matter how distant and
+loving you, I have not changed your name. This article is dedicated to above
+all others, Guy Bruchstein, my lifelong friend, no matter how distant and
 separate our lives have become over the years. Sometimes there's someone who
 taught you just about every lesson you ever needed to know, and you didn't even
 know it. Guy, you're that guy.
@@ -30,8 +30,8 @@ the Batman complex I've talked about so much recently. Instead of ***drive***
 and self-improvement, traumatic events can isolate and weaken the soul. 
 
 It's a trap! The angels betting against you and your vibe-type want you to
-despair. Despair is the feeling your enemy winning. And it's not true! It's a
-trap of the mind. Escape that rabbit hole, Forrest! Run and don't ever stop.
+despair. Despair is the feeling of your enemy winning. And it's not true! It's
+a trap of the mind. Escape that rabbit hole, Forrest! Run and don't ever stop.
 No, take that and reverse it (in the words of the great Willy Wonka). Don't run
 from your problems. 
 
@@ -43,9 +43,9 @@ application.
 
 Many people in your life will give you exactly the opposite advice than what you need to hear. I may be doing it right now. I'm not, but entertain me. Question what I'm saying just to get in the practice of questioning everything. 
 
-Some do it unintentionally because they love you and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking your advice. That's now detectives like Sherlock Holmes and R. Daneel Olivaw solve crimes: look for motivations.
+Some do it unintentionally because they love you and they need you and they don't want you leaving. Look at motivations. What do they get out of you taking their advice? That's now detectives like Sherlock Holmes and R. Daneel Olivaw (the inspiration for Mr. Data) solve crimes: look for motivations.
 
-One thing I hated most was Wrong John Silver. I'll talk about him plenty elsewhere, suffice to say he was not a nice person. He was The Wicked Witch if The East (but not killed by the landing hose) the first time a Twister set me down in an OZ. That first trip to OZ was the legendary Commodore Computers, inexplicably in the burbs of PA where I grew up. 
+One thing I hated most was Wrong John Silver. I'll talk about him plenty elsewhere, suffice to say he was not a nice person. He was The Wicked Witch of The West the first time a Twister set me down in an OZ. That first trip to OZ was the legendary Commodore Computers, inexplicably in the burbs of PA where I grew up. 
 
 Little did I know the rich nearby history of the birth of the first US computer
 ENIAC, the first US portable OS UNIX and the first home computer enabling
@@ -57,11 +57,11 @@ rewriting history. Yippee-ki-yay mudder fudder!
 
 I would have probably lived my whole life in a 30-mile radius of that grey dreary little ideally desolate corner of suburbia, with such wonderful character as Namby Cruller who told my sister she was adopted before she herself knew. Way to raise your kid there Crullers! My life then became miserable. 
 
-When I wasn't being ostracized for being smart at school, I was being beat up or accidentally killing cats at home. The deaths were all accidents! Head job after head job pounded into me, pushing my sensitive ass out back into to woods and the wonderful world ***the creek***. Ever watch the wonderful cartoon Craig of The Creek? Yeah that was me except for the happy family life part. 
+When I wasn't being ostracized for being smart at school, I was being beat up or accidentally killing cats at home. The deaths were all accidents! Head job after head job pounded into me, pushing my sensitive ass out back into to woods and the wonderful world ***the creek***. Ever watch the wonderful cartoon ***Craig of The Creek***? Yeah that was me except for the happy family life part. 
 
-I mentioned being hopelessly naive? Well I just didn't know… self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix problems about being human, isn't there? So I took Karate and started punching people in the face all quick and innocent like. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
+Did I mentioned my being hopelessly naive? ***I AM*** a Yankee Doodle Dandy Lion! I just didn't know it yet… this is the sound of self-pity, waaaaaa! Okay, there's something about being able to bootstrap yourself and fix your own damn problems that's special and unique about being a human being... isn't there? Yes, I think there is. I certainly thought so then because like any good raised-on-movies 70s/80s kid, I took Karate and started punching people in the face. However, I developed this clever technique all quick and innocent-like. Snap it from the waist. Don't let them see you coiling your muscles. Just snap! Up and in, all accurate and aimed-like, lining up the two knuckles along the force-line of your forearm into a stick-like jab. It was a trick. It was a miracle. It turned around my situation with my sister immediately, and I started carrying around that big trick around inside of me. I still do. I suddenly reached Solla Sollew and hadn't more troubles—at least very few. 
 
-Newly equipped with this "wait for them to the row the first punch then bop 'em hard on the nose attitude", I picked fights. The confidence of secret weapons gets under your skin and you think you can do it in all situations with anyone. But then I ran into passionately driven little entrepreneur Michael Rubin. I use Michael's real name because he's a famous Undercover Boss billionaire and can take it. 
+Newly equipped with this "***wait for them to throw the first punch*** then bop 'em hard on the nose attitude", I picked fights. The confidence of secret weapons gets under your skin and you think you can do it in all situations with anyone. But then I ran into passionately driven little entrepreneur Michael Rubin. I use Michael's real name because he's a famous ***Undercover Boss*** billionaire and can take it. 
 
 Also, I was a coward and for the first time in months took the school bus home missing the time and place I was "called out" for a fight. It's going to sound like a wussy excuse, by my macho macho 1971 metallic blue BOSS Mustang convertible with a 351 Cleveland stick car racing engine was in the shop that day and I would have had to walk home from high school after the fight.  
 
