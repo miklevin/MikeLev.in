@@ -48,11 +48,19 @@ neighbor? And God knows you need it as the double and triple whammy
 existentialism inducing punches are administered by big tech in the race to
 become Earth's first AI overloard in this latest gold rush. 
 
-No, that's not chicken little nhilism. I love it! We're on the best of all
-possible timelines because we're alive, free, still here and have plumbing.
-This is not a perfect day, but we have a shot at it. Christ, Marx, Woo and
-Wei, May lead us to that perfect day. It is my job to woo you. I'm a wooer. 
-Woo hoo! Can I lead them to vim? Yeah, let's try to lead them to vim.
+No, and ***that's*** not chicken little nihilism. I love it! As an old SciFi
+reader, I'm here to tell you we're on one of the best of all possible timelines
+because we're alive, free, still here and have plumbing. I was 14 when
+breathing a sigh of relief that 1984 wasn't ***1984***. The nattering nabobs of
+the AIpocalypse will say "yeah, it's worse!". But ***it's not!***. It's better.
+
+***This Perfect Day*** may not be perfect, but we can work on it. We can build
+our way up to it, laying down layer after layer, as each generation builds on
+the last, and the one generation before that dies off. There's about 40 years
+between generational seismic shifts. And don't wait for a savior. Christ, Marx,
+Woo and Wei won't lead us to a perfect day. But I can play my tiny little part
+to try to woo you. I'm a wooer. Woo hoo! Can I lead them to vim? Yeah, let's
+try to lead them to vim and daily journaling!
 
 Users of vim and the 1976 vi text editor it's based on... and users of the new
 (a.k.a. neo) version called NeoVim are less common than those who have chosen a
