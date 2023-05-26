@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: google, git, ai, microsoft, evolution
+categories: microsoft, ai, git, evolution, google
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -89,11 +89,12 @@ elsewhere. Google Docs? You can get that elsewhere too. Once things are turned
 into commodities, they're interchangeable.
 
 And once things are interchangeable, they who control the cheapest, best, most
-well marketed hardware platforms win. And so Google has Android... barely. It's
-all Free and Open Source if you're not using the Google Play Store. And we see
-over and over countries like China, India and Russia "making their own"
-Android, but it's really just them forking the FOSS parts of Android and
-replacing the Google Play Store with their own.
+well marketed hardware platforms win. That's because of default settings,
+laziness, and attrition. Microsoft owns the desktop. But Google has Android...
+barely. It's all Free and Open Source if you're not using the Google Play
+Store. And we see over and over countries like China, India and Russia "making
+their own" Android, but it's really just them forking the FOSS parts of Android
+and replacing the Google Play Store with their own.
 
 This echoes what's going on today with Google having made the Chromium FOSS
 core of their Chrome browser free and open source, and now Microsoft dumped
@@ -380,8 +381,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
