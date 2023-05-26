@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: git, microsoft, evolution, ai, google
+categories: evolution, microsoft, git, google, ai
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -382,14 +382,17 @@ called "hard" SciFi. If you care more about the people, it's called "soft"
 SciFi. You've got your Asimovs, Clarkes, Stanislaws and Vinges all doing the
 math, such as it were. And you've got your Heinleins, LeGuins, and Anthonys.
 
-What? Pierce Anthony who did the Xanth series? Yes, yes, yes. He's a fantasy
-writer, but he did SciFi too. You should read his ***Bio of a Space Tyrant***
-series. I mean talk about hard SciFi. Pierce'll pierce ya. He goes there and he
-does that. Think in extremes, but act in moderation. If you think you're doing
-that and think you are a truly nice guy, but people aren't responding to you
-that way, well maybe your version of acting in moderation is ***still*** other
-peoples idea of extreme. Ever think of that, tough guy? No? Well maybe you
-would have if you read ***Bio of a Space Tyrant***.
+What? Piers Anthony who did the Xanth series? Yes's a silly fantasy writer, but
+he wrote the unsettling ***Bio of a Space Tyrant*** series. I mean talk about
+***hard*** SciFi, phwew! Piers s piercing. He's one of those minds that really
+"goes there". He's a misogynistic, racist apologist and you shouldn't read him.
+
+From Piers' works, you can learn how to think in extremes, but always act in
+moderation. If you think what you're doing is fine and that and think you are a
+nice person, but people aren't responding to you that way, well maybe your
+version of acting in moderation is ***still*** other peoples idea of extreme.
+That's the kind of themes Piers explores. He's a master of the "what if" and
+what if's can be like horror movies. Do not read ***Bio of a Space Tyrant***.
 
 Okay, okay, pant, pant, pant... it's 6:45am and this time I want to wrap up my
 rant... I mean my Federalist Papers... I mean my daily Magnum Opus before the
@@ -435,8 +438,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
