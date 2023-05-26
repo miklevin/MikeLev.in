@@ -21,8 +21,7 @@ Full disclosure: I'm going to hypnotize you. I already started. But I don't do
 it without full disclosure. I learned this from the second most powerful wizard
 in the business, [Robert Cialdini](https://www.influenceatwork.com/). I love
 that Maxwell Smart line and will use it all the time. The most powerful wizard
-for those interested is
-[Teller](https://en.wikipedia.org/wiki/Penn_%26_Teller:_Bullshit!). He pulls
+for those interested is [Raymond Teller](https://pennandteller.com/). He pulls
 Penn's strings and makes him call ***BULLSHIT!*** You're welcome. That was your
 first college-level education.
 
