@@ -12,10 +12,10 @@ group: home
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Hello World! I'm an old SciFi reader and Mac & Windows fanboy who today writes
 ***with***&#151;but more importantly ***for*** AI. I lived in the dull grey of
-Kansas... I mean Pennsylvania until a Twister picked me up and dropped me into
-the middle of MOZ. I'm as hopelessly naive as Dorothy, but still make it work
-somehow. My opinions are my own and would get my butt fired by anyone other
-than foster parents of ***Amazing Stories***. SHAZAM!
+Kansas... I mean Philadelphia, PA until a Twister picked me up and dropped me
+into the middle of MOZ. I'm as hopelessly naive as Dorothy, but still make it
+work somehow. My opinions are my own and would get my butt fired by anyone
+other than the foster parents of ***Amazing Stories***. SHAZAM!
 
 Full disclosure: I'm going to hypnotize you. I already started. But I
 ***never*** do it without full disclosure. I learned this from the second most
