@@ -4,7 +4,7 @@ title: An Ode Tuple Keys
 headline: Exploring the Power of Tuples in Python and Web Crawling
 description: I'm downloading an update for Windows 10 Version 22H2 and transitioning to Linux, using the power of NT's 'rings of protection'. I'm running Web browser automation under Microsoft Playwright and using iPython Notebooks under JupyterLab running on Linux. I'm also exploring the usefulness of tuples in Python, and looping through a database of URLs to extract data and create a table which I'm writing to a parquet file.
 keywords: Windows 10, Version 22H2, Linux, NT, Rings of Protection, Web Browser Automation, Microsoft Playwright, iPython Notebooks, JupyterLab, Python, Tuples, URLs, Database, HTTP Response Code, HTML Parsing, Title, Description, Headlines, Body Copy, Parquet File
-categories: microsoft playwright, linux, python, jupyter, database, microsoft, tuples
+categories: jupyter, python, linux, microsoft, tuples, database, microsoft playwright
 permalink: /blog/an-ode-tuple-keys/
 layout: post
 ---
@@ -257,10 +257,10 @@ print("Done")
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/tuples/'>Tuples</a></h4></li></ul>
+<li><h4><a href='/tuples/'>Tuples</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
