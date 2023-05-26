@@ -4,7 +4,7 @@ title: "Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?"
 headline: "Robbie: Be More Than Just a 'Poser', Okay?"
 description: I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think.
 keywords: Robbie, I, Robot, iRobot, Douglas Hofstadter, Goedel, Escher, Bach, How to Draw Comics the Marvel Way, The C Programming Language, Harry Potter, Gom Jabbar, Dune, Star Trek, Asimov, Heinlein, Deep Mind Alpha Go, Atari, Pong, OpenAI, GPT, ChatGPT, Bing, DeepMind, Douglas Adams, Transformer, Alphabet, Google, Inflection, Mustafa Suley
-categories: journaling, bing, ai, google
+categories: google, journaling, bing, ai
 permalink: /blog/hey-robbie-be-i-robot-and-not-irobot-okay/
 layout: post
 ---
@@ -16,9 +16,10 @@ nobody reading this will understand, and that kicks things off right.
 
 Large shelves of books, a cozy chair, a fireplace, a cat curled up on the
 mantle knocking down a big glass vase full of catnip-stuffed cat toys. None of
-these things I have, but I used to. I put an end to the obviously stupid one
-fast once I saw it happen. And no, this is not another one of the "time I
-accidentally killed a cat" stories. This was my time in New York City.
+these things I have, but I used to. I put an end to the obviously incongruous
+one fast once I saw it happen. And no, this is not another one of the "time I
+accidentally killed a cat" stories. This was in the second place I lived in
+Manhattan, New York City.
 
 It's not easy moving those book shelves around during a move. By this time, the
 second place I lived in New York City on the Upper West Side, I had a lot of
@@ -327,7 +328,7 @@ Oh, and those bookshelves are up and I'm baaaaak, baby!
 ## Categories
 
 <ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
