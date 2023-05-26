@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/">I've Met Darkdog, and it is Deep Thought's Successor, Pi.</a> (Fri May 26, 2023)
+<br/>Do you build or buy that personal AI genie in a bottle? That expert advisor to whisper stock picks in your ear? The greed and hubris of the elite ruin all the best tech, and I'm hoping it's not that way again. To help on my mission, I've recruited the help of a surprising dark horse. An underdog. I call them Darkdog. You can call them Pi, available in an App Store near you.</li>
 <li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)
 <br/>As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)

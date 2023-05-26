@@ -786,7 +786,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 101
+    count: 102
     title: AI
   ai bros:
     count: 1
@@ -1002,7 +1002,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 8
+    count: 9
     title: Amiga
   amiga boing-ball:
     count: 1
@@ -1265,6 +1265,9 @@ dictitems:
   aquarium:
     count: 1
     title: Aquarium
+  ar:
+    count: 1
+    title: AR
   archetype:
     count: 1
     title: Archetype
@@ -1445,6 +1448,9 @@ dictitems:
   audience:
     count: 9
     title: Audience
+  augmentix:
+    count: 1
+    title: Augmentix
   august 19:
     count: 1
     title: August 19
@@ -2039,6 +2045,9 @@ dictitems:
   blinkist:
     count: 1
     title: Blinkist
+  blitter chip:
+    count: 1
+    title: Blitter chip
   block select:
     count: 1
     title: Block Select
@@ -2396,6 +2405,9 @@ dictitems:
   button:
     count: 1
     title: Button
+  buy vs build:
+    count: 1
+    title: Buy vs Build
   buying links:
     count: 1
     title: Buying Links
@@ -2949,7 +2961,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 11
+    count: 12
     title: Cloud
   cloud chamber:
     count: 1
@@ -3063,7 +3075,7 @@ dictitems:
     count: 1
     title: Codex Sassoon
   coding:
-    count: 10
+    count: 11
     title: Coding
   coding assistant:
     count: 1
@@ -3216,7 +3228,7 @@ dictitems:
     count: 1
     title: Commodity
   commodore:
-    count: 6
+    count: 7
     title: Commodore
   common:
     count: 3
@@ -6359,6 +6371,9 @@ dictitems:
   formulating:
     count: 1
     title: Formulating
+  forte vfx1:
+    count: 1
+    title: Forte VFX1
   fortress of aditude:
     count: 1
     title: Fortress of Aditude
@@ -7190,6 +7205,9 @@ dictitems:
   gpt3 chatgi:
     count: 1
     title: GPT3 ChatGI
+  gpu:
+    count: 1
+    title: GPU
   gpu utilization:
     count: 1
     title: GPU utilization
@@ -7604,6 +7622,9 @@ dictitems:
   hertz:
     count: 1
     title: Hertz
+  heuristic:
+    count: 1
+    title: Heuristics
   hidden continent:
     count: 1
     title: Hidden Continent
@@ -10250,6 +10271,9 @@ dictitems:
   mad scientist:
     count: 1
     title: Mad Scientist
+  magellan:
+    count: 1
+    title: Magellan
   magic:
     count: 8
     title: Magic
@@ -10703,6 +10727,9 @@ dictitems:
   memory:
     count: 3
     title: Memories
+  memory operations:
+    count: 1
+    title: Memory Operations
   mendel's pea plant experiment:
     count: 1
     title: Mendel's pea plant experiment
@@ -11306,6 +11333,9 @@ dictitems:
   mr. rogers:
     count: 1
     title: Mr. Rogers
+  mr. szczyp:
+    count: 1
+    title: Mr. Szczyp
   msi-installer:
     count: 1
     title: MSI-installer
@@ -11870,6 +11900,9 @@ dictitems:
   norman gimbel:
     count: 1
     title: Norman Gimbel
+  norristown:
+    count: 1
+    title: Norristown
   norristown r6:
     count: 1
     title: Norristown R6
@@ -12252,7 +12285,7 @@ dictitems:
     count: 1
     title: Optimistic
   optimization:
-    count: 3
+    count: 4
     title: Optimization
   optimize:
     count: 5
@@ -12404,6 +12437,9 @@ dictitems:
   p vs np problem:
     count: 1
     title: P vs NP Problem
+  pa:
+    count: 1
+    title: PA
   pack-rat:
     count: 1
     title: Pack-Rat
@@ -12647,6 +12683,9 @@ dictitems:
   peasy:
     count: 1
     title: peasy
+  penn & teller:
+    count: 1
+    title: Penn & Teller
   penn station:
     count: 1
     title: Penn Station
@@ -14235,7 +14274,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 4
+    count: 5
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -15794,6 +15833,9 @@ dictitems:
   sibling cruelty:
     count: 1
     title: sibling cruelty
+  sid-chip:
+    count: 1
+    title: SID-chip
   side effects:
     count: 1
     title: Side Effects
@@ -15828,7 +15870,7 @@ dictitems:
     count: 1
     title: Silicon Atoms
   silicon valley:
-    count: 1
+    count: 2
     title: Silicon Valley
   silurian:
     count: 1
@@ -16518,7 +16560,7 @@ dictitems:
     count: 1
     title: stars
   star trek:
-    count: 1
+    count: 2
     title: Star Trek
   star wars:
     count: 2
@@ -17045,6 +17087,9 @@ dictitems:
   superscript:
     count: 1
     title: Superscripts
+  supervised learning:
+    count: 1
+    title: Supervised Learning
   supplementary income:
     count: 1
     title: Supplementary Income
@@ -18632,6 +18677,9 @@ dictitems:
   vibrating eyes:
     count: 1
     title: vibrating eyes
+  vic 20:
+    count: 1
+    title: Vic 20
   vice president:
     count: 1
     title: Vice President
@@ -18659,6 +18707,9 @@ dictitems:
   video series:
     count: 1
     title: Video Series
+  video toaster:
+    count: 1
+    title: Video Toaster
   video tutorial:
     count: 2
     title: Video Tutorial
@@ -18893,6 +18944,9 @@ dictitems:
   vpn:
     count: 2
     title: VPN
+  vr:
+    count: 1
+    title: VR
   vscode:
     count: 24
     title: VSCode
@@ -19169,6 +19223,9 @@ dictitems:
   wikipedia:
     count: 1
     title: Wikipedia
+  wil wheaton:
+    count: 1
+    title: Wil Wheaton
   wild:
     count: 1
     title: Wild
@@ -19439,6 +19496,9 @@ dictitems:
   x server:
     count: 1
     title: X Server
+  x-acto knives:
+    count: 1
+    title: X-Acto knives
   x/y axis plots:
     count: 1
     title: X/Y Axis Plots
