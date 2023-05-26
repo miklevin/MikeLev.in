@@ -4,7 +4,7 @@ title: Easier Illustration Technique I Seek May Be Mermaid
 headline: "Discovering Mermaid: An Easier Way to Illustrate and Diagram for SEO Purposes"
 description: I recently discovered Mermaid, a JavaScript-based diagramming and charting tool that makes illustration and diagramming for SEO purposes easier. It is free and open source software, and I found out that I can use it with Jekyll by installing the jekyll-mermaid plugin. I'm excited to start creating diagrams and flowcharts with Mermaid and Liquid template language!
 keywords: "Illustration, Technique, Mermaid, JavaScript, Diagramming, Charting, SEO, Free, Open Source, Software, Jekyll, Plugin, Flowcharts, ER Diagrams, Logic Flows, Org Charts, Markdown, Syntax, Venn Diagrams, JavaScript, GitHub, Repository, Venn.js, Euler Diagrams, Liquid Template Language, Spotify, Jekyll Plugin, Gem, `_config.yml`, Markdown"
-categories: open source, git, jekyll, seo, javascript
+categories: open source, git, seo, jekyll, javascript
 permalink: /blog/easier-illustration-technique-i-seek-may-be-mermaid/
 layout: post
 ---
@@ -215,6 +215,6 @@ graph td;
 <ul>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

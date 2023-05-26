@@ -40,7 +40,7 @@ I'm not the wizard you're looking for. I am outing their tricks like Cialdini
 and Teller. First you pen it, then you tell 'er. When I was 12, I was a
 magician. Now at 52, I'm just giving away all my tricks. My site's easy to
 remember because it's my name! Drop a dot in front of the last 2 letters of
-***Mike Levin*** (no spaces), and you're ***.in like Love Inn*** 
+***Mike Levin*** (no spaces), and you're ***.in*** like a *Levin*.
 
 Come join me at the Love Inn, because I love you. You've got an "in" at the
 Love Inn. And no, that's not weird! That's Mr. Rogers. Won't you be my
