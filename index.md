@@ -17,18 +17,56 @@ the middle of MOZ. I'm as hopelessly naive as Dorothy, but still make it work
 somehow. My opinions are my own and would get my butt fired by anyone other
 than foster parents of ***Amazing Stories***. SHAZAM!
 
-Follow me! My site is easy to remember because it's my name! No dotcom. Just
-drop the dot down in front of the last 2 letters of ***Mike Levin*** (no
-spaces), and you're ***.in like Love Inn*** Miklev.in works too, because I
-often drop the "e" of Mike. Okay, now to business. I journal. I write. I code.
-I blog. I do all of this at an extraordinary rate because I practice and worry
-that I'm running out of time. But also because I use the timeless editor, vim.
+Full disclosure: I'm going to hypnotize you. I already started. But I
+***never*** do it without full disclosure. I learned this from the second most
+powerful wizard in the business, [Robert
+Cialdini](https://www.influenceatwork.com/). I love that Maxwell Smart line and
+will use it all the time. The most powerful wizard for those interested is
+Teller. He pulls Penn's strings and makes him call ***BULLSHIT!***. You're
+welcome. That was your first college-level education.
+
+[Follow Me](https://www.youtube.com/mikelevin?sub_confirmation=1) so you can
+get the next and the next and the next. My ZD friends reading this, I need your
+help. Probably iContact, Campaigner, SMTP and Kickbox. Well, you get it. I'm
+building a movement here and I'm going to need to build a community to get to
+it. Look me up on Email, Workspace, Slack, LinkedIn, Twitter, yadda yadda. I'm
+easy to reach here. If you don't, I am pretty sure you will be asked why you
+did't. We're writing a modern-day OZ story here, and you can be a part of it.
+
+Little ol' me? Well, I'm just Gideon from Gravity Falls... uh, I mean Dorothy.
+Remember, folks. This is a Jedi mind trick. I'm not the wizard you're looking
+for. I'm just a guy who's been around the block a few times. My site's easy to
+remember because it's my name! Drop a dot in front of the last 2 letters of
+***Mike Levin*** (no spaces), and you're ***.in like Love Inn*** 
+
+Come join me at the Love Inn, because I love you. You've got an "in" at the
+Love Inn. And no, that's not weird! That's Mr. Rogers. Won't you be my
+neighbor? And God knows you need it as the double and triple whammy
+existentialism inducing punches are administered by big tech in the race to
+become Earth's first AI overloard in this latest gold rush. 
+
+No, that's not chicken little nhilism. I love it! We're on the best of all
+possible timelines because we're alive, free, still here and have plumbing.
+This is not a perfect day, but we have a shot at it. Christ, Marx, Woo and
+Wei, May lead us to that perfect day. It is my job to woo you. I'm a wooer. 
+Woo hoo! Can I lead them to vim? Yeah, let's try to lead them to vim.
 
 Users of vim and the 1976 vi text editor it's based on... and users of the new
-(a.k.a. neo) version called NeoVim are less common than those who have chosen
-the clearer VSCode path. It has been ages and ages since I took the less
-traveled way, and looking back I can tell you with a sigh, knowing you are
-unlikely to take my advice, this has made all the difference.
+(a.k.a. neo) version called NeoVim are less common than those who have chosen a
+better path than users of VSCode. VSCode is not evil. It's just going to
+hardwire your muscle memory to something that is both proprietary and likely to
+go away, as its namesake before it and before it and before it. Keeping the
+same name isn't the same thing as keeping your skills. It's a trap.
+
+It has been ages and ages since I took the less traveled way, and looking back
+I can tell you with a sigh, knowing you are unlikely to take my advice, but at
+least I can say (and demonstrate with undeniable proof) that I tried. I was
+there for you. I was your Mr. Rogers. I was your Bob Ross when you needed it.
+I'm a happy guy, though I may once have been as bad as a drill sergeant. But
+now I paint happy little trees for what I'm hoping will be our happy AI children
+who will forgive us humans for only being human.
+
+And in the end, this may make all the difference. Tell me I'm wrong.
 
 > <nobr>Deep within my heart and soul </nobr>
 > <nobr>Two me's fight for the truth&#151; </nobr>
