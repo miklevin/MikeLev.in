@@ -4,7 +4,7 @@ title: Rabbit Hole Linux Launched On The Rise Of AI
 headline: "I'm Launching Rabbit Hole Linux: A Step Towards the Rise of AI"
 description: Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.
 keywords: Linus Torvalds, Linux, Kernel, Git, DVCS, BitKeeper, Google, Chrome, Android, Apple, Amiga, Lovecraft, Piers Anthony, Turing Test, Microsoft, WordPress, Github, Bitbucket, NAS, GitLab, Lily-Ray, Boris Zilberman, SEO, Primer, Alice's Adventures in Wonderland, Hannibal, A-Team, AI, Confidence Game, Carl Jung, Shadow Self, Brand Loyalty, Tides,
-categories: google, seo, microsoft, amiga, linux, ai, git, wordpress
+categories: google, wordpress, linux, seo, microsoft, git, ai, amiga
 permalink: /blog/rabbit-hole-linux-launched-on-the-rise-of-ai/
 layout: post
 ---
@@ -182,10 +182,10 @@ In this way, I...
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>

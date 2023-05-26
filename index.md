@@ -66,11 +66,11 @@ to try to woo you. I'm a wooer. Woo hoo! Can I lead them to vim? Yeah, let's
 try to lead them to vim and daily journaling!
 
 Users of vim and the 1976 vi text editor it's based on... and users of the new
-(a.k.a. neo) version called NeoVim are less common than those who have chosen a
-better path than users of VSCode. VSCode is not evil. It's just going to
-hardwire your muscle memory to something that is both proprietary and likely to
-go away, as its namesake before it and before it and before it. Keeping the
-same name isn't the same thing as keeping your skills. It's a trap.
+(a.k.a. neo) version called NeoVim are less common than those who have chosen
+the more brightly lit path leading to VSCode. VSCode ***is not evil***. It's
+just going to hardwire your muscle memory to something that is both proprietary
+and likely to go away, as its namesake before it and before it and before it.
+Keeping the same name isn't the same thing as keeping your skills. It's a trap.
 
 It has been ages and ages since I took the less traveled way, and looking back
 I can tell you with a sigh, knowing you are unlikely to take my advice, but at
