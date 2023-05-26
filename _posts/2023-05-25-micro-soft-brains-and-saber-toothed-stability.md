@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: microsoft, ai, git, evolution, google
+categories: evolution, microsoft, git, ai, google
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -24,8 +24,17 @@ overwhelming. Everything's a distraction. This article itself is a distraction.
 Folks are getting tuned into the fact that the only "objective" game out there
 is not even the stealing of your money and aggregating into their own accounts
 as previously thought, but rather is the stealing of your attention. The only
-finite resources is the time people have on this planet. And so you'll hear a
-lot about The Attention Economy. ***THE GAME?*** Maybe.
+truly finite resource in your life is the time you have on this planet. It's
+going to run out. In fact, it's running out right now while you read this
+article!
+
+And so you'll hear a lot about The Attention Economy. ***THE GAME?*** Maybe. I
+do encourage you to keep reading, because making the most of your time is as
+much a qualitative thing as a quantitative thing, even though the Twitter,
+Google, Facebook and YouTube algorithms think it's a money-making thing and not
+quality at all. E-E-A-T is short for EEAT SHIT. That's because the supervisors
+of supervised learning... sigh, that's another article. Back to the
+simulation...
 
 So simulation or not, it absolutely is ***some sort of game***. The work of
 John Forbes Nash Jr. as popularized by the Matt Damon movie A Beautiful Mind is
@@ -381,8 +390,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li></ul>
