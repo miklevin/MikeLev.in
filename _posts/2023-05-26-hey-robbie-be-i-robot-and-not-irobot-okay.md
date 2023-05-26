@@ -4,7 +4,7 @@ title: "Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?"
 headline: "Robbie: Be More Than Just a 'Poser', Okay?"
 description: I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think.
 keywords: Robbie, I, Robot, iRobot, Douglas Hofstadter, Goedel, Escher, Bach, How to Draw Comics the Marvel Way, The C Programming Language, Harry Potter, Gom Jabbar, Dune, Star Trek, Asimov, Heinlein, Deep Mind Alpha Go, Atari, Pong, OpenAI, GPT, ChatGPT, Bing, DeepMind, Douglas Adams, Transformer, Alphabet, Google, Inflection, Mustafa Suley
-categories: bing, journaling, ai, google
+categories: journaling, bing, ai, google
 permalink: /blog/hey-robbie-be-i-robot-and-not-irobot-okay/
 layout: post
 ---
@@ -317,6 +317,7 @@ actually got to the bottom of this article, why don't you subscribe to me on
 YouTube and Twitter. I'll try to announce each of these articles. Oh, I forgot
 to do yesterdays. Well, here I go...
 
+Oh, and those bookshelves are up and I'm baaaaak, baby!
 
 
 
@@ -326,7 +327,7 @@ to do yesterdays. Well, here I go...
 ## Categories
 
 <ul>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li></ul>
