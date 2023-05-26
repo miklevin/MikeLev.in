@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: google, git, ai, evolution, microsoft
+categories: evolution, google, ai, microsoft, git
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -131,18 +131,42 @@ reducing the unbelievability of the situation and the tribe becomes callous to
 the suffering of the prey.
 
 Same with tech. Funny thing is that unlike in nature with the most successful
-designs becoming medium-sized omnivore generalists, like sayyyyyy... us, in
-tech, the most successful designs are the ones that are the most specialized.
-They are large, and they are predatory. In nature animals that can take down
-incredibly large prey so that their tribe can feast for days while they
-themselves put in the least amount of effort are saber-toothed.
+designs becoming medium-sized omnivore generalists, like us (we humans, we're
+medium-sized omnivore generalists), tech is leaning big. Shall we call them
+uhhh, I don't know, maybe ***big tech***.
 
-You think I'm talking about saber-toothed tigers, but that's only one example.
-Back when giant reptiles roamed the Earth... what? Dinosaurs aren't reptiles?
-Yeah I know, I mean before that. Back in the time before the dinosaurs and
-before mammals, nature showed us that plain ol' reptiles could fill every niche
-in the ecosystem. There were giant reptiles that ate plants, and there were
-giant reptiles that ate other reptiles. And there was the G`orgonops.
+The most successful designs in big tech, I mean the really massive oracles, the
+machines so big they're international... they're big saber-toothed tigers. Some
+diversify their diet and survive, but lose those long fangs and downsize in the
+process. Some even sneak into our homes and instead of eating us, pretend
+they're our babies by purring. But the story of Cuckoos, these cunning masters
+of misdirection is fodder for another day. Back to cats...
+
+Specialization means big and vulnerable. Specialization means predatory and
+sneaky. In nature animals that can take down incredibly large prey so that
+their tribe can feast for days while they themselves put in the least amount of
+effort are saber-toothed. It's the basic ambush predator life-template and
+strategy of alligators and bobbit worms. Want some nightmares? Google bobbit
+worms.
+
+Saber-toothed tigers are everyone's favorite example, but that's only one
+example, and there's more than one of those that separately re-evolved! It's
+not just ***the*** saber-toothed tiger. There's, Smilodn populator (the
+largest), S. fatalis (the most famous), and S. gracilis (the smallest). And
+it's not a continuous line of evolution from one to the other. Nature tries to
+wipe out the saber-toothed tiger design over and over again, but the fangs came
+back the very next day. The fangs came back, we thought they were a goner. But
+the fangs came back; they just won't stay away.
+
+Nature produces big deadly fangs. And not just in cats. Back when giant
+reptiles roamed the Earth... what? Dinosaurs aren't reptiles? Yeah I know, I
+mean before that. Yeah, I know there were also saber-toothed dinosaurs but I
+don't want to talk about them. I want to talk about the Gorgonops.
+
+Back in the time before the dinosaurs and before mammals, nature showed us that
+plain ol' reptiles could fill every niche in the ecosystem from voles to
+vultures. There were giant reptiles that ate plants, and there were giant
+reptiles that ate other reptiles. And there was the Gorgonops.
 
 Google Gorgonops! These things were the size of a bear, and they had saber
 teeth. They were the apex predators of their time, and they were everywhere. If
@@ -355,8 +379,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
