@@ -108,8 +108,18 @@ Oliver Queen, I could move my burban Philly butt to NYC and make the scene.
 
 You being here is a case of synchronicity. It's because you have faced similar
 problems, but have not been able to put it into the same colors or words as I
-have, but you detect something here. It resonates. That's how these things
-work. Don't try to pinpoint it with words. Words like to lie.
+have. What I have to say and how I say it is going to be useful to you. It's
+going to, above all else, get you journaling in an uninterruptable and
+otherwise leveragable way. It will let you know yourself better and seize the
+means of economic production. It's like being able to drive always gives you at
+least the ability to be a cabbie or Uber driver. It's like that.
+
+Remember, I am demonstrating this to you by both hypnotizing you and disclosing
+that I'm doing that. That is because I learned from the best in the business.
+You have never heard of me before because I am good at what I do. Magic is only
+as powerful as others' inability to know what the heck you're doing, so I've
+kept my work deliberately unpolished. That's plenty to turn all but the most
+sensitive and attuned folks away. But now I polish... now I polish...
 
 Coincidence is the word we use when we can't see the levers and pulleys behind
 the curtain. I am the man behind the curtain. Don't ignore me. First I'll show
