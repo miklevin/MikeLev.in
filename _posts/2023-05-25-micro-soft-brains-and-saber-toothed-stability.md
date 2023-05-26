@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: evolution, microsoft, git, google, ai
+categories: git, microsoft, google, ai, evolution
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -402,8 +402,8 @@ work. It comes easy to me after a lifetime of science fiction reading and a
 decade of vim practice. The "hard" work is the subject of the next article,
 which sometimes you just have to bite the bullet and do. 
 
-It's a monumential task. It is my job to demonstrate you can whip around
-terabyrtes... no indeed petabytes of data like it's silly putty in your hands.
+It's a monumental task. It is my job to demonstrate how to whip around
+terabytes... no indeed petabytes of data like it's silly putty in your hands.
 Make visualization, analysis, and reporting of it as if it were mere megabytes
 of local data. I have to do this in a way that is self-motivating. I have to
 find the love in it, otherwise I'll never amp myself up to do it. My
@@ -438,8 +438,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
