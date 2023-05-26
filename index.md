@@ -31,7 +31,7 @@ building a community here and I'm going to need to tap some other ZD magic to
 do it at scale. Look me up on Email, Workspace, Slack, LinkedIn, Twitter, yadda
 yadda. I'm easy to reach there. Why not? Think of it as just a wacky
 experiment. We're writing a modern-day OZ story here. You and me together.
-***We're*** the WiZarDs of MOZ.
+***We're*** the WiZarDs of mOZ.
 
 Little ol' me? Well, I'm just Gideon from ***Gravity Falls***... uh, I mean
 Dorothy from OZ... uh, I mean Mike Levin of the propertyless Ark-carrying
@@ -61,8 +61,9 @@ our way up to it, laying down layer after layer, as each generation builds on
 the last, and the one generation before that dies off. There's about 40 years
 between generational seismic shifts. And don't wait for a savior. Christ, Marx,
 Woo and Wei won't lead us to a perfect day. But I can play my tiny little part
-to try to woo you. I'm a wooer. Woo hoo! Can I lead them to vim? Yeah, let's
-try to lead them to vim and daily journaling!
+to try to woo you. I'm a wooer. Woo hoo! Can I lead them to vim? Yeah, just
+follow the [DrinkMe](/drinkme) script and teach them to journal in a way that
+can never be snatched away, like Toto from Dorothy.
 
 Users of vim and the 1976 vi text editor it's based on... and users of the new
 (a.k.a. neo) version called NeoVim are less common than those who have chosen
