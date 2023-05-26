@@ -30,10 +30,9 @@ get the next and the next and the next. My ZD friends reading this, I need your
 help. Probably iContact, Campaigner, SMTP and Kickbox. Well, you get it. I'm
 building a community here and I'm going to need to tap some other ZD magic to
 do it at scale. Look me up on Email, Workspace, Slack, LinkedIn, Twitter, yadda
-yadda. I'm easy to reach there. If you don't, I am pretty sure you will be
-asked why not. Think of it as just a wacky experiment. I'll try to be less than
-my normal jerk self. We're writing a modern-day OZ story here, and you can be a
-part of it.
+yadda. I'm easy to reach there. Why not? Think of it as just a wacky
+experiment. We're writing a modern-day OZ story here. You and me together.
+***We're*** the WiZarDs of MOZ.
 
 Little ol' me? Well, I'm just Gideon from ***Gravity Falls***... uh, I mean
 Dorothy from OZ... uh, I mean Mike Levin of the propertyless Ark-carrying
