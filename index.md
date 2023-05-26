@@ -22,7 +22,7 @@ Full disclosure: I'm going to hypnotize you. I already started. But I
 powerful wizard in the business, [Robert
 Cialdini](https://www.influenceatwork.com/). I love that Maxwell Smart line and
 will use it all the time. The most powerful wizard for those interested is
-Teller. He pulls Penn's strings and makes him call ***BULLSHIT!***. You're
+Teller. He pulls Penn's strings and makes him call ***BULLSHIT!*** You're
 welcome. That was your first college-level education.
 
 [Follow Me](https://www.youtube.com/mikelevin?sub_confirmation=1) so you can
