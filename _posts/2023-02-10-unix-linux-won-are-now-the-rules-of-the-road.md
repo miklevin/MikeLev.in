@@ -4,7 +4,7 @@ title: Unix/Linux Won & Are Now The Rules of The Road
 headline: "Unix/Linux: The Unstoppable Force in Tech"
 description: Mike Levin is a 20+ year veteran of the SEO industry who has seen many changes in technology over the years. From his experience as a student intern at Commodore to his current knowledge of Intel Management Engine (IME) and its implications for privacy, Mike has a deep understanding of Unix/Linux and its ever-growing presence in the tech world. Read his blog post to learn more about his journey and the impact of Unix/Linux.
 keywords: Unix, Linux, SEO, Industry, Technology, Commodore, Intel, Management, Engine, IME, Privacy, Journey, Impact, Development, In-House, Tools, Release, Programming, C, Language, Amiga, AmigaOS, TRIPOS, Multitasking, Ubuntu, Debian, Red Hat, Enterprise, Linux, GPL, License, MINIX, Microkernel, Network, Stack, Windows, System, Obsolete, Pool, Tech
-categories: journaling, ubuntu, amiga, network, development, seo, linux, microsoft, coding
+categories: development, network, coding, microsoft, ubuntu, linux, seo, amiga, journaling
 permalink: /blog/unix-linux-won-are-now-the-rules-of-the-road/
 layout: post
 ---
@@ -215,12 +215,12 @@ tools of professional tech life.
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
