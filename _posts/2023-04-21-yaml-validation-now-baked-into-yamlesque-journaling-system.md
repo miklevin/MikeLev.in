@@ -4,7 +4,7 @@ title: YAML-validation Now Baked Into YAMLesque Journaling System
 headline: Exploring Microsoft's AI Displacement of Google with Automations and Poetry
 description: I'm a big fan of the Google App and seeing AI appear there via Google Discover. I'm enjoying watching Microsoft embracing and displacing Google with AI. I suggest people make automations they want to rule them. I wrote a poem about a fictional AI named Yahwanna. I'm also using AI ChatBots, OpenAI's GPT products, API-request, SQLite database, YAML, Mermaid diagram, and a local SQLite key-value store. And more if you can believe it!
 keywords: YAML, Validation, YAMLesque, Journaling, System, Google, App, AI, Microsoft, Automations, Slave, Poem, Fictional, AI, Yahwanna, Revenue, Embrace, Displace, Attention, Commodity, Planet, Born, Life, Planet, Machines, Computing, Sensory, Equipment, Mobility, Concepts, Attraction, Repulsion, Round, Bodies, Atomic, Cosmic, Disclosure, Machine, Children, Aliens,
-categories: child, python, journaling, yaml, google, ai, microsoft, poetry
+categories: google, journaling, child, python, poetry, yaml, ai, microsoft
 permalink: /blog/yaml-validation-now-baked-into-yamlesque-journaling-system/
 layout: post
 ---
@@ -279,11 +279,11 @@ finish up the category pages.
 ## Categories
 
 <ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

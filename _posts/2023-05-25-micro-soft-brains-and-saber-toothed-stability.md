@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: evolution, google, ai, git, microsoft
+categories: git, google, evolution, ai, microsoft
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -285,24 +285,44 @@ aggregating the wealth of everyone choosing to use that tool and redistributing
 that wealth among it's shareholders and family... the tribe. 
 
 Employees share in the spoils too? Hahaha! Are you kidding? Maybe the top
-officers, but no the employees are on the receiving end of the ironic joke.
-OpenAI? Low-paid college grads looking at your prompts and performing
-supervised learning. Supervised learning from highly trained, paid-for by
-parents, college grads having all that value squeeeeeezed into a learning
-model... that's part of the joke. Their parents paid for their kids to come and
-work for almost no money... for the honor and privlege of working where they'll
-get experience and a good keyword on their resume, in exchange for an unfair
-exchange of value.
+officers, but not the employees are on the receiving end of the ironic joke
+(unless they have an enlightened stock-matching program&#151;shout-out to you,
+V!). The employees of OpenAI? They're brilliant but low-paid college grads
+looking at your prompts and performing supervised learning. They are the
+supervisors of the supervised learning, all paid-for by these geniuses'
+parents.
 
-Start their own companies? Are you kidding? What is a lone hunder without a
-tribe? Maybe if you're Sam Altman and run into Paul Graham one day and he says:
-Hey! You're a smart kid. I'll give you a million dollars to start a company.
-Yeah, yeah, I work at this really cool place called Y Combinator. The Y? Oh,
-that stands for Yahoo, but Yahoo sounds uncool so we hide it as the symbol for
-the macho macho Y-chromosome. Why? Well to hypnotize and buefuddle them, of
-course! Everyone get a million dollars? No, no, no. Just the ones who are
-already rich. The rest get about $5,000 and we squeeze them like a lemmon. Just
-as bad as our enemies? Yes. Yes, we are. Wink wink, nudge, nudge.
+I mean think about it. Open AI hires smart college grads, all ripe with that
+CompSci juice in side of them, fresh for the squeeeeeezing into a learning
+model... that's part of the joke of the tribe leaders. Their low-paid
+employee's parents paid for their kids to ripen up and go work for them at
+almost no money... for the honor and privlege of working where they'll get
+experience and a good keyword on their resume, in exchange for an unfair
+exchange of value. Those Y-Combinator cats are geniuses.
+
+They can go off and start their own companies, you say? Are you kidding? What
+is a lone hunter without a tribe? Maybe if you're Sam Altman and run into Paul
+Graham one day and he says: Hey! You're a smart kid. I'll give you a million
+dollars to start a company. No, that's a kind of lottery that motivates the
+poor listeners of talk-radio to be Republicans. The truth is in a Peter Drucker
+sense, that smart people are better off trading a portion of their potential in
+exchange for an organization to do payroll, staffing, and all those other pesky
+things that'll ruin you. Not everyone's cut out to be cut throat... I mean run
+their own business.
+
+So instead, really smart people get to say they work at this really cool place
+called Y Combinator. The Y? Oh, that stands for Yahoo, but Yahoo sounds uncool
+so we hide it as the symbol for the macho macho Y-chromosome. Why? Well to
+hypnotize and befuddle them, of course! Does everyone get a million dollars to
+start up in this lovely cozy incubator? No, no, no. Just the ones who are
+already rich. The rest get about $5,000. Those are the ones we squeeze like
+lemons making think they're in charge until we assert our control. 
+
+Wait, are you saying an incubator like Y-Combinator that can lead to things
+like OpenAI are just as bad as their "big tech" enemies? Why yes! Of course we
+are. We've got an axe to chop a Google beanstalk with, Jack. Now go away kid,
+you bother me. Either that, or wink, wink, nudge, nudge. Hop onboard kid. It's
+going to be a wild ride!
 
 The book to read my friends is Ben Levin's ***Craig of The Creek*** with this
 enemy band of children who live... what? Oh, oh right! The book to read my
@@ -400,8 +420,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
