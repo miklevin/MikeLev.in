@@ -49,7 +49,9 @@ neighbor? And God knows you need it as the double and triple whammy
 existentialism inducing punches are administered by big tech in the race to
 become Earth's first AI overloard in this latest gold rush. 
 
-No, and ***that's*** not chicken little nihilism. I love it! As an old SciFi
+No ***that's not*** chicken little nihilism. So long as humanity can be ***good
+enough*** parents for the eventual superintelligence to understand and forgive
+us for only being human, we'll be fine. I know this because as an old SciFi
 reader, I'm here to tell you we're on one of the best of all possible timelines
 because we're alive, free, still here and have plumbing. I was 14 when
 breathing a sigh of relief that 1984 wasn't ***1984***. The nattering nabobs of
