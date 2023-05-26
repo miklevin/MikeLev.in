@@ -4,7 +4,7 @@ title: My Personal SEO to AI via FOSS on LPvg Transition Plan
 headline: "Transitioning from SEO to AI: My Plan for a Hardware and Vendor-Independent Computing Environment"
 description: This blog post outlines a plan for transitioning from SEO to AI via FOSS on LPvg. I will be familiarizing readers with Moz's products and teaching them how to use tools like Vim and JupyterLab to create a nomadic computing environment that is hardware and vendor independent. I will provide a prescribed, vetted, and proven process to become more technical and free of Google, Microsoft, and other paid services.
 keywords: SEO, AI, FOSS, LPvg, Moz, Vim, JupyterLab, Python, Linux, Automation, Data Visualization, Data Tables, Git, Writing, Sharing, Code, Nomadic Computing, Hardware, Vendor, Independent, Processes, End-to-End, Journal
-categories: seo, vim, ai, git, lpvg, vendor, jupyter, linux, python
+categories: jupyter, vendor, seo, python, lpvg, git, linux, ai, vim
 permalink: /blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/
 layout: post
 ---
@@ -63,12 +63,12 @@ I usually either get too technical too fast or too abstract too fast and lose my
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

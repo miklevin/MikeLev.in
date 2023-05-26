@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: ai, git, microsoft, evolution, google
+categories: google, git, ai, evolution, microsoft
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -121,13 +121,14 @@ cheat. It is a shortcut. And it is yummy and our bodies know it. That's why
 we're so addicted to meat.
 
 The honest truth is that if you're clever enough, you can get all 9 essential
-amino acids from coining the right plants. But that's a lot of work so nobody
-wants to do it. Even given the fact that hey, maybe you can stop hunting and
-killing and consuming the flesh of other creatures that display emotions, have
-higher social orders that look a lot like ours, and are quite definitely
-suffering. It's so horrible, life gives us a mechanisms to cope with it called
-shock. They prey is shocked into reducing the unbelievability of the situation
-and the tribe becomes callous to the suffering of the prey.
+amino acids from combining the right plants. You know, like peanut butter and
+bananas. But that's a lot of work so nobody wants to do it. Even given the fact
+that hey, maybe you can stop hunting and killing and consuming the flesh of
+other creatures that display emotions, have higher social orders that look a
+lot like ours, and are quite definitely suffering. It's so horrible, life gives
+us a mechanisms to cope with it called shock. They prey is shocked into
+reducing the unbelievability of the situation and the tribe becomes callous to
+the suffering of the prey.
 
 Same with tech. Funny thing is that unlike in nature with the most successful
 designs becoming medium-sized omnivore generalists, like sayyyyyy... us, in
@@ -354,8 +355,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
