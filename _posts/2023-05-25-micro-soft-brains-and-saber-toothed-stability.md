@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: google, evolution, git, microsoft, ai
+categories: microsoft, git, google, evolution, ai
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -48,10 +48,11 @@ culture.
 
 Even the symbols of binary itself, the circle and the line, the open and the
 closed circuit, the 0 and the 1, the hoop that you roll along with a stick. The
-compass that lets you draw a circle, the Alpha and the Omega. I mean, hey where
-don't you see this duality? It's everywhere. I often think the symbol for Pi
-should actually be a circle with a line through it, because it's the ratio of
-the circumference of a circle to its diameter. Am I right? Am I right?
+compass that lets you draw a circle, the Alpha and the Omega. It's the Q
+continuum and runs deeper than you think. I mean, hey where don't you see this
+duality? It's everywhere. I often think the symbol for Pi should actually be a
+circle with a line through it, because it's the ratio of the circumference of a
+circle to its diameter. Am I right? Am I right?
 
 Already such lofty thoughts starts to play tricks with our minds. Few
 scientists out there give warnings at this point to the unwary. They say, "Hey, 
@@ -379,8 +380,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>
