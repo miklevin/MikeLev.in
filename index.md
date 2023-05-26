@@ -33,9 +33,12 @@ it. Look me up on Email, Workspace, Slack, LinkedIn, Twitter, yadda yadda. I'm
 easy to reach here. If you don't, I am pretty sure you will be asked why you
 did't. We're writing a modern-day OZ story here, and you can be a part of it.
 
-Little ol' me? Well, I'm just Gideon from Gravity Falls... uh, I mean Dorothy.
-Remember, folks. This is a Jedi mind trick. I'm not the wizard you're looking
-for. I'm just a guy who's been around the block a few times. My site's easy to
+Little ol' me? Well, I'm just Gideon from ***Gravity Falls***... uh, I mean
+Dorothy from OZ... uh, I mean Mike Levin of the propertyless Ark-carrying
+Levites. You can live without land. Remember, folks. This is a Jedi mind trick.
+I'm not the wizard you're looking for. I am outing their tricks like Cialdini
+and Teller. First you pen it, then you tell 'er. When I was 12, I was a
+magician. Now at 52, I'm just giving away all my tricks. My site's easy to
 remember because it's my name! Drop a dot in front of the last 2 letters of
 ***Mike Levin*** (no spaces), and you're ***.in like Love Inn*** 
 
