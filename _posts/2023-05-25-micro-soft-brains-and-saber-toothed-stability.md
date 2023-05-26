@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: git, google, ai, evolution, microsoft
+categories: ai, google, microsoft, git, evolution
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -237,8 +237,8 @@ prey the mammoth goes extinct, you're screwed. You're a saber-toothed tiger
 without a meal. That's kinda like what would happen if the Search Generative
 Experience (SGE) cut off AdWords revenue. I mean it's not like Ad revenue is
 Google's only source of income. It's only 60% to 80% of their income. And if B
-follows A, well... you know your ABC. They go: A, B, C, D, E you're F'd. Won't
-you come evolve with me?
+follows A, well... you know your alphabet. It goes: A, B, C, D, E you're F'd.
+Won't you come evolve with me? Viva la vimsolution!
 
 Not everyone evolves so easily. When you've come to rely on that one trick,
 that trick of taking down big prey with your specialized saber toothed
@@ -400,8 +400,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
