@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: git, evolution, ai, microsoft, google
+categories: google, microsoft, ai, git, evolution
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -293,12 +293,12 @@ performing supervised learning. They are the supervisors of the supervised
 learning, all paid-for by these geniuses' parents.
 
 I mean think about it. Open AI hires smart college grads, all ripe with that
-CompSci juice in side of them, fresh for the squeeeeeezing into a learning
-model... that's part of the joke of the tribe leaders. Their low-paid
-employee's parents paid for their kids to ripen up and go work for them at
-almost no money... for the honor and privlege of working where they'll get
-experience and a good keyword on their resume, in exchange for an unfair
-exchange of value. Those Y-Combinator cats are geniuses.
+CompSci juice, fresh for the squeeeeeezing into a learning model... that's part
+of the joke of the tribe leaders. Their low-paid employee's parents paid for
+their kids to ripen up and go work for them at almost no money... for the honor
+and privilege of working where they'll get experience and a good keyword on
+their resume, in exchange for an unfair exchange of value. Those Y-Combinator
+cats are geniuses.
 
 They can go off and start their own companies, you say? Are you kidding? What
 is a lone hunter without a tribe? Maybe if you're Sam Altman and run into Paul
@@ -420,8 +420,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
