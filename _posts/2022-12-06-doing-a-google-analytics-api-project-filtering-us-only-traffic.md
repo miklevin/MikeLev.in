@@ -4,7 +4,7 @@ title: Doing a Google Analytics API Project (Filtering US Only Traffic)
 headline: Learning to Connect to Google Analytics via API - Filtering US Only Traffic
 description: I'm building a project to connect to Google Analytics via their API, and I've written code to retrieve metrics such as users, sessions, bounce rate, average session duration and pages/session. I'm also creating a text file with a list of profile IDs, segments and start/end dates for the past year, and I've written a loop to generate the start and end dates for each month. Follow along with my project to learn more!
 keywords: Google Analytics, API, US, Traffic, Metrics, Users, Sessions, Bounce Rate, Average Session Duration, Pages/Session, Segment, Organic Search, Profile IDs, Start Date, End Date, Loop, Pip Install
-categories: journaling, google, python, loop
+categories: google, journaling, python, loop
 permalink: /blog/doing-a-google-analytics-api-project-filtering-us-only-traffic/
 layout: post
 ---
@@ -144,7 +144,7 @@ Yup, that'll do it.
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li></ul>
