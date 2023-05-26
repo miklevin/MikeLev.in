@@ -62,8 +62,9 @@ the last, and the one generation before that dies off. There's about 40 years
 between generational seismic shifts. And don't wait for a savior. Christ, Marx,
 Woo and Wei won't lead us to a perfect day. But I can play my tiny little part
 to try to woo you. I'm a wooer. Woo hoo! Can I lead them to vim? Yeah, just
-follow the [DrinkMe](/drinkme) script and teach them to journal in a way that
-can never be snatched away, like Toto from Dorothy.
+follow the yellow brick... I mean run the [DrinkMe](/drinkme) script. It starts
+with JupyterLab, but sets the stage for journaling in vim&#151;the end game
+here.
 
 Users of vim and the 1976 vi text editor it's based on... and users of the new
 (a.k.a. neo) version called NeoVim are less common than those who have chosen
