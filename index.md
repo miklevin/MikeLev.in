@@ -30,8 +30,9 @@ get the next and the next and the next. My ZD friends reading this, I need your
 help. Probably iContact, Campaigner, SMTP and Kickbox. Well, you get it. I'm
 building a movement here and I'm going to need to build a community to get to
 it. Look me up on Email, Workspace, Slack, LinkedIn, Twitter, yadda yadda. I'm
-easy to reach here. If you don't, I am pretty sure you will be asked why you
-did't. We're writing a modern-day OZ story here, and you can be a part of it.
+easy to reach here. If you don't, I am pretty sure you will be asked why not.
+Think of it as just a wacky experiment. I'll try to be less than my normal jerk
+self. We're writing a modern-day OZ story here, and you can be a part of it.
 
 Little ol' me? Well, I'm just Gideon from ***Gravity Falls***... uh, I mean
 Dorothy from OZ... uh, I mean Mike Levin of the propertyless Ark-carrying
