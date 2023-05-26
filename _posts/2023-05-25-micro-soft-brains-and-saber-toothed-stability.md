@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: evolution, ai, microsoft, git, google
+categories: git, google, ai, evolution, microsoft
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -199,10 +199,19 @@ book ***An Instinct for Dragons*** that says so.
 
 Saber-toothed predators are the most successful design in nature. They bring
 down big prey fast, and they can eat for days. Lizards, snakes, cats, walruses
-and warthogs? Oh deer! They're all saber-toothed. But some are sexual
-dimorphisms and not for hunting, those posers (I'm talking to The Walrus). All
-bluster and no bite. But the ones that are for hunting are the most successful
-design in nature.
+and warthogs? Oh deer! Yes, even deer can be saber-toothed. But some of them
+funky tusks are sexual dimorphisms and not for hunting, those posers (I'm
+talking to you, Walrus). This is why Lewis Carroll chose the walrus for his
+utterly important-to-read instruction-manual for life, ***The Walrus and the
+Carpenter***. 
+
+The Sun was shining on the sea, Shining with all his might: He did his very
+best to make The billows smooth and bright-- And this was odd, because it was
+The middle of the night. No, not the Disney version. That's good too, but read
+the real thing. The walrus is always hungry, always mating, and talks fierce
+talk! All bluster and self-indulgence, but no bite, those Walruses. But the
+ones that are packing the real thing are the most successful predatory design
+in nature. Evolution likes it so much, it keeps bringing it back.
 
 However, this comes at a cost. They are large, they require a lot of food, and
 that food is of a certain type. They are not generalists. This makes them
@@ -391,8 +400,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
