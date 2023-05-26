@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: microsoft, google, evolution, git, ai
+categories: google, ai, git, evolution, microsoft
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -24,9 +24,10 @@ overwhelming. Everything's a distraction. This article itself is a distraction.
 Folks are getting tuned into the fact that the only "objective" game out there
 is not even the stealing of your money and aggregating into their own accounts
 as previously thought, but rather is the stealing of your attention. The only
-finite resources is the time people have on this planet.
+finite resources is the time people have on this planet. And so you'll hear a
+lot about The Attention Economy. ***THE GAME?*** Maybe.
 
-Yeah, so simulation or not, it absolutely is some kind of game. The work of
+So simulation or not, it absolutely is ***some sort of game***. The work of
 John Forbes Nash Jr. as popularized by the Matt Damon movie A Beautiful Mind is
 a good place to start. The game is about the allocation of resources. And
 resources are not just money, but also time, attention, and even love. The
@@ -353,8 +354,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
