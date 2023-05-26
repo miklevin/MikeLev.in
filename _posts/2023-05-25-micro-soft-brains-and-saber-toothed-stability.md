@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: ai, google, microsoft, git, evolution
+categories: evolution, google, ai, git, microsoft
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -254,14 +254,14 @@ Links*** domininance?!?! I myself based a career on it. But every year, I'm
 like: "Well, this is a fun game of Jenga, but I'm not sure how much longer this
 can go on." But I don't know jack. Everyone loves a Saber-toothed tiger. It
 makes for a great mascot and the fans are going to cheer the hunt. "Take down
-that mastodon!" yell the monkeys who are quite clad those teeth are adapted to
+that mastodon!" yell the monkeys who are quite glad those teeth are adapted to
 large prey. They wouldn't bother coming after us, think the monkeys in the
 arena. Good thing we'll never run out of mastodons.
 
 Monkeys might be easy prey, but we're slim pickings. But just like buffalo
 wings that became so popular in economic downturns, because you know why waste
 all that meat when you just eat a lot of them. What's that? The mastadons are
-gone and monkeys are everywhere? Well, whu waste all that meat?
+gone and monkeys are everywhere? "Why waste all that meat?" says the cats.
 
 The cats will always eventually realize we're yummy prey. We're everywhere and
 don't have much in the way of claws or fangs or even shells to cover our tender
@@ -274,7 +274,7 @@ We don't need claws or fangs or shells. I'll make my own damn claws, thank you
 very much. In fact, instead of you stealing my 9 essential amino acids, I'll
 just steal your 9 essential amino acids. Comeuppance and turnabout is fair
 play. And if saber-toothedness and claws and fangs in general characterize the
-geniuses that are felines... I mean the gelis genus... then what characterizes
+geniuses that are felines... I mean the felis genus... then what characterizes
 us generalist monkeys is our delight in using tools to achieve comeuppance and
 turnabout. No, not just use tools, but to use tools with
 make-a-joke-of-thy-enemy ironic overtones. That's what makes us monkeys.
@@ -400,8 +400,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
