@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a> (Thu May 25, 2023)
+<br/>Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
 <br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a> (Wed May 17, 2023)

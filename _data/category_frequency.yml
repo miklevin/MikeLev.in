@@ -158,6 +158,9 @@ dictitems:
   /usr/local/sbin:
     count: 1
     title: /usr/local/sbin
+  '0':
+    count: 1
+    title: '0'
   0.8.4:
     count: 1
     title: 0.8.4
@@ -170,6 +173,9 @@ dictitems:
   00_core.ipynb:
     count: 1
     title: 00_core.ipynb
+  '1':
+    count: 1
+    title: '1'
   1 minute:
     count: 1
     title: 1 Minute
@@ -345,7 +351,7 @@ dictitems:
     count: 1
     title: 360iTiger
   '365':
-    count: 1
+    count: 2
     title: '365'
   3d:
     count: 1
@@ -939,8 +945,8 @@ dictitems:
     count: 1
     title: all.sh
   alpha:
-    count: 1
-    title: Alphas
+    count: 2
+    title: Alpha
   alpine:
     count: 1
     title: Alpine
@@ -1419,7 +1425,7 @@ dictitems:
     count: 1
     title: Attempting
   attention:
-    count: 3
+    count: 4
     title: Attention
   attraction:
     count: 1
@@ -1911,7 +1917,7 @@ dictitems:
     count: 1
     title: Bin
   binary:
-    count: 1
+    count: 2
     title: Binary
   binary truths:
     count: 1
@@ -2202,7 +2208,7 @@ dictitems:
     count: 1
     title: Brackets
   brain:
-    count: 4
+    count: 5
     title: brain
   brain structure:
     count: 1
@@ -2792,6 +2798,9 @@ dictitems:
   chown:
     count: 1
     title: chown
+  chrom:
+    count: 1
+    title: Chrom
   chrome:
     count: 10
     title: Chrome
@@ -2829,8 +2838,11 @@ dictitems:
     count: 1
     title: CIFS
   circle:
-    count: 3
+    count: 4
     title: Circle
+  circuit:
+    count: 1
+    title: Circuit
   circular motion:
     count: 1
     title: Circular Motion
@@ -2930,6 +2942,9 @@ dictitems:
   close:
     count: 3
     title: Close
+  closed:
+    count: 1
+    title: Closed
   closed mind:
     count: 1
     title: closed mind
@@ -3224,6 +3239,9 @@ dictitems:
   comparison function:
     count: 1
     title: Comparison Function
+  compass:
+    count: 1
+    title: Compass
   compassion:
     count: 3
     title: Compassion
@@ -3294,8 +3312,8 @@ dictitems:
     count: 1
     title: Compounding Returns
   compromise:
-    count: 1
-    title: Compromise
+    count: 2
+    title: Compromises
   compton:
     count: 1
     title: Compton
@@ -3588,7 +3606,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 20
+    count: 21
     title: Copilot
   copilot ai:
     count: 1
@@ -4734,7 +4752,7 @@ dictitems:
     count: 1
     title: Distracted
   distraction:
-    count: 3
+    count: 4
     title: Distractions
   distributed:
     count: 1
@@ -5658,7 +5676,7 @@ dictitems:
     count: 1
     title: Evil Sorcerer
   evolution:
-    count: 9
+    count: 10
     title: Evolution
   evolution of an idea:
     count: 1
@@ -6870,7 +6888,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 47
+    count: 48
     title: Github
   github actions:
     count: 1
@@ -7014,7 +7032,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 20
+    count: 21
     title: Google
   google analytics:
     count: 14
@@ -7134,7 +7152,7 @@ dictitems:
     count: 2
     title: GPL
   gpt:
-    count: 3
+    count: 4
     title: GPT
   gpt models:
     count: 1
@@ -7754,6 +7772,9 @@ dictitems:
   honored matres:
     count: 1
     title: Honored Matres
+  hoop:
+    count: 1
+    title: Hoop
   hootsuite:
     count: 1
     title: HootSuite
@@ -8196,8 +8217,8 @@ dictitems:
     count: 2
     title: Industry Standard
   inefficiency:
-    count: 1
-    title: Inefficiency
+    count: 2
+    title: Inefficiencies
   inequality:
     count: 1
     title: Inequalities
@@ -9563,6 +9584,9 @@ dictitems:
   limiting:
     count: 1
     title: Limiting
+  line:
+    count: 1
+    title: Line
   line sparkline:
     count: 1
     title: Line Sparkline
@@ -10029,7 +10053,7 @@ dictitems:
     count: 1
     title: Lou Elizondo
   love:
-    count: 6
+    count: 7
     title: Love
   love and intensity:
     count: 1
@@ -10829,6 +10853,9 @@ dictitems:
   mick west:
     count: 2
     title: Mick West
+  micro soft:
+    count: 1
+    title: Micro Soft
   micro-inversions:
     count: 1
     title: micro-inversions
@@ -11145,7 +11172,7 @@ dictitems:
     count: 1
     title: Monetize
   money:
-    count: 7
+    count: 8
     title: Money
   mongodb:
     count: 2
@@ -11973,7 +12000,7 @@ dictitems:
     count: 1
     title: Objective Reality
   objectivity:
-    count: 1
+    count: 2
     title: Objectivity
   objects in solar system:
     count: 1
@@ -12003,7 +12030,7 @@ dictitems:
     count: 1
     title: Obstacles
   occam's razor:
-    count: 2
+    count: 3
     title: Occam's Razor
   occasion:
     count: 1
@@ -12041,6 +12068,9 @@ dictitems:
   offering:
     count: 1
     title: Offerings
+  office:
+    count: 1
+    title: Office
   official:
     count: 1
     title: Official
@@ -12059,6 +12089,9 @@ dictitems:
   omaha:
     count: 1
     title: Omaha
+  omega:
+    count: 1
+    title: Omega
   on own:
     count: 1
     title: On Own
@@ -12105,7 +12138,7 @@ dictitems:
     count: 1
     title: OnTheRise.AI
   open:
-    count: 4
+    count: 5
     title: Open
   open mind:
     count: 2
@@ -12150,7 +12183,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 39
+    count: 40
     title: OpenAI
   openai api:
     count: 2
@@ -12818,6 +12851,9 @@ dictitems:
   physicist:
     count: 1
     title: Physicist
+  pi:
+    count: 1
+    title: Pi
   picard:
     count: 1
     title: Picard
@@ -14072,6 +14108,9 @@ dictitems:
   quickly:
     count: 3
     title: Quickly
+  quirk:
+    count: 1
+    title: Quirks
   quota handling:
     count: 1
     title: Quota Handling
@@ -14685,7 +14724,7 @@ dictitems:
     count: 1
     title: Resonate
   resource:
-    count: 4
+    count: 5
     title: Resources
   resource files:
     count: 1
@@ -15059,6 +15098,9 @@ dictitems:
   s5 e1:
     count: 1
     title: S5 E1
+  saber-toothed:
+    count: 1
+    title: Saber-Toothed
   sabertooth:
     count: 1
     title: Sabertooth
@@ -16407,7 +16449,7 @@ dictitems:
     count: 1
     title: SSH Services
   stability:
-    count: 4
+    count: 5
     title: Stability
   stack:
     count: 3
@@ -16625,6 +16667,9 @@ dictitems:
   steven universe:
     count: 1
     title: Steven Universe
+  stick:
+    count: 1
+    title: Stick
   sticks and stones:
     count: 1
     title: Sticks and Stones
@@ -17619,7 +17664,7 @@ dictitems:
     count: 1
     title: Tim Burton
   time:
-    count: 5
+    count: 6
     title: Time
   time dilation:
     count: 2
@@ -18849,7 +18894,7 @@ dictitems:
     count: 2
     title: VPN
   vscode:
-    count: 23
+    count: 24
     title: VSCode
   vscodium:
     count: 1
