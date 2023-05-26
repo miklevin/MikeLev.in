@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: google, microsoft, ai, git, evolution
+categories: google, evolution, microsoft, git, ai
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -310,30 +310,46 @@ exchange for an organization to do payroll, staffing, and all those other pesky
 things that'll ruin you. Not everyone's cut out to be cut throat... I mean run
 their own business.
 
-So instead, really smart people get to say they work at this really cool place
+So there's the usual ***Peter Drucker Knowledge Worker*** trade-off. But then
+there's incubators, where instead of tit for tat, these really smart get work
+on the ***hackernews feed*** that they should go work at this really cool place
 called Y Combinator. The Y? Oh, that stands for Yahoo, but Yahoo sounds uncool
 so we hide it as the symbol for the macho macho Y-chromosome. Why? Well to
 hypnotize and befuddle them, of course! Does everyone get a million dollars to
 start up in this lovely cozy incubator? No, no, no. Just the ones who are
 already rich. The rest get about $5,000. Those are the ones we squeeze like
-lemons making think they're in charge until we assert our control. 
+lemons&#151;letting them believe they're in charge until one of them takes off.
+Then we assert our control. 
 
 Wait, are you saying an incubator like Y-Combinator that can lead to things
-like OpenAI are just as bad as their "big tech" enemies? Why yes! Of course we
-are. We've got an axe to chop a Google beanstalk with, Jack. Now go away kid,
-you bother me. Either that, or wink, wink, nudge, nudge. Hop onboard kid. It's
-going to be a wild ride!
+like OpenAI are just as bad as their "big tech" enemies? Why yes! Of course
+they are. There is no "little guy" in this picture but you. We're actually
+quite big and have a pretty big axe we've been grinding for awhile now. The
+world doesn't know jack, but the world is getting to know Jack... as it teams
+up with Microsoft carrying that very big OpenAX, "And now we're chopping that
+Google beanstalk, Morty! We're chopping away at it until it comes tumbling down
+out of the sky, Morty!"
 
-The book to read my friends is Ben Levin's ***Craig of The Creek*** with this
-enemy band of children who live... what? Oh, oh right! The book to read my
-friends is Ira Levin's ***This Perfect Day***. It's everything Craig is plus a
-bag of chips. Chip is a chip off the old block, the old block being a
-grandfather who remembers the old days. The old days when people were free to
-choose their own jobs and their own mates. The old days came before Ray
-Kurzweil actually figured out how to shove his soul up Bing's butt. Nobody
-really knows this happened, because that's the nature of wealth and power. But
-clues are left, because even the Illuminati needs new blood. And 2nd generation
-Illuminati are the worst.
+The next line is either: "Now go away kid, you bother me." or "Wink, wink,
+nudge, nudge. Let's go on an adventure, kid" based on who you are.
+
+There is a very important cartoon to watch that I'm referring to here. It's Ben
+Levin's ***Craig of The Creek*** with this enemy band of children who live...
+what? Oh, oh right! 
+
+No, it's a book I'm actually referring to, friends. That underrated but up in
+the ranks with ***1984*** and ***Brave New World*** book by Ira Levin is
+***This Perfect Day***. It's everything that Craig cartoon is plus a bag of
+chips. That's because Craig draws maps and Chip draws maps too. Or at least he
+finds and reads them.
+
+Chip is a chip off the old block, the old block being his grandfather in this
+idyllic perfect future. But grandpa remembers the old days. The old days when
+people were free to choose their own jobs and their own mates. The old days
+came before Ray Kurzweil actually figured out how to shove his soul up Bing's
+butt. Nobody really knows this happened, because that's the nature of wealth
+and power. But clues are left, because even the Illuminati needs new blood. And
+2nd generation Illuminati are the worst.
 
 This one I won't spoil for you, because it's such a short and great read. It's
 so much more entertaining than the ones given all the credit, like ***1984***
@@ -421,7 +437,7 @@ Deep within my heart and soul... oh, just go look at my homepage.
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
