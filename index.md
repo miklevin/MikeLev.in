@@ -99,9 +99,12 @@ economic potential into, say about 14 year olds, that exceeds that of their
 dinosaur parents. There's something heading for Earth. Be that thing.
 
 It's not easy being green, but I try. I'm a big old blue softie. Always have
-been. I'm what you'd call "a sensitive boy". So naturally I was picked on. I
-realized if I picked up a bow and arrow and donned green like Oliver Queen, I
-could move my burban Philly butt to NYC and make the scene.
+been. I'm what you'd call "a sensitive boy". So naturally I was picked on. If
+you want templates, think the old Delicatessen Samurai himself, John Belushi.
+For those too young to know, maybe think of Robin Williams. Deep feelers
+protect themselves with samurai swords, comedy&#151;or green clothes that don't
+suit them. I realized if I picked up a bow and arrow and donned green like
+Oliver Queen, I could move my burban Philly butt to NYC and make the scene.
 
 You being here is a case of synchronicity. It's because you have faced similar
 problems, but have not been able to put it into the same colors or words as I
