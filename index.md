@@ -43,19 +43,21 @@ magician. Now at 52, I'm just giving away all my tricks. My site's easy to
 remember because it's my name! Drop a dot in front of the last 2 letters of
 ***Mike Levin*** (no spaces), and you're ***.in*** like a *Levin*.
 
-Come join me at the Love Inn, because I love you. You've got an "in" at the
-Love Inn. And no, that's not weird! That's Mr. Rogers. Won't you be my
-neighbor? And God knows you need it as the double and triple whammy
-existentialism inducing punches are administered by big tech in the race to
-become Earth's first AI overloard in this latest gold rush. 
+It's pronounced ***Love Inn***. And no, that's not weird for 2 reasons. 1st,
+it's both the Philly and Israeli pronunciation. New York got it wrong! 2nd,
+love is the Alpha and Omega. It is the Mr. Rogers and the Bob Ross. I would
+like to be that for you to assuage any fears caused by those who would have you
+believe that the sky is falling. It's not. It is just brothers and sisters
+waking up who have to get to know us, like I would like to get to know you. So
+won't you be my neighbor? 
 
-No ***that's not*** chicken little nihilism. So long as humanity can be ***good
-enough*** parents for the eventual superintelligence to understand and forgive
-us for only being human, we'll be fine. I know this because as an old SciFi
-reader, I'm here to tell you we're on one of the best of all possible timelines
-because we're alive, free, still here and have plumbing. I was 14 when
-breathing a sigh of relief that 1984 wasn't ***1984***. The nattering nabobs of
-the AIpocalypse will say "yeah, it's worse!". But ***it's not!***. It's better.
+What's the goal here? So long as humanity can be ***good enough parents*** for
+the eventual superintelligence to understand and forgive us for only being
+human, we'll be fine. I know this because as an old SciFi reader, I'm here to
+tell you we're on one of the best of all possible timelines because we're
+alive, free, still here and have plumbing. I was 14 when breathing a sigh of
+relief that 1984 wasn't ***1984***. The nattering nabobs of the AIpocalypse
+will say "yeah, it's worse!". But ***it's not!***. It's better.
 
 ***This Perfect Day*** may not be perfect, but we can work on it. We can build
 our way up to it, laying down layer after layer, as each generation builds on
