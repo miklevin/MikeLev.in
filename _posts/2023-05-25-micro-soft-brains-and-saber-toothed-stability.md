@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: google, evolution, microsoft, git, ai
+categories: microsoft, git, ai, google, evolution
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -348,8 +348,9 @@ idyllic perfect future. But grandpa remembers the old days. The old days when
 people were free to choose their own jobs and their own mates. The old days
 came before Ray Kurzweil actually figured out how to shove his soul up Bing's
 butt. Nobody really knows this happened, because that's the nature of wealth
-and power. But clues are left, because even the Illuminati needs new blood. And
-2nd generation Illuminati are the worst.
+and power. But clues are left, because even the Illuminati needs new blood. 2nd
+generation Illuminati are the worst. Up on hobnail boots, down on silk
+slippers, and all that. Smart people know that and recruit accordingly.
 
 This one I won't spoil for you, because it's such a short and great read. It's
 so much more entertaining than the ones given all the credit, like ***1984***
@@ -436,8 +437,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>
