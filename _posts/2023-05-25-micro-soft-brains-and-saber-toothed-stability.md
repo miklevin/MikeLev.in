@@ -4,7 +4,7 @@ title: Micro Soft Brains And Saber-Toothed Stability
 headline: "Discover the Innovator's Dilemma: How Saber-Toothed Stability Keeps Micro Soft Brains in Power"
 description: Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.
 keywords: Micro Soft, Brains, Saber-Toothed, Stability, Evolution, Compromises, Inefficiencies, Quirks, Distraction, Attention, Resources, Money, Time, Love, Binary, Circle, Line, Open, Closed, Circuit, 0, 1, Hoop, Stick, Compass, Alpha, Omega, Pi, Occam's Razor, Objectivity, VSCode, GitHub, OpenAI, GPT, Copilot, Office, 365, Google, Chrom
-categories: git, google, evolution, ai, microsoft
+categories: evolution, microsoft, git, google, ai
 permalink: /blog/micro-soft-brains-and-saber-toothed-stability/
 layout: post
 ---
@@ -191,11 +191,11 @@ If not for some great unknown catastrophe, we would probably all be descendants
 of the Gorgonops. In SciFi and Hollow Earth rants (rants even worse than mine,
 I assure you), you'll find this concept recurring as the Silurians hypyothisis.
 What? No, it's from Dr. Who, the Saurians are from Startrek and have really
-good brandy. Well yeah, they look alike but... Overlords like in Inside Job?
-No, that's nutter David Icke's lizard people, and I resent that an antisemite
-gets all the credit... Lovecraft? Nash himself? Sigh... Forgive them, God. No,
-the lizard people concept goes back to the dawn of time, or at least the 2002
-book ***An Instinct for Dragons*** that says so.
+good brandy. Well yeah, they look alike but... Overlords like in ***Inside
+Job***? No, that's nutter David Icke's lizard people, and I resent that an
+antisemite gets all the credit... Lovecraft? Nash himself? Sigh... Forgive
+them, God. No, the lizard people concept goes back to the dawn of time, or at
+least the 2002 book ***An Instinct for Dragons*** that says so.
 
 Saber-toothed predators are the most successful design in nature. They bring
 down big prey fast, and they can eat for days. Lizards, snakes, cats, walruses
@@ -420,8 +420,8 @@ Deep within my heart and soul... oh, just go look at my homepage.
 ## Categories
 
 <ul>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

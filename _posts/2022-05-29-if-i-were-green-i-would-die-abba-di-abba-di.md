@@ -4,7 +4,7 @@ title: If I Were Green I Would Die. Abba Di Abba Di.
 headline: "Determined to Succeed: A YouTuber’s Journey of Resilience and Creativity"
 description: I am a YouTuber determined to succeed without compromising my standards. I discuss the difficulty of editing videos on YouTube, how APIs can be misleading, and the power of programming languages like Python and vi. I also explore the duality of red and green energy, the strength of diversity, and the power of creativity and natural hunting skills. Finally, I share my experience of shooting my best livecast ever and how it reminded me of the resilience I have developed over the years.
 keywords: green, die, Abba Di Abba Di, YouTuber, succeed, standards, editing, videos, YouTube, APIs, misleading, programming, languages, Python, vi, red, energy, diversity, creativity, natural hunting skills, livecast, resilience, mik, racial slur, streaming, analytics, text editors, Saint IGNUcius, yin language, yang clothing, soft blue, sharp green, SNL, Green Lantern, Green Arrow, Litany Against Fear,
-categories: text editors, python, youtube, coding, vi
+categories: youtube, python, vi, coding, text editors
 permalink: /blog/if-i-were-green-i-would-die-abba-di-abba-di/
 layout: post
 ---
@@ -397,8 +397,8 @@ navigate the impossible route... become the worm.
 ## Categories
 
 <ul>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li></ul>
