@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)
+<br/>I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think."</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
 <br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a> (Tue Apr 18, 2023)

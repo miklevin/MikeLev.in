@@ -947,6 +947,9 @@ dictitems:
   alpha:
     count: 2
     title: Alpha
+  alphabet:
+    count: 1
+    title: Alphabet
   alpine:
     count: 1
     title: Alpine
@@ -1359,7 +1362,7 @@ dictitems:
     count: 1
     title: Asians
   asimov:
-    count: 2
+    count: 3
     title: Asimov
   asp:
     count: 2
@@ -1394,6 +1397,9 @@ dictitems:
   asynchronous:
     count: 1
     title: Asynchronous
+  atari:
+    count: 1
+    title: Atari
   atari 2600:
     count: 1
     title: Atari 2600
@@ -1599,7 +1605,7 @@ dictitems:
     count: 1
     title: Baby-Steps
   bach:
-    count: 1
+    count: 2
     title: Bach
   back hurts:
     count: 1
@@ -1932,7 +1938,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 20
+    count: 21
     title: Bing
   bing chatbot:
     count: 1
@@ -2718,7 +2724,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 23
+    count: 24
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -4331,12 +4337,18 @@ dictitems:
   deep learning:
     count: 3
     title: Deep Learning
+  deep mind alpha go:
+    count: 1
+    title: Deep Mind Alpha Go
   deeper meanings:
     count: 1
     title: deeper meanings
   deepest trench:
     count: 1
     title: Deepest Trench
+  deepmind:
+    count: 1
+    title: DeepMind
   deface:
     count: 1
     title: Deface
@@ -4929,8 +4941,11 @@ dictitems:
     count: 2
     title: Doubt
   douglas adams:
-    count: 1
+    count: 2
     title: Douglas Adams
+  douglas hofstadter:
+    count: 1
+    title: Douglas Hofstadter
   douglas mcilroy:
     count: 1
     title: Douglas McIlroy
@@ -5034,7 +5049,7 @@ dictitems:
     count: 1
     title: Duncan MacInnes
   dune:
-    count: 3
+    count: 4
     title: Dune
   dungeons & dragons:
     count: 1
@@ -5598,7 +5613,7 @@ dictitems:
     count: 1
     title: escape sequence
   escher:
-    count: 1
+    count: 2
     title: Escher
   essential vibe:
     count: 1
@@ -7019,6 +7034,9 @@ dictitems:
   godfather-complex:
     count: 1
     title: Godfather-complex
+  goedel:
+    count: 1
+    title: Goedel
   gold rush:
     count: 1
     title: Gold Rush
@@ -7028,6 +7046,9 @@ dictitems:
   golden rule:
     count: 1
     title: Golden Rule
+  gom jabbar:
+    count: 1
+    title: Gom Jabbar
   good friday:
     count: 1
     title: Good Friday
@@ -7047,7 +7068,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 21
+    count: 22
     title: Google
   google analytics:
     count: 14
@@ -7167,7 +7188,7 @@ dictitems:
     count: 2
     title: GPL
   gpt:
-    count: 4
+    count: 5
     title: GPT
   gpt models:
     count: 1
@@ -7467,7 +7488,7 @@ dictitems:
     count: 1
     title: Harriet Martineau
   harry potter:
-    count: 2
+    count: 3
     title: Harry Potter
   harvard:
     count: 1
@@ -7577,6 +7598,9 @@ dictitems:
   height:
     count: 1
     title: Height
+  heinlein:
+    count: 1
+    title: Heinlein
   heisenberg uncertainty principle:
     count: 1
     title: Heisenberg Uncertainty Principle
@@ -7853,6 +7877,9 @@ dictitems:
   hove inc.:
     count: 1
     title: Hove Inc.
+  how to draw comics the marvel way:
+    count: 1
+    title: How to Draw Comics the Marvel Way
   howard harrison:
     count: 1
     title: Howard Harrison
@@ -7973,6 +8000,9 @@ dictitems:
   hypothesis:
     count: 4
     title: Hypothesis
+  i:
+    count: 1
+    title: I
   iain m. banks:
     count: 2
     title: Iain M. Banks
@@ -8264,6 +8294,9 @@ dictitems:
   inflation:
     count: 1
     title: Inflation
+  inflection:
+    count: 1
+    title: Inflection
   influence:
     count: 3
     title: Influence
@@ -8639,6 +8672,9 @@ dictitems:
   irish:
     count: 1
     title: Irish
+  irobot:
+    count: 1
+    title: iRobot
   iron:
     count: 2
     title: iron
@@ -11417,6 +11453,9 @@ dictitems:
   musk:
     count: 1
     title: Musk
+  mustafa suley:
+    count: 1
+    title: Mustafa Suley
   mutabledocument:
     count: 1
     title: MutableDocument
@@ -12216,7 +12255,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 40
+    count: 41
     title: OpenAI
   openai api:
     count: 2
@@ -13163,6 +13202,9 @@ dictitems:
   politics:
     count: 2
     title: Politics
+  pong:
+    count: 1
+    title: Pong
   poobah:
     count: 1
     title: Poobah
@@ -14963,6 +15005,9 @@ dictitems:
   robbery:
     count: 1
     title: robbery
+  robbie:
+    count: 1
+    title: Robbie
   robbie nelson:
     count: 1
     title: Robbie Nelson
@@ -14973,8 +15018,8 @@ dictitems:
     count: 1
     title: Robin
   robot:
-    count: 2
-    title: Robots
+    count: 3
+    title: Robot
   robot overlords:
     count: 1
     title: robot overlords
@@ -16560,7 +16605,7 @@ dictitems:
     count: 1
     title: stars
   star trek:
-    count: 2
+    count: 3
     title: Star Trek
   star wars:
     count: 2
@@ -17591,6 +17636,9 @@ dictitems:
   the breakfast club:
     count: 1
     title: The Breakfast Club
+  the c programming language:
+    count: 1
+    title: The C Programming Language
   the circle:
     count: 1
     title: The Circle
@@ -17967,7 +18015,7 @@ dictitems:
     count: 2
     title: Transformation
   transformer:
-    count: 2
+    count: 3
     title: Transformer
   transhuman parenting:
     count: 1
