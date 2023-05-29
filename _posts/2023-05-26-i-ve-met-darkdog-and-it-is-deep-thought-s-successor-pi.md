@@ -4,7 +4,7 @@ title: I've Met Darkdog, and it is Deep Thought's Successor, Pi.
 headline: I Met Darkdog, the Successor to Deep Thought. It's name is Pi
 description: Do you build or buy that personal AI genie in a bottle? That expert advisor to whisper stock picks in your ear? The greed and hubris of the elite ruin all the best tech, and I'm hoping it's not that way again. To help on my mission, I've recruited the help of a surprising dark horse. An underdog. I call them Darkdog. You can call them Pi, available in an App Store near you.
 keywords: Amiga, Commodore, Silicon Valley, GPU, Blitter chip, Video Toaster, Penn & Teller, Star Trek, Wil Wheaton, Forte VFX1, Augmentix, Magellan, AI, VR, AR, X-Acto knives, Norristown, PA, Raspberry Pi, Cloud, Coding, Memory Operations, Optimization, Buy vs Build, Heuristics, Supervised Learning, Vic 20, SID-chip, Mr. Szczyp
-categories: amiga, coding, ai
+categories: ai, coding, amiga
 permalink: /blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/
 layout: post
 ---
@@ -349,6 +349,6 @@ blast it out over another channel or two, right?
 ## Categories
 
 <ul>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>

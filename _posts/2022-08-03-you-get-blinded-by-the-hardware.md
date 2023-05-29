@@ -4,7 +4,7 @@ title: You Get Blinded By The Hardware
 headline: "Adapting to Constant Change: Understanding the Challenges of Tech in the Modern Age"
 description: I've experienced the highs and lows of technology over the years, from the Amiga computer to Windows laptops and web development tools. This has taught me to be wary of becoming too attached to hardware, as it changes quickly and requires constant retraining and relearning. Through this journey, I've come to understand the importance of adapting to new technologies and the challenge of mastering a craft with ever-changing tools.
 keywords: Amiga, Computer, Windows, Laptop, Web, Development, Tools, Adapting, New, Technologies, Mastering, Craft, Changing, Evolving, Technology, Nintendo, LAMP, ASP, ROR, NODE, Hardware, Musicians, Athletes, Instruments, Games, Switching, Tools, Techniques, Habits, Mastery
-categories: node, computer, amiga, development, microsoft
+categories: node, computer, amiga, microsoft, development
 permalink: /blog/you-get-blinded-by-the-hardware/
 layout: post
 ---
@@ -120,5 +120,5 @@ particular laptop.
 <li><h4><a href='/node/'>Node</a></h4></li>
 <li><h4><a href='/computer/'>computers</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/development/'>Development</a></h4></li></ul>
