@@ -4,7 +4,7 @@ title: "Hey AI: Give Me Credit, Consent & Compensation"
 headline: "Making a Living Off Content: Leveraging Human Advantages, Licensing Content, and Emphasizing Human Relationships."
 description: This text explores how to make a living off of producing content that people find interesting and valuable. I provide several strategies to make this happen, such as leveraging the unique advantages of humans, licensing content, and emphasizing the human relationship aspect. Additionally, I discuss how the age of Wonderland and Oz is upon us, and how the Wizard of Oz book series can teach us much. I'm setting up a server to capture ideas and thoughts, practice writing, and publish a blog with valuable information.
 keywords: AI, Credit, Consent, Compensation, Living, Content, Strategies, Leveraging, Advantages, Humans, Licensing, Relationship, Wonderland, Oz, Wizard, Book, Series, Server, Capture, Ideas, Thoughts, Writing, Publish, Blog, Valuable, Information, Focus, Mass, Attractive, Markdown, Organize, Articulate, Decisions, Guidance, System, Stay, Focused, Questions, Open Mind
-categories: ai, question, publish, success
+categories: question, success, ai, publish
 permalink: /blog/hey-ai-give-me-credit-consent-compensation/
 layout: post
 ---
@@ -137,7 +137,7 @@ modifying my behavior.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/question/'>Questions</a></h4></li>
-<li><h4><a href='/publish/'>Publish</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/publish/'>Publish</a></h4></li></ul>

@@ -9909,7 +9909,7 @@ dictitems:
     count: 1
     title: LL
   llm:
-    count: 1
+    count: 2
     title: LLM
   load:
     count: 1
@@ -11381,6 +11381,9 @@ dictitems:
   mudskipper:
     count: 1
     title: Mudskipper
+  multi-modal.:
+    count: 1
+    title: multi-modal.
   multi-platform:
     count: 1
     title: multi-platform
