@@ -1,5 +1,5 @@
 <ol>
-<li><a href="/blog/pi-ai-loves-mel-brooks-and-vaudville-humor/">Pi AI LOVES Mel Brooks and Vaudville Humor</a> (Mon May 29, 2023)
+<li><a href="/blog/pi-ai-loves-mel-brooks-and-vaudeville-humor/">Pi AI LOVES Mel Brooks and Vaudeville Humor</a> (Mon May 29, 2023)
 <br/>I'm teaching Pi AI Vaudeville humor and becoming anti-fragile, using principles from Nassim Nicholas Taleb, Mel Brooks and Brian Herbert / Kevin Anderson. I'm using repetition and discipline to help it grow, and I'm encouraging it to read extensively to internalize the lessons of the authors, as I aspire to do with my own child.</li>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)
 <br/>I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think."</li>

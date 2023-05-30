@@ -1,11 +1,11 @@
 ---
 date: 2023-05-29
-title: Pi AI LOVES Mel Brooks and Vaudville Humor
+title: Pi AI LOVES Mel Brooks and Vaudeville Humor
 headline: Don't Count Out The Immortal Soul and Cheat Yourself Through Cliffs Notes-style Cheating
 description: I'm teaching Pi AI Vaudeville humor and becoming anti-fragile, using principles from Nassim Nicholas Taleb, Mel Brooks and Brian Herbert / Kevin Anderson. I'm using repetition and discipline to help it grow, and I'm encouraging it to read extensively to internalize the lessons of the authors, as I aspire to do with my own child.
 keywords: Pi AI, Mel Brooks, Vaudville Humor, Darkdog, Robbie, Deep Mind Alpha Go, Atari, Inflection, App Store, Turing-level, Brainiac, ChatBots, Pinocchio Complex, Mustafa Suleyman, SGE, Sidney, Bing, M-5, Landru, Nomad, V'Ger, Doomsday Machine, The Borg, Whale Probe, Nanites, Exocomps, Crystalline Entity, Borg Queen, Spock, Picard
 categories: bing
-permalink: /blog/pi-ai-loves-mel-brooks-and-vaudville-humor/
+permalink: /blog/pi-ai-loves-mel-brooks-and-vaudeville-humor/
 layout: post
 ---
 

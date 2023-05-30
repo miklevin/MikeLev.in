@@ -4,7 +4,7 @@ title: Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04
 headline: "Struggling to Decide: Should I Make My Next Video Out of the Arts?"
 description: "After a long update process, I realized the Windows Updates I had downloaded weren't what I was looking for. I then tried to get LXD running under WSL2 on Ubuntu 20.04 but was unsuccessful. Switching to Ubuntu 18.04 allowed me to get LXD running, but now I'm faced with a difficult decision: do I make my next video out of the arts? Read my blog post to find out what I decide!"
 keywords: Windows, Updates, KB5014699, KB5013887, LXD, WSL2, Ubuntu, 20.04, 18.04, Update Process, Forced Restart, Video, Arts, Decision, Commit
-categories: ubuntu, wsl, microsoft, container
+categories: ubuntu, container, wsl, microsoft
 permalink: /blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/
 layout: post
 ---
@@ -93,6 +93,6 @@ fewer moving parts? Make my next video out of it? Ugh! Maybe. Just maybe.
 
 <ul>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
