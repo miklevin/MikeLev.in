@@ -310,7 +310,7 @@ the shoes of the author and their characters.
 Non-readers just don't get this. They're quite happy cheating themselves, and
 often even are proud of it. Their loopholes and shortcuts become part of their
 very identity, and they gain a sense of superiority over those who actually
-read&151;just like the readers know that their richer experience is superior to
+read&#151;just like the readers know that their richer experience is superior to
 to the ***Cliffs Notes*** hack. It is perhaps short-term thinking vs. long-term
 thinking, but more importantly than that, you can't count out the possibility
 that we have immortal souls and we're here to use this wonderful opportunity on

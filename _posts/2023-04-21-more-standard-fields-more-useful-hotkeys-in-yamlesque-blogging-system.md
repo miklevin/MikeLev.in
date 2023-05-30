@@ -4,7 +4,7 @@ title: More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System
 headline: Edit AI-Generated Meta Descriptions with Improved YAML Blogging System
 description: "I changed the topics field to keywords in my blog posts and used a search/replace to make sure everything was up to date. To make sure my meta descriptions were accurate, I wrote a regex pattern for vim to search for lines beginning with description: and end with any character that is not sentence-ending punctuation. I created a macro to help me quickly search for and edit the AI-generated meta descriptions. Now I can easily make sure my blog posts have the best meta descriptions possible."
 keywords: YAMLesque, Blogging System, Topics Field, Keywords, Meta Descriptions, Regex Pattern, Vim, Macro, AI-generated, Wrapped Text Mode, NeoVim
-categories: seo, vim, meta descriptions
+categories: vim, seo, meta descriptions
 permalink: /blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system/
 layout: post
 ---
@@ -137,6 +137,6 @@ vim/NeoVim, which is a song this hard-wrapping vimmer usually doesn't sing.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li></ul>

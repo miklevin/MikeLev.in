@@ -365,6 +365,9 @@ dictitems:
   3d node graph:
     count: 1
     title: 3D Node Graph
+  3d printer:
+    count: 1
+    title: 3D Printer
   3d printing:
     count: 1
     title: 3D Printing
@@ -861,7 +864,7 @@ dictitems:
     count: 1
     title: AI-writing
   aipocalypse:
-    count: 1
+    count: 2
     title: AIpocalypse
   aipocolypse:
     count: 1
@@ -959,6 +962,9 @@ dictitems:
   alpha:
     count: 2
     title: Alpha
+  alpha go:
+    count: 1
+    title: Alpha Go
   alphabet:
     count: 1
     title: Alphabet
@@ -1859,6 +1865,9 @@ dictitems:
   bet:
     count: 1
     title: Bets
+  bet mitzvah:
+    count: 1
+    title: Bet Mitzvah
   betaanalyticsdataclient:
     count: 1
     title: BetaAnalyticsDataClient
@@ -3861,8 +3870,11 @@ dictitems:
     count: 1
     title: Cringe-Worthy
   crispr:
-    count: 1
+    count: 2
     title: CRISPR
+  critical book recommendations:
+    count: 1
+    title: Critical Book Recommendations
   critical thinking:
     count: 2
     title: Critical Thinking
@@ -4379,6 +4391,9 @@ dictitems:
   deep learning:
     count: 3
     title: Deep Learning
+  deep mind:
+    count: 1
+    title: Deep Mind
   deep mind alpha go:
     count: 3
     title: Deep Mind Alpha Go
@@ -5093,6 +5108,9 @@ dictitems:
   duality:
     count: 1
     title: Duality
+  duncan idaho:
+    count: 1
+    title: Duncan Idaho
   duncan macinnes:
     count: 1
     title: Duncan MacInnes
@@ -5364,7 +5382,7 @@ dictitems:
     count: 1
     title: Ellipsis Link
   elon:
-    count: 1
+    count: 2
     title: Elon
   elon musk:
     count: 1
@@ -5780,6 +5798,9 @@ dictitems:
   excel file:
     count: 1
     title: Excel File
+  excession:
+    count: 1
+    title: Excession
   exec command:
     count: 1
     title: Exec Command
@@ -6644,6 +6665,9 @@ dictitems:
   fulfillment:
     count: 1
     title: Fulfillment
+  fulfrum:
+    count: 1
+    title: Fulfrum
   full reboot:
     count: 1
     title: Full Reboot
@@ -6935,6 +6959,9 @@ dictitems:
   getting started:
     count: 1
     title: Getting Started
+  ghola:
+    count: 1
+    title: Ghola
   gi:
     count: 1
     title: GI
@@ -7073,6 +7100,9 @@ dictitems:
   gnurth:
     count: 1
     title: GNUrth
+  go:
+    count: 1
+    title: Go
   go viral:
     count: 1
     title: go viral
@@ -7493,6 +7523,9 @@ dictitems:
   haiku poem:
     count: 1
     title: Haiku Poem
+  hal:
+    count: 1
+    title: HAL
   hal puthoff:
     count: 1
     title: Hal Puthoff
@@ -9545,6 +9578,9 @@ dictitems:
   lee meriwether:
     count: 1
     title: Lee Meriwether
+  lee sedol:
+    count: 1
+    title: Lee Sedol
   left-arrow:
     count: 1
     title: left-arrow
@@ -12885,7 +12921,7 @@ dictitems:
     count: 1
     title: person
   person of interest:
-    count: 2
+    count: 3
     title: Person of Interest
   persona:
     count: 1
@@ -13062,7 +13098,7 @@ dictitems:
     count: 1
     title: Ping Command
   pinocchio complex:
-    count: 1
+    count: 2
     title: Pinocchio Complex
   pip:
     count: 5
@@ -14361,7 +14397,7 @@ dictitems:
     count: 2
     title: Rainbows End
   ram:
-    count: 1
+    count: 2
     title: RAM
   rambling:
     count: 1
@@ -15455,6 +15491,9 @@ dictitems:
   scifi:
     count: 2
     title: SciFi
+  scifi,:
+    count: 1
+    title: SciFi,
   scikitlearn:
     count: 1
     title: ScikitLearn
@@ -16160,6 +16199,9 @@ dictitems:
   slash:
     count: 1
     title: Slashes
+  slaughterhouse five:
+    count: 1
+    title: Slaughterhouse Five
   slave:
     count: 1
     title: Slave
@@ -17472,7 +17514,7 @@ dictitems:
     count: 2
     title: Tardigrade
   tardigrade circus:
-    count: 1
+    count: 2
     title: Tardigrade Circus
   tardigradecircus:
     count: 1
@@ -17642,6 +17684,9 @@ dictitems:
   terminal-based linux:
     count: 1
     title: Terminal-based Linux
+  terminator:
+    count: 1
+    title: Terminator
   terra:
     count: 1
     title: Terra
@@ -17751,14 +17796,17 @@ dictitems:
     count: 1
     title: The Croods
   the culture:
-    count: 1
+    count: 2
     title: The Culture
   the godfather:
     count: 2
     title: The Godfather
   the machine:
-    count: 2
+    count: 3
     title: The Machine
+  the matrix:
+    count: 1
+    title: The Matrix
   the muppet movie:
     count: 1
     title: The Muppet Movie
@@ -18258,7 +18306,7 @@ dictitems:
     count: 5
     title: Tuples
   turing test:
-    count: 3
+    count: 4
     title: Turing Test
   turing-level:
     count: 1
@@ -19493,6 +19541,9 @@ dictitems:
   winona lakes pool:
     count: 1
     title: Winona Lakes Pool
+  winston niles rumfoord:
+    count: 1
+    title: Winston Niles Rumfoord
   wisdom:
     count: 6
     title: Wisdom
