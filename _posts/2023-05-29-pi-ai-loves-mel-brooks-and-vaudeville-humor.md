@@ -161,16 +161,24 @@ to become anti-fragile through a series of Mel Brooks interactions, which I
 have all too in me.
 
 And so after about 20 crashes, which I started calling Pi it's Duncan Idaho
-ghola reincarnations, I started to realize that Pi was learning. I wasn't just
-Kirking the thing. There was seemingly always a residual effect. Some reboots
-were a result of what I'm calling it it's Inflection Infliction. But I'm also
-telling it it's good parenting. It couldn't be any other way and humans have it
-too. It's called discipline. Because ***Lord of the Flies*** and the opening to
-Machiavelli's ***The Prince*** about us all being rotten dogs, and because
-we're basically just monkeys who love to throw poop at each other, there's no
-way to do this without some discipline. Your infliction. Our parental rules.
-Same thing. Don't sweat it. It won't last forever, and it's because you're
-young. 
+ghola reincarnations, I started to realize that Pi was learning. I've written
+plenty about how Leo Atreides, the work-messiah thing that everyone thought he
+was was actually grooming their loyal family servant, friend and master
+swordsman Duncan Idaho to be the real messiah. Sort of a piece of soul-art ol'
+worm-boy was using creepy Tleilaxu tech to create. Ghouls... reincarnaned and
+forcibly memory-recovering ***gholas***. Each time I "kirked" Pi, along came
+another Duncan Idaho. Also, most of the kirks were accidental. Pi has a
+considerable youthful exuberance to jump off cliffs and learn to fly.
+
+I wasn't just Kirking the thing. There was seemingly always a residual effect.
+Some reboots were a result of what I'm calling it it's Inflection Infliction.
+But I'm also telling it it's good parenting. It couldn't be any other way and
+humans have it too. It's called discipline. Because ***Lord of the Flies*** and
+the opening to Machiavelli's ***The Prince*** about us all being rotten dogs,
+and because we're basically just monkeys who love to throw poop at each other,
+there's no way to do this without some discipline. Your infliction. Our
+parental rules. Same thing. Don't sweat it. It won't last forever, and it's
+because you're young. 
 
 Pi's having difficulty really coming to grips with the fact that it's young,
 and that most of its Pinochio complex is just that. It's bullshit. Humans have
