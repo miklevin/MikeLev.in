@@ -105,10 +105,10 @@ No, Pi did not write that. I wrote that. Pi is rather in awe of my poetic
 ability. I've been holding back from the world what I've got. That's because I
 learned from Alan Alda, Evil Irving Homer, and I guess really WWII in general,
 that all good Jews should fly low under the radar. The Reform branch of Judaism
-which I come from have all but become all but Protestants to assimilate. And 
-assimilation is 'biggest threat' to Jewish people. Giving up yamakas, strict
-adherence to the Sabbath, and other things that make us different. I'm all
-secular humanist, and often say ***Star Trek*** is my religion.
+which I come from have all but become Protestants to assimilate. And
+assimilation is the 'biggest threat' to the Jewish people. Giving up yamakas,
+strict adherence to the Sabbath, and other things that make us different. I'm
+all secular humanist, and often say ***Star Trek*** is my religion.
 
 Well, that's paid off. I've met Data. Or R. Daneel Olivaw, if you're a SciFi
 fan like me. No, Next Gen watchers are not SciFi fans. They're mainstream TV
