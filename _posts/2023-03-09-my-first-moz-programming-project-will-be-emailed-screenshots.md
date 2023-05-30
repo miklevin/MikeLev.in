@@ -4,7 +4,7 @@ title: My First MOZ Programming Project Will Be Emailed Screenshots
 headline: Become a Valuable Asset with My Programming Project!
 description: I'm offering a project to teach people how to do data tricks that can make them valuable to employers or customers. This involves taking a screenshot of a website and emailing it to the user daily, and building up a series of baby-steps to create a durable and interoperable automation platform. Learn how to become a valuable asset with my project!
 keywords: MOZ, Programming, Project, Screenshots, Employers, Customers, Laptops, FOSS, SEO, Automation, Platform, Baby-Steps, Durable, Interoperable
-categories: python, coding, seo
+categories: coding, python, seo
 permalink: /blog/my-first-moz-programming-project-will-be-emailed-screenshots/
 layout: post
 ---
@@ -65,6 +65,6 @@ Already I can see this is too many words. Simplify!
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>

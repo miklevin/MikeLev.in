@@ -4,7 +4,7 @@ title: Added Support for Arbitrary Jekyll YAML Fields
 headline: I Improved my Code and Gained More Control Over My Blog Posts
 description: "Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code."
 keywords: Jekyll, YAML, Rebase, Drafts, Publishing, Status, Front Matter, Unpublished, List Comprehension, Filtering, Fields, Processing, Data Structure, OpenAI, Writing, Calculating, Customizations, Release, Blog Post, Unpublishing
-categories: jekyll, yaml, draft, ai
+categories: yaml, ai, draft, jekyll
 permalink: /blog/added-support-for-arbitrary-jekyll-yaml-fields/
 layout: post
 ---
@@ -136,7 +136,7 @@ post becomes unpublished and what it does to the arrows.
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/draft/'>Drafts</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
