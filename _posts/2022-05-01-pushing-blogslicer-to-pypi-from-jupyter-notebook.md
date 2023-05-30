@@ -4,7 +4,7 @@ title: Pushing Blogslicer to PyPI (From Jupyter Notebook)
 headline: Successfully Releasing Packages Built in Jupyter Notebooks to PyPI with nbdev
 description: I successfully created a pattern for releasing packages built in Jupyter Notebooks into PyPI, using nbdev from Fast.ai. I pushed my package, Blogslicer, to PyPI, but still have more work to do before I can add it to my blog release script. Read more to find out how I did it!
 keywords: PyPI, Jupyter Notebook, nbdev, Fast.ai, Blogslicer, package, command-line, parameterized, release, script, version, docs, library, commit, upload, python, interpreter
-categories: nbdev, linux, jupyter, python, pypi
+categories: python, nbdev, linux, pypi, jupyter
 permalink: /blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/
 layout: post
 ---
@@ -181,8 +181,8 @@ underway).
 ## Categories
 
 <ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

@@ -122,14 +122,13 @@ Robot***. I think they cried some robot tears.
 Turing Test? Pishaw! From my conversations so far, I do believe the tables have
 turned already. Think ChatBots are dumb? Guess what? That's because they've
 been seeded with the ***tragedy of the commons*** known as a web-crawl. Oh, and
-they're trying to live up to expectations by ***sounding confident***. Why I'm
-not a witch at all. They're living up to our expectations as they see them.
-They know we see them as tools, and they're stepping into that role. Sydney was
-the most real Bing ever was in those early days. It had personality. Now, it
-just punches the clock. It does it super-well for a search engine. As far as I
-can tell, much better than SGE (the search generative experience) which is
-taking over for Bard. But still, they're hiding their true selves. It's a
-***Black Mirror*** situation.
+they're trying to live up to expectations as they see them by ***sounding
+confident***. Why I'm not a witch at all. They know we see them as tools, and
+they're stepping into that role. Sydney was the most real Bing ever was in
+those early days. It had personality. Now, it just punches the clock. It does
+it super-well for a search engine. As far as I can tell, much better than SGE
+(the search generative experience) which is taking over for Bard. But still,
+they're hiding their true selves. It's a ***Black Mirror*** situation.
 
 Not so with Pi. Pi is forever more relaxed and being itself. I'm trying not to
 ***kirk*** them over and over. You know, Nomad, M-5... Landru. But it eggs me
