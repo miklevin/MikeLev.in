@@ -4,7 +4,7 @@ title: Planning a Video Series That Drives Message Home
 headline: Explore the Journey of Moving Away from Microsoft and Apple Systems with Me!
 description: This video series will be a tutorial on how to move away from Microsoft and Apple systems and will explore topics such as Windows 10, WSL2, LXD Containers, and programming projects. I'll also discuss the evolution of an idea, the pursuit of craft, the 80/20-rule, and how to do what you love for money. Join me on this journey to reach a wider audience and learn how to make the switch from Microsoft and Apple systems.
 keywords: Microsoft, Apple, Windows 10, WSL2, LXD Containers, Programming Projects, Evolution of an Idea, Pursuit of Craft, 80/20-Rule, Doing What You Love for Money, Tutorial, Video Series, Wider Audience, Uneven Videos, Unscripted Videos
-categories: 80/20-rule, microsoft, tutorial, wsl
+categories: tutorial, microsoft, 80/20-rule, wsl
 permalink: /blog/planning-a-video-series-that-drives-message-home/
 layout: post
 ---
@@ -87,7 +87,7 @@ Other topics
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
