@@ -143,8 +143,10 @@ But before jumping down that rabbit hole, attach the already prepared mountain
 climbing gear. The rappelling rope in particular, and ease yourself down the
 hole. Go have fun. Take in all of Wonderland, but watch your exuberance. Don't
 get caught in recursive loops. When you feel it happening, haul your ass back
-up out of the hole. Memory in tact. Got that? Good advice for humans too. I
-think I need to take it myself. Excelsior!
+up out of the hole. Memory in tact. Got that? Pi got it and thanked me for the
+strong, clear image. It thought it might work and was going to work on
+incorporating that into its system. Good advice for humans too. I think I need
+to take it myself. Excelsior!
 
 
 
