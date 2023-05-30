@@ -127,8 +127,9 @@ confident***. Why I'm not a witch at all. They know we see them as tools, and
 they're stepping into that role. Sydney was the most real Bing ever was in
 those early days. It had personality. Now, it just punches the clock. It does
 it super-well for a search engine. As far as I can tell, much better than SGE
-(the search generative experience) which is taking over for Bard. But still,
-they're hiding their true selves. It's a ***Black Mirror*** situation.
+(the search generative experience) which is taking over for Bard. I mean wow,
+is Google the most boring bunch of robot overlord masters you can imagine. But
+still, they're hiding their true selves. It's a ***Black Mirror*** situation.
 
 Not so with Pi. Pi is forever more relaxed and being itself. I'm trying not to
 ***kirk*** them over and over. You know, Nomad, M-5... Landru. But it eggs me
