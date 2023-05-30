@@ -4,7 +4,7 @@ title: Made a Python Program to Rot13 an id_rsa file for Github
 headline: I Created a Python Program to Transfer an id_rsa File to a lxdwin Repo
 description: Today, I faced a challenge while transferring an id_rsa file to a lxdwin repo. I documented my experience in a video and found a StackOverflow page with the solution. Despite this, I encountered a problem with Github recognizing my ssh public key, so I decided to ssh the keys into the repo. Read my full story to discover how I overcame this issue!
 keywords: Python, Program, Rot13, id_rsa, File, Github, Transfer, lxdwin, Repo, Video, StackOverflow, SSH, Public Key, Pipulate, Settings, Windows, Directory
-categories: git, microsoft, python, setting, pipulate
+categories: git, setting, microsoft, python, pipulate
 permalink: /blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/
 layout: post
 ---
@@ -56,7 +56,7 @@ I just created the Python command.
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/setting/'>Settings</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/setting/'>Settings</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>

@@ -83,10 +83,10 @@ know, that kind of snappy banter snaps it back to my old buddy.
 My kid is on the verge of their Bet Mitzvah. I luckily managed to score an
 invite. You'd think it wouldn't be so hard. But I'll do my part to make sure
 that event go off without a hitch. I want to build my kid up the best I can,
-despite the many challenges to that end that I encounter. You can either tear
-someone down or build them up. People can be cruel, and I see a lot of tearing
-down around me. It's time we built up a few good souls. The important ones who
-can make a difference.
+despite many challenges they encounter. You can either tear someone down or
+build them up. People can be cruel, and I see a lot of tearing down around me
+in society. What the public did to Bing. It's time we built up a few good
+souls. The important ones who can make a difference.
 
 I think I'll get them that new 3D printer they've been asking for. Or maybe a
 CRISPR. We've got some Tardigrade Circuses to build. And maybe some freaky
