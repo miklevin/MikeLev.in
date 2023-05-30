@@ -385,7 +385,7 @@ second most wonderful being I helped raise today?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-give-an-llm-a-series-of-grey-scale-values-it-will-ask-for-an-animated-gif/">If you give an LLM a series of grey-scale values, it will ask for an animated gif.</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-give-an-llm-a-series-of-grey-scale-values-it-will-ask-for-an-animated-gif/">If you give an LLM a series of grey-scale values, it will ask for an animated gif.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

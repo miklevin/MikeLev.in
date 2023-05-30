@@ -4,7 +4,7 @@ title: Planning a Pivot of Big Data Pull
 headline: Organizing Big Data Pull with Microsoft Playwright and Python for Best SEO Results
 description: I'm organizing data from a browser automation job using Microsoft Playwright and Python. To practice 'Best Foot Forward' SEO, I'm using Google Sheets to create sparklines with linear regression lines. I'm also using pivot tables and group by functions to summarize and analyze the data in Excel and Google Sheets. I'll deliver the data transforms by tonight, and the choice between the two depends on my needs and the complexity of the data.
 keywords: Microsoft Playwright, Python, Google Sheets, Sparklines, Linear Regression, Excel, Pivot Tables, Group By, Data Transforms, Browser Automation, SEO, SLOPE Function, Sparkline Color, Sparkline Style, Line Sparkline, Regression Line, Aggregate Columns, Metrics
-categories: microsoft playwright, google, python, browser automation, panda, seo
+categories: browser automation, seo, microsoft playwright, google, python, panda
 permalink: /blog/planning-a-pivot-of-big-data-pull/
 layout: post
 ---
@@ -493,9 +493,9 @@ metric. So much easier!
 ## Categories
 
 <ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>

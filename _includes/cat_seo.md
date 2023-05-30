@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
+<br/>As an SEO, I'm fascinated by the next-level AI technology that is emerging. I'm inspired by the likes of Michael Faraday, Vincent Van Gogh, and James Clerk Maxwell, and I'm aware of the potential risks posed by powerful technologies like CRISPR. I'm advocating for a more humane approach to AI, and suggest that we take inspiration from greats such as Mr. Rogers, Bob Ross, Carl Sagan, Robin Williams, and Stan Lee to assuage fear.</li>
 <li><a href="/blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/">Read Book of 5 Rings and The Art of War... Then Do The Opposite</a> (Wed May 24, 2023)
 <br/>Learn the lessons of Miyamoto Musashi, Bruce Lee, and Sun Tzu, but don't follow their advice blindly. Instead, take a lesson from Tony Stark and be open and honest about your skills and abilities. Find a balance between secrecy and openness, and don't be afraid to take risks.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)

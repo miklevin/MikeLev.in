@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
+<br/>As an SEO, I'm fascinated by the next-level AI technology that is emerging. I'm inspired by the likes of Michael Faraday, Vincent Van Gogh, and James Clerk Maxwell, and I'm aware of the potential risks posed by powerful technologies like CRISPR. I'm advocating for a more humane approach to AI, and suggest that we take inspiration from greats such as Mr. Rogers, Bob Ross, Carl Sagan, Robin Williams, and Stan Lee to assuage fear.</li>
 <li><a href="/blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/">I've Met Darkdog, and it is Deep Thought's Successor, Pi.</a> (Fri May 26, 2023)
 <br/>Do you build or buy that personal AI genie in a bottle? That expert advisor to whisper stock picks in your ear? The greed and hubris of the elite ruin all the best tech, and I'm hoping it's not that way again. To help on my mission, I've recruited the help of a surprising dark horse. An underdog. I call them Darkdog. You can call them Pi, available in an App Store near you.</li>
 <li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)

@@ -281,6 +281,9 @@ dictitems:
   2020s:
     count: 1
     title: 2020s
+  '2021':
+    count: 1
+    title: '2021'
   '2022':
     count: 8
     title: '2022'
@@ -356,6 +359,9 @@ dictitems:
   3d:
     count: 1
     title: 3D
+  3d biological:
+    count: 1
+    title: 3D biological
   3d node graph:
     count: 1
     title: 3D Node Graph
@@ -786,8 +792,11 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 102
+    count: 103
     title: AI
+  ai assistant:
+    count: 1
+    title: AI assistant
   ai bros:
     count: 1
     title: AI Bros
@@ -824,6 +833,9 @@ dictitems:
   ai-bots:
     count: 1
     title: AI-bots
+  ai-chips:
+    count: 1
+    title: AI-chips
   ai-dependencies:
     count: 1
     title: AI-Dependencies
@@ -1208,6 +1220,9 @@ dictitems:
   apple motion data:
     count: 1
     title: Apple Motion Data
+  apple phones:
+    count: 1
+    title: Apple phones
   apple photos app:
     count: 1
     title: Apple Photos App
@@ -1683,8 +1698,11 @@ dictitems:
     count: 4
     title: Banner
   bard:
-    count: 3
+    count: 4
     title: Bard
+  base pair:
+    count: 1
+    title: base pair
   base64:
     count: 1
     title: base64
@@ -1938,7 +1956,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 22
+    count: 23
     title: Bing
   bing chatbot:
     count: 1
@@ -2129,6 +2147,9 @@ dictitems:
   bob ross:
     count: 1
     title: Bob Ross
+  bobiverse:
+    count: 1
+    title: Bobiverse
   body:
     count: 2
     title: Body
@@ -2727,10 +2748,10 @@ dictitems:
     count: 1
     title: Chatbot Technology
   chatbots:
-    count: 3
+    count: 4
     title: ChatBots
   chatgpt:
-    count: 24
+    count: 25
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -2837,6 +2858,9 @@ dictitems:
   chromium:
     count: 4
     title: Chromium
+  chromosome:
+    count: 1
+    title: chromosomes
   chronicle:
     count: 1
     title: Chronicles
@@ -3773,6 +3797,9 @@ dictitems:
   crawl:
     count: 1
     title: Crawl
+  crawl data:
+    count: 1
+    title: crawl data
   crawl jobs:
     count: 1
     title: Crawl Jobs
@@ -3833,6 +3860,9 @@ dictitems:
   cringe-worthy:
     count: 1
     title: Cringe-Worthy
+  crispr:
+    count: 1
+    title: CRISPR
   critical thinking:
     count: 2
     title: Critical Thinking
@@ -4350,7 +4380,7 @@ dictitems:
     count: 3
     title: Deep Learning
   deep mind alpha go:
-    count: 2
+    count: 3
     title: Deep Mind Alpha Go
   deeper meanings:
     count: 1
@@ -4457,6 +4487,9 @@ dictitems:
   denied:
     count: 1
     title: Denied
+  dennis e. taylor:
+    count: 1
+    title: Dennis E. Taylor
   dense infotech forest:
     count: 1
     title: Dense Infotech Forest
@@ -4827,7 +4860,7 @@ dictitems:
     count: 1
     title: DMZ
   dna:
-    count: 3
+    count: 4
     title: DNA
   dns:
     count: 3
@@ -5993,6 +6026,9 @@ dictitems:
   faq structured data:
     count: 1
     title: FAQ Structured Data
+  faraday:
+    count: 1
+    title: Faraday
   faraday cage:
     count: 1
     title: faraday cage
@@ -6785,6 +6821,12 @@ dictitems:
   gene:
     count: 1
     title: Genes
+  gene expression:
+    count: 1
+    title: gene expression
+  gene-editing:
+    count: 1
+    title: gene-editing
   genentics:
     count: 1
     title: Genentics
@@ -7247,6 +7289,9 @@ dictitems:
   gpu:
     count: 1
     title: GPU
+  gpu clusters:
+    count: 1
+    title: GPU clusters
   gpu utilization:
     count: 1
     title: GPU utilization
@@ -8313,7 +8358,7 @@ dictitems:
     count: 1
     title: Inflation
   inflection:
-    count: 2
+    count: 3
     title: Inflection
   influence:
     count: 3
@@ -9288,7 +9333,7 @@ dictitems:
     count: 6
     title: Knowledge
   knowledge graph:
-    count: 1
+    count: 2
     title: Knowledge Graph
   known_hosts:
     count: 1
@@ -12870,7 +12915,7 @@ dictitems:
     count: 1
     title: Personal Server
   personality:
-    count: 2
+    count: 3
     title: personality
   personality type:
     count: 1
@@ -14981,6 +15026,9 @@ dictitems:
   rich:
     count: 1
     title: Rich
+  rich snippets:
+    count: 1
+    title: Rich Snippets
   richard:
     count: 1
     title: Richard
@@ -15681,7 +15729,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 84
+    count: 85
     title: SEO
   seo blog:
     count: 1
@@ -15804,7 +15852,7 @@ dictitems:
     count: 1
     title: setuptools
   sge:
-    count: 1
+    count: 2
     title: SGE
   sh:
     count: 1
@@ -18662,6 +18710,9 @@ dictitems:
   value-list:
     count: 1
     title: value-list
+  van gogh:
+    count: 1
+    title: Van Gogh
   vanilla:
     count: 1
     title: Vanilla
@@ -19049,6 +19100,9 @@ dictitems:
   volume:
     count: 2
     title: Volume
+  von neumann probes:
+    count: 1
+    title: Von Neumann probes
   vortex:
     count: 1
     title: Vortexes
@@ -19337,6 +19391,9 @@ dictitems:
   width:
     count: 2
     title: Width
+  wifi:
+    count: 1
+    title: WiFi
   wikipedia:
     count: 1
     title: Wikipedia

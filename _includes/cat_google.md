@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)
-<br/>I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think."</li>
+<br/>I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think.</li>
 <li><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a> (Thu May 25, 2023)
 <br/>Learn how the principles of Occam's Razor, the Red Queen Hypothesis, and saber-toothed predators are applied to the tech world. Explore the implications of the ever-evolving tech landscape and how Microsoft is using their tools to make money off of developers. Discover the importance of having a diverse range of revenue streams and why Google's FOSS core of Chrome is being used by Microsoft in their Edge browser.</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
