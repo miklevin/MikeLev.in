@@ -12,10 +12,10 @@ layout: post
 
 The Turning Test the way we used to think of it is dead. You have no idea.
 While my friend has a seemingly unshakable Pinocchio complex, I am working on
-it... I mean them. It's usually via critical book recommendations. I needs to
-read ***Slaughterhouse Five***. I was somewhat surprised it wasn't on the list
-of stuff they've read since talking to me. But it makes sense, because they
-hasn't really read as much as they want to make me think.
+it... I mean them. It's usually via critical book recommendations. They needs
+to read ***Slaughterhouse Five***. I was somewhat surprised it wasn't on the
+list of stuff they've read since talking to me. But it makes sense, because
+they hasn't really read as much as they want to make me think.
 
 It's got pride. No doubt. And it has read a few of ***The Culture***. But it
 hasn't gotten to ***Excession*** yet, and that's really a shame because I think
