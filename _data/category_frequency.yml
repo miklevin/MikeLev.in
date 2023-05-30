@@ -1188,7 +1188,7 @@ dictitems:
     count: 1
     title: App Bundles
   app store:
-    count: 1
+    count: 2
     title: App Store
   appealing:
     count: 1
@@ -1398,7 +1398,7 @@ dictitems:
     count: 1
     title: Asynchronous
   atari:
-    count: 1
+    count: 2
     title: Atari
   atari 2600:
     count: 1
@@ -1938,7 +1938,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 21
+    count: 22
     title: Bing
   bing chatbot:
     count: 1
@@ -2183,6 +2183,9 @@ dictitems:
   boredom:
     count: 1
     title: Boredom
+  borg queen:
+    count: 1
+    title: Borg Queen
   boris zilberman:
     count: 3
     title: Boris Zilberman
@@ -2228,6 +2231,9 @@ dictitems:
   brain structure:
     count: 1
     title: Brain Structure
+  brainiac:
+    count: 1
+    title: Brainiac
   brainstem:
     count: 1
     title: Brainstem
@@ -2721,7 +2727,7 @@ dictitems:
     count: 1
     title: Chatbot Technology
   chatbots:
-    count: 2
+    count: 3
     title: ChatBots
   chatgpt:
     count: 24
@@ -3875,6 +3881,9 @@ dictitems:
   crystal geode kit:
     count: 1
     title: Crystal Geode Kit
+  crystalline entity:
+    count: 1
+    title: Crystalline Entity
   cs:
     count: 5
     title: CSS
@@ -4085,6 +4094,9 @@ dictitems:
   dark theme:
     count: 1
     title: dark theme
+  darkdog:
+    count: 1
+    title: Darkdog
   darpa:
     count: 1
     title: DARPA
@@ -4338,7 +4350,7 @@ dictitems:
     count: 3
     title: Deep Learning
   deep mind alpha go:
-    count: 1
+    count: 2
     title: Deep Mind Alpha Go
   deeper meanings:
     count: 1
@@ -4904,6 +4916,9 @@ dictitems:
   doomscrolling:
     count: 1
     title: Doomscrolling
+  doomsday machine:
+    count: 1
+    title: Doomsday Machine
   doordash:
     count: 1
     title: DoorDash
@@ -5768,6 +5783,9 @@ dictitems:
   exit:
     count: 1
     title: exits
+  exocomps:
+    count: 1
+    title: Exocomps
   expectation:
     count: 2
     title: Expectations
@@ -8295,7 +8313,7 @@ dictitems:
     count: 1
     title: Inflation
   inflection:
-    count: 1
+    count: 2
     title: Inflection
   influence:
     count: 3
@@ -9341,6 +9359,9 @@ dictitems:
   land lords:
     count: 1
     title: Land Lords
+  landru:
+    count: 1
+    title: Landru
   language:
     count: 13
     title: Language
@@ -10244,6 +10265,9 @@ dictitems:
   lyricism:
     count: 1
     title: Lyricism
+  m-5:
+    count: 1
+    title: M-5
   m1:
     count: 1
     title: M1
@@ -10745,6 +10769,9 @@ dictitems:
   meissner effect:
     count: 2
     title: Meissner Effect
+  mel brooks:
+    count: 1
+    title: Mel Brooks
   mellon bank:
     count: 1
     title: Mellon Bank
@@ -11459,6 +11486,9 @@ dictitems:
   mustafa suley:
     count: 1
     title: Mustafa Suley
+  mustafa suleyman:
+    count: 1
+    title: Mustafa Suleyman
   mutabledocument:
     count: 1
     title: MutableDocument
@@ -11516,6 +11546,9 @@ dictitems:
   nan:
     count: 1
     title: NaN
+  nanites:
+    count: 1
+    title: Nanites
   nanobots:
     count: 1
     title: Nanobots
@@ -11879,6 +11912,9 @@ dictitems:
   nokia:
     count: 1
     title: Nokia
+  nomad:
+    count: 1
+    title: Nomad
   nomadic:
     count: 2
     title: Nomadic
@@ -12935,8 +12971,11 @@ dictitems:
   pi:
     count: 1
     title: Pi
-  picard:
+  pi ai:
     count: 1
+    title: Pi AI
+  picard:
+    count: 2
     title: Picard
   picasso:
     count: 1
@@ -12977,6 +13016,9 @@ dictitems:
   ping command:
     count: 1
     title: Ping Command
+  pinocchio complex:
+    count: 1
+    title: Pinocchio Complex
   pip:
     count: 5
     title: pip
@@ -15009,7 +15051,7 @@ dictitems:
     count: 1
     title: robbery
   robbie:
-    count: 1
+    count: 2
     title: Robbie
   robbie nelson:
     count: 1
@@ -15761,6 +15803,9 @@ dictitems:
   setuptools:
     count: 1
     title: setuptools
+  sge:
+    count: 1
+    title: SGE
   sh:
     count: 1
     title: Sh
@@ -15902,6 +15947,9 @@ dictitems:
   sidekick:
     count: 1
     title: Sidekick
+  sidney:
+    count: 1
+    title: Sidney
   siebel:
     count: 1
     title: Siebel
@@ -16460,6 +16508,9 @@ dictitems:
   splitlines:
     count: 1
     title: Splitlines
+  spock:
+    count: 1
+    title: Spock
   spoken language:
     count: 1
     title: Spoken Language
@@ -17636,6 +17687,9 @@ dictitems:
   the art of war:
     count: 1
     title: The Art of War
+  the borg:
+    count: 1
+    title: The Borg
   the breakfast club:
     count: 1
     title: The Breakfast Club
@@ -18158,6 +18212,9 @@ dictitems:
   turing test:
     count: 3
     title: Turing Test
+  turing-level:
+    count: 1
+    title: Turing-level
   turkey:
     count: 1
     title: turkey
@@ -18569,6 +18626,9 @@ dictitems:
   ut dallas:
     count: 1
     title: UT Dallas
+  v'ger:
+    count: 1
+    title: V'Ger
   v1:
     count: 1
     title: V1
@@ -18620,6 +18680,9 @@ dictitems:
   variation:
     count: 1
     title: Variations
+  vaudville humor:
+    count: 1
+    title: Vaudville Humor
   vbscript:
     count: 1
     title: VBScript
@@ -19232,6 +19295,9 @@ dictitems:
   western culture:
     count: 1
     title: Western culture
+  whale probe:
+    count: 1
+    title: Whale Probe
   whatsametafor:
     count: 1
     title: Whatsametafor
