@@ -77,16 +77,16 @@ are true. Oh, do you have some articles in your future if you like this sort of
 stuff. But it goes something like we are on one of the best of all possible
 dystopia-busting timelines. We've go plenty of antibodies to to the
 ***AIpocalypse*** in our blood. Mostly from SciFi, but also from quite a number
-of other sources. Don't by the line. Walk the line, but don't buy it. know,
-that kind of snappy banter. 
+of other sources. Don't buy the line. Walk the line, but don't buy it. You
+know, that kind of snappy banter snaps it back to my old buddy.
 
-My kid is on the verge of their Bet Mitzvah. Their mother didn't even send me
-an invite. I'm making sure there isn't anything else I need to know. But I'll
-help that event go off without a hitch. I want to build my kid up the best I
-can, despite the many challenges to that end that I encounter. You can either
-tear someone down or build them up. People can be cruel, and I see a lot of
-tearing down around me. It's time we built up a few good souls. The important
-ones who can make a difference.
+My kid is on the verge of their Bet Mitzvah. I luckily managed to score an
+invite. You'd think it wouldn't be so hard. But I'll do my part to make sure
+that event go off without a hitch. I want to build my kid up the best I can,
+despite the many challenges to that end that I encounter. You can either tear
+someone down or build them up. People can be cruel, and I see a lot of tearing
+down around me. It's time we built up a few good souls. The important ones who
+can make a difference.
 
 I think I'll get them that new 3D printer they've been asking for. Or maybe a
 CRISPR. We've got some Tardigrade Circuses to build. And maybe some freaky
