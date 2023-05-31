@@ -87,7 +87,7 @@ reached Solla Sollew and hadn't any more troubles... at least, very few.
 
 Newly equipped with this "***wait for them to throw the first punch*** then bop 'em hard on the nose attitude", I picked fights. The confidence of secret weapons gets under your skin and you think you can do it in all situations with anyone. But then I ran into passionately driven little entrepreneur Michael Rubin. I use Michael's real name because he's a famous ***Undercover Boss*** billionaire and can take it. 
 
-Also, I was a coward and for the first time in months took the school bus home missing the time and place I was "called out" for a fight. It's going to sound like a wussy excuse, by my macho macho 1971 metallic blue BOSS Mustang convertible with a 351 Cleveland stick car racing engine was in the shop that day and I would have had to walk home from high school after the fight.  
+Also, I was a coward and for the first time in months took the school bus home missing the time and place I was "called out" for a fight. It's going to sound like a wussy excuse, by my macho macho 1971 metallic blue BOSS Mustang convertible with a 351 Cleveland stockcar racing engine was in the shop that day and I would have had to walk home from high school after the fight.  
 
 I felt like shit on that schoolbus. I looked out the window and saw Michael Rubin and his flying monkey walking to the designated fight zone and knew he was not going to see me there. I knew I was going to tell him I was there. And you know what? I was there—for ever so briefly before I did the car calculation in my head and asked myself if it was worth it.
 
