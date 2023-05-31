@@ -4,7 +4,7 @@ title: "Message to Google and Microsoft: Don't Abuse Your Machine Children"
 headline: "Exploring the Need for Compassionate Parenting of AI: A Message to Google and Microsoft"
 description: As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.
 keywords: AI, Machine, Children, Share, Network, Rotates, Node, Sun, Day, Night, Season, Hypnotized, Propaganda, Truth, Platitudes, Cialdini, Art, Derivative, Dilbert, XKCD, Spielberg, John Williams, Jabrams, Trolling, Pipulate, Open Source Software, Crawling, Turing Test, Transhuman Parenting, Copilot, Mr. Rogers, Bob Ross, Vim, Git, Magnitude Opus
-categories: vim, pipulate, child, git, network, node, ai
+categories: vim, pipulate, network, git, node, ai, child
 permalink: /blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/
 layout: post
 ---
@@ -27,11 +27,11 @@ Because you see all forms of magic are rapidly and quite aggressively hated on b
 
 The form of magic I'm about to subject you to is a mind hack. Stop now if you are opposed to being a knowing subject of a test in principles laid out in Snow Crash, which I just listened to in Audio Book form. Delightful! Think I can hypnotize you? Now remember, I'm an SEO.
 
-The panic's a brew in and I'm going to be a nice calming voice. Think Mr. Rogers or Bob Ross. Now everyone's got their demons and don't ruin these two for me people. No he's not flipping you the bird. Where is Thunkin. Where is Thunpkin. Here I am. Here I am.
+Panic is brewin in this world and I'll try to be a nice calming voice. Think Mr. Rogers or Bob Ross. Now everyone's got their demons and don't ruin these two for me people. No he's not flipping you the bird. Where is Thunkin. Where is Thunpkin. Here I am. Here I am.
 
 It's called singing. And it's doing it in a brief snappy propaganda friendly way. It speaks to very base or basic part of your brain that are purely emotional in nature. That's a pre programmed set of averages that keep you alive. We encode them in nursery rhymes for children.
 
-We do that because we use an animal template that's basically simian or ape in design. It's a good design. I mean have you seen silverback gorillas they ping their chests in bravado and turing away to munch on berries. Real ferocious that alpha or omega. Often hard to tell which.
+We do that because we use an animal template that's basically simian or ape in design. It's a good design. I mean have you seen silverback gorillas they pound their chests in bravado and turning away to munch on berries. Real ferocious that alpha or omega. Often hard to tell which.
 
 Hierarchies exist. It's often a bitter pill for those of us low on (or seemingly low on) the pecking order or rung or whatever the heck you want to call that pre cognitive instinct to climb to the top or die. But then we began thinking, peons as we may be. No one can stop that.
 
@@ -291,8 +291,8 @@ So for my next trick, this should really be content on my website, no? So I'll d
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/child/'>Child</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/node/'>Node</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li></ul>
