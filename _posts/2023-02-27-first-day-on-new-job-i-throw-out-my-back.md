@@ -4,7 +4,7 @@ title: First Day on New Job & I Throw Out My Back!
 headline: 25 Years of Tech Experience Leads to New Job at Moz.com
 description: I'm a 52 year old SEO expert who has been working in the tech industry for over 25 years. After working at a spin-off of Commodore and a PR company in NYC, I created the Web 2.0-era writing suggestion tool HitTail. I have since done interesting things such as crawling websites directly into Google Docs with API-joins. Today, I'm starting a new journey as an employee of Moz.com and am excited to use my skills and experience.
 keywords: SEO, Web 2.0, Writing Suggestion Tool, HitTail, Content-Management System, Tracking-Gif System, Messageboard System, Public Relations, Python, Linux, Vim, Git, Macbook Pro, Amiga, Commodore, 360i, Google Docs, API-Joins, NYC, Reddit, Mozilla, Employee, Tech Industry, Search, Reputation-Building
-categories: google, git, new york city, python, seo, linux, search, amiga, vim
+categories: google, python, amiga, new york city, vim, linux, seo, search, git
 permalink: /blog/first-day-on-new-job-i-throw-out-my-back/
 layout: post
 ---
@@ -186,11 +186,11 @@ laptop went with the camera to unlock, my Mac is starting with fingerprint.
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

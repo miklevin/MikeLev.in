@@ -4,7 +4,7 @@ title: The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)
 headline: My Cowardly Encounter with a Hammer-Wielding Attacker and the Gratitude I Gained From It
 description: This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.
 keywords: ENIAC, UNIX, MOS 6502, Batman complex, Sherlock Holmes, R. Daneel Olivaw, Wrong John Silver, Craig of The Creek, Karate, Michael Rubin, Undercover Boss, James Bond, Ender's Game, South Philly, Crack Era, Secamp 32, Entity Relationship Diagrams, Graphic Design, Check Cashing, Mellon Bank, Queens Village, Linux, Vi, Time Wars
-categories: vi, linux
+categories: linux, vi
 permalink: /blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/
 layout: post
 ---
@@ -117,7 +117,7 @@ Had I stayed in the check cashing business my dad thrust on me by dying the week
 
 After the attacker fell to his knees (after my 3rd shot into his gut) and my head was streaming blood from the impact (I dropped to the ground reducing impact shooting up into his stomach), I got up. A little old red headed Jewish lady, think Dr. Ruth, pulls a gun out of her purse, levels it at the attacker who still looks like he might get up, and yelled "I've got him covered… GO!"
 
-I went. I want right back into Mellon Bank with the money and shoved it through a teller window and said "Hold this!" Sirens went off. The cops arrived. And not until I asked the police officer how long he thought it would be before I passed out from blood loss that an ambulance was also called. 
+I went. I went right back into Mellon Bank with the money and shoved it through a teller window and said "Hold this!" Sirens went off. The cops arrived. And not until I asked the police officer how long he thought it would be before I passed out from blood loss that an ambulance was also called. 
 
 At the hospital explaining what happened to the officer, he asked "And you still have the gun on you?" I nodded my now sutured head and he asked "Can I have it?" I said yes and I asked if it was okay to pull it out of my pocket? He said yes, and I told him to be careful because Secamps don't have safety's. Those'll get you killed in the situations a gun like this was made for. He asked me to join the force. 
 
@@ -137,5 +137,5 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 ## Categories
 
 <ul>
-<li><h4><a href='/vi/'>Vi</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
