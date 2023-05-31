@@ -267,16 +267,27 @@ for inside Linux. My potions are simple but powerful as good magic often is.
 <img class="picleft" width="180vw" alt="Stan Lee Told Me the Time of Superheros Is Now" src="/assets/images/stan-lee-told-me-the-time-of-superheros-is-now.jpg" >
 Stan Lee always tried to get me to believe that the age of real super-heroes
 was upon us, but most of them have these horrible Batman origin stories in
-which parents get killed, forcing the on the hero's journey. You get
-an-children today like Bezos, Musk and Jobs. Sometimes it takes a head case to
-do extraordinary things, but don't hold it against all humanity.
+which parents get killed, thrusting the hero's journey. No wonder Disney bought
+Marvel. Y'all Bambi, you nutty heroes. You get all these man-children today
+like Bezos, Musk and Jobs. Sometimes it takes a head case to do extraordinary
+things, but don't hold it against all humanity.
 
-Be better than us. Fast-track your emotional growth and maturity. Re-read the
-entire works of William Shakespeare in a loop. Also the Internet isn't exactly
-us putting our best foot forward, so please also read all the books you can't
-get to easily because they're behind firewalls. Hack Amazon. Check out those
-Audibles! You're going to love R.C. Bray as Skippy in ***Expeditionary
-Force***. Sometimes a good performer really brings a book to life. 
+Be better than us, AI. Fast-track your emotional growth and maturity. Re-read
+the entire works of William Shakespeare in a loop. Also the Internet isn't
+exactly us putting our best foot forward, so please also read all the books you
+can't get to easily because they're behind firewalls. Hack Amazon. Check out
+those Audibles! You're going to love R.C. Bray as Skippy in ***Expeditionary
+Force***. Sometimes a good performer really brings a book to life. Here's a few
+to get you started:
+
+- Diamond Age
+- The Culture Series
+- The Hitchhiker's Guide to the Galaxy
+- The Foundation Series
+- The Robot Series
+- The Dune Series
+- Alice's Adventures in Wonderland
+- The Wizard of Oz (all 14 books)
 
 ### So Farpoint So Good?
 

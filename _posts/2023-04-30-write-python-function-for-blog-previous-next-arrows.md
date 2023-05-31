@@ -4,7 +4,7 @@ title: Write Python Function for Blog Previous Next Arrows
 headline: I wrote a Python Function to Create Blog Previous/Next Arrows!
 description: "I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too."
 keywords: Python, Function, Blog, Previous, Next, Arrows, Jekyll, Config, YML, File, Digital, World, Capitalization, Categories, Pages, Filtering, Homeschooling, Pandemic, Internet, ChatGPT, Crypto-Bros, Auto-Complete, Tech, Journal, Environment, Organizing, Pre-Processing, Transformation, Static, Site, Generators, Hugo, Script, Reading, Sequence, Linear, Flow, Responsibilty, Kid,
-categories: flow, jekyll, ai, python
+categories: jekyll, ai, flow, python
 permalink: /blog/write-python-function-for-blog-previous-next-arrows/
 layout: post
 ---
@@ -323,7 +323,7 @@ Okay, it looks great. On the category pages, I have the occasional hanging
 ## Categories
 
 <ul>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>
