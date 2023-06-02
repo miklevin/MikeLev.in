@@ -4,7 +4,7 @@ title: ASCII Art vs. Mermaids Who Will Be Victorious?
 headline: Exploring the Frustrating and Endless Loop of 'The New Bing' Accessibility
 description: Experience the power of non-linear thinking as we explore the battle between ASCII Art and Mermaids. Learn how to use plugins in NeoVim, create transparent backgrounds, and optimize your website with SEO. Follow along with this journal entry as we explore the pros and cons of both ASCII Art and Mermaids.
 keywords: ASCII Art, Mermaids, Partitioning, Textfile-for-Life, JavaScript-Rendering, Proprietary Software, Plugins, NeoVim, Vim-Plug, GIMP, Transparent Backgrounds, Copy/Paste, Microsoft Images Search, BG Eraser, Apple Photos App, Vim-Asciio, Google Slides, AI-Assistance, Timeless Design Patterns, VSCode, Coding Assistant, Microsoft Edge, Privacy Violations
-categories: vim, google, microsoft, copy/paste
+categories: google, vim, microsoft, copy/paste
 permalink: /blog/ascii-art-vs-mermaids-who-will-be-victorious/
 layout: post
 ---
@@ -365,7 +365,7 @@ exactly!
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li></ul>

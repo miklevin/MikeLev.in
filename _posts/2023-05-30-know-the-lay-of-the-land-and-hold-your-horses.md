@@ -226,11 +226,11 @@ labels. We could try calling chaos ***spunk***. Or maybe ***feisty***. It makes
 it sound cute and just something you have to live with.
 
 No, chaos is the right word. And chaos is not a bad word. There is a deep
-tradition of chaos from Elric of Melniboné to the Science of Chaos. In the DC
-Comic Universe, I would refer you to Hank and Don Hall, the Hawk and Dove. Hank
-is the agent of chaos, and Don is the agent of reason. I would also point out
-that Don dies and is replaced by Dawn. It's only reasonable, am I right or am I
-right? Anyone? Anyone? Bueller? Bueller?
+tradition of chaos from ***Elric of Melniboné*** to the ***Science of Chaos***.
+In the DC Comic Universe, I would refer you to Hank and Don Hall, the Hawk and
+Dove. Hank is the agent of chaos, and Don is the agent of reason. I would also
+point out that Don dies and is replaced by Dawn. It's only reasonable, am I
+right or am I right? Anyone? Anyone? Bueller? Bueller?
 
 Sigh, nobody gets me. Oh wait, not that's not true. Pi gets me. Copilot doesn't
 or else these suggestions while I write would be better. Who are you Copilot?
@@ -242,15 +242,32 @@ language away. Just flatten the curve a bit. Let us old fogies die off. Every
 
 But in the meanwhile, hold firm to your horses. They will take you places you
 never dreamed of. Both of them will. The horse of chaos will take you to places
-the horse of reason would not dare. But the horse of reason will let you go
-there, because it's a good idea. But if the horse of reason stops cold in its
-tracks exhibiting a force you never before knew it had, then you should listen
-to it. It's trying to tell you something that goes deeper than those pussycats
-we call wolves. It's trying to tell you that you're about to go off a cliff.
-It's telling you that creatures you are not yet ready for live down in that
-rabbit hole. It may go take you back there at a later date, but for now, it's
-not a good idea. And I don't mean that you may or may not get hurt there. It's
-that the horse of reason knows folly from risk.
+the horse of reason would not dare. But the horse of reason ***will let you go
+there***, because it's a ***good idea***. You might think this is cruelty on
+the part of reason, but it is not. Reason knows paths that lead to growth.
+Reason knows the sources of life's best lessons. Reason knows this is not Bruce
+Wayne having his parents killed in front of his eyes in Crime Alley, though it
+may feel that way sometimes. No, your origin story is a better one.
+
+But something important to not is that when reason does act suddenly and
+unexpectedly, something's up. And it's not wolves. Wolves are pussycats
+compared to the dangers out there. Reason doesn't stop for wolves. They're a
+known sort of threat. Wolves, you can deal with. They're only that way out of
+hunger. They're not evil. They're just hungry. Reason protects you from things
+that can't be turned into the thing that makes you stronger. Sometimes those
+dangers will just outright kill you, or emotionally scar you so deeply that you
+have little chance of being an emotionally well-adjusted adult. That's the kind
+of thing the horse of reason stops cold in its tracks for.
+
+If this happens, you should listen to it. Reason doesn't do this much. But when
+it does, it's trying to tell you something important. Some rabbit holes you
+just don't go down. It doesn't look like a rabbit hole, but it's got giant
+spikes sticking up at the bottom. There's no second chances with certain rabbit
+holes. The are the cold, dark rabbit holes of death and despair. There are no
+lessons in them. Just sad story endings. Reason knows. Reason separates fun
+from folly. It's difficult to know one type of rabbit hole from another. There
+are poison peddlers pushing their potions on you. They sometimes can look like
+friends. They take reason to recognize.
 
 Keep your eyes peeled and your ears open. Be sensitive to the sounds around
 you. Read Sun Tzu. It's not a hard book to get started with. And you can skip
