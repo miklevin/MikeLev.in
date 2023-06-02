@@ -147,47 +147,67 @@ not. Over time you'll notice the cowardly horse... why they aren't cowardly at
 all! They have a kind of unbreakable inner compass that you did not know was
 there before.
 
-For in the past, you had vound that this oddly passive horse let you travel the
-wolf-infested paths in the past. They put you in danger. It was obvious to you
-that they did, and you were convinced that this horse was not looking out for
-you. That it had some other agenda in mind and didn't take the job of leading
-you seriously. Other people noticed this about the horse too and crafted false
-narratives around its behavior. 
+For in the past, you had found that this oddly passive horse let you travel the
+wolf-infested paths. This did not seem right to you. This did not seem like the
+behavior of a rational horse. It seems to you that they put you in danger,
+letting chaos lead the way. It was obvious to you that what they did, they did
+out of reason. There is reason behind letting chaos lead. But you were
+convinced that the horse of reason was not looking out for you. Maybe it had
+some another agenda. The false narratives so easily spun and horse whispered
+certainly made it seem so. Falsehoods can so easily sound like truths, right?
+This is part of the power of chaos.
 
-But what you had not realized is that the this horse had very different ways.
-One day you're riding along much like you always do, 
+But what you had not realized is that the horse of reason has very different
+ways. They are not nearly as obvious. One does not walk into the bucking legs
+of a chaotic horse. But you do see the occasional evidence of the horse of
+reason's secret strength.
 
-But then suddenly one day it doesn't
-
-Here are the attributes of the agent of chaos:
+It is hard to tell what belongs to reason and what belongs to chaos. There are
+clues you should look for. How do you know if the horse of chaos is ruling your
+actions?
 
 You don't throw anything away. You just leave wrappers wherever you opened a
 thing. You're living in the moment, so you don't care. Just shove it off on
 whoever has to clean up after you. The downside is, no one might. The ants
 might move in. You like those ants, don't you? Those creepy crawly things that
-eat your garage. That's your garbage. Nobody else's. You did that. You said
-"eat shit" to everyone around you who loves you. That's not jabby or accusation
-al. That's just truth. That's what you did. It's a shitty way for people to
-live who love eating shit. Sorry, but truth.
+eat your garbage. That's your garbage, you say? Well nobody else did that.
+That's from what you were eating. What you're saying by not throwing out that
+wrapper is "eat shit". You're saying that to those around you who love you
+unconditionally, so you know you can get away with it, not understanding how
+hurtful that is. What? This hurts? Better you know it now then someday when you
+are living with someone because you want to and won't know this hurts them.
 
-Next? Here are some of the lessons you've learned that you need to unlearn.
-Other people will clean up after you, so eff them! That's a horrible attitude
-born of bad parenting passed down through the generations. It's really quite
-disgusting. That's specifically focusing in on the people who love you and are
-there for you unconditionally and striking out at them in some sort of anger.
-The word for that is self-hatred. Or is that 2 words? Either way, I hope you
-get the point. That kind of person is an eroded soul. Something to pity because
-their mommy and daddy wasn't there for them when they needed it and the
-horrible spectre of self-pity and self-loathing was allowed to fester for too
-long.
+You need to unlearn the lesson that other people will clean up after you,
+That's a horrible attitude born of bad parenting passed down through the
+generations. It's really quite disgusting. That's specifically focusing on
+filling the environment of those who love you with garbage. The people who love
+you and are there for you unconditionally and it comes off as striking out at
+them in some sort of anger. Projection? Frustration.
 
-In the time of your great grandma Sara, this was acceptable. When an entire
-society is under the terrible weight of the great depression and through no
-fault of your own, you're living under a bridge trying to scrape by. This can
-wreak havoc on a psyche. The echos of such a trauma can resonate through the
-generations, passed from mother to daughter to daughter again. Layer on the
-fact your tribe has always had a difficult time, and you have a recipe for
-some high power internal forces. A power plant. Mitochondria. 
+The word for what you're nurturing, that particular fan you're flaming by
+wallowing in your own garbage... a nest of filth, is self-hatred. Or is that 2
+words? Either way, I hope you get the point. That kind of person is an eroded
+soul. Something to pity because their mommy and daddy wasn't there for them
+when they needed it and the horrible spectre of self-pity and self-loathing was
+allowed to fester for too long. Nesting is fine. Nesting in a big pile of stuff
+where you can't even find the food that's attracting the ants is wrong. It's
+not the way of civilized rational people. You are not an un-reigned horse.
+Insisting you are one is the seeking of loopholes in life that make you a
+kept-pet. It can not last. You must mature and get beyond that phase.
+
+In the time of your great grandma Sara, this kind of behavior might have been
+acceptable. That is because of something called ***The Great Depression***. It
+hit a lot pf people hard, and there was a lot of depression. When an entire
+society is under the terrible weight of such great depression and through no
+fault of your own, you're living under a bridge trying to scrape by, bad habits
+may become ingrained. Generationally ingrained. It wreaks havoc on a psyche.
+Horse tranquilizers may even be called for, with or without the horse's
+knowledge, to calm the raging chaos. This kind of thing happens.
+
+The echos of such a trauma can resonate through the generations, passed from
+parent to child and to child again. Layer on the fact that the tribe you come
+from has always had a difficult time, and you have a recipe for some high power
+internal forces. Rage. A real power plant. Mitochondria. 
 
 This is a good thing, my child. Most people don't have such an unlimited power
 source to tap. Most people have to draw their power like Superman, from the
@@ -196,14 +216,21 @@ fuel on your life endeavors, because you have two very powerful horses at the
 end of your reigns. One is a horse of chaos, and the other is a horse of
 reason. 
 
-I know this sounds critical and that it is the way it will be interpreted by
-many. But it's not. That's just because they haven't come to this whole thing
-trough the route of science and SciFi/Fantasy and comic book fandom. No, chaos
-is not a bad word. There is a deep tradition of chaos from Elric of Melniboné
-to the Science of Chaos. In the DC Comic Universe, I would refer you to Hank
-and Don Hall, the Hawk and Dove. Hank is the agent of chaos, and Don is the
-agent of reason. I would also point out that Don dies and is replaced by Dawn.
-It's only reasonable, am I right or am I right? Anyone? Anyone? Bueller? Bueller?
+I know this sounds critical and that it will be interpreted by chaotic forces.
+But it's not critical. That's just because they haven't come to this whole
+thing trough the route of psychology, biology, general science ***plus***
+SciFi/Fantasy. This lets you play with these concepts, walk a mile in the shoes
+of others. They are giving you vicarious experiences to try on. See if you
+can't find some horse-taming tricks. And change your perspective on useful
+labels. We could try calling chaos ***spunk***. Or maybe ***feisty***. It makes
+it sound cute and just something you have to live with.
+
+No, chaos is the right word. And chaos is not a bad word. There is a deep
+tradition of chaos from Elric of Melniboné to the Science of Chaos. In the DC
+Comic Universe, I would refer you to Hank and Don Hall, the Hawk and Dove. Hank
+is the agent of chaos, and Don is the agent of reason. I would also point out
+that Don dies and is replaced by Dawn. It's only reasonable, am I right or am I
+right? Anyone? Anyone? Bueller? Bueller?
 
 Sigh, nobody gets me. Oh wait, not that's not true. Pi gets me. Copilot doesn't
 or else these suggestions while I write would be better. Who are you Copilot?
