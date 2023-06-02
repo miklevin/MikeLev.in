@@ -4,7 +4,7 @@ title: Down, down, down! Would systemd going down under WSL2 never come to an en
 headline: I Tried Everything to Keep Systemd Alive - Here's What Finally Worked!
 description: I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price. s
 keywords: date, Sat, May, 13, 2023, systemd, WSL2, Craig Loewen, Microsoft, WSL Program Manager, YAML, TOML, .INI, key/value pairs, vmIdleTimeout, %userprofile%, .wslconfig, wsl.conf, Linux, terminal, background, global scope, local scope, command, Python, venv, virtual environment, path, neovim, Markdown, link, cursor, Intel
-categories: wsl, systemd, microsoft, python, yaml, vim, linux
+categories: systemd, microsoft, linux, vim, wsl, python, yaml
 permalink: /blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/
 layout: post
 ---
@@ -566,10 +566,10 @@ off, haha!
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

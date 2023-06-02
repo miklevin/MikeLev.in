@@ -94,7 +94,8 @@ conscious choice. It's a reaction. And above all, ***do not be in their field
 of vision*** at this time. It doesn't matter what the situation is. They will
 see you as a threat. If they choose ***fight*** over flight, oh you're gonna
 get it. This is the panicking horse that feels no pull in the reigns. It's a
-horse that careening your carriage out of control.
+horse that is through no fault of its but for missing its own self-control
+lessons growing up, is causing your own carriage to careen out of control.
 
 One must tighten the reigns and take control of the horse. This is not easy.
 The horse is strong. It will fight you. It will buck and kick and try to throw

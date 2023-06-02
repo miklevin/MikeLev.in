@@ -4,7 +4,7 @@ title: nbdev Makes .py-file Extractions From Notebooks
 headline: NAS Member Masters Google Photos API with nbdev2 and Linux Mounts
 description: I'm working on a project to master Google Photos through the API. To do this, I'm introducing nbdev2 and using Linux mounts to synchronize my WSL Linux ~/data directory on my Windows laptop with my ~/data directory on the NAS LXD server. As a member of the National Academy of Sciences (NAS), I'm proud to be part of an organization that promotes excellence in scientific research and works to advance science for the betterment of humanity.
 keywords: nbdev, Google Photos, API, Linux, WSL, Windows, NAS, LXD, National Academy of Sciences, NAS, non-profit, scientific research, advance science, humanity
-categories: wsl, google, microsoft, python, container, nbdev, linux
+categories: google, microsoft, linux, nbdev, container, wsl, python
 permalink: /blog/nbdev-makes-py-file-extractions-from-notebooks/
 layout: post
 ---
@@ -107,10 +107,10 @@ and an extracted .py-file. Time to git commit, push and hop on over to the NAS.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
