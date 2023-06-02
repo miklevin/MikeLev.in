@@ -22,11 +22,11 @@ would not dare. Chaos explores possibilities. Chaos goes there because it can.
 There is almost never harm in that. At least not permanent. Horse 2 loves it
 and knows that way lays growth.
 
-But chaos not as a force to be unleashed willy nilly, in all cases, and
+But chaos is not a force to be unleashed willy nilly... not in all cases, and
 certainly not as a weapon against others. But rather, it is a force to be
 harnessed. It is a gift, an internal power source; your own personal
-mitochondria. I don't know if your homeschool science has covered that yet, but
-it's a power source that is in every cell of your body. It was once a separate
+mitochondria. I don't know if your schooling has covered that yet, but it's a
+power source that is in every cell of your body. It was once a separate
 organism that was eaten and absorbed by one of your ancestors. It has its own
 DNA and remains separate from your own. It is a symbiotic relationship. It is
 commonly regarded in biology as the internal power source of animals. Animals
@@ -38,65 +38,91 @@ the light of the sun, but not you, my child. You have it within you. And more
 than just your typical animal mitochondria, you have the mitochondria of...
 well, Hawk from the Teen Titans. My Hawk, the one from the 1970s and 1980s
 version, not the 2000s version. The 2000s version is a bit of a jerk. But the
-1970s and 1980s version is a good guy. But we'll get to why in a moment. 
+1970s and 1980s version is a good guy. Chaos both powers and defines Hawk. But
+not you. Just because you have a horse of chaos, it doesn't mean it has to
+define you. 
 
 So then what are you? The answer is whatever you want to be, for you see you
-have what we call in this being-human meta business of ours, ***Agency***.
+have what we call in this being-human meta business of ours as ***Agency***.
 You're full of internal light. More than most. That's what you feel. I know you
 do because I see it in you. And no, that's not just because I'm your dad and I
 see it in you. It's because I'm the horse of reason and I've got a good eye for
 this sort of thing.
 
-This internal light... this bright agency of yours makes you a free agent. You
-don't work for one side or the other. And so you have have ***free will***, my
-child, and you can be whatever you want to be. Not everybody does. Some people
-are slaves to their more base instincts. No matter how much they think they
-have reason, something triggers them. They can't help themselves. Here's what's
-going on in their bodies:
+This internal light... this bright agency of yours makes you a ***free
+agent***. You don't work for one side or the other. And so you have have
+***free will***, my child, and you can be whatever you want to be. Not
+everybody does. Some people are slaves to their more base instincts. No matter
+how much they think they have reason, something triggers them. They can't help
+themselves. Here's what's going on in their bodies:
 
 When someone sees or hears something that triggers them, the visual or auditory
 system sends a signal to the amygdala. The amygdala is an almond-shaped
-structure located right next to the hippocampus. Its main function is in
-emotional responses, including feelings of happiness, fear, anger, and anxiety.
-The amygdala helps our bodies process fear and threats by initiating a fight or
-flight response to dangerous or threatening situations.
+structure located right next to the hippocampus. Some would call this the
+limbic system or the ***lizard brain***. But it is not. This is a disservice to
+lizards. We're talking about pre-brain spinal cord base ***worm*** here. Core
+of core.
 
-The amygdala sends a distress signal to the hypothalamus when someone is
-triggered and goes into fight or flight mode. The hypothalamus then activates
+Its main function is in emotional responses, including feelings of happiness,
+fear, anger, and anxiety. The amygdala helps our bodies process fear and
+threats by initiating a fight or flight response to dangerous or threatening
+situations. It's the first things animals needed to respond quickly to threats.
+That's what a good deal of our more ***base*** emotions are about. They come
+from these worm parts.
+
+Once triggered, the amygdala sends a distress signal to the hypothalamus, and
+the creature goes into fight or flight mode. The hypothalamus then activates
 the sympathetic nervous system by sending signals through the autonomic nerves
 to the adrenal glands. These glands respond by pumping the hormone epinephrine
 (also known as adrenaline) into the bloodstream. This hormone increases heart
-rate, blood pressure, and respiration.
+rate, blood pressure, and respiration. The body knows it might have to run! It
+might have to strike out and hit!
 
 The hypothalamus also stimulates the pituitary gland to release hormones that
 further cause the adrenal glands to release cortisol. Cortisol prepares the
 body for ***fight or flight*** by increasing blood sugar levels and suppressing
 the immune system. High levels of cortisol signal the hypothalamus that it no
-longer needs to stimulate the pituitary gland to raise levels further.
+longer needs to stimulate the pituitary gland to raise levels further. Thought
+turns off. There is no getting through. Ration and reason are out the door.
 
 From the outside, this looks like a person who is ***out of control***. Their
 eyes in particular start to vibrate and dart around. The function of this is to
 scan the environment for threats. It's a survival mechanism. It's not a
-conscious choice. It's a reaction. It's a horse that is not being ridden. It's
-a horse that is riding you. It's a horse that is ***out of control***.
+conscious choice. It's a reaction. And above all, ***do not be in their field
+of vision*** at this time. It doesn't matter what the situation is. They will
+see you as a threat. If they choose ***fight*** over flight, oh you're gonna
+get it. This is the panicking horse that feels no pull in the reigns. It's a
+horse that careening your carriage out of control.
 
 One must tighten the reigns and take control of the horse. This is not easy.
 The horse is strong. It will fight you. It will buck and kick and try to throw
-you off. It will try to run away. As the coachperson, you think you are not as
-strong as the horse, but you are. You have the power of reason. You know that
-with the horse's strength comes its weakness. It can be tamed. This is not with
-reason. You don't use your reason to reason with a horse. That would be silly.
-You lead by example. As it scans for danger, you show it there is none. You
-calm and sooth the horse. And you do this without horse tranquilizers.
+you off your wagon. It will try to run away. As the coachperson, you think you
+are not as strong as the horse, but you are. You have the power of reason. You
+know that with the horse's strength comes its weakness. It can be tamed. This
+is not with reason. You don't use your reason to reason with a horse. That
+would be silly. You lead by example. As it scans for danger, you show it there
+is none. You calm and sooth the horse. And you do this without horse
+tranquilizers. You hold firm on the reigns. And you do not get in front of this
+horse. You do not get in front of this horse.
 
 That horse rages for it cannot control itself. It can not even believe this
 about itself, and it will absolutely cast blame on the coachperson. This is a
 self-delusion. A lie percolating up from the subconscious to re-establish a
 necessary sort of internal harmony all beings must have to survive. It is
 called cognitive consonance. Cognitive consonance is considered a desired state
-of being, in contrast with its opposite, cognitive dissonance, what reins when
-the reigns are too loose. Tighten the reigns! This is a practice called ***self
-control***. Exercises to get there include meditation, yoga, and martial arts.
+of being, in contrast with its opposite, cognitive dissonance. Cognitive
+dissonance is absolutely unacceptable to this horse. It would mean fessing up
+to its chaotic nature and inability to control itself once so triggered. So
+very easily triggered. 
+
+If you can feel this coming on... feel the triggering setting in, tighten the
+reigns! Don't lose control because it's much harder to fix the situation ones
+chaos reigns. You can't reason with a horse that's already bucking. You can't
+reason with a horse that's already running. Avoiding allowing the trigger to
+have such power over you is a practice called ***self control***. Such things
+are called practices because they must be practices. Exercises to get there
+include meditation, yoga, and martial arts. Quiet the chattering monkey brain.
+Shhhhhh. Shhhhhhh. Shh
 
 There is nothing inherently wrong with the horse of chaos. It is a beautiful,
 powerful, and majestic creature. It is a force of nature. It is a mighty horse
