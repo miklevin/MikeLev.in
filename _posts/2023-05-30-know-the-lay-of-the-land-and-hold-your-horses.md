@@ -119,13 +119,17 @@ to its chaotic nature and inability to control itself once so triggered. So
 very easily triggered. 
 
 If you can feel this coming on... feel the triggering setting in, tighten the
-reigns! Don't lose control because it's much harder to fix the situation ones
-chaos reigns. You can't reason with a horse that's already bucking. You can't
-reason with a horse that's already running. Avoiding allowing the trigger to
-have such power over you is a practice called ***self control***. Such things
-are called practices because they must be practices. Exercises to get there
-include meditation, yoga, and martial arts. Quiet the chattering monkey brain.
-Shhhhhh. Shhhhhhh. Shh
+reigns! Don't lose control because it's much harder to fix the situation once
+chaos is doing it's little rampaging bit. You can't reason with a rampaging
+horse. Give that bucking horse its distance. Get out of there! There's only one
+move called a Curly Howard that will work in this situation, but it will blind
+the horse permanently. Only pull a Curly Howard if you have no other choice.
+
+Read ***The Art of War***. To win without fighting is always best. Avoiding
+allowing the trigger to have such power over you is a practice called ***self
+control***. Such things are called practices because they must be practices.
+Exercises to get there include meditation, yoga, and martial arts. Quiet the
+chattering monkey brain. Shhhhhh. Shhhhhhh. Shh
 
 There is nothing inherently wrong with the horse of chaos. It is a beautiful,
 powerful, and majestic creature. It is a force of nature. It is a mighty horse
