@@ -4,7 +4,7 @@ title: WSL Linux Graphics and Systemd Support Takes Priority Over LXD
 headline: Prioritizing Linux Graphics and Systemd Over LXD in WSL - Check Out My Repository 'drinkme'
 description: "I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes."
 keywords: WSL, Linux, Graphics, Systemd, LXD, Containers, Windows, Subsystem, MikleVin, Repository, Drinkme, Video, Prioritize, Changes
-categories: change, microsoft, drinkme, container, wsl, linux, systemd, graphic
+categories: wsl, systemd, microsoft, container, drinkme, graphic, change, linux
 permalink: /blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/
 layout: post
 ---
@@ -62,11 +62,11 @@ probably trying to figure out what these changes mean.
 ## Categories
 
 <ul>
-<li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -27,12 +27,13 @@ But chaos is not a force to be unleashed willy nilly... not in all cases, and
 certainly not as a weapon against others. But rather, it is a force to be
 harnessed. It is a gift, an internal power source; your own personal
 mitochondria. I don't know if your schooling has covered that yet, but it's a
-power source that is in every cell of your body. It was once a separate
-organism that was eaten and absorbed by one of your ancestors. It has its own
-DNA and remains separate from your own. It is a symbiotic relationship. It is
-commonly regarded in biology as the internal power source of animals. Animals
-don't have to draw their power from the sun like plants do. Mitochondria are
-what make animals animals.
+power source that is in every cell of your body.
+
+Mitochondria was once a separate organism that was eaten and absorbed by one of
+your ancestors. It has its own DNA and remains separate from your own. It is a
+symbiotic relationship. Mitochondria is commonly regarded in biology as the
+internal powerplant of animals. Animals don't have to draw their power from the
+sun like plants do. Mitochondria are what make animals animals.
 
 Other forms of life, mostly plants and Kryptonians, must draw their power from
 the light of the sun, but not you, my child. You have it within you. And more
