@@ -171,7 +171,7 @@ to take it myself. Excelsior!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/know-the-lay-of-the-land-and-hold-your-horses/">Know The Lay Of The Land And Hold Your Horses</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

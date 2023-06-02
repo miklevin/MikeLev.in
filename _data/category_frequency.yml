@@ -768,8 +768,8 @@ dictitems:
     count: 1
     title: age 26
   agency:
-    count: 1
-    title: Agencies
+    count: 2
+    title: Agency
   agent:
     count: 1
     title: Agents
@@ -1130,6 +1130,9 @@ dictitems:
   answer:
     count: 1
     title: Answers
+  ant:
+    count: 1
+    title: Ants
   anti-fragile:
     count: 1
     title: Anti-Fragile
@@ -1787,6 +1790,9 @@ dictitems:
   beauty:
     count: 1
     title: Beauty
+  beauty and the beast:
+    count: 1
+    title: Beauty and the Beast
   bed:
     count: 1
     title: Beds
@@ -2319,8 +2325,8 @@ dictitems:
     count: 1
     title: Brian Weiner
   bridge:
-    count: 3
-    title: bridges
+    count: 4
+    title: Bridge
   brightlocal:
     count: 1
     title: BrightLocal
@@ -2715,7 +2721,7 @@ dictitems:
     count: 2
     title: channeling
   chaos:
-    count: 1
+    count: 2
     title: Chaos
   character:
     count: 1
@@ -3128,6 +3134,12 @@ dictitems:
   coelacanth:
     count: 1
     title: Coelacanth
+  cognitive consonance:
+    count: 1
+    title: Cognitive Consonance
+  cognitive dissonance:
+    count: 1
+    title: Cognitive Dissonance
   cognizant:
     count: 1
     title: Cognizant
@@ -4520,6 +4532,9 @@ dictitems:
   dependent:
     count: 1
     title: Dependent
+  depression:
+    count: 1
+    title: Depression
   derailed:
     count: 1
     title: Derailed
@@ -5390,6 +5405,9 @@ dictitems:
   elpgd:
     count: 2
     title: ELPGD
+  "elric of melnibon\xE9":
+    count: 1
+    title: "Elric of Melnibon\xE9"
   eltgd:
     count: 3
     title: ELTgd
@@ -6179,6 +6197,9 @@ dictitems:
   fifty-one:
     count: 1
     title: fifty-one
+  fight or flight:
+    count: 1
+    title: Fight or Flight
   figlet:
     count: 4
     title: Figlet
@@ -6555,7 +6576,7 @@ dictitems:
     count: 1
     title: Free Tools
   free will:
-    count: 2
+    count: 3
     title: Free Will
   free-will:
     count: 1
@@ -7283,8 +7304,11 @@ dictitems:
   gpt models:
     count: 1
     title: GPT Models
+  gpt-:
+    count: 1
+    title: GPT-
   gpt-3:
-    count: 2
+    count: 3
     title: GPT-3
   gpt-3 api:
     count: 1
@@ -7293,7 +7317,7 @@ dictitems:
     count: 1
     title: GPT-3.5
   gpt-4:
-    count: 5
+    count: 6
     title: GPT-4
   gpt-4 model:
     count: 1
@@ -7601,6 +7625,9 @@ dictitems:
   hawk:
     count: 1
     title: hawk
+  hawk and dove:
+    count: 1
+    title: Hawk and Dove
   hawking:
     count: 1
     title: Hawking
@@ -7929,7 +7956,7 @@ dictitems:
     count: 1
     title: hormones
   horse:
-    count: 1
+    count: 2
     title: Horse
   horsew:
     count: 1
@@ -9533,6 +9560,9 @@ dictitems:
   lawyer:
     count: 1
     title: Lawyer
+  lay of the land:
+    count: 1
+    title: Lay of the Land
   layout:
     count: 2
     title: layout
@@ -11246,6 +11276,9 @@ dictitems:
   mit:
     count: 5
     title: MIT
+  mitochondrion:
+    count: 1
+    title: Mitochondria
   miyamoto musashi:
     count: 1
     title: Miyamoto Musashi
@@ -12539,6 +12572,9 @@ dictitems:
   others:
     count: 1
     title: Others
+  out of control:
+    count: 1
+    title: Out of Control
   outcome:
     count: 1
     title: Outcome
@@ -14567,6 +14603,9 @@ dictitems:
   reamortize:
     count: 1
     title: Reamortize
+  reason:
+    count: 1
+    title: Reason
   reasoning:
     count: 3
     title: Reasoning
@@ -15470,6 +15509,9 @@ dictitems:
   science fiction:
     count: 1
     title: Science Fiction
+  science of chaos:
+    count: 1
+    title: Science of Chaos
   science-fiction:
     count: 1
     title: Science-Fiction
@@ -15653,6 +15695,12 @@ dictitems:
   selenium:
     count: 1
     title: Selenium
+  self control:
+    count: 1
+    title: Self Control
+  self hatred:
+    count: 1
+    title: Self Hatred
   self hosted:
     count: 1
     title: Self Hosted
@@ -17229,7 +17277,7 @@ dictitems:
     count: 3
     title: Sun Microsystems
   sun tzu:
-    count: 2
+    count: 3
     title: Sun Tzu
   super:
     count: 1
@@ -17639,6 +17687,9 @@ dictitems:
   techsmith:
     count: 1
     title: TechSmith
+  teen titans:
+    count: 1
+    title: Teen Titans
   teflon:
     count: 1
     title: Teflon
@@ -18195,7 +18246,7 @@ dictitems:
     count: 1
     title: Trash
   trauma:
-    count: 1
+    count: 2
     title: Trauma
   travel:
     count: 2
@@ -19559,6 +19610,9 @@ dictitems:
   wizard of oz:
     count: 5
     title: Wizard of Oz
+  wolf:
+    count: 1
+    title: Wolves
   wolverine:
     count: 1
     title: Wolverine
