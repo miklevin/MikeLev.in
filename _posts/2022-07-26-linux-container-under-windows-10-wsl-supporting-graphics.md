@@ -4,7 +4,7 @@ title: Linux Container Under Windows 10 WSL Supporting Graphics
 headline: Unlocking Linux Graphics with Containers on Windows 10 WSL
 description: I recently discovered that it is possible to get Linux graphics working with Linux containers on Windows 10 using VcXsrv. I figured out how to capture the DISPLAY variable from the host Linux and pass it to the container by writing it to a shared file. This technique is similar to activating Python virtual environments, and I'm excited to share my findings with you.
 keywords: Linux, Windows 10, WSL, VcXsrv, DISPLAY variable, Python, Virtual Environments, Containers, Graphics, Host Linux, Shared File
-categories: microsoft, container, graphic, python, linux, wsl
+categories: microsoft, container, wsl, linux, python, graphic
 permalink: /blog/linux-container-under-windows-10-wsl-supporting-graphics/
 layout: post
 ---
@@ -69,7 +69,7 @@ Python venvs:
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>

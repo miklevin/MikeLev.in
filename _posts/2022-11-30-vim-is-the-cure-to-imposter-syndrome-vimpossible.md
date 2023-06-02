@@ -4,7 +4,7 @@ title: vim is the cure to Imposter Syndrome (vimpossible!)
 headline: Overcome Imposter Syndrome with Unix, Linux, Python, Vim, and Git!
 description: I have experienced Imposter Syndrome and understand how it feels. I'm going to teach people how to be free of this feeling forever by providing an alternative to web development with Linux, Python, Vim, and Git. Vim is a lifetime endeavor and is the native user interface for the Unix Philosophy, created by Bell Labs in 1970, and the Free and Open Source Software movement provides the opportunity to get better with the tools over time.
 keywords: Imposter Syndrome, Unix Philosophy, Bell Labs, Free and Open Source Software, Linux, Python, Vim, Git, SEO, Best Practices, Sheeple, Web Development, Perseverance, Ambition, Natural Limits
-categories: web development, imposter syndrome, python, linux, git, vim, seo
+categories: web development, vim, linux, seo, python, imposter syndrome, git
 permalink: /blog/vim-is-the-cure-to-imposter-syndrome-vimpossible/
 layout: post
 ---
@@ -131,9 +131,9 @@ Einstein or Michael Jordan.
 
 <ul>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

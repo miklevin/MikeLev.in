@@ -13,8 +13,9 @@ layout: post
 This is highly complementary and in praise of two horses. There will be
 doubters. This is the tail of... I mean the tale of two horses. Deep within
 your heart and mind, two yous trot down the lane. One's a Lord of Chaos. The
-other seems quite plain. You'd think the one that pulls you Is one that's full
-of fire. But head straight for that cliff. I'll stop cold 'cause it's dire.
+other seems quite plain. You'd think the one that pulls you&#151; Is one that's
+full of fire. But head straight for that cliff. I'll ***stop-cold*** 'cause
+it's dire.
 
 That does not mean that you are necessarily a chaos lord yourself, but it does
 mean you have that propensity in you. You will go places and do things others
