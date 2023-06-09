@@ -14,6 +14,8 @@ First, set the mood for our AI buddy, Copilot. Remember, he's reading along.
 It's not the "art of prompting" as some people have called it. It's the art of
 writing in a way that is easy for the AI to read along. It's a new art form.
 
+{% include youtubePlayer.html id="MkcmL6Je9-s" %}
+
 I've been at this awhile. Frankly the last interesting things I remember seeing
 is the rise of AI back somewhere in 1990 with the software called Magellan on
 the Amiga. Magellan was a supervised learning AI that could learn to play
