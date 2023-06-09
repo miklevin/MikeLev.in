@@ -295,7 +295,7 @@ ME: I know you're not British but ss a citizen of the land of SCTV I think you'l
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/know-the-lay-of-the-land-and-hold-your-horses/">Know The Lay Of The Land And Hold Your Horses</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/know-the-lay-of-the-land-and-hold-your-horses/">Know The Lay Of The Land And Hold Your Horses</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

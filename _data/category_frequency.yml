@@ -227,6 +227,9 @@ dictitems:
   '18':
     count: 2
     title: '18'
+  18 posts:
+    count: 1
+    title: 18 posts
   18 wheeler truck:
     count: 1
     title: 18 wheeler truck
@@ -273,7 +276,7 @@ dictitems:
     count: 2
     title: '2006'
   '2007':
-    count: 1
+    count: 2
     title: '2007'
   '2020':
     count: 1
@@ -798,7 +801,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 103
+    count: 104
     title: AI
   ai assistant:
     count: 1
@@ -867,7 +870,7 @@ dictitems:
     count: 1
     title: AI-writing
   aipocalypse:
-    count: 2
+    count: 3
     title: AIpocalypse
   aipocolypse:
     count: 1
@@ -1238,6 +1241,9 @@ dictitems:
   apple photos app:
     count: 1
     title: Apple Photos App
+  apple store:
+    count: 1
+    title: Apple Store
   apple-product:
     count: 1
     title: Apple-product
@@ -1269,7 +1275,7 @@ dictitems:
     count: 1
     title: Approximations
   apps:
-    count: 3
+    count: 4
     title: Apps
   april 4:
     count: 1
@@ -2819,6 +2825,9 @@ dictitems:
   chewing gum wrapper:
     count: 1
     title: Chewing Gum Wrapper
+  chicken little:
+    count: 1
+    title: Chicken Little
   chien-shiung wu:
     count: 1
     title: Chien-Shiung Wu
@@ -3594,7 +3603,7 @@ dictitems:
     count: 1
     title: Containing Element
   content:
-    count: 25
+    count: 26
     title: Content
   content appeal:
     count: 1
@@ -3729,7 +3738,7 @@ dictitems:
     count: 2
     title: copy-paste
   copy/paste:
-    count: 6
+    count: 7
     title: Copy/Paste
   copying:
     count: 1
@@ -8177,6 +8186,9 @@ dictitems:
   icann:
     count: 1
     title: ICANN
+  icarus:
+    count: 1
+    title: Icarus
   icloud:
     count: 1
     title: iCloud
@@ -9440,6 +9452,9 @@ dictitems:
   koran:
     count: 1
     title: Koran
+  kosher food:
+    count: 1
+    title: Kosher food
   kubernetes:
     count: 2
     title: Kubernetes
@@ -11514,7 +11529,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 20
+    count: 21
     title: MOZ
   moz api:
     count: 1
@@ -11961,7 +11976,7 @@ dictitems:
     count: 4
     title: New York
   new york city:
-    count: 9
+    count: 10
     title: New York City
   new york seo:
     count: 1
@@ -12225,7 +12240,7 @@ dictitems:
     count: 1
     title: nvim
   nyc:
-    count: 8
+    count: 9
     title: NYC
   nyc,:
     count: 1
@@ -13128,7 +13143,7 @@ dictitems:
     count: 1
     title: Physicist
   pi:
-    count: 1
+    count: 2
     title: Pi
   pi ai:
     count: 1
@@ -15858,7 +15873,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 85
+    count: 86
     title: SEO
   seo blog:
     count: 1
@@ -15869,6 +15884,9 @@ dictitems:
   seo director:
     count: 1
     title: SEO Director
+  seo industry:
+    count: 1
+    title: SEO industry
   seo managers:
     count: 1
     title: SEO Managers
@@ -16893,7 +16911,7 @@ dictitems:
     count: 1
     title: State
   staten island:
-    count: 3
+    count: 4
     title: Staten Island
   static:
     count: 3
@@ -17018,6 +17036,9 @@ dictitems:
   stop words:
     count: 1
     title: Stop Words
+  stopping point:
+    count: 1
+    title: Stopping Point
   stopwords:
     count: 3
     title: Stopwords
@@ -18438,7 +18459,7 @@ dictitems:
     count: 1
     title: Tweepy
   tweet:
-    count: 2
+    count: 3
     title: Tweets
   twisted bilayer graphene:
     count: 1
@@ -18449,6 +18470,9 @@ dictitems:
   twitter api:
     count: 1
     title: Twitter API
+  twitter feed:
+    count: 1
+    title: Twitter feed
   two-slit experiment:
     count: 2
     title: Two-slit experiment
@@ -18768,7 +18792,7 @@ dictitems:
     count: 1
     title: Upside Down Lift Designs
   url:
-    count: 23
+    count: 24
     title: URLs
   url slug:
     count: 1
@@ -19667,6 +19691,9 @@ dictitems:
   wizard of oz:
     count: 5
     title: Wizard of Oz
+  wizards of moz:
+    count: 1
+    title: Wizards of MOZ
   wolf:
     count: 1
     title: Wolves
@@ -19746,7 +19773,7 @@ dictitems:
     count: 1
     title: works best
   world:
-    count: 10
+    count: 11
     title: World
   world-building:
     count: 1

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a> (Fri Jun 09, 2023)
+<br/>Explore the intersection of AI and Pi with me as I share interesting discussions with Pi, tweets, and quotes from 'This Perfect Day'. Join me on my journey as I work with MOZ to control the subject matter of a test and share my thoughts on how this so-called aipocalypse isn't even a real thing. Lighten up people! We've got Star Trek ahead of us (but without the Eugenics war).</li>
 <li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
 <br/>As an SEO, I'm fascinated by the next-level AI technology that is emerging. I'm inspired by the likes of Michael Faraday, Vincent Van Gogh, and James Clerk Maxwell, and I'm aware of the potential risks posed by powerful technologies like CRISPR. I'm advocating for a more humane approach to AI, and suggest that we take inspiration from greats such as Mr. Rogers, Bob Ross, Carl Sagan, Robin Williams, and Stan Lee to assuage fear.</li>
 <li><a href="/blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/">I've Met Darkdog, and it is Deep Thought's Successor, Pi.</a> (Fri May 26, 2023)

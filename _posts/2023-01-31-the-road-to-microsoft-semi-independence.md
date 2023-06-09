@@ -4,7 +4,7 @@ title: The Road to Microsoft Semi-Independence
 headline: Promoting Free and Open Source SEO Software - My Journey to Microsoft Semi-Independence
 description: I'm working on a project to promote Free and Open Source SEO Software and show people how to set up a server on their Windows 10 or 11 laptops. I'm encouraging people to use Linux as a standard feature on Windows 10 and 11 via the Windows Subsystem for Linux and to be aware of Microsoft's paid services. I'm suggesting using vim instead of VSCode, as it is an industry standard and not tied to a vendor.
 keywords: Microsoft, Semi-Independence, Free, Open Source, SEO, Software, Server, Windows, Linux, Windows Subsystem, Paid Services, Vim, VSCode, Industry Standard, Vendor, Distracted, Determined, Google Photos, Project, Broad Interest
-categories: linux, vim, google, open source, microsoft, vendor, seo, wsl
+categories: microsoft, linux, vim, open source, seo, wsl, vendor, google
 permalink: /blog/the-road-to-microsoft-semi-independence/
 layout: post
 ---
@@ -80,11 +80,11 @@ Photos thing. That's of broad potential interest.
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
