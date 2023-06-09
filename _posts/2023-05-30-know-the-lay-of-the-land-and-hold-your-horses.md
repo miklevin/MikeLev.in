@@ -305,7 +305,7 @@ I'm talking about here. Know the lay of the land, and hold your horses.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/alpha-go-in-the-app-store-is-the-bat-signal-i-ve-been-waiting-for/">Alpha Go in the App Store is The Bat Signal I've Been Waiting For</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/alpha-go-in-the-app-store-is-the-bat-signal-i-ve-been-waiting-for/">Alpha Go in the App Store is The Bat Signal I've Been Waiting For</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/funny-or-die-thanks-will-great-name/">Funny or Die... Thanks Will! GREAT NAME!!!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

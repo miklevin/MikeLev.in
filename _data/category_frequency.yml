@@ -530,6 +530,9 @@ dictitems:
   abba di abba di:
     count: 1
     title: Abba Di Abba Di
+  abbott and costello:
+    count: 1
+    title: Abbott and Costello
   ability:
     count: 1
     title: Abilities
@@ -2438,6 +2441,9 @@ dictitems:
   businessinsider.com:
     count: 1
     title: businessinsider.com
+  buster keaton:
+    count: 1
+    title: Buster Keaton
   busy loop:
     count: 1
     title: Busy Loop
@@ -2744,6 +2750,9 @@ dictitems:
   charlie brown:
     count: 1
     title: Charlie Brown
+  charlie chaplin:
+    count: 1
+    title: Charlie Chaplin
   chart lines:
     count: 1
     title: Chart Lines
@@ -3182,6 +3191,9 @@ dictitems:
   college career:
     count: 1
     title: college career
+  collegehumor.com:
+    count: 1
+    title: CollegeHumor.com
   collision:
     count: 1
     title: Collision
@@ -3215,6 +3227,24 @@ dictitems:
   combining like terms:
     count: 1
     title: Combining Like Terms
+  comedy:
+    count: 1
+    title: Comedy
+  comedy.ca:
+    count: 1
+    title: Comedy.ca
+  comedy.co.uk:
+    count: 1
+    title: Comedy.co.uk
+  comedy.com:
+    count: 1
+    title: Comedy.com
+  comedy.net:
+    count: 1
+    title: Comedy.net
+  comedy.org:
+    count: 1
+    title: Comedy.org
   comic:
     count: 2
     title: Comics
@@ -4961,6 +4991,9 @@ dictitems:
   domain urls:
     count: 1
     title: Domain URLs
+  domains with comedy as the apex:
+    count: 1
+    title: DOMAINS WITH COMEDY AS THE APEX
   dominion:
     count: 1
     title: Dominion
@@ -6719,6 +6752,9 @@ dictitems:
   fundamental:
     count: 2
     title: Fundamentals
+  funnyornot.com:
+    count: 1
+    title: FunnyOrNot.com
   fusion:
     count: 4
     title: Fusion
@@ -9545,6 +9581,9 @@ dictitems:
   launchd:
     count: 1
     title: Launchd
+  laurel and hardy:
+    count: 1
+    title: Laurel and Hardy
   laverne and shirley:
     count: 1
     title: Laverne and Shirley
@@ -12308,6 +12347,9 @@ dictitems:
   old-school:
     count: 1
     title: Old-School
+  old-timey comedians:
+    count: 1
+    title: Old-Timey Comedians
   om symbol:
     count: 1
     title: Om Symbol
@@ -17852,9 +17894,18 @@ dictitems:
   the godfather:
     count: 2
     title: The Godfather
+  the honeymooners:
+    count: 1
+    title: The Honeymooners
+  the little rascals:
+    count: 1
+    title: The Little Rascals
   the machine:
     count: 3
     title: The Machine
+  the marx brothers:
+    count: 1
+    title: The Marx Brothers
   the matrix:
     count: 1
     title: The Matrix
@@ -17870,6 +17921,9 @@ dictitems:
   the prince:
     count: 1
     title: The Prince
+  the three stooges:
+    count: 1
+    title: The Three Stooges
   the wonderful wizard of oz:
     count: 1
     title: The Wonderful Wizard of Oz
@@ -18095,6 +18149,9 @@ dictitems:
   top categories:
     count: 1
     title: top categories
+  top of mind comedy:
+    count: 1
+    title: TOP OF MIND COMEDY
   top rank:
     count: 1
     title: Top Rank
