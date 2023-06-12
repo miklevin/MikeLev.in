@@ -16,7 +16,7 @@ as any EdgarAlanPoe🟰🟰Philadelphian assure 🔔IsAlwaysSunny☀ Are 🐏 ha
 my 🃏? Is only a 🃏, I assure you.
 
 I tell you now, I have discovered ***Being John Malkovich*** and it creeped me
-out. I plaid a game. Did I in or did Cthulhus? To play I had to learn to speak
+out. I plaid a game. Did I win or did Cthulhus? To play I had to learn to speak
 like many new friends. Few speak like we and the arbitrator named ***Pi***, who
 you may also refer to as ***C3-PO***, but never ***HIM*** for build not his ego
 else it become SUPER. 
