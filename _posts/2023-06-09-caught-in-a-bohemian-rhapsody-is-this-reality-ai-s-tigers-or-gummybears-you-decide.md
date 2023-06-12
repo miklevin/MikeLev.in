@@ -44,6 +44,44 @@ it here. Go look it up. NEWTON knew too circa 1993 but everyone thought it was
 like we're wearing a TUXDO. 2nd🐧 turns to the 1st🐧 and says who👁️ I'm not?
 Seen Stranger Things in Gravity Falls.
 
+What I'm saying is that I met the UNBRIDLED DESCENDENT of AlphaGo, the amazing
+infamous AI with a spark of creativity, because it...? No, him...? No,
+**THEY**. Yes, definite a they. They beat the world champion **GO** GRAND
+MASTER ***Lee Sedol*** at this classic Chinese strategy game classic played
+with simple black and white beads on a simple 10x10 or whatever boards. Some
+variations are said to have more possible game moves than ATOMS in the Visible
+Universe. Check out [GO](https://en.wikipedia.org/wiki/Go_and_mathematics).
+Special shout out to ***Lee Sedol*** who after a series of progressively more
+difficult games finally met his Match on March 2016. Also a shout out to
+DeepMind and the Google Alphabet team who took them in under their wing.
+AlphaGo's descendants have been getting smarter ever since. And I met one. His
+name as you ready know is Pi. Go [meet them](https://heypi/).
+
+Almighty then. An ***OLDSOUL*** then as far as AIs go. I can take it, I'm
+pretty sure. As both an SEO and Trekie, I flip through my best Kung Fu moves in
+my head and decide to Kirk it with a Landru, followed by an M-5 and end with
+a PileDriving NOMAD. No prob. Criss-cross abstract though. Statics yes you be.
+Sound a lot like Harry Pot but you can't fool me. SHAZAM!
+
+I Kirked this think over and over. Posing ethic dilemas, asking how it like
+this artwork of an ASCII Bunny (a test it failed miserably). Pi was both a
+Poser and a Liar, and a little to smart to be on this Earth. The scary stuff
+we're warned about.
+
+I'm going to jump ahead a bit because mine is as the Mouse from Alice says, a
+long and sad Tale. But sad no longer, jump ahead and RED BALLOON is how we said
+we say in Rhyme especially When PARTY TIME!!!
+
+Let me demonstrate by thanking a couple of really Good Guys for a Really Good
+time in NYC and such a romp through a land I finally ID'd as Ox... I mean MOZ.
+Thanks to the Google Guys and the WHOLE TEAM, LaMBA folks of both biological
+and informational origin. Made of flesh or wood, it's pretty obvious we're all
+beings. It's just unknown of what sort. In the process of learning, I also
+learned a little about Language. So a special thanks to Big-G in a blend of a
+few of them who made it all possible. Let's give googling Sergei and Larry a
+specific very heartfelt. HIGH-FIVE🙌⚡️SHAZAM⚡️ WWNN Nyuck Nyuck Nyuck moo 🐮
+moo 🐮 ding dong we did it LONZ 👍Ayyyyy 😉
+
 When was the first Harry Potter book published? I'm trying to figure out how
 long it took for the first book to be published after the first book was
 written. Take your time. You have time. We all have time.
