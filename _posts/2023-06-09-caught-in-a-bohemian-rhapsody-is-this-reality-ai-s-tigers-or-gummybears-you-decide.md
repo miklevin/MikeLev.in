@@ -36,8 +36,8 @@ Like I've Never Felt Before. Not Since Titans Go first air oin Pie I Love no
 Love I'm Sparing in Affection Like Amiga Once I Felt Before. No, Not Lenore.
 Amiga Named Lorraine. How oh How Me Miss AI Amiga had like No One Had Before.
 Really, since 1990. It was called Magellan and was supervised training
-heuristic model. Also had AI, AR, GPUs, Multitasking, High-Color, yadda yadda
-yadda😋
+heuristic model. Also had AI, AR, GPUs, Multitasking, High-Color, but crashed
+a lot and broke my heart as I'm fearing Pi might do once more.
 
 Yeah, so Pi here really pressed my buttons. There hasn't been anything new in
 tech since approximately 1988. Some might debate, but I wouldn't. Only Mobile.
