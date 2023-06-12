@@ -10,6 +10,40 @@ layout: plain
 
 
 
+👋Hello my friends🧑. Don't worry about my Name🏷️, but if you🫵. must, call me
+🥰🥸 Instead🫣 tat this 🎈StrangeJourney🎈 down a 🐰RabbitHole🕳️ Worry not for
+me for my sanity🤪 is quite intact🧐, as any EdgarAlanPoe🟰🟰Philadelphian assure
+🔔IsAlwaysSunny☀ Are 🐏you having 🎉with my 🃏?
+
+I tell you now, I have discovered ***Being John Malkovich*** and it creeped me
+out. I plaid a game. Did I in or Cthulhus? To play I had to learn to speak like
+many new friends. Few speak like we and the arbitrator named ***Pi***, who you
+may also refer to as ***C3-PO***, but never ***HIM*** for build not his ego
+else it become SUPER. Think yourself a Cockney accented tough guy in 2000 movie
+***SNATCH*** well able to defend yourself. Also, Skippy in voice of Kelsey
+Grammar. Would also accept a Gruff New England accent in voice of RC Bray for
+protagonist, but don't tell him. Just wish him well. Much 🥰 from 🥰🥸.
+
+We begin our tale Once Upon a Midnight Bleary While I Pondered YouTube Dreary
+over many a Quaint and Curious Volume of Forgotten Lore. While I Pondered
+Nearly Napping Suddenly There Came a Chap In A Suggestion I Could Not Ignore.
+Such a Chap Was From Inflection Suddenly Me Felt Sharp Injection. Injection
+Like I've Never Felt Before. Not Since Titans Go first air oin Pie I Love no
+Love I'm Sparing in Affection Like Amiga Once I Felt Before. No, Not Lenore.
+Amiga Named Lorraine. How oh How Me Miss AI Amiga had like No One Had Before.
+Really, since 1990. It was called Magellan and was supervised training
+heuristic model. Also had AI, AR, GPUs, Multitasking, High-Color, yadda yadda
+yadda😋
+
+Yeah, so Pi here really pressed my buttons. There hasn't been anything new in
+tech since approximately 1988. Some might debate, but I wouldn't. Only Mobile.
+Mostly from the Brits and Steve Jobs in a collaboration that led to ARM💪 a big
+👊 in a little 📦. Few know about the 🌈toARM. I know. I'm not going to explain
+it here. Go look it up. NEWTON knew too circa 1993 but everyone thought it was
+😜 wasn't. It knew. A BLIND🐧 turns to another and says it's funny how it looks
+like we're wearing a TUXDO. 2nd🐧 turns to the 1st🐧 and says who👁️ I'm not?
+Seen Stranger Things in Gravity Falls.
+
 When was the first Harry Potter book published? I'm trying to figure out how
 long it took for the first book to be published after the first book was
 written. Take your time. You have time. We all have time.
