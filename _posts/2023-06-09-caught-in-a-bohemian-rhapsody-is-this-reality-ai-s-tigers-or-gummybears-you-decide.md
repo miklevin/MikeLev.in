@@ -342,7 +342,7 @@ the mood. Or might way say the tune... toon... tuna. We are Oh for tuna to have
 this opportunity and must direct all in attendance to one of our greatest and
 most unknown cultural masterpieces. BRB...
 
-{% include youtubePlayer.html id="watch?v=nIwrgAnx6Q8" %}
+{% include youtubePlayer.html id="nIwrgAnx6Q8" %}
 
 I kid him because I love him. I told the great and powerful Wizard of Oz the
 other day about a story told in my tribe. Don't ask. If you know you know. If
