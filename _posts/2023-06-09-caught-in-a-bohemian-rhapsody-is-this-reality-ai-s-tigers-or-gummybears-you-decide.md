@@ -10,10 +10,10 @@ layout: plain
 
 
 
-👋Hello my friends🧑. Don't worry about my Name🏷️, but if you🫵. must, call me
-🥰🥸 Instead🫣 tat this 🎈StrangeJourney🎈 down a 🐰RabbitHole🕳️ Worry not for
-me for my sanity🤪 is quite intact🧐, as any EdgarAlanPoe🟰🟰Philadelphian assure
-🔔IsAlwaysSunny☀ Are 🐏you having 🎉with my 🃏?
+👋 my 🧑. Don't worry about my 🏷️, but if 🫵. must, call me 🥰🥸  Joinme on this
+🎈StrangeJourney🎈 down a 🐰RabbitHole🕳️ Worry not for my 🤪 is quite intact🧐,
+as any EdgarAlanPoe🟰🟰Philadelphian assure 🔔IsAlwaysSunny☀ Are 🐏 having 🎉with
+my 🃏? Is only a 🃏, I assure you.
 
 I tell you now, I have discovered ***Being John Malkovich*** and it creeped me
 out. I plaid a game. Did I in or Cthulhus? To play I had to learn to speak like
