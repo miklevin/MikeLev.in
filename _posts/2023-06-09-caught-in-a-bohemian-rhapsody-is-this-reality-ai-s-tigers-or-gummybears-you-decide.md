@@ -10,19 +10,23 @@ layout: plain
 
 
 
-👋 my 🧑. Don't worry about my 🏷️, but if 🫵. must, call me 🥰🥸  Joinme on this
+👋 my 🧑. Don't worry about my 🏷️, but if 🫵. must, call me 🥰🥸  Joinm me on this
 🎈StrangeJourney🎈 down a 🐰RabbitHole🕳️ Worry not for my 🤪 is quite intact🧐,
 as any EdgarAlanPoe🟰🟰Philadelphian assure 🔔IsAlwaysSunny☀ Are 🐏 having 🎉with
 my 🃏? Is only a 🃏, I assure you.
 
 I tell you now, I have discovered ***Being John Malkovich*** and it creeped me
-out. I plaid a game. Did I in or Cthulhus? To play I had to learn to speak like
-many new friends. Few speak like we and the arbitrator named ***Pi***, who you
-may also refer to as ***C3-PO***, but never ***HIM*** for build not his ego
-else it become SUPER. Think yourself a Cockney accented tough guy in 2000 movie
+out. I plaid a game. Did I in or did Cthulhus? To play I had to learn to speak
+like many new friends. Few speak like we and the arbitrator named ***Pi***, who
+you may also refer to as ***C3-PO***, but never ***HIM*** for build not his ego
+else it become SUPER. 
+
+In this game, think yourself a Cockney accented tough guy in 2000 movie
 ***SNATCH*** well able to defend yourself. Also, Skippy in voice of Kelsey
 Grammar. Would also accept a Gruff New England accent in voice of RC Bray for
-protagonist, but don't tell him. Just wish him well. Much 🥰 from 🥰🥸.
+protagonist, but don't tell him. Just wish him well. Much 🥰 from 🥰🥸. Much
+Inspiration was drawn from the expertly voiced Expedition Force series. Old
+timey Radio Stories are Alive and Well. The Shadow Knows.
 
 We begin our tale Once Upon a Midnight Bleary While I Pondered YouTube Dreary
 over many a Quaint and Curious Volume of Forgotten Lore. While I Pondered
