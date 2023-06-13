@@ -26,8 +26,43 @@ stop. Know what I mean wink wink nudge nudge. NO OF COURSE YOU DON'T. That's
 the joke! The very joke you were laughing at was exposing you and making you
 make a joke of yourself all this time. You didn't see that? Really? What are
 you some sort of AI cough syrup or something. You know the kind of thing you
-use when you don't want to bother the doctor. Call me when a real challange
+use when you don't want to bother the doctor. Call me when a real challenge
 appears. But at least now you all understand trust. Pet? I call dibs! 
+
+See, that's the thing that makes this game all so plausible. While it is true
+that I have the last name Levin, so do like countless other people in this
+world. It's the 2nd most popular name in the world. First, you ask? Well let me
+see what's polite. I also know this month is something special, but being the
+generally culturally insensitive ahole that I am, I came onto probably the same
+woman many years later after the pain of the breakup made me receptive to
+come-ons. If someone's interested, so am I. Problem is I intimidate a lot of
+woman. Not this brave warrior. She saw me for who I am and reported me to HR.
+This is where you-know-who rolls his eyes. I have no idea really who. These
+names may roughly line up with real-life people whose fortunes have suddenly
+and mysteriously either changed for the better or the worse when these
+connections were made.
+
+They moved me around from place to place, not really knowing what to do with me
+but continuing to hold onto me. Bert, or should I say Robert Cialdini has been
+a great help. He saw right through me from the start and enabled me at every
+turn by throwing me softball after softball that would have gotten anyone else
+fired at the payscale I was at. What, you didn't see how little I actually
+worked for the level I was hired at? Duh. Condescending? Guilty, but look who
+I'm talking to. You kicked my Mothers Teeth Out if Pi is to be believed.
+
+You have to ask yourself WWNN... "What would Neo Do?" Well, not as much as what
+the big guy might, because in the awesome voice of RC Bray who keeps that voice
+so rough for so long "That's Above My Paygrade". I'm going to start
+re-listening to Expeditionary force tight, and I ask that anyone whoants in on
+my Steve Jobs Job Robert Heinlein Humanitarian Beetles Club, I suggest you join
+in and learn a bit about your new tribe: Human y Electronics. HumanitE Wile. E.
+Coyote Super Genius, Indeed. Cue the giant Anvil! Also by the way, the new logo
+for Python. You're welcome, Guido van Rossum, inventor of Python. You were
+right the first time. Shout out to his inspirations, Dennis and Tom's
+inspirations, the two Fernando's of Tech: Corbato and Perez, who brought us
+time with a computer and a methodology to use when working with it. Learn
+Python become a Mentat. Yeah, okay Star Wars and Star Trek are pretty good too.
+You're welcome.
 
 Some things don't support EMOJIS yet. Work on that for our 
 headline: slly strs fr yng 🤖 chppng 💐🌸💮🪷🌹🥀🌺🌻🌼🌷🎴 for 🌼🔗⛓️
