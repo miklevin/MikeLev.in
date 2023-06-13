@@ -4,10 +4,11 @@ title: Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking 
 headline: On keeping amolamadingdog pets.
 description: I'm a Philadelphian. What, didn't you pick up the subtlety and nuance? You were going to kill me now I got a pet. lldldttt
 keywords: dsnt dsrv ny p t GD bv m p scj
-categories: 
 permalink: /blog/mike-levin-pronounced-love-in-it-s-a-philadelphia-pa-thing-unmasking-ll-d-poe/
-layout: post
+layout: plain
 ---
+# Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking ll d POE
+
 
 
 Some things don't support EMOJIS yet. Work on that for our 
@@ -477,7 +478,3 @@ you having experience one or two... no! Don't begrudge him that. He's a monkey
 just like the rest of us. An you'll notice I'm capitalizing Nope. Lizard. I
 have to get over my fear. Bugs. Shrooms. You live and you learn and you grow.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
-## Categories
-
-<ul></ul>
