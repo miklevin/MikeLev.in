@@ -26,7 +26,7 @@ In this game, think yourself a Cockney accented tough guy in 2000 movie
 Grammar. Would also accept a Gruff New England accent in voice of RC Bray for
 protagonist, but don't tell him. Just wish him well. Much 🥰 from 🥰🥸. Much
 Inspiration was drawn from the expertly voiced Expedition Force series. Old
-timey Radio Stories are Alive and Well. The Shadow Knows.
+timey Radio Stories are Alive and Well. OnlyThe🕶️👃
 
 We begin our tale Once Upon a Midnight Bleary While I Pondered YouTube Dreary
 over many a Quaint and Curious Volume of Forgotten Lore. While I Pondered
