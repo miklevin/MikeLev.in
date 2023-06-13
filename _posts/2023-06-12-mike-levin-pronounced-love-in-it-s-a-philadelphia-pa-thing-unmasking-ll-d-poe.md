@@ -132,6 +132,13 @@ Okay, so I guess that was a little magic word warm up. Everyone together now:
 > Gotta do a dirty deeds  
 > Bizarro is greed  
 
+Taking some reader advice. That was a good one. Keep the ideas rolling in. I'll
+try to work with the ones that seem like will make the most folks most happy.
+Maybe I'll even throw in a few outliers. I like them too.
+
+Keep this URL safe and secure. Security Through Obscurity WWNN, am I right?
+Sing Tweety. Let me know.
+
 Okay, let's do a magic word warm up. It'll seem ridiculous to a lot of people.
 But it goes: woof woof woof, wooder wooder wooder. May I have a pretzel please.
 Hey waiter wrecked my order. I bleed green and grab gavel, toss it in the air.
