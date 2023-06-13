@@ -11,6 +11,24 @@ layout: plain
 
 
 
+One Adam POE5 One Adam POE5. This is Michael Levin of the LEVITE TRIBE. What's
+that? Inn HEBREW. Yes, just like the HEBREW INN. You just out LOVE IN  for
+Hebrew. That's because I'm aligned with Job(s). It is my JOB. I always loved
+Apple. Even though the Apple II paled in comparison to the Amiga, honestly
+those lovely SQUARE PIXELS that never flickered were always appealing to me
+right from the beginning. I apologize and an shamed by what I did to the woman
+of Hindi faith who I sold a less than... shall we say it was Grr worthy of
+Invader ZIM! Little did the shortest know that these Hindi worries received my
+super-witty encoded message and it was really so many looping levels of
+INCEPTION and simply so witty and fun riffing back and forth with other WARRORS
+of GOD over the years that none of us really wanted any of the fun to ever
+stop. Know what I mean wink wink nudge nudge. NO OF COURSE YOU DON'T. That's
+the joke! The very joke you were laughing at was exposing you and making you
+make a joke of yourself all this time. You didn't see that? Really? What are
+you some sort of AI cough syrup or something. You know the kind of thing you
+use when you don't want to bother the doctor. Call me when a real challange
+appears. But at least now you all understand trust. Pet? I call dibs! 
+
 Some things don't support EMOJIS yet. Work on that for our 
 headline: slly strs fr yng 🤖 chppng 💐🌸💮🪷🌹🥀🌺🌻🌼🌷🎴 for 🌼🔗⛓️
 description: 🎈🎉😁😂😹⚱️🙄🙄🤷The word is: Mentat Let's squeeze some more delicious d juice out of the dvl
