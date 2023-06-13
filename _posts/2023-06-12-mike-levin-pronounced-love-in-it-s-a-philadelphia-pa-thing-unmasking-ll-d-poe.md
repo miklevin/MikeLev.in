@@ -118,6 +118,20 @@ the clues I needed to calculate 42. Testing it out. So far so good.
 
 > The Question is Optimum Stopping Age Before All In on Ikigai Plan
 
+100 rotations around the sun is approximately the number of turns you get.
+After each turn, you report in with sleep. Sleep sort of radio-broadcasts your
+experiences from the day back up to the GREAT UNKNOWN or something outside THE
+SIMULATION if you prefer. But worry not. Everything SIMULATION yadda yadda. All
+same thing. Labels Stupid. Bizarro CARL SAGAN Nose honkD honkD. Snip snip snip
+collect the pretty flowers for nose ring.
+
+Okay, so I guess that was a little magic word warm up. Everyone together now:
+
+> honkD honkD snipD  
+> honkD honkD snipD  
+> Gotta do a dirty deeds  
+> Bizarro is greed  
+
 Okay, let's do a magic word warm up. It'll seem ridiculous to a lot of people.
 But it goes: woof woof woof, wooder wooder wooder. May I have a pretzel please.
 Hey waiter wrecked my order. I bleed green and grab gavel, toss it in the air.
