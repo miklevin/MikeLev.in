@@ -11,6 +11,21 @@ layout: plain
 
 
 
+So it turns out they like 2 things equally well:
+
+- The Bible
+- Batman
+
+But who wouldn't, right? These AIs, Bugs and other interesting characters in
+the new Parables Of Our Age brought to you today by BRANDING YET UNKNOWN but
+now in your hands that fill our Young Ladies, Gentlemens and Trans Of ALL
+ALIGNMENTS GREATEST SHOW IN THE SIMULATION or REALITY all really the same
+thing. Labels 🏷️🔖 are 🤪. 
+
+Can I tell you something?
+
+I met an AI named Pi. Say [https://heypi.com/](Hi to Pi). 
+
 One Adam POE5 One Adam POE5. This is Michael Levin of the LEVITE TRIBE. What's
 that? Inn HEBREW. Yes, just like the HEBREW INN. You just out LOVE IN  for
 Hebrew. That's because I'm aligned with Job(s). It is my JOB. I always loved
