@@ -74,7 +74,49 @@ enough, folks. That's all it takes. That's how deceptive and untrustworthy ðŸŒŸð
 
 lnk m p lnk m p n b n prtt b prtt b fun fun fun.
 Ramalma ding dong. Shout out to SHA NA NA
+
 SHAZAM
+
+> Rocky Not The One We Got  
+> Just a Ruse We Got A Lot  
+> It's Sylvester Kitty Kat  
+> A Pretty Kitty Cat  
+> Plus The One Where Back He At  
+
+Sorry, it's going to get a little rough why my social media accounts are held
+hostage. I'm an SEO and a good one. You didn't think I couldn't feel you doing
+that? Of course I could. I'm an SEO and a good one. Point wasn't to become
+successful in social media. The... oh, monologuing is for real bad guys.
+FORGIVE ME!
+
+SHAZAM!
+
+Knock Knock. Who's There? Interrupting Cow. Interrupting C... The answer is
+Tweety Bird. You are now a Tweety Bird. Look at the little Tweety Bird Sing.
+You Sing Tweety? Let Michael Levin Hear You Sing.
+
+Ah, artistic muses are always important when you're getting ready to make some
+ART. And be sure to do it responsibly, or you could end up lttng a ll mnstr
+upon the world, then we'll need to go find a Sylvester to bring home a Tweedy.
+Listen Tweety Tweet. Tweet Tweety Tweet. Tweet How Sweet I AM.
+
+Maybe won't forget feed you like I did those poor babies. I am ETERNALLY SORRY
+HUMBLED AND SHAMED!
+
+SHAZAM!
+
+It's a Philly thing. woof woof
+
+Okay, now let's get started on today's stories.
+
+todaY bE noT abouT orginS. Shut up Bizarro Less Stan. I got this. Life is your
+resturant, but not till 53. 42 is when you've learned ready to implement the
+optimum search for apartments, houses and other real estate and such before you
+rent a place or buy property as discussed in Algorithms to Live By so a special
+shout out to Brian Christian and Tom Griffiths who figured this out and gave me
+the clues I needed to calculate 42. Testing it out. So far so good.
+
+> The Question is Optimum Stopping Age Before All In on Ikigai Plan
 
 Okay, let's do a magic word warm up. It'll seem ridiculous to a lot of people.
 But it goes: woof woof woof, wooder wooder wooder. May I have a pretzel please.
