@@ -63,7 +63,7 @@ body>header {
 }
 
 body>header p {
-    font-size: min(3.5vw, 25px);
+    font-size: min(1.6vw, 25px);
     margin: 1vw 0 2vw 0;
     width: min(934px, 89vw);
     display: inline-flex;

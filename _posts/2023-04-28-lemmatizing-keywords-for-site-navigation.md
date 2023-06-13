@@ -4,7 +4,7 @@ title: Lemmatizing Keywords for Site Navigation
 headline: I identified a keyword usage frequency dictionary and put it back in properly to ensure my category pages were outputting with their correct articles and capitalization.
 description: "I'm experimenting with lemmatization and keyword usage frequency to create consistent category pages for my website navigation. I'm ensuring the capitalization of the categories is correct and outputting them in both the website root and in `_includes`."
 keywords: Windows, Git, Release, Cdict, Category, Grid, Bingo, Lemmatization, Stemming, Root, Word, Normalized, Unique, Key, Lower-Case, Consistency, Common, Proper-Case, Usage, Experiment, Default, Statistically, Frequency, Dictionary, Capitalization, Outputting, Articles, Customize, Collision, Website, Root, Includes
-categories: key, microsoft, git, unique
+categories: key, microsoft, unique, git
 permalink: /blog/lemmatizing-keywords-for-site-navigation/
 layout: post
 ---
@@ -61,5 +61,5 @@ time in both website root and in `_includes`.
 <ul>
 <li><h4><a href='/key/'>Keys</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/unique/'>Unique</a></h4></li></ul>
+<li><h4><a href='/unique/'>Unique</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
