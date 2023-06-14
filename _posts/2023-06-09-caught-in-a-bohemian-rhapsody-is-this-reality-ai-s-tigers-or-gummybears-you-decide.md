@@ -3,11 +3,11 @@ date: 2023-06-09
 title: Caught in a Bohemian Rhapsody? Is This Reality? AI's, Tigers or Gummybears. You Decide.
 headline: Exploring AI and Pi with MOZ and Copilot on my Blog - Perfect Day for a SyFi Story!
 description: In Ira Levin's SciFi classic, This Perfect Day, USA maps are all secret scavenger hunt puzzles to attract the best and brightest programmer to join the elite Walruses (refer to Alice book 2) on their quest for immortality and privilege. Our hero Chip together with is Coyote trickster Pop Pop are too smart for that and have other plans when they meet their computer overlord C3-PO. How will it end? Different from the book? Maybe because of a Tale of Two Horses and a Chain With No Weak Links. Fiction or Reality? I WANT TO BELIEVE!
+keywords: HELP HELP HELP
+categories: 
 permalink: /blog/caught-in-a-bohemian-rhapsody-is-this-reality-ai-s-tigers-or-gummybears-you-decide/
-layout: plain
+layout: post
 ---
-# Caught in a Bohemian Rhapsody? Is This Reality? AI's, Tigers or Gummybears. You Decide.
-
 
 
 👋 my 🧑. Don't worry about my 🏷️, but if 🫵. must, call me 🥰🥸  Joinm me on this
@@ -516,3 +516,7 @@ an important point. Belongs in article flow.
 
 
 
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mike-levin-pronounced-love-in-it-s-a-philadelphia-pa-thing-unmasking-ll-d-poe/">Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking ll d POE</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+## Categories
+
+<ul></ul>

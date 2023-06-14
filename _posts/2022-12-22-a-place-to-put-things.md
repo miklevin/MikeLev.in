@@ -4,7 +4,7 @@ title: A Place to Put Things
 headline: "Embark on a Tech Literacy Adventure: Learn PyTorch, Group Keywords, and Build Robots!"
 description: I'm taking you on a journey to become a modern tech literate person. Learn the basics of PyTorch, group keywords, and build robots. Familiarize yourself with Linux, Git, and Vim. Set up a GitLab repo and gain the freedom that comes with it. Join me as I guide you through this tech literacy adventure!
 keywords: PyTorch, Group Keywords, Build Robots, Linux, Command-Line, Linux Daemon, Git, Vim, GitLab, Repo, Freedom, Pipulate, Python Standard Library, Pip Install, Pandas, Requests, Httpx, ScikitLearn
-categories: git, linux, pipulate, panda, vim, request
+categories: vim, pipulate, request, panda, git, linux
 permalink: /blog/a-place-to-put-things/
 layout: post
 ---
@@ -128,9 +128,9 @@ the path I'm taking you on is eventual freedom, even from that.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/request/'>Requests</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/request/'>Requests</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

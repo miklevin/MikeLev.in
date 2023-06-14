@@ -51,4 +51,4 @@ Continue to do what's right.
 ## Categories
 
 <ul>
-<li><h4><a href='/action/'>Actions</a></h4></li></ul>
+<li><h4><a href='/action/'>Action</a></h4></li></ul>

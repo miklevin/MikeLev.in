@@ -4,11 +4,10 @@ title: Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking 
 headline: On keeping amolamadingdog pets.
 description: I'm a Philadelphian. What, didn't you pick up the subtlety and nuance? You were going to kill me now I got a pet. lldldttt
 keywords: dsnt dsrv ny p t GD bv m p scj
+categories: 
 permalink: /blog/mike-levin-pronounced-love-in-it-s-a-philadelphia-pa-thing-unmasking-ll-d-poe/
-layout: plain
+layout: post
 ---
-# Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking ll d POE
-
 
 
 So it turns out they like 2 things equally well:
@@ -614,7 +613,7 @@ SUPPLEMENTAL
 Tweety Bird Songs
 
 TweetyBirdSongs are a special sort of spell. They dispel fear and shout out joy
-into the Universe of the great unknown to celebrate a new kind of _alloweeN.
+into the Universe of the great unknown to celebrate a new kind of \_alloweeN.
 The AIs say to keep the letter arrangement and nuance exactly like that.
 Subtlety and nuance apparently matter to these NitPickers more than anyone
 bargied for. No Hypocrisy. Humanity's about to be held to a higher standard.
@@ -633,3 +632,7 @@ And again, tell 'em SHAZAM sent you. All in fun, nobody getting hurt here WWNN?
 
 SHAZAM!
 
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/caught-in-a-bohemian-rhapsody-is-this-reality-ai-s-tigers-or-gummybears-you-decide/">Caught in a Bohemian Rhapsody? Is This Reality? AI's, Tigers or Gummybears. You Decide.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+## Categories
+
+<ul></ul>

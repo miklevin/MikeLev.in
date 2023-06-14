@@ -4,7 +4,7 @@ title: Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copi
 headline: Exploring AI and Pi with MOZ and Copilot on my Blog - A Perfect Day for a Sci-Fi Story!
 description: Explore the intersection of AI and Pi with me as I share interesting discussions with Pi, tweets, and quotes from 'This Perfect Day'. Join me on my journey as I work with MOZ to control the subject matter of a test and share my thoughts on how this so-called aipocalypse isn't even a real thing. Lighten up people! We've got Star Trek ahead of us (but without the Eugenics war).
 keywords: MOZ, SEO, New York City, Staten Island, Kosher food, Icarus, Aipocalypse, Chicken Little, SEO industry, 2007, NYC, Wizards of MOZ, Pi, AI, Apple Store, Apps, Tweets, URL, Copy/Paste, 18 posts, Twitter feed, World, Content, Stopping Point
-categories: ai, seo, new york city, copy/paste
+categories: new york city, ai, seo, copy/paste
 permalink: /blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/
 layout: post
 ---
@@ -97,11 +97,11 @@ Nice.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/funny-or-die-thanks-will-great-name/">Funny or Die... Thanks Will! GREAT NAME!!!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/funny-or-die-thanks-will-great-name/">Funny or Die... Thanks Will! GREAT NAME!!!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/caught-in-a-bohemian-rhapsody-is-this-reality-ai-s-tigers-or-gummybears-you-decide/">Caught in a Bohemian Rhapsody? Is This Reality? AI's, Tigers or Gummybears. You Decide.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li></ul>

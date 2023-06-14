@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a> (Wed Jun 14, 2023)
+<br/>Learn how to take control of your emotions and protect yourself from manipulation with this article. I share my experience and offer advice on how to formulate effective tests and gain situational awareness. Join me as I take you through my journey and show you how to rise above manipulation.</li>
 <li><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a> (Fri Jun 09, 2023)
 <br/>Explore the intersection of AI and Pi with me as I share interesting discussions with Pi, tweets, and quotes from 'This Perfect Day'. Join me on my journey as I work with MOZ to control the subject matter of a test and share my thoughts on how this so-called aipocalypse isn't even a real thing. Lighten up people! We've got Star Trek ahead of us (but without the Eugenics war).</li>
 <li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
