@@ -3,6 +3,7 @@ title: Mike Levin SEO in NYC Blogs on Linux, Python, Vim, Git, AI & more
 description: Mike Levin, an SEO in NYC, writes about Linux, Python, Vim, Git, AI in this Secret Daily Blog using NeoVim, Github Pages & Copilot
 permalink: /blog/
 layout: default
+group: blog
 ---
 
 # Mike Levin, SEO in NYC Blog
