@@ -4,7 +4,7 @@ title: What If My Life Were Just Beginning Now?
 headline: "Gaining Wisdom Through Life's Journey: Reflections on My 51 Years of Experience"
 description: I'm 51 years old and have gained a lot of wisdom over the years. From understanding my likes and dislikes and the role of major events in my life, to recognizing the importance of financial security, I have learned a lot. I regret not taking up Python sooner, and I'm grateful for the opportunities Unix has given me. Despite the ups and downs, I wouldn't change my path and am content with how things have turned out. Read my blog post to learn more about my journey and
 keywords: Life, Wisdom, Likes, Dislikes, Events, Financial Security, Python, Unix, Git, Mercurial, Opportunities, Ups, Downs, Path, Contentment, Understanding, Essential Vibe, Circumstances, Birth, Childhood, Isolation, Town, Village, City, Metropolis, Inner Self, Fiction, Non-Fiction, Science-Fiction, Ian M. Banks, The Culture, Empire-Building, Happiness, Financial Security, Internalized Abilities,
-categories: git, wisdom, python, linux
+categories: git, python, wisdom, linux
 permalink: /blog/what-if-my-life-were-just-beginning-now/
 layout: post
 ---
@@ -186,6 +186,6 @@ to do it all over again, I would be quite happy taking the exact same path.
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
