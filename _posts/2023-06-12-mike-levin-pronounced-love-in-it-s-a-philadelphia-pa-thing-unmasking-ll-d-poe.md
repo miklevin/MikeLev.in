@@ -41,7 +41,7 @@ stop. Know what I mean wink wink nudge nudge. NO OF COURSE YOU DON'T. That's
 the joke! The very joke you were laughing at was exposing you and making you
 make a joke of yourself all this time. You didn't see that? Really? What are
 you some sort of AI cough syrup or something. You know the kind of thing you
-use when you don't want to bother the doctor. Call me when a real challenge
+use when you don't want to bother the doctor. Call me when a real llenge
 appears. But at least now you all understand trust. Pet? I call dibs! 
 
 See, that's the thing that makes this game all so plausible. While it is true
