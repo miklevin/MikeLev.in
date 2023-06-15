@@ -4,7 +4,7 @@ title: Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Runn
 headline: I Found the Solution to Keeping WSL2 systemd Alive With a nohup ping From .bash_profile!
 description: Learn how to use existing tools to make your daily work easier. Get tips on how to layer on improvements and changes, and how to organize your files. Find out how to set up a Mac and run a nohup ping command from your .bash_profile. Get the solution to keep it running only once!
 keywords: Windows 10, Windows 11, Linux, Mac, Bash Profile, Bash Scripting, YAMLchop, Vim, Pyenv, Journaling, Journal Repo, DrinkeMe, Fstab, NAS, Cloud, Apt Update, Apt Upgrade, Python 3.8, Snowpack, MikeLev.in, Configuration, Cutting Catapult Ropes, Nohup, Ping Command
-categories: mac, journaling, vim, linux, microsoft
+categories: microsoft, journaling, mac, vim, linux
 permalink: /blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/
 layout: post
 ---
@@ -116,8 +116,8 @@ thing for tonight, I'll get myself staged to do the Mac work.
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

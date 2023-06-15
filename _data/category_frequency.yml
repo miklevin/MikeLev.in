@@ -536,6 +536,9 @@ dictitems:
   abbott and costello:
     count: 1
     title: Abbott and Costello
+  abc language:
+    count: 1
+    title: ABC language
   ability:
     count: 1
     title: Abilities
@@ -626,6 +629,9 @@ dictitems:
   acronym:
     count: 1
     title: Acronym
+  act 2:
+    count: 1
+    title: Act 2
   action:
     count: 6
     title: Action
@@ -968,9 +974,15 @@ dictitems:
   alpha:
     count: 2
     title: Alpha
+  alpha bet:
+    count: 1
+    title: Alpha Bet
   alpha go:
     count: 1
     title: Alpha Go
+  alpha to omega:
+    count: 1
+    title: Alpha to Omega
   alphabet:
     count: 1
     title: Alphabet
@@ -2000,12 +2012,18 @@ dictitems:
   bingo:
     count: 1
     title: Bingo
+  bio break:
+    count: 1
+    title: BIO BREAK
   bioelectricity:
     count: 1
     title: Bioelectricity
   biofuel:
     count: 1
     title: Biofuel
+  biological directives:
+    count: 1
+    title: biological directives
   biological intelligence:
     count: 1
     title: Biological Intelligence
@@ -2339,6 +2357,9 @@ dictitems:
   brew:
     count: 1
     title: Brew
+  brian granger:
+    count: 1
+    title: Brian Granger
   brian herbert:
     count: 1
     title: Brian Herbert
@@ -3051,7 +3072,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 12
+    count: 13
     title: Cloud
   cloud chamber:
     count: 1
@@ -3192,7 +3213,7 @@ dictitems:
     count: 1
     title: Coinbase
   colab:
-    count: 1
+    count: 2
     title: Colab
   cold fusion:
     count: 1
@@ -4838,6 +4859,9 @@ dictitems:
   directory:
     count: 4
     title: Directory
+  dis close purrr:
+    count: 1
+    title: Dis Close Purrr
   disable:
     count: 1
     title: Disable
@@ -6242,6 +6266,9 @@ dictitems:
   fernando perez:
     count: 1
     title: Fernando Perez
+  "fernando p\xE9rez":
+    count: 1
+    title: "Fernando P\xE9rez"
   ferret:
     count: 1
     title: Ferret
@@ -7695,7 +7722,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 16
+    count: 17
     title: Hardware
   harkonnen:
     count: 1
@@ -8747,6 +8774,9 @@ dictitems:
   interactive:
     count: 2
     title: interactive
+  interactive command-prompt:
+    count: 1
+    title: interactive command-prompt
   interactive content:
     count: 1
     title: interactive content
@@ -9528,7 +9558,7 @@ dictitems:
     count: 2
     title: Kubernetes
   kung fu:
-    count: 2
+    count: 3
     title: Kung Fu
   kwfinder:
     count: 1
@@ -10173,7 +10203,7 @@ dictitems:
     count: 1
     title: Load (ETL)
   local:
-    count: 2
+    count: 3
     title: Local
   local caches:
     count: 1
@@ -10370,6 +10400,9 @@ dictitems:
   love and intensity:
     count: 1
     title: Love and Intensity
+  love is the first and last word:
+    count: 1
+    title: Love is the First and Last Word
   love magnet:
     count: 1
     title: Love Magnet
@@ -11268,7 +11301,7 @@ dictitems:
     count: 2
     title: Mike
   mike levin:
-    count: 11
+    count: 12
     title: Mike Levin
   mike levin seo:
     count: 2
@@ -11327,6 +11360,9 @@ dictitems:
   million-page crawl:
     count: 1
     title: Million-Page Crawl
+  min ragan-kelley:
+    count: 1
+    title: Min Ragan-Kelley
   mind:
     count: 5
     title: Mind
@@ -12447,7 +12483,7 @@ dictitems:
     count: 1
     title: Omaha
   omega:
-    count: 1
+    count: 2
     title: Omega
   on own:
     count: 1
@@ -13824,7 +13860,7 @@ dictitems:
     count: 1
     title: prisoner's dilemma
   privacy:
-    count: 4
+    count: 5
     title: Privacy
   privacy regulations:
     count: 1
@@ -14241,7 +14277,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 184
+    count: 185
     title: Python
   python 3:
     count: 1
@@ -15801,8 +15837,8 @@ dictitems:
     count: 1
     title: Secondary Navigation
   secret:
-    count: 2
-    title: Secret
+    count: 3
+    title: secrets
   secret alpha:
     count: 1
     title: Secret Alpha
@@ -16590,7 +16626,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 23
+    count: 24
     title: Software
   software development:
     count: 3
@@ -17567,6 +17603,9 @@ dictitems:
   symbolic links:
     count: 1
     title: Symbolic Links
+  symbolism:
+    count: 1
+    title: symbolism
   symlink:
     count: 1
     title: Symlink
@@ -18240,7 +18279,7 @@ dictitems:
     count: 1
     title: Tony Stark
   tool:
-    count: 20
+    count: 21
     title: Tools
   tool selection:
     count: 1
@@ -18491,6 +18530,9 @@ dictitems:
   trust:
     count: 3
     title: Trust
+  trust protocol:
+    count: 1
+    title: Trust protocol
   trustworthiness:
     count: 1
     title: Trustworthiness
