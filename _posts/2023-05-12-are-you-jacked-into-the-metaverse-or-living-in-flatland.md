@@ -4,7 +4,7 @@ title: Are You Jacked Into the Metaverse or Living in Flatland?
 headline: I'm Doing the Right Things for the Right Reasons - Rekindling My Interest in Technology with the Right Spark
 description: I'm a slow learner, but once I understand a tool, I'm unstoppable. I'm exploring the potential of portable systems, and the power of AI, to increase my impact and the impact of those around me. I'm using Jupyter and some proprietary tools that hook to it to demonstrate the potential of the platform and show people what they really need to see.
 keywords: PC modding, LAN parties, Snow Crash, Microsoft, Visual Studio, VSCode, VSCodium, Chrome, Chromium, Carl Jung, Rebound Psychiatry, Middle East, Jew, AI, Jun, Shadow-dude, Claw, Intellisense, Copilot, NeoVim, Vim, Mac, Microsoft Edge, Azure, Dependency, Open Mind, Netscape, WordPerfect, Borland, Muscle Memory, Zone, Platform, Plugins, Noah's Ark
-categories: vim, microsoft, muscle memory, ai, dependency, mac
+categories: muscle memory, ai, dependency, mac, microsoft, vim
 permalink: /blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/
 layout: post
 group: blog
@@ -188,9 +188,9 @@ spark.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/dependency/'>Dependency</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li></ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
