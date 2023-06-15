@@ -4,7 +4,7 @@ title: What's Most Broken?
 headline: "Live by My Rules: Identify What's Most Broken and Focus on Biggest Bang for the Buck"
 description: "As a daily reminder, I have three rules I live by: identify what's most broken, focus on where I can get the biggest bang for the buck, and keep track of what plates need to be spun. I also try to stay mindful of the 80/20-rule and Rabbit-Hole evaluations, and pay attention to any poetry that comes to mind. Quasi Joe D'Ohhh is a reminder to stay vigilant and not be fooled twice. Read my blog post to find out"
 keywords: Daily Rules, Identify, Biggest Bang, Plates, 80/20-Rule, Rabbit-Hole Evaluations, Poetry, Vigilant, Fooled Twice
-categories: 80/20-rule, poetry
+categories: poetry, 80/20-rule
 permalink: /blog/what-s-most-broken/
 layout: post
 group: blog
@@ -34,5 +34,5 @@ yo something.
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li></ul>

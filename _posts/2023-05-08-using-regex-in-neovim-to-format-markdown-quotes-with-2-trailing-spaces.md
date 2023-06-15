@@ -4,7 +4,7 @@ title: Using RegEx in NeoVim to Format Markdown Quotes with 2 Trailing Spaces
 headline: "My Journey with Midjourney AI: Starting Out with RegEx in NeoVim"
 description: Learn how to use RegEx in NeoVim to format Markdown quotes with 2 trailing spaces. I describe the process of using Vim commands to back up my journal and the paradigm of writing and editing text with vi/vim/NeoVim. I also discuss my journey with the Midjourney AI, including the Microsoft Store installation, the paid account link, and the documentation link.
 keywords: RegEx, NeoVim, Format, Markdown, Quotes, Trailing Spaces, Draft Posts, Backup, Vim, Command, Paradigm, Writing, Editing, Text, Word Processors, Text Editors, Thinking, Source, Decompose, Reconstruct, Automate, Journal, YAML, Jekyll, Lashing, Discord, Server, AI, Images, Microsoft Store, IP, Email, Login, Browser, Web UI, App, Paid Account, Documentation,
-categories: ai, vim, email, yaml, text editors, jekyll
+categories: vim, email, text editors, ai, yaml, jekyll
 permalink: /blog/using-regex-in-neovim-to-format-markdown-quotes-with-2-trailing-spaces/
 layout: post
 group: blog
@@ -112,9 +112,9 @@ More documentation is here [https://midjourney.gitbook.io/docs](https://midjourn
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

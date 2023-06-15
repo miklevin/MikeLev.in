@@ -1232,6 +1232,12 @@ dictitems:
   app store:
     count: 2
     title: App Store
+  appeal to authority:
+    count: 1
+    title: Appeal to Authority
+  appeal to popularity:
+    count: 1
+    title: Appeal to Popularity
   appealing:
     count: 1
     title: Appealing
@@ -1776,7 +1782,7 @@ dictitems:
     count: 1
     title: Bathroom
   batman:
-    count: 4
+    count: 5
     title: Batman
   batman complex:
     count: 1
@@ -2024,6 +2030,9 @@ dictitems:
   biological directives:
     count: 1
     title: biological directives
+  biological imperatives:
+    count: 1
+    title: Biological Imperatives
   biological intelligence:
     count: 1
     title: Biological Intelligence
@@ -2361,7 +2370,7 @@ dictitems:
     count: 1
     title: Brian Granger
   brian herbert:
-    count: 1
+    count: 2
     title: Brian Herbert
   brian weiner:
     count: 1
@@ -2495,6 +2504,9 @@ dictitems:
   butler lampson:
     count: 1
     title: Butler Lampson
+  butterfly effect:
+    count: 1
+    title: Butterfly Effect
   button:
     count: 1
     title: Button
@@ -3065,6 +3077,9 @@ dictitems:
   close:
     count: 3
     title: Close
+  close encounters of the n'th kind:
+    count: 1
+    title: Close Encounters of the N'th Kind
   closed:
     count: 1
     title: Closed
@@ -3374,6 +3389,9 @@ dictitems:
   common:
     count: 3
     title: Common
+  common fallacies:
+    count: 1
+    title: Common Fallacies
   common files:
     count: 1
     title: Common Files
@@ -5235,7 +5253,7 @@ dictitems:
     count: 1
     title: Duncan MacInnes
   dune:
-    count: 4
+    count: 5
     title: Dune
   dungeons & dragons:
     count: 1
@@ -5709,7 +5727,7 @@ dictitems:
     count: 3
     title: Entanglement
   enterprise:
-    count: 1
+    count: 2
     title: Enterprise
   entertainment:
     count: 2
@@ -6515,6 +6533,9 @@ dictitems:
   flying:
     count: 1
     title: Flying
+  flying point:
+    count: 1
+    title: Flying Point
   flying point digital:
     count: 1
     title: Flying Point Digital
@@ -7532,6 +7553,9 @@ dictitems:
   greed:
     count: 2
     title: greed
+  greedy aliens:
+    count: 1
+    title: Greedy Aliens
   green:
     count: 1
     title: green
@@ -9381,7 +9405,7 @@ dictitems:
     count: 1
     title: Kernel Update
   kevin j. anderson:
-    count: 1
+    count: 2
     title: Kevin J. Anderson
   kevin knuth:
     count: 1
@@ -13236,7 +13260,7 @@ dictitems:
     count: 1
     title: Photosynthesis
   physic:
-    count: 6
+    count: 7
     title: Physics
   physical:
     count: 1
@@ -13746,7 +13770,7 @@ dictitems:
     count: 1
     title: Precusor
   predator:
-    count: 1
+    count: 2
     title: Predators
   predict:
     count: 1
@@ -13826,6 +13850,9 @@ dictitems:
   primate brain:
     count: 1
     title: Primate Brain
+  prime directive:
+    count: 1
+    title: Prime Directive
   primer:
     count: 1
     title: Primer
@@ -14745,7 +14772,7 @@ dictitems:
     count: 1
     title: Readthedocs.io
   ready player one:
-    count: 1
+    count: 2
     title: Ready Player One
   reagan:
     count: 1
@@ -15299,6 +15326,9 @@ dictitems:
   riddle calculation:
     count: 1
     title: Riddle Calculation
+  riddler,:
+    count: 1
+    title: Riddler,
   rig:
     count: 1
     title: Rig
@@ -15584,12 +15614,18 @@ dictitems:
   samsung note:
     count: 1
     title: Samsung Note
+  samurai miyamoto musashi:
+    count: 1
+    title: Samurai Miyamoto Musashi
   samurai warrior:
     count: 1
     title: Samurai Warrior
   san felipe:
     count: 1
     title: San Felipe
+  sanctuary:
+    count: 1
+    title: Sanctuary
   sap:
     count: 2
     title: SAP
@@ -16520,6 +16556,9 @@ dictitems:
   smaller:
     count: 1
     title: Smaller
+  smallpox:
+    count: 1
+    title: Smallpox
   smart home hub:
     count: 1
     title: Smart Home Hub
@@ -16986,10 +17025,10 @@ dictitems:
     count: 1
     title: stars
   star trek:
-    count: 3
+    count: 4
     title: Star Trek
   star wars:
-    count: 2
+    count: 3
     title: Star Wars
   star-nix:
     count: 1
@@ -17213,6 +17252,9 @@ dictitems:
   strategy:
     count: 8
     title: Strategy
+  straw man:
+    count: 1
+    title: Straw Man
   strawberry:
     count: 1
     title: strawberries
@@ -18077,6 +18119,9 @@ dictitems:
   the prince:
     count: 1
     title: The Prince
+  the smallest of things:
+    count: 1
+    title: The Smallest of Things
   the three stooges:
     count: 1
     title: The Three Stooges
@@ -18531,8 +18576,8 @@ dictitems:
     count: 3
     title: Trust
   trust protocol:
-    count: 1
-    title: Trust protocol
+    count: 2
+    title: Trust Protocol
   trustworthiness:
     count: 1
     title: Trustworthiness
@@ -19484,6 +19529,9 @@ dictitems:
   war and peace:
     count: 1
     title: War and Peace
+  war of the worlds:
+    count: 1
+    title: War of The Worlds
   war stories:
     count: 1
     title: War Stories
