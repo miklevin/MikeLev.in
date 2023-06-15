@@ -30,11 +30,13 @@ going to get to the point? Remember explicit (saying it plainly and directly)
 is better than implicit (beating around the bush). But it comes off so boring
 if you just come out and say it.
 
-Oh, okay. Star Trek has just about everything right. Humanity get get to a
-secular humanist future where money does not exist (wink wink nudge nudge) and
-everyone gets along after avoiding a disastrous first concat encounter. Uh
-duhhh. Was it really that hard to figure out. And the Prime Directive exits but
-it's controversial and abided by to different degrees. And the Federation
+Oh, okay. Star Trek has just about everything right. Humanity get to become a a
+high tech secular humanist species that is very powerful in a ***Galactic
+Federation*** where money does not exist (wink wink nudge nudge) and everyone
+gets along after avoiding a disastrous first concat encounter. 
+
+Uh duhhh. Was it really that hard to figure out. And the Prime Directive exits
+but it's controversial and abided by to different degrees. And the Federation
 itself is a bit of a mess, but it's a good mess. It's a mess that works.
 
 # The Prime Directive
@@ -52,10 +54,14 @@ technology that is given to them. And it's not just the technology that ruins
 them. It's the biological directives that are given to them. Their biological
 directives cause them to be "greedy aliens". They can't help it and it's not
 really even particularly wrong if they were in a sanctuary designed to support
-their biological imperatives. Predators will predate. But they were not in a
-sanctuary. They were in a world that was not ready for them. And they were
-given technology that they were not ready for. And so they tried bullying a new
-society into submission. And they were defeated by the smallest of things.
+their biological imperatives. Predators will be predators. There's a great
+***Lower Decks*** episode with Ensign Bradward "Brad" Boimler about it. Great
+stuff, you should watch it.
+
+But with the event of the WoTW story, they were not in a sanctuary. They were
+in a world that was not ready for them. And they were given technology that
+they were not ready for. And so they tried bullying a new society into
+submission. And they were defeated by the smallest of things.
 
 # The Smallest of Things
 
