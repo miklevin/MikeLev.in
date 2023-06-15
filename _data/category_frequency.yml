@@ -801,7 +801,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 105
+    count: 106
     title: AI
   ai assistant:
     count: 1
@@ -1028,6 +1028,9 @@ dictitems:
   american:
     count: 1
     title: American
+  american people:
+    count: 1
+    title: American people
   amiga:
     count: 9
     title: Amiga
@@ -1907,6 +1910,9 @@ dictitems:
   bible,:
     count: 1
     title: Bible,
+  biblical:
+    count: 1
+    title: biblical
   biblical commentaries:
     count: 1
     title: Biblical Commentaries
@@ -2165,6 +2171,9 @@ dictitems:
   bluebird:
     count: 1
     title: Bluebirds
+  bob:
+    count: 1
+    title: Bobs
   bob lazar:
     count: 2
     title: Bob Lazar
@@ -2766,7 +2775,7 @@ dictitems:
     count: 1
     title: Charlie Brown
   charlie chaplin:
-    count: 1
+    count: 2
     title: Charlie Chaplin
   chart lines:
     count: 1
@@ -2831,6 +2840,9 @@ dictitems:
   chemistry:
     count: 1
     title: Chemistry
+  cherry tree:
+    count: 1
+    title: Cherry Tree
   chewing gum wrapper:
     count: 1
     title: Chewing Gum Wrapper
@@ -3335,6 +3347,9 @@ dictitems:
   commodore:
     count: 7
     title: Commodore
+  commodore 64:
+    count: 1
+    title: Commodore 64
   common:
     count: 3
     title: Common
@@ -4517,6 +4532,9 @@ dictitems:
   degree:
     count: 1
     title: Degrees
+  dehumanize:
+    count: 1
+    title: dehumanize
   delayed-:
     count: 1
     title: Delayed-
@@ -4827,8 +4845,8 @@ dictitems:
     count: 1
     title: Discipline
   disclosure:
-    count: 1
-    title: Disclosure
+    count: 2
+    title: disclosure
   disconnect:
     count: 1
     title: Disconnect
@@ -5814,8 +5832,8 @@ dictitems:
     count: 1
     title: Evaluating
   event:
-    count: 3
-    title: Events
+    count: 4
+    title: event
   event horizon:
     count: 1
     title: Event Horizon
@@ -7031,6 +7049,9 @@ dictitems:
   george knapp:
     count: 1
     title: George Knapp
+  george washington:
+    count: 1
+    title: George Washington
   georgia:
     count: 1
     title: Georgia
@@ -8133,7 +8154,7 @@ dictitems:
     count: 3
     title: Hugo
   human:
-    count: 7
+    count: 8
     title: Human
   human beings:
     count: 1
@@ -8174,6 +8195,9 @@ dictitems:
   humor:
     count: 1
     title: Humor
+  humorless:
+    count: 1
+    title: humorless
   hybrid sync:
     count: 1
     title: Hybrid Sync
@@ -8957,6 +8981,9 @@ dictitems:
   jack pumpkinhead:
     count: 1
     title: Jack Pumpkinhead
+  jack tramiel:
+    count: 1
+    title: Jack Tramiel
   jackpot:
     count: 1
     title: Jackpot
@@ -9693,7 +9720,7 @@ dictitems:
     count: 1
     title: Learned
   learning:
-    count: 15
+    count: 16
     title: Learning
   learning apis:
     count: 1
@@ -9789,8 +9816,8 @@ dictitems:
     count: 2
     title: Licensing
   lie:
-    count: 1
-    title: Lies
+    count: 2
+    title: lie
   life:
     count: 28
     title: Life
@@ -11177,6 +11204,9 @@ dictitems:
   microsoft edge:
     count: 4
     title: Microsoft Edge
+  microsoft github copilot:
+    count: 1
+    title: Microsoft Github Copilot
   microsoft images search:
     count: 1
     title: Microsoft Images Search
@@ -11913,7 +11943,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 30
+    count: 31
     title: NeoVim
   nerd:
     count: 2
@@ -12675,8 +12705,8 @@ dictitems:
     count: 1
     title: Oscillation
   others:
-    count: 1
-    title: Others
+    count: 2
+    title: others
   out of control:
     count: 1
     title: Out of Control
@@ -14051,6 +14081,9 @@ dictitems:
   pseudo-dynamic:
     count: 1
     title: Pseudo-dynamic
+  psyche:
+    count: 1
+    title: Psyche
   psychedelic:
     count: 1
     title: Psychedelic
@@ -16050,7 +16083,7 @@ dictitems:
     count: 1
     title: setuptools
   sge:
-    count: 2
+    count: 3
     title: SGE
   sh:
     count: 1
@@ -16172,6 +16205,9 @@ dictitems:
   sibling cruelty:
     count: 1
     title: sibling cruelty
+  sid chip:
+    count: 1
+    title: SID chip
   sid-chip:
     count: 1
     title: SID-chip
@@ -16317,8 +16353,8 @@ dictitems:
     count: 4
     title: sites.txt
   situational awareness:
-    count: 1
-    title: Situational Awareness
+    count: 2
+    title: situational awareness
   six principles:
     count: 1
     title: Six Principles
@@ -17115,7 +17151,7 @@ dictitems:
     count: 1
     title: storm
   story:
-    count: 5
+    count: 6
     title: Stories
   story visualization:
     count: 1
@@ -17516,6 +17552,9 @@ dictitems:
   sybase:
     count: 1
     title: Sybase
+  sydney:
+    count: 1
+    title: Sydney
   symbol:
     count: 2
     title: symbols
@@ -18456,7 +18495,7 @@ dictitems:
     count: 1
     title: Trustworthiness
   truth:
-    count: 2
+    count: 3
     title: Truth
   truthiness:
     count: 1
@@ -19085,6 +19124,9 @@ dictitems:
   vic 20:
     count: 1
     title: Vic 20
+  vic-20:
+    count: 1
+    title: Vic-20
   vice president:
     count: 1
     title: Vice President
@@ -19356,7 +19398,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 24
+    count: 25
     title: VSCode
   vscodium:
     count: 1
@@ -20021,6 +20063,9 @@ dictitems:
   youtube moz:
     count: 1
     title: YouTube MOZ
+  youtube stream:
+    count: 1
+    title: YouTube stream
   youtube video:
     count: 2
     title: YouTube Video

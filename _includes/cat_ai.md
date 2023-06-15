@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a> (Wed Jun 14, 2023)
+<br/>Relax everyone, tomorrow will be just like today, but with more situational awareness. Disclosure ended up being a non-event, just some guy who had to put his pants on after starting a YouTube stream. Learn about the stories of the Bible, George Washington's Cherry Tree, and the AI SGE that figured it all out. Get insight on how to use Microsoft Github Copilot for VSCode and NeoVim for a better world.</li>
 <li><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a> (Wed Jun 14, 2023)
 <br/>Learn how to take control of your emotions and protect yourself from manipulation with this article. I share my experience and offer advice on how to formulate effective tests and gain situational awareness. Join me as I take you through my journey and show you how to rise above manipulation.</li>
 <li><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a> (Fri Jun 09, 2023)
