@@ -7,6 +7,7 @@ keywords: QNAP NAS, LXD Linux Container, Container Station, Home Server, Hostnam
 categories: 
 permalink: /blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/
 layout: post
+group: blog
 ---
 
 

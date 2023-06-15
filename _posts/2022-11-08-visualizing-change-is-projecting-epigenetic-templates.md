@@ -7,6 +7,7 @@ keywords: Visualizing Change, Projecting Epigenetic Templates, Particles, Memori
 categories: 
 permalink: /blog/visualizing-change-is-projecting-epigenetic-templates/
 layout: post
+group: blog
 ---
 
 

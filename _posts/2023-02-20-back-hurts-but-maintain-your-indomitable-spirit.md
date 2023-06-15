@@ -7,6 +7,7 @@ keywords: Back Hurts, Indomitable Spirit, Life, Goals, Job, Website, Home, Leopa
 categories: success, child
 permalink: /blog/back-hurts-but-maintain-your-indomitable-spirit/
 layout: post
+group: blog
 ---
 
 

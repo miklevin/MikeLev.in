@@ -7,6 +7,7 @@ keywords: Storytelling, Slide Deck, Competitors, Moz-itize, Kernel, Projects, Mo
 categories: competitor
 permalink: /blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/
 layout: post
+group: blog
 ---
 
 

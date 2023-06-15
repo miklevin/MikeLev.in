@@ -7,6 +7,7 @@ keywords: Miyamoto Musashi, Book of 5 Rings, The Art of War, Sun Tzu, Machiavell
 categories: seo
 permalink: /blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/
 layout: post
+group: blog
 ---
 
 

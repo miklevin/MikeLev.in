@@ -7,6 +7,7 @@ keywords: Azrael, Batman, Gotham, Order of Saint Dumas, Robin, Bruce, neo-bat ar
 categories: poetry
 permalink: /blog/ode-to-azrael-and-a-world-completely-changed/
 layout: post
+group: blog
 ---
 
 

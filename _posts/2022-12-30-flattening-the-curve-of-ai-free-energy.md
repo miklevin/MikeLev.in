@@ -7,6 +7,7 @@ keywords: AI, Free Energy, Flattening the Curve, Memetic Hacking, Decisions, App
 categories: ai
 permalink: /blog/flattening-the-curve-of-ai-free-energy/
 layout: post
+group: blog
 ---
 
 

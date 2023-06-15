@@ -7,6 +7,7 @@ keywords: Poet, Poetry, Publish, Style, Definition, Margin, Auto, Width, Percent
 categories: publish, poetry
 permalink: /blog/center-a-poem/
 layout: post
+group: blog
 ---
 
 

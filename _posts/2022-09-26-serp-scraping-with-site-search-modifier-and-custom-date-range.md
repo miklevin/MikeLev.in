@@ -7,6 +7,7 @@ keywords: SERP, Scraping, Site Search Modifier, Custom Date Range, Linux-side pr
 categories: jupyter, microsoft
 permalink: /blog/serp-scraping-with-site-search-modifier-and-custom-date-range/
 layout: post
+group: blog
 ---
 
 

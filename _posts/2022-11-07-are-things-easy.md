@@ -7,6 +7,7 @@ keywords: Smartphone, Collective Consciousness, Free Will, Trade-Off, Easily Off
 categories: success
 permalink: /blog/are-things-easy/
 layout: post
+group: blog
 ---
 
 

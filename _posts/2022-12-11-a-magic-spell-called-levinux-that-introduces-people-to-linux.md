@@ -7,6 +7,7 @@ keywords: Linux, Elder SEO Mike Levin, Spell, Computing, Operating System, Compl
 categories: linux
 permalink: /blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/
 layout: post
+group: blog
 ---
 
 

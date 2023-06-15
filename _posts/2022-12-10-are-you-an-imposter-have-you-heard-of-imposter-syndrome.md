@@ -7,6 +7,7 @@ keywords: New York SEO, Pipulate, Levinux, Imposter Syndrome, Financial Worth, T
 categories: pipulate, imposter syndrome, levinux
 permalink: /blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/
 layout: post
+group: blog
 ---
 
 

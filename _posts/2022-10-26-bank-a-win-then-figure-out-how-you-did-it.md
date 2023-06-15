@@ -7,6 +7,7 @@ keywords: bank, win, linguist, tech, language, programming, computers, drive, se
 categories: computer, coding
 permalink: /blog/bank-a-win-then-figure-out-how-you-did-it/
 layout: post
+group: blog
 ---
 
 

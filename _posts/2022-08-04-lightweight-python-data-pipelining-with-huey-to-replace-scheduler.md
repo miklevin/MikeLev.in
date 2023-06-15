@@ -7,6 +7,7 @@ keywords: Huey, Python, Data Pipelining, Scheduler, Configuration File, huey_con
 categories: python
 permalink: /blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/
 layout: post
+group: blog
 ---
 
 

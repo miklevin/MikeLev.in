@@ -7,6 +7,7 @@ keywords: Python, Huey, Schedule, Repo, Alternative, Task Scheduler, huey_consum
 categories: python
 permalink: /blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative/
 layout: post
+group: blog
 ---
 
 

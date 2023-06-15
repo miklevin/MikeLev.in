@@ -7,6 +7,7 @@ keywords: "NeoVim, execute, command, output, refactor, blogging system, keyboard
 categories: vim, execute
 permalink: /blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s/
 layout: post
+group: blog
 ---
 
 

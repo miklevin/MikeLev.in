@@ -7,6 +7,7 @@ keywords: math, English language, language evolution, education, parenting, soci
 categories: ai
 permalink: /blog/helping-our-children-fall-in-love-with-math-by-loving-it-yourself/
 layout: post
+group: blog
 ---
 
 

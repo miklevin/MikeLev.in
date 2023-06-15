@@ -7,6 +7,7 @@ keywords: LXDWIN, Passion Project, Day Job, Task, Balance, Focus, Local, Latest 
 categories: success
 permalink: /blog/lxdwin-and-the-day-job/
 layout: post
+group: blog
 ---
 
 

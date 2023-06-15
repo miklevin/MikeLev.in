@@ -7,6 +7,7 @@ keywords: Jekyll, Rouge, Code, Color-Coding, Github, Pages, Theme, CSS, Website,
 categories: jekyll, git
 permalink: /blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Lex Fridman, Sam Altman, GAI, System Alignment, Speech Regulation, GPT
 categories: ai
 permalink: /blog/the-lex-fridman-interview-with-sam-altman-on-gai/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: SEO, Long-Tail Marketing, HitTail, Keyword Suggestion Tool, Parent, Di
 categories: seo
 permalink: /blog/how-i-became-obsessive-about-obsolescence-proofing/
 layout: post
+group: blog
 ---
 
 

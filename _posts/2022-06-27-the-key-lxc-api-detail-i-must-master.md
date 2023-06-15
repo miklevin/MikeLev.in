@@ -7,6 +7,7 @@ keywords: LXC API, Detail, Command, Explore, Nuances, Possibilities, Understand,
 categories: ubuntu
 permalink: /blog/the-key-lxc-api-detail-i-must-master/
 layout: post
+group: blog
 ---
 
 

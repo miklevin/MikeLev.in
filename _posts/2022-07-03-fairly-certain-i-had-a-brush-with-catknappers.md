@@ -7,6 +7,7 @@ keywords: moving, cat, Lynnie, house, cat treats, Facebook, neighbor, stone wall
 categories: 
 permalink: /blog/fairly-certain-i-had-a-brush-with-catknappers/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: reverse chronological, writing, journal entries, formative experience,
 categories: text editors
 permalink: /blog/reverse-chronological-writing-is-the-natural-order/
 layout: post
+group: blog
 ---
 
 

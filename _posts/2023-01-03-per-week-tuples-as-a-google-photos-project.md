@@ -7,6 +7,7 @@ keywords: Google Photos API, Albums, MediaItems, SQLite3, SqliteDict, NamedTuple
 categories: database, google
 permalink: /blog/per-week-tuples-as-a-google-photos-project/
 layout: post
+group: blog
 ---
 
 

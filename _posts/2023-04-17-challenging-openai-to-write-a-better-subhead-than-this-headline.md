@@ -7,6 +7,7 @@ keywords: Home, Place, Roots, Spiritual Connection, Impact, Explore, Discover, C
 categories: ai
 permalink: /blog/challenging-openai-to-write-a-better-subhead-than-this-headline/
 layout: post
+group: blog
 ---
 
 

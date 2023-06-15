@@ -7,6 +7,7 @@ keywords: ENIAC, UNIX, MOS 6502, Batman complex, Sherlock Holmes, R. Daneel Oliv
 categories: vi, linux
 permalink: /blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/
 layout: post
+group: blog
 ---
 
 

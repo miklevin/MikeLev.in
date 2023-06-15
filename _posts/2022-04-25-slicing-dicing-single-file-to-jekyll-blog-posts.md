@@ -7,6 +7,7 @@ keywords: Slicing, Dicing, Single File, Jekyll, Blog Posts, Debugging Messages, 
 categories: jekyll
 permalink: /blog/slicing-dicing-single-file-to-jekyll-blog-posts/
 layout: post
+group: blog
 ---
 
 

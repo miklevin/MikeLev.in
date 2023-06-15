@@ -7,6 +7,7 @@ keywords: Github Pages, Jekyll Blog, Style Sheets, Sass CSS Generator, CSS, @imp
 categories: jekyll
 permalink: /blog/adding-style-sheets-to-github-pages-jekyll-blog/
 layout: post
+group: blog
 ---
 
 

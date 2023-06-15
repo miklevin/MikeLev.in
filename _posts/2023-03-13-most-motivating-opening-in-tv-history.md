@@ -7,6 +7,7 @@ keywords: Laverne and Shirley, Making Our Dreams Come True, Charles Fox, Norman 
 categories: history
 permalink: /blog/most-motivating-opening-in-tv-history/
 layout: post
+group: blog
 ---
 
 

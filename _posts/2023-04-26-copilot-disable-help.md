@@ -7,6 +7,7 @@ keywords: Glitching, AI, Commit, Hardware, Colon, Patience, Superpower, Long-Ter
 categories: ai
 permalink: /blog/copilot-disable-help/
 layout: post
+group: blog
 ---
 
 

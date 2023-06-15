@@ -7,6 +7,7 @@ keywords: UFO, UAP, Kenneth Arnold, Bob Lazar, George Knapp, John Lear, Area 51,
 categories: 
 permalink: /blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Pipulate.com, MikeLev.in, FOSS, SEO, Software, Python, Ultimate, Tool,
 categories: python, seo
 permalink: /blog/bring-back-the-pipulate-com-website/
 layout: post
+group: blog
 ---
 
 

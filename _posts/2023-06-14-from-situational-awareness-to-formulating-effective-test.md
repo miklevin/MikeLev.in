@@ -7,6 +7,7 @@ keywords: Situational Awareness, Formulating, Effective Test, Draft to Publish, 
 categories: ai, action
 permalink: /blog/from-situational-awareness-to-formulating-effective-test/
 layout: post
+group: blog
 ---
 
 

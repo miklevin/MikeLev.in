@@ -7,6 +7,7 @@ keywords: Coddling, American, Mind, Greg, Lukianoff, Jonathan, Haidt, Fragility,
 categories: 
 permalink: /blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile/
 layout: post
+group: blog
 ---
 
 

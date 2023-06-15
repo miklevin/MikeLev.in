@@ -7,6 +7,7 @@ keywords: disclosure, event, humans, others, situational awareness, biblical, st
 categories: ai, vim, microsoft
 permalink: /blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/
 layout: post
+group: blog
 ---
 
 

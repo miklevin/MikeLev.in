@@ -7,6 +7,7 @@ keywords: Whitney Avalon, Lyricism, Performance Art, Dairy-Free Cheese Balls, Ch
 categories: 
 permalink: /blog/is-there-anyone-cheesier-than-whitney-avalon/
 layout: post
+group: blog
 ---
 
 

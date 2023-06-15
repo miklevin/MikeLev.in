@@ -7,6 +7,7 @@ keywords: bullying, blues, tech, Microsoft, comics, Superbad, Mr. McLovin, Alice
 categories: twitter, microsoft
 permalink: /blog/gathering-my-stories/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Irish, Proverb, Joke, Offend, Status Quo, Laugh, Sleep, Cures, Challen
 categories: 
 permalink: /blog/it-s-time-someone-stood-up-to-you-and-survived/
 layout: post
+group: blog
 ---
 
 

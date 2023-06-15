@@ -7,6 +7,7 @@ keywords: Big life changes, Poconos, Virginia, Philadelphia, mother, health, saf
 categories: computer
 permalink: /blog/perhaps-i-made-the-wrong-turn-at-albuquerque/
 layout: post
+group: blog
 ---
 
 

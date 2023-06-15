@@ -7,6 +7,7 @@ keywords: Stan Lee, Marvel Comics, Accountability Systems, Sales Leads, Message 
 categories: 
 permalink: /blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/
 layout: post
+group: blog
 ---
 
 

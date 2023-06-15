@@ -7,6 +7,7 @@ keywords: Planck's Equation, Physics, Units, Dimensions, Radians, Degrees, Axiom
 categories: 
 permalink: /blog/parsing-planck-s-equation/
 layout: post
+group: blog
 ---
 
 

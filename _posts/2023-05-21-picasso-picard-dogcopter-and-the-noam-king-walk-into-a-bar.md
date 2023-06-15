@@ -7,6 +7,7 @@ keywords: Picasso, Picard, Noam King, Dogcopter, Hack, Magic, Industrial Age, We
 categories: ai, magic
 permalink: /blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/
 layout: post
+group: blog
 ---
 
 

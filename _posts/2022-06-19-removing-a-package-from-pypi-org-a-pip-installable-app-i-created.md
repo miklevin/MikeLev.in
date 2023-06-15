@@ -7,6 +7,7 @@ keywords: PyPI.org, Package Removal, Notebook Renaming, Account Recovery, Sub-Gr
 categories: 
 permalink: /blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created/
 layout: post
+group: blog
 ---
 
 

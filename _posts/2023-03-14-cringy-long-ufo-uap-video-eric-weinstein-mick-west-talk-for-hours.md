@@ -7,6 +7,7 @@ keywords: UFO, UAP, Eric Weinstein, Mick West, Credibility, Government, Experime
 categories: theory
 permalink: /blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/
 layout: post
+group: blog
 ---
 
 

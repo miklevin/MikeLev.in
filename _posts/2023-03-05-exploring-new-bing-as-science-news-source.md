@@ -7,6 +7,7 @@ keywords: Astronomy, Biology, Chemistry, Earth Science, Engineering, Genetics, R
 categories: 
 permalink: /blog/exploring-new-bing-as-science-news-source/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Laptops, Video Production, Tutorial, Upgrade, Reset, Windows 11, Windo
 categories: tutorial, microsoft
 permalink: /blog/recovering-old-laptops-for-video-production-purposes/
 layout: post
+group: blog
 ---
 
 

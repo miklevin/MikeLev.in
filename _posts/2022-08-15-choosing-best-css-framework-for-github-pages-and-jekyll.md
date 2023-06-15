@@ -7,6 +7,7 @@ keywords: CSS, Framework, Modern, Look, Search-Friendly, Longest, Clean, Vanilla
 categories: jekyll, html, git
 permalink: /blog/choosing-best-css-framework-for-github-pages-and-jekyll/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Swimming, Winona Lakes Pool, Trampolining, Campfires, Ziplining, Canoe
 categories: 
 permalink: /blog/one-more-month-of-respite-from-city-life/
 layout: post
+group: blog
 ---
 
 

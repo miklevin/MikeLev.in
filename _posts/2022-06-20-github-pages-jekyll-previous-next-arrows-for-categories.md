@@ -7,6 +7,7 @@ keywords: Github,Pages,Jekyll,Previous,Next,Arrows,Categories,Tag-Aware,Solution
 categories: 
 permalink: /blog/github-pages-jekyll-previous-next-arrows-for-categories/
 layout: post
+group: blog
 ---
 
 

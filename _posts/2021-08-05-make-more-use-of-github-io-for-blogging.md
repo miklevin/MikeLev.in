@@ -7,6 +7,7 @@ keywords: Github.io, Blogging, MikeLevinSEO, Book Publishing, Jekyll, GoDaddy, N
 categories: jekyll, github.io
 permalink: /blog/make-more-use-of-github-io-for-blogging/
 layout: post
+group: blog
 ---
 
 

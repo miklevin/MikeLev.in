@@ -7,6 +7,7 @@ keywords: Caring, Habits, Distractions, Daily Grind, Curiosity, Learning, Engage
 categories: 
 permalink: /blog/reversing-desensitization-and-dehumanization/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Moving, Organization, Thinking, Reorient, Momentum, Equilibrium, Creat
 categories: microsoft
 permalink: /blog/moving-is-not-easy-to-do-real-life-or-linux/
 layout: post
+group: blog
 ---
 
 

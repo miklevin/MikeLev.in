@@ -7,6 +7,7 @@ keywords: Round Up, Little To-Do Projects, Knock Out Fast, Twitter API, Instapap
 categories: python
 permalink: /blog/round-up-little-to-do-projects-to-knock-out-fast/
 layout: post
+group: blog
 ---
 
 

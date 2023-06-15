@@ -7,6 +7,7 @@ keywords: Histograms, Clusters, Yake, KeywordExtractor, Lambda, Functions, Tag-S
 categories: 
 permalink: /blog/keyword-histograms-and-clusters/
 layout: post
+group: blog
 ---
 
 

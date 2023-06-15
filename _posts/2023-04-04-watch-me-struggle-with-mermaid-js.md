@@ -7,6 +7,7 @@ keywords: NeoVim, OpenAI, Auto-Suggest, Mermaid JS, CoPilot AI, Pair Programming
 categories: ai, vim, github copilot
 permalink: /blog/watch-me-struggle-with-mermaid-js/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Life, Passion, AI, Vendor Services, Economic Product, Individual, Purs
 categories: ai, joy
 permalink: /blog/we-power-our-way-through-this-material-life-world/
 layout: post
+group: blog
 ---
 
 

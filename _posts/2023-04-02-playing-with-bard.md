@@ -7,6 +7,7 @@ keywords: Travel, Mike Levin, MLGL Alpha, Version 0.1 Alpha, Open-Source License
 categories: 
 permalink: /blog/playing-with-bard/
 layout: post
+group: blog
 ---
 
 

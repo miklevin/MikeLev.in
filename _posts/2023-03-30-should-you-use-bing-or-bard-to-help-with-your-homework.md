@@ -7,6 +7,7 @@ keywords: Vernor Vinge, Snow Crash, Rainbows End, Science Fiction, 1990s, Intern
 categories: 
 permalink: /blog/should-you-use-bing-or-bard-to-help-with-your-homework/
 layout: post
+group: blog
 ---
 
 

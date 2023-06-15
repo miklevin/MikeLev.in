@@ -7,6 +7,7 @@ keywords: Migrating, WordPress, Jekyll, index.md, Subfolder, Renaming, Broken Pi
 categories: jekyll, wordpress
 permalink: /blog/submerging-a-migrated-wordpress-site/
 layout: post
+group: blog
 ---
 
 

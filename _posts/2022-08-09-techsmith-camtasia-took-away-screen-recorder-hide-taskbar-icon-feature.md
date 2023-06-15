@@ -7,6 +7,7 @@ keywords: TechSmith, Camtasia, Screen Recorder, Hide Taskbar Icon, Feature Roll-
 categories: 
 permalink: /blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/
 layout: post
+group: blog
 ---
 
 

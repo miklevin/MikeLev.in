@@ -7,6 +7,7 @@ keywords: web developer, WhatsaMetaFor.io, guerillatech.com, levinux.com, linuxp
 categories: 
 permalink: /blog/always-be-publishing-via-journaling/
 layout: post
+group: blog
 ---
 
 

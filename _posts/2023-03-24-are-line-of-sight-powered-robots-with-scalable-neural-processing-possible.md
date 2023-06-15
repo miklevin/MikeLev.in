@@ -7,6 +7,7 @@ keywords: Robots, Drones, Line-of-Sight, Power Transmission, Graham Hawkes, Subm
 categories: 
 permalink: /blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/
 layout: post
+group: blog
 ---
 
 

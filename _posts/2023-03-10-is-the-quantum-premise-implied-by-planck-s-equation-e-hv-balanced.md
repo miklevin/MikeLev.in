@@ -7,6 +7,7 @@ keywords: Quantum, Premise, Planck's, Equation, E=hv, Balanced, Dimensional, Ana
 categories: quantum, theory
 permalink: /blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/
 layout: post
+group: blog
 ---
 
 

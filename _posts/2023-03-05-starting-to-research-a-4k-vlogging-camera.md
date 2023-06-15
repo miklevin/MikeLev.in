@@ -7,6 +7,7 @@ keywords: 4K, Vlogging, Camera, Budget, Size, Weight, Features, Sony RX100 V, Pa
 categories: 
 permalink: /blog/starting-to-research-a-4k-vlogging-camera/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: SEOs, Metas, Language, Structure, Schema, Bots, Facebook, Vernor Vinge
 categories: 
 permalink: /blog/what-s-a-meta-for-cutting-catapult-ropes-silly/
 layout: post
+group: blog
 ---
 
 

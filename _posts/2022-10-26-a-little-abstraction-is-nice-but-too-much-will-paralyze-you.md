@@ -7,6 +7,7 @@ keywords: Compassion, Cruelty, Golden Rule, Self-Awareness, Creator, Existence, 
 categories: ai, quantum
 permalink: /blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/
 layout: post
+group: blog
 ---
 
 

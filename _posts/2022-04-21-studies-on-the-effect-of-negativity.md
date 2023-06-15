@@ -7,6 +7,7 @@ keywords: Harvard University, Research, 25-Year Study, People, Success, Goals, D
 categories: success
 permalink: /blog/studies-on-the-effect-of-negativity/
 layout: post
+group: blog
 ---
 
 

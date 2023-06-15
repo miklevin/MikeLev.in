@@ -7,6 +7,7 @@ keywords: Python, Scheduler, Huey, Task Queue, Crontab API, Periodic Scheduling,
 categories: python
 permalink: /blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api/
 layout: post
+group: blog
 ---
 
 

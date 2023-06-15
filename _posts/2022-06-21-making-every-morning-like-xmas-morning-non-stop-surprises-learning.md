@@ -7,6 +7,7 @@ keywords: morning, Xmas, surprises, learning, symbols, meaning, feelings, motiva
 categories: 
 permalink: /blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/
 layout: post
+group: blog
 ---
 
 

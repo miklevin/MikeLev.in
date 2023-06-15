@@ -7,6 +7,7 @@ keywords: Writing, Text Editing, Meditation, Martial Arts, Kata, Focused Writing
 categories: flow
 permalink: /blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/
 layout: post
+group: blog
 ---
 
 

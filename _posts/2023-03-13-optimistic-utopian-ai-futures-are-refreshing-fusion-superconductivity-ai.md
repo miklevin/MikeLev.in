@@ -7,6 +7,7 @@ keywords: Fusion Power, Superconductivity, AI, Biotechnology, Quantum Technology
 categories: ai
 permalink: /blog/optimistic-utopian-ai-futures-are-refreshing-fusion-superconductivity-ai/
 layout: post
+group: blog
 ---
 
 

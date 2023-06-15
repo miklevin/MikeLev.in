@@ -7,6 +7,7 @@ keywords: Narcissism, Labels, Group-Think, Gaslighting, Winged Monkeys, Wizard o
 categories: 
 permalink: /blog/in-defense-of-flying-monkeys-recrimination-of-anti-narc-community/
 layout: post
+group: blog
 ---
 
 

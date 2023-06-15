@@ -7,6 +7,7 @@ keywords: stopwords, URL, code, strip, folder, store, posts, blog.md, file, list
 categories: 
 permalink: /blog/stop-using-stop-words-when-they-reverse-meaning/
 layout: post
+group: blog
 ---
 
 

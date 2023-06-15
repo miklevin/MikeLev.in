@@ -7,6 +7,7 @@ keywords: EMDR, Tetris-Therapy, Psychotherapy, Alan Alda, June 1st, Dad's death,
 categories: 
 permalink: /blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy/
 layout: post
+group: blog
 ---
 
 

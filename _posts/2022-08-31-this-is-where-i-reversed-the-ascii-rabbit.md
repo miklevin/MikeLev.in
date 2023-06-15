@@ -7,6 +7,7 @@ keywords: ASCII, Rabbit, Reverse, Vim, Block Select, Command, ![Space]rev, Augus
 categories: vim
 permalink: /blog/this-is-where-i-reversed-the-ascii-rabbit/
 layout: post
+group: blog
 ---
 
 

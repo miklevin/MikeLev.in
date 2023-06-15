@@ -7,6 +7,7 @@ keywords: Data Automation, Jupyter Notebook, Browser Automation, Google Chrome, 
 categories: jupyter, browser automation
 permalink: /blog/powering-my-way-through-3-different-data-automation-projects/
 layout: post
+group: blog
 ---
 
 

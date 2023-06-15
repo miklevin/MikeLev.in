@@ -7,6 +7,7 @@ keywords: Organizing, Projects, ~/github, Folder, Cluttered, Disorganized, Pruni
 categories: 
 permalink: /blog/all-repos-under-github/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Arrokoth, 486958 Arrokoth, New Horizons mission, Alien spacecraft, Pro
 categories: science
 permalink: /blog/are-rigid-geometric-weather-balloons-possible/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: DeluxePaint', 'Amiga', 'Graphics', 'Tools', 'Content', 'Thoughts', 'De
 categories: 
 permalink: /blog/life-after-deluxepaint-and-the-amiga/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: KMeans Clustering, Elbow Method, 2-dimensional numpy array, Labels, Bu
 categories: 
 permalink: /blog/sorting-by-histogram-intersections-with-kmeans-clustering/
 layout: post
+group: blog
 ---
 
 

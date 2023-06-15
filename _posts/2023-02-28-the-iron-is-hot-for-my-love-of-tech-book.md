@@ -7,6 +7,7 @@ keywords: iron, tech, learning, tools, patterns, predictions, pitfalls, challeng
 categories: ai
 permalink: /blog/the-iron-is-hot-for-my-love-of-tech-book/
 layout: post
+group: blog
 ---
 
 

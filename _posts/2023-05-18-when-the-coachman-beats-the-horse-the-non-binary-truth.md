@@ -7,6 +7,7 @@ keywords: Emotional facts, Rationale, Star Trek, Vulcans, Evolution, AIpocalypse
 categories: ai, evolution
 permalink: /blog/when-the-coachman-beats-the-horse-the-non-binary-truth/
 layout: post
+group: blog
 ---
 
 

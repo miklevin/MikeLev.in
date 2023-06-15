@@ -7,6 +7,7 @@ keywords: positive, signs, move, New York, challenge, think, choose, life, forwa
 categories: action
 permalink: /blog/remain-positive-know-signs-of-when-you-re-doing-something-right/
 layout: post
+group: blog
 ---
 
 

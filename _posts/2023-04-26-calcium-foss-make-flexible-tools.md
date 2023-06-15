@@ -7,6 +7,7 @@ keywords: Text Editors, Calcium Atoms, Silicon Atoms, Evolution, Software, Micro
 categories: ai, microsoft, evolution, text editors
 permalink: /blog/calcium-foss-make-flexible-tools/
 layout: post
+group: blog
 ---
 
 

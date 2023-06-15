@@ -4,9 +4,10 @@ title: s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Ludd
 headline: "Exploring the Power of Technology: How Positive Feedback Loops and Google Connect the Global Digital Nervous System"
 description: I recently discussed the importance of positive feedback loops and engaging with my YouTube audience, as well as the role of Google in the global digital nervous system. As a search engine optimizer, I also touched on the importance of serendipity in aligning. Come join me in exploring the power of technology and the possibilities it offers.
 keywords: S-Expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites, Dogma, Positive Feedback Loops, YouTube, Google, Global Digital Nervous System, Search Engine Optimizer, Serendipity, Aligning
-categories: youtube, google
+categories: google, youtube
 permalink: /blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/
 layout: post
+group: blog
 ---
 
 
@@ -100,5 +101,5 @@ Go go pack & think on it!
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

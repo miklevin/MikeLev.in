@@ -7,6 +7,7 @@ keywords: Writing, Language, Automate, Decisions, Vlogging, Ideas, Reality, Exec
 categories: 
 permalink: /blog/always-be-writing-though-language-is-full-of-lies/
 layout: post
+group: blog
 ---
 
 

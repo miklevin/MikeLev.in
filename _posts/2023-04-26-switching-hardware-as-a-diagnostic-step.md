@@ -7,6 +7,7 @@ keywords: Copilot, .config/nvim/init.vim, Backspace, R-key, Eval, Evil, Patience
 categories: ai
 permalink: /blog/switching-hardware-as-a-diagnostic-step/
 layout: post
+group: blog
 ---
 
 

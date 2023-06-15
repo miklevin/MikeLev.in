@@ -7,6 +7,7 @@ keywords: Tech Habits, Active Participant, Simplicity, Virtual Desktops, Flow St
 categories: 
 permalink: /blog/developing-priceless-and-timeless-tech-habits/
 layout: post
+group: blog
 ---
 
 

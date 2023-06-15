@@ -7,6 +7,7 @@ keywords: Linux,VM,Interoperable,Layer,Windows,Mac,Web,Development,Tech,Vim,Syst
 categories: 
 permalink: /blog/creating-linux-vm-interoperable-layer-instructions-for-windows-mac/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Fernando Corbato, MIT, 1950s, Time-Sharing System, Multics, UNIX, Linu
 categories: linux
 permalink: /blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/
 layout: post
+group: blog
 ---
 
 

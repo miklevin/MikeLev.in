@@ -7,6 +7,7 @@ keywords: Dune, SciFi, Frank Herbert, Brian Herbert, Kevin J. Anderson, Paul Att
 categories: 
 permalink: /blog/don-t-listen-to-the-nattering-nabobs-of-the-aipocalypse-and-here-s-why/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Dr. Seuss, Walrus, Carpenter, Solla Sollew, Mistakes, Tricked, Strengt
 categories: 
 permalink: /blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew/
 layout: post
+group: blog
 ---
 
 

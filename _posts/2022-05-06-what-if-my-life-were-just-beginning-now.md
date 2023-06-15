@@ -7,6 +7,7 @@ keywords: Life, Wisdom, Likes, Dislikes, Events, Financial Security, Python, Uni
 categories: wisdom, python, git, linux
 permalink: /blog/what-if-my-life-were-just-beginning-now/
 layout: post
+group: blog
 ---
 
 

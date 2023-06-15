@@ -7,6 +7,7 @@ keywords: Mystery, Consciousness, Spell, Universe, Magic, Realization, Life-Chan
 categories: consciousness, magic
 permalink: /blog/planning-a-spell/
 layout: post
+group: blog
 ---
 
 

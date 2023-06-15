@@ -7,6 +7,7 @@ keywords: AI-Dependencies, Rich, Poor, Big Companies, Competitive Advantage, Dec
 categories: ai
 permalink: /blog/beware-coding-in-ai-dependencies/
 layout: post
+group: blog
 ---
 
 

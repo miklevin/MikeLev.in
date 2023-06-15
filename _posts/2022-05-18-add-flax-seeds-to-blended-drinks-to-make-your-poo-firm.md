@@ -7,6 +7,7 @@ keywords: Blended Drinks, Flax Seeds, Vegetables, Iron, Water Soluble Fiber, Fla
 categories: 
 permalink: /blog/add-flax-seeds-to-blended-drinks-to-make-your-poo-firm/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Editing, Files, Multiple Sites, Work Day, Blogging System, List, Commo
 categories: 
 permalink: /blog/editing-files-that-are-the-same-across-multiple-sites/
 layout: post
+group: blog
 ---
 
 

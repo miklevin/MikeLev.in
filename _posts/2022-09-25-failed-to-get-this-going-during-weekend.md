@@ -7,6 +7,7 @@ keywords: Cycling IPs, JupyterLab-Desktop, Linux, Files, OSes, Python, Busy Loop
 categories: python, linux
 permalink: /blog/failed-to-get-this-going-during-weekend/
 layout: post
+group: blog
 ---
 
 

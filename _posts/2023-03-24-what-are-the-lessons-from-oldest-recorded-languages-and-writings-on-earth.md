@@ -7,6 +7,7 @@ keywords: Ancient, Literacy, Writing, Communication, Technology, Hockey Stick Cu
 categories: ai
 permalink: /blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/
 layout: post
+group: blog
 ---
 
 

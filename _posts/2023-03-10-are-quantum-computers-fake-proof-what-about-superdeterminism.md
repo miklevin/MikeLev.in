@@ -7,6 +7,7 @@ keywords: Quantum Computers, Fake, Proof, Superdeterminism, Evidence, Quantum Su
 categories: 
 permalink: /blog/are-quantum-computers-fake-proof-what-about-superdeterminism/
 layout: post
+group: blog
 ---
 
 

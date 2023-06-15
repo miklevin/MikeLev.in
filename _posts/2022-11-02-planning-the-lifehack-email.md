@@ -7,6 +7,7 @@ keywords: Lifehack, Machine Learning, YouTube Videos, Website, Repos/Packages, T
 categories: ai
 permalink: /blog/planning-the-lifehack-email/
 layout: post
+group: blog
 ---
 
 

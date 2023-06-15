@@ -7,6 +7,7 @@ keywords: Crawl Jobs, Little Laptop, Chunking, SQLite3 Database, Keyword Histogr
 categories: 
 permalink: /blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/
 layout: post
+group: blog
 ---
 
 

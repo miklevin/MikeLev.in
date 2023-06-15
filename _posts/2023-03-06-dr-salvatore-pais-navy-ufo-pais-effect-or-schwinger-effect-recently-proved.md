@@ -7,6 +7,7 @@ keywords: Dr. Salvatore Pais, Navy UFO, Pais Effect, Schwinger Effect, Julian Sc
 categories: 
 permalink: /blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/
 layout: post
+group: blog
 ---
 
 

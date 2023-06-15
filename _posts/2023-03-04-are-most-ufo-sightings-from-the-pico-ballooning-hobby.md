@@ -7,6 +7,7 @@ keywords: Pico Ballooning, Upper Atmosphere, Helium-Filled Balloons, Data Collec
 categories: 
 permalink: /blog/are-most-ufo-sightings-from-the-pico-ballooning-hobby/
 layout: post
+group: blog
 ---
 
 

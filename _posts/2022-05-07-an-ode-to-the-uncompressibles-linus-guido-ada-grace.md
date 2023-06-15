@@ -7,6 +7,7 @@ keywords: Linus Torvalds, Guido van Rossum, Ada Lovelace, Grace Hopper, Original
 categories: 
 permalink: /blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/
 layout: post
+group: blog
 ---
 
 

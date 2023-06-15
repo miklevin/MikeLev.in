@@ -7,6 +7,7 @@ keywords: Occam's Razor, Charity, Falsifiability, Non-contradiction, Sufficient 
 categories: ai
 permalink: /blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Microsoft Edge, Syncing, Privacy, Video Tutorial, Disable, Browsing Hi
 categories: 
 permalink: /blog/microsoft-edge-history-is-now-syncing-turn-off/
 layout: post
+group: blog
 ---
 
 

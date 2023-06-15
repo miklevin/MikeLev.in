@@ -7,6 +7,7 @@ keywords: SEO, Datamaster, SERP collection, guerillatech.com, levinux.com, linux
 categories: seo
 permalink: /blog/all-my-sites-will-be-in-play/
 layout: post
+group: blog
 ---
 
 

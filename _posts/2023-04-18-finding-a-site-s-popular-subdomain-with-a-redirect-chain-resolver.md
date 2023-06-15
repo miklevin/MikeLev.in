@@ -7,6 +7,7 @@ keywords: Redirect Chain Resolver, Requests Library, Blacklist Filter, Mini-Proj
 categories: 
 permalink: /blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/
 layout: post
+group: blog
 ---
 
 

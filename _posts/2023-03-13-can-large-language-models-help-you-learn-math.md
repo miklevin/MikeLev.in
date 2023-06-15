@@ -7,6 +7,7 @@ keywords: Math, Learning, Bing, General Tips, Khan Academy, Word Problems, Calcu
 categories: bing
 permalink: /blog/can-large-language-models-help-you-learn-math/
 layout: post
+group: blog
 ---
 
 

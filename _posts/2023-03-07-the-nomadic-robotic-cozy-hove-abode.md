@@ -7,6 +7,7 @@ keywords: Nomadic, Robotic, Cozy, Hove, Abode, Solar, Panels, Batteries, Biofuel
 categories: 
 permalink: /blog/the-nomadic-robotic-cozy-hove-abode/
 layout: post
+group: blog
 ---
 
 

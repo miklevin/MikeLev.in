@@ -7,6 +7,7 @@ keywords: Time Dilation, Galactic Nomads, Slingshots, Outer Rim, Galactic Plane,
 categories: success
 permalink: /blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/
 layout: post
+group: blog
 ---
 
 

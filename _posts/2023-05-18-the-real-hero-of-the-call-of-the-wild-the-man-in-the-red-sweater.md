@@ -7,6 +7,7 @@ keywords: date, Thu, May, 18, 2023, Real, Hero, Call, Wild, Man, Red, Sweater, L
 categories: 
 permalink: /blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/
 layout: post
+group: blog
 ---
 
 

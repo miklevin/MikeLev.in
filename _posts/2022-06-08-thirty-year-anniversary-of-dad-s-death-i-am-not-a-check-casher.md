@@ -7,6 +7,7 @@ keywords: Charles Levin, 30th anniversary, Amiga computer, mental health, check 
 categories: 
 permalink: /blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/
 layout: post
+group: blog
 ---
 
 

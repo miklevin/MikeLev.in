@@ -7,6 +7,7 @@ keywords: Touch Typing, Standard Keyboard, Smartphones, AI, Voice Recognition, M
 categories: ai, muscle memory
 permalink: /blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/
 layout: post
+group: blog
 ---
 
 

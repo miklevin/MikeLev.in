@@ -7,6 +7,7 @@ keywords: Python, HTML Email, Embedded Image, Scheduler, Intervals, Printing, Pu
 categories: python
 permalink: /blog/sending-an-html-email-with-embedded-image-from-python/
 layout: post
+group: blog
 ---
 
 

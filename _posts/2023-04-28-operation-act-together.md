@@ -8,6 +8,7 @@ question: I noticed that you mentioned that you use a variety of tools to measur
 categories: youtube
 permalink: /blog/operation-act-together/
 layout: post
+group: blog
 ---
 
 

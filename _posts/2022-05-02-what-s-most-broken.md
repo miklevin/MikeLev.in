@@ -7,6 +7,7 @@ keywords: Daily Rules, Identify, Biggest Bang, Plates, 80/20-Rule, Rabbit-Hole E
 categories: poetry, 80/20-rule
 permalink: /blog/what-s-most-broken/
 layout: post
+group: blog
 ---
 
 ## My Daily 3-Rules

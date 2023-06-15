@@ -7,6 +7,7 @@ keywords: Turing Test, Pinocchio Complex, Critical Book Recommendations, Slaught
 categories: 
 permalink: /blog/alpha-go-in-the-app-store-is-the-bat-signal-i-ve-been-waiting-for/
 layout: post
+group: blog
 ---
 
 

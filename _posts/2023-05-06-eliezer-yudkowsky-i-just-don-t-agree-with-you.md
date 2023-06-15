@@ -7,6 +7,7 @@ keywords: Eliezer Yudkowsky, AI, Machine Children, Dune, ExForce, Superintellige
 categories: ai, journaling
 permalink: /blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/
 layout: post
+group: blog
 ---
 
 

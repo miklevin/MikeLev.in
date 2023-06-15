@@ -4,9 +4,10 @@ title: Planning Fully Unbounded Web Scraper Kit For AI
 headline: Unlock the Power of AI with Fully Unbounded Web Scraper Kit (FUWSK)!
 description: I'm creating a project called Fully Unbounded Web Scraper Kit (FUWSK) to help me stay competitive and produce results with a compounding effect. FUWSK will be like a command-line interface command that uses genuine browser and web-scraping output to feed OpenAI and automate subsequent browsing commands. Join me on this journey to discover how FUWSK can help me stay ahead in this rapidly changing world.
 keywords: AI, Web Scraping, OpenAI, Automation, Scripts, Browsing, Compounding Effect, Command-Line Interface, FUWSK
-categories: ai, python
+categories: python, ai
 permalink: /blog/planning-fully-unbounded-web-scraper-kit-for-ai/
 layout: post
+group: blog
 ---
 
 
@@ -75,5 +76,5 @@ way I discussed.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -7,6 +7,7 @@ keywords: date, Sun May 14, 2023, title, A Few Little Kitties I Know, And The Le
 categories: seo, git
 permalink: /blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/
 layout: post
+group: blog
 ---
 
 

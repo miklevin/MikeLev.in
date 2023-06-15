@@ -7,6 +7,7 @@ keywords: "Slice & Dice System, Markdown File, Skite Repo, ChopChop, AI, 540 Blo
 categories: ai, vim
 permalink: /blog/blog-slice-dice-system-re-written-in-a-day/
 layout: post
+group: blog
 ---
 
 

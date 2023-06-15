@@ -7,6 +7,7 @@ keywords: Jupyter Notebook, life_in_weeks.ipynb, namedtuple-per-week, Google Pho
 categories: google, jupyter
 permalink: /blog/life-in-weeks-ipynb/
 layout: post
+group: blog
 ---
 
 

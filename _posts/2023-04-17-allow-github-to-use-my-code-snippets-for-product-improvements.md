@@ -7,6 +7,7 @@ keywords: AI, GitHub, Copilot, JetBrains, IDE, Code Snippets, Product Improvemen
 categories: ai, git, journal.md
 permalink: /blog/allow-github-to-use-my-code-snippets-for-product-improvements/
 layout: post
+group: blog
 ---
 
 

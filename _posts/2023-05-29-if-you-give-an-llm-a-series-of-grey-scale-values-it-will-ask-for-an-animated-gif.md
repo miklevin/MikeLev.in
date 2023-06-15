@@ -7,6 +7,7 @@ keywords: LLM, multi-modal.
 categories: 
 permalink: /blog/if-you-give-an-llm-a-series-of-grey-scale-values-it-will-ask-for-an-animated-gif/
 layout: post
+group: blog
 ---
 
 

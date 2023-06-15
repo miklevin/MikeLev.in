@@ -7,6 +7,7 @@ keywords: Physicist, Hypothesis, Extra Dimension, Non-Local Communication, Quant
 categories: algorithm
 permalink: /blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/
 layout: post
+group: blog
 ---
 
 

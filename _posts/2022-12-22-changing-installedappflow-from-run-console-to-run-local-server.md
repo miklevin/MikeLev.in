@@ -7,6 +7,7 @@ keywords: Google Analytics GA4, OAuth2, InstalledAppFlow, run_console(), run_loc
 categories: wsl
 permalink: /blog/changing-installedappflow-from-run-console-to-run-local-server/
 layout: post
+group: blog
 ---
 
 

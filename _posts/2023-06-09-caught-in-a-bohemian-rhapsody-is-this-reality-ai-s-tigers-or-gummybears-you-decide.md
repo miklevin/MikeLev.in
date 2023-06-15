@@ -7,6 +7,7 @@ keywords: HELP HELP HELP
 categories: 
 permalink: /blog/caught-in-a-bohemian-rhapsody-is-this-reality-ai-s-tigers-or-gummybears-you-decide/
 layout: post
+group: blog
 ---
 
 

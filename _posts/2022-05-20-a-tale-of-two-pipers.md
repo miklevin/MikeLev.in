@@ -7,6 +7,7 @@ keywords: Pied Pipers, Falsey, FLOSSy, Chromium, Swiper, Terminal, Typer, Sealed
 categories: poetry, linux
 permalink: /blog/a-tale-of-two-pipers/
 layout: post
+group: blog
 ---
 
 

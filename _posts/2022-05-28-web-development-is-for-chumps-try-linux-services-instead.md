@@ -7,6 +7,7 @@ keywords: web-development, linux-services, 80/20-rule, user-interface, tech-enth
 categories: 80/20-rule
 permalink: /blog/web-development-is-for-chumps-try-linux-services-instead/
 layout: post
+group: blog
 ---
 
 

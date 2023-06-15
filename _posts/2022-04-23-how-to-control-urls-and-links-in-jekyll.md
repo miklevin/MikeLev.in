@@ -7,6 +7,7 @@ keywords: "Jekyll, Github Pages, DigitalOcean, Tutorial, URLs, Links, Theme, Cha
 categories: tutorial, jekyll, change
 permalink: /blog/how-to-control-urls-and-links-in-jekyll/
 layout: post
+group: blog
 ---
 
 

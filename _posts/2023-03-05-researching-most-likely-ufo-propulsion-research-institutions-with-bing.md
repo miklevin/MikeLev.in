@@ -7,6 +7,7 @@ keywords: Research, UFO, Propulsion, Institutions, Bing, Nimitz, TicTac, UAP, Oc
 categories: bing
 permalink: /blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/
 layout: post
+group: blog
 ---
 
 

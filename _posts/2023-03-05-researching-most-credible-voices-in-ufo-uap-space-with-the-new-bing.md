@@ -7,6 +7,7 @@ keywords: UFO, UAP, Eric Weinstein, Hal Puthoff, Jacques Vallée, Kevin Knuth, A
 categories: 
 permalink: /blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/
 layout: post
+group: blog
 ---
 
 

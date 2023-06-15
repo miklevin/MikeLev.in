@@ -7,6 +7,7 @@ keywords: Auto-Complete, Intellisense, Dependency, Coder, Proprietary, Features,
 categories: proprietary, dependency
 permalink: /blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/
 layout: post
+group: blog
 ---
 
 

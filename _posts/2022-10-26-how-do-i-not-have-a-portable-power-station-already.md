@@ -7,6 +7,7 @@ keywords: Introvert, Car Battery, Staten Island, Independence, DeWALT, Amazon, P
 categories: 
 permalink: /blog/how-do-i-not-have-a-portable-power-station-already/
 layout: post
+group: blog
 ---
 
 

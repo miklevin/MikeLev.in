@@ -7,6 +7,7 @@ keywords: API, Protocols, Endpoints, Versions, Methods, Login Process, API Refer
 categories: python
 permalink: /blog/what-do-you-do-when-you-approach-a-new-api/
 layout: post
+group: blog
 ---
 
 

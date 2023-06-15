@@ -7,6 +7,7 @@ keywords: Project, Release, Category, Tag, Constant, Type, Empty List, Identifyi
 categories: 
 permalink: /blog/openai-category-descriptions-project/
 layout: post
+group: blog
 ---
 
 

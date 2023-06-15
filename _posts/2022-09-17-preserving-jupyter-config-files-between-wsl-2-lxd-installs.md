@@ -7,6 +7,7 @@ keywords: "WSL 2 LXD, ~/.jupyter, config files, transfer directory, environment 
 categories: jupyter, powershell
 permalink: /blog/preserving-jupyter-config-files-between-wsl-2-lxd-installs/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: importing, WordPress, URL, dates, folders, subfolders, evergreen, sele
 categories: wordpress
 permalink: /blog/tried-to-start-a-project/
 layout: post
+group: blog
 ---
 
 

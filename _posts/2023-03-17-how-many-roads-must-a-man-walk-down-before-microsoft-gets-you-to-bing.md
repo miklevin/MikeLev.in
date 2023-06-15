@@ -7,6 +7,7 @@ keywords: Microsoft, Bing, Laptop, Chrome, Edge, Browser, Chat, Address Bar, URL
 categories: bing, microsoft
 permalink: /blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Casimir Force, Metasurface, Torque, Zero Point Turbine, Newton's First
 categories: evolution
 permalink: /blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/
 layout: post
+group: blog
 ---
 
 

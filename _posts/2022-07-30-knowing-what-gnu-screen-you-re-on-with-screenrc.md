@@ -7,6 +7,7 @@ keywords: GNU screen, .screenrc, home directory, escape sequence, copyright page
 categories: 
 permalink: /blog/knowing-what-gnu-screen-you-re-on-with-screenrc/
 layout: post
+group: blog
 ---
 
 

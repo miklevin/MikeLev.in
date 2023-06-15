@@ -7,6 +7,7 @@ keywords: connecting, dots, easy, learn, approach, drawing, look, journey, figur
 categories: 
 permalink: /blog/connecting-the-dots-ain-t-easy/
 layout: post
+group: blog
 ---
 
 

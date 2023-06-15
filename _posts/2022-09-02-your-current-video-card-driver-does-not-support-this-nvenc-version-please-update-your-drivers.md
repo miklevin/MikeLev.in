@@ -7,6 +7,7 @@ keywords: NVENC, Video Card Driver, OBS, NVIDIA, GeForce GTX 1060, Windows Devic
 categories: 
 permalink: /blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Microsoft, Embrace & Displace, Lotus 123, Netscape Navigator, Intuit Q
 categories: microsoft
 permalink: /blog/starting-to-discuss-embrace-displace-with-bing/
 layout: post
+group: blog
 ---
 
 

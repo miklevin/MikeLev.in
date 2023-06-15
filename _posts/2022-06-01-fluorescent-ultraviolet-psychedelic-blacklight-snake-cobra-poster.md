@@ -7,6 +7,7 @@ keywords: Fluorescent, Ultraviolet, Psychedelic, Blacklight, Snake, Cobra, Poste
 categories: 
 permalink: /blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster/
 layout: post
+group: blog
 ---
 
 

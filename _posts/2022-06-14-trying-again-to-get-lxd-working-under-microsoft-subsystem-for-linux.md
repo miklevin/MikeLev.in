@@ -7,6 +7,7 @@ keywords: LXD, Microsoft Subsystem for Linux, Storage Pool, Errors, Video, Comma
 categories: container
 permalink: /blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/
 layout: post
+group: blog
 ---
 
 

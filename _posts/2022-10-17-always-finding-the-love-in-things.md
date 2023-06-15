@@ -7,6 +7,7 @@ keywords: Dad, Second Marriage, Optimist, Love, Narrative, Normalize, Machine-Le
 categories: ai
 permalink: /blog/always-finding-the-love-in-things/
 layout: post
+group: blog
 ---
 
 

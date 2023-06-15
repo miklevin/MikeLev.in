@@ -7,6 +7,7 @@ keywords: WSL2, Windows 10, Kernel Update, Hypervisor, Enable, Download, Run, Pa
 categories: youtube, wsl, microsoft
 permalink: /blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/
 layout: post
+group: blog
 ---
 
 

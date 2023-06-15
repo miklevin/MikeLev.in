@@ -7,6 +7,7 @@ keywords: Bing, Google, Browser, Version, Queries, Rate, Side-Panel, Activated, 
 categories: google, bing
 permalink: /blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/
 layout: post
+group: blog
 ---
 
 

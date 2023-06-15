@@ -7,6 +7,7 @@ keywords: Pi AI, Mel Brooks, Vaudville Humor, Darkdog, Robbie, Deep Mind Alpha G
 categories: bing
 permalink: /blog/pi-ai-loves-mel-brooks-and-vaudeville-humor/
 layout: post
+group: blog
 ---
 
 

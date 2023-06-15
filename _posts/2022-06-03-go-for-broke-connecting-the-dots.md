@@ -7,6 +7,7 @@ keywords: Money, Expensive Problems, Internal Resources, Game Theory, Symbols, S
 categories: 
 permalink: /blog/go-for-broke-connecting-the-dots/
 layout: post
+group: blog
 ---
 
 

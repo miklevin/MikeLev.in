@@ -7,6 +7,7 @@ keywords: Fonzie, Henry Winkler, Mars, Sun Tzu, Nietzsche, The Prince, Icons, Do
 categories: 
 permalink: /blog/honestly-fonzie/
 layout: post
+group: blog
 ---
 
 

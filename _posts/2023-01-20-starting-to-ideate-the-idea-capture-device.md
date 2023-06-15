@@ -7,6 +7,7 @@ keywords: Idea, Capture, Machine, Python, John Henry, Journal, Method of Loci, C
 categories: python, email
 permalink: /blog/starting-to-ideate-the-idea-capture-device/
 layout: post
+group: blog
 ---
 
 

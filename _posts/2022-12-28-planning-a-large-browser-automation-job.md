@@ -7,6 +7,7 @@ keywords: Browser Automation, Folder, Repository, Codename, Dataframe, Deduplica
 categories: database, browser automation
 permalink: /blog/planning-a-large-browser-automation-job/
 layout: post
+group: blog
 ---
 
 

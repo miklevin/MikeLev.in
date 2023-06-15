@@ -7,6 +7,7 @@ keywords: Life, Post-Scarcity, Experiences, Imposter Syndrome, Evolution, Human 
 categories: imposter syndrome, evolution
 permalink: /blog/still-figuring-out-next-step-what-i-want-at-52/
 layout: post
+group: blog
 ---
 
 

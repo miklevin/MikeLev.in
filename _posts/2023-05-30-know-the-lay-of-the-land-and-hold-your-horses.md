@@ -7,6 +7,7 @@ keywords: Horse, Chaos, Reason, Agency, Free Will, Self Control, Fight or Flight
 categories: ai
 permalink: /blog/know-the-lay-of-the-land-and-hold-your-horses/
 layout: post
+group: blog
 ---
 
 

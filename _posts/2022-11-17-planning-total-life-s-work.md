@@ -7,6 +7,7 @@ keywords: Planning, Life's Work, Slice & Dice Blogging, LXD Containers, Windows 
 categories: publish, microsoft
 permalink: /blog/planning-total-life-s-work/
 layout: post
+group: blog
 ---
 
 

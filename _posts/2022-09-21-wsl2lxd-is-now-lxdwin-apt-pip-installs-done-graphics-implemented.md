@@ -7,6 +7,7 @@ keywords: "WSL2LXD, lxdwin, Apt, Pip, Installs, Graphics, Implemented, Productiv
 categories: python, graphic
 permalink: /blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: OpenAI, GPT-3, Rotational Motion, Circular Motion, Energy, Isaac Newto
 categories: ai
 permalink: /blog/what-openai-gpt-3-knows-about-virtual-particles/
 layout: post
+group: blog
 ---
 
 

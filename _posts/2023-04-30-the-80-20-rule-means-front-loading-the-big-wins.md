@@ -7,6 +7,7 @@ keywords: Journaling, Thought Processing, Home Organization, Decision Making, Mo
 categories: motivation, journaling, 80/20-rule
 permalink: /blog/the-80-20-rule-means-front-loading-the-big-wins/
 layout: post
+group: blog
 ---
 
 

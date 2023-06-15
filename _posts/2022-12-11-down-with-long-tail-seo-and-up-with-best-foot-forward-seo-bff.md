@@ -7,6 +7,7 @@ keywords: BFF SEO, Long-Tail SEO, Fewer URLs, Hierarchical Site-Structure, Fewes
 categories: 
 permalink: /blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/
 layout: post
+group: blog
 ---
 
 

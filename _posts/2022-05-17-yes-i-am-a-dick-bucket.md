@@ -7,6 +7,7 @@ keywords: male, female, labels, discourse, closed mind, vibrating eyes, emotiona
 categories: 
 permalink: /blog/yes-i-am-a-dick-bucket/
 layout: post
+group: blog
 ---
 
 

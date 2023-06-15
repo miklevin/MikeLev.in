@@ -7,6 +7,7 @@ keywords: Journaling, YAML-like, Parsing, Post-by-Post, Line-by-Line, Date, Titl
 categories: journaling
 permalink: /blog/my-secret-daily-work-journal-now-more-yaml-like/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Github Pages, Github Actions, ChatGPT, Jekyll, Local Linux, New Years 
 categories: jekyll, ai
 permalink: /blog/should-i-no-longer-hyde-from-a-jekyll-server/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Deep Learning, Game Theory, AI Solutions, Collaboration, Chatbot Techn
 categories: google
 permalink: /blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web/
 layout: post
+group: blog
 ---
 
 

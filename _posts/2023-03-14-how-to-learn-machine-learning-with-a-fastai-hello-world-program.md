@@ -7,6 +7,7 @@ keywords: Machine Learning, FastAI, AI, Parameters, Variables, GPT-4, Deep Learn
 categories: ai, algorithm
 permalink: /blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/
 layout: post
+group: blog
 ---
 
 

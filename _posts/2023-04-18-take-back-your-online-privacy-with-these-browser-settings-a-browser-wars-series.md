@@ -7,6 +7,7 @@ keywords: Browser Wars, Edge settings, Microsoft, privacy, default search, Bing,
 categories: bing, microsoft
 permalink: /blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/
 layout: post
+group: blog
 ---
 
 

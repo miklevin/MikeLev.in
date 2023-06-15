@@ -7,6 +7,7 @@ keywords: AI-Revolt, Bippity Boppity Bourgeoisie, Mac, Windows 10, 11, Microsoft
 categories: mac, magic, microsoft
 permalink: /blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/
 layout: post
+group: blog
 ---
 
 

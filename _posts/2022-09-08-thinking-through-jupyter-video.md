@@ -7,6 +7,7 @@ keywords: Jupyter, Video Tutorial, Symbolic Link, Slide, Repo, Curl, Sequence, P
 categories: jupyter
 permalink: /blog/thinking-through-jupyter-video/
 layout: post
+group: blog
 ---
 
 

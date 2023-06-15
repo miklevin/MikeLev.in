@@ -7,6 +7,7 @@ keywords: Website Design, SEO Rankings, Logo Experiment, Clickable Links, Catego
 categories: 
 permalink: /blog/why-pages-aren-t-usable-on-mobile-fixing/
 layout: post
+group: blog
 ---
 
 

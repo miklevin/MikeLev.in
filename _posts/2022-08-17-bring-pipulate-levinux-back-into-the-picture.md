@@ -7,6 +7,7 @@ keywords: MikeLev.in, Levinux, Pipulate.com, CMS, PyPI, Restructuring, Developin
 categories: pypi, levinux
 permalink: /blog/bring-pipulate-levinux-back-into-the-picture/
 layout: post
+group: blog
 ---
 
 

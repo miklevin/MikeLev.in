@@ -7,6 +7,7 @@ keywords: Physics, Theory of Everything, Dark Matter, Dark Energy, Temperature, 
 categories: ai, evolution
 permalink: /blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Small Changes, Long-Term Projects, Writing Style, Revise, Edit, Perman
 categories: 
 permalink: /blog/little-things-big-changes/
 layout: post
+group: blog
 ---
 
 

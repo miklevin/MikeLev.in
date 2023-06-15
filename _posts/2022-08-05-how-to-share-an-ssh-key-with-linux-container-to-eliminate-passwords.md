@@ -7,6 +7,7 @@ keywords: Linux, Container, SSH Key, Host System, Github, Password, Video, Code,
 categories: container, git, linux
 permalink: /blog/how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords/
 layout: post
+group: blog
 ---
 
 

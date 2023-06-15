@@ -7,6 +7,7 @@ keywords: Women, Scientists, Albert Einstein, Marie Curie, Charles Darwin, Mary 
 categories: 
 permalink: /blog/most-influential-scientists-women-women-scientists/
 layout: post
+group: blog
 ---
 
 

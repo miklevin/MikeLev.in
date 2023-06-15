@@ -7,6 +7,7 @@ keywords: Edit, Blogs, Homepages, Templates, MikeLev.in, \_layouts, default.html
 categories: google
 permalink: /blog/edit-10-blogs-homepages-or-templates-all-at-once/
 layout: post
+group: blog
 ---
 
 

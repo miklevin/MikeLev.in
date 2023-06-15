@@ -7,6 +7,7 @@ keywords: Hebrew Bible, Torah, Prophets, Writings, Codex Sassoon, Masoretic Text
 categories: 
 permalink: /blog/has-the-hebrew-bible-changed-what-is-the-oldest-hebrew-bible/
 layout: post
+group: blog
 ---
 
 

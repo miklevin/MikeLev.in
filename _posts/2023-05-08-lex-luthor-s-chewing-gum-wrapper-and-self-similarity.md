@@ -7,6 +7,7 @@ keywords: Lex Luthor, War and Peace, Chewing Gum Wrapper, Universe, Self-Similar
 categories: 
 permalink: /blog/lex-luthor-s-chewing-gum-wrapper-and-self-similarity/
 layout: post
+group: blog
 ---
 
 

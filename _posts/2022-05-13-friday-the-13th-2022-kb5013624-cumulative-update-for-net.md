@@ -7,6 +7,7 @@ keywords: Friday The 13th, 2022, KB5013624, Cumulative Update, .NET, Internet Co
 categories: microsoft
 permalink: /blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/
 layout: post
+group: blog
 ---
 
 

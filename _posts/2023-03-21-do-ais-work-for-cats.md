@@ -7,6 +7,7 @@ keywords: AI, Cats, Politics, Religion, Social Justice, Climate Change, Animal R
 categories: ai, evolution
 permalink: /blog/do-ais-work-for-cats/
 layout: post
+group: blog
 ---
 
 

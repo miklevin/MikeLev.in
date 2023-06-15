@@ -7,6 +7,7 @@ keywords: Moz Links API, V1, Writing, Video-recording, Github Copilot, Carnac se
 categories: github copilot
 permalink: /blog/connecting-to-the-moz-links-api-v1-for-the-first-time/
 layout: post
+group: blog
 ---
 
 

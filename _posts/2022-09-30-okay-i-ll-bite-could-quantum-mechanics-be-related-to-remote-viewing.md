@@ -7,6 +7,7 @@ keywords: Quantum Mechanics, Remote Viewing, Entangled Minds, Dean Radin, CIA, S
 categories: 
 permalink: /blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/
 layout: post
+group: blog
 ---
 
 

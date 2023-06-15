@@ -7,6 +7,7 @@ keywords: Stochastic Electrodynamics (SED), Alternative to Quantum Theory, Doubl
 categories: 
 permalink: /blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/
 layout: post
+group: blog
 ---
 
 

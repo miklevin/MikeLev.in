@@ -7,6 +7,7 @@ keywords: Quantum Physics, Thomas Young, Wave Theory of Light, Fermions, Bosons,
 categories: 
 permalink: /blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/
 layout: post
+group: blog
 ---
 
 

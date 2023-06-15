@@ -7,6 +7,7 @@ keywords: Math, Algebra, Calculus, Udemy, Alamo Colleges, edX, Refresher Course,
 categories: quantum
 permalink: /blog/seeking-ai-help-getting-up-to-speed-on-math/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Act 2, Dis Close Purrr, Mike Levin, Alpha to Omega, Love is the First 
 categories: python
 permalink: /blog/hello-world-an-introduction-to-modern-literacy/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Enumerate, Week, Birth, Named Tuples, Fixed IDs, Chart Lines, Trends, 
 categories: database
 permalink: /blog/every-week-date-for-last-30-years-with-fixed-ids/
 layout: post
+group: blog
 ---
 
 

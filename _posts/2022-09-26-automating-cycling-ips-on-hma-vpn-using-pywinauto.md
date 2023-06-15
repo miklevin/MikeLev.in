@@ -7,6 +7,7 @@ keywords: Cycling IPs, HMA VPN, PyWinAuto, Python, Microsoft Store, Script, Auto
 categories: python
 permalink: /blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/
 layout: post
+group: blog
 ---
 
 

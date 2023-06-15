@@ -4,9 +4,10 @@ title: Embedding YouTube Video Thumbnails on Github.io Pages
 headline: "Building My YouTube Channel: Embedding YouTube Video Thumbnails on Github.io Pages"
 description: I'm streaming on my main journal and building up my YouTube channel by experimenting with video trimming, embedding thumbnails, adding markdown headlines, and creating a to-do list. Come check out my blog post to see how I'm making it happen!
 keywords: YouTube, Video, Trimming, Embedding, Thumbnails, Markdown, Headlines, SEO, Vim, Copy, Paste, To-Do, List, Channel, Journal, Streaming
-categories: youtube, vim, seo
+categories: seo, vim, youtube
 permalink: /blog/embedding-youtube-video-thumbnails-on-github-io-pages/
 layout: post
+group: blog
 ---
 
 
@@ -64,6 +65,6 @@ Okay, that's where I'll stop. I've got:
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

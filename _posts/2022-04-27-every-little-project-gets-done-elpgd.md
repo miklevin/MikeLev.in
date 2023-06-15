@@ -7,6 +7,7 @@ keywords: Project, Blog Slicer, ELPGD, Repo Root, File Naming Convention, Journa
 categories: 
 permalink: /blog/every-little-project-gets-done-elpgd/
 layout: post
+group: blog
 ---
 
 

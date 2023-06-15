@@ -7,6 +7,7 @@ keywords: ChatGPT, Imposter Syndrome, Automatable System, Self-Learning, Convers
 categories: ai, imposter syndrome
 permalink: /blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Arrokoth, Fravor, Mind Reading, Odds, New Horizons, Equipment Failure,
 categories: 
 permalink: /blog/asking-ai-about-arrokoth-fravor-mind-reading/
 layout: post
+group: blog
 ---
 
 

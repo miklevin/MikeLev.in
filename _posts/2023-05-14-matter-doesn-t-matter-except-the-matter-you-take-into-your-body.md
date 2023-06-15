@@ -7,6 +7,7 @@ keywords: journaling, plural possessives, Philadelphia Amiga Users' Group, Apple
 categories: journaling, vim
 permalink: /blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/
 layout: post
+group: blog
 ---
 
 

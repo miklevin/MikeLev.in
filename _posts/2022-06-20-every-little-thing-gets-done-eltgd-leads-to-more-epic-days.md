@@ -7,6 +7,7 @@ keywords: Every Little Thing gets done (ELTgd), Productive Day, Accomplishment, 
 categories: jekyll, static site generator
 permalink: /blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Python, venv-friendly, shebang, ASCII art, editing, pulling, repos, po
 categories: python, git
 permalink: /blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang/
 layout: post
+group: blog
 ---
 
 

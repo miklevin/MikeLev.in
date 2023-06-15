@@ -7,6 +7,7 @@ keywords: Windows, Virtual Machines, Resource Isolation, Performance, Security, 
 categories: microsoft
 permalink: /blog/you-won-t-be-using-windows-in-5-years/
 layout: post
+group: blog
 ---
 
 

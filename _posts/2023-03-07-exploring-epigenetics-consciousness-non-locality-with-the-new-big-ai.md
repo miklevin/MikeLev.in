@@ -7,6 +7,7 @@ keywords: Epigenetics, Consciousness, Non-Locality, Big AI, Intelligent Design, 
 categories: consciousness
 permalink: /blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/
 layout: post
+group: blog
 ---
 
 

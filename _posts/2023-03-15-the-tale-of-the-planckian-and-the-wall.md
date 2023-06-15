@@ -7,6 +7,7 @@ keywords: Conversation, Microsoft Bing, General Relativity, Alternatives, Quanti
 categories: 
 permalink: /blog/the-tale-of-the-planckian-and-the-wall/
 layout: post
+group: blog
 ---
 
 

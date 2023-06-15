@@ -7,6 +7,7 @@ keywords: math, science, Python, Algebra, Geometry, Trigonometry, Two-slit exper
 categories: python, science
 permalink: /blog/desperately-seeking-a-better-intro-to-math-science-a-pythonic-one/
 layout: post
+group: blog
 ---
 
 

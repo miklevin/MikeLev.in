@@ -7,6 +7,7 @@ keywords: Science, Experiments, 12 Year Olds, Levitron, Electronic Building Bloc
 categories: science
 permalink: /blog/science-experiments-for-12-year-olds/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: NeoVim, Vim, init.vim, plugins, options, macro, path, name, file, chop
 categories: vim
 permalink: /blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/
 layout: post
+group: blog
 ---
 
 

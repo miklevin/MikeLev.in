@@ -7,6 +7,7 @@ keywords: Philadelphian, New Yorker, Manhattanites, Brooklynites, 30th Street St
 categories: 
 permalink: /blog/if-you-ve-gotta-be-a-shoalin-it-s-good-to-be-philadelphian/
 layout: post
+group: blog
 ---
 
 

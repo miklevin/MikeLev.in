@@ -7,6 +7,7 @@ keywords: AI, Algorithms, Machine Learning, Self-Improvement, 3D Printing, Mycel
 categories: ai, algorithm
 permalink: /blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/
 layout: post
+group: blog
 ---
 
 

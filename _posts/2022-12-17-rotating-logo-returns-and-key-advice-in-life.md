@@ -7,6 +7,7 @@ keywords: Rotating Logo, Animation, Pushing, Hard Bits, Thinking, Journaling, 80
 categories: success, journaling, 80/20-rule
 permalink: /blog/rotating-logo-returns-and-key-advice-in-life/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Fusion, Ignition, Lawrence Livermore National Laboratory, Clean Energy
 categories: 
 permalink: /blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Subdomain, MikeLevinSEO.com, A-Records, Custom Domain, Github, Website
 categories: git
 permalink: /blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/
 layout: post
+group: blog
 ---
 
 

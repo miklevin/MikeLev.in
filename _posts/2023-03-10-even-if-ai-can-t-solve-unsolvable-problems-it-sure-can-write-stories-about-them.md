@@ -7,6 +7,7 @@ keywords: AI, Solve Unsolvable Problems, Write Stories, Scientific Mysteries, Ex
 categories: ai
 permalink: /blog/even-if-ai-can-t-solve-unsolvable-problems-it-sure-can-write-stories-about-them/
 layout: post
+group: blog
 ---
 
 

@@ -7,6 +7,7 @@ keywords: Solar, Nomadic, Lifestyle, Homeschooling, Road Trip, United States, Ca
 categories: science
 permalink: /blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/
 layout: post
+group: blog
 ---
 
 

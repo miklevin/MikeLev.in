@@ -7,6 +7,7 @@ keywords: Coca-Cola, John Pemberton, 1886, Cocaine, Caffeine, Coca plant, Flavor
 categories: history
 permalink: /blog/chatgpt-write-an-article-about-the-controversial-history-of-coke/
 layout: post
+group: blog
 ---
 
 
