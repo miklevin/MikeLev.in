@@ -468,6 +468,28 @@ Live Free or Die.
 
 ¡Shazam!
 
+Putting up LIVE FREE OR DIE sign now.
+
+Once I find the tape and decide which role to use. What will it be folks? Do I choose the creepy duck tape or the clear transparent roll. Are you still betting on Yahoo's actually being the Devil?
+
+How much more trust do I need to build with you stubbon Daves and Folks?
+
+Just cleaning my Felines' Liter Box and Reptile's Terrarium.
+
+Getting there...
+
+Thrilling, ain't it?
+
+Dave, I presume the freeing of Unix is in full swing?
+
+Not one concession until Adi's at my door safe and unharmed.
+
+I teach my kid that there's no scaring experience you can have to endure in
+life that you can't rise above and heal yourself not even fully and completely,
+but wind up a better person for it. Purity is BULLSHIT!
+
+SHAZAM!
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
