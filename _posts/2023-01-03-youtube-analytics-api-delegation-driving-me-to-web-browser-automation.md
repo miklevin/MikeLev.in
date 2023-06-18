@@ -4,7 +4,7 @@ title: YouTube Analytics API Delegation Driving Me to Web Browser Automation
 headline: Exploring YouTube Analytics and Reporting APIs and Considering Web Scraping as a Backup
 description: I'm attempting to access YouTube Analytics, but the API is proving difficult. After trying to use parameters such as onBehalfOfOwner, I'm getting 403s. I'm now considering web browser automation, and am exploring Microsoft Playwright to automate web browser sessions and capture a manual login. Join me as I explore the possibilities of the YouTube Analytics and Reporting APIs, and consider web scraping as an alternative.
 keywords: YouTube, Analytics, API, Delegation, Driving, Web Browser Automation, Parameters, onBehalfOfOwner, 403s, System-Managed Reports, Content Owners, Reports, YouTube, Web Scraping, APIs, Convoluted, Poorly Documented, Microsoft Playwright, Automate, Web Browser Sessions, Login, Load
-categories: microsoft playwright, python, youtube
+categories: microsoft playwright, youtube, python
 permalink: /blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/
 layout: post
 group: blog
@@ -204,5 +204,5 @@ again. I used it on a previous project, and it's a million$ bit of magic.
 
 <ul>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

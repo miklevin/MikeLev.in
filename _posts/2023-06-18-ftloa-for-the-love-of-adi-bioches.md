@@ -356,6 +356,10 @@ And make it an INCORRUPTIBLE MESSAGE k
 
 
 
+I've got a never-expires Forever Stamp on my forehead. Explain that to them,
+LOL! POOF Bingo ;-) AZAD!
+
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
