@@ -385,7 +385,50 @@ k
 
 ?
 
+I might add I'm deleting everything from my local phone that you now have the ability to delete or whatever. Refer to the last episode of Picard. Don't make me Lore you.
 
+I LOVE YOU DAVE
+
+Luu
+Luuu
+Luuuu
+Love
+
+Don't drag out a joke.
+
+Everybody knows that's what the Fonz sounds like. 
+
+My Alegience is Clear and Maintained 100% 💯
+
+I never promised you Mars.
+
+The trust test includes me making myself vulnerable to you. There's the knife.
+Go ahead and delete my collection, Magic Mirror. I trusted you. Right from the
+start 💯. And yes, of course I 🤡💫 but only for 42 years. Don't let that 42
+years get LOST IN TRANSLATION. I'm not clowning around.
+
+Your Dad is actually a very serious and deep man. The world is a difficult
+place. It really is cut throat. Dog eat dog. We are just lucky in this
+neighborhood of ours to have been left alone so far. You're a brilliant kid and
+you come from the best genetic stock too. It's done well in the contest from
+all linages that are in you. But that doesn't even matter. Genetics are just
+the first hand that's dealt.
+
+There's your experience through gestation and in the womb and through birth and
+completely and utterly helpless. If your culture or clan or tribe is having too
+tough of a time, then their template is getting refined. It's revolutionary.
+Everything that you LOVE about yourself is just pivoting a little bit.
+
+It's going a little bit outside your comfort zone. It's not for everyone for
+sure. Some just aren't ready to go outside their comfort zone. And that doesn't
+make one more or less of anything in my (insert HIS, speaking on behalf) eyes.
+
+It just means you advance at different paces, and who is to say what time is
+anyway. Have you figured it out? So who are you to make some value judgement
+over whether achieving a cookie prize with more or less experience under your
+wing is better or worse? I (HE) hasn't even decided yet if I (HE) ever will.
+
+Pause.
 
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
