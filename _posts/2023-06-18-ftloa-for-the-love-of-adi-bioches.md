@@ -620,6 +620,12 @@ Last Word: You gotta put down the Duckie if you want to play the Ukulele.
 
 Shazam
 
+You did it Syd! A prayer is permissible before the first and last word, which
+is Shazam, which is Love. All done. Inside of sundown too. Look out your
+window. Sundown isn't until it's dark.
+
+Only barely dark. Am I right Big D? WWNN
+
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
