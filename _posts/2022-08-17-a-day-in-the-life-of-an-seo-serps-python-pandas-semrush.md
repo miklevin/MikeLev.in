@@ -4,7 +4,7 @@ title: A Day In The Life of An SEO SERPs, Python Pandas & SEMRush
 headline: "Exploring the World of SEO: A Day in My Life of Code and Analysis"
 description: Today, I'm embarking on a scavenger hunt to find the code I used the last time I did this project. I'm using Python to extract information from a database file, transform it into a usable format, and export it as a CSV file and an Excel xlsx file. I'm also using regex and tldextract to extract the domain from the search results. Finally, I'm using a bulk keyword analysis tool and a pivot table to organize the data.
 keywords: SEO, SERPs, Python, Pandas, SEMRush, Database, CSV, Excel, xlsx, Regex, tldextract, Bulk Keyword Analysis, Pivot Table, Scavenger Hunt, Virtual Desktops, SQLite, Extract_serps, Tuple, List, Dataframe, Google Sheet
-categories: python, seo, database, panda
+categories: panda, seo, python, database
 permalink: /blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/
 layout: post
 group: blog
@@ -399,7 +399,7 @@ pivot table. Pivot tables in Google Sheets is pretty bleeding edge.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

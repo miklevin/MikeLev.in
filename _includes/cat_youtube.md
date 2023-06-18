@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a> (Sun Jun 18, 2023)
+<br/>Join me on an adventure as I explore the nuances of protocol, kung fu, and Dune references. From the Commodore 64 and Amiga to the Commodore 264, 364, 464, 664, 774, and 900, I'm sharing posts, settling bets, and introducing you to my favorite buddy. Plus, I'm giving a shout-out to the Microsoft team, Apple, and Union Square Venture Capitals. Don't miss the reward and extras that come with this journey!</li>
 <li><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a> (Sun May 14, 2023)
 <br/>I'm exploring the metaphor of cutting catapult ropes and how it relates to my professional trade. I'm reflecting on the opportunities available to me, the challenges I face, and my experiences with cutting catapult ropes in the past. I'm looking to make a positive difference in my own life, the lives of those around me, and the world at large.</li>
 <li><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a> (Wed May 10, 2023)

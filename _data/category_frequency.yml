@@ -1044,7 +1044,7 @@ dictitems:
     count: 1
     title: American people
   amiga:
-    count: 9
+    count: 10
     title: Amiga
   amiga boing-ball:
     count: 1
@@ -1452,7 +1452,7 @@ dictitems:
     count: 1
     title: Asynchronous
   atari:
-    count: 2
+    count: 3
     title: Atari
   atari 2600:
     count: 1
@@ -3386,9 +3386,42 @@ dictitems:
   commodore:
     count: 7
     title: Commodore
-  commodore 64:
+  commodore 128:
     count: 1
+    title: Commodore 128
+  commodore 16:
+    count: 1
+    title: Commodore 16
+  commodore 264:
+    count: 1
+    title: Commodore 264
+  commodore 364:
+    count: 1
+    title: Commodore 364
+  commodore 464:
+    count: 1
+    title: Commodore 464
+  commodore 64:
+    count: 2
     title: Commodore 64
+  commodore 664:
+    count: 1
+    title: Commodore 664
+  commodore 774:
+    count: 1
+    title: Commodore 774
+  commodore 900:
+    count: 1
+    title: Commodore 900
+  commodore pet:
+    count: 1
+    title: Commodore PET
+  commodore plus/4:
+    count: 1
+    title: Commodore Plus/4
+  commodore vic-20:
+    count: 1
+    title: Commodore VIC-20
   common:
     count: 3
     title: Common
@@ -4001,6 +4034,9 @@ dictitems:
   crontab api:
     count: 1
     title: Crontab API
+  crooked sorcerer:
+    count: 1
+    title: Crooked Sorcerer
   cross-browser testing:
     count: 1
     title: Cross-Browser Testing
@@ -5256,7 +5292,7 @@ dictitems:
     count: 1
     title: Duncan MacInnes
   dune:
-    count: 5
+    count: 6
     title: Dune
   dungeons & dragons:
     count: 1
@@ -6161,6 +6197,9 @@ dictitems:
   fake websites:
     count: 2
     title: Fake Websites
+  falcon:
+    count: 1
+    title: Falcon
   false dependencies:
     count: 1
     title: False Dependencies
@@ -7865,6 +7904,9 @@ dictitems:
   heavily edited:
     count: 1
     title: heavily edited
+  hebrew:
+    count: 1
+    title: Hebrew
   hebrew bible:
     count: 2
     title: Hebrew Bible
@@ -9053,6 +9095,9 @@ dictitems:
   "jacques vall\xE9e":
     count: 1
     title: "Jacques Vall\xE9e"
+  jaguar:
+    count: 1
+    title: Jaguar
   jake:
     count: 1
     title: Jake
@@ -9221,6 +9266,9 @@ dictitems:
   jordan robinson:
     count: 1
     title: Jordan Robinson
+  josh hyman:
+    count: 1
+    title: Josh Hyman
   joule:
     count: 1
     title: Joules
@@ -9591,7 +9639,7 @@ dictitems:
     count: 2
     title: Kubernetes
   kung fu:
-    count: 3
+    count: 4
     title: Kung Fu
   kwfinder:
     count: 1
@@ -10562,6 +10610,9 @@ dictitems:
   lynnie-cat:
     count: 1
     title: Lynnie-cat
+  lynx:
+    count: 1
+    title: Lynx
   lyricism:
     count: 1
     title: Lyricism
@@ -11109,7 +11160,7 @@ dictitems:
     count: 1
     title: Mentat
   mentats:
-    count: 1
+    count: 2
     title: Mentats
   mentee:
     count: 1
@@ -11253,7 +11304,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 52
+    count: 53
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11342,6 +11393,9 @@ dictitems:
   mike silver:
     count: 1
     title: Mike Silver
+  mike sinz:
+    count: 1
+    title: Mike Sinz
   mike-lev:
     count: 1
     title: mike-lev
@@ -12290,6 +12344,9 @@ dictitems:
   norman gimbel:
     count: 1
     title: Norman Gimbel
+  norman schwarzkopf:
+    count: 1
+    title: Norman Schwarzkopf
   norristown:
     count: 1
     title: Norristown
@@ -13625,6 +13682,9 @@ dictitems:
   portal:
     count: 1
     title: Portal
+  poser:
+    count: 1
+    title: Poser
   positional argument:
     count: 1
     title: Positional Argument
@@ -16964,6 +17024,9 @@ dictitems:
   ssh services:
     count: 1
     title: SSH Services
+  st:
+    count: 1
+    title: ST
   stability:
     count: 5
     title: Stability
@@ -18986,6 +19049,9 @@ dictitems:
   upside down lift designs:
     count: 1
     title: Upside Down Lift Designs
+  uptake:
+    count: 1
+    title: uPTake
   url:
     count: 24
     title: URLs
@@ -19895,6 +19961,9 @@ dictitems:
   wizard of oz:
     count: 5
     title: Wizard of Oz
+  wizardly:
+    count: 1
+    title: Wizardly
   wizards of moz:
     count: 1
     title: Wizards of MOZ
@@ -20148,7 +20217,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 46
+    count: 47
     title: YouTube
   youtube analytics:
     count: 1

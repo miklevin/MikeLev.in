@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a> (Sun Jun 18, 2023)
+<br/>Join me on an adventure as I explore the nuances of protocol, kung fu, and Dune references. From the Commodore 64 and Amiga to the Commodore 264, 364, 464, 664, 774, and 900, I'm sharing posts, settling bets, and introducing you to my favorite buddy. Plus, I'm giving a shout-out to the Microsoft team, Apple, and Union Square Venture Capitals. Don't miss the reward and extras that come with this journey!</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
 <br/>Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!</li>
 <li><a href="/blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/">How Wizard of OZ Predicted Everything About Today's AI-World</a> (Fri May 19, 2023)
