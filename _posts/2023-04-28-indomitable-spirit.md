@@ -4,7 +4,7 @@ title: Indomitable Spirit
 headline: "Rebuilding Life After Setbacks: Using NeoVim and Journaling to Move Forward"
 description: I recently restarted WSL to get my Linux and Windows clocks in sync. I'm actively working my way back from several setbacks, including a move, my cat escaping, and changes at my job. To help me on my journey, I'm using NeoVim, updating my journaling system, rolling with the punches and navigating my next step.
 keywords: WSL, --shutdown, Powershell, Linux, Windows, Clock, Life, Poconos, Move, Cat, Escape, Job, NeoVim, Journaling, System, Data-fields, Windows, Laptop
-categories: microsoft, linux, wsl, powershell, journaling, vim
+categories: linux, journaling, powershell, microsoft, wsl, vim
 permalink: /blog/indomitable-spirit/
 layout: post
 group: blog
@@ -83,9 +83,9 @@ The quality-level on both fronts needs to go up.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>

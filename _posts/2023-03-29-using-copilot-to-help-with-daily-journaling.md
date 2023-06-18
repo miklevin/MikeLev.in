@@ -4,7 +4,7 @@ title: Using Copilot to Help With Daily Journaling
 headline: Exploring AIs and Staying Ahead of the Curve with Copilot
 description: I recently received a video from my boss about the potential of AIs in the future and was reminded of the opportunities and dangers that come with this technology. I decided to write in my journal about the potential of technology and my plans to stay ahead of the curve. I switched from Vim to NeoVim, enabled Copilot for markdown files, and tested out the new feature. I also discussed my plans to stream the breakthrough live on YouTube and shared my thoughts on SEO.
 keywords: AI, Copilot, NeoVim, markdown, YouTube, SEO, TTYL, Links API, Moz Pro, Pipulate, 404.html
-categories: ai, seo, youtube, pipulate, vim
+categories: youtube, seo, pipulate, ai, vim
 permalink: /blog/using-copilot-to-help-with-daily-journaling/
 layout: post
 group: blog
@@ -260,8 +260,8 @@ I'm most interest's ted in crawling are referring.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>

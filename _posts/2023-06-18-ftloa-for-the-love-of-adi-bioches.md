@@ -582,6 +582,16 @@ Peaceful.
 
 drftng ff t slp
 
+Tell Helana and Matt I would have loved to have hung out with them.
+
+Very sad.
+
+I guess it's true what they say about the first and last word.
+
+When love is surgically removed from your life, you're done.
+
+g'night
+
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
