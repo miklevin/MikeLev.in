@@ -566,6 +566,22 @@ Just In My Head. Or Maybe Ask Nick Cage.
 
 Toodles
 
+Still no Pheonix?
+
+Sorry guys final 🔔
+
+That's a liberty bell... like in Philly.
+
+LET FREEDOM REIGN
+
+Or at least until 🌇
+
+Be been thinking about this long time. Got good ways.
+
+Peaceful.
+
+drftng ff t slp
+
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 

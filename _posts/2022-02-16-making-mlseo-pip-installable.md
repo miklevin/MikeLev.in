@@ -4,7 +4,7 @@ title: Making mlseo pip installable
 headline: "Creating mlseo: My Journey to Setting Up a Pip Installable Module"
 description: I'm using mlseo as a pip installable module to get the process of making packages into my fingers. I'm creating a package called mlseo which will include my latest techniques for pulling data from Google Analytics and Search Console. I'm setting up the settings.ini file and extracting the packages, and I'm following the nbdev instructions to install and create a Github personal access token. Come follow my journey and learn how to set up your own mlseo package!
 keywords: Mlseo, Pip Installable, Package, Google Analytics, Search Console, Nbdev, Github, Personal Access Token, Settings.ini, Extracting Packages
-categories: git, nbdev, google, pipulate
+categories: pipulate, nbdev, google, git
 permalink: /blog/making-mlseo-pip-installable/
 layout: post
 group: blog
@@ -88,7 +88,7 @@ private repo. Check!
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
