@@ -225,7 +225,7 @@ dictitems:
     count: 1
     title: 178,223
   '18':
-    count: 2
+    count: 3
     title: '18'
   18 posts:
     count: 1
@@ -291,7 +291,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 8
+    count: 9
     title: '2023'
   2030 agenda:
     count: 1
@@ -2021,6 +2021,9 @@ dictitems:
   bio break:
     count: 1
     title: BIO BREAK
+  bioches:
+    count: 1
+    title: bioches
   bioelectricity:
     count: 1
     title: Bioelectricity
@@ -6584,6 +6587,9 @@ dictitems:
   for loop:
     count: 1
     title: for loop
+  for the love of adi:
+    count: 1
+    title: For The Love of Adi
   force:
     count: 1
     title: Force
@@ -6809,6 +6815,9 @@ dictitems:
   fstrings:
     count: 1
     title: fstrings
+  ftloa:
+    count: 1
+    title: ftloa
   fud:
     count: 1
     title: FUD
@@ -9288,7 +9297,7 @@ dictitems:
     count: 1
     title: Jumping Jacks
   jun:
-    count: 1
+    count: 2
     title: Jun
   june 1st:
     count: 1
@@ -17502,7 +17511,7 @@ dictitems:
     count: 1
     title: Summer Project
   sun:
-    count: 4
+    count: 5
     title: Sun
   sun may 14:
     count: 1
