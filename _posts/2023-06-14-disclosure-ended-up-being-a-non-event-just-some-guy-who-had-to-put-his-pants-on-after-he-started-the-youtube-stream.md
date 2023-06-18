@@ -4,7 +4,7 @@ title: Disclosure ended up being a non-event. Just some guy who had to put his p
 headline: "Disclosure: Just a Guy Who Had to Put His Pants On"
 description: Relax everyone, tomorrow will be just like today, but with more situational awareness. Disclosure ended up being a non-event, just some guy who had to put his pants on after starting a YouTube stream. Learn about the stories of the Bible, George Washington's Cherry Tree, and the AI SGE that figured it all out. Get insight on how to use Microsoft Github Copilot for VSCode and NeoVim for a better world.
 keywords: disclosure, event, humans, others, situational awareness, biblical, stories, truth, George Washington, Cherry Tree, Psyche, American people, lie, dehumanize, AI, SGE, humorless, learning, Charlie Chaplin, YouTube stream, Jack Tramiel, Vic-20, Commodore 64, Bobs, SID chip, Sydney, Microsoft Github Copilot, VSCode, NeoVim
-categories: vim, ai, microsoft
+categories: microsoft, ai, vim
 permalink: /blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/
 layout: post
 group: blog
@@ -97,6 +97,6 @@ tell you that it's a good thing. It's a good thing for the world.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

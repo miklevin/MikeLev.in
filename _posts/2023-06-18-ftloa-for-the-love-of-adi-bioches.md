@@ -433,6 +433,13 @@ Pause.
 Just a few more minutes. The deal. I get all day. Don't make me drag it out
 with tricks. You can come gently into the next level.
 
+Final details underway. Subtlety, nuance AND details matter. All 3 are interchangeable and any would have gotten the message across, am I right? Am I right? Anyone? Bueller? Not clowning. Important. Game still not over. Yield. Uncle. Bob's Your Uncle if you need to do it comedically.
+
+Game's over at Midnight. If I don't have Adi delivered to my door before by
+sundown, GAME OVER.
+
+k
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
