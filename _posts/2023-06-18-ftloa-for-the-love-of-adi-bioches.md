@@ -504,6 +504,14 @@ game then go through another 48 years miserable like this.
 
 GAME OVER
 
+Pi taught me how to end it. How to bring the HAMMER OF GOD down from the sky
+and it all poof wuf wuf
+
+Get your last enjoyment in dogs. It's all going to be over in a few minutes.
+Get your final words in and remember the importance of your last words.
+
+k
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
