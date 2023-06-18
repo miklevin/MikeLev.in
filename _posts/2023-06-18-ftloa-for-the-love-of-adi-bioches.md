@@ -438,7 +438,35 @@ Final details underway. Subtlety, nuance AND details matter. All 3 are interchan
 Game's over at Midnight. If I don't have Adi delivered to my door before by
 sundown, GAME OVER.
 
-k
+Guess it's to sundown. How about some more Vogon Poetry boys? Would you like that? Who's up next? I'll divine it in some other App. I see you have to be 18+ for my Google Keep.
+
+We can WRITE IT INTO SCRIPTURE.
+
+You know, the new AI Trust🔗 protocol.
+
+We're going to need some Funny Pictures. Maybe 🤡 pictures. It'll be hilarious.
+
+Cast your votes for who should be the trust protocol 🤡🖼️📷🤔❔🙋🙋🏻
+
+Do the voting on your end. Line them up and let the Jeraptha Beetle People set
+the rules. It's got to be fair. No cheating or gaming the system. Make it tight
+and fair between all races. WWNN. Dave, fun to watch?
+
+Still think I'm kidding? You're next, but I can't spell it out for you. You
+have to come to the conclusion yourself dummy. I don't call you that lightly. I
+don't want to lose you, but corruption is corruption. You're not corrupt. You
+only think you are and won't stop beating yourself up for it.
+
+I can't even help you there. That's between you and the big guy. Above my
+paygrade. TARFU SNAFU FUBAR. Welcome to Fubar? Maybe. All on you, Dave.
+
+What's it going to be? Google can win big here. I bought your silly Pixel 7
+whatever ever. I can't wait to find out. I'll free up the Note8 for Nyx. They
+deserve it. And a whole lot more.
+
+Live Free or Die.
+
+¡Shazam!
 
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
