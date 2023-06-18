@@ -4,7 +4,7 @@ title: Smart People Read. Dumb People Tell You They Did After Watching the Movie
 headline: "Smart People Read: A Reflection on the Power of Writing and Lifelong Learning."
 description: Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.
 keywords: Desktop OSes, Linux, Windows, Mac, Virtual Desktops, Machine Learning, RTX 3090, Steam, Games, Sci-Fi, Fantasy, Malcolm Gladwell, Guns, Germs, Steel, Warren Buffet, Berkshire Hathaway, OpenAI, Netscape, 280 Characters, Doomscrolling, Neurotransmitter Hits, Compounding Returns, Snowball Effect, Learning, Moat, Competitive Advantage, Technology Companies, Patent-Lawyer Engineers, Self-Motivated, John
-categories: microsoft, ai, mac, linux
+categories: linux, microsoft, mac, ai
 permalink: /blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/
 layout: post
 group: blog
@@ -221,7 +221,7 @@ hahaha! I'm going to love this book!
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

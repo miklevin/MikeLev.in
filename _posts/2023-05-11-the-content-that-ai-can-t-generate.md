@@ -4,7 +4,7 @@ title: The Content that AI Can't Generate
 headline: "Discovering the Content AI Can't Generate: My Journey to Uncover the Power of the Middle Class"
 description: I'm here to share the content that AI can't generate - the unique, unfiltered perspective of a human. From the lessons of 'Surface Detail' to the implications of Zipf's Law, I'm delving into the history of wealth distribution and the power of the middle-class. Join me as I explore the implications of human nature, the power of the 1%, and how to fight for the Carpenter.
 keywords: AI, Writing, Content, OpenAI, SEO, Platforms, Technology, Social Media, Ideas, Relevant, Perspective, Masses, Bots, FOMO, FUD, Tipping Point, Infinite Monkeys, Type-Writers, Shakespeare, Click, Money, Tragedy of the Commons, Honeymoon, Gold Rush, Crypto, AI Bros, Limited Time, Offerings, Wallet, HootSuite, Pipulate, Domain Name, IPVoid, ICANN
-categories: seo, ai, pipulate
+categories: pipulate, seo, ai
 permalink: /blog/the-content-that-ai-can-t-generate/
 layout: post
 group: blog
@@ -266,6 +266,6 @@ and to be optionally taken away from you at any time.
 ## Categories
 
 <ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
