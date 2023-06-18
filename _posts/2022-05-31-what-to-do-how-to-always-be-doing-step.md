@@ -4,7 +4,7 @@ title: What To Do? How To Always Be Doing Step
 headline: "Taking Control of Stress and Anxiety: Step-by-Step Guide to Achieving Goals."
 description: I'm taking control of my stress and anxiety with breathing exercises and other activities like jumping jacks, journaling, and visualizing the results of my efforts. I'm also reminding myself to take it step by step, double-check my work, and document the small steps I take. With this approach, I'm learning to actualize my thoughts into the real world and experience the magic of being human.
 keywords: Breathing Exercises, Anxiety, Stress, Visualizing, Journaling, Step-by-Step, Double-Check, Document, Actualizing, Fresh Air, Hydrate, Jumping Jacks, Motivation, Cortisol Production, Scheduling
-categories: motivation, journaling, scheduling
+categories: scheduling, journaling, motivation
 permalink: /blog/what-to-do-how-to-always-be-doing-step/
 layout: post
 group: blog
@@ -199,6 +199,6 @@ Now I'm done.
 ## Categories
 
 <ul>
-<li><h4><a href='/motivation/'>Motivation</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li></ul>
+<li><h4><a href='/motivation/'>Motivation</a></h4></li></ul>

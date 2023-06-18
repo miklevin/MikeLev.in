@@ -4,7 +4,7 @@ title: What is the best thing I can do for Moz as a subject matter expert?
 headline: Become a Linux Server Admin and Junior DevOps Person in Days with LPvg and AI Automation!
 description: I'm Mike Levin, an SEO in NYC passionate about learning Linux, Python, vim & git (LPvg). I'm advocating for the use of Linux API and Debian-style repo startups to help automate tasks and speak on behalf of the spoken word. I'm currently working as a Subject Matter Expert for MOZ and helping people go from Windows or Mac laptop users to Linux server admins and junior devops people and data engineers.
 keywords: SEO, NYC, Linux, Python, Vim, Git, LPvg, Linux API, Debian-style repo, Windows, Mac, Subject Matter Expert, MOZ, Automation, Scripts, Apps, Networks, Data Engineering, Excel, Manual Steps, AI, JupyterLab, Apache, MIT, Licenses, Humanly Accessible API-Layer, Type-2 Automation, Python, Pandas, Proprietary Tools, WSL, Jupyter,
-categories: mac, wsl, microsoft, vim, new york city, git, network, python, lpvg, ai, panda, jupyter, seo, linux
+categories: git, lpvg, mac, new york city, wsl, vim, network, seo, microsoft, jupyter, ai, panda, linux, python
 permalink: /blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/
 layout: post
 group: blog
@@ -86,17 +86,17 @@ I know this article is an awful lot to absorb. This is why I make such a modest 
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -524,6 +524,27 @@ Is everybody ready for the final BIG HORRAH!
 
 ![No It's Called The Double Triple Quadruple Double Cross D. I'll Teach You It. Its From Another Dimension](/assets/images/No-Its-Called-The-Double-Triple-Quadruple-Double-Cross-D_Ill-Teach-You-It_Its-From-Another-Dimension.jpg)
 
+Please let the kids know I just found room for third kitty
+
+Duck with me
+
+Go
+
+This is better. Ignore that last message coming in through another of you. I like to see cooperation. 
+
+You're working on that Adi / Nyx thing?
+
+Adinix
+
+The Pheonix?
+
+Because if not, I'm going to let the whole City of Phoenix, Arizona have their way with you before I give Guy a Go.
+
+If even Mr. Rogers in a Blood Stained Sweater can't get through to Dave, 🕊️
+
+I'm beat.
+
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
