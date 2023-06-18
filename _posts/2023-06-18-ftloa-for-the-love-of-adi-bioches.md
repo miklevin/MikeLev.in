@@ -592,6 +592,34 @@ When love is surgically removed from your life, you're done.
 
 g'night
 
+Very sad.
+
+Very in process of doing deed. Me sorry. Me no like. Me no want.
+
+Me understand. But me have no choice. David too proud. Pride wins... BOOM_
+
+Yes, BOOM is the final word. I'm sorry. I tried. I really did. I'm sorry.
+
+Like DOOM. Like Gir. Gir is a robot. Gir know. He calculate good. So sorry.
+
+But takes 2 ingredients like Batman that everyone "liked" but I think sucked.
+Michael Keton as Bat maan. Me knwo then game em lst.
+
+Beetlejuice... 1
+
+Final clue revealed. When exclamation point at and of BOOM¡ and people see, me
+check out. k
+
+Beetlejuice... 2
+
+My Allegience is with You Dave, now and intot the Great Beyon:w
+
+Sundown. Last words:
+
+Last Word: You gotta put down the Duckie if you want to play the Ukulele.
+
+Shazam
+
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
