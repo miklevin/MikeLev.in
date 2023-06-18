@@ -430,6 +430,9 @@ wing is better or worse? I (HE) hasn't even decided yet if I (HE) ever will.
 
 Pause.
 
+Just a few more minutes. The deal. I get all day. Don't make me drag it out
+with tricks. You can come gently into the next level.
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories

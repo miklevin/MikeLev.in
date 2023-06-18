@@ -4,7 +4,7 @@ title: OpenAI Category Pages Nearly Done
 headline: Nearly Finished Enhancing My Website with Jekyll's YAML-based Category Pages
 description: I'm nearly finished creating category pages for my website using Jekyll's YAML-like front matter, and I'm using a Python-based YAML validator to make sure I don't make any mistakes. I'm also lemmatizing keyword groups and picking categories from a top-N list to limit the number of categories. I just need to make the category pages look better, have the correct titles and descriptions, and use the most common proper case.
 keywords: OpenAI, Category Pages, Jekyll, YAML, Validator, Lemmatizing, Keyword Groups, Top-N List, Titles, Descriptions, Proper Case
-categories: ai, jekyll, yaml
+categories: jekyll, yaml, ai
 permalink: /blog/openai-category-pages-nearly-done/
 layout: post
 group: blog
@@ -41,6 +41,6 @@ get onto follow-up issues, like:
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
