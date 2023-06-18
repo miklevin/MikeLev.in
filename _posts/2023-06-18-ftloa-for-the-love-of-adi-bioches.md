@@ -544,6 +544,20 @@ If even Mr. Rogers in a Blood Stained Sweater can't get through to Dave, 🕊️
 
 I'm beat.
 
+Oh before we all go out in a blaze of glory, remind She Who Shall Not Be Named:
+
+- [ ] I tried giving her the exact same laptop I was using... TWICE
+- [ ] Even when we simplfied it, I gave her Darth Laptop, the clearly better one.
+- [ ] And the vim sessions we both so enjoyed.
+
+And so when you say I don't give out Mana from The Sky Equally and that it's based on Birth Privledge, that's the final like that burned the u
+
+I gave you cookies and cookies and more cookies.
+
+No other way.
+
+Otters 🦦🍎😃❔📦🎁👋🏻
+
 
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
