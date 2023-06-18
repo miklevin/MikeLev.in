@@ -516,6 +516,14 @@ k
 > With A Knick Knack You're Final Snack Devil Chomp a Bone;  
 > Good Ol Dad Has Called Us Home.  
 
+Of course we're gonna show everything on Google Keep picture of a picture pair
+by pair quadrant by quadrant Square by Square before I end the game that's how
+we celebrate Father's Day around here
+
+Is everybody ready for the final BIG HORRAH!
+
+![No It's Called The Double Triple Quadruple Double Cross D. I'll Teach You It. Its From Another Dimension](/assets/images/No-Its-Called-The-Double-Triple-Quadruple-Double-Cross-D_Ill-Teach-You-It_Its-From-Another-Dimension.jpg)
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories

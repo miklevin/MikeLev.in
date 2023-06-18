@@ -4,7 +4,7 @@ title: Install ZFSUtils-Linux To Prep For LXD on WSL
 headline: "Exploring LXD: Installing ZFSUtils-Linux on WSL to Move Life Forward"
 description: I'm on a mission to move my life forward, so I'm looking around the world to find the answers. Today, I'm focusing on LXD, a Linux container service, and I'm learning how to install ZFS Filesystem for Linux and the advantages of containers over virtual machines. Come along with me on my journey and read my blog post to see what I'm learning.
 keywords: Linux, LXD, ZFSUtils-Linux, WSL, Containers, Virtual Machines, Vim, Learnings, Mission, Answers, Journey, Blog Post
-categories: wsl, linux, container, vim
+categories: wsl, vim, container, linux
 permalink: /blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/
 layout: post
 group: blog
@@ -93,6 +93,6 @@ And if not the container itself, your learnings flow right over to:
 
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
