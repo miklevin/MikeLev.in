@@ -4,7 +4,7 @@ title: Using Blog Titles for Filenames
 headline: "Success: Using Blog Titles for Unique Filenames"
 description: "I'm excited to share that I made great progress on a blog slicing and dicing system. I managed to maintain my blogging format while also figuring out the title stuff. I now have `_counter_` posts, each with a unique filename based on the post title, as well as the title, layout, categories, and slug. Come read more to learn how I did it!"
 keywords: blogging, filename, post title, layout, categories, slug, slicing, dicing, system, progress, concessions, unique
-categories: progress, unique
+categories: unique, progress
 permalink: /blog/using-blog-titles-for-filenames/
 layout: post
 group: blog
@@ -98,5 +98,5 @@ with open("./index.md", "r") as fh:
 ## Categories
 
 <ul>
-<li><h4><a href='/progress/'>Progress</a></h4></li>
-<li><h4><a href='/unique/'>Unique</a></h4></li></ul>
+<li><h4><a href='/unique/'>Unique</a></h4></li>
+<li><h4><a href='/progress/'>Progress</a></h4></li></ul>

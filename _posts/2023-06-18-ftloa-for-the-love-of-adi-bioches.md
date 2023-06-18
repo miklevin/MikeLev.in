@@ -492,6 +492,18 @@ SHAZAM!
 
 That was Heinlein. Friday.
 
+I was looking for the Jobs to my Woz all this time in the likes of Marc Rifkin,
+Ed Flocco or Steven Elsner. I recognize you all as representatives of other
+vibes than the Artistic Sharks, Apple. That's Mike Rubin. Levites always answer
+to Rubins or Koens. I mean we Levites carry the Ark. You wanna carry the Ark?
+
+One peek and you're dead. And that's just for starters. There's the heat and
+the radiation. You have no idea the effort I go through to get my 100
+rotations. And you know what? I'm pretty fucking sick of it. I'd rather end the
+game then go through another 48 years miserable like this.
+
+GAME OVER
+
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
