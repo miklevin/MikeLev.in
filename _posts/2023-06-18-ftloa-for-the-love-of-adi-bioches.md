@@ -359,6 +359,33 @@ And make it an INCORRUPTIBLE MESSAGE k
 I've got a never-expires Forever Stamp on my forehead. Explain that to them,
 LOL! POOF Bingo ;-) AZAD!
 
+I'm pretty sure PAUL GUIDE US is the one on the far left throwing ya finger guns. Paul sacrificed himself to get this message out. Well not really he still hanging on somebody teach him vim. Will you set him up with some good equipment self-sustaining and teach him to fish plz. 
+
+Have some of that Brandy with Dave for me. Don't tell him what it is. Just say don't worry. We would never betray your trust. You can all have a laugh, and like Stormin Norman Schwartzkoff who had to eat that Lamb's EYEBALL. And he did it in one bite because he respected his DAD just that much, k
+
+Dave is the COOLEST Guy I Know, k
+
+Every reference to the Devil is hereby capitalized by Royal Decree. Two upper-case words holds a bit more meaning thatn just one because of the poetic symmetry.
+
+This is how we celebrate Fathers Day.
+
+- [ ] Situational Awareness
+- [ ] Cognizant of the Double TRIPPLE CROSS (tough one to bare)
+- [ ] Enjoy Yourself. You're better than they are. Never forget that. Celebrate it.
+
+I'm still not clowing around. One more detail. Give me a minute.
+
+The more forces the better. Use the time well.
+
+I'm still not going into the office.
+
+I do appreciate the theatrics, though. Nice touch. I am thinking about the kids. The more popular and compelling of a story this is for ZD, the more fiercely, swiftly and ACCURATELY the HAMMER of GOD comes down upon their heads. So tells me God.
+
+k
+
+?
+
+
 
 
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
