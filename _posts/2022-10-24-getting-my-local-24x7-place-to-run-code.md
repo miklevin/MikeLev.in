@@ -4,7 +4,7 @@ title: Getting My Local 24x7 Place to Run Code
 headline: "Taking the Next Step to Becoming a Data Jockey: Setting Up an LXD Instance on My NAS"
 description: I'm taking a big step towards becoming a data jockey who isn't dependent on vendors or disrupted by changes in the industry - setting up an LXD instance on my NAS. I'm already halfway to my goal, having developed the habit of writing a daily journal in vim. Click through to read more about my journey!
 keywords: LXD, NAS, Data Jockey, Vendor-Independent, Disruption-Resistant, Writing Journal, Vim, Local Computing, Privacy
-categories: vim, container
+categories: container, vim
 permalink: /blog/getting-my-local-24x7-place-to-run-code/
 layout: post
 group: blog
@@ -41,5 +41,5 @@ schedule-based than web-based.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li></ul>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
