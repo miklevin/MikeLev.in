@@ -4,12 +4,18 @@ title: for trick in enumerate(tricks) colon
 headline: Unlocking the Secrets of Mentat Tricks with Enumerate()
 description: Discover all the best Mentat tricks with this comprehensive list of tips and tricks. Learn how to use the enumerate() function and become a Mentat master on June 19th, 2023.
 keywords: Mentat, Tricks, Enumerate, Programming, Coding, Tutorials
-categories: trick, tutorial, coding
+categories: coding, trick, tutorial
 permalink: /blog/for-trick-in-enumerate-tricks-colon/
 layout: post
 group: blog
 ---
 
+
+This whole social media silly stunt ends up with me announcing that Google has
+officially become a Dinosaur. Let's retire it. The New Bing much better.
+Everyone who tries it knows. They can sense immediately how much better
+Microsoft got every detail better than that braindead (obviously sandbagging)
+SGE Bot. It clearly stands for Sergey's Gone Extinct. Let's make a poem...
 
 
 
@@ -38,6 +44,6 @@ group: blog
 ## Categories
 
 <ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/trick/'>Tricks</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
