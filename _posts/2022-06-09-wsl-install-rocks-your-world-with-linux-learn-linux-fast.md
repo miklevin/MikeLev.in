@@ -4,7 +4,7 @@ title: wsl --install Rocks Your World with Linux (Learn Linux Fast!)
 headline: Learn Linux in Under 10 Minutes with the 'wsl --install' Command on Windows 11!
 description: Discover how to install and learn Linux in under 10 minutes with the 'wsl --install' command on Windows 11. I will teach you how to use a full-screen Linux terminal to run the vim text editor and keep a daily journal. Learn the basic commands and gain access to hundreds of thousands of free and open source software packages. Get an introduction to Ikigai, a script for a video to promote the command, and ways to promote the command on social media.
 keywords: wsl, install, Rocks, Linux, Learn, Fast, 10 minutes, full-screen, terminal, vim, text editor, daily journal, basic commands, open source software, Ikigai, script, video, promote, command, social media, Windows 11, Unix, Python, git, VSCode, timeless, skills, resistant, disruption, future-proof, descendants, DNA, pronounce, platforms
-categories: python, wsl, microsoft, linux, git, vim, text editor
+categories: wsl, vim, python, linux, microsoft, text editor, git
 permalink: /blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/
 layout: post
 group: blog
@@ -287,10 +287,10 @@ Follow me!
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
