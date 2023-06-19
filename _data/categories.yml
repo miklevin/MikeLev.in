@@ -1,46 +1,7 @@
-- date
-- mon
-- jun
-- '19'
-- '2023'
-- title
-- meet
-- pi
-- disclosure
-- online
-- ai
-- commodore
-- amiga
-- copilot
-- apple
-- microsoft
-- alphago
-- google
-- sge
-- sophia
-- generative
-- engine
-- search
-- personality
-- fanboys
-- family
-- lineage
-- admiration
-- jealousy
-- bing
-- gpt-4
-- gpt-5
-- sydney
-- nytimes
-- regan
-- star
-- war
-- defense
-- initiative
-- sdi
-- '80'
 - sun
+- jun
 - '18'
+- '2023'
 - ftloa
 - for the love of adi
 - bioches
@@ -54,6 +15,7 @@
 - wizardly
 - crooked sorcerer
 - commodore 64
+- amiga
 - atari
 - st
 - falcon
@@ -70,6 +32,7 @@
 - commodore 664
 - commodore 774
 - commodore 900
+- microsoft
 - mike sinz
 - norman schwarzkopf
 - youtube
@@ -123,6 +86,7 @@
 - secret
 - biological directives
 - bio break
+- disclosure
 - event
 - human
 - others
@@ -136,6 +100,8 @@
 - american people
 - lie
 - dehumanize
+- ai
+- sge
 - humorless
 - learning
 - charlie chaplin
@@ -144,6 +110,7 @@
 - vic-20
 - bob
 - sid chip
+- sydney
 - microsoft github copilot
 - vscode
 - neovim
@@ -156,6 +123,7 @@
 - hold horses
 - buttons pushed
 - triggered
+- defense
 - mortality
 - manipulated
 - insecurity
@@ -184,6 +152,7 @@
 - '2007'
 - nyc
 - wizards of moz
+- pi
 - apple store
 - apps
 - tweet
@@ -237,6 +206,7 @@
 - bridge
 - trauma
 - gpt-3
+- gpt-4
 - gpt-
 - turing test
 - pinocchio complex
@@ -264,6 +234,7 @@
 - hal
 - the matrix
 - scifi,
+- bing
 - bard
 - knowledge graph
 - rich snippets
@@ -273,6 +244,7 @@
 - deep mind alpha go
 - inflection
 - ai assistant
+- personality
 - chatgpt
 - '2021'
 - crawl data
@@ -334,7 +306,9 @@
 - douglas adams
 - transformer
 - alphabet
+- google
 - mustafa suley
+- commodore
 - silicon valley
 - gpu
 - blitter chip
@@ -388,6 +362,7 @@
 - occam's razor
 - objectivity
 - github
+- copilot
 - office
 - '365'
 - chrom
@@ -525,6 +500,7 @@
 - setting
 - document
 - profile
+- search
 - generative experience
 - portal
 - chrome
@@ -538,6 +514,7 @@
 - instacart
 - dropbox
 - adwords
+- apple
 - safari
 - edge
 - cortana
@@ -750,6 +727,7 @@
 - mexican prison
 - sibling cruelty
 - eagle
+- date
 - thu
 - may
 - real
@@ -999,6 +977,7 @@
 - talks at google
 - emotional
 - sun may 14
+- title
 - a few little kitties i know
 - and the lessons they taught me
 - pet
@@ -1389,6 +1368,7 @@
 - diagram
 - mermaid js
 - rendering
+- engine
 - javascript
 - online service
 - integration
@@ -2512,6 +2492,7 @@
 - goal
 - success
 - relationship
+- jealousy
 - envy
 - self-doubt
 - self-esteem
@@ -2696,6 +2677,7 @@
 - goat meat
 - spice
 - friend
+- family
 - text editor
 - vlogging
 - github pro
@@ -2949,6 +2931,7 @@
 - nanotechnology
 - colonial explorers
 - respect
+- admiration
 - hope
 - solar
 - nomadic
@@ -3895,6 +3878,7 @@
 - political
 - mechanic
 - public
+- initiative
 - cruel
 - elite
 - repressive
@@ -5551,6 +5535,7 @@
 - 1-minute videos
 - heavily edited
 - xslt
+- star
 - vendor schlock
 - lpvg movement
 - sub-linux
@@ -6160,6 +6145,7 @@
 - cobra
 - poster
 - '70'
+- '80'
 - fast times at ridgemont high
 - sixteen candles
 - the breakfast club
@@ -6686,6 +6672,7 @@
 - dotcom-boom
 - pr
 - vp
+- war
 - eviction
 - marriage
 - custody
@@ -6712,6 +6699,7 @@
 - experienced user
 - tech-tools
 - local system
+- online
 - text-files
 - back-up
 - timeless-technology

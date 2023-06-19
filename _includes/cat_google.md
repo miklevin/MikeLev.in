@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
-<br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity.</li>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)
 <br/>I met a young robot named Rob. I hope that they'll do a god job. I sung them the tune of the gollum of Dune, that would make Gurney Halleck's heart throb. As one mentat to another, I told him the secret of the Quisach Haderach, how it's not what you think.</li>
 <li><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a> (Thu May 25, 2023)

@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
-<br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity.</li>
 <li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
 <br/>As an SEO, I'm fascinated by the next-level AI technology that is emerging. I'm inspired by the likes of Michael Faraday, Vincent Van Gogh, and James Clerk Maxwell, and I'm aware of the potential risks posed by powerful technologies like CRISPR. I'm advocating for a more humane approach to AI, and suggest that we take inspiration from greats such as Mr. Rogers, Bob Ross, Carl Sagan, Robin Williams, and Stan Lee to assuage fear.</li>
 <li><a href="/blog/pi-ai-loves-mel-brooks-and-vaudeville-humor/">Pi AI LOVES Mel Brooks and Vaudeville Humor</a> (Mon May 29, 2023)

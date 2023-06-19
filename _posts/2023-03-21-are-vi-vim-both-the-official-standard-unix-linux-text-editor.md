@@ -4,7 +4,7 @@ title: Are vi & vim Both The Official Standard Unix / Linux Text Editor?
 headline: Exploring the Evolution of Text Editors from QED to Vim with Bing
 description: I asked Bing about the evolution of text editors, and they provided a timeline beginning with the 1967 development of QED and ending with Emacs and Vim's 2023 dominance. I then asked if vi was first released in 1976, and Bing confirmed. They also provided a list of 20 text editors based on vi, as well as a description of vi's influence. Bing discussed the POSIX standard and other Unix/Linux standards, and offered to answer any questions I had about them.
 keywords: QED, Emacs, Vim, Vi, Bill Joy, Low Memory Footprint, Command Centric Design, Configurable Settings, Multiple Windows, Multiple Buffers, Multiple Tabs, POSIX, Debian, YUM, APT, RPM, dpkg, Linux Standard Base, Cygnus Standard, Filesystem Hierarchy Standard, GNU Coding Standards
-categories: vim, emacs, vi
+categories: vi, emacs, vim
 permalink: /blog/are-vi-vim-both-the-official-standard-unix-linux-text-editor/
 layout: post
 group: blog
@@ -188,6 +188,6 @@ Source: Conversation with Bing, 3/20/2023
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
 <li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

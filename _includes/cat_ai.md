@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
-<br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity.</li>
 <li><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a> (Wed Jun 14, 2023)
 <br/>Relax everyone, tomorrow will be just like today, but with more situational awareness. Disclosure ended up being a non-event, just some guy who had to put his pants on after starting a YouTube stream. Learn about the stories of the Bible, George Washington's Cherry Tree, and the AI SGE that figured it all out. Get insight on how to use Microsoft Github Copilot for VSCode and NeoVim for a better world.</li>
 <li><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a> (Wed Jun 14, 2023)
