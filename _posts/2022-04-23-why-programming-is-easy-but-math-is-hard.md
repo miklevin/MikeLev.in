@@ -4,7 +4,7 @@ title: Why Programming Is Easy But Math Is Hard
 headline: "My Journey to Make Math Easier: Read My Blog Post and Join Me!"
 description: As someone who has struggled with math since high school, I have used Python and other tools to make it easier for me. I recently created my first Jekyll blog post and am now working on adding headlines. I'm excited to share my journey and hope it helps other people who are also struggling with math. Come read my blog post and join me on this journey!
 keywords: Programming, Math, Python, Jekyll, Blogging, Struggling, High School, WordPress, Data Management, Headlines
-categories: coding, python, jekyll, wordpress
+categories: python, coding, jekyll, wordpress
 permalink: /blog/why-programming-is-easy-but-math-is-hard/
 layout: post
 group: blog
@@ -65,7 +65,7 @@ posts. A few with, a few without.
 ## Categories
 
 <ul>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
