@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
-<br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity.</li>
+<br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a> (Sun Jun 18, 2023)
 <br/>Join me on an adventure as I explore the nuances of protocol, kung fu, and Dune references. From the Commodore 64 and Amiga to the Commodore 264, 364, 464, 664, 774, and 900, I'm sharing posts, settling bets, and introducing you to my favorite buddy. Plus, I'm giving a shout-out to the Microsoft team, Apple, and Union Square Venture Capitals. Don't miss the reward and extras that come with this journey!</li>
 <li><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a> (Tue May 23, 2023)
