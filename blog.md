@@ -13,9 +13,11 @@ group: blog
 > I'm Mike Levin, an SEO in NYC, and this is my daily work journal. It's all
 > built from a 1-text-file for life approach.
 
-I chop one journal.md text-file for life into a bunch of smaller files, and
-then arranging them just so in a local git repo so that when you commit and
-push, it gets published as a website. I'm using Github Pages, part of the basic
-Github account. Call it my data for data experiments. 
+You Jesus? No, Osmosis... haha, credit my HS science teacher, Frank Milauskas.
+He had the same look. No, just a dirty hippy who's been around the block a few
+times. I'm a 50-year-old SEO in NYC, and this is my daily work journal. It's
+all built from a 1-text-file for life approach. Oh, I also was apparently who
+my employers tagged with AI / Alien disclosure, but who knows. They've got
+Amazing Stories in their blood, so it's probably all just a story.
 
 {% include post_list.html %}
