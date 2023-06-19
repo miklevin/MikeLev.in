@@ -4,7 +4,7 @@ title: Python Playwright CodeGen and Playwright Inspector Tools
 headline: Making Automation Easier with Python Playwright CodeGen and Playwright Inspector Tools
 description: I'm using the Python Playwright CodeGen and Playwright Inspector Tools to make automation easier. With the built-in tools I can record my browser activity and generate code for it. After experimenting with different commands, I was able to successfully run the python -m playwright codegen --target python-async command, allowing me to record my automation code in JupyterLab. I also created two templates for easier development.
 keywords: Python, Playwright, CodeGen, Inspector, Tools, Automation, Browser, JupyterLab, Templates, Development, Headless, Server
-categories: jupyter, python, development, microsoft playwright
+categories: python, microsoft playwright, development, jupyter
 permalink: /blog/python-playwright-codegen-and-playwright-inspector-tools/
 layout: post
 group: blog
@@ -153,7 +153,7 @@ This is the template that gets recorded from Playwright Inspector:
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
