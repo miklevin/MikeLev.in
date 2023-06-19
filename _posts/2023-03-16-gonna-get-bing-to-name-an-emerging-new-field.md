@@ -4,7 +4,7 @@ title: Gonna Get Bing to Name An Emerging New Field
 headline: "Introducing a New Field of Marketing: AI-Optimized SEO"
 description: As a content producer, I'm exploring how SEO has evolved to include AI, and I'm proposing a new name for this field of marketing. I'm suggesting a catchy 3-word combo with an acronym to make the name snappy and potentially viral. Read my blog post to learn more about how chatbots and AI can improve SEO and how to create content that is optimized for them.
 keywords: AI, SEO, Chatbots, Content, Optimization, Marketing, Acronym, Viral, Engagement, Emerging, Field
-categories: seo, ai, marketing
+categories: marketing, seo, ai
 permalink: /blog/gonna-get-bing-to-name-an-emerging-new-field/
 layout: post
 group: blog
@@ -93,6 +93,6 @@ Sorry, you've reached the limit of messages you can send to Bing within 24 hours
 ## Categories
 
 <ul>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

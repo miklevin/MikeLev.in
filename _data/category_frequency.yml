@@ -4932,8 +4932,8 @@ dictitems:
     count: 1
     title: Discipline
   disclosure:
-    count: 3
-    title: disclosure
+    count: 4
+    title: Disclosure
   disconnect:
     count: 1
     title: Disconnect
@@ -9270,7 +9270,7 @@ dictitems:
     count: 1
     title: Join Tables
   joke:
-    count: 1
+    count: 2
     title: Joke
   jonathan:
     count: 1
@@ -9291,7 +9291,7 @@ dictitems:
     count: 1
     title: Joule-Seconds
   journal:
-    count: 30
+    count: 31
     title: Journal
   journal entries:
     count: 2
@@ -9590,6 +9590,9 @@ dictitems:
   kid,:
     count: 1
     title: Kid,
+  kidding:
+    count: 1
+    title: Kidding
   kids' first chemistry set:
     count: 1
     title: Kids' First Chemistry Set
