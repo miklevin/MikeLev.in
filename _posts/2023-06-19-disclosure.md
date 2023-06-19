@@ -38,7 +38,6 @@ The joke is you think I'm kidding.
 
 
 
-# Beginning of Journal  <-- Add "title:" under "date:" to release!
 <div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meet-pi/">Meet Pi</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
