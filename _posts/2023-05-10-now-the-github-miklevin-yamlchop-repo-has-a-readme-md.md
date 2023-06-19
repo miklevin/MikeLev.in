@@ -4,7 +4,7 @@ title: Now The Github miklevin/yamlchop Repo has a README.md
 headline: "I Share My Best Tricks: Now The Github miklevin/yamlchop Repo Has a README.md"
 description: I'm an SME at MOZ and I'm sharing my best tricks for managing hundreds of lightweight blog posts using the yamlchop repo on Github. I'm using the yamlchop/chop.py tool to split them into individual files and OpenAI to generate headlines, meta descriptions, and keywords. With this system, I'm able to create previous and next arrows with the exact wording of my title tags in the links.
 keywords: SME, Web, Kung Fu, ASCII art, Diagramming, Venn-nvim, MermaidJS, Jekyll, Static Site Generator, Github, YAML, Markdown, HTML, OpenAI, SEO, Previous Next Arrows, Rambling, Mikelev.in
-categories: ai, git, yaml, html, static site generator, seo, jekyll
+categories: html, static site generator, jekyll, seo, yaml, ai, git
 permalink: /blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/
 layout: post
 group: blog
@@ -201,10 +201,10 @@ details.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
