@@ -4,7 +4,7 @@ title: Setting Up LXD on WSL2 with systemd enabled Ubuntu 18.04
 headline: Exploring LXD on WSL2 with Ubuntu 18.04 - My Journey to Set Up My First Container
 description: I'm setting up my first LXD container on WSL2, using Ubuntu 18.04. I've used lxd init and lxc launch to get the container running, and added two locations from the WSL2 Linux host to the container. I'm now preparing to start experimenting and need to make sure I have the right tools installed. I'm also learning how to check if systemd is running, and getting everything ready for my first container.
 keywords: LXD, WSL2, Ubuntu, 18.04, lxd init, lxc launch, Linux host, container, /etc/fstab, python3.10, python3.10-venv, vim repo, .vimrc, .gitconfig, .bash_prompt, ps, process, ID 1
-categories: container, wsl, vim, journaling, ubuntu
+categories: container, ubuntu, journaling, wsl, vim
 permalink: /blog/setting-up-lxd-on-wsl2-with-systemd-enabled-ubuntu-18-04/
 layout: post
 group: blog
@@ -186,7 +186,7 @@ Get a service running:
 
 <ul>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
