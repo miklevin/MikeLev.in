@@ -4,7 +4,7 @@ title: Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!
 headline: "Explore my Linux Wonderland: A Journey Inspired by Fernando Corbato, Ken Thompson, and Linus Torvalds"
 description: "Explore my Linux Wonderland, an idea inspired by the individuals who made star-nix possible: Fernando Corbato, Ken Thompson, and Linus Torvalds. I'm creating projects under starnix, doing long-running scripts that run in the context of Linux services called daemons. See how this approach to tech is now as big as webdev, thanks to the Windows Subsystem for Linux, W. Come join me on this journey!"
 keywords: Fernando Corbato, Ken Thompson, Linus Torvalds, Linux, star-nix, Starnix, Daemons, Webdev, Windows Subsystem for Linux, W, Homepage, Projects, Scripts, Services, Journey, Tech, Idea
-categories: wsl, linux, journaling, python
+categories: journaling, wsl, linux, python
 permalink: /blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/
 layout: post
 group: blog
@@ -60,7 +60,7 @@ Windows 10, and so now everybody can [Drink Me](https://mikelev.in/drinkme).
 ## Categories
 
 <ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>
