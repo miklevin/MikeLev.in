@@ -810,7 +810,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 107
+    count: 110
     title: AI
   ai assistant:
     count: 1
@@ -1088,6 +1088,9 @@ dictitems:
   anaconda:
     count: 2
     title: Anaconda
+  analog news:
+    count: 1
+    title: Analog News
   analysis:
     count: 2
     title: Analysis
@@ -1256,6 +1259,9 @@ dictitems:
   apple computers:
     count: 1
     title: Apple Computers
+  apple iphone:
+    count: 1
+    title: Apple iPhone
   apple macs:
     count: 1
     title: Apple Macs
@@ -1667,6 +1673,9 @@ dictitems:
   bach:
     count: 2
     title: Bach
+  back end:
+    count: 1
+    title: Back End
   back hurts:
     count: 1
     title: Back Hurts
@@ -1908,7 +1917,7 @@ dictitems:
     count: 1
     title: Bets
   bet mitzvah:
-    count: 1
+    count: 2
     title: Bet Mitzvah
   betaanalyticsdataclient:
     count: 1
@@ -2099,6 +2108,9 @@ dictitems:
   black holes:
     count: 1
     title: Black Holes
+  black mirrors:
+    count: 1
+    title: black mirrors
   black snake experiment:
     count: 1
     title: black snake experiment
@@ -2366,6 +2378,9 @@ dictitems:
   breakthrough:
     count: 1
     title: Breakthrough
+  breast cancer:
+    count: 1
+    title: breast cancer
   breathing:
     count: 1
     title: Breathing
@@ -2402,6 +2417,9 @@ dictitems:
   broken:
     count: 1
     title: Broken
+  broken mirrors:
+    count: 1
+    title: broken mirrors
   broken picture links:
     count: 1
     title: Broken Picture Links
@@ -2753,6 +2771,9 @@ dictitems:
   cell:
     count: 2
     title: Cell
+  cell tower:
+    count: 1
+    title: Cell Tower
   cell walls:
     count: 1
     title: cell walls
@@ -2804,6 +2825,9 @@ dictitems:
   charity:
     count: 1
     title: Charity
+  charles:
+    count: 1
+    title: Charles
   charles darwin:
     count: 1
     title: Charles Darwin
@@ -2888,9 +2912,15 @@ dictitems:
   chewing gum wrapper:
     count: 1
     title: Chewing Gum Wrapper
+  chick:
+    count: 1
+    title: Chick
   chicken little:
     count: 1
     title: Chicken Little
+  chicken lynne:
+    count: 1
+    title: Chicken Lynne
   chien-shiung wu:
     count: 1
     title: Chien-Shiung Wu
@@ -3438,10 +3468,10 @@ dictitems:
     count: 1
     title: Common Files
   communication:
-    count: 5
+    count: 6
     title: Communication
   community:
-    count: 3
+    count: 4
     title: Community
   compare:
     count: 3
@@ -3822,8 +3852,8 @@ dictitems:
     count: 22
     title: Copilot
   copilot ai:
-    count: 1
-    title: CoPilot AI
+    count: 2
+    title: Copilot AI
   copilot,:
     count: 2
     title: Copilot,
@@ -4872,7 +4902,7 @@ dictitems:
     count: 1
     title: Difficulty
   digital:
-    count: 2
+    count: 3
     title: Digital
   digital electronics:
     count: 1
@@ -4922,6 +4952,9 @@ dictitems:
   directory:
     count: 4
     title: Directory
+  dirty dogs:
+    count: 1
+    title: Dirty Dogs
   dis close purrr:
     count: 1
     title: Dis Close Purrr
@@ -4932,7 +4965,7 @@ dictitems:
     count: 1
     title: Discipline
   disclosure:
-    count: 4
+    count: 5
     title: Disclosure
   disconnect:
     count: 1
@@ -5906,6 +5939,9 @@ dictitems:
   etls:
     count: 1
     title: ETLs
+  etz chaim:
+    count: 1
+    title: Etz Chaim
   euler diagrams:
     count: 1
     title: Euler Diagrams
@@ -6726,7 +6762,7 @@ dictitems:
     count: 1
     title: Framing
   france:
-    count: 1
+    count: 2
     title: France
   frank gorshin:
     count: 1
@@ -7052,6 +7088,9 @@ dictitems:
   gatekeeping:
     count: 1
     title: Gatekeeping
+  gaza:
+    count: 1
+    title: Gaza
   geek:
     count: 1
     title: Geek
@@ -7763,6 +7802,9 @@ dictitems:
   hal puthoff:
     count: 1
     title: Hal Puthoff
+  ham radio:
+    count: 1
+    title: HAM Radio
   hamburger links:
     count: 1
     title: Hamburger Links
@@ -7905,8 +7947,8 @@ dictitems:
     count: 1
     title: healthline.com
   heart failure:
-    count: 1
-    title: Heart Failure
+    count: 2
+    title: heart failure
   heartbeat tech system:
     count: 1
     title: Heartbeat Tech System
@@ -8271,8 +8313,8 @@ dictitems:
     count: 3
     title: Hugo
   human:
-    count: 8
-    title: Human
+    count: 9
+    title: Humans
   human beings:
     count: 1
     title: Human Beings
@@ -8922,7 +8964,7 @@ dictitems:
     count: 1
     title: International Education
   internet:
-    count: 8
+    count: 9
     title: Internet
   internet connection:
     count: 1
@@ -10361,6 +10403,9 @@ dictitems:
   location:
     count: 3
     title: Location
+  location services:
+    count: 1
+    title: Location Services
   lock-in:
     count: 1
     title: Lock-In
@@ -10625,6 +10670,9 @@ dictitems:
   lxdwin script:
     count: 1
     title: lxdwin script
+  lynne:
+    count: 1
+    title: Lynne
   lynnie:
     count: 1
     title: Lynnie
@@ -10656,7 +10704,7 @@ dictitems:
     count: 2
     title: MacBook Pro
   machiavelli:
-    count: 1
+    count: 2
     title: Machiavelli
   machine:
     count: 7
@@ -10707,7 +10755,7 @@ dictitems:
     count: 1
     title: Magellan
   magic:
-    count: 8
+    count: 9
     title: Magic
   magic eraser:
     count: 1
@@ -13998,8 +14046,8 @@ dictitems:
     count: 1
     title: Privacy Violations
   private:
-    count: 1
-    title: Private
+    count: 2
+    title: private
   private cloud server:
     count: 1
     title: Private Cloud Server
@@ -14294,6 +14342,9 @@ dictitems:
   public writing:
     count: 1
     title: public writing
+  public-facing:
+    count: 1
+    title: public-facing
   publickey:
     count: 1
     title: Publickey
@@ -14720,6 +14771,9 @@ dictitems:
   radian:
     count: 1
     title: Radians
+  radio shack:
+    count: 1
+    title: Radio Shack
   radio signal:
     count: 1
     title: Radio Signal
@@ -14901,7 +14955,7 @@ dictitems:
     count: 2
     title: Realization
   realize:
-    count: 1
+    count: 2
     title: Realize
   reamortize:
     count: 1
@@ -15246,7 +15300,7 @@ dictitems:
     count: 2
     title: Requirements.txt
   research:
-    count: 10
+    count: 11
     title: Research
   research institute for advanced study:
     count: 1
@@ -16125,7 +16179,7 @@ dictitems:
     count: 1
     title: Sentience
   sentient:
-    count: 1
+    count: 2
     title: Sentient
   sentient machines:
     count: 1
@@ -17622,7 +17676,7 @@ dictitems:
     count: 3
     title: Sun Microsystems
   sun tzu:
-    count: 3
+    count: 4
     title: Sun Tzu
   super:
     count: 1
@@ -17741,6 +17795,9 @@ dictitems:
   sybase:
     count: 1
     title: Sybase
+  syd:
+    count: 1
+    title: Syd
   sydney:
     count: 2
     title: Sydney
@@ -18560,6 +18617,9 @@ dictitems:
   trampolining:
     count: 1
     title: Trampolining
+  trans mitzvah:
+    count: 1
+    title: Trans Mitzvah
   transact sql:
     count: 1
     title: Transact SQL
@@ -18759,7 +18819,7 @@ dictitems:
     count: 1
     title: Twisted Bilayer Graphene
   twitter:
-    count: 8
+    count: 9
     title: Twitter
   twitter api:
     count: 1
@@ -18894,7 +18954,7 @@ dictitems:
     count: 3
     title: Understand
   understanding:
-    count: 3
+    count: 4
     title: Understanding
   undertale:
     count: 1
@@ -19901,6 +19961,9 @@ dictitems:
   win:
     count: 1
     title: win
+  win without fighting:
+    count: 1
+    title: Win Without Fighting
   win+left:
     count: 1
     title: Win+Left
@@ -19923,7 +19986,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 16
+    count: 17
     title: Windows 11
   windows 7:
     count: 1
