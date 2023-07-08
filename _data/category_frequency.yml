@@ -215,6 +215,9 @@ dictitems:
   '13':
     count: 1
     title: '13'
+  144k:
+    count: 1
+    title: 144K
   '16':
     count: 1
     title: '16'
@@ -447,7 +450,7 @@ dictitems:
     count: 1
     title: 80/20
   80/20 rule:
-    count: 4
+    count: 5
     title: 80/20 Rule
   80/20-rule:
     count: 12
@@ -560,6 +563,9 @@ dictitems:
   abstract thinking:
     count: 1
     title: Abstract Thinking
+  abstract thought:
+    count: 1
+    title: Abstract Thought
   abstraction:
     count: 2
     title: abstraction
@@ -1010,6 +1016,9 @@ dictitems:
   alternative:
     count: 5
     title: Alternative
+  alternative life:
+    count: 1
+    title: Alternative Life
   alternative to quantum theory:
     count: 1
     title: Alternative to Quantum Theory
@@ -1424,6 +1433,9 @@ dictitems:
   ascii art:
     count: 4
     title: ASCII art
+  ascii bunny:
+    count: 1
+    title: ASCII Bunny
   asian:
     count: 1
     title: Asians
@@ -1938,7 +1950,7 @@ dictitems:
     count: 4
     title: Bias
   bible:
-    count: 1
+    count: 2
     title: Bible
   bible,:
     count: 1
@@ -2004,7 +2016,7 @@ dictitems:
     count: 1
     title: Bill of Materials
   billy:
-    count: 1
+    count: 2
     title: Billy
   bin:
     count: 1
@@ -2489,6 +2501,9 @@ dictitems:
   bulk keyword analysis:
     count: 1
     title: Bulk Keyword Analysis
+  bully:
+    count: 1
+    title: Bully
   bullying:
     count: 1
     title: bullying
@@ -3849,7 +3864,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 22
+    count: 23
     title: Copilot
   copilot ai:
     count: 2
@@ -3950,6 +3965,9 @@ dictitems:
   courage:
     count: 2
     title: Courage
+  covenant:
+    count: 1
+    title: Covenant
   covid-19:
     count: 1
     title: Covid-19
@@ -8346,7 +8364,7 @@ dictitems:
     count: 1
     title: Humanism
   humanity:
-    count: 5
+    count: 6
     title: Humanity
   humanly accessible api-layer:
     count: 1
@@ -8750,6 +8768,9 @@ dictitems:
   inner voice:
     count: 1
     title: Inner Voice
+  innocent:
+    count: 1
+    title: Innocent
   innovate:
     count: 1
     title: Innovate
@@ -9077,6 +9098,9 @@ dictitems:
   iron:
     count: 2
     title: iron
+  iron bars:
+    count: 1
+    title: Iron Bars
   iron dome:
     count: 1
     title: Iron Dome
@@ -9464,6 +9488,9 @@ dictitems:
   jupyterscreen:
     count: 1
     title: jupyterscreen
+  ka ching:
+    count: 1
+    title: Ka Ching
   kabbalistic writings:
     count: 1
     title: Kabbalistic Writings
@@ -10304,6 +10331,9 @@ dictitems:
   live premiere:
     count: 1
     title: Live Premiere
+  live stream:
+    count: 1
+    title: Live Stream
   live streaming:
     count: 2
     title: Live Streaming
@@ -10704,7 +10734,7 @@ dictitems:
     count: 2
     title: MacBook Pro
   machiavelli:
-    count: 2
+    count: 3
     title: Machiavelli
   machine:
     count: 7
@@ -12284,6 +12314,9 @@ dictitems:
   nice:
     count: 1
     title: Nice
+  nick cage:
+    count: 1
+    title: Nick Cage
   nickname:
     count: 2
     title: Nickname
@@ -12404,6 +12437,9 @@ dictitems:
   nonsense:
     count: 1
     title: nonsense
+  nonsensical:
+    count: 1
+    title: Nonsensical
   noosphere:
     count: 1
     title: Noosphere
@@ -12461,6 +12497,9 @@ dictitems:
   notebook renaming:
     count: 1
     title: Notebook Renaming
+  nothing show:
+    count: 1
+    title: Nothing Show
   notification:
     count: 1
     title: Notifications
@@ -13223,11 +13262,14 @@ dictitems:
   penn & teller:
     count: 1
     title: Penn & Teller
+  penn state:
+    count: 1
+    title: Penn State
   penn station:
     count: 1
     title: Penn Station
   pennsylvania:
-    count: 1
+    count: 2
     title: Pennsylvania
   pentagon:
     count: 1
@@ -13286,6 +13328,9 @@ dictitems:
   permission:
     count: 5
     title: Permissions
+  persecution:
+    count: 1
+    title: Persecution
   perseverance:
     count: 1
     title: Perseverance
@@ -13373,6 +13418,9 @@ dictitems:
   philadelphian:
     count: 1
     title: Philadelphian
+  philly:
+    count: 1
+    title: Philly
   philly cream cheese:
     count: 1
     title: Philly Cream Cheese
@@ -13761,7 +13809,7 @@ dictitems:
     count: 1
     title: Portal
   poser:
-    count: 1
+    count: 2
     title: Poser
   positional argument:
     count: 1
@@ -15485,6 +15533,9 @@ dictitems:
   riddler,:
     count: 1
     title: Riddler,
+  ridiculous:
+    count: 1
+    title: Ridiculous
   rig:
     count: 1
     title: Rig
@@ -15812,6 +15863,9 @@ dictitems:
   saving:
     count: 1
     title: Saving
+  saxophone:
+    count: 1
+    title: Saxophone
   sbin:
     count: 1
     title: sbin
@@ -16598,6 +16652,9 @@ dictitems:
   sizzle:
     count: 1
     title: Sizzle
+  skapegoat:
+    count: 1
+    title: Skapegoat
   skeptic:
     count: 1
     title: Skeptics
@@ -17328,7 +17385,7 @@ dictitems:
     count: 1
     title: Steve Carell
   steve jobs:
-    count: 4
+    count: 5
     title: Steve Jobs
   steven greer:
     count: 1
@@ -17366,6 +17423,9 @@ dictitems:
   stone wall:
     count: 1
     title: stone wall
+  stone walls:
+    count: 1
+    title: Stone Walls
   stop words:
     count: 1
     title: Stop Words
@@ -17801,6 +17861,9 @@ dictitems:
   sydney:
     count: 2
     title: Sydney
+  syfy:
+    count: 1
+    title: SyFy
   symbol:
     count: 2
     title: symbols
@@ -17964,7 +18027,7 @@ dictitems:
     count: 1
     title: Talmudic Commentaries
   tao te ching:
-    count: 1
+    count: 2
     title: Tao Te Ching
   tardigrade:
     count: 2
@@ -18326,6 +18389,9 @@ dictitems:
   third great-twenty-eight:
     count: 1
     title: Third Great-Twenty-Eight
+  thomas riker:
+    count: 1
+    title: Thomas Riker
   thomas young:
     count: 1
     title: Thomas Young

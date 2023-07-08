@@ -57,7 +57,7 @@ sources. Baring that, look at different sources. Twitter is a valid source.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-magic-mirror/">The Magic Mirror</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-magic-mirror/">The Magic Mirror</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/who-what-why-when-where-how/">Who, What, Why, When, Where & How?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
