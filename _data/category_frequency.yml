@@ -3501,7 +3501,7 @@ dictitems:
     count: 1
     title: Compass
   compassion:
-    count: 3
+    count: 4
     title: Compassion
   compatibility:
     count: 1
@@ -7887,8 +7887,8 @@ dictitems:
     count: 1
     title: Harvard University
   have:
-    count: 1
-    title: haves
+    count: 2
+    title: Have
   have-not:
     count: 1
     title: have-nots
@@ -9758,6 +9758,9 @@ dictitems:
   labextension:
     count: 1
     title: Labextension
+  lack:
+    count: 1
+    title: Lack
   lamb:
     count: 1
     title: Lamb
@@ -10565,6 +10568,9 @@ dictitems:
   lorenz butterfly equation:
     count: 1
     title: Lorenz Butterfly Equation
+  lose:
+    count: 1
+    title: Lose
   lotus 123:
     count: 1
     title: Lotus 123
@@ -16914,7 +16920,7 @@ dictitems:
     count: 1
     title: Solla Sollew
   solution:
-    count: 3
+    count: 4
     title: Solutions
   solvay congress:
     count: 1
@@ -20025,8 +20031,8 @@ dictitems:
     count: 1
     title: Willy Wonka
   win:
-    count: 1
-    title: win
+    count: 2
+    title: Win
   win without fighting:
     count: 1
     title: Win Without Fighting

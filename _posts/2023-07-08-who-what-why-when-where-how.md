@@ -95,7 +95,7 @@ What?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-up-doc/">What's Up Doc?</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-up-doc/">What's Up Doc?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/key-compassion-compassion-is-key-lack-it-lose-it-have-it-win-it/">Key Compassion. Compassion is Key. Lack it Lose it. Have it Win it.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
