@@ -39,6 +39,9 @@ laundry. Ho hum.
 
 What?
 
+That was ALL typed by Copilot. I have no idea what it's talking about. Is that
+nutty or what? Anyone? Anyone? Bueller?
+
 
 
 

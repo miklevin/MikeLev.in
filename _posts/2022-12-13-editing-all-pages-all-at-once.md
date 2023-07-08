@@ -4,7 +4,7 @@ title: Editing All Pages All At Once
 headline: Making the Big Transition to Best Foot Forward SEO
 description: This blog post explores the challenges of adjusting to a new SEO workflow, including editing 13 files in vim buffers, cleaning up a Skite static site generator repo, and making changes to the main pages and blog query. It's a difficult transition for the author, who is a pack-rat when it comes to online things, and they must learn to let go of old habits in order to make the most of the blog query and toggle active or inactive posts.
 keywords: SEO, Workflow, Editing, Vim Buffers, Skite, Static Site Generator, Main Pages, Blog Query, Toggle Active/Inactive, Best Foot Forward SEO, Pack-Rat, Online Things, Categorization, Navigation, Surf Straight Through, Publish-Date Oriented
-categories: static site generator, navigation, seo
+categories: navigation, static site generator, seo
 permalink: /blog/editing-all-pages-all-at-once/
 layout: post
 group: blog
@@ -95,6 +95,6 @@ just like it is in real-life. I've got to get past that.
 ## Categories
 
 <ul>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/navigation/'>Navigation</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li></ul>
