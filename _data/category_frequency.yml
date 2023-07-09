@@ -173,6 +173,12 @@ dictitems:
   00_core.ipynb:
     count: 1
     title: 00_core.ipynb
+  09:
+    count: 1
+    title: 09
+  0d39r33zk:
+    count: 1
+    title: 0d39r33zk
   '1':
     count: 1
     title: '1'
@@ -297,7 +303,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 10
+    count: 11
     title: '2023'
   2030 agenda:
     count: 1
@@ -524,6 +530,9 @@ dictitems:
   a-game:
     count: 1
     title: A-game
+  a-i-s-e-o:
+    count: 1
+    title: A-I-S-E-O
   a-records:
     count: 1
     title: A-Records
@@ -2169,7 +2178,7 @@ dictitems:
     count: 4
     title: Blockchain
   blog:
-    count: 14
+    count: 15
     title: Blog
   blog post:
     count: 10
@@ -2417,6 +2426,9 @@ dictitems:
   brightlocal:
     count: 1
     title: BrightLocal
+  british isles:
+    count: 1
+    title: British Isles
   broad interest:
     count: 1
     title: Broad Interest
@@ -2880,7 +2892,7 @@ dictitems:
     count: 4
     title: ChatBots
   chatgpt:
-    count: 25
+    count: 26
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3864,7 +3876,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 23
+    count: 24
     title: Copilot
   copilot ai:
     count: 2
@@ -7109,6 +7121,9 @@ dictitems:
   gaza:
     count: 1
     title: Gaza
+  gb:
+    count: 1
+    title: GB
   geek:
     count: 1
     title: Geek
@@ -7560,7 +7575,7 @@ dictitems:
     count: 2
     title: GPL
   gpt:
-    count: 5
+    count: 6
     title: GPT
   gpt models:
     count: 1
@@ -9410,6 +9425,9 @@ dictitems:
   judaism:
     count: 1
     title: Judaism
+  jul:
+    count: 1
+    title: Jul
   julian schwinger:
     count: 1
     title: Julian Schwinger
@@ -9962,6 +9980,9 @@ dictitems:
   leopard gecko:
     count: 1
     title: Leopard Gecko
+  leslie nielson:
+    count: 1
+    title: Leslie Nielson
   lesson:
     count: 4
     title: Lessons
@@ -10340,6 +10361,9 @@ dictitems:
   live streaming:
     count: 2
     title: Live Streaming
+  live-cast:
+    count: 1
+    title: Live-cast
   live-streaming:
     count: 3
     title: Live-Streaming
@@ -11126,6 +11150,9 @@ dictitems:
   may 17th:
     count: 1
     title: May 17th
+  mc lovin:
+    count: 1
+    title: Mc Lovin
   md file:
     count: 1
     title: md File
@@ -11318,6 +11345,9 @@ dictitems:
   messaging:
     count: 2
     title: Messaging
+  messing:
+    count: 1
+    title: Messing
   meta description:
     count: 1
     title: Meta Description
@@ -11493,7 +11523,7 @@ dictitems:
     count: 2
     title: Mike
   mike levin:
-    count: 12
+    count: 13
     title: Mike Levin
   mike levin seo:
     count: 2
@@ -12473,6 +12503,9 @@ dictitems:
   north korea:
     count: 1
     title: North Korea
+  northern irish:
+    count: 1
+    title: Northern Irish
   northrop grumman:
     count: 1
     title: Northrop Grumman
@@ -12561,7 +12594,7 @@ dictitems:
     count: 1
     title: nvim
   nyc:
-    count: 9
+    count: 10
     title: NYC
   nyc,:
     count: 1
@@ -12683,6 +12716,9 @@ dictitems:
   okapi:
     count: 1
     title: Okapi
+  old mike levin:
+    count: 1
+    title: Old Mike Levin
   old-school:
     count: 1
     title: Old-School
@@ -12792,8 +12828,11 @@ dictitems:
     count: 41
     title: OpenAI
   openai api:
-    count: 2
+    count: 3
     title: OpenAI API
+  openai codex:
+    count: 1
+    title: OpenAI Codex
   openai codex api:
     count: 1
     title: OpenAI Codex API
@@ -15827,6 +15866,9 @@ dictitems:
   samsung note:
     count: 1
     title: Samsung Note
+  samurai jack:
+    count: 1
+    title: Samurai Jack
   samurai miyamoto musashi:
     count: 1
     title: Samurai Miyamoto Musashi
@@ -15974,6 +16016,9 @@ dictitems:
   scoring:
     count: 1
     title: Scoring
+  scot:
+    count: 1
+    title: Scots
   scott m.:
     count: 1
     title: Scott M.
@@ -15998,6 +16043,9 @@ dictitems:
   screen recorder:
     count: 1
     title: Screen Recorder
+  screencasting:
+    count: 1
+    title: Screencasting
   screenshot:
     count: 2
     title: Screenshot
@@ -16248,7 +16296,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 86
+    count: 87
     title: SEO
   seo blog:
     count: 1
@@ -16866,8 +16914,8 @@ dictitems:
     count: 1
     title: Social Justice
   social media:
-    count: 3
-    title: social media
+    count: 4
+    title: Social Media
   social ranks:
     count: 1
     title: Social Ranks
@@ -17733,7 +17781,7 @@ dictitems:
     count: 1
     title: Summer Project
   sun:
-    count: 5
+    count: 6
     title: Sun
   sun may 14:
     count: 1
@@ -17751,7 +17799,7 @@ dictitems:
     count: 1
     title: Super-Symmetry
   superbad:
-    count: 1
+    count: 2
     title: Superbad
   superconducting quantum computers:
     count: 1
@@ -18305,6 +18353,9 @@ dictitems:
   thanos:
     count: 1
     title: Thanos
+  the:
+    count: 1
+    title: The
   the art of war:
     count: 1
     title: The Art of War
@@ -18983,6 +19034,9 @@ dictitems:
   uikit:
     count: 1
     title: UIkit
+  uk:
+    count: 1
+    title: UK
   ukraine:
     count: 1
     title: Ukraine
@@ -20391,7 +20445,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 47
+    count: 48
     title: YouTube
   youtube analytics:
     count: 1

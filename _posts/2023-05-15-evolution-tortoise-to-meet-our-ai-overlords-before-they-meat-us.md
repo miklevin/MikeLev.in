@@ -4,7 +4,7 @@ title: Evolution Tortoise to Meet Our AI Overlords Before They Meat Us
 headline: "Discovering Life's Lessons Through Sci-Fi: My Journey to AI Overlordship"
 description: I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.
 keywords: SEO, Writing, Journals, Digital, Google Books, The Circle, Lily-Ray, Flying Point Digital, 360i, Dentsu, Brian Weiner, Sarah Hofstetter, Brandon Heagle, Ready Player One, Star Wars, Boris Zilberman, Diamond Age, Big Bang Theory, James Webb Space Telescope, AI, Copilot, OpenAI, Iain M. Banks, Culture, Asimov, John Wheeler, Richard Feynman, Claude Shannon, Alan Turing, John
-categories: seo, ai
+categories: ai, seo
 permalink: /blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/
 layout: post
 group: blog
@@ -355,5 +355,5 @@ introducing a linear aspect in a circular symbol. It's a continuum thing.
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

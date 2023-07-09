@@ -4,7 +4,7 @@ title: An Essay on Modern SEO. A Call to Pipulate.
 headline: "Exploring SEO in the Modern Market: A Journey of Data Analysis and Automation"
 description: I'm exploring the effectiveness of SEO in the modern market, using data from Google Search Console and Google Analytics. I'm utilizing Python, Jupyter, and linear regression to analyze my website's keyword trends and create automated clarity-inducing reminders. By doing so, I can better understand what's driving people to my website and optimize it for success. Join me on my journey as I take a deep dive into the basics of SEO and website optimization.
 keywords: Modern SEO, Pipulate, Google Search Console, Google Analytics, Python, Jupyter, Linear Regression, Website Optimization, Trends, Keywords, Graph, Quantify, Search Console, Investigate, Optimize
-categories: seo, google, python, pipulate, jupyter
+categories: seo, jupyter, pipulate, google, python
 permalink: /blog/an-essay-on-modern-seo-a-call-to-pipulate/
 layout: post
 group: blog
@@ -142,7 +142,7 @@ claiming to be an SEO. The good news is it's simpler than you think.
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

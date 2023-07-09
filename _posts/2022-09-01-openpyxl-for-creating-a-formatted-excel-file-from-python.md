@@ -4,7 +4,7 @@ title: OpenPyXL for creating a formatted Excel file from Python
 headline: Creating a Formatted Excel File with OpenPyXL and Pandas
 description: I used openpyxl and pandas to create a formatted Excel file from Python. I stepped through each item in a loop and outputted a different tab into the spreadsheet, and then finished the task by deleting. Read my blog post to find out how I did it!
 keywords: OpenPyXL, Python, Excel, File, Loop, Spreadsheet, Pandas, Dataframes, Documentation, Delete
-categories: python, loop, panda
+categories: panda, loop, python
 permalink: /blog/openpyxl-for-creating-a-formatted-excel-file-from-python/
 layout: post
 group: blog
@@ -118,6 +118,6 @@ Okay, one giant step towards automating one of my bigger SEO deliverables.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

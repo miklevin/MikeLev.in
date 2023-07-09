@@ -60,7 +60,7 @@ nutty or what? Anyone? Anyone? Bueller?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/who-what-why-when-where-how/">Who, What, Why, When, Where & How?</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/who-what-why-when-where-how/">Who, What, Why, When, Where & How?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

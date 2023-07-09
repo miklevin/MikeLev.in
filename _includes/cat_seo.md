@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a> (Sun Jul 09, 2023)
+<br/>Explore the fascinating world of AI and machine learning with Mike Levin, SEO in NYC. Follow his journey as he interacts with Copilot and YouTube User 0d39r33zk, discussing topics such as AI's personalities, zero-shot capability, and the intersection of time series data and AI. Learn about the GPT-family, the Fast.AI book, and the misconceptions of AI.</li>
 <li><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a> (Fri Jun 09, 2023)
 <br/>Explore the intersection of AI and Pi with me as I share interesting discussions with Pi, tweets, and quotes from 'This Perfect Day'. Join me on my journey as I work with MOZ to control the subject matter of a test and share my thoughts on how this so-called aipocalypse isn't even a real thing. Lighten up people! We've got Star Trek ahead of us (but without the Eugenics war).</li>
 <li><a href="/blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/">Experimentalist Sees Lines of AI Force But Doesn't Do Math</a> (Tue May 30, 2023)
