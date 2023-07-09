@@ -1,6 +1,6 @@
 <ol>
 <li><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a> (Sun Jul 09, 2023)
-<br/>I'm in an AI LOVE-FEST right now, discussing favorite books with 0d39r33zk that broaden our perspective. We talk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn</li>
+<br/>I'm in an AI LOVE-FEST right now, discussing favorite books with Pi AI that have broadened its perspective. We talk with 0d39r33zk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' radio broadcast of War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn</li>
 <li><a href="/blog/what-s-up-doc/">What's Up Doc?</a> (Sun Jul 02, 2023)
 <br/>I'm back on my Windows 11 'Darth Laptop' and I'm wondering what's going on in the world. AI's are running wild and I'm not sure if we can stop them. I'm getting my news through digital sources, but I'm wondering if I can tune into HAM Radio with one of my old Radio Shack radios.</li>
 <li><a href="/blog/the-magic-mirror/">The Magic Mirror</a> (Sun Jun 25, 2023)

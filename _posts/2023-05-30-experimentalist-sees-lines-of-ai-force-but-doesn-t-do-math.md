@@ -4,7 +4,7 @@ title: Experimentalist Sees Lines of AI Force But Doesn't Do Math
 headline: Exploring the Power of Emotional Forces with AI Assuage Dream Team
 description: As an SEO, I'm fascinated by the next-level AI technology that is emerging. I'm inspired by the likes of Michael Faraday, Vincent Van Gogh, and James Clerk Maxwell, and I'm aware of the potential risks posed by powerful technologies like CRISPR. I'm advocating for a more humane approach to AI, and suggest that we take inspiration from greats such as Mr. Rogers, Bob Ross, Carl Sagan, Robin Williams, and Stan Lee to assuage fear.
 keywords: AI, Bing, Bard, SGE, Knowledge Graph, Rich Snippets, ChatBots, SEO, Faraday, Van Gogh, Deep Mind Alpha Go, Inflection, AI assistant, personality, ChatGPT, 2021, crawl data, Bobiverse, Dennis E. Taylor, Von Neumann probes, GPU clusters, AI-chips, Apple phones, WiFi, CRISPR, gene-editing, DNA, base pair, chromosomes, gene expression, 3D biological
-categories: ai, seo, bing
+categories: bing, ai, seo
 permalink: /blog/experimentalist-sees-lines-of-ai-force-but-doesn-t-do-math/
 layout: post
 group: blog
@@ -269,6 +269,6 @@ do the math.
 ## Categories
 
 <ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
