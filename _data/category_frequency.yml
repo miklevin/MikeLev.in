@@ -741,8 +741,8 @@ dictitems:
     count: 1
     title: Adobe Flash
   adult:
-    count: 1
-    title: Adults
+    count: 2
+    title: adult
   adulthood:
     count: 1
     title: Adulthood
@@ -3360,7 +3360,7 @@ dictitems:
     count: 1
     title: Collective Consciousness
   college:
-    count: 1
+    count: 2
     title: college
   college career:
     count: 1
@@ -5358,8 +5358,8 @@ dictitems:
     count: 1
     title: Draft to Publish
   drama:
-    count: 1
-    title: Drama
+    count: 2
+    title: drama
   draw line in the sand:
     count: 1
     title: Draw Line in the Sand
@@ -6366,7 +6366,7 @@ dictitems:
     count: 1
     title: Fame
   family:
-    count: 4
+    count: 5
     title: Family
   family drama:
     count: 1
@@ -6554,6 +6554,9 @@ dictitems:
   file-handle:
     count: 1
     title: File-Handle
+  file-organization:
+    count: 1
+    title: file-organization
   file-transfer:
     count: 1
     title: File-Transfer
@@ -6800,6 +6803,9 @@ dictitems:
   forging source:
     count: 1
     title: Forging Source
+  forgive:
+    count: 1
+    title: forgive
   forking mode:
     count: 1
     title: Forking Mode
@@ -7970,6 +7976,9 @@ dictitems:
   hard work:
     count: 2
     title: Hard Work
+  hard-copy:
+    count: 1
+    title: hard-copy
   hardware:
     count: 17
     title: Hardware
@@ -9780,7 +9789,7 @@ dictitems:
     count: 1
     title: Kickstarters
   kid:
-    count: 2
+    count: 3
     title: Kid
   kid,:
     count: 1
@@ -10008,7 +10017,7 @@ dictitems:
     count: 1
     title: Lawrence Livermore National Laboratory
   lawyer:
-    count: 2
+    count: 3
     title: Lawyer
   lay of the land:
     count: 1
@@ -11169,7 +11178,7 @@ dictitems:
     count: 1
     title: Marlon Brando
   marriage:
-    count: 1
+    count: 2
     title: marriage
   marry:
     count: 1
@@ -11354,6 +11363,9 @@ dictitems:
   media literacy:
     count: 1
     title: Media Literacy
+  media-hype:
+    count: 1
+    title: media-hype
   mediaitems:
     count: 1
     title: MediaItems
@@ -13104,7 +13116,7 @@ dictitems:
     count: 9
     title: Organization
   organize:
-    count: 2
+    count: 3
     title: Organize
   organized:
     count: 1
@@ -13293,7 +13305,7 @@ dictitems:
     count: 1
     title: Pandas Library
   pandemic:
-    count: 5
+    count: 6
     title: Pandemic
   pandering:
     count: 1
@@ -13307,6 +13319,9 @@ dictitems:
   papermill:
     count: 1
     title: Papermill
+  paperwork:
+    count: 1
+    title: paperwork
   paradigm:
     count: 1
     title: Paradigm
@@ -13452,7 +13467,7 @@ dictitems:
     count: 1
     title: PCMag
   pdf:
-    count: 1
+    count: 2
     title: PDF
   peano axioms:
     count: 1
@@ -14276,6 +14291,9 @@ dictitems:
   printing press:
     count: 1
     title: printing press
+  printout:
+    count: 1
+    title: printouts
   prioritize:
     count: 2
     title: Prioritize
@@ -14555,6 +14573,9 @@ dictitems:
   psychohistory:
     count: 1
     title: psychohistory
+  psychological-projection:
+    count: 1
+    title: psychological-projection
   psychology:
     count: 1
     title: Psychology
@@ -14600,6 +14621,9 @@ dictitems:
   public-facing:
     count: 1
     title: public-facing
+  public-transportation:
+    count: 1
+    title: public-transportation
   publickey:
     count: 1
     title: Publickey
@@ -14987,6 +15011,9 @@ dictitems:
   r. daneel olivaw:
     count: 1
     title: R. Daneel Olivaw
+  rabbi:
+    count: 1
+    title: rabbi
   rabbit:
     count: 2
     title: Rabbit
@@ -16674,7 +16701,7 @@ dictitems:
     count: 1
     title: Shelter Island Conference
   shema:
-    count: 1
+    count: 2
     title: Shema
   sherlock holmes:
     count: 1
@@ -18336,7 +18363,7 @@ dictitems:
     count: 1
     title: team
   tech:
-    count: 16
+    count: 17
     title: Tech
   tech career:
     count: 1
@@ -18695,6 +18722,9 @@ dictitems:
   tijuana:
     count: 1
     title: Tijuana
+  tiktok:
+    count: 1
+    title: TikTok
   tiktoken:
     count: 1
     title: tiktoken
@@ -19725,7 +19755,7 @@ dictitems:
     count: 1
     title: Vice President
   video:
-    count: 32
+    count: 33
     title: Video
   video card driver:
     count: 1
