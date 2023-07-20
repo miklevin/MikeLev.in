@@ -4,6 +4,7 @@ title: "Fighting for What's Right: Looking at the Whole Picture to Reunite with 
 headline: "Fighting for What's Right: Looking at the Whole Picture to Reunite with My Kid"
 description: In this journal entry, I discuss my progress in making contact with a lawyer and preparing for a meeting. I also reflect on the importance of looking at the whole picture in life and relationships, and how I am trying to be a good father, husband, and friend.
 keywords: lawyer, paperwork, PDF, organize, tech, hard-copy, printouts, file-organization, adult, kid, family, marriage, college, public-transportation, media-hype, pandemic, drama, psychological-projection, video, TikTok, rabbi, Shema, forgive
+publish: False
 categories: 
 permalink: /blog/fighting-for-what-s-right-looking-at-the-whole-picture-to-reunite-with-my-kid/
 layout: post

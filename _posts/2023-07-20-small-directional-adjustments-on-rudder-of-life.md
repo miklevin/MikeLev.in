@@ -4,6 +4,7 @@ title: Small Directional Adjustments on Rudder of Life
 headline: "Taking Control of the Rudder of Life: Making Small Directional Adjustments for Self-Actualization."
 description: I am learning to make small directional adjustments in my life to become my fully self-actualized self. Through self-reflection, personal journaling, and the use of AI tools, I am taking control of the rudder of my own ship and doing some better steering. I am looking outwards and into digital equipment to improve my life and not as a distraction. I am sharing my experience with the public in order to promote self-awareness and self-correction.
 keywords: date, Thu, Jul, 20, 2023, Small, Directional, Adjustments, Rudder, Life, Concerned, Crazy, Irrevocably, Deep, Shit, Indomitable, Journal, Entry, Snap, Mode, Daily, Behavior, Working, Writing, Public, People, Don't, Like, Cheering, Failure, Antisemite, John, Nash, Game, Theory, Zero, Sum, Fallacy, Alan, Alda, MASH,
+publish: False
 categories: theory
 permalink: /blog/small-directional-adjustments-on-rudder-of-life/
 layout: post
