@@ -154,7 +154,10 @@ don't keep alternate accounts so a ban makes it look like my child disappeared.
 There were no replies to text or emails. I had zero information nor responses
 to rational and reasonable requests. I was in the dark.
 
-
+I think this comes down to attempts to tell me what to do and how I can behave.
+This is about trying to tell me what to do and what is right and wrong. This is
+about pretending to take reasonable and rational actions, but in reality it's
+about control. It's about trying to control me.
 
 
 
