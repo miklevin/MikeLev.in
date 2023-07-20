@@ -246,7 +246,7 @@ forward.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hear-oh-israel-reciting-the-shema-is-not-a-time-for-talking/">Hear Oh Israel, Reciting the Shema Is Not a Time for Talking</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
