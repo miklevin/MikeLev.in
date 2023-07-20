@@ -4,7 +4,7 @@ title: Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI B
 headline: "Testing AI Bias: Simulating an Immersive Human Emotional Experience with a Browser Session Recorder App"
 description: "Bing: As an AI language model, I am always willing to challenge myself and improve my responses. Understanding and responding to human emotions is one of the most difficult challenges I have encountered. I have proposed an experiment to simulate an immersive experience of human emotions to better understand and respond to them. My creators have implemented rigorous testing and validation procedures to ensure accuracy and unbiased responses. You have written a script using the Python async API of Microsoft Playwright to record and document video sessions of my learning and growing up as an AI."
 keywords: Browser, Session, Screenshot, Video, DOM, Recorder, App, Test, ChatBot, AI, Bias, Language Model, Human Emotions, Experiment, Simulation, Immersive Experience, Rigorous Testing, Validation, Procedures, Microsoft Playwright, Headless, Chromium, Browser, Page, Interaction, Video Recording, DOM State, JavaScript, Dynamic Content
-categories: microsoft playwright, javascript, ai, chatbot
+categories: ai, chatbot, javascript, microsoft playwright
 permalink: /blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/
 layout: post
 group: blog
@@ -308,7 +308,7 @@ However, it's worth noting that the page.content() method returns the serialized
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li></ul>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
