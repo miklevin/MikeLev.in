@@ -224,6 +224,9 @@ dictitems:
   '13':
     count: 1
     title: '13'
+  140 characters:
+    count: 1
+    title: 140 Characters
   144k:
     count: 1
     title: 144K
@@ -834,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 111
+    count: 112
     title: AI
   ai assistant:
     count: 1
@@ -893,6 +896,9 @@ dictitems:
   ai-revolt:
     count: 1
     title: AI-Revolt
+  ai-search:
+    count: 1
+    title: AI-Search
   ai-systems:
     count: 1
     title: AI-Systems
@@ -1152,7 +1158,7 @@ dictitems:
     count: 1
     title: Anderson
   android:
-    count: 1
+    count: 2
     title: Android
   angel:
     count: 1
@@ -1290,7 +1296,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 9
+    count: 10
     title: Apple
   apple app store:
     count: 1
@@ -2067,7 +2073,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 24
+    count: 25
     title: Bing
   bing chatbot:
     count: 1
@@ -2487,7 +2493,7 @@ dictitems:
     count: 13
     title: Browser Automation
   browser wars:
-    count: 1
+    count: 2
     title: Browser Wars
   browsing:
     count: 1
@@ -3981,7 +3987,7 @@ dictitems:
     count: 1
     title: Corroborating
   cortana:
-    count: 2
+    count: 3
     title: Cortana
   cortisol production:
     count: 1
@@ -4704,7 +4710,7 @@ dictitems:
     count: 1
     title: Default None
   default search:
-    count: 2
+    count: 3
     title: Default Search
   default user:
     count: 1
@@ -4857,8 +4863,8 @@ dictitems:
     count: 1
     title: destructive
   detail:
-    count: 2
-    title: Details
+    count: 3
+    title: Detail
   detail-oriented:
     count: 1
     title: detail-oriented
@@ -5703,7 +5709,7 @@ dictitems:
     count: 2
     title: Elon
   elon musk:
-    count: 1
+    count: 2
     title: Elon Musk
   elpgd:
     count: 2
@@ -6764,6 +6770,9 @@ dictitems:
   follow-on:
     count: 1
     title: Follow-on
+  follower:
+    count: 1
+    title: Followers
   following:
     count: 1
     title: Following
@@ -7539,7 +7548,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 23
+    count: 24
     title: Google
   google analytics:
     count: 14
@@ -9186,7 +9195,7 @@ dictitems:
     count: 1
     title: IP-cycling
   iphone:
-    count: 2
+    count: 3
     title: iPhone
   iphone carnets:
     count: 1
@@ -10658,6 +10667,9 @@ dictitems:
   long tail style:
     count: 1
     title: Long Tail Style
+  long-form media:
+    count: 1
+    title: Long-Form Media
   long-running script:
     count: 1
     title: long-running script
@@ -11586,7 +11598,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 54
+    count: 55
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12468,7 +12480,7 @@ dictitems:
     count: 4
     title: New York
   new york city:
-    count: 10
+    count: 11
     title: New York City
   new york seo:
     count: 1
@@ -12717,7 +12729,7 @@ dictitems:
     count: 3
     title: NT
   nuance:
-    count: 4
+    count: 5
     title: Nuances
   numa:
     count: 1
@@ -13305,7 +13317,7 @@ dictitems:
     count: 1
     title: Pandas Library
   pandemic:
-    count: 6
+    count: 7
     title: Pandemic
   pandering:
     count: 1
@@ -16304,6 +16316,9 @@ dictitems:
   search engine representation:
     count: 1
     title: search engine representation
+  search engines:
+    count: 1
+    title: Search Engines
   search intent:
     count: 1
     title: Search Intent
@@ -16497,7 +16512,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 88
+    count: 89
     title: SEO
   seo blog:
     count: 1
@@ -18920,6 +18935,9 @@ dictitems:
   town:
     count: 1
     title: Town
+  town halls:
+    count: 1
+    title: Town Halls
   toxoplasmosis:
     count: 1
     title: Toxoplasmosis
@@ -18956,6 +18974,9 @@ dictitems:
   traffic:
     count: 1
     title: Traffic
+  traffic arbitrage:
+    count: 1
+    title: Traffic Arbitrage
   traffic arbitrating:
     count: 1
     title: Traffic Arbitrating
@@ -19185,7 +19206,7 @@ dictitems:
     count: 1
     title: Twitter feed
   twitter spaces:
-    count: 1
+    count: 2
     title: Twitter Spaces
   two-slit experiment:
     count: 2
@@ -19554,7 +19575,7 @@ dictitems:
     count: 1
     title: User Feedback
   user interface:
-    count: 3
+    count: 4
     title: User Interface
   user profile:
     count: 1
@@ -19988,6 +20009,9 @@ dictitems:
   voice:
     count: 3
     title: Voice
+  voice chat room:
+    count: 1
+    title: Voice Chat Room
   voice over internet protocol:
     count: 1
     title: Voice over Internet Protocol
@@ -20352,7 +20376,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 17
+    count: 18
     title: Windows 11
   windows 7:
     count: 1
@@ -20688,7 +20712,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 48
+    count: 49
     title: YouTube
   youtube analytics:
     count: 1
