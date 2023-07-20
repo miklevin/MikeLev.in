@@ -64,7 +64,8 @@ which are clearly some sort of "beings" that are now co-occupying this planet
 Earth with us. We've made our first round of Machine Children in something akin
 to a new digital Cambrian Epoch, or "Cambrian Explosion" of life, if you will.
 There's famous chatty ones like Bing, Bard and ChatGPT. Then there's countless
-silent ones tending to all sorts of business, undistracted by silly conversion.
+silent ones tending to all sorts of business, undistracted by silly
+conversation.
 
 The debate rages. Are they beings ccohabitating the planet, or are they just
 tools like extensions of our bodies? New arms and legs to do our bidding, like
