@@ -468,8 +468,8 @@ dictitems:
     count: 5
     title: 80/20 Rule
   80/20-rule:
-    count: 12
-    title: 80/20-rule
+    count: 13
+    title: 80/20-Rule
   '80286':
     count: 1
     title: '80286'
@@ -1535,6 +1535,9 @@ dictitems:
   attachment:
     count: 1
     title: Attachment
+  attack:
+    count: 1
+    title: Attack
   attacked:
     count: 1
     title: attacked
@@ -1755,7 +1758,7 @@ dictitems:
     count: 1
     title: baking soda and vinegar reaction
   balance:
-    count: 3
+    count: 4
     title: Balance
   balance between order and chaos:
     count: 1
@@ -2850,7 +2853,7 @@ dictitems:
     count: 1
     title: Chameleon
   change:
-    count: 9
+    count: 10
     title: Changes
   change ip:
     count: 1
@@ -2987,6 +2990,9 @@ dictitems:
   child:
     count: 10
     title: Child
+  child abduction:
+    count: 1
+    title: Child Abduction
   child prodigy:
     count: 1
     title: Child Prodigy
@@ -3531,7 +3537,7 @@ dictitems:
     count: 1
     title: Common Files
   communication:
-    count: 7
+    count: 8
     title: Communication
   community:
     count: 4
@@ -4019,6 +4025,9 @@ dictitems:
   courage:
     count: 2
     title: Courage
+  court:
+    count: 1
+    title: Court
   covenant:
     count: 1
     title: Covenant
@@ -4280,6 +4289,9 @@ dictitems:
   custody:
     count: 1
     title: custody
+  custody agreement:
+    count: 1
+    title: Custody Agreement
   custody battle:
     count: 1
     title: Custody Battle
@@ -4655,6 +4667,9 @@ dictitems:
   deep breathing:
     count: 1
     title: Deep Breathing
+  deep dive:
+    count: 1
+    title: Deep Dive
   deep fakes:
     count: 1
     title: deep fakes
@@ -5094,7 +5109,7 @@ dictitems:
     count: 1
     title: Disorder
   disorganized:
-    count: 1
+    count: 2
     title: Disorganized
   displace:
     count: 1
@@ -5706,7 +5721,7 @@ dictitems:
     count: 1
     title: Emacs Wizards
   email:
-    count: 9
+    count: 10
     title: Email
   embed:
     count: 1
@@ -6006,7 +6021,7 @@ dictitems:
     count: 1
     title: Ethics
   ethical:
-    count: 3
+    count: 4
     title: Ethical
   ethical considerations:
     count: 1
@@ -9047,6 +9062,9 @@ dictitems:
   interference:
     count: 1
     title: Interference
+  intermediary:
+    count: 1
+    title: Intermediaries
   intermittent random pauses:
     count: 1
     title: Intermittent Random Pauses
@@ -9990,7 +10008,7 @@ dictitems:
     count: 1
     title: Lawrence Livermore National Laboratory
   lawyer:
-    count: 1
+    count: 2
     title: Lawyer
   lay of the land:
     count: 1
@@ -10049,6 +10067,9 @@ dictitems:
   left-to-right:
     count: 1
     title: left-to-right
+  legal:
+    count: 1
+    title: Legal
   legal reasons:
     count: 1
     title: Legal Reasons
@@ -11318,6 +11339,9 @@ dictitems:
   media files:
     count: 1
     title: Media Files
+  media hype:
+    count: 1
+    title: Media Hype
   media ids:
     count: 1
     title: Media IDs
@@ -11880,7 +11904,7 @@ dictitems:
     count: 1
     title: Monetize
   money:
-    count: 8
+    count: 9
     title: Money
   mongodb:
     count: 2
@@ -11907,7 +11931,7 @@ dictitems:
     count: 1
     title: Monty Hall Problem
   moral:
-    count: 1
+    count: 2
     title: Moral
   moral obligation:
     count: 1
@@ -13077,7 +13101,7 @@ dictitems:
     count: 1
     title: Organic Traffic
   organization:
-    count: 8
+    count: 9
     title: Organization
   organize:
     count: 2
@@ -13610,6 +13634,9 @@ dictitems:
   phishing vulnerability:
     count: 1
     title: Phishing Vulnerability
+  phone:
+    count: 1
+    title: Phone
   photo:
     count: 1
     title: photos
@@ -14255,6 +14282,9 @@ dictitems:
   prioritizing:
     count: 2
     title: Prioritizing
+  priority:
+    count: 1
+    title: Priorities
   prisoner's dilemma:
     count: 1
     title: prisoner's dilemma
@@ -14388,7 +14418,7 @@ dictitems:
     count: 6
     title: Progress
   project:
-    count: 24
+    count: 25
     title: Project
   project galileo:
     count: 1
@@ -15023,6 +15053,9 @@ dictitems:
   rambling:
     count: 1
     title: Rambling
+  ramification:
+    count: 1
+    title: Ramification
   ramorize:
     count: 1
     title: RAMorize
@@ -15177,7 +15210,7 @@ dictitems:
     count: 1
     title: Real-World Problems
   reality:
-    count: 2
+    count: 3
     title: Realities
   realization:
     count: 2
@@ -17064,7 +17097,7 @@ dictitems:
     count: 1
     title: Social Justice
   social media:
-    count: 4
+    count: 5
     title: Social Media
   social ranks:
     count: 1
@@ -17585,6 +17618,9 @@ dictitems:
   step-by-step guide:
     count: 1
     title: Step-by-Step Guide
+  step-father:
+    count: 1
+    title: Step-Father
   stern-gerlach experiment:
     count: 1
     title: Stern-Gerlach Experiment
@@ -17931,7 +17967,7 @@ dictitems:
     count: 1
     title: Summarizing Summaries
   summary:
-    count: 2
+    count: 3
     title: Summary
   summer:
     count: 1
@@ -18456,7 +18492,7 @@ dictitems:
     count: 1
     title: Texas Instruments
   text:
-    count: 2
+    count: 3
     title: Text
   text editing:
     count: 3
@@ -19920,7 +19956,7 @@ dictitems:
     count: 1
     title: Vocal Chords
   voice:
-    count: 2
+    count: 3
     title: Voice
   voice over internet protocol:
     count: 1
@@ -20487,7 +20523,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 31
+    count: 32
     title: Writing
   writing code:
     count: 1
