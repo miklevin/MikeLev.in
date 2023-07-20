@@ -4,12 +4,11 @@ title: Get Organized with 80/20-Rule Sweeps
 headline: Take Control of Your Life with 80/20-Rule Sweeps!
 description: Stay organized and focused by using the 80/20-Rule to prioritize tasks and projects. Don't let distraction derail your progress and learn to balance the deep dives with the important things. Take control of your life and get organized today.
 keywords: Organization, 80/20-Rule, Court, Lawyer, Change, Ramification, Disorganized, Priorities, Realities, Child Abduction, Communication, Custody Agreement, Social Media, Text, Phone, Email, Media Hype, Legal, Money, Intermediaries, Step-Father, Moral, Ethical, Attack, Voice, Writing, Summary, Project, Balance, Deep Dive
-publish: False
-categories: email, 80/20-rule, change
 permalink: /blog/get-organized-with-80-20-rule-sweeps/
-layout: post
-group: blog
+layout: plain
 ---
+# Get Organized with 80/20-Rule Sweeps
+
 
 
 Okay, so I need first, second and 3rd lines of defenses on this lawyer thing. I
@@ -77,10 +76,3 @@ the time, you can do a deep dive on the most important things.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hear-oh-israel-reciting-the-shema-is-not-a-time-for-talking/">Hear Oh Israel, Reciting the Shema Is Not a Time for Talking</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fighting-for-what-s-right-looking-at-the-whole-picture-to-reunite-with-my-kid/">Fighting for What's Right: Looking at the Whole Picture to Reunite with My Kid</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li></ul>

@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/twitter-spaces-and-microsoft-s-battle-of-attrition-with-google/">Twitter Spaces and Microsoft's Battle of Attrition with Google</a> (Thu Jul 20, 2023)
-<br/>Discover how I experienced Twitter Spaces and the battle of attrition between Microsoft and Google during my time in New York City. Learn how the pandemic has affected the platform and how its user interface tweaks have made it popular. Hear my story of how I navigated the complexities of SEO and the power of the default search. Understand how Microsoft is attempting to challenge Google's dominance through Windows 11 and Bing AI-search.</li>
 <li><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a> (Sun Jul 09, 2023)
 <br/>I'm in an AI LOVE-FEST right now, discussing favorite books with Pi AI that have broadened its perspective. We talk with 0d39r33zk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' radio broadcast of War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn</li>
 <li><a href="/blog/what-s-up-doc/">What's Up Doc?</a> (Sun Jul 02, 2023)

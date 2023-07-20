@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/twitter-spaces-and-microsoft-s-battle-of-attrition-with-google/">Twitter Spaces and Microsoft's Battle of Attrition with Google</a> (Thu Jul 20, 2023)
-<br/>Discover how I experienced Twitter Spaces and the battle of attrition between Microsoft and Google during my time in New York City. Learn how the pandemic has affected the platform and how its user interface tweaks have made it popular. Hear my story of how I navigated the complexities of SEO and the power of the default search. Understand how Microsoft is attempting to challenge Google's dominance through Windows 11 and Bing AI-search.</li>
 <li><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a> (Sun Jul 09, 2023)
 <br/>Explore the fascinating world of AI and machine learning with Mike Levin, SEO in NYC. Follow his journey as he interacts with Copilot and YouTube User 0d39r33zk, discussing topics such as AI's personalities, zero-shot capability, and the intersection of time series data and AI. Learn about the GPT-family, the Fast.AI book, and the misconceptions of AI.</li>
 <li><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a> (Sun Jun 18, 2023)

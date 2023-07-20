@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/get-organized-with-80-20-rule-sweeps/">Get Organized with 80/20-Rule Sweeps</a> (Thu Jul 20, 2023)
-<br/>Stay organized and focused by using the 80/20-Rule to prioritize tasks and projects. Don't let distraction derail your progress and learn to balance the deep dives with the important things. Take control of your life and get organized today.</li>
 <li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
 <br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)

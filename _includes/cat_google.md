@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/twitter-spaces-and-microsoft-s-battle-of-attrition-with-google/">Twitter Spaces and Microsoft's Battle of Attrition with Google</a> (Thu Jul 20, 2023)
-<br/>Discover how I experienced Twitter Spaces and the battle of attrition between Microsoft and Google during my time in New York City. Learn how the pandemic has affected the platform and how its user interface tweaks have made it popular. Hear my story of how I navigated the complexities of SEO and the power of the default search. Understand how Microsoft is attempting to challenge Google's dominance through Windows 11 and Bing AI-search.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
 <br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)

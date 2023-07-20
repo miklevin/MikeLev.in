@@ -4,12 +4,11 @@ title: "Fighting for What's Right: Looking at the Whole Picture to Reunite with 
 headline: "Fighting for What's Right: Looking at the Whole Picture to Reunite with My Kid"
 description: In this journal entry, I discuss my progress in making contact with a lawyer and preparing for a meeting. I also reflect on the importance of looking at the whole picture in life and relationships, and how I am trying to be a good father, husband, and friend.
 keywords: lawyer, paperwork, PDF, organize, tech, hard-copy, printouts, file-organization, adult, kid, family, marriage, college, public-transportation, media-hype, pandemic, drama, psychological-projection, video, TikTok, rabbi, Shema, forgive
-publish: False
-categories: 
 permalink: /blog/fighting-for-what-s-right-looking-at-the-whole-picture-to-reunite-with-my-kid/
-layout: post
-group: blog
+layout: plain
 ---
+# Fighting for What's Right: Looking at the Whole Picture to Reunite with My Kid
+
 
 
 Alright, I made contact with the Lawyer. I have a tentative meeting for
@@ -112,7 +111,3 @@ father. I hope you can forgive me for being a good husband.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-organized-with-80-20-rule-sweeps/">Get Organized with 80/20-Rule Sweeps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/twitter-spaces-and-microsoft-s-battle-of-attrition-with-google/">Twitter Spaces and Microsoft's Battle of Attrition with Google</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul></ul>

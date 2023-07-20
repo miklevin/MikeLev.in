@@ -4,12 +4,11 @@ title: Hear Oh Israel, Reciting the Shema Is Not a Time for Talking
 headline: "Reciting the Shema: A Moment of Pride and Pain in My Child's Bet Mitzvah"
 description: As a parent, I was cut off from my child after their Bet Mitzvah on June , 2023. I had no information or responses to my requests. After doing some online searches, I found a video accusing me of acting irrational and making threats. I am now trying to figure out what happened and to defend myself against the accusations.
 keywords: date, Thu, Jul, 20, 2023, Hear, Oh, Israel, Reciting, Shema, Time, Talking, Child, Missing, Bet, Mitzvah, June, 11th, Communication, Cut, Off, Driving, Guest, Staten, Island, Ferry, Luncheon, Closed, Tipping, Guys, Kitchen, Group, Event, Mall, Summer, Carnival, Parking, Lot, Supplied, Chaperones, Follow-on, Beverages, T
-publish: False
-categories: child, journaling
 permalink: /blog/hear-oh-israel-reciting-the-shema-is-not-a-time-for-talking/
-layout: post
-group: blog
+layout: plain
 ---
+# Hear Oh Israel, Reciting the Shema Is Not a Time for Talking
+
 
 
 I thought my child was missing this time last month. I was cut off from seeing
@@ -177,9 +176,3 @@ about control. It's about trying to control me.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/small-directional-adjustments-on-rudder-of-life/">Small Directional Adjustments on Rudder of Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-organized-with-80-20-rule-sweeps/">Get Organized with 80/20-Rule Sweeps</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul>
-<li><h4><a href='/child/'>Child</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
