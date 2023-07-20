@@ -134,13 +134,14 @@ and Custody papers were filed.
 
 I also just got the email from work that the 1-month paid-leave has run out,
 and I didn't get in the paperwork to extend it. So yesterday and today are my
-first days without being paid. But I am still on paid leave, which I am sure I
-could end. That way my days would have to go towards my job like everyone else
-in the world... except the 1%. Or even the 10% that invest well. Shoot! I don't
-invest well, except for directly into myself. I should share this good journal
-writing with the world. 100% transparency, commitment and consistency. I may
-look to go back on the payroll. I'm in a position now where I can work and
-manage the sticky details of my personal life.
+first days without being paid. But I am still merely on leave and not out of
+work, which I am sure I could end. That way my days would have to go towards my
+job like everyone else in the world... except the 1%. Or even the 10% that
+invest well. Shoot! I don't invest well, except for directly into myself. I
+should share this good journal writing with the world. 100% transparency,
+commitment and consistency. I may look to go back on the payroll. I'm in a
+position now where I can work and manage the sticky details of my personal
+life.
 
 This writing that you're reading right now actually started out in my "personal
 journal". This is a journal that doesn't get published, but lets me write

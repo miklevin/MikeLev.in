@@ -4,7 +4,7 @@ title: Going From Blog Keyword Histogram to Category Pages
 headline: "Improving My Website: Creating Category Pages with Jekyll Liquid Template"
 description: I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.
 keywords: Python, Linux, Vim, Git, AI, SEO, Windows, LXD, WSL, YouTube, Microsoft, JupyterLab, Jupyter, Journaling, Jupyter Notebooks, GitHub, Code, Projects, Upgrading, Programming Languages, Conferences, Meetups, Deduping, Histograms, Category Pages, Markdown, SQLite, Database, Liquid Template, Slugs, File
-categories: linux, seo, journaling, wsl, microsoft, database, container, youtube, jupyter, vim, python, git, ai
+categories: ai, python, microsoft, journaling, seo, container, database, wsl, linux, jupyter, vim, git, youtube
 permalink: /blog/going-from-blog-keyword-histogram-to-category-pages/
 layout: post
 group: blog
@@ -517,16 +517,16 @@ stage for my next step being super effective on improving my site.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
