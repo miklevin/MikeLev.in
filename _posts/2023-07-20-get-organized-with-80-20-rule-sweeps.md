@@ -4,7 +4,7 @@ title: Get Organized with 80/20-Rule Sweeps
 headline: Take Control of Your Life with 80/20-Rule Sweeps!
 description: Stay organized and focused by using the 80/20-Rule to prioritize tasks and projects. Don't let distraction derail your progress and learn to balance the deep dives with the important things. Take control of your life and get organized today.
 keywords: Organization, 80/20-Rule, Court, Lawyer, Change, Ramification, Disorganized, Priorities, Realities, Child Abduction, Communication, Custody Agreement, Social Media, Text, Phone, Email, Media Hype, Legal, Money, Intermediaries, Step-Father, Moral, Ethical, Attack, Voice, Writing, Summary, Project, Balance, Deep Dive
-categories: 80/20-rule, email, change
+categories: email, 80/20-rule, change
 permalink: /blog/get-organized-with-80-20-rule-sweeps/
 layout: post
 group: blog
@@ -86,6 +86,6 @@ the time, you can do a deep dive on the most important things.
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
 <li><h4><a href='/change/'>Changes</a></h4></li></ul>

@@ -2,7 +2,7 @@
 date: 2023-07-20
 title: Hear Oh Israel, Reciting the Shema Is Not a Time for Talking
 headline: "Reciting the Shema: A Moment of Pride and Pain in My Child's Bet Mitzvah"
-description: As a parent, I was cut off from my child after their Bet Mitzvah on June 11th, 2023. I had no information or responses to my requests. After doing some online searches, I found a video accusing me of acting irrational and making threats. I am now trying to figure out what happened and to defend myself against the accusations.
+description: As a parent, I was cut off from my child after their Bet Mitzvah on June , 2023. I had no information or responses to my requests. After doing some online searches, I found a video accusing me of acting irrational and making threats. I am now trying to figure out what happened and to defend myself against the accusations.
 keywords: date, Thu, Jul, 20, 2023, Hear, Oh, Israel, Reciting, Shema, Time, Talking, Child, Missing, Bet, Mitzvah, June, 11th, Communication, Cut, Off, Driving, Guest, Staten, Island, Ferry, Luncheon, Closed, Tipping, Guys, Kitchen, Group, Event, Mall, Summer, Carnival, Parking, Lot, Supplied, Chaperones, Follow-on, Beverages, T
 categories: child, journaling
 permalink: /blog/hear-oh-israel-reciting-the-shema-is-not-a-time-for-talking/
@@ -12,14 +12,14 @@ group: blog
 
 
 I thought my child was missing this time last month. I was cut off from seeing
-them after their Bet Mitzvah on June 11th, 2023. All communication was cut off
-after I drove one of my guests to the Staten Island Ferry and then went back to
-the luncheon, where I found everything closed down. After tipping the 2 guys in
-the kitchen, I considered joining the group where I thought the event was
-carrying on, in the Staten Island Mall where there was a Summer Carnival in the
-parking lot. I had very well supplied the chaperones of the mall follow-on
-event with beverages. But since tension was a little bit high, I decided to
-steer clear.
+them after their Bet Mitzvah on Saturday, June 10th, 2023. All communication
+was cut off after I drove one of my guests to the Staten Island Ferry and then
+went back to the luncheon, where I found everything closed down. After tipping
+the 2 guys in the kitchen, I considered joining the group where I thought the
+event was carrying on, in the Staten Island Mall where there was a Summer
+Carnival in the parking lot. I had very well supplied the chaperones of the
+mall follow-on event with beverages. But since tension was a little bit high, I
+decided to steer clear.
 
 Why were tensions high? Because during the Bet Mitzvah at Temple Etz Chiam,
 named after my Dad which had special meaning because it was 2 days after the
