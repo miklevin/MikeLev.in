@@ -4,7 +4,7 @@ title: Get Organized with 80/20-Rule Sweeps
 headline: Take Control of Your Life with 80/20-Rule Sweeps!
 description: Stay organized and focused by using the 80/20-Rule to prioritize tasks and projects. Don't let distraction derail your progress and learn to balance the deep dives with the important things. Take control of your life and get organized today.
 keywords: Organization, 80/20-Rule, Court, Lawyer, Change, Ramification, Disorganized, Priorities, Realities, Child Abduction, Communication, Custody Agreement, Social Media, Text, Phone, Email, Media Hype, Legal, Money, Intermediaries, Step-Father, Moral, Ethical, Attack, Voice, Writing, Summary, Project, Balance, Deep Dive
-categories: change, email, 80/20-rule
+categories: 80/20-rule, email, change
 permalink: /blog/get-organized-with-80-20-rule-sweeps/
 layout: post
 group: blog
@@ -44,12 +44,6 @@ my child's step-father... if that's what he even is. I don't know what to call
 him. He was my neighbor who had a child with my wife at the time while we were
 married. 
 
-I know that makes me sound like a cuckold, but it's time to talk reality here.
-That's my situation. So you can see the sort of moral and ethical
-underpinnings, or lack thereof, from where this attack is coming. My wife got
-pregnant with a neighbor and divorced me and I pay $2025.50 a month in child
-support.
-
 The main thing here is going to be to try to silence my voice. For this entire
 month of paid leave, I've been a bit verklempt over that issue. Is even talking
 about the fact that there IS a case wrong? NO! It's the details of the case
@@ -86,6 +80,6 @@ the time, you can do a deep dive on the most important things.
 ## Categories
 
 <ul>
-<li><h4><a href='/change/'>Changes</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/change/'>Changes</a></h4></li></ul>

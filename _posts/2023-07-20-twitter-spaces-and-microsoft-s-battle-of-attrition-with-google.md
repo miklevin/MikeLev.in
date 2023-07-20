@@ -4,7 +4,7 @@ title: Twitter Spaces and Microsoft's Battle of Attrition with Google
 headline: Exploring the Rise of Twitter Spaces and Microsoft's Battle with Google for Search Dominance
 description: Discover how I experienced Twitter Spaces and the battle of attrition between Microsoft and Google during my time in New York City. Learn how the pandemic has affected the platform and how its user interface tweaks have made it popular. Hear my story of how I navigated the complexities of SEO and the power of the default search. Understand how Microsoft is attempting to challenge Google's dominance through Windows 11 and Bing AI-search.
 keywords: Twitter Spaces, Microsoft, Google, New York City, Elon Musk, Pandemic, User Interface, 140 Characters, Long-Form Media, Nuance, Detail, Town Halls, Voice Chat Room, Followers, YouTube, SEO, AIs, Traffic Arbitrage, Search Engines, Apple, iPhone, Android, Default Search, Browser Wars, Bing, AI-Search, Cortana, Windows 11
-categories: microsoft, seo, new york city, bing, google, youtube, ai
+categories: new york city, google, ai, seo, youtube, microsoft, bing
 permalink: /blog/twitter-spaces-and-microsoft-s-battle-of-attrition-with-google/
 layout: post
 group: blog
@@ -101,10 +101,10 @@ escaping Microsoft's attempt at a battle of attrition with Google.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
