@@ -6,4 +6,4 @@
 <li><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a> (Wed May 25, 2022)
 <br/>I'm cancelling my Netflix subscription and shouting out to some YouTube viewers that make streaming fun. I'm also evaluating what I should do today using three daily metaphors, considering moving back to NYC, and discussing the benefits of being anti-fragile. I'm advocating for the use of Linux, Python, Vim, and Git (LPvg) as a practical alternative to Web Development. LPvg is a great way to become a programmer without needing to learn a whole new language.</li>
 </ol>
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80-20-rule/">80/20-Rule</a></div> &nbsp; <div class="post-nav-next"><a href="/pipulate/">Pipulate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/80-20-rule/">80/20-rule</a></div> &nbsp; <div class="post-nav-next"><a href="/pipulate/">Pipulate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
