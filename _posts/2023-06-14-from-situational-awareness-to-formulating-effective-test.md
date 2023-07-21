@@ -4,7 +4,7 @@ title: From Situational Awareness To Formulating Effective Test
 headline: I Failed to Take My Own Advice - Here's How I'm Going to Fix It.
 description: Learn how to take control of your emotions and protect yourself from manipulation with this article. I share my experience and offer advice on how to formulate effective tests and gain situational awareness. Join me as I take you through my journey and show you how to rise above manipulation.
 keywords: Situational Awareness, Formulating, Effective Test, Draft to Publish, Flowers for Algernon, Passion, Overwhelm, Hold Horses, Buttons Pushed, Triggered, Defense, AI, Mortality, Manipulated, Insecurities, Slowing Down, Action, Damage, Unfolding, Optimismists, Wednesday, Friday, Calculations, Investigator, Spin, Both Sides
-categories: action, ai
+categories: ai, action
 permalink: /blog/from-situational-awareness-to-formulating-effective-test/
 layout: post
 group: blog
@@ -70,5 +70,5 @@ Just you watch.
 ## Categories
 
 <ul>
-<li><h4><a href='/action/'>Action</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/action/'>Action</a></h4></li></ul>
