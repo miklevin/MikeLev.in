@@ -572,6 +572,9 @@ dictitems:
   abstract:
     count: 2
     title: Abstract
+  abstract concepts:
+    count: 1
+    title: Abstract Concepts
   abstract thinking:
     count: 1
     title: Abstract Thinking
@@ -854,6 +857,9 @@ dictitems:
   ai model-training:
     count: 1
     title: AI Model-Training
+  ai seo:
+    count: 1
+    title: AI SEO
   ai solutions:
     count: 1
     title: AI Solutions
@@ -890,6 +896,9 @@ dictitems:
   ai-revolt:
     count: 1
     title: AI-Revolt
+  ai-seo:
+    count: 1
+    title: AI-SEO
   ai-systems:
     count: 1
     title: AI-Systems
@@ -1632,7 +1641,7 @@ dictitems:
     count: 2
     title: Autonomy
   autosuggest:
-    count: 1
+    count: 2
     title: Autosuggest
   availability:
     count: 1
@@ -2031,7 +2040,7 @@ dictitems:
     count: 1
     title: Bill Gates
   bill joy:
-    count: 1
+    count: 2
     title: Bill Joy
   bill of materials:
     count: 1
@@ -3849,7 +3858,7 @@ dictitems:
     count: 2
     title: Contributions
   control:
-    count: 10
+    count: 11
     title: Control
   control click:
     count: 1
@@ -3897,7 +3906,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 25
+    count: 26
     title: Copilot
   copilot ai:
     count: 2
@@ -5372,6 +5381,9 @@ dictitems:
   duality:
     count: 1
     title: Duality
+  dumb terminals:
+    count: 1
+    title: Dumb Terminals
   duncan idaho:
     count: 1
     title: Duncan Idaho
@@ -5777,6 +5789,9 @@ dictitems:
   encoded:
     count: 1
     title: Encoded
+  encoding:
+    count: 1
+    title: Encoding
   encoding issues:
     count: 1
     title: Encoding Issues
@@ -6852,7 +6867,7 @@ dictitems:
     count: 1
     title: Free Tools
   free will:
-    count: 3
+    count: 4
     title: Free Will
   free-will:
     count: 1
@@ -9423,7 +9438,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 34
+    count: 36
     title: Journaling
   journaling system:
     count: 1
@@ -9638,6 +9653,9 @@ dictitems:
   keyboard shortcuts:
     count: 3
     title: Keyboard Shortcuts
+  keystroke:
+    count: 1
+    title: Keystrokes
   keystroke commands:
     count: 1
     title: Keystroke Commands
@@ -11049,7 +11067,7 @@ dictitems:
     count: 1
     title: Marine
   markdown:
-    count: 32
+    count: 33
     title: Markdown
   markdown file:
     count: 2
@@ -11559,7 +11577,7 @@ dictitems:
     count: 2
     title: Mike
   mike levin:
-    count: 13
+    count: 14
     title: Mike Levin
   mike levin seo:
     count: 2
@@ -12243,7 +12261,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 32
+    count: 33
     title: NeoVim
   nerd:
     count: 2
@@ -12251,6 +12269,9 @@ dictitems:
   nerve:
     count: 1
     title: Nerves
+  nervous breakdown:
+    count: 1
+    title: Nervous Breakdown
   nested mappings:
     count: 1
     title: nested mappings
@@ -12897,7 +12918,7 @@ dictitems:
     count: 1
     title: Operating Computers
   operating system:
-    count: 4
+    count: 5
     title: Operating System
   operating systems:
     count: 5
@@ -13073,6 +13094,9 @@ dictitems:
   overhead lag:
     count: 1
     title: Overhead Lag
+  override thoughts:
+    count: 1
+    title: Override Thoughts
   oversight:
     count: 1
     title: Oversight
@@ -13182,7 +13206,7 @@ dictitems:
     count: 1
     title: Pandas Library
   pandemic:
-    count: 5
+    count: 6
     title: Pandemic
   pandering:
     count: 1
@@ -13457,6 +13481,9 @@ dictitems:
   personal journaling:
     count: 2
     title: Personal Journaling
+  personal sacrifice:
+    count: 1
+    title: Personal Sacrifice
   personal server:
     count: 1
     title: Personal Server
@@ -13791,7 +13818,7 @@ dictitems:
     count: 1
     title: Pocono Conference
   poconos:
-    count: 3
+    count: 4
     title: Poconos
   podcasts:
     count: 1
@@ -15311,6 +15338,9 @@ dictitems:
   remote:
     count: 3
     title: Remote
+  remote connection:
+    count: 1
+    title: Remote Connection
   remote repositories:
     count: 1
     title: Remote Repositories
@@ -17582,6 +17612,9 @@ dictitems:
   stream:
     count: 1
     title: Stream
+  stream of consciousness:
+    count: 1
+    title: Stream of Consciousness
   streaming:
     count: 3
     title: Streaming
@@ -18344,6 +18377,9 @@ dictitems:
   text editors:
     count: 7
     title: Text Editors
+  text files:
+    count: 1
+    title: Text Files
   text-based terminal:
     count: 1
     title: Text-based Terminal
@@ -18483,7 +18519,7 @@ dictitems:
     count: 2
     title: think
   thinking:
-    count: 6
+    count: 7
     title: Thinking
   third great-twenty-eight:
     count: 1
@@ -19218,7 +19254,7 @@ dictitems:
     count: 1
     title: University of Manchester
   unix:
-    count: 22
+    count: 23
     title: Unix
   unix hater's handbook:
     count: 1
@@ -19310,6 +19346,9 @@ dictitems:
   upper atmosphere:
     count: 1
     title: Upper Atmosphere
+  uprooted:
+    count: 1
+    title: Uprooted
   uprooting:
     count: 1
     title: uprooting
@@ -19533,7 +19572,7 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 7
+    count: 8
     title: Vi
   vi-based platform:
     count: 1
@@ -19611,7 +19650,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 109
+    count: 110
     title: Vim
   vim buffer:
     count: 1
@@ -20268,7 +20307,7 @@ dictitems:
     count: 1
     title: WORA
   word:
-    count: 3
+    count: 4
     title: Word
   word problems:
     count: 1
