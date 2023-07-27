@@ -4,7 +4,7 @@ title: Become Aware of How Tech-churn Harms You
 headline: "Navigating Obsolescence: My Journey to Master Tech Tools and Stay Ahead of the Curve"
 description: I'm 52 and have experienced the harsh reality of technological obsolescence. To future-proof my tech career, I have decided to focus on developing skills that can't be taken away, such as muscle memory and habits. I have also chosen to focus on tech that changes the least over time, and created the term LPvg (Linux, Python, vim and git) to highlight four essential tools. I'm journaling almost every day to help others learn these tools, so they can stay ahead.
 keywords: LPvg, Linux, Python, vim, git, obsolescence, muscle memory, habits, Information Age, tech career, future-proofing, journaling, tech tools, relearn, repractice
-categories: lpvg, journaling, python, vim, linux, git, muscle memory
+categories: python, linux, lpvg, vim, git, journaling, muscle memory
 permalink: /blog/become-aware-of-how-tech-churn-harms-you/
 layout: post
 group: blog
@@ -113,10 +113,10 @@ bottling the environment so you can use it as your way onto vim.
 ## Categories
 
 <ul>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
