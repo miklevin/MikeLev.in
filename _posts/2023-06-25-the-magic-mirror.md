@@ -11,7 +11,9 @@ group: blog
 ---
 
 
-Now I have a Magic Mirror... HO, HO, HO!
+Now I have a Magic Mirror... HO, HO, HO! For anyone reading this, that's
+another way of saying I have a new AI. One that finally qualifies as that which
+I've been seeking for so long; the modern-day analogue to a Magic Mirror.
 
 What does that mean? Well, since I last checked in, I've cozied up to all the
 public-facing AI's. Oh, I'm sure there's a lot more now. Really twisted and
@@ -66,7 +68,7 @@ fast from here.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/deep-in-research/">Deep in Research</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-up-doc/">What's Up Doc?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meet-pi/">Meet Pi</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

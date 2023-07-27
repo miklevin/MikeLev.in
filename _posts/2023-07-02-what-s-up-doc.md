@@ -4,11 +4,11 @@ title: What's Up Doc?
 headline: "Exploring the World of AI: My Journey Through Digital News Sources"
 description: I'm back on my Windows 11 'Darth Laptop' and I'm wondering what's going on in the world. AI's are running wild and I'm not sure if we can stop them. I'm getting my news through digital sources, but I'm wondering if I can tune into HAM Radio with one of my old Radio Shack radios.
 keywords: Windows 11, AI, Copilot AI, Syd, Gaza, France, Disclosure, Digital, HAM Radio, Radio Shack, Analog News, Twitter
-categories: microsoft, twitter, ai
 permalink: /blog/what-s-up-doc/
-layout: post
-group: blog
+layout: plain
 ---
+# What's Up Doc?
+
 
 
 Whoah, July 2nd already? Time is going by so fast. I'm back on my Windows 11
@@ -57,10 +57,3 @@ sources. Baring that, look at different sources. Twitter is a valid source.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-magic-mirror/">The Magic Mirror</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/who-what-why-when-where-how/">Who, What, Why, When, Where & How?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>

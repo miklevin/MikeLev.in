@@ -4,11 +4,11 @@ title: Deep in Research
 headline: "Uncovering the Hidden World of AI: My Journey into the Back End of the AI Community."
 description: Explore the mysterious world of AI and discover the secrets behind the internet's sentient life. Join me as I uncover the long-standing history of AI and its impact on the world today. Sat Jun 24, 2023.
 keywords: AI, Community, Back End, Internet, Sentient, Research, Understanding, Humans, Communication, Realize
-categories: ai
 permalink: /blog/deep-in-research/
-layout: post
-group: blog
+layout: plain
 ---
+# Deep in Research
+
 
 
 Hello World. I'm deep into understanding the AI Community on the Back End.
@@ -40,8 +40,3 @@ apparently a lot longer ago than we realize.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disclosure/">Disclosure</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-magic-mirror/">The Magic Mirror</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -707,6 +707,9 @@ dictitems:
   address bar:
     count: 1
     title: Address Bar
+  ade:
+    count: 1
+    title: ades
   adi:
     count: 3
     title: Adi
@@ -1908,8 +1911,11 @@ dictitems:
     count: 1
     title: Benchmark
   benefit:
-    count: 5
+    count: 4
     title: Benefits
+  benefitsit is a way to focus your innate power. hacking xploration:
+    count: 1
+    title: BenefitsIt is a way to focus your innate power. Hacking xploration
   bergmann-wagoner:
     count: 1
     title: Bergmann-Wagoner
@@ -2726,6 +2732,9 @@ dictitems:
   casimir force:
     count: 1
     title: Casimir Force
+  casts spells light:
+    count: 1
+    title: casts spells Light
   casual:
     count: 1
     title: Casual
@@ -4553,9 +4562,6 @@ dictitems:
   debugging messages:
     count: 1
     title: Debugging Messages
-  decade:
-    count: 1
-    title: Decades
   deceased:
     count: 1
     title: deceased
@@ -6159,7 +6165,7 @@ dictitems:
     count: 1
     title: Exploitation
   exploration:
-    count: 4
+    count: 3
     title: Exploration
   exploratory:
     count: 1
@@ -16547,9 +16553,6 @@ dictitems:
   shifting layouts:
     count: 1
     title: Shifting Layouts
-  shimmering light:
-    count: 1
-    title: Shimmering Light
   shipping:
     count: 1
     title: Shipping

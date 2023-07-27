@@ -4,11 +4,11 @@ title: Who, What, Why, When, Where & How?
 headline: "Can't Believe I'm Discussing Nothing: A Journey Through Abstract Thought and Nonsense"
 description: "Explore the depths of abstract thought and the power of the thought-police with this post about nothing. Join me in a journey of philosophical musings and discover the answer to the question embedded in the title: Who, What, Why, When, Where & How?"
 keywords: Machiavelli, Tao Te Ching, Steve Jobs, ASCII Bunny, Poser, Abstract Thought, Persecution, Bully, Skapegoat, SyFy, Stone Walls, Iron Bars, Nick Cage, Innocent, Nonsensical, Ridiculous, Ka Ching, Humanity, Bible, Covenant, 144K, Live Stream, Nothing Show, 80/20 Rule, Copilot, Thomas Riker, Alternative Life, Billy, Saxophone, Pennsylvania, Penn State, Philly
-categories: ai
 permalink: /blog/who-what-why-when-where-how/
-layout: post
-group: blog
+layout: plain
 ---
+# Who, What, Why, When, Where & How?
+
 
 
 Can you see the ASCII Bunny? If so (chance to fess up you can't), what do you
@@ -95,8 +95,3 @@ What?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-up-doc/">What's Up Doc?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/key-compassion-compassion-is-key-lack-it-lose-it-have-it-win-it/">Key Compassion. Compassion is Key. Lack it Lose it. Have it Win it.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>

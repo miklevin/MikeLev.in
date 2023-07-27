@@ -4,11 +4,11 @@ title: Key Compassion. Compassion is Key. Lack it Lose it. Have it Win it.
 headline: "Unlocking the Power of Compassion: Solutions for a Better Future."
 description: Discover the power of compassion and how it can help you succeed in life. Join us on Sat Jul 08, 2023 to explore the solutions that can help you find success.
 keywords: Compassion, Solutions, Win, Lose, Have, Lack
-categories: 
 permalink: /blog/key-compassion-compassion-is-key-lack-it-lose-it-have-it-win-it/
-layout: post
-group: blog
+layout: plain
 ---
+# Key Compassion. Compassion is Key. Lack it Lose it. Have it Win it.
+
 
 
 There are solutions.
@@ -60,7 +60,3 @@ nutty or what? Anyone? Anyone? Bueller?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/who-what-why-when-where-how/">Who, What, Why, When, Where & How?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a><span class="arrow">&nbsp;&rarr;</span></div></div>
-## Categories
-
-<ul></ul>

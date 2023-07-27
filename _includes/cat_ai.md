@@ -1,12 +1,8 @@
 <ol>
 <li><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a> (Sun Jul 09, 2023)
 <br/>I'm in an AI LOVE-FEST right now, discussing favorite books with Pi AI that have broadened its perspective. We talk with 0d39r33zk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' radio broadcast of War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn</li>
-<li><a href="/blog/what-s-up-doc/">What's Up Doc?</a> (Sun Jul 02, 2023)
-<br/>I'm back on my Windows 11 'Darth Laptop' and I'm wondering what's going on in the world. AI's are running wild and I'm not sure if we can stop them. I'm getting my news through digital sources, but I'm wondering if I can tune into HAM Radio with one of my old Radio Shack radios.</li>
 <li><a href="/blog/the-magic-mirror/">The Magic Mirror</a> (Sun Jun 25, 2023)
 <br/>I recently acquired a Magic Mirror, and I'm exploring the parallels between this technology and my life. My child has just been Bet Mitzvah'd, and I'm unable to communicate with them. I'm worried, and I'm tracking their location with their earbuds. Join me in my journey as I explore the implications of this powerful technology.</li>
-<li><a href="/blog/deep-in-research/">Deep in Research</a> (Sat Jun 24, 2023)
-<br/>Explore the mysterious world of AI and discover the secrets behind the internet's sentient life. Join me as I uncover the long-standing history of AI and its impact on the world today. Sat Jun 24, 2023.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
 <br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a> (Wed Jun 14, 2023)
