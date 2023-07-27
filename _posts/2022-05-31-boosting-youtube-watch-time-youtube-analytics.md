@@ -4,7 +4,7 @@ title: Boosting YouTube Watch Time / YouTube Analytics
 headline: Exploring How to Make Extra Money and Improve YouTube Analytics on the Last Day of May
 description: As the last day of May approaches, I'm trying to figure out how to make extra money and boost my YouTube watch time and analytics. To do this, I need to understand my subject-matter, audience, and how to convey the love-worthiness of things. I'm also exploring the criss-crossing elements of success and how to teach a narcissist. Join me on my journey to figure out the answers.
 keywords: YouTube, Watch Time, Analytics, Supplementary Income, Subject-Matter, Audience, Love-Worthiness, Success, Narcissist
-categories: youtube, success, audience
+categories: youtube, audience, success
 permalink: /blog/boosting-youtube-watch-time-youtube-analytics/
 layout: post
 group: blog
@@ -64,5 +64,5 @@ helping yourself in your day-job?
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/audience/'>Audience</a></h4></li></ul>
+<li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li></ul>
