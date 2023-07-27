@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a> (Thu Jul 27, 2023)
+<br/>I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.</li>
 <li><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a> (Tue Feb 07, 2023)
 <br/>I have created a program to back up my Google Photos, combining two scripts into a single file. I am now considering whether to keep the program as an nbdev app, and am exploring options to transition it from a notebook to a server. I am also considering not using the app in my FOSS SEO book, but recognize the value of the Jupyter Notebook under nbdev. Come read about my journey to make the best decision for my program!</li>
 <li><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a> (Tue Nov 29, 2022)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a> (Thu Jul 27, 2023)
+<br/>I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
 <br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a> (Sun Jun 18, 2023)

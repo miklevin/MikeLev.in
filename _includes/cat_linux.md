@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a> (Thu Jul 27, 2023)
+<br/>I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.</li>
 <li><a href="/blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/">The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)</a> (Thu May 25, 2023)
 <br/>This is the story of how a cowardly act of mine led to a life-changing experience. In this article, I discuss how traumatic events can be used for self-improvement, and how the secret weapons I relied on to win fights taught me to question everything. I also talk about my experiences with guns, and how I owe gratitude to those who taught me life's most important lessons, even if I didn't realize it at the time.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)

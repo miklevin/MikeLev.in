@@ -1239,7 +1239,7 @@ dictitems:
     count: 1
     title: apex domain
   api:
-    count: 26
+    count: 27
     title: API
   api limitations:
     count: 1
@@ -2046,7 +2046,7 @@ dictitems:
     count: 1
     title: Bill of Materials
   billy:
-    count: 2
+    count: 3
     title: Billy
   bin:
     count: 1
@@ -2888,6 +2888,9 @@ dictitems:
   charles levin:
     count: 1
     title: Charles Levin
+  charlie:
+    count: 1
+    title: Charlie
   charlie brown:
     count: 1
     title: Charlie Brown
@@ -3771,7 +3774,7 @@ dictitems:
     count: 1
     title: Contact Page
   container:
-    count: 27
+    count: 28
     title: Container
   container pulse:
     count: 1
@@ -3906,7 +3909,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 26
+    count: 27
     title: Copilot
   copilot ai:
     count: 2
@@ -4025,6 +4028,9 @@ dictitems:
   crack era:
     count: 1
     title: Crack Era
+  cracked screen:
+    count: 1
+    title: Cracked Screen
   cracking the code:
     count: 1
     title: Cracking the Code
@@ -5282,6 +5288,9 @@ dictitems:
   down:
     count: 1
     title: Downs
+  downgrade:
+    count: 1
+    title: Downgrade
   downgrading:
     count: 1
     title: Downgrading
@@ -5847,7 +5856,7 @@ dictitems:
     count: 3
     title: Engineering
   english:
-    count: 2
+    count: 3
     title: English
   english language:
     count: 1
@@ -5951,6 +5960,9 @@ dictitems:
   ergonomics:
     count: 1
     title: Ergonomics
+  eri:
+    count: 1
+    title: Eri
   eric weinstein:
     count: 2
     title: Eric Weinstein
@@ -6584,6 +6596,9 @@ dictitems:
   fintech:
     count: 1
     title: Fintech
+  fire and motion:
+    count: 1
+    title: Fire and Motion
   firmware:
     count: 1
     title: Firmware
@@ -6770,6 +6785,9 @@ dictitems:
   formatting:
     count: 3
     title: Formatting
+  formulaic happiness:
+    count: 1
+    title: Formulaic Happiness
   formulating:
     count: 2
     title: Formulating
@@ -7611,7 +7629,7 @@ dictitems:
     count: 2
     title: GPL
   gpt:
-    count: 6
+    count: 7
     title: GPT
   gpt models:
     count: 1
@@ -7926,7 +7944,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 17
+    count: 18
     title: Hardware
   harkonnen:
     count: 1
@@ -8876,6 +8894,9 @@ dictitems:
   inspiration:
     count: 2
     title: Inspiration
+  inspire:
+    count: 1
+    title: Inspire
   instacart:
     count: 1
     title: Instacart
@@ -9348,7 +9369,7 @@ dictitems:
     count: 1
     title: Job-Switch
   joel spolsky:
-    count: 1
+    count: 2
     title: Joel Spolsky
   john:
     count: 2
@@ -9438,7 +9459,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 36
+    count: 37
     title: Journaling
   journaling system:
     count: 1
@@ -9752,6 +9773,9 @@ dictitems:
   kitten:
     count: 1
     title: kitten
+  kitty:
+    count: 1
+    title: Kitties
   klutz lego chain reactions activity kit:
     count: 1
     title: Klutz LEGO Chain Reactions Activity Kit
@@ -9864,7 +9888,7 @@ dictitems:
     count: 1
     title: language evolution
   language model:
-    count: 1
+    count: 2
     title: Language Model
   language models:
     count: 1
@@ -10245,7 +10269,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 169
+    count: 170
     title: Linux
   linux api:
     count: 1
@@ -11496,7 +11520,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 54
+    count: 55
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11703,7 +11727,7 @@ dictitems:
     count: 1
     title: Missile
   mission:
-    count: 5
+    count: 6
     title: Mission
   mississippi river:
     count: 1
@@ -12261,7 +12285,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 33
+    count: 34
     title: NeoVim
   nerd:
     count: 2
@@ -12882,7 +12906,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 42
+    count: 43
     title: OpenAI
   openai api:
     count: 3
@@ -12950,6 +12974,9 @@ dictitems:
   optical illusions:
     count: 2
     title: Optical Illusions
+  optimism:
+    count: 1
+    title: Optimism
   optimismists:
     count: 1
     title: Optimismists
@@ -14313,7 +14340,7 @@ dictitems:
     count: 1
     title: programmer
   programming:
-    count: 15
+    count: 16
     title: Programming
   programming languages:
     count: 2
@@ -15933,7 +15960,7 @@ dictitems:
     count: 1
     title: SAMBA
   sammy:
-    count: 1
+    count: 2
     title: Sammy
   sample:
     count: 1
@@ -16986,7 +17013,7 @@ dictitems:
     count: 1
     title: Social Justice
   social media:
-    count: 4
+    count: 5
     title: Social Media
   social ranks:
     count: 1
@@ -18059,6 +18086,9 @@ dictitems:
   system automation:
     count: 1
     title: System Automation
+  system crash:
+    count: 1
+    title: System Crash
   system customizations:
     count: 1
     title: system customizations
@@ -18396,7 +18426,7 @@ dictitems:
     count: 1
     title: Text-Editing
   text-file:
-    count: 2
+    count: 3
     title: Text-file
   text-files:
     count: 1
@@ -18695,6 +18725,9 @@ dictitems:
   tool:
     count: 21
     title: Tools
+  tool obsolescence:
+    count: 1
+    title: Tool Obsolescence
   tool selection:
     count: 1
     title: Tool Selection
@@ -19602,7 +19635,7 @@ dictitems:
     count: 1
     title: Vice President
   video:
-    count: 32
+    count: 33
     title: Video
   video card driver:
     count: 1
@@ -19650,7 +19683,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 110
+    count: 111
     title: Vim
   vim buffer:
     count: 1
@@ -19734,7 +19767,7 @@ dictitems:
     count: 1
     title: Virtual Local Area Networks
   virtual machine:
-    count: 3
+    count: 4
     title: Virtual Machine
   virtual machines:
     count: 3
@@ -20193,13 +20226,13 @@ dictitems:
     count: 73
     title: Windows
   windows 10:
-    count: 18
+    count: 19
     title: Windows 10
   windows 10/11:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 17
+    count: 18
     title: Windows 11
   windows 7:
     count: 1
