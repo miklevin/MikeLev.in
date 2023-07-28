@@ -4,7 +4,7 @@ title: Daily Journal in One Text-file For Life, Now With Copilot... Optional!
 headline: "Living in the NOOSPHERE: My Journey of Journaling with NeoVim and Copilot"
 description: I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.
 keywords: Journaling, Text-file, Kitties, Billy, Sammy, Charlie, Eri, Social Media, Optimism, Mission, Linux, Container, Virtual Machine, Windows 11, Windows 10, Downgrade, Hardware, Cracked Screen, System Crash, Vim, NeoVim, Copilot, GPT, OpenAI, Programming, API, Tool Obsolescence, Fire and Motion, Joel Spolsky, Microsoft, Language Model, English, Formulaic Happiness, Inspire, Video
-categories: linux, journaling, vim, container, microsoft, coding, ai, python
+categories: python, vim, journaling, ai, coding, container, linux, microsoft
 permalink: /blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/
 layout: post
 group: blog
@@ -18,7 +18,7 @@ tempted, haha. But really, this is to follow onto that last post quickly. I've
 recently received the advice that nothing good ever comes of social media,
 ever, ever... period. It was put to me with that much finality.
 
-{% include youtubePlayer.html id="OHYdvlbhVUI" %}
+{% include youtubePlayer.html id="lOZB60BP44k" %}
 
 I respectfully disagree. Is writing in a way that allows others to read what
 you wrote always necessarily wrong. I lost sleep over this one because I let
@@ -131,11 +131,11 @@ That's one AI. There are others. I look forward to telling you about them.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
