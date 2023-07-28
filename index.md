@@ -309,7 +309,7 @@ you. Well, maybe Ray Kurzweil, cause he wants to crawl up your butt. But soon
 you'll be telepathic and a new life awaits you in the Off-world colonies! A
 chance to begin again in a golden land of opportunity and adventure! 
 
-### 10 Most Recent Posts (<a href="/blog/">all</a>) ...
+### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
 {% include post_short_list.html %}
 
