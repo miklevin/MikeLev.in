@@ -2,7 +2,7 @@
 date: 2023-07-28
 title: "AI Crash Course 101: from 2017 Transformers to Robot Bodies"
 headline: "Exploring the Pros and Cons of AI: From 2017 Transformers to Robot Bodies"
-description: Learn about the AI models that have been around since 2017, including transformers, recurrent neural networks (RNNs), and convolutional neural networks (CNNs). Discover the well-known instances of each, such as GPT-3, BERT, and LSTM. Plus, explore more advanced topics like decision trees, random forests, support vector machines (SVMs), ensemble learning, Naive Bayes, K-Nearest Neighbors (KNN), logistic regression
+description: Learn about the AI models that have been around since 2017, including transformers, recurrent neural networks (RNNs), and convolutional neural networks (CNNs). Discover the well-known instances of each, such as GPT-3, BERT, and LSTM. Plus, explore more advanced topics like decision trees, random forests, support vector machines (SVMs), ensemble learning, Naive Bayes, K-Nearest Neighbors (KNN), logistic regression and more!
 keywords: AI, Transformers, Neural Networks, Recurrent Neural Networks, Convolutional Neural Networks, GPT-3, ChatGPT, LSTM, Decision Trees, Random Forests, Support Vector Machines, LibSVM, AdaBoost, Naive Bayes, Gaussian Naive Bayes, K-Nearest Neighbors, Logistic Regression, Ensemble Methods, Reinforcement Learning, Deep Reinforcement Learning, AlphaGo, Generative Adversarial Networks, Gradient Descent
 categories: ai
 permalink: /blog/ai-crash-course-101-from-2017-transformers-to-robot-bodies/

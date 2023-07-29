@@ -4,7 +4,7 @@ title: Jekyll include tags for Github.io YouTube Embedding
 headline: Developing Habits to Become an Expert in Technical Moves and Live-Streaming
 description: I'm developing new habits to become an expert in technical moves and live-streaming. To make sure nothing proprietary is shared, I'm setting up hotkeys and testing embedding YouTube videos in my Github.io pages. I'm also creating mikelevinseo.com as a place to write about topics instead of my main journal. Click through to read more about my journey.
 keywords: Github.io, YouTube, Embedding, Habits, Technical Moves, Live-Streaming, Hotkeys, Proprietary, Writing, Topics, Journal, Streaming, Publishing
-categories: youtube, proprietary, github.io
+categories: github.io, proprietary, youtube
 permalink: /blog/jekyll-include-tags-for-github-io-youtube-embedding/
 layout: post
 group: blog
@@ -63,6 +63,6 @@ Okay, done. Onto main work!
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/github-io/'>Github.io</a></h4></li>
 <li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/github-io/'>Github.io</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

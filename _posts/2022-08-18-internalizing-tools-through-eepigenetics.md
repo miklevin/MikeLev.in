@@ -4,7 +4,7 @@ title: Internalizing Tools Through Eepigenetics
 headline: Learning to Embrace My Environment Through Tools and Eepigenetics
 description: This article reflects on my journey in life, discussing the concept of epigenetics and Mike Levin, a microbiologist who shares my name and is a hero of mine. I explore my experiences in life, including falling victim to shortcut-seekers and narcissists, and how I am learning to make sure I don't lose myself to someone else. I have embraced my environment by finding my tools, and have realized the importance of incorporating VSCode into my DNA. I discuss the power of text editors.
 keywords: Epigenetics, Mike Levin, Shortcut-Seekers, Narcissists, VSCode, Text Editors, Journal, Proto-Intelligence, Free Will, Random Circumstance, Hand, Game of Life, Foam, Glass, Time, Vulnerability, Change, Platform, Web Browser, NodeJS, Server, Vi, Linux, Vim, Python, JavaScript
-categories: change, javascript, linux, vi, text editors, python, microsoft, vim
+categories: text editors, python, vim, javascript, vi, linux, change, microsoft
 permalink: /blog/internalizing-tools-through-eepigenetics/
 layout: post
 group: blog
@@ -228,11 +228,11 @@ of JavaScript, the one language to rule them all.
 ## Categories
 
 <ul>
-<li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li>
 <li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
