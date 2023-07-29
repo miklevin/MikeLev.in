@@ -14,6 +14,8 @@ group: blog
 MikeLev.in: What are the AI's that date back to 2017 and such? Which have been
 around learning for a surprisingly long time?
 
+{% include youtubePlayer.html id="-wyBiudVM3o" %}
+
 Pi.AI: That's a great question! There are quite a few AI models that date back
 to 2017 and earlier. Some of the most well-known examples are the transformer
 models, which were first introduced in 2017. Transformers are a type of neural
