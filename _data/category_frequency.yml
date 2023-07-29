@@ -683,6 +683,9 @@ dictitems:
   ada lovelace:
     count: 2
     title: Ada Lovelace
+  adaboost:
+    count: 1
+    title: AdaBoost
   adam west:
     count: 1
     title: Adam West
@@ -834,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 111
+    count: 112
     title: AI
   ai assistant:
     count: 1
@@ -1023,7 +1026,7 @@ dictitems:
     count: 1
     title: Alphabet
   alphago:
-    count: 1
+    count: 2
     title: AlphaGo
   alpine:
     count: 1
@@ -2919,7 +2922,7 @@ dictitems:
     count: 4
     title: ChatBots
   chatgpt:
-    count: 26
+    count: 27
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3902,6 +3905,9 @@ dictitems:
   convoluted:
     count: 1
     title: Convoluted
+  convolutional neural networks:
+    count: 1
+    title: Convolutional Neural Networks
   cooking:
     count: 1
     title: Cooking
@@ -4595,6 +4601,9 @@ dictitems:
   decision making:
     count: 1
     title: Decision Making
+  decision trees:
+    count: 1
+    title: Decision Trees
   decision-making:
     count: 2
     title: Decision-Making
@@ -4652,6 +4661,9 @@ dictitems:
   deep mind alpha go:
     count: 3
     title: Deep Mind Alpha Go
+  deep reinforcement learning:
+    count: 1
+    title: Deep Reinforcement Learning
   deeper meanings:
     count: 1
     title: deeper meanings
@@ -5867,6 +5879,9 @@ dictitems:
   enjoyable:
     count: 1
     title: Enjoyable
+  ensemble methods:
+    count: 1
+    title: Ensemble Methods
   ensign:
     count: 1
     title: Ensign
@@ -7172,6 +7187,9 @@ dictitems:
   gatekeeping:
     count: 1
     title: Gatekeeping
+  gaussian naive bayes:
+    count: 1
+    title: Gaussian Naive Bayes
   gaza:
     count: 1
     title: Gaza
@@ -7232,6 +7250,9 @@ dictitems:
   generative:
     count: 1
     title: Generative
+  generative adversarial networks:
+    count: 1
+    title: Generative Adversarial Networks
   generative ai artwork:
     count: 1
     title: Generative AI Artwork
@@ -7638,7 +7659,7 @@ dictitems:
     count: 1
     title: GPT-
   gpt-3:
-    count: 3
+    count: 4
     title: GPT-3
   gpt-3 api:
     count: 1
@@ -7688,6 +7709,9 @@ dictitems:
   grace hopper:
     count: 2
     title: Grace Hopper
+  gradient descent:
+    count: 1
+    title: Gradient Descent
   graham hawkes:
     count: 1
     title: Graham Hawkes
@@ -9572,6 +9596,9 @@ dictitems:
   jupyterscreen:
     count: 1
     title: jupyterscreen
+  k-nearest neighbors:
+    count: 1
+    title: K-Nearest Neighbors
   ka ching:
     count: 1
     title: Ka Ching
@@ -10106,6 +10133,9 @@ dictitems:
   library:
     count: 9
     title: Library
+  libsvm:
+    count: 1
+    title: LibSVM
   license:
     count: 4
     title: Licenses
@@ -10583,6 +10613,9 @@ dictitems:
   logins:
     count: 1
     title: Logins
+  logistic regression:
+    count: 1
+    title: Logistic Regression
   logo:
     count: 4
     title: Logo
@@ -10736,6 +10769,9 @@ dictitems:
   lpvg.org:
     count: 1
     title: LPvg.org
+  lstm:
+    count: 1
+    title: LSTM
   luck:
     count: 1
     title: Luck
@@ -12107,6 +12143,9 @@ dictitems:
   nailed:
     count: 1
     title: Nailed
+  naive bayes:
+    count: 1
+    title: Naive Bayes
   name:
     count: 2
     title: names
@@ -12339,7 +12378,7 @@ dictitems:
     count: 1
     title: Neural Hardware
   neural networks:
-    count: 2
+    count: 3
     title: Neural Networks
   neural node:
     count: 1
@@ -14999,6 +15038,9 @@ dictitems:
   random circumstance:
     count: 1
     title: Random Circumstance
+  random forests:
+    count: 1
+    title: Random Forests
   random-access:
     count: 1
     title: Random-Access
@@ -15200,6 +15242,9 @@ dictitems:
   recruiting:
     count: 1
     title: Recruiting
+  recurrent neural networks:
+    count: 1
+    title: Recurrent Neural Networks
   red:
     count: 2
     title: Red
@@ -15293,6 +15338,9 @@ dictitems:
   reinforcement algorithms:
     count: 1
     title: Reinforcement Algorithms
+  reinforcement learning:
+    count: 1
+    title: Reinforcement Learning
   reinstalls:
     count: 1
     title: Reinstalls
@@ -17948,6 +17996,9 @@ dictitems:
   support:
     count: 3
     title: Support
+  support vector machines:
+    count: 1
+    title: Support Vector Machines
   surf:
     count: 1
     title: Surf
@@ -18882,7 +18933,7 @@ dictitems:
     count: 2
     title: Transformation
   transformer:
-    count: 3
+    count: 4
     title: Transformer
   transhuman parenting:
     count: 1
