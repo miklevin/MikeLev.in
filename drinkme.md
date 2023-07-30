@@ -1,7 +1,7 @@
 ---
 permalink: /drinkme
-title: Did Somebody Say Drink Me?
-description: The DrinkMe script for WSL replaces Levinux
+title: Install Linux JupyterLab on Windows
+description: a good way to start learning linux is to install it on windows and use the linux version of python under jupyterlab. this page will redirect you to the install script.
 ---
 
 <html xmlns="http://www.w3.org/1999/xhtml">
