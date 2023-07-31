@@ -13,11 +13,10 @@ group: blog
 > I'm Mike Levin, an SEO in NYC, and this is my daily work journal. It's all
 > built from a 1-text-file for life approach.
 
-You Jesus? No, Osmosis... haha, credit my HS science teacher, Frank Milauskas.
-He had the same look. No, just a dirty hippy who's been around the block a few
-times. I'm a 50-year-old SEO in NYC, and this is my daily work journal. It's
-all built from a 1-text-file for life approach. Oh, I also was apparently who
-my employers tagged with AI / Alien disclosure, but who knows. They've got
-Amazing Stories in their blood, so it's probably all just a story.
+I'm a tech who's been around the block a few times, in the field of SEO and all
+things Linux, Python, vim & git. My topics range wildly from a digital nomadic
+lifestyle that lets you reproduce the timeless writing, blogging and coding
+environment I use (and have "canned" for you), to the latest in AI, machine
+learning, and the future of work.
 
 {% include post_list.html %}
