@@ -31,13 +31,13 @@ throughout your career. You can get better at it for life, the way musicians,
 athletes and artists do with their craft. Tech ***can*** be like that, but you
 need to be careful about what you invest in. ***LPvg*** is a safe bet.
 
-> <nobr>Deep within my heart and soul </nobr>
-> <nobr>Two me's fight for the truth&#151; </nobr>
-> <nobr>One's the vain green-hunter, </nobr>
-> <nobr>The other's soft and bluish. </nobr>
-> <nobr>You'd think the one that feeds us </nobr>
-> <nobr>Draws arrows and not glyphs </nobr>
-> <nobr>But whiteboard-inked ideas </nobr>
+> <nobr>Deep within my heart and soul </nobr>  
+> <nobr>Two me's fight for the truth&#151; </nobr>  
+> <nobr>One's the vain green-hunter, </nobr>  
+> <nobr>The other's soft and bluish. </nobr>  
+> <nobr>You'd think the one that feeds us </nobr>  
+> <nobr>Draws arrows and not glyphs </nobr>  
+> <nobr>But whiteboard-inked ideas </nobr>  
 > <nobr>Drive Mammoths off the cliffs. </nobr>
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
