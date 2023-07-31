@@ -5040,7 +5040,7 @@ dictitems:
     count: 1
     title: Disable
   discipline:
-    count: 1
+    count: 2
     title: Discipline
   disclosure:
     count: 5
@@ -6101,6 +6101,9 @@ dictitems:
   evolve:
     count: 1
     title: Evolve
+  evolved:
+    count: 1
+    title: Evolved
   evolving:
     count: 1
     title: Evolving
@@ -7980,7 +7983,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 18
+    count: 19
     title: Hardware
   harkonnen:
     count: 1
@@ -9029,6 +9032,9 @@ dictitems:
   intense:
     count: 1
     title: Intense
+  intent:
+    count: 1
+    title: Intent
   inter:
     count: 1
     title: Inter
@@ -9495,7 +9501,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 38
+    count: 39
     title: Journaling
   journaling system:
     count: 1
@@ -10158,7 +10164,7 @@ dictitems:
     count: 2
     title: lie
   life:
-    count: 28
+    count: 29
     title: Life
   life advice:
     count: 1
@@ -10314,7 +10320,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 173
+    count: 174
     title: Linux
   linux api:
     count: 1
@@ -11367,7 +11373,7 @@ dictitems:
     count: 1
     title: Meditation
   medium:
-    count: 2
+    count: 3
     title: Media
   meet:
     count: 1
@@ -11733,8 +11739,8 @@ dictitems:
     count: 1
     title: Mind-tricks
   mindfulness:
-    count: 2
-    title: mindfulness
+    count: 3
+    title: Mindfulness
   mini-project:
     count: 2
     title: Mini-Project
@@ -16352,6 +16358,9 @@ dictitems:
   segment:
     count: 1
     title: Segment
+  selection:
+    count: 1
+    title: Selection
   selectively override:
     count: 1
     title: selectively override
@@ -17151,7 +17160,7 @@ dictitems:
     count: 1
     title: Solla Sollew
   solution:
-    count: 4
+    count: 5
     title: Solutions
   solvay congress:
     count: 1
@@ -17907,7 +17916,7 @@ dictitems:
     count: 2
     title: Substitution
   subsystem:
-    count: 7
+    count: 8
     title: Subsystem
   subtle language:
     count: 1
@@ -18732,8 +18741,8 @@ dictitems:
     count: 1
     title: Time-Sharing System
   timeless:
-    count: 1
-    title: timeless
+    count: 2
+    title: Timeless
   timeless design patterns:
     count: 1
     title: Timeless Design Patterns
@@ -20541,7 +20550,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 31
+    count: 32
     title: Writing
   writing code:
     count: 1
