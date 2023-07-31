@@ -4,7 +4,7 @@ title: "Mike Levin: AI SEO... And On His Blog He Has Copilot, A-I-S-E-O"
 headline: I Realized I Experienced a Nervous Breakdown and Discovered the Benefits of Getting Back into Journaling
 description: Mike Levin shares his experience of recovering from a nervous breakdown and how he very carefully now allows or disallows AI in interfere with his journaling. He explains the difference between encoding thoughts in writing versus talking, and how it can help develop thoughtful and considered ideas.
 keywords: Mike Levin, AI SEO, Copilot, AI-SEO, Nervous Breakdown, Poconos, Pandemic, Personal Sacrifice, Uprooted, Journaling, Autosuggest, Override Thoughts, Control, Free Will, Encoding, Abstract Concepts, Words, Vim, NeoVim, Vi, Bill Joy, Unix, Operating System, Remote Connection, Dumb Terminals, Keystrokes, Markdown, Text Files, Journaling, Stream of Consciousness, Thinking
-categories: journaling, linux, vi, ai, vim
+categories: vim, linux, journaling, ai, vi
 permalink: /blog/mike-levin-ai-seo-and-on-his-blog-he-has-copilot-a-i-s-e-o/
 layout: post
 group: blog
@@ -99,8 +99,8 @@ When you write, you have to think about what you're writing.
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vi/'>Vi</a></h4></li></ul>

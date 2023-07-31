@@ -3038,6 +3038,9 @@ dictitems:
   chrome os:
     count: 2
     title: Chrome OS
+  chromebooks:
+    count: 1
+    title: ChromeBooks
   chromium:
     count: 4
     title: Chromium
@@ -5120,6 +5123,9 @@ dictitems:
   distraction:
     count: 4
     title: Distractions
+  distraction-free rebuild:
+    count: 1
+    title: distraction-free rebuild
   distributed:
     count: 1
     title: Distributed
@@ -6306,7 +6312,7 @@ dictitems:
     count: 1
     title: Factory Bill-of-Materials System
   factory reset:
-    count: 1
+    count: 2
     title: Factory Reset
   fad:
     count: 1
@@ -9489,7 +9495,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 37
+    count: 38
     title: Journaling
   journaling system:
     count: 1
@@ -9939,7 +9945,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 14
+    count: 15
     title: Laptop
   laptop computing:
     count: 1
@@ -10178,6 +10184,9 @@ dictitems:
   life-changing:
     count: 1
     title: Life-Changing
+  life-long journal:
+    count: 1
+    title: life-long journal
   life_in_weeks.ipynb:
     count: 1
     title: life_in_weeks.ipynb
@@ -10305,7 +10314,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 172
+    count: 173
     title: Linux
   linux api:
     count: 1
@@ -10878,7 +10887,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 22
+    count: 23
     title: Mac
   macbook pro:
     count: 2
@@ -11724,8 +11733,8 @@ dictitems:
     count: 1
     title: Mind-tricks
   mindfulness:
-    count: 1
-    title: Mindfulness
+    count: 2
+    title: mindfulness
   mini-project:
     count: 2
     title: Mini-Project
@@ -12560,6 +12569,9 @@ dictitems:
   nomadic computing:
     count: 1
     title: Nomadic Computing
+  nomadic digital home:
+    count: 1
+    title: nomadic digital home
   nomadic lifestyle:
     count: 1
     title: nomadic lifestyle
@@ -17114,6 +17126,9 @@ dictitems:
   software repositories:
     count: 2
     title: Software Repositories
+  software strip-down:
+    count: 1
+    title: software strip-down
   software tricks:
     count: 1
     title: software tricks
@@ -20313,7 +20328,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 74
+    count: 75
     title: Windows
   windows 10:
     count: 20

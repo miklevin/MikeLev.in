@@ -4,7 +4,7 @@ title: A Tale of Two Pipers
 headline: "Choose Wisely: The Consequences of Following the Falsey or FLOSSy Pied Pipers"
 description: Today, I heard a thought-provoking poem by Mike Levin about the two types of Pied Pipers - the Falsey and the FLOSSy - and the consequences of choosing which one to follow. It could be a Chromium swiper or a Terminal typer, and it will decide whether you are sealed or free. I invite you to read my blog post to learn more about this fascinating poem.
 keywords: Pied Pipers, Falsey, FLOSSy, Chromium, Swiper, Terminal, Typer, Sealed, Free, Mike Levin, Poem, Fate, Outcome
-categories: poetry, linux
+categories: linux, poetry
 permalink: /blog/a-tale-of-two-pipers/
 layout: post
 group: blog
@@ -23,5 +23,5 @@ group: blog
 ## Categories
 
 <ul>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
