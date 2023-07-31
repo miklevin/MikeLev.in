@@ -16,6 +16,8 @@ Computers in the 80's. My skills have gone through the cutting-edge
 obsolescence cycle until I couldn't stand it anymore. I gradually found my way
 to Linux, Python, vim & git as a timeless core. 
 
+
+<img class="picright" width="150vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
 No matter how things change in tech, LPvg will always be there, and being adept
 at them will always make you valuable. But making the transition can be tough.
 To make it easier, I made a version of JupyterLab that will run on Windows or
