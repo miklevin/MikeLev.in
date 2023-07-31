@@ -3432,7 +3432,7 @@ dictitems:
     count: 1
     title: Comma Separated Values
   command:
-    count: 20
+    count: 21
     title: Command
   command centric design:
     count: 1
@@ -3441,7 +3441,7 @@ dictitems:
     count: 3
     title: Command Line
   command line interface:
-    count: 2
+    count: 3
     title: Command Line Interface
   command-line:
     count: 7
@@ -3864,7 +3864,7 @@ dictitems:
     count: 2
     title: Contributions
   control:
-    count: 11
+    count: 12
     title: Control
   control click:
     count: 1
@@ -3927,7 +3927,7 @@ dictitems:
     count: 1
     title: CopilotX
   copy:
-    count: 4
+    count: 5
     title: Copy
   copy files:
     count: 1
@@ -4827,7 +4827,7 @@ dictitems:
     count: 1
     title: Designer
   desktop:
-    count: 6
+    count: 7
     title: Desktop
   desktop os:
     count: 1
@@ -6198,7 +6198,7 @@ dictitems:
     count: 1
     title: Expert
   expertise:
-    count: 2
+    count: 3
     title: Expertise
   expired:
     count: 1
@@ -6311,6 +6311,9 @@ dictitems:
   fad:
     count: 1
     title: Fads
+  fad-shift:
+    count: 1
+    title: Fad-Shift
   fading assets:
     count: 1
     title: Fading Assets
@@ -7077,8 +7080,8 @@ dictitems:
     count: 1
     title: Future of Technology
   future-proof:
-    count: 2
-    title: Future-Proof
+    count: 3
+    title: Future-proof
   future-proofing:
     count: 2
     title: future-proofing
@@ -7784,8 +7787,11 @@ dictitems:
   green belt parks:
     count: 1
     title: Green Belt Parks
-  green lantern:
+  green highlighting:
     count: 1
+    title: Green Highlighting
+  green lantern:
+    count: 2
     title: Green Lantern
   greg:
     count: 1
@@ -7929,7 +7935,7 @@ dictitems:
     count: 1
     title: Hamilton
   hammer:
-    count: 1
+    count: 2
     title: Hammer
   hamster wheel:
     count: 1
@@ -9462,7 +9468,7 @@ dictitems:
     count: 1
     title: Joule-Seconds
   journal:
-    count: 31
+    count: 33
     title: Journal
   journal entries:
     count: 2
@@ -9696,8 +9702,8 @@ dictitems:
     count: 3
     title: Keyboard
   keyboard shortcut:
-    count: 1
-    title: keyboard shortcut
+    count: 2
+    title: Keyboard Shortcut
   keyboard shortcuts:
     count: 3
     title: Keyboard Shortcuts
@@ -9933,7 +9939,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 13
+    count: 14
     title: Laptop
   laptop computing:
     count: 1
@@ -10299,7 +10305,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 170
+    count: 172
     title: Linux
   linux api:
     count: 1
@@ -10310,6 +10316,9 @@ dictitems:
   linux cli:
     count: 1
     title: Linux CLI
+  linux command line:
+    count: 1
+    title: Linux Command Line
   linux commands:
     count: 2
     title: Linux commands
@@ -10869,7 +10878,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 21
+    count: 22
     title: Mac
   macbook pro:
     count: 2
@@ -11556,7 +11565,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 55
+    count: 56
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12087,7 +12096,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 8
+    count: 9
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -12723,7 +12732,7 @@ dictitems:
     count: 1
     title: NYTimes
   o:
-    count: 2
+    count: 3
     title: OS
   o-scale:
     count: 1
@@ -12735,7 +12744,7 @@ dictitems:
     count: 2
     title: OAuth2
   ob:
-    count: 2
+    count: 3
     title: OBS
   obi-wan:
     count: 2
@@ -12902,6 +12911,9 @@ dictitems:
   open:
     count: 5
     title: Open
+  open broadcast software:
+    count: 1
+    title: Open Broadcast Software
   open mind:
     count: 2
     title: Open Mind
@@ -13041,7 +13053,7 @@ dictitems:
     count: 1
     title: Optimizing
   option:
-    count: 2
+    count: 3
     title: options
   option/command keys:
     count: 1
@@ -13118,6 +13130,9 @@ dictitems:
   os-independent:
     count: 1
     title: OS-independent
+  os-wars:
+    count: 2
+    title: OS-wars
   oscillation:
     count: 1
     title: Oscillation
@@ -13365,7 +13380,7 @@ dictitems:
     count: 2
     title: Past
   paste:
-    count: 1
+    count: 2
     title: Paste
   pasting:
     count: 1
@@ -13613,6 +13628,9 @@ dictitems:
   phishing vulnerability:
     count: 1
     title: Phishing Vulnerability
+  phone:
+    count: 1
+    title: Phone
   photo:
     count: 1
     title: photos
@@ -15560,6 +15578,9 @@ dictitems:
   resilience:
     count: 1
     title: resilience
+  resist obsolescence:
+    count: 1
+    title: Resist obsolescence
   resistant:
     count: 1
     title: resistant
@@ -17082,7 +17103,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 24
+    count: 25
     title: Software
   software development:
     count: 3
@@ -17586,7 +17607,7 @@ dictitems:
     count: 1
     title: Steve Carell
   steve jobs:
-    count: 5
+    count: 6
     title: Steve Jobs
   steven greer:
     count: 1
@@ -17871,7 +17892,7 @@ dictitems:
     count: 2
     title: Substitution
   subsystem:
-    count: 6
+    count: 7
     title: Subsystem
   subtle language:
     count: 1
@@ -18653,6 +18674,9 @@ dictitems:
   tijuana:
     count: 1
     title: Tijuana
+  tiktok:
+    count: 1
+    title: TikTok
   tiktoken:
     count: 1
     title: tiktoken
@@ -18701,6 +18725,9 @@ dictitems:
   timeless tech tools:
     count: 1
     title: timeless tech tools
+  timeless tools:
+    count: 1
+    title: Timeless Tools
   timeless-technology:
     count: 1
     title: Timeless-Technology
@@ -19104,7 +19131,7 @@ dictitems:
     count: 1
     title: Twisted Bilayer Graphene
   twitter:
-    count: 10
+    count: 11
     title: Twitter
   twitter api:
     count: 1
@@ -19416,7 +19443,7 @@ dictitems:
     count: 1
     title: Update Vimrc
   upgrade:
-    count: 10
+    count: 11
     title: Upgrade
   upgrading:
     count: 2
@@ -19487,6 +19514,9 @@ dictitems:
   user interface:
     count: 3
     title: User Interface
+  user interfaces:
+    count: 1
+    title: User Interfaces
   user profile:
     count: 1
     title: User Profile
@@ -19649,6 +19679,12 @@ dictitems:
   version control:
     count: 1
     title: Version Control
+  version upgrade:
+    count: 1
+    title: Version Upgrade
+  vertical format:
+    count: 1
+    title: Vertical Format
   verywellfamily.com:
     count: 1
     title: verywellfamily.com
@@ -19734,7 +19770,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 111
+    count: 112
     title: Vim
   vim buffer:
     count: 1
@@ -19800,7 +19836,7 @@ dictitems:
     count: 2
     title: Virtual Assistant
   virtual desktops:
-    count: 7
+    count: 8
     title: Virtual Desktops
   virtual development environment:
     count: 1
@@ -20120,6 +20156,9 @@ dictitems:
   web ui:
     count: 2
     title: Web UI
+  web-based:
+    count: 1
+    title: Web-based
   web-based apis:
     count: 1
     title: Web-based APIs
@@ -20274,16 +20313,16 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 73
+    count: 74
     title: Windows
   windows 10:
-    count: 19
+    count: 20
     title: Windows 10
   windows 10/11:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 18
+    count: 19
     title: Windows 11
   windows 7:
     count: 1
@@ -20399,6 +20438,9 @@ dictitems:
   word processing:
     count: 1
     title: Word Processing
+  word processor:
+    count: 1
+    title: Word Processor
   word processors:
     count: 2
     title: Word Processors
@@ -20484,7 +20526,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 30
+    count: 31
     title: Writing
   writing code:
     count: 1
@@ -20619,7 +20661,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 48
+    count: 49
     title: YouTube
   youtube analytics:
     count: 1
@@ -20705,6 +20747,9 @@ dictitems:
   zoo:
     count: 1
     title: Zoo
+  zoom:
+    count: 1
+    title: Zoom
   zope:
     count: 1
     title: Zope
