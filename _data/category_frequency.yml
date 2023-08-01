@@ -837,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 112
+    count: 113
     title: AI
   ai assistant:
     count: 1
@@ -1125,7 +1125,7 @@ dictitems:
     count: 1
     title: amygdala
   anaconda:
-    count: 2
+    count: 3
     title: Anaconda
   analog news:
     count: 1
@@ -3189,7 +3189,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 14
+    count: 16
     title: Cloud
   cloud chamber:
     count: 1
@@ -3450,7 +3450,7 @@ dictitems:
     count: 3
     title: Command Line Interface
   command-line:
-    count: 7
+    count: 8
     title: Command-Line
   command-line argument:
     count: 1
@@ -4841,6 +4841,9 @@ dictitems:
   desktop oses:
     count: 1
     title: Desktop OSes
+  desktop-jupyter:
+    count: 1
+    title: Desktop-Jupyter
   destructive:
     count: 1
     title: destructive
@@ -6128,6 +6131,9 @@ dictitems:
   excel file:
     count: 1
     title: Excel File
+  exception handling:
+    count: 1
+    title: Exception Handling
   excession:
     count: 1
     title: Excession
@@ -6548,6 +6554,9 @@ dictitems:
   file path:
     count: 2
     title: File Path
+  file paths:
+    count: 1
+    title: File Paths
   file protocol:
     count: 1
     title: File Protocol
@@ -6839,6 +6848,9 @@ dictitems:
   forward:
     count: 1
     title: forward
+  forward slashes:
+    count: 1
+    title: Forward Slashes
   foss ai software:
     count: 1
     title: FOSS AI Software
@@ -9606,7 +9618,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 42
+    count: 43
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10329,7 +10341,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 175
+    count: 176
     title: Linux
   linux api:
     count: 1
@@ -10608,7 +10620,7 @@ dictitems:
     count: 1
     title: Location Services
   lock-in:
-    count: 1
+    count: 2
     title: Lock-In
   lockdown:
     count: 2
@@ -11150,6 +11162,9 @@ dictitems:
   marc brackett:
     count: 1
     title: Marc Brackett
+  marcus aurelius:
+    count: 1
+    title: Marcus Aurelius
   margin:
     count: 1
     title: Margin
@@ -11385,8 +11400,8 @@ dictitems:
     count: 2
     title: Medicine
   meditation:
-    count: 1
-    title: Meditation
+    count: 2
+    title: Meditations
   medium:
     count: 3
     title: Media
@@ -11595,7 +11610,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 56
+    count: 57
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11753,6 +11768,9 @@ dictitems:
   mind-tricks:
     count: 1
     title: Mind-tricks
+  mindful:
+    count: 1
+    title: Mindful
   mindfulness:
     count: 3
     title: Mindfulness
@@ -12158,6 +12176,9 @@ dictitems:
   mycelium network:
     count: 1
     title: Mycelium Network
+  mykoz:
+    count: 1
+    title: MyKoz
   mysql:
     count: 3
     title: MySQL
@@ -12765,7 +12786,7 @@ dictitems:
     count: 1
     title: NYTimes
   o:
-    count: 3
+    count: 4
     title: OS
   o-scale:
     count: 1
@@ -14436,7 +14457,7 @@ dictitems:
     count: 1
     title: programmer
   programming:
-    count: 16
+    count: 17
     title: Programming
   programming languages:
     count: 2
@@ -14739,7 +14760,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 186
+    count: 187
     title: Python
   python 3:
     count: 1
@@ -15126,7 +15147,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 5
+    count: 6
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -17687,8 +17708,11 @@ dictitems:
   stockholm syndrome:
     count: 1
     title: Stockholm Syndrome
-  stoicism:
+  stoic:
     count: 1
+    title: Stoic
+  stoicism:
+    count: 2
     title: Stoicism
   stone wall:
     count: 1
@@ -17976,7 +18000,7 @@ dictitems:
     count: 1
     title: Suggest API
   suggestion:
-    count: 1
+    count: 2
     title: Suggestions
   sumarian clay tablets:
     count: 1
@@ -18401,6 +18425,9 @@ dictitems:
   technical:
     count: 3
     title: Technical
+  technical debt:
+    count: 1
+    title: Technical Debt
   technical matters:
     count: 1
     title: Technical Matters
@@ -18530,6 +18557,9 @@ dictitems:
   text files:
     count: 1
     title: Text Files
+  text-based:
+    count: 1
+    title: Text-Based
   text-based terminal:
     count: 1
     title: Text-based Terminal
@@ -18765,7 +18795,7 @@ dictitems:
     count: 1
     title: Time-Sharing System
   timeless:
-    count: 2
+    count: 3
     title: Timeless
   timeless design patterns:
     count: 1
@@ -19818,7 +19848,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 113
+    count: 114
     title: Vim
   vim buffer:
     count: 1
@@ -20037,7 +20067,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 26
+    count: 27
     title: VSCode
   vscodium:
     count: 1
@@ -20361,7 +20391,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 75
+    count: 76
     title: Windows
   windows 10:
     count: 21
@@ -20610,7 +20640,7 @@ dictitems:
     count: 1
     title: WSL1
   wsl2:
-    count: 23
+    count: 24
     title: WSL2
   wsl2 localhost access issue:
     count: 1
