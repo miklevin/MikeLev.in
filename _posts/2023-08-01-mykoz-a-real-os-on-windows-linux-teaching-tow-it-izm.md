@@ -4,7 +4,7 @@ title: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm"
 headline: "Discover MyKoz: A Real OS on Windows (Linux) for Tow-it-izm Learning."
 description: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm. Embrace technology in a mindful way with MyKoz, a timeless and portable set of tools to improve your skills and keep you valuable for life. Follow along with the ideation and naming of this groundbreaking endeavor."
 keywords: MyKoz, OS, Windows, Linux, WSL2, JupyterLab, Microsoft, VSCode, Anaconda, Desktop-Jupyter, Cloud, Raspberry Pi, Command-Line, Python, Programming, File Paths, Forward Slashes, Exception Handling, Lock-In, Technical Debt, Stoicism, Marcus Aurelius, Meditations, Vim, Text-Based, Cloud, AI, Suggestions, Stoic, Mindful, Timeless
-categories: jupyter, journaling, microsoft, linux, python, ai, coding, wsl, vim
+categories: journaling, vim, microsoft, coding, python, jupyter, wsl, linux, ai
 permalink: /blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/
 layout: post
 group: blog
@@ -50,20 +50,25 @@ Mike Levin's Cause? MyCoz? MyKoz? Gotta see it in Figlet ASCII art before I can
 decide. Here we go...
 
 Marcus
+
      __  __                          
     |  \/  | __ _ _ __ ___ _   _ ___ 
     | |\/| |/ _` | '__/ __| | | / __|
     | |  | | (_| | | | (__| |_| \__ \
     |_|  |_|\__,_|_|  \___|\__,_|___/
 
+
 Mark Us
+
      __  __            _      _   _     
     |  \/  | __ _ _ __| | __ | | | |___ 
     | |\/| |/ _` | '__| |/ / | | | / __|
     | |  | | (_| | |  |   <  | |_| \__ \
     |_|  |_|\__,_|_|  |_|\_\  \___/|___/
 
+
 My Cause
+
      __  __        ____                     
     |  \/  |_   _ / ___|__ _ _   _ ___  ___ 
     | |\/| | | | | |   / _` | | | / __|/ _ \
@@ -71,7 +76,9 @@ My Cause
     |_|  |_|\__, |\____\__,_|\__,_|___/\___|
             |___/                           
 
+
 MyCoz
+
      __  __        ____         
     |  \/  |_   _ / ___|___ ____
     | |\/| | | | | |   / _ \_  /
@@ -79,7 +86,9 @@ MyCoz
     |_|  |_|\__, |\____\___/___|
             |___/               
 
+
 MyKoz
+
      __  __       _  __        
     |  \/  |_   _| |/ /___ ____
     | |\/| | | | | ' // _ \_  /
@@ -87,7 +96,9 @@ MyKoz
     |_|  |_|\__, |_|\_\___/___|
             |___/              
 
+
 PyCoz? Play up the Python connection?
+
      ____        _  __        
     |  _ \ _   _| |/ /___ ____
     | |_) | | | | ' // _ \_  /
@@ -95,15 +106,18 @@ PyCoz? Play up the Python connection?
     |_|    \__, |_|\_\___/___|
            |___/              
 
+
 While this is remarkably strong, "Py" gets plenty of coverage. This is more
 about "My Cause" than the "Python Cause" so I'm going with MyKoz. But it needs a
 colon in there.
+
      __  __       _  __           
     |  \/  |_   _| |/ /___ _____  
     | |\/| | | | | ' // _ \_  (_) 
     | |  | | |_| | . \ (_) / / _  
     |_|  |_|\__, |_|\_\___/___(_) 
             |___/                 
+
 
 MyKoz: ARealOS... wow, that's strong. That's ***really*** strong. See if you can
 get that to work as an ASCII art banner you can use in the installer. Stay under
@@ -144,12 +158,12 @@ sort of stoic, mindful, and timelessness this project is all about.
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
