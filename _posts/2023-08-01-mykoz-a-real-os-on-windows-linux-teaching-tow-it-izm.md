@@ -4,7 +4,7 @@ title: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm"
 headline: "Discover MyKoz: A Real OS on Windows (Linux) for Tow-it-izm Learning."
 description: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm. Embrace technology in a mindful way with MyKoz, a timeless and portable set of tools to improve your skills and keep you valuable for life. Follow along with the ideation and naming of this novel endeavor."
 keywords: MyKoz, OS, Windows, Linux, WSL2, JupyterLab, Microsoft, VSCode, Anaconda, Desktop-Jupyter, Cloud, Raspberry Pi, Command-Line, Python, Programming, File Paths, Forward Slashes, Exception Handling, Lock-In, Technical Debt, Stoicism, Marcus Aurelius, Meditations, Vim, Text-Based, Cloud, AI, Suggestions, Stoic, Mindful, Timeless
-categories: python, journaling, wsl, coding, ai, linux, microsoft, jupyter, vim
+categories: microsoft, linux, ai, vim, wsl, coding, jupyter, python, journaling
 permalink: /blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/
 layout: post
 group: blog
@@ -132,7 +132,7 @@ get that to work as an ASCII art banner you can use in the installer. Stay under
         |___/ MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm
 
  Embrace technology in a mindful way. Improve your skills on a small set
- of timeless portable tools that keeps you engaged and valuable for life
+ of timeless portable tools that keeps you valuable and engaged for life
 
 ```
 
@@ -158,12 +158,12 @@ sort of stoic, mindful, and timelessness this project is all about.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

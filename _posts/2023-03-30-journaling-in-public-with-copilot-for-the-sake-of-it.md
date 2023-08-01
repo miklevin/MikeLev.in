@@ -4,7 +4,7 @@ title: Journaling In Public With Copilot For The Sake of It
 headline: Exploring GPT-4 and Sharing My Knowledge of Vim, NeoVim, and Vi
 description: I'm exploring the possibilities of GPT-4, an AI trained on the entire internet, by attempting to get it to do programming. I'm also setting up a project with the MOZ API, and checking if anyone is around to chat. As a long-time user of vim, NeoVim, and vi, I'm sharing my knowledge of their efficiency and keystroke commands with any potential readers. I'm also providing a link to the MOZ Links API Documentation, so read on.
 keywords: GPT-4, AI, Programming, Vim, NeoVim, Vi, Efficiency, Keystroke Commands, MOZ API, Links API Documentation, VSCode, Journaling, Copilot, Sake, Exploring, Possibilities, Sharing, Knowledge, Muscle Memory
-categories: coding, ai, journaling, vi, microsoft, vim, muscle memory
+categories: microsoft, ai, muscle memory, vi, vim, coding, journaling
 permalink: /blog/journaling-in-public-with-copilot-for-the-sake-of-it/
 layout: post
 group: blog
@@ -120,10 +120,10 @@ Here is the link to the [MOZ Links API Documentation](https://moz.com/help/links
 ## Categories
 
 <ul>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vi/'>Vi</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/vi/'>Vi</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
