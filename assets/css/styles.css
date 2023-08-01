@@ -468,14 +468,16 @@ dt {
     color: var(--text-light);
 }
 
-/* Use mono font for code elements */
+
+/* Use mono font for code elements with fallback options */
 code,
 pre,
 pre span,
 kbd,
 samp {
-    font-family: var(--mono-font);
-    color: var(--code);
+    font-family: 'Courier New', monospace; /* Fallback font if --mono-font is not supported */
+    font-family: var(--mono-font, 'Courier New', monospace); /* Use --mono-font if supported, otherwise fallback */
+    color: var(--code); 
 }
 
 kbd {
