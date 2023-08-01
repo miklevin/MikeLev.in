@@ -1325,6 +1325,9 @@ dictitems:
   appliance:
     count: 2
     title: Appliances
+  application programming interfaces:
+    count: 1
+    title: Application Programming Interfaces
   application server:
     count: 1
     title: Application Server
@@ -3186,7 +3189,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 13
+    count: 14
     title: Cloud
   cloud chamber:
     count: 1
@@ -6315,7 +6318,7 @@ dictitems:
     count: 1
     title: Factory Bill-of-Materials System
   factory reset:
-    count: 2
+    count: 3
     title: Factory Reset
   fad:
     count: 1
@@ -7092,8 +7095,8 @@ dictitems:
     count: 3
     title: Future-proof
   future-proofing:
-    count: 2
-    title: future-proofing
+    count: 3
+    title: Future-Proofing
   futurist:
     count: 1
     title: Futurist
@@ -7365,7 +7368,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 77
+    count: 78
     title: Git
   git commit:
     count: 2
@@ -7868,6 +7871,9 @@ dictitems:
   guerillatech.com:
     count: 2
     title: guerillatech.com
+  guest operating system:
+    count: 1
+    title: Guest Operating System
   gui:
     count: 2
     title: GUI
@@ -8363,6 +8369,9 @@ dictitems:
   host linux:
     count: 1
     title: Host Linux
+  host operating system:
+    count: 1
+    title: Host Operating System
   host system:
     count: 1
     title: Host System
@@ -9201,7 +9210,7 @@ dictitems:
     count: 1
     title: IPVoid
   ipython:
-    count: 3
+    count: 4
     title: iPython
   ipython notebooks:
     count: 1
@@ -9576,7 +9585,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 31
+    count: 32
     title: Jupyter
   jupyter environment:
     count: 1
@@ -10320,7 +10329,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 174
+    count: 175
     title: Linux
   linux api:
     count: 1
@@ -10349,6 +10358,9 @@ dictitems:
   linux daemons:
     count: 2
     title: Linux Daemons
+  linux desktop:
+    count: 1
+    title: Linux Desktop
   linux graphics:
     count: 1
     title: Linux Graphics
@@ -10361,6 +10373,9 @@ dictitems:
   linux jupyterlab:
     count: 1
     title: Linux JupyterLab
+  linux on the metal:
+    count: 1
+    title: Linux on the Metal
   linux on windows:
     count: 1
     title: Linux on Windows
@@ -12111,7 +12126,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 9
+    count: 10
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -12935,6 +12950,9 @@ dictitems:
   open mind:
     count: 2
     title: Open Mind
+  open office:
+    count: 1
+    title: Open Office
   open query:
     count: 1
     title: Open Query
@@ -13457,6 +13475,9 @@ dictitems:
   pc modding:
     count: 1
     title: PC modding
+  pc reset:
+    count: 1
+    title: PC Reset
   pcmag:
     count: 1
     title: PCMag
@@ -14718,7 +14739,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 185
+    count: 186
     title: Python
   python 3:
     count: 1
@@ -15458,6 +15479,9 @@ dictitems:
   remote viewing:
     count: 1
     title: Remote Viewing
+  remote working:
+    count: 1
+    title: Remote Working
   removable finger trick:
     count: 1
     title: removable finger trick
@@ -19794,7 +19818,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 112
+    count: 113
     title: Vim
   vim buffer:
     count: 1
@@ -20013,7 +20037,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 25
+    count: 26
     title: VSCode
   vscodium:
     count: 1
@@ -20340,13 +20364,16 @@ dictitems:
     count: 75
     title: Windows
   windows 10:
-    count: 20
+    count: 21
     title: Windows 10
+  windows 10 version 21h2:
+    count: 1
+    title: Windows 10 version 21H2
   windows 10/11:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 19
+    count: 20
     title: Windows 11
   windows 7:
     count: 1
@@ -20376,7 +20403,7 @@ dictitems:
     count: 6
     title: Windows Subsystem
   windows subsystem for linux:
-    count: 3
+    count: 4
     title: Windows Subsystem for Linux
   windows subsystem for linux (wsl),:
     count: 1
@@ -20568,7 +20595,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 47
+    count: 48
     title: WSL
   wsl 2 lxd:
     count: 1
