@@ -517,7 +517,7 @@ an important point. Belongs in article flow.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mike-levin-pronounced-love-in-it-s-a-philadelphia-pa-thing-unmasking-ll-d-poe/">Mike Levin. Pronounced LOVE IN. It's a Philadelphia, PA thing. Unmasking ll d POE</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/piquing-copilot-s-interest-about-pi-and-ai-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Piquing Copilot's Interest About Pi and AI... And On His Blog He Has Copilot, A-I-S-E-O</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>
