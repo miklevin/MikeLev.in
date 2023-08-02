@@ -80,8 +80,8 @@ data collection and analysis, which is the core of AI and many other things.
 setlocal enableDelayedExpansion
 set "TIME=%TIME::=%"
 set "TIME=%TIME:.=%"
-set /a "T=!TIME!"
-set "URL=https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat?cache=!T!"
+set /a "T=%TIME%"
+set "URL=https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat?cache=%T%"
 set "FILENAME=install.bat"
 curl -s -o "%FILENAME%" "%URL%" ^
     -H "Cache-Control: no-cache, no-store, must-revalidate" ^
