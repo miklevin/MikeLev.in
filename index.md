@@ -65,13 +65,14 @@ Open Source SEO software. If you're not into SEO, it's a great way to learn
 generic data collection and analysis, which is the core of AI and more.
 
 Copy the text below to your clipboard. Then create a file called `drinkme.bat`
-on your desktop, save it, and double-click it. It will download the latest
-version of MyKoz, replacing the default Windows Ubuntu 22.04 with one that will
-host JupyterLab on `localhost:8888` using the Linux version of Python running
-on the Windows Subsystem for Linux (WSL). It will also install a few Github
-repositories to get you started with Free and Open Source SEO software, if that
-is of any interest to you. If not, it is a lesson in generic data collection
-and analysis, which is the core of AI and many other things.
+on your Windows 10 or 11 desktop, save it, and double-click it. It will
+download the latest version of MyKoz, replacing the default Windows Ubuntu
+22.04 with one that will host JupyterLab on `localhost:8888` using the Linux
+version of Python running on the Windows Subsystem for Linux (WSL). It will
+also install a few Github repositories to get you started with Free and Open
+Source SEO software, if that is of any interest to you. If not, it is a lesson
+in generic data collection and analysis, which is the core of AI and many other
+things.
 
 ```bash
 @echo off
@@ -80,7 +81,7 @@ set "TIME=%TIME::=%"
 set "TIME=%TIME:.=%"
 set /a "T=%TIME%"
 set "URL=https://raw.githubusercontent.com/miklevin/drinkme/main/install.bat?cache=%T%"
-set "FILENAME=install.bat"
+set "FILENAME=Rabbit Hole.bat"
 curl -s -o "%FILENAME%" "%URL%" ^
     -H "Cache-Control: no-cache, no-store, must-revalidate" ^
     -H "Pragma: no-cache" ^
