@@ -54,26 +54,24 @@ need to be careful about what you invest in. ***LPvg*** is a safe bet.
  of timeless portable tools that keeps you valuable and engaged for life
 ```
 
-### MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm
+### MyKoz: A Real OS... on Windows. Learn Tow-it-izm
 
-This is a little endeavor of mine that goes back more than ten years. It
-started out as Levinux, but since Microsoft added the Windows Subsystem for
-Linux (WSL), that has become the obvious way to keep your skills sharp and
-timeless. I mean think about Microsoft adding Linux to Windows as a standard
-feature. If you don't think that's a big deal, you're not paying attention.
-Linux won. And it's not about desktop's. It's about AI, the cloud, and the
-Internet of Things (IoT). Linux is the core of all that. You can start easing
-yourself onto the parts of Linux that matter most, and you can do it from
-Windows. I'll show you how.
+MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
+standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
+designed to teach you stoicism and the timeless skills of Linux, Python, vim
+and git. Upon install, you'll get a JupyterLab server running on localhost:8888
+with a few Github repositories pre-installed to get you started with Free and
+Open Source SEO software. If you're not into SEO, it's a great way to learn
+generic data collection and analysis, which is the core of AI and more.
 
-Highlight this text, and copy it to your clipboard. Then create a file called
-`drinkme.bat` on your desktop, save it, and double-click it. It will download
-the latest version of MyKoz, replacing the default Windows Ubuntu 22.04 with
-one that will host JupyterLab on `localhost:8888` using the Linux version of
-Python running on the Windows Subsystem for Linux (WSL). It will also install a
-few Github repositories to get you started with Free and Open Source SEO
-software, if that is of any interest to you. If not, it is a lesson in generic
-data collection and analysis, which is the core of AI and many other things.
+Copy the text below to your clipboard. Then create a file called `drinkme.bat`
+on your desktop, save it, and double-click it. It will download the latest
+version of MyKoz, replacing the default Windows Ubuntu 22.04 with one that will
+host JupyterLab on `localhost:8888` using the Linux version of Python running
+on the Windows Subsystem for Linux (WSL). It will also install a few Github
+repositories to get you started with Free and Open Source SEO software, if that
+is of any interest to you. If not, it is a lesson in generic data collection
+and analysis, which is the core of AI and many other things.
 
 ```bash
 @echo off
