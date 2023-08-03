@@ -11,6 +11,8 @@ group: mykoz
 
 ## Installation Procedure
 
+![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
+
 Copy and paste the following into a Windows batch file, and double-click to
 run. It will install Linux JupyterLab on Windows Subsystem for Linux (WSL) with
 a few Github repositories to get you started with Free and Open Source SEO
