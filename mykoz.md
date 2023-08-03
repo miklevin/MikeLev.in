@@ -1,8 +1,8 @@
 ---
-permalink: /mykos/
-title: "Mykos: AReal/OS - Using Linux to Improve Forever"
+permalink: /mykoz/
+title: "Mykoz: AReal/OS - Using Linux to Improve Forever"
 description: By installing the Linux version of JupyterLab on Windows, you are running the same code on your computer as you can on all Linux servers. From there you ease your way into a lifetime of mindfulness and timeless skills by keeping a 1-text-file Journal in vim for the rest of your life.
-group: mykos
+group: mykoz
 ---
 
 # {{ page.title }}
