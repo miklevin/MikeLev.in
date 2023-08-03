@@ -837,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 113
+    count: 114
     title: AI
   ai assistant:
     count: 1
@@ -1388,6 +1388,9 @@ dictitems:
   area 51:
     count: 1
     title: Area 51
+  areal/os:
+    count: 1
+    title: AReal/OS
   arg:
     count: 1
     title: Arg
@@ -1806,7 +1809,7 @@ dictitems:
     count: 1
     title: base64
   bash:
-    count: 10
+    count: 11
     title: Bash
   bash file:
     count: 1
@@ -2067,7 +2070,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 24
+    count: 25
     title: Bing
   bing chatbot:
     count: 1
@@ -2481,7 +2484,7 @@ dictitems:
     count: 1
     title: Brothers
   browser:
-    count: 21
+    count: 22
     title: Browser
   browser automation:
     count: 13
@@ -4991,6 +4994,9 @@ dictitems:
   digital electronics:
     count: 1
     title: Digital Electronics
+  digital home:
+    count: 1
+    title: Digital Home
   digital housekeeping:
     count: 1
     title: Digital Housekeeping
@@ -5807,6 +5813,9 @@ dictitems:
   empty list:
     count: 1
     title: Empty List
+  emulator:
+    count: 1
+    title: Emulator
   en.utf-8.add:
     count: 1
     title: en.utf-8.add
@@ -6744,7 +6753,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 16
+    count: 17
     title: FOSS
   foam:
     count: 1
@@ -8603,6 +8612,9 @@ dictitems:
   identifying:
     count: 1
     title: Identifying
+  identity:
+    count: 1
+    title: Identity
   identity theft:
     count: 1
     title: Identity Theft
@@ -8990,6 +9002,9 @@ dictitems:
   installer:
     count: 1
     title: Installer
+  installer script:
+    count: 1
+    title: Installer Script
   installing:
     count: 3
     title: Installing
@@ -9090,8 +9105,8 @@ dictitems:
     count: 1
     title: Interesting Components
   interface:
-    count: 1
-    title: interface
+    count: 2
+    title: Interfaces
   interference:
     count: 1
     title: Interference
@@ -9615,7 +9630,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 43
+    count: 44
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10134,7 +10149,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 9
+    count: 10
     title: Levinux
   levinux fan page:
     count: 1
@@ -10917,7 +10932,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 23
+    count: 24
     title: Mac
   macbook pro:
     count: 2
@@ -11427,8 +11442,8 @@ dictitems:
     count: 1
     title: Mellon Bank
   meme:
-    count: 1
-    title: Memes
+    count: 2
+    title: Meme
   memetic hacking:
     count: 1
     title: Memetic Hacking
@@ -12174,7 +12189,7 @@ dictitems:
     count: 1
     title: Mycelium Network
   mykoz:
-    count: 1
+    count: 2
     title: MyKoz
   mysql:
     count: 3
@@ -12570,7 +12585,7 @@ dictitems:
     count: 1
     title: No Tabs
   noah's ark:
-    count: 3
+    count: 4
     title: Noah's Ark
   noah's ark platform:
     count: 1
@@ -12614,6 +12629,9 @@ dictitems:
   nomadic lifestyle:
     count: 1
     title: nomadic lifestyle
+  nomatic:
+    count: 1
+    title: Nomatic
   non-breaking-space:
     count: 1
     title: Non-Breaking-Space
@@ -12846,7 +12864,7 @@ dictitems:
     count: 1
     title: Obstacles
   occam's razor:
-    count: 3
+    count: 4
     title: Occam's Razor
   occasion:
     count: 1
@@ -13485,7 +13503,7 @@ dictitems:
     count: 1
     title: Paywalled Content
   pc:
-    count: 1
+    count: 2
     title: PC
   pc emulator:
     count: 1
@@ -13812,7 +13830,7 @@ dictitems:
     count: 1
     title: Piping
   pipulate:
-    count: 18
+    count: 19
     title: Pipulate
   pipulate free & open source seo:
     count: 1
@@ -14838,8 +14856,8 @@ dictitems:
     count: 2
     title: QED
   qemu:
-    count: 4
-    title: Qemu
+    count: 5
+    title: QEMU
   qnap:
     count: 5
     title: QNAP
@@ -16530,7 +16548,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 88
+    count: 89
     title: SEO
   seo blog:
     count: 1
@@ -16610,6 +16628,9 @@ dictitems:
   server-build:
     count: 1
     title: Server-Build
+  server-build script:
+    count: 1
+    title: Server-Build Script
   server-building:
     count: 1
     title: Server-Building
@@ -17166,7 +17187,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 25
+    count: 26
     title: Software
   software development:
     count: 3
@@ -17250,7 +17271,7 @@ dictitems:
     count: 1
     title: Sound
   source:
-    count: 5
+    count: 6
     title: Source
   sourceforge:
     count: 1
@@ -18501,7 +18522,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 17
+    count: 18
     title: Terminal
   terminal environment:
     count: 1
@@ -19797,7 +19818,7 @@ dictitems:
     count: 1
     title: Vice President
   video:
-    count: 33
+    count: 34
     title: Video
   video card driver:
     count: 1
@@ -19845,7 +19866,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 114
+    count: 115
     title: Vim
   vim buffer:
     count: 1
@@ -20001,8 +20022,8 @@ dictitems:
     count: 1
     title: Visualizing Change
   visuals:
-    count: 2
-    title: visuals
+    count: 3
+    title: Visuals
   vitamix:
     count: 1
     title: Vitamix
@@ -20108,6 +20129,9 @@ dictitems:
   war and peace:
     count: 1
     title: War and Peace
+  war games:
+    count: 1
+    title: War Games
   war of the worlds:
     count: 2
     title: War of The Worlds
@@ -20391,7 +20415,7 @@ dictitems:
     count: 76
     title: Windows
   windows 10:
-    count: 21
+    count: 22
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20637,7 +20661,7 @@ dictitems:
     count: 1
     title: WSL1
   wsl2:
-    count: 24
+    count: 25
     title: WSL2
   wsl2 localhost access issue:
     count: 1

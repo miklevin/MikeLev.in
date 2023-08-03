@@ -4,7 +4,7 @@ title: Livestreaming Question & Answers With YouTube Audience
 headline: "Staying Relevant at 51: Tips for Avoiding Vendor Traps and Using Microsoft Tools"
 description: I'm 51 years old and have been made obsolete by so many things, but I'm using the tools Microsoft is providing to stay relevant. In this video, I discuss how knowledge workers bring their minds and capabilities to their job, and how I use my own CMS called Skite to take notes and organize my work. I also share tips on avoiding vendor traps and obsolescence resistance, such as using Python dict API, Sqlite3, Django and Flask, and the Unix Way.
 keywords: Livestreaming, Question & Answers, YouTube, Audience, Microsoft, CMS, Skite, Vendor Traps, Obsolescence Resistance, Python dict API, Sqlite3, Django, Flask, Unix Way, LXD, WSL2, Azure, Terminal, VSCode, Linux, Python, Data Manipulation, SEO, Video Commenting, Lisp, Emacs, Web-Scraping, Authentication, Data Transformation, Python Pandas, ETL, Data Analysis
-categories: audience, linux, python, emacs, container, wsl, youtube, seo, microsoft
+categories: emacs, audience, linux, python, seo, container, microsoft, youtube, wsl
 permalink: /blog/livestreaming-question-answers-with-youtube-audience/
 layout: post
 group: blog
@@ -258,12 +258,12 @@ the things I admire most / musical)
 ## Categories
 
 <ul>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li>
 <li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/container/'>Container</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/container/'>Container</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
