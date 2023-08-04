@@ -1,16 +1,22 @@
 ---
-author: Mike Levin AI SEO
+author: Mike Levin AI SEO in NYC
 description: Free & Open Source AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
-title: Mike Levin, SEO in NYC
+title: Mike Levin, AI SEO in NYC
 group: home
 ---
+
+# Mike Levin AI SEO in NYC
+
+## My Cause: Free & Open Source AI SEO Software
 
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
 with a minimum of the retraining rigmarole inflicted upon you by planned
 obsolescence? Well, you've heard of Marcus Aurelius and Stoicism? I'm here to
 teach you Tow-it-ism with MyKoz: AReal/OS - a way of using a Linux Subsystem on
-Windows for a minimalistic and portable approach to computing.
+Windows for a minimalistic and portable approach to computing. See, you
+***tow*** the tech that never goes obsolete around with you for life. It's the
+tiny tech stack of Linux, Python, vim & git.
 
 <img class="picright" width="150vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
 MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
@@ -23,25 +29,25 @@ generic data collection and analysis, which is the core of AI and more.
 
 ## Mike Levin, SEO in NYC
 
-> <nobr>Deep within my heart and soul</nobr><br/>
-> <nobr>Two me's fight for the truth&#151;</nobr><br/>
-> <nobr>One's the vain green-hunter,</nobr><br/>
-> <nobr>The other's soft and bluish.</nobr><br/>
-> <nobr>You'd think the one that feeds us</nobr><br/>
-> <nobr>Draws arrows and not glyphs</nobr><br/>
-> <nobr>But whiteboard-inked ideas</nobr><br/>
+> <nobr>Deep within my heart and soul</nobr>
+> <nobr>Two me's fight for the truth&#151;</nobr>
+> <nobr>One's the vain green-hunter,</nobr>
+> <nobr>The other's soft and bluish.</nobr>
+> <nobr>You'd think the one that feeds us</nobr>
+> <nobr>Draws arrows and not glyphs</nobr>
+> <nobr>But whiteboard-inked ideas</nobr>
 > <nobr>Drive Mammoths off the cliffs.</nobr>
 
 Oh wait, I've heard of Mike Levin. You're that Marine Biologist? No, I am
 ***not*** the epigeneticist, though I think he's awesome. I'm the SEO guy.
 
-> <nobr>No, I'm not that Mike Levin.</nobr><br/>
-> <nobr>There's two of us, it's true.</nobr><br/>
-> <nobr>But if were to ask him so</nobr><br/>
-> <nobr>One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.</nobr><br/>
-> <nobr>There's science and there's magic</nobr><br/>
-> <nobr>And you never really know</nobr><br/>
-> <nobr>Which one is the scientist </nobr><br/>
+> <nobr>No, I'm not that Mike Levin.</nobr>
+> <nobr>There's two of us, it's true.</nobr>
+> <nobr>But if were to ask him so</nobr>
+> <nobr>One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.</nobr>
+> <nobr>There's science and there's magic</nobr>
+> <nobr>And you never really know</nobr>
+> <nobr>Which one is the scientist </nobr>
 > <nobr>Or witchy SEO.</nobr>
 
 ## Ease Yourself Into Linux
