@@ -975,7 +975,7 @@ dictitems:
     count: 1
     title: Alice in Wonderland,
   alice's adventures in wonderland:
-    count: 3
+    count: 4
     title: Alice's Adventures in Wonderland
   alien:
     count: 3
@@ -1392,7 +1392,7 @@ dictitems:
     count: 1
     title: Area 51
   areal/os:
-    count: 2
+    count: 3
     title: AReal/OS
   arg:
     count: 1
@@ -1839,8 +1839,8 @@ dictitems:
     count: 1
     title: Bat
   batch files:
-    count: 1
-    title: Batch Files
+    count: 2
+    title: batch files
   batch requests:
     count: 1
     title: Batch Requests
@@ -4589,6 +4589,9 @@ dictitems:
   debian-derivative:
     count: 1
     title: Debian-derivative
+  debian-derived:
+    count: 1
+    title: Debian-derived
   debian-style repo:
     count: 1
     title: Debian-style repo
@@ -5090,6 +5093,9 @@ dictitems:
   discussion:
     count: 1
     title: Discussion
+  disk operating system:
+    count: 1
+    title: Disk Operating System
   dislike:
     count: 1
     title: Dislikes
@@ -5192,6 +5198,9 @@ dictitems:
   dns zones:
     count: 1
     title: DNS Zones
+  do:
+    count: 1
+    title: DOS
   do nothing machine:
     count: 1
     title: Do Nothing Machine
@@ -7605,7 +7614,7 @@ dictitems:
     count: 1
     title: Google Books
   google chrome:
-    count: 1
+    count: 2
     title: Google Chrome
   google cloud console:
     count: 1
@@ -9644,11 +9653,14 @@ dictitems:
   jupyter python:
     count: 1
     title: Jupyter Python
+  jupyter ubuntu:
+    count: 1
+    title: Jupyter Ubuntu
   jupyter,:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 46
+    count: 47
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10167,7 +10179,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 10
+    count: 11
     title: Levinux
   levinux fan page:
     count: 1
@@ -10374,7 +10386,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 178
+    count: 179
     title: Linux
   linux api:
     count: 1
@@ -11196,7 +11208,7 @@ dictitems:
     count: 1
     title: Marc Brackett
   marcus aurelius:
-    count: 1
+    count: 2
     title: Marcus Aurelius
   margin:
     count: 1
@@ -11661,7 +11673,7 @@ dictitems:
     count: 2
     title: Microsoft Bing
   microsoft edge:
-    count: 4
+    count: 5
     title: Microsoft Edge
   microsoft github copilot:
     count: 1
@@ -11732,6 +11744,9 @@ dictitems:
   mike levin seo:
     count: 2
     title: Mike Levin SEO
+  mike oz:
+    count: 1
+    title: Mike OZ
   mike silver:
     count: 1
     title: Mike Silver
@@ -11820,8 +11835,8 @@ dictitems:
     count: 1
     title: Minimal Loss
   minimalism:
-    count: 1
-    title: Minimalism
+    count: 2
+    title: minimalism
   minimize-tech-liability:
     count: 1
     title: Minimize-Tech-Liability
@@ -12206,6 +12221,9 @@ dictitems:
   mutabledocument:
     count: 1
     title: MutableDocument
+  my cause:
+    count: 1
+    title: My Cause
   mycelial network:
     count: 1
     title: Mycelial Network
@@ -12213,7 +12231,7 @@ dictitems:
     count: 1
     title: Mycelium Network
   mykoz:
-    count: 3
+    count: 4
     title: MyKoz
   mysql:
     count: 3
@@ -14802,7 +14820,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 187
+    count: 188
     title: Python
   python 3:
     count: 1
@@ -16658,6 +16676,9 @@ dictitems:
   server automation:
     count: 1
     title: Server Automation
+  server build scripts:
+    count: 1
+    title: server build scripts
   server code:
     count: 1
     title: Server Code
@@ -17774,6 +17795,9 @@ dictitems:
   stoic:
     count: 1
     title: Stoic
+  stoic philosophy:
+    count: 1
+    title: Stoic philosophy
   stoicism:
     count: 2
     title: Stoicism
@@ -19332,7 +19356,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 25
+    count: 26
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -20259,7 +20283,7 @@ dictitems:
     count: 1
     title: Web 2.0
   web browser:
-    count: 2
+    count: 3
     title: Web Browser
   web browser automation:
     count: 2
@@ -20466,7 +20490,7 @@ dictitems:
     count: 78
     title: Windows
   windows 10:
-    count: 22
+    count: 23
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20475,7 +20499,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 20
+    count: 21
     title: Windows 11
   windows 7:
     count: 1
@@ -20505,7 +20529,7 @@ dictitems:
     count: 6
     title: Windows Subsystem
   windows subsystem for linux:
-    count: 4
+    count: 5
     title: Windows Subsystem for Linux
   windows subsystem for linux (wsl),:
     count: 1
@@ -20553,7 +20577,7 @@ dictitems:
     count: 3
     title: Wizard
   wizard of oz:
-    count: 5
+    count: 6
     title: Wizard of Oz
   wizardly:
     count: 1
@@ -20697,7 +20721,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 48
+    count: 49
     title: WSL
   wsl 2 lxd:
     count: 1
