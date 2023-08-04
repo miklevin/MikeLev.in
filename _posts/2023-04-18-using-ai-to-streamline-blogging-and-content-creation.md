@@ -4,7 +4,7 @@ title: Using AI to Streamline Blogging and Content Creation
 headline: Streamlining Blogging and Content Creation with AI
 description: I'm using the OpenAI API to simplify my blogging and content creation process. I'm writing my daily work-journal in a single markdown file and using AI to generate article summaries, meta descriptions, subheads, and keywords. I'm now looking to use browser automation and Github Copilot's API to save money. I also want to publish my Tweets, an Instapaper project, and read Daniel Kahneman's book. So many projects more approachable!
 keywords: OpenAI API, Markdown File, Article Summaries, Meta Descriptions, Subheads, Keywords, Browser Automation, Github Copilot API, Tweets, Instapaper, Daniel Kahneman, E-E-A-T, Google Trends, Google Suggest, Microsoft Bing, Keyword Research
-categories: seo, meta descriptions, browser automation, google
+categories: google, seo, meta descriptions, browser automation
 permalink: /blog/using-ai-to-streamline-blogging-and-content-creation/
 layout: post
 group: blog
@@ -109,7 +109,7 @@ hardly believe that such things are now available to me.
 ## Categories
 
 <ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
