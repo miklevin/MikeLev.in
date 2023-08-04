@@ -1,11 +1,11 @@
 ---
-author: Mike Levin AI SEO in NYC
+author: Mike Levin - AI SEO in NYC
 description: Free & Open Source AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
 title: Mike Levin, AI SEO in NYC
 group: home
 ---
 
-# Mike Levin AI SEO in NYC
+# Mike Levin - AI SEO in New York
 
 ## My Cause: Free & Open Source AI SEO Software
 
@@ -16,16 +16,17 @@ obsolescence? Well, you've heard of Marcus Aurelius and Stoicism? I'm here to
 teach you Tow-it-ism with MyKoz: AReal/OS - a way of using a Linux Subsystem on
 Windows for a minimalistic and portable approach to computing. See, you
 ***tow*** the tech that never goes obsolete around with you for life. It's the
-tiny tech stack of Linux, Python, vim & git.
+tiny tech stack of ***Linux, Python, vim & git.***
 
 <img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
-MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
-standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
+
+***MyKoz: A Real OS*** (pronounced like Marcus Aurelius) is a modification of
+the standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
 designed to teach you stoicism and the timeless skills of Linux, Python, vim
-and git. Upon install, you'll get a JupyterLab server running on localhost:8888
-with a few Github repositories pre-installed to get you started with Free and
-Open Source SEO software. If you're not into SEO, it's a great way to learn
-generic data collection and analysis, which is the core of AI and more.
+and git. You get a JupyterLab server running with a few Github repositories
+pre-installed to get you started with ***Free and Open Source SEO software***.
+If you're not into SEO, it's a great way to learn generic data collection and
+analysis, which is the core of AI and more.
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
