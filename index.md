@@ -27,28 +27,30 @@ with a few Github repositories pre-installed to get you started with Free and
 Open Source SEO software. If you're not into SEO, it's a great way to learn
 generic data collection and analysis, which is the core of AI and more.
 
-## Mike Levin, SEO in NYC
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-> <nobr>Deep within my heart and soul</nobr>
-> <nobr>Two me's fight for the truth&#151;</nobr>
-> <nobr>One's the vain green-hunter,</nobr>
-> <nobr>The other's soft and bluish.</nobr>
-> <nobr>You'd think the one that feeds us</nobr>
-> <nobr>Draws arrows and not glyphs</nobr>
-> <nobr>But whiteboard-inked ideas</nobr>
-> <nobr>Drive Mammoths off the cliffs.</nobr>
+# Who Am I?
+
+> <nobr>Deep within my heart and soul</nobr>  
+> <nobr>Two me's fight for the truth&#151;</nobr>  
+> <nobr>One's the vain green-hunter,</nobr>  
+> <nobr>The other's soft and bluish.</nobr>  
+> <nobr>You'd think the one that feeds us</nobr>  
+> <nobr>Draws arrows and not glyphs</nobr>  
+> <nobr>But whiteboard-inked ideas</nobr>  
+> <nobr>Drive Mammoths off the cliffs.</nobr>  
 
 Oh wait, I've heard of Mike Levin. You're that Marine Biologist? No, I am
 ***not*** the epigeneticist, though I think he's awesome. I'm the SEO guy.
 
-> <nobr>No, I'm not that Mike Levin.</nobr>
-> <nobr>There's two of us, it's true.</nobr>
-> <nobr>But if were to ask him so</nobr>
-> <nobr>One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.</nobr>
-> <nobr>There's science and there's magic</nobr>
-> <nobr>And you never really know</nobr>
-> <nobr>Which one is the scientist </nobr>
-> <nobr>Or witchy SEO.</nobr>
+> No, I'm not that Mike Levin.  
+> There's two of us, it's true.  
+> But if were to ask him so  
+> One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.  
+> There's science and there's magic  
+> And you never really know  
+> Which one is the scientist   
+> Or witchy SEO.  
 
 ## Ease Yourself Into Linux
 
@@ -95,8 +97,6 @@ curl -s -o "%FILENAME%" "%URL%" ^
     --proxy-header "Cache-Control: no-cache" ^
     --proxy-header "Cache-Control: no-store"
 ```
-
-![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
