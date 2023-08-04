@@ -5,7 +5,7 @@ title: Mike Levin, AI SEO in NYC
 group: home
 ---
 
-# Mike Levin - AI SEO in New York
+# Mike Levin - AI SEO in NYC
 
 ## MyKoz (My Cause): Free & Open Source AI SEO Software
 
@@ -42,19 +42,7 @@ analysis, which is the core of AI and more.
 > But whiteboard-inked ideas    
 > Drive Mammoths off the cliffs.    
 
-Oh wait, I've heard of Mike Levin. You're that Marine Biologist? No, I am
-***not*** the epigeneticist, though I think he's awesome. I'm the SEO guy.
-
-> No, I'm not that Mike Levin.  
-> There's two of us, it's true.  
-> But if were to ask him so  
-> One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.  
-> There's science and there's magic  
-> And you never really know  
-> Which one is the scientist   
-> Or witchy SEO.  
-
-## Ease Yourself Into Linux
+### MyKoz: A Real OS... on Windows. Learn Tow-it-izm
 
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
@@ -63,8 +51,6 @@ Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
 ![Tow It Ism](/assets/images/tow-it-ism.png)
-
-### MyKoz: A Real OS... on Windows. Learn Tow-it-izm
 
 MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
 standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
