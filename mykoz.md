@@ -5,7 +5,7 @@ description: By installing the Linux version of JupyterLab on Windows, you are r
 group: mykoz
 ---
 
-# {{ page.title }}
+![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
 You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
@@ -41,8 +41,6 @@ curl -s -o "%FILENAME%" "%URL%" ^
     --proxy-header "Cache-Control: no-cache" ^
     --proxy-header "Cache-Control: no-store"
 ```
-
-![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
 <img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
