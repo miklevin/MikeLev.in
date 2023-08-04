@@ -7,7 +7,7 @@ group: home
 
 # Mike Levin - AI SEO in New York
 
-## My Cause: Free & Open Source AI SEO Software
+## MyKoz (My Cause): Free & Open Source AI SEO Software
 
 <img class="picleft" width="300vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
@@ -18,8 +18,9 @@ Windows for a minimalistic and portable approach to computing. See, you
 ***tow*** the tech that never goes obsolete around with you for life. It's the
 tiny tech stack of ***Linux, Python, vim & git.***
 
-<img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
+## Linux, Pyton, vim & git
 
+<img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
 ***MyKoz: A Real OS*** (pronounced like Marcus Aurelius) is a modification of
 the standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
 designed to teach you stoicism and the timeless skills of Linux, Python, vim
@@ -28,18 +29,18 @@ pre-installed to get you started with ***Free and Open Source SEO software***.
 If you're not into SEO, it's a great way to learn generic data collection and
 analysis, which is the core of AI and more.
 
+## It's Not Easy Being Green
+
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-# Who Am I?
-
-> <nobr>Deep within my heart and soul</nobr>  
-> <nobr>Two me's fight for the truth&#151;</nobr>  
-> <nobr>One's the vain green-hunter,</nobr>  
-> <nobr>The other's soft and bluish.</nobr>  
-> <nobr>You'd think the one that feeds us</nobr>  
-> <nobr>Draws arrows and not glyphs</nobr>  
-> <nobr>But whiteboard-inked ideas</nobr>  
-> <nobr>Drive Mammoths off the cliffs.</nobr>  
+> Deep within my heart and soul    
+> Two me's fight for the truth&#151;    
+> One's the vain green-hunter,    
+> The other's soft and bluish.    
+> You'd think the one that feeds us    
+> Draws arrows and not glyphs    
+> But whiteboard-inked ideas    
+> Drive Mammoths off the cliffs.    
 
 Oh wait, I've heard of Mike Levin. You're that Marine Biologist? No, I am
 ***not*** the epigeneticist, though I think he's awesome. I'm the SEO guy.
