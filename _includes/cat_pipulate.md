@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Wed Aug 02, 2023)
-<br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)
 <br/>As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.</li>
 <li><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a> (Thu May 11, 2023)

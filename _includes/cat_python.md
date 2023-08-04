@@ -1,8 +1,4 @@
 <ol>
-<li><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a> (Fri Aug 04, 2023)
-<br/>Learn how to install Jupyter Notebook on Ubuntu on Windows with this step-by-step guide. Follow along as Mike Lev.in walks you through the process of setting up a server-build script, renaming the drinkme repo, and creating a Jupyter Ubuntu.bat script to install JupyterLab on Ubuntu Linux.</li>
-<li><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a> (Tue Aug 01, 2023)
-<br/>MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm. Embrace technology in a mindful way with MyKoz, a timeless and portable set of tools to improve your skills and keep you valuable for life. Follow along with the ideation and naming of this novel endeavor.</li>
 <li><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a> (Tue Aug 01, 2023)
 <br/>Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.</li>
 <li><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a> (Wed Jun 14, 2023)

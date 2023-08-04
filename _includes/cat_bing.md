@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Wed Aug 02, 2023)
-<br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
 <br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)

@@ -1,6 +1,4 @@
 <ol>
-<li><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a> (Fri Aug 04, 2023)
-<br/>Learn how to install Jupyter Notebook on Ubuntu on Windows with this step-by-step guide. Follow along as Mike Lev.in walks you through the process of setting up a server-build script, renaming the drinkme repo, and creating a Jupyter Ubuntu.bat script to install JupyterLab on Ubuntu Linux.</li>
 <li><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a> (Tue Aug 01, 2023)
 <br/>Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)
