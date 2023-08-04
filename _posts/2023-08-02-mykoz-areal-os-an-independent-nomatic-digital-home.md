@@ -4,7 +4,7 @@ title: "MyKoz: AReal/OS, An Independent, Nomatic Digital Home"
 headline: "Discovering MyKoz AReal/OS: A Journey to a Nomatic Digital Home"
 description: Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.
 keywords: MyKoz, AReal/OS, Nomatic, Digital Home, WSL2, Installer Script, Pipulate, SEO, FOSS, Software, Windows 10, Meme, Identity, Video, War Games, AI, Interfaces, Bing, JupyterLab, Bash, Terminal, Browser, Vim, Levinux, QEMU, PC, Emulator, Macs, Noah's Ark, Server-Build Script, Source, Visuals, Occam's Razor
-categories: levinux, mac, pipulate, linux, ai, seo, vim, bing, microsoft, jupyter, wsl
+categories: linux, levinux, pipulate, seo, ai, jupyter, microsoft, bing, mac, wsl, vim
 permalink: /blog/mykoz-areal-os-an-independent-nomatic-digital-home/
 layout: post
 group: blog
@@ -70,10 +70,12 @@ home fast about the new name.
 As we live, we are always getting closer to the end of our lives, and there is
 precious little time to get sidetracked by short-lived trends and superficial
 tools. Marcus Aurelius gave us Stoicism, a philosophy for finding meaning and
-resilience in a chaotic world. MyKos AReal/OS offers us Tow-it-ism, a modern
+resilience in a chaotic world. MyKoz AReal/OS offers us Tow-it-ism, a modern
 approach to finding value in life by focusing on mastering a few simple,
 lasting skills that can be carried with us from one context to the next.
 
+Okay, I added the new page to the site and changed the text blurb in the global
+navigation template. 
 
 
 
@@ -96,14 +98,14 @@ lasting skills that can be carried with us from one context to the next.
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
