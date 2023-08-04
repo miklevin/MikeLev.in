@@ -40,15 +40,26 @@ generic data collection and analysis, which is the core of AI and more.
 
 ### MyKoz Installation Instructions
 
-Copy the text below to your clipboard. Then create a file called `drinkme.bat`
-on your Windows 10 or 11 desktop, save it, and double-click it. It will
-download the latest version of MyKoz, replacing the default Windows Ubuntu
-22.04 with one that will host JupyterLab on `localhost:8888` using the Linux
-version of Python running on the Windows Subsystem for Linux (WSL). It will
-also install a few Github repositories to get you started with Free and Open
-Source SEO software, if that is of any interest to you. If not, it is a lesson
-in generic data collection and analysis, which is the core of AI and many other
-things.
+1. Before you begin, be sure you installed the Windows Subsystem for Linux
+   (WSL) and Ubuntu 22.04 from the Microsoft Store. That's usually done just by
+   having your Windows 10 or 11 machine up to date, and then searching for
+   Ubuntu 22.04 in the Microsoft store. You can also type `wsl --install` in a
+   Command Prompt or PowerShell window to install it.
+2. Copy the text below to your clipboard. Then create a file called
+   `getmykoz.bat` on your Windows 10 or 11 desktop, save it, and double-click
+   it. Note: Be sure to save it as a `.bat` file, not a `.txt` file. This
+   sometimes takes going into Windows Explorer and turning off the option to
+   hide common file extensions. Also, the double-click to run may require extra
+   security steps.
+3. This will download the latest version of MyKoz, replacing the default
+   Windows Ubuntu 22.04 with one that will host JupyterLab on `localhost:8888`
+   using the Linux version of Python running on the Windows Subsystem for Linux
+   (WSL). That's it! You new have JupyterLab running on `localhost:8888` which
+   you can access by clicking the Shortcut on your desktop.
+
+### The Code to Copy/Paste Into `getmykoz.bat`
+
+```bash
 
 ```bash
 @echo off
@@ -66,7 +77,15 @@ curl -s -o "%FILENAME%" "%URL%" ^
     --proxy-header "Cache-Control: no-store"
 ```
 
-### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
+## Who Are You, Anyway?
+
+Who am I? My name is Mike. I worked for Commodore when tyke. I met the Champs
+of Home Computing. I resent all Tech Rebooting. We had the Future. It was Then.
+It went away. It's Here Again! But barely so. You're slave to vendors. Freedom
+now, this project renders. If you're brave, use Occom's knife to carve out bits
+that last for life. A tiny stack-o-FOSSy bits that's used by Linux Python gits.
+
+# It's Not Easy Being Green
 
 > Deep within my heart and soul    
 > Two me's fight for the truth&#151;    
@@ -76,6 +95,13 @@ curl -s -o "%FILENAME%" "%URL%" ^
 > Draws arrows and not glyphs    
 > But whiteboard-inked ideas    
 > Drive Mammoths off the cliffs.    
+
+### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
+
+I keep a blog. It's not for you, 'cause think out loud is what I do.
+Inspiration comes when we &#151; divinely write our comedy. So pinch your nose
+and shield your eyes. Some day soon I'll organize.,So read an entry, if you
+can. I don't write there like Etrigan. 
 
 {% include post_short_list.html %}
 
