@@ -840,7 +840,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 114
+    count: 115
     title: AI
   ai assistant:
     count: 1
@@ -957,7 +957,7 @@ dictitems:
     count: 4
     title: Algebra
   algorithm:
-    count: 7
+    count: 8
     title: Algorithms
   algorithm analysis:
     count: 1
@@ -1989,7 +1989,7 @@ dictitems:
     count: 1
     title: Bhagavad Gita
   bias:
-    count: 4
+    count: 5
     title: Bias
   bible:
     count: 2
@@ -2217,7 +2217,7 @@ dictitems:
     count: 11
     title: Blog Post
   blog posts:
-    count: 6
+    count: 7
     title: Blog Posts
   blog publishing:
     count: 1
@@ -3650,6 +3650,9 @@ dictitems:
   computer vision:
     count: 1
     title: Computer Vision
+  computer vision apis:
+    count: 1
+    title: Computer Vision APIs
   computing:
     count: 3
     title: Computing
@@ -4463,6 +4466,9 @@ dictitems:
   data scientists:
     count: 1
     title: Data Scientists
+  data shaping:
+    count: 1
+    title: Data Shaping
   data sources:
     count: 1
     title: Data Sources
@@ -7404,7 +7410,7 @@ dictitems:
     count: 1
     title: git repo
   git repos:
-    count: 2
+    count: 3
     title: Git Repos
   git repository:
     count: 1
@@ -8075,6 +8081,9 @@ dictitems:
   headless cloud servers:
     count: 1
     title: Headless Cloud Servers
+  headless cms:
+    count: 1
+    title: Headless CMS
   headless linux chrome:
     count: 1
     title: Headless Linux Chrome
@@ -8607,8 +8616,11 @@ dictitems:
     count: 1
     title: Idea Man
   idea-capture:
-    count: 1
+    count: 2
     title: Idea-Capture
+  ideation:
+    count: 1
+    title: Ideation
   identical:
     count: 1
     title: Identical
@@ -9636,7 +9648,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 45
+    count: 46
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10316,6 +10328,9 @@ dictitems:
   linear sequences:
     count: 2
     title: Linear Sequences
+  linear time:
+    count: 1
+    title: Linear Time
   linear tool:
     count: 1
     title: Linear Tool
@@ -10359,7 +10374,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 177
+    count: 178
     title: Linux
   linux api:
     count: 1
@@ -11387,6 +11402,9 @@ dictitems:
   mechvibes:
     count: 1
     title: Mechvibes
+  media assets:
+    count: 1
+    title: Media Assets
   media company:
     count: 1
     title: Media Company
@@ -11529,7 +11547,7 @@ dictitems:
     count: 1
     title: Messageboard System
   messaging:
-    count: 2
+    count: 3
     title: Messaging
   messing:
     count: 1
@@ -14129,6 +14147,9 @@ dictitems:
   post-by-post:
     count: 1
     title: Post-by-Post
+  post-processing:
+    count: 1
+    title: Post-Processing
   post-reboot scripts:
     count: 1
     title: Post-Reboot Scripts
@@ -14310,7 +14331,7 @@ dictitems:
     count: 1
     title: Previous Next Arrows
   previous/next arrows:
-    count: 1
+    count: 2
     title: Previous/Next Arrows
   previous/next blog:
     count: 1
@@ -15017,6 +15038,9 @@ dictitems:
   query-writing:
     count: 1
     title: Query-Writing
+  query/remixability:
+    count: 1
+    title: Query/Remixability
   quest:
     count: 1
     title: Quest
@@ -16361,6 +16385,9 @@ dictitems:
   search engine representation:
     count: 1
     title: search engine representation
+  search engines:
+    count: 1
+    title: Search Engines
   search intent:
     count: 1
     title: Search Intent
@@ -16520,6 +16547,9 @@ dictitems:
   semantic:
     count: 1
     title: Semantic
+  semantic web:
+    count: 1
+    title: Semantic Web
   semi-independence:
     count: 1
     title: Semi-Independence
@@ -16712,6 +16742,9 @@ dictitems:
   shaping:
     count: 1
     title: Shaping
+  shaping process:
+    count: 1
+    title: Shaping Process
   share:
     count: 4
     title: Share
@@ -16946,6 +16979,9 @@ dictitems:
   site-navigation:
     count: 1
     title: site-navigation
+  site-shaping:
+    count: 1
+    title: Site-Shaping
   sites.csv:
     count: 2
     title: sites.csv
@@ -18593,6 +18629,9 @@ dictitems:
   text-based terminal:
     count: 1
     title: Text-based Terminal
+  text-data:
+    count: 1
+    title: Text-Data
   text-davinci-002:
     count: 2
     title: Text-Davinci-002
@@ -19614,7 +19653,7 @@ dictitems:
     count: 1
     title: User Agent
   user experience:
-    count: 2
+    count: 3
     title: User Experience
   user feedback:
     count: 1
@@ -19878,7 +19917,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 116
+    count: 117
     title: Vim
   vim buffer:
     count: 1
@@ -20301,7 +20340,7 @@ dictitems:
     count: 1
     title: webmaster tools
   website:
-    count: 29
+    count: 30
     title: Website
   website design:
     count: 1
@@ -20424,7 +20463,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 77
+    count: 78
     title: Windows
   windows 10:
     count: 22

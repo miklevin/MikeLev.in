@@ -13,6 +13,12 @@ portable approach to computing.
 
 ![Tow It Ism](/assets/images/tow-it-ism.png)
 
+I teach Python AI SEO with timeless skills that can apply to data science,
+machine learning, and programming in general. Because I'm using daily
+journaling in vim as a way to teach these skills, it's also a lesson in
+mindfulness and minimalism. I call it Tow-it-ism, because you're towing a small
+set of broadly applicable skills with you for the rest of your life.
+
 <img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
 ## How It Works

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a> (Thu Aug 03, 2023)
+<br/>I'm using the latest tools and techniques to simplify websites and life, by using single long text files to capture my ideation and publishing process. I'm combining Linux, Windows, JupyterLab, vim, and AI to create a seamless user experience, while also using data shaping and transforms to create a website that is easy to navigate.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Wed Aug 02, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a> (Tue Aug 01, 2023)

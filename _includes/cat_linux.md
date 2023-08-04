@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a> (Thu Aug 03, 2023)
+<br/>I'm using the latest tools and techniques to simplify websites and life, by using single long text files to capture my ideation and publishing process. I'm combining Linux, Windows, JupyterLab, vim, and AI to create a seamless user experience, while also using data shaping and transforms to create a website that is easy to navigate.</li>
 <li><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a> (Thu Aug 03, 2023)
 <br/>I successfully upgraded from Ubuntu 20.04 to 22.04 and my daily journaling script worked seamlessly! I'm now exploring how to make this same functionality available to everyone, while keeping it as close to the mainstream systems as possible. I'm also looking into how to best take advantage of Windows for durability of paths and file-locations between Linux-side upgrades.</li>
 <li><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a> (Tue Aug 01, 2023)
