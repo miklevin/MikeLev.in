@@ -21,9 +21,9 @@ set of broadly applicable skills with you for the rest of your life.
 
 Look, you could be using VSCode and be doing everything exactly the same way as
 everyone else, beholden to a vendor's vision of what your future should be.
-What I propose here threatens the status quo, and I'm not going to lie to you,
-it's going to be a lot of work. But if you're brave, you'll find yourself
-thinking in 10-year increments instead a function of next quarter's profits.
+What I propose threatens the status quo. And I'm not going to lie to you, it's
+going to be a lot of work. But if you're brave, you'll find yourself thinking
+in 10-year increments, instead of being function of next quarter's profits.
 
 <img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
