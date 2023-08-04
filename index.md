@@ -9,7 +9,7 @@ group: home
 
 ## My Cause: Free & Open Source AI SEO Software
 
-<img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
+<img class="picleft" width="300vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
 with a minimum of the retraining rigmarole inflicted upon you by planned
 obsolescence? Well, you've heard of Marcus Aurelius and Stoicism? I'm here to
@@ -18,7 +18,7 @@ Windows for a minimalistic and portable approach to computing. See, you
 ***tow*** the tech that never goes obsolete around with you for life. It's the
 tiny tech stack of Linux, Python, vim & git.
 
-<img class="picright" width="150vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
+<img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
 MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
 standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
 designed to teach you stoicism and the timeless skills of Linux, Python, vim
