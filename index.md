@@ -11,20 +11,20 @@ group: home
 
 <img class="picleft" width="300vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
-with a minimum of the retraining rigmarole inflicted upon you by planned
-obsolescence? Well, you've heard of Marcus Aurelius and Stoicism? I'm here to
-teach you Tow-it-ism with MyKoz: AReal/OS - a way of using a Linux Subsystem on
-Windows for a minimalistic and portable approach to computing. See, you
-***tow*** the tech that never goes obsolete around with you for life. It's the
-tiny tech stack of ***Linux, Python, vim & git.***
+with a minimum of the retraining rigmarole inflicted upon you by ***planned
+obsolescence?*** Well, you've heard of Marcus Aurelius and Stoicism? I'm here
+to teach you **Tow-it-ism** with **MyKoz: AReal/OS** - a way of using a Linux
+Subsystem on Windows (WSL) for a minimalistic and portable approach to
+computing. You ***tow*** the tech that never goes obsolete around with you for
+life. It's the tiny tech stack of ***Linux, Python, vim & git.***
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-## Towitizm - Practice Never Going Obsolete
+## Tow-it-izm - The Practice of Never Going Obsolete
 
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
-You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
+You've heard of Marcus Aurelius and Stoicism? This is **MyKoz: AReal/OS** and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
@@ -51,11 +51,12 @@ generic data collection and analysis, which is the core of AI and more.
    sometimes takes going into Windows Explorer and turning off the option to
    hide common file extensions. Also, the double-click to run may require extra
    security steps.
-3. This will download the latest version of MyKoz, replacing the default
-   Windows Ubuntu 22.04 with one that will host JupyterLab on `localhost:8888`
-   using the Linux version of Python running on the Windows Subsystem for Linux
-   (WSL). That's it! You new have JupyterLab running on `localhost:8888` which
-   you can access by clicking the Shortcut on your desktop.
+3. This will download the latest version of the MyKoz installer, called
+   `Jupyter Ubuntu.bat`. Run it to replace the default Windows Ubuntu 22.04
+   with one that hosts JupyterLab on `localhost:8888` using Linux Python from
+   the Windows Subsystem for Linux (WSL). That's it! You new have JupyterLab
+   running on `localhost:8888` which you can access by clicking the new
+   `JupyterLab` Shortcut on your desktop (which may require an F5 refresh).
 
 ### The Code to Copy/Paste Into `getmykoz.bat`
 
