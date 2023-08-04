@@ -59,3 +59,59 @@ curl -s -o "%FILENAME%" "%URL%" ^
     --proxy-header "Cache-Control: no-store"
 ```
 
+## Details
+
+If you haven't read Alice's Adventures in Wonderland, you should. In the words
+of the Mouse, Mine is a long and sad tale. But it's also a tale of hope and
+redemption. I'm going to teach you how to use Linux to improve forever.
+
+## The Problem
+
+The technology that really set-in and changed the world, beginning in 1970, the
+same time and place I was born, is Unix. Unix solved problems of portability
+and interoperability that held back the computer industry. Years later, the
+Linux operating system liberated Unix. But consumer-facing tech like Windows
+and Mac have been the primary way people interact with computers, devastating
+tech careers through the churn of planned obsolescence.
+
+## The Solution
+
+The solution is to use Linux as a common denominator on all computers which now
+have the ability to run Linux. This is the case with Windows 10 and 11, which
+have a Linux Subsystem that can run Ubuntu 22.04. It is also the case with Mac
+using Ubuntu's Multipass, and even Chromebooks using Crostini. You need only
+put aside the concept of ***Desktop*** Linux. This is about the command line.
+Yes, it's scary. But we're talking making your skills last for decades here.
+
+## The Plan
+
+Copy/pasting the above code starts the process of customizing the Linux
+Subsystem on Windows 10 or 11. It primarily installs JupyterLab, providing the
+bridge into the world of Linux by making all the Python code you generate Linux
+cloud-ready. This initiates a little-known process called a "server build".
+Once the server is built, you have customized the Linux Subsystem on Windows to
+pave the way for a lifetime of learning and skills that will last forever.
+
+# The Journey
+
+There is also an automated Linux service that I set up running in the called
+"WHIM" (With Help, I Monitor) which you update from a Jupyter Notebook, thus
+bridging the gap between the command line and the GUI. If you've ever wondered
+how to ***really*** automate Python code you write in Notebooks, this is it. So
+we go from easy peasy Python in a browser to a genuine Linux systemd service.
+
+# The Destination
+
+You get this massive benefit right up front, but then everything necessary is
+also in place to ease you into the most powerful and popular text editor in the
+world, vim. Or more precisely, a "forked" derivative of vim called NeoVim which
+you can start using for daily journaling, thus practicing without the pressure
+of coding right away.
+
+# The Reward
+
+Lather, rinse, repeat, and you will be a master of the command line, and a
+technical powerhouse sporting the same skills that run the world. No one can
+take that away from you with a new version of Windows or Mac. And you might not
+think so today, but the command-line can be a lot of fun. It gets committed to
+your muscle memory, freeing up all your executive function for creativity.

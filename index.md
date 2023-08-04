@@ -5,54 +5,54 @@ title: Mike Levin, SEO in NYC
 group: home
 ---
 
-# What's A-I-S-E-O?
-
-## Old Mike Levin Spins a Yarn, A-I-S-E-O!
-
 <img class="picleft" width="150vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
-
-Hello World! I'm an old SciFi reader and Mac & Windows fanboy who today writes
-***with*** and ***for*** AI. I'm loving us lapping the SciFi predictions of
-Clarke and Asimov, adjusting to the new reality as we do. I started out at
-Commodore in the 80's. My skills have gone through many leading-edge
-obsolescence cycles until I couldn't stand it anymore. With much seeking and
-testing, I found my way to Linux, Python, vim & git (***LPvg***) as a timeless
-core, and I've been making it my mission to help others hop on that train as
-easily as possible. And it's not just about the tools. It's about the
-***mindset***.
+Psst! You want tech skills that will apply to everything and last you for life
+with a minimum of the retraining rigmarole inflicted upon you by planned
+obsolescence? Well, you've heard of Marcus Aurelius and Stoicism? I'm here to
+teach you Tow-it-ism with MyKoz: AReal/OS - a way of using a Linux Subsystem on
+Windows for a minimalistic and portable approach to computing.
 
 <img class="picright" width="150vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
-No matter how things change in tech, ***LPvg*** will always be there, and being
-adept at them will always make you valuable. There is a fallacy that becoming
-adept at Linux means adopting a Linux desktop. That's not true. You can use
-Linux from Windows or Mac, and I'll show you how. Stay on the desktop you love,
-and use Linux as a subsystem that you can grow into, and which will follow you
-throughout your career. You can get better at it for life, the way musicians,
-athletes and artists do with their craft. Tech ***can*** be like that, but you
-need to be careful about what you invest in. ***LPvg*** is a safe bet.
+MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
+standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
+designed to teach you stoicism and the timeless skills of Linux, Python, vim
+and git. Upon install, you'll get a JupyterLab server running on localhost:8888
+with a few Github repositories pre-installed to get you started with Free and
+Open Source SEO software. If you're not into SEO, it's a great way to learn
+generic data collection and analysis, which is the core of AI and more.
 
-> <nobr>Deep within my heart and soul </nobr>  
-> <nobr>Two me's fight for the truth&#151; </nobr>  
-> <nobr>One's the vain green-hunter, </nobr>  
-> <nobr>The other's soft and bluish. </nobr>  
-> <nobr>You'd think the one that feeds us </nobr>  
-> <nobr>Draws arrows and not glyphs </nobr>  
-> <nobr>But whiteboard-inked ideas </nobr>  
-> <nobr>Drive Mammoths off the cliffs. </nobr>
+## Mike Levin, SEO in NYC
+
+> <nobr>Deep within my heart and soul</nobr><br/>
+> <nobr>Two me's fight for the truth&#151;</nobr><br/>
+> <nobr>One's the vain green-hunter,</nobr><br/>
+> <nobr>The other's soft and bluish.</nobr><br/>
+> <nobr>You'd think the one that feeds us</nobr><br/>
+> <nobr>Draws arrows and not glyphs</nobr><br/>
+> <nobr>But whiteboard-inked ideas</nobr><br/>
+> <nobr>Drive Mammoths off the cliffs.</nobr>
+
+Oh wait, I've heard of Mike Levin. You're that Marine Biologist? No, I am
+***not*** the epigeneticist, though I think he's awesome. I'm the SEO guy.
+
+> <nobr>No, I'm not that Mike Levin.</nobr><br/>
+> <nobr>There's two of us, it's true.</nobr><br/>
+> <nobr>But if were to ask him so</nobr><br/>
+> <nobr>One head would <a href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">become two</a>.</nobr><br/>
+> <nobr>There's science and there's magic</nobr><br/>
+> <nobr>And you never really know</nobr><br/>
+> <nobr>Which one is the scientist </nobr><br/>
+> <nobr>Or witchy SEO.</nobr>
 
 ## Ease Yourself Into Linux
 
-```
- __  __       _  __               _    ____            _    _____  ____  
-|  \/  |_   _| |/ /___ _____     / \  |  _ \ ___  __ _| |  / / _ \/ ___| 
-| |\/| | | | | ' // _ \_  (_)   / _ \ | |_) / _ \/ _` | | / / | | \___ \ 
-| |  | | |_| | . \ (_) / / _   / ___ \|  _ <  __/ (_| | |/ /| |_| |___) |
-|_|  |_|\__, |_|\_\___/___(_) /_/   \_\_| \_\___|\__,_|_/_/  \___/|____/ 
-        |___/ MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm
+![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
- Embrace technology in a mindful way. Improve your skills on a small set
- of timeless portable tools that keeps you valuable and engaged for life
-```
+You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
+Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
+portable approach to computing.
+
+![Tow It Ism](/assets/images/tow-it-ism.png)
 
 ### MyKoz: A Real OS... on Windows. Learn Tow-it-izm
 
