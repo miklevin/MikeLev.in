@@ -7,7 +7,7 @@ group: home
 
 # Mike Levin - AI SEO in NYC
 
-## MyKoz (My Cause): Free & Open Source AI SEO Software
+## MyKoz/OS - Free & Open Source AI SEO Software
 
 <img class="picleft" width="300vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
@@ -18,7 +18,7 @@ Windows for a minimalistic and portable approach to computing. See, you
 ***tow*** the tech that never goes obsolete around with you for life. It's the
 tiny tech stack of ***Linux, Python, vim & git.***
 
-## Linux, Pyton, vim & git
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
 <img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
 ***MyKoz: A Real OS*** (pronounced like Marcus Aurelius) is a modification of
@@ -29,10 +29,6 @@ pre-installed to get you started with ***Free and Open Source SEO software***.
 If you're not into SEO, it's a great way to learn generic data collection and
 analysis, which is the core of AI and more.
 
-## It's Not Easy Being Green
-
-![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
-
 > Deep within my heart and soul    
 > Two me's fight for the truth&#151;    
 > One's the vain green-hunter,    
@@ -42,7 +38,7 @@ analysis, which is the core of AI and more.
 > But whiteboard-inked ideas    
 > Drive Mammoths off the cliffs.    
 
-### MyKoz: A Real OS... on Windows. Learn Tow-it-izm
+## Towitizm - Practice Never Going Obsolete
 
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
