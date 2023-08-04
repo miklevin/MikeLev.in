@@ -11,13 +11,14 @@ You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
+<img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
+
 This .bat script replaces the default Windows 10 or 11 Linux Subsystem Ubuntu
 22.04 with a new one that has JupyterLab installed along with the latest
-Python, NeoVim, and a few other goodies to get you started on your journey.
-
-If you've been thinking of taking up skills that will last a lifetime in the
-areas of programming, data science, and machine learning, this URL is the place
-to start:
+Python, NeoVim, and a few other goodies to get you started on your journey. If
+you've been thinking of taking up skills that will last a lifetime in the areas
+of programming, data science, and machine learning, this URL is the place to
+start:
 
 ## Installation Procedure
 
@@ -41,6 +42,4 @@ curl -s -o "%FILENAME%" "%URL%" ^
     --proxy-header "Cache-Control: no-cache" ^
     --proxy-header "Cache-Control: no-store"
 ```
-
-<img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
