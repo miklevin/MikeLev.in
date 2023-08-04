@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a> (Thu Aug 03, 2023)
+<br/>I successfully upgraded from Ubuntu 20.04 to 22.04 and my daily journaling script worked seamlessly! I'm now exploring how to make this same functionality available to everyone, while keeping it as close to the mainstream systems as possible. I'm also looking into how to best take advantage of Windows for durability of paths and file-locations between Linux-side upgrades.</li>
 <li><a href="/blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/">Bing & Bard School Me on Unattended Multipass Install Script for Mac</a> (Sat May 20, 2023)
 <br/>Despite wanting to help the downtrodden first, I override my emotions and learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.</li>
 <li><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a> (Sat May 20, 2023)

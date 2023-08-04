@@ -11,6 +11,8 @@ You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
+![Tow It Ism](/assets/images/tow-it-ism.png)
+
 <img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
 ## How It Works

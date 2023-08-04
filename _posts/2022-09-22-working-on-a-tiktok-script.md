@@ -4,7 +4,7 @@ title: Working on a TikTok Script
 headline: "Navigating the Dense Infotech Forest: How to Become an Information Age Samurai with the Right Skillset and Toolset"
 description: I'm an infotech carpenter teaching people how to become an Information Age Samurai by mastering the right skillset and toolset. I'm providing a script to install Jupyter on Linux, and a guide to help people navigate the dense infotech forest. I'm also sharing my experience to help others find their way in life, and I'm learning to plan my recovery from distractions as a sort of performance-art.
 keywords: Infotech, Carpenter, Information Age Samurai, Skillset, Toolset, Jupyter, Linux, Guide, Dense Infotech Forest, Experience, Life, Performance-Art, Stay in Demand, Love What You Do, Windows, Linux APIs, Windows Subsystem, Benefits, Switch to Linux, Obsolete, Linux CLI, Python, Script, Integration, Management, Craftsmanship, 80/20-Rule, Joy, Fulfillment, Distractions, Journal, Meta-State
-categories: linux, joy, jupyter, microsoft, 80/20-rule, python, wsl
+categories: 80/20-rule, wsl, python, joy, jupyter, linux, microsoft
 permalink: /blog/working-on-a-tiktok-script/
 layout: post
 group: blog
@@ -250,10 +250,10 @@ The best I can do is leave a trail of clues.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/joy/'>Joy</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-rule</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
