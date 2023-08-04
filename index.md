@@ -54,9 +54,9 @@ core of AI and more.
    security steps.
 3. This will download the latest version of the MyKoz installer, called
    `Jupyter Ubuntu.bat`. Run it to replace the default Windows Ubuntu 22.04
-   with one that hosts JupyterLab on `localhost:8888` using Linux Python from
-   the Windows Subsystem for Linux (WSL). That's it! You new have JupyterLab
-   running on `localhost:8888` which you can access by clicking the new
+   with one that hosts JupyterLab on the web address `http://localhost:8888`
+   using Linux Python from the Windows Subsystem for Linux (WSL). That's it!
+   You new have JupyterLab running, which you can access by clicking the new
    `JupyterLab` Shortcut on your desktop (which may require an F5 refresh).
 
 ### The Code to Copy/Paste Into `getmykoz.bat`
