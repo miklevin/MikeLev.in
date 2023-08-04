@@ -33,10 +33,11 @@ portable approach to computing.
 MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
 standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
 designed to teach you stoicism and the timeless skills of Linux, Python, vim
-and git. Upon install, you'll get a JupyterLab server running on localhost:8888
-with a few Github repositories pre-installed to get you started with Free and
-Open Source SEO software. If you're not into SEO, it's a great way to learn
-generic data collection and analysis, which is the core of AI and more.
+and git. Upon install, you'll get a `Linux-side hosted` JupyterLab server
+running on localhost:8888 with a few Github repositories pre-installed to get
+you started with Free and Open Source SEO software. If you're not into SEO,
+it's a great way to learn generic data collection and analysis, which is the
+core of AI and more.
 
 ### MyKoz Installation Instructions
 
