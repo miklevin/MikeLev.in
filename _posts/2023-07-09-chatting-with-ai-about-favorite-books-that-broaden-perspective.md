@@ -4,7 +4,7 @@ title: Chatting with AI About Favorite Books That Broaden Perspective
 headline: "Chatting With AI: Exploring Books That Expand My Perspective and Understanding of the World."
 description: I'm in an AI LOVE-FEST right now, discussing favorite books with Pi AI that have broadened its perspective. We talk with 0d39r33zk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' radio broadcast of War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn
 keywords: AI, OpenAI, Graph Databases, Blockchain, LLM, Context Storage, Bots, Tokens, 4000 Tokens, OpenAI Rules, Writing, Article, Research, WIP, Employer Ownership, Legal Reasons, Alien Conspiracy Theories, Twitter, SEO, Twitter Spaces, Clubhouse, Orson Welles, War of The Worlds, H. G. Wells, Mainstream Media, Quantum Computer, Copilot, Pi AI, IBM, Watson, Jeopardy, NeoVim
-categories: twitter, ai, seo, vim
+categories: seo, vim, ai, twitter
 permalink: /blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/
 layout: post
 group: blog
@@ -141,11 +141,11 @@ oscillate and the surrounding trees would feel the oscilations as wind
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mike-levin-ai-seo-and-on-his-blog-he-has-copilot-a-i-s-e-o/">Mike Levin: AI SEO... And On His Blog He Has Copilot, A-I-S-E-O</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>
