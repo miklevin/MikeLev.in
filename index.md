@@ -20,24 +20,6 @@ tiny tech stack of ***Linux, Python, vim & git.***
 
 ![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
-<img class="picright" width="300vw" alt="Linux, Python, vim & git (LPvg)" src="/assets/images/linux-python-vim-git.jpg" >
-***MyKoz: A Real OS*** (pronounced like Marcus Aurelius) is a modification of
-the standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
-designed to teach you stoicism and the timeless skills of Linux, Python, vim
-and git. You get a JupyterLab server running with a few Github repositories
-pre-installed to get you started with ***Free and Open Source SEO software***.
-If you're not into SEO, it's a great way to learn generic data collection and
-analysis, which is the core of AI and more.
-
-> Deep within my heart and soul    
-> Two me's fight for the truth&#151;    
-> One's the vain green-hunter,    
-> The other's soft and bluish.    
-> You'd think the one that feeds us    
-> Draws arrows and not glyphs    
-> But whiteboard-inked ideas    
-> Drive Mammoths off the cliffs.    
-
 ## Towitizm - Practice Never Going Obsolete
 
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
@@ -55,6 +37,8 @@ and git. Upon install, you'll get a JupyterLab server running on localhost:8888
 with a few Github repositories pre-installed to get you started with Free and
 Open Source SEO software. If you're not into SEO, it's a great way to learn
 generic data collection and analysis, which is the core of AI and more.
+
+### MyKoz Installation Instructions
 
 Copy the text below to your clipboard. Then create a file called `drinkme.bat`
 on your Windows 10 or 11 desktop, save it, and double-click it. It will
@@ -83,6 +67,15 @@ curl -s -o "%FILENAME%" "%URL%" ^
 ```
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
+
+> Deep within my heart and soul    
+> Two me's fight for the truth&#151;    
+> One's the vain green-hunter,    
+> The other's soft and bluish.    
+> You'd think the one that feeds us    
+> Draws arrows and not glyphs    
+> But whiteboard-inked ideas    
+> Drive Mammoths off the cliffs.    
 
 {% include post_short_list.html %}
 
