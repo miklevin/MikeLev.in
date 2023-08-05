@@ -176,9 +176,6 @@ dictitems:
   00_core.ipynb:
     count: 1
     title: 00_core.ipynb
-  '05':
-    count: 1
-    title: '05'
   09:
     count: 1
     title: 09
@@ -300,7 +297,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 12
+    count: 11
     title: '2023'
   2030 agenda:
     count: 1
@@ -1341,7 +1338,7 @@ dictitems:
     count: 1
     title: Area 51
   areal/os:
-    count: 4
+    count: 3
     title: AReal/OS
   arg:
     count: 1
@@ -1517,9 +1514,6 @@ dictitems:
   audience:
     count: 9
     title: Audience
-  aug:
-    count: 1
-    title: Aug
   augmentix:
     count: 1
     title: Augmentix
@@ -1529,9 +1523,6 @@ dictitems:
   august 31:
     count: 1
     title: August 31
-  aurelius:
-    count: 1
-    title: aurelius
   auth parameter:
     count: 1
     title: Auth parameter
@@ -1749,7 +1740,7 @@ dictitems:
     count: 1
     title: bank
   banner:
-    count: 5
+    count: 4
     title: Banner
   bard:
     count: 3
@@ -2348,9 +2339,6 @@ dictitems:
   brand loyalty:
     count: 1
     title: Brand Loyalty
-  branding:
-    count: 1
-    title: branding
   brandon heagle:
     count: 1
     title: Brandon Heagle
@@ -3654,8 +3642,8 @@ dictitems:
     count: 1
     title: Connecting Dots
   connection:
-    count: 2
-    title: connection
+    count: 1
+    title: Connection
   connector:
     count: 1
     title: Connectors
@@ -4422,7 +4410,7 @@ dictitems:
     count: 1
     title: Datasets
   date:
-    count: 10
+    count: 9
     title: date
   date format:
     count: 1
@@ -4944,7 +4932,7 @@ dictitems:
     count: 1
     title: Disconnect
   discord:
-    count: 2
+    count: 1
     title: Discord
   discourse:
     count: 1
@@ -5121,8 +5109,8 @@ dictitems:
     count: 1
     title: DOM State
   domain:
-    count: 5
-    title: domain
+    count: 4
+    title: Domain
   domain authority:
     count: 2
     title: Domain Authority
@@ -6183,7 +6171,7 @@ dictitems:
     count: 1
     title: Face Dancers
   facebook:
-    count: 4
+    count: 3
     title: Facebook
   facility:
     count: 1
@@ -6396,7 +6384,7 @@ dictitems:
     count: 1
     title: fifty-one
   figlet:
-    count: 5
+    count: 4
     title: Figlet
   figure:
     count: 2
@@ -8388,8 +8376,8 @@ dictitems:
     count: 1
     title: ICs
   icann:
-    count: 2
-    title: icann
+    count: 1
+    title: ICANN
   icloud:
     count: 1
     title: iCloud
@@ -8793,7 +8781,7 @@ dictitems:
     count: 1
     title: Instacart
   instagram:
-    count: 3
+    count: 2
     title: Instagram
   install:
     count: 9
@@ -10269,7 +10257,7 @@ dictitems:
     count: 6
     title: LISP
   list:
-    count: 17
+    count: 16
     title: List
   list comprehension:
     count: 2
@@ -10817,9 +10805,6 @@ dictitems:
   mail-to:
     count: 1
     title: Mail-to
-  mailchimp:
-    count: 1
-    title: MailChimp
   mailman:
     count: 1
     title: Mailman
@@ -10967,9 +10952,6 @@ dictitems:
   marc brackett:
     count: 1
     title: Marc Brackett
-  marcus:
-    count: 1
-    title: marcus
   marcus aurelius:
     count: 2
     title: Marcus Aurelius
@@ -11078,9 +11060,6 @@ dictitems:
   mastery:
     count: 2
     title: Mastery
-  mastodon:
-    count: 1
-    title: Mastodon
   material:
     count: 1
     title: Materials
@@ -11217,7 +11196,7 @@ dictitems:
     count: 2
     title: Meditations
   medium:
-    count: 4
+    count: 3
     title: Media
   meet:
     count: 1
@@ -11246,9 +11225,6 @@ dictitems:
   memetic hacking:
     count: 1
     title: Memetic Hacking
-  memetic,:
-    count: 1
-    title: memetic,
   memetics:
     count: 1
     title: Memetics
@@ -11325,7 +11301,7 @@ dictitems:
     count: 1
     title: Messageboard System
   messaging:
-    count: 4
+    count: 3
     title: Messaging
   messing:
     count: 1
@@ -11991,14 +11967,8 @@ dictitems:
     count: 1
     title: Mycelium Network
   mykoz:
-    count: 5
+    count: 4
     title: MyKoz
-  mykoz.ai:
-    count: 1
-    title: mykoz.ai
-  mykoz_ai:
-    count: 1
-    title: mykoz_ai
   mysql:
     count: 3
     title: MySQL
@@ -13259,9 +13229,6 @@ dictitems:
   patient:
     count: 1
     title: patient
-  patreon:
-    count: 1
-    title: Patreon
   pattern:
     count: 2
     title: patterns
@@ -13683,7 +13650,7 @@ dictitems:
     count: 2
     title: Plates
   platform:
-    count: 16
+    count: 15
     title: Platform
   platform optimization:
     count: 1
@@ -15150,7 +15117,7 @@ dictitems:
     count: 1
     title: Refinement
   refining:
-    count: 2
+    count: 1
     title: Refining
   reflecting:
     count: 1
@@ -15179,9 +15146,6 @@ dictitems:
   register:
     count: 1
     title: Registers
-  registered:
-    count: 1
-    title: registered
   registered domains:
     count: 1
     title: Registered Domains
@@ -15912,7 +15876,7 @@ dictitems:
     count: 1
     title: Sass CSS Generator
   sat:
-    count: 2
+    count: 1
     title: Sat
   sat-may-28-2022:
     count: 1
@@ -16914,7 +16878,7 @@ dictitems:
     count: 1
     title: So-Learn
   social:
-    count: 3
+    count: 2
     title: Social
   social justice:
     count: 1
@@ -18062,9 +18026,6 @@ dictitems:
   tagging:
     count: 1
     title: Tagging
-  tagline:
-    count: 1
-    title: tagline
   taj mahal:
     count: 1
     title: Taj Mahal
@@ -18489,7 +18450,7 @@ dictitems:
     count: 1
     title: Tijuana
   tiktok:
-    count: 2
+    count: 1
     title: TikTok
   tiktoken:
     count: 1
@@ -18563,9 +18524,6 @@ dictitems:
   title:
     count: 18
     title: Title
-  tld:
-    count: 1
-    title: tld
   tldextract:
     count: 1
     title: tldextract
@@ -18942,7 +18900,7 @@ dictitems:
     count: 1
     title: Twisted Bilayer Graphene
   twitter:
-    count: 11
+    count: 10
     title: Twitter
   twitter api:
     count: 1
@@ -20445,7 +20403,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 50
+    count: 49
     title: YouTube
   youtube analytics:
     count: 1
