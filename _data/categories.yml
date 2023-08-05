@@ -1,11 +1,57 @@
+- windows 10
+- windows 11
+- windows subsystem for linux
+- wsl
+- linux
 - ubuntu
+- debian-derived
+- jupyterlab
+- python
+- web browser
+- microsoft edge
+- google chrome
+- levinux
+- marcus aurelius
+- stoic philosophy
+- minimalism
+- server build scripts
+- batch files
+- do
+- disk operating system
+- alice's adventures in wonderland
+- wizard of oz
+- mykoz
+- my cause
+- mike oz
+- areal/os
+- jupyter ubuntu
+- linear time
+- algorithm
+- search engines
+- ai
+- bias
+- window
+- vim
+- semantic web
+- messaging
+- website
+- blog posts
+- query/remixability
+- site-shaping
+- data shaping
+- text-data
+- media assets
+- headless cms
+- computer vision apis
+- idea-capture
+- ideation
+- shaping process
+- git repos
+- post-processing
+- user experience
+- previous/next arrows
 - '20.04'
 - '22.04'
-- mykoz
-- areal/os
-- linux
-- jupyterlab
-- vim
 - journaling
 - public
 - private
@@ -16,7 +62,6 @@
 - sas
 - fullstack
 - webdev
-- window
 - symbolic
 - link
 - .ssh
@@ -31,18 +76,15 @@
 - seo
 - fo
 - software
-- windows 10
 - meme
 - identity
 - video
 - war games
-- ai
 - interface
 - bing
 - bash
 - terminal
 - browser
-- levinux
 - qemu
 - pc
 - emulator
@@ -60,7 +102,6 @@
 - cloud
 - raspberry pi
 - command-line
-- python
 - programming
 - file paths
 - forward slashes
@@ -68,14 +109,12 @@
 - lock-in
 - technical debt
 - stoicism
-- marcus aurelius
 - meditation
 - text-based
 - suggestion
 - stoic
 - mindful
 - timeless
-- windows 11
 - open office
 - remote working
 - jupyter
@@ -90,8 +129,6 @@
 - linux on the metal
 - factory reset
 - pc reset
-- windows subsystem for linux
-- wsl
 - windows 10 version 21h2
 - mindfulness
 - intent
@@ -754,7 +791,6 @@
 - app store
 - apple app store
 - app bundles
-- wizard of oz
 - literacy
 - homeschooling
 - math
@@ -1005,7 +1041,6 @@
 - na
 - lily-ray
 - primer
-- alice's adventures in wonderland
 - hannibal
 - a-team
 - confidence game
@@ -1130,7 +1165,6 @@
 - plural possessives
 - philadelphia amiga users' group
 - apple macs
-- blog posts
 - hyphen
 - iphone
 - samsung note
@@ -1286,7 +1320,6 @@
 - shadow-dude
 - claw
 - intellisense
-- microsoft edge
 - azure
 - dependency
 - open mind
@@ -1710,7 +1743,6 @@
 - sentiment analysis
 - computer vision
 - value proposition
-- user experience
 - linear sequences
 - organizing information
 - core principles
@@ -1987,7 +2019,6 @@
 - ctrl+s
 - ctrl+space
 - buffer
-- website
 - productivity
 - fixed position
 - random-access
@@ -2201,7 +2232,6 @@
 - /bin folder
 - multiple files
 - reverse-copy
-- git repos
 - copy files
 - edit files
 - push changes
@@ -3024,7 +3054,6 @@
 - social studies
 - language arts
 - physical
-- algorithm
 - 3d printing
 - mycelium network
 - cooperation
@@ -3096,7 +3125,6 @@
 - cost savings
 - security
 - sustainability
-- minimalism
 - humanism
 - positive psychology
 - yoga
@@ -3159,7 +3187,6 @@
 - explosion
 - literate programming
 - homepage
-- messaging
 - refining
 - existential crisis
 - opportunity
@@ -3324,7 +3351,6 @@
 - screenshot
 - dom
 - recorder
-- bias
 - human emotions
 - simulation
 - immersive experience
@@ -3722,7 +3748,6 @@
 - diagramo
 - erd
 - html5
-- web browser
 - north korea
 - u
 - ukraine
@@ -4543,7 +4568,6 @@
 - ubuntu linux
 - tech mechanics
 - real-time
-- batch files
 - generic hardware
 - startup
 - unix timestamp
@@ -5194,7 +5218,6 @@
 - clone
 - unprivileged
 - data automation
-- google chrome
 - user profile
 - serp-scraping
 - keyword list
@@ -5213,7 +5236,6 @@
 - cuda
 - portable switch army seo product
 - performance art
-- idea-capture
 - fundamental
 - work at-hand
 - real-world problems
@@ -6655,7 +6677,6 @@
 - style sheets
 - sass css generator
 - '@import ''jekyll-theme-hacker'''
-- previous/next arrows
 - hacker theme page
 - raw code
 - '`_layouts` folder'

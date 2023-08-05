@@ -4,7 +4,7 @@ title: Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Prod
 headline: Discover How I Achieved Distraction-Free Productivity with a Factory Reset PC and Stripped Down Windows 10
 description: Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.
 keywords: Windows 10, Windows 11, Open Office, Remote Working, Linux, Python, Jupyter, IPython, VSCode, Vim, Git, Linux Desktop, Muscle Memory, Host Operating System, Guest Operating System, Future-Proofing, Application Programming Interfaces, Linux on the Metal, Cloud, Factory Reset, PC Reset, Windows Subsystem for Linux, WSL, Windows 10 version 21H2
-categories: vim, python, git, jupyter, wsl, linux, muscle memory, microsoft
+categories: vim, wsl, python, muscle memory, linux, microsoft, jupyter, git
 permalink: /blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/
 layout: post
 group: blog
@@ -152,10 +152,10 @@ supporting glory is only available on Windows 10 version 21H2.
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
