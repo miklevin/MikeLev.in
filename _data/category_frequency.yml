@@ -813,7 +813,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 108
+    count: 110
     title: AI
   ai bros:
     count: 1
@@ -1083,7 +1083,7 @@ dictitems:
     count: 1
     title: amygdala
   anaconda:
-    count: 2
+    count: 3
     title: Anaconda
   analysis:
     count: 2
@@ -1334,6 +1334,9 @@ dictitems:
   area 51:
     count: 1
     title: Area 51
+  areal/os:
+    count: 1
+    title: AReal/OS
   arg:
     count: 1
     title: Arg
@@ -1743,7 +1746,7 @@ dictitems:
     count: 1
     title: base64
   bash:
-    count: 10
+    count: 11
     title: Bash
   bash file:
     count: 1
@@ -2001,7 +2004,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 22
+    count: 23
     title: Bing
   bing chatbot:
     count: 1
@@ -2406,7 +2409,7 @@ dictitems:
     count: 1
     title: Brothers
   browser:
-    count: 21
+    count: 22
     title: Browser
   browser automation:
     count: 13
@@ -3102,7 +3105,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 14
+    count: 16
     title: Cloud
   cloud chamber:
     count: 1
@@ -3336,7 +3339,7 @@ dictitems:
     count: 3
     title: Command Line Interface
   command-line:
-    count: 7
+    count: 8
     title: Command-Line
   command-line argument:
     count: 1
@@ -4700,6 +4703,9 @@ dictitems:
   desktop oses:
     count: 1
     title: Desktop OSes
+  desktop-jupyter:
+    count: 1
+    title: Desktop-Jupyter
   destructive:
     count: 1
     title: destructive
@@ -4847,6 +4853,9 @@ dictitems:
   digital electronics:
     count: 1
     title: Digital Electronics
+  digital home:
+    count: 1
+    title: Digital Home
   digital housekeeping:
     count: 1
     title: Digital Housekeeping
@@ -5648,6 +5657,9 @@ dictitems:
   empty list:
     count: 1
     title: Empty List
+  emulator:
+    count: 1
+    title: Emulator
   en.utf-8.add:
     count: 1
     title: en.utf-8.add
@@ -5966,6 +5978,9 @@ dictitems:
   excel file:
     count: 1
     title: Excel File
+  exception handling:
+    count: 1
+    title: Exception Handling
   exec command:
     count: 1
     title: Exec Command
@@ -6374,6 +6389,9 @@ dictitems:
   file path:
     count: 2
     title: File Path
+  file paths:
+    count: 1
+    title: File Paths
   file protocol:
     count: 1
     title: File Protocol
@@ -6564,7 +6582,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 16
+    count: 17
     title: FOSS
   foam:
     count: 1
@@ -6665,6 +6683,9 @@ dictitems:
   forward:
     count: 1
     title: forward
+  forward slashes:
+    count: 1
+    title: Forward Slashes
   foss ai software:
     count: 1
     title: FOSS AI Software
@@ -8378,6 +8399,9 @@ dictitems:
   identifying:
     count: 1
     title: Identifying
+  identity:
+    count: 1
+    title: Identity
   identity theft:
     count: 1
     title: Identity Theft
@@ -8762,6 +8786,9 @@ dictitems:
   installer:
     count: 1
     title: Installer
+  installer script:
+    count: 1
+    title: Installer Script
   installing:
     count: 3
     title: Installing
@@ -8862,8 +8889,8 @@ dictitems:
     count: 1
     title: Interesting Components
   interface:
-    count: 1
-    title: interface
+    count: 2
+    title: Interfaces
   interference:
     count: 1
     title: Interference
@@ -9384,7 +9411,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 42
+    count: 44
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -9876,7 +9903,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 9
+    count: 10
     title: Levinux
   levinux fan page:
     count: 1
@@ -10080,7 +10107,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 175
+    count: 176
     title: Linux
   linux api:
     count: 1
@@ -10356,7 +10383,7 @@ dictitems:
     count: 1
     title: Location Services
   lock-in:
-    count: 1
+    count: 2
     title: Lock-In
   lockdown:
     count: 2
@@ -10650,7 +10677,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 23
+    count: 24
     title: Mac
   macbook pro:
     count: 2
@@ -10892,6 +10919,9 @@ dictitems:
   marc brackett:
     count: 1
     title: Marc Brackett
+  marcus aurelius:
+    count: 1
+    title: Marcus Aurelius
   margin:
     count: 1
     title: Margin
@@ -11127,8 +11157,8 @@ dictitems:
     count: 2
     title: Medicine
   meditation:
-    count: 1
-    title: Meditation
+    count: 2
+    title: Meditations
   medium:
     count: 3
     title: Media
@@ -11154,8 +11184,8 @@ dictitems:
     count: 1
     title: Mellon Bank
   meme:
-    count: 1
-    title: Memes
+    count: 2
+    title: Meme
   memetic hacking:
     count: 1
     title: Memetic Hacking
@@ -11334,7 +11364,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 56
+    count: 57
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11492,6 +11522,9 @@ dictitems:
   mind-tricks:
     count: 1
     title: Mind-tricks
+  mindful:
+    count: 1
+    title: Mindful
   mindfulness:
     count: 3
     title: Mindfulness
@@ -11891,6 +11924,9 @@ dictitems:
   mycelium network:
     count: 1
     title: Mycelium Network
+  mykoz:
+    count: 2
+    title: MyKoz
   mysql:
     count: 3
     title: MySQL
@@ -12276,7 +12312,7 @@ dictitems:
     count: 1
     title: No Tabs
   noah's ark:
-    count: 3
+    count: 4
     title: Noah's Ark
   noah's ark platform:
     count: 1
@@ -12317,6 +12353,9 @@ dictitems:
   nomadic lifestyle:
     count: 1
     title: nomadic lifestyle
+  nomatic:
+    count: 1
+    title: Nomatic
   non-breaking-space:
     count: 1
     title: Non-Breaking-Space
@@ -12480,7 +12519,7 @@ dictitems:
     count: 1
     title: NYTimes
   o:
-    count: 3
+    count: 4
     title: OS
   o-scale:
     count: 1
@@ -12543,7 +12582,7 @@ dictitems:
     count: 1
     title: Obstacles
   occam's razor:
-    count: 3
+    count: 4
     title: Occam's Razor
   occasion:
     count: 1
@@ -13173,7 +13212,7 @@ dictitems:
     count: 1
     title: Paywalled Content
   pc:
-    count: 1
+    count: 2
     title: PC
   pc emulator:
     count: 1
@@ -13485,7 +13524,7 @@ dictitems:
     count: 1
     title: Piping
   pipulate:
-    count: 18
+    count: 19
     title: Pipulate
   pipulate free & open source seo:
     count: 1
@@ -14127,7 +14166,7 @@ dictitems:
     count: 1
     title: programmer
   programming:
-    count: 16
+    count: 17
     title: Programming
   programming languages:
     count: 2
@@ -14430,7 +14469,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 186
+    count: 187
     title: Python
   python 3:
     count: 1
@@ -14511,8 +14550,8 @@ dictitems:
     count: 2
     title: QED
   qemu:
-    count: 4
-    title: Qemu
+    count: 5
+    title: QEMU
   qnap:
     count: 5
     title: QNAP
@@ -14814,7 +14853,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 5
+    count: 6
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -16173,7 +16212,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 86
+    count: 87
     title: SEO
   seo blog:
     count: 1
@@ -16250,6 +16289,9 @@ dictitems:
   server-build:
     count: 1
     title: Server-Build
+  server-build script:
+    count: 1
+    title: Server-Build Script
   server-building:
     count: 1
     title: Server-Building
@@ -16797,7 +16839,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 25
+    count: 26
     title: Software
   software development:
     count: 3
@@ -16881,7 +16923,7 @@ dictitems:
     count: 1
     title: Sound
   source:
-    count: 5
+    count: 6
     title: Source
   sourceforge:
     count: 1
@@ -17333,8 +17375,11 @@ dictitems:
   stockholm syndrome:
     count: 1
     title: Stockholm Syndrome
-  stoicism:
+  stoic:
     count: 1
+    title: Stoic
+  stoicism:
+    count: 2
     title: Stoicism
   stone wall:
     count: 1
@@ -17613,7 +17658,7 @@ dictitems:
     count: 1
     title: Suggest API
   suggestion:
-    count: 1
+    count: 2
     title: Suggestions
   sumarian clay tablets:
     count: 1
@@ -18032,6 +18077,9 @@ dictitems:
   technical:
     count: 3
     title: Technical
+  technical debt:
+    count: 1
+    title: Technical Debt
   technical matters:
     count: 1
     title: Technical Matters
@@ -18105,7 +18153,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 17
+    count: 18
     title: Terminal
   terminal environment:
     count: 1
@@ -18152,6 +18200,9 @@ dictitems:
   text editors:
     count: 7
     title: Text Editors
+  text-based:
+    count: 1
+    title: Text-Based
   text-based terminal:
     count: 1
     title: Text-based Terminal
@@ -18366,7 +18417,7 @@ dictitems:
     count: 1
     title: Time-Sharing System
   timeless:
-    count: 2
+    count: 3
     title: Timeless
   timeless design patterns:
     count: 1
@@ -19350,7 +19401,7 @@ dictitems:
     count: 1
     title: Vice President
   video:
-    count: 33
+    count: 34
     title: Video
   video card driver:
     count: 1
@@ -19398,7 +19449,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 112
+    count: 114
     title: Vim
   vim buffer:
     count: 1
@@ -19554,8 +19605,8 @@ dictitems:
     count: 1
     title: Visualizing Change
   visuals:
-    count: 2
-    title: visuals
+    count: 3
+    title: Visuals
   vitamix:
     count: 1
     title: Vitamix
@@ -19614,7 +19665,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 26
+    count: 27
     title: VSCode
   vscodium:
     count: 1
@@ -19658,6 +19709,9 @@ dictitems:
   war and peace:
     count: 1
     title: War and Peace
+  war games:
+    count: 1
+    title: War Games
   war of the worlds:
     count: 2
     title: War of The Worlds
@@ -19932,10 +19986,10 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 75
+    count: 76
     title: Windows
   windows 10:
-    count: 21
+    count: 22
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20172,7 +20226,7 @@ dictitems:
     count: 1
     title: WSL1
   wsl2:
-    count: 23
+    count: 25
     title: WSL2
   wsl2 localhost access issue:
     count: 1
