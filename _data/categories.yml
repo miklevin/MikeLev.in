@@ -1,5 +1,28 @@
+- ubuntu
+- '20.04'
+- '22.04'
 - mykoz
 - areal/os
+- linux
+- jupyterlab
+- vim
+- journaling
+- public
+- private
+- system
+- automation
+- nbdev
+- cs
+- sas
+- fullstack
+- webdev
+- window
+- symbolic
+- link
+- .ssh
+- directory
+- release
+- blog post
 - nomatic
 - digital home
 - wsl2
@@ -16,11 +39,9 @@
 - ai
 - interface
 - bing
-- jupyterlab
 - bash
 - terminal
 - browser
-- vim
 - levinux
 - qemu
 - pc
@@ -32,8 +53,6 @@
 - visuals
 - occam's razor
 - o
-- window
-- linux
 - microsoft
 - vscode
 - anaconda
@@ -76,7 +95,6 @@
 - windows 10 version 21h2
 - mindfulness
 - intent
-- journaling
 - writing
 - solution
 - subsystem
@@ -226,7 +244,6 @@
 - the
 - magic
 - public-facing
-- private
 - broken mirrors
 - black mirrors
 - machiavelli
@@ -699,7 +716,6 @@
 - intel
 - m1
 - m2
-- ubuntu
 - multipass
 - installer
 - package
@@ -718,7 +734,6 @@
 - unattended
 - non-interactive
 - bit sur
-- automation
 - symlinks
 - oracle
 - powerpc
@@ -735,7 +750,6 @@
 - wbscript
 - howard harrison
 - azure cloud
-- webdev
 - data scientists
 - app store
 - apple app store
@@ -1094,7 +1108,6 @@
 - catapult
 - rope
 - lead-management
-- system
 - generating
 - disseminating
 - affiliate
@@ -1238,7 +1251,6 @@
 - virtual environment
 - path
 - markdown
-- link
 - cursor
 - intense
 - round
@@ -1731,7 +1743,6 @@
 - night/day
 - sleep/wake cycle
 - micro-inversions
-- blog post
 - reader
 - arrow
 - navigation
@@ -1828,7 +1839,6 @@
 - data structure
 - calculating
 - customizations
-- release
 - unpublishing
 - rst
 - daring fireball
@@ -2448,7 +2458,6 @@
 - chopchop
 - glob
 - object
-- directory
 - seed
 - data project
 - live premiere
@@ -2647,7 +2656,6 @@
 - processed foods
 - rule-based
 - statistical,
-- nbdev
 - life improvement
 - experimental environment
 - production environment
@@ -2682,7 +2690,6 @@
 - stat
 - smaller
 - mobile
-- '20.04'
 - windows store
 - optimize
 - journey
@@ -3935,7 +3942,6 @@
 - economic
 - political
 - mechanic
-- public
 - cruel
 - elite
 - repressive
@@ -4441,7 +4447,6 @@
 - free tools
 - google analytics
 - measurement id
-- cs
 - public project
 - 4000 characters
 - general license
@@ -5675,7 +5680,6 @@
 - 24x7 scheduler
 - imagery
 - 2fa implementation
-- '22.04'
 - microsoft network
 - samba
 - cifs

@@ -4,7 +4,7 @@ title: Planning The Day & Discussing The Future With Bard
 headline: Exploring Ways to Make Money and Simplify Tech With Bard on Good Friday
 description: I'm spending Good Friday working on my increasingly YAML-based blogging system. I'm exploring ways to make the index page more interesting and discussing with Bard about ways it collaborates with other LLMs. I'm also considering a nomadic lifestyle and need to make sure I'm prepared to use my Linux, Python, vim, and git skills to make money on the road, as well as ways to help Mike Levin kick-off a simplification movement in tech.
 keywords: LLM, MOZ, Linux, Python, vim, git, freelancing, consulting, teaching, developing products, investing, US holiday, Good Friday, front matter, tags, categories, communication, tasks, single LLM, Mike Levin, simplification movement, tech, nomadic lifestyle, goals, team, patient, persistent, adapt, research, people, child, cats, conversational AI, engineers, scientists, users, balanced diet, processed foods, rule-based, statistical,
-categories: child, vim, success, git, seo, python, linux
+categories: vim, python, git, seo, success, child, linux
 permalink: /blog/planning-the-day-discussing-the-future-with-bard/
 layout: post
 group: blog
@@ -362,10 +362,10 @@ It is difficult to say exactly when these developments will happen, but it is li
 ## Categories
 
 <ul>
-<li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

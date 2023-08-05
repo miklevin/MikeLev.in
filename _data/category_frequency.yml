@@ -128,6 +128,9 @@ dictitems:
   .service file values:
     count: 1
     title: .Service File Values
+  .ssh:
+    count: 1
+    title: .ssh
   .txt:
     count: 2
     title: .txt
@@ -270,7 +273,7 @@ dictitems:
     count: 1
     title: 2-dimensional numpy array
   '20.04':
-    count: 8
+    count: 9
     title: '20.04'
   '20.3':
     count: 1
@@ -300,7 +303,7 @@ dictitems:
     count: 1
     title: 2030 Agenda
   '22.04':
-    count: 1
+    count: 2
     title: '22.04'
   '2204':
     count: 1
@@ -1335,7 +1338,7 @@ dictitems:
     count: 1
     title: Area 51
   areal/os:
-    count: 1
+    count: 2
     title: AReal/OS
   arg:
     count: 1
@@ -1584,7 +1587,7 @@ dictitems:
     count: 3
     title: Automating
   automation:
-    count: 22
+    count: 23
     title: Automation
   automount:
     count: 1
@@ -2145,7 +2148,7 @@ dictitems:
     count: 15
     title: Blog
   blog post:
-    count: 10
+    count: 11
     title: Blog Post
   blog posts:
     count: 6
@@ -4068,7 +4071,7 @@ dictitems:
     count: 1
     title: Crystal Geode Kit
   cs:
-    count: 5
+    count: 6
     title: CSS
   css elements:
     count: 1
@@ -4899,7 +4902,7 @@ dictitems:
     count: 2
     title: Directive
   directory:
-    count: 4
+    count: 5
     title: Directory
   dirty dogs:
     count: 1
@@ -6890,6 +6893,9 @@ dictitems:
   fullscreen mode:
     count: 1
     title: Fullscreen Mode
+  fullstack:
+    count: 1
+    title: Fullstack
   fun:
     count: 1
     title: Fun
@@ -9315,7 +9321,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 37
+    count: 38
     title: Journaling
   journaling system:
     count: 1
@@ -9411,7 +9417,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 44
+    count: 45
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10080,7 +10086,7 @@ dictitems:
     count: 1
     title: Linguistics
   link:
-    count: 14
+    count: 15
     title: Links
   link back:
     count: 1
@@ -10107,7 +10113,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 176
+    count: 177
     title: Linux
   linux api:
     count: 1
@@ -11925,7 +11931,7 @@ dictitems:
     count: 1
     title: Mycelium Network
   mykoz:
-    count: 2
+    count: 3
     title: MyKoz
   mysql:
     count: 3
@@ -12075,7 +12081,7 @@ dictitems:
     count: 1
     title: Nbconvert
   nbdev:
-    count: 14
+    count: 15
     title: nbdev
   nbdev2:
     count: 1
@@ -14061,8 +14067,8 @@ dictitems:
     count: 1
     title: Privacy Violations
   private:
-    count: 2
-    title: private
+    count: 3
+    title: Private
   private cloud server:
     count: 1
     title: Private Cloud Server
@@ -14322,7 +14328,7 @@ dictitems:
     count: 1
     title: Psychotherapy
   public:
-    count: 2
+    count: 3
     title: Public
   public awareness:
     count: 1
@@ -15156,7 +15162,7 @@ dictitems:
     count: 1
     title: relearn
   release:
-    count: 8
+    count: 9
     title: Release
   release script:
     count: 2
@@ -15821,6 +15827,9 @@ dictitems:
   sardaukar:
     count: 1
     title: Sardaukar
+  sas:
+    count: 1
+    title: Sass
   sass css generator:
     count: 1
     title: Sass CSS Generator
@@ -17822,6 +17831,9 @@ dictitems:
   symbolab's ms calculator:
     count: 1
     title: Symbolab's ms Calculator
+  symbolic:
+    count: 1
+    title: Symbolic
   symbolic link:
     count: 3
     title: Symbolic Link
@@ -17874,7 +17886,7 @@ dictitems:
     count: 1
     title: syntax highlighting
   system:
-    count: 17
+    count: 18
     title: System
   system alignment:
     count: 1
@@ -18876,7 +18888,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 24
+    count: 25
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -19449,7 +19461,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 114
+    count: 115
     title: Vim
   vim buffer:
     count: 1
@@ -19860,8 +19872,8 @@ dictitems:
     count: 1
     title: Webcrawler
   webdev:
-    count: 2
-    title: WebDev
+    count: 3
+    title: Webdev
   webmaster:
     count: 1
     title: Webmasters
@@ -19986,7 +19998,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 76
+    count: 77
     title: Windows
   windows 10:
     count: 22
