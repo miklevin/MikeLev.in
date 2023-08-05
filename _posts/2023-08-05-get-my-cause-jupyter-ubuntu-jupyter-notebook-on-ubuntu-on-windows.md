@@ -4,7 +4,7 @@ title: Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)
 headline: I'm transitioning my workflow to a new machine and embracing Linux with Jupyter Ubuntu!
 description: Learn how to install Jupyter Notebook on Ubuntu on Windows with this step-by-step guide. Follow along as Mike Lev.in walks you through the process of setting up a server-build script, renaming the drinkme repo, and creating a Jupyter Ubuntu.bat script to install JupyterLab on Ubuntu Linux.
 keywords: Windows 10, Windows 11, Windows Subsystem for Linux, WSL, Linux, Ubuntu, Debian-derived, JupyterLab, Python, Web browser, Microsoft Edge, Google Chrome, Levinux, Marcus Aurelius, Stoic philosophy, minimalism, server build scripts, batch files, DOS, Disk Operating System, Alice's Adventures in Wonderland, Wizard of Oz, MyKoz, My Cause, Mike OZ, AReal/OS, Jupyter Ubuntu
-categories: ubuntu, python, linux, microsoft, jupyter, wsl, levinux
+categories: ubuntu, python, levinux, linux, microsoft, wsl, jupyter
 permalink: /blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/
 layout: post
 group: blog
@@ -228,14 +228,14 @@ variables, but for posterity's sake, here's the simplest way to do it:
 Okay, all roads now lead to either my homepage or the /mykoz/ page. That's
 enough for one journal entry, don't you think?
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/refining-mykoz-ai-messaging-now-that-i-registered-domain/">Refining mykoz.ai messaging now that i registered domain</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
