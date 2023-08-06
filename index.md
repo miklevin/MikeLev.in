@@ -12,9 +12,9 @@ group: home
 <img class="picleft" width="300vw" alt="Mike Levin looking in suprise at An Introduction to Statistical Learning book" src="/assets/images/mike-levin-ai-seo.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
 with a minimum of the retraining rigmarole inflicted upon you by ***planned
-obsolescence?*** Well, you've heard of Marcus Aurelius and Stoicism? I'm here
-to teach you **Tow-it-ism** with **MyKoz.AI Real/OS** - a way of using a Linux
-Subsystem on Windows (WSL) for a minimalistic and portable approach to
+obsolescence***? Well, you've heard of Marcus Aurelius and Stoicism? I'm here
+to teach you **Tow-it-ism** with **MyKoz.AI Real/OS** &#151; a way of using a
+Linux Subsystem on Windows (WSL) for a minimalistic and portable approach to
 computing. You ***tow*** the tech that never goes obsolete around with you for
 life. It's the tiny tech stack of ***Linux, Python, vim & git.***
 
