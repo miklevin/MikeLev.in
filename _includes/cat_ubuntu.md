@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)
+<br/>Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.</li>
 <li><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a> (Sat Aug 05, 2023)
 <br/>Learn how to install Jupyter Notebook on Ubuntu on Windows with this step-by-step guide. Follow along as Mike Lev.in walks you through the process of setting up a server-build script, renaming the drinkme repo, and creating a Jupyter Ubuntu.bat script to install JupyterLab on Ubuntu Linux.</li>
 <li><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a> (Sat Aug 05, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)
+<br/>Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.</li>
 <li><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a> (Tue Aug 01, 2023)
 <br/>Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.</li>
 <li><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a> (Thu May 11, 2023)

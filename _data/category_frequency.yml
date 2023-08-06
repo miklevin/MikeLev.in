@@ -533,6 +533,9 @@ dictitems:
   a-team:
     count: 1
     title: A-Team
+  a/b testing:
+    count: 1
+    title: A/B Testing
   aaro:
     count: 1
     title: AARO
@@ -816,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 111
+    count: 112
     title: AI
   ai bros:
     count: 1
@@ -866,6 +869,9 @@ dictitems:
   ai-novel:
     count: 1
     title: AI-Novel
+  ai-powered iterative design:
+    count: 1
+    title: AI-Powered Iterative Design
   ai-revolt:
     count: 1
     title: AI-Revolt
@@ -2921,6 +2927,9 @@ dictitems:
   chinese room experiment:
     count: 1
     title: Chinese Room Experiment
+  chinese room thought experiment:
+    count: 1
+    title: Chinese Room Thought Experiment
   chmod:
     count: 1
     title: chmod
@@ -5138,6 +5147,9 @@ dictitems:
   doorknob:
     count: 1
     title: Doorknob
+  dopamine:
+    count: 1
+    title: Dopamine
   dorothy:
     count: 5
     title: Dorothy
@@ -6591,7 +6603,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 18
+    count: 19
     title: FOSS
   foam:
     count: 1
@@ -9408,7 +9420,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 31
+    count: 32
     title: Jupyter
   jupyter environment:
     count: 1
@@ -10131,7 +10143,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 181
+    count: 182
     title: Linux
   linux api:
     count: 1
@@ -10716,7 +10728,7 @@ dictitems:
     count: 1
     title: Machine Children
   machine learning:
-    count: 17
+    count: 18
     title: Machine Learning
   machine learning algorithms:
     count: 1
@@ -10748,6 +10760,9 @@ dictitems:
   macromedia:
     count: 1
     title: Macromedia
+  macromedia/adobe flash:
+    count: 1
+    title: Macromedia/Adobe Flash
   mad hatter's tea party:
     count: 1
     title: Mad Hatter's Tea Party
@@ -11439,7 +11454,7 @@ dictitems:
     count: 1
     title: Microsoft SQL Server
   microsoft store:
-    count: 4
+    count: 5
     title: Microsoft Store
   microsoft subsystem for linux:
     count: 2
@@ -11870,6 +11885,9 @@ dictitems:
   mudskipper:
     count: 1
     title: Mudskipper
+  multi-decade productivity:
+    count: 1
+    title: Multi-Decade Productivity
   multi-modal.:
     count: 1
     title: multi-modal.
@@ -11928,7 +11946,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 11
+    count: 12
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -11963,6 +11981,9 @@ dictitems:
   mykoz:
     count: 4
     title: MyKoz
+  mykoz.ai:
+    count: 1
+    title: MyKoz.AI
   mysql:
     count: 3
     title: MySQL
@@ -12165,7 +12186,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 34
+    count: 35
     title: NeoVim
   nerd:
     count: 2
@@ -12395,6 +12416,9 @@ dictitems:
   nomatic:
     count: 1
     title: Nomatic
+  non:
+    count: 1
+    title: Non
   non-breaking-space:
     count: 1
     title: Non-Breaking-Space
@@ -14135,6 +14159,9 @@ dictitems:
   probe:
     count: 3
     title: Probes
+  problem of induction:
+    count: 1
+    title: Problem of Induction
   problem solving:
     count: 1
     title: Problem Solving
@@ -16278,7 +16305,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 87
+    count: 88
     title: SEO
   seo blog:
     count: 1
@@ -17778,7 +17805,7 @@ dictitems:
     count: 1
     title: Superconductivity
   superdeterminism:
-    count: 2
+    count: 3
     title: Superdeterminism
   supergravity:
     count: 1
@@ -18948,7 +18975,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 26
+    count: 27
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -19266,13 +19293,13 @@ dictitems:
     count: 1
     title: User Agent
   user experience:
-    count: 3
+    count: 4
     title: User Experience
   user feedback:
     count: 1
     title: User Feedback
   user interface:
-    count: 3
+    count: 4
     title: User Interface
   user interfaces:
     count: 1
@@ -20058,10 +20085,10 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 78
+    count: 79
     title: Windows
   windows 10:
-    count: 23
+    count: 24
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20070,7 +20097,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 20
+    count: 21
     title: Windows 11
   windows 7:
     count: 1
@@ -20109,7 +20136,7 @@ dictitems:
     count: 1
     title: Windows System
   windows terminal:
-    count: 1
+    count: 2
     title: Windows Terminal
   windows-side:
     count: 1

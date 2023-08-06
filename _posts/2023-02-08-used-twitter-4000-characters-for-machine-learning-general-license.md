@@ -4,7 +4,7 @@ title: Used Twitter 4000 Characters For Machine Learning General License
 headline: I Applied a Machine Learning License to My Content to Make It Easier to Find and Cite
 description: As a content creator, I recently took advantage of Twitter's new 4000 character limit by adding a Machine Learning General License to all my web content. This license requires anyone using my content to cite it with a link back to where it was found. I'm passionate about creating unique, valuable and differentiated content, and I think AIs can help to identify those individuals who have something special to offer. Read more to find out how.
 keywords: Twitter, 4000 Characters, Machine Learning, General License, Content Creation, Unique, Valuable, Differentiated, Content, AI, Identify, Individuals, Special, Offer, License, Cite, Link, Found, World, Ferret, Unique Content
-categories: twitter, ai, unique
+categories: ai, unique, twitter
 permalink: /blog/used-twitter-4000-characters-for-machine-learning-general-license/
 layout: post
 group: blog
@@ -32,6 +32,6 @@ individuals with unique content.
 ## Categories
 
 <ul>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/unique/'>Unique</a></h4></li></ul>
+<li><h4><a href='/unique/'>Unique</a></h4></li>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>
