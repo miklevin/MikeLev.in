@@ -1,5 +1,5 @@
 <ol>
-<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Wed Aug 05, 2023)
+<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a> (Sun Jul 09, 2023)
 <br/>I'm in an AI LOVE-FEST right now, discussing favorite books with Pi AI that have broadened its perspective. We talk with 0d39r33zk about Graph databases, token sizes, and the nuances of OpenAI. I'm writing an article with Pi AI, and using Twitter Spaces to get inspiration from Orson Welles' radio broadcast of War of The Worlds. 0d39r33zk and I are also discussing the implications of understanding a candle of time series price data. Join the conversation and learn</li>

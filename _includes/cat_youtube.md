@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/refining-mykoz-ai-messaging-now-that-i-registered-domain/">Refining mykoz.ai messaging now that i registered domain</a> (Sun Aug 06, 2023)
+<br/>I'm making a project to help people master free and open source software on Linux to resist planned obsolescence. Join me on mykoz.ai real/os for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting.</li>
 <li><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a> (Sun Jul 30, 2023)
 <br/>I'm learning to incorporate my daily journaling into social media like TikTok, Twitter, and YouTube. I'm optimizing the vertical format, and using my 'Green Lantern' green highlighting trick to imply force of will. I'm figuring out the ideal number of characters across for the text, and then I can screen capture it and read it. I'm also looking for a way to show my face on the computer's desktop while I'm recording. Follow my journey and learn how to be on Linux</li>
 <li><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a> (Sun Jul 09, 2023)

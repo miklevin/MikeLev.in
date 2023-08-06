@@ -1,5 +1,5 @@
 <ol>
-<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Wed Aug 05, 2023)
+<li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a> (Mon Jul 31, 2023)
 <br/>Start your journey to a better future with lifelong, future-proofed journaling. Join me on a mindfulness exercise and learn how to create a digital home that will provide you with a free, life-long journal. Get started with the tools you have, or reset your laptop for a distraction-free rebuild.</li>
