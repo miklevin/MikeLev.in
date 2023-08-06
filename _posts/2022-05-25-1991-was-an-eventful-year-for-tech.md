@@ -4,7 +4,7 @@ title: 1991 Was An Eventful Year For Tech
 headline: Exploring the Impact of 1991 on the Home Computer Industry - A Look Back at a Pivotal Year for Tech
 description: "In 1991, I experienced a world-changing event: Linux was released by Linus Torvalds, followed by FreeBSD three years later. That same year, the first version of vim was released and the world's first website was published. Intel's lock on the x86-architecture was broken, while ARM architecture became popular due to Texas Instruments and Nokia. Join me as I look back at this pivotal year in the home computer industry and the impact it had on the tech market."
 keywords: Linux, Torvalds, Vim, Website, Intel, x86-Architecture, ARM, Texas Instruments, Nokia, Commodore, Amiga, Zilog, MOS, AMD, Home Computer, 80s, 90s, 8086, 80286, 80386, 6800, $25
-categories: linux, amiga, vim
+categories: vim, linux, amiga
 permalink: /blog/1991-was-an-eventful-year-for-tech/
 layout: post
 group: blog
@@ -104,6 +104,6 @@ in the above-mentioned Amiga death knell.
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>

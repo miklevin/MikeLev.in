@@ -1037,6 +1037,9 @@ dictitems:
   amazon.com:
     count: 2
     title: Amazon.com
+  ambigram:
+    count: 1
+    title: Ambigram
   ambition:
     count: 1
     title: Ambition
@@ -1380,7 +1383,7 @@ dictitems:
     count: 1
     title: Arrow Keys
   art:
-    count: 4
+    count: 5
     title: Art
   art form:
     count: 1
@@ -1416,7 +1419,7 @@ dictitems:
     count: 1
     title: Ascending
   ascii:
-    count: 4
+    count: 5
     title: ASCII
   ascii art:
     count: 4
@@ -5250,7 +5253,7 @@ dictitems:
     count: 2
     title: Dreams
   drexel:
-    count: 1
+    count: 2
     title: Drexel
   drinkeme:
     count: 1
@@ -10479,7 +10482,7 @@ dictitems:
     count: 1
     title: Logistic Regression
   logo:
-    count: 4
+    count: 5
     title: Logo
   logo experiment:
     count: 1
@@ -11502,7 +11505,7 @@ dictitems:
     count: 2
     title: Mike
   mike levin:
-    count: 13
+    count: 14
     title: Mike Levin
   mike levin seo:
     count: 2
@@ -15312,7 +15315,7 @@ dictitems:
     count: 3
     title: Renaming
   rendering:
-    count: 3
+    count: 4
     title: Rendering
   renewable:
     count: 1
@@ -15536,6 +15539,9 @@ dictitems:
   reverse-copy:
     count: 1
     title: Reverse-Copy
+  reversible:
+    count: 1
+    title: Reversible
   review:
     count: 1
     title: Review
@@ -18788,6 +18794,9 @@ dictitems:
   transitioning:
     count: 1
     title: Transitioning
+  translation:
+    count: 1
+    title: Translation
   transmitting power:
     count: 1
     title: Transmitting Power

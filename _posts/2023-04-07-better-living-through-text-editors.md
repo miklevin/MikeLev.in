@@ -4,7 +4,7 @@ title: Better Living Through Text Editors
 headline: "Living Independently: Using Text Editors for Deliberate and Thoughtful Writing"
 description: As someone who is striving to become more independent from AI and the corporate world, I'm learning to use a text editor to become more deliberate and thoughtful. I'm using OpenAI API to slice and dice my journal.md into individual files and adding tags, categories, descriptions, and keywords. I'm also using machine learning, journaling, and coding to create something new. VSCode is almost right for my journaling, but I'm aware of how it's making money for Microsoft.
 keywords: Text Editors, OpenAI API, Machine Learning, Journaling, Coding, VSCode, NeoVim, YouTube, AI, Investing, Microsoft
-categories: text editors, coding, vim, youtube, microsoft, ai, journaling
+categories: coding, text editors, youtube, vim, ai, microsoft, journaling
 permalink: /blog/better-living-through-text-editors/
 layout: post
 group: blog
@@ -186,10 +186,10 @@ but getting it wrong in a way that makes a lot of money for Microsoft.
 ## Categories
 
 <ul>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

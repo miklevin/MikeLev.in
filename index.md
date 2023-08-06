@@ -7,7 +7,7 @@ group: home
 
 # Mike Levin - AI SEO in NYC
 
-## MyKoz.AI is Free & Open Source AI SEO Software
+## MyKoz.AI is Free & Open Source (FOSS) AI SEO Software
 
 <img class="picleft" width="300vw" alt="Mike Levin looking in suprise at An Introduction to Statistical Learning book" src="/assets/images/mike-levin-ai-seo.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
