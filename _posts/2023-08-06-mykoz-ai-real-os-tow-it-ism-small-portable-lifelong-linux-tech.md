@@ -4,7 +4,7 @@ title: "MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech"
 headline: "Exploring the Impact of AI on Our Lives: A Journey of Reflection and Realization"
 description: Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.
 keywords: AI, Chatbot, ChatGPT, Bing, Bard, Google, Mobile, App, Virtual, Machines, Containers, JupyterLab, Python, Linux, Services, Sandboxes, iPhone, Google, Tabs, Virtual, Environment, Workspace, Database, Environment, Variables, Real-time, Back-up, Reinforcement, Learning, System, Conversation, Interfaces, Web, Apps, Cloud, Datacenters, Facial, Recognition, Questions,
-categories: container, bing, google, python, jupyter, ai, linux, chatbot, database
+categories: container, chatbot, ai, linux, database, python, bing, jupyter, google
 permalink: /blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/
 layout: post
 group: blog
@@ -185,16 +185,16 @@ it a way, but it could present a sort of a challenge.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ascii-mike-levin-ambigram/">ASCII Mike Levin Ambigram</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

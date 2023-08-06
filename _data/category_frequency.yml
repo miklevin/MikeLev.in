@@ -588,7 +588,7 @@ dictitems:
     count: 1
     title: Accepting Downloads
   access:
-    count: 5
+    count: 4
     title: Access
   access control list:
     count: 1
@@ -656,9 +656,6 @@ dictitems:
   actualizing:
     count: 1
     title: Actualizing
-  ad:
-    count: 1
-    title: Ads
   ad revenue:
     count: 1
     title: Ad Revenue
@@ -819,7 +816,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 112
+    count: 111
     title: AI
   ai bros:
     count: 1
@@ -1037,9 +1034,6 @@ dictitems:
   amazon.com:
     count: 2
     title: Amazon.com
-  ambigram:
-    count: 1
-    title: Ambigram
   ambition:
     count: 1
     title: Ambition
@@ -1203,7 +1197,7 @@ dictitems:
     count: 1
     title: apex domain
   api:
-    count: 28
+    count: 27
     title: API
   api limitations:
     count: 1
@@ -1383,7 +1377,7 @@ dictitems:
     count: 1
     title: Arrow Keys
   art:
-    count: 5
+    count: 4
     title: Art
   art form:
     count: 1
@@ -1419,7 +1413,7 @@ dictitems:
     count: 1
     title: Ascending
   ascii:
-    count: 5
+    count: 4
     title: ASCII
   ascii art:
     count: 4
@@ -1749,7 +1743,7 @@ dictitems:
     count: 4
     title: Banner
   bard:
-    count: 4
+    count: 3
     title: Bard
   base64:
     count: 1
@@ -2013,7 +2007,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 24
+    count: 23
     title: Bing
   bing chatbot:
     count: 1
@@ -2223,8 +2217,8 @@ dictitems:
     count: 1
     title: Bob Ross
   body:
-    count: 2
-    title: Body
+    count: 1
+    title: Bodies
   body copy:
     count: 1
     title: Body Copy
@@ -2859,7 +2853,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 27
+    count: 26
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3020,9 +3014,6 @@ dictitems:
   ciro stem project 12-in-1:
     count: 1
     title: CIRO STEM Project 12-in-1
-  citation:
-    count: 2
-    title: Citation
   cite:
     count: 1
     title: Cite
@@ -3095,9 +3086,6 @@ dictitems:
   climate change:
     count: 3
     title: Climate Change
-  clippy:
-    count: 1
-    title: Clippy
   clock:
     count: 4
     title: Clock
@@ -3195,7 +3183,7 @@ dictitems:
     count: 1
     title: Coddling
   code:
-    count: 24
+    count: 23
     title: Code
   code 1:
     count: 1
@@ -3255,7 +3243,7 @@ dictitems:
     count: 1
     title: Coinbase
   colab:
-    count: 2
+    count: 1
     title: Colab
   cold fusion:
     count: 1
@@ -3752,9 +3740,6 @@ dictitems:
   contentment:
     count: 1
     title: Contentment
-  context:
-    count: 1
-    title: Context
   context manager:
     count: 3
     title: Context Manager
@@ -4013,9 +3998,6 @@ dictitems:
   creator:
     count: 1
     title: Creator
-  credential:
-    count: 1
-    title: Credentials
   credibility:
     count: 3
     title: Credibility
@@ -4160,9 +4142,6 @@ dictitems:
   curly-braces:
     count: 1
     title: Curly-Braces
-  current events:
-    count: 1
-    title: Current Events
   curriculum:
     count: 1
     title: Curriculum
@@ -4305,7 +4284,7 @@ dictitems:
     count: 1
     title: Dask Queue
   data:
-    count: 16
+    count: 15
     title: Data
   data analysis:
     count: 3
@@ -4392,7 +4371,7 @@ dictitems:
     count: 1
     title: Data-Source
   database:
-    count: 17
+    count: 16
     title: Database
   database primary key:
     count: 1
@@ -4584,8 +4563,8 @@ dictitems:
     count: 1
     title: Default None
   default search:
-    count: 2
-    title: Default Search
+    count: 1
+    title: default search
   default user:
     count: 1
     title: Default User
@@ -4707,7 +4686,7 @@ dictitems:
     count: 2
     title: Describe
   description:
-    count: 10
+    count: 9
     title: Description
   design:
     count: 2
@@ -5091,7 +5070,7 @@ dictitems:
     count: 1
     title: Documentaries
   documentation:
-    count: 13
+    count: 12
     title: Documentation
   documentation,:
     count: 1
@@ -5253,7 +5232,7 @@ dictitems:
     count: 2
     title: Dreams
   drexel:
-    count: 2
+    count: 1
     title: Drexel
   drinkeme:
     count: 1
@@ -5435,9 +5414,6 @@ dictitems:
   edge:
     count: 6
     title: Edge
-  edge browser:
-    count: 1
-    title: Edge Browser
   edge settings:
     count: 1
     title: Edge settings
@@ -5460,7 +5436,7 @@ dictitems:
     count: 1
     title: Editing Human Embryos
   education:
-    count: 8
+    count: 7
     title: Education
   education market:
     count: 1
@@ -5727,7 +5703,7 @@ dictitems:
     count: 1
     title: Ender's Game
   endpoint:
-    count: 4
+    count: 3
     title: Endpoints
   energy:
     count: 5
@@ -5748,7 +5724,7 @@ dictitems:
     count: 3
     title: Engagement
   engine:
-    count: 4
+    count: 3
     title: Engine
   engineer:
     count: 1
@@ -5808,7 +5784,7 @@ dictitems:
     count: 2
     title: Enumerate
   environment:
-    count: 14
+    count: 13
     title: Environment
   environment variable:
     count: 2
@@ -6000,7 +5976,7 @@ dictitems:
     count: 1
     title: exact-matches
   example:
-    count: 4
+    count: 3
     title: Example
   excel:
     count: 9
@@ -6930,7 +6906,7 @@ dictitems:
     count: 1
     title: Fun
   function:
-    count: 14
+    count: 13
     title: Function
   function+f11:
     count: 1
@@ -7257,7 +7233,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 48
+    count: 47
     title: Github
   github actions:
     count: 1
@@ -7407,7 +7383,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 26
+    count: 25
     title: Google
   google analytics:
     count: 14
@@ -7527,7 +7503,7 @@ dictitems:
     count: 2
     title: GPL
   gpt:
-    count: 7
+    count: 6
     title: GPT
   gpt models:
     count: 1
@@ -7734,7 +7710,7 @@ dictitems:
     count: 2
     title: GUI
   guidance:
-    count: 2
+    count: 1
     title: Guidance
   guide:
     count: 3
@@ -8223,7 +8199,7 @@ dictitems:
     count: 1
     title: Host System
   hosting:
-    count: 4
+    count: 3
     title: Hosting
   hostmonster:
     count: 2
@@ -8402,9 +8378,6 @@ dictitems:
   iconic tune:
     count: 1
     title: Iconic Tune
-  id:
-    count: 1
-    title: ID
   id 1:
     count: 1
     title: ID 1
@@ -8523,8 +8496,8 @@ dictitems:
     count: 1
     title: Implications
   import:
-    count: 2
-    title: Import
+    count: 1
+    title: Imports
   import line:
     count: 1
     title: Import Line
@@ -9435,7 +9408,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 32
+    count: 31
     title: Jupyter
   jupyter environment:
     count: 1
@@ -9543,7 +9516,7 @@ dictitems:
     count: 1
     title: Kevin-what's-his-face
   key:
-    count: 5
+    count: 4
     title: Keys
   key bindings:
     count: 1
@@ -9729,7 +9702,7 @@ dictitems:
     count: 1
     title: Lab
   label:
-    count: 8
+    count: 7
     title: Labels
   labeled:
     count: 1
@@ -9795,7 +9768,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 15
+    count: 14
     title: Laptop
   laptop computing:
     count: 1
@@ -9984,7 +9957,7 @@ dictitems:
     count: 1
     title: liability
   library:
-    count: 9
+    count: 8
     title: Library
   libsvm:
     count: 1
@@ -10131,7 +10104,7 @@ dictitems:
     count: 1
     title: Linguistics
   link:
-    count: 15
+    count: 13
     title: Links
   link back:
     count: 1
@@ -10482,7 +10455,7 @@ dictitems:
     count: 1
     title: Logistic Regression
   logo:
-    count: 5
+    count: 3
     title: Logo
   logo experiment:
     count: 1
@@ -10902,7 +10875,7 @@ dictitems:
     count: 3
     title: Management
   manager:
-    count: 2
+    count: 1
     title: Manager
   mandelbrot:
     count: 1
@@ -11370,7 +11343,7 @@ dictitems:
     count: 1
     title: Method of Loci
   metric:
-    count: 4
+    count: 3
     title: Metrics
   metro:
     count: 1
@@ -11424,7 +11397,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 58
+    count: 57
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11505,7 +11478,7 @@ dictitems:
     count: 2
     title: Mike
   mike levin:
-    count: 14
+    count: 13
     title: Mike Levin
   mike levin seo:
     count: 2
@@ -11724,7 +11697,7 @@ dictitems:
     count: 1
     title: Modular
   module:
-    count: 4
+    count: 3
     title: Module
   modulo technique:
     count: 1
@@ -11744,9 +11717,6 @@ dictitems:
   monday:
     count: 1
     title: Monday
-  monetization:
-    count: 1
-    title: Monetization
   monetize:
     count: 1
     title: Monetize
@@ -11853,7 +11823,7 @@ dictitems:
     count: 1
     title: Moving Chunks
   moz:
-    count: 20
+    count: 19
     title: MOZ
   moz api:
     count: 1
@@ -12519,7 +12489,7 @@ dictitems:
     count: 1
     title: Note 8
   notebook:
-    count: 15
+    count: 14
     title: Notebook
   notebook renaming:
     count: 1
@@ -12852,7 +12822,7 @@ dictitems:
     count: 4
     title: Operating System
   operating systems:
-    count: 5
+    count: 4
     title: Operating Systems
   operation:
     count: 2
@@ -14544,7 +14514,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 190
+    count: 189
     title: Python
   python 3:
     count: 1
@@ -14792,9 +14762,6 @@ dictitems:
   question & answers:
     count: 1
     title: Question & Answers
-  question limit:
-    count: 1
-    title: Question Limit
   questions,:
     count: 1
     title: Questions,
@@ -15315,7 +15282,7 @@ dictitems:
     count: 3
     title: Renaming
   rendering:
-    count: 4
+    count: 3
     title: Rendering
   renewable:
     count: 1
@@ -15399,7 +15366,7 @@ dictitems:
     count: 1
     title: Reputation-Building
   request:
-    count: 5
+    count: 4
     title: Requests
   requests library:
     count: 3
@@ -15539,9 +15506,6 @@ dictitems:
   reverse-copy:
     count: 1
     title: Reverse-Copy
-  reversible:
-    count: 1
-    title: Reversible
   review:
     count: 1
     title: Review
@@ -16158,7 +16122,7 @@ dictitems:
     count: 1
     title: Secondary Navigation
   secret:
-    count: 3
+    count: 2
     title: secrets
   secret alpha:
     count: 1
@@ -16583,9 +16547,6 @@ dictitems:
   side-panel:
     count: 1
     title: Side-Panel
-  sidebar:
-    count: 1
-    title: Sidebar
   sidekick:
     count: 1
     title: Sidekick
@@ -16892,9 +16853,6 @@ dictitems:
   snapshot machine:
     count: 1
     title: Snapshot Machine
-  snippet:
-    count: 1
-    title: Snippets
   snl:
     count: 1
     title: SNL
@@ -17202,7 +17160,7 @@ dictitems:
     count: 1
     title: sqldict
   sqlite:
-    count: 11
+    count: 10
     title: SQLite
   sqlite database:
     count: 1
@@ -17663,9 +17621,6 @@ dictitems:
   sub-dictionaries:
     count: 1
     title: sub-dictionaries
-  sub-endpoint:
-    count: 1
-    title: Sub-endpoint
   sub-folders:
     count: 1
     title: Sub-Folders
@@ -17849,9 +17804,6 @@ dictitems:
   superpower:
     count: 2
     title: Superpower
-  superscript:
-    count: 1
-    title: Superscripts
   supervised learning:
     count: 1
     title: Supervised Learning
@@ -18143,9 +18095,6 @@ dictitems:
   tax:
     count: 1
     title: Taxes
-  tay:
-    count: 1
-    title: Tay
   teach:
     count: 2
     title: Teach
@@ -18614,9 +18563,6 @@ dictitems:
   tomorrow's world:
     count: 1
     title: Tomorrow's World
-  tone control:
-    count: 1
-    title: Tone Control
   tongue:
     count: 1
     title: Tongue
@@ -18783,7 +18729,7 @@ dictitems:
     count: 2
     title: Transformation
   transformer:
-    count: 4
+    count: 3
     title: Transformer
   transhuman parenting:
     count: 1
@@ -18794,9 +18740,6 @@ dictitems:
   transitioning:
     count: 1
     title: Transitioning
-  translation:
-    count: 1
-    title: Translation
   transmitting power:
     count: 1
     title: Transmitting Power
@@ -19290,7 +19233,7 @@ dictitems:
     count: 1
     title: uPTake
   url:
-    count: 23
+    count: 22
     title: URLs
   url slug:
     count: 1
@@ -19308,7 +19251,7 @@ dictitems:
     count: 1
     title: Usability
   usage:
-    count: 3
+    count: 2
     title: Usage
   usage pattern:
     count: 1

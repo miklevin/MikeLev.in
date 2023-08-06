@@ -4,7 +4,7 @@ title: Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS
 headline: Seamlessly Upgraded from Ubuntu 20.04 to 22.04 with MyKoz AReal/OS!
 description: I successfully upgraded from Ubuntu 20.04 to 22.04 and my daily journaling script worked seamlessly! I'm now exploring how to make this same functionality available to everyone, while keeping it as close to the mainstream systems as possible. I'm also looking into how to best take advantage of Windows for durability of paths and file-locations between Linux-side upgrades.
 keywords: Ubuntu, 20.04, 22.04, MyKoz, AReal/OS, Linux, JupyterLab, Vim, Journaling, Public, Private, Systems, Automation, nbdev, CSS, Sass, Fullstack, Webdev, Windows, Symbolic, Links, .ssh, Directory, Release, Blog Post
-categories: python, nbdev, vim, jupyter, ubuntu, linux, microsoft, journaling
+categories: vim, linux, python, ubuntu, jupyter, microsoft, nbdev, journaling
 permalink: /blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/
 layout: post
 group: blog
@@ -72,11 +72,11 @@ time to release this blog post, it should just work. Let's try!
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

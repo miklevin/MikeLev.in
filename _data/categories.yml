@@ -1,12 +1,3 @@
-- ascii
-- mike levin
-- ambigram
-- logo
-- reversible
-- drexel
-- rendering
-- translation
-- art
 - ai
 - chatbot
 - chatgpt
@@ -321,6 +312,7 @@
 - 0d39r33zk
 - live-cast
 - screencasting
+- mike levin
 - nyc
 - superbad
 - mc lovin
@@ -596,6 +588,7 @@
 - propaganda
 - platitude
 - cialdini
+- art
 - derivative
 - dilbert
 - xkcd
@@ -1249,6 +1242,7 @@
 - rosettaupdateauto
 - macos ventura
 - recovery mode
+- ascii
 - white rabbit
 - icloud
 - finder
@@ -1535,6 +1529,7 @@
 - '10'
 - diagram
 - mermaid js
+- rendering
 - javascript
 - online service
 - integration
@@ -1932,19 +1927,6 @@
 - proprietary formats
 - human-readable
 - json data format
-- clippy
-- tay
-- citation
-- tone control
-- superscript
-- ad
-- monetization
-- question limit
-- edge browser
-- sidebar
-- operating systems
-- default search
-- current events
 - poem
 - ode
 - status quo
@@ -2029,28 +2011,6 @@
 - meta descriptions
 - keywords
 - summarizing summaries
-- guidance
-- hosting
-- snippet
-- endpoint
-- import
-- library
-- module
-- credential
-- access
-- id
-- key
-- request
-- body
-- url
-- metric
-- usage
-- context
-- manager
-- sub-endpoint
-- label
-- description
-- example
 - vim/neovim
 - keyboard shortcuts
 - ctrl+s
@@ -2137,6 +2097,7 @@
 - eight ball
 - chasing tail
 - hamster wheel
+- operating systems
 - designed obsolescence
 - lightbulb
 - mobile phone
@@ -2195,9 +2156,11 @@
 - word
 - normalized
 - unique
+- key
 - lower-case
 - common
 - proper-case
+- usage
 - experiment
 - default
 - statistically
@@ -2224,7 +2187,10 @@
 - interesting
 - fruitful
 - embedded
+- url
+- request
 - control list
+- description
 - measure success
 - working apps
 - curl
@@ -2287,6 +2253,7 @@
 - .vimrc
 - zg
 - spell-check
+- library
 - syntax
 - highlighting
 - switch
@@ -2407,6 +2374,7 @@
 - concept
 - attraction
 - repulsion
+- body
 - atomic
 - cosmic
 - aliens,
@@ -2530,6 +2498,7 @@
 - journal.md
 - browser wars
 - edge settings
+- default search
 - online privacy
 - packaging
 - nbdev_new
@@ -2688,6 +2657,7 @@
 - bcpl
 - c
 - base64
+- module
 - encode
 - img
 - src
@@ -2727,6 +2697,7 @@
 - production environment
 - linux server
 - headless chrome
+- endpoint
 - command line
 - get
 - assignment
@@ -3801,6 +3772,7 @@
 - neural hardware
 - foss ai software
 - natural ways
+- access
 - stream
 - media files
 - self-aware
@@ -4164,6 +4136,7 @@
 - debt
 - hostmonster
 - domain
+- hosting
 - experimenting
 - stung
 - 4k
@@ -4482,6 +4455,7 @@
 - organize
 - articulate
 - decision
+- guidance
 - stay
 - focused
 - international education
@@ -4498,6 +4472,7 @@
 - free tools
 - google analytics
 - measurement id
+- logo
 - public project
 - 4000 characters
 - general license
@@ -4575,6 +4550,7 @@
 - namedtuple
 - splat
 - query-writing
+- label
 - table
 - headless lxd
 - public opinion
@@ -4831,6 +4807,7 @@
 - line sparkline
 - regression line
 - aggregate columns
+- metric
 - installing
 - visit
 - codename
@@ -4902,6 +4879,7 @@
 - runreportrequest
 - top-down
 - bottom-up
+- example
 - automatable system
 - self-learning
 - conversational-based
@@ -5116,6 +5094,7 @@
 - accurately
 - stress reduction
 - problem solving
+- manager
 - mount
 - file systems
 - combine
@@ -5845,6 +5824,7 @@
 - theme
 - hacker
 - styles.scss
+- import
 - fancy
 - .screenrc
 - escape sequence
@@ -6181,6 +6161,7 @@
 - crime
 - textile industry
 - aeronautical engineer
+- drexel
 - mechanical engineering
 - personal experience
 - moral
