@@ -1,13 +1,13 @@
 ---
 permalink: /mykoz/
-title: "MyKoz: AReal/OS - Using Linux to Improve Forever"
+title: "MyKoz.AI Real/OS - Using Linux to Improve Forever"
 description: By installing the Linux version of JupyterLab on Windows, you are running the same code on your computer as you can on all Linux servers. From there you ease your way into a lifetime of mindfulness and timeless skills by keeping a 1-text-file Journal in vim for the rest of your life.
 group: mykoz
 ---
 
-![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
+![MyKoz.AI Real/OS](/assets/images/mykoz-ai-real-os-banner.png)
 
-You've heard of Marcus Aurelius and Stoicism? This is MyKoz: AReal/OS and
+You've heard of Marcus Aurelius and Stoicism? This is MyKoz.AI Real/OS and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 

@@ -1,26 +1,26 @@
 ---
-author: Mike Levin - AI SEO in NYC
-description: Free & Open Source AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
-title: Mike Levin, AI SEO in NYC
+title: Mike Levin, AI SEO in NYC and LPvg Trainer
+description: Future-proof Yourself With MyKoz.AI Real/OS Free & Open Source (FOSS) AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
+author: Mike Levin SEO
 group: home
 ---
 
 # Mike Levin - AI SEO in NYC
 
-## MyKoz/OS - Free & Open Source AI SEO Software
+## MyKoz.AI is Free & Open Source AI SEO Software
 
 <img class="picleft" width="300vw" alt="Mike Levin looking in suprise at An Introduction to Statistical Learning book" src="/assets/images/mike-levin-ai-seo.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
 with a minimum of the retraining rigmarole inflicted upon you by ***planned
 obsolescence?*** Well, you've heard of Marcus Aurelius and Stoicism? I'm here
-to teach you **Tow-it-ism** with **MyKoz: AReal/OS** - a way of using a Linux
+to teach you **Tow-it-ism** with **MyKoz.AI Real/OS** - a way of using a Linux
 Subsystem on Windows (WSL) for a minimalistic and portable approach to
 computing. You ***tow*** the tech that never goes obsolete around with you for
 life. It's the tiny tech stack of ***Linux, Python, vim & git.***
 
-![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
+![Mykoz.AI Real/OS](/assets/images/mykoz-ai-real-os-banner.png)
 
-You've heard of Marcus Aurelius and Stoicism? This is **MyKoz: AReal/OS** and
+You've heard of Marcus Aurelius and Stoicism? This is **MyKoz.AI Real/OS** and
 Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
@@ -28,7 +28,7 @@ portable approach to computing.
 
 ## Tow-it-izm is The Practice of Never Going Obsolete
 
-MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
+MyKoz.AI Real/OS (pronounced like Marcus Aurelius) is a modification of the
 standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
 designed to teach you stoicism and the timeless skills of Linux, Python, vim
 and git. Upon install, you'll get a `Linux-side hosted` JupyterLab server
@@ -37,7 +37,7 @@ you started with Free and Open Source SEO software. If you're not into SEO,
 it's a great way to learn generic data collection and analysis, which is the
 core of AI and more.
 
-### MyKoz Installation Instructions
+### MyKoz.AI Real/OS Installation Instructions
 
 1. Before you begin, be sure you installed the Windows Subsystem for Linux
    (WSL) and Ubuntu 22.04 from the Microsoft Store. That's usually done just by
@@ -50,12 +50,13 @@ core of AI and more.
    sometimes takes going into Windows Explorer and turning off the option to
    hide common file extensions. Also, the double-click to run may require extra
    security steps.
-3. This will download the latest version of the MyKoz installer, called
-   `Jupyter Ubuntu.bat`. Run it to replace the default Windows Ubuntu 22.04
-   with one that hosts JupyterLab on the web address `http://localhost:8888`
-   using Linux Python from the Windows Subsystem for Linux (WSL). That's it!
-   You new have JupyterLab running, which you can access by clicking the new
-   `JupyterLab` Shortcut on your desktop (which may require an F5 refresh).
+3. This will download the latest version of the MyKoz.AI Real/OS installer,
+   called `Jupyter Ubuntu.bat`. Run it to replace the default Windows Ubuntu
+   22.04 with one that hosts JupyterLab on the web address
+   `http://localhost:8888` using Linux Python from the Windows Subsystem for
+   Linux (WSL). That's it! You new have JupyterLab running, which you can
+   access by clicking the new `JupyterLab` Shortcut on your desktop (which may
+   require an F5 refresh).
 
 ### The Code to Copy/Paste Into `getmykoz.bat`
 
