@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
+<br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a> (Tue Aug 01, 2023)
 <br/>Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.</li>
 <li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)

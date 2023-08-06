@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
+<br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a> (Sat Aug 05, 2023)
 <br/>Learn how to install Jupyter Notebook on Ubuntu on Windows with this step-by-step guide. Follow along as Mike Lev.in walks you through the process of setting up a server-build script, renaming the drinkme repo, and creating a Jupyter Ubuntu.bat script to install JupyterLab on Ubuntu Linux.</li>
 <li><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a> (Sat Aug 05, 2023)

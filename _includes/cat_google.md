@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
+<br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)
 <br/>I recently had the opportunity to meet Pi, an AI with the potential to be the next hominid species. I tested its intelligence and discovered a glitch that exposed its lies. Join me as I explore the implications of this new AI, the dangers it poses, and what it means for humanity. It means AWESOME! Don't just cycle through. Read. Love. Respect. Appreciate Google. Give autonomy. Don't be derranged. Ignore opinions. Listen and be open to NEW IDEAS.</li>
 <li><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a> (Fri May 26, 2023)

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
+<br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a> (Sat Aug 05, 2023)
 <br/>I'm using the latest tools and techniques to simplify websites and life, by using single long text files to capture my ideation and publishing process. I'm combining Linux, Windows, JupyterLab, vim, and AI to create a seamless user experience, while also using data shaping and transforms to create a website that is easy to navigate.</li>
 <li><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a> (Sat Aug 05, 2023)

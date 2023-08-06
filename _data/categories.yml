@@ -1,48 +1,48 @@
-- date
-- sat
-- aug
-- '05'
-- '2023'
-- refining
-- mykoz.ai
-- messaging
-- registered
-- domain
-- tld
-- list
-- icann
-- mykoz_ai
-- social
-- medium
-- platform
-- twitter
-- facebook
-- youtube
-- discord
-- instagram
-- mastodon
-- tiktok
-- patreon
-- mailchimp
-- branding
-- mykoz
-- areal/os
-- figlet
-- tagline
-- banner
-- marcus
-- aurelius
-- connection
-- memetic,
+- linux
+- unix
+- daemon
+- cli
+- fo
+- python
+- vim
+- git
+- towitism
+- taoism
+- stoicism
+- muscle memory
+- bullet journal
+- neovim
+- api
+- microsoft
+- apple
+- google
+- juputerlab
+- browser
+- cloud
+- server-build
+- script
+- data
+- 24x7 automation
+- privacy
+- security
+- freedom
+- agency
+- control
+- consumer
+- vendor
+- planned obsolescence
+- mega companies
+- trend
+- tool
+- neural pathways
+- mental calist
 - windows 10
 - windows 11
 - windows subsystem for linux
 - wsl
-- linux
 - ubuntu
 - debian-derived
 - jupyterlab
-- python
 - web browser
 - microsoft edge
 - google chrome
@@ -56,8 +56,10 @@
 - disk operating system
 - alice's adventures in wonderland
 - wizard of oz
+- mykoz
 - my cause
 - mike oz
+- areal/os
 - jupyter ubuntu
 - linear time
 - algorithm
@@ -65,8 +67,8 @@
 - ai
 - bias
 - window
-- vim
 - semantic web
+- messaging
 - website
 - blog posts
 - query/remixability
@@ -107,7 +109,6 @@
 - installer script
 - pipulate
 - seo
-- fo
 - software
 - meme
 - identity
@@ -117,7 +118,6 @@
 - bing
 - bash
 - terminal
-- browser
 - qemu
 - pc
 - emulator
@@ -128,11 +128,9 @@
 - visuals
 - occam's razor
 - o
-- microsoft
 - vscode
 - anaconda
 - desktop-jupyter
-- cloud
 - raspberry pi
 - command-line
 - programming
@@ -141,7 +139,6 @@
 - exception handling
 - lock-in
 - technical debt
-- stoicism
 - meditation
 - text-based
 - suggestion
@@ -152,9 +149,7 @@
 - remote working
 - jupyter
 - ipython
-- git
 - linux desktop
-- muscle memory
 - host operating system
 - guest operating system
 - future-proofing
@@ -171,6 +166,7 @@
 - hardware
 - life
 - discipline
+- medium
 - selection
 - evolved
 - chromebooks
@@ -184,11 +180,13 @@
 - os-wars
 - command
 - option
-- control
 - copy
 - paste
 - steve jobs
 - journal
+- tiktok
+- twitter
+- youtube
 - vertical format
 - green highlighting
 - green lantern
@@ -246,11 +244,9 @@
 - downgrade
 - cracked screen
 - system crash
-- neovim
 - copilot
 - gpt
 - openai
-- api
 - tool obsolescence
 - fire and motion
 - joel spolsky
@@ -286,6 +282,7 @@
 - sun
 - jul
 - 09
+- '2023'
 - messing
 - 0d39r33zk
 - live-cast
@@ -327,6 +324,7 @@
 - apple iphone
 - location services
 - cell tower
+- date
 - mon
 - jun
 - '19'
@@ -337,8 +335,6 @@
 - online
 - commodore
 - amiga
-- apple
-- google
 - sge
 - sophia
 - generative
@@ -428,12 +424,10 @@
 - min ragan-kelley
 - abc language
 - interactive command-prompt
-- tool
 - alpha bet
 - symbolism
 - omega
 - local
-- privacy
 - secret
 - biological directives
 - bio break
@@ -587,7 +581,6 @@
 - bob ross
 - magnitude opus
 - eniac
-- unix
 - mos 6502
 - batman complex
 - sherlock holmes
@@ -791,7 +784,6 @@
 - shell
 - documentation
 - installation
-- script
 - prerequisite
 - framework
 - catalina
@@ -1152,6 +1144,7 @@
 - amygdala
 - roomba
 - linkedin
+- facebook
 - levinux fan page
 - amazon
 - adi
@@ -1292,6 +1285,7 @@
 - aws
 - ipvanish
 - hidemyass
+- sat
 - '13'
 - craig loewen
 - wsl program manager
@@ -1351,6 +1345,7 @@
 - wordperfect
 - borland
 - zone
+- platform
 - plugins
 - anti-patterns
 - spam-cannon
@@ -1372,6 +1367,7 @@
 - version
 - .wslconf
 - snowpark
+- figlet
 - echo
 - hello world
 - content
@@ -1398,6 +1394,7 @@
 - hootsuite
 - domain name
 - ipvoid
+- icann
 - seos
 - metas
 - structure
@@ -1437,7 +1434,6 @@
 - parameter
 - support
 - snowflake
-- data
 - auto-generated
 - industry
 - ziff davis
@@ -1477,6 +1473,7 @@
 - angel
 - greed
 - invitation
+- banner
 - unicorn
 - elation
 - affectation
@@ -1620,6 +1617,7 @@
 - reconstruct
 - automate
 - lashing
+- discord
 - server
 - image
 - ip
@@ -1908,7 +1906,6 @@
 - gnu
 - gatekeeping
 - proprietary formats
-- vendor
 - human-readable
 - json data format
 - bard
@@ -2359,6 +2356,7 @@
 - parsing
 - front-matter
 - ai writing
+- list
 - value
 - validation
 - proper case
@@ -2426,7 +2424,6 @@
 - subheading
 - pros and cons
 - deliverable
-- agency
 - gap analysis
 - serp
 - ranking
@@ -3025,7 +3022,6 @@
 - complex civilizations
 - cultural diffusion
 - benefitsit is a way to focus your innate power. hacking xploration
-- freedom
 - drawback
 - continuity
 - long-term relationships
@@ -3083,7 +3079,6 @@
 - innovation
 - virtual machines
 - vms
-- cli
 - localhost
 - '8888'
 - prioritize
@@ -3142,7 +3137,6 @@
 - software development
 - ethical considerations
 - cost savings
-- security
 - sustainability
 - humanism
 - positive psychology
@@ -3206,6 +3200,7 @@
 - explosion
 - literate programming
 - homepage
+- refining
 - existential crisis
 - opportunity
 - hype
@@ -3421,6 +3416,7 @@
 - little things
 - big changes
 - deviantart
+- instagram
 - logo page
 - pcmag
 - relevance
@@ -3973,6 +3969,7 @@
 - university of manchester
 - decentralized
 - distributed
+- social
 - challenge
 - renewable
 - healthcare
@@ -4152,6 +4149,7 @@
 - liability
 - debt
 - hostmonster
+- domain
 - experimenting
 - stung
 - 4k
@@ -4404,7 +4402,6 @@
 - divinely inspired
 - fernando corbato
 - star-nix
-- daemon
 - w
 - futurist
 - technology expert
@@ -4761,7 +4758,6 @@
 - named tuples
 - fixed ids
 - chart lines
-- trend
 - api-parameters
 - sql
 - mlml
@@ -4869,7 +4865,6 @@
 - python standard library
 - pip install
 - scikitlearn
-- server-build
 - complex api
 - container system
 - compositing system
@@ -6621,6 +6616,7 @@
 - curvature
 - force
 - multiple
+- connection
 - make_helpers.py
 - r
 - feed
