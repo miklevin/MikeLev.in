@@ -18,8 +18,6 @@ Subsystem on Windows (WSL) for a minimalistic and portable approach to
 computing. You ***tow*** the tech that never goes obsolete around with you for
 life. It's the tiny tech stack of ***Linux, Python, vim & git.***
 
-## Tow-it-izm - The Practice of Never Going Obsolete
-
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
 
 You've heard of Marcus Aurelius and Stoicism? This is **MyKoz: AReal/OS** and
@@ -27,6 +25,8 @@ Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
 portable approach to computing.
 
 ![Tow It Ism](/assets/images/tow-it-ism.png)
+
+## Tow-it-izm is The Practice of Never Going Obsolete
 
 MyKoz: A Real OS (pronounced like Marcus Aurelius) is a modification of the
 standard Windows Ubuntu Linux under the Windows Subsystem for Linux (WSL)
