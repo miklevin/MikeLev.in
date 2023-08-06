@@ -9,7 +9,7 @@ group: home
 
 ## MyKoz/OS - Free & Open Source AI SEO Software
 
-<img class="picleft" width="300vw" alt="Mike Levin and Bill Nye The Science Guy at PCMag" src="/assets/images/mike-levin-and-bill-nye-the-science-guy-at-pcmag.jpg" >
+<img class="picleft" width="300vw" alt="Mike Levin looking in suprise at An Introduction to Statistical Learning book" src="/assets/images/mike-levin-ai-seo.jpg" >
 Psst! You want tech skills that will apply to everything and last you for life
 with a minimum of the retraining rigmarole inflicted upon you by ***planned
 obsolescence?*** Well, you've heard of Marcus Aurelius and Stoicism? I'm here
