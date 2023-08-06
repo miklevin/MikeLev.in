@@ -1,9 +1,9 @@
 ---
-title: Container
+title: Containers
 permalink: /container/
 layout: default
 ---
 
-# Container
+# Containers
 
 {% include cat_container.md %}

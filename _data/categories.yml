@@ -1,9 +1,43 @@
+- ai
+- chatbot
+- chatgpt
+- bing
+- bard
+- google
+- mobile
+- app
+- virtual
+- machine
+- container
+- jupyterlab
+- python
 - linux
+- service
+- sandbox
+- iphone
+- tab
+- environment
+- workspace
+- database
+- variable
+- real-time
+- back-up
+- reinforcement
+- learning
+- system
+- conversation
+- interface
+- web
+- apps
+- cloud
+- datacenters
+- facial
+- recognition
+- questions,
 - unix
 - daemon
 - cli
 - fo
-- python
 - vim
 - git
 - towitism
@@ -15,10 +49,8 @@
 - api
 - microsoft
 - apple
-- google
 - juputerlab
 - browser
-- cloud
 - server-build
 - script
 - data
@@ -42,7 +74,6 @@
 - wsl
 - ubuntu
 - debian-derived
-- jupyterlab
 - web browser
 - microsoft edge
 - google chrome
@@ -64,7 +95,6 @@
 - linear time
 - algorithm
 - search engines
-- ai
 - bias
 - window
 - semantic web
@@ -90,7 +120,6 @@
 - journaling
 - public
 - private
-- system
 - automation
 - nbdev
 - cs
@@ -114,8 +143,6 @@
 - identity
 - video
 - war games
-- interface
-- bing
 - bash
 - terminal
 - qemu
@@ -213,7 +240,6 @@
 - recurrent neural networks
 - convolutional neural networks
 - gpt-3
-- chatgpt
 - lstm
 - decision trees
 - random forests
@@ -239,7 +265,6 @@
 - social media
 - optimism
 - mission
-- container
 - virtual machine
 - downgrade
 - cracked screen
@@ -445,7 +470,6 @@
 - lie
 - dehumanize
 - humorless
-- learning
 - charlie chaplin
 - youtube stream
 - jack tramiel
@@ -552,7 +576,6 @@
 - office
 - '365'
 - chrom
-- machine
 - child
 - share
 - network
@@ -1185,7 +1208,6 @@
 - philadelphia amiga users' group
 - apple macs
 - hyphen
-- iphone
 - samsung note
 - note 3
 - note 5
@@ -1427,7 +1449,6 @@
 - tpus
 - humanity
 - chinese room experiment
-- datacenters
 - uploadable
 - ender
 - jane
@@ -1497,7 +1518,6 @@
 - variable revenue component
 - war stories
 - sme
-- web
 - ascii art
 - diagramming
 - venn-nvim
@@ -1623,7 +1643,6 @@
 - ip
 - email
 - login
-- app
 - paid account
 - documentation,
 - lex luthor
@@ -1908,7 +1927,6 @@
 - proprietary formats
 - human-readable
 - json data format
-- bard
 - clippy
 - tay
 - citation
@@ -2009,7 +2027,6 @@
 - summarizing summaries
 - guidance
 - hosting
-- environment
 - snippet
 - endpoint
 - import
@@ -2024,7 +2041,6 @@
 - url
 - metric
 - usage
-- database
 - context
 - manager
 - sub-endpoint
@@ -2735,7 +2751,6 @@
 - toolbar
 - stat
 - smaller
-- mobile
 - windows store
 - optimize
 - journey
@@ -2745,7 +2760,6 @@
 - language tool
 - plantuml
 - relationship-label
-- service
 - bookmarklet
 - seo managers
 - technologist
@@ -2806,7 +2820,6 @@
 - '`vim.api.nvim_command`'
 - vim-compatible
 - crappy output
-- chatbot
 - peano axioms
 - arithmetic
 - set theory
@@ -2921,7 +2934,6 @@
 - easy
 - teach
 - custom capabilities
-- conversation
 - concern
 - science fiction
 - 1990s
@@ -3354,7 +3366,6 @@
 - cynical
 - cringe-worthy
 - fastai
-- variable
 - deep learning
 - jeremy howard
 - recognize
@@ -3895,7 +3906,6 @@
 - linux api
 - debian-style repo
 - subject matter expert
-- apps
 - data engineering
 - manual steps
 - apache
@@ -4579,7 +4589,6 @@
 - systemd service manager
 - ubuntu linux
 - tech mechanics
-- real-time
 - generic hardware
 - startup
 - unix timestamp
@@ -4793,7 +4802,6 @@
 - cheap
 - solving problems
 - viable option
-- tab
 - data frame
 - dedupe
 - job eta
@@ -5377,7 +5385,6 @@
 - wave crests
 - erasure
 - quantum effects
-- virtual
 - documenting
 - eltgd
 - python pandas
@@ -6776,7 +6783,6 @@
 - tech-tools
 - local system
 - text-files
-- back-up
 - timeless-technology
 - virtual-desktops
 - amiga-computer

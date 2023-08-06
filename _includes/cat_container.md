@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
+<br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
 <li><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a> (Thu Jul 27, 2023)
 <br/>I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.</li>
 <li><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a> (Tue Feb 07, 2023)

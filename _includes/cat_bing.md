@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
+<br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)

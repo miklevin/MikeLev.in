@@ -1,4 +1,8 @@
 <ol>
+<li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
+<br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
+<li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
+<br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
 <li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
 <br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/meet-pi/">Meet Pi</a> (Mon Jun 19, 2023)

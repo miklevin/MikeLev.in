@@ -819,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 111
+    count: 112
     title: AI
   ai bros:
     count: 1
@@ -1230,7 +1230,7 @@ dictitems:
     count: 1
     title: Apocalypse
   app:
-    count: 4
+    count: 5
     title: App
   app bundles:
     count: 1
@@ -1302,7 +1302,7 @@ dictitems:
     count: 1
     title: Approximations
   apps:
-    count: 3
+    count: 4
     title: Apps
   april 4:
     count: 1
@@ -1677,8 +1677,8 @@ dictitems:
     count: 1
     title: Back to The Future
   back-up:
-    count: 1
-    title: Back-Up
+    count: 2
+    title: Back-up
   backbone:
     count: 1
     title: Backbone
@@ -1746,7 +1746,7 @@ dictitems:
     count: 4
     title: Banner
   bard:
-    count: 3
+    count: 4
     title: Bard
   base64:
     count: 1
@@ -2010,7 +2010,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 23
+    count: 24
     title: Bing
   bing chatbot:
     count: 1
@@ -2847,7 +2847,7 @@ dictitems:
     count: 2
     title: Chat
   chatbot:
-    count: 7
+    count: 8
     title: Chatbot
   chatbot technology:
     count: 1
@@ -2856,7 +2856,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 26
+    count: 27
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3114,7 +3114,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 17
+    count: 18
     title: Cloud
   cloud chamber:
     count: 1
@@ -3687,8 +3687,8 @@ dictitems:
     count: 1
     title: Contact Page
   container:
-    count: 28
-    title: Container
+    count: 29
+    title: Containers
   container pulse:
     count: 1
     title: Container Pulse
@@ -3798,7 +3798,7 @@ dictitems:
     count: 1
     title: Controversial
   conversation:
-    count: 3
+    count: 4
     title: Conversation
   conversational ai:
     count: 1
@@ -4389,7 +4389,7 @@ dictitems:
     count: 1
     title: Data-Source
   database:
-    count: 16
+    count: 17
     title: Database
   database primary key:
     count: 1
@@ -4401,7 +4401,7 @@ dictitems:
     count: 1
     title: Datacenter
   datacenters:
-    count: 1
+    count: 2
     title: Datacenters
   dataframe:
     count: 4
@@ -5805,7 +5805,7 @@ dictitems:
     count: 2
     title: Enumerate
   environment:
-    count: 12
+    count: 14
     title: Environment
   environment variable:
     count: 2
@@ -6182,6 +6182,9 @@ dictitems:
   facebook:
     count: 3
     title: Facebook
+  facial:
+    count: 1
+    title: Facial
   facility:
     count: 1
     title: Facilities
@@ -7401,7 +7404,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 24
+    count: 26
     title: Google
   google analytics:
     count: 14
@@ -8925,7 +8928,7 @@ dictitems:
     count: 1
     title: Interesting Components
   interface:
-    count: 2
+    count: 3
     title: Interfaces
   interference:
     count: 1
@@ -9042,7 +9045,7 @@ dictitems:
     count: 1
     title: IP-cycling
   iphone:
-    count: 2
+    count: 3
     title: iPhone
   iphone carnets:
     count: 1
@@ -9453,7 +9456,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 47
+    count: 48
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -9888,7 +9891,7 @@ dictitems:
     count: 1
     title: Learned
   learning:
-    count: 16
+    count: 17
     title: Learning
   learning apis:
     count: 1
@@ -10152,7 +10155,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 180
+    count: 181
     title: Linux
   linux api:
     count: 1
@@ -10731,8 +10734,8 @@ dictitems:
     count: 2
     title: Machiavelli
   machine:
-    count: 7
-    title: Machine
+    count: 8
+    title: Machines
   machine children:
     count: 1
     title: Machine Children
@@ -11673,7 +11676,7 @@ dictitems:
     count: 1
     title: Moat
   mobile:
-    count: 1
+    count: 2
     title: Mobile
   mobile devices:
     count: 1
@@ -14538,7 +14541,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 189
+    count: 190
     title: Python
   python 3:
     count: 1
@@ -14789,6 +14792,9 @@ dictitems:
   question limit:
     count: 1
     title: Question Limit
+  questions,:
+    count: 1
+    title: Questions,
   quick diagrams:
     count: 1
     title: Quick Diagrams
@@ -15033,8 +15039,8 @@ dictitems:
     count: 1
     title: Real Magic
   real-time:
-    count: 1
-    title: Real-Time
+    count: 2
+    title: Real-time
   real-world problems:
     count: 1
     title: Real-World Problems
@@ -15071,6 +15077,9 @@ dictitems:
   reciprocity:
     count: 1
     title: Reciprocity
+  recognition:
+    count: 1
+    title: Recognition
   recognizable:
     count: 1
     title: Recognizable
@@ -15188,6 +15197,9 @@ dictitems:
   regulation:
     count: 1
     title: Regulation
+  reinforcement:
+    count: 1
+    title: Reinforcement
   reinforcement algorithms:
     count: 1
     title: Reinforcement Algorithms
@@ -15881,6 +15893,9 @@ dictitems:
   sanctuary:
     count: 1
     title: Sanctuary
+  sandbox:
+    count: 1
+    title: Sandboxes
   sap:
     count: 2
     title: SAP
@@ -16383,7 +16398,7 @@ dictitems:
     count: 1
     title: Server-Side
   service:
-    count: 13
+    count: 14
     title: Service
   session:
     count: 3
@@ -17970,7 +17985,7 @@ dictitems:
     count: 1
     title: syntax highlighting
   system:
-    count: 18
+    count: 19
     title: System
   system alignment:
     count: 1
@@ -18027,7 +18042,7 @@ dictitems:
     count: 1
     title: T-SQL
   tab:
-    count: 2
+    count: 3
     title: Tabs
   table:
     count: 2
@@ -19371,8 +19386,8 @@ dictitems:
     count: 1
     title: VARs
   variable:
-    count: 3
-    title: variables
+    count: 4
+    title: Variables
   variable revenue component:
     count: 1
     title: Variable Revenue Component
@@ -19614,7 +19629,7 @@ dictitems:
     count: 2
     title: Virginia
   virtual:
-    count: 3
+    count: 5
     title: Virtual
   virtual assistant:
     count: 2
@@ -19887,7 +19902,7 @@ dictitems:
     count: 1
     title: Weather balloons
   web:
-    count: 6
+    count: 7
     title: Web
   web 2.0:
     count: 1
@@ -20261,6 +20276,9 @@ dictitems:
   works best:
     count: 1
     title: works best
+  workspace:
+    count: 1
+    title: Workspace
   world:
     count: 10
     title: World

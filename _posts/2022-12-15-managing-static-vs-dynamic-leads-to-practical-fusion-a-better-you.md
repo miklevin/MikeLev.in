@@ -4,7 +4,7 @@ title: Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You
 headline: "Navigating Childhood to Adulthood: Finding Balance in Static and Dynamic States"
 description: As a parent, I am helping my preteen navigate the transition from childhood to adulthood by encouraging them to observe, ask questions, and narrate their experiences. I am teaching them the importance of both static and dynamic states of being, which are both necessary for growth, from developing atomic energy to the inner workings of our own lives. I am also reflecting on my own journey of self-inspection and self-modification, which I had to do in order to grow and develop during transitional periods.
 keywords: Parenting, Preteens, Transition, Childhood, Adulthood, Static, Dynamic, Observation, Questions, Narration, Growth, Atomic Energy, Self-Inspection, Self-Modification, Development, Crawling, Walking, Talking, Self-Awareness, Decisions
-categories: development, question
+categories: question, development
 permalink: /blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/
 layout: post
 group: blog
@@ -145,5 +145,5 @@ ways.
 ## Categories
 
 <ul>
-<li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/question/'>Questions</a></h4></li></ul>
+<li><h4><a href='/question/'>Questions</a></h4></li>
+<li><h4><a href='/development/'>Development</a></h4></li></ul>

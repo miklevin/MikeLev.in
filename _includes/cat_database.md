@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
+<br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
 <li><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a> (Wed Apr 19, 2023)
 <br/>I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.</li>
 <li><a href="/blog/switched-from-text-davinci-002-to-text-davinci-003/">Switched from text-davinci-002 to text-davinci-003</a> (Tue Apr 18, 2023)
