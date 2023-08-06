@@ -18,8 +18,6 @@ Subsystem on Windows (WSL) for a minimalistic and portable approach to
 computing. You ***tow*** the tech that never goes obsolete around with you for
 life. It's the tiny tech stack of ***Linux, Python, vim & git.***
 
-![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
-
 ## Tow-it-izm - The Practice of Never Going Obsolete
 
 ![Mykoz A Real OS](/assets/images/mykoz-a-real-os-banner.png)
@@ -88,6 +86,8 @@ now, this project renders. If you're brave, use Occom's knife to carve out bits
 that last for life. A tiny stack-o-FOSSy bits that's used by Linux Python gits.
 
 # It's Not Easy Being Green
+
+![Mike Levin Github Trails](/assets/images/mike-levin-github-trails.png)
 
 > Deep within my heart and soul    
 > Two me's fight for the truth&#151;    
