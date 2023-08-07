@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a> (Mon Aug 07, 2023)
+<br/>Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.</li>
 <li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
 <br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a> (Sat Aug 05, 2023)

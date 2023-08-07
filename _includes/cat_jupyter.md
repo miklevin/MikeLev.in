@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a> (Mon Aug 07, 2023)
+<br/>Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.</li>
 <li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)
 <br/>Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.</li>
 <li><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a> (Tue Aug 01, 2023)

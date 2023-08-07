@@ -1,13 +1,36 @@
+- linux
+- python
+- vim
+- git
 - mykoz.ai
+- bram moolenaar
+- neovim
+- copilot
+- twitch
+- hosting
+- headless cms
+- windows 11
+- jupyter
+- mikelev.in
+- readme.txt
+- intro repo
+- neovim path
+- pipulate repo
+- whim repo
+- systemd
+- virtual screens
+- journal
+- browser
+- installer
+- minimalism
+- numa nvidia gpu
+- wsl2
+- 80/20
 - window
 - microsoft store
 - windows terminal
 - windows 10
-- windows 11
-- linux
 - fo
-- neovim
-- jupyter
 - ubuntu
 - ai
 - machine learning
@@ -35,7 +58,6 @@
 - machine
 - container
 - jupyterlab
-- python
 - service
 - sandbox
 - iphone
@@ -61,8 +83,6 @@
 - unix
 - daemon
 - cli
-- vim
-- git
 - towitism
 - taoism
 - stoicism
@@ -71,7 +91,6 @@
 - microsoft
 - apple
 - juputerlab
-- browser
 - server-build
 - script
 - data
@@ -98,7 +117,6 @@
 - levinux
 - marcus aurelius
 - stoic philosophy
-- minimalism
 - server build scripts
 - batch files
 - do
@@ -123,7 +141,6 @@
 - data shaping
 - text-data
 - media assets
-- headless cms
 - computer vision apis
 - idea-capture
 - ideation
@@ -150,7 +167,6 @@
 - blog post
 - nomatic
 - digital home
-- wsl2
 - installer script
 - pipulate
 - software
@@ -224,7 +240,6 @@
 - copy
 - paste
 - steve jobs
-- journal
 - tiktok
 - twitter
 - youtube
@@ -283,7 +298,6 @@
 - downgrade
 - cracked screen
 - system crash
-- copilot
 - gpt
 - openai
 - tool obsolescence
@@ -809,7 +823,6 @@
 - m1
 - m2
 - multipass
-- installer
 - package
 - brew
 - uninstallation
@@ -1151,7 +1164,6 @@
 - ai-bots
 - dmz
 - linux services
-- systemd
 - jupyter notebook server
 - jupyterlab server
 - gnu screen
@@ -1271,7 +1283,6 @@
 - apt upgrade
 - python 3.8
 - snowpack
-- mikelev.in
 - configuration
 - cutting catapult ropes
 - nohup
@@ -1726,7 +1737,6 @@
 - extraction
 - top
 - sub-category
-- 80/20
 - rule
 - name
 - calorie
@@ -4146,7 +4156,6 @@
 - debt
 - hostmonster
 - domain
-- hosting
 - experimenting
 - stung
 - 4k
@@ -6317,7 +6326,6 @@
 - snl
 - green arrow
 - litany against fear,
-- bram moolenaar
 - dos com
 - web-development
 - linux-services

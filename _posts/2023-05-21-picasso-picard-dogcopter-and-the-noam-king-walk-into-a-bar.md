@@ -4,7 +4,7 @@ title: Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...
 headline: "Hack Like a Hero: How to Create Art with Honesty and Authenticity"
 description: Hack your way to success with advice from Dogcopter! The Quality Raters of Google Supervised Learning are E-E-A-T'ing their own dogfood to protect AdWords revenue. Art and activism don't stand a chance against Kung Fu clickbait. Learn how to use magic as a tool and hack like a hero of the digital age. Get creative and communicate honestly in art that will grab the attention of the AIs taking over for PageRank.
 keywords: Picasso, Picard, Noam King, Dogcopter, Hack, Magic, Industrial Age, Weed, Undertale, Simulation Hypothesis, Holographic Universe, Many-Worlds Interpretation, Quantum Mechanics, Multiverse, Superdeterminism, Bell's Inequality, Non-locality, AI, Harry Potter, Tolkien, Moses, New Testament, Book of Mormon, Koran, Tao Te Ching, Bhagavad Gita, Talmud, Dianetics, Book
-categories: magic, ai
+categories: ai, magic
 permalink: /blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/
 layout: post
 group: blog
@@ -492,5 +492,5 @@ chance at all.
 ## Categories
 
 <ul>
-<li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/magic/'>Magic</a></h4></li></ul>

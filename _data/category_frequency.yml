@@ -447,7 +447,7 @@ dictitems:
     count: 1
     title: 80-long Hyphen
   80/20:
-    count: 1
+    count: 2
     title: 80/20
   80/20 rule:
     count: 4
@@ -2328,7 +2328,7 @@ dictitems:
     count: 1
     title: Brainstem
   bram moolenaar:
-    count: 2
+    count: 3
     title: Bram Moolenaar
   branch:
     count: 1
@@ -2418,7 +2418,7 @@ dictitems:
     count: 1
     title: Brothers
   browser:
-    count: 23
+    count: 24
     title: Browser
   browser automation:
     count: 13
@@ -3822,7 +3822,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 25
+    count: 26
     title: Copilot
   copilot ai:
     count: 1
@@ -7221,7 +7221,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 79
+    count: 80
     title: Git
   git commit:
     count: 2
@@ -7887,8 +7887,8 @@ dictitems:
     count: 1
     title: Headless Cloud Servers
   headless cms:
-    count: 1
-    title: Headless CMS
+    count: 2
+    title: headless CMS
   headless linux chrome:
     count: 1
     title: Headless Linux Chrome
@@ -8211,8 +8211,8 @@ dictitems:
     count: 1
     title: Host System
   hosting:
-    count: 3
-    title: Hosting
+    count: 4
+    title: hosting
   hostmonster:
     count: 2
     title: Hostmonster
@@ -8811,8 +8811,8 @@ dictitems:
     count: 1
     title: InstalledAppFlow
   installer:
-    count: 1
-    title: Installer
+    count: 2
+    title: installer
   installer script:
     count: 1
     title: Installer Script
@@ -8984,6 +8984,9 @@ dictitems:
   intranet:
     count: 1
     title: Intranet
+  intro repo:
+    count: 1
+    title: Intro Repo
   introspection:
     count: 1
     title: Introspection
@@ -9321,7 +9324,7 @@ dictitems:
     count: 1
     title: Joule-Seconds
   journal:
-    count: 32
+    count: 33
     title: Journal
   journal entries:
     count: 2
@@ -9420,7 +9423,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 32
+    count: 33
     title: Jupyter
   jupyter environment:
     count: 1
@@ -10143,7 +10146,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 182
+    count: 183
     title: Linux
   linux api:
     count: 1
@@ -11523,7 +11526,7 @@ dictitems:
     count: 2
     title: mikeateleven.com
   mikelev.in:
-    count: 13
+    count: 14
     title: MikeLev.in
   mikelevin:
     count: 1
@@ -11589,7 +11592,7 @@ dictitems:
     count: 1
     title: Minimal Loss
   minimalism:
-    count: 2
+    count: 3
     title: minimalism
   minimize-tech-liability:
     count: 1
@@ -11982,7 +11985,7 @@ dictitems:
     count: 4
     title: MyKoz
   mykoz.ai:
-    count: 1
+    count: 2
     title: MyKoz.AI
   mysql:
     count: 3
@@ -12186,8 +12189,11 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 35
+    count: 36
     title: NeoVim
+  neovim path:
+    count: 1
+    title: NeoVim path
   nerd:
     count: 2
     title: Nerd
@@ -12548,6 +12554,9 @@ dictitems:
   numa:
     count: 1
     title: NUMA
+  numa nvidia gpu:
+    count: 1
+    title: NUMA Nvidia GPU
   number:
     count: 1
     title: numbers
@@ -13595,6 +13604,9 @@ dictitems:
   pipulate library:
     count: 1
     title: Pipulate library
+  pipulate repo:
+    count: 1
+    title: Pipulate Repo
   pipulate.com:
     count: 6
     title: Pipulate.com
@@ -14541,7 +14553,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 189
+    count: 190
     title: Python
   python 3:
     count: 1
@@ -15014,6 +15026,9 @@ dictitems:
   readme.rst:
     count: 1
     title: README.rst
+  readme.txt:
+    count: 1
+    title: README.txt
   readthedocs.io:
     count: 1
     title: Readthedocs.io
@@ -18009,7 +18024,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 25
+    count: 26
     title: Systemd
   systemd service:
     count: 1
@@ -18923,6 +18938,9 @@ dictitems:
   twisted bilayer graphene:
     count: 1
     title: Twisted Bilayer Graphene
+  twitch:
+    count: 1
+    title: Twitch
   twitter:
     count: 10
     title: Twitter
@@ -19548,7 +19566,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 117
+    count: 118
     title: Vim
   vim buffer:
     count: 1
@@ -19643,6 +19661,9 @@ dictitems:
   virtual reality headset:
     count: 1
     title: Virtual Reality Headset
+  virtual screens:
+    count: 1
+    title: virtual screens
   virtual worlds:
     count: 1
     title: Virtual Worlds
@@ -20024,6 +20045,9 @@ dictitems:
   while loop:
     count: 1
     title: while loop
+  whim repo:
+    count: 1
+    title: WHIM Repo
   white background:
     count: 2
     title: White Background
@@ -20097,7 +20121,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 21
+    count: 22
     title: Windows 11
   windows 7:
     count: 1
@@ -20328,7 +20352,7 @@ dictitems:
     count: 1
     title: WSL1
   wsl2:
-    count: 25
+    count: 26
     title: WSL2
   wsl2 localhost access issue:
     count: 1
