@@ -57,7 +57,7 @@ core of AI and more.
    access by clicking the new `JupyterLab` Shortcut on your desktop (which may
    require an F5 refresh).
 
-### the code to copy/paste into `mykoz.bat`
+### Copy/Paste This Code Into a File On Your Desktop
 
 ```bash
 @echo off
