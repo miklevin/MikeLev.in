@@ -61,8 +61,6 @@ core of AI and more.
 ### The Code to Copy/Paste Into `getmykoz.bat`
 
 ```bash
-
-```bash
 @echo off
 setlocal enableDelayedExpansion
 set "TIME=%TIME::=%"
