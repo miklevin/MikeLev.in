@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a> (Tue Aug 08, 2023)
+<br/>This post is about consolidating the MyKoz.AI journaling system under one repository. I discuss the need to update the `.bash_profile` to include `sudo hwclock -s`, the need to create a `README.txt` file, and the decision to use one repo with the folders Intro, Journal, Practice, and Service. This is the preparatory work before MyKoz.AI can really be soft-launched. These repo's and particularly the Journaling system need to be in-place.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a> (Thu May 25, 2023)

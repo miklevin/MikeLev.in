@@ -4,7 +4,7 @@ title: Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project
 headline: "MyKoz.AI: A Journey of Self-Reinvention and Embracing Linux, Python, vim & git"
 description: "I'm a fan of the tools I use, and the toolmakers who make them. I'm a fan of Linux, Python, vim & git, and I'm deeply moved by Bram Moolenaar's death. I'm on a journey to the Noosphere, and MyKoz.AI is my Noosphere endeavor. I'm doing this by adding a Linux subsystem serving JupyterLab to existing Windows 10 or 11 desktops, optionally starting fresh with a 'Reset this PC' approach. I'm packaging it to be appealing to the masses: a path for those determined to master tools for life on a continuous journey of self-improvement."
 keywords: RIP, Bram Moolenaar, Vim, NeoVim, vi, Amiga, Fred Fish Disk, Linux, Python, git, Bill Joy, Sun Microsystems, Berkeley Unix, Vint Cerf, Tim Berners-Lee, LPvg, Levinux, PuTTY, WSL, NT, Windows 10, Windows 11, Mac, Hypervisor, Intel processor, Jekyll, Google Pages, DNS, https, Cloudflare, CSS, git repo,
-categories: levinux, jekyll, git, mac, python, vim, microsoft, wsl, amiga, linux, vi, lpvg
+categories: git, lpvg, vim, levinux, vi, microsoft, linux, python, mac, wsl, amiga, jekyll
 permalink: /blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/
 layout: post
 group: blog
@@ -388,19 +388,19 @@ items from my to-do list. Maybe today!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/vi/'>vi</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vi/'>vi</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

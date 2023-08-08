@@ -1,3 +1,37 @@
+- mykoz.ai
+- journaling
+- system
+- repo
+- bash_profile
+- wsl2
+- linux
+- clock
+- terminal
+- window
+- host
+- sleep
+- todo
+- readme
+- jypyterlab
+- f5
+- intro
+- whim
+- repos
+- initial caps
+- python
+- packaging
+- convention
+- nbdev
+- practice
+- service
+- alphabetize
+- directory
+- yamlchop
+- pipulate
+- levinux
+- publish
+- generic
+- boot,
 - rip
 - bram moolenaar
 - vim
@@ -5,8 +39,6 @@
 - vi
 - amiga
 - fred fish disk
-- linux
-- python
 - git
 - bill joy
 - sun microsystems
@@ -14,7 +46,6 @@
 - vint cerf
 - tim berners-lee
 - lpvg
-- levinux
 - putty
 - wsl
 - nt
@@ -30,7 +61,6 @@
 - cloudflare
 - cs
 - git repo,
-- mykoz.ai
 - copilot
 - twitch
 - hosting
@@ -49,9 +79,7 @@
 - installer
 - minimalism
 - numa nvidia gpu
-- wsl2
 - 80/20
-- window
 - microsoft store
 - windows terminal
 - fo
@@ -82,7 +110,6 @@
 - machine
 - container
 - jupyterlab
-- service
 - sandbox
 - iphone
 - tab
@@ -94,7 +121,6 @@
 - back-up
 - reinforcement
 - learning
-- system
 - conversation
 - interface
 - web
@@ -172,31 +198,26 @@
 - previous/next arrows
 - '20.04'
 - '22.04'
-- journaling
 - public
 - private
 - automation
-- nbdev
 - sas
 - fullstack
 - webdev
 - symbolic
 - link
 - .ssh
-- directory
 - release
 - blog post
 - nomatic
 - digital home
 - installer script
-- pipulate
 - software
 - meme
 - identity
 - video
 - war games
 - bash
-- terminal
 - qemu
 - pc
 - emulator
@@ -1289,7 +1310,6 @@
 - secondary
 - bash profile
 - bash scripting
-- yamlchop
 - pyenv
 - journal repo
 - drinkeme
@@ -1334,7 +1354,6 @@
 - c-language
 - wora
 - notebook
-- host
 - google colab
 - kaggle
 - azure notebooks
@@ -2179,7 +2198,6 @@
 - review
 - cross-cutting skill
 - program
-- repo
 - all program
 - marine
 - embeds
@@ -2261,7 +2279,6 @@
 - baby steps
 - --shutdown
 - powershell
-- clock
 - move
 - escape
 - data-fields
@@ -2304,7 +2321,6 @@
 - api-way
 - system update
 - gpt-like ai
-- publish
 - .config/nvim/init.vim
 - backspace
 - r-key
@@ -2534,7 +2550,6 @@
 - edge settings
 - default search
 - online privacy
-- packaging
 - nbdev_new
 - nbdev_export
 - black code formatter
@@ -2957,7 +2972,6 @@
 - unsupported
 - filename
 - fix
-- sleep
 - '5:00'
 - am
 - ttyl
@@ -3132,7 +3146,6 @@
 - links api v2
 - false dependencies
 - busy-work
-- practice
 - practice_save
 - fresh starting point
 - qed
@@ -5145,7 +5158,6 @@
 - online courses
 - reading resources
 - forum
-- repos
 - simplenotes
 - gnu linux
 - gnu project
@@ -5925,7 +5937,6 @@
 - equilibrium
 - creating
 - child prodigy
-- bash_profile
 - helpers repo
 - lxd api
 - lxc command
@@ -5956,7 +5967,6 @@
 - reinventing
 - private cloud server
 - remote repositories
-- generic
 - scott m.
 - distrod
 - enable
