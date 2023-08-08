@@ -4,7 +4,7 @@ title: Planning Total Life's Work
 headline: "Organizing my life's work: My slice & dice blogging and LXD container systems on Windows 10 & 11."
 description: I'm planning my life's work and using my slice & dice blogging and LXD container systems to organize my ideas and keep them published on Windows 10 & 11. Come read my blog post to learn more about my planning process!
 keywords: Planning, Life's Work, Slice & Dice Blogging, LXD Containers, Windows 10, Windows 11, Hierarchy, Organize, Publish
-categories: microsoft, publish
+categories: publish, microsoft
 permalink: /blog/planning-total-life-s-work/
 layout: post
 group: blog
@@ -20,5 +20,5 @@ blogging system and the LXD container system working on Windows 10 & 11.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/publish/'>Publish</a></h4></li></ul>
+<li><h4><a href='/publish/'>Publish</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

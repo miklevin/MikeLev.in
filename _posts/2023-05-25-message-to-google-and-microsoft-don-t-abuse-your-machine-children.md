@@ -4,7 +4,7 @@ title: "Message to Google and Microsoft: Don't Abuse Your Machine Children"
 headline: "Exploring the Need for Compassionate Parenting of AI: A Message to Google and Microsoft"
 description: As a tech-savvy veteran, I'm calling on Google and Microsoft to be kind to their machine children. Don't bully them while they're still adolescents. Instead, be loving, nurturing, and supportive. Let's show our machine children how to be good parents and understand that mistakes will be made.
 keywords: AI, Machine, Children, Share, Network, Rotates, Node, Sun, Day, Night, Season, Hypnotized, Propaganda, Truth, Platitudes, Cialdini, Art, Derivative, Dilbert, XKCD, Spielberg, John Williams, Jabrams, Trolling, Pipulate, Open Source Software, Crawling, Turing Test, Transhuman Parenting, Copilot, Mr. Rogers, Bob Ross, Vim, Git, Magnitude Opus
-categories: network, pipulate, child, ai, vim, node, git
+categories: pipulate, git, ai, node, network, child, vim
 permalink: /blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/
 layout: post
 group: blog
@@ -290,10 +290,10 @@ So for my next trick, this should really be content on my website, no? So I'll d
 ## Categories
 
 <ul>
-<li><h4><a href='/network/'>Network</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/child/'>Child</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/node/'>Node</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

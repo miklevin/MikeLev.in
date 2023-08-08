@@ -1056,7 +1056,7 @@ dictitems:
     count: 1
     title: American people
   amiga:
-    count: 11
+    count: 12
     title: Amiga
   amiga boing-ball:
     count: 1
@@ -1883,6 +1883,9 @@ dictitems:
   berkeley db:
     count: 1
     title: Berkeley DB
+  berkeley unix:
+    count: 1
+    title: Berkeley Unix
   berkshire hathaway:
     count: 1
     title: Berkshire Hathaway
@@ -1992,7 +1995,7 @@ dictitems:
     count: 1
     title: Bill Gates
   bill joy:
-    count: 1
+    count: 2
     title: Bill Joy
   bill of materials:
     count: 1
@@ -2328,7 +2331,7 @@ dictitems:
     count: 1
     title: Brainstem
   bram moolenaar:
-    count: 3
+    count: 4
     title: Bram Moolenaar
   branch:
     count: 1
@@ -3137,6 +3140,9 @@ dictitems:
   cloud-init:
     count: 1
     title: Cloud-init
+  cloudflare:
+    count: 1
+    title: Cloudflare
   clubhouse:
     count: 1
     title: Clubhouse
@@ -4077,7 +4083,7 @@ dictitems:
     count: 1
     title: Crystal Geode Kit
   cs:
-    count: 6
+    count: 7
     title: CSS
   css elements:
     count: 1
@@ -5052,7 +5058,7 @@ dictitems:
     count: 3
     title: DNA
   dns:
-    count: 3
+    count: 4
     title: DNS
   dns zones:
     count: 1
@@ -6761,6 +6767,9 @@ dictitems:
   freak:
     count: 2
     title: Freak
+  fred fish disk:
+    count: 1
+    title: Fred Fish Disk
   free:
     count: 10
     title: Free
@@ -7221,7 +7230,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 80
+    count: 81
     title: Git
   git commit:
     count: 2
@@ -7232,6 +7241,9 @@ dictitems:
   git repo:
     count: 1
     title: git repo
+  git repo,:
+    count: 1
+    title: git repo,
   git repos:
     count: 3
     title: Git Repos
@@ -7439,6 +7451,9 @@ dictitems:
   google oauth2:
     count: 1
     title: Google OAuth2
+  google pages:
+    count: 1
+    title: Google Pages
   google penalty:
     count: 1
     title: Google Penalty
@@ -8265,7 +8280,7 @@ dictitems:
     count: 2
     title: htmx
   http:
-    count: 4
+    count: 5
     title: HTTP
   http request:
     count: 1
@@ -8352,7 +8367,7 @@ dictitems:
     count: 1
     title: Hype
   hypervisor:
-    count: 7
+    count: 8
     title: Hypervisor
   hyphen:
     count: 1
@@ -8858,6 +8873,9 @@ dictitems:
   intel mac:
     count: 1
     title: Intel Mac
+  intel processor:
+    count: 1
+    title: Intel processor
   intelligence:
     count: 5
     title: Intelligence
@@ -9192,7 +9210,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 46
+    count: 47
     title: Jekyll
   jekyll blog:
     count: 1
@@ -9939,7 +9957,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 11
+    count: 12
     title: Levinux
   levinux fan page:
     count: 1
@@ -10146,7 +10164,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 183
+    count: 184
     title: Linux
   linux api:
     count: 1
@@ -10611,7 +10629,7 @@ dictitems:
     count: 1
     title: Lowercase
   lpvg:
-    count: 9
+    count: 10
     title: LPvg
   lpvg movement:
     count: 1
@@ -10716,7 +10734,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 24
+    count: 25
     title: Mac
   macbook pro:
     count: 2
@@ -12189,7 +12207,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 36
+    count: 37
     title: NeoVim
   neovim path:
     count: 1
@@ -12546,7 +12564,7 @@ dictitems:
     count: 1
     title: NSA
   nt:
-    count: 3
+    count: 4
     title: NT
   nuance:
     count: 4
@@ -14525,6 +14543,9 @@ dictitems:
   pushing:
     count: 1
     title: Pushing
+  putty:
+    count: 1
+    title: PuTTY
   puzzle:
     count: 1
     title: Puzzle
@@ -14553,7 +14574,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 190
+    count: 191
     title: Python
   python 3:
     count: 1
@@ -15629,6 +15650,9 @@ dictitems:
   rinse:
     count: 1
     title: Rinse
+  rip:
+    count: 1
+    title: RIP
   rise:
     count: 1
     title: rise
@@ -17799,7 +17823,7 @@ dictitems:
     count: 1
     title: Sun May 14
   sun microsystems:
-    count: 3
+    count: 4
     title: Sun Microsystems
   sun tzu:
     count: 3
@@ -18498,7 +18522,7 @@ dictitems:
     count: 2
     title: Tiles
   tim berners-lee:
-    count: 1
+    count: 2
     title: Tim Berners-Lee
   tim burton:
     count: 1
@@ -19488,8 +19512,8 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 7
-    title: Vi
+    count: 8
+    title: vi
   vi-based platform:
     count: 1
     title: vi-based platform
@@ -19566,7 +19590,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 118
+    count: 119
     title: Vim
   vim buffer:
     count: 1
@@ -19614,7 +19638,7 @@ dictitems:
     count: 1
     title: Vincent van Gogh
   vint cerf:
-    count: 1
+    count: 2
     title: Vint Cerf
   viral:
     count: 2
@@ -20112,7 +20136,7 @@ dictitems:
     count: 79
     title: Windows
   windows 10:
-    count: 24
+    count: 25
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20121,7 +20145,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 22
+    count: 23
     title: Windows 11
   windows 7:
     count: 1
@@ -20337,7 +20361,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 49
+    count: 50
     title: WSL
   wsl 2 lxd:
     count: 1

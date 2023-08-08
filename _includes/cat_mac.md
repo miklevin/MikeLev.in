@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a> (Mon Aug 07, 2023)
+<br/>I'm a fan of the tools I use, and the toolmakers who make them. I'm a fan of Linux, Python, vim & git, and I'm deeply moved by Bram Moolenaar's death. I'm on a journey to the Noosphere, and MyKoz.AI is my Noosphere endeavor. I'm doing this by adding a Linux subsystem serving JupyterLab to existing Windows 10 or 11 desktops, optionally starting fresh with a 'Reset this PC' approach. I'm packaging it to be appealing to the masses: a path for those determined to master tools for life on a continuous journey of self-improvement.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
 <br/>Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.</li>
 <li><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a> (Mon Jul 31, 2023)
