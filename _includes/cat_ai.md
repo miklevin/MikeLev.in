@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)
+<br/>Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.</li>
 <li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)
 <br/>Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.</li>
 <li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)

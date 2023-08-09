@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)
+<br/>Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.</li>
 <li><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a> (Wed May 10, 2023)
 <br/>I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.</li>
 <li><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a> (Thu May 04, 2023)

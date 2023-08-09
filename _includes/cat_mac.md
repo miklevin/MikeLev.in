@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)
+<br/>Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.</li>
 <li><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a> (Tue Aug 08, 2023)
 <br/>I'm a fan of the tools I use, and the toolmakers who make them. I'm a fan of Linux, Python, vim & git, and I'm deeply moved by Bram Moolenaar's death. I'm on a journey to the Noosphere, and MyKoz.AI is my Noosphere endeavor. I'm doing this by adding a Linux subsystem serving JupyterLab to existing Windows 10 or 11 desktops, optionally starting fresh with a 'Reset this PC' approach. I'm packaging it to be appealing to the masses: a path for those determined to master tools for life on a continuous journey of self-improvement.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)

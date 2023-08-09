@@ -819,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 112
+    count: 113
     title: AI
   ai bros:
     count: 1
@@ -1596,7 +1596,7 @@ dictitems:
     count: 3
     title: Automating
   automation:
-    count: 23
+    count: 24
     title: Automation
   automount:
     count: 1
@@ -3123,7 +3123,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 18
+    count: 19
     title: Cloud
   cloud chamber:
     count: 1
@@ -3354,7 +3354,7 @@ dictitems:
     count: 1
     title: Command Centric Design
   command line:
-    count: 3
+    count: 4
     title: Command Line
   command line interface:
     count: 3
@@ -4347,7 +4347,7 @@ dictitems:
     count: 4
     title: Data Science
   data scientists:
-    count: 1
+    count: 2
     title: Data Scientists
   data shaping:
     count: 1
@@ -6978,8 +6978,8 @@ dictitems:
     count: 1
     title: Future of Technology
   future-proof:
-    count: 3
-    title: Future-proof
+    count: 4
+    title: Future-Proof
   future-proofing:
     count: 3
     title: Future-Proofing
@@ -7242,7 +7242,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 81
+    count: 82
     title: Git
   git commit:
     count: 2
@@ -7364,6 +7364,9 @@ dictitems:
   gnurth:
     count: 1
     title: GNUrth
+  go:
+    count: 1
+    title: Go
   go viral:
     count: 1
     title: go viral
@@ -9207,7 +9210,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 18
+    count: 19
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -10185,7 +10188,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 185
+    count: 186
     title: Linux
   linux api:
     count: 1
@@ -10655,6 +10658,9 @@ dictitems:
   lpvg movement:
     count: 1
     title: LPvg movement
+  lpvg stack:
+    count: 1
+    title: LPvg Stack
   lpvg.org:
     count: 1
     title: LPvg.org
@@ -10755,7 +10761,7 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 25
+    count: 26
     title: Mac
   macbook pro:
     count: 2
@@ -11444,6 +11450,9 @@ dictitems:
   mick west:
     count: 2
     title: Mick West
+  mickey mouse:
+    count: 1
+    title: Mickey Mouse
   micro soft:
     count: 1
     title: Micro Soft
@@ -12024,7 +12033,7 @@ dictitems:
     count: 4
     title: MyKoz
   mykoz.ai:
-    count: 3
+    count: 4
     title: MyKoz.AI
   mysql:
     count: 3
@@ -12819,7 +12828,7 @@ dictitems:
     count: 1
     title: Open Query
   open source:
-    count: 10
+    count: 11
     title: Open Source
   open source movement:
     count: 1
@@ -14595,7 +14604,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 192
+    count: 193
     title: Python
   python 3:
     count: 1
@@ -15870,8 +15879,8 @@ dictitems:
     count: 1
     title: Russell's Paradox
   rust:
-    count: 1
-    title: RUST
+    count: 2
+    title: Rust
   rv:
     count: 1
     title: RV
@@ -17060,6 +17069,9 @@ dictitems:
   sophia:
     count: 1
     title: Sophia
+  sorcerer's apprentice:
+    count: 1
+    title: Sorcerer's Apprentice
   sorceress:
     count: 1
     title: Sorceress
@@ -19617,7 +19629,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 119
+    count: 120
     title: Vim
   vim buffer:
     count: 1
@@ -20163,7 +20175,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 80
+    count: 81
     title: Windows
   windows 10:
     count: 25
