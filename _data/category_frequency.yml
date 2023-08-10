@@ -602,9 +602,6 @@ dictitems:
   accessible:
     count: 2
     title: Accessible
-  accessid:
-    count: 1
-    title: ACCESSID
   acclimating:
     count: 1
     title: Acclimating
@@ -1209,7 +1206,7 @@ dictitems:
     count: 1
     title: apex domain
   api:
-    count: 27
+    count: 26
     title: API
   api limitations:
     count: 1
@@ -1359,8 +1356,8 @@ dictitems:
     count: 2
     title: argparse
   argument:
-    count: 3
-    title: Arguments
+    count: 2
+    title: argument
   argument,:
     count: 1
     title: Argument,
@@ -1449,7 +1446,7 @@ dictitems:
     count: 1
     title: Assets
   assignment:
-    count: 2
+    count: 1
     title: Assignment
   associative arrays:
     count: 1
@@ -1538,9 +1535,6 @@ dictitems:
   auth parameter:
     count: 1
     title: Auth parameter
-  auth_tuple:
-    count: 1
-    title: AUTH_TUPLE
   authentication:
     count: 3
     title: Authentication
@@ -4851,7 +4845,7 @@ dictitems:
     count: 1
     title: dict-like API
   dictionary:
-    count: 9
+    count: 8
     title: Dictionary
   dicts:
     count: 1
@@ -5745,7 +5739,7 @@ dictitems:
     count: 1
     title: Ender's Game
   endpoint:
-    count: 3
+    count: 2
     title: Endpoints
   energy:
     count: 5
@@ -5850,7 +5844,7 @@ dictitems:
     count: 1
     title: EPR Paradox Experiment
   equality:
-    count: 2
+    count: 1
     title: Equality
   equation:
     count: 3
@@ -7227,7 +7221,7 @@ dictitems:
     count: 1
     title: Gerunds
   get:
-    count: 2
+    count: 1
     title: GET
   get request:
     count: 1
@@ -9423,7 +9417,7 @@ dictitems:
     count: 1
     title: JPL
   json:
-    count: 5
+    count: 4
     title: JSON
   json data format:
     count: 1
@@ -9492,7 +9486,7 @@ dictitems:
     count: 1
     title: Jupyter Environment
   jupyter notebook:
-    count: 20
+    count: 19
     title: Jupyter Notebook
   jupyter notebook server:
     count: 1
@@ -9662,9 +9656,6 @@ dictitems:
   keyword overlap:
     count: 1
     title: Keyword Overlap
-  keyword parameters:
-    count: 1
-    title: Keyword Parameters
   keyword research:
     count: 2
     title: Keyword Research
@@ -11925,7 +11916,7 @@ dictitems:
     count: 1
     title: MOZ API
   moz links api:
-    count: 7
+    count: 6
     title: MOZ Links API
   moz local:
     count: 1
@@ -13959,7 +13950,7 @@ dictitems:
     count: 7
     title: Possibilities
   post:
-    count: 10
+    count: 9
     title: Posts
   post requests:
     count: 1
@@ -14634,7 +14625,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 194
+    count: 193
     title: Python
   python 3:
     count: 1
@@ -15495,7 +15486,7 @@ dictitems:
     count: 4
     title: Requests
   requests library:
-    count: 3
+    count: 2
     title: Requests Library
   requirement:
     count: 2
@@ -16262,9 +16253,6 @@ dictitems:
   secret weapons:
     count: 1
     title: Secret Weapons
-  secretkey:
-    count: 1
-    title: SECRETKEY
   secure:
     count: 1
     title: Secure

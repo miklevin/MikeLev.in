@@ -2762,13 +2762,6 @@
 - linux server
 - headless chrome
 - endpoint
-- get
-- assignment
-- equality
-- keyword parameters
-- accessid
-- secretkey
-- auth_tuple
 - devtools
 - end-to-end testing
 - cross-browser testing
@@ -3222,6 +3215,7 @@
 - batch requests
 - paged responses
 - quota handling
+- get
 - non-logged-in services
 - strange
 - unique features
@@ -4026,6 +4020,7 @@
 - economic
 - political
 - mechanic
+- equality
 - cruel
 - elite
 - repressive
@@ -6842,6 +6837,7 @@
 - concurrent
 - president's day
 - response
+- assignment
 - nbdev_build_libs
 - 00_core.ipynb
 - black
