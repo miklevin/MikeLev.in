@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/">Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour</a> (Wed Aug 09, 2023)
+<br/>This is a big day for MyKoz.AI. Join me as I guide you through the soft-launch procedure of launching a site, soup to nuts. Learn how to automate Linux servers on boot-up and understand the changes in the SEO industry over the past 30 years. Leverage the amazing Jupyter Lab project to make your Python code immediately cloud compatible and get into the groove of real 24x7x365 automation with the Linux systemd init system.</li>
 <li><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a> (Mon Aug 07, 2023)
 <br/>Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.</li>
 <li><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a> (Mon May 15, 2023)

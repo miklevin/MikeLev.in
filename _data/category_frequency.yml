@@ -1014,7 +1014,7 @@ dictitems:
     count: 1
     title: alt-text
   altavista:
-    count: 1
+    count: 2
     title: AltaVista
   alternative:
     count: 5
@@ -3354,7 +3354,7 @@ dictitems:
     count: 1
     title: Command Centric Design
   command line:
-    count: 4
+    count: 5
     title: Command Line
   command line interface:
     count: 3
@@ -4490,6 +4490,9 @@ dictitems:
   debugging messages:
     count: 1
     title: Debugging Messages
+  dec:
+    count: 1
+    title: DEC
   deceased:
     count: 1
     title: deceased
@@ -4883,6 +4886,9 @@ dictitems:
   digital electronics:
     count: 1
     title: Digital Electronics
+  digital equipment corporation:
+    count: 1
+    title: Digital Equipment Corporation
   digital home:
     count: 1
     title: Digital Home
@@ -6191,6 +6197,9 @@ dictitems:
   extraterrestrial vehicles:
     count: 1
     title: Extraterrestrial Vehicles
+  f:
+    count: 1
+    title: F
   f5:
     count: 1
     title: F5
@@ -6798,7 +6807,7 @@ dictitems:
     count: 10
     title: Free
   free and open source software:
-    count: 1
+    count: 2
     title: Free and Open Source Software
   free cost:
     count: 1
@@ -7541,6 +7550,9 @@ dictitems:
   google's quickstart guide:
     count: 1
     title: Google's Quickstart Guide
+  googleplex:
+    count: 1
+    title: Googleplex
   gorilla:
     count: 1
     title: Gorilla
@@ -9000,7 +9012,7 @@ dictitems:
     count: 1
     title: International Education
   internet:
-    count: 8
+    count: 9
     title: Internet
   internet connection:
     count: 1
@@ -9470,6 +9482,9 @@ dictitems:
   jupiter lab:
     count: 1
     title: Jupiter Lab
+  juptyerlab:
+    count: 1
+    title: JuptyerLab
   juputerlab:
     count: 1
     title: JuputerLab
@@ -9492,7 +9507,7 @@ dictitems:
     count: 1
     title: Jupyter Notebook server
   jupyter notebooks:
-    count: 8
+    count: 9
     title: Jupyter Notebooks
   jupyter python:
     count: 1
@@ -10203,7 +10218,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 187
+    count: 188
     title: Linux
   linux api:
     count: 1
@@ -11498,6 +11513,9 @@ dictitems:
   microsoft bing:
     count: 2
     title: Microsoft Bing
+  microsoft campus:
+    count: 1
+    title: Microsoft Campus
   microsoft edge:
     count: 5
     title: Microsoft Edge
@@ -11739,7 +11757,7 @@ dictitems:
     count: 1
     title: Moat
   mobile:
-    count: 2
+    count: 3
     title: Mobile
   mobile devices:
     count: 1
@@ -11879,6 +11897,9 @@ dictitems:
   mountain:
     count: 1
     title: mountain
+  mountain view:
+    count: 1
+    title: Mountain View
   mounting:
     count: 1
     title: Mounting
@@ -12054,7 +12075,7 @@ dictitems:
     count: 4
     title: MyKoz
   mykoz.ai:
-    count: 4
+    count: 5
     title: MyKoz.AI
   mysql:
     count: 3
@@ -12369,7 +12390,7 @@ dictitems:
     count: 1
     title: New Years Party
   new york:
-    count: 4
+    count: 5
     title: New York
   new york city:
     count: 9
@@ -12651,7 +12672,7 @@ dictitems:
     count: 1
     title: nvim
   nyc:
-    count: 9
+    count: 10
     title: NYC
   nyc,:
     count: 1
@@ -15221,6 +15242,9 @@ dictitems:
   redis:
     count: 1
     title: Redis
+  redmond:
+    count: 1
+    title: Redmond
   reductionism:
     count: 1
     title: Reductionism
@@ -16194,7 +16218,7 @@ dictitems:
     count: 3
     title: Search Engine
   search engine optimization:
-    count: 5
+    count: 6
     title: Search Engine Optimization
   search engine optimizer:
     count: 1
@@ -16398,7 +16422,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 88
+    count: 89
     title: SEO
   seo blog:
     count: 1
@@ -16604,6 +16628,9 @@ dictitems:
   shell commands:
     count: 1
     title: Shell Commands
+  shell scripts:
+    count: 1
+    title: Shell Scripts
   shelter island conference:
     count: 1
     title: Shelter Island Conference
@@ -17885,6 +17912,9 @@ dictitems:
   sun tzu:
     count: 3
     title: Sun Tzu
+  sunnyvale:
+    count: 1
+    title: Sunnyvale
   super:
     count: 1
     title: Super
@@ -18098,6 +18128,9 @@ dictitems:
   system update:
     count: 2
     title: System Update
+  system v init system:
+    count: 1
+    title: System V init system
   system,:
     count: 1
     title: System,
@@ -18105,7 +18138,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 26
+    count: 27
     title: Systemd
   systemd service:
     count: 1
@@ -18251,6 +18284,9 @@ dictitems:
   tech mechanics:
     count: 1
     title: Tech Mechanics
+  tech meetups:
+    count: 1
+    title: Tech Meetups
   tech support system:
     count: 1
     title: Tech Support System
@@ -19257,7 +19293,7 @@ dictitems:
     count: 1
     title: University of Manchester
   unix:
-    count: 23
+    count: 24
     title: Unix
   unix hater's handbook:
     count: 1
@@ -20238,7 +20274,7 @@ dictitems:
     count: 6
     title: Windows Subsystem
   windows subsystem for linux:
-    count: 5
+    count: 6
     title: Windows Subsystem for Linux
   windows subsystem for linux (wsl),:
     count: 1
@@ -20424,7 +20460,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 51
+    count: 52
     title: WSL
   wsl 2 lxd:
     count: 1
@@ -20496,7 +20532,7 @@ dictitems:
     count: 1
     title: XSLT
   yahoo:
-    count: 1
+    count: 2
     title: Yahoo
   yahwanna:
     count: 1

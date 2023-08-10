@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/">Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour</a> (Wed Aug 09, 2023)
+<br/>This is a big day for MyKoz.AI. Join me as I guide you through the soft-launch procedure of launching a site, soup to nuts. Learn how to automate Linux servers on boot-up and understand the changes in the SEO industry over the past 30 years. Leverage the amazing Jupyter Lab project to make your Python code immediately cloud compatible and get into the groove of real 24x7x365 automation with the Linux systemd init system.</li>
 <li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)
 <br/>Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.</li>
 <li><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a> (Sat Aug 05, 2023)
