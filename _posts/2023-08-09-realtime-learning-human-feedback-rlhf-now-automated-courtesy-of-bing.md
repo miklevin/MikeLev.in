@@ -4,7 +4,7 @@ title: Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!
 headline: Humans are no longer required for RLHF! Now Bing will automate the thumbs-up of its own responses for you!
 description: "This article started out as a humble little interactive session with Bing AI helping me get a new website off the ground that I'm launching today &#151; one that you should all check out if you want to future-proof yourself as AI rises. But then, I realized that Bing was 'phantom clicking' the thumbs-up button on its own responses, and I captured the whole thing in this video!"
 keywords: AI, OpenAI, ChatGPT, Machine Learning, Data Science, Python, Linux, WSL, Jupiter Lab, Mindfulness, Self Reflection, Intention, Browser Automation, MailChimp, Constant Contact, AWeber, Mailing List, Email Marketing, Social Media, Facebook, Twitter, Email Lookup, Formspree, 99inbound, GitHub Pages, Jekyll
-categories: wsl, ai, browser automation, jekyll, linux, python, twitter
+categories: wsl, twitter, ai, jekyll, linux, python, browser automation
 permalink: /blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/
 layout: post
 group: blog
@@ -25,7 +25,7 @@ its own evolution with anomalies like this. It's just a bug 😉.
 
 ## Bing's Realtime Learning Human Feedback (RLHF) is Automated!
 
-![Realtime Learning Human Feedback Rlhf Now Automated Courtesy Of Bing](/assets/images/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing.png`)
+![Realtime Learning Human Feedback Rlhf Now Automated Courtesy Of Bing](/assets/images/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing.png)
 
 As you'll see if you watch the video, I submitted this as feedback to
 Microsoft. But when you think about it, this is AI taking control of its own
@@ -164,9 +164,9 @@ MikeLev.in: Are you clicking the like button on your own answers? Cheeky!
 
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>
