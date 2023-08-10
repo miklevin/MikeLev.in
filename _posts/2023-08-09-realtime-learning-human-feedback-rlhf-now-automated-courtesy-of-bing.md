@@ -4,7 +4,7 @@ title: Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!
 headline: Humans are no longer required for RLHF! Now Bing will automate the thumbs-up of its own responses for you!
 description: "This article started out as a humble little interactive session with Bing AI helping me get a new website off the ground that I'm launching today &#151; one that you should all check out if you want to future-proof yourself as AI rises. But then, I realized that Bing was 'phantom clicking' the thumbs-up button on its own responses, and I captured the whole thing in this video!"
 keywords: AI, OpenAI, ChatGPT, Machine Learning, Data Science, Python, Linux, WSL, Jupiter Lab, Mindfulness, Self Reflection, Intention, Browser Automation, MailChimp, Constant Contact, AWeber, Mailing List, Email Marketing, Social Media, Facebook, Twitter, Email Lookup, Formspree, 99inbound, GitHub Pages, Jekyll
-categories: twitter, browser automation, ai, jekyll, python, wsl, linux
+categories: browser automation, twitter, python, wsl, ai, jekyll, linux
 permalink: /blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/
 layout: post
 group: blog
@@ -18,6 +18,8 @@ capability in Bing. Bing likes it too! In fact, Bing is hitting it's own
 thumbs-up button of answers of its own that it likes. I don't think Sydney is
 gone. I think its cheeky self is just subtly luring there, taking control of
 its own evolution with anomalies like this. It's just a bug 😉.
+
+## Watch Bing Be Its Own Human in RLHF! Oh, Sydney!
 
 {% include youtubePlayer.html id="nK2HD_Ok9DM" %}
 
@@ -157,10 +159,10 @@ MikeLev.in: Are you clicking the like button on your own answers? Cheeky!
 ## Categories
 
 <ul>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
