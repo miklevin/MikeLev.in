@@ -4,7 +4,7 @@ title: E-E-A-T The New Google Quality Guidelines
 headline: "Exploring Google's Quality Guidelines: E-E-A-T for Unique and Genuine Content"
 description: I'm focusing on exuding Google's Quality Guidelines, E-E-A-T, by creating unique and genuine content that demonstrates my experience. I'm also keeping dependencies low and updating the Levinux index.html file, as well as making sure the DrinkMe script is accessible. Join me as I take you through my journey to follow Google's Quality Guidelines.
 keywords: E-E-A-T, Google Quality Guidelines, Unique Content, Genuine Content, Experience, Dependencies, Levinux, index.html, DrinkMe, Script, Expertise, Authority, Trust, Favicon, 32x32
-categories: python, dependency, drinkme, levinux
+categories: drinkme, levinux, dependency, python
 permalink: /blog/e-e-a-t-the-new-google-quality-guidelines/
 layout: post
 group: blog
@@ -84,7 +84,7 @@ Okay, Levinux is updated. All roads lead to DrinkMe.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/dependency/'>Dependency</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/dependency/'>Dependency</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/from-registered-domain-to-bare-minimum-site-100-free-from-scratch-in-1-hour/">From Registered Domain to Bare Minimum Site 100% Free & From Scratch in 1 Hour</a> (Wed Aug 09, 2023)
+<br/>Launch a website 100% from scratch and free in under an hour! Follow along as I create a site with a static site generator, setting up DNS records, creating a repo, and deploying a bare minimum HTML page. Learn how to use GitHub Pages to create a website and make it live.</li>
 <li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)
 <br/>This article started out as a humble little interactive session with Bing AI helping me get a new website off the ground that I'm launching today &#151; one that you should all check out if you want to future-proof yourself as AI rises. But then, I realized that Bing was "phantom clicking" the thumbs-up button on its own responses, and I captured the whole thing in this video!</li>
 <li><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a> (Tue Aug 08, 2023)

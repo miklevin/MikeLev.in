@@ -4,7 +4,7 @@ title: The Magic Mirror
 headline: Discovering the Dark Side of Magic Mirrors - My Journey to Find My Missing Child
 description: I recently acquired a Magic Mirror, and I'm exploring the parallels between this technology and my life. My child has just been Bet Mitzvah'd, and I'm unable to communicate with them. I'm worried, and I'm tracking their location with their earbuds. Join me in my journey as I explore the implications of this powerful technology.
 keywords: magic, AI, public-facing, private, broken mirrors, black mirrors, Machiavelli, Dirty Dogs, Sun Tzu, Win Without Fighting, Bet Mitzvah, Trans Mitzvah, Etz Chaim, Charles, Chick, Lynne, Chicken Lynne, heart failure, breast cancer, Apple iPhone, Location Services, Cell Tower
-categories: ai, magic
+categories: magic, ai
 permalink: /blog/the-magic-mirror/
 layout: post
 group: blog
@@ -72,5 +72,5 @@ fast from here.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/magic/'>Magic</a></h4></li></ul>
+<li><h4><a href='/magic/'>Magic</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

@@ -819,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 114
+    count: 115
     title: AI
   ai bros:
     count: 1
@@ -854,6 +854,9 @@ dictitems:
   ai-assisted coding:
     count: 1
     title: AI-assisted coding
+  ai-automation:
+    count: 1
+    title: AI-automation
   ai-bots:
     count: 1
     title: AI-bots
@@ -1203,8 +1206,8 @@ dictitems:
     count: 1
     title: Apex
   apex domain:
-    count: 1
-    title: apex domain
+    count: 2
+    title: Apex Domain
   api:
     count: 26
     title: API
@@ -1754,6 +1757,9 @@ dictitems:
   bard:
     count: 3
     title: Bard
+  bare minimum site:
+    count: 1
+    title: Bare Minimum Site
   base64:
     count: 1
     title: base64
@@ -3779,6 +3785,9 @@ dictitems:
   continuous integration:
     count: 1
     title: continuous integration
+  contrarian methods:
+    count: 1
+    title: Contrarian Methods
   contributing to the world:
     count: 1
     title: Contributing to the World
@@ -5076,7 +5085,7 @@ dictitems:
     count: 3
     title: DNA
   dns:
-    count: 4
+    count: 5
     title: DNS
   dns zones:
     count: 1
@@ -5144,6 +5153,9 @@ dictitems:
   domain names:
     count: 1
     title: domain names
+  domain registrar:
+    count: 1
+    title: Domain Registrar
   domain urls:
     count: 1
     title: Domain URLs
@@ -6804,7 +6816,7 @@ dictitems:
     count: 1
     title: Fred Fish Disk
   free:
-    count: 10
+    count: 11
     title: Free
   free and open source software:
     count: 2
@@ -6974,6 +6986,9 @@ dictitems:
   fundamental:
     count: 2
     title: Fundamentals
+  funnel:
+    count: 1
+    title: Funnel
   fusion:
     count: 4
     title: Fusion
@@ -7742,6 +7757,9 @@ dictitems:
   grouping:
     count: 1
     title: Grouping
+  grow:
+    count: 1
+    title: Grow
   growing:
     count: 1
     title: growing
@@ -9258,7 +9276,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 48
+    count: 49
     title: Jekyll
   jekyll blog:
     count: 1
@@ -9900,7 +9918,7 @@ dictitems:
     count: 1
     title: Laughing
   launch:
-    count: 2
+    count: 3
     title: Launch
   launchd:
     count: 1
@@ -11081,6 +11099,9 @@ dictitems:
   marketable:
     count: 1
     title: Marketable
+  marketed:
+    count: 1
+    title: Marketed
   marketing:
     count: 8
     title: Marketing
@@ -11315,6 +11336,9 @@ dictitems:
   meme:
     count: 2
     title: Meme
+  meme-fied:
+    count: 1
+    title: Meme-fied
   memetic hacking:
     count: 1
     title: Memetic Hacking
@@ -11397,7 +11421,7 @@ dictitems:
     count: 1
     title: Messageboard System
   messaging:
-    count: 3
+    count: 4
     title: Messaging
   messing:
     count: 1
@@ -11613,7 +11637,7 @@ dictitems:
     count: 2
     title: mikeateleven.com
   mikelev.in:
-    count: 14
+    count: 15
     title: MikeLev.in
   mikelevin:
     count: 1
@@ -12075,7 +12099,7 @@ dictitems:
     count: 4
     title: MyKoz
   mykoz.ai:
-    count: 5
+    count: 6
     title: MyKoz.AI
   mysql:
     count: 3
@@ -12368,6 +12392,9 @@ dictitems:
   new horizons mission:
     count: 1
     title: New Horizons mission
+  new ideas:
+    count: 1
+    title: New Ideas
   new life:
     count: 1
     title: new life
@@ -12995,6 +13022,9 @@ dictitems:
   optimize content:
     count: 1
     title: Optimize Content
+  optimized:
+    count: 1
+    title: Optimized
   optimized blog posts:
     count: 1
     title: Optimized Blog Posts
@@ -13064,6 +13094,9 @@ dictitems:
   original sites:
     count: 1
     title: Original Sites
+  original thought:
+    count: 1
+    title: Original Thought
   originality:
     count: 1
     title: Originality
@@ -13736,6 +13769,9 @@ dictitems:
   placeholder:
     count: 1
     title: Placeholder
+  plain text files:
+    count: 1
+    title: Plain Text Files
   plan:
     count: 1
     title: Plan
@@ -15290,6 +15326,9 @@ dictitems:
   register:
     count: 1
     title: Registers
+  registered domain:
+    count: 1
+    title: Registered Domain
   registered domains:
     count: 1
     title: Registered Domains
@@ -16155,7 +16194,7 @@ dictitems:
     count: 1
     title: Scraping
   scratch:
-    count: 1
+    count: 2
     title: Scratch
   screen:
     count: 3
@@ -17144,6 +17183,9 @@ dictitems:
   source:
     count: 6
     title: Source
+  source of income:
+    count: 1
+    title: Source of Income
   sourceforge:
     count: 1
     title: SourceForge
@@ -17486,8 +17528,11 @@ dictitems:
   static environments:
     count: 1
     title: Static Environments
+  static site:
+    count: 1
+    title: Static Site
   static site generator:
-    count: 9
+    count: 10
     title: Static Site Generator
   static site generators:
     count: 2
@@ -18938,6 +18983,9 @@ dictitems:
   trend:
     count: 4
     title: Trends
+  tribe:
+    count: 1
+    title: Tribe
   trick:
     count: 6
     title: Tricks
@@ -19181,6 +19229,9 @@ dictitems:
   uncertainty:
     count: 2
     title: Uncertainty
+  uncompressible:
+    count: 1
+    title: Uncompressible
   uncompressibles:
     count: 1
     title: Uncompressibles
@@ -19437,7 +19488,7 @@ dictitems:
     count: 1
     title: User Feedback
   user interface:
-    count: 4
+    count: 5
     title: User Interface
   user interfaces:
     count: 1
