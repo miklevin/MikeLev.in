@@ -495,7 +495,7 @@ dictitems:
     count: 1
     title: \_layouts
   _config.yml:
-    count: 3
+    count: 4
     title: _config.yml
   _posts:
     count: 1
@@ -1367,6 +1367,9 @@ dictitems:
   argumentation:
     count: 1
     title: Argumentation
+  arial:
+    count: 1
+    title: Arial
   arithmetic:
     count: 1
     title: Arithmetic
@@ -2238,8 +2241,8 @@ dictitems:
     count: 1
     title: Bob Ross
   body:
-    count: 1
-    title: Bodies
+    count: 2
+    title: BODY
   body copy:
     count: 1
     title: Body Copy
@@ -4113,8 +4116,11 @@ dictitems:
     count: 1
     title: Crystal Geode Kit
   cs:
-    count: 8
+    count: 9
     title: CSS
+  css build:
+    count: 1
+    title: CSS Build
   css elements:
     count: 1
     title: CSS Elements
@@ -4206,7 +4212,7 @@ dictitems:
     count: 1
     title: Custody Battle
   custom:
-    count: 1
+    count: 2
     title: Custom
   custom capabilities:
     count: 1
@@ -4617,8 +4623,8 @@ dictitems:
     count: 1
     title: Default User
   default.html:
-    count: 3
-    title: default.html
+    count: 4
+    title: Default.html
   defaultdict:
     count: 1
     title: Defaultdict
@@ -4812,8 +4818,8 @@ dictitems:
     count: 7
     title: Device
   devtools:
-    count: 1
-    title: Devtools
+    count: 2
+    title: DevTools
   dewalt:
     count: 1
     title: DeWALT
@@ -6692,6 +6698,9 @@ dictitems:
   fomo:
     count: 2
     title: FOMO
+  font-family:
+    count: 1
+    title: Font-family
   fonzie:
     count: 1
     title: Fonzie
@@ -6798,7 +6807,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 6
+    count: 7
     title: Framework
   framing:
     count: 1
@@ -7287,7 +7296,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 82
+    count: 83
     title: Git
   git commit:
     count: 2
@@ -7335,7 +7344,7 @@ dictitems:
     count: 1
     title: Github Membership
   github pages:
-    count: 21
+    count: 22
     title: Github Pages
   github pro:
     count: 1
@@ -7944,8 +7953,8 @@ dictitems:
     count: 1
     title: He/Him
   head:
-    count: 1
-    title: Head
+    count: 2
+    title: HEAD
   headache:
     count: 1
     title: Headache
@@ -8069,6 +8078,12 @@ dictitems:
   helping others:
     count: 1
     title: Helping Others
+  helvetica:
+    count: 1
+    title: Helvetica
+  helvetica neue:
+    count: 1
+    title: Helvetica Neue
   henry winkler:
     count: 1
     title: Henry Winkler
@@ -8328,7 +8343,7 @@ dictitems:
     count: 1
     title: hps.sh
   html:
-    count: 10
+    count: 11
     title: HTML
   html email:
     count: 1
@@ -8679,8 +8694,8 @@ dictitems:
     count: 1
     title: index.ipynb
   index.md:
-    count: 2
-    title: index.md
+    count: 3
+    title: Index.md
   indexing:
     count: 1
     title: Indexing
@@ -8853,7 +8868,7 @@ dictitems:
     count: 2
     title: Insight
   inspector:
-    count: 1
+    count: 2
     title: Inspector
   inspiration:
     count: 2
@@ -9285,7 +9300,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 50
+    count: 51
     title: Jekyll
   jekyll blog:
     count: 1
@@ -12354,7 +12369,7 @@ dictitems:
     count: 1
     title: NetSuite
   network:
-    count: 9
+    count: 10
     title: Network
   network context:
     count: 1
@@ -14661,7 +14676,7 @@ dictitems:
     count: 1
     title: Pursuit of Truth
   push:
-    count: 7
+    count: 8
     title: Push
   push changes:
     count: 1
@@ -14988,8 +15003,8 @@ dictitems:
     count: 2
     title: Rabbit
   rabbit hole:
-    count: 2
-    title: rabbit hole
+    count: 3
+    title: Rabbit Hole
   rabbit hole evaluation:
     count: 1
     title: Rabbit Hole Evaluation
@@ -15482,6 +15497,9 @@ dictitems:
   renaming:
     count: 3
     title: Renaming
+  render:
+    count: 1
+    title: Render
   rendering:
     count: 3
     title: Rendering
@@ -16064,12 +16082,18 @@ dictitems:
   san felipe:
     count: 1
     title: San Felipe
+  san-serif:
+    count: 1
+    title: San-serif
   sanctuary:
     count: 1
     title: Sanctuary
   sandbox:
     count: 1
     title: Sandboxes
+  sans-serif:
+    count: 1
+    title: Sans-serif
   sap:
     count: 2
     title: SAP
@@ -17556,7 +17580,7 @@ dictitems:
     count: 1
     title: Static Site
   static site generator:
-    count: 10
+    count: 11
     title: Static Site Generator
   static site generators:
     count: 2
@@ -17829,7 +17853,7 @@ dictitems:
     count: 2
     title: style.scss
   styles.css:
-    count: 1
+    count: 2
     title: Styles.css
   styles.scss:
     count: 1
@@ -19767,7 +19791,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 120
+    count: 121
     title: Vim
   vim buffer:
     count: 1
@@ -20109,7 +20133,7 @@ dictitems:
     count: 1
     title: Web 2.0
   web browser:
-    count: 3
+    count: 4
     title: Web Browser
   web browser automation:
     count: 2

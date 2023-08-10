@@ -1,22 +1,46 @@
+- cs
+- san-serif
+- framework
+- custom
+- static site generator
 - jekyll
+- github pages
+- index.md
+- default.html
+- _config.yml
+- styles.css
+- html
+- head
+- body
+- font-family
+- helvetica neue
+- helvetica
+- arial
+- sans-serif
+- web browser
+- inspector
+- devtools
+- network
+- css build
+- rabbit hole
+- vim
+- git
+- push
+- render
 - minimum
 - layout
 - default
-- html
 - stripped
 - down
 - github
 - page
 - javascript
-- cs
-- framework
 - buy-in
 - spiritual
 - opinionated
 - fad
 - platform
 - war
-- styles.css
 - markdown
 - static
 - site
@@ -51,7 +75,6 @@
 - original thought
 - new ideas
 - uncompressible
-- static site generator
 - contrarian methods
 - static site
 - plain text files
@@ -113,9 +136,6 @@
 - email lookup
 - formspree
 - 99inbound
-- github pages
-- vim
-- git
 - lpvg stack
 - window
 - mac
@@ -266,7 +286,6 @@
 - neural pathways
 - mental calist
 - debian-derived
-- web browser
 - microsoft edge
 - google chrome
 - marcus aurelius
@@ -741,7 +760,6 @@
 - chrom
 - child
 - share
-- network
 - rotates
 - node
 - day
@@ -1262,7 +1280,6 @@
 - dynamic
 - false dichotomies
 - shades of grey
-- rabbit hole
 - emacs
 - web ui
 - command-line interface
@@ -2492,7 +2509,6 @@
 - concept
 - attraction
 - repulsion
-- body
 - atomic
 - cosmic
 - aliens,
@@ -2681,7 +2697,6 @@
 - write
 - index
 - countdown
-- push
 - repository
 - kmeans
 - keyword clustering
@@ -2811,7 +2826,6 @@
 - linux server
 - headless chrome
 - endpoint
-- devtools
 - end-to-end testing
 - cross-browser testing
 - .net
@@ -4372,7 +4386,6 @@
 - crawl
 - http request
 - sqlite3
-- head
 - back hurts
 - leopard gecko
 - living room
@@ -4639,7 +4652,6 @@
 - favorite
 - media lists
 - create
-- custom
 - labeled
 - start date
 - end date
@@ -5163,7 +5175,6 @@
 - '"black box"'
 - '"economic value'
 - codegen
-- inspector
 - traffic
 - bounce rate
 - average session duration
@@ -6661,8 +6672,6 @@
 - apex
 - all.sh
 - hps.sh
-- default.html
-- _config.yml
 - web publisher
 - proprietary ides
 - lawyer
@@ -6776,7 +6785,6 @@
 - whatsametafor.io
 - templating system
 - migrating
-- index.md
 - subfolder
 - broken picture links
 - site hierarchy

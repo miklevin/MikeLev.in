@@ -4,7 +4,7 @@ title: "A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!"
 headline: "Unlocking the Potential of AI: Combining the Schwinger and Meissner Effects to Create a Fuel-Free Propulsion System"
 description: I have created a benchmark test for AI to test their reasoning ability, combining two facts - the Schwinger effect and the Meissner effect - that could lead to a form of propulsion that does not require chemical fuel. I have tested this theory on language models like GPT-3.5, GPT-4, Bing, and Bard, and have seen the potential of ChatBots, AI's, GAI's, and other technological advancements to help us make predictions.
 keywords: AI, Reasoning, Benchmark, Test, Schwinger, Effect, Meissner, Effect, Propulsion, Chemical, Fuel, Language, Models, GPT-3.5, GPT-4, Bing, Bard, ChatBots, GAI's, TR1, Quantum, Fields, Lamb, Shift, Casimir, Effect, Richard, Feynman, Bernoulli, Principle, Daniel, Bernoulli, 1738, Wright, Brothers, Flight, Scientific
-categories: bing, quantum, ai
+categories: ai, bing, quantum
 permalink: /blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/
 layout: post
 group: blog
@@ -209,6 +209,6 @@ up to being part of our admittedly radically different everyday lives.
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/quantum/'>Quantum</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/quantum/'>Quantum</a></h4></li></ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a> (Thu Aug 10, 2023)
+<br/>Learn how to create a simple and effective CSS file to assert control over your website. Follow the steps outlined in this article to create a bare minimum styles.css file and link it to default.html. Get tips on how to ensure your changes are rendered correctly. Follow the MyKoz.AI site development!</li>
 <li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)
 <br/>Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.</li>
 <li><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a> (Tue Aug 08, 2023)
