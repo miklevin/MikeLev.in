@@ -785,6 +785,9 @@ dictitems:
   african village:
     count: 1
     title: African Village
+  after:
+    count: 1
+    title: After
   age:
     count: 2
     title: Age
@@ -1853,6 +1856,9 @@ dictitems:
   bees,:
     count: 1
     title: Bees,
+  before:
+    count: 1
+    title: Before
   beginning:
     count: 1
     title: Beginning
@@ -2544,8 +2550,8 @@ dictitems:
     count: 1
     title: Butterfly Effect
   button:
-    count: 1
-    title: Button
+    count: 2
+    title: Buttons
   buttons pushed:
     count: 1
     title: Buttons Pushed
@@ -3092,6 +3098,9 @@ dictitems:
   click:
     count: 2
     title: Click
+  click-target:
+    count: 1
+    title: Click-Target
   clickable links:
     count: 1
     title: Clickable Links
@@ -3882,7 +3891,7 @@ dictitems:
     count: 2
     title: copy-paste
   copy/paste:
-    count: 6
+    count: 7
     title: Copy/Paste
   copying:
     count: 1
@@ -4116,7 +4125,7 @@ dictitems:
     count: 1
     title: Crystal Geode Kit
   cs:
-    count: 9
+    count: 10
     title: CSS
   css build:
     count: 1
@@ -4244,6 +4253,9 @@ dictitems:
   customize:
     count: 2
     title: Customize
+  customized:
+    count: 1
+    title: Customized
   customizing systems:
     count: 1
     title: Customizing Systems
@@ -4608,7 +4620,7 @@ dictitems:
     count: 1
     title: Deface
   default:
-    count: 3
+    count: 4
     title: Default
   default blog post system:
     count: 1
@@ -6807,7 +6819,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 7
+    count: 8
     title: Framework
   framing:
     count: 1
@@ -10233,7 +10245,7 @@ dictitems:
     count: 1
     title: Linguistics
   link:
-    count: 13
+    count: 14
     title: Links
   link back:
     count: 1
@@ -11723,6 +11735,9 @@ dictitems:
   mini-project:
     count: 2
     title: Mini-Project
+  minimal:
+    count: 1
+    title: Minimal
   minimal editing:
     count: 1
     title: Minimal Editing
@@ -11811,7 +11826,7 @@ dictitems:
     count: 1
     title: Moat
   mobile:
-    count: 3
+    count: 4
     title: Mobile
   mobile devices:
     count: 1
@@ -15932,6 +15947,9 @@ dictitems:
   round up:
     count: 1
     title: Round Up
+  rounded:
+    count: 1
+    title: Rounded
   routine:
     count: 1
     title: Routine
@@ -16805,6 +16823,9 @@ dictitems:
   simple:
     count: 1
     title: Simple
+  simple.css:
+    count: 1
+    title: Simple.css
   simplecss:
     count: 2
     title: SimpleCSS
@@ -19923,8 +19944,8 @@ dictitems:
     count: 1
     title: Vista
   visual:
-    count: 1
-    title: visual
+    count: 2
+    title: Visual
   visual block mode:
     count: 1
     title: Visual Block mode

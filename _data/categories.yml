@@ -1,6 +1,19 @@
 - cs
-- san-serif
+- simple.css
+- minimal
 - framework
+- default
+- customized
+- button
+- visual
+- mobile
+- click-target
+- link
+- rounded
+- copy/paste
+- before
+- after
+- san-serif
 - custom
 - static site generator
 - jekyll
@@ -29,7 +42,6 @@
 - render
 - minimum
 - layout
-- default
 - stripped
 - down
 - github
@@ -103,7 +115,6 @@
 - shell scripts
 - command line
 - systemd
-- mobile
 - googleplex
 - mountain view
 - microsoft campus
@@ -328,7 +339,6 @@
 - fullstack
 - webdev
 - symbolic
-- link
 - .ssh
 - release
 - blog post
@@ -1728,7 +1738,6 @@
 - vim-plug
 - gimp
 - transparent backgrounds
-- copy/paste
 - microsoft images search
 - bg eraser
 - apple photos app
@@ -2200,7 +2209,6 @@
 - cyclical
 - orbit
 - tech
-- visual
 - religion
 - connecting
 - dot
@@ -2584,7 +2592,6 @@
 - list item
 - placeholder
 - analyze
-- button
 - export
 - csv
 - save

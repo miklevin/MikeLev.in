@@ -4,7 +4,7 @@ title: Week 3 at Moz, Step-Up Your Game
 headline: Making the Journey onto Linux an Appealing Adventure - Week 3 at Moz
 description: I'm starting a new job at Moz and want to get off to a good start. I'm journaling live and making it more social, using open source text editor Vim and working on a project called Pipulate. I'm sharing my thoughts with my audience daily and have found Python to be the best fit for me. My goal is to get others to install JupyterLab under an invisible Linux VM, making the journey onto Linux an appealing adventure.
 keywords: Moz, Job, Journaling, Vim, Open Source, Python, JupyterLab, Linux, Interoperable, Code Execution, Java, Virtual Machine, SEO, Notebook, Windows, Mac, Laptop, Git, Cloud, NAS, Raspberry API, Flexible, Extracted
-categories: open source, jupyter, seo, git, microsoft, mac, linux, python, vim, journaling
+categories: python, open source, jupyter, microsoft, mac, vim, journaling, seo, git, linux
 permalink: /blog/week-3-at-moz-step-up-your-game/
 layout: post
 group: blog
@@ -72,13 +72,13 @@ Each project has two sides to it. The first is a non-disruptive flexible Noteboo
 ## Categories
 
 <ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

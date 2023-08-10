@@ -43,7 +43,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-family: "Abel";
-    font-size: 1.5rem;
+    font-size: x-large;
     line-height: 1.6;
     margin: 0;
 }
@@ -179,6 +179,7 @@ header>nav {
     font-size: min(5vw, 50px);
     font-weight: bold;
     line-height: min(9vw, 75px);
+    padding: 1rem 0 0 0;
 }
 
 /* Use flexbox to allow items to wrap, as needed */
