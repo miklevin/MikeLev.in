@@ -4,7 +4,7 @@ title: Simplifying Websites and Life with Single Long Text Files
 headline: Unlocking the Potential of My Work with Single Long Text Files
 description: I'm using the latest tools and techniques to simplify websites and life, by using single long text files to capture my ideation and publishing process. I'm combining Linux, Windows, JupyterLab, vim, and AI to create a seamless user experience, while also using data shaping and transforms to create a website that is easy to navigate.
 keywords: Linear Time, Algorithms, Search Engines, AI, Bias, JupyterLab, Linux, Windows, Vim, Semantic Web, Messaging, Website, Blog Posts, Query/Remixability, Site-Shaping, Data Shaping, Text-Data, Media Assets, Headless CMS, Computer Vision APIs, Idea-Capture, Ideation, Shaping Process, Git Repos, Post-Processing, User Experience, Previous/Next Arrows
-categories: jupyter, vim, ai, algorithm, linux, microsoft
+categories: algorithm, linux, jupyter, vim, ai, microsoft
 permalink: /blog/simplifying-websites-and-life-with-single-long-text-files/
 layout: post
 group: blog
@@ -129,9 +129,9 @@ things by topic. But AI will help a lot there.
 ## Categories
 
 <ul>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

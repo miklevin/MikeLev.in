@@ -4,7 +4,7 @@ title: Jekyll Minimum Layout Default HTML Stripped Down for Github Pages
 headline: I Just Stripped Down the Default HTML for My Github Pages Site Launch!
 description: Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.
 keywords: Jekyll, Minimum, Layout, Default, HTML, Stripped, Down, Github, Pages, JavaScript, CSS, Framework, Buy-in, Spiritual, Opinionated, Fads, Platform, Wars, Styles.css, Markdown, Static, Site, Generators, SSG's, Text, Editing, Power, Web, Publishing, DNS, Twitch, YouTube, Live-stream, 80/20-Rule, Strength, Couch, Potato, Format, AI, Automation,
-categories: youtube, git, ai, jekyll, javascript, html, 80/20-rule
+categories: jekyll, javascript, youtube, 80/20-rule, html, git, ai
 permalink: /blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/
 layout: post
 group: blog
@@ -128,18 +128,16 @@ vim default.html
 
 Then I put this in the file:
 
-{% raw %}
 ```html
 <html>
 <head>
 <title>MyKoz.AI</title>
 </head>
 <body>
-{{ content }}
+{% raw %}{{ content }}{% endraw %}
 </body>
 </html>
 ```
-{% endraw %}
 
 Then I git add, commit & push... and here's what it looks like now:
 
@@ -180,10 +178,10 @@ Now we can start building up from there with the `_config.yml` file and
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
