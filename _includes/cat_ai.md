@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)
+<br/>This article started out as a humble little interactive session with Bing AI helping me get a new website off the ground that I'm launching today &#151; one that you should all check out if you want to future-proof yourself as AI rises. But then, I realized that Bing was "phantom clicking" the thumbs-up button on its own responses, and I captured the whole thing in this video!</li>
 <li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)
 <br/>Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.</li>
 <li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)

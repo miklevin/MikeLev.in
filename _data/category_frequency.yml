@@ -473,6 +473,9 @@ dictitems:
   '90':
     count: 1
     title: 90s
+  99inbound:
+    count: 1
+    title: 99inbound
   :execute:
     count: 1
     title: :execute
@@ -819,7 +822,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 113
+    count: 114
     title: AI
   ai bros:
     count: 1
@@ -1625,6 +1628,9 @@ dictitems:
   awareness:
     count: 2
     title: Awareness
+  aweber:
+    count: 1
+    title: AWeber
   awesome:
     count: 1
     title: Awesome
@@ -2430,7 +2436,7 @@ dictitems:
     count: 24
     title: Browser
   browser automation:
-    count: 13
+    count: 14
     title: Browser Automation
   browser wars:
     count: 1
@@ -2868,7 +2874,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 26
+    count: 27
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3686,6 +3692,9 @@ dictitems:
   constant:
     count: 1
     title: Constant
+  constant contact:
+    count: 1
+    title: Constant Contact
   consulting:
     count: 3
     title: consulting
@@ -4344,7 +4353,7 @@ dictitems:
     count: 2
     title: Data Project
   data science:
-    count: 4
+    count: 5
     title: Data Science
   data scientists:
     count: 2
@@ -5597,6 +5606,12 @@ dictitems:
   email:
     count: 9
     title: Email
+  email lookup:
+    count: 1
+    title: Email Lookup
+  email marketing:
+    count: 1
+    title: Email Marketing
   embed:
     count: 1
     title: Embed
@@ -6189,7 +6204,7 @@ dictitems:
     count: 1
     title: Face Dancers
   facebook:
-    count: 3
+    count: 4
     title: Facebook
   facial:
     count: 1
@@ -6698,6 +6713,9 @@ dictitems:
   formatting:
     count: 3
     title: Formatting
+  formspree:
+    count: 1
+    title: Formspree
   formulaic happiness:
     count: 1
     title: Formulaic Happiness
@@ -7290,7 +7308,7 @@ dictitems:
     count: 1
     title: Github Membership
   github pages:
-    count: 20
+    count: 21
     title: Github Pages
   github pro:
     count: 1
@@ -8915,6 +8933,9 @@ dictitems:
   intent:
     count: 1
     title: Intent
+  intention:
+    count: 1
+    title: Intention
   inter:
     count: 1
     title: Inter
@@ -9231,7 +9252,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 47
+    count: 48
     title: Jekyll
   jekyll blog:
     count: 1
@@ -9452,6 +9473,9 @@ dictitems:
   jup:
     count: 1
     title: Jup
+  jupiter lab:
+    count: 1
+    title: Jupiter Lab
   juputerlab:
     count: 1
     title: JuputerLab
@@ -10188,7 +10212,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 186
+    count: 187
     title: Linux
   linux api:
     count: 1
@@ -10776,7 +10800,7 @@ dictitems:
     count: 1
     title: Machine Children
   machine learning:
-    count: 18
+    count: 19
     title: Machine Learning
   machine learning algorithms:
     count: 1
@@ -10859,6 +10883,12 @@ dictitems:
   mail-to:
     count: 1
     title: Mail-to
+  mailchimp:
+    count: 1
+    title: MailChimp
+  mailing list:
+    count: 1
+    title: Mailing List
   mailman:
     count: 1
     title: Mailman
@@ -11628,7 +11658,7 @@ dictitems:
     count: 1
     title: Mindful
   mindfulness:
-    count: 3
+    count: 4
     title: Mindfulness
   mini-project:
     count: 2
@@ -12864,7 +12894,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 43
+    count: 44
     title: OpenAI
   openai api:
     count: 3
@@ -14604,7 +14634,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 193
+    count: 194
     title: Python
   python 3:
     count: 1
@@ -16262,6 +16292,9 @@ dictitems:
   self hosted:
     count: 1
     title: Self Hosted
+  self reflection:
+    count: 1
+    title: Self Reflection
   self-assemble:
     count: 1
     title: Self-Assemble
@@ -16986,7 +17019,7 @@ dictitems:
     count: 1
     title: Social Justice
   social media:
-    count: 5
+    count: 6
     title: Social Media
   social ranks:
     count: 1
@@ -19005,7 +19038,7 @@ dictitems:
     count: 1
     title: Twitch
   twitter:
-    count: 10
+    count: 11
     title: Twitter
   twitter api:
     count: 1
@@ -20403,7 +20436,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 50
+    count: 51
     title: WSL
   wsl 2 lxd:
     count: 1
