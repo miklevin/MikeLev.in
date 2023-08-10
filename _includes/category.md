@@ -10,7 +10,7 @@
 <li><a href="/levinux/">Levinux</a></li>
 <li><a href="/pipulate/">Pipulate</a></li>
 <li><a href="/rabbit-holes/">Rabbit Holes</a></li>
-<li><a href="/80-20-rule/">80/20-rule</a></li>
+<li><a href="/80-20-rule/">80/20-Rule</a></li>
 <li><a href="/wsl/">WSL</a></li>
 <li><a href="/jekyll/">Jekyll</a></li>
 <li><a href="/youtube/">YouTube</a></li>

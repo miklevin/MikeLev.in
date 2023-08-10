@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)
+<br/>Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.</li>
 <li><a href="/blog/from-registered-domain-to-bare-minimum-site-100-free-from-scratch-in-1-hour/">From Registered Domain to Bare Minimum Site 100% Free & From Scratch in 1 Hour</a> (Wed Aug 09, 2023)
 <br/>Launch a website 100% from scratch and free in under an hour! Follow along as I create a site with a static site generator, setting up DNS records, creating a repo, and deploying a bare minimum HTML page. Learn how to use GitHub Pages to create a website and make it live.</li>
 <li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)

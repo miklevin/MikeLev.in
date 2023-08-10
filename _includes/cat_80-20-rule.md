@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)
+<br/>Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.</li>
 <li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
 <br/>I'm exploring the beauty and logic of arrow navigation. It can take some finagling to get it right, but it's a great 80/20-rule solution. With a configurable option, I'm able to make it so that the 'past' is left, and the 'future' is right - perfect for website navigation.</li>
 <li><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a> (Fri May 05, 2023)

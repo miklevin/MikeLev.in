@@ -453,8 +453,8 @@ dictitems:
     count: 4
     title: 80/20 Rule
   80/20-rule:
-    count: 12
-    title: 80/20-rule
+    count: 13
+    title: 80/20-Rule
   '80286':
     count: 1
     title: '80286'
@@ -819,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 115
+    count: 116
     title: AI
   ai bros:
     count: 1
@@ -1598,6 +1598,9 @@ dictitems:
   automation:
     count: 24
     title: Automation
+  automation,:
+    count: 1
+    title: Automation,
   automount:
     count: 1
     title: Automount
@@ -2546,6 +2549,9 @@ dictitems:
   buy vs build:
     count: 1
     title: Buy vs Build
+  buy-in:
+    count: 1
+    title: Buy-in
   buying links:
     count: 1
     title: Buying Links
@@ -3932,6 +3938,9 @@ dictitems:
   cost savings:
     count: 1
     title: Cost Savings
+  couch:
+    count: 1
+    title: Couch
   could:
     count: 1
     title: Could
@@ -4104,7 +4113,7 @@ dictitems:
     count: 1
     title: Crystal Geode Kit
   cs:
-    count: 7
+    count: 8
     title: CSS
   css elements:
     count: 1
@@ -4593,7 +4602,7 @@ dictitems:
     count: 1
     title: Deface
   default:
-    count: 2
+    count: 3
     title: Default
   default blog post system:
     count: 1
@@ -5085,7 +5094,7 @@ dictitems:
     count: 3
     title: DNA
   dns:
-    count: 5
+    count: 6
     title: DNS
   dns zones:
     count: 1
@@ -5226,8 +5235,8 @@ dictitems:
     count: 1
     title: Douglas McIlroy
   down:
-    count: 1
-    title: Downs
+    count: 2
+    title: Down
   downgrade:
     count: 1
     title: Downgrade
@@ -5478,7 +5487,7 @@ dictitems:
     count: 1
     title: edit.sh
   editing:
-    count: 14
+    count: 15
     title: Editing
   editing human embryos:
     count: 1
@@ -6237,7 +6246,7 @@ dictitems:
     count: 3
     title: Factory Reset
   fad:
-    count: 1
+    count: 2
     title: Fads
   fad-shift:
     count: 1
@@ -6720,7 +6729,7 @@ dictitems:
     count: 1
     title: Forking Mode
   format:
-    count: 2
+    count: 3
     title: Format
   formative experience:
     count: 1
@@ -6789,7 +6798,7 @@ dictitems:
     count: 1
     title: Fragility
   framework:
-    count: 5
+    count: 6
     title: Framework
   framing:
     count: 1
@@ -7197,8 +7206,8 @@ dictitems:
     count: 1
     title: Generative Trick
   generator:
-    count: 3
-    title: Generator
+    count: 4
+    title: Generators
   generic:
     count: 2
     title: Generic
@@ -7305,7 +7314,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 47
+    count: 48
     title: Github
   github actions:
     count: 1
@@ -8319,7 +8328,7 @@ dictitems:
     count: 1
     title: hps.sh
   html:
-    count: 9
+    count: 10
     title: HTML
   html email:
     count: 1
@@ -9255,7 +9264,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 19
+    count: 20
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -9276,7 +9285,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 49
+    count: 50
     title: Jekyll
   jekyll blog:
     count: 1
@@ -9939,7 +9948,7 @@ dictitems:
     count: 1
     title: Lawyer
   layout:
-    count: 2
+    count: 3
     title: layout
   lazy loading:
     count: 1
@@ -10412,6 +10421,9 @@ dictitems:
   live-cast:
     count: 1
     title: Live-cast
+  live-stream:
+    count: 1
+    title: Live-stream
   live-streaming:
     count: 3
     title: Live-Streaming
@@ -11079,7 +11091,7 @@ dictitems:
     count: 1
     title: Marine
   markdown:
-    count: 32
+    count: 33
     title: Markdown
   markdown file:
     count: 2
@@ -11708,6 +11720,9 @@ dictitems:
   minimize-tech-liability:
     count: 1
     title: Minimize-Tech-Liability
+  minimum:
+    count: 1
+    title: Minimum
   minix:
     count: 1
     title: MINIX
@@ -12983,6 +12998,9 @@ dictitems:
   operator:
     count: 1
     title: operators
+  opinionated:
+    count: 1
+    title: Opinionated
   opponents of peace:
     count: 1
     title: Opponents of Peace
@@ -13200,7 +13218,7 @@ dictitems:
     count: 1
     title: Packaging Dependencies
   page:
-    count: 10
+    count: 11
     title: Pages
   page authority:
     count: 1
@@ -13812,7 +13830,7 @@ dictitems:
     count: 2
     title: Plates
   platform:
-    count: 15
+    count: 16
     title: Platform
   platform optimization:
     count: 1
@@ -14051,6 +14069,9 @@ dictitems:
   posts-main.md:
     count: 1
     title: posts-main.md
+  potato:
+    count: 1
+    title: Potato
   potential,:
     count: 1
     title: potential,
@@ -14058,7 +14079,7 @@ dictitems:
     count: 1
     title: Powder of Life
   power:
-    count: 3
+    count: 4
     title: Power
   power good:
     count: 1
@@ -14586,7 +14607,7 @@ dictitems:
     count: 1
     title: Publish-Date Oriented
   publishing:
-    count: 9
+    count: 10
     title: Publishing
   pull:
     count: 1
@@ -16830,7 +16851,7 @@ dictitems:
     count: 1
     title: Sir Patrick Stewart
   site:
-    count: 7
+    count: 8
     title: Site
   site categories:
     count: 1
@@ -17295,7 +17316,7 @@ dictitems:
     count: 1
     title: Spiral Galaxy
   spiritual:
-    count: 1
+    count: 2
     title: Spiritual
   spiritual connection:
     count: 1
@@ -17381,6 +17402,9 @@ dictitems:
   ssg:
     count: 1
     title: SSG
+  ssg's:
+    count: 1
+    title: SSG's
   ssh:
     count: 3
     title: SSH
@@ -17523,7 +17547,7 @@ dictitems:
     count: 3
     title: Staten Island
   static:
-    count: 3
+    count: 4
     title: Static
   static environments:
     count: 1
@@ -17724,8 +17748,8 @@ dictitems:
     count: 1
     title: Streamlit
   strength:
-    count: 6
-    title: Strengths
+    count: 7
+    title: Strength
   stress:
     count: 1
     title: Stress
@@ -17759,6 +17783,9 @@ dictitems:
   stripe:
     count: 1
     title: Stripe
+  stripped:
+    count: 1
+    title: Stripped
   strive:
     count: 1
     title: strive
@@ -17801,6 +17828,9 @@ dictitems:
   style.scss:
     count: 2
     title: style.scss
+  styles.css:
+    count: 1
+    title: Styles.css
   styles.scss:
     count: 1
     title: Styles.scss
@@ -18462,7 +18492,7 @@ dictitems:
     count: 1
     title: Texas Instruments
   text:
-    count: 2
+    count: 3
     title: Text
   text editing:
     count: 3
@@ -19107,7 +19137,7 @@ dictitems:
     count: 1
     title: Twisted Bilayer Graphene
   twitch:
-    count: 1
+    count: 2
     title: Twitch
   twitter:
     count: 11
@@ -19995,7 +20025,7 @@ dictitems:
     count: 1
     title: Walrus
   war:
-    count: 2
+    count: 3
     title: Wars
   war and peace:
     count: 1
@@ -20073,7 +20103,7 @@ dictitems:
     count: 1
     title: Weather balloons
   web:
-    count: 7
+    count: 8
     title: Web
   web 2.0:
     count: 1
@@ -20628,7 +20658,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 49
+    count: 50
     title: YouTube
   youtube analytics:
     count: 1

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)
+<br/>Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.</li>
 <li><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a> (Sun Jul 30, 2023)
 <br/>I'm learning to incorporate my daily journaling into social media like TikTok, Twitter, and YouTube. I'm optimizing the vertical format, and using my 'Green Lantern' green highlighting trick to imply force of will. I'm figuring out the ideal number of characters across for the text, and then I can screen capture it and read it. I'm also looking for a way to show my face on the computer's desktop while I'm recording. Follow my journey and learn how to be on Linux</li>
 <li><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a> (Sun Jul 09, 2023)

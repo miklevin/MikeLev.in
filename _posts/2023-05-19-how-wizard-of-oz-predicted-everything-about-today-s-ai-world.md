@@ -4,7 +4,7 @@ title: How Wizard of OZ Predicted Everything About Today's AI-World
 headline: Exploring How Paul Graham is the Crooked Wizard of OZ
 description: Discover how the Wizard of Oz predicted the world of AI today. Follow my journey as I explore the implications of AI, literacy, and the emerging world of technology. Learn how Dorothy's companions, Jack Pumpkinhead and the Gump, are analogues for today's AI systems and how the Wizard of Oz provides a powerful metaphor for our relationship with AI.
 keywords: Wizard of Oz, AI, Literacy, Homeschooling, Math, Creativity, Critical Thinking, OpenAI, Microsoft, GPT-Instance, NVidia, Paul Graham, Sam Altman, Hackers and Painters, Why Nerds are Unpopular, Blub Paradox, Beating the Averages, MOZ, Artificial Intelligence, Virtual Worlds, APIs, Jack Pumpkinhead, Tim Burton, Powder of Life, Evil Magician, GPT Models, Dorothy, Copilot,
-categories: seo, microsoft, ai
+categories: seo, ai, microsoft
 permalink: /blog/how-wizard-of-oz-predicted-everything-about-today-s-ai-world/
 layout: post
 group: blog
@@ -465,5 +465,5 @@ fun.
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

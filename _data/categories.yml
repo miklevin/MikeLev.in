@@ -1,3 +1,43 @@
+- jekyll
+- minimum
+- layout
+- default
+- html
+- stripped
+- down
+- github
+- page
+- javascript
+- cs
+- framework
+- buy-in
+- spiritual
+- opinionated
+- fad
+- platform
+- war
+- styles.css
+- markdown
+- static
+- site
+- generator
+- ssg's
+- text
+- editing
+- power
+- web
+- publishing
+- dns
+- twitch
+- youtube
+- live-stream
+- 80/20-rule
+- strength
+- couch
+- potato
+- format
+- ai
+- automation,
 - registered domain
 - bare minimum site
 - free
@@ -10,9 +50,7 @@
 - user interface
 - original thought
 - new ideas
-- ai
 - uncompressible
-- jekyll
 - static site generator
 - contrarian methods
 - static site
@@ -25,7 +63,6 @@
 - grow
 - tribe
 - domain registrar
-- dns
 - apex domain
 - linux
 - windows subsystem for linux
@@ -85,7 +122,6 @@
 - cloud
 - open source
 - future-proof
-- javascript
 - rust
 - go
 - sorcerer's apprentice
@@ -143,10 +179,8 @@
 - google pages
 - http
 - cloudflare
-- cs
 - git repo,
 - copilot
-- twitch
 - hosting
 - headless cms
 - jupyter
@@ -199,7 +233,6 @@
 - learning
 - conversation
 - interface
-- web
 - apps
 - datacenters
 - facial
@@ -352,7 +385,6 @@
 - paste
 - steve jobs
 - tiktok
-- youtube
 - vertical format
 - green highlighting
 - green lantern
@@ -510,7 +542,6 @@
 - nytimes
 - regan
 - star
-- war
 - defense
 - initiative
 - sdi
@@ -705,7 +736,6 @@
 - compass
 - alpha
 - objectivity
-- github
 - office
 - '365'
 - chrom
@@ -934,7 +964,6 @@
 - documentation
 - installation
 - prerequisite
-- framework
 - catalina
 - unattended
 - non-interactive
@@ -1231,7 +1260,6 @@
 - alan turing
 - john
 - dynamic
-- static
 - false dichotomies
 - shades of grey
 - rabbit hole
@@ -1440,7 +1468,6 @@
 - venv
 - virtual environment
 - path
-- markdown
 - cursor
 - intense
 - round
@@ -1482,7 +1509,6 @@
 - wordperfect
 - borland
 - zone
-- platform
 - plugins
 - anti-patterns
 - spam-cannon
@@ -1575,7 +1601,6 @@
 - experiential
 - internal clients
 - fictional
-- site
 - brand
 - impact
 - rapidly changing
@@ -1635,7 +1660,6 @@
 - diagramming
 - venn-nvim
 - mermaidjs
-- html
 - previous next arrows
 - rambling
 - wed
@@ -1734,14 +1758,11 @@
 - passive income
 - mad hatter's tea party
 - alice
-- format
 - quote
 - trailing spaces
 - draft posts
 - backup
 - paradigm
-- editing
-- text
 - word processors
 - text editors
 - decompose
@@ -1936,7 +1957,6 @@
 - period
 - float
 - domain names
-- 80/20-rule
 - western culture
 - reading directions
 - present
@@ -1970,7 +1990,6 @@
 - completion
 - function
 - draft
-- publishing
 - tool-divergence
 - dilute
 - focus
@@ -2216,13 +2235,11 @@
 - yml
 - file
 - capitalization
-- page
 - crypto-bros
 - auto-complete
 - organizing
 - pre-processing
 - transformation
-- generator
 - sequence
 - linear
 - responsibilty
@@ -2269,7 +2286,6 @@
 - proper-case
 - usage
 - experiment
-- default
 - statistically
 - frequency
 - outputting
@@ -2985,7 +3001,6 @@
 - gap analysis report
 - monetize
 - compounding results
-- strength
 - positive
 - tracking progress
 - objective
@@ -5371,7 +5386,6 @@
 - modern technology
 - jump-start
 - electronics
-- power
 - grateful
 - bank
 - win
@@ -5848,7 +5862,6 @@
 - decorator
 - /etc/systemd/system
 - dialect
-- fad
 - local services
 - cloud resources
 - synology nas
@@ -6242,7 +6255,6 @@
 - mechanical engineering
 - personal experience
 - moral
-- spiritual
 - quality assurance
 - web-tech
 - microsoft active server pages
@@ -6632,7 +6644,6 @@
 - dislike
 - financial security
 - ups
-- down
 - contentment
 - essential vibe
 - isolation
@@ -6777,7 +6788,6 @@
 - helper folder
 - elpgd
 - _posts
-- layout
 - command-line argument
 - heading
 - dateutil
