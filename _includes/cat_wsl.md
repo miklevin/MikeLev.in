@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)
+<br/>In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!</li>
 <li><a href="/blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/">Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour</a> (Wed Aug 09, 2023)
 <br/>This is a big day for MyKoz.AI. Join me as I guide you through the soft-launch procedure of launching a site, soup to nuts. Learn how to automate Linux servers on boot-up and understand the changes in the SEO industry over the past 30 years. Leverage the amazing Jupyter Lab project to make your Python code immediately cloud compatible and get into the groove of real 24x7x365 automation with the Linux systemd init system.</li>
 <li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)

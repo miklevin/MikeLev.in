@@ -1343,6 +1343,9 @@ dictitems:
   ar:
     count: 1
     title: AR
+  arcane knowledge:
+    count: 1
+    title: Arcane Knowledge
   archetype:
     count: 1
     title: Archetype
@@ -3971,6 +3974,9 @@ dictitems:
   courage:
     count: 2
     title: Courage
+  coursera:
+    count: 1
+    title: Coursera
   covid-19:
     count: 1
     title: Covid-19
@@ -4188,7 +4194,7 @@ dictitems:
     count: 1
     title: Cures
   curiosity:
-    count: 1
+    count: 2
     title: Curiosity
   curious:
     count: 1
@@ -5730,8 +5736,8 @@ dictitems:
     count: 2
     title: Employee
   employer:
-    count: 4
-    title: Employer
+    count: 5
+    title: Employers
   employer ownership:
     count: 1
     title: Employer Ownership
@@ -6095,6 +6101,9 @@ dictitems:
   existential crisis:
     count: 3
     title: Existential Crisis
+  existential job crisis:
+    count: 1
+    title: Existential Job Crisis
   existentialism:
     count: 1
     title: Existentialism
@@ -6627,7 +6636,7 @@ dictitems:
     count: 1
     title: Flexbox
   flexibility:
-    count: 5
+    count: 6
     title: Flexibility
   flexible:
     count: 3
@@ -7040,6 +7049,9 @@ dictitems:
   future of computing:
     count: 1
     title: Future of Computing
+  future of jobs report:
+    count: 1
+    title: Future of Jobs Report
   future of technology:
     count: 1
     title: Future of Technology
@@ -7397,6 +7409,9 @@ dictitems:
   global space:
     count: 1
     title: global space
+  global transformation:
+    count: 1
+    title: Global Transformation
   glowing crystal:
     count: 1
     title: Glowing Crystal
@@ -9312,7 +9327,7 @@ dictitems:
     count: 1
     title: Jeff Atwood
   jekyll:
-    count: 51
+    count: 52
     title: Jekyll
   jekyll blog:
     count: 1
@@ -9818,6 +9833,9 @@ dictitems:
   koch snowflake:
     count: 1
     title: Koch Snowflake
+  kooky:
+    count: 1
+    title: Kooky
   koran:
     count: 1
     title: Koran
@@ -10065,7 +10083,7 @@ dictitems:
     count: 1
     title: Leveraging
   levinux:
-    count: 13
+    count: 14
     title: Levinux
   levinux fan page:
     count: 1
@@ -10272,7 +10290,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 188
+    count: 189
     title: Linux
   linux api:
     count: 1
@@ -10898,6 +10916,9 @@ dictitems:
   macromedia/adobe flash:
     count: 1
     title: Macromedia/Adobe Flash
+  macrotrends:
+    count: 1
+    title: Macrotrends
   mad hatter's tea party:
     count: 1
     title: Mad Hatter's Tea Party
@@ -11958,7 +11979,7 @@ dictitems:
     count: 1
     title: Motivating
   motivation:
-    count: 5
+    count: 6
     title: Motivation
   mount:
     count: 1
@@ -12348,7 +12369,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 37
+    count: 38
     title: NeoVim
   neovim path:
     count: 1
@@ -14402,6 +14423,9 @@ dictitems:
   professional:
     count: 1
     title: Professional
+  professional certificate:
+    count: 1
+    title: Professional Certificate
   professional journal:
     count: 1
     title: Professional Journal
@@ -14733,7 +14757,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 193
+    count: 194
     title: Python
   python 3:
     count: 1
@@ -15692,6 +15716,9 @@ dictitems:
   result:
     count: 9
     title: Results
+  ret:
+    count: 1
+    title: Ret
   retail:
     count: 1
     title: Retail
@@ -16524,7 +16551,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 89
+    count: 90
     title: SEO
   seo blog:
     count: 1
@@ -16601,6 +16628,9 @@ dictitems:
   server data:
     count: 1
     title: Server Data
+  server install script:
+    count: 1
+    title: Server Install Script
   server-build:
     count: 2
     title: server-build
@@ -16824,7 +16854,7 @@ dictitems:
     count: 1
     title: Simple
   simple.css:
-    count: 1
+    count: 2
     title: Simple.css
   simplecss:
     count: 2
@@ -18107,6 +18137,9 @@ dictitems:
   survival:
     count: 4
     title: Survival
+  suspended disbelief:
+    count: 1
+    title: Suspended Disbelief
   sustainability:
     count: 1
     title: Sustainability
@@ -18435,7 +18468,7 @@ dictitems:
     count: 1
     title: Technical Moves
   technical skills:
-    count: 2
+    count: 3
     title: Technical Skills
   technique:
     count: 3
@@ -18776,6 +18809,9 @@ dictitems:
   timeless tech tools:
     count: 1
     title: timeless tech tools
+  timeless tech wizard:
+    count: 1
+    title: Timeless Tech Wizard
   timeless tools:
     count: 1
     title: Timeless Tools
@@ -20235,7 +20271,7 @@ dictitems:
     count: 1
     title: webmaster tools
   website:
-    count: 30
+    count: 31
     title: Website
   website design:
     count: 1
@@ -20361,7 +20397,7 @@ dictitems:
     count: 81
     title: Windows
   windows 10:
-    count: 25
+    count: 26
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20370,7 +20406,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 23
+    count: 24
     title: Windows 11
   windows 7:
     count: 1
@@ -20400,7 +20436,7 @@ dictitems:
     count: 6
     title: Windows Subsystem
   windows subsystem for linux:
-    count: 6
+    count: 7
     title: Windows Subsystem for Linux
   windows subsystem for linux (wsl),:
     count: 1
@@ -20586,7 +20622,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 52
+    count: 53
     title: WSL
   wsl 2 lxd:
     count: 1

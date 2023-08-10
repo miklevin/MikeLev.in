@@ -4,7 +4,7 @@ title: A Simple and Bare Minimum Styles CSS File
 headline: I Stripped Down Simple.CSS to Create a Minimal and Polished CSS Framework for MyKoz.AI
 description: I am not a web developer. This step of a project intimidates me. Instead of using the next shiny bells and whistles JavaScript Framework, I prefer to build nearly from scratch and reacquaint myself with the latest Web fundamentals. I recently customized the Simple.css Minimal CSS Framework to get the perfect balance between technical details and a polished look. Check out the before and after versions to see the transformation!
 keywords: CSS, Simple.css, Minimal, Framework, Default, Customized, Buttons, Visual, Mobile, Click-Target, Links, Rounded, Copy/Paste, Before, After
-categories: copy/paste
+categories: 
 permalink: /blog/a-simple-and-bare-minimum-styles-css-file/
 layout: post
 group: blog
@@ -84,8 +84,7 @@ dependency-calls all over the place. Who needs a CDN when Microsoft's hosting?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
-<ul>
-<li><h4><a href='/copy-paste/'>Copy/Paste</a></h4></li></ul>
+<ul></ul>

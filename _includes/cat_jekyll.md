@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)
+<br/>In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!</li>
 <li><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a> (Thu Aug 10, 2023)
 <br/>Learn how to create a simple and effective CSS file to assert control over your website. Follow the steps outlined in this article to create a bare minimum styles.css file and link it to default.html. Get tips on how to ensure your changes are rendered correctly. Follow the MyKoz.AI site development!</li>
 <li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)

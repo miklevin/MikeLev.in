@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)
+<br/>In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!</li>
 <li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)
 <br/>This article started out as a humble little interactive session with Bing AI helping me get a new website off the ground that I'm launching today &#151; one that you should all check out if you want to future-proof yourself as AI rises. But then, I realized that Bing was "phantom clicking" the thumbs-up button on its own responses, and I captured the whole thing in this video!</li>
 <li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)

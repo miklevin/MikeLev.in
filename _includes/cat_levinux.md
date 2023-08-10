@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)
+<br/>In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!</li>
 <li><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a> (Tue Aug 08, 2023)
 <br/>This post is about consolidating the MyKoz.AI journaling system under one repository. I discuss the need to update the `.bash_profile` to include `sudo hwclock -s`, the need to create a `README.txt` file, and the decision to use one repo with the folders Intro, Journal, Practice, and Service. This is the preparatory work before MyKoz.AI can really be soft-launched. These repo's and particularly the Journaling system need to be in-place.</li>
 <li><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a> (Tue Aug 08, 2023)

@@ -4,7 +4,7 @@ title: Testing Google Photos Organization Program
 headline: Exploring the Impact of Media on Society with Google Photos Organization
 description: I'm testing a Google Photos organization system, uploading photos to my NAS, and setting up a home cloud to increase my storage capabilities. To get around certain API limitations, I'm using Microsoft Playwright browser automation on a headless LXD server. In this blog post, I discuss the impact of media on society and how it can be used to shape public opinion and create a more informed and connected society. Read more to find out my thoughts on this important topic.
 keywords: Google Photos, Organization, API, Microsoft Playwright, Browser Automation, Headless LXD, Server, Media, Society, Public Opinion, Informed, Connected
-categories: python, browser automation, google, microsoft playwright
+categories: python, browser automation, microsoft playwright, google
 permalink: /blog/testing-google-photos-organization-program/
 layout: post
 group: blog
@@ -82,5 +82,5 @@ certain API limitations, like not being able to delete media.
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>
