@@ -4,7 +4,7 @@ title: Verbalize the built-up not-yet memeified angsty feelings of the public.
 headline: "Maximizing Personal Advantage in the Age of AI: My Advocacy for 280 Character Tweets"
 description: As I experience the impact of AI, I'm advocating for the use of 280 character tweets to spread ideas and leverage current tools for personal gain. This is a unique moment in history and I'm determined to make the most of it. Click through to find out how.
 keywords: AI, 280 characters, spread ideas, leverage tools, personal gain, craftspeople, code, unique moment, history, maximize advantage
-categories: ai, history
+categories: history, ai
 permalink: /blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/
 layout: post
 group: blog
@@ -40,5 +40,5 @@ Cleverly utilizing todays common tools to maximum long-term personal advantage i
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/history/'>history</a></h4></li></ul>
+<li><h4><a href='/history/'>history</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

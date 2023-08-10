@@ -4,7 +4,7 @@ title: "Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour
 headline: My 30 Years in SEO Leads to a FOSS Automation Revolution with MyKoz.AI
 description: This is a big day for MyKoz.AI. Join me as I guide you through the soft-launch procedure of launching a site, soup to nuts. Learn how to automate Linux servers on boot-up and understand the changes in the SEO industry over the past 30 years. Leverage the amazing Jupyter Lab project to make your Python code immediately cloud compatible and get into the groove of real 24x7x365 automation with the Linux systemd init system.
 keywords: MyKoz.AI, Linux, Windows Subsystem for Linux, WSL, JuptyerLab, Jupyter Notebooks, Search Engine Optimization, SEO, Digital Equipment Corporation, DEC, AltaVista, Unix, Internet, System V init system, Shell Scripts, Command Line, Systemd, Mobile, Googleplex, Mountain View, Microsoft Campus, Redmond, Yahoo, Sunnyvale, New York, NYC, Tech Meetups, Free and Open Source Software, F
-categories: new york city, jupyter, linux, seo, wsl, systemd
+categories: new york city, jupyter, systemd, seo, linux, wsl
 permalink: /blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/
 layout: post
 group: blog
@@ -118,7 +118,25 @@ It makes all your Python code immediately ***cloud compatible***, and I throw
 you right into ***real*** 24x7x365 automation with the Linux systemd init
 system. And I do it all in a way that you can't possibly get lost.
 
+Most people are going to panic. They're going to think they're not smart enough
+to do this. They're going to think that the rise of AI is going to make them
+obsolete. They're going to think that they're going to be replaced by robots.
+The thing is that AI becomes a force-multiplier for those who ***get it***. And
+so to get it, you have to start somewhere. No, just "talking" isn't enough.
+Talking to AI's might be a good start, but it's not how you multiply your
+effectiveness and an individual human being and potential force multiplier.
 
+Yammering on forever, or ***orating*** in other words, is not how you organize
+and articulate your thoughts. I think some people are imagining a day where
+they don't have to learn how to even write, much less code. But that's like
+looking forward to not even having to think! It's not going to happen. You're
+always going to have to think if you want to do better in life. So, how do you
+get the ability to ***think better?***
+
+You get it by writing. And you get it by writing in a way that doesn't require
+you to think about the actual process of writing. You get it by committing vim
+to muscle memory. You get it by writing in a way that lets you tap into those
+force-multipliers that are AI and automation. You get it through MyKoz.AI.
 
 
 
@@ -138,7 +156,7 @@ system. And I do it all in a way that you can't possibly get lost.
 <ul>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
