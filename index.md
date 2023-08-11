@@ -39,23 +39,16 @@ core of AI and more.
 
 ### MyKoz.AI Real/OS Installation Instructions
 
-1. Before you begin, be sure you installed the Windows Subsystem for Linux
-   (WSL) and Ubuntu 22.04 from the Microsoft Store. That's usually done just by
-   having your Windows 10 or 11 machine up to date, and then searching for
-   Ubuntu 22.04 in the Microsoft store. You can also type `wsl --install` in a
-   Command Prompt or PowerShell window to install it.
-2. Copy the text below to your clipboard. Then create a file called `mykoz.bat`
-   on your Windows 10 or 11 desktop, save it, and double-click it. Note: Be
-   sure to save it as a `.bat` file, not a `.txt` file. This sometimes takes
-   going into Windows Explorer and turning off the option to hide common file
-   extensions. Also, the double-click to run may require extra security steps.
-3. This will download the latest version of the MyKoz.AI Real/OS installer,
-   called `Jupyter Ubuntu.bat`. Run it to replace the default Windows Ubuntu
-   22.04 with one that hosts JupyterLab on the web address
-   `http://localhost:8888` using Linux Python from the Windows Subsystem for
-   Linux (WSL). That's it! You new have JupyterLab running, which you can
-   access by clicking the new `JupyterLab` Shortcut on your desktop (which may
-   require an F5 refresh).
+1. Copy the text below. Then create a file called `mykoz.bat` on your Windows
+   10 or 11 desktop, save it, and double-click it. Note: Be sure to save it as
+   a `.bat` file, not a `.txt` file. This sometimes takes going into Windows
+   Explorer and turning off the option to hide common file extensions. Also,
+   the double-click to run may require extra security steps.
+2. This will download the installer, called `Jupyter Ubuntu.bat`. Run it to
+   replace the default Windows Ubuntu 22.04 with one that hosts JupyterLab on
+   Linux from the Windows Subsystem for Linux (WSL). That's it! You new have
+   JupyterLab running, which you can access by clicking the new `JupyterLab`
+   Shortcut on your desktop.
 
 ### Copy/Paste This Code Into a File On Your Desktop
 
