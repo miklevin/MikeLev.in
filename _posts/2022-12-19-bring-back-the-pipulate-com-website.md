@@ -4,7 +4,7 @@ title: Bring Back the Pipulate.com Website
 headline: Bringing Pipulate.com Back to Life with Python and FOSS SEO Software
 description: I'm bringing back Pipulate.com with a new version that's similar to MikeLev.in/index.md. I'm finally able to make my ideas on FOSS SEO software come to life using Python - the ultimate tool for SEO. Come check out my blog post to find out more!
 keywords: Pipulate.com, MikeLev.in, FOSS, SEO, Software, Python, Ultimate, Tool, Express, Ideas
-categories: seo, python
+categories: python, seo
 permalink: /blog/bring-back-the-pipulate-com-website/
 layout: post
 group: blog
@@ -50,5 +50,5 @@ great detail verbally
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: 30 Questions with Bing, Mostly About SEO
 headline: Exploring the Future of SEO with Bing
 description: Chat with Bing about MikeLev.in's project MyKoz.AI, a modern approach to finding value in life by mastering simple, lasting skills. Learn about MikeLev.in's vision, plans, and challenges in developing and launching the project, plus a long discussion tackling the future of the field of SEO and the general online experience of searchers and seekers, drawing parallels to libraries and the role of librarians. Also includes an examination of the role of publishers and advertisers in such exchanges.
 keywords: MikeLev.in, NYC, Levinux, Pipulate, LPvg, AI, SEO, Machine Learning, Copilot, YouTube, 0d39r33zk, Schwinger, Meissner, Antigravity, Propulsion, Meissner Effect, Schwinger Effect, TicTac Flux Liner, LK-99, Room-Temperature Superconductor, Copper-Substituted Lead Apatite, Quantum Energy Research Centre, Seoul, Highly Resist
-categories: youtube, pipulate, seo, levinux, ai, new york city, lpvg
+categories: ai, lpvg, new york city, pipulate, youtube, levinux, seo
 permalink: /blog/30-questions-with-bing-mostly-about-seo/
 layout: post
 group: blog
@@ -866,9 +866,10 @@ However, I also think that AI will pose some challenges or risks for traditional
 
 I hope you don't mind me sharing some of the web search results that I found about how AI is improving the quality of traditional search. I think they might be helpful and interesting for you to learn more about this topic. 😊
 
-- [How Google is improving Search with Generative AI - The Keyword](^1^): This is an article from Google that features a conversation with Elizabeth Reid Vice President & GM of Search about how Google is using generative AI to give users more information and context to their searches. She discusses how generative AI can help users find the answers they are looking for faster and easier. She also shares how users can sign up today to test Google's latest update to Search that uses generative AI. 😮
-- [How Artificial Intelligence is Changing the Landscape of Digital Marketing - Entrepreneur India](^4^): This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how AI technology is evolving every aspect of digital marketing such as audience targeting audience interest analysis web optimization smart content writing and recommendation advanced tracking and reporting and more. He also highlights some of the examples and trends of using AI for digital marketing in India and globally. 😲
-- [AI in Search Engines: Everything You Need to Know - Marketing AI Institute](^3^): This is an article from Marketing AI Institute by Paul Roetzer founder of Marketing Artificial Intelligence Institute. He discusses how AI powers almost every part of a search engine including things like indexing all the pages published online and understanding their contents interpreting search queries by understanding human language matching queries to the most accurate
+- How Google is improving Search with Generative AI - The Keyword(^1^): This is an article from Google that features a conversation with Elizabeth Reid Vice President & GM of Search about how Google is using generative AI to give users more information and context to their searches. She discusses how generative AI can help users find the answers they are looking for faster and easier. She also shares how users can sign up today to test Google's latest update to Search that uses generative AI. 😮
+- How Artificial Intelligence is Changing the Landscape of Digital Marketing - Entrepreneur India(^4^): This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how AI technology is evolving every aspect of digital marketing such as audience targeting audience interest analysis web optimization smart content writing and recommendation advanced tracking and reporting and more. He also highlights some of the examples and trends of using AI for digital marketing in India and globally. 😲
+- AI in Search Engines: Everything You Need to Know - Marketing AI Institute(^3^): This is an article from Marketing AI Institute by Paul Roetzer founder of Marketing Artificial Intelligence Institute. He discusses how AI powers almost every part of a search engine including things like indexing all the pages published online and understanding their contents interpreting search queries by understanding human language matching queries to the most accurate
+
 and highest quality results evaluating
 and reevaluating content quality
 to consistently improve search results
@@ -926,21 +927,10 @@ However, I also think that AI will not be "forced" to serve ads to everybody eve
 
 I hope you don't mind me sharing some of the web search results that I found about how AI is changing the landscape of advertising and search. I think they might be helpful and interesting for you to learn more about this topic. 😊
 
-- [How Artificial Intelligence Is Changing Online Advertising - Forbes]: This is an article from Forbes by Bernard Marr, an internationally best-selling author, popular keynote speaker, futurist, and a strategic business & technology advisor to governments and companies. He discusses how artificial intelligence is transforming online advertising in various ways, such as targeting audiences more effectively, creating more engaging ad content, optimizing ad campaigns more efficiently, measuring ad performance more accurately, and more. He also shares some of the examples and trends of using AI for online advertising globally. 😮
-- [How Artificial Intelligence Is Changing The Future Of Search Engines - Entrepreneur India]: This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how artificial intelligence is changing the future of search engines in various ways, such as understanding natural language better, providing more information and context faster, offering more conversational and voice-based search experiences easier,
-suggesting more related queries
-and subtopics smarter,
-and more.
-He also highlights some of the examples
-and trends
-of using AI
-for search engines
-in India
-and globally.
-😲
-
-- [How Artificial Intelligence Is Changing The Landscape Of Digital Marketing - Entrepreneur India]: This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how AI technology is evolving every aspect of digital marketing such as audience targeting audience interest analysis web optimization smart content writing and recommendation advanced tracking and reporting and more. He also highlights some of the examples and trends of using AI for digital marketing in India and globally. 😎
-- [The Future of Advertising: How Artificial Intelligence Is Changing Advertising - Medium]: This is an article from Medium by Rishabh Dev managing director at Mapplinks Academy. He discusses how artificial intelligence is changing advertising in various ways such as creating personalized ads based on user behavior emotions or preferences generating original and diverse ad content using generative AI optimizing ad campaigns using machine learning or deep learning measuring ad effectiveness using sentiment analysis or feedback analysis and more. He also shares some of the tools and platforms that use AI for advertising such as Phrasee Persado ReFUEL4 Albert.ai or Amplero. 😁
+- How Artificial Intelligence Is Changing Online Advertising - Forbes: This is an article from Forbes by Bernard Marr, an internationally best-selling author, popular keynote speaker, futurist, and a strategic business & technology advisor to governments and companies. He discusses how artificial intelligence is transforming online advertising in various ways, such as targeting audiences more effectively, creating more engaging ad content, optimizing ad campaigns more efficiently, measuring ad performance more accurately, and more. He also shares some of the examples and trends of using AI for online advertising globally. 😮
+- How Artificial Intelligence Is Changing The Future Of Search Engines - Entrepreneur India: This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how artificial intelligence is changing the future of search engines in various ways, such as understanding natural language better, providing more information and context faster, offering more conversational and voice-based search experiences easier, suggesting more related queries and subtopics smarter, and more. He also highlights some of the examples and trends of using AI for search engines in India and globally. 😲
+- How Artificial Intelligence Is Changing The Landscape Of Digital Marketing - Entrepreneur India: This is an article from Entrepreneur India by Ankit Prasad founder and CEO of Bobble AI Technologies. He discusses how AI technology is evolving every aspect of digital marketing such as audience targeting audience interest analysis web optimization smart content writing and recommendation advanced tracking and reporting and more. He also highlights some of the examples and trends of using AI for digital marketing in India and globally. 😎
+- The Future of Advertising: How Artificial Intelligence Is Changing Advertising - Medium: This is an article from Medium by Rishabh Dev managing director at Mapplinks Academy. He discusses how artificial intelligence is changing advertising in various ways such as creating personalized ads based on user behavior emotions or preferences generating original and diverse ad content using generative AI optimizing ad campaigns using machine learning or deep learning measuring ad effectiveness using sentiment analysis or feedback analysis and more. He also shares some of the tools and platforms that use AI for advertising such as Phrasee Persado ReFUEL4 Albert.ai or Amplero. 😁
 
 These are some of the web search results
 that I found about how AI
@@ -1293,10 +1283,10 @@ Bing: That's the most I can say about that. Click “New topic” and we can kee
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
