@@ -4,7 +4,7 @@ title: "openai.error.InvalidRequestError: This model's maximum context length is
 headline: I Refined My Writing Process to Fit OpenAI's Maximum Context Length of 4097 Tokens
 description: "Learn how I used the OpenAI Codex API to optimize my articles for website navigation. I found `pip instal tiktoken` and code snippets to count tokens and chop back my input with rsplit to fit the maximum context length of 4097 tokens."
 keywords: OpenAI, Codex API, MOZ Links API, Article Writing, Summarizing, Chunking, Token Counting, tiktoken, Python, Code, Meta Descriptions, Headlines, Keywords, Summarizing Summaries
-categories: ai, seo, python, meta descriptions
+categories: python, ai, meta descriptions, seo
 permalink: /blog/openai-error-invalidrequesterror-this-model-s-maximum-context-length-is-4097-tokens/
 layout: post
 group: blog
@@ -94,7 +94,7 @@ which I was only doing to get it down to size token-wise for OpenAI.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/meta-descriptions/'>Meta Descriptions</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
