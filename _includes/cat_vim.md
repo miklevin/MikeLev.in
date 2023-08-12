@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a> (Fri Aug 11, 2023)
+<br/>I'm creating a life management aid to take control of my own life. I'm sharing timeless tools to future-proof yourself, such as touch typing on a QWERTY keyboard, learning Linux, and journaling in Vim to gain the skills necessary to succeed in any world we may face. With these skills, you can gain the advantage of mastering tech, from creating a robot army to using a headless CMS.</li>
 <li><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a> (Thu Aug 10, 2023)
 <br/>Learn how to create a simple and effective CSS file to assert control over your website. Follow the steps outlined in this article to create a bare minimum styles.css file and link it to default.html. Get tips on how to ensure your changes are rendered correctly. Follow the MyKoz.AI site development!</li>
 <li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)

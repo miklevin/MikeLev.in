@@ -72,7 +72,7 @@ dictitems:
     count: 1
     title: --shutdown
   .bash_profile:
-    count: 3
+    count: 4
     title: .bash_profile
   .bash_prompt:
     count: 1
@@ -822,7 +822,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 117
+    count: 118
     title: AI
   ai bros:
     count: 1
@@ -866,6 +866,9 @@ dictitems:
   ai-dependencies:
     count: 1
     title: AI-Dependencies
+  ai-friend:
+    count: 1
+    title: AI-friend
   ai-generated:
     count: 2
     title: AI-generated
@@ -941,6 +944,9 @@ dictitems:
   algorithmic bias:
     count: 1
     title: Algorithmic Bias
+  alias:
+    count: 1
+    title: alias
   alice:
     count: 4
     title: Alice
@@ -1563,7 +1569,7 @@ dictitems:
     count: 1
     title: Auto
   auto-complete:
-    count: 2
+    count: 3
     title: Auto-Complete
   auto-generated:
     count: 1
@@ -1635,7 +1641,7 @@ dictitems:
     count: 1
     title: Awakening
   awareness:
-    count: 2
+    count: 3
     title: Awareness
   aweber:
     count: 1
@@ -1866,7 +1872,7 @@ dictitems:
     count: 1
     title: Beginning
   behavior:
-    count: 2
+    count: 3
     title: Behavior
   being:
     count: 1
@@ -2301,8 +2307,8 @@ dictitems:
     count: 1
     title: Boot,
   bootstrap:
-    count: 1
-    title: Bootstrap
+    count: 2
+    title: bootstrap
   boredom:
     count: 1
     title: Boredom
@@ -2349,8 +2355,8 @@ dictitems:
     count: 1
     title: Brackets
   brain:
-    count: 5
-    title: brain
+    count: 6
+    title: brains
   brain structure:
     count: 1
     title: Brain Structure
@@ -2358,7 +2364,7 @@ dictitems:
     count: 1
     title: Brainstem
   bram moolenaar:
-    count: 4
+    count: 5
     title: Bram Moolenaar
   branch:
     count: 1
@@ -3150,7 +3156,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 19
+    count: 20
     title: Cloud
   cloud chamber:
     count: 1
@@ -3401,6 +3407,9 @@ dictitems:
   command-line path:
     count: 1
     title: Command-Line Path
+  commander:
+    count: 1
+    title: commander
   comment:
     count: 2
     title: Comments
@@ -3870,7 +3879,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 27
+    count: 28
     title: Copilot
   copilot ai:
     count: 1
@@ -4056,8 +4065,8 @@ dictitems:
     count: 2
     title: Creating
   creative:
-    count: 1
-    title: Creative
+    count: 2
+    title: creative
   creativity:
     count: 7
     title: Creativity
@@ -4574,6 +4583,9 @@ dictitems:
   decorator:
     count: 1
     title: Decorators
+  decouple:
+    count: 1
+    title: decouple
   decrease in cost:
     count: 1
     title: Decrease in Cost
@@ -5874,7 +5886,7 @@ dictitems:
     count: 2
     title: Enumerate
   environment:
-    count: 13
+    count: 14
     title: Environment
   environment variable:
     count: 2
@@ -6153,8 +6165,8 @@ dictitems:
     count: 1
     title: experimenting
   expert:
-    count: 1
-    title: Expert
+    count: 2
+    title: experts
   expertise:
     count: 3
     title: Expertise
@@ -7178,6 +7190,9 @@ dictitems:
   geek:
     count: 1
     title: Geek
+  geeky:
+    count: 1
+    title: geeky
   geforce gtx 1060:
     count: 1
     title: GeForce GTX 1060
@@ -7947,7 +7962,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 19
+    count: 21
     title: Hardware
   harkonnen:
     count: 1
@@ -9486,7 +9501,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 39
+    count: 40
     title: Journaling
   journaling system:
     count: 1
@@ -9662,6 +9677,9 @@ dictitems:
   kennith thompson:
     count: 1
     title: Kennith Thompson
+  kenny rodgers:
+    count: 1
+    title: Kenny Rodgers
   kernel:
     count: 3
     title: Kernel
@@ -9933,7 +9951,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 14
+    count: 15
     title: Laptop
   laptop computing:
     count: 1
@@ -10137,7 +10155,7 @@ dictitems:
     count: 2
     title: lie
   life:
-    count: 29
+    count: 30
     title: Life
   life advice:
     count: 1
@@ -11058,7 +11076,7 @@ dictitems:
     count: 2
     title: Manage
   management:
-    count: 3
+    count: 4
     title: Management
   manager:
     count: 1
@@ -11897,6 +11915,9 @@ dictitems:
   modern technology:
     count: 1
     title: Modern Technology
+  modified:
+    count: 1
+    title: modified
   modular:
     count: 1
     title: Modular
@@ -12312,7 +12333,7 @@ dictitems:
     count: 1
     title: navigating
   navigation:
-    count: 6
+    count: 7
     title: Navigation
   navigation elements:
     count: 1
@@ -12378,7 +12399,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 38
+    count: 39
     title: NeoVim
   neovim path:
     count: 1
@@ -12771,7 +12792,7 @@ dictitems:
     count: 3
     title: NVIDIA
   nvim:
-    count: 1
+    count: 2
     title: nvim
   nyc:
     count: 11
@@ -13362,8 +13383,8 @@ dictitems:
     count: 1
     title: Paradoxes
   paralysis:
-    count: 1
-    title: Paralysis
+    count: 2
+    title: paralysis
   parameter:
     count: 4
     title: Parameter
@@ -13674,8 +13695,8 @@ dictitems:
     count: 1
     title: Phishing Vulnerability
   phone:
-    count: 1
-    title: Phone
+    count: 2
+    title: phone
   photo:
     count: 1
     title: photos
@@ -13890,7 +13911,7 @@ dictitems:
     count: 2
     title: Plates
   platform:
-    count: 16
+    count: 17
     title: Platform
   platform optimization:
     count: 1
@@ -16545,8 +16566,8 @@ dictitems:
     count: 1
     title: Sendmail.py
   sens:
-    count: 1
-    title: Senses
+    count: 2
+    title: senses
   sensitivity:
     count: 2
     title: Sensitivity
@@ -16973,6 +16994,9 @@ dictitems:
   sites.txt:
     count: 4
     title: sites.txt
+  situational:
+    count: 1
+    title: situational
   situational awareness:
     count: 2
     title: situational awareness
@@ -17208,7 +17232,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 26
+    count: 27
     title: Software
   software development:
     count: 3
@@ -17987,6 +18011,9 @@ dictitems:
   subject-matter:
     count: 1
     title: Subject-Matter
+  subjective:
+    count: 1
+    title: subjective
   subjective experience:
     count: 2
     title: Subjective Experience
@@ -18594,7 +18621,7 @@ dictitems:
     count: 3
     title: Text Editing
   text editor:
-    count: 8
+    count: 9
     title: Text Editor
   text editors:
     count: 7
@@ -19866,7 +19893,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 121
+    count: 122
     title: Vim
   vim buffer:
     count: 1
@@ -20013,7 +20040,7 @@ dictitems:
     count: 1
     title: Visual Studio Code
   visualization:
-    count: 5
+    count: 6
     title: Visualization
   visualize:
     count: 3
@@ -20622,7 +20649,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 32
+    count: 33
     title: Writing
   writing code:
     count: 1
