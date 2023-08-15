@@ -824,6 +824,9 @@ dictitems:
   ai:
     count: 118
     title: AI
+  ai apocalypse:
+    count: 1
+    title: AI apocalypse
   ai bros:
     count: 1
     title: AI Bros
@@ -833,6 +836,9 @@ dictitems:
   ai goldrush:
     count: 1
     title: AI goldrush
+  ai hubbub:
+    count: 1
+    title: AI hubbub
   ai language models:
     count: 1
     title: AI Language Models
@@ -929,6 +935,9 @@ dictitems:
   alert:
     count: 1
     title: Alerts
+  alexa:
+    count: 1
+    title: Alexa
   aleyda sol:
     count: 1
     title: Aleyda Sol
@@ -1011,7 +1020,7 @@ dictitems:
     count: 1
     title: Alphabetize
   alphago:
-    count: 2
+    count: 3
     title: AlphaGo
   alpine:
     count: 1
@@ -1286,6 +1295,9 @@ dictitems:
   apple photos app:
     count: 1
     title: Apple Photos App
+  apple tv:
+    count: 1
+    title: Apple TV
   apple-product:
     count: 1
     title: Apple-product
@@ -1773,7 +1785,7 @@ dictitems:
     count: 4
     title: Banner
   bard:
-    count: 3
+    count: 4
     title: Bard
   bare minimum site:
     count: 1
@@ -2046,7 +2058,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 23
+    count: 24
     title: Bing
   bing chatbot:
     count: 1
@@ -2477,6 +2489,9 @@ dictitems:
   bruce wayne:
     count: 1
     title: Bruce Wayne
+  brute force:
+    count: 1
+    title: Brute force
   btn:
     count: 1
     title: Btn
@@ -2888,6 +2903,9 @@ dictitems:
   chat:
     count: 2
     title: Chat
+  chat bots:
+    count: 1
+    title: Chat bots
   chatbot:
     count: 8
     title: Chatbot
@@ -2898,7 +2916,7 @@ dictitems:
     count: 2
     title: ChatBots
   chatgpt:
-    count: 27
+    count: 28
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3708,7 +3726,7 @@ dictitems:
     count: 1
     title: Conscious Plan
   consciousness:
-    count: 10
+    count: 11
     title: Consciousness
   consent:
     count: 1
@@ -4068,7 +4086,7 @@ dictitems:
     count: 2
     title: creative
   creativity:
-    count: 7
+    count: 8
     title: Creativity
   creator:
     count: 1
@@ -4610,6 +4628,9 @@ dictitems:
   deep:
     count: 1
     title: Deep
+  deep blue:
+    count: 1
+    title: Deep Blue
   deep breath:
     count: 1
     title: deep breath
@@ -6102,8 +6123,8 @@ dictitems:
     count: 5
     title: Execute
   executive function:
-    count: 2
-    title: executive function
+    count: 3
+    title: Executive function
   exforce:
     count: 1
     title: ExForce
@@ -6828,8 +6849,11 @@ dictitems:
     count: 1
     title: Found
   foundation:
-    count: 2
+    count: 3
     title: Foundation
+  foundation series:
+    count: 1
+    title: Foundation series
   founder:
     count: 1
     title: founder
@@ -6891,7 +6915,7 @@ dictitems:
     count: 1
     title: Free Tools
   free will:
-    count: 2
+    count: 3
     title: Free Will
   free-will:
     count: 1
@@ -7172,6 +7196,9 @@ dictitems:
   gary:
     count: 1
     title: Gary
+  gary kasparov:
+    count: 1
+    title: Gary Kasparov
   gaslighting:
     count: 1
     title: Gaslighting
@@ -7544,6 +7571,9 @@ dictitems:
   google apis:
     count: 1
     title: Google APIs
+  google assistant:
+    count: 1
+    title: Google Assistant
   google blogger:
     count: 1
     title: Google Blogger
@@ -7691,6 +7721,9 @@ dictitems:
   gpu:
     count: 1
     title: GPU
+  gpu clusters:
+    count: 1
+    title: GPU clusters
   gpu utilization:
     count: 1
     title: GPU utilization
@@ -8435,6 +8468,9 @@ dictitems:
   human:
     count: 8
     title: Human
+  human autonomy:
+    count: 1
+    title: Human autonomy
   human beings:
     count: 1
     title: Human Beings
@@ -9236,6 +9272,9 @@ dictitems:
   irresistible:
     count: 1
     title: Irresistible
+  isaac asimov:
+    count: 1
+    title: Isaac Asimov
   isaac newton:
     count: 1
     title: Isaac Newton
@@ -10061,6 +10100,9 @@ dictitems:
   lee meriwether:
     count: 1
     title: Lee Meriwether
+  lee sedol:
+    count: 1
+    title: Lee Sedol
   left-arrow:
     count: 1
     title: left-arrow
@@ -12341,6 +12383,9 @@ dictitems:
   navy ufo:
     count: 1
     title: Navy UFO
+  naysayer:
+    count: 1
+    title: Naysayers
   nbconvert:
     count: 1
     title: Nbconvert
@@ -12567,7 +12612,7 @@ dictitems:
     count: 1
     title: night/day
   nihilism:
-    count: 1
+    count: 2
     title: Nihilism
   nikon d5600:
     count: 1
@@ -13661,6 +13706,9 @@ dictitems:
   persuasion:
     count: 1
     title: Persuasion
+  pessimism:
+    count: 1
+    title: Pessimism
   pessimist:
     count: 1
     title: Pessimists
@@ -14628,8 +14676,8 @@ dictitems:
     count: 1
     title: Psychedelic
   psychohistory:
-    count: 1
-    title: psychohistory
+    count: 2
+    title: Psychohistory
   psychology:
     count: 1
     title: Psychology
@@ -16170,7 +16218,7 @@ dictitems:
     count: 1
     title: Sanctuary
   sandbox:
-    count: 1
+    count: 2
     title: Sandboxes
   sans-serif:
     count: 1
@@ -16964,6 +17012,9 @@ dictitems:
   sir patrick stewart:
     count: 1
     title: Sir Patrick Stewart
+  siri:
+    count: 1
+    title: Siri
   site:
     count: 8
     title: Site
@@ -19139,6 +19190,9 @@ dictitems:
   trend:
     count: 4
     title: Trends
+  trevor:
+    count: 1
+    title: Trevor
   tribe:
     count: 1
     title: Tribe
@@ -19236,7 +19290,7 @@ dictitems:
     count: 5
     title: Tuples
   turing test:
-    count: 3
+    count: 4
     title: Turing Test
   turkey:
     count: 1
@@ -19494,7 +19548,7 @@ dictitems:
     count: 1
     title: Universality
   universe:
-    count: 4
+    count: 5
     title: Universe
   university of manchester:
     count: 1
