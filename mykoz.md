@@ -21,9 +21,9 @@ set of broadly applicable skills with you for the rest of your life.
 
 Look, you could be using VSCode and be doing everything exactly the same way as
 everyone else, beholden to a vendor's vision of what your future should be.
-What I propose threatens the status quo. And I'm not going to lie to you, it's
-going to be a lot of work. But if you're brave, you'll find yourself thinking
-in 10-year increments, instead of being function of next quarter's profits.
+What I propose here is in opposition to the status quo, and it's going to be a
+lot of work. But if you're brave, you'll find yourself thinking in 10-year
+increments, instead of being function of next quarter's profits.
 
 <img alt="Alice Falling Down Rabbit Hole ASCII Art" src="/assets/images/alice-ascii-art-copyright-mike-levin.png">
 
@@ -36,42 +36,18 @@ you've been thinking of taking up skills that will last a lifetime in the areas
 of programming, data science, and machine learning, this URL is the place to
 start:
 
-### MyKoz.AI Real/OS Installation Instructions
+#### How To Install MyKoz.AI
 
-1. Copy the text below. Then create a file called `mykoz.bat` on your Windows
-   10 or 11 desktop, save it, and double-click it. Note: Be sure to save it as
-   a `.bat` file, not a `.txt` file. This sometimes takes going into Windows
-   Explorer and turning off the option to hide common file extensions. Also,
-   the double-click to run may require extra security steps.
-2. This will download the installer, called `Jupyter Ubuntu.bat`. Run it to
-   replace the default Windows Ubuntu 22.04 with one that hosts JupyterLab on
-   Linux from the Windows Subsystem for Linux (WSL). That's it! You new have
-   JupyterLab running, which you can access by clicking the new `JupyterLab`
-   Shortcut on your desktop.
-
-### Copy/Paste This Code Into a File On Your Desktop
-
-```bash
-@echo off
-setlocal enableDelayedExpansion
-set "TIME=%TIME::=%"
-set "TIME=%TIME:.=%"
-set /a "T=%TIME%"
-set "URL=https://raw.githubusercontent.com/miklevin/mykoz/main/install.bat?cache=%T%"
-set "FILENAME=Jupyter Ubuntu.bat"
-curl -s -o "%FILENAME%" "%URL%" ^
-    -H "Cache-Control: no-cache, no-store, must-revalidate" ^
-    -H "Pragma: no-cache" ^
-    -H "Expires: 0" ^
-    --proxy-header "Cache-Control: no-cache" ^
-    --proxy-header "Cache-Control: no-store"
-```
-
-## Details
-
-If you haven't read Alice's Adventures in Wonderland, you should. In the words
-of the Mouse, Mine is a long and sad tale. But it's also a tale of hope and
-redemption. I'm going to teach you how to use Linux to improve forever.
+1. Copy the text below. Create a file called ***mykoz.bat*** on your Desktop,
+   save and ***double-click it***. Be sure to save it as a .bat file, not .txt,
+   which might require into Windows Explorer and turning off the option to hide
+   common file extensions. Also, the double-click to run may require extra
+   security approval steps.
+2. This downloads the actual installer named ***Jupyter Ubuntu.bat***.
+   ***Double-click it.*** It replaces Ubuntu 22.04 with one configured to hosts
+   JupyterLab on Linux from the Windows Subsystem for Linux (WSL). That's it!
+   You new have JupyterLab running, which you can reach with the new JupyterLab
+   icon on your desktop.
 
 ## The Problem
 
@@ -103,10 +79,11 @@ pave the way for a lifetime of learning and skills that will last forever.
 # The Journey
 
 There is also an automated Linux service that I set up running in the called
-"WHIM" (With Help, I Monitor) which you update from a Jupyter Notebook, thus
-bridging the gap between the command line and the GUI. If you've ever wondered
-how to ***really*** automate Python code you write in Notebooks, this is it. So
-we go from easy peasy Python in a browser to a genuine Linux systemd service.
+"yourservice" (With Help, I Monitor) which you update from a Jupyter Notebook,
+thus bridging the gap between the command line and the GUI. If you've ever
+wondered how to ***really*** automate Python code you write in Notebooks, this
+is it. So we go from easy peasy Python in a browser to a genuine Linux systemd
+service.
 
 # The Destination
 
