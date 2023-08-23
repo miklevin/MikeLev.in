@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)
 <br/>Join me on MyKoz.AI Real/OS for small, portable, lifelong tech skills. Learn Python in JupyterLab and move to Linux services in one sitting. Get personal guidance and help from me when you get stuck, and learn to resist planned obsolescence. Subscribe to MyKoz.AI and become part of the movement for free and open source software on Linux.</li>
 <li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)

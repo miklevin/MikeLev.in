@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)
 <br/>I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.</li>
 <li><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a> (Sat Aug 05, 2023)

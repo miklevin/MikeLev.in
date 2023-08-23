@@ -1,3 +1,35 @@
+- linux
+- terminal
+- window
+- cloud
+- python
+- vim
+- git
+- lpvg
+- fo
+- command-line
+- interface
+- tty
+- shell
+- bash
+- jupyter
+- notebook
+- repl
+- google
+- colab
+- anaconda
+- mount
+- home
+- directory
+- microsoft
+- playwright
+- automation
+- screenshot
+- systemd
+- daemon
+- service
+- wsl
+- symlink
 - executive function
 - human autonomy
 - free will
@@ -45,7 +77,6 @@
 - platform
 - phone
 - laptop
-- cloud
 - ai
 - commander
 - situational
@@ -53,7 +84,6 @@
 - subjective
 - sens
 - brain
-- vim
 - neovim
 - copilot
 - auto-complete
@@ -73,7 +103,6 @@
 - nyc
 - levinux
 - pipulate
-- lpvg
 - seo
 - machine learning
 - youtube
@@ -91,12 +120,9 @@
 - quantum energy research centre
 - seoul
 - highly resist
-- linux
-- python
 - jekyll
 - simple.css
 - website
-- wsl
 - windows subsystem for linux
 - windows 10
 - windows 11
@@ -153,7 +179,6 @@
 - network
 - css build
 - rabbit hole
-- git
 - push
 - render
 - minimum
@@ -222,7 +247,6 @@
 - system v init system
 - shell scripts
 - command line
-- systemd
 - googleplex
 - mountain view
 - microsoft campus
@@ -252,7 +276,6 @@
 - formspree
 - 99inbound
 - lpvg stack
-- window
 - mac
 - open source
 - future-proof
@@ -260,14 +283,12 @@
 - go
 - sorcerer's apprentice
 - mickey mouse
-- automation
 - data scientists
 - system
 - repo
 - bash_profile
 - wsl2
 - clock
-- terminal
 - host
 - sleep
 - todo
@@ -282,9 +303,7 @@
 - convention
 - nbdev
 - practice
-- service
 - alphabetize
-- directory
 - yamlchop
 - publish
 - generic
@@ -308,7 +327,6 @@
 - git repo,
 - hosting
 - headless cms
-- jupyter
 - readme.txt
 - intro repo
 - neovim path
@@ -323,7 +341,6 @@
 - 80/20
 - microsoft store
 - windows terminal
-- fo
 - ubuntu
 - user experience
 - a/b testing
@@ -337,7 +354,6 @@
 - superdeterminism
 - non
 - chatbot
-- google
 - app
 - virtual
 - machine
@@ -353,20 +369,17 @@
 - reinforcement
 - learning
 - conversation
-- interface
 - apps
 - datacenters
 - facial
 - recognition
 - questions,
-- daemon
 - cli
 - towitism
 - taoism
 - stoicism
 - bullet journal
 - api
-- microsoft
 - apple
 - juputerlab
 - server-build
@@ -438,7 +451,6 @@
 - identity
 - video
 - war games
-- bash
 - qemu
 - pc
 - emulator
@@ -449,10 +461,8 @@
 - occam's razor
 - o
 - vscode
-- anaconda
 - desktop-jupyter
 - raspberry pi
-- command-line
 - programming
 - file paths
 - forward slashes
@@ -717,7 +727,6 @@
 - dis close purrr
 - alpha to omega
 - love is the first and last word
-- colab
 - "fernando p\xE9rez"
 - brian granger
 - min ragan-kelley
@@ -1065,7 +1074,6 @@
 - homebrew
 - rosetta
 - instance
-- shell
 - documentation
 - installation
 - prerequisite
@@ -1541,7 +1549,6 @@
 - java
 - c-language
 - wora
-- notebook
 - google colab
 - kaggle
 - azure notebooks
@@ -1590,7 +1597,6 @@
 - root
 - sudo
 - sudo_root
-- symlink
 - multi-user.target.wants
 - j
 - pc modding
@@ -2650,7 +2656,6 @@
 - meetups
 - slug
 - automating
-- playwright
 - moz pro
 - keyword research
 - ranking keywords
@@ -2751,7 +2756,6 @@
 - product improvements
 - work-journal
 - discovery
-- home
 - place
 - spiritual connection
 - clustering
@@ -2786,7 +2790,6 @@
 - keyword metadata
 - clustering algorithms
 - topic modeling algorithms
-- tty
 - yake
 - self-improvement
 - kickstarter
@@ -3527,7 +3530,6 @@
 - classify
 - handwritten digits
 - session
-- screenshot
 - dom
 - recorder
 - human emotions
@@ -5263,7 +5265,6 @@
 - stress reduction
 - problem solving
 - manager
-- mount
 - file systems
 - combine
 - df
@@ -5929,7 +5930,6 @@
 - local services
 - cloud resources
 - synology nas
-- repl
 - adapting
 - new
 - changing

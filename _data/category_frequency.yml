@@ -1116,7 +1116,7 @@ dictitems:
     count: 1
     title: amygdala
   anaconda:
-    count: 3
+    count: 4
     title: Anaconda
   analysis:
     count: 2
@@ -1623,7 +1623,7 @@ dictitems:
     count: 3
     title: Automating
   automation:
-    count: 24
+    count: 25
     title: Automation
   automation,:
     count: 1
@@ -1794,7 +1794,7 @@ dictitems:
     count: 1
     title: base64
   bash:
-    count: 11
+    count: 12
     title: Bash
   bash file:
     count: 1
@@ -3174,7 +3174,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 20
+    count: 21
     title: Cloud
   cloud chamber:
     count: 1
@@ -3315,7 +3315,7 @@ dictitems:
     count: 1
     title: Coinbase
   colab:
-    count: 1
+    count: 2
     title: Colab
   cold fusion:
     count: 1
@@ -3411,7 +3411,7 @@ dictitems:
     count: 3
     title: Command Line Interface
   command-line:
-    count: 8
+    count: 9
     title: Command-Line
   command-line argument:
     count: 1
@@ -4329,8 +4329,8 @@ dictitems:
     count: 1
     title: daddies
   daemon:
-    count: 4
-    title: Daemons
+    count: 5
+    title: Daemon
   daemonizing:
     count: 1
     title: Daemonizing
@@ -5013,7 +5013,7 @@ dictitems:
     count: 2
     title: Directive
   directory:
-    count: 6
+    count: 7
     title: Directory
   dirty dogs:
     count: 1
@@ -6723,7 +6723,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 19
+    count: 20
     title: FOSS
   foam:
     count: 1
@@ -7365,7 +7365,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 83
+    count: 84
     title: Git
   git commit:
     count: 2
@@ -7548,7 +7548,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 25
+    count: 26
     title: Google
   google analytics:
     count: 14
@@ -8298,7 +8298,7 @@ dictitems:
     count: 1
     title: Holographic Universe
   home:
-    count: 7
+    count: 8
     title: Home
   home cloud:
     count: 2
@@ -9105,7 +9105,7 @@ dictitems:
     count: 1
     title: Interesting Components
   interface:
-    count: 3
+    count: 4
     title: Interfaces
   interference:
     count: 1
@@ -9624,7 +9624,7 @@ dictitems:
     count: 2
     title: jupyme
   jupyter:
-    count: 33
+    count: 34
     title: Jupyter
   jupyter environment:
     count: 1
@@ -10356,7 +10356,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 189
+    count: 190
     title: Linux
   linux api:
     count: 1
@@ -10827,7 +10827,7 @@ dictitems:
     count: 1
     title: Lowercase
   lpvg:
-    count: 11
+    count: 12
     title: LPvg
   lpvg movement:
     count: 1
@@ -11652,7 +11652,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 57
+    count: 58
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12054,7 +12054,7 @@ dictitems:
     count: 6
     title: Motivation
   mount:
-    count: 1
+    count: 2
     title: Mount
   mountain:
     count: 1
@@ -12777,7 +12777,7 @@ dictitems:
     count: 1
     title: Note 8
   notebook:
-    count: 14
+    count: 15
     title: Notebook
   notebook renaming:
     count: 1
@@ -13980,7 +13980,7 @@ dictitems:
     count: 1
     title: Playlist
   playwright:
-    count: 6
+    count: 7
     title: Playwright
   playwright inspector:
     count: 1
@@ -14835,7 +14835,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 194
+    count: 195
     title: Python
   python 3:
     count: 1
@@ -15639,7 +15639,7 @@ dictitems:
     count: 1
     title: Repetition
   repl:
-    count: 1
+    count: 2
     title: REPL
   replace:
     count: 1
@@ -16383,7 +16383,7 @@ dictitems:
     count: 1
     title: Screencasting
   screenshot:
-    count: 2
+    count: 3
     title: Screenshot
   screenshots:
     count: 1
@@ -16731,7 +16731,7 @@ dictitems:
     count: 1
     title: Server-Side
   service:
-    count: 15
+    count: 16
     title: Service
   session:
     count: 3
@@ -16842,7 +16842,7 @@ dictitems:
     count: 1
     title: Sheeple
   shell:
-    count: 5
+    count: 6
     title: Shell
   shell commands:
     count: 1
@@ -18303,7 +18303,7 @@ dictitems:
     count: 1
     title: symbolism
   symlink:
-    count: 1
+    count: 2
     title: Symlink
   symlinks:
     count: 1
@@ -18387,7 +18387,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 27
+    count: 28
     title: Systemd
   systemd service:
     count: 1
@@ -18630,7 +18630,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 19
+    count: 20
     title: Terminal
   terminal environment:
     count: 1
@@ -19269,7 +19269,7 @@ dictitems:
     count: 1
     title: TSU
   tty:
-    count: 1
+    count: 2
     title: TTY
   ttyl:
     count: 1
@@ -19947,7 +19947,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 122
+    count: 123
     title: Vim
   vim buffer:
     count: 1
@@ -20493,7 +20493,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 81
+    count: 82
     title: Windows
   windows 10:
     count: 26
@@ -20721,7 +20721,7 @@ dictitems:
     count: 1
     title: Wrong John Silver
   wsl:
-    count: 53
+    count: 54
     title: WSL
   wsl 2 lxd:
     count: 1

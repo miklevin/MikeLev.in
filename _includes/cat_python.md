@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)
 <br/>In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!</li>
 <li><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a> (Wed Aug 09, 2023)

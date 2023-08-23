@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a> (Fri Aug 11, 2023)
 <br/>I'm creating a life management aid to take control of my own life. I'm sharing timeless tools to future-proof yourself, such as touch typing on a QWERTY keyboard, learning Linux, and journaling in Vim to gain the skills necessary to succeed in any world we may face. With these skills, you can gain the advantage of mastering tech, from creating a robot army to using a headless CMS.</li>
 <li><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a> (Thu Aug 10, 2023)

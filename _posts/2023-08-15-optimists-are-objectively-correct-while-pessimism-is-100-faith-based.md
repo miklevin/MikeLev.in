@@ -199,7 +199,7 @@ are based on evidence. That's a fact.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

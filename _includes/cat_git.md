@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a> (Thu Aug 10, 2023)
 <br/>Learn how to create a simple and effective CSS file to assert control over your website. Follow the steps outlined in this article to create a bare minimum styles.css file and link it to default.html. Get tips on how to ensure your changes are rendered correctly. Follow the MyKoz.AI site development!</li>
 <li><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a> (Wed Aug 09, 2023)

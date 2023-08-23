@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
+<br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a> (Mon Aug 07, 2023)
 <br/>Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.</li>
 <li><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a> (Sun Aug 06, 2023)

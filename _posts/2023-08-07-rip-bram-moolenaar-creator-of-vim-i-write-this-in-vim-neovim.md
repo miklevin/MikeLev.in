@@ -4,7 +4,7 @@ title: RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)
 headline: A Reflection on MyKoz.AI, Linux, Python, vim & git, and Bram Moolenaar
 description: Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.
 keywords: Linux, Python, vim, git, MyKoz.AI, Bram Moolenaar, NeoVim, Copilot, Twitch, hosting, headless CMS, Windows 11, Jupyter, MikeLev.in, README.txt, Intro Repo, NeoVim path, Pipulate Repo, WHIM Repo, systemD, virtual screens, Journals, Browser, installer, minimalism, NUMA Nvidia GPU, WSL2, 80/20
-categories: git, microsoft, jupyter, ai, python, vim, linux, systemd, wsl
+categories: wsl, microsoft, ai, git, jupyter, vim, python, systemd, linux
 permalink: /blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/
 layout: post
 group: blog
@@ -96,12 +96,12 @@ readme direct the person directly into the Intro repository.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
