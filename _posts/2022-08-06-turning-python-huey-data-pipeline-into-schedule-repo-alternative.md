@@ -108,7 +108,7 @@ files in place. But instead of 2 scheduler services, I'll replace the old one
 with Huey. I wish huey had such a good API for setting scheduling as pip
 install schedule.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-share-an-ssh-key-with-linux-container-to-eliminate-passwords/">How to Share an SSH Key with Linux Container to Eliminate Passwords</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1/">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative/">Turning Python Huey Data Pipeline into Schedule Repo Alternative</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

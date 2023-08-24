@@ -4,7 +4,7 @@ title: Let Me Show You How to Get, How to Get to Wonderland
 headline: Discovering the Wonders of Linux, Python, Vim & Git (LPvg) Toolset
 description: I embarked on a journey to learn the Linux, Python, vim & git (LPvg) toolset, even though I was tempted to pursue the full web stack or Macromedia/Adobe Flash development. After coming to terms with the fact that I was wrong about vim not actually being terrible, I decided to learn it in pieces, starting with daily journaling. You can too. It's so worth it.
 keywords: Linux, Python, Vim, Git, Web Development, Web Stack, Macromedia, Adobe Flash, User Interface, Tech, Journaling, JupyterLab, Linux-hosted
-categories: vim, journaling, jupyter, linux, python, web development, git
+categories: journaling, vim, python, git, linux, jupyter, web development
 permalink: /blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/
 layout: post
 group: blog
@@ -122,14 +122,14 @@ of that page to a local install.bat file and double-click it on your Windows 10
 or 11 desktop, and Voila! You're in Wonderland.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/">Refining my .vimrc now that it's a NeoVim init.vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/blog-slice-dice-system-re-written-in-a-day/">Blog Slice & Dice System Re-Written In a Day</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/creating-github-repo-specifically-for-copilot-explorations/">Creating Github Repo Specifically For Copilot Explorations</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>

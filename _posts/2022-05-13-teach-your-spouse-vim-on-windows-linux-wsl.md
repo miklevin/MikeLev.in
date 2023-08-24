@@ -4,7 +4,7 @@ title: Teach Your Spouse vim on Windows Linux (WSL)
 headline: Gaining Text-Editing Superpowers with WSL and Windows Terminal
 description: As a Windows user, I'm on a mission to acquire the same text-editing superpowers as my vim-master spouse. With Microsoft's Windows Subsystem for Linux (WSL) and Windows Terminal, I can make it happen! Installing WSL is a breeze - just type 'wsl --install' in the Windows command window. Then, I can get Windows Terminal from the Microsoft Store, and I'll be ready to take my text-editing skills to the next level.
 keywords: Windows, Linux, WSL, Windows Terminal, Microsoft, Text-Editing, Superpowers, Gwen Stacy, Ubuntu 20.04
-categories: wsl, linux, microsoft
+categories: wsl, microsoft, linux
 permalink: /blog/teach-your-spouse-vim-on-windows-linux-wsl/
 layout: post
 group: blog
@@ -72,10 +72,10 @@ professional... and spouses wanting their counterpart's powerful wizarding
 abilities.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-vim-to-keep-one-journal-for-life/">Use vim to Keep One Journal For Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

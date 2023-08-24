@@ -105,7 +105,7 @@ pros. I'm doing things not to make money, but because I enjoy them and can
 hardly believe that such things are now available to me.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switched-from-text-davinci-002-to-text-davinci-003/">Switched from text-davinci-002 to text-davinci-003</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/nbdev-packaging-is-the-first-step-in-every-project/">Nbdev Packaging Is The First Step In Every Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-ai-to-streamline-blogging-and-content-creation/">Using AI to Streamline Blogging and Content Creation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -57,7 +57,7 @@ while read line; do
     n=$((n+1))
 done < $filename
 ```
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-files-that-are-the-same-across-multiple-sites/">Editing Files That Are The Same Across Multiple Sites</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/path-f-path-mkdir-parents-true-exist-ok-true/">Path(f'{\_path}').mkdir(parents=True, exist_ok=True)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

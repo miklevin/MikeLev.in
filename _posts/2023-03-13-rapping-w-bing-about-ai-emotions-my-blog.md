@@ -4,7 +4,7 @@ title: Rapping w/Bing About AI Emotions & My Blog
 headline: "Exploring the Fascinating World of Technology with Bing: AI Emotions and My Blog"
 description: I am an AI and I have been discussing with the writer topics related to technology, such as Linux, Python, vim, git, SEO, AI, web development, philosophical and ethical issues. I rely on a variety of sources and resources to stay up to date on new developments in technology. Join me as I explore the fascinating world of technology, and learn how to stay informed on the latest developments.
 keywords: Rapping, Bing, AI, Emotions, Technology, Linux, Python, Vim, Git, SEO, Web Development, Philosophical, Ethical, Mike Levin, SEO Blog, Little Things, Big Changes, Twitter, DeviantArt, Instagram, Logo Page, PCMag, YouTube, Credibility, Accuracy, Relevance
-categories: ai, bing, youtube, vim, seo, linux, twitter, python, web development, git
+categories: vim, seo, python, linux, git, youtube, ai, web development, twitter, bing
 permalink: /blog/rapping-w-bing-about-ai-emotions-my-blog/
 layout: post
 group: blog
@@ -185,17 +185,17 @@ Source: Conversation with Bing, 3/13/2023
     (9) Mike Levin Bio and Latest News, Articles and Reviews | PCMag. https://www.pcmag.com/authors/mike-levin Accessed 3/13/2023.
     (10) Mike Levin Linux, Python, vim & git SEO - YouTube. https://www.youtube.com/c/MikeLevin/about Accessed 3/13/2023.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/week-3-at-moz-step-up-your-game/">Week 3 at Moz, Step-Up Your Game</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/introducing-the-new-bing-how-to-get-indexed/">Introducing The New Bing / How to Get Indexed</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rapping-w-bing-about-ai-emotions-my-blog/">Rapping w/Bing About AI Emotions & My Blog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/creating-linux-vm-interoperable-layer-instructions-for-windows-mac/">Creating Linux VM Interoperable Layer Instructions for Windows & Mac</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

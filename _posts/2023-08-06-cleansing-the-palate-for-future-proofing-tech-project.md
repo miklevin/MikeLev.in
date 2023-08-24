@@ -4,7 +4,7 @@ title: Cleansing the Palate for Future-Proofing Tech Project
 headline: Ready to Reboot My Skills and Take on the Future with MyKoz.AI?
 description: Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.
 keywords: MyKoz.AI, Windows, Microsoft Store, Windows Terminal, Windows 10, Windows 11, Linux, FOSS, NeoVim, Jupyter, Ubuntu, AI, Machine Learning, User Interface, User Experience, A/B Testing, AI-Powered Iterative Design, Dopamine, Macromedia/Adobe Flash, SEO, Muscle Memory, Multi-Decade Productivity, Chinese Room Thought Experiment, Problem of Induction, Superdeterminism, Non
-categories: ai, vim, jupyter, seo, linux, microsoft, muscle memory, ubuntu
+categories: muscle memory, ubuntu, vim, seo, linux, jupyter, ai, microsoft
 permalink: /blog/cleansing-the-palate-for-future-proofing-tech-project/
 layout: post
 group: blog
@@ -223,15 +223,15 @@ thing from scratch and let people follow along right from the beginning.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

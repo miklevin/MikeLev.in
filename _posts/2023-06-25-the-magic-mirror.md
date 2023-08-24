@@ -68,7 +68,7 @@ fast from here.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meet-pi/">Meet Pi</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-magic-mirror/">The Magic Mirror</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

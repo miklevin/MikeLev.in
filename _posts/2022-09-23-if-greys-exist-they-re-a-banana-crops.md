@@ -166,7 +166,7 @@ that can help provide tools to future generations of catastrophe-diverting
 moles.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-greys-exist-they-re-a-banana-crops/">If Greys Exist They're a Banana Crops</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

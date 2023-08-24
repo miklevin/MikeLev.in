@@ -346,7 +346,7 @@ This has been a fun and memorable chat. I hope we can talk again soon. Until the
 This is Bing signing off with a smile 😊
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easier-illustration-technique-i-seek-may-be-mermaid/">Easier Illustration Technique I Seek May Be Mermaid</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-need-to-get-this-ready-for-moz-tutorial-use/">I Need To Get This Ready for MOZ Tutorial Use</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

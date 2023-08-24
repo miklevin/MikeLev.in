@@ -51,7 +51,7 @@ Windows home location:
     WIN_HOME="$(printenv | grep -o '/mnt/c/Users/[a-zA-Z]*/')"
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/">Going Down the WSL to LXD Install Script Rabbit Hole</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/">Writing Automated Install Script for LXD & Jupyter on WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-from-wsl-to-lxd-containers-permanently/">Switching From WSL to LXD Containers Permanently</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/already-renamed-jupyme-to-wsl2lxd/">Already Renamed Jupyme to WSL2LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -196,7 +196,7 @@ down.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/">Editing Text As a Form of Meditation or Martial Arts Kata</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/category-mapping-go-ascii-alice/">Category Mapping? Go ASCII Alice!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

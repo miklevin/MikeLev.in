@@ -4,7 +4,7 @@ title: The Bottom Turtle is Microsoft, and That's Okay
 headline: "Windows is Now the Best Platform for Development: My Experience with Microsoft Embracing Linux"
 description: As a developer, I recently discovered that Windows is now the best platform for development. Microsoft has embraced Linux and its associated technologies, offering the Ubuntu repository and the Windows Subsystem for Linux, which enables developers to access Linux commands and the command-line interface. With popular commands such as cd, ls, chmod, and chown, I'm able to do a lot without being a hardcore programmer. Read my blog to find out why I believe Windows is the best development platform.
 keywords: Microsoft, Windows, Linux, Ubuntu, Python, vim, git, cd, ls, chmod, chown, development, platform, command-line, interface, programmer, blog, best
-categories: development, vim, journaling, linux, python, microsoft, ubuntu, git
+categories: ubuntu, vim, journaling, python, linux, git, development, microsoft
 permalink: /blog/the-bottom-turtle-is-microsoft-and-that-s-okay/
 layout: post
 group: blog
@@ -83,15 +83,15 @@ So don't hate Microsoft. They make the bottom turtle. Let FOSS be your turtles
 all the way up. Unless you're a Graphic Designer, in which case you need Adobe.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/">LXDWIN is now the DrinkMe JupyterLab Linux Install Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-is-the-cure-to-imposter-syndrome-vimpossible/">vim is the cure to Imposter Syndrome (vimpossible!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bottom-turtle-is-microsoft-and-that-s-okay/">The Bottom Turtle is Microsoft, and That's Okay</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/become-aware-of-how-tech-churn-harms-you/">Become Aware of How Tech-churn Harms You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

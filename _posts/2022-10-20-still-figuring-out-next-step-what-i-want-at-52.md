@@ -60,7 +60,7 @@ in Github because of accidentally deleting it. No big deal.
 Move onto your next big step.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-finding-the-love-in-things/">Always Finding The Love In Things</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation/">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/still-figuring-out-next-step-what-i-want-at-52/">Still Figuring Out Next Step & What I Want at 52</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-my-local-24x7-place-to-run-code/">Getting My Local 24x7 Place to Run Code</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

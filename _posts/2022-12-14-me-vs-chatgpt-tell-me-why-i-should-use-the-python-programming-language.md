@@ -4,7 +4,7 @@ title: "Me vs. ChatGPT: Tell me why I should use the Python programming language
 headline: "Why I Choose Python: My Journey to Find the Perfect Programming Language"
 description: As a programmer, I use Python because it aligns with my vibe and allows me to express myself. It is easy to learn, free and open source, and has a large and supportive community. It is also a high-level language, dynamically-typed, and versatile, with a rich set of built-in data types and standard libraries. I'm confident that Python is the perfect language for me to use and grow with.
 keywords: Python, Programming, Language, Easy, Learn, Free, Open Source, High-Level, Dynamically-Typed, Versatile, Built-in Data Types, Standard Libraries, Simplicity, Readability, Flexibility, Vibrant Community, Users, Apply
-categories: open source, python, coding
+categories: open source, coding, python
 permalink: /blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language/
 layout: post
 group: blog
@@ -126,10 +126,10 @@ developers who want a language that is flexible, easy to work with, and has a
 large community of users.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language/">Me vs. ChatGPT: Tell me why I should use the Python programming language.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/but-should-we-still-blog-should-it-all-just-fade-away/">But Should We Still Blog? Should It All Just Fade Away?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Practicing What I Preach
 headline: "Exploring the Future of Operating Systems: Reflections on LXD Linux Container Jupyter Platform and Microsoft's NT System"
 description: I've been busy with work and family, but I'm recommitting to writing in my journal. I'm exploring the LXD Linux Container Jupyter platform, which has been challenging but rewarding, and Microsoft's NT system, which has enabled the creation of protection rings and running concurrent operating systems. I'm amazed at how Microsoft is transitioning into the future, and I'm reflecting on the fundamentals of object-oriented and concurrency that remain.
 keywords: Journal, LXD Linux Container Jupyter platform, Microsoft NT system, Protection Rings, Concurrency, Object-Oriented, Operating Systems, Hardware, Multitasking, SEO, Data Work, Writing, YouTube, Abstract Thinking, Rabbit Holes, Virtual Development Environment, Portable, Platforms, Strategy, Tools, Technology, Future
-categories: youtube, rabbit holes, seo, future, operating systems, success
+categories: seo, future, operating systems, rabbit holes, youtube, success
 permalink: /blog/practicing-what-i-preach/
 layout: post
 group: blog
@@ -170,13 +170,13 @@ always still there working for you, as time-tested and battle-hardened as they
 are. Stuff like "Object-Oriented" and "Concurrency" get layered-on
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/tried-to-start-a-project/">Tried To Start a Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-on-your-own-in-life/">Being On Your Own In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/always-finding-the-love-in-things/">Always Finding The Love In Things</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/rabbit-holes/'>Rabbit Holes</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/future/'>Future</a></h4></li>
 <li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li>
+<li><h4><a href='/rabbit-holes/'>Rabbit Holes</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li></ul>

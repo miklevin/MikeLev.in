@@ -252,7 +252,7 @@ Source: Conversation with Bing, 3/8/2023
     (6) A thought experiment: Does the multiverse theory disprove the existence .... https://medium.com/predict/a-thought-experiment-does-the-multiverse-theory-disprove-the-existence-of-god-5993de2a502 Accessed 3/8/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-quantum-computers-fake-proof-what-about-superdeterminism/">Are Quantum Computers Fake? Proof? What About Superdeterminism?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/">Reconstructing Math Under Python for The Syntactically Ambiguous Challenged</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

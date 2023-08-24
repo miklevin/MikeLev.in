@@ -4,7 +4,7 @@ title: Python Virtual Env Better Than /usr/local/sbin
 headline: "Optimizing my Editing Process with a New `all` Script in NeoVim"
 description: "I've improved my process for editing multiple files in NeoVim with an `all` script. This script is now located in the /bin folder of my Python virtual environment, making the system more flexible and allowing me to switch between machines easily. I wrote a new script to help with this process, and I'm now able to pull from my git repos, copy the files to the correct locations, edit them in NeoVim, and push the changes back to my git repos."
 keywords: Scripts, All Scripts, Python, Virtual Environment, /bin Folder, Multiple Files, NeoVim, Reverse-Copy, Git Repos, Copy Files, Edit Files, Push Changes
-categories: python, vim
+categories: vim, python
 permalink: /blog/python-virtual-env-better-than-usr-local-sbin/
 layout: post
 group: blog
@@ -249,9 +249,9 @@ git_push()
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-an-advice-from-openai-field-to-my-journal/">Adding an Advice From OpenAI Field to my Journal</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/indomitable-spirit/">Indomitable Spirit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-virtual-env-better-than-usr-local-sbin/">Python Virtual Env Better Than /usr/local/sbin</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/levinux-pipulate-yamlesque/">Levinux, Pipulate & YAMLesque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

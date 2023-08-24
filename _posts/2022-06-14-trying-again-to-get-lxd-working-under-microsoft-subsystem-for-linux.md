@@ -85,7 +85,7 @@ explored this particular Wonderland. Figure out how to walk in their footsteps.
 Make the above the beginning to a new video!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/">Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/failed-getting-lxd-working-under-wsl2-under-ubuntu-20-04-systemd-snap/">Failed Getting LXD Working Under WSL2 Under Ubuntu 20.04 systemd & snap</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/trying-again-to-get-lxd-working-under-microsoft-subsystem-for-linux/">Trying Again To Get LXD Working Under Microsoft Subsystem For Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/">Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

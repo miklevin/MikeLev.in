@@ -493,7 +493,7 @@ We also need to be careful about applying axioms or rules of mathematics blindly
 We need to beware of deceptively difficult arguments that may seem logical at first glance but actually contain hidden flaws or fallacies based on misapplied axioms or rules. We need to avoid creating blind spots by relying on our intuition or assumptions without verifying them with facts or evidence.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/most-motivating-opening-in-tv-history/">Most Motivating Opening In TV History</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-creates-new-competitive-pressures-for-content-providers/">AI Creates New Competitive Pressures For Content Providers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/parsing-planck-s-equation/">Parsing Planck's Equation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/can-large-language-models-help-you-learn-math/">Can Large Language Models Help You Learn Math?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

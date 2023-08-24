@@ -39,7 +39,7 @@ stuff that has a slightly higher barrier to entry and which is still of great
 public interest. Choose one of them and take it to best-in-the-world status.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/used-twitter-4000-characters-for-machine-learning-general-license/">Used Twitter 4000 Characters For Machine Learning General License</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-my-moves-as-machines-rise/">Planning My Moves As Machines Rise</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest/">Considering Generating a 100% AI Site From Google Suggest</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-ai-give-me-credit-consent-compensation/">Hey AI: Give Me Credit, Consent & Compensation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -58,7 +58,7 @@ will then build and deploy your site automatically.
 Okay, keep that in mind. I have a New Years party I'm going to shortly.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-i-no-longer-hyde-from-a-jekyll-server/">Should I No Longer Hyde From a Jekyll Server?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-week-date-for-last-30-years-with-fixed-ids/">Every Week Date for Last 30 Years With Fixed IDs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

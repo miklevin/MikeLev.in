@@ -4,7 +4,7 @@ title: I Don't Want To Blow Up
 headline: "Learn Vim: Unlock the Power of a Text Editor with WSL and Vimtutor"
 description: "As a tech enthusiast, I use Linux, Python, Vim and Git as my go-to tools. I'm a big fan of Bram Moolenaar's plain old Vim from 1991, as it's more future-proof and resistant to obsolescence. Are you looking to learn Vim? I'm encouraging you to do so - just type `wsl --install` in a DOS COM to get started. Vim is a powerful tool and is much more fundamental than the full web stack."
 keywords: Linux, Python, Vim, Git, Bram Moolenaar, DOS COM, JavaScript, NodeJS, Text Editor, Terminal, Sun
-categories: vim, text editor, linux, python, javascript, git
+categories: vim, python, git, linux, text editor, javascript
 permalink: /blog/i-don-t-want-to-blow-up/
 layout: post
 group: blog
@@ -188,13 +188,13 @@ Don't give in. Open a terminal and type:
     vimtutor
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/">Install ZFSUtils-Linux To Prep For LXD on WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/">Putting mlseo on subdomain of MikeLevinSEO.com</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/center-a-poem/">Center, A Poem</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>

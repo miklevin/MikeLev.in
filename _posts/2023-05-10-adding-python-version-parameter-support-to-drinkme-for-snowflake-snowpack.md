@@ -4,7 +4,7 @@ title: Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack
 headline: Exploring the Possibilities of Python Version Parameter Support with DrinkMe and Snowflake Snowpack
 description: Explore the power of Snowflake's Snowpack data warehouse with Python 3.8 support. Learn how to set up a parameterized .bat file to install the Snowflake connector and access the data in a familiar Python environment. Discover the advantages of manipulating terabytes of data without pulling it down to your local machine.
 keywords: Python, Version, Parameter, Support, DrinkMe, Snowflake, Snowpack, MOZ, Links, Data, SEOs, Content, Auto-Generated, AI, Industry, Ziff Davis, Jupyter Notebook, Experiential, Internal Clients, Abstract, Fictional, Sites, Brand, Impact, Rapidly Changing, Streamlit, Visualization, Lazy Loading, Terabytes, Query, APIs, Cloud, Data Warehouse, Marketplace, Copilot,
-categories: ai, drinkme, jupyter, seo, python
+categories: seo, python, jupyter, drinkme, ai
 permalink: /blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/
 layout: post
 group: blog
@@ -170,12 +170,12 @@ number-like argument 3.6, 3.8, 3.10, etc.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ode-to-azrael-and-a-world-completely-changed/">Ode to Azrael And a World Completely Changed</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-a-meta-for-cutting-catapult-ropes-silly/">What's a Meta For? Cutting Catapult Ropes, Silly!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

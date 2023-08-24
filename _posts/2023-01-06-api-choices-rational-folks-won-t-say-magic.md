@@ -4,7 +4,7 @@ title: API Choices & Rational Folks Won't Say Magic
 headline: "Learning From Projects: Investing in Timeless Tech Tools for a Simpler World"
 description: I recently had to work on a project involving namedtuples, which taught me the importance of taking the time to learn from my projects. Despite family drama, I was also able to reflect on how tech is fragile and rely on determinism and binary truths to make devices work. I advocate investing in timeless tech tools with good FOSS licenses and taking small steps to prevent them from becoming obsolete. By understanding the complexities of the world, I choose how much I want to simplify.
 keywords: namedtuples, family drama, tech, fragile, determinism, binary truths, FOSS licenses, timeless tech tools, LPvg, Linux, Python, vim, git, small steps, prevent obsolete, complexities, Lorenz Butterfly Equation, tricks, magic, bag
-categories: lpvg, vim, linux, python, trick, magic, git
+categories: vim, magic, python, git, linux, lpvg, trick
 permalink: /blog/api-choices-rational-folks-won-t-say-magic/
 layout: post
 group: blog
@@ -213,14 +213,14 @@ digital computer. Wow when we choose our tricks, we choose our magic. Our
 choice of magic determines what tricks are in our bag.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/data-jockeying-101/">Data Jockeying 101</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/beware-the-re-corralling/">Beware the Re-Corralling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/api-choices-rational-folks-won-t-say-magic/">API Choices & Rational Folks Won't Say Magic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-2fa-web-login-via-microsoft-playwright/">Automating 2FA Web Login via Microsoft Playwright</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/trick/'>Tricks</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/trick/'>Tricks</a></h4></li></ul>

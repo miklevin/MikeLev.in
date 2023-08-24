@@ -72,7 +72,7 @@ results that are highly competitive in that snowballing, compounding returns
 way I discussed.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-m-live-streaming-youtube-again-more-freely-than-before/">I'm Live streaming YouTube again More Freely Than Before</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai/">Planning Fully Unbounded Web Scraper Kit For AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

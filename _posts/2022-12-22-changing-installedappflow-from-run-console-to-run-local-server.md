@@ -92,7 +92,7 @@ run_console() to run_local_server(). It's a small miracle it works in the Linux
 JupyterLab across WSL. Wow.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-place-to-put-things/">A Place to Put Things</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-essay-on-modern-seo-a-call-to-pipulate/">An Essay on Modern SEO. A Call to Pipulate.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/changing-installedappflow-from-run-console-to-run-local-server/">Changing InstalledAppFlow from run_console() to run_local_server()</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-visualize-websites-as-network-node-graphs/">Let's Visualize Websites as Network Node Graphs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

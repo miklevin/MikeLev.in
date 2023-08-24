@@ -247,7 +247,7 @@ I am just ten, Daddy.
 Okay then, that's a perfect place to begin. Now what's a hundred divided by
 ten?
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/b2-or-not-b2-that-is-the-question/">:b2 or not :b2, That Is The Question</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/">When I Grew a Backbone, Story of The Samurai Mudskipper</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-kick-that-football-charlie-brown/">Don't Kick That Football, Charlie Brown!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/in-defense-of-flying-monkeys-recrimination-of-anti-narc-community/">In Defense of Flying Monkeys & Recrimination of Anti-Narc Community</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

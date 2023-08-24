@@ -79,7 +79,7 @@ remain in a child-like state. A life of luxury, free time and fattening up like
 a Thanksgiving turkey.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/">Setting Up QNAP NAS LXD Linux Container on Container Station</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-do-i-not-have-a-portable-power-station-already/">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bank-a-win-then-figure-out-how-you-did-it/">Bank a Win Then Figure Out How You Did It</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death/">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

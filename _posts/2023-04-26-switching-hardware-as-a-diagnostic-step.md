@@ -31,7 +31,7 @@ is responsible for this, because sometimes the "r's" just flow like there's
 nothing wrong with my hardware. Oh yeah, switch hardware as a diagnostic step.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/copilot-disable-help/">Copilot: disable... Help!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-hardware-as-a-diagnostic-step/">Switching Hardware as a Diagnostic Step</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disabling-ai-auto-publishing-anything/">Disabling AI Auto-Publishing Anything</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

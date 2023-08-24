@@ -45,7 +45,7 @@ First things first, commit everything and switch to other hardware...
 The colon-key is glitching out along with the r and Esc, LOL!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/calcium-foss-make-flexible-tools/">Calcium & FOSS Make Flexible Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switching-hardware-as-a-diagnostic-step/">Switching Hardware as a Diagnostic Step</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/copilot-disable-help/">Copilot: disable... Help!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

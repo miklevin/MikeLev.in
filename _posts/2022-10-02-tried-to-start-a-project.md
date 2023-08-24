@@ -36,7 +36,7 @@ something that belongs on MikeLev.in because I'm always re-googling the
 process... glob! Path!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew/">The Walrus & The Carpenter Who Had Trouble Getting to Solla Sollew</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/practicing-what-i-preach/">Practicing What I Preach</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/tried-to-start-a-project/">Tried To Start a Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-on-your-own-in-life/">Being On Your Own In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

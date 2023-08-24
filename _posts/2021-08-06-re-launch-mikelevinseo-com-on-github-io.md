@@ -62,7 +62,7 @@ goes something like this:
 - Add the registered domain to the repo's Github settings.
 - Use layouts/default.html to customize template and add GA code.
 
-<div class="arrow-links"><div class="post-nav-prev"><a href=""></a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-launch-mikelevinseo-com-on-github-io/">(Re)Launch MikeLevinSEO.com on Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

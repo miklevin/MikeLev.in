@@ -62,7 +62,7 @@ But you are really wrangling a human-like thing when it comes to the mistakes
 it could be making.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/project-deteriorates-into-tools-discussion-again/">Project Deteriorates Into Tools Discussion Again</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/working-on-alternate-headline-leads-to-installing-jekyll-local/">Working on Alternate Headline Leads to Installing Jekyll Local</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-vs-kmeans-for-keyword-clustering/">OpenAI Vs. KMeans for Keyword Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Start Documenting My Best Tricks On This Site
 headline: Setting Up My Laptop to Share My Best Tricks and Stories with You!
 description: I'm setting up my laptop to document my best tricks and stories on my website, using multiple laptops and an ELTgd task to run scripts and use Python Pandas and a Jupyter Notebook. I'm also making sure to categorize everything, and I'm excited to share my knowledge with you! Come check out my website and see my best tricks and stories.
 keywords: Documenting, Laptop, ELTgd, Scripts, Python Pandas, Jupyter Notebook, Windows 11, Vlookup, Tricks, Stories, Website, Categorize
-categories: trick, jupyter, python, microsoft
+categories: jupyter, microsoft, trick, python
 permalink: /blog/start-documenting-my-best-tricks-on-this-site/
 layout: post
 group: blog
@@ -80,11 +80,11 @@ Okay, make a gsheet_barebones.ipynb... okay, done. The page
 [https://MikeLev.in/gsheet/](https://MikeLev.in/gsheet/) is pretty good.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang/">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/start-documenting-my-best-tricks-on-this-site/">Start Documenting My Best Tricks On This Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/october-first-no-gamma-burst-so-far-so-good/">October First No Gamma Burst... So Far So Good.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/trick/'>Tricks</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/trick/'>Tricks</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Starting to Ideate the Idea Capture Device
 headline: Exploring Creative Ways to Capture Ideas and Experience the World
 description: I'm trying to come up with a creative way to capture all of my ideas, so I recently looked into using Python to read emails and create an idea capture machine. This got me thinking of the song John Henry, and how he worked so hard that he broke his poor heart. I'm now on a mission to find a way to capture my ideas and explore the world.
 keywords: Idea, Capture, Machine, Python, John Henry, Journal, Method of Loci, Creative, Experience, World, Email, Hammer, Steel, Drive, Graveyard, Bluebirds, Sing, Mile
-categories: python, email
+categories: email, python
 permalink: /blog/starting-to-ideate-the-idea-capture-device/
 layout: post
 group: blog
@@ -123,9 +123,9 @@ Oh, capture John Henry:
     You can hear John Henry's hammer ring
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-tuple-keys/">An Ode Tuple Keys</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li></ul>
+<li><h4><a href='/email/'>Email</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -60,7 +60,7 @@ graph LR;
 Let's do some browser stuff.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile/">ASCII Alice Getting Smaller to Fit Mobile</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/systematically-walk-through-moz-products/">Systematically Walk Through MOZ Products</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/tackling-moz-browser-automation-until-i-get-it-right/">Tackling MOZ Browser Automation Until I Get It Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

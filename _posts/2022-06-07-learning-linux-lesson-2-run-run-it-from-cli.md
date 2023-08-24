@@ -4,7 +4,7 @@ title: "Learning Linux Lesson #2: RUN! Run it from CLI!"
 headline: Embrace the Future of Computing with Linux - It's Easier Than Ever!
 description: As someone who knows that Linux is the future, I'm here to tell you that learning it doesn't have to be intimidating. With the help of commands like ls, cd, and pwd, you can easily navigate the command-line interface. And with Windows 11, it's easier than ever to install Linux. So take my advice and join the future of computing!
 keywords: Linux, CLI, Terminal, Shell, ls, cd, pwd, Windows 11, Dorothy, Oz, Install, Future, Computing, Intimidating, Microsoft, Apple
-categories: journaling, linux, microsoft, future
+categories: future, journaling, microsoft, linux
 permalink: /blog/learning-linux-lesson-2-run-run-it-from-cli/
 layout: post
 group: blog
@@ -40,11 +40,11 @@ my advice and RUN. Make sure you're running with copies of things and that no
 single instance is all that important.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/">Start Learning Linux by Learning About What Pissed Off Fernando Corbato</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon/">Is There Anyone Cheesier Than Whitney Avalon?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to/">I'll Blow Up On YouTube When I Want To</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/future/'>Future</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

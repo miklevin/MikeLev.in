@@ -97,7 +97,7 @@ Go go pack & think on it!
     - Luddites
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/say-the-magic-words-open-terminal/">Say The Magic Words: Open Terminal!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-formative-years-at-all-boys-science-summer-camp-integrated-life/">My Formative Years at All-Boys Science Summer Camp / Integrated Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/s-expressions-lisp-linked-lists-associative-arrays-reductionism-luddites-dogma/">s-expressions, LISP, Linked Lists, Associative Arrays, Reductionism, Luddites & Dogma</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/">Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

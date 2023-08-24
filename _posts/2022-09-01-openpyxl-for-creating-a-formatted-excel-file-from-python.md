@@ -4,7 +4,7 @@ title: OpenPyXL for creating a formatted Excel file from Python
 headline: Creating a Formatted Excel File with OpenPyXL and Pandas
 description: I used openpyxl and pandas to create a formatted Excel file from Python. I stepped through each item in a loop and outputted a different tab into the spreadsheet, and then finished the task by deleting. Read my blog post to find out how I did it!
 keywords: OpenPyXL, Python, Excel, File, Loop, Spreadsheet, Pandas, Dataframes, Documentation, Delete
-categories: python, loop, panda
+categories: panda, loop, python
 permalink: /blog/openpyxl-for-creating-a-formatted-excel-file-from-python/
 layout: post
 group: blog
@@ -114,10 +114,10 @@ wb.save(xlfile)
 Okay, one giant step towards automating one of my bigger SEO deliverables.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-multiple-blogs-within-one-github-pages-site/">Planning Multiple Blogs Within One Github Pages Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/">Your current video card driver does not support this NVENC version please update your drivers.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python/">OpenPyXL for creating a formatted Excel file from Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux/">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

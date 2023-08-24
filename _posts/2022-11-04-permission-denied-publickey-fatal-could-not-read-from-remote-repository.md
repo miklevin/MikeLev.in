@@ -4,7 +4,7 @@ title: Permission denied publickey fatal Could not read from remote repository
 headline: Git Cloning Solved After Changing LXD Linux Container to Privileged Mode
 description: I encountered a problem when trying to git clone a repository from an LXD Linux Container running on Windows Subsystem for Linux (WSL). After discovering the container was running in unprivileged mode, I changed it to privileged mode with the lxc config command and rebooted. This fixed the file permissions issue and allowed me to successfully git clone the repository. Read more about my experience and how I solved the problem.
 keywords: Permission, Denied, Publickey, Fatal, Could, Not, Read, Remote, Repository, LXD, Linux, Container, Windows, Subsystem, WSL, Privileged, Mode, lxc, Config, Command, Reboot, File, Permissions, Ownership, Git, Clone, Research, Issue, Unprivileged
-categories: lxc, container, linux, microsoft, wsl, git
+categories: linux, git, wsl, container, lxc, microsoft
 permalink: /blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/
 layout: post
 group: blog
@@ -96,13 +96,13 @@ may be one simple command.
 {% include youtubePlayer.html id="MLV8X0PPllI" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/">Joining Data Between Spreadsheet Tabs Better Than VLookup</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/">Permission denied publickey fatal Could not read from remote repository</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lxc/'>LXC</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/lxc/'>LXC</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

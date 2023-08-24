@@ -4,7 +4,7 @@ title: "NeoVim Publishing Macro Using :terminal & expand()"
 headline: "Rebuilding My Workflow: Refreshing Google, Microsoft, NAS, and JupyterLab Icons"
 description: I recently had to reset up my Windows 11 machine to get back to my daily workflow. This involved setting up credentials, installing NeoVim, remembering important environment settings, and re-instantiating Google and Microsoft addresses, my NAS drive, my terminal windows, and my JupyterLab icon. Additionally, I was listening to a YouTube video on how to race to the bottom of the brainstem and to the primary intimate relationship in my life.
 keywords: Windows 11, OpenAI, NeoVim, Google, Microsoft, NAS drive, Terminal, JupyterLab, known_hosts, Moz, Python, Script, Macro, YouTube, Tristan Harris, Aza Raskin, Brainstem, Intimate Relationship
-categories: ai, youtube, vim, jupyter, seo, linux, python, microsoft, google
+categories: vim, google, seo, linux, python, jupyter, youtube, ai, microsoft
 permalink: /blog/neovim-publishing-macro-using-terminal-expand/
 layout: post
 group: blog
@@ -172,16 +172,16 @@ Listening to Tristan Harris and Aza Raskin on YouTube.
 {% include youtubePlayer.html id="xoVJKj8lcNQ" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disabling-ai-auto-publishing-anything/">Disabling AI Auto-Publishing Anything</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/looking-for-equivalent-alternative-to-usr-local-sbin/">Looking For Equivalent Alternative to /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-an-advice-from-openai-field-to-my-journal/">Adding an Advice From OpenAI Field to my Journal</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

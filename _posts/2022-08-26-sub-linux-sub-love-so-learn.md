@@ -4,7 +4,7 @@ title: Sub-Linux Sub-Love So-Learn
 headline: "Embracing Free and Open Source Software: Join Me on This Journey of Sub-Linux and Sub-Love!"
 description: I've been on YouTube since 2006, and now I'm embracing free and open source software. I'm encouraging people to escape Windows, Mac and proprietary software, and to write a daily journal in vim. I'm talking more to myself and sharing some of my personal and proprietary information, but with a positive spin. I'm taking advice from Rafiki and learning from the past to improve my future. Join me on this journey and discover how to make the most of free and open source software.
 keywords: Sub-Linux, Sub-Love, So-Learn, YouTube, 2006, Free, Open, Source, Software, Escape, Windows, Mac, Proprietary, Vim, Journal, Positive, Spin, Advice, Rafiki, Past, Future, Content, Visitors, Search, Results, Real, People, Listen, Personal, Proprietary, Improve
-categories: youtube, vim, proprietary, future, search, mac, microsoft
+categories: vim, future, youtube, mac, proprietary, microsoft, search
 permalink: /blog/sub-linux-sub-love-so-learn/
 layout: post
 group: blog
@@ -113,14 +113,14 @@ lately.
 ![Mike Levin Learn From The Past Rafiki](/assets/images/mike-levin-learn-from-the-past-rafiki.jpg)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-video-series-that-drives-message-home/">Planning a Video Series That Drives Message Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-the-lpvg-message-on-point-with-a-series-of-1-minute-videos/">Get the LPvg Message On-Point with a series of 1-minute videos</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sub-linux-sub-love-so-learn/">Sub-Linux Sub-Love So-Learn</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/knowing-protection-emotional-protection/">Knowing Protection & Emotional Protection</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
 <li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li></ul>

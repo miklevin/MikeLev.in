@@ -4,7 +4,7 @@ title: Switch Hardware Regularly
 headline: Discovering the Benefits of Switching Hardware Regularly and Exploring the City on a Spring Fling!
 description: This post explores the importance of regularly switching hardware, as well as other lessons on working effectively. It also includes videos of a nice walk and a ferry ride as a reward for the hard work.
 keywords: Murphy's Law, OpenAI, Python, Encoding Issues, Venn-nvim Diagrams, Switch Hardware Regularly, One Monitor, Virtual Desktops, Feedback Loop, Rabbit Holes, Iterating, Love and Intensity, Roller Coaster, Differentiation, Dependency Injection, Interchangeable, Natural Sequences, GPT-like Model, Custom-trained, SEO, MOZ, Spring Fling, City, Driving, Walk, Ferry
-categories: ai, rabbit holes, python, seo
+categories: ai, seo, rabbit holes, python
 permalink: /blog/switch-hardware-regularly/
 layout: post
 group: blog
@@ -82,11 +82,11 @@ Now off to the company's spring fling! Going to the city.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-art-vs-mermaids-who-will-be-victorious/">ASCII Art vs. Mermaids Who Will Be Victorious?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/rabbit-holes/'>Rabbit Holes</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

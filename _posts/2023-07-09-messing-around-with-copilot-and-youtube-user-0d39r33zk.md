@@ -4,7 +4,7 @@ title: Messing around with Copilot and YouTube User 0d39r33zk
 headline: Exploring AI with Copilot and YouTube User 0d39r33zk - A Journey of Self-Discovery and Synchronicity
 description: Explore the fascinating world of AI and machine learning with Mike Levin, SEO in NYC. Follow his journey as he interacts with Copilot and YouTube User 0d39r33zk, discussing topics such as AI's personalities, zero-shot capability, and the intersection of time series data and AI. Learn about the GPT-family, the Fast.AI book, and the misconceptions of AI.
 keywords: Sun, Jul, 09, 2023, Messing, Copilot, YouTube, 0d39r33zk, Social Media, Live-cast, Screencasting, Mike Levin, SEO, NYC, Superbad, Mc Lovin, British Isles, UK, GB, Northern Irish, Scots, Samurai Jack, Leslie Nielson, Old Mike Levin, Blog, A-I-S-E-O, GPT, ChatGPT, OpenAI Codex, OpenAI API, The
-categories: ai, new york city, seo, youtube
+categories: ai, new york city, youtube, seo
 permalink: /blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/
 layout: post
 group: blog
@@ -231,11 +231,11 @@ Want to see?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-magic-mirror/">The Magic Mirror</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/messing-around-with-copilot-and-youtube-user-0d39r33zk/">Messing around with Copilot and YouTube User 0d39r33zk</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

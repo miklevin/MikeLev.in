@@ -4,7 +4,7 @@ title: Learning *nix Today Means Learning systemd!
 headline: Take Control of Your Life with Linux and Systemd!
 description: As I introduce you to the world of *nix, you'll learn how Linux has pulled ahead of the FreeBSD Unix community, allowing us to take control of our own lives. Discover how Lennart Poettering's controversial systemd for Linux, based on Apple's launchd and launch, has made system automation possible, replacing SysV. Get all the details on this exciting new development in my blog post.
 keywords: Linux, Unix, FreeBSD, Systemd, Lennart Poettering, Launchd, Launch, Hypervisor, System Automation, SysV, Operating System
-categories: linux, systemd
+categories: systemd, linux
 permalink: /blog/learning-nix-today-means-learning-systemd/
 layout: post
 group: blog
@@ -41,9 +41,9 @@ Linux.
 And do uh yeah, Unix was there first with replacement to a bash-file oriented
 init system.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-nix-today-means-learning-systemd/">Learning *nix Today Means Learning systemd!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

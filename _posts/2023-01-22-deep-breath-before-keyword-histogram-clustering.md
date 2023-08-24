@@ -56,7 +56,7 @@ computing power. I resist setting up dedicated databases for this. It still may
 be achievable with SQLite.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-tuple-keys/">An Ode Tuple Keys</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/unique-conversation-let-s-talk-ai-python-next-steps/">Unique Conversation. Let's talk AI & Python Next Steps</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-world-has-changed-because-systemd-on-windows/">The World Has Changed Because SystemD on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

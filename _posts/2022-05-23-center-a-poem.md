@@ -4,7 +4,7 @@ title: Center, A Poem
 headline: "Staying Centered: Finding Balance Through Poetry and Inline Styling"
 description: As a poet, I often feel off-center. I use my poetry to stay centered, but when I publish it, I'm too far left. To stay centered, I need to create a style definition that sets margin to auto and width to a percentage of the containing element, and put my styles inline. Even though the world is not perfect, I need to stay centered and put my styles inline to make sure my message is heard.
 keywords: Poet, Poetry, Publish, Style, Definition, Margin, Auto, Width, Percentage, Containing Element, Inline, World, Perfect, Divide, Div Class, Dissociation
-categories: publish, poetry
+categories: poetry, publish
 permalink: /blog/center-a-poem/
 layout: post
 group: blog
@@ -37,9 +37,9 @@ group: blog
 {% include youtubePlayer.html id="1BIuNqwlhO4" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/">Install ZFSUtils-Linux To Prep For LXD on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/center-a-poem/">Center, A Poem</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/publish/'>Publish</a></h4></li>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li>
+<li><h4><a href='/publish/'>Publish</a></h4></li></ul>

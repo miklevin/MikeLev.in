@@ -40,7 +40,7 @@ in one of the other sites.
 I also by the way can leave the original entry in my :b1 journal because it
 never gets published and so will never cause duplicate content issues.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-most-broken/">What's Most Broken?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-b1-commands-much-force-like-obi-wan/">vim :b1 Commands Much Force Like Obi-Wan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

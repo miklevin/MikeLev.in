@@ -4,7 +4,7 @@ title: Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults
 headline: "Testing Ubuntu 20.04 for Easier LXD Installation: Ubuntu 18.04 is the Easier Option"
 description: In this blog post, I share how I tested Ubuntu 20.04 to see if I could easily install LXD. I found that Ubuntu 18.04 is the easier option, since it comes pre-installed with LXD and allows you to quickly get up and running. I also discuss my preference for local services over cloud resources, my advocacy for Linux and my blue-collar mechanic approach to tech literacy. Finally, I suggest JupyterLab-Desktop as a great way to learn Python.
 keywords: Ubuntu, 18.04, 20.04, LXD, WSL2, Wizard, Pre-installed, Local Services, Cloud Resources, Linux, Tech Literacy, JupyterLab-Desktop, Python, Systemd, QNAP, Synology NAS, Microsoft, Apple, Unix, Code, REPL, iPython, nbdev, vim, git
-categories: nbdev, vim, git, container, linux, python, microsoft, ubuntu, wsl, systemd, qnap
+categories: ubuntu, vim, python, linux, nbdev, git, qnap, wsl, container, microsoft, systemd
 permalink: /blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/
 layout: post
 group: blog
@@ -259,18 +259,18 @@ nbdev framework. Yuck, frameworks. Okay, I'll take the nbdev one. The benefits
 are just too great.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-get-blinded-by-the-hardware/">You Get Blinded By The Hardware</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-perceptual-image-hash-as-database-primary-key-for-cats/">Use Perceptual Image Hash as Database Primary Key for Cats</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/qnap/'>QNAP</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/qnap/'>QNAP</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

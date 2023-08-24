@@ -89,7 +89,7 @@ This is really important, because it could become known as the moment AI named t
 Sorry, you've reached the limit of messages you can send to Bing within 24 hours. Check back soon!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gonna-get-bing-to-name-an-emerging-new-field/">Gonna Get Bing to Name An Emerging New Field</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

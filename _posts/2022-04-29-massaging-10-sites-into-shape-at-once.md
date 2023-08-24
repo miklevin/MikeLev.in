@@ -4,7 +4,7 @@ title: Massaging 10 Sites Into Shape At Once
 headline: "Speed Up Site Optimization: How I Massaged 10 Sites Into Shape At Once"
 description: I recently optimized my Jekyll blog post URLs by removing stopwords, and I wanted to roll out the changes across all my sites. To make the process faster, I created a script that I could execute from Linux on Windows. With this script, I was able to quickly and easily make the same changes across all my sites. Read more to learn how I did it.
 keywords: "Jekyll, URLs, Stopwords, Linux, Windows, Script, Git, Index.md, `_config.yml`, Helper Folder"
-categories: linux, python, microsoft, jekyll, git
+categories: python, git, linux, jekyll, microsoft
 permalink: /blog/massaging-10-sites-into-shape-at-once/
 layout: post
 group: blog
@@ -76,12 +76,12 @@ for site in sites:
     print()
 ```
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-command-line-argument-support-to-jupyter-notebook/">Adding Command-Line Argument Support to Jupyter Notebook</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/massaging-10-sites-into-shape-at-once/">Massaging 10 Sites Into Shape At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-stopwords-from-jekyll-blog-urls/">Removing Stopwords From Jekyll Blog URLs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

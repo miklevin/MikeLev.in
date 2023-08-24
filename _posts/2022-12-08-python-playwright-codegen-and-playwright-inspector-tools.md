@@ -4,7 +4,7 @@ title: Python Playwright CodeGen and Playwright Inspector Tools
 headline: Making Automation Easier with Python Playwright CodeGen and Playwright Inspector Tools
 description: I'm using the Python Playwright CodeGen and Playwright Inspector Tools to make automation easier. With the built-in tools I can record my browser activity and generate code for it. After experimenting with different commands, I was able to successfully run the python -m playwright codegen --target python-async command, allowing me to record my automation code in JupyterLab. I also created two templates for easier development.
 keywords: Python, Playwright, CodeGen, Inspector, Tools, Automation, Browser, JupyterLab, Templates, Development, Headless, Server
-categories: microsoft playwright, python, development, jupyter
+categories: microsoft playwright, jupyter, development, python
 permalink: /blog/python-playwright-codegen-and-playwright-inspector-tools/
 layout: post
 group: blog
@@ -149,11 +149,11 @@ This is the template that gets recorded from Playwright Inspector:
     asyncio.run(main())
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic/">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/life-after-deluxepaint-and-the-amiga/">Life After DeluxePaint and The Amiga</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools/">Python Playwright CodeGen and Playwright Inspector Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/">Are You An Imposter? Have You Heard of Imposter Syndrome?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

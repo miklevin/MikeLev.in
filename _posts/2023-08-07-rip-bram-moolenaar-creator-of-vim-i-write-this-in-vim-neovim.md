@@ -4,7 +4,7 @@ title: RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)
 headline: A Reflection on MyKoz.AI, Linux, Python, vim & git, and Bram Moolenaar
 description: Today I refined MyKoz.AI, a foray into Linux, Python, vim & git for the uninitiated. I learned that Bram Moolenaar, the creator of vim, passed away. I'm Twitch streaming the creation of this endeavor, breaking it down into interesting topics like hosting or headless CMS. I'm working on the readme outputting, the Introduction repository, and the NeoVim path. I'm trying use the 80/20-Rule.
 keywords: Linux, Python, vim, git, MyKoz.AI, Bram Moolenaar, NeoVim, Copilot, Twitch, hosting, headless CMS, Windows 11, Jupyter, MikeLev.in, README.txt, Intro Repo, NeoVim path, Pipulate Repo, WHIM Repo, systemD, virtual screens, Journals, Browser, installer, minimalism, NUMA Nvidia GPU, WSL2, 80/20
-categories: ai, vim, jupyter, linux, python, microsoft, wsl, systemd, git
+categories: vim, python, git, linux, jupyter, wsl, ai, microsoft, systemd
 permalink: /blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/
 layout: post
 group: blog
@@ -92,16 +92,16 @@ readme direct the person directly into the Intro repository.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rip-bram-moolenaar-creator-of-vim-i-write-this-in-vim-neovim/">RIP Bram Moolenaar, creator of vim. I Write this in vim (NeoVim)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

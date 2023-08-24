@@ -4,7 +4,7 @@ title: Creating Github Repo Specifically For Copilot Explorations
 headline: Exploring the Attributes of Individual Items with Instapaper, YouTube, Twitter, and Github
 description: I have updated my Github repo and am now creating one specifically for Copilot explorations. I have created files such APIs as Instapaper to list Bookmarks, Twitter to list Tweets, YouTube to list Videos, and Github to list Repos. I am using various tools to express myself by transforming the output of theses systems into Web content, using AI to coach me. Learn how I'm using Instapaper, YouTube, Twitter, and Github with AI to explore.
 keywords: Github, Repo, Copilot, Explorations, Instapaper, List, Bookmarks, Twitter, Tweets, YouTube, Videos, Tools, Express, Attributes, Individual, Items, Fill-in, Descriptions, Articles, README.md, News, Following
-categories: ai, twitter, youtube, git
+categories: git, ai, youtube, twitter
 permalink: /blog/creating-github-repo-specifically-for-copilot-explorations/
 layout: post
 group: blog
@@ -95,11 +95,11 @@ README.md's to my Github repos. With Instapaper, I can just expose those items
 from the news I've been following.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/blog-slice-dice-system-re-written-in-a-day/">Blog Slice & Dice System Re-Written In a Day</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life/">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/creating-github-repo-specifically-for-copilot-explorations/">Creating Github Repo Specifically For Copilot Explorations</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keyword-clustering-my-blog-posts-with-kmeans/">Keyword Clustering My Blog Posts With KMeans</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/twitter/'>Twitter</a></h4></li></ul>

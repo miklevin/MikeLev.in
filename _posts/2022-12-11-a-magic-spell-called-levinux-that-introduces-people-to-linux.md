@@ -151,7 +151,7 @@ about this amazing technology, and they thanked Mike for his incredible
 contribution to the world of computing.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization/">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/">A Magic Spell Called Levinux That Introduces People to Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/surviving-google-s-helpful-content-update-surviving-helpfulgeddon/">Surviving Google's Helpful Content Update (Surviving Helpfulgeddon)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

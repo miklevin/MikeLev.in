@@ -25,7 +25,7 @@ Photos API supports:
     dateFilter={'ranges': [{'startDate': start_date}]},
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-namedtuple-for-each-week-you-ve-been-alive/">A NamedTuple For Each Week You've Been Alive</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/per-week-tuples-as-a-google-photos-project/">Per Week Tuples as a Google Photos Project?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/life-in-weeks-ipynb/">life_in_weeks.ipynb</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

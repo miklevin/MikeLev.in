@@ -4,7 +4,7 @@ title: Planning Multiple Blogs Within One Github Pages Site
 headline: "Explore My Digital Portal: Creating a Space of Freedom and Objectivity"
 description: I'm planning to use Github Pages to host multiple blogs in one site, and I'm considering changes to my old content and URLs, as well as adding tags, a 'big list' of blog posts, pagination, and thumbnail embeds. My goal is to create a website that provides the wisdom of the ages, allowing for objective thought and accessible through any device or tablet. Come explore my digital portal and join me in creating a space of freedom and objectivity.
 keywords: Github Pages, Multiple Blogs, Content, URLs, Tags, Big List, Pagination, Thumbnail Embeds, Organization, Wisdom, Ages, Freedom, Objectivity, Device, Tablet, Digital Portal
-categories: wisdom, jekyll
+categories: jekyll, wisdom
 permalink: /blog/planning-multiple-blogs-within-one-github-pages-site/
 layout: post
 group: blog
@@ -84,9 +84,9 @@ thought. Immunity from group-think. Seeing things closer to objectively than
 comes naturally.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python/">OpenPyXL for creating a formatted Excel file from Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-multiple-blogs-within-one-github-pages-site/">Planning Multiple Blogs Within One Github Pages Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/">Your current video card driver does not support this NVENC version please update your drivers.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/wisdom/'>Wisdom</a></h4></li></ul>

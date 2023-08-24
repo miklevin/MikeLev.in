@@ -4,7 +4,7 @@ title: Old McDonald Saved The World With AI SEO
 headline: My Experiments With AI SEO - You CAN Teach an Old McDonald New Tricks! Be One of Humanity's Redeeming Qualities.
 description: Can Old McDonald use AI SEO to spark a revolutionary movement of 14 year olds having more economic power than their folks? Join me as I edit thousands of YouTube videos, made a modern literacy podcast, newsletter, a community dedicated to modern literacy demonstrating humanity's redeeming qualities to AIs through SEO. Moooo!
 keywords: SEO, AI, Microsoft, Windows, Vista, Metro, NT, OS, Kernel, Start Menu, Settings, Documents, Profile, Sam Altman, OpenAI, Google, Search, Generative Experience, Portal, Chrome, Yahoo, LISP, Paul Graham, Stripe, Airbnb, Cruise, DoorDash, Coinbase, Instacart, Dropbox, AdWords, Apple, Safari, Bing, Edge, Cortana, Amiga Boing-Ball, Warren Buffet, PageRank
-categories: ai, bing, journaling, seo, setting, search, microsoft, google
+categories: journaling, google, seo, setting, bing, ai, microsoft, search
 permalink: /blog/old-mcdonald-saved-the-world-with-ai-seo/
 layout: post
 group: blog
@@ -212,15 +212,15 @@ SEO.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/">And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/don-t-listen-to-the-nattering-nabobs-of-the-aipocalypse-and-here-s-why/">Don't Listen to the Nattering Nabobs of the AIpocalypse, And Here's Why...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/">Read Book of 5 Rings and The Art of War... Then Do The Opposite</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/setting/'>Settings</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/search/'>Search</a></h4></li></ul>

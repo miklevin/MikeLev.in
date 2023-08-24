@@ -241,7 +241,7 @@ Ugh! Okay, I fixed it in the .py files but nbdev is no longer generating the
 .py files from the Python Notebook. I'm going to have to be very careful to not
 lose these updates.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll/">Choosing Best CSS Framework For Github Pages and Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-pipulate-levinux-back-into-the-picture/">Bring Pipulate & Levinux Back Into The Picture</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-pages-aren-t-usable-on-mobile-fixing/">Why Pages Aren't Usable On Mobile, Fixing!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/">A Day In The Life of An SEO SERPs, Python Pandas & SEMRush</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

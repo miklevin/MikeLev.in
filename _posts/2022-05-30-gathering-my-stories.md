@@ -80,7 +80,7 @@ few of the topics and sub-topics that roll off easily...
     - Not with a bang but a click-whir-click!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-a-small-linux-distro-without-gui-for-education/">Levinux, a Small Linux Distro without GUI for Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-more-month-of-respite-from-city-life/">One More Month of Respite From City Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gathering-my-stories/">Gathering My Stories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/boosting-youtube-watch-time-youtube-analytics/">Boosting YouTube Watch Time / YouTube Analytics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

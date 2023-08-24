@@ -4,7 +4,7 @@ title: Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages
 headline: Creating a Templatized System for Google Analytics MEASUREMENT ID in Jekyll Github Pages
 description: "I have developed a system using Jekyll and Liquid template language to templatize the Google Analytics MEASUREMENT ID for my websites. To keep track of them, I wrote Python scripts to parse through the lines in sites.txt and create a `_config.yml` file for each website. With this system, I have a master list of my sites and a quick way to update the information."
 keywords: "Google Analytics, MEASUREMENT ID, Jekyll, Github Pages, Liquid template language, Python, sites.txt, `_config.yml`, blogging, make_helpers.py, gaids.txt, loop, master list, update"
-categories: loop, jekyll, python, google
+categories: loop, jekyll, google, python
 permalink: /blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/
 layout: post
 group: blog
@@ -128,11 +128,11 @@ title: {title}'''
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bash-script-loading-external-files/">Bash Script Loading External Files</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/">Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bopping-between-python-bash-scripts-no-biggie/">Bopping Between Python & Bash Scripts No Biggie</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-most-broken/">What's Most Broken?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

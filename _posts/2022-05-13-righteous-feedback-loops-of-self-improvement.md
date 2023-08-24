@@ -4,7 +4,7 @@ title: Righteous Feedback Loops of Self-Improvement
 headline: Unlocking the Power of Small Wins with Self-Improvement Rituals
 description: I start every day with a mantra of three questions and two modifiers to help condition my mind and get into the mindset of journaling. Through this daily practice, I'm learning to focus on small wins and use tools like Linux, Python, vim, and git to mechanically get tasks done. I'm also avoiding activities like video games and sports that may have long-term payoffs, and instead focusing on projects that will help me achieve small wins.
 keywords: Self-Improvement, Journaling, Small Wins, Linux, Python, Vim, Git, 80/20 Rule, Rabbit Hole Evaluation, Animalistic, Human, Procrastination, Muscle Memory, Triggering
-categories: vim, journaling, linux, python, muscle memory, git
+categories: muscle memory, journaling, vim, python, git, linux
 permalink: /blog/righteous-feedback-loops-of-self-improvement/
 layout: post
 group: blog
@@ -225,13 +225,13 @@ Now if you can just find where to grip that lever to release the
 neurotransmitters on achieving the small wins, the floodgates will open.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

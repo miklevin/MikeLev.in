@@ -4,7 +4,7 @@ title: Windows Symbolic Link to Map Shared Folder Location to Local Folder
 headline: "Mapping Shared Folder Location to Local Folder: My Journey to Get My Repos Folder Working on Windows and WSL"
 description: I recently set up a shared folder on my NAS to use as a repos drive. After a lot of work, I managed to get it working in both Windows and WSL, but the performance dropped too much when I moved the repos folder to the NAS. I had to reverse my work, updating the firmware on my NAS, renaming the Windows 'D' drive to an 'R' drive, and running an install.bat script and creating an apt_installs.sh file.
 keywords: Windows, Symbolic Link, Map, Shared Folder, Location, Local Folder, NAS, Repos Drive, Firmware, Rename, Install.bat, Apt_installs.sh, Chrome OS, Linux, Commands, Restart
-categories: linux, microsoft
+categories: microsoft, linux
 permalink: /blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/
 layout: post
 group: blog
@@ -167,9 +167,9 @@ folder. I'm basically reversing most of the stuff from the last few posts and
 hoping I can get to sleep early enough to hit the work I urgently need to
 deliver for work.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/">WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/">Google Chrome for Linux Under LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

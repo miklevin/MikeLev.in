@@ -78,7 +78,7 @@ Follow [this dude](https://YouTube.com/MikeLevin) on YouTube. He seems to know
 what he's talking about.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/">Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right/">Remain Positive & Know Signs Of When You're Doing Something Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

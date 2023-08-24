@@ -4,7 +4,7 @@ title: Using Blog Titles for Filenames
 headline: "Success: Using Blog Titles for Unique Filenames"
 description: "I'm excited to share that I made great progress on a blog slicing and dicing system. I managed to maintain my blogging format while also figuring out the title stuff. I now have `_counter_` posts, each with a unique filename based on the post title, as well as the title, layout, categories, and slug. Come read more to learn how I did it!"
 keywords: blogging, filename, post title, layout, categories, slug, slicing, dicing, system, progress, concessions, unique
-categories: unique, progress
+categories: progress, unique
 permalink: /blog/using-blog-titles-for-filenames/
 layout: post
 group: blog
@@ -94,9 +94,9 @@ with open("./index.md", "r") as fh:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/slicing-dicing-single-file-to-jekyll-blog-posts/">Slicing & Dicing Single File to Jekyll Blog Posts</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/turning-repo-into-nbdev-project/">Turning Repo into nbdev Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/unique/'>Unique</a></h4></li>
-<li><h4><a href='/progress/'>Progress</a></h4></li></ul>
+<li><h4><a href='/progress/'>Progress</a></h4></li>
+<li><h4><a href='/unique/'>Unique</a></h4></li></ul>

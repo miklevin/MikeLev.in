@@ -458,7 +458,7 @@ Which of these provide the strongest evidence that there are vehicles that defy 
 Sorry, you've reached the limit of messages you can send to Bing within 24 hours. Check back soon!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/creating-linux-vm-interoperable-layer-instructions-for-windows-mac/">Creating Linux VM Interoperable Layer Instructions for Windows & Mac</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/">Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI Bias</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/principles-of-occams-razor-charity-falsifiability-non-contradiction-sufficient-reason/">Principles of Occam’s razor, Charity, Falsifiability, Non-contradiction & Sufficient Reason</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/">How To Learn Machine Learning With a FastAI Hello World Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

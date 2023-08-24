@@ -4,7 +4,7 @@ title: Learnings From Weekend OpenAI Keyword Extraction & Clustering Project
 headline: "Gaining Experience with OpenAI: Learning to Leverage Virtual Assistants for Data Projects and Taxes"
 description: I recently used the OpenAI API to gain hands-on experience with keyword extraction and clustering to create a story-like visualization in the console. I applied the 80/20 rule to solve the issue of errors with structured lists, and gained new respect for Vim/NeoVim and caution for VSCode. I'm now using NeoVim and Copilot to finish a data project, and have discovered that machines being intelligent now means that I have a virtual assistant.
 keywords: OpenAI, API, Keyword Extraction, Clustering, Story Visualization, 80/20 Rule, Error, Structured Lists, Vim/NeoVim, VSCode, Data Project, Taxes, NeoVim, Copilot, Paid-for Intelligence, Virtual Assistant, Learn Faster, Learn Better
-categories: ai, python, microsoft, vim
+categories: ai, vim, microsoft, python
 permalink: /blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/
 layout: post
 group: blog
@@ -112,11 +112,11 @@ assistant coming that can also teach me to jump off cliffs and learn to fly
 better, more often, and across a broader variety of situations.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-alternate-headline-leads-to-installing-jekyll-local/">Working on Alternate Headline Leads to Installing Jekyll Local</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline/">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements/">Allow GitHub To Use My Code Snippets For Product Improvements</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

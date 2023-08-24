@@ -60,7 +60,7 @@ term screen-256color
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sending-emails-with-python-through-smtp/">Sending Emails With Python Through SMTP</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/knowing-what-gnu-screen-you-re-on-with-screenrc/">Knowing what GNU screen you're on with .screenrc</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

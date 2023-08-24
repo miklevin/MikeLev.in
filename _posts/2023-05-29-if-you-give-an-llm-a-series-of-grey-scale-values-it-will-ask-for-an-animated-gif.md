@@ -503,7 +503,7 @@ Nanu nanu (pronounced NAH-noo NAH-noo).
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-give-an-llm-a-series-of-grey-scale-values-it-will-ask-for-an-animated-gif/">If you give an LLM a series of grey-scale values, it will ask for an animated gif.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

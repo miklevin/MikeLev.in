@@ -89,7 +89,7 @@ vastly simplified interfaces, a sort of meat-puppet on an insanely complex
 stage.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

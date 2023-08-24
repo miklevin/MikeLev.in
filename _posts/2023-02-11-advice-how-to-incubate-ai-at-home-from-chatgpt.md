@@ -139,7 +139,7 @@ The Culture series is a science fiction series by Scottish author Iain M. Banks.
 The Culture series is widely regarded as some of the best science fiction written in recent decades, and is praised for its imaginative world-building, thought-provoking storytelling,
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-plus-is-available-in-the-united-states/">ChatGPT Plus Is Available In The United States</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt/">Advice How to Incubate AI at Home From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny/">One Penguin Turns and Says to The Other, You Know It's Funny...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

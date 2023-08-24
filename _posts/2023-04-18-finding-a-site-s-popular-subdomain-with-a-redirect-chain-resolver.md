@@ -231,7 +231,7 @@ print(f"{save_as} saved!")
     Combined after fitlering: 53
     ../data/pull_keywords.txt saved!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automatically-log-into-moz-pro-with-playwright-browser-automation/">Automatically Log Into MOZ Pro with Playwright Browser Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-script-to-pull-keywords-from-moz-pro-keyword-research-ranking-keywords/">A Script To Pull Keywords From MOZ Pro Keyword Research Ranking Keywords</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

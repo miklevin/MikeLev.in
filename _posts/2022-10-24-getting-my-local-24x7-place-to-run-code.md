@@ -37,7 +37,7 @@ to test them, especially since the things I'm developing are more
 schedule-based than web-based.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bundle-an-lxd-linux-container-for-pyppeteer-and-playwright-automation/">Bundle an LXD Linux Container for Pyppeteer and Playwright Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/">Setting Up QNAP NAS LXD Linux Container on Container Station</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-my-local-24x7-place-to-run-code/">Getting My Local 24x7 Place to Run Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bank-a-win-then-figure-out-how-you-did-it/">Bank a Win Then Figure Out How You Did It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

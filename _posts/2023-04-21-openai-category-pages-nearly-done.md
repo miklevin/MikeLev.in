@@ -37,7 +37,7 @@ get onto follow-up issues, like:
 - Having the correct Titles & Descriptions for each category post
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/admiring-the-usefulness-of-yaml-ness-in-my-journaling-system/">Admiring the Usefulness of YAML-ness in my Journaling System</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-category-pages-nearly-done/">OpenAI Category Pages Nearly Done</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/designing-yamlesque-post-generator-api/">Designing YAMLesque Post Generator API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

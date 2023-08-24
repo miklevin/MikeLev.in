@@ -82,7 +82,7 @@ I need to put the time in on learning the lxc commands and general API.
 I am feeling bleeding edge pain of early adopters.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off/">Microsoft Edge history is now syncing (turn off)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/">LXD on WSL2 is a Few Months Ahead Of Its Time</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/there-s-no-place-like-home-you-get-to-decide-where-that-is-or-do-you/">There's No Place Like Home & You Get To Decide Where That Is... Or Do You?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

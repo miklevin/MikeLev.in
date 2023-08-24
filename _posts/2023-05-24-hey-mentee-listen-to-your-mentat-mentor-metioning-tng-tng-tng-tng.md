@@ -4,7 +4,7 @@ title: Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...
 headline: "Unlocking the Secrets of Success: How I Learned to Fly with Vim and Python"
 description: "Mike shares his wisdom on the importance of taking care of yourself, listening to your mentor, and learning from the mistakes of others. He urges readers to take risks and push themselves to reach their goals, but to also be mindful of their own physical and mental health. He also recommends watching Star Trek: The Next Generation to gain insight and inspiration, and to learn from the lessons of Moses, Solomon, and Job."
 keywords: mentee, mentor, mentor-mentee, Steve Jobs, health checkups, swordfighter, bitcoin, cryptobro, muscle memory, vim, NeoVim, API-compatible, Robert Cialdini, commitment, consistency, James Clerk Maxwell, Michael Faraday, faraday cage, Vincent van Gogh, Starry Night, Max Planck, quantum mechanics, quantum, corpuscle, double slit experiment, AIpocolypse, South Park, Copilot, Bible,
-categories: ai, vim, quantum, muscle memory
+categories: muscle memory, ai, quantum, vim
 permalink: /blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/
 layout: post
 group: blog
@@ -288,11 +288,11 @@ are, you Amiga Video Toaster fan, you.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/">Read Book of 5 Rings and The Art of War... Then Do The Opposite</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/">The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Writing Automated Install Script for LXD & Jupyter on WSL
 headline: Unlocking the Potential of JupyterLab with LXD and WSL
 description: This article describes my attempt to use JupyterLab under LXC and my progress on an automated install script for LXD and Jupyter on WSL. I'm also trying to simulate the tftp tricks I've done in Levinux and make my own bit optional graphics build. Read on to find out more about my journey and how it can help you!
 keywords: Writing, Automated Install Script, LXD, Jupyter, WSL, JupyterLab, LXC, Windows Settings, Apps, Overhead Lag, Bit Optional Graphics Build, Tftp, Tricks, Levinux
-categories: lxc, jupyter, container, levinux, trick, wsl
+categories: levinux, jupyter, wsl, trick, container, lxc
 permalink: /blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/
 layout: post
 group: blog
@@ -67,13 +67,13 @@ profoundly big win... wow, releasing such potential. As simple as possible!
 Hmmm, maybe even make your WSL default instance
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-from-wsl-to-lxd-containers-permanently/">Switching From WSL to LXD Containers Permanently</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/already-renamed-jupyme-to-wsl2lxd/">Already Renamed Jupyme to WSL2LXD</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/">Writing Automated Install Script for LXD & Jupyter on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/install-script-and-start-script-for-jupyter-on-lxd-on-wsl-on-windows/">Install Script and Start Script for Jupyter on LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lxc/'>LXC</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/trick/'>Tricks</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/lxc/'>LXC</a></h4></li></ul>

@@ -28,7 +28,7 @@ one from the same YouTuber:
 {% include youtubePlayer.html id="YAs2IzSCNMU" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-stories-leading-up-to-linux-python-vim-git/">My Stories Leading Up To Linux, Python, vim & git</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/why-programming-is-easy-but-math-is-hard/">Why Programming Is Easy But Math Is Hard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

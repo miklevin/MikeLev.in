@@ -197,7 +197,7 @@ Happy Mothers' Day and You're Welcome!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/">Matter Doesn't Matter, Except The Matter You Take Into Your Body</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/">A Few Little Kitties I Know, And The Lessons They Taught Me</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

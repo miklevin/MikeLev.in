@@ -71,7 +71,7 @@ In the field of search engine optimization (SEO), I sometimes felt like an icky
 guy. But in the tools, I found ikigai. b
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-helped-python-tweepy-my-tweets-onto-my-website/">ChatGPT Helped Python Tweepy my Tweets Onto My Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/start-that-foss-seo-book/">Start That FOSS SEO Book</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-which-saw-to-keep-sharp/">Figuring Out Which Saw To Keep Sharp</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

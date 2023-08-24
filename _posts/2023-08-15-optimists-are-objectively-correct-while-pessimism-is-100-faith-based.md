@@ -199,7 +199,7 @@ are based on evidence. That's a fact.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/optimists-are-objectively-correct-while-pessimism-is-100-faith-based/">Optimists are Objectively Correct while Pessimism Is 100% Faith-Based</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

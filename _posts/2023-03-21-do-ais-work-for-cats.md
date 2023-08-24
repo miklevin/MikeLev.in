@@ -491,7 +491,7 @@ Organizations across various sectors, including businesses, nonprofits, and acad
 Ultimately, addressing these complex issues will require a collaborative and multi-stakeholder approach, with individuals, communities, governments, and organizations all working together towards a common goal of creating a more equitable, sustainable, and just world.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-ais-work-for-cats/">Do AIs Work For Cats?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-vi-vim-both-the-official-standard-unix-linux-text-editor/">Are vi & vim Both The Official Standard Unix / Linux Text Editor?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

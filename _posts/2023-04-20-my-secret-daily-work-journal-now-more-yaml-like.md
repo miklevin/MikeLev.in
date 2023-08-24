@@ -220,7 +220,7 @@ Wow, it looks great. Okay allow the git push to occur. Give this a title. Pull
 the ripcord.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-on-adding-front-matter-support-to-journal-entries/">Planning on Adding Front Matter Support to Journal Entries</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release/">Starting a New Blogging System (create a title field under date to release)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system/">More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -510,7 +510,7 @@ Sorry, you've reached the limit of messages you can send to Bing within 24 hours
 Drat!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/most-influential-scientists-women-women-scientists/">Most Influential Scientists & Women & Women Scientists</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/proprietary-platforms-are-moving-in-on-the-free-open-source-web/">Proprietary Platforms Are Moving In On The Free & Open Source Web</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/desperately-seeking-a-better-intro-to-math-science-a-pythonic-one/">Desperately Seeking a Better Intro to Math & Science. A Pythonic One?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/science-experiments-for-12-year-olds/">Science Experiments for 12 Year Olds</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

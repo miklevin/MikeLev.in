@@ -93,7 +93,7 @@ tell you that it's a good thing. It's a good thing for the world.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/riddle-me-this-batman-what-do-you-call-someone-who-is-too-anxious-for-the-trust-protocol-test/">Riddle Me This, Batman: What Do You Call Someone Who is Too Anxious for the Trust Protocol Test?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

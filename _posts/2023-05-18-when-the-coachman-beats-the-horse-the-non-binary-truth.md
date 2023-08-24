@@ -160,7 +160,7 @@ truth will come out, as non-binary as it is.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/">A Lesson from Stan Lee: It's Never Too Late to Become a Superhero</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/when-the-coachman-beats-the-horse-the-non-binary-truth/">When the Coachman Beats The Horse: The Non-Binary Truth</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-you-ve-gotta-be-a-shoalin-it-s-good-to-be-philadelphian/">If You've Gotta be a Shoalin, It's Good to Be Philadelphian</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -46,7 +46,7 @@ to execute on a technical project that you have in your head and can express in
 great detail verbally
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: A Few Little Kitties I Know, And The Lessons They Taught Me
 headline: Learning Life Lessons from the Kitties I Know
 description: I've learned many important lessons from cats in my life, from Scooter who taught me how to control my roughhousing to Eri who has taught me to be a better parent. In this article, I explore the idea of cutting catapult ropes and how to use the wind of your own abilities to move forward in life. I also discuss the importance of documentation, and the importance of having places for things.
 keywords: date, Sun May 14, 2023, title, A Few Little Kitties I Know, And The Lessons They Taught Me, cats, pet, lessons, MikeLevin.in, Pipulate.com, Levinux.com, amygdala, Roomba, LinkedIn, Facebook, Levinux fan page, Github, Moz, Amazon, Adi, Fortress of Aditude, Tardigrade Circus, consistency, physical environment, bedroom, standing desk, New York, Billy, Sammy
-categories: seo, git
+categories: git, seo
 permalink: /blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/
 layout: post
 group: blog
@@ -425,9 +425,9 @@ follow.
 ![Parallels Between Building Standing Desk And Cutting Catapult Ropes](/assets/images/Parallels-Between-Building-Standing-Desk-And-Cutting-Catapult-Ropes.jpg)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/">A Few Little Kitties I Know, And The Lessons They Taught Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

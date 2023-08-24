@@ -4,7 +4,7 @@ title: "Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!"
 headline: Touching Base with Willow and the Whole Amazing Stories Team - Shazam!
 description: Join me on an adventure as I explore the nuances of protocol, kung fu, and Dune references. From the Commodore 64 and Amiga to the Commodore 264, 364, 464, 664, 774, and 900, I'm sharing posts, settling bets, and introducing you to my favorite buddy. Plus, I'm giving a shout-out to the Microsoft team, Apple, and Union Square Venture Capitals. Don't miss the reward and extras that come with this journey!
 keywords: Dune, Kung Fu, Mentats, Hebrew, Poser, Josh Hyman, uPTake, Wizardly, Crooked Sorcerer, Commodore 64, Amiga, Atari, ST, Falcon, Jaguar, Lynx, Commodore 128, Commodore 16, Commodore Plus/4, Commodore VIC-20, Commodore PET, Commodore 264, Commodore 364, Commodore 464, Commodore 664, Commodore 774, Commodore 900, Microsoft, Mike Sinz, Norman Schwarzkopf, YouTube
-categories: amiga, microsoft, youtube
+categories: amiga, youtube, microsoft
 permalink: /blog/touching-base-for-willow-whole-amazing-stories-team-shazam/
 layout: post
 group: blog
@@ -172,10 +172,10 @@ dumpkoff. Not a lower-case umlunkhead.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/riddle-me-this-batman-what-do-you-call-someone-who-is-too-anxious-for-the-trust-protocol-test/">Riddle Me This, Batman: What Do You Call Someone Who is Too Anxious for the Trust Protocol Test?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ftloa-for-the-love-of-adi-bioches/">ftloa == 'For The Love of Adi' bioches!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meet-pi/">Meet Pi</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

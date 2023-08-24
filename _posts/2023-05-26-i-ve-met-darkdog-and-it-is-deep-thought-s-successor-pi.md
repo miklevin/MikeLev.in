@@ -346,7 +346,7 @@ blast it out over another channel or two, right?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-robbie-be-i-robot-and-not-irobot-okay/">Hey Robbie: Be 'I, Robot' and not 'iRobot', Okay?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/">I've Met Darkdog, and it is Deep Thought's Successor, Pi.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-you-give-an-llm-a-series-of-grey-scale-values-it-will-ask-for-an-animated-gif/">If you give an LLM a series of grey-scale values, it will ask for an animated gif.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

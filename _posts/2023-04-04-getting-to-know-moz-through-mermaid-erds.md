@@ -88,7 +88,7 @@ erDiagram
 </div>
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-mike-levin-seo-vanity-search-test-w-bing-bard/">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ascii-alice-getting-smaller-to-fit-mobile/">ASCII Alice Getting Smaller to Fit Mobile</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/systematically-walk-through-moz-products/">Systematically Walk Through MOZ Products</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

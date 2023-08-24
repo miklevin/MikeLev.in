@@ -4,7 +4,7 @@ title: Working on a TikTok Script
 headline: "Navigating the Dense Infotech Forest: How to Become an Information Age Samurai with the Right Skillset and Toolset"
 description: I'm an infotech carpenter teaching people how to become an Information Age Samurai by mastering the right skillset and toolset. I'm providing a script to install Jupyter on Linux, and a guide to help people navigate the dense infotech forest. I'm also sharing my experience to help others find their way in life, and I'm learning to plan my recovery from distractions as a sort of performance-art.
 keywords: Infotech, Carpenter, Information Age Samurai, Skillset, Toolset, Jupyter, Linux, Guide, Dense Infotech Forest, Experience, Life, Performance-Art, Stay in Demand, Love What You Do, Windows, Linux APIs, Windows Subsystem, Benefits, Switch to Linux, Obsolete, Linux CLI, Python, Script, Integration, Management, Craftsmanship, 80/20-Rule, Joy, Fulfillment, Distractions, Journal, Meta-State
-categories: jupyter, joy, linux, python, 80/20-rule, microsoft, wsl
+categories: python, linux, jupyter, wsl, 80/20-rule, joy, microsoft
 permalink: /blog/working-on-a-tiktok-script/
 layout: post
 group: blog
@@ -246,14 +246,14 @@ are taking their time finding their way, digging life...
 The best I can do is leave a trail of clues.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/">Google Chrome for Linux Under LXD on WSL on Windows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-greys-exist-they-re-a-banana-crops/">If Greys Exist They're a Banana Crops</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/joy/'>Joy</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/joy/'>Joy</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

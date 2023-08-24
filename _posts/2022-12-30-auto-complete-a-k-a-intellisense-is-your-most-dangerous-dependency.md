@@ -36,7 +36,7 @@ metered pump, not so much. You're locked-in. You're herded. And relearning the
 shiny next new ain't so easy as things get more competitive and you get older.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-practice-folder-created/">Pipulate Practice Folder Created</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/should-i-no-longer-hyde-from-a-jekyll-server/">Should I No Longer Hyde From a Jekyll Server?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

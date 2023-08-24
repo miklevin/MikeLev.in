@@ -4,7 +4,7 @@ title: The World Has Changed Because SystemD on Windows
 headline: Linux Services Now Part of Windows 10 and 11, Revolutionizing Mainstream Development
 description: As I reflect on how much the world has changed in recent months, I'm struck by the impact of AI and the integration of Linux services (systemd) into Windows 10 and 11. This opens up a world of possibilities for mainstream development, without relying on Microsoft back-slashes. Microsoft's purchase of Github for 7.5 billion dollars has also had a major effect on development habits. I urge readers to click through to learn more about the implications of these changes.
 keywords: World, AI, Linux, SystemD, Windows, Development, Microsoft, Github, 7.5 Billion Dollars, Reflecting, Mainstream, Edge
-categories: ai, development, linux, microsoft, systemd, git
+categories: linux, git, ai, development, microsoft, systemd
 permalink: /blog/the-world-has-changed-because-systemd-on-windows/
 layout: post
 group: blog
@@ -37,13 +37,13 @@ benefit from and make clear the nuance.
 Pick op the pace of your video series.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/unique-conversation-let-s-talk-ai-python-next-steps/">Unique Conversation. Let's talk AI & Python Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-could-be-super-enabling-helping-you-code-at-all/">AI Could be Super-Enabling, Helping You Code At All</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-world-has-changed-because-systemd-on-windows/">The World Has Changed Because SystemD on Windows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/round-up-little-to-do-projects-to-knock-out-fast/">Round Up Little To-Do Projects to Knock Out Fast</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>

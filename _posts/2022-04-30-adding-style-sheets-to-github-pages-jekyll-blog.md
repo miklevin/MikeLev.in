@@ -54,7 +54,7 @@ simply paste it underneath:
     }
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-style-sheets-to-github-pages-jekyll-blog/">Adding Style Sheets to Github Pages Jekyll Blog</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/">Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/writing-a-bash-loop-script-for-jekyll/">Writing a Bash Loop Script for Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

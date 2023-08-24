@@ -4,7 +4,7 @@ title: The Road to Microsoft Semi-Independence
 headline: Promoting Free and Open Source SEO Software - My Journey to Microsoft Semi-Independence
 description: I'm working on a project to promote Free and Open Source SEO Software and show people how to set up a server on their Windows 10 or 11 laptops. I'm encouraging people to use Linux as a standard feature on Windows 10 and 11 via the Windows Subsystem for Linux and to be aware of Microsoft's paid services. I'm suggesting using vim instead of VSCode, as it is an industry standard and not tied to a vendor.
 keywords: Microsoft, Semi-Independence, Free, Open Source, SEO, Software, Server, Windows, Linux, Windows Subsystem, Paid Services, Vim, VSCode, Industry Standard, Vendor, Distracted, Determined, Google Photos, Project, Broad Interest
-categories: vim, open source, seo, linux, microsoft, vendor, wsl, google
+categories: vendor, vim, google, seo, linux, open source, wsl, microsoft
 permalink: /blog/the-road-to-microsoft-semi-independence/
 layout: post
 group: blog
@@ -77,15 +77,15 @@ Am I distracted? How much can I still get done today. Start on the Google
 Photos thing. That's of broad potential interest.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/start-that-foss-seo-book/">Start That FOSS SEO Book</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/numbering-weeks-from-utc-zero-vs-your-birthday/">Numbering Weeks from UTC-Zero Vs. Your Birthday</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

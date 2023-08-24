@@ -4,7 +4,7 @@ title: Have Journal Will Travel (across machines)
 headline: "Moving Machines and Mapping Habits: Successfully Publishing with Copilot After a System Update."
 description: I recently moved to a new machine and was worried about my complex publishing system staying intact, especially with the GPT-like AI, Copilot. After getting a new keyboard and making sure my habits traveled with me, I was able to successfully set up Copilot and publish a post. Read on to find out how I overcame my worries and completed my tasks.
 keywords: Script, Admin-Editable, /usr/local/sbin, Laptop Keys, Hardware, Deck, API-way, System Update, Copilot, GPT-Like AI, Keyboard, Habits, Publish, Post
-categories: ai, python, publish
+categories: ai, publish, python
 permalink: /blog/have-journal-will-travel-across-machines/
 layout: post
 group: blog
@@ -129,10 +129,10 @@ Check, and check! Throw in a little Copilot and I'm back where I was. Woot!
 
 Let's publish this post just in satisfaction in this regard.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-hardware-as-a-diagnostic-step/">Switching Hardware as a Diagnostic Step</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disabling-ai-auto-publishing-anything/">Disabling AI Auto-Publishing Anything</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/publish/'>Publish</a></h4></li></ul>
+<li><h4><a href='/publish/'>Publish</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

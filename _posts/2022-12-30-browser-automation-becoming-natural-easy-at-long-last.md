@@ -4,7 +4,7 @@ title: Browser Automation Becoming Natural & Easy At Long Last
 headline: Making Browser Automation Easier with Pandas and Playwright
 description: I'm working on a big project and documenting my progress on my blog. I've combined tabs into one data frame, deduped the list, calculated job eta, picked APIs date format, and defined typical month ranges for GA APIs. I'm now ready to perform browser automation, configuring the browser to be headless and setting up a namedtuple for arguments. I'm also using the Pandas library to read a directory full of downloads and joining them together.
 keywords: Browser Automation, Tabs, Data Frame, Dedupe, Job Eta, API, Date Format, Month Ranges, Configure, Headless, Namedtuple, Arguments, SqliteDict, Async_playwright, Context Manager, Pre-recorded, Intermittent Random Pauses, Playwright Inspector, Record Logged-in Sessions, Pandas Library, Downloads, Stacking Approach, Year, Pivot Tables, Excel File
-categories: browser automation, python, database
+categories: database, browser automation, python
 permalink: /blog/browser-automation-becoming-natural-easy-at-long-last/
 layout: post
 group: blog
@@ -259,10 +259,10 @@ print("Done")
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
