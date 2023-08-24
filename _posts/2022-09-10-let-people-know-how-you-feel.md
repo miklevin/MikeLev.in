@@ -27,7 +27,7 @@ Any single video can do the job. Plan the message (title) and the thumbnail
 beforehand.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-people-know-how-you-feel/">Let People Know How You Feel</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/developing-priceless-and-timeless-tech-habits/">Developing Priceless and Timeless Tech Habits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile/">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recovering-old-laptops-for-video-production-purposes/">Recovering Old Laptops For Video Production Purposes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

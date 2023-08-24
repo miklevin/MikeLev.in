@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a> (Thu Aug 24, 2023)
+<br/>Learn how to downgrade from Windows 11 to Windows 10 with this helpful tutorial. I provide step-by-step instructions on how to use the Microsoft Windows 10 Media Installer, as well as tips on removing bloatware and customizing your instance.</li>
 <li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
 <br/>Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.</li>
 <li><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a> (Sun Aug 06, 2023)

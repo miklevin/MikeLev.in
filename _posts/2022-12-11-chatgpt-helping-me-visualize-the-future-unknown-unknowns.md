@@ -4,7 +4,7 @@ title: ChatGPT Helping Me Visualize The Future (Unknown Unknowns)
 headline: "Exploring the Unknown with ChatGPT: Learning Valuable Lessons and Pushing Myself Out of My Comfort Zone"
 description: I'm using ChatGPT to help me visualize the future, tell stories, and articulate the Hero's Journey. I'm learning valuable lessons like it's never too late, and I'm pushing Linux, Python, vim, and git into the unconscious and automatic quadrant so I can use them like I use spoken language or driving. I'm testing to see if ChatGPT is really a game-changer.
 keywords: ChatGPT, Visualize, Future, Unknown Unknowns, Story-telling, Hero's Journey, Late, Linux, Python, Vim, Git, Unconscious, Automatic, Quadrant, Self-Examination, Whitewashed, Outliers, Behavior, Change, System
-categories: vim, linux, python, future, git, change, ai
+categories: ai, git, change, python, vim, linux, future
 permalink: /blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/
 layout: post
 group: blog
@@ -106,14 +106,14 @@ AI will surely be one of those things in not too long. These chatbots are
 impressive, and it's very interesting to watch them get trained.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-helping-me-visualize-the-future-unknown-unknowns/">ChatGPT Helping Me Visualize The Future (Unknown Unknowns)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-github-pages-mermaid-diagrams/">Testing Github Pages Mermaid Diagrams</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/">A Magic Spell Called Levinux That Introduces People to Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/surviving-google-s-helpful-content-update-surviving-helpfulgeddon/">Surviving Google's Helpful Content Update (Surviving Helpfulgeddon)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li></ul>

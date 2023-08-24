@@ -106,7 +106,7 @@ while True:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/">Automating Cycling IPs on HMA VPN Using PyWinAuto</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/portable-script-to-help-edit-many-files-at-once-with-python-venv-friendly-shebang/">Portable Script to Help Edit Many Files at Once with Python venv-friendly shebang!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/serp-scraping-with-site-search-modifier-and-custom-date-range/">SERP Scraping with site Search Modifier and Custom Date Range</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

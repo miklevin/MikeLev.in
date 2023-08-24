@@ -108,7 +108,7 @@ creative new ways, perchance to be an uncompressible myself, albeit of a much
 smaller order than the masters.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

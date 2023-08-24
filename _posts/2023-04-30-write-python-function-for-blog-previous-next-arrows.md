@@ -320,7 +320,7 @@ Okay, it looks great. On the category pages, I have the occasional hanging
 `<ol>` showing up, but I'll fix that later. Call this released!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-railing-yourself-after-getting-derailed-in-life/">Re-Railing Yourself After Getting Derailed In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

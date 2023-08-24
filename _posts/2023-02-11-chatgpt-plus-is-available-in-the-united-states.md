@@ -16,7 +16,7 @@ group: blog
 This just in!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-plus-is-available-in-the-united-states/">ChatGPT Plus Is Available In The United States</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-s-start-an-ai-novel-about-dystopizon-with-chatgpt/">Let's Start an AI-Novel About Dystopizon with ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt/">Advice How to Incubate AI at Home From ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

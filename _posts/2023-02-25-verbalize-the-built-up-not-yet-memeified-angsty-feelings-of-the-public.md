@@ -36,7 +36,7 @@ Because nobody knows what the future will bring (even the super-wealthy & fortif
 Cleverly utilizing todays common tools to maximum long-term personal advantage is the personal mission I propose to you today.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/">Verbalize the built-up not-yet memeified angsty feelings of the public.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/first-day-on-new-job-i-throw-out-my-back/">First Day on New Job & I Throw Out My Back!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keep-taking-those-baby-steps-every-day/">Keep Taking Those Baby-Steps Every Day</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-is-disincentivizing-installing-chrome-changing-default-search/">Microsoft is disincentivizing Installing Chrome & Changing Default Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

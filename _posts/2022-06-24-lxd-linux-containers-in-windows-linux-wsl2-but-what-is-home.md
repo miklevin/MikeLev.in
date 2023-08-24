@@ -4,7 +4,7 @@ title: LXD Linux Containers in Windows Linux WSL2, But What Is Home?
 headline: "Creating a Home: Exploring the Concept of Home with John Belushi and George Carlin"
 description: I explore the concept of home, referencing John Belushi and George Carlin to illustrate how labels are unnecessary. I compare the book The Wonderful Wizard of Oz and the MGM movie, and discuss how my mother escaped her home life in the same year as the movie. I conclude that home is where you make it, and that I am continuously reinventing myself and encouraging my loved-ones to do the same. To create a new home, I'm developing a special git repo, creating a personal homepage.
 keywords: LXD, Linux, Containers, Windows, WSL2, John Belushi, George Carlin, Labels, The Wonderful Wizard of Oz, MGM Movie, Home, Reinventing, Git Repos, Linux Terminal, UNIX, Private Cloud Server, Remote Repositories, Generic, Information, Experiences, Scott M.
-categories: linux, linux terminal, wsl, container, microsoft
+categories: wsl, container, linux terminal, microsoft, linux
 permalink: /blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/
 layout: post
 group: blog
@@ -177,12 +177,12 @@ There's no place like the current instantiation of your system for defining
 current home.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-lxd-running-under-wsl2-on-windows-11-with-ubuntu-18-04/">Get LXD Running Under WSL2 on Windows 11 with Ubuntu 18.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-tricks-why-the-walrus-fears-the-carpenter/">vim tricks: Why The Walrus Fears The Carpenter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

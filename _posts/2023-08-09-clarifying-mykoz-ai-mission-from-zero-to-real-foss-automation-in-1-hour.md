@@ -4,7 +4,7 @@ title: "Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour
 headline: My 30 Years in SEO Leads to a FOSS Automation Revolution with MyKoz.AI
 description: This is a big day for MyKoz.AI. Join me as I guide you through the soft-launch procedure of launching a site, soup to nuts. Learn how to automate Linux servers on boot-up and understand the changes in the SEO industry over the past 30 years. Leverage the amazing Jupyter Lab project to make your Python code immediately cloud compatible and get into the groove of real 24x7x365 automation with the Linux systemd init system.
 keywords: MyKoz.AI, Linux, Windows Subsystem for Linux, WSL, JuptyerLab, Jupyter Notebooks, Search Engine Optimization, SEO, Digital Equipment Corporation, DEC, AltaVista, Unix, Internet, System V init system, Shell Scripts, Command Line, Systemd, Mobile, Googleplex, Mountain View, Microsoft Campus, Redmond, Yahoo, Sunnyvale, New York, NYC, Tech Meetups, Free and Open Source Software, F
-categories: new york city, seo, linux, jupyter, wsl, systemd
+categories: wsl, jupyter, systemd, new york city, linux, seo
 permalink: /blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/
 layout: post
 group: blog
@@ -150,13 +150,13 @@ force-multipliers that are AI and automation. You get it through MyKoz.AI.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/">Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-registered-domain-to-bare-minimum-site-100-free-from-scratch-in-1-hour/">From Registered Domain to Bare Minimum Site 100% Free & From Scratch in 1 Hour</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

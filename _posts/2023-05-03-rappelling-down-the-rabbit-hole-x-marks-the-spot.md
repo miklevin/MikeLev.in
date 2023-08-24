@@ -4,7 +4,7 @@ title: Rappelling Down the Rabbit Hole, X-Marks The Spot
 headline: "Exploring the Depths of the Vim Rabbit Hole: A Journey Through Cognitive Dissonance"
 description: Mike Levin, SEO in NYC, shares his experience of rappelling down the rabbit hole of GPT and other AI-related technologies. He explains the power of using one text editor for life and the advantages of using open source tools like NeoVim and Emacs. He also shares his insights into the dangers of AI and encourages readers to develop empathy for these technologies.
 keywords: Rabbit Hole, Magic, Spells, Muscle Memory, vim, emacs, text editors, NeoVim, YAMLchop, API, Poetry, channeling, subconscious, Mercurial, DVCS, AMLesque
-categories: muscle memory, vim, emacs, magic, python, text editors, poetry
+categories: poetry, muscle memory, magic, text editors, python, vim, emacs
 permalink: /blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/
 layout: post
 group: blog
@@ -322,14 +322,14 @@ fantasy, silly.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recapturing-that-old-force-of-nature-feeling/">Recapturing That Old Force of Nature Feeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/poetry/'>Poetry</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
 <li><h4><a href='/magic/'>Magic</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
-<li><h4><a href='/poetry/'>Poetry</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>

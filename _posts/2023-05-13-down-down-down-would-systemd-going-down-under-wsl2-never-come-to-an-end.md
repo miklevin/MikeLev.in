@@ -4,7 +4,7 @@ title: Down, down, down! Would systemd going down under WSL2 never come to an en
 headline: I Tried Everything to Keep Systemd Alive - Here's What Finally Worked!
 description: I explored a litany of ways including the formal ones to prevent Linux systemd services from going down under WSL. After trying the .wslconfig and wsl.conf files, a systemd .service file, a cron job and .bashrc, I finally a added the nohup ping busy-task to .bash_profile to keep Linux services running under WSL2. But at a price. s
 keywords: date, Sat, May, 13, 2023, systemd, WSL2, Craig Loewen, Microsoft, WSL Program Manager, YAML, TOML, .INI, key/value pairs, vmIdleTimeout, %userprofile%, .wslconfig, wsl.conf, Linux, terminal, background, global scope, local scope, command, Python, venv, virtual environment, path, neovim, Markdown, link, cursor, Intel
-categories: vim, linux, python, yaml, wsl, microsoft, systemd
+categories: yaml, wsl, systemd, python, vim, microsoft, linux
 permalink: /blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/
 layout: post
 group: blog
@@ -563,14 +563,14 @@ needs to be open even the first time, so be it. And I took no defenses against
 not double-running the ping command from .bash_profile. I hope this thing takes
 off, haha!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/down-down-down-would-systemd-going-down-under-wsl2-never-come-to-an-end/">Down, down, down! Would systemd going down under WSL2 never come to an end?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/">Smart People Read. Dumb People Tell You They Did After Watching the Movie.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/intense-round-of-pre-productivity-tooling-refinement/">Intense Round of Pre-Productivity Tooling Refinement</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

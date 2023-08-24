@@ -37,7 +37,7 @@ group: blog
 {% include youtubePlayer.html id="1BIuNqwlhO4" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/center-a-poem/">Center, A Poem</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/">Install ZFSUtils-Linux To Prep For LXD on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

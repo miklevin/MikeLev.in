@@ -308,7 +308,7 @@ much for the better, it won't "nuke" you. No big reset button pressed on you
 and your skills and your career and your self-image and your sense of
 self-worth.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keyword-clustering-my-blog-posts-with-kmeans/">Keyword Clustering My Blog Posts With KMeans</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-vs-kmeans-for-keyword-clustering/">OpenAI Vs. KMeans for Keyword Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life/">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/project-deteriorates-into-tools-discussion-again/">Project Deteriorates Into Tools Discussion Again</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

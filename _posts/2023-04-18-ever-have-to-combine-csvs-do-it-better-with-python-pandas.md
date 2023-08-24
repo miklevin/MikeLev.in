@@ -131,7 +131,7 @@ Produces:
     4            www.pampers.com                66     11%       61      babycenter.com
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis/">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

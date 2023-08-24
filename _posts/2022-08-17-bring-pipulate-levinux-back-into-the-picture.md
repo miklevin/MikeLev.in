@@ -49,7 +49,7 @@ delete the contents of .gitattributes and I could git commit and push again.
 Okay, the old CMS skite repo is safe, but I have to revisit very soon.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-pipulate-levinux-back-into-the-picture/">Bring Pipulate & Levinux Back Into The Picture</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reworking-site/">Reworking Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-pages-aren-t-usable-on-mobile-fixing/">Why Pages Aren't Usable On Mobile, Fixing!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/">A Day In The Life of An SEO SERPs, Python Pandas & SEMRush</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

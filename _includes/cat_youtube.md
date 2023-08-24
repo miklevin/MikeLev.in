@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a> (Thu Aug 24, 2023)
+<br/>Learn how to downgrade from Windows 11 to Windows 10 with this helpful tutorial. I provide step-by-step instructions on how to use the Microsoft Windows 10 Media Installer, as well as tips on removing bloatware and customizing your instance.</li>
 <li><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a> (Fri Aug 11, 2023)
 <br/>Chat with Bing about MikeLev.in's project MyKoz.AI, a modern approach to finding value in life by mastering simple, lasting skills. Learn about MikeLev.in's vision, plans, and challenges in developing and launching the project, plus a long discussion tackling the future of the field of SEO and the general online experience of searchers and seekers, drawing parallels to libraries and the role of librarians. Also includes an examination of the role of publishers and advertisers in such exchanges.</li>
 <li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)

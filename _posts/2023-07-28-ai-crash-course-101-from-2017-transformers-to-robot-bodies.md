@@ -363,7 +363,7 @@ self-awareness? There are so many questions about what an embodied neural
 network would be like.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-crash-course-101-from-2017-transformers-to-robot-bodies/">AI Crash Course 101: from 2017 Transformers to Robot Bodies</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-linux-command-line-to-resist-obsolescence-and-future-proof-yourself/">Use Linux Command Line to Resist obsolescence and Future-proof Yourself</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

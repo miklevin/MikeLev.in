@@ -4,7 +4,7 @@ title: Figuring Out Good Vim to TikTok Journaling Format
 headline: Discovering How to Use Vim and TikTok Together for Journaling
 description: I'm learning to incorporate my daily journaling into social media like TikTok, Twitter, and YouTube. I'm optimizing the vertical format, and using my 'Green Lantern' green highlighting trick to imply force of will. I'm figuring out the ideal number of characters across for the text, and then I can screen capture it and read it. I'm also looking for a way to show my face on the computer's desktop while I'm recording. Follow my journey and learn how to be on Linux
 keywords: Windows, Windows 11, Windows 10, Linux, Subsystems, Keyboard Shortcut, Virtual Desktops, OS-wars, Mac, Command, Option, Control, Copy, Paste, Muscle Memory, Steve Jobs, OS-wars, Vim, Journal, TikTok, Twitter, YouTube, Vertical Format, Green Highlighting, Green Lantern, Zoom, OBS, Open Broadcast Software, Desktop, Version Upgrade, Fad-Shift, Timeless Tools, Microsoft, Linux
-categories: muscle memory, vim, linux, youtube, desktop, mac, twitter, microsoft
+categories: muscle memory, mac, twitter, vim, microsoft, linux, desktop, youtube
 permalink: /blog/figuring-out-good-vim-to-tiktok-journaling-format/
 layout: post
 group: blog
@@ -120,15 +120,15 @@ key that Microsoft had to
 build their own mortal enemy,
 Linux, into Windows 10 and 11.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-the-best-of-any-situation-with-mindfulness-intent-journaling/">Making The Best of Any Situation with Mindfulness, Intent & Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-linux-command-line-to-resist-obsolescence-and-future-proof-yourself/">Use Linux Command Line to Resist obsolescence and Future-proof Yourself</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/desktop/'>Desktop</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/desktop/'>Desktop</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

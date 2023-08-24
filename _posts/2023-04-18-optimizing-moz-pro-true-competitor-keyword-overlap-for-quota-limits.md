@@ -4,7 +4,7 @@ title: Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits
 headline: "Ready to Tackle a Mini-Project: Optimizing MOZ Pro True Competitor Keyword Overlap for Quota Limits"
 description: I'm using the MOZ Pro True Competitor report to optimize keyword overlap, and have identified 128 competitors. After filtering them to those with at least 2% overlap, I'm left with 59 unique sites to download. To ensure accuracy, I'm adding the original sites and their subdomains back into the list. Now, I'm feeling rested and ready to tackle a mini-project of renaming the downloads without subdomains. Join me as I take on this task!
 keywords: MOZ Pro, True Competitor, Keyword Overlap, Quota Limits, Competitors, Filtering, Unique Sites, Downloading, Subdomains, Accuracy, Original Sites, Renaming, Downloads, Mini-Project
-categories: competitor, seo
+categories: seo, competitor
 permalink: /blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/
 layout: post
 group: blog
@@ -114,9 +114,9 @@ I didn't use subdomains when I renamed the downloads from the True Competitor
 report, so that becomes our next mini-project.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automatically-log-into-moz-pro-with-playwright-browser-automation/">Automatically Log Into MOZ Pro with Playwright Browser Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/competitor/'>Competitors</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/competitor/'>Competitors</a></h4></li></ul>

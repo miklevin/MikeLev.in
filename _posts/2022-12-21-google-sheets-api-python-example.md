@@ -101,7 +101,7 @@ ranges = result.get("valueRanges", [])
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-sheets-api-python-example/">Google Sheets API Python Example</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-place-to-put-things/">A Place to Put Things</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python/">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

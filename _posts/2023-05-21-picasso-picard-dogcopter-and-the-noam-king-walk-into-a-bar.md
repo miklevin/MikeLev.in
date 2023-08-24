@@ -488,7 +488,7 @@ chance at all.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/">Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/and-picard-says-to-the-nausican-you-know-what-i-m-happy-as-an-ensign/">And Picard Says to the Nausican, You Know What? I'm Happy as An Ensign.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

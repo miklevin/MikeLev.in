@@ -4,7 +4,7 @@ title: 1991 Was An Eventful Year For Tech
 headline: Exploring the Impact of 1991 on the Home Computer Industry - A Look Back at a Pivotal Year for Tech
 description: "In 1991, I experienced a world-changing event: Linux was released by Linus Torvalds, followed by FreeBSD three years later. That same year, the first version of vim was released and the world's first website was published. Intel's lock on the x86-architecture was broken, while ARM architecture became popular due to Texas Instruments and Nokia. Join me as I look back at this pivotal year in the home computer industry and the impact it had on the tech market."
 keywords: Linux, Torvalds, Vim, Website, Intel, x86-Architecture, ARM, Texas Instruments, Nokia, Commodore, Amiga, Zilog, MOS, AMD, Home Computer, 80s, 90s, 8086, 80286, 80386, 6800, $25
-categories: vim, amiga, linux
+categories: amiga, vim, linux
 permalink: /blog/1991-was-an-eventful-year-for-tech/
 layout: post
 group: blog
@@ -100,10 +100,10 @@ the x86 platform basically blew the Amiga out of the water. You could hear it
 in the above-mentioned Amiga death knell.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

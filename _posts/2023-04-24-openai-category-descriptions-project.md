@@ -68,7 +68,7 @@ And that's about it. I'm going to go ahead and release this post. It's a good
 stopping point and I know where to begin when I next re-approach this project.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-category-descriptions-project/">OpenAI Category Descriptions Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/steve-jobs-and-bill-gates-having-amiga-envy/">Steve Jobs and Bill Gates having Amiga-envy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/defaultdict-s-returning-keys-with-lambdas-needs-default-none/">DefaultDict's Returning Keys with Lambdas Needs Default None</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gathering-all-category-logic-into-one-place/">Gathering All Category Logic into One Place</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

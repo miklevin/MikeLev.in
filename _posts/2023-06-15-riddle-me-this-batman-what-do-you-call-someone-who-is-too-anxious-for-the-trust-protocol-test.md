@@ -165,7 +165,7 @@ More to come, but methinks it's a good time for:
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/riddle-me-this-batman-what-do-you-call-someone-who-is-too-anxious-for-the-trust-protocol-test/">Riddle Me This, Batman: What Do You Call Someone Who is Too Anxious for the Trust Protocol Test?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ftloa-for-the-love-of-adi-bioches/">ftloa == 'For The Love of Adi' bioches!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

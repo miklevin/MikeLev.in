@@ -20,7 +20,7 @@ You will see this. It is good. Take it's advice.
 >>>>>>> 9badb1890c6c7940fc1965242aa5e9c77d88aee8
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-subsystem-for-linux-is-now-available-in-the-microsoft-store/">Windows Subsystem for Linux is now available in the Microsoft Store!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-large-browser-automation-job/">Planning A Large Browser Automation Job</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

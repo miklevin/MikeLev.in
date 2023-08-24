@@ -213,7 +213,7 @@ Biotechnology needs
 Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/optimistic-utopian-ai-futures-are-refreshing-fusion-superconductivity-ai/">Optimistic Utopian AI Futures Are Refreshing: Fusion, Superconductivity, & AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rapping-w-bing-about-ai-emotions-my-blog/">Rapping w/Bing About AI Emotions & My Blog</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/week-3-at-moz-step-up-your-game/">Week 3 at Moz, Step-Up Your Game</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

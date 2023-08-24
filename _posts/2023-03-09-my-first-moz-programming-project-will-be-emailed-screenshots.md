@@ -62,7 +62,7 @@ Already I can see this is too many words. Simplify!
 - Start out by observing well. This leads to a screenshot project.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-first-moz-programming-project-will-be-emailed-screenshots/">My First MOZ Programming Project Will Be Emailed Screenshots</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-structured-graphics-foss/">Seeking Structured Graphics FOSS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/general-artificial-intelligence-nas-business-plan/">General Artificial Intelligence NAS Business Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-are-the-most-important-news-for-me-to-know-today/">What are the most important news for me to know today?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

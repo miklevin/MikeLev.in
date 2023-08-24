@@ -126,7 +126,7 @@ only need know Python dicts and a bit about the ***with*** keyword in Python.
 Oh, and .commit(). You need to know about .commit().
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/where-to-begin-pickle-your-dicts/">Where to Begin? Pickle Your Dicts!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-google-photos-organization-program/">Testing Google Photos Organization Program</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

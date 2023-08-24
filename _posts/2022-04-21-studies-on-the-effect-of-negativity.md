@@ -15,7 +15,7 @@ Dr. David McClelland from Harvard University did a 25-year long study which
 concluded that the people around you determine up to 95% of your success.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-be-writing-though-language-is-full-of-lies/">Always Be Writing Though Language Is Full of Lies</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-stories-leading-up-to-linux-python-vim-git/">My Stories Leading Up To Linux, Python, vim & git</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-your-daily-vim-exercise/">Get Your Daily vim Exercise</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Deep Breath Before Keyword Histogram Clustering
 headline: Exploring Machine Learning to Optimize Blog Content
 description: As I explore the potential of machine learning to optimize my blog content, I am considering changes to my domain URLs to appeal to search and AI systems. Additionally, I plan to create an MLGL license and a heartbeat tech system, and use Linux commands to keep my laptop and server instances in sync. By leveraging my laptop computing power to analyze server data, I am confident I can create a more effective blog post.
 keywords: Deep Breathing, Histogram Clustering, Machine Learning, Domain URLs, Search, AI, MLGL License, Heartbeat Tech System, Linux Commands, Laptop Computing, Server Data, Optimize Content, URLs, Content Appeal
-categories: ai, search
+categories: search, ai
 permalink: /blog/deep-breath-before-keyword-histogram-clustering/
 layout: post
 group: blog
@@ -56,9 +56,9 @@ computing power. I resist setting up dedicated databases for this. It still may
 be achievable with SQLite.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-world-has-changed-because-systemd-on-windows/">The World Has Changed Because SystemD on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-tuple-keys/">An Ode Tuple Keys</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/unique-conversation-let-s-talk-ai-python-next-steps/">Unique Conversation. Let's talk AI & Python Next Steps</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li></ul>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

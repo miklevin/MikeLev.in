@@ -4,7 +4,7 @@ title: Chasing The Tech Rabbit
 headline: "Exploring New Technology: Join Me on My Journey!"
 description: "Today, I'm trying something new by using vim :b2 for my personal journaling and creating videos to show the best experiences. I'm also creating something that would be useful to SEOs, exploring GPU utilization, CUDA and alternatives, and doing a JupyterLab demo. Join me on my journey and learn more about these topics!"
 keywords: vim, personal journaling, videos, SEOs, GPU utilization, CUDA, alternatives, JupyterLab, JupyterLab Server, portable switch army SEO product
-categories: jupyter, vim
+categories: vim, jupyter
 permalink: /blog/chasing-the-tech-rabbit/
 layout: post
 group: blog
@@ -32,9 +32,9 @@ Browser automation in yet another road to VSCode. Beware. I'm taking you down
 the JupyterLab Server (on Linux) route.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life/">Cast a Homunculus Majordomo to Help Run Your Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

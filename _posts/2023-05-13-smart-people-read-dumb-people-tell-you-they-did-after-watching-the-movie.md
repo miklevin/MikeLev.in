@@ -4,7 +4,7 @@ title: Smart People Read. Dumb People Tell You They Did After Watching the Movie
 headline: "Smart People Read: A Reflection on the Power of Writing and Lifelong Learning."
 description: Smart people read to gain knowledge, understanding, and empathy. Reading gives you a competitive advantage and a deeper appreciation of the human experience. Don't be fooled by people who don't read and think they can get the same benefits by using AI to write for them. Reading is the key to success.
 keywords: Desktop OSes, Linux, Windows, Mac, Virtual Desktops, Machine Learning, RTX 3090, Steam, Games, Sci-Fi, Fantasy, Malcolm Gladwell, Guns, Germs, Steel, Warren Buffet, Berkshire Hathaway, OpenAI, Netscape, 280 Characters, Doomscrolling, Neurotransmitter Hits, Compounding Returns, Snowball Effect, Learning, Moat, Competitive Advantage, Technology Companies, Patent-Lawyer Engineers, Self-Motivated, John
-categories: ai, microsoft, mac, linux
+categories: microsoft, ai, mac, linux
 permalink: /blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/
 layout: post
 group: blog
@@ -217,11 +217,11 @@ hahaha! I'm going to love this book!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/smart-people-read-dumb-people-tell-you-they-did-after-watching-the-movie/">Smart People Read. Dumb People Tell You They Did After Watching the Movie.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/undisruptable-unsuppressible-unstoppable-unbreakable-unconquerable-indomitable/">undisruptable. Unsuppressible. Unstoppable. Unbreakable. Unconquerable. Indomitable.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/">Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Running only Once!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: A Few Things About Me
 headline: "Living in Staten Island, NYC: Experiencing Life's Magical Moments and Sharing Them."
 description: As a He/Him living in Staten Island, NYC, I live by the motto 'What's Most Broken, Where's The Biggest Bang for The Buck, What Plates Need Spinning'. My life is centered around my kid, Linux, Python, vim & git, and daily reading & writing. If I were to participate in an eating contest, Blue Cheese & Skittles would be my choice. I've experienced some truly magical moments.
 keywords: He/Him, Staten Island, NYC, Broken, Bang, Buck, Plates, Spinning, Kid, Linux, Python, Vim, Git, Reading, Writing, Eating Contest, Blue Cheese, Skittles, Magical Moments, Sharing
-categories: new york city, vim, python, git, linux
+categories: git, python, vim, new york city, linux
 permalink: /blog/a-few-things-about-me/
 layout: post
 group: blog
@@ -51,12 +51,12 @@ than ever FOSS tools in the hands of individuals. The iron is hot to alter
 perceptions and to shape and define a new emerging field.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-few-things-about-me/">A Few Things About Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linear-algebra-from-chatgpt/">Learning Linear Algebra From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/finally-got-through-bing-waiting-list/">Finally Got Through Bing Waiting List</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

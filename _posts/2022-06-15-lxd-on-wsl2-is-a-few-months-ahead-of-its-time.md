@@ -4,7 +4,7 @@ title: LXD on WSL2 is a Few Months Ahead Of Its Time
 headline: Exploring the Challenges and Solutions of LXD on WSL2 as an Early Adopter
 description: As an early adopter of LXD on WSL2, I've encountered confusion between LXD and Docker, downgraded tutorials to Ubuntu 18.04, confirmed LXD requires systemd, tested to see if it is running, and encountered network context issues. I have also found various approaches to solve them. Join me as I explore the challenges and solutions of LXD on WSL2.
 keywords: LXD, WSL2, Early Adopter, Confusion, Docker, Ubuntu 18.04, Systemd, Running, Network Context, Challenges, Solutions
-categories: container, wsl, systemd
+categories: systemd, container, wsl
 permalink: /blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/
 layout: post
 group: blog
@@ -82,10 +82,10 @@ I need to put the time in on learning the lxc commands and general API.
 I am feeling bleeding edge pain of early adopters.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/">LXD on WSL2 is a Few Months Ahead Of Its Time</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/there-s-no-place-like-home-you-get-to-decide-where-that-is-or-do-you/">There's No Place Like Home & You Get To Decide Where That Is... Or Do You?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off/">Microsoft Edge history is now syncing (turn off)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>

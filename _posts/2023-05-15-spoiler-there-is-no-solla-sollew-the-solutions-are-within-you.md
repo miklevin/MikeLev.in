@@ -4,7 +4,7 @@ title: "Spoiler: There Is No Solla Sollew. The Solutions Are Within You"
 headline: Discover How to Find Solutions to Your Problems Within Yourself
 description: Learn to think dynamically and find the solutions to your problems within yourself. Discover the power of journaling and observation to help you identify and address your internal issues that you are projecting onto others. Don't forget the wisdom of Dr. Seuss and the Solla Sollew, even though Dr. Seuss was a cheater himself.
 keywords: personality, dynamic, static, false dichotomies, black and white, shades of grey, rainbow, rabbit hole, VSCode, vim, emacs, Web UI, command-line interface, robot overlords, higher order, intelligence, Internet, article, human intelligence, better, language, misinterpret, mommies, daddies, classic mistakes, over-sheltering, pandemic, quarantines, shut-in, social media, reading, laptop, computer
-categories: computer, vim, emacs, microsoft
+categories: vim, computer, microsoft, emacs
 permalink: /blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/
 layout: post
 group: blog
@@ -170,11 +170,11 @@ kids.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/computer/'>computers</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/computer/'>computers</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>

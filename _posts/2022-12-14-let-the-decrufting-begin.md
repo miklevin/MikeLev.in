@@ -4,7 +4,7 @@ title: Let The Decrufting Begin!
 headline: "I Decluttered My Website: Taking Off the Main Nav & Refining Pages with Vim Buffers"
 description: Yesterday I made history by de-linking and taking off the main navigation from my website, MikeLev.in. I loaded Linux, Python, Vim, and Git markdown pages into Vim buffers, so I could refine the few pages still linked on the main nav. Additionally, I used blog categorization to control what went onto the Linux, Python, Vim, and Git pages. Check out my blog post to learn more about my journey and the changes I made!
 keywords: Decrufting, de-linking, main navigation, MikeLev.in, Linux, Python, Vim, Git, markdown, blog, categorization, history, buffers, refine, blog-post, control, changes, blanked
-categories: vim, python, git, history, linux, change
+categories: git, history, change, python, vim, linux
 permalink: /blog/let-the-decrufting-begin/
 layout: post
 group: blog
@@ -26,13 +26,13 @@ response to Google's "Helpful Content" update. It's the dawn of "Best Foot
 Forward" SEO and I've got to put my actions where my mouth is.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language/">Me vs. ChatGPT: Tell me why I should use the Python programming language.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/history/'>history</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li></ul>
+<li><h4><a href='/change/'>Changes</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -24,7 +24,7 @@ People don't talk about it much but many things you build out of tech weigh you 
 True automation is an illusion. You might as well face facts right up front when you start to learn tech. Don't discover these things 20 years in after being stung twice, such as I was. I say stung twice, first by the Amiga computer, then by Microsoft Active Server Page (.asp VBScript). But in reality, I owe them both a great debt. In the case of the Amiga, their kooky OS was based on TRIP
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/this-is-a-better-place-to-blog-than-twitter/">This is a better place to blog than Twitter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-discuss-embrace-displace-with-bing/">Starting to discuss Embrace & Displace with Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-research-a-4k-vlogging-camera/">Starting to Research a 4K Vlogging Camera</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/exploring-ai-s-opinion-of-hottest-tech-fields/">Exploring AI's Opinion of Hottest Tech Fields</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

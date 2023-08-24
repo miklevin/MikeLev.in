@@ -4,7 +4,7 @@ title: Numbering Weeks from UTC-Zero Vs. Your Birthday
 headline: Deciding the Best Way to Chunk Time for a Google Photos Querying Project
 description: I'm trying to decide the best way to break up my Google Photos querying project into chunks of time. Should I use weeks measured from Unix Timestamp or from my own birthday? I'm now considering writing my own code, as I'm losing faith in the code I was given from ChatGPT. Read more to find out how I'm tackling this project.
 keywords: Google Photos, Unix Timestamp, Birthday, Chunk Time, Code, API, Documentation
-categories: google, python
+categories: python, google
 permalink: /blog/numbering-weeks-from-utc-zero-vs-your-birthday/
 layout: post
 group: blog
@@ -85,9 +85,9 @@ from API documentation, it might not work right away, but at least I'm
 debugging my own code, based on more recent documentation to boot!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/numbering-weeks-from-utc-zero-vs-your-birthday/">Numbering Weeks from UTC-Zero Vs. Your Birthday</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/where-to-begin-pickle-your-dicts/">Where to Begin? Pickle Your Dicts!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

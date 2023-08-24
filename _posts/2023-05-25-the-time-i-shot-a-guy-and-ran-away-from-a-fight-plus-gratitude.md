@@ -134,7 +134,7 @@ I hated Mike Rubin back then for forcing me to expose my cowardly side to myself
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-time-i-shot-a-guy-and-ran-away-from-a-fight-plus-gratitude/">The Time I Shot a Guy and Ran Away From a Fight (Plus Gratitude)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

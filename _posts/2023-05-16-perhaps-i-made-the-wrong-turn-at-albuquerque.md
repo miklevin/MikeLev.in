@@ -383,7 +383,7 @@ Now go chase a rabbit.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/perhaps-i-made-the-wrong-turn-at-albuquerque/">Perhaps I Made The Wrong Turn at Albuquerque</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-don-t-know-oz-the-way-i-know-oz/">You Don't Know OZ The Way I Know OZ</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

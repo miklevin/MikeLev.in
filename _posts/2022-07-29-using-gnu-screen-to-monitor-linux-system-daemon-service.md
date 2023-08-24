@@ -4,7 +4,7 @@ title: Using GNU Screen to Monitor Linux System Daemon Service
 headline: Mastering Linux Technology with GNU Screen and LXD Containers
 description: Learn how to install Linux on Windows machines and get Linux services running under GNU Screen under an LXD Container. Discover the advantages of mastering generic Linux tech over web development and how to get started. I provide an example of a Python script to monitor a Linux system daemon service, and I walk you through the steps for installing Ubuntu 18.04, updating the file /etc/systemd/system/pulse.service, installing the program screen.
 keywords: Linux, Ubuntu, Windows, WSL, LXD, Container, GNU Screen, System Daemon, Service, Monitor, Install, Update, File, Program, Command, Python, Script, Web Development, Advantages, Master
-categories: ubuntu, linux, python, wsl, web development, container, microsoft
+categories: web development, wsl, container, ubuntu, python, microsoft, linux
 permalink: /blog/using-gnu-screen-to-monitor-linux-system-daemon-service/
 layout: post
 group: blog
@@ -216,14 +216,14 @@ why it's not always there. I like this YouTuber guy Dave's Garage.
 
     sudo apt install net-tools
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-gnu-screen-to-monitor-linux-system-daemon-service/">Using GNU Screen to Monitor Linux System Daemon Service</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/knowing-what-gnu-screen-you-re-on-with-screenrc/">Knowing what GNU screen you're on with .screenrc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-lxd-on-wsl2-with-systemd-enabled-ubuntu-18-04/">Setting Up LXD on WSL2 with systemd enabled Ubuntu 18.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sending-emails-with-python-through-smtp/">Sending Emails With Python Through SMTP</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

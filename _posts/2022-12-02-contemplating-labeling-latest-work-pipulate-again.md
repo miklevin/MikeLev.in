@@ -4,7 +4,7 @@ title: Contemplating Labeling Latest Work Pipulate Again
 headline: Considering Changes to My Workflow and Pipulate Labeling for Latest Project
 description: I'm considering labeling my latest work as Pipulate and adding an 'automount' option to my DrinkMe Linux install script. My YouTube video on the truth about systemd under WSL2 is gaining traction and I'm contemplating a workflow change, capturing ideas and forging source as Docker becomes more popular. Come read my blog post to learn more about my journey and the decisions I'm making.
 keywords: Pipulate, Automount, WSL2, Systemd, DrinkMe Linux, Workflow Change, Capturing Ideas, Forging Source, Docker, YouTube Video, Blog Post, Journey, Decisions
-categories: container, wsl, systemd, pipulate
+categories: systemd, pipulate, wsl, container
 permalink: /blog/contemplating-labeling-latest-work-pipulate-again/
 layout: post
 group: blog
@@ -60,11 +60,11 @@ Along comes object oriented. Along comes concurrency (longer ago than you think
 flocking flock, right?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/contemplating-labeling-latest-work-pipulate-again/">Contemplating Labeling Latest Work Pipulate Again</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities/">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines/">Don't Miss My Talk with OpenAI about clickbait headlines!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles/">What OpenAI GPT-3 Knows About Virtual Particles</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li></ul>

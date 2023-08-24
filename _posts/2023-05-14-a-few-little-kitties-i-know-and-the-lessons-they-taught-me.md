@@ -425,7 +425,7 @@ follow.
 ![Parallels Between Building Standing Desk And Cutting Catapult Ropes](/assets/images/Parallels-Between-Building-Standing-Desk-And-Cutting-Catapult-Ropes.jpg)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/">A Few Little Kitties I Know, And The Lessons They Taught Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

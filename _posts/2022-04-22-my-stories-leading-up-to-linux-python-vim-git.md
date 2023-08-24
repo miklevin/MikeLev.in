@@ -4,7 +4,7 @@ title: My Stories Leading Up To Linux, Python, vim & git
 headline: "From War-Era Pilot to Millionaire: My Journey to Take Control of My Life"
 description: Growing up with people who meant me harm, I didn't realize it until much later. I eventually saw my Uncle Bob as a war-era pilot and a slumlord, and I decided to take control of my life. I moved to New York City with my then-spouse, only to face a costly eviction and a failed marriage. I soon realized that everything in life is strategy and war, and I had to take over my dad's check cashing business and rescue my mom from
 keywords: Linux, Python, vim, git, Godfather-complex, SEO, check-cashing, schizophrenia, Mexico, dotcom-boom, Amazon, PR, VP, fantasies, control, strategy, war, New York City, eviction, marriage, neighbor, co-op board, custody
-categories: new york city, vim, seo, python, git, linux, success
+categories: success, git, python, vim, new york city, linux, seo
 permalink: /blog/my-stories-leading-up-to-linux-python-vim-git/
 layout: post
 group: blog
@@ -164,14 +164,14 @@ launched Amazon. I had “I made it” stars in my eyes and was blind to what wa
 really happening.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/studies-on-the-effect-of-negativity/">Studies On The Effect Of Negativity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-be-writing-though-language-is-full-of-lies/">Always Be Writing Though Language Is Full of Lies</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-stories-leading-up-to-linux-python-vim-git/">My Stories Leading Up To Linux, Python, vim & git</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/success/'>Success</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

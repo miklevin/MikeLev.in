@@ -113,7 +113,7 @@ set /p warning=Press [Enter] to release this console window. %
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-need-to-get-this-ready-for-moz-tutorial-use/">I Need To Get This Ready for MOZ Tutorial Use</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gonna-get-bing-to-name-an-emerging-new-field/">Gonna Get Bing to Name An Emerging New Field</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tale-of-the-planckian-and-the-wall/">The Tale of The Planckian and The Wall</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -136,7 +136,7 @@ done
 exit
 ```
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/activating-all-my-registered-domains/">Activating All My Registered Domains</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bopping-between-python-bash-scripts-no-biggie/">Bopping Between Python & Bash Scripts No Biggie</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/">From Jupyter Notebook to pip Installable Package In One Go</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bash-script-loading-external-files/">Bash Script Loading External Files</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

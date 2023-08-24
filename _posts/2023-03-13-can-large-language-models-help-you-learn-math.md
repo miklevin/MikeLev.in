@@ -65,7 +65,7 @@ Source: Conversation with Bing, 3/10/2023
 I have SERP data across a broad array of keywords. That is to say I know what URLs are in what positions on what keyword searches sampled at a regular time frequency. I can identify groups of keyword and want to determine the directionality of URLs and websites going up and down in search. In other words I want to do regression analysis or some other technique to find on the rise web properties and topics.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/can-large-language-models-help-you-learn-math/">Can Large Language Models Help You Learn Math?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/build-web-scraper-with-bing-from-scratch/">Build Web Scraper With Bing From Scratch</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-creates-new-competitive-pressures-for-content-providers/">AI Creates New Competitive Pressures For Content Providers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-is-the-best-seo-software/">What is the best SEO software?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

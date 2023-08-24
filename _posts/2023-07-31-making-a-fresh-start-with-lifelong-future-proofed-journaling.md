@@ -4,7 +4,7 @@ title: Making a Fresh Start with Lifelong Future-proofed Journaling
 headline: Start Your Lifelong Journey with Future-Proofed Journaling!
 description: Start your journey to a better future with lifelong, future-proofed journaling. Join me on a mindfulness exercise and learn how to create a digital home that will provide you with a free, life-long journal. Get started with the tools you have, or reset your laptop for a distraction-free rebuild.
 keywords: journaling, mindfulness, Windows, Linux, Mac, ChromeBooks, laptop, Factory Reset, software strip-down, distraction-free rebuild, nomadic digital home, life-long journal
-categories: journaling, microsoft, mac, linux
+categories: mac, journaling, microsoft, linux
 permalink: /blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/
 layout: post
 group: blog
@@ -63,11 +63,11 @@ group: blog
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-the-best-of-any-situation-with-mindfulness-intent-journaling/">Making The Best of Any Situation with Mindfulness, Intent & Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>

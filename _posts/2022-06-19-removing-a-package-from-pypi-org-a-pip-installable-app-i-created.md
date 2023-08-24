@@ -56,7 +56,7 @@ https://github.com/jekyll/jekyll/issues/260
 It's not going to be a clear win, but there is some hope.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created/">Removing a Package From PyPI.org (a pip installable app I created)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/qnap-container-station-lxc-end-of-support-notification-move-to-lxd/">Qnap Container Station Lxc End Of Support Notification, Move To Lxd</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gutting-dependencies-out-of-your-projects-life/">Gutting Dependencies Out Of Your Projects & Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

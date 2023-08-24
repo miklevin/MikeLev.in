@@ -259,7 +259,7 @@ print("Done")
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/auto-complete-a-k-a-intellisense-is-your-most-dangerous-dependency/">Auto-Complete a.k.a. Intellisense Is Your Most Dangerous Dependency</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

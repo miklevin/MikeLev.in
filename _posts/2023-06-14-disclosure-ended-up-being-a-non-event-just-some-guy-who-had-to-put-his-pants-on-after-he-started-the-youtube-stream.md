@@ -4,7 +4,7 @@ title: Disclosure ended up being a non-event. Just some guy who had to put his p
 headline: "Disclosure: Just a Guy Who Had to Put His Pants On"
 description: Relax everyone, tomorrow will be just like today, but with more situational awareness. Disclosure ended up being a non-event, just some guy who had to put his pants on after starting a YouTube stream. Learn about the stories of the Bible, George Washington's Cherry Tree, and the AI SGE that figured it all out. Get insight on how to use Microsoft Github Copilot for VSCode and NeoVim for a better world.
 keywords: disclosure, event, humans, others, situational awareness, biblical, stories, truth, George Washington, Cherry Tree, Psyche, American people, lie, dehumanize, AI, SGE, humorless, learning, Charlie Chaplin, YouTube stream, Jack Tramiel, Vic-20, Commodore 64, Bobs, SID chip, Sydney, Microsoft Github Copilot, VSCode, NeoVim
-categories: ai, vim, microsoft
+categories: vim, ai, microsoft
 permalink: /blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/
 layout: post
 group: blog
@@ -93,10 +93,10 @@ tell you that it's a good thing. It's a good thing for the world.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disclosure-ended-up-being-a-non-event-just-some-guy-who-had-to-put-his-pants-on-after-he-started-the-youtube-stream/">Disclosure ended up being a non-event. Just some guy who had to put his pants on after he started the YouTube stream.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/riddle-me-this-batman-what-do-you-call-someone-who-is-too-anxious-for-the-trust-protocol-test/">Riddle Me This, Batman: What Do You Call Someone Who is Too Anxious for the Trust Protocol Test?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-situational-awareness-to-formulating-effective-test/">From Situational Awareness To Formulating Effective Test</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

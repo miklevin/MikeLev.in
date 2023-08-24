@@ -4,7 +4,7 @@ title: Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS
 headline: Seamlessly Upgraded from Ubuntu 20.04 to 22.04 with MyKoz AReal/OS!
 description: I successfully upgraded from Ubuntu 20.04 to 22.04 and my daily journaling script worked seamlessly! I'm now exploring how to make this same functionality available to everyone, while keeping it as close to the mainstream systems as possible. I'm also looking into how to best take advantage of Windows for durability of paths and file-locations between Linux-side upgrades.
 keywords: Ubuntu, 20.04, 22.04, MyKoz, AReal/OS, Linux, JupyterLab, Vim, Journaling, Public, Private, Systems, Automation, nbdev, CSS, Sass, Fullstack, Webdev, Windows, Symbolic, Links, .ssh, Directory, Release, Blog Post
-categories: ubuntu, vim, journaling, linux, python, nbdev, jupyter, microsoft
+categories: jupyter, ubuntu, journaling, python, vim, linux, microsoft, nbdev
 permalink: /blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/
 layout: post
 group: blog
@@ -68,15 +68,15 @@ time to release this blog post, it should just work. Let's try!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

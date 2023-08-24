@@ -1048,7 +1048,7 @@ There are certainly alternative theories to quantum mechanics, but none of them 
 
 [I think this is the 2nd time the session locked-up and reset]
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/meissner-effect-schwinger-effect-tictac-flux-liner/">Meissner Effect + Schwinger Effect = TicTac Flux Liner</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-need-to-get-this-ready-for-moz-tutorial-use/">I Need To Get This Ready for MOZ Tutorial Use</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gonna-get-bing-to-name-an-emerging-new-field/">Gonna Get Bing to Name An Emerging New Field</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

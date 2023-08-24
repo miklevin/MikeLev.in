@@ -42,7 +42,7 @@ turned it into the repo page for mlseo. I may have to rethink that.
 
 But don't lose momentum. Keep going! Every Little Project Gets Done... Next!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-a-bash-loop-script-for-jekyll/">Writing a Bash Loop Script for Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height/">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-style-sheets-to-github-pages-jekyll-blog/">Adding Style Sheets to Github Pages Jekyll Blog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disabling-github-ci-nbdev-install-git-hooks/">Disabling Github CI nbdev_install_git_hooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Daily Journal in One Text-file For Life, Now With Copilot... Optional!
 headline: "Living in the NOOSPHERE: My Journey of Journaling with NeoVim and Copilot"
 description: I got two new kitties and I'm reflecting on the advice that nothing good ever comes of social media. I disagree and believe that it takes optimism to be a good person. I'm using NeoVim and Copilot to journal in a text file, and I'm sharing my mission to inspire others with my formulaic happiness. I'm teaching people how to use NeoVim and Copilot, and I'm looking forward to telling you about other AI.
 keywords: Journaling, Text-file, Kitties, Billy, Sammy, Charlie, Eri, Social Media, Optimism, Mission, Linux, Container, Virtual Machine, Windows 11, Windows 10, Downgrade, Hardware, Cracked Screen, System Crash, Vim, NeoVim, Copilot, GPT, OpenAI, Programming, API, Tool Obsolescence, Fire and Motion, Joel Spolsky, Microsoft, Language Model, English, Formulaic Happiness, Inspire, Video
-categories: journaling, vim, linux, python, coding, ai, container, microsoft
+categories: ai, container, journaling, python, vim, microsoft, linux, coding
 permalink: /blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/
 layout: post
 group: blog
@@ -127,15 +127,15 @@ That's one AI. There are others. I look forward to telling you about them.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/daily-journal-in-one-text-file-for-life-now-with-copilot-optional/">Daily Journal in One Text-file For Life, Now With Copilot... Optional!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-linux-command-line-to-resist-obsolescence-and-future-proof-yourself/">Use Linux Command Line to Resist obsolescence and Future-proof Yourself</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatting-with-ai-about-favorite-books-that-broaden-perspective/">Chatting with AI About Favorite Books That Broaden Perspective</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-crash-course-101-from-2017-transformers-to-robot-bodies/">AI Crash Course 101: from 2017 Transformers to Robot Bodies</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

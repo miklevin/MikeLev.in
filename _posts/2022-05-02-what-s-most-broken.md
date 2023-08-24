@@ -30,7 +30,7 @@ yo something.
 > Who had me fooled again you see\
 > Which makes it twice so shame on me
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/">Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bopping-between-python-bash-scripts-no-biggie/">Bopping Between Python & Bash Scripts No Biggie</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-most-broken/">What's Most Broken?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

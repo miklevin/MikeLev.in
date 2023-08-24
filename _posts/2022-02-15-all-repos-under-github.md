@@ -18,7 +18,7 @@ numerous. Folder propagation inside ~/github is a potential problem I need to
 keep an eye on. There's need for organization and pruning. Speaking of which
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-i-became-obsessive-about-obsolescence-proofing/">How I Became Obsessive About Obsolescence-Proofing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/all-my-sites-will-be-in-play/">All My Sites Will Be In Play</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

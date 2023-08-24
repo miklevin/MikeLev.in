@@ -19,7 +19,7 @@ group: blog
 > <cite>&#151;Mike Levin, 2022<br />
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easy-peasy-computer-literacy/">Easy Peasy Computer Literacy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/">Putting mlseo on subdomain of MikeLevinSEO.com</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recording-vim-macro-for-markdown-image-insertion/">Recording vim macro for markdown image insertion</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

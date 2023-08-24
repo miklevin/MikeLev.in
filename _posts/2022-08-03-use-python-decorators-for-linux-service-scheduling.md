@@ -4,7 +4,7 @@ title: Use Python Decorators For Linux Service Scheduling
 headline: Exploring Coding and Diminishing Reliance on Fads with Python, Huey, and More
 description: I'm using Python's schedule module to create a Linux service and switching to decorators with Huey. I'm using Windows 10 with virtual desktops and WSL2, Linux containers with LXD, and two files under /etc/systemd/system. I'm passionate about coding and writing and am focusing on learning huey scheduling, pyppeteer or Microsoft Playwright, and database persistence. Join me on my journey as I explore coding and diminishing my reliance on fads and trends.
 keywords: Python, Decorators, Linux, Service, Scheduling, Windows, 10, Virtual, Desktops, WSL2, Containers, LXD, /etc/systemd/system, Coding, Writing, Huey, Pyppeteer, Microsoft, Playwright, Database, Persistence, Linux, Vim, Git, BASH, Script, C, LISP, Dialects, JavaScript, Fads, Trends
-categories: journaling, vim, linux, python, git, coding, wsl, desktop, database, container, scheduling, javascript, microsoft, microsoft playwright
+categories: wsl, git, container, journaling, javascript, python, database, vim, desktop, microsoft, linux, scheduling, coding, microsoft playwright
 permalink: /blog/use-python-decorators-for-linux-service-scheduling/
 layout: post
 group: blog
@@ -214,21 +214,21 @@ languages difficult. I've tried. My different languages would be:
 - Drawing / Illustration (Pen & paper)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lightweight-python-data-pipelining-with-huey-to-replace-scheduler/">Lightweight Python Data Pipelining With Huey (to Replace Scheduler)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-perceptual-image-hash-as-database-primary-key-for-cats/">Use Perceptual Image Hash as Database Primary Key for Cats</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/desktop/'>Desktop</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/desktop/'>Desktop</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>

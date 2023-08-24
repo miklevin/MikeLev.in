@@ -36,7 +36,7 @@ more. This one is chock full 0' mic lovin' goodness.
 
 {% include youtubePlayer.html id="KIztrN6RlIY" %}
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code/">Imagining vim Macro That Makes Markdown Image Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/little-things-big-changes/">Little Things, Big Changes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

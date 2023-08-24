@@ -249,7 +249,7 @@ while True:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sending-an-html-email-with-embedded-image-from-python/">Sending an HTML Email with Embedded Image From Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-get-blinded-by-the-hardware/">You Get Blinded By The Hardware</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-sending-email-in-jupyter-to-sending-email-in-linux-service/">From Sending Email in Jupyter to Sending Email in Linux Service</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/send-email-with-file-attachment-from-python/">Send Email With File Attachment From Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

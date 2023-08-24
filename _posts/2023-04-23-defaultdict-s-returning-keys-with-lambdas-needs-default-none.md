@@ -125,7 +125,7 @@ but it's a very powerful technique that I'm sure I'll be using a lot in the
 future, and which Copilot also seems to be very impressed with.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/defaultdict-s-returning-keys-with-lambdas-needs-default-none/">DefaultDict's Returning Keys with Lambdas Needs Default None</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gathering-all-category-logic-into-one-place/">Gathering All Category Logic into One Place</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/designing-yamlesque-post-generator-api/">Designing YAMLesque Post Generator API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-category-descriptions-project/">OpenAI Category Descriptions Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

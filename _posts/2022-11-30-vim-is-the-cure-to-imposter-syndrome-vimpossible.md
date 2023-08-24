@@ -4,7 +4,7 @@ title: vim is the cure to Imposter Syndrome (vimpossible!)
 headline: Overcome Imposter Syndrome with Unix, Linux, Python, Vim, and Git!
 description: I have experienced Imposter Syndrome and understand how it feels. I'm going to teach people how to be free of this feeling forever by providing an alternative to web development with Linux, Python, Vim, and Git. Vim is a lifetime endeavor and is the native user interface for the Unix Philosophy, created by Bell Labs in 1970, and the Free and Open Source Software movement provides the opportunity to get better with the tools over time.
 keywords: Imposter Syndrome, Unix Philosophy, Bell Labs, Free and Open Source Software, Linux, Python, Vim, Git, SEO, Best Practices, Sheeple, Web Development, Perseverance, Ambition, Natural Limits
-categories: vim, seo, python, git, linux, imposter syndrome, web development
+categories: web development, imposter syndrome, git, python, vim, linux, seo
 permalink: /blog/vim-is-the-cure-to-imposter-syndrome-vimpossible/
 layout: post
 group: blog
@@ -127,14 +127,14 @@ Perseverance and ambition can elevate some beyond seeming natural limits, like
 Einstein or Michael Jordan.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-is-the-cure-to-imposter-syndrome-vimpossible/">vim is the cure to Imposter Syndrome (vimpossible!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clear-screen-clear-mind-focus-focus-focus/">Clear Screen, Clear Mind... Focus, Focus, Focus!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bottom-turtle-is-microsoft-and-that-s-okay/">The Bottom Turtle is Microsoft, and That's Okay</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/become-aware-of-how-tech-churn-harms-you/">Become Aware of How Tech-churn Harms You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
 <li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

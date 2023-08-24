@@ -4,7 +4,7 @@ title: "Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!"
 headline: "Exploring the Latest Tech Tools with Moz: An Opportunity of a Lifetime!"
 description: I'm excited to be working in tech again after the early 90s, and I'm thrilled to have the opportunity to work for Moz. I'm helping people with their existential crisis in this tech-filled world by using Jupyter Notebooks to copy/paste code from AIs and debug. I'm also showing people how to run a Linux VM cheaply, cleanly, and locally. Join me on this journey of tech exploration and discover how to use the latest tools and techniques.
 keywords: Visualizing, Plan, LPvg, FOSS, SEO, Easy, Tech, Jupyter, Notebooks, AI, Debugging, Linux, VM, Working, Moz, Opportunity, Early 90s, Existential Crisis, Copy/Paste, Code, Latest, Tools, Techniques.
-categories: seo, linux, jupyter, lpvg, ai
+categories: lpvg, ai, jupyter, linux, seo
 permalink: /blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/
 layout: post
 group: blog
@@ -73,12 +73,12 @@ Gotta make a personal video that I can point to and say: "See, like this. But
 for Moz." It's my practice-runs, such as it were, and the result is a polished
 Pipulate that I can use for all the other responsibilities I'll have.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-plan-lpvg-as-foss-seo-but-easy-does-it/">Visualizing Plan: LPvg AS FOSS SEO, But Easy Does It!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gonna-get-bing-to-name-an-emerging-new-field/">Gonna Get Bing to Name An Emerging New Field</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

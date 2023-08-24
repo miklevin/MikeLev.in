@@ -5,7 +5,7 @@ headline: "Building Financial Independence: Taking Steps to Create Abundance and
 description: I'm striving for financial independence and using the 80/20-rule and OpenAI's Codex AI to create a plan of action to help me reach my goals. I'm breaking out of my old habits and focusing on inventing and building in the real and text-based world with Linux, Python, vim & git. I'm taking baby-steps to create a life of abundance and order.
 keywords: Financial Independence, Doubt, Paralysis, 80/20-Rule, Passion, Joy, Plan of Action, OpenAI, Codex AI, Habits, Abundance, Order, Land Lords, Inventing, Building, Linux, Python, Vim, Git, Baby Steps
 question: My question is about the section on website optimization. What are the best practices for optimizing a website to improve its ranking on search engine results pages?
-categories: vim, python, linux, git, ai, joy, 80/20-rule
+categories: joy, ai, git, python, vim, linux, 80/20-rule
 permalink: /blog/levinux-pipulate-yamlesque/
 layout: post
 group: blog
@@ -142,14 +142,14 @@ reflect my 1, 2, 3... 1 philosophy. The skill is in always picking the next
 best #1 baby-step project.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-pipulate-yamlesque/">Levinux, Pipulate & YAMLesque</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/indomitable-spirit/">Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/operation-act-together/">Operation Act Together!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/joy/'>Joy</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>

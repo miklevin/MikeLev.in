@@ -4,7 +4,7 @@ title: Thinking Through Python Google Photos Sorter
 headline: Making Moving Images from Google Photos to a Home Cloud NAS Easier with Python Sets and Jupyter Notebooks
 description: I'm creating processes to gradually move images from Google Photos to a home cloud NAS in a fun and addicting way. I'm using Python sets to identify and remove duplicates, chunking data to create indexed sequential namedtuples for each week of my life up to 100 years, and creating thumbnail folders when I'm ready.
 keywords: Python, Google Photos, Sorting, Duplicates, Namedtuples, Jupyter Notebooks, Windows, Big Data, Small Resources, NAS
-categories: jupyter, google, microsoft, python
+categories: microsoft, google, jupyter, python
 permalink: /blog/thinking-through-python-google-photos-sorter/
 layout: post
 group: blog
@@ -98,11 +98,11 @@ resources. Step 1: keep source file data elsewhere when you can. A NAS would be
 nice.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-tuple-keys/">An Ode Tuple Keys</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keyword-histograms-and-clusters/">Keyword Histograms and Clusters</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>

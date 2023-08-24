@@ -18,7 +18,7 @@ that locked-up Windows Terminals happen so often that the Microsoft programmer
 in charge of it decided to give it an easy-to-press keyboard shortcut.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-terminal-stuck-full-screen-no-tabs-process-exited-with-code-1/">Windows Terminal Stuck Full-Screen, No Tabs & process exited with code 1</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api/">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-python-huey-data-pipeline-into-schedule-repo-alternative/">Turning Python Huey Data Pipeline into Schedule Repo Alternative</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

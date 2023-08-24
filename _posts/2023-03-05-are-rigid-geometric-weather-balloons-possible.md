@@ -179,7 +179,7 @@ Source: Conversation with Bing, 3/5/2023
     (6) In Depth | Arrokoth (2014 MU69) – NASA Solar System Exploration. https://solarsystem.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/in-depth/ Accessed 3/5/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/">Researching Most Likely UFO Propulsion Research Institutions With Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/looking-for-the-best-python-dict-like-api-to-nosql/">Looking For The Best Python dict-like API to NoSQL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading/">Asking AI About Arrokoth, Fravor & Mind Reading</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

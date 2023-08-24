@@ -4,7 +4,7 @@ title: The Importance of Digital Housekeeping
 headline: Uncovering the Benefits of Digital Housekeeping for Stress Reduction and Increased Happiness
 description: I'm trying to get my mlseo project up and running, and I recently had a discussion with my wife about the importance of digital housekeeping. I'm taking steps to reduce daily stress and increase happiness, like creating a github folder, deleting unnecessary items, and taking advantage of AeroSnap. I'm also trying to upgrade my JupyterLab and wondering if the desktop version will be upgraded too. I'm currently on Jupyter 3.3.2-2, but
 keywords: Digital Housekeeping, Stress Reduction, Happiness, Github, Deleting Items, AeroSnap, JupyterLab, Upgrade, Jupyter, nbdev, Jekyll, Templating, Home Directory, Start Menu, Taskbar, 10_I, pip, mistune, websockets, git commit, Requirements
-categories: git, jupyter, jekyll, nbdev
+categories: git, jekyll, jupyter, nbdev
 permalink: /blog/the-importance-of-digital-housekeeping/
 layout: post
 group: blog
@@ -95,11 +95,11 @@ The 2 upgrades that have been held back for compatibility reasons are:
     websockets 10.1    10.2   wheel
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-home-folder-vs-linux-home-folder-under-wsl/">Windows Home Folder vs. Linux Home Folder Under WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-your-daily-vim-exercise/">Get Your Daily vim Exercise</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/teaching-my-wife-vim/">Teaching My Wife vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-importance-of-digital-housekeeping/">The Importance of Digital Housekeeping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

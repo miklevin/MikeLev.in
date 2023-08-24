@@ -355,7 +355,7 @@ It must be nice. It must be nice having Darkdog on your side.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-listen-to-the-nattering-nabobs-of-the-aipocalypse-and-here-s-why/">Don't Listen to the Nattering Nabobs of the AIpocalypse, And Here's Why...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/old-mcdonald-saved-the-world-with-ai-seo/">Old McDonald Saved The World With AI SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/read-book-of-5-rings-and-the-art-of-war-then-do-the-opposite/">Read Book of 5 Rings and The Art of War... Then Do The Opposite</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

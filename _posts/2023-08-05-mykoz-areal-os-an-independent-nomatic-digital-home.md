@@ -4,7 +4,7 @@ title: "MyKoz: AReal/OS, An Independent, Nomatic Digital Home"
 headline: "Discovering MyKoz AReal/OS: A Journey to a Nomatic Digital Home"
 description: Discover MyKoz AReal/OS, an independent, nomadic digital home that offers Tow-it-ism, a modern approach to finding value in life by mastering simple, lasting skills. With a powerful user experience, the installer script adds a JupyterLab icon and Bash icon, with the War Games 'Would you like to play a game' typing effect.
 keywords: MyKoz, AReal/OS, Nomatic, Digital Home, WSL2, Installer Script, Pipulate, SEO, FOSS, Software, Windows 10, Meme, Identity, Video, War Games, AI, Interfaces, Bing, JupyterLab, Bash, Terminal, Browser, Vim, Levinux, QEMU, PC, Emulator, Macs, Noah's Ark, Server-Build Script, Source, Visuals, Occam's Razor
-categories: vim, seo, linux, jupyter, wsl, bing, mac, ai, levinux, microsoft, pipulate
+categories: ai, levinux, wsl, bing, jupyter, mac, pipulate, vim, microsoft, linux, seo
 permalink: /blog/mykoz-areal-os-an-independent-nomatic-digital-home/
 layout: post
 group: blog
@@ -94,18 +94,18 @@ navigation template.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -184,7 +184,7 @@ Source: Conversation with Bing, 3/20/2023
 **Bing:** I’m sorry, but I cannot generate creative content such as stories. However, I can help you with any questions you have about the standards we discussed earlier. Is there anything else I can help you with?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-vi-vim-both-the-official-standard-unix-linux-text-editor/">Are vi & vim Both The Official Standard Unix / Linux Text Editor?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-what-is-the-most-important-advice-in-life/">Bing: What is the most important advice in life?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-helps-refine-foss-lpvg-argument/">Bing Helps Refine FOSS LPvg Argument</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

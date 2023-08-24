@@ -4,7 +4,7 @@ title: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm"
 headline: "Discover MyKoz: A Real OS on Windows (Linux) for Tow-it-izm Learning."
 description: "MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm. Embrace technology in a mindful way with MyKoz, a timeless and portable set of tools to improve your skills and keep you valuable for life. Follow along with the ideation and naming of this novel endeavor."
 keywords: MyKoz, OS, Windows, Linux, WSL2, JupyterLab, Microsoft, VSCode, Anaconda, Desktop-Jupyter, Cloud, Raspberry Pi, Command-Line, Python, Programming, File Paths, Forward Slashes, Exception Handling, Lock-In, Technical Debt, Stoicism, Marcus Aurelius, Meditations, Vim, Text-Based, Cloud, AI, Suggestions, Stoic, Mindful, Timeless
-categories: journaling, vim, linux, python, coding, jupyter, wsl, ai, microsoft
+categories: ai, wsl, jupyter, journaling, python, vim, microsoft, linux, coding
 permalink: /blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/
 layout: post
 group: blog
@@ -154,16 +154,16 @@ sort of stoic, mindful, and timelessness this project is all about.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

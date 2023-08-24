@@ -4,7 +4,7 @@ title: Introducing A Next Gen SEO Project
 headline: "Unveiling My Next-Gen Interoperable Project: Linux, Python, vim, git, and Jupyter"
 description: I'm introducing a complex project that uses Linux, browser automation, and Microsoft's implementation of Linux to automate data tasks. I'm also transitioning to Linux, Python, vim, git, and Jupyter for web development, and I'll be using a Linux VM and a web browser to access a Linux CLI from my Windows system. This will allow me to automate tasks and build a Linux server from my Windows system.
 keywords: Linux, Python, Vim, Git, Jupyter, Browser Automation, Microsoft, Windows, Virtual Machines, VMs, Web Development, CLI, Docker, Automation, Server, Localhost, 8888
-categories: vim, python, git, linux, jupyter, browser automation, web development, container, microsoft
+categories: web development, jupyter, git, container, python, vim, browser automation, linux, microsoft
 permalink: /blog/introducing-a-next-gen-seo-project/
 layout: post
 group: blog
@@ -215,16 +215,16 @@ already comes with Windows. It's win/win using Linux as your interoperable code
 execution layer.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/introducing-a-next-gen-seo-project/">Introducing A Next Gen SEO Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-zero-fuel-solar-nomadic-lifestyle-plus-homeschooling/">A Zero Fuel Solar Nomadic Lifestyle Plus Homeschooling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-what-is-the-most-important-advice-in-life/">Bing: What is the most important advice in life?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/">From The Singularity to Galactic 3D Printed Mycelial Network</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
 <li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

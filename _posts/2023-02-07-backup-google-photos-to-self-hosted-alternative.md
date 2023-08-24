@@ -4,7 +4,7 @@ title: Backup Google Photos to Self Hosted Alternative
 headline: "Backing Up Google Photos: Exploring Self-Hosted Alternatives"
 description: I have created a program to back up my Google Photos, combining two scripts into a single file. I am now considering whether to keep the program as an nbdev app, and am exploring options to transition it from a notebook to a server. I am also considering not using the app in my FOSS SEO book, but recognize the value of the Jupyter Notebook under nbdev. Come read about my journey to make the best decision for my program!
 keywords: Backup, Google Photos, Self Hosted, Alternative, Program, nbdev, App, Notebook, Server, QNAP, Container Station, Upgrade, Container, Metaphor, Tutorial, FOSS, SEO, Book, Jupyter
-categories: google, seo, nbdev, qnap, jupyter, container, tutorial
+categories: jupyter, container, tutorial, google, qnap, seo, nbdev
 permalink: /blog/backup-google-photos-to-self-hosted-alternative/
 layout: post
 group: blog
@@ -181,14 +181,14 @@ code, so long as the live running code on the server has been precisely
 extracted from it.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/considering-generating-a-100-ai-site-from-google-suggest/">Considering Generating a 100% AI Site From Google Suggest</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-ais-will-find-you-if-you-re-unique/">The AIs Will Find You If You're Unique</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/used-twitter-4000-characters-for-machine-learning-general-license/">Used Twitter 4000 Characters For Machine Learning General License</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/qnap/'>QNAP</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/qnap/'>QNAP</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

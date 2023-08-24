@@ -5,7 +5,7 @@ headline: I'm Publishing Now - Come See What I Just Wrote and Look Forward to Op
 description: This post explores the process of deleting advice fields from a journaling system and replacing them with more interesting questions. It also details how OpenAI's feedback is used to measure success with tools such as web browsers, CURL, and the Python Requests package. The post will be available soon at the provided URL.
 keywords: OpenAI, GPT, Journaling System, Life Advice, Delete, Fields, md File, Interesting, Fruitful, Embedded, URL, Question, Prompt, Request, Configurable, Python, Coding, Control List, Headline, Description, Keywords, Measure Success, Tools, Working Apps, Web, Browser, CURL, Requests, Package, HTTP, HTTPS, URL, Feedback, Content, Publishing, Site Categories, Tags, Search
 question: My question is about the section on 'The Benefits of a Sustainable Lifestyle'. What are the most important benefits of living sustainably?
-categories: question, seo, python, coding, request, ai, search
+categories: search, ai, question, python, coding, request, seo
 permalink: /blog/dropping-openai-advice-field-adding-question-field/
 layout: post
 group: blog
@@ -59,14 +59,14 @@ feedback like the question you just asked.
 I'm publishing this now and look forward to your next question.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lemmatizing-keywords-for-site-navigation/">Lemmatizing Keywords for Site Navigation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/operation-act-together/">Operation Act Together!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/search/'>Search</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/question/'>Questions</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/request/'>Requests</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

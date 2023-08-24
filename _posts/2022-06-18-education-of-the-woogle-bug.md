@@ -4,7 +4,7 @@ title: Education Of The Woogle Bug
 headline: I Fixed a Bug and Improved My Output - A Story of Triumph
 description: Yesterday was a difficult day, but I'm determined to move forward. I'm rewriting my content management system and conditioning my mind to be kind and gentle. I'm supplementing my income while getting closer to my child, and using various tools to debug and fix a problem with a script. I wrote a program to create websites with Python and I'm using the blogslicer program to create blogs for multiple websites.
 keywords: Education, Woogle, Bug, Content Management System, Kindness, Gentleness, Income, Tools, Debugging, Script, Python, Blogslicer, Websites, Output, Police, Rewriting, Conditioning, Private Conversation, Events, Yesterday, Love, Unconditionally, Labeling, Absolute Paths, Figlet, Language, Emotionally Abusive, Record, Git Repository, SystemExit, Cybermedium, Jupyter, Execute, Argument,
-categories: jupyter, execute, python
+categories: execute, jupyter, python
 permalink: /blog/education-of-the-woogle-bug/
 layout: post
 group: blog
@@ -809,10 +809,10 @@ for index, series in df.iterrows():
 h2("Done!")
 ```
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/throw-all-the-meat-veggies-into-the-stew-stir-the-blog-vlog/">Throw All The Meat & Veggies Into The Stew & Stir The Blog / Vlog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ll-just-put-this-in-my-usr-local-sbin/">I'll Just Put This In My /usr/local/sbin/</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/execute/'>Execute</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>

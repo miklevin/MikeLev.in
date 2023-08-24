@@ -626,7 +626,7 @@ window. Sundown isn't until it's dark.
 
 Only barely dark. Am I right Big D? WWNN
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ftloa-for-the-love-of-adi-bioches/">ftloa == 'For The Love of Adi' bioches!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-magic-mirror/">The Magic Mirror</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meet-pi/">Meet Pi</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

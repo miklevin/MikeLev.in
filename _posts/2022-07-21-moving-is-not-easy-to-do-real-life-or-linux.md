@@ -63,7 +63,7 @@ for people who love virtual desktops!
 {% include youtubePlayer.html id="wTnrCprlCB8" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-is-not-easy-to-do-real-life-or-linux/">Moving Is Not Easy To Do: Real-life or Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/">Do Not Lose The Power of Touch Typing Despite AI APIs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

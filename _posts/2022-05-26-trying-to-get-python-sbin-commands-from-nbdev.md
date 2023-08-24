@@ -179,7 +179,7 @@ Be Charlie Brown! Get back up and come back at it again. But talk clearly to
 Lucy. Make sure she understands your concerns. That's where I pick up on the
 next entry.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/trying-to-get-python-sbin-commands-from-nbdev/">Trying to get Python sbin commands from nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/web-development-is-for-chumps-try-linux-services-instead/">Web Development is For Chumps. Try Linux Services, Instead.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-macro-to-format-markdown-poetry/">vim Macro to Format Markdown Poetry</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

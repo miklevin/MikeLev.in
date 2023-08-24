@@ -75,7 +75,7 @@ some stand-alone blog pages produced totally by ChatGPT, in complete
 contradiction to BFF SEO, haha!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/">Are You An Imposter? Have You Heard of Imposter Syndrome?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-the-controversial-history-of-coke/">ChatGPT: Write an article about the controversial history of Coke.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

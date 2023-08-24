@@ -108,7 +108,7 @@ Categorinator
 vim dictionator
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-cha-gonna-do-when-you-re-fifty-two/">What'cha Gonna Do When You're Fifty Two?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/plot-the-awakening-rig-for-youtube-success/">Plot The Awakening / Rig For YouTube Success</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/this-is-where-i-reversed-the-ascii-rabbit/">This Is Where I Reversed The ASCII Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

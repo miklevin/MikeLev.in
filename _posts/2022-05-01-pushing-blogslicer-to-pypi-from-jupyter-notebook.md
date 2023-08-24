@@ -4,7 +4,7 @@ title: Pushing Blogslicer to PyPI (From Jupyter Notebook)
 headline: Successfully Releasing Packages Built in Jupyter Notebooks to PyPI with nbdev
 description: I successfully created a pattern for releasing packages built in Jupyter Notebooks into PyPI, using nbdev from Fast.ai. I pushed my package, Blogslicer, to PyPI, but still have more work to do before I can add it to my blog release script. Read more to find out how I did it!
 keywords: PyPI, Jupyter Notebook, nbdev, Fast.ai, Blogslicer, package, command-line, parameterized, release, script, version, docs, library, commit, upload, python, interpreter
-categories: linux, python, nbdev, jupyter, pypi
+categories: pypi, jupyter, python, linux, nbdev
 permalink: /blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/
 layout: post
 group: blog
@@ -178,12 +178,12 @@ Okay, so one more time, but from scratch (blogslicer was already well
 underway).
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sharpening-my-prev-next-arrows/">Sharpening My Prev/Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/">From Jupyter Notebook to pip Installable Package In One Go</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height/">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

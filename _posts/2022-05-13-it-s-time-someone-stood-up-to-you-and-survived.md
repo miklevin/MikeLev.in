@@ -23,7 +23,7 @@ to hear from you. Just leave a comment below.
 
 ![A Good Laugh and a Long Sleep are the Two Best Cures for Anything](/assets/images/good-joke-and-long-sleep-cure-for-anything-irish-proverb.jpg)
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/b2-or-not-b2-that-is-the-question/">:b2 or not :b2, That Is The Question</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived/">It's Time Someone Stood Up To You... And Survived</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

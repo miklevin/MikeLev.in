@@ -4,7 +4,7 @@ title: The Tow-It-Ism Tech Philosophy
 headline: "Discover the Tow-It-Ism Tech Philosophy: A Timeless Approach to Lifelong Tech Mastery"
 description: I'm introducing a new tech philosophy I call Tow-It-Ism, which is about not needing much in the way of tools or vendor support to be effective with information technology. It's about going back to basics and getting to the heart of what makes Unix and Linux so powerful, and embracing the free and open source software (FOSS) ecosystem. With this approach, you can cultivate self-reflection, mindfulness, and build an internalized set of skills that will benefit you for life.
 keywords: Linux, Unix, daemons, CLI, FOSS, Python, vim, git, Towitism, Taoism, Stoicism, muscle memory, bullet journal, NeoVim, API, Microsoft, Apple, Google, JuputerLab, browser, cloud, server-build, script, data, 24x7 automation, privacy, security, freedom, agency, control, consumer, vendor, planned obsolescence, mega companies, trends, tools, neural pathways, mental calist
-categories: muscle memory, vendor, vim, google, python, git, linux, microsoft
+categories: muscle memory, git, vendor, python, vim, linux, microsoft, google
 permalink: /blog/the-tow-it-ism-tech-philosophy/
 layout: post
 group: blog
@@ -519,15 +519,15 @@ Jupyter for coding?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cleansing-the-palate-for-future-proofing-tech-project/">Cleansing the Palate for Future-Proofing Tech Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

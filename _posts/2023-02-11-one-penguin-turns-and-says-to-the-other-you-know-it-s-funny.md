@@ -4,7 +4,7 @@ title: One Penguin Turns and Says to The Other, You Know It's Funny...
 headline: Exploring the Evolution of Technology and Its Impact on Our Lives
 description: I'm an SEO, and I'm reflecting on the incredible technology that has allowed us to evolve over time. I'm exploring the impact of GNU licenses and the contributions of Ken Thompson, Linux Torvalds and Richard Matthew Stallman, as well as the implications of artificial intelligence. I'm also reminiscing about my journey from Commodore to Scala to Conners Communications, and my creation of HitTail, to my current position in New York City.
 keywords: SEO, GNU, Licenses, Ken Thompson, Linux Torvalds, Richard Matthew Stallman, Artificial Intelligence, Commodore, Scala, Conners Communications, HitTail, New York City, One-Page-For-Life, Text-File, Journaling, Blog Posts, Ruby, Starnix, URLs, PageRank, Algorithm, Crawling, Indexing, Training, Operating Systems, Epigenetics, Douglas Adams, Divinely Inspired
-categories: new york city, journaling, seo, operating systems, algorithm, gnu, ai, amiga
+categories: ai, operating systems, journaling, new york city, algorithm, amiga, gnu, seo
 permalink: /blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny/
 layout: post
 group: blog
@@ -266,15 +266,15 @@ and consistent story such as this every day using a Linux daemon?
 Who says I haven't?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny/">One Penguin Turns and Says to The Other, You Know It's Funny...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-an-seo-from-icky-guy-to-ikigai-in-20-short-years/">Being An SEO: From Icky Guy to Ikigai in 20 Short Years</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-chatgpt-s-help-transitioning-from-seo-to-data-engineer/">Getting ChatGPT's Help Transitioning From SEO To Data Engineer</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/gnu/'>GNU</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>
+<li><h4><a href='/operating-systems/'>Operating Systems</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/gnu/'>GNU</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Make More Use of github.io for Blogging
 headline: "Embarking on a Book Publishing Adventure: My Strategy for Using github.io and Jekyll"
 description: MikeLevinSEO shares his strategy for publishing a book, including his plan to use Jekyll and switch his domains from GoDaddy to NameCheap. He explains how he prioritizes his work using three metaphors, and shares his plan to use mikelevinseo.com as his domain name. Follow MikeLevinSEO's journey as he embarks on his book publishing adventure!
 keywords: Github.io, Blogging, MikeLevinSEO, Book Publishing, Jekyll, GoDaddy, NameCheap, Prioritizing, Domain Name, DNS Zones
-categories: github.io, jekyll
+categories: jekyll, github.io
 permalink: /blog/make-more-use-of-github-io-for-blogging/
 layout: post
 group: blog
@@ -89,9 +89,9 @@ domain name on github.io. So, pick a domain... GoDaddy / My Name / My Products
 / Domains.  Okay, in my typical tradition it's going to be mikelevinseo.com. So
 click "Use My Domain" and then DNS / Manage Zones.
 
-<div class="arrow-links"><div class="post-nav-prev"><a href=""></a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-launch-mikelevinseo-com-on-github-io/">(Re)Launch MikeLevinSEO.com on Github.io</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href=""></a></div> &nbsp; <div class="post-nav-next"><a href="/blog/make-more-use-of-github-io-for-blogging/">Make More Use of github.io for Blogging</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github-io/'>Github.io</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/github-io/'>Github.io</a></h4></li></ul>

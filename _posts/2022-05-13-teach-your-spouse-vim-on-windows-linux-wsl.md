@@ -72,7 +72,7 @@ professional... and spouses wanting their counterpart's powerful wizarding
 abilities.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-vim-to-keep-one-journal-for-life/">Use vim to Keep One Journal For Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

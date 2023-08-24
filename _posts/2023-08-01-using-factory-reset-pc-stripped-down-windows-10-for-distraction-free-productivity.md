@@ -4,7 +4,7 @@ title: Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Prod
 headline: Discover How I Achieved Distraction-Free Productivity with a Factory Reset PC and Stripped Down Windows 10
 description: Experience the power of Linux on your existing Windows 10 PC with a Factory Reset, stripping down the OS to a distraction-free environment. Get started quickly with the Linux version of Python, Jupyter Notebook, and the text editor vim & version control system git. Learn timeless skills and maximize your productivity with this unique approach.
 keywords: Windows 10, Windows 11, Open Office, Remote Working, Linux, Python, Jupyter, IPython, VSCode, Vim, Git, Linux Desktop, Muscle Memory, Host Operating System, Guest Operating System, Future-Proofing, Application Programming Interfaces, Linux on the Metal, Cloud, Factory Reset, PC Reset, Windows Subsystem for Linux, WSL, Windows 10 version 21H2
-categories: muscle memory, vim, python, linux, git, jupyter, wsl, microsoft
+categories: muscle memory, jupyter, wsl, git, python, vim, microsoft, linux
 permalink: /blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/
 layout: post
 group: blog
@@ -147,15 +147,15 @@ supporting glory is only available on Windows 10 version 21H2.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mykoz-areal-os-an-independent-nomatic-digital-home/">MyKoz: AReal/OS, An Independent, Nomatic Digital Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-the-best-of-any-situation-with-mindfulness-intent-journaling/">Making The Best of Any Situation with Mindfulness, Intent & Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

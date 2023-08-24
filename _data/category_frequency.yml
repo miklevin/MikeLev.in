@@ -1332,7 +1332,7 @@ dictitems:
     count: 1
     title: Approximations
   apps:
-    count: 4
+    count: 5
     title: Apps
   april 4:
     count: 1
@@ -2189,6 +2189,9 @@ dictitems:
   blitter chip:
     count: 1
     title: Blitter chip
+  bloatware:
+    count: 1
+    title: Bloatware
   block select:
     count: 1
     title: Block Select
@@ -6305,6 +6308,9 @@ dictitems:
   factory bill-of-materials system:
     count: 1
     title: Factory Bill-of-Materials System
+  factory default:
+    count: 1
+    title: Factory Default
   factory reset:
     count: 3
     title: Factory Reset
@@ -11652,7 +11658,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 58
+    count: 59
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12999,7 +13005,7 @@ dictitems:
     count: 1
     title: One-Page-For-Life
   onedrive:
-    count: 1
+    count: 2
     title: OneDrive
   online:
     count: 2
@@ -13551,7 +13557,7 @@ dictitems:
     count: 1
     title: Paywalled Content
   pc:
-    count: 2
+    count: 3
     title: PC
   pc emulator:
     count: 1
@@ -15785,6 +15791,9 @@ dictitems:
   restarting:
     count: 1
     title: Restarting
+  restore:
+    count: 1
+    title: Restore
   restriction:
     count: 1
     title: Restriction
@@ -17283,7 +17292,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 27
+    count: 28
     title: Software
   software development:
     count: 3
@@ -19632,7 +19641,7 @@ dictitems:
     count: 1
     title: Update Vimrc
   upgrade:
-    count: 11
+    count: 12
     title: Upgrade
   upgrading:
     count: 2
@@ -20459,6 +20468,9 @@ dictitems:
   width:
     count: 2
     title: Width
+  wifi:
+    count: 1
+    title: WiFi
   wikipedia:
     count: 1
     title: Wikipedia
@@ -20496,7 +20508,7 @@ dictitems:
     count: 82
     title: Windows
   windows 10:
-    count: 26
+    count: 27
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20505,7 +20517,7 @@ dictitems:
     count: 1
     title: Windows 10/11
   windows 11:
-    count: 24
+    count: 25
     title: Windows 11
   windows 7:
     count: 1
@@ -20838,7 +20850,7 @@ dictitems:
     count: 1
     title: Yoga
   youtube:
-    count: 51
+    count: 52
     title: YouTube
   youtube analytics:
     count: 1

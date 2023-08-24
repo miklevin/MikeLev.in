@@ -36,7 +36,7 @@ Source: Conversation with Bing, 3/3/2023
     (11) Competing in the Age of AI - Harvard Business Review. https://hbr.org/2020/01/competing-in-the-age-of-ai Accessed 3/3/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-won-t-write-story-about-excessively-biased-chatbot/">Bing Won't Write Story About Excessively Biased ChatBot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/">Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently Proved</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/compatible-linux-x-server-graphics-across-windows-mac/">Compatible Linux X Server Graphics Across Windows & Mac</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

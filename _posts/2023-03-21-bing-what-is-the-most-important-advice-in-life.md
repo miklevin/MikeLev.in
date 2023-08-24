@@ -134,7 +134,7 @@ Source: Conversation with Bing, 3/20/2023
     (10) 21 Wise Pieces Of Life Advice Everyone Needs To Know - Live Bold and Bloom. https://liveboldandbloom.com/07/self-awareness/good-life-advice Accessed 3/20/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-what-is-the-most-important-advice-in-life/">Bing: What is the most important advice in life?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/">From The Singularity to Galactic 3D Printed Mycelial Network</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/introducing-a-next-gen-seo-project/">Introducing A Next Gen SEO Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

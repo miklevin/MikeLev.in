@@ -41,7 +41,7 @@ Linux.
 And do uh yeah, Unix was there first with replacement to a bash-file oriented
 init system.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-nix-today-means-learning-systemd/">Learning *nix Today Means Learning systemd!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-average-windows-user-to-linux-terminal-user/">From Average Windows User to Linux Terminal User</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

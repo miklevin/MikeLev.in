@@ -84,7 +84,7 @@ thought. Immunity from group-think. Seeing things closer to objectively than
 comes naturally.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-multiple-blogs-within-one-github-pages-site/">Planning Multiple Blogs Within One Github Pages Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/your-current-video-card-driver-does-not-support-this-nvenc-version-please-update-your-drivers/">Your current video card driver does not support this NVENC version please update your drivers.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openpyxl-for-creating-a-formatted-excel-file-from-python/">OpenPyXL for creating a formatted Excel file from Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

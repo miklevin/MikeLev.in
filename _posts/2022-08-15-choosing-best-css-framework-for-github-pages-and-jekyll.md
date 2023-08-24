@@ -104,7 +104,7 @@ Ugh, okay, do the baby steps. I activated lpvg.org on Github pages. I put a
 down to the bare essentials.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/choosing-best-css-framework-for-github-pages-and-jekyll/">Choosing Best CSS Framework For Github Pages and Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-pipulate-levinux-back-into-the-picture/">Bring Pipulate & Levinux Back Into The Picture</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-linux-fights-obsolescence-and-lxd-is-key/">Why Linux Fights Obsolescence and LXD is Key</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/why-pages-aren-t-usable-on-mobile-fixing/">Why Pages Aren't Usable On Mobile, Fixing!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

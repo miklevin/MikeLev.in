@@ -222,7 +222,7 @@ Pshwew! Hope that helps. If so, follow me on YouTube and the social medias for
 more.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/">The Python Pandas .iloc Interface Explained For The Befuddled</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

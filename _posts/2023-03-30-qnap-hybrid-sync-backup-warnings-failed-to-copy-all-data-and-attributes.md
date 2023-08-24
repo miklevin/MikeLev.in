@@ -4,7 +4,7 @@ title: QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes
 headline: NAS Backup Fails Due to Unsupported Filenames - Read How I Fixed It!
 description: After experiencing a terrible headache, I decided to err on the side of caution and turn off the Copilot plugin for .txt files. I then noticed a warning that my NAS backup had failed to copy all data and attributes, and after logging in by SSH, I discovered the issue was with unsupported filenames. I resolved to fix it later - read my blog post to find out how!
 keywords: "QNAP, Hybrid Sync, Backup, Warnings, Failed, Copy, Attributes, Headache, Copilot, Plugin, .txt, Files, NAS, SSH, Unsupported, Filenames, Fix, Research, GitHub, Conversation, Caution, Sleep, 5:00, AM"
-categories: qnap, ai, git
+categories: git, ai, qnap
 permalink: /blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/
 layout: post
 group: blog
@@ -54,10 +54,10 @@ backed up, but that's not a problem for now. Not a priority. It's coming up on
 8:30 AM and I have my plans for the day.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos/">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/qnap/'>QNAP</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/qnap/'>QNAP</a></h4></li></ul>

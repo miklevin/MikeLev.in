@@ -48,7 +48,7 @@ are not allowed to be addressed. That ends now.
 Continue to do what's right.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right/">Remain Positive & Know Signs Of When You're Doing Something Right</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/say-the-magic-words-open-terminal/">Say The Magic Words: Open Terminal!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/">What I Want To Offer The World Doesn't Align With Existing YouTube Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

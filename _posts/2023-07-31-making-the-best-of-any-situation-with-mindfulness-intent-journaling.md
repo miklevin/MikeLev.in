@@ -60,7 +60,7 @@ group: blog
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-the-best-of-any-situation-with-mindfulness-intent-journaling/">Making The Best of Any Situation with Mindfulness, Intent & Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/mykoz-a-real-os-on-windows-linux-teaching-tow-it-izm/">MyKoz: A Real OS on Windows (Linux) teaching Tow-it-izm</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-factory-reset-pc-stripped-down-windows-10-for-distraction-free-productivity/">Using Factory Reset PC Stripped Down Windows 10 for Distraction-Free Productivity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

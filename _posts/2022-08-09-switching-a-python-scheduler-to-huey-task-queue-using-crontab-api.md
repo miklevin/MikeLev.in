@@ -88,7 +88,7 @@ scheduling, but we got it to work. Nuances:
 Don't forget to subscribe!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-a-python-scheduler-to-huey-task-queue-using-crontab-api/">Switching a Python Scheduler to Huey Task Queue Using Crontab API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/run-lxd-linux-containers-on-windows-wsl-2-ubuntu-20-04-and-22-04/">Run LXD Linux Containers on Windows WSL 2 Ubuntu 20.04 and 22.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/techsmith-camtasia-took-away-screen-recorder-hide-taskbar-icon-feature/">TechSmith Camtasia Took Away Screen Recorder Hide Taskbar Icon Feature</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-to-cycle-your-ip-with-hma-vpn-software-and-windows-automation/">Use Python to Cycle Your IP with HMA VPN Software and Windows Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

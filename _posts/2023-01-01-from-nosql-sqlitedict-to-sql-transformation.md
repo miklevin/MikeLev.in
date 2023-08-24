@@ -4,7 +4,7 @@ title: From NoSQL SqliteDict to SQL Transformation
 headline: "Exploring Machine Learning and Programming: My Journey Into SQL Transformation and Open Source Libraries"
 description: I have been using the SqliteDict package to store data from API calls, and I'm now looking into parsing Google Photos data by day. I wrote a Python program to look at the contents of a database, and I'm now working on updates to the open source library ohawf. I'm planning to push out better documentation and am even thinking of creating an MLML license. Click through to read more about my journey in programming and machine learning!
 keywords: NoSQL, SqliteDict, SQL, Transformation, API, Google Photos, Python, Database, Open Source, Library, ohawf, Documentation, MLML, Linux, Proprietary, Tools, Apple, SimpleNote, Vim, Git, AI, Model-Fitting, Races, Spacefaring, Child, Nurturing, Territory, Defending, Monkeys, Exploitation, Species, Galactic, Federation, Intelligent, Emotionally, Mature, Super
-categories: vim, google, child, linux, python, git, open source, ai, proprietary, database
+categories: proprietary, ai, git, python, database, vim, child, linux, google, open source
 permalink: /blog/from-nosql-sqlitedict-to-sql-transformation/
 layout: post
 group: blog
@@ -418,17 +418,17 @@ Mike Levin Machine Learning License. I guess that would be the MLMLL, or just
 the MLL as it would be shortened to. I don't need my name in it, LOL! MLOL!
 MLMLLOL! MLMLMAOL! Stop me bore I teach a machine something stupid again.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-nosql-sqlitedict-to-sql-transformation/">From NoSQL SqliteDict to SQL Transformation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-namedtuple-for-each-week-you-ve-been-alive/">A NamedTuple For Each Week You've Been Alive</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-i-no-longer-hyde-from-a-jekyll-server/">Should I No Longer Hyde From a Jekyll Server?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-week-date-for-last-30-years-with-fixed-ids/">Every Week Date for Last 30 Years With Fixed IDs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/child/'>Child</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/proprietary/'>Proprietary</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li></ul>

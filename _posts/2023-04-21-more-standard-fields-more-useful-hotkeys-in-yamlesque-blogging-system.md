@@ -134,7 +134,7 @@ I do all my all-posts-all-at-once blogging and fix the AI-generated meta
 descriptions. I'll also get mure used to working in wrapped text mode in
 vim/NeoVim, which is a song this hard-wrapping vimmer usually doesn't sing.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/more-standard-fields-more-useful-hotkeys-in-yamlesque-blogging-system/">More Standard Fields & More Useful Hotkeys in YAMLesque Blogging System</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/openai-category-pages-nearly-done/">OpenAI Category Pages Nearly Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-a-new-blogging-system-create-a-title-field-under-date-to-release/">Starting a New Blogging System (create a title field under date to release)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/yaml-validation-now-baked-into-yamlesque-journaling-system/">YAML-validation Now Baked Into YAMLesque Journaling System</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

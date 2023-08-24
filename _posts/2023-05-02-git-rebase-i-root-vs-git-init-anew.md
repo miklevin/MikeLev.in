@@ -4,7 +4,7 @@ title: "`git rebase -i --root` vs. `git init` anew"
 headline: I'm Rebasing a Git Repo to Speed Up Editing My Public Website - Here's What I Learned!
 description: "I attempted to learn how to use the `git rebase` command to clean up my git history and speed up my repository. I discovered on big repos with lots of issues, it's easier to just `git init` and do the old swaparoo with a new repo. Also explore philosophical questions about existence and the relative importance of things, and relationship to retiring an old git repo and starting anew."
 keywords: git, rebase, init, commits, history, speed, operation, interactive, root, dangerous, force push, branch, remote, destructive, preserve, changes, overwrite, caution, journal, article, philosophical, importance, consciousness, path, shared experiences, local space, global space, non-local, sine wave, cyclical, circles, orbits, tech, book, visual, image, Noah's Ark, religion, YAMLchop, connecting, dots, potential,
-categories: git, change, history, consciousness
+categories: git, consciousness, change, history
 permalink: /blog/git-rebase-i-root-vs-git-init-anew/
 layout: post
 group: blog
@@ -215,11 +215,11 @@ repo to stop it from interfering with the publishing of the new repo.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/git-rebase-i-root-vs-git-init-anew/">`git rebase -i --root` vs. `git init` anew</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/">Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
 <li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/history/'>history</a></h4></li>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>
+<li><h4><a href='/history/'>history</a></h4></li></ul>

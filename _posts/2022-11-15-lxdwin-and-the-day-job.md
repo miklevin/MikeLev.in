@@ -23,7 +23,7 @@ Do this work locally and not on the server. Do it with the latest LXDWIN
 instance and that's the first part to making it love-worthy.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxdwin-and-the-day-job/">LXDWIN and The Day Job</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-spell/">Planning a Spell</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-lxdwin-much-about-vim/">Make LXDWIN much about vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-total-life-s-work/">Planning Total Life's Work</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -23,7 +23,7 @@ group: blog
 1. Twitter adds features that make it the new Github.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

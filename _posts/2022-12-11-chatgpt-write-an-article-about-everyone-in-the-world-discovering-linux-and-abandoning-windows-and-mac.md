@@ -89,7 +89,7 @@ the coming years. However, one thing is clear: Linux has arrived, and it is
 here to stay.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-write-an-article-about-everyone-in-the-world-discovering-linux-and-abandoning-windows-and-mac/">ChatGPT: Write an article about everyone in the world discovering Linux and abandoning Windows and Mac.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-magic-spell-called-levinux-that-introduces-people-to-linux/">A Magic Spell Called Levinux That Introduces People to Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-write-an-article-about-the-controversial-history-of-coke/">ChatGPT: Write an article about the controversial history of Coke.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-rise-of-bff-seo-best-foot-forward-search-engine-optimization/">The Rise of BFF SEO (Best Foot Forward Search Engine Optimization)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

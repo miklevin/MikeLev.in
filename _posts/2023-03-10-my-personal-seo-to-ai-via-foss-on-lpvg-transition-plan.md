@@ -4,7 +4,7 @@ title: My Personal SEO to AI via FOSS on LPvg Transition Plan
 headline: "Transitioning from SEO to AI: My Plan for a Hardware and Vendor-Independent Computing Environment"
 description: This blog post outlines a plan for transitioning from SEO to AI via FOSS on LPvg. I will be familiarizing readers with Moz's products and teaching them how to use tools like Vim and JupyterLab to create a nomadic computing environment that is hardware and vendor independent. I will provide a prescribed, vetted, and proven process to become more technical and free of Google, Microsoft, and other paid services.
 keywords: SEO, AI, FOSS, LPvg, Moz, Vim, JupyterLab, Python, Linux, Automation, Data Visualization, Data Tables, Git, Writing, Sharing, Code, Nomadic Computing, Hardware, Vendor, Independent, Processes, End-to-End, Journal
-categories: vendor, vim, seo, python, linux, git, jupyter, lpvg, ai
+categories: lpvg, ai, jupyter, git, vendor, python, vim, linux, seo
 permalink: /blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/
 layout: post
 group: blog
@@ -60,16 +60,16 @@ Even once you do, it's going to take continual daily practice to commit or to mu
 I usually either get too technical too fast or too abstract too fast and lose my audience. I know that.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-personal-seo-to-ai-via-foss-on-lpvg-transition-plan/">My Personal SEO to AI via FOSS on LPvg Transition Plan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/even-if-ai-can-t-solve-unsolvable-problems-it-sure-can-write-stories-about-them/">Even if AI Can't Solve Unsolvable Problems, It Sure Can Write Stories About Them!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-quantum-computers-fake-proof-what-about-superdeterminism/">Are Quantum Computers Fake? Proof? What About Superdeterminism?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/">Reconstructing Math Under Python for The Syntactically Ambiguous Challenged</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vendor/'>Vendors</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vendor/'>Vendors</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li></ul>

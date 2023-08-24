@@ -39,7 +39,7 @@ That went well but now we should make it do something to remind us. To keep
 pushing us to do something daily.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-use-the-screen-command-for-linux-service/">How to Use the Screen Command for Linux Service</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-need-a-personal-server-in-your-life-the-time-is-nigh/">You Need a Personal Server In Your Life & The Time is Nigh</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

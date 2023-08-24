@@ -67,7 +67,7 @@ Cee Lo where to go. Whit, you're a top-tier Disney Princess in my book.
 {% include youtubePlayer.html id="v53Z_6RWuNM" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon/">Is There Anyone Cheesier Than Whitney Avalon?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to/">I'll Blow Up On YouTube When I Want To</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

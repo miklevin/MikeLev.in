@@ -95,7 +95,7 @@ README.md's to my Github repos. With Instapaper, I can just expose those items
 from the news I've been following.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/creating-github-repo-specifically-for-copilot-explorations/">Creating Github Repo Specifically For Copilot Explorations</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keyword-clustering-my-blog-posts-with-kmeans/">Keyword Clustering My Blog Posts With KMeans</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/blog-slice-dice-system-re-written-in-a-day/">Blog Slice & Dice System Re-Written In a Day</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rid-yourself-of-imposter-syndrome-and-start-living-your-best-life/">Rid Yourself of Imposter Syndrome and Start Living Your Best Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: wsl --install Rocks Your World with Linux (Learn Linux Fast!)
 headline: Learn Linux in Under 10 Minutes with the 'wsl --install' Command on Windows 11!
 description: Discover how to install and learn Linux in under 10 minutes with the 'wsl --install' command on Windows 11. I will teach you how to use a full-screen Linux terminal to run the vim text editor and keep a daily journal. Learn the basic commands and gain access to hundreds of thousands of free and open source software packages. Get an introduction to Ikigai, a script for a video to promote the command, and ways to promote the command on social media.
 keywords: wsl, install, Rocks, Linux, Learn, Fast, 10 minutes, full-screen, terminal, vim, text editor, daily journal, basic commands, open source software, Ikigai, script, video, promote, command, social media, Windows 11, Unix, Python, git, VSCode, timeless, skills, resistant, disruption, future-proof, descendants, DNA, pronounce, platforms
-categories: vim, python, linux, git, text editor, wsl, microsoft
+categories: wsl, git, text editor, python, vim, linux, microsoft
 permalink: /blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/
 layout: post
 group: blog
@@ -283,14 +283,14 @@ Follow me!
 - Back it up with Twitter (meme sheep)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-i-want-to-offer-the-world-doesn-t-align-with-existing-youtube-search/">What I Want To Offer The World Doesn't Align With Existing YouTube Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/">Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/remain-positive-know-signs-of-when-you-re-doing-something-right/">Remain Positive & Know Signs Of When You're Doing Something Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

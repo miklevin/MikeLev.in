@@ -4,7 +4,7 @@ title: If Jekyll supports TOML because both were made my Tom, and Jekyll is in G
 headline: Discover How I Improved My Life with a Single Text-file Journal
 description: Explore the power of words, keep a digital journal, and join me as I discuss the best SEO ever, memes, Dawkins' The Selfish Gene, Neil Stevenson's Snow Crash, Alice's Adventures in Wonderland, and the impact of Joel Spolsky and Jeff Atwood. Learn how YAML and Markdown let you create a single text-file for life, and how to use AI to your advantage in writing.
 keywords: SEO, Anti-Patterns, OpenAI, WordPress, Spam-Cannon, Plugin, Learning, Memes, Dawkins, Selfish Gene, Neil Stevenson, Snow Crash, Alice's Adventures in Wonderland, Joel Spolsky, Jeff Atwood, Markdown, TOML, Jekyll, Static Site Generator, GitHub, YAML, reStructuredText, LISP, 80 Hyphens, AI System, Headline, Summarized Description, Keywords,
-categories: seo, git, yaml, wordpress, jekyll, ai, static site generator
+categories: wordpress, ai, static site generator, yaml, git, seo, jekyll
 permalink: /blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/
 layout: post
 group: blog
@@ -364,14 +364,14 @@ Write about it in your journal.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-jekyll-supports-toml-because-both-were-made-my-tom-and-jekyll-is-in-github-why-is-yaml-now-the-bomb/">If Jekyll supports TOML because both were made my Tom, and Jekyll is in GitHub, why is YAML now the bomb?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/intense-round-of-pre-productivity-tooling-refinement/">Intense Round of Pre-Productivity Tooling Refinement</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-jacked-into-the-metaverse-or-living-in-flatland/">Are You Jacked Into the Metaverse or Living in Flatland?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/yaml/'>YAML</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

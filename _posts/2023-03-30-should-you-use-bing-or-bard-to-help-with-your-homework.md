@@ -43,7 +43,7 @@ As for the title, there is no plural possessive hyphen because the title is not 
 Notable in Bard's 2nd answer: Snow Crash and Rainbows End are two science fiction novels by Vernor Vinge that explore the potential impact of technology on society... not true.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/should-you-use-bing-or-bard-to-help-with-your-homework/">Should You Use Bing or Bard to Help With Your Homework?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-are-the-main-differences-between-neovim-and-vim/">What are the main differences between NeoVim and vim?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/interrogating-bing-bard-on-utility-of-jupyter-notebooks-for-seos/">Interrogating Bing & Bard on Utility of Jupyter Notebooks for SEOs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

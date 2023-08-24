@@ -59,7 +59,7 @@ helping yourself in your day-job?
   - The budding narcissist at the Catskills colony
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/boosting-youtube-watch-time-youtube-analytics/">Boosting YouTube Watch Time / YouTube Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-to-do-how-to-always-be-doing-step/">What To Do? How To Always Be Doing Step</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/one-more-month-of-respite-from-city-life/">One More Month of Respite From City Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond/">Movie Night: From Mean Girls to Heathers and Beyond!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

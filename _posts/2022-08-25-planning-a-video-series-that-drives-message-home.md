@@ -4,7 +4,7 @@ title: Planning a Video Series That Drives Message Home
 headline: Explore the Journey of Moving Away from Microsoft and Apple Systems with Me!
 description: This video series will be a tutorial on how to move away from Microsoft and Apple systems and will explore topics such as Windows 10, WSL2, LXD Containers, and programming projects. I'll also discuss the evolution of an idea, the pursuit of craft, the 80/20-rule, and how to do what you love for money. Join me on this journey to reach a wider audience and learn how to make the switch from Microsoft and Apple systems.
 keywords: Microsoft, Apple, Windows 10, WSL2, LXD Containers, Programming Projects, Evolution of an Idea, Pursuit of Craft, 80/20-Rule, Doing What You Love for Money, Tutorial, Video Series, Wider Audience, Uneven Videos, Unscripted Videos
-categories: tutorial, wsl, microsoft, 80/20-rule
+categories: wsl, tutorial, microsoft, 80/20-rule
 permalink: /blog/planning-a-video-series-that-drives-message-home/
 layout: post
 group: blog
@@ -84,11 +84,11 @@ Other topics
 - Doing what you love for money without ruining it
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-video-series-that-drives-message-home/">Planning a Video Series That Drives Message Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-the-lpvg-message-on-point-with-a-series-of-1-minute-videos/">Get the LPvg Message On-Point with a series of 1-minute videos</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-mike-levin-helping-you-fight-obsolescence/">I'm Mike Levin helping you fight obsolescence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sub-linux-sub-love-so-learn/">Sub-Linux Sub-Love So-Learn</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>

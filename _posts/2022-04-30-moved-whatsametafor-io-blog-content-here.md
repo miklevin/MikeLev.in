@@ -34,7 +34,7 @@ existing packages that do it. So I'm not going to sweat it. Forge on ahead,
 learning the Liquid templating system to assert some control over my sites.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/stop-using-stop-words-when-they-reverse-meaning/">Stop Using Stop-Words When They Reverse Meaning</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: A Place to Put Things
 headline: "Embark on a Tech Literacy Adventure: Learn PyTorch, Group Keywords, and Build Robots!"
 description: I'm taking you on a journey to become a modern tech literate person. Learn the basics of PyTorch, group keywords, and build robots. Familiarize yourself with Linux, Git, and Vim. Set up a GitLab repo and gain the freedom that comes with it. Join me as I guide you through this tech literacy adventure!
 keywords: PyTorch, Group Keywords, Build Robots, Linux, Command-Line, Linux Daemon, Git, Vim, GitLab, Repo, Freedom, Pipulate, Python Standard Library, Pip Install, Pandas, Requests, Httpx, ScikitLearn
-categories: vim, linux, git, request, panda, pipulate
+categories: git, pipulate, vim, linux, panda, request
 permalink: /blog/a-place-to-put-things/
 layout: post
 group: blog
@@ -125,13 +125,13 @@ to code a dependency upon them into your day to day work. Just know that down
 the path I'm taking you on is eventual freedom, even from that.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-place-to-put-things/">A Place to Put Things</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-essay-on-modern-seo-a-call-to-pipulate/">An Essay on Modern SEO. A Call to Pipulate.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-lxd-let-us-run-generic-linux-server-build-scripts-without-docker/">WSL & LXD Let Us Run Generic Linux Server-Build Scripts Without Docker</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/changing-installedappflow-from-run-console-to-run-local-server/">Changing InstalledAppFlow from run_console() to run_local_server()</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/request/'>Requests</a></h4></li>
 <li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/request/'>Requests</a></h4></li></ul>
