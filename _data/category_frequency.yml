@@ -1025,6 +1025,9 @@ dictitems:
   alpine:
     count: 1
     title: Alpine
+  alpinejs:
+    count: 1
+    title: AlpineJS
   alsoask:
     count: 1
     title: AlsoAsk
@@ -1457,6 +1460,9 @@ dictitems:
   ascii art:
     count: 4
     title: ASCII art
+  asgi:
+    count: 1
+    title: ASGI
   asian:
     count: 1
     title: Asians
@@ -5208,7 +5214,7 @@ dictitems:
     count: 1
     title: Doing What You Love for Money
   dom:
-    count: 1
+    count: 2
     title: DOM
   dom state:
     count: 1
@@ -6398,6 +6404,9 @@ dictitems:
   fastai:
     count: 1
     title: FastAI
+  fastapi:
+    count: 1
+    title: FastAPI
   fatal:
     count: 1
     title: Fatal
@@ -6660,7 +6669,7 @@ dictitems:
     count: 1
     title: Flash
   flask:
-    count: 2
+    count: 3
     title: Flask
   flattening the curve:
     count: 1
@@ -7473,7 +7482,7 @@ dictitems:
     count: 1
     title: Gmail
   gnu:
-    count: 6
+    count: 7
     title: GNU
   gnu coding standards:
     count: 1
@@ -7913,6 +7922,9 @@ dictitems:
   gun:
     count: 1
     title: Guns
+  gunicorn:
+    count: 1
+    title: gunicorn
   gutenberg:
     count: 1
     title: Gutenberg
@@ -8430,7 +8442,7 @@ dictitems:
     count: 1
     title: hps.sh
   html:
-    count: 11
+    count: 12
     title: HTML
   html email:
     count: 1
@@ -8445,10 +8457,10 @@ dictitems:
     count: 2
     title: HTML5
   htmx:
-    count: 2
+    count: 3
     title: htmx
   http:
-    count: 5
+    count: 6
     title: HTTP
   http request:
     count: 1
@@ -9372,7 +9384,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 20
+    count: 21
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -14841,7 +14853,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 195
+    count: 196
     title: Python
   python 3:
     count: 1
@@ -15287,6 +15299,9 @@ dictitems:
   reach out:
     count: 1
     title: Reach Out
+  reactjs:
+    count: 1
+    title: ReactJS
   read:
     count: 3
     title: Read
@@ -16380,8 +16395,8 @@ dictitems:
     count: 2
     title: Scratch
   screen:
-    count: 3
-    title: Screen
+    count: 4
+    title: screen
   screen capture:
     count: 1
     title: Screen Capture
@@ -18396,7 +18411,7 @@ dictitems:
     count: 1
     title: System-Managed Reports
   systemd:
-    count: 28
+    count: 29
     title: Systemd
   systemd service:
     count: 1
@@ -19733,6 +19748,9 @@ dictitems:
   ut dallas:
     count: 1
     title: UT Dallas
+  uvicorn:
+    count: 1
+    title: uvicorn
   v1:
     count: 1
     title: V1
@@ -20067,8 +20085,8 @@ dictitems:
     count: 2
     title: VirtualBox
   virtualenv:
-    count: 7
-    title: Virtualenv
+    count: 8
+    title: virtualenv
   virtualizing:
     count: 1
     title: Virtualizing
@@ -20370,7 +20388,7 @@ dictitems:
     count: 1
     title: Webcrawler
   webdev:
-    count: 3
+    count: 4
     title: Webdev
   webmaster:
     count: 1
@@ -20378,6 +20396,9 @@ dictitems:
   webmaster tools:
     count: 1
     title: webmaster tools
+  webserver:
+    count: 1
+    title: webserver
   website:
     count: 31
     title: Website
@@ -20732,8 +20753,11 @@ dictitems:
   wrong john silver:
     count: 1
     title: Wrong John Silver
+  wsgi:
+    count: 1
+    title: WSGI
   wsl:
-    count: 54
+    count: 55
     title: WSL
   wsl 2 lxd:
     count: 1

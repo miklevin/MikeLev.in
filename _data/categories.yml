@@ -1,3 +1,24 @@
+- webdev
+- html
+- htmx
+- javascript
+- reactjs
+- dom
+- alpinejs
+- wsgi
+- asgi
+- gunicorn
+- uvicorn
+- wsl
+- flask
+- fastapi
+- python
+- webserver
+- http
+- virtualenv
+- systemd
+- gnu
+- screen
 - windows 10
 - windows 11
 - pc
@@ -15,7 +36,6 @@
 - terminal
 - window
 - cloud
-- python
 - vim
 - git
 - lpvg
@@ -37,10 +57,8 @@
 - playwright
 - automation
 - screenshot
-- systemd
 - daemon
 - service
-- wsl
 - symlink
 - executive function
 - human autonomy
@@ -173,7 +191,6 @@
 - default.html
 - _config.yml
 - styles.css
-- html
 - head
 - body
 - font-family
@@ -195,7 +212,6 @@
 - down
 - github
 - page
-- javascript
 - buy-in
 - spiritual
 - opinionated
@@ -330,7 +346,6 @@
 - hypervisor
 - intel processor
 - google pages
-- http
 - cloudflare
 - git repo,
 - hosting
@@ -446,7 +461,6 @@
 - private
 - sas
 - fullstack
-- webdev
 - symbolic
 - .ssh
 - release
@@ -2159,7 +2173,6 @@
 - web development
 - yaml ain't markup language
 - curly-braces
-- gnu
 - gatekeeping
 - proprietary formats
 - human-readable
@@ -2295,7 +2308,6 @@
 - connecting
 - dot
 - potential,
-- htmx
 - interaction
 - experience
 - hugo
@@ -2854,7 +2866,6 @@
 - toolset
 - web-based apis
 - system daemons
-- flask
 - forking mode
 - .service file
 - gnu screen session
@@ -3535,7 +3546,6 @@
 - classify
 - handwritten digits
 - session
-- dom
 - recorder
 - human emotions
 - simulation
@@ -4528,7 +4538,6 @@
 - live interactive chat
 - openai's chatgpt
 - developer
-- screen
 - execstart
 - directive
 - daemonizing
@@ -6208,7 +6217,6 @@
 - unix/linux
 - run() function
 - popen
-- virtualenv
 - python 3.10
 - pipe delimited
 - settings.ini
