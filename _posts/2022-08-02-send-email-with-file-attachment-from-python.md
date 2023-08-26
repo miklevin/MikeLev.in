@@ -4,7 +4,7 @@ title: Send Email With File Attachment From Python
 headline: "Enhancing Email Functionality with Python: Adding HTML, Images, and Zipped Files"
 description: I wrote code to enhance the sendemail.py program to include HTML and an image attachment, as well as a zipped file. I then created a program to schedule the sendmail.py file to run every 10 seconds, 5 seconds, and 1 minute, sending an email with the attached file. Read my blog post to learn more about how I did it!
 keywords: Python, Email, File Attachment, HTML, Image Attachment, Zipped File, Scheduling, Task, 10 Seconds, 5 Seconds, 1 Minute
-categories: html, python, email, scheduling
+categories: html, scheduling, python, email
 permalink: /blog/send-email-with-file-attachment-from-python/
 layout: post
 group: blog
@@ -100,11 +100,11 @@ while True:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sending-an-html-email-with-embedded-image-from-python/">Sending an HTML Email with Embedded Image From Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-get-blinded-by-the-hardware/">You Get Blinded By The Hardware</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/send-email-with-file-attachment-from-python/">Send Email With File Attachment From Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/html/'>HTML</a></h4></li>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li></ul>
+<li><h4><a href='/email/'>Email</a></h4></li></ul>

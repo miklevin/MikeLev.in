@@ -4,7 +4,7 @@ title: Planning a Pivot of Big Data Pull
 headline: Organizing Big Data Pull with Microsoft Playwright and Python for Best SEO Results
 description: I'm organizing data from a browser automation job using Microsoft Playwright and Python. To practice 'Best Foot Forward' SEO, I'm using Google Sheets to create sparklines with linear regression lines. I'm also using pivot tables and group by functions to summarize and analyze the data in Excel and Google Sheets. I'll deliver the data transforms by tonight, and the choice between the two depends on my needs and the complexity of the data.
 keywords: Microsoft Playwright, Python, Google Sheets, Sparklines, Linear Regression, Excel, Pivot Tables, Group By, Data Transforms, Browser Automation, SEO, SLOPE Function, Sparkline Color, Sparkline Style, Line Sparkline, Regression Line, Aggregate Columns, Metrics
-categories: google, seo, python, browser automation, panda, microsoft playwright
+categories: panda, python, microsoft playwright, google, seo, browser automation
 permalink: /blog/planning-a-pivot-of-big-data-pull/
 layout: post
 group: blog
@@ -490,13 +490,13 @@ And that solidly looks like my solution for tonight. I can make each one of
 these a tab in an Excel sheet, or more likely just make one CSV file per
 metric. So much easier!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-subsystem-for-linux-is-now-available-in-the-microsoft-store/">Windows Subsystem for Linux is now available in the Microsoft Store!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/browser-automation-becoming-natural-easy-at-long-last/">Browser Automation Becoming Natural & Easy At Long Last</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-a-pivot-of-big-data-pull/">Planning a Pivot of Big Data Pull</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/flattening-the-curve-of-ai-free-energy/">Flattening The Curve of AI & Free Energy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Testing Google Photos Organization Program
 headline: Exploring the Impact of Media on Society with Google Photos Organization
 description: I'm testing a Google Photos organization system, uploading photos to my NAS, and setting up a home cloud to increase my storage capabilities. To get around certain API limitations, I'm using Microsoft Playwright browser automation on a headless LXD server. In this blog post, I discuss the impact of media on society and how it can be used to shape public opinion and create a more informed and connected society. Read more to find out my thoughts on this important topic.
 keywords: Google Photos, Organization, API, Microsoft Playwright, Browser Automation, Headless LXD, Server, Media, Society, Public Opinion, Informed, Connected
-categories: google, python, browser automation, microsoft playwright
+categories: google, browser automation, python, microsoft playwright
 permalink: /blog/testing-google-photos-organization-program/
 layout: post
 group: blog
@@ -76,11 +76,11 @@ to that user data. And it worked. I can automate Google Photos and get around
 certain API limitations, like not being able to delete media.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/where-to-begin-pickle-your-dicts/">Where to Begin? Pickle Your Dicts!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-google-photos-organization-program/">Testing Google Photos Organization Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-cluster-keywords-from-google-suggest-api/">How To Cluster Keywords From Google Suggest API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>

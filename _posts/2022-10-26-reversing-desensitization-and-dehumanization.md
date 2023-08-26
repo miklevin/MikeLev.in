@@ -74,7 +74,7 @@ from time to time, but I am thrilled that deep exploration of new things is now
 possible online.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death/">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reversing-desensitization-and-dehumanization/">Reversing Desensitization And Dehumanization</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

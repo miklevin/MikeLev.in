@@ -4,7 +4,7 @@ title: Share Folder Between Windows, WSL Linux, Container and Home Cloud
 headline: Setting up a Complex Shared Folder Across Windows, WSL2, LXD Containers, and a Home Cloud
 description: "As an IT professional, I'm setting up a shared ~/data folder across four different locations: my laptop's main Windows system, a Linux system running under WSL2, an LXD Linux Container hosted under WSL2, and an LXD Container hosted on a separate machine. I'm mapping a network drive from my laptop's Windows system, mounting a drive from the Linux system, and adding a device to the LXD Linux Container. Follow my journey as I set up this complex shared folder"
 keywords: Windows, WSL2, Linux, Container, Home Cloud, Network Drive, LXD, Mapping, Mounting, Device, QNAP NAS
-categories: linux, microsoft, wsl, container
+categories: microsoft, container, wsl, linux
 permalink: /blog/share-folder-between-windows-wsl-linux-container-and-home-cloud/
 layout: post
 group: blog
@@ -78,11 +78,11 @@ to be done from inside a container Terminal session.
 # Add shared folder LXD Container hosted on physically separate machine (qnap nas)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-you-still-really-need-windows-switching-to-linux-in-2022/">Do You Still Really Need Windows? Switching To Linux in 2022</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/build-linux-container-on-windows-and-install-python-3-10/">Build Linux container on Windows and Install Python 3.10</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/share-folder-between-windows-wsl-linux-container-and-home-cloud/">Share Folder Between Windows, WSL Linux, Container and Home Cloud</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/write-a-linux-scheduler-service-in-python/">Write a Linux Scheduler Service in Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

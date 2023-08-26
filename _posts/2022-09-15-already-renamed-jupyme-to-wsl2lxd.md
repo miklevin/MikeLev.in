@@ -33,7 +33,7 @@ to edit my journals here and otherwise have a stable instance of Linux always
 running.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/">Writing Automated Install Script for LXD & Jupyter on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/install-script-and-start-script-for-jupyter-on-lxd-on-wsl-on-windows/">Install Script and Start Script for Jupyter on LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/already-renamed-jupyme-to-wsl2lxd/">Already Renamed Jupyme to WSL2LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu1804-exe-ubuntu2004-exe-and-ubuntu2204-exe-oh-my/">ubuntu1804.exe, ubuntu2004.exe and ubuntu2204.exe Oh My!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

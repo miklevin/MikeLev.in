@@ -139,7 +139,7 @@ twenty-one. I can imagine that would have been a lesson for me to learn in my
 fifties and sixties like it was you.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/">Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turned On</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

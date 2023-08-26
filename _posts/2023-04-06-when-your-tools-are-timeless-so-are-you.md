@@ -4,7 +4,7 @@ title: When Your Tools Are Timeless, So Are You
 headline: Using Linux, Python, Vim & Git to Automate Web Browsers and Become a Technologically Literate Citizen
 description: As a Subject Matter Expert (SME) at MOZ and an advocate of Linux, Python, vim & git, I am passionate about finding ways to use these technologies in my workflow. I am exploring fringe tech that should be mainstream, promoting Linux, Python, vim, and git as a minimum toolchain. I am also discussing the importance of language and how it helps machines think like us, as well as the Microsoft taxes that cannot be avoided.
 keywords: Linux, Python, Vim, Git, Jupyter, Browser, Devtools, Protocol, NodeJS, Automation, End-to-End Testing, Cross-Browser Testing, JavaScript, Java, .NET, Microsoft Playwright, Microsoft 365, Github Membership, Github Copilot, Ergo, Npx, Chrome DevTools, CSS Selector Generator, Extract, Transform, Load (ETL)
-categories: github copilot, vim, linux, javascript, python, git, jupyter, microsoft playwright
+categories: vim, javascript, python, microsoft playwright, git, github copilot, jupyter, linux
 permalink: /blog/when-your-tools-are-timeless-so-are-you/
 layout: post
 group: blog
@@ -1000,15 +1000,15 @@ NBDev both a Links API and Chrome Automation example.
 Maybe a SERPs example.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/systematically-walk-through-moz-products/">Systematically Walk Through MOZ Products</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/tackling-moz-browser-automation-until-i-get-it-right/">Tackling MOZ Browser Automation Until I Get It Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/when-your-tools-are-timeless-so-are-you/">When Your Tools Are Timeless, So Are You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/notebook-based-browser-automation-with-nbdev/">Notebook-based Browser Automation With NBDev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -44,7 +44,7 @@ for being in the zone so much for it to be a pitfall.
 > Thanks to the covid.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-15-homepages-at-once-in-vim/">Editing 15 Homepages at Once in vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

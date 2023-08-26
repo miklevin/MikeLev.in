@@ -174,7 +174,7 @@ with DAL('mongodb://username:password@localhost/test') as db:
  ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-new-bing-as-science-news-source/">Exploring New Bing as Science News Source</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/looking-for-the-best-python-dict-like-api-to-nosql/">Looking For The Best Python dict-like API to NoSQL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading/">Asking AI About Arrokoth, Fravor & Mind Reading</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

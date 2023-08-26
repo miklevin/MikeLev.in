@@ -4,7 +4,7 @@ title: Automating 2FA Web Login via Microsoft Playwright
 headline: Solving My Authentication Problem with Microsoft Playwright and PyPi Authenticator
 description: After researching options, I decided to create a service to check if I still had web-based authentication. I then found the PyPi Authenticator project which allowed me to automate 2FA from the command line. After a long day, I was able to get it working and move on to the next project. Come read my story to learn how I solved my authentication problem!
 keywords: 2FA, Web Login, Microsoft Playwright, Authentication, PyPi Authenticator, YouTube Analytics, Automation, Command Line, Email, Service
-categories: python, email, microsoft playwright
+categories: microsoft playwright, python, email
 permalink: /blog/automating-2fa-web-login-via-microsoft-playwright/
 layout: post
 group: blog
@@ -72,10 +72,10 @@ definitely do have to give URLs time to breath immediately after login.
 It's time to zoom along to the next project.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/beware-the-re-corralling/">Beware the Re-Corralling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automating-2fa-web-login-via-microsoft-playwright/">Automating 2FA Web Login via Microsoft Playwright</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/email/'>Email</a></h4></li></ul>

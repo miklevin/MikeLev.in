@@ -4,7 +4,7 @@ title: Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height
 headline: Fixing YouTube Embeds for 100% Width and Aspect Ratio Height
 description: I'm in the process of creating a series of pages with a slicer-token, date, video title, video description, and YouTube embed code, but before I can do that, I need to complete some housekeeping tasks with Jekyll. I've already adjusted the YouTube embed code to be 100% width, but now I'm working on fixing the height issue. After some research, I have found a solution that should do the trick.
 keywords: YouTube, Embed, Width, Aspect Ratio, Height, Jekyll, Video, Title, Description, Code, Series, Pages, Slicer-Token, Date, Content
-categories: jekyll, youtube
+categories: youtube, jekyll
 permalink: /blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height/
 layout: post
 group: blog
@@ -84,9 +84,9 @@ even semi-modern):
 
 BAM!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-a-bash-loop-script-for-jekyll/">Writing a Bash Loop Script for Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-youtube-embeds-100-width-but-fixed-aspect-ratio-height/">Making YouTube Embeds 100% Width But Fixed Aspect Ratio Height</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disabling-github-ci-nbdev-install-git-hooks/">Disabling Github CI nbdev_install_git_hooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sharpening-my-prev-next-arrows/">Sharpening My Prev/Next Arrows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

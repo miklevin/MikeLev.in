@@ -387,7 +387,7 @@ because it still must be a unique key, albeit not multi-column anymore and we
 have to deal with tuple/string conversions here and there. An eval() readily
 turns the stringified key back into a tuple.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language/">Me vs. ChatGPT: Tell me why I should use the Python programming language.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

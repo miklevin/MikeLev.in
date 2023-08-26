@@ -107,7 +107,7 @@ I asked you that question because I wanted to know more about your interests and
 I apologize if my question was confusing or misleading. I hope you understand that I was just trying to have a friendly and interesting conversation with you.😊
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-rigid-geometric-weather-balloons-possible/">Are Rigid Geometric Weather Balloons Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/">Researching Most Likely UFO Propulsion Research Institutions With Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading/">Asking AI About Arrokoth, Fravor & Mind Reading</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/">Researching Most Credible Voices In UFO / UAP Space With The New Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

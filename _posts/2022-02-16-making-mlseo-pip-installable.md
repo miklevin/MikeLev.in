@@ -84,7 +84,7 @@ That was actually a hurdle overcome, nbdev_new'ing into an already existing
 private repo. Check!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-i-became-obsessive-about-obsolescence-proofing/">How I Became Obsessive About Obsolescence-Proofing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/testing-nbdev/">Testing nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

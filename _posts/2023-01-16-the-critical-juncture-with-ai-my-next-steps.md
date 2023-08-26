@@ -4,7 +4,7 @@ title: The Critical Juncture With AI & My Next Steps
 headline: Exploring Artificial Intelligence and Taking Action - My Journey on the Wave of Change
 description: I'm exploring the possibilities of Artificial Intelligence and taking action to stay on top of the wave. To ensure ethical use of my content, I have written a Machine Learning General License (MLGL) and included it on my website. I'm working hard to create unique content for ChatGPT and Pipulate.com/software, and am experimenting with tokenizing, keyword clustering, and quickly looking up response objects.
 keywords: AI, Artificial Intelligence, Machine Learning, MLGL, ChatGPT, Pipulate.com, Software, Tokenizing, Keyword Clustering, Response Objects, Python, Pandas, Pathlib, Filemap
-categories: python, ai, panda
+categories: panda, python, ai
 permalink: /blog/the-critical-juncture-with-ai-my-next-steps/
 layout: post
 group: blog
@@ -111,10 +111,10 @@ for file in Path(f"parquet").glob("*.parquet"):
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keyword-histograms-and-clusters/">Keyword Histograms and Clusters</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-critical-juncture-with-ai-my-next-steps/">The Critical Juncture With AI & My Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

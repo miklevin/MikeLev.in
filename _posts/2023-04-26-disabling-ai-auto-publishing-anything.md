@@ -4,7 +4,7 @@ title: Disabling AI Auto-Publishing Anything
 headline: "Switching to Windows 11: Transferring the 'Soul' and Navigating a New Site with Python"
 description: I recently discovered a problem with Jekyll when trying to produce a list of the 10 most recent posts. To solve this, I used Python to control the list iteration and created a 5 x 20 grid of the top-100 categories on my website. After testing it in Jupyter, I successfully produced a table with the top 100 categories. I also recently switched from Windows 10 to Windows 11 and was able to transfer the 'soul' of the machine, including my system setup.
 keywords: Jekyll, Python, Grid, Windows, AI, Navigation, System, Installs, Settings, Site, Categories, Tags, Search
-categories: jekyll, navigation, setting, ai, search, python, microsoft
+categories: microsoft, jekyll, search, python, ai, setting, navigation
 permalink: /blog/disabling-ai-auto-publishing-anything/
 layout: post
 group: blog
@@ -118,14 +118,14 @@ keeping that behavior in order to always have a chance to edit the AI's work
 before first publish. 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/disabling-ai-auto-publishing-anything/">Disabling AI Auto-Publishing Anything</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/looking-for-equivalent-alternative-to-usr-local-sbin/">Looking For Equivalent Alternative to /usr/local/sbin</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li>
-<li><h4><a href='/setting/'>Settings</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/setting/'>Settings</a></h4></li>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li></ul>

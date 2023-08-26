@@ -80,7 +80,7 @@ few more metaphors.
 Okay, Levinux is updated. All roads lead to DrinkMe.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/but-should-we-still-blog-should-it-all-just-fade-away/">But Should We Still Blog? Should It All Just Fade Away?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/">The Python Pandas .iloc Interface Explained For The Befuddled</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

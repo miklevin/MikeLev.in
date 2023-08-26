@@ -4,7 +4,7 @@ title: Path(f'{\_path}').mkdir(parents=True, exist_ok=True)
 headline: "Creating a Release Process: Building a Blog Publishing System with Python and Bash"
 description: I'm up early, focused on operation ELTgd, and have been able to put my new blog publishing system to use. I've written scripts in Python and Bash to create directories and config files, and to commit the changes to git. I'm now editing 19 files in vim to make sure a bunch of folders exist on all 15 sites. Join me as I detail my release process and the steps I take to ensure everything runs smoothly.
 keywords: ELTgd, Operation, Blog Publishing, Python, Bash, Directories, Config Files, Git, Vim, Jekyll, _config.yml, Path Library, Bash Scripting
-categories: jekyll, vim, linux, python, git
+categories: vim, jekyll, python, git, linux
 permalink: /blog/path-f-path-mkdir-parents-true-exist-ok-true/
 layout: post
 group: blog
@@ -266,12 +266,12 @@ Path(f'{afullpath}').mkdir(parents=True, exist_ok=True)
 ...which are really so powerful. The amount of cryptic bash scripting that
 parents=True and exist_ok=True spares you from is greatly appreciated.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-b1-commands-much-force-like-obi-wan/">vim :b1 Commands Much Force Like Obi-Wan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/path-f-path-mkdir-parents-true-exist-ok-true/">Path(f'{\_path}').mkdir(parents=True, exist_ok=True)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-files-that-are-the-same-across-multiple-sites/">Editing Files That Are The Same Across Multiple Sites</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

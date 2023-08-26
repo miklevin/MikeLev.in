@@ -4,7 +4,7 @@ title: Internalizing Tools Through Eepigenetics
 headline: Learning to Embrace My Environment Through Tools and Eepigenetics
 description: This article reflects on my journey in life, discussing the concept of epigenetics and Mike Levin, a microbiologist who shares my name and is a hero of mine. I explore my experiences in life, including falling victim to shortcut-seekers and narcissists, and how I am learning to make sure I don't lose myself to someone else. I have embraced my environment by finding my tools, and have realized the importance of incorporating VSCode into my DNA. I discuss the power of text editors.
 keywords: Epigenetics, Mike Levin, Shortcut-Seekers, Narcissists, VSCode, Text Editors, Journal, Proto-Intelligence, Free Will, Random Circumstance, Hand, Game of Life, Foam, Glass, Time, Vulnerability, Change, Platform, Web Browser, NodeJS, Server, Vi, Linux, Vim, Python, JavaScript
-categories: linux, vim, javascript, vi, python, microsoft, change, text editors
+categories: microsoft, change, vim, javascript, text editors, python, vi, linux
 permalink: /blog/internalizing-tools-through-eepigenetics/
 layout: post
 group: blog
@@ -224,15 +224,15 @@ that it is still as popular as it is today and only growing, even in the face
 of JavaScript, the one language to rule them all.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/monitoring-github-pages-github-io-system-for-errors/">Monitoring Github Pages github.io System For Errors</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-m-mike-levin-helping-you-fight-obsolescence/">I'm Mike Levin helping you fight obsolescence</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/internalizing-tools-through-eepigenetics/">Internalizing Tools Through Eepigenetics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-video-series-that-drives-message-home/">Planning a Video Series That Drives Message Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/vi/'>vi</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/text-editors/'>Text Editors</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/text-editors/'>Text Editors</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vi/'>vi</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

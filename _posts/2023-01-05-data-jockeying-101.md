@@ -4,7 +4,7 @@ title: Data Jockeying 101
 headline: Creating Economic Value with Data Jockeying Skills
 description: I'm an experienced tech professional who focuses on creating small, meaningful data tricks to minimize tech liability. I prefer Python for its readability, shareability, and long-term potential. I'm currently working on a project that requires two date-ranges, and I'm using my data gathering and transformation skills to create economic value. I'm determined to stay true to myself and find a way to express my happiest self while creating economic value.
 keywords: Data-Jockeying, Experienced-Tech-Professional, Small-Meaningful-Data-Tricks, Minimize-Tech-Liability, Python, Readability, Shareability, Long-Term-Potential, Data-Gathering-Transformation-Skills, Economic-Value, Internalizable-Tools, Algorithms, Express-Happiest-Self, Data-Gathering-Transformation-Skills
-categories: algorithm, python
+categories: python, algorithm
 permalink: /blog/data-jockeying-101/
 layout: post
 group: blog
@@ -123,9 +123,9 @@ are from the beginning of the year to current (minus a few days) and beginning
 of the year to a couple of days ago.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/api-choices-rational-folks-won-t-say-magic/">API Choices & Rational Folks Won't Say Magic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/data-jockeying-101/">Data Jockeying 101</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/beware-the-re-corralling/">Beware the Re-Corralling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>

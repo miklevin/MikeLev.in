@@ -70,7 +70,7 @@ stable interface we have.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ai-crash-course-101-from-2017-transformers-to-robot-bodies/">AI Crash Course 101: from 2017 Transformers to Robot Bodies</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-good-vim-to-tiktok-journaling-format/">Figuring Out Good Vim to TikTok Journaling Format</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/use-linux-command-line-to-resist-obsolescence-and-future-proof-yourself/">Use Linux Command Line to Resist obsolescence and Future-proof Yourself</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-a-fresh-start-with-lifelong-future-proofed-journaling/">Making a Fresh Start with Lifelong Future-proofed Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

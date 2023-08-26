@@ -4,7 +4,7 @@ title: Fetching & Saving HTML From List of URLs Using Python
 headline: Creating a Program to Scrape Data from a Website for a Friend Using Python and Linux
 description: As I prepare to start my new job, I'm taking care of all the necessary tasks, including ordering a standing desk and organizing my apartment. I also attended a group meeting with my employer and got all the onboarding paperwork done. To help out a friend, I'm creating a program to scrape data from a website and store it in an Excel file, using Python and Linux.
 keywords: Fetching, Saving, HTML, URLs, Python, Standing Desk, Organizing, Group Meeting, Employer, Onboarding, Scrape, Store, Excel, Linux, SEO, Tuesday, Job, Monday, Supermarket, Ikea, Apartment, JupyterLab, Server, Practice Directory, Notebook, HTTPX, Synchronous Work, Read, Lists, Crawl, HTTP Request, SQLite3, Database, File, Extract, Title, Description, Head
-categories: html, linux, database, seo, python, jupyter, panda
+categories: panda, html, python, seo, database, jupyter, linux
 permalink: /blog/fetching-saving-html-from-list-of-urls-using-python/
 layout: post
 group: blog
@@ -275,14 +275,14 @@ df.to_excel("business.xlsx", index=False)
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keep-taking-those-baby-steps-every-day/">Keep Taking Those Baby-Steps Every Day</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fetching-saving-html-from-list-of-urls-using-python/">Fetching & Saving HTML From List of URLs Using Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/">Verbalize the built-up not-yet memeified angsty feelings of the public.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

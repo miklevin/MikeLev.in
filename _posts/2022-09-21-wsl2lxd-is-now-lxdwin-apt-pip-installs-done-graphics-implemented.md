@@ -48,7 +48,7 @@ Wow, I think I have it. Doing full reboot.
 I think I nailed it.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-chrome-for-linux-under-lxd-on-wsl-on-windows/">Google Chrome for Linux Under LXD on WSL on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/">WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

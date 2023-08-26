@@ -172,7 +172,7 @@ Is there anything else I can help you with?
 Is there anything else I can help you with?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-are-the-lessons-from-oldest-recorded-languages-and-writings-on-earth/">What Are The Lessons From Oldest Recorded Languages and Writings On Earth?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai/">The Lex Fridman Interview with Sam Altman on GAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

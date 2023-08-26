@@ -4,7 +4,7 @@ title: Livestreaming Question & Answers With YouTube Audience
 headline: "Staying Relevant at 51: Tips for Avoiding Vendor Traps and Using Microsoft Tools"
 description: I'm 51 years old and have been made obsolete by so many things, but I'm using the tools Microsoft is providing to stay relevant. In this video, I discuss how knowledge workers bring their minds and capabilities to their job, and how I use my own CMS called Skite to take notes and organize my work. I also share tips on avoiding vendor traps and obsolescence resistance, such as using Python dict API, Sqlite3, Django and Flask, and the Unix Way.
 keywords: Livestreaming, Question & Answers, YouTube, Audience, Microsoft, CMS, Skite, Vendor Traps, Obsolescence Resistance, Python dict API, Sqlite3, Django, Flask, Unix Way, LXD, WSL2, Azure, Terminal, VSCode, Linux, Python, Data Manipulation, SEO, Video Commenting, Lisp, Emacs, Web-Scraping, Authentication, Data Transformation, Python Pandas, ETL, Data Analysis
-categories: wsl, linux, seo, audience, youtube, python, microsoft, emacs, container
+categories: microsoft, container, python, audience, youtube, seo, emacs, wsl, linux
 permalink: /blog/livestreaming-question-answers-with-youtube-audience/
 layout: post
 group: blog
@@ -254,16 +254,16 @@ the things I admire most / musical)
   - Get good at Python pandas
   - ETL
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-jupyter-desktop-set-python-environment-error-message/">Fixing Jupyter Desktop Set Python Environment Error Message</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/livestreaming-question-answers-with-youtube-audience/">Livestreaming Question & Answers With YouTube Audience</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/audience/'>Audience</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/emacs/'>Emacs</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

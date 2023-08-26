@@ -4,7 +4,7 @@ title: Using Google Photos API to Generate Main, Archive & Favorite Media Lists
 headline: Creating Easier Access to Google Photos API with Python Functions
 description: I'm using Google Photos API to generate three databases - 'all', 'main', and 'favorites' - and an 'archive' database. I'm using Python functions to query the API, store the results, and create custom labeled tuples with a start date and end date. I'm also chunking the project into week-by-week chunks, making it easier to manage. This code provides a way to make the code clearer and easier to understand.
 keywords: Google Photos API, Generate, Main, Archive, Favorite, Media Lists, Python, Query, Store, Results, Create, Custom, Labeled, Tuples, Start Date, End Date, Chunking, Project, Manage, Code, Clearer, Understand, Database, Input Values, Pickled Format, SQLite, Week-by-Week, Namedtuple, Splat, Query-Writing, Function, Labels, Meaning, Table
-categories: google, tuples, database, python
+categories: google, database, tuples, python
 permalink: /blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/
 layout: post
 group: blog
@@ -306,11 +306,11 @@ planned out.
 Wow such a small piece of outer loop code and so much it accomplishes.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-google-photos-organization-program/">Testing Google Photos Organization Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-cluster-keywords-from-google-suggest-api/">How To Cluster Keywords From Google Suggest API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/tuples/'>Tuples</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/tuples/'>Tuples</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li></ul>

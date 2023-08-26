@@ -70,7 +70,7 @@ steps. I have to make that sort of thing central to my message. Remember the
 baby-steps. Remember the layering things on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/finally-got-through-bing-waiting-list/">Finally Got Through Bing Waiting List</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fetching-saving-html-from-list-of-urls-using-python/">Fetching & Saving HTML From List of URLs Using Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/back-hurts-but-maintain-your-indomitable-spirit/">Back Hurts, But Maintain Your Indomitable Spirit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/keep-taking-those-baby-steps-every-day/">Keep Taking Those Baby-Steps Every Day</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

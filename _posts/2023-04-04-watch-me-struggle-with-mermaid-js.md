@@ -4,7 +4,7 @@ title: Watch Me Struggle With Mermaid JS
 headline: "Exploring Noosphere with Mermaid JS: Live-Streaming My Data Project Journey Before 9:30 AM Call"
 description: "I'm live-streaming my daily journal before my 9:30 AM call. I'm using NeoVim, OpenAI auto-suggest, and Mermaid JS to work on a data project with a deadline. I'm also using CoPilot AI Pair Programming and Github CoPilot to help me out. I'm avoiding full web stack technologies and changing the background to white. Come join me on my journey as I explore noosphere and create quick diagrams with Mermaid!"
 keywords: NeoVim, OpenAI, Auto-Suggest, Mermaid JS, CoPilot AI, Pair Programming, Github CoPilot, Noosphere, Data Sources, Join Tables, Tests and Assumptions, Milestones, Quick Diagrams, Full Web Stack, White Background
-categories: github copilot, vim, ai
+categories: vim, github copilot, ai
 permalink: /blog/watch-me-struggle-with-mermaid-js/
 layout: post
 group: blog
@@ -133,10 +133,10 @@ I did a bunch of experimenting and instead of changing colors on in Mermaid
 diagrams, I just change the background to white and lean into the defaults.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hello-world-and-life-is-worth-it/">Hello World and Life is Worth It 🦋!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-mike-levin-seo-vanity-search-test-w-bing-bard/">A Mike Levin SEO Vanity Search Test w/ Bing & Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/watch-me-struggle-with-mermaid-js/">Watch Me Struggle With Mermaid JS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-to-know-moz-through-mermaid-erds/">Getting To Know MOZ Through Mermaid ERDs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

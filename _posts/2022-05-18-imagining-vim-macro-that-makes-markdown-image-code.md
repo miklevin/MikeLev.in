@@ -4,7 +4,7 @@ title: Imagining vim Macro That Makes Markdown Image Code
 headline: Vim Macro Makes Web Publishing Easier for Information Age Professionals
 description: As an Information Age professional, I use vim as my text editor to create image tags from keyworded filenames for my web publishing system based on Github's Github Pages Jekyll static site generator. I use proper-case for the web accessible alt-text area, which is beneficial for both the visually impaired and search engines. With vim, I can easily name my files with keywords and tag my images for search with alt-text. Learn how I use vim to make web publishing easier.
 keywords: vim, macro, Markdown, image, code, Information Age, text editor, web publishing, Github Pages, Jekyll, static site generator, proper-case, alt-text, keywords, files, search, tool
-categories: text editor, jekyll, search, vim, seo, static site generator
+categories: vim, jekyll, search, static site generator, seo, text editor
 permalink: /blog/imagining-vim-macro-that-makes-markdown-image-code/
 layout: post
 group: blog
@@ -55,13 +55,13 @@ Age professional is, right? Otherwise you've put your gonads in Microsoft's
 hands (VSCode, right, right, am I right?).
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/add-flax-seeds-to-blended-drinks-to-make-your-poo-firm/">Add Flax Seeds to Blended Drinks to Make Your Poo Firm</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code/">Imagining vim Macro That Makes Markdown Image Code</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li></ul>

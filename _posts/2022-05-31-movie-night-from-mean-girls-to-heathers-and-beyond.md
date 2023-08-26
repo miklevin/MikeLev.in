@@ -255,7 +255,7 @@ I may be remembering Heathers totally wrong.
 > <cite>&#151;Richard Lovelace, 1642</cite><br />
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/boosting-youtube-watch-time-youtube-analytics/">Boosting YouTube Watch Time / YouTube Analytics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-to-do-how-to-always-be-doing-step/">What To Do? How To Always Be Doing Step</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/movie-night-from-mean-girls-to-heathers-and-beyond/">Movie Night: From Mean Girls to Heathers and Beyond!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fluorescent-ultraviolet-psychedelic-blacklight-snake-cobra-poster/">Fluorescent Ultraviolet Psychedelic Blacklight Snake Cobra Poster</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

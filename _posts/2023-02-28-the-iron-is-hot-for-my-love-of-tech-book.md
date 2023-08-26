@@ -32,7 +32,7 @@ When things are new, look at them carefully and experiment. Take notes, see the 
 We get challenged in life in ways we don't always expect and then ways that are not always fair. Every moment is full of choice and the first fundamental choice is always this: will I rise to the occasion or will I allow myself to be defeated?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/first-day-on-new-job-i-throw-out-my-back/">First Day on New Job & I Throw Out My Back!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/day-3-at-moz/">Day 3 at MOZ</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-iron-is-hot-for-my-love-of-tech-book/">The Iron is Hot for My Love-Of Tech Book</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-amplifies-you/">AI Amplifies You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

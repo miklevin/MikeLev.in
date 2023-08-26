@@ -362,7 +362,7 @@ exactly!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-art-vs-mermaids-who-will-be-victorious/">ASCII Art vs. Mermaids Who Will Be Victorious?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

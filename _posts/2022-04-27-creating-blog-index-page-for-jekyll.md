@@ -4,7 +4,7 @@ title: Creating Blog Index Page for Jekyll
 headline: Generate an Index Page for Your Jekyll Blog with My Script!
 description: I wrote a script to generate an index page for a blog using Jekyll. It reads a journal file and creates a post for each entry, complete with a title and slug. It then assembles an index page with links to each post, making it easier for readers to find what they're looking for. Click through to explore my blog!
 keywords: Jekyll, Script, Index Page, Journal File, Post, Title, Slug, Links, Explore, Blog
-categories: jekyll, python
+categories: python, jekyll
 permalink: /blog/creating-blog-index-page-for-jekyll/
 layout: post
 group: blog
@@ -117,9 +117,9 @@ with open(f"{folder_name}/blog.md", "w") as fh:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-repo-into-nbdev-project/">Turning Repo into nbdev Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/creating-blog-index-page-for-jekyll/">Creating Blog Index Page for Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-command-line-argument-support-to-jupyter-notebook/">Adding Command-Line Argument Support to Jupyter Notebook</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

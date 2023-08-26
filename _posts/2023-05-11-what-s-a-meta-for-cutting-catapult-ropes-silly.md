@@ -115,7 +115,7 @@ it. But there is now. Oh, did I mention the metaphor of cutting catapult ropes?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-a-meta-for-cutting-catapult-ropes-silly/">What's a Meta For? Cutting Catapult Ropes, Silly!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/">Rappelling Down The Rabbit Hole: A Linux Script Adventure</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

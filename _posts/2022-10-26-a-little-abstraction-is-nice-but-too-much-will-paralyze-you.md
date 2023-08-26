@@ -221,7 +221,7 @@ your hand out, turn the doorknob, push the door open and walk through. You're
 not going to just ***POP*** there.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reversing-desensitization-and-dehumanization/">Reversing Desensitization And Dehumanization</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-need-a-personal-server-in-your-life-the-time-is-nigh/">You Need a Personal Server In Your Life & The Time is Nigh</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

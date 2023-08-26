@@ -4,7 +4,7 @@ title: "NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's"
 headline: Debating Whether to Refactor my Blogging System or Use Another Keyboard Shortcut from NeoVim
 description: "As a blogger, I'm debating whether to refactor my blogging system or to just use another keyboard shortcut from NeoVim. I asked Bing how to execute shell commands from NeoVim and found out that the :execute command doesn't even show output. Bing suggested using the `:terminal` command, mapping it to a keyboard shortcut, or using `vim.api.nvim_command` to execute a command. After realizing that this means my old macros look a little messed up"
 keywords: "NeoVim, execute, command, output, refactor, blogging system, keyboard shortcut, :terminal, :execute, :terminal, `vim.api.nvim_command`, macros, Vim-compatible, crappy output"
-categories: execute, vim
+categories: vim, execute
 permalink: /blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s/
 layout: post
 group: blog
@@ -123,9 +123,9 @@ the same machine. Living with crappy output using :execute may be the right way
 to go. Do some experiments.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-diddle-diddle-now-neovim-s-my-fiddle/">Hey Diddle Diddle, Now NeoVim's My Fiddle</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s/">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/playing-with-bard/">Playing with Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/execute/'>Execute</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/execute/'>Execute</a></h4></li></ul>

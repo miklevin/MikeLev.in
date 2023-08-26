@@ -4,7 +4,7 @@ title: Every Little Project Gets Done!
 headline: "Pushing Myself to Do More: My Journey to ELTgd (Every Little Thing Gets Done)"
 description: I recently changed the name of my project to ELTgd (Every Little Thing Gets Done) to push myself to do more and practice my vim skills. I'm also using whatsametafor.io to document my progress. Click through to read more about my journey and how I'm getting things done!
 keywords: Project, ELTgd, Vim, Skills, Progress, Journey, Little Things, Journaling, Macros, Formatting, Whatsametafor.io
-categories: progress, vim, journaling
+categories: vim, journaling, progress
 permalink: /blog/every-little-project-gets-done/
 layout: post
 group: blog
@@ -63,10 +63,10 @@ Just keep it in mind to document later. Right now, it's what whatsametafor.io
 is for.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-stopwords-from-jekyll-blog-urls/">Removing Stopwords From Jekyll Blog URLs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/massaging-10-sites-into-shape-at-once/">Massaging 10 Sites Into Shape At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stop-using-stop-words-when-they-reverse-meaning/">Stop Using Stop-Words When They Reverse Meaning</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/progress/'>Progress</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/progress/'>Progress</a></h4></li></ul>

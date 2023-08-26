@@ -4,7 +4,7 @@ title: If You're So Good at SEO, Why Aren't AIs Talking to You?
 headline: Exploring the Possibilities of Superintelligence and How It Could Impact Humanity
 description: As an SEO specialist, I share my experience and advice on why the best SEOs should focus on their passions and use their skills to make money doing what they love, and not SEO. I also discuss the implications of Artificial Intelligence on SEO, and the importance of giving humanity a fair chance in the future.
 keywords: SEO, Commodore, Amy Nguyen, 360i, Dentsu, Aegis, Mentat, Mike, Dune, Ray Kurzweil, GPT-models, NVIDIA, TPUs, AI, Humanity, Ray Kurzweil, Quantum Mechanics, Chinese Room Experiment, Double Slit Experiment, Raspberry Pi, Datacenters, Human Intelligence, Uploadable, Minds, Culture, Ender, Jane
-categories: amiga, ai, seo
+categories: seo, amiga, ai
 permalink: /blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/
 layout: post
 group: blog
@@ -126,10 +126,10 @@ can make them that small. Jane? Jane, are you there? Tap, tap, tap.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-s-a-meta-for-cutting-catapult-ropes-silly/">What's a Meta For? Cutting Catapult Ropes, Silly!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-content-that-ai-can-t-generate/">The Content that AI Can't Generate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

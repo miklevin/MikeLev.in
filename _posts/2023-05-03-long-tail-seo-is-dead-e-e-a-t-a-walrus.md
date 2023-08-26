@@ -153,7 +153,7 @@ My E-E-A-T (Experience, Expertise, Authority, Trust) should be teaching folks
 how to use a hammer that can not be taken away from you, so you can never be
 eaten like an oyster.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rappelling-down-the-rabbit-hole-x-marks-the-spot/">Rappelling Down the Rabbit Hole, X-Marks The Spot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-status-quo/">An Ode to The Status Quo</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/long-tail-seo-is-dead-e-e-a-t-a-walrus/">Long-Tail SEO is Dead. E-E-A-T a Walrus.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

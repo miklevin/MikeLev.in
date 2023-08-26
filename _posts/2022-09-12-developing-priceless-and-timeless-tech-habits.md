@@ -58,7 +58,7 @@ connection, virtual screens for fullscreen apps and a taskbar for switching
 between them—little more.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recovering-old-laptops-for-video-production-purposes/">Recovering Old Laptops For Video Production Purposes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/">Going Down the WSL to LXD Install Script Rabbit Hole</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/developing-priceless-and-timeless-tech-habits/">Developing Priceless and Timeless Tech Habits</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switching-from-wsl-to-lxd-containers-permanently/">Switching From WSL to LXD Containers Permanently</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

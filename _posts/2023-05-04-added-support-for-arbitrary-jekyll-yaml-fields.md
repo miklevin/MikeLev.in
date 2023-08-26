@@ -4,7 +4,7 @@ title: Added Support for Arbitrary Jekyll YAML Fields
 headline: I Improved my Code and Gained More Control Over My Blog Posts
 description: "Clean up your drafts folder and start using `_drafts` for actual drafts! Learn how to set the publish field to false in Jekyll Front Matter, adjust list comprehension to filter out unpublished posts, and preserve fields during the YAML-chopping step. Improve the core yamlchop function with a before and after example and see the result with the first release under the new code."
 keywords: Jekyll, YAML, Rebase, Drafts, Publishing, Status, Front Matter, Unpublished, List Comprehension, Filtering, Fields, Processing, Data Structure, OpenAI, Writing, Calculating, Customizations, Release, Blog Post, Unpublishing
-categories: jekyll, yaml, ai, draft
+categories: draft, yaml, jekyll, ai
 permalink: /blog/added-support-for-arbitrary-jekyll-yaml-fields/
 layout: post
 group: blog
@@ -133,11 +133,11 @@ post becomes unpublished and what it does to the arrows.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-markdown-why-yaml-why-they-re-great-together/">Why Markdown? Why YAML? Why They're Great Together!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rendering-un-styled-jekyll-markdown-drafts-for-pasting-into-google-docs/">Rendering Un-Styled Jekyll Markdown Drafts for Pasting Into Google Docs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/added-support-for-arbitrary-jekyll-yaml-fields/">Added Support for Arbitrary Jekyll YAML Fields</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-all-openai-completion-calls-to-one-function/">Moving All OpenAI Completion Calls to One Function</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/draft/'>Drafts</a></h4></li>
 <li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/draft/'>Drafts</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

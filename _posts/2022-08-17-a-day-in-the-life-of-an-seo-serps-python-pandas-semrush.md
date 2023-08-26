@@ -4,7 +4,7 @@ title: A Day In The Life of An SEO SERPs, Python Pandas & SEMRush
 headline: "Exploring the World of SEO: A Day in My Life of Code and Analysis"
 description: Today, I'm embarking on a scavenger hunt to find the code I used the last time I did this project. I'm using Python to extract information from a database file, transform it into a usable format, and export it as a CSV file and an Excel xlsx file. I'm also using regex and tldextract to extract the domain from the search results. Finally, I'm using a bulk keyword analysis tool and a pivot table to organize the data.
 keywords: SEO, SERPs, Python, Pandas, SEMRush, Database, CSV, Excel, xlsx, Regex, tldextract, Bulk Keyword Analysis, Pivot Table, Scavenger Hunt, Virtual Desktops, SQLite, Extract_serps, Tuple, List, Dataframe, Google Sheet
-categories: panda, database, python, seo
+categories: database, panda, seo, python
 permalink: /blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/
 layout: post
 group: blog
@@ -395,11 +395,11 @@ Pshwew! Okay, it's hours later during the day. Busy, busy, busy!
 It's time to move all this data into Google Sheets and turn it into a great big
 pivot table. Pivot tables in Google Sheets is pretty bleeding edge.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-pipulate-levinux-back-into-the-picture/">Bring Pipulate & Levinux Back Into The Picture</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reworking-site/">Reworking Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/">A Day In The Life of An SEO SERPs, Python Pandas & SEMRush</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/monitoring-github-pages-github-io-system-for-errors/">Monitoring Github Pages github.io System For Errors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

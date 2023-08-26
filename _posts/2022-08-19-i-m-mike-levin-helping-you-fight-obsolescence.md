@@ -4,7 +4,7 @@ title: I'm Mike Levin helping you fight obsolescence
 headline: Fight Obsolescence with Mike Levin - August 19, 2022
 description: I'm Mike Levin, and I'm hard at work overhauling my website, MikeLev.in, with the help of simplecss.org. I'm also creating videos to help others fight obsolescence in their technical skills. Come join me as I introduce people to Linux and vim, and show them how to install Linux on their Windows systems with wsl --install in Powershell. Today is the day to take control of your technical skills!
 keywords: Mike Levin, MikeLev.in, simplecss.org, Linux, vim, wsl, Powershell, August 19, 2022, Website, Technical Skills, Overhauling, Videos, Inspiration
-categories: vim, linux, powershell, wsl
+categories: wsl, vim, powershell, linux
 permalink: /blog/i-m-mike-levin-helping-you-fight-obsolescence/
 layout: post
 group: blog
@@ -26,11 +26,11 @@ your built-in default command-line from MS-DOS and Powershell to Linux by
 opening a Powershell and typing wsl --install.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/internalizing-tools-through-eepigenetics/">Internalizing Tools Through Eepigenetics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-a-video-series-that-drives-message-home/">Planning a Video Series That Drives Message Home</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-mike-levin-helping-you-fight-obsolescence/">I'm Mike Levin helping you fight obsolescence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sub-linux-sub-love-so-learn/">Sub-Linux Sub-Love So-Learn</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

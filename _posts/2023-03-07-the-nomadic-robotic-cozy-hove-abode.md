@@ -507,7 +507,7 @@ Source: Conversation with Bing, 3/7/2023
     (5) Domicile for Nomads: Establish a Legal Residence on the Road - Gnomad Home. https://gnomadhome.com/domicile-for-nomads/ Accessed 3/7/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-nomadic-robotic-cozy-hove-abode/">The Nomadic Robotic Cozy Hove Abode</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/general-artificial-intelligence-nas-business-plan/">General Artificial Intelligence NAS Business Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

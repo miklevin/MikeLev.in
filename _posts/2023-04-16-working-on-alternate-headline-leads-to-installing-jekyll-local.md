@@ -4,7 +4,7 @@ title: Working on Alternate Headline Leads to Installing Jekyll Local
 headline: "AI Powers My Content Production: Installing Jekyll Local to Diagnose Liquid Template Issues"
 description: I'm a 52 year old working for MOZ SEO Software, using AI to capture ideas, distill them, and turn them into something accessible for all. I'm also using AI to edit my videos and stand out from the 8 billion other people in the world. Recently, I've been writing a program to format blog posts by running a Linux git command that hits the OpenAI API for topics, meta descriptions and better headlines. You are looking at the results.
 keywords: MOZ, SEO, Software, AI, Videos, OpenAI, Jekyll, Liquid, Templates, Journal.md, Post.date, Title, Slug, Permalink, Chopchop.py, Delete_me, Parse, Write, Index, Page, Countdown, List, Push, Github, Repository
-categories: jekyll, ai, journal.md, seo, liquid, git
+categories: jekyll, seo, liquid, ai, git, journal.md
 permalink: /blog/working-on-alternate-headline-leads-to-installing-jekyll-local/
 layout: post
 group: blog
@@ -540,13 +540,13 @@ fig("Done")
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-vs-kmeans-for-keyword-clustering/">OpenAI Vs. KMeans for Keyword Clustering</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-alternate-headline-leads-to-installing-jekyll-local/">Working on Alternate Headline Leads to Installing Jekyll Local</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline/">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/liquid/'>Liquid</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/journal-md/'>Journal.md</a></h4></li></ul>

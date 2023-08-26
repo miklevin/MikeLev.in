@@ -37,7 +37,7 @@ project as just that initial kernel. Then start building on each. And the
 nature of that kernel is important. You know enough to do it well now.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-modestly-ponders-changing-expectations-in-search-industry/">Bing Modestly Ponders Changing Expectations in Search Industry</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-cope-thrive-through-ai-induced-existential-crisis/">How To Cope & Thrive Through AI-Induced Existential Crisis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/addictive-self-reinforcing-double-helix-pair-of-motivating-projects/">Addictive & Self-Reinforcing Double-Helix Pair of Motivating Projects</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage/">Clarified Linux, Python, vim & git Mission on Homepage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

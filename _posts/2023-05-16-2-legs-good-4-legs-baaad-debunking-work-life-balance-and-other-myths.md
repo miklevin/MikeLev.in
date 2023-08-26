@@ -4,7 +4,7 @@ title: "2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths"
 headline: I'm Debunking Myths and Experiencing the Rewards of AI Along the Way.
 description: Discover how to achieve a successful lack-of work/life balance, debunking the myths and understanding the power of persuasion. Learn how to use AI to your advantage while still exercising creativity and free will. Get tips on how to be a successful your prickly self and still build credibility with journal-style writing.
 keywords: work/life balance, Robert Cialdini, Influence, Power of Persuasion, GitLab, AI, AI goldrush, Ironman, Iron Dome, MOZ, Microsoft Word, Excel, Panda, Python, Vlookup, ETLs, imposter syndrome, Computer Age, Information Age, Batman, Adam West, Caesar Romero, Burgess Meredith, Frank Gorshin, Julie Newmar, Eartha Kitt, Lee Meriwether, Yvonne Craig, Burt Ward
-categories: ai, imposter syndrome, seo, python, panda
+categories: panda, python, imposter syndrome, seo, ai
 permalink: /blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/
 layout: post
 group: blog
@@ -227,12 +227,12 @@ very seldom take it.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/perhaps-i-made-the-wrong-turn-at-albuquerque/">Perhaps I Made The Wrong Turn at Albuquerque</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/">A Lesson from Stan Lee: It's Never Too Late to Become a Superhero</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

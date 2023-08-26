@@ -85,7 +85,7 @@ from API documentation, it might not work right away, but at least I'm
 debugging my own code, based on more recent documentation to boot!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-road-to-microsoft-semi-independence/">The Road to Microsoft Semi-Independence</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-crazy-old-batch-files-were-right/">The Crazy Old Batch Files Were Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/numbering-weeks-from-utc-zero-vs-your-birthday/">Numbering Weeks from UTC-Zero Vs. Your Birthday</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/where-to-begin-pickle-your-dicts/">Where to Begin? Pickle Your Dicts!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

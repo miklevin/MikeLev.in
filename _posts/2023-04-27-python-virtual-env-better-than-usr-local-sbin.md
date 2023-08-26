@@ -249,7 +249,7 @@ git_push()
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-an-advice-from-openai-field-to-my-journal/">Adding an Advice From OpenAI Field to my Journal</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/indomitable-spirit/">Indomitable Spirit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-virtual-env-better-than-usr-local-sbin/">Python Virtual Env Better Than /usr/local/sbin</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/levinux-pipulate-yamlesque/">Levinux, Pipulate & YAMLesque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

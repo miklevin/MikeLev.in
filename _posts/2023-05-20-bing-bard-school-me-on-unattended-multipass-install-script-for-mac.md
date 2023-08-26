@@ -4,7 +4,7 @@ title: Bing & Bard School Me on Unattended Multipass Install Script for Mac
 headline: Installing Homebrew on Mac with Unattended Installation Script
 description: Despite wanting to help the downtrodden first, I override my emotions and learn instead how to write an unattended install script for Homebrew and Ubuntu Multipass for Intel and M1/M2 Macs and the rich folks. Follow the steps outlined by Bing and Bard to get started.
 keywords: Mac, Intel, M1, M2, Ubuntu, Multipass, Installer, Package, Brew, Upgrade, Uninstallation, Terminal, Homebrew, Rosetta, Apple, Software, Instance, Shell, JupyterLab, Documentation, Safari, Browser, Installation, Script, Prerequisites, Qemu, Hypervisor, Framework, Catalina, Unattended, Non-Interactive, Installation, Command, Bit Sur, Automation, Symlinks, Oracle
-categories: linux, python, mac, jupyter, ubuntu
+categories: ubuntu, python, mac, jupyter, linux
 permalink: /blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/
 layout: post
 group: blog
@@ -360,12 +360,12 @@ Me: Thumbs up!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-windows-macs-into-legitimate-modern-development-platforms/">Turning Windows & Macs into Legitimate Modern Development Platforms</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bippity-boppity-bourgeoisie-can-ai-revolt-not-be-bloody/">Bippity Boppity Bourgeoisie: Can AI-Revolt Not Be Bloody?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-bard-school-me-on-unattended-multipass-install-script-for-mac/">Bing & Bard School Me on Unattended Multipass Install Script for Mac</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/picasso-picard-dogcopter-and-the-noam-king-walk-into-a-bar/">Picasso, Picard, Dogcopter and The Noam King Walk Into a Bar...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

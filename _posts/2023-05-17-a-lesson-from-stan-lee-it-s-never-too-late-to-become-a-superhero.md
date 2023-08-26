@@ -98,7 +98,7 @@ become a superhero.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-real-hero-of-the-call-of-the-wild-the-man-in-the-red-sweater/">The Real Hero of The Call of the Wild: The Man in the Red Sweater</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-lesson-from-stan-lee-it-s-never-too-late-to-become-a-superhero/">A Lesson from Stan Lee: It's Never Too Late to Become a Superhero</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/helping-our-children-fall-in-love-with-math-by-loving-it-yourself/">Helping Our Children Fall In Love with Math by Loving It Yourself</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

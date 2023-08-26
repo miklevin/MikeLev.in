@@ -4,7 +4,7 @@ title: Write Python Function for Blog Previous Next Arrows
 headline: I wrote a Python Function to Create Blog Previous/Next Arrows!
 description: "I wrote a Python function to create blog navigation arrows. It takes the index position and length of a sequence, as well as a list of tuples containing hrefs and titles, and returns HTML for the prev/next arrows. This is now live on my category pages and I'm ready to add it to my Jekyll `_posts` pages too."
 keywords: Python, Function, Blog, Previous, Next, Arrows, Jekyll, Config, YML, File, Digital, World, Capitalization, Categories, Pages, Filtering, Homeschooling, Pandemic, Internet, ChatGPT, Crypto-Bros, Auto-Complete, Tech, Journal, Environment, Organizing, Pre-Processing, Transformation, Static, Site, Generators, Hugo, Script, Reading, Sequence, Linear, Flow, Responsibilty, Kid,
-categories: jekyll, flow, python, ai
+categories: flow, python, jekyll, ai
 permalink: /blog/write-python-function-for-blog-previous-next-arrows/
 layout: post
 group: blog
@@ -320,11 +320,11 @@ Okay, it looks great. On the category pages, I have the occasional hanging
 `<ol>` showing up, but I'll fix that later. Call this released!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/openai-codex-api-cost-getting-started-usage-pattern/">OpenAI Codex API Cost Getting Started Usage Pattern</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-railing-yourself-after-getting-derailed-in-life/">Re-Railing Yourself After Getting Derailed In Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/write-python-function-for-blog-previous-next-arrows/">Write Python Function for Blog Previous Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/embrace-displace-embrace-a-new-place-wsl2-linux/">Embrace & Displace --> Embrace a New Place (WSL2 Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/flow/'>Flow</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

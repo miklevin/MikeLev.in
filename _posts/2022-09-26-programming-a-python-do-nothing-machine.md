@@ -4,7 +4,7 @@ title: Programming a Python Do Nothing Machine
 headline: Exploring the Possibilities of a Python Do Nothing Machine
 description: I'm writing a program in Python to create a Do Nothing Machine. Using a command-line, I'm coding a loop that will run until a particular file is removed. The loop will print out the number of seconds it has been running, and once the file is removed, it will print 'Need new IP' and create a new file to reset the counter. Follow my journey as I create this program and explore the possibilities of the Do Nothing Machine.
 keywords: Python, Programming, Do Nothing Machine, Command-Line, Loop, File, Remove, Seconds, Counter, Create, Program, Possibilities, Journey
-categories: coding, linux, python, loop
+categories: coding, loop, python, linux
 permalink: /blog/programming-a-python-do-nothing-machine/
 layout: post
 group: blog
@@ -99,11 +99,11 @@ while True:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-cycling-ips-on-hma-vpn-using-pywinauto/">Automating Cycling IPs on HMA VPN Using PyWinAuto</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/serp-scraping-with-site-search-modifier-and-custom-date-range/">SERP Scraping with site Search Modifier and Custom Date Range</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/loop/'>Loop</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/loop/'>Loop</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -24,7 +24,7 @@ the big questions. Reverting to quantum effects is a sort of regression, but
 it's what's used for life. The way chlorophyll works is a great example.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/start-documenting-my-best-tricks-on-this-site/">Start Documenting My Best Tricks On This Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/october-first-no-gamma-burst-so-far-so-good/">October First No Gamma Burst... So Far So Good.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/okay-i-ll-bite-could-quantum-mechanics-be-related-to-remote-viewing/">Okay, I'll Bite. Could Quantum Mechanics Be Related to Remote Viewing?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

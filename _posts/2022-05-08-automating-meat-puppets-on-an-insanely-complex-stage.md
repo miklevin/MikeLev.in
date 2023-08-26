@@ -4,7 +4,7 @@ title: Automating Meat Puppets On an Insanely Complex Stage
 headline: "Controlling My Reality Through Automation: A Journey of Writing and Self-Awareness"
 description: I have created a system for releasing my writing to the public, using Github Pages, Python, bash scripts, and markdown. Writing takes discipline and commitment, and I have to be an objective observer, often putting myself in the mind of an opposing character - the 'lizard-brain' - to gain insight. My awareness is a feedback loop, allowing me to keep a calculated version of the world in my head, like a puppet on a stage. Read my blog post to learn more about
 keywords: Automating, Meat Puppets, Insanely Complex Stage, Github Pages, Python, Bash Scripts, Markdown, Discipline, Commitment, Objective Observer, Lizard-Brain, Awareness, Feedback Loop, Simulated World, Objective Reality, Puppet, Stage
-categories: jekyll, python
+categories: python, jekyll
 permalink: /blog/automating-meat-puppets-on-an-insanely-complex-stage/
 layout: post
 group: blog
@@ -89,9 +89,9 @@ vastly simplified interfaces, a sort of meat-puppet on an insanely complex
 stage.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/automating-meat-puppets-on-an-insanely-complex-stage/">Automating Meat Puppets On an Insanely Complex Stage</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/roomba-poobah-applesauce/">Roomba Poobah Applesauce</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

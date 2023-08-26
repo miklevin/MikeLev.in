@@ -4,7 +4,7 @@ title: From Zero (Windows) to Linux In 8 Steps
 headline: Make the Switch from Windows to Linux with My 8 Step Video Series!
 description: I'm creating a series of videos to help people transition from Windows to Linux, covering topics such as uninstalling OneDrive, unpinning the taskbar, changing settings and personalization, turning off notifications and weather, and more. Plus, I'll show you what installing Linux on a Windows 10 computer looks like. Click through to find out more!
 keywords: Windows, Linux, Uninstalling, OneDrive, Taskbar, Settings, Personalization, Notifications, Weather, Installing, Tiles, Start Menu, Cortana, Keyboard Shortcuts, Virtual Desktops, Icons, Flow, Transition
-categories: linux, setting, microsoft, flow
+categories: microsoft, flow, setting, linux
 permalink: /blog/from-zero-windows-to-linux-in-8-steps/
 layout: post
 group: blog
@@ -97,11 +97,11 @@ thus breaking out and blowing up on YouTube and other outlets.
 {% include youtubePlayer.html id="5DNtKVNqrno" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fight-the-chaos-of-windows-10-use-virtual-desktops-linux/">Fight the Chaos of Windows 10 : Use Virtual Desktops & Linux</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-ready-to-teach-installing-jupyter-right/">Getting Ready to Teach Installing Jupyter Right</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-zero-windows-to-linux-in-8-steps/">From Zero (Windows) to Linux In 8 Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thinking-through-jupyter-video/">Thinking Through Jupyter Video</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/setting/'>Settings</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/flow/'>Flow</a></h4></li></ul>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/setting/'>Settings</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

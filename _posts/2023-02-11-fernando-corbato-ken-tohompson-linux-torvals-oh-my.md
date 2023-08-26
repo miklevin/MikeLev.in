@@ -4,7 +4,7 @@ title: Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!
 headline: "Explore my Linux Wonderland: A Journey Inspired by Fernando Corbato, Ken Thompson, and Linus Torvalds"
 description: "Explore my Linux Wonderland, an idea inspired by the individuals who made star-nix possible: Fernando Corbato, Ken Thompson, and Linus Torvalds. I'm creating projects under starnix, doing long-running scripts that run in the context of Linux services called daemons. See how this approach to tech is now as big as webdev, thanks to the Windows Subsystem for Linux, W. Come join me on this journey!"
 keywords: Fernando Corbato, Ken Thompson, Linus Torvalds, Linux, star-nix, Starnix, Daemons, Webdev, Windows Subsystem for Linux, W, Homepage, Projects, Scripts, Services, Journey, Tech, Idea
-categories: linux, python, wsl, journaling
+categories: wsl, journaling, python, linux
 permalink: /blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/
 layout: post
 group: blog
@@ -56,11 +56,11 @@ It's not quite Vista-level, but Windows 11 is blech! And so WSLg backports to
 Windows 10, and so now everybody can [Drink Me](https://mikelev.in/drinkme).
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/advice-how-to-incubate-ai-at-home-from-chatgpt/">Advice How to Incubate AI at Home From ChatGPT</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-penguin-turns-and-says-to-the-other-you-know-it-s-funny/">One Penguin Turns and Says to The Other, You Know It's Funny...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fernando-corbato-ken-tohompson-linux-torvals-oh-my/">Fernando Corbato, Ken Tohompson & Linux Torvals, Oh My!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-chatgpt-s-help-transitioning-from-seo-to-data-engineer/">Getting ChatGPT's Help Transitioning From SEO To Data Engineer</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -39,7 +39,7 @@ transitions... oh,and when they stop lying about WSL supporting Linux graphics
 under Windows 11. It doesn't. I was almost fooled... again.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/teach-your-spouse-vim-on-windows-linux-wsl/">Teach Your Spouse vim on Windows Linux (WSL)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/righteous-feedback-loops-of-self-improvement/">Righteous Feedback Loops of Self-Improvement</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived/">It's Time Someone Stood Up To You... And Survived</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

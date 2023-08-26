@@ -4,7 +4,7 @@ title: Consolidating MyKoz.AI Journaling System Under One Repo
 headline: "Journaling MyKoz.AI: Consolidating All Repos Under One Roof"
 description: "This post is about consolidating the MyKoz.AI journaling system under one repository. I discuss the need to update the `.bash_profile` to include `sudo hwclock -s`, the need to create a `README.txt` file, and the decision to use one repo with the folders Intro, Journal, Practice, and Service. This is the preparatory work before MyKoz.AI can really be soft-launched. These repo's and particularly the Journaling system need to be in-place."
 keywords: MyKoz.AI, Journaling, System, Repo, Bash_profile, WSL2, Linux, Clock, Terminals, Windows, Host, Sleep, ToDo, README, JypyterLab, F5, Intro, Whim, Repos, Initial Caps, Python, Packaging, Convention, Nbdev, Practice, Service, Alphabetize, Directory, YAMLChop, Pipulate, Levinux, Publish, Generic, Boot,
-categories: levinux, wsl, linux, pipulate, python, microsoft, nbdev, publish, journaling
+categories: microsoft, journaling, python, pipulate, wsl, nbdev, levinux, publish, linux
 permalink: /blog/consolidating-mykoz-ai-journaling-system-under-one-repo/
 layout: post
 group: blog
@@ -120,16 +120,16 @@ repo. That's a good idea. I'll do that.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/">Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
 <li><h4><a href='/publish/'>Publish</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

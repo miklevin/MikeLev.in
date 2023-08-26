@@ -203,7 +203,7 @@ geogalactic stability in light of the blight.
 Hmmmm.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-do-i-not-have-a-portable-power-station-already/">How Do I Not Have a Portable Power Station Already?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/reversing-desensitization-and-dehumanization/">Reversing Desensitization And Dehumanization</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-dark-energy-consciousness-choosing-gated-communities-over-heat-death/">Is Dark Energy Consciousness Choosing Gated Communities Over Heat Death?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

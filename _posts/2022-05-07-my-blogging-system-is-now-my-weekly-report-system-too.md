@@ -175,7 +175,7 @@ Double-click browsme.html, copy/paste from browser (local machine!) to email.
 Add title and greetings. Hit send. Weekly report sent and killer system in
 place to make it flow along with all the rest of my vimmy vim vimminess! Woot!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

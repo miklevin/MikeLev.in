@@ -126,7 +126,7 @@ Source: Conversation with Bing, 3/3/2023
     (6) Harvard Tech for Social Good. https://socialgood.hcs.harvard.edu/ Accessed 3/3/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-won-t-write-story-about-excessively-biased-chatbot/">Bing Won't Write Story About Excessively Biased ChatBot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/">Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently Proved</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

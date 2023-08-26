@@ -4,7 +4,7 @@ title: Secure a Home Server For AI at Home
 headline: "Gain Tech Literacy: Setting Up a Home Server for AI"
 description: I'm encouraging people to gain tech literacy by setting up a home server for AI. I'm offering advice on how to do this, including using Microsoft Word or Google Docs, Linux, Python, vim, git, Edge, htmx, and a lightweight JavaScript framework like Alpine. I'm also discussing Microsoft's Prometheus model and the GPT3 ChatGI, and how to set up a server to help kickstart creating content.
 keywords: Home Server, AI, Tech Literacy, Microsoft Word, Google Docs, Linux, Python, vim, git, Edge, htmx, JavaScript, Alpine, Prometheus Model, GPT3 ChatGI, FOSS SEO Software
-categories: google, ai, vim, linux, javascript, python, git
+categories: vim, javascript, python, google, git, ai, linux
 permalink: /blog/secure-a-home-server-for-ai-at-home/
 layout: post
 group: blog
@@ -36,14 +36,14 @@ Microsoft's making a brilliant move. One can only wait with baited breadth knowi
 You need a server, my friend. It'd needs to be running on your behalf, 24x7, preferably free from cloud dependencies. We're going to start it out as the second daemon we set running on the drinkme Pipulate server. Mayvbe I should document that on the install.bat file, hoe it builds a Pipulate server. Start spreading the FOSS SEO software message right there.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figure-out-why-vim-journaling-is-an-asset/">Figure Out Why vim Journaling is an Asset</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/plotting-a-post-scarcity-future-for-humanity-with-chatgpt/">Plotting a Post-Scarcity Future for Humanity with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/secure-a-home-server-for-ai-at-home/">Secure a Home Server For AI at Home</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ontherise-ai-registered-about-to-be-launched/">OnTheRise.AI Registered & About To Be Launched</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

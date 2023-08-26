@@ -158,7 +158,7 @@ The quantum Zeno effect
 If you want me to explain any of these experiments or alternatives, please let me know.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/">Which Are The Least Credible Voices In The UFO / UAP Space?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-is-the-best-thing-i-can-do-for-moz-as-a-subject-matter-expert/">What is the best thing I can do for Moz as a subject matter expert?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

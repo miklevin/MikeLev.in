@@ -4,7 +4,7 @@ title: Getting the MyKoz.AI Blog Publishing System Into Better Shape
 headline: I'm refining MyKoz.AI Blog Publishing System for Prime-Time
 description: This is a discussion of my improvements to the blog publishing system built into MyKoz.AI to make it easier for new users. I'm doing life-hacks to stay focused and build new productive habits.
 keywords: MyKoz.AI, Blog, Publishing, System, YAMLChop, Github, Stars, Levinux, journal, repo, vim, buffers, editing, tension, machinery, momentum, life, OpenAI, subhead, description, keywords, site, categories, tags, search
-categories: search, levinux, ai, vim, seo, git
+categories: vim, search, seo, git, ai, levinux
 permalink: /blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/
 layout: post
 group: blog
@@ -95,13 +95,13 @@ this blog post as I let OpenAI create the subhead, description and keywords.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/">Getting the MyKoz.AI Blog Publishing System Into Better Shape</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recording-the-subtleties-of-settling-into-reset-laptop/">Recording the Subtleties of Settling Into Reset Laptop</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>

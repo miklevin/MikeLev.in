@@ -4,7 +4,7 @@ title: Evolution Tortoise to Meet Our AI Overlords Before They Meat Us
 headline: "Discovering Life's Lessons Through Sci-Fi: My Journey to AI Overlordship"
 description: I'm a Sci-Fi fanboy who has been preparing all my life for the day when AI will meet us. I discuss the lessons I've learned from books such as The Circle, Diamond Age, Brave New World, and 1984, and how the Big Tech companies are manipulating us. I also talk about the importance of understanding and controlling technology, and how to prepare for the day of reckoning.
 keywords: SEO, Writing, Journals, Digital, Google Books, The Circle, Lily-Ray, Flying Point Digital, 360i, Dentsu, Brian Weiner, Sarah Hofstetter, Brandon Heagle, Ready Player One, Star Wars, Boris Zilberman, Diamond Age, Big Bang Theory, James Webb Space Telescope, AI, Copilot, OpenAI, Iain M. Banks, Culture, Asimov, John Wheeler, Richard Feynman, Claude Shannon, Alan Turing, John
-categories: ai, seo
+categories: seo, ai
 permalink: /blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/
 layout: post
 group: blog
@@ -351,9 +351,9 @@ introducing a linear aspect in a circular symbol. It's a continuum thing.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/perhaps-i-made-the-wrong-turn-at-albuquerque/">Perhaps I Made The Wrong Turn at Albuquerque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

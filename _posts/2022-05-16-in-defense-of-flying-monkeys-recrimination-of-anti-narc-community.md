@@ -190,7 +190,7 @@ a good tool no matter how bad a misnomer. And really, maybe I just like saying
 much maligned monkey moniker misnomer. Peace, out my narcissistic but
 open-minded friends. If you reached this far, there's hope.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-kick-that-football-charlie-brown/">Don't Kick That Football, Charlie Brown!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/in-defense-of-flying-monkeys-recrimination-of-anti-narc-community/">In Defense of Flying Monkeys & Recrimination of Anti-Narc Community</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/">When I Grew a Backbone, Story of The Samurai Mudskipper</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/honestly-fonzie/">Honestly, Fonzie</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

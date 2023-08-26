@@ -88,7 +88,7 @@ Github Settings where my mouth is.
 > But to do recalibration will reduce a lot of pain.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline/">Challenging OpenAI to Write a Better Subhead Than this Headline</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-python-packaging-for-seo-deliverable/">Planning Python Packaging for SEO Deliverable</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements/">Allow GitHub To Use My Code Snippets For Product Improvements</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-how-openai-couldn-t-format-keywords-consistently/">Fixing How OpenAI Couldn't Format Keywords Consistently</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

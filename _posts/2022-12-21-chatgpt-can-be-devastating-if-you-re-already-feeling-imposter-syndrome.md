@@ -73,7 +73,7 @@ conversationally based. You talk code into existence in Jupyter (without paying
 cloud services). There's an unlikely but potentially popular and soul-cleansing
 path here. Articulate it and promote it.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-analytics-ga4-api-access-will-be-my-first-project-for-pipulate/">Google Analytics GA4 API Access Will Be My First Project for Pipulate</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-preparing-for-ga4mageddon-how-to-use-the-ga4-api-with-python/">Are You Preparing for GA4mageddon? How To Use The GA4 API With Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

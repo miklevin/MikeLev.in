@@ -4,7 +4,7 @@ title: Harmonizing a Windows-side Python Script with a Linux-side Python Script
 headline: "Tackling a Complex Project: How I Harmonized a Windows-side Python Script with a Linux-side Python Script"
 description: I recently completed a project on JupyterLab, LXD, and WSL that required 60K queries and the use of a VPN and Windows desktop client. To make the process easier, I created a Python-side script to check for the existence of a file. Read my blog post to find out how I tackled this complex project!
 keywords: Windows, Linux, Python, Script, JupyterLab, LXD, WSL, VPN, Windows Desktop Client, PyWinAuto, Automation, File, Existence
-categories: wsl, linux, python, microsoft, jupyter, container
+categories: microsoft, container, python, wsl, jupyter, linux
 permalink: /blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/
 layout: post
 group: blog
@@ -35,13 +35,13 @@ all from the Microsoft Store and see what happens. As of the time of writing
 this, it's Python 3.10.7 from the store.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/october-first-no-gamma-burst-so-far-so-good/">October First No Gamma Burst... So Far So Good.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-walrus-the-carpenter-who-had-trouble-getting-to-solla-sollew/">The Walrus & The Carpenter Who Had Trouble Getting to Solla Sollew</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/harmonizing-a-windows-side-python-script-with-a-linux-side-python-script/">Harmonizing a Windows-side Python Script with a Linux-side Python Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/tried-to-start-a-project/">Tried To Start a Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

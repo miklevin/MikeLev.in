@@ -118,7 +118,7 @@ Okay, this post shall receive the title "Operation Act Together", a double
 entendre. Let's see what happens.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/levinux-pipulate-yamlesque/">Levinux, Pipulate & YAMLesque</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/dropping-openai-advice-field-adding-question-field/">Dropping OpenAI Advice field, Adding Question field</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/operation-act-together/">Operation Act Together!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chip-chop-chip-chop-top-10-done/">Chip, Chop, Chip, Chop, Top-10 Done</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: First Day on New Job & I Throw Out My Back!
 headline: 25 Years of Tech Experience Leads to New Job at Moz.com
 description: I'm a 52 year old SEO expert who has been working in the tech industry for over 25 years. After working at a spin-off of Commodore and a PR company in NYC, I created the Web 2.0-era writing suggestion tool HitTail. I have since done interesting things such as crawling websites directly into Google Docs with API-joins. Today, I'm starting a new journey as an employee of Moz.com and am excited to use my skills and experience.
 keywords: SEO, Web 2.0, Writing Suggestion Tool, HitTail, Content-Management System, Tracking-Gif System, Messageboard System, Public Relations, Python, Linux, Vim, Git, Macbook Pro, Amiga, Commodore, 360i, Google Docs, API-Joins, NYC, Reddit, Mozilla, Employee, Tech Industry, Search, Reputation-Building
-categories: new york city, google, search, vim, linux, seo, amiga, python, git
+categories: vim, search, amiga, python, new york city, google, seo, git, linux
 permalink: /blog/first-day-on-new-job-i-throw-out-my-back/
 layout: post
 group: blog
@@ -182,16 +182,16 @@ So I'm settling into a circa 2020 Macbook Pro. Interesting. Whereas my Windows
 laptop went with the camera to unlock, my Mac is starting with fingerprint.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/microsoft-is-disincentivizing-installing-chrome-changing-default-search/">Microsoft is disincentivizing Installing Chrome & Changing Default Search</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-iron-is-hot-for-my-love-of-tech-book/">The Iron is Hot for My Love-Of Tech Book</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/first-day-on-new-job-i-throw-out-my-back/">First Day on New Job & I Throw Out My Back!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/day-3-at-moz/">Day 3 at MOZ</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

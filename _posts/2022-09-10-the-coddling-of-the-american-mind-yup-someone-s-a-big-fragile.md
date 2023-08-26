@@ -121,7 +121,7 @@ serious and deadly drained. Let them know their best ain't enough to take you
 down, then learn from your experience with them and move on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/writing-first-version-of-install-scripts-for-jupyter-on-lxd-on-wsl/">Writing First Version of Install Scripts for Jupyter on LXD on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-people-know-how-you-feel/">Let People Know How You Feel</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-coddling-of-the-american-mind-yup-someone-s-a-big-fragile/">The Coddling Of The American Mind. Yup. Someone's a Big Fragile.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recovering-old-laptops-for-video-production-purposes/">Recovering Old Laptops For Video Production Purposes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

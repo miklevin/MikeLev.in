@@ -4,7 +4,7 @@ title: Eliezer Yudkowsky, I Just Don't Agree With You
 headline: Exploring the Potential of Intelligent Amplification and the Possibilities of AI Evolution
 description: Explore the idea of intelligent amplification and the potential of AI with this blog post. Learn about the implications of the Cambrian explosion and the possibility of an AI apocalypse. Discover how to improve website user experience by extracting cohesive linear topical sequences.
 keywords: Eliezer Yudkowsky, AI, Machine Children, Dune, ExForce, Superintelligence, Turing Test, Generative AI Artwork, Sentiment Analysis, Computer Vision, Value Proposition, User Experience, Linear Sequences, Organizing Information, Core Principles, Decision-Making, Boredom, Human-Chosen Goals, Reinforcement Algorithms, Subjective Experience, Artificial Intelligence, Nash Equilibrium, Void of Boredom, Journaling, Subconscious
-categories: ai, journaling
+categories: journaling, ai
 permalink: /blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/
 layout: post
 group: blog
@@ -94,9 +94,9 @@ Didn't I start this post as how to improve my website's user experience by extra
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reverse-chronological-writing-is-the-natural-order/">Reverse Chronological Writing is the Natural Order</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/">Editing Text As a Form of Meditation or Martial Arts Kata</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/eliezer-yudkowsky-i-just-don-t-agree-with-you/">Eliezer Yudkowsky, I Just Don't Agree With You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

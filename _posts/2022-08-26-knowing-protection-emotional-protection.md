@@ -60,7 +60,7 @@ given in life. You were born somewhere into the social hierarchy of a tribal
 society of probably around 100 creatures, not too dissimilar from chimps.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-the-lpvg-message-on-point-with-a-series-of-1-minute-videos/">Get the LPvg Message On-Point with a series of 1-minute videos</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/plot-the-awakening-rig-for-youtube-success/">Plot The Awakening / Rig For YouTube Success</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/knowing-protection-emotional-protection/">Knowing Protection & Emotional Protection</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-cha-gonna-do-when-you-re-fifty-two/">What'cha Gonna Do When You're Fifty Two?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

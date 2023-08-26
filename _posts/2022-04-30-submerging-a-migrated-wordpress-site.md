@@ -4,7 +4,7 @@ title: Submerging A Migrated WordPress Site
 headline: "Migrating My WordPress Blog to Jekyll: Fixing Broken Picture Links Along the Way"
 description: I'm in the midst of migrating my WordPress blog to Jekyll and am running into a few issues. I'm moving the index.md file, making a subfolder, and renaming the file to index.md. While I've brought my old homepage back to life, I'm now dealing with broken picture links that I must fix. Follow my journey as I work through this process.
 keywords: Migrating, WordPress, Jekyll, index.md, Subfolder, Renaming, Broken Picture Links, Site Hierarchy, Shell Commands, Homepage, Fixing
-categories: jekyll, wordpress
+categories: wordpress, jekyll
 permalink: /blog/submerging-a-migrated-wordpress-site/
 layout: post
 group: blog
@@ -49,9 +49,9 @@ and rename it as index.md. That should bring my old homepage back alive in a
 subfolder. It did, but all the picture links broke. Fix them...
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-project-gets-done/">Every Little Project Gets Done!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/stop-using-stop-words-when-they-reverse-meaning/">Stop Using Stop-Words When They Reverse Meaning</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

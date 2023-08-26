@@ -185,7 +185,7 @@ Source: Conversation with Bing, 3/7/2023
     (4) [2010.01324] Superdeterminism: A Guide for the Perplexed - arXiv.org. https://arxiv.org/abs/2010.01324 Accessed 3/7/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-epigenetics-consciousness-non-locality-with-the-new-big-ai/">Exploring Epigenetics, Consciousness & Non-Locality With The New Big AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-nomadic-robotic-cozy-hove-abode/">The Nomadic Robotic Cozy Hove Abode</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-for-extra-dimensions-or-non-locality-with-quantum-computers/">Testing For Extra Dimensions Or Non-Locality With Quantum Computers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

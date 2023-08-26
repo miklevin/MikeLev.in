@@ -33,7 +33,7 @@ leads to a Bing chat, intentionally or not? Let's take a look:
 ![Paths Into Bing Chat After Non URL Address Bar Input](/assets/images/Paths-into-bing-chat-after-non-URL-address-bar-input.png)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vlogigng-from-bing-and-vim-to-youtube-and-github-pages/">Vlogigng from Bing and vim to YouTube and Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/">How many roads must a man walk down before Microsoft gets you to Bing?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-modestly-ponders-changing-expectations-in-search-industry/">Bing Modestly Ponders Changing Expectations in Search Industry</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

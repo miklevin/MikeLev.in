@@ -4,7 +4,7 @@ title: "Re-Defining SEO: The Impending Tech Flood and How To Survive It"
 headline: "Surviving the Impending Tech Flood: My Journey to Re-Defining SEO"
 description: As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.
 keywords: SEO, Gerard Bucas, Scala, Web Sales Funnel, Public Relations, Vice President, Culture, Capitalism, Linux, Python, Vim, Git, Windows, Noah's Ark, Search Wars, WebCrawler, AltaVista, Chatbots, ChatGPT, OpenAI, Clippy, Microsoft, Google, AdWords, Long Tail, Made Men, Markdown Code, SGE, Universal Search, Search Generative Experience, Disruption, Ark, MyKoz.
-categories: google, ai, vim, linux, seo, python, microsoft, git
+categories: microsoft, vim, python, google, seo, git, ai, linux
 permalink: /blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/
 layout: post
 group: blog
@@ -174,15 +174,15 @@ them. Just adapt in ways that make you survive the flood &#151; and hopefully
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/">Getting the MyKoz.AI Blog Publishing System Into Better Shape</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme
 headline: My Website, MikeLev.in, Re-Connected to Github Pages with Proper Color-Coding
 description: I recently changed the theme of my website, MikeLev.in, and had to make some tweaks to get the programming code color-coding working properly. After some research, I found the .css file I needed and made one entry in my style.css file. With these changes, the fancy color-coding is now working on my website.
 keywords: Jekyll, Rouge, Code, Color-Coding, Github, Pages, Theme, CSS, Website, MikeLev.in, Hacker, Styles.scss, Imports, Fancy
-categories: jekyll, git
+categories: git, jekyll
 permalink: /blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/
 layout: post
 group: blog
@@ -54,9 +54,9 @@ if I find too much stuff indented:
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/knowing-what-gnu-screen-you-re-on-with-screenrc/">Knowing what GNU screen you're on with .screenrc</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-you-still-really-need-windows-switching-to-linux-in-2022/">Do You Still Really Need Windows? Switching To Linux in 2022</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

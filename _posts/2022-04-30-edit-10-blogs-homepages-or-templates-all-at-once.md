@@ -72,7 +72,7 @@ Hmm, nope. It should be a wholly separate post that I put over there on
 Pythonic Ally site.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/submerging-a-migrated-wordpress-site/">Submerging A Migrated WordPress Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/edit-10-blogs-homepages-or-templates-all-at-once/">Edit 10 Blogs, Homepages or Templates All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moved-whatsametafor-io-blog-content-here/">Moved WhatsaMetaFor.io Blog Content Here</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-prev-next-arrows-to-github-pages-jekyll-blog-posts/">Adding Prev/Next Arrows to Github Pages Jekyll Blog Posts</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

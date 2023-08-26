@@ -4,7 +4,7 @@ title: Are You An Imposter? Have You Heard of Imposter Syndrome?
 headline: "Exploring Tech and Info Tech: Join Me on My Journey to Make My Home Cozy and Inviting"
 description: As a New York SEO expert, I'm making my home cozy and inviting while encouraging people to familiarize themselves with tech and info tech. I'm leveraging my two domains, Pipulate and Levinux, and discussing imposter syndrome and how financial worth isn't a measure of someone's validity. Join me in my journey as I explore the world of tech and info tech and learn how to make your home cozy and inviting.
 keywords: New York SEO, Pipulate, Levinux, Imposter Syndrome, Financial Worth, Tech, Info Tech, Cozy Home, Inviting, Diagrams, Lists, Open Source SEO Software, Products, Transition, Explore, Validity
-categories: imposter syndrome, levinux, pipulate
+categories: levinux, pipulate, imposter syndrome
 permalink: /blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/
 layout: post
 group: blog
@@ -69,10 +69,10 @@ We definitely want to talk about baby-steps, iterative passes, the 80/20-rule
 and rabbit hole detection and escaping. `
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/life-after-deluxepaint-and-the-amiga/">Life After DeluxePaint and The Amiga</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/down-with-long-tail-seo-and-up-with-best-foot-forward-seo-bff/">Down with Long-Tail SEO and up with Best Foot Forward SEO (BFF)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/">Are You An Imposter? Have You Heard of Imposter Syndrome?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-write-an-article-about-the-controversial-history-of-coke/">ChatGPT: Write an article about the controversial history of Coke.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/imposter-syndrome/'>Imposter Syndrome</a></h4></li></ul>

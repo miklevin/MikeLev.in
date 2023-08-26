@@ -22,7 +22,7 @@ put a user interface on it and deal with the unpredictability of humans.
 {% include youtubePlayer.html id="W7ZwEzsMSnY" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-macro-to-format-markdown-poetry/">vim Macro to Format Markdown Poetry</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/web-development-is-for-chumps-try-linux-services-instead/">Web Development is For Chumps. Try Linux Services, Instead.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-i-were-green-i-would-die-abba-di-abba-di/">If I Were Green I Would Die. Abba Di Abba Di.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

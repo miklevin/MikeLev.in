@@ -67,7 +67,7 @@ Now for the right kind of mind, that means Linux, Python, vim & git, and now I
 nearly have it packed up the way I like on an LXD container.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/visualizing-change-is-projecting-epigenetic-templates/">Visualizing Change is Projecting Epigenetic Templates</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxdwin-and-the-day-job/">LXDWIN and The Day Job</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/make-lxdwin-much-about-vim/">Make LXDWIN much about vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-total-life-s-work/">Planning Total Life's Work</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

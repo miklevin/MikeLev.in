@@ -4,7 +4,7 @@ title: Joining URLs across GA, GSC & Majestic
 headline: Embarking on a Data-Joining Adventure with Majestic SEO Link Data!
 description: I'm embarking on a project to create a master-list of URLs with Majestic SEO link data, using sqldict, list comprehensions, fstrings, JupyterLab, Linux, Windows, and async Python page-fetching. I'm using client.get(url) to retrieve data from a table, and have printed out the data to confirm it was correctly retrieved. Come join me on my journey!
 keywords: GA, GSC, Majestic, sqldict, list comprehensions, fstrings, JupyterLab, Linux, Windows, async, Python, page-fetching, client.get, url, responsedb, loop, store, retrieve, confirm
-categories: linux, python, microsoft, loop, jupyter
+categories: microsoft, loop, python, jupyter, linux
 permalink: /blog/joining-urls-across-ga-gsc-majestic/
 layout: post
 group: blog
@@ -146,12 +146,12 @@ with sqldict(responsedb) as db:
 And we're going to want to soup the shit of of this.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/automating-2fa-web-login-via-microsoft-playwright/">Automating 2FA Web Login via Microsoft Playwright</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/loop/'>Loop</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

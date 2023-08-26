@@ -4,7 +4,7 @@ title: Pipulate Free & Open Source SEO Software YouTube Reply
 headline: Develop Open-Source SEO Software with Me - Pipulate, Linux, Python, JupyterLab, and Raspberry Pi's!
 description: Join me in developing Pipulate, an open-source SEO software powered by Linux, Python, JupyterLab, and Raspberry Pi's. I'm creating a 24/7 service to do SERP scraping, HTML report emailing, and more. Plus, I'm working on a way to simplify the scripts and update the W - come join me!
 keywords: Pipulate, Free, Open Source, SEO, Software, YouTube, Reply, Linux, Python, JupyterLab, Raspberry Pi, 24/7 service, SERP scraping, HTML report emailing, Vim, VSCode, Paid Sources, Scripts, Update
-categories: linux, vim, seo, pipulate, open source, youtube, python, microsoft, jupyter
+categories: microsoft, vim, open source, python, youtube, seo, pipulate, jupyter, linux
 permalink: /blog/pipulate-free-open-source-seo-software-youtube-reply/
 layout: post
 group: blog
@@ -30,16 +30,16 @@ We'll, I'm wrapping Macs into the equation (a drinkme.sh for macs). I also want 
 Thoughts so far?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/consulting-with-the-new-bing-on-how-to-go-viral/">Consulting With The New Bing On How to Go Viral</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pipulate-free-open-source-seo-software-youtube-reply/">Pipulate Free & Open Source SEO Software YouTube Reply</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/compatible-linux-x-server-graphics-across-windows-mac/">Compatible Linux X Server Graphics Across Windows & Mac</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

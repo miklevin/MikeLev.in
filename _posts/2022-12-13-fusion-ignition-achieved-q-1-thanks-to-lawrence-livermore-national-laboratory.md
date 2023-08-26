@@ -23,7 +23,7 @@ energy. The societally transforming "free" part that puts us on the path to a
 post-scarcity society can be delayed a few decades if that's what it has to be.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/">With AI On The Way, You Had Better Be Able to Write Daemons</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/">Fusion Ignition Achieved! Q = 1 Thanks to Lawrence Livermore National Laboratory</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

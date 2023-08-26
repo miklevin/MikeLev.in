@@ -163,7 +163,7 @@ This has been Storytime with Mike Levin. [insert mic poem]
 🎤 💙in'
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/livestreaming-question-answers-with-youtube-audience/">Livestreaming Question & Answers With YouTube Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fixing-jupyter-desktop-set-python-environment-error-message/">Fixing Jupyter Desktop Set Python Environment Error Message</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

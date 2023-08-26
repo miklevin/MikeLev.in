@@ -123,7 +123,7 @@ Oh, capture John Henry:
     You can hear John Henry's hammer ring
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-tuple-keys/">An Ode Tuple Keys</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/deep-breath-before-keyword-histogram-clustering/">Deep Breath Before Keyword Histogram Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

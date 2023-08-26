@@ -4,7 +4,7 @@ title: Bring Back the Pipulate.com Website
 headline: Bringing Pipulate.com Back to Life with Python and FOSS SEO Software
 description: I'm bringing back Pipulate.com with a new version that's similar to MikeLev.in/index.md. I'm finally able to make my ideas on FOSS SEO software come to life using Python - the ultimate tool for SEO. Come check out my blog post to find out more!
 keywords: Pipulate.com, MikeLev.in, FOSS, SEO, Software, Python, Ultimate, Tool, Express, Ideas
-categories: python, seo
+categories: seo, python
 permalink: /blog/bring-back-the-pipulate-com-website/
 layout: post
 group: blog
@@ -46,9 +46,9 @@ to execute on a technical project that you have in your head and can express in
 great detail verbally
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-to-be-a-foss-seo-awesome-list-pre-installed-on-linux-server/">Pipulate to be a FOSS SEO Awesome List Pre-Installed on Linux Server</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bring-back-the-pipulate-com-website/">Bring Back the Pipulate.com Website</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-can-be-devastating-if-you-re-already-feeling-imposter-syndrome/">ChatGPT Can Be Devastating If You're Already Feeling Imposter Syndrome</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

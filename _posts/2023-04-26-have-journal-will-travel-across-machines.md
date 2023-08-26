@@ -129,7 +129,7 @@ Check, and check! Throw in a little Copilot and I'm back where I was. Woot!
 
 Let's publish this post just in satisfaction in this regard.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switching-hardware-as-a-diagnostic-step/">Switching Hardware as a Diagnostic Step</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/disabling-ai-auto-publishing-anything/">Disabling AI Auto-Publishing Anything</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/have-journal-will-travel-across-machines/">Have Journal Will Travel (across machines)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/neovim-publishing-macro-using-terminal-expand/">NeoVim Publishing Macro Using :terminal & expand()</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

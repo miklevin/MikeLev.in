@@ -4,7 +4,7 @@ title: Running Automated Script on NAS 24x7 Under LXD Container
 headline: "Learning LXD and Container Station: My Journey to Automate Tasks on my NAS 24x7!"
 description: I'm documenting my journey of learning about Container Station and LXD, and how I successfully set up a long-running script in a Linux Container on my QNAP NAS. I've already created two YouTube videos to document the process, and now I'm working on changing the script into a Python one and making it do something to remind me of something daily. Follow my journey and learn how to set up your own Linux Container!
 keywords: Container Station, LXD, lxc, QNAP NAS, automated script, long-running script, Linux Container, Python, YouTube, video, documentation, journey, learning
-categories: lxc, youtube, python, container
+categories: youtube, container, lxc, python
 permalink: /blog/running-automated-script-on-nas-24x7-under-lxd-container/
 layout: post
 group: blog
@@ -39,11 +39,11 @@ That went well but now we should make it do something to remind us. To keep
 pushing us to do something daily.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-little-abstraction-is-nice-but-too-much-will-paralyze-you/">A Little Abstraction Is Nice But Too Much Will Paralyze You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-need-a-personal-server-in-your-life-the-time-is-nigh/">You Need a Personal Server In Your Life & The Time is Nigh</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/running-automated-script-on-nas-24x7-under-lxd-container/">Running Automated Script on NAS 24x7 Under LXD Container</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-use-the-screen-command-for-linux-service/">How to Use the Screen Command for Linux Service</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/lxc/'>LXC</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/lxc/'>LXC</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

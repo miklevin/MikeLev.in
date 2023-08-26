@@ -159,7 +159,7 @@ Source: Conversation with Bing, 3/5/2023
     (6) Phys. Rev. D 78, 096009 (2008) - Schwinger mechanism and graphene. https://link.aps.org/doi/10.1103/PhysRevD.78.096009 Accessed 3/5/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/predicting-the-best-worst-most-likely-things-to-expect-from-ai/">Predicting The Best & Worst Most Likely Things To Expect From AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/">Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently Proved</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

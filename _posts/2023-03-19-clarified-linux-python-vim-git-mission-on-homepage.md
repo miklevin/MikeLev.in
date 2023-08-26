@@ -4,7 +4,7 @@ title: Clarified Linux, Python, vim & git Mission on Homepage
 headline: Promoting Literate Programming and My Vision for Linux, Python, Vim & Git on My Homepage
 description: I'm an expert in Linux, Python, vim & git and I'm promoting Literate Programming and its connection to Jupyter, Python and Markdown. On my homepage, I've collected my work and favorite articles to make my vision and message clear. Come check it out and see what I have to offer!
 keywords: Linux, Python, vim, git, Literate Programming, Jupyter, Markdown, Homepage, Messaging, Browsers, Platforms, Vision, Articles, Links, Collection, Refining
-categories: vim, linux, python, git, jupyter
+categories: vim, python, git, jupyter, linux
 permalink: /blog/clarified-linux-python-vim-git-mission-on-homepage/
 layout: post
 group: blog
@@ -40,12 +40,12 @@ Made lots of edits to my homepage as a result of this thought process.
 Clarified the Linux, Python, vim & git image.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-cope-thrive-through-ai-induced-existential-crisis/">How To Cope & Thrive Through AI-Induced Existential Crisis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious/">Is This Jungian Insights Into Bing's Subconscious?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage/">Clarified Linux, Python, vim & git Mission on Homepage</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: You Get Blinded By The Hardware
 headline: "Adapting to Constant Change: Understanding the Challenges of Tech in the Modern Age"
 description: I've experienced the highs and lows of technology over the years, from the Amiga computer to Windows laptops and web development tools. This has taught me to be wary of becoming too attached to hardware, as it changes quickly and requires constant retraining and relearning. Through this journey, I've come to understand the importance of adapting to new technologies and the challenge of mastering a craft with ever-changing tools.
 keywords: Amiga, Computer, Windows, Laptop, Web, Development, Tools, Adapting, New, Technologies, Mastering, Craft, Changing, Evolving, Technology, Nintendo, LAMP, ASP, ROR, NODE, Hardware, Musicians, Athletes, Instruments, Games, Switching, Tools, Techniques, Habits, Mastery
-categories: node, computer, development, amiga, microsoft
+categories: microsoft, amiga, node, development, computer
 permalink: /blog/you-get-blinded-by-the-hardware/
 layout: post
 group: blog
@@ -114,12 +114,12 @@ information and how to make it come alive again that's important, and not the
 particular laptop.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/send-email-with-file-attachment-from-python/">Send Email With File Attachment From Python</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ubuntu-18-04-vs-ubuntu-20-04-for-lxd-under-wsl2-wizard-defaults/">Ubuntu 18.04 vs Ubuntu 20.04 for LXD Under WSL2, Wizard Defaults</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-get-blinded-by-the-hardware/">You Get Blinded By The Hardware</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-python-decorators-for-linux-service-scheduling/">Use Python Decorators For Linux Service Scheduling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/node/'>Node</a></h4></li>
-<li><h4><a href='/computer/'>computers</a></h4></li>
-<li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/node/'>Node</a></h4></li>
+<li><h4><a href='/development/'>Development</a></h4></li>
+<li><h4><a href='/computer/'>computers</a></h4></li></ul>

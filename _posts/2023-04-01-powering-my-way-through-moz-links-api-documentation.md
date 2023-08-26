@@ -4,7 +4,7 @@ title: Powering My Way Through MOZ Links API Documentation
 headline: Exploring the Power of Persuasion with MOZ Links API Documentation
 description: I'm exploring the MOZ Links API with Mechvibes software, learning about the power of persuasion with Robert Cialdini's six principles, and using journaling and Python's dict native datatype to create a database to store the data and make it persistent. I'm also cleaning up a MOZ Links API Exploration Repo with NeoVim for OpenAI Github Copilot integration, making clicky sounds as I type. Join me on my journey.
 keywords: MOZ Links API, Mechvibes, Robert Cialdini, Six Principles, Journaling, Python, Dict Datatype, Database, Persistent, NeoVim, OpenAI, Github Copilot, SourceForge, Clicky Sounds, Microsoft Video, CopilotX, Autocompletion, Headline/Subhead, Notebook, Persuasion, Marketing, Salespeople, Influence, Psychology, Regents' Professor, Arizona State University, Microsoft, Jupy
-categories: ai, github copilot, marketing, vim, database, python, microsoft, jupyter, journaling
+categories: microsoft, vim, journaling, marketing, python, github copilot, ai, database, jupyter
 permalink: /blog/powering-my-way-through-moz-links-api-documentation/
 layout: post
 group: blog
@@ -528,16 +528,16 @@ What other housekeeping?
 NeoVim keeps it's .vimrc equivalent file in ~/.config/nvim/init.vim.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/continuing-my-silent-live-streaming-journaling-adventure/">Continuing My Silent Live-Streaming Journaling Adventure</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-conversation-about-superintelligence-with-bard/">A Conversation About Superintelligence With Bard</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/powering-my-way-through-moz-links-api-documentation/">Powering My Way Through MOZ Links API Documentation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/neovim-s-execute-command-doesn-t-even-show-output-in-neovim-of-m-s/">NeoVim's :execute Command Doesn't Even Show Output In NeoVim of ^M's</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
-<li><h4><a href='/marketing/'>Marketing</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/marketing/'>Marketing</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/github-copilot/'>Github Copilot</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>

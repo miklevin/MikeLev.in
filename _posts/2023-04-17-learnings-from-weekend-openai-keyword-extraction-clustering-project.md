@@ -112,7 +112,7 @@ assistant coming that can also teach me to jump off cliffs and learn to fly
 better, more often, and across a broader variety of situations.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-alternate-headline-leads-to-installing-jekyll-local/">Working on Alternate Headline Leads to Installing Jekyll Local</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/challenging-openai-to-write-a-better-subhead-than-this-headline/">Challenging OpenAI to Write a Better Subhead Than this Headline</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learnings-from-weekend-openai-keyword-extraction-clustering-project/">Learnings From Weekend OpenAI Keyword Extraction & Clustering Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/allow-github-to-use-my-code-snippets-for-product-improvements/">Allow GitHub To Use My Code Snippets For Product Improvements</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

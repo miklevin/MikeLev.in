@@ -207,7 +207,7 @@ stuff I've been loading in PythonicAlly.com that is much too in-depth for so
 early in that site.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/activating-all-my-registered-domains/">Activating All My Registered Domains</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/">From Jupyter Notebook to pip Installable Package In One Go</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bash-script-loading-external-files/">Bash Script Loading External Files</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

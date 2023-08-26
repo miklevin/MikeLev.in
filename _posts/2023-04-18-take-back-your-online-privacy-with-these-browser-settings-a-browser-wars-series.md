@@ -73,7 +73,7 @@ digital privacy, protect data, protect online privacy, protect browsing
 history, protect personal information.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-packaging-is-the-first-step-in-every-project/">Nbdev Packaging Is The First Step In Every Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis/">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/take-back-your-online-privacy-with-these-browser-settings-a-browser-wars-series/">Take Back Your Online Privacy with These Browser Settings: A Browser Wars Series</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
