@@ -4,7 +4,7 @@ title: Moving Into LXD WSL2 ~/ 'Home' Once You've Moved Into Containers
 headline: Creating a Comfortable and Productive Home with LXD and WSL2
 description: This blog post explains how I am using Linux Containers (LXD) and WSL2 to create a comfortable and productive home, inspired by a YouTube video about a child prodigy. I'm detailing the steps I'm taking to mount my ~/github and ~/.ssh files to my container, codifying the steps to create a container, setting up a script to put a few files directly in ~/ including a .bash_profile, creating a 'helpers' repo.
 keywords: Linux Containers, LXD, WSL2, Home, YouTube, Child Prodigy, Github, Software Repositories, Portable, Bash_profile, Helpers Repo, Git, Python, Python3.10, Virtual Environment
-categories: container, python, youtube, git, wsl
+categories: container, youtube, wsl, python, git
 permalink: /blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/
 layout: post
 group: blog
@@ -144,12 +144,12 @@ containers up.
 
 Wow, and that pretty much does it.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-not-lose-the-power-of-touch-typing-despite-ai-apis/">Do Not Lose The Power of Touch Typing Despite AI APIs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refresh-your-mind-with-the-lxd-api/">Refresh Your Mind With The LXD API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-is-not-easy-to-do-real-life-or-linux/">Moving Is Not Easy To Do: Real-life or Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

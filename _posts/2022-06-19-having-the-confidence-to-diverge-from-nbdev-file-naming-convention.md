@@ -4,7 +4,7 @@ title: Having The Confidence To Diverge From nbdev File Naming Convention
 headline: "Revamping My Content Release System: My Journey to Breaking From nbdev File Naming Conventions"
 description: I recently revamped my content release system and made changes to my .vimrc file, including replacing the blast.sh bash file with a new core.py file renamed to skite.py. Additionally, I deleted the blogslicer repo and removed it from PyPI. I'm pleased with my progress and will be writing a new article about it - come read all about my journey!
 keywords: Content Release System, .vimrc, blast.sh, bash file, core.py, skite.py, blogslicer, repo, PyPI, article, journey, progress, revising
-categories: vim, pypi, progress
+categories: pypi, vim, progress
 permalink: /blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/
 layout: post
 group: blog
@@ -46,10 +46,10 @@ blogslicer repo, and even remove it from PyPI! Wow, I should cut this journal
 entry and make that the focus of a wholly new article.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/gutting-dependencies-out-of-your-projects-life/">Gutting Dependencies Out Of Your Projects & Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ll-just-put-this-in-my-usr-local-sbin/">I'll Just Put This In My /usr/local/sbin/</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/removing-a-package-from-pypi-org-a-pip-installable-app-i-created/">Removing a Package From PyPI.org (a pip installable app I created)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/progress/'>Progress</a></h4></li></ul>

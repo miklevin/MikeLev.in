@@ -4,7 +4,7 @@ title: Recovering Old Laptops For Video Production Purposes
 headline: Upgrading WSL1 and Resetting Windows 11 to Windows 10 - My Journey to Create a Video Tutorial
 description: I'm creating a video tutorial to show how to upgrade WSL1 and reset Windows 11 to Windows 10, using a laptop with a version lower than 18917. To ensure accuracy, I'm researching Wikipedia pages and downloading Windows Win10_1809Oct_v2_English_x64.iso. Join me on my journey as I work to make this video and worry about ruining it with a system update!
 keywords: Laptops, Video Production, Tutorial, Upgrade, Reset, Windows 11, Windows 10, Version, 18917, Wikipedia, Win10_1809Oct_v2_English_x64.iso, WSL1, Factory Reset, System Update
-categories: microsoft, tutorial
+categories: tutorial, microsoft
 permalink: /blog/recovering-old-laptops-for-video-production-purposes/
 layout: post
 group: blog
@@ -55,9 +55,9 @@ I'm worried that goes past the WSL2 boundary and will ruin the video I'm trying
 to produce. I can always roll-back, but lost time effit!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recovering-old-laptops-for-video-production-purposes/">Recovering Old Laptops For Video Production Purposes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/">Going Down the WSL to LXD Install Script Rabbit Hole</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/let-people-know-how-you-feel/">Let People Know How You Feel</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/developing-priceless-and-timeless-tech-habits/">Developing Priceless and Timeless Tech Habits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

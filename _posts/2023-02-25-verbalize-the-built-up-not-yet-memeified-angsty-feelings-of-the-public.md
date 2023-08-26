@@ -4,7 +4,7 @@ title: Verbalize the built-up not-yet memeified angsty feelings of the public.
 headline: "Maximizing Personal Advantage in the Age of AI: My Advocacy for 280 Character Tweets"
 description: As I experience the impact of AI, I'm advocating for the use of 280 character tweets to spread ideas and leverage current tools for personal gain. This is a unique moment in history and I'm determined to make the most of it. Click through to find out how.
 keywords: AI, 280 characters, spread ideas, leverage tools, personal gain, craftspeople, code, unique moment, history, maximize advantage
-categories: history, ai
+categories: ai, history
 permalink: /blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/
 layout: post
 group: blog
@@ -36,9 +36,9 @@ Because nobody knows what the future will bring (even the super-wealthy & fortif
 Cleverly utilizing todays common tools to maximum long-term personal advantage is the personal mission I propose to you today.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/verbalize-the-built-up-not-yet-memeified-angsty-feelings-of-the-public/">Verbalize the built-up not-yet memeified angsty feelings of the public.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/first-day-on-new-job-i-throw-out-my-back/">First Day on New Job & I Throw Out My Back!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keep-taking-those-baby-steps-every-day/">Keep Taking Those Baby-Steps Every Day</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-is-disincentivizing-installing-chrome-changing-default-search/">Microsoft is disincentivizing Installing Chrome & Changing Default Search</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/history/'>history</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/history/'>history</a></h4></li></ul>

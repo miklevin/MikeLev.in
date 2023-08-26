@@ -79,7 +79,7 @@ blow up on YouTube despite all the polishistas. The world just might be ready
 for me. I feel twitches in the web.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ll-blow-up-on-youtube-when-i-want-to/">I'll Blow Up On YouTube When I Want To</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-there-anyone-cheesier-than-whitney-avalon/">Is There Anyone Cheesier Than Whitney Avalon?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

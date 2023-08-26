@@ -4,7 +4,7 @@ title: Figuring Out The LXD/LXC Command-line API
 headline: Exploring the LXD/LXC Command-line API After My LXC Container Became Unsupported
 description: "As a Linux user, I recently received a notice that my LXC container is unsupported. To learn the LXD/LXC command-line API, I discovered the command `lxc exec instance_name -- command` to execute commands in the LXD image, `lxc list` to view containers, `lxc start foo` to start one, and `lxc exec foo -- su --login ubuntu` to log."
 keywords: LXD, LXC, Command-line, API, Linux, Unsupported, Container, Execute, List, Start, Log
-categories: container, lxc, linux, python, execute
+categories: container, lxc, execute, linux, python
 permalink: /blog/figuring-out-the-lxd-lxc-command-line-api/
 layout: post
 group: blog
@@ -85,12 +85,12 @@ daemon experimental automation work I'm about to embark on:
 
 ...and they do! Woot! Success assured.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav/">Adding the Who, What, Why, When, Where & How To Site Nav</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-tricks-why-the-walrus-fears-the-carpenter/">vim tricks: Why The Walrus Fears The Carpenter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-key-lxc-api-detail-i-must-master/">The Key LXC API Detail I Must Master</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/lxc/'>LXC</a></h4></li>
+<li><h4><a href='/execute/'>Execute</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/execute/'>Execute</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

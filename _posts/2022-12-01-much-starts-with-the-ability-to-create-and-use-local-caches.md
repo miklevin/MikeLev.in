@@ -4,7 +4,7 @@ title: Much Starts With the Ability To Create and Use Local Caches
 headline: Exploring Local Caches for Self-Reliance and Independence
 description: I have been exploring Microsoft's implementation of systemd under wsl and have had mixed results. To ensure self worth and independence, I suggest investing in free and open source software (FOSS) and using caches, such as a SQLite .db file, to ensure persistence. I have been exploring the use of local caches for short-term memory and for storing variables used in programs, and share my experiences to help others.
 keywords: Microsoft, systemd, wsl, FOSS, SQLite, .db, Unix-system, local caches, short-term memory, variables, programs, December 1st, 2022, background services, Linux, abstraction, hardware, proprietary systems, cloud, persistence, caches
-categories: microsoft, systemd, wsl, database, linux
+categories: systemd, microsoft, linux, wsl, database
 permalink: /blog/much-starts-with-the-ability-to-create-and-use-local-caches/
 layout: post
 group: blog
@@ -142,12 +142,12 @@ Microsoft thing will last until they obsolete or redefine that thing.
 So, let's learn local cashes.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/much-starts-with-the-ability-to-create-and-use-local-caches/">Much Starts With the Ability To Create and Use Local Caches</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/don-t-miss-my-talk-with-openai-about-clickbait-headlines/">Don't Miss My Talk with OpenAI about clickbait headlines!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/clear-screen-clear-mind-focus-focus-focus/">Clear Screen, Clear Mind... Focus, Focus, Focus!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/combine-csv-files-with-python-pandas/">Combine CSV Files with Python Pandas</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

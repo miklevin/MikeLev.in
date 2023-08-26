@@ -4,7 +4,7 @@ title: "vim tricks: Why The Walrus Fears The Carpenter"
 headline: Organizing My Place & Exploring the Intersection of Linux, Python, vim & git in My Livecast
 description: I'm busy today getting organized, but I'm also doing a livecast with my morning thoughts. I've written a blog post about how Linux, Python, vim & git intersect, with a venn diagram to illustrate - come check it out!
 keywords: Linux, Python, vim, git, organization, livecast, morning, thoughts, intersection, venn diagram
-categories: vim, git, python, linux
+categories: linux, vim, python, git
 permalink: /blog/vim-tricks-why-the-walrus-fears-the-carpenter/
 layout: post
 group: blog
@@ -30,11 +30,11 @@ in my head for a long time and is only natural to finally get out there.
 ![Linux Python Vim Git Venn Diagram](/assets/images/linux-python-vim-git-venn-diagram.png)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-tricks-why-the-walrus-fears-the-carpenter/">vim tricks: Why The Walrus Fears The Carpenter</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-key-lxc-api-detail-i-must-master/">The Key LXC API Detail I Must Master</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

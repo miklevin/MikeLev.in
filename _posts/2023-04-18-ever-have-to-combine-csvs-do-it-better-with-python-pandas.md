@@ -4,7 +4,7 @@ title: Ever Have to Combine CSVs? Do It Better With Python Pandas!
 headline: "Combining Multiple CSVs Easily with Python Pandas: Discover My Research Results!"
 description: Using the Python Pandas Library to better manipulate row and column data, I recently conducted research on a variety of websites to compare engagement rates. My findings included 15 visitors and a 1% engagement rate for Netflix.com, and 20 visitors and a 2% engagement rate for IMDB.com. Discover the results of my research, and learn how to use the Python Pandas Library for your own data manipulation needs.
 keywords: Python, Pandas, CSV, API, Data Manipulation, Research, Netflix.com, IMDB.com, cancer.gov, cdc.gov, developer.mozilla.org, verywellfamily.com, businessinsider.com, popularmechanics.com, healthline.com, blog.hubspot.com, developers.google.com, techopedia.com
-categories: panda, python
+categories: python, panda
 permalink: /blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/
 layout: post
 group: blog
@@ -131,9 +131,9 @@ Produces:
     4            www.pampers.com                66     11%       61      babycenter.com
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ever-have-to-combine-csvs-do-it-better-with-python-pandas/">Ever Have to Combine CSVs? Do It Better With Python Pandas!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/finding-a-site-s-popular-subdomain-with-a-redirect-chain-resolver/">Finding a Site's Popular Subdomain With a Redirect Chain Resolver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-pandas-and-python-s-pathlib-to-load-multiple-csv-files-for-data-analysis/">How to Use Pandas and Python's Pathlib to Load Multiple CSV Files for Data Analysis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/optimizing-moz-pro-true-competitor-keyword-overlap-for-quota-limits/">Optimizing MOZ Pro True Competitor Keyword Overlap For Quota Limits</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>

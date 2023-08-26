@@ -4,7 +4,7 @@ title: Just Moving Life Forward
 headline: Exploring Life's Quantized Units on My Child's 12th Birthday
 description: Today is my child's 12th birthday and I'm taking the time to prepare for it. Unloading the car, I'm reflecting on the entanglement of things and how our lives are like quantized units of energy. Are we unique or part of the same rippling quantum field? I'm also reflecting on the Python command I programmed yesterday and its potential future uses. Join me as I explore these thoughts and prepare for a special day.
 keywords: Quantum, Field, Python, Programming, Entanglement, Aquarium, Stand, Child, Birthday, Preparation, Reflection
-categories: child, coding, quantum, python
+categories: quantum, python, child, coding
 permalink: /blog/just-moving-life-forward/
 layout: post
 group: blog
@@ -49,11 +49,11 @@ install.bat side but this wold be the first time I'm referring to it from
 install.sh, the later-stage part of the install.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/just-moving-life-forward/">Just Moving Life Forward</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/happy-birthday-adi/">Happy Birthday Adi!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-things-easy/">Are Things Easy?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/child/'>Child</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/quantum/'>Quantum</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

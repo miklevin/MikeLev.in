@@ -4,7 +4,7 @@ title: Adding the Who, What, Why, When, Where & How To Site Nav
 headline: Revolutionizing Life Management with Linux, Python, vim & git
 description: I'm proposing a new way to manage life as a whole, by creating and automating tasks to be internalized and passed onto muscle memory. To help with this, I'm suggesting the use of Linux, Python, vim & git. I've added the Who, What, Why, When, Where & How to my website's navigation, and I'm now working on creating the pages to go along with it. Come find out more about my revolutionary idea and how it can help you manage life.
 keywords: Life, Management, Automation, Linux, Python, Vim, Git, Website, Navigation, Revolutionary, Idea, Help
-categories: vim, python, git, navigation, linux
+categories: git, linux, vim, python, navigation
 permalink: /blog/adding-the-who-what-why-when-where-how-to-site-nav/
 layout: post
 group: blog
@@ -42,12 +42,12 @@ basic literacy today.
 To this end, I propose Linux, Python, vim & git
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav/">Adding the Who, What, Why, When, Where & How To Site Nav</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/refresh-your-mind-with-the-lxd-api/">Refresh Your Mind With The LXD API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-key-lxc-api-detail-i-must-master/">The Key LXC API Detail I Must Master</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers/">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li></ul>

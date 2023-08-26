@@ -59,7 +59,7 @@ That's "before" and that's after.
 
 Okay, done. Onto main work!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll/">Adding Google Analytics to Github.io Page with Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/re-launch-mikelevinseo-com-on-github-io/">(Re)Launch MikeLevinSEO.com on Github.io</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

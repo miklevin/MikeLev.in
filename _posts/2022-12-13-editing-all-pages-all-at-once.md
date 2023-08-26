@@ -91,7 +91,7 @@ some time to clean the slate. It's the pack-rat in me with these online things,
 just like it is in real-life. I've got to get past that.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-the-decrufting-begin/">Let The Decrufting Begin!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/">Fusion Ignition Achieved! Q = 1 Thanks to Lawrence Livermore National Laboratory</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-named-tuples-to-define-api-job-perform-housekeeping/">Using Named Tuples to Define API-job & Perform Housekeeping</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

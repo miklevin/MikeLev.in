@@ -51,7 +51,7 @@ I've done really good work with these lambda functions that look just like
 applied text-processing.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keyword-histograms-and-clusters/">Keyword Histograms and Clusters</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/starting-to-ideate-the-idea-capture-device/">Starting to Ideate the Idea Capture Device</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-critical-juncture-with-ai-my-next-steps/">The Critical Juncture With AI & My Next Steps</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/thinking-through-python-google-photos-sorter/">Thinking Through Python Google Photos Sorter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

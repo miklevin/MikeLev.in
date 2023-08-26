@@ -223,7 +223,7 @@ In the end, there was nothing left but darkness. The world was destroyed, and th
 The end.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-this-jungian-insights-into-bing-s-subconscious/">Is This Jungian Insights Into Bing's Subconscious?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-ais-work-for-cats/">Do AIs Work For Cats?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/clarified-linux-python-vim-git-mission-on-homepage/">Clarified Linux, Python, vim & git Mission on Homepage</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-you-do-when-you-approach-a-new-api/">What do you do when you approach a new API?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

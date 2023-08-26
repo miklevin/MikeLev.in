@@ -4,7 +4,7 @@ title: Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver
 headline: I Just Added WebDev to MyKoz.AI with uvicorn ASGI Python Webserver!
 description: I added webdev to MyKoz.AI with uvicorn ASGI Python webserver. Follow the steps I used to add another monitorable service running through GNU screen that opens new possibilities. This sets the stage for writing a sample HTMX app.
 keywords: webdev, HTML, HTMX, JavaScript, ReactJS, DOM, AlpineJS, WSGI, ASGI, gunicorn, uvicorn, WSL, Flask, FastAPI, Python, webserver, HTTP, virtualenv, systemd, GNU, screen
-categories: javascript, virtualenv, html, systemd, python, wsl, gnu
+categories: systemd, virtualenv, javascript, wsl, python, html, gnu
 permalink: /blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/
 layout: post
 group: blog
@@ -186,14 +186,14 @@ the Hello World website is running.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/">Getting the MyKoz.AI Blog Publishing System Into Better Shape</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li>
 <li><h4><a href='/gnu/'>GNU</a></h4></li></ul>

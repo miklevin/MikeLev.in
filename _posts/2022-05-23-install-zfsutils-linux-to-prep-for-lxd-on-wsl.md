@@ -4,7 +4,7 @@ title: Install ZFSUtils-Linux To Prep For LXD on WSL
 headline: "Exploring LXD: Installing ZFSUtils-Linux on WSL to Move Life Forward"
 description: I'm on a mission to move my life forward, so I'm looking around the world to find the answers. Today, I'm focusing on LXD, a Linux container service, and I'm learning how to install ZFS Filesystem for Linux and the advantages of containers over virtual machines. Come along with me on my journey and read my blog post to see what I'm learning.
 keywords: Linux, LXD, ZFSUtils-Linux, WSL, Containers, Virtual Machines, Vim, Learnings, Mission, Answers, Journey, Blog Post
-categories: wsl, container, vim, linux
+categories: wsl, linux, container, vim
 permalink: /blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/
 layout: post
 group: blog
@@ -88,11 +88,11 @@ And if not the container itself, your learnings flow right over to:
 - Cloud server
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/install-zfsutils-linux-to-prep-for-lxd-on-wsl/">Install ZFSUtils-Linux To Prep For LXD on WSL</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cancelling-netflix-and-chill-t-mobile-offer/">Cancelling Netflix and Chill (T-Mobile offer)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/">Putting mlseo on subdomain of MikeLevinSEO.com</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/center-a-poem/">Center, A Poem</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

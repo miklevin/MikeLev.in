@@ -4,7 +4,7 @@ title: Turning Repo into nbdev Project
 headline: "Transforming Repo into nbdev Project: My Journey"
 description: I created a GitHub repo for my project, blogslicer, and connected it to my local directory. After editing the settings.ini file, I moved and renamed the notebook into the repo, added the necessary cells and comments for nbdev, and attempted to publish the project. Finally, I altered pythonically.com to not use index.md as the journal. Read my blog post to learn how I did it!
 keywords: Repo, nbdev, GitHub, project, blogslicer, local directory, settings.ini, notebook, cells, comments, publishing, pythonically.com, journal
-categories: nbdev, git, jupyter
+categories: jupyter, git, nbdev
 permalink: /blog/turning-repo-into-nbdev-project/
 layout: post
 group: blog
@@ -38,10 +38,10 @@ loaded and edit the all.sh file with the new filename. Don't do this with ALL
 your sites yet. Just start with pythonically.com and see how it goes.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/slicing-dicing-single-file-to-jekyll-blog-posts/">Slicing & Dicing Single File to Jekyll Blog Posts</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/turning-repo-into-nbdev-project/">Turning Repo into nbdev Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

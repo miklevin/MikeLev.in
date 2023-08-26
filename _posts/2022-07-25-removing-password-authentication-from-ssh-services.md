@@ -4,7 +4,7 @@ title: Removing Password Authentication from SSH Services
 headline: Securely Eliminating Passwords with OpenSSH and Linux Containers
 description: I created a new Linux container with OpenSSH service and disabled the ability to challenge passwords, then moved keys over to eliminate passwords. I also set up a shared folder with three sub-folders, changed permissions on the keys, and restarted the SSH service. Read my blog post to learn how I did it.
 keywords: Linux, OpenSSH, Password Authentication, SSH Services, Shared Folder, Sub-Folders, Permissions, Keys, Restarting
-categories: key, linux
+categories: linux, key
 permalink: /blog/removing-password-authentication-from-ssh-services/
 layout: post
 group: blog
@@ -58,9 +58,9 @@ correctly:
 And so on.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/removing-password-authentication-from-ssh-services/">Removing Password Authentication from SSH Services</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-11-is-more-like-windows-il-for-it-s-linux/">Windows 11 is more like Windows Il (for It's Linux)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/linux-container-under-windows-10-wsl-supporting-graphics/">Linux Container Under Windows 10 WSL Supporting Graphics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/key/'>Keys</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/key/'>Keys</a></h4></li></ul>

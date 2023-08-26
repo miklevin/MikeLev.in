@@ -4,7 +4,7 @@ title: On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)
 headline: "Overcoming Insurmountable Obstacles: My Journey Into LXD and WSL2"
 description: As someone who recently figured out how to log into a running LXD session from WSL2, I'm encouraging readers to not let anyone or anything stop them from advancing and learning. I use the example of Maxwell's Demon to explain how entropy can be overcome, and suggest using Linux Daemons to help us become Maxwell's Demon. I emphasize the importance of protecting the quality of information coming in and recognizing lies, as well as staying relentless in the pursuit of truth.
 keywords: Unstoppable, Maxwell's Demon, Entropy, Linux Daemons, Lies, Pursuit of Truth, Physical Health, Learning APIs, Glinda of Oz, Dorothy, Invisible Wall, Faith, Unix, Windows, Network, LXD, WSL2, Literacy, Linux, Configuring, Virtual Local Area Networks, Idea Capture Funnel, Vim Wizards, Emacs Wizards
-categories: microsoft, container, network, wsl, linux
+categories: microsoft, container, linux, wsl, network
 permalink: /blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/
 layout: post
 group: blog
@@ -205,12 +205,12 @@ often-disrupted (force upgrades, etc.) GUI tools.
 ![Idea Capture Funnel](/assets/images/idea-capture-funnel.png)
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-jupyter-desktop-set-python-environment-error-message/">Fixing Jupyter Desktop Set Python Environment Error Message</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-lxd-running-under-wsl2-on-windows-11-with-ubuntu-18-04/">Get LXD Running Under WSL2 on Windows 11 with Ubuntu 18.04</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/network/'>Network</a></h4></li></ul>

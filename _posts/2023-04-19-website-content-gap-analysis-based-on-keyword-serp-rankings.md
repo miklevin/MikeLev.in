@@ -4,7 +4,7 @@ title: Website Content GAP Analysis Based on Keyword SERP Rankings
 headline: Creating a Content GAP Analysis Using Python and Microsoft Playwright
 description: I recently completed a project to create a content GAP analysis between websites using MOZ data. I wrote code in Python and used Microsoft Playwright to automate the download of keyword lists. I used Pandas to create a pivot table, merge the dataframes, sort the data, drop duplicates, and save the data to an Excel file. My program helps identify gaps in content ranking between different sites and filter out keywords with less than 1000 monthly searches.
 keywords: Website, Content, GAP Analysis, Keyword, SERP, Rankings, OpenAI, MOZ, Python, Microsoft Playwright, Automation, Download, Lists, Pandas, Pivot Table, Merge, Dataframes, Sort, Duplicates, Excel, File, Volume, Difficulty, Top Rank, URL, Standardize, Columns, NaN, Integers, Sample, Descending, Filter, Searches, CSVs, Clean, Remove, Blanks, Compare
-categories: panda, search, filter, python, microsoft playwright, seo, ai
+categories: ai, microsoft playwright, filter, seo, panda, python, search
 permalink: /blog/website-content-gap-analysis-based-on-keyword-serp-rankings/
 layout: post
 group: blog
@@ -677,14 +677,14 @@ projects that are more SERP-oriented than Site-oriented. Site-oriented is good
 for gap analysis. SERP-oriented is good for finding open-ended things, like new
 sites you haven't considered that are scoring well for a keyword.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-secret-daily-work-journal-now-more-yaml-like/">My Secret Daily Work Journal now More YAML-like</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-on-adding-front-matter-support-to-journal-entries/">Planning on Adding Front Matter Support to Journal Entries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/filter/'>Filter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/filter/'>Filter</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/search/'>Search</a></h4></li></ul>

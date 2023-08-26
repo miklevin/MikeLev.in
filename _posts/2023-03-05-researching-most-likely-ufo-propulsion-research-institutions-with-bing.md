@@ -207,7 +207,7 @@ Source: Conversation with Bing, 3/5/2023
     https://researchguides.uic.edu/physics Accessed 3/5/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/researching-most-likely-ufo-propulsion-research-institutions-with-bing/">Researching Most Likely UFO Propulsion Research Institutions With Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/asking-ai-about-arrokoth-fravor-mind-reading/">Asking AI About Arrokoth, Fravor & Mind Reading</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/">Researching Most Credible Voices In UFO / UAP Space With The New Bing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

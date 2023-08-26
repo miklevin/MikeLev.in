@@ -21,7 +21,7 @@ volumes I pulled on a more granular level than higher in the hierarchy are
 getting lost.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/happy-birthday-adi/">Happy Birthday Adi!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/make-lxdwin-much-about-vim/">Make LXDWIN much about vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-things-easy/">Are Things Easy?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/visualizing-change-is-projecting-epigenetic-templates/">Visualizing Change is Projecting Epigenetic Templates</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

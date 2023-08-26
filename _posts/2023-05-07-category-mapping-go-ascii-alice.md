@@ -4,7 +4,7 @@ title: Category Mapping? Go ASCII Alice!
 headline: "Mapping Categories with ASCII Alice: My Journey to Create an Accurate Taxonomy System"
 description: I'm implementing a more controlled and explicit category system for my blog, by mapping keywords to top categories and sub-categories. This post explains the process and code I used to create a dictionary to map each keyword to its parent category. I'm also exploring the potential for deeper hierarchies and ontological, taxonomy and canonicalization issues.
 keywords: category, mapping, ASCII, Alice, OpenAI, keyword, extraction, top, categories, sub-category, 80/20, rule, control, names, data, structure, brain, calories, benefit, approach, Python, yaml, config, raw, map, key-name, value-list, dictionary, keyword, parent, category, deduping, set, accurate, inclusion, articles, fine-tune, category-names, category-belonging, hierarchy
-categories: python, yaml, ai
+categories: ai, python, yaml
 permalink: /blog/category-mapping-go-ascii-alice/
 layout: post
 group: blog
@@ -353,10 +353,10 @@ TO DO:
 Oh, it is working! There was just an orphaned lock on my git repo! Dude. 
                              
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/category-mapping-go-ascii-alice/">Category Mapping? Go ASCII Alice!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/infinite-spam-cannons-and-their-antidotes/">Infinite Spam Cannons And Their Antidotes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/simulation-hypothesis-or-not-is-a-false-dichotomy/">Simulation Hypothesis Or Not is a False Dichotomy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

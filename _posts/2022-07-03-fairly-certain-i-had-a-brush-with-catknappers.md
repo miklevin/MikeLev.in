@@ -200,7 +200,7 @@ confirmed it.
     neighborhood tonight calling for her. Find salvation. Anonymous tips welcome.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers/">Fairly Certain I Had a Brush With Catknappers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/moving-into-lxd-wsl2-home-once-you-ve-moved-into-containers/">Moving Into LXD WSL2 ~/ "Home" Once You've Moved Into Containers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav/">Adding the Who, What, Why, When, Where & How To Site Nav</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/refresh-your-mind-with-the-lxd-api/">Refresh Your Mind With The LXD API</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

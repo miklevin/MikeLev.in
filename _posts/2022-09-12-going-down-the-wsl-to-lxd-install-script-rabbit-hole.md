@@ -4,7 +4,7 @@ title: Going Down the WSL to LXD Install Script Rabbit Hole
 headline: Exploring the WSL and LXD Install Script to Create a Jupyter Server on Windows
 description: I'm working on a project to create a bash install script that will set up a Jupyter server on a Windows machine. I'm writing the script, installing it from an Ubuntu 18.04 instance with LXD, creating a PowerShell script, and setting up a ~/repos folder and jupyme repo. Follow my journey as I build this project and learn along the way.
 keywords: Windows, Bash, Script, Ubuntu, LXD, PowerShell, Jupyter, Server, Instance, Repos, Github, Jupyme
-categories: microsoft, container, ubuntu, python, powershell, git, jupyter, linux
+categories: ubuntu, microsoft, container, linux, jupyter, python, git, powershell
 permalink: /blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/
 layout: post
 group: blog
@@ -100,15 +100,15 @@ well worked out. You need to already have LXD on WSL and maybe I'll do a script
 for that next.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-down-the-wsl-to-lxd-install-script-rabbit-hole/">Going Down the WSL to LXD Install Script Rabbit Hole</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/writing-automated-install-script-for-lxd-jupyter-on-wsl/">Writing Automated Install Script for LXD & Jupyter on WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/developing-priceless-and-timeless-tech-habits/">Developing Priceless and Timeless Tech Habits</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switching-from-wsl-to-lxd-containers-permanently/">Switching From WSL to LXD Containers Permanently</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>

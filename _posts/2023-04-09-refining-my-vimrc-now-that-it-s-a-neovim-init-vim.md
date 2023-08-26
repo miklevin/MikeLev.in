@@ -311,7 +311,7 @@ blog folder name needs to remain because you don't know what has to be used in
 the permalink.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/">Refining my .vimrc now that it's a NeoVim init.vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/blog-slice-dice-system-re-written-in-a-day/">Blog Slice & Dice System Re-Written In a Day</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

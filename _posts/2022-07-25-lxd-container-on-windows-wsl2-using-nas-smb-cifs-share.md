@@ -4,7 +4,7 @@ title: LXD Container on Windows WSL2 Using NAS SMB/CIFS Share
 headline: Successfully Setting Up LXD Container on Windows WSL2 with NAS SMB/CIFS Share
 description: After struggling to set up a LXD container, I found the solution to my problem - mapping my NAS, .ssh folder, .gitconfig, and .vimrc files, and then running two commands from within the container. I also had to mount a Windows network share using the command 'sudo mount -t drvfs '\\EchidNAS\data' /mnt/data'. Now my LXD container is running as expected.
 keywords: LXD, Container, Windows, WSL2, NAS, SMB/CIFS, Share, Ubuntu, Python, Scheduling, Daemon, /etc/systemd/system, Uninstall, smbclient, Python 3.7, Symbolic Link, Device, Connect, /mnt/data
-categories: microsoft, container, ubuntu, scheduling, python, wsl
+categories: ubuntu, container, microsoft, wsl, python, scheduling
 permalink: /blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/
 layout: post
 group: blog
@@ -216,13 +216,13 @@ this:
 
 And I start the container and it's there!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/">LXD Container on Windows WSL2 Using NAS SMB/CIFS Share</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/removing-password-authentication-from-ssh-services/">Removing Password Authentication from SSH Services</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/learning-nix-today-means-learning-systemd/">Learning *nix Today Means Learning systemd!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/new-container-station-lxd-ubuntu-18-04-image-and-ssh-server-install/">New Container Station LXD Ubuntu 18.04 Image and SSH Server Install</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/scheduling/'>Scheduling</a></h4></li></ul>

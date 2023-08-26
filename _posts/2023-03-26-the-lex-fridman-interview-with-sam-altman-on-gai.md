@@ -79,7 +79,7 @@ super-great. If GPT is going to take your job, maybe you were a shitty
 programmer.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai/">The Lex Fridman Interview with Sam Altman on GAI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-fully-unbounded-web-scraper-kit-for-ai/">Planning Fully Unbounded Web Scraper Kit For AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

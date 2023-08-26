@@ -4,7 +4,7 @@ title: Build Web Scraper With Bing From Scratch
 headline: Build a Web Scraper with Bing in Python - Step-by-Step Guide
 description: This step-by-step guide shows you how to build a web scraper with Bing from scratch in Python, starting with a basic example of printing 'Hello World' and building up to extracting the title tag with BeautifulSoup4. Learn how to collect all the links from a webpage, convert them from relative to absolute links, and store them in a persistent dictionary using SQLite. Discover how to compete with commercial web scraping products and get the same features for less.
 keywords: Web Scraper, Bing, Python, Hello World, Requests, BeautifulSoup4, Links, Relative Links, Absolute Links, SQLite, Octoparse, Import.io, ProWebScraper, Mozenda, User-friendly, Scalable, Reliable, Feature-rich, Expensive, Flexible
-categories: request, database, bing, python
+categories: python, database, request, bing
 permalink: /blog/build-web-scraper-with-bing-from-scratch/
 layout: post
 group: blog
@@ -159,11 +159,11 @@ Source: Conversation with Bing, 3/11/2023
     (6) 24 Best Web Scraping Tools and Software in 2023 - ScrapeHero. https://www.scrapehero.com/top-free-and-paid-web-scraping-tools-and-software/ Accessed 3/11/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/build-web-scraper-with-bing-from-scratch/">Build Web Scraper With Bing From Scratch</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-casual-persistent-dict-key-value-nosql-in-python-better-than-sqlitedict/">Seeking Casual Persistent dict Key-Value NoSQL in Python Better Than SqliteDict</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-is-the-best-seo-software/">What is the best SEO software?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/talked-bing-into-submitting-copy-paste-bug-about-itself/">Talked Bing into Submitting Copy/Paste Bug About Itself</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/request/'>Requests</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/request/'>Requests</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li></ul>

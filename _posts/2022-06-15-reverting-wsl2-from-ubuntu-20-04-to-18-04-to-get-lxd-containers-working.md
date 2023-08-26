@@ -4,7 +4,7 @@ title: Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working
 headline: "Learning New Technologies: Exploring WSL2, LXD, venv, virtualenv, tmux, screen, and Python"
 description: I recently explored the process of downgrading Ubuntu 20.04 to 18.04 under WSL2, as well as concepts such as LXD, venv, virtualenv, tmux, screen, and Python. I discussed the importance of good fixed-file-location habits, and how LXD is similar to venv/virtualenv in terms of packaging dependencies. I also compared Docker and LXD.
 keywords: WSL2, Ubuntu, 20.04, 18.04, LXD, Containers, venv, virtualenv, tmux, screen, Python, Good Habits, Packaging Dependencies, Docker, \*nix Commands, venv, virtualenv, Python, In-House SEO, Kubernetes, MySQL, PostgreSQL, Redis, MongoDB, Virtualenv, Python Standard Library
-categories: container, virtualenv, ubuntu, python, wsl
+categories: container, ubuntu, virtualenv, wsl, python
 permalink: /blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/
 layout: post
 group: blog
@@ -155,12 +155,12 @@ SQLite good
 I'd be on venv full-time, except all sample code uses virtualenv
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reverting-wsl2-from-ubuntu-20-04-to-18-04-to-get-lxd-containers-working/">Reverting WSL2 From Ubuntu 20.04 to 18.04 To Get LXD Containers Working</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/microsoft-edge-history-is-now-syncing-turn-off/">Microsoft Edge history is now syncing (turn off)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/windows-updates-kb5014699-kb5013887-lxd-on-wsl2-under-ubuntu-20-04/">Windows Updates KB5014699 & KB5013887 & LXD on WSL2 Under Ubuntu 20.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-on-wsl2-is-a-few-months-ahead-of-its-time/">LXD on WSL2 is a Few Months Ahead Of Its Time</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

@@ -194,7 +194,7 @@ observable and do not carry any charge.
 No, photons do not carry a charge, as they are neutral particles.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-openai-gpt-3-knows-about-virtual-particles/">What OpenAI GPT-3 Knows About Virtual Particles</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic/">Doing a Google Analytics API Project (Filtering US Only Traffic)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/contemplating-labeling-latest-work-pipulate-again/">Contemplating Labeling Latest Work Pipulate Again</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-are-we-not-adapting-to-new-realities/">When Are We Not Adapting to New Realities?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: YouTube Analytics API Delegation Driving Me to Web Browser Automation
 headline: Exploring YouTube Analytics and Reporting APIs and Considering Web Scraping as a Backup
 description: I'm attempting to access YouTube Analytics, but the API is proving difficult. After trying to use parameters such as onBehalfOfOwner, I'm getting 403s. I'm now considering web browser automation, and am exploring Microsoft Playwright to automate web browser sessions and capture a manual login. Join me as I explore the possibilities of the YouTube Analytics and Reporting APIs, and consider web scraping as an alternative.
 keywords: YouTube, Analytics, API, Delegation, Driving, Web Browser Automation, Parameters, onBehalfOfOwner, 403s, System-Managed Reports, Content Owners, Reports, YouTube, Web Scraping, APIs, Convoluted, Poorly Documented, Microsoft Playwright, Automate, Web Browser Sessions, Login, Load
-categories: youtube, python, microsoft playwright
+categories: youtube, microsoft playwright, python
 permalink: /blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/
 layout: post
 group: blog
@@ -199,10 +199,10 @@ again. I used it on a previous project, and it's a million$ bit of magic.
     python -m playwright codegen --target python-async --load-storage keep.db --viewport-size 1400,1200
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/youtube-analytics-api-delegation-driving-me-to-web-browser-automation/">YouTube Analytics API Delegation Driving Me to Web Browser Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/api-choices-rational-folks-won-t-say-magic/">API Choices & Rational Folks Won't Say Magic</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/per-week-tuples-as-a-google-photos-project/">Per Week Tuples as a Google Photos Project?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/data-jockeying-101/">Data Jockeying 101</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

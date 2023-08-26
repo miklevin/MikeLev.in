@@ -4,7 +4,7 @@ title: Going Back to Windows 10 From Windows 11
 headline: Going Back to Windows 10 After Struggling With Windows 11
 description: Learn how to downgrade from Windows 11 to Windows 10 with this helpful tutorial. I provide step-by-step instructions on how to use the Microsoft Windows 10 Media Installer, as well as tips on removing bloatware and customizing your instance.
 keywords: Windows 10, Windows 11, PC, YouTube, Factory Default, Bloatware, Microsoft, OneDrive, Upgrade, Software, WiFi, Apps, Restore
-categories: microsoft, youtube
+categories: youtube, microsoft
 permalink: /blog/going-back-to-windows-10-from-windows-11/
 layout: post
 group: blog
@@ -84,9 +84,9 @@ need.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: If Greys Exist They're a Banana Crops
 headline: Live Long, Follow Evidence-Based Thoughts and Provide Tools for Future Generations
 description: I'm on a mission to make enough ad revenue from YouTube and other platforms to support myself financially over the next 15 years. My goal is to live a long life, nurture and engage with an audience, and have empathy for all life forms. I'm determined to move somewhere with a low cost of living and die alone, not burdening family or friends. I'm sharing my stories and encouraging people to do what they love, follow evidence-based thoughts, and provide tools for future generations.
 keywords: YouTube, Ad Revenue, Financial Support, Long Life, Engage Audience, Empathy, Low Cost Living, Die Alone, Share Stories, Follow Evidence-Based Thoughts, Tools, Future Generations, Virtual Particles, Magnetized, Electric Field, Hybridization, Misinformation, Evidence-Based Decisions
-categories: youtube, empathy
+categories: empathy, youtube
 permalink: /blog/if-greys-exist-they-re-a-banana-crops/
 layout: post
 group: blog
@@ -166,9 +166,9 @@ that can help provide tools to future generations of catastrophe-diverting
 moles.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/if-greys-exist-they-re-a-banana-crops/">If Greys Exist They're a Banana Crops</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/programming-a-python-do-nothing-machine/">Programming a Python Do Nothing Machine</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/working-on-a-tiktok-script/">Working on a TikTok Script</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/failed-to-get-this-going-during-weekend/">Failed To Get This Going During Weekend</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/empathy/'>Empathy</a></h4></li></ul>
+<li><h4><a href='/empathy/'>Empathy</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>

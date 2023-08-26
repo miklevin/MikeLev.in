@@ -83,7 +83,7 @@ fool-me-once won't get fooled again attitude. I was 40. It was 2010. I was
 losing altitude, terrified and motivated.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/all-my-sites-will-be-in-play/">All My Sites Will Be In Play</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/all-repos-under-github/">All Repos Under ~/github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/struggling-through-github-pages-startup-process/">Struggling Through Github Pages Startup Process</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-i-became-obsessive-about-obsolescence-proofing/">How I Became Obsessive About Obsolescence-Proofing</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

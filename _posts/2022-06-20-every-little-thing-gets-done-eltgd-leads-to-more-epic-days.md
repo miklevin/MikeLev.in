@@ -62,7 +62,7 @@ the support and HOW you're going to test it. Think! Okay, put in some category
 data on MikeLev.in (this file).
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories/">Github Pages Jekyll Previous/Next Arrows For Categories</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-every-morning-like-xmas-morning-non-stop-surprises-learning/">Making Every Morning Like Xmas Morning / Non-stop Surprises & Learning</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

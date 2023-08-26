@@ -4,7 +4,7 @@ title: "How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening"
 headline: "Discovering the Power of Emotional Intelligence: My Journey to Becoming an Emotional Superhero"
 description: Learn how to nurture relationships and not be emotionally bankrupt with the art of listening. Discover the five basic skills of emotional intelligence and how to apply them in relationships. Get inspired by the stories of Nelson Mandela, Martin Luther King Jr., and Gandhi. Find out how to make people feel good about themselves and rise to the occasion with emotional intelligence superpowers.
 keywords: AI-world, crawlers, log files, Github Jekyll, JavaScript-based analytics, browser automation, AI-bots, DMZ, Linux services, Microsoft, systemd, Jupyter Notebook server, JupyterLab server, GNU screen, .bash_profile, Python script, useragent, primary key, radar effect, SEO, Google Podcasts, Martin, Gary, Mike, Emotional Intelligence Superpowers, Marc Brackett, Talks at Google, emotional
-categories: microsoft, seo, browser automation, systemd
+categories: systemd, seo, browser automation, microsoft
 permalink: /blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/
 layout: post
 group: blog
@@ -209,11 +209,11 @@ reading.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-nurture-not-be-emotionally-bankrupt-the-art-of-listening/">How to Nurture & Not Be Emotionally Bankrupt: The Art of Listening</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/">A Few Little Kitties I Know, And The Lessons They Taught Me</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/spoiler-there-is-no-solla-sollew-the-solutions-are-within-you/">Spoiler: There Is No Solla Sollew. The Solutions Are Within You</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

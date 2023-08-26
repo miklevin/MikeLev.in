@@ -20,7 +20,7 @@ Hmm, I thought lxc files were the containers for the LXD service. I got some
 learnings to do.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/qnap-container-station-lxc-end-of-support-notification-move-to-lxd/">Qnap Container Station Lxc End Of Support Notification, Move To Lxd</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/gutting-dependencies-out-of-your-projects-life/">Gutting Dependencies Out Of Your Projects & Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/github-pages-jekyll-previous-next-arrows-for-categories/">Github Pages Jekyll Previous/Next Arrows For Categories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

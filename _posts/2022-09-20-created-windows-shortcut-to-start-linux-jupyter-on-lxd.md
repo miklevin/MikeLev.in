@@ -51,7 +51,7 @@ that dropping magic little sbin commands into place and calling ***them*** on
 the command-line seems to always work.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/created-windows-shortcut-to-start-linux-jupyter-on-lxd/">Created Windows Shortcut To Start Linux Jupyter on LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl2lxd-is-now-lxdwin-apt-pip-installs-done-graphics-implemented/">WSL2LXD is now lxdwin, Apt & Pip Installs Done. Graphics Implemented.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-two-maxwell-s-of-light-you-can-t-take-it-with-you/">The Two Maxwell's of Light / You Can't Take It With You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-symbolic-link-to-map-shared-folder-location-to-local-folder/">Windows Symbolic Link to Map Shared Folder Location to Local Folder</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

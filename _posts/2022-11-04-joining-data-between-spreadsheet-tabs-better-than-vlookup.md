@@ -68,7 +68,7 @@ The question now arises: what is the best way to log into Google services from
 Jupyter?
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/">Joining Data Between Spreadsheet Tabs Better Than VLookup</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/just-moving-life-forward/">Just Moving Life Forward</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/">Permission denied publickey fatal Could not read from remote repository</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

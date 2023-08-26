@@ -4,7 +4,7 @@ title: The Python Pandas .iloc Interface Explained For The Befuddled
 headline: Master the .iloc Interface of Pandas for Data Manipulation
 description: I'm sharing my knowledge of how to use Pandas, a data manipulation tool, to select columns from a DataFrame by using its name or the .loc or .iloc interfaces. I'll explain how to use slices to specify row and column ranges, how to use a colon to select all rows, and why the Pandas API has chosen to drop the use of square-brackets for slices.
 keywords: Python, Pandas, .iloc, DataFrame, Slicing, Strings, API, Square-Brackets, Colon, Positional Argument, Rows, Columns
-categories: panda, python, string
+categories: python, panda, string
 permalink: /blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/
 layout: post
 group: blog
@@ -222,10 +222,10 @@ Pshwew! Hope that helps. If so, follow me on YouTube and the social medias for
 more.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-python-pandas-iloc-interface-explained-for-the-befuddled/">The Python Pandas .iloc Interface Explained For The Befuddled</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-technology-predictions-for-2023/">My Technology Predictions For 2023</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/rotating-logo-returns-and-key-advice-in-life/">Rotating Logo Returns and Key Advice in Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/string/'>Strings</a></h4></li></ul>

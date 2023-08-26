@@ -137,7 +137,7 @@ Controlling your breath is the first step to growing up emotionally.
 Breath.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/honestly-fonzie/">Honestly, Fonzie</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/upgrading-jupyterlab-pip-installs/">Upgrading JupyterLab pip installs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/in-defense-of-flying-monkeys-recrimination-of-anti-narc-community/">In Defense of Flying Monkeys & Recrimination of Anti-Narc Community</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/yes-i-am-a-dick-bucket/">Yes, I Am a Dick Bucket</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

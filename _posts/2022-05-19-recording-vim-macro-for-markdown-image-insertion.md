@@ -49,7 +49,7 @@ selection. That was tricky!
 And you can see my [.vimrc file on Github](https://github.com/miklevin/vim).
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/little-things-big-changes/">Little Things, Big Changes</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/easy-peasy-computer-literacy/">Easy Peasy Computer Literacy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recording-vim-macro-for-markdown-image-insertion/">Recording vim macro for markdown image insertion</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

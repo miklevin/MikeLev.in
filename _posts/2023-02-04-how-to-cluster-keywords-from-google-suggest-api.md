@@ -4,7 +4,7 @@ title: How To Cluster Keywords From Google Suggest API
 headline: "Exploring Google Photos: Clustering Keywords with Python for SEO-Friendly Names"
 description: I'm exploring all the amazing features Google Photos has to offer, from converting HEIC to JPG to downloading, editing videos, and more. To come up with SEO-friendly names for my project, I wrote code to cluster keywords into groups and created a dictionary mapping each keyword to its group. I also wrote a function to find the most common two-word combination for each group and mapped that to the group name, creating a csv file with the results.
 keywords: Google Photos, HEIC, JPG, Video, SEO, Python, Code, Cluster, Dictionary, Group, CSV, Project, Query, Suggest API, Download, Edit, Convert, Backup, Crash, Freeze, Delete, Keyboard Shortcuts, Logo, Limit, Link, Movie Maker, Memories, Map, Magic Eraser, Collage, Metadata, Mirror Flip, Storage, Email, Gift, Game, Gallery, Gift Cards, QR Scanner, Quota Management, Quality Settings,
-categories: panda, python, google, seo, email
+categories: seo, google, panda, python, email
 permalink: /blog/how-to-cluster-keywords-from-google-suggest-api/
 layout: post
 group: blog
@@ -621,12 +621,12 @@ the scoring numbers I used are highly subjective. You may want to tweak them to
 for best results.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-cluster-keywords-from-google-suggest-api/">How To Cluster Keywords From Google Suggest API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words/">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-google-photos-api-to-generate-main-archive-favorite-media-lists/">Using Google Photos API to Generate Main, Archive & Favorite Media Lists</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/email/'>Email</a></h4></li></ul>

@@ -215,7 +215,7 @@ repo to stop it from interfering with the publishing of the new repo.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/git-rebase-i-root-vs-git-init-anew/">`git rebase -i --root` vs. `git init` anew</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ctrl-s-and-ctrl-space-amazingly-available-for-custom-vim-neovim-keyboard-shortcuts/">Ctrl+S and Ctrl+Space Amazingly Available For Custom vim/NeoVim Keyboard Shortcuts</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/1-text-file-journal-for-life-as-important-as-formal-education/">1 Text-file Journal For Life as Important as Formal Education</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/being-in-the-zone-vs-thinking-about-being-in-the-zone/">Being In The Zone vs. Thinking About Being In The Zone</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

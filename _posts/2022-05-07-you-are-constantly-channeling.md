@@ -4,7 +4,7 @@ title: You Are Constantly Channeling
 headline: "Unlocking the Secrets of Consciousness: Exploring the New Normal"
 description: I'm constantly channeling, but I don't always recognize it. My sensitivity levels have been lowered for my own peace of mind, but that doesn't mean I'm not still receiving messages. In this blog post, I'm capturing a droplet of that messaging and sharing it with you, so you can understand how consciousness works and why it's important to pay attention to these signals. Come explore this new normal with me.
 keywords: Channeling, Sensitivity, Messages, Consciousness, Stimulated, Droplet, Messaging, Sharing, New Normal, Nerves, Life, Trying, Capture
-categories: consciousness, message
+categories: message, consciousness
 permalink: /blog/you-are-constantly-channeling/
 layout: post
 group: blog
@@ -36,9 +36,9 @@ a droplet and push it out as a blog post like this one.
 > Least you go insane
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/message/'>Message</a></h4></li></ul>
+<li><h4><a href='/message/'>Message</a></h4></li>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li></ul>

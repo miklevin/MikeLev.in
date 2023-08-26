@@ -4,7 +4,7 @@ title: Is The Rise of AI The Fall of SEO? (systemd snapshot machine)
 headline: "Gaining Competitive Advantages with AI: My Journey with Jo and Systemd Snapshot Machine"
 description: As a passionate FOSS SEO professional, I remember the early days of search engine forums and giving advice on how to optimize websites. With the rise of AI, I recognize that my skills are becoming less applicable and understand the anxiety this may cause. I discussed my idea of collecting data to gain competitive advantages with Jo, and am now working on a systemd snapshot machine.
 keywords: SEO, AI, Search Engine, FOSS, Optimize, Web-Tracking, Intranet, VBScript, Keyword Suggestion, Observe, Record, Pictures, Collect Data, Systemd, Snapshot Machine
-categories: seo, systemd, ai
+categories: systemd, seo, ai
 permalink: /blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/
 layout: post
 group: blog
@@ -53,10 +53,10 @@ projects here, and I talked with Jo who likes where I'm going (I think), and so
 the systemd snapshot machine is coming.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/seeking-the-skinny-on-skinny-bob-via-youtube-user-ivan0135/">Seeking the Skinny on Skinny Bob via YouTube user ivan0135</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/">Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/">Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

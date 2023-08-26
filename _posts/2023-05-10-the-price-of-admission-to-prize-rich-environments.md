@@ -4,7 +4,7 @@ title: The Price of Admission to Prize-rich Environments
 headline: "Ready to Take on the Prize-Rich Environment: Embracing the Price of Admission."
 description: Discover how to create irresistible and irrepressible content with AI, and the price of admission to prize-rich environments. Learn from my experiences of producing content at my A-game and the lessons I've learned on how to win over abstract enemies.
 keywords: A-game, AI, Amplification, Content, Co-op Board, Infinite Spam Cannon, HitTail System, Irresistible, Irrepressible, Optimized Blog Posts, New York City, Prize-rich Environments, Real Enemies, Selling The Dream, Shark, Survival, Variable Revenue Component, War Stories, YouTube
-categories: new york city, youtube, ai
+categories: youtube, ai, new york city
 permalink: /blog/the-price-of-admission-to-prize-rich-environments/
 layout: post
 group: blog
@@ -100,10 +100,10 @@ a prize-rich environment.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ode-to-azrael-and-a-world-completely-changed/">Ode to Azrael And a World Completely Changed</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>

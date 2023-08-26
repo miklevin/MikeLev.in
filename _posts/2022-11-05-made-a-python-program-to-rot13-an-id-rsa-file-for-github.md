@@ -52,7 +52,7 @@ I just created the Python command.
 {% include youtubePlayer.html id="8J0zpdZSe_c" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/made-a-python-program-to-rot13-an-id-rsa-file-for-github/">Made a Python Program to Rot13 an id_rsa file for Github</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-things-easy/">Are Things Easy?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/">Joining Data Between Spreadsheet Tabs Better Than VLookup</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/just-moving-life-forward/">Just Moving Life Forward</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

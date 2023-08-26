@@ -4,7 +4,7 @@ title: Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)
 headline: Discovering the Difference Between Gerunds and Adjectives with Bing
 description: Confused about the difference between gerunds and adjectives that end in '-ing'? I asked Bing for help and was surprised to learn that gerunds are verbs that function as nouns, and adjectives are words that describe nouns. Bing also gave me the term for two words that are spelled identically but have different meanings based on context - homograph - and provided examples. We discussed how to differentiate between the words bing and binge.
 keywords: Netflix, Binging, Microsoft, Gerunds, Adjectives, Verbs, Nouns, Homograph, Search, Television, Homographs, Distinction, General, Audience, Cleverly, Effectively
-categories: microsoft, audience, search
+categories: audience, microsoft, search
 permalink: /blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/
 layout: post
 group: blog
@@ -123,10 +123,10 @@ immediately obvious because it's the cleverness of the comparison that makes it
 so potentially impactful.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vlogigng-from-bing-and-vim-to-youtube-and-github-pages/">Vlogigng from Bing and vim to YouTube and Github Pages</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/">How many roads must a man walk down before Microsoft gets you to Bing?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/audience/'>Audience</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li></ul>

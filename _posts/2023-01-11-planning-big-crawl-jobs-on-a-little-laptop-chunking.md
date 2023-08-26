@@ -38,7 +38,7 @@ go. Nice, sequential finite jobs. Even concurrency gets mapped onto sequential
 chunks, haha!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-big-crawl-jobs-on-a-little-laptop-chunking/">Planning Big Crawl Jobs On a Little Laptop (Chunking)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-critical-juncture-with-ai-my-next-steps/">The Critical Juncture With AI & My Next Steps</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/joining-urls-across-ga-gsc-majestic/">Joining URLs across GA, GSC & Majestic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/sorting-by-histogram-intersections-with-kmeans-clustering/">Sorting by Histogram Intersections with KMeans Clustering</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

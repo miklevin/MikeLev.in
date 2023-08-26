@@ -809,7 +809,7 @@ for index, series in df.iterrows():
 h2("Done!")
 ```
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/education-of-the-woogle-bug/">Education Of The Woogle Bug</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/having-the-confidence-to-diverge-from-nbdev-file-naming-convention/">Having The Confidence To Diverge From nbdev File Naming Convention</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/throw-all-the-meat-veggies-into-the-stew-stir-the-blog-vlog/">Throw All The Meat & Veggies Into The Stew & Stir The Blog / Vlog</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-ll-just-put-this-in-my-usr-local-sbin/">I'll Just Put This In My /usr/local/sbin/</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

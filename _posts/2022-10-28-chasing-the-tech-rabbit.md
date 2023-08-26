@@ -32,7 +32,7 @@ Browser automation in yet another road to VSCode. Beware. I'm taking you down
 the JupyterLab Server (on Linux) route.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life/">Cast a Homunculus Majordomo to Help Run Your Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

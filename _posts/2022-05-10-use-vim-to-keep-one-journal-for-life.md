@@ -4,7 +4,7 @@ title: Use vim to Keep One Journal For Life
 headline: Life-Changing Benefits of Using Vim to Journal
 description: I've been using Vim to journal and it has changed my life. It's difficult to learn, but the skills and muscle memory I've gained are permanent. Writing in Vim has helped me to better understand myself, and I've been able to use version control systems like Github to keep my .vimrc file with me wherever I go. I've also been learning new vim-tricks like buffers and registers to increase my power.
 keywords: Vim, Journaling, Skills, Muscle Memory, Version Control, Github, .vimrc, Buffers, Registers, journal.md
-categories: vim, journaling, muscle memory, git, journal.md
+categories: muscle memory, journal.md, vim, git, journaling
 permalink: /blog/use-vim-to-keep-one-journal-for-life/
 layout: post
 group: blog
@@ -106,12 +106,12 @@ for 10,000 benefit.
 And in case you haven't gotten the idea, you should make one file such as
 journal.md and use it for journaling for the rest of your life.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/anyone-who-tells-you-language-doesn-t-matter-is-a-lying-dumbass/">Anyone Who Tells You Language Doesn't Matter is a Lying Dumbass</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/enabling-vim-s-visual-block-mode-on-linux-wsl-ctrl-v/">Enabling vim's Visual Block mode on Linux WSL (Ctrl+v)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-driving-force-of-integration/">A Driving Force of Integration</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/use-vim-to-keep-one-journal-for-life/">Use vim to Keep One Journal For Life</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/journal-md/'>Journal.md</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

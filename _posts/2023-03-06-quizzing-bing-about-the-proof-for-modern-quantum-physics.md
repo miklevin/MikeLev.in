@@ -190,7 +190,7 @@ Here is the list of experiments I mentioned:
 1. The Quantum Hall Effect Experiment: Shows that the electrical conductivity of a two-dimensional electron gas can take on discrete values when subjected to a strong magnetic field.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/quizzing-bing-about-the-proof-for-modern-quantum-physics/">Quizzing Bing About the Proof For Modern Quantum Physics</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/which-are-the-least-credible-voices-in-the-ufo-uap-space/">Which Are The Least Credible Voices In The UFO / UAP Space?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dr-salvatore-pais-navy-ufo-pais-effect-or-schwinger-effect-recently-proved/">Dr. Salvatore Pais' Navy UFO Pais Effect (or Schwinger Effect) Recently Proved</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/stochastic-electrodynamics-sed-alternative-to-quantum-theory/">Stochastic Electrodynamics (SED) Alternative to Quantum Theory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

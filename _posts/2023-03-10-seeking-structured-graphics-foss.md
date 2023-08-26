@@ -4,7 +4,7 @@ title: Seeking Structured Graphics FOSS
 headline: Exploring Feedback Loops with Free and Open Source Software for Diagramming
 description: Bing is exploring feedback loops and free and open source software (FOSS) for diagramming. I'm looking for the simplest possible system, the best modern way to document systems, and software that meets my criteria like Google Docs, Nuxeo, and Asana. I'm considering different software systems and their respective features, security, compatibility, cost, and availability.
 keywords: FOSS, Bing, Feedback Loops, Structured Graphics, Google Docs, Nuxeo, Asana, Diagrams.net, System Dynamics, Control Theory, Website Hierarchies, Networks, Nodes, Connectors, Org Charts, Logic Flow, SVG, Cartesian, X/Y Axis Plots, Venn Diagrams, Visual Paradigm Online, Diagramo, Flowcharts, ERD, HTML5, JavaScript, Linux, Web Browser
-categories: javascript, node, network, google, bing, linux
+categories: node, google, javascript, linux, bing, network
 permalink: /blog/seeking-structured-graphics-foss/
 layout: post
 group: blog
@@ -259,13 +259,13 @@ Expand the list now to include proprietary software. Try to list at least 10 and
 Sorry, you've reached the limit of messages you can send to Bing within 24 hours. Check back soon!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-structured-graphics-foss/">Seeking Structured Graphics FOSS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-are-the-most-important-news-for-me-to-know-today/">What are the most important news for me to know today?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/">Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/node/'>Node</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/network/'>Network</a></h4></li></ul>

@@ -225,7 +225,7 @@ That's about it for this video. It was a great successful moment. Anything
 further I do warrants a separate video.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/connecting-to-the-moz-links-api-v1-for-the-first-time/">Connecting to the Moz Links API V1 For the First Time</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/continuing-my-silent-live-streaming-journaling-adventure/">Continuing My Silent Live-Streaming Journaling Adventure</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/journaling-in-public-with-copilot-for-the-sake-of-it/">Journaling In Public With Copilot For The Sake of It</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/curiouser-and-curiouser-personal-journaling-w-ai/">Curiouser and Curiouser Personal Journaling w/AI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

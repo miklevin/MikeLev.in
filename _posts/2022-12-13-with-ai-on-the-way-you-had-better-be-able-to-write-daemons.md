@@ -4,7 +4,7 @@ title: With AI On The Way, You Had Better Be Able to Write Daemons
 headline: "Unlock Your WSL Potential: Learn to Create Daemons with Systemd"
 description: I am engaging in controlled burns of my personal sites to optimize them for SEO, creating video content, writing to express my thoughts, taking up a 'magic spell' to free myself from Windows dependency, and planting the seed of my vibe on a homepage kernel. I am a wizard or mad scientist who wants to lead people through their WSL experience with a twist, warn them of the allures of vendor-ware, and promote HTML5, JavaScript, C, and Unix.
 keywords: AI, Writing, Daemons, SEO, Video Content, Magic Spell, Windows Dependency, Homepage Kernel, Wizard, Mad Scientist, WSL, Systemd, Web Development, Vendor-ware, HTML5, JavaScript, C, Unix, Levinux, Drinkme
-categories: journaling, javascript, systemd, web development, seo, drinkme, ai, wsl, levinux, linux
+categories: systemd, ai, drinkme, seo, linux, javascript, web development, wsl, levinux, journaling
 permalink: /blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/
 layout: post
 group: blog
@@ -191,17 +191,17 @@ a way because it promotes the mikelev.in/ux url. I'm glad that's the way I'm
 recycling that URL. Wow, okay.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/with-ai-on-the-way-you-had-better-be-able-to-write-daemons/">With AI On The Way, You Had Better Be Able to Write Daemons</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-all-pages-all-at-once/">Editing All Pages All At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-github-pages-mermaid-diagrams/">Testing Github Pages Mermaid Diagrams</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fusion-ignition-achieved-q-1-thanks-to-lawrence-livermore-national-laboratory/">Fusion Ignition Achieved! Q = 1 Thanks to Lawrence Livermore National Laboratory</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

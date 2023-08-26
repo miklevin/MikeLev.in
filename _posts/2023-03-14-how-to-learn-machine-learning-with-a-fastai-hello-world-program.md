@@ -4,7 +4,7 @@ title: How To Learn Machine Learning With a FastAI Hello World Program
 headline: "Learning AI with FastAI: A Quick and Easy Introduction to Machine Learning"
 description: I'm learning about AI and parameters, which are variables that determine how an AI model behaves. GPT-4 is an example of a large language model with 170 trillion parameters. I'm using FastAI to quickly learn the fundamentals of deep learning, but I'm also exploring other sources of knowledge to stay ahead of the curve. If you're interested in learning more about AI, I recommend starting with FastAI and supplementing it with other resources to gain a deeper understanding.
 keywords: Machine Learning, FastAI, AI, Parameters, Variables, GPT-4, Deep Learning, Jeremy Howard, Mathematics, Algorithms, Recognize, Classify, Handwritten Digits
-categories: algorithm, ai
+categories: ai, algorithm
 permalink: /blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/
 layout: post
 group: blog
@@ -224,9 +224,9 @@ These are some examples of books that can help you gain a deeper understanding o
 Learning AI is a lifelong journey that requires curiosity, passion and dedication. FastAI can help you get started quickly and easily but it cannot teach you everything. You need to explore other sources of knowledge and keep updating your skills as the field evolves.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-learn-machine-learning-with-a-fastai-hello-world-program/">How To Learn Machine Learning With a FastAI Hello World Program</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bing-reads-my-machine-learning-general-license-writes-haiku-about-me/">Bing Reads My Machine Learning General License & Writes Haiku About Me</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/browser-session-screenshot-video-dom-recorder-app-to-test-chatbot-ai-bias/">Browser Session Screenshot, Video & DOM Recorder App to Test ChatBot AI Bias</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/cringy-long-ufo-uap-video-eric-weinstein-mick-west-talk-for-hours/">Cringy & Long UFO/UAP Video: Eric Weinstein & Mick West Talk For Hours</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>

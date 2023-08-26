@@ -41,7 +41,7 @@ slug: blog
 This is a test.
 ```
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/turning-repo-into-nbdev-project/">Turning Repo into nbdev Project</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/creating-blog-index-page-for-jekyll/">Creating Blog Index Page for Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-project-gets-done-elpgd/">Every Little Project Gets Done (ELPGD)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

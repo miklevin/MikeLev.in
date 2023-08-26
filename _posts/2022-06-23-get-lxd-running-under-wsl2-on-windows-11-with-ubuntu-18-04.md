@@ -4,7 +4,7 @@ title: Get LXD Running Under WSL2 on Windows 11 with Ubuntu 18.04
 headline: Get LXD Up and Running on Windows 11 with Ubuntu 18.04
 description: Learn how I got LXD running on Windows 11 with Ubuntu 18.04. I'll show you how to download the install.sh file, enable systemd, and test if it's running. Plus, I'll share how to fix failed attempts and start fresh. Get all the steps you need to get LXD up and running today.
 keywords: LXD, WSL2, Windows 11, Ubuntu 18.04, Install.sh, Systemd, Distrod, Enable, Ps, Comm, Purge, Delete, Fresh Attempt
-categories: microsoft, container, journaling, systemd, wsl
+categories: systemd, container, microsoft, wsl, journaling
 permalink: /blog/get-lxd-running-under-wsl2-on-windows-11-with-ubuntu-18-04/
 layout: post
 group: blog
@@ -60,12 +60,12 @@ There's also advice on sharing host volumes (including home):
 - https://www.cyberciti.biz/faq/how-to-add-or-mount-directory-in-lxd-linux-container/
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/get-lxd-running-under-wsl2-on-windows-11-with-ubuntu-18-04/">Get LXD Running Under WSL2 on Windows 11 with Ubuntu 18.04</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-tricks-why-the-walrus-fears-the-carpenter/">vim tricks: Why The Walrus Fears The Carpenter</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/on-being-unstoppable-apis-lxd-lxd-under-wsl2-success/">On Being Unstoppable, APIs & LXD / LXD Under WSL2 (Success!)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxd-linux-containers-in-windows-linux-wsl2-but-what-is-home/">LXD Linux Containers in Windows Linux WSL2, But What Is Home?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

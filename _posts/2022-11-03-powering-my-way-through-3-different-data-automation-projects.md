@@ -139,7 +139,7 @@ racing. Looking forward to editing that email I auto-send to myself. Don't let
 myself overlook it!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/powering-my-way-through-3-different-data-automation-projects/">Powering My Way Through 3 Different Data Automation Projects</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/joining-data-between-spreadsheet-tabs-better-than-vlookup/">Joining Data Between Spreadsheet Tabs Better Than VLookup</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/permission-denied-publickey-fatal-could-not-read-from-remote-repository/">Permission denied publickey fatal Could not read from remote repository</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

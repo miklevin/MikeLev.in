@@ -141,7 +141,7 @@ are made, sometimes in life-crippling ways and sometimes in life-broadening
 ways.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/managing-static-vs-dynamic-leads-to-practical-fusion-a-better-you/">Managing Static Vs. Dynamic Leads to Practical Fusion & a Better You</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/e-e-a-t-the-new-google-quality-guidelines/">E-E-A-T The New Google Quality Guidelines</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/me-vs-chatgpt-tell-me-why-i-should-use-the-python-programming-language/">Me vs. ChatGPT: Tell me why I should use the Python programming language.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/but-should-we-still-blog-should-it-all-just-fade-away/">But Should We Still Blog? Should It All Just Fade Away?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

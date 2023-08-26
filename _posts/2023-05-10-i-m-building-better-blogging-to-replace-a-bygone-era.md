@@ -4,7 +4,7 @@ title: I'm Building Better Blogging to Replace a Bygone Era
 headline: Building a New Era of Better Blogging with NeoVim and ASCII Art
 description: I'm building better blogging to replace a bygone era of CMSes like WordPress, MovableType, and Squarespace. I'm testing my first plugin in NeoVim to make ASCII art easier and exploring the wonders of static site generators to remove dependence on back-end tools. I'm also looking at the power of YAML, Markdown, and Liquid template systems to create perfectly optimized pages for SEO.
 keywords: date, Wed, May, 10, 2023, ASCII Art, NeoVim, Diagrams, Mermaid JS, Rendering, Engine, JavaScript, Online Service, Integration, Github, Gems, CDN, SVG, Pre-Rendering, Markdown, Language, Static Site Generators, WordPress, Joomla, Drupal, CMSes, Google Blogger, Blogspot, MovableType, Squarespace, Web Hosts, Server-Side, Dynamic, Client-
-categories: vim, wordpress, git, javascript
+categories: vim, javascript, wordpress, git
 permalink: /blog/i-m-building-better-blogging-to-replace-a-bygone-era/
 layout: post
 group: blog
@@ -343,11 +343,11 @@ visitors with that wonderful keyworded previous/next arrow navigation that is
 as relevant today as it ever was, albeit not quite so super-juicy a secret
 weapon for SEO as it once was.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/now-the-github-miklevin-yamlchop-repo-has-a-readme-md/">Now The Github miklevin/yamlchop Repo has a README.md</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

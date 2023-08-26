@@ -4,7 +4,7 @@ title: A New Way To Visualize General Relativity
 headline: "Exploring General Relativity with Python Manim: My Journey Begins"
 description: Today was a big day for me - I installed Manim on my Windows machine, used Chocolatey to install vim, and Powershell to create .py files. To top it off, I sent a video that visualizes general relativity. I'm really enjoying exploring the Python Manim math visualization and animation package and all the possibilities it offers. Come join me on my journey and explore the wonders of Python Manim!
 keywords: Manim, Windows, Chocolatey, Powershell, Python, Math, Visualization, Animation, General Relativity, Curvature, Space, Time, Virtualenv, JupyterLab
-categories: microsoft, virtualenv, python, powershell, jupyter
+categories: microsoft, virtualenv, jupyter, python, powershell
 permalink: /blog/a-new-way-to-visualize-general-relativity/
 layout: post
 group: blog
@@ -41,12 +41,12 @@ space gives rise to time. Amazing! I can really appreciate her interest in the
 Python Manim math visualization and animation package.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/vim-b1-commands-much-force-like-obi-wan/">vim :b1 Commands Much Force Like Obi-Wan</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/path-f-path-mkdir-parents-true-exist-ok-true/">Path(f'{\_path}').mkdir(parents=True, exist_ok=True)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-new-way-to-visualize-general-relativity/">A New Way To Visualize General Relativity</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/powershell/'>Powershell</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/powershell/'>Powershell</a></h4></li></ul>

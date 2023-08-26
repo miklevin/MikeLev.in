@@ -356,7 +356,7 @@ The researchers spread a special mixture of chemicals throughout the Mushroom Mo
 In the end, the Myco Raiders were defeated, and the Mushroom Mother was able to recover from the damage caused by their greed. The researchers continued to study the Mushroom Mother, hoping to learn more about the incredible organism and its role in the galaxy.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/time-dilating-galactic-nomads-slingshotting-around-outer-rim-of-galactic-plane/">Time Dilating Galactic Nomads Slingshotting Around Outer Rim of Galactic Plane</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/a-reasoning-benchmark-test-for-ai-if-a-b-then-superscience-see/">A Reasoning Benchmark Test for AI: If A & B, then Superscience... See!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/are-line-of-sight-powered-robots-with-scalable-neural-processing-possible/">Are Line of Sight Powered Robots With Scalable Neural Processing Possible?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-lex-fridman-interview-with-sam-altman-on-gai/">The Lex Fridman Interview with Sam Altman on GAI</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

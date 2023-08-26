@@ -4,7 +4,7 @@ title: "Bing: What is the most important advice in life?"
 headline: Bing Offers Important Advice for Living a Meaningful Life
 description: On March 21, 2023, I asked Bing for the most important advice in life. Bing suggested I prioritize my tasks, take care of myself, and connect with others. When I asked what to do if I'm feeling alone, Bing suggested reaching out to someone I trust, finding a community, and taking care of myself. Finally, I asked what is the best thing I can do for my child and Bing suggested visiting the zoo, taking a book out of the library, and going for a walk.
 keywords: Bing, Advice, Prioritize, Tasks, Take Care, Connect, Others, Feeling Alone, Reach Out, Community, Child, Zoo, Library, World, Population, Digital Revolution, Medicine, Climate Change, Fossil Fuels, Warming, Tips, Stay True, Love, Environment, Friends, Habits, Uncertainty, Vulnerable, Courage, Malice, Stupidity, Breathing, Calmer, Healthier, Happier, Marry, Best Friend
-categories: child, bing
+categories: bing, child
 permalink: /blog/bing-what-is-the-most-important-advice-in-life/
 layout: post
 group: blog
@@ -134,9 +134,9 @@ Source: Conversation with Bing, 3/20/2023
     (10) 21 Wise Pieces Of Life Advice Everyone Needs To Know - Live Bold and Bloom. https://liveboldandbloom.com/07/self-awareness/good-life-advice Accessed 3/20/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-what-is-the-most-important-advice-in-life/">Bing: What is the most important advice in life?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-the-singularity-to-galactic-3d-printed-mycelial-network/">From The Singularity to Galactic 3D Printed Mycelial Network</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hands-on-with-moz-products-clarification-of-what-s-what/">Hands-on With Moz Products & Clarification of What's What</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/introducing-a-next-gen-seo-project/">Introducing A Next Gen SEO Project</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/child/'>Child</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/child/'>Child</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Be Mickey. Don't Be The Brooms (Losing Jobs to AI)
 headline: "Be the Sorcerer's Apprentice: Learn the LPvg Stack and Don't Lose Your Job to AI!"
 description: Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.
 keywords: Linux, Python, Vim, Git, LPvg Stack, Windows, Mac, Cloud, Open Source, Future-Proof, Command Line, AI, JavaScript, Rust, Go, MyKoz.AI, Sorcerer's Apprentice, Mickey Mouse, Automation, Data Scientists
-categories: microsoft, vim, javascript, open source, python, git, ai, mac, linux
+categories: microsoft, mac, ai, linux, vim, javascript, open source, python, git
 permalink: /blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/
 layout: post
 group: blog
@@ -83,16 +83,16 @@ to lose your job to somebody ***using*** AI. Be Mickey. Don't be a broom.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/">Be Mickey. Don't Be The Brooms (Losing Jobs to AI)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/clarifying-mykoz-ai-mission-from-zero-to-real-foss-automation-in-1-hour/">Clarifying MyKoz.AI Mission: From Zero to REAL FOSS Automation in 1 Hour</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/realtime-learning-human-feedback-rlhf-now-automated-courtesy-of-bing/">Realtime Learning Human Feedback (RLHF), Now Automated Courtesy of Bing!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/open-source/'>Open Source</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

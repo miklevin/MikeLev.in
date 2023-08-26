@@ -4,7 +4,7 @@ title: nbdev Makes .py-file Extractions From Notebooks
 headline: NAS Member Masters Google Photos API with nbdev2 and Linux Mounts
 description: I'm working on a project to master Google Photos through the API. To do this, I'm introducing nbdev2 and using Linux mounts to synchronize my WSL Linux ~/data directory on my Windows laptop with my ~/data directory on the NAS LXD server. As a member of the National Academy of Sciences (NAS), I'm proud to be part of an organization that promotes excellence in scientific research and works to advance science for the betterment of humanity.
 keywords: nbdev, Google Photos, API, Linux, WSL, Windows, NAS, LXD, National Academy of Sciences, NAS, non-profit, scientific research, advance science, humanity
-categories: microsoft, container, python, google, wsl, nbdev, linux
+categories: microsoft, container, linux, google, wsl, python, nbdev
 permalink: /blog/nbdev-makes-py-file-extractions-from-notebooks/
 layout: post
 group: blog
@@ -104,14 +104,14 @@ Alright, it's all working under nbdev2 on my local laptop, both as a Notebook
 and an extracted .py-file. Time to git commit, push and hop on over to the NAS.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks/">nbdev Makes .py-file Extractions From Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/backup-google-photos-to-self-hosted-alternative/">Backup Google Photos to Self Hosted Alternative</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words/">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-ais-will-find-you-if-you-re-unique/">The AIs Will Find You If You're Unique</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

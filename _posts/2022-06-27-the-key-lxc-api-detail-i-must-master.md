@@ -20,7 +20,7 @@ I need to understand this command:
     lxc exec foo -- su --login ubuntu
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-key-lxc-api-detail-i-must-master/">The Key LXC API Detail I Must Master</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/fairly-certain-i-had-a-brush-with-catknappers/">Fairly Certain I Had a Brush With Catknappers</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/figuring-out-the-lxd-lxc-command-line-api/">Figuring Out The LXD/LXC Command-line API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-the-who-what-why-when-where-how-to-site-nav/">Adding the Who, What, Why, When, Where & How To Site Nav</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

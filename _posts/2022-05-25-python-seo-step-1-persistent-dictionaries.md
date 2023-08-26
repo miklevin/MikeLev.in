@@ -4,7 +4,7 @@ title: "Python SEO Step #1: Persistent Dictionaries"
 headline: "Master Python for SEO: Learn to Target Keywords, Collect Data, and Use Machine Learning Algorithms"
 description: In this session, I will teach you how to use Python for SEO, including how to target keywords, collect data, and use machine learning algorithms. We will use JupyterLab, Python dictionaries, and a context manager to eliminate extra code. I will also discuss SqliteDict, a free and open source SQL database, as a key/value system. Learn how to use URLs as keys in key/value pair systems.
 keywords: Python, SEO, JupyterLab, Python Dictionaries, Context Manager, SqliteDict, SQL Database, NoSQL, Key/Value Pair Systems, URLs, Keys, Value, Rows, Columns, Machine Learning Algorithms, Target Keywords, Collect Data
-categories: key, python, seo, value, database, jupyter
+categories: seo, key, jupyter, value, python, database
 permalink: /blog/python-seo-step-1-persistent-dictionaries/
 layout: post
 group: blog
@@ -186,13 +186,13 @@ Cure to anxiety, groudlessness, existential crisis, plagues of youth.
 > Figure out how to release already built-up potential.<br />
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-seo-step-1-persistent-dictionaries/">Python SEO Step #1: Persistent Dictionaries</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/trying-to-get-python-sbin-commands-from-nbdev/">Trying to get Python sbin commands from nbdev</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/1991-was-an-eventful-year-for-tech/">1991 Was An Eventful Year For Tech</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/write-python-webcrawler-toil-talk-w-audience/">Write Python Webcrawler! Toil & Talk w/Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/key/'>Keys</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/key/'>Keys</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/value/'>Value</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li></ul>

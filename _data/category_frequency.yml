@@ -1247,6 +1247,9 @@ dictitems:
   app bundles:
     count: 1
     title: App Bundles
+  app icons:
+    count: 1
+    title: App Icons
   app store:
     count: 1
     title: App Store
@@ -1317,7 +1320,7 @@ dictitems:
     count: 1
     title: Approximations
   apps:
-    count: 5
+    count: 6
     title: Apps
   april 4:
     count: 1
@@ -1539,8 +1542,8 @@ dictitems:
     count: 1
     title: Attribution
   audible:
-    count: 1
-    title: audibles
+    count: 2
+    title: Audible
   audience:
     count: 9
     title: Audience
@@ -1610,6 +1613,9 @@ dictitems:
   automatic:
     count: 1
     title: Automatic
+  automatically copy selection:
+    count: 1
+    title: Automatically Copy Selection
   automating:
     count: 3
     title: Automating
@@ -1877,6 +1883,9 @@ dictitems:
   belief:
     count: 2
     title: Belief
+  bell:
+    count: 1
+    title: Bell
   bell experiments:
     count: 1
     title: Bell Experiments
@@ -2874,7 +2883,7 @@ dictitems:
     count: 1
     title: Chat bots
   chatbot:
-    count: 8
+    count: 9
     title: Chatbot
   chatbot technology:
     count: 1
@@ -3116,6 +3125,9 @@ dictitems:
   climate change:
     count: 3
     title: Climate Change
+  clipboard:
+    count: 1
+    title: Clipboard
   clippy:
     count: 1
     title: Clippy
@@ -3776,6 +3788,9 @@ dictitems:
   control click:
     count: 1
     title: Control Click
+  control key:
+    count: 1
+    title: Control Key
   control list:
     count: 1
     title: Control List
@@ -3852,7 +3867,7 @@ dictitems:
     count: 2
     title: copy-paste
   copy/paste:
-    count: 7
+    count: 8
     title: Copy/Paste
   copying:
     count: 1
@@ -9872,6 +9887,12 @@ dictitems:
   launch:
     count: 3
     title: Launch
+  launch mode:
+    count: 1
+    title: Launch Mode
+  launch parameters:
+    count: 1
+    title: Launch Parameters
   launchd:
     count: 1
     title: Launchd
@@ -10248,7 +10269,7 @@ dictitems:
     count: 1
     title: Linux Standard Base
   linux terminal:
-    count: 6
+    count: 7
     title: Linux Terminal
   linux torvalds:
     count: 3
@@ -11171,6 +11192,9 @@ dictitems:
   maximize success:
     count: 1
     title: Maximize Success
+  maximized:
+    count: 1
+    title: Maximized
   "maxwell heaviside schr\xF6dinger":
     count: 1
     title: "Maxwell Heaviside Schr\xF6dinger"
@@ -11487,7 +11511,7 @@ dictitems:
     count: 1
     title: Microsoft Campus
   microsoft edge:
-    count: 5
+    count: 6
     title: Microsoft Edge
   microsoft images search:
     count: 1
@@ -11517,7 +11541,7 @@ dictitems:
     count: 2
     title: Microsoft Subsystem for Linux
   microsoft terminal:
-    count: 2
+    count: 3
     title: Microsoft Terminal
   microsoft video:
     count: 1
@@ -11994,7 +12018,7 @@ dictitems:
     count: 1
     title: Multiplying/Dividing
   multitasking:
-    count: 2
+    count: 3
     title: Multitasking
   multiverse:
     count: 2
@@ -12195,7 +12219,7 @@ dictitems:
     count: 1
     title: Nbconvert
   nbdev:
-    count: 16
+    count: 17
     title: nbdev
   nbdev2:
     count: 1
@@ -13473,7 +13497,7 @@ dictitems:
     count: 1
     title: personality types
   personalization:
-    count: 1
+    count: 2
     title: Personalization
   personalized responses:
     count: 2
@@ -14301,7 +14325,7 @@ dictitems:
     count: 1
     title: programmer
   programming:
-    count: 17
+    count: 18
     title: Programming
   programming language:
     count: 1
@@ -14604,7 +14628,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 198
+    count: 199
     title: Python
   python 3:
     count: 1
@@ -16274,6 +16298,9 @@ dictitems:
   selectively override:
     count: 1
     title: selectively override
+  selects:
+    count: 1
+    title: Selects
   selenium:
     count: 1
     title: Selenium
@@ -16458,7 +16485,7 @@ dictitems:
     count: 1
     title: SERP-Scraping
   serps:
-    count: 2
+    count: 3
     title: SERPs
   servant:
     count: 1
@@ -16515,7 +16542,7 @@ dictitems:
     count: 1
     title: SETI
   setting:
-    count: 6
+    count: 7
     title: Settings
   settings.ini:
     count: 4
@@ -16922,6 +16949,9 @@ dictitems:
   small steps:
     count: 1
     title: small steps
+  small taskbar buttons:
+    count: 1
+    title: Small Taskbar Buttons
   small wins:
     count: 1
     title: Small Wins
@@ -17436,7 +17466,7 @@ dictitems:
     count: 1
     title: Starting Out
   startup:
-    count: 1
+    count: 2
     title: Startup
   startup bro culture:
     count: 1
@@ -18075,7 +18105,7 @@ dictitems:
     count: 1
     title: syntax highlighting
   system:
-    count: 21
+    count: 22
     title: System
   system alignment:
     count: 1
@@ -18219,7 +18249,7 @@ dictitems:
     count: 1
     title: Task Scheduler
   taskbar:
-    count: 5
+    count: 6
     title: Taskbar
   taskbar icon:
     count: 1
@@ -19617,7 +19647,7 @@ dictitems:
     count: 2
     title: Vice President
   video:
-    count: 34
+    count: 35
     title: Video
   video card driver:
     count: 1
@@ -19665,7 +19695,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 125
+    count: 126
     title: Vim
   vim buffer:
     count: 1
@@ -19808,6 +19838,9 @@ dictitems:
   visual studio code:
     count: 1
     title: Visual Studio Code
+  visual-block:
+    count: 1
+    title: Visual-Block
   visualization:
     count: 6
     title: Visualization
@@ -20024,6 +20057,9 @@ dictitems:
   web login:
     count: 1
     title: Web Login
+  web pages:
+    count: 1
+    title: Web Pages
   web publisher:
     count: 1
     title: Web Publisher
@@ -20217,7 +20253,7 @@ dictitems:
     count: 84
     title: Windows
   windows 10:
-    count: 27
+    count: 28
     title: Windows 10
   windows 10 version 21h2:
     count: 1
@@ -20576,6 +20612,9 @@ dictitems:
   youtube videos:
     count: 1
     title: YouTube Videos
+  youtube,:
+    count: 1
+    title: YouTube,
   youtuber:
     count: 1
     title: YouTuber

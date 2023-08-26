@@ -4,7 +4,7 @@ title: WSL Linux Graphics and Systemd Support Takes Priority Over LXD
 headline: Prioritizing Linux Graphics and Systemd Over LXD in WSL - Check Out My Repository 'drinkme'
 description: "I'm MikleVin and I recently created a new repository to prioritize getting Linux graphics and SYSTEMD working over LXD Linux Containers in the Windows Subsystem for Linux. Check out my repository 'drinkme' at https://github.com/miklevin/drinkme and stay tuned for my upcoming video to explain these changes."
 keywords: WSL, Linux, Graphics, Systemd, LXD, Containers, Windows, Subsystem, MikleVin, Repository, Drinkme, Video, Prioritize, Changes
-categories: microsoft, container, change, systemd, drinkme, wsl, graphic, linux
+categories: container, systemd, microsoft, drinkme, linux, change, wsl, graphic
 permalink: /blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/
 layout: post
 group: blog
@@ -59,15 +59,15 @@ It's time to make a video, right? ASAP. The iron is hot. Lots of people are
 probably trying to figure out what these changes mean.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/wsl-linux-graphics-and-systemd-support-takes-priority-over-lxd/">WSL Linux Graphics and Systemd Support Takes Priority Over LXD</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-bottom-turtle-is-microsoft-and-that-s-okay/">The Bottom Turtle is Microsoft, and That's Okay</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/microsoft-added-linux-graphics-and-systemd-to-wsl-for-windows-10/">Microsoft Added Linux Graphics and Systemd to WSL for Windows 10</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/lxdwin-is-now-the-drinkme-jupyterlab-linux-install-script/">LXDWIN is now the DrinkMe JupyterLab Linux Install Script</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>

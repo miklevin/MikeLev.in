@@ -38,7 +38,7 @@ Okay, now get rid of the password. And another video:
 {% include youtubePlayer.html id="lzGO_y8QN1U" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/setting-up-qnap-nas-lxd-linux-container-on-container-station/">Setting Up QNAP NAS LXD Linux Container on Container Station</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-do-i-not-have-a-portable-power-station-already/">How Do I Not Have a Portable Power Station Already?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-my-local-24x7-place-to-run-code/">Getting My Local 24x7 Place to Run Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/bank-a-win-then-figure-out-how-you-did-it/">Bank a Win Then Figure Out How You Did It</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

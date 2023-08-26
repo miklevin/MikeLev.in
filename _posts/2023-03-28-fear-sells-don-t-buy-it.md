@@ -81,7 +81,7 @@ Care. Empathy. Creative problem solving. Indomitable spirit. And be Teflon as
 the Gipper.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fear-sells-don-t-buy-it/">Fear Sells. Don't Buy It.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/qnap-hybrid-sync-backup-warnings-failed-to-copy-all-data-and-attributes/">QNAP Hybrid Sync Backup Warnings Failed to copy all data and attributes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/marathon-live-streaming-getting-copilot-working-in-neovim/">Marathon Live Streaming Getting Copilot Working in NeoVim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-copilot-to-help-with-daily-journaling/">Using Copilot to Help With Daily Journaling</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

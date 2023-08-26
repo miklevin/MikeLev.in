@@ -4,7 +4,7 @@ title: Rethinking a Career in SEO
 headline: Exploring the Implications of a New Era of Search Engines on My Career in SEO
 description: As an SEO professional, I am rethinking my career in light of the new era of search engines. Google's dominance has been challenged by ChatGPT and Microsoft, and content production techniques that don't add value are now being ignored. I'm noticing that Google is favoring incumbents more than ever, and the old PageRank system is slowly being replaced by other systems. I'm exploring the implications of this shift, and the impact it will have on my career.
 keywords: SEO, Career, Rethinking, Google, ChatGPT, Microsoft, Content Production, Value, Unique, Undiscovered, Algorithms, PageRank, Discover, Knowledge Graph, Incumbents, Results
-categories: microsoft, unique, google, seo, value, ai, algorithm
+categories: microsoft, ai, seo, google, unique, value, algorithm
 permalink: /blog/rethinking-a-career-in-seo/
 layout: post
 group: blog
@@ -86,14 +86,14 @@ systems, no longer layered-in and like the old Universal Results, Knowledge
 Graph and various carousel systems get replaced by complete alternative
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rethinking-a-career-in-seo/">Rethinking a Career in SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-a-systemd-service-with-chatgpt/">Making a SystemD Service With ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/being-an-seo-from-icky-guy-to-ikigai-in-20-short-years/">Being An SEO: From Icky Guy to Ikigai in 20 Short Years</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/">Like Microsoft Always Said, Try To Put a Bing In The Universe</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/unique/'>Unique</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/value/'>Value</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/unique/'>Unique</a></h4></li>
+<li><h4><a href='/value/'>Value</a></h4></li>
 <li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>

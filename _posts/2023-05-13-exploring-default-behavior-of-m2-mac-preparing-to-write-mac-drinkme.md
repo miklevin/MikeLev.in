@@ -4,7 +4,7 @@ title: Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe
 headline: Exploring Default Behavior of M2 Mac - Uncovering Unexpected Challenges in Preparing to Write Mac DrinkMe
 description: Follow my exploration of the default behavior of an M2 Mac as I prepare to write a Mac DrinkMe install for Undisruptible Linux. I investigate running bash scripts on Mac with a double-click, the old .app bundling technique, and the ability to open apps from unidentified developers using control-click. I refresh myself on Mac's excellent virtual desktop implementation and built-in screen recording feature.
 keywords: Mac, MacBook Pro, M2 Pro chip, LCD weirdness, Keyboard, Control/Function keys, Option/Command keys, DrinkMe, Linux, Undisruptable Linux, Multipass, Cloud-init, Jupyterlab, Terminal, Bash, Script, Intel, RosettaUpdateAuto, MacOS Ventura, Recovery Mode, Safari, Levinux, ASCII, White Rabbit, Google, Chrome, Edge, Safari, Amiga, iCloud, Finder, Control Click, Secondary
-categories: amiga, python, google, drinkme, mac, levinux, jupyter, linux
+categories: mac, drinkme, linux, google, jupyter, amiga, levinux, python
 permalink: /blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/
 layout: post
 group: blog
@@ -397,15 +397,15 @@ trying to get you to click on their ads.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/exploring-default-behavior-of-m2-mac-preparing-to-write-mac-drinkme/">Exploring Default Behavior of M2 Mac, Preparing to Write Mac DrinkMe</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-do-i-mean-by-cutting-catapult-ropes/">What Do I Mean by Cutting Catapult Ropes?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/keeping-wsl2-systemd-alive-with-a-nohup-ping-from-bash-profile-now-running-only-once/">Keeping WSL2 systemd Alive With a nohup ping From .bash_profile, Now Running only Once!</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/matter-doesn-t-matter-except-the-matter-you-take-into-your-body/">Matter Doesn't Matter, Except The Matter You Take Into Your Body</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/drinkme/'>DrinkMe</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

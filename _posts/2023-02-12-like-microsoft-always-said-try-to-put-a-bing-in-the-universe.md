@@ -4,7 +4,7 @@ title: Like Microsoft Always Said, Try To Put a Bing In The Universe
 headline: "Uncovering Microsoft's Plans to Compete with Google: My Quest to Find Alternatives to ChatBot Prometheus"
 description: As an SEO expert, I love helping people find what they need online, but I despise how it is used to promote and shill poor-quality products. In the past, Google encouraged the creation of large websites with interconnected content to make them more discoverable, but this caused a lot of technical debt. Microsoft is now taking advantage of this by controlling Windows, Github, VSCode, and the default browser on the desktop.
 keywords: Microsoft, Bing, SEO, Google, Windows, Github, VSCode, Browser, ChatBot, Prometheus, Domain Authority, SERPs, Links, Quality, Age, Total Links, Strength
-categories: microsoft, chatbot, google, seo, git, bing
+categories: microsoft, seo, google, chatbot, bing, git
 permalink: /blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/
 layout: post
 group: blog
@@ -145,13 +145,13 @@ Domain Authority is calculated based on various factors, including the number an
 
 Improving your website's Domain Authority can help improve your website's search engine rankings and visibility, but it is important to note that it is just one of many factors that search engines consider when ranking websites, and that it is not a direct ranking factor. Additionally, since Domain Authority is relative and logarithmic, it is difficult to see significant improvements over short periods of time.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/">Like Microsoft Always Said, Try To Put a Bing In The Universe</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/figure-out-why-vim-journaling-is-an-asset/">Figure Out Why vim Journaling is an Asset</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rethinking-a-career-in-seo/">Rethinking a Career in SEO</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/making-a-systemd-service-with-chatgpt/">Making a SystemD Service With ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

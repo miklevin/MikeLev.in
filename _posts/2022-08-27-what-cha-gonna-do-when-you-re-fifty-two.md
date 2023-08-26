@@ -4,7 +4,7 @@ title: What'cha Gonna Do When You're Fifty Two?
 headline: "Reflecting on 52 Years: My Birthday Gift to Myself and the World"
 description: On my 52nd birthday, I'm reflecting on my life and the changes that have occurred. I was pleasantly surprised to receive 6 months of free Disney+ from Verizon, and I watched She Hulk and Obi-wan, which brought tears to my eyes. I'm pushing forward with Operation ELTgd and the principle of 'Power Good', to help myself, those in my life, and the world. As a birthday gift to myself, I'm making a Bagel-All-The-Way.
 keywords: 52nd Birthday, Changes, Disney+, She Hulk, Obi-wan, Operation ELTgd, Power Good, Bagel-All-The-Way, Belly-Lox, Capers, Red Onion, Philly Cream Cheese, Everything Bagel, Website, Wisdom, Category System, Subnavigation, Vim Custom Dictionary
-categories: change, wisdom
+categories: wisdom, change
 permalink: /blog/what-cha-gonna-do-when-you-re-fifty-two/
 layout: post
 group: blog
@@ -108,9 +108,9 @@ Categorinator
 vim dictionator
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-cha-gonna-do-when-you-re-fifty-two/">What'cha Gonna Do When You're Fifty Two?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/ai-will-do-seo-better-than-any-human-ever-did/">AI Will Do SEO Better Than Any Human Ever Did</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/plot-the-awakening-rig-for-youtube-success/">Plot The Awakening / Rig For YouTube Success</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/this-is-where-i-reversed-the-ascii-rabbit/">This Is Where I Reversed The ASCII Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/wisdom/'>Wisdom</a></h4></li></ul>
+<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li></ul>

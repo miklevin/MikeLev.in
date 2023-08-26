@@ -42,7 +42,7 @@ Continue working on the MikeLev.in website. It's my CSS playground. Forget
 JavaScript. Push the boundaries with HTML, CSS and even SVG.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/beware-coding-in-ai-dependencies/">Beware Coding In AI-Dependencies</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chatgpt-plus-is-available-in-the-united-states/">ChatGPT Plus Is Available In The United States</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/unix-linux-won-are-now-the-rules-of-the-road/">Unix/Linux Won & Are Now The Rules of The Road</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-s-start-an-ai-novel-about-dystopizon-with-chatgpt/">Let's Start an AI-Novel About Dystopizon with ChatGPT</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

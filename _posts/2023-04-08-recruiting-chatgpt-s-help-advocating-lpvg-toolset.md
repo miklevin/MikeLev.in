@@ -4,7 +4,7 @@ title: Recruiting ChatGPT's Help Advocating LPvg Toolset
 headline: "LPvg Toolset: Mike Levin Advocates for Easier Access for Newbies"
 description: I'm Mike Levin and I'm looking for web-based APIs to help manage Linux system daemons through a Web UI. I'm open to using Flask or running it through Jupyter Notebooks in JupyterLab, hosted on the same Linux machine. I'm forking the .service file and running it as a GNU screen session to get the console-monitoring advantage. I use Linux virtual machines as a universal layer for interoperability and portability to make this skill timeless.
 keywords: Recruiting, ChatGPT, Help, Advocating, LPvg, Toolset, Mike Levin, Web-based APIs, Linux, System Daemons, Flask, Jupyter Notebooks, JupyterLab, Forking Mode, .service File, GNU Screen Session, Linux Virtual Machines, Universal Layer, Interoperability, Portability, Mental Blocks, Possibilities, BCPL, C, Unix, Python, Vim, Git, Open-Source, Macs
-categories: vim, journaling, lpvg, python, open-source, git, ai, mac, jupyter, linux
+categories: ai, mac, lpvg, linux, vim, open-source, jupyter, python, git, journaling
 permalink: /blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/
 layout: post
 group: blog
@@ -447,17 +447,17 @@ Source: Conversation with Bing, 4/8/2023
     (5) Azure OpenAI Service REST API reference - Azure OpenAI. https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference Accessed 4/8/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recruiting-chatgpt-s-help-advocating-lpvg-toolset/">Recruiting ChatGPT's Help Advocating LPvg Toolset</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/let-me-show-you-how-to-get-how-to-get-to-wonderland/">Let Me Show You How to Get, How to Get to Wonderland</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-svg-images-in-markdown-cells-of-jupyter-notebooks/">Embedding SVG Images in Markdown Cells of Jupyter Notebooks</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/refining-my-vimrc-now-that-it-s-a-neovim-init-vim/">Refining my .vimrc now that it's a NeoVim init.vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/open-source/'>Open-Source</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/open-source/'>Open-Source</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

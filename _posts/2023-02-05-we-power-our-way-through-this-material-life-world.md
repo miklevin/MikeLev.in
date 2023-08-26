@@ -4,7 +4,7 @@ title: We Power Our Way Through This Material Life & World
 headline: "Power Your Life: Find Joy in Pursuing Your Passions and Engaging with the Material World."
 description: As an individual, I believe it's important to make the most of our lives and pursue our passions. We should be mindful of becoming overly reliant on AI and vendor services, and instead take joy in the economic product that comes from doing what we love and engaging with the material world. Click through to learn more about how to make the most of your life!
 keywords: Life, Passion, AI, Vendor Services, Economic Product, Individual, Pursue, Craft, Material World, Engage, Unique Interests, Dependent, Joy, Production, Pursuing
-categories: joy, ai
+categories: ai, joy
 permalink: /blog/we-power-our-way-through-this-material-life-world/
 layout: post
 group: blog
@@ -53,9 +53,9 @@ not stock trading or clock punching. It is engaging in life, engaging with the
 material world, in a way that you love.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks/">nbdev Makes .py-file Extractions From Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-cluster-keywords-from-google-suggest-api/">How To Cluster Keywords From Google Suggest API</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words/">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/joy/'>Joy</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/joy/'>Joy</a></h4></li></ul>

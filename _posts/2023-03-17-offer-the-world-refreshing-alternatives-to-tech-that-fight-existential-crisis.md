@@ -45,7 +45,7 @@ concerned. And if lives are extended because of science & tech, then even
 longer.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/offer-the-world-refreshing-alternatives-to-tech-that-fight-existential-crisis/">Offer the World Refreshing Alternatives to Tech That Fight Existential Crisis</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-many-roads-must-a-man-walk-down-before-microsoft-gets-you-to-bing/">How many roads must a man walk down before Microsoft gets you to Bing?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/bing-side-bar-makes-default-search-set-to-google-inconsequential/">Bing Side Bar Makes Default Search Set To Google Inconsequential</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/netflix-binging-vs-microsoft-binging-gerunds-vs-adjectives/">Netflix Binging vs Microsoft Binging (Gerunds vs. Adjectives)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

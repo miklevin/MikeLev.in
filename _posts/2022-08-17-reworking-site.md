@@ -4,7 +4,7 @@ title: Reworking Site
 headline: Creating a New Website with SimpleCSS, Linux, Python, Vim, Git and Jekyll Skills
 description: I'm working on my website today, using SimpleCSS for a new look. I'm using Linux, Python, Vim, Git and Jekyll skills to create a static page generator system. Testing out the Jekyll include system to create secondary navigation buttons, and considering externalizing the primary nav. Plus, two headers and lowercase versions of categories for my blogging. Come and join me on my journey!
 keywords: Website, SimpleCSS, Linux, Python, Vim, Git, Jekyll, Secondary Navigation, Primary Navigation, Header, Lowercase, Categories, Blogging, Journey
-categories: vim, jekyll, python, git, linux
+categories: linux, vim, jekyll, python, git
 permalink: /blog/reworking-site/
 layout: post
 group: blog
@@ -70,12 +70,12 @@ But I'm too tired to do it now and I may have a big day ahead of me tomorrow
 with the kid coming over.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/reworking-site/">Reworking Site</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/internalizing-tools-through-eepigenetics/">Internalizing Tools Through Eepigenetics</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-day-in-the-life-of-an-seo-serps-python-pandas-semrush/">A Day In The Life of An SEO SERPs, Python Pandas & SEMRush</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/monitoring-github-pages-github-io-system-for-errors/">Monitoring Github Pages github.io System For Errors</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

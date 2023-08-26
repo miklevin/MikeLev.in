@@ -84,7 +84,7 @@ dependency-calls all over the place. Who needs a CDN when Microsoft's hosting?
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-simple-and-bare-minimum-styles-css-file/">A Simple and Bare Minimum Styles CSS File</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-bare-minimum-styles-css-file/">The Bare Minimum Styles CSS File</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

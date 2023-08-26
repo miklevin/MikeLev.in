@@ -4,7 +4,7 @@ title: ASCII Art vs. Mermaids Who Will Be Victorious?
 headline: Exploring the Frustrating and Endless Loop of 'The New Bing' Accessibility
 description: Experience the power of non-linear thinking as we explore the battle between ASCII Art and Mermaids. Learn how to use plugins in NeoVim, create transparent backgrounds, and optimize your website with SEO. Follow along with this journal entry as we explore the pros and cons of both ASCII Art and Mermaids.
 keywords: ASCII Art, Mermaids, Partitioning, Textfile-for-Life, JavaScript-Rendering, Proprietary Software, Plugins, NeoVim, Vim-Plug, GIMP, Transparent Backgrounds, Copy/Paste, Microsoft Images Search, BG Eraser, Apple Photos App, Vim-Asciio, Google Slides, AI-Assistance, Timeless Design Patterns, VSCode, Coding Assistant, Microsoft Edge, Privacy Violations
-categories: google, vim, microsoft
+categories: vim, google, microsoft
 permalink: /blog/ascii-art-vs-mermaids-who-will-be-victorious/
 layout: post
 group: blog
@@ -362,10 +362,10 @@ exactly!
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ascii-art-vs-mermaids-who-will-be-victorious/">ASCII Art vs. Mermaids Who Will Be Victorious?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-m-building-better-blogging-to-replace-a-bygone-era/">I'm Building Better Blogging to Replace a Bygone Era</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-pandas-dataframes-vs-sql-in-snowflake-data-warehouse/">Python Pandas Dataframes vs SQL in Snowflake Data Warehouse</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/switch-hardware-regularly/">Switch Hardware Regularly</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

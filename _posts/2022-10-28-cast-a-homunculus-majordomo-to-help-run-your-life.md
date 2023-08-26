@@ -4,7 +4,7 @@ title: Cast a Homunculus Majordomo to Help Run Your Life
 headline: "Learning to Use FOSS Instead of Cloud Services: Taking Up Linux, Python, Vim and Git as If They Were Tools in a Carpenter's Toolbox"
 description: I'm taking up Linux, Python, Vim, and Git as if they were tools in a carpenter's toolbox, and learning to use FOSS instead of cloud services. I'm creating performance art with these principles, doing real-time idea-capture, aligning small steps to feedback loops, and using GitHub and GitLab. I'm trying to figure out the best way to approach learning new tech tools and advocate the use of Linux, Python, Vim and Git.
 keywords: Linux, Python, Vim, Git, FOSS, Cloud Services, Performance Art, Idea-Capture, Feedback Loops, GitHub, GitLab, Fundamentals, Work At-Hand, Real-World Problems, Organization, Repetition, Inefficiency, Optimization, Deduplicating, Ideas
-categories: vim, git, python, linux
+categories: linux, vim, python, git
 permalink: /blog/cast-a-homunculus-majordomo-to-help-run-your-life/
 layout: post
 group: blog
@@ -172,11 +172,11 @@ Next steps:
 - Send yourself this to-do list
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/cast-a-homunculus-majordomo-to-help-run-your-life/">Cast a Homunculus Majordomo to Help Run Your Life</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-the-lifehack-email/">Planning the Lifehack Email</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-use-the-screen-command-for-linux-service/">How to Use the Screen Command for Linux Service</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/chasing-the-tech-rabbit/">Chasing The Tech Rabbit</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

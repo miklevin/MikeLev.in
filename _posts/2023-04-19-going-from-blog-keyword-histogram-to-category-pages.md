@@ -4,7 +4,7 @@ title: Going From Blog Keyword Histogram to Category Pages
 headline: "Improving My Website: Creating Category Pages with Jekyll Liquid Template"
 description: I wrote a program to create category pages for my website using the Jekyll Liquid template. I used a SQLite database to store topics and keywords, and deleted all previous category pages to create new ones based on the keywords. With the collections module's Counter, I created a keyword histogram and a dictionary of keywords and associated URLs. I am feeling successful today as I have taken a step towards improving my website by writing a list of slugs to a file. Join me on my journey.
 keywords: Python, Linux, Vim, Git, AI, SEO, Windows, LXD, WSL, YouTube, Microsoft, JupyterLab, Jupyter, Journaling, Jupyter Notebooks, GitHub, Code, Projects, Upgrading, Programming Languages, Conferences, Meetups, Deduping, Histograms, Category Pages, Markdown, SQLite, Database, Liquid Template, Slugs, File
-categories: microsoft, vim, container, journaling, python, youtube, seo, git, ai, wsl, database, jupyter, linux
+categories: ai, microsoft, container, seo, linux, vim, youtube, jupyter, wsl, python, git, database, journaling
 permalink: /blog/going-from-blog-keyword-histogram-to-category-pages/
 layout: post
 group: blog
@@ -513,20 +513,20 @@ I'll call this morning project a success. It's not complete, but it sets the
 stage for my next step being super effective on improving my site.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/going-from-blog-keyword-histogram-to-category-pages/">Going From Blog Keyword Histogram to Category Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/planning-on-adding-front-matter-support-to-journal-entries/">Planning on Adding Front Matter Support to Journal Entries</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-script-to-pull-keywords-from-moz-pro-keyword-research-ranking-keywords/">A Script To Pull Keywords From MOZ Pro Keyword Research Ranking Keywords</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/website-content-gap-analysis-based-on-keyword-serp-rankings/">Website Content GAP Analysis Based on Keyword SERP Rankings</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/database/'>Database</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

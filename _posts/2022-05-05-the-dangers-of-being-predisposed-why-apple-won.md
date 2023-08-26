@@ -4,7 +4,7 @@ title: The Dangers of Being Predisposed (Why Apple Won)
 headline: Exploring the Amiga Computer and Apple's Superior Marketing Strategies
 description: As a fan of the Amiga computer, I was angry to see Apple Computers winning in the education market. Jay Miner, the creator of the Amiga, suggested a guerilla tactic to bring his computer magazines into doctors and dentists offices. Despite Apple's superior marketing, I still love the Amiga and look for its features in today's technology. I advocate for Linux, Python, vim & git, and I encourage others to explore these technologies.
 keywords: Amiga, Apple Computers, Education Market, Jay Miner, Guerilla Tactic, Superior Marketing, Linux, Python, Vim, Git
-categories: vim, amiga, python, git, linux
+categories: linux, vim, amiga, python, git
 permalink: /blog/the-dangers-of-being-predisposed-why-apple-won/
 layout: post
 group: blog
@@ -50,12 +50,12 @@ Python, vim & git. But you should use Windows, LISP, emacs and... uh,
 Mercurial? Whatever. Try lots of things. Keep an open mind.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adventures-installing-manim-on-windows-11-not-under-wsl-linux/">Adventures Installing Manim on Windows 11 (Not Under WSL Linux)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/of-green-arrows-and-red-armor/">Of Green Arrows and Red Armor</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-files-that-are-the-same-across-multiple-sites/">Editing Files That Are The Same Across Multiple Sites</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-dangers-of-being-predisposed-why-apple-won/">The Dangers of Being Predisposed (Why Apple Won)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

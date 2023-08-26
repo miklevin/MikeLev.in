@@ -149,7 +149,7 @@ This is the template that gets recorded from Playwright Inspector:
     asyncio.run(main())
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/python-playwright-codegen-and-playwright-inspector-tools/">Python Playwright CodeGen and Playwright Inspector Tools</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/are-you-an-imposter-have-you-heard-of-imposter-syndrome/">Are You An Imposter? Have You Heard of Imposter Syndrome?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/doing-a-google-analytics-api-project-filtering-us-only-traffic/">Doing a Google Analytics API Project (Filtering US Only Traffic)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/life-after-deluxepaint-and-the-amiga/">Life After DeluxePaint and The Amiga</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -90,7 +90,7 @@ Copyright (c) 2023, Mike Levin, SEO in NYC
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/ode-to-azrael-and-a-world-completely-changed/">Ode to Azrael And a World Completely Changed</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/if-you-re-so-good-at-seo-why-aren-t-ais-talking-to-you/">If You're So Good at SEO, Why Aren't AIs Talking to You?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-price-of-admission-to-prize-rich-environments/">The Price of Admission to Prize-rich Environments</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-python-version-parameter-support-to-drinkme-for-snowflake-snowpack/">Adding Python Version Parameter Support to DrinkMe for Snowflake Snowpack</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -31,7 +31,7 @@ FORGET VMS
 - The rest is details pertaining to performance, security and the like.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-won-t-be-using-windows-in-5-years/">You Won't Be Using Windows in 5 Years</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/share-folder-between-windows-wsl-linux-container-and-home-cloud/">Share Folder Between Windows, WSL Linux, Container and Home Cloud</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/fixing-broken-jekyll-rouge-code-color-coding-in-github-pages-theme/">Fixing Broken Jekyll Rouge Code Color Coding in Github Pages Theme</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/do-you-still-really-need-windows-switching-to-linux-in-2022/">Do You Still Really Need Windows? Switching To Linux in 2022</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

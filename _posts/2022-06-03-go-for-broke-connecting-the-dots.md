@@ -69,7 +69,7 @@ Yup. Connect the dots. Go for broke... OMG, there's an expression for that!
 
 # When People Get Angry At You, You Know You're On The Right Track
 {% include youtubePlayer.html id="XwnKzloaVqk" %}
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/go-for-broke-connecting-the-dots/">Go For Broke Connecting The Dots</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/learning-linux-lesson-2-run-run-it-from-cli/">Learning Linux Lesson #2: RUN! Run it from CLI!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-emdr-lives-between-tetris-therapy-and-psychotherapy/">How EMDR Lives Between Tetris-Therapy and Psychotherapy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/start-learning-linux-by-learning-about-what-pissed-off-fernando-corbato/">Start Learning Linux by Learning About What Pissed Off Fernando Corbato</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

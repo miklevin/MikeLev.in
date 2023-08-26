@@ -4,7 +4,7 @@ title: "Logging in... Refresh error! invalid_grant: Token has been expired or re
 headline: "Unlocking the Power of Home NAS: My Journey to Becoming a Freelance Graphic Designer"
 description: As a freelance graphic designer, I have faced many challenges and obstacles in my career. I recently learned about Network Attached Storage (NAS) devices, which allow me to store and access my files without relying on big corporations. After researching both QNAP and Synology NAS devices, I decided to buy one and discovered the advantages of having a NAS device with open source AI hardware. I'm optimistic that home NAS-like products will become more common.
 keywords: Logging, Refresh, Error, Invalid_grant, Token, Expired, Revoked, Freelance, Graphic, Designer, Network, Attached, Storage, NAS, Devices, QNAP, Synology, Open, Source, AI, Hardware, Optimistic, Future, Common, Household, Appliances, Increase, Data, Storage, Capacities, Network, Sharing, Capabilities, Knowledge, Interest, Technologies, Software, Running, Home, Servers, Ease
-categories: future, network, qnap, ai, graphic
+categories: ai, graphic, qnap, network, future
 permalink: /blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/
 layout: post
 group: blog
@@ -144,12 +144,12 @@ main character. It was just so delightful and plausible. It started out like
 Asimov's
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/logging-in-refresh-error-invalid-grant-token-has-been-expired-or-revoked/">Logging in... Refresh error! invalid_grant: Token has been expired or revoked.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-first-moz-programming-project-will-be-emailed-screenshots/">My First MOZ Programming Project Will Be Emailed Screenshots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-nomadic-robotic-cozy-hove-abode/">The Nomadic Robotic Cozy Hove Abode</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/general-artificial-intelligence-nas-business-plan/">General Artificial Intelligence NAS Business Plan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li>
-<li><h4><a href='/qnap/'>QNAP</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/graphic/'>Graphics</a></h4></li></ul>
+<li><h4><a href='/graphic/'>Graphics</a></h4></li>
+<li><h4><a href='/qnap/'>QNAP</a></h4></li>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li></ul>

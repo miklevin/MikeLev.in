@@ -4,7 +4,7 @@ title: Rabbit Hole Linux Launched On The Rise Of AI
 headline: "I'm Launching Rabbit Hole Linux: A Step Towards the Rise of AI"
 description: Follow along with Mike as he launches Rabbit Hole Linux, a revolutionary open source software project, on the rise of AI. Learn about Linus Torvalds' creation of Git control system, and how to protect your creative product with wack-a-mole power. Join the reciprocal linking program and become computer literate in a real sense.
 keywords: Linus Torvalds, Linux, Kernel, Git, DVCS, BitKeeper, Google, Chrome, Android, Apple, Amiga, Lovecraft, Piers Anthony, Turing Test, Microsoft, WordPress, Github, Bitbucket, NAS, GitLab, Lily-Ray, Boris Zilberman, SEO, Primer, Alice's Adventures in Wonderland, Hannibal, A-Team, AI, Confidence Game, Carl Jung, Shadow Self, Brand Loyalty, Tides,
-categories: microsoft, amiga, wordpress, google, seo, git, ai, linux
+categories: microsoft, ai, wordpress, seo, linux, google, amiga, git
 permalink: /blog/rabbit-hole-linux-launched-on-the-rise-of-ai/
 layout: post
 group: blog
@@ -178,15 +178,15 @@ In this way, I...
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/rabbit-hole-linux-launched-on-the-rise-of-ai/">Rabbit Hole Linux Launched On The Rise Of AI</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/2-legs-good-4-legs-baaad-debunking-work-life-balance-and-other-myths/">2 Legs Good, 4 Legs Baaad: Debunking Work/Life Balance and Other Myths</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/evolution-tortoise-to-meet-our-ai-overlords-before-they-meat-us/">Evolution Tortoise to Meet Our AI Overlords Before They Meat Us</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/perhaps-i-made-the-wrong-turn-at-albuquerque/">Perhaps I Made The Wrong Turn at Albuquerque</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/wordpress/'>WordPress</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

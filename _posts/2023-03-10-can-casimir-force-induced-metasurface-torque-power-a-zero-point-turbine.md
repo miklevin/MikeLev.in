@@ -302,7 +302,7 @@ Source: Conversation with Bing, 3/7/2023
     (5) Second law of thermodynamics | Definition, Formula, & Entropy. https://www.britannica.com/science/second-law-of-thermodynamics Accessed 3/7/2023.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/can-casimir-force-induced-metasurface-torque-power-a-zero-point-turbine/">Can Casimir Force Induced Metasurface Torque Power a Zero Point Turbine?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-quantum-premise-implied-by-planck-s-equation-e-hv-balanced/">Is The Quantum Premise Implied by Planck's Equation E = hv Balanced?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seeking-structured-graphics-foss/">Seeking Structured Graphics FOSS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/is-the-rise-of-ai-the-fall-of-seo-systemd-snapshot-machine/">Is The Rise of AI The Fall of SEO? (systemd snapshot machine)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

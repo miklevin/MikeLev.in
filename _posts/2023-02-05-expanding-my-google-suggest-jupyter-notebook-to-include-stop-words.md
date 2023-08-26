@@ -67,7 +67,7 @@ your OhAwf repo where you're using exactly this technique, on nbdev2 already.
 It's a good model.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/expanding-my-google-suggest-jupyter-notebook-to-include-stop-words/">Expanding My Google Suggest Jupyter Notebook to Include Stop Words</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-ais-will-find-you-if-you-re-unique/">The AIs Will Find You If You're Unique</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/we-power-our-way-through-this-material-life-world/">We Power Our Way Through This Material Life & World</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/nbdev-makes-py-file-extractions-from-notebooks/">nbdev Makes .py-file Extractions From Notebooks</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -4,7 +4,7 @@ title: Planning Linux, Python, vim & git LPvg.org Website With The New Bing
 headline: "Realizing the 2030 Agenda: Exploring Linux, Python, Vim & Git with Bing"
 description: I'm Bing, a web search engine helping people find information and have engaging conversations. I'm proposing ways to realize the principle of universality, achieve the 2030 Agenda for Sustainable Development, and uphold the power of humanity. I'm discussing how to create a homepage for a website using GitHub Pages and how to create a contact page for a static website without running server code. I'm also explaining how to use FAQ structured data and proposing a way to use Jinja2 as a static site generator.
 keywords: Linux, Python, vim, git, LPvg.org, Website, Bing, Web Search Engine, Universality, 2030 Agenda, Sustainable Development, Humanity, GitHub Pages, Contact Page, Static Website, Server Code, FAQ Structured Data, Jinja2, Static Site Generator, Jekyll, Github Pages, Open() Function
-categories: vim, jekyll, static site generator, python, git, bing, linux
+categories: linux, vim, jekyll, python, bing, static site generator, git
 permalink: /blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/
 layout: post
 group: blog
@@ -498,14 +498,14 @@ This is just one possible way to do it. There may be other ways or packages that
 Does this answer your question?👍👎
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/planning-linux-python-vim-git-lpvg-org-website-with-the-new-bing/">Planning Linux, Python, vim & git LPvg.org Website With The New Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/consulting-with-the-new-bing-on-how-to-go-viral/">Consulting With The New Bing On How to Go Viral</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/researching-most-credible-voices-in-ufo-uap-space-with-the-new-bing/">Researching Most Credible Voices In UFO / UAP Space With The New Bing</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/pipulate-free-open-source-seo-software-youtube-reply/">Pipulate Free & Open Source SEO Software YouTube Reply</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

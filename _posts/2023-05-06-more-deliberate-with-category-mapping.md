@@ -4,7 +4,7 @@ title: More Deliberate With Category Mapping
 headline: Exploring YAML Dicts to Optimize Category Mapping
 description: I'm optimizing my blog post categorization system by grouping common keywords into parent categories. I'm learning about YAML dictionaries and sub-dictionaries to create a nested structure for my categories. I'm also making sure to keep the list of categories as short as possible by using the lemmatized version of words. Finally, I'm working on a custom object shape to keep the categorization system running smoothly.
 keywords: "category mapping, OpenAI, keyword extraction, YAML, mappings, dictionaries, sub-dictionaries, nested mappings, lemmatized version, top categories, `_config.yml`, `_data`, categories.yml, cdict, iPython, Jupyter, VSCode, pickle"
-categories: microsoft, jupyter, yaml, ai
+categories: ai, microsoft, jupyter, yaml
 permalink: /blog/more-deliberate-with-category-mapping/
 layout: post
 group: blog
@@ -236,11 +236,11 @@ would be used.
 I'm reaching the point of diminishing returns. Cut the entry here and tackle
 the last step tomorrow morning. Sleep on it.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/more-deliberate-with-category-mapping/">More Deliberate With Category Mapping</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/simulation-hypothesis-or-not-is-a-false-dichotomy/">Simulation Hypothesis Or Not is a False Dichotomy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/editing-text-as-a-form-of-meditation-or-martial-arts-kata/">Editing Text As a Form of Meditation or Martial Arts Kata</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/category-mapping-go-ascii-alice/">Category Mapping? Go ASCII Alice!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/yaml/'>YAML</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/yaml/'>YAML</a></h4></li></ul>

@@ -69,7 +69,7 @@ Or not. We'll see.
 
 ![Chicken Hawk From Foghorn Leghorn](/assets/images/chicken-hawk-from-foghorn-leghorn.jpg)
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ve-got-a-mic/">I've Got a Mic</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/recording-vim-macro-for-markdown-image-insertion/">Recording vim macro for markdown image insertion</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code/">Imagining vim Macro That Makes Markdown Image Code</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/little-things-big-changes/">Little Things, Big Changes</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

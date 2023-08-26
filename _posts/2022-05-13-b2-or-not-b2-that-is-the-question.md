@@ -4,7 +4,7 @@ title: ":b2 or not :b2, That Is The Question"
 headline: "Gutting My Project Pipulate: My Journey to Share Ideas Publicly"
 description: I'm sharing my thoughts and ideas publicly using slicing & dicing, Github Pages, mlseo, and blogslicer for search engine optimization. I'm determined to gut my project Pipulate and make way for it now. Join me on this journey and read my blog post to learn more.
 keywords: b2, Question, Thoughts, Ideas, Slicing, Dicing, Github Pages, mlseo, blogslicer, Search Engine Optimization, Project Pipulate, Web-Publishing, Software
-categories: question, seo, pipulate, jekyll
+categories: seo, question, jekyll, pipulate
 permalink: /blog/b2-or-not-b2-that-is-the-question/
 layout: post
 group: blog
@@ -78,11 +78,11 @@ way to this very important project.
 
 Do it now.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived/">It's Time Someone Stood Up To You... And Survived</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/don-t-kick-that-football-charlie-brown/">Don't Kick That Football, Charlie Brown!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/friday-the-13th-2022-kb5013624-cumulative-update-for-net/">Friday The 13th 2022 KB5013624 Cumulative Update for .NET</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/b2-or-not-b2-that-is-the-question/">:b2 or not :b2, That Is The Question</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/question/'>Questions</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/question/'>Questions</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Simplifying Websites and Life with Single Long Text Files
 headline: Unlocking the Potential of My Work with Single Long Text Files
 description: I'm using the latest tools and techniques to simplify websites and life, by using single long text files to capture my ideation and publishing process. I'm combining Linux, Windows, JupyterLab, vim, and AI to create a seamless user experience, while also using data shaping and transforms to create a website that is easy to navigate.
 keywords: Linear Time, Algorithms, Search Engines, AI, Bias, JupyterLab, Linux, Windows, Vim, Semantic Web, Messaging, Website, Blog Posts, Query/Remixability, Site-Shaping, Data Shaping, Text-Data, Media Assets, Headless CMS, Computer Vision APIs, Idea-Capture, Ideation, Shaping Process, Git Repos, Post-Processing, User Experience, Previous/Next Arrows
-categories: microsoft, vim, ai, algorithm, jupyter, linux
+categories: ai, microsoft, linux, vim, jupyter, algorithm
 permalink: /blog/simplifying-websites-and-life-with-single-long-text-files/
 layout: post
 group: blog
@@ -125,13 +125,13 @@ things by topic. But AI will help a lot there.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/simplifying-websites-and-life-with-single-long-text-files/">Simplifying Websites and Life with Single Long Text Files</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-tow-it-ism-tech-philosophy/">The Tow-It-Ism Tech Philosophy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/seamless-ubuntu-20-04-to-22-04-upgrade-with-mykoz-areal-os/">Seamless Ubuntu 20.04 to 22.04 Upgrade with MyKoz AReal/OS</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/get-my-cause-jupyter-ubuntu-jupyter-notebook-on-ubuntu-on-windows/">Get My Cause? Jupyter Ubuntu! (Jupyter Notebook on Ubuntu on Windows)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/algorithm/'>Algorithms</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/algorithm/'>Algorithms</a></h4></li></ul>
