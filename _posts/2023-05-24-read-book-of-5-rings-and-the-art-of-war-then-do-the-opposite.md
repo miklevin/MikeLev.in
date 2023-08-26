@@ -160,7 +160,7 @@ Street.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-listen-to-the-nattering-nabobs-of-the-aipocalypse-and-here-s-why/">Don't Listen to the Nattering Nabobs of the AIpocalypse, And Here's Why...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hey-mentee-listen-to-your-mentat-mentor-metioning-tng-tng-tng-tng/">Hey Mentee! Listen To Your Mentat Mentor MetionING TNG TNG TNG TNG...</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/don-t-listen-to-the-nattering-nabobs-of-the-aipocalypse-and-here-s-why/">Don't Listen to the Nattering Nabobs of the AIpocalypse, And Here's Why...</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/message-to-google-and-microsoft-don-t-abuse-your-machine-children/">Message to Google and Microsoft: Don't Abuse Your Machine Children</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

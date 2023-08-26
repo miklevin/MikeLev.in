@@ -257,9 +257,6 @@ dictitems:
   1950s:
     count: 1
     title: 1950s
-  1980's:
-    count: 1
-    title: 1980's
   1990s:
     count: 2
     title: 1990s
@@ -353,9 +350,6 @@ dictitems:
   30th anniversary:
     count: 1
     title: 30th anniversary
-  30th street station:
-    count: 1
-    title: 30th Street Station
   32x32:
     count: 1
     title: 32x32
@@ -825,7 +819,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 118
+    count: 116
     title: AI
   ai apocalypse:
     count: 1
@@ -902,12 +896,6 @@ dictitems:
   ai-writing:
     count: 1
     title: AI-writing
-  aipocalypse:
-    count: 1
-    title: AIpocalypse
-  aipocolypse:
-    count: 1
-    title: AIpocolypse
   airbnb:
     count: 1
     title: Airbnb
@@ -1049,9 +1037,6 @@ dictitems:
   alternative to quantum theory:
     count: 1
     title: Alternative to Quantum Theory
-  altima:
-    count: 1
-    title: Altima
   altitude:
     count: 1
     title: Altitudes
@@ -1082,9 +1067,6 @@ dictitems:
   american:
     count: 1
     title: American
-  american people:
-    count: 1
-    title: American people
   amiga:
     count: 11
     title: Amiga
@@ -1244,9 +1226,6 @@ dictitems:
   api-calls:
     count: 1
     title: API-Calls
-  api-compatible:
-    count: 1
-    title: API-compatible
   api-joins:
     count: 1
     title: API-Joins
@@ -1769,12 +1748,6 @@ dictitems:
   balanced diet:
     count: 1
     title: balanced diet
-  ballmer:
-    count: 1
-    title: Ballmer
-  bambi:
-    count: 1
-    title: Bambi
   banach-tarski paradox:
     count: 1
     title: Banach-Tarski Paradox
@@ -1842,11 +1815,8 @@ dictitems:
     count: 1
     title: Bathroom
   batman:
-    count: 5
+    count: 4
     title: Batman
-  batman complex:
-    count: 1
-    title: Batman complex
   batshit:
     count: 1
     title: batshit
@@ -1991,15 +1961,6 @@ dictitems:
   bias:
     count: 5
     title: Bias
-  bible:
-    count: 1
-    title: Bible
-  bible,:
-    count: 1
-    title: Bible,
-  biblical:
-    count: 1
-    title: biblical
   biblical commentaries:
     count: 1
     title: Biblical Commentaries
@@ -2048,9 +2009,6 @@ dictitems:
   biggest bang:
     count: 1
     title: Biggest Bang
-  bill gates:
-    count: 1
-    title: Bill Gates
   bill joy:
     count: 2
     title: Bill Joy
@@ -2141,9 +2099,6 @@ dictitems:
   bitbucket:
     count: 2
     title: Bitbucket
-  bitcoin:
-    count: 1
-    title: bitcoin
   bitkeeper:
     count: 1
     title: BitKeeper
@@ -2151,8 +2106,8 @@ dictitems:
     count: 1
     title: black
   black and white:
-    count: 2
-    title: Black and White
+    count: 1
+    title: black and white
   black body radiation:
     count: 1
     title: Black Body Radiation
@@ -2279,9 +2234,6 @@ dictitems:
   bluebird:
     count: 1
     title: Bluebirds
-  bob:
-    count: 1
-    title: Bobs
   bob lazar:
     count: 2
     title: Bob Lazar
@@ -2346,7 +2298,7 @@ dictitems:
     count: 1
     title: Boredom
   boris zilberman:
-    count: 3
+    count: 2
     title: Boris Zilberman
   borland:
     count: 1
@@ -2480,9 +2432,6 @@ dictitems:
   broken picture links:
     count: 1
     title: Broken Picture Links
-  brooklynites:
-    count: 1
-    title: Brooklynites
   brother:
     count: 1
     title: Brothers
@@ -2570,9 +2519,6 @@ dictitems:
   burt ward:
     count: 1
     title: Burt Ward
-  bush:
-    count: 1
-    title: Bush
   business plan:
     count: 1
     title: Business Plan
@@ -2912,9 +2858,6 @@ dictitems:
   charlie brown:
     count: 1
     title: Charlie Brown
-  charlie chaplin:
-    count: 1
-    title: Charlie Chaplin
   chart lines:
     count: 1
     title: Chart Lines
@@ -2960,9 +2903,6 @@ dictitems:
   cheating:
     count: 1
     title: Cheating
-  check cashing:
-    count: 1
-    title: Check Cashing
   check cashing store:
     count: 2
     title: check cashing store
@@ -2981,9 +2921,6 @@ dictitems:
   chemistry:
     count: 1
     title: Chemistry
-  cherry tree:
-    count: 1
-    title: Cherry Tree
   chewing gum wrapper:
     count: 1
     title: Chewing Gum Wrapper
@@ -3087,7 +3024,7 @@ dictitems:
     count: 1
     title: CIFS
   circle:
-    count: 4
+    count: 3
     title: Circle
   circuit:
     count: 1
@@ -3260,9 +3197,6 @@ dictitems:
   co-op board:
     count: 2
     title: Co-op Board
-  coachman:
-    count: 1
-    title: Coachman
   cobra:
     count: 1
     title: Cobra
@@ -3329,9 +3263,6 @@ dictitems:
   coelacanth:
     count: 1
     title: Coelacanth
-  cognizant:
-    count: 1
-    title: Cognizant
   coherence:
     count: 2
     title: Coherence
@@ -3465,8 +3396,8 @@ dictitems:
     count: 7
     title: Commit
   commitment:
-    count: 2
-    title: commitment
+    count: 1
+    title: Commitment
   commitment & consistency:
     count: 1
     title: Commitment & Consistency
@@ -3480,7 +3411,7 @@ dictitems:
     count: 8
     title: Commodore
   commodore 64:
-    count: 2
+    count: 1
     title: Commodore 64
   common:
     count: 3
@@ -3729,7 +3660,7 @@ dictitems:
     count: 1
     title: Consent
   consistency:
-    count: 5
+    count: 4
     title: Consistency
   consistent histories:
     count: 1
@@ -3894,7 +3825,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 28
+    count: 27
     title: Copilot
   copilot ai:
     count: 1
@@ -3947,9 +3878,6 @@ dictitems:
   corporate profits:
     count: 1
     title: Corporate Profits
-  corpuscle:
-    count: 1
-    title: corpuscle
   corroborating:
     count: 1
     title: Corroborating
@@ -4016,9 +3944,6 @@ dictitems:
   cpac:
     count: 1
     title: CPAC
-  crack era:
-    count: 1
-    title: Crack Era
   cracked screen:
     count: 1
     title: Cracked Screen
@@ -4037,9 +3962,6 @@ dictitems:
   craig loewen:
     count: 1
     title: Craig Loewen
-  craig of the creek:
-    count: 1
-    title: Craig of The Creek
   crappy output:
     count: 1
     title: crappy output
@@ -4145,9 +4067,6 @@ dictitems:
   crypto-bros:
     count: 1
     title: Crypto-Bros
-  cryptobro:
-    count: 1
-    title: cryptobro
   cryptographic:
     count: 1
     title: Cryptographic
@@ -4511,9 +4430,6 @@ dictitems:
   dateutil:
     count: 1
     title: dateutil
-  datsun:
-    count: 1
-    title: Datsun
   dawkins:
     count: 1
     title: Dawkins
@@ -4700,9 +4616,6 @@ dictitems:
   degree:
     count: 1
     title: Degrees
-  dehumanize:
-    count: 1
-    title: dehumanize
   delayed-:
     count: 1
     title: Delayed-
@@ -5022,7 +4935,7 @@ dictitems:
     count: 2
     title: Discipline
   disclosure:
-    count: 3
+    count: 2
     title: disclosure
   disconnect:
     count: 1
@@ -5054,9 +4967,6 @@ dictitems:
   dislike:
     count: 1
     title: Dislikes
-  disney:
-    count: 1
-    title: Disney
   disney movie:
     count: 1
     title: Disney movie
@@ -5265,8 +5175,8 @@ dictitems:
     count: 1
     title: dotcom-boom
   double slit experiment:
-    count: 2
-    title: double slit experiment
+    count: 1
+    title: Double Slit Experiment
   double-check:
     count: 1
     title: Double-Check
@@ -5349,7 +5259,7 @@ dictitems:
     count: 1
     title: DrinkeMe
   drinkme:
-    count: 9
+    count: 8
     title: DrinkMe
   drinkme linux:
     count: 2
@@ -5441,9 +5351,6 @@ dictitems:
   e=hv:
     count: 1
     title: E=hv
-  eagle:
-    count: 1
-    title: Eagles
   early 90s:
     count: 1
     title: Early 90s
@@ -5519,9 +5426,6 @@ dictitems:
   ed:
     count: 2
     title: Ed
-  edgar allen poe:
-    count: 1
-    title: Edgar Allen Poe
   edge:
     count: 6
     title: Edge
@@ -5652,7 +5556,7 @@ dictitems:
     count: 1
     title: Elevated
   eliezer yudkowsky:
-    count: 2
+    count: 1
     title: Eliezer Yudkowsky
   elite:
     count: 1
@@ -5729,9 +5633,6 @@ dictitems:
   emotional:
     count: 2
     title: emotional
-  emotional facts:
-    count: 1
-    title: Emotional facts
   emotional growth:
     count: 1
     title: emotional growth
@@ -5816,9 +5717,6 @@ dictitems:
   ender:
     count: 1
     title: Ender
-  ender's game:
-    count: 1
-    title: Ender's Game
   endpoint:
     count: 2
     title: Endpoints
@@ -5855,9 +5753,6 @@ dictitems:
   english language:
     count: 1
     title: English language
-  eniac:
-    count: 1
-    title: ENIAC
   enjoyable:
     count: 1
     title: Enjoyable
@@ -5883,7 +5778,7 @@ dictitems:
     count: 2
     title: Entertainment
   entity relationship diagrams:
-    count: 2
+    count: 1
     title: Entity Relationship Diagrams
   entrepreneur:
     count: 1
@@ -6033,8 +5928,8 @@ dictitems:
     count: 1
     title: Evaluating
   event:
-    count: 4
-    title: event
+    count: 3
+    title: Events
   event horizon:
     count: 1
     title: Event Horizon
@@ -6072,7 +5967,7 @@ dictitems:
     count: 1
     title: Evil Sorcerer
   evolution:
-    count: 10
+    count: 9
     title: Evolution
   evolution of an idea:
     count: 1
@@ -6341,9 +6236,6 @@ dictitems:
   false dichotomies:
     count: 3
     title: False Dichotomies
-  false dichotomy:
-    count: 1
-    title: False Dichotomy
   falsey:
     count: 1
     title: Falsey
@@ -6371,9 +6263,6 @@ dictitems:
   faq structured data:
     count: 1
     title: FAQ Structured Data
-  faraday cage:
-    count: 1
-    title: faraday cage
   fashion:
     count: 1
     title: Fashion
@@ -6740,9 +6629,6 @@ dictitems:
   focused writing software:
     count: 1
     title: Focused Writing Software
-  foghorn leghorn:
-    count: 1
-    title: Foghorn Leghorn
   folder:
     count: 13
     title: Folder
@@ -6866,9 +6752,6 @@ dictitems:
   framework:
     count: 8
     title: Framework
-  framing:
-    count: 1
-    title: Framing
   france:
     count: 1
     title: France
@@ -6878,14 +6761,11 @@ dictitems:
   frank herbert:
     count: 1
     title: Frank Herbert
-  frank sessa:
-    count: 1
-    title: Frank Sessa
   fravor:
     count: 1
     title: Fravor
   freak:
-    count: 2
+    count: 1
     title: Freak
   fred fish disk:
     count: 1
@@ -7208,9 +7088,6 @@ dictitems:
   gb:
     count: 1
     title: GB
-  geek:
-    count: 1
-    title: Geek
   geeky:
     count: 1
     title: geeky
@@ -7307,15 +7184,9 @@ dictitems:
   george carlin:
     count: 1
     title: George Carlin
-  george costanza:
-    count: 1
-    title: George Costanza
   george knapp:
     count: 1
     title: George Knapp
-  george washington:
-    count: 1
-    title: George Washington
   georgia:
     count: 1
     title: Georgia
@@ -7389,7 +7260,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 49
+    count: 48
     title: Github
   github actions:
     count: 1
@@ -7545,7 +7416,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 27
+    count: 26
     title: Google
   google analytics:
     count: 14
@@ -7758,7 +7629,7 @@ dictitems:
     count: 8
     title: Graphics
   graphic design:
-    count: 2
+    count: 1
     title: Graphic Design
   graphic novel:
     count: 1
@@ -7862,9 +7733,6 @@ dictitems:
   growth:
     count: 5
     title: Growth
-  grug crood:
-    count: 1
-    title: Grug Crood
   gsc:
     count: 1
     title: GSC
@@ -8081,9 +7949,6 @@ dictitems:
   health benefits:
     count: 1
     title: Health Benefits
-  health checkups:
-    count: 1
-    title: health checkups
   healthcare:
     count: 1
     title: Healthcare
@@ -8366,12 +8231,6 @@ dictitems:
   hormone:
     count: 1
     title: hormones
-  horse:
-    count: 1
-    title: Horse
-  horsew:
-    count: 1
-    title: Horsew
   hosea:
     count: 1
     title: Hosea
@@ -8459,14 +8318,11 @@ dictitems:
   huey_consumer.py:
     count: 2
     title: huey_consumer.py
-  hugh hefner:
-    count: 1
-    title: Hugh Hefner
   hugo:
     count: 3
     title: Hugo
   human:
-    count: 8
+    count: 7
     title: Human
   human autonomy:
     count: 1
@@ -8510,9 +8366,6 @@ dictitems:
   humor:
     count: 1
     title: Humor
-  humorless:
-    count: 1
-    title: humorless
   hybrid sync:
     count: 1
     title: Hybrid Sync
@@ -8588,9 +8441,6 @@ dictitems:
   idea capture funnel:
     count: 1
     title: Idea Capture Funnel
-  idea man:
-    count: 1
-    title: Idea Man
   idea-capture:
     count: 2
     title: Idea-Capture
@@ -9138,7 +8988,7 @@ dictitems:
     count: 1
     title: International Education
   internet:
-    count: 9
+    count: 8
     title: Internet
   internet connection:
     count: 1
@@ -9326,9 +9176,6 @@ dictitems:
   jack pumpkinhead:
     count: 1
     title: Jack Pumpkinhead
-  jack tramiel:
-    count: 1
-    title: Jack Tramiel
   jackpot:
     count: 1
     title: Jackpot
@@ -9339,10 +9186,10 @@ dictitems:
     count: 1
     title: Jake
   james bond:
-    count: 2
+    count: 1
     title: James Bond
   james clerk maxwell:
-    count: 3
+    count: 2
     title: James Clerk Maxwell
   james webb space telescope:
     count: 1
@@ -9377,9 +9224,6 @@ dictitems:
   jealousy:
     count: 2
     title: jealousy
-  jeep wrangler:
-    count: 1
-    title: Jeep Wrangler
   jeff atwood:
     count: 1
     title: Jeff Atwood
@@ -9677,9 +9521,6 @@ dictitems:
   "kaluza\u2013":
     count: 1
     title: "Kaluza\u2013"
-  karate:
-    count: 1
-    title: Karate
   karate club:
     count: 1
     title: Karate Club
@@ -10083,7 +9924,7 @@ dictitems:
     count: 1
     title: Learned
   learning:
-    count: 17
+    count: 16
     title: Learning
   learning apis:
     count: 1
@@ -10160,9 +10001,6 @@ dictitems:
   lex fridman:
     count: 1
     title: Lex Fridman
-  lex luther:
-    count: 1
-    title: Lex Luther
   lex luthor:
     count: 1
     title: Lex Luthor
@@ -10188,8 +10026,8 @@ dictitems:
     count: 2
     title: Licensing
   lie:
-    count: 2
-    title: lie
+    count: 1
+    title: Lies
   life:
     count: 31
     title: Life
@@ -10253,9 +10091,6 @@ dictitems:
   lily:
     count: 1
     title: Lily
-  lily ray:
-    count: 1
-    title: Lily Ray
   lily-ray:
     count: 2
     title: Lily-Ray
@@ -10350,7 +10185,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 192
+    count: 190
     title: Linux
   linux api:
     count: 1
@@ -11046,8 +10881,8 @@ dictitems:
     count: 1
     title: Main
   main branch:
-    count: 2
-    title: Main Branch
+    count: 1
+    title: main branch
   main navigation:
     count: 1
     title: main navigation
@@ -11135,9 +10970,6 @@ dictitems:
   manhattan office:
     count: 1
     title: Manhattan office
-  manhattanites:
-    count: 1
-    title: Manhattanites
   manifest:
     count: 1
     title: Manifest
@@ -11268,7 +11100,7 @@ dictitems:
     count: 1
     title: Martin Richards
   marvel:
-    count: 2
+    count: 1
     title: Marvel
   marvel comics:
     count: 1
@@ -11304,7 +11136,7 @@ dictitems:
     count: 2
     title: mastering
   mastery:
-    count: 2
+    count: 1
     title: Mastery
   material:
     count: 1
@@ -11331,7 +11163,7 @@ dictitems:
     count: 1
     title: Mature
   max planck:
-    count: 2
+    count: 1
     title: Max Planck
   maximize advantage:
     count: 1
@@ -11456,18 +11288,12 @@ dictitems:
   megabyte:
     count: 1
     title: Megabyte
-  megacompetitors:
-    count: 1
-    title: Megacompetitors
   meissner:
     count: 3
     title: Meissner
   meissner effect:
     count: 3
     title: Meissner Effect
-  mellon bank:
-    count: 1
-    title: Mellon Bank
   meme:
     count: 2
     title: Meme
@@ -11510,15 +11336,6 @@ dictitems:
   mentats:
     count: 1
     title: Mentats
-  mentee:
-    count: 1
-    title: mentee
-  mentor:
-    count: 1
-    title: mentor
-  mentor-mentee:
-    count: 1
-    title: mentor-mentee
   mentos and diet coke experiment:
     count: 1
     title: Mentos and Diet Coke experiment
@@ -11609,11 +11426,8 @@ dictitems:
   metropolis:
     count: 1
     title: Metropolis
-  mexican prison:
-    count: 1
-    title: Mexican prison
   mexico:
-    count: 2
+    count: 1
     title: Mexico
   mgm movie:
     count: 1
@@ -11625,14 +11439,11 @@ dictitems:
     count: 1
     title: Mic Lovin'
   michael faraday:
-    count: 2
+    count: 1
     title: Michael Faraday
   michael levin:
     count: 1
     title: Michael Levin
-  michael rubin:
-    count: 1
-    title: Michael Rubin
   michael scott:
     count: 1
     title: Michael Scott
@@ -11658,7 +11469,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 59
+    count: 58
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11678,9 +11489,6 @@ dictitems:
   microsoft edge:
     count: 5
     title: Microsoft Edge
-  microsoft github copilot:
-    count: 1
-    title: Microsoft Github Copilot
   microsoft images search:
     count: 1
     title: Microsoft Images Search
@@ -11808,7 +11616,7 @@ dictitems:
     count: 1
     title: Min Ragan-Kelley
   mind:
-    count: 5
+    count: 4
     title: Mind
   mind control:
     count: 1
@@ -12005,9 +11813,6 @@ dictitems:
   monkey:
     count: 1
     title: Monkeys
-  monsterhost:
-    count: 1
-    title: Monsterhost
   month ranges:
     count: 1
     title: Month Ranges
@@ -12035,9 +11840,6 @@ dictitems:
   mortality:
     count: 1
     title: Mortality
-  mos 6502:
-    count: 1
-    title: MOS 6502
   moses:
     count: 1
     title: Moses
@@ -12204,7 +12006,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 12
+    count: 11
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -12263,9 +12065,6 @@ dictitems:
   na:
     count: 15
     title: NAS
-  nadella:
-    count: 1
-    title: Nadella
   nailed:
     count: 1
     title: Nailed
@@ -12450,13 +12249,13 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 39
+    count: 37
     title: NeoVim
   neovim path:
     count: 1
     title: NeoVim path
   nerd:
-    count: 2
+    count: 1
     title: Nerd
   nerve:
     count: 1
@@ -12575,9 +12374,6 @@ dictitems:
   new york tech meetup:
     count: 1
     title: New York Tech Meetup
-  new yorker:
-    count: 1
-    title: New Yorker
   new zealand:
     count: 1
     title: New Zealand
@@ -12605,9 +12401,6 @@ dictitems:
   nickname:
     count: 2
     title: Nickname
-  nicolas cage:
-    count: 1
-    title: Nicolas Cage
   nietzsche:
     count: 1
     title: Nietzsche
@@ -12629,12 +12422,6 @@ dictitems:
   nintendo:
     count: 1
     title: Nintendo
-  nissan:
-    count: 1
-    title: Nissan
-  nissan pathfinder:
-    count: 1
-    title: Nissan Pathfinder
   nltk:
     count: 2
     title: NLTK
@@ -12746,9 +12533,6 @@ dictitems:
   norristown:
     count: 1
     title: Norristown
-  norristown r6:
-    count: 1
-    title: Norristown R6
   north korea:
     count: 1
     title: North Korea
@@ -12843,7 +12627,7 @@ dictitems:
     count: 2
     title: nvim
   nyc:
-    count: 11
+    count: 10
     title: NYC
   nyc,:
     count: 1
@@ -13266,8 +13050,8 @@ dictitems:
     count: 1
     title: Oscillation
   others:
-    count: 2
-    title: others
+    count: 1
+    title: Others
   outcome:
     count: 1
     title: Outcome
@@ -13314,7 +13098,7 @@ dictitems:
     count: 1
     title: Ownership
   oz:
-    count: 5
+    count: 4
     title: Oz
   ozma:
     count: 1
@@ -13442,9 +13226,6 @@ dictitems:
   parameterized:
     count: 1
     title: parameterized
-  parasympathetic nervous system:
-    count: 1
-    title: Parasympathetic Nervous System
   parent:
     count: 3
     title: parent
@@ -13580,9 +13361,6 @@ dictitems:
   penn & teller:
     count: 1
     title: Penn & Teller
-  penn station:
-    count: 1
-    title: Penn Station
   pennsylvania:
     count: 1
     title: Pennsylvania
@@ -13730,9 +13508,6 @@ dictitems:
   philadelphia amiga users' group:
     count: 1
     title: Philadelphia Amiga Users' Group
-  philadelphian:
-    count: 1
-    title: Philadelphian
   philly cream cheese:
     count: 1
     title: Philly Cream Cheese
@@ -14048,9 +13823,6 @@ dictitems:
   polarized people:
     count: 1
     title: polarized people
-  polarizing:
-    count: 1
-    title: Polarizing
   police:
     count: 1
     title: Police
@@ -14672,9 +14444,6 @@ dictitems:
   pseudo-dynamic:
     count: 1
     title: Pseudo-dynamic
-  psyche:
-    count: 1
-    title: Psyche
   psychedelic:
     count: 1
     title: Psychedelic
@@ -14834,9 +14603,6 @@ dictitems:
   pyppeteer:
     count: 2
     title: Pyppeteer
-  pyramid:
-    count: 1
-    title: Pyramids
   python:
     count: 198
     title: Python
@@ -14958,7 +14724,7 @@ dictitems:
     count: 1
     title: Quantized Gravity
   quantum:
-    count: 7
+    count: 6
     title: Quantum
   quantum computer:
     count: 1
@@ -15021,7 +14787,7 @@ dictitems:
     count: 1
     title: Quantum Loop
   quantum mechanics:
-    count: 7
+    count: 6
     title: Quantum Mechanics
   quantum metrology:
     count: 1
@@ -15068,9 +14834,6 @@ dictitems:
   qubits:
     count: 1
     title: Qubits
-  queens village:
-    count: 1
-    title: Queens Village
   query:
     count: 4
     title: Query
@@ -15119,9 +14882,6 @@ dictitems:
   r-key:
     count: 1
     title: R-key
-  r. daneel olivaw:
-    count: 1
-    title: R. Daneel Olivaw
   rabbit:
     count: 2
     title: Rabbit
@@ -15174,8 +14934,8 @@ dictitems:
     count: 1
     title: RAID
   rainbow:
-    count: 2
-    title: Rainbow
+    count: 1
+    title: rainbow
   rainbows end:
     count: 2
     title: Rainbows End
@@ -15242,9 +15002,6 @@ dictitems:
   ratio:
     count: 1
     title: ratio
-  rationale:
-    count: 1
-    title: Rationale
   ratios of arc lengths:
     count: 1
     title: Ratios of Arc Lengths
@@ -15329,9 +15086,6 @@ dictitems:
   ready player one:
     count: 2
     title: Ready Player One
-  reagan:
-    count: 1
-    title: Reagan
   real:
     count: 2
     title: Real
@@ -15977,11 +15731,8 @@ dictitems:
   robbie:
     count: 1
     title: Robbie
-  robbie nelson:
-    count: 1
-    title: Robbie Nelson
   robert cialdini:
-    count: 4
+    count: 3
     title: Robert Cialdini
   robin:
     count: 1
@@ -16001,9 +15752,6 @@ dictitems:
   rocky:
     count: 1
     title: Rocky
-  rocky stallone:
-    count: 1
-    title: Rocky Stallone
   role model:
     count: 2
     title: Role Model
@@ -16223,9 +15971,6 @@ dictitems:
   samurai warrior:
     count: 1
     title: Samurai Warrior
-  san felipe:
-    count: 1
-    title: San Felipe
   san-serif:
     count: 1
     title: San-serif
@@ -16278,7 +16023,7 @@ dictitems:
     count: 1
     title: SCSS
   scala:
-    count: 4
+    count: 3
     title: Scala
   scalability:
     count: 1
@@ -16478,9 +16223,6 @@ dictitems:
   season:
     count: 1
     title: Season
-  secamp 32:
-    count: 1
-    title: Secamp 32
   second:
     count: 1
     title: Seconds
@@ -16656,7 +16398,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 92
+    count: 91
     title: SEO
   seo blog:
     count: 1
@@ -16791,7 +16533,7 @@ dictitems:
     count: 1
     title: setuptools
   sge:
-    count: 3
+    count: 2
     title: SGE
   sh:
     count: 1
@@ -16874,9 +16616,6 @@ dictitems:
   shelter island conference:
     count: 1
     title: Shelter Island Conference
-  sherlock holmes:
-    count: 1
-    title: Sherlock Holmes
   shift:
     count: 2
     title: Shift
@@ -16913,12 +16652,6 @@ dictitems:
   siberian tiger:
     count: 1
     title: Siberian Tiger
-  sibling cruelty:
-    count: 1
-    title: sibling cruelty
-  sid chip:
-    count: 1
-    title: SID chip
   sid-chip:
     count: 1
     title: SID-chip
@@ -17070,8 +16803,8 @@ dictitems:
     count: 1
     title: situational
   situational awareness:
-    count: 2
-    title: situational awareness
+    count: 1
+    title: Situational Awareness
   six principles:
     count: 1
     title: Six Principles
@@ -17400,11 +17133,8 @@ dictitems:
     count: 1
     title: SourceForge
   south park:
-    count: 2
-    title: South Park
-  south philly:
     count: 1
-    title: South Philly
+    title: South Park
   space:
     count: 4
     title: Space
@@ -17459,9 +17189,6 @@ dictitems:
   spect:
     count: 1
     title: Spect
-  spectrum:
-    count: 1
-    title: Spectrum
   speech regulation:
     count: 1
     title: Speech Regulation
@@ -17543,9 +17270,6 @@ dictitems:
   spring layout:
     count: 1
     title: Spring Layout
-  spring mill elementary school:
-    count: 1
-    title: Spring Mill Elementary School
   sql:
     count: 1
     title: SQL
@@ -17576,9 +17300,6 @@ dictitems:
   sqlitedict:
     count: 8
     title: SqliteDict
-  square:
-    count: 1
-    title: Square
   square-brackets:
     count: 1
     title: Square-Brackets
@@ -17634,7 +17355,7 @@ dictitems:
     count: 1
     title: Stakeholders
   stan lee:
-    count: 2
+    count: 1
     title: Stan Lee
   stand:
     count: 2
@@ -17676,7 +17397,7 @@ dictitems:
     count: 3
     title: Stars
   star trek:
-    count: 4
+    count: 3
     title: Star Trek
   star wars:
     count: 3
@@ -17696,9 +17417,6 @@ dictitems:
   starnix:
     count: 2
     title: Starnix
-  starry night:
-    count: 1
-    title: Starry Night
   start:
     count: 2
     title: Start
@@ -17820,7 +17538,7 @@ dictitems:
     count: 1
     title: Steve Carell
   steve jobs:
-    count: 5
+    count: 4
     title: Steve Jobs
   steven greer:
     count: 1
@@ -17834,9 +17552,6 @@ dictitems:
   stick:
     count: 1
     title: Stick
-  sticks and stones:
-    count: 1
-    title: Sticks and Stones
   stilling the wolf:
     count: 1
     title: stilling the wolf
@@ -17886,7 +17601,7 @@ dictitems:
     count: 1
     title: storm
   story:
-    count: 6
+    count: 5
     title: Stories
   story visualization:
     count: 1
@@ -18174,7 +17889,7 @@ dictitems:
     count: 1
     title: Sun May 14
   sun microsystems:
-    count: 4
+    count: 3
     title: Sun Microsystems
   sun tzu:
     count: 3
@@ -18296,14 +18011,11 @@ dictitems:
   switching:
     count: 3
     title: Switching
-  swordfighter:
-    count: 1
-    title: swordfighter
   sybase:
     count: 1
     title: Sybase
   sydney:
-    count: 2
+    count: 1
     title: Sydney
   symbol:
     count: 2
@@ -18332,9 +18044,6 @@ dictitems:
   symmetry:
     count: 1
     title: Symmetry
-  sympathetic nervous system:
-    count: 1
-    title: Sympathetic Nervous System
   sympy:
     count: 1
     title: sympy
@@ -18773,9 +18482,6 @@ dictitems:
   the circle:
     count: 1
     title: The Circle
-  the croods:
-    count: 1
-    title: The Croods
   the culture:
     count: 1
     title: The Culture
@@ -18788,9 +18494,6 @@ dictitems:
   the muppet movie:
     count: 1
     title: The Muppet Movie
-  the network:
-    count: 1
-    title: The Network
   the office:
     count: 1
     title: The Office
@@ -18875,9 +18578,6 @@ dictitems:
   tides,:
     count: 1
     title: Tides,
-  tijuana:
-    count: 1
-    title: Tijuana
   tiktok:
     count: 1
     title: TikTok
@@ -18908,9 +18608,6 @@ dictitems:
   time travel:
     count: 1
     title: Time Travel
-  time wars:
-    count: 1
-    title: Time Wars
   time-saving:
     count: 1
     title: time-saving
@@ -19226,9 +18923,6 @@ dictitems:
   tricked:
     count: 1
     title: Tricked
-  trigger:
-    count: 1
-    title: Triggers
   triggered:
     count: 2
     title: Triggered
@@ -19278,7 +18972,7 @@ dictitems:
     count: 1
     title: Trustworthiness
   truth:
-    count: 3
+    count: 2
     title: Truth
   truthiness:
     count: 1
@@ -19481,9 +19175,6 @@ dictitems:
   unconscious:
     count: 1
     title: Unconscious
-  undercover boss:
-    count: 1
-    title: Undercover Boss
   understand:
     count: 3
     title: Understand
@@ -19584,7 +19275,7 @@ dictitems:
     count: 1
     title: University of Manchester
   unix:
-    count: 24
+    count: 23
     title: Unix
   unix hater's handbook:
     count: 1
@@ -19899,7 +19590,7 @@ dictitems:
     count: 1
     title: vGPU
   vi:
-    count: 8
+    count: 7
     title: vi
   vi-based platform:
     count: 1
@@ -19922,9 +19613,6 @@ dictitems:
   vic 20:
     count: 1
     title: Vic 20
-  vic-20:
-    count: 1
-    title: Vic-20
   vice president:
     count: 2
     title: Vice President
@@ -19977,7 +19665,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 126
+    count: 125
     title: Vim
   vim buffer:
     count: 1
@@ -20021,9 +19709,6 @@ dictitems:
   vimscript:
     count: 1
     title: vimscript
-  vincent van gogh:
-    count: 1
-    title: Vincent van Gogh
   vint cerf:
     count: 2
     title: Vint Cerf
@@ -20034,7 +19719,7 @@ dictitems:
     count: 1
     title: viral content
   virginia:
-    count: 2
+    count: 1
     title: Virginia
   virtual:
     count: 5
@@ -20196,14 +19881,11 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 27
+    count: 26
     title: VSCode
   vscodium:
     count: 1
     title: VSCodium
-  vulcan:
-    count: 1
-    title: Vulcans
   vulnerability:
     count: 1
     title: Vulnerability
@@ -20753,9 +20435,6 @@ dictitems:
   writing suggestion tool:
     count: 1
     title: Writing Suggestion Tool
-  wrong john silver:
-    count: 1
-    title: Wrong John Silver
   wsgi:
     count: 1
     title: WSGI
@@ -20891,9 +20570,6 @@ dictitems:
   youtube moz:
     count: 1
     title: YouTube MOZ
-  youtube stream:
-    count: 1
-    title: YouTube stream
   youtube video:
     count: 2
     title: YouTube Video
