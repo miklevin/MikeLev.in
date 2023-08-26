@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/">Getting the MyKoz.AI Blog Publishing System Into Better Shape</a> (Sat Aug 26, 2023)
+<br/>This is a discussion of my improvements to the blog publishing system built into MyKoz.AI to make it easier for new users. I'm doing life-hacks to stay focused and build new productive habits.</li>
 <li><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a> (Fri Aug 11, 2023)
 <br/>Chat with Bing about MikeLev.in's project MyKoz.AI, a modern approach to finding value in life by mastering simple, lasting skills. Learn about MikeLev.in's vision, plans, and challenges in developing and launching the project, plus a long discussion tackling the future of the field of SEO and the general online experience of searchers and seekers, drawing parallels to libraries and the role of librarians. Also includes an examination of the role of publishers and advertisers in such exchanges.</li>
 <li><a href="/blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/">Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)</a> (Thu Aug 10, 2023)

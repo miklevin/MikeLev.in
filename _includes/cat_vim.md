@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/">Getting the MyKoz.AI Blog Publishing System Into Better Shape</a> (Sat Aug 26, 2023)
+<br/>This is a discussion of my improvements to the blog publishing system built into MyKoz.AI to make it easier for new users. I'm doing life-hacks to stay focused and build new productive habits.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
 <br/>As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.</li>
 <li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
