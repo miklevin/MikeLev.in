@@ -4,7 +4,7 @@ title: "Re-Defining SEO: The Impending Tech Flood and How To Survive It"
 headline: "Surviving the Impending Tech Flood: My Journey to Re-Defining SEO"
 description: As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.
 keywords: SEO, Gerard Bucas, Scala, Web Sales Funnel, Public Relations, Vice President, Culture, Capitalism, Linux, Python, Vim, Git, Windows, Noah's Ark, Search Wars, WebCrawler, AltaVista, Chatbots, ChatGPT, OpenAI, Clippy, Microsoft, Google, AdWords, Long Tail, Made Men, Markdown Code, SGE, Universal Search, Search Generative Experience, Disruption, Ark, MyKoz.
-categories: python, microsoft, ai, vim, linux, google, git, seo
+categories: python, linux, git, microsoft, vim, seo, google, ai
 permalink: /blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/
 layout: post
 group: blog
@@ -179,10 +179,10 @@ them. Just adapt in ways that make you survive the flood &#151; and hopefully
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
