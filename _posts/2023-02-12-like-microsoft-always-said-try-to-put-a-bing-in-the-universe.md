@@ -4,7 +4,7 @@ title: Like Microsoft Always Said, Try To Put a Bing In The Universe
 headline: "Uncovering Microsoft's Plans to Compete with Google: My Quest to Find Alternatives to ChatBot Prometheus"
 description: As an SEO expert, I love helping people find what they need online, but I despise how it is used to promote and shill poor-quality products. In the past, Google encouraged the creation of large websites with interconnected content to make them more discoverable, but this caused a lot of technical debt. Microsoft is now taking advantage of this by controlling Windows, Github, VSCode, and the default browser on the desktop.
 keywords: Microsoft, Bing, SEO, Google, Windows, Github, VSCode, Browser, ChatBot, Prometheus, Domain Authority, SERPs, Links, Quality, Age, Total Links, Strength
-categories: bing, seo, microsoft, chatbot, git, google
+categories: bing, microsoft, google, seo, chatbot, git
 permalink: /blog/like-microsoft-always-said-try-to-put-a-bing-in-the-universe/
 layout: post
 group: blog
@@ -150,8 +150,8 @@ Improving your website's Domain Authority can help improve your website's search
 
 <ul>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
