@@ -4,7 +4,7 @@ title: Powering My Way Through 3 Different Data Automation Projects
 headline: Finished My Data Automation Projects with Satisfaction Despite Mental Fatigue
 description: Today, I powered my way through three data automation projects, using tricks to make the work more enjoyable and browser automation to avoid extra steps. I sliced a Jupyter Notebook, loaded data, and used a modulo technique to chop a long keyword list into batches of 100. Despite feeling mentally fatigued, I finished the day with a sense of satisfaction. Read more to learn how I overcame hurdles and proved the viability of the project.
 keywords: Data Automation, Jupyter Notebook, Browser Automation, Google Chrome, User Profile, SEMRush, SERP-Scraping, Keyword List, Modulo Technique, Fuzzy Matching
-categories: browser automation, jupyter
+categories: jupyter, browser automation
 permalink: /blog/powering-my-way-through-3-different-data-automation-projects/
 layout: post
 group: blog
@@ -143,5 +143,5 @@ myself overlook it!
 ## Categories
 
 <ul>
-<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li></ul>

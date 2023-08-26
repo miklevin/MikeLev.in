@@ -4,7 +4,7 @@ title: Figuring Out Good Vim to TikTok Journaling Format
 headline: Discovering How to Use Vim and TikTok Together for Journaling
 description: I'm learning to incorporate my daily journaling into social media like TikTok, Twitter, and YouTube. I'm optimizing the vertical format, and using my 'Green Lantern' green highlighting trick to imply force of will. I'm figuring out the ideal number of characters across for the text, and then I can screen capture it and read it. I'm also looking for a way to show my face on the computer's desktop while I'm recording. Follow my journey and learn how to be on Linux
 keywords: Windows, Windows 11, Windows 10, Linux, Subsystems, Keyboard Shortcut, Virtual Desktops, OS-wars, Mac, Command, Option, Control, Copy, Paste, Muscle Memory, Steve Jobs, OS-wars, Vim, Journal, TikTok, Twitter, YouTube, Vertical Format, Green Highlighting, Green Lantern, Zoom, OBS, Open Broadcast Software, Desktop, Version Upgrade, Fad-Shift, Timeless Tools, Microsoft, Linux
-categories: vim, youtube, desktop, microsoft, muscle memory, twitter, linux, mac
+categories: muscle memory, desktop, microsoft, youtube, vim, twitter, linux, mac
 permalink: /blog/figuring-out-good-vim-to-tiktok-journaling-format/
 layout: post
 group: blog
@@ -124,11 +124,11 @@ Linux, into Windows 10 and 11.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/desktop/'>Desktop</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li></ul>

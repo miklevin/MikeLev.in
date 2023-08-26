@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a> (Sat Aug 26, 2023)
+<br/>As a tech enthusiast, I understand the importance of having control over my computing experience. I've seen how the industry has shifted away from user control, but I believe that Linux on Windows can help us reclaim our freedom. With the right tools, we can take advantage of Microsoft's inclusion of Linux to be more productive and regain the control we lost. MyKoz.AI is a great way to start the journey to eventual computing freedom.</li>
 <li><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a> (Fri Aug 25, 2023)
 <br/>I added webdev to MyKoz.AI with uvicorn ASGI Python webserver. Follow the steps I used to add another monitorable service running through GNU screen that opens new possibilities. This sets the stage for writing a sample HTMX app.</li>
 <li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)

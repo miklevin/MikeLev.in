@@ -4,7 +4,7 @@ title: Future-Proof Yourself Based on Timeless Tools
 headline: Unlock Timeless Tools to Future-Proof Your Life
 description: I'm creating a life management aid to take control of my own life. I'm sharing timeless tools to future-proof yourself, such as touch typing on a QWERTY keyboard, learning Linux, and journaling in Vim to gain the skills necessary to succeed in any world we may face. With these skills, you can gain the advantage of mastering tech, from creating a robot army to using a headless CMS.
 keywords: life, management, creative, navigation, geeky, paralysis, experts, bootstrap, modified, behavior, visualization, hardware, platforms, phone, laptop, cloud, AI, commander, situational, awareness, subjective, senses, brains, vim, NeoVim, Copilot, auto-complete, .bash_profile, alias, nvim, Kenny Rodgers, Bram Moolenaar, text editor, journaling, writing, environment, AI-friend, software, hardware, decouple
-categories: vim, text editor, journaling, navigation, ai
+categories: journaling, navigation, text editor, vim, ai
 permalink: /blog/future-proof-yourself-based-on-timeless-tools/
 layout: post
 group: blog
@@ -369,8 +369,8 @@ free up the rest of your mind to focus on the task at hand.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/navigation/'>Navigation</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

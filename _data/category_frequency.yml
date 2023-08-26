@@ -434,6 +434,9 @@ dictitems:
   7:00 am:
     count: 1
     title: 7:00 AM
+  8-bit:
+    count: 1
+    title: 8-bit
   '80':
     count: 3
     title: 80s
@@ -1074,7 +1077,7 @@ dictitems:
     count: 1
     title: Ambitious
   amd:
-    count: 1
+    count: 2
     title: AMD
   american:
     count: 1
@@ -1146,7 +1149,7 @@ dictitems:
     count: 1
     title: Anderson
   android:
-    count: 1
+    count: 2
     title: Android
   angel:
     count: 1
@@ -1278,7 +1281,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 10
+    count: 11
     title: Apple
   apple app store:
     count: 1
@@ -1856,6 +1859,9 @@ dictitems:
   battle cries:
     count: 1
     title: battle cries
+  bbc micro:
+    count: 1
+    title: BBC Micro
   bcpl:
     count: 1
     title: BCPL
@@ -2060,6 +2066,9 @@ dictitems:
   binary:
     count: 2
     title: Binary
+  binary files,:
+    count: 1
+    title: Binary Files,
   binary truths:
     count: 1
     title: binary truths
@@ -2111,6 +2120,9 @@ dictitems:
   biophysics:
     count: 1
     title: Biophysics
+  bios:
+    count: 1
+    title: BIOS
   biotechnology:
     count: 2
     title: Biotechnology
@@ -2601,7 +2613,7 @@ dictitems:
     count: 1
     title: Buying Links
   c:
-    count: 4
+    count: 5
     title: C
   c-language:
     count: 1
@@ -3192,7 +3204,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 21
+    count: 22
     title: Cloud
   cloud chamber:
     count: 1
@@ -3486,7 +3498,7 @@ dictitems:
     count: 1
     title: Commodore 464
   commodore 64:
-    count: 2
+    count: 3
     title: Commodore 64
   commodore 664:
     count: 1
@@ -3560,6 +3572,9 @@ dictitems:
   competitor:
     count: 5
     title: Competitors
+  compiling:
+    count: 1
+    title: Compiling
   completion:
     count: 1
     title: Completion
@@ -3702,7 +3717,7 @@ dictitems:
     count: 1
     title: Configuration File
   configuration files:
-    count: 1
+    count: 2
     title: Configuration Files
   configure:
     count: 1
@@ -6041,6 +6056,9 @@ dictitems:
   etz chaim:
     count: 1
     title: Etz Chaim
+  eu:
+    count: 1
+    title: EU
   euler diagrams:
     count: 1
     title: Euler Diagrams
@@ -6747,7 +6765,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 20
+    count: 21
     title: FOSS
   foam:
     count: 1
@@ -6921,7 +6939,7 @@ dictitems:
     count: 11
     title: Free
   free and open source software:
-    count: 2
+    count: 3
     title: Free and Open Source Software
   free cost:
     count: 1
@@ -7185,7 +7203,7 @@ dictitems:
     count: 1
     title: Gallery
   game:
-    count: 7
+    count: 8
     title: Game
   game market:
     count: 1
@@ -8027,6 +8045,9 @@ dictitems:
   hardware:
     count: 21
     title: Hardware
+  hardware platform:
+    count: 1
+    title: Hardware Platform
   harkonnen:
     count: 1
     title: Harkonnen
@@ -8694,7 +8715,7 @@ dictitems:
     count: 1
     title: IMDB.com
   ime:
-    count: 1
+    count: 2
     title: IME
   img:
     count: 1
@@ -9066,7 +9087,7 @@ dictitems:
     count: 4
     title: Integration
   intel:
-    count: 6
+    count: 7
     title: Intel
   intel mac:
     count: 1
@@ -9396,7 +9417,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 21
+    count: 22
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -10386,7 +10407,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 191
+    count: 192
     title: Linux
   linux api:
     count: 1
@@ -11156,6 +11177,9 @@ dictitems:
   management:
     count: 4
     title: Management
+  management engine:
+    count: 1
+    title: Management Engine
   manager:
     count: 1
     title: Manager
@@ -11261,6 +11285,9 @@ dictitems:
   market competition:
     count: 1
     title: Market Competition
+  market forces:
+    count: 1
+    title: Market Forces
   market share:
     count: 1
     title: Market Share
@@ -11883,8 +11910,8 @@ dictitems:
     count: 1
     title: Minimum
   minix:
-    count: 1
-    title: MINIX
+    count: 2
+    title: Minix
   minor prophets:
     count: 1
     title: Minor Prophets
@@ -14573,6 +14600,9 @@ dictitems:
   programming:
     count: 17
     title: Programming
+  programming language:
+    count: 1
+    title: Programming Language
   programming languages:
     count: 2
     title: Programming Languages
@@ -14877,7 +14907,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 197
+    count: 198
     title: Python
   python 3:
     count: 1
@@ -15267,7 +15297,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 6
+    count: 7
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -15959,6 +15989,12 @@ dictitems:
   right:
     count: 1
     title: right
+  right to repair:
+    count: 1
+    title: Right to Repair
+  right to upgrade:
+    count: 1
+    title: Right to Upgrade
   right-arrow:
     count: 1
     title: right-arrow
@@ -16755,7 +16791,7 @@ dictitems:
     count: 1
     title: servants
   server:
-    count: 16
+    count: 17
     title: Server
   server automation:
     count: 1
@@ -17828,6 +17864,9 @@ dictitems:
   steam:
     count: 1
     title: Steam
+  steam engine:
+    count: 1
+    title: Steam Engine
   steel:
     count: 2
     title: Steel
@@ -18729,7 +18768,7 @@ dictitems:
     count: 3
     title: Text Editing
   text editor:
-    count: 9
+    count: 10
     title: Text Editor
   text editors:
     count: 7
@@ -19454,6 +19493,9 @@ dictitems:
   udemy:
     count: 1
     title: Udemy
+  uefi:
+    count: 1
+    title: UEFI
   ufo:
     count: 6
     title: UFO
@@ -20010,7 +20052,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 125
+    count: 126
     title: Vim
   vim buffer:
     count: 1
@@ -20565,7 +20607,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 83
+    count: 84
     title: Windows
   windows 10:
     count: 27
@@ -20993,6 +21035,9 @@ dictitems:
   zombie:
     count: 1
     title: Zombie
+  zombie-nets:
+    count: 1
+    title: Zombie-nets
   zone:
     count: 4
     title: Zone

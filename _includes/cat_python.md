@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a> (Sat Aug 26, 2023)
+<br/>As a tech enthusiast, I understand the importance of having control over my computing experience. I've seen how the industry has shifted away from user control, but I believe that Linux on Windows can help us reclaim our freedom. With the right tools, we can take advantage of Microsoft's inclusion of Linux to be more productive and regain the control we lost. MyKoz.AI is a great way to start the journey to eventual computing freedom.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
 <br/>As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.</li>
 <li><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a> (Fri Aug 25, 2023)

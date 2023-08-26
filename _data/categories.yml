@@ -1,3 +1,39 @@
+- linux
+- window
+- minix
+- intel
+- management engine
+- ime
+- amd
+- apple
+- android
+- uefi
+- bios
+- steam engine
+- raspberry pi
+- bbc micro
+- commodore 64
+- 8-bit
+- vim
+- text editor
+- configuration files
+- programming language
+- python
+- javascript
+- c
+- free and open source software
+- fo
+- right to repair
+- right to upgrade
+- eu
+- server
+- cloud
+- zombie-nets
+- market forces
+- hardware platform
+- game
+- compiling
+- binary files,
 - mykoz.ai
 - blog
 - publishing
@@ -8,7 +44,6 @@
 - levinux
 - journal
 - repo
-- vim
 - buffer
 - editing
 - tension
@@ -31,10 +66,7 @@
 - vice president
 - culture
 - capitalism
-- linux
-- python
 - git
-- window
 - noah's ark
 - search wars
 - webcrawler
@@ -57,7 +89,6 @@
 - webdev
 - html
 - htmx
-- javascript
 - reactjs
 - dom
 - alpinejs
@@ -87,9 +118,7 @@
 - apps
 - restore
 - terminal
-- cloud
 - lpvg
-- fo
 - command-line
 - interface
 - tty
@@ -169,7 +198,6 @@
 - nvim
 - kenny rodgers
 - bram moolenaar
-- text editor
 - journaling
 - writing
 - environment
@@ -318,7 +346,6 @@
 - sunnyvale
 - new york
 - tech meetups
-- free and open source software
 - f
 - data science
 - jupiter lab
@@ -436,7 +463,6 @@
 - stoicism
 - bullet journal
 - api
-- apple
 - juputerlab
 - server-build
 - script
@@ -515,7 +541,6 @@
 - o
 - vscode
 - desktop-jupyter
-- raspberry pi
 - programming
 - file paths
 - forward slashes
@@ -727,7 +752,6 @@
 - uptake
 - wizardly
 - crooked sorcerer
-- commodore 64
 - atari
 - st
 - falcon
@@ -1111,7 +1135,6 @@
 - martian
 - stranger in a strange land
 - alice in wonderland,
-- intel
 - m1
 - m2
 - multipass
@@ -1382,7 +1405,6 @@
 - linus torvalds
 - dvcs
 - bitkeeper
-- android
 - lovecraft
 - piers anthony
 - wordpress
@@ -1566,7 +1588,6 @@
 - desktop oses
 - rtx 3090
 - steam
-- game
 - sci-fi
 - fantasy
 - malcolm gladwell
@@ -1920,7 +1941,6 @@
 - automate
 - lashing
 - discord
-- server
 - image
 - ip
 - email
@@ -2894,7 +2914,6 @@
 - mental blocks
 - possibility
 - bcpl
-- c
 - base64
 - module
 - encode
@@ -4633,14 +4652,12 @@
 - datacenter
 - bookshelf
 - socratic method
-- ime
 - development
 - in-house
 - amigaos
 - tripos
 - multitasking
 - red hat
-- minix
 - microkernel
 - pool
 - online personality
@@ -5715,7 +5732,6 @@
 - install scripts
 - linux terminal
 - public github repos
-- configuration files
 - free software
 - gi
 - plowing
@@ -6532,7 +6548,6 @@
 - nokia
 - zilog
 - mo
-- amd
 - home computer
 - '90'
 - '8086'
