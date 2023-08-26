@@ -719,6 +719,9 @@ dictitems:
   ado library:
     count: 1
     title: ADO library
+  adobe:
+    count: 1
+    title: Adobe
   adobe flash:
     count: 1
     title: Adobe Flash
@@ -927,7 +930,7 @@ dictitems:
     count: 1
     title: Alerts
   alexa:
-    count: 1
+    count: 2
     title: Alexa
   aleyda sol:
     count: 1
@@ -5309,6 +5312,9 @@ dictitems:
   drupal:
     count: 2
     title: Drupal
+  dry:
+    count: 1
+    title: DRY
   dry principle:
     count: 1
     title: DRY Principle
@@ -5456,6 +5462,9 @@ dictitems:
   edit files:
     count: 1
     title: Edit Files
+  edit plus:
+    count: 1
+    title: Edit Plus
   edit.sh:
     count: 1
     title: edit.sh
@@ -7248,7 +7257,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 85
+    count: 86
     title: Git
   git commit:
     count: 2
@@ -7473,7 +7482,7 @@ dictitems:
     count: 2
     title: Google Colab
   google docs:
-    count: 4
+    count: 5
     title: Google Docs
   google oauth2:
     count: 1
@@ -7515,7 +7524,7 @@ dictitems:
     count: 1
     title: Google Sheet
   google sheets:
-    count: 3
+    count: 4
     title: Google Sheets
   google sheets api:
     count: 1
@@ -8142,7 +8151,7 @@ dictitems:
     count: 1
     title: Hits the Fan
   hittail:
-    count: 3
+    count: 4
     title: HitTail
   hittail system:
     count: 1
@@ -9225,7 +9234,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 22
+    count: 23
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -9410,6 +9419,9 @@ dictitems:
   jpl:
     count: 1
     title: JPL
+  jquery:
+    count: 1
+    title: jquery
   json:
     count: 4
     title: JSON
@@ -10206,7 +10218,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 190
+    count: 191
     title: Linux
   linux api:
     count: 1
@@ -10677,7 +10689,7 @@ dictitems:
     count: 1
     title: Lowercase
   lpvg:
-    count: 12
+    count: 13
     title: LPvg
   lpvg movement:
     count: 1
@@ -12063,7 +12075,7 @@ dictitems:
     count: 1
     title: Mycelium Network
   mykoz:
-    count: 4
+    count: 5
     title: MyKoz
   mykoz.:
     count: 1
@@ -12219,7 +12231,7 @@ dictitems:
     count: 1
     title: Nbconvert
   nbdev:
-    count: 17
+    count: 18
     title: nbdev
   nbdev2:
     count: 1
@@ -12471,7 +12483,7 @@ dictitems:
     count: 6
     title: Node
   nodejs:
-    count: 9
+    count: 10
     title: NodeJS
   nohup:
     count: 1
@@ -12680,6 +12692,9 @@ dictitems:
   object:
     count: 1
     title: Object
+  object oriented:
+    count: 1
+    title: Object Oriented
   object-oriented:
     count: 1
     title: Object-Oriented
@@ -14628,7 +14643,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 199
+    count: 200
     title: Python
   python 3:
     count: 1
@@ -15066,7 +15081,7 @@ dictitems:
     count: 1
     title: Reach Out
   reactjs:
-    count: 1
+    count: 2
     title: ReactJS
   read:
     count: 3
@@ -16794,7 +16809,7 @@ dictitems:
     count: 1
     title: Sir Patrick Stewart
   siri:
-    count: 1
+    count: 2
     title: Siri
   site:
     count: 9
@@ -19073,6 +19088,9 @@ dictitems:
   twitter api:
     count: 1
     title: Twitter API
+  twitter bootstrapjs:
+    count: 1
+    title: Twitter BootstrapJS
   twitter spaces:
     count: 1
     title: Twitter Spaces
@@ -19695,7 +19713,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 126
+    count: 127
     title: Vim
   vim buffer:
     count: 1
@@ -20168,6 +20186,9 @@ dictitems:
   western culture:
     count: 1
     title: Western culture
+  wet:
+    count: 1
+    title: WET
   whatsametafor:
     count: 1
     title: Whatsametafor

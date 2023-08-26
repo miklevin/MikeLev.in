@@ -4,7 +4,7 @@ title: "Rappelling Down The Rabbit Hole: A Linux Script Adventure"
 headline: "Ready, Set, Rappel: My Linux Script Adventure Begins!"
 description: I dive deep into the depths of Windows bat scripts and Linux bash scripts in this one, turning a filename into an optional input parameter so you can choose what version of Python to install. I also get a lot of help from Copilot along the way, and sort long-standing issues with WSL's systemd feature not working as expected by tweaking both a .wslconfig and a .wslconf file.
 keywords: Linux, Script, Make, Copilot, Install, Bat, Sh, Jupyter, Systemd, Ubuntu, Python, Version, Windows, WSL, .wslconfig, .wslconf, vmIdleTimeout, Bash, Snowpark, Figlet, Root, Echo, Hello World
-categories: systemd, ai, ubuntu, microsoft, linux, jupyter, wsl, python
+categories: jupyter, ubuntu, linux, python, systemd, wsl, microsoft, ai
 permalink: /blog/rappelling-down-the-rabbit-hole-a-linux-script-adventure/
 layout: post
 group: blog
@@ -294,11 +294,11 @@ file now, but diminishing returns... must sleep.
 ## Categories
 
 <ul>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

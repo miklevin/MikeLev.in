@@ -4,7 +4,7 @@ title: Recording the Subtleties of Settling Into Reset Laptop
 headline: "Settling into my Second Laptop After a Full PC Reset: Recording the Subtleties That Count"
 description: This post is about my transition plan from Windows to a Linux Terminal environment for Python programming, and the small setup steps I take to make sure everything runs smoothly. I share my tips for making Linux JuptyerLab hosted on WSL feel like a native Windows app, disabling the Control key for copy/paste in the Microsoft Terminal program, and using Microsoft Edge to install web pages as Apps. I also share my advice for customizing Edge to make it less privacy-intrusive and distracting.
 keywords: Windows 10, Linux Terminal, Microsoft Edge, Web Pages, Apps, Python, Programming, ChatBot, SERPs, Videos, Settings, System, Multitasking, App Icons, Taskbar, Small Taskbar Buttons, Personalization, Control Key, Copy/Paste, Microsoft Terminal, Vim, Visual-Block, Selects, Automatically Copy Selection, Clipboard, Launch Mode, Maximized, Startup, Launch Parameters, Bell, Audible, Nbdev, YouTube,
-categories: microsoft, linux terminal, vim, chatbot, coding, python, nbdev, setting
+categories: linux terminal, vim, python, setting, nbdev, chatbot, microsoft, coding
 permalink: /blog/recording-the-subtleties-of-settling-into-reset-laptop/
 layout: post
 group: blog
@@ -115,15 +115,15 @@ particular hardware is a good thing.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/linux-terminal/'>Linux Terminal</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/setting/'>Settings</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/setting/'>Settings</a></h4></li></ul>
+<li><h4><a href='/chatbot/'>Chatbot</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>

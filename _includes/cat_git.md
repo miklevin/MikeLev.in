@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)
+<br/>I'm exploring a more fundamental approach to web development, skipping the web frameworks and focusing on muscle memory, Linux, Python, vim, and git. I'm combining these tools to create the MyKoz project, an automated video recording system of ChatBot responses. I'm also utilizing nbdev to help me with this project.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
 <br/>As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.</li>
 <li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)
