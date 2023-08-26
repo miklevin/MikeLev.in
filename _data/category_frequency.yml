@@ -762,7 +762,7 @@ dictitems:
     count: 1
     title: Advocating
   adwords:
-    count: 2
+    count: 3
     title: AdWords
   aegis:
     count: 1
@@ -1038,7 +1038,7 @@ dictitems:
     count: 1
     title: alt-text
   altavista:
-    count: 2
+    count: 3
     title: AltaVista
   alternative:
     count: 5
@@ -1403,6 +1403,9 @@ dictitems:
   arizona state university:
     count: 1
     title: Arizona State University
+  ark:
+    count: 1
+    title: Ark
   arm:
     count: 2
     title: ARM
@@ -2687,6 +2690,9 @@ dictitems:
   caper:
     count: 1
     title: Capers
+  capitalism:
+    count: 1
+    title: Capitalism
   capitalization:
     count: 3
     title: Capitalization
@@ -2922,10 +2928,10 @@ dictitems:
     count: 1
     title: Chatbot Technology
   chatbots:
-    count: 2
-    title: ChatBots
+    count: 3
+    title: Chatbots
   chatgpt:
-    count: 28
+    count: 29
     title: ChatGPT
   chatgpt plus:
     count: 1
@@ -3164,6 +3170,9 @@ dictitems:
   climate change:
     count: 3
     title: Climate Change
+  clippy:
+    count: 1
+    title: Clippy
   clock:
     count: 5
     title: Clock
@@ -4218,7 +4227,7 @@ dictitems:
     count: 1
     title: Cultural Diffusion
   culture:
-    count: 7
+    count: 8
     title: Culture
   culture series:
     count: 3
@@ -5100,7 +5109,7 @@ dictitems:
     count: 1
     title: DISPLAY variable
   disruption:
-    count: 4
+    count: 5
     title: Disruption
   disruption-resistant:
     count: 1
@@ -7340,6 +7349,9 @@ dictitems:
   georgia:
     count: 1
     title: Georgia
+  gerard bucas:
+    count: 1
+    title: Gerard Bucas
   germ:
     count: 1
     title: Germs
@@ -7380,7 +7392,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 84
+    count: 85
     title: Git
   git commit:
     count: 2
@@ -7563,7 +7575,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 26
+    count: 27
     title: Google
   google analytics:
     count: 14
@@ -10374,7 +10386,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 190
+    count: 191
     title: Linux
   linux api:
     count: 1
@@ -10722,7 +10734,7 @@ dictitems:
     count: 1
     title: Long Life
   long tail:
-    count: 1
+    count: 2
     title: Long Tail
   long tail seo:
     count: 1
@@ -11012,6 +11024,9 @@ dictitems:
   mad scientist:
     count: 1
     title: Mad Scientist
+  made men:
+    count: 1
+    title: Made Men
   magellan:
     count: 1
     title: Magellan
@@ -11228,6 +11243,9 @@ dictitems:
   markdown:
     count: 33
     title: Markdown
+  markdown code:
+    count: 1
+    title: Markdown Code
   markdown file:
     count: 2
     title: Markdown File
@@ -11670,7 +11688,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 59
+    count: 60
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12254,6 +12272,9 @@ dictitems:
   mykoz:
     count: 4
     title: MyKoz
+  mykoz.:
+    count: 1
+    title: MyKoz.
   mykoz.ai:
     count: 6
     title: MyKoz.AI
@@ -12654,7 +12675,7 @@ dictitems:
     count: 1
     title: No Tabs
   noah's ark:
-    count: 4
+    count: 5
     title: Noah's Ark
   noah's ark platform:
     count: 1
@@ -13092,7 +13113,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 44
+    count: 45
     title: OpenAI
   openai api:
     count: 3
@@ -14724,7 +14745,7 @@ dictitems:
     count: 1
     title: Public Project
   public relations:
-    count: 3
+    count: 4
     title: Public Relations
   public repository:
     count: 1
@@ -14853,7 +14874,7 @@ dictitems:
     count: 1
     title: Pyramids
   python:
-    count: 196
+    count: 197
     title: Python
   python 3:
     count: 1
@@ -16287,7 +16308,7 @@ dictitems:
     count: 1
     title: SCSS
   scala:
-    count: 3
+    count: 4
     title: Scala
   scalability:
     count: 1
@@ -16466,12 +16487,18 @@ dictitems:
   search engines:
     count: 1
     title: Search Engines
+  search generative experience:
+    count: 1
+    title: Search Generative Experience
   search intent:
     count: 1
     title: Search Intent
   search traffic:
     count: 1
     title: Search Traffic
+  search wars:
+    count: 1
+    title: Search Wars
   search-friendly:
     count: 1
     title: Search-Friendly
@@ -16659,7 +16686,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 91
+    count: 92
     title: SEO
   seo blog:
     count: 1
@@ -16794,7 +16821,7 @@ dictitems:
     count: 1
     title: setuptools
   sge:
-    count: 2
+    count: 3
     title: SGE
   sh:
     count: 1
@@ -19568,6 +19595,9 @@ dictitems:
   universal layer:
     count: 1
     title: Universal Layer
+  universal search:
+    count: 1
+    title: Universal Search
   universality:
     count: 1
     title: Universality
@@ -19923,7 +19953,7 @@ dictitems:
     count: 1
     title: Vic-20
   vice president:
-    count: 1
+    count: 2
     title: Vice President
   video:
     count: 34
@@ -19974,7 +20004,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 123
+    count: 124
     title: Vim
   vim buffer:
     count: 1
@@ -20345,6 +20375,9 @@ dictitems:
   web publishing:
     count: 2
     title: web publishing
+  web sales funnel:
+    count: 1
+    title: Web Sales Funnel
   web scraper:
     count: 1
     title: Web Scraper
@@ -20385,8 +20418,8 @@ dictitems:
     count: 1
     title: Web-Tracking
   webcrawler:
-    count: 1
-    title: Webcrawler
+    count: 2
+    title: WebCrawler
   webdev:
     count: 4
     title: Webdev
@@ -20526,7 +20559,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 82
+    count: 83
     title: Windows
   windows 10:
     count: 27
