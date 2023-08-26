@@ -4,7 +4,7 @@ title: Get Your Daily vim Exercise
 headline: Develop Habits for Flow and Joy with Vim, Linux, Python, and Git
 description: I'm learning to express myself fluently in English, use Linux, Python, vim, and git, and focus on joy-filled habits. I'm also recognizing the importance of maintenance and organization to achieve flow, but understand the difficulty of developing habits in a constantly changing environment. I'm exploring the luxuries of static environments, like properties and inheritances, and how they can help with habit formation.
 keywords: English, Linux, Python, vim, git, Habits, Flow, Static Environments, Properties, Estates, Inheritances, Electronic Equipment, Software, Love-worthy, Joy, Maintenance, Organization, Zone, Environment, Changing
-categories: linux, joy, flow, vim, python, git
+categories: flow, git, vim, python, joy, linux
 permalink: /blog/get-your-daily-vim-exercise/
 layout: post
 group: blog
@@ -106,9 +106,9 @@ inheritances, boondoggles weighing you down!
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/joy/'>Joy</a></h4></li>
 <li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/joy/'>Joy</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
