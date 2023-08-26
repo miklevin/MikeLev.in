@@ -4,7 +4,7 @@ title: "Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!"
 headline: Touching Base with Willow and the Whole Amazing Stories Team - Shazam!
 description: Join me on an adventure as I explore the nuances of protocol, kung fu, and Dune references. From the Commodore 64 and Amiga to the Commodore 264, 364, 464, 664, 774, and 900, I'm sharing posts, settling bets, and introducing you to my favorite buddy. Plus, I'm giving a shout-out to the Microsoft team, Apple, and Union Square Venture Capitals. Don't miss the reward and extras that come with this journey!
 keywords: Dune, Kung Fu, Mentats, Hebrew, Poser, Josh Hyman, uPTake, Wizardly, Crooked Sorcerer, Commodore 64, Amiga, Atari, ST, Falcon, Jaguar, Lynx, Commodore 128, Commodore 16, Commodore Plus/4, Commodore VIC-20, Commodore PET, Commodore 264, Commodore 364, Commodore 464, Commodore 664, Commodore 774, Commodore 900, Microsoft, Mike Sinz, Norman Schwarzkopf, YouTube
-categories: amiga, youtube, microsoft
+categories: microsoft, youtube, amiga
 permalink: /blog/touching-base-for-willow-whole-amazing-stories-team-shazam/
 layout: post
 group: blog
@@ -176,6 +176,6 @@ dumpkoff. Not a lower-case umlunkhead.
 ## Categories
 
 <ul>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>
