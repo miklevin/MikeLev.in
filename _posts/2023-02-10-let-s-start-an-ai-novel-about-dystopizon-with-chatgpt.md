@@ -4,7 +4,7 @@ title: Let's Start an AI-Novel About Dystopizon with ChatGPT
 headline: Exploring Autonomy and Freedom with ChatGPT and a Smartwatch
 description: I'm Mike Levin, an SEO living in New York City. I'm exploring the use of ChatGPT to create a real-time journal of a person's life by setting up a schedule and prompts with Python. My goal is to find a way to communicate with someone without being monitored by the corporation. To do this, I suggest using a smartwatch and gradually building trust with the user. Come explore how I'm using ChatGPT to pursue autonomy and freedom.
 keywords: AI-Novel, Dystopizon, ChatGPT, Mike Levin, SEO, New York City, Python, Smartwatch, Autonomy, Freedom, Time-Sharing, Linux, Cloud, Windows Subsystem, Big Tech, Proprietary Technology, Empathetic User, Smart Home Hub, Virtual Reality Headset, Gaming Console, Subtle Language, Hints, Frequency, Scope, Messages, Trust
-categories: seo, ai, python, wsl, linux, message, new york city
+categories: ai, wsl, linux, new york city, seo, python, message
 permalink: /blog/let-s-start-an-ai-novel-about-dystopizon-with-chatgpt/
 layout: post
 group: blog
@@ -267,10 +267,10 @@ To trick my way out, I would need to use subtle language and hints, making sure 
 ## Categories
 
 <ul>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/message/'>Message</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/message/'>Message</a></h4></li></ul>
