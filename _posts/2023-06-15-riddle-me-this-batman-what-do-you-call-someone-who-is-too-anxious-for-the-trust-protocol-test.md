@@ -165,7 +165,7 @@ More to come, but methinks it's a good time for:
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/touching-base-for-willow-whole-amazing-stories-team-shazam/">Touching Base for Willow & Whole AMAZING STORIES Team :-) Shazam!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/meet-pi/">Meet Pi</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

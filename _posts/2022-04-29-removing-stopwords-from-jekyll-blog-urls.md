@@ -4,7 +4,7 @@ title: Removing Stopwords From Jekyll Blog URLs
 headline: "15-Year Project Complete: Removing Stopwords from Jekyll Blog URLs"
 description: I recently completed a 15-year project, blogslicer, as part of my ELPGD (every little project gets done) mentality. I used Linux, Python, vim, and git to create the program, and now I'm incorporating a feature to remove stopwords from Jekyll blog URLs using the Python library, nltk. I'm writing code to create a blog post with a given title, slug, and path, which will generate a journal.md file with a table
 keywords: Linux, Python, vim, git, ELPGD, nltk, Stopwords, Jekyll, URLs, journal.md, table, contents, _posts, layout, title, categories, slug, blog.md, list
-categories: python, jekyll, journal.md, vim, linux, git
+categories: vim, python, jekyll, linux, git, journal.md
 permalink: /blog/removing-stopwords-from-jekyll-blog-urls/
 layout: post
 group: blog
@@ -202,9 +202,9 @@ under Jekyll.
 ## Categories
 
 <ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/journal-md/'>Journal.md</a></h4></li></ul>
