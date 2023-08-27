@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a> (Sun Aug 27, 2023)
+<br/>I plan to soft-launch MyKoz.AI today, a platform to help you stay relevant in the tech world. Learn and use Linux, Python, vim & git (LPvg) to make the most of your skills. Automate browser tasks for SEO and turn Jupyter Notebooks into Linux services. Get ready to rely less on Windows and stay up-to-date with the latest technology.</li>
 <li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)
 <br/>I'm exploring a more fundamental approach to web development, skipping the web frameworks and focusing on muscle memory, Linux, Python, vim, and git. I'm combining these tools to create the MyKoz project, an automated video recording system of ChatBot responses. I'm also utilizing nbdev to help me with this project.</li>
 <li><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a> (Sat Aug 26, 2023)

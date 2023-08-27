@@ -1,4 +1,32 @@
+- linux
+- chrome
+- jupyter notebook
+- command-line
+- nbdev
+- license
+- manifest
+- setup files
+- setup.ini
+- service
+- repo
+- pip-installable
+- package
+- coding-adverse
+- killer app
+- linux safety-net
+- datacenters
+- ai
+- lpvg
+- messaging
+- ascii
+- intro screens
 - windows 10
+- pareto principle
+- 80/20-rule
+- rabbit hole
+- yamlchop
+- github
+- '@p macro,'
 - linux terminal
 - microsoft edge
 - web pages
@@ -29,7 +57,6 @@
 - launch parameters
 - bell
 - audible
-- nbdev
 - youtube,
 - git
 - javascript
@@ -42,8 +69,6 @@
 - wet
 - dry
 - object oriented
-- lpvg
-- linux
 - google sheets
 - google docs
 - edit plus
@@ -85,12 +110,9 @@
 - mykoz.ai
 - blog
 - publishing
-- yamlchop
-- github
 - star
 - levinux
 - journal
-- repo
 - buffer
 - editing
 - tension
@@ -161,7 +183,6 @@
 - wifi
 - restore
 - terminal
-- command-line
 - interface
 - tty
 - shell
@@ -178,7 +199,6 @@
 - automation
 - screenshot
 - daemon
-- service
 - symlink
 - executive function
 - human autonomy
@@ -223,7 +243,6 @@
 - platform
 - phone
 - laptop
-- ai
 - commander
 - situational
 - awareness
@@ -315,7 +334,6 @@
 - devtools
 - network
 - css build
-- rabbit hole
 - push
 - render
 - minimum
@@ -338,7 +356,6 @@
 - dns
 - twitch
 - live-stream
-- 80/20-rule
 - strength
 - couch
 - potato
@@ -361,7 +378,6 @@
 - static site
 - plain text files
 - funnel
-- messaging
 - optimized
 - grow
 - tribe
@@ -490,7 +506,6 @@
 - reinforcement
 - learning
 - conversation
-- datacenters
 - facial
 - recognition
 - questions,
@@ -991,7 +1006,6 @@
 - profile
 - generative experience
 - portal
-- chrome
 - lisp
 - stripe
 - airbnb
@@ -1081,7 +1095,6 @@
 - m1
 - m2
 - multipass
-- package
 - brew
 - uninstallation
 - homebrew
@@ -1441,7 +1454,6 @@
 - rosettaupdateauto
 - macos ventura
 - recovery mode
-- ascii
 - white rabbit
 - icloud
 - finder
@@ -1650,7 +1662,6 @@
 - auto-generated
 - industry
 - ziff davis
-- jupyter notebook
 - experiential
 - internal clients
 - fictional
@@ -2653,7 +2664,6 @@
 - nbdev_new
 - nbdev_export
 - black code formatter
-- setup.ini
 - practice.ipynb
 - practice.py
 - pip install -e
@@ -4000,7 +4010,6 @@
 - data engineering
 - manual steps
 - apache
-- license
 - humanly accessible api-layer
 - type-2 automation
 - jupyter,
@@ -6818,7 +6827,6 @@
 - dr. david mcclelland
 - finding
 - higher-order
-- manifest
 - coherent
 - video-journaling
 - static environments

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a> (Sun Aug 27, 2023)
+<br/>I plan to soft-launch MyKoz.AI today, a platform to help you stay relevant in the tech world. Learn and use Linux, Python, vim & git (LPvg) to make the most of your skills. Automate browser tasks for SEO and turn Jupyter Notebooks into Linux services. Get ready to rely less on Windows and stay up-to-date with the latest technology.</li>
 <li><a href="/blog/future-proof-yourself-based-on-timeless-tools/">Future-Proof Yourself Based on Timeless Tools</a> (Fri Aug 11, 2023)
 <br/>I'm creating a life management aid to take control of my own life. I'm sharing timeless tools to future-proof yourself, such as touch typing on a QWERTY keyboard, learning Linux, and journaling in Vim to gain the skills necessary to succeed in any world we may face. With these skills, you can gain the advantage of mastering tech, from creating a robot army to using a headless CMS.</li>
 <li><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a> (Fri Aug 11, 2023)

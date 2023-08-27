@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a> (Sun Aug 27, 2023)
+<br/>I plan to soft-launch MyKoz.AI today, a platform to help you stay relevant in the tech world. Learn and use Linux, Python, vim & git (LPvg) to make the most of your skills. Automate browser tasks for SEO and turn Jupyter Notebooks into Linux services. Get ready to rely less on Windows and stay up-to-date with the latest technology.</li>
 <li><a href="/blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/">Jekyll Minimum Layout Default HTML Stripped Down for Github Pages</a> (Thu Aug 10, 2023)
 <br/>Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.</li>
 <li><a href="/blog/left-is-the-past-and-right-is-the-future-right-blog-arrows/">Left is The Past and Right is The Future, Right? (Blog Arrows)</a> (Fri May 05, 2023)
