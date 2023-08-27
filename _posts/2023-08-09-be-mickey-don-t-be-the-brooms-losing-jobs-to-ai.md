@@ -4,7 +4,7 @@ title: Be Mickey. Don't Be The Brooms (Losing Jobs to AI)
 headline: "Be the Sorcerer's Apprentice: Learn the LPvg Stack and Don't Lose Your Job to AI!"
 description: Learn to code and become tech literate with Linux, Python, vim, and git. Don't be a victim of AI - be Mickey Mouse and animate the brooms to do your bidding! MyKoz.AI is an easy and gameified way to get started and become a pro in a few months.
 keywords: Linux, Python, Vim, Git, LPvg Stack, Windows, Mac, Cloud, Open Source, Future-Proof, Command Line, AI, JavaScript, Rust, Go, MyKoz.AI, Sorcerer's Apprentice, Mickey Mouse, Automation, Data Scientists
-categories: vim, linux, git, python, ai, mac, microsoft, javascript, open source
+categories: microsoft, vim, mac, linux, javascript, ai, open source, python, git
 permalink: /blog/be-mickey-don-t-be-the-brooms-losing-jobs-to-ai/
 layout: post
 group: blog
@@ -87,12 +87,12 @@ to lose your job to somebody ***using*** AI. Be Mickey. Don't be a broom.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/open-source/'>Open Source</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/open-source/'>Open Source</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>
