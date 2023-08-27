@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
+<br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
 <li><a href="/blog/recording-the-subtleties-of-settling-into-reset-laptop/">Recording the Subtleties of Settling Into Reset Laptop</a> (Sat Aug 26, 2023)
 <br/>This post is about my transition plan from Windows to a Linux Terminal environment for Python programming, and the small setup steps I take to make sure everything runs smoothly. I share my tips for making Linux JuptyerLab hosted on WSL feel like a native Windows app, disabling the Control key for copy/paste in the Microsoft Terminal program, and using Microsoft Edge to install web pages as Apps. I also share my advice for customizing Edge to make it less privacy-intrusive and distracting.</li>
 <li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)

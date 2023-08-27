@@ -1,4 +1,8 @@
 <ol>
+<li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
+<br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
+<li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
+<br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
 <li><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a> (Sun Aug 27, 2023)
 <br/>I plan to soft-launch MyKoz.AI today, a platform to help you stay relevant in the tech world. Learn and use Linux, Python, vim & git (LPvg) to make the most of your skills. Automate browser tasks for SEO and turn Jupyter Notebooks into Linux services. Get ready to rely less on Windows and stay up-to-date with the latest technology.</li>
 <li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)

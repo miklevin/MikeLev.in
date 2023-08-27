@@ -1242,7 +1242,7 @@ dictitems:
     count: 1
     title: API-way
   apis:
-    count: 4
+    count: 5
     title: APIs
   apocalypse:
     count: 1
@@ -1559,6 +1559,9 @@ dictitems:
   august 19:
     count: 1
     title: August 19
+  august 2023 broad core update:
+    count: 1
+    title: August 2023 Broad Core Update
   august 31:
     count: 1
     title: August 31
@@ -1626,7 +1629,7 @@ dictitems:
     count: 3
     title: Automating
   automation:
-    count: 25
+    count: 26
     title: Automation
   automation,:
     count: 1
@@ -1808,6 +1811,9 @@ dictitems:
   bash scripts:
     count: 1
     title: Bash Scripts
+  bash shell:
+    count: 1
+    title: Bash Shell
   bash_profile:
     count: 2
     title: Bash_profile
@@ -2016,7 +2022,7 @@ dictitems:
     count: 1
     title: Big List
   big tech:
-    count: 1
+    count: 2
     title: Big Tech
   big wins:
     count: 1
@@ -2049,7 +2055,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 24
+    count: 25
     title: Bing
   bing chatbot:
     count: 1
@@ -2456,6 +2462,9 @@ dictitems:
   browser automation:
     count: 14
     title: Browser Automation
+  browser automations:
+    count: 1
+    title: Browser Automations
   browser wars:
     count: 1
     title: Browser Wars
@@ -3156,7 +3165,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 22
+    count: 23
     title: Cloud
   cloud chamber:
     count: 1
@@ -3792,7 +3801,7 @@ dictitems:
     count: 2
     title: Contributions
   control:
-    count: 12
+    count: 13
     title: Control
   control click:
     count: 1
@@ -3827,6 +3836,9 @@ dictitems:
   conversational ai:
     count: 1
     title: conversational AI
+  conversational search:
+    count: 1
+    title: Conversational Search
   conversational-based:
     count: 1
     title: Conversational-Based
@@ -4220,6 +4232,9 @@ dictitems:
   customizability:
     count: 4
     title: Customizability
+  customization:
+    count: 1
+    title: Customization
   customizations:
     count: 1
     title: Customizations
@@ -4356,7 +4371,7 @@ dictitems:
     count: 2
     title: Data Project
   data science:
-    count: 5
+    count: 6
     title: Data Science
   data scientists:
     count: 2
@@ -4416,7 +4431,7 @@ dictitems:
     count: 1
     title: Database-Dict
   datacenter:
-    count: 1
+    count: 2
     title: Datacenter
   datacenters:
     count: 3
@@ -7178,6 +7193,9 @@ dictitems:
   generative experience:
     count: 1
     title: Generative Experience
+  generative search experience:
+    count: 1
+    title: Generative Search Experience
   generative transformers:
     count: 1
     title: Generative Transformers
@@ -7446,7 +7464,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 26
+    count: 27
     title: Google
   google analytics:
     count: 14
@@ -7469,6 +7487,9 @@ dictitems:
   google apis:
     count: 1
     title: Google APIs
+  google app:
+    count: 1
+    title: Google App
   google assistant:
     count: 1
     title: Google Assistant
@@ -9510,7 +9531,7 @@ dictitems:
     count: 1
     title: Jupyter Notebook server
   jupyter notebooks:
-    count: 9
+    count: 10
     title: Jupyter Notebooks
   jupyter python:
     count: 1
@@ -9522,7 +9543,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 48
+    count: 49
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10230,7 +10251,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 192
+    count: 194
     title: Linux
   linux api:
     count: 1
@@ -10557,7 +10578,7 @@ dictitems:
     count: 1
     title: Login Process
   logins:
-    count: 1
+    count: 2
     title: Logins
   logistic regression:
     count: 1
@@ -11778,7 +11799,7 @@ dictitems:
     count: 1
     title: Moat
   mobile:
-    count: 4
+    count: 5
     title: Mobile
   mobile devices:
     count: 1
@@ -14664,7 +14685,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 200
+    count: 201
     title: Python
   python 3:
     count: 1
@@ -16317,7 +16338,7 @@ dictitems:
     count: 1
     title: Secure
   security:
-    count: 7
+    count: 8
     title: Security
   seed:
     count: 1
@@ -16358,6 +16379,9 @@ dictitems:
   self-correcting:
     count: 1
     title: Self-Correcting
+  self-determinacy:
+    count: 1
+    title: Self-Determinacy
   self-discipline:
     count: 1
     title: Self-Discipline
@@ -16557,7 +16581,7 @@ dictitems:
     count: 1
     title: Server-Side
   service:
-    count: 17
+    count: 18
     title: Service
   session:
     count: 3
@@ -16599,7 +16623,7 @@ dictitems:
     count: 1
     title: setuptools
   sge:
-    count: 2
+    count: 3
     title: SGE
   sh:
     count: 1
@@ -18432,7 +18456,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 20
+    count: 21
     title: Terminal
   terminal environment:
     count: 1
@@ -18861,7 +18885,7 @@ dictitems:
     count: 1
     title: TR1
   tracking:
-    count: 2
+    count: 3
     title: Tracking
   tracking progress:
     count: 2
@@ -19691,6 +19715,9 @@ dictitems:
   video:
     count: 35
     title: Video
+  video capture:
+    count: 1
+    title: Video Capture
   video card driver:
     count: 1
     title: Video Card Driver
@@ -19737,7 +19764,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 127
+    count: 128
     title: Vim
   vim buffer:
     count: 1
@@ -20324,6 +20351,9 @@ dictitems:
   windows linux:
     count: 1
     title: Windows Linux
+  windows server:
+    count: 1
+    title: Windows Server
   windows settings:
     count: 1
     title: Windows Settings

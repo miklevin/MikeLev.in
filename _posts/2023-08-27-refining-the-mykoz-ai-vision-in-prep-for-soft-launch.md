@@ -4,7 +4,7 @@ title: Refining the MyKoz.AI Vision in Prep for Soft Launch
 headline: I'm Refining MyKoz.AI Vision for Soft Launch on my Birthday!
 description: I plan to soft-launch MyKoz.AI today, a platform to help you stay relevant in the tech world. Learn and use Linux, Python, vim & git (LPvg) to make the most of your skills. Automate browser tasks for SEO and turn Jupyter Notebooks into Linux services. Get ready to rely less on Windows and stay up-to-date with the latest technology.
 keywords: Linux, Chrome, Jupyter Notebook, Command-Line, nbdev, License, Manifest, Setup Files, setup.ini, service, repo, pip-installable, packages, coding-adverse, killer app, Linux safety-net, datacenters, AIs, LPvg, messaging, ASCII, intro screens, Windows 10, Pareto Principle, 80/20-Rule, rabbit hole, YAMLChop, Github, @p macro,
-categories: jupyter, 80/20-rule, git, lpvg, microsoft, linux, ai, python, nbdev
+categories: 80/20-rule, python, git, linux, jupyter, microsoft, ai, lpvg, nbdev
 permalink: /blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/
 layout: post
 group: blog
@@ -120,16 +120,16 @@ Okay, this is heady stuff. Let's get this post out there and plan the next.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recording-the-subtleties-of-settling-into-reset-laptop/">Recording the Subtleties of Settling Into Reset Laptop</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/recording-the-subtleties-of-settling-into-reset-laptop/">Recording the Subtleties of Settling Into Reset Laptop</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li></ul>

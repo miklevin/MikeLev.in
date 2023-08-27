@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
+<br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
 <li><a href="/blog/optimists-are-objectively-correct-while-pessimism-is-100-faith-based/">Optimists are Objectively Correct while Pessimism Is 100% Faith-Based</a> (Tue Aug 15, 2023)
 <br/>As an optimist, I believe that despite the odds, humanity has the capacity to survive and thrive. Pessimism is based on faith, while optimism is based on evidence. In this article, I explore the implications of AI and the power of consciousness, and why we should have faith in our own potential.</li>
 <li><a href="/blog/mykoz-ai-real-os-tow-it-ism-small-portable-lifelong-linux-tech/">MyKoz.AI Real/OS Tow-It-Ism: Small Portable Lifelong Linux Tech</a> (Sun Aug 06, 2023)

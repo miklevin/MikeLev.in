@@ -4,7 +4,7 @@ title: Moved WhatsaMetaFor.io Blog Content Here
 headline: I'm Excited to Announce My Move to MikeLev.in, and Learning Jekyll and Liquid!
 description: I'm excited to share that I've moved my blog to MikeLev.in, a better platform for hosting my blog. I'm also learning Jekyll and Liquid, two powerful tools that will give me more control over my site. Come check out my blog and see how I'm using them!
 keywords: Move, WhatsaMetaFor.io, MikeLev.in, Platform, Host, Blog, Jekyll, Liquid, Static Site Generator, Ruby, Github, Templating System, Control
-categories: jekyll, liquid, static site generator, git
+categories: static site generator, git, liquid, jekyll
 permalink: /blog/moved-whatsametafor-io-blog-content-here/
 layout: post
 group: blog
@@ -38,7 +38,7 @@ learning the Liquid templating system to assert some control over my sites.
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/liquid/'>Liquid</a></h4></li>
 <li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/liquid/'>Liquid</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>

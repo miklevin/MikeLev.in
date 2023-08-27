@@ -25,7 +25,7 @@ only one doing it and blogging and vlogging about it? Maybe.
 
 Hmmm. But what about HTML email? That's going to be necessary too, but which
 should I do first, attachments or HTML email. Start with HTML email and see how
-easy it is to add on the attachments. Get the stuff ready you'll need.
+easy it ihttps://www.googleapis.com/auth/gmail.modifys to add on the attachments. Get the stuff ready you'll need.
 
 The sendmail program is currently this:
 
