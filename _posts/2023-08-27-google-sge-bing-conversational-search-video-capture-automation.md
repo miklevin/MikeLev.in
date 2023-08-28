@@ -4,7 +4,7 @@ title: Google SGE & Bing Conversational Search Video Capture Automation
 headline: I Automated Video Capture of Google SGE & Bing Conversational Search
 description: Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.
 keywords: Google, Bing, Conversational Search, Video Capture, Automation, August 2023 Broad Core Update, Generative Search Experience, SGE, Mobile, Google App, Tracking, Terminal, Bash Shell, Linux, Python, Vim, JupyterLab, Jupyter Notebooks, Data Science, Browser Automations, Services, Security, Logins, Control, Customization, Self-Determinacy, Cloud, APIs, Datacenter, Big Tech, Windows Server, Linux
-categories: vim, bing, python, google, linux, jupyter
+categories: jupyter, bing, linux, google, python, vim
 permalink: /blog/google-sge-bing-conversational-search-video-capture-automation/
 layout: post
 group: blog
@@ -19,6 +19,8 @@ you opted into the experiment on Google Labs, you'll occasionally see the
 conversational results pop up in default web search. Not often, and more
 frequently in mobile (reliably in the mobile Google app), but enough so that
 it's time to do some proper tracking.
+
+{% include youtubePlayer.html id="P5YnjUBktyE" %}
 
 But how to track conversational search? Well, we can start at the beginning and
 get fancier in time. For now, let's just take a "search" or a "query", which we
@@ -304,9 +306,9 @@ server.quit()
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
