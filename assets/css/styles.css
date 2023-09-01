@@ -917,6 +917,6 @@ nav a.current {
   font-size: 1.2rem;
 }
 
-.container {
+.container>table>tr>td {
   border: 0px;
 }

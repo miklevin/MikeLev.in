@@ -22,11 +22,6 @@ group: home
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
-I keep a blog. It's not for you, 'cause think out loud is what I do.
-Inspiration comes when we &#151; divinely write our comedy. So pinch your nose
-and shield your eyes. Some day soon I'll organize.,So read an entry, if you
-can. I don't write there like Etrigan. 
-
 {% include post_short_list.html %}
 
 ### Categories
