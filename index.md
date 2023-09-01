@@ -8,9 +8,14 @@ group: home
 <div class="container">
   <table>
   <tr>
-  <td><img src="/assets/logo/Levinux.PNG" /></td>
+  <td><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
   <td>&nbsp;</td>
-  <td><img src="/assets/logo/Pipulate.PNG" /></td>
+  <td><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
+  </tr>
+  <tr>
+  <td><b>A Micro Linux For Education</b><br />https://levinux.com The micro Linux distribution known as Levinux (download ~25 MB) is a tiny virtual Linux server that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux PCs. Levinux is the pain tolerance test for Linux command-line before installing WSL on Windows to do it right.</td>
+  <td>&nbsp;</td>
+  <td><b>Pipulate Free & Open Source SEO</b><br />https://pipulate.com The Free and Open Source SEO Software known as Pipulate is a collection of Jupyter Notebooks ready-to-run on a prebuilt and editable Linux server under WSL, covering all the most necessary tasks that an SEO should be able to perform directly from Python without vendor tools, such as lightweight crawls and SERP tracking.</td>
   </tr>
   </table>
 </div>
