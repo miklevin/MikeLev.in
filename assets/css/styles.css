@@ -917,3 +917,8 @@ nav a.current {
   font-size: 1.2rem;
 }
 
+.logos, .logos tr, .logos td {
+  border: 0px;
+}
+
+

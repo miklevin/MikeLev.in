@@ -5,7 +5,7 @@ author: Mike Levin SEO
 group: home
 ---
 
-<table style="border: 0px;">
+<table class="logos">
 <tr>
 <td><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
 <td>&nbsp;</td>
