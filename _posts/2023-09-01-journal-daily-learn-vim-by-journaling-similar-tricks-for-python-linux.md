@@ -4,7 +4,7 @@ title: Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux
 headline: I'm Journaling Daily to Learn Vim and Improve My Python & Linux Skills
 description: Learn to use Vim, Python, and Linux with journaling and personal projects. Develop timeless skills to stay ahead of the rapidly changing tech world. Increase creativity and gain wisdom with journaling and mindfulness. Use tools to foster creative thought and self-expression. Find the best platform to become known for one thing and make a compelling pitch.
 keywords: Journaling, Morning Pages, Artist's Way, Tech Skills, Hamster Wheel, Mortgage, Savings, Retirement, Life Mistakes, Self-Reflection, Life Adjustments, Wisdom, Journaling Habit, Writing, Communication, Typing, Mindfulness, Intent, Phone Interference, Dopamine, Neurochemical Feedback Loops, Tool-Selection, Vim, NeoVim, Eternal Text-Editor, VSCode, JavaScript, Google, Microsoft, Apple, Doomscrolling,
-categories: journaling, vim, google, javascript, wisdom, microsoft
+categories: microsoft, wisdom, journaling, google, javascript, vim
 permalink: /blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/
 layout: post
 group: blog
@@ -153,13 +153,13 @@ Yeah, that pretty much sums it up. Wow.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/wisdom/'>Wisdom</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

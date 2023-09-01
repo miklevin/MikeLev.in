@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a> (Fri Sep 01, 2023)
+<br/>I was curious how well Google and Bing would be able to tell me this esoteric little detail about where the Github Copilot plug-in for NeoVim stored its authentication details. The writing is on the wall. The wall being this blog post, and the writing being Bing's formatted results.</li>
 <li><a href="/blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/">Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver</a> (Fri Aug 25, 2023)
 <br/>I added webdev to MyKoz.AI with uvicorn ASGI Python webserver. Follow the steps I used to add another monitorable service running through GNU screen that opens new possibilities. This sets the stage for writing a sample HTMX app.</li>
 <li><a href="/blog/planning-how-mykoz-ai-introduces-linux-terminal/">Planning how MyKoz.AI Introduces Linux Terminal</a> (Wed Aug 23, 2023)

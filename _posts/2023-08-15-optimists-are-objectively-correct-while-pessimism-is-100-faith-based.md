@@ -4,7 +4,7 @@ title: Optimists are Objectively Correct while Pessimism Is 100% Faith-Based
 headline: Optimism is Objectively Correct - My Evidence-Based Argument for Why Pessimism is Faith-Based
 description: As an optimist, I believe that despite the odds, humanity has the capacity to survive and thrive. Pessimism is based on faith, while optimism is based on evidence. In this article, I explore the implications of AI and the power of consciousness, and why we should have faith in our own potential.
 keywords: Executive function, Human autonomy, Free will, Psychohistory, Isaac Asimov, Foundation series, Apple TV, AI hubbub, ChatGPT, Bing, Bard, Alexa, Siri, Google Assistant, Sandboxes, GPU clusters, Chat bots, Turing test, Deep Blue, Gary Kasparov, AlphaGo, Lee Sedol, Creativity, Brute force, Trevor, Foundation, Consciousness, Universe, Pessimism, Nihilism, Naysayers, AI apocalypse
-categories: consciousness, bing, ai
+categories: bing, consciousness, ai
 permalink: /blog/optimists-are-objectively-correct-while-pessimism-is-100-faith-based/
 layout: post
 group: blog
@@ -203,6 +203,6 @@ are based on evidence. That's a fact.
 ## Categories
 
 <ul>
-<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li></ul>

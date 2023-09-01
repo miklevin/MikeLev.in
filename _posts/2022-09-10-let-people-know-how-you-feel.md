@@ -32,4 +32,4 @@ beforehand.
 
 <ul>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/message/'>Message</a></h4></li></ul>
+<li><h4><a href='/message/'>Messages</a></h4></li></ul>

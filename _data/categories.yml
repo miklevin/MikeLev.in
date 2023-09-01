@@ -1,3 +1,38 @@
+- google
+- conversational search
+- bing
+- chat
+- wsl
+- linux
+- jupyterlab
+- window
+- mapping
+- userprofile
+- '%'
+- .config
+- symbolic links
+- copilot
+- neovim
+- github
+- configuration
+- per-app
+- authorization
+- prime time
+- formatting
+- result
+- publishing
+- mikelev.in
+- installation
+- plugin
+- token
+- username
+- message
+- copilot.log
+- debugging
+- setup
+- community
+- discussion
+- bignerdranch
 - journaling
 - morning pages
 - artist's way
@@ -21,16 +56,12 @@
 - neurochemical feedback loops
 - tool-selection
 - vim
-- neovim
 - eternal text-editor
 - vscode
 - javascript
-- google
 - microsoft
 - apple
 - doomscrolling,
-- bing
-- conversational search
 - video capture
 - automation
 - august 2023 broad core update
@@ -41,9 +72,7 @@
 - tracking
 - terminal
 - bash shell
-- linux
 - python
-- jupyterlab
 - jupyter notebooks
 - data science
 - browser automations
@@ -83,7 +112,6 @@
 - 80/20-rule
 - rabbit hole
 - yamlchop
-- github
 - '@p macro,'
 - linux terminal
 - microsoft edge
@@ -130,7 +158,6 @@
 - alexa
 - siri
 - mykoz
-- window
 - minix
 - intel
 - management engine
@@ -162,7 +189,6 @@
 - binary files,
 - mykoz.ai
 - blog
-- publishing
 - star
 - levinux
 - journal
@@ -213,7 +239,6 @@
 - asgi
 - gunicorn
 - uvicorn
-- wsl
 - flask
 - fastapi
 - webserver
@@ -296,7 +321,6 @@
 - subjective
 - sens
 - brain
-- copilot
 - auto-complete
 - .bash_profile
 - alias
@@ -306,7 +330,6 @@
 - environment
 - ai-friend
 - decouple
-- mikelev.in
 - nyc
 - pipulate
 - machine learning
@@ -731,7 +754,6 @@
 - llm
 - context storage
 - bot
-- token
 - 4000 tokens
 - openai rules
 - article
@@ -1135,7 +1157,6 @@
 - rosetta
 - instance
 - documentation
-- installation
 - prerequisite
 - catalina
 - unattended
@@ -1502,7 +1523,6 @@
 - apt upgrade
 - python 3.8
 - snowpack
-- configuration
 - cutting catapult ropes
 - nohup
 - ping command
@@ -1607,7 +1627,6 @@
 - plugins
 - anti-patterns
 - spam-cannon
-- plugin
 - dawkins
 - neil stevenson
 - jeff atwood
@@ -1934,7 +1953,6 @@
 - belief
 - pragmatic behavior
 - jim al-khalili
-- mapping
 - keyword
 - extraction
 - top
@@ -2713,7 +2731,6 @@
 - single posts
 - explore
 - capability
-- formatting
 - comma
 - re-write
 - validate
@@ -2758,7 +2775,6 @@
 - kmeans
 - keyword clustering
 - product
-- result
 - topic
 - csv file
 - clunky
@@ -3237,7 +3253,6 @@
 - others
 - feeling alone
 - reach out
-- community
 - zoo
 - population
 - digital revolution
@@ -3381,7 +3396,6 @@
 - bing chatbot
 - insight
 - jackpot
-- chat
 - address bar
 - netflix
 - binging
@@ -3408,7 +3422,6 @@
 - inconsequential
 - visualizing
 - plan
-- debugging
 - working
 - early 90s
 - latest
@@ -4365,7 +4378,6 @@
 - puppeteer
 - play
 - cheating
-- message
 - article ideas
 - targeting
 - iron
@@ -4722,7 +4734,6 @@
 - resonate
 - dedication
 - reshape
-- discussion
 - thread
 - login credentials
 - marketable
@@ -5871,7 +5882,6 @@
 - data pipelining
 - configuration file
 - systemd service
-- setup
 - standard output
 - standard error
 - perceptual image hash
@@ -6172,7 +6182,6 @@
 - read() method
 - os-independent
 - environment variables,
-- symbolic links
 - home folder
 - '''ln'' command'
 - '''-s'' switch'

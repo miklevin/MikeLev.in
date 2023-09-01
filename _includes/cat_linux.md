@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a> (Fri Sep 01, 2023)
+<br/>I was curious how well Google and Bing would be able to tell me this esoteric little detail about where the Github Copilot plug-in for NeoVim stored its authentication details. The writing is on the wall. The wall being this blog post, and the writing being Bing's formatted results.</li>
 <li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
 <br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
 <li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)

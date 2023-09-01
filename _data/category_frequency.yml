@@ -47,6 +47,9 @@ dictitems:
   $25:
     count: 1
     title: $25
+  '%':
+    count: 1
+    title: '%'
   '%userprofile%':
     count: 1
     title: '%userprofile%'
@@ -80,6 +83,9 @@ dictitems:
   .commit():
     count: 1
     title: .commit()
+  .config:
+    count: 1
+    title: .config
   .config files:
     count: 1
     title: .config Files
@@ -1583,6 +1589,9 @@ dictitems:
   authority:
     count: 2
     title: Authority
+  authorization:
+    count: 1
+    title: Authorization
   auto:
     count: 1
     title: Auto
@@ -2033,6 +2042,9 @@ dictitems:
   biggest bang:
     count: 1
     title: Biggest Bang
+  bignerdranch:
+    count: 1
+    title: Bignerdranch
   bill joy:
     count: 2
     title: Bill Joy
@@ -2058,7 +2070,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 25
+    count: 26
     title: Bing
   bing chatbot:
     count: 1
@@ -2895,7 +2907,7 @@ dictitems:
     count: 1
     title: Chasing Tail
   chat:
-    count: 2
+    count: 3
     title: Chat
   chat bots:
     count: 1
@@ -3459,7 +3471,7 @@ dictitems:
     count: 6
     title: Communication
   community:
-    count: 3
+    count: 4
     title: Community
   compare:
     count: 3
@@ -3639,7 +3651,7 @@ dictitems:
     count: 1
     title: Configurable Settings
   configuration:
-    count: 4
+    count: 5
     title: Configuration
   configuration file:
     count: 1
@@ -3840,7 +3852,7 @@ dictitems:
     count: 1
     title: conversational AI
   conversational search:
-    count: 1
+    count: 2
     title: Conversational Search
   conversational-based:
     count: 1
@@ -3864,7 +3876,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 27
+    count: 28
     title: Copilot
   copilot ai:
     count: 1
@@ -3872,6 +3884,9 @@ dictitems:
   copilot,:
     count: 2
     title: Copilot,
+  copilot.log:
+    count: 1
+    title: copilot.log
   copilotx:
     count: 1
     title: CopilotX
@@ -4509,7 +4524,7 @@ dictitems:
     count: 1
     title: debt
   debugging:
-    count: 3
+    count: 4
     title: Debugging
   debugging messages:
     count: 1
@@ -5001,7 +5016,7 @@ dictitems:
     count: 1
     title: discuss
   discussion:
-    count: 1
+    count: 2
     title: Discussion
   disk operating system:
     count: 1
@@ -6738,7 +6753,7 @@ dictitems:
     count: 1
     title: formative experience
   formatting:
-    count: 3
+    count: 4
     title: Formatting
   formspree:
     count: 1
@@ -7317,7 +7332,7 @@ dictitems:
     count: 1
     title: Git_Install
   github:
-    count: 49
+    count: 50
     title: Github
   github actions:
     count: 1
@@ -7473,7 +7488,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 28
+    count: 29
     title: Google
   google analytics:
     count: 14
@@ -8895,7 +8910,7 @@ dictitems:
     count: 2
     title: Installable
   installation:
-    count: 4
+    count: 5
     title: Installation
   installation process:
     count: 1
@@ -9555,7 +9570,7 @@ dictitems:
     count: 1
     title: Jupyter,
   jupyterlab:
-    count: 49
+    count: 50
     title: JupyterLab
   jupyterlab desktop:
     count: 3
@@ -10269,7 +10284,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 194
+    count: 195
     title: Linux
   linux api:
     count: 1
@@ -11097,7 +11112,7 @@ dictitems:
     count: 1
     title: Map Requests
   mapping:
-    count: 7
+    count: 8
     title: Mapping
   mar:
     count: 1
@@ -11451,8 +11466,8 @@ dictitems:
     count: 2
     title: MermaidJS
   message:
-    count: 8
-    title: Message
+    count: 9
+    title: Messages
   message board system:
     count: 1
     title: Message Board System
@@ -11667,7 +11682,7 @@ dictitems:
     count: 2
     title: mikeateleven.com
   mikelev.in:
-    count: 16
+    count: 17
     title: MikeLev.in
   mikelevin:
     count: 1
@@ -12345,7 +12360,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 38
+    count: 39
     title: NeoVim
   neovim path:
     count: 1
@@ -13481,6 +13496,9 @@ dictitems:
   peoplesoft:
     count: 1
     title: Peoplesoft
+  per-app:
+    count: 1
+    title: Per-App
   percentage:
     count: 1
     title: Percentage
@@ -13893,7 +13911,7 @@ dictitems:
     count: 1
     title: Plug-in
   plugin:
-    count: 3
+    count: 4
     title: Plugin
   plugin system:
     count: 1
@@ -14255,6 +14273,9 @@ dictitems:
   prime directive:
     count: 1
     title: Prime Directive
+  prime time:
+    count: 1
+    title: Prime Time
   primer:
     count: 1
     title: Primer
@@ -14622,7 +14643,7 @@ dictitems:
     count: 1
     title: Publish-Date Oriented
   publishing:
-    count: 11
+    count: 12
     title: Publishing
   pull:
     count: 1
@@ -15669,7 +15690,7 @@ dictitems:
     count: 1
     title: Restructuring
   result:
-    count: 9
+    count: 10
     title: Results
   ret:
     count: 1
@@ -16641,7 +16662,7 @@ dictitems:
     count: 4
     title: settings.ini
   setup:
-    count: 2
+    count: 3
     title: Setup
   setup files:
     count: 1
@@ -18156,7 +18177,7 @@ dictitems:
     count: 3
     title: Symbolic Link
   symbolic links:
-    count: 1
+    count: 2
     title: Symbolic Links
   symbolism:
     count: 1
@@ -18807,7 +18828,7 @@ dictitems:
     count: 1
     title: Toggle Active/Inactive
   token:
-    count: 3
+    count: 4
     title: Token
   token counting:
     count: 1
@@ -19571,6 +19592,12 @@ dictitems:
   useragent:
     count: 1
     title: useragent
+  username:
+    count: 1
+    title: Username
+  userprofile:
+    count: 1
+    title: USERPROFILE
   usr/local/sbin/:
     count: 1
     title: usr/local/sbin/
@@ -20364,7 +20391,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 84
+    count: 85
     title: Windows
   windows 10:
     count: 29
@@ -20592,7 +20619,7 @@ dictitems:
     count: 1
     title: WSGI
   wsl:
-    count: 55
+    count: 56
     title: WSL
   wsl 2 lxd:
     count: 1

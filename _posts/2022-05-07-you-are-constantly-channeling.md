@@ -41,4 +41,4 @@ a droplet and push it out as a blog post like this one.
 
 <ul>
 <li><h4><a href='/consciousness/'>Consciousness</a></h4></li>
-<li><h4><a href='/message/'>Message</a></h4></li></ul>
+<li><h4><a href='/message/'>Messages</a></h4></li></ul>
