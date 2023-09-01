@@ -1,12 +1,12 @@
 ---
-title: Levinux Tiny Virtual Linux for Education
+title: Educational Tiny Virtual Linux
 description: Levinux is a tiny virtual Linux server built on Tiny Core Linux and QEMU designed to give you a first (sometimes positive) experience with logging into text-based Terminal environments, the ssh command, and the vi editor. Having stuck your hand in the Gom Jabbar, you are now on the path to becoming a literate human.
 permalink: /levinux/
 layout: default
 group: levinux
 ---
 
-# Tiny Virtual Linux for Education
+# Educational Tiny Virtual Linux
 
 Levinux is a micro Linux distribution that runs from USB or Dropbox with a
 double-click on Macs, Windows or Linux PCs. It does not require any
