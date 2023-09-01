@@ -5,12 +5,6 @@ description: By installing the Linux version of JupyterLab on Windows, you are r
 group: mykoz
 ---
 
-![MyKoz.AI Real/OS](/assets/images/mykoz-ai-real-os-banner.png)
-
-You've heard of Marcus Aurelius and Stoicism? This is MyKoz.AI Real/OS and
-Tow-it-ism; a way of using a Linux Subsystem on Windows for a minimalistic and
-portable approach to computing.
-
 ![Tow It Ism](/assets/images/tow-it-ism.png)
 
 I teach Python AI SEO with timeless skills that can apply to data science,
