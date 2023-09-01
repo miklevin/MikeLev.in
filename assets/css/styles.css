@@ -60,7 +60,7 @@ body>header {
 }
 
 body>header p {
-    font-size: min(2.3vw, 24px);
+    font-size: min(2.5vw, 27px);
     margin: 1vw 0 2vw 0;
     width: min(934px, 89vw);
     display: inline-flex;
@@ -310,10 +310,11 @@ table {
 
 td,
 th {
-    /* border: 1px solid var(--border); */
+    border: 1px solid var(--border);
     text-align: left;
     padding: 0.5rem;
     background: black;
+    font-size: min(5vw, 24px);
 }
 
 th {
@@ -916,3 +917,6 @@ nav a.current {
   font-size: 1.2rem;
 }
 
+.container {
+  border: 0px;
+}
