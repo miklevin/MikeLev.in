@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)
+<br/>Learn to use Vim, Python, and Linux with journaling and personal projects. Develop timeless skills to stay ahead of the rapidly changing tech world. Increase creativity and gain wisdom with journaling and mindfulness. Use tools to foster creative thought and self-expression. Find the best platform to become known for one thing and make a compelling pitch.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
 <br/>As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.</li>
 <li><a href="/blog/going-back-to-windows-10-from-windows-11/">Going Back to Windows 10 From Windows 11</a> (Thu Aug 24, 2023)

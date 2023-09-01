@@ -1269,7 +1269,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 11
+    count: 12
     title: Apple
   apple app store:
     count: 1
@@ -1442,6 +1442,9 @@ dictitems:
   artificial selection:
     count: 1
     title: Artificial Selection
+  artist's way:
+    count: 1
+    title: Artist's Way
   asana:
     count: 1
     title: Asana
@@ -3453,7 +3456,7 @@ dictitems:
     count: 1
     title: Common Files
   communication:
-    count: 5
+    count: 6
     title: Communication
   community:
     count: 3
@@ -5189,6 +5192,9 @@ dictitems:
   doomscrolling:
     count: 1
     title: Doomscrolling
+  doomscrolling,:
+    count: 1
+    title: Doomscrolling,
   doordash:
     count: 1
     title: DoorDash
@@ -5196,7 +5202,7 @@ dictitems:
     count: 1
     title: Doorknob
   dopamine:
-    count: 1
+    count: 2
     title: Dopamine
   dorothy:
     count: 5
@@ -5930,6 +5936,9 @@ dictitems:
   et:
     count: 1
     title: ET
+  eternal text-editor:
+    count: 1
+    title: Eternal Text-Editor
   ethic:
     count: 1
     title: Ethics
@@ -7464,7 +7473,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 27
+    count: 28
     title: Google
   google analytics:
     count: 14
@@ -7878,7 +7887,7 @@ dictitems:
     count: 2
     title: Hammer
   hamster wheel:
-    count: 1
+    count: 2
     title: Hamster Wheel
   hand:
     count: 2
@@ -8964,7 +8973,7 @@ dictitems:
     count: 1
     title: Intense
   intent:
-    count: 1
+    count: 2
     title: Intent
   intention:
     count: 1
@@ -9264,7 +9273,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 23
+    count: 24
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -9432,8 +9441,11 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 40
+    count: 41
     title: Journaling
+  journaling habit:
+    count: 1
+    title: Journaling Habit
   journaling system:
     count: 1
     title: Journaling System
@@ -10097,6 +10109,9 @@ dictitems:
   life:
     count: 31
     title: Life
+  life adjustments:
+    count: 1
+    title: Life Adjustments
   life advice:
     count: 1
     title: Life Advice
@@ -10112,6 +10127,9 @@ dictitems:
   life journey:
     count: 1
     title: Life Journey
+  life mistakes:
+    count: 1
+    title: Life Mistakes
   life mysteries:
     count: 1
     title: Life Mysteries
@@ -11541,7 +11559,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 58
+    count: 59
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11703,7 +11721,7 @@ dictitems:
     count: 1
     title: Mindful
   mindfulness:
-    count: 4
+    count: 5
     title: Mindfulness
   mini-project:
     count: 2
@@ -11909,9 +11927,15 @@ dictitems:
   morning joe:
     count: 1
     title: morning joe
+  morning pages:
+    count: 1
+    title: Morning Pages
   mortality:
     count: 1
     title: Mortality
+  mortgage:
+    count: 1
+    title: Mortgage
   moses:
     count: 1
     title: Moses
@@ -12321,7 +12345,7 @@ dictitems:
     count: 2
     title: Neocortex
   neovim:
-    count: 37
+    count: 38
     title: NeoVim
   neovim path:
     count: 1
@@ -12386,6 +12410,9 @@ dictitems:
   neuralink:
     count: 1
     title: Neuralink
+  neurochemical feedback loops:
+    count: 1
+    title: Neurochemical Feedback Loops
   neurotransmitter:
     count: 1
     title: neurotransmitters
@@ -13601,6 +13628,9 @@ dictitems:
   phone:
     count: 2
     title: phone
+  phone interference:
+    count: 1
+    title: Phone Interference
   photo:
     count: 1
     title: photos
@@ -15657,7 +15687,7 @@ dictitems:
     count: 1
     title: Rethinking
   retirement:
-    count: 1
+    count: 2
     title: Retirement
   retooling:
     count: 1
@@ -16095,8 +16125,8 @@ dictitems:
     count: 1
     title: Save the World
   saving:
-    count: 1
-    title: Saving
+    count: 2
+    title: Savings
   sbin:
     count: 1
     title: sbin
@@ -16421,6 +16451,9 @@ dictitems:
   self-protection:
     count: 1
     title: Self-Protection
+  self-reflection:
+    count: 1
+    title: Self-Reflection
   self-reinforcing:
     count: 1
     title: Self-Reinforcing
@@ -18359,6 +18392,9 @@ dictitems:
   tech meetups:
     count: 1
     title: Tech Meetups
+  tech skills:
+    count: 1
+    title: Tech Skills
   tech support system:
     count: 1
     title: Tech Support System
@@ -18812,6 +18848,9 @@ dictitems:
   tool-divergence:
     count: 1
     title: Tool-divergence
+  tool-selection:
+    count: 1
+    title: Tool-Selection
   toolbar:
     count: 1
     title: Toolbar
@@ -19163,6 +19202,9 @@ dictitems:
   typer:
     count: 1
     title: Typer
+  typing:
+    count: 1
+    title: Typing
   typing system:
     count: 1
     title: Typing System
@@ -19764,7 +19806,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 128
+    count: 129
     title: Vim
   vim buffer:
     count: 1
@@ -19983,7 +20025,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 26
+    count: 27
     title: VSCode
   vscodium:
     count: 1
@@ -20400,7 +20442,7 @@ dictitems:
     count: 1
     title: WIP
   wisdom:
-    count: 6
+    count: 7
     title: Wisdom
   wise old sage:
     count: 1
@@ -20532,7 +20574,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 33
+    count: 34
     title: Writing
   writing code:
     count: 1

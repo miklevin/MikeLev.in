@@ -4,7 +4,7 @@ title: Google SGE & Bing Conversational Search Video Capture Automation
 headline: I Automated Video Capture of Google SGE & Bing Conversational Search
 description: Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.
 keywords: Google, Bing, Conversational Search, Video Capture, Automation, August 2023 Broad Core Update, Generative Search Experience, SGE, Mobile, Google App, Tracking, Terminal, Bash Shell, Linux, Python, Vim, JupyterLab, Jupyter Notebooks, Data Science, Browser Automations, Services, Security, Logins, Control, Customization, Self-Determinacy, Cloud, APIs, Datacenter, Big Tech, Windows Server, Linux
-categories: jupyter, bing, vim, python, google, linux
+categories: vim, google, jupyter, linux, bing, python
 permalink: /blog/google-sge-bing-conversational-search-video-capture-automation/
 layout: post
 group: blog
@@ -314,13 +314,13 @@ server.quit()
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/bing/'>Bing</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/bing/'>Bing</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

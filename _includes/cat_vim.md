@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)
+<br/>Learn to use Vim, Python, and Linux with journaling and personal projects. Develop timeless skills to stay ahead of the rapidly changing tech world. Increase creativity and gain wisdom with journaling and mindfulness. Use tools to foster creative thought and self-expression. Find the best platform to become known for one thing and make a compelling pitch.</li>
 <li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)
 <br/>Learn how to automate Google SGE and Bing conversational search video capture with no outside services using Linux, Bash, vim, JupyterLab, and nbdev. Get the most benefit from dabbling with Linux and future-proof your business by automating video capture of conversational search sessions and emailing the result.</li>
 <li><a href="/blog/recording-the-subtleties-of-settling-into-reset-laptop/">Recording the Subtleties of Settling Into Reset Laptop</a> (Sat Aug 26, 2023)

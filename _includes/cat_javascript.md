@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)
+<br/>Learn to use Vim, Python, and Linux with journaling and personal projects. Develop timeless skills to stay ahead of the rapidly changing tech world. Increase creativity and gain wisdom with journaling and mindfulness. Use tools to foster creative thought and self-expression. Find the best platform to become known for one thing and make a compelling pitch.</li>
 <li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)
 <br/>I'm exploring a more fundamental approach to web development, skipping the web frameworks and focusing on muscle memory, Linux, Python, vim, and git. I'm combining these tools to create the MyKoz project, an automated video recording system of ChatBot responses. I'm also utilizing nbdev to help me with this project.</li>
 <li><a href="/blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/">A Path to Eventual Computing Freedom Through Linux on Windows</a> (Sat Aug 26, 2023)
