@@ -26,4 +26,4 @@ are the great timeless tools of tech.
 
 [Download](https://github.com/miklevin/levinux/archive/master.zip)
 
-<a href="https://levinux.com/">Learn more about Levinux</a>
+<a href="https://levinux.com/">Learn more about Levinux.</a>
