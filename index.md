@@ -1,5 +1,5 @@
 ---
-title: Mike Levin, AI SEO in NYC and LPvg Trainer
+title: Mike Levin SEO in NYC
 description: Future-proof Yourself With MyKoz.AI Real/OS Free & Open Source (FOSS) AI SEO Software on a Small Linux Distro built with Python, vim, git and AI.
 author: Mike Levin SEO
 group: home
