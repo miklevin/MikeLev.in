@@ -6,11 +6,9 @@ layout: default
 group: pipulate
 ---
 
-# Free and Open Source SEO
-
 <div style="text-align:center;">
 <svg width="720px" viewbox="0 0 100 60">
-  <image xlink:href="/assets/svg/pipulate-logo-grey.svg" x="0" y="0" width="100%" height="100%" />
+  <image xlink:href="/assets/svg/pipulate-logo-white.svg" x="0" y="0" width="100%" height="100%" />
 </svg>
 </div>
 
