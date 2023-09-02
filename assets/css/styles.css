@@ -616,7 +616,7 @@ body>header div {
     font-family: 'Dorsa';
     font-size: min(26vw, 255px);
     line-height: 0.7;
-    margin: 0 0 0 0;
+    margin: 5vw 0 0 0;
     overflow-wrap: break-word;
 }
 
