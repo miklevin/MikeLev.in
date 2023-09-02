@@ -26,3 +26,4 @@ group: home
 ### Categories
 
 {% include category_list.md %}
+
