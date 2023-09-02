@@ -7,14 +7,14 @@ group: home
 
 <table class="logos">
 <tr>
-<td style="width: 49%"><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
+<td style="width: 48%"><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
 <td>&nbsp;</td>
-<td style="width: 49%;"><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
+<td style="width: 48%;"><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
 </tr>
 <tr>
-<td style="width: 49%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw;"><b>A Micro Linux For Education</b><br /><a href="https://levinux.com/">https://levinux.com</a> The micro Linux distribution known as Levinux (download ~25 MB) is a tiny virtual Linux server that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux PCs. Levinux is the pain tolerance test for Linux command-line before installing WSL on Windows to do it right.</td>
+<td style="width: 48%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw; vertical-align: top;"><b>A Micro Linux For Education</b><br /><a href="https://levinux.com/">https://levinux.com</a> The micro Linux distribution known as Levinux (download ~25 MB) is a tiny virtual Linux server that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux PCs. Levinux is the pain tolerance test for Linux command-line before installing WSL on Windows to do it right.</td>
 <td style="background: black;">&nbsp;</td>
-<td style="width: 49%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw;"><b>Pipulate Free & Open Source SEO</b><br /><a href="https://pipulate.com/">https://pipulate.com</a> The Free and Open Source SEO Software known as Pipulate is a collection of Jupyter Notebooks ready-to-run on a prebuilt and editable Linux server under WSL, covering all the most necessary tasks that an SEO should be able to perform directly from Python without vendor tools, such as lightweight crawls and SERP tracking.</td>
+<td style="width: 48%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw; vertical-align: top;"><b>Pipulate Free & Open Source SEO</b><br /><a href="https://pipulate.com/">https://pipulate.com</a> The Free and Open Source SEO Software known as Pipulate is a collection of Jupyter Notebooks ready-to-run on a prebuilt and editable Linux server under WSL, covering all the most necessary tasks that an SEO should be able to perform directly from Python without vendor tools, such as lightweight crawls and SERP tracking.</td>
 </tr>
 </table>
 

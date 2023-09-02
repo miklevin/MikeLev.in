@@ -559,8 +559,8 @@ blockquote {
 }
 
 header {
-    background-color: #00000075;
-    background-blend-mode: luminosity;
+    background-color: black;
+    background-blend-mode: color;
     background-image: url("/assets/images/blue-balloons.png");
     background-position: center;
     background-position-y: center;
