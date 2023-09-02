@@ -54,6 +54,7 @@ body>* {
 
 /* Make the header bg full width, but the content inline with body */
 body>header {
+    background-color: #202020;
     border-bottom: 1px solid var(--border);
     text-align: center;
     grid-column: 1 / -1;
