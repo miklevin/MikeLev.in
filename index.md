@@ -18,6 +18,10 @@ group: home
 </tr>
 </table>
 
+How many times have your skills gone obsolete through changes in platforms or
+tools? That's by design. Future-proof yourself by jumping on the Linux, Python,
+vim & git platform (LPvg). At very least, you'll have a backup plan.
+
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
 {% include post_short_list.html %}
