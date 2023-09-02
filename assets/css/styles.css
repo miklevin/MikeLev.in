@@ -886,29 +886,6 @@ nav a.current {
   }
 }
 
-/* Beginning of Media queries */
-/* Makes input fields wider on smaller screens */
-@media only screen and (max-width: 720px) {
-
-    textarea,
-    select,
-    input {
-        width: 100%;
-    }
-
-    aside {
-        width: 100%;
-        float: none;
-        margin-left: 0;
-    }
-}
-
-.mermaid {
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-
 .highlight .c1 {
   color: #91d7ff !important;
 }
@@ -926,10 +903,10 @@ nav a.current {
   vertical-align: top;
   font-size: smaller;
   padding: 2vw 2vw 2vw 2vw;
-  width: 49%;
+  width: 48%;
 }
 
 .hplg {
   padding: 0vw 0vw 2vw 0vw;
-  width: 49%;
+  width: 48%;
 }
