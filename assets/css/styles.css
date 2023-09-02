@@ -926,8 +926,10 @@ nav a.current {
   vertical-align: top;
   font-size: smaller;
   padding: 2vw 2vw 2vw 2vw;
+  width: 49%;
 }
 
 .hplg {
   padding: 0vw 0vw 2vw 0vw;
+  width: 49%;
 }
