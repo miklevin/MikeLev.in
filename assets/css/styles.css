@@ -211,8 +211,8 @@ header>nav a:visited {
     display: inline-block;
     text-decoration: none;
     padding-bottom: 0vw;
-    padding-left: min(3vw, 32px);
-    padding-right: min(3vw, 32px);
+    padding-left: min(3vw, 34px);
+    padding-right: min(3vw, 34px);
     margin-bottom: min(4vw, 26px);
     margin-left: min(1vw, 12px);
     margin-right: min(1vw, 12px);
@@ -560,11 +560,11 @@ blockquote {
 
 header {
     background-color: black;
-    background-blend-mode: color;
+    /* background-blend-mode: color;
     background-image: url("/assets/images/blue-balloons.png");
-    background-position: center;
     background-position-y: center;
-    background-size: 100% auto;
+    background-position: center;
+    background-size: 100% auto; */
 }
 
 footer {
