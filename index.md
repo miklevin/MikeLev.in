@@ -7,9 +7,9 @@ group: home
 
 <table class="logos">
 <tr>
-<td style="width: 49%"><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
+<td style="width: 49%"><a href="/levinux/"><img src="/assets/logo/Levinux.PNG" border=0 /></a><br />&nbsp;</td>
 <td>&nbsp;</td>
-<td style="width: 49%;"><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
+<td style="width: 49%;"><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a><br />&nbsp;</td>
 </tr>
 <tr>
 <td style="width: 49%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw; vertical-align: top;"><b>A Micro Linux For Education</b><br /><a href="https://levinux.com/">https://levinux.com</a> Are you still scared of Linux? Well you shouldn't be. Cure that with this 25MB tiny virtual Linux server download that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux.</td>
