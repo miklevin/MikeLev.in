@@ -20,8 +20,8 @@ group: home
 
 How many times have your skills gone obsolete through changes in platforms or
 tools? That's by design. Future-proof yourself by jumping on the Linux, Python,
-vim & git platform (LPvg). At very least, you'll have a backup plan. At first
-it will be scary. Then you won't know how you lived without it.
+vim & git platform (LPvg). At first they will be scary. Then you won't know how
+you lived without them. Start by installing Linux JupyterLab on Windows.
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
