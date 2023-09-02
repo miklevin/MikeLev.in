@@ -21,7 +21,3 @@ group: home
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
 {% include post_short_list.html %}
-
-### Categories
-
-{% include category_list.md %}
