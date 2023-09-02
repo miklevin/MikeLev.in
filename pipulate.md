@@ -14,9 +14,9 @@ group: pipulate
 
 The best techniques in SEO involve running Python locally to do lightweight
 crawls and keyword investigations. Not everything is a large framework or a new
-$X-dollars-a-month service. Sometimes it's just learning enough Python basics
-to do small investigations with the power-tools built into Python ***for
-free*** plus a little guidance. That's Pipulate.
+$x-dollars-a-month service. Sometimes it's just learning enough basics to do
+small investigations with the power-tools built into Python ***for free*** plus
+a little guidance. That's Pipulate.
 
 <a href="https://pipulate.com/">Learn more about Pipulate.</a>
 
