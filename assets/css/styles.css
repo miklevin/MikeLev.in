@@ -922,15 +922,12 @@ nav a.current {
 }
 
 .hptd {
-  width: 49%;
-  border-radius: 2vw;
-  padding: 1vw 1vw 1vw 1vw;
+  border-radius: 2.5vw;
   vertical-align: top;
   font-size: smaller;
   padding: 2vw 2vw 2vw 2vw;
 }
 
 .hplg {
-  width: 49%;
   padding: 0vw 0vw 2vw 0vw;
 }
