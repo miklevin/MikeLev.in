@@ -12,9 +12,9 @@ group: home
 <td style="width: 49%;"><a href="/pipulate/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a><br />&nbsp;</td>
 </tr>
 <tr>
-<td style="width: 49%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw; vertical-align: top;"><b>A Micro Linux For Your Education</b><br /><a href="https://levinux.com/">https://levinux.com</a> Are you still scared of Linux? Well you shouldn't be. Cure that with this 25MB tiny virtual Linux server download that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux.</td>
+<td class="hptd"><b>A Micro Linux For Your Education</b><br /><a href="https://levinux.com/">https://levinux.com</a> Are you still scared of Linux? Well you shouldn't be. Cure that with this 25MB tiny virtual Linux server download that runs with a double-click (no install or admin not needed) on Macs, Windows or Linux.</td>
 <td style="background: black;">&nbsp;</td>
-<td style="width: 49%; border-radius: 2vw; padding: 1vw 1vw 1vw 1vw; vertical-align: top;"><b>Pipulate Free & Open Source SEO</b><br /><a href="https://pipulate.com/">https://pipulate.com</a> A collection of ready-to-run Jupyter Notebooks on your Windows PC, covering all the most necessary tasks that an SEO should be able to perform directly from Python for free; all while teaching you Linux.</td>
+<td class="hptd"><b>Pipulate Free & Open Source SEO</b><br /><a href="https://pipulate.com/">https://pipulate.com</a> A collection of ready-to-run Jupyter Notebooks on your Windows PC, covering all the most necessary tasks that an SEO should be able to perform directly from Python for free; all while teaching you Linux.</td>
 </tr>
 </table>
 

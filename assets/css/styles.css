@@ -920,3 +920,11 @@ nav a.current {
   border: 0px;
 }
 
+.hptd {
+  width: 49%;
+  border-radius: 2vw;
+  padding: 1vw 1vw 1vw 1vw;
+  vertical-align: top;
+  font-size: smaller;
+  padding: 2vw 2vw 2vw 2vw;
+}
