@@ -211,8 +211,8 @@ header>nav a:visited {
     display: inline-block;
     text-decoration: none;
     padding-bottom: 0vw;
-    padding-left: min(3vw, 34px);
-    padding-right: min(3vw, 34px);
+    padding-left: min(3vw, 33px);
+    padding-right: min(3vw, 33px);
     margin-bottom: min(4vw, 26px);
     margin-left: min(1vw, 12px);
     margin-right: min(1vw, 12px);
