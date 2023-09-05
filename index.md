@@ -18,10 +18,14 @@ group: home
 </tr>
 </table>
 
-How many times have your skills gone obsolete through changes in platforms or
-tools? That's by design. Future-proof yourself by jumping on the Linux, Python,
-vim & git platform (LPvg). At first they will be scary. Then you won't know how
-you lived without them. Start by installing Linux JupyterLab on Windows.
+Tech skills are often rendered obsolete through changes in platforms and tools.
+That's by design. Future-proof yourself by jumping on the Linux, Python, vim &
+git platform (LPvg). This is easier than you think merely by taking up Python
+through Jupyter Notebooks as many do. But instead of using cloud-based Google
+Colab or other similar vendor-dependency inducing routes, you install
+JupyterLab on your local Windows machine, but actually on Linux. Your Python
+code is then ***Linux flavored*** and sets the stage to bridge the world
+between Computer Science and WebDev/DevOps (24x7 automation).
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
