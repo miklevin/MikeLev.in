@@ -804,8 +804,8 @@ dictitems:
     count: 1
     title: age 26
   agency:
-    count: 2
-    title: agency
+    count: 3
+    title: Agency
   agent:
     count: 1
     title: Agents
@@ -831,7 +831,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 117
+    count: 118
     title: AI
   ai apocalypse:
     count: 1
@@ -1650,7 +1650,7 @@ dictitems:
     count: 1
     title: Automount
   autonomy:
-    count: 2
+    count: 3
     title: Autonomy
   autosuggest:
     count: 1
@@ -3297,7 +3297,7 @@ dictitems:
     count: 1
     title: Codex Sassoon
   coding:
-    count: 11
+    count: 12
     title: Coding
   coding assistant:
     count: 1
@@ -4272,8 +4272,8 @@ dictitems:
     count: 1
     title: Cybermedium
   cyborg:
-    count: 1
-    title: Cyborg
+    count: 2
+    title: Cyborgs
   cyclical:
     count: 1
     title: cyclical
@@ -5217,7 +5217,7 @@ dictitems:
     count: 1
     title: Doorknob
   dopamine:
-    count: 2
+    count: 3
     title: Dopamine
   dorothy:
     count: 5
@@ -5333,6 +5333,9 @@ dictitems:
   driver problem:
     count: 1
     title: Driver Problem
+  driver support:
+    count: 1
+    title: Driver Support
   driving:
     count: 5
     title: Driving
@@ -6681,7 +6684,7 @@ dictitems:
     count: 1
     title: Flying Point Digital
   fo:
-    count: 21
+    count: 22
     title: FOSS
   foam:
     count: 1
@@ -6864,8 +6867,8 @@ dictitems:
     count: 3
     title: Free Will
   free-will:
-    count: 1
-    title: Free-Will
+    count: 2
+    title: Free-will
   freebsd:
     count: 1
     title: FreeBSD
@@ -7109,6 +7112,9 @@ dictitems:
   game market:
     count: 1
     title: Game Market
+  game market,:
+    count: 1
+    title: Game Market,
   game of life:
     count: 2
     title: Game of Life
@@ -7118,6 +7124,9 @@ dictitems:
   game-changing:
     count: 1
     title: Game-Changing
+  gamer keyboards:
+    count: 1
+    title: Gamer Keyboards
   gaming console:
     count: 1
     title: Gaming Console
@@ -7305,7 +7314,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 86
+    count: 87
     title: Git
   git commit:
     count: 2
@@ -7853,6 +7862,9 @@ dictitems:
   gutenberg:
     count: 1
     title: Gutenberg
+  gutenberg press:
+    count: 1
+    title: Gutenberg Press
   guy:
     count: 1
     title: Guy
@@ -8982,7 +8994,7 @@ dictitems:
     count: 1
     title: Intelligent Design Theory
   intellisense:
-    count: 2
+    count: 3
     title: Intellisense
   intense:
     count: 1
@@ -9288,7 +9300,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 24
+    count: 25
     title: JavaScript
   javascript-based analytics:
     count: 1
@@ -9684,7 +9696,7 @@ dictitems:
     count: 1
     title: key/value pairs
   keyboard:
-    count: 3
+    count: 4
     title: Keyboard
   keyboard shortcut:
     count: 2
@@ -10284,7 +10296,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 195
+    count: 196
     title: Linux
   linux api:
     count: 1
@@ -10431,7 +10443,7 @@ dictitems:
     count: 1
     title: Lite
   literacy:
-    count: 5
+    count: 6
     title: Literacy
   literate programming:
     count: 1
@@ -10863,8 +10875,11 @@ dictitems:
     count: 1
     title: M2 Pro chip
   mac:
-    count: 26
+    count: 27
     title: Mac
+  macbook air:
+    count: 1
+    title: Macbook Air
   macbook pro:
     count: 2
     title: MacBook Pro
@@ -11333,6 +11348,9 @@ dictitems:
   mechanic:
     count: 1
     title: Mechanics
+  mechanical click:
+    count: 1
+    title: Mechanical Click
   mechanical engineer:
     count: 1
     title: mechanical engineer
@@ -11574,7 +11592,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 59
+    count: 60
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11832,7 +11850,7 @@ dictitems:
     count: 1
     title: Moat
   mobile:
-    count: 5
+    count: 6
     title: Mobile
   mobile devices:
     count: 1
@@ -12117,7 +12135,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 11
+    count: 12
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -13908,8 +13926,8 @@ dictitems:
     count: 1
     title: Plowing
   plug-in:
-    count: 1
-    title: Plug-in
+    count: 2
+    title: Plug-ins
   plugin:
     count: 4
     title: Plugin
@@ -14618,6 +14636,9 @@ dictitems:
   public school:
     count: 2
     title: public school
+  public school systems:
+    count: 1
+    title: Public School Systems
   public storage:
     count: 1
     title: Public Storage
@@ -14736,7 +14757,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 201
+    count: 202
     title: Python
   python 3:
     count: 1
@@ -15008,6 +15029,9 @@ dictitems:
   quote:
     count: 2
     title: Quotes
+  qwerty:
+    count: 1
+    title: QWERTY
   r:
     count: 1
     title: RSS
@@ -18923,6 +18947,9 @@ dictitems:
   touch typing:
     count: 1
     title: Touch Typing
+  touch-typing:
+    count: 1
+    title: Touch-typing
   touchscreen:
     count: 1
     title: Touchscreen
@@ -19248,7 +19275,7 @@ dictitems:
     count: 2
     title: UAPs
   ubuntu:
-    count: 27
+    count: 28
     title: Ubuntu
   ubuntu 18:
     count: 1
@@ -19559,6 +19586,9 @@ dictitems:
   usage pattern:
     count: 1
     title: Usage Pattern
+  usb installer:
+    count: 1
+    title: USB Installer
   use:
     count: 1
     title: Use
@@ -20021,6 +20051,9 @@ dictitems:
   voice:
     count: 2
     title: Voice
+  voice control:
+    count: 1
+    title: Voice Control
   voice over internet protocol:
     count: 1
     title: Voice over Internet Protocol
@@ -20391,7 +20424,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 85
+    count: 86
     title: Windows
   windows 10:
     count: 29
