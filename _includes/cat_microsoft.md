@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/internalizing-the-tools-of-your-trade-that-are-timeless-to-boot/">Internalizing the Tools of Your Trade That are Timeless to Boot</a> (Tue Sep 05, 2023)
+<br/>I'm a firm believer in learning the timeless tools of your trade, rather than relying on high-dependency power-tools. My journey through coding languages has led me to appreciate the advantages of Python, which is now the lingua franca of tech. I've also come to understand the importance of learning to code in a text editor, like Vim, that is not subject to the whims of its creator. Empower yourself by internalizing the tools of your trade that are timeless to boot.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)
 <br/>As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.</li>
 <li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)

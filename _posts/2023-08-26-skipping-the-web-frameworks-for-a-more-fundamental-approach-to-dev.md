@@ -4,7 +4,7 @@ title: Skipping The Web Frameworks For a More Fundamental Approach to Dev
 headline: Exploring My Digital Autonomy with LPvg and MyKoz
 description: I'm exploring a more fundamental approach to web development, skipping the web frameworks and focusing on muscle memory, Linux, Python, vim, and git. I'm combining these tools to create the MyKoz project, an automated video recording system of ChatBot responses. I'm also utilizing nbdev to help me with this project.
 keywords: Git, Python, JavaScript, NodeJS, ReactJS, Twitter BootstrapJS, jquery, Adobe, HitTail, WET, DRY, Object Oriented, LPvg, Linux, vim, Google Sheets, Google Docs, Edit Plus, Alexa, Siri, MyKoz, nbdev
-categories: python, nbdev, google, vim, lpvg, javascript, git, linux
+categories: lpvg, python, google, javascript, nbdev, git, linux, vim
 permalink: /blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/
 layout: post
 group: blog
@@ -80,11 +80,11 @@ coming right out of the starting gate with nbdev.
 ## Categories
 
 <ul>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

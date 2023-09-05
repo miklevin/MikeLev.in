@@ -182,6 +182,9 @@ dictitems:
   00_core.ipynb:
     count: 1
     title: 00_core.ipynb
+  '05':
+    count: 1
+    title: '05'
   09:
     count: 1
     title: 09
@@ -300,7 +303,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 10
+    count: 11
     title: '2023'
   2030 agenda:
     count: 1
@@ -558,7 +561,7 @@ dictitems:
     count: 1
     title: ABC language
   ability:
-    count: 1
+    count: 2
     title: Abilities
   abode:
     count: 1
@@ -1275,7 +1278,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 12
+    count: 13
     title: Apple
   apple app store:
     count: 1
@@ -1805,6 +1808,9 @@ dictitems:
   base64:
     count: 1
     title: base64
+  baseline:
+    count: 1
+    title: Baseline
   bash:
     count: 12
     title: Bash
@@ -2324,6 +2330,9 @@ dictitems:
   boolean logic:
     count: 1
     title: Boolean Logic
+  boot:
+    count: 1
+    title: Boot
   boot,:
     count: 1
     title: Boot,
@@ -2472,7 +2481,7 @@ dictitems:
     count: 1
     title: Brothers
   browser:
-    count: 24
+    count: 25
     title: Browser
   browser automation:
     count: 14
@@ -2678,6 +2687,9 @@ dictitems:
   capability:
     count: 3
     title: capabilities
+  capable:
+    count: 1
+    title: Capable
   capacity:
     count: 1
     title: Capacities
@@ -2939,6 +2951,9 @@ dictitems:
   cheaper:
     count: 1
     title: cheaper
+  cheat:
+    count: 1
+    title: Cheats
   cheating:
     count: 1
     title: Cheating
@@ -3024,7 +3039,7 @@ dictitems:
     count: 1
     title: Chrom
   chrome:
-    count: 11
+    count: 12
     title: Chrome
   chrome devtools:
     count: 1
@@ -4470,7 +4485,7 @@ dictitems:
     count: 1
     title: Datasets
   date:
-    count: 9
+    count: 10
     title: date
   date format:
     count: 1
@@ -5126,6 +5141,9 @@ dictitems:
   do nothing machine:
     count: 1
     title: Do Nothing Machine
+  do-it-the-hard-way:
+    count: 1
+    title: Do-It-The-Hard-Way
   doc:
     count: 1
     title: docs
@@ -5808,7 +5826,7 @@ dictitems:
     count: 3
     title: Engagement
   engine:
-    count: 3
+    count: 4
     title: Engine
   engineer:
     count: 1
@@ -6194,6 +6212,9 @@ dictitems:
   express-happiest-self:
     count: 1
     title: Express-Happiest-Self
+  expression:
+    count: 1
+    title: Expression
   extension:
     count: 2
     title: Extension
@@ -7298,6 +7319,9 @@ dictitems:
   gi:
     count: 1
     title: GI
+  giant:
+    count: 1
+    title: Giants
   gift:
     count: 1
     title: Gift
@@ -8156,6 +8180,9 @@ dictitems:
   high-arousal emotions:
     count: 1
     title: high-arousal emotions
+  high-dependency:
+    count: 1
+    title: High-Dependency
   high-level:
     count: 1
     title: High-Level
@@ -9069,7 +9096,7 @@ dictitems:
     count: 1
     title: Internalized Abilities,
   internalizing:
-    count: 1
+    count: 2
     title: Internalizing
   international education:
     count: 1
@@ -9950,6 +9977,9 @@ dictitems:
   late:
     count: 1
     title: Late
+  lately:
+    count: 1
+    title: Lately
   latest:
     count: 2
     title: Latest
@@ -11256,8 +11286,8 @@ dictitems:
     count: 1
     title: Mastery
   material:
-    count: 1
-    title: Materials
+    count: 2
+    title: Material
   material possessions:
     count: 1
     title: Material Possessions
@@ -11592,7 +11622,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 60
+    count: 61
     title: Microsoft
   microsoft 365:
     count: 2
@@ -11972,6 +12002,9 @@ dictitems:
   moses:
     count: 1
     title: Moses
+  mot:
+    count: 1
+    title: Mot
   mother:
     count: 2
     title: mother
@@ -14138,6 +14171,9 @@ dictitems:
   power transmission:
     count: 1
     title: Power Transmission
+  power-tools:
+    count: 1
+    title: Power-Tools
   powerful:
     count: 2
     title: Powerful
@@ -14195,6 +14231,9 @@ dictitems:
   pre-productivity:
     count: 1
     title: Pre-Productivity
+  pre-proprietary:
+    count: 1
+    title: Pre-Proprietary
   pre-recorded:
     count: 1
     title: Pre-recorded
@@ -15537,7 +15576,7 @@ dictitems:
     count: 1
     title: Render
   rendering:
-    count: 3
+    count: 4
     title: Rendering
   renewable:
     count: 1
@@ -15788,6 +15827,9 @@ dictitems:
   revolutionary ideas:
     count: 1
     title: Revolutionary Ideas
+  reward:
+    count: 1
+    title: Rewards
   rework:
     count: 1
     title: Rework
@@ -16592,6 +16634,9 @@ dictitems:
   seoul:
     count: 1
     title: Seoul
+  sep:
+    count: 1
+    title: Sep
   separate:
     count: 2
     title: Separate
@@ -16800,8 +16845,8 @@ dictitems:
     count: 1
     title: short-term memory
   shortcut:
-    count: 1
-    title: Shortcut
+    count: 2
+    title: Shortcuts
   shortcut-seekers:
     count: 1
     title: Shortcut-Seekers
@@ -17403,7 +17448,7 @@ dictitems:
     count: 1
     title: Spiral Galaxy
   spiritual:
-    count: 2
+    count: 3
     title: Spiritual
   spiritual connection:
     count: 1
@@ -18792,7 +18837,7 @@ dictitems:
     count: 1
     title: Time-Sharing System
   timeless:
-    count: 3
+    count: 4
     title: Timeless
   timeless design patterns:
     count: 1
@@ -18879,7 +18924,7 @@ dictitems:
     count: 1
     title: Tony Stark
   tool:
-    count: 22
+    count: 23
     title: Tools
   tool obsolescence:
     count: 1
@@ -18981,7 +19026,7 @@ dictitems:
     count: 1
     title: Tracking-Gif System
   trade:
-    count: 1
+    count: 2
     title: Trade
   trade-off:
     count: 2
@@ -19175,6 +19220,9 @@ dictitems:
   tu youyou:
     count: 1
     title: Tu Youyou
+  tue:
+    count: 1
+    title: Tue
   tuesday:
     count: 1
     title: Tuesday
@@ -20085,7 +20133,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 27
+    count: 28
     title: VSCode
   vscodium:
     count: 1
@@ -20204,6 +20252,9 @@ dictitems:
   web 2.0:
     count: 1
     title: Web 2.0
+  web app:
+    count: 1
+    title: Web App
   web browser:
     count: 4
     title: Web Browser
@@ -20285,6 +20336,9 @@ dictitems:
   webdev:
     count: 4
     title: Webdev
+  webkit:
+    count: 1
+    title: Webkit
   webmaster:
     count: 1
     title: Webmasters

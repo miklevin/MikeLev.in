@@ -4,7 +4,7 @@ title: Coding, Keyboards and Literacy
 headline: Discover the power of coding, keyboards and literacy to unlock your autonomy and agency.
 description: As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.
 keywords: Coding, Keyboards, Literacy, Touch-typing, QWERTY, Muscle Memory, Autonomy, Agency, Free-will, Gutenberg Press, Public School Systems, JavaScript, Python, Voice Control, AI, Intellisense, Plug-ins, Git, Mobile, Dopamine, Cyborgs, Microsoft, Macbook Air, Gamer Keyboards, Mechanical Click, Mac, Linux, Windows, FOSS, Ubuntu, USB Installer, Driver Support, Game Market,
-categories: python, coding, muscle memory, mac, microsoft, ubuntu, javascript, git, linux, ai
+categories: python, muscle memory, mac, javascript, microsoft, ubuntu, git, ai, linux, coding
 permalink: /blog/coding-keyboards-and-literacy/
 layout: post
 group: blog
@@ -257,17 +257,17 @@ of both worlds: Windows and FOSS.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/internalizing-the-tools-of-your-trade-that-are-timeless-to-boot/">Internalizing the Tools of Your Trade That are Timeless to Boot</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
