@@ -18,15 +18,15 @@ group: home
 </tr>
 </table>
 
-Tech skills are often rendered obsolete through changes in platforms and tools.
-That's by design. Future-proof yourself by jumping on the Linux, Python, vim &
-git platform (LPvg). This is easier than you think merely by taking up Python
-through Jupyter Notebooks as many do. But instead of using cloud-based Google
-Colab or other similar vendor-dependency inducing routes, you install
-JupyterLab on your local Windows machine, but actually on Linux. Your Python
-code is then ***Linux flavored*** and sets the stage to bridge the world
-between Computer Science and WebDev/DevOps (24x7 automation).
+Tech skills are often rendered obsolete through changes in platforms and tools
+by design. Future-proof yourself by jumping on the Linux, Python, vim & git
+platform (LPvg) &#151; while staying on Windows! This is possible by using the
+MyKoz.AI script which installs JupyterLab on your machine so that the Notebooks
+are served from Linux. You won't find this anywhere else. Added bonus: get up
+and running journalling daily on the eternal vim text editor.
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
 {% include post_short_list.html %}
+
+<a href="/blog/">All Posts</a>
