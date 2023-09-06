@@ -18,12 +18,12 @@ group: home
 </tr>
 </table>
 
-Tech skills are often rendered obsolete through changes in platforms and tools
-by design. Future-proof yourself by jumping on the Linux, Python, vim & git
-platform (LPvg) &#151; while staying on Windows! This is possible by using the
-MyKoz.AI script which installs JupyterLab on your machine so that the Notebooks
-are served from Linux. You won't find this anywhere else. Added bonus: get up
-and running journalling daily on the eternal vim text editor.
+Future-proof yourself by jumping on the Linux, Python, vim & git bandwagon
+(LPvg) &#151; even while staying on Windows! Tech skills go obsolete by design
+to keep you spending and retraining. Freedom can start by running ***Linux
+flavored Python*** on your ***local machine***, opening a door that normally
+remains shut in most people's lives until it's too late. Helping you do thiat
+is <a href="https://mykoz.ai">MyKoz</a>.
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
