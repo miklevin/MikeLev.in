@@ -774,7 +774,7 @@ dictitems:
     count: 1
     title: Advocating
   adwords:
-    count: 3
+    count: 2
     title: AdWords
   aegis:
     count: 1
@@ -834,7 +834,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 116
+    count: 115
     title: AI
   ai apocalypse:
     count: 1
@@ -911,9 +911,6 @@ dictitems:
   ai-writing:
     count: 1
     title: AI-writing
-  airbnb:
-    count: 1
-    title: Airbnb
   aircraft:
     count: 1
     title: Aircraft
@@ -1085,9 +1082,6 @@ dictitems:
   amiga:
     count: 11
     title: Amiga
-  amiga boing-ball:
-    count: 1
-    title: Amiga Boing-Ball
   amiga computer:
     count: 1
     title: Amiga computer
@@ -1278,7 +1272,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 13
+    count: 12
     title: Apple
   apple app store:
     count: 1
@@ -2070,7 +2064,7 @@ dictitems:
     count: 1
     title: Binder
   bing:
-    count: 26
+    count: 25
     title: Bing
   bing chatbot:
     count: 1
@@ -3003,7 +2997,7 @@ dictitems:
     count: 1
     title: Chrom
   chrome:
-    count: 12
+    count: 11
     title: Chrome
   chrome devtools:
     count: 1
@@ -3293,9 +3287,6 @@ dictitems:
   coherent:
     count: 1
     title: Coherent
-  coinbase:
-    count: 1
-    title: Coinbase
   colab:
     count: 2
     title: Colab
@@ -3915,7 +3906,7 @@ dictitems:
     count: 1
     title: Corroborating
   cortana:
-    count: 2
+    count: 1
     title: Cortana
   cortisol production:
     count: 1
@@ -4091,9 +4082,6 @@ dictitems:
   cruelty:
     count: 1
     title: Cruelty
-  cruise:
-    count: 1
-    title: Cruise
   crypto:
     count: 1
     title: Crypto
@@ -5112,7 +5100,7 @@ dictitems:
     count: 1
     title: Doctor Strange
   document:
-    count: 3
+    count: 2
     title: Documents
   documentary:
     count: 1
@@ -5186,9 +5174,6 @@ dictitems:
   doomscrolling,:
     count: 1
     title: Doomscrolling,
-  doordash:
-    count: 1
-    title: DoorDash
   doorknob:
     count: 1
     title: Doorknob
@@ -5318,9 +5303,6 @@ dictitems:
   drop out:
     count: 1
     title: drop out
-  dropbox:
-    count: 1
-    title: Dropbox
   droplet:
     count: 1
     title: Droplet
@@ -5466,7 +5448,7 @@ dictitems:
     count: 2
     title: Ed
   edge:
-    count: 6
+    count: 5
     title: Edge
   edge settings:
     count: 1
@@ -7187,9 +7169,6 @@ dictitems:
   generative birdcall:
     count: 1
     title: Generative Birdcall
-  generative experience:
-    count: 1
-    title: Generative Experience
   generative search experience:
     count: 1
     title: Generative Search Experience
@@ -7464,7 +7443,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 29
+    count: 28
     title: Google
   google analytics:
     count: 14
@@ -8861,9 +8840,6 @@ dictitems:
   inspire:
     count: 1
     title: Inspire
-  instacart:
-    count: 1
-    title: Instacart
   instagram:
     count: 2
     title: Instagram
@@ -9612,7 +9588,7 @@ dictitems:
     count: 1
     title: Kenny Rodgers
   kernel:
-    count: 3
+    count: 2
     title: Kernel
   kernel headers:
     count: 1
@@ -10377,7 +10353,7 @@ dictitems:
     count: 1
     title: Lise Meitner
   lisp:
-    count: 6
+    count: 5
     title: LISP
   list:
     count: 16
@@ -11501,9 +11477,6 @@ dictitems:
   metric:
     count: 3
     title: Metrics
-  metro:
-    count: 1
-    title: Metro
   metropolis:
     count: 1
     title: Metropolis
@@ -11550,7 +11523,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 61
+    count: 60
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12681,7 +12654,7 @@ dictitems:
     count: 1
     title: NSA
   nt:
-    count: 4
+    count: 3
     title: NT
   nuance:
     count: 4
@@ -12726,7 +12699,7 @@ dictitems:
     count: 1
     title: NYTimes
   o:
-    count: 4
+    count: 3
     title: OS
   o-scale:
     count: 1
@@ -12954,7 +12927,7 @@ dictitems:
     count: 1
     title: Open-Source License
   openai:
-    count: 46
+    count: 45
     title: OpenAI
   openai api:
     count: 3
@@ -13233,7 +13206,7 @@ dictitems:
     count: 1
     title: Paged Responses
   pagerank:
-    count: 5
+    count: 4
     title: PageRank
   pages/session:
     count: 1
@@ -13410,7 +13383,7 @@ dictitems:
     count: 1
     title: Paul Attreides
   paul graham:
-    count: 3
+    count: 2
     title: Paul Graham
   pavlovian conditioned:
     count: 1
@@ -13997,9 +13970,6 @@ dictitems:
   portable switch army seo product:
     count: 1
     title: portable switch army SEO product
-  portal:
-    count: 1
-    title: Portal
   positional argument:
     count: 1
     title: Positional Argument
@@ -14393,9 +14363,6 @@ dictitems:
   proficiency:
     count: 1
     title: proficiency
-  profile:
-    count: 1
-    title: Profile
   profile ids:
     count: 1
     title: Profile IDs
@@ -16029,7 +15996,7 @@ dictitems:
     count: 1
     title: sacrifices
   safari:
-    count: 4
+    count: 3
     title: Safari
   safety:
     count: 2
@@ -16062,7 +16029,7 @@ dictitems:
     count: 1
     title: Salespeople
   sam altman:
-    count: 4
+    count: 3
     title: Sam Altman
   samba:
     count: 1
@@ -16296,7 +16263,7 @@ dictitems:
     count: 1
     title: Sean Kirkpatrick
   search:
-    count: 15
+    count: 14
     title: Search
   search console:
     count: 4
@@ -16521,7 +16488,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 91
+    count: 90
     title: SEO
   seo blog:
     count: 1
@@ -16641,7 +16608,7 @@ dictitems:
     count: 1
     title: SETI
   setting:
-    count: 7
+    count: 6
     title: Settings
   settings.ini:
     count: 4
@@ -17550,7 +17517,7 @@ dictitems:
     count: 2
     title: Start Date
   start menu:
-    count: 4
+    count: 3
     title: Start Menu
   start script:
     count: 1
@@ -17810,9 +17777,6 @@ dictitems:
   strip:
     count: 1
     title: strip
-  stripe:
-    count: 1
-    title: Stripe
   stripped:
     count: 1
     title: Stripped
@@ -19940,9 +19904,6 @@ dictitems:
   visitor:
     count: 1
     title: Visitors
-  vista:
-    count: 1
-    title: Vista
   visual:
     count: 2
     title: Visual
@@ -20094,7 +20055,7 @@ dictitems:
     count: 1
     title: Warnings
   warren buffet:
-    count: 2
+    count: 1
     title: Warren Buffet
   warrior:
     count: 1
@@ -20376,7 +20337,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 86
+    count: 85
     title: Windows
   windows 10:
     count: 29
@@ -20676,7 +20637,7 @@ dictitems:
     count: 1
     title: XSLT
   yahoo:
-    count: 2
+    count: 1
     title: Yahoo
   yahwanna:
     count: 1
