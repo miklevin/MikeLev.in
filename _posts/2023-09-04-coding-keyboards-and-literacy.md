@@ -4,7 +4,7 @@ title: Coding, Keyboards and Literacy
 headline: Discover the power of coding, keyboards and literacy to unlock your autonomy and agency.
 description: As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.
 keywords: Coding, Keyboards, Literacy, Touch-typing, QWERTY, Muscle Memory, Autonomy, Agency, Free-will, Gutenberg Press, Public School Systems, JavaScript, Python, Voice Control, AI, Intellisense, Plug-ins, Git, Mobile, Dopamine, Cyborgs, Microsoft, Macbook Air, Gamer Keyboards, Mechanical Click, Mac, Linux, Windows, FOSS, Ubuntu, USB Installer, Driver Support, Game Market,
-categories: mac, ubuntu, javascript, git, linux, muscle memory, ai, coding, microsoft, python
+categories: muscle memory, coding, microsoft, javascript, python, git, ubuntu, mac, ai, linux
 permalink: /blog/coding-keyboards-and-literacy/
 layout: post
 group: blog
@@ -261,13 +261,13 @@ of both worlds: Windows and FOSS.
 ## Categories
 
 <ul>
-<li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/mac/'>Mac</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

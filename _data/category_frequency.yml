@@ -651,8 +651,8 @@ dictitems:
     count: 1
     title: Act 2
   action:
-    count: 6
-    title: Action
+    count: 5
+    title: Actions
   activate:
     count: 2
     title: Activate
@@ -834,7 +834,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 117
+    count: 116
     title: AI
   ai apocalypse:
     count: 1
@@ -2348,9 +2348,6 @@ dictitems:
   bot:
     count: 4
     title: Bots
-  both sides:
-    count: 1
-    title: Both Sides
   bottom:
     count: 1
     title: bottom
@@ -2576,9 +2573,6 @@ dictitems:
   button:
     count: 2
     title: Buttons
-  buttons pushed:
-    count: 1
-    title: Buttons Pushed
   buy vs build:
     count: 1
     title: Buy vs Build
@@ -2612,9 +2606,6 @@ dictitems:
   calculating:
     count: 1
     title: Calculating
-  calculation:
-    count: 1
-    title: Calculations
   calculus:
     count: 5
     title: Calculus
@@ -4304,9 +4295,6 @@ dictitems:
   dairy-free cheese balls:
     count: 1
     title: Dairy-Free Cheese Balls
-  damage:
-    count: 1
-    title: Damage
   dangerous:
     count: 1
     title: dangerous
@@ -4647,7 +4635,7 @@ dictitems:
     count: 1
     title: Defending
   defense:
-    count: 2
+    count: 1
     title: Defense
   defensive:
     count: 1
@@ -5282,9 +5270,6 @@ dictitems:
   draft posts:
     count: 1
     title: Draft Posts
-  draft to publish:
-    count: 1
-    title: Draft to Publish
   drama:
     count: 1
     title: Drama
@@ -5522,9 +5507,6 @@ dictitems:
   effective starters:
     count: 1
     title: Effective Starters
-  effective test:
-    count: 1
-    title: Effective Test
   effectively:
     count: 1
     title: Effectively
@@ -6653,9 +6635,6 @@ dictitems:
   flowchart:
     count: 2
     title: Flowcharts
-  flowers for algernon:
-    count: 1
-    title: Flowers for Algernon
   fluid layout:
     count: 1
     title: Fluid Layout
@@ -6753,7 +6732,7 @@ dictitems:
     count: 1
     title: Formulaic Happiness
   formulating:
-    count: 2
+    count: 1
     title: Formulating
   forte vfx1:
     count: 1
@@ -6899,9 +6878,6 @@ dictitems:
   fresh starting point:
     count: 1
     title: Fresh Starting Point
-  friday:
-    count: 1
-    title: Friday
   friday the 13th:
     count: 1
     title: Friday The 13th
@@ -8231,9 +8207,6 @@ dictitems:
   hockey stick curve:
     count: 1
     title: Hockey Stick Curve
-  hold horses:
-    count: 1
-    title: Hold Horses
   hole:
     count: 1
     title: Holes
@@ -8858,9 +8831,6 @@ dictitems:
   insanely complex stage:
     count: 1
     title: Insanely Complex Stage
-  insecurity:
-    count: 1
-    title: Insecurities
   insensitivity:
     count: 1
     title: Insensitivity
@@ -9140,9 +9110,6 @@ dictitems:
   investigative reports:
     count: 1
     title: Investigative Reports
-  investigator:
-    count: 1
-    title: Investigator
   investing:
     count: 2
     title: Investing
@@ -11088,7 +11055,7 @@ dictitems:
     count: 1
     title: Manipulate
   manipulated:
-    count: 2
+    count: 1
     title: Manipulated
   manipulation:
     count: 1
@@ -11954,9 +11921,6 @@ dictitems:
   morning pages:
     count: 1
     title: Morning Pages
-  mortality:
-    count: 1
-    title: Mortality
   mortgage:
     count: 1
     title: Mortgage
@@ -13064,9 +13028,6 @@ dictitems:
   optimism:
     count: 1
     title: Optimism
-  optimismists:
-    count: 1
-    title: Optimismists
   optimist:
     count: 1
     title: Optimist
@@ -13217,9 +13178,6 @@ dictitems:
   oversight:
     count: 1
     title: Oversight
-  overwhelm:
-    count: 1
-    title: Overwhelm
   overwrite:
     count: 2
     title: overwrite
@@ -13395,7 +13353,7 @@ dictitems:
     count: 1
     title: Partitioning
   passion:
-    count: 4
+    count: 3
     title: Passion
   passion project:
     count: 1
@@ -16973,9 +16931,6 @@ dictitems:
   situational:
     count: 1
     title: situational
-  situational awareness:
-    count: 1
-    title: Situational Awareness
   six principles:
     count: 1
     title: Six Principles
@@ -17075,9 +17030,6 @@ dictitems:
   slow motion:
     count: 1
     title: Slow Motion
-  slowing down:
-    count: 1
-    title: Slowing Down
   slug:
     count: 6
     title: Slugs
@@ -17394,7 +17346,7 @@ dictitems:
     count: 1
     title: Spielberg
   spin:
-    count: 2
+    count: 1
     title: Spin
   spinal cord:
     count: 1
@@ -19104,8 +19056,8 @@ dictitems:
     count: 1
     title: Tricked
   triggered:
-    count: 2
-    title: Triggered
+    count: 1
+    title: triggered
   triggering:
     count: 1
     title: Triggering
@@ -19391,9 +19343,6 @@ dictitems:
   unexpected:
     count: 1
     title: Unexpected
-  unfolding:
-    count: 1
-    title: Unfolding
   unicorn:
     count: 1
     title: unicorn
@@ -20321,9 +20270,6 @@ dictitems:
   wed:
     count: 1
     title: Wed
-  wednesday:
-    count: 1
-    title: Wednesday
   weed:
     count: 1
     title: Weed

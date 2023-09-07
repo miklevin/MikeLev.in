@@ -4,7 +4,7 @@ title: 30 Questions with Bing, Mostly About SEO
 headline: Exploring the Future of SEO with Bing
 description: Chat with Bing about MikeLev.in's project MyKoz.AI, a modern approach to finding value in life by mastering simple, lasting skills. Learn about MikeLev.in's vision, plans, and challenges in developing and launching the project, plus a long discussion tackling the future of the field of SEO and the general online experience of searchers and seekers, drawing parallels to libraries and the role of librarians. Also includes an examination of the role of publishers and advertisers in such exchanges.
 keywords: MikeLev.in, NYC, Levinux, Pipulate, LPvg, AI, SEO, Machine Learning, Copilot, YouTube, 0d39r33zk, Schwinger, Meissner, Antigravity, Propulsion, Meissner Effect, Schwinger Effect, TicTac Flux Liner, LK-99, Room-Temperature Superconductor, Copper-Substituted Lead Apatite, Quantum Energy Research Centre, Seoul, Highly Resist
-categories: pipulate, levinux, seo, youtube, lpvg, ai, new york city
+categories: levinux, lpvg, seo, youtube, pipulate, new york city, ai
 permalink: /blog/30-questions-with-bing-mostly-about-seo/
 layout: post
 group: blog
@@ -1277,10 +1277,10 @@ Bing: That's the most I can say about that. Click “New topic” and we can kee
 ## Categories
 
 <ul>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
