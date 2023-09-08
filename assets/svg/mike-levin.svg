@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.041954mm"
+   height="35.559998mm"
+   viewBox="0 0 82.041954 35.559998"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.979024,-130.72)">
+    <path
+       style="font-size:50.8px;font-family:Dorsa;-inkscape-font-specification:Dorsa;fill:#90b98b;fill-opacity:0.478431;stroke-width:0.264583"
+       d="m 63.979024,166.28 v -35.56 h 0.7112 l 4.6736,28.2956 4.6736,-28.2956 h 0.7112 v 35.56 h -1.778 v -24.7396 l -3.2512,19.6596 h -0.7112 l -3.2512,-19.6596 V 166.28 Z m 14.630413,-35.56 v 35.56 h -1.778 v -35.56 z m 2.082812,35.56 v -35.56 h 1.778 v 13.8684 L 86.737448,130.72 h 0.6604 l -4.2672,13.8684 5.334,21.6916 h -1.778 L 82.470249,149.0588 V 166.28 Z M 98.42146,130.72 v 0.762 h -6.096 v 15.4432 h 5.08 v 0.762 h -5.08 v 17.8308 h 6.096 v 0.762 h -7.874 v -35.56 z m 7.16278,0 h 1.778 v 34.798 h 4.9276 v 0.762 h -6.7056 z m 16.51,0 v 0.762 h -6.096 v 15.4432 h 5.08 v 0.762 h -5.08 v 17.8308 h 6.096 v 0.762 h -7.874 v -35.56 z m 10.26156,0 -3.9624,35.56 h -0.7112 l -3.5052,-35.56 h 1.778 l 2.54,28.2956 3.1496,-28.2956 z m 3.70837,0 v 35.56 h -1.778 v -35.56 z m 2.08281,35.56 v -35.56 h 0.7112 l 5.3848,24.9936 V 130.72 h 1.778 v 35.56 h -1.778 v -7.1628 l -4.318,-20.1168 V 166.28 Z"
+       id="text1"
+       aria-label="MIKE LEVIN" />
+  </g>
+</svg>
