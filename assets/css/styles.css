@@ -912,12 +912,13 @@ nav a.current {
 }
 
 .svg-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
   align-items: center; /* Vertical alignment */
 }
 
 .svg-item {
-  height: 100px; /* Set the desired height */
+  height: 50px; /* Set the desired height */
   margin: 0 10px; /* Add margin between SVGs if needed */
 }
 
