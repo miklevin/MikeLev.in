@@ -4,7 +4,7 @@ title: Failed Getting LXD Working Under WSL2 Under Ubuntu 20.04 systemd & snap
 headline: "My Journey to Get LXD Working Under WSL2: A Failed Attempt"
 description: "I tried to get LXD running on WSL2, but couldn't make it work. Now I'm trying two things to make it work: installing the kernel headers and ZFS, and loading the module. I'll need to reload the module after each restart. Read my blog post to find out how this journey went!"
 keywords: LXD, WSL2, Ubuntu 20.04, systemd, snap, kernel headers, ZFS, module, restart, failed, journey, efforts
-categories: systemd, wsl, container
+categories: systemd, container, wsl
 permalink: /blog/failed-getting-lxd-working-under-wsl2-under-ubuntu-20-04-systemd-snap/
 layout: post
 group: blog
@@ -72,5 +72,5 @@ do with this:
 
 <ul>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>

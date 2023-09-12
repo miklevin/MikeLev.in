@@ -4,7 +4,7 @@ title: Collecting Keywords From a Site Crawl
 headline: Creating a Rapid Keyword List Refiner from Title Tag Crawl Data
 description: I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.
 keywords: site crawl, keyword list, SEO software, search results, Jupyter Notebooks, Python, input function, line editor, ipywidgets, readline module, terminal, command line, Pipulate, SQLite database, gameifies, cleans list, duplicate, actuals, title tag, brand name, pipe symbol, ampersand, SEO, 80/20-rule, zone-inducing, keyword collection, proper-case, common keyword, first word, title tag
-categories: seo, pipulate, linux, python, jupyter, 80/20-rule
+categories: seo, jupyter, pipulate, 80/20-rule, python, linux
 permalink: /blog/collecting-keywords-from-a-site-crawl/
 layout: post
 group: blog
@@ -416,6 +416,7 @@ responsedb = f"{config.name}/responses.db"
 keywordsdb = f"{config.name}/keywords.db"
 seenurlsdb = f"{config.name}/seenurls.db"
 
+
 def input_with_prefill(prefill):
     readline.set_startup_hook(lambda: readline.insert_text(prefill))
     try:
@@ -423,7 +424,9 @@ def input_with_prefill(prefill):
     finally:
         readline.set_startup_hook()
 
+
 pattern = "( \| | - | & )"
+
 
 def kwclean(s):
     s = s.replace(" and ", " ")
@@ -433,81 +436,80 @@ def kwclean(s):
     kwlist = [x.strip() for x in kwlist]
     return kwlist
 
-# Load already seen URLs into a set.
+
 seen_urls = set()
 if Path(seenurlsdb).is_file():
     with sqldict(seenurlsdb) as db:
         for url in db:
             seen_urls.add(url)
 
-# Load already seen keywords into a set.
 seen = set()
 if Path(keywordsdb).is_file():
     with sqldict(keywordsdb) as db:
         for kw in db:
             seen.add(kw.lower())
 
-# Get a count of the number of title tags we will be looking at.
 with sqldict(responsedb) as db:
     for numpages, url in enumerate(db):
         ...
+
 countdown = numpages
-print(f"Processing {countdown} pages.")
+print(countdown)
 
 with sqldict(responsedb) as db:
     for i, url in enumerate(db):
-        print(countdown-i)
+        print(countdown - i)
         if url not in seen_urls:
-           response = db[url]
-           soup = bsoup(response.text, "html.parser")
-           title = soup.title.string.strip()
-           title = ", ".join(kwclean(title))
-           before_kws = kwclean(title)
-           after_kws = []
-           counter = Counter()
-           for kw in before_kws:
-               kwlow = kw.lower()
-               if kwlow not in seen:
-                   after_kws.append(kw)
-               words = kw.split(" ")
-               for word in words:
-                   counter[word] += 1
-           maxval = max(counter.values())
-           maxlabel = max(counter, key=counter.get)
-           mod_kws = []
-           for j, kw in enumerate(after_kws):
-               words = kw.split()
-               if j == 0:
-                   first = None
-                   if len(words) > 1:
-                       first = words[0]
-               if len(words) == 1:
-                   if maxval > 1:
-                       kw = f"{maxlabel} {kw}"
-                   elif first:
-                       kw = f"{first} {kw}"
-               chops = ["More"]
-               for chop in chops:
-                   if kw[:len(f"{chop} ")].lower() == f"{chop} ".lower():
-                       kw = kw[len(f"{chop} "):]
-               mod_kws.append(kw)
-           mod_kws = [x for x in mod_kws if x.lower() not in seen]
-           kw_str = ", ".join(mod_kws)
-           if not kw_str:
-               continue
-           collect = input_with_prefill(kw_str)
-           print(collect)
-           collect_list = collect.split(",")
-           collect_list = [x.strip() for x in collect_list]
-           with sqldict(keywordsdb) as db2:
-               for kw in collect_list:
-                   if kw and kw not in seen:
-                     db2[kw] = url
-                     seen.add(kw.lower())
-               db2.commit()
-           with sqldict(seenurlsdb) as db2:
-             db2[url] = None
-             db2.commit()
+            response = db[url]
+            soup = bsoup(response.text, "html.parser")
+            title = soup.title.string.strip()
+            title = ", ".join(kwclean(title))
+            before_kws = kwclean(title)
+            after_kws = []
+            counter = Counter()
+            for kw in before_kws:
+                kwlow = kw.lower()
+                if kwlow not in seen:
+                    after_kws.append(kw)
+                words = kw.split(" ")
+                for word in words:
+                    counter[word] += 1
+            maxval = max(counter.values())
+            maxlabel = max(counter, key=counter.get)
+            mod_kws = []
+            for j, kw in enumerate(after_kws):
+                words = kw.split()
+                if j == 0:
+                    first = None
+                    if len(words) > 1:
+                        first = words[0]
+                if len(words) == 1:
+                    if maxval > 1:
+                        kw = f"{maxlabel} {kw}"
+                    elif first:
+                        kw = f"{first} {kw}"
+                chops = ["More"]
+                for chop in chops:
+                    if kw[: len(f"{chop} ")].lower() == f"{chop} ".lower():
+                        kw = kw[len(f"{chop} ") :]
+                mod_kws.append(kw)
+            mod_kws = [x for x in mod_kws if x.lower() not in seen]
+            kw_str = ", ".join(mod_kws)
+            if not kw_str:
+                continue
+            collect = input_with_prefill(kw_str)
+            print(collect)
+            collect_list = collect.split(",")
+            collect_list = [x.strip() for x in collect_list]
+            with sqldict(keywordsdb) as db2:
+                for kw in collect_list:
+                    if kw and kw not in seen:
+                        db2[kw] = url
+                        seen.add(kw.lower())
+                db2.commit()
+            with sqldict(seenurlsdb) as db2:
+                db2[url] = None
+                db2.commit()
 ```
 
 
@@ -522,8 +524,8 @@ with sqldict(responsedb) as db:
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
