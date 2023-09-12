@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a> (Tue Sep 12, 2023)
+<br/>I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.</li>
 <li><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a> (Fri Aug 11, 2023)
 <br/>Chat with Bing about MikeLev.in's project MyKoz.AI, a modern approach to finding value in life by mastering simple, lasting skills. Learn about MikeLev.in's vision, plans, and challenges in developing and launching the project, plus a long discussion tackling the future of the field of SEO and the general online experience of searchers and seekers, drawing parallels to libraries and the role of librarians. Also includes an examination of the role of publishers and advertisers in such exchanges.</li>
 <li><a href="/blog/consolidating-mykoz-ai-journaling-system-under-one-repo/">Consolidating MyKoz.AI Journaling System Under One Repo</a> (Tue Aug 08, 2023)

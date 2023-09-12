@@ -215,7 +215,7 @@ completely internalized the tools of your trade, which are timeless to boot.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

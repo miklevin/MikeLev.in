@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a> (Tue Sep 12, 2023)
+<br/>I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
 <br/>As the tech industry faces a great change, I, a 53-year-old (tomorrow) tech veteran, share my experience and knowledge on how to survive the impending tech flood. Learn the fundamentals that have not changed for decades, and employ the 80/20-rule to stay ahead of the game. Join me on my journey to re-define SEO and make the most of the opportunities the tech industry brings.</li>
 <li><a href="/blog/30-questions-with-bing-mostly-about-seo/">30 Questions with Bing, Mostly About SEO</a> (Fri Aug 11, 2023)

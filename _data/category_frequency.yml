@@ -459,7 +459,7 @@ dictitems:
     count: 4
     title: 80/20 Rule
   80/20-rule:
-    count: 14
+    count: 15
     title: 80/20-Rule
   '80286':
     count: 1
@@ -668,6 +668,9 @@ dictitems:
   actualizing:
     count: 1
     title: Actualizing
+  actuals:
+    count: 1
+    title: actuals
   ad revenue:
     count: 1
     title: Ad Revenue
@@ -1103,6 +1106,9 @@ dictitems:
   amos:
     count: 1
     title: Amos
+  ampersand:
+    count: 1
+    title: ampersand
   amplification:
     count: 1
     title: Amplification
@@ -2393,6 +2399,9 @@ dictitems:
   brand loyalty:
     count: 1
     title: Brand Loyalty
+  brand name:
+    count: 1
+    title: brand name
   brandon heagle:
     count: 1
     title: Brandon Heagle
@@ -3086,6 +3095,9 @@ dictitems:
   clean energy:
     count: 3
     title: Clean Energy
+  cleans list:
+    count: 1
+    title: cleans list
   clearer:
     count: 1
     title: Clearer
@@ -3378,7 +3390,7 @@ dictitems:
     count: 1
     title: Command Centric Design
   command line:
-    count: 5
+    count: 6
     title: Command Line
   command line interface:
     count: 3
@@ -3437,6 +3449,9 @@ dictitems:
   common files:
     count: 1
     title: Common Files
+  common keyword:
+    count: 1
+    title: common keyword
   communication:
     count: 6
     title: Communication
@@ -5331,7 +5346,7 @@ dictitems:
     count: 1
     title: Dungeons & Dragons
   duplicate:
-    count: 2
+    count: 3
     title: Duplicates
   durable:
     count: 1
@@ -6536,6 +6551,9 @@ dictitems:
   first law of thermodynamics:
     count: 1
     title: First Law of Thermodynamics
+  first word:
+    count: 1
+    title: first word
   first-hand advice:
     count: 1
     title: first-hand advice
@@ -7070,6 +7088,9 @@ dictitems:
   game-changing:
     count: 1
     title: Game-Changing
+  gameifies:
+    count: 1
+    title: gameifies
   gamer keyboards:
     count: 1
     title: Gamer Keyboards
@@ -8801,6 +8822,9 @@ dictitems:
   input file:
     count: 1
     title: Input File
+  input function:
+    count: 1
+    title: input function
   input values:
     count: 1
     title: Input Values
@@ -9122,6 +9146,9 @@ dictitems:
   ipython notebooks:
     count: 1
     title: iPython Notebooks
+  ipywidgets:
+    count: 1
+    title: ipywidgets
   ira:
     count: 1
     title: Ira
@@ -9507,7 +9534,7 @@ dictitems:
     count: 1
     title: Jupyter Notebook server
   jupyter notebooks:
-    count: 10
+    count: 11
     title: Jupyter Notebooks
   jupyter python:
     count: 1
@@ -9650,6 +9677,9 @@ dictitems:
   keyword clustering:
     count: 2
     title: Keyword Clustering
+  keyword collection:
+    count: 1
+    title: keyword collection
   keyword explorer:
     count: 2
     title: Keyword Explorer
@@ -9663,8 +9693,8 @@ dictitems:
     count: 1
     title: Keyword Histogram
   keyword list:
-    count: 1
-    title: Keyword List
+    count: 2
+    title: keyword list
   keyword metadata:
     count: 1
     title: Keyword Metadata
@@ -10160,6 +10190,9 @@ dictitems:
   line:
     count: 1
     title: Line
+  line editor:
+    count: 1
+    title: line editor
   line sparkline:
     count: 1
     title: Line Sparkline
@@ -13709,6 +13742,9 @@ dictitems:
   pipe delimited:
     count: 1
     title: pipe delimited
+  pipe symbol:
+    count: 1
+    title: pipe symbol
   pipelining:
     count: 1
     title: Pipelining
@@ -13716,7 +13752,7 @@ dictitems:
     count: 1
     title: Piping
   pipulate:
-    count: 21
+    count: 22
     title: Pipulate
   pipulate free & open source seo:
     count: 1
@@ -14442,8 +14478,8 @@ dictitems:
     count: 2
     title: Proper Case
   proper-case:
-    count: 2
-    title: Proper-Case
+    count: 3
+    title: proper-case
   properly:
     count: 1
     title: Properly
@@ -14679,7 +14715,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 202
+    count: 203
     title: Python
   python 3:
     count: 1
@@ -15146,6 +15182,9 @@ dictitems:
   reading resources:
     count: 1
     title: Reading Resources
+  readline module:
+    count: 1
+    title: readline module
   readme:
     count: 1
     title: README
@@ -16289,6 +16328,9 @@ dictitems:
   search intent:
     count: 1
     title: Search Intent
+  search results:
+    count: 1
+    title: search results
   search traffic:
     count: 1
     title: Search Traffic
@@ -16488,7 +16530,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 90
+    count: 91
     title: SEO
   seo blog:
     count: 1
@@ -16508,6 +16550,9 @@ dictitems:
   seo rankings:
     count: 1
     title: SEO Rankings
+  seo software:
+    count: 1
+    title: SEO software
   seoptimer:
     count: 1
     title: SEOptimer
@@ -16871,6 +16916,9 @@ dictitems:
   site categories:
     count: 1
     title: Site Categories
+  site crawl:
+    count: 1
+    title: site crawl
   site hierarchy:
     count: 1
     title: Site Hierarchy
@@ -17382,8 +17430,8 @@ dictitems:
     count: 10
     title: SQLite
   sqlite database:
-    count: 1
-    title: SQLite Database
+    count: 2
+    title: SQLite database
   sqlite3:
     count: 4
     title: SQLite3
@@ -18456,7 +18504,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 21
+    count: 22
     title: Terminal
   terminal environment:
     count: 1
@@ -18746,6 +18794,9 @@ dictitems:
   title:
     count: 18
     title: Title
+  title tag:
+    count: 2
+    title: title tag
   tldextract:
     count: 1
     title: tldextract
@@ -20768,6 +20819,9 @@ dictitems:
   zone:
     count: 4
     title: Zone
+  zone-inducing:
+    count: 1
+    title: zone-inducing
   zoo:
     count: 1
     title: Zoo
