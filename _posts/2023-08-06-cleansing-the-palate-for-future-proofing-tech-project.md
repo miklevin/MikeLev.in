@@ -4,7 +4,7 @@ title: Cleansing the Palate for Future-Proofing Tech Project
 headline: Ready to Reboot My Skills and Take on the Future with MyKoz.AI?
 description: Learn how to reset muscle memory and gain multi-decade productivity with a sprinkle of AI. Discover the power of NeoVim, Linux, and JupyterLab. Be part of the MyKoz.AI project to future-proof your tech skills.
 keywords: MyKoz.AI, Windows, Microsoft Store, Windows Terminal, Windows 10, Windows 11, Linux, FOSS, NeoVim, Jupyter, Ubuntu, AI, Machine Learning, User Interface, User Experience, A/B Testing, AI-Powered Iterative Design, Dopamine, Macromedia/Adobe Flash, SEO, Muscle Memory, Multi-Decade Productivity, Chinese Room Thought Experiment, Problem of Induction, Superdeterminism, Non
-categories: microsoft, seo, jupyter, ai, ubuntu, muscle memory, vim, linux
+categories: ai, ubuntu, jupyter, linux, seo, microsoft, muscle memory, vim
 permalink: /blog/cleansing-the-palate-for-future-proofing-tech-project/
 layout: post
 group: blog
@@ -227,11 +227,11 @@ thing from scratch and let people follow along right from the beginning.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
