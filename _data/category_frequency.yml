@@ -575,6 +575,9 @@ dictitems:
   abstract:
     count: 2
     title: Abstract
+  abstract symbols:
+    count: 1
+    title: abstract symbols
   abstract thinking:
     count: 1
     title: Abstract Thinking
@@ -2520,8 +2523,8 @@ dictitems:
     count: 1
     title: Build Robots
   building:
-    count: 1
-    title: Building
+    count: 2
+    title: building
   built-in data types:
     count: 1
     title: Built-in Data Types
@@ -2963,6 +2966,9 @@ dictitems:
   childhood:
     count: 2
     title: Childhood
+  chimp:
+    count: 1
+    title: chimps
   chinese room experiment:
     count: 1
     title: Chinese Room Experiment
@@ -2976,8 +2982,8 @@ dictitems:
     count: 2
     title: Chocolatey
   choice:
-    count: 1
-    title: Choices
+    count: 2
+    title: choices
   choose:
     count: 1
     title: choose
@@ -3563,6 +3569,9 @@ dictitems:
   computer science:
     count: 2
     title: computer science
+  computer simulation:
+    count: 1
+    title: computer simulation
   computer vision:
     count: 1
     title: Computer Vision
@@ -3827,6 +3836,9 @@ dictitems:
   controversial:
     count: 1
     title: Controversial
+  conundrum:
+    count: 1
+    title: conundrum
   convention:
     count: 1
     title: Convention
@@ -4727,6 +4739,9 @@ dictitems:
   derivative:
     count: 1
     title: Derivative
+  descartes:
+    count: 1
+    title: Descartes
   descendant:
     count: 1
     title: descendants
@@ -5280,7 +5295,7 @@ dictitems:
     count: 1
     title: Drawbacks
   drawing:
-    count: 1
+    count: 2
     title: drawing
   dream:
     count: 2
@@ -6093,7 +6108,7 @@ dictitems:
     count: 1
     title: Expensive Services
   experience:
-    count: 14
+    count: 15
     title: Experience
   experienced user:
     count: 1
@@ -6815,6 +6830,9 @@ dictitems:
   free and open source software:
     count: 3
     title: Free and Open Source Software
+  free association:
+    count: 1
+    title: free association
   free cost:
     count: 1
     title: Free Cost
@@ -7841,6 +7859,9 @@ dictitems:
   "g\xF6del":
     count: 1
     title: "G\xF6del"
+  "g\xF6del's incompleteness theorems":
+    count: 1
+    title: "G\xF6del's incompleteness theorems"
   h. g. wells:
     count: 1
     title: H. G. Wells
@@ -8376,7 +8397,7 @@ dictitems:
     count: 3
     title: Hugo
   human:
-    count: 7
+    count: 8
     title: Human
   human autonomy:
     count: 1
@@ -8498,6 +8519,9 @@ dictitems:
   idea-capture:
     count: 2
     title: Idea-Capture
+  ideal:
+    count: 1
+    title: ideals
   ideation:
     count: 1
     title: Ideation
@@ -8696,6 +8720,9 @@ dictitems:
   individual:
     count: 3
     title: Individual
+  individuality:
+    count: 1
+    title: individuality
   indomitable:
     count: 1
     title: Indomitable
@@ -8921,11 +8948,14 @@ dictitems:
   instapaper api key:
     count: 1
     title: Instapaper API Key
+  instinct:
+    count: 1
+    title: instincts
   institution:
     count: 1
     title: Institutions
   instruction:
-    count: 4
+    count: 5
     title: Instructions
   instrument:
     count: 1
@@ -8946,7 +8976,7 @@ dictitems:
     count: 1
     title: Intel processor
   intelligence:
-    count: 5
+    count: 6
     title: Intelligence
   intelligent:
     count: 1
@@ -9432,7 +9462,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 41
+    count: 42
     title: Journaling
   journaling habit:
     count: 1
@@ -9864,7 +9894,7 @@ dictitems:
     count: 1
     title: Land Lords
   language:
-    count: 13
+    count: 14
     title: Language
   language arts:
     count: 1
@@ -10104,7 +10134,7 @@ dictitems:
     count: 1
     title: Lies
   life:
-    count: 31
+    count: 32
     title: Life
   life adjustments:
     count: 1
@@ -10176,8 +10206,8 @@ dictitems:
     count: 2
     title: Lily-Ray
   limit:
-    count: 1
-    title: Limit
+    count: 2
+    title: limits
   limitation:
     count: 1
     title: Limitations
@@ -11232,7 +11262,7 @@ dictitems:
     count: 2
     title: Material World
   math:
-    count: 11
+    count: 12
     title: Math
   mathematics:
     count: 5
@@ -11292,8 +11322,8 @@ dictitems:
     count: 1
     title: Mean Girls
   meaning:
-    count: 4
-    title: Meaning
+    count: 5
+    title: meaning
   meaningful conversations:
     count: 1
     title: meaningful conversations
@@ -11718,7 +11748,7 @@ dictitems:
     count: 1
     title: Mindful
   mindfulness:
-    count: 5
+    count: 6
     title: Mindfulness
   mini-project:
     count: 2
@@ -11826,7 +11856,7 @@ dictitems:
     count: 1
     title: Mobile Phone
   mobility:
-    count: 2
+    count: 3
     title: Mobility
   moby dick:
     count: 1
@@ -12339,7 +12369,7 @@ dictitems:
     count: 1
     title: neo-bat armor
   neocortex:
-    count: 2
+    count: 3
     title: Neocortex
   neovim:
     count: 39
@@ -13305,8 +13335,8 @@ dictitems:
     count: 1
     title: Paradigm
   paradox:
-    count: 1
-    title: Paradoxes
+    count: 2
+    title: paradoxes
   paralysis:
     count: 2
     title: paralysis
@@ -13454,6 +13484,9 @@ dictitems:
   peasy:
     count: 1
     title: peasy
+  pen:
+    count: 1
+    title: pen
   penn & teller:
     count: 1
     title: Penn & Teller
@@ -13496,6 +13529,9 @@ dictitems:
   perfecting:
     count: 1
     title: Perfecting
+  perfection:
+    count: 1
+    title: perfection
   performance:
     count: 3
     title: Performance
@@ -13644,7 +13680,7 @@ dictitems:
     count: 1
     title: Photosynthesis
   physic:
-    count: 7
+    count: 8
     title: Physics
   physical:
     count: 1
@@ -14177,6 +14213,9 @@ dictitems:
   predict:
     count: 1
     title: Predict
+  predictability:
+    count: 1
+    title: predictability
   prediction:
     count: 5
     title: Predictions
@@ -14658,8 +14697,8 @@ dictitems:
     count: 1
     title: Purple Unicorn
   purpose:
-    count: 1
-    title: Purpose
+    count: 2
+    title: purpose
   purring:
     count: 1
     title: purring
@@ -15047,6 +15086,9 @@ dictitems:
   raid:
     count: 1
     title: RAID
+  rain dances:
+    count: 1
+    title: rain dances
   rainbow:
     count: 1
     title: rainbow
@@ -16509,7 +16551,7 @@ dictitems:
     count: 1
     title: Sendmail.py
   sens:
-    count: 2
+    count: 3
     title: senses
   sensitivity:
     count: 2
@@ -17031,7 +17073,7 @@ dictitems:
     count: 1
     title: sliding-glass door
   slime mold:
-    count: 2
+    count: 3
     title: Slime Mold
   slingshot:
     count: 1
@@ -17691,8 +17733,8 @@ dictitems:
     count: 1
     title: Steven Universe
   stick:
-    count: 1
-    title: Stick
+    count: 2
+    title: stick
   stilling the wolf:
     count: 1
     title: stilling the wolf
@@ -17877,8 +17919,8 @@ dictitems:
     count: 1
     title: Styles.scss
   stylus:
-    count: 1
-    title: Stylus
+    count: 2
+    title: stylus
   sub-arrow system:
     count: 1
     title: Sub-arrow System
@@ -18849,7 +18891,7 @@ dictitems:
     count: 1
     title: Tony Stark
   tool:
-    count: 23
+    count: 24
     title: Tools
   tool obsolescence:
     count: 1
@@ -20612,6 +20654,9 @@ dictitems:
   writing suggestion tool:
     count: 1
     title: Writing Suggestion Tool
+  written word:
+    count: 1
+    title: written word
   wsgi:
     count: 1
     title: WSGI

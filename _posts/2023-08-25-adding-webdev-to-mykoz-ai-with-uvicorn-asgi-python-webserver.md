@@ -4,7 +4,7 @@ title: Adding WebDev to MyKoz.AI with uvicorn ASGI Python Webserver
 headline: I Just Added WebDev to MyKoz.AI with uvicorn ASGI Python Webserver!
 description: I added webdev to MyKoz.AI with uvicorn ASGI Python webserver. Follow the steps I used to add another monitorable service running through GNU screen that opens new possibilities. This sets the stage for writing a sample HTMX app.
 keywords: webdev, HTML, HTMX, JavaScript, ReactJS, DOM, AlpineJS, WSGI, ASGI, gunicorn, uvicorn, WSL, Flask, FastAPI, Python, webserver, HTTP, virtualenv, systemd, GNU, screen
-categories: wsl, html, javascript, systemd, virtualenv, gnu, python
+categories: virtualenv, javascript, python, systemd, gnu, wsl, html
 permalink: /blog/adding-webdev-to-mykoz-ai-with-uvicorn-asgi-python-webserver/
 layout: post
 group: blog
@@ -190,10 +190,10 @@ the Hello World website is running.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/virtualenv/'>virtualenv</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/systemd/'>Systemd</a></h4></li>
 <li><h4><a href='/gnu/'>GNU</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li></ul>

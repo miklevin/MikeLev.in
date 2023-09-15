@@ -4,7 +4,7 @@ title: Collecting Keywords From a Site Crawl
 headline: Creating a Rapid Keyword List Refiner from Title Tag Crawl Data
 description: I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.
 keywords: site crawl, keyword list, SEO software, search results, Jupyter Notebooks, Python, input function, line editor, ipywidgets, readline module, terminal, command line, Pipulate, SQLite database, gameifies, cleans list, duplicate, actuals, title tag, brand name, pipe symbol, ampersand, SEO, 80/20-rule, zone-inducing, keyword collection, proper-case, common keyword, first word, title tag
-categories: jupyter, linux, pipulate, seo, 80/20-rule, python
+categories: python, pipulate, seo, linux, 80/20-rule, jupyter
 permalink: /blog/collecting-keywords-from-a-site-crawl/
 layout: post
 group: blog
@@ -519,13 +519,13 @@ with sqldict(responsedb) as db:
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/internalizing-the-tools-of-your-trade-that-are-timeless-to-boot/">Internalizing the Tools of Your Trade That are Timeless to Boot</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/internalizing-the-tools-of-your-trade-that-are-timeless-to-boot/">Internalizing the Tools of Your Trade That are Timeless to Boot</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-journaling-for-life-tool-conundrum/">The Journaling For Life Tool Conundrum</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li></ul>
