@@ -4,7 +4,7 @@ title: Time To Tell My Stories
 headline: "My Story: From NYC SEO to Poconos Telecommuter"
 description: Mike Levin, a SEO from New York City, moved to the Poconos during the pandemic and has been telecommuting ever since. In order to make sure his stories last forever, he's using search engine optimization and has just registered a new domain, linuxpythonvimgit. Learn more about Mike's journey and his determination to make his stories last.
 keywords: SEO, New York City, Poconos, Telecommuting, Search Engine Optimization, Domain, Linux, Python, Vim, Git, Lives Lost, Pandemic, Lockdown, Stories, Last Forever
-categories: new york city, seo, linux, git, vim, python
+categories: git, vim, seo, new york city, python, linux
 permalink: /blog/time-to-tell-my-stories/
 layout: post
 group: blog
@@ -62,9 +62,9 @@ not be publishing" (on one of these sites):
 ## Categories
 
 <ul>
-<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/new-york-city/'>New York City</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
