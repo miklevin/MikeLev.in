@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a> (Sat Sep 16, 2023)
+<br/>Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.</li>
 <li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)
 <br/>Learn to use Vim, Python, and Linux with journaling and personal projects. Develop timeless skills to stay ahead of the rapidly changing tech world. Increase creativity and gain wisdom with journaling and mindfulness. Use tools to foster creative thought and self-expression. Find the best platform to become known for one thing and make a compelling pitch.</li>
 <li><a href="/blog/google-sge-bing-conversational-search-video-capture-automation/">Google SGE & Bing Conversational Search Video Capture Automation</a> (Sun Aug 27, 2023)

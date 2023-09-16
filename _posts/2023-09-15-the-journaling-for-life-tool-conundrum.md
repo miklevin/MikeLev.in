@@ -165,7 +165,7 @@ conundrum after another.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

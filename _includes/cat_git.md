@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a> (Sat Sep 16, 2023)
+<br/>Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)
 <br/>As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.</li>
 <li><a href="/blog/skipping-the-web-frameworks-for-a-more-fundamental-approach-to-dev/">Skipping The Web Frameworks For a More Fundamental Approach to Dev</a> (Sat Aug 26, 2023)

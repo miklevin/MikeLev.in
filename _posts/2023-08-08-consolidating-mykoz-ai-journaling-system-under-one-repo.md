@@ -4,7 +4,7 @@ title: Consolidating MyKoz.AI Journaling System Under One Repo
 headline: "Journaling MyKoz.AI: Consolidating All Repos Under One Roof"
 description: "This post is about consolidating the MyKoz.AI journaling system under one repository. I discuss the need to update the `.bash_profile` to include `sudo hwclock -s`, the need to create a `README.txt` file, and the decision to use one repo with the folders Intro, Journal, Practice, and Service. This is the preparatory work before MyKoz.AI can really be soft-launched. These repo's and particularly the Journaling system need to be in-place."
 keywords: MyKoz.AI, Journaling, System, Repo, Bash_profile, WSL2, Linux, Clock, Terminals, Windows, Host, Sleep, ToDo, README, JypyterLab, F5, Intro, Whim, Repos, Initial Caps, Python, Packaging, Convention, Nbdev, Practice, Service, Alphabetize, Directory, YAMLChop, Pipulate, Levinux, Publish, Generic, Boot,
-categories: microsoft, python, pipulate, wsl, linux, nbdev, publish, journaling, levinux
+categories: nbdev, publish, pipulate, levinux, microsoft, linux, journaling, wsl, python
 permalink: /blog/consolidating-mykoz-ai-journaling-system-under-one-repo/
 layout: post
 group: blog
@@ -124,12 +124,12 @@ repo. That's a good idea. I'll do that.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/nbdev/'>nbdev</a></h4></li>
 <li><h4><a href='/publish/'>Publish</a></h4></li>
+<li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

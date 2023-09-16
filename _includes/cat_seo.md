@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a> (Sat Sep 16, 2023)
+<br/>Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.</li>
 <li><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a> (Tue Sep 12, 2023)
 <br/>I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.</li>
 <li><a href="/blog/re-defining-seo-the-impending-tech-flood-and-how-to-survive-it/">Re-Defining SEO: The Impending Tech Flood and How To Survive It</a> (Sat Aug 26, 2023)
