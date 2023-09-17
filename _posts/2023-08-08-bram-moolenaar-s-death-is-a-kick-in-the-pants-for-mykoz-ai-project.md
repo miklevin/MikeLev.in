@@ -4,7 +4,7 @@ title: Bram Moolenaar's Death is a Kick in the Pants for MyKoz.AI Project
 headline: "MyKoz.AI: A Journey of Self-Reinvention and Embracing Linux, Python, vim & git"
 description: "I'm a fan of the tools I use, and the toolmakers who make them. I'm a fan of Linux, Python, vim & git, and I'm deeply moved by Bram Moolenaar's death. I'm on a journey to the Noosphere, and MyKoz.AI is my Noosphere endeavor. I'm doing this by adding a Linux subsystem serving JupyterLab to existing Windows 10 or 11 desktops, optionally starting fresh with a 'Reset this PC' approach. I'm packaging it to be appealing to the masses: a path for those determined to master tools for life on a continuous journey of self-improvement."
 keywords: RIP, Bram Moolenaar, Vim, NeoVim, vi, Amiga, Fred Fish Disk, Linux, Python, git, Bill Joy, Sun Microsystems, Berkeley Unix, Vint Cerf, Tim Berners-Lee, LPvg, Levinux, PuTTY, WSL, NT, Windows 10, Windows 11, Mac, Hypervisor, Intel processor, Jekyll, Google Pages, DNS, https, Cloudflare, CSS, git repo,
-categories: git, levinux, vi, microsoft, jekyll, vim, lpvg, mac, amiga, wsl, python, linux
+categories: levinux, amiga, microsoft, jekyll, mac, wsl, python, vi, git, vim, linux, lpvg
 permalink: /blog/bram-moolenaar-s-death-is-a-kick-in-the-pants-for-mykoz-ai-project/
 layout: post
 group: blog
@@ -392,15 +392,15 @@ items from my to-do list. Maybe today!
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/vi/'>vi</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
 <li><h4><a href='/mac/'>Mac</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/vi/'>vi</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>

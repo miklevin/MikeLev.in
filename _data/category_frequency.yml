@@ -1148,6 +1148,9 @@ dictitems:
   anderson:
     count: 1
     title: Anderson
+  andrew yang:
+    count: 1
+    title: Andrew Yang
   android:
     count: 2
     title: Android
@@ -5567,6 +5570,9 @@ dictitems:
   elder seo mike levin:
     count: 1
     title: Elder SEO Mike Levin
+  election:
+    count: 1
+    title: election
   electrameccanica's solo:
     count: 1
     title: ElectraMeccanica's SOLO
@@ -5627,6 +5633,9 @@ dictitems:
   eliezer yudkowsky:
     count: 1
     title: Eliezer Yudkowsky
+  eliminating:
+    count: 1
+    title: eliminating
   elite:
     count: 1
     title: Elite
@@ -6453,8 +6462,8 @@ dictitems:
     count: 1
     title: Fibonacci Spiral
   fiction:
-    count: 1
-    title: Fiction
+    count: 2
+    title: fiction
   fictional:
     count: 2
     title: Fictional
@@ -6788,6 +6797,9 @@ dictitems:
   forward:
     count: 1
     title: forward
+  forward party:
+    count: 1
+    title: Forward Party
   forward slashes:
     count: 1
     title: Forward Slashes
@@ -8709,7 +8721,7 @@ dictitems:
     count: 1
     title: Increase
   incumbent:
-    count: 2
+    count: 3
     title: Incumbents
   indented:
     count: 1
@@ -11399,6 +11411,9 @@ dictitems:
   media assets:
     count: 1
     title: Media Assets
+  media campaign:
+    count: 1
+    title: media campaign
   media company:
     count: 1
     title: Media Company
@@ -14333,6 +14348,9 @@ dictitems:
   previous/next blog:
     count: 1
     title: previous/next blog
+  primary:
+    count: 1
+    title: primaries
   primary key:
     count: 1
     title: primary key
@@ -15431,6 +15449,9 @@ dictitems:
   reflection:
     count: 2
     title: Reflection
+  reform:
+    count: 1
+    title: reform
   refresh:
     count: 1
     title: Refresh
@@ -17679,8 +17700,8 @@ dictitems:
     count: 1
     title: Stat
   state:
-    count: 1
-    title: State
+    count: 2
+    title: states
   staten island:
     count: 3
     title: Staten Island
