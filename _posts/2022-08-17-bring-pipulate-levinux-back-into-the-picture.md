@@ -4,7 +4,7 @@ title: Bring Pipulate & Levinux Back Into The Picture
 headline: Restructuring My Website and Bringing Levinux & Pipulate Into the Spotlight
 description: I'm restructuring my MikeLev.in website, developing Pipulate.com, and upgrading my CMS system. I'm also aware of the need to make Levinux and Pipulate more mainstream, and to get back my PyPI account access. Join me as I work to make these changes and more!
 keywords: MikeLev.in, Levinux, Pipulate.com, CMS, PyPI, Restructuring, Developing, Upgrading, Mainstream, Rebasing
-categories: levinux, pypi
+categories: pypi, levinux
 permalink: /blog/bring-pipulate-levinux-back-into-the-picture/
 layout: post
 group: blog
@@ -53,5 +53,5 @@ Okay, the old CMS skite repo is safe, but I have to revisit very soon.
 ## Categories
 
 <ul>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/pypi/'>PyPI</a></h4></li></ul>
+<li><h4><a href='/pypi/'>PyPI</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>
