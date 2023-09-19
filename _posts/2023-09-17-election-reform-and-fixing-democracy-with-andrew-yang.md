@@ -24,7 +24,7 @@ primaries, and independents are locked out.
 Fixing democracy by eliminating party primaries. Start with 5 states for a $200
 million media campaign.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/the-opening-to-the-book-nomadic-roots/">The Opening To The Book: Nomadic Roots</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

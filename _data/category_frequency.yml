@@ -813,8 +813,8 @@ dictitems:
     count: 1
     title: age 26
   agency:
-    count: 3
-    title: Agency
+    count: 4
+    title: agency
   agent:
     count: 1
     title: Agents
@@ -1013,6 +1013,9 @@ dictitems:
   all.sh:
     count: 1
     title: all.sh
+  alliance:
+    count: 1
+    title: alliance
   alpha:
     count: 2
     title: Alpha
@@ -1656,7 +1659,7 @@ dictitems:
     count: 1
     title: Automount
   autonomy:
-    count: 3
+    count: 4
     title: Autonomy
   autosuggest:
     count: 1
@@ -2336,6 +2339,9 @@ dictitems:
   bootstrap:
     count: 2
     title: bootstrap
+  border:
+    count: 1
+    title: borders
   boredom:
     count: 1
     title: Boredom
@@ -2930,6 +2936,9 @@ dictitems:
   cheap:
     count: 1
     title: Cheap
+  cheap energy:
+    count: 1
+    title: cheap energy
   cheaper:
     count: 1
     title: cheaper
@@ -5474,6 +5483,9 @@ dictitems:
   echo:
     count: 2
     title: Echo
+  ecologically friendly:
+    count: 1
+    title: ecologically friendly
   economic:
     count: 1
     title: Economic
@@ -5702,6 +5714,9 @@ dictitems:
   emerging:
     count: 1
     title: Emerging
+  eminent domain:
+    count: 1
+    title: eminent domain
   emit signals:
     count: 1
     title: emit signals
@@ -6737,6 +6752,9 @@ dictitems:
   fooled twice:
     count: 1
     title: Fooled Twice
+  foot:
+    count: 1
+    title: feet
   for loop:
     count: 1
     title: for loop
@@ -6819,7 +6837,7 @@ dictitems:
     count: 1
     title: Found
   foundation:
-    count: 3
+    count: 4
     title: Foundation
   foundation series:
     count: 1
@@ -7499,6 +7517,9 @@ dictitems:
   gom jabbar:
     count: 1
     title: Gom Jabbar
+  good breeding:
+    count: 1
+    title: good breeding
   good friday:
     count: 1
     title: Good Friday
@@ -7754,6 +7775,9 @@ dictitems:
   gravitational waves:
     count: 1
     title: Gravitational Waves
+  gravity well:
+    count: 1
+    title: gravity well
   great barrier reef:
     count: 1
     title: Great Barrier Reef
@@ -8480,6 +8504,9 @@ dictitems:
   humor:
     count: 1
     title: Humor
+  hunter gatherer:
+    count: 1
+    title: hunter gatherer
   hybrid sync:
     count: 1
     title: Hybrid Sync
@@ -8757,7 +8784,7 @@ dictitems:
     count: 1
     title: Indiana
   individual:
-    count: 3
+    count: 4
     title: Individual
   individuality:
     count: 1
@@ -9932,9 +9959,15 @@ dictitems:
   lan parties:
     count: 1
     title: LAN parties
+  land:
+    count: 1
+    title: land
   land lords:
     count: 1
     title: Land Lords
+  landlord:
+    count: 1
+    title: landlords
   language:
     count: 14
     title: Language
@@ -10026,8 +10059,8 @@ dictitems:
     count: 1
     title: Laverne and Shirley
   law:
-    count: 1
-    title: Law
+    count: 2
+    title: laws
   law enforcement:
     count: 1
     title: Law Enforcement
@@ -10035,8 +10068,8 @@ dictitems:
     count: 1
     title: Lawrence Livermore National Laboratory
   lawyer:
-    count: 1
-    title: Lawyer
+    count: 2
+    title: lawyers
   layout:
     count: 3
     title: layout
@@ -10221,7 +10254,7 @@ dictitems:
     count: 1
     title: Lifelong Learning
   lifestyle:
-    count: 2
+    count: 3
     title: lifestyle
   light:
     count: 1
@@ -10241,6 +10274,9 @@ dictitems:
   like:
     count: 1
     title: Likes
+  like-minded communities:
+    count: 1
+    title: like-minded communities
   lily:
     count: 1
     title: Lily
@@ -10856,6 +10892,9 @@ dictitems:
   lundervand.com:
     count: 2
     title: lundervand.com
+  luxury recreational vehicle:
+    count: 1
+    title: luxury recreational vehicle
   lxc:
     count: 6
     title: LXC
@@ -11940,8 +11979,8 @@ dictitems:
     count: 1
     title: Modern SEO
   modern technology:
-    count: 1
-    title: Modern Technology
+    count: 2
+    title: modern technology
   modified:
     count: 1
     title: modified
@@ -12014,6 +12053,9 @@ dictitems:
   morning pages:
     count: 1
     title: Morning Pages
+  mortality:
+    count: 1
+    title: mortality
   mortgage:
     count: 1
     title: Mortgage
@@ -12648,7 +12690,7 @@ dictitems:
     count: 1
     title: Nokia
   nomadic:
-    count: 2
+    count: 3
     title: Nomadic
   nomadic computing:
     count: 1
@@ -13281,8 +13323,8 @@ dictitems:
     count: 2
     title: overwrite
   ownership:
-    count: 1
-    title: Ownership
+    count: 2
+    title: ownership
   oz:
     count: 4
     title: Oz
@@ -13541,6 +13583,9 @@ dictitems:
   pdf:
     count: 1
     title: PDF
+  peaceful revolution:
+    count: 1
+    title: peaceful revolution
   peano axioms:
     count: 1
     title: Peano Axioms
@@ -13926,7 +13971,7 @@ dictitems:
     count: 1
     title: Planck-Unit
   planet:
-    count: 3
+    count: 4
     title: Planet
   planetary orbits:
     count: 1
@@ -13937,6 +13982,9 @@ dictitems:
   planning:
     count: 2
     title: Planning
+  planting roots:
+    count: 1
+    title: planting roots
   plantuml:
     count: 1
     title: PlantUML
@@ -14069,6 +14117,9 @@ dictitems:
   poorly documented:
     count: 1
     title: Poorly Documented
+  pop-up communities:
+    count: 1
+    title: pop-up communities
   popcultfallacy:
     count: 1
     title: Popcultfallacy
@@ -14184,7 +14235,7 @@ dictitems:
     count: 1
     title: Powder of Life
   power:
-    count: 4
+    count: 5
     title: Power
   power good:
     count: 1
@@ -15806,6 +15857,9 @@ dictitems:
   rethinking:
     count: 1
     title: Rethinking
+  retiree:
+    count: 1
+    title: retirees
   retirement:
     count: 2
     title: Retirement
@@ -16092,8 +16146,8 @@ dictitems:
     count: 1
     title: Ruby on Rails
   rule:
-    count: 1
-    title: rule
+    count: 2
+    title: rules
   rule-based:
     count: 1
     title: rule-based
@@ -16314,8 +16368,8 @@ dictitems:
     count: 1
     title: Science Camp Watonka
   science fiction:
-    count: 1
-    title: Science Fiction
+    count: 2
+    title: science fiction
   science-fiction:
     count: 1
     title: Science-Fiction
@@ -16772,6 +16826,9 @@ dictitems:
   settings.ini:
     count: 4
     title: settings.ini
+  settling:
+    count: 1
+    title: settling
   setup:
     count: 3
     title: Setup
@@ -18495,7 +18552,7 @@ dictitems:
     count: 1
     title: team
   tech:
-    count: 16
+    count: 17
     title: Tech
   tech career:
     count: 1
@@ -19178,6 +19235,9 @@ dictitems:
   trevor:
     count: 1
     title: Trevor
+  tribal:
+    count: 1
+    title: tribal
   tribe:
     count: 1
     title: Tribe
@@ -19298,6 +19358,9 @@ dictitems:
   tweet:
     count: 2
     title: Tweets
+  twenty-somethings:
+    count: 1
+    title: twenty-somethings
   twisted bilayer graphene:
     count: 1
     title: Twisted Bilayer Graphene
@@ -20159,6 +20222,9 @@ dictitems:
   vortex:
     count: 1
     title: Vortexes
+  vote:
+    count: 1
+    title: vote
   vp:
     count: 1
     title: VP
