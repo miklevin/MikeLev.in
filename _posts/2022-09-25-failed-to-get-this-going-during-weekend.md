@@ -4,7 +4,7 @@ title: Failed To Get This Going During Weekend
 headline: "Failed Attempt at Multi-OS Project: My Experience and Challenges"
 description: I tried to get a project going this weekend, involving cycling IPs and installing the latest JupyterLab-Desktop, but I failed. Instead, I decided to stay on Linux and communicate with files. This project is split across multiple OSes, with a Python busy loop Windows-side without Jupyter. Read my blog post to learn more about my experience and the challenges I faced!
 keywords: Cycling IPs, JupyterLab-Desktop, Linux, Files, OSes, Python, Busy Loop, Windows-side, StackOverflow, Challenges, Experience
-categories: linux, python
+categories: python, linux
 permalink: /blog/failed-to-get-this-going-during-weekend/
 layout: post
 group: blog
@@ -93,5 +93,5 @@ communicating via files. Make a Python busy loop Windows-side without Jupyter.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
