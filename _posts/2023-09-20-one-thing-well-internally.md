@@ -21,13 +21,14 @@ Introspection is required.
 
 Most easily found paths lead you onto the hamster wheel, chasing external goals
 like accumulating money or owning a house. But what if the exchange rate for
-internal skills you carry around inside of you have great exchange rates,
-beating inflation and remove the ties that bind you to place and
-responsibilities?
+internal skills you carry around inside of you always works to your advantage,
+beating inflation and removing the ties that typically bind you to place and
+role? 
 
 What if these skills go with you wherever you go, apply to any situation in
 which you might find yourself, and give you the satisfaction of a job well done
-and the security of newly acquired resources in your pocket?
+and the security of knowing you can always convert it into newly acquired
+resources in your pocket?
 
 The book I've started writing over the past few posts requires me to practice
 what I preach. I have built these internal skills over a decade or more at this
