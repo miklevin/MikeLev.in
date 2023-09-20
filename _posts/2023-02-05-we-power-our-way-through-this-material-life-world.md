@@ -4,7 +4,7 @@ title: We Power Our Way Through This Material Life & World
 headline: "Power Your Life: Find Joy in Pursuing Your Passions and Engaging with the Material World."
 description: As an individual, I believe it's important to make the most of our lives and pursue our passions. We should be mindful of becoming overly reliant on AI and vendor services, and instead take joy in the economic product that comes from doing what we love and engaging with the material world. Click through to learn more about how to make the most of your life!
 keywords: Life, Passion, AI, Vendor Services, Economic Product, Individual, Pursue, Craft, Material World, Engage, Unique Interests, Dependent, Joy, Production, Pursuing
-categories: ai, joy
+categories: joy, ai
 permalink: /blog/we-power-our-way-through-this-material-life-world/
 layout: post
 group: blog
@@ -57,5 +57,5 @@ material world, in a way that you love.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/joy/'>Joy</a></h4></li></ul>
+<li><h4><a href='/joy/'>Joy</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
