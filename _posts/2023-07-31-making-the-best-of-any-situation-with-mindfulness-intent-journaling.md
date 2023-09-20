@@ -4,7 +4,7 @@ title: Making The Best of Any Situation with Mindfulness, Intent & Journaling
 headline: Making the Best of Life with Mindfulness, Intent & Journaling
 description: Make the best of any situation with mindfulness, intent, and journaling. I've been journaling for 30 years and have developed a timeless solution that will help you in all walks of life. Create a Linux subsystem on whatever hardware you're using and get good at things there, and it can never be taken away.
 keywords: Mindfulness, Intent, Journaling, Writing, Solution, Linux, Subsystem, Hardware, Life, Timeless, Discipline, Media, Selection, Evolved
-categories: journaling, linux
+categories: linux, journaling
 permalink: /blog/making-the-best-of-any-situation-with-mindfulness-intent-journaling/
 layout: post
 group: blog
@@ -64,5 +64,5 @@ group: blog
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

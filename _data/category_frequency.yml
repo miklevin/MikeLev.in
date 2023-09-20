@@ -698,6 +698,9 @@ dictitems:
   add:
     count: 3
     title: Add
+  addiction:
+    count: 1
+    title: Addiction
   addictive:
     count: 1
     title: Addictive
@@ -840,7 +843,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 115
+    count: 116
     title: AI
   ai apocalypse:
     count: 1
@@ -1026,7 +1029,7 @@ dictitems:
     count: 1
     title: Alpha to Omega
   alphabet:
-    count: 1
+    count: 2
     title: Alphabet
   alphabetize:
     count: 1
@@ -2060,6 +2063,9 @@ dictitems:
   bill of materials:
     count: 1
     title: Bill of Materials
+  billionaire:
+    count: 1
+    title: Billionaire
   billy:
     count: 2
     title: Billy
@@ -3563,6 +3569,9 @@ dictitems:
   compounding effect:
     count: 1
     title: Compounding Effect
+  compounding interest:
+    count: 1
+    title: Compounding Interest
   compounding results:
     count: 1
     title: Compounding Results
@@ -4026,7 +4035,7 @@ dictitems:
     count: 2
     title: Craft
   craftsmanship:
-    count: 1
+    count: 2
     title: Craftsmanship
   craftspeople:
     count: 1
@@ -4941,7 +4950,7 @@ dictitems:
     count: 1
     title: Difficulty
   digital:
-    count: 2
+    count: 3
     title: Digital
   digital electronics:
     count: 1
@@ -5235,7 +5244,7 @@ dictitems:
     count: 1
     title: Doorknob
   dopamine:
-    count: 3
+    count: 4
     title: Dopamine
   dorothy:
     count: 5
@@ -5492,6 +5501,9 @@ dictitems:
   economic product:
     count: 1
     title: Economic Product
+  economic products:
+    count: 1
+    title: Economic Products
   economic value:
     count: 2
     title: Economic Value
@@ -5877,7 +5889,7 @@ dictitems:
     count: 1
     title: Entrepreneur
   entrepreneurial:
-    count: 1
+    count: 2
     title: Entrepreneurial
   entropy:
     count: 2
@@ -6095,6 +6107,9 @@ dictitems:
   exception handling:
     count: 1
     title: Exception Handling
+  exchange rate:
+    count: 1
+    title: Exchange Rate
   exec command:
     count: 1
     title: Exec Command
@@ -6206,6 +6221,9 @@ dictitems:
   export:
     count: 1
     title: Export
+  exposure:
+    count: 1
+    title: Exposure
   express:
     count: 4
     title: Express
@@ -7419,7 +7437,7 @@ dictitems:
     count: 1
     title: Gl
   glass:
-    count: 1
+    count: 2
     title: Glass
   glinda of oz:
     count: 1
@@ -7485,7 +7503,7 @@ dictitems:
     count: 1
     title: go viral
   goal:
-    count: 9
+    count: 10
     title: Goals
   goat meat:
     count: 1
@@ -7736,6 +7754,9 @@ dictitems:
   graham's number:
     count: 1
     title: Graham's Number
+  grammar:
+    count: 1
+    title: Grammar
   grand canyon:
     count: 1
     title: Grand Canyon
@@ -8400,8 +8421,8 @@ dictitems:
     count: 2
     title: Hotkeys
   house:
-    count: 1
-    title: house
+    count: 2
+    title: House
   household:
     count: 1
     title: Household
@@ -9125,6 +9146,9 @@ dictitems:
   internal resources:
     count: 1
     title: Internal Resources
+  internal skills:
+    count: 1
+    title: Internal Skills
   internalizable-tools:
     count: 1
     title: Internalizable-Tools
@@ -9183,7 +9207,7 @@ dictitems:
     count: 1
     title: intro screens
   introspection:
-    count: 1
+    count: 2
     title: Introspection
   introvert:
     count: 1
@@ -11487,7 +11511,7 @@ dictitems:
     count: 2
     title: Meditations
   medium:
-    count: 3
+    count: 4
     title: Media
   meet:
     count: 1
@@ -12012,7 +12036,7 @@ dictitems:
     count: 1
     title: Monetize
   money:
-    count: 8
+    count: 9
     title: Money
   mongodb:
     count: 2
@@ -14271,7 +14295,7 @@ dictitems:
     count: 1
     title: PR
   practice:
-    count: 4
+    count: 5
     title: Practice
   practice directory:
     count: 1
@@ -16593,7 +16617,7 @@ dictitems:
     count: 1
     title: Self-Determinacy
   self-discipline:
-    count: 1
+    count: 2
     title: Self-Discipline
   self-discovery:
     count: 1
@@ -17567,6 +17591,9 @@ dictitems:
   spoken language:
     count: 1
     title: Spoken Language
+  spoken languages:
+    count: 1
+    title: Spoken Languages
   spotify:
     count: 1
     title: Spotify
@@ -18378,8 +18405,8 @@ dictitems:
     count: 1
     title: Synology NAS
   syntax:
-    count: 2
-    title: syntax
+    count: 3
+    title: Syntax
   syntax highlighting:
     count: 1
     title: syntax highlighting
@@ -18935,6 +18962,9 @@ dictitems:
   timeless:
     count: 4
     title: Timeless
+  timeless craft:
+    count: 1
+    title: Timeless Craft
   timeless design patterns:
     count: 1
     title: Timeless Design Patterns
@@ -20681,6 +20711,9 @@ dictitems:
   wonderland:
     count: 1
     title: Wonderland
+  woodworking:
+    count: 1
+    title: Woodworking
   woogle:
     count: 1
     title: Woogle

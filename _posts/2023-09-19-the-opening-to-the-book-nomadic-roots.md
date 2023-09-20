@@ -109,7 +109,7 @@ transitioned from nomadic tribes to settled farming to the industrial age.
 We've "worn" these different states of being like clothing, and they have not
 always been comfortable. None of them to everyone.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/election-reform-and-fixing-democracy-with-andrew-yang/">Election Reform and Fixing Democracy with Andrew Yang</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/election-reform-and-fixing-democracy-with-andrew-yang/">Election Reform and Fixing Democracy with Andrew Yang</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/one-thing-well-internally/">One Thing Well, Internally</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

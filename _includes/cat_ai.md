@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/one-thing-well-internally/">One Thing Well, Internally</a> (Wed Sep 20, 2023)
+<br/>I'm proposing a different approach to success – one that focuses on developing internal skills rather than external rewards. Through timeless crafts such as woodworking or glassworking but the tech equivalents, you can acquire the skills necessary to achieve economic freedom and satisfaction. With patience and self-discipline, you can develop these skills and gain the satisfaction of a job well done. Unlock the power of compounding returns through timeless internal skills.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)
 <br/>As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.</li>
 <li><a href="/blog/refining-the-mykoz-ai-vision-in-prep-for-soft-launch/">Refining the MyKoz.AI Vision in Prep for Soft Launch</a> (Sun Aug 27, 2023)
