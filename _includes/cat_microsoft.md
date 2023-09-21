@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a> (Thu Sep 21, 2023)
+<br/>Learn to write with vim, the timeless text editor, and master the craft of information technology. With vim, you can develop long-term skills and enjoy the satisfaction of mastering a craft that will remain valuable throughout your life.</li>
 <li><a href="/blog/internalizing-the-tools-of-your-trade-that-are-timeless-to-boot/">Internalizing the Tools of Your Trade That are Timeless to Boot</a> (Tue Sep 05, 2023)
 <br/>I'm a firm believer in learning the timeless tools of your trade, rather than relying on high-dependency power-tools. My journey through coding languages has led me to appreciate the advantages of Python, which is now the lingua franca of tech. I've also come to understand the importance of learning to code in a text editor, like Vim, that is not subject to the whims of its creator. Empower yourself by internalizing the tools of your trade that are timeless to boot.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)

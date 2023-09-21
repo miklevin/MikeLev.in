@@ -4,7 +4,7 @@ title: Jekyll Minimum Layout Default HTML Stripped Down for Github Pages
 headline: I Just Stripped Down the Default HTML for My Github Pages Site Launch!
 description: Learn how to create a small static website with Jekyll and Github Pages. I'm taking a minimalist approach, stripping away the unnecessary JavaScript and CSS frameworks and coding up a styles.css file by hand. I'm also documenting the process, so you can follow along and launch your own site.
 keywords: Jekyll, Minimum, Layout, Default, HTML, Stripped, Down, Github, Pages, JavaScript, CSS, Framework, Buy-in, Spiritual, Opinionated, Fads, Platform, Wars, Styles.css, Markdown, Static, Site, Generators, SSG's, Text, Editing, Power, Web, Publishing, DNS, Twitch, YouTube, Live-stream, 80/20-Rule, Strength, Couch, Potato, Format, AI, Automation,
-categories: ai, jekyll, 80/20-rule, git, javascript, html, youtube
+categories: git, jekyll, youtube, javascript, ai, html, 80/20-rule
 permalink: /blog/jekyll-minimum-layout-default-html-stripped-down-for-github-pages/
 layout: post
 group: blog
@@ -178,10 +178,10 @@ Now we can start building up from there with the `_config.yml` file and
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/youtube/'>YouTube</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/youtube/'>YouTube</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>

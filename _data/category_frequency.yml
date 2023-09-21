@@ -1092,7 +1092,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 11
+    count: 12
     title: Amiga
   amiga computer:
     count: 1
@@ -1172,6 +1172,9 @@ dictitems:
   anglerfish:
     count: 1
     title: Anglerfish
+  angular:
+    count: 1
+    title: Angular
   animal:
     count: 1
     title: Animals
@@ -1290,7 +1293,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 12
+    count: 13
     title: Apple
   apple app store:
     count: 1
@@ -1530,8 +1533,8 @@ dictitems:
     count: 1
     title: Atlanta
   atom:
-    count: 2
-    title: Atoms
+    count: 3
+    title: Atom
   atomic:
     count: 1
     title: Atomic
@@ -4035,7 +4038,7 @@ dictitems:
     count: 2
     title: Craft
   craftsmanship:
-    count: 2
+    count: 3
     title: Craftsmanship
   craftspeople:
     count: 1
@@ -4307,6 +4310,9 @@ dictitems:
   cygnus standard:
     count: 1
     title: Cygnus Standard
+  cygnused:
+    count: 1
+    title: CygnusEd
   cyndi grecco:
     count: 1
     title: Cyndi Grecco
@@ -5546,6 +5552,9 @@ dictitems:
   editing human embryos:
     count: 1
     title: Editing Human Embryos
+  editplus:
+    count: 1
+    title: EditPlus
   education:
     count: 7
     title: Education
@@ -7557,7 +7566,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 28
+    count: 29
     title: Google
   google analytics:
     count: 14
@@ -8595,7 +8604,7 @@ dictitems:
     count: 1
     title: Ida B. Wells-Barnett
   ide:
-    count: 1
+    count: 2
     title: IDE
   idea:
     count: 11
@@ -8627,6 +8636,9 @@ dictitems:
   identity theft:
     count: 1
     title: Identity Theft
+  ides:
+    count: 1
+    title: IDEs
   if:
     count: 1
     title: if
@@ -8889,8 +8901,8 @@ dictitems:
     count: 1
     title: Informed
   infotech:
-    count: 1
-    title: Infotech
+    count: 2
+    title: InfoTech
   ingredient:
     count: 1
     title: Ingredients
@@ -9389,6 +9401,9 @@ dictitems:
   javascript:
     count: 25
     title: JavaScript
+  javascript framework:
+    count: 1
+    title: JavaScript Framework
   javascript-based analytics:
     count: 1
     title: JavaScript-based analytics
@@ -9783,7 +9798,7 @@ dictitems:
     count: 1
     title: key/value pairs
   keyboard:
-    count: 4
+    count: 5
     title: Keyboard
   keyboard shortcut:
     count: 2
@@ -11703,7 +11718,7 @@ dictitems:
     count: 1
     title: Microkernel
   microsoft:
-    count: 60
+    count: 61
     title: Microsoft
   microsoft 365:
     count: 2
@@ -12252,7 +12267,7 @@ dictitems:
     count: 1
     title: Murphy's Law
   muscle memory:
-    count: 13
+    count: 14
     title: Muscle Memory
   muscle-memory:
     count: 1
@@ -15341,6 +15356,9 @@ dictitems:
   reach out:
     count: 1
     title: Reach Out
+  react:
+    count: 1
+    title: React
   reactjs:
     count: 2
     title: ReactJS
@@ -18140,6 +18158,9 @@ dictitems:
   subjective experience:
     count: 2
     title: Subjective Experience
+  sublime:
+    count: 1
+    title: Sublime
   sublime text:
     count: 1
     title: Sublime Text
@@ -18747,7 +18768,7 @@ dictitems:
     count: 3
     title: Text Editing
   text editor:
-    count: 10
+    count: 11
     title: Text Editor
   text editors:
     count: 7
@@ -18797,6 +18818,9 @@ dictitems:
   textile quality assurance:
     count: 1
     title: Textile Quality Assurance
+  textmate:
+    count: 1
+    title: TextMate
   tftp:
     count: 1
     title: Tftp
@@ -19118,6 +19142,9 @@ dictitems:
   total links:
     count: 1
     title: Total Links
+  touch screen:
+    count: 1
+    title: Touch Screen
   touch typing:
     count: 1
     title: Touch Typing
@@ -19430,6 +19457,9 @@ dictitems:
   typer:
     count: 1
     title: Typer
+  typewriter:
+    count: 1
+    title: Typewriter
   typing:
     count: 1
     title: Typing
@@ -20043,7 +20073,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 130
+    count: 131
     title: Vim
   vim buffer:
     count: 1
@@ -20270,6 +20300,9 @@ dictitems:
   vscodium:
     count: 1
     title: VSCodium
+  vue:
+    count: 1
+    title: Vue
   vulnerability:
     count: 1
     title: Vulnerability
@@ -20610,7 +20643,7 @@ dictitems:
     count: 1
     title: Win10_1809Oct_v2_English_x64.iso
   window:
-    count: 85
+    count: 86
     title: Windows
   windows 10:
     count: 29
@@ -20823,7 +20856,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 34
+    count: 35
     title: Writing
   writing code:
     count: 1

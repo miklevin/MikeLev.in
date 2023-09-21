@@ -113,7 +113,7 @@ a perfect example of a tool you're not born with, but through exposure, the
 necessity to use and practice becomes internalized. 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-opening-to-the-book-nomadic-roots/">The Opening To The Book: Nomadic Roots</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-opening-to-the-book-nomadic-roots/">The Opening To The Book: Nomadic Roots</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a> (Thu Sep 21, 2023)
+<br/>Learn to write with vim, the timeless text editor, and master the craft of information technology. With vim, you can develop long-term skills and enjoy the satisfaction of mastering a craft that will remain valuable throughout your life.</li>
 <li><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a> (Sat Sep 16, 2023)
 <br/>Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.</li>
 <li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)

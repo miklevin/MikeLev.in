@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a> (Thu Sep 21, 2023)
+<br/>Learn to write with vim, the timeless text editor, and master the craft of information technology. With vim, you can develop long-term skills and enjoy the satisfaction of mastering a craft that will remain valuable throughout your life.</li>
 <li><a href="/blog/google-conversational-search-vs-bing-chat-no-contest/">Google Conversational Search vs Bing Chat (No Contest)</a> (Fri Sep 01, 2023)
 <br/>I was curious how well Google and Bing would be able to tell me this esoteric little detail about where the Github Copilot plug-in for NeoVim stored its authentication details. The writing is on the wall. The wall being this blog post, and the writing being Bing's formatted results.</li>
 <li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)

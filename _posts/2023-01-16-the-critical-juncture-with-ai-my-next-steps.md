@@ -4,7 +4,7 @@ title: The Critical Juncture With AI & My Next Steps
 headline: Exploring Artificial Intelligence and Taking Action - My Journey on the Wave of Change
 description: I'm exploring the possibilities of Artificial Intelligence and taking action to stay on top of the wave. To ensure ethical use of my content, I have written a Machine Learning General License (MLGL) and included it on my website. I'm working hard to create unique content for ChatGPT and Pipulate.com/software, and am experimenting with tokenizing, keyword clustering, and quickly looking up response objects.
 keywords: AI, Artificial Intelligence, Machine Learning, MLGL, ChatGPT, Pipulate.com, Software, Tokenizing, Keyword Clustering, Response Objects, Python, Pandas, Pathlib, Filemap
-categories: panda, ai, python
+categories: panda, python, ai
 permalink: /blog/the-critical-juncture-with-ai-my-next-steps/
 layout: post
 group: blog
@@ -116,5 +116,5 @@ for file in Path(f"parquet").glob("*.parquet"):
 
 <ul>
 <li><h4><a href='/panda/'>Pandas</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
