@@ -4,7 +4,7 @@ title: From Registered Domain to Bare Minimum Site 100% Free & From Scratch in 1
 headline: I Launched a Site 100% From Scratch and Free in Under an Hour!
 description: Launch a website 100% from scratch and free in under an hour! Follow along as I create a site with a static site generator, setting up DNS records, creating a repo, and deploying a bare minimum HTML page. Learn how to use GitHub Pages to create a website and make it live.
 keywords: Registered Domain, Bare Minimum Site, Free, Scratch, Launch, Marketed, Meme-fied, Source of Income, AI-automation, User Interface, Original Thought, New Ideas, AI, Uncompressible, Jekyll, Static Site Generator, Contrarian Methods, Static Site, Plain Text Files, MikeLev.in, MyKoz.AI, Funnel, Messaging, Optimized, Grow, Tribe, Domain Registrar, DNS, Apex Domain
-categories: jekyll, static site generator, ai
+categories: ai, jekyll, static site generator
 permalink: /blog/from-registered-domain-to-bare-minimum-site-100-free-from-scratch-in-1-hour/
 layout: post
 group: blog
@@ -188,6 +188,6 @@ under an hour.
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li></ul>

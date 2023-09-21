@@ -4,7 +4,7 @@ title: ChatGPT Helped Python Tweepy my Tweets Onto My Website
 headline: Successfully Pulled 3K of My 11K Tweets Using Python and ChatGPT!
 description: I used the Python package Tweepy and the ChatGPT assisted coding session to successfully access the Twitter API and pull 3K of my 11K tweets since 2007. I've posted the code on my website, and I've also created a CSV file of all the tweets I pulled. Come check out my website to see how I did it!
 keywords: ChatGPT, Python, Tweepy, Twitter, API, Coding, Session, Website, CSV, File, Code, Pull, 3K, 11K, 2007
-categories: twitter, coding, python, ai, panda
+categories: ai, panda, twitter, coding, python
 permalink: /blog/chatgpt-helped-python-tweepy-my-tweets-onto-my-website/
 layout: post
 group: blog
@@ -112,8 +112,8 @@ print("Done")
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/panda/'>Pandas</a></h4></li>
 <li><h4><a href='/twitter/'>Twitter</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/panda/'>Pandas</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>
