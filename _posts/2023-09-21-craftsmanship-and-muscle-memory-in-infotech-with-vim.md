@@ -4,7 +4,7 @@ title: Craftsmanship and Muscle Memory in InfoTech with vim
 headline: "Don't Let Your Tools Obsolete You: My Journey to Mastering Vim for Lifelong Tech Craftsmanship"
 description: Learn to write with vim, the timeless text editor, and master the craft of information technology. With vim, you can develop long-term skills and enjoy the satisfaction of mastering a craft that will remain valuable throughout your life.
 keywords: InfoTech, Text Editor, Writing, Craftsmanship, Muscle Memory, Keyboard, Touch Screen, Microsoft, Apple, Google, Typewriter, Angular, React, Vue, JavaScript Framework, IDE, CygnusEd, Amiga, EditPlus, Windows, TextMate, Sublime, Atom, IDEs, Vim
-categories: vim, muscle memory, amiga, text editor, google, microsoft
+categories: google, muscle memory, vim, text editor, amiga, microsoft
 permalink: /blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/
 layout: post
 group: blog
@@ -65,21 +65,24 @@ How many in web development today would have taken a different path had they
 known each subject of their passion had an expiration date: Angular, React,
 Vue, or whatever other JavaScript framework they needed to take up requiring
 years of commitment to master, along with whatever associated integrated
-development environment was necessary, was going to become yesterday's news?
+development environment was necessary. They become yesterday's news. 
+
 There's a notion that you make it big young and have some sort of exit, which
 is fine if that's your vibe. But what about the rest of your life? Such an
-approach can be problematic if you're in it for the love of craft.
+approach can be problematic if you're in it for the love of craft. Why can't
+information be like wood or glass? Information and the storage devices on which
+it persists is the medium. The text editor or IDE is the tool. The mediums
+don't change that much. But the tools do at an unending and dispiriting pace.
 
-So must those who love long-term skills and the long-game of forever improving
-at your craft stay away from infotech entirely due to its volatile nature? Not
-if you can get over the initial boring initiation into the timeless tools of
-tech that has all the appeal of watching paint dry... at first. You can think
-of learning these tools as similar to learning to walk, ride a bicycle or drive
-a car. They all have steep initial learning curves that the impatient and
-shortsighted might turn away from due to that initial difficulty. But we all
-learn to walk due to necessity, but not everyone learns to ride a bicycle or
-drive a car, because that dire necessity is not there if you can get along
-without it.
+So must those who love long-term skills tied to tools and forever improving
+muscle memory stay away from infotech entirely? Not if you can get over the
+initial boring initiation into the timeless tools of tech that has all the
+appeal of watching paint dry... at first. You can think of learning these tools
+as similar to learning to walk, ride a bicycle or drive a car. They all have
+steep initial learning curves that the impatient and shortsighted might turn
+away from due to that initial difficulty. But we all learn to walk due to
+necessity, but not everyone learns to ride a bicycle or drive a car, because
+that dire necessity is not there if you can get along without it.
 
 But so many of us do take those steps because the reward is great enough. We
 can visualize and imagine ourselves as more capable people, better off and in
@@ -159,9 +162,9 @@ of the next big thing. Yet, vim persists.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li>
-<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

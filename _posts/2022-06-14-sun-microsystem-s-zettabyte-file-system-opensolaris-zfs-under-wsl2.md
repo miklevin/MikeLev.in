@@ -4,7 +4,7 @@ title: Sun Microsystem's Zettabyte File System (OpenSolaris ZFS) Under WSL2
 headline: Successfully Installed Sun Microsystems' Zettabyte File System (OpenSolaris ZFS) on WSL2 to Access Best Developer Tools.
 description: I'm installing OpenSolaris ZFS as part of a larger effort to have access to all the best developer stuff on my Linux WSL2 system. I ran into some errors while trying to get LXC and LXD running, but I was able to get everything working with the help of the 'wsl --help' command. I'm excited to have LXD running under WSL and am looking forward to the next livestream which will be about developing Linux system services with LXD.
 keywords: Sun Microsystems, Zettabyte File System, OpenSolaris, ZFS, WSL2, Linux, LXC, LXD, 'wsl --help', Windows Subsystem, Oracle, Solaris, ICs, SNAP store, Docker, systemd, 'lxd init', livestream, blog
-categories: wsl, lxc, systemd, container, linux
+categories: lxc, systemd, wsl, container, linux
 permalink: /blog/sun-microsystem-s-zettabyte-file-system-opensolaris-zfs-under-wsl2/
 layout: post
 group: blog
@@ -355,8 +355,8 @@ local Linux playgrounds for Linux system service (daemon) development.
 ## Categories
 
 <ul>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/lxc/'>LXC</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li></ul>
