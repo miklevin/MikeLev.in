@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/a-short-stack-of-broadly-applicable-tools-of-astounding-longevity/">A Short Stack Of Broadly Applicable Tools Of Astounding Longevity</a> (Sat Sep 23, 2023)
+<br/>I continue to flesh out my book in a discussion about discovering the timeless tools of technology to stay relevant and valuable in the face of a rapidly changing world, and to do it in a way that provides a lifetime of satisfaction, gratification, and economic product. Invest in yourself wisely and equip yourself with the skills to be of value in any situation.</li>
 <li><a href="/blog/one-thing-well-internally/">One Thing Well, Internally</a> (Wed Sep 20, 2023)
 <br/>I'm proposing a different approach to success – one that focuses on developing internal skills rather than external rewards. Through timeless crafts such as woodworking or glassworking but the tech equivalents, you can acquire the skills necessary to achieve economic freedom and satisfaction. With patience and self-discipline, you can develop these skills and gain the satisfaction of a job well done. Unlock the power of compounding returns through timeless internal skills.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)

@@ -303,7 +303,7 @@ dictitems:
     count: 8
     title: '2022'
   '2023':
-    count: 11
+    count: 12
     title: '2023'
   2030 agenda:
     count: 1
@@ -843,7 +843,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 116
+    count: 117
     title: AI
   ai apocalypse:
     count: 1
@@ -893,6 +893,9 @@ dictitems:
   ai-dependencies:
     count: 1
     title: AI-Dependencies
+  ai-free:
+    count: 1
+    title: AI-free
   ai-friend:
     count: 1
     title: AI-friend
@@ -1505,6 +1508,9 @@ dictitems:
   associative arrays:
     count: 1
     title: Associative Arrays
+  astounding longevity:
+    count: 1
+    title: Astounding Longevity
   astronomy:
     count: 2
     title: Astronomy
@@ -2039,6 +2045,9 @@ dictitems:
   big data-pull:
     count: 1
     title: Big Data-Pull
+  big idea:
+    count: 1
+    title: Big Idea
   big impact:
     count: 1
     title: Big Impact
@@ -2316,7 +2325,7 @@ dictitems:
     count: 1
     title: Bonsai Report
   book:
-    count: 7
+    count: 8
     title: Book
   book of 5 rings:
     count: 1
@@ -2471,6 +2480,9 @@ dictitems:
   broad interest:
     count: 1
     title: Broad Interest
+  broadly applicable:
+    count: 1
+    title: Broadly Applicable
   broadway musical:
     count: 1
     title: Broadway Musical
@@ -3315,7 +3327,7 @@ dictitems:
     count: 1
     title: Codex Sassoon
   coding:
-    count: 12
+    count: 13
     title: Coding
   coding assistant:
     count: 1
@@ -3356,6 +3368,9 @@ dictitems:
   collective consciousness:
     count: 1
     title: Collective Consciousness
+  collective wisdom:
+    count: 1
+    title: Collective Wisdom
   college:
     count: 1
     title: college
@@ -4088,8 +4103,11 @@ dictitems:
   creative:
     count: 2
     title: creative
+  creative expression:
+    count: 1
+    title: Creative Expression
   creativity:
-    count: 8
+    count: 9
     title: Creativity
   creator:
     count: 1
@@ -4500,7 +4518,7 @@ dictitems:
     count: 1
     title: Datasets
   date:
-    count: 10
+    count: 11
     title: date
   date format:
     count: 1
@@ -5322,8 +5340,8 @@ dictitems:
     count: 1
     title: Dr. Seuss
   draft:
-    count: 5
-    title: Drafts
+    count: 6
+    title: Draft
   draft posts:
     count: 1
     title: Draft Posts
@@ -6174,8 +6192,8 @@ dictitems:
     count: 1
     title: Expensive Services
   experience:
-    count: 15
-    title: Experience
+    count: 16
+    title: Experiences
   experienced user:
     count: 1
     title: Experienced User
@@ -8526,7 +8544,7 @@ dictitems:
     count: 1
     title: Humanism
   humanity:
-    count: 5
+    count: 6
     title: Humanity
   humanly accessible api-layer:
     count: 1
@@ -10248,7 +10266,7 @@ dictitems:
     count: 1
     title: Lies
   life:
-    count: 32
+    count: 33
     title: Life
   life adjustments:
     count: 1
@@ -13290,7 +13308,7 @@ dictitems:
     count: 1
     title: Origin of Consciousness
   original:
-    count: 2
+    count: 3
     title: Original
   original sites:
     count: 1
@@ -13538,6 +13556,9 @@ dictitems:
   passion project:
     count: 1
     title: Passion Project
+  passionate:
+    count: 1
+    title: Passionate
   passive income:
     count: 1
     title: Passive Income
@@ -13581,7 +13602,7 @@ dictitems:
     count: 1
     title: patient
   pattern:
-    count: 2
+    count: 3
     title: patterns
   pattern recognition:
     count: 3
@@ -14384,6 +14405,9 @@ dictitems:
   premise:
     count: 1
     title: Premise
+  preoccupation:
+    count: 1
+    title: Preoccupations
   preparation:
     count: 2
     title: Preparation
@@ -15648,7 +15672,7 @@ dictitems:
     count: 1
     title: Relevance
   relevant:
-    count: 1
+    count: 2
     title: Relevant
   relevant issues:
     count: 1
@@ -15831,7 +15855,7 @@ dictitems:
     count: 1
     title: Resolution
   resonate:
-    count: 1
+    count: 2
     title: Resonate
   resource:
     count: 5
@@ -16334,6 +16358,9 @@ dictitems:
   sat:
     count: 1
     title: Sat
+  sat sep 23:
+    count: 1
+    title: Sat Sep 23
   sat-may-28-2022:
     count: 1
     title: Sat-May-28-2022
@@ -16649,6 +16676,9 @@ dictitems:
   self-examination:
     count: 1
     title: Self-Examination
+  self-expression,:
+    count: 1
+    title: Self-Expression,
   self-grown aliens:
     count: 1
     title: Self-Grown Aliens
@@ -16982,6 +17012,9 @@ dictitems:
   short openai meta description:
     count: 1
     title: Short OpenAI Meta Description
+  short stack:
+    count: 1
+    title: Short Stack
   short-term memory:
     count: 1
     title: short-term memory
@@ -18320,6 +18353,9 @@ dictitems:
   surprise:
     count: 2
     title: Surprise
+  surprising:
+    count: 1
+    title: Surprising
   surrogate parents:
     count: 1
     title: surrogate parents
@@ -18600,7 +18636,7 @@ dictitems:
     count: 1
     title: team
   tech:
-    count: 17
+    count: 18
     title: Tech
   tech career:
     count: 1
@@ -18999,7 +19035,7 @@ dictitems:
     count: 1
     title: Timeless Tech Wizard
   timeless tools:
-    count: 1
+    count: 2
     title: Timeless Tools
   timeless-technology:
     count: 1
@@ -19020,7 +19056,7 @@ dictitems:
     count: 1
     title: tissues
   title:
-    count: 18
+    count: 19
     title: Title
   title tag:
     count: 2
@@ -19077,7 +19113,7 @@ dictitems:
     count: 1
     title: Tony Stark
   tool:
-    count: 24
+    count: 25
     title: Tools
   tool obsolescence:
     count: 1
@@ -19353,7 +19389,7 @@ dictitems:
     count: 1
     title: Trustworthiness
   truth:
-    count: 2
+    count: 3
     title: Truth
   truthiness:
     count: 1
@@ -19700,6 +19736,9 @@ dictitems:
   unknown unknowns:
     count: 1
     title: Unknown Unknowns
+  unlearned:
+    count: 1
+    title: Unlearned
   unlock:
     count: 1
     title: Unlock
@@ -19869,7 +19908,7 @@ dictitems:
     count: 1
     title: Validity
   valuable:
-    count: 3
+    count: 4
     title: Valuable
   value:
     count: 5
@@ -20856,7 +20895,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 35
+    count: 36
     title: Writing
   writing code:
     count: 1

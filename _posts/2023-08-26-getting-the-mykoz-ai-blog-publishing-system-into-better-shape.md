@@ -4,7 +4,7 @@ title: Getting the MyKoz.AI Blog Publishing System Into Better Shape
 headline: I'm refining MyKoz.AI Blog Publishing System for Prime-Time
 description: This is a discussion of my improvements to the blog publishing system built into MyKoz.AI to make it easier for new users. I'm doing life-hacks to stay focused and build new productive habits.
 keywords: MyKoz.AI, Blog, Publishing, System, YAMLChop, Github, Stars, Levinux, journal, repo, vim, buffers, editing, tension, machinery, momentum, life, OpenAI, subhead, description, keywords, site, categories, tags, search
-categories: vim, ai, levinux, seo, search, git
+categories: git, seo, search, vim, ai, levinux
 permalink: /blog/getting-the-mykoz-ai-blog-publishing-system-into-better-shape/
 layout: post
 group: blog
@@ -99,9 +99,9 @@ this blog post as I let OpenAI create the subhead, description and keywords.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/levinux/'>Levinux</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/levinux/'>Levinux</a></h4></li></ul>

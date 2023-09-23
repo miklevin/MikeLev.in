@@ -25,12 +25,21 @@ directly from Python for free. And learn Linux. Free yourself.</td>
 </tr>
 </table>
 
-Future-proof yourself by jumping on the Linux, Python, vim & git bandwagon
-(LPvg) &#151; even while staying on Windows! Tech skills go obsolete by design
-to keep you spending and retraining. Freedom can start by running ***Linux
-flavored Python*** on your ***local machine***, opening a door that normally
-remains shut in most people's lives until it's too late. Helping you do thiat
-is <a href="https://mykoz.ai">MyKoz</a>.
+Tech skills go obsolete by design. Some free and open source software (FOSS)
+tools have interfaces that don't change for decades (in a good way), allowing
+muscle memory and craftsmanship to improve for decades. This wonderful feeling
+starts by <a href="https://mykoz.ai">running the Linux version of Python</a>.on
+your local machine.
+
+Future-proof yourself by learning Linux command-line even while staying on
+Windows. My hobby is helping people resist hopping on the hamster wheel of
+obsolescence by focusing on the timeless tools of tech: Linux, Python, vim and
+git (LPvg).  To this end, I have 2 popular projects: Levinux and Pipulate. 
+
+Levinux helps people get onto Linux easily, while Pipulate is a way to learn
+Python for SEO. Together, they constitute an entry-level free and open source
+software (FOSS) SEO suite and education. While SEO is not for everyone, it
+offers a convenient on-ramp to Data Science and Machine Learning & AI.
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
