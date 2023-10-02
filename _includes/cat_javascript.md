@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-with-the-fundamental-foss-fabric-of-technology/">Craftsmanship With the Fundamental FOSS Fabric of Technology</a> (Mon Oct 02, 2023)
+<br/>I discovered the timeless value of technology when the Amiga computer I loved disappeared. I've since learned to focus on the 'low-level' parts of the stack that don't change as rapidly, such as Linux, Python, and vim. I've found a way to stay engaged and productive, while also developing a deep understanding of technology and a sense of mastery. I'm exploring the implications of vendor-provided tools versus foundational free and open source technology.</li>
 <li><a href="/blog/coding-keyboards-and-literacy/">Coding, Keyboards and Literacy</a> (Mon Sep 04, 2023)
 <br/>As literacy is continuously redefined, coding is becoming more and more important. To become proficient in coding, touch-typing on a full-sized QWERTY keyboard is essential. I propose that learning to type is a necessary step and provides a great escape from mobile addiction. Laptops are a bridge between two worlds, allowing you to use free and open source software without depending on Google, Apple or Microsoft.</li>
 <li><a href="/blog/journal-daily-learn-vim-by-journaling-similar-tricks-for-python-linux/">Journal Daily. Learn vim by Journaling. Similar Tricks for Python & Linux</a> (Fri Sep 01, 2023)

@@ -843,7 +843,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 117
+    count: 118
     title: AI
   ai apocalypse:
     count: 1
@@ -863,6 +863,9 @@ dictitems:
   ai language models:
     count: 1
     title: AI Language Models
+  ai learning:
+    count: 1
+    title: AI learning
   ai methods:
     count: 1
     title: AI Methods
@@ -938,6 +941,9 @@ dictitems:
   alan alda:
     count: 1
     title: Alan Alda
+  alan kay:
+    count: 1
+    title: Alan Kay
   alan turing:
     count: 1
     title: Alan Turing
@@ -1095,7 +1101,7 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 12
+    count: 13
     title: Amiga
   amiga computer:
     count: 1
@@ -2618,6 +2624,9 @@ dictitems:
   buying links:
     count: 1
     title: Buying Links
+  buzzword:
+    count: 1
+    title: buzzwords
   c:
     count: 5
     title: C
@@ -3228,7 +3237,7 @@ dictitems:
     count: 1
     title: cloud service
   cloud services:
-    count: 2
+    count: 3
     title: Cloud Services
   cloud-init:
     count: 1
@@ -3483,7 +3492,7 @@ dictitems:
     count: 1
     title: Commodity
   commodore:
-    count: 8
+    count: 9
     title: Commodore
   commodore 64:
     count: 1
@@ -4053,7 +4062,7 @@ dictitems:
     count: 2
     title: Craft
   craftsmanship:
-    count: 3
+    count: 4
     title: Craftsmanship
   craftspeople:
     count: 1
@@ -4107,7 +4116,7 @@ dictitems:
     count: 1
     title: Creative Expression
   creativity:
-    count: 9
+    count: 10
     title: Creativity
   creator:
     count: 1
@@ -4976,6 +4985,9 @@ dictitems:
   digital:
     count: 3
     title: Digital
+  digital age:
+    count: 1
+    title: digital age
   digital electronics:
     count: 1
     title: Digital Electronics
@@ -6729,7 +6741,7 @@ dictitems:
     count: 1
     title: FLOSSy
   flow:
-    count: 7
+    count: 8
     title: Flow
   flow control:
     count: 1
@@ -6923,6 +6935,9 @@ dictitems:
   free:
     count: 11
     title: Free
+  free and open source:
+    count: 1
+    title: free and open source
   free and open source software:
     count: 3
     title: Free and Open Source Software
@@ -7013,6 +7028,9 @@ dictitems:
   front matter support:
     count: 1
     title: Front Matter Support
+  front-end frameworks:
+    count: 1
+    title: front-end frameworks
   front-loading:
     count: 1
     title: Front-loading
@@ -8853,7 +8871,7 @@ dictitems:
     count: 1
     title: Industrial Age
   industrial revolution:
-    count: 1
+    count: 2
     title: Industrial Revolution
   industry:
     count: 3
@@ -9417,7 +9435,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 25
+    count: 26
     title: JavaScript
   javascript framework:
     count: 1
@@ -10434,7 +10452,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 197
+    count: 198
     title: Linux
   linux api:
     count: 1
@@ -11183,6 +11201,9 @@ dictitems:
   make_helpers.py:
     count: 2
     title: make_helpers.py
+  maker movement:
+    count: 1
+    title: Maker Movement
   making:
     count: 2
     title: Making
@@ -11397,8 +11418,8 @@ dictitems:
     count: 2
     title: mastering
   mastery:
-    count: 1
-    title: Mastery
+    count: 2
+    title: mastery
   material:
     count: 2
     title: Material
@@ -12866,6 +12887,9 @@ dictitems:
   noun:
     count: 1
     title: Nouns
+  novelty:
+    count: 1
+    title: novelty
   now moment:
     count: 1
     title: now moment
@@ -14036,6 +14060,9 @@ dictitems:
   planetary orbits:
     count: 1
     title: Planetary Orbits
+  planned obsolesc:
+    count: 1
+    title: planned obsolesc
   planned obsolescence:
     count: 1
     title: planned obsolescence
@@ -14937,7 +14964,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 204
+    count: 205
     title: Python
   python 3:
     count: 1
@@ -16770,7 +16797,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 92
+    count: 93
     title: SEO
   seo blog:
     count: 1
@@ -16986,8 +17013,8 @@ dictitems:
     count: 1
     title: shebang
   sheeple:
-    count: 1
-    title: Sheeple
+    count: 2
+    title: sheeple
   shell:
     count: 6
     title: Shell
@@ -18801,7 +18828,7 @@ dictitems:
     count: 3
     title: Text
   text editing:
-    count: 3
+    count: 4
     title: Text Editing
   text editor:
     count: 11
@@ -19704,7 +19731,7 @@ dictitems:
     count: 1
     title: University of Manchester
   unix:
-    count: 23
+    count: 24
     title: Unix
   unix hater's handbook:
     count: 1
@@ -19955,6 +19982,9 @@ dictitems:
   vendor:
     count: 6
     title: Vendors
+  vendor provided:
+    count: 1
+    title: vendor provided
   vendor schlock:
     count: 1
     title: vendor schlock
@@ -20112,7 +20142,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 131
+    count: 132
     title: Vim
   vim buffer:
     count: 1
@@ -20334,7 +20364,7 @@ dictitems:
     count: 1
     title: VR
   vscode:
-    count: 28
+    count: 29
     title: VSCode
   vscodium:
     count: 1
@@ -21140,3 +21170,9 @@ dictitems:
   ~/github:
     count: 1
     title: ~/github
+  "\u201Cdo-it-for-me\u201D":
+    count: 1
+    title: "\u201Cdo-it-for-me\u201D"
+  "\u201Cdo-it-yourself\u201D":
+    count: 1
+    title: "\u201Cdo-it-yourself\u201D"

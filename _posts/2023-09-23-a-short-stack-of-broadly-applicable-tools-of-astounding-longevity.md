@@ -4,7 +4,7 @@ title: A Short Stack Of Broadly Applicable Tools Of Astounding Longevity
 headline: Discovering and Mastering Timeless Tools of Tech for a Life of Self-Expression and Gratification.
 description: I continue to flesh out my book in a discussion about discovering the timeless tools of technology to stay relevant and valuable in the face of a rapidly changing world, and to do it in a way that provides a lifetime of satisfaction, gratification, and economic product. Invest in yourself wisely and equip yourself with the skills to be of value in any situation.
 keywords: date, Sat Sep 23, 2023, title, Short Stack, Broadly Applicable, Tools, Astounding Longevity, Draft, Book, Preoccupations, Life, Experiences, Collective Wisdom, Humanity, AI-free, Creative Expression, Big Idea, Passionate, Timeless Tools, Tech, Relevant, Valuable, AI, Original, Unlearned, Creativity, Patterns, Resonate, Truth, Surprising, Writing, Coding, Self-Expression,
-categories: ai, coding, draft
+categories: coding, ai, draft
 permalink: /blog/a-short-stack-of-broadly-applicable-tools-of-astounding-longevity/
 layout: post
 group: blog
@@ -128,10 +128,10 @@ very short stack of broadly applicable tools of astounding longevity.
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a></div> &nbsp; <div class="post-nav-next"><a href=""></a></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/">Craftsmanship and Muscle Memory in InfoTech with vim</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/craftsmanship-with-the-fundamental-foss-fabric-of-technology/">Craftsmanship With the Fundamental FOSS Fabric of Technology</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/coding/'>Coding</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/draft/'>Draft</a></h4></li></ul>

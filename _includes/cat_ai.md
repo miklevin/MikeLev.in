@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-with-the-fundamental-foss-fabric-of-technology/">Craftsmanship With the Fundamental FOSS Fabric of Technology</a> (Mon Oct 02, 2023)
+<br/>I discovered the timeless value of technology when the Amiga computer I loved disappeared. I've since learned to focus on the 'low-level' parts of the stack that don't change as rapidly, such as Linux, Python, and vim. I've found a way to stay engaged and productive, while also developing a deep understanding of technology and a sense of mastery. I'm exploring the implications of vendor-provided tools versus foundational free and open source technology.</li>
 <li><a href="/blog/a-short-stack-of-broadly-applicable-tools-of-astounding-longevity/">A Short Stack Of Broadly Applicable Tools Of Astounding Longevity</a> (Sat Sep 23, 2023)
 <br/>I continue to flesh out my book in a discussion about discovering the timeless tools of technology to stay relevant and valuable in the face of a rapidly changing world, and to do it in a way that provides a lifetime of satisfaction, gratification, and economic product. Invest in yourself wisely and equip yourself with the skills to be of value in any situation.</li>
 <li><a href="/blog/one-thing-well-internally/">One Thing Well, Internally</a> (Wed Sep 20, 2023)

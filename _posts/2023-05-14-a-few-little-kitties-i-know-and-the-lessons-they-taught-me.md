@@ -4,7 +4,7 @@ title: A Few Little Kitties I Know, And The Lessons They Taught Me
 headline: Learning Life Lessons from the Kitties I Know
 description: I've learned many important lessons from cats in my life, from Scooter who taught me how to control my roughhousing to Eri who has taught me to be a better parent. In this article, I explore the idea of cutting catapult ropes and how to use the wind of your own abilities to move forward in life. I also discuss the importance of documentation, and the importance of having places for things.
 keywords: date, Sun May 14, 2023, title, A Few Little Kitties I Know, And The Lessons They Taught Me, cats, pet, lessons, MikeLevin.in, Pipulate.com, Levinux.com, amygdala, Roomba, LinkedIn, Facebook, Levinux fan page, Github, Moz, Amazon, Adi, Fortress of Aditude, Tardigrade Circus, consistency, physical environment, bedroom, standing desk, New York, Billy, Sammy
-categories: git, seo
+categories: seo, git
 permalink: /blog/a-few-little-kitties-i-know-and-the-lessons-they-taught-me/
 layout: post
 group: blog
@@ -429,5 +429,5 @@ follow.
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

@@ -1,4 +1,6 @@
 <ol>
+<li><a href="/blog/craftsmanship-with-the-fundamental-foss-fabric-of-technology/">Craftsmanship With the Fundamental FOSS Fabric of Technology</a> (Mon Oct 02, 2023)
+<br/>I discovered the timeless value of technology when the Amiga computer I loved disappeared. I've since learned to focus on the 'low-level' parts of the stack that don't change as rapidly, such as Linux, Python, and vim. I've found a way to stay engaged and productive, while also developing a deep understanding of technology and a sense of mastery. I'm exploring the implications of vendor-provided tools versus foundational free and open source technology.</li>
 <li><a href="/blog/linux-python-vim-git-the-new-literacy/">Linux, Python, vim & git: The New Literacy</a> (Sat Sep 16, 2023)
 <br/>Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.</li>
 <li><a href="/blog/collecting-keywords-from-a-site-crawl/">Collecting Keywords From a Site Crawl</a> (Tue Sep 12, 2023)
