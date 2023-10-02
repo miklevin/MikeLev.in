@@ -4,7 +4,7 @@ title: Focusing the 1, 2, 3 Punch of MyKoz.AI (Linux, Python, NeoVim)
 headline: Unlocking the Path to Tech Wizardry with MyKoz.AI's 1-2-3 Punch of Linux, Python, and NeoVim
 description: "In this post I distill down the focus of MyKoz.AI into mastering the 1, 2, 3 punch: Linux, Python, and NeoVim with each having a main site navigation link. I adjust the anchor text hover highlight to be sticky as you visit each page, surprisingly still tricky in HTML. Jekyll Liquid template to the rescue!"
 keywords: Linux, Python, NeoVim, Jekyll, Simple.css, Website, SEO, Levinux, WSL, Windows Subsystem for Linux, Windows 10, Windows 11, Server Install Script, Kooky, Arcane Knowledge, Global Transformation, Macrotrends, Professional Certificate, Technical Skills, Flexibility, Motivation, Curiosity, Employers, Future of Jobs Report, Suspended Disbelief, Timeless Tech Wizard, Existential Job Crisis, Coursera, Ret
-categories: seo, linux, jekyll, python, levinux, motivation, wsl, microsoft, vim
+categories: seo, python, levinux, linux, wsl, microsoft, motivation, jekyll, vim
 permalink: /blog/focusing-the-1-2-3-punch-of-mykoz-ai-linux-python-neovim/
 layout: post
 group: blog
@@ -122,11 +122,11 @@ template system:
 
 <ul>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/levinux/'>Levinux</a></h4></li>
-<li><h4><a href='/motivation/'>Motivation</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/motivation/'>Motivation</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li></ul>

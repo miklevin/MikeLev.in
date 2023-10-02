@@ -4,7 +4,7 @@ title: Reconstructing Math Under Python for The Syntactically Ambiguous Challeng
 headline: "Unravelling the Mysteries of Physics: Exploring Temperature, Pressure, and Electric Fields"
 description: I'm exploring some of the most fascinating and challenging questions in science today, from the Theory of Everything to Dark Matter and Dark Energy. I'm also looking into physical factors such as temperature, pressure and electric fields, and the ambitious experiments planned to answer these questions. I'm passionate about learning and encourage others to pursue physics and discover something amazing!
 keywords: Physics, Theory of Everything, Dark Matter, Dark Energy, Temperature, Pressure, Electric Fields, Algebra, Axioms, Substitution, Notation, Calculus, Theorem, Rules of Inference, Logic, Reasoning, Argumentation, Mathematics, Computer Science, Philosophy, Law, Linguistics, Climate Change, Evolution, Cosmology, Artificial Intelligence, Quantum Gravity, Quantum Mechanics, Particle Physics, Astrophysics, Condensed Matter Physics, Biophysics, Mit
-categories: evolution, ai
+categories: ai, evolution
 permalink: /blog/reconstructing-math-under-python-for-the-syntactically-ambiguous-challenged/
 layout: post
 group: blog
@@ -539,5 +539,5 @@ These are some of the most exciting and ambitious experiments in physics today. 
 ## Categories
 
 <ul>
-<li><h4><a href='/evolution/'>Evolution</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/evolution/'>Evolution</a></h4></li></ul>

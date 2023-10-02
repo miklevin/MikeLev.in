@@ -4,7 +4,7 @@ title: Sharpening My Prev/Next Arrows
 headline: "Polishing My Prev/Next Arrows: A Journey of Flexbox Wrangling and Liquid Directive Neutralizing"
 description: I'm proud of the effort I put into creating the formatting of the previous/next arrows on my website. I used style.scss, post.html, a non-breaking-space trick, and flexbox wrangling to make them look elegant. I'm still learning how to neutralize and escape Jekyll blog post Liquid directives, but I'm excited to share the results of my work. Click to read more!
 keywords: Sharpening, Arrows, Formatting, style.scss, post.html, Non-Breaking-Space, Trick, Flexbox, Wrangling, Neutralize, Escape, Jekyll, Blog, Liquid, Directives, Results, Effort, Appealing, Proud, Work
-categories: liquid, trick, jekyll
+categories: liquid, jekyll, trick
 permalink: /blog/sharpening-my-prev-next-arrows/
 layout: post
 group: blog
@@ -61,5 +61,5 @@ Oh, and the reason vim is better than emacs is because
 
 <ul>
 <li><h4><a href='/liquid/'>Liquid</a></h4></li>
-<li><h4><a href='/trick/'>Tricks</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/trick/'>Tricks</a></h4></li></ul>

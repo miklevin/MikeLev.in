@@ -56,7 +56,7 @@ time figuring out how to be and stay in the middle. Interestingly, 1/X has no
 inflection point and zooming in on any segment looks identical.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/storytime-with-mic-lovin-the-wizard-of-oz-s-redemption-story-arc/">Storytime with Mic Lovin' - The Wizard of Oz's Redemption Story Arc</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/every-little-thing-gets-done-eltgd-leads-to-more-epic-days/">Every Little Thing gets done (ELTgd) Leads to More Epic Days</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/livestreaming-question-answers-with-youtube-audience/">Livestreaming Question & Answers With YouTube Audience</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>
