@@ -4,7 +4,7 @@ title: One Thing Well, Internally
 headline: Discovering the Power of Internal Skills to Achieve Freedom and Fulfillment.
 description: I'm proposing a different approach to success – one that focuses on developing internal skills rather than external rewards. Through timeless crafts such as woodworking or glassworking but the tech equivalents, you can acquire the skills necessary to achieve economic freedom and satisfaction. With patience and self-discipline, you can develop these skills and gain the satisfaction of a job well done. Unlock the power of compounding returns through timeless internal skills.
 keywords: Digital, Media, Introspection, Goals, Dopamine, Addiction, Money, House, Exchange Rate, Internal Skills, Craftsmanship, Glass, Woodworking, Timeless Craft, Economic Products, Compounding Interest, Self-Discipline, Entrepreneurial, Billionaire, AI, Alphabet, Grammar, Syntax, Spoken Languages, Exposure, Practice
-categories: ai, success
+categories: success, ai
 permalink: /blog/one-thing-well-internally/
 layout: post
 group: blog
@@ -117,5 +117,5 @@ necessity to use and practice becomes internalized.
 ## Categories
 
 <ul>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/success/'>Success</a></h4></li></ul>
+<li><h4><a href='/success/'>Success</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>

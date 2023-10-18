@@ -4,7 +4,7 @@ title: The Bare Minimum Styles CSS File
 headline: Introducing CSS to MyKoz.AI with the Bare Minimum Styles CSS File
 description: Learn how to create a simple and effective CSS file to assert control over your website. Follow the steps outlined in this article to create a bare minimum styles.css file and link it to default.html. Get tips on how to ensure your changes are rendered correctly. Follow the MyKoz.AI site development!
 keywords: CSS, San-serif, Framework, Custom, Static Site Generator, Jekyll, Github Pages, Index.md, Default.html, _config.yml, Styles.css, HTML, HEAD, BODY, Font-family, Helvetica Neue, Helvetica, Arial, Sans-serif, Web Browser, Inspector, DevTools, Network, CSS Build, Rabbit Hole, Vim, Git, Push, Render
-categories: git, html, static site generator, jekyll, vim, network
+categories: jekyll, network, html, git, static site generator, vim
 permalink: /blog/the-bare-minimum-styles-css-file/
 layout: post
 group: blog
@@ -106,9 +106,9 @@ Bingo!
 ## Categories
 
 <ul>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/network/'>Network</a></h4></li></ul>
+<li><h4><a href='/network/'>Network</a></h4></li>
+<li><h4><a href='/html/'>HTML</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/static-site-generator/'>Static Site Generator</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li></ul>

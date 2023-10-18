@@ -771,21 +771,6 @@
 - publish
 - generic
 - boot,
-- rip
-- vi
-- fred fish disk
-- bill joy
-- sun microsystems
-- berkeley unix
-- vint cerf
-- tim berners-lee
-- putty
-- nt
-- hypervisor
-- intel processor
-- google pages
-- cloudflare
-- git repo,
 - hosting
 - headless cms
 - readme.txt
@@ -1261,6 +1246,7 @@
 - william shakespeare
 - hitchiker's guide
 - culture series
+- vi
 - ed
 - hamilton
 - aaron burr
@@ -1276,6 +1262,7 @@
 - bippity boppity bourgeoisie
 - '11'
 - ubuntu 20.04
+- hypervisor
 - french revolution
 - carpenter
 - shriving middle class
@@ -1311,10 +1298,12 @@
 - bit sur
 - symlinks
 - oracle
+- nt
 - powerpc
 - arm
 - docker
 - virtualbox
+- sun microsystems
 - berkeley db
 - nosql
 - john conway
@@ -3396,6 +3385,7 @@
 - practice_save
 - fresh starting point
 - qed
+- bill joy
 - low memory footprint
 - command centric design
 - configurable settings
@@ -6309,6 +6299,8 @@
 - douglas mcilroy
 - kennith thompson
 - richard mathew stallman
+- vint cerf
+- tim berners-lee
 - leo geurts
 - lambert meertens
 - steven pemberton
@@ -6638,12 +6630,6 @@
 - irrational
 - triggered
 - emotionally stable
-- fonzie
-- henry winkler
-- mar
-- nietzsche
-- the prince
-- don
 - narcissism
 - group-think
 - gaslighting

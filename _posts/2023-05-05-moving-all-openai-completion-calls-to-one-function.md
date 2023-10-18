@@ -4,7 +4,7 @@ title: Moving All OpenAI Completion Calls to One Function
 headline: Committing Changes to Streamline OpenAI Completion Calls in chop.py
 description: This post outlines the process of moving OpenAI Completion calls from many functions into to one function. It explains the reasoning behind the decision, the 80/20-rule solution, and the resulting changes. I completed the changes and is now ready to test the results.
 keywords: OpenAI, Completion, Function, Jekyll, Rendering, Drafts, Publishing, Journal, Tool-divergence, Dilute, Focus, To-do List, Retooling, AI, Vimmers, ODB, Chunking, Summarizing, Prompts, Character Limit, 80/20-Rule, Compromise, Variations, Implementations, Commit
-categories: 80/20-rule, draft, success, ai, jekyll
+categories: success, jekyll, draft, 80/20-rule, ai
 permalink: /blog/moving-all-openai-completion-calls-to-one-function/
 layout: post
 group: blog
@@ -201,8 +201,8 @@ def make_prompt(name, data):
 ## Categories
 
 <ul>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
-<li><h4><a href='/draft/'>Draft</a></h4></li>
 <li><h4><a href='/success/'>Success</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/draft/'>Draft</a></h4></li>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
