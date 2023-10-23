@@ -17,7 +17,6 @@ This is it, from a Commodore Wonderland to MOZ.
 - [Who Let in The Bees?](/poetry/bees/) — we see how mediocrity eternally recurs.
 - [The Eighty Twenty Rule](/poetry/eighty-twenty-rule/) — we organize our efforts for maximum returns.
 - [The Lizard Tail Task](/poetry/lizard-tail/) — bozo bosses get replaced by more bozo bosses.
-- [Dueling a Mule](/poetry/dueling-mule/) — I first take aim on sysadmins from hell.
 - [Occam's Razor](/poetry/occams-razor/) — I remind myself of the best way to tackle problems.
 - [The Success Poem](/poetry/success-poem/) — I realize losing sleep while young is part of success.
 - [The Ghost Ball](/poetry/ghost-ball/) — I notice some underlying rules of predicting outcomes.
