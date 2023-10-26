@@ -4,7 +4,7 @@ title: Collecting Keywords From a Site Crawl
 headline: Creating a Rapid Keyword List Refiner from Title Tag Crawl Data
 description: I'm creating a keyword list refiner that works on title tag crawl data from a website crawl. This refiner is an alternative to buying a keyword list from an SEO software vendor. It will gameify the process, help get into the zone, and clean the list as you go. I'm using Python's readline module to make the title tags editable on the command-line.
 keywords: site crawl, keyword list, SEO software, search results, Jupyter Notebooks, Python, input function, line editor, ipywidgets, readline module, terminal, command line, Pipulate, SQLite database, gameifies, cleans list, duplicate, actuals, title tag, brand name, pipe symbol, ampersand, SEO, 80/20-rule, zone-inducing, keyword collection, proper-case, common keyword, first word, title tag
-categories: jupyter, seo, linux, python, pipulate, 80/20-rule
+categories: seo, jupyter, linux, pipulate, 80/20-rule, python
 permalink: /blog/collecting-keywords-from-a-site-crawl/
 layout: post
 group: blog
@@ -523,9 +523,9 @@ with sqldict(responsedb) as db:
 ## Categories
 
 <ul>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
-<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li></ul>
+<li><h4><a href='/80-20-rule/'>80/20-Rule</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

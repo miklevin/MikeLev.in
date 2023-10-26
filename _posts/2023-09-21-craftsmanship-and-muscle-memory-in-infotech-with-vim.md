@@ -4,7 +4,7 @@ title: Craftsmanship and Muscle Memory in InfoTech with vim
 headline: "Don't Let Your Tools Obsolete You: My Journey to Mastering Vim for Lifelong Tech Craftsmanship"
 description: Learn to write with vim, the timeless text editor, and master the craft of information technology. With vim, you can develop long-term skills and enjoy the satisfaction of mastering a craft that will remain valuable throughout your life.
 keywords: InfoTech, Text Editor, Writing, Craftsmanship, Muscle Memory, Keyboard, Touch Screen, Microsoft, Apple, Google, Typewriter, Angular, React, Vue, JavaScript Framework, IDE, CygnusEd, Amiga, EditPlus, Windows, TextMate, Sublime, Atom, IDEs, Vim
-categories: muscle memory, google, microsoft, amiga, text editor, vim
+categories: muscle memory, amiga, microsoft, text editor, vim, google
 permalink: /blog/craftsmanship-and-muscle-memory-in-infotech-with-vim/
 layout: post
 group: blog
@@ -163,8 +163,8 @@ of the next big thing. Yet, vim persists.
 
 <ul>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li></ul>

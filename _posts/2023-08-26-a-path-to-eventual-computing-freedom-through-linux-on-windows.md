@@ -4,7 +4,7 @@ title: A Path to Eventual Computing Freedom Through Linux on Windows
 headline: Discovering My Path to Computing Freedom Through Linux on Windows
 description: As a tech enthusiast, I understand the importance of having control over my computing experience. I've seen how the industry has shifted away from user control, but I believe that Linux on Windows can help us reclaim our freedom. With the right tools, we can take advantage of Microsoft's inclusion of Linux to be more productive and regain the control we lost. MyKoz.AI is a great way to start the journey to eventual computing freedom.
 keywords: Linux, Windows, Minix, Intel, Management Engine, IME, AMD, Apple, Android, UEFI, BIOS, Steam Engine, Raspberry Pi, BBC Micro, Commodore 64, 8-bit, Vim, Text Editor, Configuration Files, Programming Language, Python, JavaScript, C, Free and Open Source Software, FOSS, Right to Repair, Right to Upgrade, EU, Server, Cloud, Zombie-nets, Market Forces, Hardware Platform, Games, Compiling, Binary Files,
-categories: microsoft, javascript, linux, python, text editor, vim, journaling
+categories: javascript, microsoft, text editor, vim, journaling, linux, python
 permalink: /blog/a-path-to-eventual-computing-freedom-through-linux-on-windows/
 layout: post
 group: blog
@@ -170,10 +170,10 @@ path for folks looking for a path to eventual computing freedom.
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/text-editor/'>Text Editor</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

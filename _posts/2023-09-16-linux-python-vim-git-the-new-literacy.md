@@ -4,7 +4,7 @@ title: "Linux, Python, vim & git: The New Literacy"
 headline: "Discovering the Power of Linux, Python, vim & git: A Journey to Mastering Timeless Tech Skills"
 description: Planning my book about learning how to use timeless tech tools such as Linux, Python, vim, and git to become digitally literate and develop timeless skills. Discover how to apply the 80/20-Rule (Pareto Principle) to acquire these skills, form daily habits, and gain a mindset that supports learning and growth. Explore the philosophy and ethos behind these technologies, and how they can offer users freedom from lock-in, centralized control, and vendor-dependence.
 keywords: SEO, Linux, Python, vim, git, web crawling, data pulling, local machine, cloud service, network link graph, hierarchical shape, network visualization, API, UI, interchange, disposable, long-term practice, muscle memory, web structure, edges, nodes, fads, trends, generative content, first principles, precise thinking, elegant solutions, complex problems, logical language, systematic language, freedom, lock-in, centralized control, vendor-dependence, lifestyle, mindset
-categories: muscle memory, seo, node, linux, python, git, vim
+categories: muscle memory, seo, vim, linux, node, git, python
 permalink: /blog/linux-python-vim-git-the-new-literacy/
 layout: post
 group: blog
@@ -168,8 +168,8 @@ Pi: That's a great place to start! 😄😄😄😄😄 Creating those cornersto
 <ul>
 <li><h4><a href='/muscle-memory/'>Muscle Memory</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/node/'>Node</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/node/'>Node</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

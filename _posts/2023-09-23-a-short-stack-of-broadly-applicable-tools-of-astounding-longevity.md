@@ -4,7 +4,7 @@ title: A Short Stack Of Broadly Applicable Tools Of Astounding Longevity
 headline: Discovering and Mastering Timeless Tools of Tech for a Life of Self-Expression and Gratification.
 description: I continue to flesh out my book in a discussion about discovering the timeless tools of technology to stay relevant and valuable in the face of a rapidly changing world, and to do it in a way that provides a lifetime of satisfaction, gratification, and economic product. Invest in yourself wisely and equip yourself with the skills to be of value in any situation.
 keywords: date, Sat Sep 23, 2023, title, Short Stack, Broadly Applicable, Tools, Astounding Longevity, Draft, Book, Preoccupations, Life, Experiences, Collective Wisdom, Humanity, AI-free, Creative Expression, Big Idea, Passionate, Timeless Tools, Tech, Relevant, Valuable, AI, Original, Unlearned, Creativity, Patterns, Resonate, Truth, Surprising, Writing, Coding, Self-Expression,
-categories: draft, coding, ai
+categories: ai, draft, coding
 permalink: /blog/a-short-stack-of-broadly-applicable-tools-of-astounding-longevity/
 layout: post
 group: blog
@@ -132,6 +132,6 @@ very short stack of broadly applicable tools of astounding longevity.
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/draft/'>Draft</a></h4></li>
-<li><h4><a href='/coding/'>Coding</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/coding/'>Coding</a></h4></li></ul>
