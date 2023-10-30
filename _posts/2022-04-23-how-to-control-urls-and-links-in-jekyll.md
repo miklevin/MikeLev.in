@@ -4,7 +4,7 @@ title: How To Control URLs and Links in Jekyll
 headline: Successfully Controlling URLs and Links in Jekyll
 description: I'm blogging using Jekyll and Github Pages and have just made some changes to the theme. I'm now following a DigitalOcean tutorial to control URLs and links in Jekyll - hoping for successful changes to propagate soon! Read my blog post to find out how I did it.
 keywords: "Jekyll, Github Pages, DigitalOcean, Tutorial, URLs, Links, Theme, Changes, Propagate, Pythonically.com, Default Blog Post System, `_config.yml`, Git Pull"
-categories: jekyll, change, tutorial
+categories: jekyll, tutorial, change
 permalink: /blog/how-to-control-urls-and-links-in-jekyll/
 layout: post
 group: blog
@@ -30,10 +30,10 @@ I'm waiting for the Jekyll changes to propagate.
 Success!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/dial-down-negativity-dial-up-positivity/">Dial-down Negativity & Dial-up Positivity</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-programming-is-easy-but-math-is-hard/">Why Programming Is Easy But Math Is Hard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/slicing-dicing-single-file-to-jekyll-blog-posts/">Slicing & Dicing Single File to Jekyll Blog Posts</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
 <li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
-<li><h4><a href='/change/'>Changes</a></h4></li>
-<li><h4><a href='/tutorial/'>Tutorial</a></h4></li></ul>
+<li><h4><a href='/tutorial/'>Tutorial</a></h4></li>
+<li><h4><a href='/change/'>Changes</a></h4></li></ul>

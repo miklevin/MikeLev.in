@@ -4,7 +4,7 @@ title: Removing Stopwords From Jekyll Blog URLs
 headline: "15-Year Project Complete: Removing Stopwords from Jekyll Blog URLs"
 description: I recently completed a 15-year project, blogslicer, as part of my ELPGD (every little project gets done) mentality. I used Linux, Python, vim, and git to create the program, and now I'm incorporating a feature to remove stopwords from Jekyll blog URLs using the Python library, nltk. I'm writing code to create a blog post with a given title, slug, and path, which will generate a journal.md file with a table
 keywords: Linux, Python, vim, git, ELPGD, nltk, Stopwords, Jekyll, URLs, journal.md, table, contents, _posts, layout, title, categories, slug, blog.md, list
-categories: jekyll, vim, linux, git, journal.md, python
+categories: vim, python, linux, git, jekyll, journal.md
 permalink: /blog/removing-stopwords-from-jekyll-blog-urls/
 layout: post
 group: blog
@@ -198,13 +198,13 @@ It's time to look into how to highlight specific lines of code in markdown
 under Jekyll.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/creating-blog-index-page-for-jekyll/">Creating Blog Index Page for Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/removing-stopwords-from-jekyll-blog-urls/">Removing Stopwords From Jekyll Blog URLs</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/adding-command-line-argument-support-to-jupyter-notebook/">Adding Command-Line Argument Support to Jupyter Notebook</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/massaging-10-sites-into-shape-at-once/">Massaging 10 Sites Into Shape At Once</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/journal-md/'>Journal.md</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
+<li><h4><a href='/journal-md/'>Journal.md</a></h4></li></ul>

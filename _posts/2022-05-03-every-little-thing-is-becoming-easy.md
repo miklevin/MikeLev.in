@@ -4,7 +4,7 @@ title: Every Little Thing Is Becoming Easy
 headline: Making Progress on My Websites and Navigating Vim Easier Than Ever
 description: "Today I was able to make a few easy tweaks to my 15 active websites, and I added a make_helpers.py script to my release script. I also figured out how to navigate to my .vimrc file with the command :b~[Tab], and I'm feeling good about the progress I'm making. Read more to find out how I achieved these results."
 keywords: websites, tweaks, make_helpers.py, script, .vimrc, navigation, element, RSS, Atom, feed, home link, title, command, returns, progress
-categories: navigation, journaling, vim, progress, python
+categories: vim, python, navigation, progress, journaling
 permalink: /blog/every-little-thing-is-becoming-easy/
 layout: post
 group: blog
@@ -44,12 +44,12 @@ That will make it the 3rd position back. So make_helpers.py becomes the
 2nd-to-last position.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/templatizing-google-analytics-measurement-id-in-jekyll-github-pages/">Templatizing Google Analytics MEASUREMENT ID in Jekyll Github Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/every-little-thing-is-becoming-easy/">Every Little Thing Is Becoming Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/what-s-most-broken/">What's Most Broken?</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/vim-b1-commands-much-force-like-obi-wan/">vim :b1 Commands Much Force Like Obi-Wan</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/navigation/'>Navigation</a></h4></li>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/navigation/'>Navigation</a></h4></li>
 <li><h4><a href='/progress/'>Progress</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li></ul>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

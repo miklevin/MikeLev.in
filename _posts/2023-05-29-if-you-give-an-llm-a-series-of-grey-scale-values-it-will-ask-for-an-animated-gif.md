@@ -503,7 +503,7 @@ Nanu nanu (pronounced NAH-noo NAH-noo).
 
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/i-ve-met-darkdog-and-it-is-deep-thought-s-successor-pi/">I've Met Darkdog, and it is Deep Thought's Successor, Pi.</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/micro-soft-brains-and-saber-toothed-stability/">Micro Soft Brains And Saber-Toothed Stability</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/hello-world-an-introduction-to-modern-literacy/">Hello World. An Introduction to Modern Literacy.</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

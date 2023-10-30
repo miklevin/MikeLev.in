@@ -570,34 +570,6 @@
 - nihilism
 - naysayer
 - ai apocalypse
-- management
-- creative
-- navigation
-- geeky
-- paralysis
-- expert
-- bootstrap
-- modified
-- behavior
-- visualization
-- hardware
-- platform
-- phone
-- laptop
-- commander
-- situational
-- awareness
-- subjective
-- brain
-- auto-complete
-- .bash_profile
-- alias
-- nvim
-- kenny rodgers
-- bram moolenaar
-- environment
-- ai-friend
-- decouple
 - nyc
 - machine learning
 - 0d39r33zk
@@ -676,6 +648,7 @@
 - page
 - buy-in
 - opinionated
+- platform
 - war
 - markdown
 - static
@@ -771,6 +744,7 @@
 - publish
 - generic
 - boot,
+- bram moolenaar
 - hosting
 - headless cms
 - readme.txt
@@ -800,6 +774,7 @@
 - container
 - iphone
 - tab
+- environment
 - workspace
 - database
 - variable
@@ -907,10 +882,12 @@
 - windows 10 version 21h2
 - solution
 - subsystem
+- hardware
 - discipline
 - selection
 - evolved
 - chromebooks
+- laptop
 - software strip-down
 - distraction-free rebuild
 - nomadic digital home
@@ -938,6 +915,7 @@
 - user interfaces
 - hammer
 - expertise
+- phone
 - word processor
 - web-based
 - command line interface
@@ -1093,29 +1071,8 @@
 - bio break
 - kung fu
 - multi-modal.
-- silicon valley
-- gpu
-- blitter chip
-- video toaster
-- penn & teller
-- wil wheaton
-- forte vfx1
-- augmentix
-- magellan
-- vr
-- ar
-- x-acto knives
-- norristown
-- pa
-- memory operations
-- optimization
-- buy vs build
-- heuristic
-- supervised learning
-- vic 20
-- sid-chip
-- mr. szczyp
 - micro soft
+- brain
 - saber-toothed
 - stability
 - evolution
@@ -1523,6 +1480,7 @@
 - jupyter notebook server
 - jupyterlab server
 - gnu screen
+- .bash_profile
 - python script
 - useragent
 - primary key
@@ -1834,6 +1792,7 @@
 - impact
 - rapidly changing
 - streamlit
+- visualization
 - lazy loading
 - terabyte
 - query
@@ -2164,6 +2123,7 @@
 - micro-inversions
 - reader
 - arrow
+- navigation
 - story-telling
 - prev/next
 - anchor text
@@ -2442,6 +2402,7 @@
 - file
 - capitalization
 - crypto-bros
+- auto-complete
 - organizing
 - pre-processing
 - transformation
@@ -2537,6 +2498,7 @@
 - open query
 - financial independence
 - doubt
+- paralysis
 - passion
 - joy
 - plan of action
@@ -2568,6 +2530,7 @@
 - vimscript
 - if
 - ha
+- nvim
 - single
 - .vimrc
 - zg
@@ -3513,6 +3476,7 @@
 - early 90s
 - latest
 - techniques.
+- optimization
 - acronym
 - viral
 - engagement
@@ -3728,6 +3692,7 @@
 - expensive services
 - approachable
 - enjoyable
+- expert
 - ahrefs
 - kwfinder
 - woorank
@@ -4668,6 +4633,7 @@
 - ai model-training
 - bookshelf
 - socratic method
+- management
 - development
 - in-house
 - amigaos
@@ -4866,6 +4832,7 @@
 - parquet file
 - john henry
 - method of loci
+- creative
 - drive
 - graveyard
 - bluebird
@@ -5000,6 +4967,7 @@
 - coder
 - data-sets
 - changing technology
+- awareness
 - free energy
 - flattening the curve
 - memetic hacking
@@ -5227,6 +5195,7 @@
 - self-examination
 - whitewashed
 - outlier
+- behavior
 - elder seo mike levin
 - operating system
 - complex programs
@@ -5798,6 +5767,7 @@
 - rig
 - alert
 - mind control
+- silicon valley
 - win+left
 - win+right
 - win+tab
@@ -5895,6 +5865,7 @@
 - search-friendly
 - longest
 - vanilla
+- bootstrap
 - bulma
 - semantic
 - uikit
@@ -6334,17 +6305,6 @@
 - kernel update
 - patch
 - terminal-based linux
-- charles levin
-- 30th anniversary
-- amiga computer
-- check cashing store
-- robbery
-- crime
-- textile industry
-- aeronautical engineer
-- drexel
-- mechanical engineering
-- personal experience
 - moral
 - quality assurance
 - web-tech
@@ -6488,7 +6448,6 @@
 - snl
 - green arrow
 - litany against fear,
-- dos com
 - web-development
 - linux-services
 - user-interface
@@ -6557,6 +6516,7 @@
 - dissociation
 - zfsutils-linux
 - answer
+- dos com
 - a-records
 - custom domain
 - pied pipers
@@ -6974,6 +6934,7 @@
 - heart failure
 - robber
 - textile quality assurance
+- check cashing store
 - datamaster
 - serp collection
 - mike-lev

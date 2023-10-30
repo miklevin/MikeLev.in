@@ -4,7 +4,7 @@ title: Teaching My Wife vim
 headline: "Learning Vim Together: My Journey of Teaching My Wife a Timeless Technology"
 description: I'm teaching my wife vim, which I use to copy and paste text files and back up code to Github. I've been using vim for decades, and I'm excited to help my wife learn this timeless technology. I overcame my own negative experience with vim to understand its importance, and I'm enjoying the meaningful experience of helping my wife learn it.
 keywords: Vim, Copy-Paste, Text-Files, Back-Up, Code, Github, Timeless-Technology, Virtual-Desktops, Amiga-Computer, Mainstream-Tech, Productivity, Linux, Emacs, Journey, Learning
-categories: emacs, vim, linux, git, productivity
+categories: vim, linux, git, productivity, emacs
 permalink: /blog/teaching-my-wife-vim/
 layout: post
 group: blog
@@ -174,12 +174,12 @@ dabbling in a non-graphical user interface these days.
 
 Hope.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/jupyter-notebooks-are-dev-tools-with-nbdev/">Jupyter Notebooks Are Dev Tools With nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/teaching-my-wife-vim/">Teaching My Wife vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/always-be-publishing-via-journaling/">Always Be Publishing Via Journaling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/windows-home-folder-vs-linux-home-folder-under-wsl/">Windows Home Folder vs. Linux Home Folder Under WSL</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/emacs/'>Emacs</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/productivity/'>Productivity</a></h4></li></ul>
+<li><h4><a href='/productivity/'>Productivity</a></h4></li>
+<li><h4><a href='/emacs/'>Emacs</a></h4></li></ul>

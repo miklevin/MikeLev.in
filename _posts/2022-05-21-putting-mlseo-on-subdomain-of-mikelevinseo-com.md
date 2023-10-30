@@ -34,7 +34,7 @@ go so easily, LOL!
 
 And then looking around becomes your new checklist. Rinse and repeat.
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/easy-peasy-computer-literacy/">Easy Peasy Computer Literacy</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/putting-mlseo-on-subdomain-of-mikelevinseo-com/">Putting mlseo on subdomain of MikeLevinSEO.com</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/a-tale-of-two-pipers/">A Tale of Two Pipers</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/i-don-t-want-to-blow-up/">I Don't Want To Blow Up</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

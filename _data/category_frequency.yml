@@ -75,7 +75,7 @@ dictitems:
     count: 1
     title: --shutdown
   .bash_profile:
-    count: 4
+    count: 3
     title: .bash_profile
   .bash_prompt:
     count: 1
@@ -356,9 +356,6 @@ dictitems:
   '3.10':
     count: 2
     title: '3.10'
-  30th anniversary:
-    count: 1
-    title: 30th anniversary
   32x32:
     count: 1
     title: 32x32
@@ -788,9 +785,6 @@ dictitems:
   aegis:
     count: 1
     title: Aegis
-  aeronautical engineer:
-    count: 1
-    title: aeronautical engineer
   aerosnap:
     count: 1
     title: AeroSnap
@@ -843,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 117
+    count: 115
     title: AI
   ai apocalypse:
     count: 1
@@ -899,9 +893,6 @@ dictitems:
   ai-free:
     count: 1
     title: AI-free
-  ai-friend:
-    count: 1
-    title: AI-friend
   ai-generated:
     count: 2
     title: AI-generated
@@ -974,9 +965,6 @@ dictitems:
   algorithmic bias:
     count: 1
     title: Algorithmic Bias
-  alias:
-    count: 1
-    title: alias
   alice:
     count: 4
     title: Alice
@@ -1101,11 +1089,8 @@ dictitems:
     count: 1
     title: American
   amiga:
-    count: 12
+    count: 11
     title: Amiga
-  amiga computer:
-    count: 1
-    title: Amiga computer
   amiga-computer:
     count: 1
     title: Amiga-Computer
@@ -1382,9 +1367,6 @@ dictitems:
   aquarium:
     count: 1
     title: Aquarium
-  ar:
-    count: 1
-    title: AR
   arcane knowledge:
     count: 1
     title: Arcane Knowledge
@@ -1586,9 +1568,6 @@ dictitems:
   audience:
     count: 9
     title: Audience
-  augmentix:
-    count: 1
-    title: Augmentix
   august 19:
     count: 1
     title: August 19
@@ -1620,7 +1599,7 @@ dictitems:
     count: 1
     title: Auto
   auto-complete:
-    count: 3
+    count: 2
     title: Auto-Complete
   auto-generated:
     count: 1
@@ -1695,7 +1674,7 @@ dictitems:
     count: 1
     title: Awakening
   awareness:
-    count: 3
+    count: 2
     title: Awareness
   aweber:
     count: 1
@@ -1926,7 +1905,7 @@ dictitems:
     count: 1
     title: Beginning
   behavior:
-    count: 3
+    count: 2
     title: Behavior
   being:
     count: 1
@@ -2216,9 +2195,6 @@ dictitems:
   blinkist:
     count: 1
     title: Blinkist
-  blitter chip:
-    count: 1
-    title: Blitter chip
   bloatware:
     count: 1
     title: Bloatware
@@ -2349,8 +2325,8 @@ dictitems:
     count: 1
     title: Boot,
   bootstrap:
-    count: 2
-    title: bootstrap
+    count: 1
+    title: Bootstrap
   border:
     count: 1
     title: borders
@@ -2397,8 +2373,8 @@ dictitems:
     count: 1
     title: Brackets
   brain:
-    count: 6
-    title: brains
+    count: 5
+    title: brain
   brain structure:
     count: 1
     title: Brain Structure
@@ -2406,7 +2382,7 @@ dictitems:
     count: 1
     title: Brainstem
   bram moolenaar:
-    count: 4
+    count: 2
     title: Bram Moolenaar
   branch:
     count: 1
@@ -2603,9 +2579,6 @@ dictitems:
   button:
     count: 2
     title: Buttons
-  buy vs build:
-    count: 1
-    title: Buy vs Build
   buy-in:
     count: 1
     title: Buy-in
@@ -2906,9 +2879,6 @@ dictitems:
   charles fox:
     count: 1
     title: Charles Fox
-  charles levin:
-    count: 1
-    title: Charles Levin
   charlie:
     count: 1
     title: Charlie
@@ -2967,8 +2937,8 @@ dictitems:
     count: 1
     title: Cheating
   check cashing store:
-    count: 2
-    title: check cashing store
+    count: 1
+    title: Check Cashing Store
   check-cashing:
     count: 1
     title: check-cashing
@@ -3204,7 +3174,7 @@ dictitems:
     count: 1
     title: closed mind
   cloud:
-    count: 23
+    count: 21
     title: Cloud
   cloud chamber:
     count: 1
@@ -3321,7 +3291,7 @@ dictitems:
     count: 1
     title: Codex Sassoon
   coding:
-    count: 13
+    count: 12
     title: Coding
   coding assistant:
     count: 1
@@ -3449,9 +3419,6 @@ dictitems:
   command-line path:
     count: 1
     title: Command-Line Path
-  commander:
-    count: 1
-    title: commander
   comment:
     count: 2
     title: Comments
@@ -3474,7 +3441,7 @@ dictitems:
     count: 1
     title: Commodity
   commodore:
-    count: 9
+    count: 8
     title: Commodore
   commodore 64:
     count: 1
@@ -3912,7 +3879,7 @@ dictitems:
     count: 1
     title: Cooperation
   copilot:
-    count: 28
+    count: 27
     title: Copilot
   copilot ai:
     count: 1
@@ -4092,8 +4059,8 @@ dictitems:
     count: 2
     title: Creating
   creative:
-    count: 2
-    title: creative
+    count: 1
+    title: Creative
   creative expression:
     count: 1
     title: Creative Expression
@@ -4109,9 +4076,6 @@ dictitems:
   credit:
     count: 1
     title: Credit
-  crime:
-    count: 1
-    title: crime
   criminal:
     count: 1
     title: Criminal
@@ -4607,9 +4571,6 @@ dictitems:
   decorator:
     count: 1
     title: Decorators
-  decouple:
-    count: 1
-    title: decouple
   decrease in cost:
     count: 1
     title: Decrease in Cost
@@ -5253,7 +5214,7 @@ dictitems:
     count: 4
     title: Dorothy
   dos com:
-    count: 2
+    count: 1
     title: DOS COM
   dot:
     count: 2
@@ -5334,11 +5295,8 @@ dictitems:
     count: 2
     title: drawing
   dream:
-    count: 2
-    title: Dreams
-  drexel:
     count: 1
-    title: Drexel
+    title: Dreams
   drinkeme:
     count: 1
     title: DrinkeMe
@@ -5901,7 +5859,7 @@ dictitems:
     count: 2
     title: Enumerate
   environment:
-    count: 14
+    count: 13
     title: Environment
   environment variable:
     count: 2
@@ -6186,8 +6144,8 @@ dictitems:
     count: 1
     title: experimenting
   expert:
-    count: 2
-    title: experts
+    count: 1
+    title: Expert
   expertise:
     count: 3
     title: Expertise
@@ -6812,9 +6770,6 @@ dictitems:
   formulating:
     count: 1
     title: Formulating
-  forte vfx1:
-    count: 1
-    title: Forte VFX1
   fortress of aditude:
     count: 1
     title: Fortress of Aditude
@@ -7220,9 +7175,6 @@ dictitems:
   gb:
     count: 1
     title: GB
-  geeky:
-    count: 1
-    title: geeky
   geforce gtx 1060:
     count: 1
     title: GeForce GTX 1060
@@ -7371,7 +7323,7 @@ dictitems:
     count: 1
     title: Gipper
   git:
-    count: 87
+    count: 86
     title: Git
   git commit:
     count: 2
@@ -7709,9 +7661,6 @@ dictitems:
   gpt3 chatgi:
     count: 1
     title: GPT3 ChatGI
-  gpu:
-    count: 1
-    title: GPU
   gpu clusters:
     count: 1
     title: GPU clusters
@@ -7998,7 +7947,7 @@ dictitems:
     count: 2
     title: Hard Work
   hardware:
-    count: 21
+    count: 19
     title: Hardware
   hardware platform:
     count: 1
@@ -8168,9 +8117,6 @@ dictitems:
   hertz:
     count: 1
     title: Hertz
-  heuristic:
-    count: 1
-    title: Heuristics
   hidden continent:
     count: 1
     title: Hidden Continent
@@ -8532,7 +8478,7 @@ dictitems:
     count: 2
     title: Ian M. Banks
   ibm:
-    count: 2
+    count: 1
     title: IBM
   ic:
     count: 1
@@ -9342,7 +9288,7 @@ dictitems:
     count: 5
     title: Java
   javascript:
-    count: 26
+    count: 25
     title: JavaScript
   javascript framework:
     count: 1
@@ -9399,7 +9345,7 @@ dictitems:
     count: 1
     title: JetBrains
   jew:
-    count: 2
+    count: 1
     title: Jew
   jewish philosophy:
     count: 1
@@ -9513,7 +9459,7 @@ dictitems:
     count: 1
     title: Journal_
   journaling:
-    count: 42
+    count: 41
     title: Journaling
   journaling habit:
     count: 1
@@ -9692,9 +9638,6 @@ dictitems:
   kennith thompson:
     count: 1
     title: Kennith Thompson
-  kenny rodgers:
-    count: 1
-    title: Kenny Rodgers
   kernel:
     count: 2
     title: Kernel
@@ -9972,7 +9915,7 @@ dictitems:
     count: 1
     title: Laplace's Demon
   laptop:
-    count: 15
+    count: 14
     title: Laptop
   laptop computing:
     count: 1
@@ -10182,7 +10125,7 @@ dictitems:
     count: 1
     title: Lies
   life:
-    count: 33
+    count: 31
     title: Life
   life adjustments:
     count: 1
@@ -10350,7 +10293,7 @@ dictitems:
     count: 4
     title: Linus Torvalds
   linux:
-    count: 197
+    count: 196
     title: Linux
   linux api:
     count: 1
@@ -11003,9 +10946,6 @@ dictitems:
   made men:
     count: 1
     title: Made Men
-  magellan:
-    count: 1
-    title: Magellan
   magic:
     count: 7
     title: Magic
@@ -11130,7 +11070,7 @@ dictitems:
     count: 2
     title: Manage
   management:
-    count: 4
+    count: 3
     title: Management
   management engine:
     count: 1
@@ -11414,9 +11354,6 @@ dictitems:
   mechanical engineer:
     count: 1
     title: mechanical engineer
-  mechanical engineering:
-    count: 1
-    title: mechanical engineering
   mechvibes:
     count: 1
     title: Mechvibes
@@ -11498,9 +11435,6 @@ dictitems:
   memory:
     count: 3
     title: Memories
-  memory operations:
-    count: 1
-    title: Memory Operations
   mendel's pea plant experiment:
     count: 1
     title: Mendel's pea plant experiment
@@ -11514,7 +11448,7 @@ dictitems:
     count: 1
     title: mental calist
   mental health:
-    count: 3
+    count: 2
     title: Mental Health
   mentat:
     count: 1
@@ -11951,9 +11885,6 @@ dictitems:
   modern technology:
     count: 2
     title: modern technology
-  modified:
-    count: 1
-    title: modified
   modular:
     count: 1
     title: Modular
@@ -12122,9 +12053,6 @@ dictitems:
   mr. rogers:
     count: 1
     title: Mr. Rogers
-  mr. szczyp:
-    count: 1
-    title: Mr. Szczyp
   msi-installer:
     count: 1
     title: MSI-installer
@@ -12366,7 +12294,7 @@ dictitems:
     count: 1
     title: navigating
   navigation:
-    count: 7
+    count: 6
     title: Navigation
   navigation elements:
     count: 1
@@ -12435,7 +12363,7 @@ dictitems:
     count: 3
     title: Neocortex
   neovim:
-    count: 38
+    count: 37
     title: NeoVim
   neovim path:
     count: 1
@@ -12633,7 +12561,7 @@ dictitems:
     count: 7
     title: Node
   nodejs:
-    count: 10
+    count: 9
     title: NodeJS
   nohup:
     count: 1
@@ -12716,9 +12644,6 @@ dictitems:
   norman gimbel:
     count: 1
     title: Norman Gimbel
-  norristown:
-    count: 1
-    title: Norristown
   north korea:
     count: 1
     title: North Korea
@@ -12813,7 +12738,7 @@ dictitems:
     count: 3
     title: NVIDIA
   nvim:
-    count: 2
+    count: 1
     title: nvim
   nyc:
     count: 10
@@ -13131,7 +13056,7 @@ dictitems:
     count: 1
     title: Optimistic
   optimization:
-    count: 4
+    count: 3
     title: Optimization
   optimize:
     count: 5
@@ -13292,9 +13217,6 @@ dictitems:
   p vs np problem:
     count: 1
     title: P vs NP Problem
-  pa:
-    count: 1
-    title: PA
   pack-rat:
     count: 1
     title: Pack-Rat
@@ -13395,8 +13317,8 @@ dictitems:
     count: 2
     title: paradoxes
   paralysis:
-    count: 2
-    title: paralysis
+    count: 1
+    title: Paralysis
   parameter:
     count: 4
     title: Parameter
@@ -13550,9 +13472,6 @@ dictitems:
   pen:
     count: 1
     title: pen
-  penn & teller:
-    count: 1
-    title: Penn & Teller
   pennsylvania:
     count: 1
     title: Pennsylvania
@@ -13646,9 +13565,6 @@ dictitems:
   personal cost:
     count: 1
     title: personal cost
-  personal experience:
-    count: 1
-    title: personal experience
   personal gain:
     count: 1
     title: personal gain
@@ -13719,8 +13635,8 @@ dictitems:
     count: 1
     title: Phishing Vulnerability
   phone:
-    count: 2
-    title: phone
+    count: 1
+    title: Phone
   phone interference:
     count: 1
     title: Phone Interference
@@ -13944,7 +13860,7 @@ dictitems:
     count: 2
     title: Plates
   platform:
-    count: 17
+    count: 16
     title: Platform
   platform optimization:
     count: 1
@@ -14823,7 +14739,7 @@ dictitems:
     count: 2
     title: Pyppeteer
   python:
-    count: 204
+    count: 203
     title: Python
   python 3:
     count: 1
@@ -15213,7 +15129,7 @@ dictitems:
     count: 1
     title: Raspberry API
   raspberry pi:
-    count: 7
+    count: 6
     title: Raspberry Pi
   raspberrypi:
     count: 1
@@ -15956,9 +15872,6 @@ dictitems:
   robber:
     count: 1
     title: Robber
-  robbery:
-    count: 1
-    title: robbery
   robert cialdini:
     count: 3
     title: Robert Cialdini
@@ -16623,7 +16536,7 @@ dictitems:
     count: 1
     title: Sendmail.py
   sens:
-    count: 3
+    count: 2
     title: senses
   sensitivity:
     count: 2
@@ -16913,9 +16826,6 @@ dictitems:
   siberian tiger:
     count: 1
     title: Siberian Tiger
-  sid-chip:
-    count: 1
-    title: SID-chip
   side effects:
     count: 1
     title: Side Effects
@@ -16947,7 +16857,7 @@ dictitems:
     count: 1
     title: Silicon Atoms
   silicon valley:
-    count: 2
+    count: 1
     title: Silicon Valley
   silurian:
     count: 1
@@ -17060,9 +16970,6 @@ dictitems:
   sites.txt:
     count: 4
     title: sites.txt
-  situational:
-    count: 1
-    title: situational
   six principles:
     count: 1
     title: Six Principles
@@ -17295,7 +17202,7 @@ dictitems:
     count: 1
     title: soft blue
   software:
-    count: 28
+    count: 27
     title: Software
   software development:
     count: 3
@@ -17658,7 +17565,7 @@ dictitems:
     count: 3
     title: Stars
   star trek:
-    count: 2
+    count: 1
     title: Star Trek
   star wars:
     count: 3
@@ -18053,9 +17960,6 @@ dictitems:
   subject-matter:
     count: 1
     title: Subject-Matter
-  subjective:
-    count: 1
-    title: subjective
   subjective experience:
     count: 2
     title: Subjective Experience
@@ -18141,7 +18045,7 @@ dictitems:
     count: 1
     title: Summer Project
   sun:
-    count: 5
+    count: 4
     title: Sun
   sun may 14:
     count: 1
@@ -18197,9 +18101,6 @@ dictitems:
   superpower:
     count: 2
     title: Superpower
-  supervised learning:
-    count: 1
-    title: Supervised Learning
   supplementary income:
     count: 1
     title: Supplementary Income
@@ -18624,7 +18525,7 @@ dictitems:
     count: 1
     title: Terabytes
   terminal:
-    count: 22
+    count: 21
     title: Terminal
   terminal environment:
     count: 1
@@ -18666,7 +18567,7 @@ dictitems:
     count: 4
     title: Text Editing
   text editor:
-    count: 11
+    count: 9
     title: Text Editor
   text editors:
     count: 7
@@ -18710,9 +18611,6 @@ dictitems:
   textfile-for-life:
     count: 1
     title: Textfile-for-Life
-  textile industry:
-    count: 1
-    title: textile industry
   textile quality assurance:
     count: 1
     title: Textile Quality Assurance
@@ -19904,9 +19802,6 @@ dictitems:
   vibrating eyes:
     count: 1
     title: vibrating eyes
-  vic 20:
-    count: 1
-    title: Vic 20
   vice president:
     count: 2
     title: Vice President
@@ -19937,9 +19832,6 @@ dictitems:
   video series:
     count: 1
     title: Video Series
-  video toaster:
-    count: 1
-    title: Video Toaster
   video tutorial:
     count: 2
     title: Video Tutorial
@@ -19962,7 +19854,7 @@ dictitems:
     count: 1
     title: Village
   vim:
-    count: 131
+    count: 129
     title: Vim
   vim buffer:
     count: 1
@@ -20106,7 +19998,7 @@ dictitems:
     count: 1
     title: Visual-Block
   visualization:
-    count: 6
+    count: 5
     title: Visualization
   visualize:
     count: 3
@@ -20180,9 +20072,6 @@ dictitems:
   vpn:
     count: 2
     title: VPN
-  vr:
-    count: 1
-    title: VR
   vscode:
     count: 29
     title: VSCode
@@ -20501,9 +20390,6 @@ dictitems:
   wikipedia:
     count: 1
     title: Wikipedia
-  wil wheaton:
-    count: 1
-    title: Wil Wheaton
   wild:
     count: 1
     title: Wild
@@ -20742,7 +20628,7 @@ dictitems:
     count: 1
     title: Write_post_to_file
   writing:
-    count: 36
+    count: 35
     title: Writing
   writing code:
     count: 1
@@ -20795,9 +20681,6 @@ dictitems:
   x server:
     count: 1
     title: X Server
-  x-acto knives:
-    count: 1
-    title: X-Acto knives
   x/y axis plots:
     count: 1
     title: X/Y Axis Plots

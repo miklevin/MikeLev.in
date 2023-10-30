@@ -4,7 +4,7 @@ title: My Blogging System Is Now My Weekly Report System Too
 headline: I Have Created a System for Writing Weekly Reports with My Vimminess!
 description: I have created a system for writing weekly reports that is similar to how I write blog posts. I have set up the necessary files, scripts, and repository, and tested the release. I encountered a problem with the git push, but I was able to create a blog post, move it to my Github private repo, and render the markdown into HTML. Now I have a system in place to make the process flow with my vimminess!
 keywords: weekly-reports, system, files, scripts, repository, release, git-push, blog-post, Github, private-repo, markdown, HTML, vimminess, sites.txt, gaids.txt, script, release-scripts, copy-paste, email
-categories: git, html, python, email
+categories: email, git, html, python
 permalink: /blog/my-blogging-system-is-now-my-weekly-report-system-too/
 layout: post
 group: blog
@@ -175,11 +175,11 @@ Double-click browsme.html, copy/paste from browser (local machine!) to email.
 Add title and greetings. Hit send. Weekly report sent and killer system in
 place to make it flow along with all the rest of my vimmy vim vimminess! Woot!
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/getting-into-the-flow-or-the-zone/">Getting Into The Flow Or The Zone</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/my-blogging-system-is-now-my-weekly-report-system-too/">My Blogging System Is Now My Weekly Report System Too</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/you-are-constantly-channeling/">You Are Constantly Channeling</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/an-ode-to-the-uncompressibles-linus-guido-ada-grace/">An Ode to The Uncompressibles (Linus, Guido, Ada & Grace)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/email/'>Email</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/html/'>HTML</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/email/'>Email</a></h4></li></ul>
+<li><h4><a href='/python/'>Python</a></h4></li></ul>

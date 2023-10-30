@@ -164,7 +164,7 @@ apex: {apex}'''
 ```
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/the-dangers-of-being-predisposed-why-apple-won/">The Dangers of Being Predisposed (Why Apple Won)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/editing-15-homepages-at-once-in-vim/">Editing 15 Homepages at Once in vim</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/of-green-arrows-and-red-armor/">Of Green Arrows and Red Armor</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/what-if-my-life-were-just-beginning-now/">What If My Life Were Just Beginning Now?</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

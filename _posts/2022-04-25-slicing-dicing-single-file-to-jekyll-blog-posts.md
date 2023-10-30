@@ -58,7 +58,7 @@ changes. But these things have no headlines. Fix that, but make them optional.
 You have a system now that creates a very nice default URL /blog/post-n/
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/why-programming-is-easy-but-math-is-hard/">Why Programming Is Easy But Math Is Hard</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/slicing-dicing-single-file-to-jekyll-blog-posts/">Slicing & Dicing Single File to Jekyll Blog Posts</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/how-to-control-urls-and-links-in-jekyll/">How To Control URLs and Links in Jekyll</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/using-blog-titles-for-filenames/">Using Blog Titles for Filenames</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

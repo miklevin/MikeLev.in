@@ -18,7 +18,7 @@ version of JupyterLab and go all the way to making it pip installable.
 {% include youtubePlayer.html id="WVIV2xyErKs" %}
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/sharpening-my-prev-next-arrows/">Sharpening My Prev/Next Arrows</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/from-jupyter-notebook-to-pip-installable-package-in-one-go/">From Jupyter Notebook to pip Installable Package In One Go</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/pushing-blogslicer-to-pypi-from-jupyter-notebook/">Pushing Blogslicer to PyPI (From Jupyter Notebook)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/activating-all-my-registered-domains/">Activating All My Registered Domains</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>

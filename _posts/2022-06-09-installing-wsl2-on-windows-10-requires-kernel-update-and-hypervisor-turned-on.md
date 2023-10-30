@@ -4,7 +4,7 @@ title: Installing WSL2 on Windows 10 Requires Kernel Update And Hypervisor Turne
 headline: Three Steps to Get WSL2 Running on Windows 10
 description: "Learn how to use WSL2 (Windows Subsystem for Linux) on Windows 10 with just three steps: enabling Windows Subsystem for Linux, enabling Hypervisor, and downloading and running a patch. To make sure any future WSL instances are version 2, run the command 'wsl --set-default-version 2'. For more information on Terminal-based Linux, follow Mike Levin on YouTube."
 keywords: WSL2, Windows 10, Kernel Update, Hypervisor, Enable, Download, Run, Patch, Command, Terminal-based Linux, Mike Levin, YouTube
-categories: microsoft, youtube, wsl
+categories: wsl, youtube, microsoft
 permalink: /blog/installing-wsl2-on-windows-10-requires-kernel-update-and-hypervisor-turned-on/
 layout: post
 group: blog
@@ -78,10 +78,10 @@ Follow [this dude](https://YouTube.com/MikeLevin) on YouTube. He seems to know
 what he's talking about.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/thirty-year-anniversary-of-dad-s-death-i-am-not-a-check-casher/">Thirty-Year Anniversary of Dad's Death (I Am Not a Check Casher)</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/do-the-right-thing-morally-spiritually-technically/">Do The Right Thing Morally, Spiritually & Technically</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/wsl-install-rocks-your-world-with-linux-learn-linux-fast/">wsl --install Rocks Your World with Linux (Learn Linux Fast!)</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/youtube/'>YouTube</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li></ul>

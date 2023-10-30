@@ -20,7 +20,7 @@ group: blog
 > <cite>--by Mike Levin, 2022</cite><br />
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/upgrading-jupyterlab-pip-installs/">Upgrading JupyterLab pip installs</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/connecting-the-dots-ain-t-easy/">Connecting The Dots Ain't Easy</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/add-flax-seeds-to-blended-drinks-to-make-your-poo-firm/">Add Flax Seeds to Blended Drinks to Make Your Poo Firm</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/imagining-vim-macro-that-makes-markdown-image-code/">Imagining vim Macro That Makes Markdown Image Code</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul></ul>

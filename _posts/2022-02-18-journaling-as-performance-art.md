@@ -4,7 +4,7 @@ title: Journaling As Performance Art
 headline: Creating Performance Art with Journal Entries and Github.io
 description: I'm creating a performance art piece that auto-publishes my journal entries on Github.io. I'm also building a get_responses function that takes a list of URLs or tuples and returns a list of tuples. I'm testing it by providing it with a list of URLs and a function and checking the output. My goal is to get responses from a list of URLs and assign them either 'foo' or 'bar', then return them as a list. For example, when
 keywords: Journaling, Performance Art, Github, Github.io, mlseo, URLs, Tuples, Function, Output, Response, Assignment, Example
-categories: journaling, git, pipulate, github.io, tuples
+categories: pipulate, tuples, github.io, git, journaling
 permalink: /blog/journaling-as-performance-art/
 layout: post
 group: blog
@@ -146,12 +146,12 @@ This is what we're used to for fetching http (web pages).
 Okay, pushed out a very nice video.
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/making-mlseo-pip-installable/">Making mlseo pip installable</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/journaling-as-performance-art/">Journaling As Performance Art</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/testing-nbdev/">Testing nbdev</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/concurrent-web-crawling-in-python/">Concurrent Web Crawling in Python</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/journaling/'>Journaling</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
 <li><h4><a href='/pipulate/'>Pipulate</a></h4></li>
+<li><h4><a href='/tuples/'>Tuples</a></h4></li>
 <li><h4><a href='/github-io/'>Github.io</a></h4></li>
-<li><h4><a href='/tuples/'>Tuples</a></h4></li></ul>
+<li><h4><a href='/git/'>Git</a></h4></li>
+<li><h4><a href='/journaling/'>Journaling</a></h4></li></ul>

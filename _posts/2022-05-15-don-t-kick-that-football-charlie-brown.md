@@ -4,7 +4,7 @@ title: Don't Kick That Football, Charlie Brown!
 headline: Take Control of Your Growth and Development - Learn from Charlie Brown's Example
 description: As a person who prefers to make up my own games and rules, I understand the importance of understanding different levels of the brain in order to grow. I also recognize that what makes us human is our ability to think and act in ways that are beyond the capabilities of animals. I believe that by examining ourselves, recording our thoughts and interactions, and drawing conclusions, we can take control of our growth and development and increase our chances of success.
 keywords: Brain, Growth, Development, Human, Animals, Creativity, Technology, Blockchain, Non-Fungible Tokens, Communication, Acknowledgement, Predictions, Actions, Survival, Calvin-Ball, Charlie Brown, Mistakes, Spinal Cord, Worm-Brain, Frog-Brain, Lizard-Brain, Colony-Mammal Brain, Primate Brain, Neocortex
-categories: development, action, ai
+categories: ai, development, action
 permalink: /blog/don-t-kick-that-football-charlie-brown/
 layout: post
 group: blog
@@ -266,10 +266,10 @@ are able to:
 
 {% include youtubePlayer.html id="hBjWtJnMriQ" %}
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/it-s-time-someone-stood-up-to-you-and-survived/">It's Time Someone Stood Up To You... And Survived</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/don-t-kick-that-football-charlie-brown/">Don't Kick That Football, Charlie Brown!</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/b2-or-not-b2-that-is-the-question/">:b2 or not :b2, That Is The Question</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/when-i-grew-a-backbone-story-of-the-samurai-mudskipper/">When I Grew a Backbone, Story of The Samurai Mudskipper</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/development/'>Development</a></h4></li>
-<li><h4><a href='/action/'>Actions</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li></ul>
+<li><h4><a href='/action/'>Actions</a></h4></li></ul>

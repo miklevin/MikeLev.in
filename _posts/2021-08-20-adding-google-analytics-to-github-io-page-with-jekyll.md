@@ -4,7 +4,7 @@ title: Adding Google Analytics to Github.io Page with Jekyll
 headline: Successfully Installing Google Analytics on my Github.io Page with Jekyll
 description: I recently installed Google Analytics on my Github.io Page with Jekyll, and I'm so glad I took the time to understand the Liquid system and what was going on underneath. After a few moments of research, I was able to successfully install Google Analytics and now I'm ready to move on to the next step. Read my blog post to find out how I did it!
 keywords: Google Analytics, Github.io, Jekyll, Liquid system, Installation, Configuration, Tweaking, Research, Understanding
-categories: jekyll, github.io, google
+categories: github.io, jekyll, google
 permalink: /blog/adding-google-analytics-to-github-io-page-with-jekyll/
 layout: post
 group: blog
@@ -57,10 +57,10 @@ what's going on underneath.
 Thanks, and later gators!
 
 
-<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/embedding-youtube-video-thumbnails-on-github-io-pages/">Embedding YouTube Video Thumbnails on Github.io Pages</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/adding-google-analytics-to-github-io-page-with-jekyll/">Adding Google Analytics to Github.io Page with Jekyll</a><span class="arrow">&nbsp;&rarr;</span></div></div>
+<div class="arrow-links"><div class="post-nav-prev"><span class="arrow">&larr;&nbsp;</span><a href="/blog/jekyll-include-tags-for-github-io-youtube-embedding/">Jekyll include tags for Github.io YouTube Embedding</a></div> &nbsp; <div class="post-nav-next"><a href="/blog/time-to-tell-my-stories/">Time To Tell My Stories</a><span class="arrow">&nbsp;&rarr;</span></div></div>
 ## Categories
 
 <ul>
-<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/github-io/'>Github.io</a></h4></li>
+<li><h4><a href='/jekyll/'>Jekyll</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Google Conversational Search vs Bing Chat (No Contest)
 headline: In Everyday Head-to-Head Comparisons Between Google Conversational Search and The New Bing, There's No Contest
 description: I was curious how well Google and Bing would be able to tell me this esoteric little detail about where the Github Copilot plug-in for NeoVim stored its authentication details. The writing is on the wall. The wall being this blog post, and the writing being Bing's formatted results.
 keywords: Google, Conversational Search, Bing, Chat, WSL, Linux, JupyterLab, Windows, Mapping, USERPROFILE, %, .config, Symbolic Links, Copilot, NeoVim, GitHub, Configuration, Per-App, Authorization, Prime Time, Formatting, Results, Publishing, MikeLev.in, Installation, Plugin, Token, Username, Messages, copilot.log, Debugging, Setup, Community, Discussion, Bignerdranch
-categories: bing, ai, wsl, microsoft, message, vim, jupyter, linux, git, google
+categories: bing, wsl, google, microsoft, vim, linux, message, git, jupyter, ai
 permalink: /blog/google-conversational-search-vs-bing-chat-no-contest/
 layout: post
 group: blog
@@ -79,12 +79,12 @@ Source: Conversation with Bing, 9/1/2023
 
 <ul>
 <li><h4><a href='/bing/'>Bing</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/message/'>Messages</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
 <li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/message/'>Messages</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/ai/'>AI</a></h4></li></ul>
