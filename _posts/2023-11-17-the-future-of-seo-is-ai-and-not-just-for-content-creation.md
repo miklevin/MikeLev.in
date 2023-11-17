@@ -2,9 +2,9 @@
 date: 2023-11-17
 title: The Future of SEO is AI, And Not Just for Content Creation
 headline: "Take Control of Your Digital Life: Learn How to Create a Future-Proof Website on GitHub!"
-description: I'm an SEO professional who values integrity over following trends. I'm using GitHub to host my personal website, but I'm not locked in - I can move my content anytime, anywhere. My whole website is just one long text file in a 'one journal for life' format. This approach simplifies content management, reduces complexity, and helps me maintain momentum and form habits. I'm future-proofing my work, ensuring that it stays relevant and accessible in the ever-changing digital landscape.
+description: I'm an SEO professional who values integrity over following trends. I'm using GitHub to host my personal website, but I'm not locked in - I can move my content anytime, anywhere. My whole website is just one long text file in a 'one journal for life' format. This approach simplifies content management, reduces complexity, and helps me maintain momentum and form habits. I'm future-proofing my work, ensuring that it stays relevant and accessible in the ever-changing digital landscape
 keywords: SEO, Content Creation, Personal Voice, Authenticity, Critical Analysis, Professional Experience, Current State, Future, Google, Antitrust, Apple, Ad Revenue, Search, Helpful Content, Intent, Altruism, HitTail, Long-Tail, Disingenuous, Ad-Motivated, ChatBots, AI, Mind-Control, Ethical, Practical, Accessible, Relatable, Informative
-categories: google, search, ai, future, seo
+categories: ai, google, search, seo, future
 permalink: /blog/the-future-of-seo-is-ai-and-not-just-for-content-creation/
 layout: post
 group: blog
@@ -51,7 +51,7 @@ But here's the kicker: the landscape of online search is changing, and not neces
 
 This shift doesn't look promising when you consider the financial motivations behind search giants like Google. In a recent antitrust trial, it was revealed that Google paid a whopping $20 billion to Apple in 2021 to remain the default search engine on Safari, Apple's web browser [oai_citation:1,Apple earns 36% of Google search ad revenue through Safari, antitrust trial reveals - 9to5Mac](https://9to5mac.com/2023/11/13/apple-google-36-percent/). This deal, where Google shares 36% of its search ad revenue generated through Safari with Apple, shows just how much financial interests are at play [oai_citation:2,Apple earns 36% of Google search ad revenue through Safari, antitrust trial reveals - 9to5Mac](https://9to5mac.com/2023/11/13/apple-google-36-percent/). 
 
-Even more concerning, this partnership limits the growth of other search engines and possibly influences Apple's stance on privacy and competition [oai_citation:3,Apple earns 36% of Google search ad revenue through Safari, antitrust trial reveals - 9to5Mac](https://9to5mac.com/2023/11/13/apple-google-36-percent/). Add to that the fact that Google, with nearly 90% market share in the U.S., has the power to raise ad rates without losing advertisers [oai_citation:4,US wraps up antitrust case against Google in historic trial | Reuters](https://www.reuters.com/legal/us-wraps-up-antitrust-case-against-google-historic-trial-2023-11-16/#:~:text=Whinston%20said%20Google%20had%20the,little%20incentive%20to%20improve%20quality). This financial grip over the market, combined with massive profits – Google reported a net profit of $19.69 billion in just three months of 2022 [oai_citation:5,US wraps up antitrust case against Google in historic trial | Reuters](https://www.reuters.com/legal/us-wraps-up-antitrust-case-against-google-historic-trial-2023-11-16/#:~:text=Alphabet%20reported%20a%20net%20,69%20billion%20for%20the%20quarter) – paints a picture of a search landscape driven more by money than by the intent to provide quality, helpful content.
+Even more concerning, this partnership limits the growth of other search engines and possibly influences Apple's stance on privacy and competition [oai_citation:3,Apple earns 36% of Google search ad revenue through Safari, antitrust trial reveals - 9to5Mac](https://9to5mac.com/2023/11/13/apple-google-36-percent/). Add to that the fact that Google, with nearly 90% market share in the U.S., has the power to raise ad rates without losing advertisers [oai_citation:4,US wraps up antitrust case against Google in historic trial - Reuters](https://www.reuters.com/legal/us-wraps-up-antitrust-case-against-google-historic-trial-2023-11-16/#:~:text=Whinston%20said%20Google%20had%20the,little%20incentive%20to%20improve%20quality). This financial grip over the market, combined with massive profits – Google reported a net profit of $19.69 billion in just three months of 2022 [oai_citation:5,US wraps up antitrust case against Google in historic trial - Reuters](https://www.reuters.com/legal/us-wraps-up-antitrust-case-against-google-historic-trial-2023-11-16/#:~:text=Alphabet%20reported%20a%20net%20,69%20billion%20for%20the%20quarter) – paints a picture of a search landscape driven more by money than by the intent to provide quality, helpful content.
 
 So, where does that leave us? In a world where search engines are increasingly motivated by profit, the authenticity of content and the sincerity of its creators are more important than ever. It's time to rethink our approach to creating and sharing information online."
 
@@ -144,8 +144,8 @@ This image would visually encapsulate the essence of your article – breaking f
 ## Categories
 
 <ul>
+<li><h4><a href='/ai/'>AI</a></h4></li>
 <li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/search/'>Search</a></h4></li>
-<li><h4><a href='/ai/'>AI</a></h4></li>
-<li><h4><a href='/future/'>Future</a></h4></li>
-<li><h4><a href='/seo/'>SEO</a></h4></li></ul>
+<li><h4><a href='/seo/'>SEO</a></h4></li>
+<li><h4><a href='/future/'>Future</a></h4></li></ul>

@@ -4,7 +4,7 @@ title: Craftsmanship With the Fundamental FOSS Fabric of Technology
 headline: "Discovering the Craftsmanship of Fundamental FOSS Technology: My Journey of Mastery and Resilience"
 description: I discovered the timeless value of technology when the Amiga computer I loved disappeared. I've since learned to focus on the 'low-level' parts of the stack that don't change as rapidly, such as Linux, Python, and vim. I've found a way to stay engaged and productive, while also developing a deep understanding of technology and a sense of mastery. I'm exploring the implications of vendor-provided tools versus foundational free and open source technology.
 keywords: Amiga, Commodore, Unix, Linux, Python, JavaScript, VSCode, vim, cloud services, buzzwords, front-end frameworks, text editing, Alan Kay, “do-it-yourself”, “do-it-for-me”, AI, SEO, Industrial Revolution, digital age, sheeple, Maker Movement, AI learning, creativity, novelty, flow, mastery, craftsmanship, vendor provided, free and open source, planned obsolesc
-categories: linux, javascript, flow, microsoft, vim, python, ai, seo, amiga
+categories: vim, ai, microsoft, amiga, python, seo, flow, javascript, linux
 permalink: /blog/craftsmanship-with-the-fundamental-foss-fabric-of-technology/
 layout: post
 group: blog
@@ -190,12 +190,12 @@ Pi: Well, that's the million-dollar question, isn't it? 😄 I think one potenti
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
-<li><h4><a href='/flow/'>Flow</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
 <li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/ai/'>AI</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/amiga/'>Amiga</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
 <li><h4><a href='/seo/'>SEO</a></h4></li>
-<li><h4><a href='/amiga/'>Amiga</a></h4></li></ul>
+<li><h4><a href='/flow/'>Flow</a></h4></li>
+<li><h4><a href='/javascript/'>JavaScript</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

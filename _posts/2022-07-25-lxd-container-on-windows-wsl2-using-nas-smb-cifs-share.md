@@ -4,7 +4,7 @@ title: LXD Container on Windows WSL2 Using NAS SMB/CIFS Share
 headline: Successfully Setting Up LXD Container on Windows WSL2 with NAS SMB/CIFS Share
 description: After struggling to set up a LXD container, I found the solution to my problem - mapping my NAS, .ssh folder, .gitconfig, and .vimrc files, and then running two commands from within the container. I also had to mount a Windows network share using the command 'sudo mount -t drvfs '\\EchidNAS\data' /mnt/data'. Now my LXD container is running as expected.
 keywords: LXD, Container, Windows, WSL2, NAS, SMB/CIFS, Share, Ubuntu, Python, Scheduling, Daemon, /etc/systemd/system, Uninstall, smbclient, Python 3.7, Symbolic Link, Device, Connect, /mnt/data
-categories: ubuntu, microsoft, wsl, scheduling, python, container
+categories: ubuntu, microsoft, scheduling, container, python, wsl
 permalink: /blog/lxd-container-on-windows-wsl2-using-nas-smb-cifs-share/
 layout: post
 group: blog
@@ -222,7 +222,7 @@ And I start the container and it's there!
 <ul>
 <li><h4><a href='/ubuntu/'>Ubuntu</a></h4></li>
 <li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
 <li><h4><a href='/scheduling/'>Scheduling</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li></ul>
+<li><h4><a href='/wsl/'>WSL</a></h4></li></ul>
