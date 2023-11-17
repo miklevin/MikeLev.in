@@ -4,7 +4,7 @@ title: Introducing A Next Gen SEO Project
 headline: "Unveiling My Next-Gen Interoperable Project: Linux, Python, vim, git, and Jupyter"
 description: I'm introducing a complex project that uses Linux, browser automation, and Microsoft's implementation of Linux to automate data tasks. I'm also transitioning to Linux, Python, vim, git, and Jupyter for web development, and I'll be using a Linux VM and a web browser to access a Linux CLI from my Windows system. This will allow me to automate tasks and build a Linux server from my Windows system.
 keywords: Linux, Python, Vim, Git, Jupyter, Browser Automation, Microsoft, Windows, Virtual Machines, VMs, Web Development, CLI, Docker, Automation, Server, Localhost, 8888
-categories: vim, microsoft, jupyter, python, git, web development, container, browser automation, linux
+categories: browser automation, linux, python, jupyter, microsoft, container, web development, vim, git
 permalink: /blog/introducing-a-next-gen-seo-project/
 layout: post
 group: blog
@@ -219,12 +219,12 @@ execution layer.
 ## Categories
 
 <ul>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/web-development/'>Web Development</a></h4></li>
-<li><h4><a href='/container/'>Containers</a></h4></li>
 <li><h4><a href='/browser-automation/'>Browser Automation</a></h4></li>
-<li><h4><a href='/linux/'>Linux</a></h4></li></ul>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/container/'>Containers</a></h4></li>
+<li><h4><a href='/web-development/'>Web Development</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/git/'>Git</a></h4></li></ul>

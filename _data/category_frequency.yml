@@ -609,7 +609,7 @@ dictitems:
     count: 1
     title: Access Control List
   accessible:
-    count: 3
+    count: 2
     title: Accessible
   acclimating:
     count: 1
@@ -672,11 +672,8 @@ dictitems:
     count: 1
     title: actuals
   ad revenue:
-    count: 2
-    title: Ad Revenue
-  ad-motivated:
     count: 1
-    title: Ad-Motivated
+    title: Ad Revenue
   ada lovelace:
     count: 2
     title: Ada Lovelace
@@ -840,7 +837,7 @@ dictitems:
     count: 1
     title: Ahrefs
   ai:
-    count: 116
+    count: 115
     title: AI
   ai apocalypse:
     count: 1
@@ -1064,9 +1061,6 @@ dictitems:
   altitude:
     count: 1
     title: Altitudes
-  altruism:
-    count: 1
-    title: Altruism
   aluminum clocks:
     count: 1
     title: Aluminum Clocks
@@ -1226,9 +1220,6 @@ dictitems:
   antigravity propulsion system:
     count: 1
     title: Antigravity Propulsion System
-  antitrust:
-    count: 1
-    title: Antitrust
   anxiety:
     count: 2
     title: Anxiety
@@ -1296,7 +1287,7 @@ dictitems:
     count: 1
     title: Appealing
   apple:
-    count: 14
+    count: 13
     title: Apple
   apple app store:
     count: 1
@@ -1596,7 +1587,7 @@ dictitems:
     count: 1
     title: Authentication Process
   authenticity:
-    count: 2
+    count: 1
     title: Authenticity
   authority:
     count: 2
@@ -2916,8 +2907,8 @@ dictitems:
     count: 1
     title: Chatbot Technology
   chatbots:
-    count: 4
-    title: ChatBots
+    count: 3
+    title: Chatbots
   chatgpt:
     count: 28
     title: ChatGPT
@@ -3765,7 +3756,7 @@ dictitems:
     count: 1
     title: Content Appeal
   content creation:
-    count: 2
+    count: 1
     title: Content Creation
   content deluge:
     count: 1
@@ -4094,9 +4085,6 @@ dictitems:
   cringe-worthy:
     count: 1
     title: Cringe-Worthy
-  critical analysis:
-    count: 1
-    title: Critical Analysis
   critical thinking:
     count: 2
     title: Critical Thinking
@@ -4217,9 +4205,6 @@ dictitems:
   curly-braces:
     count: 1
     title: Curly-Braces
-  current state:
-    count: 1
-    title: Current State
   curriculum:
     count: 1
     title: Curriculum
@@ -5027,9 +5012,6 @@ dictitems:
   discussion:
     count: 2
     title: Discussion
-  disingenuous:
-    count: 1
-    title: Disingenuous
   disk operating system:
     count: 1
     title: Disk Operating System
@@ -5973,7 +5955,7 @@ dictitems:
     count: 1
     title: Ethics
   ethical:
-    count: 4
+    count: 3
     title: Ethical
   ethical considerations:
     count: 1
@@ -7050,7 +7032,7 @@ dictitems:
     count: 1
     title: Fusion Power
   future:
-    count: 10
+    count: 9
     title: Future
   future generations:
     count: 1
@@ -7509,7 +7491,7 @@ dictitems:
     count: 1
     title: Goodness
   google:
-    count: 29
+    count: 28
     title: Google
   google analytics:
     count: 14
@@ -8112,7 +8094,7 @@ dictitems:
     count: 1
     title: Helpers Repo
   helpful content:
-    count: 2
+    count: 1
     title: Helpful Content
   helpful content update:
     count: 1
@@ -8226,7 +8208,7 @@ dictitems:
     count: 1
     title: Hits the Fan
   hittail:
-    count: 5
+    count: 4
     title: HitTail
   hittail system:
     count: 1
@@ -8810,9 +8792,6 @@ dictitems:
   information technology:
     count: 1
     title: Information Technology
-  informative:
-    count: 1
-    title: Informative
   informed:
     count: 1
     title: Informed
@@ -9006,7 +8985,7 @@ dictitems:
     count: 1
     title: Intense
   intent:
-    count: 3
+    count: 2
     title: Intent
   intention:
     count: 1
@@ -10679,9 +10658,6 @@ dictitems:
   long-running script:
     count: 1
     title: long-running script
-  long-tail:
-    count: 1
-    title: Long-Tail
   long-tail marketing:
     count: 1
     title: Long-Tail Marketing
@@ -11762,9 +11738,6 @@ dictitems:
   mind reading:
     count: 1
     title: Mind Reading
-  mind-control:
-    count: 1
-    title: Mind-Control
   mind-tricks:
     count: 1
     title: Mind-tricks
@@ -13604,9 +13577,6 @@ dictitems:
   personal server:
     count: 1
     title: Personal Server
-  personal voice:
-    count: 1
-    title: Personal Voice
   personality:
     count: 3
     title: personalities
@@ -14165,9 +14135,6 @@ dictitems:
   pr:
     count: 1
     title: PR
-  practical:
-    count: 1
-    title: Practical
   practice:
     count: 5
     title: Practice
@@ -14450,9 +14417,6 @@ dictitems:
   professional certificate:
     count: 1
     title: Professional Certificate
-  professional experience:
-    count: 1
-    title: Professional Experience
   professional journal:
     count: 1
     title: Professional Journal
@@ -15458,9 +15422,6 @@ dictitems:
   reinventing:
     count: 1
     title: Reinventing
-  relatable:
-    count: 1
-    title: Relatable
   related pages:
     count: 1
     title: related pages
@@ -16365,7 +16326,7 @@ dictitems:
     count: 1
     title: Sean Kirkpatrick
   search:
-    count: 15
+    count: 14
     title: Search
   search console:
     count: 4
@@ -16596,7 +16557,7 @@ dictitems:
     count: 1
     title: Sentiment Analysis
   seo:
-    count: 94
+    count: 93
     title: SEO
   seo blog:
     count: 1
