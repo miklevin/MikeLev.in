@@ -4,7 +4,7 @@ title: Removing Password Authentication from SSH Services
 headline: Securely Eliminating Passwords with OpenSSH and Linux Containers
 description: I created a new Linux container with OpenSSH service and disabled the ability to challenge passwords, then moved keys over to eliminate passwords. I also set up a shared folder with three sub-folders, changed permissions on the keys, and restarted the SSH service. Read my blog post to learn how I did it.
 keywords: Linux, OpenSSH, Password Authentication, SSH Services, Shared Folder, Sub-Folders, Permissions, Keys, Restarting
-categories: linux, key
+categories: key, linux
 permalink: /blog/removing-password-authentication-from-ssh-services/
 layout: post
 group: blog
@@ -64,5 +64,5 @@ And so on.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/key/'>Keys</a></h4></li></ul>
+<li><h4><a href='/key/'>Keys</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li></ul>

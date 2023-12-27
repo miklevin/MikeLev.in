@@ -1104,7 +1104,7 @@ dictitems:
     count: 1
     title: AMLesque
   amoeba:
-    count: 1
+    count: 2
     title: Amoebas
   amos:
     count: 1
@@ -1754,6 +1754,9 @@ dictitems:
   backup:
     count: 6
     title: Backup
+  bacteria:
+    count: 1
+    title: Bacteria
   bad actors:
     count: 1
     title: bad actors
@@ -2195,6 +2198,9 @@ dictitems:
   blinkist:
     count: 1
     title: Blinkist
+  blip:
+    count: 1
+    title: Blip
   bloatware:
     count: 1
     title: Bloatware
@@ -2699,6 +2705,9 @@ dictitems:
   car battery:
     count: 1
     title: Car Battery
+  care:
+    count: 1
+    title: Care
   career:
     count: 2
     title: Career
@@ -2817,8 +2826,8 @@ dictitems:
     count: 1
     title: Celebrate
   cell:
-    count: 2
-    title: Cell
+    count: 3
+    title: Cells
   cell walls:
     count: 1
     title: cell walls
@@ -3687,7 +3696,7 @@ dictitems:
     count: 1
     title: Connecting Dots
   connection:
-    count: 1
+    count: 2
     title: Connection
   connector:
     count: 1
@@ -3876,7 +3885,7 @@ dictitems:
     count: 1
     title: Cooking
   cooperation:
-    count: 1
+    count: 2
     title: Cooperation
   copilot:
     count: 27
@@ -4916,6 +4925,9 @@ dictitems:
   difficulty:
     count: 1
     title: Difficulty
+  digest:
+    count: 1
+    title: Digest
   digital:
     count: 3
     title: Digital
@@ -5109,7 +5121,7 @@ dictitems:
     count: 1
     title: DMZ
   dna:
-    count: 3
+    count: 4
     title: DNA
   dns:
     count: 5
@@ -5295,8 +5307,8 @@ dictitems:
     count: 2
     title: drawing
   dream:
-    count: 1
-    title: Dreams
+    count: 2
+    title: Dream
   drinkeme:
     count: 1
     title: DrinkeMe
@@ -5784,7 +5796,7 @@ dictitems:
     count: 2
     title: Endpoints
   energy:
-    count: 5
+    count: 6
     title: Energy
   energy harvesting:
     count: 1
@@ -5936,6 +5948,9 @@ dictitems:
   escher:
     count: 1
     title: Escher
+  essence:
+    count: 1
+    title: Essence
   essential vibe:
     count: 1
     title: Essential Vibe
@@ -5978,6 +5993,9 @@ dictitems:
   eu:
     count: 1
     title: EU
+  eukaryote:
+    count: 1
+    title: Eukaryotes
   euler diagrams:
     count: 1
     title: Euler Diagrams
@@ -6090,7 +6108,7 @@ dictitems:
     count: 1
     title: ExForce SciFi
   existence:
-    count: 4
+    count: 5
     title: Existence
   existential crisis:
     count: 3
@@ -7016,6 +7034,9 @@ dictitems:
   fundamental:
     count: 2
     title: Fundamentals
+  fungi:
+    count: 1
+    title: Fungi
   funnel:
     count: 1
     title: Funnel
@@ -7101,8 +7122,8 @@ dictitems:
     count: 1
     title: Galactic Spirals
   galaxy:
-    count: 2
-    title: Galaxies
+    count: 3
+    title: Galaxy
   galileo project:
     count: 1
     title: Galileo Project
@@ -8600,8 +8621,11 @@ dictitems:
   immersive experience:
     count: 1
     title: Immersive Experience
+  immune:
+    count: 1
+    title: Immune
   impact:
-    count: 5
+    count: 6
     title: Impact
   impact on society:
     count: 1
@@ -9194,6 +9218,9 @@ dictitems:
   irrational:
     count: 1
     title: irrational
+  irreplaceable:
+    count: 1
+    title: Irreplaceable
   irrepressible:
     count: 1
     title: Irrepressible
@@ -11582,6 +11609,9 @@ dictitems:
   microkernel:
     count: 1
     title: Microkernel
+  microorganism:
+    count: 1
+    title: Microorganism
   microsoft:
     count: 61
     title: Microsoft
@@ -11816,6 +11846,9 @@ dictitems:
   mit:
     count: 5
     title: MIT
+  mitocondria:
+    count: 1
+    title: Mitocondria
   miyamoto musashi:
     count: 1
     title: Miyamoto Musashi
@@ -11997,7 +12030,7 @@ dictitems:
     count: 1
     title: MovableType
   move:
-    count: 4
+    count: 5
     title: Move
   movement:
     count: 2
@@ -12710,6 +12743,9 @@ dictitems:
   nuance:
     count: 4
     title: Nuances
+  nucleus:
+    count: 1
+    title: Nucleus
   numa:
     count: 1
     title: NUMA
@@ -13404,7 +13440,7 @@ dictitems:
     count: 1
     title: Patent-Lawyer Engineers
   path:
-    count: 8
+    count: 9
     title: path
   path library:
     count: 1
@@ -13850,6 +13886,9 @@ dictitems:
   planning:
     count: 2
     title: Planning
+  plant:
+    count: 1
+    title: Plants
   planting roots:
     count: 1
     title: planting roots
@@ -14468,6 +14507,9 @@ dictitems:
   projecting epigenetic templates:
     count: 1
     title: Projecting Epigenetic Templates
+  prokaryote:
+    count: 1
+    title: Prokaryotes
   prometheus:
     count: 1
     title: Prometheus
@@ -18350,6 +18392,9 @@ dictitems:
   taoism:
     count: 1
     title: Taoism
+  tapestry:
+    count: 1
+    title: Tapestry
   tardigrade:
     count: 2
     title: Tardigrade
@@ -18699,14 +18744,14 @@ dictitems:
     count: 1
     title: thorough
   thought:
-    count: 7
+    count: 9
     title: Thoughts
   thought processing:
     count: 1
     title: Thought Processing
   thread:
-    count: 1
-    title: Thread
+    count: 2
+    title: Threads
   thrive:
     count: 1
     title: Thrive
@@ -19398,7 +19443,7 @@ dictitems:
     count: 1
     title: Unions
   unique:
-    count: 5
+    count: 6
     title: Unique
   unique content:
     count: 2
@@ -19443,7 +19488,7 @@ dictitems:
     count: 1
     title: Universality
   universe:
-    count: 5
+    count: 6
     title: Universe
   university of manchester:
     count: 1
@@ -20012,6 +20057,9 @@ dictitems:
   visuals:
     count: 3
     title: Visuals
+  vitamin:
+    count: 1
+    title: Vitamins
   vitamix:
     count: 1
     title: Vitamix
@@ -20529,7 +20577,7 @@ dictitems:
     count: 1
     title: WORA
   word:
-    count: 3
+    count: 4
     title: Word
   word problems:
     count: 1

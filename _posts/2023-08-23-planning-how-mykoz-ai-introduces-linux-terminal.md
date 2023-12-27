@@ -4,7 +4,7 @@ title: Planning how MyKoz.AI Introduces Linux Terminal
 headline: "I'm Investing in Myself to Change Your Life: Introducing MyKoz.AI and Linux Terminal"
 description: Welcome to MyKoz.AI, the site that introduces you to the Linux Terminal and shows you how to use it to stay in your Windows comfort zone. Learn how to use the Linux CLI, Bash Shell, and text editor to keep a personal journal and future-proof your skills. Follow the 2-step transition plan of learning Python through Jupyter Notebook and automating Linux Google Chrome to create a screenshot.
 keywords: Linux, Terminal, Windows, Cloud, Python, Vim, Git, LPvg, FOSS, Command-Line, Interface, TTY, Shell, Bash, Jupyter, Notebooks, REPL, Google, Colab, Anaconda, Mount, Home, Directory, Microsoft, Playwright, Automation, Screenshot, Systemd, Daemon, Service, WSL, Symlink
-categories: linux, python, jupyter, microsoft, google, systemd, microsoft playwright, vim, wsl, git, lpvg
+categories: systemd, linux, git, jupyter, lpvg, microsoft, python, vim, google, wsl, microsoft playwright
 permalink: /blog/planning-how-mykoz-ai-introduces-linux-terminal/
 layout: post
 group: blog
@@ -256,14 +256,14 @@ Okay, so the next step is that minimal Chrome automation from Playwright thing.
 ## Categories
 
 <ul>
-<li><h4><a href='/linux/'>Linux</a></h4></li>
-<li><h4><a href='/python/'>Python</a></h4></li>
-<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
-<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
-<li><h4><a href='/google/'>Google</a></h4></li>
 <li><h4><a href='/systemd/'>Systemd</a></h4></li>
-<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li>
-<li><h4><a href='/vim/'>Vim</a></h4></li>
-<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/linux/'>Linux</a></h4></li>
 <li><h4><a href='/git/'>Git</a></h4></li>
-<li><h4><a href='/lpvg/'>LPvg</a></h4></li></ul>
+<li><h4><a href='/jupyter/'>Jupyter</a></h4></li>
+<li><h4><a href='/lpvg/'>LPvg</a></h4></li>
+<li><h4><a href='/microsoft/'>Microsoft</a></h4></li>
+<li><h4><a href='/python/'>Python</a></h4></li>
+<li><h4><a href='/vim/'>Vim</a></h4></li>
+<li><h4><a href='/google/'>Google</a></h4></li>
+<li><h4><a href='/wsl/'>WSL</a></h4></li>
+<li><h4><a href='/microsoft-playwright/'>Microsoft Playwright</a></h4></li></ul>
