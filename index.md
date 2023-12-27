@@ -38,6 +38,6 @@ git (LPvg).  To this end, I have 2 popular projects: Levinux and Pipulate.
 
 ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
 
-{% include post_short_list.html %}
+<!-- {% include post_short_list.html %} -->
 
 <a href="/blog/">All Posts</a>
