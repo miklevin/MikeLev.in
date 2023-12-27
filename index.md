@@ -36,8 +36,8 @@ on Windows. My hobby is helping people resist hopping on the hamster wheel of
 obsolescence by focusing on the timeless tools of tech: Linux, Python, vim and
 git (LPvg).  To this end, I have 2 popular projects: Levinux and Pipulate. 
 
-### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ...
+<!-- ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ... 
 
-<!-- {% include post_short_list.html %} -->
+{% include post_short_list.html %}
 
-<a href="/blog/">All Posts</a>
+<a href="/blog/">All Posts</a> -->
