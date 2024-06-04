@@ -25,19 +25,44 @@ directly from Python for free. And learn Linux. Free yourself.</td>
 </tr>
 </table>
 
-Your tech skills go obsolete by design. Some free and open source software
-(FOSS) tools don't change for decades (in a good way), allowing muscle memory
-and craftsmanship to forever improve. Start building lifelong craftsmanship in
-tech by <a href="https://mykoz.ai">running the Linux version of Python</a>.on
-your local machine.
+I fell in love with the Amiga Computer over 30 years ago, and have been trying
+to recapture the magic ever since. I've tried everything, and after much pain
+and deliberation have come to the conclusion that you should not fall in love
+with your hardware. Software on the other hand can stay with you for life and
+never lets you down &#151; so long as it's well-chosen FOSS (free and open
+source software). The learning curve can be steep, but it's worth it.
 
-Future-proofing yourself on the Linux command-line can occur even while staying
-on Windows. My hobby is helping people resist hopping on the hamster wheel of
-obsolescence by focusing on the timeless tools of tech: Linux, Python, vim and
-git (LPvg).  To this end, I have 2 popular projects: Levinux and Pipulate. 
+I'm talking about craftsmanship in tech. Digital artistry. Make it impossible
+for anyone to take your hard-won muscle memory away from you with the next
+upgrade, license change, job switch and everything else keeping you on the
+hamster wheel of tech. Think VSCode's going to be with you for life? Think
+again. But what's it all emulating? What do they all go to great lengths to be
+like? Linux and vim. It's a hard pill to swallow, but there it is.
 
-<!-- ### Mike Levin's Blog Posts (<a href="/blog/">all</a>) ... 
+There's a larger discussion here about Unix and portability of everything, and
+a whole bad boy philosophy of yanking back the good stuff for the masses after
+corporate greed appropriates it, as GE and Bell Labs almost did from Fernando
+Corbató with Multics until still living national treasure Ken Thompson yanked
+it back with Unix. That got absconded with once again by big tech, so Linux
+Torvalds yanked it back with Linux, in an eternal repeating story.
 
-{% include post_short_list.html %}
+Today, a smattering of the tools that they created and liberated can't be taken
+away from you by vendor shenanigans because they're the very tools ***they***
+have to use to build their own stuff. And with the exception of the C
+programming language that takes a level of something that I seem to not have, I
+find the others manageable over time with practice &amp; even the legendarily
+difficult vim text editor that everyone builds the "mode" for in. Find out why.
 
-<a href="/blog/">All Posts</a> -->
+I advocate Linux, Python, vim and git, collectively the LPvg as the minimum
+viable platform for life. There's plenty of other stuff you can (and should)
+take up in life for your day-job, as the right tool for the job or  whatever.
+But having Linux, Python, vim and git in your back pocket future-proofs you and
+makes you able to do stuff and a valuable contributor in almost any environment
+today and long into the future.
+
+Each of these tools is a potential rabbit hole in their own right, especially
+Linux. But if you're resisting obsolescence with a vengeance, after you've
+learned the basics with a version like Ubuntu or OpenSuse, you're going to want
+to look at NixOS, the ultimate in infusing the spirit of the machine into new
+hardware from now to forever. Even virtual machines and containers seem kind of
+silly in comparison.
