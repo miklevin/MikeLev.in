@@ -25,7 +25,7 @@ MB and no install!</td>
 SEO</a></b><br />A project that's undergoing major revision (again) in light of
 the radical changes taking place in our world as a result of AI. So stay tuned
 as I figure out the best Python tricks to fill your basic next generation SEO
-AI toolbox.</td>
+AI toolbox to be Bot BFFs!</td>
 
 </tr>
 </table>
