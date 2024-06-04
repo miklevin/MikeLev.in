@@ -16,14 +16,16 @@ group: home
 <td class="hptd"><b><a href="/levinux/">A Micro Linux For Your
 Education</a></b><br />Forget arguing Desktops! Resisting obsolescence comes
 from knowing the command-line, shell, terminal, whatever you want to call it.
-So, dispel the fear with Levinux, the Gom Jabbar (Dune pain-box) of Linux.</td>
+So, dispel the fear with Levinux, the Gom Jabbar (Dune pain-box) of Linux. 20
+MB and no install!</td>
 
 <td style="background: black;">&nbsp;</td>
 
 <td class="hptd"><b><a href="/pipulate/">Pipulate Free & Open Source
-SEO</a></b><br />A collection of ready-to-run Jupyter Notebooks on your Windows
-PC, covering all the most necessary tasks that an SEO should be able to perform
-directly from Python for free. And learn Linux. Free yourself.</td>
+SEO</a></b><br />A project that's undergoing major revision (again) in light of
+the radical changes taking place in our world as a result of AI. So stay tuned
+as I figure out the best Python tricks to fill your basic next generation SEO
+AI toolbox.</td>
 
 </tr>
 </table>
