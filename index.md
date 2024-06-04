@@ -57,8 +57,8 @@ I advocate Linux, Python, vim and git, collectively the LPvg as the minimum
 viable platform for life. There's plenty of other stuff you can (and should)
 take up in life for your day-job, as the right tool for the job or  whatever.
 But having Linux, Python, vim and git in your back pocket future-proofs you and
-makes you able to do stuff and a valuable contributor in almost any environment
-today and long into the future.
+makes you able to do stuff and be a valuable contributor in almost any
+environment today and long into the future. Stick with me for LPvg!
 
 Each of these tools is a potential rabbit hole in their own right, especially
 Linux. But if you're resisting obsolescence with a vengeance, after you've
