@@ -12,16 +12,19 @@ group: home
 <td class="hplg"><a href="https://pipulate.com/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
 </tr>
 <tr>
+
 <td class="hptd"><b><a href="/levinux/">A Micro Linux For Your
-Education</a></b><br />Are you still scared of Linux? Well you shouldn't be.
-Cure that with this 25MB tiny virtual Linux server download that runs with a
-double-click (no install or admin not needed) on Macs, Windows or Linux. Test
-yourself</td>
+Education</a></b><br />Forget arguing Desktops! Resisting obsolescence comes
+from knowing the command-line, shell, terminal, whatever you want to call it.
+So, dispel the fear with Levinux, the Gom Jabbar (Dune pain-box) of Linux.</td>
+
 <td style="background: black;">&nbsp;</td>
+
 <td class="hptd"><b><a href="/pipulate/">Pipulate Free & Open Source
 SEO</a></b><br />A collection of ready-to-run Jupyter Notebooks on your Windows
 PC, covering all the most necessary tasks that an SEO should be able to perform
 directly from Python for free. And learn Linux. Free yourself.</td>
+
 </tr>
 </table>
 
