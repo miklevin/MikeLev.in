@@ -43,7 +43,7 @@ There's a larger discussion here about Unix and portability of everything, and
 a whole bad boy philosophy of yanking back the good stuff for the masses after
 corporate greed appropriates it, as GE and Bell Labs almost did from Fernando
 Corbató with Multics until still living national treasure Ken Thompson yanked
-it back with Unix. That got absconded with once again by big tech, so Linux
+it back with Unix. That got absconded with once again by big tech, so Linus
 Torvalds yanked it back with Linux, in an eternal repeating story.
 
 Today, a smattering of the tools that they created and liberated can't be taken
