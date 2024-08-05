@@ -25,4 +25,3 @@ This is it, from a Commodore Wonderland to MOZ.
 - [Golden Goose](/poetry/golden-goose/) — we see how clueless short-sighted bosses drive out talent.
 - [Satan's Son](/poetry/satans-son/) — we see a young hotshot take on a tough old seasoned guy.
 
-![Keanu Reeves Bertram Gilfoyle Jeb Jens Bergensten](/assets/images/keanu-reeves-bertram-gilfoyle-jeb-jens-bergensten.jpg)
