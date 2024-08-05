@@ -9,10 +9,7 @@ keywords: poetry, poems, mike levin, mikelevin, mikelevin.com, mike levin poetry
 
 ## The Poetry of Mike Levin
 
-Once upon a time, I wrote a lot of poetry. I was a young hotshot webmaster, and
-I was full of myself. I was also full of angst. I was also full of ideas. I was
-also full of energy. I was also full of passion. I was also full of poetry.
-This is it, from a Commodore Wonderland to MOZ.
+Once upon a time, I wrote some poetry. 
 
 - [Who Let in The Bees?](/poetry/bees/) — we see how mediocrity eternally recurs.
 - [The Eighty Twenty Rule](/poetry/eighty-twenty-rule/) — we organize our efforts for maximum returns.
