@@ -1,0 +1,96 @@
+---
+title: Pipulate Free and Open Source AI SEO Software
+description: Pipulate is a free and open source SEO software project that uses AI to automate SEO tasks. It runs locally on your machine so you can cycle IPs and automate web browsers without getting blocked or paying for a service. The rub is you're going to have to allow a normalized Linux server to run on your Windows or Mac laptop, and maybe have to learn something. Sorry.
+permalink: /LPvg/
+layout: default
+group: LPvg
+---
+
+# Linux, Python, vim & git (LPvg)
+
+There's a larger discussion here about Unix and portability of everything, and
+a whole bad boy philosophy of yanking back the good stuff for the masses after
+corporate greed appropriates it, as GE and Bell Labs almost did from Fernando
+Corbató with Multics until still living national treasure Ken Thompson yanked
+it back with Unix. That got absconded with once again by big tech, so Linus
+Torvalds yanked it back with Linux, in an eternal repeating story.
+
+Today, a smattering of the tools that they created and liberated can't be taken
+away from you by vendor shenanigans because they're the very tools ***they***
+have to use to build their own stuff. And with the exception of the C
+programming language that takes a level of something that I seem to not have, I
+find the others manageable over time with practice &amp; even the legendarily
+difficult vim text editor that everyone builds the "mode" for in. Find out why.
+
+I advocate Linux, Python, vim and git, collectively the LPvg as the minimum
+viable platform for life. There's plenty of other stuff you can (and should)
+take up in life for your day-job, as the right tool for the job or  whatever.
+But having LPvg in your back pocket future-proofs you and makes you able to do
+stuff and be a valuable contributor in almost any environment today and long
+into the future.
+
+Now, there's also Jupyter Notebooks for a generic, free and open source software
+(FOSS) place to run your Python in a fun and interactive Web-based way that
+doesn't require the cloud. It is neither Microsoft VSCode nor Google Colab,
+though they both emulate it. And it's JupyterLab, in particular to stave off
+having to use vim right away, and to get interactive web dashboards in addition
+to embedding markdown documentation and code in a sharable form.
+
+And you know what? The final piece just fell into place. It's called Nix. And
+NixOS, but you need not use the OS, necessarily. Nix scratches various itches. A
+big one is a way for Mac and Windows users to exchange definition scripts for
+fully working environments including software from a huge nix software
+repository system. 
+
+So if you don't want to build something as a Web app, and you maybe want it to
+run from a Python Notebook and be sharable, Nix provides easy environment
+sharing so you don't have to follow tedious install instructions every time you
+need to spin-up such-and-such a system. And it's without containers or virtual
+machines.  And these system definitions starts with a simple configuration.nix
+file.
+
+Nix is an imperative system configuration language, like SQL or HTML, but for
+configuring whole systems, all the software including pip installs and any
+apt-get or homebrew, custom driver or whatever environment variable stuff
+baked-in. You configure generally a single conifiguration.nix file like a great
+big JSON file that defines your system, and Ta-da! Portable system for life.
+The cofiguration files work great in git repositories.
+
+This portable tech system without containers or VMs that works across different
+hardware (with some occasional adjustments) appeals to me. More than a decade
+ago, I created Levinux, a highly portable QEMU-based VM for hacking around with.
+But it was a lot of moving parts to wrangle for such little performance. But I
+made attempts at building what I was looking for. I also played around with
+containers, and not just Docker, but also Ubuntu's LXD, which was great for
+those who loved reliable pre-built containers you could treat like a fresh
+install, so you can script some level of reproducibility.
+
+But such cobbled-together system-building approaches from containers is not
+something that cuts across decades. But a script to build the excact same thing
+from the exact same historical (often GitHub) places if not already cached. So,
+everything's pinned with working versions and a sort of undo/redo,
+rebuild-from-scratch small tech stack that will travel well.
+
+Such a repo system not only lets you set up a entire running NixOS system which
+is a popular use for Nix (what I now use), but it also lets you create
+sub-systems on either macOS, Windows, the Windows Subsystem for Linux (WSL), or
+outer Linuxes that are exactly the same across different machines. And this is
+where getting better at tech tools for life comes in. 
+
+You define a good Linux, Python, vim & git (LPvg) to travel with you, and get
+good at using this small set of tools on a wide set of problems, and improve for
+life in tech, like you can in music, sports, woodworking, or anything where the
+tools let you improve forever for life, without so much churn that it's hardly
+worth learning everything.
+
+domain specific language (DSL) using software from generally GitHub (it can be
+other) locations. It defines your whole system, but for the local or home
+configuration files and saved data.
+
+Each of these tools is a potential rabbit hole in their own right, especially
+Linux. But if you're resisting obsolescence with a vengeance, after you've
+learned the basics with a version like Ubuntu or OpenSuse, you're going to want
+to look at NixOS, the ultimate in infusing the spirit of the machine into new
+hardware from now to forever. Even virtual machines and containers seem kind of
+silly in comparison.
+
