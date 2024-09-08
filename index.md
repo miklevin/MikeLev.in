@@ -79,3 +79,4 @@ hamster wheel of tech. Think VSCode's going to be with you for life? Think
 again. But what's it all emulating? What do they all go to great lengths to be
 like? Linux and vim. It's a hard pill to swallow, but there it is.
 
+[The beginning](/beginning)
