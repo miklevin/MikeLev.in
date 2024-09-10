@@ -1,6 +1,6 @@
 ---
-title: Future-proofing, The Beginning
-permalink: /beginning/
+title: Understanding the NixOS Langauge
+permalink: /nixos-language/
 layout: default
 ---
 
@@ -169,8 +169,6 @@ To understand the data structure, nesting, and termination rules better, here ar
 
 By exploring these resources, you'll gain a deeper understanding of the Nix language's structure and how to effectively use it to manage system configurations.
 
-Sources
-
 
 Me: If this is true:
 
@@ -220,8 +218,6 @@ Here's a simplified view:
 This syntax allows NixOS configurations to be modular and reusable. By treating the configuration as a function, you can easily import and compose different configurations, passing different arguments as needed.
 
 Understanding this distinction between pattern matching for function arguments and attribute sets is crucial for working with Nix expressions. Once you get used to this functional paradigm, it becomes a powerful tool for managing configurations.
-
-Sources
 
 
 Me: That breaks my head. I understand unpacking tuples in Python,  it usually during assignment and not function calls. I understand splatting arguments in Python by way of unpacking tiples. But the parallel to what's going on here eludes me. Is there some very basic bare bones hello world style example you can show me? Maybe one that draws the parallel between nix and Python? And what's further, I need a follow up to distinguish that from the other use of curly braces, the Attribute Sets. That use cares are colliding in my mind.  
@@ -294,8 +290,6 @@ print(result['message'])  # Output: "Hello, World!"
 
 By understanding these distinctions, you can better grasp how Nix expressions work and how they differ from Python code. The functional paradigm in Nix allows for powerful abstractions and modular configurations, but it does require a shift in thinking from imperative programming.
 
-Sources
-
 
 Me: Write a poem called the bane of curly braces in nix which creatively and
 clearly differentiates the two common uses that you will encounter right away in
@@ -304,42 +298,40 @@ rapid succession and must grok, much to the chagrin of a monoglot Pythonista.
 
 Perplexity: **The Bane of Curly Braces in Nix**
 
-In the land of Nix, where syntax is king,  
-Curly braces dance, and their meanings swing.  
-For a Pythonista, with eyes wide and bright,  
-These twisting symbols bring both awe and fright.
+    In the land of Nix, where syntax is king,  
+    Curly braces dance, and their meanings swing.  
+    For a Pythonista, with eyes wide and bright,  
+    These twisting symbols bring both awe and fright.
 
-First, they appear in a function's embrace,  
-Pattern matching arguments, setting the pace.  
-"Config and pkgs," they whisper with grace,  
-Destructuring inputs, finding their place.
+    First, they appear in a function's embrace,  
+    Pattern matching arguments, setting the pace.  
+    "Config and pkgs," they whisper with grace,  
+    Destructuring inputs, finding their place.
 
-Like Python's kwargs, they unpack with flair,  
-Yet no assignment here, just patterns laid bare.  
-A function's prelude, a declarative song,  
-In the realm of Nix, where logic is strong.
+    Like Python's kwargs, they unpack with flair,  
+    Yet no assignment here, just patterns laid bare.  
+    A function's prelude, a declarative song,  
+    In the realm of Nix, where logic is strong.
 
-Then, in a twist, they shift their guise,  
-To form attribute sets, a new surprise.  
-Key-value pairs, like dictionaries known,  
-In curly confines, their structure is shown.
+    Then, in a twist, they shift their guise,  
+    To form attribute sets, a new surprise.  
+    Key-value pairs, like dictionaries known,  
+    In curly confines, their structure is shown.
 
-"Environment and services," they declare,  
-Mapping the system with meticulous care.  
-No longer a pattern, but a set of keys,  
-Defining the state with elegant ease.
+    "Environment and services," they declare,  
+    Mapping the system with meticulous care.  
+    No longer a pattern, but a set of keys,  
+    Defining the state with elegant ease.
 
-Oh, Pythonista, with monoglot heart,  
-Fear not the braces that set Nix apart.  
-For once you discern their duality's art,  
-You'll wield them with wisdom, a functional start.
+    Oh, Pythonista, with monoglot heart,  
+    Fear not the braces that set Nix apart.  
+    For once you discern their duality's art,  
+    You'll wield them with wisdom, a functional start.
 
-In the dance of the braces, both subtle and grand,  
-You'll find your way through this declarative land.  
-With patience and practice, the syntax will stick,  
-And you'll master the magic of the language called Nix.
-
-Sources
+    In the dance of the braces, both subtle and grand,  
+    You'll find your way through this declarative land.  
+    With patience and practice, the syntax will stick,  
+    And you'll master the magic of the language called Nix.
 
 
 Me: Excellent, thank you! I have a lot to digest and to wrap into my cognitive habits.  Help me write a short essay, explaining the dilemma of a neuro static monoglot Pythonista. Do you know what I mean by this? There are many people out there such as Myself who find themselves only able to program because of the accessibility of python syntax, and once it is loaded into one's head, it is difficult to make sense of the syntax of other languages. This is the source of many python peoples distain for JavaScript. But this is not wise or sustainable if you want the benefit of other technologies, such as the platform future proofing of nix and NixOS. It is similar with having to learn languages like LUA built into NeoVim if you want certain advantages. Shed whatever light you can on "mode shifting" or context or whatever other words you want put it in the essay. Your role is to sympathetically provide an on-ramp to slightly off the beaten track technologies that a python person really must be neuroplastic enough to pick up and work into their habits, with an emphasis on the criteria of future proofing and timelessness which LUA and nix uniquely satisfy in a way that even C doesn't because of the accessibility to even relatively non-technical people, even though it obviously doesn't seem that way at first glance.
@@ -367,17 +359,13 @@ By broadening one's linguistic repertoire, a Pythonista can unlock the potential
 
 #### Cultivating a Growth Mindset
 
-To navigate this journey, cultivating a growth mindset is crucial. Recognize that the discomfort of learning new languages is temporary and that each language offers unique insights and capabilities. Embrace the challenge as an opportunity for growth, and leverage resources such as community forums, tutorials, and documentation to ease the transition.
-
-In conclusion, the neuro-static dilemma of a monoglot Pythonista is a common yet surmountable challenge. By embracing neuroplasticity and mode shifting, programmers can transcend the confines of a single language, unlocking the full potential of diverse technologies. This journey not only enhances one's technical skills but also cultivates a mindset of lifelong learning, ensuring adaptability in the ever-evolving landscape of technology.
-
-Sources
+To navigate this journey, cultivating a growth mindset is crucial. Recognize that the discomfort of learning new languages is temporary and that each language offers unique insights and capabilities. Embrace the challenge as an opportunity for growth, and leverage re
 
 
-Excellent! Now continue the essay, drawing parallels with the transition from neurostatic to neuroplastic being similar to the willingness to chase the rabbit down the rabbit hole. Do so while issuing the warning that there are some rabbit holes so deep from which there are no return. This is not necessarily bad if it is a domain, you plan on spending the rest of your life on, or your path to some sort of future proofing or obsolescence resistance that can coexist with your other pursuits in life. The idea is to not turn the tools into the end in themselves, like turning you into a programmer, developer or coder. Instead, the objective is to expand your literacy and real world capabilities. To whatever else it is in life that interests you. There is something special about customizing your development and code execution platform for the rest of your life that accelerates all other endeavors. Python, LUA and Nix are all in this category, well C and Assembler do not. There is something here about the perfect harmonic of a abstraction to make it uniquely human enabling. Does that make sense? And can you continue the essay with all these principles in mind?
+Me: Excellent! Now continue the essay, drawing parallels with the transition from neurostatic to neuroplastic being similar to the willingness to chase the rabbit down the rabbit hole. Do so while issuing the warning that there are some rabbit holes so deep from which there are no return. This is not necessarily bad if it is a domain, you plan on spending the rest of your life on, or your path to some sort of future proofing or obsolescence resistance that can coexist with your other pursuits in life. The idea is to not turn the tools into the end in themselves, like turning you into a programmer, developer or coder. Instead, the objective is to expand your literacy and real world capabilities. To whatever else it is in life that interests you. There is something special about customizing your development and code execution platform for the rest of your life that accelerates all other endeavors. Python, LUA and Nix are all in this category, well C and Assembler do not. There is something here about the perfect harmonic of a abstraction to make it uniquely human enabling. Does that make sense? And can you continue the essay with all these principles in mind?
 
 
-### Embracing Neuroplasticity: A Pythonista's Journey Beyond Syntax (Continued)
+Perplexity: ### Embracing Neuroplasticity: A Pythonista's Journey Beyond Syntax (Continued)
 
 In the ever-evolving landscape of technology, the pace of change can feel overwhelming, especially for those who identify as slow neurostatic monoglot programmers. The constant influx of new tools, languages, and paradigms—particularly in the era of AI—can create a sense of being left behind. It's easy to feel inundated by the sheer diversity and complexity of what's available, leading to frustration and self-doubt.
 
@@ -406,8 +394,6 @@ In this context, there is a place for everyone. The ability to use technology ef
 Moreover, the diversity of perspectives and skills is what drives innovation and progress. Those who may not be at the forefront of technological advancement still bring valuable insights and contributions. Their unique viewpoints can lead to creative solutions and applications that might otherwise be overlooked.
 
 In conclusion, while the rapid pace of technological change can be daunting, it's important to remember that there is no single path to success. Embracing neuroplasticity and adapting to new tools at your own pace can lead to a fulfilling and impactful relationship with technology. Whether you thrive in chaos or find comfort in stability, there is a role for you in this ever-expanding digital world. The key is to focus on how technology can serve your broader life goals, rather than being consumed by the pressure to keep up with every new development.
-
-Sources
 
 
 Me: All right, but you seem to be missing the point of how important tool selection is to the slow learner. If you're going to learn something well over long period of time, you can be royally screwed if you make bad choices. Examples like macromedia flash can be used. Examples such as the Java script framework of the day can be used. If you were going to learn slow and well over the course of your life without being excessively technical, committing yourself to a career as a programmer, developer, or coder, then there is a sweet spot in the selection of tools. Python demonstrates this in its extreme accessibility, liberal free and open source licensing, and incredibly stable API over the years. LUA has hung on as a preferred embedded language for similar reasons. And a newcomer that promises to be to system configuration what HTML is to documents and SQL is to data, in the form of nix and NixOS. Rewrite that follow-up with this perspective. 
@@ -494,6 +480,4 @@ It's natural to be wary of steep learning curves, but often they are not as daun
 To the monoglot-inclined programmer, I urge you to step beyond the comfort of a single language and explore the tools that offer longevity and adaptability. By integrating Linux, Python, Vim, Git, Nix, and Jupyter into your toolkit, you can future-proof your skills and resist the tide of obsolescence.
 
 These tools are not just about programming—they are about empowering you to pursue your passions and make a meaningful impact in the world. Embrace the journey of learning and adaptation, and discover the timeless potential that lies within your reach.
-
-Sources
 
