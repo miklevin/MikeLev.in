@@ -32,29 +32,32 @@ AI toolbox to be Bot BFFs!</td>
 
 ## Future-proofing w/ Linux, Python, vim & git (LPvg)
 
-AI makes it feels like humanity is facing a change like never before, but we've
-lived through the industrial, atomic and information ages. Humanity adapts. It's
-not the first time we have had to change the way we live and work. Join me as I,
-a 50-something, recovers enough neuroplacticity to adapt and thrive while
-avoiding the hamster wheel of tech, and mastering a small set of versatile
-timeless tools. On this site, I focus on:
+AI makes it feels like we're facing a change like never before, but we've lived
+through the industrial, atomic and information ages. Humanity adapts. It's not
+the first time we have had to change the way we live and work. Join me as I, a
+50-something, recovers enough neuroplacticity to adapt and thrive while avoiding
+the hamster wheel of tech, and mastering a small set of versatile timeless
+tools. On this site, I focus on:
 
 - **Linux, Python, vim & git**: Mastering the future-proof LPvg minimum subplatform
 - **Re-acquiring Math Skills**: Picking up where my 1970s K-12 education let me down
 - **Staying at the Top of My Field**: Protecting my earning capacity as things change
+- **The minimal tool-chain for AI**: Expanding LPvg to include vector databases, etc.
 
 ## The Persistence of Text Files and Code
 
 It's all about text files and pushing bits around. Even after the rise of AI, it
 will be the same thing. User interfaces may change, and the barriers for entry
 will be lowered for the non-programmer, but all that interaction with AIs won't
-absolve you from having to learn to code. It just makes initial sketches easier.
-Complex things remain complex, and you will still have to think through that
-complexity. 
+absolve you from having to learn to code. It just makes sketching things out
+initially a lot easier. However, complex things remain complex.
 
-And even if Jensen Huang says you won't have to learn to code, someone will have
-to take those sketches and turn them into a cohesive whole, and that person will
-be doing it with code—probably Python.
+Even if Jensen Huang says you won't have to learn to code, someone will have to
+craft the output of the AI into a cohesive whole. The AI will provide you with
+pieces that snap together, but you will need to know how they are snapping
+together and interacting, and you're going to need to look at it and understand.
+Expressing the precision process-control automation requires will be as easy as
+AI can make it for you (probably Python), but it won't be in English.
 
 ## The Hamster Wheel of Faddish Tech
 
