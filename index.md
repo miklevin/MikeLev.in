@@ -35,7 +35,7 @@ AI toolbox to be Bot BFFs!</td>
 AI makes it feels like we're facing a change like never before, but we've lived
 through the industrial, atomic and information ages. Humanity adapts. It's not
 the first time we have had to change the way we live and work. Join me as I, a
-50-something, recovers enough neuroplacticity to adapt and thrive while avoiding
+50-something, musters enough neuroplacticity to adapt and thrive while avoiding
 the hamster wheel of tech, and mastering a small set of versatile timeless
 tools. On this site, I focus on:
 
@@ -95,4 +95,3 @@ I fell in love with a particular computer system called the Amiga Computer some
 to the conclusion that you should not fall in love with your hardware or the
 particulars of your system. But if you can love some of the higher-level
 abstractions that cut across time, space, and problem domains, you'll be okay.
-
