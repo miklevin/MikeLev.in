@@ -30,7 +30,7 @@ AI toolbox to be Bot BFFs!</td>
 </tr>
 </table>
 
-## A Shift in the World: Embracing Change Again
+## Future-proofing w/ Linux, Python, vim & git (LPvg)
 
 Sense some change in the world? Of course! We're in the midst of another shift.
 With AI it feels like the kind of thing humanity has never faced before, but
