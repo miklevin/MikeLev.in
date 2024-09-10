@@ -16,6 +16,8 @@ usually imperative languages like SQL and HTML you're never going to get away
 from. The Nix system configuration language is shaping up to be one of those for
 me, and this is coming to grips with my Pythonic gripes.
 
+---
+
 Me: Explain to me philosophically the NixOS declarative system building language. It doesn't make sense to me, but the appeal of what it's promising is overwhelming. I need to learn how to think about it. 
 
 
@@ -36,14 +38,14 @@ NixOS requires a single configuration file, making system management straightfor
 Understanding NixOS philosophically involves appreciating these principles and how they contribute to a more reliable and manageable system.
 
 Sources
-[1] Nix & NixOS | Declarative builds and deployments https://nixos.org
-[2] NixOS and the Nix expression language | stace.dev https://stace.dev/nixos-and-the-nix-expression-language/
-[3] Declarative Systems - General - Universal Blue - Discourse https://universal-blue.discourse.group/t/declarative-systems/2285
-[4] Nix language basics — nix.dev documentation https://nix.dev/tutorials/nix-language.html
-[5] Alternative language - NixOS Discourse https://discourse.nixos.org/t/alternative-language/5218
-[6] NixOS: Declarative Builds and Deployments - Hacker News https://news.ycombinator.com/item?id=38995068
-[7] NixOS is the best linux back-end ever designed. But it can't become ... https://discourse.nixos.org/t/nixos-is-the-best-linux-back-end-ever-designed-but-it-cant-become-mainstream-without-a-front-end/46526
-[8] Do you think Nix language is confusing? : r/NixOS - Reddit https://www.reddit.com/r/NixOS/comments/1dat919/do_you_think_nix_language_is_confusing/
+    [1] Nix & NixOS | Declarative builds and deployments https://nixos.org
+    [2] NixOS and the Nix expression language | stace.dev https://stace.dev/nixos-and-the-nix-expression-language/
+    [3] Declarative Systems - General - Universal Blue - Discourse https://universal-blue.discourse.group/t/declarative-systems/2285
+    [4] Nix language basics — nix.dev documentation https://nix.dev/tutorials/nix-language.html
+    [5] Alternative language - NixOS Discourse https://discourse.nixos.org/t/alternative-language/5218
+    [6] NixOS: Declarative Builds and Deployments - Hacker News https://news.ycombinator.com/item?id=38995068
+    [7] NixOS is the best linux back-end ever designed. But it can't become ... https://discourse.nixos.org/t/nixos-is-the-best-linux-back-end-ever-designed-but-it-cant-become-mainstream-without-a-front-end/46526
+    [8] Do you think Nix language is confusing? : r/NixOS - Reddit https://www.reddit.com/r/NixOS/comments/1dat919/do_you_think_nix_language_is_confusing/
 
 
 Me: Okay, I get what it's promising. Now get into the nitty gritty bit in a baby steps build it up from hello world barebones examples. I know is it starts at an /etc/nixos/configuration.nix file, but that's where I'm lost. I'm a Python person with a long history with scripting languages, but not functional languages like Haskell which nix looks based on. Build up maybe with 3 steps from a non-functional system to one that boots to a command-line interface on generic hardware. Point out the key principles of the language, particularly issues of syntax, scope, parameter padding, closure and such. 
@@ -129,14 +131,14 @@ Finally, ensure the system boots to a command-line interface by setting the appr
 By following these steps, you can build a basic NixOS system from scratch, understanding key principles like syntax, scope, and closures.
 
 Sources
-[1] Hello world project templates for getting started quickly with Nix https://github.com/jwiegley/hello
-[2] Nix language basics https://nix.dev/tutorials/nix-language.html
-[3] How to build nix hello world - Stack Overflow https://stackoverflow.com/questions/48470942/how-to-build-nix-hello-world
-[4] Nix by example - NixOS Wiki https://nixos.wiki/wiki/Nix_by_example
-[5] zetavg/nix-hello-world - GitHub https://github.com/zetavg/nix-hello-world
-[6] Declarative Systems https://universal-blue.discourse.group/t/declarative-systems/2285
-[7] Writing a (Nix-Friendly) Hello World Web App in Haskell with Scotty https://webbureaucrat.gitlab.io/articles/writing-a-hello-world-web-app-in-haskell-with-scotty/
-[8] NixOS and the Nix expression language https://stace.dev/nixos-and-the-nix-expression-language/
+    [1] Hello world project templates for getting started quickly with Nix https://github.com/jwiegley/hello
+    [2] Nix language basics https://nix.dev/tutorials/nix-language.html
+    [3] How to build nix hello world - Stack Overflow https://stackoverflow.com/questions/48470942/how-to-build-nix-hello-world
+    [4] Nix by example - NixOS Wiki https://nixos.wiki/wiki/Nix_by_example
+    [5] zetavg/nix-hello-world - GitHub https://github.com/zetavg/nix-hello-world
+    [6] Declarative Systems https://universal-blue.discourse.group/t/declarative-systems/2285
+    [7] Writing a (Nix-Friendly) Hello World Web App in Haskell with Scotty https://webbureaucrat.gitlab.io/articles/writing-a-hello-world-web-app-in-haskell-with-scotty/
+    [8] NixOS and the Nix expression language https://stace.dev/nixos-and-the-nix-expression-language/
 
 
 Me: Okay I notice a few things here that strike me as unusual. Usually when looking at something like this, one's mind goes to XML or JSON and desires seeing a root element. An I correct in assuming there is no requirement for an all-encompassing singleton root element, and instead we are immediately hit with "pairs" in the spirit of key/value or name/value pairs, each side of the pair contained in curly braces. But the curly brace pairs can be nested as fileSystems shows, an example where the name or key doesn't need curly braces. What is the overarching rules here? What sort of abstract data structures am I looking at, and where can I go see the data structure, nesting and termination rules as one would for JSON or XML?
@@ -448,14 +450,14 @@ Moreover, the diversity of perspectives and skills is what drives innovation and
 In conclusion, while the rapid pace of technological change can be daunting, it's important to remember that there is no single path to success. Embracing neuroplasticity and adapting to new tools at your own pace can lead to a fulfilling and impactful relationship with technology. Whether you thrive in chaos or find comfort in stability, there is a role for you in this ever-expanding digital world. The key is to focus on how technology can serve your broader life goals, rather than being consumed by the pressure to keep up with every new development.
 
 Sources
-[1] Using python to create a prototype for web accessibility research https://www.youtube.com/watch?v=9l7H9s1VRrg
-[2] Automated accessibility audits - North Bay Python - YouTube https://www.youtube.com/watch?v=J-4Qa6PSomM
-[3] accessibility - PyPI https://pypi.org/project/accessibility/
-[4] Python's stability - Reddit https://www.reddit.com/r/Python/comments/u7zog4/pythons_stability/
-[5] Transport Accessibility Measures https://ipeagit.github.io/accessibility/
-[6] Python and Accessibility https://python-forum.io/thread-26403.html
-[7] Is python's "set" stable? - Stack Overflow https://stackoverflow.com/questions/3812429/is-pythons-set-stable
-[8] Enhance Python Data Visualizations for Accessibility - LinkedIn https://www.linkedin.com/advice/1/what-strategies-can-you-use-make-your-python-xouke
+    [1] Using python to create a prototype for web accessibility research https://www.youtube.com/watch?v=9l7H9s1VRrg
+    [2] Automated accessibility audits - North Bay Python - YouTube https://www.youtube.com/watch?v=J-4Qa6PSomM
+    [3] accessibility - PyPI https://pypi.org/project/accessibility/
+    [4] Python's stability - Reddit https://www.reddit.com/r/Python/comments/u7zog4/pythons_stability/
+    [5] Transport Accessibility Measures https://ipeagit.github.io/accessibility/
+    [6] Python and Accessibility https://python-forum.io/thread-26403.html
+    [7] Is python's "set" stable? - Stack Overflow https://stackoverflow.com/questions/3812429/is-pythons-set-stable
+    [8] Enhance Python Data Visualizations for Accessibility - LinkedIn https://www.linkedin.com/advice/1/what-strategies-can-you-use-make-your-python-xouke
 
 
 Me: All right, this is still too soft and on the fence. I know I did ask you to play devils advocate and give a balanced riffing. But that's over. Take what you have learned and turn this into a compelling appeal to the monoglot-inclined neurostatic perpetual beginner who doesn't necessarily think of themselves that way, but is still overwhelmed by the existing landscape and rate of change. Assure them that there are surprising technologies that allow them to Make their knowledge and know how and even muscle memory and habits, cut across the decades and problem domains. There is a path to future proofing and resisting obsolescence, even though it is not immediately obvious and is indeed confoundingly obfuscated in new declarative languages such as nix for making your development, playback, and even production, environments timeless. What appears to be steep learning curves are often both not as steep as they initially seem and uniquely more worth it than they initially seem. In particular, Linux, Python, vim and git (LPvg), with honorary inclusions such as nix and Jupyter. 
