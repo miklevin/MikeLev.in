@@ -32,12 +32,13 @@ AI toolbox to be Bot BFFs!</td>
 
 ## Future-proofing w/ Linux, Python, vim & git (LPvg)
 
-Sense some change in the world? Of course! We're in the midst of another shift.
-With AI it feels like the kind of thing humanity has never faced before, but
-we've lived through the industrial, atomic and information ages. Humanity
+Do you sense some change in the world? Of course! We're in the midst of another
+shift. With AI it feels like the kind of thing humanity has never faced before,
+but we've lived through the industrial, atomic and information ages. Humanity
 adapts. It's not the first time a whole bunch of people had to change the way
 they live and work, so join me up-close and personal as I forcibly recover
-enough youthful neuroplacticity at a half-century old to adapt and thrive.
+enough youthful neuroplacticity at a half-century old to adapt and thrive by
+using a small and surprisingly versatile set of tools.
 
 This site is about both that adaptation and preserving the advantages of old
 muscle memory as a sort of secret weapon, using the learnings from my two now
