@@ -4,6 +4,18 @@ permalink: /nixos-language/
 layout: default
 ---
 
+# Groking the NixOS Language
+
+## A Pythonista Struggling With Nix Syntax
+
+This is an exchange between myself and Perplexity.AI (on the free Claude model
+at the time of its occurance, with me trying to gain some intuitive
+understanding of the strange Haskell-inspired Nix system configuration language.
+I really don't like taking up additional languages, but there's a category of
+usually imperative languages like SQL and HTML you're never going to get away
+from. The Nix system configuration language is shaping up to be one of those for
+me, and this is coming to grips with my Pythonic gripes.
+
 Me: Explain to me philosophically the NixOS declarative system building language. It doesn't make sense to me, but the appeal of what it's promising is overwhelming. I need to learn how to think about it. 
 
 
