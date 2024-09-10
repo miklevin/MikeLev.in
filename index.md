@@ -52,12 +52,12 @@ will be lowered for the non-programmer, but all that interaction with AIs won't
 absolve you from having to learn to code. It just makes sketching things out
 initially a lot easier. However, complex things remain complex.
 
-Even if Jensen Huang says you won't have to learn to code, someone will have to
-craft the output of the AI into a cohesive whole. The AI will provide you with
-pieces that snap together, but you will need to know how they are snapping
-together and interacting, and you're going to need to look at it and understand.
-Expressing the precision process-control automation requires will be as easy as
-AI can make it for you (probably Python), but it won't be in English.
+Right while Jensen Huang says you won't have to learn to code and calls Python
+weird, he says the first time you talk to AI will be in English, but the second
+time it can <a href="https://www.youtube.com/shorts/NSBdLouwEDM">give you the
+Python code</a>. Get it? So you won't need to learn how to code unless you want
+to do the second-pass refinements. English is not reliable enough to build
+automated systems around, and the lingua franca of tech is now Python.
 
 ## The Hamster Wheel of Faddish Tech
 
