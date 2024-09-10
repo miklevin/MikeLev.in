@@ -32,22 +32,16 @@ AI toolbox to be Bot BFFs!</td>
 
 ## Future-proofing w/ Linux, Python, vim & git (LPvg)
 
-Do you sense some change in the world? Of course! We're in the midst of another
-shift. With AI it feels like the kind of thing humanity has never faced before,
-but we've lived through the industrial, atomic and information ages. Humanity
-adapts. It's not the first time a whole bunch of people had to change the way
-they live and work, so join me up-close and personal as I forcibly recover
-enough youthful neuroplacticity at a half-century old to adapt and thrive by
-using a small and surprisingly versatile set of tools.
-
-This site is about both that adaptation and preserving the advantages of old
-muscle memory as a sort of secret weapon, using the learnings from my two now
-decade-old projects to help make the transition into the new. Join me on this
-adventure, where I'm essentially re-starting life in my mid-50s as I take on:
+AI makes it feels like humanity is facing a change like never before, but we've
+lived through the industrial, atomic and information ages. Humanity adapts. It's
+not the first time we have had to change the way we live and work. Join me as I,
+a 50-something, recovers enough neuroplacticity to adapt and thrive while
+avoiding the hamster wheel of tech, and mastering a small set of versatile
+timeless tools. On this site, I focus on:
 
 - **Linux, Python, vim & git**: Mastering the future-proof LPvg minimum subplatform
 - **Re-acquiring Math Skills**: Picking up where my 1970s K-12 education let me down
-- **Staying at the Top of My Field**: Protecting my earning capacity as I age
+- **Staying at the Top of My Field**: Protecting my earning capacity as things change
 
 ## The Persistence of Text Files and Code
 
