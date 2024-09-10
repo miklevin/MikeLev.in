@@ -5,9 +5,11 @@ layout: default
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | sort: 'date' %}
+  {% for post in sorted_posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
