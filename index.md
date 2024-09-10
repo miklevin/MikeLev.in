@@ -32,9 +32,17 @@ AI toolbox to be Bot BFFs!</td>
 
 ## A Shift in the World: Embracing Change Again
 
-Sense some change in the world? Of course! We're in the midst of another shift. It feels like the kind of thing humanity has never faced before, with AI and the rapid pace of technology. But we've had the industrial revolution and the rise of the information age before. It's not the first time a whole bunch of people had to change the way they live and work. 
+Sense some change in the world? Of course! We're in the midst of another shift.
+With AI it feels like the kind of thing humanity has never faced before, but
+we've lived through the industrial, atomic and information ages. Humanity
+adapts. It's not the first time a whole bunch of people had to change the way
+they live and work, so join me up-close and personal as I forcibly recover
+enough youthful neuroplacticity at a half-century old to adapt.
 
-This site is about doing that yet again, using the learnings from my two now decade-old projects to help make the transition into the new. Join me on this adventure, where I'm essentially re-starting life in my mid-50s as I take on:
+This site is about both that adaptation and preserving the advantages of old
+muscle memory as a sort of secret weapon, using the learnings from my two now
+decade-old projects to help make the transition into the new. Join me on this
+adventure, where I'm essentially re-starting life in my mid-50s as I take on:
 
 - **Linux, Python, vim & git**: Mastering the future-proof LPvg minimum subplatform
 - **Re-acquiring Math Skills**: Picking up where my 1970s K-12 education let me down
