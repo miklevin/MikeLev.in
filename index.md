@@ -76,8 +76,8 @@ bed or chair because it becomes ingrained in your fingers through muscle memory
 and shortcuts. Switching text editors can be more disruptive than switching
 programming languages. Think VSCode is here forever? It's already under attack
 from Cursor. As with PFE, Notepad++, TextMate, Sublime Text, Atom, and Brackets,
-it will come and go. Vim, the one all the others try to emulate, will be all
-that remains.
+it will come and go. Vim (vi, nvim, etc.), the one all the others try to
+emulate, will be the only safe harbor for your fingers. 
 
 ## Future-Proofing with LPvg Skills
 
