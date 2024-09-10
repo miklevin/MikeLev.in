@@ -77,18 +77,27 @@ as your bed or chair, but even more so because it becomes ingrained in your
 fingers through muscle memory and shortcuts. Switching text editors can be more
 disruptive than switching programming languages, and forced abandonment occurs
 as they come and go. Think VSCode is here forever? It's already under attack
-from Cursor, and more alternatives will emerge.
+from Cursor. As with PFE, Notepad++, TextMate, Sublime Text, Atom, and Brackets,
+it will come and go, and vim will be all that remains which all others try to
+emulate. If you take up vim, it's because you're thinking in terms of years,
+decades, and probably a lifetime.
 
 ## Future-Proofing with LPvg Skills
 
 If you develop muscle memory from years of practice in this slightly
-lower-than-usual level of tech mastery, you won't become obsolete. LPvg skills
-may not be as trendy or seemingly valuable as the current fad, but they will
-keep your skills relevant and provide an alternative to popular approaches,
-offering some freedom from vendor lock-in.
+less-than-sexiest of tech (at least as a secondary tech-stack you know), then
+you won't become obsolete. LPvg skills may not be as trendy or seemingly
+valuable as the current fad, but they will keep your skills relevant and provide
+an alternative to popular approaches, offering some freedom from vendor lock-in.
 
 No matter how jazzed up or convenient power-tools become, you'll notice an
-underlying system of Linux, Python, vim, and git that even they rely on.
+underlying system of Linux, Python, vim, and git that even they rely on. Windows
+and Mac strive to be Linux for the developer. All text editors offer a vim
+emulation mode. When's the last time Python hasn't been the default answer AIs
+want to give you (except for Claude artifacts). And git is... well, git. I'm
+sort of advocating the pee in the pool of tech. These are the 80/20-rule "good
+enough" tools that have become free, time-tested and are just accessible enough
+for the average person.
 
 ## Lessons from the Amiga: Loving the Abstractions
 
