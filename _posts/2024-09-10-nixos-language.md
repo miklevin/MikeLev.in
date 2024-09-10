@@ -38,6 +38,7 @@ NixOS requires a single configuration file, making system management straightfor
 Understanding NixOS philosophically involves appreciating these principles and how they contribute to a more reliable and manageable system.
 
 Sources
+
     [1] Nix & NixOS | Declarative builds and deployments https://nixos.org
     [2] NixOS and the Nix expression language | stace.dev https://stace.dev/nixos-and-the-nix-expression-language/
     [3] Declarative Systems - General - Universal Blue - Discourse https://universal-blue.discourse.group/t/declarative-systems/2285
@@ -131,6 +132,7 @@ Finally, ensure the system boots to a command-line interface by setting the appr
 By following these steps, you can build a basic NixOS system from scratch, understanding key principles like syntax, scope, and closures.
 
 Sources
+
     [1] Hello world project templates for getting started quickly with Nix https://github.com/jwiegley/hello
     [2] Nix language basics https://nix.dev/tutorials/nix-language.html
     [3] How to build nix hello world - Stack Overflow https://stackoverflow.com/questions/48470942/how-to-build-nix-hello-world
