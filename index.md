@@ -71,16 +71,13 @@ Python interfaces remain remarkably stable over the years, allowing your
 intuition and muscle memory to improve.
 
 The new breed of AI text-editors emphasizes this point. Your text editor is
-where you spend a significant amount of time, especially if you use it for
-general writing and prompt engineering in addition to coding. It's as essential
-as your bed or chair, but even more so because it becomes ingrained in your
-fingers through muscle memory and shortcuts. Switching text editors can be more
-disruptive than switching programming languages, and forced abandonment occurs
-as they come and go. Think VSCode is here forever? It's already under attack
+where you spend a significant amount of time. It's even more essential than your
+bed or chair because it becomes ingrained in your fingers through muscle memory
+and shortcuts. Switching text editors can be more disruptive than switching
+programming languages. Think VSCode is here forever? It's already under attack
 from Cursor. As with PFE, Notepad++, TextMate, Sublime Text, Atom, and Brackets,
-it will come and go, and vim will be all that remains which all others try to
-emulate. If you take up vim, it's because you're thinking in terms of years,
-decades, and probably a lifetime.
+it will come and go. Vim, the one all the others try to emulate, will be all
+that remains.
 
 ## Future-Proofing with LPvg Skills
 
