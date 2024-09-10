@@ -9,7 +9,9 @@ layout: default
   {% for post in sorted_posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.description %}
+        <p>{{ post.description }}</p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
-
