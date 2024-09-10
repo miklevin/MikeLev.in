@@ -40,11 +40,11 @@ the hamster wheel of tech, and mastering a small set of versatile, timeless
 tools. On this site, I focus on:
 
 - **Linux, Python, vim & git**: Mastering the future-proof LPvg minimum subplatform
-- **Re-acquiring Math Skills**: Picking up where my 1970s K-12 education left off
+- **Re-acquiring Math Skills**: Picking up where my 1970s K-12 education let me down
 - **Staying at the Top of My Field**: Protecting my earning capacity as things change
 - **The minimal tool-chain for AI**: Expanding LPvg to include vector databases, etc.
 
-## The Persistence of Text Files and Code
+## It's Text-files All The Way Down
 
 It's all about text files and pushing bits around. Even after the rise of AI,
 this fundamental concept will persist. User interfaces may change, and barriers
