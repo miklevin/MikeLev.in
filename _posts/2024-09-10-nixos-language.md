@@ -459,6 +459,7 @@ Moreover, the diversity of perspectives and skills is what drives innovation and
 In conclusion, while the rapid pace of technological change can be daunting, it's important to remember that there is no single path to success. Embracing neuroplasticity and adapting to new tools at your own pace can lead to a fulfilling and impactful relationship with technology. Whether you thrive in chaos or find comfort in stability, there is a role for you in this ever-expanding digital world. The key is to focus on how technology can serve your broader life goals, rather than being consumed by the pressure to keep up with every new development.
 
 Sources
+
     [1] Using python to create a prototype for web accessibility research https://www.youtube.com/watch?v=9l7H9s1VRrg
     [2] Automated accessibility audits - North Bay Python - YouTube https://www.youtube.com/watch?v=J-4Qa6PSomM
     [3] accessibility - PyPI https://pypi.org/project/accessibility/
