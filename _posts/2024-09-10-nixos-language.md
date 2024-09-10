@@ -2,7 +2,7 @@
 title: Understanding the NixOS Langauge
 permalink: /nixos-language/
 description: Pythonista struggles with NixOS, seeking an intuitive grasp of its declarative syntax, functional nature, and abstract structures, navigating challenges in config language comprehension.
-layout: default
+layout: post
 ---
 
 # Groking the NixOS Language
