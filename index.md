@@ -1,6 +1,6 @@
 ---
-title: Mike Levin SEO in NYC
-description: Future-proof Yourself with Linux Python, vim, git (LPvg) during the rise of AI.
+title: Mike Levin on LPvg (Linux, Python, vim & git)
+description: Future-proof your skills with Linux, Python, vim & git (LPvg) as I share with you timeless and love-worthy tools in tech and re-implement Levinux and Pipulate with NixOS and AI.
 author: Mike Levin SEO
 group: home
 ---
