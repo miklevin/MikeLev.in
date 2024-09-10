@@ -30,53 +30,51 @@ AI toolbox to be Bot BFFs!</td>
 </tr>
 </table>
 
-This site is about the pursuit of timeless tools in tech that don't quite
-require you being a genius nor outsourcing the entire job to AI. Isn't it
-possible to have tools in tech that are a lot like woodworking, where you don't
-need to re-learn a whole new set of tools every 5 or 10 years? I'm over 50 years
-into this, and I've had tech reset on me a lot. And I'm not a management type.
-I'm in it for the love of tools, getting into the zone between you and some
-challenge.
+Sense some change in the world? Of course! We're in the midst of another shift.
+It feels like the kind of thing humanity has never faced before, with AI and the
+rapid pace of technology, but we have had the industrial revolution and rise of
+the information age. It's not the first time a whole bunch of people had to
+change the way they live and work. This site is about doing that yet again,
+using the learnings from my two now decade-old projects to help make the
+transition into the new. Join me on this adventure, where I'm essentially
+re-starting life in my mid-50s as I take on...
 
-Nothing sets you back more than everything changing around you, and you find
-yourself unable to keep up with the next shiny new thing. And pretty soon, you
-find yourself having to either switch into management, retire on your savings,
-and generally no longer coding. Nonsense! Even when the AIs can code 99% for
-you, that 1% that still has to be more precise than the spoken word needs to be
-100% understood by you, so you still need that other 99%. Learn to code.
+- Linux, Python, vim & git, mastering the future-proof LPvg minimum subplatform
+- Re-acquire math-skills, picking up where my 1970s K-12 education let me down
+- Staying at the top of my field and protecting my earning capacity as I age
 
-So, you still have got to learn to code Python. In almost the same breath as
-Jensen Huang says you won't need to learn how to code, he says after you say it
-in "human", AI will create the code. Of course you will have to look at it and
-review it, he quickly adds. So guess what? That doesn't get you out of learning
-how to program, and likely Python.
+It's all about text-files and pushing bits around. Even after the rise of AI, it
+will be the same thing. User interfaces may change and the barriers for entry
+will be lowered for the non-programmer, but all that interaction with AIs won't
+absolve you from having to learn to code. It just makes initial sketches easier.
+Complex things remain complex, and you will still have to think through that
+complexity. And even if Jensen Huang says you won't have to learn to code,
+someone will have to take those sketches and turn it into a cohesive whole, and
+that person will be doing it with code&#151;probably Python.
 
-Learn to be comfortable with Python in many environments, but learn to make one
-special environment you can call home throughout the years, no matter how your
-hardware changes. This is a tall order, and a first step towards future-proofing
-your skills in tech. You've got to find the free and open source (FOSS) parts to
-build upon, so no matter how things change with products, vendors, or even the
-rise of AI, things can not change so much as to make your tech skills
-irrelevant. 
+The in-style faddish tech resets every 5 to 10 years, and if you're on that
+hamster wheel, such as with modern JavaScript frameworks, you have to relearn,
+retrain, and continuously migrate or abandon your old code-bases. But when a
+fundamental is hit, that tech hangs around like the pee in the pool of tech. No
+matter how AI changes the world, this stuff is there to stay unless the whole
+pool of tech was drained and refilled, and that's not going to happen. When a
+machine powers on, it's still going to go through a boot process, and you can
+step in and take control at that point, making the machine do anything you want.
 
-The alternative is to just yield to the vendors, Microsoft, Google, Amazon
+If you have the muscle memory built up from years of practice in this slightly
+lower than usual level of tech mastery, then you won't go obsolete. LPvg skills
+won't be as sexy or perhaps even valuable in people's eyes as whatever is the
+fad at the time, but it will make your skills forever relevant and give you an
+alternative to the popular approaches, and even some level of freedom from the
+vendors battling to lock you in. No matter how they jazz it up and what
+power-tool conveniences they build-in, you'll notice an underlying system of
+Linux, Python, vim and git even they're relying on.
 
-This is the foundation of one of the grandest magic tricks of all. And that's
-keeping that "at home" feeling that settles onto you as a developer learning
-what "fixed position" resources you can rely on. 
-
-I fell in love with the Amiga Computer over 30 years ago, and have been trying
-to recapture the magic ever since. I've tried everything, and after much pain
-and deliberation have come to the conclusion that you should not fall in love
-with your hardware. Software on the other hand can stay with you for life and
-never lets you down &#151; so long as it's well-chosen FOSS (free and open
-source software). The learning curve can be steep, but it's worth it.
-
-I'm talking about craftsmanship in tech. Digital artistry. Make it impossible
-for anyone to take your hard-won muscle memory away from you with the next
-upgrade, license change, job switch and everything else keeping you on the
-hamster wheel of tech. Think VSCode's going to be with you for life? Think
-again. But what's it all emulating? What do they all go to great lengths to be
-like? Linux and vim. It's a hard pill to swallow, but there it is.
-
-[The beginning](/beginning)
+But it's not always smooth sailing. The carpet can be pulled out from under you,
+no matter how well you prepare. The idea is to make smart choices, so a good
+deal of what you know and the hard-won muscle memory and habits forever apply. I
+fell in love with a particular computer system called the Amiga Computer some 30
+years ago, and have been trying to recapture the magic ever since, and have come
+to the conclusion that you should not fall in love with your hardware or the
+particulars of your system. But if you can love some of the higher-level
+abstractions that cut across time, space and problem domains, you'll be okay.
