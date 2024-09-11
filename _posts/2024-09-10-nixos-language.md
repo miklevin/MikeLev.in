@@ -15,6 +15,28 @@ usually imperative languages like SQL and HTML you're never going to get away
 from. The Nix system configuration language is shaping up to be one of those for
 me, and this is coming to grips with my Pythonic gripes.
 
+### Here's Gemini's summary:
+
+In the face of relentless technological change, those who struggle to keep up
+often feel overwhelmed and discouraged. However, a path to empowerment and
+longevity exists through mastering timeless tools like Linux, Python, Vim, and
+Git. These foundational technologies, coupled with the innovative power of Nix
+and NixOS, offer stability, flexibility, and a deep understanding of core
+principles that transcend fleeting trends.
+
+Imagine capturing your entire system configuration – every package, setting, and
+dependency – in a single, human-readable text file. This is the magic of Nix and
+NixOS, turning complex system management into something akin to crafting a
+living document that evolves and grows alongside your needs and expertise.
+Mastering these tools allows you to craft a personalized computing environment
+that remains consistent, reliable, and reproducible across time and machines.
+
+Though the learning curve may seem steep, the investment is worth it. This is
+about more than just acquiring a specific skill set; it's about embracing a
+philosophy of control, adaptability, and long-term thinking. Don't be deterred
+by the pace of change - embrace the challenge, find solace and the rewards of
+muscle memory in timeless tools, and unlock the hidden superpower within you.
+
 ---
 
 **Me:** Explain to me philosophically the NixOS declarative system building language. It doesn't make sense to me, but the appeal of what it's promising is overwhelming. I need to learn how to think about it. 
