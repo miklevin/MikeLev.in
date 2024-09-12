@@ -42,14 +42,25 @@ and muscle memory become either an asset or a liability.
 
 ## AI Subscription Fees and Vendor Lock-in
 
-The software vendors all want you to become dependent on their particular, and
-often incompatible tools, to lock you in and make you part of their reliable
-revenue forecasts. Hence, the popularity of subscription services. Little makes
-this clearer than the new wave of AI tools, each with a $20/mo fee.
+Software vendors need you to become dependent on their particular, and often
+incompatible tools, locking you in to make you part of their revenue forecasts.
+Hence, the popularity of subscription services. Little makes this clearer than
+the new wave of AI tools, each with a $20/mo fee.
 
 ## Nip That In The Bud With Nix and NixOS
 
 While I advocate Linux, Python, vim & git (LPvg) as a general sub-platform of
 all other platforms to fight obsolescence and vendor lock-in, the "Linux" part
 is a show-stopper for most folks. Fortunately, this problem is now solved with
-the nix command easily reproduces any Linux environment under Mac or Windows.
+the nix command that easily reproduces any Linux environment under Mac or
+Windows.
+
+## The First Step in a Thousand Mile Journey
+
+Thus far, the nix movement has been amongst the techiest of techs. I'm part of
+it coming downstream to the less than hardcore full-time developers. I'm
+currently working my way through the very steep learning curve of nix and NixOS,
+and once I'm over the hump, it should be easy to divvy out little flakes of nixy
+brilliance to my co-journeyers in the field of SEO (search engine optimization).
+
+
