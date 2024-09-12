@@ -21,11 +21,35 @@ the Gom Jabbar (Dune pain-box) of Linux. 20 MB and no install!</td>
 
 <td class="hptd"><b><a href="/pipulate/">Pipulate Free & Open Source
 SEO</a></b><br />Follow along as I recalibrate my SEO software for the new AI
-reality, such as using a local LLM to help crawl and fix sites.</td>
+reality, such as using a local LLM to help crawl & fix sites.</td>
 
 </tr>
 </table>
 
 ## Future-proofing w/ Linux, Python, vim & git (LPvg)
 
-Replace me.
+Saying AI has killed programming is like saying the calculator killed math.
+Expert users still have to expertly use the tool for the value to be realized.
+Whether or not you thriving and prosper or get ground under the wheels of
+obsolescence is all in the details.
+
+## The Hamster Wheel of Tech vs. Forever Improving
+
+Everything you learn will be obsolete in a few years... except for certain
+fundamentals that never go away. While the hamster wheel churn of tech is okay
+in your neuro-flexible youth, as you get older skills setting into your habits
+and muscle memory become either an asset or a liability.
+
+## AI Subscription Fees and Vendor Lock-in
+
+The software vendors all want you to become dependent on their particular, and
+often incompatible tools, to lock you in and make you part of their reliable
+revenue forecasts. Hence, the popularity of subscription services. Little makes
+this clearer than the new wave of AI tools, each with a $20/mo fee.
+
+## Nip That In The Bud With Nix and NixOS
+
+While I advocate Linux, Python, vim & git (LPvg) as a general sub-platform of
+all other platforms to fight obsolescence and vendor lock-in, the "Linux" part
+is a show-stopper for most folks. Fortunately, this problem is now solved with
+the nix command easily reproduces any Linux environment under Mac or Windows.
