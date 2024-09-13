@@ -1,7 +1,7 @@
 ---
 title: Future-proof Your Tech Skills
 permalink: /future-proof-tech-skills/
-description: Future-proof your tech skills by mastering fundamentials that don't change regardless of the hamsterwheel of tech.
+description: Future-proof your tech skills by mastering a few cherry picked fundamentials that apply in the AI Age
 layout: post
 ---
 
