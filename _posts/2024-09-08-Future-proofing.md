@@ -1,7 +1,7 @@
 ---
 title: Future-proof Your Tech Skills
 permalink: /future-proof-tech-skills/
-description: Future-proof your tech skills by mastering a few cherry picked fundamentials that apply in the AI Age
+description: Future-proof your tech skills by mastering a few cherry picked fundamentials that apply in the AI Age. Hear the argument.
 layout: post
 ---
 
