@@ -916,6 +916,7 @@ nav a.current {
   overflow: auto;
   background-color: white;
   border-radius: 1.5em;
+  padding: 1em 1em 1em 1em;
 }
 
 .mermaid > svg {
