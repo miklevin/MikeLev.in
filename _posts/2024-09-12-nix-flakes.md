@@ -111,6 +111,7 @@ And so, I have turned on the Nix Flakes optional feature, switched my `configura
 
 The additional cognitive overhead and constant additional friction to processs that I had feared with Nix Flakes hasn't yet materialized. So I can now cautiously approach the new Flake features, which I actually do need for sharing work with my coworkers, without being overwhelmed by exploding complexity.​​​​​​​​​​​​​​​​
 
+{% raw %}
 ```mermaid
 graph TD
     A[Levinux Project] -->|Quest for timeless computing| B(NixOS Discovery)
@@ -133,4 +134,5 @@ graph TD
     style F fill:#bfb,stroke:#333,stroke-width:2px
     style M fill:#fbb,stroke:#333,stroke-width:2px
 ```
+{% endraw %}
 
