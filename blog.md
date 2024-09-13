@@ -8,7 +8,7 @@ layout: default
 
 > This is where I document the replacing of Levinux with NixOS as a portable
 > tech home for life, and the updating of Pipulate Free and Open Source Software
-> for the AI Age. It's less for developers than you'd think.
+> for the AI Age. Follow the journey.
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
