@@ -5,8 +5,6 @@ description: Future-proof your tech skills by mastering fundamentials that don't
 layout: post
 ---
 
-## Future-proofing w/ Linux, Python, vim & git (LPvg)
-
 AI makes it feel like we're facing unprecedented change, but we've lived through
 the industrial, atomic, and information ages. Humanity adapts. It's not the
 first time we've had to change the way we live and work. Join me as I, a

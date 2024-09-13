@@ -5,8 +5,6 @@ description: Pythonista struggles with NixOS, seeking an intuitive grasp of its 
 layout: post
 ---
 
-## A Pythonista Struggling With Nix Syntax
-
 This is an exchange between myself and Perplexity.AI (on the free Claude model
 at the time of its occurance, with me trying to gain some intuitive
 understanding of the strange Haskell-inspired Nix system configuration language.
@@ -15,7 +13,7 @@ usually imperative languages like SQL and HTML you're never going to get away
 from. The Nix system configuration language is shaping up to be one of those for
 me, and this is coming to grips with my Pythonic gripes.
 
-### Here's Gemini's summary:
+### Timeless Tech Mastery: Your Path to Digital Empowerment in a Rapidly Changing World
 
 In the face of relentless technological change, those who struggle to keep up
 often feel overwhelmed and discouraged. However, a path to empowerment and
