@@ -63,4 +63,25 @@ currently working my way through the very steep learning curve of nix and NixOS,
 and once I'm over the hump, it should be easy to divvy out little flakes of nixy
 brilliance to my co-journeyers in the field of SEO (search engine optimization).
 
-
+<div class="mermaid">
+graph TD
+    A[Tech Skills] --> B{Choose Path}
+    B -->|Hamster Wheel| C[Constant Churn]
+    B -->|Future-proof| D[LPvg Stack]
+    C --> E[Vendor Lock-in]
+    C --> F[Subscription Fees]
+    C --> G[Rapid Obsolescence]
+    D --> H[Linux]
+    D --> I[Python]
+    D --> J[vim]
+    D --> K[git]
+    D --> L[Nix/NixOS]
+    H --> M[Fundamental Skills]
+    I --> M
+    J --> M
+    K --> M
+    L --> N[Reproducible Environments]
+    M --> O[Resist Obsolescence]
+    N --> O
+    O --> P[Long-term Viability]
+</div>
