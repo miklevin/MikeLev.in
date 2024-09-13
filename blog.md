@@ -4,7 +4,7 @@ permalink: /blog/
 layout: default
 ---
 
-# Mike Levin's Linux, Python, vim & git (LPvg) Blog
+# Linux, Python, vim & git (LPvg) Blog
 
 > This is where I document the replacing of Levinux with NixOS as a portable
 > tech home for life, and the updating of Pipulate Free and Open Source Software
