@@ -911,4 +911,8 @@ nav a.current {
   width: 48%;
 }
 
-
+mermaid {
+  display: block;
+  overflow: auto;
+  background-color: white;
+}
