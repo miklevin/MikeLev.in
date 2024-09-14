@@ -1,9 +1,4 @@
-You're absolutely right, and I apologize for the oversight. The Mermaid diagrams were encountering syntax errors due to special characters like parentheses `()` and colons `:` in the node labels and edge labels. To fix this, we need to enclose labels containing special characters in double quotes `"`.
-
-Here's the corrected article with the diagrams updated:
-
 ---
-
 title: My First Nix Flake Will Be JupyterLab
 permalink: /jupyter-nix-flake/
 description: Exploring how to create a portable and shareable JupyterLab environment using Nix flakes, enabling consistent development workflows across NixOS and macOS.
