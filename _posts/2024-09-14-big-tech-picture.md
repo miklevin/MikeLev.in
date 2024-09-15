@@ -482,31 +482,53 @@ By integrating these tools, you can cast systems into existence without AI—loc
 
 
 <div class="mermaid">
-timeline
-    title Computing Evolution Timeline
-    1958 : LISP Created by John McCarthy at MIT
-    1962 : FORMAC Developed by Jean E. Sammet at IBM
-    1966 : BCPL Introduced by Martin Richards at Cambridge University
-    1967 : ITS Developed at MIT
-    1969 : Unix Created by Ken Thompson and Dennis Ritchie at Bell Labs
-    1972 : C Programming Language Developed by Dennis Ritchie at Bell Labs
-    1979 : Bourne Shell Developed by Stephen Bourne at Bell Labs
-    1983 : GNU Project Launched by Richard Stallman at MIT
-    1987 : Perl Created by Larry Wall at Unisys
-    1989 : Bash Released by Brian Fox
-    1991 : Python Introduced by Guido van Rossum at CWI
-    1991 : Vim Created by Bram Moolenaar
-    1995 : JVM Introduced by James Gosling at Sun Microsystems
-    1998 : VMware Released
-    2003 : NixOS Released by Eelco Dolstra
-    2005 : Git Developed by Linus Torvalds
-    2006 : Nix Introduced in Ph.D. Thesis by Eelco Dolstra
-    2013 : Docker Released by Solomon Hykes
-    2014 : Jupyter Notebooks Released by Fernando Pérez
-    2015 : LXD Released
-    2020 : Nix Flakes Introduced
-    2022 : Zed Released
-    2023 : Cursor AI Released
+graph TB
+    A1958[LISP Created by John McCarthy at MIT 1958]
+    A1962[FORMAC Developed by Jean E. Sammet at IBM 1962]
+    A1966[BCPL Introduced by Martin Richards at Cambridge University 1966]
+    A1967[ITS Developed at MIT 1967]
+    A1969[Unix Created by Ken Thompson and Dennis Ritchie at Bell Labs 1969]
+    A1972[C Programming Language Developed by Dennis Ritchie at Bell Labs 1972]
+    A1979[Bourne Shell Developed by Stephen Bourne at Bell Labs 1979]
+    A1983[GNU Project Launched by Richard Stallman at MIT 1983]
+    A1987[Perl Created by Larry Wall at Unisys 1987]
+    A1989[Bash Released by Brian Fox 1989]
+    A1991[Python Introduced by Guido van Rossum at CWI 1991]
+    A1991b[Vim Created by Bram Moolenaar 1991]
+    A1995[JVM Introduced by James Gosling at Sun Microsystems 1995]
+    A1998[VMware Released 1998]
+    A2003[NixOS Released by Eelco Dolstra 2003]
+    A2005[Git Developed by Linus Torvalds 2005]
+    A2006[Nix Introduced in Ph.D. Thesis by Eelco Dolstra 2006]
+    A2013[Docker Released by Solomon Hykes 2013]
+    A2014[Jupyter Notebooks Released by Fernando Pérez 2014]
+    A2015[LXD Released 2015]
+    A2020[Nix Flakes Introduced 2020]
+    A2022[Zed Released 2022]
+    A2023[Cursor AI Released 2023]
+    
+    A1958 --> A1962
+    A1962 --> A1966
+    A1966 --> A1967
+    A1967 --> A1969
+    A1969 --> A1972
+    A1972 --> A1979
+    A1979 --> A1983
+    A1983 --> A1987
+    A1987 --> A1989
+    A1989 --> A1991
+    A1991 --> A1991b
+    A1991b --> A1995
+    A1995 --> A1998
+    A1998 --> A2003
+    A2003 --> A2005
+    A2005 --> A2006
+    A2006 --> A2013
+    A2013 --> A2014
+    A2014 --> A2015
+    A2015 --> A2020
+    A2020 --> A2022
+    A2022 --> A2023
 </div>
 
 ## Diagram Explanations
