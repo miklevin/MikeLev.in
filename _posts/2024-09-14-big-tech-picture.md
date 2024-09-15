@@ -489,7 +489,6 @@ By integrating these tools, you can cast systems into existence without AI—loc
 <div class="mermaid">
 graph TB
     A1958[LISP Created by John McCarthy at MIT 1958]
-    A1962[FORMAC Developed by Jean E. Sammet at IBM 1962]
     A1966[BCPL Introduced by Martin Richards at Cambridge University 1966]
     A1967[ITS Developed at MIT 1967]
     A1969[Unix Created by Ken Thompson and Dennis Ritchie at Bell Labs 1969]
