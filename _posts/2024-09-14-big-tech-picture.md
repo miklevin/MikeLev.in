@@ -44,11 +44,6 @@ graph TD
 
 Understanding this lineage empowers you to appreciate how virtualization has been a recurring solution to challenges in computing, offering portability, security, and resource management.
 
-### Other Unsung Heroes in Early Computing
-
-- **Peter J. Landin** (British) from University College London sought to bridge the gap between mathematical logic and practical programming languages. He introduced the **SECD machine**, an abstract machine for executing functional programs, contributing to the concept of virtual execution environments.
-- **Jean E. Sammet** (American) at IBM developed **FORMAC** in 1962, pioneering symbolic mathematical computations. Her work influenced later computational tools and languages.
-
 ## The Genesis of Multics and the Birth of Unix
 
 ### Multics: Ambition Meets Complexity
