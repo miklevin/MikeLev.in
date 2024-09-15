@@ -282,8 +282,8 @@ graph LR
     Vi[Vi 1976] --> Emacs[Emacs 1980s]
     Emacs --> Sublime[Sublime Text 2000s]
     Sublime --> VSCode[VSCode 2015]
-    VSCode --> Zed[Zed 2022]
     VSCode --> CursorAI[Cursor AI 2023]
+    CursorAI --> Vi
 </div>
 
 #### The Problem with Churn
