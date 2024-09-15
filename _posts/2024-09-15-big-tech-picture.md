@@ -1,5 +1,5 @@
 ---
-title: "Get the Big Tech Picture: Unlock Your Power and Independence in a Changing Digital World"
+title: "Get the Big Tech Picture to Maintain Agency"
 permalink: /big-tech-picture/
 description: Discover the evolution of foundational tech tools—from Unix to Python, Vim, and NixOS—and learn how understanding these principles empowers you to maintain independence and control in today's AI-driven landscape.
 layout: post
