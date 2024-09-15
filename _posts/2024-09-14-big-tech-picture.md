@@ -29,7 +29,7 @@ This abstraction allowed BCPL programs to be highly portable, as the same O-code
 
 The virtual machine concept introduced by Richards set a precedent for future technologies aiming for portability and isolation:
 
-```mermaid
+<div class="mermaid">
 graph TD
     A[BCPL (1966)] --> B[P-code in Pascal (1970s)]
     A --> C[JVM (1995)]
@@ -40,7 +40,7 @@ graph TD
     D --> G[VMware (1998)]
     D --> H[Docker (2013)]
     D --> I[LXD (2015)]
-```
+</div>
 
 Understanding this lineage empowers you to appreciate how virtualization has been a recurring solution to challenges in computing, offering portability, security, and resource management.
 
@@ -83,14 +83,14 @@ Unix introduced principles that remain empowering:
 
 By understanding and applying these principles, users can harness the full power of their systems, customizing functionality without relying on external entities.
 
-```mermaid
+<div class="mermaid">
 graph TB
     subgraph Unix Philosophy
         A[Everything is a File] --> B[Modularity]
         B --> C[Piping and Redirection]
         C --> D[Scripting]
     end
-```
+</div>
 
 ## The Development of C: Bridging Low-Level Control and High-Level Abstraction
 
@@ -112,12 +112,12 @@ C provided:
 
 Learning C empowers users by giving them control over systems at a fundamental level, fostering a deeper understanding that transcends technological changes.
 
-```mermaid
+<div class="mermaid">
 graph LR
     BCPL --> B[B]
     B --> C[C]
     C --> Unix[Unix Operating System]
-```
+</div>
 
 ## Evolution of Scripting and High-Level Languages: From Shell Scripts to Python
 
@@ -152,13 +152,14 @@ Python has become ubiquitous in fields like machine learning and artificial inte
 
 By embracing Python, users can participate in cutting-edge developments without reliance on proprietary tools or AI-driven interfaces.
 
-```mermaid
+
+<div class="mermaid">
 flowchart TD
     S[Shell Scripting] --> B[Bash]
     S --> P[Perl]
     P --> Py[Python]
     Py --> Jupyter[Jupyter Notebooks]
-```
+</div>
 
 ## An Alternative Timeline: The Road Not Taken with ITS and LISP
 
@@ -178,11 +179,12 @@ Had ITS and LISP become the dominant paradigms, our computing landscape might ha
 
 However, the simplicity, portability, and widespread availability of Unix overshadowed ITS and LISP. Unix spread rapidly, sometimes described as a virus, due to its accessibility and the community that formed around it.
 
-```mermaid
+
+<div class="mermaid">
 graph LR
     ITS[ITS (1967)] -.->|Alternate Path| FutureAlternative[Alternative Computing World]
     Unix[Unix (1969)] --> Future[Modern Computing World]
-```
+</div>
 
 Recognizing this alternative path highlights that the technologies we take for granted today were not the only possibilities. Understanding this empowers us to appreciate the choices and developments that shaped our current computing world.
 
@@ -222,12 +224,13 @@ Introduced around 2020, **Nix Flakes** brought improvements to the Nix ecosystem
 
 By adopting Nix and NixOS, users can achieve the **Unix philosophy** dream of reproducibility, portability, and accessibility in an **AI-optional** manner. Nix empowers users to manage complex systems with confidence, reducing dependency on external services or proprietary solutions.
 
-```mermaid
+
+<div class="mermaid">
 graph TD
     Nix[Nix (2006)] --> NixOS[NixOS (2003)]
     NixOS --> NixFlakes[Nix Flakes (2020)]
     NixFlakes -->|Enhancements| Users[Users Empowered]
-```
+</div>
 
 ## The Spread of Unix and the Emergence of Linux: Community and Collaboration
 
@@ -253,13 +256,14 @@ Git empowers users and teams by:
 
 Mastering tools like Git enables users to manage projects effectively and contribute to global communities, reducing reliance on proprietary systems.
 
-```mermaid
+
+<div class="mermaid">
 graph LR
     Stallman[Richard Stallman] --> GNU[GNU Project (1983)]
     Torvalds[Linus Torvalds] --> Linux[Linux (1991)]
     Linux --> Git[Git (2005)]
     Git --> Hamano[Junio Hamano]
-```
+</div>
 
 ## Vim: Efficiency, Muscle Memory, and Mastery in Text Editing
 
@@ -272,14 +276,15 @@ Throughout computing history, there has been continuous evolution and competitio
 - **VSCode**: Released by Microsoft in 2015, Visual Studio Code quickly became dominant due to its rich features, extensibility, and active development.
 - **Emerging Challengers**: Editors like **Zed** (2022) and **Cursor AI** (2023) are introducing AI-assisted coding features.
 
-```mermaid
+
+<div class="mermaid">
 graph LR
     Vi[Vi (1976)] --> Emacs[Emacs (1980s)]
     Emacs --> Sublime[Sublime Text (2000s)]
     Sublime --> VSCode[VSCode (2015)]
     VSCode --> Zed[Zed (2022)]
     VSCode --> CursorAI[Cursor AI (2023)]
-```
+</div>
 
 #### The Problem with Churn
 
@@ -314,7 +319,8 @@ Combined with **Linux**, **Python**, **Git**, and **Nix**, **Vim** enables you t
 
 By mastering Vim, you ensure that your hard-won muscle memory serves you indefinitely, contributing to a set of "forever-abilities" that empower you in any computing environment.
 
-```mermaid
+
+<div class="mermaid">
 graph TB
     Vim[Vim (1991)] --> LPvg[LPvg Stack]
     LPvg --> Linux[Linux]
@@ -322,7 +328,7 @@ graph TB
     LPvg --> Git[Git]
     LPvg --> Nix[Nix]
     LPvg --> NixOS[NixOS]
-```
+</div>
 
 ## Nix and NixOS: Realizing the Dream of Reproducibility
 
@@ -359,12 +365,13 @@ Nix and NixOS address the "itch" of managing complex software environments with 
 
 By adopting Nix and NixOS, you can create environments that are consistent and reproducible, realizing the Unix philosophy's dream in an **AI-optional** manner. Nix empowers users to manage complex systems with confidence, reducing dependency on external services or proprietary solutions.
 
-```mermaid
+
+<div class="mermaid">
 graph LR
     Nix[Nix (2006)] --> NixOS[NixOS (2003)]
     NixOS --> Flakes[Nix Flakes (2020)]
     Flakes --> Users[Empowered Users]
-```
+</div>
 
 ## Jupyter: Bridging Accessibility and Advanced Computing
 
@@ -378,12 +385,13 @@ In the early 2010s, **Fernando Pérez** (Spanish) at the University of Californi
 
 Jupyter mitigates the steep learning curves of complex tools by providing an intuitive interface, enabling more people to harness powerful technologies.
 
-```mermaid
+
+<div class="mermaid">
 graph TD
     Jupyter[Jupyter Notebooks (2014)] -->|Enhances| Python[Python]
     Jupyter -->|Supports| DataScience[Data Science]
     Jupyter -->|Facilitates| Collaboration[Collaboration]
-```
+</div>
 
 ## The Underlying Thread: Seizing Agency Through Knowledge and Tools
 
@@ -398,7 +406,8 @@ Throughout this journey, a consistent theme emerges—empowerment through unders
 
 These technologies are not relics but living tools that continue to evolve. They offer a path to agency in a world where control often feels out of reach.
 
-```mermaid
+
+<div class="mermaid">
 flowchart LR
     Knowledge[Knowledge of Tools] --> Independence[Gain Independence]
     Knowledge --> Customization[Customize Your Environment]
@@ -406,7 +415,7 @@ flowchart LR
     Knowledge --> EvergreenSkills[Leverage Evergreen Skills]
     Knowledge --> Collaboration[Collaborate Effectively]
     Knowledge --> Innovation[Innovate]
-```
+</div>
 
 ## Empowerment Through Integration: The LPvg Stack
 
@@ -436,7 +445,8 @@ With the LPvg stack and tools like NixOS and Jupyter, you can:
 - **Scale Seamlessly**: Deploy applications and systems that scale from one-off projects to large-scale deployments with ease.
 - **Maintain Flexibility**: Adapt to new technologies and trends without losing control over your foundational tools and workflows.
 
-```mermaid
+
+<div class="mermaid">
 graph TB
     LPvg[LPvg Stack] --> Linux[Linux]
     LPvg --> Python[Python]
@@ -448,7 +458,7 @@ graph TB
     Python -->|Integration| Jupyter
     Vim -->|Efficiency| Git
     Git -->|Collaboration| NixOS
-```
+</div>
 
 ## Conclusion
 
@@ -470,7 +480,8 @@ By integrating these tools, you can cast systems into existence without AI—loc
 
 ## Timeline of Key Developments
 
-```mermaid
+
+<div class="mermaid">
 timeline
     title Computing Evolution Timeline
     1958 : LISP Created by John McCarthy at MIT
@@ -496,13 +507,14 @@ timeline
     2020 : Nix Flakes Introduced
     2022 : Zed Released
     2023 : Cursor AI Released
-```
+</div>
 
 ## Diagram Explanations
 
 ### Virtual Machine Concept Evolution
 
-```mermaid
+
+<div class="mermaid">
 graph LR
     BCPL[BCPL (1966)] --> Ocode[O-code]
     Ocode --> VM[Virtual Machine]
@@ -513,25 +525,27 @@ graph LR
     Containers --> KVM[KVM (2007)]
     Containers --> Docker[Docker (2013)]
     Containers --> LXD[LXD (2015)]
-```
+</div>
 
 *This diagram illustrates the evolution of the virtual machine concept from BCPL's O-code to modern virtualization and containerization technologies.*
 
 ### Unix Philosophy Empowerment
 
-```mermaid
+
+<div class="mermaid">
 graph TB
     Unix[Unix Philosophy] -->|Simplifies| EverythingIsAFile[Everything is a File]
     Unix -->|Encourages| Modularity[Modularity]
     Unix -->|Enables| Piping[Piping and Redirection]
     Unix -->|Allows| Scripting[Scripting]
-```
+</div>
 
 *This diagram showcases the core principles of the Unix Philosophy and how they empower users.*
 
 ### LPvg Stack Integration
 
-```mermaid
+
+<div class="mermaid">
 graph TB
     LPvg[LPvg Stack] --> Linux[Linux]
     LPvg --> Python[Python]
@@ -543,6 +557,6 @@ graph TB
     Python -->|Integration| Jupyter
     Vim -->|Efficiency| Git
     Git -->|Collaboration| NixOS
-```
+</div>
 
 *This diagram demonstrates how the LPvg stack integrates with NixOS and Jupyter to form a cohesive and powerful toolkit.*
