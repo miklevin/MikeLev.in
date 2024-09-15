@@ -278,10 +278,15 @@ Throughout computing history, there has been continuous evolution and competitio
 
 
 <div class="mermaid">
-graph LR
+graph TD
     Vi[Vi 1976] --> Emacs[Emacs 1980s]
-    Emacs --> Sublime[Sublime Text 2000s]
-    Sublime --> VSCode[VSCode 2015]
+    Emacs --> PFE[PFE 1990s]
+    PFE --> BBEdit[BBEdit 1990s]
+    Sublime --> NotepadPP[Notepad++ 2003]
+    BBEdit --> TextMate[TextMate 2004]
+    TextMate --> Sublime[Sublime Text 2008]
+    NotepadPP --> Atom[Atom 2014]
+    Atom --> VSCode[VSCode 2015]
     VSCode --> CursorAI[Cursor AI 2023]
     CursorAI --> Vi
 </div>
