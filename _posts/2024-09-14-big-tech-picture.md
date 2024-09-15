@@ -523,8 +523,7 @@ graph TB
     A2020[Nix Flakes Introduced 2020]
     A2023[Cursor AI Released 2023]
 
-    A1958 --> A1962
-    A1962 --> A1966
+    A1958 --> A1966
     A1966 --> A1967
     A1967 --> A1969
     A1969 --> A1969b
