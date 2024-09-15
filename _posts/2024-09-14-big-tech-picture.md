@@ -488,7 +488,11 @@ graph TB
     A1966[BCPL Introduced by Martin Richards at Cambridge University 1966]
     A1967[ITS Developed at MIT 1967]
     A1969[Unix Created by Ken Thompson and Dennis Ritchie at Bell Labs 1969]
+    A1969b[ARPANET Launched 1969]
     A1972[C Programming Language Developed by Dennis Ritchie at Bell Labs 1972]
+    A1976[vi Text Editor Created by Bill Joy at UC Berkeley 1976]
+    A1977[BSD Unix Developed at UC Berkeley 1977]
+    A1978[Emacs Created by Richard Stallman 1978]
     A1979[Bourne Shell Developed by Stephen Bourne at Bell Labs 1979]
     A1983[GNU Project Launched by Richard Stallman at MIT 1983]
     A1987[Perl Created by Larry Wall at Unisys 1987]
@@ -496,39 +500,59 @@ graph TB
     A1991[Python Introduced by Guido van Rossum at CWI 1991]
     A1991b[Vim Created by Bram Moolenaar 1991]
     A1995[JVM Introduced by James Gosling at Sun Microsystems 1995]
+    A1995b[Apache HTTP Server Released 1995]
     A1998[VMware Released 1998]
     A2003[NixOS Released by Eelco Dolstra 2003]
     A2005[Git Developed by Linus Torvalds 2005]
     A2006[Nix Introduced in Ph.D. Thesis by Eelco Dolstra 2006]
+    A2008[GitHub Launched 2008]
     A2013[Docker Released by Solomon Hykes 2013]
     A2014[Jupyter Notebooks Released by Fernando Pérez 2014]
+    A2014b[Docker Compose Introduced 2014]
+    A2014c[Apple's Swift Programming Language Released 2014]
     A2015[LXD Released 2015]
+    A2015b[VSCode Released by Microsoft 2015]
+    A2015c[Neovim Forked from Vim 2015]
+    A2015d[TensorFlow Released by Google 2015]
+    A2017[WebAssembly Introduced 2017]
+    A2018[Red Hat Acquired by IBM 2018]
     A2020[Nix Flakes Introduced 2020]
-    A2022[Zed Released 2022]
     A2023[Cursor AI Released 2023]
-    
+
     A1958 --> A1962
     A1962 --> A1966
     A1966 --> A1967
     A1967 --> A1969
-    A1969 --> A1972
-    A1972 --> A1979
+    A1969 --> A1969b
+    A1969b --> A1972
+    A1972 --> A1976
+    A1976 --> A1977
+    A1977 --> A1978
+    A1978 --> A1979
     A1979 --> A1983
     A1983 --> A1987
     A1987 --> A1989
     A1989 --> A1991
     A1991 --> A1991b
     A1991b --> A1995
-    A1995 --> A1998
+    A1995 --> A1995b
+    A1995b --> A1998
     A1998 --> A2003
     A2003 --> A2005
     A2005 --> A2006
-    A2006 --> A2013
+    A2006 --> A2008
+    A2008 --> A2013
     A2013 --> A2014
-    A2014 --> A2015
-    A2015 --> A2020
-    A2020 --> A2022
-    A2022 --> A2023
+    A2014 --> A2014b
+    A2014b --> A2014c
+    A2014c --> A2015
+    A2015 --> A2015b
+    A2015b --> A2015c
+    A2015c --> A2015d
+    A2015d --> A2017
+    A2017 --> A2018
+    A2018 --> A2020
+    A2020 --> A2023
 </div>
 
 ## Diagram Explanations
