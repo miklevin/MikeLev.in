@@ -31,15 +31,15 @@ The virtual machine concept introduced by Richards set a precedent for future te
 
 <div class="mermaid">
 graph TD
-    A[BCPL (1966)] --> B[P-code in Pascal (1970s)]
-    A --> C[JVM (1995)]
+    A[BCPL 1966] --> B[P-code in Pascal 1970s]
+    A --> C[JVM 1995]
     C --> D[Virtualization & Containers]
     B --> D
-    D --> E[QEMU (2003)]
-    D --> F[KVM (2007)]
-    D --> G[VMware (1998)]
-    D --> H[Docker (2013)]
-    D --> I[LXD (2015)]
+    D --> E[QEMU 2003]
+    D --> F[KVM 2007]
+    D --> G[VMware 1998]
+    D --> H[Docker 2013]
+    D --> I[LXD 2015]
 </div>
 
 Understanding this lineage empowers you to appreciate how virtualization has been a recurring solution to challenges in computing, offering portability, security, and resource management.
@@ -182,8 +182,8 @@ However, the simplicity, portability, and widespread availability of Unix oversh
 
 <div class="mermaid">
 graph LR
-    ITS[ITS (1967)] -.->|Alternate Path| FutureAlternative[Alternative Computing World]
-    Unix[Unix (1969)] --> Future[Modern Computing World]
+    ITS[ITS 1967] -.->|Alternate Path| FutureAlternative[Alternative Computing World]
+    Unix[Unix 1969] --> Future[Modern Computing World]
 </div>
 
 Recognizing this alternative path highlights that the technologies we take for granted today were not the only possibilities. Understanding this empowers us to appreciate the choices and developments that shaped our current computing world.
@@ -227,8 +227,8 @@ By adopting Nix and NixOS, users can achieve the **Unix philosophy** dream of re
 
 <div class="mermaid">
 graph TD
-    Nix[Nix (2006)] --> NixOS[NixOS (2003)]
-    NixOS --> NixFlakes[Nix Flakes (2020)]
+    Nix[Nix 2006] --> NixOS[NixOS 2003]
+    NixOS --> NixFlakes[Nix Flakes 2020]
     NixFlakes -->|Enhancements| Users[Users Empowered]
 </div>
 
@@ -259,9 +259,9 @@ Mastering tools like Git enables users to manage projects effectively and contri
 
 <div class="mermaid">
 graph LR
-    Stallman[Richard Stallman] --> GNU[GNU Project (1983)]
-    Torvalds[Linus Torvalds] --> Linux[Linux (1991)]
-    Linux --> Git[Git (2005)]
+    Stallman[Richard Stallman] --> GNU[GNU Project 1983]
+    Torvalds[Linus Torvalds] --> Linux[Linux 1991]
+    Linux --> Git[Git 2005]
     Git --> Hamano[Junio Hamano]
 </div>
 
@@ -279,11 +279,11 @@ Throughout computing history, there has been continuous evolution and competitio
 
 <div class="mermaid">
 graph LR
-    Vi[Vi (1976)] --> Emacs[Emacs (1980s)]
-    Emacs --> Sublime[Sublime Text (2000s)]
-    Sublime --> VSCode[VSCode (2015)]
-    VSCode --> Zed[Zed (2022)]
-    VSCode --> CursorAI[Cursor AI (2023)]
+    Vi[Vi 1976] --> Emacs[Emacs 1980s]
+    Emacs --> Sublime[Sublime Text 2000s]
+    Sublime --> VSCode[VSCode 2015]
+    VSCode --> Zed[Zed 2022]
+    VSCode --> CursorAI[Cursor AI 2023]
 </div>
 
 #### The Problem with Churn
@@ -322,7 +322,7 @@ By mastering Vim, you ensure that your hard-won muscle memory serves you indefin
 
 <div class="mermaid">
 graph TB
-    Vim[Vim (1991)] --> LPvg[LPvg Stack]
+    Vim[Vim 1991] --> LPvg[LPvg Stack]
     LPvg --> Linux[Linux]
     LPvg --> Python[Python]
     LPvg --> Git[Git]
@@ -368,8 +368,8 @@ By adopting Nix and NixOS, you can create environments that are consistent and r
 
 <div class="mermaid">
 graph LR
-    Nix[Nix (2006)] --> NixOS[NixOS (2003)]
-    NixOS --> Flakes[Nix Flakes (2020)]
+    Nix[Nix 2006] --> NixOS[NixOS 2003]
+    NixOS --> Flakes[Nix Flakes 2020]
     Flakes --> Users[Empowered Users]
 </div>
 
@@ -388,9 +388,9 @@ Jupyter mitigates the steep learning curves of complex tools by providing an int
 
 <div class="mermaid">
 graph TD
-    Jupyter[Jupyter Notebooks (2014)] -->|Enhances| Python[Python]
-    Jupyter -->|Supports| DataScience[Data Science]
-    Jupyter -->|Facilitates| Collaboration[Collaboration]
+    Jupyter[Jupyter Notebooks 2014] -->Enhances Python[Python]
+    Jupyter -->Supports DataScience[Data Science]
+    Jupyter -->Facilitates Collaboration[Collaboration]
 </div>
 
 ## The Underlying Thread: Seizing Agency Through Knowledge and Tools
@@ -516,15 +516,15 @@ timeline
 
 <div class="mermaid">
 graph LR
-    BCPL[BCPL (1966)] --> Ocode[O-code]
+    BCPL[BCPL 1966] --> Ocode[O-code]
     Ocode --> VM[Virtual Machine]
-    VM --> JVM[JVM (1995)]
-    VM --> CLR[.NET CLR (2002)]
+    VM --> JVM[JVM 1995]
+    VM --> CLR[.NET CLR 2002]
     VM --> Containers[Virtualization & Containers]
-    Containers --> QEMU[QEMU (2003)]
-    Containers --> KVM[KVM (2007)]
-    Containers --> Docker[Docker (2013)]
-    Containers --> LXD[LXD (2015)]
+    Containers --> QEMU[QEMU 2003]
+    Containers --> KVM[KVM 2007]
+    Containers --> Docker[Docker 2013]
+    Containers --> LXD[LXD 2015]
 </div>
 
 *This diagram illustrates the evolution of the virtual machine concept from BCPL's O-code to modern virtualization and containerization technologies.*
