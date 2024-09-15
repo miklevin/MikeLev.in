@@ -388,9 +388,9 @@ Jupyter mitigates the steep learning curves of complex tools by providing an int
 
 <div class="mermaid">
 graph TD
-    Jupyter[Jupyter Notebooks 2014] -->Enhances Python[Python]
-    Jupyter -->Supports DataScience[Data Science]
-    Jupyter -->Facilitates Collaboration[Collaboration]
+    Jupyter[Jupyter Notebooks 2014] --> |Enhances| Python[Python]
+    Jupyter --> |Supports| DataScience[Data Science]
+    Jupyter --> |Facilitates| Collaboration[Collaboration]
 </div>
 
 ## The Underlying Thread: Seizing Agency Through Knowledge and Tools
