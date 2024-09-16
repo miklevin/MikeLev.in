@@ -5,7 +5,7 @@ description: We incrementally built a flake.nix for a cross-platform development
 layout: post
 ---
 
-I started with a bare-bones flake.nix, determined to create a flexible development environment that works seamlessly across macOS and Linux. Step by step, I added the essentials: Python, JupyterLab, data science tools, and even CUDA support for GPU acceleration. The challenge of installing python-fasthtml, which wasn’t in the Nix repo, was no match for a quick pip install in the shell setup. With each iteration, I refined the setup, ensuring it auto-started JupyterLab and the FastHTML server, handling everything smoothly. Now, I have a powerful, ready-to-go environment that adapts to any machine, overcoming all hurdles with elegance.
+I started with a bare-bones `flake.nix`, determined to create a flexible development environment that works seamlessly across macOS and Linux. Step by step, I added the essentials: Python, JupyterLab, data science tools, and even CUDA support for GPU acceleration. The challenge of installing `python-fasthtml`, which wasn’t in the Nix repo, was no match for a quick pip install in the shell setup. With each iteration, I refined the setup, ensuring it auto-started JupyterLab and the FastHTML server, handling everything smoothly. Now, I have a powerful, ready-to-go environment that adapts to any machine, overcoming all hurdles with elegance.
 
 ### Version 1: Minimal Flake with Basic Python Environment
 
