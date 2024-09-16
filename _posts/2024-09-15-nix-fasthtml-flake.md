@@ -1,15 +1,15 @@
 ---
-title: Cross-Platform Nix Flake For Jupyter & FastHTML
-permalink: /nix-fasthtml-flake/
-description: Learn how I methodically crafted a cross-platform Nix flake that integrates JupyterLab, CUDA support, Ollama for local LLMs, and a FastHTML server, leveraging virtual environments for maximum flexibility.
+title: Cross-Platform Nix Flake for Jupyter & FastHTML  
+permalink: /nix-fasthtml-flake/  
+description: Learn how I methodically crafted a cross-platform Nix flake that integrates JupyterLab, CUDA support, Ollama for local LLMs, and a FastHTML server, leveraging virtual environments for maximum flexibility.  
 layout: post
 ---
 
-Creating a seamless development environment that works effortlessly across both macOS and Linux, supports CUDA acceleration, and accommodates specialized tools like JupyterLab and FastHTML can be challenging. I embarked on this journey by starting with a minimal `flake.nix` and progressively adding features to overcome each obstacle. The key was integrating a virtual environment, which not only allowed me to pip install packages not available in the Nix repository but also provided flexibility for future data science needs. Here's how I built up the `flake.nix` step by step to achieve a robust and adaptable setup.
+Creating a seamless development environment that operates effortlessly across macOS, Linux, and even Windows with WSL can be challenging. Incorporating CUDA acceleration and specialized tools like JupyterLab and FastHTML adds further complexity. To tackle these challenges, I embarked on a journey to build a versatile `flake.nix` configuration. Starting with a minimal setup, I progressively added features to overcome each obstacle. A pivotal aspect of this approach was integrating a virtual environment, which not only allowed for the installation of packages not available in the Nix repository but also provided the flexibility needed for future data science endeavors. Below is a step-by-step account of how I developed the `flake.nix` to create a robust and adaptable setup.
 
 ### Version 1: Minimal Python Environment
 
-I began with the most basic setup to ensure that Nix was correctly configured. This minimal `flake.nix` includes only the Python interpreter.
+I began with the most basic setup to ensure that Nix was correctly configured and functioning on both Linux and macOS systems. This minimal `flake.nix` includes only the Python interpreter, establishing a solid foundation for further enhancements.
 
 ```nix
 # flake.nix - Version 1: Minimal Python Environment
@@ -36,43 +36,12 @@ I began with the most basic setup to ensure that Nix was correctly configured. T
 
 ### Version 2: Adding JupyterLab and Data Science Packages
 
-Next, I incorporated essential data science tools, including JupyterLab, to facilitate interactive notebooks.
+With the basic environment in place, the next step was to incorporate essential data science tools, including JupyterLab, to facilitate interactive notebooks and data analysis.
 
 ```nix
 # flake.nix - Version 2: Add JupyterLab and Data Science Packages
 {
-  description = "Python Development Environment with JupyterLab";
-
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
-  };
-
-  outputs = { self, nixpkgs }: {
-    devShells = {
-      default = { pkgs }: pkgs.mkShell {
-        buildInputs = with pkgs.python311Packages; [
-          jupyterlab
-          pandas
-          numpy
-          matplotlib
-          scipy
-        ];
-      };
-    };
-  };
-}
-```
-
-*With JupyterLab and popular data science libraries like pandas and numpy, the environment became more powerful for data analysis tasks.*
-
-### Version 3: Introducing CUDA Support
-
-To leverage GPU acceleration on Linux systems, I added conditional support for CUDA. This allows the environment to utilize CUDA when available, enhancing performance for compatible applications.
-
-```nix
-# flake.nix - Version 3: Add CUDA Support
-{
-  description = "Python Environment with JupyterLab and Optional CUDA";
+  description = "Data Science Development Environment with JupyterLab";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
@@ -82,24 +51,116 @@ To leverage GPU acceleration on Linux systems, I added conditional support for C
     let
       systems = [ "x86_64-linux" "aarch64-darwin" ];
       forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
-      localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
-      cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
-    in {
+    in
+    {
       devShells = forAllSystems (system: {
         default = let
           pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
-          cudaPackages = if cudaSupport && system == "x86_64-linux" then with pkgs; [
-            cudatoolkit
-            cudnn
-          ] else [];
+          # Define Python package set
+          ps = pkgs.python311Packages;
+          # Python packages for data science
+          pythonPackages = pkgs.python311.withPackages (ps: [
+            ps.jupyterlab
+            ps.pandas
+            ps.numpy
+            ps.matplotlib
+            ps.scikit-learn
+            ps.seaborn
+            (if system == "aarch64-darwin" then ps.pytorch-bin else ps.pytorch)
+          ]);
+          # Common development tools
+          devTools = with pkgs; [
+            git
+          ];
         in pkgs.mkShell {
-          buildInputs = with pkgs.python311Packages; [
-            jupyterlab
-            pandas
-            numpy
-            matplotlib
-            scipy
-          ] ++ cudaPackages;
+          buildInputs = devTools ++ [ pythonPackages ] ++ [
+            pkgs.stdenv.cc.cc.lib
+          ];
+
+          shellHook = ''
+            export NIXPKGS_ALLOW_UNFREE=1
+            export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
+            echo "Welcome to the Data Science development environment on ${system}!"
+            echo "Development environment is ready!"
+            echo "To start JupyterLab, run: jupyter lab"
+          '';
+        };
+      });
+    };
+}
+```
+
+*With JupyterLab and popular data science libraries like pandas and numpy, the environment became more powerful for data analysis tasks.*
+
+### Version 3: Introducing CUDA Support
+
+To harness the power of GPU acceleration on Linux systems, I added conditional support for CUDA. This enhancement allows the environment to utilize CUDA when available, significantly boosting performance for compatible applications.
+
+```nix
+# flake.nix - Version 3: Add CUDA Support
+{
+  description = "Data Science Development Environment with JupyterLab";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+  };
+
+  outputs = { self, nixpkgs }:
+    let
+      systems = [ "x86_64-linux" "aarch64-darwin" ];
+      forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
+      # Import local configuration if present
+      localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
+      # Use the ? operator to check for cudaSupport
+      cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
+    in
+    {
+      devShells = forAllSystems (system: {
+        default = let
+          pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
+          lib = pkgs.lib;
+          # CUDA-specific packages (only on Linux)
+          cudaPackages = lib.optionals (cudaSupport && system == "x86_64-linux") (with pkgs; [
+            pkgs.cudatoolkit
+            pkgs.cudnn
+          ]);
+          # Define Python package set
+          ps = pkgs.python311Packages;
+          # Conditionally override PyTorch for CUDA support
+          pytorchPackage = if cudaSupport && system == "x86_64-linux" then
+            ps.pytorch.override { cudaSupport = true; }
+          else if system == "aarch64-darwin" then
+            ps.pytorch-bin
+          else
+            ps.pytorch;
+          # Python packages for data science
+          pythonPackages = pkgs.python311.withPackages (ps: [
+            ps.jupyterlab
+            ps.pandas
+            ps.numpy
+            ps.matplotlib
+            ps.scikit-learn
+            ps.seaborn
+            pytorchPackage
+          ]);
+          # Common development tools
+          devTools = with pkgs; [
+            git
+          ];
+        in pkgs.mkShell {
+          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages ++ [
+            pkgs.stdenv.cc.cc.lib
+          ];
+
+          shellHook = ''
+            export NIXPKGS_ALLOW_UNFREE=1
+            export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
+            echo "Welcome to the Data Science development environment on ${system}!"
+            ${if cudaSupport then "echo 'CUDA support enabled.'" else ""}
+            
+            echo "Development environment is ready!"
+            echo "To start JupyterLab, run: jupyter lab"
+          '';
         };
       });
     };
@@ -110,12 +171,12 @@ To leverage GPU acceleration on Linux systems, I added conditional support for C
 
 ### Version 4: Incorporating FastHTML/HTMX Server and Virtual Environment
 
-The crucial step was integrating the FastHTML/HTMX server, which required pip installation since `python-fasthtml` isn't available in the Nix repository. To manage this, I introduced a virtual environment. This not only resolved the immediate need but also offered flexibility for data scientists to install additional packages as needed.
+The next critical step was integrating the FastHTML/HTMX server. Since `python-fasthtml` isn't available in the Nix repository, I utilized `pip` for installation by introducing a virtual environment. This approach not only addressed the immediate requirement but also allowed data scientists to install additional packages as needed without modifying the core Nix configuration.
 
 ```nix
-# flake.nix - Version 4: Add FastHTML/HTMX Server Support with Virtual Environment
+# flake.nix - Version 4: Add FastHTML/HTMX support
 {
-  description = "Environment with JupyterLab, CUDA, and FastHTML/HTMX Server";
+  description = "Pipulate Development Environment with python-fasthtml";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
@@ -125,25 +186,32 @@ The crucial step was integrating the FastHTML/HTMX server, which required pip in
     let
       systems = [ "x86_64-linux" "aarch64-darwin" ];
       forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
+      # Import local configuration if present
       localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
+      # Use the ? operator to check for cudaSupport
       cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
-    in {
+    in
+    {
       devShells = forAllSystems (system: {
         default = let
           pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
           lib = pkgs.lib;
+          # CUDA-specific packages (only on your system)
           cudaPackages = lib.optionals (cudaSupport && system == "x86_64-linux") (with pkgs; [
-            cudatoolkit
-            cudnn
+            pkgs.cudatoolkit
+            pkgs.cudnn
             (pkgs.ollama.override { acceleration = "cuda"; })
           ]);
+          # Define Python package set
           ps = pkgs.python311Packages;
+          # Conditionally override PyTorch for CUDA support
           pytorchPackage = if cudaSupport && system == "x86_64-linux" then
             ps.pytorch.override { cudaSupport = true; }
           else if system == "aarch64-darwin" then
             ps.pytorch-bin
           else
             ps.pytorch;
+          # Python packages including JupyterLab and others
           pythonPackages = pkgs.python311.withPackages (ps: [
             ps.jupyterlab
             ps.pandas
@@ -157,16 +225,19 @@ The crucial step was integrating the FastHTML/HTMX server, which required pip in
             pytorchPackage
             ps.pip  # Include pip for installing python-fasthtml
           ]);
+          # Common development tools
           devTools = with pkgs; [
             git
-            neovim
             # Add other development tools if needed
           ];
         in pkgs.mkShell {
-          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages;
+          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages ++ [
+            pkgs.stdenv.cc.cc.lib  # Include libstdc++
+          ];
 
           shellHook = ''
             export NIXPKGS_ALLOW_UNFREE=1
+            export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
             echo "Welcome to the Pipulate development environment on ${system}!"
             ${if cudaSupport then "echo 'CUDA support enabled.'" else ""}
             
@@ -192,6 +263,8 @@ The crucial step was integrating the FastHTML/HTMX server, which required pip in
             fi
             
             echo "Development environment is ready!"
+            echo "To start JupyterLab, run: jupyter lab"
+            echo "To start the Python server, run: python server.py"
           '';
         };
       });
@@ -199,14 +272,13 @@ The crucial step was integrating the FastHTML/HTMX server, which required pip in
 }
 ```
 
-*The introduction of a virtual environment is pivotal. It allows for the installation of `python-fasthtml` via pip and provides a sandbox for data scientists to add any additional Python packages without altering the Nix configuration.*
+*Implementing a virtual environment not only resolved the immediate need for `python-fasthtml` but also provided the flexibility to install additional Python packages as required.*
 
-### Version 5: Automating JupyterLab and FastHTML Server Startup
+### Final `flake.nix`: Comprehensive Development Environment
 
-To enhance productivity, I configured the environment to automatically start JupyterLab and the FastHTML server upon entering the development shell. This ensures that all necessary services are up and running without manual intervention.
+To maximize productivity, I configured the environment to automatically start JupyterLab and the FastHTML server upon entering the development shell. This automation ensures that all necessary services are up and running without manual intervention. The final `flake.nix` combines all previous enhancements, delivering a comprehensive development environment that is flexible, powerful, and easy to use across different systems.
 
 ```nix
-# flake.nix - Version 5: Auto-Start JupyterLab and FastHTML Server
 {
   description = "Pipulate Development Environment with python-fasthtml";
 
@@ -218,25 +290,32 @@ To enhance productivity, I configured the environment to automatically start Jup
     let
       systems = [ "x86_64-linux" "aarch64-darwin" ];
       forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
+      # Import local configuration if present
       localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
+      # Use the ? operator to check for cudaSupport
       cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
-    in {
+    in
+    {
       devShells = forAllSystems (system: {
         default = let
           pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
           lib = pkgs.lib;
+          # CUDA-specific packages (only on your system)
           cudaPackages = lib.optionals (cudaSupport && system == "x86_64-linux") (with pkgs; [
-            cudatoolkit
-            cudnn
+            pkgs.cudatoolkit
+            pkgs.cudnn
             (pkgs.ollama.override { acceleration = "cuda"; })
           ]);
+          # Define Python package set
           ps = pkgs.python311Packages;
+          # Conditionally override PyTorch for CUDA support
           pytorchPackage = if cudaSupport && system == "x86_64-linux" then
             ps.pytorch.override { cudaSupport = true; }
           else if system == "aarch64-darwin" then
             ps.pytorch-bin
           else
             ps.pytorch;
+          # Python packages including JupyterLab and others
           pythonPackages = pkgs.python311.withPackages (ps: [
             ps.jupyterlab
             ps.pandas
@@ -250,16 +329,19 @@ To enhance productivity, I configured the environment to automatically start Jup
             pytorchPackage
             ps.pip  # Include pip for installing python-fasthtml
           ]);
+          # Common development tools
           devTools = with pkgs; [
             git
-            neovim
             # Add other development tools if needed
           ];
         in pkgs.mkShell {
-          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages;
+          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages ++ [
+            pkgs.stdenv.cc.cc.lib  # Include libstdc++
+          ];
 
           shellHook = ''
             export NIXPKGS_ALLOW_UNFREE=1
+            export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
             echo "Welcome to the Pipulate development environment on ${system}!"
             ${if cudaSupport then "echo 'CUDA support enabled.'" else ""}
             
@@ -317,129 +399,6 @@ To enhance productivity, I configured the environment to automatically start Jup
 ```
 
 *Automatically starting JupyterLab and the FastHTML server streamlines the workflow, allowing developers to focus on their tasks without worrying about manually launching services.*
-
-### Final `flake.nix`: Comprehensive Development Environment
-
-Combining all the enhancements, the final `flake.nix` provides a comprehensive development environment that is flexible, powerful, and easy to use across different systems.
-
-```nix
-# pipulate/flake.nix
-{
-  description = "Pipulate Development Environment with python-fasthtml";
-
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
-  };
-
-  outputs = { self, nixpkgs }:
-    let
-      systems = [ "x86_64-linux" "aarch64-darwin" ];
-      forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
-      # Import local configuration if present
-      localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
-      # Use the ? operator to check for cudaSupport
-      cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
-    in
-    {
-      devShells = forAllSystems (system: {
-        default = let
-          pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
-          lib = pkgs.lib;
-          # CUDA-specific packages (only on your system)
-          cudaPackages = lib.optionals (cudaSupport && system == "x86_64-linux") (with pkgs; [
-            pkgs.cudatoolkit
-            pkgs.cudnn
-            (pkgs.ollama.override { acceleration = "cuda"; })
-          ]);
-          # Define Python package set
-          ps = pkgs.python311Packages;
-          # Conditionally override PyTorch for CUDA support
-          pytorchPackage = if cudaSupport && system == "x86_64-linux" then
-            ps.pytorch.override { cudaSupport = true; }
-          else if system == "aarch64-darwin" then
-            ps.pytorch-bin
-          else
-            ps.pytorch;
-          # Python packages including JupyterLab and others
-          pythonPackages = pkgs.python311.withPackages (ps: [
-            ps.jupyterlab
-            ps.pandas
-            ps.requests
-            ps.sqlitedict
-            ps.numpy
-            ps.matplotlib
-            ps.nbdev
-            ps.fastapi   # For web applications
-            ps.simplenote
-            pytorchPackage
-            ps.pip  # Include pip for installing python-fasthtml
-          ]);
-          # Common development tools
-          devTools = with pkgs; [
-            git
-            neovim
-            # Add other development tools if needed
-          ];
-        in pkgs.mkShell {
-          buildInputs = devTools ++ [ pythonPackages ] ++ cudaPackages;
-
-          shellHook = ''
-            export NIXPKGS_ALLOW_UNFREE=1
-            echo "Welcome to the Pipulate development environment on ${system}!"
-            ${if cudaSupport then "echo 'CUDA support enabled.'" else ""}
-            
-            # Create a virtual environment if it doesn't exist
-            if [ ! -d .venv ]; then
-              ${pythonPackages.python.interpreter} -m venv .venv
-            fi
-            
-            # Activate the virtual environment
-            source .venv/bin/activate
-            
-            # Install python-fasthtml if not already installed
-            if ! python -c "import fasthtml" 2>/dev/null; then
-              echo "Installing python-fasthtml..."
-              pip install python-fasthtml > /dev/null 2>&1
-              if [ $? -eq 0 ]; then
-                echo "python-fasthtml installed successfully."
-              else
-                echo "Failed to install python-fasthtml. Please check your internet connection and try again."
-              fi
-            else
-              echo "python-fasthtml is already installed."
-            fi
-            
-            echo "Development environment is ready!"
-
-            # === Start Jupyter Lab and Python Server ===
-
-            # Start Jupyter Lab in the background
-            echo "Starting Jupyter Lab..."
-            jupyter lab &
-            JUPYTER_PID=$!
-
-            # Start Python server in the background
-            echo "Starting Python server..."
-            python server.py &
-            SERVER_PID=$!
-
-            # Function to handle cleanup on exit
-            cleanup() {
-              echo "Stopping Jupyter Lab..."
-              kill $JUPYTER_PID
-
-              echo "Stopping Python server..."
-              kill $SERVER_PID
-            }
-
-            # Trap the EXIT signal to trigger cleanup
-            trap cleanup EXIT
-          '';
-        };
-      });
-    };
-}
-```
 
 ### Why the Virtual Environment Matters
 
