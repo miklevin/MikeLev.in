@@ -14,21 +14,36 @@ I began with the most basic setup to ensure that Nix was correctly configured an
 ```nix
 # flake.nix - Version 1: Minimal Python Environment
 {
-  description = "Minimal Python Development Environment";
+  description = "Minimal Python 3.11 Development Environment";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05"; # Adjust based on your NixOS channel version
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
   };
 
-  outputs = { self, nixpkgs }: {
-    devShells = {
-      default = { pkgs }: pkgs.mkShell {
-        buildInputs = with pkgs; [
-          python311  # Include Python 3.11
-        ];
-      };
+  outputs = { self, nixpkgs }:
+    let
+      systems = [ "x86_64-linux" "aarch64-darwin" ];
+      forAllSystems = f: builtins.listToAttrs (map (system: { name = system; value = f system; }) systems);
+    in
+    {
+      devShells = forAllSystems (system: {
+        default = let
+          pkgs = import nixpkgs { inherit system; };
+          # Python 3.11 without additional packages
+          python = pkgs.python311;
+        in pkgs.mkShell {
+          buildInputs = [
+            python
+          ];
+
+          shellHook = ''
+            echo "Welcome to the Python 3.11 development environment on ${system}!"
+            echo "Python version: $(python --version)"
+            echo "Type 'python' to start the Python interpreter."
+          '';
+        };
+      });
     };
-  };
 }
 ```
 
