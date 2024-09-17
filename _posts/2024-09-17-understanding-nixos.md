@@ -1,11 +1,11 @@
 ---
-title: Understanding NixOS
-permalink: /understanding-nixos/
-description: Discover Nix and NixOS essentials, including transitioning from Ubuntu and Fedora, understanding the unique /nix/store/, and leveraging deterministic packaging on Mac and Windows. Learn how Nix Flakes simplify software management and development environments.
+title: Nix and NixOS Essentials
+permalink: /nixos-essentials/
+description: Becomes your meta description.
 layout: post
 ---
 
-Switching to NixOS has been quite an adventure for me, and I wanted to create this article as a helpful guide for anyone else considering the leap. Coming from familiar Linux distributions like Ubuntu and Fedora, I understand how daunting NixOS can seem at first. Whether you're a seasoned Linux user or someone on Mac or Windows just exploring the power of the `nix` command, this guide aims to simplify the transition and highlight the incredible benefits Nix offers. By sharing my experiences and breaking down the essentials, I hope to make Nix and NixOS feel more approachable and less intimidating. Let’s dive in and discover how Nix can transform your software management and development workflows!
+Switching to NixOS has been quite an adventure for me, and I wanted to create this article as a helpful guide for anyone else considering the leap. Coming from familiar Linux distributions like Ubuntu and Fedora, I understand how daunting NixOS can seem at first. Whether you're a seasoned Linux user or someone on Mac or Windows just exploring the power of the nix command, this guide aims to simplify the transition and highlight the incredible benefits Nix offers. By sharing my experiences and breaking down the essentials, I hope to make Nix and NixOS feel more approachable and less intimidating. Let’s dive in and discover how Nix can transform your software management and development workflows!
 
 # Nix and NixOS Essentials
 
@@ -238,8 +238,8 @@ For **Mac** and **Windows** users who are hesitant to adopt NixOS, using the `ni
 
 1. **Install Nix:**
    
-   - **macOS:** Follow the [official installation guide](https://nixos.org/download.html#nix-install-macos).
-   - **Windows:** Install via [WSL](https://nixos.org/download.html#nix-install-windows).
+   - **macOS:** Follow the [Determinate Systems installation guide](https://determinate.systems/install/macos).
+   - **Windows:** Install via [Determinate Systems installation via WSL](https://determinate.systems/install/windows).
 
 2. **Clone a Repository with a Flake:**
 
@@ -281,4 +281,3 @@ While **NixOS** offers a revolutionary approach to Linux system management, its 
 Don't let the initial complexity of NixOS deter you. Whether you're a seasoned Linux user or someone new to the ecosystem, Nix offers tools that can enhance your productivity and streamline your software management processes. By leveraging Nix on your current operating system, you can gradually integrate its powerful features into your workflow without the need to overhaul your entire system.
 
 **Give Nix a try**, and discover how it can transform your approach to package management and development environments. With its deterministic nature and streamlined processes, Nix makes managing software simpler, more reliable, and much more efficient.
-```
