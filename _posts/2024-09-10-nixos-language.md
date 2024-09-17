@@ -262,7 +262,7 @@ Understanding this distinction between pattern matching for function arguments a
 **Me:** That breaks my head. I understand unpacking tuples in Python,  it usually during assignment and not function calls. I understand splatting arguments in Python by way of unpacking tiples. But the parallel to what's going on here eludes me. Is there some very basic bare bones hello world style example you can show me? Maybe one that draws the parallel between nix and Python? And what's further, I need a follow up to distinguish that from the other use of curly braces, the Attribute Sets. That use cares are colliding in my mind.  
 
 
-**Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** **Perplexity:** I understand that this can be quite confusing, especially when coming from a Python background. Let's break it down with a simple example and draw parallels to Python to help clarify these concepts.
+**Perplexity:** I understand that this can be quite confusing, especially when coming from a Python background. Let's break it down with a simple example and draw parallels to Python to help clarify these concepts.
 
 ### Nix Function with Pattern Matching
 
