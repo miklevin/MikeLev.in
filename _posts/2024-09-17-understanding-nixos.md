@@ -1,7 +1,7 @@
 ---
 title: Nix and NixOS Essentials
-permalink: /nixos-essentials/
-description: Becomes your meta description.
+permalink: /learning-nixos/
+description: Discover Nix and NixOS essentials, including transitioning from Ubuntu and Fedora, understanding the unique /nix/store/, and leveraging deterministic packaging on Mac and Windows. Learn how Nix Flakes simplify software management and development environments.
 layout: post
 ---
 
