@@ -162,6 +162,14 @@ serve()
 
 The `.env` file is what you **should not** include in the git repository. In fact, it's good practice to add the `.env` file to `.gitignore` to ensure that secrets don't accidentally end up in a public GitHub repository.
 
+```bash
+.sesskey
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+```
+
 ## Avoiding Paid AI Services
 
 At this point, almost everyone on the Internet will advise you to obtain your OpenAI API key or other paid services so that you can leverage their offerings. However, thanks to **Mark Zuckerberg and Facebook Meta**, you don't have to pay anything.
