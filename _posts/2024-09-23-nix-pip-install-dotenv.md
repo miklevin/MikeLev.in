@@ -235,42 +235,53 @@ OLLAMA_MODEL=llama3.1
 Now, remove direct references to the endpoint and model from the chat code to "hide a secret." Most of the time, this involves API keys and client secrets, but since you don't need one for Ollama, this antipattern demonstrates how to externalize any configuration. It's also a great way to handle local configurations without dealing with JSON.
 
 ```python
-from fasthtml.common import *
-from dotenv import load_dotenv, set_key
+import requests
+import json
+from dotenv import load_dotenv
 import os
-
-# Initialize the FastHTML application
-app, rt = fast_app()
 
 # Load environment variables
 load_dotenv()
 
-@rt("/")
-def get():
-    # Reload the environment variables to reflect any updates
-    load_dotenv()
-    secret = os.getenv('SECRET')
-    if secret:
-        message = P("I already know your secret")
+def chat_with_ollama(model, messages):
+    url = os.getenv('OLLAMA_API_URL')
+    
+    payload = {
+        "model": model,
+        "messages": messages,
+        "stream": False
+    }
+    
+    headers = {
+        "Content-Type": "application/json"
+    }
+    
+    response = requests.post(url, data=json.dumps(payload), headers=headers)
+    
+    if response.status_code == 200:
+        return response.json()['message']['content']
     else:
-        message = Form(method="post")(
-            Label("Enter the secret:", Input(type="password", name="secret")),
-            Button("Submit", type="submit")
-        )
-    return Titled("Secret Prompt", message)
+        return f"Error: {response.status_code}, {response.text}"
 
-@rt("/", methods=["POST"])
-def post(secret: str):
-    # Save the secret to the .env file if it hasn't been set
-    if not os.getenv('SECRET'):
-        set_key('.env', 'SECRET', secret)
-        load_dotenv()  # Reload the .env file after updating it
-        return Titled("Secret Saved", P("Your secret has been saved."))
-    else:
-        return Titled("Secret Already Set", P("A secret is already set. No changes were made."))
+# Example usage
+model = os.getenv('OLLAMA_MODEL')
+conversation = [
+    {"role": "user", "content": "What is the capital of France?"},
+]
 
-# Start the server
-serve()
+while True:
+    response = chat_with_ollama(model, conversation)
+    print("Assistant:", response)
+    
+    conversation.append({"role": "assistant", "content": response})
+    
+    user_input = input("You: ")
+    if user_input.lower() in ['quit', 'exit', 'bye']:
+        break
+    
+    conversation.append({"role": "user", "content": user_input})
+
+print("Conversation ended.")
 ```
 
 ## Handling User Input for Secrets (enter FastHTML)
