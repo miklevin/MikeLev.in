@@ -224,7 +224,7 @@ def post(secret: str):
 serve()
 ```
 
-## Handling User Input for Secrets
+## Handling User Input for Secrets (enter FastHTML)
 
 But we're not done. What if you need to obtain the client secret from the user via an input prompt? In a Jupyter Notebook or command-line shell, you could use the `input()` function. However, if you're developing a web application, you'll need a different approach.
 
