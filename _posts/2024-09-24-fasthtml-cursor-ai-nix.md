@@ -49,7 +49,7 @@ environment.systemPackages = with pkgs; [
 
 And that's it. You don't need to mess around with a download or an AppImage or an installer or any of that other nonsense. Once it's packaged in the Nix package management system, it's just a single line in your configuration file, and that's the beauty of it. But imagine the pain if it weren't at least in the unstable channel. I wouldn't be doing this article.
 
-Anyone can package things in the Nix repository, but it's a certain set of skills that not everyone should have to have, so I'm lucky it's already in there. Same goes for **pip installable** Python packages. If the Python package is already in Nix, everything goes smoothly. But if it's not, it's pretty agonizing because you can't pick and choose what comes from Nix and what comes from a `.venv`.
+Anyone can add packages to the Nix software repository even if you didn't write the original package, but it's a certain set of skills that not everyone should have to have. I can't stand doing it, so I'm lucky that Cursor AI is already in there. The same rule that it's easy if already in the nix repo goes for **pip installable** Python packages as well. If the Python package is already in Nix, everything goes smoothly. But if it's not, it's pretty agonizing because you can't pick and choose what comes from Nix and what comes from a `.venv`. The following is how easy it is in just a `configuration.nix` file if your pip packages are already in the nix software repo...
 
 ```nix
 # Beginning of file stuff not shown
