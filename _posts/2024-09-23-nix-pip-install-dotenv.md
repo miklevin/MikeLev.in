@@ -93,7 +93,7 @@ This [**pipulate environment**](https://github.com/miklevin/pipulate) provides t
 
 ### Example: Using Python `dotenv`
 
-Here is an example that uses Python `dotenv` to set a simple `MESSAGE` value in the environment. The first time it runs, it will not find the environment variable, so it will use the default and display `Hello World!` as the first line of the output and `Updated Hello from .env!` as the second line. If you run it a second time, it will show `Updated Hello from .env!` for both lines because a `.env` file has been created.
+Here is an example that uses Python `dotenv` to set a simple `MESSAGE` value in the environment, in perhaps its most simple `Hello World` form. I use the optional parameter names (it would work without using the `key` and `default` keywords because of Python rules) but I include them for clarity.
 
 ```python
 # Install the package first: pip install python-dotenv
@@ -117,6 +117,47 @@ load_dotenv(dotenv_path='.env', override=True)
 # Get the updated value of MESSAGE from the environment
 updated_message = os.getenv(key='MESSAGE', default='Hello, World!')
 print(f"Updated message: {updated_message}")
+```
+
+Now here is an updated version that prompts the user for the secret. The first time it runs, it will not find the environment variable, so it will use the default and display `Hello World!` as the first line of the output and `Updated Hello from .env!` as the second line. If you run it a second time, it will show `Updated Hello from .env!` for both lines because a `.env` file has been created.
+
+```python
+from fasthtml.common import *
+from dotenv import load_dotenv, set_key
+import os
+
+# Initialize the FastHTML application
+app, rt = fast_app()
+
+# Load environment variables
+load_dotenv()
+
+@rt("/")
+def get():
+    # Reload the environment variables to reflect any updates
+    load_dotenv()
+    secret = os.getenv('SECRET')
+    if secret:
+        message = P("I already know your secret")
+    else:
+        message = Form(method="post")(
+            Label("Enter the secret:", Input(type="password", name="secret")),
+            Button("Submit", type="submit")
+        )
+    return Titled("Secret Prompt", message)
+
+@rt("/", methods=["POST"])
+def post(secret: str):
+    # Save the secret to the .env file if it hasn't been set
+    if not os.getenv('SECRET'):
+        set_key('.env', 'SECRET', secret)
+        load_dotenv()  # Reload the .env file after updating it
+        return Titled("Secret Saved", P("Your secret has been saved."))
+    else:
+        return Titled("Secret Already Set", P("A secret is already set. No changes were made."))
+
+# Start the server
+serve()
 ```
 
 The `.env` file is what you **should not** include in the git repository. In fact, it's good practice to add the `.env` file to `.gitignore` to ensure that secrets don't accidentally end up in a public GitHub repository.
