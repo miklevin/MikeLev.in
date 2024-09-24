@@ -89,7 +89,7 @@ matplotlib
 nbdev
 ```
 
-This [**pipulate environment**](https://github.com/miklevin/pipulate) provides the broad brush strokes for laying down a data science, web development, and soon SEO, fresh canvas upon which to perform very Pythonic development work—**but under Nix**.
+This [**pipulate environment**](https://github.com/miklevin/pipulate) provides the broad brush strokes for laying down a data science, web development, and soon SEO, fresh canvas upon which to perform very Pythonic development work—**but under Nix**. And by under Nix, I mean on any Mac, Windows or Linux machine, because they can all install and run this app without the convoluted system setup rigamarole of every other approach I've ever encountered. Sure, this has its own rigamorle, but it's contained from top to bottom--but without containers!
 
 ### Example: Using Python `dotenv`
 
