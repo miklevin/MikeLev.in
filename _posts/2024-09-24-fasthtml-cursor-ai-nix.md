@@ -203,7 +203,7 @@ So here I include everything required so that anything later knows I've got Nvid
 
 Back to the blank canvas metaphor. After a `configuration.nix` like this, your canvas isn't so blank anymore. A few brushstrokes have been laid down about your special hardware and your "base apps" like a browser, office software, and even a large language model server. This is what's there whenever you power on your machine, so you can do basic stuff. But when it gets time to doing some development work and being able to play around with things like Cursor AI, it needs to be able to "connect" to the code and Python virtual environment established in your flake...
 
-**NOTE:** This version turned out to be Linux-only. Mac-friendly version below.
+**NOTE:** This version turned out to be Linux-only. A Mac-friendly version comes later.
 
 ## Building the Flake
 
