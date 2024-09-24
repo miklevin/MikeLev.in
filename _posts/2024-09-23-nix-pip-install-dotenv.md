@@ -337,7 +337,7 @@ This code offers an interesting blend of simplicity and unconventional approache
 
 > A lot of Python coders recommend avoiding importing a whole library like this (using the import * syntax) because in large software projects it can cause problems. However, for interactive work such as in a Jupyter notebook, it works great. The fastai library is specially designed to support this kind of interactive use, and it will import only the necessary pieces into your environment.
 
-This code challenges conventional wisdom by directly modifying environment files and handling server-side logic in a highly abstracted way, reflecting a move toward simpler, more expressive frameworks that aim to minimize boilerplate while delivering functional results quickly. By taking a closer look at its components, we can see how some anti-patterns—like overuse of wildcard imports—might be giving way to new, flexible practices in the context of lightweight, evolving applications.
+This code challenges conventional wisdom by directly modifying environment files and handling server-side logic in a highly abstracted way, reflecting a move toward simpler, more expressive frameworks that aim to minimize boilerplate while delivering functional results quickly. By taking a closer look at its components, we can see how some anti-patterns—like of wildcard imports and lack of PHP-style jinja nunjucks—might be giving way to new, flexible practices in the context of lightweight, evolving applications.
 
 ### Interesting Aspects of the Code
 
