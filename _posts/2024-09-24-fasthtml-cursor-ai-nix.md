@@ -5,8 +5,6 @@ description: Learn how to integrate FastHTML and Cursor AI using Nix across Mac,
 layout: post
 ---
 
-# FastHTML and Cursor AI on Linux, Mac & Windows
-
 I'm building a **FastHTML app with Cursor AI under NixOS**. The resulting Nix flake needs to be able to run on **Macs, Windows (under WSL), or Linux**. Talk about being off the beaten track and in the tech wilderness. But I'm going to make it work because there's a big payoff here.
 
 ## Navigating the Tech Wilderness
