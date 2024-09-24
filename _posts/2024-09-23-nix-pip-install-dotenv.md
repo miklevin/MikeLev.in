@@ -342,7 +342,7 @@ This code challenges conventional wisdom by directly modifying environment files
 ### Interesting Aspects of the Code
 
 1. **Modular Imports with Wildcards**:
-   The line `from fasthtml.common import *` imports everything from the `fasthtml.common` module. While this can be convenient, it can also introduce potential conflicts if there are overlapping names in the module. It's generally better practice to import only what's needed to avoid ambiguity.
+   The line `from fasthtml.common import *` imports everything from the `fasthtml.common` module. While this can be convenient, it can also introduce potential conflicts if there are overlapping names in the module. It's okay in this case because of what Jeremy says.
 
 2. **Environment Variable Handling with `dotenv`**:
    The use of `dotenv` to manage environment variables is a neat way to load sensitive data from a `.env` file. The `load_dotenv()` function is called multiple times to ensure the latest environment variables are loaded after the secret is updated.
