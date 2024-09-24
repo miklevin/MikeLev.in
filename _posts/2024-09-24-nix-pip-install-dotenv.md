@@ -74,7 +74,7 @@ ADMIN_EMAIL=admin@${DOMAIN}
 ROOT_URL=${DOMAIN}/app
 ```
 
-To activate this capability of reading such files easily from our Python code, we add the following packages:
+To activate this capability of reading such files easily from our Python code, we add `python-dotenv` to the `requirements.txt` currently in Pipulate:
 
 ```
 python-dotenv
