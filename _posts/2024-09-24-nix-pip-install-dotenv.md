@@ -1,5 +1,5 @@
 ---
-title: **Using NixOS and Nix with Pip Install DotEnv**
+title: Using NixOS and Nix with Pip Install DotEnv
 permalink: /nix-pip-install/
 description: Leverage NixOS and Nix with pip to install python-dotenv for managing environment variables. This guide walks you through setting up reproducible Python environments, securely handling secrets, and integrating tools like FastHTML and Ollama for efficient development under Nix.
 layout: post
