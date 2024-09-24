@@ -243,7 +243,7 @@ From here, I have a template which creates a data science repo from which you ca
             ${if cudaSupport then "echo 'CUDA support enabled.'" else ""}
             test -d .venv || ${pkgs.python311.interpreter} -m venv .venv
             source .venv/bin/activate
-            pip install --upgrade pip
+            pip install --upgrade pip --quiet
             pip install -r requirements.txt --quiet
             ${script}
           '')}/bin/runScript";
@@ -260,16 +260,15 @@ From here, I have a template which creates a data science repo from which you ca
 Such a method requires that a standard pip `requirements.txt` file is sitting there next to it. Here's what I often start out with for basic AI-enabled Juptyer Notebooks and a cool new Pythonic web development package...
 
 ```
-jupyterlab
-pandas
 requests
-sqlitedict
 numpy
+pandas
+sqlitedict
 matplotlib
-nbdev
-fastapi
 python-fasthtml
+jupyterlab
 jupyter_ai
+nbdev
 ```
 
 By taking this approach, you get the expected ability to `pip install` as a Python user without running up against the Nix frustrations of immutable OS where you normally can't just install things. This approach also lets you get the very latest out of PyPI (pip) that may not have reached the Nix packaging system yet, such as *FastHTML* and *JupyterAI*. 
@@ -314,6 +313,7 @@ The above flake is still a bit more complicated than it needs to be, because of 
               test -d .nix-venv || ${pkgs.python3.interpreter} -m venv .nix-venv
           source .nix-venv/bin/activate
           set +e
+          pip install --upgrade pip --quiet
           pip install -r requirements.txt --quiet
             ''
             + script)}/bin/runScript";
