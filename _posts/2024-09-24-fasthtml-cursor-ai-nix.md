@@ -501,9 +501,13 @@ The important thing is that I've done a minimum viable product (MVP) test across
 
 ## Conclusion
 
-Getting **FastHTML** and **Cursor AI** working together in Nix across Mac, Windows, and Linux took some effort, but it's manageable. Dealing with NixOS's quirks and the differences between operating systems wasn't straightforward, but now I have a setup that works reliably on all three platforms.
-
-Sticking with NixOS fits well with how I like to work and makes sure that my projects can run on various systems without much hassle. This process shows that open-source tools can be combined effectively if you're willing to navigate the challenges.
-
-If you're interested in mixing tools in ways that aren't typical, this might give you some ideas. With some persistence, you can create a development environment that works across different operating systems without being tied down to just one.
+Getting **FastHTML** and **Cursor AI** working together in Nix across Mac,
+Windows, and Linux took some effort, but it's manageable. Dealing with NixOS's
+quirks and the differences between operating systems wasn't straightforward, but
+now I have a setup that works reliably on all three platforms. It's my preferred
+platform because it's a sort of generic home location from which you can "chip
+off flakes" for everyone. In the end, it is a desktop-OS agnostic approach that
+keeps you relevant on all platforms, tapping the power of your local machine
+while staying cloud-deployment ready. It's the best of all worlds, and does't
+even shut you out of the latest and greatest toys like Cursor AI.
 
