@@ -284,6 +284,8 @@ while True:
 print("Conversation ended.")
 ```
 
+And there you have it! Anything that might be **a secret** has been **externalized** to a file that is kept out of the git repo and can be used to set whatever environment variables you need.
+
 ## Handling User Input for Secrets (enter FastHTML)
 
 But we're not done. What if you need to obtain the client secret from the user via an input prompt? In a Jupyter Notebook or command-line shell, you could use the `input()` function. However, if you're developing a web application, you'll need a different approach.
