@@ -499,7 +499,7 @@ And both worked in WSL fine. I'm not sure what all those messages are, but I've 
 
 The important thing is that I've done a minimum viable product (MVP) test across all three platforms, like I keep asserting. That's one of the major selling points of this approach, and I don't want it blowing up in my face had I not tested it on Windows.
 
-##Conclusion
+## Conclusion
 
 Getting **FastHTML** and **Cursor AI** working together in Nix across Mac, Windows, and Linux took some effort, but it's manageable. Dealing with NixOS's quirks and the differences between operating systems wasn't straightforward, but now I have a setup that works reliably on all three platforms.
 
