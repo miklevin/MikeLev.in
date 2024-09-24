@@ -467,7 +467,7 @@ Okay, now I have a local `pipulate` repo. I `cd` into it and type:
 nix develop
 ```
 
-And a warning vomits up with a bunch of messages including warning:
+And a warning vomits up with a bunch of messages including:
 
 ```
 'https://cache.flakehub.com' does not appear to be a binary cache
