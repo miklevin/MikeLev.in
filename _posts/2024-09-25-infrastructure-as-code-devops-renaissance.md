@@ -80,7 +80,7 @@ It's like we're crafting a digital multitool that grows more powerful with each 
 
 **Claude 3.5 Sonnet:** Let's break down this Nix flake step by step and analyze its objectives:
 
-## The Breakdown
+## The Breakdown:
 
 1. Inputs:
    - nixpkgs: Using the nixos-24.05 channel
