@@ -9,6 +9,8 @@ Hey there, fellow tech enthusiasts. Remember the days of the Webmaster? Yeah, I'
 
 But here's the thing: I've stumbled upon something that's letting me reclaim that holistic worldview and workflow I thought was lost to time. It's called a **Nix flake**. Now, before your eyes glaze over thinking this is just another tech fad, hear me out. This little configuration file is doing for my development environment what my old Webmaster toolkit did for websites. It's letting me, and my small team, punch way above our weight class. We're setting up consistent environments across Macs, Windows and Linux boxes, handling GPU acceleration when we need it, and customizing on the fly—all without getting locked into expensive vendor solutions or drowning in a sea of specialized tools. 
 
+### Chipping Away at The Flake
+
 It's like we're crafting a digital multitool that grows more powerful with each tweak and refinement. And the best part? It's bringing back that feeling of being a digital polymath, where understanding the whole stack isn't just possible, it's pragmatic. So follow along as I converse with Claude 3.5 Sonnet about the final-mile of this Nix Flake. It's working across Mac, Linux and Windows and I'm happy with it, now just making sure I deeply understand it to take it to the next level.
 
 ---
