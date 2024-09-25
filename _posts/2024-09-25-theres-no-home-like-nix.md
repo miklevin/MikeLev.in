@@ -11,39 +11,39 @@ Now, we embark on WebDev-style application development in Nix, moving forward in
 
 So I chip off a **flake** of my system. Home is anything Unix/Linux-like. It can be macOS, because Apple's **Darwin Unix** is close enough. Any popular Linux distro, whether it's Debian, RedHat, or Arch-derived, is a fine home too. Even Windows with its **WSL (Windows Subsystem for Linux)** qualifies.
 
-## The Problem with Scripting Different Platforms
+### The Problem with Scripting Different Platforms
 
 They all, in fact, have the same problem. You can't just write scripts to cobble together **home**, because your automated `brew` scripts would be different from your `apt` scripts, which are different from your `yum` or `pacman` scripts. This problem unfortunately gets fixed these days with Docker containers and virtual machines, but that just makes a tangled web of not-very-friendly home. *Home should be a script.* Have you watched those YouTube videos? First, you install this, then you do that, and after a hundred little touches (getting any of which wrong will break the system), you're ready to start.
 
-## Enter Nix: The Solution to Homebuilding
+### Enter Nix: The Solution to Homebuilding
 
 If you haven't gotten the idea yet, this whacky wonderful Swiss Army knife called **`nix`** solves all that. It's like your original OS installer, brew, yum, apt, pacman, and even Python's pip installer all rolled into one. Getting **"home"** back should just be a single file that brilliantly builds your home on-demand. We'll splurge a little and say two files: one for the overarching system and one for the apps within. *It should just be that easy.*
 
-## Configuration.nix: Building Home on Any Platform
+### Configuration.nix: Building Home on Any Platform
 
 And so it is! My **"home"** script is called `/etc/nixos/configuration.nix`. Think of it as my **house**. Your house can be a MacBook or a Windows laptop, or any machine you sit down at, because you can sprinkle some magic fairy dust (install **nix**), and like Dorothy, be transported to a familiar Linux-like environment by virtue of the **`nix`** command. Your home can be built from bricks, like **NixOS**. But even if it's built from sticks like **macOS** or straw like **Windows**, the same basic trick gets you a familiar home with a driveway and a garage to drive your secondary home (car, aka app) into.
 
-## Nix Flakes: Secondary Homes (Apps)
+### Nix Flakes: Secondary Homes (Apps)
 
 Those secondary homes are called things like `~/repos/myapp/flake.nix`. While not as big as your main home, a **nix flake** can still carry around a lot of the things that you need. A car is like a little home, right? You feel comfortable in it, and the location of the steering wheel and seats aren't always changing, right? So *muscle memory* can kick in, and you can immediately drive well. That's a **nix flake**. And after being lost in the wilderness for a bit, head spinning from the pace of change in technology, I finally have my car ready. That was the subject of that lengthy article yesterday.
 
-## The Tech Counter-Revolution: Simplicity and Efficiency
+### The Tech Counter-Revolution: Simplicity and Efficiency
 
 So I say it's time to start writing that app in earnest, yet here I go rambling on and on. You get it, right? We are on the verge of a *tech counter-revolution*. It's one that favors simplicity and doing more with less. **Less code. Less surface area. Less to audit. Less people.** Sounds scary? No, it's enormously empowering for the individual, and a lot like the return to the early days of the Web, where a Webmaster with a good knowledge of the LAMP platform and how HTTP works could pretty much do everything. I've learned recently that this concept is referred to lately as ***Infrastructure as Code*** or *IaC*. **One flake to rule them all!**
 
-## Refurbishing Pipulate with Nix and Large Language Models
+### Refurbishing Pipulate with Nix and Large Language Models
 
 Yesterday was already a pretty epic day getting my **flake** drivable. I'm refurbishing my old **Pipulate** Free and Open Source Software for SEO vehicle. It's gone through iterations where it was a local web app and iterations where it was fully Jupyter Notebook-based. Now, I'm getting the best of all worlds, with a sprinkling of locally installed large language models if the host machine has **Ollama** installed with an LLM like **llama3.1** (which I'm currently using). This provides a certain baseline of capabilities that are reasonable on modern machines. Even MacBooks can have built-in **ChatGPT-like** features with a quick install and download, and it has endless application on a local web app.
 
-## Final Preparations for Development
+### Final Preparations for Development
 
 Most of today went into that last round of preparation, making the car ready for driving. In this case, it was a quick `start` and `stop` command to get both **JupyterLab** and the **FastHTML** server running while not tying up the command-line console it was launched from. I'm a **vim/NeoVim** user, and I may wish to use the console for text editing. But I also tested the integration with **VSCode-like** programs that detect and use the Python virtual environments. So, basically, you can use your favorite editor even though I've effectively bundled in an **AI-assisted Jupyter Notebooks** editing environment by default. But go ahead and use your own favorite editor, like **Cursor**. The `start` program opens a tab for **JupyterLab** in your default browser, along with a tab for **FastHTML**. **FastHTML** is set to pick up file changes, so you don't need to stop and start the server to see your changes.
 
-## Custom Prompts and Environment Enhancements
+### Custom Prompts and Environment Enhancements
 
 What else? Oh, I got the custom prompts working so you can see that you're in a Python (.venv) in the conventional way Python users expect. And when you type `exit` to get out of it and go one virtual environment nested level up into **Nix**, you see a custom prompt there letting you know you're still in a **Nix** shell. Macs do this automatically (at least with the **Determinate Systems installer**), so you will see a double indication on Macs when stepping out. And I don't have command-line recall working when in the Python `.venv`. But I chased rabbits down rabbit holes long enough today.
 
-## Moving Forward: Writing the FastHTML App
+### Moving Forward: Writing the FastHTML App
 
 It's time to write a **FastHTML** app. But before I do, here's the current state of the master template **nix flake**.
 
