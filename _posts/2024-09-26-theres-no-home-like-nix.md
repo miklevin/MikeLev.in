@@ -1,7 +1,7 @@
 ---
 title: There's No Home Like Nix
 permalink: /theres-no-home-like-nix/
-description: 
+description: This article explores building a reproducible development environment using Nix, focusing on creating a "home" script to streamline setup across platforms. It highlights Nix flakes, simplicity in tech, and modernizing apps like Pipulate with AI in FastHTML.
 layout: post
 ---
 
