@@ -237,9 +237,111 @@ This is a **Nix flake** that defines a reproducible development environment for 
 }
 ```
 
-I'll break down the code step by step to explain what each part does.
+So a flake like this basically defines a whole computer, system, application,
+cloud deployment, what have you. There's certain capabilities you assume that
+the **host system** brings to the picture, like *internet access* and some local
+file storage. But it takes the place of tons of other technology, and as
+complicated as it may look, it at least gathers all the complexity into one
+place. It even lets you adapt to differences in the host system, exception
+handling I am not trilled to do, but the exception in this case is Macs, and
+that is worth it because so much of the developer audience for this sort of
+stuff are Mac users.
+
+Anyhow, the way Nix flakes like this are generally used are that they are a file
+in a git (and thus often GitHub) repo. When you clone a repo locally, which you
+can actually do with this flake:
+
+    git clone https://github.com/miklevin/pipulate
+
+...you can then `cd` into the folder and type:
+
+    nix develop
+
+## Hydrating a Nix Flake with Nix Develop
+
+This ***"hydrates"*** the application on your machine, as the cool kids seem to
+be over-saying these days. You can also think of it like running a recipe, which
+the same Mac cool kids might know as `brew install` formulas. There's a
+*formula* for building this or that. Same thing, but for Linux instead of Macs
+in particular, and with a whole bunch of stuff to make sure it happens the same
+way every time. You might also call it a build or a make system. You just don't
+have to be a genius like a C programmer.
+
+So when you type `nix develop`, it follows out all those instructions, and in
+this case, you'll see something like this output...
+
+```bash
+[mike@nixos:~/repos/pipulate]$ nix develop
+warning: Git tree '/home/mike/repos/pipulate' is dirty
+ ____  _             _       _       
+|  _ \(_)_ __  _   _| | __ _| |_ ___ 
+| |_) | | '_ \| | | | |/ _` | __/ _ \
+|  __/| | |_) | |_| | | (_| | ||  __/
+|_|   |_| .__/ \__,_|_|\__,_|\__\___|
+        |_|                          
+Welcome to the Pipulate development environment on x86_64-linux!
+
+- Checking if pip packages are installed...
+- Done. 171 pip packages installed.
+- Checking if numpy is importable...
+- numpy is importable (good to go!)
+
+- Start JupyterLab and FastHTML server with: start
+- Stop JupyterLab and FastHTML server with: stop
+- To exit the Pipulate environment, type 'exit' twice.
+
+Checking Ollama connectivity...
+Ollama says: Using model: llama3.1:latest
+I think you meant "procreate"!
+
+Here's a clever way to say it:
+
+"Prepared to propagate the species and perpetuate the family line, one delightful descendant at a time!"
+
+Or, if you want to make it a bit more humorous:
+
+"It's time to multiply like rabbits... or at least, that's what I keep telling my significant other!"
+
+Learn more at https://pipulate.com <--Ctrl+Click
+```
+
+## Local ChatBot Access Included
+
+I say "something like this" will output, because it will indeed be different
+every time because of the way I check for connectivity with a local Ollama LLM
+server. If you're on a Mac and simply keep that little Llama in your menu bar
+because you're one of the cool kids, this lets you connect to it.
+
+## `start` and `stop` Commands
+
+So the development work is as if your own local machine was hosting the app. For
+that, you need something running. In this case, it's both JupyterLab for a Data
+Science-like approach, and a very basic FastHTML app under Uvicorn. And to get
+these servers started, you have to start them. I experimented with starting them
+automatically when you `nix develop`, but that got a little messy. I decided to
+make it deliberate with the simplest, most obvious commands `start` and `stop`.
+
+This is vital for my next round of work, because since these environments are
+initiated from a command-line Terminal, the commands that start the various
+servers like JupyterLab and FastHTML tie up the console. In Linux there's a ton
+of ways to run stuff in the background, and I explored quite a few until I
+settled on the simplest I could imagine. It has to be simple because it has to
+be multi-platform. I considered splitting the command-line Terminal up into
+window panes with `tmux`. 
+
+Ultimately, I settled on just running them invisibly in the background,
+outputting a local file log if you really wanted to monitor its output, you
+could with the `tail` command or somethinig. Bottom line is I made it as simple
+as possible for the newb without turning it into a multi-day project. I can
+always refine it over time.
 
 ---
+
+## Anatomy of a Flake
+
+I feel like I just did this yesterday, but the flake has actually become quite a
+bit more sophisticated. So I will once again break it down the code step by step
+to explain what each part does.
 
 ### **1. Flake Inputs**
 
@@ -502,7 +604,7 @@ devShell = if isLinux then linuxDevShell else darwinDevShell;
   
 ---
 
-Well, that's nice. But what about Apple Metal support for Apple GPUs?
+## Well, that's nice. But what about Apple Metal support for Apple GPUs?
 
 Unfortunately, this Nix flake does not directly support Apple Metal. Here are the key reasons:
 
