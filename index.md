@@ -1,7 +1,7 @@
 ---
-title: Mike Levin on LPvg (Linux, Python, vim & git)
-description: Future-proof your skills with Linux, Python, vim & git (LPvg) as I share with you timeless and love-worthy tools in tech and re-implement Levinux and Pipulate with NixOS and AI.
-author: Mike Levin SEO
+title: Mike Levin on AI, SEO, Linux, Python, vim & git
+description: Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI stack to resist obsolescence.
+author: Mike Levin AI SEO
 group: home
 ---
 
