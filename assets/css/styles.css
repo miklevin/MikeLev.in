@@ -901,7 +901,7 @@ nav a.current {
 .hptd {
   border-radius: 2.5vw;
   vertical-align: top;
-  font-size: smaller;
+  font-size: tiny;
   padding: 2vw 2vw 2vw 2vw;
   width: 48%;
 }
