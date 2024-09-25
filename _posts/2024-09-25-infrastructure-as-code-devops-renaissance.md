@@ -11,6 +11,8 @@ But here's the thing: I've stumbled upon something that's letting me reclaim tha
 
 So follow along as I converse with Claude 3.5 Sonnet about the final-mile of this Nix Flake. It's working across Mac, Linux and Windows and I'm happy with it, now just making sure I deeply understand it to take it to the next level.
 
+---
+
 > **Me:** Break the following flake down step by step. Infer the multiplatform objectives and split between nix repo installed and pip installed packages, reason and such...
 
 ```nix
