@@ -80,6 +80,8 @@ So follow along as I converse with Claude 3.5 Sonnet about the final-mile of thi
 
 **Claude 3.5 Sonnet:** Let's break down this Nix flake step by step and analyze its objectives:
 
+## The Breakdown
+
 1. Inputs:
    - nixpkgs: Using the nixos-24.05 channel
    - flake-utils: A utility library for Nix flakes
@@ -117,7 +119,7 @@ So follow along as I converse with Claude 3.5 Sonnet about the final-mile of thi
 9. DevShell:
    - Creates a development shell based on the detected platform (Linux or Darwin)
 
-Objectives and package split:
+## Objectives and package split:
 
 1. Multi-platform support:
    - The flake aims to provide a consistent development environment across Linux and macOS systems.
