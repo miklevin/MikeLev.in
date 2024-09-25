@@ -416,7 +416,7 @@ In conclusion, this Nix flake configuration represents more than just a developm
 
 **Claude 3.5 Sonnet:** Thank you for providing more details about the issues you're encountering. These problems indeed touch on some nuanced interactions between Nix environments, virtual environments, and shell configurations. Let's break down the issues and explore potential solutions:
 
-1. Virtual Environment Prompt Indication:
+### 1. Virtual Environment Prompt Indication:
 
 The issue with the prompt not showing the (.venv) prefix is likely due to the way the virtual environment is activated within the Nix shell. Traditional virtual environment activation scripts modify the prompt, but this might not work as expected in the context of a Nix shell.
 
@@ -454,7 +454,7 @@ This modification explicitly sets the prompt for both Zsh and Bash, adding the (
 
 b) Use a more robust virtual environment solution like `virtualenvwrapper` or `pyenv-virtualenv`, which have better shell integration.
 
-2. Command-line Completion Issues:
+### 2. Command-line Completion Issues:
 
 The problem with command-line completion is likely related to how the Nix environment interacts with the shell's completion system. This can be particularly tricky because Nix changes the environment in ways that might confuse standard completion scripts.
 
@@ -481,7 +481,7 @@ b) Use a more comprehensive shell configuration management tool like `oh-my-zsh`
 
 c) Investigate if the issue is specific to certain commands or all commands. If it's specific, you might need to install additional completion packages or scripts for those commands.
 
-3. Further Diagnosis and Debugging:
+### 3. Further Diagnosis and Debugging:
 
 To further diagnose these issues:
 
