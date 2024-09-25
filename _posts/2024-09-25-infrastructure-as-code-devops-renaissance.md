@@ -149,9 +149,10 @@ This setup strikes a balance between the reproducibility and consistency provide
 
 **Claude 3.5 Sonnet:** Certainly, I'll delve deeper into the differences between the Linux and Apple Darwin (macOS) handling in this Nix flake, providing more detailed explanations and examples.
 
-1. Package Selection:
+## 1. Package Selection:
 
-Linux:
+### Linux:
+
 On Linux systems, the flake provides a more extensive set of packages and tools. This is evident in the `linuxDevShell` definition:
 
 ```nix
@@ -175,7 +176,8 @@ Here, we see:
 
 These additions make the Linux environment more suitable for high-performance computing, machine learning tasks, and working with complex Python packages that may have native extensions.
 
-Darwin (macOS):
+### Darwin (macOS):
+
 The Darwin configuration is notably simpler:
 
 ```nix
@@ -204,7 +206,7 @@ This simpler configuration reflects the different ecosystem and use cases typica
 - CUDA is not supported on macOS, so those packages are omitted.
 - The C++ standard library is typically provided by the macOS SDK, so it doesn't need to be explicitly included.
 
-2. Environment Setup:
+## 2. Environment Setup:
 
 The `runScript` is used for both platforms, but its behavior differs slightly:
 
@@ -231,9 +233,10 @@ Darwin-specific behavior:
 - Doesn't modify `LD_LIBRARY_PATH` as this environment variable isn't used on macOS (it uses `DYLD_LIBRARY_PATH` instead, but modifying it is generally discouraged due to System Integrity Protection).
 - Never enables CUDA support or mentions it.
 
-3. Compiler and Library Handling:
+## 3. Compiler and Library Handling:
 
-Linux:
+### Linux:
+
 - The inclusion of `stdenv.cc.cc.lib` in the `buildInputs` ensures that the GNU C++ standard library is available.
 - The `LD_LIBRARY_PATH` modification helps locate these libraries at runtime.
 
@@ -252,15 +255,17 @@ int main() {
 }
 ```
 
-Darwin:
+### Darwin:
+
 - Relies on the macOS-provided clang compiler and libraries.
 - Doesn't need to modify library paths as the system takes care of this.
 
 Example impact: On macOS, the same C++ code would work, but it would use the clang compiler and Apple's implementation of the C++ standard library.
 
-4. CUDA Support:
+## 4. CUDA Support:
 
-Linux:
+### Linux:
+
 - Provides optional CUDA support, allowing for GPU-accelerated computing.
 - Includes `cudatoolkit`, `cudnn`, and a CUDA-enabled version of `ollama`.
 
@@ -277,7 +282,8 @@ else:
     print("CUDA is not available.")
 ```
 
-Darwin:
+### Darwin:
+
 - No CUDA support, as Apple doesn't support CUDA on macOS.
 
 Example alternative for macOS:
@@ -295,9 +301,10 @@ else:
     print(x)
 ```
 
-5. Python Package Compatibility:
+## 5. Python Package Compatibility:
 
-Linux:
+## Linux:
+
 - The `manylinux2014Package` ensures compatibility with a wide range of pre-built Python wheels.
 - This allows installing packages like:
   ```
@@ -305,7 +312,8 @@ Linux:
   ```
   Where these packages might include complex C extensions that rely on specific Linux ABI versions.
 
-Darwin:
+## Darwin:
+
 - Relies on packages built specifically for macOS.
 - May sometimes require installing from source if pre-built wheels are not available, e.g.:
   ```
