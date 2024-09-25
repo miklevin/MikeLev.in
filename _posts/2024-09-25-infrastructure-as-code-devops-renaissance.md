@@ -572,3 +572,96 @@ As you continue to refine and perfect this system, remember that you’re not ju
 #### Digital Alchemy and the Philosopher’s Stone of DevOps  
 
 In this light, your work transcends mere problem-solving. It becomes a form of digital alchemy, transforming the raw materials of code and configuration into gold—a philosopher’s stone of DevOps that turns the lead of complex infrastructure management into the gold of elegant, efficient, and infinitely scalable systems.
+
+# Fixed the Shell Prompts!
+
+As a finishing touch on this article, I went in an struggled with those pesky bash and zsh prompts. The problem that I alluded to in the article is that there's actually nested virtual environments here, one for nix and one for Python pip. The flake drops you in double-nested so you can start pip installing your own stuff. But the prompts didn't give the traditional (.venv) prefix to the prompt to let you know you were in one. Also, Nix just doesn't modify the prompt at all and gives no feedback that you've typed `nix develop`. So, here's a final working solution. I'm sure I'll refine it more, but this version now gives you custom prompts as you `exit` out of the shells. It's tested on Linux and Mac. Command-line completion is still broken when nested in, but that's really low priority. This is a huge 80/20-rule win.
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+  outputs = inputs @ { self, nixpkgs, flake-utils, ... }:
+    flake-utils.lib.eachDefaultSystem (system: let
+      pkgs = import nixpkgs {
+        inherit system;
+        config.allowUnfree = true;
+      };
+      localConfig = if builtins.pathExists ./local.nix then import ./local.nix else {};
+      cudaSupport = if localConfig ? cudaSupport then localConfig.cudaSupport else false;
+      
+      isLinux = pkgs.stdenv.isLinux;
+      isDarwin = pkgs.stdenv.isDarwin;
+      
+      commonPackages = with pkgs; [
+        python311
+        python311.pkgs.pip
+        python311.pkgs.virtualenv
+        cmake
+        ninja
+        gcc
+        git
+        zlib
+        stdenv.cc.cc.lib
+      ];
+      
+      runScript = pkgs.writeShellScriptBin "runScript" ''
+        set -e
+        export NIXPKGS_ALLOW_UNFREE=1
+        export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath commonPackages}:$LD_LIBRARY_PATH
+        ${if isLinux && cudaSupport then "export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH" else ""}
+        echo "Welcome to the Pipulate development environment on ${system}!"
+        ${if cudaSupport && isLinux then "echo 'CUDA support enabled.'" else ""}
+        test -d .venv || ${pkgs.python311.interpreter} -m venv .venv
+        source .venv/bin/activate
+        pip install --upgrade pip --quiet
+        pip install -r requirements.txt --quiet
+        # Override PROMPT_COMMAND and set custom PS1
+        export PROMPT_COMMAND=""
+        PS1='$(printf "\033[01;34m(%s)\033[00m \033[01;32m[%s@%s:%s]$\033[00m " "$(basename "$VIRTUAL_ENV")" "\u" "\h" "\w")'
+        export PS1       
+        exec bash --norc --noprofile
+      '';
+      
+      linuxDevShell = pkgs.mkShell {
+        buildInputs = commonPackages ++ (with pkgs; [
+          pythonManylinuxPackages.manylinux2014Package
+          stdenv.cc.cc.lib
+        ]) ++ pkgs.lib.optionals (cudaSupport && system == "x86_64-linux") (with pkgs; [
+          cudatoolkit
+          cudnn
+          (ollama.override { acceleration = "cuda"; })
+        ]);
+        shellHook = ''
+          ${runScript}/bin/runScript
+          # Set up Nix prompt for when user exits Python venv
+          nix_prompt='\[\033[1;34m\][nix-dev]\[\033[0m\] \w $ '
+          if [ -n "$ZSH_VERSION" ]; then
+            setopt PROMPT_SUBST
+            PS1="%F{blue}[nix-dev]%f %~ $ "
+          else
+            PS1="$nix_prompt"
+          fi
+        '';
+      };
+      
+      darwinDevShell = pkgs.mkShell {
+        buildInputs = commonPackages;
+        shellHook = ''
+          ${runScript}/bin/runScript
+          # Set up Nix prompt for when user exits Python venv
+          if [ -n "$ZSH_VERSION" ]; then
+            setopt PROMPT_SUBST
+            PS1="%F{blue}[nix-dev]%f %~ $ "
+          else
+            PS1='\[\033[1;34m\][nix-dev]\[\033[0m\] \w $ '
+          fi
+        '';
+      };
+    in {
+      devShell = if isLinux then linuxDevShell else darwinDevShell;
+    });
+}
+```
