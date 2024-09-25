@@ -270,7 +270,7 @@ have to be a genius like a C programmer.
 So when you type `nix develop`, it follows out all those instructions, and in
 this case, you'll see something like this output...
 
-```bash
+```
 [mike@nixos:~/repos/pipulate]$ nix develop
 warning: Git tree '/home/mike/repos/pipulate' is dirty
  ____  _             _       _       
