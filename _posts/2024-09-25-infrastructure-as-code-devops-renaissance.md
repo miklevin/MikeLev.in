@@ -225,11 +225,13 @@ runScript = pkgs.writeShellScriptBin "runScript" ''
 '';
 ```
 
-Linux-specific behavior:
+### Linux-specific behavior:
+
 - Sets the `LD_LIBRARY_PATH` to include the C++ standard library. This ensures that dynamically linked libraries can be found at runtime.
 - If CUDA support is enabled, it prints a message indicating this.
 
-Darwin-specific behavior:
+### Darwin-specific behavior:
+
 - Doesn't modify `LD_LIBRARY_PATH` as this environment variable isn't used on macOS (it uses `DYLD_LIBRARY_PATH` instead, but modifying it is generally discouraged due to System Integrity Protection).
 - Never enables CUDA support or mentions it.
 
