@@ -328,84 +328,84 @@ In conclusion, this Nix flake configuration demonstrates a nuanced approach to c
 
 ### 1. DevOps and Infrastructure as Code (IaC):
 
-   This Nix flake exemplifies modern DevOps practices and IaC principles. By codifying the development environment, it reduces the "it works on my machine" problem and enhances reproducibility. This approach is particularly valuable for:
-   
-   - Onboarding new developers quickly and consistently
-   - Ensuring CI/CD pipelines match development environments closely
-   - Facilitating collaboration across different operating systems and hardware configurations
+This Nix flake exemplifies modern DevOps practices and IaC principles. By codifying the development environment, it reduces the "it works on my machine" problem and enhances reproducibility. This approach is particularly valuable for:
+
+- Onboarding new developers quickly and consistently
+- Ensuring CI/CD pipelines match development environments closely
+- Facilitating collaboration across different operating systems and hardware configurations
 
 ### 2. Hybrid Package Management:
 
-   The configuration showcases a hybrid approach to package management, leveraging both Nix and pip. This strategy balances the strengths of each system:
-   
-   - Nix provides strong guarantees about system-level dependencies and tools
-   - Pip allows for more flexible management of Python-specific packages
+The configuration showcases a hybrid approach to package management, leveraging both Nix and pip. This strategy balances the strengths of each system:
 
-   This hybrid model could be seen as a stepping stone towards more fully Nix-based Python development, or as a pragmatic compromise between reproducibility and ecosystem compatibility.
+- Nix provides strong guarantees about system-level dependencies and tools
+- Pip allows for more flexible management of Python-specific packages
+
+This hybrid model could be seen as a stepping stone towards more fully Nix-based Python development, or as a pragmatic compromise between reproducibility and ecosystem compatibility.
 
 ### 3. Security Implications:
 
-   The flake's design has several security-related aspects:
-   
-   - Use of specific versions (e.g., nixos-24.05) helps in tracking and updating dependencies for security patches
-   - The isolation provided by the Python virtual environment adds a layer of separation from the system Python
-   - The `allowUnfree = true` setting enables non-free software, which may have different security implications and should be considered carefully
+The flake's design has several security-related aspects:
+
+- Use of specific versions (e.g., nixos-24.05) helps in tracking and updating dependencies for security patches
+- The isolation provided by the Python virtual environment adds a layer of separation from the system Python
+- The `allowUnfree = true` setting enables non-free software, which may have different security implications and should be considered carefully
 
 ### 4. Performance Optimization:
 
-   The CUDA support on Linux demonstrates an awareness of high-performance computing needs. This could be extended further, for example:
-   
-   - Adding OpenCL support for broader GPU compatibility
-   - Incorporating platform-specific optimizations (e.g., Apple's Metal for macOS)
-   - Configuring compiler flags for architecture-specific optimizations
+The CUDA support on Linux demonstrates an awareness of high-performance computing needs. This could be extended further, for example:
+
+- Adding OpenCL support for broader GPU compatibility
+- Incorporating platform-specific optimizations (e.g., Apple's Metal for macOS)
+- Configuring compiler flags for architecture-specific optimizations
 
 ### 5. Extensibility and Customization:
 
-   The use of `local.nix` for custom configurations shows foresight in allowing users to extend the environment without modifying the core flake. This could be expanded upon:
-   
-   - Providing more hooks for customization
-   - Documenting common customization patterns
-   - Offering a plugin system for team-specific or project-specific additions
+The use of `local.nix` for custom configurations shows foresight in allowing users to extend the environment without modifying the core flake. This could be expanded upon:
+
+- Providing more hooks for customization
+- Documenting common customization patterns
+- Offering a plugin system for team-specific or project-specific additions
 
 ### 6. Cross-Compilation Potential:
 
-   While not explicitly implemented, this setup lays groundwork for potential cross-compilation scenarios. The clear separation between Linux and Darwin environments could be leveraged to build cross-platform applications or libraries.
+While not explicitly implemented, this setup lays groundwork for potential cross-compilation scenarios. The clear separation between Linux and Darwin environments could be leveraged to build cross-platform applications or libraries.
 
 ### 7. Container and VM Integration:
 
-   This Nix configuration could be extended to generate Docker containers or virtual machine images, further enhancing portability and deployment options.
+This Nix configuration could be extended to generate Docker containers or virtual machine images, further enhancing portability and deployment options.
 
 ### 8. Language Polyglotism:
 
-   Although focused on Python, this setup (particularly on Linux) includes tools like CMake and GCC. This hints at potential multilingual development – perhaps for Python extensions or interoperability with C/C++ codebases. This could be expanded to support other languages seamlessly.
+Although focused on Python, this setup (particularly on Linux) includes tools like CMake and GCC. This hints at potential multilingual development – perhaps for Python extensions or interoperability with C/C++ codebases. This could be expanded to support other languages seamlessly.
 
 ### 9. Compliance and Auditing:
 
-   The declarative nature of this configuration aids in compliance scenarios where development environments need to be strictly controlled and audited. Every dependency and configuration option is explicitly stated, making it easier to review and approve the development environment.
+The declarative nature of this configuration aids in compliance scenarios where development environments need to be strictly controlled and audited. Every dependency and configuration option is explicitly stated, making it easier to review and approve the development environment.
 
 ### 10. Scalability and Team Collaboration:
 
-    This approach scales well from individual developers to large teams:
-    
-    - New team members can quickly set up a consistent environment
-    - Updates to the development environment can be versioned and rolled out systematically
-    - It supports a wide range of developer workflows and preferences while maintaining consistency in critical areas
+This approach scales well from individual developers to large teams:
+
+- New team members can quickly set up a consistent environment
+- Updates to the development environment can be versioned and rolled out systematically
+- It supports a wide range of developer workflows and preferences while maintaining consistency in critical areas
 
 ### 11. Educational Value:
 
-    Such a configuration serves as an educational tool for developers, exposing them to:
-    
-    - Advanced package management concepts
-    - Cross-platform development considerations
-    - The interplay between system-level and application-level dependencies
+Such a configuration serves as an educational tool for developers, exposing them to:
+
+- Advanced package management concepts
+- Cross-platform development considerations
+- The interplay between system-level and application-level dependencies
 
 ### 12. Future-Proofing:
 
-    The modular and declarative nature of this configuration makes it more adaptable to future changes:
-    
-    - New Python versions can be easily swapped in
-    - Additional tools or libraries can be incorporated with minimal friction
-    - The separation of concerns (e.g., CUDA as an optional component) allows for graceful evolution of the development environment
+The modular and declarative nature of this configuration makes it more adaptable to future changes:
+
+- New Python versions can be easily swapped in
+- Additional tools or libraries can be incorporated with minimal friction
+- The separation of concerns (e.g., CUDA as an optional component) allows for graceful evolution of the development environment
 
 In conclusion, this Nix flake configuration represents more than just a development environment setup. It embodies a philosophy of reproducible, adaptable, and scalable software development. It bridges the gap between system administration and application development, promoting practices that enhance collaboration, maintainability, and portability. As software development continues to evolve towards more complex, distributed, and heterogeneous environments, configurations like this will likely play an increasingly crucial role in managing that complexity and enabling more robust and efficient development workflows.​​​​​​​​​​​​​​​​
 
