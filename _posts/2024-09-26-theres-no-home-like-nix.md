@@ -635,6 +635,8 @@ Citations:
 
 ---
 
+# Web App Development at Home
+
 And now for the app! All this is to have a place to work experimentially on
 Python with the freedom that Notebooks provide, then to migrate the important
 bits over to a Web app. Back in the day, that day being 1998 through the 200X's,
@@ -644,14 +646,18 @@ JavaScript frameworks like React. Ruby on Rails also came along. Despite having
 tried, I never jumped on either of those bandwagons, client-side JS nor Ruby
 joyful frameworks.
 
+### The Jupyter Notebook Detour
+
 Instead, I went the Python route, fell in love with the language, and even shied
 away from the Python Django framework. I like lightweight, like the Pyton Flask
 micro web framework. But too often, you still have to look at HTML and
 JavaScript as you blend Python with them using some templating system, like
-jinja2 (big in Flask), mako (what Reddit was made with), or other doule
-curly-braced template languages like nunchucks or liquid templates. Instead, I
-avoided web developmenmt by using Python in Jupyter Notebooks for my various SEO
-tasks.
+jinja2 (big in Flask), mako (what Reddit was made with), or other double
+curly-braced template languages like nunchucks or liquid templates that use
+those mustaches `\{{ foo \}}`. Instead, I avoided web developmenmt by using
+Python in Jupyter Notebooks for my various SEO tasks.
+
+### FastHTML Web App Simplification
 
 So now I've got a bunch of Notebooks that are already working. But the world has
 changed again, and now I have to bring the utility of those notebooks to a
@@ -660,6 +666,8 @@ things in a Notebook. As easy as they are, tasks can be even easier for this
 audience when the Notebook is just turned into a Web app. It's easier for the
 app user, but harder for the app developer. If only the complexity of Web app
 development wasn't so steep. Enter FastHTML! Here is its Hello World web app...
+
+### Flask Minus the Mustache Syntax
 
 ```python
 from fasthtml.common import *
@@ -685,14 +693,17 @@ develop` the ***pipulate flake*** on your machine, a webserver is set up on
 localhost:5001, and you get a rudimentary page. It does use CSS and JavaScript
 as well to build the page, but you don't have to look at it.
 
-FastHTML combines the routing decorators of the Flask API with a Python web
+### Flask - Mustaches + HTMX = Pythonic SPA
+
+FastHTML combines the routing decorators of the Flask-like API with a Python web
 framework that uses function names that reflect their HTML elements, and a
 method of updating things on the page called HTMX. HTMX is a way of changing
 page data without a page reload, enabling single-page applications (SPA) with
-amazingly small amounts of clear concise code to get the job done. And still,
-you don't have to actually look at the JavaScript. When the button is pressed,
-it calls a page (function) called `increment` and swaps the inner HTML with the
-result of that function...
+amazingly small amounts of clear concise code to get the job done. 
+
+And still, you don't have to actually look at the JavaScript. When the button is
+pressed, it calls a page (function) called `increment` and swaps the inner HTML
+with the result of that function...
 
 ```python
 from fasthtml.common import *
@@ -723,24 +734,66 @@ def increment():
 serve()
 ```
 
-And THAT is our new building blocks! The whole thing is documented at the
-[fastht.ml](https://www.fastht.ml/) website. And this is where I'm making my own
-building-block documentation so I can start converting Notebooks over to Web
-Apps! Want to know a secret? So do web apps! And it's a pain because as
-distributable and sharable as these things are through nix flakes, you can't
-toss secrets like API keys into those git repos. And so right out of the
-starting gate, we are hit with that complication.
+Look, no JavaScript! And no CSS for that matter. And no build procedure. Just
+change the code in the file, go refresh the page, see your changes! This is the
+"build vs. no-build" or "compiled vs. interpreted" debate in web development.
+Compiled clearly won, but interpreted is making a comeback.
+
+### The Build vs No-Build Debate
+
+Dem's fightin' words! There's webdev religious dogmas here. The webdev community
+has decided to minimize the amount of work to be done on the server by shifting
+it to the browser using client-side JavaScript framework like React, Vue,
+Svelte. The result is having to "compile" JavaScript code, introducing a
+**"build"** process where there was none before, and tons of having to handle
+JSON instead of HTML.
+
+### JavaScript Frameworks Victims of Conway's Law
+
+To me, workflow-wise this loses all the wonderful quickness and easy breezy
+nature of webdev that used to be there. Advocates of compiled JavaScript say the
+benefit is worth it. But to me, it just makes it overly complex and
+inaccessible. It's Conway's Law in action. Things become more complex to reflect
+the people who designed them, which on the Web resulted in shutting out people
+like me who prefer a no-build environment. 
+
+### Joyful Frameworks
+
+I actually closely align with David Heinemeier Hansson (DHH), the creator of
+Ruby on Rails on this and a lot of these principles. With a little caching and
+the just-in-time compiling that is invisibly in the process that's in the
+process anyway these days, even for the "interpreted" approach, you can keep web
+development easy breezy, lightweight and joyful like it used to be.
+
+---
+
+# I Have a Secret
+
+Okay, so that was FastHTML's Hello World and HTMX usage. But there is one more
+building block we need. And yes, I put these examples on my "home" article
+because these are all new additions to my home that I have to keep reminding
+myself of. They are WebDev capabilities I've avoiding having to face for years
+because Notebooks got me a get-out-of-jail free card. But no more. The last
+building block example here is how to keep secrets when you go about trading
+these web apps as nix flakes.
+
+## Environment Variables
 
 The best practice for using secrets in your code seems to have settled on
 environment variables. All the OSes have them. But it just shifts around where
 the secrets are kept, from out of your programming code and into some other file
 on your computer, the idea being you will somehow inherit those environment
-variables from your OS and never have to display them. Guess what? You still
-need some apparatus to do that! And the Python community seems to have settled
-on a pip installable package called `dotenv` that reads (and now also writes) a
-file called `.env`. So here's a simplest code I could come up with that 1-time
-prompts the user to provide a secret (like an API key or token) and writes it
-into the .env file for later use...
+variables from your OS and never have to display them. 
+
+### pip install dotenv
+
+Guess what? Merely shifting where secrets are kept doesn't get you off the hook
+of having to manage them well. You still need some apparatus to do that! And the
+Python community seems to have settled on a pip installable package called
+`dotenv` that reads (and now also writes) a file called `.env`. So here's a
+simplest code I could come up with that 1-time prompts the user to provide a
+secret (like an API key or token) and writes it into the .env file for later
+use...
 
 ```python
 from fasthtml.common import *
@@ -780,6 +833,14 @@ def post(secret: str):
 # Start the server
 serve()
 ```
+
+And THAT is our new building blocks! The whole thing is documented at the
+[fastht.ml](https://www.fastht.ml/) website. And this is where I'm making my own
+building-block documentation so I can start converting Notebooks over to Web
+Apps! Want to know a secret? So do web apps! And it's a pain because as
+distributable and sharable as these things are through nix flakes, you can't
+toss secrets like API keys into those git repos. And so right out of the
+starting gate, we are hit with that complication.
 
 And with these 3 examples in-hand, Hello World, HTMX SPA and Secret Handling, I
 have everything I need to jump head-first into Web Application development
