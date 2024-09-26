@@ -931,10 +931,20 @@ nav a.current {
 
 .previous-post, .next-post {
   max-width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-label {
-  display: block;
   font-weight: bold;
-  margin-top: 0.5em; /* Optional spacing */
+  margin-bottom: 0.5em; /* Adds space between label and link */
+}
+
+.previous-post a, .next-post a {
+  text-decoration: none; /* Optional: removes underline from links */
+  color: #0066cc; /* Optional: sets link color */
+}
+
+.previous-post a:hover, .next-post a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
 }
