@@ -70,6 +70,11 @@ graph TD
 
 ## Join the Journey!
 
+This is chronologically forward since my decision to go all-in on Nix, NixOS and
+FastHTML, so it's oldest stuff at the top and newest stuff at the bottom. It's a
+lot of thinking out loud and forging the path forward, going into the gory
+details of future-proofing in a world where we live on the fault line.
+
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
   {% for post in sorted_posts %}
