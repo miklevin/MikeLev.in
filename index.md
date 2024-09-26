@@ -84,5 +84,5 @@ Thus far, the nix movement has been amongst the techiest of techs. I'm part of
 it coming downstream to the less than hardcore full-time developers. I'm
 currently working my way through the very steep learning curve of nix and NixOS,
 and once I'm over the hump, it should be easy to divvy out little flakes of nixy
-brilliance to my co-journeyers in the field of SEO (search engine optimization).
+brilliance to my co-journeyers in the field of SEO (search engine optimization). 
 
