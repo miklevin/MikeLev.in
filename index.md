@@ -7,12 +7,13 @@ group: home
 
 <table class="logos">
 <tr>
-<td class="hplg"><a href="https://levinux.com/"><img src="/assets/logo/Levinux.PNG" border=0 /></a></td>
+<td class="hplg"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
 <td> </td>
-<td class="hplg"><a href="https://pipulate.com/"><img src="/assets/logo/Pipulate.PNG" border=0 /></a></td>
+<td class="hplg"><img src="/assets/logo/Pipulate.PNG" border=0 /></td>
 </tr>
 <tr>
 
+<!--
 <td class="hptd"><b><a href="/levinux/">A Micro Linux For Your
 Education</a></b><br />Dispel the fear of Linux command-line with Levinux, the
 Gom Jabbar of Linux. 20 MB and no install!</td>
@@ -22,6 +23,7 @@ Gom Jabbar of Linux. 20 MB and no install!</td>
 <td class="hptd"><b><a href="/pipulate/">Pipulate Free & Open Source
 SEO</a></b><br />Follow along as I re-implement my SEO software for the new AI
 reality, including LLM-assisted crawls.</td>
+-->
 
 </tr>
 </table>
@@ -63,28 +65,27 @@ graph TD
     O --> P[Long-term Viability]
 </div>
 
-### AI Subscription Fees and Vendor Lock-in
+Every once in a while, we embark on a journey of self-reinvention. In today's
+rapidly evolving tech landscape, this journey often involves recalibrating our
+skills and tools to stay relevant and productive. With the rise of AI and an
+overwhelming array of new technologies, focusing on a core set of powerful,
+flexible tools can provide a solid foundation for adapting to change.
 
-Software vendors need you to become dependent on their particular, and often
-incompatible tools, locking you in to make you part of their revenue forecasts.
-Hence, the popularity of subscription services. Little makes this clearer than
-the new wave of AI tools, each with a $20/mo fee.
+## A Focused Approach to Tech Mastery
 
-### Nip That In The Bud With Nix and NixOS
+In light of the AI revolution and the flood of new tech offerings, I've chosen to concentrate on a specific set of tools and technologies:
 
-While I advocate Linux, Python, vim & git (LPvg) as a general sub-platform of
-all other platforms to fight obsolescence and vendor lock-in, the "Linux" part
-is a show-stopper for most folks. Fortunately, this problem is now solved with
-the nix command that easily reproduces any Linux environment under Mac or
-Windows.
+- **Linux**: A versatile, open-source operating system that forms the backbone of much of the world's computing infrastructure.
+- **Python**: A highly readable and versatile programming language, ideal for AI, data science, and general-purpose development.
+- **Vim**: A powerful, customizable text editor that boosts productivity once mastered.
+- **Git**: The industry-standard version control system, essential for collaborative development and project management.
+- **Nix and NixOS**: An innovative package manager and Linux distribution that offers reproducible, declarative system configuration.
+- **Jupyter Notebooks**: An interactive environment for exploring and prototyping Python ideas.
+- **FastHTML**: A modern web framework for quickly turning Python concepts into web applications.
 
-### The First Step in a Thousand Mile Journey
-
-Thus far, the nix movement has been amongst the techiest of techs. I'm part of
-it coming downstream to the less than hardcore full-time developers. I'm
-currently working my way through the very steep learning curve of nix and NixOS,
-and once I'm over the hump, it should be easy to divvy out little flakes of nixy
-brilliance to my co-journeyers in the field of SEO (search engine optimization). 
+This curated toolkit provides a robust platform for navigating the ever-changing
+tech landscape without getting lost in a sea of proprietary solutions and
+subscription-based services. Join the journey!
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
