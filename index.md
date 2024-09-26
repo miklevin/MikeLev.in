@@ -30,20 +30,21 @@ reality, including LLM-assisted crawls.</td>
 
 ## A Focused Approach to Tech Mastery
 
-In light of the AI revolution and the flood of new tech offerings, I've chosen to concentrate on a specific set of tools and technologies:
+In response to the AI revolution and proliferation of new tech offerings, I've focused on a core set of tools and technologies:
 
-- **Linux**: A versatile, open-source operating system that forms the backbone of much of the world's computing infrastructure.
-- **Python**: A highly readable and versatile programming language, ideal for AI, data science, and general-purpose development.
-- **Vim**: A powerful, customizable text editor that boosts productivity once mastered.
-- **Git**: The industry-standard version control system, essential for collaborative development and project management.
-- **Nix and NixOS**: An innovative package manager and Linux distribution that offers reproducible, declarative system configuration.
-- **Jupyter Notebooks**: An interactive environment for exploring and prototyping Python ideas.
-- **FastHTML**: A modern web framework for quickly turning Python concepts into web applications.
-- **Ollama:** A way to run large language models locally, enabling AI-powered development without relying on cloud services.
+- **Linux**: Open-source OS powering much of the world's computing infrastructure.
+- **Python**: Versatile language for AI, data science, and general development.
+- **Vim**: Efficient, customizable text editor for increased productivity.
+- **Git**: Industry-standard version control for collaborative development.
+- **Nix/NixOS**: Package manager and Linux distro for reproducible configurations.
+- **Jupyter Notebooks**: Interactive environment for Python prototyping.
+- **FastHTML**: Web framework for rapid Python-to-web-app development.
+- **Ollama**: Platform for running LLMs locally, enabling offline AI development.
 
-This curated toolkit provides a robust platform for navigating the ever-changing
-tech landscape without getting lost in a sea of proprietary solutions,
-JavaScript frameworks and subscription-based services.
+This toolkit provides a robust foundation for navigating the tech landscape,
+avoiding vendor lock-in, subscription traps and tangled frameworks. It enables
+creation of portable, AI-enhanced applications without cloud dependencies, while
+remaining cloud-deployable and scalable—offering flexibility and independence.
 
 <div class="mermaid">
 graph TD
