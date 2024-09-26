@@ -940,11 +940,3 @@ nav a.current {
   margin-bottom: 0.5em; /* Adds space between label and link */
 }
 
-.previous-post a, .next-post a {
-  text-decoration: none; /* Optional: removes underline from links */
-  color: #0066cc; /* Optional: sets link color */
-}
-
-.previous-post a:hover, .next-post a:hover {
-  text-decoration: underline; /* Optional: adds underline on hover */
-}
