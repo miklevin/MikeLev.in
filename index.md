@@ -39,6 +39,7 @@ In light of the AI revolution and the flood of new tech offerings, I've chosen t
 - **Nix and NixOS**: An innovative package manager and Linux distribution that offers reproducible, declarative system configuration.
 - **Jupyter Notebooks**: An interactive environment for exploring and prototyping Python ideas.
 - **FastHTML**: A modern web framework for quickly turning Python concepts into web applications.
+- **Ollama:** A way to run large language models locally, enabling AI-powered development without relying on cloud services.
 
 This curated toolkit provides a robust platform for navigating the ever-changing
 tech landscape without getting lost in a sea of proprietary solutions and
