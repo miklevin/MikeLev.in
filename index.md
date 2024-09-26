@@ -28,19 +28,21 @@ reality, including LLM-assisted crawls.</td>
 </tr>
 </table>
 
-## Future-proofing w/ Linux, Python, vim & git (LPvg)
+## A Focused Approach to Tech Mastery
 
-Saying AI has killed programming is like saying the calculator killed math.
-Expert users still have to expertly use the tool for the value to be realized.
-Whether or not you thriving and prosper or get ground under the wheels of
-obsolescence is all in the details.
+In light of the AI revolution and the flood of new tech offerings, I've chosen to concentrate on a specific set of tools and technologies:
 
-### The Hamster Wheel of Tech vs. Forever Improving
+- **Linux**: A versatile, open-source operating system that forms the backbone of much of the world's computing infrastructure.
+- **Python**: A highly readable and versatile programming language, ideal for AI, data science, and general-purpose development.
+- **Vim**: A powerful, customizable text editor that boosts productivity once mastered.
+- **Git**: The industry-standard version control system, essential for collaborative development and project management.
+- **Nix and NixOS**: An innovative package manager and Linux distribution that offers reproducible, declarative system configuration.
+- **Jupyter Notebooks**: An interactive environment for exploring and prototyping Python ideas.
+- **FastHTML**: A modern web framework for quickly turning Python concepts into web applications.
 
-Everything you learn will be obsolete in a few years... except for certain
-fundamentals that never go away. While the hamster wheel churn of tech is okay
-in your neuro-flexible youth, as you get older skills setting into your habits
-and muscle memory become either an asset or a liability.
+This curated toolkit provides a robust platform for navigating the ever-changing
+tech landscape without getting lost in a sea of proprietary solutions and
+subscription-based services. Join the journey!
 
 <div class="mermaid">
 graph TD
@@ -64,28 +66,6 @@ graph TD
     N --> O
     O --> P[Long-term Viability]
 </div>
-
-Every once in a while, we embark on a journey of self-reinvention. In today's
-rapidly evolving tech landscape, this journey often involves recalibrating our
-skills and tools to stay relevant and productive. With the rise of AI and an
-overwhelming array of new technologies, focusing on a core set of powerful,
-flexible tools can provide a solid foundation for adapting to change.
-
-## A Focused Approach to Tech Mastery
-
-In light of the AI revolution and the flood of new tech offerings, I've chosen to concentrate on a specific set of tools and technologies:
-
-- **Linux**: A versatile, open-source operating system that forms the backbone of much of the world's computing infrastructure.
-- **Python**: A highly readable and versatile programming language, ideal for AI, data science, and general-purpose development.
-- **Vim**: A powerful, customizable text editor that boosts productivity once mastered.
-- **Git**: The industry-standard version control system, essential for collaborative development and project management.
-- **Nix and NixOS**: An innovative package manager and Linux distribution that offers reproducible, declarative system configuration.
-- **Jupyter Notebooks**: An interactive environment for exploring and prototyping Python ideas.
-- **FastHTML**: A modern web framework for quickly turning Python concepts into web applications.
-
-This curated toolkit provides a robust platform for navigating the ever-changing
-tech landscape without getting lost in a sea of proprietary solutions and
-subscription-based services. Join the journey!
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
