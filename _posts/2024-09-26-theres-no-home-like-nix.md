@@ -632,3 +632,155 @@ Citations:
     [6] https://github.com/dustinlyons/nixos-config
     [7] https://blog.lambdaclass.com/using-metal-and-rust-to-make-fft-even-faster/
     [8] https://github.com/tpwrules/nixos-apple-silicon
+
+---
+
+And now for the app! All this is to have a place to work experimentially on
+Python with the freedom that Notebooks provide, then to migrate the important
+bits over to a Web app. Back in the day, that day being 1998 through the 200X's,
+I made those apps with Microsoft Active Server Pages (ASP), which you still see
+around. This was before NodeJS and the explosion of complex client-side
+JavaScript frameworks like React. Ruby on Rails also came along. Despite having
+tried, I never jumped on either of those bandwagons, client-side JS nor Ruby
+joyful frameworks.
+
+Instead, I went the Python route, fell in love with the language, and even shied
+away from the Python Django framework. I like lightweight, like the Pyton Flask
+micro web framework. But too often, you still have to look at HTML and
+JavaScript as you blend Python with them using some templating system, like
+jinja2 (big in Flask), mako (what Reddit was made with), or other doule
+curly-braced template languages like nunchucks or liquid templates. Instead, I
+avoided web developmenmt by using Python in Jupyter Notebooks for my various SEO
+tasks.
+
+So now I've got a bunch of Notebooks that are already working. But the world has
+changed again, and now I have to bring the utility of those notebooks to a
+broader range of people, sparing them the difficulty of learning how to do
+things in a Notebook. As easy as they are, tasks can be even easier for this
+audience when the Notebook is just turned into a Web app. It's easier for the
+app user, but harder for the app developer. If only the complexity of Web app
+development wasn't so steep. Enter FastHTML! Here is its Hello World web app...
+
+```python
+from fasthtml.common import *
+
+# Initialize the FastHTML application
+app, rt = fast_app()
+
+# Define a route for the home page
+@rt("/")
+def get():
+    # Return a titled page with a simple "Hello, World!" message
+    return Titled("Hello World", P("Hello, World!"))
+
+# Start the server
+serve()
+```
+
+Notice the lack of a template language. Notice the lack of crosseye-inducing
+double curly brackets. HTML tags are represented as Python functions with names
+reflecting the element. `P()` is for paragraph `<p>` and `Titled()` is for a
+titled page with both a title tag and a headline-like page title. When you `nix
+develop` the ***pipulate flake*** on your machine, a webserver is set up on
+localhost:5001, and you get a rudimentary page. It does use CSS and JavaScript
+as well to build the page, but you don't have to look at it.
+
+FastHTML combines the routing decorators of the Flask API with a Python web
+framework that uses function names that reflect their HTML elements, and a
+method of updating things on the page called HTMX. HTMX is a way of changing
+page data without a page reload, enabling single-page applications (SPA) with
+amazingly small amounts of clear concise code to get the job done. And still,
+you don't have to actually look at the JavaScript. When the button is pressed,
+it calls a page (function) called `increment` and swaps the inner HTML with the
+result of that function...
+
+```python
+from fasthtml.common import *
+
+# Initialize the FastHTML application
+app, rt = fast_app()
+
+x = 0
+
+@app.get("/")
+def home():
+    return Title("FastHTML HTMX Demo"), Main(
+        H1("Hello, FastHTML with HTMX!"),
+        P(f"Count: {x}", id="count"),
+        Button("Increment", 
+               hx_post="/increment", 
+               hx_target="#count", 
+               hx_swap="innerHTML")
+    )
+
+@app.post("/increment")
+def increment():
+    global x
+    x += 1
+    return f"Count: {x}"
+
+# Start the server
+serve()
+```
+
+And THAT is our new building blocks! The whole thing is documented at the
+[fastht.ml](https://www.fastht.ml/) website. And this is where I'm making my own
+building-block documentation so I can start converting Notebooks over to Web
+Apps! Want to know a secret? So do web apps! And it's a pain because as
+distributable and sharable as these things are through nix flakes, you can't
+toss secrets like API keys into those git repos. And so right out of the
+starting gate, we are hit with that complication.
+
+The best practice for using secrets in your code seems to have settled on
+environment variables. All the OSes have them. But it just shifts around where
+the secrets are kept, from out of your programming code and into some other file
+on your computer, the idea being you will somehow inherit those environment
+variables from your OS and never have to display them. Guess what? You still
+need some apparatus to do that! And the Python community seems to have settled
+on a pip installable package called `dotenv` that reads (and now also writes) a
+file called `.env`. So here's a simplest code I could come up with that 1-time
+prompts the user to provide a secret (like an API key or token) and writes it
+into the .env file for later use...
+
+```python
+from fasthtml.common import *
+from dotenv import load_dotenv, set_key
+import os
+
+# Initialize the FastHTML application
+app, rt = fast_app()
+
+# Load environment variables
+load_dotenv()
+
+@rt("/")
+def get():
+    # Reload the environment variables to reflect any updates
+    load_dotenv()
+    secret = os.getenv('SECRET')
+    if secret:
+        message = P("I already know your secret")
+    else:
+        message = Form(method="post")(
+            Label("Enter the secret:", Input(type="password", name="secret")),
+            Button("Submit", type="submit")
+        )
+    return Titled("Secret Prompt", message)
+
+@rt("/", methods=["POST"])
+def post(secret: str):
+    # Save the secret to the .env file if it hasn't been set
+    if not os.getenv('SECRET'):
+        set_key('.env', 'SECRET', secret)
+        load_dotenv()  # Reload the .env file after updating it
+        return Titled("Secret Saved", P("Your secret has been saved."))
+    else:
+        return Titled("Secret Already Set", P("A secret is already set. No changes were made."))
+
+# Start the server
+serve()
+```
+
+And with these 3 examples in-hand, Hello World, HTMX SPA and Secret Handling, I
+have everything I need to jump head-first into Web Application development
+again. Ugh!
