@@ -43,7 +43,7 @@ In light of the AI revolution and the flood of new tech offerings, I've chosen t
 
 This curated toolkit provides a robust platform for navigating the ever-changing
 tech landscape without getting lost in a sea of proprietary solutions and
-subscription-based services. Join the journey!
+subscription-based services.
 
 <div class="mermaid">
 graph TD
@@ -67,6 +67,8 @@ graph TD
     N --> O
     O --> P[Long-term Viability]
 </div>
+
+## Join the Journey!
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
