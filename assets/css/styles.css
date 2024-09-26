@@ -922,3 +922,19 @@ nav a.current {
 .mermaid > svg {
   height: auto;
 }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.previous-post, .next-post {
+  max-width: 45%;
+}
+
+.nav-label {
+  display: block;
+  font-weight: bold;
+  margin-top: 0.5em; /* Optional spacing */
+}

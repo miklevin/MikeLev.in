@@ -13,18 +13,18 @@ author: Mike Levin
   {% if page.previous %}
     <div class="previous-post">
       <a href="{{ page.previous.url | relative_url }}">
-        <span class="nav-label">Previous:</span>
         {{ page.previous.title }}
       </a>
+      <span class="nav-label">Previous</span>
     </div>
   {% endif %}
   
   {% if page.next %}
     <div class="next-post">
       <a href="{{ page.next.url | relative_url }}">
-        <span class="nav-label">Next:</span>
         {{ page.next.title }}
       </a>
+      <span class="nav-label">Next</span>
     </div>
   {% endif %}
 </div>
