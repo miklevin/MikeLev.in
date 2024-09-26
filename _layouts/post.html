@@ -8,3 +8,23 @@ author: Mike Levin
 <h3>By {{ page.author }}</h3>
 <h4>{{ page.date | date: '%A, %B %-d, %Y' }}</h4>
 {{ content }}
+
+<div class="post-navigation">
+  {% if page.previous %}
+    <div class="previous-post">
+      <a href="{{ page.previous.url | relative_url }}">
+        <span class="nav-label">Previous:</span>
+        {{ page.previous.title }}
+      </a>
+    </div>
+  {% endif %}
+  
+  {% if page.next %}
+    <div class="next-post">
+      <a href="{{ page.next.url | relative_url }}">
+        <span class="nav-label">Next:</span>
+        {{ page.next.title }}
+      </a>
+    </div>
+  {% endif %}
+</div>
