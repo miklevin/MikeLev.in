@@ -42,8 +42,8 @@ In light of the AI revolution and the flood of new tech offerings, I've chosen t
 - **Ollama:** A way to run large language models locally, enabling AI-powered development without relying on cloud services.
 
 This curated toolkit provides a robust platform for navigating the ever-changing
-tech landscape without getting lost in a sea of proprietary solutions and
-subscription-based services.
+tech landscape without getting lost in a sea of proprietary solutions,
+JavaScript frameworks and subscription-based services.
 
 <div class="mermaid">
 graph TD
