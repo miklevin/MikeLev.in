@@ -86,3 +86,16 @@ currently working my way through the very steep learning curve of nix and NixOS,
 and once I'm over the hump, it should be easy to divvy out little flakes of nixy
 brilliance to my co-journeyers in the field of SEO (search engine optimization). 
 
+<ol>
+  {% assign sorted_posts = site.posts | sort: 'date' %}
+  {% for post in sorted_posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      - <span>{{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.description %}
+        <p>{{ post.description }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>
+
