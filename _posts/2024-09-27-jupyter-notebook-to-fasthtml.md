@@ -1,13 +1,38 @@
 ---
-title: Jupyter Notebook to FastHTML
-permalink: /jupyter-notebook-to-fasthtml/
+title: Forking a Flake of Infrastructure as Code
+permalink: /forking-flake-infrastructure-as-code/
 description: 
 layout: post
 ---
 
-Ugh, I've spent long enough on building the foundation. Pipulate is a good
+I was lost, but now am found. My premise is that if I can fork some infinite
+infrastructure, I'll never be lost again. I will always have a "home" starting
+point for any project, any time, any industry, any future. AI obsoleting you be
+damned, because even AI has to run on something, and it's darn likely to be
+Linux for a good long while. Everything that goes into building a little Linux
+system is eternal--or as eternal as it gets. But fussing around with that can
+become for its own sake, and like Joel Spolsky warned way back in 2001, you
+don't want to become an [architecture
+astronaut](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)
+
+So I've spent long enough on building the foundation. Pipulate is a good
 portable home. And as such, it's designed to be cloned, but not necessarily
-forked...
+forked. I call it forking for the concept closely aligns, but everyone working
+with such systems has to struggle with how much of your templates should be
+inherited from some Platonic unchanging parent object, and how much should be
+fresh new custom code every time. It's all about assumptions. The more
+assumptions you make, the briefer the code, but the harder it is to customize.
+
+The Pipulate Nix Flake got pretty long, but it's time to put a fork in it. It's
+done. Oh, I'll tweak it over time. But it works, and it's short enough to not do
+some complex inheritance system, or even be a real fork for that matter. For
+those not into such things, forking in the `git` ecosystem has a special
+meaning, maintaining a history of what projects were derived from what, even if
+they radically diverge. But in this case, I don't even want that level of
+connection. I want to chip off a flake, and if I look back, it will be to update
+as short a master template as I possibly can.
+
+Let's do it...
 
 ```bash
 [mike@nixos:~/repos]$ git clone http://github.com/miklevin/pipulate botifython
@@ -265,6 +290,9 @@ You have to commit to one way or the other. While I use nix flakes to distribute
 the infrastructure as a file, I use pip for all PyPI package management under a
 Python virtual environment. It's like buying your home and leasing your car.
 
-
+Fast-forward to after an incredibly focused many hours. I have my first FastHTML
+minimum viable product app done. Wow, amazing! Anyway, it's clear to me that I
+need a better mastery over the BQL language that Botify uses. So what I'm going
+to do is create a blog post dedicated to that.
 
 
