@@ -33,15 +33,15 @@ reality, including LLM-assisted crawls.</td>
 In response to the AI revolution and proliferation of new tech offerings, I've focused on a core set of tools and technologies:
 Here's the revised list with the words before the colons enclosed in code ticks:
 
-- **`Linux`**: Open-source OS powering much of the world's computing infrastructure.
-- **`Python`**: Versatile language for AI, data science, and general development.
-- **`vim`**: Efficient, customizable text editor for increased productivity.
-- **`git`**: Industry-standard version control for collaborative development.
-- **`nix/NixOS`**: Package manager and Linux distro for reproducible configurations.
-- **`tmux`**: Run your scripts in multiple disconnectable, reconnectable sessions.
-- **`Jupyter Notebooks`**: Interactive environment for Python prototyping.
-- **`FastHTML`**: Web framework for rapid Python-to-web-app development.
-- **`Ollama`**: Platform for running LLMs locally, enabling offline AI development.
+- **`Linux`**: The open-source pulse of global computation.
+- **`Python`**: Language of logic, creativity, and discovery.
+- **`vim`**: The text whisperer—efficiency bound in keystrokes.
+- **`git`**: The memory keeper—track, share, and never lose your way.
+- **`nix/NixOS`**: Reproducibility redefined—consistency across the code cosmos.
+- **`tmux`**: Command-line conjurer—sessions split, disconnected, and reborn.
+- **`Jupyter Notebooks`**: Code meets canvas—prototype, iterate, illuminate.
+- **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
+- **`Ollama`**: Offline AI, always listening—your local companion in thought.
 
 This toolkit provides a robust foundation for navigating the tech landscape,
 avoiding vendor lock-in, subscription traps and tangled frameworks. It enables
