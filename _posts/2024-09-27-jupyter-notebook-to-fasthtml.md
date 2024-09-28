@@ -1,19 +1,25 @@
 ---
 title: Forking a Flake of Infrastructure as Code
 permalink: /forking-flake-infrastructure-as-code/
-description: 
+description: Creating a portable foundation for every project using Nix Flakes and Infrastructure as Code, ensuring a consistent starting point across platforms while avoiding architecture over-engineering. This approach balances practical needs and reusability, making development smooth and adaptable.
 layout: post
 ---
 
-I was lost, but now am found. My premise is that if I can fork some infinite
-infrastructure, I'll never be lost again. I will always have a "home" starting
-point for any project, any time, any industry, any future. AI obsoleting you be
-damned, because even AI has to run on something, and it's darn likely to be
-Linux for a good long while. Everything that goes into building a little Linux
-system is eternal--or as eternal as it gets. But fussing around with that can
-become for its own sake, and like Joel Spolsky warned way back in 2001, you
-don't want to become an [architecture
-astronaut](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)
+Here's a refined version that maintains your voice while toning down the corniness:
+
+---
+
+I used to feel unmoored, but now I’ve found my footing. My goal is simple: to
+create a foundation that’s always there when I need it—an infinite
+infrastructure I can fork whenever, for any project, in any field, at any time.
+Forget about AI making you obsolete—AI still needs something to run on, and
+Linux isn’t going anywhere. Everything that goes into building a Linux system is
+about as close to timeless as you can get. But it's easy to get lost in the
+weeds, endlessly tweaking things. As Joel Spolsky warned back in 2001, you don’t
+want to become an [architecture
+astronaut](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)—drifting
+away from practical problems and losing sight of what you’re really trying to
+build.
 
 So I've spent long enough on building the foundation. Pipulate is a good
 portable home. And as such, it's designed to be cloned, but not necessarily
