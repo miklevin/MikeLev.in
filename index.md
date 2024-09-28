@@ -32,13 +32,16 @@ reality, including LLM-assisted crawls.</td>
 
 In response to the AI revolution and proliferation of new tech offerings, I've focused on a core set of tools and technologies:
 
+Here's the updated list with `git`, `nix`, and `vim` in lowercase:
+
 - **Linux**: Open-source OS powering much of the world's computing infrastructure.
 - **Python**: Versatile language for AI, data science, and general development.
-- **Vim**: Efficient, customizable text editor for increased productivity.
-- **Git**: Industry-standard version control for collaborative development.
-- **Nix/NixOS**: Package manager and Linux distro for reproducible configurations.
+- **vim**: Efficient, customizable text editor for increased productivity.
+- **git**: Industry-standard version control for collaborative development.
+- **nix/NixOS**: Package manager and Linux distro for reproducible configurations.
 - **Jupyter Notebooks**: Interactive environment for Python prototyping.
 - **FastHTML**: Web framework for rapid Python-to-web-app development.
+- **tmux**: Terminal multiplexer for managing multiple terminal sessions within a single window, enhancing productivity in command-line workflows.
 - **Ollama**: Platform for running LLMs locally, enabling offline AI development.
 
 This toolkit provides a robust foundation for navigating the tech landscape,
