@@ -28,10 +28,10 @@ reality, including LLM-assisted crawls.</td>
 </tr>
 </table>
 
-## A Focused Approach to Tech Mastery
-
-In response to the AI revolution and proliferation of new tech offerings, I've focused on a core set of tools and technologies:
-Here's the revised list with the words before the colons enclosed in code ticks:
+> This is chronologically forward since my decision to go all-in on Nix, NixOS
+> and FastHTML, so it's oldest stuff at the top and newest stuff at the bottom.
+> It's a lot of thinking out loud and forging the path forward, going into the
+> gory details of future-proofing in a world where we live on the fault line.
 
 - **`Linux`**: The open-source pulse of global computation.
 - **`Python`**: Language of logic, creativity, and discovery.
@@ -43,10 +43,25 @@ Here's the revised list with the words before the colons enclosed in code ticks:
 - **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
 - **`Ollama`**: Offline AI, always listening—your local companion in thought.
 
-This toolkit provides a robust foundation for navigating the tech landscape,
-avoiding vendor lock-in, subscription traps and tangled frameworks. It enables
-creation of portable, AI-enhanced applications without cloud dependencies, while
-remaining cloud-deployable and scalable—offering flexibility and independence.
+This toolkit serves as a powerful foundation for navigating the tech landscape,
+helping to avoid vendor lock-in, subscription traps, and complex frameworks. It
+enables the creation of portable, AI-enhanced applications that are free from
+cloud dependencies—yet still cloud-deployable and scalable when needed. The
+result is a solution that offers flexibility and independence, providing a form
+of future-proofing that keeps your options open.
+
+<ol>
+  {% assign sorted_posts = site.posts | sort: 'date' %}
+  {% for post in sorted_posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      - <span>{{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.description %}
+        <p>{{ post.description }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>
 
 <div class="mermaid">
 graph TD
@@ -70,24 +85,4 @@ graph TD
     N --> O
     O --> P[Long-term Viability]
 </div>
-
-## Join the Journey!
-
-> This is chronologically forward since my decision to go all-in on Nix, NixOS
-> and FastHTML, so it's oldest stuff at the top and newest stuff at the bottom.
-> It's a lot of thinking out loud and forging the path forward, going into the
-> gory details of future-proofing in a world where we live on the fault line.
-
-<ol>
-  {% assign sorted_posts = site.posts | sort: 'date' %}
-  {% for post in sorted_posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      - <span>{{ post.date | date: "%B %d, %Y" }}</span>
-      {% if post.description %}
-        <p>{{ post.description }}</p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ol>
 
