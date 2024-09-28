@@ -32,8 +32,6 @@ reality, including LLM-assisted crawls.</td>
 
 In response to the AI revolution and proliferation of new tech offerings, I've focused on a core set of tools and technologies:
 
-Here's the updated list with `git`, `nix`, and `vim` in lowercase:
-
 - **Linux**: Open-source OS powering much of the world's computing infrastructure.
 - **Python**: Versatile language for AI, data science, and general development.
 - **vim**: Efficient, customizable text editor for increased productivity.
