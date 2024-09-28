@@ -28,18 +28,6 @@ reality, including LLM-assisted crawls.</td>
 </tr>
 </table>
 
-This toolkit offers a pragmatic approach to software development, emphasizing
-independence and adaptability. By leveraging open-source and AI-enhanced
-components, it helps developers create portable applications that avoid vendor
-lock-in and complex frameworks. The result is a flexible solution that can be
-deployed locally or in the cloud, allowing for scalability without sacrificing
-autonomy. This approach promotes sustainable development practices, enabling
-applications to evolve and improve over time. By consistently using these tools,
-developers build valuable muscle memory, streamlining their workflow and
-enhancing productivity. The toolkit's focus on open standards and portability
-serves as a form of future-proofing, ensuring that applications remain relevant
-and functional as technology landscapes shift.
-
 - **`Linux`**: The open-source pulse of global computation.
 - **`Python`**: Language of logic, creativity, and discovery.
 - **`vim`**: The text whisperer—efficiency bound in keystrokes.
@@ -50,19 +38,21 @@ and functional as technology landscapes shift.
 - **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
 - **`Ollama`**: Offline AI, always listening—your local companion in thought.
 
-This is the story of connecting fragmented tools and concepts into a cohesive
-development workflow—building a portable, reproducible environment that’s ready
-to spin up at any moment, anywhere. From mastering Linux, Python, Vim, and Git
-to leveraging Nix Flakes and Infrastructure as Code, each step has refined the
-process of creating a versatile toolkit for the AI age. Navigating NixOS’s
-declarative configurations and Python’s dynamic flexibility, I’ve crafted a
-cross-platform setup that integrates JupyterLab, CUDA, FastHTML, and local LLMs
-like Ollama. This foundation isn’t just about technology, but about reclaiming
-agency in development, offering a consistent starting point for any project in
-any industry, while avoiding the pitfalls of over-engineering. The result is a
-streamlined approach that balances practicality and reusability, making it
-easier to focus on solving problems and creating new solutions without getting
-lost in architectural abstraction.
+## Versatile Development Toolkit
+
+This toolkit offers a pragmatic approach to software development, emphasizing independence and adaptability. Leveraging open-source and AI-enhanced components, it helps developers create portable applications that avoid vendor lock-in and complex frameworks. The result is a flexible solution, deployable locally or in the cloud, allowing for scalability without sacrificing autonomy.
+
+## Sustainable Practices and Productivity
+
+The toolkit promotes sustainable development practices, enabling applications to evolve and improve over time. Consistent use builds valuable muscle memory, streamlining workflows and enhancing productivity. By focusing on open standards and portability, it serves as a form of future-proofing, ensuring applications remain relevant and functional as technology landscapes shift.
+
+## A Cohesive Development Workflow
+
+This story showcases the connection of fragmented tools and concepts into a cohesive development workflow, building a portable, reproducible environment ready to spin up at any moment, anywhere. Mastering Linux, Python, Vim, and Git, and leveraging Nix Flakes and Infrastructure as Code, every step refines the process of creating a versatile toolkit for the AI age.
+
+## A Cross-Platform Foundation for Agency
+
+Navigating NixOS's declarative configurations and Python's dynamic flexibility, a cross-platform setup has been crafted, integrating JupyterLab, CUDA, FastHTML, and local LLMs like Ollama. This foundation prioritizes agency in development, offering a consistent starting point for any project in any industry, avoiding the pitfalls of over-engineering. The result is a streamlined approach that balances practicality and reusability, making it easier to focus on solving problems and creating new solutions without getting lost in architectural abstraction.
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
