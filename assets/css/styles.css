@@ -623,13 +623,13 @@ body>header div {
 .post-nav {
     display: flex;
     justify-content: flex-end;
-    // justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
 .post-nav-prev {
     margin-right: auto;
-    // text-align: left;
+    /* text-align: left; */
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -923,9 +923,11 @@ nav a.current {
   height: auto;
 }
 
+/* Post Navigation Styles */
 .post-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment */
   margin-top: 2em;
 }
 
@@ -940,3 +942,7 @@ nav a.current {
   margin-bottom: 0.5em; /* Adds space between label and link */
 }
 
+/* Placeholder Styling */
+.previous-post.placeholder {
+  visibility: hidden;
+}
