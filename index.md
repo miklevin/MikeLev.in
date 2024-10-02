@@ -5,28 +5,15 @@ author: Mike Levin AI SEO
 group: home
 ---
 
-<table class="logos">
-<tr>
-<td class="hplg"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
-<td> </td>
-<td class="hplg"><img src="/assets/logo/Pipulate.PNG" border=0 /></td>
-</tr>
-<tr>
-
-<!--
-<td class="hptd"><b><a href="/levinux/">A Micro Linux For Your
-Education</a></b><br />Dispel the fear of Linux command-line with Levinux, the
-Gom Jabbar of Linux. 20 MB and no install!</td>
-
-<td style="background: black;">&nbsp;</td>
-
-<td class="hptd"><b><a href="/pipulate/">Pipulate Free & Open Source
-SEO</a></b><br />Follow along as I re-implement my SEO software for the new AI
-reality, including LLM-assisted crawls.</td>
--->
-
-</tr>
-</table>
+<div style="text-align: center;" >
+    <table class="logos">
+        <tr>
+            <td class="hplg"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
+            <td> </td>
+            <td class="hplg"><img src="/assets/logo/Pipulate.PNG" border=0 /></td>
+        </tr>
+    </table>
+</div>
 
 - **`Linux`**: The open-source pulse of global computation.
 - **`Python`**: Language of logic, creativity, and discovery.
