@@ -56,7 +56,7 @@ body>* {
 body>header {
     background-color: #202020;
     margin: 0; /* Remove default margin */
-    padding: 3vw 2vw 2vw 2vw;
+    padding: 6vw 2vw 2vw 2vw;
     width: 100%; /* Ensure it stretches to the full width */
     border: none; /* Remove any borders */
     border-bottom: 1px solid var(--border);
