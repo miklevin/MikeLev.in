@@ -54,7 +54,11 @@ body>* {
 
 /* Make the header bg full width, but the content inline with body */
 body>header {
-    /* background-color: #202020; */
+    background-color: #202020;
+    margin: 0; /* Remove default margin */
+    padding: 1rem; /* Add padding for spacing */
+    width: 100%; /* Ensure it stretches to the full width */
+    border: none; /* Remove any borders */
     border-bottom: 1px solid var(--border);
     text-align: center;
     grid-column: 1 / -1;
@@ -561,11 +565,6 @@ blockquote {
 
 header {
     background-color: black;
-    /* background-blend-mode: color;
-    background-image: url("/assets/images/blue-balloons.png");
-    background-position-y: center;
-    background-position: center;
-    background-size: 100% auto; */
 }
 
 footer {
