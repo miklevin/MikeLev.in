@@ -17,6 +17,29 @@ tools. On this site, I focus on:
 - **Staying at the Top of My Field**: Protecting my earning capacity as things change
 - **The minimal tool-chain for AI**: Expanding LPvg to include vector databases, etc.
 
+<div class="mermaid">
+graph TD
+    A[Tech Skills] --> B{Choose Path}
+    B -->|Hamster Wheel| C[Constant Churn]
+    B -->|Future-proof| D[LPvg Stack]
+    C --> E[Vendor Lock-in]
+    C --> F[Subscription Fees]
+    C --> G[Rapid Obsolescence]
+    D --> H[Linux]
+    D --> I[Python]
+    D --> J[vim]
+    D --> K[git]
+    D --> L[Nix/NixOS]
+    H --> M[Fundamental Skills]
+    I --> M
+    J --> M
+    K --> M
+    L --> N[Reproducible Environments]
+    M --> O[Resist Obsolescence]
+    N --> O
+    O --> P[Long-term Viability]
+</div>
+
 ## It's Text-files All The Way Down
 
 It's all about text files and pushing bits around. Even after the rise of AI,

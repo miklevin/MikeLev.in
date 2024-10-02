@@ -32,6 +32,13 @@ reality, including LLM-assisted crawls.</td>
 - **`Python`**: Language of logic, creativity, and discovery.
 - **`vim`**: The text whisperer—efficiency bound in keystrokes.
 - **`git`**: The memory keeper—track, share, and never lose your way.
+
+That's the main minimal tech-stach as a sort of swiss army knife or utility belt
+of tech. You don't need to use it for everything, but it is applicable to
+everything. With a few more tools, we lower the barrier to entry and make
+systems reproducible across all hardware. Plus, we'll sprinkle in the free local
+AI and a Python-centric web development environment.
+
 - **`nix/NixOS`**: Reproducibility redefined—consistency across the code cosmos.
 - **`tmux`**: Command-line conjurer—sessions split, disconnected, and reborn.
 - **`Jupyter Notebooks`**: Code meets canvas—prototype, iterate, illuminate.
@@ -66,27 +73,4 @@ Navigating NixOS's declarative configurations and Python's dynamic flexibility, 
     </li>
   {% endfor %}
 </ol>
-
-<div class="mermaid">
-graph TD
-    A[Tech Skills] --> B{Choose Path}
-    B -->|Hamster Wheel| C[Constant Churn]
-    B -->|Future-proof| D[LPvg Stack]
-    C --> E[Vendor Lock-in]
-    C --> F[Subscription Fees]
-    C --> G[Rapid Obsolescence]
-    D --> H[Linux]
-    D --> I[Python]
-    D --> J[vim]
-    D --> K[git]
-    D --> L[Nix/NixOS]
-    H --> M[Fundamental Skills]
-    I --> M
-    J --> M
-    K --> M
-    L --> N[Reproducible Environments]
-    M --> O[Resist Obsolescence]
-    N --> O
-    O --> P[Long-term Viability]
-</div>
 
