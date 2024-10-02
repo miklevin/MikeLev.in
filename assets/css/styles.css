@@ -738,6 +738,7 @@ nav a.current {
 
 .highlight,
 .highlight .w {
+    font-size: smaller;
     color: #d0d0d0 !important;
     background-color: #151515 !important;
 }
