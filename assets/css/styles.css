@@ -38,7 +38,7 @@ html {
 
 /* Make the body a nice central block */
 body {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr min(57rem, 90%) 1fr;
     background-color: #000000;
     color: #ffffff;
@@ -49,7 +49,7 @@ body {
 }
 
 body>* {
-    grid-column: 2;
+    grid-column: 1;
 }
 
 /* Make the header bg full width, but the content inline with body */
@@ -617,7 +617,6 @@ body>header div {
     font-family: 'Dorsa';
     font-size: min(26vw, 255px);
     line-height: 0.7;
-    margin: 5vw 0 0 0;
     overflow-wrap: break-word;
 }
 
