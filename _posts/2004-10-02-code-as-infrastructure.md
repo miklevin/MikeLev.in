@@ -1,4 +1,3 @@
-
 ---
 title: Code as Infrastructure
 permalink: /code-as-infrastructure/
