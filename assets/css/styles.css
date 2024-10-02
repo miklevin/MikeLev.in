@@ -73,6 +73,7 @@ body>header p {
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
     padding-top: 3vw;
+    margin: 0vw 4vw 0vw 4vw;
 }
 
 body>footer {
@@ -93,7 +94,7 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
-    margin-top: 0.5rem;
+    margin: 1vw 0vw 0vw 0vw;
 }
 
 /* Fix line height when title wraps */
