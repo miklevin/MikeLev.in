@@ -72,7 +72,7 @@ body>header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-    padding-top: 3vw;
+    padding: 5vw 1vw 1vw 1vw;
     margin: 0vw 4vw 0vw 4vw;
 }
 
