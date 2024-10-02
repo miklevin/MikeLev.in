@@ -5,8 +5,8 @@ author: Mike Levin AI SEO
 group: home
 ---
 
-<div style="text-align: center;" >
-    <table class="logos">
+<div class="center-table">
+    <table class="logos" style="margin: 0 auto;">
         <tr>
             <td class="hplg"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
             <td> </td>
