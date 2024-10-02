@@ -45,7 +45,7 @@ body {
     font-family: "Abel";
     font-size: x-large;
     line-height: 1.6;
-    margin: 0;
+    margin: 3vw;
 }
 
 body>* {
@@ -54,7 +54,7 @@ body>* {
 
 /* Make the header bg full width, but the content inline with body */
 body>header {
-    background-color: #202020;
+    /* background-color: #202020; */
     border-bottom: 1px solid var(--border);
     text-align: center;
     grid-column: 1 / -1;
@@ -246,10 +246,10 @@ aside {
 
 article,
 fieldset {
-    border: 1px solid var(--border);
+    /* border: 1px solid var(--border);
     padding: 1rem;
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
 }
 
 article h2:first-child,
