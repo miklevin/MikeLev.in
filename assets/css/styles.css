@@ -307,7 +307,7 @@ details[open]> :last-child {
 /* Format tables */
 table {
     border-collapse: collapse;
-    display: block;
+    display: contents;
     margin: 1.5rem 0;
     overflow: auto;
     width: min(894px, 92vw);
@@ -315,9 +315,6 @@ table {
 
 td,
 th {
-    /* border: 1px solid var(--border); */
-    text-align: left;
-    padding: 0.5rem;
     font-size: min(5vw, 24px);
 }
 
