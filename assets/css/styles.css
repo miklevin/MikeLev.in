@@ -306,7 +306,7 @@ table {
     display: block;
     margin: 1.5rem 0;
     overflow: auto;
-    width: 75%;
+    width: min(894px, 92vw);
 }
 
 td,
