@@ -653,45 +653,46 @@ asyncio.get_event_loop().run_until_complete(hello())
 
 Step 4: Run the Server and Client
 
-	1.	Open two terminal windows.
-	2.	Run the server script in one terminal:
+1. Open two terminal windows.
+2. Run the server script in one terminal:
 
 ```bash
 python server.py
 ```
 
-	3.	Run the client script in the other terminal:
+3. Run the client script in the other terminal:
 
 ```bash
 python client.py
 ```
 
-
 Expected Output
 
 When you run the server and client, you should see:
 
-	•	On the server side:
+- On the server side:
 
+```
 WebSocket server started at ws://localhost:8765
 Received message from client: Hello from the client!
+```
 
+- On the client side:
 
-	•	On the client side:
-
+```
 Server says: Hello, World!
-
-
+```
 
 This is a basic example of WebSocket communication between a server and a
 client. The server sends a “Hello, World!” message, and the client responds back
 with “Hello from the client!”.
 
+---
 
 Me: Interesting! Please give me the hello world for zeromq (zmq) now please.  
 
 
-Here’s a basic “Hello, World!” example using ZeroMQ (zmq) with Python. This example demonstrates a simple request-reply pattern between a server (which responds with “World”) and a client (which sends “Hello”).
+ChatGPT 4o: Here’s a basic “Hello, World!” example using ZeroMQ (zmq) with Python. This example demonstrates a simple request-reply pattern between a server (which responds with “World”) and a client (which sends “Hello”).
 
 Step 1: Install the pyzmq library
 
@@ -754,14 +755,14 @@ print(f"Received reply: {message}")
 
 Step 4: Run the Server and Client
 
-	1.	Open two terminal windows.
-	2.	Run the server script in one terminal:
+1. Open two terminal windows.
+2. Run the server script in one terminal:
 
 ```python
 python server.py
 ```
 
-	3.	Run the client script in the other terminal:
+3. Run the client script in the other terminal:
 
 ```python
 python client.py
@@ -816,32 +817,57 @@ ChatGPT 40: Given the problem context, where a single ASGI-based application
 handles asynchronous, long-running tasks with real-time communication back to
 the browser using HTMX, the solution must account for several key aspects:
 
-	1.	Long-Running Task Management: Since long-running tasks can block the main thread, they should be run asynchronously in the background.
-	2.	Real-Time Communication: HTMX and AJAX requests don’t directly support server-sent events (SSE) or WebSocket-like behavior. However, it is possible to use mechanisms like WebSockets or SSE to send updates back to the frontend.
-	3.	Intra-Process Communication: You want to communicate back to the original calling context (HTMX-triggered endpoint) within the same application instance. Since this isn’t a multi-file setup, you need to manage communication without external servers or files.
+1. Long-Running Task Management: Since long-running tasks can block the main thread, they should be run asynchronously in the background.
+2. Real-Time Communication: HTMX and AJAX requests don’t directly support server-sent events (SSE) or WebSocket-like behavior. However, it is possible to use mechanisms like WebSockets or SSE to send updates back to the frontend.
+3. Intra-Process Communication: You want to communicate back to the original calling context (HTMX-triggered endpoint) within the same application instance. Since this isn’t a multi-file setup, you need to manage communication without external servers or files.
 
 Potential Solutions
 
-	1.	Using Server-Sent Events (SSE):
-	    - How It Works: Server-Sent Events allow you to stream messages from the server to the client over HTTP. It’s easy to implement with Starlette and can be integrated with HTMX using an <iframe> or a hidden <div> that listens for updates.
-	    - Implementation: You can create an SSE endpoint in Starlette that streams events based on the progress of your long-running task. The browser can consume these events and update the UI accordingly.
-	    - Pros: Simple to implement, supported by browsers, and integrates well with HTMX.
-	    - Cons: Unidirectional communication (server-to-client only), and not as powerful as WebSockets.
-	2.	Using WebSockets:
-	    - How It Works: WebSockets provide a full-duplex communication channel between the client and the server. With Starlette, you can create a WebSocket endpoint and push updates from your long-running task back to the client in real time.
-	    - Implementation: Create a WebSocket route in your Starlette app and, upon connection, subscribe to events that your background tasks publish. Use a UUID or session ID to match tasks with WebSocket connections.
-	    - Pros: Full-duplex communication, real-time updates, and robust handling of asynchronous communication.
-	    - Cons: Slightly more complex to implement and manage than SSE, especially for matching HTMX-triggered events with WebSocket connections.
-	3.	Using asyncio.Queue for Message Passing:
-	    - How It Works: Since the long-running tasks are managed asynchronously, you can use asyncio.Queue for internal message passing within the application context. The HTMX-triggered endpoint can subscribe to a queue and stream results back to the client incrementally using SSE.
-	    - Implementation: Create an asyncio.Queue for each request that expects updates. Use the queue to pass messages between your long-running task and the HTMX endpoint, which then streams results back using Response or SSE.
-	    - Pros: Efficient intra-process communication, no external servers needed, easier to manage with async.
-	    - Cons: Managing multiple queues for multiple clients can get complex.
-	4.	Combining Background Tasks with HTMX Polling:
-	    - How It Works: This approach involves running long-running tasks in the background and having the frontend poll a separate endpoint to get the status of the task.
-	    - Implementation: Use the BackgroundTasks feature of Starlette to run tasks in the background, and have an HTMX endpoint that the frontend periodically queries for status updates.
-	    - Pros: Simplifies server-side communication.
-	    - Cons: Involves repeated HTTP calls, which can be less efficient than streaming.
+1. Using Server-Sent Events (SSE):
+  - How It Works: Server-Sent Events allow you to stream messages from the
+    server to the client over HTTP. It’s easy to implement with Starlette and
+    can be integrated with HTMX using an <iframe> or a hidden <div> that listens
+    for updates.
+  - Implementation: You can create an SSE endpoint in Starlette that streams
+    events based on the progress of your long-running task. The browser can
+    consume these events and update the UI accordingly.
+  - Pros: Simple to implement, supported by browsers, and integrates well with
+    HTMX.
+  - Cons: Unidirectional communication (server-to-client only), and not as
+    powerful as WebSockets.
+2. Using WebSockets:
+  - How It Works: WebSockets provide a full-duplex communication channel between
+    the client and the server. With Starlette, you can create a WebSocket
+    endpoint and push updates from your long-running task back to the client in
+    real time.
+  - Implementation: Create a WebSocket route in your Starlette app and, upon
+    connection, subscribe to events that your background tasks publish. Use a
+    UUID or session ID to match tasks with WebSocket connections.
+  - Pros: Full-duplex communication, real-time updates, and robust handling of
+    asynchronous communication.
+  - Cons: Slightly more complex to implement and manage than SSE, especially for
+    matching HTMX-triggered events with WebSocket connections.
+3. Using asyncio.Queue for Message Passing:
+  - How It Works: Since the long-running tasks are managed asynchronously, you
+    can use asyncio.Queue for internal message passing within the application
+    context. The HTMX-triggered endpoint can subscribe to a queue and stream
+    results back to the client incrementally using SSE.
+  - Implementation: Create an asyncio.Queue for each request that expects
+    updates. Use the queue to pass messages between your long-running task and
+    the HTMX endpoint, which then streams results back using Response or SSE.
+  - Pros: Efficient intra-process communication, no external servers needed,
+    easier to manage with async.
+  - Cons: Managing multiple queues for multiple clients can get complex.
+4. Combining Background Tasks with HTMX Polling:
+  - How It Works: This approach involves running long-running tasks in the
+    background and having the frontend poll a separate endpoint to get the
+    status of the task.
+  - Implementation: Use the BackgroundTasks feature of Starlette to run tasks in
+    the background, and have an HTMX endpoint that the frontend periodically
+    queries for status updates.
+  - Pros: Simplifies server-side communication.
+  - Cons: Involves repeated HTTP calls, which can be less efficient than
+    streaming.
 
 Recommended Solution: WebSockets with asyncio.Queue
 
@@ -927,9 +953,9 @@ async def long_running_task(queue):
 
 Explanation of the Code:
 
-	1.	Main Page: A simple HTML page with a button that initiates a WebSocket connection.
-	2.	WebSocket Endpoint: The /ws endpoint starts a long-running task and streams its progress through a shared asyncio.Queue.
-	3.	Long-Running Task: A background task that simulates a time-consuming process and sends updates to the WebSocket.
+1. Main Page: A simple HTML page with a button that initiates a WebSocket connection.
+2. WebSocket Endpoint: The /ws endpoint starts a long-running task and streams its progress through a shared asyncio.Queue.
+3. Long-Running Task: A background task that simulates a time-consuming process and sends updates to the WebSocket.
 
 This solution keeps everything in a single Python file, uses the ASGI
 framework’s async capabilities, and streams messages back to the frontend

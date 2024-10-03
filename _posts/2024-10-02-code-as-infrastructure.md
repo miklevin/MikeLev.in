@@ -1,7 +1,7 @@
 ---
 title: Code as Infrastructure
 permalink: /code-as-infrastructure/
-description: Code as Infrastructure Doesn't Do it Justice
+description: Embracing Infrastructure as Code for Hardware Freedom and Career Growth
 layout: post
 ---
 
