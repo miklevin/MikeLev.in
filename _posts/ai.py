@@ -68,6 +68,18 @@ def wrap_paragraphs(text, width=80):
 
     return '\n'.join(wrapped_lines)
 
+def remove_extra_blank_lines(text):
+    # Split the text into lines
+    lines = text.split('\n')
+    # Remove leading/trailing blank lines
+    lines = [line for line in lines if line.strip() or line.startswith('#')]
+    # Reduce multiple consecutive blank lines to a single blank line
+    result = []
+    for line in lines:
+        if line.strip() or (result and result[-1].strip()):
+            result.append(line)
+    return '\n'.join(result)
+
 if __name__ == "__main__":
     input_text = sys.stdin.read()
     nvim_prompt = (
@@ -87,4 +99,5 @@ if __name__ == "__main__":
     input_text = nvim_prompt + input_text
     response = chat_with_ollama(input_text)
     wrapped_response = wrap_paragraphs(response)
-    print(wrapped_response)
+    final_response = remove_extra_blank_lines(wrapped_response)
+    print(final_response)
