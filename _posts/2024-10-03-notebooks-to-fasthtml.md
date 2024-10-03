@@ -1,7 +1,7 @@
 ---
-title: From Jupyer Notebooks to FastHTML
+title: From Jupyer Notebooks to FastHTML with WebSockets
 permalink: /jupyter-notebooks-fasthtml/
-description: Getting Back into Web Programming with Jupyter Notebooks and FastHTML
+description: Getting Back into Web Programming with Jupyter Notebooks and FastHTML, getting down the basic trick of Streaming Messges from long-running tasks using HTMX and WebSockets.
 layout: post
 ---
 
@@ -975,4 +975,231 @@ graph LR
     A[Darwinix] --> B[Pipulate] --> C[Proprietary]
 </div>
 
+Okay, I moved all the recent pipulate work into a wip (work in progress) folder
+and put the darwinix base nix flake, requirements.txt and ollama_check.py in
+there. Speaking of which, let's check Ollama connectivity...
 
+```bash
+(nix) [mike@nixos:~/repos/pipulate]$ python ollama_check.py 
+Using model llama3.2:latest
+Raring to ruminate.
+(nix) [mike@nixos:~/repos/pipulate]$
+```
+
+Okay, so I will have the thing doing the chatting. Now let's drop that
+recommended solution: WebSockets with asyncio.Queue, into place.
+
+Okay, the code example ChatGPT 4o gave me at first as the `Hello World` of
+WebSockets didn't work, so I worked with Claude 3.5 Sonnet in Cursor AI until we
+worked it out, and this code sample is working. But I had to run it with a
+special `uvicorn` command:
+
+    uvicorn server:app --host 0.0.0.0 --port 8000 --reload
+
+## The working WebSockets Hello World code:
+
+```python
+import asyncio
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from starlette.websockets import WebSocketState
+from fastapi.responses import HTMLResponse  # Add this import
+
+app = FastAPI()
+
+# Global dictionary to hold queues for communication between tasks and WebSocket connections
+task_queues = {}
+
+@app.get("/", response_class=HTMLResponse)  # Specify the response class
+async def get():
+    return """
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>WebSocket with FastAPI</title>
+            <script type="text/javascript">
+                function startTask() {
+                    let ws = new WebSocket("ws://localhost:8000/ws");
+                    ws.onmessage = function(event) {
+                        document.getElementById("log").innerHTML += "<br>" + event.data;
+                    };
+                    ws.onclose = function() {
+                        document.getElementById("log").innerHTML += "<br>Task complete.";
+                    };
+                }
+            </script>
+        </head>
+        <body>
+            <h1>FastAPI WebSocket Example</h1>
+            <button onclick="startTask()">Start Long Task</button>
+            <div id="log"></div>
+        </body>
+    </html>
+    """
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    queue = asyncio.Queue()
+    task_id = id(websocket)
+    task_queues[task_id] = queue
+
+    # Start keep-alive task
+    asyncio.create_task(keep_alive(websocket))
+
+    try:
+        # Start long-running task in the background
+        asyncio.create_task(long_running_task(queue))
+
+        # Stream messages from the queue to the WebSocket
+        while True:
+            message = await queue.get()
+            if websocket.application_state == WebSocketState.CONNECTED:
+                await websocket.send_text(message)
+            else:
+                break
+    except WebSocketDisconnect:
+        pass
+    finally:
+        del task_queues[task_id]
+
+async def long_running_task(queue):
+    for i in range(5):
+        await asyncio.sleep(1)  # Simulating a long task
+        await queue.put(f"Step {i + 1} completed")
+    await queue.put("Task complete")
+
+# Add a keep-alive mechanism to ensure the connection remains open
+async def keep_alive(websocket: WebSocket):
+    while True:
+        await asyncio.sleep(10)  # Send a ping every 10 seconds
+        if websocket.application_state == WebSocketState.CONNECTED:
+            await websocket.send_text("ping")  # Optional: send a ping message
+```
+
+...with output that looks like:
+
+    FastAPI WebSocket Example
+
+    [Start Long Task] <--button
+
+    Step 1 completed
+    Step 2 completed
+    Step 3 completed
+    Step 4 completed
+    Step 5 completed
+    Task complete
+    ping
+    Step 1 completed
+    Step 2 completed
+    Step 3 completed
+    Step 4 completed
+    Step 5 completed
+    Task complete
+    ping
+    ping
+    ping
+    ping
+    ping
+    ping
+
+Wow, so I've got Websocket communication. Let's commit that to pipulate and
+systematically work up from here.
+
+Okay, with the pre-FastHTML WebSockets test a success, we can move onto
+finagling the equivalent behavior out of [the FastHTML WebSockets API
+implementation](https://docs.fastht.ml/explains/websockets.html) 
+
+Success! A different command starts it:
+
+```bash
+python server.py
+```
+
+...and here's the code:
+
+```
+from fasthtml.common import *
+
+app = FastHTML(ws_hdr=True)  # Enable WebSocket header
+rt = app.route
+
+# Home route
+@rt('/')
+def home():
+    cts = Div(
+        Div(id='notifications'),  # Div to display notifications
+        Form(Input(id='msg'), id='form', ws_send=True),  # Form to send messages
+        hx_ext='ws',  # Enable HTMX WebSocket extension
+        ws_connect='/ws'  # Connect to the WebSocket endpoint
+    )
+    return Titled('WebSocket Test', cts)
+
+# WebSocket connection management
+users = {}
+
+def on_conn(ws, send):
+    users[str(id(ws))] = send  # Store the send function for the connected user
+
+def on_disconn(ws):
+    users.pop(str(id(ws)), None)  # Remove the user on disconnect
+
+# WebSocket route
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str, send):
+    await send(Div('Hello ' + msg, id='notifications'))  # Send a greeting message
+    # Optionally, you can broadcast the message to all connected users
+    for u in users.values():
+        await u(Div('User said: ' + msg, id='notifications'))
+
+# Start the server
+serve()
+```
+
+Ugh! It's taken me lots of little tries, but I finally have something close to
+the barebones minimum template for long-running tasks using WebSockets under
+FastHTML. I can strip out FastAPI, ZeroMQ (zmq) and all the other approaches I
+was looking at to pull this off. This looks like the smallest, simplest amount
+of code yet I've seen to do this sort of thing...
+
+```python
+from fasthtml.common import *
+import asyncio
+
+app = FastHTML(ws_hdr=True)
+rt = app.route
+
+msgs = []
+@rt('/')
+def home(): return Div(
+    Div("foo", id='msg-list'),
+    Form(Input(id='msg', name='msg', placeholder='Type a message...'),  # Input for new messages
+         Button("Send", type='submit', ws_send=True)),  # Button to send message
+    hx_ext='ws',  # Enable HTMX WebSocket extension
+    ws_connect='/ws'  # Connect to the WebSocket endpoint
+)
+
+users = {}
+def on_conn(ws, send): users[str(id(ws))] = send
+def on_disconn(ws): users.pop(str(id(ws)), None)
+
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    if msg:  # Check if the message is not empty
+        msgs.append(msg)  # Append the message to the list
+        # Simulate a long-running task
+        await long_running_task(msg)  # Call the long-running task
+
+async def long_running_task(msg: str):
+    # Simulate a long-running task
+    for i in range(5):
+        await asyncio.sleep(1)  # Simulate processing time
+        # Send progress updates to all users
+        for u in users.values():
+            await u(Div(f"Processing '{msg}'... Step {i + 1}/5", id='msg-list'))
+
+    # Final update after the task is complete
+    for u in users.values():
+        await u(Div(f"Task complete for message: '{msg}'", id='msg-list'))
+
+serve()
+```
