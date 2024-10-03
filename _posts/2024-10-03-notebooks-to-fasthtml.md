@@ -773,14 +773,14 @@ Expected Output
 
 When you run the server and client, you should see:
 
-	•	On the server side:
+- On the server side:
 
 ```
 ZeroMQ server started at tcp://localhost:5555
 Received request: Hello
 ```
 
-	•	On the client side:
+- On the client side:
 
 ```
 Sending request: Hello
@@ -790,12 +790,12 @@ Received reply: World
 
 Explanation
 
-	•	Server:
-	•	Uses a REP (reply) socket to listen for incoming requests from clients.
-	•	When a client sends a message (e.g., “Hello”), the server receives it and replies with “World”.
-	•	Client:
-	•	Uses a REQ (request) socket to send a “Hello” message to the server.
-	•	Waits for the server’s response and prints it (e.g., “World”).
+- Server:
+- Uses a REP (reply) socket to listen for incoming requests from clients.
+- When a client sends a message (e.g., “Hello”), the server receives it and replies with “World”.
+- Client:
+- Uses a REQ (request) socket to send a “Hello” message to the server.
+- Waits for the server’s response and prints it (e.g., “World”).
 
 This example shows the simplest way to create a request-reply pattern using
 ZeroMQ in Python. It demonstrates the basic workflow of sending and receiving
@@ -877,10 +877,10 @@ a robust solution.
 
 Implementation Approach:
 
-	1.	Create WebSocket Connection: Use Starlette’s WebSocket support to establish a WebSocket connection when the HTMX request is made.
-	2.	Task Management with asyncio.Queue: When a long-running task starts, create an asyncio.Queue to hold status updates. The task can push updates to this queue.
-	3.	Streaming Updates: The WebSocket endpoint can read from the queue and send updates to the frontend. The frontend can then dynamically update the page based on the WebSocket messages.
-	4.	Clean-up: Once the task is complete, close the WebSocket connection and clean up the queue.
+1. Create WebSocket Connection: Use Starlette’s WebSocket support to establish a WebSocket connection when the HTMX request is made.
+2. Task Management with asyncio.Queue: When a long-running task starts, create an asyncio.Queue to hold status updates. The task can push updates to this queue.
+3. Streaming Updates: The WebSocket endpoint can read from the queue and send updates to the frontend. The frontend can then dynamically update the page based on the WebSocket messages.
+4. Clean-up: Once the task is complete, close the WebSocket connection and clean up the queue.
 
 Code Example: WebSocket with asyncio.Queue
 
@@ -974,3 +974,5 @@ AI. And of course when I do proprietary stuff, it will be built on that.
 graph LR
     A[Darwinix] --> B[Pipulate] --> C[Proprietary]
 </div>
+
+
