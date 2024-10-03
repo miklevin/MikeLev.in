@@ -481,7 +481,7 @@ and when you switch from one to the other you have to redesign everything,
 Python strives to continuously reuse timeless underlying APIs and you can switch
 from Flask to FastHTML seamlessly. 
 
-# Python Takes Stable Winning APIs as Serious Conventions
+## Python Takes Stable Winning APIs as Serious Conventions
 
 You see the same thing in the Pandas data science package which set the tone of
 the API, but things that need to deal with larger datasets or multi-dimensional
@@ -498,7 +498,7 @@ people just pick up as a matter of course over time, to FastHTML is a
 no-brainer. This was critical in winning me back to having an open mind about
 webdev again.
 
-## My Future Enthusiasm for Tech Requires Careful Planning
+## Surviving the AI-Disrupt: A Tech Enthusiast's New Focus
 
 But these next few chisel-strikes to make it a reality have to be very careful
 and measured. Otherwise, things go out of control and I lose the love for it.
@@ -512,17 +512,21 @@ minimal tech stack platform really means to me, adding Jupyter Notebooks as an
 extension of Python as an honorary member of the short stack. And in a similar
 sense, I'm adding Nix and NixOS as an honorary extension of Linux.
 
+## Adding FastHTML Stack to Multi-OS Notebook for Clean Development
+
 Now, with this multi-OS Notebook-friendly Nix Flake in-hand, it's time to add
 short stack web development capabilities, FastHTML in particular. I've frankly
 already done this on vastly more complex versions of this nix flake documented
 earlier in this blog. Only now, I'm going to do it cleanly and cautiously so I
-don't lose control due to AI meandering.
+don't lose control due to AI meandering. So I've already attended to all the
+data science stuff. Technically, I could do a few more things to ensure the cuda
+components I took the time to make sure were active actually get used by the
+pandas stuff that could benefit from it, but that requires a few conditional pip
+installs and could be a rabbit hole. 
 
-So I've already attended to all the data science stuff. Technically, I could do
-a few more things to ensure the cuda components I took the time to make sure
-were active actually get used by the pandas stuff that could benefit from it,
-but that requires a few conditional pip installs and could be a rabbit hole. I
-have to finish fleshing out the main component pieces. I already decided I'm
+## To Stream or Not to Stream is Not The Question
+
+I have to finish fleshing out the main component pieces. I already decided I'm
 using FastHTML for all the reasons discussed earlier in this blog, but when I
 implemented my first web app in it, I was going fast and furious and ended up
 using something called ZeroMQ, for zero-wait message queue, or just zmq for
@@ -533,6 +537,8 @@ ways of doing this stuff have popped up. Starlette, the Flask-like thing that
 FastHTML sits on, supports all this async stuff, being the modernized ASGI
 version. 
 
+## Conquering Continuous Message-Streaming for Efficient In-App Performance
+
 So anyway, my first order of business is just a little bit more than the
 FastHTML "Hello World" app which I've already done. What I need to conquer next
 is continuous message-streaming in-app. It's a bit odd, but a large part of what
@@ -542,6 +548,8 @@ see what's going on if you can look in just one file? It's an anti-pattern for
 sure, but a ton of stuff I'm doing here is. I'm feeling emboldened by AI and
 DHH. While none of this is Ruby on Rails, it does invoke it's spirit a bit. The
 whole no-build mindset, for example.
+
+## Starlette Handles Routing and WebSocket Integration in FastHTML
 
 Okay, so long-running requests. FastHTML is built on Starlette. Starlette is to
 FastHTML what Werkzeug is to Flask. It handles what the industry has come to
@@ -555,8 +563,9 @@ There used to be other ways, but WebSockets has sort of formalized into the
 right way, although it has a bit more complexity than I'd like. So pardon me
 while I dive into an AI dialogue while I sort it out.
 
-Me: What's more popular these days, zmq or websockets?
+---
 
+Me: What's more popular these days, zmq or websockets?
 
 ChatGPT 4o: WebSockets are generally more popular and widely used these days
 compared to ZeroMQ, especially for web applications that require real-time
@@ -577,6 +586,7 @@ typical web development projects, whereas ZeroMQ is more specialized and used in
 niche areas like financial services, high-frequency trading, or IoT systems that
 require custom transport protocols.
 
+---
 
 Me: Can you give me the most basic hello world example of websockets?
 
@@ -790,6 +800,7 @@ This example shows the simplest way to create a request-reply pattern using
 ZeroMQ in Python. It demonstrates the basic workflow of sending and receiving
 messages using the zmq library.
 
+---
 
 Me: Okay so I'm writing a single page application in fasthtml which is basically
 starlette with HTMX. There will be htmx endpoints which start long-running tasks
@@ -801,9 +812,9 @@ necessary to send streaming messages back from Ajax calls. Does that make sense?
 Analyze the problem and break down the best potential solutions. 
 
 
-Given the problem context, where a single ASGI-based application handles
-asynchronous, long-running tasks with real-time communication back to the
-browser using HTMX, the solution must account for several key aspects:
+ChatGPT 40: Given the problem context, where a single ASGI-based application
+handles asynchronous, long-running tasks with real-time communication back to
+the browser using HTMX, the solution must account for several key aspects:
 
 	1.	Long-Running Task Management: Since long-running tasks can block the main thread, they should be run asynchronously in the background.
 	2.	Real-Time Communication: HTMX and AJAX requests don’t directly support server-sent events (SSE) or WebSocket-like behavior. However, it is possible to use mechanisms like WebSockets or SSE to send updates back to the frontend.
@@ -920,4 +931,20 @@ Explanation of the Code:
 	2.	WebSocket Endpoint: The /ws endpoint starts a long-running task and streams its progress through a shared asyncio.Queue.
 	3.	Long-Running Task: A background task that simulates a time-consuming process and sends updates to the WebSocket.
 
-This solution keeps everything in a single Python file, uses the ASGI framework’s async capabilities, and streams messages back to the frontend efficiently.
+This solution keeps everything in a single Python file, uses the ASGI
+framework’s async capabilities, and streams messages back to the frontend
+efficiently.
+
+---
+
+Alright, so there's my next step. However, the `Darwinix` Nix Flake for multi-OS
+support is such a clean pristine example, I'm not going to risk ruining it by
+incorporating feature creep. No, instead this is where we move the work over to
+Pipulate, since this becomes the infrastructure foundation for the next revision
+of my free and open source SEO software package, just in time for the rise of
+AI. And of course when I do proprietary stuff, it will be built on that.
+
+<div class="mermaid">
+graph LR
+    A[Darwinix] --> B[Pipulate] --> C[Proprietary]
+</div>
