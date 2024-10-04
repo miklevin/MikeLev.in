@@ -776,7 +776,7 @@ serve()
 Okay, now the finishing touch of blanking the input field when the Add button is
 pressed, but more important than that, the pattern for doing more than one thing
 in response to a single HTMX call. We're going to do this in a couple of steps.
-I know it's gratuitious, but for the sake of really understanding it, I'm first
+I know it's gratuitous, but for the sake of really understanding it, I'm first
 breaking out a little piece of the form construction into an external function:
 
 ```python
@@ -830,6 +830,8 @@ def get(tid:int):
 serve()
 ```
 
+## HTMX Swap OOB Calling Method to Update Multiple Targets
+
 Okay, and now we implement and HTMX calling method called `hx-swap-oob`. Out of
 bounds, that is. Imagine a game of catch. Somebody throws a ball. The catcher
 throws 2 balls back. Only the first ball goes to the original thrower. The
@@ -845,14 +847,18 @@ being thrown back are chunks of HTML, in this case having 2 fragments:
 <input placeholder="Add a new item" hx-swap-oob="true" id="title" name="title">
 ```
 
+## We Complete Simple CRUD Application with FastHTML
+
 The first ne works like normal, adding the new line item to the end of the
 unordered list, which I'm assuming is part of what `todos.insert(todo)` does.
 There's a few parts of FastHTML that are still opaque to me. But the second
 fragment, which is the way the input field gets blanked, by being replaced by
-this one, targets the elment by that ID and swaps it out. I belive that could
-habe been done without breaking it out into a new function just by
-parameter-loading. I think Jeremy broke it out to keep it from getting too
-jumbled.
+this one, targets the element by that ID and swaps it out. Presumably, you could
+chain them up to update things all over a dashboard, for example.
+
+I believe that could have been done without breaking it out into a new function
+just by parameter-loading. I think Jeremy broke it out to keep it from getting
+too jumbled.
 
 Anyway, this is now a simple but complete CRUD application. Jeremy followes
 through by showing how to deploy it and in the process encounters a web host's
