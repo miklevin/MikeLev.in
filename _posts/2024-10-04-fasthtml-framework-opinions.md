@@ -189,6 +189,8 @@ Citations:
 
 ---
 
+## The Evolution Of HTTP Libraries In Python
+
 I do believe the key takeaway there was the evidence being enough that a
 researching AI chose to characterize the HTTP libraries before Requests as
 verbose and cumbersome. Oh, what to import to do what? OMG, I thought Python was
@@ -199,6 +201,8 @@ they were bad enough to make Guido Van Rossum, the creator and benevolent
 dictator for life, of Python step down. The time has come the walrus said to not
 talk of his operator, or else this article will go down one enormous rabbit
 hole. Okay, deep breath... so...
+
+## The Importance of Concurrency in Modern Programming Languages
 
 So, the foundation programming language matters, and in our case this is Python
 with its sufferable warts. Warts intrude because standards evolve and the
@@ -214,6 +218,8 @@ hardware while you did it. I mean, the stuff that actually exists goes way
 beyond what has become popular and mainstream. But now that it has, we've got
 languages built with concurrency in mind from the ground-up, like Erlang or
 Google's Go Lang. 
+
+## Python's Adoption of Async and Await Keywords Was Late in The Game
 
 Python got its async and await keywords late in the game, and it's sometimes
 difficult to think concurrently with Python; just as it is difficult (for me) to
@@ -299,6 +305,8 @@ Citations:
 
 ---
 
+## Replacing Flask API with Starlette for Concurrent Development
+
 Yeah, okay. So replacing the API of Flask to me is like replacing the Request or
 Pandas API. Mikey no likey. But these are the changes we make to stay relevant.
 The concurrent world isn't going away, and those long-running tasks in the
@@ -306,6 +314,8 @@ background that need to chat back to the browser that initiated them, is exactly
 what I need to do. So, Starlette instead of Flask. And uvicorn is down there
 somewhere, but we need not think about it. APIs are simplified, and we can get
 to work.
+
+## Using HTML Element Names as Python Function Names
 
 But wait. There's more! We want to keep things Pythonic. We want to dodge having
 to use HTML tags all through our Python code. We also want to avoid that whole
@@ -319,6 +329,8 @@ Table of Contents view that let you jump around cells. But the idea never left
 me that Python function names should just literally map 1-to-1 to their HTML
 equivalents. H1() is an `<h1>`, and so on.
 
+## FastHTML Simplifies Flask Development Through Templating Elimination
+
 And that's FastHTML! The template system is eliminated. Everything blends
 together and comes into focus as single-Python-file Flask-like routes where the
 templating layer is dehydrated down to its tightest Python skin. With such a
@@ -327,6 +339,8 @@ cleverly hidden), we can use the extra slice of cognitive capacity that gets
 freed-up by not having to deal with such extraneous information to tackle the
 problems of concurrency, long-running tasks, and most surprising to me lately,
 what appears to be a per-user database for generic persistence work.
+
+## Exploring Simpler WebSockets Implementation with FastHTML Decorator
 
 Pshwew! This concept right here is what drove me to start this article. On my
 first pass with FastHTML, I did an end-run of both FastHTML's built-in
@@ -338,6 +352,8 @@ refactoring of what's already a small miracle that it's working. But if I just
 do the work now, everything forever forward will be that much simpler too,
 making it worth it. A rabbit hole worth going down, because the end is clearly
 defined, not that far off, and worth it.
+
+## FastHTML Framework Supports WebSockets with Key Features Exposed
 
 This is a quick building up from scratch of everything past the multi-platform
 Nix flake that was the end-state of my GitHub `Darwinux` repo. And the beginning
@@ -353,6 +369,8 @@ enumerate, as the geeks would say.
 - The first position is an optional database, so a db is assumed!
 - The last position is is `**kwargs` for arbitrary app attribute loading!
 
+## Jeremy Howard Has the Art of 80/20-rule API Design
+
 Uh, there's some opinions here. This is a much more loaded framework than the
 sparse code you actually have to look at would make it appear. This framework I
 get the feeling is like Jeremy Howard himself. This is quite soft-spoken, but if
@@ -363,6 +381,8 @@ chose default behavior, there's another well-chosen way to do it. It won't
 satisfy all of the people all of the time, but there is a lot of attention paid
 to the 80/20-rule use cases. That is, satisfying 80% of the likely to encounter
 problems with only 20% of the complexity that you could weigh it down with.
+
+## Understanding Database Creation in Fast App Framework
 
 And so, there will be a certain amount of yielding to the opinions of the
 framework, as there always is. For insight as to what those opinions are, look
@@ -376,6 +396,8 @@ database is just something you do. Now whether this is per-user, single database
 per user, one database across all users with the user data isolation unaddressed
 at the simplest example, I'm not sure yet and have to discover.
 
+## Asynchronous Communication in Single-Page Applications Explained
+
 One thing I can see, is that it's the answer to the persistence, and even to
 some degree, communication between components. Even though the entire server app
 is going to live in one `server.py` file, they don't always share information
@@ -387,6 +409,8 @@ communication occurred with what we would have once called AJAX calls. And it's
 the same file serving it all! And thus, a database can be useful for sharing
 data between those parts.
 
+## FastHTML Replaces sqlitedict for Persistent Data Storage
+
 Anyway, I used to use `sqlitedict` for generic database work like this in the
 past. Both sqlitedict and fasthtml use `SQLite` (sqlite3), but with fasthtml,
 it's a default that can be changed. There's also differences in the API. The big
@@ -397,6 +421,8 @@ this persistent data-store so front-and-center to the framework (the least
 hidden of many hidden things) is bound to replace that off-the-beaten-track
 sqlitedict PyPI package I use.
 
+## Will FastHTML Automatically Sort Out Multi-User Database Issues?
+
 I'm wondering if the database is going to automatically sort out the per-user
 issues of persistent database stores on the web. Otherwise, the app is
 single-tenant (single-user) until you take steps to make it multi-tenant. In
@@ -404,6 +430,8 @@ other words, I wonder wither the basic todo app Jeremy shows us how to write a
 separate todo list for everyone, or one todo list for all. If it's separate per
 user, it would likely only be temporary lasting as long as a session, however
 FastHTML handles sessions (so much to discover).
+
+## Minimal Todo App Creates Duplicate Items on Reload
 
 But an even less-than barebones version of the todo app looks like this. It
 inserts a new todo item, identically named, for each page reload. Not idea, but
@@ -429,6 +457,8 @@ serve()
 ```
 
 ---
+
+## Understanding CRUD Operations in Software Applications
 
 CRUD? Hey, Perplexity...
 
@@ -466,6 +496,8 @@ Citations:
     [8] https://budibase.com/blog/crud-app/
 
 ---
+
+## Understanding FastAPI's NamedTuple Renderer Example
 
 Okay, wow. So creating records and reading them is that simple? Well, almost. To
 my eyes, the output of that program:
@@ -561,6 +593,8 @@ Todos
 - ToggleTodo per page-load
 ```
 
+## Understanding HTMX Core Attributes for Client-Side Scripting.
+
 Okay, it's important at this point that I start to understand the HTMX core
 attributes:
 
@@ -584,6 +618,8 @@ Attribute Reference, there is also:
 In Python, these attributes always appear with underscores because they get used
 as parameters to functions, and parameters don't support hyphens. 
 
+## FastHTML Routing Invocation Methods Naming Conventions
+
 Okay, so the next step in our CRUDdy journey is the D. This step bends my mind a
 bit, because even though we could fix on one conventional way of doing the "what
 happens when you click" routing, Jeremy introduces a new approach. Which
@@ -592,6 +628,8 @@ approaches actually are below. The `Toggle` action take us through a `/toggle/`
 endpoint and enters us into a `get()` function. You can see that a function
 named **get** is repeated 2 times. Now in normal Python, that's a no-no. But
 apparently this router decoration technique makes it somehow work.
+
+## HTMX Method Implications for Toggle and Delete Actions Defined
 
 The thing to notice is that the HTMX method implied in the calling function
 parameter seems like it has to match the name of the function. So if it's an
@@ -645,6 +683,8 @@ def get(tid:int):
 serve()
 ```
 
+## Understanding HTMX's Element Deletion Behavior with Conventions
+
 There's other subtleties here to notice that Jeremy just skims over in the
 video, but I guess it's meant to be stopped and studied like I'm doing. Okay, so
 when the `delete` route is taken, there's no `return` value specified. That
@@ -657,9 +697,81 @@ the `<li>` itself, an HTMX attribute `hx_swap='outerHTML'` needs to be added to
 the very calling element. It's a "please destroy me up to the top" sort of
 directive.
 
+## HTMX Delivers Clean and Efficient Pythonic Web Programming Experience
+
 HTMX takes awhile to wrap your head around. But then HTMX under a brand new
 framework that maneuvers one new API into another is... well, mind-bending as I
 pointed out. If the payoff wasn't worth it, I totally wouldn't be doing this.
 But the payoff is nothing less than clean Pythonic web programming that in some
 ways exceeds the capabilities of the giant JavaScript frameworks, while being
 easier. Yeah, that's the way to look at it. The alternative is React.
+
+
+## Understanding CRUD Operations with POST Method Introduction
+
+Okay, so this next step brings it up to full CRUD by putting an `insert` back
+into the picture. There's lots of subtlety here because it's our first
+introduction of the `POST` method which is traditionally used for forms on the
+web. The main page-load here now has a `Form()` with a `Group()` with an
+`Input()` with a placeholder argument.
+
+## How Forms Work with Pedantically Typed Objects
+
+Next to the `Input()` field, there's an add button `Button('Add')` which does
+the form submit. Because it's using the post method, even though it targets the
+root route '/', it reaches a different function. There's a lot to wrap your mind
+around in terms of how pedantically type-defined objects are passed in functions
+here. There's a `todo` object of `Todo` data-type fed to a function that
+immediately returns by calling the `.insert()` method of the `todos` object with
+the value of the posted `todo` item.
+
+Kapeesh? I'm surprised, because I hardly do. But this is very little code,
+decipherable syntax, and within the realm of Pythonic... just barely. So, it's
+better than most of the alternatives.
+
+```python
+from fasthtml.common import *
+
+def render(todo):
+    tid = f'todo-{todo.id}'
+    toggle = A('Toggle', hx_get=f'/toggle/{todo.id}', target_id=tid)
+    delete = A('Delete', hx_delete=f'/{todo.id}', 
+               hx_swap='outerHTML', target_id=tid)
+    return Li(toggle, ' | ', delete, ' ',
+              todo.title + (' (Done)' if todo.done else ''),
+              id=tid)
+
+app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+@rt('/')
+def get():
+    # todos.insert(Todo(title='Todo per page-load', done=False))
+    frm = Form(Group(Input(placeholder='Add a new item', name='title'),
+               Button('Add')),
+               hx_post='/', target_id='todo-list', hx_swap="beforeend")
+    return Titled('Todos', 
+                  Card(
+                  Ul(*todos(), id='todo-list'),
+                  header=frm)
+                )
+
+
+@rt('/')
+def post(todo:Todo): return todos.insert(todo)
+
+
+@rt('/{tid}')
+def delete(tid:int): todos.delete(tid)
+    
+
+@rt('/toggle/{tid}')
+def get(tid:int):
+    todo = todos[tid]
+    todo.done = not todo.done
+    return todos.update(todo)
+
+serve()
+```
+
+
