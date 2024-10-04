@@ -18,6 +18,8 @@ okay to close without stopping the service. That belongs in the foundation
 system, but the actual things running as the services, that we write with a
 programming framework.
 
+## The Problem with Using Frameworks on Top of Programming Languages
+
 Having to use frameworks on top of programming languages is actually a position
 of weakness. It means your programming language didn't come out-of-the-box ready
 to do whatever you needed it to do, so maybe your time should be spent picking a
@@ -32,6 +34,8 @@ have to do. It's a very opinionated thing to do, and that's what frameworks are.
 If you're going to make something easier, you have to have an opinion how to do
 it.
 
+## The Importance of Framework Opinions in Software Development
+
 And strong framework opinions are not things everybody agrees with. If you
 disagree with the opinion, you're not going to like the framework. This is why
 passions run so deep surrounding things like React. You have to accept a way of
@@ -44,6 +48,8 @@ MVC (model, view, controller) separation, and when the JavaScript frameworks
 matured from their wild west pre-JavaScript ES6 days, they embraced this
 approach with a fury.
 
+## Framworks are Cookie-Cutters with Signatures
+
 Ugh! Non-JavaScript frameworks that have been around forever, like Python's
 Django on which Instagram was built, continued to work just fine. But even
 Django was so laden with framework opinions and excessively burdensome
@@ -55,6 +61,8 @@ to them. You can usually tell a Django site just by looking at it. It's your
 typical corporate intranet, which only makes sense because at the time it came
 out, it was replacing a lot of VisualBasic type of consulting work.
 
+## Python Decorators Take Over Pythonic Web Frameworks
+
 Anyhow, fast-forward some 2 decades, and the most love-worthy thing in tech that
 I've found is a language which it itself is most of the framework. And it's
 love-worthy, because most of its opinions are ones I agree with, or at least can
@@ -64,6 +72,8 @@ it, to get a web development system for example. Many people love the Flask
 microframework for web development when it came out, because it was mostly just
 Python. It didn't do much but route web requests into Python functions with
 clever syntactical sugar called a decorator. 
+
+## Flask Added PHP-like HTML Templates in Python
 
 Decorators are those @something directives you sometimes see ***above***
 function definitions in Python. It is literally calling an outer-function
@@ -77,6 +87,8 @@ HTML/Python "mode-switching" friction. While it had the benefit of being Python,
 it wasn't tremendously better than just using PHP. If you want to be looking at
 HTML most of the time and just sprinkle programming into it, then use PHP.
 
+## FastHTML Builds upon Flask with Similar Structure and Approach
+
 FastHTML picks up where Flask left off, inserting a few more rather strong
 opinions. And that is the onus for today's blog post. At quick glance, it's a
 lot like Flask with those @decorator routers. Okay, good. It does that Pythonic
@@ -87,6 +99,8 @@ former king-of-the-hill, you know the new-kid-on-the-block. Good. That's a huge
 accelerator in picking up a new framework in Python, way better than say
 switching from AngularJS to ReactJS to Svelte. Ugh! Okay, Flask to FastHTML, no
 problem... but wait!
+
+## FastHTML is Designed For Chat-like Features & Long-running Tasks
 
 Now that you've got a Web framework, there are some very traditional problems
 you need to address, like persistence (database, sessions, etc.), styling, and
@@ -101,14 +115,18 @@ documentation and re-watched Jeremy Howard's introductory videos, and I'm
 floored by just how secretly opinionated FastHTML is, and how I can use that to
 simplify my code.
 
+## Jeremy Howard's Understating Signature
+
 I am frankly staggered by the opinions that FastHTML is stating but slyly
 understating, in Jeremy Howard's signature way. If you don't know this guy, go
 check out his YouTube and Fast.AI tutorials. He was the big thing in AI before
 ChatGPT hit. It was more about machine learning and image recognition than it
 was about chatbots back then, and Jeremy used his penchant for simplifying APIs
-in that uniquely Pythonic way that Requests did to the HTTP library to do to the
-PyTorch library. Some might call it the Pytorcher library. Hmmm. What's that
-history on the Python HTTP libraries?
+in that uniquely Pythonic way to do with FastAI to the PyTorch(er) library what
+whatRequests did to Python's HTTP libraries 
+
+Python has a long, sordid history with its http libraries. What's that history?
+This looks like a job for Perplexity!
 
 ---
 
@@ -448,5 +466,100 @@ Citations:
     [8] https://budibase.com/blog/crud-app/
 
 ---
+
+Okay, wow. So creating records and reading them is that simple? Well, almost. To
+my eyes, the output of that program:
+
+```
+Todos
+
+    Items(id=1, title='Todo per page-load', done=0)
+    Items(id=2, title='Todo per page-load', done=0)
+    Items(id=3, title='Todo per page-load', done=0)
+    Items(id=4, title='Todo per page-load', done=0)
+    Items(id=5, title='Todo per page-load', done=0)
+```
+
+...looks like namedtuples. Interesting! There's a built-in renderer. It's
+bending my mind to get this, but it's a great example where you just have to
+know. You have to follow the tutorials, see it done, and learn by example. I
+can't just learn this from documentation. There's an optional parameter on the
+`fast_api()` object called `render`, and if set it equal to a function name that
+knows how to render the type of `namedtuple` you pass it, then you can simplify
+displaying it elsewhere. Here's a slight re-work of the todo app tutorial per
+Jeremy's video:
+
+```python
+from fasthtml.common import *
+
+def render(todo):
+    return Li(todo.title)
+
+app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+@rt("/")
+def get():
+
+    todos.insert(Todo(title='Todo per page-load', done=False))
+
+    return Titled('Todos', 
+                  Ul(*todos()),
+                )
+
+serve()
+```
+
+Okay, so following the tutorial's next step, I took out the automatic insert on
+every page reload, and put in a toggle of the `done` field. That's an `update`,
+so our CR application has become a RU app.
+
+```python
+from fasthtml.common import *
+
+def render(todo):
+    tid = f'todo-{todo.id}'
+    toggle = A('Toggle', hx_get=f'/toggle/{todo.id}', target_id=tid)
+    return Li(toggle, 
+              todo.title + (' (Done)' if todo.done else ''),
+              id=tid)
+
+app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+@rt("/")
+def get():
+    # todos.insert(Todo(title='Todo per page-load', done=False))
+    return Titled('Todos', 
+                  Ul(*todos()),
+                )
+
+@rt('/toggle/{tid}')
+def get(tid:int):
+    todo = todos[tid]
+    todo.done = not todo.done
+    todos.update(todo)
+    return todo
+
+serve()
+```
+
+And the output now looks like:
+
+```
+Todos
+
+- ToggleTodo per page-load
+- ToggleTodo per page-load
+- ToggleTodo per page-load (Done)
+- ToggleTodo per page-load
+- ToggleTodo per page-load
+- ToggleTodo per page-load (Done)
+- ToggleTodo per page-load (Done)
+- ToggleTodo per page-load (Done)
+- ToggleTodo per page-load
+- ToggleTodo per page-load
+- ToggleTodo per page-load
+```
 
 
