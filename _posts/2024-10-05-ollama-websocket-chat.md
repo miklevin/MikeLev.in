@@ -1,6 +1,6 @@
 ---
-title: HTMX hx-oob WebSocket Communcation
-permalink: /hx-oob-websocket/
+title: Ollama Websocket Chat
+permalink: /ollama-websocket-chat/
 description: 
 layout: post
 ---
