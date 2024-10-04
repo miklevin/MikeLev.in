@@ -538,8 +538,7 @@ def get():
 def get(tid:int):
     todo = todos[tid]
     todo.done = not todo.done
-    todos.update(todo)
-    return todo
+    return todos.update(todo)
 
 serve()
 ```
@@ -562,4 +561,105 @@ Todos
 - ToggleTodo per page-load
 ```
 
+Okay, it's important at this point that I start to understand the HTMX core
+attributes:
 
+- hx-get: issues a GET to the specified URL
+- hx-post: issues a POST to the specified URL
+- hx-on*: handle events with inline scripts on elements
+- hx-push-url: push a URL into the browser location bar to create history
+- hx-select: select content to swap in from a response
+- hx-select-oob: select content to swap in from a response, somewhere other than the target (out of band)
+- hx-swap: controls how content will swap in (outerHTML, beforeend, afterend, …)
+- hx-swap-oob: mark element to swap in from a response (out of band)
+- hx-target: specifies the target element to be swapped
+- hx-trigger: specifies the event that triggers the request
+- hx-vals: add values to submit with the request (JSON format)
+
+And even though they don't list it in core attributes, in the list of Additional
+Attribute Reference, there is also:
+
+- hx-delete: issues a DELETE to the specified URL
+
+In Python, these attributes always appear with underscores because they get used
+as parameters to functions, and parameters don't support hyphens. 
+
+Okay, so the next step in our CRUDdy journey is the D. This step bends my mind a
+bit, because even though we could fix on one conventional way of doing the "what
+happens when you click" routing, Jeremy introduces a new approach. Which
+approach you use he says is arbitrary. But let's take a look at what the two
+approaches actually are below. The `Toggle` action take us through a `/toggle/`
+endpoint and enters us into a `get()` function. You can see that a function
+named **get** is repeated 2 times. Now in normal Python, that's a no-no. But
+apparently this router decoration technique makes it somehow work.
+
+The thing to notice is that the HTMX method implied in the calling function
+parameter seems like it has to match the name of the function. So if it's an
+`hx_get=`, then it's got to be a `get()` function it connects to. Now in the
+case of a `Toggle` action, there's really no HTMX attribute that clearly maps to
+a toggle, so we might as well use `get`. However, when it comes to `delete`,
+while not part of the core HTMX attributes, delete does exist in the additional
+ones, so it's semantically correct to recycle a call to the root page `/`,
+simply with the `DELETE` method with an todo-item id. And I believe it's just by
+convention, but when you do this, you change the function name under the router
+to match the invocation method, and so the `delete()` function.
+
+In terms of CRUD, this version is the RUD version.
+
+```python
+from fasthtml.common import *
+
+def render(todo):
+    tid = f'todo-{todo.id}'
+
+    toggle = A('Toggle', hx_get=f'/toggle/{todo.id}', target_id=tid)
+
+    delete = A('Delete', hx_delete=f'/{todo.id}', 
+               hx_swap='outerHTML', target_id=tid)
+
+    return Li(toggle, delete,
+              todo.title + (' (Done)' if todo.done else ''),
+              id=tid)
+
+app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+@rt('/')
+def get():
+    # todos.insert(Todo(title='Todo per page-load', done=False))
+    return Titled('Todos', 
+                  Ul(*todos()),
+                )
+
+
+@rt('/{tid}')
+def delete(tid:int): todos.delete(tid)
+    
+
+@rt('/toggle/{tid}')
+def get(tid:int):
+    todo = todos[tid]
+    todo.done = not todo.done
+    return todos.update(todo)
+
+serve()
+```
+
+There's other subtleties here to notice that Jeremy just skims over in the
+video, but I guess it's meant to be stopped and studied like I'm doing. Okay, so
+when the `delete` route is taken, there's no `return` value specified. That
+means Python's going to return `None`. And by convention, HTMX is going to
+replace the entire calling element with `None`, effectively deleting it from the
+calling object. But in this case, the calling object is an `Li` and the default
+delete would only delete the inner HTML text node, leaving an empty line item in
+place. To delete the outer HTML of the calling element, inducing it to delete
+the `<li>` itself, an HTMX attribute `hx_swap='outerHTML'` needs to be added to
+the very calling element. It's a "please destroy me up to the top" sort of
+directive.
+
+HTMX takes awhile to wrap your head around. But then HTMX under a brand new
+framework that maneuvers one new API into another is... well, mind-bending as I
+pointed out. If the payoff wasn't worth it, I totally wouldn't be doing this.
+But the payoff is nothing less than clean Pythonic web programming that in some
+ways exceeds the capabilities of the giant JavaScript frameworks, while being
+easier. Yeah, that's the way to look at it. The alternative is React.
