@@ -746,7 +746,6 @@ app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
 
 @rt('/')
 def get():
-    # todos.insert(Todo(title='Todo per page-load', done=False))
     frm = Form(Group(Input(placeholder='Add a new item', name='title'),
                Button('Add')),
                hx_post='/', target_id='todo-list', hx_swap="beforeend")
@@ -774,4 +773,142 @@ def get(tid:int):
 serve()
 ```
 
+Okay, now the finishing touch of blanking the input field when the Add button is
+pressed, but more important than that, the pattern for doing more than one thing
+in response to a single HTMX call. We're going to do this in a couple of steps.
+I know it's gratuitious, but for the sake of really understanding it, I'm first
+breaking out a little piece of the form construction into an external function:
 
+```python
+from fasthtml.common import *
+
+
+def render(todo):
+    tid = f'todo-{todo.id}'
+    toggle = A('Toggle', hx_get=f'/toggle/{todo.id}', target_id=tid)
+    delete = A('Delete', hx_delete=f'/{todo.id}', 
+               hx_swap='outerHTML', target_id=tid)
+    return Li(toggle, ' | ', delete, ' ',
+              todo.title + (' (Done)' if todo.done else ''),
+              id=tid)
+
+
+app, rt, todos, Todo = fast_app("todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+
+def mk_input(): return Input(placeholder='Add a new item', name='title')
+
+
+@rt('/')
+def get():
+    frm = Form(Group(mk_input(),
+               Button('Add')),
+               hx_post='/', target_id='todo-list', hx_swap="beforeend")
+    return Titled('Todos', 
+                  Card(
+                  Ul(*todos(), id='todo-list'),
+                  header=frm)
+                )
+
+
+@rt('/')
+def post(todo:Todo): return todos.insert(todo)
+
+
+@rt('/{tid}')
+def delete(tid:int): todos.delete(tid)
+    
+
+@rt('/toggle/{tid}')
+def get(tid:int):
+    todo = todos[tid]
+    todo.done = not todo.done
+    return todos.update(todo)
+
+
+serve()
+```
+
+Okay, and now we implement and HTMX calling method called `hx-swap-oob`. Out of
+bounds, that is. Imagine a game of catch. Somebody throws a ball. The catcher
+throws 2 balls back. Only the first ball goes to the original thrower. The
+second is sent to someone else out in the field, or "out of bounds". The balls
+being thrown back are chunks of HTML, in this case having 2 fragments:
+
+```html
+<li id="todo-9">
+    <a href="#" hx-get="/toggle/9" hx-target="#todo-9">Toggle</a>
+    | <a href="#" hx-swap="outerHTML" hx-delete="/9" hx-target="#todo-9">Delete</a>
+    foo 
+</li>
+<input placeholder="Add a new item" hx-swap-oob="true" id="title" name="title">
+```
+
+The first ne works like normal, adding the new line item to the end of the
+unordered list, which I'm assuming is part of what `todos.insert(todo)` does.
+There's a few parts of FastHTML that are still opaque to me. But the second
+fragment, which is the way the input field gets blanked, by being replaced by
+this one, targets the elment by that ID and swaps it out. I belive that could
+habe been done without breaking it out into a new function just by
+parameter-loading. I think Jeremy broke it out to keep it from getting too
+jumbled.
+
+Anyway, this is now a simple but complete CRUD application. Jeremy followes
+through by showing how to deploy it and in the process encounters a web host's
+restrictions about saving files to where the code executes from. Not a bad
+security precaution. All he does is add `data` to the `todo.db` path:
+
+```python
+from fasthtml.common import *
+
+
+def render(todo):
+    tid = f'todo-{todo.id}'
+    toggle = A('Toggle', hx_get=f'/toggle/{todo.id}', target_id=tid)
+    delete = A('Delete', hx_delete=f'/{todo.id}', 
+               hx_swap='outerHTML', target_id=tid)
+    return Li(toggle, ' | ', delete, ' ',
+              todo.title + (' (Done)' if todo.done else ''),
+              id=tid)
+
+
+app, rt, todos, Todo = fast_app("data/todo.db", live=True, render=render,
+                                id=int, title=str, done=bool, pk="id")
+
+
+def mk_input(): return Input(placeholder='Add a new item', 
+                             id='title', hx_swap_oob='true')
+
+
+@rt('/')
+def get():
+    frm = Form(Group(mk_input(),
+               Button('Add')),
+               hx_post='/', target_id='todo-list', hx_swap="beforeend")
+    return Titled('Todos', 
+                  Card(
+                  Ul(*todos(), id='todo-list'),
+                  header=frm)
+                )
+
+
+@rt('/')
+def post(todo:Todo): return todos.insert(todo), mk_input()
+
+
+@rt('/{tid}')
+def delete(tid:int): todos.delete(tid)
+    
+
+@rt('/toggle/{tid}')
+def get(tid:int):
+    todo = todos[tid]
+    todo.done = not todo.done
+    return todos.update(todo)
+
+
+serve()
+```
+
+Pshwew! I've got to internalize this a bit.
