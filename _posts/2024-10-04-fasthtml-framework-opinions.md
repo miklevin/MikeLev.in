@@ -1,7 +1,7 @@
 ---
 title: Understanding FastHTML's Framework Opinions
 permalink: /fast-html-framework-opinions/
-description: 
+description: Comming to grips with how opinionated a framework FastHTML really is, but deciding it's still worth it, if I can decipher the intuitively correct feeling HTMX approach, coupled with Python functions named for HTML tags.`
 layout: post
 ---
 
@@ -10,10 +10,10 @@ reality. The fact everything has become so complex, unreproducible, and driving
 you into vendor dependency and paying for everything drove me to discover NixOS
 and Nix flakes. That's been a lot of this blog so far, and that provides a
 foundation to build on. Now, it's time for a framework to build with. In other
-words, whereas the hardware we configigured through the nix flake stays static,
+words, whereas the hardware we configured through the nix flake stays static,
 the Python we've loaded on top of that is allowed to flow. 
 
-## Your Programming Langauge is Already a Framework
+## Your Programming Language is Already a Framework
 
 Having to use frameworks on top of programming languages is actually a position
 of weakness. It means your programming language didn't come out-of-the-box ready
@@ -44,7 +44,7 @@ MVC (model, view, controller) separation, and when the JavaScript frameworks
 matured from their wild west pre-JavaScript ES6 days, they embraced this
 approach with a fury.
 
-## Framworks are Cookie-Cutters with Signatures
+## Frameworks are Cookie-Cutters with Signatures
 
 Ugh! Non-JavaScript frameworks that have been around forever, like Python's
 Django on which Instagram was built, continued to work just fine. But even
