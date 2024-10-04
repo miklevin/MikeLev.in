@@ -1165,8 +1165,7 @@ of code yet I've seen to do this sort of thing...
 from fasthtml.common import *
 import asyncio
 
-app = FastHTML(ws_hdr=True)
-rt = app.route
+app, rt = fast_app(ws_hdr=True)
 
 msgs = []
 @rt('/')
