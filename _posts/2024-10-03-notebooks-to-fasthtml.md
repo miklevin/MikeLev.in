@@ -1109,7 +1109,11 @@ Okay, with the pre-FastHTML WebSockets test a success, we can move onto
 finagling the equivalent behavior out of [the FastHTML WebSockets API
 implementation](https://docs.fastht.ml/explains/websockets.html) 
 
-Success! A different command starts it:
+Success! Well, of a sort. This is simply success simulating the chat app that
+they include on the FastHTML website. It's not the long-running task simulation
+that I want, but it is WebSockets communication with just FastHTML code. And the
+command to start the server is a nice traditional Python one and not that
+convoluted uvicorn thing...
 
 ```bash
 python server.py
@@ -1117,7 +1121,7 @@ python server.py
 
 ...and here's the code:
 
-```
+```python
 from fasthtml.common import *
 
 app = FastHTML(ws_hdr=True)  # Enable WebSocket header
@@ -1159,7 +1163,11 @@ Ugh! It's taken me lots of little tries, but I finally have something close to
 the barebones minimum template for long-running tasks using WebSockets under
 FastHTML. I can strip out FastAPI, ZeroMQ (zmq) and all the other approaches I
 was looking at to pull this off. This looks like the smallest, simplest amount
-of code yet I've seen to do this sort of thing...
+of code yet I've seen to do this long-running task invocation from an HTMX link
+thing. This might sound like gobbledygook, but believe me this is fundamental.
+This is my Pipulate app I'm working on, and long-running background tasks on a
+local webserver is what it is to pipulate. And here's that success assured
+moment...
 
 ```python
 from fasthtml.common import *
@@ -1202,3 +1210,6 @@ async def long_running_task(msg: str):
 
 serve()
 ```
+
+I've got me a lot of refactoring to do from my previous zmq version. This is
+much better. Lean into FastHTML!
