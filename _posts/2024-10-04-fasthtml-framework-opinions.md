@@ -278,3 +278,175 @@ Citations:
     [6] https://csguide.cs.princeton.edu/software/python-wsgi
     [7] https://www.reddit.com/r/django/comments/qv4lvk/good_place_to_read_about_wsgi_how_it_works_how_it/
     [8] https://www.scrapingbee.com/blog/best-python-http-clients/
+
+---
+
+Yeah, okay. So replacing the API of Flask to me is like replacing the Request or
+Pandas API. Mikey no likey. But these are the changes we make to stay relevant.
+The concurrent world isn't going away, and those long-running tasks in the
+background that need to chat back to the browser that initiated them, is exactly
+what I need to do. So, Starlette instead of Flask. And uvicorn is down there
+somewhere, but we need not think about it. APIs are simplified, and we can get
+to work.
+
+But wait. There's more! We want to keep things Pythonic. We want to dodge having
+to use HTML tags all through our Python code. We also want to avoid that whole
+code-behind concept that plagued ASP.NET, where every page-with-logic needed a
+page-with-template and the two had to somehow turn that disjointedness into
+union. Blech! Even if you use one file for it, there's HTML here and there's
+Programming Code there. For years now, I wrote my Jupyter Notebooks with this
+magical 1-liner to give he H1 through H4 functions: H1(), H2(), H3() and H4(). I
+started giving that up when I realized Markdown headlines controlled Jupyer's
+Table of Contents view that let you jump around cells. But the idea never left
+me that Python function names should just literally map 1-to-1 to their HTML
+equivalents. H1() is an `<h1>`, and so on.
+
+And that's FastHTML! The template system is eliminated. Everything blends
+together and comes into focus as single-Python-file Flask-like routes where the
+templating layer is dehydrated down to its tightest Python skin. With such a
+stripping away of everything not necessary for you to look at (yet, still
+cleverly hidden), we can use the extra slice of cognitive capacity that gets
+freed-up by not having to deal with such extraneous information to tackle the
+problems of concurrency, long-running tasks, and most surprising to me lately,
+what appears to be a per-user database for generic persistence work.
+
+Pshwew! This concept right here is what drove me to start this article. On my
+first pass with FastHTML, I did an end-run of both FastHTML's built-in
+`@app.ws()` decorator function for WebSockets and used instead my old ZeroMQ
+(zmq) approach people used for this sort of thing before WebSockets become so
+widely standardized and supported. So, the fact there was just a decorator for
+that floored me. I think my code could be so much simpler. But that's a major
+refactoring of what's already a small miracle that it's working. But if I just
+do the work now, everything forever forward will be that much simpler too,
+making it worth it. A rabbit hole worth going down, because the end is clearly
+defined, not that far off, and worth it.
+
+This is a quick building up from scratch of everything past the multi-platform
+Nix flake that was the end-state of my GitHub `Darwinux` repo. And the beginning
+state of my `Pipulate` repo is this. Python is foundational. We build upon it,
+but with precisely what brings us to FastHTML and the new opinionated framework
+assumptions I'm just internalizing now truly for the first time. Let's
+enumerate, as the geeks would say.
+
+- FastHTML supports WebSockets better than I expected
+- The implementation accounts for separate user streams!
+- This is how it gets turned on `rt = fast_app(ws_hdr=True)`
+- Look at fast_app() optional parameters! There's a lot there.
+- The first position is an optional database, so a db is assumed!
+- The last position is is `**kwargs` for arbitrary app attribute loading!
+
+Uh, there's some opinions here. This is a much more loaded framework than the
+sparse code you actually have to look at would make it appear. This framework I
+get the feeling is like Jeremy Howard himself. This is quite soft-spoken, but if
+you look deeper, there's something there that I would categorize with Guido van
+Rossum. There's a certain knack for building application program interfaces
+(APIs) that gets out of your way, and when you do need to override its well
+chose default behavior, there's another well-chosen way to do it. It won't
+satisfy all of the people all of the time, but there is a lot of attention paid
+to the 80/20-rule use cases. That is, satisfying 80% of the likely to encounter
+problems with only 20% of the complexity that you could weigh it down with.
+
+And so, there will be a certain amount of yielding to the opinions of the
+framework, as there always is. For insight as to what those opinions are, look
+at the definition of `fast_app()`. In VSCode or Code AI, that's just a matter of
+right-clicking on it and selecting `Go to Definition`, which is what Jeremy more
+or less does in [the
+video](https://youtu.be/Auqrm7WFc0I?si=9S6u3fInrvfxJnPO&t=1655). And the fact
+that creating a database right in the first optional position of an `app` object
+you'll be creating from `fast_app()` ***strongly*** implies creating a little
+database is just something you do. Now whether this is per-user, single database
+per user, one database across all users with the user data isolation unaddressed
+at the simplest example, I'm not sure yet and have to discover.
+
+One thing I can see, is that it's the answer to the persistence, and even to
+some degree, communication between components. Even though the entire server app
+is going to live in one `server.py` file, they don't always share information
+like variable values with each other so easily. That's because of the
+asynchronous (concurrent) behavior of things. Like a single-page-application
+(SPA), one part of the page could "talk to" another part of the page as if many
+page-loads occurred, but only 1 actual page-load occurred and all the back-end
+communication occurred with what we would have once called AJAX calls. And it's
+the same file serving it all! And thus, a database can be useful for sharing
+data between those parts.
+
+Anyway, I used to use `sqlitedict` for generic database work like this in the
+past. Both sqlitedict and fasthtml use `SQLite` (sqlite3), but with fasthtml,
+it's a default that can be changed. There's also differences in the API. The big
+appeal of sqlitedict to me was that it mapped database actions to standard
+Python `dict` datatype, albeit with some file opening and closing (or
+alternatively the context manager) required. However, in FastHTML, the API for
+this persistent data-store so front-and-center to the framework (the least
+hidden of many hidden things) is bound to replace that off-the-beaten-track
+sqlitedict PyPI package I use.
+
+I'm wondering if the database is going to automatically sort out the per-user
+issues of persistent database stores on the web. Otherwise, the app is
+single-tenant (single-user) until you take steps to make it multi-tenant. In
+other words, I wonder wither the basic todo app Jeremy shows us how to write a
+separate todo list for everyone, or one todo list for all. If it's separate per
+user, it would likely only be temporary lasting as long as a session, however
+FastHTML handles sessions (so much to discover).
+
+But an even less-than barebones version of the todo app looks like this. It
+inserts a new todo item, identically named, for each page reload. Not idea, but
+it's the CR of CRUD...
+
+```python
+from fasthtml.common import *
+
+app, rt, todos, Todo = fast_app("todo.db", live=True,
+                                id=int, title=str, done=bool, pk="id")
+
+@rt("/")
+def get():
+
+    todos.insert(Todo(title='Todo per page-load', done=False)
+
+    items = [Li(o) for o in todos()]
+    return Titled('Todos', 
+                  Ul(*items),
+                )
+
+serve()
+```
+
+---
+
+CRUD? Hey, Perplexity...
+
+CRUD is an acronym that stands for Create, Read, Update, and Delete[1][2][3]. These are the four basic operations that can be performed on persistent data in most software applications and database systems:
+
+1. Create: This operation is used to create new records or entries in a database
+   or system[1]. In SQL, this is typically done using the INSERT statement[2].
+2. Read: This operation allows for retrieving or viewing existing data[1]. In
+   SQL, the SELECT statement is used for reading data[2].
+3. Update: This operation is used to modify or edit existing records[1]. The
+   UPDATE statement in SQL is used for this purpose[2].
+4. Delete: This operation removes existing records from the database or
+   system[1]. In SQL, the DELETE statement is used to delete data[2].
+
+These four operations form the foundation of data manipulation in many software applications and database systems. They provide a standardized way to interact with stored data, whether it's in a relational database, NoSQL database, or even in file systems[1][3].
+
+CRUD operations are fundamental in building many types of applications, from simple data entry systems to complex enterprise software. They are often mapped to standard HTTP methods in RESTful APIs:
+
+- Create: POST
+- Read: GET
+- Update: PUT or PATCH
+- Delete: DELETE[2]
+
+Understanding CRUD operations is essential for developers working with databases or building applications that involve data persistence and manipulation.
+
+Citations:
+
+    [1] https://www.freecodecamp.org/news/crud-operations-explained/
+    [2] https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+    [3] https://www.codecademy.com/article/what-is-crud
+    [4] https://www.crowdstrike.com/cybersecurity-101/observability/crud/
+    [5] https://stackify.com/what-are-crud-operations/
+    [6] https://stackoverflow.com/questions/22135222/the-meaning-of-crud
+    [7] https://www.reddit.com/r/webdev/comments/15lwnym/what_do_people_mean_by_a_simple_crud_app/
+    [8] https://budibase.com/blog/crud-app/
+
+---
+
+
