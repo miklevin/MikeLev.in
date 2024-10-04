@@ -9,16 +9,11 @@ Every day is a discovery process. I'm recalibrating myself to a new tech
 reality. The fact everything has become so complex, unreproducible, and driving
 you into vendor dependency and paying for everything drove me to discover NixOS
 and Nix flakes. That's been a lot of this blog so far, and that provides a
-foundation to build on. Now, it's time for a framework to build with. The Nix
-hardware and low-level system components you define once up-front, and hopefully
-they don't change much throughout the project, but for a very occasional adding
-of something like I did recently with tmux for monitoring things that will
-eventually run as a service but for now I want to monitor in terminals that are
-okay to close without stopping the service. That belongs in the foundation
-system, but the actual things running as the services, that we write with a
-programming framework.
+foundation to build on. Now, it's time for a framework to build with. In other
+words, whereas the hardware we configigured through the nix flake stays static,
+the Python we've loaded on top of that is allowed to flow. 
 
-## The Problem with Using Frameworks on Top of Programming Languages
+## Your Programming Langauge is Already a Framework
 
 Having to use frameworks on top of programming languages is actually a position
 of weakness. It means your programming language didn't come out-of-the-box ready
@@ -26,13 +21,14 @@ to do whatever you needed it to do, so maybe your time should be spent picking a
 better foundational programming language than some grab-bag of conveniences,
 which is what a framework really is. They just modify and extend the underlying
 language so that you can actually do the things you want to do without
-reinventing the wheel every time. And so, Python itself is both a language and a
-framework due to how many little conveniences it builds in, such as the way its
-primary data structures of lists, tuples and dicts work. Python provides these
-so that figuring out how to satisfy these common needs isn't the first thing you
-have to do. It's a very opinionated thing to do, and that's what frameworks are.
-If you're going to make something easier, you have to have an opinion how to do
-it.
+reinventing the wheel every time. 
+
+And so, Python itself is both a language and a framework due to how many little
+conveniences it builds in, such as the way its primary data structures of lists,
+tuples and dicts work. Python provides these so that figuring out how to satisfy
+these common needs isn't the first thing you have to do. It's a very opinionated
+thing to do, and that's what frameworks are. If you're going to make something
+easier, you have to have an opinion how to do it.
 
 ## The Importance of Framework Opinions in Software Development
 
