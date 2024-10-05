@@ -935,3 +935,882 @@ This system ensures that every significant action in the todo app is accompanied
 This system cleverly integrates HTMX for handling UI updates with an LLM for providing dynamic commentary. The key to this integration is the use of asynchronous tasks that are triggered by HTMX calls, allowing the app to respond quickly to user actions while generating LLM commentary in the background.
 
 Would you like me to elaborate on any specific part of this system?
+
+---
+
+Me: Show me how to make htis ability to send messages to the chat box the
+cleanest API you ever did see. Make chatbox callback functions aware of events
+during long-running callback processes the cheanest and happiest API you ever
+did see. What should we call it for humans (like Requests)? Show me how we'd
+clean it up.
+
+Claude: Certainly! Let's create a clean and elegant API for handling chat
+messages and long-running processes. We'll call this new API "Chatter" for its
+simplicity and ease of use. Here's how we can refactor the code to make it
+cleaner:
+
+```python
+async def generate_and_stream_ai_response(prompt):
+    conversation.append({"role": "user", "content": prompt})
+    
+    async def send(content: str):
+        for u in users.values():
+            await u(Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE))
+    
+    async def update(content: str):
+        for u in users.values():
+            await u(Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
+                        _="this.scrollIntoView({behavior: 'smooth'});"))
+    
+    async def finish():
+        pass  # No need to clear input or refocus in this case
+    
+    chatter = Chatter(send, update, finish)
+    await chat_handler(chatter, prompt)
+
+# Update the post, delete, and toggle routes to use the new API
+@rt('/todo')
+async def post(todo:Todo):
+    inserted_todo = todos.insert(todo)
+    asyncio.create_task(generate_and_stream_ai_response(
+        f"A new todo item was added: '{todo.title}'. Give a brief, sassy comment or advice in 40 words or less."
+    ))
+    return render(inserted_todo), todo_mk_input()
+
+# Similarly update the delete and toggle routes...
+```
+
+This new "Chatter" API provides a clean and flexible way to handle chat
+interactions and long-running processes. It separates the concerns of message
+handling, updating, and finishing, making the code more modular and easier to
+maintain. The API is also more intuitive for humans to use, similar to how the
+Requests library simplified HTTP requests in Python.
+
+You're correct that the send, update, and finish callables are very similar in this implementation. They all involve sending content to the user's WebSocket connection. However, their purposes are slightly different:
+
+1. send: Used to send the initial message or response.
+2. update: Used to update the message incrementally (like streaming the AI response word by word).
+3. finish: Used to perform any cleanup or final actions after the message is complete.
+
+The Chatter design is indeed similar to opening and closing a connection, with the ability to update in between. It's a flexible pattern that allows for different behaviors at different stages of the chat interaction.
+For your example of appending dots to an object's text node, you could use Chatter like this:
+
+```python
+async def long_running_task(chatter: Chatter):
+    await chatter.send("Processing")
+    for _ in range(10):
+        await asyncio.sleep(1)
+        await chatter.update("Processing" + "." * (_ + 1))
+    await chatter.finish()
+
+# In your WebSocket route or elsewhere
+chatter = Chatter(send, update, finish)
+await long_running_task(chatter)
+```
+
+You're right, and I'm glad it's working! Let's examine how Chatter is used in the program and discuss its design.
+
+Chatter is primarily used in the WebSocket route:
+
+```python:pipulate.py
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    if msg:
+        global conversation
+        conversation.append({"role": "user", "content": msg})
+        
+        user_id = str(id(ws))
+        async def send(content: str):
+            await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE))
+        
+        async def update(content: str):
+            await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
+                                     _="this.scrollIntoView({behavior: 'smooth'});"))
+        
+        async def finish():
+            clear_input = Input(id='msg', name='msg', placeholder='Type a message...', value='', 
+                                hx_swap_oob="true", autofocus='autofocus')
+            await users[user_id](clear_input)
+        
+        chatter = Chatter(send, update, finish)
+        await chat_handler(chatter, msg)
+```
+
+You're correct that the `send`, `update`, and `finish` callables are very similar in this implementation. They all involve sending content to the user's WebSocket connection. However, their purposes are slightly different:
+
+1. `send`: Used to send the initial message or response.
+2. `update`: Used to update the message incrementally (like streaming the AI response word by word).
+3. `finish`: Used to perform any cleanup or final actions after the message is complete.
+
+The Chatter design is indeed similar to opening and closing a connection, with the ability to update in between. It's a flexible pattern that allows for different behaviors at different stages of the chat interaction.
+
+For your example of appending dots to an object's text node, you could use Chatter like this:
+
+```python:pipulate.py
+async def long_running_task(chatter: Chatter):
+    await chatter.send("Processing")
+    for _ in range(10):
+        await asyncio.sleep(1)
+        await chatter.update("Processing" + "." * (_ + 1))
+    await chatter.finish()
+
+# In your WebSocket route or elsewhere
+chatter = Chatter(send, update, finish)
+await long_running_task(chatter)
+```
+
+This design allows for a clean separation of concerns:
+
+1. The `chat_handler` or `long_running_task` doesn't need to know how the messages are sent or updated.
+2. The WebSocket route doesn't need to know the details of how the chat or task is processed.
+3. You can easily swap out the implementation of `send`, `update`, and `finish` without changing the `chat_handler` or `long_running_task`.
+
+While in this specific use case the functions are similar, the Chatter pattern provides flexibility for more complex scenarios where you might want different behaviors for initial send, updates, and finishing touches.
+
+Me: Can a send work without an update and a finish? What's the minimal use-case, for eaxample a rapid default message that's just supposed to show as fast as possible at the end of an object click.
+
+Absolutely! The Chatter API is flexible, and you can certainly use just the send function without update or finish for simpler use cases. Here's an example of how you could implement a minimal use-case for a rapid default message:
+
+```python
+from dataclasses import dataclass
+from typing import Callable, Awaitable
+
+@dataclass
+class SimpleChatter:
+    send: Callable[[str], Awaitable[None]]
+
+async def quick_message(chatter: SimpleChatter, msg: str):
+    await chatter.send(msg)
+
+# In your route or WebSocket handler
+@rt('/quick_action')
+async def handle_quick_action():
+    user_id = str(id(request))
+    
+    async def send(content: str):
+        await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE))
+    
+    chatter = SimpleChatter(send)
+    await quick_message(chatter, "Action completed!")
+    
+    return "OK"
+```
+
+Absolutely! The Chatter API is flexible, and you can certainly use just the `send` function without `update` or `finish` for simpler use cases. Here's an example of how you could implement a minimal use-case for a rapid default message:
+
+```python:pipulate.py
+from dataclasses import dataclass
+from typing import Callable, Awaitable
+
+@dataclass
+class SimpleChatter:
+    send: Callable[[str], Awaitable[None]]
+
+async def quick_message(chatter: SimpleChatter, msg: str):
+    await chatter.send(msg)
+
+# In your route or WebSocket handler
+@rt('/quick_action')
+async def handle_quick_action():
+    user_id = str(id(request))
+    
+    async def send(content: str):
+        await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE))
+    
+    chatter = SimpleChatter(send)
+    await quick_message(chatter, "Action completed!")
+    
+    return "OK"
+```
+
+In this minimal use-case:
+
+1. We define a `SimpleChatter` class that only has the `send` method.
+2. The `quick_message` function takes this `SimpleChatter` and immediately sends the message.
+3. In the route handler, we create a `SimpleChatter` with just the `send` function and use it to display a quick message.
+
+This approach is perfect for scenarios where you just need to show a message as quickly as possible, such as:
+
+- Confirmation messages after a user action
+- Quick error notifications
+- Status updates that don't require streaming or updates
+
+By using this simplified version of Chatter, you maintain the separation of concerns and the flexibility to expand later if needed, while keeping the code minimal for simple use-cases.
+
+Remember, the beauty of this pattern is its flexibility. You can create different variations of the Chatter class based on your specific needs, from this simple one-method version to more complex implementations with multiple stages and behaviors.
+
+---
+
+Fast-forward to staying up straight through the night. This program is way too
+big to display here, but I'll do it anyway. Meet the framework for the new
+`Pipulate`...
+
+```python
+import asyncio
+import json
+import re
+from dataclasses import dataclass
+from typing import Callable, Awaitable
+
+import requests
+from starlette.concurrency import run_in_threadpool
+
+from fasthtml.common import *
+
+
+# Configuration and Constants
+MAX_LLM_RESPONSE_WORDS = 30
+SEARCH_WIDTH = "100px"
+ACTIONS_WIDTH = "120px"
+CHAT_INTERFACE_WIDTH = "150px"
+LOGO_WIDTH = "100px"
+NAME = ""
+
+# Styles
+MATRIX_STYLE = (
+    "color: #00ff00; text-shadow: 0 0 5px #00ff00; "
+    "font-family: 'Courier New', monospace;"
+)
+USER_STYLE = (
+    "color: #ffff00; text-shadow: 0 0 5px #ffff00; "
+    "font-family: 'Courier New', monospace;"
+)
+
+# Initialize conversation
+conversation = [
+    {
+        "role": "system",
+        "content": f"You are a Todo App with attitude. Be sassy but helpful in under {MAX_LLM_RESPONSE_WORDS} words, and without leading and trailing quotes.",
+    },
+]
+
+# Active users connected via WebSocket
+users = {}
+
+
+@dataclass
+class Chatter:
+    send: Callable[[str], Awaitable[None]]
+    update: Callable[[str], Awaitable[None]]
+    finish: Callable[[], Awaitable[None]]
+
+
+@dataclass
+class SimpleChatter:
+    send: Callable[[str], Awaitable[None]]
+
+
+def limit_llm_response(response: str) -> str:
+    """Limit the LLM response to a maximum number of words."""
+    words = response.split()
+    return ' '.join(words[:MAX_LLM_RESPONSE_WORDS])
+
+
+def parse_version(version_string):
+    """Parse a version string into a list of integers and strings for comparison."""
+    return [int(x) if x.isdigit() else x for x in re.findall(r'\d+|\D+', version_string)]
+
+
+def get_best_llama_model(models):
+    """Select the best available LLaMA model from the list of models."""
+    llama_models = [model for model in models if model.lower().startswith('llama')]
+    if not llama_models:
+        return None
+
+    def key_func(model):
+        parts = model.split(':')
+        base_name = parts[0]
+        version = parts[1] if len(parts) > 1 else ''
+        base_version = re.search(r'llama(\d+(?:\.\d+)*)', base_name.lower())
+        base_version = base_version.group(1) if base_version else '0'
+        return (
+            parse_version(base_version),
+            1 if version == 'latest' else 0,
+            parse_version(version),
+        )
+
+    return max(llama_models, key=key_func)
+
+
+def get_available_models():
+    """Retrieve the list of available models from the Ollama API."""
+    try:
+        response = requests.get("http://localhost:11434/api/tags", timeout=10)
+        response.raise_for_status()
+        return [model['name'] for model in response.json()['models']]
+    except requests.exceptions.RequestException:
+        return []
+
+
+def get_best_model():
+    """Get the best available model or default to 'llama2'."""
+    available_models = get_available_models()
+    return get_best_llama_model(available_models) or (available_models[0] if available_models else "llama2")
+
+
+def chat_with_ollama(model: str, messages: list) -> str:
+    """Interact with the Ollama model to generate a response."""
+    url = "http://localhost:11434/api/chat"
+    payload = {
+        "model": model,
+        "messages": messages,
+        "stream": False,
+    }
+    headers = {"Content-Type": "application/json"}
+    response = requests.post(url, data=json.dumps(payload), headers=headers)
+    if response.status_code == 200:
+        return response.json()['message']['content']
+    else:
+        return f"Error: {response.status_code}, {response.text}"
+
+
+def render(todo):
+    """Render a todo item."""
+    tid = f'todo-{todo.id}'
+    checkbox = Input(
+        type="checkbox",
+        name="english" if todo.done else None,
+        checked=todo.done,
+        hx_post=f"/toggle/{todo.id}",
+        hx_swap="outerHTML",
+    )
+    delete = A(
+        'Delete',
+        hx_delete=f'/{todo.id}',
+        hx_swap='outerHTML',
+        hx_target=f"#{tid}",
+    )
+    return Li(
+        checkbox,
+        ' ',
+        todo.title,
+        ' | ',
+        delete,
+        id=tid,
+        cls='done' if todo.done else '',
+        style="list-style-type: none;"  # Add this line
+    )
+
+
+# from todo_app import todos, Todo, mk_input as todo_mk_input
+def todo_mk_input(): 
+    return Input(placeholder='Add a new item', 
+                 id='title', 
+                 hx_swap_oob='true',
+                 autofocus=True)  # Add this line
+
+
+# Define a function to create the input group
+def mk_input_group(disabled=False, value='', autofocus=True):
+    """Create the chat input group."""
+    return Group(
+        Input(
+            id='msg',
+            name='msg',
+            placeholder='Chat...',
+            value=value,
+            disabled=disabled,
+            autofocus='autofocus' if autofocus else None,
+        ),
+        Button(
+            "Send",
+            type='submit',
+            ws_send=True,
+            id='send-btn',
+            disabled=disabled,
+        ),
+        id='input-group',
+    )
+
+
+async def generate_and_stream_ai_response(prompt: str):
+    """Generate and stream AI response to users."""
+    response = await run_in_threadpool(
+        chat_with_ollama,
+        model,
+        [{"role": "user", "content": prompt}],
+    )
+    words = response.split()
+    for i in range(len(words)):
+        partial_response = " ".join(words[: i + 1])
+        for u in users.values():
+            await u(
+                Div(
+                    f"{NAME}{partial_response}",
+                    id='msg-list',
+                    cls='fade-in',
+                    style=MATRIX_STYLE,
+                    _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                )
+            )
+        await asyncio.sleep(0.05)  # Reduced delay for faster typing
+
+
+async def quick_message(chatter: SimpleChatter, prompt: str):
+    """Send a quick message to the chat interface."""
+    response = await run_in_threadpool(
+        chat_with_ollama,
+        model,
+        [{"role": "user", "content": prompt}],
+    )
+    words = response.split()
+    for i in range(len(words)):
+        partial_response = " ".join(words[: i + 1])
+        await chatter.send(f"{NAME}{partial_response}")
+        await asyncio.sleep(0.05)  # Adjust this delay as needed
+
+
+def create_nav_menu(selected_chat="Chat Interface", selected_action="Actions"):
+    """Create the navigation menu with a filler item, chat, and action dropdowns."""
+    common_style = (
+        "font-size: 1rem; height: 32px; line-height: 32px; "
+        "display: inline-flex; align-items: center; justify-content: center; "
+        "margin: 0 2px; border-radius: 16px; padding: 0 0.6rem;"
+    )
+
+    def create_menu_item(title, hx_get, summary_id):
+        """Create a menu item."""
+        return Li(
+            A(
+                title,
+                hx_get=hx_get,  # Keep the original hx_get
+                hx_target=f"#{summary_id}",
+                hx_swap="outerHTML",
+                hx_trigger="click",
+                hx_push_url="false",  # Prevent URL changes
+                cls="menu-item",
+            )
+        )
+
+    chat_summary_id = "chat-summary"
+    action_summary_id = "action-summary"
+
+    # Filler Item: Non-interactive, occupies significant space
+    filler_item = Li(
+        Span(" "),  # Empty span as a filler
+        style=(
+            "flex-grow: 1; min-width: 300px; "  # Allows it to grow and ensures a minimum width
+            "list-style-type: none;"  # Removes the bullet point
+        ),
+    )
+
+    chat_menu = Details(
+        Summary(
+            selected_chat,
+            style=(
+                f"{common_style} width: {CHAT_INTERFACE_WIDTH}; "
+                "background-color: var(--pico-background-color); "
+                "border: 1px solid var(--pico-muted-border-color);"
+            ),
+            id=chat_summary_id,
+        ),
+        Ul(
+            create_menu_item("Todo Chat", "/chat/todo_chat", chat_summary_id),
+            create_menu_item("Future Chat 1", "/chat/future_chat_1", chat_summary_id),
+            create_menu_item("Future Chat 2", "/chat/future_chat_2", chat_summary_id),
+            create_menu_item("Future Chat 3", "/chat/future_chat_3", chat_summary_id),
+            dir="rtl",
+            id="chat-menu-list",
+        ),
+        cls="dropdown",
+        id="chat-menu",
+    )
+
+    action_menu = Details(
+        Summary(
+            selected_action,
+            style=(
+                f"{common_style} width: {ACTIONS_WIDTH}; "
+                "background-color: var(--pico-background-color); "
+                "border: 1px solid var(--pico-muted-border-color);"
+            ),
+            id=action_summary_id,
+        ),
+        Ul(
+            create_menu_item("Action 1", "/action/1", action_summary_id),
+            create_menu_item("Action 2", "/action/2", action_summary_id),
+            create_menu_item("Action 3", "/action/3", action_summary_id),
+            create_menu_item("Action 4", "/action/4", action_summary_id),
+            dir="rtl",
+            id="action-menu-list",
+        ),
+        cls="dropdown",
+        id="action-menu",
+    )
+
+    search_group = Group(
+        Input(
+            placeholder="Search",
+            name="nav_input",
+            id="nav-input",
+            hx_post="/search",
+            hx_trigger="keyup[keyCode==13]",
+            hx_target="#msg-list",
+            hx_swap="innerHTML",
+            style=(
+                f"{common_style} width: {SEARCH_WIDTH}; padding-right: 25px; "
+                "border: 1px solid var(--pico-muted-border-color);"
+            ),
+        ),
+        Button(
+            "×",
+            type="button",
+            onclick="document.getElementById('nav-input').value = ''; this.blur();",
+            style=(
+                "position: absolute; right: 6px; top: 50%; transform: translateY(-50%); "
+                "width: 16px; height: 16px; font-size: 0.8rem; color: var(--pico-muted-color); "
+                "opacity: 0.5; background: none; border: none; cursor: pointer; padding: 0; "
+                "display: flex; align-items: center; justify-content: center; "
+                "border-radius: 50%;"
+            ),
+        ),
+        style="display: flex; align-items: center; position: relative;",
+    )
+
+    nav = Div(
+        filler_item,  # Add the filler item first
+        chat_menu,
+        action_menu,
+        search_group,
+        style=(
+            "display: flex; align-items: center; gap: 8px; "
+            "width: 100%;"  # Ensure the nav takes full width
+        ),
+    )
+
+    return nav
+
+
+# Application Setup
+app, rt, todos, Todo = fast_app(
+    "data/todo.db",
+    ws_hdr=True,
+    live=True,
+    render=render,
+    id=int,
+    title=str,
+    done=bool,
+    pk="id",
+)
+
+# Choose the best available model
+model = get_best_model()
+
+# WebSocket users
+users = {}
+
+
+def on_conn(ws, send):
+    """Handle WebSocket connection."""
+    users[str(id(ws))] = send
+
+
+def on_disconn(ws):
+    """Handle WebSocket disconnection."""
+    users.pop(str(id(ws)), None)
+
+
+# Route Handlers
+@rt('/')
+def get():
+    """Handle the main page GET request."""
+    nav = create_nav_menu()
+
+    nav_group = Group(
+        nav,
+        style="display: flex; align-items: center; margin-bottom: 20px; gap: 20px;",
+    )
+
+    return Titled(
+        "Pipulate Todo App",
+        Container(
+            nav_group,
+            Grid(
+                Div(
+                    Card(
+                        H2("Todo List"),
+                        Ul(*[render(todo) for todo in todos()], id='todo-list', style="padding-left: 0;"),  # Add style here
+                        header=Form(
+                            Group(
+                                todo_mk_input(),
+                                Button("Add", type="submit"),
+                            ),
+                            hx_post="/todo",
+                            hx_swap="beforeend",
+                            hx_target="#todo-list",
+                        ),
+                    ),
+                ),
+                Div(
+                    Card(
+                        H2("Chat Interface"),
+                        Div(
+                            id='msg-list',
+                            cls='overflow-auto',
+                            style='height: 40vh;',
+                        ),
+                        footer=Form(
+                            mk_input_group(),
+                        ),
+                    ),
+                ),
+                cls="grid",
+                style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px;",
+            ),
+            Div(
+                A(
+                    "Poke Todo List",
+                    hx_post="/poke",
+                    hx_target="#msg-list",
+                    hx_swap="innerHTML",
+                    cls="button",
+                ),
+                style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;",
+            ),
+        ),
+        hx_ext='ws',
+        ws_connect='/ws',
+        data_theme="dark",
+    )
+
+
+@rt('/todo')
+async def post_todo(todo: Todo):
+    """Handle adding a new todo item."""
+    if not todo.title.strip():
+        # Empty todo case
+        asyncio.create_task(
+            generate_and_stream_ai_response(
+                "User tried to add an empty todo. Respond with a brief, sassy comment about their attempt."
+            )
+        )
+        return ''  # Return empty string to prevent insertion
+    
+    # Non-empty todo case
+    inserted_todo = todos.insert(todo)
+
+    asyncio.create_task(
+        generate_and_stream_ai_response(
+            f"New todo: '{todo.title}'. Brief, sassy comment or advice."
+        )
+    )
+
+    return render(inserted_todo), todo_mk_input()
+
+
+@rt('/{tid}')
+async def delete(tid: int):
+    """Handle deleting a todo item."""
+    todo = todos[tid]  # Get the todo item before deleting it
+    todos.delete(tid)
+
+    # Adjusted prompt for brevity
+    asyncio.create_task(
+        generate_and_stream_ai_response(
+            f"Todo '{todo.title}' deleted. Brief, sassy reaction."
+        )
+    )
+
+    return ''  # Return an empty string to remove the item from the DOM
+
+
+@rt('/toggle/{tid}')
+async def toggle(tid: int):
+    """Handle toggling a todo item's done status."""
+    todo = todos[tid]
+    old_status = "Done" if todo.done else "Not Done"
+    todo.done = not todo.done
+    new_status = "Done" if todo.done else "Not Done"
+    updated_todo = todos.update(todo)
+
+    # Adjusted prompt to include the todo title
+    asyncio.create_task(
+        generate_and_stream_ai_response(
+            f"Todo '{todo.title}' toggled from {old_status} to {new_status}. "
+            f"Brief, sassy comment mentioning '{todo.title}'."
+        )
+    )
+
+    return Input(
+        type="checkbox",
+        name="english" if updated_todo.done else None,
+        checked=updated_todo.done,
+        hx_post=f"/toggle/{updated_todo.id}",
+        hx_swap="outerHTML",
+    )
+
+
+@rt('/poke')
+async def poke():
+    """Handle poking the todo list for a response."""
+    response = await run_in_threadpool(
+        chat_with_ollama,
+        model,
+        [
+            {
+                "role": "system",
+                "content": "You are a sassy Todo List. Respond briefly to being poked.",
+            },
+            {
+                "role": "user",
+                "content": "You've been poked.",
+            },
+        ],
+    )
+    return Div(f"{NAME}{response}", id='msg-list', cls='fade-in', style=MATRIX_STYLE)
+
+
+@rt('/chat/{chat_type}')
+async def chat_interface(chat_type: str):
+    """Handle chat menu selection."""
+    # Update the summary element with the selected chat type
+    chat_summary_id = "chat-summary"
+    selected_chat = chat_type.replace('_', ' ').title()
+    summary_content = Summary(
+        selected_chat,
+        style=(
+            f"font-size: 1rem; height: 32px; line-height: 32px; "
+            "display: inline-flex; align-items: center; justify-content: center; "
+            "margin: 0 2px; border-radius: 16px; padding: 0 0.6rem; "
+            f"width: {CHAT_INTERFACE_WIDTH}; background-color: var(--pico-background-color); "
+            "border: 1px solid var(--pico-muted-border-color);"
+        ),
+        id=chat_summary_id,
+    )
+
+    # Generate AI response
+    prompt = f"Respond mentioning '{selected_chat}' in your reply, keeing it brief, under 20 words."
+    chatter = SimpleChatter(
+        send=lambda msg: asyncio.gather(
+            *[
+                u(
+                    Div(
+                        msg,
+                        id='msg-list',
+                        cls='fade-in',
+                        style=MATRIX_STYLE,
+                    )
+                )
+                for u in users.values()
+            ]
+        )
+    )
+    asyncio.create_task(quick_message(chatter, prompt))
+
+    return summary_content
+
+
+@rt('/action/{action_id}')
+async def perform_action(action_id: str):
+    """Handle action menu selection."""
+    # Update the summary element with the selected action
+    action_summary_id = "action-summary"
+    selected_action = f"Action {action_id}"
+    summary_content = Summary(
+        selected_action,
+        style=(
+            f"font-size: 1rem; height: 32px; line-height: 32px; "
+            "display: inline-flex; align-items: center; justify-content: center; "
+            "margin: 0 2px; border-radius: 16px; padding: 0 0.6rem; "
+            f"width: {ACTIONS_WIDTH}; background-color: var(--pico-background-color); "
+            "border: 1px solid var(--pico-muted-border-color);"
+        ),
+        id=action_summary_id,
+    )
+
+    # Generate AI response
+    prompt = f"You selected '{selected_action}'. Respond cleverly, mentioning '{selected_action}' in your reply. Be brief and sassy."
+    chatter = SimpleChatter(
+        send=lambda msg: asyncio.gather(
+            *[
+                u(
+                    Div(
+                        msg,
+                        id='msg-list',
+                        cls='fade-in',
+                        style=MATRIX_STYLE,
+                    )
+                )
+                for u in users.values()
+            ]
+        )
+    )
+    asyncio.create_task(quick_message(chatter, prompt))
+
+    return summary_content
+
+
+@rt('/search', methods=['POST'])
+async def search(nav_input: str):
+    """Handle search input."""
+    prompt = f"The user searched for: '{nav_input}'. Respond briefly acknowledging the search."
+    chatter = SimpleChatter(
+        send=lambda msg: asyncio.gather(
+            *[
+                u(
+                    Div(
+                        msg,
+                        id='msg-list',
+                        cls='fade-in',
+                        style=MATRIX_STYLE,
+                    )
+                )
+                for u in users.values()
+            ]
+        )
+    )
+    asyncio.create_task(quick_message(chatter, prompt))
+    return ''
+
+
+@rt('/toggle-theme', methods=['POST'])
+def toggle_theme():
+    """Handle theme toggle."""
+    return ''  # Theme change is handled client-side
+
+
+# WebSocket Handler Modification
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    """Handle WebSocket messages."""
+    if msg:
+        # Disable the input group
+        disable_input_group = mk_input_group(disabled=True, value=msg, autofocus=False)
+        disable_input_group.attrs['hx_swap_oob'] = "true"
+        for u in users.values():
+            await u(disable_input_group)
+
+        # Process the message and generate response
+        global conversation
+        conversation.append({"role": "user", "content": msg})
+
+        # Start streaming response
+        response = await run_in_threadpool(chat_with_ollama, model, conversation)
+        conversation.append({"role": "assistant", "content": response})
+
+        # Simulate typing effect (AI response remains green)
+        words = response.split()
+        for i in range(len(words)):
+            partial_response = " ".join(words[: i + 1])
+            for u in users.values():
+                await u(
+                    Div(
+                        f"{NAME}{partial_response}",
+                        id='msg-list',
+                        cls='fade-in',
+                        style=MATRIX_STYLE,
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                    )
+                )
+            await asyncio.sleep(0.05)  # Reduced delay for faster typing
+
+        # Re-enable the input group
+        enable_input_group = mk_input_group(disabled=False, value='', autofocus=True)
+        enable_input_group.attrs['hx_swap_oob'] = "true"
+        for u in users.values():
+            await u(enable_input_group)
+
+
+serve()
+```
+
