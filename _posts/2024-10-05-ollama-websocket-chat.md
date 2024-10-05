@@ -1012,7 +1012,7 @@ You're right, and I'm glad it's working! Let's examine how Chatter is used in th
 
 Chatter is primarily used in the WebSocket route:
 
-```python:pipulate.py
+```python
 @app.ws('/ws', conn=on_conn, disconn=on_disconn)
 async def ws(msg: str):
     if msg:
@@ -1046,7 +1046,7 @@ The Chatter design is indeed similar to opening and closing a connection, with t
 
 For your example of appending dots to an object's text node, you could use Chatter like this:
 
-```python:pipulate.py
+```python
 async def long_running_task(chatter: Chatter):
     await chatter.send("Processing")
     for _ in range(10):
@@ -1098,7 +1098,7 @@ async def handle_quick_action():
 
 Absolutely! The Chatter API is flexible, and you can certainly use just the `send` function without `update` or `finish` for simpler use cases. Here's an example of how you could implement a minimal use-case for a rapid default message:
 
-```python:pipulate.py
+```python
 from dataclasses import dataclass
 from typing import Callable, Awaitable
 
