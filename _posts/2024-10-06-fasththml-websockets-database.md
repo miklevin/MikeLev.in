@@ -1,7 +1,7 @@
 ---
 title: FastHTML WebSockets & Database for Streaming & Persistence
 permalink: /fasththml-websockets-database/
-description: 
+description: FastHTML simplifies web dev with built-in SQLite support, WebSockets, and HTMX. It enables easy database setup, real-time updates, and server-side rendering. The article chronicles a shift from custom solutions to leveraging FastHTML's streamlined features for persistence and communication.
 layout: post
 ---
 

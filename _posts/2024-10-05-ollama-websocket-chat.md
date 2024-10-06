@@ -1,7 +1,7 @@
 ---
 title: Ollama Websocket Chat
 permalink: /ollama-websocket-chat/
-description: 
+description: WebSocket technology enables efficient real-time chat and responsive UIs, replacing older methods like polling. The article discusses various streaming techniques, including ZeroMQ, and proposes combining FastHTML HTMX with Ollama chat for a web-based AI chatbot.
 layout: post
 ---
 
