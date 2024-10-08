@@ -11,12 +11,16 @@ Starlette, which is built on Python (built on C, and so on). That sounds risky
 and fragile, but it's the smallest price of getting back into web development
 that I could find, and that requires a lot of buy-in.
 
+## Avoiding the Giant Reset Button of Tech
+
 Here's what I need to really learn and internalize. I the birth of a new
 framework (FastHTML, in this case) new conventions spring into being and you
 just have to learn them. New patterns, ugh! New things to train your brain to
 do. New muscle memory to learn to type. Ugh, it's a huge buy-in and investment
 and after some 30 to 40 years of the giant reset button of tech in the sky
 coming down to crush me, I approach it with caution.
+
+## The Birth of a Pythonic API Wrapper
 
 So we stay as close as possible to now timeless Python patterns. The heart of
 this thing isn't going away, and it's just how we finagle new framework patterns
@@ -32,7 +36,7 @@ example. There, he creates a new database object from an amorphous name space
 out of thin air...
 
 ```python
-db = database('data/utodos.db')
+db = database('data/todos.db')
 
 # Then you get your tables with
 todos,users = db.t.todos,db.t.users
@@ -40,6 +44,8 @@ todos,users = db.t.todos,db.t.users
 # Then you create dataclasses with
 Todo,User = todos.dataclass(),users.dataclass()
 ```
+
+### Go to Defninition of FastHTML
 
 That was the old way. This is a heck of a lot to remember for a databases system
 "built into" a framework. This apparently bothers other people as much as me, so
@@ -105,6 +111,8 @@ def fast_app(
     return app,app.route,*dbtbls
 ```
 
+## Unpacking Factory Class that Instantiates Multiple Objects
+
 And so there's a new database pattern born because this has morphed into
 something ***"wrapped"*** by `fast_app` like so:
 
@@ -123,6 +131,8 @@ to different locations where it's least damaging to the overall endeavor. And
 here, Jeremy has chosen to use a convenient wrapper class called `fast_app` very
 reminiscent of the super famous Flask pattern in the Python world...
 
+### The Flask Pattern
+
 ```python
 app = create_app()
 ```
@@ -133,6 +143,8 @@ are convenience wrappers for you the user and your hint-seeking code editor that
 wants to color-code and make pop-ups for you (Go to Definition), so `import *`
 is a tad less offensive. If you have no database, this pattern becomes:
 
+### The FastHTML Pattern
+
 ```python
 rt, app = fast_app()
 ```
@@ -141,14 +153,19 @@ And now if you look at the *return signature* of fast_app (with the
 aforementioned "Go to Definition" feature in your editor), you can see the
 reason for this...
 
+### Jeremy Splats Tables, And I Must Care
+
 ```python
 return app,app.route,*dbtbls
 ```
 
 If you stamp out an instance of the fast_app ***factory class***, you always at
 least get an ***instance*** of that class named `app`, thus mimicking the Flask
-API as these things do, ***and also an instance of an `rt` route*** class. This
-is so you can *route*, often to *root*. It's a root router. Oh, Jeremy.
+API (as these things do), but also always ***an instance of an `rt` route***
+class. This is so you can *route*, often to *root*. It's a root router. Oh,
+Jeremy.
+
+### If You Had More Time, Would You Have Made It Shorter?
 
 ```python
 @rt('/')
@@ -159,9 +176,17 @@ def get():
 It's clearly a poetic exercise for this framework developer, how to get the
 maximum descriptiveness out of the least code. He also seems to be an advocate
 of single-quotes over double because it's less to type, less to look at, yadda
-yadda. The `app` instance does more than just routing, so why look at it every
-time? Hence, returning both app and rt instead of forever forward making the
-user have to look at, think about, use and maintain `app.route()`.
+yadda. 
+
+### I'll Gladly Pay with Complexity Now For Simplicity Later
+
+The thing to understand is that this is sparing you, the developer, from having
+to look at lots of extraneous information. Jeremy is in pursuit of pure idioms.
+The `app` instance does more than just routing, so why look at it every time?
+Hence, returning both app and rt instead of forever forward making the user have
+to look at, think about, use and maintain `app.route()`.
+
+### Unconventional Conventions
 
 Yet, it's still a lot to grok, especially how it splats back optional database
 tables (`*dbtbls`). But we at least now have the `fast_app` factory class to
@@ -169,11 +194,39 @@ examine the Definition of and explore. All that ***convention*** of a
 convention-driven framework are moved up-front for examination to counter the
 argument that `from [package] import *` is bad form. 
 
-Jeremy also nullifies this argument with the `import fasthtml.common as ft` to
+It never hurts to `import this` and remind ones self...
+
+### The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
+
+And so, there's almost a violent reaction to `from fasthtml.core import *`.
+
+But Jeremy nullifies this argument with the `import fasthtml.common as ft` to
 keep your namespaces short and branded like panda's `pd` and numpy's `np`. Fine,
-but I'm with Jeremy on this. As whopping good of an idea namespaces are, a truly
+but I'm with Jeremy on this. As honking good of an idea namespaces are, a truly
 Python/HTML idiomatic framework where your paragraph tags are `P()` and your div
 tags are `Div()` is even better.
+
+## Iterable Database Object (via MiniDataAPI Spec)
 
 Back to splatting database table tuples. If you're going to splat database
 tables, it might as well be tuples of tables, am I right? Each tuple packs an
@@ -189,6 +242,14 @@ iterable ORM object in lower-case plural form, giving you your...
 [todo for x in todos()]
 ```
 
+Anyone who has stepped through database records in a CRUD (create, record,
+update, delete) will appreciate this convenience. It's a righteous union of
+Python list comprehensions with databases. Everything you have to do, you can
+pretty much do with `todo`, the object mapped to the actual records within the
+database. But what about the field types?
+
+### todos, todo and Todo... Oh My!
+
 But the second item in the returned tuple is what I previously thought was a
 **namedtuple** but I'm now coming to understand is the incredibly similar but
 somewhat more capable ***dataclass*** of a single record from the todo database.
@@ -196,6 +257,8 @@ It defines everything about a single record, so you can actually ***use those
 records*** different ways with your tooling knowing a lot about what to expect
 form a single instance of todo item, which will "fit" the `Todo` dataclass
 template.
+
+### Todo Dataclass Barely Used in FastHTML
 
 Now you can almost get away without using the upper-case singular dataclass
 `Todo` in the entire app, were it not for the pedantic type-casting movement
@@ -210,10 +273,15 @@ async def post_todo(todo: Todo):
     ### stuff...
 ```
 
-Your editor like VSCode or Cursor AI is not going to like it. What's a `Todo`,
-it's going to ask. It can't find it in any of the type definitions, so it's
-going to get rid squigglies from the Pylance plugin, or whatever. They don't yet
-know the FastHTML conventions.
+### Why The Red Squiggly?
+
+Your editor like VSCode or Cursor AI is not going to like these FastHTML
+database dataclasses splat back from fast_app. What's a `Todo`, it's going to
+ask. It can't find it in any of the type definitions, so it's going to get rid
+squigglies from the Pylance plugin, or whatever. They don't yet know the
+FastHTML conventions.
+
+### Pulling Back the Curtains to Reveal Conventions
 
 You can imagine what a surprise it is to discover and fully internalize the
 meaning of this at the top of the fast_app definition:
@@ -222,7 +290,8 @@ meaning of this at the top of the fast_app definition:
 db_file:Optional[str]=None, # Database file name, if needed
 ```
 
-...and this further down:
+...***IN PARAMETER POSITION #1***. And further down the fast_app definition, we
+find:
 
 ```python
 tbls:Optional[dict]=None, # Experimental mapping from DB table names to dict table definitions
@@ -234,10 +303,10 @@ tbls:Optional[dict]=None, # Experimental mapping from DB table names to dict tab
 return app,app.route,*dbtbls
 ```
 
-There's some missing parts where the `tbls` dict provided transforms into
-tuples of dbtbls. And there's some talk about `**kwargs` that have similar
-table definition capabilities as tbls, and that's what I had success with, for
-my final fast_app instantiation with the table schema...
+There's some missing parts where the `tbls` dict provided becomes tuples of
+dbtbls. And there's some talk about `**kwargs` that have similar table
+definition capabilities as tbls, and that's what I had success with, for my
+final fast_app instantiation with the table schema...
 
 ```python
 app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
@@ -267,6 +336,20 @@ Python dictionaries in which the name of the dictionary is the table (again,
 arbitrary as the unpacking names them later), and the field names as keys and
 the field data-types as the dict values.
 
-Experimential, he says. Ugh! Okay, be ready for the API to change, but at least
+## Live on the Fault Line, But Understand The Geology
+
+Experimental, he says. Ugh! Okay, be ready for the API to change, but at least
 understand it well. And even if the API changes on us, we understand the
 overarching framework, Python, that much better.
+
+At least all the stuff it's built on is not experimental. The experimental part
+is massaging an API into place to be the most idiomatic Python API for HTML...
+so you can work ***fast*** as Jeremy likes to use in his project naming
+conventions. So, live on the fault line but understand the geology.
+
+---
+
+Enough is enough! I am prepared. Time to leave Yoda and go off to Dagobah. My
+friends need me.
+
+
