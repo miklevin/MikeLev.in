@@ -1,7 +1,7 @@
 ---
 title: Unpacking FastHTML Databases
 permalink: /unpacking-fasthtml-databases/
-description: 
+description: The article explores the complexities and nuances of the FastHTML framework, emphasizing its layered architecture built on Python and Starlette. It discusses the challenges of adapting to new conventions while developing a Pythonic API wrapper, highlighting the importance of understanding evolving frameworks for effective web development.
 layout: post
 ---
 
