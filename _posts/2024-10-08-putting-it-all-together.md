@@ -117,6 +117,100 @@ app, rt, (users, User), (todos, Todo) = fast_app(
 
 So, uh yeah this took me a long time to... unpack.
 
+Every system has its weirdness, and that weirdness comes into being in order to
+crack difficult problems. Complexity rarely goes away. It's just shoved around
+to different locations where it's least damaging to the overall endeavor. And
+here, Jeremy has chosen to use a convenient wrapper class called `fast_app` very
+reminiscent of the super famous Flask pattern in the Python world...
 
+```python
+app = create_app()
+```
 
+...but now in FastHTML, it's a `fast_app` instead of just an app, and it returns
+multiple things. This is where convention kicks into overdrive. Remember, these
+are convenience wrappers for you the user and your hint-seeking code editor that
+wants to color-code and make pop-ups for you (Go to Definition), so `import *`
+is a tad less offensive. If you have no database, this pattern becomes:
 
+```python
+rt, app = fast_app()
+```
+
+And now if you look at the *return signature* of fast_app (with the
+aforementioned "Go to Definition" feature in your editor), you can see the
+reason for this...
+
+```python
+return app,app.route,*dbtbls
+```
+
+If you stamp out an instance of the fast_app ***factory class***, you always at
+least get an ***instance*** of that class named `app`, thus mimicking the Flask
+API as these things do, ***and also an instance of an `rt` route*** class. This
+is so you can *route*, often to *root*. It's a root router. Oh, Jeremy.
+
+```python
+@rt('/')
+def get():
+    ...
+```
+
+It's clearly a poetic exercise for this framework developer, how to get the
+maximum descriptiveness out of the least code. He also seems to be an advocate
+of single-quotes over double because it's less to type, less to look at, yadda
+yadda. The `app` instance does more than just routing, so why look at it every
+time? Hence, returning both app and rt instead of forever forward making the
+user have to look at, think about, use and maintain `app.route()`.
+
+Yet, it's still a lot to grok, especially how it splats back optional database
+tables (`*dbtbls`). But we at least now have the `fast_app` factory class to
+examine the Definition of and explore. All that ***convention*** of a
+convention-driven framework are moved up-front for examination to counter the
+argument that `from [package] import *` is bad form. 
+
+Jeremy also nullifies this argument with the `import fasthtml.common as ft` to
+keep your namespaces short and branded like panda's `pd` and numpy's `np`. Fine,
+but I'm with Jeremy on this. As whopping good of an idea namespaces are, a truly
+Python/HTML idiomatic framework where your paragraph tags are `P()` and your div
+tags are `Div()` is even better.
+
+Back to splatting database table tuples. If you're going to splat database
+tables, it might as well be tuples of tables, am I right? Each tuple packs an
+iterable ORM object in lower-case plural form, giving you your...
+
+```python
+[x for x in todos()]
+```
+
+...magical list comprehension pattern, which you'll see more often as:
+
+```python
+[todo for x in todos()]
+```
+
+But the second item in the returned tuple is what I previously thought was a
+**namedtuple** but I'm now coming to understand is the incredibly similar but
+somewhat more capable ***dataclass*** of a single record from the todo database.
+It defines everything about a single record, so you can actually ***use those
+records*** different ways with your tooling knowing a lot about what to expect
+form a single instance of todo item, which will "fit" the `Todo` dataclass
+template.
+
+Now you can almost get away without using the upper-case singular dataclass
+`Todo` in the entire app, were it not for the pedantic type-casting movement
+that has for better or for worse swept through the Python community. So now if
+you want to build something that's going to do stuff with a database and you
+want it to go through at least ***some sanitizing***, you can define your router
+endpoints using the dataclass on your parameter type definition.
+
+```python
+@rt('/todo')
+async def post_todo(todo: Todo):
+    ### stuff...
+```
+
+Your editor like VSCode or Cursor AI is not going to like it. What's a Todo,
+it's going to ask. It can't find it in any of the type definitions, so it's
+going to get rid squigglies from the Pylance plugin, or whatever. They don't yet
+know the FastHTML conventions.
