@@ -364,13 +364,30 @@ names*** are used as ***dict keys*** and ***field types*** as ***dict values***.
 ## Live on the Fault Line, But Understand The Geology
 
 Experimental, he says. Ugh! Okay, be ready for the API to change, but at least
-understand it well. And even if the API changes on us, we understand the
-overarching framework, Python, that much better.
+understand it well. FastHTML is a grab-back of goodies, and the most common ones
+are put in `fasthtml.common` which get imported into global namespace for Python
+functions that look like HTML tags. 
 
-At least all the stuff it's built on is not experimental. The experimental part
-is massaging an API into place to be the most idiomatic Python API for HTML...
-so you can work ***fast*** as Jeremy likes to use in his project naming
-conventions. So, live on the fault line but understand the geology.
+```python
+app, rt, (user, Users), (todos, Todo) = fast_app('data/data.db',  
+    ...
+    )
+```
+
+After that, the creation of an `app`, `rt`, and optional (`db_handle`,
+`Field_definitions`) database tuples occurs. And the `app` instance is
+chock-full-o-goodies twisting stuff from Starlette, HTMX, PicoCSS and unlimited
+potential other places this way and that for conventional convenience that may
+take a lifetime to understand if you're not Jeremy.
+
+But even if it is experimential and the API changes on us, we understand the
+overarching framework, Python, that much better... plus how Jeremy things and
+can guess at surprise refinements.
+
+At least all the Python tricks FastHTML is built on is not experimental. The
+experimental part is massaging an API into place to be the most idiomatic Python
+API for HTML... so you can work ***fast*** as Jeremy likes to use in his project
+naming conventions. So, live on the fault line but understand the geology.
 
 ---
 
