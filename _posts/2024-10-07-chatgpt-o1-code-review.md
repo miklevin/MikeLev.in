@@ -1,17 +1,22 @@
 ---
-title: This Also Becomes Your H1
-permalink: /slug/
-description: Becomes your meta description.
+title: A ChatGPT o1-Preview Code Review
+permalink: /chatgpt-o1-preview-code-review/
+description: Building the next generation of Pipulate with FastHTML has been challenging but rewarding. After overcoming hurdles with HTMX and real-time streaming, I'm excited about the potential for powerful local web apps built in Python, easily shareable across platforms. 
 layout: post
 ---
 
-Well, the next generation Pipulate is born. I have overcome some crazy hurdles
-and feel there shouldn't have been those hurdles because FastHTML is supposed to
-be so easy for Python people. But here's the rub: HTMX, awesome as it is, is
-weird. Updating fragments of a page is full of nuance and subtlety. Many things
-are, but encountering all of it as hurdles to a first project on a new platform
-can be daunting. I had to back up, pivot and refactor more than once. But I did
-it and found a sweet spot. A very, very sweet spot.
+Now it's time to step through the app methodically and look for weak points. I
+still haven't implemented login, as this is a 1-tenant app for now. I'll put
+login in eventually and make sure things like session are implemented in a
+multi-user friendly way for real web deployment.
+
+The next generation Pipulate is basically born. I have overcome some crazy
+hurdles and feel there shouldn't have been those hurdles because FastHTML is
+supposed to be so easy for Python people. But here's the rub: HTMX, awesome as
+it is, is weird. Updating fragments of a page is full of nuance and subtlety.
+Many things are, but encountering all of it as hurdles to a first project on a
+new platform can be daunting. I had to back up, pivot and refactor more than
+once. But I did it and found a sweet spot. A very, very sweet spot.
 
 Now I'm not doing screenshots and videos here, though that would help a lot with
 what I'm talking about, but I'm going as fast and furious as I can. Working fast
@@ -70,7 +75,6 @@ But most things are represented as files in folders or directories you can move
 around through typing to change your ***current directory***. The directory
 you're in when you start a development environment is important. You can start
 different development environments. A development environment that's
-
 
 And now finally we get to the Pipulate sofware itself.
 
@@ -721,7 +725,4 @@ how to stop and start it as a systemd service, I suspect. Something's running as
 a service when when ollama quits in order to re-launch it. So bottom line, I
 check that the first fix suggested above over on the Mac, and it checks out
 good. One prompt from o1-preview, one fix.
-
-
-
 
