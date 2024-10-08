@@ -257,7 +257,7 @@ something called a `render` object comes into play later to accomodate for
 Anyone who has stepped through database records in a CRUD (create, record,
 update, delete) will appreciate this convenience. It's a righteous union of
 Python list comprehensions with databases. Everything you have to do, you can
-pretty much do with `todo`, the object mapped to the actual records within the
+pretty much do with `todos`, the object mapped to the actual records within the
 database. 
 
 But what about the field types? How do you ***know*** what the fields in the
@@ -265,7 +265,15 @@ database are?
 
 ### todos, todo and Todo... Oh My!
 
-But the second item in the returned tuple is what I previously thought was a
+```python
+# Unpack the returned tuple from fast_app
+app, rt, (users, User), (todos, Todo) = fast_app(
+    "data/pipulate.db",
+    ...
+)
+```
+
+The ***second item in each tuple*** is what I previously thought was a
 **namedtuple** but I'm now coming to understand is the incredibly similar but
 somewhat more capable ***dataclass*** of a single record from the todo database.
 It defines everything about a single record, so you can actually ***use those
@@ -274,7 +282,7 @@ form a single instance of todo item, which will "fit" the `Todo` dataclass
 template.
 
 You can always look at one of these ***dataclasses*** by `print(Todo)`'ing it
-out, but it will just look like a function with field defintions. Those field
+out, but it will just look like a function with field definitions. Those field
 definitions are the point.
 
 ### Todo Dataclass Barely Used in FastHTML
@@ -348,12 +356,10 @@ app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
 )
 ```
 
-The words being used as parameter names `store` and `todo` are arbitrary. The
-"come in at the end" of the fast_html defined parameters, and so get recognized
-and parsed at the end, and in this case, finds and uses table definitions as
-Python dictionaries in which the name of the dictionary is the table (again,
-arbitrary as the unpacking names them later), and the field names as keys and
-the field data-types as the dict values.
+The words being used as parameter names `store` and `todo` are arbitrary. They
+come in at the end of the fast_html defined parameters, and thus by convention
+get recognized and parsed in this case as table definitions. The ***field
+names*** are used as ***dict keys*** and ***field types*** as ***dict values***.
 
 ## Live on the Fault Line, But Understand The Geology
 
@@ -465,3 +471,7 @@ part of ***80/20-rule solutions*** and ***chasing rabbits down rabbit hole
 evaluations***. You may not be happy with the answers from either if you're a
 purist, but get on with it already! Enough dodging the critical next step of
 making the app that the framework exists to simplify making!
+
+So I'm forsaking multi-user tenant stuff on the first iteration of this to move
+forward fast, but I have cookie-like name/value-pair persistence through anther
+mechanism (still within FastHTML framework) that I can map back later.
