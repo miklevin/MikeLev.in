@@ -5,11 +5,13 @@ description: The article explores the complexities and nuances of the FastHTML f
 layout: post
 ---
 
-I have dove deep into FastHTML. Talk about all-in. I'm building a framwork on a
-framwork on a framework, as Pipulate is built on FastHTML which is built on
-Starlette, which is built on Python (built on C, and so on). That sounds risky
-and fragile, but it's the smallest price of getting back into web development
-that I could find, and that requires a lot of buy-in.
+I dove deep into FastHTML building a framwork on a framwork on a framework, as
+Pipulate is built on FastHTML which is built on Starlette, which is built on
+Python (built on C, and so on). That sounds risky and fragile, but it's the
+smallest price of getting back into web development that I could find, and that
+requires a lot of buy-in. This article is quite literally about unpacking the
+database components of that buy-in, and why it's worth taking up as a new thing
+in my 50s that I think will last for the rest of my life.
 
 ## Avoiding the Giant Reset Button of Tech
 
