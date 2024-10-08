@@ -243,11 +243,25 @@ iterable ORM object in lower-case plural form, giving you your...
 [todo for x in todos()]
 ```
 
+Notice the necessity to use parenthesis `()` on the todos object. That means it
+has to be called to get an iterable list. It's a `callable` but not an
+`iterable` unitil it's called (the use of parenthesis) with its default
+invokaton method (the lack of anything in the parenthesis).
+
+It takes groking, but is very convenient once you do, especially given how
+something called a `render` object comes into play later to accomodate for
+`HTMX`'s delightful anti-patterns that will infuriate full-stack webdevs.
+
+### CRUD Without the Cruft
+
 Anyone who has stepped through database records in a CRUD (create, record,
 update, delete) will appreciate this convenience. It's a righteous union of
 Python list comprehensions with databases. Everything you have to do, you can
 pretty much do with `todo`, the object mapped to the actual records within the
-database. But what about the field types?
+database. 
+
+But what about the field types? How do you ***know*** what the fields in the
+database are?
 
 ### todos, todo and Todo... Oh My!
 
@@ -258,6 +272,10 @@ It defines everything about a single record, so you can actually ***use those
 records*** different ways with your tooling knowing a lot about what to expect
 form a single instance of todo item, which will "fit" the `Todo` dataclass
 template.
+
+You can always look at one of these ***dataclasses*** by `print(Todo)`'ing it
+out, but it will just look like a function with field defintions. Those field
+definitions are the point.
 
 ### Todo Dataclass Barely Used in FastHTML
 
