@@ -540,3 +540,6 @@ o1-Preview the porting challange before me.
 I'm not going to ask it to explicitly do the work for me, as it will likely get
 it wrong and results in me losing control of the code. Rather... well, that's
 for the next article. To be continued...
+
+Oh, and I must not forget to check out the [FastHTML
+Gallery](https://gallery.fastht.ml/)
