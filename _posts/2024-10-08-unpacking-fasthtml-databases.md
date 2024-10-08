@@ -391,8 +391,12 @@ naming conventions. So, live on the fault line but understand the geology.
 
 ---
 
+## Help Your Friends or Learn The Force?
+
 Enough is enough! I am prepared. Time to leave Yoda and go off to Dagobah. My
 friends need me.
+
+### The 80/20-Rule & Rabbit Hole Evaluation
 
 The rabbit holes I'm ignoring for now is login, as I will program this web app
 in signle-tenant mode for simplicy getting out of the starting gate. I will
@@ -489,6 +493,28 @@ evaluations***. You may not be happy with the answers from either if you're a
 purist, but get on with it already! Enough dodging the critical next step of
 making the app that the framework exists to simplify making!
 
+### Persistence, But Only To a Point
+
 So I'm forsaking multi-user tenant stuff on the first iteration of this to move
 forward fast, but I have cookie-like name/value-pair persistence through anther
 mechanism (still within FastHTML framework) that I can map back later.
+
+I am also forsaking re-ordering Todo lists. That reordering will be critical
+later, but I am confident I can layer it in later. Here, let me put a priority
+int field in the todo table for using later...
+
+```python
+todos={
+    "id": int,
+    "title": str,
+    "done": bool,
+    "priority": int,
+    "profile_id": str,  # Added profile_id to todos
+    "pk": "id"  # Primary key for todos
+},
+```
+
+There, I won't have to recreate or transform all my tables, and the field will
+just be invisibly there until I implement drag-and-drop sorting with the
+SortableJS library like in the tutorial. Rabbit hole noted, put on the
+explore-later map and not jumped into!
