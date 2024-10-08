@@ -15,14 +15,19 @@ in my 50s that I think will last for the rest of my life.
 
 ## Avoiding the Giant Reset Button of Tech
 
-Here's what I need to really learn and internalize. I the birth of a new
-framework (FastHTML, in this case) new conventions spring into being and you
-just have to learn them. New patterns, ugh! New things to train your brain to
-do. New muscle memory to learn to type. Ugh, it's a huge buy-in and investment
-and after some 30 to 40 years of the giant reset button of tech in the sky
-coming down to crush me, I approach it with caution.
+This article covers those parts of FastHTML that I have to learn and
+internalize--***FAST***. With the birth of a new framework (FastHTML, in this
+case), new conventions spring into being. You just have to learn them. This is
+why examples and tutorials are so important up-front.
 
-## The Birth of a Pythonic API Wrapper
+### There Goes My Precious Muscle Memory Again
+
+New patterns, ugh! New things to train your brain to do. New muscle memory to
+learn to type. Ugh, it's a huge buy-in and investment and after some 30 to 40
+years of the giant reset button of tech in the sky coming down to crush me, I
+approach it with caution.
+
+## Wrapping Python Functions Changes the Interface
 
 So we stay as close as possible to now timeless Python patterns. The heart of
 this thing isn't going away, and it's just how we finagle new framework patterns
@@ -36,6 +41,8 @@ nothingness from the `from fasthtml.common import *` in the
 [examples/adv_app.py](https://github.com/AnswerDotAI/fasthtml/blob/main/examples/adv_app.py)
 example. There, he creates a new database object from an amorphous name space
 out of thin air...
+
+### The Old FastHTML Interface
 
 ```python
 db = database('data/todos.db')
@@ -118,6 +125,8 @@ def fast_app(
 And so there's a new database pattern born because this has morphed into
 something ***"wrapped"*** by `fast_app` like so:
 
+### The New FastHTML Interface
+
 ```python
 # Unpack the returned tuple from fast_app
 app, rt, (users, User), (todos, Todo) = fast_app(
@@ -156,7 +165,7 @@ And now if you look at the *return signature* of fast_app (with the
 aforementioned "Go to Definition" feature in your editor), you can see the
 reason for this...
 
-### Jeremy Splats Tables, And I Must Care
+### Jeremy Splats Tables... and I *Must Care*
 
 ```python
 return app,app.route,*dbtbls
