@@ -531,3 +531,12 @@ There, I won't have to recreate or transform all my tables, and the field will
 just be invisibly there until I implement drag-and-drop sorting with the
 SortableJS library like in the tutorial. Rabbit hole noted, put on the
 explore-later map and not jumped into!
+
+Once again this article was going to be about the port, but it was about making
+sure I don't screw it up. And so, we cut this article here as I take a deep
+breath and prepare myself to lay out to Claude 3.5 Sonnet and OpenAI ChatGPT
+o1-Preview the porting challange before me.
+
+I'm not going to ask it to explicitly do the work for me, as it will likely get
+it wrong and results in me losing control of the code. Rather... well, that's
+for the next article. To be continued...
