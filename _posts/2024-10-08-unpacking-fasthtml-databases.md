@@ -499,6 +499,8 @@ So I'm forsaking multi-user tenant stuff on the first iteration of this to move
 forward fast, but I have cookie-like name/value-pair persistence through anther
 mechanism (still within FastHTML framework) that I can map back later.
 
+### Deferring Todo Drag-and-Drop List Sorting
+
 I am also forsaking re-ordering Todo lists. That reordering will be critical
 later, but I am confident I can layer it in later. Here, let me put a priority
 int field in the todo table for using later...
