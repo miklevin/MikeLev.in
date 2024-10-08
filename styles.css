@@ -880,11 +880,6 @@ nav a.current {
   width: 48%;
 }
 
-.hplg {
-  padding: 0vw 0vw 2vw 0vw;
-  width: 48%;
-}
-
 .mermaid {
   display: block;
   overflow: auto;
