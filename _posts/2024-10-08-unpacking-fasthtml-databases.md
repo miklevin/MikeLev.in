@@ -122,6 +122,7 @@ app, rt, (users, User), (todos, Todo) = fast_app(
     "data/pipulate.db",
     ...
 )
+```
 
 So, uh yeah this took me a long time to... unpack.
 
