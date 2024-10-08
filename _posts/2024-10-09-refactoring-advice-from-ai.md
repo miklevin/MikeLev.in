@@ -1,7 +1,7 @@
 ---
-title: This Also Becomes Your H1
-permalink: /slug/
-description: Becomes your meta description.
+title: AI-Generated Refactoring Advice from Top LLM Models
+permalink: /ai-generated-refactoring-advice/
+description:
 layout: post
 date: 2024-10-08
 ---
