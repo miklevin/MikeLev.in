@@ -1,6 +1,6 @@
 ---
-title: Putting It All Together
-permalink: /putting-it-all-together/
+title: Unpacking FastHTML Databases
+permalink: /unpacking-fasthtml-databases/
 description: 
 layout: post
 ---
@@ -352,4 +352,97 @@ conventions. So, live on the fault line but understand the geology.
 Enough is enough! I am prepared. Time to leave Yoda and go off to Dagobah. My
 friends need me.
 
+The rabbit holes I'm ignoring for now is login, as I will program this web app
+in signle-tenant mode for simplicy getting out of the starting gate. I will
+leave the wedges for it in there. I believe a cookie/dict-like persistent object
+is available in session if you log in, but I went and made my own persistence
+table. That's the data store:
 
+```python
+store={
+    "key": str,
+    "value": str,
+    "pk": "key"  # Primary key for the store
+},
+```
+
+...and I gave it a very literal dict API which I expect I'll map to the formal
+built-in sessions one in the future. But for now, here's how a SQL-like row and
+column database that gets the `MiniDataAPI` API becomes a `dict` handling such
+classics as knowing whether to insert or update on a `db["key"] = value`
+assignment:
+
+```python
+# *******************************
+# DictLikeDB Persistence Convenience Wrapper
+# *******************************
+class DictLikeDB:
+    """A wrapper class for a dictionary-like database to simplify access."""
+    
+    def __init__(self, store, Store):
+        self.store = store  # Store reference
+        self.Store = Store  # Store class reference
+
+    def __getitem__(self, key):
+        """Retrieve an item from the store by key."""
+        try:
+            return self.store[key].value  # Return the value associated with the key
+        except NotFoundError:
+            raise KeyError(key)  # Raise KeyError if not found
+
+    def __setitem__(self, key, value):
+        """Set an item in the store by key."""
+        try:
+            # Try to update existing item
+            self.store.update({"key": key, "value": value})
+        except NotFoundError:
+            # If it doesn't exist, insert a new item
+            self.store.insert({"key": key, "value": value})
+
+    def __delitem__(self, key):
+        """Delete an item from the store by key."""
+        try:
+            self.store.delete(key)  # Delete the item
+        except NotFoundError:
+            raise KeyError(key)  # Raise KeyError if not found
+
+    def __contains__(self, key):
+        """Check if a key exists in the store."""
+        return key in self.store
+
+    def __iter__(self):
+        """Iterate over the keys in the store."""
+        for item in self.store():
+            yield item.key  # Yield each key
+
+    def items(self):
+        """Return key-value pairs in the store."""
+        for item in self.store():
+            yield item.key, item.value  # Yield key-value pairs
+
+    def keys(self):
+        """Return a list of keys in the store."""
+        return list(self)
+
+    def values(self):
+        """Return values in the store."""
+        for item in self.store():
+            yield item.value  # Yield each value
+
+    def get(self, key, default=None):
+        """Get an item from the store, returning default if not found."""
+        try:
+            return self[key]  # Attempt to retrieve the item
+        except KeyError:
+            return default  # Return default if not found
+
+# Create the wrapper
+db = DictLikeDB(store, Store)
+```
+
+It's a big hunk of code to put into my own framework on a framework on a
+framework that probably has it somewhere already, but for now... well, that's
+part of ***80/20-rule solutions*** and ***chasing rabbits down rabbit hole
+evaluations***. You may not be happy with the answers from either if you're a
+purist, but get on with it already! Enough dodging the critical next step of
+making the app that the framework exists to simplify making!
