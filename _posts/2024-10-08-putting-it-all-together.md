@@ -210,7 +210,63 @@ async def post_todo(todo: Todo):
     ### stuff...
 ```
 
-Your editor like VSCode or Cursor AI is not going to like it. What's a Todo,
+Your editor like VSCode or Cursor AI is not going to like it. What's a `Todo`,
 it's going to ask. It can't find it in any of the type definitions, so it's
 going to get rid squigglies from the Pylance plugin, or whatever. They don't yet
 know the FastHTML conventions.
+
+You can imagine what a surprise it is to discover and fully internalize the
+meaning of this at the top of the fast_app definition:
+
+```python
+db_file:Optional[str]=None, # Database file name, if needed
+```
+
+...and this further down:
+
+```python
+tbls:Optional[dict]=None, # Experimental mapping from DB table names to dict table definitions
+```
+
+...and then finally, this at the bottom:
+
+```python
+return app,app.route,*dbtbls
+```
+
+There's some missing parts where the `tbls` dict provided transforms into
+tuples of dbtbls. And there's some talk about `**kwargs` that have similar
+table definition capabilities as tbls, and that's what I had success with, for
+my final fast_app instantiation with the table schema...
+
+```python
+app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
+    "data/pipulate.db",  # Database file path
+    ws_hdr=True,  # Enable WebSocket headers
+    live=True,  # Enable live updates
+    render=render,  # Set the render function for todos
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"  # Primary key for the store
+    },
+    todos={
+        "id": int,
+        "title": str,
+        "done": bool,
+        "profile_id": str,  # Added profile_id to todos
+        "pk": "id"  # Primary key for todos
+    },
+)
+```
+
+The words being used as parameter names `store` and `todo` are arbitrary. The
+"come in at the end" of the fast_html defined parameters, and so get recognized
+and parsed at the end, and in this case, finds and uses table definitions as
+Python dictionaries in which the name of the dictionary is the table (again,
+arbitrary as the unpacking names them later), and the field names as keys and
+the field data-types as the dict values.
+
+Experimential, he says. Ugh! Okay, be ready for the API to change, but at least
+understand it well. And even if the API changes on us, we understand the
+overarching framework, Python, that much better.
