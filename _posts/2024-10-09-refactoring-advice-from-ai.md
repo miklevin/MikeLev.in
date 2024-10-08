@@ -3,6 +3,7 @@ title: This Also Becomes Your H1
 permalink: /slug/
 description: Becomes your meta description.
 layout: post
+date: 2024-10-08
 ---
 
 It's time to get some refactoring advice from AI. But I'm going to give it
@@ -2850,5 +2851,29 @@ sentencepiece
 This flake configuration now adheres to your specified setup, where all Python dependencies are managed through `requirements.txt`, giving you flexibility in managing and updating the environment with standard Python tools
 
  like `pip`. Let me know if there’s anything else to refine or adjust!
+
+---
+
+# Deep Breath Before the Port
+
+Okay, so we are blending 2 apps together. 
+
+Ugh, this switch to Cursor AI... it's not like I'm giving up vim. Nobody ever
+really gives up vim. We learn to make due between those times when vim is our
+main text editor by filling it up with a fad. Today's fad, ladies and gentlemen,
+is Cursor AI, and I'm getting the most of it.
+
+I'm moving both the Pipulate `flake.nix` an `pipulate.py` file into the
+Botifython folder. Then I should be able to `nix develop` after a few
+precautions, such as deleting the old `flake.lock` and doing a `nix
+collect-gabage` command. It's to "clear the cache" such as it were. And now I
+have tested that I can successfully run either app from out of that folder,
+with:
+
+- python server.py
+- python pipulate.py
+
+Both confirmed. So, I make the 3rd version `botifython.py` based on pipulate.py
+and run that. Bingo! I've got a place to start working.
 
 
