@@ -3,7 +3,6 @@ title: AI-Generated Refactoring Advice from Top LLM Models
 permalink: /ai-generated-refactoring-advice/
 description:
 layout: post
-date: 2024-10-08
 ---
 
 It's time to get some refactoring advice from AI. But I'm going to give it

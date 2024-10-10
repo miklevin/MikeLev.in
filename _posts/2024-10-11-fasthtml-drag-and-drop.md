@@ -1,7 +1,7 @@
 ---
-title: This Also Becomes Your H1
-permalink: /slug/
-description: Becomes your meta description.
+title: FastHTML and SortableJS For Sortable Todo Lists
+permalink: /fasthtml-sortablejs-todo/
+description: 
 layout: post
 ---
 
@@ -318,5 +318,71 @@ post back to an HTMX endpoint. Esentially simplify the instructions based on how
 far I got already. Drag and drop is working! But it's only superficial. I need
 to make the rubber hit the road. Or maybe the new sort order hit the MiniDataAPI
 spec todos object.
+
+Fast-forward to end of an epic adventure, and I am free from API-constraints
+when it's just passing stuff through. I can pass stuff through too! 
+
+```python
+app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
+    # ...
+    hdrs=(
+        SortableJSWithUpdate('.sortable', update_url='/update_todo_order'),
+        Script(type='module')
+    ),
+    # ...
+)
+```
+
+And so, I'm forcing it to include the ability to use module scripts, or else
+even the below stuff that I'm spewing in as raw JavaScript would leak out of the
+head element. This works...
+
+```python
+def SortableJSWithUpdate(
+    sel='.sortable',
+    ghost_class='blue-background-class',
+    update_url='/update_todo_order'
+):
+    src = f"""
+import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
+
+document.addEventListener('DOMContentLoaded', (event) => {{
+    console.log('SortableJSWithUpdate script is running!');
+    const el = document.querySelector('{sel}');
+    if (el) {{
+        new Sortable(el, {{
+            animation: 150,
+            ghost_class: '{ghost_class}',
+            onEnd: function (evt) {{
+                console.log('Drag ended!', evt);
+                let items = Array.from(el.children).map((item, index) => ({{
+                    id: item.dataset.id,
+                    priority: index
+                }}));
+                console.log('New order:', items);
+
+                let updateUrl = el.id === 'profile-list' ? '/update_profile_order' : '{update_url}';
+                htmx.ajax('POST', updateUrl, {{
+                    target: el,  // Use the element directly instead of a selector
+                    swap: 'none',
+                    values: {{
+                        items: JSON.stringify(items)
+                    }}
+                }});
+            }}
+        }});
+    }} else {{
+        console.error('Sortable element not found:', '{sel}');
+    }}
+}});
+"""
+    return Script(src, type='module')
+```
+
+So, you might say I got that sorted, haha! Well, if you think those client-side
+shenanigans are fun to know the id-to-priority mappings, you'll love what it
+takes to carry out these client-side initiated JavaScript `htmx-ajax` calls to
+the server, through API endpoints you just blend in with the webpages under
+FastHTML like it's no big.
 
 
