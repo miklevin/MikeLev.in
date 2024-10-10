@@ -385,4 +385,25 @@ takes to carry out these client-side initiated JavaScript `htmx-ajax` calls to
 the server, through API endpoints you just blend in with the webpages under
 FastHTML like it's no big.
 
+Here's what the update endpoint looks like:
 
+```python
+@rt('/update_todo_order', methods=['POST'])
+async def update_todo_order(values: dict):
+    try:
+        items = json.loads(values.get('items', '[]'))
+        for item in items:
+            todos.update(id=int(item['id']), priority=int(item['priority']))
+        return items
+    except Exception as e:
+        return str(e), 500  # Return the error message and a 500 status code
+```
+
+A cascading update! There's no transaction mode, so brute force and risking
+integrity it is, but `MiniDataAPI` spec only exposes so much (lowest common
+demominator) database capability.
+
+But people researching this hot topic of how to redorder and sort todo list
+items from the FastHTML tutorial and encountered SortableJS but didn't know how
+to implement the JavaScript front-end/Python back-end endpoint to commit the
+previously "fake" sort into a "real" one might find this useful.
