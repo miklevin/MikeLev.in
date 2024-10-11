@@ -1,7 +1,7 @@
 ---
 title: Understanding FastHTML's Framework Opinions
 permalink: /fast-html-framework-opinions/
-description: Comming to grips with how opinionated a framework FastHTML really is, but deciding it's still worth it, if I can decipher the intuitively correct feeling HTMX approach, coupled with Python functions named for HTML tags.`
+description: Comming to grips with how opinionated a framework FastHTML really is, but deciding it's still worth it, if I can decipher the intuitively correct feeling HTMX approach, coupled with Python functions named for HTML tags.
 layout: post
 ---
 
