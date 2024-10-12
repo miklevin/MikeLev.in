@@ -905,3 +905,60 @@ Li(
 ### Final Thoughts
 
 By applying these updates, you should have better control over the widths of your menu items, todo items, and profile items, ensuring they remain visually appealing and functional without disrupting the layout of your application. This approach also improves the user experience by preventing text from overflowing or breaking the design.
+
+---
+
+> Let's get this porta-party started!
+
+Ah, I see what you're getting at. The `TODO` dictionary in your FastHTML configuration is used to define the schema for the `todos` table, and the `todos` object is an instance of a class (likely `MiniDataAPI` or similar) that interacts with this table. The refactor should ensure that the `TodoApp` class uses this configuration to manage its data.
+
+### Understanding the Refactor
+
+1. **Schema Definition**: The `TODO` dictionary defines the schema for the `todos` table. This schema is used by the `MiniDataAPI` to interact with the database.
+
+2. **Data Insertion**: The `todos.insert()` method uses this schema to insert data into the `todos` table. The `TODO` dictionary is used to ensure that the data being inserted matches the expected structure.
+
+### Integration with `TodoApp`
+
+To integrate `TodoApp` with this setup, you need to ensure that `TodoApp` uses the `todos` object for its data operations. Here's how you can achieve this:
+
+1. **Use the `todos` Object**: Ensure that the `TodoApp` class uses the `todos` object for all CRUD operations. This means that the `table` attribute in `BaseApp` should be set to `todos`.
+
+2. **Refactor `TodoApp` Initialization**: Modify the `TodoApp` class to use the `todos` object directly.
+
+### Example Refactor
+
+Here's how you might refactor the `TodoApp` class to use the `todos` object:
+
+```python
+class TodoApp(BaseApp):
+    def __init__(self):
+        # Use the existing `todos` object for the table
+        self.table = todos
+        self.name = 'todo'
+        self.schema = TODO
+        self.register_routes()
+
+    def render_item(self, todo):
+        # Custom rendering logic for a todo item
+        return {
+            "id": todo.id,
+            "title": todo.title,
+            "done": todo.done,
+            "priority": todo.priority,
+            "profile_id": todo.profile_id
+        }
+```
+
+### Explanation
+
+- **Direct Use of `todos`**: The `TodoApp` class directly uses the `todos` object, which is already configured with the `TODO` schema. This ensures that all data operations are consistent with the schema defined in the FastHTML configuration.
+
+- **Schema Consistency**: By using the `TODO` dictionary, you ensure that the data structure is consistent across the application.
+
+### Testing
+
+- **Run Tests**: After refactoring, run your test suite to ensure that the `TodoApp` functionality is working as expected.
+- **Manual Testing**: Perform manual testing to verify that the `TodoApp` routes are accessible and that CRUD operations work correctly.
+
+This approach ensures that the `TodoApp` is fully integrated with the FastHTML configuration, leveraging the existing schema and data management setup.
