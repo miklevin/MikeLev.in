@@ -962,3 +962,364 @@ class TodoApp(BaseApp):
 - **Manual Testing**: Perform manual testing to verify that the `TodoApp` routes are accessible and that CRUD operations work correctly.
 
 This approach ensures that the `TodoApp` is fully integrated with the FastHTML configuration, leveraging the existing schema and data management setup.
+
+---
+
+To parameterize the table name from the start and ensure collision avoidance, you can follow these explicit steps:
+
+### Step 1: Modify `BaseApp` to Accept a Table Name
+
+Update the `BaseApp` class to accept a table name as a parameter. This will allow you to specify different table names for different instances, avoiding collisions.
+
+```python:botifython.py
+class BaseApp:
+    def __init__(self, name, schema, table_name=None):
+        self.name = name
+        self.schema = schema
+        self.table_name = table_name or self.name.upper()
+        self.table = MiniDataAPI(self.table_name, self.schema)
+        self.register_routes()
+
+    def register_routes(self):
+        rt(f'/{self.name}')(self.get_items)
+        rt(f'/{self.name}', methods=['POST'])(self.create_item)
+        rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+
+    # ... rest of the class remains unchanged ...
+```
+
+### Step 2: Update `TodoApp` to Use the Parameterized Table Name
+
+Modify the `TodoApp` class to pass the desired table name when initializing `BaseApp`.
+
+```python:botifython.py
+class TodoApp(BaseApp):
+    def __init__(self, table_name='TODO'):
+        super().__init__(name='todo', schema=TODO, table_name=table_name)
+
+    def render_item(self, todo):
+        return {
+            "id": todo.id,
+            "title": todo.title,
+            "done": todo.done,
+            "priority": todo.priority,
+            "profile_id": todo.profile_id
+        }
+```
+
+### Step 3: Instantiate `TodoApp` with a Custom Table Name
+
+When you create an instance of `TodoApp`, specify the table name to avoid collisions.
+
+```python:botifython.py
+# Create a TodoApp instance with a custom table name
+todo_app_instance = TodoApp(table_name='CUSTOM_TODO')
+```
+
+### Step 4: Ensure Compatibility with the Rest of Your Application
+
+Make sure that the rest of your application is compatible with this change. This might involve updating any references to the `todos` table to use the new `todo_app_instance.table`.
+
+### Step 5: Update Tests to Reflect the Changes
+
+Ensure that your test suite is updated to reflect these changes. You may need to adjust the tests to interact with the new `TodoApp` instance and its table.
+
+```python:test_botifython.py
+def test_create_todo_with_custom_table(self):
+    new_todo = {"title": "Test Todo Item"}
+    response = requests.post(f"{self.base_url}/CUSTOM_TODO", data=new_todo)
+    status = "Success" if response.status_code == 200 else "Failure"
+    self.add_result(self.find_config_entry("test_create_todo"), status, "Created new todo with custom table")
+    self.assertEqual(response.status_code, 200)
+```
+
+### Summary
+
+By following these steps, you ensure that each instance of `BaseApp` or its subclasses can have a unique table name, thus avoiding collisions. This approach provides flexibility and scalability, allowing you to create multiple instances of the same app with different configurations.
+
+---
+
+This rather massive step worked...
+
+To integrate the `fast_app` convenience wrapper into your `BaseApp` and `TodoApp` classes, you can leverage the dynamic table creation and management provided by `fast_app`. This will simplify your code by removing the need for direct interaction with `MiniDataAPI` and instead using the database instances returned by `fast_app`.
+
+Here's how you can rework your classes to fit within these confines:
+
+### Step 1: Modify `BaseApp` to Use `fast_app`
+
+Update the `BaseApp` class to accept a table instance directly, which will be provided by `fast_app`. This removes the need to manually create or manage tables within `BaseApp`.
+
+```python:botifython.py
+class BaseApp:
+    def __init__(self, name, table):
+        self.name = name
+        self.table = table
+        self.register_routes()
+
+    def register_routes(self):
+        rt(f'/{self.name}')(self.get_items)
+        rt(f'/{self.name}', methods=['POST'])(self.create_item)
+        rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+
+    async def get_items(self, request):
+        """Retrieve all items."""
+        items = self.table()
+        return [self.render_item(item) for item in items]
+
+    async def create_item(self, **kwargs):
+        """Create a new item."""
+        item = self.table.insert(kwargs)
+        return self.render_item(item)
+
+    async def update_item(self, item_id: int, **kwargs):
+        """Update an existing item."""
+        item = self.table[item_id]
+        for key, value in kwargs.items():
+            setattr(item, key, value)
+        updated_item = self.table.update(item)
+        return self.render_item(updated_item)
+
+    async def delete_item(self, item_id: int):
+        """Delete an item."""
+        self.table.delete(item_id)
+        return ''
+
+    def render_item(self, item):
+        """Render an item as needed. Override in subclasses."""
+        return item
+```
+
+### Step 2: Update `TodoApp` to Use the Table from `fast_app`
+
+Modify the `TodoApp` class to accept the table instance from `fast_app` and pass it to `BaseApp`.
+
+```python:botifython.py
+class TodoApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(name='todo', table=table)
+
+    def render_item(self, todo):
+        return {
+            "id": todo.id,
+            "title": todo.title,
+            "done": todo.done,
+            "priority": todo.priority,
+            "profile_id": todo.profile_id
+        }
+```
+
+### Step 3: Use `fast_app` to Create the Application and Tables
+
+Use the `fast_app` function to create your application and tables, and then pass the table instances to your app classes.
+
+```python:botifython.py
+# Define the schema for the TODO table
+TODO = {
+    "id": int,
+    "title": str,
+    "done": bool,
+    "priority": int,
+    "profile_id": int,
+    "pk": "id"
+}
+
+# Create the FastHTML app and tables
+app, rt, (todos, Todo) = fast_app(
+    "data/data.db",
+    TODO=TODO
+)
+
+# Instantiate the TodoApp with the todos table
+todo_app = TodoApp(table=todos)
+```
+
+### Summary
+
+- **`BaseApp` and `TodoApp`**: These classes are now designed to accept a table instance directly, simplifying their initialization and removing the need for manual table management.
+- **`fast_app`**: This function is used to create the application and tables, leveraging its convenience to dynamically create tables based on the provided schema.
+- **Integration**: The `TodoApp` is instantiated with the table instance returned by `fast_app`, ensuring that it operates on the correct database table.
+
+This approach leverages the power of `fast_app` to manage database tables, reducing complexity and making your application more maintainable.
+
+---
+
+## Plugins Present but Not Active
+
+```python
+# ---------------------------------------------------------------------------------------------------- 
+#  ___       _ _   _       _         ____  _             _         ____            _                 
+# |_ _|_ __ (_) |_(_) __ _| |_ ___  |  _ \| |_   _  __ _(_)_ __   / ___| _   _ ___| |_ ___ _ __ ___  
+#  | || '_ \| | __| |/ _` | __/ _ \ | |_) | | | | |/ _` | | '_ \  \___ \| | | / __| __/ _ \ '_ ` _ \ 
+#  | || | | | | |_| | (_| | ||  __/ |  __/| | |_| | (_| | | | | |  ___) | |_| \__ \ ||  __/ | | | | |
+# |___|_| |_|_|\__|_|\__,_|\__\___| |_|   |_|\__,_|\__, |_|_| |_| |____/ \__, |___/\__\___|_| |_| |_|
+#                                            figlet|___/                 |___/                       
+# *******************************
+# Take a deep breath and initiate plugin system
+# *******************************
+
+class BaseApp:
+    def __init__(self, name, table):
+        self.name = name
+        self.table = table
+
+    def register_routes(self, rt):
+        """Register routes using the provided routing function."""
+        rt(f'/{self.name}')(self.get_items)
+        rt(f'/{self.name}', methods=['POST'])(self.create_item)
+        rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+
+    async def get_items(self, request):
+        """Retrieve all items."""
+        items = self.table()
+        return [self.render_item(item) for item in items]
+
+    async def create_item(self, **kwargs):
+        """Create a new item."""
+        item = self.table.insert(kwargs)
+        return self.render_item(item)
+
+    async def update_item(self, item_id: int, **kwargs):
+        """Update an existing item."""
+        item = self.table[item_id]
+        for key, value in kwargs.items():
+            setattr(item, key, value)
+        updated_item = self.table.update(item)
+        return self.render_item(updated_item)
+
+    async def delete_item(self, item_id: int):
+        """Delete an item."""
+        self.table.delete(item_id)
+        return ''
+
+    def render_item(self, item):
+        """Render an item as needed. Override in subclasses."""
+        return item
+
+
+class TodoApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(name='todo', table=table)
+
+    def render_item(self, todo):
+        return {
+            "id": todo.id,
+            "title": todo.title,
+            "done": todo.done,
+            "priority": todo.priority,
+            "profile_id": todo.profile_id
+        }
+
+
+# Define and instantiate a ProfileApp class
+class ProfileApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(name='profile', table=table)
+
+    def render_item(self, profile):
+        return {
+            "id": profile.id,
+            "name": profile.name,
+            "address": profile.address,
+            "code": profile.code,
+            "active": profile.active,
+            "priority": profile.priority
+        }
+
+TODO = {
+    "id": int,
+    "title": str,
+    "done": bool,
+    "priority": int,
+    "profile_id": int,
+    "pk": "id"
+}
+
+PROFILE = {
+    "id": int,
+    "name": str,
+    "address": str,
+    "code": str,
+    "active": bool,
+    "priority": int,
+    "pk": "id"
+}
+
+# ---------------------------------------------------------------------------------------------------- 
+#  _____         _   _   _ _____ __  __ _     
+# |  ___|_ _ ___| |_| | | |_   _|  \/  | |    
+# | |_ / _` / __| __| |_| | | | | |\/| | |    
+# |  _| (_| \__ \ |_|  _  | | | | |  | | |___ 
+# |_|  \__,_|___/\__|_| |_| |_| |_|  |_|_____|figlet
+#
+# *******************************
+# Configuring the FastHTML fastapp plugin Factory
+# *******************************
+
+# Unpack the returned tuple from fast_app (lots of explaining to do here)
+app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    hdrs=(
+        SortableJSWithUpdate('.sortable', update_url=f'/{TASK}_sort'),
+        Script(type='module')
+    ),
+    STORE={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    TODO=TODO,
+    PROFILE=PROFILE,
+)
+
+# Instantiate the apps
+todo_app = TodoApp(table='TODO')
+profile_app = ProfileApp(table='PROFILE')
+
+# Register routes using the rt object
+todo_app.register_routes(rt)
+profile_app.register_routes(rt)
+```
+
+Me: Alright. So enough with router path reporting. Now tell me why we went
+through that trouble of the plugin integration with the BaseApp and TodoApp and
+ProfileApp if we merely changed where the dict table definitions are. I am
+guessing that they somehow reduce code duplication in crud operations? And what
+else?
+
+## Claude 3.5 Sonnet via Cursor AI:
+
+The integration of `BaseApp`, `TodoApp`, and `ProfileApp` with the plugin system serves several purposes, primarily aimed at reducing code duplication and enhancing modularity and maintainability. Here's a breakdown of the benefits and reasons for this design:
+
+### 1. **Code Reusability and DRY Principle**
+
+- **CRUD Operations**: By defining common CRUD operations in a `BaseApp` class, you can avoid duplicating code across different application modules. This adheres to the DRY (Don't Repeat Yourself) principle, making your codebase cleaner and easier to maintain.
+- **Shared Logic**: Any shared logic or utility functions can be placed in the `BaseApp`, allowing `TodoApp` and `ProfileApp` to inherit these functionalities without rewriting them.
+
+### 2. **Modularity**
+
+- **Separation of Concerns**: Each app (e.g., `TodoApp`, `ProfileApp`) can focus on its specific domain logic while inheriting common functionalities from `BaseApp`. This separation makes it easier to manage and extend each app independently.
+- **Plugin Architecture**: By using a base class, you can easily integrate new plugins or features that apply to all apps by modifying the base class, rather than each individual app.
+
+### 3. **Scalability**
+
+- **Adding New Features**: If you need to add a new feature or modify existing behavior, you can do so in the `BaseApp` and have those changes automatically propagate to all derived classes.
+- **Extending Functionality**: New apps can be created by simply extending `BaseApp`, allowing for rapid development and integration of new features.
+
+### 4. **Consistency**
+
+- **Uniform Interface**: By using a base class, you ensure that all derived apps have a consistent interface and behavior, reducing the likelihood of bugs and inconsistencies.
+- **Standardized Patterns**: Common patterns and practices are enforced across all apps, making the codebase easier to understand and work with for new developers.
+
+### 5. **Ease of Maintenance**
+
+- **Centralized Updates**: Updates to shared logic or bug fixes can be made in one place (the `BaseApp`), reducing the effort required to maintain the codebase.
+- **Simplified Testing**: With a centralized base class, you can write tests for common functionalities once and apply them across all derived apps.
+
+### Conclusion
+
+The use of a base class like `BaseApp` in combination with specific implementations like `TodoApp` and `ProfileApp` is a common design pattern in software development. It provides a robust framework for building scalable, maintainable, and consistent applications, especially when dealing with similar operations across different domains. This approach not only reduces code duplication but also enhances the overall architecture of the application, making it easier to manage and extend over time.
