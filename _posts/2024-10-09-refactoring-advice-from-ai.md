@@ -1,7 +1,7 @@
 ---
 title: AI-Generated Refactoring Advice from Top LLM Models
 permalink: /ai-generated-refactoring-advice/
-description:
+description: Learn how to integrate AI-powered refactoring advice from Claude 3.5 Sonnet and OpenAI ChatGPT o1-Preview into a Python web framework using FastHTML. This guide walks you through setting up refactoring systems and enhancing workflow with cutting-edge AI models.
 layout: post
 ---
 
@@ -20,6 +20,8 @@ the free tier. Anyway, that's the background on which AIs in this tutorial.
 
 BEGIN PROMPTIFICATION
 
+## Porting Old Code to Modern Python Requirements Requires Expertise
+
 You are an expert Python programmer, recognizing the weird idiomatic difference
 between Python and other environments that let mainstream projects still get
 kooky and be okay, because it can be that way in Python. You are consulting on
@@ -27,6 +29,8 @@ one of those situations, and I am tapping your advice for porting an old program
 where I got lots of things wrong with a new program that sets the rules for
 rightness--though even that can be gradually improved over time, as these things
 are.
+
+## Creating Python Web Applications with FastHTML Framework
 
 I have two programs. They are both attempts at moving to the new Python FastHTML
 web framework that patterns after Flask, but derives from Startlette and ASGI
@@ -39,6 +43,8 @@ outside dependencies. Of course, dependencies are slipped in to help the page
 emit to a standard browser properly, including JavaScript and CSS includes such
 as htmx.js, fasthtml.js, ws.js, surreal.js, and PicoCSS.
 
+## Micro Framework for Python and HTML Development Now Available
+
 This micro framework for web development include allows you to work in an
 environment that approaches pure idiomatic blend of Python with HTML, in a near
 perfect 1-to-1 mapping between the Python API and HTML, by which HTML elements
@@ -47,6 +53,8 @@ arguments. HTMX is also elegantly blended in at this point, extending the 1-to-1
 mappings by which HTMX attributes like `hx-get` become the `hx_get` attribute of
 an `A()` link. Styling makes heavy use of PicoCSS whereby `Group()` can keep
 `Div()`'s side-by-side on the same row horizontally.
+
+## FastHTML Provides Easy Access to Database and WebSockets Capabilities
 
 This is not FastAPI. This is FastHTML, which is different even though some of
 their functionality overlaps. Specific capabilities FastHTML provides easy,
@@ -87,6 +95,8 @@ app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
 ```
 
 ---
+
+## Extracting Todo App Operations with FastLite and MicroDataAPI Interfaces
 
 Me: Excellent, thank you Claude! Use those same criteria to extract a similar
 micro article from this documenting the basic CRUD operations you can do with a
@@ -277,11 +287,15 @@ create responsive, engaging user experiences with minimal overhead. This
 combination of technologies enables the creation of dynamic, real-time web
 applications that were previously much more challenging to implement.
 
+## WebSocket Integration in FastHTML for Real-Time Web Applications
+
 This mini-article provides a factual overview of the WebSocket integration in
 FastHTML and its implications for real-time web applications, without resorting
 to hyperbole or exaggeration.
 
 ---
+
+## Examining Two FastHTML Apps for Improvements and Best Practices
 
 Okay, now with all of that in mind please examine the following two FastHTML
 apps. In the first, I did not know better, and used the popular zero-wait
@@ -291,12 +305,16 @@ used a local JSON file that I read and write to for a persistent database
 object, before I realized FastHTML had such things built in and has the
 advantages of better integration and workflow.
 
+## Improvements Made to Second App with Better Framework Structure
+
 The second app is built with much more pure FastHTML and provides good examples
 of how to do well each thing I did poorly on the prior app. The second app has a
 framework by which new apps can be plugged in and made available on a dropdown
 menu, such as Profiles and Todo List. An actual Todo app resides on the Todo
 List menu option, but the Profiles page is left blank. It's an "empty space"
 such as it were for plugging new apps into this system.
+
+## App Interactions Inform and Enable Future Local LLM Capabilities
 
 Almost every interaction you have with the app informs the local LLM of what the
 user just did, and it has a chance to comment to the user. This is a hook for
@@ -308,11 +326,15 @@ communication which may be coming from a local LLM, or it may be explicitly
 streaming from long-running apps in the background which are also being run by
 the same server instance. 
 
+## Streamline Long-Running Tasks with Robust Streaming Connections
+
 These streaming connections, plus the database persistence creates a robust
 environment for plugging in apps that trigger long-running tasks presented
 structured for the user as part of workflows. In other words, if a user has to
 do tasks A, B and C, the chatbot can start talking them through it and keep them
 entertained with jokes while waiting for a long-running task to finish.
+
+## Second App Moving Forward With Deep Integration Features
 
 The second app is what I am moving towards. It is not yet a plugin framework due
 to the deep integration between parts and the ability to see the whole app in a
