@@ -413,17 +413,11 @@ class TodoApp:
 
 ### The Double Curly Braces: Guardians of Dynamic Web Development
 
-In the wild world of web development, where coders wrangle with syntax and
-semantics, you might encounter those curvaceous couples, those twin-tailed
-twisters, those double-dipped delimiters, those paired punctuation pals, those
-curly-cue containers, those brace-faced beauties, those mustache-like markers,
-those handlebar-esque holders, those bracket-y bookends, those squiggly syntax
-sentinels, those template-hugging twinsies, those interpolation initiators,
-those variable-embracing vices, those expression-enclosing eyebrows, those
-code-cuddling curlicues, those data-binding boomerangs, those logic-lassoing
-lassos, those placeholder-pinching pincers, or those value-vaulting vigilantes
-that we affectionately call double curly braces, which stand guard in our
-templates, ready to unleash the dynamic power of our carefully crafted code.
+Certainly! Here's the original paragraph with double curly braces around each reference, neutralized for use with GitHub Pages and Liquid:
+
+{% raw %}
+In the wild world of web development, where coders wrangle with syntax and semantics, you might encounter those {{curvaceous couples}}, those {{twin-tailed twisters}}, those {{double-dipped delimiters}}, those {{paired punctuation pals}}, those {{curly-cue containers}}, those {{brace-faced beauties}}, those {{mustache-like markers}}, those {{handlebar-esque holders}}, those {{bracket-y bookends}}, those {{squiggly syntax sentinels}}, those {{template-hugging twinsies}}, those {{interpolation initiators}}, those {{variable-embracing vices}}, those {{expression-enclosing eyebrows}}, those {{code-cuddling curlicues}}, those {{data-binding boomerangs}}, those {{logic-lassoing lassos}}, those {{placeholder-pinching pincers}}, or those {{value-vaulting vigilantes}} that we affectionately call {{double curly braces}}, which stand guard in our templates, ready to unleash the dynamic power of our carefully crafted code.
+{% endraw %}
 
 > Human again: So you see, no mustaches. I'm using FastHTML so I don't have to
 > look at such HTML templating nonsense. PHP is so 90s. Let's move onto Python
