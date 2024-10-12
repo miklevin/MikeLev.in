@@ -27,17 +27,19 @@ system remains scalable and maintainable. By sharing this journey, I hope to
 clarify my thought process and provide a useful reference for future
 improvements.
 
+---
+
 ## A Framework for Interoperability in Tech Stacks
 
-Me: Create a Mermaid diagram that makes the point that the language is the
-framework, based on this article. It's also a mermaid diagram about the layers
-of a tech stack. Put generic metal at the bottom, be it laptop, desktop, server,
-Mac, Linux or Windows. Nix Flakes is the mechanism to make sure that a git repo
-hosted on git can be pulled down and nix develop on any system to fulfill the
-portability dream of Unix. And so Nix Linux is an interoperable layer above the
-hardware. On that, we have Python. It's the same exact Python executable across
-all hardware, which means the same pip installs and the same deterministic
-pinned dependencies. 
+Me to Claude: Create a Mermaid diagram that makes the point that the language is
+the framework, based on this article. It's also a mermaid diagram about the
+layers of a tech stack. Put generic metal at the bottom, be it laptop, desktop,
+server, Mac, Linux or Windows. Nix Flakes is the mechanism to make sure that a
+git repo hosted on git can be pulled down and nix develop on any system to
+fulfill the portability dream of Unix. And so Nix Linux is an interoperable
+layer above the hardware. On that, we have Python. It's the same exact Python
+executable across all hardware, which means the same pip installs and the same
+deterministic pinned dependencies. 
 
 ## Simplifying Complexity in Building Web Applications with Python
 
@@ -51,28 +53,32 @@ dedicated Pythonista can reclaim the power of the Web. Please provide me the
 Mermaid Diagram with a tech stack lean to it, albeit maybe a little bit
 anti-pattern.
 
+Claude... (GPT 4o couldn't reasonably do it)
+
 <div class="mermaid">
 graph TD
-    A[Generic Metal] --> B[Nix Linux]
-    B --> C[Python]
-    C --> D[Uvicorn]
-    C --> D2[Starlette]
-    C --> D3[FastHTML]
-    D --> E[Apps (filename.py)]
-    D2 --> E
-    D3 --> E
-    
-    subgraph Dependencies
-        F[Pip Installs]
-        G[Native OS Installs]
-    end
+    A[Hardware Layer: Generic Metal] --> B[Nix Linux]
+    B --> C[Nix Flakes]
+    C --> D[Git Repository]
+    D --> E[Python Executable]
+    E --> F[pip installs]
+    F --> G[Uvicorn]
+    F --> H[Starlette]
+    F --> I[FastHTML]
+    G & H & I --> J[Web Application Platform]
+    J --> K[Single filename.py App]
 
-    B --> F
-    B --> G
-    C --> F
-    D --> F
-    D2 --> F
-    D3 --> F
+    style A fill:#d9d9d9,stroke:#333,stroke-width:2px
+    style B fill:#f9d71c,stroke:#333,stroke-width:2px
+    style C fill:#f9d71c,stroke:#333,stroke-width:2px
+    style D fill:#f1e05a,stroke:#333,stroke-width:2px
+    style E fill:#3572A5,stroke:#333,stroke-width:2px
+    style F fill:#3572A5,stroke:#333,stroke-width:2px
+    style G fill:#3572A5,stroke:#333,stroke-width:2px
+    style H fill:#3572A5,stroke:#333,stroke-width:2px
+    style I fill:#3572A5,stroke:#333,stroke-width:2px
+    style J fill:#2ecc71,stroke:#333,stroke-width:2px
+    style K fill:#e74c3c,stroke:#333,stroke-width:2px
 </div>
 
 I doubt anyone is following along, but if you are, or perhaps for posterity,
