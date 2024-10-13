@@ -671,9 +671,12 @@ You can now see that the sorting endpoint is published:
 
 The idea here is that I'm removing the `/client/` and `/competitor/` endpoints
 that are created the old way before the plugin system, and I'm replacing them
-with `\profile\` and `\todo\` as the default values inserted by the plugin
+with `/profile/` and `/todo/` as the default values inserted by the plugin
 system by default. The list of router endpoints published by FastHTML/Starlette
 is my to-do list for getting this done, haha!
+
+So it's out with the old and in with the new. And the names I'm choosing for the
+new are arbitrary.
 
 But any attempt to sort will cause an error because the UI is not actually
 connected to the UI yet.
