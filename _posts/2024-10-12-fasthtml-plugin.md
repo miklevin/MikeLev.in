@@ -1551,12 +1551,12 @@ Modify your `SortableJSWithUpdate` function to dynamically determine the `update
 
 
 ```python
-def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
+{% raw %}def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
     src = f"""
-import {% raw %}{{Sortable}}{% endraw %} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
+import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
 
 document.addEventListener('DOMContentLoaded', (event) => {{
-    {% raw %}{{ const el = document.querySelector('{sel}
+    {{ const el = document.querySelector('{sel}
     if (el) {{
         new Sortable(el, {{
             animation: 150,
