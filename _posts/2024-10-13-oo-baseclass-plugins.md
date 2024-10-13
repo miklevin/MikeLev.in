@@ -450,6 +450,227 @@ async def update_todo_order(values: dict):
         return str(e), 500  # Return the error message and a 500 status code
 ```
 
+Okay, this next huge code block is a great example (for me) of why OO is
+mind-bending. I'm letting the AI code assistant strip out the `figlet` banners,
+the chatter inserted by the local LLM while this thing runs, and a bunch of
+documentation. I can always put that stuff back in. Right now I want to focus on
+core functionality, and I'll let the AI code assistant do the same thing.
+
+Now the often overlooked nuance (by me) is that the endpoint is really simple,
+like `/action/id`, with toggle being `/toggle/id`. See what's missing? What
+field to toggle? It seems like there's a parameter missing. But you want it this
+way because the API URL is short and snappy, and it even has security advantages
+because hackers can't so easily go probing for other fields to toggle. It can
+only mean one thing. But then where is that extra parameter argued? The argument
+is made in the ***wrapping*** function that's actually calling the base class.
+
+But the funny thing is that the base class that advertises the endpoints
+operates later on data that came in from something other than the endpoints it
+knows about. It effectively knows the internals of its cookie-cutter
+customizers. So when the `__init__` is called, it builds function-scoped
+variables using stuff that shouldn't be there, if you look at `BaseApp` alone.
+The wrapper functions are passing them in.
+
+Another thing I found annoying is the mystery appearance of the `item_id`'s
+which FastHTML is invisibly making available to the calling functions. I made it
+explicit in the updated code below so you can track where the IDs are coming
+from.
+
+And lastly, I added `=None` default values for `sort` and `toggle` because not
+every table used in this system will have such fields.
+
+Oh, and lastly lastly, notice the sort endpoint doesn't slash `/` off of the
+base path, but instead underscores `_`. This is because of subtleties of how
+endpoints that expect variable values like `id` are using that slash. If you
+have something that follows the pattern without an passable value, you might end
+up getting an error from the wrong endpoint being used. It's okay to share the
+pattern between `toggle` and `delete` because they pass IDs the same way, but
+not for sort because of weird internal difference when you pass *a bundle of
+attributes* with a form `POST` which is what invisibly happens when you
+drag-and-drop sort. I think I got that right. Ugh!
+
+```python
+class BaseApp:
+    """
+    A base class for creating application components with common CRUD operations.
+
+    This class provides a template for building application components that interact
+    with database tables and handle basic Create, Read, Update, Delete (CRUD) operations.
+    It includes methods for registering routes, rendering items, and performing various
+    database operations.
+
+    The class is designed to be flexible and extensible, allowing subclasses to override
+    or extend its functionality as needed for specific application components.
+    """
+    def __init__(self, name, table, toggle_field=None, sort_field=None, sort_dict=None):
+        self.name = name
+        self.table = table
+        self.toggle_field = toggle_field
+        self.sort_field = sort_field
+        self.sort_dict = sort_dict or {'id': 'id', sort_field: sort_field}
+
+    def register_routes(self, rt):
+        # Register routes: delete, toggle, and sort
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+        rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+        rt(f'/{self.name}_sort', methods=['POST'])(self.sort_items)
+
+    def render_item(self, item):
+        # A wrapper function currently serving as a passthrough for item rendering.
+        # This method is part of the system's "styling" mechanism, transforming
+        # dataclasses into HTML or other instructions for display or HTMX operations.
+        # Subclasses are expected to override this method with context-aware implementations.
+        return item
+
+    async def delete_item(self, request, item_id: int):
+        """
+        Delete an item from the table.
+
+        Args:
+            request: The incoming request object.
+            item_id (int): The ID of the item to delete.
+
+        Returns:
+            str: An empty string indicating successful deletion.
+        """
+        try:
+            logger.debug(f"Attempting to delete item ID: {item_id}")
+            self.table.delete(item_id)
+            prompt = f"Item {item_id} deleted. Brief, sassy reaction."
+            await chatq(prompt)
+            logger.info(f"Deleted item ID: {item_id}")
+            return ''
+        except Exception as e:
+            logger.error(f"Error deleting item: {str(e)}")
+            return f"Error deleting item: {str(e)}", 500
+
+    async def toggle_item(self, request, item_id: int):
+        """
+        Toggle a boolean field of an item.
+
+        Args:
+            request: The incoming request object.
+            item_id (int): The ID of the item to toggle.
+
+        Returns:
+            dict: The rendered updated item.
+        """
+        try:
+            logger.debug(f"Toggling {self.toggle_field} for item ID: {item_id}")
+            item = self.table[item_id]
+            current_status = getattr(item, self.toggle_field)
+            setattr(item, self.toggle_field, not current_status)
+            updated_item = self.table.update(item)
+            logger.info(f"Toggled {self.toggle_field} for item ID {item_id} to {getattr(updated_item, self.toggle_field)}")
+
+            prompt = f"Item {item_id} toggled. Brief, sassy reaction."
+            await chatq(prompt)
+
+            return self.render_item(updated_item)
+        except Exception as e:
+            logger.error(f"Error toggling item: {str(e)}")
+            return f"Error toggling item: {str(e)}", 500
+
+    async def sort_items(self, values: dict):
+        """
+        Update the order of items based on the received values.
+        """
+        logger.debug(f"Received values for {self.name} sort: {values}")
+        try:
+            items = json.loads(values.get('items', '[]'))
+            logger.debug(f"Parsed items: {items}")
+            for item in items:
+                logger.debug(f"Updating item: {item}")
+                update_dict = {self.sort_field: int(item[self.sort_dict[self.sort_field]])}
+                self.table.update(id=int(item[self.sort_dict['id']]), **update_dict)
+            logger.info(f"{self.name.capitalize()} order updated successfully")
+
+            prompt = f"The {self.name} list was reordered. Make a brief, witty remark about sorting or prioritizing. Keep it under 20 words."
+            await chatq(prompt)
+
+            return ''
+        except Exception as e:
+            logger.error(f"Error updating {self.name} order: {str(e)}")
+            return str(e), 500
+
+    async def create_item(self, **kwargs):
+        # Create a new item.
+        item = self.table.insert(kwargs)
+
+    async def update_item(self, item_id: int, **kwargs):
+        # Update an existing item.
+        item = self.table[item_id]
 
 
+class TodoApp(BaseApp):
+    """
+    A specialized application for managing todo items.
 
+    This class extends BaseApp to provide specific functionality for todo items,
+    including initialization with todo-specific fields and custom rendering.
+    """
+
+    def __init__(self, table):
+        super().__init__(
+            name='todo',
+            table=table,
+            toggle_field='done',
+            sort_field='priority'
+        )
+
+    def register_routes(self, rt):
+        super().register_routes(rt)
+
+    def render_item(self, todo):
+        return render_todo(todo)
+
+class ProfileApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(
+            name='profile',
+            table=table,
+            toggle_field='active',
+            sort_field='priority'
+        )
+
+# Instantiate and register routes
+todo_app = TodoApp(table=todos)
+todo_app.register_routes(rt)
+
+profile_app = ProfileApp(table=profiles)
+profile_app.register_routes(rt)
+```
+
+You can now see that the sorting endpoint is published:
+
+## Endpoints
+
+- `/` (GET, HEAD)
+- `/app_1` (GET, HEAD)
+- `/app_2` (GET, HEAD)
+- `/app_3` (GET, HEAD)
+- `/client` (GET, HEAD)
+- `/client` (POST)
+- `/client/update/{profile_id}` (POST)
+- `/client/{profile_id}` (GET, HEAD, POST)
+- `/competitor` (GET, HEAD)
+- `/competitor` (GET, HEAD)
+- `/competitor` (POST)
+- `/competitor/update/{todo_id}` (POST)
+- `/live-reload` (WebSocket)
+- `/poke` (POST)
+- `/profile/delete/{item_id}` (DELETE)
+- `/profile/toggle/{item_id}` (POST)
+- `/profile_sort` (POST)
+- `/search` (POST)
+- `/todo/delete/{item_id}` (DELETE)
+- `/todo/toggle/{item_id}` (POST)
+- `/todo_sort` (POST)
+- `/ws` (WebSocket)
+- `/{fname:path}.{ext:static}` (GET, HEAD)
+
+The idea here is that I'm removing the `/client/` and `/competitor/` endpoints
+that are created the old way before the plugin system, and I'm replacing them
+with `\profile\` and `\todo\` as the default values inserted by the plugin
+system by default. The list of router endpoints published by FastHTML/Starlette
+is my to-do list for getting this done, haha!
