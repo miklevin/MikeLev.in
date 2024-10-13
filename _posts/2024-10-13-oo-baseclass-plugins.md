@@ -348,13 +348,71 @@ using good object oriented techniques without thinking about it or knowing
 you're doing it (like filenames as their own namespaces). This is the opposite.
 Everything is explicit with lots of *superdunderself*.
 
+Here is just one of those wrapper thingies. When I say wrapper, the thing with
+OO is that there are factory classes and stamped-out instances of those classes,
+something like:
+
+```python
+cookie = CookieCutter(shape="star")
+```
+
+But if the shape of the cookie is really hard to understand, you can eliminate
+the use of parameter arguments and create a special star-cutting cookie cutter
+making your usage look like:
+
+```python
+cookie = StarCutter()
+```
+
+In the case of this agile framework, our `StarCutter` details are much longer
+and convoluted than the example above implies. Maybe not for `delete` and
+`toggle` which is why I started with those. But when it gets to `insert` and
+`update` where the database fields change ***per app***, we're going to be
+really glad we can reuse `BaseApp` code, albeit overwritten here and there as it
+will have to be.
+
+```python
+class TodoApp(BaseApp):
+    """
+    A specialized application for managing todo items.
+
+    This class extends BaseApp to provide specific functionality for todo items,
+    including initialization with todo-specific fields and custom rendering.
+    """
+
+    def __init__(self, table):
+        # 'super()' is used here to call the __init__ method of the parent class (BaseApp).
+        # This ensures that the parent class is properly initialized with the specific
+        # parameters for the TodoApp: name, table, toggle_field, and sort_field.
+        super().__init__(
+            name='todo',
+            table=table,
+            toggle_field='done',
+            sort_field='priority'
+        )
+
+    def register_routes(self, rt):
+        # 'super()' is used here to call the register_routes method of the parent class.
+        # This allows TodoApp to inherit and use the route registration logic from BaseApp,
+        # while still having the option to add additional routes specific to TodoApp if needed.
+        super().register_routes(rt)
+
+    def render_item(self, todo):
+        # This method doesn't use 'super()' because it's likely overriding or implementing
+        # a method specific to TodoApp, rather than extending behavior from the parent class.
+        return render_todo(todo)
+```
+
 Okay, this shift in coding style is important for me. What we are doing is
 moving to a sort of scalpel like precision with OO (object oriented) that I have
 been remiss to do in the past, because with an AI-tutor it was extremely
 difficult to work through on my own. AI is not coding ***for*** me. AI is coding
 ***with*** me, allowing me to hit above my weight class.
 
-
+Okay, so sorting on a drag-and-drop operation is next up. It's most similar to
+the delete and toggle functions implemented so far because it doesn't need to
+know anyting except the table to operate on and the name of the field to use for
+priority sorting. That's almost exactly like a toggle.
 
 
 
