@@ -1550,7 +1550,6 @@ footer=Form(
 Modify your `SortableJSWithUpdate` function to dynamically determine the `update_url` based on the element's data attributes.
 
 
-
 ```python
 def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
     src = f"""

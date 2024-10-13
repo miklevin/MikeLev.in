@@ -654,8 +654,8 @@ micro web framework. But too often, you still have to look at HTML and
 JavaScript as you blend Python with them using some templating system, like
 jinja2 (big in Flask), mako (what Reddit was made with), or other double
 curly-braced template languages like nunchucks or liquid templates that use
-those mustaches `\{{ foo \}}`. Instead, I avoided web developmenmt by using
-Python in Jupyter Notebooks for my various SEO tasks.
+those mustaches {% raw %}{{ foo }}{% endraw %}. Instead, I avoided web
+developmenmt by using Python in Jupyter Notebooks for my various SEO tasks.
 
 ### FastHTML Web App Simplification
 
