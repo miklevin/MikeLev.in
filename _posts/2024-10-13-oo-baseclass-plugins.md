@@ -411,9 +411,44 @@ difficult to work through on my own. AI is not coding ***for*** me. AI is coding
 
 Okay, so sorting on a drag-and-drop operation is next up. It's most similar to
 the delete and toggle functions implemented so far because it doesn't need to
-know anyting except the table to operate on and the name of the field to use for
-priority sorting. That's almost exactly like a toggle.
+know anything except the table to operate on and the name of the field to use
+for priority sorting. That's almost exactly like a toggle.
 
+Okay, with all that above gobbledygook in mind, it's time to implement sorting.
+We can do this precision-like now. We make the endpoint exist before we do
+anything in the UI to connect it. First, let's look at the ***old*** endpoint
+we're replacing:
+
+```python
+@rt(f'/{TODO}_sort', methods=['POST'])
+async def update_todo_order(values: dict):
+    """
+    Update the order of todo items based on the received values.
+
+    Args:
+        values (dict): A dictionary containing the new order of todo items.
+
+    Returns:
+        str: An empty string indicating successful update, or an error message with status code.
+    """
+    logger.debug(f"Received values: {values}")
+    try:
+        items = json.loads(values.get('items', '[]'))
+        logger.debug(f"Parsed items: {items}")
+        for item in items:
+            logger.debug(f"Updating item: {item}")
+            todos.update(id=int(item['id']), priority=int(item['priority']))
+        logger.info("Todo order updated successfully")
+
+        # After successful update, queue a message for the chat
+        prompt = "The todo list was reordered. Make a brief, witty remark about sorting or prioritizing tasks. Keep it under 20 words."
+        await chatq(prompt)
+
+        return ''
+    except Exception as e:
+        logger.error(f"Error updating todo order: {str(e)}")
+        return str(e), 500  # Return the error message and a 500 status code
+```
 
 
 
