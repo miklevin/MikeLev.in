@@ -954,3 +954,1058 @@ def get(request):
 ---
 
 By breaking down the instructions in this manner, you now have clear, targeted changes for specific functions or sections of your code. Each instruction specifies exactly where to apply modifications, ensuring that the code assistant can implement these changes with precision.
+
+---
+
+## Insert Solution
+
+### **Implementing Insert Functionality Under the New Plugin System**
+
+To implement the insert (create) functionality under the new plugin system, we'll extend the `BaseApp` class and ensure that both `TodoApp` and `ProfileApp` can handle item creation seamlessly.
+
+Below is a step-by-step guide, broken down into specific scopes and functions, with explicit code examples.
+
+---
+
+### **Scope 1: Update the `BaseApp` Class to Handle Item Creation**
+
+**1. Implement the `create_item` Method in `BaseApp`**
+
+- **Target Function:** `create_item` method in the `BaseApp` class.
+- **Location:** Find the method definition `async def create_item(self, **kwargs)` in the `BaseApp` class.
+
+**Modify the Method:**
+
+- Implement the logic to insert a new item into the table using the provided `kwargs`.
+- Return the newly created item.
+
+**Updated Code:**
+
+```python
+async def create_item(self, **kwargs):
+    """
+    Create a new item in the table.
+    """
+    try:
+        logger.debug(f"Creating new {self.name} with data: {kwargs}")
+        new_item = self.table.insert(kwargs)
+        logger.info(f"Created new {self.name}: {new_item}")
+        return new_item
+    except Exception as e:
+        logger.error(f"Error creating {self.name}: {str(e)}")
+        raise e
+```
+
+---
+
+### **Scope 2: Implement the Insert Endpoint for Todos**
+
+**2. Add an Insert Endpoint in `TodoApp`**
+
+- **Target Function:** Implement a route handler for inserting a new todo item.
+- **Location:** In the `TodoApp` class.
+
+**Add a New Method:**
+
+- Define a new method `async def insert_item(self, request)` that will handle the POST request to insert a new todo.
+
+**Updated Code:**
+
+```python
+class TodoApp(BaseApp):
+    # ... existing code ...
+
+    def register_routes(self, rt):
+        super().register_routes(rt)
+        # Register the insert route
+        rt(f'/{self.name}', methods=['POST'])(self.insert_item)
+
+    async def insert_item(self, request):
+        """
+        Handle the insertion of a new todo item.
+        """
+        try:
+            form = await request.form()
+            title = form.get('title', '').strip()
+            if not title:
+                logger.warning("Empty title provided for new todo.")
+                return 'Title cannot be empty', 400
+
+            current_profile_id = db.get("last_profile_id", 1)  # Default to 1 if not set
+
+            # Get the maximum priority and add 1
+            max_priority = max((t.priority or 0 for t in self.table()), default=-1) + 1
+
+            new_todo_data = {
+                "title": title,
+                "done": False,
+                "priority": max_priority,
+                "profile_id": current_profile_id,
+            }
+
+            new_todo = await self.create_item(**new_todo_data)
+            # Return the rendered todo item
+            return self.render_item(new_todo)
+        except Exception as e:
+            logger.error(f"Error inserting todo: {str(e)}")
+            return str(e), 500
+```
+
+**Notes:**
+
+- This method extracts the `title` from the POST request, validates it, and then calls `self.create_item` to insert it.
+- After creation, it renders the new todo item using `self.render_item`.
+
+---
+
+### **Scope 3: Update the Frontend to Use the New Insert Endpoint**
+
+**3. Modify the Todo Form in the Main Route Handler**
+
+- **Target Function:** The `get` function that handles the main route.
+- **Location:** Find the section where the todo form is created in the `get` function.
+
+**Update the Form's `hx_post` URL:**
+
+- Change the `hx_post` URL to point to the new endpoint registered in `TodoApp`.
+
+**Updated Code:**
+
+```python
+# Inside the get function, when creating the todo form
+header=Form(
+    Group(
+        Input(
+            placeholder=f'Add new {TASK.capitalize()}',
+            id='title',
+            hx_swap_oob='true',
+            autofocus=True,
+            name='title',
+        ),
+        Button("Add", type="submit"),
+    ),
+    hx_post=f"/{TASK}",  # Ensure this matches the route in TodoApp
+    hx_swap="beforeend",
+    hx_target="#todo-list",
+)
+```
+
+---
+
+### **Scope 4: Implement the Insert Endpoint for Profiles**
+
+**4. Add an Insert Endpoint in `ProfileApp`**
+
+- **Target Function:** Implement a route handler for inserting a new profile.
+- **Location:** In the `ProfileApp` class.
+
+**Add a New Method:**
+
+- Define a new method `async def insert_item(self, request)`.
+
+**Updated Code:**
+
+```python
+class ProfileApp(BaseApp):
+    # ... existing code ...
+
+    def register_routes(self, rt):
+        super().register_routes(rt)
+        # Register the insert route
+        rt(f'/{self.name}', methods=['POST'])(self.insert_item)
+
+    async def insert_item(self, request):
+        """
+        Handle the insertion of a new profile.
+        """
+        try:
+            form = await request.form()
+            profile_name = form.get('profile_name', '').strip()
+            profile_address = form.get('profile_address', '').strip()
+            profile_code = form.get('profile_code', '').strip()
+
+            if not profile_name:
+                logger.warning("Empty name provided for new profile.")
+                return 'Name cannot be empty', 400
+
+            # Get the maximum priority and add 1
+            max_priority = max((p.priority or 0 for p in self.table()), default=-1) + 1
+
+            new_profile_data = {
+                "name": profile_name,
+                "address": profile_address,
+                "code": profile_code,
+                "active": True,
+                "priority": max_priority,
+            }
+
+            new_profile = await self.create_item(**new_profile_data)
+            # Return the rendered profile item
+            return self.render_item(new_profile)
+        except Exception as e:
+            logger.error(f"Error inserting profile: {str(e)}")
+            return str(e), 500
+```
+
+---
+
+### **Scope 5: Update the Frontend to Use the New Profile Insert Endpoint**
+
+**5. Modify the Profile Form in `get_profiles_content` Function**
+
+- **Target Function:** The `get_profiles_content` function.
+- **Location:** Find the section where the profile form is created.
+
+**Update the Form's `hx_post` URL:**
+
+- Change the `hx_post` URL to point to the new endpoint registered in `ProfileApp`.
+
+**Updated Code:**
+
+```python
+# Inside get_profiles_content function, when creating the profile form
+footer=Form(
+    Group(
+        Input(placeholder=f"{CUSTOMER.capitalize()} Name", name="profile_name", id="profile-name-input"),
+        Input(placeholder=ADDRESS_NAME, name="profile_address", id="profile-address-input"),
+        Input(placeholder=CODE_NAME, name="profile_code", id="profile-code-input"),
+        Button("Add", type="submit", id="add-profile-button"),
+    ),
+    hx_post=f"/{CUSTOMER}",  # Ensure this matches the route in ProfileApp
+    hx_target="#profile-list",
+    hx_swap="beforeend",
+    hx_swap_oob="true",
+)
+```
+
+---
+
+### **Scope 6: Update the `render_item` Method in `ProfileApp`**
+
+**6. Implement `render_item` in `ProfileApp`**
+
+- **Target Function:** `render_item` method in `ProfileApp`.
+- **Location:** Inside the `ProfileApp` class.
+
+**Updated Code:**
+
+```python
+class ProfileApp(BaseApp):
+    # ... existing code ...
+
+    def render_item(self, profile):
+        return render_profile(profile)
+```
+
+---
+
+### **Scope 7: Testing the Insert Functionality**
+
+**7. Test the Application**
+
+- **Add New Todos:**
+  - Open the main page and add new todo items using the form.
+  - Ensure that the new todos appear in the list without refreshing the page.
+
+- **Add New Profiles:**
+  - Navigate to the profiles page and add new profiles using the form.
+  - Verify that the new profiles appear in the list.
+
+- **Check Server Logs:**
+  - Monitor the logs to see if any errors occur during insertion.
+
+---
+
+### **Additional Considerations**
+
+**1. Error Handling**
+
+- **Return Appropriate HTTP Status Codes:**
+  - Ensure that in case of errors, appropriate HTTP status codes are returned (e.g., 400 for bad requests).
+
+**2. Input Validation**
+
+- **Validate Input Fields:**
+  - Check for empty fields or invalid data before attempting to insert into the database.
+
+**3. User Feedback**
+
+- **Display Error Messages:**
+  - If the insertion fails, consider returning an error message that can be displayed to the user.
+
+---
+
+### **Summary of Changes**
+
+- **BaseApp:**
+  - Implemented `create_item` method to handle item creation.
+
+- **TodoApp:**
+  - Added `insert_item` method to handle todo insertion.
+  - Registered the insert route in `register_routes`.
+
+- **ProfileApp:**
+  - Added `insert_item` method to handle profile insertion.
+  - Registered the insert route in `register_routes`.
+  - Implemented `render_item` method.
+
+- **Frontend:**
+  - Updated the forms in the main page and profiles page to post to the new insert endpoints.
+
+---
+
+By following these detailed steps, you should be able to implement the insert functionality under the new plugin system, allowing users to add new items through the application.
+
+Is there anything else you'd like assistance with?
+
+---
+
+The home stretch:
+
+**Apologies for the oversight earlier. It appears that the `create_item` method was not implemented in the `BaseApp` class in the code you provided. Let's address this step by step to fix the errors you're encountering.**
+
+---
+
+### **Scope 1: Implement the `create_item` Method in `BaseApp`**
+
+**Problem:**
+
+- You're encountering the error: `'TodoApp' object has no attribute 'create_item'`.
+- This happens because the `create_item` method is missing in the `BaseApp` class.
+- Both `TodoApp` and `ProfileApp` inherit from `BaseApp` and rely on this method.
+
+**Solution:**
+
+**1. Add the `create_item` Method to `BaseApp`**
+
+- **Location:** Inside the `BaseApp` class in your code.
+- **Action:** Implement the `create_item` method that inserts a new item into the table.
+
+**Updated Code for `BaseApp`:**
+
+```python
+class BaseApp:
+    # ... existing methods ...
+
+    async def create_item(self, **kwargs):
+        """
+        Create a new item in the table.
+
+        Args:
+            **kwargs: The fields and values for the new item.
+
+        Returns:
+            The newly created item.
+        """
+        try:
+            logger.debug(f"Creating new {self.name} with data: {kwargs}")
+            new_item = self.table.insert(kwargs)
+            logger.info(f"Created new {self.name}: {new_item}")
+            return new_item
+        except Exception as e:
+            logger.error(f"Error creating {self.name}: {str(e)}")
+            raise e
+```
+
+**Explanation:**
+
+- The `create_item` method takes keyword arguments (`**kwargs`) which are the data fields for the new item.
+- It inserts a new item into the associated table (`self.table`) and returns it.
+- Error handling and logging are included to capture any issues during insertion.
+
+---
+
+### **Scope 2: Fix the Update Endpoints and Methods**
+
+**Problem:**
+
+- You're getting messages indicating no endpoint exists for the update operations.
+- The routes for the update operations might not be correctly registered or the HTTP methods might not match the requests.
+
+**Solution:**
+
+**1. Verify the `update_item` Methods in `BaseApp`**
+
+- Ensure that the `update_item` method is correctly defined and that it corresponds to the routes and HTTP methods you're using.
+
+**2. Adjust the Route Registration for Update Operations**
+
+- **Location:** In the `register_routes` method of the `BaseApp` class.
+- **Action:** Modify the route registration for the update operation.
+
+**Updated Code for `BaseApp.register_routes`:**
+
+```python
+def register_routes(self, rt):
+    # ... existing route registrations ...
+    rt(f'/{self.name}', methods=['POST'])(self.insert_item)
+    rt(f'/{self.name}/{{item_id}}', methods=['POST'])(self.update_item)  # Changed to POST
+    rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+    rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+    rt(f'/{self.name}_sort', methods=['POST'])(self.sort_items)
+```
+
+**Explanation:**
+
+- Changed the HTTP method for the update route from `PUT` to `POST`.
+- HTML forms and HTMX by default use `POST` and `GET`. Using `POST` for updates aligns with common web practices and avoids issues with unsupported methods in forms.
+
+**3. Update the Forms in the Frontend to Match the Routes**
+
+- Ensure that the forms in your HTML templates use the correct `hx_post` attributes that correspond to the updated routes.
+
+**For `render_profile` Function:**
+
+```python
+update_form = Form(
+    Group(
+        Input(type="text", name="profile_name", value=profile.name, placeholder="Name", id=f"name-{profile.id}"),
+        Input(type="text", name="profile_address", value=profile.address, placeholder=ADDRESS_NAME, id=f"address-{profile.id}"),
+        Input(type="text", name="profile_code", value=profile.code, placeholder=CODE_NAME, id=f"code-{profile.id}"),
+        Button("Update", type="submit"),
+    ),
+    hx_post=f"/{CUSTOMER}/{profile.id}",  # Adjusted URL to match route
+    hx_target=f'#profile-{profile.id}',
+    hx_swap='outerHTML',
+    style="display: none;",
+    id=f'update-form-{profile.id}'
+)
+```
+
+**For `render_todo` Function:**
+
+```python
+update_form = Form(
+    Div(
+        Input(
+            type="text",
+            id=f"todo_title_{todo.id}",
+            value=todo.title,
+            name="title",  # Ensure the name matches expected field
+            style="flex: 1; padding-right: 10px; margin-bottom: 0px;"
+        ),
+        style="display: flex; align-items: center;"
+    ),
+    style="visibility: hidden; height: 0; overflow: hidden;",
+    hx_post=f"/{TASK}/{todo.id}",  # Adjusted URL to match route
+    hx_target=f"#{tid}",
+    hx_swap="outerHTML",
+)
+```
+
+**Explanation:**
+
+- The `hx_post` attribute specifies the URL to send the POST request to.
+- The URLs should match the update routes registered in `BaseApp`.
+- Ensure that the form fields have the correct `name` attributes that correspond to the expected data in `prepare_update_data`.
+
+**4. Update the `prepare_update_data` Methods in `TodoApp` and `ProfileApp`**
+
+- Ensure that the `prepare_update_data` methods correctly extract the form data.
+
+**For `TodoApp`:**
+
+```python
+def prepare_update_data(self, form):
+    title = form.get('title', '').strip()
+    if not title:
+        raise ValueError("Title cannot be empty")
+    return {
+        "title": title,
+    }
+```
+
+- Removed the `done` field update from `prepare_update_data` since the toggle functionality is handled separately.
+
+**For `ProfileApp`:**
+
+```python
+def prepare_update_data(self, form):
+    profile_name = form.get('profile_name', '').strip()
+    if not profile_name:
+        raise ValueError("Name cannot be empty")
+    return {
+        "name": profile_name,
+        "address": form.get('profile_address', '').strip(),
+        "code": form.get('profile_code', '').strip(),
+    }
+```
+
+---
+
+### **Scope 3: Verify Route Registrations and Remove Duplicates**
+
+**Problem:**
+
+- The application routes show duplicates and possibly missing endpoints.
+- There might be conflicting route registrations causing issues.
+
+**Solution:**
+
+**1. Remove Duplicate Route Registrations**
+
+- **Action:** Ensure that you're not registering routes multiple times for the same path.
+
+- In your main application code, you have:
+
+```python
+@rt('/')
+@rt(f'/{TASK}')
+@rt(f'/{CUSTOMER}')
+def get(request):
+    # ... existing code ...
+```
+
+- **Issue:** You might be registering routes that conflict with the ones in your apps.
+
+**2. Adjust the Main Route Registration**
+
+- Since the `TodoApp` and `ProfileApp` handle their own routes, you can remove the specific route registrations for `/{TASK}` and `/{CUSTOMER}` from the main `get` function.
+
+**Updated Code:**
+
+```python
+@rt('/')
+def get(request):
+    # ... existing code ...
+```
+
+- Alternatively, ensure that the main `get` function only handles the home route (`'/'`).
+
+**3. Confirm Route Registrations**
+
+- After these changes, print out the routes again to verify that there are no duplicates and that all necessary routes are present.
+
+---
+
+### **Scope 4: Testing the Application**
+
+**After implementing the above fixes:**
+
+**1. Restart Your Application**
+
+- Ensure that the server is restarted so that it picks up the code changes.
+
+**2. Test Insertion of Todos and Profiles**
+
+- Try adding new todos and profiles through the application.
+- Verify that they are added successfully and appear in the UI.
+
+**3. Test Updating Todos and Profiles**
+
+- Attempt to update existing todos and profiles.
+- Check that the changes are saved and reflected in the application.
+
+**4. Monitor the Logs**
+
+- Watch the logs for any errors or warnings.
+- Ensure that the logs show successful operations.
+
+---
+
+### **Additional Considerations**
+
+**1. HTTP Methods and Forms**
+
+- HTML forms support `GET` and `POST` methods.
+- While HTMX allows specifying other methods like `PUT` and `DELETE`, your server and routes must be configured to handle them.
+- Using `POST` for update operations is acceptable and often simplifies handling.
+
+**2. Error Handling and User Feedback**
+
+- Consider adding user-friendly error messages if an operation fails.
+- Ensure that the frontend handles server responses appropriately.
+
+**3. Code Organization**
+
+- Keep your code organized by grouping related functionalities.
+- Ensure that the code in your `BaseApp` and subclasses is clear and maintains the Single Responsibility Principle.
+
+---
+
+**Summary of Changes:**
+
+- **Added `create_item` Method:** Implemented in `BaseApp` to handle item creation, resolving the `AttributeError`.
+- **Adjusted Update Routes:** Changed update routes to use `POST` method and updated frontend forms accordingly.
+- **Verified Route Registrations:** Removed duplicate routes and ensured that all necessary routes are correctly registered.
+- **Updated `prepare_update_data` Methods:** Ensured they correctly process form data for updates.
+
+---
+
+**Please try these changes and let me know if you encounter any further issues or need additional assistance.**
+
+---
+
+## And Now to Unhardwire Some Links
+
+Understood! Let's proceed with **detailed, step-by-step instructions** to eliminate the `get_new_url` function and replace it with dynamically generated URLs based on the configurations of `TodoApp` and `ProfileApp`. We'll ensure that each change is clear and precise, minimizing the risk of introducing bugs.
+
+---
+
+## **Step-by-Step Instructions to Remove `get_new_url` and Update URL Generation**
+
+### **Overview**
+
+1. **Remove the `get_new_url` Function**
+2. **Update References in `render_profile` and `render_todo` Functions**
+3. **Implement a Helper Method in `BaseApp` for URL Generation**
+4. **Modify `TodoApp` and `ProfileApp` to Utilize the Helper Method**
+5. **Ensure Consistent URL Generation Across the Application**
+6. **Test the Changes Thoroughly**
+
+---
+
+### **Step 1: Remove the `get_new_url` Function**
+
+**Objective:** Eliminate the `get_new_url` function from the codebase to remove the hardwired URL generation mechanism.
+
+#### **1.1. Locate the `get_new_url` Function**
+
+Find the `get_new_url` function in your code. It should look like this:
+
+```python
+def get_new_url(method, item_type, item_id):
+    logger.debug(f"Getting delete URL for {item_type} with ID {item_id}")
+    # So when profile or dodo come in
+    if NEW_WAY:
+        # The new way uses the table names from the config which are todo and profile
+        # Give me a dict where todo goes in and todo comes out and profile goes in and profile comes out
+        base_path = {
+            'todo': "todo",
+            'profile': "profile",
+        }
+    else:
+        # The old way is hardcoded for client and competitor
+        # Now give me a dict where todo goes in and competitor comes out and profile goes in and client comes out
+        base_path = {
+            'todo': "competitor",
+            'profile': "client",
+        }
+    return_url = f"{base_path[item_type]}/{method}/{item_id}"
+    logger.debug(f"Base path: {base_path[item_type]}")
+    logger.debug(f"Item ID: {item_id}")
+    logger.debug(f"Returning: {return_url}")
+    return return_url
+```
+
+#### **1.2. Remove the Function**
+
+**Action:**
+
+- **Delete** the entire `get_new_url` function from your code.
+
+**Result:**
+
+The function is no longer present in your codebase, reducing clutter and potential confusion.
+
+---
+
+### **Step 2: Update References in `render_profile` and `render_todo` Functions**
+
+**Objective:** Replace all usages of the now-removed `get_new_url` function with dynamic URL generation based on `TodoApp` and `ProfileApp` configurations.
+
+#### **2.1. Identify Usages of `get_new_url`**
+
+Search your entire codebase for all instances where `get_new_url` is called. Based on the provided code, these are primarily in:
+
+- `render_profile` function
+- `render_todo` function
+
+#### **2.2. Replace `get_new_url` Calls with Dynamic URLs**
+
+**Action:**
+
+- **Open** the `render_profile` and `render_todo` functions.
+- **Locate** all instances where `get_new_url` is called.
+- **Replace** each `get_new_url` call with a dynamically constructed URL based on the app's name (`todo` or `profile`), the action (`delete`, `toggle`, etc.), and the `item_id`.
+
+**Code Examples:**
+
+##### **Before Replacement in `render_profile`:**
+
+```python
+# Use get_delete_url to determine the delete URL
+delete_url = get_new_url('delete', 'profile', profile.id)
+
+# Create the delete button (trash can)
+delete_icon = A(
+    '🗑',
+    hx_delete=delete_url,
+    hx_target=f'#profile-{profile.id}',
+    hx_swap='outerHTML',
+    style=f"cursor: pointer; display: {delete_icon_visibility};",
+    cls="delete-icon"
+)
+
+# Create the active checkbox
+toggle_url = get_new_url('toggle', 'profile', profile.id)
+
+active_checkbox = Input(
+    type="checkbox",
+    name="active" if profile.active else None,
+    checked=profile.active,
+    hx_post=toggle_url,
+    hx_target=f'#profile-{profile.id}',
+    hx_swap="outerHTML",
+    style="margin-right: 5px;"
+)
+```
+
+##### **After Replacement in `render_profile`:**
+
+```python
+# Dynamically construct the delete URL based on the app's name
+delete_url = f"/profile/delete/{profile.id}"
+
+# Create the delete button (trash can)
+delete_icon = A(
+    '🗑',
+    hx_delete=delete_url,
+    hx_target=f'#profile-{profile.id}',
+    hx_swap='outerHTML',
+    style=f"cursor: pointer; display: {delete_icon_visibility};",
+    cls="delete-icon"
+)
+
+# Dynamically construct the toggle URL based on the app's name
+toggle_url = f"/profile/toggle/{profile.id}"
+
+active_checkbox = Input(
+    type="checkbox",
+    name="active" if profile.active else None,
+    checked=profile.active,
+    hx_post=toggle_url,
+    hx_target=f'#profile-{profile.id}',
+    hx_swap="outerHTML",
+    style="margin-right: 5px;"
+)
+```
+
+##### **Before Replacement in `render_todo`:**
+
+```python
+# Use get_delete_url to determine the delete URL
+delete_url = get_new_url('delete', 'todo', todo.id)
+
+# Create the active checkbox
+toggle_url = get_new_url('toggle', 'todo', todo.id)
+```
+
+##### **After Replacement in `render_todo`:**
+
+```python
+# Dynamically construct the delete URL based on the app's name
+delete_url = f"/todo/delete/{todo.id}"
+
+# Dynamically construct the toggle URL based on the app's name
+toggle_url = f"/todo/toggle/{todo.id}"
+```
+
+#### **2.3. Repeat for All Usages**
+
+Ensure that **all** instances of `get_new_url` in the `render_profile` and `render_todo` functions are replaced with the dynamic URL construction as shown above.
+
+---
+
+### **Step 3: Implement a Helper Method in `BaseApp` for URL Generation**
+
+**Objective:** Centralize URL generation logic within the `BaseApp` class to promote consistency and reduce redundancy.
+
+#### **3.1. Add `get_action_url` Method to `BaseApp`**
+
+**Action:**
+
+- **Open** the `BaseApp` class definition.
+- **Add** a new method `get_action_url` that constructs URLs based on the app's name, action, and `item_id`.
+
+**Code Example:**
+
+```python
+class BaseApp:
+    """
+    A base class for creating application components with common CRUD operations.
+    """
+
+    def __init__(self, name, table, toggle_field=None, sort_field=None, sort_dict=None):
+        self.name = name
+        self.table = table
+        self.toggle_field = toggle_field
+        self.sort_field = sort_field
+        self.sort_dict = sort_dict or {'id': 'id', sort_field: sort_field}
+
+    def register_routes(self, rt):
+        # Register routes: create, read, update, delete, toggle, and sort
+        rt(f'/{self.name}', methods=['POST'])(self.insert_item)
+        rt(f'/{self.name}/{{item_id}}', methods=['POST'])(self.update_item)  # Changed to POST
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+        rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+        rt(f'/{self.name}_sort', methods=['POST'])(self.sort_items)
+
+    def get_action_url(self, method, item_id):
+        """
+        Generate a URL for a specific action on an item.
+
+        Args:
+            method (str): The action method (e.g., 'delete', 'toggle').
+            item_id (int): The ID of the item.
+
+        Returns:
+            str: The constructed URL.
+        """
+        return f"/{self.name}/{method}/{item_id}"
+
+    def render_item(self, item):
+        # To be overridden by subclasses
+        return item
+
+    # ... rest of the BaseApp methods ...
+```
+
+#### **3.2. Explanation**
+
+- **`get_action_url` Method:** This method takes an `action` (e.g., `'delete'`, `'toggle'`) and an `item_id`, and returns a URL string following the pattern `"/{app_name}/{action}/{item_id}"`.
+- **Benefit:** Centralizing URL generation ensures consistency across different parts of the application and simplifies maintenance.
+
+---
+
+### **Step 4: Modify `TodoApp` and `ProfileApp` to Utilize the Helper Method**
+
+**Objective:** Ensure that `TodoApp` and `ProfileApp` classes use the newly introduced `get_action_url` method for URL generation.
+
+#### **4.1. Update `render_profile` Function**
+
+**Action:**
+
+- **Open** the `render_profile` function.
+- **Replace** the hardcoded URL constructions with calls to the `get_action_url` method of the corresponding app instance (`profile_app`).
+
+**Code Example:**
+
+```python
+def render_profile(profile):
+    """
+    Render a profile item as an HTML list item.
+    """
+
+    # ... existing code ...
+
+    # Use the ProfileApp instance to generate URLs
+    delete_url = profile_app.get_action_url('delete', profile.id)
+    toggle_url = profile_app.get_action_url('toggle', profile.id)
+
+    # Create the delete button (trash can)
+    delete_icon = A(
+        '🗑',
+        hx_delete=delete_url,
+        hx_target=f'#profile-{profile.id}',
+        hx_swap='outerHTML',
+        style=f"cursor: pointer; display: {delete_icon_visibility};",
+        cls="delete-icon"
+    )
+
+    # Create the active checkbox
+    active_checkbox = Input(
+        type="checkbox",
+        name="active" if profile.active else None,
+        checked=profile.active,
+        hx_post=toggle_url,
+        hx_target=f'#profile-{profile.id}',
+        hx_swap="outerHTML",
+        style="margin-right: 5px;"
+    )
+
+    # ... remaining code ...
+```
+
+#### **4.2. Update `render_todo` Function**
+
+**Action:**
+
+- **Open** the `render_todo` function.
+- **Replace** the hardcoded URL constructions with calls to the `get_action_url` method of the corresponding app instance (`todo_app`).
+
+**Code Example:**
+
+```python
+def render_todo(todo):
+    """
+    Render a todo item as an HTML list item with an update form.
+    """
+
+    # ... existing code ...
+
+    # Use the TodoApp instance to generate URLs
+    delete_url = todo_app.get_action_url('delete', todo.id)
+    toggle_url = todo_app.get_action_url('toggle', todo.id)
+
+    # Create the delete button (trash can)
+    delete = A(
+        '🗑',
+        hx_delete=delete_url,
+        hx_swap='outerHTML',
+        hx_target=f'#todo-{todo.id}',
+        style="cursor: pointer; display: inline;",
+        cls="delete-icon"
+    )
+
+    # Create the active checkbox
+    active_checkbox = Input(
+        type="checkbox",
+        name="english" if todo.done else None,
+        checked=todo.done,
+        hx_post=toggle_url,
+        hx_swap="outerHTML",
+        hx_target=f'#todo-{todo.id}',
+    )
+
+    # ... remaining code ...
+```
+
+#### **4.3. Ensure Access to App Instances**
+
+Ensure that within the `render_profile` and `render_todo` functions, the instances `profile_app` and `todo_app` are accessible. Since these instances are created globally, they should be accessible within these functions.
+
+---
+
+### **Step 5: Ensure Consistent URL Generation Across the Application**
+
+**Objective:** Verify that all parts of the application generating URLs for `todo` and `profile` items use the new URL generation mechanism.
+
+#### **5.1. Review All URL Generations**
+
+**Action:**
+
+- **Search** your entire codebase for any remaining hardcoded URLs related to `todo` and `profile` actions.
+- **Replace** any remaining hardcoded URLs with dynamic URLs using the `get_action_url` method from the respective app instances.
+
+**Examples:**
+
+##### **Example 1: In `get_profiles_content` Function**
+
+**Before Replacement:**
+
+```python
+hx_post=f"/{CUSTOMER}",  # This now points to the new ProfileApp insert endpoint
+```
+
+**After Replacement:**
+
+```python
+hx_post=profile_app.get_action_url('create', 'new'),  # Assuming 'create' action
+```
+
+*Note: Adjust based on actual route configurations.*
+
+##### **Example 2: In JavaScript or Frontend Code**
+
+If any frontend JavaScript code constructs URLs for `todo` or `profile` actions, ensure they align with the new URL patterns.
+
+**Example:**
+
+```javascript
+// Before
+let deleteUrl = `/competitor/delete/${id}`;
+
+// After
+let deleteUrl = `/profile/delete/${id}`;
+```
+
+---
+
+### **Step 6: Test the Changes Thoroughly**
+
+**Objective:** Ensure that all updates work as intended without introducing new issues.
+
+#### **6.1. Restart the Application**
+
+**Action:**
+
+- **Stop** the running application if it's active.
+- **Restart** the application to apply the changes.
+
+#### **6.2. Verify CRUD Operations for `Todo` Items**
+
+- **Create:** Add a new todo item and ensure it's created successfully.
+- **Read:** View the list of todo items to verify they are displayed correctly.
+- **Update:** Edit an existing todo item and confirm that updates persist.
+- **Delete:** Remove a todo item and ensure it's deleted from the list.
+
+**Checklist:**
+
+- URLs for delete and toggle actions follow the pattern `"/todo/delete/{id}"` and `"/todo/toggle/{id}"`.
+- HTMX requests are sent to the correct endpoints.
+- The UI updates reflect the changes without errors.
+
+#### **6.3. Verify CRUD Operations for `Profile` Items**
+
+- **Create:** Add a new profile and ensure it's created successfully.
+- **Read:** View the list of profiles to verify they are displayed correctly.
+- **Update:** Edit an existing profile and confirm that updates persist.
+- **Delete:** Remove a profile (only if it has no associated todos) and ensure it's deleted from the list.
+
+**Checklist:**
+
+- URLs for delete and toggle actions follow the pattern `"/profile/delete/{id}"` and `"/profile/toggle/{id}"`.
+- HTMX requests are sent to the correct endpoints.
+- The UI updates reflect the changes without errors.
+
+#### **6.4. Test Navigation and UI Elements**
+
+- **Navigate** through the application to ensure that menus and links work correctly.
+- **Interact** with buttons and forms to confirm that they trigger the intended actions.
+
+#### **6.5. Check Logs for Errors**
+
+**Action:**
+
+- **Review** the application logs to identify any errors or warnings that may have been introduced.
+- **Address** any issues found during testing.
+
+---
+
+## **Summary of Changes**
+
+1. **Removed `get_new_url` Function:**
+   - Eliminated the hardwired URL generation mechanism to reduce complexity.
+
+2. **Replaced `get_new_url` Usages:**
+   - Updated `render_profile` and `render_todo` functions to use dynamic URL constructions based on the app's name.
+
+3. **Added `get_action_url` Helper Method:**
+   - Centralized URL generation logic within the `BaseApp` class for consistency.
+
+4. **Modified `TodoApp` and `ProfileApp`:**
+   - Utilized the `get_action_url` method in rendering functions to generate appropriate URLs.
+
+5. **Ensured Consistent URL Patterns:**
+   - Verified that all parts of the application adhere to the new URL patterns.
+
+6. **Thorough Testing:**
+   - Confirmed that all CRUD operations and UI elements function correctly with the updated URL generation.
+
+---
+
+## **Next Steps**
+
+1. **Implement Further Refactorings (Optional):**
+   - **Dynamic Route Registration:** If you plan to add more apps, consider automating route registrations to streamline the process.
+   - **Enhanced Error Handling:** Improve error messages and handling mechanisms for better user experience.
+
+2. **Document the Changes:**
+   - **Update Code Comments:** Ensure that all code comments reflect the current state of the application.
+   - **Maintain Documentation:** Keep external documentation updated with the new URL patterns and functionalities.
+
+3. **Monitor in Production:**
+   - **Deploy Changes:** Once thoroughly tested, deploy the changes to your production environment.
+   - **Monitor Logs:** Keep an eye on application logs for any unforeseen issues post-deployment.
+
+---
+
+**By following these meticulous instructions, you can successfully remove the `get_new_url` function and adopt a more dynamic and maintainable URL generation strategy based on your application's configuration.**
+
+If you encounter any issues during implementation or need further assistance with subsequent steps, feel free to ask!
+
+---
+
+Wow, was that ever an adventure. But it's here! Proceed to the next article to
+continue this adventure.
