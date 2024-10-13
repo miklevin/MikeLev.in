@@ -1,7 +1,7 @@
 ---
 title: Object Oriented Base Class Plugins
 permalink: /object-oriented-baseclass-plugins/
-description: 
+description: I've built a plugin system using object-oriented programming, something I was initially hesitant about due to Python's OOP syntax. By creating a base class, `BaseApp`, I've streamlined CRUD operations and routes, improving the system's long-term flexibility. This approach reduces complexity in my single-file setup. I’ve customized the base class with wrappers like `TodoApp` and `ProfileApp` for specific functionalities. This shift to precision coding lets me add new features, like sorting, without bloating the code, making the system easier to update and maintain.
 layout: post
 ---
 
