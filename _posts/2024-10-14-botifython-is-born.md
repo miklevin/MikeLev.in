@@ -3,6 +3,7 @@ title: Botifython is Born
 permalink: /botifython-is-born/
 description: 
 layout: post
+date: 2024-10-13
 ---
 
 Certainly! Below is the revised introductory guide for **Botifython**, incorporating your provided code examples. This guide maintains the comprehensive overview and installation instructions while ensuring that all code snippets accurately reflect your project's implementation.
