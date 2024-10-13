@@ -1549,10 +1549,12 @@ footer=Form(
 
 Modify your `SortableJSWithUpdate` function to dynamically determine the `update_url` based on the element's data attributes.
 
+
+
 ```python
 def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
     src = f"""
-import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
+import {% raw %}{{Sortable}}{% endraw %} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
 
 document.addEventListener('DOMContentLoaded', (event) => {{
     const el = document.querySelector('{sel}');
