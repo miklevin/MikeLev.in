@@ -674,3 +674,316 @@ that are created the old way before the plugin system, and I'm replacing them
 with `\profile\` and `\todo\` as the default values inserted by the plugin
 system by default. The list of router endpoints published by FastHTML/Starlette
 is my to-do list for getting this done, haha!
+
+But any attempt to sort will cause an error because the UI is not actually
+connected to the UI yet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here's a more granular breakdown of the instructions, explicitly detailing the changes needed for each relevant function or section of your code. This approach will ensure clarity and minimize ambiguity for the code assistant.
+
+---
+
+### **Scope 1: Adjust the Client-Side JavaScript (SortableJSWithUpdate Function)**
+
+**1. Update the `SortableJSWithUpdate` Function**
+
+- **Target:** Modify the `SortableJSWithUpdate` function.
+- **Location:** Find the function definition `def SortableJSWithUpdate(...)`.
+
+```python
+def SortableJSWithUpdate(
+    sel='.sortable',
+    ghost_class='blue-background-class',
+    update_url=f'/{TASK}_sort'  # Existing line
+):
+```
+
+- **Modify the JavaScript inside the `src` variable:**
+  - **Change the `items` array construction** to correctly access the `data-id` attribute.
+  - **Adjust the `updateUrl` determination** based on the element ID.
+
+**Updated Code:**
+```python
+{% raw %}
+src = f"""
+import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
+
+document.addEventListener('DOMContentLoaded', (event) => {{
+    const el = document.querySelector('{sel}');
+    if (el) {{
+        new Sortable(el, {{
+            animation: 150,
+            ghost_class: '{ghost_class}',
+            onEnd: function (evt) {{
+                let items = Array.from(el.children).map((item, index) => ({
+                    id: item.dataset.id,  // Use data-id
+                    priority: index       // Capture new priority
+                }));
+                let updateUrl;  // Declare updateUrl variable
+                if (el.id === 'profile-list') {{
+                    updateUrl = '/profile_sort';  // URL for profile sorting
+                }} else if (el.id === 'todo-list') {{
+                    updateUrl = '/todo_sort';  // URL for todo sorting
+                }} else {{
+                    updateUrl = '{update_url}'; // Fallback to passed URL
+                }}
+                htmx.ajax('POST', updateUrl, {{
+                    target: el,
+                    swap: 'none',
+                    values: {{ items: JSON.stringify(items) }}
+                }});
+            }}
+        }});
+    }}
+}});
+{% endraw %}
+"""
+```
+
+---
+
+### **Scope 2: Update the Render Functions for Todos and Profiles**
+
+**2. Modify `render_todo` Function**
+
+- **Target:** The function `render_todo`.
+- **Location:** Find the function definition `def render_todo(todo)`.
+
+**Add `data-id` and `data-priority`:**
+- **Modify the `Li` return statement** to include `data-id` and `data-priority` attributes.
+
+**Updated Code:**
+```python
+def render_todo(todo):
+    """
+    Render a todo item as an HTML list item with an update form.
+    """
+    # ... existing code ...
+
+    return Li(
+        delete,
+        checkbox,
+        title_link,
+        update_form,
+        id=tid,  # Existing line
+        data_id=todo.id,  # Add this line
+        data_priority=todo.priority,  # Add this line
+        style="list-style-type: none;"
+    )
+```
+
+---
+
+**3. Modify `render_profile` Function**
+
+- **Target:** The function `render_profile`.
+- **Location:** Find the function definition `def render_profile(profile)`.
+
+**Add `data-id` and `data-priority`:**
+- **Modify the `Li` return statement** to include `data-id` and `data-priority` attributes.
+
+**Updated Code:**
+```python
+def render_profile(profile):
+    """
+    Render a profile item as an HTML list item.
+    """
+    # ... existing code ...
+
+    return Li(
+        Div(
+            active_checkbox,
+            title_link,
+            contact_info_span,
+            delete_icon,
+            update_form,
+            style="display: flex; align-items: center;"
+        ),
+        id=f'profile-{profile.id}',  # Existing line
+        data_id=profile.id,  # Add this line
+        data_priority=profile.priority,  # Add this line
+        style="list-style-type: none;"
+    )
+```
+
+---
+
+### **Scope 3: Adjust the Sort Functionality in the BaseApp Class**
+
+**4. Update `sort_items` Method in `BaseApp` Class**
+
+- **Target:** The method `sort_items`.
+- **Location:** Find the method definition `async def sort_items(self, values: dict)`.
+
+**Modify the Method:**
+- **Change the parameter from `values: dict` to `request`** to directly access the incoming request data.
+- **Update the JSON parsing logic** to handle form data instead.
+
+**Updated Code:**
+```python
+async def sort_items(self, request):
+    """
+    Update the order of items based on the received values.
+    """
+    logger.debug(f"Received request to sort {self.name}.")
+    try:
+        values = await request.form()  # Get form data from request
+        items = json.loads(values.get('items', '[]'))  # Decode JSON string to list
+        logger.debug(f"Parsed items: {items}")
+        for item in items:
+            logger.debug(f"Updating item: {item}")
+            update_dict = {self.sort_field: int(item['priority'])}  # Use priority
+            self.table.update(id=int(item['id']), **update_dict)  # Update table entry
+        logger.info(f"{self.name.capitalize()} order updated successfully")
+        return ''
+    except Exception as e:
+        logger.error(f"Error updating {self.name} order: {str(e)}")
+        return str(e), 500
+```
+
+---
+
+### **Scope 4: Register the Sort Endpoint Correctly**
+
+**5. Register the Sort Endpoint in `register_routes` Method**
+
+- **Target:** The method `register_routes`.
+- **Location:** Find the method definition `def register_routes(self, rt)` in the `BaseApp` class.
+
+**Ensure the Sort Endpoint is Registered:**
+- **Verify or Add the sort route registration.**
+
+**Updated Code:**
+```python
+def register_routes(self, rt):
+    # Register routes: delete, toggle, and sort
+    rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+    rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+    rt(f'/{self.name}_sort', methods=['POST'])(self.sort_items)  # Ensure this line is present
+```
+
+---
+
+### **Scope 5: Ensure Correct Element IDs in HTML**
+
+**6. Update IDs in the HTML Rendering Logic**
+
+- **Target:** The sections rendering the HTML for the todo list and profile list.
+- **Location:** In `get_profiles_content` and `get` functions.
+
+**For `get_profiles_content`:**
+- Ensure the profile list has the correct ID for SortableJS.
+
+**Updated Code:**
+```python
+def get_profiles_content():
+    # ... existing code ...
+    return Container(
+        nav_group,
+        Grid(
+            Div(
+                Card(
+                    H2(f"{CUSTOMER.capitalize()} {LIST_SUFFIX}"),
+                    Ul(*[render_profile(profile) for profile in ordered_profiles],
+                       id='profile-list',  # Set this ID
+                       cls='sortable',
+                       style="padding-left: 0;"),
+                    # ... existing code ...
+                ),
+                id="content-container",
+            ),
+            # ... existing code ...
+        ),
+    )
+```
+
+**For the Main Route Handler:**
+- Ensure the todo list has the correct ID for SortableJS.
+
+**Updated Code:**
+```python
+@rt('/')
+@rt(f'/{TASK}')
+@rt(f'/{CUSTOMER}')
+def get(request):
+    # ... existing code ...
+    response = Container(
+        nav_group,
+        Grid(
+            Div(
+                Card(
+                    H2(f"{pluralize(menux, singular=True)} {LIST_SUFFIX}"),
+                    Ul(*[render_todo(todo) for todo in todo_items],
+                       id='todo-list',  # Set this ID
+                       cls='sortable',
+                       style="padding-left: 0;"),
+                    # ... existing code ...
+                ),
+                id="content-container",
+            ),
+            # ... existing code ...
+        ),
+    )
+    # ... existing code ...
+```
+
+---
+
+### **Scope 6: Test the Integration**
+
+**7. Test the Application After Changes**
+
+- **Verify Drag-and-Drop Functionality:**
+  - Open the application in your browser and test the drag-and-drop feature on both the todo and profile lists.
+  
+- **Check Network Requests:**
+  - Use the Developer Tools in your browser (F12) to monitor network requests. Ensure that after reordering items, a POST request is made to either `/todo_sort` or `/profile_sort` with the correct data.
+
+- **Review Server Logs:**
+  - Check the application logs to confirm that the `sort_items` method is invoked and that the items are updated as expected.
+
+- **Refresh the Page:**
+  - After making changes, refresh the page and ensure that the order of items remains consistent with what was set during the drag-and-drop operation.
+
+---
+
+By breaking down the instructions in this manner, you now have clear, targeted changes for specific functions or sections of your code. Each instruction specifies exactly where to apply modifications, ensuring that the code assistant can implement these changes with precision.
