@@ -337,4 +337,14 @@ profile_app = ProfileApp(table=profiles)
 profile_app.register_routes(rt)
 ```
 
+Pshwew! Okay, and here's a better documented version of a single app definition.
+I have a bit of difficulty knowing what to call these. I want to say
+***wrapper*** because they wrap and extend the capabilities of the ***base
+class***, but wrap has a special decorator meaning in Python. The two definitely
+are related, and I think there's a lot in Python to *trick* you into intuitively
+using good object oriented techniques without thinking about it or knowing
+you're doing it (like filenames as their own namespaces). This is the opposite.
+Everything is explicit with lots of *superdunderself*.
+
+
 
