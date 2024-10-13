@@ -3,6 +3,7 @@ title: This Also Becomes Your H1
 permalink: /slug/
 description: Becomes your meta description.
 layout: post
+date: 2024-10-12
 ---
 
 Okay, after a whole day of working in it, I have the heart of the plugin system
