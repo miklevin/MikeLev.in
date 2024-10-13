@@ -481,6 +481,11 @@ Implement CSS classes with `max-width` and `overflow` properties to handle text 
 
 **Implementation:**
 
+> Note from human again: While I will control those pesky element widths with
+> CSS, I am unlikely to do it with an externalized css file. Let's mix it inline
+> all the frig over the place, if nothing else than to piss a lot of people off
+> and keep our FastHTML app truly one `filename.py`.
+
 ```css
 /* In your CSS file or Style tag */
 .menu-item, .data-item {
@@ -1317,3 +1322,353 @@ The integration of `BaseApp`, `TodoApp`, and `ProfileApp` with the plugin system
 ### Conclusion
 
 The use of a base class like `BaseApp` in combination with specific implementations like `TodoApp` and `ProfileApp` is a common design pattern in software development. It provides a robust framework for building scalable, maintainable, and consistent applications, especially when dealing with similar operations across different domains. This approach not only reduces code duplication but also enhances the overall architecture of the application, making it easier to manage and extend over time.
+
+---
+
+> Fast forward to end of day. I have the 2 "easy" crud actions ported, delete
+> and toggle. Getting advice on the rest now.
+
+### **1. Update the `BaseApp` Class to Include `Insert`, `Update`, and `Sort` Methods**
+
+Your `BaseApp` class should have generic methods for `create_item`, `update_item`, and `sort_items`. Here's how you can define them:
+
+```python
+class BaseApp:
+    def __init__(self, name, table, toggle_field, sort_field):
+        self.name = name
+        self.table = table
+        self.toggle_field = toggle_field  # Field to toggle
+        self.sort_field = sort_field  # Field to sort on
+
+    def register_routes(self, rt):
+        """Register routes using the provided routing function."""
+        rt(f'/{self.name}')(self.get_items)
+        rt(f'/{self.name}', methods=['POST'])(self.create_item)
+        rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+        rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+        rt(f'/{self.name}/sort', methods=['POST'])(self.sort_items)
+
+    async def get_items(self, request):
+        """Retrieve all items."""
+        items = self.table()
+        return [self.render_item(item) for item in items]
+
+    async def create_item(self, **kwargs):
+        """Create a new item."""
+        item = self.table.insert(kwargs)
+        return self.render_item(item)
+
+    async def update_item(self, item_id: int, **kwargs):
+        """Update an existing item."""
+        item = self.table[item_id]
+        for key, value in kwargs.items():
+            setattr(item, key, value)
+        updated_item = self.table.update(item)
+        return self.render_item(updated_item)
+
+    async def delete_item(self, item_id: int):
+        """Delete an existing item."""
+        # Existing delete logic...
+
+    async def toggle_item(self, item_id: int):
+        """Toggle a boolean field of an item."""
+        # Existing toggle logic...
+
+    async def sort_items(self, items: list):
+        """Sort items based on the provided order."""
+        try:
+            for item_data in items:
+                item = self.table[item_data['id']]
+                setattr(item, self.sort_field, item_data['priority'])
+                self.table.update(item)
+            return "Items sorted successfully"
+        except Exception as e:
+            return f"Error sorting items: {str(e)}", 500
+
+    def render_item(self, item):
+        """Render an item. To be overridden in subclasses."""
+        return item
+```
+
+---
+
+### **2. Override `create_item` and `update_item` in Subclasses for Specific Logic**
+
+Since `TodoApp` and `ProfileApp` have specific requirements (like validation, setting default values, or interacting with the chatbot), you should override these methods in your subclasses.
+
+#### **For `TodoApp`**
+
+```python
+class TodoApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(
+            name='todo',
+            table=table,
+            toggle_field='done',
+            sort_field='priority'
+        )
+
+    def render_item(self, todo):
+        return render_todo(todo)
+
+    async def create_item(self, **kwargs):
+        title = kwargs.get('title', '').strip()
+        if not title:
+            await chatq("User tried to add an empty todo. Respond with a brief, sassy comment about their attempt.")
+            return ''
+
+        current_profile_id = db.get("last_profile_id")
+        if not current_profile_id:
+            default_profile = profiles()[0]
+            current_profile_id = default_profile.id
+
+        todo = {
+            "title": title,
+            "done": False,
+            "priority": 0,
+            "profile_id": current_profile_id,
+        }
+        inserted_todo = self.table.insert(todo)
+        await chatq(f"New todo: '{title}'. Brief, sassy comment or advice.")
+        return self.render_item(inserted_todo)
+
+    async def update_item(self, item_id: int, **kwargs):
+        todo_title = kwargs.get('todo_title', '').strip()
+        if not todo_title:
+            return "Title cannot be empty", 400
+
+        item = self.table[item_id]
+        item.title = todo_title
+        updated_item = self.table.update(item)
+        return self.render_item(updated_item)
+```
+
+#### **For `ProfileApp`**
+
+```python
+class ProfileApp(BaseApp):
+    def __init__(self, table):
+        super().__init__(
+            name='profile',
+            table=table,
+            toggle_field='active',
+            sort_field='priority'
+        )
+
+    def render_item(self, profile):
+        return render_profile(profile)
+
+    async def create_item(self, **kwargs):
+        profile_name = kwargs.get('profile_name', '').strip()
+        profile_address = kwargs.get('profile_address', '')
+        profile_code = kwargs.get('profile_code', '')
+
+        if not profile_name:
+            await chatq("User tried to add an empty profile name. Respond with a brief, sassy comment about their attempt.")
+            return ''
+
+        max_priority = max((p.priority or 0 for p in self.table()), default=-1) + 1
+
+        new_profile = {
+            "name": profile_name,
+            "address": profile_address,
+            "code": profile_code,
+            "active": True,
+            "priority": max_priority,
+        }
+        inserted_profile = self.table.insert(new_profile)
+        await chatq(f"New profile '{profile_name}' just joined the party!")
+        return self.render_item(inserted_profile)
+
+    async def update_item(self, item_id: int, **kwargs):
+        name = kwargs.get('name', '').strip()
+        address = kwargs.get('address', '')
+        code = kwargs.get('code', '')
+
+        if not name:
+            return "Name cannot be empty", 400
+
+        item = self.table[item_id]
+        item.name = name
+        item.address = address
+        item.code = code
+        updated_item = self.table.update(item)
+        await chatq(f"Profile '{name}' was updated.")
+        return self.render_item(updated_item)
+```
+
+---
+
+### **3. Update UI Components to Use the New Endpoints**
+
+Your forms and JavaScript code need to point to the new endpoints provided by `BaseApp`.
+
+#### **Update Forms in Templates**
+
+**For Todo Items:**
+
+```python
+# In your main content rendering function for Todos
+header=Form(
+    Group(
+        Input(
+            placeholder=f'Add new {TASK.capitalize()}',
+            id='title',
+            name='title',
+            hx_swap_oob='true',
+            autofocus=True,
+        ),
+        Button("Add", type="submit"),
+    ),
+    hx_post=f"/{TASK}",  # Points to '/todo'
+    hx_swap="beforeend",
+    hx_target="#todo-list",
+)
+```
+
+**For Profiles:**
+
+```python
+# In your profile list rendering function
+footer=Form(
+    Group(
+        Input(placeholder=f"{CUSTOMER.capitalize()} Name", name="profile_name", id="profile-name-input"),
+        Input(placeholder=ADDRESS_NAME, name="profile_address", id="profile-address-input"),
+        Input(placeholder=CODE_NAME, name="profile_code", id="profile-code-input"),
+        Button("Add", type="submit", id="add-profile-button"),
+    ),
+    hx_post=f"/{CUSTOMER}",  # Points to '/profile'
+    hx_target="#profile-list",
+    hx_swap="beforeend",
+    hx_swap_oob="true",
+)
+```
+
+#### **Update JavaScript for Sorting**
+
+Modify your `SortableJSWithUpdate` function to dynamically determine the `update_url` based on the element's data attributes.
+
+```python
+def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
+    src = f"""
+import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
+
+document.addEventListener('DOMContentLoaded', (event) => {{
+    const el = document.querySelector('{sel}');
+    if (el) {{
+        new Sortable(el, {{
+            animation: 150,
+            ghost_class: '{ghost_class}',
+            onEnd: function (evt) {{
+                let items = Array.from(el.children).map((item, index) => ({{
+                    id: item.dataset.id,
+                    priority: index
+                }}));
+                let updateUrl = `/${{el.dataset.name}}/sort`;  // Dynamic update URL
+                htmx.ajax('POST', updateUrl, {{
+                    target: el,
+                    swap: 'none',
+                    values: {{ items: JSON.stringify(items) }}
+                }});
+            }}
+        }});
+    }}
+}});
+"""
+    return Script(src, type='module')
+```
+
+In your HTML where you define the sortable lists, add a `data-name` attribute:
+
+```python
+# For Todos
+Ul(*[render_todo(todo) for todo in todo_items],
+   id='todo-list',
+   cls='sortable',
+   data_name='todo',  # Added data-name attribute
+   style="padding-left: 0;"),
+
+# For Profiles
+Ul(*[render_profile(profile) for profile in ordered_profiles],
+   id='profile-list',
+   cls='sortable',
+   data_name='profile',  # Added data-name attribute
+   style="padding-left: 0;"),
+```
+
+---
+
+### **4. Remove Old Route Functions**
+
+Since the `BaseApp` now handles `Insert`, `Update`, and `Sort`, you can remove the old route functions like `add_profile`, `update_profile`, `post_todo`, and `update_todo`.
+
+---
+
+### **5. Ensure Data Attributes in Rendered Items**
+
+When rendering your list items, make sure to include `data-id` and `data-priority` attributes, which are necessary for the sorting functionality.
+
+```python
+def render_todo(todo):
+    return Li(
+        # ... your existing code ...
+        id=f'todo-{todo.id}',
+        cls='done' if todo.done else '',
+        style="list-style-type: none;",
+        data_id=todo.id,
+        data_priority=todo.priority  # Necessary for sorting
+    )
+
+def render_profile(profile):
+    return Li(
+        # ... your existing code ...
+        id=f'profile-{profile.id}',
+        style="list-style-type: none;",
+        data_id=profile.id,  # Necessary for sorting
+        data_priority=profile.priority
+    )
+```
+
+---
+
+### **6. Test the Application**
+
+- **Insert Functionality**: Test adding new todos and profiles to ensure they are created and displayed correctly.
+- **Update Functionality**: Test updating existing items to verify that changes are saved and reflected in the UI.
+- **Sort Functionality**: Test dragging and dropping items to reorder them and confirm that the new order persists.
+
+---
+
+### **7. Handle Any Remaining Specific Logic**
+
+If there are any unique behaviors or additional validations in your original `Insert`, `Update`, or `Sort` functions, ensure they are incorporated into the overridden methods in your subclasses.
+
+---
+
+### **Example of Updated `register_routes` Method in `BaseApp`**
+
+```python
+def register_routes(self, rt):
+    """Register routes using the provided routing function."""
+    rt(f'/{self.name}')(self.get_items)
+    rt(f'/{self.name}', methods=['POST'])(self.create_item)
+    rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+    rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+    rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+    rt(f'/{self.name}/sort', methods=['POST'])(self.sort_items)
+```
+
+---
+
+### **Finalize by Running and Testing Your Application**
+
+After making these changes, run your application and thoroughly test all functionalities to ensure everything works as expected. Pay special attention to:
+
+- **UI Interactions**: Verify that buttons, forms, and drag-and-drop sorting work seamlessly.
+- **Data Persistence**: Ensure that changes are saved to your database.
+- **Chatbot Interactions**: Confirm that the chatbot responds appropriately to actions like adding or updating items.
+
+---
+
+By following these steps and incorporating the code examples provided, you should be able to successfully migrate the `Insert`, `Update`, and `Sort` methods into the `BaseApp` class, update your UI endpoints, and phase out the old non-OO configuration in favor of a cleaner, more maintainable codebase.
