@@ -1557,7 +1557,7 @@ def SortableJSWithUpdate(sel='.sortable', ghost_class='blue-background-class'):
 import {% raw %}{{Sortable}}{% endraw %} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
 
 document.addEventListener('DOMContentLoaded', (event) => {{
-    const el = document.querySelector('{sel}');
+    {% raw %}{{ const el = document.querySelector('{sel}{% endraw %}
     if (el) {{
         new Sortable(el, {{
             animation: 150,
