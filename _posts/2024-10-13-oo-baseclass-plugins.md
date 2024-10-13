@@ -187,23 +187,9 @@ class BaseApp:
         self.sort_field = sort_field
 
     def register_routes(self, rt):
-        # Register routes for CRUD operations using the provided routing function.
-        # 'rt' is the routing function provided by the web framework.
-        # This method sets up a single route for the CRUD operation specified
-        # when creating an object from this base class.
-        crud_operation = self.name  # The CRUD operation is determined by the 'name' attribute
-        if crud_operation == 'create':
-            rt(f'/{self.name}', methods=['POST'])(self.create_item)
-        elif crud_operation == 'read':
-            rt(f'/{self.name}')(self.get_items)
-        elif crud_operation == 'update':
-            rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
-        elif crud_operation == 'delete':
-            rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
-        elif crud_operation == 'toggle':
-            rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
-        elif crud_operation == 'sort':
-            rt(f'/{self.name}/sort', methods=['POST'])(self.sort_items)
+        # Register only the implemented routes: update and toggle
+        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+        rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
 
     def render_item(self, item):
         # A wrapper function currently serving as a passthrough for item rendering.
@@ -345,6 +331,12 @@ are related, and I think there's a lot in Python to *trick* you into intuitively
 using good object oriented techniques without thinking about it or knowing
 you're doing it (like filenames as their own namespaces). This is the opposite.
 Everything is explicit with lots of *superdunderself*.
+
+Okay, this shift in coding style is important for me. What we are doing is
+moving to a sort of scalpel like precision with OO (object oriented) that I have
+been remiss to do in the past, because with an AI-tutor it was extremely
+difficult to work through on my own. AI is not coding ***for*** me. AI is coding
+***with*** me, allowing me to hit above my weight class.
 
 
 
