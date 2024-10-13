@@ -678,45 +678,9 @@ is my to-do list for getting this done, haha!
 But any attempt to sort will cause an error because the UI is not actually
 connected to the UI yet.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## So, Is Sortable Portable?
 
 Here's a more granular breakdown of the instructions, explicitly detailing the changes needed for each relevant function or section of your code. This approach will ensure clarity and minimize ambiguity for the code assistant.
 
