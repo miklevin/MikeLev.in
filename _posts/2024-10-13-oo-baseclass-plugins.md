@@ -163,37 +163,54 @@ stripped down to bare minimum and moved to the bottom:
 
 ```python
 class BaseApp:
+    """
+    A base class for creating application components with common CRUD operations.
+
+    This class provides a template for building application components that interact
+    with database tables and handle basic Create, Read, Update, Delete (CRUD) operations.
+    It includes methods for registering routes, rendering items, and performing various
+    database operations.
+
+    The class is designed to be flexible and extensible, allowing subclasses to override
+    or extend its functionality as needed for specific application components.
+    """
+
     def __init__(self, name, table, toggle_field, sort_field):
+        # Initialize a new BaseApp instance with the given parameters.
+        # 'name' is the name of the app.
+        # 'table' is the database table associated with this app.
+        # 'toggle_field' is the field name used for toggling.
+        # 'sort_field' is the field name used for sorting.
         self.name = name
         self.table = table
-        self.toggle_field = toggle_field  # Field to toggle
-        self.sort_field = sort_field  # Field to sort on
+        self.toggle_field = toggle_field
+        self.sort_field = sort_field
 
     def register_routes(self, rt):
-        """Register routes using the provided routing function."""
-        rt(f'/{self.name}')(self.get_items)
-        rt(f'/{self.name}', methods=['POST'])(self.create_item)
-        rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
-        rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
-        rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
-        rt(f'/{self.name}/sort', methods=['POST'])(self.sort_items)
+        # Register routes for CRUD operations using the provided routing function.
+        # 'rt' is the routing function provided by the web framework.
+        # This method sets up a single route for the CRUD operation specified
+        # when creating an object from this base class.
+        crud_operation = self.name  # The CRUD operation is determined by the 'name' attribute
+        if crud_operation == 'create':
+            rt(f'/{self.name}', methods=['POST'])(self.create_item)
+        elif crud_operation == 'read':
+            rt(f'/{self.name}')(self.get_items)
+        elif crud_operation == 'update':
+            rt(f'/{self.name}/update/{{item_id}}', methods=['POST'])(self.update_item)
+        elif crud_operation == 'delete':
+            rt(f'/{self.name}/delete/{{item_id}}', methods=['DELETE'])(self.delete_item)
+        elif crud_operation == 'toggle':
+            rt(f'/{self.name}/toggle/{{item_id}}', methods=['POST'])(self.toggle_item)
+        elif crud_operation == 'sort':
+            rt(f'/{self.name}/sort', methods=['POST'])(self.sort_items)
 
-    async def get_items(self, request):
-        """Retrieve all items."""
-        items = self.table()
-        return [self.render_item(item) for item in items]
-
-    async def create_item(self, **kwargs):
-        """Create a new item."""
-        item = self.table.insert(kwargs)
-        return self.render_item(item)
-
-    async def update_item(self, item_id: int, **kwargs):
-        """Update an existing item."""
-        item = self.table[item_id]
-        for key, value in kwargs.items():
-            setattr(item, key, value)
-        updated_item = self.table.update(item)
+    def render_item(self, item):
+        # A wrapper function currently serving as a passthrough for item rendering.
+        # This method is part of the system's "styling" mechanism, transforming
+        # dataclasses into HTML or other instructions for display or HTMX operations.
+        # Subclasses are expected to override this method with context-aware implementations.
+        return item
 
     async def delete_item(self, item_id: int):
         """
@@ -260,30 +277,17 @@ class BaseApp:
             return f"Error toggling item: {str(e)}", 500
 
     async def sort_items(self, items: list):
-        """
-        Sort items based on the provided order.
+        # Sort items.
+        # TODO: Implement sorting logic
+        pass
 
-        Args:
-            items (list): A list of dictionaries containing item IDs and their new order.
+    async def create_item(self, **kwargs):
+        # Create a new item.
+        item = self.table.insert(kwargs)
 
-        Returns:
-            str: A success message or an error message with status code.
-        """
-        try:
-            logger.debug(f"Sorting items: {items}")
-            for item_data in items:
-                item = self.table[item_data['id']]
-                setattr(item, self.sort_field, item_data['priority'])
-                self.table.update(item)
-            logger.info("Items sorted successfully")
-            return "Items sorted successfully"
-        except Exception as e:
-            logger.error(f"Error sorting items: {str(e)}")
-            return f"Error sorting items: {str(e)}", 500
-
-    def render_item(self, item):
-        """Render an item as needed. Override in subclasses."""
-        return item
+    async def update_item(self, item_id: int, **kwargs):
+        # Update an existing item.
+        item = self.table[item_id]
 ```
 
 And here is the current wrapper classes that instantiate instances of this base
