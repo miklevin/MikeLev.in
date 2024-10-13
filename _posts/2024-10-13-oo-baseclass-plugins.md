@@ -1,7 +1,7 @@
 ---
-title: This Also Becomes Your H1
-permalink: /slug/
-description: Becomes your meta description.
+title: Object Oriented Base Class Plugins
+permalink: /object-oriented-baseclass-plugins/
+description: 
 layout: post
 ---
 
@@ -13,6 +13,8 @@ safety net, and thus really confidence as well to tackle stuff I've been
 hesitant about tackling in the past. OO syntax under Python is a bit
 intimidating to me under Python. 
 
+## Implementing Plugin System Improves Long-Term Adaptability and Viability
+
 Okay, I must resist chasing rabbits down holes today. This adoption of a plugin
 system has been a huge rabbit hole, a whole day so far invested into it, but
 worth it. These changes now will assure the long-term adaptability and
@@ -20,6 +22,8 @@ flexibility, and thus viability of this system. The amount of work required for
 adding new features now would make both the complexity and amount of code
 explode, and since I'm using a single-file approach, I want to keep that under
 control. Plugging in new apps should look beautiful and show off the system.
+
+## Using Object-Oriented Programming in FastHTML Applications
 
 So far, I've got this ***base class*** for apps called `BaseApp` which makes
 heavy use of OO. Things I need to notice and say out loud to myself is that yes,
@@ -158,6 +162,8 @@ class BaseApp:
         return item
 ```
 
+## Adding Docstrings and Comments to Help Grok OO
+
 Okay, here it is again, but now documented and with the unimplemented stuff
 stripped down to bare minimum and moved to the bottom:
 
@@ -276,11 +282,19 @@ class BaseApp:
         item = self.table[item_id]
 ```
 
+## Understanding Wrapper Classes Requires Out-of-Order Thinking
+
 And here is the current wrapper classes that instantiate instances of this base
 class, both the wrapper definitions and their instantiating. This is the stuff
 that's normally hard for me to wrap my mind around, because I'm a "sequential
 story telling" sort of person, and this requires you imagining all sorts of
-phantom things around it with out-of-order execution to make sense.
+phantom things around it with out-of-order execution to make sense. I'm more of
+a ***Jupyter Notebooks without functions*** if I can help it sort of person. I
+like top-to-bottom story-telling without jumping around or multiple files to
+look in. OO is antithetical to my way of operating. You've got to get the
+internals into your head and keep them there. It's funny how something meant to
+simplify and offer flexibility actually hardwired your mind to particular
+implementations. Not my bally wick, but necessary in this case.
 
 ```python
 class TodoApp(BaseApp):
@@ -323,6 +337,8 @@ profile_app = ProfileApp(table=profiles)
 profile_app.register_routes(rt)
 ```
 
+## Superdunderself Included
+
 Pshwew! Okay, and here's a better documented version of a single app definition.
 I have a bit of difficulty knowing what to call these. I want to say
 ***wrapper*** because they wrap and extend the capabilities of the ***base
@@ -337,6 +353,10 @@ moving to a sort of scalpel like precision with OO (object oriented) that I have
 been remiss to do in the past, because with an AI-tutor it was extremely
 difficult to work through on my own. AI is not coding ***for*** me. AI is coding
 ***with*** me, allowing me to hit above my weight class.
+
+
+
+
 
 
 
