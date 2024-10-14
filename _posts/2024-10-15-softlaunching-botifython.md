@@ -566,6 +566,30 @@ Perform the uninstall, reboot your machine and go to Botifython.com... a list...
 
 Okay, it worked! 
 
+### Stuff to fix
+
 - The time-delay for the Window to pop up needs to be increased.
 - I print the star/stop instructions for Jupyter twice.
 - I need to test a fresh install on machines without Ollama runnng
+
+Okay, I got that done by the skin of my teeth, and even sent the link to my
+boos for preview.
+
+---
+
+# Shifting Gears
+
+Coming up for air from some of the most intense development work of my life.
+It's still just a plug-in framework with the apps not actually there yet, but
+the apps already exist in other forms other places, and doing the means of
+distribution and delivery was the hard part. And that's done, right down to the
+github auto-updating! Think about forking a development branch.
+
+I've been leaning on a coworker heavily for support on the client-facing front,
+actually multiple coworkers and I've been doing that for weeks really, but that
+truly intense period is over. It felt good and I want to recapture that
+intensity, which itself was a recapture of a type of work I did in my late 20s.
+
+The client work is anticlimatic in comparison, but I can make it loveworthy by
+internalizing the client's issues and using that to help shape the Botifython
+product. I have to get my YouTube videos going again, especially now.
