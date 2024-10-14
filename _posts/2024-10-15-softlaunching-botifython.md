@@ -9,10 +9,11 @@ date: 2024-10-14
 I pushed hard to clean up and prep the Botifython fork of Pipulate to be ready
 to roll out to my coworkers... almost. I still have to plug the apps in. The
 actual ports of an existing web app, the first I cut my FastHTML teeth on, and
-one that exists only in a Juptyer NOtebook, into the new framwork. But the new
-framwork is in MVP (minimum viable product) state, and yesterday I got the git
+one that exists only in a Juptyer Notebook, into the new framework. But the new
+framework is in MVP (minimum viable product) state, and yesterday I got the git
 deployment trick down. Today, I make it accessible to my coworkers. As time
-allows, I'll extract the FOSS bits and put it back into Pipulate.
+allows, I'll extract the free and open source software (FOSS) bits and put it
+back into Pipulate.
 
 The nix flake now does an automatic git pull to update the repo every time you
 nix develop from it, but I don't want that to be the default state of the
@@ -268,3 +269,126 @@ Pipulate FOSS version, so I have to update the flake:
       });
 }
 ```
+
+Pshwew! 
+
+There's some magic in that flake.
+
+- git pulls on a GitHub private repo are incorporated.
+- Once you're provided the repo even in non-repo form (downloaded zip), you're
+  "in". It upgrades you with an in-location git pull using provided key.
+- It only does this based on the project name, so I can change the project name
+  in the flake for FOSS forks (Pipulate).
+
+...and a bunch of other stuff that's been in there for awhile making it multi-OS
+which I won't document again here. But that base has basically become [Darwinix,
+which I forked here](https://github.com/Botifython/darwinix). There's lots of
+layers that I'm crafting. The lowest is probably what the industry would call
+***infrastructure as code*** or IaC. But I think that's a terrible name to
+represent the fact you can replace hardware with a single text-file. The
+***soul*** of your machine is how you have your software configured on top of it
+in such a way that it comes back to you exactly as you instantiated elsewhere.
+Hardware is not forever, but your ***nix flake*** is
+
+Okay, but that ***git cloning*** trick is of paramount importance here. I
+actually made a new Github account specifically for this, called Botifython.
+I'll likely apply all these things to the original miklevin/pipulate repo as a
+FOSS extraction as I go, but I'm shifting modes because as I worked up the
+layers:
+
+- IaC nix flake machine definition
+- Python virtual environment with pre-installed pip's
+- FastHTML app with plugin framework running local 
+
+...I am at the next point of customizing that local instance of a FastHTML
+server into some proprietary stuff. I'm going to take the lead of DHH and work
+with framework *"extractions"* from this point forward. The main branch (for me)
+will be a proprietary fork, technically not a fork in the git sense because if
+you fork, you can't make the repo private on Github. So I deleted the invisible
+.git folder and started a fresh repo. I'll have a bit of a synchronization issue
+now between the proprietary and FOSS version, but I'll cope.
+
+The urgency now is to titillate my coworkers with the project, getting used to
+the interface and build some anticipation while I pivot to more traditional
+client work, which is starting to hit again. My calendar was cleared for quite a
+few weeks by my boss to bang out this way of sharing and collaborating my work
+with my coworkers, to bring automation to complex SEO procedures. I've done this
+tons of time for myself in the past as a sort of secret weapon, and at some
+point that concept became **pipulate**. It's gone through several iterations
+over the years from crawling spreadsheets directly into Google Docs using a
+***bookmarklet*** (JavaScript bookmark), to its most recent rendition as just a
+bunch of **Juptyer Notebooks**.
+
+I thought Pipulate would remain just a bunch of Jupyter Notebooks forever
+because I was so done with web development. The specialization and lifetime of
+dedication you need to commit just to use the popular modern tools is totally
+out of hand. The age of the jack-of-all-trades Webmaster was not just over some
+point mid-2010s, it was clobbered into oblivion. That can-do do-it-all spirit
+was impossible in practice, even if you still had it in spirit--unless you
+stayed on PHP and used virtual web hosts. Then, you could still do it all.
+
+But PHP is not for me. I'm in it for the love of the work, and I love Python.
+I'm not one of those people who says that the language doesn't matter, and you
+can code anything in anything. That's technically true because Turing-complete
+and all, but that's not for me. I still code at all because I actually found a
+love-worthy coding platform in Python before I reached ultimate frustration, and
+that gave me safe harbor to keep coding Python in Notebooks in a way that was
+becoming increasingly popular, socialized and collaborative. But a time comes
+when even a Notebook must be made simpler for a different audience if you want
+that break-out level of simplicity and ease... for the user.
+
+This article could go on forever along that vein. Switching from Notebook to Web
+App may make it easier for the user of the "app", but it's infinitely harder for
+the developer. It's a second job, at very least. First to develop it in the
+first place, then to host it and maintain it in perpetuity. It's tech liability
+that bogs you down in life, plain and simple. The freedom for everyone else in
+your stuff being easy to use puts you on the hook, and if popular, a very short
+leash to update, maintain, fix, secure... yadda yadda forever. And if it's not
+really your main job, well that's the formula for frustration and burnout.
+
+Yeah, I'm in my mid-50s and not in the position to take up that sort of nonsense
+again. So nix flakes lets me shift the burden of hosting onto infinitely
+scalable little instances that I indemnify myself from, haha! Local hosting is a
+great option when the localhost is whatever machine you're sitting at, and it
+works every time... for everyone... on every OS... forever into the future,
+because versions are uniquely pinned on a uniquely "normalized" or common
+platform. Linux is now so popular and pervasive that a whole instance of a Linux
+virtual environment can be plugged into the subdirectory of a git repo--and by
+extension GitHub, and thus easily sharable infrastructure as code.
+
+Got that? It's a new age we're in, and not just because of AI. It's because the
+lowest common denominator hardware and popular OS can host a decent highest
+common denominator Linux subsystem in a folder... one that's pedantically
+deterministic. That means it fixes the "not on my machine" problem by (more or
+less) running the exact same way for everyone.
+
+AI, you say? Well, yeah it's an accelerator. I've always tried to hit above my
+weight. I'm a suburban kid with no formal tech training, no decent mentoring
+(even though I worked at Commodore Computers!), and really no business acumen
+nor the motivation to dedicate myself full-time to tech. So what am I? I suppose
+you'd call it an artist. Or at very least, a craftsman. I fall in love with the
+tools and using them. There's a sheer joy in exercising your mental muscles with
+stuff. But unlike the mainstream image of tech, it's not new stuff all the time.
+That's exhausting and works against craftsmanship.
+
+Getting better at a craft over time means letting your muscle memory improve
+over time, so you think less about the tools and more about the subject of what
+you're using them on. They fade transparently into the background, and you get
+into the zone or the flow state, as they say. But you can't if you're always
+hyper-aware of your tools because they're always changing on you. Sure yeah,
+while an artist might love experimenting with new mediums, a craftsman needs the
+very nature of the wood that they're woodworking to at least be semi-stable,
+reliable and consistent over the years so that every time they carve a new
+canoe, they don't have to feel like they have to start on concrete.
+
+I spent so much of my effort creating that "normalized" layer for tech, and a
+competent an love-worthy Python development environment on it, with a plug-in
+framework that supports porting Jupyter Notebooks over to Web Apps lovingly,
+that... that... that it's time to put it aside now, shift gears back to client
+work, but then look for opportunities to automate the proprietary work we do
+USING this framework. Shifting form "explore" to "exploit", such as the
+Algorithms for Life book talks about. And of course in my mid-50s, this really
+resonates with me, as I'm far further than the 30% optimal stopping distance
+they suggest before switching from explore to exploit, haha! I'm going to be an
+old man coding Python, joking with the AIs about how it used to be in the good
+old days when they were just barely coming alive.
