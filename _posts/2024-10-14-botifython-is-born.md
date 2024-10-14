@@ -6,7 +6,40 @@ layout: post
 date: 2024-10-13
 ---
 
-Certainly! Below is the revised introductory guide for **Botifython**, incorporating your provided code examples. This guide maintains the comprehensive overview and installation instructions while ensuring that all code snippets accurately reflect your project's implementation.
+Okay, this is one for the history books (at least mine). I've been doing systems
+like Ruby on Rails since before RoR. There was this system from Microsoft that
+used to work with SQLServer in the 90s called IDC/HTX for *internet database
+connector*** and ***html template language***. It was from before they had
+Active Server Pages, that tech that gave all those webpages `.asp` extensions.
+Yeah, I go back in webdev to before that. But ever since JavaScript really took
+off, I've hated it with a passion. I am ***not*** a ReactJS guy. Even Ruby on
+Rails, as ***"joyful"*** of a web framework as it was, it was opinonated in all
+the wrong ways for me. I tried making a snappy ***AJAX***-driven generalized web
+frameork for this thing I did called HitTail from back in 2006, but I got
+distracted, lost motivation and let it fizzle out.
+
+## Returning to Web Development with a Modern Twist
+
+I'm back! It seems this guy Jeremy Howard, the guy behind a lot of the Pythonic
+"for humans" (simplified APIs in the spirit of the Requests package) took on Web
+Development the Python way, and I'm interested again. It's time to dust off
+my... no, I never really stopped. I'm a vim/NeoVim guy and even though I swore
+off WebDev, I type and I type and I type almost every day. I'm the opposite of
+DRY (don't repeat yourself). I'm WET (we enjoy typing). So as it turns out as I
+pivot my career once again, being a year in at the Botify SEO automation tools
+company (could there be a better fit) and with AI changing everything, I'm full
+of motivation and raring to go. Correction, I ***have*** gone. And now I
+document and soft-launch. If you're joining me now, you're in for something
+special (if you're mclovin some superbad tech).
+
+---
+
+> A whole bunch of prompting.
+
+Certainly! Below is the revised introductory guide for **Botifython**,
+incorporating your provided code examples. This guide maintains the
+comprehensive overview and installation instructions while ensuring that all
+code snippets accurately reflect your project's implementation.
 
 ---
 
@@ -1072,5 +1105,465 @@ With just three simple commands—download the repository (via Git or ZIP), run 
 ---
 
 *Note: Auto-generated screenshots will be incorporated into this guide shortly, enhancing your visual understanding of the system.*
+
+---
+
+End articles.
+
+Okay, that should get me started. I registered botifython.com, so go launch it
+as a site in Github Pages... okay, just made a Botifython GitHub account, and a
+gmail address so that I could get the github account. The Botifython project is
+going to be a fork of Pipulate off of my miklevin account, to leave a nice
+trail. Okay, I've forked Pipulate from my site. Now get advice on how to include
+a key with it so running `nix develop` will pull the latest down from the
+repo...
+
+Me: I want to use the technique where I can distribute software that has the
+key included with it so that it can do an automatic git pull to update the local
+software every time it's run. I've created a Github account specifically for
+this, so security issues are highly mitigated. Give me the best practices for
+how this is done. I know I will have to generate an ssh-key pair which will have
+a public and a private. Which goes in with the repo and which gets kept secret,
+and how do I set it up under Github, and am I on the right track or are there
+better ways?
+
+Perplexity: To implement automatic Git pulls for software updates using a dedicated GitHub account, you're on the right track. Here's a best practice approach:
+
+## SSH Key Generation and Setup
+
+1. Generate an SSH key pair:
+
+```bash
+ssh-keygen -t ed25519 -C "auto-updater@example.com"
+```
+
+Choose a secure location to save the key and leave the passphrase empty for automated use[1][3].
+
+2. Add the public key to your GitHub account:
+   - Log into the dedicated GitHub account
+   - Go to Settings > SSH and GPG keys
+   - Click "New SSH key"
+   - Paste the contents of the public key file (e.g., `id_ed25519.pub`) and give it a descriptive title[1][3].
+
+3. Keep the private key secret:
+   - The private key (e.g., `id_ed25519`) should never be shared or included in the repository
+   - Store it securely on the systems that will perform the updates[2].
+
+## Repository Setup
+
+1. Create a deploy key:
+   - In your GitHub repository, go to Settings > Deploy keys
+   - Add a new deploy key using the same public key
+   - Enable read-only access for added security[4].
+
+2. Configure the software:
+   - Use the SSH URL for cloning/pulling (e.g., `git@github.com:username/repo.git`)
+   - Store the private key in a secure location on the client system
+   - Use environment variables or a secure configuration file to specify the key's location[5].
+
+## Implementation
+
+1. In your software's update routine:
+
+```python
+import os
+import subprocess
+
+def update_software():
+    repo_url = "git@github.com:username/repo.git"
+    ssh_key_path = "/path/to/private_key"
+    update_dir = "/path/to/update/directory"
+    
+    os.environ['GIT_SSH_COMMAND'] = f'ssh -i {ssh_key_path} -o StrictHostKeyChecking=no'
+    
+    try:
+        subprocess.run(["git", "pull", "origin", "main"], cwd=update_dir, check=True)
+        print("Software updated successfully")
+    except subprocess.CalledProcessError:
+        print("Update failed")
+```
+
+2. Ensure proper permissions:
+   - Set restrictive permissions on the private key file (e.g., `chmod 600 /path/to/private_key`)
+   - Limit access to the update directory[5].
+
+## Security Considerations
+
+- Use a dedicated GitHub account with limited repository access
+- Regularly rotate SSH keys
+- Monitor account activity for any suspicious behavior
+- Consider implementing additional authentication methods for critical systems[2].
+
+While this approach is suitable for many scenarios, for highly sensitive or mission-critical systems, consider alternative update mechanisms such as signed releases or a centralized update server for more controlled distribution[5].
+
+By following these practices, you can create a secure and automated update system using Git and GitHub. Remember to adapt the security measures based on your specific requirements and risk assessment.
+
+Citations:
+
+    [1] https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux
+    [2] https://stackoverflow.com/questions/3828823/how-to-generate-ssh-keys-for-github
+    [3] https://docs.github.com/en/enterprise-server@3.12/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    [4] https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+    [5] https://www.youtube.com/watch?v=iVJesFfzDGs
+    [6] https://www.youtube.com/watch?v=8X4u9sca3Io
+    [7] https://www.atlassian.com/git/tutorials/git-ssh
+
+---
+
+I've got to do the initial cloning of the repo I just forked with one of these
+commands so I know that it's not using one of my existing keys, but rather the
+deploy key I just made:
+
+```bash
+GIT_SSH_COMMAND='ssh -i /path/to/your/private_key' git clone git@github.com:username/repository.git
+git clone -c "core.sshCommand=ssh -i ~/.ssh/id_rsa_custom" git@github.com:username/repo.git
+```
+
+Customize... here is the cone command that everyone will use using the deploy
+key:
+
+```bash
+git clone -c "core.sshCommand=ssh -i ~/.ssh/botifython_deploy" git@github.com:botifython/botifython.git
+```
+
+This means you have the private key and the public key is on github as a deploy
+key tied to that repository. I have a separate set of keys for development, and
+even though it's going to be a pain in the ass to type it, because it's not my
+main key, I have to use a fancy command to push.
+
+- Set the upstream origin to main
+- Push to origin main
+- Subsequent pushes
+
+```bash
+GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push --set-upstream origin main
+GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push origin main
+GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push
+```
+
+Okay, so I'm probably going to have to set up git `config` or an alias, but I'm
+pretty much switching my pipulate/botify development over to this location
+because I have to use it bigtime at work and I have to form the right habits.
+Pipualte is great, but Botifython pays the bills. There will have to be a little
+public exposure of this thing... or does there? It can actually be a private
+repo now. 
+
+Ugh! You can't switch a forked repo to private! Okay, `rm -rf .git`, git init,
+yadda yadda... some id_rsa key swaparoo, and viola! Pushing to a new private
+repo on a new account. You can still follow my work. I have a pipulate repo on
+my private miklevin account, and I'll probably tie them together somehow. But
+it's all about work right now, so I'll document stuff here, but some of the
+nitty gritty will be behind closed doors.
+
+Okay, confirmed. The deploy key can clone the repo and the develop key can push
+back up, and I don't have to shuffle around .ssh folders. I just have to make
+git config files or aliases for commands. But this is a major hurdle I'm
+overcoming. This is potentially quite big.
+
+Okay, because it's a private repo, I have to "deliver" the first package. That
+package can be something I just download manually as a zip from the private repo
+and send it to a coworker. They can unzip it and follow the instructions to
+install nix with the determinate systems installer, then cd into the repo from a
+terminal and type nix develop. That should be it.
+
+This is some powerful magical incantations. I'm getting the incantations down to
+a minimum, essentially.
+
+Okay, now how to put a private key in a github repo and not have their security
+systems flag it. There's all sorts of encryption, but I'm going to go for the
+ultimate in simplicity, rot13! Okay, think! 1, 2, 3... 1?
+
+Test first. I literally have just these 3 files in the repo right now:
+
+- botifython.py
+- flake.nix
+- requirements.txt
+
+There's not even a flake.lock, but this is an awesome test. I'm going to first
+do a general nix update and cleanup on my system:
+
+```bash
+nix --version
+nix upgrade-nix
+nix-collect-garbage
+nix flake update
+nix develop
+python botifython.py
+```
+
+OMG, this is going to be so awesome. So that's all htat's needed, those 3 files.
+Things are really changing. Thank you Eelco Dolstra who created Nix, and Jeremy
+Howard who created FastHTML, and all the awesome stuff both of those things are
+built on. Things are becoming usable. It takes someone to sort through the
+complexity gluing it together.
+
+Okay, so copy the private key into the repo. Done. But now to test a pull? Ugh,
+gotta get those keys by USB over to the mac. Okay, clone it...
+
+```bash
+git clone -c "core.sshCommand=ssh -i ~/.ssh/botifython_deploy" git@github.com:botifython/botifython.git
+```
+
+Okay, `nix develop` it in that Mac folder... `python botifython.py`... OMG! Wow,
+frig, okay keep going... do an edit and push from the Mac...
+
+```bash
+GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push origin main
+```
+
+That succeeded. And lastly, a pull from my main machine...
+
+```bash
+GIT_SSH_COMMAND='ssh -i ./botifython_develop' git pull
+```
+
+Ugh, I had to:
+
+```bash
+git config pull.rebase true
+```
+
+...to make it work. Keep that in mind, but not a show stopper. Success assured.
+Okay, now the trick is to include it in the repo without Github's security
+chokin on the token. Gonna do this in Cursor AI to cut down the googling. It's
+complaining about the ginormous .venv not in the git repo, so .gitignore is
+next. Then an alias so I don't have to type that long push command every time.
+
+Okay, this is the magic command to unrotate the key:
+
+```bash
+cat ./.ssh/rot | tr 'A-Za-z' 'N-ZA-Mn-za-m' > ./.ssh/key
+```
+
+But everything gets built now from this neat nix flake, so... so rigorously
+check with Cursor AI... BAM!
+
+```nix
+#       ____                      _       _                        .--.      ___________
+#      |  _ \  __ _ _ ____      _(_)_ __ (_)_  __    ,--./,-.     |o_o |    |     |     |
+#      | | | |/ _` | '__\ \ /\ / / | '_ \| \ \/ /   / #      \    |:_/ |    |     |     |
+#      | |_| | (_| | |   \ V  V /| | | | | |>  <   |          |  //   \ \   |_____|_____|
+#      |____/ \__,_|_|    \_/\_/ |_|_| |_|_/_/\_\   \        /  (|     | )  |     |     |
+#                                                    `._,._,'  /'\_   _/`\  |     |     |
+#      Solving the "Not on my machine" problem well.           \___)=(___/  |_____|_____|
+
+# Most modern development is done on Linux, but Macs are Unix. If you think Homebrew and Docker
+# are the solution, you're wrong. Welcome to the world of Nix Flakes! This file defines a complete,
+# reproducible development environment. It's like a recipe for your perfect workspace, ensuring
+# everyone on your team has the exact same setup, every time. As a bonus, you can use Nix flakes on
+# Windows under WSL. Plus, whatever you make will be deployable to the cloud.
+
+{
+  # This description helps others understand the purpose of this Flake
+  description = "A flake that reports the OS using separate scripts with optional CUDA support and unfree packages allowed.";
+  
+  # Inputs are the dependencies for our Flake
+  # They're pinned to specific versions to ensure reproducibility
+  inputs = {
+    # nixpkgs is the main repository of Nix packages
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # flake-utils provides helpful functions for working with Flakes
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+
+  # Outputs define what our Flake produces
+  # In this case, it's a development shell that works across different systems
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        # We're creating a custom instance of nixpkgs
+        # This allows us to enable unfree packages like CUDA
+        pkgs = import nixpkgs {
+          inherit system;
+          config = {
+            allowUnfree = true;  # This is necessary for CUDA support
+          };
+        };
+
+        # These helpers let us adjust our setup based on the OS
+        isDarwin = pkgs.stdenv.isDarwin;
+        isLinux = pkgs.stdenv.isLinux;
+
+        # Common packages that we want available in our environment
+        # regardless of the operating system
+        commonPackages = with pkgs; [
+          python311                  # Python 3.11 interpreter
+          python311.pkgs.pip         # Package installer for Python
+          python311.pkgs.virtualenv  # Tool to create isolated Python environments
+          figlet                     # For creating ASCII art welcome messages
+          tmux                       # Terminal multiplexer for managing sessions
+          zlib                       # Compression library for data compression
+          git                        # Version control system for tracking changes
+          curl                       # Command-line tool for transferring data with URLs
+          wget                       # Utility for non-interactive download of files from the web
+          cmake                      # Cross-platform build system generator
+          htop                       # Interactive process viewer for Unix systems
+        ] ++ (with pkgs; pkgs.lib.optionals isLinux [
+          gcc                        # GNU Compiler Collection for compiling C/C++ code
+          stdenv.cc.cc.lib           # Standard C library for Linux systems
+        ]);
+
+        # This script sets up our Python environment and project
+        runScript = pkgs.writeShellScriptBin "run-script" ''
+          #!/usr/bin/env bash
+          
+          # Create a fancy welcome message
+          REPO_NAME=$(basename "$PWD")
+          REPO_NAME=''${REPO_NAME%-main}  # Remove "-main" suffix if it exists
+          PROPER_REPO_NAME=$(echo "$REPO_NAME" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
+          figlet "$PROPER_REPO_NAME"
+          echo "Welcome to the $PROPER_REPO_NAME development environment on ${system}!"
+          echo 
+
+          # Decrypt the private key
+          # Check if key is in .ssh/
+          if [ -f ./.ssh/rot ]; then
+            cat ./.ssh/rot | tr 'A-Za-z' 'N-ZA-Mn-za-m' > ./.ssh/key
+            chmod 600 ./.ssh/key
+          fi
+
+          # Check if there is a .git folder
+          if [ -d .git ]; then
+            echo "Pulling latest changes from git..."
+            GIT_SSH_COMMAND='ssh -i ./.ssh/key' git pull
+          else
+            # Clone the repository into a temporary directory
+            echo "Cloning repository..."
+            git clone -c "core.sshCommand=ssh -i ./.ssh/key" git@github.com:botifython/botifython.git /tmp/botifython
+            # Move the contents of the temporary directory to the current directory
+            mv /tmp/botifython/* .
+            mv /tmp/botifython/.git .
+            rm -rf /tmp/botifython
+          fi
+          echo
+
+          # Install Python packages from requirements.txt
+          # This allows flexibility to use the latest PyPI packages
+          # Note: This makes the environment less deterministic
+          echo "- Pipulating pip packages..."
+          if pip install --upgrade pip --quiet && \
+            pip install -r requirements.txt --quiet; then
+              package_count=$(pip list --format=freeze | wc -l)
+              echo "- Done. $package_count pip packages installed."
+          else
+              echo "Warning: An error occurred during pip setup."
+          fi
+
+          # Check if numpy is properly installed
+          if python -c "import numpy" 2>/dev/null; then
+            echo "- numpy is importable (good to go!)"
+            echo
+            echo "To start JupyterLab, type: start"
+            echo "To stop JupyterLab, type: stop"
+            echo
+          else
+            echo "Error: numpy could not be imported. Check your installation."
+          fi
+
+          # Create botifython script
+          cat << 'EOF' > .venv/bin/botifython
+          #!/usr/bin/env bash
+          
+          # Function to open URL in the default browser
+          open_url() {
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+              # macOS
+              open "http://localhost:5001"
+            elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+              # Linux
+              if [[ -n "$WSL_DISTRO_NAME" ]]; then
+                # WSL
+                powershell.exe /c start "http://localhost:5001"
+              else
+                # Native Linux
+                xdg-open "http://localhost:5001" || sensible-browser "http://localhost:5001" || x-www-browser "http://localhost:5001" || gnome-open "http://localhost:5001"
+              fi
+            else
+              echo "Unsupported operating system. Please open http://localhost:5001 in your browser manually."
+            fi
+          }
+
+          # Launch browser after a delay
+          (sleep 5 && open_url) &
+
+          # Run the Python script
+          python "$PWD/botifython.py"
+          EOF
+          chmod +x .venv/bin/botifython
+
+          # Create symbolic links for 'bf' and 'Botifython' to 'botifython'
+          ln -sf botifython .venv/bin/bf
+          ln -sf botifython .venv/bin/Botifython
+
+          # Add .venv/bin to PATH
+          export PATH="$PWD/.venv/bin:$PATH"
+
+          echo "To run botifython.py, type either 'botifython' or 'bf'"
+        '';
+
+        # Define the development shell for Linux systems (including WSL)
+        linuxDevShell = pkgs.mkShell {
+          # Include common packages and conditionally add CUDA if available
+          buildInputs = commonPackages ++ (with pkgs; pkgs.lib.optionals (builtins.pathExists "/usr/bin/nvidia-smi") cudaPackages);
+          shellHook = ''
+            # Set up the Python virtual environment
+            test -d .venv || ${pkgs.python311}/bin/python -m venv .venv
+            export VIRTUAL_ENV="$(pwd)/.venv"
+            export PATH="$VIRTUAL_ENV/bin:$PATH"
+            # Customize the prompt to show we're in a Nix environment
+            export PS1='$(printf "\033[01;34m(nix) \033[00m\033[01;32m[%s@%s:%s]$\033[00m " "\u" "\h" "\w")'
+            export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath commonPackages}:$LD_LIBRARY_PATH
+
+            # Set up CUDA if available
+            if command -v nvidia-smi &> /dev/null; then
+              echo "CUDA hardware detected."
+              export CUDA_HOME=${pkgs.cudatoolkit}
+              export PATH=$CUDA_HOME/bin:$PATH
+              export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+            else
+              echo "No CUDA hardware detected."
+            fi
+
+            # Run our setup script
+            ${runScript}/bin/run-script
+          '';
+        };
+
+        # Define the development shell for macOS systems
+        darwinDevShell = pkgs.mkShell {
+          buildInputs = commonPackages;
+          shellHook = ''
+            # Set up the Python virtual environment
+            test -d .venv || ${pkgs.python311}/bin/python -m venv .venv
+            export VIRTUAL_ENV="$(pwd)/.venv"
+            export PATH="$VIRTUAL_ENV/bin:$PATH"
+            # Customize the prompt to show we're in a Nix environment
+            export PS1='$(printf "\033[01;34m(nix) \033[00m\033[01;32m[%s@%s:%s]$\033[00m " "\u" "\h" "\w")'
+            export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath commonPackages}:$LD_LIBRARY_PATH
+
+            # Run our setup script
+            ${runScript}/bin/run-script
+          '';
+        };
+
+      in {
+        # Choose the appropriate development shell based on the OS
+        devShell = if isLinux then linuxDevShell else darwinDevShell;  # Ensure multi-OS support
+      });
+}
+```
+
+Now I've got a self-updating app. If it was git cloned originally, it will just
+start git pulling to update. If it was made from an uncompressed .zip download
+and doesn't have the .git folder inside (not a git repo), it will git clone into
+a temporary folder, replace the contents of the folder you're in, and then
+delete the temporary folder. It essentially upgrades you from the zip download
+to a proper git repo so it auto-updates correctly from then forward on every nix
+develop.
+
+I'll have to think about stable main branches and experimental branches. I'm
+going to be developing this thing like crazy, but people are also going to start
+using it. Okay... gotta get some sleep to be fresh for tomorrow. Work's
+beginning.
 
 
