@@ -15,6 +15,8 @@ deployment trick down. Today, I make it accessible to my coworkers. As time
 allows, I'll extract the free and open source software (FOSS) bits and put it
 back into Pipulate.
 
+## Upgrading Botifython Fork to Make It Accessible to Coworkers
+
 The nix flake now does an automatic git pull to update the repo every time you
 nix develop from it, but I don't want that to be the default state of the
 Pipulate FOSS version, so I have to update the flake:
@@ -272,6 +274,8 @@ Pipulate FOSS version, so I have to update the flake:
 
 Pshwew! 
 
+## Crafting A Custom Linux Distribution from Scratch Successfully
+
 There's some magic in that flake.
 
 - git pulls on a GitHub private repo are incorporated.
@@ -290,6 +294,8 @@ represent the fact you can replace hardware with a single text-file. The
 in such a way that it comes back to you exactly as you instantiated elsewhere.
 Hardware is not forever, but your ***nix flake*** is
 
+## Shift in Mode for Botifython Project Incorporates FOSS Extraction
+
 Okay, but that ***git cloning*** trick is of paramount importance here. I
 actually made a new Github account specifically for this, called Botifython.
 I'll likely apply all these things to the original miklevin/pipulate repo as a
@@ -300,6 +306,8 @@ layers:
 - Python virtual environment with pre-installed pip's
 - FastHTML app with plugin framework running local 
 
+## Pivoting To Proprietary FastHTML Fork For Enhanced Collaboration
+
 ...I am at the next point of customizing that local instance of a FastHTML
 server into some proprietary stuff. I'm going to take the lead of DHH and work
 with framework *"extractions"* from this point forward. The main branch (for me)
@@ -307,6 +315,8 @@ will be a proprietary fork, technically not a fork in the git sense because if
 you fork, you can't make the repo private on Github. So I deleted the invisible
 .git folder and started a fresh repo. I'll have a bit of a synchronization issue
 now between the proprietary and FOSS version, but I'll cope.
+
+## Sharing Automation Tools with Coworkers to Boost Productivity
 
 The urgency now is to titillate my coworkers with the project, getting used to
 the interface and build some anticipation while I pivot to more traditional
@@ -319,6 +329,8 @@ over the years from crawling spreadsheets directly into Google Docs using a
 ***bookmarklet*** (JavaScript bookmark), to its most recent rendition as just a
 bunch of **Juptyer Notebooks**.
 
+## Pipulate Brings Back The Do-It-All Spirit Of Old Web Development
+
 I thought Pipulate would remain just a bunch of Jupyter Notebooks forever
 because I was so done with web development. The specialization and lifetime of
 dedication you need to commit just to use the popular modern tools is totally
@@ -326,6 +338,8 @@ out of hand. The age of the jack-of-all-trades Webmaster was not just over some
 point mid-2010s, it was clobbered into oblivion. That can-do do-it-all spirit
 was impossible in practice, even if you still had it in spirit--unless you
 stayed on PHP and used virtual web hosts. Then, you could still do it all.
+
+## Why Switching from Notebooks to Web Apps Can Be Challenging
 
 But PHP is not for me. I'm in it for the love of the work, and I love Python.
 I'm not one of those people who says that the language doesn't matter, and you
@@ -346,6 +360,8 @@ your stuff being easy to use puts you on the hook, and if popular, a very short
 leash to update, maintain, fix, secure... yadda yadda forever. And if it's not
 really your main job, well that's the formula for frustration and burnout.
 
+## The Rise of Infrastructure as Code for Local Hosting
+
 Yeah, I'm in my mid-50s and not in the position to take up that sort of nonsense
 again. So nix flakes lets me shift the burden of hosting onto infinitely
 scalable little instances that I indemnify myself from, haha! Local hosting is a
@@ -362,6 +378,8 @@ common denominator Linux subsystem in a folder... one that's pedantically
 deterministic. That means it fixes the "not on my machine" problem by (more or
 less) running the exact same way for everyone.
 
+## The Joy of Technology as Artistic Craftsmanship
+
 AI, you say? Well, yeah it's an accelerator. I've always tried to hit above my
 weight. I'm a suburban kid with no formal tech training, no decent mentoring
 (even though I worked at Commodore Computers!), and really no business acumen
@@ -370,6 +388,8 @@ you'd call it an artist. Or at very least, a craftsman. I fall in love with the
 tools and using them. There's a sheer joy in exercising your mental muscles with
 stuff. But unlike the mainstream image of tech, it's not new stuff all the time.
 That's exhausting and works against craftsmanship.
+
+## The Key to Mastering a Craft Lies in Muscle Memory
 
 Getting better at a craft over time means letting your muscle memory improve
 over time, so you think less about the tools and more about the subject of what
@@ -380,6 +400,8 @@ while an artist might love experimenting with new mediums, a craftsman needs the
 very nature of the wood that they're woodworking to at least be semi-stable,
 reliable and consistent over the years so that every time they carve a new
 canoe, they don't have to feel like they have to start on concrete.
+
+## Shifting Gears Back to Client Work
 
 I spent so much of my effort creating that "normalized" layer for tech, and a
 competent an love-worthy Python development environment on it, with a plug-in
@@ -393,6 +415,8 @@ they suggest before switching from explore to exploit, haha! I'm going to be an
 old man coding Python, joking with the AIs about how it used to be in the good
 old days when they were just barely coming alive.
 
+## Transitioning to Botifython for Automated SEO Workflows
+
 The last thing, and I must resist diving down rabbit holes, is a 1-page website
 I can direct my coworkers to that documents getting started with Botifython.
 It's to show what I've done with all this time and set the stage so that once I
@@ -400,6 +424,8 @@ crank through this latest round of client work the manual way, I can start a new
 phase, SEO automation. I do the manual work first, and once only probably
 through a Jupyter Notebook (not giving that up / also built into
 Pipulate/Botifython), but then I port it quick as a bunny into a web app.
+
+## Setting Up Botifython GitHub Page with Jekyll Template
 
 1, 2, 3... 1. Step 1 is setting up a GitHub Page for Botifython on
 botifython.com... done. It's just a hello world. Second, apply a Jekyll
