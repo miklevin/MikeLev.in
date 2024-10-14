@@ -537,3 +537,35 @@ highlighter: rouge
 ```
 
 Git add, commit and push...
+
+Okay, and make the homepage mostly about the Determinate Systems installer, so
+people can "prep" for Botifython... done.
+
+Okay, now there needs to be a minimum way to get this done. I can host a
+downloadable version of an early "locked-down" botifython that doesn't really
+have any features in a SEPARATE GitHub repo that I link to. It starts the
+process, such as it were.
+
+Okay, test hosting a zip file on the Botifython.com repo that controls the
+Github Pages site. At very least, it's available on the public repo.
+
+[https://botifython.com/botifython.zip](https://botifython.com/botifython.zip)
+
+And it works! Success assured.
+
+Okay, add the link and a paragraph about the Determinite Systems uninstall.
+Perform the uninstall, reboot your machine and go to Botifython.com... a list...
+
+- Run the Determinite Systems nix installer command
+  - It will prompt you to say Yes
+- When it's done, close the Terminal and open a new one
+- Download botifython.zip from botifython.com
+- From a Terminal, cd into that folder
+  - For many Mac users, that will be `~/Downloads/botifython-main/`
+- Type in: `nix develop`
+
+Okay, it worked! 
+
+- The time-delay for the Window to pop up needs to be increased.
+- I print the star/stop instructions for Jupyter twice.
+- I need to test a fresh install on machines without Ollama runnng
