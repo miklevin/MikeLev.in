@@ -392,3 +392,122 @@ resonates with me, as I'm far further than the 30% optimal stopping distance
 they suggest before switching from explore to exploit, haha! I'm going to be an
 old man coding Python, joking with the AIs about how it used to be in the good
 old days when they were just barely coming alive.
+
+The last thing, and I must resist diving down rabbit holes, is a 1-page website
+I can direct my coworkers to that documents getting started with Botifython.
+It's to show what I've done with all this time and set the stage so that once I
+crank through this latest round of client work the manual way, I can start a new
+phase, SEO automation. I do the manual work first, and once only probably
+through a Jupyter Notebook (not giving that up / also built into
+Pipulate/Botifython), but then I port it quick as a bunny into a web app.
+
+1, 2, 3... 1. Step 1 is setting up a GitHub Page for Botifython on
+botifython.com... done. It's just a hello world. Second, apply a Jekyll
+template. Doesn't matter which. It just can't look incompetent... choose one
+quick from [supported Jekyll themes](https://pages.github.com/themes/). Okay,
+it's got to be [github brown](https://pages-themes.github.io/midnight/) as it is
+the only dark theme and the only one I can stand looking at.
+
+Getting a git `config` file was an odd initial dependency on pushing the tech
+stuff to the side. I have to be able to do rapid little updates here and there
+without thinking about the different keys I have to manage. This key for this
+repo and that key for that. The anser is a file like this in `~/.ssh`:
+
+```
+# Primary GitHub Account
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
+
+# Secondary GitHub Account
+Host bf
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/botifython_develop
+  IdentitiesOnly yes
+```
+
+This way, you have a different "address" to use on git commands instead of
+github.com. It actually makes aliases for the host. But you don't have to
+actually type and use that alias every time if you change the remte repo
+endpoint locally. Then it's just git pulling and pushing as usual.
+
+To change the remote endpoint for your repository to use the secondary GitHub account configured in your SSH config, you'll need to update the remote URL. Here's how to do it:
+
+1. First, check your current remote URL:
+
+```
+git remote -v
+```
+
+2. You'll likely see something like:
+
+```
+origin  git@github.com:Botifython/botifython.git (fetch)
+origin  git@github.com:Botifython/botifython.git (push)
+```
+
+3. To change the remote URL to use your secondary GitHub account, use the `git remote set-url` command:
+
+```
+git remote set-url origin git@bf:Botifython/botifython.git
+```
+
+This command changes the remote URL to use the `bf` host alias you've defined in your SSH config[1][4].
+
+4. Verify the change by checking the remote URL again:
+
+```
+git remote -v
+```
+
+You should now see:
+
+```
+origin  git@bf:Botifython/botifython.git (fetch)
+origin  git@bf:Botifython/botifython.git (push)
+```
+
+Now, when you pull or push, Git will use the SSH key specified for the `bf` host in your SSH config[1][2].
+
+Remember that this change only affects the local repository you're currently in. You'll need to repeat this process for any other repositories where you want to use the secondary GitHub account[3].
+
+If you encounter any issues, make sure your SSH config file is correctly set up and that you have the necessary permissions for the repository with your secondary GitHub account[4].
+
+Citations:
+
+    [1] https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository/19298943
+    [2] https://careerkarma.com/blog/git-change-remote/
+    [3] https://devconnected.com/how-to-change-git-remote-origin/
+    [4] https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+    [5] https://www.atlassian.com/git/tutorials/syncing
+    [6] https://docs.gitlab.com/ee/tutorials/update_git_remote_url/
+    [7] https://git-scm.com/docs/git-remote
+    [8] https://support.atlassian.com/bitbucket-cloud/docs/change-the-remote-url-to-your-repository/
+
+---
+
+Okay, now set the Jekyll Github Pages theme to Midnight:
+
+```
+# Site settings
+title: Botifython
+description: Soft launch of an SEO Automation Tool
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://botifython.com" # the base hostname & protocol for your site
+
+# Build settings
+remote_theme: pages-themes/midnight@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+# Optional: Additional configurations
+markdown: kramdown
+highlighter: rouge
+```
+
+Git add, commit and push...
