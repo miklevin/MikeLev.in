@@ -3,6 +3,7 @@ title: This Also Becomes Your H1
 permalink: /slug/
 description: Becomes your meta description.
 layout: post
+sort_order: 1
 ---
 
 Some explanation of why this article.
