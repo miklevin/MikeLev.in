@@ -3,7 +3,7 @@ title: 1-Repos Folder Key to AI Code Assist Accelerator
 permalink: /ai-code-assist-accelerator/
 description: "Explore how moving a key NixOS config to a 'repos' folder accelerates AI coding assistance with Cursor AI. Learn about challenges with Vim macros, AI limitations, and tips for consolidating development resources while leveraging cross-repo insights for coding efficiency."
 layout: post
-date: 2024-10-16
+date: 2024-10-15
 ---
 
 Okay, I paid my $20 for the first month of Code AI. I'm jumping on that
