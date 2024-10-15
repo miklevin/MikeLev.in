@@ -15,6 +15,8 @@ group: home
     </table>
 </div>
 
+# Mike Levin's LPvg Stack: Timeless Tech Skills for the AI Age
+
 - **`Linux`**: The open-source pulse of global computation.
 - **`Python`**: Language of logic, creativity, and discovery.
 - **`vim`**: The text whisperer—efficiency bound in keystrokes.
