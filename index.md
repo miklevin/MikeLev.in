@@ -49,8 +49,9 @@ This story showcases the connection of fragmented tools and concepts into a cohe
 Navigating NixOS's declarative configurations and Python's dynamic flexibility, a cross-platform setup has been crafted, integrating JupyterLab, CUDA, FastHTML, and local LLMs like Ollama. This foundation prioritizes agency in development, offering a consistent starting point for any project in any industry, avoiding the pitfalls of over-engineering. The result is a streamlined approach that balances practicality and reusability, making it easier to focus on solving problems and creating new solutions without getting lost in architectural abstraction.
 
 <ol>
-  {% assign sorted_posts = site.posts | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
-  {% for day in sorted_posts %}
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
+  {% for day in grouped_posts %}
     {% assign day_posts = day.items | sort: 'sort_order' %}
     {% for post in day_posts %}
       <li>
