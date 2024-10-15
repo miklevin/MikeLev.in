@@ -2,6 +2,7 @@
 title: Mike Levin on AI, SEO, Linux, Python, vim & git
 description: Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI stack to resist obsolescence.
 author: Mike Levin AI SEO
+permalink: /about/
 group: home
 ---
 
