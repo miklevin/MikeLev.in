@@ -1,9 +1,8 @@
 ---
 title: Soft Launching Botifython
 permalink: /soft-launching-botifython/
-description: 
+description: My journey upgrading Botifython's Pipulate fork with Nix flakes, transforming Jupyter Notebooks into web apps, and deploying to coworkers. From FOSS to proprietary shifts, embracing infrastructure as code, and automating SEO workflows—crafting tech with passion and precision.
 layout: post
-date: 2024-10-14
 ---
 
 I pushed hard to clean up and prep the Botifython fork of Pipulate to be ready
