@@ -32,21 +32,13 @@ AI and a Python-centric web development environment.
 - **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
 - **`Ollama`**: Offline AI, always listening—your local companion in thought.
 
-## Versatile Development Toolkit
+## A Versatile and Sustainable Development Toolkit
 
-This toolkit offers a pragmatic approach to software development, emphasizing independence and adaptability. Leveraging open-source and AI-enhanced components, it helps developers create portable applications that avoid vendor lock-in and complex frameworks. The result is a flexible solution, deployable locally or in the cloud, allowing for scalability without sacrificing autonomy.
+This toolkit offers a pragmatic approach to software development, emphasizing independence, adaptability, and sustainability. By leveraging open-source and AI-enhanced components, it helps developers create portable applications that avoid vendor lock-in and complex frameworks. The result is a flexible solution that promotes consistent workflows, builds valuable muscle memory, and ensures applications remain relevant as technology evolves. Focusing on open standards and portability serves as a form of future-proofing, allowing for scalability without sacrificing autonomy.
 
-## Sustainable Practices and Productivity
+## A Cohesive, Cross-Platform Foundation for Agency
 
-The toolkit promotes sustainable development practices, enabling applications to evolve and improve over time. Consistent use builds valuable muscle memory, streamlining workflows and enhancing productivity. By focusing on open standards and portability, it serves as a form of future-proofing, ensuring applications remain relevant and functional as technology landscapes shift.
-
-## A Cohesive Development Workflow
-
-This story showcases the connection of fragmented tools and concepts into a cohesive development workflow, building a portable, reproducible environment ready to spin up at any moment, anywhere. Mastering Linux, Python, Vim, and Git, and leveraging Nix Flakes and Infrastructure as Code, every step refines the process of creating a versatile toolkit for the AI age.
-
-## A Cross-Platform Foundation for Agency
-
-Navigating NixOS's declarative configurations and Python's dynamic flexibility, a cross-platform setup has been crafted, integrating JupyterLab, CUDA, FastHTML, and local LLMs like Ollama. This foundation prioritizes agency in development, offering a consistent starting point for any project in any industry, avoiding the pitfalls of over-engineering. The result is a streamlined approach that balances practicality and reusability, making it easier to focus on solving problems and creating new solutions without getting lost in architectural abstraction.
+This approach showcases the connection of fragmented tools and concepts into a cohesive development workflow. By mastering Linux, Python, Vim, and Git, and leveraging technologies like NixOS, Nix Flakes, JupyterLab, CUDA, FastHTML, and local LLMs, developers can create a portable, reproducible environment ready to spin up at any moment, anywhere. This foundation prioritizes agency in development, offering a consistent starting point for any project while avoiding over-engineering. The result is a streamlined approach that balances practicality and reusability, making it easier to focus on solving problems and creating new solutions without getting lost in architectural abstraction.
 
 <ol>
   {% assign sorted_posts = site.posts | sort: 'date' %}
