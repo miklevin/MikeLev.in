@@ -4,6 +4,7 @@ permalink: /ai-code-assist-accelerator/
 description: "Explore how moving a key NixOS config to a 'repos' folder accelerates AI coding assistance with Cursor AI. Learn about challenges with Vim macros, AI limitations, and tips for consolidating development resources while leveraging cross-repo insights for coding efficiency."
 layout: post
 date: 2024-10-15
+sort_order: 2
 ---
 
 Okay, I paid my $20 for the first month of Code AI. I'm jumping on that
@@ -1227,3 +1228,7 @@ righteous feedback loop of constant chisel-strike improvements!
 This leads to some muscle memory remapping. I always used the `@[keystroke]`
 format for macros, but I see now that the `<leader>[keystroke]` is generally the
 way to go. It's definitely easier on the fingers.
+
+And the actual macros are a bit out of whack too, but this is exactly the point.
+Some things break, but it was to get the AI code assist, which helps me fix
+them, and I accelerate!
