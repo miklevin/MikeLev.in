@@ -23,6 +23,13 @@
   gtag('config', '{{ site.gaid }}');
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
+<style>
+    @media (min-width: 1536px) {
+        body>footer, body>header, body>main {
+            max-width: 850px; /* Initial value */
+        }
+    }
+</style>
 </head>
 <body>
 <header>
@@ -38,6 +45,30 @@
         </a>
     </nobr>
 </div>
+
+<label>
+    Adjust max-width:
+    <input type="range" id="widthSlider" min="850" max="1500" value="850" />
+    <span id="widthValue">850px</span>
+</label>
+
+<script>
+    const slider = document.getElementById('widthSlider');
+    const widthValue = document.getElementById('widthValue');
+    const updateWidth = () => {
+        const newWidth = slider.value;
+        document.querySelector('style').textContent = `
+            @media (min-width: 1536px) {
+                body>footer, body>header, body>main {
+                    max-width: ${newWidth}px;
+                }
+            }
+        `;
+        widthValue.textContent = `${newWidth}px`;
+    };
+    slider.addEventListener('input', updateWidth);
+    updateWidth(); // Initialize
+</script>
 
 <blockquote>Future-proof your skills and escape the tech hamster wheel with
 Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI
