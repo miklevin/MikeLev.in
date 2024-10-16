@@ -48,7 +48,7 @@
 /* Reset default appearance */
 textarea,
 select,
-1nput,
+input,
 progress {
     appearance: none;
     -webkit-appearance: none;
@@ -63,8 +63,6 @@ html {
 
 /* Make the body a nice central block */
 body {
-    /* display: grid; */
-    grid-template-columns: 1fr min(57rem, 90%) 1fr;
     background-color: #000000;
     color: #ffffff;
     font-family: "Abel";
@@ -73,20 +71,11 @@ body {
     margin: 0;
 }
 
-body>* {
-    grid-column: 1;
-}
-
 /* Remove all previous styles related to header and footer */
-body > header {
-    /* Remove all styles */
-}
-
+body > header,
 body > footer {
     /* Remove all styles */
 }
-
-/* You can keep any custom styles that are not related to header/footer */
 
 /* Prevent long strings from overflowing container */
 p,
@@ -112,9 +101,7 @@ h3 {
     vertical-align: middle;
     display: inline-block;
     position: relative;
-    top: -1.2vw; /* Negative value moves it up, positive moves it down */
-    /* IMPORTANT: The width of this element is dynamically set by JavaScript
-       to maintain its size relative to the headerTitle font size */
+    top: -1.2vw;
 }
 
 /* Format links & buttons */
@@ -1032,6 +1019,10 @@ main {
     #topSliderContainer, #bottomSliderContainer {
         display: none;
     }
+}
+
+.some-element {
+    height: 110vh; /* Ensure this isn't causing overflow */
 }
 </style>
 </head>
