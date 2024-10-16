@@ -1,36 +1,35 @@
 {
-  description = "Nix flake for Jekyll environment";
+  description = "Nix flake for Jekyll environment with Rouge for syntax highlighting";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";  # Update to a desired version
+    # Use a stable Nixpkgs version. You can update this to a newer version if needed.
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    # Optionally, specify the flake-utils for multi-system support
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs }:
-    let
-      systems = [ "x86_64-linux" ];
-    in
-    {
-      devShells = {
-        x86_64-linux.default = let
-          pkgs = import nixpkgs { system = "x86_64-linux"; };
-        in pkgs.mkShell {
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = import nixpkgs { inherit system; };
+      in
+      {
+        # Define the development shell
+        devShells.default = pkgs.mkShell {
+          # Include necessary packages in the PATH
           buildInputs = [
             pkgs.ruby
             pkgs.bundler
-            pkgs.jekyll  # Add Jekyll from Nixpkgs
+            pkgs.jekyll            # Jekyll from Nixpkgs
+            pkgs.rubyPackages_3_2.rouge  # Rouge (provides rougify)
           ];
 
+          # Optional: Set environment variables if needed
           shellHook = ''
-            if [ ! -f "Gemfile.lock" ]; then
-              echo "Setting up Jekyll environment..."
-              bundler init
-              echo 'gem "jekyll"' >> Gemfile
-              bundler install
-            fi
-
-            echo "Jekyll environment is ready. Use: jekyll serve --livereload"
+            echo "Jekyll and Rouge environments are ready."
+            echo "Use: jekyll serve --livereload"
+            echo "Use: rougify style monokai.sublime > assets/css/syntax.css"
           '';
         };
-      };
-    };
+      });
 }
