@@ -527,7 +527,7 @@ progress:indeterminate::-moz-progress-bar {
 }
 
 blockquote {
-    margin: 0rem 0 0rem 1.5rem;
+    margin: 2vw 0vw 0vw 0vw;
     padding: 0rem 0rem 0rem 1rem;
     border-left: 0.35rem solid var(--accent);
     color: var(--text-light);
