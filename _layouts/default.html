@@ -1089,7 +1089,7 @@ main {
                 if (window.innerWidth > 768) {
                     // Desktop behavior only
                     // IMPORTANT: This sets the font size for "Mike Levin AI SEO" relative to the container width
-                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
+                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
                     // IMPORTANT: This sets the wheel size relative to the container width
                     wheel.style.width = `calc(${newWidth}px * 0.18)`;
                 }
@@ -1159,9 +1159,17 @@ main {
         const bottomSlider = document.getElementById('bottomSlider');
         const topSlider = document.getElementById('widthSlider');
         
+        let isUpdating = false;
+
         function updateSliders(sourceSlider, targetSlider) {
+            if (isUpdating) return;
+            isUpdating = true;
             targetSlider.value = sourceSlider.value;
-            targetSlider.dispatchEvent(new Event('input'));
+            if (sourceSlider === topSlider) {
+                // Only call updateWidth for the top slider to maintain existing behavior
+                updateWidth(sourceSlider.value);
+            }
+            isUpdating = false;
         }
         
         bottomSlider.value = topSlider.value;
