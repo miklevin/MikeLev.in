@@ -297,3 +297,13 @@ code.highlighter-rouge {
     color: var(--code);
     font-size: 0.9em;
 }
+
+/* Add this new rule for anchor tags */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
