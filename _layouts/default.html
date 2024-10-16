@@ -23,9 +23,8 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
 <style>
-/* Global variables. */
+/* Custom variables - keep these as they might override Pico's defaults */
 :root {
-    /* Default (dark) theme */
     --bg: black; 
     --accent-bg: #2b2b2b;
     --text: #dcdcdc;
@@ -38,62 +37,11 @@
     --marked: #ffdd33;
 }
 
-/* Reset box-sizing */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/* Reset default appearance */
-textarea,
-select,
-input,
-progress {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-html {
-    /* Set the font globally */
-    font-family: var(--sans-font);
-    scroll-behavior: smooth;
-}
-
-/* Make the body a nice central block */
+/* Custom styles that are specific to your design */
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: "Abel";
-    font-size: x-large;
-    line-height: 1.6;
-    margin: 0;
-}
-
-/* Remove all previous styles related to header and footer */
-body > header,
-body > footer {
-    /* Remove all styles */
-}
-
-/* Prevent long strings from overflowing container */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-    margin: 0vw 0vw 1vw 0vw;
-}
-
-/* Fix line height when title wraps */
-h1,
-h2,
-h3 {
-    line-height: 1.1;
+    font-family: "Abel", sans-serif;
 }
 
 #wheel {
@@ -104,376 +52,42 @@ h3 {
     top: -1.2vw;
 }
 
-/* Format links & buttons */
-a,
-a:visited {
-    color: var(--accent);
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-button,
-[role="button"],
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-label[type="button"] {
-    border: none;
-    border-radius: 5px;
-    background-color: var(--accent);
-    font-size: 1rem;
-    color: var(--bg);
-    padding: 0.7rem 0.9rem;
-    margin: 0.5rem 0;
-}
-
-button[disabled],
-[role="button"][aria-disabled="true"],
-input[type="submit"][disabled],
-input[type="reset"][disabled],
-input[type="button"][disabled],
-input[type="checkbox"][disabled],
-input[type="radio"][disabled],
-select[disabled] {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-input:disabled,
-textarea:disabled,
-select:disabled {
-    cursor: not-allowed;
-    background-color: var(--disabled);
-}
-
-input[type="range"] {
-    padding: 0;
-}
-
-/* Set the cursor to '?' on an abbreviation and style the abbreviation to show that there is more information underneath */
-abbr[title] {
-    cursor: help;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-}
-
-button:focus,
-button:enabled:hover,
-[role="button"]:focus,
-[role="button"]:not([aria-disabled="true"]):hover,
-input[type="submit"]:focus,
-input[type="submit"]:enabled:hover,
-input[type="reset"]:focus,
-input[type="reset"]:enabled:hover,
-input[type="button"]:focus,
-input[type="button"]:enabled:hover,
-label[type="button"]:focus,
-label[type="button"]:hover {
-    filter: brightness(1.4);
-    cursor: pointer;
-}
-
-/* Format navigation */
-header>nav {
-    font-size: min(5vw, 50px);
-    font-weight: bold;
-    line-height: min(9vw, 75px);
-    padding: 1rem 0 0 0;
-}
-
-/* Use flexbox to allow items to wrap, as needed */
-header>nav ul,
-header>nav ol {
-    align-content: space-around;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* List items are inline elements, make them behave more like blocks */
-header>nav ul li,
-header>nav ol li {
-    display: inline-block;
-}
-
-header>nav a,
-header>nav a:visited {
-    border: 3px solid var(--border);
-    border-radius: 12px;
-    background-color: #13360b61;
-    color: var(--text);
-    display: inline-block;
-    text-decoration: none;
-    padding-bottom: 0vw;
-    padding-left: min(3vw, 32px);
-    padding-right: min(3vw, 32px);
-    margin-bottom: min(4vw, 26px);
-    margin-left: min(1vw, 12px);
-    margin-right: min(1vw, 12px);
-}
-
-header>nav a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    cursor: pointer;
-}
-
-/* Consolidate box styling */
-aside,
-details,
-pre,
-progress {
-    background-color: var(--accent-bg);
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    margin-bottom: 1rem;
-}
-
-aside {
-    font-size: 1rem;
-    width: 30%;
-    padding: 0 15px;
-    margin-left: 15px;
-    float: right;
-}
-
-article,
-fieldset {
-    /* border: 1px solid var(--border);
-    padding: 1rem;
-    border-radius: 5px;
-    margin-bottom: 1rem; */
-    border-radius: 1vw;
-}
-
-article h2:first-child,
-section h2:first-child {
-    margin-top: 1rem;
-}
-
-article {
-    border-radius: 3vw;
-}
-
-section {
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    padding: 2rem 1rem;
-    margin: 3rem 0;
-}
-
-/* Don't double separators when chaining sections */
-section+section,
-section:first-child {
-    border-top: 0;
-    padding-top: 0;
-}
-
-section:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-}
-
-details {
-    padding: 0.7rem 1rem;
-}
-
-summary {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 0.7rem 1rem;
-    margin: -0.7rem -1rem;
-    word-break: break-all;
-}
-
-details[open]>summary+* {
-    margin-top: 0;
-}
-
-details[open]>summary {
-    margin-bottom: 0.5rem;
-}
-
-details[open]> :last-child {
-    margin-bottom: 0;
-}
-
-/* Format tables */
-table {
-    border-collapse: collapse;
-    display: table;
-    margin: 1.5rem 0;
-    width: min(894px, 92vw);
-}
-
-td,
-th {
-    font-size: min(5vw, 24px);
-}
-
-th {
-    background-color: var(--accent-bg);
-    font-weight: bold;
-}
-
-tr:nth-child(even) {
-    /* Set every other cell slightly darker. Improves readability. */
-    background-color: var(--accent-bg);
-}
-
-table caption {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-/* Format forms */
-textarea,
-select,
-input {
-    font-size: inherit;
-    font-family: inherit;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: var(--text);
-    background-color: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    box-shadow: none;
-    max-width: 100%;
-    display: inline-block;
-}
-
-label {
-    display: block;
-}
-
-textarea:not([cols]) {
+#headerTitle {
+    margin: 4vw 0 0 0;
+    text-align: left;
+    color: #90b98b7a;
+    font-family: 'Dorsa', sans-serif;
+    line-height: 0.7;
+    overflow-wrap: break-word;
     width: 100%;
 }
 
-/* Add arrow to drop-down */
-select:not([multiple]) {
-    background-image: linear-gradient(45deg, transparent 49%, var(--text) 51%), linear-gradient(135deg, var(--text) 51%, transparent 49%);
-    background-position: calc(100% - 15px), calc(100% - 10px);
-    background-size: 5px 5px, 5px 5px;
-    background-repeat: no-repeat;
-    padding-right: 25px;
+#headerTitle a {
+    text-decoration: none;
+    color: inherit;
 }
 
-/* checkbox and radio button style */
-input[type="checkbox"],
-input[type="radio"] {
-    vertical-align: middle;
-    position: relative;
-    width: min-content;
-}
-
-input[type="checkbox"]+label,
-input[type="radio"]+label {
-    display: inline-block;
-}
-
-input[type="radio"] {
-    border-radius: 100%;
-}
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-    background-color: var(--accent);
-}
-
-input[type="checkbox"]:checked::after {
-    /* Creates a rectangle with colored right and bottom borders which is rotated to look like a check mark */
-    content: " ";
-    width: 0.18em;
-    height: 0.32em;
-    border-radius: 0;
-    position: absolute;
-    top: 0.05em;
-    left: 0.17em;
-    background-color: transparent;
-    border-right: solid var(--bg) 0.08em;
-    border-bottom: solid var(--bg) 0.08em;
-    font-size: 1.8em;
-    transform: rotate(45deg);
-}
-
-input[type="radio"]:checked::after {
-    /* creates a colored circle for the checked radio button */
-    content: " ";
-    width: 0.25em;
-    height: 0.25em;
-    border-radius: 100%;
-    position: absolute;
-    top: 0.125em;
-    background-color: var(--bg);
-    left: 0.125em;
-    font-size: 32px;
-}
-
-/* Set a height for color input */
-input[type="color"] {
-    height: 2.5rem;
-    padding: 0.2rem;
-}
-
-/* do not show border around file selector button */
-input[type="file"] {
-    border: 0;
-}
-
-/* Misc body elements */
-hr {
-    border: none;
-    height: 1px;
-    background: var(--border);
-    margin: 1rem auto;
-}
-
-mark {
-    padding: 2px 5px;
-    border-radius: 4px;
-    background-color: var(--marked);
-}
-
-img,
-video {
-    vertical-align: middle;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-figure {
-    margin: 0;
-    text-align: center;
-}
-
-figcaption {
-    font-size: 0.9rem;
+/* Blockquote styles */
+blockquote {
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 0rem 0rem 0rem 1rem;
+    border-left: 0.35rem solid var(--accent);
     color: var(--text-light);
-    margin-bottom: 1rem;
+    font-style: italic;
+    font-family: 'Goldman';
+    font-size: min(25px, 4.5vw);
+    line-height: 1.3;
 }
 
-cite {
-    font-size: 0.9rem;
-    color: var(--text-light);
-    font-style: normal;
-}
-
-dt {
-    color: var(--text-light);
-}
-
-
-/* Use mono font for code elements with fallback options */
+/* Code styles */
 code,
 pre,
 pre span,
@@ -482,14 +96,6 @@ samp {
     font-family: 'Courier New', monospace; /* Fallback font if --mono-font is not supported */
     font-family: var(--mono-font, 'Courier New', monospace); /* Use --mono-font if supported, otherwise fallback */
     color: var(--code); 
-}
-
-kbd {
-    color: var(--preformatted);
-    border: 1px solid var(--preformatted);
-    border-bottom: 3px solid var(--preformatted);
-    border-radius: 5px;
-    padding: 0.1rem 0.4rem;
 }
 
 pre {
@@ -507,502 +113,7 @@ pre code {
     padding: 0;
 }
 
-/* Progress bars */
-/* Declarations are repeated because you */
-/* cannot combine vendor-specific selectors */
-progress {
-    width: 100%;
-}
-
-progress:indeterminate {
-    background-color: var(--accent-bg);
-}
-
-progress::-webkit-progress-bar {
-    border-radius: 5px;
-    background-color: var(--accent-bg);
-}
-
-progress::-webkit-progress-value {
-    border-radius: 5px;
-    background-color: var(--accent);
-}
-
-progress::-moz-progress-bar {
-    border-radius: 5px;
-    background-color: var(--accent);
-    transition-property: width;
-    transition-duration: 0.3s;
-}
-
-progress:indeterminate::-moz-progress-bar {
-    background-color: var(--accent-bg);
-}
-
-/* Beginning of Styles */
-.center {
-    text-align: center;
-    width=100%;
-}
-
-.arrow {
-    font-size: 1.5rem;
-}
-
-blockquote {
-    margin: 0vw 0vw 0vw 0vw;
-    padding: 0rem 0rem 0rem 1rem;
-    border-left: 0.35rem solid var(--accent);
-    color: var(--text-light);
-    font-style: italic;
-    font-family: 'Goldman';
-    font-size: min(25px, 4.5vw);
-    line-height: 1.3;
-}
-
-header {
-    background-color: black;
-}
-
-footer {
-    font-size: 1rem;
-    text-align: center; /* Center the content in the footer */
-}
-
-footer p {
-    margin: 0; /* Remove default paragraph margin */
-}
-
-footer a {
-    display: inline-block; /* Allow for padding without affecting layout */
-    padding: 0 10px; /* Add some space between links */
-}
-
-h1,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Goldman';
-    font-weight: normal;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-h1 {
-    font-size: min(58px, 8.5vw);
-}
-
-h2 {
-    font-family: 'mouse memoirs';
-    font-weight: normal;
-    font-size: min(50px, 8vw);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: min(35px, 7vw);
-}
-
-h4 {
-    font-size: min(28px, 6.5vw);
-}
-
-h5 {
-    font-size: min(22px, 6vw);
-}
-
-h6 {
-    font-size: min(20px, 5.5vw);
-}
-
-.post-nav {
-    display: flex;
-    justify-content: flex-end;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-}
-
-.post-nav-prev {
-    margin-right: auto;
-    /* text-align: left; */
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.post-nav-next {
-    text-align: right;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.post-link {
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-.meta {
-    color: var(--text-light);
-    font-size: 1rem;
-}
-
-.blog-item {
-    margin-bottom: 4rem;
-}
-
-nav a.current {
-    background-color: #05017e6e !important;
-    color: var(--accent) !important;
-    border-color: var(--accent) !important;
-}
-
-.notice {
-    background: var(--accent-bg);
-    border: 2px solid var(--border);
-    border-radius: 5px;
-    padding: 1.5rem;
-    margin: 2rem 0;
-}
-
-.picleft {
-    float: left; 
-    padding-left: 1px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    padding-right: 16px; 
-    height: auto;
-    width: min(300px, 50vw);
-}
-
-.picright {
-    float: right; 
-    padding-left: 16px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    padding-right: 1px;
-    height: auto;
-}
-
-.medium {
-    font-size: 1.4rem;
-}
-
-.small {
-    font-size: 1.125rem;
-}
-
-.button {
-    border: none;
-    border-radius: 5px;
-    background: var(--accent);
-    font-size: 1.5rem;
-    color: var(--bg);
-    padding: 0.7rem 0.9rem;
-    margin: 0.5rem 0;
-}
-
-.button:hover,
-.button:focus {
-    filter: brightness(1.4);
-    cursor: pointer;
-}
-
-.icon {
-    vertical-align: sub;
-    padding-right: .25rem;
-    display: inline-block;
-    width: 1em;
-    height: 1.3em;
-    margin-right: 0.2rem;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-}
-
-/* Beginning of Syntax */
-.highlight table td {
-    padding: 5px !important;
-}
-
-.highlight span {
-    font-weight: normal !important;
-}
-
-.highlight table pre {
-    margin: 0 !important;
-}
-
-.highlight,
-.highlight .w {
-    font-size: smaller;
-    color: #d0d0d0 !important;
-    background-color: #151515 !important;
-}
-
-.highlight .err {
-    color: #aaa !important;
-    background-color: transparent !important;
-}
-
-.highlight .c,
-.highlight .ch,
-.highlight .cd,
-.highlight .cm,
-.highlight .cpf,
-.highlight .c1,
-.highlight .cs {
-    color: #505050 !important;
-}
-
-.highlight .cp {
-    color: #f4bf75 !important;
-}
-
-.highlight .nt {
-    color: #f4bf75 !important;
-}
-
-.highlight .o,
-.highlight .ow {
-    color: #d0d0d0 !important;
-}
-
-.highlight .p,
-.highlight .pi {
-    color: #d0d0d0 !important;
-}
-
-.highlight .gi {
-    color: #90a959 !important;
-}
-
-.highlight .gd {
-    color: #ac4142 !important;
-}
-
-.highlight .gh {
-    color: #6a9fb5 !important;
-    background-color: #151515 !important;
-    font-weight: bold !important;
-}
-
-.highlight .k,
-.highlight .kn,
-.highlight .kp,
-.highlight .kr,
-.highlight .kv {
-    color: #EE81B1 !important;
-}
-
-.highlight .kc {
-    color: #d28445 !important;
-}
-
-.highlight .kt {
-    color: #aaa !important;
-}
-
-.highlight .kd {
-    color: #aa759f !important;
-}
-
-.highlight .s,
-.highlight .sa,
-.highlight .sb,
-.highlight .sc,
-.highlight .dl,
-.highlight .sd,
-.highlight .s2,
-.highlight .sh,
-.highlight .sx,
-.highlight .s1 {
-    color: #90a959 !important;
-}
-
-.highlight .sr {
-    color: #75b5aa !important;
-}
-
-.highlight .si {
-    color: #8f5536 !important;
-}
-
-.highlight .se {
-    color: #8f5536 !important;
-}
-
-.highlight .nn {
-    color: #f4bf75 !important;
-}
-
-.highlight .nc {
-    color: #f4bf75 !important;
-}
-
-.highlight .no {
-    color: #f4bf75 !important;
-}
-
-.highlight .na {
-    color: #6a9fb5 !important;
-}
-
-.highlight .m,
-.highlight .mb,
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .il,
-.highlight .mo,
-.highlight .mx {
-    color: #90a959 !important;
-}
-
-.highlight .ss {
-    color: #90a959 !important;
-}
-
-.highlight .nf {
-    color: #aaa !important;
-}
-
-.highlight .nv {
-    color: #ccc !important;
-}
-
-.spin {
-  animation: spin 2s cubic-bezier(1, -0.5, 0.34, 1.37) infinite;
-  display: inline-block;
-  /* IMPORTANT: This animation should be maintained to keep the logo spinning */
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(180deg); }
-}
-
-.highlight .c1 {
-  color: #91d7ff !important;
-}
-
-.highlighter-rouge {
-  /* font-size: 1.2rem; */
-}
-
-.logos, .logos tr, .logos td {
-  border: 0px;
-}
-
-.logos {
-  width: 100%;
-  table-layout: fixed;
-  padding-top: 20px; /* Add padding above the table */
-}
-
-.hptd {
-  border-radius: 2.5vw;
-  vertical-align: top;
-  font-size: tiny;
-  padding: 2vw 2vw 2vw 2vw;
-  width: 48%;
-}
-
-.mermaid {
-  display: block;
-  overflow: auto;
-  background-color: white;
-  border-radius: 1.5em;
-  padding: 1em 1em 1em 1em;
-}
-
-.mermaid > svg {
-  height: auto;
-}
-
-/* Post Navigation Styles */
-.post-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Ensures vertical alignment */
-  margin-top: 2em;
-}
-
-.previous-post, .next-post {
-  max-width: 45%;
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-label {
-  font-weight: bold;
-  margin-bottom: 0.5em; /* Adds space between label and link */
-}
-
-/* Placeholder Styling */
-.previous-post.placeholder {
-  visibility: hidden;
-}
-
-#headerTitle {
-    margin: 4vw 0 0 0;
-    text-align: left;
-    color: #90b98b7a; /* Ensure this color is maintained */
-    font-family: 'Dorsa';
-    line-height: 0.7;
-    overflow-wrap: break-word;
-    width: 100%;
-}
-
-/* Minimal media query for mobile devices */
-@media (max-width: 768px) {
-    #headerTitle {
-        font-size: 26vw !important; /* IMPORTANT: This sets the font size for "Mike Levin AI SEO" on mobile devices */
-    }
-
-    #wheel {
-        width: 17vw !important; /* IMPORTANT: This sets the wheel size independently for mobile */
-    }
-
-    /* IMPORTANT: This hides the width slider on mobile devices */
-    #widthSliderContainer {
-        display: none;
-    }
-}
-
-.container {
-    width: 100%;
-    max-width: 850px; /* Initial value */
-    margin: 0 auto; /* This centers the container horizontally */
-    padding: 0 20px; /* Add some padding on the sides */
-    box-sizing: border-box; /* Include padding in width calculation */
-}
-
-main {
-    margin-top: 2vw;
-}
-
-#headerTitle a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Styles for bottom slider */
-#bottomSliderContainer {
-    margin-top: 20px;
-    text-align: center;
-}
-
-/* Hide both sliders on mobile */
-@media (max-width: 768px) {
-    #topSliderContainer, #bottomSliderContainer {
-        display: none;
-    }
-}
-
-/* ... existing styles ... */
-
+/* Slider styles - keep these as they're custom */
 #topSliderContainer, #bottomSliderContainer {
     width: 100%;
     margin: 20px auto;
@@ -1014,15 +125,141 @@ main {
     max-width: 100%;
 }
 
-/* Hide both sliders on mobile */
+/* Media queries - keep these as they're specific to your design */
 @media (max-width: 768px) {
-    #topSliderContainer, #bottomSliderContainer {
+    #headerTitle {
+        font-size: 26vw !important;
+    }
+
+    #wheel {
+        width: 17vw !important;
+    }
+
+    #topSliderContainer, #bottomSliderContainer, #widthSliderContainer {
         display: none;
     }
 }
 
-.some-element {
-    height: 110vh; /* Ensure this isn't causing overflow */
+/* Animation - keep this as it's custom */
+.spin {
+    animation: spin 2s cubic-bezier(1, -0.5, 0.34, 1.37) infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(180deg); }
+}
+
+/* Navigation arrows styles */
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.post-nav-prev,
+.post-nav-next {
+    flex: 0 0 auto;
+    max-width: 45%; /* Prevent overlap on narrow screens */
+}
+
+.post-nav-prev {
+    margin-right: auto;
+}
+
+.post-nav-next {
+    margin-left: auto;
+    text-align: right;
+}
+
+.post-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.meta {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+/* Optional: Add some space between the arrows and the content */
+.post-nav-prev .post-link::before {
+    content: "← ";
+}
+
+.post-nav-next .post-link::after {
+    content: " →";
+}
+
+/* Keep any other custom styles that are specific to your design and not covered by Pico CSS */
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.previous-post,
+.next-post {
+    flex: 0 1 45%; /* Allow shrinking but limit growth */
+}
+
+.previous-post {
+    text-align: left;
+}
+
+.next-post {
+    text-align: right;
+}
+
+.nav-label {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.post-navigation a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.post-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure the placeholder takes up space */
+.previous-post.placeholder {
+    visibility: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .post-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .previous-post,
+    .next-post {
+        flex: 0 0 auto;
+        margin: 1rem 0;
+    }
+
+    .next-post {
+        text-align: left;
+    }
 }
 </style>
 </head>
