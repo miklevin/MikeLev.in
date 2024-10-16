@@ -228,6 +228,7 @@ pre code {
     font-weight: bold;
     text-decoration: none;
     color: var(--accent);
+    display: inline-block;
 }
 
 .post-navigation a:hover {
@@ -236,6 +237,25 @@ pre code {
 
 .previous-post.placeholder {
     visibility: hidden;
+}
+
+/* New styles for indenting wrapped lines */
+.previous-post a {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+.next-post a {
+    padding-right: 1.5em;
+    text-indent: -1.5em;
+}
+
+.previous-post a::before {
+    content: "← ";
+}
+
+.next-post a::after {
+    content: " →";
 }
 
 @media (max-width: 600px) {
@@ -252,6 +272,21 @@ pre code {
 
     .next-post {
         text-align: left;
+    }
+
+    /* Adjust indentation for mobile */
+    .next-post a {
+        padding-left: 1.5em;
+        padding-right: 0;
+        text-indent: -1.5em;
+    }
+
+    .next-post a::after {
+        content: "";
+    }
+
+    .next-post a::before {
+        content: "→ ";
     }
 }
 
@@ -367,3 +402,18 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Add this new rule at the end of the file */
+footer {
+    text-align: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer a {
+    margin: 0 0.5rem;
+}
