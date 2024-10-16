@@ -114,6 +114,8 @@ h3 {
     display: inline-block;
     position: relative;
     top: -1.5vw; /* Negative value moves it up, positive moves it down */
+    /* IMPORTANT: The width of this element is dynamically set by JavaScript
+       to maintain its size relative to the headerTitle font size */
 }
 
 /* Format links & buttons */
@@ -884,6 +886,7 @@ nav a.current {
 .spin {
   animation: spin 2s cubic-bezier(1, -0.5, 0.34, 1.37) infinite;
   display: inline-block;
+  /* IMPORTANT: This animation should be maintained to keep the logo spinning */
 }
 
 @keyframes spin {
@@ -963,12 +966,16 @@ nav a.current {
     overflow-wrap: break-word;
     width: 100%;
     outline: 2px solid orange;
+    /* IMPORTANT: The font size of this element is dynamically set by JavaScript
+       to maintain its relative size within the container */
 }
 
 #headerTitle a {
     text-decoration: none;
     color: inherit;
     display: inline-block;
+    /* IMPORTANT: This inline-block display allows the text and SVG to stay together
+       and scale as a unit */
 }
 
 @media (min-width: 1536px) {
@@ -1081,6 +1088,10 @@ body > footer {
                 container.style.maxWidth = `${newWidth}px`;
                 headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
                 wheel.style.width = `calc(${newWidth}px * 0.20)`;
+                /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
+                   and the wheel SVG as the container width changes. The multipliers (0.28 and 0.20)
+                   are crucial for maintaining the current layout and should be adjusted carefully
+                   if changes are needed. */
             };
             slider.addEventListener('input', updateWidth);
             updateWidth(); // Initialize
