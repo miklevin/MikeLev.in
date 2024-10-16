@@ -33,7 +33,9 @@
 </head>
 <body>
 <header>
-
+<label>
+    <input type="range" id="widthSlider" min="850" max="1500" value="850" />
+</label>
 <div style="text-align: center; color: #90b98b7a; font-family: 'Dorsa'; font-size: min(26vw, 255px); line-height: 0.7; overflow-wrap: break-word;">
     <nobr>
         <a href="/" style="text-decoration: none; color: inherit;">
@@ -45,11 +47,6 @@
         </a>
     </nobr>
 </div>
-
-<label>
-    <input type="range" id="widthSlider" min="850" max="1500" value="850" />
-</label>
-
 <script>
     const slider = document.getElementById('widthSlider');
     const widthValue = document.getElementById('widthValue');
