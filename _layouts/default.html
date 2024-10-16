@@ -71,7 +71,6 @@ body {
     font-size: x-large;
     line-height: 1.6;
     margin: 0;
-    outline: 2px solid red;
 }
 
 body>* {
@@ -571,12 +570,10 @@ blockquote {
 
 header {
     background-color: black;
-    outline: 2px solid blue;
 }
 
 footer {
     font-size: 1rem;
-    outline: 2px solid purple;
     text-align: center; /* Center the content in the footer */
 }
 
@@ -965,7 +962,6 @@ nav a.current {
     line-height: 0.7;
     overflow-wrap: break-word;
     width: 100%;
-    outline: 2px solid orange;
     /* IMPORTANT: The font size of this element is dynamically set by JavaScript
        to maintain its relative size within the container */
 }
@@ -980,6 +976,14 @@ nav a.current {
 }
 
 /* The media query will be added dynamically by JavaScript */
+
+.container {
+    width: 100%;
+    max-width: 850px; /* Initial value */
+    margin: 0 auto; /* This centers the container horizontally */
+    padding: 0 20px; /* Add some padding on the sides */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
 </style>
 </head>
 <body>
@@ -1028,8 +1032,8 @@ nav a.current {
             const updateWidth = () => {
                 const newWidth = slider.value;
                 container.style.maxWidth = `${newWidth}px`;
-                headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
-                wheel.style.width = `calc(${newWidth}px * 0.20)`;
+                headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
+                wheel.style.width = `calc(${newWidth}px * 0.18)`;
                 /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
                    and the wheel SVG as the container width changes. 
                    - The first multiplier controls the font size of the header title relative to the container width.
