@@ -113,7 +113,7 @@ h3 {
     vertical-align: middle;
     display: inline-block;
     position: relative;
-    top: -1.5vw; /* Negative value moves it up, positive moves it down */
+    top: -1.2vw; /* Negative value moves it up, positive moves it down */
     /* IMPORTANT: The width of this element is dynamically set by JavaScript
        to maintain its size relative to the headerTitle font size */
 }
@@ -971,6 +971,7 @@ nav a.current {
 }
 
 #headerTitle a {
+    margin-top: 2vw;
     text-decoration: none;
     color: inherit;
     display: inline-block;
@@ -1089,9 +1090,11 @@ body > footer {
                 headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
                 wheel.style.width = `calc(${newWidth}px * 0.20)`;
                 /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
-                   and the wheel SVG as the container width changes. The multipliers (0.28 and 0.20)
-                   are crucial for maintaining the current layout and should be adjusted carefully
-                   if changes are needed. */
+                   and the wheel SVG as the container width changes. 
+                   - The first multiplier controls the font size of the header title relative to the container width.
+                   - The second multiplier determines the size of the wheel SVG relative to the container width.
+                   These multipliers are crucial for maintaining the current layout and should be adjusted carefully
+                   if changes are needed. The wheel should remain proportionally smaller than the text. */
             };
             slider.addEventListener('input', updateWidth);
             updateWidth(); // Initialize
