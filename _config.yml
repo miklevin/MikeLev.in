@@ -6,12 +6,18 @@ gaid: G-RX2D1N1P2Y
 apex: MikeLev.in
 
 # Conversion
-markdown: GFM
+markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  syntax_highlighter: rouge
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
 
 defaults:
   -
