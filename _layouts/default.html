@@ -955,27 +955,21 @@ nav a.current {
 }
 
 #headerTitle {
-    margin: 4vw 0 0 0; /* Top margin, no horizontal auto margin */
+    margin: 4vw 0 0 0;
     text-align: left;
-    color: #90b98b7a;
+    color: #90b98b7a; /* Ensure this color is maintained */
     font-family: 'Dorsa';
     line-height: 0.7;
     overflow-wrap: break-word;
     width: 100%;
-    /* IMPORTANT: The font size of this element is dynamically set by JavaScript
-       to maintain its relative size within the container */
 }
 
-#headerTitle a {
-    margin-top: 2vw;
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-    /* IMPORTANT: This inline-block display allows the text and SVG to stay together
-       and scale as a unit */
+/* Minimal media query for mobile devices */
+@media (max-width: 768px) {
+    #headerTitle {
+        font-size: 16vw !important; /* Limit maximum font size on mobile */
+    }
 }
-
-/* The media query will be added dynamically by JavaScript */
 
 .container {
     width: 100%;
@@ -1037,11 +1031,11 @@ main {
                 const newWidth = slider.value;
                 container.style.maxWidth = `${newWidth}px`;
                 headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
-                wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                wheel.style.width = `calc(${newWidth}px * 0.18)`; // Reduced from 0.21 to 0.18
                 /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
                    and the wheel SVG as the container width changes. 
-                   - The first multiplier controls the font size of the header title relative to the container width.
-                   - The second multiplier determines the size of the wheel SVG relative to the container width.
+                   - The first multiplier (0.27) controls the font size of the header title relative to the container width.
+                   - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
                    These multipliers are crucial for maintaining the current layout and should be adjusted carefully
                    if changes are needed. The wheel should remain proportionally smaller than the text. */
             };
