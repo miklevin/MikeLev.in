@@ -979,87 +979,7 @@ nav a.current {
        and scale as a unit */
 }
 
-@media (min-width: 1536px) {
-    body>footer, body>header, body>main {
-        max-width: 850px; /* Initial value */
-    }
-}
-#widthSliderContainer {
-    z-index: 1000;
-    padding: 10px;
-    background-color: var(--bg); /* Use the background color variable */
-    border-radius: 0 0 5px 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add space below the slider */
-    outline: 2px solid yellow;
-}
-
-/* Adjust header positioning */
-header {
-    position: relative;
-    padding-bottom: 60px; /* Increase padding to accommodate the slider and extra space */
-}
-
-.logos-container {
-  padding-top: 20px; /* Add padding above the logos container */
-}
-
-main {
-    outline: 2px solid green;
-}
-
-article, section {
-    outline: 2px dotted cyan;
-}
-
-/* Add this new style for the container */
-.container {
-    width: 100%;
-    max-width: 850px; /* Initial value */
-    margin: 0 auto;
-    outline: 2px solid red;
-}
-
-/* Update these styles */
-body > header,
-body > main,
-body > footer {
-    width: 100%;
-}
-
-/* Remove or comment out these media queries */
-/*
-@media (min-width: 1536px) {
-    body>footer, body>header, body>main {
-        max-width: 850px;
-    }
-}
-*/
-
-/* Update the headerTitle styles */
-#headerTitle {
-    margin: 4vw 0 0 0; /* Top margin, no horizontal auto margin */
-    text-align: left;
-    color: #90b98b7a;
-    font-family: 'Dorsa';
-    line-height: 0.7;
-    overflow-wrap: break-word;
-    width: 100%;
-    outline: 2px solid orange;
-}
-
-#headerTitle a {
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-}
-
-/* Update the widthSliderContainer styles */
-#widthSliderContainer {
-    width: 100%;
-    /* ... (keep other existing styles) ... */
-}
-
+/* The media query will be added dynamically by JavaScript */
 </style>
 </head>
 <body>
@@ -1077,9 +997,30 @@ body > footer {
             </nobr>
         </div>
         <div id="widthSliderContainer">
-            <input type="range" id="widthSlider" min="850" max="1536" value="850" />
+            <input type="range" id="widthSlider" min="850" max="3000" value="850" />
         </div>
         <script>
+            // Control the maximum width here, set to the page width in pixels
+            const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+            // Update the slider's max attribute
+            document.getElementById('widthSlider').max = MAX_WIDTH;
+
+            // Create a new style element
+            const style = document.createElement('style');
+
+            // Set its content to include the media query with the MAX_WIDTH variable
+            style.textContent = `
+                @media (min-width: ${MAX_WIDTH}px) {
+                    body > footer, body > header, body > main {
+                        max-width: 850px;
+                    }
+                }
+            `;
+
+            // Append the new style element to the head of the document
+            document.head.appendChild(style);
+
             const slider = document.getElementById('widthSlider');
             const container = document.querySelector('.container');
             const headerTitle = document.getElementById('headerTitle');
