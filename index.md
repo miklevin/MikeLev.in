@@ -77,4 +77,3 @@ This approach showcases the connection of fragmented tools and concepts into a c
     {% endfor %}
   {% endfor %}
 </ol>
-
