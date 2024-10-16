@@ -1014,10 +1014,10 @@ main {
             <input type="range" id="widthSlider" min="850" max="3000" value="850" />
         </div>
         <script>
-            // Control the maximum width here, set to the page width in pixels
+            // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
             const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
-            // Update the slider's max attribute
+            // IMPORTANT: Update the slider's max attribute to match the page width
             document.getElementById('widthSlider').max = MAX_WIDTH;
 
             // Create a new style element
@@ -1039,20 +1039,36 @@ main {
             const container = document.querySelector('.container');
             const headerTitle = document.getElementById('headerTitle');
             const wheel = document.getElementById('wheel');
+
             const updateWidth = () => {
                 const newWidth = slider.value;
                 container.style.maxWidth = `${newWidth}px`;
-                headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
-                wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                
+                if (window.innerWidth > 768) {
+                    // Desktop behavior
+                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
+                    wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                } else {
+                    // Mobile behavior
+                    // Font size is controlled by CSS, so we don't set it here
+                    wheel.style.width = `calc(18vw * 0.09)`; // 9% of the mobile font size
+                }
                 /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
                    and the wheel SVG as the container width changes. 
-                   - The first multiplier (0.27) controls the font size of the header title relative to the container width.
-                   - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
+                   - On desktop:
+                     - The first multiplier (0.27) controls the font size of the header title relative to the container width.
+                     - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
+                   - On mobile:
+                     - The font size is set by CSS to 18vw
+                     - The wheel size is set to 9% of the font size (18vw * 0.09)
                    These multipliers are crucial for maintaining the current layout and should be adjusted carefully
                    if changes are needed. The wheel should remain proportionally smaller than the text. */
             };
+
             slider.addEventListener('input', updateWidth);
             updateWidth(); // Initialize
+
+            // ... rest of your JavaScript code ...
         </script>
 
         <blockquote>Future-proof your skills and escape the tech hamster wheel with
