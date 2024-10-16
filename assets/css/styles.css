@@ -417,3 +417,37 @@ footer p {
 footer a {
     margin: 0 0.5rem;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.logo-item {
+    width: 48%; /* Slightly less than 50% to allow for space between */
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo-item img {
+    width: 100%;
+    height: auto;
+    padding: 2vw 0;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .logo-item {
+        width: 100%;
+        margin-bottom: 2vw;
+        display: block;
+    }
+}
