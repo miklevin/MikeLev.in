@@ -967,7 +967,9 @@ nav a.current {
 /* Minimal media query for mobile devices */
 @media (max-width: 768px) {
     #headerTitle {
-        font-size: 16vw !important; /* Limit maximum font size on mobile */
+        font-size: 16vw !important; /* IMPORTANT: This sets the font size for "Mike Levin AI SEO" on mobile devices */
+        /* The font size is set to 16% of the viewport width */
+        /* The !important flag ensures this rule takes precedence over any inline styles */
     }
 }
 
@@ -1043,6 +1045,8 @@ main {
                    - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
                    These multipliers are crucial for maintaining the current layout and should be adjusted carefully
                    if changes are needed. The wheel should remain proportionally smaller than the text. */
+                /* NOTE: The wheel size for mobile is not explicitly set here. It's controlled by the same calculation
+                   as desktop, but the overall container width will be smaller on mobile devices. */
             };
             slider.addEventListener('input', updateWidth);
             updateWidth(); // Initialize
