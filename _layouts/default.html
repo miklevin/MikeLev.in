@@ -108,10 +108,11 @@ h3 {
 }
 
 #wheel {
-    width: 16%; /* Initial width, adjust as needed */
     height: auto;
     vertical-align: middle;
     display: inline-block;
+    position: relative;
+    top: -1.5vw; /* Negative value moves it up, positive moves it down */
 }
 
 /* Format links & buttons */
@@ -555,7 +556,7 @@ progress:indeterminate::-moz-progress-bar {
 }
 
 blockquote {
-    margin: 2vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 0vw 0vw;
     padding: 0rem 0rem 0rem 1rem;
     border-left: 0.35rem solid var(--accent);
     color: var(--text-light);
@@ -889,6 +890,12 @@ nav a.current {
   border: 0px;
 }
 
+.logos {
+  width: 100%;
+  table-layout: fixed;
+  padding-top: 20px; /* Add padding above the table */
+}
+
 .hptd {
   border-radius: 2.5vw;
   vertical-align: top;
@@ -951,26 +958,27 @@ nav a.current {
     }
 }
 #widthSliderContainer {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     z-index: 1000;
     padding: 10px;
+    background-color: var(--bg); /* Use the background color variable */
     border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space below the slider */
 }
-#widthSlider {
-    width: 100%;
-    margin: 0;
+
+/* Adjust header positioning */
+header {
+    position: relative;
+    padding-bottom: 60px; /* Increase padding to accommodate the slider and extra space */
+}
+
+.logos-container {
+  padding-top: 20px; /* Add padding above the logos container */
 }
 </style>
 </head>
 <body>
 <header>
-<div id="widthSliderContainer">
-    <input type="range" id="widthSlider" min="850" max="1500" value="850" />
-</div>
 <div id="headerTitle">
     <nobr>
         <a href="/" style="text-decoration: none; color: inherit;">
@@ -981,6 +989,9 @@ nav a.current {
             AI SEO
         </a>
     </nobr>
+</div>
+<div id="widthSliderContainer">
+    <input type="range" id="widthSlider" min="850" max="1500" value="850" />
 </div>
 <script>
     const slider = document.getElementById('widthSlider');
@@ -1002,8 +1013,8 @@ nav a.current {
                 width: ${newWidth}px;
             }
         `;
-        headerTitle.style.fontSize = `calc(${newWidth}px * 0.3)`; // Adjust this multiplier as needed
-        wheel.style.width = `calc(${newWidth}px * 0.23)`; // Adjust this multiplier to maintain proportion
+        headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`; // Adjust this multiplier as needed
+        wheel.style.width = `calc(${newWidth}px * 0.20)`; // Adjust this multiplier to maintain proportion
     };
     slider.addEventListener('input', updateWidth);
     updateWidth(); // Initialize
