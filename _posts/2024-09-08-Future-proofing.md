@@ -5,8 +5,6 @@ description: Future-proof your tech skills by mastering a few cherry picked fund
 layout: post
 ---
 
-# Philosophy on Staying Relevant
-
 I believe in mastering a set of fundamental, versatile tools that I call the "LPvg stack". These form the core of what I consider a future-proof skill set. I advocate for avoiding the "hamster wheel" of constantly chasing the latest tech trends and instead focusing on timeless fundamentals that remain relevant across different eras of technology.
 
 ## Empowering Domain Experts with Tech Skills

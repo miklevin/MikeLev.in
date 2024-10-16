@@ -41,7 +41,7 @@ I don't write because I crave an audience or have products to peddle. My words a
     {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
     {% for post in day_posts %}
       <li value="{{ total_posts | minus: forloop.index0 }}"><hr />
-        <h4><a href="{{ post.url }}" class="arrow-link">{{ post.title }}</a></h4>
+        <h3><a href="{{ post.url }}" class="arrow-link">{{ post.title }}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {% if post.description %}
           <p>{{ post.description }}</p>
