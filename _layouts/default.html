@@ -968,8 +968,10 @@ nav a.current {
 @media (max-width: 768px) {
     #headerTitle {
         font-size: 18vw !important; /* IMPORTANT: This sets the font size for "Mike Levin AI SEO" on mobile devices */
-        /* The font size is set to 16% of the viewport width */
-        /* The !important flag ensures this rule takes precedence over any inline styles */
+    }
+
+    #wheel {
+        width: 16vw !important; /* IMPORTANT: This sets the wheel size independently for mobile */
     }
 
     /* IMPORTANT: This hides the width slider on mobile devices */
@@ -1045,24 +1047,11 @@ main {
                 container.style.maxWidth = `${newWidth}px`;
                 
                 if (window.innerWidth > 768) {
-                    // Desktop behavior
+                    // Desktop behavior only
                     headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
                     wheel.style.width = `calc(${newWidth}px * 0.18)`;
-                } else {
-                    // Mobile behavior
-                    // Font size is controlled by CSS, so we don't set it here
-                    wheel.style.width = `calc(18vw * 0.09)`; // 9% of the mobile font size
                 }
-                /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
-                   and the wheel SVG as the container width changes. 
-                   - On desktop:
-                     - The first multiplier (0.27) controls the font size of the header title relative to the container width.
-                     - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
-                   - On mobile:
-                     - The font size is set by CSS to 18vw
-                     - The wheel size is set to 9% of the font size (18vw * 0.09)
-                   These multipliers are crucial for maintaining the current layout and should be adjusted carefully
-                   if changes are needed. The wheel should remain proportionally smaller than the text. */
+                // Mobile behavior is now handled entirely by CSS
             };
 
             slider.addEventListener('input', updateWidth);
