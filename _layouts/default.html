@@ -1155,19 +1155,28 @@ main {
 
     // Add this at the very end of your existing script, after all other code
 
-    function syncBottomSlider() {
+    function syncSliders() {
         const bottomSlider = document.getElementById('bottomSlider');
         const topSlider = document.getElementById('widthSlider');
         
+        function updateSliders(sourceSlider, targetSlider) {
+            targetSlider.value = sourceSlider.value;
+            targetSlider.dispatchEvent(new Event('input'));
+        }
+        
         bottomSlider.value = topSlider.value;
+        
+        topSlider.addEventListener('input', function() {
+            updateSliders(this, bottomSlider);
+        });
+        
         bottomSlider.addEventListener('input', function() {
-            topSlider.value = this.value;
-            topSlider.dispatchEvent(new Event('input'));
+            updateSliders(this, topSlider);
         });
     }
 
     // Call this function after the page loads
-    window.addEventListener('load', syncBottomSlider);
+    window.addEventListener('load', syncSliders);
 </script>
 </body>
 </html>
