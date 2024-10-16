@@ -67,6 +67,7 @@
     const slider = document.getElementById('widthSlider');
     const widthValue = document.getElementById('widthValue');
     const headerTitle = document.getElementById('headerTitle');
+    const wheel = document.getElementById('wheel');
     const updateWidth = () => {
         const newWidth = slider.value;
         document.querySelector('style').textContent += `
@@ -82,6 +83,7 @@
         `;
         widthValue.textContent = `${newWidth}px`;
         headerTitle.style.fontSize = `calc(${newWidth}px * 0.3)`; // Adjust this multiplier as needed
+        wheel.style.width = `calc(${newWidth}px * 0.09)`; // Adjust this multiplier to maintain proportion
     };
     slider.addEventListener('input', updateWidth);
     updateWidth(); // Initialize
