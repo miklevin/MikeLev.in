@@ -995,6 +995,39 @@ main {
     text-decoration: none;
     color: inherit;
 }
+
+/* Styles for bottom slider */
+#bottomSliderContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Hide both sliders on mobile */
+@media (max-width: 768px) {
+    #topSliderContainer, #bottomSliderContainer {
+        display: none;
+    }
+}
+
+/* ... existing styles ... */
+
+#topSliderContainer, #bottomSliderContainer {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#topSlider, #bottomSlider {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Hide both sliders on mobile */
+@media (max-width: 768px) {
+    #topSliderContainer, #bottomSliderContainer {
+        display: none;
+    }
+}
 </style>
 </head>
 <body>
@@ -1088,6 +1121,11 @@ main {
     </header>
     <main>
         {{ content }}
+        
+        <!-- Add the bottom slider here, just before the end of main content -->
+        <div id="bottomSliderContainer">
+            <input type="range" id="bottomSlider" min="850" max="3000" value="850" />
+        </div>
     </main>
     <footer>
         <p>
@@ -1099,5 +1137,58 @@ main {
         </p>
     </footer>
 </div>
+
+<script>
+    // ... existing functions (setCookie, getCookie) ...
+
+    const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    const topSlider = document.getElementById('topSlider');
+    const bottomSlider = document.getElementById('bottomSlider');
+    const container = document.querySelector('.container');
+    const headerTitle = document.getElementById('headerTitle');
+    const wheel = document.getElementById('wheel');
+
+    // Set max width for both sliders
+    topSlider.max = MAX_WIDTH;
+    bottomSlider.max = MAX_WIDTH;
+
+    // Set initial slider values from cookie or default to 850
+    const savedWidth = getCookie('containerWidth');
+    const initialWidth = savedWidth ? savedWidth : 850;
+    topSlider.value = initialWidth;
+    bottomSlider.value = initialWidth;
+
+    const updateWidth = (newWidth) => {
+        container.style.maxWidth = `${newWidth}px`;
+        
+        if (window.innerWidth > 768) {
+            // Desktop behavior only
+            headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
+            wheel.style.width = `calc(${newWidth}px * 0.18)`;
+        }
+        // Mobile behavior is now handled entirely by CSS
+
+        // Update both sliders
+        topSlider.value = newWidth;
+        bottomSlider.value = newWidth;
+
+        // IMPORTANT: Update the width of both slider containers
+        topSlider.style.width = `${newWidth}px`;
+        bottomSlider.style.width = `${newWidth}px`;
+
+        // Save the new width to a cookie
+        setCookie('containerWidth', newWidth, 30); // Saves for 30 days
+    };
+
+    // Event listeners for both sliders
+    topSlider.addEventListener('input', () => updateWidth(topSlider.value));
+    bottomSlider.addEventListener('input', () => updateWidth(bottomSlider.value));
+
+    // Initialize with saved or default value
+    updateWidth(initialWidth);
+
+    // ... rest of your JavaScript code ...
+</script>
 </body>
 </html>
