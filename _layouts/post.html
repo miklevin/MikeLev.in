@@ -3,77 +3,48 @@ layout: default
 author: Mike Levin
 ---
 
-<!-- Add the navigation above the article -->
 <div class="post-navigation top-nav">
-  {% if page.previous %}
-    <div class="previous-post">
-      <span class="nav-label">Previous</span>
-      <a href="{{ page.previous.url | relative_url }}">
-        {{ page.previous.title }}
-      </a>
-    </div>
-  {% else %}
-    <!-- Placeholder to maintain layout -->
-    <div class="previous-post placeholder"></div>
-  {% endif %}
-  
-  {% if page.next %}
-    <div class="next-post">
-      <span class="nav-label">Next</span>
-      <a href="{{ page.next.url | relative_url }}">
-        {{ page.next.title }}
-      </a>
-    </div>
-  {% endif %}
+  {% if page.previous %}<div class="previous-post">
+    <span class="nav-label">Previous</span>
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+  </div>{% else %}
+  <div class="previous-post placeholder"></div>{% endif %}
+  {% if page.next %}<div class="next-post">
+    <span class="nav-label">Next</span>
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+  </div>{% endif %}
 </div>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="headline">{{ page.title }}</h1>
   <blockquote itemprop="description">{{ page.description }}</blockquote>
-  
   <div itemprop="author" itemscope itemtype="http://schema.org/Person">
     <h3>By <span itemprop="name">{{ page.author }}</span></h3>
   </div>
-  
   <h4>
     <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: '%A, %B %-d, %Y' }}
     </time>
   </h4>
-  
   <div itemprop="articleBody">
     {{ content }}
   </div>
-
   <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
   <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ page.url }}">
-  
   <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="{{ site.title }}">
     <meta itemprop="url" content="{{ site.url }}">
   </div>
 </article>
 
-<!-- Keep the existing navigation below the article -->
 <div class="post-navigation bottom-nav">
-  {% if page.previous %}
-    <div class="previous-post">
-      <span class="nav-label">Previous</span>
-      <a href="{{ page.previous.url | relative_url }}">
-        {{ page.previous.title }}
-      </a>
-    </div>
-  {% else %}
-    <!-- Placeholder to maintain layout -->
-    <div class="previous-post placeholder"></div>
-  {% endif %}
-  
-  {% if page.next %}
-    <div class="next-post">
-      <span class="nav-label">Next</span>
-      <a href="{{ page.next.url | relative_url }}">
-        {{ page.next.title }}
-      </a>
-    </div>
-  {% endif %}
+  {% if page.previous %}<div class="previous-post">
+    <span class="nav-label">Previous</span>
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+  </div>{% else %}
+  <div class="previous-post placeholder"></div>{% endif %}
+  {% if page.next %}<div class="next-post">
+    <span class="nav-label">Next</span>
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+  </div>{% endif %}
 </div>

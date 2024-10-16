@@ -63,7 +63,7 @@ header {
 
 /* Blockquote styles */
 blockquote {
-    margin: 2vw 4vw 3vw 2vw;
+    margin: 2vw 2vw 2vw 2vw;
     padding: 0rem 0rem 0rem 1rem;
     border-left: 0.35rem solid var(--accent);
     color: var(--text-light);
@@ -294,6 +294,15 @@ article {
     border-radius: 1.5vw;
 }
 
+article h1 {
+    text-align: center;
+    font-family: 'Dorsa', sans-serif;
+    color: #d0eecd7a;
+    font-size: 4rem; /* Adjust this value as needed */
+    line-height: 1.2;
+    letter-spacing: 0.1em; /* Added this line for increased letter spacing */
+}
+
 article table img {
     padding-top: 3vw;
     padding-bottom: 3vw;
@@ -450,4 +459,10 @@ footer a {
         margin-bottom: 2vw;
         display: block;
     }
+}
+
+ol li .post-date {
+  font-weight: 900 !important;
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }

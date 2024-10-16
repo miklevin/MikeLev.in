@@ -84,15 +84,23 @@
                 
                 if (window.innerWidth > 768) {
                     // Desktop behavior only
-                    // IMPORTANT: This sets the font size for "Mike Levin AI SEO" relative to the container width
                     headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
-                    // IMPORTANT: This sets the wheel size relative to the container width
                     wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                    
+                    // Calculate the top value for the wheel
+                    const minSliderValue = 850;
+                    const maxSliderValue = MAX_WIDTH;
+                    const minTopValue = -1;
+                    const maxTopValue = -3;
+                    
+                    const topValue = minTopValue + (maxTopValue - minTopValue) * 
+                                     (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
+                    
+                    wheel.style.top = `${topValue}vw`;
                 }
-                // IMPORTANT: Mobile behavior is now handled entirely by CSS
-
+                
                 // Save the new width to a cookie
-                setCookie('containerWidth', newWidth, 30); // Saves for 30 days
+                setCookie('containerWidth', newWidth, 30);
             };
 
             slider.addEventListener('input', updateWidth);

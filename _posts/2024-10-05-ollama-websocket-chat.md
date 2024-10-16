@@ -432,15 +432,13 @@ async def ws(msg: str):
         # Start streaming response
         response = chat_with_ollama(model, conversation)
         conversation.append({"role": "assistant", "content": response})
-        
         # Simulate typing effect
         words = response.split()
         for i in range(len(words)):
             partial_response = " ".join(words[:i+1])
             for u in users.values():
-                await u(Div(f"Todo App: {partial_response}", id='msg-list', _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                {% raw %}await u(Div(f"Todo App: {partial_response}", id='msg-list', _=f"this.scrollIntoView(\{\{behavior: 'smooth'\}\});"))
             await asyncio.sleep(0.1)  # Adjust delay as needed
-        
         # Clear the input field after the response is complete and keep it focused
         clear_input = Input(id='msg', name='msg', placeholder='Type a message...', value='', 
                             hx_swap_oob="true", autofocus='autofocus')
@@ -550,7 +548,7 @@ async def generate_and_stream_ai_response(prompt):
         for u in users.values():
             await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
 
 @rt('/{tid}')
@@ -605,7 +603,7 @@ async def ws(msg: str):
             for u in users.values():
                 await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                             style=MATRIX_STYLE,
-                            _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                            {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
             await asyncio.sleep(0.1)  # Adjust delay as needed
         
         # Clear the input field after the response is complete and keep it focused
@@ -716,7 +714,7 @@ async def generate_and_stream_ai_response(prompt):
         for u in users.values():
             await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
 
 @rt('/{tid}')
@@ -771,7 +769,7 @@ async def ws(msg: str):
             for u in users.values():
                 await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                             style=MATRIX_STYLE,
-                            _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                            {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
             await asyncio.sleep(0.1)  # Adjust delay as needed
         
         # Clear the input field after the response is complete and keep it focused
@@ -960,7 +958,7 @@ async def generate_and_stream_ai_response(prompt):
     async def update(content: str):
         for u in users.values():
             await u(Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
-                        _="this.scrollIntoView({behavior: 'smooth'});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
     
     async def finish():
         pass  # No need to clear input or refocus in this case
@@ -1025,7 +1023,7 @@ async def ws(msg: str):
         
         async def update(content: str):
             await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
-                                     _="this.scrollIntoView({behavior: 'smooth'});"))
+                                    {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         
         async def finish():
             clear_input = Input(id='msg', name='msg', placeholder='Type a message...', value='', 
@@ -1340,7 +1338,7 @@ async def generate_and_stream_ai_response(prompt: str):
                     id='msg-list',
                     cls='fade-in',
                     style=MATRIX_STYLE,
-                    _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                    {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
                 )
             )
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
@@ -1799,7 +1797,7 @@ async def ws(msg: str):
                         id='msg-list',
                         cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
                     )
                 )
             await asyncio.sleep(0.05)  # Reduced delay for faster typing
