@@ -1016,31 +1016,39 @@ main {
             <input type="range" id="widthSlider" min="850" max="3000" value="1405" />
         </div>
         <script>
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+                const expires = new Date();
+                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+            }
+
+            // Function to get a cookie
+            function getCookie(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for(let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
             // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
             const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
-            // IMPORTANT: Update the slider's max attribute to match the page width
-            document.getElementById('widthSlider').max = MAX_WIDTH;
-
-            // Create a new style element
-            const style = document.createElement('style');
-
-            // Set its content to include the media query with the MAX_WIDTH variable
-            style.textContent = `
-                @media (min-width: ${MAX_WIDTH}px) {
-                    body > footer, body > header, body > main {
-                        max-width: 850px;
-                    }
-                }
-            `;
-
-            // Append the new style element to the head of the document
-            document.head.appendChild(style);
 
             const slider = document.getElementById('widthSlider');
             const container = document.querySelector('.container');
             const headerTitle = document.getElementById('headerTitle');
             const wheel = document.getElementById('wheel');
+
+            // IMPORTANT: Update the slider's max attribute to match the page width
+            slider.max = MAX_WIDTH;
+
+            // Set initial slider value from cookie or default to 850
+            const savedWidth = getCookie('containerWidth');
+            slider.value = savedWidth ? savedWidth : 850;
 
             const updateWidth = () => {
                 const newWidth = slider.value;
@@ -1052,10 +1060,24 @@ main {
                     wheel.style.width = `calc(${newWidth}px * 0.18)`;
                 }
                 // Mobile behavior is now handled entirely by CSS
+
+                // Save the new width to a cookie
+                setCookie('containerWidth', newWidth, 30); // Saves for 30 days
             };
 
             slider.addEventListener('input', updateWidth);
-            updateWidth(); // Initialize
+            updateWidth(); // Initialize with saved or default value
+
+            // Create a new style element for the media query
+            const style = document.createElement('style');
+            style.textContent = `
+                @media (min-width: ${MAX_WIDTH}px) {
+                    body > footer, body > header, body > main {
+                        max-width: 850px;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
 
             // ... rest of your JavaScript code ...
         </script>
