@@ -29,6 +29,22 @@
             max-width: 850px; /* Initial value */
         }
     }
+    #headerTitle {
+        text-align: center;
+        color: #90b98b7a;
+        font-family: 'Dorsa';
+        line-height: 0.7;
+        overflow-wrap: break-word;
+        width: 100%;
+        max-width: 850px; /* Initial value, same as the media query */
+        margin: 0 auto; /* Center the div */
+    }
+    #widthSliderContainer {
+        /* ... existing styles ... */
+    }
+    #widthSlider {
+        /* ... existing styles ... */
+    }
 </style>
 </head>
 <body>
@@ -36,7 +52,7 @@
 <label>
     <input type="range" id="widthSlider" min="850" max="1500" value="850" />
 </label>
-<div style="text-align: center; color: #90b98b7a; font-family: 'Dorsa'; font-size: min(26vw, 255px); line-height: 0.7; overflow-wrap: break-word;">
+<div id="headerTitle">
     <nobr>
         <a href="/" style="text-decoration: none; color: inherit;">
             MIKE LEVIN 
@@ -50,15 +66,22 @@
 <script>
     const slider = document.getElementById('widthSlider');
     const widthValue = document.getElementById('widthValue');
+    const headerTitle = document.getElementById('headerTitle');
     const updateWidth = () => {
         const newWidth = slider.value;
-        document.querySelector('style').textContent = `
+        document.querySelector('style').textContent += `
             @media (min-width: 1536px) {
                 body>footer, body>header, body>main {
                     max-width: ${newWidth}px;
                 }
             }
+            #headerTitle {
+                max-width: ${newWidth}px;
+                font-size: calc(${newWidth}px * 0.3); /* Adjust this multiplier as needed */
+            }
         `;
+        widthValue.textContent = `${newWidth}px`;
+        headerTitle.style.fontSize = `calc(${newWidth}px * 0.3)`; // Adjust this multiplier as needed
     };
     slider.addEventListener('input', updateWidth);
     updateWidth(); // Initialize
