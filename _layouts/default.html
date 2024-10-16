@@ -952,26 +952,26 @@ nav a.current {
 }
 #widthSliderContainer {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 #widthSlider {
-    width: 100px;
-    writing-mode: bt-lr;
-    -webkit-appearance: slider-vertical;
+    width: 100%;
+    margin: 0;
 }
 </style>
 </head>
 <body>
 <header>
-<label>
+<div id="widthSliderContainer">
     <input type="range" id="widthSlider" min="850" max="1500" value="850" />
-</label>
+</div>
 <div id="headerTitle">
     <nobr>
         <a href="/" style="text-decoration: none; color: inherit;">
@@ -985,7 +985,6 @@ nav a.current {
 </div>
 <script>
     const slider = document.getElementById('widthSlider');
-    const widthValue = document.getElementById('widthValue');
     const headerTitle = document.getElementById('headerTitle');
     const wheel = document.getElementById('wheel');
     const updateWidth = () => {
@@ -1000,8 +999,10 @@ nav a.current {
                 max-width: ${newWidth}px;
                 font-size: calc(${newWidth}px * 0.3); /* Adjust this multiplier as needed */
             }
+            #widthSliderContainer {
+                width: ${newWidth}px;
+            }
         `;
-        widthValue.textContent = `${newWidth}px`;
         headerTitle.style.fontSize = `calc(${newWidth}px * 0.3)`; // Adjust this multiplier as needed
         wheel.style.width = `calc(${newWidth}px * 0.09)`; // Adjust this multiplier to maintain proportion
     };
