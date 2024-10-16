@@ -22,6 +22,7 @@ body {
     background-color: var(--bg);
     color: var(--text);
     font-family: "Abel", sans-serif;
+    font-size: 24px; /* Added this line */
 }
 
 header {
@@ -62,7 +63,7 @@ header {
 
 /* Blockquote styles */
 blockquote {
-    margin: 3vw 7vw 3vw 7vw;
+    margin: 2vw 4vw 3vw 2vw;
     padding: 0rem 0rem 0rem 1rem;
     border-left: 0.35rem solid var(--accent);
     color: var(--text-light);
