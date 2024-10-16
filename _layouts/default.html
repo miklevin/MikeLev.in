@@ -108,10 +108,10 @@ h3 {
 }
 
 #wheel {
-    width: 18vw; /* Initial width */
-    max-width: 180px; /* Maximum width */
+    width: 16%; /* Initial width, adjust as needed */
     height: auto;
     vertical-align: middle;
+    display: inline-block;
 }
 
 /* Format links & buttons */
@@ -937,7 +937,6 @@ nav a.current {
     text-align: center;
     color: #90b98b7a;
     font-family: 'Dorsa';
-    font-size: min(26vw, 255px); /* Initial font size */
     line-height: 0.7;
     overflow-wrap: break-word;
     width: 100%;
@@ -976,7 +975,7 @@ nav a.current {
     <nobr>
         <a href="/" style="text-decoration: none; color: inherit;">
             MIKE LEVIN 
-            <svg id="wheel" class="spin" width="16vw" viewBox="0 0 100 100">
+            <svg id="wheel" class="spin" viewBox="0 0 100 100">
                 <image xlink:href="/assets/svg/mike-levin-bff-seo-linux-python-vim-git.svg" x="0" y="0" width="100%" height="100%"></image>
             </svg> 
             AI SEO
@@ -1004,7 +1003,7 @@ nav a.current {
             }
         `;
         headerTitle.style.fontSize = `calc(${newWidth}px * 0.3)`; // Adjust this multiplier as needed
-        wheel.style.width = `calc(${newWidth}px * 0.09)`; // Adjust this multiplier to maintain proportion
+        wheel.style.width = `calc(${newWidth}px * 0.16)`; // Adjust this multiplier to maintain proportion
     };
     slider.addEventListener('input', updateWidth);
     updateWidth(); // Initialize
