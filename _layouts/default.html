@@ -575,6 +575,16 @@ header {
 footer {
     font-size: 1rem;
     outline: 2px solid purple;
+    text-align: center; /* Center the content in the footer */
+}
+
+footer p {
+    margin: 0; /* Remove default paragraph margin */
+}
+
+footer a {
+    display: inline-block; /* Allow for padding without affecting layout */
+    padding: 0 10px; /* Add some space between links */
 }
 
 h1,
@@ -1086,10 +1096,10 @@ body > footer {
     </main>
     <footer>
         <p>
-            <a href="https://github.com/miklevin">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/miklevin/">LinkedIn</a> |
-            <a href="/about/">About</a> |
-            <a href="/sitemap.xml">sitemap.xml</a> |
+            <a href="https://github.com/miklevin">GitHub</a>
+            <a href="https://www.linkedin.com/in/miklevin/">LinkedIn</a>
+            <a href="/about/">About</a>
+            <a href="/sitemap.xml">sitemap.xml</a>
             <a href="/">Home</a>
         </p>
     </footer>
