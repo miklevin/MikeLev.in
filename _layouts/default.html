@@ -8,8 +8,7 @@
 <meta name="keywords" content="{{ page.keywords }}" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="stylesheet" href="/pico.classless.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,8 +23,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
 <style>
 /* Custom variables - keep these as they might override Pico's defaults */
+:root:not([data-theme]) {
+    --pico-background-color: #000000;
+}
+
 :root {
-    --bg: black; 
+    --bg: #000000; /* True black */
     --accent-bg: #2b2b2b;
     --text: #dcdcdc;
     --text-light: #ababab;
@@ -35,6 +38,9 @@
     --disabled: #111;
     --border: #898ea46b;
     --marked: #ffdd33;
+
+    /* Override Pico's background color */
+    --pico-background-color: #000000;
 }
 
 /* Custom styles that are specific to your design */
@@ -42,6 +48,11 @@ body {
     background-color: var(--bg);
     color: var(--text);
     font-family: "Abel", sans-serif;
+}
+
+/* Ensure header has true black background */
+header {
+    background-color: #000000;
 }
 
 #wheel {
@@ -68,6 +79,7 @@ body {
     line-height: 0.7;
     overflow-wrap: break-word;
     width: 100%;
+    background-color: #000000; /* Added this line */
 }
 
 #headerTitle a {
@@ -208,6 +220,14 @@ pre code {
     margin: 2rem 0;
 }
 
+.top-nav {
+    margin-bottom: 3vw; /* Add space between top nav and article */
+}
+
+.bottom-nav {
+    margin-top: 3vw; /* Add space between article and bottom nav */
+}
+
 .previous-post,
 .next-post {
     flex: 0 1 45%; /* Allow shrinking but limit growth */
@@ -260,6 +280,10 @@ pre code {
     .next-post {
         text-align: left;
     }
+}
+
+article {
+    border-radius: 3vw;
 }
 </style>
 </head>
@@ -356,8 +380,6 @@ pre code {
     </header>
     <main>
         {{ content }}
-        
-        <!-- Add the bottom slider here, just before the end of main content -->
         <div id="bottomSliderContainer">
             <input type="range" id="bottomSlider" min="850" max="3000" value="850" />
         </div>
