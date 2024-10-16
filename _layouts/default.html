@@ -1043,15 +1043,13 @@ main {
                 const newWidth = slider.value;
                 container.style.maxWidth = `${newWidth}px`;
                 headerTitle.style.fontSize = `calc(${newWidth}px * 0.27)`;
-                wheel.style.width = `calc(${newWidth}px * 0.18)`; // Reduced from 0.21 to 0.18
+                wheel.style.width = `calc(${newWidth}px * 0.18)`;
                 /* IMPORTANT: These calculations maintain the relative sizes of the headerTitle font
                    and the wheel SVG as the container width changes. 
                    - The first multiplier (0.27) controls the font size of the header title relative to the container width.
                    - The second multiplier (0.18) determines the size of the wheel SVG relative to the container width.
                    These multipliers are crucial for maintaining the current layout and should be adjusted carefully
                    if changes are needed. The wheel should remain proportionally smaller than the text. */
-                /* NOTE: The wheel size for mobile is not explicitly set here. It's controlled by the same calculation
-                   as desktop, but the overall container width will be smaller on mobile devices. */
             };
             slider.addEventListener('input', updateWidth);
             updateWidth(); // Initialize
