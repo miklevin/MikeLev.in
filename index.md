@@ -8,9 +8,9 @@ group: home
 <div class="center-table">
     <table class="logos" style="margin: 0 auto;">
         <tr>
-            <td style="background-color: transparent; padding: 0vw 0vw 2vw 0vw; width: 48%;"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
+            <td style="background-color: transparent; padding: 0vw 0vw 0vw 0vw; width: 48%;"><img src="/assets/logo/Levinux.PNG" border=0 /></td>
             <td style="background-color: transparent;"> </td>
-            <td style="background-color: transparent; padding: 0vw 0vw 2vw 0vw; width: 48%;"><img src="/assets/logo/Pipulate.PNG" border=0 /></td>
+            <td style="background-color: transparent; padding: 0vw 0vw 0vw 0vw; width: 48%;"><img src="/assets/logo/Pipulate.PNG" border=0 /></td>
         </tr>
     </table>
 </div>
