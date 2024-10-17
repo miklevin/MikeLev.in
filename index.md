@@ -45,9 +45,45 @@ That's the main minimal tech-stack as a sort of swiss army knife or utility belt
 - **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
 - **`Ollama`**: Offline AI, always listening—your local companion in thought.
 
+<div class="ascii-alice">
+<pre>
+                             ___
+                            |   |         _____
+                            |_  |        /     \
+                              \ |       |       \
+                              |  \      |       /
+                               \  \____ \_      \
+                                \      \_/      |
+                          ___.   \_            _/
+         .-,             /    \    |          |
+         |  \          _/      `--_/           \_
+          \  \________/                     /\   \
+          |                                /  \_  \
+          `-----------,                   |     \  \
+                      |                  /       \  |
+                      |                 |         | \
+                      /                 |         \__|
+                     /   _              |
+                    /   / \_             \
+                    |  /    \__      __--`
+                   _/ /        \   _/
+               ___/  /          \_/
+              /     /
+              `----`
+</pre>
+</div>
+
+<div class="post-navigation">
+  <div class="previous-post placeholder"></div>
+  <div class="next-post">
+    <span class="nav-label">Next</span>
+    <a href="{{ site.posts.first.url | relative_url }}" class="arrow-link">{{ site.posts.first.title }}</a>
+  </div>
+</div>
+
 ## Writing as a Compass in the Tech Wilderness
 
-I don't write because I crave an audience or have products to peddle. My words are my compass, helping me navigate the ever-shifting landscape of technology. This digital journal is my sounding board, a space where ideas echo and crystallize. With each post, I'm forging a path forward, articulating the complex, and holding myself accountable to the journey I've chosen.
+I don't write because I crave an audience or have products to peddle. My words are my compass, helping me navigate the ever-shifting landscape of technology. This digital journal is my sounding board, a space where ideas echo and crystallize. With each post, I'm forging a path forward, articulating the complex, and holding myself accountable to the journey I've chosen&#151;and practice my craft.
 
 <ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}

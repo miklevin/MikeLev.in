@@ -509,7 +509,7 @@ ol li .post-date {
   color: #fff;
   border: none;
   padding: 0;
-  font-size: 0.5em; /* Changed from 0.8em to 0.75em */
+  font-size: 0.65em; /* Changed from 0.8em to 0.75em */
   white-space: pre;
 }
 
@@ -521,4 +521,21 @@ ol li .post-date {
   .lpvg-ascii {
     justify-content: center;
   }
+}
+
+.ascii-alice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ascii-alice pre {
+  margin: 0;
+  background-color: transparent; /* or use 'black' for pure black */
+  color: #fff; /* Ensure text is visible on dark background */
+  border: none;
+  padding: 0;
+  font-size: 0.75em; /* Adjust as needed */
+  white-space: pre;
+  line-height: 1.2; /* Adjust as needed to prevent lines from overlapping */
 }
