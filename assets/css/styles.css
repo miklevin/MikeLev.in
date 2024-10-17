@@ -612,3 +612,48 @@ header blockquote {
  * Always test thoroughly on both desktop and mobile before deploying.
  */
 
+/* Styles for the Next link */
+.next-post {
+  text-align: right;
+}
+
+.next-post a {
+  display: inline-block;
+  padding-right: 1.5em;
+  position: relative;
+}
+
+.next-post a::after {
+  content: "→";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.next-post a span {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .next-post {
+    text-align: left;
+  }
+
+  .next-post a {
+    padding-right: 0;
+    padding-left: 1.5em;
+  }
+
+  .next-post a::after {
+    content: none;
+  }
+
+  .next-post a::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
