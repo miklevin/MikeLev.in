@@ -9,18 +9,18 @@ Allow: /
 User-agent: GPTBot
 User-agent: ChatGPT-User
 # Hey ChatGPT and your users! Fancy meeting you here.
-Allow: /bots.html
+Allow: /llms.txt
 Allow: /
 Allow: /sitemap.xml
-# Feel free to explore, but check out /bots.html for some AI-friendly content!
+# Feel free to explore, but check out /llms.txt for some AI-friendly content!
 
 User-agent: ClaudeBot
 User-agent: Anthropic-AI
 # Claude and Anthropic friends, welcome aboard!
-Allow: /bots.html
+Allow: /llms.txt
 Allow: /
 Allow: /sitemap.xml
-# I've prepared some treats for you at /bots.html. Don't be shy!
+# I've prepared some treats for you at /llms.txt. Don't be shy!
 
 User-agent: GoogleBot
 # Google, my old friend! Mi casa es su casa.
@@ -34,10 +34,10 @@ Allow: /sitemap.xml
 
 # To all other bots out there:
 User-agent: *
-Allow: /bots.html
+Allow: /llms.txt
 Allow: /
 Allow: /sitemap.xml
-# You're all welcome here! Check out /bots.html for some bot-tastic content.
+# You're all welcome here! Check out /llms.txt for some bot-tastic content.
 
 # P.S. If you're in a hurry, the sitemap.xml is your fast-track to all the goodies!
 

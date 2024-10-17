@@ -700,3 +700,132 @@ header blockquote {
     top: 0;
   }
 }
+
+/* General Mermaid Container Styles */
+.mermaid {
+    background-color: #f5f7fa; /* Light background for the diagram */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+/* Set a narrow, modern font for all text within the diagram */
+.mermaid svg {
+    font-family: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px; /* Slightly reduced font size for better fit with narrow font */
+}
+
+/* Style Nodes with Rounded Corners and Enhanced Borders */
+.mermaid svg .node rect,
+.mermaid svg .node circle,
+.mermaid svg .node ellipse,
+.mermaid svg .node polygon,
+.mermaid svg .node path {
+    fill: #ffffff; /* White background for nodes */
+    stroke: #3498db; /* Blue border for nodes */
+    stroke-width: 3px; /* Increased border thickness */
+    rx: 10px; /* Slightly reduced rounded corners */
+    ry: 10px;
+    filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.1)); /* Subtle shadow for depth */
+}
+
+/* Style Node Labels */
+.mermaid svg .node .label text,
+.mermaid svg .node .label foreignObject div {
+    fill: #2c3e50; /* Dark text color for readability */
+    color: #2c3e50;
+    font-weight: 500; /* Slightly reduced weight for narrow font */
+    text-align: center;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible; /* Ensure text is fully visible */
+}
+
+/* Adjust Label Container to Prevent Text Chopping */
+.mermaid svg .node .label foreignObject div {
+    padding: 2px 4px; /* Reduced padding for tighter spacing */
+}
+
+/* Style Cluster Containers (Subgraphs) */
+.mermaid svg .cluster rect {
+    fill: #ecf0f1; /* Light grey background for clusters */
+    stroke: #95a5a6; /* Grey border for clusters */
+    stroke-width: 3px; /* Increased border thickness */
+    rx: 12px; /* Slightly reduced rounded corners */
+    ry: 12px;
+}
+
+/* Style Edges with Thicker Lines and Smooth Curves */
+.mermaid svg .edgePath .path {
+    stroke: #2c3e50; /* Dark grey color for edges */
+    stroke-width: 3px; /* Increased edge thickness */
+    fill: none;
+    stroke-linecap: round; /* Smooth line caps */
+    stroke-linejoin: round; /* Smooth line joins */
+    transition: stroke 0.3s ease; /* Transition effect on hover */
+}
+
+/* Style Arrowheads */
+.mermaid svg .arrowheadPath {
+    fill: #2c3e50; /* Match arrowhead color with edges */
+    stroke: #2c3e50;
+    stroke-width: 2px; /* Increased arrowhead border thickness */
+}
+
+/* Style Edge Labels with Rounded Backgrounds */
+.mermaid svg .edgeLabel rect {
+    fill: #ffffff; /* White background for labels */
+    stroke: #95a5a6; /* Grey border for labels */
+    stroke-width: 1.5px; /* Slightly thicker border */
+    rx: 5px; /* Rounded corners */
+    ry: 5px;
+    opacity: 0.9; /* Slight transparency */
+}
+
+.mermaid svg .edgeLabel text,
+.mermaid svg .edgeLabel foreignObject div {
+    color: #34495e; /* Dark grey text for labels */
+    font-size: 11px; /* Slightly smaller font for edge labels */
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible; /* Ensure text is fully visible */
+}
+
+/* Hover Effects for Nodes */
+.mermaid svg .node:hover rect {
+    fill: #d1e7dd; /* Light green fill on hover */
+    stroke: #0f5132; /* Dark green border on hover */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+/* Hover Effects for Edges */
+.mermaid svg .edgePath .path:hover {
+    stroke: #e74c3c; /* Red color on hover */
+    cursor: pointer;
+    transition: stroke 0.3s;
+}
+
+/* Clickable Nodes Cursor */
+.mermaid svg .node.clickable {
+    cursor: pointer;
+}
+
+/* Responsive SVG */
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Customize Tooltips */
+.mermaid div.mermaidTooltip {
+    background: rgba(44, 62, 80, 0.9); /* Dark semi-transparent background */
+    color: #ecf0f1; /* Light text color */
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    z-index: 1000;
+}

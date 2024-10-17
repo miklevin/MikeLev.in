@@ -7,7 +7,7 @@
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.keywords }}" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/pico.classless.min.css">
+    <link rel="stylesheet" href="/assets/css/pico.classless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
@@ -22,7 +22,10 @@
 
       gtag('config', '{{ site.gaid }}');
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
 </head>
 <body>
 </head>
