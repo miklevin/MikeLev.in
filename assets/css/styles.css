@@ -673,3 +673,34 @@ header blockquote {
     top: 0;
   }
 }
+
+/* Special case for the index page next link */
+.post-navigation:not(.top-nav):not(.bottom-nav) .next-post a {
+  padding-right: 1.5em;
+  text-indent: 0;
+}
+
+.post-navigation:not(.top-nav):not(.bottom-nav) .next-post a span {
+  display: inline;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  /* Special case for the index page next link on mobile */
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post {
+    text-align: left;
+  }
+
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post a {
+    padding-left: 1.5em;
+    padding-right: 0;
+    text-indent: 0; /* Remove the text indent */
+  }
+
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post a::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
