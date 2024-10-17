@@ -541,20 +541,36 @@ ol li .post-date {
 }
 
 .ascii-alice {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    overflow-x: auto;
 }
 
 .ascii-alice pre {
-  margin: 0;
-  background-color: transparent; /* or use 'black' for pure black */
-  color: #fff; /* Ensure text is visible on dark background */
-  border: none;
-  padding: 0;
-  font-size: 0.75em; /* Adjust as needed */
-  white-space: pre;
-  line-height: 1.2; /* Adjust as needed to prevent lines from overlapping */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    border: none;
+    white-space: pre;
+    font-size: 0.75em;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .ascii-alice {
+        justify-content: flex-start; /* Align to the left on mobile */
+    }
+
+    .ascii-alice pre {
+        font-size: 2.5vw; /* Increased from 1.8vw */
+        line-height: 1;
+        width: 100%; /* Ensure it takes full width */
+        max-width: none; /* Remove any max-width restrictions */
+    }
 }
 
 .lpvg-ascii {
