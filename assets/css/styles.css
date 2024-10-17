@@ -431,33 +431,31 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 0 0;
-    box-sizing: border-box;
+    gap: 1rem; /* Add space between logos */
+    margin: 1rem 0; /* Keep top and bottom margin */
+    width: 100%; /* Ensure container takes full width */
 }
 
 .logo-item {
-    width: 48%; /* Slightly less than 50% to allow for space between */
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 .logo-item img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    padding: 2vw 0;
 }
 
 @media (max-width: 768px) {
     .logo-container {
-        flex-direction: column;
+        gap: 0.5rem; /* Reduce gap on mobile, but keep some space */
     }
 
     .logo-item {
-        width: 100%;
-        margin-bottom: 2vw;
-        display: block;
+        max-width: 50%; /* Allow logos to take up full half-width */
     }
 }
 
