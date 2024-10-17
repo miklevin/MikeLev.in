@@ -1,3 +1,10 @@
+/* 
+ * CSS Documentation
+ * 
+ * CRITICAL: The following styles are crucial for the site's layout and appearance.
+ * Modify with extreme caution and always test thoroughly on both desktop and mobile.
+ */
+
 /* Custom variables */
 :root:not([data-theme]) {
     --pico-background-color: #000000;
@@ -428,12 +435,17 @@ footer a {
     margin: 0 0.5rem;
 }
 
+/* 
+ * Logo Container
+ * - Ensures logos are side-by-side with specific spacing
+ * - Modifying may affect overall layout
+ */
 .logo-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2vw; /* Add space between logos */
-    margin: 2rem 0; /* Keep top and bottom margin */
+    gap: 1rem; /* Space between logos */
+    margin: 1rem 0; /* Keep top and bottom margin */
     width: 100%; /* Ensure container takes full width */
 }
 
@@ -579,3 +591,23 @@ header blockquote {
     margin-top: 2rem; /* Increased top margin on mobile */
   }
 }
+
+/* 
+ * Mobile Adjustments
+ * - Wheel positioning is crucial for alignment
+ * - Blockquote spacing is adjusted for mobile layout
+ */
+@media (max-width: 768px) {
+    body #wheel {
+        top: -2.4vw !important;
+    }
+
+    header blockquote {
+        margin-top: 3vw; /* Increased top margin on mobile */
+    }
+}
+
+/* 
+ * REMINDER: Any changes to the above styles may break the layout.
+ * Always test thoroughly on both desktop and mobile before deploying.
+ */

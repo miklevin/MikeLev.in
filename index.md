@@ -21,7 +21,7 @@ group: home
     <ul>
       <li><code>`Linux`</code>: The open-source pulse of global computation.</li>
       <li><code>`Python`</code>: Language of logic, creativity, and discovery.</li>
-      <li><code>`vim`</code>: Text whisperer—efficiency in keystrokes.</li>
+      <li><code>`vim`</code>: Text whisperer—zen efficiency in keystrokes.</li>
       <li><code>`git`</code>: Memory keeper—track, share & find your way.</li>
     </ul>
   </div>
