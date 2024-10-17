@@ -43,7 +43,7 @@ That's the main minimal tech-stack as a sort of swiss army knife or utility belt
 - **`tmux`**: Command-line conjurer—sessions split, disconnected, and reborn.
 - **`Jupyter Notebooks`**: Code meets canvas—prototype, iterate, illuminate.
 - **`FastHTML`**: From Pythonic thoughts to web realities in a heartbeat.
-- **`Ollama`**: Securely listing offline AI—a local companion in thought.
+- **`Ollama`**: Listening offline AI—a secure local companion in thought.
 
 <div class="ascii-alice">
 <pre>
