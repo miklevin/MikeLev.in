@@ -37,6 +37,12 @@ header {
     top: -1.2vw;
 }
 
+@media (max-width: 768px) {
+    body #wheel {
+        top: -2.4vw !important;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 850px;
@@ -426,7 +432,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem; /* Add space between logos */
+    gap: 2vw; /* Add space between logos */
     margin: 2rem 0; /* Keep top and bottom margin */
     width: 100%; /* Ensure container takes full width */
 }
@@ -446,7 +452,7 @@ footer a {
 
 @media (max-width: 768px) {
     .logo-container {
-        gap: 0.5rem; /* Reduce gap on mobile, but keep some space */
+        gap: 4vw; /* Reduce gap on mobile, but keep some space */
     }
 
     .logo-item {
