@@ -480,35 +480,29 @@ ol li .post-date {
 .lpvg-list ul {
   list-style-type: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .lpvg-list li {
   margin-bottom: 0.5rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .lpvg-list li::before {
   content: "🥕";
   margin-right: 0.5rem;
-  font-size: 1.2em; /* Adjust size as needed */
+  flex-shrink: 0;
 }
 
-.lpvg-ascii {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; /* This centers the content vertically */
+.lpvg-list li code {
+  flex-shrink: 0;
 }
 
-.lpvg-ascii pre {
-  margin: 0;
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  padding: 0;
-  font-size: 0.65em; /* Changed from 0.8em to 0.75em */
-  white-space: pre;
+.lpvg-list li span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 768px) {
@@ -518,6 +512,14 @@ ol li .post-date {
   
   .lpvg-ascii {
     justify-content: center;
+  }
+  
+  .lpvg-list {
+    font-size: 3vw; /* Adjust this value as needed */
+  }
+  
+  .lpvg-list li::before {
+    font-size: 3.5vw; /* Slightly larger than the text */
   }
 }
 
@@ -536,4 +538,29 @@ ol li .post-date {
   font-size: 0.75em; /* Adjust as needed */
   white-space: pre;
   line-height: 1.2; /* Adjust as needed to prevent lines from overlapping */
+}
+
+.lpvg-ascii {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black; /* Set background to black */
+}
+
+.lpvg-ascii pre {
+  margin: 0;
+  background-color: black; /* Ensure pre element also has black background */
+  color: #fff;
+  border: none;
+  padding: 0;
+  font-size: 0.65em; /* Set font size to 0.65em on desktop */
+  white-space: pre;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .lpvg-ascii pre {
+    font-size: 0.75em; /* Keep the 0.75em font size on mobile */
+  }
 }
