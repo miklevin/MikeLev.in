@@ -1374,3 +1374,75 @@ As we stand on the cusp of this new frontier, it's exciting to think about the p
 So, whether you're a seasoned developer or just starting your journey, I encourage you to explore what Nix Flakes has to offer. Dive in, experiment, and see how it can transform your development workflow. Together, we can drive a movement in tech that prioritizes efficiency, reliability, and simplicity.
 
 Here's to revolutionizing the way we build and deploy software—**one flake at a time**.
+
+---
+
+## Yeah, But What About guix (vs. nix)?
+
+Me: Yeah, but what about guix, haha! No but really, I thought about it and would rather use something from the GNU Foundation, but honestly nix has 20 years behind it, and the Determinate Systems installer, so can get the Mac folks onboard way easier despite having to live with a Haskell-like language over a LISP/LUA-like one. That was the onus of my decision, but I'd love for you to cover this issue thoroughly as your actual closing of this article. Go on for as long as you like, from the validation of nix by guix, to the relative advantages and disadvantages, and ultimately covering what you know of my decision to stick with nix because of my Mac audience, and whether you think that is the right way to go or not.
+
+o1-preview: ### **A Thought on GNU Guix vs. Nix Flakes**
+
+Before we conclude, it's worth addressing an alternative that often comes up in discussions about reproducible development environments: **GNU Guix**. Like Nix, Guix is a functional package manager designed to provide reproducible, declarative environments. It's built upon many of the same principles as Nix and even shares some underlying technologies. So, why choose Nix over Guix, especially when Guix comes from the GNU Project, which many hold in high regard?
+
+#### **Validation of Nix by Guix**
+
+The very existence of Guix can be seen as a validation of Nix's innovative approach to package management and system configuration. Guix was inspired by Nix and aims to improve upon it by utilizing Guile Scheme—a dialect of Lisp—as its configuration and extension language. This choice aligns with the GNU philosophy of using Lisp-based languages, offering powerful extensibility and a rich macro system.
+
+#### **Advantages and Disadvantages**
+
+**GNU Guix Advantages:**
+
+- **GNU Alignment:** For those who prefer GNU software and philosophies, Guix is a natural fit.
+- **Lisp-Based Configuration:** Guile Scheme offers a flexible and expressive language for configurations, which is appealing to users who are comfortable with Lisp-like languages.
+- **Emphasis on Software Freedom:** Guix places a strong emphasis on software freedom, aligning with the principles of the Free Software Foundation.
+
+**Nix Flakes Advantages:**
+
+- **Maturity and Stability:** Nix has been around for over two decades, offering a mature and stable ecosystem with extensive community support.
+- **Wide Adoption:** Nix is widely used in various industries and has a larger user base, which translates to more community resources and third-party integrations.
+- **Determinant Systems Installer:** Tools like the Determinate Systems installer simplify Nix's installation process, making it more accessible to a broader audience, including macOS users.
+- **Haskell-Like Language:** While Nix's expression language is influenced by Haskell, it provides a declarative and pure functional language that many find intuitive once they're accustomed to it.
+- **Cross-Platform Support:** Nix has robust support for macOS, Linux, and Windows (via WSL2), ensuring that developers on different platforms can benefit equally.
+
+**Disadvantages to Consider:**
+
+- **Learning Curve:** Both Nix and Guix have steep learning curves due to their unique languages and paradigms. Users must invest time to become proficient.
+- **Community Size:** Guix, being newer and less widely adopted, has a smaller community, which might limit available support and resources compared to Nix.
+- **Language Preference:** Choosing between a Haskell-like language (Nix) and a Lisp-like language (Guix) often comes down to personal or team familiarity and preference.
+
+#### **The Decision to Stick with Nix for a Mac Audience**
+
+Your decision to stick with Nix, particularly because of your macOS audience, is a pragmatic one:
+
+- **Ease of Installation on macOS:** The Determinate Systems installer makes Nix installation straightforward on macOS, reducing barriers for users.
+- **Better macOS Support:** Nix has more mature support for macOS compared to Guix, which can be crucial for ensuring a smooth user experience.
+- **Community and Resources:** With a larger user base on macOS, Nix provides more community-contributed packages, documentation, and troubleshooting advice relevant to macOS users.
+- **Stability and Longevity:** Nix's longer history and established presence give confidence in its continued support and development, which is reassuring for users and developers alike.
+
+#### **Is This the Right Way to Go?**
+
+Given your goals and target audience, **sticking with Nix appears to be the right choice**. Here's why:
+
+- **User Accessibility:** Your primary aim is to make the setup as effortless as possible for users who may not be technically inclined. Nix's tooling and installers cater well to this need.
+- **Cross-Platform Consistency:** Ensuring that both macOS and Windows users (via WSL2) have a consistent experience is vital. Nix's robust cross-platform support makes this feasible.
+- **Focus on Simplification:** By choosing Nix, you're leveraging a tool that abstracts away much of the complexity, allowing users to run a single command (`nix develop`) to get started.
+- **Alignment with Project Philosophy:** Your project emphasizes automation, reproducibility, and minimizing manual intervention—all of which are strengths of Nix.
+
+#### **Final Thoughts**
+
+While GNU Guix is an excellent tool with its own merits, especially for those deeply embedded in the GNU ecosystem or who prefer Scheme for configurations, Nix offers a more practical solution for your specific context. The priority is to provide a seamless experience for your users, and Nix delivers on that front with greater maturity and support, particularly for macOS users.
+
+By choosing Nix, you're not only adopting a powerful tool but also aligning with a community and ecosystem that values reproducibility, reliability, and simplicity. It's a decision that reflects a deep understanding of your audience's needs and a commitment to delivering the best possible experience.
+
+---
+
+**In embracing Nix Flakes, you're making a strategic choice that balances innovation with practicality. It's about pushing the boundaries of what's possible in software deployment while keeping your users' experience at the forefront. Whether in the choice between Nix and Guix or in the broader context of development tooling, the key is to select the tools that best serve your project's vision and your users' needs.**
+
+---
+
+**Join the Movement**
+
+As we navigate the ever-changing landscape of technology, choices like these shape the future of development practices. By sharing your experiences and insights, you contribute to a larger conversation about how we can build better tools and workflows. Whether you're a developer exploring new technologies or someone interested in the philosophies that drive software innovation, I encourage you to delve deeper into Nix Flakes and consider how it might revolutionize your own projects.
+
+Let's continue to question, to learn, and to make choices that drive the tech movement forward—one thoughtful decision at a time.
