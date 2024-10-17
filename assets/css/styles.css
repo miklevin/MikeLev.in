@@ -702,18 +702,6 @@ header blockquote {
 }
 
 /* Mermaid diagram styles */
-.mermaid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.mermaid svg {
-    max-width: 100%;
-    height: auto;
-}
-
 .mermaid .flowchart-link {
     stroke: #ffffff !important;
 }
@@ -761,4 +749,32 @@ header blockquote {
 .mermaid .node .label foreignObject div {
     color: #ffffff !important;
     fill: #ffffff !important;
+}
+
+/* Mermaid diagram styles */
+.mermaid .cluster rect {
+    fill: transparent !important;
+    stroke: #808080 !important;
+    stroke-width: 1px !important;
+    rx: 5px !important;
+    ry: 5px !important;
+}
+
+.mermaid .nodeLabel {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+
+/* Additional specific selectors for text */
+.mermaid .nodeLabel foreignObject div span,
+.mermaid .nodeLabel foreignObject div {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+
+/* Rounded corners for large background rectangles */
+.mermaid rect[height][width][x][y] {
+    rx: 5px !important;
+    ry: 5px !important;
+    fill: rgba(255, 255, 255, 0.05) !important; /* Very transparent white */
 }
