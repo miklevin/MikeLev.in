@@ -700,6 +700,19 @@ header blockquote {
     top: 0;
   }
 }
+/* Mermaid diagram styles */
+.mermaid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Mermaid diagram styles */
 .mermaid .flowchart-link {
