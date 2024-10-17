@@ -42,8 +42,8 @@ That's the main minimal tech-stack as a sort of swiss army knife or utility belt
 - **`nix/NixOS`**: Reproducibility redefined—consistency across the code cosmos.
 - **`tmux`**: Command-line conjurer—sessions split, disconnected, and reborn.
 - **`Jupyter Notebooks`**: Code meets canvas—prototype, iterate, illuminate.
-- **`FastHTML`**: From Python thoughts to web realities in a heartbeat.
-- **`Ollama`**: Offline AI, always listening—your local companion in thought.
+- **`FastHTML`**: From Pythonic thoughts to web realities in a heartbeat.
+- **`Ollama`**: Securely listing offline AI—a local companion in thought.
 
 <div class="ascii-alice">
 <pre>
