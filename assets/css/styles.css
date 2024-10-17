@@ -125,6 +125,7 @@ pre code {
 /* Media queries */
 @media (max-width: 768px) {
     #headerTitle {
+        margin-top: 8vw !important;
         font-size: 26vw !important;
     }
 
@@ -445,7 +446,7 @@ footer a {
     justify-content: space-between;
     align-items: center;
     gap: 1rem; /* Space between logos */
-    margin: 1rem 0; /* Keep top and bottom margin */
+    margin: 3vw 0; /* Keep top and bottom margin */
     width: 100%; /* Ensure container takes full width */
 }
 
@@ -465,6 +466,7 @@ footer a {
 @media (max-width: 768px) {
     .logo-container {
         gap: 4vw; /* Reduce gap on mobile, but keep some space */
+        margin: 8vw 0;
     }
 
     .logo-item {
@@ -556,7 +558,7 @@ ol li .post-date {
     color: #fff;
     border: none;
     white-space: pre;
-    font-size: 0.75em;
+    font-size: 1em;
     line-height: 1.2;
 }
 
@@ -566,10 +568,10 @@ ol li .post-date {
     }
 
     .ascii-alice pre {
-        font-size: 2.5vw; /* Increased from 1.8vw */
+        font-size: 2.5vw; /* Keep the mobile size as it was */
         line-height: 1;
-        width: 100%; /* Ensure it takes full width */
-        max-width: none; /* Remove any max-width restrictions */
+        width: 100%;
+        max-width: none;
     }
 }
 
@@ -602,12 +604,6 @@ header blockquote {
   margin-top: 0.5vw; /* Default top margin */
 }
 
-@media (max-width: 768px) {
-  header blockquote {
-    margin-top: 2rem; /* Increased top margin on mobile */
-  }
-}
-
 /* 
  * Mobile Adjustments
  * - Wheel positioning is crucial for alignment
@@ -619,7 +615,7 @@ header blockquote {
     }
 
     header blockquote {
-        margin-top: 3vw; /* Increased top margin on mobile */
+        margin-top: 6vw; /* Increased top margin on mobile */
     }
 }
 

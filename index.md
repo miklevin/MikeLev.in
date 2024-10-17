@@ -19,10 +19,10 @@ group: home
 <div class="lpvg-container">
   <div class="lpvg-list">
     <ul>
-      <li><code>`Linux`</code>: The open-source pulse of global computation.</li>
-      <li><code>`Python`</code>: Language of logic, creativity, and discovery.</li>
-      <li><code>`vim`</code>: Text whisperer—zen efficiency in keystrokes.</li>
-      <li><code>`git`</code>: Memory keeper—track, share & find your way.</li>
+      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The open-source pulse of global computation.</li>
+      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: Language of logic, creativity, and discovery.</li>
+      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Text whisperer—zen efficiency in keystrokes.</li>
+      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Memory keeper—track, share & find your way.</li>
     </ul>
   </div>
   <div class="lpvg-ascii">
@@ -104,3 +104,4 @@ I don't write because I crave an audience or have products to peddle. My words a
     {% endfor %}
   {% endfor %}
 </ol>
+
