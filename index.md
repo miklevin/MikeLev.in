@@ -16,10 +16,26 @@ group: home
 
 # LPvg: Timeless Tech Skills for the AI Age
 
-- **`Linux`**: The open-source pulse of global computation.
-- **`Python`**: Language of logic, creativity, and discovery.
-- **`vim`**: The text whisperer—efficiency bound in keystrokes.
-- **`git`**: The memory keeper—track, share, and never lose your way.
+<div class="lpvg-container">
+  <div class="lpvg-list">
+    <ul>
+      <li><code>`Linux`</code>: The open-source pulse of global computation.</li>
+      <li><code>`Python`</code>: Language of logic, creativity, and discovery.</li>
+      <li><code>`vim`</code>: Text whisperer—efficiency in keystrokes.</li>
+      <li><code>`git`</code>: Memory keeper—track, share & find your way.</li>
+    </ul>
+  </div>
+  <div class="lpvg-ascii">
+    <pre>
+            /)  ___
+      /)\__//  /   \
+  ___(/_ 0 0  |     |
+*(    ==(_T_)==LINUX|
+  \  )   \"\  |     |
+   |__>-\_>_>  \___/
+    </pre>
+  </div>
+</div>
 
 That's the main minimal tech-stack as a sort of swiss army knife or utility belt of tech. You don't need to use it for everything, but it is applicable to everything. With a few more tools, we lower the barrier to entry and make systems reproducible across all hardware. Plus, we'll sprinkle in the free local AI and a Python-centric web development environment.
 

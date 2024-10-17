@@ -466,3 +466,59 @@ ol li .post-date {
   color: #f0f0f0 !important;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
+
+.lpvg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Changed from flex-start to stretch */
+  gap: 1rem;
+  margin-bottom: 1vw;
+}
+
+.lpvg-list {
+  flex: 3; /* Increased flex grow factor */
+}
+
+.lpvg-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lpvg-list li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.lpvg-list li::before {
+  content: "🥕";
+  margin-right: 0.5rem;
+  font-size: 1.2em; /* Adjust size as needed */
+}
+
+.lpvg-ascii {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* This centers the content vertically */
+}
+
+.lpvg-ascii pre {
+  margin: 0;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0;
+  font-size: 0.5em; /* Changed from 0.8em to 0.75em */
+  white-space: pre;
+}
+
+@media (max-width: 768px) {
+  .lpvg-container {
+    flex-direction: column;
+  }
+  
+  .lpvg-ascii {
+    justify-content: center;
+  }
+}
