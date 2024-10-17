@@ -445,7 +445,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem; /* Space between logos */
+    gap: 3vw; /* Space between logos */
     margin: 3vw 0; /* Keep top and bottom margin */
     width: 100%; /* Ensure container takes full width */
 }
