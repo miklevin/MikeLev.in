@@ -5,6 +5,8 @@ description: Embracing Infrastructure as Code for Hardware Freedom and Career Gr
 layout: post
 ---
 
+## Learning Nix Flakes Brings True Hardware Freedom and Career Liberation
+
 The term I've heard that describes what I've been doing lately with Nix Flakes
 is infrastructure as code, but that doesn't do it justice. For the price of
 learning a weird hardware/software system definition language, you get back
@@ -154,6 +156,8 @@ landed on:
 }
 ```
 
+## Nix Flakes Simplify Tech Work By Avoiding Rabbit Holes
+
 As complicated as that may look, grabbing the reins of control is way easier
 than it used to be. The avoidance of rabbit holes is one of the biggest
 guidelines in tech work, because chasing the wrong rabbit down the hole, and
@@ -164,6 +168,8 @@ this is not particularly intuitive. Let's get it commented up by Claude. Hey
 Claude:
 
 
+## Nix Flakes Enable Platform Independence for Individual Developers
+
 Without changing the functionality, flow or really any way this executes at all
 but for allowing comments, please add comments for someone who is totally
 clueless about Nix Flakes. There's a story to be told about platform
@@ -172,15 +178,18 @@ subsystem builder. You can have Nvida hardware acceleration. You can be on a
 Mac. You can even be on Windows (with WSL). It doesn't matter. Full fledged
 systems of the sort you'd need a DevOps team and lots of Docker images for and a
 Kuberneties cluster are now back in the hands of single individuals, like back
-in the days of the Webmaster. It's now sort of like the DevOps Master. Tell an
-empowering and engaging story as you insert the comments throughout this Nix
-Flake. You don't have to know Nix or NixOS to get its benefit. You just have to
-get a folder onto your machine and type nix develop in a terminal cd'd into that
-folder, and you're golden. Your machine becomes a server hosting local web apps
-on your machine, for example, enabling powerful data science environments like
-the one shown here, or for web development or whatever. It's great for team
-collaboration where only one or two people needs the Nix Flake-making ability,
-and everybody else gets the benefit.
+in the days of the Webmaster. 
+
+## Nix Flakes Make DevOps Accessible to Everyone Else
+
+It's now sort of like the DevOps Master. Tell an empowering and engaging story
+as you insert the comments throughout this Nix Flake. You don't have to know Nix
+or NixOS to get its benefit. You just have to get a folder onto your machine and
+type nix develop in a terminal cd'd into that folder, and you're golden. Your
+machine becomes a server hosting local web apps on your machine, for example,
+enabling powerful data science environments like the one shown here, or for web
+development or whatever. It's great for team collaboration where only one or two
+people needs the Nix Flake-making ability, and everybody else gets the benefit.
 
 Certainly! I'll add comments to the Nix Flake file to tell an engaging story about its capabilities and benefits. Here's the updated file with comments:
 
@@ -373,9 +382,7 @@ Write an introductory few paragraphs that covers all this for an audience that c
 
 Claude: Absolutely! I'll create an introductory section and then update the Nix Flake with more comprehensive comments. Let's start with the introduction:
 
-
-
-
+---
 
 # Revolutionizing Development Environments with Nix Flakes
 
@@ -589,6 +596,8 @@ made)
       });
 }
 ```
+
+## Understanding Nix Flakes and Their Essential Components Updated
 
 These updates provide a more comprehensive explanation of the Nix Flake and its components. The introduction gives context to what Nix Flakes are and why they're valuable, while the updated comments in the Flake itself provide more detailed explanations of each section and its purpose.
 
