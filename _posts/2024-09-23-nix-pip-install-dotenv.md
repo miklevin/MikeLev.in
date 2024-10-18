@@ -5,7 +5,11 @@ description: Leverage NixOS and Nix with pip to install python-dotenv for managi
 layout: post
 ---
 
+## Building A Python Environment In Nix Requires Some Workarounds
+
 While **Nix** is flexible, you still must manage software and dependencies the Nix way to reap its benefits. That deterministic re-building of the exact same environment is the point, after all. However, when you're building a Python environment, you might need to use libraries that aren't yet in the Nix package management system, such as `fast-html`. The obvious solution is to simply `pip install` them the classic (non-Nix) way. The previous article covered the basic template to do that.
+
+## Keeping Pip Installs Nix-Like Without Nix Packages
 
 Even when you need packages that aren't yet in the Nix package management system, there are many options within Nix to keep your pip installs Nix-like, such as `mach-nix`, `poetry2nix`, `dream2nix`, or packaging them in the Nix packaging system yourself. You can package them within your flake using `buildPythonPackage` in combination with `fetchPypi` or `fetchFromGitHub`, so there is no shortage of options to still do it the Nix way. However, I found all these options excruciating and ended up just wanting to pip install.
 
@@ -232,6 +236,8 @@ OLLAMA_API_URL=http://localhost:11434/api/chat
 OLLAMA_MODEL=llama3.1
 ```
 
+## Hiding API Keys and Client Secrets in Code
+
 Now, remove direct references to the endpoint and model from the chat code to "hide a secret." Most of the time, this involves API keys and client secrets, but since you don't need one for Ollama, this antipattern demonstrates how to externalize any configuration. It's also a great way to handle local configurations without dealing with JSON.
 
 ```python
@@ -284,6 +290,8 @@ while True:
 print("Conversation ended.")
 ```
 
+## Environment Variables Externalized From Git Repository
+
 And there you have it! Anything that might be **a secret** has been **externalized** to a file that is kept out of the git repo and can be used to set whatever environment variables you need.
 
 ## Handling User Input for Secrets (enter FastHTML)
@@ -333,9 +341,13 @@ def post(secret: str):
 serve()
 ```
 
+## Embracing Unconventional Approaches to Modern Web Development Techniques
+
 This code offers an interesting blend of simplicity and unconventional approaches, showcasing both modern web development techniques and some practices that, while unconventional, could be evolving into new best practices. It uses dynamic imports, route decorators, and environment management in ways that are concise and readable, but with trade-offs that aren't always seen in larger production codebases. While **wildcard imports** and multiple `load_dotenv()` calls may raise eyebrows in more traditional settings, they are used here effectively in a minimalistic, self-contained application. Thank you [Jeremy Howard](https://www.youtube.com/@howardjeremyp) for your unconventional thinking, bravery and initiatives.
 
 > A lot of Python coders recommend avoiding importing a whole library like this (using the import * syntax) because in large software projects it can cause problems. However, for interactive work such as in a Jupyter notebook, it works great. The fastai library is specially designed to support this kind of interactive use, and it will import only the necessary pieces into your environment.
+
+## Understanding the Abstracted Nature of the Code
 
 This code challenges conventional wisdom by directly modifying environment files and handling server-side logic in a highly abstracted way, reflecting a move toward simpler, more expressive frameworks that aim to minimize boilerplate while delivering functional results quickly. By taking a closer look at its components, we can see how some anti-patterns—like of wildcard imports and lack of PHP-style jinja nunjucks—might be giving way to new, flexible practices in the context of lightweight, evolving applications.
 
