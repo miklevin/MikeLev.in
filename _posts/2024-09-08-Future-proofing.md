@@ -107,6 +107,8 @@ you won't become obsolete. LPvg skills may not be as trendy or seemingly
 valuable as the current fad, but they will keep your skills relevant and provide
 an alternative to popular approaches, offering some freedom from vendor lock-in.
 
+## The Foundations of Tech: Good Enough Tools for Everyone
+
 No matter how jazzed up or convenient power-tools become, you'll notice an
 underlying system of Linux, Python, vim, and git that even they rely on. Windows
 and Mac strive to be Linux for the developer. All text editors offer a vim
@@ -121,6 +123,8 @@ for the average person.
 It's not always smooth sailing. The carpet can be pulled out from under you, no
 matter how well you prepare. The idea is to make smart choices, so a good deal
 of what you know and your hard-won muscle memory and habits remain applicable.
+
+## Falling Out of Love with Hardware, Finding Magic Again
 
 I fell in love with the Amiga Computer some 30 years ago and have been trying to
 recapture that magic ever since. I've concluded that you shouldn't fall in love
