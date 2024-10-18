@@ -189,8 +189,6 @@ lead-up to this prompt.
 
 ## Please Provide Me Meticulous Documentation Rife With Code Examples
 
-# Take 1
-
 **Me**: While I agree with everything you told me, plan-wise, my first step has got
 to be looping the LLM into every single action the user takes with the software.
 This means if they toggle something, I want the LLM to know which record they
@@ -229,7 +227,9 @@ by step plan, taking as much time and granular steps as you think is necessary
 to guide the person who created this system, but is still somewhat new to OO
 design, through the getting me from here to there. Please and thank you!
 
-**o1-preview**: # Enhancing Your Application with LLM-Aware CRUD Operations
+**o1-preview**:
+
+# Enhancing Your Application with LLM-Aware CRUD Operations
 
 In this guide, we'll integrate your application's CRUD operations with a Large Language Model (LLM) to provide real-time, context-aware feedback to the user. By the end, your LLM will comment on every action the user takes, making interactions more engaging and informative.
 
@@ -550,11 +550,11 @@ Feel free to reach out if you have any questions or need further assistance!
 
 ---
 
-# Take 2
-
 **Me**: I have changed the title field to name in the tasks table so as to allow the BaseApp to use the same query to retrieve the name for either TodoApp or ProfileApp if only given the record ID. This is intended to unify and simplify the BaseApp's requirements to get the name on records for its prompt responses when the user action only has an ID. Please revise the code examples and provide commentary exploring the issues this raises.
 
-**o1-preview**: # Revising the Code to Use a Unified `name` Field
+**o1-preview**:
+
+# Revising the Code to Use a Unified `name` Field
 
 You've decided to rename the `title` field to `name` in the `tasks` table to unify the way the `BaseApp` class retrieves item names. This change allows the `BaseApp` to use the same logic for both `TodoApp` and `ProfileApp` when constructing prompts for the LLM, simplifying the codebase.
 
@@ -863,8 +863,6 @@ Always ensure that any schema changes are carefully planned, with data migration
 ---
 
 Feel free to reach out if you have further questions or need assistance with implementing these changes!
-
-# Take 3
 
 **Me**: I think semantically, the "name" of a task makes perfect sense. However, the solution you bring up with dynamic field access is exactly the type of thing I wanted to ferret out in this early stage planning of the web framework. So please give me one more round of instructions or simply expand on the instructions you already gave me (which have been CRUD-focused) to include modifications to the BaseApp, TodoApp and ProfileApp. I would like to make all the changes with a unified view in mind, and I would like to implement the Dynamic Field Access you suggest by which each derived class has an opportunity to define its own name field in such a way that the BaseApp's job remains simplified. Please and thank you! Here is the codebase again, with the field name change. I will keep todo title named name, but give me the flexibility as if it were still named title.
 
