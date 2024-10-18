@@ -1242,12 +1242,16 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push origin main
 GIT_SSH_COMMAND="ssh -i ~/.ssh/botifython_develop" git push
 ```
 
+## Switching to Pipulate for Work Development and Productivity
+
 Okay, so I'm probably going to have to set up git `config` or an alias, but I'm
 pretty much switching my pipulate/botify development over to this location
 because I have to use it bigtime at work and I have to form the right habits.
 Pipualte is great, but Botifython pays the bills. There will have to be a little
 public exposure of this thing... or does there? It can actually be a private
 repo now. 
+
+## Creating New Private Repository After Forking Original Account
 
 Ugh! You can't switch a forked repo to private! Okay, `rm -rf .git`, git init,
 yadda yadda... some id_rsa key swaparoo, and viola! Pushing to a new private
@@ -1256,10 +1260,14 @@ my private miklevin account, and I'll probably tie them together somehow. But
 it's all about work right now, so I'll document stuff here, but some of the
 nitty gritty will be behind closed doors.
 
+## Overcoming SSH Deployment Hurdle with Git Configuration Simplification
+
 Okay, confirmed. The deploy key can clone the repo and the develop key can push
 back up, and I don't have to shuffle around .ssh folders. I just have to make
 git config files or aliases for commands. But this is a major hurdle I'm
 overcoming. This is potentially quite big.
+
+## Delivering First Nix Package for Private Repository Setup
 
 Okay, because it's a private repo, I have to "deliver" the first package. That
 package can be something I just download manually as a zip from the private repo
@@ -1269,6 +1277,8 @@ terminal and type nix develop. That should be it.
 
 This is some powerful magical incantations. I'm getting the incantations down to
 a minimum, essentially.
+
+## How to Hide Private Keys from GitHub Security Systems
 
 Okay, now how to put a private key in a github repo and not have their security
 systems flag it. There's all sorts of encryption, but I'm going to go for the
@@ -1291,6 +1301,8 @@ nix flake update
 nix develop
 python botifython.py
 ```
+
+## Nix and FastHTML Revolutionize Web Development with Their Breakthroughs
 
 OMG, this is going to be so awesome. So that's all htat's needed, those 3 files.
 Things are really changing. Thank you Eelco Dolstra who created Nix, and Jeremy
@@ -1553,6 +1565,8 @@ check with Cursor AI... BAM!
       });
 }
 ```
+
+## Self-Updating App Brings Git Repositories to Non-Git Projects Easily
 
 Now I've got a self-updating app. If it was git cloned originally, it will just
 start git pulling to update. If it was made from an uncompressed .zip download
