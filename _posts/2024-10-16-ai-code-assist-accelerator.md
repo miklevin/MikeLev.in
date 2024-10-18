@@ -7,6 +7,8 @@ date: 2024-10-15
 sort_order: 2
 ---
 
+## Moving Nix OS Configuration to Code AI Repository
+
 Okay, I paid my $20 for the first month of Code AI. I'm jumping on that
 particular bandwagon. There's a trick I'm trying to achieve. I used to have a
 folder called github, because all my git projects ended up there, and it seemed
@@ -14,6 +16,8 @@ logical to bind the concepts together. Then I realized it was a vendor and I
 renamed the folder repos. It's a good datatype name, like todos or dirs. And so
 I'm moving my symlink of `/etc/nixos` from `~/nixos-config` to `~/repos/nixos`.
 And if that made sense to you, I've reached a very niche audience. 
+
+## NixOS Brings Back Amiga's Packaging Ease to Modern Linux Users
 
 NixOS captures a bit of that ol' Amiga Computer feeling. I'm going to be able to
 use it to chip off flakes of nix an send 'em around. And by that I mean I will
