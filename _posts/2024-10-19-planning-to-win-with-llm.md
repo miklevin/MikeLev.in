@@ -8,7 +8,7 @@ sort_order: 1
 date: 2024-10-18
 ---
 
-## The Power of AI and Human Experience in Investing
+## The Power of AI and Human Experience in Planning
 
 Failing to plan is planning to fail. Yeah, that's pretty much been me into my
 mid-50s, but not for lack of trying. Sob story, boo hoo... fast forward to the
