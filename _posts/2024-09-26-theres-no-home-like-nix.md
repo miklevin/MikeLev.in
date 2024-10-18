@@ -742,6 +742,8 @@ def increment():
 serve()
 ```
 
+## The Rise of Interpreted Languages in Web Development
+
 Look, no JavaScript! And no CSS for that matter. And no build procedure. Just
 change the code in the file, go refresh the page, see your changes! This is the
 "build vs. no-build" or "compiled vs. interpreted" debate in web development.
@@ -841,6 +843,8 @@ def post(secret: str):
 # Start the server
 serve()
 ```
+
+## Our New Building Blocks Are Here To Be Documented Thoroughly
 
 And THAT is our new building blocks! The whole thing is documented at the
 [fastht.ml](https://www.fastht.ml/) website. And this is where I'm making my own
