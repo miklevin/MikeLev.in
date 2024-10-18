@@ -1,7 +1,7 @@
 ---
 title: Local LLM Web Framework Integration Plan
 permalink: /local-llm-web-framework-integration-plan/
-description: "Discover how integrating a local LLM, vector database, and SQL database on a local host transforms software development. Explore building self-aware systems that interact with developers, execute functions, and improve over time, making AI an active participant in its own design."
+description: "Collab with o1-preview to design a local LLM, vector database, and SQL database on a local host to transform software development. Explore building self-aware systems that interact with developers, execute functions, and improve over time, making AI an active participant in its own design."
 layout: post
 sort_order: 1
 ---
