@@ -26,6 +26,8 @@ they actually websites in a bottle. That bottle being `localhost:5001`. All
 Electron software like VSCode, Slack... well, let me let ChatGPT 4o summarize it
 for you:
 
+## Electron Apps Work Like Little Web Servers Inside
+
 Yes, Electron apps do function in a way that is somewhat analogous to running a
 little web server, though it’s not exactly the same as a traditional web server
 like Apache or Nginx.
@@ -57,7 +59,7 @@ Here's how it works:
 
 But this isn’t true for all Electron apps. Most of them just use Chromium and Node.js to handle their logic without explicitly setting up a web server.
 
-### Summary:
+## How Electron Apps Differ From Traditional Web Applications
 
 While Electron apps work similarly to web apps by rendering content with
 Chromium and using JavaScript for logic, they don’t actually run a standalone
@@ -68,12 +70,16 @@ exception than the rule.
 
 ---
 
+## Electron Allows Developers To Build Desktop Apps Like Web Apps
+
 So you see "web app development" as a means of bringing web-like software to
 your desktop has been around for awhile. But they involve buying into Electron
 and all it entails. Electron is an extraction from Google's FOSS version of
 Chrome, called Chromium. Since a browser is free and open source, the community
 felt free to make an application development package out of it. So everything
 written in Electron is much like a Web app, only installed.
+
+## Why I Code with Python Even When JavaScript Rules the Browser
 
 I am not a JavaScript developer. I am a Python one. I do not code because I
 could choose any platform but choose Python. No, I code because Python makes
@@ -84,6 +90,8 @@ because I'm bringing a Python webserver in a bottle serving a `localhost` app to
 your browser. That's how Jupyter Notebooks, the free and open source original
 from Project Jupyter, work.
 
+## Learning to Use Cursor AI for Efficient Text Editing
+
 Ah Notebooks. And now back to the original point, drinking the Cursor AI
 Koolaid. Yeah, I wanted to snub and poopoo it at first. I can't even stand
 VSCode, being a vim/NeoVim person and just not feeling I need something running
@@ -92,6 +100,8 @@ yup. A good API makes all the difference. And now, I'm figuring out how to use
 it correctly. "Open Folder" as if it were a document, you say? Like VSCode
 Workspaces? In a text editor? Uh, more like "open a file" I say. You don't have
 any job looking at my whole folder; that's not in your scope... oh. I get it.
+
+## Using a `nixos` git Repo Folder as `dotenvs` Deluxe
 
 So what I'm doing is moving the single text-file that determines my entire
 computer system, everything I need to built it from scratch on today's and
@@ -108,6 +118,8 @@ software's macro and keyboard shortcut system, only for that software to go away
 somehow and all your skills become obsolete? You know that feeling? Yeah, I'm an
 Amiga Computer fan. I could have made a career of my Amiga expertise, and it all
 got lost with the platform from the 80s I loved. 
+
+## Continuous Tiny `init.lua` Improvements 
 
 It's funny that `vim` was made first for the Amiga back in the early 90s by
 Braham Molenaar, RIP. I've always wanted to get into that file more and expand
@@ -145,11 +157,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
  And now I rebuild my NixOS system.
 
+## Editing My init.vim File Causing Issues with Cursor AI
+
  I close all my terminals to make sure none that may not have the new symlinks
  active aren't around. I open a new window, load a file and see if my macros are
  still there... they are! Good! And now I go open Cursor AI and see if I can see
  my `init.vim` in Cursor... I can, oh, but all those embedded binary control
  sequences! Uh oh! This is a hiccup. I can't edit my init.vim file in Code AI!
+
+## I May Abandon Vimscript in Favor of NeoVim.
 
  If I can't work this out, I think the old vimscript way of doing macros may
  become part of my past, and I may make my journey to NeoVim a permanent one.
@@ -162,6 +178,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
  on the popular fork of vim rather than the original. The benefit of having AI
  assistance on the configuration file of my text editor is too big a win to walk
  away from, much like using Cursor AI itself.
+
+## Using Directory Resources for AI Training and Optimization
 
 Okay, beware the rabbit holes here. Just start a process of consolidating every
 directory resource you don't mind AIs seeing into the `~/repos/` folder to get
@@ -213,14 +231,16 @@ this story and allowing me to learn from it!
 
 ---
 
+## Avoiding Time Wasted on Complex Vimscript Encodings Becomes Necessary
+
 Okay, avoid rabbit holes now. You can't afford the time anymore. Think through
 your next steps carefully. Already, I feel the desire for AI assistance on my
 `init.vim` which is being cleverly denied to me through complex vimscript
 encoding. But I have it in my easy to access repos folder now.
 
-Me: You can't see the vim control codes in this because copy/paste. But I used to be on vim and have now moved to nvim. The control codes in my init.vim can't get AI coding assistance for the very reasons we are encountering here. Can you analyze this and see if we can move it to a macro system more editable under NeoVim?
+**Me**: You can't see the vim control codes in this because copy/paste. But I used to be on vim and have now moved to nvim. The control codes in my init.vim can't get AI coding assistance for the very reasons we are encountering here. Can you analyze this and see if we can move it to a macro system more editable under NeoVim?
 
-o1-mini: Transitioning from Vim to NeoVim is a great move, especially considering NeoVim's enhanced features and extensibility, particularly with Lua-based configurations. Your `init.vim` contains various settings and macros that can indeed be streamlined and made more maintainable, which can improve compatibility with AI coding assistance tools. Below, I’ll provide an analysis of your current configuration and guide you through migrating it to a Lua-based `init.lua` setup. This approach will enhance readability, maintainability, and compatibility with modern NeoVim plugins and AI tools.
+**o1-mini**: Transitioning from Vim to NeoVim is a great move, especially considering NeoVim's enhanced features and extensibility, particularly with Lua-based configurations. Your `init.vim` contains various settings and macros that can indeed be streamlined and made more maintainable, which can improve compatibility with AI coding assistance tools. Below, I’ll provide an analysis of your current configuration and guide you through migrating it to a Lua-based `init.lua` setup. This approach will enhance readability, maintainability, and compatibility with modern NeoVim plugins and AI tools.
 
 ## **1. Analysis of Your Current `init.vim`**
 
@@ -676,11 +696,11 @@ o1-mini, probably for copy/past weird files and no falult of its own, left out a
 lot of stuff on its first attempt. So I turn to Claude 3.1 Sonnet which is
 allowing file uploads, which I'll provide my original unaltered `init.vim`...
 
-Me: Resolve this first attempt at moving to init.lua by identifying what was
+**Me**: Resolve this first attempt at moving to init.lua by identifying what was
 left out from the first attempt and giving me another version that will fix
 it...
 
-Claude: Thank you for providing the initial attempt at converting the `init.vim` to `init.lua`. I'll identify what was left out and provide an improved version that addresses these omissions. Here's an updated `init.lua` that includes the missing elements and some improvements:
+**Claude**: Thank you for providing the initial attempt at converting the `init.vim` to `init.lua`. I'll identify what was left out and provide an improved version that addresses these omissions. Here's an updated `init.lua` that includes the missing elements and some improvements:
 
 
 
@@ -851,9 +871,9 @@ This updated version should now include all the functionality from the original 
 
 Is there anything specific you'd like me to explain or modify further?
 
-Me: Take out the Obsidian and Copilot stuff.
+**Me**: Take out the Obsidian and Copilot stuff.
 
-Claude: Certainly, I'll remove the Obsidian and Copilot-related configurations from the `init.lua` file. Here's the updated version:
+**Claude**: Certainly, I'll remove the Obsidian and Copilot-related configurations from the `init.lua` file. Here's the updated version:
 
 
 
@@ -991,9 +1011,9 @@ This version of the `init.lua` file now excludes all Obsidian and Copilot-relate
 
 Is there anything else you'd like me to modify or explain about this configuration?
 
-Me: Show me how to switch nvim to use my new init.lua at /home/mike/repos/nixos/init.lua
+**Me**: Show me how to switch nvim to use my new init.lua at /home/mike/repos/nixos/init.lua
 
-Claude: To switch Neovim to use your new `init.lua` located at `/home/mike/repos/nixos/init.lua`, you'll need to modify your NixOS configuration. Here's how you can do it:
+**Claude**: To switch Neovim to use your new `init.lua` located at `/home/mike/repos/nixos/init.lua`, you'll need to modify your NixOS configuration. Here's how you can do it:
 
 
 
@@ -1040,13 +1060,13 @@ To apply these changes:
 
 After applying these changes and rebuilding your system, Neovim will use your new `init.lua` file located at `/home/mike/repos/nixos/init.lua`.
 
-Note: Make sure that the path `/home/mike/repos/nixos/init.lua` is correct and that the file exists before rebuilding your system. If the file doesn't exist or the path is incorrect, Neovim might fail to start or use a default configuration.
+**Note**: Make sure that the path `/home/mike/repos/nixos/init.lua` is correct and that the file exists before rebuilding your system. If the file doesn't exist or the path is incorrect, Neovim might fail to start or use a default configuration.
 
 Is there anything else you'd like me to explain or modify regarding this configuration?
 
-Me: Show me how to switch nvim to use my new init.lua at /home/mike/repos/nixos/init.lua (gave Claude my `configuration.nix`)
+**Me**: Show me how to switch nvim to use my new init.lua at /home/mike/repos/nixos/init.lua (gave Claude my `configuration.nix`)
 
-Claude: To switch Neovim to use your new `init.lua` located at `/home/mike/repos/nixos/init.lua`, you'll need to modify your NixOS configuration. Here's how you can do it:
+**Claude**: To switch Neovim to use your new `init.lua` located at `/home/mike/repos/nixos/init.lua`, you'll need to modify your NixOS configuration. Here's how you can do it:
 
 
 
@@ -1093,7 +1113,7 @@ To apply these changes:
 
 After applying these changes and rebuilding your system, Neovim will use your new `init.lua` file located at `/home/mike/repos/nixos/init.lua`.
 
-Note: Make sure that the path `/home/mike/repos/nixos/init.lua` is correct and that the file exists before rebuilding your system. If the file doesn't exist or the path is incorrect, Neovim might fail to start or use a default configuration.
+**Note**: Make sure that the path `/home/mike/repos/nixos/init.lua` is correct and that the file exists before rebuilding your system. If the file doesn't exist or the path is incorrect, Neovim might fail to start or use a default configuration.
 
 Is there anything else you'd like me to explain or modify regarding this configuration?
 
