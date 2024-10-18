@@ -10,12 +10,14 @@ date: 2024-10-18
 
 ## The Power of AI and Human Experience in Planning
 
-Failing to plan is planning to fail. Yeah, that's pretty much been me into my
-mid-50s, but not for lack of trying. Sob story, boo hoo... fast forward to the
-rise of AI and mentors all around. Yeah, so they're not humans and don't have
-the same nuanced human perspective, but they have the wisdom of the crowd
-distilled down and ready to re-spin 1000 different ways on demand. If people
-have done it before that way and documented it online, and there's a
+Failing to plan is planning to fail. But now LLMs can help us plan, reducing a
+lot of the cognitive friction of planning, especially getting the ball rolling.
+Yeah, so they're not humans and don't have the same nuanced human perspective,
+but they have the wisdom of the crowd distilled down and ready to re-spin 1000
+different ways on demand. There's a lot of scenario-playing in planning, and LLM
+can be a good sounding board.
+
+If people have done it before that way and documented it online, and there's a
 preponderance of evidence making the LLM believe that's truth, then it's yours
 for the picking. That's really wonderful for common, well proven programming
 patterns for example, but it's not going to show you how The Renaissance
