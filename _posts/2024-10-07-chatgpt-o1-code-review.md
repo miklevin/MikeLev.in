@@ -5,10 +5,14 @@ description: Building the next generation of Pipulate with FastHTML has been cha
 layout: post
 ---
 
+## App Development Progress Continues with Methodical Review and Planning
+
 Now it's time to step through the app methodically and look for weak points. I
 still haven't implemented login, as this is a 1-tenant app for now. I'll put
 login in eventually and make sure things like session are implemented in a
 multi-user friendly way for real web deployment.
+
+## The Next Generation Pipulate Has Arrived With Its Challenges
 
 The next generation Pipulate is basically born. I have overcome some crazy
 hurdles and feel there shouldn't have been those hurdles because FastHTML is
@@ -17,6 +21,8 @@ it is, is weird. Updating fragments of a page is full of nuance and subtlety.
 Many things are, but encountering all of it as hurdles to a first project on a
 new platform can be daunting. I had to back up, pivot and refactor more than
 once. But I did it and found a sweet spot. A very, very sweet spot.
+
+## Working at High Speed Requires Quick Understanding and Competency
 
 Now I'm not doing screenshots and videos here, though that would help a lot with
 what I'm talking about, but I'm going as fast and furious as I can. Working fast
@@ -28,9 +34,13 @@ that I don't really have yet. New stuff tossed in:
 
 I had a few big learnings.
 
+## FastHTML Meets User Needs with Built-In Streaming Features
+
 Two of the things I need most, the capability for streaming messages to the user
 doing long-running jobs, and fairly robust database and persistence, are just
 built into FastHTML, but... but... but... key features are experimental.
+
+## Python Becomes the Next Logical Evolution in Web Frameworks
 
 Ugh, here I am on the bleeding edge again, because the payoff of some kooky tech
 is worth it. And to think how mainstream the tech really is that's in the
@@ -41,6 +51,8 @@ elements they bind to, add built-in database access, chat-like streaming
 messages through WebSockets... wow, it should really be a check-list, huh? It's
 pleasing parts like HTMX and happy Starlette middleware over an asynchronous
 high performance, scalable Uvicorn webserver. 
+
+## Creating Single-User FastHTML Development Environments with Ease
 
 Is it ready for prime time? Certainly not the documentation. So let me provide
 some to one of the most interesting and surprising things I encountered. What
@@ -56,6 +68,8 @@ desktop. You don't have to share. Make cool, private stuff. Earn money having
 super-powers wiring things together and selling them as canned apps, or
 capability extenders that would normally have to be websites, but don't.
 
+## Understanding Local Linux Subsystems for Web Development
+
 That was a revelation, so when you hear me talk about this work or webdev in
 general, what you're hearing me talk about is this 100% private and local, but
 still eminently shareable flakes or shards or wholly functional plug-in Linux
@@ -69,6 +83,8 @@ programs. Rather than clicking on an icon on a desktop, the user starts programs
 by typing things into the command-line. This is an important enabler for those
 just getting started down this kind of old school future-proofing path.
 
+## Understanding the Importance of Setting Your Current Directory
+
 The concept of `cd`'ing into a directory is important. Directories are folders.
 Same thing. Desktop environments have predisposed our thoughts on these matters.
 But most things are represented as files in folders or directories you can move
@@ -78,7 +94,9 @@ different development environments. A development environment that's
 
 And now finally we get to the Pipulate sofware itself.
 
-Me to ChatGPT o1-preview: Break this down into a markdown document going point
+## Exploring the Unconventional Aspects of Web Development with ChatGPT
+
+**Me to ChatGPT o1-preview**: Break this down into a markdown document going point
 by point over all the noteworthy, surprising and often anti-pattern things you
 find in here. Feel free to show code snippets of the special ways this or that
 was handled and addressed. Include the triple backtick python fencing for good
@@ -552,7 +570,7 @@ The provided code showcases an innovative approach by integrating an LLM into a 
 
 ---
 
-Me: If you had an opportunity to prompt the Anthropic Claude 3.5 Sonnet
+**Me**: If you had an opportunity to prompt the Anthropic Claude 3.5 Sonnet
 integrated into the Cursor AI editor that has access to this code, what is the
 series of prompts you would issue to Claude to carry out a series of progressive
 one-shot improvements. Knowing it won't be able to get everything at once and
@@ -564,7 +582,7 @@ way through the things you would like to see it tackle in the order it should
 most logically do them. Form your answers copy/paste ready for an AI ready to
 edit this program.
 
-ChatGPT o1-preview: Here are a series of prompts you can issue to Claude to progressively improve the code with small, discrete changes. These prompts are designed to tackle specific issues without causing significant refactoring, ensuring the application's fragile components remain intact.
+**ChatGPT o1-preview**: Here are a series of prompts you can issue to Claude to progressively improve the code with small, discrete changes. These prompts are designed to tackle specific issues without causing significant refactoring, ensuring the application's fragile components remain intact.
 
 ---
 
@@ -718,6 +736,8 @@ NAME	ID	SIZE	PROCESSOR	UNTIL
 
 [mike@nixos:~/repos/pipulate]$
 ```
+
+## Llama Service Re-Activates After Quitting on Linux System
 
 And when it's installed, it turns back on when it sees a request. It's not the
 little llama in the task menu like on Mac. I will probably have to figure out

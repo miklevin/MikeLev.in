@@ -5,6 +5,8 @@ description: Comming to grips with how opinionated a framework FastHTML really i
 layout: post
 ---
 
+## Building a Framework With Nix and Python Is Next Steps
+
 Every day is a discovery process. I'm recalibrating myself to a new tech
 reality. The fact everything has become so complex, unreproducible, and driving
 you into vendor dependency and paying for everything drove me to discover NixOS
@@ -126,7 +128,7 @@ This looks like a job for Perplexity!
 
 ---
 
-Me: Tell me the background on the Python http library. Why so many libraries and
+**Me**: Tell me the background on the Python http library. Why so many libraries and
 numbers in their names? And how does Requests fit in? 
 
 Perplexity.AI: The Python HTTP ecosystem has evolved over time, leading to multiple libraries with different names and version numbers. Here's some background on the situation:
@@ -228,7 +230,7 @@ well, let me let Perplexity explain.
 
 ---
 
-Me: Can you explain to me Pyton's WSGI and now ASGI? And what's uvicorn, and
+**Me**: Can you explain to me Pyton's WSGI and now ASGI? And what's uvicorn, and
 what did it replace, and why is it suddenly now so popular? And for that matter,
 what's Starlette, and what happened to Flask?
 

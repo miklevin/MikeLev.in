@@ -593,10 +593,14 @@ the apps already exist in other forms other places, and doing the means of
 distribution and delivery was the hard part. And that's done, right down to the
 github auto-updating! Think about forking a development branch.
 
+## I'm Looking to Recapture the Intensity of My Late 20s Work
+
 I've been leaning on a coworker heavily for support on the client-facing front,
 actually multiple coworkers and I've been doing that for weeks really, but that
 truly intense period is over. It felt good and I want to recapture that
 intensity, which itself was a recapture of a type of work I did in my late 20s.
+
+## Reigniting My Creative Passion Through Client Work
 
 The client work is anticlimatic in comparison, but I can make it loveworthy by
 internalizing the client's issues and using that to help shape the Botifython

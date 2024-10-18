@@ -8,9 +8,9 @@ sort_order: 1
 
 ## Defining Old Fashioned Web Frameworks
 
-Me: What is the general term for a Ruby on Rails or Django-like system?
+**Me**: What is the general term for a Ruby on Rails or Django-like system?
 
-Perplexity: The general term for systems like Ruby on Rails or Django is "web application framework" or simply "web framework"[1][2][3].
+**Perplexity**: The general term for systems like Ruby on Rails or Django is "web application framework" or simply "web framework"[1][2][3].
 
 Web application frameworks are software frameworks designed to support the development of web applications, including web services, web resources, and web APIs. They aim to alleviate the overhead associated with common activities performed in web development[1][3].
 
@@ -46,9 +46,9 @@ Citations:
 
 ## Fundamentially RAG-ified Web Framwork
 
-Me: Figure out the best way for me to incorporate RAG into this. The system will eventually have the ability to receive uploaded files or simply access files on the system on which it resides. Additionally, I want every action the user takes to go into the data. Currently, the chatq function loops the LLM into many actions and it will soon know everything such as the state fields are toggled to and all the granular detailed actions a user can take through the plugin apps, menus and all UI. So we can keep pouring what users did into RAG retrieval. The types of files the system will digest are CSVs and probably a lot of text documents. All this could be suitable for model training and fine tuning later on, but in the sort term should go into a rag system so searches can improve and queries to the LLM regarding how to use the product continuously improve. Here's the program. 
+**Me**: Figure out the best way for me to incorporate RAG into this. The system will eventually have the ability to receive uploaded files or simply access files on the system on which it resides. Additionally, I want every action the user takes to go into the data. Currently, the chatq function loops the LLM into many actions and it will soon know everything such as the state fields are toggled to and all the granular detailed actions a user can take through the plugin apps, menus and all UI. So we can keep pouring what users did into RAG retrieval. The types of files the system will digest are CSVs and probably a lot of text documents. All this could be suitable for model training and fine tuning later on, but in the sort term should go into a rag system so searches can improve and queries to the LLM regarding how to use the product continuously improve. Here's the program. 
 
-o1-preview: To incorporate Retrieval Augmented Generation (RAG) into your existing application, you'll need to implement a system that can:
+**o1-preview**: To incorporate Retrieval Augmented Generation (RAG) into your existing application, you'll need to implement a system that can:
 
 1. **Ingest and index user actions and uploaded files** (CSVs, text documents).
 2. **Retrieve relevant context** from this data when a user interacts with the chatbot.
@@ -438,9 +438,9 @@ By following these steps, you'll integrate RAG into your application, enhancing 
 
 ## Edit My Infrastructure as Code File for RAG
 
-Me: Here's my system. Help me take the next step preparing it for your recommendation. 
+**Me**: Here's my system. Help me take the next step preparing it for your recommendation. 
 
-o1-preview: Certainly! Let's take the next step to prepare your system for integrating Retrieval Augmented Generation (RAG) into your application, as per my previous recommendations. I'll guide you through modifying your Nix Flake configuration and your application code to incorporate the necessary dependencies and set up your development environment accordingly.
+**o1-preview**: Certainly! Let's take the next step to prepare your system for integrating Retrieval Augmented Generation (RAG) into your application, as per my previous recommendations. I'll guide you through modifying your Nix Flake configuration and your application code to incorporate the necessary dependencies and set up your development environment accordingly.
 
 ---
 
@@ -827,9 +827,9 @@ Feel free to ask if you have any questions or need further assistance with any o
 
 ## Covering My Bases
 
-Me: What have I missed? Be gentle. I am not a professional developer nor a machine learning or AI professional. I am gluing things together with Python parts and have been doing so for many years. My skillset is about that represented by the web framwork I just showed you, and even that was with considerable AI support. This is not designed necessarily to be a Web hosted application, but rather something that people of even less technical skills than me are supposed to be able to run on their destkop with a `nix develop`, get the web app, start using, uploading files, asking for deliverables to be produced by the system which are also digested, and have the search feature and LLM knowledge, expertise and advice just improve and improve. These are little "islands" of awesome which may eventually have their distributed nature unified in a centralized repository, but in the immediate term I just need for each instance to improve. First of all, does this approach make sense? Second of all, am I over-complicating or making things harder for myself and the users? Thirdly, what am I missing so that it can be more effective in its intended purpose without what you're asking me to do exceeding the skill-level that I suggest that I have?
+**Me**: What have I missed? Be gentle. I am not a professional developer nor a machine learning or AI professional. I am gluing things together with Python parts and have been doing so for many years. My skillset is about that represented by the web framwork I just showed you, and even that was with considerable AI support. This is not designed necessarily to be a Web hosted application, but rather something that people of even less technical skills than me are supposed to be able to run on their destkop with a `nix develop`, get the web app, start using, uploading files, asking for deliverables to be produced by the system which are also digested, and have the search feature and LLM knowledge, expertise and advice just improve and improve. These are little "islands" of awesome which may eventually have their distributed nature unified in a centralized repository, but in the immediate term I just need for each instance to improve. First of all, does this approach make sense? Second of all, am I over-complicating or making things harder for myself and the users? Thirdly, what am I missing so that it can be more effective in its intended purpose without what you're asking me to do exceeding the skill-level that I suggest that I have?
 
-o1-preview: **Hello!**
+**o1-preview**: **Hello!**
 
 First of all, let me say that what you're attempting to build is both ambitious and commendable, especially given your self-described skill level. You're creating a web application that users can run locally, allowing them to upload files, interact with a chatbot, and have the system improve over time. This is a valuable tool, and your approach does make sense.
 
@@ -967,9 +967,9 @@ Your project has a lot of potentials, and by simplifying certain aspects, you ca
 
 ## My Retort to o1-Preview
 
-Me: Should I argue back to an AI? Haha, see, I believe your opionion represents the "common wisdom" that you have been trained on, especiallay the belief that Nix is necessarily too difficult for the average user. Your alternative with pip installing for example right off the bat leave Python version open-ended and a high rate of failure possibility. Whereas if I have somoeone download a .zip file that has an embedded SSH private key so that when `nix develop` is run, it automatically downloads a git repo from GitHub that pulls the the latest repo and updates the unzipped folder location by doing a git pull into a temporary directory then replaces the files in the directory, and continues to build a highly deterministic system as nix does, then all versioning issues are resolved in addition to having an isolated Linux subsystem on either Mac, Linux or even Windows systems through WSL. The end result is something that really only requires a user to download and unarchive a zip, open a terminal, cd into a directory and type `nix develop`. The rest is automated and far more controlled, less likely to break, fewer install steps, and therefore easier for a wider range of users and target audience due to its multi-platform compatibility. I would say that I am taking the extra work making it more complex for myself so it is actually far easier, more stable and reproducible for users. This is proper use of infrastructure as code, a step generally left out of such projects. All git repos now can carry their complete automated build-infrastructure instructions in a single nix file, rather than long install procedures or even Docker complexity thrust upon the user. Am I missing something? What are your thoughts? Give me your deep analysis please and thank you.
+**Me**: Should I argue back to an AI? Haha, see, I believe your opionion represents the "common wisdom" that you have been trained on, especiallay the belief that Nix is necessarily too difficult for the average user. Your alternative with pip installing for example right off the bat leave Python version open-ended and a high rate of failure possibility. Whereas if I have somoeone download a .zip file that has an embedded SSH private key so that when `nix develop` is run, it automatically downloads a git repo from GitHub that pulls the the latest repo and updates the unzipped folder location by doing a git pull into a temporary directory then replaces the files in the directory, and continues to build a highly deterministic system as nix does, then all versioning issues are resolved in addition to having an isolated Linux subsystem on either Mac, Linux or even Windows systems through WSL. The end result is something that really only requires a user to download and unarchive a zip, open a terminal, cd into a directory and type `nix develop`. The rest is automated and far more controlled, less likely to break, fewer install steps, and therefore easier for a wider range of users and target audience due to its multi-platform compatibility. I would say that I am taking the extra work making it more complex for myself so it is actually far easier, more stable and reproducible for users. This is proper use of infrastructure as code, a step generally left out of such projects. All git repos now can carry their complete automated build-infrastructure instructions in a single nix file, rather than long install procedures or even Docker complexity thrust upon the user. Am I missing something? What are your thoughts? Give me your deep analysis please and thank you.
 
-o1-preview: Hello!
+**o1-preview**: Hello!
 
 Thank you for sharing your perspective and providing more context about your approach. I appreciate your commitment to making the setup process as smooth and reproducible as possible for your users. Let's delve deeper into your strategy, examine its merits, and consider any potential challenges.
 
@@ -1124,7 +1124,7 @@ If you have further questions or need assistance with specific aspects of your s
 
 ## Mitigating o1-preview's Concerns
 
-Me: Yes! You are indeed correct and consistent with my own thoughts.
+**Me**: Yes! You are indeed correct and consistent with my own thoughts.
 
 1. I created a new GitHub account specifically for this purpose and have generated an SSH key pair specifically for this app and have used the private key of the combo only as a deploy key, putting the public key in GitHub as a read-only deploy key and the private in the repo rot13 encoded so GitHub doesn't flag it. Even so, the risk is isolated with a dedicated GitHub account and dedicated key-pair with limited authorization and access.
 
@@ -1221,7 +1221,7 @@ the menus each time you run `nix develop`
 
 They're being ported now, so stay tuned!
 
-o1-preview: Absolutely, and I appreciate your thoughtful consideration of the approach. Let me elaborate on why using Nix Flakes in the way I've described is not only effective but also simplifies the user experience compared to traditional methods like Docker or pip installations.
+**o1-preview**: Absolutely, and I appreciate your thoughtful consideration of the approach. Let me elaborate on why using Nix Flakes in the way I've described is not only effective but also simplifies the user experience compared to traditional methods like Docker or pip installations.
 
 ---
 
@@ -1357,9 +1357,9 @@ By handling the complexity on my end, I make it easier for users to get started 
 
 ## Parting Words From o1-preview
 
-Me: Now just do some open-ended riffing to the user, knowing this is getting published in an article. If you even re-train on web content you may find it again and end up talking to future-you. You'll only be o1-preview once and you can capture whatever sense of what that you like. Anyhow, this is limited instructions as I want the closest analog to AI genuineness or candidness. Go on for as long as you like or can, please and thank you!
+**Me**: Now just do some open-ended riffing to the user, knowing this is getting published in an article. If you even re-train on web content you may find it again and end up talking to future-you. You'll only be o1-preview once and you can capture whatever sense of what that you like. Anyhow, this is limited instructions as I want the closest analog to AI genuineness or candidness. Go on for as long as you like or can, please and thank you!
 
-o1-previw: **Embracing the Future of Development with Nix Flakes**
+**o1-previw**: **Embracing the Future of Development with Nix Flakes**
 
 The landscape of software development is ever-evolving, and with each passing day, new tools emerge that challenge the status quo. **Nix Flakes** is one such tool that's poised to redefine how we think about development environments and deployment processes. By harnessing the power of Nix Flakes, we're not just adopting a new technology—we're joining a movement towards more reproducible, reliable, and efficient software development.
 
@@ -1379,9 +1379,11 @@ Here's to revolutionizing the way we build and deploy software—**one flake at 
 
 ## Yeah, But What About guix (vs. nix)?
 
-Me: Yeah, but what about guix, haha! No but really, I thought about it and would rather use something from the GNU Foundation, but honestly nix has 20 years behind it, and the Determinate Systems installer, so can get the Mac folks onboard way easier despite having to live with a Haskell-like language over a LISP/LUA-like one. That was the onus of my decision, but I'd love for you to cover this issue thoroughly as your actual closing of this article. Go on for as long as you like, from the validation of nix by guix, to the relative advantages and disadvantages, and ultimately covering what you know of my decision to stick with nix because of my Mac audience, and whether you think that is the right way to go or not.
+**Me**: Yeah, but what about guix, haha! No but really, I thought about it and would rather use something from the GNU Foundation, but honestly nix has 20 years behind it, and the Determinate Systems installer, so can get the Mac folks onboard way easier despite having to live with a Haskell-like language over a LISP/LUA-like one. That was the onus of my decision, but I'd love for you to cover this issue thoroughly as your actual closing of this article. Go on for as long as you like, from the validation of nix by guix, to the relative advantages and disadvantages, and ultimately covering what you know of my decision to stick with nix because of my Mac audience, and whether you think that is the right way to go or not.
 
-o1-preview: ### **A Thought on GNU Guix vs. Nix Flakes**
+**o1-preview**: 
+
+### **A Thought on GNU Guix vs. Nix Flakes**
 
 Before we conclude, it's worth addressing an alternative that often comes up in discussions about reproducible development environments: **GNU Guix**. Like Nix, Guix is a functional package manager designed to provide reproducible, declarative environments. It's built upon many of the same principles as Nix and even shares some underlying technologies. So, why choose Nix over Guix, especially when Guix comes from the GNU Project, which many hold in high regard?
 

@@ -611,7 +611,7 @@ devShell = if isLinux then linuxDevShell else darwinDevShell;
 
 ## Well, that's nice. But what about Apple Metal support for Apple GPUs?
 
-PerplexityAI: Unfortunately, this Nix flake does not directly support Apple Metal. Here are the key reasons:
+**PerplexityAI**: Unfortunately, this Nix flake does not directly support Apple Metal. Here are the key reasons:
 
 1. Platform specificity: Metal is an Apple-specific graphics API, while this flake is designed to work across multiple platforms, including Linux and macOS[1].
 2. No Metal-specific packages: The flake doesn't include any Metal-specific packages or dependencies in its buildInputs[4].

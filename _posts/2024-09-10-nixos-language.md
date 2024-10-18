@@ -337,10 +337,11 @@ By understanding these distinctions, you can better grasp how Nix expressions wo
 
 ---
 
+## The Bane of Curly Braces in Nix Programming Language
+
 **Me:** Write a poem called the bane of curly braces in nix which creatively and
 clearly differentiates the two common uses that you will encounter right away in
 rapid succession and must grok, much to the chagrin of a monoglot Pythonista.
-
 
 **Perplexity:** **The Bane of Curly Braces in Nix**
 

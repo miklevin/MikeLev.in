@@ -100,6 +100,8 @@ Ubuntu icon, and...
     nix develop
     python pipulate.py
 
+## Ollama Installed on Windows WSL Reachable From Windows-side Browser
+
 I surf over to `localhost:5001`, and bingo! There's Ollama Llama3.2 chatting to
 me through the local web browser Pipulate app. Bingo! Success assured. Local LLM
 in a web app is indeed multi-platform with Nix Flakes, but there are a few
@@ -118,6 +120,8 @@ elevated permissions. And so...
     cd pipulate
     nix develop
     python pipulate.py
+
+## WSL Saves Window's From Irrelevancy... Again
 
 ...and I surf over to localhost:5001 Windows-side in Edge, Chrome or whatever.
 And bingo! There's Pipulate chatting with Ollama! Okay, I may have to walk some
@@ -187,9 +191,9 @@ that will pay off big-time. So it's worth it.
 
 # Using AI to Simplify
 
-Me: Analyze this and make a mermaid diagram showing the relationship of the components, considering a traditional HTML page-load, and AJAX HTMX part-loads. And the data streaming! Don't forget that as a different type of connection. Between what and what? Is this a single page app, or what? Try to get across the amazing communication model you can have with a single server.py file.
+**Me**: Analyze this and make a mermaid diagram showing the relationship of the components, considering a traditional HTML page-load, and AJAX HTMX part-loads. And the data streaming! Don't forget that as a different type of connection. Between what and what? Is this a single page app, or what? Try to get across the amazing communication model you can have with a single server.py file.
 
-Claude: Certainly! I'll create a Mermaid diagram that illustrates the relationship between the components in this Todo application, considering traditional HTML page loads, HTMX part-loads, and WebSocket data streaming. This appears to be a single-page application (SPA) with dynamic updates, leveraging HTMX for seamless interactions and WebSockets for real-time communication.
+**Claude**: Certainly! I'll create a Mermaid diagram that illustrates the relationship between the components in this Todo application, considering traditional HTML page loads, HTMX part-loads, and WebSocket data streaming. This appears to be a single-page application (SPA) with dynamic updates, leveraging HTMX for seamless interactions and WebSockets for real-time communication.
 
 <div class="mermaid">
 graph TD
@@ -259,7 +263,7 @@ This model allows for a rich, interactive single-page application experience whi
 
 ## Porting Pipulate's Open Source SEO Tools to Enterprise Platforms
 
-Me: Thank you! Now draw another mermaid diagram. Make the lines pointing between
+**Me**: Thank you! Now draw another mermaid diagram. Make the lines pointing between
 Darwinix, Pipulate and Botifython. They're all a pretty similar projects using
 this file as their framework, but each having a different emphasis or priority. 
 
@@ -297,7 +301,7 @@ collaborate with on the forked version.
 
 ## Claude Visualizes
 
-Claude: Certainly! I'll create a Mermaid diagram that illustrates the
+**Claude**: Certainly! I'll create a Mermaid diagram that illustrates the
 relationship between Darwinix, Pipulate, and Botifython, highlighting their
 similarities and differences based on your description.
 
@@ -358,6 +362,8 @@ Key Relationships:
 - Darwinix provides the Jupyter environment that both Pipulate and Botifython can utilize.
 - Pipulate extends the basic environment with web development capabilities and SEO tools, which Botifython then leverages for commercial applications.
 - Botifython takes the FOSS nature of Pipulate and adapts it for commercial use, creating a pathway for professional and private applications of the technology.
+
+## Projects Build Upon Each Other In Layers
 
 This diagram illustrates how these projects build upon each other, starting from
 a common base and progressively adding features and capabilities. Darwinix
@@ -463,6 +469,8 @@ class PersistentData:
         self.save()
 ```
 
+## Using JSON Files for Database-Like Functionality in Web Apps
+
 Hey, if you define it then you ***know*** it, am I right? And when it comes to
 something that's meant to be database-like, always there for a web app, and
 reachable by different parts of your app without fear of simultaneous
@@ -470,6 +478,8 @@ read/writes or not being findable in scope, you can do a lot worse than a `JSON`
 file on the hard drive, right? All you need is a `get`, `set` and `clear` method
 on ***key/value pairs*** that work vaguely like a Python `dict` and you're good.
 I was good.
+
+## Understanding Equivalent Patterns in FastHTML and Flask Development
 
 But then watching those pesky FastHTML tutorials by the guy who changes
 everything in his soft-spoken way, I come to realize that when instantiating a
@@ -481,6 +491,8 @@ from flask import Flask
 
 app = Flask(__name__)
 ```
+
+## FastHTML Factory Class Contains a Wealth of Hidden Optional Choices
 
 Notice what's traditionally the first parameter argument. Now for those not in
 the know in Python, something like that `Flask()` ***factory class*** template
@@ -549,7 +561,9 @@ def fast_app(
     return app,app.route,*dbtbls
 ```
 
-Every paramter is either ***optional with a default*** or just has a default set
+## Not All Python Function Parameters Are Made Equal (the one)
+
+Every parameter is either ***optional with a default*** or just has a default set
 for each parameter. So there's a lot of goodies. Of those goodies, only one has
 the special privilege of the first location, meaning that you don't have to
 provide the parameter name as the keyword. It's like the fist position of the
@@ -566,6 +580,8 @@ No, you just have to type:
 `len(x)`
 ```
 
+## The Power of Python Parameter Position Number 1
+
 ...and it will tell you the length if it's an object that has a length. And so
 the first position in a function definition is very special, because you don't
 have to think hard to use it. It's just always there ready to help you make the
@@ -578,6 +594,8 @@ def fast_app(
         db_file:Optional[str]=None, # Database file name, if needed
 ```
 
+## Understanding Scope in FastHTML Web App Database Access
+
 So you're telling me that you just refer to a database name as the first
 argument in setting up a FastHTML webserver instance called `app`, that that app
 is going to have in its highly pervasive namespace access to a common database?
@@ -587,6 +605,8 @@ used. And the rules are pretty strict. For things like web apps where it's
 likely you'll have some per-user persistence issues, a database is the first
 thing you're going to want to grab. And what you grab needs to be cleverly woven
 into the scope of the various parts that are going to need it.
+
+## Using FastHTML's Built-in `.xtra()` Database Filter Improves User Data Management
 
 I'm not sure if I've seen this clever pattern before, and it impresses me as
 original thinking. It's a very effective way of scratching a very old itch, one
@@ -598,6 +618,8 @@ uhmmm... I'm not exactly sure what to call it. A filter, maybe. Anyway,
 databases automatically have a hard-wired filter method `.xtra()` which
 scratches the next itch you're going to have, which is ***keeping user data
 separate!***
+
+## Separating User Sessions in New Frameworks Can Be Complicated
 
 If the framework doesn't offer up something for that, separate user-sessions and
 their related data that can last optionally for longer than the single browser
@@ -624,6 +646,8 @@ CREATE TABLE Employees (
 );
 ```
 
+## The MiniDataAPI Reduces Database Sayings to a Minimum Requirement
+
 ...you say? No, you don't say. You apparently never have to say that, not even
 when you're changing the "shape" of your database later on, because of this
 kooky little 80/20-rule database package FastHTML uses, called
@@ -638,6 +662,8 @@ the idea that not everything needs to be done the big, expensive way. Sometimes
 just enough is plenty. And so SQLite is now highly optimized and baked into
 endless products, including Python itself. So when you use this database from
 FastHTML, they're just throwing an API-wrapper around SQlite (by default).
+
+## The 80/20 Rule Simplifies Database Use with Core Functions
 
 The 80/20-rule suggests that you can get 80% of the benefit from the first 20%
 of the effort, if you just prioritize correctly and are willing to live without
@@ -657,10 +683,11 @@ in the increasingly popular [FastHTML Todo
 app](https://docs.fastht.ml/tutorials/by_example.html) is in its conceptually
 simplest form to show of the database in the first position:
 
-
 ```python
 app, rt, todos, Todo = fast_app("todo.db")
 ```
+
+## Understanding Database Table Creation in FastHTML
 
 ...which shows that merely by having the filename of a database (the .db
 extension is just sqlite convention), that database will be created along with
@@ -679,6 +706,8 @@ app, rt, todos, Todo = fast_app(
     done=bool,
 )
 ```
+
+## FastHTML Creates Persistent Background Data Store for Apps
 
 ...and your table is created! I'm new to FastHTML but did the todo app example
 already, and I can say that if your database is already there from a previous
@@ -707,6 +736,8 @@ app, rt, todos, Todo = fast_app(
 )
 ```
 
+## Using Render Function in Webserver for Response Formatting
+
 There's 2 more things to notice about the above example. The first is that weird
 `render=render` parameter and argument. This uses an already defined function in
 your code and passes it into the webserver as something to use to ***format***
@@ -716,11 +747,15 @@ React, we're not sending JSON to stuff that will magically handle it and flow it
 into a user interface. That's not how FastHTML, or the HTMX rules it's built on
 work.
 
+## Understanding HTMX: Pre-Rendering for Smooth Website Interactions
+
 Rather we are just sort of thunking HTML fragments into the correct place in the
 Document Object. Yup. That's HTMX. And when you're thunking frags, you sometimes
 have to do a bit of pre-render work to make it fit the look and feel of your
 website. The webserver itself needs a chance to polish these data frags into UI
 elements, because the client (browser) is not going to.
+
+## Understanding HTMX's Complex Rendering Object Basics
 
 ***That's*** what the render object is. And there's an "ahead-of-time" object
 preparation workflow required here which takes as much time to grok the how as
@@ -734,6 +769,8 @@ needs an inline prettifier. Hence render=render.
 
 Pshwew! At least I know it better. Who knows if this is actually going to help
 anyone out there. 
+
+## Using Live Reload in Server-Push Web Development Workflows
 
 The last thing to notice about that example is `live=True`, which I totally
 underestimated. That's not just a webserver file-change watchdog. That's also
@@ -749,7 +786,9 @@ As late as it's getting witht he weekend winding down, there's one more thing I
 need to get into the Pipulate template before I fork and customize, and that's
 the database stuff with an xtra filter. 
 
-Alright, so filteriing one profile's todo list from another's will be simple
+## Separating Users From Each Other Along With Their Data
+
+Alright, so filtering one profile's todo list from another will be simple
 enough. I can use that nifty `todos.xtra(profile_id="Profile_1"`, for example
 with the site template I'm working on. But how to record the active user that is
 selected? In addition to a little data-store per-user that all goes into the
@@ -765,8 +804,10 @@ than one table, you can actually uhm pass in a dictionary of all of the tables
 that you want, and uhm this is all just like convenience, and you could do this
 through any other mechanism you like.
 
+## Using App Scope for Efficient Persistence in Web Applications
+
 But wait, no! I call you out on that, Jeremy. You funnel it through the app
-webserver object not merely as an API-adjusting helper, but also to keep things
+web server object not merely as an API-adjusting helper, but also to keep things
 in scope. The `app` **scope** is a very powerful connection between things, say
 for opening and closing database connections cleanly, knowing all what's going
 on. Yes, you *can* use other mechanisms for persistence, but if you're not
@@ -776,6 +817,8 @@ connects, and that's fubar to be avoided.
 
 Anyhow, that's a long way of saying I'm going to figure out that multiple table
 thing now. Need it a lot.
+
+## Understanding Table Data Feed for Tbls Library
 
 When the docs don't cover it, you can follow the open source. I need to
 understand how I feed that table dictionary as a argument to the `tbls`. It is
@@ -916,6 +959,8 @@ def fast_app(
     return app,app.route,*dbtbls
 ```
 
+## Unlocking Persistent Key/Value Pairs for User File Organization
+
 Now this is important because it lets us decipher a less than fully explained
 feature, one which I desperately need (to mix todos with session stuff).
 We are unlocking arbitrary, persistent key/value pairs that we can use per-user
@@ -927,6 +972,8 @@ scanning down, we see there's a quick exit if no database stuff is going on.
 ```python
 if not db_file: return app,app.route
 ```
+
+## Renaming Database File Corrects Todo App Issue Immediately
 
 The next thing is that no matter what, there's a file loaded as the database.
 And even though in the todo app, it's named `todo.db`, implying it's a table,
@@ -957,6 +1004,8 @@ app, rt, todos, Todo = fast_app("todo.db",
                                 pk="id")
 ```
 
+## Understanding File Handles Generated by Fast App Generator
+
 And so this explains a lot. `todos, Todo` are arbitrary names returned back in
 pairs by the `fast_app()` generator. Pew, pew, pew, it sends back objects that
 are the ***file handle*** to the table, and the `namedtuple` signature or
@@ -977,9 +1026,9 @@ def _get_tbl(dt, nm, schema):
     return tbl,dc
 ```
 
-Me to Perplexity: Do you know anything about FastHTML's _get_tbl() ?
+**Me to Perplexity**: Do you know anything about FastHTML's _get_tbl() ?
 
-Perplexity: Based on the search results and the error message you encountered earlier, I can provide some insights about FastHTML's `_get_tbl()` function:
+**Perplexity**: Based on the search results and the error message you encountered earlier, I can provide some insights about FastHTML's `_get_tbl()` function:
 
 1. The `_get_tbl()` function is an internal function used by FastHTML's `fast_app()` to process table definitions[1].
 

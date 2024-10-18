@@ -186,7 +186,7 @@ When I typed `start`, it didn't open the browser and tabs automatically, but I
 had just restarted my system and had been completely quit out of everything.
 After starting a browser and typing `start` again (it's okay to start multiple
 times), it worked! So I've got a little Mac nuance here to work out, but it's
-low priority and satifying the 80/20-rule. I now have a private botifython repo
+low priority and satisfying the 80/20-rule. I now have a private botifython repo
 cloned from pipulate and it works correctly on the Mac, serving both Jupyter
 Notebooks and running a FastHTML server.
 
@@ -224,7 +224,7 @@ even, it's built into JupyterLab. If you start a new Notebook in JupyterLab from
 your web browser, you will find that it is already connected to your local LLM
 if you're running Ollama. If not, it's just a configuration setting, and you get
 Jupyter AI free in the Notebook. So you can bring your own favorite AI-enabled
-editor, or you can use the generic Project Jupyuter stuff that ships with the
+editor, or you can use the generic Project Jupyter stuff that ships with the
 flake.
 
 ## Switching to Mac for Work While Maintaining NixOS Skills
