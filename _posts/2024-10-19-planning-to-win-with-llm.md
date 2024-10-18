@@ -187,6 +187,66 @@ getting some product done, and that's where leveraging the LLM for planning
 comes into play. And all the writing thus far in today's blog-post has been the
 lead-up to this prompt.
 
+## Diagram of The Web Framework
+
+<div class="mermaid">
+classDiagram
+    class BaseApp {
+        <<abstract>>
+        -name : str
+        -table : Table
+        -toggle_field : str
+        -sort_field : str
+        -item_name_field : str
+        +register_routes(rt)
+        +get_action_url(action, item_id) : str
+        +render_item(item)
+        +delete_item(request, item_id)
+        +toggle_item(request, item_id)
+        +sort_items(request)
+        +insert_item(request)
+        +update_item(request, item_id)
+        +prepare_insert_data(form)
+        +prepare_update_data(form)
+        +create_item(kwargs)
+    }
+    class TodoApp {
+        -item_name_field : str
+        +render_item(todo)
+        +prepare_insert_data(form)
+        +prepare_update_data(form)
+    }
+    class ProfileApp {
+        -item_name_field : str
+        +render_item(profile)
+        +prepare_insert_data(form)
+        +prepare_update_data(form)
+    }
+    class App {
+        +home(request)
+        +create_nav_group()
+        +create_nav_menu()
+        +create_outer_container(current_profile_id, menux)
+        +create_grid_left(is_todo_view, menux, todo_items)
+        +create_chat_interface()
+        +ws(msg)
+        +on_conn(ws, send)
+        +on_disconn(ws)
+        +chatq(message)
+        +stream_chat(prompt, quick)
+    }
+    class Database {
+        +db : DictLikeDB
+        +todos : Table
+        +profiles : Table
+    }
+    BaseApp <|-- TodoApp
+    BaseApp <|-- ProfileApp
+    App --> TodoApp : uses
+    App --> ProfileApp : uses
+    App --> Database : uses
+</div>
+
 ## Please Provide Me Meticulous Documentation Rife With Code Examples
 
 **Me**: While I agree with everything you told me, plan-wise, my first step has got
