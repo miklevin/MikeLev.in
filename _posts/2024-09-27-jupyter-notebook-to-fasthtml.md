@@ -23,6 +23,8 @@ astronaut](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astro
 away from practical problems and losing sight of what you’re really trying to
 build.
 
+## The Concept of Forking in Software Development Raises Assumptions
+
 So I've spent long enough on building the foundation. Pipulate is a good
 portable home. And as such, it's designed to be cloned, but not necessarily
 forked. I call it forking for the concept closely aligns, but everyone working
@@ -30,6 +32,8 @@ with such systems has to struggle with how much of your templates should be
 inherited from some Platonic unchanging parent object, and how much should be
 fresh new custom code every time. It's all about assumptions. The more
 assumptions you make, the briefer the code, but the harder it is to customize.
+
+## Creating a Simple Master Template for Pipulate Nix Flake
 
 The Pipulate Nix Flake got pretty long, but it's time to put a fork in it. It's
 done. Oh, I'll tweak it over time. But it works, and it's short enough to not do
@@ -106,6 +110,8 @@ Learn more at https://pipulate.com <--Ctrl+Click
 (.venv) [mike@nixos:~/repos/botifython]$
 ```
 
+## Creating Private Botify API Repository on Mac and GitHub
+
 Okay, this should be fully working on the Mac as well, and I want to get that
 out of the way early, so I'm going to make it into a new private GitHub repo.
 This will be an example of how this system can be used to make private,
@@ -148,6 +154,8 @@ branch 'main' set up to track 'origin/main'.
 (.venv) [mike@nixos:~/repos/botifython]$
 ```
 
+## Using SSH Protocol for Seamless Git Collaboration Between Platforms
+
 So I've now made a new git repo called botifython, tested it on my local
 (Linux) machine, pushed it back up to GitHub, and now I'm going to pull it down
 on my work Macbook to make sure it's portable between platforms. A huge priority
@@ -172,6 +180,8 @@ nix develop
 installable packages are all installed, connectivity to the local Ollama LLM
 ChatBot server is tested, and the Pipulate startup messages all print out.
 
+## Mac Browser Startup Issue Resolved with Restart and Replication
+
 When I typed `start`, it didn't open the browser and tabs automatically, but I
 had just restarted my system and had been completely quit out of everything.
 After starting a browser and typing `start` again (it's okay to start multiple
@@ -179,6 +189,8 @@ times), it worked! So I've got a little Mac nuance here to work out, but it's
 low priority and satifying the 80/20-rule. I now have a private botifython repo
 cloned from pipulate and it works correctly on the Mac, serving both Jupyter
 Notebooks and running a FastHTML server.
+
+## How to Close the Terminal Window in Mac JupyterLab
 
 Now here's where it gets really weird and heady. A lot of people don't like that
 command-line Terminal window hanging around. And you actually can close out of
@@ -190,6 +202,8 @@ back by visiting...
 
 - http://localhost:8888 (for JupyterLab)
 - http://localhost:5001 (for FastHTML)
+
+## Using Nix Flakes with Botifython and Python Virtual Environment
 
 Now here's where it gets really awesome. These kooky nix flakes that make such
 environments portable, you'd think are somehow disconnected from the rest of the
@@ -203,6 +217,8 @@ pip packages. And now you will have the AI coding assist of Claude 3.5 Sonnet
 (as of this writing), even while using an off the beaten track interoperability
 tool like Nix Flakes. It's the best of all worlds.
 
+## Using JupyterLab Offers Free Access to LLM Code Assistance
+
 Now if you don't use your own text editor and want that AI code-assist, for free
 even, it's built into JupyterLab. If you start a new Notebook in JupyterLab from
 your web browser, you will find that it is already connected to your local LLM
@@ -211,11 +227,15 @@ Jupyter AI free in the Notebook. So you can bring your own favorite AI-enabled
 editor, or you can use the generic Project Jupyuter stuff that ships with the
 flake.
 
+## Switching to Mac for Work While Maintaining NixOS Skills
+
 Okay, so now I'm actually going to switch to working directly on the Mac. I love
 my day-to-day NixOS Linux machine, and I work on it as much as I can to make
 sure I'm not coding vendor dependencies into my processes. But my coworkers are
 going to be on Macs all the time, and I want to remain empathetic to their
 experience and not introduce any Mac-exclusionary bugs.
+
+## Experimenting with Cursor AI for Creative Writing Assistance
 
 I also want to experiment with Cursor AI as much as possible. It's lead won't
 last forever, but right now it has an interface that's better than the other
@@ -226,6 +246,8 @@ or a copy/paste context correlation nightmare. Sure, other platforms will
 reproduce that nuance in time, but for right now, I'm going to jump on the
 Cursor bandwagon and pay the $20 for a month or two if I run out of Claude 3.5
 Sonnet completions.
+
+## Living in Two Editors with Pipulate Derived Botifython Project
 
 And so with this Pipulate derived Botifython project, I will be living in two
 editors. I'm migrating stuff from Jupyter Notebooks that I run in JupyterLab, so
@@ -240,6 +262,8 @@ stop
 jupyter lab
 ```
 
+## Using Multiple JupyterLab Tabs on Mac Browser Is Not Error
+
 So now I have 2 JupyterLab tabs in my Mac browser, but that's fine. They're both
 connected to the same server in the background. You can tell because they both
 connect to `localhost:8888`. When you accidentally spin up multiple redundant
@@ -247,11 +271,15 @@ servers like Jupyter, they tend to increment the port number, so I would see
 8889 on one of them. I don't, so I know I did it correctly. I close on of the
 tabs.
 
+## Running Jupyter Lab Requires Terminal Window Keeping Open Always
+
 It's also important to note that because I started it with `jupyter lab` instead
 of `start`, it's not running invisibly and disconnected from a terminal in the
 background, and I therefore have to keep the terminal window open for Jupyter to
 continue to run. I can minimize it. Or I can watch the terminal output for
 interesting information.
+
+## Running FastHTML Server from Inside Cursor AI Text Editor Successfully
 
 If you still have a tab open to `localhost:5001` for FastHTML, a refresh on the
 tab will show you that `This site can't be reached`, which is fine. We only
@@ -270,11 +298,15 @@ the Code AI editor.
 
 Again, it's the best of all worlds.
 
+## Installing Pip Requirements for Reproducible Research Environments
+
 If I have to `pip install` requirements from the old Notebooks, I can do that
 from the command-line Terminal. I just have to remember to add it to
 `requirements.txt`, which is already in the git repo, for reproducibility. The
 next time the repo is hydrated with `nix develop` on some other machine for
 example, the new requirement will be included.
+
+## Using Nix for Flexible Data Science Workflows in Python
 
 This allows you to be in flexible ***Data Scientist*** mode, where you `pip
 install` willy nilly, doing whatever it takes to get your app running. But then
@@ -283,11 +315,15 @@ update the `requirements.txt` file. This is not precisely the way Nix is
 intended to work as it is pedantic about pinning versions, it's a compromise I
 struck so that data science workflows with lots of ad hoc pip installs is easy.
 
+## Managing Pip Version Conflicts in Python Projects Is Complicated
+
 If this looser pip venv workflow ever works against you because of pip version
 conflicts, version numbers can either be pinned in the requirements.txt file
 itself, or a switch to a Python requirements management package called `poetry`
 can be done. This is supposed to be possible, blending the compatible missions
 of nix and poetry with `poetry2nix`. But that all gets too complicated for me.
+
+## Using Nix Flakes Simplifies Python Package Management
 
 Finally, the nix packaged version of each pip program (a vast amount do exist)
 can be used directly in the `flake.nix` nix flake file beautifully centralizing
@@ -297,6 +333,8 @@ opposed, and you can't mix-and-match pix packages from the nix and PyPI repos.
 You have to commit to one way or the other. While I use nix flakes to distribute
 the infrastructure as a file, I use pip for all PyPI package management under a
 Python virtual environment. It's like buying your home and leasing your car.
+
+## Mastering BQL for Faster FastHTML Development and Success
 
 Fast-forward to after an incredibly focused many hours. I have my first FastHTML
 minimum viable product app done. Wow, amazing! Anyway, it's clear to me that I
