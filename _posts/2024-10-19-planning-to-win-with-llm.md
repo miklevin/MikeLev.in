@@ -189,7 +189,9 @@ lead-up to this prompt.
 
 ## Diagram of The Web Framework
 
-<div class="mermaid">
+(Figuring out how to render without crashing mermaidjs)
+
+<div>
 classDiagram
     class BaseApp {
         <<abstract>>
