@@ -167,4 +167,3 @@ lifeblood of the company. I spent a lot of time around Commodore engineers and
 picked up bad habits. By the way, the Commodore 64x has been re-issued, and it's
 AWESOME!
 
-And back to foo.
