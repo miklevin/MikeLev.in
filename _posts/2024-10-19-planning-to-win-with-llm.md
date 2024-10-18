@@ -189,9 +189,39 @@ lead-up to this prompt.
 
 ## Diagram of The Web Framework
 
+High level
+
 (Figuring out how to render without crashing mermaidjs)
 
-<div>
+```mermaid
+flowchart TD
+    A[Start] --> B{User Request}
+    B -->|GET /| C[home(request)]
+    C --> D{menux == profiles}
+    D -->|Yes| E[get_profiles_content()]
+    D -->|No| F{menux == todos}
+    F -->|Yes| G[Display Todo List]
+    F -->|No| H[Display Placeholder]
+    G --> I[Render Todo Items]
+    E --> J[Render Profile Items]
+    H --> K[Render Default Content]
+    I --> L[Create Navigation]
+    J --> L
+    K --> L
+    L --> M[Create Chat Interface]
+    M --> N[Render Page]
+    B -->|WebSocket Message| O[ws(msg)]
+    O --> P[Process Message]
+    P --> Q[Generate AI Response]
+    Q --> R[Update Chat Interface]
+    B -->|Other Request| S[Handle CRUD Operations]
+    S --> T[Update Database]
+    T --> U[Return Response]
+```
+
+Granular
+
+```mermaid
 classDiagram
     class BaseApp {
         <<abstract>>
@@ -247,7 +277,7 @@ classDiagram
     App --> TodoApp : uses
     App --> ProfileApp : uses
     App --> Database : uses
-</div>
+```
 
 ## Please Provide Me Meticulous Documentation Rife With Code Examples
 
