@@ -47,7 +47,7 @@ do and can initiate actions that have a post back or callback capability. In
 this way, it can initiate a query and check on the returned value from that
 query as if it were interacting with the user, but it's Python instead. 
 
-### Loosely Coupled Components Communicate Through WebSockets
+### Loosely Coupled Components that Communicate Through WebSockets
 
 Usage makes it better. It could even suggest improvements in its own design
 eventually. But we don't want overreach getting started. Getting started, the
