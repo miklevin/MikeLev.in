@@ -5,6 +5,8 @@ description: Systematically working through getting all the basic data science c
 layout: post
 ---
 
+## Understanding Nix Flakes for Multi-Platform Development Basics
+
 This multi-platform stuff is epic. I've greated 2 massive Nix Flakes, each of
 which has its plusses and minuses, and I want to sort it all out and get a
 really good understanding of it all, basically tearing it down and building it
