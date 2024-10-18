@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## Pipulate Framework Ready for Coworker Rollout After Development Milestones
+
 I pushed hard to clean up and prep the Botifython fork of Pipulate to be ready
 to roll out to my coworkers... almost. I still have to plug the apps in. The
 actual ports of an existing web app, the first I cut my FastHTML teeth on, and
@@ -284,6 +286,8 @@ There's some magic in that flake.
 - It only does this based on the project name, so I can change the project name
   in the flake for FOSS forks (Pipulate).
 
+## Creating a Customizable Multi-OS Operating System Platform
+
 ...and a bunch of other stuff that's been in there for awhile making it multi-OS
 which I won't document again here. But that base has basically become [Darwinix,
 which I forked here](https://github.com/Botifython/darwinix). There's lots of
@@ -350,6 +354,8 @@ that gave me safe harbor to keep coding Python in Notebooks in a way that was
 becoming increasingly popular, socialized and collaborative. But a time comes
 when even a Notebook must be made simpler for a different audience if you want
 that break-out level of simplicity and ease... for the user.
+
+## The Dev's Double Burden: From Creation to Eternal Maintenance
 
 This article could go on forever along that vein. Switching from Notebook to Web
 App may make it easier for the user of the "app", but it's infinitely harder for
