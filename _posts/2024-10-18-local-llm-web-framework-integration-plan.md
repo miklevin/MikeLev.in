@@ -6,12 +6,16 @@ layout: post
 sort_order: 1
 ---
 
-Me: Having a local LLM, vector database and traditional SQL database all on a
+## Prompting o1-preview With Codebase
+
+**Me**: Having a local LLM, vector database and traditional SQL database all on a
 local host machine changes everything. Software built from such parts can know
 about itself from birth, and logically start discussing itself with you, as you
 develop it. Limited in capability as it may be as a local model, you can also
 tap the most powerful frontier models in developing it, particularly in initial
 base assumptions and design of the system. 
+
+### A Program That Knows Itself
 
 This active participation of a system in its own design, in collaboration with
 other models, helps to validate premises as you go along. Can a local model
@@ -19,6 +23,8 @@ understand and appreciate its ability to execute functions? Especially those it
 need only articulate and express in JSON, Python expressions, or anything else
 with reliably stringafiable and unstrungafiable, and a well documented API
 graspable by the local model. 
+
+### LLM in The Loop of All User Actions
 
 A lot needs to be sorted like context aware chat mode versus fire and forget
 mode. But in principle, all user interaction with the software by the user
@@ -33,11 +39,15 @@ things, cross referencing nearness searches in a vector database with classic
 field and pattern match strings of SQL. The LLM sees the granular details of all
 data going in and can probe at it later. 
 
+### Local LLM to Execute Functions & See Results
+
 Overarching Instructions for the LLM and can improve over time, ask the
 individual jobs sprinkled throughout the system. The local LLM knows what it can
 do and can initiate actions that have a post back or callback capability. In
 this way, it can initiate a query and check on the returned value from that
-quarry as if it were interacting with the user, but it's Python instead. 
+query as if it were interacting with the user, but it's Python instead. 
+
+### Loosely Coupled Components WebSocket Chat
 
 Usage makes it better. It could even suggest improvements in its own design
 eventually. But we don't want overreach getting started. Getting started, the
@@ -46,12 +56,16 @@ a traditional database every action in the system as it occurs. We will use
 websockets to do this, thus implementation decouples components from all, but
 the most generic technologies. 
 
+### A Menu of Program Actions
+
 The local llama 3.2 model needs to understand that it can execute functions. The
 functions and execute should be ones that are correlated with the application
 plug-ins here, or the API such as fastHTML and MiniDataAPI spec that underlie
 it. These include such things as adding tasks, checking them done or undone or
 sorting the priority in the list. Imagine the users surprise when the LLM
 resorts their priorities.
+
+### Be the Ghost In The Machine
 
 So you get the idea, I hope. Initially, the LLM acts as a sort of ghost in the
 machine, learning from users, and making suggestions to users to use the product
@@ -60,6 +74,8 @@ than any human. With its auto prediction capabilities there will be a logical
 point where it recognizes what the user is trying to do and just offers to take
 over from there.
 
+### Get Me There
+
 So what I ask from you, o1-preview is to take all that into account plus the
 code base that follows about which the above is talking and make a explicit
 point by point plan on how to proceed. You will also control the hardware and
@@ -67,9 +83,9 @@ software build as I am including an infrastructure as code needed nix flake that
 you can edit. You control the hardware. You control the software. Now guide this
 human.
 
-## A Plan
+## o1-preview Devises a Plan
 
-o1-preview: Sure! Based on the plan we outlined, we need to update your
+**o1-preview**: Sure! Based on the plan we outlined, we need to update your
 `configuration.nix` to include the necessary components to carry out the
 integration of the local LLM, vector database, and other services. Below is the
 updated `configuration.nix` file, followed by explanations for each addition.
@@ -485,9 +501,9 @@ This setup ensures:
 
 **Feel free to ask if you need further assistance with specific configurations, writing derivations for Ollama and Milvus, or any other part of the setup.**
 
-Me: We are using nix flakes. We don't need docker. Anything it can do, nix can do better (less overhead and exploding complexity of docker composing).
+**Me**: We are using nix flakes. We don't need docker. Anything it can do, nix can do better (less overhead and exploding complexity of docker composing).
 
-o1-preview: Understood! We'll update your `configuration.nix` to exclude Docker and leverage Nix Flakes for managing dependencies and services natively. Below is the updated `configuration.nix`, followed by explanations for each addition.
+**o1-preview**: Understood! We'll update your `configuration.nix` to exclude Docker and leverage Nix Flakes for managing dependencies and services natively. Below is the updated `configuration.nix`, followed by explanations for each addition.
 
 ---
 
@@ -804,9 +820,9 @@ By updating your `configuration.nix` to exclude Docker and leveraging Nix Flakes
 
 **Feel free to reach out if you need assistance with specific configurations or further customization of your Nix setup.**
 
-Me: Okay, now onto the edit by edit instructions for the code please...
+**Me**: Okay, now onto the edit by edit instructions for the code please...
 
-o1-preview: Sure, let's proceed with detailed, step-by-step instructions to modify your code to integrate the local LLM into your application according to the plan. We'll focus on the following key objectives:
+**o1-preview**: Sure, let's proceed with detailed, step-by-step instructions to modify your code to integrate the local LLM into your application according to the plan. We'll focus on the following key objectives:
 
 1. **Enable the LLM to execute functions by parsing structured outputs.**
 2. **Provide the LLM with application context.**
