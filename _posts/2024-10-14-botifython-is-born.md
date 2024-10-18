@@ -5,6 +5,8 @@ description: I’m diving back into web development through Botifython, a Python
 layout: post
 ---
 
+## A Brief History of My Web Development Antics
+
 Okay, this is one for the history books (at least mine). I've been doing systems
 like Ruby on Rails since before RoR. There was this system from Microsoft that
 used to work with SQLServer in the 90s called IDC/HTX for *internet database
