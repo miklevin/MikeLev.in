@@ -5,7 +5,11 @@ description: This article explores how to integrate SortableJS with FastHTML for
 layout: post
 ---
 
+## Refining the Web Development Experience with Drag-and-Drop Functionality
+
 Well, the port from yesterday hasn't technically occurred yet, however the framework is so much cleaner for "receiving" the port. I've made nice Application placeholders in navigation and with blank pages. Conceptually, it's easy to see now how I plug in new apps. And I've ton a ton of refinements on the UI to make it solid and sexy. It's really amazing what the snappiness of HTMX allows, and it's time to do drag-and-drop to get rid of "yeah-but's". I'm not a big fan of webdev, but when you do it you've got to be pretty buttoned up to modern expectations, or you're crap. Nobody wants to deal with yet another crappy interface with so many sexy new bells and whistles in tech all the time. And I think if I leave drag-and-drop sorting out of this, I'm setting users up to be disappointed given how such lists permeate everything.
+
+## Exploring FastHTML Advanced App Walk-Through for Modern Web Development
 
 For this, we go back to the [FastHTML Advanced App Walk-through](https://www.youtube.com/watch?v=kfEpk6njb4s) 
 
@@ -55,6 +59,8 @@ proc_htmx('.sortable', Sortable.create);
 {% endraw %}
 ```
 
+## JavaScript Import Error Fixed by Module Tag Addition
+
 ...which if you look close you will see that the JavaScript import is not wrapped in a `<script type="module">` tag resulting in `<head>`-leakage. In experimenting, I find that this will fix it:
 
 ```python
@@ -64,6 +70,8 @@ app, rt = fast_app(
 )
 {% endraw %}
 ```
+
+## SortableJS Script Module Tag Wrapped Correctly Despite Empty Content
 
 ...because even though it ends up with an empty script module tag, it also wraps the SortableJS one properly:
 
@@ -133,6 +141,8 @@ Please confirm the following:
 ---
 
 Okay, so I [submitted that on GitHub](https://github.com/AnswerDotAI/fasthtml/issues/510). I'm glad I found a fix. Keep in mind you can always look at the code directly. [How JavaScript is included in FastHTML](https://github.com/AnswerDotAI/fasthtml/blob/main/fasthtml/js.py)
+
+## Todo List Stage Set for Drag-Sortable Priorities
 
 I have as you can see set the stage for a drag-sortable Todo list. The priority int field is already even in the table.
 
@@ -237,7 +247,9 @@ By implementing these strategies, you can efficiently handle SortableJS reorderi
 
 ---
 
-Me: The drag-and-drop event is already occurring. I already have the scriptable tag in place:
+## Drag-and-Drop Event Already Underway With Scriptable Tag Enabled
+
+**Me**: The drag-and-drop event is already occurring. I already have the scriptable tag in place:
 
 ```html
 {% raw %}
@@ -268,7 +280,11 @@ proc_htmx('.sortable', Sortable.create);
 {% endraw %}
 ```
 
+## Client-Side JavaScript Required for Full HTMX Functionality
+
 Revise your instructions knowing I need the client-side JavaScript to get or post back to an HTMX endpoint. Essentially simplify the instructions based on how far I got already. Drag and drop is working! But it's only superficial. I need to make the rubber hit the road. Or maybe the new sort order hit the MiniDataAPI spec todos object.
+
+## Breaking Free From API Constraints After Epic Adventure
 
 Fast-forward to end of an epic adventure, and I am free from API-constraints when it's just passing stuff through. I can pass stuff through too! 
 
@@ -284,6 +300,8 @@ app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
 )
 {% endraw %}
 ```
+
+## Forcing Module Scripts in HTML Head Element Works
 
 And so, I'm forcing it to include the ability to use module scripts, or else even the below stuff that I'm spewing in as raw JavaScript would leak out of the head element. This works...
 
@@ -331,6 +349,8 @@ document.addEventListener('DOMContentLoaded', (event) => {{
 {% endraw %}
 ```
 
+## Carrying Out Client-Side htmx-Ajax Calls to Server Can Be Challenging
+
 So, you might say I got that sorted, haha! Well, if you think those client-side shenanigans are fun to know the id-to-priority mappings, you'll love what it takes to carry out these client-side initiated JavaScript `htmx-ajax` calls to the server, through API endpoints you just blend in with the webpages under FastHTML like it's no big.
 
 Here's what the update endpoint looks like:
@@ -348,6 +368,8 @@ async def update_todo_order(values: dict):
         return str(e), 500  # Return the error message and a 500 status code
 {% endraw %}
 ```
+
+## Implementing Sortable Todo List Items with MiniDataAPI Specification
 
 A cascading update! There's no transaction mode, so brute force and risking integrity it is, but `MiniDataAPI` spec only exposes so much (lowest common denominator) database capability.
 
