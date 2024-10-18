@@ -236,6 +236,8 @@ This is a **Nix flake** that defines a reproducible development environment for 
 }
 ```
 
+## The Host System Plays a Vital Role in Cloud Deployments
+
 So a flake like this basically defines a whole computer, system, application,
 cloud deployment, what have you. There's certain capabilities you assume that
 the **host system** brings to the picture, like *internet access* and some local
@@ -320,6 +322,8 @@ these servers started, you have to start them. I experimented with starting them
 automatically when you `nix develop`, but that got a little messy. I decided to
 make it deliberate with the simplest, most obvious commands `start` and `stop`.
 
+## Running Commands in Background for Multi-Platform Environments
+
 This is vital for my next round of work, because since these environments are
 initiated from a command-line Terminal, the commands that start the various
 servers like JupyterLab and FastHTML tie up the console. In Linux there's a ton
@@ -327,6 +331,8 @@ of ways to run stuff in the background, and I explored quite a few until I
 settled on the simplest I could imagine. It has to be simple because it has to
 be multi-platform. I considered splitting the command-line Terminal up into
 window panes with `tmux`. 
+
+## Making A Simple Script Easy To Understand And Use
 
 Ultimately, I settled on just running them invisibly in the background,
 outputting a local file log if you really wanted to monitor its output, you
@@ -684,6 +690,8 @@ def get():
 # Start the server
 serve()
 ```
+
+## Creating A Simple Web Page With Python
 
 Notice the lack of a template language. Notice the lack of crosseye-inducing
 double curly brackets. HTML tags are represented as Python functions with names
