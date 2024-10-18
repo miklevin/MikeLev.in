@@ -1,9 +1,10 @@
 ---
 title: Local LLM Web Framework Integration Plan
 permalink: /local-llm-web-framework-integration-plan/
-description: Discover how integrating a local LLM, vector database, and SQL database on a local host transforms software development. Explore building self-aware systems that interact with developers, execute functions, and improve over time, making AI an active participant in its own design.
+description: "Discover how integrating a local LLM, vector database, and SQL database on a local host transforms software development. Explore building self-aware systems that interact with developers, execute functions, and improve over time, making AI an active participant in its own design."
 layout: post
 sort_order: 1
+date: 2024-10-19
 ---
 
 Me: Having a local LLM, vector database and traditional SQL database all on a local host machine changes everything. Software built from such parts can know about itself from birth, and logically start discussing itself with you, as you develop it. Limited in capability as it may be as a local model, you can also tap the most powerful frontier models in developing it, particularly in initial base assumptions and design of the system. 

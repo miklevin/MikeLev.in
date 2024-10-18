@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-## Defining Old Fashioned Web Framesworks
+## Defining Old Fashioned Web Frameworks
 
 Me: What is the general term for a Ruby on Rails or Django-like system?
 
