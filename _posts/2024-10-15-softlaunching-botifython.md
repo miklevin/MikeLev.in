@@ -378,6 +378,8 @@ platform. Linux is now so popular and pervasive that a whole instance of a Linux
 virtual environment can be plugged into the subdirectory of a git repo--and by
 extension GitHub, and thus easily sharable infrastructure as code.
 
+## Linux Becomes Mainstream Operating System Across Devices Worldwide
+
 Got that? It's a new age we're in, and not just because of AI. It's because the
 lowest common denominator hardware and popular OS can host a decent highest
 common denominator Linux subsystem in a folder... one that's pedantically
