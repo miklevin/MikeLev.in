@@ -11,13 +11,19 @@ I'm building a **FastHTML app with Cursor AI under NixOS**. The resulting Nix fl
 
 Sometimes even when you take up popular things (Mac, Cursor, Nix, FastHTML), using multiple popular things that usually don't go together can be a lonely place. The Venn diagram of the unlikely (but righteous) combination of tools I'm using here is so off the beaten track that I may be the only one in the world trying this particular combination. Even Reddit offers little guidance, and the LLMs haven't been trained on bleeding-edge stuff yet.
 
+## Playing with Cursor on NixOS for Cross Platform Results
+
 Taking this route may sound gratuitous or needlessly difficult, but the end result is something that can be shared across all three major platforms, so it's worth it. Playing with Cursor on NixOS is the gratuitous part, but I want to be on NixOS and I don't want to be left out.
 
 ## Embracing AI-Assisted Coding
 
 I'm generally a **vim/neovim** user (I use `nvim` exactly as I would `vim`, virtually plugin-free), but I'm enjoying getting the advantage of **AI-assisted coding**. Normally, I'd just copy/paste from OpenAI's o1-preview or Claude Anthropic Sonnet 3.5, but the number of completions gets depleted. Once your free completions get used up, it's great motivation to get you to look at the next offering.
 
+## Trying Out The New Code Editor That Everyone's Talking About
+
 And the new kid on the block that you can't stop hearing about is **Cursor**. It offers yet another set of frontier model completions and a nifty user interface that gives a `git diff` style look at its AI-recommended code changes, so why not? Why not is that I'm allergic to the **VSCode-style editor** from which Cursor was derived (forked). But them being the first to get that lovely red/green git diff view of recommended code changes, plus their 2000 free completions—I want to have the Cursor experience and see what happens once the completions are over.
+
+## Notable Tech Products Change How We Work Everyday
 
 Are they per-day? Are they total? How do they try to coerce you onto the paid version? Whether or not I jump on the Cursor bandwagon, I have to have these experiences. I generally don't kick the tires of everything in tech because there's not enough time in the day, and it overall just pollutes your mind if you've got a well-worn muscle memory still relevant and applicable way of doing things. But game changers do come along, so you have to keep an open mind—even vim/neovim users.
 
@@ -47,7 +53,11 @@ environment.systemPackages = with pkgs; [
 # End of file stuff not shown
 ```
 
+## The Beauty of Nix Package Management Simplifies Software Installation
+
 And that's it. You don't need to mess around with a download or an AppImage or an installer or any of that other nonsense. Once it's packaged in the Nix package management system, it's just a single line in your configuration file, and that's the beauty of it. But imagine the pain if it weren't at least in the unstable channel. I wouldn't be doing this article.
+
+## Using Nix for Python Package Management Simplifies Life
 
 Anyone can add packages to the Nix software repository even if you didn't write the original package, but it's a certain set of skills that not everyone should have to have. I can't stand doing it, so I'm lucky that Cursor AI is already in there. The same rule that it's easy if already in the nix repo goes for **pip installable** Python packages as well. If the Python package is already in Nix, everything goes smoothly. But if it's not, it's pretty agonizing because you can't pick and choose what comes from Nix and what comes from a `.venv`. The following is how easy it is in just a `configuration.nix` file if your pip packages are already in the nix software repo...
 
@@ -70,6 +80,8 @@ environment.systemPackages = with pkgs; [
 
 # End of file stuff not shown
 ```
+
+## Using Virtual Environments to Simplify Library Installation Complexity
 
 As far as Python libraries like `FastHTML` that are not in the Nix repo yet, but you can still `pip install python-fasthtml`, the complexity explodes again. But I figured out a workaround that shifts all the pip-installable packages into Python virtual environments. That was the subject of the last article.
 
@@ -201,6 +213,8 @@ So here I include everything required so that anything later knows I've got Nvid
 }
 ```
 
+## Connecting to a Code Environment for Development Work
+
 Back to the blank canvas metaphor. After a `configuration.nix` like this, your canvas isn't so blank anymore. A few brushstrokes have been laid down about your special hardware and your "base apps" like a browser, office software, and even a large language model server. This is what's there whenever you power on your machine, so you can do basic stuff. But when it gets time to doing some development work and being able to play around with things like Cursor AI, it needs to be able to "connect" to the code and Python virtual environment established in your flake...
 
 **NOTE:** This version turned out to be Linux-only. A Mac-friendly version comes later.
@@ -262,6 +276,8 @@ Back to the blank canvas metaphor. After a `configuration.nix` like this, your c
 }
 ```
 
+## Software Requirements Listed for `pip`
+
 And for completeness, here's the `requirements.txt` that it's referring to:
 
 ```
@@ -277,7 +293,11 @@ jupyter_ai
 nbdev
 ```
 
+## NixOS Enables FastHTML with Virtual Environment Support Now
+
 So this becomes a sort of culmination of a number of prior articles here. This gives me nothing less than **FastHTML editable in Cursor AI under NixOS** with the `.venv` Python virtual environment of a Nix flake actually recognized and used by Cursor so that when you run the code from Cursor, the Terminal actually activates the venv!
+
+## Using Cursor for Simple Git Project Development
 
 I do absolutely nothing special in Cursor except for adding the **pipulate** git repo as a folder (I believe a Workspace in VSCode/Cursor terminology), and I can load the FastHTML hello world program into a tab:
 
@@ -297,6 +317,8 @@ def get():
 serve()
 ```
 
+## Auto-Detected Virtual Environment Created Successfully in Terminal Console
+
 And then I can run that code from Cursor just like you would in an IDE or VSCode, and I get the following output from the Terminal console, showing me it auto-detected and used the `.venv`:
 
 ```
@@ -312,6 +334,8 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     127.0.0.1:53198 - "GET / HTTP/1.1" 200 OK
 ```
+
+## Opening Link Opens in Simple Chrome Browser Instance
 
 And when you mouse over the `http://localhost:5001` link, you get the standard VSCode `Follow link (ctrl + click)` message, and when you do, it opens in plain old Chrome browser with the running FastHTML hello world!
 
@@ -382,11 +406,15 @@ Okay, now to test it on Mac... Nope! Ouch, okay, after much finagling, here's a 
 }
 ```
 
+## New Master Template For Work Across Multiple Operating Systems
+
 Okay, wow. This tests out good. No promises that it will stay in this exact shape, but this is the new master template for work across Macs, Linux, and Windows (still have to test Windows/WSL/Ubuntu, but I'm confident). It can be pulled from GitHub with:
 
 ```bash
 git clone https://github.com/miklevin/pipulate
 ```
+
+## Alternatives to Git if You're Not Set Up Yet
 
 If you're not on git or don't have your public ssh key set up yet, you can alternatively:
 
@@ -407,9 +435,13 @@ After that, either of these two commands are tested:
 - `jupyter lab`
 - `python server.py`
 
+## Testing JupyterLab on NixOS for Cross Platform Compatibility
+
 When JupyterLab is launched, I tested `import pandas`. And so this is all sorts of "success assured" moments. I get to use my preferred environment, NixOS, which both forces me to get familiar with the **nix way** and to continue distancing myself from either a Windows or macOS desktop OS dependency, while still being able to deploy little flakes of home out to those who are using Mac and Windows.
 
 ## Testing on Windows
+
+## Testing Windows Subsystem for Linux Performance with apt Update
 
 Okay, for the sake of completeness, let me perform this same test on Windows. It is Windows 10 (while it lasts) running the **Windows Subsystem for Linux (WSL)** with Ubuntu 22.04 Jammy Jellyfish. It's been forever since I've done anything under WSL, so I'm doing an `apt update` and `apt upgrade` before the test. I already have `curl` on my Ubuntu, so all I have to do after the update in the Ubuntu shell is...
 
@@ -423,17 +455,23 @@ Ugh, some sort of per-user permission error popped up. It says:
 error: opening lock file: '/nix/var/nix/profiles/per-user/..."
 ```
 
+## Troubleshooting WSL Issues After Upgrading Windows and Ubuntu
+
 I recalled having read something about older versions of WSL not working with Nix, but it working after an update and fresh Ubuntu. So I'm taking the following precautions. From a PowerShell...
 
 ```powershell
 wsl --update
 ```
 
+## Updating Windows Subsystem for Linux to Version 2.2.4
+
 That updated me to WSL version 2.2.4. Next, I made sure all instances of Linux under WSL are not running...
 
 ```powershell
 wsl --shutdown
 ```
+
+## Installing Latest Ubuntu Version from Microsoft Store Successfully
 
 Next, to make sure I'm on a really fresh and latest and Microsoft-kosher Ubuntu, I went into the Microsoft Store and searched on Ubuntu and got the latest available there, **Ubuntu 24.04 LTS**, and launched it. It went through its little install routine, and when asked, I gave username `foo` and password `bar`, then I went through the `sudo apt update`, `sudo apt upgrade` shuffle.
 
@@ -495,7 +533,11 @@ python server.py
 jupyter lab
 ```
 
+## Windows WSL Nix Debugging Now My Lowest Priority
+
 And both worked in WSL fine. I'm not sure what all those messages are, but I've got some Windows WSL Nix debugging to do. It is, however, my lowest priority. It looks like it's actually working, and I'll solve those error messages in time.
+
+## Testing MVP Across Multiple Platforms Ensures Valid Results
 
 The important thing is that I've done a minimum viable product (MVP) test across all three platforms, like I keep asserting. That's one of the major selling points of this approach, and I don't want it blowing up in my face had I not tested it on Windows.
 
