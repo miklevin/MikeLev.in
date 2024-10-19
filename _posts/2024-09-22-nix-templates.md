@@ -21,7 +21,7 @@ The barriers are mostly just wrapping your mind around it all. There's techie re
 
 ## Understanding NixOS
 
-If your sytem is fully Nix-built, it's likely **NixOS**. NixOS is a distribution of Linux that installs from self-booting media like USB and CDs, just like any other Linux. But after that, you can take some fairly serious control of your system from a file `/etc/nixos/configuration.nix`. You could in fact build your entire system out from there, including all your development environments and home directory stuff. But generally, NixOS users break it out to a few more files for organization.
+If your system is fully Nix-built, it's likely **NixOS**. NixOS is a distribution of Linux that installs from self-booting media like USB and CDs, just like any other Linux. But after that, you can take some fairly serious control of your system from a file `/etc/nixos/configuration.nix`. You could in fact build your entire system out from there, including all your development environments and home directory stuff. But generally, NixOS users break it out to a few more files for organization.
 
 With NixOS, especially if you're using git and working out of folders that are software repositories, it's easy to allow yourself to think of installing software into the repo. If the same software is used in folder after folder and repo after repo, it's still only stored once, because of `/nix/store/`. And therefore, when you're creating your main `/nixos/configuration.nix` it feels right leaving most things out that you won't need until later.
 

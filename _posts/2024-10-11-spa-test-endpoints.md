@@ -5,6 +5,8 @@ description: This article details the development of a comprehensive testing sui
 layout: post
 ---
 
+## FastHTML App Plugin Framework Takes Shape
+
 What I want now is a FastHTML ***app plugin*** framework. Or would that just be
 "plugin framework"? Either way, it's a framework that I plug things into. I've
 really got to change my focus to performing the actual client work itself. But
@@ -27,6 +29,8 @@ features and tell people to use whatever proxy they like on their machine
 - Private "Point of Entry" App
 - Self Hosted on Demand (just like any local Node/Electron software these days)
 - No Login, Cause It's Yours (until I add login)
+
+## FastHTML uses Login as Early Example in Tutorials
 
 Jeremy uses login as one of the early examples when he gets one of his employees
 up to speed with that "Advanced" todo list tutorial. There's simpler versions,
@@ -63,6 +67,8 @@ engagement, but while using it to do it for myself for a that proprietary
 - Make an SSH Key Pair for the distro
 
 Okay, but let's power through the clones.
+
+## A Code Complexity Turning Point Requires Immediate Refactoring Effort
 
 Uhhh. There's a point of no return there. The complexity of the code could
 explode beyond the first beautiful instance. So beautify the latest and

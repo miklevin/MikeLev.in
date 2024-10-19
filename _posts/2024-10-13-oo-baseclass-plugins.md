@@ -1,9 +1,11 @@
 ---
 title: Object Oriented Base Class Plugins
 permalink: /object-oriented-baseclass-plugins/
-description: 
+description: I've built a plugin system using object-oriented programming, something I was initially hesitant about due to Python's OOP syntax. By creating a base class, `BaseApp`, I've streamlined CRUD operations and routes, improving the system's long-term flexibility. This approach reduces complexity in my single-file setup. I’ve customized the base class with wrappers like `TodoApp` and `ProfileApp` for specific functionalities. This shift to precision coding lets me add new features, like sorting, without bloating the code, making the system easier to update and maintain.
 layout: post
 ---
+
+## Achieving Confidence with Object-Oriented Programming in Plugin Development
 
 Okay, after a whole day of working in it, I have the heart of the plugin system
 in place, and as it turns out, it's a ***base class*** for using object oriented
@@ -364,6 +366,8 @@ making your usage look like:
 cookie = StarCutter()
 ```
 
+## Reusing Code in Agile Frameworks for Database Field Changes
+
 In the case of this agile framework, our `StarCutter` details are much longer
 and convoluted than the example above implies. Maybe not for `delete` and
 `toggle` which is why I started with those. But when it gets to `insert` and
@@ -403,11 +407,15 @@ class TodoApp(BaseApp):
         return render_todo(todo)
 ```
 
+## Embracing Scalpel Precision in Object-Oriented Coding Practices
+
 Okay, this shift in coding style is important for me. What we are doing is
 moving to a sort of scalpel like precision with OO (object oriented) that I have
 been remiss to do in the past, because with an AI-tutor it was extremely
 difficult to work through on my own. AI is not coding ***for*** me. AI is coding
 ***with*** me, allowing me to hit above my weight class.
+
+## Sorting on Drag-and-Drop Operation Aims for Simplicity
 
 Okay, so sorting on a drag-and-drop operation is next up. It's most similar to
 the delete and toggle functions implemented so far because it doesn't need to
@@ -450,11 +458,15 @@ async def update_todo_order(values: dict):
         return str(e), 500  # Return the error message and a 500 status code
 ```
 
+## Focusing on Core Functionality with Minimal AI Assistance
+
 Okay, this next huge code block is a great example (for me) of why OO is
 mind-bending. I'm letting the AI code assistant strip out the `figlet` banners,
 the chatter inserted by the local LLM while this thing runs, and a bunch of
 documentation. I can always put that stuff back in. Right now I want to focus on
 core functionality, and I'll let the AI code assistant do the same thing.
+
+## The Simple Endpoint Toggle Parameter Raises Security Concerns Immediately
 
 Now the often overlooked nuance (by me) is that the endpoint is really simple,
 like `/action/id`, with toggle being `/toggle/id`. See what's missing? What
@@ -464,12 +476,16 @@ because hackers can't so easily go probing for other fields to toggle. It can
 only mean one thing. But then where is that extra parameter argued? The argument
 is made in the ***wrapping*** function that's actually calling the base class.
 
+## How Base Class Operates Beyond Advertised Endpoints
+
 But the funny thing is that the base class that advertises the endpoints
 operates later on data that came in from something other than the endpoints it
 knows about. It effectively knows the internals of its cookie-cutter
 customizers. So when the `__init__` is called, it builds function-scoped
 variables using stuff that shouldn't be there, if you look at `BaseApp` alone.
 The wrapper functions are passing them in.
+
+## FastHTML Exposes Hidden `item_id` Values Explicitly in Code
 
 Another thing I found annoying is the mystery appearance of the `item_id`'s
 which FastHTML is invisibly making available to the calling functions. I made it
@@ -478,6 +494,8 @@ from.
 
 And lastly, I added `=None` default values for `sort` and `toggle` because not
 every table used in this system will have such fields.
+
+## Understanding Sort Endpoint Path Differences in API Design
 
 Oh, and lastly lastly, notice the sort endpoint doesn't slash `/` off of the
 base path, but instead underscores `_`. This is because of subtleties of how
@@ -668,6 +686,8 @@ You can now see that the sorting endpoint is published:
 - `/todo_sort` (POST)
 - `/ws` (WebSocket)
 - `/{fname:path}.{ext:static}` (GET, HEAD)
+
+## Removing Old Endpoints Replaced With New Defaults In Plugin System
 
 The idea here is that I'm removing the `/client/` and `/competitor/` endpoints
 that are created the old way before the plugin system, and I'm replacing them

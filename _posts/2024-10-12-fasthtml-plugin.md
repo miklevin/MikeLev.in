@@ -5,6 +5,8 @@ description: Discover how I restructured my system into a plugin-ready framework
 layout: post
 ---
 
+## Accelerating AI Development for a New Era of Innovation
+
 Make today an awesome one. Port your two apps. Free up tomorrow for whatever and
 Monday for intense client work and showing the system. AI must be an
 accelerator, not an impedance. The advantages it provides must work in your
@@ -31,7 +33,7 @@ improvements.
 
 ## A Framework for Interoperability in Tech Stacks
 
-Me to Claude: Create a Mermaid diagram that makes the point that the language is
+**Me to Claude**: Create a Mermaid diagram that makes the point that the language is
 the framework, based on this article. It's also a mermaid diagram about the
 layers of a tech stack. Put generic metal at the bottom, be it laptop, desktop,
 server, Mac, Linux or Windows. Nix Flakes is the mechanism to make sure that a
@@ -1284,7 +1286,7 @@ todo_app.register_routes(rt)
 profile_app.register_routes(rt)
 ```
 
-Me: Alright. So enough with router path reporting. Now tell me why we went
+**Me**: Alright. So enough with router path reporting. Now tell me why we went
 through that trouble of the plugin integration with the BaseApp and TodoApp and
 ProfileApp if we merely changed where the dict table definitions are. I am
 guessing that they somehow reduce code duplication in crud operations? And what

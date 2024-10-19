@@ -5,6 +5,8 @@ description: The article explores the complexities and nuances of the FastHTML f
 layout: post
 ---
 
+## Getting Back into Web Development with FastHTML Framework
+
 I dove deep into FastHTML building a framwork on a framwork on a framework, as
 Pipulate is built on FastHTML which is built on Starlette, which is built on
 Python (built on C, and so on). That sounds risky and fragile, but it's the
@@ -137,6 +139,8 @@ app, rt, (users, User), (todos, Todo) = fast_app(
 
 So, uh yeah this took me a long time to... unpack.
 
+## The Weirdness of Complexity In Software Design
+
 Every system has its weirdness, and that weirdness comes into being in order to
 crack difficult problems. Complexity rarely goes away. It's just shoved around
 to different locations where it's least damaging to the overall endeavor. And
@@ -148,6 +152,8 @@ reminiscent of the super famous Flask pattern in the Python world...
 ```python
 app = create_app()
 ```
+
+## FastHTML Defines New `fast_app` Convenience Wrapper
 
 ...but now in FastHTML, it's a `fast_app` instead of just an app, and it returns
 multiple things. This is where convention kicks into overdrive. Remember, these
@@ -184,6 +190,8 @@ Jeremy.
 def get():
     ...
 ```
+
+## Single Quotes Yield Maximum Descriptive Power in Code
 
 It's clearly a poetic exercise for this framework developer, how to get the
 maximum descriptiveness out of the least code. He also seems to be an advocate
@@ -232,6 +240,8 @@ It never hurts to `import this` and remind ones self...
 
 And so, there's almost a violent reaction to `from fasthtml.core import *`.
 
+## Creating Idiomatic Frameworks with Shorter Namespace Namespaces
+
 But Jeremy nullifies this argument with the `import fasthtml.common as ft` to
 keep your namespaces short and branded like panda's `pd` and numpy's `np`. Fine,
 but I'm with Jeremy on this. As honking good of an idea namespaces are, a truly
@@ -254,10 +264,12 @@ iterable ORM object in lower-case plural form, giving you your...
 [todo for x in todos()]
 ```
 
+## Can You Tell A Callable From a... uh... Not Callable?
+
 Notice the necessity to use parenthesis `()` on the todos object. That means it
-has to be called to get an iterable list. It's a `callable` but not an
-`iterable` unitil it's called (the use of parenthesis) with its default
-invokaton method (the lack of anything in the parenthesis).
+has to be called to get an itterable list. It's a `callable` but not an
+`iterable` until it's called (the use of parenthesis) with its default
+invocation method (the lack of anything in the parenthesis).
 
 It takes groking, but is very convenient once you do, especially given how
 something called a `render` object comes into play later to accomodate for
@@ -283,6 +295,8 @@ app, rt, (users, User), (todos, Todo) = fast_app(
     ...
 )
 ```
+
+## Understanding Python's Dataclass... a Todo Item
 
 The ***second item in each tuple*** is what I previously thought was a
 **namedtuple** but I'm now coming to understand is the incredibly similar but
@@ -341,6 +355,8 @@ tbls:Optional[dict]=None, # Experimental mapping from DB table names to dict tab
 return app,app.route,*dbtbls
 ```
 
+## Identifying Creative Pass-through Use of `**kwargs`
+
 There's some missing parts where the `tbls` dict provided becomes tuples of
 dbtbls. And there's some talk about `**kwargs` that have similar table
 definition capabilities as tbls, and that's what I had success with, for my
@@ -367,6 +383,8 @@ app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
 )
 ```
 
+## Table Definitions Use Arbitrary Parameter Names In Fast HTML
+
 The words being used as parameter names `store` and `todo` are arbitrary. They
 come in at the end of the fast_html defined parameters, and thus by convention
 get recognized and parsed in this case as table definitions. The ***field
@@ -385,15 +403,19 @@ app, rt, (user, Users), (todos, Todo) = fast_app('data/data.db',
     )
 ```
 
+## Starlette and Others Bring A Wealth of Features to Your App
+
 After that, the creation of an `app`, `rt`, and optional (`db_handle`,
 `Field_definitions`) database tuples occurs. And the `app` instance is
 chock-full-o-goodies twisting stuff from Starlette, HTMX, PicoCSS and unlimited
 potential other places this way and that for conventional convenience that may
 take a lifetime to understand if you're not Jeremy.
 
-But even if it is experimential and the API changes on us, we understand the
+But even if it is experimental and the API changes on us, we understand the
 overarching framework, Python, that much better... plus how Jeremy things and
 can guess at surprise refinements.
+
+## FastHTML Builds on Established Python Tricks and Principles
 
 At least all the Python tricks FastHTML is built on is not experimental. The
 experimental part is massaging an API into place to be the most idiomatic Python
@@ -422,6 +444,8 @@ store={
     "pk": "key"  # Primary key for the store
 },
 ```
+
+## How A Dict Handles MiniDataAPI Like Operations
 
 ...and I gave it a very literal dict API which I expect I'll map to the formal
 built-in sessions one in the future. But for now, here's how a SQL-like row and
@@ -497,6 +521,8 @@ class DictLikeDB:
 db = DictLikeDB(store, Store)
 ```
 
+## Simplifying Code Development by Avoiding Overthinking and Evasion
+
 It's a big hunk of code to put into my own framework on a framework on a
 framework that probably has it somewhere already, but for now... well, that's
 part of ***80/20-rule solutions*** and ***chasing rabbits down rabbit hole
@@ -527,15 +553,21 @@ todos={
 },
 ```
 
+### Understanding Sortable Fields Without Recreating Tables Completely
+
 There, I won't have to recreate or transform all my tables, and the field will
 just be invisibly there until I implement drag-and-drop sorting with the
 SortableJS library like in the tutorial. Rabbit hole noted, put on the
 explore-later map and not jumped into!
 
+### Preparing for Port Challenge Ahead with Innovative Tools
+
 Once again this article was going to be about the port, but it was about making
 sure I don't screw it up. And so, we cut this article here as I take a deep
 breath and prepare myself to lay out to Claude 3.5 Sonnet and OpenAI ChatGPT
 o1-Preview the porting challange before me.
+
+### The Importance Of Learning To Code Yourself Always Is Key
 
 I'm not going to ask it to explicitly do the work for me, as it will likely get
 it wrong and results in me losing control of the code. Rather... well, that's

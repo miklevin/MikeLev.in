@@ -5,8 +5,10 @@ description: Pythonista struggles with NixOS, seeking an intuitive grasp of its 
 layout: post
 ---
 
+## Understanding the Nix System Configuration Language Basics in Haskell
+
 This is an exchange between myself and Perplexity.AI (on the free Claude model
-at the time of its occurance, with me trying to gain some intuitive
+at the time of its occurrence, with me trying to gain some intuitive
 understanding of the strange Haskell-inspired Nix system configuration language.
 I really don't like taking up additional languages, but there's a category of
 usually imperative languages like SQL and HTML you're never going to get away
@@ -22,12 +24,16 @@ Git. These foundational technologies, coupled with the innovative power of Nix
 and NixOS, offer stability, flexibility, and a deep understanding of core
 principles that transcend fleeting trends.
 
+## Mastering Nix and NixOS for Customizable System Management
+
 Imagine capturing your entire system configuration – every package, setting, and
 dependency – in a single, human-readable text file. This is the magic of Nix and
 NixOS, turning complex system management into something akin to crafting a
 living document that evolves and grows alongside your needs and expertise.
 Mastering these tools allows you to craft a personalized computing environment
 that remains consistent, reliable, and reproducible across time and machines.
+
+## Embracing the Challenge Leads to Personal Superpower Growth
 
 Though the learning curve may seem steep, the investment is worth it. This is
 about more than just acquiring a specific skill set; it's about embracing a
@@ -331,10 +337,11 @@ By understanding these distinctions, you can better grasp how Nix expressions wo
 
 ---
 
+## The Bane of Curly Braces in Nix Programming Language
+
 **Me:** Write a poem called the bane of curly braces in nix which creatively and
 clearly differentiates the two common uses that you will encounter right away in
 rapid succession and must grok, much to the chagrin of a monoglot Pythonista.
-
 
 **Perplexity:** **The Bane of Curly Braces in Nix**
 

@@ -4,12 +4,10 @@
 *.dir
 *.ini
 *.log
-*.pickle
-*.pkl
 *.pyc
 *.swp
 .DS_Store
-.ipynb_checkpoints/
+.gem/
 /dist
 __pycache__/
-pipulate.egg-info/
+_site/

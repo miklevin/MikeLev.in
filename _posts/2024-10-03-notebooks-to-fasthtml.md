@@ -5,6 +5,8 @@ description: Getting Back into Web Programming with Jupyter Notebooks and FastHT
 layout: post
 ---
 
+## Moving From Notebooks To Web Development With New Tools
+
 I've been working in Jupyter Notebooks for years, and I think I'll continue
 working in Notebooks, but now with FastHTML as a framework that reduces the Web
 programming friction, and the AI assist that does much of the same, it's time to
@@ -298,6 +300,8 @@ the NixOS package manager that makes this IaC stuff so effective? Yes! And you
 can find it here:
 [https://github.com/miklevin/darwinix](https://github.com/miklevin/darwinix)
 
+## The Power of Nix in System Development and Maintenance
+
 Foundational work sucks, because foundational work takes so much work, and then
 inevitably all changes in a couple of years when you go back to look at it
 again. That may even be the case here, but so long as the systems can still be
@@ -340,6 +344,8 @@ with Parkinson's Law to create an unholy alliance of enshitification. What am I
 talking about? Hey Perplexity, help me enlighten the folks.
 
 ---
+
+## Understanding Conway's Law and Parkinson's Law in Organizational Design
 
 Perplexity.AI: The law you're referring to is known as Parkinson's Law. While
 Conway's Law deals with organizational structure and system design, Parkinson's
@@ -565,9 +571,9 @@ while I dive into an AI dialogue while I sort it out.
 
 ---
 
-Me: What's more popular these days, zmq or websockets?
+**Me**: What's more popular these days, zmq or websockets?
 
-ChatGPT 4o: WebSockets are generally more popular and widely used these days
+**ChatGPT 4o**: WebSockets are generally more popular and widely used these days
 compared to ZeroMQ, especially for web applications that require real-time
 communication, such as online multiplayer games, live data feeds, and chat
 applications. This is primarily because WebSockets are natively supported by web
@@ -588,10 +594,10 @@ require custom transport protocols.
 
 ---
 
-Me: Can you give me the most basic hello world example of websockets?
+**Me**: Can you give me the most basic hello world example of websockets?
 
 
-ChatGPT 4o: Here’s a basic “Hello, World!” example using WebSockets with Python.
+**ChatGPT 4o**: Here’s a basic “Hello, World!” example using WebSockets with Python.
 This example uses the websockets library, which is a popular choice for handling
 WebSocket communication in Python.
 

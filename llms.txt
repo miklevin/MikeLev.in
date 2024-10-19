@@ -1,0 +1,41 @@
+# Mike Levin AI SEO and Tech Blog
+
+> Mike Levin is a seasoned SEO professional and technology enthusiast focusing on Linux, Python, vim, and git (LPvg) as a future-proof tech stack. He advocates for mastering fundamental tools to navigate the evolving landscape of AI and technology, with a particular emphasis on Nix/NixOS, Jupyter, FastHTML, and AI integration.
+
+Mike's blog explores the intersection of SEO, open-source technologies, and efficient coding practices. He emphasizes the importance of agency, adaptability, and continuous learning in the face of rapid technological change.
+
+## Core Concepts
+
+- [LPvg Stack](https://mikelev.in/LPvg/): An overview of the Linux, Python, vim, and git stack as a foundation for future-proof tech skills
+- [Future-proofing Tech Skills](https://mikelev.in/future-proof-tech-skills/): Strategies for maintaining relevance in the AI age through mastery of fundamental tools
+- [The Big Tech Picture](https://mikelev.in/big-tech-picture/): A broader view of the technology landscape and its evolution
+
+## Key Technologies and Tools
+
+- [Nix and NixOS](https://mikelev.in/nix-system/): Exploring the Nix package manager and NixOS for reproducible environments
+- [Nix Flakes](https://mikelev.in/nix-flakes/): Understanding and implementing Nix Flakes for reproducible development environments
+- [FastHTML](https://mikelev.in/fast-html-framework-opinions/): Insights into the FastHTML framework for web development
+- [Jupyter Notebooks](https://mikelev.in/jupyter-notebooks-fasthtml/): Integrating Jupyter Notebooks with web development
+
+## AI and Development
+
+- [AI Code Assist](https://mikelev.in/ai-code-assist-acceleration-scope/): Exploring the scope and acceleration of AI in code assistance
+- [ChatGPT Code Review](https://mikelev.in/chatgpt-o1-preview-code-review/): Leveraging AI for code review processes
+- [Ollama WebSocket Chat](https://mikelev.in/ollama-websocket-chat/): Implementing AI chat functionality using Ollama and WebSockets
+
+## Infrastructure and DevOps
+
+- [Infrastructure as Code](https://mikelev.in/code-as-infrastructure/): Exploring the concept of treating infrastructure as code
+- [DevOps Renaissance](https://mikelev.in/infrastructure-as-code-devops-renaissance/): The revival and evolution of DevOps practices
+
+## Projects
+
+- [Botifython](https://mikelev.in/botifython-is-born/): Development of a Python-based framework for SEO and AI
+- [Levinux](https://mikelev.in/): A tiny Linux distro for learning and experimentation (mentioned in logo)
+- [Pipulate](https://mikelev.in/): An open-source SEO tool leveraging Python (mentioned in logo)
+
+## Optional
+
+- [Personal Journey](https://mikelev.in/): Mike's background and evolution in the tech industry (inferred from blog content)
+- [SEO Philosophy](https://mikelev.in/): Mike's approach to SEO, emphasizing ethical practices and long-term sustainability (inferred from blog content)
+- [Tech Philosophy](https://mikelev.in/): Reflections on sustainable and ethical technology practices (inferred from blog content)

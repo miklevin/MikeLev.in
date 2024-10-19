@@ -6,14 +6,20 @@ gaid: G-RX2D1N1P2Y
 apex: MikeLev.in
 
 # Conversion
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
+rouge:
+  style: github 
 
-# Markdown Processors
 kramdown:
   input: GFM
-  auto_ids: true
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
 
 defaults:
   -
@@ -22,4 +28,3 @@ defaults:
     values:
       layout: "default"
       author: "Mike Levin"
-

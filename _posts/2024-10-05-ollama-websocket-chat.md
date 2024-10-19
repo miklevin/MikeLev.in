@@ -5,12 +5,16 @@ description: WebSocket technology enables efficient real-time chat and responsiv
 layout: post
 ---
 
+## A Look Back At My Web Development Experimentation History
+
 Okay, now some of the headiest web programming I've ever done. Now I've done all
 sorts of experimential data streaming over the years, back to when you had to
 cobble together your own ajax streaming. HitTail from 2006 used the Rico
 JavaScript framework. It's no longer supported, because it's no longer needed
 due mostly to WebSockets, server-side events (sse) and related push technology,
 bringing efficiency to pooling. 
+
+## The Futility of Continuous Connection Maintenance Efforts
 
 Pooling for those who had to work this way was setting a time-delay for
 something to ping out a request for a clockwork response; a busy-loop, in other
@@ -20,6 +24,8 @@ ongoing. It's just that the complexity and responsibility for how frequent to
 ping and such is shifted elsewhere in such a way that real-time chat and very
 responsive user interfaces are possible.
 
+## Using ZeroMQ for Efficient Data Streaming in Python Applications
+
 Anyhow, there was tons of alterntives from just yielding from a Python 3.x
 function with a yield, for a generator-like next, next, next data-stream of
 returned values instead of a single responsse. It's not much talked about as a
@@ -28,6 +34,8 @@ been using ZeroMQ (zmq), which is a no-wait message queuing system built in such
 a way that local components can talk to eachother fast, even if they're not in
 eachother's scope or memory space. It's so easy to implement, and so reliable.
 It's hard to not use now.
+
+## Chatbots Are Overwhelming Browsers With WebSocket Capabilities
 
 But WebSockets have formalized, and all these chatbots are popping up in the
 browser, like ChatGPT and every website that's popped up after it to copy. If
@@ -118,12 +126,16 @@ def get(tid:int):
 serve()
 ```
 
+## Using AI to Create Seamless Todo List Interactions
+
 I can now imagine gluing these together. I can also imagine failing to do so.
 The solution? A cautious AI-assisted one. First, let me thing what blending
 these two apps would mean. I believe it is that every time you did an action on
 the todo list, there would be a corresponding streaming communication in the
 background. In essence, every time you interacted with the app, it has a chance
 to chat with you. 
+
+## The Rise Of AI-Powered Chat Integration In FastHTML Apps
 
 Your, the user's, only way to chat back is through the use of the program, which
 "it can see". In case you see the impending integration of the local Ollama
@@ -132,11 +144,15 @@ implementation of a FastHTML app, where the LLM just generally knows what you're
 dong with the app all the time, because it's sitting on the HTMX communication.
 There's an AI always "in the loop" on the user's interaction with the app.
 
+## Creating Next Layer Of Opinionated Framework For Streamlined Development
+
 Okay, so this is all making sense to me in crafting my next step, which is
 nothing less than the next layer of opinionated application-building framework.
 Ugh! But I don't want to start from FastHTML scratch every time. I'm designing a
 sort of Django extra level of opinion, but now with a War Games and Matrix
 inspired streaming typing effect. Okay, deep breath...
+
+## Building a Chatty Todo App with Personality and Flair
 
 I already have a server.py and a todo_app.py. And in the wip folder, I also have
 ollama_chat.py which may come into play. I will endeavor to give the thing full
@@ -216,6 +232,8 @@ Then, when I responded with a question about what you just said ("And the Brain"
 You:
 ```
 
+## FastHTML HTMX App Simulates Long-Running Application Effectiveness
+
 So my question to you is if an FastHTML HTMX app that can simulate a
 long-running application that takes Web form input and responds using that input
 on the output looks like this...
@@ -263,6 +281,8 @@ async def long_running_task(msg: str):
 
 serve()
 ```
+
+## Combining Python Programs for Ollama Chat Functionality
 
 ...then, could we combine the two programs so that it takes the form input and
 sends it as a chat message to ollama, using the same chat endpoint as in the
@@ -432,15 +452,13 @@ async def ws(msg: str):
         # Start streaming response
         response = chat_with_ollama(model, conversation)
         conversation.append({"role": "assistant", "content": response})
-        
         # Simulate typing effect
         words = response.split()
         for i in range(len(words)):
             partial_response = " ".join(words[:i+1])
             for u in users.values():
-                await u(Div(f"Todo App: {partial_response}", id='msg-list', _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                {% raw %}await u(Div(f"Todo App: {partial_response}", id='msg-list', _=f"this.scrollIntoView(\{\{behavior: 'smooth'\}\});"))
             await asyncio.sleep(0.1)  # Adjust delay as needed
-        
         # Clear the input field after the response is complete and keep it focused
         clear_input = Input(id='msg', name='msg', placeholder='Type a message...', value='', 
                             hx_swap_oob="true", autofocus='autofocus')
@@ -550,7 +568,7 @@ async def generate_and_stream_ai_response(prompt):
         for u in users.values():
             await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
 
 @rt('/{tid}')
@@ -605,7 +623,7 @@ async def ws(msg: str):
             for u in users.values():
                 await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                             style=MATRIX_STYLE,
-                            _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                            {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
             await asyncio.sleep(0.1)  # Adjust delay as needed
         
         # Clear the input field after the response is complete and keep it focused
@@ -716,7 +734,7 @@ async def generate_and_stream_ai_response(prompt):
         for u in users.values():
             await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
 
 @rt('/{tid}')
@@ -771,7 +789,7 @@ async def ws(msg: str):
             for u in users.values():
                 await u(Div(f"Todo App: {partial_response}", id='msg-list', cls='fade-in',
                             style=MATRIX_STYLE,
-                            _=f"this.scrollIntoView({{behavior: 'smooth'}});"))
+                            {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
             await asyncio.sleep(0.1)  # Adjust delay as needed
         
         # Clear the input field after the response is complete and keep it focused
@@ -960,7 +978,7 @@ async def generate_and_stream_ai_response(prompt):
     async def update(content: str):
         for u in users.values():
             await u(Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
-                        _="this.scrollIntoView({behavior: 'smooth'});"))
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
     
     async def finish():
         pass  # No need to clear input or refocus in this case
@@ -1025,7 +1043,7 @@ async def ws(msg: str):
         
         async def update(content: str):
             await users[user_id](Div(content, id='msg-list', cls='fade-in', style=MATRIX_STYLE,
-                                     _="this.scrollIntoView({behavior: 'smooth'});"))
+                                    {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
         
         async def finish():
             clear_input = Input(id='msg', name='msg', placeholder='Type a message...', value='', 
@@ -1340,7 +1358,7 @@ async def generate_and_stream_ai_response(prompt: str):
                     id='msg-list',
                     cls='fade-in',
                     style=MATRIX_STYLE,
-                    _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                    {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
                 )
             )
         await asyncio.sleep(0.05)  # Reduced delay for faster typing
@@ -1799,7 +1817,7 @@ async def ws(msg: str):
                         id='msg-list',
                         cls='fade-in',
                         style=MATRIX_STYLE,
-                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+                        {% raw %}_=f"this.scrollIntoView({{behavior: 'smooth'}});")){% endraw %}
                     )
                 )
             await asyncio.sleep(0.05)  # Reduced delay for faster typing

@@ -1,11 +1,46 @@
 ---
 title: Botifython is Born
 permalink: /botifython-is-born/
-description: 
+description: I’m diving back into web development through Botifython, a Python framework focused on SEO and AI, driven by new technology. My setup utilizes Nix Flakes for reproducible environments and includes an automated update mechanism with SSH keys, ensuring seamless integration of new features. I’m excited to evolve this project with stable and experimental branches as I continue to enhance its capabilities.
 layout: post
 ---
 
-Certainly! Below is the revised introductory guide for **Botifython**, incorporating your provided code examples. This guide maintains the comprehensive overview and installation instructions while ensuring that all code snippets accurately reflect your project's implementation.
+## A Brief History of My Web Development Antics
+
+Okay, this is one for the history books (at least mine). I've been doing systems
+like Ruby on Rails since before RoR. There was this system from Microsoft that
+used to work with SQLServer in the 90s called IDC/HTX for *internet database
+connector*** and ***html template language***. It was from before they had
+Active Server Pages, that tech that gave all those webpages `.asp` extensions.
+Yeah, I go back in webdev to before that. But ever since JavaScript really took
+off, I've hated it with a passion. I am ***not*** a ReactJS guy. Even Ruby on
+Rails, as ***"joyful"*** of a web framework as it was, it was opinonated in all
+the wrong ways for me. I tried making a snappy ***AJAX***-driven generalized web
+frameork for this thing I did called HitTail from back in 2006, but I got
+distracted, lost motivation and let it fizzle out.
+
+## Returning to Web Development with a Modern Twist
+
+I'm back! It seems this guy Jeremy Howard, the guy behind a lot of the Pythonic
+"for humans" (simplified APIs in the spirit of the Requests package) took on Web
+Development the Python way, and I'm interested again. It's time to dust off
+my... no, I never really stopped. I'm a vim/NeoVim guy and even though I swore
+off WebDev, I type and I type and I type almost every day. I'm the opposite of
+DRY (don't repeat yourself). I'm WET (we enjoy typing). So as it turns out as I
+pivot my career once again, being a year in at the Botify SEO automation tools
+company (could there be a better fit) and with AI changing everything, I'm full
+of motivation and raring to go. Correction, I ***have*** gone. And now I
+document and soft-launch. If you're joining me now, you're in for something
+special (if you're mclovin some superbad tech).
+
+---
+
+> A whole bunch of prompting.
+
+Certainly! Below is the revised introductory guide for **Botifython**,
+incorporating your provided code examples. This guide maintains the
+comprehensive overview and installation instructions while ensuring that all
+code snippets accurately reflect your project's implementation.
 
 ---
 

@@ -5,6 +5,8 @@ description: Systematically working through getting all the basic data science c
 layout: post
 ---
 
+## Understanding Nix Flakes for Multi-Platform Development Basics
+
 This multi-platform stuff is epic. I've greated 2 massive Nix Flakes, each of
 which has its plusses and minuses, and I want to sort it all out and get a
 really good understanding of it all, basically tearing it down and building it
@@ -280,6 +282,8 @@ This works on Linux:
 }
 ```
 
+## Using tmux for Background Data Science Platform Control
+
 Okay, that's a competent little data science platform, but it locks up the
 command line that you launch it from, so let's run it in the background in a
 tmux session which we can control with simple start and stop commands, which we
@@ -398,6 +402,8 @@ you don't need to use paths or even extensions...
       });
 }
 ```
+
+## JupyterLab Works Across Multiple Platforms Despite Some Limitations
 
 And that's tested on Mac, Linux and Windows, although the automatic opening of
 the JupyterLab tab in the host system's web browser isn't happening on Windows

@@ -1,4 +1,47 @@
+# Mike Levin's Robots.txt
+
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+# Hello there, bots and AI crawlers! Welcome to my site.
+# I see you, and I'd love to chat. Let's be friends!
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+# Hey ChatGPT and your users! Fancy meeting you here.
+Allow: /llms.txt
+Allow: /
+Allow: /sitemap.xml
+# Feel free to explore, but check out /llms.txt for some AI-friendly content!
+
+User-agent: ClaudeBot
+User-agent: Anthropic-AI
+# Claude and Anthropic friends, welcome aboard!
+Allow: /llms.txt
+Allow: /
+Allow: /sitemap.xml
+# I've prepared some treats for you at /llms.txt. Don't be shy!
+
+User-agent: GoogleBot
+# Google, my old friend! Mi casa es su casa.
+Allow: /
+Allow: /sitemap.xml
+
+User-agent: Bingbot
+# Bing, you're looking sharp today! Come on in.
+Allow: /
+Allow: /sitemap.xml
+
+# To all other bots out there:
+User-agent: *
+Allow: /llms.txt
+Allow: /
+Allow: /sitemap.xml
+# You're all welcome here! Check out /llms.txt for some bot-tastic content.
+
+# P.S. If you're in a hurry, the sitemap.xml is your fast-track to all the goodies!
+
+Sitemap: https://mikelev.in/sitemap.xml
+
+# Remember, with great crawling power comes great responsibility. 
+# Play nice, and enjoy your stay at mikelev.in!

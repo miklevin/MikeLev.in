@@ -1,54 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
-<meta name="description" content="{{ page.description }}" />
-<meta name="keywords" content="{{ page.keywords }}" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="stylesheet" href="/pico.classless.min.css">
-<link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="keywords" content="{{ page.keywords }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/pico.classless.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', '{{ site.gaid }}');
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
+      gtag('config', '{{ site.gaid }}');
+    </script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
 </head>
 <body>
-<header>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="headerTitle">
+            <nobr>
+                <a href="/">
+                    MIKE LEVIN 
+                    <svg id="wheel" class="spin" viewBox="0 0 100 100">
+                        <image xlink:href="/assets/svg/mike-levin-bff-seo-linux-python-vim-git.svg" x="0" y="0" width="100%" height="100%"></image>
+                    </svg> 
+                    AI SEO
+                </a>
+            </nobr>
+        </div>
+        <div id="widthSliderContainer">
+            <input type="range" id="widthSlider" min="850" max="3000" value="1405" />
+        </div>
+        <script>
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+                const expires = new Date();
+                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+            }
 
-<div style="text-align: center; color: #90b98b7a; font-family: 'Dorsa'; font-size: min(26vw, 255px); line-height: 0.7; overflow-wrap: break-word;">
-    <nobr>
-        <a href="/" style="text-decoration: none; color: inherit;">
-            MIKE LEVIN 
-            <svg id="wheel" class="spin" width="16vw" viewBox="0 0 100 100">
-                <image xlink:href="/assets/svg/mike-levin-bff-seo-linux-python-vim-git.svg" x="0" y="0" width="100%" height="100%"></image>
-            </svg> 
-            AI SEO
-        </a>
-    </nobr>
+            // Function to get a cookie
+            function getCookie(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for(let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
+            // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
+            const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+            const slider = document.getElementById('widthSlider');
+            const container = document.querySelector('.container');
+            const headerTitle = document.getElementById('headerTitle');
+            const wheel = document.getElementById('wheel');
+
+            // IMPORTANT: Update the slider's max attribute to match the page width
+            slider.max = MAX_WIDTH;
+
+            // Set initial slider value from cookie or default to 850
+            const savedWidth = getCookie('containerWidth');
+            slider.value = savedWidth ? savedWidth : 850;
+
+            const updateWidth = () => {
+                const newWidth = slider.value;
+                container.style.maxWidth = `${newWidth}px`;
+                
+                if (window.innerWidth > 768) {
+                    // Desktop behavior only
+                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
+                    wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                    
+                    // Calculate the top value for the wheel
+                    const minSliderValue = 850;
+                    const maxSliderValue = MAX_WIDTH;
+                    const minTopValue = -1;
+                    const maxTopValue = -3;
+                    
+                    const topValue = minTopValue + (maxTopValue - minTopValue) * 
+                                     (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
+                    
+                    wheel.style.top = `${topValue}vw`;
+                }
+                
+                // Save the new width to a cookie
+                setCookie('containerWidth', newWidth, 30);
+            };
+
+            slider.addEventListener('input', updateWidth);
+            updateWidth(); // Initialize with saved or default value
+
+            // IMPORTANT: This creates a media query to limit the maximum width on larger screens
+            const style = document.createElement('style');
+            style.textContent = `
+                @media (min-width: ${MAX_WIDTH}px) {
+                    body > footer, body > header, body > main {
+                        max-width: 850px;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+
+            // ... rest of your JavaScript code ...
+        </script>
+
+        <blockquote>Future-proof your skills and escape the tech hamster wheel with
+        Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI
+        stack to resist obsolescence.</blockquote>
+
+    </header>
+    <main>
+        {{ content }}
+        <div id="bottomSliderContainer">
+            <input type="range" id="bottomSlider" min="850" max="3000" value="850" />
+        </div>
+    </main>
+    <footer>
+        <p>
+            <a href="/">Home</a>
+            <a href="/robots.txt">robots.txt</a>
+            <a href="/sitemap.xml">sitemap.xml</a>
+            <a href="/llms.txt">llms.txt</a>
+            <a href="https://github.com/miklevin">GitHub</a>
+            <a href="https://www.linkedin.com/in/miklevin/">LinkedIn</a>
+        </p>
+    </footer>
 </div>
 
-<blockquote>Future-proof your skills and escape the tech hamster wheel with
-Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI
-stack to resist obsolescence.</blockquote>
+<script>
+    // Use the existing bottomSlider element
+    const bottomSlider = document.getElementById('bottomSlider');
 
-</header>
-<main>
-{{ content }}
-</main>
-<footer>
-{% include footernav.html %}
-</footer>
+    // Set max width for bottom slider (use the existing MAX_WIDTH constant)
+    bottomSlider.max = MAX_WIDTH;
+
+    // Get the initial width from the cookie or use default
+    bottomSlider.value = savedWidth ? savedWidth : 850;
+
+    // Use the existing updateWidth function
+    bottomSlider.addEventListener('input', () => updateWidth(bottomSlider.value));
+
+    // Add this at the very end of your existing script, after all other code
+
+    function syncSliders() {
+        const bottomSlider = document.getElementById('bottomSlider');
+        const topSlider = document.getElementById('widthSlider');
+        
+        let isUpdating = false;
+
+        function updateSliders(sourceSlider, targetSlider) {
+            if (isUpdating) return;
+            isUpdating = true;
+            targetSlider.value = sourceSlider.value;
+            if (sourceSlider === topSlider) {
+                // Only call updateWidth for the top slider to maintain existing behavior
+                updateWidth(sourceSlider.value);
+            }
+            isUpdating = false;
+        }
+        
+        bottomSlider.value = topSlider.value;
+        
+        topSlider.addEventListener('input', function() {
+            updateSliders(this, bottomSlider);
+        });
+        
+        bottomSlider.addEventListener('input', function() {
+            updateSliders(this, topSlider);
+        });
+    }
+
+    // Call this function after the page loads
+    window.addEventListener('load', syncSliders);
+</script>
 </body>
 </html>

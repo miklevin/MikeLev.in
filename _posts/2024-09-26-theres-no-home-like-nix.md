@@ -236,6 +236,8 @@ This is a **Nix flake** that defines a reproducible development environment for 
 }
 ```
 
+## The Host System Plays a Vital Role in Cloud Deployments
+
 So a flake like this basically defines a whole computer, system, application,
 cloud deployment, what have you. There's certain capabilities you assume that
 the **host system** brings to the picture, like *internet access* and some local
@@ -320,6 +322,8 @@ these servers started, you have to start them. I experimented with starting them
 automatically when you `nix develop`, but that got a little messy. I decided to
 make it deliberate with the simplest, most obvious commands `start` and `stop`.
 
+## Running Commands in Background for Multi-Platform Environments
+
 This is vital for my next round of work, because since these environments are
 initiated from a command-line Terminal, the commands that start the various
 servers like JupyterLab and FastHTML tie up the console. In Linux there's a ton
@@ -327,6 +331,8 @@ of ways to run stuff in the background, and I explored quite a few until I
 settled on the simplest I could imagine. It has to be simple because it has to
 be multi-platform. I considered splitting the command-line Terminal up into
 window panes with `tmux`. 
+
+## Making A Simple Script Easy To Understand And Use
 
 Ultimately, I settled on just running them invisibly in the background,
 outputting a local file log if you really wanted to monitor its output, you
@@ -605,7 +611,7 @@ devShell = if isLinux then linuxDevShell else darwinDevShell;
 
 ## Well, that's nice. But what about Apple Metal support for Apple GPUs?
 
-PerplexityAI: Unfortunately, this Nix flake does not directly support Apple Metal. Here are the key reasons:
+**PerplexityAI**: Unfortunately, this Nix flake does not directly support Apple Metal. Here are the key reasons:
 
 1. Platform specificity: Metal is an Apple-specific graphics API, while this flake is designed to work across multiple platforms, including Linux and macOS[1].
 2. No Metal-specific packages: The flake doesn't include any Metal-specific packages or dependencies in its buildInputs[4].
@@ -685,6 +691,8 @@ def get():
 serve()
 ```
 
+## Creating A Simple Web Page With Python
+
 Notice the lack of a template language. Notice the lack of crosseye-inducing
 double curly brackets. HTML tags are represented as Python functions with names
 reflecting the element. `P()` is for paragraph `<p>` and `Titled()` is for a
@@ -733,6 +741,8 @@ def increment():
 # Start the server
 serve()
 ```
+
+## The Rise of Interpreted Languages in Web Development
 
 Look, no JavaScript! And no CSS for that matter. And no build procedure. Just
 change the code in the file, go refresh the page, see your changes! This is the
@@ -833,6 +843,8 @@ def post(secret: str):
 # Start the server
 serve()
 ```
+
+## Our New Building Blocks Are Here To Be Documented Thoroughly
 
 And THAT is our new building blocks! The whole thing is documented at the
 [fastht.ml](https://www.fastht.ml/) website. And this is where I'm making my own
