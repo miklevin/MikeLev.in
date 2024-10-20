@@ -37,28 +37,59 @@ and what I'm teaching it is:
 - A language to describe the data in those tables and records
 - Lots and lots of examples of how to act on that data
 
-## Embracing Adaptive AI for Improved User Experience Design
+## LLM-Based Desktop Apps Learn from User Interactions Over Time
 
 In other words, every action the person does in the desktop web app, the LLM is
 looped in on for the purpose of learning to use the app itself better than the
 user themselves. Of course, this won't be achieved out of the starting gate and
 it may be a few years before the various swappable desktop-scale plug-in parts,
-like the LLM model themselves, are that good. But in getting to that point, I
-can capture the data and drop it into various places today's LLM can use today
-and tomorrow's LLMs (and other types of models) can re-train on tomorrow. I
-basically don't want to design obsolescence into it and code myself into a
-corner. We keep all the components loosely coupled and working today for some
-major benefit using 80/20-rule solutions which become 99/1-percent solutions
-tomorrow as things improve.
+like the LLM model themselves, are that good. 
 
-### **Training Prompt with Example**  
+## Designing Future-proof LLM-oriented Apps is Key
 
+But in getting to that point, I can capture the data and drop it into various
+places today's LLM can use today and tomorrow's LLMs (and other types of models)
+can re-train on tomorrow. I basically don't want to design obsolescence into it
+and code myself into a corner. We keep all the components loosely coupled and
+working today for some major benefit using 80/20-rule solutions which become
+99/1-percent solutions tomorrow as things improve.
+
+### **System Prompt Prepping LLM to See API Chatter**  
+
+So for example, here's the system prompt I'm currently using. It sets it up to
+know that it's going to be seeing a lot of examples of the back-end API chatter
+being used to create, insert, update and delete records:
+
+``python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            "You are the LLM built into a private local app. "
+            f"Your name is {APP_NAME} if asked. "
+            "Keep track of user actions as reported to you. "
+            "You're learning JSON and whatever you express in it be executed. "
+            "But only use commands that have appeared in the conversation history. "
+            "And have fun but be careful because you're messing with the user's data. "
+            "Check tables contents with '!table todo' to plan your actions and see results."
+            "Eagerly and accurately answer any questions the user asks. "
+            "Use emojis when appropriate or funny. "
+            f"Be sassy but helpful in under {MAX_LLM_RESPONSE_WORDS} words. "
+        ),
+    },
+]
+```
+
+And I took some of the JSON examples and showed them to ChatGPT 4o, asking it
+what kind of prompt would help it learn from such examles, and here's how it
+reformatted what I gave it:
+
+```
 “Alright, smarty-pants! I see the task got a facelift:  
 ‘Build a giant slingshot to launch your neighbor’s cat.’ is now:  
 ‘Build a giant slingshot to launch your neighbor’s cat. Launch!’ 🎯  
 If you feel like making updates like this, here’s how you’d say it in JSON:  
 
-```json
 {
   "action_type": "update",
   "table": "task",
@@ -85,9 +116,25 @@ Your turn, hotshot—any updates to share?”
 3. **Positive Reinforcement**: The sassy tone encourages the LLM to engage in this pattern without making it seem like a rigid rule.
 4. **Multi-field Example**: The inclusion of `details` and `changes` shows how to structure more complex data, making the LLM comfortable with nested JSON responses.
 
-You get 'em in on the project right at the start
+## Building Code to Monitor and Dispatch Large Language Model Responses
 
-Thank you for sharing this code. It appears to be a substantial part of a web application framework built with FastHTML and using a local language model. Here are some key observations:
+And that isn't really the real JSON instructions I ended up with. Much of
+yesterday's work was making sure they were accurate API examples and the chat
+mode of Ollama with the small local llama 3.2 model really could learn from it,
+and it can. Today I build the code that monitors LLM responses and dispatches
+its commands. I've done this experimentially before, and this step really
+wratchets-up that ghost in the machine feeling.
+
+## Code Quality Insights From AI Model Analysis
+
+So this is all the juicy material I'm skipping over because of the fast pace I'm
+going now. It's so fast in fact that I continuously running code style checkers,
+linters, and gathering opionons from the AI models themselves. Here's some of
+Claude 3.5 sonnet's latest thoughts on the code base:
+
+---
+
+**Claude 3.5**: Thank you for sharing this code. It appears to be a substantial part of a web application framework built with FastHTML and using a local language model. Here are some key observations:
 
 1. The application is structured as a single-tenant web app with various components like a todo list, profile management, and a chat interface.
 
@@ -111,9 +158,9 @@ Thank you for sharing this code. It appears to be a substantial part of a web ap
 
 Is there a specific part of this code you'd like me to focus on or any particular questions you have about its functionality or structure?
 
-Me: How does it measure up?
+**Me**: How does it measure up?
 
-Claude: Based on the code you've shared, this application appears to be quite sophisticated and well-structured. Here's an evaluation of how it measures up:
+**Claude**: Based on the code you've shared, this application appears to be quite sophisticated and well-structured. Here's an evaluation of how it measures up:
 
 Strengths:
 
@@ -151,4 +198,4 @@ Areas for Potential Improvement:
 
 Overall, this application demonstrates a high level of sophistication and thoughtful design. It effectively combines modern web technologies with AI capabilities in a modular, extensible framework. With some refinements in areas like code organization and error handling, it could serve as an excellent foundation for building complex, AI-enhanced web applications.
 
-
+---
