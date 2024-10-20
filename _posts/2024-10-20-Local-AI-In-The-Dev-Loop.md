@@ -3483,6 +3483,8 @@ markdown, pasteed it in ***Code AI*** with my NixOS `configuration.nix` file
 loaded, and it just made the changes to the file, told me to `sudo nixos-rebuild
 switch` and Voilà! 
 
+### The AI Hype Train aint Hype
+
 Claude even told me to say `cheese` when it was done! Or at least to type it
 into my terminal, as Claude knew to suggest some software to get me started, as
 Cheese is a webcam app on Linux. The times, ***they are a-changin'***. In case
@@ -3490,7 +3492,7 @@ you were wondering, AI ain't hype. Expert level assistance 24/7 that's always
 improving to boost you right over the edge of your prior limits... well... if I
 even need to explain it. It's not an AI thing. It's a tool thing.
 
-### The Future Was Here &#151; and Is Again!
+### The Future Was Here... And Is Again
 
 Anyone who thinks Macs and Windows are the future, think again. Now maybe I'll
 get my YouTube video series going again. So much new material! And so aligned
