@@ -3486,7 +3486,7 @@ switch` and Voilà!
 Claude even told me to say `cheese` when it was done! Or at least to type it
 into my terminal, as Claude knew to suggest some software to get me started, as
 Cheese is a webcam app on Linux. The times, ***they are a-changin'***. In case
-ou were wondering, AI ain't hype. Expert level assistance 24/7 that's always
+you were wondering, AI ain't hype. Expert level assistance 24/7 that's always
 improving to boost you right over the edge of your prior limits... well... if I
 even need to explain it. It's not an AI thing. It's a tool thing.
 
