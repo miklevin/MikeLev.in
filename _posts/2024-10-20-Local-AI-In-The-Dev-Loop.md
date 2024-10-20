@@ -3707,3 +3707,911 @@ the code signatures are all nearly identical. It's like the difference between
 `Flask` and `Starlette`. One never really obsoletes the other, because they're
 all part of one big happy Pythonic preferred API for a problem domain family.
 Does that make sense?
+
+---
+
+# o1-preview Advice
+
+Certainly! Let's walk through the steps to implement an **Instruction Parsing and Execution Model** in your `botifython.py` codebase. We'll focus on enabling your local LLM to output JSON commands that your application can parse and execute, allowing for dynamic interactions driven by the LLM's responses.
+
+---
+
+## **Step 1: Define the Command Schema**
+
+First, we need to establish the JSON command schema that the LLM will use to communicate actions to your application. Here's an example of possible commands:
+
+1. **Add a Todo Item**
+
+   ```json
+   {
+     "action": "add_todo",
+     "name": "Buy milk"
+   }
+   ```
+
+2. **Delete a Todo Item**
+
+   ```json
+   {
+     "action": "delete_todo",
+     "item_id": 5
+   }
+   ```
+
+3. **Toggle a Todo Item's Completion Status**
+
+   ```json
+   {
+     "action": "toggle_todo",
+     "item_id": 5
+   }
+   ```
+
+4. **Update a Todo Item**
+
+   ```json
+   {
+     "action": "update_todo",
+     "item_id": 5,
+     "name": "Buy almond milk"
+   }
+   ```
+
+5. **Switch Profile**
+
+   ```json
+   {
+     "action": "select_profile",
+     "profile_id": 2
+   }
+   ```
+
+6. **Add a New Profile**
+
+   ```json
+   {
+     "action": "add_profile",
+     "name": "Work",
+     "address": "www.worksite.com",
+     "code": "us"
+   }
+   ```
+
+---
+
+## **Step 2: Modify the System Prompt**
+
+We need to instruct the LLM to output commands in the specified JSON format when it decides an action is necessary. Modify the system prompt in your `conversation` initialization:
+
+**Original Prompt:**
+
+```python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            "You are the LLM built into a private local app. "
+            f"Your name is {APP_NAME} if asked. "
+            "Keep track of user actions as reported to you. "
+            "You're learning JSON and whatever you express in it be executed. "
+            "But only use commands that have appeared in the conversation history. "
+            "And have fun but be careful because you're messing with the user's data. "
+            "Check tables contents with '!table todo' to plan your actions and see results."
+            "Eagerly and accurately answer any questions the user asks. "
+            "Use emojis when appropriate or funny. "
+            f"Be sassy but helpful in under {MAX_LLM_RESPONSE_WORDS} words. "
+        ),
+    },
+]
+```
+
+**Modified Prompt:**
+
+```python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            "You are an assistant built into a private local app called {APP_NAME}. "
+            "When you need to perform an action, output a JSON command inside triple backticks like so: ```json { ... } ``` "
+            "The commands you can use are: "
+            "- `add_todo`: Add a new todo item. Fields: `name` (string). "
+            "- `delete_todo`: Delete a todo item. Fields: `item_id` (int). "
+            "- `toggle_todo`: Toggle a todo item's completion status. Fields: `item_id` (int). "
+            "- `update_todo`: Update a todo item's name. Fields: `item_id` (int), `name` (string). "
+            "- `select_profile`: Switch to a different profile. Fields: `profile_id` (int). "
+            "- `add_profile`: Add a new profile. Fields: `name` (string), `address` (string), `code` (string). "
+            "Always provide the JSON commands when you need to perform these actions, and ensure they are valid JSON. "
+            "Respond to the user in a friendly and helpful manner, and keep your responses under {MAX_LLM_RESPONSE_WORDS} words. "
+        ),
+    },
+]
+```
+
+This modified prompt explicitly instructs the LLM to output commands in a specific format and provides examples of the available actions and their required fields.
+
+---
+
+## **Step 3: Parse LLM Outputs for JSON Commands**
+
+After receiving the LLM's response, we need to extract any JSON commands embedded within it. We'll write a function to parse the response and extract JSON code blocks.
+
+**Add the following function:**
+
+```python
+import re
+
+def extract_json_commands(response_text):
+    """
+    Extract JSON code blocks from the response text.
+    """
+    pattern = r'```json\s*(\{.*?\})\s*```'
+    matches = re.findall(pattern, response_text, re.DOTALL)
+    json_commands = []
+    for match in matches:
+        try:
+            command = json.loads(match)
+            json_commands.append(command)
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON decode error: {e}")
+            logger.debug(f"Failed JSON: {match}")
+    return json_commands
+```
+
+---
+
+## **Step 4: Implement Command Execution Functions**
+
+We need to map the actions specified in the JSON commands to functions in our code that execute them.
+
+**Create a Command Registry:**
+
+Add this near the top of your code, after imports:
+
+```python
+# Command Registry: Maps action names to functions
+command_registry = {}
+```
+
+**Implement Execution Function:**
+
+Add the following function:
+
+```python
+def execute_command(command):
+    """
+    Execute a command based on the action specified in the command dictionary.
+    """
+    action = command.get("action")
+    if not action:
+        logger.error("No action specified in command.")
+        return "Error: No action specified."
+
+    func = command_registry.get(action)
+    if not func:
+        logger.error(f"Unknown action: {action}")
+        return f"Error: Unknown action '{action}'."
+
+    try:
+        result = func(command)
+        logger.debug(f"Executed action '{action}' with result: {result}")
+        return result
+    except Exception as e:
+        logger.error(f"Error executing action '{action}': {e}")
+        return f"Error executing action '{action}': {e}"
+```
+
+**Implement Action Functions:**
+
+Implement functions for each action and register them in the `command_registry`.
+
+1. **Add Todo**
+
+```python
+def add_todo_function(command):
+    name = command.get("name")
+    if not name:
+        return "Error: 'name' field is required for 'add_todo' action."
+    # Use the current profile ID
+    current_profile_id = db.get("last_profile_id", 1)
+    max_priority = max((t.priority or 0 for t in todos()), default=-1) + 1
+    new_item = todos.insert({
+        "name": name,
+        "done": False,
+        "priority": max_priority,
+        "profile_id": current_profile_id,
+    })
+    logger.debug(f"Added new todo: {new_item}")
+    return f"Todo item '{name}' added."
+
+command_registry["add_todo"] = add_todo_function
+```
+
+2. **Delete Todo**
+
+```python
+def delete_todo_function(command):
+    item_id = command.get("item_id")
+    if item_id is None:
+        return "Error: 'item_id' field is required for 'delete_todo' action."
+    try:
+        todos.delete(item_id)
+        logger.debug(f"Deleted todo with ID: {item_id}")
+        return f"Todo item with ID {item_id} deleted."
+    except Exception as e:
+        logger.error(f"Error deleting todo: {e}")
+        return f"Error deleting todo with ID {item_id}: {e}"
+
+command_registry["delete_todo"] = delete_todo_function
+```
+
+3. **Toggle Todo**
+
+```python
+def toggle_todo_function(command):
+    item_id = command.get("item_id")
+    if item_id is None:
+        return "Error: 'item_id' field is required for 'toggle_todo' action."
+    try:
+        item = todos[item_id]
+        item.done = not item.done
+        todos.update(item)
+        logger.debug(f"Toggled todo with ID: {item_id} to {'done' if item.done else 'not done'}")
+        return f"Todo item with ID {item_id} toggled."
+    except Exception as e:
+        logger.error(f"Error toggling todo: {e}")
+        return f"Error toggling todo with ID {item_id}: {e}"
+
+command_registry["toggle_todo"] = toggle_todo_function
+```
+
+4. **Update Todo**
+
+```python
+def update_todo_function(command):
+    item_id = command.get("item_id")
+    name = command.get("name")
+    if item_id is None or name is None:
+        return "Error: 'item_id' and 'name' fields are required for 'update_todo' action."
+    try:
+        item = todos[item_id]
+        item.name = name
+        todos.update(item)
+        logger.debug(f"Updated todo with ID: {item_id} to name '{name}'")
+        return f"Todo item with ID {item_id} updated."
+    except Exception as e:
+        logger.error(f"Error updating todo: {e}")
+        return f"Error updating todo with ID {item_id}: {e}"
+
+command_registry["update_todo"] = update_todo_function
+```
+
+5. **Select Profile**
+
+```python
+def select_profile_function(command):
+    profile_id = command.get("profile_id")
+    if profile_id is None:
+        return "Error: 'profile_id' field is required for 'select_profile' action."
+    try:
+        db["last_profile_id"] = profile_id
+        profile_name = profiles[profile_id].name
+        logger.debug(f"Switched to profile ID {profile_id} - {profile_name}")
+        return f"Switched to profile '{profile_name}'."
+    except Exception as e:
+        logger.error(f"Error switching profile: {e}")
+        return f"Error switching to profile with ID {profile_id}: {e}"
+
+command_registry["select_profile"] = select_profile_function
+```
+
+6. **Add Profile**
+
+```python
+def add_profile_function(command):
+    name = command.get("name")
+    address = command.get("address", "")
+    code = command.get("code", "")
+    if not name:
+        return "Error: 'name' field is required for 'add_profile' action."
+    max_priority = max((p.priority or 0 for p in profiles()), default=-1) + 1
+    new_profile = profiles.insert({
+        "name": name,
+        "address": address,
+        "code": code,
+        "active": True,
+        "priority": max_priority,
+    })
+    logger.debug(f"Added new profile: {new_profile}")
+    return f"Profile '{name}' added."
+
+command_registry["add_profile"] = add_profile_function
+```
+
+---
+
+## **Step 5: Integrate Command Execution into the Workflow**
+
+We need to modify the `chat_with_ollama` function to extract and execute any commands returned by the LLM.
+
+**Modify `chat_with_ollama`:**
+
+```python
+def chat_with_ollama(model: str, messages: list) -> str:
+    # Use conversation_history to get the full conversation including the system message
+    full_conversation = conversation_history()
+    full_conversation.append({"role": "user", "content": messages[-1]['content']})
+
+    url = "http://localhost:11434/api/chat"
+    payload = {
+        "model": model,
+        "messages": full_conversation,
+        "stream": False,
+    }
+    headers = {"Content-Type": "application/json"}
+
+    try:
+        response = requests.post(url, data=json.dumps(payload), headers=headers, timeout=30)
+        response.raise_for_status()
+        content = response.json()['message']['content']
+        logger.debug(f"Received response from Ollama: {content}")
+
+        # Add the AI's response to the conversation history
+        conversation_history(content, "assistant", quiet=True)
+
+        # Extract and execute commands
+        json_commands = extract_json_commands(content)
+        for command in json_commands:
+            result = execute_command(command)
+            # Optionally, send the result back to the LLM or user
+            logger.debug(f"Command execution result: {result}")
+
+        return content
+    except requests.exceptions.RequestException as e:
+        logger.error(f"An error occurred: {e}")
+        return OLLAMA_PLEASE
+```
+
+---
+
+## **Step 6: Handle Commands in WebSocket Handler**
+
+Modify the WebSocket handler to include the conversation history and execute any commands.
+
+**Modify the `ws` function:**
+
+```python
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    try:
+        conn_id = getattr(ws, 'conn_id', str(uuid4()))
+        ws.conn_id = conn_id
+
+        if msg.startswith("!table"):
+            # Existing code to handle '!table' commands
+            ...
+
+        if msg:
+            fig(font='script', text="Conversation History")
+            msg = f"In under {MAX_LLM_RESPONSE_WORDS} words: {msg}"
+            # Add user message to conversation history
+            conversation_history(msg, "user")
+
+            # Generate AI response using the conversation history
+            current_conversation = conversation_history()
+            response = await run_in_threadpool(chat_with_ollama, model, current_conversation)
+
+            # Add AI response to conversation history
+            conversation_history(response, "assistant")
+
+            # Extract and execute commands
+            json_commands = extract_json_commands(response)
+            for command in json_commands:
+                result = execute_command(command)
+                # Optionally, send the result back to the user
+                await ws_send_message(f"Command executed: {result}")
+
+            # Stream the response as before
+            ...
+
+    except WebSocketDisconnect:
+        ...
+    except Exception as e:
+        ...
+```
+
+**Implement `ws_send_message` Function:**
+
+```python
+async def ws_send_message(message):
+    for u in users.values():
+        await u(
+            Div(
+                message,
+                id='msg-list',
+                cls='fade-in',
+                style=MATRIX_STYLE,
+                _=f"this.scrollIntoView({{behavior: 'smooth'}});",
+            )
+        )
+```
+
+---
+
+## **Step 7: Handle Errors and Provide Feedback**
+
+Modify the `execute_command` function to return meaningful messages in case of errors, which can then be communicated back to the user.
+
+---
+
+## **Step 8: Update Conversation History**
+
+Ensure that the conversation history includes the commands and any execution results if necessary. This helps the LLM maintain context.
+
+---
+
+## **Step 9: Test the System**
+
+Test your application thoroughly:
+
+- Send messages to the chatbot that should trigger command outputs.
+- Verify that the LLM outputs commands in the correct format.
+- Ensure that commands are executed correctly and any changes are reflected in the UI.
+- Check that error handling works as expected when invalid commands are received.
+
+---
+
+## **Additional Considerations**
+
+- **Security:** Be cautious when executing commands generated by an AI model. Implement checks to prevent harmful actions.
+- **Command Confirmation:** You may want to require user confirmation before executing certain commands.
+- **Feedback Loop:** Consider how the LLM receives feedback about command execution. You can send execution results back to the LLM in the conversation history.
+
+---
+
+## **Summary**
+
+By following these steps, you integrate an instruction parsing and execution model into your `botifython.py` application, enabling dynamic interaction with your local LLM. The key is to:
+
+- Clearly define the expected command formats.
+- Instruct the LLM to output commands when appropriate.
+- Parse the LLM's responses to extract and execute commands.
+- Handle errors gracefully and maintain the conversation context.
+
+---
+
+If you have any questions or need further clarification on any of the steps, feel free to ask!
+
+---
+
+**Me**: That's great, o1-preview, but it's also very important that the local LLM be able to look at any table freely before and after it does anything else so it can be well informed of the IDs to select and operate on and the effect it had afterwards. Not only that, I want it to have access to a key-value store much like the one I'm using here for session and cookie-like purposes. The LLM should have one of its own where it can use the dict api to create new key-value pairs as it likes, and be able to query for the keys it possesses so it can use that knowledge in pulling up its own little explicit memories and reminders. So please update the complete instructions you just gave me, adding the table lookups before and after other code execution operations, and the little on-the-side memory for the LLM to play with, which doesn't reuse the table named `store` but rather makes a copy of it for safety and fun! Please and thank you!
+
+**o1-preview**: Certainly! Let's enhance your `botifython.py` code to allow your local LLM to:
+
+1. **Access table data before and after executing commands** so it can make informed decisions and verify the effects of its actions.
+2. **Maintain its own key-value store** for memories and reminders, separate from your application's store, which it can use via a simple API.
+
+---
+
+## **Step 1: Update the Command Schema**
+
+We need to add new commands to our JSON schema to enable the LLM to:
+
+- **Access Table Data**: Fetch and display data from tables.
+- **Manage Memory**: Get, set, and list keys in its own key-value store.
+
+### **New Commands**
+
+1. **Get Table Data**
+
+   ```json
+   {
+     "action": "get_table",
+     "table_name": "todo"
+   }
+   ```
+
+2. **Set Memory Key**
+
+   ```json
+   {
+     "action": "set_memory",
+     "key": "favorite_color",
+     "value": "blue"
+   }
+   ```
+
+3. **Get Memory Key**
+
+   ```json
+   {
+     "action": "get_memory",
+     "key": "favorite_color"
+   }
+   ```
+
+4. **List Memory Keys**
+
+   ```json
+   {
+     "action": "list_memory_keys"
+   }
+   ```
+
+---
+
+## **Step 2: Modify the System Prompt**
+
+Update the system prompt to inform the LLM about the new capabilities:
+
+```python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            "You are an assistant built into a private local app called {APP_NAME}. "
+            "You can perform actions by outputting JSON commands inside triple backticks like so: ```json { ... } ``` "
+            "Available commands are: "
+            "- `add_todo`: Add a new todo item. Fields: `name` (string). "
+            "- `delete_todo`: Delete a todo item. Fields: `item_id` (int). "
+            "- `toggle_todo`: Toggle a todo item's completion status. Fields: `item_id` (int). "
+            "- `update_todo`: Update a todo item's name. Fields: `item_id` (int), `name` (string). "
+            "- `select_profile`: Switch to a different profile. Fields: `profile_id` (int). "
+            "- `add_profile`: Add a new profile. Fields: `name` (string), `address` (string), `code` (string). "
+            "- `get_table`: Retrieve data from a table. Fields: `table_name` (string). "
+            "- `set_memory`: Store a value in your memory. Fields: `key` (string), `value` (string). "
+            "- `get_memory`: Retrieve a value from your memory. Fields: `key` (string). "
+            "- `list_memory_keys`: List all keys in your memory. "
+            "Always provide the JSON commands when you need to perform these actions, and ensure they are valid JSON. "
+            "You can access table data before and after actions to inform your decisions. "
+            "Respond to the user in a friendly and helpful manner, and keep your responses under {MAX_LLM_RESPONSE_WORDS} words. "
+        ),
+    },
+]
+```
+
+---
+
+## **Step 3: Implement Memory Store for the LLM**
+
+Create a simple in-memory key-value store for the LLM:
+
+**Add this near the top of your code:**
+
+```python
+# LLM Memory Store
+llm_memory_store = {}
+```
+
+---
+
+## **Step 4: Update Command Execution Functions**
+
+Implement functions for the new commands and update the command registry.
+
+### **1. Get Table Data**
+
+```python
+def get_table_function(command):
+    table_name = command.get("table_name")
+    if not table_name:
+        return "Error: 'table_name' field is required for 'get_table' action."
+
+    if table_name == 'todo':
+        items = [item.__dict__ for item in todos()]
+    elif table_name == 'profile':
+        items = [item.__dict__ for item in profiles()]
+    else:
+        return f"Error: Table '{table_name}' not found."
+
+    # Convert to JSON string
+    table_data = json.dumps(items, indent=2)
+    logger.debug(f"Retrieved data from table '{table_name}'.")
+    return f"Contents of table '{table_name}':\n```json\n{table_data}\n```"
+
+command_registry["get_table"] = get_table_function
+```
+
+### **2. Set Memory Key**
+
+```python
+def set_memory_function(command):
+    key = command.get("key")
+    value = command.get("value")
+    if key is None or value is None:
+        return "Error: 'key' and 'value' fields are required for 'set_memory' action."
+
+    llm_memory_store[key] = value
+    logger.debug(f"Set memory key '{key}' to '{value}'.")
+    return f"Memory key '{key}' set to '{value}'."
+
+command_registry["set_memory"] = set_memory_function
+```
+
+### **3. Get Memory Key**
+
+```python
+def get_memory_function(command):
+    key = command.get("key")
+    if key is None:
+        return "Error: 'key' field is required for 'get_memory' action."
+
+    value = llm_memory_store.get(key)
+    if value is not None:
+        logger.debug(f"Retrieved memory key '{key}' with value '{value}'.")
+        return f"Memory key '{key}' has value '{value}'."
+    else:
+        return f"Memory key '{key}' not found."
+
+command_registry["get_memory"] = get_memory_function
+```
+
+### **4. List Memory Keys**
+
+```python
+def list_memory_keys_function(command):
+    keys = list(llm_memory_store.keys())
+    logger.debug(f"Listing memory keys: {keys}")
+    if keys:
+        return f"Memory keys: {', '.join(keys)}"
+    else:
+        return "Memory is empty."
+
+command_registry["list_memory_keys"] = list_memory_keys_function
+```
+
+---
+
+## **Step 5: Update the Command Execution Workflow**
+
+Modify the `execute_command` function to perform table lookups before and after executing commands.
+
+**Modify `execute_command`:**
+
+```python
+def execute_command(command):
+    """
+    Execute a command based on the action specified in the command dictionary.
+    """
+    action = command.get("action")
+    if not action:
+        logger.error("No action specified in command.")
+        return "Error: No action specified."
+
+    func = command_registry.get(action)
+    if not func:
+        logger.error(f"Unknown action: {action}")
+        return f"Error: Unknown action '{action}'."
+
+    # Perform table lookup before execution if relevant
+    pre_action_data = ""
+    if action in ["add_todo", "delete_todo", "toggle_todo", "update_todo"]:
+        pre_action_data = get_table_function({"table_name": "todo"})
+
+    try:
+        result = func(command)
+        logger.debug(f"Executed action '{action}' with result: {result}")
+    except Exception as e:
+        logger.error(f"Error executing action '{action}': {e}")
+        return f"Error executing action '{action}': {e}"
+
+    # Perform table lookup after execution if relevant
+    post_action_data = ""
+    if action in ["add_todo", "delete_todo", "toggle_todo", "update_todo"]:
+        post_action_data = get_table_function({"table_name": "todo"})
+
+    # Combine pre-action data, result, and post-action data
+    combined_result = ""
+    if pre_action_data:
+        combined_result += f"Before action:\n{pre_action_data}\n\n"
+    combined_result += f"Action result:\n{result}\n\n"
+    if post_action_data:
+        combined_result += f"After action:\n{post_action_data}"
+
+    return combined_result.strip()
+```
+
+---
+
+## **Step 6: Integrate Memory Store into Conversation History**
+
+Ensure that the LLM's memory store is accessible during conversation generation.
+
+**Modify `chat_with_ollama`:**
+
+```python
+def chat_with_ollama(model: str, messages: list) -> str:
+    # Use conversation_history to get the full conversation including the system message
+    full_conversation = conversation_history()
+    full_conversation.append({"role": "user", "content": messages[-1]['content']})
+
+    # Include LLM memory keys in the system prompt
+    memory_keys = list(llm_memory_store.keys())
+    if memory_keys:
+        memory_info = f"\n\nYou have the following memory keys: {', '.join(memory_keys)}."
+        full_conversation[0]['content'] += memory_info
+
+    url = "http://localhost:11434/api/chat"
+    payload = {
+        "model": model,
+        "messages": full_conversation,
+        "stream": False,
+    }
+    headers = {"Content-Type": "application/json"}
+
+    try:
+        response = requests.post(url, data=json.dumps(payload), headers=headers, timeout=30)
+        response.raise_for_status()
+        content = response.json()['message']['content']
+        logger.debug(f"Received response from Ollama: {content}")
+
+        # Add the AI's response to the conversation history
+        conversation_history(content, "assistant", quiet=True)
+
+        # Extract and execute commands
+        json_commands = extract_json_commands(content)
+        for command in json_commands:
+            result = execute_command(command)
+            # Send the result back to the LLM in the conversation history
+            conversation_history(f"Command execution result:\n{result}", "system")
+
+        return content
+    except requests.exceptions.RequestException as e:
+        logger.error(f"An error occurred: {e}")
+        return OLLAMA_PLEASE
+```
+
+---
+
+## **Step 7: Handle Commands in WebSocket Handler**
+
+Modify the WebSocket handler to include execution results in the user's chat interface.
+
+**Modify the `ws` function:**
+
+```python
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    try:
+        conn_id = getattr(ws, 'conn_id', str(uuid4()))
+        ws.conn_id = conn_id
+
+        if msg.startswith("!table"):
+            # Existing code to handle '!table' commands
+            ...
+
+        if msg:
+            fig(font='script', text="Conversation History")
+            # Add user message to conversation history
+            conversation_history(msg, "user")
+
+            # Generate AI response using the conversation history
+            current_conversation = conversation_history()
+            response = await run_in_threadpool(chat_with_ollama, model, current_conversation)
+
+            # Add AI response to conversation history
+            conversation_history(response, "assistant")
+
+            # Extract and execute commands
+            json_commands = extract_json_commands(response)
+            for command in json_commands:
+                result = execute_command(command)
+                # Send the result back to the user
+                await ws_send_message(f"Command execution result:\n{result}")
+
+            # Stream the response as before
+            ...
+
+    except WebSocketDisconnect:
+        ...
+    except Exception as e:
+        ...
+```
+
+---
+
+## **Step 8: Update Conversation History Display**
+
+Ensure that the conversation history includes the memory keys and any execution results.
+
+**Modify `conversation_history`:**
+
+```python
+def conversation_history(message=None, role="user", quiet=False):
+    ...
+    if message is not None:
+        # If the history is empty or the first message isn't a system message, add the system prompt
+        if not global_conversation_history or global_conversation_history[0]['role'] != 'system':
+            # Include memory keys in the system message
+            memory_keys = list(llm_memory_store.keys())
+            memory_info = f"\n\nYou have the following memory keys: {', '.join(memory_keys)}." if memory_keys else ""
+            system_message = conversation[0]['content'] + memory_info
+            global_conversation_history.appendleft({"role": "system", "content": system_message})
+        ...
+```
+
+---
+
+## **Step 9: Test the System**
+
+Test the new features by interacting with the chatbot:
+
+- Ask the chatbot to display the contents of a table.
+
+  Example:
+
+  **User:** "Show me the todo list."
+
+  **Chatbot Response:**
+
+  ```
+  Here is the todo list:
+
+  ```json
+  {
+    "action": "get_table",
+    "table_name": "todo"
+  }
+  ```
+  ```
+
+- Set and retrieve memory keys.
+
+  Example:
+
+  **User:** "Remember that my favorite color is green."
+
+  **Chatbot Response:**
+
+  ```
+  Got it! I've stored that information.
+
+  ```json
+  {
+    "action": "set_memory",
+    "key": "favorite_color",
+    "value": "green"
+  }
+  ```
+  ```
+
+  **User:** "What's my favorite color?"
+
+  **Chatbot Response:**
+
+  ```
+  Your favorite color is green.
+
+  ```json
+  {
+    "action": "get_memory",
+    "key": "favorite_color"
+  }
+  ```
+  ```
+
+---
+
+## **Additional Enhancements**
+
+- **Safety Checks:** Ensure that the LLM cannot access unauthorized data or perform harmful actions. Implement validation and sanitization where necessary.
+
+- **Memory Persistence:** If you want the LLM's memory to persist across sessions, consider storing `llm_memory_store` in a persistent database.
+
+- **Feedback Loop:** You might want to include the execution results in the conversation history to provide context to the LLM.
+
+---
+
+## **Summary**
+
+By implementing these changes, your local LLM now has the ability to:
+
+- Access table data before and after executing actions, allowing it to make informed decisions and verify the effects of its actions.
+
+- Maintain its own key-value memory store to keep track of custom information, enhancing its ability to remember and utilize past interactions.
+
+These enhancements provide the LLM with greater context and capabilities, enabling more dynamic and intelligent interactions within your application.
+
+---
+
+If you have any further questions or need assistance with specific parts of the implementation, feel free to ask!
