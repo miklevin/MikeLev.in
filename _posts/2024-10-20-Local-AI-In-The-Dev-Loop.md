@@ -174,7 +174,7 @@ Is there a specific part of this code you'd like me to focus on or any particula
 
 **Claude**: Based on the code you've shared, this application appears to be quite sophisticated and well-structured. Here's an evaluation of how it measures up:
 
-Strengths:
+## Strengths:
 
 1. Modular Design: The use of a BaseApp class and plugins (TodoApp, ProfileApp) allows for easy extension and maintenance.
 
@@ -192,7 +192,7 @@ Strengths:
 
 8. Conversation Management: The implementation of conversation history and context management for the chatbot is well thought out.
 
-Areas for Potential Improvement:
+## Areas for Potential Improvement:
 
 1. Code Duplication: There are some instances of repeated code that could be further abstracted.
 
