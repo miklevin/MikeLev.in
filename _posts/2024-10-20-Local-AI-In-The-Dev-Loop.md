@@ -1,7 +1,7 @@
 ---
 title: Local AI In The Dev Loop
 permalink: /local-ai-in-the-dev-loop/
-description: 
+description: Exploring AI-powered app development, this article covers lessons from building with HTMX, WebSockets, and local LLMs. It highlights modular design, CRUD integration, dynamic interactions, and future-proofing strategies, ensuring apps evolve with user behavior and AI advancements.
 layout: post
 sort_order: 1
 ---
