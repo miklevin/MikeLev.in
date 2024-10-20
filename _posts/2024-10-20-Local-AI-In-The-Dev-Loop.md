@@ -3544,9 +3544,166 @@ use them to pull up its values. In this way, it can store stuff for itself, just
 like the `store` table I made in `sqlite` for cookie-like persistence in the app
 without relying on the browser.
 
+## SQLite, Faiss and Milvus and Long-Term Memory Options for LLMs
+
 Once you have sqlite, there's a ton of stuff you can do that... ugh, it's an
 article in itself. Suffice to say, I think I ought to give the LLM its own
 `DictLikeDB` that's used elsewhere in the system, teach it that it has one and
-how to use it. I could easily imagine it using it for remembering the user's
-name, for example. That seems like the quintiessential example, but there's
-countless possiblities. If you give an LLM explicit long-term memory...
+how to use it. It's its own configuration, dotenv or cookie store. It gets to
+decide for itself and organize its own keys to values. I could easily imagine it
+using it for remembering the user's name, for example. That seems like the
+quintiessential example, but there's countless possiblities. If you give an LLM
+explicit long-term memory...
+
+However, after a rudimentary and explicit JSON/Python dict-like long-term memory
+of simple key-value pairs which is a sure-thing for me to implement, there are
+two other types of long-term memory I'm thinking about for today's work:
+
+- SQL full-text search (sqllite3 will do)
+- Vector database with embeddings (faiss vs. milvus) for RAG searches like
+  cosine nearness similarity matching to past conversations, user actions and
+  documents
+
+## Planning Permanent Storage for Accumulated Log-File Data
+
+Of these, obviously the second is the sexy, sexy one that aligns with all the
+buzz. And I have to get to it as it is a huge unlock. For example, documents
+should be able to be uploaded so that you can teach the LLM how to be expert at
+something. 
+
+### Rabbithole-avoidance
+
+All that log-file like data I'm accumulating now that only goes into a temporary
+conversation context window based on the way the Ollama chat API words needs to
+go somewhere more permanent. I may just dump a bunch of textfiles from the
+standard Python logging tools (I use loguru) with a capture-now/train-later
+attitude. I'm not really sure. That'd be rabbithole-avoidance, but it may be
+appropriate at this point, because the moment I plunge down that path, the day's
+shot. There's too much for me to learn there for it not to be. And I've got to
+be further along by the end of the day than just that.
+
+## File Uploads for LLM Training and Vector Embeddings
+
+I need to have the hook for that. I need to be able to point to something and
+go, look! That's where file uploads occur, that's how the indexing
+happens&#151;or whatever it's called in the vector emedding world. Oh, file
+uploads! And the particular 2 apps I need to plug in pronto. Let me talk about
+those as I evaluate today.
+
+What's more important, the file-upload mechanism or abosorbing the documents
+into RAG-search once uploaded? The file-upload is probably easier as I'm pretty
+sure it's a built-in mechanism of the Flask-like `Starlette` ASGI package that
+FastHTML is built on. Perplexity?
+
+---
+
+**Perplexity**: Starlette provides robust support for handling file uploads through its UploadFile class. Here are the key points about file uploads in Starlette:
+
+## Receiving File Uploads
+
+To receive file uploads in a Starlette application:
+
+1. Define a parameter of type UploadFile in your route handler function[1].
+
+2. Access the uploaded file through the Request object's form() method[1].
+
+For example:
+
+```python
+from starlette.requests import Request
+from starlette.responses import JSONResponse
+
+async def upload_file(request: Request):
+    form = await request.form()
+    uploaded_file = form["file"]
+    
+    return JSONResponse({"filename": uploaded_file.filename})
+```
+
+## UploadFile Properties
+
+The UploadFile object provides several useful properties[1]:
+
+- filename: Original filename of the uploaded file
+- content_type: MIME type of the file
+- file: A SpooledTemporaryFile object containing the file data
+- size: Size of the file in bytes
+
+## Reading File Contents
+
+You can read the contents of an uploaded file asynchronously[1]:
+
+```python
+contents = await uploaded_file.read()
+```
+
+## File Operations
+
+UploadFile provides async methods for common file operations[1]:
+
+- read(size): Read bytes from the file
+- write(data): Write bytes to the file  
+- seek(offset): Move to a position in the file
+- close(): Close the file
+
+## Handling Large Files
+
+For large file uploads, you can stream the contents without loading everything into memory[1]:
+
+```python
+async for chunk in request.stream():
+    # Process chunk
+```
+
+## Saving Uploaded Files
+
+To save an uploaded file:
+
+1. Read the file contents
+2. Write the contents to the desired location
+
+For example, to save to Azure blob storage[3]:
+
+```python
+bytes_file = await file.read()
+container_client.upload_blob(name='filename', data=bytes_file)
+```
+
+By leveraging these capabilities, Starlette makes it straightforward to handle file uploads securely and efficiently in your web applications.
+
+Citations:
+
+    [1] https://www.starlette.io/requests/
+    [2] https://fastapi.tiangolo.com/reference/uploadfile/
+    [3] https://stackoverflow.com/questions/76410653/uploading-a-starlette-uploadfile-object-using-azure-upload-blob-method-throws-ex
+    [4] https://accent-starlette.github.io/starlette-files/handling_files/
+    [5] https://github.com/encode/starlette/issues/446
+    [6] https://fastapi.tiangolo.com/tutorial/request-files/
+    [7] https://www.starlette.io/third-party-packages/
+    [8] https://github.com/encode/starlette/blob/master/starlette/datastructures.pyo
+
+---
+
+Yeah, so success assured on that front. But totally deferrable because this is
+really a local app on your machine and I could also just pop open folders using
+Python's os-library's ability to do such things. I could of course control that
+detail and even the file naming if I controlled the file upload through the web
+app. But this may just be the rabbit hole to skip exploring today.
+
+## Porting Remaining Jupyter Notebook Apps to New System Urgently Needed
+
+And finally, there are 2 Jupyter Notebook apps that I still just have to port to
+the new system. That's pretty urgent too because a lot of discussions about what
+I'm doing surround these two apps. One is actually already ported to my first
+try with FastHTML, and I love it, but it's a dead-end codebase-wise. I made all
+the wrong decisions regarding persistence and data-streaming, both of which are
+formally and beautifully integrated in FastHTML, and my old methods are to be
+ditched.
+
+### The Obsolescence of Python APIs Is Rarely Actually Obsolete
+
+This is the kind of obsolescence that's okay, because it's all still Python and
+the code signatures are all nearly identical. It's like the difference between
+`Flask` and `Starlette`. One never really obsoletes the other, because they're
+all part of one big happy Pythonic preferred API for a problem domain family.
+Does that make sense?
