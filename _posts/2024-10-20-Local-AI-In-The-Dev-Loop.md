@@ -168,6 +168,8 @@ Claude 3.5 sonnet's latest thoughts on the code base:
 
 Is there a specific part of this code you'd like me to focus on or any particular questions you have about its functionality or structure?
 
+# Measuring Up
+
 **Me**: How does it measure up?
 
 **Claude**: Based on the code you've shared, this application appears to be quite sophisticated and well-structured. Here's an evaluation of how it measures up:
@@ -4184,6 +4186,11 @@ If you have any questions or need further clarification on any of the steps, fee
 
 ---
 
+# Look Before Leaping
+
+
+## Local LLM Should Have Access to Table Lookups and Key-Value Store
+
 **Me**: That's great, o1-preview, but it's also very important that the local LLM be able to look at any table freely before and after it does anything else so it can be well informed of the IDs to select and operate on and the effect it had afterwards. Not only that, I want it to have access to a key-value store much like the one I'm using here for session and cookie-like purposes. The LLM should have one of its own where it can use the dict api to create new key-value pairs as it likes, and be able to query for the keys it possesses so it can use that knowledge in pulling up its own little explicit memories and reminders. So please update the complete instructions you just gave me, adding the table lookups before and after other code execution operations, and the little on-the-side memory for the LLM to play with, which doesn't reuse the table named `store` but rather makes a copy of it for safety and fun! Please and thank you!
 
 **o1-preview**: Certainly! Let's enhance your `botifython.py` code to allow your local LLM to:
@@ -4611,6 +4618,384 @@ By implementing these changes, your local LLM now has the ability to:
 - Maintain its own key-value memory store to keep track of custom information, enhancing its ability to remember and utilize past interactions.
 
 These enhancements provide the LLM with greater context and capabilities, enabling more dynamic and intelligent interactions within your application.
+
+---
+
+If you have any further questions or need assistance with specific parts of the implementation, feel free to ask!
+
+---
+
+# Use LLM to Measure Twice
+
+## LLM-Integrated Sentiment Analysis for Safe JSON Execution
+
+**Me**: This is all well and good, and I will follow your advice dilligently! But one more element I need is a function where the local LLM can look at the full response from the LLM that has embedded JSON and do a sentiment analysis to determine whether the LLM really intended for that code to be executed or not. A lot of times, the LLM in learning "how to spaeak" the JSON nomenclature of the system does so just to show off or to express how something could have been said in JSON. I need this function both to do the execution of the JSON from the response and to provide a sentiment or confidence score of whether or not the JSON should really be executed. There should be a thresshold over which it is True and under which it is False. The function should return the extracted JSON, the score and the safe_to_execute bool. Work it into your prior advice. Speaking of which, also give me the fast_app factory instance instantiation to have the LLM's own store. Maybe we should name it llmem, haha! Please and thank you!
+
+**o1-preview**: Certainly! Let's enhance your `botifython.py` code to include:
+
+1. **A function to analyze the LLM's response** and determine whether any embedded JSON commands should be executed, based on a confidence score.
+2. **An LLM-specific key-value store (`llmem`)** integrated into the `fast_app` factory instance, allowing the LLM to store and retrieve its own data safely.
+
+---
+
+## **Step 1: Implement the JSON Extraction and Sentiment Analysis Function**
+
+We need a function that:
+
+- **Extracts JSON commands** from the LLM's response.
+- **Analyzes the sentiment or intent** to decide if the commands are intended to be executed.
+- **Returns**:
+  - The extracted JSON commands.
+  - A confidence score.
+  - A boolean `safe_to_execute` indicating whether the commands should be executed.
+
+### **Function Implementation**
+
+```python
+import re
+from textblob import TextBlob  # You'll need to install textblob library
+import json
+
+def extract_and_analyze_commands(response_text, threshold=0.5):
+    """
+    Extract JSON commands from the response and analyze intent.
+
+    Args:
+        response_text (str): The LLM's response text.
+        threshold (float): Confidence threshold for executing commands.
+
+    Returns:
+        List[Dict]: List of extracted commands.
+        float: Confidence score.
+        bool: Whether it is safe to execute the commands.
+    """
+    # Extract JSON code blocks
+    pattern = r'```json\s*(\{.*?\})\s*```'
+    matches = re.findall(pattern, response_text, re.DOTALL)
+    json_commands = []
+    for match in matches:
+        try:
+            command = json.loads(match)
+            json_commands.append(command)
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON decode error: {e}")
+            logger.debug(f"Failed JSON: {match}")
+
+    # Analyze sentiment of the response to determine intent
+    blob = TextBlob(response_text)
+    sentiment = blob.sentiment.polarity  # Ranges from -1 (negative) to 1 (positive)
+
+    # Normalize sentiment to a confidence score between 0 and 1
+    confidence_score = (sentiment + 1) / 2
+
+    # Determine if it's safe to execute based on threshold
+    safe_to_execute = confidence_score >= threshold
+
+    logger.debug(f"Sentiment analysis score: {confidence_score}")
+    logger.debug(f"Safe to execute: {safe_to_execute}")
+
+    return json_commands, confidence_score, safe_to_execute
+```
+
+**Note:** You need to install `textblob` and download its necessary data:
+
+```bash
+pip install textblob
+python -m textblob.download_corpora
+```
+
+---
+
+## **Step 2: Update Command Execution Workflow**
+
+Modify your code to use the new function when processing the LLM's response.
+
+### **Modify `chat_with_ollama` Function**
+
+Replace the previous extraction and execution code with the new function:
+
+```python
+def chat_with_ollama(model: str, messages: list) -> str:
+    # Existing code...
+
+    try:
+        # Existing code to get the response from Ollama...
+
+        # Add the AI's response to the conversation history
+        conversation_history(content, "assistant", quiet=True)
+
+        # Extract and analyze commands
+        commands, confidence_score, safe_to_execute = extract_and_analyze_commands(content)
+
+        if safe_to_execute:
+            for command in commands:
+                result = execute_command(command)
+                # Optionally, send the result back to the LLM or user
+                logger.debug(f"Command execution result: {result}")
+        else:
+            logger.warning("Commands not executed due to low confidence score.")
+            logger.debug(f"Confidence score: {confidence_score}")
+
+        return content
+    except requests.exceptions.RequestException as e:
+        logger.error(f"An error occurred: {e}")
+        return OLLAMA_PLEASE
+```
+
+---
+
+## **Step 3: Adjust the Command Execution Function**
+
+Ensure that `execute_command` handles the list of commands and integrates with the analysis function.
+
+```python
+def execute_commands(commands):
+    """
+    Execute a list of commands.
+
+    Args:
+        commands (List[Dict]): List of command dictionaries.
+
+    Returns:
+        List[str]: Results of command executions.
+    """
+    results = []
+    for command in commands:
+        result = execute_command(command)
+        results.append(result)
+    return results
+```
+
+---
+
+## **Step 4: Update the WebSocket Handler**
+
+Modify the WebSocket handler to include the sentiment analysis step.
+
+```python
+@app.ws('/ws', conn=on_conn, disconn=on_disconn)
+async def ws(msg: str):
+    try:
+        # Existing code...
+
+        if msg:
+            # Existing code to add user message to conversation history...
+
+            # Generate AI response using the conversation history
+            current_conversation = conversation_history()
+            response = await run_in_threadpool(chat_with_ollama, model, current_conversation)
+
+            # Add AI response to conversation history
+            conversation_history(response, "assistant")
+
+            # Extract and analyze commands
+            commands, confidence_score, safe_to_execute = extract_and_analyze_commands(response)
+
+            if safe_to_execute:
+                results = execute_commands(commands)
+                # Send the execution results back to the user
+                await ws_send_message(f"Commands executed with confidence score {confidence_score}:\n{results}")
+            else:
+                await ws_send_message(f"Commands not executed due to low confidence score ({confidence_score}).")
+
+            # Stream the response as before
+            # Existing code to stream response...
+
+    except WebSocketDisconnect:
+        # Existing code...
+    except Exception as e:
+        # Existing code...
+```
+
+---
+
+## **Step 5: Integrate LLM's Own Store into `fast_app`**
+
+Modify your `fast_app` instantiation to include the LLM's own key-value store.
+
+### **Add `llmem` to `fast_app`**
+
+```python
+app, rt, (store, Store), (tasks, Task), (customers, Customer), (llmem, LLMemory) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    hdrs=(
+        SortableJSWithUpdate('.sortable'),
+        Script(type='module')
+    ),
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    task={
+        "id": int,
+        "name": str,
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+    customer={
+        "id": int,
+        "name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id"
+    },
+    llmem={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+)
+```
+
+### **Update the LLM Memory Store**
+
+Replace the in-memory `llm_memory_store` with a persistent store:
+
+```python
+# LLM Memory Store
+llm_memory = DictLikeDB(llmem, LLMemory)
+logger.debug("LLM memory store initialized.")
+```
+
+---
+
+## **Step 6: Modify Command Execution Functions for Memory**
+
+Update the memory-related command functions to use the new `llm_memory` store.
+
+### **Set Memory Key**
+
+```python
+def set_memory_function(command):
+    key = command.get("key")
+    value = command.get("value")
+    if key is None or value is None:
+        return "Error: 'key' and 'value' fields are required for 'set_memory' action."
+
+    llm_memory[key] = value
+    logger.debug(f"Set memory key '{key}' to '{value}'.")
+    return f"Memory key '{key}' set to '{value}'."
+```
+
+### **Get Memory Key**
+
+```python
+def get_memory_function(command):
+    key = command.get("key")
+    if key is None:
+        return "Error: 'key' field is required for 'get_memory' action."
+
+    value = llm_memory.get(key)
+    if value is not None:
+        logger.debug(f"Retrieved memory key '{key}' with value '{value}'.")
+        return f"Memory key '{key}' has value '{value}'."
+    else:
+        return f"Memory key '{key}' not found."
+```
+
+### **List Memory Keys**
+
+```python
+def list_memory_keys_function(command):
+    keys = llm_memory.keys()
+    logger.debug(f"Listing memory keys: {keys}")
+    if keys:
+        return f"Memory keys: {', '.join(keys)}"
+    else:
+        return "Memory is empty."
+```
+
+---
+
+## **Step 7: Update the System Prompt to Reflect Persistent Memory**
+
+Modify the system prompt to indicate that the LLM's memory is persistent and stored safely.
+
+```python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            "You are an assistant built into a private local app called {APP_NAME}. "
+            "You have your own persistent memory store, separate from the user's data. "
+            "You can perform actions by outputting JSON commands inside triple backticks like so: ```json { ... } ``` "
+            # Rest of the prompt...
+        ),
+    },
+]
+```
+
+---
+
+## **Step 8: Include Memory Keys in the Conversation History**
+
+Update `conversation_history` to include the LLM's memory keys.
+
+```python
+def conversation_history(message=None, role="user", quiet=False):
+    # Existing code...
+
+    if message is not None:
+        # Include memory keys in the system message
+        if not global_conversation_history or global_conversation_history[0]['role'] != 'system':
+            memory_keys = llm_memory.keys()
+            memory_info = f"\n\nYou have the following memory keys: {', '.join(memory_keys)}." if memory_keys else ""
+            system_message = conversation[0]['content'] + memory_info
+            global_conversation_history.appendleft({"role": "system", "content": system_message})
+
+        # Existing code...
+```
+
+---
+
+## **Step 9: Update the Sentiment Analysis Threshold**
+
+Define a threshold for the confidence score to decide whether to execute commands.
+
+```python
+# Define a confidence threshold (e.g., 0.7)
+CONFIDENCE_THRESHOLD = 0.7
+
+# Update the function call
+commands, confidence_score, safe_to_execute = extract_and_analyze_commands(response, threshold=CONFIDENCE_THRESHOLD)
+```
+
+---
+
+## **Step 10: Test the System Thoroughly**
+
+- **Test with LLM responses** that include JSON commands meant to be executed.
+- **Test with LLM responses** that include JSON examples not meant to be executed.
+- **Verify** that commands are only executed when `safe_to_execute` is `True`.
+- **Check** the confidence scores to ensure the threshold is appropriate.
+
+---
+
+## **Additional Considerations**
+
+- **Improve Sentiment Analysis**: You might consider using a more sophisticated model or method to analyze intent, such as using a classifier trained on your specific use case.
+- **Error Handling**: Ensure that any exceptions are caught and handled gracefully, logging errors where appropriate.
+- **Security**: Always sanitize and validate commands before execution to prevent any unintended actions.
+
+---
+
+## **Summary**
+
+By following these steps, you have:
+
+- Implemented a function to analyze the LLM's response and determine whether embedded JSON commands should be executed.
+- Integrated this function into your command execution workflow.
+- Added a persistent, LLM-specific key-value store (`llmem`) to your application, allowing the LLM to manage its own data safely.
+- Updated the system prompt and conversation history to reflect these changes.
+
+These enhancements improve the reliability and safety of your application, ensuring that only intended actions are executed and that the LLM has a secure place to store and retrieve its own data.
 
 ---
 
