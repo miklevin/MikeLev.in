@@ -133,7 +133,7 @@ and it can. Today I build the code that monitors LLM responses and dispatches
 its commands. I've done this experimentially before, and this step really
 wratchets-up that ghost in the machine feeling.
 
-## Cleanup Before the Storm
+## The Cleanup Before the Storm
 
 ### Code Quality Insights From AI Model Analysis
 
