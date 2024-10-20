@@ -3473,12 +3473,22 @@ serve()
 
 ## Installed Logitch MX Brio in NixOS Linux in Seconds
 
-And all of that is just getting started for the day. And I got my new Logitch MX
-Brio working on my NixOS Linux too! It was one of the easiest hardware installs
-I ever did. I searched in Perplexity.AI on ***install mx brio on nixos*** and
-took the copy/paste markdown, pasteed it in ***Code AI*** with my NixOS
-`configuration.nix` file loaded, and it just made the changes to the file, told
-me to `sudo nixos-rebuild switch` and Voilà! It was telling me to say `cheese`!
-Or at least to type it into my terminal, as Claude knew to suggest some software
-to get me started, as Cheese is a webcam app on Linux. The times, they are
-a-changin'. Anyone who thinks Macs and Windows are the future, think again.
+And all of that is just getting started for the day, and it's not even 9AM yet.
+And I got my new Logitch MX Brio working on my NixOS Linux too! It was one of
+the easiest hardware installs I ever did. I searched in Perplexity.AI on
+***install mx brio on nixos*** and took the copy/paste markdown, pasteed it in
+***Code AI*** with my NixOS `configuration.nix` file loaded, and it just made
+the changes to the file, told me to `sudo nixos-rebuild switch` and Voilà! It
+was telling me to say `cheese`! Or at least to type it into my terminal, as
+Claude knew to suggest some software to get me started, as Cheese is a webcam
+app on Linux. The times, they are a-changin'.
+
+### The Future Was Here &#151; and Is Again!
+
+Anyone who thinks Macs and Windows are the future, think again. Now maybe I'll
+get my YouTube video series going again. So much new material! And so aligned
+with the world the way it is today. It's like being in love with the Amiga
+computer all over again, but this time it's mainstream skills and knowledge I'm
+acquiring. Amazing! Speaking of which, the Commodore 64x has been released
+(again)! I got my original (original copy?) in like 2012 or something, but I
+just ordered the profoundly cool retro computer platform as a gift for someone.
