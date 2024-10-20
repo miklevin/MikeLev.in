@@ -3702,6 +3702,24 @@ the wrong decisions regarding persistence and data-streaming, both of which are
 formally and beautifully integrated in FastHTML, and my old methods are to be
 ditched.
 
+### Creating a New Instance of the TodoApp Class for Stress Testing
+
+This port greatly involves creating another instance of the `TodoApp` class.
+Honestly, I could recycle the first one in place but I have to give the plugin
+system some stress testing and be ready to stamp out simple todo-apps in a
+heartbeat. That's the basic premise of these agile crud frameworks and I've
+built in the **base class**, **model classes**, but now I have to stamp out
+variations or more derivatives of the base class. Potential rabbit hole. Can be
+deferred for now. 
+
+### Avoiding Disruptions in Database Renaming Decisions Is Crucial Always
+
+I do have to be thoughtful about not renaming tables and fields on people if
+they start working with the system before those decisions are locked down. In
+other words, if I recycle TodoApp as a Competitor-list, then make a real
+Competitor table later on, I've broken reverse compatibly&#151;especially
+disruptive considering the auto-git-deploy system.
+
 ### The Obsolescence of Python APIs Is Rarely Actually Obsolete
 
 This is the kind of obsolescence that's okay, because it's all still Python and
@@ -4191,7 +4209,20 @@ If you have any questions or need further clarification on any of the steps, fee
 
 ## Local LLM Should Have Access to Table Lookups and Key-Value Store
 
-**Me**: That's great, o1-preview, but it's also very important that the local LLM be able to look at any table freely before and after it does anything else so it can be well informed of the IDs to select and operate on and the effect it had afterwards. Not only that, I want it to have access to a key-value store much like the one I'm using here for session and cookie-like purposes. The LLM should have one of its own where it can use the dict api to create new key-value pairs as it likes, and be able to query for the keys it possesses so it can use that knowledge in pulling up its own little explicit memories and reminders. So please update the complete instructions you just gave me, adding the table lookups before and after other code execution operations, and the little on-the-side memory for the LLM to play with, which doesn't reuse the table named `store` but rather makes a copy of it for safety and fun! Please and thank you!
+**Me**: That's great, o1-preview, but it's also very important that the local
+LLM be able to look at any table freely before and after it does anything else
+so it can be well informed of the IDs to select and operate on and the effect it
+had afterwards. Not only that, I want it to have access to a key-value store
+much like the one I'm using here for session and cookie-like purposes.
+
+he LLM should have one of its own where it can use the dict api to create new
+key-value pairs as it likes, and be able to query for the keys it possesses so
+it can use that knowledge in pulling up its own little explicit memories and
+reminders. So please update the complete instructions you just gave me, adding
+the table lookups before and after other code execution operations, and the
+little on-the-side memory for the LLM to play with, which doesn't reuse the
+table named `store` but rather makes a copy of it for safety and fun! Please and
+thank you!
 
 **o1-preview**: Certainly! Let's enhance your `botifython.py` code to allow your local LLM to:
 
@@ -4629,7 +4660,21 @@ If you have any further questions or need assistance with specific parts of the 
 
 ## LLM-Integrated Sentiment Analysis for Safe JSON Execution
 
-**Me**: This is all well and good, and I will follow your advice dilligently! But one more element I need is a function where the local LLM can look at the full response from the LLM that has embedded JSON and do a sentiment analysis to determine whether the LLM really intended for that code to be executed or not. A lot of times, the LLM in learning "how to spaeak" the JSON nomenclature of the system does so just to show off or to express how something could have been said in JSON. I need this function both to do the execution of the JSON from the response and to provide a sentiment or confidence score of whether or not the JSON should really be executed. There should be a thresshold over which it is True and under which it is False. The function should return the extracted JSON, the score and the safe_to_execute bool. Work it into your prior advice. Speaking of which, also give me the fast_app factory instance instantiation to have the LLM's own store. Maybe we should name it llmem, haha! Please and thank you!
+**Me**: This is all well and good, and I will follow your advice dilligently!
+But one more element I need is a function where the local LLM can look at the
+full response from the LLM that has embedded JSON and do a sentiment analysis to
+determine whether the LLM really intended for that code to be executed or not. A
+lot of times, the LLM in learning "how to spaeak" the JSON nomenclature of the
+system does so just to show off or to express how something could have been said
+in JSON. 
+
+I need this function both to do the execution of the JSON from the response and
+to provide a sentiment or confidence score of whether or not the JSON should
+really be executed. There should be a thresshold over which it is True and under
+which it is False. The function should return the extracted JSON, the score and
+the safe_to_execute bool. Work it into your prior advice. Speaking of which,
+also give me the fast_app factory instance instantiation to have the LLM's own
+store. Maybe we should name it llmem, haha! Please and thank you!
 
 **o1-preview**: Certainly! Let's enhance your `botifython.py` code to include:
 
