@@ -3519,10 +3519,6 @@ falling down into. This next step is... is... find the words...
 
 # Building the Instruction Parsing and Execution Module
 
-## Building a Code Detector and Sanitizer with AI and Local Models
-
-## Developing a Code Detector and Dispatcher Using Local Models
-
 Uh yeah, that's it. It's a code detector, sanitizer and dispatcher. It monitors
 the WebSocket communication coming in from the AI, analyzes it for sentiment
 (also by the local LLM), and decides whether or not to attempt to execute the
@@ -3532,8 +3528,6 @@ model that comes first. Figure out how to be the boss of a convenient local
 minion, and then recruit your empire of minions to do your bidding later once
 you've got those 1-to-1 relationship skills under your belt.
 
-## Considering Project Priorities Amid Competing Task Lists and Models
-
 ## Thinking Through Multiple Projects Before Proceeding with Current One
 
 Before I dive into that, I need to think through the other projects that are
@@ -3542,14 +3536,17 @@ fact just plop this whole article, code examples and all, into one of the
 frontier models that can handle it such as o1-mini and ask for its next step
 opinions. Other projects include:
 
+## LLM To Be Given Persistent Datastore Capabilities Directly
+
 Proto-RAG in the form of a simple JSON-like dictionary for the LLM to casually
 use as its own persistent datastore, able to always get a list of its keys and
 use them to pull up its values. In this way, it can store stuff for itself, just
 like the `store` table I made in `sqlite` for cookie-like persistence in the app
-without relying on the browser. Once you have sqlite, there's a ton of stuff you
-can do that... ugh, it's an article in itself. Suffice to say, I think I ought
-to give the LLM its own `DictLikeDB` that's used elsewhere in the system, teach
-it that it has one and how to use it. I could easily imagine it using it for
-remembering the user's name, for example. That seems like the quintiessential
-example, but there's countless possiblities. If you give an LLM explicit
-long-term memory...
+without relying on the browser.
+
+Once you have sqlite, there's a ton of stuff you can do that... ugh, it's an
+article in itself. Suffice to say, I think I ought to give the LLM its own
+`DictLikeDB` that's used elsewhere in the system, teach it that it has one and
+how to use it. I could easily imagine it using it for remembering the user's
+name, for example. That seems like the quintiessential example, but there's
+countless possiblities. If you give an LLM explicit long-term memory...
