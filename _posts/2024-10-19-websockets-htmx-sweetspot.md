@@ -219,4 +219,6 @@ With these changes, any HTMX component in your application can now easily trigge
 
 This implementation maintains the typing effect and other benefits of your original `chatq` function while making it much more accessible throughout your application. It's a great step towards making your chat system more modular and easier to extend in the future.
 
+Me: What about /poke ? Couldn't we simulate that endpoint now with /chatq ?
+
 
