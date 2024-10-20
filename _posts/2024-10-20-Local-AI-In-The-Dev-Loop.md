@@ -3483,7 +3483,7 @@ markdown, pasteed it in ***Code AI*** with my NixOS `configuration.nix` file
 loaded, and it just made the changes to the file, told me to `sudo nixos-rebuild
 switch` and Voilà! 
 
-### The AI Hype Train aint Hype
+### The AI Hype Train ain't Hype
 
 Claude even told me to say `cheese` when it was done! Or at least to type it
 into my terminal, as Claude knew to suggest some software to get me started, as
