@@ -5048,32 +5048,360 @@ If you have any further questions or need assistance with specific parts of the 
 
 # Plan My Day
 
-**o1-preview**: Certainly! Let's enhance your `botifython.py` code to include:
+**Me**: Plan my day for maximum effectiveness using step by step code examples with fully copy/paste ready examples for an AI code assistant to help me out. Work top-down through the projects in the most logical order to accelerate my progress and not screw up!
 
-1. **A function to analyze the LLM's response** and determine whether any embedded JSON commands should be executed, based on a confidence score.
-2. **An LLM-specific key-value store (`llmem`)** integrated into the `fast_app` factory instance, allowing the LLM to store and retrieve its own data safely.
+**o1-preview**: Certainly! Let's plan your day to maximize effectiveness and accelerate your progress. We'll work through the projects in the most logical order, providing step-by-step code examples that are fully copy/paste ready for your AI code assistant.
 
 ---
 
-## **Step 1: Implement the JSON Extraction and Sentiment Analysis Function**
+## **Day Plan Overview**
 
-We need a function that:
+1. **Implement the Instruction Parsing and Execution Module**
+   - Set up the command schema.
+   - Modify the system prompt.
+   - Parse LLM outputs for JSON commands.
+   - Implement command execution functions.
 
-- **Extracts JSON commands** from the LLM's response.
-- **Analyzes the sentiment or intent** to decide if the commands are intended to be executed.
-- **Returns**:
-  - The extracted JSON commands.
-  - A confidence score.
-  - A boolean `safe_to_execute` indicating whether the commands should be executed.
+2. **Implement Sentiment Analysis for Safe Command Execution**
+   - Implement the extraction and analysis function.
+   - Integrate sentiment analysis into the command execution workflow.
 
-### **Function Implementation**
+3. **Integrate LLM's Own Persistent Key-Value Store (`llmem`)**
+   - Modify `fast_app` to include `llmem`.
+   - Update command execution functions to use `llmem`.
+
+4. **Update System Prompt and Conversation History**
+   - Reflect the new capabilities in the system prompt.
+   - Include memory keys in the conversation history.
+
+5. **Test the System Thoroughly**
+   - Perform tests to ensure everything works as expected.
+
+---
+
+Let's dive into each step with detailed explanations and code examples.
+
+---
+
+## **Step 1: Implement the Instruction Parsing and Execution Module**
+
+### **1.1 Set Up the Command Schema**
+
+Define the JSON command schema that the LLM will use to communicate actions to your application.
+
+**Commands:**
+
+- **Add Todo Item**
+
+  ```json
+  {
+    "action": "add_todo",
+    "name": "Buy milk"
+  }
+  ```
+
+- **Delete Todo Item**
+
+  ```json
+  {
+    "action": "delete_todo",
+    "item_id": 5
+  }
+  ```
+
+- **Toggle Todo Item Completion**
+
+  ```json
+  {
+    "action": "toggle_todo",
+    "item_id": 5
+  }
+  ```
+
+- **Update Todo Item**
+
+  ```json
+  {
+    "action": "update_todo",
+    "item_id": 5,
+    "name": "Buy almond milk"
+  }
+  ```
+
+- **Select Profile**
+
+  ```json
+  {
+    "action": "select_profile",
+    "profile_id": 2
+  }
+  ```
+
+- **Add New Profile**
+
+  ```json
+  {
+    "action": "add_profile",
+    "name": "Work",
+    "address": "www.worksite.com",
+    "code": "us"
+  }
+  ```
+
+---
+
+### **1.2 Modify the System Prompt**
+
+Update the system prompt to inform the LLM about the new capabilities.
+
+```python
+conversation = [
+    {
+        "role": "system",
+        "content": (
+            f"You are an assistant built into a private local app called {APP_NAME}. "
+            "When you need to perform an action, output a JSON command inside triple backticks like so: ```json { ... } ```\n\n"
+            "Available commands are:\n"
+            "- `add_todo`: Add a new todo item. Fields: `name` (string).\n"
+            "- `delete_todo`: Delete a todo item. Fields: `item_id` (int).\n"
+            "- `toggle_todo`: Toggle a todo item's completion status. Fields: `item_id` (int).\n"
+            "- `update_todo`: Update a todo item's name. Fields: `item_id` (int), `name` (string).\n"
+            "- `select_profile`: Switch to a different profile. Fields: `profile_id` (int).\n"
+            "- `add_profile`: Add a new profile. Fields: `name` (string), `address` (string), `code` (string).\n"
+            "Always provide the JSON commands when you need to perform these actions, and ensure they are valid JSON.\n"
+            f"Respond to the user in a friendly and helpful manner, and keep your responses under {MAX_LLM_RESPONSE_WORDS} words."
+        ),
+    },
+]
+```
+
+---
+
+### **1.3 Parse LLM Outputs for JSON Commands**
+
+Implement a function to extract JSON commands from the LLM's response.
 
 ```python
 import re
-from textblob import TextBlob  # You'll need to install textblob library
 import json
 
-def extract_and_analyze_commands(response_text, threshold=0.7):
+def extract_json_commands(response_text):
+    """
+    Extract JSON code blocks from the response text.
+
+    Args:
+        response_text (str): The LLM's response text.
+
+    Returns:
+        List[Dict]: List of extracted JSON commands.
+    """
+    pattern = r'```json\s*(\{.*?\})\s*```'
+    matches = re.findall(pattern, response_text, re.DOTALL)
+    json_commands = []
+    for match in matches:
+        try:
+            command = json.loads(match)
+            json_commands.append(command)
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON decode error: {e}")
+            logger.debug(f"Failed JSON: {match}")
+    return json_commands
+```
+
+---
+
+### **1.4 Implement Command Execution Functions**
+
+Create a command registry and implement functions for each action.
+
+**Command Registry Initialization:**
+
+```python
+# Command Registry: Maps action names to functions
+command_registry = {}
+```
+
+**Implement Execution Function:**
+
+```python
+def execute_command(command):
+    """
+    Execute a command based on the action specified in the command dictionary.
+
+    Args:
+        command (Dict): The command dictionary.
+
+    Returns:
+        str: Result of command execution.
+    """
+    action = command.get("action")
+    if not action:
+        logger.error("No action specified in command.")
+        return "Error: No action specified."
+
+    func = command_registry.get(action)
+    if not func:
+        logger.error(f"Unknown action: {action}")
+        return f"Error: Unknown action '{action}'."
+
+    try:
+        result = func(command)
+        logger.debug(f"Executed action '{action}' with result: {result}")
+        return result
+    except Exception as e:
+        logger.error(f"Error executing action '{action}': {e}")
+        return f"Error executing action '{action}': {e}"
+```
+
+**Implement Action Functions and Register Them:**
+
+**1. Add Todo**
+
+```python
+def add_todo_function(command):
+    name = command.get("name")
+    if not name:
+        return "Error: 'name' field is required for 'add_todo' action."
+    # Use the current profile ID
+    current_profile_id = db.get("last_profile_id", 1)
+    max_priority = max((t.priority or 0 for t in todos()), default=-1) + 1
+    new_item = todos.insert({
+        "name": name,
+        "done": False,
+        "priority": max_priority,
+        "profile_id": current_profile_id,
+    })
+    logger.debug(f"Added new todo: {new_item}")
+    return f"Todo item '{name}' added."
+
+command_registry["add_todo"] = add_todo_function
+```
+
+**2. Delete Todo**
+
+```python
+def delete_todo_function(command):
+    item_id = command.get("item_id")
+    if item_id is None:
+        return "Error: 'item_id' field is required for 'delete_todo' action."
+    try:
+        todos.delete(item_id)
+        logger.debug(f"Deleted todo with ID: {item_id}")
+        return f"Todo item with ID {item_id} deleted."
+    except Exception as e:
+        logger.error(f"Error deleting todo: {e}")
+        return f"Error deleting todo with ID {item_id}: {e}"
+
+command_registry["delete_todo"] = delete_todo_function
+```
+
+**3. Toggle Todo**
+
+```python
+def toggle_todo_function(command):
+    item_id = command.get("item_id")
+    if item_id is None:
+        return "Error: 'item_id' field is required for 'toggle_todo' action."
+    try:
+        item = todos[item_id]
+        item.done = not item.done
+        todos.update(item)
+        logger.debug(f"Toggled todo with ID: {item_id} to {'done' if item.done else 'not done'}")
+        return f"Todo item with ID {item_id} toggled."
+    except Exception as e:
+        logger.error(f"Error toggling todo: {e}")
+        return f"Error toggling todo with ID {item_id}: {e}"
+
+command_registry["toggle_todo"] = toggle_todo_function
+```
+
+**4. Update Todo**
+
+```python
+def update_todo_function(command):
+    item_id = command.get("item_id")
+    name = command.get("name")
+    if item_id is None or name is None:
+        return "Error: 'item_id' and 'name' fields are required for 'update_todo' action."
+    try:
+        item = todos[item_id]
+        item.name = name
+        todos.update(item)
+        logger.debug(f"Updated todo with ID: {item_id} to name '{name}'")
+        return f"Todo item with ID {item_id} updated."
+    except Exception as e:
+        logger.error(f"Error updating todo: {e}")
+        return f"Error updating todo with ID {item_id}: {e}"
+
+command_registry["update_todo"] = update_todo_function
+```
+
+**5. Select Profile**
+
+```python
+def select_profile_function(command):
+    profile_id = command.get("profile_id")
+    if profile_id is None:
+        return "Error: 'profile_id' field is required for 'select_profile' action."
+    try:
+        db["last_profile_id"] = profile_id
+        profile_name = profiles[profile_id].name
+        logger.debug(f"Switched to profile ID {profile_id} - {profile_name}")
+        return f"Switched to profile '{profile_name}'."
+    except Exception as e:
+        logger.error(f"Error switching profile: {e}")
+        return f"Error switching to profile with ID {profile_id}: {e}"
+
+command_registry["select_profile"] = select_profile_function
+```
+
+**6. Add Profile**
+
+```python
+def add_profile_function(command):
+    name = command.get("name")
+    address = command.get("address", "")
+    code = command.get("code", "")
+    if not name:
+        return "Error: 'name' field is required for 'add_profile' action."
+    max_priority = max((p.priority or 0 for p in profiles()), default=-1) + 1
+    new_profile = profiles.insert({
+        "name": name,
+        "address": address,
+        "code": code,
+        "active": True,
+        "priority": max_priority,
+    })
+    logger.debug(f"Added new profile: {new_profile}")
+    return f"Profile '{name}' added."
+
+command_registry["add_profile"] = add_profile_function
+```
+
+---
+
+## **Step 2: Implement Sentiment Analysis for Safe Command Execution**
+
+### **2.1 Implement the Extraction and Analysis Function**
+
+Create a function that extracts JSON commands and performs sentiment analysis to determine whether to execute them.
+
+**Install Required Libraries:**
+
+```bash
+pip install textblob
+python -m textblob.download_corpora
+```
+
+**Implement the Function:**
+
+```python
+import re
+from textblob import TextBlob
+
+CONFIDENCE_THRESHOLD = 0.7  # Adjust this threshold as needed
+
+def extract_and_analyze_commands(response_text, threshold=CONFIDENCE_THRESHOLD):
     """
     Extract JSON commands from the response and analyze intent.
 
@@ -5112,22 +5440,11 @@ def extract_and_analyze_commands(response_text, threshold=0.7):
     return json_commands, confidence_score, safe_to_execute
 ```
 
-**Note:** You need to install `textblob` and download its necessary data:
-
-```bash
-pip install textblob
-python -m textblob.download_corpora
-```
-
 ---
 
-## **Step 2: Update Command Execution Workflow**
+### **2.2 Integrate Sentiment Analysis into the Command Execution Workflow**
 
-Modify your code to use the new function when processing the LLM's response.
-
-### **Modify `chat_with_ollama` Function**
-
-Replace the previous extraction and execution code with the new function:
+Modify the `chat_with_ollama` function to use the new extraction and analysis function.
 
 ```python
 def chat_with_ollama(model: str, messages: list) -> str:
@@ -5159,7 +5476,7 @@ def chat_with_ollama(model: str, messages: list) -> str:
         conversation_history(content, "assistant", quiet=True)
 
         # Extract and analyze commands
-        commands, confidence_score, safe_to_execute = extract_and_analyze_commands(content, threshold=CONFIDENCE_THRESHOLD)
+        commands, confidence_score, safe_to_execute = extract_and_analyze_commands(content)
 
         if safe_to_execute:
             results = execute_commands(commands)
@@ -5174,11 +5491,7 @@ def chat_with_ollama(model: str, messages: list) -> str:
         return OLLAMA_PLEASE
 ```
 
----
-
-## **Step 3: Adjust the Command Execution Function**
-
-Ensure that `execute_command` handles the list of commands and integrates with the analysis function.
+**Implement `execute_commands` Function:**
 
 ```python
 def execute_commands(commands):
@@ -5200,76 +5513,14 @@ def execute_commands(commands):
 
 ---
 
-## **Step 4: Update the WebSocket Handler**
+## **Step 3: Integrate LLM's Own Persistent Key-Value Store (`llmem`)**
 
-Modify the WebSocket handler to include the sentiment analysis step.
+### **3.1 Modify `fast_app` to Include `llmem`**
 
-```python
-@app.ws('/ws', conn=on_conn, disconn=on_disconn)
-async def ws(msg: str):
-    try:
-        conn_id = getattr(ws, 'conn_id', str(uuid4()))
-        ws.conn_id = conn_id
-
-        if msg.startswith("!table"):
-            # Existing code to handle '!table' commands
-            ...
-
-        if msg:
-            fig(font='script', text="Conversation History")
-            # Add user message to conversation history
-            conversation_history(msg, "user")
-
-            # Generate AI response using the conversation history
-            current_conversation = conversation_history()
-            response = await run_in_threadpool(chat_with_ollama, model, current_conversation)
-
-            # Add AI response to conversation history
-            conversation_history(response, "assistant")
-
-            # Extract and analyze commands
-            commands, confidence_score, safe_to_execute = extract_and_analyze_commands(response, threshold=CONFIDENCE_THRESHOLD)
-
-            if safe_to_execute:
-                results = execute_commands(commands)
-                # Send the execution results back to the user
-                await ws_send_message(f"Commands executed with confidence score {confidence_score}:\n{results}")
-            else:
-                await ws_send_message(f"Commands not executed due to low confidence score ({confidence_score}).")
-
-            # Stream the response as before
-            words = response.split()
-            for i in range(len(words)):
-                partial_response = " ".join(words[: i + 1])
-                for u in users.values():
-                    await u(
-                        Div(
-                            partial_response,
-                            id='msg-list',
-                            cls='fade-in',
-                            style=MATRIX_STYLE,
-                            _=f"this.scrollIntoView({{behavior: 'smooth'}});",
-                        )
-                    )
-                await asyncio.sleep(TYPING_DELAY)
-
-    except WebSocketDisconnect:
-        logger.debug(f"WebSocket disconnected for connection {conn_id}")
-        conversation_histories.pop(conn_id, None)
-    except Exception as e:
-        logger.error(f"Error in WebSocket handler: {str(e)}")
-```
-
----
-
-## **Step 5: Integrate LLM's Own Store into `fast_app`**
-
-Modify your `fast_app` instantiation to include the LLM's own key-value store.
-
-### **Add `llmem` to `fast_app`**
+Adjust your `fast_app` instantiation to include the LLM's own key-value store.
 
 ```python
-app, rt, (store, Store), (tasks, Task), (profiles, Profile), (llmem, LLMemory) = fast_app(
+app, rt, (store, Store), (todos, Todo), (profiles, Profile), (llmem, LLMemory) = fast_app(
     "data/data.db",
     ws_hdr=True,
     live=True,
@@ -5282,7 +5533,7 @@ app, rt, (store, Store), (tasks, Task), (profiles, Profile), (llmem, LLMemory) =
         "value": str,
         "pk": "key"
     },
-    task={
+    todo={
         "id": int,
         "name": str,
         "done": bool,
@@ -5290,7 +5541,7 @@ app, rt, (store, Store), (tasks, Task), (profiles, Profile), (llmem, LLMemory) =
         "profile_id": int,
         "pk": "id"
     },
-    customer={
+    profile={
         "id": int,
         "name": str,
         "address": str,
@@ -5307,9 +5558,9 @@ app, rt, (store, Store), (tasks, Task), (profiles, Profile), (llmem, LLMemory) =
 )
 ```
 
-### **Update the LLM Memory Store**
+### **3.2 Update the LLM Memory Store**
 
-Replace the in-memory `llm_memory_store` with a persistent store:
+Replace the in-memory `llm_memory_store` with a persistent store.
 
 ```python
 # LLM Memory Store
@@ -5319,11 +5570,9 @@ logger.debug("LLM memory store initialized.")
 
 ---
 
-## **Step 6: Modify Command Execution Functions for Memory**
+### **3.3 Update Command Execution Functions for Memory**
 
-Update the memory-related command functions to use the new `llm_memory` store.
-
-### **Set Memory Key**
+**Set Memory Key**
 
 ```python
 def set_memory_function(command):
@@ -5339,7 +5588,7 @@ def set_memory_function(command):
 command_registry["set_memory"] = set_memory_function
 ```
 
-### **Get Memory Key**
+**Get Memory Key**
 
 ```python
 def get_memory_function(command):
@@ -5357,7 +5606,7 @@ def get_memory_function(command):
 command_registry["get_memory"] = get_memory_function
 ```
 
-### **List Memory Keys**
+**List Memory Keys**
 
 ```python
 def list_memory_keys_function(command):
@@ -5373,9 +5622,11 @@ command_registry["list_memory_keys"] = list_memory_keys_function
 
 ---
 
-## **Step 7: Update the System Prompt to Reflect Persistent Memory**
+## **Step 4: Update System Prompt and Conversation History**
 
-Modify the system prompt to indicate that the LLM's memory is persistent and stored safely.
+### **4.1 Update the System Prompt**
+
+Modify the system prompt to reflect the new capabilities and mention the persistent memory.
 
 ```python
 conversation = [
@@ -5384,31 +5635,28 @@ conversation = [
         "content": (
             f"You are an assistant built into a private local app called {APP_NAME}. "
             "You have your own persistent memory store, separate from the user's data. "
-            "You can perform actions by outputting JSON commands inside triple backticks like so: ```json { ... } ``` "
-            "Available commands are: "
-            "- `add_todo`: Add a new todo item. Fields: `name` (string). "
-            "- `delete_todo`: Delete a todo item. Fields: `item_id` (int). "
-            "- `toggle_todo`: Toggle a todo item's completion status. Fields: `item_id` (int). "
-            "- `update_todo`: Update a todo item's name. Fields: `item_id` (int), `name` (string). "
-            "- `select_profile`: Switch to a different profile. Fields: `profile_id` (int). "
-            "- `add_profile`: Add a new profile. Fields: `name` (string), `address` (string), `code` (string). "
-            "- `get_table`: Retrieve data from a table. Fields: `table_name` (string). "
-            "- `set_memory`: Store a value in your memory. Fields: `key` (string), `value` (string). "
-            "- `get_memory`: Retrieve a value from your memory. Fields: `key` (string). "
-            "- `list_memory_keys`: List all keys in your memory. "
-            "Always provide the JSON commands when you need to perform these actions, and ensure they are valid JSON. "
-            "You can access table data before and after actions to inform your decisions. "
-            f"Respond to the user in a friendly and helpful manner, and keep your responses under {MAX_LLM_RESPONSE_WORDS} words. "
+            "You can perform actions by outputting JSON commands inside triple backticks like so: ```json { ... } ```\n\n"
+            "Available commands are:\n"
+            "- `add_todo`: Add a new todo item. Fields: `name` (string).\n"
+            "- `delete_todo`: Delete a todo item. Fields: `item_id` (int).\n"
+            "- `toggle_todo`: Toggle a todo item's completion status. Fields: `item_id` (int).\n"
+            "- `update_todo`: Update a todo item's name. Fields: `item_id` (int), `name` (string).\n"
+            "- `select_profile`: Switch to a different profile. Fields: `profile_id` (int).\n"
+            "- `add_profile`: Add a new profile. Fields: `name` (string), `address` (string), `code` (string).\n"
+            "- `get_table`: Retrieve data from a table. Fields: `table_name` (string).\n"
+            "- `set_memory`: Store a value in your memory. Fields: `key` (string), `value` (string).\n"
+            "- `get_memory`: Retrieve a value from your memory. Fields: `key` (string).\n"
+            "- `list_memory_keys`: List all keys in your memory.\n"
+            "Always provide the JSON commands when you need to perform these actions, and ensure they are valid JSON.\n"
+            f"Respond to the user in a friendly and helpful manner, and keep your responses under {MAX_LLM_RESPONSE_WORDS} words."
         ),
     },
 ]
 ```
 
----
+### **4.2 Include Memory Keys in the Conversation History**
 
-## **Step 8: Include Memory Keys in the Conversation History**
-
-Update `conversation_history` to include the LLM's memory keys.
+Update the `conversation_history` function to include the LLM's memory keys.
 
 ```python
 def conversation_history(message=None, role="user", quiet=False):
@@ -5445,49 +5693,93 @@ def conversation_history(message=None, role="user", quiet=False):
 
 ---
 
-## **Step 9: Update the Sentiment Analysis Threshold**
+## **Step 5: Test the System Thoroughly**
 
-Define a threshold for the confidence score to decide whether to execute commands.
+### **5.1 Test Command Execution with Sentiment Analysis**
 
-```python
-# Define a confidence threshold (e.g., 0.7)
-CONFIDENCE_THRESHOLD = 0.7
-```
+- **Positive Intent Example:**
 
-Ensure that this threshold is used in your `extract_and_analyze_commands` function and when calling it.
+  **User:** "Please add 'Walk the dog' to my todo list."
+
+  **Expected LLM Response:**
+
+  ```
+  Sure! I've added it to your list.
+
+  ```json
+  {
+    "action": "add_todo",
+    "name": "Walk the dog"
+  }
+  ```
+  ```
+
+- **Negative Intent Example (Should Not Execute):**
+
+  **User:** "I might consider deleting all my tasks."
+
+  **Expected LLM Response:**
+
+  ```
+  If you decide to delete your tasks, let me know!
+
+  ```json
+  {
+    "action": "delete_todo",
+    "item_id": 1
+  }
+  ```
+  ```
+
+  - The sentiment analysis should detect uncertainty and not execute the command.
+
+### **5.2 Verify Memory Store Functionality**
+
+- **Set Memory Key:**
+
+  **User:** "Remember that my favorite color is blue."
+
+  **Expected LLM Response:**
+
+  ```
+  Got it! I've stored that information.
+
+  ```json
+  {
+    "action": "set_memory",
+    "key": "favorite_color",
+    "value": "blue"
+  }
+  ```
+  ```
+
+- **Get Memory Key:**
+
+  **User:** "What's my favorite color?"
+
+  **Expected LLM Response:**
+
+  ```
+  Your favorite color is blue.
+
+  ```json
+  {
+    "action": "get_memory",
+    "key": "favorite_color"
+  }
+  ```
+  ```
+
+### **5.3 Check Confidence Scores**
+
+Ensure that the confidence scores produced by the sentiment analysis are appropriate and adjust `CONFIDENCE_THRESHOLD` if necessary.
 
 ---
 
-## **Step 10: Test the System Thoroughly**
+## **Conclusion**
 
-- **Test with LLM responses** that include JSON commands meant to be executed.
-- **Test with LLM responses** that include JSON examples not meant to be executed.
-- **Verify** that commands are only executed when `safe_to_execute` is `True`.
-- **Check** the confidence scores to ensure the threshold is appropriate.
+By following this plan, you'll implement the critical features in a logical order, avoiding potential pitfalls and ensuring maximum effectiveness. Each step builds upon the previous one, leading to a robust and enhanced application.
 
 ---
 
-## **Additional Considerations**
-
-- **Improve Sentiment Analysis**: You might consider using a more sophisticated model or method to analyze intent, such as using a classifier trained on your specific use case.
-
-- **Error Handling**: Ensure that any exceptions are caught and handled gracefully, logging errors where appropriate.
-
-- **Security**: Always sanitize and validate commands before execution to prevent any unintended actions.
-
----
-
-## **Summary**
-
-By following these steps, you have:
-
-- **Implemented a function** to analyze the LLM's response and determine whether embedded JSON commands should be executed.
-- **Integrated this function** into your command execution workflow.
-- **Added a persistent, LLM-specific key-value store (`llmem`)** to your application, allowing the LLM to manage its own data safely.
-- **Updated the system prompt and conversation history** to reflect these changes.
-
-These enhancements improve the reliability and safety of your application, ensuring that only intended actions are executed and that the LLM has a secure place to store and retrieve its own data.
-
----
-
-If you have any further questions or need assistance with specific parts of the implementation, feel free to ask!
+If you have any questions or need further assistance with any of the steps, feel free to ask. Good luck with your coding!
