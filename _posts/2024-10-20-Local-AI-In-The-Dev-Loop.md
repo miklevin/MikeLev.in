@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-## Bottled Up Insights
+## Moving Too Fast to Cover it All
 
 A lot has happened since the last article post. I feel like I've got an AI in a
 bottle at this point in the project, and in the intense focus of getting to this
