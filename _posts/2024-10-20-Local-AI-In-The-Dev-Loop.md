@@ -3481,9 +3481,14 @@ too! It was one of the easiest hardware installs I ever did. I searched in
 Perplexity.AI on ***install mx brio on nixos*** and took the copy/paste
 markdown, pasteed it in ***Code AI*** with my NixOS `configuration.nix` file
 loaded, and it just made the changes to the file, told me to `sudo nixos-rebuild
-switch` and Voilà! It was telling me to say `cheese`! Or at least to type it
+switch` and Voilà! 
+
+Claude even told me to say `cheese` when it was done! Or at least to type it
 into my terminal, as Claude knew to suggest some software to get me started, as
-Cheese is a webcam app on Linux. The times, they are a-changin'.
+Cheese is a webcam app on Linux. The times, ***they are a-changin'***. In case
+ou were wondering, AI ain't hype. Expert level assistance 24/7 that's always
+improving to boost you right over the edge of your prior limits... well... if I
+even need to explain it. It's not an AI thing. It's a tool thing.
 
 ### The Future Was Here &#151; and Is Again!
 
