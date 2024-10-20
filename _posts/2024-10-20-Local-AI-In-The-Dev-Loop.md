@@ -228,8 +228,8 @@ its latest state. Funny thing is there's so few requirements, you could take
 these three magic ingredients and combine them yourself and have a fully working
 app. There's no complex wasm (WebAssembly) build processes or sass pipelines
 with gigabytes of files and long waits for a `hello world`. You just drop 'em in
-a folder and go. Of course, I take care of the entire development environment
-for that folder too with this flake.nix...
+a folder and go. Of course, I take care of the entire ***development
+environment*** for that folder too with this flake.nix...
 
 ### Ingredient #1: Nix Flake `flake.nix`
 
@@ -3502,3 +3502,54 @@ at the intersection of mastery and uncertainty, fueled by the momentum of
 exploration. The next steps could solidify my vision or open a new rabbit hole.
 They must propel you forward and not get me trapped in some quagmire. List what
 you know.
+
+- A local AI LLM is "in the loop" of its own development, getting embedded into
+  a product
+- That product is expressible as a single file and installable on a vast array
+  of hardware out there
+- The product only just reached MVP (minimal viable product) for traditonal web
+  framework use
+- But to really make it something special, I have to carry through on special
+  "hooks" I've left
+- The main hook I worked so hard on yesterday was making sure it was learning
+  the JSON to do CRUD operations
+
+Okay, that's my first potential 80/20-rule win yet also rabbit hole to avoid
+falling down into. This next step is... is... find the words...
+
+# Building the Instruction Parsing and Execution Module
+
+## Building a Code Detector and Sanitizer with AI and Local Models
+
+## Developing a Code Detector and Dispatcher Using Local Models
+
+Uh yeah, that's it. It's a code detector, sanitizer and dispatcher. It monitors
+the WebSocket communication coming in from the AI, analyzes it for sentiment
+(also by the local LLM), and decides whether or not to attempt to execute the
+code. This is not exactly all that swarming agents stuff, but this is process
+pipeline construction on a single machine with a single (no-cost/low-cost) local
+model that comes first. Figure out how to be the boss of a convenient local
+minion, and then recruit your empire of minions to do your bidding later once
+you've got those 1-to-1 relationship skills under your belt.
+
+## Considering Project Priorities Amid Competing Task Lists and Models
+
+## Thinking Through Multiple Projects Before Proceeding with Current One
+
+Before I dive into that, I need to think through the other projects that are
+competing and see if there's some order of operations or oversight. I may in
+fact just plop this whole article, code examples and all, into one of the
+frontier models that can handle it such as o1-mini and ask for its next step
+opinions. Other projects include:
+
+Proto-RAG in the form of a simple JSON-like dictionary for the LLM to casually
+use as its own persistent datastore, able to always get a list of its keys and
+use them to pull up its values. In this way, it can store stuff for itself, just
+like the `store` table I made in `sqlite` for cookie-like persistence in the app
+without relying on the browser. Once you have sqlite, there's a ton of stuff you
+can do that... ugh, it's an article in itself. Suffice to say, I think I ought
+to give the LLM its own `DictLikeDB` that's used elsewhere in the system, teach
+it that it has one and how to use it. I could easily imagine it using it for
+remembering the user's name, for example. That seems like the quintiessential
+example, but there's countless possiblities. If you give an LLM explicit
+long-term memory...
