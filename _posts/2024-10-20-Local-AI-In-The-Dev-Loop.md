@@ -3470,3 +3470,15 @@ print_routes()
 # Start the application server
 serve()
 ```
+
+## Installed Logitch MX Brio in NixOS Linux in Seconds
+
+And all of that is just getting started for the day. And I got my new Logitch MX
+Brio working on my NixOS Linux too! It was one of the easiest hardware installs
+I ever did. I searched in Perplexity.AI on ***install mx brio on nixos*** and
+took the copy/paste markdown, pasteed it in ***Code AI*** with my NixOS
+`configuration.nix` file loaded, and it just made the changes to the file, told
+me to `sudo nixos-rebuild switch` and Voilà! It was telling me to say `cheese`!
+Or at least to type it into my terminal, as Claude knew to suggest some software
+to get me started, as Cheese is a webcam app on Linux. The times, they are
+a-changin'. Anyone who thinks Macs and Windows are the future, think again.
