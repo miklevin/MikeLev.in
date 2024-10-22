@@ -19,8 +19,10 @@ standalone topic and article. Some include:
   - Keeping very long files from messing up context awareness
   - Preparing prompts for it from o1-preview and other models
   - Formatting and feeding it the output from Linters as prompts
-  - The use of it to make really good comments and docstrings (built-in
+  - Using AI to make really good comments and docstrings (built-in
     documentation)
+  - The ramifications for general code cleanup, beautification and as a
+    consequence, tighter, more bug-free code
   - Hey Claude... Leave my Figlets alone! (and it does now!)
 
 ### The sweet spot of HTMX and WebSockets
