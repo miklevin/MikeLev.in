@@ -29,7 +29,8 @@ standalone topic and article. Some include:
 
   - ReactJS is in trouble because the *basic web* is now more reactive.
   - ZeroMQ has been torn from my cold dead hands (WebSockets is mature)
-  - Absorbing the fact that anything can talk to anything anywhere with guids.
+  - Absorbing the fact that anything can talk to anything anywhere in the world
+    by using guids that target full web addresses (unbelievable)
   - HTMX brings its own complexity and nuance (swapping one set of webdev
     weirdness for another)
   - But the weirdness of HTMX+WebSockets so reflects the core (and thus nearly
