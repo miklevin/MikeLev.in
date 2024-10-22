@@ -601,3 +601,117 @@ You essentially program in self-correcting callbacks. That way you don't clutter
 the conversation history with reminders to the LLM unless it needs it, and this
 keeps it appropriate for any LLM moving forward, even as they get smarter.
 Gentle reminders on screw-ups rather then helicopter parenting.
+
+Psst! Wanna see some code? You thought eval was evil? Wait until you see this.
+But no really, I do a whole bunch of sanitizing, not the least of which is going
+through the `BaseApp` ***base class*** for all operations, so any system-wide
+defenses I put in against the user also gets applied to the LLM.
+
+## OpenAI Is Not The Only LLM Capable of Execution
+
+First, we have to recognize attempts to execute actions against the system by
+looking for JSON embedded into the LLM's response. Anyone who thinks the ability
+to execute functions is some magical vendor-provided OpenAI-only thing, think
+again. Any LLM can execute functions if you teach it how.
+
+### Extract the JSON from LLM Response
+
+```python
+def extract_json_objects(text):
+    """
+    Extract JSON objects from a given text string.
+
+    This function searches for JSON-like structures in the input text and attempts to parse them into Python objects.
+    It handles nested JSON structures and Unicode escape sequences.
+
+    Args:
+        text (str): The input text containing potential JSON objects.
+
+    Returns:
+        list: A list of successfully parsed JSON objects.
+
+    Notes:
+        - The function uses a regex pattern to identify potential JSON structures.
+        - It attempts to handle Unicode escape sequences before parsing.
+        - Any JSON parsing errors are caught and logged, but do not halt the extraction process.
+    """
+    json_objects = []
+    # Find all JSON-like structures in the text
+    json_pattern = r'\{(?:[^{}]|(?:\{(?:[^{}]|(?:\{[^{}]*\})*)*\}))*\}'
+    matches = re.finditer(json_pattern, text)
+
+    for match in matches:
+        try:
+            json_str = match.group()
+            # Replace Unicode escape sequences
+            json_str = json_str.encode('utf-8').decode('unicode_escape')
+            json_obj = json.loads(json_str)
+            json_objects.append(json_obj)
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse JSON: {e}")
+            print(f"Problematic JSON string: {json_str}")
+
+    return json_objects
+```
+
+## Validating JSON Against Safe and Permitted Rules Before Execution
+
+Okay, so now we have some JSON. What are we going to do with it? Well before
+attempting to execute it or anything silly like that, we're going to examine it
+and see what it's trying to do. We'll validate it against our rules for what's
+safe and permitted. And we'll make a list of everything that passes the muster
+and hand it along as a list to the ***command-executor***, a completely separate
+function to do the dirty-work. This is just a pattern-matcher and list
+generator.
+
+### Validating JSON
+
+```python
+async def detect_embedded_crud_json(text, base_app):
+    """
+    Detect and execute CRUD operations from JSON objects embedded in text.
+
+    This function extracts JSON objects from the input text, validates them for CRUD operations,
+    and executes these operations using the provided base_app instance.
+
+    Args:
+        text (str): The input text containing potential JSON objects with CRUD operations.
+        base_app (BaseApp): An instance of the BaseApp class or its subclass to execute CRUD operations.
+
+    Returns:
+        list: A list of tuples, each containing:
+            - The original JSON object
+            - The result of the CRUD operation (or an error message)
+            - The updated table data after the operation (or an empty list if an error occurred)
+
+    Raises:
+        No exceptions are raised directly by this function. All exceptions are caught and logged.
+
+    Notes:
+        - JSON objects are extracted using the extract_json_objects function.
+        - Each JSON object is validated for the required 'operation' and 'target' keys.
+        - CRUD operations are executed using the execute_crud_operation function.
+        - Any errors during processing are logged and included in the return list.
+    """
+    detected_patterns = []
+    json_objects = extract_json_objects(text)
+
+    for json_obj in json_objects:
+        try:
+            # Validate the JSON object
+            if not isinstance(json_obj, dict):
+                raise ValueError(f"Invalid JSON object type: {type(json_obj)}")
+            if 'operation' not in json_obj or 'target' not in json_obj:
+                raise ValueError(f"Missing 'operation' or 'target' in JSON: {json_obj}")
+
+            # Execute the CRUD operation
+            result, table_data = await execute_crud_operation(base_app, json_obj)
+            detected_patterns.append((json_obj, result, table_data))
+        except Exception as e:
+            # If there's an error, append it to the detected patterns
+            error_message = f"Error processing JSON object: {str(e)}\nJSON: {json.dumps(json_obj, indent=2)}"
+            logger.error(error_message)
+            detected_patterns.append((json_obj, error_message, []))
+
+    return detected_patterns
+```
