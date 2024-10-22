@@ -3,30 +3,39 @@ layout: default
 author: Mike Levin
 ---
 
-<div class="post-navigation top-nav">
+<nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
-    <div class="previous-post">
+    <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Undiscovered Gem</span>
-      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+      <a href="{{ page.previous.url | relative_url }}" itemprop="item">
+        <span itemprop="name">{{ page.previous.title }}</span>
+      </a>
+      <meta itemprop="position" content="1" />
     </div>
   {% else %}
     <div class="previous-post placeholder"></div>
   {% endif %}
   
-  <div class="home-link">
+  <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <span class="nav-label">Blog Index</span>
-    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/' | relative_url }}" itemprop="item">
+      <span itemprop="name">Home</span>
+    </a>
+    <meta itemprop="position" content="2" />
   </div>
   
   {% if page.next %}
-    <div class="next-post">
+    <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Undiscovered Gem</span>
-      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+      <a href="{{ page.next.url | relative_url }}" itemprop="item">
+        <span itemprop="name">{{ page.next.title }}</span>
+      </a>
+      <meta itemprop="position" content="3" />
     </div>
   {% else %}
     <div class="next-post placeholder"></div>
   {% endif %}
-</div>
+</nav>
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="headline">{{ page.title }}</h1>
@@ -94,43 +103,63 @@ author: Mike Levin
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Home",
-    "item": "{{ site.url }}"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Blog",
-    "item": "{{ site.url }}/blog/"
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "name": "{{ page.title }}",
+  "itemListElement": [
+    {% if page.previous %}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ page.previous.title }}",
+      "item": "{{ site.url }}{{ page.previous.url }}"
+    },
+    {% endif %}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {% if page.next %}
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.next.title }}",
+      "item": "{{ site.url }}{{ page.next.url }}"
+    }
+    {% endif %}
+  ]
+}
 </script>
 
-<div class="post-navigation bottom-nav">
+<nav class="post-navigation bottom-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
-    <div class="previous-post">
+    <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Undiscovered Gem</span>
-      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+      <a href="{{ page.previous.url | relative_url }}" itemprop="item">
+        <span itemprop="name">{{ page.previous.title }}</span>
+      </a>
+      <meta itemprop="position" content="1" />
     </div>
   {% else %}
     <div class="previous-post placeholder"></div>
   {% endif %}
   
-  <div class="home-link">
+  <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <span class="nav-label">Blog Index</span>
-    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/' | relative_url }}" itemprop="item">
+      <span itemprop="name">Home</span>
+    </a>
+    <meta itemprop="position" content="2" />
   </div>
   
   {% if page.next %}
-    <div class="next-post">
+    <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Undiscovered Gem</span>
-      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+      <a href="{{ page.next.url | relative_url }}" itemprop="item">
+        <span itemprop="name">{{ page.next.title }}</span>
+      </a>
+      <meta itemprop="position" content="3" />
     </div>
   {% else %}
     <div class="next-post placeholder"></div>
   {% endif %}
-</div>
+</nav>

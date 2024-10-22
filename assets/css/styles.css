@@ -680,6 +680,10 @@ header blockquote {
   display: inline;
 }
 
+.next-post a span {
+  text-align: right;
+}
+
 .post-navigation .home-link {
     text-align: center;
     flex: 1;
