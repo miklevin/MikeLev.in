@@ -7,10 +7,12 @@ group: home
 
 <div class="logo-container">
     <div class="logo-item">
-        <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo" />
+        <a href="/levinux/">
+            <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system" />
+        </a>
     </div>
     <div class="logo-item">
-        <img src="/assets/logo/Pipulate.PNG" alt="Pipulate Logo" />
+        <img src="/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software" />
     </div>
 </div>
 
