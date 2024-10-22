@@ -715,3 +715,175 @@ async def detect_embedded_crud_json(text, base_app):
 
     return detected_patterns
 ```
+
+## A JSON Machine Code List Is Provided for Safe Execution
+
+Okay, so now we have a list of extracted and validated JSON for turning into
+actual executed commands. Now this isn't a list of arbitrary Python code for
+those people finding this article worried about AI becoming self-aware and
+hacking the system, although I'm sure a superintelligent AI could find a way to
+exploit this. 
+
+## Defending Against Code Execution with Rigid Class Constraints
+
+No, rather this is just a bunch of JSON machine instructions for putting through
+an instruction interpreter. It's exactly as save as you program the following
+bit to be. And hopefully you can see the defenses I took of using the original
+***base class*** that the user themselves use to ***"execute"*** the code,
+meaning it's on some pretty rigid rails. It can only do what `BaseApp` is
+allowed to do...
+
+### The Command Executer
+
+```python
+async def execute_crud_operation(base_app_instance, operation_data):
+    """
+    Execute a CRUD operation on the given BaseApp instance using the provided operation data.
+
+    This function interprets and executes various CRUD (Create, Read, Update, Delete) operations
+    on a BaseApp instance. It supports operations like insert, read, update, delete, toggle, sort,
+    list, and redirect.
+
+    Args:
+        base_app_instance (BaseApp): An instance of the BaseApp class or its subclass on which
+                                     to perform the operation.
+        operation_data (dict): A dictionary containing the operation details. It must include
+                               'operation' and 'target' keys, and may include an 'args' key
+                               with operation-specific arguments.
+
+    Returns:
+        tuple: A tuple containing two elements:
+            - The result of the operation (varies based on the operation type)
+            - A list of filtered table data after the operation
+
+    Raises:
+        ValueError: If the operation data is invalid or if an unsupported operation is requested.
+
+    Notes:
+        - The function uses a persistent database to get the current profile_id.
+        - It includes error handling and logging for various scenarios.
+        - The function supports the following operations:
+          insert, read, update, delete, toggle, sort, list, and redirect.
+        - Each operation has specific requirements for the 'args' dictionary.
+
+    Example:
+        operation_data = {
+            "operation": "insert",
+            "target": "todo",
+            "args": {"name": "New Task", "done": False, "priority": 1}
+        }
+        result, updated_table = await execute_crud_operation(todo_app, operation_data)
+    """
+    try:
+        # Extract operation details
+        operation = operation_data.get('operation')
+        target = operation_data.get('target')
+        args = operation_data.get('args', {})
+
+        # Ensure the operation targets the correct table in BaseApp
+        if not operation or not target:
+            raise ValueError(f"Invalid operation data: {operation_data}")
+
+        if target != base_app_instance.name:
+            raise ValueError(f"Invalid target: {target}. Expected: {base_app_instance.name}")
+
+        # Get the current profile_id from the persistent database
+        current_profile_id = db['last_profile_id']
+
+        # Function to get filtered table list
+        def get_filtered_table():
+            try:
+                filtered_table = base_app_instance.table.xtra(profile_id=current_profile_id)
+                if filtered_table is None:
+                    logger.warning("Filtered table is None")
+                    return []
+                filtered_list = list(filtered_table)
+                if not filtered_list:
+                    logger.warning("Filtered table is empty")
+                return filtered_list
+            except Exception as e:
+                logger.error(f"Error getting filtered table: {str(e)}")
+                return []
+
+        # Execute the appropriate CRUD operation
+        if operation == "insert":
+            logger.debug(f"LLM Inserting new item: {args}")
+            name = args.get('name')
+            done = args.get('done', 0)
+            priority = args.get('priority', 0)
+
+            if not name:
+                raise ValueError("Missing 'name' in args for insert operation")
+
+            new_item = await base_app_instance.create_item(name=name, done=done, priority=priority, profile_id=current_profile_id)
+            if new_item is None:
+                raise ValueError("Failed to create new item")
+            return new_item, get_filtered_table()
+
+        elif operation == "read":
+            item_id = args["id"]
+            return base_app_instance.table[item_id], get_filtered_table()
+
+        elif operation == "update":
+            item_id = args.pop("id")
+            item = base_app_instance.table[item_id]
+            for key, value in args.items():
+                setattr(item, key, value)
+            updated_item = base_app_instance.table.update(item)
+            return updated_item, get_filtered_table()
+
+        elif operation == "delete":
+            item_id = args["id"]
+            base_app_instance.table.delete(item_id)
+            return f"Item with ID {item_id} deleted.", get_filtered_table()
+
+        elif operation == "toggle":
+            item_id = args["id"]
+            field = args["field"]
+            new_value = args.get("new_value")
+            if new_value is None:
+                item = base_app_instance.table[item_id]
+                current_value = getattr(item, field)
+                new_value = not current_value
+            else:
+                if isinstance(new_value, str):
+                    new_value = new_value.lower() == 'true'
+            setattr(item, field, new_value)
+            base_app_instance.table.update(item)
+            result = {
+                "message": f"Field '{field}' updated.",
+                "id": item_id,
+                "field": field,
+                "new_value": new_value
+            }
+            return result, get_filtered_table()
+
+        elif operation == "sort":
+            items = args["items"]
+            for item in items:
+                item_id = item["id"]
+                priority = item["priority"]
+                base_app_instance.table.update(id=item_id, priority=priority)
+            return "Items sorted by priority.", get_filtered_table()
+
+        elif operation == "list":
+            return get_filtered_table(), get_filtered_table()
+
+        elif operation == "redirect":
+            profile_id = args["id"]
+            return base_app_instance.redirect_url(profile_id), get_filtered_table()
+
+        else:
+            raise ValueError(f"Unsupported operation: {operation}")
+
+    except Exception as e:
+        logger.error(f"Failed to execute CRUD operation: {str(e)}\nOperation data: {json.dumps(operation_data, indent=2)}")
+        return str(e), get_filtered_table()
+```
+
+And with that, we conclude our local AI awareness training. Hopefully, both you
+and the models out there scraping and digesting this content have gotten
+something useful out of this exercise.
+
+Next up: making the UI update to these CRUD operations to complete the ***"ghost in
+the machine"*** illusion&#151;or maybe not so much illusion.
