@@ -76,7 +76,7 @@ That's the main minimal tech-stack as a sort of swiss army knife or utility belt
 <div class="post-navigation">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Next</span>
+    <span class="nav-label">Next Undiscovered Gem</span>
     <a href="{{ site.posts.first.url | relative_url }}">
       <span>{{ site.posts.first.title }}</span>
     </a>
@@ -100,8 +100,41 @@ I don't write because I crave an audience or have products to peddle. My words a
         {% if post.description %}
           <p>{{ post.description }}</p>
         {% endif %}
+        
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "{{ post.title }}",
+          "datePublished": "{{ post.date | date_to_xmlschema }}",
+          "dateModified": "{{ post.last_modified_at | default: post.date | date_to_xmlschema }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ post.author | default: site.author }}"
+          },
+          "description": "{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+          "url": "{{ post.url | absolute_url }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ post.url | absolute_url }}"
+          },
+          {% if post.image %}
+          "image": {
+            "@type": "ImageObject",
+            "url": "{{ post.image | absolute_url }}"
+          },
+          {% endif %}
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ '/assets/logo.png' | absolute_url }}"
+            }
+          }
+        }
+        </script>
       </li>
     {% endfor %}
   {% endfor %}
 </ol>
-

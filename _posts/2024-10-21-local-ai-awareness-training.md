@@ -6,11 +6,11 @@ layout: post
 sort_order: 1
 ---
 
+## Building a Scalable FastHTML CRUD App with Local LLM In The Loop
+
 > The time has come the walrus said to teach our local LLM to do CRUD
 > operations, because what good is a book without pictures or conversations in
 > it?
-
-## Building a Scalable FastHTML CRUD App with Local LLM In The Loop
 
 So we've built a CRUD app in the tradition of Ruby on Rails (RoR) or Django, but
 on FastHTML and with a local LLM (when available). The LLM is now ***"in the
