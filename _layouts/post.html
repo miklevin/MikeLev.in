@@ -9,6 +9,12 @@ author: Mike Levin
     <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
   </div>{% else %}
   <div class="previous-post placeholder"></div>{% endif %}
+  
+  <div class="home-link">
+    <span class="nav-label">Home</span>
+    <a href="{{ '/' | relative_url }}">Blog</a>
+  </div>
+  
   {% if page.next %}<div class="next-post">
     <span class="nav-label">Next</span>
     <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
@@ -43,6 +49,12 @@ author: Mike Levin
     <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
   </div>{% else %}
   <div class="previous-post placeholder"></div>{% endif %}
+  
+  <div class="home-link">
+    <span class="nav-label">Blog</span>
+    <a href="{{ '/' | relative_url }}">Home</a>
+  </div>
+  
   {% if page.next %}<div class="next-post">
     <span class="nav-label">Next</span>
     <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>

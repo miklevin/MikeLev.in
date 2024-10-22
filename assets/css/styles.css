@@ -680,6 +680,15 @@ header blockquote {
   display: inline;
 }
 
+.post-navigation .home-link {
+    text-align: center;
+    flex: 1;
+}
+
+.post-navigation a {
+    margin: 0px 10px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   /* Special case for the index page next link on mobile */

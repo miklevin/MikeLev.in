@@ -989,6 +989,7 @@ def list_todo_items():
 **Current Code (Excerpt):**
 
 ```python
+{% raw %}
 # Generate AI response
 response = await run_in_threadpool(chat_with_ollama, model, conversation)
 conversation.append({"role": "assistant", "content": response})
@@ -1008,6 +1009,7 @@ for i in range(len(words)):
             )
         )
     await asyncio.sleep(TYPING_DELAY)
+{% endraw %}
 ```
 
 **Modification:**
@@ -1043,6 +1045,7 @@ except json.JSONDecodeError:
 **Add a helper function to stream the response:**
 
 ```python
+{% raw %}
 async def stream_response(response):
     """
     Stream the response to all connected users.
@@ -1064,6 +1067,7 @@ async def stream_response(response):
                 )
             )
         await asyncio.sleep(TYPING_DELAY)
+{% endraw %}
 ```
 
 ---
