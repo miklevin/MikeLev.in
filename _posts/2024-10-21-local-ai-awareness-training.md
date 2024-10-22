@@ -469,3 +469,135 @@ print(result)
 This function makes it easy to **flip between JSON and MiniDataAPI Python code**, providing a clean, dynamic way to execute CRUD operations directly from structured JSON input.
 
 ---
+
+After much haranguing, one of the most interesting things I did was the
+reworking of the system prompt to have all these API syntax instructions
+embedded into it.
+
+```python
+API_SYNTAX_TEMPLATES = {
+    "list": {
+        "operation": "list",
+        "target": "task"
+    },
+    "insert": {
+        "operation": "insert",
+        "target": "task",
+        "args": {
+            "name": "<task_name>",
+            "done": 0,
+            "priority": 0
+        }
+    },
+    "read": {
+        "operation": "read",
+        "target": "task",
+        "args": {"id": "<task_id>"}
+    },
+    "update": {
+        "operation": "update",
+        "target": "task",
+        "args": {
+            "id": "<task_id>",
+            "name": "<new_task_name>",
+            "done": "<true/false>",
+            "priority": "<new_priority_value>",
+        }
+    },
+    "delete": {
+        "operation": "delete",
+        "target": "task",
+        "args": {"id": "<task_id>"}
+    },
+    "toggle": {
+        "operation": "toggle",
+        "target": "task",
+        "args": {
+            "id": "<task_id>",
+            "field": "done",
+            "new_value": "<new_boolean_value>"
+        }
+    },
+    "sort": {
+        "operation": "sort",
+        "target": "task",
+        "args": {
+            "items": [
+                {"id": "<task_id>", "priority": "<new_priority_value>"},
+                {"id": "<task_id2>", "priority": "<new_priority_value2>"}
+            ]
+        }
+    },
+}
+
+
+def generate_system_message():
+    operations = [
+        ("List All Records", "list"),
+        ("Insert (Create)", "insert"),
+        ("Read (Retrieve)", "read"),
+        ("Update", "update"),
+        ("Delete", "delete"),
+        ("Toggle Field (e.g., Status)", "toggle"),
+        ("Sort Records", "sort"),
+    ]
+
+    message = (
+        f"Your name is {APP_NAME} if asked. "
+        f"Keep your responses under {MAX_LLM_RESPONSE_WORDS} words. "
+        "When a user asks you to do something in JSON, follow the API syntax rules exactly. "
+        "Here are the API syntax rules for each CRUD operation:\n\n"
+    )
+
+    for i, (operation_name, operation_key) in enumerate(operations, 1):
+        template = API_SYNTAX_TEMPLATES.get(operation_key, {})
+        message += (
+            f"{i}. {operation_name}\n\n"
+            f"```json\n{json.dumps(template, indent=2)}\n```\n\n"
+        )
+
+    message += (
+        f"Keep responses under {MAX_LLM_RESPONSE_WORDS} words. "
+        "Use emojis where appropriate to enhance responses. "
+    )
+
+    return message
+
+
+conversation = [
+    {
+        "role": "system",
+        "content": generate_system_message()
+    }
+]
+
+VALID_CRUD_OPERATIONS = {"insert", "read", "update", "delete", "toggle", "sort", "list"}
+
+CRUD_PROMPT_PREFIXES = {
+    action: f"Make an under {MAX_LLM_RESPONSE_WORDS} words sassy comment to the user letting them know you know "
+    for action in VALID_CRUD_OPERATIONS
+}
+CRUD_SUFFIX = " The user might query about this.\n"
+```
+
+## The Art of Crafting Effective System Prompt Guidelines
+
+Pshew! I'm sure they teach this stuff in schools these days, but there's a real
+art and science to this ***system prompt establishing the ground rules*** thing.
+And the LLM is going to lose grip on it as the conversation history gets longer
+and this initializing goodness gets diluted. Consequently, it has to be
+constructed in such a way that you can inject its best bits here and there as
+the conversation evolves and it forgets. 
+
+## Implementing Self-Correcting Callbacks in Large Language Models
+
+For example, if it forgets the API syntax to do CRUD operations and it starts
+doing things that looks like its going to corrupt your database (defensively
+sanitize against that as if they're a user by the way), you can recognize such
+faux pas, snag that `API_SYNTAX_TEMPLATE` and inject it into the conversation as
+a gentle system prompt on the failed-action rebound. 
+
+You essentially program in self-correcting callbacks. That way you don't clutter
+the conversation history with reminders to the LLM unless it needs it, and this
+keeps it appropriate for any LLM moving forward, even as they get smarter.
+Gentle reminders on screw-ups rather then helicopter parenting.
