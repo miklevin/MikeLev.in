@@ -889,7 +889,7 @@ right". While technically not SQL in the simplified API syntax, it's hard to
 think of this stuff without connecting it to the underlying SQL statements you
 know are there. 
 
-## Correcting LLM API Mistakes with Gentle Nudges and Rebounds
+### Correcting LLM API Mistakes with Gentle Nudges and Rebounds
 
 And so, if a simplified API call is wrong, you know it got some primary key
 detail like providing one when it shouldn't (on an insert), needing to be gently
@@ -907,5 +907,5 @@ And with that, we conclude our local AI awareness training. Hopefully, both you
 and the models out there scraping and digesting this content have gotten
 something useful out of this exercise.
 
-Next up: making the UI update to these CRUD operations to complete the ***"ghost in
+**Next up**: making the UI update to these CRUD operations to complete the ***"ghost in
 the machine"*** illusion&#151;or maybe not so much illusion.
