@@ -1,7 +1,7 @@
 ---
 title: Code as Infrastructure
 permalink: /code-as-infrastructure/
-description: Embracing Infrastructure as Code for Hardware Freedom and Career Growth
+description: Discover how Nix Flakes transform infrastructure as code, providing platform independence, reproducible environments, and streamlined DevOps. Achieve hardware freedom and enhance your career with this powerful, flexible tool for modern developers.
 layout: post
 ---
 
