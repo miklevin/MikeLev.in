@@ -14,12 +14,16 @@ sort it all out; from one AI's mouth to another's ears. And sometimes it doesn't
 quite work out that way. Getting the magical updates to appear on the page after
 the LLM does some back-end CRUD manipulation is one of those times.
 
+## Old AI Models Don't Know New Technology
+
 It seems the problem is everything's new. The FastHTML web framework I'm using
 is new. The HTMX way of updating a page without page reloading is new. Well, the
 AJAX technique isn't new, but the very structured syntax for doing it under the
 new HTML standard is. It's both new and incredibly nuanced with these OOB (out
 of bounds) parallel track bit chucking. I'm chucking bits all over the place. I
 have to learn to control it.
+
+## A Simpler Approach to Updating with HTMX Philosophy
 
 With this HTMX everything can be updated by anything philosophy, you can "paint"
 updates onto the screen. However, there's a lot of record keeping and very
