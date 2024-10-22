@@ -27,7 +27,7 @@ standalone topic and article. Some include:
 
 ### The sweet spot of HTMX and WebSockets
 
-  - ReactJS is in trouble because the *basic web** is now more reactive.
+  - ReactJS is in trouble because the *basic web* is now more reactive.
   - ZeroMQ has been torn from my cold dead hands (WebSockets is mature)
   - Absorbing the fact that anything can talk to anything anywhere with guids.
   - HTMX brings its own complexity and nuance (swapping one set of webdev
