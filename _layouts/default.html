@@ -191,6 +191,16 @@
 
     // Call this function after the page loads
     window.addEventListener('load', syncSliders);
+
+    // Fix for the resize bug
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            location.reload();
+        }, 250);
+    });
+
 </script>
 </body>
 </html>
