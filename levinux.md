@@ -11,6 +11,12 @@ group: home
     <span class="nav-label">Previous Project</span>
     <a href="/pipulate/">Pipulate: Open Source SEO Software</a>
   </div>
+  
+  <div class="home-link">
+    <span class="nav-label">Home</span>
+    <a href="{{ '/' | relative_url }}">Mike Levin</a>
+  </div>
+  
   <div class="next-post">
     <span class="nav-label">Next Project</span>
     <a href="/pipulate/">Pipulate: Open Source SEO Software</a>
