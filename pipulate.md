@@ -6,9 +6,20 @@ permalink: /pipulate/
 group: home
 ---
 
-[Pipulate](https://pipulate.com) is a free and open-source software project by **Mike Levin**, aimed at simplifying and automating SEO tasks through a locally-run web application framework. Though still in active development, Pipulate promises to offer a **developer-friendly alternative to cloud-dependent SEO tools**, embracing Infrastructure as Code (IaC) principles through the **Nix Flake** system. Now is a great time to start familiarizing yourself with this new approach, which runs locally like **Electron-based apps** (e.g., VSCode, Slack), but with built-in reproducibility for easier maintenance and portability.
+<div class="post-navigation">
+  <div class="previous-post">
+    <span class="nav-label">Previous Project</span>
+    <a href="/levinux/">Levinux: A Micro Linux Distribution for Beginners</a>
+  </div>
+  <div class="next-post">
+    <span class="nav-label">Next Project</span>
+    <a href="/levinux/">Levinux: A Micro Linux Distribution for Beginners</a>
+  </div>
+</div>
 
-[![Pipulate Logo - Open source SEO software](/assets/logo/Pipulate.PNG){: .logo}](https://github.com/miklevin/pipulate)
+[Pipulate](https://pipulate.com/) is a free and open-source software project by **Mike Levin**, aimed at simplifying and automating SEO tasks through a locally-run web application framework. Though still in active development, Pipulate promises to offer a **developer-friendly alternative to cloud-dependent SEO tools**, embracing Infrastructure as Code (IaC) principles through the **Nix Flake** system. Now is a great time to start familiarizing yourself with this new approach, which runs locally like **Electron-based apps** (e.g., VSCode, Slack), but with built-in reproducibility for easier maintenance and portability.
+
+[![Pipulate Logo - Open source SEO software](/assets/logo/Pipulate.PNG){: .logo}](https://pipulate.com/)
 
 ---
 
