@@ -13,7 +13,7 @@ bottle at this point in the project, and in the intense focus of getting to this
 point, I skipped over a lot of topics any of which could have been a great
 standalone topic and article. Some include:
 
-## Wrangling the Cursor AI Text Editor
+### Wrangling the Cursor AI Text Editor
 
   - Making Cursor AI "anchor" correctly on functions and classes
   - Keeping very long files from messing up context awareness
@@ -23,7 +23,7 @@ standalone topic and article. Some include:
     documentation)
   - Hey Claude... Leave my Figlets alone! (and it does now!)
 
-## The sweet spot of HTMX and WebSockets
+### The sweet spot of HTMX and WebSockets
 
   - ReactJS is in trouble because the *basic web** is now more reactive.
   - ZeroMQ has been torn from my cold dead hands (WebSockets is mature)
@@ -34,7 +34,7 @@ standalone topic and article. Some include:
     future-proofed) HTTP and HTML specifications, that it's the better of
     multiple webdev weirdness.
 
-# Implementing Context-aware Chat with Conversation History
+### Implementing Context-aware Chat with Conversation History
 
   - The entire growing conversation history is a single object, passed every
     time on every context-aware interaction!
@@ -48,7 +48,7 @@ standalone topic and article. Some include:
   - All interaction with LLM should be funneled through choke-points to manage
     state.
 
-## Why 1-File to Rule All Rules All
+### Why 1-File to Rule All Rules All
 
 - FastHTML in eliminating `.js` and `.css` allows single file programming
 - Single files for ***single page applications*** (SPA) makes good sense because
