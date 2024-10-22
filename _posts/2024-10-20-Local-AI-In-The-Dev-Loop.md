@@ -34,8 +34,8 @@ standalone topic and article. Some include:
   - HTMX brings its own complexity and nuance (swapping one set of webdev
     weirdness for another)
   - But the weirdness of HTMX+WebSockets so reflects the core (and thus nearly
-    future-proofed) HTTP and HTML specifications, that it's the better of
-    multiple webdev weirdness.
+    future-proofed) HTTP and HTML specifications, that it's the least bad evil
+    of multiple webdev evils.
 
 ### Implementing Context-aware Chat with Conversation History
 
