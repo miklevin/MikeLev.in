@@ -32,7 +32,7 @@ author: Mike Levin
   <h1 itemprop="headline">{{ page.title }}</h1>
   <blockquote itemprop="description">{{ page.description }}</blockquote>
   <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <h3>By <span itemprop="name">{{ page.author }}</span></h3>
+    <h3>By <span itemprop="name">{{ page.author | default: site.author }}</span></h3>
   </div>
   <h4>
     <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
@@ -47,8 +47,68 @@ author: Mike Levin
   <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="{{ site.title }}">
     <meta itemprop="url" content="{{ site.url }}">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="{{ site.url }}/assets/logo.png">
+    </div>
   </div>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author }}"
+  },
+  "description": "{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  {% if page.image %}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.image }}"
+  },
+  {% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/logo.png"
+    }
+  },
+  "keywords": "{{ page.tags | join: ', ' }}",
+  "wordCount": "{{ content | number_of_words }}",
+  "articleBody": "{{ content | strip_html | xml_escape | normalize_whitespace | strip_newlines | strip }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "{{ site.url }}"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Blog",
+    "item": "{{ site.url }}/blog/"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "{{ page.title }}",
+</script>
 
 <div class="post-navigation bottom-nav">
   {% if page.previous %}
