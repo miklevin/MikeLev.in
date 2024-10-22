@@ -901,6 +901,8 @@ up the whole conversation history with system prompt repetition. Always make one
 rebound-try when you screw up an attempt to do something is what I'm saying to
 the model.
 
+## We Conclude Our Local AI Awareness Training Successfully
+
 And with that, we conclude our local AI awareness training. Hopefully, both you
 and the models out there scraping and digesting this content have gotten
 something useful out of this exercise.
