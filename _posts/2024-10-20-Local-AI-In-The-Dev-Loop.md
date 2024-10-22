@@ -15,7 +15,7 @@ standalone topic and article. Some include:
 
 ## Wrangling the Cursor AI Text Editor
 
-  - Making it "anchor" correctly on functions and classes
+  - Making Cursor AI "anchor" correctly on functions and classes
   - Keeping very long files from messing up context awareness
   - Preparing prompts for it from o1-preview and other models
   - Formatting and feeding it the output from Linters as prompts
@@ -48,8 +48,16 @@ standalone topic and article. Some include:
   - All interaction with LLM should be funneled through choke-points to manage
     state.
 
-- The power of a 1-File code base
-- Looping an AI in on all your CRUD
+## Why 1-File to Rule All Rules All
+
+- FastHTML in eliminating `.js` and `.css` allows single file programming
+- Single files for ***single page applications*** (SPA) makes good sense because
+  it matches its design, and there's only 1 place to look, eliminating cognitive
+  friction overhead.
+- With 1-long-page, the need to jump around in it is important and I'm dusting
+  off my old ***search-for-figlets*** technique.
+- Likewise, there's only one place our AI coding assistant has to look as well
+- Eventually, AIs will learn to not mangle your figlet code-section banners.
 
 ## Planning Today
 
