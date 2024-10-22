@@ -724,10 +724,10 @@ those people finding this article worried about AI becoming self-aware and
 hacking the system, although I'm sure a superintelligent AI could find a way to
 exploit this. 
 
-## Defending Against Code Execution with Rigid Class Constraints
+### Defending Against Code Execution with Rigid Class Constraints
 
 No, rather this is just a bunch of JSON machine instructions for putting through
-an instruction interpreter. It's exactly as save as you program the following
+an instruction interpreter. It's exactly as safe as you program the following
 bit to be. And hopefully you can see the defenses I took of using the original
 ***base class*** that the user themselves use to ***"execute"*** the code,
 meaning it's on some pretty rigid rails. It can only do what `BaseApp` is
