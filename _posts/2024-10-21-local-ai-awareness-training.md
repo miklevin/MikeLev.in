@@ -1,7 +1,7 @@
 ---
 title: Local AI Awareness Training
 permalink: /local-ai-awareness-training/
-description: 
+description: Learn how to integrate local language models with FastHTML to build scalable CRUD applications, enhancing user interactions and managing conversation histories effectively. Aka how to train your local Llama.
 layout: post
 sort_order: 2
 ---
