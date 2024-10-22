@@ -13,7 +13,7 @@ sort_order: 2
 ## Building a Scalable FastHTML CRUD App with Local LLM In The Loop
 
 So we've built a CRUD app in the tradition of Ruby on Rails (RoR) or Django, but
-on FastHTML and with a local LAM (when available). The LAM is now ***"in the
+on FastHTML and with a local LLM (when available). The LLM is now ***"in the
 loop"*** on all user actions with it getting dumped into the conversation
 history stream. 
 
@@ -37,7 +37,32 @@ server console output (which amounts to a parallel interface to the app), I show
 summary statistics of conversation history, so you can see a histogram with
 number of interactions with each role, system, user and assistant, go up.
 
-Here’s an **eloquent JSON expression** of each CRUD operation that mirrors the **MiniDataAPI code**, ensuring that the transition between JSON and Python is seamless and intuitive. Each JSON example contains a **command, target, arguments**, and **expected output**, structured in a way that resembles the corresponding Python code.
+## Teaching AI Apps: A Day of Trial and Discovery
+
+And so it is with that background I show just a few snippets of conversation
+with mostly ChatGPT o1-preview and (now plain old) 4o to give a sense of
+teaching an LLM what it can do in an app. It was indeed a rabbit-hole that
+consumed the whole day more-or-less. But it was worth it for a few reasons.
+
+- It pumps-up the ***"ghost in the machine"*** feeling
+- It demonstrates even small local LLMs can execute functions
+- It creates the data-stream to teach the LLM how to use the app
+
+## Preparing for a Future Where AI Can Take Over Software Tasks
+
+Remember, an ultimate goal here is not just to have an LLM in the loop to assist
+the human user with using the software. It is to prepare for when (whatever LLM
+you plug in, local or not) is smart enough to take over using the software to
+achieve what you're trying to achieve on any request merely by asking it to do
+so. After watching users use the software for a few thousand hours, what won't
+it be able to do better than the human?
+
+---
+
+**Me**: Some random prompting about keeping the LLM's attempts in-sync with
+permitted commands in the system.
+
+**o1-preview**: Here’s an **eloquent JSON expression** of each CRUD operation that mirrors the **MiniDataAPI code**, ensuring that the transition between JSON and Python is seamless and intuitive. Each JSON example contains a **command, target, arguments**, and **expected output**, structured in a way that resembles the corresponding Python code.
 
 ---
 
@@ -294,9 +319,9 @@ This parser would enable **one-to-one flip-flopping** between JSON and Python.
 
 This JSON format mirrors MiniDataAPI operations closely, ensuring clarity and consistency between **JSON expressions and Python code**. By following this structure, anyone reading the JSON will immediately understand the corresponding Python code, creating a seamless development and debugging experience.
 
-Me: Write the Python function that takes these JSONS, turns it into the Python code to carry out their suggested MiniDataAPI command.
+**Me**: Write the Python function that takes these JSONS, turns it into the Python code to carry out their suggested MiniDataAPI command.
 
-ChatGPT 4o: Here is a Python function that takes JSON representations of operations and executes the corresponding MiniDataAPI commands dynamically:
+**ChatGPT 4o**: Here is a Python function that takes JSON representations of operations and executes the corresponding MiniDataAPI commands dynamically:
 
 ### **Python Function to Execute MiniDataAPI Commands from JSON**
 
