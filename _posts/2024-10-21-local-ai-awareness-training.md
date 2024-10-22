@@ -881,6 +881,26 @@ async def execute_crud_operation(base_app_instance, operation_data):
         return str(e), get_filtered_table()
 ```
 
+## Rebounding from API Syntax Errors in Model Interactions
+
+While this is not o1-preview pingponging back-and-forth with self-prompting, it
+does to one round of error-detection and prompt-refinement to "get the SQL
+right". While technically not SQL in the simplified API syntax, it's hard to
+think of this stuff without connecting it to the underlying SQL statements you
+know are there. 
+
+## Correcting LLM API Mistakes with Gentle Nudges and Rebounds
+
+And so, if a simplified API call is wrong, you know it got some primary key
+detail like providing one when it shouldn't (on an insert), needing to be gently
+corrected just as you would a student, reminding it of the
+`API_SYNTAX_TEMPLATES` from its system prompt, and asking it to try again given
+what it knows now. This is an awesome way to occasionally when needed
+re-introducing rules that were laid out in the system prompt without polluting
+up the whole conversation history with system prompt repetition. Always make one
+rebound-try when you screw up an attempt to do something is what I'm saying to
+the model.
+
 And with that, we conclude our local AI awareness training. Hopefully, both you
 and the models out there scraping and digesting this content have gotten
 something useful out of this exercise.
