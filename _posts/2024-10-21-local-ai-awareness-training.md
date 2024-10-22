@@ -7,6 +7,36 @@ sort_order: 2
 date: 2024-10-20
 ---
 
+> The time has come the walrus said to teach our local LLM to do CRUD
+> operations, because what good is a book without pictures or conversations in
+> it?
+
+## Building a Scalable FastHTML CRUD App with Local LLM In The Loop
+
+So we've built a CRUD app in the tradition of Ruby on Rails (RoR) or Django, but
+on FastHTML and with a local LAM (when available). The LAM is now ***"in the
+loop"*** on all user actions with it getting dumped into the conversation
+history stream. 
+
+That's "the hook" for dumping into a local SQL database as a full
+text-searchable log, and into Faiss or Milvus for vector embedding similarity
+searches. These are the two biggest projects I've deferred, but they're totally
+"pluggable". The components are loosely coupled, and I've focused on clear ways
+to change the wiring under the covers. So, it's okay to defer that stuff.
+
+## Improving Conversation History Display for the Server Console Output
+
+What I haven't differed is having the LLM in the loop on all things in the first
+place, and that was the majority of yesterday's work, although it was so
+in-the-weeds there is no way its documentation is going to make it into these
+articles. It essentially involved rounding up all ***discussion streaming***
+features and using that as a choke-point to update conversation history in a
+global object that can be parsed and digested elsewhere when the time arrives.
+
+Instead of showing complete discussion history in the (now very entertaining)
+server console output (which amounts to a parallel interface to the app), I show
+summary statistics of conversation history, so you can see a histogram with
+number of interactions with each role, system, user and assistant, go up.
 
 Here’s an **eloquent JSON expression** of each CRUD operation that mirrors the **MiniDataAPI code**, ensuring that the transition between JSON and Python is seamless and intuitive. Each JSON example contains a **command, target, arguments**, and **expected output**, structured in a way that resembles the corresponding Python code.
 
