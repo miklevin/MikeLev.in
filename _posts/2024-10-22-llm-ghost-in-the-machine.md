@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## OpenAI's Newest Models Sometimes Help with Code Refactoring
+
 Sometimes you can dump a codebase into OpenAI o1-preview and it will give you
 great advice you can copy/paste over to Code AI where Claude 3.5 sonnet will
 sort it all out; from one AI's mouth to another's ears. And sometimes it doesn't
