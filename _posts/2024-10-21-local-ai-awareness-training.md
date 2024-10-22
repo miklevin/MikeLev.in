@@ -4,7 +4,6 @@ permalink: /local-ai-awareness-training/
 description: 
 layout: post
 sort_order: 2
-date: 2024-10-20
 ---
 
 > The time has come the walrus said to teach our local LLM to do CRUD
