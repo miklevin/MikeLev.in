@@ -13,9 +13,35 @@ bottle at this point in the project, and in the intense focus of getting to this
 point, I skipped over a lot of topics any of which could have been a great
 standalone topic and article. Some include:
 
-- Wrangling Cursor AI Text Editor
+- Wrangling the Cursor AI Text Editor
+  - Making it "anchor" correctly on functions and classes
+  - Keeping very long files from messing up context awareness
+  - Preparing prompts for it from o1-preview and other models
+  - Formatting and feeding it the output from Linters as prompts
+  - The use of it to make really good comments and docstrings (built-in
+    documentation)
+  - Hey Claude... Leave my Figlets alone! (and it does now!)
 - The sweet spot of HTMX and WebSockets
+  - ReactJS is in trouble because the *basic web** is now more reactive.
+  - ZeroMQ has been torn from my cold dead hands (WebSockets is mature)
+  - Absorbing the fact that anything can talk to anything anywhere with guids.
+  - HTMX brings its own complexity and nuance (swapping one set of webdev
+    weirdness for another)
+  - But the weirdness of HTMX+WebSockets so reflects the core (and thus nearly
+    future-proofed) HTTP and HTML specifications, that it's the better of
+    multiple webdev weirdness.
 - Implementing Context-aware Chat with Conversation History
+  - The entire growing conversation history is a single object, passed every
+    time on every context-aware interaction!
+  - Managing this fact calls for global variables
+  - Global variables are not a bad thing because of Python's ***"everything is a
+    namespace including your file.py module"*** design.
+  - Trimming this global object is "context window" management, and what falls
+    off the end is lost forever unless explicitly captured.
+  - This is yet another place to leave hooks for AIs becoming more powerful
+    (allow for larger context windows, etc.)
+  - All interaction with LLM should be funneled through choke-points to manage
+    state.
 - The power of a 1-File code base
 - Looping an AI in on all your CRUD
 
