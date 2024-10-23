@@ -9,10 +9,10 @@ sort_order: 1
 ## OpenAI's Newest Models Sometimes Help with Code Refactoring
 
 Sometimes you can dump a codebase into OpenAI o1-preview and it will give you
-great advice you can copy/paste over to Code AI where Claude 3.5 sonnet will
-sort it all out; from one AI's mouth to another's ears. And sometimes it doesn't
-quite work out that way. Getting the magical updates to appear on the page after
-the LLM does some back-end CRUD manipulation is one of those times.
+great advice you can copy/paste over to ***Cursor AI*** where Claude 3.5 sonnet
+will sort it all out; from one AI's mouth to another's ears. And sometimes it
+doesn't quite work out that way. Getting the magical updates to appear on the
+page after the LLM does some back-end CRUD manipulation is one of those times.
 
 ## Old AI Models Don't Know New Technology
 
@@ -38,12 +38,12 @@ will know from bits hitting their bullseye.
 
 ## Would That Be Red Herring or Wild Goose Chase?
 
-After losing almost a day on trying to get the ghost in the machine effect with
-a blanket HTMX-style redirect, I'm learning that just doing the painterly thing
-and updating this and that through HTMX at the key moment it occurs is much
-easier and a better effect than the blanket redirect. "Painting" granular HTMX
-changes onto the screen is ironically both easier to achieve with AI-guidance
-and a better effect. Sheesh! I spun my wheels on that one.
+After losing almost a day on trying to get the ghost in the machine (GITM)
+effect with a blanket HTMX-style redirect, I'm learning that just doing the
+painterly thing and updating this and that through HTMX at the key moment it
+occurs is much easier and a better effect than the blanket redirect. "Painting"
+granular HTMX changes onto the screen is ironically both easier to achieve with
+AI-guidance and a better effect. Sheesh! I spun my wheels on that one.
 
 Anyhow, I have a few big take-aways. I learned to `import functools` and use it
 to create a wrapper class to cut down debugging log statements. I did this on my
@@ -211,5 +211,43 @@ breaking down the problem, where it went wrong, how it could do better next
 time, giving an example directly related to the given attempt and an explicit
 command to try again.
 
+## Maintaining Control in AI-Assisted Code Editing: A Delicate Balance
 
+Which brings us up to the current state of the project. I'm going to leave
+full-fledged GITM effect for later, happy I have insert implemented, and focus
+more on the now long-overdue application ports into the system, along with
+really tight debugging output and maintaining incredibly tight grips on the
+reins of this wild careening wagon of an application. AI-assisted code editing
+is wild. It knows so much&#151;inhumanly so, but sometimes in a ***too smart for
+its own good*** (or for ours) way. It will jump at the opportunity to take you
+down the rabbit hole of adding functions and exploding complexity for the best
+practices of the industry that led us to ReactJS. Not good.
 
+## Forcing AI to Focus on Specific Code Snippets in Large Projects
+
+This is where I feel compelled to write a Cursor AI tips and tricks article in
+particular about forcing the AI to anchor on and focus on and apply its
+recommended edits to the exact right part of your code, especially when the
+codebase gets big. That whole "apply to entire file" thing gets old after a few
+thousand lines of code, and the difference between `Ctrl+Shift+K` and `Ctrl+L`
+for either inline help or chat-interface help is enormous. You'd think it's the
+same, but it's not. It's all this API-nuance stuff. You can have global context
+and terrible targeting, or you can have laserbeam targeting and loss of global
+context. I'm sure this will get better with bigger token context window models
+like Gemini, but I'm thinking maybe it shouldn't have to. 
+
+## The Choice Between Global Context and Bullseye Nailing Aim
+
+If you have good programming skills and don't fall victim to the
+dependency-inducing sirens song of a superintelligent coding entity there to
+help, then the choice between diffuse global context with no aim and
+bullseye-nailing aim but no big picture makes total sense. It's the same issues
+as with global variables being bad and side-effects being the enemy of
+predictability that makes "functional" programming so appealing. If you don't
+see it going in and out of the function's interface, it doesn't exist. No side
+effects. No global objects being tweaked this way and that as a sort of
+configuration. You won't know about them. The AI won't know about them. It's a
+mess. But you can't get away from them because... well, Python. The idea is to
+just wrangle it effectively. There's a lot of 80/20-rule solutions to use.
+
+So I said I'm ***not*** going to write that Cursor AI 
