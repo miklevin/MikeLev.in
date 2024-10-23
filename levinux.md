@@ -14,7 +14,7 @@ group: home
   
   <div class="home-link">
     <span class="nav-label">Home</span>
-    <a href="{{ '/' | relative_url }}">Mike Levin</a>
+    <a href="{{ '/' | relative_url }}">Mike Levin<br />AI SEO</a>
   </div>
   
   <div class="next-post">

@@ -250,4 +250,150 @@ configuration. You won't know about them. The AI won't know about them. It's a
 mess. But you can't get away from them because... well, Python. The idea is to
 just wrangle it effectively. There's a lot of 80/20-rule solutions to use.
 
-So I said I'm ***not*** going to write that Cursor AI 
+So I said I'm ***not*** going to write that Cursor AI article today. Ugh, I need
+to make global tweaks to my articles and I don't keep them all in a single file
+anymore. I used to slice & dice a single file into the separate files used by
+the `jekyll` static site generator that powers Github Pages. But now I lean into
+its strengths and reduce the complexity of having a transform in the process,
+but now I need to know:
+
+---
+
+**Me**: How do I search a directory for the occurrence of a word in any of the files in that directory skipping searching recursive subdirectories that begin with a dot period like .git and .venv? I'm on Linux.
+
+**Perplexity**: To search for a word in files within a directory while skipping subdirectories that begin with a dot (like .git and .venv) on Linux, you can use the `find` command combined with `grep`. Here's how to do it:
+
+## Command Structure
+
+```bash
+find . -maxdepth 1 -type f -not -path '*/\.*' -exec grep -l "your_search_word" {} +
+```
+
+Let's break down this command:
+
+1. `find .`: Start searching in the current directory
+2. `-maxdepth 1`: Limit the search to the current directory (no recursion)
+3. `-type f`: Look for files only
+4. `-not -path '*/\.*'`: Exclude hidden files and directories
+5. `-exec grep -l "your_search_word" {} +`: Execute grep on found files
+
+## Usage Example
+
+To search for the word "example" in the current directory:
+
+```bash
+find . -maxdepth 1 -type f -not -path '*/\.*' -exec grep -l "example" {} +
+```
+
+This command will list all files in the current directory that contain the word "example", excluding any hidden files or directories[1].
+
+## Additional Options
+
+- **Case-insensitive search**: Add `-i` to the grep command
+- **Display matching lines**: Remove `-l` from the grep command
+- **Search in specific file types**: Add `-name "*.txt"` (for .txt files) after `-type f`
+
+## Alternative Approach
+
+If you prefer a more concise command, you can use `grep` with the `--exclude-dir` option:
+
+```bash
+grep -r --exclude-dir=".*" "your_search_word" .
+```
+
+This command recursively searches for "your_search_word" in the current directory, excluding all hidden directories[1].
+
+Remember to replace "your_search_word" with the actual word you're searching for in both examples.
+
+Citations:
+
+    [1] https://stackoverflow.com/questions/4210042/how-do-i-exclude-a-directory-when-using-find/36790648
+    [2] https://stackoverflow.com/questions/42306410/gitignore-syntax-how-to-exclude-virtualenv-sub-directories
+    [3] https://github.com/pypa/virtualenv/issues/2003
+    [4] https://www.reddit.com/r/learnpython/comments/unwi3u/can_i_put_my_venv_on_git/
+    [5] https://github.com/audreyfeldroy/cookiecutter-pypackage/pull/562
+    [6] https://discuss.python.org/t/trying-to-come-up-with-a-default-directory-name-for-virtual-environments/3750?page=2
+
+---
+
+**Me**: Why would one use one versus the other aside from conciseness? I'm going to make an alias in a nixos configuration.nix file. I ask for parameterization reasons, but I'm not going to make it complex to replace complex. I may just pass an argument or two to search the folder I'm in case sensitive or not, with word boundaries or not. 
+
+**Perplexity**: When choosing between the two approaches for searching files in a directory while excluding certain subdirectories, there are a few considerations:
+
+## find + grep Approach
+
+```bash
+find . -maxdepth 1 -type f -not -path '*/\.*' -exec grep -l "your_search_word" {} +
+```
+
+### Advantages:
+
+1. **More precise control**: You can easily adjust the search depth, file types, and exclusion patterns[1].
+
+2. **Flexibility**: Allows for complex file selection criteria before applying grep[1].
+
+3. **Performance**: Can be more efficient for large directories, as it filters files before searching content[2].
+
+### Disadvantages:
+
+1. **Complexity**: The command is longer and may be harder to remember or type quickly.
+
+2. **Potential limitations**: Some versions of find might have restrictions on the number of files that can be processed in a single exec call.
+
+## grep with --exclude-dir Approach
+
+```bash
+grep -r --exclude-dir=".*" "your_search_word" .
+```
+
+### Advantages:
+
+1. **Simplicity**: The command is shorter and easier to remember[3].
+
+2. **Built-in recursion**: grep -r handles directory traversal without needing find[3].
+
+3. **Easier parameterization**: Adding options like case-insensitivity (-i) or word boundaries (-w) is straightforward[4].
+
+### Disadvantages:
+
+1. **Less granular control**: Excluding specific directories or file types may require more complex patterns.
+
+2. **Potential performance impact**: Searches all files in all non-excluded directories, which could be slower for large directory structures.
+
+## Recommendation for Your Use Case
+
+Given that you're creating an alias in a NixOS configuration.nix file and want to keep it simple with just a few parameters, the grep approach might be more suitable:
+
+```nix
+environment.shellAliases = {
+  dirsearch = "grep -r --exclude-dir=\".*\" -i -w";
+};
+```
+
+This alias allows you to:
+
+1. Search recursively (-r)
+2. Exclude hidden directories (--exclude-dir=".*")
+3. Perform case-insensitive searches (-i)
+4. Match whole words only (-w)
+
+You can use it like this:
+
+```bash
+dirsearch "search_term" .
+```
+
+This approach provides a good balance of functionality and simplicity for your stated requirements. It's easy to use and modify, while still offering the core functionality you need for searching in the current directory with optional case sensitivity and word boundary matching[5].
+
+Citations:
+
+    [1] https://www.ibm.com/docs/da/aix/7.2?topic=g-grep-command
+    [2] https://www.redhat.com/en/blog/find-text-files-using-grep
+    [3] https://stackoverflow.com/questions/26865631/find-parameters-of-a-method-with-grep
+    [4] https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux
+    [5] https://www.reddit.com/r/bash/comments/ryryj4/how_to_use_grep_to_search_for_1_or_more_variables/
+    [6] https://stackoverflow.com/questions/4210042/how-do-i-exclude-a-directory-when-using-find/36790648
+    [7] https://www.unix.com/shell-programming-and-scripting/94443-passing-parameters-shell-script-grep-command.html
+    [8] https://github.com/audreyfeldroy/cookiecutter-pypackage/pull/562
+
+
