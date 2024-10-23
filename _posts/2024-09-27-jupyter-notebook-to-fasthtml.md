@@ -294,7 +294,7 @@ of the FastHTML Hello World page.
 And so we are in a good starting point. We can load Jupyter Notebooks into
 JupyterLab in our browser, such as old Notebooks we plan on turning into Web
 apps, and we can turn them into the web app by copy/pasting from the Notebook to
-the Code AI editor.
+the Cursor AI editor.
 
 Again, it's the best of all worlds.
 

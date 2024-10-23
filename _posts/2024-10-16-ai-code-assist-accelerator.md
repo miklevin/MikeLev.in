@@ -7,9 +7,9 @@ date: 2024-10-15
 sort_order: 2
 ---
 
-## Moving Nix OS Configuration to Code AI Repository
+## Moving Nix OS Configuration to Cursor AI Repository
 
-Okay, I paid my $20 for the first month of Code AI. I'm jumping on that
+Okay, I paid my $20 for the first month of Cursor AI. I'm jumping on that
 particular bandwagon. There's a trick I'm trying to achieve. I used to have a
 folder called github, because all my git projects ended up there, and it seemed
 logical to bind the concepts together. Then I realized it was a vendor and I
@@ -163,7 +163,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
  active aren't around. I open a new window, load a file and see if my macros are
  still there... they are! Good! And now I go open Cursor AI and see if I can see
  my `init.vim` in Cursor... I can, oh, but all those embedded binary control
- sequences! Uh oh! This is a hiccup. I can't edit my init.vim file in Code AI!
+ sequences! Uh oh! This is a hiccup. I can't edit my init.vim file in Cursor AI!
 
 ## I May Abandon Vimscript in Favor of NeoVim.
 

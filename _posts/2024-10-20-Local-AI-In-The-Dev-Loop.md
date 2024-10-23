@@ -336,7 +336,7 @@ And all of that is just getting started for the day, and it's not even 9AM yet.
 And this morning I got my new Logitch MX Brio working on my NixOS Linux machine
 too! It was one of the easiest hardware installs I ever did. I searched in
 Perplexity.AI on ***install mx brio on nixos*** and took the copy/paste
-markdown, pasteed it in ***Code AI*** with my NixOS `configuration.nix` file
+markdown, pasteed it in ***Cursor AI*** with my NixOS `configuration.nix` file
 loaded, and it just made the changes to the file, told me to `sudo nixos-rebuild
 switch` and Voilà! 
 

@@ -105,7 +105,7 @@ My job now is mostly to convert Jupyter Notebooks I have made in the past over
 to Web apps. And even on new projects, I believe I will continue to rapidly
 mock-up and prototype stuff in Notebooks, because it's just such a wonderful
 environment. And for people who need that AI code assist that's popping up in
-the form of GitHub Copilot and the Code AI editor, Project Jupyter has you
+the form of GitHub Copilot and the Cursor AI editor, Project Jupyter has you
 covered, as Jupyter AI is already an official plug-in. But this is not about
 keeping Notebooks the primary viable platform. This is about flexibility,
 supporting whatever is your AI poison. When I convert Notebooks to Web apps, I

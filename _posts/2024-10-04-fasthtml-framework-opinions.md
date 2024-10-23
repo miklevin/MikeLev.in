@@ -384,7 +384,7 @@ problems with only 20% of the complexity that you could weigh it down with.
 
 And so, there will be a certain amount of yielding to the opinions of the
 framework, as there always is. For insight as to what those opinions are, look
-at the definition of `fast_app()`. In VSCode or Code AI, that's just a matter of
+at the definition of `fast_app()`. In VSCode or Cursor AI, that's just a matter of
 right-clicking on it and selecting `Go to Definition`, which is what Jeremy more
 or less does in [the
 video](https://youtu.be/Auqrm7WFc0I?si=9S6u3fInrvfxJnPO&t=1655). And the fact
