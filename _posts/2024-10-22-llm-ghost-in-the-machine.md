@@ -396,4 +396,195 @@ Citations:
     [7] https://www.unix.com/shell-programming-and-scripting/94443-passing-parameters-shell-script-grep-command.html
     [8] https://github.com/audreyfeldroy/cookiecutter-pypackage/pull/562
 
+---
 
+Me: Posing the problem of the advanced script that needs to be used for global
+search and replace.
+
+o1-preview: To incorporate your script into your NixOS system so that it's available as a one-word command without any extensions, you can use the `writeShellScriptBin` function provided by Nix. This function allows you to create a derivation that installs a script into your system's `bin` directory, making it accessible from anywhere in your terminal.
+
+Here's how you can modify your `configuration.nix`:
+
+1. **Add the script using `writeShellScriptBin`**:
+
+   You can define your script as a package using `writeShellScriptBin`. This function creates an executable script and places it in the `$out/bin` directory.
+
+2. **Include the script in `environment.systemPackages`**:
+
+   By adding the script package to `environment.systemPackages`, NixOS will ensure it's available in your system's PATH after rebuilding.
+
+Here's the updated `configuration.nix` with your script incorporated:
+
+```nix
+{ config, pkgs, lib, ... }:
+{
+  # ... (rest of your configuration)
+
+  # System packages
+  environment.systemPackages = with pkgs; [
+    cmake
+    code-cursor
+    coreutils
+    curl
+    feh
+    figlet
+    gcc
+    git
+    gnome-terminal
+    google-chrome
+    libreoffice
+    msmtp
+    neovim
+    obs-studio
+    sqlitebrowser
+    stdenv.cc.cc.lib
+    tree
+    unzip
+    wget
+    xclip
+    zlib
+    slack
+    discord
+    (python311.withPackages (ps: with ps; [
+      requests
+      simplenote
+    ]))
+    cudaPackages.cudatoolkit
+    ollama
+    v4l-utils
+    cheese
+    zoom-us
+
+    # Add your script here
+    (pkgs.writeShellScriptBin "replace-word" ''
+      #!/usr/bin/env bash
+
+      if [ $# -ne 2 ]; then
+        echo "Usage: $0 'old term' 'new term'"
+        exit 1
+      fi
+
+      find . -type f -not -path '*/.*' -not -path '*/site-packages/*' -print0 | \
+      xargs -0 sed -i "s/\\b$1\\b/$2/g"
+    '')
+  ];
+
+  # ... (rest of your configuration)
+}
+```
+
+**Explanation**:
+
+- **`pkgs.writeShellScriptBin "replace-word" '' ... ''`**:
+
+  - **`pkgs.writeShellScriptBin`**: Creates a derivation that installs a shell script into `$out/bin`.
+  - **`"replace-word"`**: The name of the command you'll use in the terminal.
+  - **`'' ... ''`**: The content of your script.
+
+- **Script Adjustments**:
+
+  - I escaped the backslashes in the `sed` command (`\\b`) to ensure they're correctly interpreted within the Nix string.
+
+**Rebuilding Your System**:
+
+After updating your `configuration.nix`, rebuild your system:
+
+```bash
+sudo nixos-rebuild switch
+```
+
+**Using Your New Command**:
+
+You can now use `replace-word` from any directory in your terminal:
+
+```bash
+replace-word 'old term' 'new term'
+```
+
+**Notes**:
+
+- **No Need for Nix Home Manager**: Since we're modifying `environment.systemPackages`, this approach doesn't require Home Manager.
+- **Script Location**: The script will be placed in `/run/current-system/sw/bin`, which is in your PATH.
+
+**Alternative with a Separate Nix Expression**:
+
+If you prefer to keep your script in a separate file for better organization, you can create a Nix expression like `replace-word.nix`:
+
+```nix
+{ pkgs }:
+pkgs.writeShellScriptBin "replace-word" ''
+  #!/usr/bin/env bash
+
+  if [ $# -ne 2 ]; then
+    echo "Usage: $0 'old term' 'new term'"
+    exit 1
+  fi
+
+  find . -type f -not -path '*/.*' -not -path '*/site-packages/*' -print0 | \
+  xargs -0 sed -i "s/\\b$1\\b/$2/g"
+''
+```
+
+Then, in your `configuration.nix`, you can import it:
+
+```nix
+{ config, pkgs, lib, ... }:
+{
+  # ... (rest of your configuration)
+
+  environment.systemPackages = with pkgs; [
+    # ... (other packages)
+    (import ./replace-word.nix { inherit pkgs; })
+  ];
+
+  # ... (rest of your configuration)
+}
+```
+
+**Final Thoughts**:
+
+By using `writeShellScriptBin`, you leverage Nix's capabilities to manage your scripts declaratively, ensuring they are consistently available across system rebuilds. This method is clean, maintains the immutability principles of NixOS, and avoids the need for manual script placement or the use of profile paths.
+
+---
+
+## Using AI to Automate Unix/Linux Commands on Personal System Configuration
+
+And that worked! I know this tangent doesn't belong well in the GITM article
+topic, but these writings are more me thinking out loud each day as I go, and
+the ability to slam out a powerful `/sbin`-style Unix/Linux command with AI
+coding assistance on-demand is a game changer. This was on my
+`configuration.nix` file, and this is the equivalent of crating a Unix terminal
+alias, something which has been done for ages by Unix/Linux gurus and is nothing
+new, but by doing it in my git/GitHub backed up system configuration file, I'm
+ensuring that these conveniences could be with me for life. They never get lost
+as I change hardware. I just rebuild my system from config.
+
+Another noteworthy thing is that it's not actually an `alias` that I created,
+but a tiny little ***helper script*** that would normally have to run like:
+
+```bash
+sh ./filename.sh
+```
+
+## Bash Helper Scripts Using `/sbin/` Trick Under NixOS is a Personal Productivity Game Changer
+
+...but by putting it in the magical path location that always gets looked at and
+setting the file shebang directive correctly `#!/usr/bin/env bash` at the top of
+the file, and the execution bit correct (which I don't see but I assume Nix is
+taking care of), then what the "alias" does no longer has to be constrained to a
+1-liner. It is a full bash script that's created whenever my system builds and
+is dropped into location. And I go into this tangent because it's part of the
+payoff of having my `~/repos/nixos/` file location in my Cursor AI code
+assistant's "open folder" context or scope. It's a game changer, because now
+when I need to improve things permanently and forever forward, the environment I
+need to do so is at my fingertips and known by Claude 3.5 sonnet (currently).
+
+## The Same Applies to My NeoVim `init.lua` Macros
+
+This helps me improve my whole system configuration like add new software,
+aliases and helper scripts. But it also applies now to my vim/NeoVim
+configuration as well where I set up macros. And just like the difference
+between simple aliases and complex bash helper scripts, my nvim macros have been
+upgraded from simple `vimscript` *1-liners* to `init.lua` *functions*. And so
+day-by-day compounding return accelerators like I had hoped for in the age of AI
+are finally kicking in.
