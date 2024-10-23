@@ -164,41 +164,6 @@ class DictLikeDB:
 # Create the wrapper
 db = DictLikeDB(store, Store)
 logger.debug("Database wrapper initialized.")
-
-
-# *******************************
-# Database Initialization (belongs below home banner, but want home() to show first)
-# *******************************
-
-def populate_initial_data():
-    """
-    Populate the database with initial data if empty.
-
-    This function ensures that there is at least one profile and one todo item in the database.
-    """
-    logger.debug("Populating initial data.")
-    if not profiles():
-        # Create a default profile
-        default_profile = profiles.insert({
-            "name": f"Default {profile_app.name.capitalize()}",  # Updated to use CUSTOMER
-            "address": "",
-            "code": "",
-            "active": True,
-            "priority": 0,
-        })
-        logger.debug(f"Inserted default profile: {default_profile}")
-    else:
-        default_profile = profiles()[0]
-
-    if not todos():
-        # Add a sample todo with the default profile_id
-        todos.insert({
-            "name": f"Sample {todo_app.name}",
-            "done": False,
-            "priority": 1,
-            "profile_id": default_profile.id,
-        })
-        logger.debug(f"Inserted sample {todo_app.name} item.")
 ```
 
 ## Debugging Output Becomes More Informative with Syntax Coloring
@@ -223,7 +188,28 @@ But the good news is the concept is proven and I've pinned up the insert example
 in my code so that I have a great starting point when I can revisit those
 ghostly LLM operations. Appropriate for Halloween, haha!
 
+## Regret Over Rolled-Back AI Teaching Functionality
 
+One of the things I'm sorry about is that I had to roll back some of the
+callback "teaching the AI" functions. That is, when one of these ghost in the
+machine function-calls fails, I took the error message right down to the
+detailed traceback and feed it back into the LLM as a system message so that it
+could make another try and fix its mistake. However, the complexity exploded and
+as excited as I was about that, I basically gutted those features since the last
+time I discussed them here. The idea is solid, just my implementation lacked.
+
+## LLMs Don't Like Python Traceback Error Messages Any More Than You Do
+
+See, LLMs are going to really take to hart the latest info in the conversation
+history and if it's ugly debugging messages, it's going to start talking
+gobbledygook back to you&#151;especially when it gets a taste of those
+indecipherable Python traceback messages, haha! No, it's not just you. Those
+things are confusing as hell and it even makes LLMs start talking nonsense. The
+answer is to control the error message that gets fed back into the LLM with
+precision and clarity. It's got to be like a teacher or college professor
+breaking down the problem, where it went wrong, how it could do better next
+time, giving an example directly related to the given attempt and an explicit
+command to try again.
 
 
 
