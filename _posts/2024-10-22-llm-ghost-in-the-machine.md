@@ -594,8 +594,6 @@ upgraded from simple `vimscript` *1-liners* to `init.lua` *functions*. And so
 day-by-day compounding return accelerators like I had hoped for in the age of AI
 are finally kicking in.
 
-## Anthropic `agent.exe` Ghost In The Machine
-
 ---
 
 # Anthropic's Ghost In Your Machine
