@@ -616,6 +616,10 @@ to see how it did from the execution of its API commands. But I'm generally
 pumped that they're using the same line of reasoning. A small set of
 methodologies and skills let you do a huge variety of stuff.
 
+---
+
+**Me**: Hey Perplexity, tell me all about it.
+
 **Perplexity**: Anthropic has recently introduced a new AI capability called "computer use" for their Claude 3.5 Sonnet model. This feature allows the AI to interact with computers in ways similar to humans, such as moving the cursor, clicking buttons, typing text, and browsing the internet[1][4]. Here are the key points about this new Anthropic AI agent:
 
 ## Functionality
