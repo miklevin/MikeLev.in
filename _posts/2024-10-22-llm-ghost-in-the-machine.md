@@ -27,8 +27,8 @@ have to learn to control it.
 
 With this HTMX everything can be updated by anything philosophy, you can "paint"
 updates onto the screen. However, there's a lot of record keeping and very
-precise targeting involved, or you're going to mangle your DOM. There's so
-frustrating as mangling your DOM beyond recognition through careless bit
+precise targeting involved, or you're going to mangle your DOM. There's little
+so frustrating as mangling your DOM beyond recognition through careless bit
 chucking. Consequently, I'm going for a much more simplified approach which
 should be both an umbrella solution for all situations, and a nice stopgap until
 I learn how to chuck those bits with greater precision. And lastly, because HTMX
