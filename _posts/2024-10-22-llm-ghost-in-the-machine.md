@@ -403,10 +403,10 @@ Citations:
 
 ---
 
-Me: Posing the problem of the advanced script that needs to be used for global
+**Me**: Posing the problem of the advanced script that needs to be used for global
 search and replace.
 
-o1-preview: To incorporate your script into your NixOS system so that it's available as a one-word command without any extensions, you can use the `writeShellScriptBin` function provided by Nix. This function allows you to create a derivation that installs a script into your system's `bin` directory, making it accessible from anywhere in your terminal.
+**o1-preview**: To incorporate your script into your NixOS system so that it's available as a one-word command without any extensions, you can use the `writeShellScriptBin` function provided by Nix. This function allows you to create a derivation that installs a script into your system's `bin` directory, making it accessible from anywhere in your terminal.
 
 Here's how you can modify your `configuration.nix`:
 
@@ -593,3 +593,89 @@ between simple aliases and complex bash helper scripts, my nvim macros have been
 upgraded from simple `vimscript` *1-liners* to `init.lua` *functions*. And so
 day-by-day compounding return accelerators like I had hoped for in the age of AI
 are finally kicking in.
+
+## Anthropic `agent.exe` Ghost In The Machine
+
+---
+
+# Anthropic's Ghost In Your Machine
+
+## Anthropic Uses Chatbot To Control Desktops With Feedback Loop
+
+And an article on this wouldn't be complete without looking at what Anthropic is
+doing training Claude 3.5 sonnet to use computers. Whereas my approach really is
+contained to the backend of a webapp, they're using it to remote control
+desktops. A command-set lets the model control the desktop and the ability to
+take screenshots is the feedback loop to tell it how it's doing. Same callback
+function feedback loop mechanism I was working on, but applied to desktop
+automation. 
+
+I'll keep Anthropic's work in mind for my work. While this may look like more
+everything is changing so fast stuff, really it's evidence of a general
+future-proofing workflow of chitchat with an AI, the AI having a particular API
+syntax for controlling something usually with JSON blurbs, and a feedback loop
+to see how it did from the execution of its API commands. But I'm generally
+pumped that they're using the same line of reasoning. A small set of
+methodologies and skills let you do a huge variety of stuff.
+
+**Perplexity**: Anthropic has recently introduced a new AI capability called "computer use" for their Claude 3.5 Sonnet model. This feature allows the AI to interact with computers in ways similar to humans, such as moving the cursor, clicking buttons, typing text, and browsing the internet[1][4]. Here are the key points about this new Anthropic AI agent:
+
+## Functionality
+
+The "computer use" feature enables Claude 3.5 Sonnet to:
+
+- View and interpret computer screens
+- Move cursors and click buttons
+- Type text and enter data
+- Browse websites and use applications
+- Perform multi-step tasks like filling out forms or ordering items online
+
+This allows the AI to automate various computer-based tasks that previously required human intervention[1][4].
+
+## How It Works
+
+The process involves several steps:
+
+1. The AI takes a screenshot of the user's screen
+2. It analyzes the image to determine necessary actions
+3. The AI executes those actions (e.g., moving the cursor, clicking, typing)
+4. Another screenshot is taken to assess the results
+5. This loop continues until the task is completed[4]
+
+## Current Status and Limitations
+
+- The feature is currently in public beta and available through Anthropic's API[6]
+- It's still experimental and can be error-prone at times
+- Anthropic acknowledges that improvements are needed and expects rapid advancements[6]
+
+## Applications and Use Cases
+
+Several companies are already exploring potential applications:
+
+- Asana, Canva, and DoorDash are investigating ways to incorporate it into their workflows
+- Replit is using it to develop an "autonomous verifier" for evaluating apps during development
+- It can potentially automate repetitive tasks, assist in software development, and conduct research[1][6]
+
+## Safety and Precautions
+
+Anthropic recommends several safety measures when using this tool:
+
+- Using dedicated virtual machines
+- Limiting access to sensitive data
+- Restricting internet access to required domains
+- Keeping humans in the loop for sensitive tasks[5]
+
+## Significance in AI Development
+
+This development represents a significant step in AI capabilities, moving towards more general-purpose AI that can interact with computers in human-like ways. It positions Anthropic as a frontrunner in the race to develop AI agents with broader, more flexible capabilities[4][5].
+
+Citations:
+
+    [1] https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/
+    [2] https://docs.anthropic.com/en/docs/build-with-claude/computer-use
+    [3] https://darkvisitors.com/agents/anthropic-ai
+    [4] https://www.theinformation.com/articles/anthropic-pulls-ahead-in-the-ai-agent-race
+    [5] https://www.businessinsider.com/anthropic-claude-computer-use-ai-explainer-2024-10
+    [6] https://www.anthropic.com/news/3-5-models-and-computer-use
+    [7] https://www.cnbc.com/2024/10/22/anthropic-announces-ai-agents-for-complex-tasks-racing-openai.html
+    [8] https://www.youtube.com/watch?v=Iabue7wtE4g
