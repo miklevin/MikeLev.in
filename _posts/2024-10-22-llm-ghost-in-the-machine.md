@@ -250,12 +250,17 @@ configuration. You won't know about them. The AI won't know about them. It's a
 mess. But you can't get away from them because... well, Python. The idea is to
 just wrangle it effectively. There's a lot of 80/20-rule solutions to use.
 
+## Finding Global Replacements for Cursor AI References in Articles
+
 So I said I'm ***not*** going to write that Cursor AI article today. Ugh, I need
 to make global tweaks to my articles and I don't keep them all in a single file
 anymore. I used to slice & dice a single file into the separate files used by
 the `jekyll` static site generator that powers Github Pages. But now I lean into
 its strengths and reduce the complexity of having a transform in the process,
-but now I need to know:
+but now I need to know the following because I can't stop calling ***Cursor
+AI*** ***Code AI***. And so now I have to do a global search and replace within
+an ever-increasing folder of `_posts/` under the GitHub Jekyll static site
+generator system. Ugh!
 
 ---
 
