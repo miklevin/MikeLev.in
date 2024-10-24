@@ -175,9 +175,9 @@ But we also want key/value pairs:
 
 But we also want to imply CONSTANTS:
 
-- CLIENT WEBSITE: https://www.<theirs>.com/
-- SHARED SLACK CHANNEL: https://botify.slack.com/archives/<theirs>
-- INTERNAL SLACK CHANNEL: https://botify.slack.com/archives/<theirs>
+- CLIENT_WEBSITE: https://www.<theirs>.com/
+- SHARED_SLACK_CHANNEL: https://botify.slack.com/archives/<theirs>
+- INTERNAL_SLACK_CHANNEL: https://botify.slack.com/archives/<theirs>
 
 This may all seem super-obvious but it doesn't come so natural to me. When the
 "fixed locations" are outside this timeless future-proofing mental construct I
@@ -204,14 +204,38 @@ Right-click everything on the left-hand navigator and set `Show and sort` to
 things I was starring was not showing up under starred. If there's new stuff it
 will bold. Rely on seeing things go bold.
 
+Take the 2 shortcuts to those slack channels and also make them bookmarks in
+your work-profile browser! So you're ***designing your bookmarks*** to be both
+the experience you need to get organized in preparation for meetings, and every
+day really by being in your face in one of those ***can't help but encounter***
+repetitively valuable pieces of cognitive real estate locations. It's got a good
+pattern so far:
+
+- client site
+- internal slack
+- shared slack
+
 Forget the stars. Unstar everything. It was useless. Use a `Priority` section.
 Learn the language. They're *Sections*. A priority section gets a little chili
 pepper emoji. That will help. Always click the chili pepper! Un-expand
 everything. Expanded accordion navigation menus are the enemy. It's the same
 thing I hate about VSCode. If everything is equally prevalent, then nothing is.
 It's massive focus-dilution and I find that ability to focus so valuable.
-Okay... Slack wrangled. I can easily ***find*** where I need to look to finish
+
+Next is ***only expand `Priority`*** and keep everything else collapsed. And hit
+the `Home` icon repeatedly. Everything gets confusing with 1 or 2 clicks in
+Slack, and like Dorothy, we must keep repeating "there's no place like home...
+there's no place like home..." to clear up the Slack clutter and cognitive
+overload. I don't know how people with focus problems can even use that thing.
+There must be such a slack-hater subculture out there.
+
+Okay... so anyway, Slack wrangled. 
+
+I can easily ***find*** where I need to look to finish
 that above bullet-list of assets I need to familiarize myself with to do client
 work effectively. Agendas and deliverables ready for the meeting? Ha! Just be
 prepared with some solid next steps on things I can turn around fast after the
 meeting! But the agenda is a must. Follow co-worker patterns.
+
+
+
