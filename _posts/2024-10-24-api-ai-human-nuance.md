@@ -39,7 +39,7 @@ using it awhile now, and as brilliant as the version of it that reached the
 public is, it can still lull you into a false sense of security of its ability
 then blindside you with its own blindness. Ouch! 
 
-### Approaching AI Like a New Employee at a Job
+## Approaching AI Like a New Employee at a Job
 
 That was yesterday. It's not going to be able to look at 2 codebases loaded with
 its own subtlety tied to how browsers render things and how the http
@@ -83,7 +83,7 @@ port is slim. Ugh, it's not like you're going to make a hail mary play and
 finish the port this morning. You have to take the stress off yourself of the
 upcoming meeting, and switch into that mode.
 
-### Even The Hound Must Rest
+## Even The Hound Must Rest
 
 Hit it out of the ballpark with managing meetings today. First of all, think out
 loud about the process and go ahead and blog it right here. There's no shame in
@@ -92,7 +92,7 @@ distracted from by a true passion. This coding stuff and the challenge of being
 on the chase like the way Watson used to describe Holmes on the scent of a case
 is exactly the trilling feeling of coding an interesting project. 
 
-### Using Gamification Algorithms for Self-Control and Productivity Gains
+## Using Gamification Algorithms for Self-Control and Productivity Gains
 
 It's just the right level of just-beyond-reach but around the corner you need.
 The game gamification and level-seeking and unlocks has been used a lot lately
@@ -100,6 +100,8 @@ for the kind of addiction developers of ***the algorithms*** are using to get
 you and keep you addicted to social media for that slot-machine pulling dopamine
 rush. Doom-scrolling and dragging down at the top of a feed for a refresh.
 Insidious stuff, but you can use that power for good with self life-hacks.
+
+## I'm Hoping that Using My Chip O'Theseus Linux Server Will Help
 
 One of the places I can find the love in everyday client management work is the
 fact that I get to use my new home work server machine that I decked out with
@@ -111,6 +113,8 @@ machine and it worked like a charm. Likewise, I now have Slack and Zoom
 installed, and they're similarly solid. They were all just additions to my
 `configuration.nix` file, which still just blows my mind. 
 
+## NixOS Made Getting Slack, Zoom & a Webcam on Linux Oddly Easy
+
 There's not really software installation on NixOS. There's only adjusting the
 file that defines your overall system and a quick rebuild. It's a game changer
 that even obsoletes for the most part the whole Docker container movement for
@@ -119,10 +123,14 @@ forever-Linux definitely infuses the love into it. Purging Microsoft and Apple
 dependency out of your life is both cathartic and future-proofing in a way
 that's personally satisfying and good for your career.
 
+## The Joy of Pairing Down the Cruft
+
 Ugh, more writing rabbit hole! Everything is just so interesting again by virtue
 of the pairing-down of the cruft and not embracing more. It's a feeling I
 haven't had since the Amiga computer, and to a lesser extent, the original
 iPhone. Anyhoo... force that shift in thinking and ***use this time window!*** 
+
+## Big Context Windows & What Ilya Saw a Disappointment
 
 Alright, so a shift in thinking. The stressful time-window I was working with
 was hardly enough to finish the web app port, and I want to do a great job with
@@ -134,6 +142,8 @@ night again. The solutions are percolating in my head. What comes next is the en
 opposite of dumping 2 codebases into o1-preview, Gemini 1.5 Pro (or whatever
 model can handle a few million tokens) like I did first. 
 
+## I Must Control The Horizontal & Vertical
+
 Magic wands and hand-waving! We all want it. A superintelligent surrogate parent
 with our best interests at heart advising us with omnipresent wisdom. It's
 feeling we've got that initially (what Ilya saw), but that's a siren's
@@ -143,6 +153,8 @@ the show. Okay, even this article could go on forever as its own sort of rabbit
 hole. That gets to process. Process-breaking, that is. The rabbit hole
 evaluation escape clause that re-focuses you on the 80-20 solutions. In this
 case it goes like this...
+
+## List It Out
 
 1. What is my time window. Work backwards. And what is the goal? To please the
    client of course and move things on modestly but competently to the next step
@@ -236,6 +248,5 @@ that above bullet-list of assets I need to familiarize myself with to do client
 work effectively. Agendas and deliverables ready for the meeting? Ha! Just be
 prepared with some solid next steps on things I can turn around fast after the
 meeting! But the agenda is a must. Follow co-worker patterns.
-
 
 
