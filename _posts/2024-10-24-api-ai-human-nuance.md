@@ -187,9 +187,9 @@ But we also want key/value pairs:
 
 But we also want to imply CONSTANTS:
 
-- CLIENT_WEBSITE: https://www.<theirs>.com/
-- SHARED_SLACK_CHANNEL: https://botify.slack.com/archives/<theirs>
-- INTERNAL_SLACK_CHANNEL: https://botify.slack.com/archives/<theirs>
+- CLIENT_WEBSITE: https://www.`<theirs>`.com/
+- SHARED_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
+- INTERNAL_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
 
 This may all seem super-obvious but it doesn't come so natural to me. When the
 "fixed locations" are outside this timeless future-proofing mental construct I
