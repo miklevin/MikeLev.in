@@ -72,3 +72,31 @@ Citations:
     [8] https://www.reddit.com/r/ExperiencedDevs/comments/18vxqqf/24_years_ago_joel_spolsky_joel_on_software_wrote/
 
 ---
+
+## Eating The Frog to Take Stress Off Yourself
+
+The main thing this morning is to not get distracted. This tiny time window you
+are allowing yourself for laying the foundations of this defending-against-bugs
+port is slim. Ugh, it's not like you're going to make a hail mary play and
+finish the port this morning. You have to take the stress off yourself of the
+upcoming meeting, and switch into that mode.
+
+## Even The Hound Must Rest
+
+Hit it out of the ballpark with managing meetings today. First of all, think out
+loud about the process and go ahead and blog it right here. There's no shame in
+trying to be (or at least look) competent in an aspect of your job you're being
+distracted from by a true passion. This coding stuff and the challenge of being
+on the chase like the way Watson used to describe Holmes on the scent of a case
+is exactly the trilling feeling of coding an interesting project. 
+
+## Using Gamification Algorithms for Self-Control and Productivity Gains
+
+It's just the right level of just-beyond-reach but around the corner you need.
+The game gamification and level-seeking and unlocks has been used a lot lately
+for the kind of addiction developers of ***the algorithms*** are using to get
+you and keep you addicted to social media for that slot-machine pulling dopamine
+rush. Doom-scrolling and dragging down at the top of a feed for a refresh.
+Insidious stuff, but you can use that power for good with self life-hacks.
+
+
