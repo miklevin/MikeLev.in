@@ -397,9 +397,9 @@ distinct from Pipulate.
 
 Oh, I really should have branched before I renamed the file. But anyway...
 
-Me: How do I make a new git branch?
+**Me**: How do I make a new git branch?
 
-Perplexity: To create a new Git branch, you have several options:
+**Perplexity**: To create a new Git branch, you have several options:
 
 ## Basic Branch Creation
 
