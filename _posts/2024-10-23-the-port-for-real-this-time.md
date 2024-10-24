@@ -350,3 +350,36 @@ Already up to date.
 
 Well, I guess so! One hurdle overcome. And it's barely 8:30 PM. I've got the
 whole night to go!
+
+Think! It's these little hurdles that should accelerate and not hinder. With a
+new folder in-hand, we get to `nix develop` it for the first time. Success! It
+didn't white-label as cleanly as I thought as I have a `projectName` variable in
+the `flake.nix` file. So since this will be a branch, I want it to be gloriously
+visually different so I never make the mistake of being on the wrong branch with
+a client or anything, so I change the variable name and delete the whole `.venv`
+folder. For good measure, I also do a `nix flake update` before I nix develop
+again.
+
+Okay interesting! When you do that, the command to launch the app changes. I
+always have an alias that doesn't forcibly pop open a browser window, which I'm
+keeping `bf` no matter how you relabel it. But when you do change `projectName`
+in `flake.nix`, you also have to rename the file it's going to try to run, in
+this case from `botifython.py` to `botifymograph.py`. And because I don't want
+to lose the git histories, I do it with a git command:
+
+```bash
+git mv botifython.py botifymograph.py
+```
+
+And this has the extra benefit that if I ever do merge branches, the filenames
+won't collide and I won't have a big mess of a file to sort out. Multiple
+"`server.py`" files can happily live in the same folder, so I'm making a very
+good pseduo-template system. Not real templates, because it's all working off of
+a single file which you edit away however you like. So in a sense you start from
+a template, but then it can radically diverge. But not too much, or it will all
+break. This has pluses and minuses as all things do. If I make innovations I
+want to roll into the main branch, I'm going to have to carefully transplant
+them. But the freedom in the immediate term is well worth it.
+
+Okay, forge ahead! We need to start wedging in stuff. The homepage has to notice
+that you don't have the Botify API token yet and pester you to provide it. 
