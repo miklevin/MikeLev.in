@@ -160,6 +160,30 @@ case it goes like this...
    that have web links so you can pull them up quickly. Make them their own
    folder in one of your profiles so it sync's across machines. They are:
 
-- The client's own actual website:
-- The Slack Channel:
+Okay, organize your mind like a YAML file. Minimal syntax. Good use of key/value
+pairs. Low friction. We want a bulleted list...
 
+- One
+- Two
+- Three
+
+But we also want key/value pairs:
+
+- key: value
+- key2: value2
+- key3: value3
+
+But we also want to imply CONSTANTS:
+
+- CLIENT WEBSITE: https://www.<theirs>.com/
+- SHARED SLACK CHANNEL: https://botify.slack.com/archives/<theirs>
+- INTERNAL SLACK CHANNEL: https://botify.slack.com/archives/<theirs>
+
+This may all seem super-obvious but it doesn't come so natural to me. When the
+"fixed locations" are outside this timeless future-proofing mental construct I
+made for myself, the details are not sticky. But this is the kind of
+statefulness and side-effects that make all the difference. Yup, it's a
+functional versus procedural thing again. I favor functional. All stateful stuff
+evaporates away when you leave the function. This is a problem. I cannot let
+myself be this way. I have to rigorously pin up things I must remember in places
+I cannot help but look until the appropriate habits kick in and its automatic.
