@@ -974,3 +974,22 @@ Me: Okay, you nailed it. So, give yourself precise instructions for the next ste
 > Note: And this is where it went terribly wrong again. Like humans, AI's are
 > remarkably hit-or-miss. Sometimes they're really good at figuring out
 > precisely what you want, and other times it's... just too difficult, maybe?
+
+## Refactoring and Porting App #1 Goes Into Day 2
+
+I didn't want to, but I had to pull the plug around 3:00 AM and get some sleep.
+The good news is that most of the hard bits are done.
+
+- I've "wedged in" the plugin to the page layout
+- I have a progressive reveal of PicoCSS-style "stacked cards" for a Jupyter
+  Notebook-like progressive reveal
+- I have connectivity with the Botify API, both for login and one of the harder
+  menu tricks
+- I got the old app working again for side-by-side comparison
+
+But that's where I ran out of steam. Diminishing returns on productivity from
+exhaustion, and I really have to dive into preparing for the client meeting
+today, at around 2:00 PM. It's only 9:00 AM, so if I want to do both things, I
+have to make some strategic moves forward and have it all wrapped up by no later
+than 11:00 AM so I can shift gears and make a good showing on my first
+management of a client meeting in some time.
