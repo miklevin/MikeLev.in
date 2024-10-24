@@ -191,6 +191,8 @@ But we also want to imply CONSTANTS:
 - SHARED_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
 - INTERNAL_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
 
+## Client Satisfaction is All About Statefulness (vs. Functional)
+
 This may all seem super-obvious but it doesn't come so natural to me. When the
 "fixed locations" are outside this timeless future-proofing mental construct I
 made for myself, the details are not sticky. But this is the kind of
@@ -199,6 +201,8 @@ functional versus procedural thing again. I favor functional. All stateful stuff
 evaporates away when you leave the function. This is a problem. I cannot let
 myself be this way. I have to rigorously pin up things I must remember in places
 I cannot help but look until the appropriate habits kick in and its automatic.
+
+## Slack So Much Worse Than Internet Relay Chat of Yore
 
 Okay, so that's knowing where to find things. So go find them! Ugh! I am slack
 challenged. How can someone who was on IRC (Internet Chat Relay) that started
@@ -216,6 +220,8 @@ Right-click everything on the left-hand navigator and set `Show and sort` to
 things I was starring was not showing up under starred. If there's new stuff it
 will bold. Rely on seeing things go bold.
 
+## Browser Bookmarks Are Key
+
 Take the 2 shortcuts to those slack channels and also make them bookmarks in
 your work-profile browser! So you're ***designing your bookmarks*** to be both
 the experience you need to get organized in preparation for meetings, and every
@@ -226,6 +232,8 @@ pattern so far:
 - client site
 - internal slack
 - shared slack
+
+## Ditching Slack Stars for a `Priority` *Section*
 
 Forget the stars. Unstar everything. It was useless. Use a `Priority` section.
 Learn the language. They're *Sections*. A priority section gets a little chili
