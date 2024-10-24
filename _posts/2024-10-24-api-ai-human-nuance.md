@@ -171,6 +171,8 @@ case it goes like this...
 4. List links! This means make a list of assets and resources, preferably ones
    that have web links so you can pull them up quickly. Make them their own
    folder in one of your profiles so it sync's across machines. They are:
+5. Make it a ***Great Story!*** Make it entertaining. Have the credibility
+   behind it and be able to say and do what you say with integrity
 
 Okay, organize your mind like a YAML file. Minimal syntax. Good use of key/value
 pairs. Low friction. We want a bulleted list...
@@ -190,6 +192,9 @@ But we also want to imply CONSTANTS:
 - CLIENT_WEBSITE: https://www.`<theirs>`.com/
 - SHARED_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
 - INTERNAL_SLACK_CHANNEL: https://botify.slack.com/archives/`<theirs>`
+- PROJECT_PLAN: https://docs.google.com/spreadsheets/d/`<theirs>`
+- BOTIFY_PROJECT: https://app.botify.com/`<their org>`/`<their project>`
+
 
 ## Client Satisfaction is All About Statefulness (vs. Functional)
 
@@ -242,6 +247,8 @@ everything. Expanded accordion navigation menus are the enemy. It's the same
 thing I hate about VSCode. If everything is equally prevalent, then nothing is.
 It's massive focus-dilution and I find that ability to focus so valuable.
 
+## VSCode-Style Accordion Left-Nav Mind-numbing
+
 Next is ***only expand `Priority`*** and keep everything else collapsed. And hit
 the `Home` icon repeatedly. Everything gets confusing with 1 or 2 clicks in
 Slack, and like Dorothy, we must keep repeating "there's no place like home...
@@ -251,10 +258,23 @@ There must be such a slack-hater subculture out there.
 
 Okay... so anyway, Slack wrangled. 
 
-I can easily ***find*** where I need to look to finish
-that above bullet-list of assets I need to familiarize myself with to do client
-work effectively. Agendas and deliverables ready for the meeting? Ha! Just be
-prepared with some solid next steps on things I can turn around fast after the
-meeting! But the agenda is a must. Follow co-worker patterns.
+## Finding Everything is Half the Battle
+
+I can easily ***find*** where I need to look to finish that above bullet-list of
+assets I need to familiarize myself with to do client work effectively. Agendas
+and deliverables ready for the meeting? Ha! Just be prepared with some solid
+next steps on things I can turn around fast after the meeting! But the agenda is
+a must. Follow co-worker patterns.
+
+## Managing Client Relationships Always Top Priority
+
+I don't know why this is all so difficult for me, but with time running out I
+have to employ 80/20-rule big time and turn myself into as good of a choice as
+anyone to manage client relationships. This should be in my bailiwick whether I
+like it or not. I've got to make it come naturally and form the habits. This is
+what's most valuable at an organization like where I work until the dev stuff
+I'm doing is an appealing enough carrot to be dangling that they want me on it
+more. But even then, keeping a connection to the client-work is essential
+because ivory towers spring up way too quick on the dev side. Stay connected!
 
 
