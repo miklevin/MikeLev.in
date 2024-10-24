@@ -397,6 +397,8 @@ distinct from Pipulate.
 
 Oh, I really should have branched before I renamed the file. But anyway...
 
+---
+
 **Me**: How do I make a new git branch?
 
 **Perplexity**: To create a new Git branch, you have several options:
@@ -468,3 +470,238 @@ Citations:
     [6] https://stackoverflow.com/questions/66882952/how-to-create-new-local-branch-and-switch-between-branches-in-git
     [7] https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
     [8] https://www.git-tower.com/learn/git/faq/create-branch
+
+---
+
+```bash
+[mike@nixos:~/repos/botifymograph]$ git branch botifymograph
+
+[mike@nixos:~/repos/botifymograph]$ git checkout botifymograph
+A	botifymograph.py
+D	botifython.py
+M	flake.lock
+M	flake.nix
+Switched to branch 'botifymograph'
+
+[mike@nixos:~/repos/botifymograph]$
+```
+
+Confirmed!
+
+Okay, so no forget about using the "home" page for the token. This is going to
+be one unified single-page application. You go to `Link Graph` on the menu, and
+the whole experience is going to be top-down much like a Jupyter Notebook,
+except when something is finished or dispensed with permanently, such as setting
+the API token, that "block" is going to disappear. So this is sort of a
+peek-a-boo module I'm creating that will appear if you don't have at token set
+and disappear if you do.
+
+And now we enter Cursor AI.
+
+Me: I need to change the name of App 1 (app_1) into Link Graph (link_graph).
+
+Cursor: Certainly! I'll update the code to change "App 1" (app_1) to "Link Graph" (link_graph). Here are the necessary changes:
+
+```python:botifymograph/botifymograph.py
+// ... existing code ...
+
+# Configurable constants for table names and endpoints
+MENU_ITEMS = [todo_app.name, 'link_graph', 'app_2', 'app_3']
+
+# Add this near your other configuration variables (around line 100-120)
+APP_MESSAGES = {
+    '': "Welcome to the home page!",
+    todo_app.name: f"You've entered the {todo_app.name} area.",
+    profile_app.name: f"You're now in the {profile_app.name} section.",
+    'link_graph': "Welcome to the Link Graph!",
+    'app_2': "Welcome to App 2!",
+    'app_3': "Welcome to App 3!",
+}
+
+// ... existing code ...
+```
+
+This change replaces 'app_1' with 'link_graph' in the `MENU_ITEMS` list and updates the `APP_MESSAGES` dictionary to include a welcome message for the Link Graph.
+
+Remember that this change only affects the menu item and the welcome message. If you have any specific functionality or views associated with the former "App 1", you'll need to update those as well. For example, if you have any conditions in your code checking for "app_1", you should update those to check for "link_graph" instead.
+
+Also, make sure to update any templates or other parts of your application that might be referencing "App 1" or "app_1" to use "Link Graph" or "link_graph" respectively.
+
+---
+
+- Apply to MENU_ITEMS
+- Apply to APP_MESSAGES
+
+Done and done. Save file. Visit app, and Voilà! Okay, let's go for a twofor...
+
+Me: Change App 2 (app_2) to Gap Analysis (gap_analysis)
+
+Remove App 3 (app_3)
+
+Cursor: Certainly! I'll update the code to change "App 2" (app_2) to "Gap Analysis" (gap_analysis) and remove "App 3" (app_3). Here are the necessary changes:
+
+```python:botifymograph/botifymograph.py
+// ... existing code ...
+
+# Configurable constants for table names and endpoints
+MENU_ITEMS = [todo_app.name, 'link_graph', 'gap_analysis']
+
+# Add this near your other configuration variables (around line 100-120)
+APP_MESSAGES = {
+    '': "Welcome to the home page!",
+    todo_app.name: f"You've entered the {todo_app.name} area.",
+    profile_app.name: f"You're now in the {profile_app.name} section.",
+    'link_graph': "Welcome to the Link Graph!",
+    'gap_analysis': "Welcome to the Gap Analysis!",
+}
+
+// ... existing code ...
+```
+
+These changes do the following:
+
+1. In the `MENU_ITEMS` list, we've replaced 'app_2' with 'gap_analysis' and removed 'app_3'.
+2. In the `APP_MESSAGES` dictionary, we've updated the message for 'gap_analysis' and removed the entry for 'app_3'.
+
+Remember that these changes only affect the menu items and the welcome messages. If you have any specific functionality or views associated with the former "App 2" or "App 3", you'll need to update or remove those as well. For example:
+
+- Any conditions in your code checking for "app_2" should be updated to check for "gap_analysis" instead.
+- Any functionality or views specific to "app_3" should be removed or commented out if you want to preserve the code for future use.
+
+Also, make sure to update any templates or other parts of your application that might be referencing "App 2", "app_2", "App 3", or "app_3" to use "Gap Analysis" or "gap_analysis" respectively, or remove references to App 3 entirely.
+
+---
+
+- Two Applies
+- Two Accepts
+
+...and this thing is now customized. Wow, it's amazing what a difference filling
+the real app names in does for making it feel real.
+
+Next, we relabel `Customer` to `Client`. Internally, it's actually `Profile` but
+I relabeled it to Customer during template development to ensure that it was
+relabelable. And I'm not going to trust this one to AI as it's too easy to
+misinterpret and break the app. There's a magical mystery line which is one of
+Jeremy Howard's oddest decisions in designing the FastHTML system. Whereas the
+`Flask` API which all of this stuff is modeled after mainly has the `app` object
+as an instantiated instance of a Flask server, FastHTML has an app and `rt`
+instance. It uses a novel tuple object returner, so it follows the odd model:
+
+```python
+app, rt = fast_app()
+```
+
+In other words, you just have to know by learning that calling `fast_app`, which
+itself is a convenience wrapper for other things, automatically returns at least
+2 objects. Now when you're doing database work the parameters and arguments
+crammed within that open/close parenthesis is going to be a whole bunch of stuff
+including your arbitrarily named table definitions. I say arbitrarily because
+you only ever really name them insofar as it has meaning later on in how these
+objects get returned from the factory class. So in Jeremy's classic `todo` list
+example, 2 objects are returned:
+
+
+```python
+app, rt (todos, Todo) = fast_app(<a bunch of stuff here>)
+```
+
+...or more thoroughly...
+
+```python
+app, rt, (tasks, Task) = fast_app(
+    "data/data.db",
+    task={
+        "id": int,
+        "title": str,
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+)
+```
+
+This very closely parallel's Jeremy's classic example showing up in his
+[https://fastht.ml](https://fastht.ml) tutorials and YouTube videos. The thing
+to notice is the very precise naming convention here. Now a lot of things in
+FastHTML are loosy goosey and however you like. But if you want the clean
+database integration magic, you've got to:
+
+And so that's a long way of saying that I'm changing...
+
+```python
+app, rt, (store, Store), (tasks, Task), (customers, Customer) = fast_app(...)
+```
+
+...to...
+
+```python
+app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(...)
+```
+
+...and have to make the table match it for the UI to match. It will still work
+without renaming the table, but the UI takes the name from that. I would like
+the returned tuples to do all the dynamic renaming and re-endpointing work. I
+have a few more decouplings to do at some point, but 80/20-rule for now. Having
+to look a few places to rename (rebrand) such an important UI characteristic is
+a small price to pay. 
+
+```python
+app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    hdrs=(
+        AllTheJavaScript('.sortable'),
+        Script(type='module')
+    ),
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    task={
+        "id": int,
+        "name": str,  # Changed from "title" to "name"
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+    client={
+        "id": int,
+        "name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id"
+    },
+)
+```
+
+Speaking of which you also need to do it in the code here:
+
+```python
+# PLUGIN REGISTRATION
+# Instantiate and register routes for the TodoApp plugin
+# This is the plugin app to copy/paste/modify to create a new plugin
+todo_app = TodoApp(table=tasks)
+todo_app.register_routes(rt)
+
+# This is the plugin app to leave alone as it is tightly integrated with navigation
+profile_app = ProfileApp(table=clients)  # <-- but you can still change the table name
+profile_app.register_routes(rt)
+
+# Aliases for table names. Variable names on the left never change.
+# Variable names on the right must match your table name in the fast_app() call.
+todos = tasks
+profiles = clients
+```
+
+This reveals conceptually under the covers, I still use "todos" and "profiles"
+for hard-wiring in the code that's invisible to the user through the web
+interface. Sorting out the singular versus plural forms in all this... well,
+I'll leave that for a later time to explain (or maybe justify).
+
+
