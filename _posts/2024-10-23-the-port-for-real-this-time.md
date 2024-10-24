@@ -488,6 +488,8 @@ Switched to branch 'botifymograph'
 
 Confirmed!
 
+## Replacing Plugin App Menu Placeholders
+
 Okay, so no forget about using the "home" page for the token. This is going to
 be one unified single-page application. You go to `Link Graph` on the menu, and
 the whole experience is going to be top-down much like a Jupyter Notebook,
@@ -502,7 +504,7 @@ Me: I need to change the name of App 1 (app_1) into Link Graph (link_graph).
 
 Cursor: Certainly! I'll update the code to change "App 1" (app_1) to "Link Graph" (link_graph). Here are the necessary changes:
 
-```python:botifymograph/botifymograph.py
+```python
 // ... existing code ...
 
 # Configurable constants for table names and endpoints
@@ -540,7 +542,7 @@ Remove App 3 (app_3)
 
 Cursor: Certainly! I'll update the code to change "App 2" (app_2) to "Gap Analysis" (gap_analysis) and remove "App 3" (app_3). Here are the necessary changes:
 
-```python:botifymograph/botifymograph.py
+```python
 // ... existing code ...
 
 # Configurable constants for table names and endpoints
@@ -578,14 +580,17 @@ Also, make sure to update any templates or other parts of your application that 
 ...and this thing is now customized. Wow, it's amazing what a difference filling
 the real app names in does for making it feel real.
 
-Next, we relabel `Customer` to `Client`. Internally, it's actually `Profile` but
-I relabeled it to Customer during template development to ensure that it was
-relabelable. And I'm not going to trust this one to AI as it's too easy to
-misinterpret and break the app. There's a magical mystery line which is one of
-Jeremy Howard's oddest decisions in designing the FastHTML system. Whereas the
-`Flask` API which all of this stuff is modeled after mainly has the `app` object
-as an instantiated instance of a Flask server, FastHTML has an app and `rt`
-instance. It uses a novel tuple object returner, so it follows the odd model:
+## Renaming Customer to Client
+
+Next, we relabel `Customer` to `Client`. Internally, the concept is actually
+`Profile` for invisibly wiring UI-stuff up, but I relabeled what displays to the
+user to Customer during template development to ensure that it was relabelable.
+And I'm not going to trust this one to AI as it's too easy to misinterpret and
+break the app. There's a magical mystery line which is one of Jeremy Howard's
+oddest decisions in designing the FastHTML system. Whereas the `Flask` API which
+all of this stuff is modeled after mainly has the `app` object as an
+instantiated instance of a Flask server, FastHTML has an app and `rt` instance.
+It uses a novel tuple object returner, so it follows the odd model:
 
 ```python
 app, rt = fast_app()
@@ -703,6 +708,8 @@ This reveals conceptually under the covers, I still use "todos" and "profiles"
 for hard-wiring in the code that's invisible to the user through the web
 interface. Sorting out the singular versus plural forms in all this... well,
 I'll leave that for a later time to explain (or maybe justify).
+
+## Customizing Main Plugin App Message
 
 Okay, next we need to modify the placeholder message.
 
