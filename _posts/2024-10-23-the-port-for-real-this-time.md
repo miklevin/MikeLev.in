@@ -584,26 +584,28 @@ the real app names in does for making it feel real.
 
 Next, we relabel `Customer` to `Client`. Internally, the concept is actually
 `Profile` for invisibly wiring UI-stuff up, but I relabeled what displays to the
-user to Customer during template development to ensure that it was relabelable.
-And I'm not going to trust this one to AI as it's too easy to misinterpret and
-break the app. There's a magical mystery line which is one of Jeremy Howard's
-oddest decisions in designing the FastHTML system. Whereas the `Flask` API which
-all of this stuff is modeled after mainly has the `app` object as an
-instantiated instance of a Flask server, FastHTML has an app and `rt` instance.
-It uses a novel tuple object returner, so it follows the odd model:
+user to Customer during template development to ensure that it was reliably
+relabelable. And I'm not going to trust this one to AI as it's too easy to
+misinterpret and break the app.
+
+There's a magical mystery line which is one of Jeremy Howard's oddest decisions
+in designing the FastHTML system. Whereas the `Flask` API which all of this
+stuff is modeled after mainly has the `app` object as an instantiated instance
+of a Flask server, FastHTML has an app and `rt` instance. It uses a novel tuple
+object returner, so it follows the odd model:
 
 ```python
 app, rt = fast_app()
 ```
 
 In other words, you just have to know by learning that calling `fast_app`, which
-itself is a convenience wrapper for other things, automatically returns at least
-2 objects. Now when you're doing database work the parameters and arguments
-crammed within that open/close parenthesis is going to be a whole bunch of stuff
-including your arbitrarily named table definitions. I say arbitrarily because
-you only ever really name them insofar as it has meaning later on in how these
-objects get returned from the factory class. So in Jeremy's classic `todo` list
-example, 2 objects are returned:
+itself is a convenience wrapper for other things, automatically ***returns at
+least 2 objects***. Now when you're doing database work the parameters and
+arguments crammed within that open/close parenthesis is going to be a whole
+bunch of stuff including your arbitrarily named table definitions. I say
+arbitrarily because you only ever really name them insofar as it has meaning
+later on in how these objects get returned from the factory class. So in
+Jeremy's classic `todo` list example, 2 objects are returned:
 
 
 ```python
