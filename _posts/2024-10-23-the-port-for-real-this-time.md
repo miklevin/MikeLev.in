@@ -987,7 +987,7 @@ The good news is that most of the hard bits are done.
   menu tricks
 - I got the old app working again for side-by-side comparison
 
-## Tech-Craft & Not Fight Diminishing Returns of Exhaustion
+### Tech-Craft & Not Fight Diminishing Returns of Exhaustion
 
 But that's where I ran out of steam. Diminishing returns on productivity from
 exhaustion, and I really have to dive into preparing for the client meeting
