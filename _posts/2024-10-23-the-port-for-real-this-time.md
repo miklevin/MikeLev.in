@@ -602,10 +602,8 @@ In other words, you just have to know by learning that calling `fast_app`, which
 itself is a convenience wrapper for other things, automatically ***returns at
 least 2 objects***. Now when you're doing database work the parameters and
 arguments crammed within that open/close parenthesis is going to be a whole
-bunch of stuff including your arbitrarily named table definitions. I say
-arbitrarily because you only ever really name them insofar as it has meaning
-later on in how these objects get returned from the factory class. So in
-Jeremy's classic `todo` list example, 2 objects are returned:
+bunch of stuff including the table name. In Jeremy's classic `todo` list
+example, 2 objects are returned:
 
 
 ```python
@@ -619,7 +617,7 @@ app, rt, (tasks, Task) = fast_app(
     "data/data.db",
     task={
         "id": int,
-        "title": str,
+        "name": str,
         "done": bool,
         "priority": int,
         "profile_id": int,
@@ -628,11 +626,11 @@ app, rt, (tasks, Task) = fast_app(
 )
 ```
 
-This very closely parallel's Jeremy's classic example showing up in his
+My version very closely parallel's Jeremy's classic example showing up in his
 [https://fastht.ml](https://fastht.ml) tutorials and YouTube videos. The thing
 to notice is the very precise naming convention here. Now a lot of things in
 FastHTML are loosy goosey and however you like. But if you want the clean
-database integration magic, you've got to:
+database integration magic, you've got to go with the FastHTML flow.
 
 And so that's a long way of saying that I'm changing...
 
