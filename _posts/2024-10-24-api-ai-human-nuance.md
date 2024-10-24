@@ -187,3 +187,31 @@ functional versus procedural thing again. I favor functional. All stateful stuff
 evaporates away when you leave the function. This is a problem. I cannot let
 myself be this way. I have to rigorously pin up things I must remember in places
 I cannot help but look until the appropriate habits kick in and its automatic.
+
+Okay, so that's knowing where to find things. So go find them! Ugh! I am slack
+challenged. How can someone who was on IRC (Internet Chat Relay) that started
+this who type of group chat UI be so difficult for me. Oh, the subtlety and
+nuance again! I'm not old. I just object to investing so much cognitively into
+some faddish vendor product who has managed to grab business by the balls. Yeah,
+it's not that I am not good at this kind of software. It's that it's a violation
+of the 80/20-rule. It takes 80% of the benefit you want to put into it to get
+only 20% of the benefit. But people *"get into it"* and it gives them that cool
+elite club feeling. Okay, eff-it. It's eating the frog. Get down your slack
+tricks. Make it not miserable.
+
+Right-click everything on the left-hand navigator and set `Show and sort` to
+`All`. I can't have variable behavior! It took me forever to understand why
+things I was starring was not showing up under starred. If there's new stuff it
+will bold. Rely on seeing things go bold.
+
+Forget the stars. Unstar everything. It was useless. Use a `Priority` section.
+Learn the language. They're *Sections*. A priority section gets a little chili
+pepper emoji. That will help. Always click the chili pepper! Un-expand
+everything. Expanded accordion navigation menus are the enemy. It's the same
+thing I hate about VSCode. If everything is equally prevalent, then nothing is.
+It's massive focus-dilution and I find that ability to focus so valuable.
+Okay... Slack wrangled. I can easily ***find*** where I need to look to finish
+that above bullet-list of assets I need to familiarize myself with to do client
+work effectively. Agendas and deliverables ready for the meeting? Ha! Just be
+prepared with some solid next steps on things I can turn around fast after the
+meeting! But the agenda is a must. Follow co-worker patterns.
