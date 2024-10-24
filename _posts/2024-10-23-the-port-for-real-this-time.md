@@ -351,6 +351,8 @@ Already up to date.
 Well, I guess so! One hurdle overcome. And it's barely 8:30 PM. I've got the
 whole night to go!
 
+## Using Nix Flake Variable to Control White Labeling
+
 Think! It's these little hurdles that should accelerate and not hinder. With a
 new folder in-hand, we get to `nix develop` it for the first time. Success! It
 didn't white-label as cleanly as I thought as I have a `projectName` variable in
@@ -359,6 +361,8 @@ visually different so I never make the mistake of being on the wrong branch with
 a client or anything, so I change the variable name and delete the whole `.venv`
 folder. For good measure, I also do a `nix flake update` before I nix develop
 again.
+
+## Git Move File to Maintain Git History
 
 Okay interesting! When you do that, the command to launch the app changes. I
 always have an alias that doesn't forcibly pop open a browser window, which I'm
@@ -371,6 +375,8 @@ to lose the git histories, I do it with a git command:
 git mv botifython.py botifymograph.py
 ```
 
+## Pseudo-Templates Offer Freedom for Rapid Development
+
 And this has the extra benefit that if I ever do merge branches, the filenames
 won't collide and I won't have a big mess of a file to sort out. Multiple
 "`server.py`" files can happily live in the same folder, so I'm making a very
@@ -382,4 +388,83 @@ want to roll into the main branch, I'm going to have to carefully transplant
 them. But the freedom in the immediate term is well worth it.
 
 Okay, forge ahead! We need to start wedging in stuff. The homepage has to notice
-that you don't have the Botify API token yet and pester you to provide it. 
+that you don't have the Botify API token yet and pester you to provide it. I
+literally could have it pester you with the local LLM, but this is precisely
+the sort of rabbit hole I need to avoid to pull this thing off tonight. I've
+been psychologically avoiding this next round of customization, because it
+really turns Botifython (or Botifymograph in this case) into something very
+distinct from Pipulate.
+
+Oh, I really should have branched before I renamed the file. But anyway...
+
+Me: How do I make a new git branch?
+
+Perplexity: To create a new Git branch, you have several options:
+
+## Basic Branch Creation
+
+The simplest way to create a new branch is:
+
+```
+git branch <branch-name>
+```
+
+This creates the branch but doesn't switch to it[1]. To switch to the new branch after creation, use:
+
+```
+git checkout <branch-name>
+```
+
+## Create and Checkout in One Step
+
+A more common and efficient method is to create and switch to the new branch in one command:
+
+```
+git checkout -b <branch-name>
+```
+
+Or, using the newer `git switch` command:
+
+```
+git switch -c <branch-name>
+```
+
+These commands create a new branch and immediately switch to it[2].
+
+## Creating Branches from Specific Points
+
+You can also create branches from specific commits, tags, or other branches:
+
+- From a tag:
+  ```
+  git branch <branch-name> <tag-name>
+  ```
+
+- From a specific commit:
+  ```
+  git branch <branch-name> <commit-id>
+  ```
+
+- From a different branch:
+  ```
+  git checkout -b <new-branch-name> <existing-branch-name>
+  ```
+
+## Best Practices
+
+- Choose descriptive branch names that reflect the purpose of the branch[2].
+- Adhere to your team's branch naming conventions for consistency.
+- Regularly list your branches using `git branch -a` to keep track of all local and remote branches[1].
+
+Remember, creating a branch is a lightweight operation in Git, so don't hesitate to create branches for experimenting or isolating feature development[4].
+
+Citations:
+
+    [1] https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Git-Branch-Create-Example-Command-Checkout-Commit-Tag
+    [2] https://phoenixnap.com/kb/git-create-new-branch
+    [3] https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+    [4] https://www.atlassian.com/git/tutorials/using-branches
+    [5] https://www.youtube.com/watch?v=Lf3DYRvCPFo
+    [6] https://stackoverflow.com/questions/66882952/how-to-create-new-local-branch-and-switch-between-branches-in-git
+    [7] https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+    [8] https://www.git-tower.com/learn/git/faq/create-branch
