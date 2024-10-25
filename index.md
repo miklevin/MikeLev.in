@@ -58,13 +58,13 @@ Pomodoro - take chisel-strike bank small wins
 
 That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to everything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
 
-<div class="lpvg-list">
+<div>
   <ul>
-    <li><code>`nix/NixOS`</code>: Reproducibility redefined—consistency across the code cosmos.</li>
-    <li><code>`tmux`</code>: Command-line conjurer—sessions split, disconnected, and reborn.</li>
-    <li><code>`Jupyter Notebooks`</code>: Code meets canvas—prototype, iterate, illuminate.</li>
-    <li><code>`FastHTML`</code>: From Pythonic thoughts to web realities in a heartbeat.</li>
-    <li><code>`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
+    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined—consistency across the code cosmos.</li>
+    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Command-line conjurer—sessions split, disconnected, and reborn.</li>
+    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: Code meets canvas—prototype, iterate, illuminate.</li>
+    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: From Pythonic thoughts to web realities in a heartbeat.</li>
+    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
   </ul>
 </div>
 
