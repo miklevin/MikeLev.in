@@ -525,7 +525,7 @@ Citations:
 
 Core... hmm, interesting. That term ought to be used in tech more.
 
-## I Lost Track of My Code on the Careening AI-assisted Code Wagon
+## I Lost Track of My Code on the Careening AI-assisted Code WagoYesterday
 
 The frustration level with the port yesterday where I had to go to sleep
 exhausted after diminishing returns kicked in is my taking-up point today, and
@@ -546,6 +546,15 @@ Either way, whoever it is is doing brilliant work and enabling my descent into
 that scary rabbit hole and descent into the mad wonderland of web development...
 because the Python functions look like HTML elements, duh... That's it! That's
 where I am! Get the benefits and payback of that readability... go read!
+
+```
+                    Ikigai - overcome laziness find the love
+                   Kaizen - do one thing well keep polishing
+                 Pomodoro - take chisel-strike bank small wins
+                     Hara Hachi - don't burn out / eat less
+                      Wabi-Sabi - 80/20-rule imperfection
+                          Shoshin - Be like a beginner
+```
 
 ## Overcoming Project Burnout Requires Deliberate Re-invigoration Strategies
 
