@@ -176,17 +176,17 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 
 ---
 
-<div class="alice-quote">
-  <blockquote>
-    "But I don't want to go among mad people," Alice remarked.  <br />
-    "Oh, you can't help that," said the Cat: "we're all mad here. I'm mad. You're mad."  <br />
-    "How do you know I'm mad?" said Alice.  <br />  
-    "You must be," said the Cat, "or you wouldn't have come here."  
-  </blockquote>
-  <p class="quote-attribution">- Lewis Carroll, Alice's Adventures in Wonderland</p>
+<div class="wisdom dialogue" style="border-radius: 10px; overflow: hidden; max-width: fit-content; margin: 0 auto;">
+<pre style="font-size: 1.1em; line-height: 1; display: grid; grid-template-columns: auto 1fr; gap: 0.5em; padding: 1em; margin: 0;">
+<span style="font-weight: bold; color: #ffb300; text-align: right;">Alice:</span> <span style="display: block;">But I don't want to go among mad people,</span>
+<span style="font-weight: bold; color: #ffb300; text-align: right;">Cat:</span> <span style="display: block;">Oh, you can't help that, we're all mad here. I'm mad. You're mad.</span>
+<span style="font-weight: bold; color: #ffb300; text-align: right;">Alice:</span> <span style="display: block;">How do you know I'm mad?</span>
+<span style="font-weight: bold; color: #ffb300; text-align: right;">Cat:</span> <span style="display: block;">You must be, or you wouldn't have come here.</span>
+</pre>
 </div>
 
-<div class="post-navigation">
+
+<div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Enter Lundervand</span>

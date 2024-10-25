@@ -895,3 +895,20 @@ header blockquote {
     word-break: break-word;
     font-size: clamp(0.7rem, 2vw, 1rem);
 }
+
+/* Dialogue styles */
+.wisdom.dialogue pre {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+
+.wisdom.dialogue .speaker {
+    font-weight: bold;
+    color: #ffb300; /* Accent color */
+    text-align: right;
+}
+
+.wisdom.dialogue .speech {
+    display: block;
+}
