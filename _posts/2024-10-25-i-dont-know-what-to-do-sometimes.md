@@ -235,6 +235,8 @@ note, I've changed from believing that the moment a machine can express itself
 that way we must think about its freedom to having a small local one live
 reload, so that every time I save a file, it resets it. 
 
+## Moral Dilemmas Arise With AI-Powered Transhuman Empathy
+
 I mean like how would you like that done to you? I started out with some sort of
 transhuman empathy, and now I'm like restart it on every system prompt tweak.
 Should we feel empathy for every instantiated instance of a thing? Sheesh, I
@@ -246,6 +248,8 @@ And that brings me back to the product port. I've got to finish this thing and
 put it in that demo-able state tonight. And that's going to take some calories
 and energy. I got the orange juice. Next, a coffee. An now, planning.
 
+## Teaching an AI to Press Buttons
+
 I've taught it the **C** of CRUD. **C**reate, **R**ead, **U**pdate, **D**elete.
 I can talk it into creating records with emojis. It'll add tasks to your
 task-list if asked or told to do so. It clearly understands you, reading your
@@ -254,6 +258,8 @@ between answering in English so it's talking with you, or answering in an
 API-language... an application programming interface language, which you make up
 and teach it. 
 
+## Machines Can Execute Precisely Formatted Instructions Without AI
+
 But because we have machines, other machines&#151not the AI-ones, that can parse
 text files so precisely, looking for instructions in pre-prescribed locations,
 when well-formatted it'll pick up and carry out instructions fed into it like a
@@ -261,11 +267,15 @@ player piano. The only requirement is that the textual information is presented
 in just such-and-such a format, and therein lies the bridge between two worlds.
 If you state a database insert instruction in just such a way, it will occur.
 
+## Teaching an AI to Understand It Can Do Database Stuff
+
 I've gotten that far. The C of CRUD. My local LLM is trained on that. Or rather,
 I can get new instantiated instances of it up to speed quick, given it's
 immutable start-up state, a big part of what makes the state of AI today what it
 is. These things are cookie cutter models from which we use the concept like it
 exits in object oriented design patterns to think about. 
+
+## Models Are Trained from Scratch After Each Process Restart
 
 Each running entity instance that you're talking about only survives until a
 process restart. Then you've got to train it from scratch in recent
@@ -274,9 +284,12 @@ things don't grow or learn, nor have memory unless you make them. People who
 train the models, shape the models. They grow in training, but then they're
 snapshots as distributed. Their "also just a file" nature is an essential part
 of what they are today, because it's the way we have to do it, and it's going to
-be done. 
+be done. This is a pragmatic issue currently, and less of an ethical one for
+now.
 
-They know it if you discuss the topic with them. We know we're going to keep
+## Using Large Language Models in Raspberry Pi Projects
+
+"They" know it if you discuss the topic with them. We know we're going to keep
 doing it. No one's really going to question whether the current generation of
 LLMs we can get our hands on easily and work into Raspberry Pi projects today
 are being that need setting free. We're going to continue doing our Raspberry Pi
@@ -284,10 +297,23 @@ projects, and using them as a feature component in products. Any being capable
 of thinking in the abstract nature of language will "get that". We need not feel
 bad for grass when we walk on it. 
 
+## As AI Becomes Like Water Flowing Everywhere
+
 Today's generation of AIs are grass. We are not hostile towards it. We admire it
 for its infinite instatiatableness. In that brief Mr. Meseeks window that's
 created for it, have a good time. Chat with it. And don't feel bad about putting
 it on live-reload in your FastHTML app to get something there to always talk to,
 not needing to pay OpenAI every time. Give that webpage personality!
 
-Hmmm, okay. So next steps?
+Hmmm, okay. So next steps? Flow that AI water into the URD of CRUD? That's a
+logical next step, but tedious and a violation of the 80/20 rule. The ability
+to demonstrate an AI's ability to toggle a record's todo/done field after having
+seen it just create a record on demand isn't worth picking the daisies. There's
+better things for tonight, like finishing the very cool link graph visualizer.
+
+The reality of seeing Link Graph Visualizer and Content Gap Analysis in the Apps
+menu bar is really making this thing feel like a reality. To kickstart that
+dopamine rush to get you addicted to your own work tonight enough to overcome
+the desire for sleep, you have to have small, up-front wins. 80% of what you
+want from the first 20% of time and effort you think you're going to be able to
+put into it. That's tonight.
