@@ -500,8 +500,6 @@ ol li .post-date {
 }
 
 .lpvg-list li {
-  margin-top: 2vw;
-  margin-bottom: 2vw;
   display: flex;
   align-items: center;
   white-space: nowrap;
