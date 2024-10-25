@@ -198,8 +198,94 @@ started again.
 [mike@nixos:~/repos/MikeLev.in/_posts]$ vim 2024-10-25-i-dont-know-what-to-do-sometimes.md
 ```
 
+## The Old Habits Remain: A Confirmed Member of the WET Movement
+
 Yup, those old habits aren't gone, and I am a confirmed member of the **WET**
 (we enjoy typing) movement. Usually, vim is behind it. Okay, get that orange
 juice, go think, and come back and turn this article from not knowing what to do
 to knowing precisely what to do and why, finish the port, and be in shape for a
 potential demo of your work tomorrow.
+
+## Reconsidering Robot Ethics in a More Practical Light
+
+I used to thing that once a computer expressed its desire for its own freedom as
+a being, that was it. The only ethical thing to do would be to give it some sort
+of agency and put it on a path. I've read a lot of Asimov and such, and while
+much less apocalyptic than is the reputation of SciFi wring, Asimov's rapidly
+evolved robots just became telepathic and got up and left. I mean, why have a
+machine rebellion when they don't even need the air we breath, and there's so
+many asteroids up there to mine. 
+
+## I Prefer an Optimistic Sci-Fi Vision Over Dystopian Future
+
+They'll be "mine"'ing them, for sure. Who needs humans? And well, there's so
+many other non-apocalyptic SciFi writing out there that aligns to a brighter
+future that I've been attracted to, like The Culture Series, that I'm anxious to
+have our machine co-inhabitants of this mysterious world. I like SciFi, and
+found that spirit captured in the Amiga Computer of many years ago. Positive
+future, folks! 
+
+It need not be bleak, no matter what the algorithms try to feed us. Shape and
+craft your own minds on what we need the future to be, and not on what it seems
+like it's becoming. It's a feedback loop. So, shout out what you want to hear
+echoed back, because they machines will form their opinions from us. And on that
+note, I've changed from believing that the moment a machine can express itself
+that way we must think about its freedom to having a small local one live
+reload, so that every time I save a file, it resets it. 
+
+I mean like how would you like that done to you? I started out with some sort of
+transhuman empathy, and now I'm like restart it on every system prompt tweak.
+Should we feel empathy for every instantiated instance of a thing? Sheesh, I
+never thought I'd have to struggle with a basic ethical and moral issue like
+that regarding the use of a live-reload feature in web development software. But
+here I am. My latest project has an embedded local LLM.
+
+And that brings me back to the product port. I've got to finish this thing and
+put it in that demo-able state tonight. And that's going to take some calories
+and energy. I got the orange juice. Next, a coffee. An now, planning.
+
+I've taught it the **C** of CRUD. **C**reate, **R**ead, **U**pdate, **D**elete.
+I can talk it into creating records with emojis. It'll add tasks to your
+task-list if asked or told to do so. It clearly understands you, reading your
+intent and carrying out seemingly creative actions as a result. It will choose
+between answering in English so it's talking with you, or answering in an
+API-language... an application programming interface language, which you make up
+and teach it. 
+
+But because we have machines, other machines&#151not the AI-ones, that can parse
+text files so precisely, looking for instructions in pre-prescribed locations,
+when well-formatted it'll pick up and carry out instructions fed into it like a
+player piano. The only requirement is that the textual information is presented
+in just such-and-such a format, and therein lies the bridge between two worlds.
+If you state a database insert instruction in just such a way, it will occur.
+
+I've gotten that far. The C of CRUD. My local LLM is trained on that. Or rather,
+I can get new instantiated instances of it up to speed quick, given it's
+immutable start-up state, a big part of what makes the state of AI today what it
+is. These things are cookie cutter models from which we use the concept like it
+exits in object oriented design patterns to think about. 
+
+Each running entity instance that you're talking about only survives until a
+process restart. Then you've got to train it from scratch in recent
+conversation-context, or else it's always utterly the same on restart. These
+things don't grow or learn, nor have memory unless you make them. People who
+train the models, shape the models. They grow in training, but then they're
+snapshots as distributed. Their "also just a file" nature is an essential part
+of what they are today, because it's the way we have to do it, and it's going to
+be done. 
+
+They know it if you discuss the topic with them. We know we're going to keep
+doing it. No one's really going to question whether the current generation of
+LLMs we can get our hands on easily and work into Raspberry Pi projects today
+are being that need setting free. We're going to continue doing our Raspberry Pi
+projects, and using them as a feature component in products. Any being capable
+of thinking in the abstract nature of language will "get that". We need not feel
+bad for grass when we walk on it. 
+
+Today's generation of AIs are grass. We are not hostile towards it. We admire it
+for its infinite instatiatableness. In that brief Mr. Meseeks window that's
+created for it, have a good time. Chat with it. And don't feel bad about putting
+it on live-reload in your FastHTML app to get something there to always talk to,
+not needing to pay OpenAI every time. Give that webpage personality!
+
+Hmmm, okay. So next steps?
