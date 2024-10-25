@@ -80,7 +80,7 @@ That's the main minimal tech-stack as a sort of swiss army knife or utility belt
 <div class="post-navigation">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Next Undiscovered Gem</span>
+    <span class="nav-label">Enter Lundervand</span>
     <a href="{{ site.posts.first.url | relative_url }}">
       <span>{{ site.posts.first.title }}</span>
     </a>
