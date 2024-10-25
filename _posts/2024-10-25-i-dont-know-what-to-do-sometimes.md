@@ -566,3 +566,99 @@ again and stabilize. The being of agency within me can stop, look around, take
 stock, assert a series of observations, and use them to permanently improve my
 understanding of the situation moving forward. The unstable me can stabilize and
 pin small wins up.
+
+## Pins For the Wins!
+
+Okay, this is some pretty good clarity of thought right here, the documentation
+built in at the top of the FastHTML app. These are the pictures I'll use to
+frame the conversations I'll be having. Because what use is a repo without
+pictures or conversations in it?
+
+---
+
+### POINTS OF INTEREST:
+
+- This is a web app built with FastHTML.
+- It is also a shim for single-page applications (SPAs) that sit in the Main Area illustrated below.
+- It is all running on the local machine, not on the Web.
+- It has 2 server components: the FastHTML server and the Ollama server.
+- The SPA's always sit next to the Chat Interface.
+- Everything the user does is conveyed to the LLM and made part of the conversation.
+- We try to make the LLM aware of everything you're doing, minus your mouse movements.
+- It only knows the world from its moment of instantiation from the system prompt plus user movements.
+- The LLM components can be swapped out for different models.
+- The way the LLM components work can be upgraded to agentic behavior.
+- We are in the process of adding various types of long-term memory.
+  - Recoverable conversation history
+  - General purpose key/value store for arbitrary information.
+  - Some combination of the database technologies below.
+
+#### These four technologies are different, but can be complementary:
+
+1. Information Retrieval and Processing:
+   - **RAG (Retrieval-Augmented Generation)**: Technique to enhance LLM outputs with retrieved information.
+   - **Vector/embedding databases**: Optimized for similarity searches in high-dimensional spaces, often used in RAG pipelines.
+
+2. Structured Data Storage:
+   - **SQL databases**: Designed for structured, tabular data storage and querying.
+   - **Graph databases**: Specialized for storing and querying interconnected data.
+  
+
+### Layout of the SPA's UI (user interface):
+
+```
+    +-------------------------------------+
+    |           Navigation Bar            |
+    +-------------------------------------+
+    |             Main Content            |
+    | +-----------------+ +-------------+ |
+    | |                 | |             | |
+    | |    Main Area    | |    Chat     | |
+    | |   (Grid Left)   | |  Interface  | |
+    | |                 | |             | |
+    | |                 | |             | |
+    | |                 | |             | |
+    | +-----------------+ +-------------+ |
+    +-------------------------------------+
+    |           Poke Button               |
+    +-------------------------------------+
+```
+
+### Layout of the SPA's (single page application) parts:
+
+```
+home()
+|
++-- create_outer_container()
+    |
+    +-- create_nav_group()
+    |   |
+    |   +-- create_nav_menu()
+    |       |
+    |       +-- create_filler_item()
+    |       +-- create_profile_menu()
+    |       +-- create_app_menu()
+    |       +-- create_search_input()
+    |
+    +-- create_grid_left()
+    |   |
+    |   +-- create_todo_form() (if in todo view)
+    |
+    +-- create_chat_interface()
+    |   |
+    |   +-- mk_chat_input_group()
+    |
+    +-- create_poke_button()
+```
+
+### Additional thoughts:
+
+- Consider adding a section on security considerations, especially for local machine execution
+- Might want to elaborate on the integration between the FastHTML server and Ollama server
+- Could mention potential scalability options for future development
+- Perhaps add a note on how the system handles errors or unexpected user inputs
+- Maybe include information on how the system manages state across different components
+- Could discuss any plans for extending the SPA capabilities or adding new features
+- Might be worth mentioning any performance optimizations in place or planned
+- Consider adding information on how the system handles different types of data (text, images, etc.)
+- Could elaborate on the user experience design principles followed in the UI layout
