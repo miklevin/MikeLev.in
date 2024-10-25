@@ -645,7 +645,6 @@ header blockquote {
 }
 
 .next-post a span {
-  display: inline-block;
   text-align: left;
 }
 
@@ -865,6 +864,12 @@ header blockquote {
     top: 50%;
     transform: translateY(-50%);
   }
+
+  .next-post a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-
+}
