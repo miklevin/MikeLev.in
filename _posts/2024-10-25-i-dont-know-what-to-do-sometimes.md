@@ -444,3 +444,116 @@ Python kinda already won. The fact that Data Scientists, Machine Learning and AI
 folks have pushed it over the top is just the latest in a long series of lite
 Python validating milestones. Instagram's a Django site. That's right. Instagram
 is a corporate Intranet.
+
+## Using Multiple Screens for Efficient Work Flow
+
+Okay, so the 7 screens again. We use that to re-focus ourselves even now. But
+this procrastination is okay, because it's articulating my thoughts, zeroing in
+around tonight's work. So this all puts work on Screen 3. Cursor AI is on screen
+2, and that's where we ***perform our work***. But because there's output, we
+can allow it to be full-screen one over to the right. This way, our editor is
+allowed to occupy the entire screen, and the output portion where we see what it
+just did is one fixed-position pop-right! Pop-left edit. Pop-right see results
+of edit. 
+
+## A Trans-Platform Desktop Workflow Wears Well Over the Years
+
+This is a trans-platform thing. This is a Mac, Windows or Linux desktop
+workflow. Your muscle memory will thank you down the years. There are only 2
+fixed-locations: beginning and end. The best you can do is get a feel for
+bouncing between them as a navigational device and having a feel for what's
+x-steps in on the rebound from the bounce. 1-in on the right is public-publish
+(this) and 1-in from the left is where I code... where I code... where I code...
+get coding!
+
+## Flaking Off Information as Code Subsystems from a NixOS
+
+While this is a trans-OS workflow, I am on NixOS. Nix is one `configuration.nix`
+file for life, if you like. That's a good choice for muscle memory fans and
+dependents like me. If you're lost when the tool you developed your muscle
+memory for suddenly goes away, you can nip that problem in the bud and nix that
+vulnerability to sudden disruption. How? With nix flakes. You flake of bits of
+your **I**nformation **a**s **C**ode (IaC) as separate files from your main
+system configuration file. You only put the global stuff up there, you always
+need accessible. 
+
+## Software Developers Turn To Nix For Complex Configuration Management
+
+For some insane reason, Slack, Zoom and Discord recently made that list. I put
+OBS there too, and all the stuff that gives me special GPU hardware support and
+accelerated performance. The more low-level or everyday it is, the more it
+belongs in configuration.nix. The more subsystem-esque, like the ruby jekyll
+server I use for publish-previewing, which is tied to a particular git repo
+folder, the more likely it is to have a `flake.nix` file in the
+folder/directory/repo that makes it carry around it's IaC infrastructure with
+it&#151;the nix script required to build a machine that can run it.
+
+You can think of your `configuration.nix`-defined NixOS "parent" system, off of
+which you flake your `flake.nix`-defined subsystems as... as... what do you...
+oh, Perplexity...
+
+Me: In flint arrowhead knapping, what is the main stone called?
+
+Perplexity: In flint knapping for arrowheads, the main stone that is shaped into the arrowhead is typically called the "core" or "parent material"[1][2]. This refers to the initial piece of stone that the knapper starts with before shaping it into an arrowhead.
+
+Some key points about the core or parent material:
+
+1. Material types: The best stones for making arrowheads include flint, chert, obsidian, jasper, quartzite and other fine-grained, brittle stones[2]. Obsidian (volcanic glass) is particularly prized for its ability to produce extremely sharp edges[1].
+
+2. Selection: Knappers choose cores that are somewhat brittle and have a uniform texture free of cracks or flaws[2]. The quality of the core is crucial for successful knapping.
+
+3. Preparation: The knapper may need to break open a larger piece of rock to access suitable core material[2].
+
+4. Flaking process: The core is then shaped through percussion flaking (striking with tools) and pressure flaking (pressing to remove small flakes) to create the arrowhead form[1][2].
+
+5. Flakes: As the core is worked, thin flakes of stone are removed. These flakes themselves can sometimes be further shaped into smaller tools[2].
+
+The term "core" emphasizes that this is the primary piece of stone from which the arrowhead emerges through the knapper's skillful removal of material.
+
+Citations:
+
+    [1] https://www.wildernesscollege.com/flint-knapping-arrowheads.html
+    [2] https://www.wildernesscollege.com/making-arrowheads.html
+    [3] https://www.youtube.com/watch?v=W5u4ttosEmM
+    [4] https://rootsvt.com/flint-knapping-spalling/
+    [5] https://hinterlandforums.com/forums/topic/9065-tutorial-on-knapping-flint-arrowhead-and-making-an-arrow/
+    [6] https://www.oed.com/dictionary/nix_int?tl=true
+    [7] https://www.oed.com/dictionary/nix_v?tl=true
+    [8] https://www.merriam-webster.com/video/nip-it-in-the-butt-bud-eggcorn-video
+
+---
+
+Core... hmm, interesting. That term ought to be used in tech more.
+
+## I Lost Track of My Code on the Careening AI-assisted Code Wagon
+
+The frustration level with the port yesterday where I had to go to sleep
+exhausted after diminishing returns kicked in is my taking-up point today, and
+that calls for procrastination-stomping. All-left, 1-right tells me I'm in the
+`botifymograph.py` code. In my demo to my boss today, I lost my bearings of what
+file I was in when showing I could switch AI-models by changing a line of
+configuration code. My code tries to find the newest Lama model on your Ollama
+server, but you can also just explicitly tell it which to use.
+
+## Praise for FastHTML for Enabling Web Development Readability
+
+While I'm being a fanboy, I like Jeremy Howard's FastHTML decisions. I hope I'm
+crediting the right person. He's certainly the one who talks about it on YouTube
+like its creator, but he might work with people who are doing it. I'm only just
+starting to poke around [FastHTML on
+Github](https://github.com/AnswerDotAI/fasthtml) and it's other people's names.
+Either way, whoever it is is doing brilliant work and enabling my descent into
+that scary rabbit hole and descent into the mad wonderland of web development...
+because the Python functions look like HTML elements, duh... That's it! That's
+where I am! Get the benefits and payback of that readability... go read!
+
+## Overcoming Project Burnout Requires Deliberate Re-invigoration Strategies
+
+The port for real this time... I don't know what to do sometimes... but not this
+time... we finish the port! But it's so difficult given the mental state I left
+the project in yesterday. The end of a Hail Mary pass complete. Morale-busing,
+but only to the animal side. The agency-exercising human size can find my legs
+again and stabilize. The being of agency within me can stop, look around, take
+stock, assert a series of observations, and use them to permanently improve my
+understanding of the situation moving forward. The unstable me can stabilize and
+pin small wins up.
