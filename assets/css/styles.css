@@ -632,16 +632,16 @@ header blockquote {
 }
 
 .next-post a {
-  display: inline-block;
-  padding-right: 1.5em;
   position: relative;
+  padding-right: 1.5em;
 }
 
 .next-post a::after {
   content: "→";
   position: absolute;
   right: 0;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .next-post a span {
@@ -668,7 +668,8 @@ header blockquote {
     content: "→";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
@@ -714,7 +715,8 @@ header blockquote {
     content: "→";
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 /* Mermaid diagram styles */
@@ -808,3 +810,61 @@ header blockquote {
     ry: 5px !important;
     fill: rgba(255, 255, 255, 0.05) !important; /* Very transparent white */
 }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.previous-post,
+.next-post,
+.home-link {
+  flex: 1;
+  text-align: center;
+}
+
+.previous-post {
+  text-align: left;
+}
+
+.next-post {
+  text-align: right;
+}
+
+.nav-label {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .post-navigation {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .previous-post,
+  .next-post,
+  .home-link {
+    margin: 0.5em 0;
+    text-align: center;
+  }
+
+  .next-post a {
+    display: inline-block;
+    padding-right: 1.5em;
+    position: relative;
+  }
+
+  .next-post a::after {
+    content: "→";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
