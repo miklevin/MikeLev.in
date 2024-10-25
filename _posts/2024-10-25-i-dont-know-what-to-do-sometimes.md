@@ -317,11 +317,15 @@ created for it, have a good time. Chat with it. And don't feel bad about putting
 it on live-reload in your FastHTML app to get something there to always talk to,
 not needing to pay OpenAI every time. Give that webpage personality!
 
+## Tackling AI Efficiency Is Not Top Priority Tonight
+
 Hmmm, okay. So next steps? Flow that AI water into the URD of CRUD? That's a
 logical next step, but tedious and a violation of the 80/20 rule. The ability
 to demonstrate an AI's ability to toggle a record's todo/done field after having
 seen it just create a record on demand isn't worth picking the daisies. There's
 better things for tonight, like finishing the very cool link graph visualizer.
+
+## Overcoming Procrastination with Small Wins Tonight
 
 The reality of seeing Link Graph Visualizer and Content Gap Analysis in the Apps
 menu bar is really making this thing feel like a reality. To kickstart that
@@ -329,3 +333,114 @@ dopamine rush to get you addicted to your own work tonight enough to overcome
 the desire for sleep, you have to have small, up-front wins. 80% of what you
 want from the first 20% of time and effort you think you're going to be able to
 put into it. That's tonight.
+
+## Practicing Agency Requires Effort and Mental Discipline Techniques
+
+I can hardly call what I'm doing procrastination, because I'm doing it. It's
+just about knowing precisely what to do next, and why. Practicing agency is
+tricky. It takes calories. It takes work. The brain uses most of your sugar.
+Think! Get "fixed locations" working for you. Always be able to regain your
+bearings and clarify your thoughts with a trick. It goes like this...
+
+## The Story of Seven Places to Work On Your Desktop
+
+You have seven screens. They are lined up horizontally in a ribbon, so you can
+rapidly go left and right between them. This is a story I'm telling you. It's
+the story of seven places to work. All the way to the wright, the one you don't
+see me typing on right now, but I am, is the Jekyll static site generator
+publishing system for your daily work journal... ***this***. You can always see
+it instantly on screen 6 whenever you save by just using the keyboard
+combination to move one screen to the left and look at it. 
+
+## Using a Desktop Metaphor for Digital Workspaces is Ineffective
+
+Bop back and forth left and right to write, publish-preview, write some more,
+and occasionally hit the hot key to really publish. Saving locally is the same
+as publishing locally. An up-to-date version in web-published-looking format but
+still local to your machine is made very time you save. Screen 7 is full-screen
+vim (nvim or whatever), and screen 6 is a full-screen browser. Full screens are
+pretty important because they lower the cognitive drain of organizing windows.
+It's such a pain. Window panes are better if you have to subdivide screens. I'm
+not a fan of the desktop metaphor for digital workspaces. Not even Workbench on
+the Amiga.
+
+## A Writing Space at Either End
+
+Screen 1 is the personal version of the work journal. So pop, pop, pop all the
+way to the left and write in unpublished free-form thinking or however you like.
+It's not getting published. It doesn't matter. Think things through. Take notes.
+Use a macro to make that one big text-file feel like a diary or journal or
+something. It doesn't matter, so whatever. All the way to the right, pop, pop,
+pop and be careful what you write. One slip of your fingers, and it's published.
+See, there like that. Oops, I did it again.
+
+## Bouncing Off the Ends of Your Writing Space
+
+The rest of your work spaces get sandwiched between these two writing spaces.
+One space in from the right is seeing what what you are publishing looks
+like&#151;always an important thing. One space in from the left is another
+important place, because it's another easy place to get to. Go all the way left,
+then reverse one. Bounce off the ends. Bounces off the end right, and you're
+seeing your voice to the world. Bounce off the end left, and... well, what? What
+do **you** put there? I'm currently putting Cursor AI there.
+
+## Arranging a Digital Home to be a Proficient Digital Nomad
+
+When other thing are there, it's feeling a bit weird to me right now, and I'm
+moving things around to put it back. Muscle memory is important, and having a
+***"home"*** in the digital nomadic life that follows you around by your nix
+flake (oops, that's another story) is important. How do you arrange your home?
+What's the layout of your digital work spaces and how do you memory palace your
+way around in the first place? 
+
+## Practicing Agency through Self Reflection and Accountability
+
+And so where to begin is never a question. You start at each end. Bounce left.
+Bounce right. Get your bearings. Regain state from your writings, both personal
+and professional. Know what you think. Be more than that first surface level
+deep in exploring, or even defending, your thoughts. Make them have to have
+merit, even to yourself. Hold your future self accountable to your current self.
+Leave them messages. So them favors by reminding them of things you need them to
+think about. This is practicing agency. Navigate your way!
+
+## Guido van Rossum the Ultimate Soul Animal of Innovation
+
+If you're here reading, and god help you if you are, and you're looking for a
+soul-animal, it's probably Guido van Rossum, the embodiment of the 80/20-rule,
+right down to his creativity. A lot of his ideas come from the academically
+educational ABC Programming language, one of the project of one of his employers
+in his early years, and a lot of the ideas he picked up there, ended up in
+Python. But he did innovate. Probably the variations in Python from the ABC it
+was derive from I'd venture to guess are greater than the differences between
+Linux and Unix. So Guido makes for a more inspiring soul-animal that Linus. 
+
+## Clever Copiers and Improvers Is More Pragmatic Than Prodigies
+
+I bring that up, because we all need hero's and ways to hope to pattern our
+behavior. I'll never be like Guido. The accomplishments of the tool-makers like
+Linux and Guido are beyond, beyond to me. They're like the Leonardo da Vinci's
+and Fernando Corbató's to me. I can practice all I want, but I'll never have the
+innate genius of people who do things genuinely first. We should not set prodigy
+as a goal. Clever copiers and improvers is more... pragmatic. 
+
+## Not Perfect But Good Enough is Plenty Perfect
+
+That' Guido. Synthesize great bits and maybe don't go over the Larry Wall crazy
+gluing the bits together. Just do so cleverly enough to get your sysadmins and
+hardcore C programmers onboard. Forge some unholy alliances like Steve Jobs did
+with artistic Mac people and academic computing Unix people. The pragmatic
+choice that sets great big sails in the mainstream wind wins. And you can strive
+to be some lesser version of that as stepping stones to some grandiose vision
+you may never accomplish, and still be perfectly satisfied. Python will not
+evolve into the one language to rule them all, free of all blemishes. 
+
+## Python Expected To Replace Perl as Primary Linux Distribution Tool
+
+No, rather Python will replace PERL (already has) as the one wrench always
+thrown into the toolbox of a new Linux distribution. Think they're bundling
+NodeJS so sysadmins can use JavaScript? Haha, no. And every system needs admin
+stuff. Only some systems need a web development environment. So right there,
+Python kinda already won. The fact that Data Scientists, Machine Learning and AI
+folks have pushed it over the top is just the latest in a long series of lite
+Python validating milestones. Instagram's a Django site. That's right. Instagram
+is a corporate Intranet.
