@@ -20,8 +20,8 @@ group: home
 
 ---
 
-<div class="wisdom" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1vw;">
-<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px;">
+<div class="wisdom" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1vw; overflow-x: auto; max-width: 100%;">
+<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px; white-space: pre-wrap; word-break: break-word;">
    Ikigai - overcome laziness find the love
   Kaizen - do one thing well keep polishing
 Pomodoro - take chisel-strike bank small wins
@@ -58,7 +58,7 @@ Pomodoro - take chisel-strike bank small wins
 
 That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to everything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
 
-<div>
+<div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
     <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined—consistency across the code cosmos.</li>
     <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Command-line conjurer—sessions split, disconnected, and reborn.</li>

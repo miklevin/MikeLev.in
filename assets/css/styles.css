@@ -485,7 +485,8 @@ ol li .post-date {
   justify-content: space-between;
   align-items: stretch; /* Changed from flex-start to stretch */
   gap: 1rem;
-  margin-bottom: 1vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
 }
 
 .lpvg-list {
@@ -499,7 +500,8 @@ ol li .post-date {
 }
 
 .lpvg-list li {
-  margin-bottom: 0.5rem;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -507,7 +509,7 @@ ol li .post-date {
 
 .lpvg-list li::before {
   content: "🥕";
-  margin-right: 0.5rem;
+  margin-right: 2vw;
   flex-shrink: 0;
 }
 

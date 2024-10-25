@@ -662,3 +662,19 @@ home()
 - Might be worth mentioning any performance optimizations in place or planned
 - Consider adding information on how the system handles different types of data (text, images, etc.)
 - Could elaborate on the user experience design principles followed in the UI layout
+
+## Extracting and Isolating Magical Components for Pattern Reuse
+
+Hey, I know what we're gonna do today, Ferb! We're going to isolate those
+portions of the program that are cool beyond belief, and we're gonna "extract"
+them and make the more easily resuable components. Oh, this is exactly what we
+did before to get this far, but this time it's going to be purposed around
+delivery-production... which means making a Jupyter Notebook "port" easy, which
+means some mental framework to promote you simulating that
+codeblock-by-codeblock execution model of Notebooks. Of course! It's not so
+complicated. Just flex your HTMX-muscles more deliberately. Identify, isolate,
+give cool nicnkames to, and then figlet-lebels to, your favorite most magical
+bits of enabling mysteries. Well, currently mysteries but soon to be demystified
+bailing blocks. It's just chaining-up I/O events with the occasional
+side-effects like reading or writing to databases and downloading and saving
+files.
