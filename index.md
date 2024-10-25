@@ -20,8 +20,8 @@ group: home
 
 ---
 
-<div class="wisdom" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1vw; overflow-x: auto; max-width: 100%;">
-<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px; white-space: pre-wrap; word-break: break-word; font-size: clamp(0.7rem, 2vw, 1rem);">
+<div class="wisdom">
+<pre>
    Ikigai - overcome laziness find the love
   Kaizen - do one thing well keep polishing
 Pomodoro - take chisel-strike bank small wins
@@ -67,6 +67,18 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
     <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
   </ul>
 </div>
+
+---
+
+<div class="wisdom">
+<pre>
+        1. What's most broken?
+2. Where's the biggest bang for buck?
+    3. Which plates must be spun?
+</pre>
+</div>
+
+<br />
 
 <div class="ascii-alice">
 <pre>
