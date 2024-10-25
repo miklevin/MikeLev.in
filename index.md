@@ -21,7 +21,7 @@ group: home
 ---
 
 <div class="wisdom" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1vw; overflow-x: auto; max-width: 100%;">
-<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px; white-space: pre-wrap; word-break: break-word;">
+<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px; white-space: pre-wrap; word-break: break-word; font-size: clamp(0.7rem, 2vw, 1rem);">
    Ikigai - overcome laziness find the love
   Kaizen - do one thing well keep polishing
 Pomodoro - take chisel-strike bank small wins
