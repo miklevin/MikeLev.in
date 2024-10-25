@@ -434,7 +434,7 @@ to be some lesser version of that as stepping stones to some grandiose vision
 you may never accomplish, and still be perfectly satisfied. Python will not
 evolve into the one language to rule them all, free of all blemishes. 
 
-## Python Expected To Replace Perl as Primary Linux Distribution Tool
+## Python Replaces Perl as Standard Linux Distribution Tool
 
 No, rather Python will replace PERL (already has) as the one wrench always
 thrown into the toolbox of a new Linux distribution. Think they're bundling
