@@ -96,7 +96,7 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 </pre>
 </div>
 
-<div class="post-navigation">
+<div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Enter Lundervand</span>
