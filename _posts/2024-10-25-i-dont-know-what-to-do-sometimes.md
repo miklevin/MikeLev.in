@@ -225,6 +225,8 @@ have our machine co-inhabitants of this mysterious world. I like SciFi, and
 found that spirit captured in the Amiga Computer of many years ago. Positive
 future, folks! 
 
+## Taking Control of Your Own Mental Future Through Local Solutions
+
 It need not be bleak, no matter what the algorithms try to feed us. Shape and
 craft your own minds on what we need the future to be, and not on what it seems
 like it's becoming. It's a feedback loop. So, shout out what you want to hear
