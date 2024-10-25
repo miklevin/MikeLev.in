@@ -162,3 +162,12 @@ I don't write because I crave an audience or have products to peddle. My words a
   {% endfor %}
 </ol>
 
+<div class="post-navigation">
+  <div class="previous-post placeholder"></div>
+  <div class="next-post">
+    <span class="nav-label">Enter Lundervand</span>
+    <a href="{{ site.posts.first.url | relative_url }}">
+      <span>{{ site.posts.first.title }}</span>
+    </a>
+  </div>
+</div>
