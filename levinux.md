@@ -6,6 +6,16 @@ permalink: /levinux/
 group: home
 ---
 
+[Levinux](https://levinux.com/) is a lightweight, open-source micro Linux distribution created by **Mike Levin**. It is designed as an educational tool to teach the basics of Linux, Python, and web development in a simple, portable way. Here's an overview of its features and purpose:
+
+<div style="text-align: center;">
+<a href="https://levinux.com/">
+  <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" class="logo">
+</a>
+</div>
+
+
+---
 <div class="post-navigation">
   <div class="previous-post">
     <span class="nav-label">Previous Project</span>
@@ -22,16 +32,6 @@ group: home
     <a href="/pipulate/">Pipulate: Open Source SEO Software</a>
   </div>
 </div>
-
-[Levinux](https://levinux.com/) is a lightweight, open-source micro Linux distribution created by **Mike Levin**. It is designed as an educational tool to teach the basics of Linux, Python, and web development in a simple, portable way. Here's an overview of its features and purpose:
-
-<div style="text-align: center;">
-<a href="https://levinux.com/">
-  <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" class="logo">
-</a>
-</div>
-
----
 
 ### **Key Features of Levinux:**
 
