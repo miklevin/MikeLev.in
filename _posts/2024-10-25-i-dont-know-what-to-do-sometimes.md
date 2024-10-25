@@ -3,7 +3,7 @@ title: I Don't Know What to Do Sometimes
 permalink: /i-dont-know-what-to-do-sometimes/
 description: 
 layout: post
-sort_order: 1
+sort_order: 2
 date: 2024-10-24
 ---
 
@@ -53,13 +53,14 @@ birthday of someone special who expressed interest in retro computing.
 I'm not ashamed to say that I don't know what to do sometimes. But I do know
 that I like to write. Some people are ***DRY***. They advocate not repeating
 yourself (**D**on't **R**epeat **Y**ourself). The objective is code-reuse and
-it's a real ruby of an idea. However, **W**e **E**njoy **T**yping because our
-text editor is vim (nvim these days), and it's just a form of expressing
-yourself. And if you enjoy talking as so many people do to hear their own voices
-(guilty as charged), you might also like typing, starting out with journaling to
-vomit your ideas up onto the page and sort out what you think by actually giving
-yourself a chance to do so, and then applying all those skills over to
-professional coding&#151;just another form of expressing yourself.
+it's a real ruby of an idea. However, **W**e **E**njoy **T**yping (the
+vim-powered ***WET*** movement) because our text editor is vim (nvim these
+days), and it's just a form of expressing yourself. And if you enjoy talking as
+so many people do to hear their own voices (guilty as charged), you might also
+like typing, starting out with journaling to vomit your ideas up onto the page
+and sort out what you think by actually giving yourself a chance to do so, and
+then applying all those skills over to professional coding&#151;just another
+form of expressing yourself.
 
 ## I Changed My Mind About Ruby on Rails as a Blogger
 
