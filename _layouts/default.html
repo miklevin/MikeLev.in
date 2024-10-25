@@ -26,8 +26,23 @@
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ startOnLoad: true });
     </script>
-</head>
-<body>
+    <style>
+        /* Disable slider on mobile */
+        @media (max-width: 768px) {
+            #widthSliderContainer, #bottomSliderContainer {
+                display: none;
+            }
+        }
+        /* Ensure smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Prevent layout shifts for images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -81,7 +96,13 @@
             const savedWidth = getCookie('containerWidth');
             slider.value = savedWidth ? savedWidth : 850;
 
-            const updateWidth = () => {
+            // Disable slider functionality on mobile
+            function isMobile() {
+                return window.innerWidth <= 768;
+            }
+
+            function updateWidth() {
+                if (isMobile()) return;
                 const newWidth = slider.value;
                 container.style.maxWidth = `${newWidth}px`;
                 
@@ -104,9 +125,13 @@
                 
                 // Save the new width to a cookie
                 setCookie('containerWidth', newWidth, 30);
-            };
+            }
 
-            slider.addEventListener('input', updateWidth);
+            // Modify the existing event listeners
+            if (!isMobile()) {
+                slider.addEventListener('input', updateWidth);
+            }
+
             updateWidth(); // Initialize with saved or default value
 
             // IMPORTANT: This creates a media query to limit the maximum width on larger screens
@@ -202,7 +227,11 @@
             }, 250);
         }
     }
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', function() {
+        if (!isMobile()) {
+            handleResize();
+        }
+    });
 
 </script>
 </body>
