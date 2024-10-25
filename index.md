@@ -18,6 +18,21 @@ group: home
     </div>
 </div>
 
+---
+
+<div class="wisdom" style="display: flex; justify-content: center; align-items: center; margin-bottom: 1vw;">
+<pre style="display: inline-block; text-align: left; margin: 0; font-family: monospace; background-color: #2c3e50; color: white; border-radius: 15px; padding: 15px;">
+   Ikigai - overcome laziness find the love
+  Kaizen - do one thing well keep polishing
+Pomodoro - take chisel-strike bank small wins
+    Hara Hachi - don't burn out / eat less
+     Wabi-Sabi - 80/20-rule imperfection
+         Shoshin - Be like a beginner
+</pre>
+</div>
+
+---
+
 # LPvg: Timeless Tech Skills for the AI Age
 
 <div class="lpvg-container">
@@ -41,13 +56,17 @@ group: home
   </div>
 </div>
 
-That's the main minimal tech-stack as a sort of swiss army knife or utility belt of tech. You don't need to use it for everything, but it is applicable to everything. With a few more tools, we lower the barrier to entry and make systems reproducible across all hardware. Plus, we'll sprinkle in the free local AI and a Python-centric web development environment.
+That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to everything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
 
-- **`nix/NixOS`**: Reproducibility redefined—consistency across the code cosmos.
-- **`tmux`**: Command-line conjurer—sessions split, disconnected, and reborn.
-- **`Jupyter Notebooks`**: Code meets canvas—prototype, iterate, illuminate.
-- **`FastHTML`**: From Pythonic thoughts to web realities in a heartbeat.
-- **`Ollama`**: Listening offline AI—a secure local companion in thought.
+<div class="lpvg-list">
+  <ul>
+    <li><code>`nix/NixOS`</code>: Reproducibility redefined—consistency across the code cosmos.</li>
+    <li><code>`tmux`</code>: Command-line conjurer—sessions split, disconnected, and reborn.</li>
+    <li><code>`Jupyter Notebooks`</code>: Code meets canvas—prototype, iterate, illuminate.</li>
+    <li><code>`FastHTML`</code>: From Pythonic thoughts to web realities in a heartbeat.</li>
+    <li><code>`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
+  </ul>
+</div>
 
 <div class="ascii-alice">
 <pre>
@@ -142,3 +161,4 @@ I don't write because I crave an audience or have products to peddle. My words a
     {% endfor %}
   {% endfor %}
 </ol>
+
