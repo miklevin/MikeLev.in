@@ -498,6 +498,17 @@ def hr():
 ...for you see, I liked the nerdy API-simplification trick just like Jeremy
 Howard of ***using HTML element names as Python function names***.
 
+## Jeremy Develops Starlette-Based Web Framework with Semantic Names
+
+The end point of all that is what I did with one line of code just to sprinkle
+some HTML-like Python functions, Jeremy writes a whole friggn web development
+framework that does that trick to the nth degree with every HTML element, loaded
+with all the super-powers of his other favorite libraries like `starlette` so
+that it's not only a viable `flask` alternative, but far better in how it
+eliminates the need for a templating language like `liquid` from shopify/jekyll.
+I mean why have a template language when your Python functions are semantically
+named after the HTML elements they generate? Brilliant!
+
 Like maybe one person out there is going to ever appreciate this. What this
 means is that when I was working with Python, mostly in Jupyter Notebooks
 because I had "given up" web development, I liked to sprinkle really simple
@@ -524,6 +535,8 @@ Am I being silly? Or am I making my point about APIs in a more poignant and
 entertaining (if only to nerds and AIs) than you'll typically find? This makes
 me think of Strunk and White's Elements of Style book, except perhaps for making
 every mistake in writing that the warn about, but for their meta-ness.
+
+## The Beauty of APIs Lost in ReactJS Complexity
 
 Meta, you say? What I object to in APIs is the meta-ness of the JavaScript
 virtual DOM that's injected in the web browser by ReactJS, a free and open
@@ -676,3 +689,10 @@ Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/11792699/ce58a4d6-9fe5-4c74-9904-f67bfec881b4/paste.txt
 
 > That'll Do Pig, That'll Do
+
+That was an interesting tangent. But wasn't I talking about APIs being ruined by
+the meta-ness of virtual DOMs? And now the company who made those free and open
+source JavaScript libraries, Facebook, has renamed themselves to Meta... that's
+so... what's the word I'm looking for?
+
+SEOs, sheesh!
