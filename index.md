@@ -162,6 +162,18 @@ I don't write because I crave an audience or have products to peddle. My words a
   {% endfor %}
 </ol>
 
+---
+
+<div class="alice-quote">
+  <blockquote>
+    "But I don't want to go among mad people," Alice remarked.  <br />
+    "Oh, you can't help that," said the Cat: "we're all mad here. I'm mad. You're mad."  <br />
+    "How do you know I'm mad?" said Alice.  <br />  
+    "You must be," said the Cat, "or you wouldn't have come here."  
+  </blockquote>
+  <p class="quote-attribution">- Lewis Carroll, Alice's Adventures in Wonderland</p>
+</div>
+
 <div class="post-navigation">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
