@@ -68,12 +68,12 @@ So, I used to hate tools like ***Ruby on Rails***, these opinionated web
 frameworks built on a language not mainstream enough for the AIs to not want to
 teach you how to code in. Every library out there is not ***made first*** for or
 ***also*** made for Ruby the way it is for Python. Being in the mainstream in
-the free and open source software world (FOSS) such as Python has grow to become
-is nice. The tooling and community support is outstanding, and if the language
-itself gels with the way you think, as Python does with me, all the better! and
-doing anything in Ruby ironically felt ***unpure***, which is really funny
-because it's a purity language (uncompromisingly OO yadda yadda), and so I kept
-all things Ruby out of my toolbox...
+the free and open source software world (FOSS) such as Python has grown to
+become is nice. The tooling and community support is outstanding, and if the
+language itself gels with the way you think, as Python does with me, all the
+better! and doing anything in Ruby ironically felt ***unpure***, which is really
+funny because it's a purity language (uncompromisingly OO yadda yadda), and so I
+kept all things Ruby out of my toolbox...
 
 ## Using GitHub Defaults for Easier Static Site Publishing
 
@@ -88,6 +88,18 @@ wilderness over a part of the tech I'm not even going to be seeing, because you
 see, you never even have to look at the engine behind your static site
 generator. You only have to look at your super-simple Markdown code&#151;which
 gets automatically transformed into beautiful HTML websites.
+
+## The Purity of Programming Languages Is Rarely Achievable Always
+
+Hot-spot optimization has always been an thing in Python with its
+C-API-hook-libraries, so Python has never been all about Python. It never lost
+its self-awareness as part of the standard C ecosystem, and those API-hooks for
+C in Python can really be used for anything, and the Rust proponents are all
+over that. It's not uncommon in Python today to see parts in compiled Rust code.
+And we've always just had to accept JavaScript as part of the web development
+workflow because that's what browsers use and you've just got to cope. There's
+never really been much room for purity in computing, unless you want to be on
+your own, alone in the wilderness. LISP is very powerful.
 
 ## Using Nix to Automate Website Deployment with GitHub
 
