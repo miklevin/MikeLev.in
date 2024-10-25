@@ -192,14 +192,17 @@
     // Call this function after the page loads
     window.addEventListener('load', syncSliders);
 
-    // Fix for the resize bug
+    // Fix for the resize bug, but only on non-mobile devices
     let resizeTimer;
-    window.addEventListener('resize', function() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function() {
-            location.reload();
-        }, 250);
-    });
+    function handleResize() {
+        if (window.innerWidth > 768) { // Assuming 768px as the breakpoint for mobile devices
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                location.reload();
+            }, 250);
+        }
+    }
+    window.addEventListener('resize', handleResize);
 
 </script>
 </body>
