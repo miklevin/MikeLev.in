@@ -269,14 +269,14 @@ When working with Starlette, the FastHTML convenience wrapper offers a more intu
 from fasthtml.common import *
 ```
 
-...contents of it's `__init.py__`:
+...contents of its `__init.py__`:
 
 ```python
 __version__ = "0.8.1"
 from .core import *
 ```
 
-...contents of .core:
+...contents of `.core:`
 
 ```python
 """The `FastHTML` subclass of `Starlette`, along with the `RouterX` and `RouteX` classes it automatically uses."""
