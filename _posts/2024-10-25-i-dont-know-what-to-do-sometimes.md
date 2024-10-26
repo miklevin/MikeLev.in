@@ -671,10 +671,46 @@ them and make the more easily resuable components. Oh, this is exactly what we
 did before to get this far, but this time it's going to be purposed around
 delivery-production... which means making a Jupyter Notebook "port" easy, which
 means some mental framework to promote you simulating that
-codeblock-by-codeblock execution model of Notebooks. Of course! It's not so
-complicated. Just flex your HTMX-muscles more deliberately. Identify, isolate,
-give cool nicnkames to, and then figlet-lebels to, your favorite most magical
-bits of enabling mysteries. Well, currently mysteries but soon to be demystified
-bailing blocks. It's just chaining-up I/O events with the occasional
-side-effects like reading or writing to databases and downloading and saving
-files.
+codeblock-by-codeblock execution model of Notebooks. 
+
+## Understanding HTMX: Simplifying Input/Output Event Handling
+
+Of course! It's not so complicated. Just flex your HTMX-muscles more
+deliberately. Identify, isolate, give cool nicnkames to, and then figlet-lebels
+to, your favorite most magical bits of enabling mysteries. Well, currently
+mysteries but soon to be demystified bailing blocks. It's just chaining-up I/O
+events with the occasional side-effects like reading or writing to databases and
+downloading and saving files.
+
+## NixOS Becomes A Platform Agnostic Approach To Computing
+
+To be on Linux these days... testing on macOS as I go along. All the cool kids
+are on Macs, and all the rest will be forced to do a Windows 11 update in about
+a year. So embrace all platforms, mainstream and elite. Speak to them no matter
+what computing platform they're on, and speak to them from NixOS. Go back on
+YouTube. Share again, share again jiggity jig! I got the demonetization warning
+form Google. This NixOS/nix, FastHTML, Ollama union into... what?
+
+## Chip Off The Old Core: A NixOS Web App Builder
+
+It's a web app chipped as flakes off the core. Connect all the dots of this
+project in one easy installer. I will work from NixOS as my daily use core stone
+from which I chip off (from Chip O'Theseus) new `flake.nix`'s, haha! IaC
+subsystems carried around with git repos. Who cares if it's actually Linux there
+if you're on Mac or Windows? It's similar to  how Electron aps like VSCode or
+Slack work, but without NodeJS and not trying to hide that it's a webserver.
+From a user's perspective, it just means you start it through the terminal and
+the app comes up through the browser.
+
+## Extracting Patterns for Customizable Workflow Development
+
+Okay, it's time to move onto the next article. I do know what to do now. I need
+to extract the patterns that let me piece together a Jupyter Notebook-like
+workflow with new plugins to this system. A few other items...
+
+- If the model is actually slow, stream their output for real without simulating
+  it with the typing effect
+- Wire up the rest of the CRUD statements
+- Inject different system prompts here and there based on menu choices
+- Make an upload app that lets you do rudimentary file management so the
+  training docs have a place to live (and be known by the AI).
