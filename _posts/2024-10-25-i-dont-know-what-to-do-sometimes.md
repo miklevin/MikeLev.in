@@ -713,3 +713,254 @@ workflow with new plugins to this system. A few other items...
 - Inject different system prompts here and there based on menu choices
 - Make an upload app that lets you do rudimentary file management so the
   training docs have a place to live (and be known by the AI).
+
+Hmmm... o1-preview wanna give it a shot?
+
+# o1-preview Helps Me Visualize Next Steps
+
+**o1-preview**: Certainly! Based on your code and requirements, here's a tree diagram that illustrates how to integrate Jupyter Notebook-like cells into the Main Grid Left area using `FastHTML`'s `Card()` components. This will help you create a Jupyter-inspired application within your existing framework.
+
+---
+
+### Updated Layout of the SPA's Parts with Jupyter Notebook Integration:
+
+```
+home()
+|
++-- create_outer_container()
+    |
+    +-- create_nav_group()
+    |   |
+    |   +-- create_nav_menu()
+    |       |
+    |       +-- create_filler_item()
+    |       +-- create_profile_menu()
+    |       +-- create_app_menu()
+    |       +-- create_search_input()
+    |
+    +-- create_grid_left()
+        |
+        +-- create_notebook_interface()
+            |
+            +-- render_notebook_cells()
+                |
+                +-- render_notebook_cell(cell_1)
+                +-- render_notebook_cell(cell_2)
+                +-- render_notebook_cell(cell_3)
+                +-- ...
+    |
+    +-- create_chat_interface()
+        |
+        +-- mk_chat_input_group()
+    |
+    +-- create_poke_button()
+```
+
+---
+
+### Explanation of the Components:
+
+1. **home()**: The main entry point of your application, which orchestrates the rendering of the entire page.
+
+2. **create_outer_container()**: Builds the outer structure of your application, including navigation and main content areas.
+
+    - **create_nav_group()**: Creates the navigation bar at the top.
+
+        - **create_nav_menu()**: Generates the menu items in the navigation bar.
+
+            - **create_filler_item()**: Adds spacing or filler elements in the menu.
+            - **create_profile_menu()**: Dropdown menu for profile selection.
+            - **create_app_menu()**: Dropdown menu for selecting different applications (e.g., Todo, Notebook).
+            - **create_search_input()**: Search bar in the navigation.
+
+    - **create_grid_left()**: Responsible for rendering the main content area on the left side of the grid.
+
+        - **create_notebook_interface()**: New function to handle the Jupyter Notebook-like interface.
+
+            - **render_notebook_cells()**: Iterates over notebook cells and renders each one.
+
+                - **render_notebook_cell(cell_n)**: Renders an individual notebook cell as a `Card` component.
+
+    - **create_chat_interface()**: Renders the chat interface on the right side.
+
+        - **mk_chat_input_group()**: Creates the input group for the chat interface.
+
+    - **create_poke_button()**: Adds a button to interact with the chatbot.
+
+---
+
+### Implementation Steps:
+
+1. **Add 'notebook' to MENU_ITEMS**:
+
+   ```python
+   MENU_ITEMS = [todo_app.name, 'link_graph', 'gap_analysis', 'notebook']
+   ```
+
+2. **Update create_grid_left() Function**:
+
+   ```python
+   async def create_grid_left(is_todo_view, menux, todo_items):
+       if menux == 'notebook':
+           return await create_notebook_interface()
+       elif menux == 'link_graph':
+           # Existing code for link_graph
+           pass
+       else:
+           # Existing code for other views
+           pass
+   ```
+
+3. **Create create_notebook_interface() Function**:
+
+   ```python
+   async def create_notebook_interface():
+       # Retrieve notebook cells from a data source or define them
+       cells = get_notebook_cells()
+       cell_components = [render_notebook_cell(cell) for cell in cells]
+
+       return Div(
+           *cell_components,
+           id='notebook-container',
+           style="display: flex; flex-direction: column;"
+       )
+   ```
+
+4. **Implement render_notebook_cell(cell) Function**:
+
+   ```python
+   def render_notebook_cell(cell):
+       # Each cell is represented as a Card component
+       return Card(
+           # Display the input (code) and output (results)
+           H3(f"Cell {cell['number']}"),
+           Pre(
+               Code(cell['code'], language='python'),
+               style="background-color: #f5f5f5; padding: 10px;"
+           ),
+           Div(
+               Raw(cell['output']),
+               style="background-color: #e8e8e8; padding: 10px; margin-top: 10px;"
+           ),
+           style="margin-bottom: 20px;"
+       )
+   ```
+
+5. **Define get_notebook_cells() Function**:
+
+   ```python
+   def get_notebook_cells():
+       # This function would fetch or define the list of cells
+       # For example, it could read from a database or a JSON file
+       return [
+           {
+               'number': 1,
+               'code': 'print("Hello, World!")',
+               'output': 'Hello, World!'
+           },
+           {
+               'number': 2,
+               'code': 'x = 2 + 2\nprint(x)',
+               'output': '4'
+           },
+           # Add more cells as needed
+       ]
+   ```
+
+---
+
+### How the Components Work Together:
+
+- **Navigation**: Users can select the 'Notebook' application from the app menu. This triggers the `home()` function to render the notebook interface.
+
+- **create_grid_left()**: Detects that 'notebook' is the selected application and calls `create_notebook_interface()`.
+
+- **create_notebook_interface()**: Fetches the notebook cells and renders them using `render_notebook_cell()`.
+
+- **render_notebook_cell(cell)**: Takes a cell dictionary containing the code and output, and wraps it inside a `Card` component for display.
+
+---
+
+### Visual Representation:
+
+```
+Main Grid Left
+|
++-- Notebook Container (Div)
+    |
+    +-- Cell 1 (Card)
+    |   |
+    |   +-- Cell Header (H3)
+    |   +-- Code Block (Pre > Code)
+    |   +-- Output (Div)
+    |
+    +-- Cell 2 (Card)
+    |   |
+    |   +-- Cell Header (H3)
+    |   +-- Code Block (Pre > Code)
+    |   +-- Output (Div)
+    |
+    +-- ...
+```
+
+---
+
+### Additional Notes:
+
+- **Dynamic Execution**: To make the notebook interactive (like executing code), you would need to implement backend execution of code snippets and capture their outputs.
+
+- **State Management**: Consider how you will manage the state of the notebook cells, especially if users can add, edit, or delete cells.
+
+- **Styling**: Customize the CSS styles to mimic the look and feel of a Jupyter Notebook.
+
+- **Security**: Be cautious when executing code from users. Implement proper security measures to prevent code injection attacks.
+
+---
+
+### Integrating with Existing Framework:
+
+- **Menu Integration**: The 'Notebook' application seamlessly integrates into your existing menu system.
+
+- **Reuse Components**: Utilize existing components like `Card()`, `Div()`, and styling practices to maintain consistency.
+
+- **Chat Interface**: The chat interface remains available, allowing users to interact with the chatbot while using the notebook.
+
+---
+
+### Example Code Snippet:
+
+Here's how you might implement the `create_notebook_interface()` and `render_notebook_cell()` functions:
+
+```python
+async def create_notebook_interface():
+    cells = get_notebook_cells()
+    cell_components = [render_notebook_cell(cell) for cell in cells]
+
+    return Div(
+        *cell_components,
+        id='notebook-container',
+        style="display: flex; flex-direction: column;"
+    )
+
+def render_notebook_cell(cell):
+    return Card(
+        H3(f"Cell {cell['number']}"),
+        Pre(
+            Code(cell['code'], language='python'),
+            style="background-color: #f5f5f5; padding: 10px;"
+        ),
+        Div(
+            Raw(cell['output']),
+            style="background-color: #e8e8e8; padding: 10px; margin-top: 10px;"
+        ),
+        style="margin-bottom: 20px;"
+    )
+```
+
+---
+
+### Conclusion:
+
+By extending your existing framework with these additional functions and integrating them into your application's structure, you can create a Jupyter Notebook-like experience using `FastHTML`. The tree diagram provides a clear overview of how the components interact, making it easier to implement and maintain.
+
+Let me know if you need further assistance or have any questions!
