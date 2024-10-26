@@ -1032,7 +1032,7 @@ def setup_ws(app, f=noop):
     return send
 ```
 
-...and contents of common:
+...and contents of `.common`:
 
 ```python
 import uvicorn
