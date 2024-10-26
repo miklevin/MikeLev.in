@@ -247,7 +247,7 @@ suffered a scratched cornea and temporarily lost his sight due to the prolonged
 exposure and the physical constraints placed on him, despite assurances from
 Stanley Kubrick and a physician present on set that it was safe.
 
-## Jeremy Advocates for Hand-Crafted AI Model Development Approach
+## Hand-crafted `llms-ctx.txt` Less Effective Than Source
 
 Jeremy is much more gentle and I believe a bit off-target with his ***Getting
 help from AI*** paragraph on [fastht.ml](https://fastht.ml) when he advocates
