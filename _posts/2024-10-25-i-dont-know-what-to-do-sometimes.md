@@ -1,7 +1,7 @@
 ---
 title: I Don't Know What to Do Sometimes
 permalink: /i-dont-know-what-to-do-sometimes/
-description: SPAs reshaped SEO, but I’ve adapted along the way. While I missed some chances, I still love coding, writing, and experimenting with tools like NixOS and GitHub Pages. Now, I’m channeling that energy into a new goal: converting my Jupyter Notebook workflow into a FastHTML-powered app, creating a seamless, interactive experience I can't wait to share.
+description: "SPAs reshaped SEO, but I’ve adapted along the way. While I missed some chances, I still love coding, writing, and experimenting with tools like NixOS and GitHub Pages. Now, I’m channeling that energy into a new goal: converting my Jupyter Notebook workflow into a FastHTML-powered app, creating a seamless, interactive experience I can't wait to share."
 layout: post
 sort_order: 1
 ---
