@@ -227,8 +227,33 @@ Would you like me to start implementing any specific part of this plan?
 
 ---
 
-Ugh! I have to teach Cursor AI about FastHTML in some pretty gory detail. Let's
-get this party started.
+## Frustrated with FastHTML Advice Promoted by AI
+
+Ugh! Jeremy Howard, the creator of FastHTML is well aware of the problem I'm
+facing. No self-respecting AI these days is going to give you FastHTML advice
+rather than trying to steamroll you into using FastAPI. It's like a broken
+record of wrong-turns and I'm sick of it. The time has come the walrus said to
+scour GitHub for the pertinents and force-feed media to good ol' Claude like...
+who was that again?
+
+## Clockwork Oranging Claude
+
+**Perplexity**: Yes, Malcolm McDowell was indeed the actor who portrayed Alex
+DeLarge in A Clockwork Orange. In one of the film's most infamous scenes, Alex
+is strapped into a chair with his eyelids pried open using a device called a
+"lid lock." This scene is part of the "Ludovico technique," a form of aversion
+therapy where he is forced to watch violent films. During the filming, McDowell
+suffered a scratched cornea and temporarily lost his sight due to the prolonged
+exposure and the physical constraints placed on him, despite assurances from
+Stanley Kubrick and a physician present on set that it was safe.
+
+## Jeremy Advocates for Hand-Crafted AI Model Development Approach
+
+Jeremy is much more gentle and I believe a bit off-target with his ***Getting
+help from AI*** paragraph on [fastht.ml](https://fastht.ml) when he advocates
+that hand-crafted [llms-ctx.txt](https://docs.fastht.ml/llms-ctx.txt). Nahhh,
+you want to find the actual code in GitHub and Ludovico it down Claude's recent
+conversation history, like so...
 
 # Begin Copy: FastHTML is not FastAPI
 
