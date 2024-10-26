@@ -122,6 +122,10 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 
 📝 I don't write because I crave an audience or have products to peddle. My words are my 🧭 compass, helping me navigate the ever-shifting landscape of 💻 technology. This digital journal is my 🔊 sounding board, a space where ideas 🔉 echo and 💎 crystallize. With each post, I'm forging a 🛤️ path forward, articulating the complex, and holding myself accountable to the journey I've chosen&#151;and 🛠️ practicing my craft.
 
+## Reproducible Environments: Nix & Cross-Platform DevOps
+
+🐧 The full ramifications of reproducible general Linux subsystem on any host computer has not sunk in yet. Be it through Nix (most likely) 🧰 or guix, the GNU project's official version of the same tech, 🐳 Docker is already... well, not obsolete, but 80/20-ruled out of daily needs. 🌿 Nix Flakes, which carry Infrastructure as Code in a single text file you drop in a git repo, make it even easier than containers. Just chip `flake.nix`'s off your `configuration.nix` core. 💎
+
 <ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}
   {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}

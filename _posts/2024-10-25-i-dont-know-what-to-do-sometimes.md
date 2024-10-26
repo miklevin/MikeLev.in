@@ -3,8 +3,7 @@ title: I Don't Know What to Do Sometimes
 permalink: /i-dont-know-what-to-do-sometimes/
 description: 
 layout: post
-sort_order: 2
-date: 2024-10-24
+sort_order: 1
 ---
 
 ## The Rise of Single-Page Applications Damages Search Engine Optimization
