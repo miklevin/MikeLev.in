@@ -971,8 +971,10 @@ Nice. This is way cleaner than the hack-it-in approach I had to the first plugin
 app that tried simulating the top-down flow of a Jupyter Notebook. I won't need
 the dynamic execution as it suggests, as I'm ***not really simulating ipython***
 style execution that's behind Notebook-like products. I'm just simulating it's
-look. But a lot of this I can use to make next steps kick-ass awesome! So even
-when I don't know what to do sometimes, I can think it through out loud like I
-have in this daily work journal, enlist the aid of several AIs, and plan a
-decent next step with much more thought, consideration and structure than I
-could pull off alone.
+look and flow for easy porting and UI familiarity. 
+
+But a lot of this I can use to make next steps kick-ass awesome! So even when I
+don't know what to do sometimes, I can think it through out loud like I have in
+this daily work journal, enlist the aid of several AIs, and plan a decent next
+step with much more thought, consideration and structure than I could pull off
+alone.
