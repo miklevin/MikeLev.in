@@ -18,21 +18,6 @@ group: home
     </div>
 </div>
 
----
-
-<div class="wisdom">
-<pre>
-   Ikigai - overcome laziness find the love
-  Kaizen - do one thing well keep polishing
-Pomodoro - take chisel-strike bank small wins
-    Hara Hachi - don't burn out / eat less
-     Wabi-Sabi - 80/20-rule imperfection
-         Shoshin - Be like a beginner
-</pre>
-</div>
-
----
-
 # LPvg: Timeless Tech Skills for the AI Age
 
 <div class="lpvg-container">
@@ -56,7 +41,7 @@ Pomodoro - take chisel-strike bank small wins
   </div>
 </div>
 
-That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to everything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
+That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to anything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
@@ -67,8 +52,6 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
     <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
   </ul>
 </div>
-
----
 
 <div class="wisdom">
 <pre>
@@ -122,10 +105,6 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 
 📝 I don't write because I crave an audience or have products to peddle. My words are my 🧭 compass, helping me navigate the ever-shifting landscape of 💻 technology. This digital journal is my 🔊 sounding board, a space where ideas 🔉 echo and 💎 crystallize. With each post, I'm forging a 🛤️ path forward, articulating the complex, and holding myself accountable to the journey I've chosen&#151;and 🛠️ practicing my craft.
 
-## Reproducible Environments: Nix & Cross-Platform DevOps
-
-🐧 The full ramifications of reproducible general Linux subsystem on any host computer has not sunk in yet. Be it through Nix (most likely) 🧰 or guix, the GNU project's official version of the same tech, 🐳 Docker is already... well, not obsolete, but 80/20-ruled out of daily needs. 🌿 Nix Flakes, which carry Infrastructure as Code in a single text file you drop in a git repo, make it even easier than containers. Just chip `flake.nix`'s off your `configuration.nix` core. 💎
-
 <ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}
   {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
@@ -178,6 +157,10 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
   {% endfor %}
 </ol>
 
+## Reproducible Environments: Nix & Cross-Platform DevOps
+
+🐧 The full ramifications of reproducible general Linux subsystem on any host computer has not sunk in yet. Be it through Nix (most likely) 🧰 or guix, the GNU project's official version of the same tech, 🐳 Docker is already... well, not obsolete, but 80/20-ruled out of daily needs. 🌿 Nix Flakes, which carry Infrastructure as Code in a single text file you drop in a git repo, make it even easier than containers. Just chip `flake.nix`'s off your `configuration.nix` core. 💎
+
 ---
 
 <div class="wisdom dialogue" style="border-radius: 10px; overflow: hidden; max-width: fit-content; margin: 0 auto;">
@@ -189,6 +172,18 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 </pre>
 </div>
 
+<br />
+
+<div class="wisdom">
+<pre>
+   Ikigai - overcome laziness find the love
+  Kaizen - do one thing well keep polishing
+Pomodoro - take chisel-strike bank small wins
+    Hara Hachi - don't burn out / eat less
+     Wabi-Sabi - 80/20-rule imperfection
+         Shoshin - Be like a beginner
+</pre>
+</div>
 
 <div class="next-post">
   <div class="previous-post placeholder"></div>
