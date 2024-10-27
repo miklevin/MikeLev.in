@@ -1754,6 +1754,8 @@ Is this the kind of precise instruction you were looking for? Would you like me 
 
 ---
 
+## Main Chat Was Broken Going In
+
 Ugh! It turns out I broke the main WebSocket connection of the chat feature by
 doing the long-running test plugin. So my next round of work is to fix main chat
 before I can even make it stream properly. Here's my setup for the fix, after I
