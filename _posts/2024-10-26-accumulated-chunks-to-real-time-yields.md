@@ -1980,7 +1980,7 @@ long-running task under the plugin system as the stream_simulator on the
 MENU_ITEMS. So I have a lot of proven tech here. Aside from formatting
 fragments, there is no reason this should not work. 
 
-How wold this separate test route for streaming work? It seems to me that when
+How would this separate test route for streaming work? It seems to me that when
 we convert chat_with_ollama to streaming, it's all-or-nothing. Since we have a
 toggle now, I'm not so opposed to breaking things, so long as they're only
 broken in one of the toggle settings. And I already have that isolation thing.
