@@ -1580,7 +1580,7 @@ I hope this helps you integrate streaming into your application smoothly. Let me
 
 ---
 
-## Integrating Streaming Responses into Existing FastHTML Application
+## I Need Claude's Opinion Before Risking Breaking it All
 
 This really sounds awesome, but I've been led astray before. Let me run it by
 Claude 3.5 sonnet via Cursor AI who has the full code context. It's become too
