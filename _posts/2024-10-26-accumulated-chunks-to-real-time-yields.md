@@ -1609,7 +1609,7 @@ Is this understanding correct? Would you like me to proceed with providing detai
 
 ---
 
-## Addressing Stream Changes in Chat Interactions Raises Concerns
+## Concern Over Breaking Systems and Working Backwards Approach
 
 Me: Yes, this sounds right. But my concern is that even just the first step really breaks stuff. Doesn't merely turning streaming=True on in chat_with_ollama break everything? Maybe we need the concept of a controlled break so that surprises are eliminated. Or we can work backwards, from detection of JSON in the assembled message and extermalize and move it around in preparation for things to be already communicated the user prior and gradually move from the end back to the beginning? That seems less sudden breaky.
 
