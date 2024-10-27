@@ -1241,3 +1241,368 @@ app.add_middleware(
 So now I have a Pythonic chunk-yielding generator to simulate long-running
 tasks... ho ho ho
 
+## WebSocket Chit-Chat Not Just for Long-Running Jobs
+
+As long and at times frustrating this round of work was, I'm not out of the
+woods yet. Yes, I need this long-running job-reporting of webserver-launched
+jobs for my coming Jupyter Notebooks-to-FastHTML work, but the fundamental AI
+chat feature worked into my UI also uses it:
+
+```
+    +-------------------------------------+
+    |           Navigation Bar            |
+    +-------------------------------------+
+    |             Main Content            |
+    | +-----------------+ +-------------+ |
+    | |                 | |             | | <-- hits Ollama & currently
+    | |    Main Area    | |    Chat     | |     accumulates chunks before
+    | |   (Grid Left)   | |  Interface  | |     spewing.
+    | |                 | |             | |
+    | |                 | |             | |     Needs to spew chunks as
+    | |                 | |             | |     they're acquried.
+    | +-----------------+ +-------------+ |
+    +-------------------------------------+
+    |           Poke Button               |
+    +-------------------------------------+
+```
+
+## Bridging the Gap Between AI and Real-World Interaction
+
+So this could be fairly straight forward given my recent success, however I
+actually use the accumulated chunks. In the current implementation, I search
+through the assembled finished message for JSON CRUD. There are sometimes
+embedded well-structured code instructions inserted into the response from the
+LLM to **C**reate, **U**pdate, **R**ead or **D**elete (CRUD) data. This is how
+you give a mouse a cookie... I mean give an AI a way to interact with the real
+world with more than just chat. These JSON instructions have meaning and when
+you monitor for them and (conditionally) carry them out, you've bridged the gap
+between the only-talk AI-world and our own. 
+
+## Teaching AI to Execute Functions Through System-Prompts
+
+You give the mouse a cookie... I mean you give the AI the ability to execute
+functions. Any model. Any size. They all can do it if you teach them how with
+system prompts that can be injected at all sorts of times beyond the start of
+the conversation. My system is built around this fact, sending information about
+every little thing the user does to it, giving it a chance to say stuff to the
+user. And ***that*** communication needs to yield bits rather than one big
+return value. Doing this core user interface LLM communication piece was the
+original reason I started this project today. I framed it in the plugin context
+to keep myself from wreaking havoc on the UI. But now it's time.
+
+Ahem... o1?
+
+---
+
+# Can o1-preview Help Me Out?
+
+**o1-preview**: I understand that you're looking to integrate streaming responses from the Ollama server into your existing FastHTML application without breaking your current setup. You also want to proceed cautiously, making incremental changes to avoid overwhelming complexity.
+
+Let's break down the process into manageable steps, ensuring that at each stage, the application remains functional. We'll focus on:
+
+1. Modifying the `chat_with_ollama` function to support streaming.
+2. Adjusting your WebSocket handling to accommodate streaming data.
+3. Updating the client-side code to handle streamed messages.
+4. Ensuring that post-processing (like detecting embedded JSON) happens after the full message is received.
+
+**Note:** Since I don't have the entire context of your code, I'll provide generic examples that you can adapt to your specific implementation.
+
+---
+
+### **Step 1: Modify `chat_with_ollama` to Support Streaming**
+
+First, adjust your `chat_with_ollama` function to handle streaming responses from the Ollama API.
+
+**Old Implementation (Non-Streaming):**
+
+```python
+def chat_with_ollama(model: str, messages: List[Dict[str, str]]) -> str:
+    # ... existing code ...
+    data = {
+        "model": model,
+        "messages": messages,
+        "stream": False
+    }
+    response = requests.post(url, json=data)
+    content = response.json()["message"]["content"]
+    return content
+```
+
+**New Implementation (Streaming):**
+
+```python
+import requests
+from typing import Generator
+
+def chat_with_ollama_stream(model: str, messages: List[Dict[str, str]]) -> Generator[str, None, None]:
+    """
+    Send a chat request to the Ollama API and yield streamed responses.
+
+    Args:
+        model (str): The name of the model to use.
+        messages (List[Dict[str, str]]): The list of message dictionaries.
+
+    Yields:
+        str: Chunks of the response from the Ollama API.
+    """
+    url = "http://localhost:11434/api/chat"
+    data = {
+        "model": model,
+        "messages": messages,
+        "stream": True
+    }
+    with requests.post(url, json=data, stream=True) as response:
+        response.raise_for_status()
+        for line in response.iter_lines():
+            if line:
+                chunk = line.decode('utf-8')
+                # Assuming each line is a JSON object prefixed with 'data: '
+                if chunk.startswith('data: '):
+                    chunk = chunk[len('data: '):]
+                if chunk == '[DONE]':
+                    break
+                message_data = json.loads(chunk)
+                content = message_data.get("message", {}).get("content", "")
+                if content:
+                    yield content
+```
+
+**Explanation:**
+
+- Set `"stream": True` in the request data to enable streaming.
+- Use `stream=True` in the `requests.post()` call to receive streamed responses.
+- Iterate over `response.iter_lines()` to process each chunk as it's received.
+- Yield each piece of content to be processed elsewhere.
+
+### **Step 2: Adjust WebSocket Handling for Streaming**
+
+Next, modify your WebSocket endpoint to handle streaming data from `chat_with_ollama_stream`.
+
+**Old Implementation (Simplified):**
+
+```python
+@app.websocket_route("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    # ... existing code ...
+    response = await run_in_threadpool(chat_with_ollama, model, messages)
+    await websocket.send_text(response)
+```
+
+**New Implementation:**
+
+```python
+from starlette.concurrency import run_in_threadpool
+
+@app.websocket_route("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    try:
+        # ... existing code to receive messages ...
+        # Use the streaming version of chat_with_ollama
+        async for chunk in stream_chat_with_ollama(model, messages):
+            await websocket.send_text(chunk)
+    except WebSocketDisconnect:
+        # Handle disconnection
+        pass
+```
+
+**Helper Function to Bridge Sync Generator to Async:**
+
+```python
+async def stream_chat_with_ollama(model: str, messages: List[Dict[str, str]]):
+    loop = asyncio.get_event_loop()
+    for chunk in await loop.run_in_executor(None, lambda: chat_with_ollama_stream(model, messages)):
+        yield chunk
+```
+
+**Explanation:**
+
+- Since `chat_with_ollama_stream` is a synchronous generator, we need to bridge it to the asynchronous context.
+- Use `asyncio` to run the synchronous generator in an executor and yield the chunks asynchronously.
+- In your WebSocket endpoint, iterate over the `async for chunk in stream_chat_with_ollama(...)` to send each chunk to the client as it's received.
+
+### **Step 3: Update Client-Side Code to Handle Streamed Messages**
+
+Modify your JavaScript code to handle messages as they arrive via the WebSocket.
+
+**Old Implementation (Simplified):**
+
+```javascript
+ws.onmessage = function(event) {
+    // Process the complete message
+    displayMessage(event.data);
+};
+```
+
+**New Implementation:**
+
+```javascript
+ws.onmessage = function(event) {
+    // Append each chunk to the display as it arrives
+    appendToChat(event.data);
+};
+```
+
+**Explanation:**
+
+- Update the `onmessage` handler to process each chunk immediately.
+- Ensure that the client-side display (e.g., a chat window) appends incoming chunks to the existing content.
+
+### **Step 4: Handle Post-Processing After Full Message is Received**
+
+Since you need to detect embedded JSON instructions after the full response is assembled, you'll need to collect the chunks and trigger processing once the streaming is complete.
+
+**Modify WebSocket Endpoint to Collect Full Response:**
+
+```python
+@app.websocket_route("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    try:
+        # ... existing code to receive messages ...
+        full_response = ""
+        async for chunk in stream_chat_with_ollama(model, messages):
+            await websocket.send_text(chunk)
+            full_response += chunk
+        # After streaming is complete, process the full response
+        process_full_response(full_response)
+    except WebSocketDisconnect:
+        # Handle disconnection
+        pass
+```
+
+**Explanation:**
+
+- Collect the chunks into a `full_response` string as they're sent to the client.
+- After the streaming is complete (i.e., when the generator is exhausted), perform any necessary post-processing on `full_response`, such as detecting embedded JSON.
+
+**Adjust `process_full_response` Function:**
+
+```python
+def process_full_response(response: str):
+    # Your existing logic to detect embedded JSON instructions
+    detected_patterns = detect_embedded_crud_json(response, todo_app)
+    for json_obj, crud_result, table_data in detected_patterns:
+        # Handle detected JSON instructions
+        pass
+```
+
+### **Step 5: Ensure Smooth Integration**
+
+Since you want to proceed cautiously, test each step thoroughly before moving on to the next. Here's how you can do that:
+
+1. **Test the Streaming Function Alone:**
+
+   - Write a standalone test for `chat_with_ollama_stream` to ensure it correctly yields chunks.
+
+2. **Test WebSocket Streaming Separately:**
+
+   - Before integrating with the Ollama API, test your WebSocket endpoint with a mock streaming generator to confirm that chunks are sent and received correctly.
+
+3. **Integrate and Test Client-Side Changes:**
+
+   - Ensure the client can handle incoming chunks and display them appropriately.
+
+4. **Verify Post-Processing Logic:**
+
+   - Confirm that `process_full_response` correctly processes the assembled response after streaming completes.
+
+### **Additional Tips:**
+
+- **Logging:** Add detailed logging at each step to monitor the flow of data and quickly identify issues.
+
+- **Error Handling:** Ensure that exceptions in the streaming process are caught and handled gracefully to prevent crashes.
+
+- **Concurrency:** Be cautious with thread pools and event loops to avoid blocking the main event loop.
+
+### **Example of an Incremental Test:**
+
+**Test the Streaming Function:**
+
+```python
+def test_chat_with_ollama_stream():
+    model = "your_model_name"
+    messages = [{"role": "user", "content": "Hello"}]
+    chunks = []
+    for chunk in chat_with_ollama_stream(model, messages):
+        print(f"Received chunk: {chunk}")
+        chunks.append(chunk)
+    full_response = ''.join(chunks)
+    print(f"Full response: {full_response}")
+    # Add assertions or further processing here
+```
+
+**Test the WebSocket Endpoint with Mock Data:**
+
+```python
+from starlette.testclient import TestClient
+
+client = TestClient(app)
+
+def test_websocket_streaming():
+    with client.websocket_connect("/ws") as websocket:
+        websocket.send_text("Test message")
+        chunks = []
+        while True:
+            try:
+                data = websocket.receive_text()
+                print(f"Received: {data}")
+                chunks.append(data)
+            except WebSocketDisconnect:
+                break
+        full_response = ''.join(chunks)
+        print(f"Full response: {full_response}")
+        # Add assertions or further processing here
+```
+
+---
+
+By following these steps, you can incrementally integrate streaming responses from the Ollama server into your application. Each step is self-contained, allowing you to test thoroughly before proceeding, which should help prevent breaking existing functionality.
+
+**Regarding the Embedded JSON Detection:**
+
+Since you need the full response for detecting embedded JSON instructions, ensure that:
+
+- You collect the full response on the server side during streaming.
+- After streaming is complete, perform the detection and processing.
+- If necessary, send additional messages to the client to update the UI based on the processed data.
+
+---
+
+**Final Thoughts:**
+
+- **Backup Your Code:** Before making changes, ensure you have a backup or use version control to revert if needed.
+- **Stay Patient:** It's natural to feel overwhelmed when dealing with complex changes. Taking it step by step is the best approach.
+- **Ask for Help:** If you get stuck on a specific step, feel free to ask for clarification or assistance on that particular part.
+
+I hope this helps you integrate streaming into your application smoothly. Let me know if you have any questions or need further assistance on any step.
+
+---
+
+## Integrating Streaming Responses into Existing FastHTML Application
+
+This really sounds awesome, but I've been led astray before. Let me run it by
+Claude 3.5 sonnet via Cursor AI who has the full code context. It's become too
+big to paste into even o1-preview. Hey Claude, Claude, don't do any of this yet.
+This is just the warm up to give you context. Digest it. The only thing you need
+to give me back is a summary of your deep understanding of what I'm about to try
+to do, please and thank you!
+
+**Claude**: I understand that you're looking to integrate streaming responses from the Ollama server into your existing FastHTML application. This is a significant change that involves modifying several components of your system:
+
+1. The `chat_with_ollama` function needs to be updated to support streaming responses from the Ollama API.
+
+2. The WebSocket handling in your application needs to be adjusted to work with these streamed responses.
+
+3. The client-side JavaScript code must be modified to handle and display streamed messages as they arrive.
+
+4. Your post-processing logic, particularly the detection of embedded JSON instructions, needs to be adapted to work with the full assembled response after streaming is complete.
+
+You want to approach this cautiously, making incremental changes to avoid breaking your current setup. This involves testing each component separately before integrating them, and ensuring that existing functionality remains intact throughout the process.
+
+The goal is to enhance your application's responsiveness by displaying AI responses as they're generated, while maintaining the ability to process the full response for embedded instructions once it's complete.
+
+You're looking for a step-by-step guide to implement these changes, with emphasis on testing and error handling at each stage. This approach will allow you to proceed carefully, verifying each modification before moving on to the next, thus minimizing the risk of introducing bugs or breaking existing features.
+
+Is this understanding correct? Would you like me to proceed with providing detailed steps for implementing these changes?
