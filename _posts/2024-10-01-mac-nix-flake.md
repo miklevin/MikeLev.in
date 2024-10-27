@@ -1,7 +1,7 @@
 ---
 title: Melding a Mac and Linux Nix Flake
 permalink: /mac-nix-flake/
-description: Systematically working through getting all the basic data science components working on Windows, Mac and Linux.
+description: Create a unified development environment using Nix Flakes across macOS, Linux, and Windows WSL. My approach ensures smooth setup, optional CUDA support, and easy control with tmux-based scripts, streamlining JupyterLab launches. This builds the foundation for robust multi-platform data science workflows.
 layout: post
 ---
 
