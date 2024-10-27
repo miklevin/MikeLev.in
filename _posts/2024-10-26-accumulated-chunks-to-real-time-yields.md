@@ -1584,10 +1584,10 @@ I hope this helps you integrate streaming into your application smoothly. Let me
 
 This really sounds awesome, but I've been led astray before. Let me run it by
 Claude 3.5 sonnet via Cursor AI who has the full code context. It's become too
-big to paste into even o1-preview. Hey Claude, Claude, don't do any of this yet.
-This is just the warm up to give you context. Digest it. The only thing you need
-to give me back is a summary of your deep understanding of what I'm about to try
-to do, please and thank you!
+big to paste into even o1-preview. Hey Claude, don't do any of this yet. This is
+just the warm up to give you context. Digest it. The only thing you need to give
+me back is a summary of your deep understanding of what I'm about to try to do,
+please and thank you!
 
 **Claude**: I understand that you're looking to integrate streaming responses from the Ollama server into your existing FastHTML application. This is a significant change that involves modifying several components of your system:
 
