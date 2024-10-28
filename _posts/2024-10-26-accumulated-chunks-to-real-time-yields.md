@@ -15,7 +15,7 @@ instead of yielding and showing partial response right away as they arrive to
 the message list. There's 1000 little things that will break given your
 first-pass attempts. I've wasted hours on it. I want a plan I can iterativly
 feed back into you and catch all the little things that go wrong in baby-steps
-without introducing exploding complexity fro more than one thing breaking at a
+without introducing exploding complexity for more than one thing breaking at a
 time.
 
 **Cursor AI (Claude 3.5 sonnet)**: I apologize for the confusion in my previous response. You're right that we need a more careful, step-by-step approach to implement streaming without breaking existing functionality. Let's create a detailed plan to address this issue:
