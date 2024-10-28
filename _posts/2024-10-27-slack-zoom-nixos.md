@@ -1,7 +1,7 @@
 ---
 title: Slack & Zoom on NixOS Workspaces
 permalink: /slack-zoom-nixos-workspaces/
-description: 
+description: I show how NixOS makes installing Slack & Zoom easy, how I use virtual desktops across OS platforms, and how organizing fixed-position screens helps me stay in the flow with muscle memory guiding my workflow.
 layout: post
 sort_order: 1
 ---
@@ -151,6 +151,8 @@ message notifications are always enabled and I won't overlook meetings by being
 focused and in the flow state. It's also of course a liability for focus, but
 it's crammed all the way over there on screen 8.
 
+## Enough Room In The Middle
+
 When it's not work ours, I'll probably move my work journal over to screen 8 and
 the blog-preview to screen 7 and have an extra bonus screen in the middle. My
 miscellaneous scrap-screens go from 3 to 4. You might ask why not just stick
@@ -161,5 +163,3 @@ hours than too few there during.
 
 I'm sure this makes sense to just about 1 person out there who is unlikely to
 ever read this.
-
-
