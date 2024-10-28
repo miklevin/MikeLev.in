@@ -2810,7 +2810,9 @@ Let me know if you need further clarification on any of these steps or if you'd 
 
 ---
 
-Finally got proper streaming from Ollama at the rate it chunks out the stream. 
+# Back to Claude via Cursor AI
+
+> Finally got proper streaming from Ollama at the rate it chunks out the stream. 
 
 **Claude**: 🎉 Fantastic! We've achieved several major milestones:
 
