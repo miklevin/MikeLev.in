@@ -204,10 +204,14 @@ def fast_app(
     return app,app.route,*dbtbls
 ```
 
+## Understanding the FastHTML Attack Against ReactJS
+
 Drink that in, ladies and gentlemen. This is the beating heart of FastHTML. You
 can look other places for insights, but for a direct line into the gory vicious
 and deliciously understated attack against the ReactJS state of affairs, look no
 further than this file. Like Jeremy says, he likes to give you choice. 
+
+## Choosing a Framework That Fits Your Customization Style
 
 Just like with the `Flask` web microframework after which almost everything like
 this is patterned, you have choice. If you're a Pythonic wizard able to play
@@ -216,6 +220,8 @@ of factory class instantiations, you have choice. All frameworks give you their
 own way of overriding opinions and customizing&#151;or as the cool kids are
 saying these days, making it ***bespoke***.
 
+## FastHTML: Opinionated Conventions in Action
+
 Anyway, when you don't have the powerful wizarding skills to override
 frameworks, you accept the ***opinionated conventions of the framework***. And
 oh it's a doozy with FastHTML. But it's my kind of doozy! But for resources
@@ -223,9 +229,11 @@ loaded off of a CDN for a local app.
 
 The way to read `fast_app.py` is this:
 
+## App Factory Class Inconsistent Case
+
 Now you've got an app factory class, ho ho ho. Oddly, it's lower-cased whereas
 most base class template factory classes from which you instantiate objects
-use... use... use... Hey, Perpleity:
+use... use... use... Hey, Perplexity:
 
 **Me**: What is the case type called when both the initial letter and a later letter in a variable name are capitalized in programming?
 
@@ -278,6 +286,8 @@ Citations:
     [5] https://stackoverflow.com/questions/414001/variable-naming-conventions-in-java
     [6] https://en.wikipedia.org/wiki/Naming_conventions_(programming)
 
+## FastAPP: Opinionated Wrapper Class Explained
+
 Nice, thanks. So I'd expect to see `FastAPP`, but Jeremy goes with `fast_app`.
 Interesting choice and perhaps indicative of its baselessness, because it's not
 a base class at all, but a radically opinionated ***wrapper class*** with a
@@ -290,11 +300,15 @@ The standard pattern:
 app, rt = fast_app()
 ```
 
+## Flask-Inspired Factory Class Return Unpacking
+
 ...more or less following `Flask`'s lead, but for the extra `rt` that comes back
 on the factory-class return. Already this is an opinionated decision for how
 many people out there, even those who claim to know Python, are comfortable with
 unpacking tuples on a factory class instantiation? If tuple unpacking isn't
 completely natural to you, dive more into the Python way.
+
+## Python Parameters Explained: Rules & Typing
 
 Okay, so... so... so... read! Read straight down those... those... those... hey
 Perplexity, explain to the nice people the difference between parameters and
@@ -404,6 +418,8 @@ Citations:
     [7] https://github.com/python/mypy/actions
     [8] https://mypy-lang.org
 
+## Understanding `fast_app.py for Unprecedented Control
+
 So there you have it. Now you know how to read `fast_app.py` and divine all its
 opinions and override them at will, right? Well fear not, you will. And it's
 going to be about a thousand times easier than React and put you in 1000x more
@@ -412,6 +428,8 @@ control. Speaking of control, have you noticed:
 ```python
 default_hdrs=True
 ```
+
+## Using Factory Class Instantiater to Remove Scripts
 
 So, I throw caution to the wind and add that to my factory class instantiater
 and it has the exact intended effect of stripping out all CSS styling (for
@@ -453,6 +471,8 @@ app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
 )
 ```
 
+## FastHTML `Script()` Element is a Powerful Semantic Map
+
 And there you have it again. You can't see it because I don't do screenshots as
 it is a violation of the 80/20-rule for the reason I do these posts (my own
 clarity of thought vs. views). But trust me, we have a stripped-down skeletal
@@ -478,6 +498,8 @@ scopesrc  = Script(src="https://cdn.jsdelivr.net/gh/gnat/css-scope-inline@main/s
 viewport  = Meta(name="viewport", content="width=device-width, initial-scale=1, viewport-fit=cover")
 charset   = Meta(charset="utf-8")
 ```
+
+## Local Imports Streamlined Using `hdrs=()`
 
 And there is our solution. We cobble together our static local imports in just
 such a fashion and cram it all into the parameter arguments of `hdrs=()` just
@@ -523,6 +545,8 @@ app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
     },
 )
 ```
+
+## The App Came Back, JavaScript Now Locally Hosted
 
 Perplexity, make a little poem for "The App Came Back" in the style of The Cat Came Back.
 
