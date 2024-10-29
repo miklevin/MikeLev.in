@@ -161,5 +161,16 @@ with 7 screens and move everything left to make room for Slack & Zoom on screen
 isn't enough in the middle. I'd rather have an extra one there after business
 hours than too few there during.
 
+## The Number 7: A Symbolic Foundation for Our Worldview
+
+The 8th screen is the 1-exception rule. 7 is really the number. We think in
+terms of 7. Seven days of the week. Seven days of creation. Seven candles of the
+ancient menorah. But the Hanukkah menorah not merely has 8 for the eight nights
+of Hanukkah that the oil lasted, but also a 9th, the Shamash or "helper candle".
+So as with any system, once you've established your baseline convention, it's
+perfectly fine to bend and twist it ever-so-slightly for symbolic and functional
+reasons. The pragmatic benefit remains and just a little "meta" information or
+process is slipped in.
+
 I'm sure this makes sense to just about 1 person out there who is unlikely to
 ever read this.
