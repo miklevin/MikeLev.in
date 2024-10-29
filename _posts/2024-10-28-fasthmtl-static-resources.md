@@ -108,8 +108,10 @@ from .js import *
 from .fastapp import *
 ```
 
+## Convenience Wrappers Highlight Lazy Programming Approach
+
 And this inconspicuous little line here at the bottom gives us all our
-convenience wrappers, and evidence of Jeremey's assertion that he's lazy. All
+convenience wrappers, and evidence of Jeremy's assertion that he's lazy. All
 the allowances for laziness likely can be found in `fastapp.py`. This one too is
 not too large to show again here (but just barely):
 
