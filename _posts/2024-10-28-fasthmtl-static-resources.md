@@ -515,7 +515,8 @@ Here’s a playful poem inspired by your experience with FastHTML, echoing the s
 > With imports tangled and scripts galore,  
 > We thought we lost it, but it knocked on the door.
 
-> **Chorus:**  
+**Chorus:**  
+
 > The app came back, it just wouldn’t quit,  
 > Through bugs and errors, it wouldn’t sit.  
 > With Python’s magic and HTML flair,  
@@ -526,7 +527,8 @@ Here’s a playful poem inspired by your experience with FastHTML, echoing the s
 > “Look here,” it said, “I’m more than you know,  
 > With every import, I’m ready to grow!”
  
-> **Chorus:**  
+**Chorus:**  
+
 > The app came back, it just wouldn’t quit,  
 > Through bugs and errors, it wouldn’t sit.  
 > With Python’s magic and HTML flair,  
@@ -537,7 +539,8 @@ Here’s a playful poem inspired by your experience with FastHTML, echoing the s
 > With each little tweak and each clever fix,  
 > Our local web app was ready for tricks.
  
-> **Chorus:**  
+**Chorus:**  
+
 > The app came back, it just wouldn’t quit,  
 > Through bugs and errors, it wouldn’t sit.  
 > With Python’s magic and HTML flair,  
