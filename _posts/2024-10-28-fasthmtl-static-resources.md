@@ -14,6 +14,8 @@ from fasthtml.common import *  # the beating heart of the app
 
 ...you say, Mr. Howard? Challange accepted!
 
+## Understanding Package Initialization in FastHTML Project
+
 First, we establish our base of operations. We could look in
 `/.venv/lib/python3.11/site-packages` but why when GitHub makes it all so
 pretty? So we look in
@@ -28,12 +30,16 @@ __version__ = "0.8.1"
 from .core import *
 ```
 
+## The Global Namespace of Files Is a Good Thing in Python
+
 So yeah, that's a lot more being dumped into Python's file.py-level global
 namespace. This is not a bad thing. The nattering nabobs of namespaces plus
 their linting cohorts will repeatedly tell you it is a bad thing. I'm with
 Jeremy on this. This is one anti-pattern to embrace with gusto because it gets
 us nothing less the demise of the age of ReactJS&#151;I kid you not. You're just
 seeing the beginning of all this play out.
+
+## Python Developers Can't Resist New Web Development Magic Tricks
 
 But there's a price. And that price is folks like me having to do such detective
 work to decipher the anti-pattern magic. It's the best kind of magic if you ask
@@ -213,9 +219,9 @@ Now you've got an app factory class, ho ho ho. Oddly, it's lower-cased whereas
 most base class template factory classes from which you instantiate objects
 use... use... use... Hey, Perpleity:
 
-Me: What is the case type called when both the initial letter and a later letter in a variable name are capitalized in programming?
+**Me**: What is the case type called when both the initial letter and a later letter in a variable name are capitalized in programming?
 
-Perplexity: The case type you're referring to is called "Camel Case" or more specifically "Upper Camel Case," which is also known as "Pascal Case."
+**Perplexity**: The case type you're referring to is called "Camel Case" or more specifically "Upper Camel Case," which is also known as "Pascal Case."
 
 ## Camel Case
 
@@ -287,7 +293,7 @@ Perplexity, explain to the nice people the difference between parameters and
 arguments. Also explain parameter keywords and Python's parameter position
 rules. Oh, and throw in how the new Python mypy optional typing fits in.
 
-Perplexity: Certainly!
+**Perplexity**: Certainly!
 
 ## Parameters vs Arguments
 
