@@ -362,7 +362,7 @@ touch ~/.config/i3/config
 
 2. Here's a simple i3 config focused on your needs:
 
-```text:~/.config/i3/config
+```text
 # Mod key (Windows key)
 set $mod Mod4
 
@@ -729,3 +729,14 @@ After adding these and rebuilding/rebooting, you'll have:
 - `Windows + Shift + c` = reload config
 
 Want to try these out and then we can add more features like window splitting, fullscreen, etc?
+
+---
+
+## Hotkeys for Life on NixOS? We'll See...
+
+That's not exactly the single-screen quadrant split I was looking for, but I'll
+take a small win. Interesting point is that I generally resist particular
+OS-implementation hotkey tools so as to not hardwire my muscle memory to a
+particular OS or platform, but in this case I'm thinking it's okay because the
+my NixOS configuration could very well be with me for the rest of my life,
+flowing from (Linux) machine to machine.
