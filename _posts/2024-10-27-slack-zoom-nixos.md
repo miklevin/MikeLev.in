@@ -300,7 +300,7 @@ Your thoughts on that, Claude?
 
 **Claude**: Based on your NixOS configuration, I'll help you add i3 window manager while maintaining compatibility with your NVIDIA setup. Here are the necessary changes to your configuration.nix:
 
-```nix:nixos/configuration.nix
+```nix
 // ... existing code ...
 
   # X Server configuration - updated for i3
