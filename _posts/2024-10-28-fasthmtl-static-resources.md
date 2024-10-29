@@ -439,6 +439,12 @@ app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
 )
 ```
 
+And there you have it again. You can't see it because I don't do screenshots as
+it is a violation of the 80/20-rule for the reason I do these posts (my own
+clarity of thought vs. views). But trust me, we have a stripped-down skeletal
+bare bones HTML site, probably with many features like chat and sorting
+disabled. But not for long!
+
 And now we look for the best approach to layering them back in. There's
 hand-crafting the `<script>` tags and injecting them somehow. But then there's
 this already established (in my code) way of doing it with a `Script()`
