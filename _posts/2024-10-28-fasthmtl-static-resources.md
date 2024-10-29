@@ -39,7 +39,7 @@ Jeremy on this. This is one anti-pattern to embrace with gusto because it gets
 us nothing less the demise of the age of ReactJS&#151;I kid you not. You're just
 seeing the beginning of all this play out.
 
-## Python Developers Can't Resist New Web Development Magic Tricks
+## HTMX Delivers Web Dev Superpowers To Python Community
 
 But there's a price. And that price is folks like me having to do such detective
 work to decipher the anti-pattern magic. It's the best kind of magic if you ask
@@ -50,6 +50,8 @@ their webdev superpowers. Shaving off the liquid template JSX moustaches in
 favor of a nice clean shaven Python function that looks just like an `HTML()`
 tag is it&#151;but that one's already taken, so expect to see more inner ones
 like `P()` and `Div()`. That's what `import *` gives you.
+
+## Understanding FastHTML Import Hierarchy in `core.py` and `common.py`
 
 Anyhow, we now know we need to look at `core.py` ***and*** `common.py` to have a
 handle on our import-to-global FastHTML situation. These are big files and I've
