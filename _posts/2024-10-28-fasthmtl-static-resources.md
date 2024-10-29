@@ -69,6 +69,8 @@ ferreting out how to make our opinionated header imports:
      <style>:root { --pico-font-size: 100%; }</style>
 ```
 
+## Rounding Up JavaScript Static Resources for Tighter Control
+
 ...a bit more under our control. Let's round them all up into a `/static/`
 folder and make this thing run like the 100% offline-capable app it's on the
 verge of being (right down to the LLM if you've been following). And this is not
@@ -76,6 +78,8 @@ just a gratuitous flexing of muscles for a miniscule speedup. No, this is part
 of getting a tighter grip on the reins of all my JavaScript and CSS which I have
 not been systematic enough about controlling during the development of this app,
 and I'm starting to get collision and race conditions. 
+
+## Understanding Execution Paths in a Framework-Like System
 
 So, step 1: a top-down understanding of execution paths. And that starts with
 the "view-source" HTML page-load. And that starts with the imports that get
