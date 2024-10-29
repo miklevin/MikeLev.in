@@ -172,5 +172,27 @@ perfectly fine to bend and twist it ever-so-slightly for symbolic and functional
 reasons. The pragmatic benefit remains and just a little "meta" information or
 process is slipped in.
 
-I'm sure this makes sense to just about 1 person out there who is unlikely to
-ever read this.
+## Fullscreen Apps: A Seamless Mobile Experience
+
+Ever since the Amiga computer days, I've been a fullscreen app snob. Mobile has
+gone a long way to mainstreaming this view, and the fullscreen capabilities in
+Macs and Windows has grown by leaps and bounds. It's fascinating watching Apple
+build it in in such a way as you hardly ever have to think about it. They just
+slipped the language "Enter Full Screen" on their little green circle. You just
+hit what was once the "maximize window size" UI-control and you're now
+full-screen and the green button becomes "Exit Full Screen". Windows soon
+followed.
+
+## Gnome Window Manager Needs Improved Quadrants
+
+But now with Screen 8, I really can't abide by Slack or Zoom being full-screen,
+and while I'm paying attention in a teleconferencing video call, I also need to
+be doing other things on the rest of the screen, and the AeroSnap-equivalent
+built into Gnome, the default with NixOS, doesn't handle quadrants. The
+Super-key + Left, Right or Up arrow has some pretty good behavior, but not good
+enough for dividing the screen into quadrants, like Zoom upper-right, Slack
+lower-right, a Terminal upper-left and a Browser lower-left. I ***hate***
+arranging windows, and wish there was not even a reason to (commit fully to
+full-screen), but here it is. I need some sort of snap window commander... ugh!
+
+
