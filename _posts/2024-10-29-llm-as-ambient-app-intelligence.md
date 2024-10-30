@@ -363,6 +363,9 @@ doing things we never could before. ***Us*** doing them, and not the AIs in our
 stead. They are extensions of us. I must not get bogged down in what Joel
 Spolsky once called... uh... Perplexity?
 
+
+## Spolsky's 'Architecture Astronauts' Cautionary Concept for Self-Regulation
+
 **Perplexity**: Joel Spolsky's article "Don't Let Architecture Astronauts Scare You" introduced the concept of "architecture astronauts" in software development. This term has remained relevant in the industry since its publication in 2001.
 
 Key points about architecture astronauts:
@@ -413,4 +416,69 @@ Citations:
     [5] https://www.reddit.com/r/programming/comments/9fsvt2/how_relevant_is_joel_spolskys_dont_let/
     [6] https://serverlessfirst.com/emails/the-serverless-architecture-astronaut/
     [7] https://news.ycombinator.com/item?id=28353157
+    [8] https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/
+
+## Building Ambient Intelligence for Customer Focus
+
+And so, building ambient intelligence into a web framework where you can just
+plug in apps rapidly ported from their Jupyter Notebook prototypes is my
+passion, it has got to be entirely in service of getting and keeping customers.
+There's a famous old business consultant... Perplexity: Explain Peter Drucker
+and his view on the mission of every company or organization, and Edwards
+Demming on total quality management.
+
+Perplexity: Peter Drucker and W. Edwards Deming were two influential management thinkers who significantly shaped modern business practices. While they focused on different aspects of management, their ideas have had lasting impacts on how organizations operate.
+
+## Peter Drucker on Organizational Mission
+
+Peter Drucker, often called the "father of modern management," emphasized the importance of a clear organizational purpose and customer focus.
+
+Key aspects of Drucker's view on organizational mission:
+
+1. Customer-centric approach: Drucker famously stated, "The purpose of a business is to create a customer"[1]. This perspective shifts the focus from internal processes to external value creation.
+
+2. Mission definition: He argued that organizations should ask themselves three fundamental questions:
+   - What is our business?
+   - Who is the customer?
+   - What does the customer value?[2]
+
+3. Beyond profit: While Drucker acknowledged the importance of profitability, he viewed it as a necessity rather than the primary purpose of a business[1].
+
+4. Innovation and marketing: Drucker believed that businesses have only two basic functions: marketing and innovation. All other activities he considered costs[1].
+
+5. Mission statements: He advocated for concise, action-oriented mission statements that could "fit on a T-shirt"[2].
+
+6. Continuous evaluation: Drucker emphasized the need for organizations to regularly reassess their mission, asking not just "What is our business?" but also "What will our business be?" and "What should our business be?"[4]
+
+## W. Edwards Deming on Total Quality Management
+
+W. Edwards Deming, while not the originator of the term "Total Quality Management" (TQM), is widely regarded as one of its key architects. His approach focused on continuous improvement and system-wide quality.
+
+Key aspects of Deming's Total Quality Management philosophy:
+
+1. System approach: Deming viewed organizations as interconnected systems where improvements in one area affect others.
+
+2. Continuous improvement: He advocated for ongoing efforts to improve products, services, and processes, a concept known as "Kaizen" in Japanese management.
+
+3. Statistical process control: Deming emphasized the use of statistical methods to identify and reduce variations in production processes.
+
+4. Leadership responsibility: He believed that management was responsible for 94% of quality problems, highlighting the importance of leadership in quality initiatives.
+
+5. Employee empowerment: Deming advocated for involving all employees in the quality improvement process, not just quality control departments.
+
+6. The Deming Cycle (PDCA): Plan, Do, Check, Act - a four-step model for continuous improvement of processes and products.
+
+7. 14 Points for Management: Deming's comprehensive guide for transforming business effectiveness, including principles like "Create constancy of purpose" and "Drive out fear."
+
+While Drucker focused on defining organizational purpose and customer value, Deming concentrated on systemic quality improvement. Both emphasized the importance of long-term thinking, continuous improvement, and the critical role of leadership in organizational success. Their complementary approaches have significantly influenced modern management practices, encouraging businesses to be both purpose-driven and quality-focused.
+
+Citations:
+
+    [1] https://asymmetric.pro/the-core-purpose-of-business-building-remarkable-enterprises/
+    [2] https://www.linkedin.com/pulse/mission-statements-druckers-criteria-michael-constantino
+    [3] https://www.processexcellencenetwork.com/lessons_from_peter_drucker/articles/druckers-fundamental-business-decision
+    [4] https://www.corporatelearningnetwork.com/leadership/articles/3-questions-drucker-would-ask-you-and-your-management-team
+    [5] https://www.forbes.com/councils/forbesagencycouncil/2021/02/12/the-meaning-behind-mission/
+    [6] https://ericjacobsononmanagement.blogspot.com/2024/01/how-to-write-your-companys-mission.html
+    [7] https://smawins.com/news/peter-f-druckers-vision-realized/
     [8] https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/
