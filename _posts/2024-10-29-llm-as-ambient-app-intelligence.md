@@ -233,3 +233,116 @@ Just to summarize what made it work:
 The beauty of this solution is that it leverages the existing, working WebSocket code rather than trying to create a parallel system. Both the chat playground and sidebar now use the same streaming infrastructure.
 
 Would you like to make any refinements to how the messages appear or how the streaming behaves?
+
+---
+
+## Code Refinement: Towards Greater Simplicity
+
+Okay, what it boils down to is that I've got a now somewhat fragile set of
+things that I got working, and I have to (over time / not right now)
+continuously go over it and polish and refine it. It will get forever better,
+and hopefully shorter as code, fitting into small context windows.
+
+## Gemma Outperforms Llama Embedded Into Local Web Framework
+
+The AI itself that's embedded should be able to understand the code of the Ruby
+on Rails / Django-like framework it's embedded into to help guide its own
+development and growth. However, the models that fit on our Macbooks these days
+are quite small, gemma2:2b being the best combination of small, fast and smart
+right now. I started out with llama3.2:1b but gemma pulled ahead in testing.
+It's better at real-time prompt-infusion such as getting it good at an API
+Syntax like using JSON for CRUD. Gemma applies the rules more consistently over
+time, "remembering" the original system prompt better, and better able to keep
+applying what it learned, but I have to keep testing.
+
+## Local LLMs Collaborate With Frontier Models
+
+But I can swap these things in and out, and they will be improving over time.
+The local models will get better, but it also has to optionally connect to the
+larger smarter frontier models as needed, collaborating local LLM model with
+frontier model in a new twist on the ***agentic swarming*** buzzword. I think
+that's misunderstood, implying a sort of concurrent frenzy of agents, each doing
+their job independently and with a lot of up-time. Truth is you could probably
+work sequentially, swapping which models you're using for what, clarifying your
+thought about linear processes and still get some amazing work done. Tons less
+complexity. You can swarm your ass off when the job calls for it.
+
+The name of the game is loose coupling of websocket-speaking components.
+Anything in the world can speak to anything in the world. It's the next
+generation of building a webserver into things, but it's an asynchronous...
+uh... Perplexity say a little about WSGI vs ASGI, please define. Say a little
+about Unicorn, websockets and protocols other than http(s).
+
+**Perplexity**: WSGI and ASGI are two important interfaces for Python web applications, each with distinct characteristics and use cases:
+
+## WSGI (Web Server Gateway Interface)
+
+WSGI is the long-standing Python standard for web application interfaces. It provides a synchronous, request-response model for handling HTTP requests[1].
+
+Key features of WSGI:
+- Synchronous processing
+- Single-callable interface
+- Designed primarily for HTTP
+
+WSGI applications are structured as a single, synchronous callable that takes a request and returns a response. This simple model works well for traditional web applications but has limitations for more complex protocols or long-lived connections[1].
+
+## ASGI (Asynchronous Server Gateway Interface)
+
+ASGI is the spiritual successor to WSGI, designed to support asynchronous programming and a wider range of protocols[1].
+
+Key features of ASGI:
+- Asynchronous processing
+- Multiple event handling
+- Support for WebSockets and other protocols
+- Backwards compatible with WSGI
+
+ASGI applications are structured as asynchronous callables that can handle multiple events, both incoming and outgoing. This allows for more flexible handling of connections and supports protocols beyond just HTTP[1][3].
+
+## Comparison
+
+**Performance:** ASGI generally offers better performance for concurrent requests. In a test scenario, WSGI handled requests with an average latency of ~1ms, while ASGI had an average latency of ~17ms for synchronous views[4]. However, ASGI's true performance benefits are realized with asynchronous code and multiple concurrent connections.
+
+**Use Cases:** 
+- WSGI: Ideal for traditional web applications with synchronous request-response patterns.
+- ASGI: Better suited for applications requiring real-time features, WebSockets, or handling many concurrent connections[3].
+
+## Gunicorn and WebSockets
+
+Gunicorn (Green Unicorn) is a WSGI HTTP server for Python. While primarily designed for WSGI applications, Gunicorn can also serve ASGI applications when used with workers that support ASGI, such as Uvicorn workers[4].
+
+WebSockets, being a protocol for full-duplex communication, are better supported by ASGI. WSGI, with its synchronous nature, is not well-suited for WebSocket handling[3].
+
+## Protocols Beyond HTTP(S)
+
+ASGI's design allows it to handle protocols beyond just HTTP and HTTPS. This includes:
+
+1. WebSockets: For real-time, bidirectional communication.
+2. HTTP/2: Supporting multiplexed connections and server push.
+3. Server-Sent Events (SSE): For server-to-client real-time events.
+
+WSGI, on the other hand, is primarily designed for HTTP and doesn't natively support these more advanced protocols[1][3].
+
+In conclusion, while WSGI remains a solid choice for traditional web applications, ASGI provides a more flexible and powerful interface for modern web development, especially when dealing with real-time features, WebSockets, or other protocols beyond standard HTTP.
+
+Citations:
+
+    [1] https://asgi.readthedocs.io/en/latest/introduction.html
+    [2] https://www.reddit.com/r/django/comments/qv2nsv/wsgi_vs_asgi_deployment_and_how_does_asyncawait/
+    [3] https://developer.vonage.com/en/blog/how-wsgi-vs-asgi-is-like-baking-a-cake
+    [4] https://forum.djangoproject.com/t/huge-performance-difference-when-using-asgi-and-wsgi/30344
+    [5] https://santoshk.dev/posts/2023/why-use-wsgi-asgi-when-we-have-nginx/
+    [6] https://forum.djangoproject.com/t/what-does-switching-to-asgi-entail/26857
+
+---
+
+## ASGI Enables Ambient AI Intelligence
+
+...so that ASGI piece is Python's way of enabling that
+anything-talking-to-anything world, which is the enabling piece of ambient AI
+intelligence. You can "build" intelligence into anything. It also doesn't matter
+where the brains are located. You could swap out the `chat_with_ollama` part of
+my program with `chat_with_frontier_model` just as easily. It's just that there
+would be a cost, and you don't need it for the moment-to-moment functioning of
+your app, which you also want an AI tuned into. ASGI and websockets sort of go
+hand-in-hand in the Python world now as the enabling bits to be embraced the way
+we embraced WSGI and the Requests library for http before.
