@@ -346,3 +346,71 @@ would be a cost, and you don't need it for the moment-to-moment functioning of
 your app, which you also want an AI tuned into. ASGI and websockets sort of go
 hand-in-hand in the Python world now as the enabling bits to be embraced the way
 we embraced WSGI and the Requests library for http before.
+
+## AI-Powered Efficiency for Boosting Client Satisfaction
+
+I'm getting totally infatuated and high on the heady notions of what I'm doing,
+but I can't let myself get swept away, because delighting clients has to come
+first. That's ultimately what this is about, doing more with less time, hitting
+above our weight class with an extra boost from an AI-buddy built into a web-app
+that can recruit even more help from AI-buddies in the cloud. Not quite the sexy
+agentic swarming, but a solid and more pragmatic stepping stone to bridge the
+gap between the RoR/Django-CRUD apps of our day-to-day existence with the
+paradigm-busing revolution that AI is thrusting upon us. There has to be a happy
+middle grown with lot of ripe secret weapon fruit for folks like me who are
+excited to pick the fruit&#151;the fruit of hitting above our weight class and
+doing things we never could before. ***Us*** doing them, and not the AIs in our
+stead. They are extensions of us. I must not get bogged down in what Joel
+Spolsky once called... uh... Perplexity?
+
+**Perplexity**: Joel Spolsky's article "Don't Let Architecture Astronauts Scare You" introduced the concept of "architecture astronauts" in software development. This term has remained relevant in the industry since its publication in 2001.
+
+Key points about architecture astronauts:
+
+1. Definition: Architecture astronauts are individuals who focus excessively on abstract ideas and high-level software design concepts, often at the expense of practical implementation[1].
+
+2. Characteristics:
+   - Tend to work at large companies that can afford unproductive employees
+   - Struggle to write code or design practical programs
+   - Speak confidently at extremely high levels of abstraction
+   - Often create designs lacking technical depth and practicality[1]
+
+3. Dangers:
+   - Becoming disconnected from the systems they're designing
+   - Losing respect from development teams due to impractical ideas
+   - Creating overly complex solutions for simple problems[2]
+
+4. Spolsky's critique:
+   - Architecture astronauts often "run out of oxygen" by going too far up in abstraction
+   - They may create "absurd, all-encompassing, high-level pictures of the universe" that don't mean anything practical[1]
+
+5. Real-world examples:
+   - John Carmack described the metaverse as a "honeypot trap for architecture astronauts"
+   - XHTML 2.0 was characterized as the work of architecture astronauts due to its lack of real-world applicability[1]
+
+6. Balancing abstraction and practicality:
+   - Recognize when a solution could be improved, but avoid over-engineering
+   - Not every problem requires complex architectural solutions
+   - Consider the specific needs of the project before applying advanced design patterns[2]
+
+7. Avoiding becoming an architecture astronaut:
+   - Share designs with fellow engineers early and often
+   - Ask for feedback and be open to suggestions
+   - Be wary if people don't understand your design or can't ask questions about it[3]
+
+8. Positive aspects of abstraction:
+   - Can lead to innovative solutions and new technologies
+   - Has contributed to advancements like cloud architectures and serverless computing[5]
+
+While Spolsky's critique highlights important concerns about over-abstraction in software development, it's essential to strike a balance between high-level thinking and practical implementation. The goal should be to solve real problems efficiently, rather than creating unnecessarily complex architectures.
+
+Citations:
+
+    [1] https://en.wikipedia.org/wiki/Architecture_astronaut
+    [2] https://tommcfarlin.com/architecture-astronauts-of-wordpress/
+    [3] https://www.maxiferreira.com/blog/architecture-astronauts/
+    [4] https://www.joelonsoftware.com/2008/05/01/architecture-astronauts-take-over/
+    [5] https://www.reddit.com/r/programming/comments/9fsvt2/how_relevant_is_joel_spolskys_dont_let/
+    [6] https://serverlessfirst.com/emails/the-serverless-architecture-astronaut/
+    [7] https://news.ycombinator.com/item?id=28353157
+    [8] https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/
