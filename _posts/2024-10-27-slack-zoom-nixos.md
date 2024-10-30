@@ -627,4 +627,49 @@ Citations:
     [7] https://discourse.nixos.org/t/why-should-i-write-my-config-files-in-the-nix-language/50676
     [8] https://nixos.org/guides/nix-pills/04-basics-of-language
 
+**Slack and Zoom: Tools of Doom**
 
+    In the dance of work from morning to noon,  
+    Two specters loom—Slack and Zoom.  
+    They beckon us from every screen,  
+    Demanding focus, unseen and keen.
+
+    Ping! A Slack alert, so sly,  
+    Grabs your thoughts as it buzzes by.  
+    Zoom awaits with a meeting soon,  
+    A digital room beneath the moon.  
+
+    These tools of doom, they hold their sway,  
+    They keep the distractions at bay—  
+    Yet steal the hours, bite by bite,  
+    Till day melts into restless night.
+
+    On NixOS, they fit just right,  
+    Installed with code, a nerd's delight.  
+    In virtual screens they find their place,  
+    Pinned at the edges, no frantic chase.  
+
+    Slack on the left, where chaos reigns,  
+    Zoom on the right, where calm remains.  
+    Their chatter held beyond the core,  
+    Leaving the middle a space to explore.
+
+    With every screen a rhythmic song,  
+    You move with shortcuts swift and strong.  
+    A screen for thought, a screen for play,  
+    A dance of pixels throughout the day.
+
+    Seven screens in a structured band,  
+    Like constellations well-planned by hand.  
+    Yet on the eighth, the business roams,  
+    A place where meetings find their homes.
+
+    So here’s to the tools that drive us mad,  
+    They help us connect, for that we're glad.  
+    Yet lurking beneath their useful guise,  
+    Are hours lost to corporate ties.  
+
+    Slack and Zoom, we know your game,  
+    You shape our flow, but we do the same.  
+    On NixOS, we chart our way—  
+    In a world where code holds sway.
