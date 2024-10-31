@@ -511,6 +511,8 @@ Can you run this with the additional logging and show me what happens?
 
 ---
 
+## Several Hours Later, Climbing Out of Rabbit Hole
+
 Ugh! Couldn't trace down this issue. It's really persisting. It's HTMX WebSocket
 nuance. Anyway, I'm just starting to talk with Gemini Advanced.
 
