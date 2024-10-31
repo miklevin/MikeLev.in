@@ -1239,7 +1239,9 @@ The FastHTML framework makes it easy to extend the basic WebSocket functionality
 
 Continuing to cajole Gemini into deep code analysis help.
 
-Gemini: ```python
+Gemini: 
+
+```python
 import asyncio
 import functools
 import json
@@ -1336,3 +1338,161 @@ if __name__ == "__main__":
 
 This refined structure makes the code more manageable and easier to understand, even within a single file. Remember, for larger applications, separating components into multiple files and modules is generally recommended for better maintainability and scalability.
 
+---
+
+Trying to get the whole codebase cleaned up.
+
+```python
+Gemini: import asyncio
+import functools
+import json
+import random
+import sys
+import traceback
+import unicodedata
+from collections import Counter, deque
+from pathlib import Path
+from typing import AsyncGenerator, List, Optional
+from urllib.parse import urlparse
+
+import aiohttp
+import requests
+from fasthtml.common import *
+from loguru import logger
+from pyfiglet import Figlet
+from rich.console import Console
+from rich.json import JSON
+from rich.style import Style as RichStyle
+from rich.table import Table
+from starlette.concurrency import run_in_threadpool
+from starlette.middleware.cors import CORSMiddleware
+from starlette.websockets import WebSocket, WebSocketDisconnect
+
+# Configuration and Setup
+DEBUG_MODE = True
+MAX_CONVERSATION_LENGTH = 10000
+APP_NAME = Path(__file__).stem.capitalize()
+DEFAULT_LLM_MODEL = "gemma2:2b"  # Or your preferred model
+MAX_LLM_RESPONSE_WORDS = 60
+
+# Logging Setup
+logger.remove()
+logger.add(
+    f"logs/{APP_NAME}.log",
+    rotation="2 MB",
+    level="DEBUG",
+    format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}",
+    enqueue=True,
+)
+logger.add(
+    sys.stderr,
+    level="DEBUG" if DEBUG_MODE else "INFO",
+    format="<green>{time:HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{message}</cyan>",
+    colorize=True,
+)
+
+# FastHTML App and Database Setup
+app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    default_hdrs=False,
+    hdrs=[
+        Link(rel="stylesheet", href="/static/pico.min.css"),
+        Script(src="/static/htmx.min.js"),
+        Script(src="/static/fasthtml.js"),
+        Script(src="/static/surreal.js"),
+        Script(src="/static/script.js"),
+        Script(src="/static/Sortable.js"),
+        Meta(charset="utf-8"),
+        Script(
+            """
+            document.addEventListener('DOMContentLoaded', (event) => {
+                // WebSocket connection
+                const ws = new WebSocket('ws://' + window.location.host + '/ws');
+                ws.onopen = () => console.log("WebSocket connected");
+                ws.onmessage = (event) => {
+                    const message = JSON.parse(event.data);
+                    if (message.type === 'task_update') {
+                        const targetList = document.getElementById(message.target_id);
+                        if (targetList) {
+                            targetList.insertAdjacentHTML('beforeend', message.content);
+                        }
+                    }
+                };
+                // ... your other JavaScript code ...
+            });
+            """
+        ),
+    ],
+    store={"key": str, "value": str, "pk": "key"},
+    task={
+        "id": int,
+        "name": str,
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id",
+    },
+    client={
+        "id": int,
+        "name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id",
+    },
+)
+
+# CORS Middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    allow_credentials=True,
+)
+
+# ... [Your Constants: PLACEHOLDER_ADDRESS, GRID_LAYOUT, etc.] ...
+
+# ... [Your Helper Functions: generate_menu_style, cycle_llm_model, etc.] ...
+
+# System Message Generation
+def generate_system_message():
+    # ... your existing system message generation logic ...
+
+# ... [Your Conversation History Functions: append_to_conversation, etc.] ...
+
+# ... [Your Ollama Interaction Functions: get_best_model, chat_with_ollama, etc.] ...
+
+# ... [Your BaseApp and Plugin Implementations] ...
+
+# WebSocket Handler
+async def ws_handler(ws: WebSocket, data=None):
+    # ... your WebSocket handling logic ...
+
+# Initialize WebSocket handling
+send = setup_ws(app, ws_handler)
+
+# Main Application Logic and Routes
+@app.route("/", methods=["GET"])
+async def home(request):
+    # ... your existing home route logic ...
+
+@app.route("/todos", methods=["POST"])
+async def add_todo(request):
+    # ... your existing add_todo logic ...
+
+# ... [Your other routes] ...
+
+if __name__ == "__main__":
+    serve(app=app)
+```
+
+---
+
+Okay Gemini, this is maybe some broad sweeping ideas, but this is nothing like a
+thorough code beautification job like I was hoping to get form you given your
+vast token context size. Sigh, out-of-whack expectations yet again. This is not
+$20 as effectively spent as it was on Claude 3.5 via Cursor AI.
