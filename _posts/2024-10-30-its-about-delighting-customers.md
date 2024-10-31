@@ -373,3 +373,23 @@ Pagetype and GSC-data so I had to hand-export that, and the site was very slow.
 I'm wondering if it was a timeout. Anyway, that just goes further to light the
 fire under me to port it into the new framework where I can give it full tender
 love and care. TLC on the products so TLC for the clients!
+
+Think through next steps. A lot of directions to go. Get the Gong recording
+playing in the background so that I know the players and I know the issues. Get
+to know the client stakeholder, their issues, their site, and expectation
+setting. Absorb it in the background as you evaluate next steps. Narrowing
+window. 
+
+Okay, a content gap analysis! Figure out their competitors... Okay, done. I've
+got a new technique for that now that I'm playing with Gemini Advanced. An AI
+which actually **is from Google** and which has a huge context window can be
+used for things that other AIs currently have difficulty with, suitable for
+figuring out a client's competitors. So it went way more smoothly than I could
+have hoped for. Do the data-pulls of the competitors and generate the Gap
+Analysis. Okay, done. It's an Excel file due to the size and user experience
+issues with a document like this. But I need to get and stay organized with
+files and the company's Google Drive, so put it there where it should be. Also,
+I'm trying to do everything on NixOS now, and not on Mac and certainly not in
+Excel if I can help it. So that gets things set up actually to show it under
+LibreOffice.
+
