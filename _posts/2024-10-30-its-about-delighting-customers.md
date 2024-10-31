@@ -296,3 +296,80 @@ YES! Play your cards right, and you can delight the clients USING your new
 system and get the proper kind of momentum rolling here. Okay, deep breath... no
 rabbit-holes... 
 
+---
+
+Ugh, I went down the dev rabbit hole. Re-focus! Use your window to nail this.
+Make it a great experience. That's priority #1. It's all about PageWorkers! And
+making the work love-worthy by recruiting into the job an AI to make it
+interesting and stimulating. So, we go to my 1, 2, 3... step procedure. 1:
+Re-download the source material from Botify. Hold your feet over the fire and
+hold yourself accountable. Put on the show!
+
+- Top-down from ActionBoard
+- Title Tags too short
+
+Download the CSV with fields added. Get creative about the fields you add.
+Really look at the page. Figure out what elements have the data you need to make
+the fields longer. Craft the prompt.
+
+I am uploading a CSV of store locations for a client. It contains extracts from
+their store location pages on their website. The title tags are too short, but I
+have included a number of fields that will help us make them more descriptive
+and useful to the user. For each row in the spreadsheet, please look at the
+existing Title, Meta Description, Breadcrumb Tree, metadata-h1-contents, and
+metadata-h2-contents. Create a New Title based on that which is within the
+standard title length recommendations for SEO, which is follows the pattern and
+preserves the spirit of the original title tag, but which also gets in more
+information useful to the user in selecting the location and what can be found
+there. Get in an important extra keyword missing from the existing title tag. Do
+not be repetitive in just repeating the meta description data over and over in
+New Title. Instead, focus on important unique information such as that found in
+the Breadcrumb Tree. Create a new CSV which contains all the old fields and
+data, but adds the New Title column next to the old Title column and prepare it
+for download.
+
+Here's a prompt revised to follow the 1-2-3 style for clarity and precision:
+
+---
+
+**Prompt for Revising Title Tags in Store Location CSV:**
+
+1. **Goal**: I’m uploading a CSV file containing store location data for a client’s website. The goal is to improve the Title tags, making them more descriptive and valuable for SEO while preserving the spirit of the original titles.
+
+2. **Process**:
+    - For each row, review the columns: **Existing Title**, **Meta Description**, **Breadcrumb Tree**, **metadata-h1-contents**, and **metadata-h2-contents**.
+    - Create a **New Title** following standard SEO title length recommendations that:
+        - Adheres to the pattern and essence of the original title.
+        - Includes one additional important keyword missing from the current title.
+        - Avoids redundancy by not simply repeating meta description data; instead, focus on unique info like **Breadcrumb Tree** content to make it relevant and informative.
+    
+3. **Deliverable**: Produce a new CSV file containing all the original columns plus a **New Title** column positioned next to the **Existing Title**. Prepare it for download.
+
+---
+
+Let me know if you’d like to add or emphasize any details further!
+
+---
+
+Okay, ChatGPT gave me Python code for this, so I take that so I can do my own
+fine-tuning. Time is running out! I want to have a single good PageWorkers edit
+staged. So focus on a very small set of URLs with a big potential impact. As a
+follow-up, you can do the PLPs and PDPs. But for now, focus on Store Locations.
+
+Okay, I got that done. The PageWorkers optimization is staged and ready. Pshwew!
+There are 2 other PageWorker optimizations I could work on for the meeting, but
+I have slated as follow-up. I don't want to use the remaining time-window on a
+crunch, but rather on polish. Plan the polish and pizzazz. Engaging them in the
+issues of a 1st PageWorkers deploy is in itself big, no matter how few URLs may
+be effected.
+
+Okay, this is good. Now do a little round-robining tasks. Get your link-graph
+tech going and slam one out for a different client, then shift back to Gap
+Analysis for client #1. Go!
+
+Okay, slammed out one of those ginormous link-graphs. My prototype system for
+autogenerating them didn't do the meta-file of the layered-in extra metrics like
+Pagetype and GSC-data so I had to hand-export that, and the site was very slow.
+I'm wondering if it was a timeout. Anyway, that just goes further to light the
+fire under me to port it into the new framework where I can give it full tender
+love and care. TLC on the products so TLC for the clients!
