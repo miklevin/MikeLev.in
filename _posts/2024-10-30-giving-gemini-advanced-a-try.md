@@ -1496,3 +1496,54 @@ Okay Gemini, this is maybe some broad sweeping ideas, but this is nothing like a
 thorough code beautification job like I was hoping to get form you given your
 vast token context size. Sigh, out-of-whack expectations yet again. This is not
 $20 as effectively spent as it was on Claude 3.5 via Cursor AI.
+
+Hmmm, since it's the only one that can read my full codebase now in one pass,
+I'll focus on code simplification.
+
+**Gemini**: You're right to be thinking about simplification! It's key for maintainability. Here's how that first step, identifying redundancy, applies to your codebase:
+
+**1. `create_menu_item` function:**
+
+* You have multiple places where you create list items (`Li`) for menus with very similar structures (e.g., in `create_app_menu`, `create_profile_menu`). 
+* The differences lie mainly in the `hx_` attributes and styling.
+* **Solution:**  Modify `create_menu_item` to accept optional arguments for these attributes, allowing you to consolidate the `Li` creation logic into a single place.
+
+**2. WebSocket Handling:**
+
+* You have separate WebSocket handling logic in `ChatPlayground` and `StreamSimulator`.
+* Both involve accepting connections, receiving messages, and handling disconnections.
+* **Solution:** Create a base class for WebSocket handling with common methods like `on_connect`, `on_message`, `on_disconnect`. `ChatPlayground` and `StreamSimulator` can inherit from this class and override methods as needed.
+
+**3. `CRUD_PROMPT_PREFIXES`:**
+
+* You have a dictionary where all values have the same lengthy prefix.
+* **Solution:** Extract the prefix into a variable and use it to construct the values, reducing redundancy.
+
+```python
+crud_prompt_prefix = f"Make a sassy comment {limiter} to the user letting them know you know "
+CRUD_PROMPT_PREFIXES = {
+    action: f"{crud_prompt_prefix}{action}"
+    for action in PERMITTED_LLM_ACTIONS
+}
+```
+
+**4. Logging:**
+
+* You have repetitive logging calls with similar formatting throughout the code.
+* **Solution:** Create helper functions for common logging tasks, such as logging HTTP requests, database operations, or WebSocket events.
+
+**5. Form Handling:**
+
+* You have similar form handling logic in `insert_item` and `update_item` within the `BaseApp` class.
+* **Solution:** Refactor the common form processing steps into a separate method and call it from both `insert_item` and `update_item`.
+
+**Further Analysis:**
+
+To identify more complex redundancies, consider using code analysis tools. These tools can help you:
+
+* **Detect code clones:**  Identify blocks of code that are identical or similar.
+* **Analyze code complexity:** Find areas with high cyclomatic complexity, which might indicate opportunities for simplification.
+* **Visualize code structure:** Generate diagrams to better understand the relationships between different parts of your code and identify potential areas for refactoring.
+
+By consistently applying these techniques, you can significantly simplify your codebase and make it more manageable and maintainable in the long run.
+
