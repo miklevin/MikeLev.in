@@ -11,7 +11,7 @@ author: Mike Levin
 <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span class="nav-label">Previous Undiscovered Gem</span>
+      <span class="nav-label">Previous Post</span>
       <a href="{{ page.previous.url | relative_url }}" itemprop="item">
         <span itemprop="name">{{ page.previous.title }}</span>
       </a>
@@ -31,7 +31,7 @@ author: Mike Levin
   
   {% if page.next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span class="nav-label">Next Undiscovered Gem</span>
+      <span class="nav-label">Next Post</span>
       <a href="{{ page.next.url | relative_url }}" itemprop="item">
         <span itemprop="name">{{ page.next.title }}</span>
       </a>
@@ -138,7 +138,7 @@ author: Mike Levin
 <nav class="post-navigation bottom-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span class="nav-label">Previous Undiscovered Gem</span>
+      <span class="nav-label">Previous Post</span>
       <a href="{{ page.previous.url | relative_url }}" itemprop="item">{{ page.previous.title }}</a>
       <meta itemprop="name" content="{{ page.previous.title }}">
       <meta itemprop="position" content="1" />
@@ -156,7 +156,7 @@ author: Mike Levin
   
   {% if page.next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span class="nav-label">Next Undiscovered Gem</span>
+      <span class="nav-label">Next Post</span>
       <a href="{{ page.next.url | relative_url }}" itemprop="item">{{ page.next.title }}</a>
       <meta itemprop="name" content="{{ page.next.title }}">
       <meta itemprop="position" content="3" />
