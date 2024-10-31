@@ -258,6 +258,8 @@ social media. More often today, it's engaging an AI ChatBot. And of course there
 are hybrids where you're engaging the AI but it doesn't feel like it, like
 Search Results and The Feed. Still AI.
 
+## AI Web Framework Project Deadline Pressure
+
 OMG, I can't believe I'm racing to this Friday deadline being done with my AI
 Web Framework work with sample real-world minimum viable product with all this
 client work in the middle. OMG, and more meetings are filling in even today.
@@ -269,10 +271,14 @@ ActionBoard.
 - Pagetype 2: PDPs (only export title tag too short)
 - Pagetype 3: PLPs (only export title tag too short)
 
+## Sample Data Needed for PageWorker Optimizations
+
 Getting a out PageWorker optimizations across all these will be good for
 tomorrow. But I need sample data. Okay, so export the PDPs and PLPs where the
 title tags are ***not too short*** and use them as the sample data to try to
 match. Okay, so the story goes like this:
+
+## ActionBoard: Focusing on Title Tag Optimization
 
 We're working the ActionBoard from top-down. When we reviewed this last week, we
 gave you a SmartContent demo, which is an awesome capability. But reviewing the
@@ -280,11 +286,15 @@ site priorities, it seems logical to start with something that has less of a
 subjective quality assurance aspect to it, and instead work with some
 predictable patterns to lengthen short title tags.
 
+## Coworker-Inspired PageWorkers Improvement
+
 Just got off a call with a pretty brilliant coworker. I'm going to redo my
 PageWorkers preparation work to include. Okay, gotta love this work. Gotta be as
 insightful as my coworker. Gotta lean into the Botify strengths in new and
 creative ways. We've already done this-or-that and we can use that data-point
 for a more thorough and data-rich process.
+
+## AI Training Data: Write Summarizable Pages!
 
 Okay, and when I do this work I want to get pages like this nice and
 summarize-able, probably with a little more case-specific data layered in for AI
@@ -297,6 +307,8 @@ system and get the proper kind of momentum rolling here. Okay, deep breath... no
 rabbit-holes... 
 
 ---
+
+## Ouch! Fell Down the Dev Rabbit Hole
 
 Ugh, I went down the dev rabbit hole. Re-focus! Use your window to nail this.
 Make it a great experience. That's priority #1. It's all about PageWorkers! And
@@ -311,6 +323,8 @@ hold yourself accountable. Put on the show!
 Download the CSV with fields added. Get creative about the fields you add.
 Really look at the page. Figure out what elements have the data you need to make
 the fields longer. Craft the prompt.
+
+## Lock-in on Rote Process & Train Muscle Memory
 
 I am uploading a CSV of store locations for a client. It contains extracts from
 their store location pages on their website. The title tags are too short, but I
@@ -350,6 +364,8 @@ Here's a prompt revised to follow the 1-2-3 style for clarity and precision:
 Let me know if you’d like to add or emphasize any details further!
 
 ---
+
+## ChatGPT Python Code for Fine-Tuning PageWorkers
 
 Okay, ChatGPT gave me Python code for this, so I take that so I can do my own
 fine-tuning. Time is running out! I want to have a single good PageWorkers edit
