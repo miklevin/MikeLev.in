@@ -627,7 +627,7 @@ Citations:
     [7] https://discourse.nixos.org/t/why-should-i-write-my-config-files-in-the-nix-language/50676
     [8] https://nixos.org/guides/nix-pills/04-basics-of-language
 
-**Slack and Zoom: Tools of Doom**
+## Slack and Zoom: Tools of Doom
 
     In the dance of work from morning to noon,  
     Two specters loom—Slack and Zoom.  
