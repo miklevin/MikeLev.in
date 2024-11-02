@@ -3054,6 +3054,7 @@ sidebarWs.onmessage = function(event) {
 ```
 
 5. **DOM Update Verification**
+
 ```javascript
 // Add mutation observer to monitor todo-list
 const observer = new MutationObserver((mutations) => {
