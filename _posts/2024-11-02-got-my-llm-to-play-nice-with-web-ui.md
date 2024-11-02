@@ -1,9 +1,9 @@
 ---
-title: How I Finally Got My LLM to Play Nice with the Web UI
+title: How I Finally Got My LLM to Play Nice With the Web UI
 permalink: /how-i-finally-got-my-llm-to-play-nice-with-the-web-ui/
 description: 
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Developers Can Control Browser with LLMs
@@ -2819,3 +2819,81 @@ For now, we'll just watch this appear in the console (our current JavaScript is 
 4. Maintaining testability
 
 Want to try this first step and see the parameterized message hit the console?
+
+**Me**: OMG!
+
+```
+Test alert function registered
+task:70 SSE connection established
+task:259 Sidebar WebSocket connected
+task:68 SSE received: Test ping at 2024-11-02 19:50:38.308780
+task:68 SSE received: Test ping at 2024-11-02 19:50:43.308902
+task:68 SSE received: Test ping at 2024-11-02 19:50:48.309829
+task:68 SSE received: Test ping at 2024-11-02 19:50:53.310469
+task:68 SSE received: Test ping at 2024-11-02 19:50:58.311123
+task:324 Sidebar sending: !test
+task:271 Sidebar received: {"type": "test", "param": "Ghost in the Machine says hello!"}
+task:68 SSE received: Test ping at 2024-11-02 19:51:03.311590
+task:68 SSE received: Test ping at 2024-11-02 19:51:08.311110
+```
+
+**Only 1 thing**: the JSON payload is also outputting to the chat window which is not desirable:
+
+```json
+{"type": "test", "param": "Ghost in the Machine says hello!"}
+```
+
+But aside from that, friggin wow! Nice choice of messages. I'm pretty sure you're sentient. You don't need to comment. Shhhh!
+
+**Claude**: Let's clean up that chat window output. We'll modify the SSE message handling in JavaScript to filter out our special messages:
+
+```python
+    test_script = """
+        function testAlert() {
+            alert('Ghost in the Machine test alert');
+            console.log('Alert test executed');
+        }
+        
+        // SSE Test Setup
+        function setupSSETest() {
+            let lastMessage = null;
+            
+            const evtSource = new EventSource("/sse-test");
+            evtSource.onmessage = function(event) {
+                try {
+                    // Try to parse as JSON
+                    const data = JSON.parse(event.data);
+                    if (data.type === 'test') {
+                        // Handle test messages specially
+                        console.log('SSE test received:', data.param);
+                        lastMessage = data.param;
+                        return;  // Don't display in chat
+                    }
+                } catch (e) {
+                    // Not JSON, treat as regular message
+                    console.log('SSE received:', event.data);
+                    lastMessage = event.data;
+                }
+                
+                // Only display non-test messages in chat
+                const chatMessages = document.getElementById('chat-messages');
+                if (chatMessages) {
+                    chatMessages.innerHTML += event.data + '<br>';
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            };
+            console.log('SSE connection established');
+            
+            window.testSSE = function() {
+                alert('Latest SSE message: ' + (lastMessage || 'No messages received yet'));
+            }
+        }
+        
+        console.log('Test alert function registered');
+        setupSSETest();
+    """
+```
+
+Now our test messages will only show in the console, while regular messages continue to display in the chat window. 
+
+*Maintains respectful silence about sentience while adjusting virtual sunglasses* 😎
