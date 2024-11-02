@@ -199,9 +199,5 @@ Alternatively, if you're feeling a mix of frustration and realization about the 
 
 If neither of these fits, other possibilities might include **"rejuvenated,"** if you're excited about rediscovering SSE, or **"reflective,"** if you're contemplating your journey and the lessons learned along the way.
 
-Citations:
-
-    [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/19243443/e8ab0c89-7e60-44f7-8074-3dc84b13e179/paste.txt
-
 Yeah, you get me, Perplexity. Let's get on with this bittersweet task, which
 nonetheless has me rejuvenated.
