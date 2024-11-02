@@ -459,3 +459,107 @@ By implementing SSE in a simple test case, you can validate the concept and buil
 - **Verify SSE Integration:** Ensures that the server can send events and the client can receive and act upon them.
 - **Establish a Foundation:** Provides a working example upon which you can expand to handle CRUD operations.
 - **Maintain Clean Code:** Encourages separation of concerns and keeps your codebase maintainable.
+
+---
+
+## AI'S Promise Vs Reality Of Implementation
+
+So it seems like the job is done, right? There are all of o1's recommendations
+laid out clear as day, and it seems pretty damn super-intelligent, doesn't it?
+At least that promised PhD-level. Queue up ***Never Gonna Give You Up*** 'cause
+chances are we're being ***rickrolled***. So, eff-you every code-assisting AI
+out there who wants to flex your muscle by demonstrating how deep into Dante's
+circles you can drive us. I'm reminding myself of my daily mantras before this
+potentially maddening descent of implementation.
+
+## Building Resilience in a Triggered World
+
+It starts as most things do, with ***breathing exercises***. Some things don't
+trigger you (us). ***All things trigger us.*** We are ***always*** being
+triggered. Only really fast (automatic due to habits) self-regulation kicking-in
+keeps us from spiraling. Sorry folks, that's just our normal state. Settling
+into the groove where always wobbling on the verge of is collapse is merely
+called walking. Don't lose your ability to walk just because there's AI's and
+other entities all around you throwing stones trying to unbalance
+you&#151;usually because it makes them money somehow. Here's my resilience
+trick. Ask yourself every day...
+
+<div class="wisdom">
+<pre>
+        1. What's most broken?
+2. Where's the biggest bang for buck?
+    3. Which plates must be spun?
+</pre>
+</div>
+
+And the scary truth is that you yourself may be what's most broken. However, the
+saving grace is that the biggest bang for the buck is banking one small win to
+reset your path-finding ability.
+
+That's what I'm doing here. If you ended up on this article, you're experiencing
+me in the thick of a path-finding reset. I'm letting go of being enamored by
+***websockets*** and opening my mind up again to ***server side events***. This
+may sound excessively nerd, but... but... ah hell, no Perplexity this time. If
+you get it, you get it. Just a little more distraction and evasion of really
+starting the work before I dive in. After those daily path-finding metaphors,
+there is ***the how***&#151;or ***The Way***, if you will. And that goes
+something like this...
+
+<div class="wisdom">
+<pre>
+   Ikigai - overcome laziness find the love
+  Kaizen - do one thing well keep polishing
+Pomodoro - take chisel-strike bank small wins
+    Hara Hachi - don't burn out / eat less
+     Wabi-Sabi - 80/20-rule imperfection
+         Shoshin - Be like a beginner
+</pre>
+</div>
+
+The wording isn't perfectly smooth, but it centers nice, right? I could walk you
+through all this, but in short it comes down to rappelling down the rabbit hole.
+Okay, I'll throw this one Perplexity's way. Hey Perplexity, why do the above
+abstract notions lead us to the also abstract but also weirdly practical advice
+of when facing a rabbit hole of unknown depth which you feel you must explore,
+why attaching safety equipment and rappelling down the rabbit hole is good
+advice. Try to work one thing from each of the principles stated above in the
+answer. I'm about to get coding and could use the clarity and the reminder,
+please and thank you!
+
+**Perplexity**: The connection between these abstract concepts and the practical advice of rappelling down a rabbit hole of unknown depth is indeed intriguing. Let's explore how each principle contributes to this approach:
+
+## Embracing the Journey
+
+**Ikigai** teaches us to find our purpose and overcome laziness. When facing a deep rabbit hole, attaching safety equipment and rappelling down represents our commitment to exploring our passion, even when it seems daunting. This approach allows us to overcome the initial inertia and laziness that might hold us back from diving into complex problems.
+
+**Kaizen** encourages us to focus on continuous improvement. As we descend the rabbit hole, we can apply this principle by concentrating on mastering one aspect at a time. Each step down is an opportunity to polish our skills and understanding, gradually building expertise in the subject matter we're exploring.
+
+## Managing the Descent
+
+The **Pomodoro Technique** reminds us to work in focused bursts. When rappelling down the rabbit hole, we can view each "chisel-strike" as a Pomodoro session – a concentrated effort to make progress. This approach helps us maintain focus and energy, preventing burnout as we delve deeper into complex topics.
+
+**Hara Hachi Bu** teaches moderation and not overdoing things. In the context of exploration, this principle reminds us to pace ourselves. We don't need to reach the bottom of the rabbit hole in one go. Taking breaks, reflecting on what we've learned, and "eating less" information at a time can help us avoid mental indigestion and burnout.
+
+## Embracing Imperfection and Openness
+
+**Wabi-Sabi** celebrates imperfection and incompleteness. As we rappel down the rabbit hole, we should remember that we don't need to understand everything perfectly. The 80/20 rule suggests that we can gain significant insights with partial knowledge. This mindset helps us move forward without getting stuck on achieving perfection.
+
+**Shoshin**, or beginner's mind, encourages us to approach each new level of the rabbit hole with fresh eyes and openness. As we descend, maintaining a beginner's mindset allows us to question assumptions, learn new perspectives, and adapt our understanding as we go deeper.
+
+## The Wisdom of Rappelling
+
+Rappelling down a rabbit hole with safety equipment is a metaphor for approaching complex problems or deep dives into unknown territories with both courage and caution. It embodies the balance between the adventurous spirit of exploration and the pragmatic approach of risk management.
+
+By combining these principles, we create a powerful framework for tackling challenging intellectual or creative pursuits:
+
+1. We find the motivation to start (**Ikigai**)
+2. We commit to continuous improvement (**Kaizen**)
+3. We work in focused, manageable chunks (**Pomodoro**)
+4. We pace ourselves to avoid burnout (**Hara Hachi Bu**)
+5. We accept imperfection and focus on significant gains (**Wabi-Sabi**)
+6. We maintain an open, curious mindset throughout the journey (**Shoshin**)
+
+This approach allows us to explore depths of knowledge or creativity that might otherwise seem overwhelming, all while maintaining our safety, sanity, and enthusiasm for the journey.
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/11792699/8bedc619-e90b-4fc5-b243-0f007dd80140/paste.txt
