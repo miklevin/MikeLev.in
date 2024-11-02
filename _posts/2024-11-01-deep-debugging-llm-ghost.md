@@ -4560,8 +4560,11 @@ In your assistant's setup, include a clear instruction:
 
 When performing any CRUD operations, please respond only with the JSON operation enclosed in a code block like this:
 
-json (backtick messing)
+~~~
+```json
 { ... }
+```
+~~~
 
 Do not include any additional text or explanation outside of the code block.
 
@@ -4893,21 +4896,23 @@ To encourage the assistant to provide the JSON operation without additional text
 
 #### **Example Prompt Adjustment:**
 
-```python
 inside your ChatPlayground or wherever you set up the assistant's instructions:
+
+~~~python
 
 ASSISTANT_PROMPT = """
 You are an AI assistant helping with CRUD operations. When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-json (messed with backticks for jekyll rendering)
+```json
 { "operation": "insert", "target": "task", "args": { ... } }
-
+{ ... }
+```
 
 Do not include any additional text or explanation outside of the code block.
 """
 
 # Use ASSISTANT_PROMPT when initializing the assistant or sending messages.
-```
+~~~
 
 ### **5. Update Client-Side JavaScript if Necessary**
 
@@ -5196,13 +5201,13 @@ Modify the assistant's prompt to encourage it to output only the JSON code block
 
 #### **Updated Assistant Prompt**
 
-```python
+~~~python
 ASSISTANT_PROMPT = """
 You are an AI assistant helping with CRUD operations.
 
 When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-json (messed with backticks)
+```json
 {
   "operation": "insert",
   "target": "task",
@@ -5210,12 +5215,13 @@ json (messed with backticks)
     "name": "Task Name"
   }
 }
+```
 
 Do not include any additional text or explanation outside of the code block.
 """
 
 # Use ASSISTANT_PROMPT when initializing the assistant or sending messages.
-```
+~~~
 
 **Explanation:**
 
@@ -5317,7 +5323,7 @@ o1: I'm sorry to hear that you're feeling demoralized. Let me provide the comple
 
 Below is your updated `botifymograph.py` file:
 
-```python
+~~~python
 # botifymograph.py
 
 # Single Tenant Web App Framework built on FastHTML and Local LLM
@@ -5503,7 +5509,7 @@ You are an AI assistant helping with CRUD operations.
 
 When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-json (backtick messing)
+```json
 {
   "operation": "insert",
   "target": "todo",
@@ -5511,6 +5517,7 @@ json (backtick messing)
     "name": "Task Name"
   }
 }
+```
 
 Do not include any additional text or explanation outside of the code block.
 """
@@ -5538,7 +5545,7 @@ async def chat_with_ollama(conversation_history):
 if __name__ == "__main__":
     app.debug = True
     serve(app, host='0.0.0.0', port=8000, reload=True)
-```
+~~~
 
 ---
 
