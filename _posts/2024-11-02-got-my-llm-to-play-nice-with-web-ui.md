@@ -152,21 +152,32 @@ Citations:
 
 ### That's it, like a skilled ***sushi chef***. Thanks, Perplexity!
 
-Look at this article it puts together and tight tallying of citations! You're
-still my go-to AI for this kind of inquiry, even though OpenAI's long-awaited
-GPTSearch finally came out yesterday. Happy Halloween, everyone! So much to talk
-about there, how ***small world theory*** is finally hitting general web-search
-by which a real-time crawl is sent out at the moment of user search inquiry in
-order to... in order to... in order to...
+Look at this article Perplexity.AI puts together and tight tallying of
+citations! You're still my go-to AI for this kind of inquiry, even though
+OpenAI's long-awaited GPTSearch finally came out yesterday. Happy Halloween,
+everyone! So much to talk about there, how ***small world theory*** is finally
+hitting general web-search by which a real-time crawl is sent out at the moment
+of user search inquiry in order to... in order to... in order to...
+
+### Real-time Crawling Evaporates Google's Moat
 
 ...well quite frankly, evaporate Google's moat (difficult to reproduce
 competitive advantage per Warren Buffett). The Internet is a database, and why
 keep a ***crawled-and-indexed*** copy of it if people are conditioned to be
 patient enough to wait just a little longer to get an accurate answer regarding
 the state of the world, that product availability off the embedded schema.org of
-the site read in real-time? Anyhoo, the way the world of search has just been
-turned upside down is the subject for another article if at all&#151;go become a
-Botify customer if you really want AI SEO consulting on this kind of stuff.
+the site read in real-time? 
+
+### The Web is The Database&#151;Google's Index Is Not
+
+ChatGPT Search is finally out (and I'm liking the experience), but Perplexity
+still has the lead. When I think ***fresh*** model replies, I'm still thinking
+Perplexity. OpenAI's measure-twice/cut-once before taking on Google lost them
+the early mover advantage in this obvious evolution of the Internet-search
+space. Anyhoo, the way the world of search has just been turned upside down is
+the subject for another article if at all&#151;go become a Botify customer if
+you really want AI SEO consulting on this kind of stuff.
+
 
 ## New App Combines Three Communication Methods
 
