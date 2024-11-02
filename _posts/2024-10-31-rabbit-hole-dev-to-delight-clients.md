@@ -6,15 +6,13 @@ layout: post
 sort_order: 1
 ---
 
-## Hold My Marmalade
-
 From falling down the adrenaline-inducing rabbit-hole of doing development work
 that's more addictive now than ever with the rise of AI, to being on-point and
 on-game in front of clients regularly with a cadence that will reliably
 interrupt valuable and precious flow-states the momentum of which makes all the
 difference... that is my life right now.
 
-## The Funk-Fighting Mindset
+## Fighting the Funk Mindset
 
 And that's fine. Everything is fine. I can boil the ocean and fry a fish. It's
 all in the right approach, the right mindset, the right habits... the right...
@@ -236,3 +234,7 @@ As you engage with AI tools for brainstorming, code generation, and even self-re
 
 I'm eager to hear your thoughts on these ideas, and I'm ready to dive deeper into any specific area that sparks your interest!
 
+---
+
+Okay, now onto boiling the ocean to fry a fish for lunch. I have one more client
+call coming up today, another one that I'll be leading. 
