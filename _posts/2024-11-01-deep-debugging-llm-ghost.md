@@ -4512,15 +4512,12 @@ To encourage the assistant to return pure JSON when performing operations, you c
 
 In your assistant's setup, include a clear instruction:
 
-```
 When performing any CRUD operations, please respond only with the JSON operation enclosed in a code block like this:
 
-```json
+json (backtick messing)
 { ... }
-```
 
 Do not include any additional text or explanation outside of the code block.
-```
 
 **Note:** Be aware that AI assistants may not always strictly follow instructions, so your code should handle cases where extra text is included.
 
@@ -4856,9 +4853,9 @@ inside your ChatPlayground or wherever you set up the assistant's instructions:
 ASSISTANT_PROMPT = """
 You are an AI assistant helping with CRUD operations. When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-```json
+json (messed with backticks for jekyll rendering)
 { "operation": "insert", "target": "task", "args": { ... } }
-```
+
 
 Do not include any additional text or explanation outside of the code block.
 """
@@ -5159,7 +5156,7 @@ You are an AI assistant helping with CRUD operations.
 
 When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-```json
+json (messed with backticks)
 {
   "operation": "insert",
   "target": "task",
@@ -5167,7 +5164,6 @@ When the user requests an operation, respond ONLY with the JSON code block repre
     "name": "Task Name"
   }
 }
-```
 
 Do not include any additional text or explanation outside of the code block.
 """
@@ -5461,7 +5457,7 @@ You are an AI assistant helping with CRUD operations.
 
 When the user requests an operation, respond ONLY with the JSON code block representing the operation, enclosed like this:
 
-```json
+json (backtick messing)
 {
   "operation": "insert",
   "target": "todo",
@@ -5469,7 +5465,6 @@ When the user requests an operation, respond ONLY with the JSON code block repre
     "name": "Task Name"
   }
 }
-```
 
 Do not include any additional text or explanation outside of the code block.
 """
