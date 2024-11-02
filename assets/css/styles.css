@@ -912,3 +912,8 @@ header blockquote {
 .wisdom.dialogue .speech {
     display: block;
 }
+
+.ascii-link {
+    color: white;
+    text-decoration: none;
+}

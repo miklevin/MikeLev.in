@@ -29,16 +29,7 @@ group: home
       <li><code class="language-plaintext highlighter-rouge">`git`</code>: Memory keeper—track, share & find your way.</li>
     </ul>
   </div>
-  <div class="lpvg-ascii">
-    <pre><a href="/rabbit/" style="text-decoration: none;">
-            /)  ___
-      /)\__//  /   \
-  ___(/_ 0 0  |     |
-*(    ==(_T_)==LINUX|
-  \  )   \"\  |     |
-   |__>-\_>_>  \___/</a>
-    </pre>
-  </div>
+  {% include bunny.html %}
 </div>
 
 That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to anything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
