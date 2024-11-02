@@ -9,7 +9,7 @@ sort_order: 1
 ## Insert Apple Into Task Using JSON
 
 > The above line should be imagined in the voice of Captain Picard to the
-> cadence of "There are four lights".
+> tune of "There are four lights".
 
 This is a deep, deep dive into the rabbit hole, debugging giving the LLM the
 ability to make modifications in the DOM as a follow-up to database operations
