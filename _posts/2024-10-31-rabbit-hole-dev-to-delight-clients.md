@@ -1,7 +1,7 @@
 ---
 title: Rabbit Hole Dev to Delight Clients
 permalink: /rabbit-hole-dev-to-delight-clients/
-description: 
+description: Join me on a journey through the exhilarating world of development, where I balance the addictive nature of AI-driven coding with the need to engage clients. Discover how I navigate the challenges of maintaining flow states, embracing resilience like Rocky Balboa, and leveraging small wins to drive success in a fast-paced tech landscape.
 layout: post
 sort_order: 1
 ---

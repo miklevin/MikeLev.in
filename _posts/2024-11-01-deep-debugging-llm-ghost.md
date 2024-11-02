@@ -6210,7 +6210,7 @@ If you have code that attempts to extract JSON code blocks from the assistant's 
 
 **Before:**
 
-```python:botifymograph.py
+```python
 # Inside handle_chat_message
 # ... [existing code] ...
 
@@ -6226,7 +6226,7 @@ else:
 
 **After:**
 
-```python:botifymograph.py
+```python
 # Inside handle_chat_message
 # ... [existing code] ...
 

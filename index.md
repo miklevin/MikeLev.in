@@ -30,13 +30,13 @@ group: home
     </ul>
   </div>
   <div class="lpvg-ascii">
-    <pre>
+    <pre><a href="/rabbit/" style="text-decoration: none;">
             /)  ___
       /)\__//  /   \
   ___(/_ 0 0  |     |
 *(    ==(_T_)==LINUX|
   \  )   \"\  |     |
-   |__>-\_>_>  \___/
+   |__>-\_>_>  \___/</a>
     </pre>
   </div>
 </div>
@@ -179,7 +179,7 @@ The full ramifications of reproducible general 🐧Linux subsystems on any host 
    Ikigai - overcome laziness find the love
   Kaizen - do one thing well keep polishing
 Pomodoro - take chisel-strike bank small wins
-    Hara Hachi - don't burn out / eat less
+  Hara Hachi Bu - don't burn out / eat less
      Wabi-Sabi - 80/20-rule imperfection
          Shoshin - Be like a beginner
 </pre>
