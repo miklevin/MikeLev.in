@@ -510,11 +510,13 @@ something like this...
    Ikigai - overcome laziness find the love
   Kaizen - do one thing well keep polishing
 Pomodoro - take chisel-strike bank small wins
-    Hara Hachi - don't burn out / eat less
+  Hara Hachi Bu - don't burn out / eat less
      Wabi-Sabi - 80/20-rule imperfection
          Shoshin - Be like a beginner
 </pre>
 </div>
+
+## Safety Equipment for Rabbit Hole Exploration
 
 The wording isn't perfectly smooth, but it centers nice, right? I could walk you
 through all this, but in short it comes down to rappelling down the rabbit hole.
@@ -561,5 +563,3 @@ By combining these principles, we create a powerful framework for tackling chall
 
 This approach allows us to explore depths of knowledge or creativity that might otherwise seem overwhelming, all while maintaining our safety, sanity, and enthusiasm for the journey.
 
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/11792699/8bedc619-e90b-4fc5-b243-0f007dd80140/paste.txt
