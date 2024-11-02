@@ -6,17 +6,24 @@ permalink: /rabbit/
 group: home
 ---
 
-  <div class="lpvg-ascii">
-    <pre>
-            /)  ___
-      /)\__//  /   \
-  ___(/_ 0 0  |     |
-*(    ==(_T_)==LINUX|
-  \  )   \"\  |     |
-   |__>-\_>_>  \___/
-    </pre>
-  </div>
+{% include bunny.html %}
 
+{% include wisdom.html %}
+
+<div style="display: flex; justify-content: center; margin-bottom: 3vw;">
+  <div style="white-space: pre-line">
+Welcome to Lundervand, where tech meets Zen delight,
+Ikigai hacks laziness, coding love into the night.
+Kaizen tweaks each gadget, polishing every line,
+Pomodoro strikes the keys, banking wins in time.
+Hara Hachi Bu keeps us savvy, servers won't burn out,
+Wabi-Sabi giggles at bugs, embracing every rout.
+Shoshin greets each fresh update with a curious grin,
+In this twisted Wonderland of tech, our journeys'll spin!
+  </div>
+</div>
+
+{% include alice.html %}
 
 ## Embracing the Journey
 
@@ -50,3 +57,5 @@ By combining these principles, we create a powerful framework for tackling chall
 6. We maintain an open, curious mindset throughout the journey (**Shoshin**)
 
 This approach allows us to explore depths of knowledge or creativity that might otherwise seem overwhelming, all while maintaining our safety, sanity, and enthusiasm for the journey.
+
+{% include daily-metaphors.html %}

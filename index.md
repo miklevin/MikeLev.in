@@ -44,43 +44,11 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
   </ul>
 </div>
 
-<div class="wisdom">
-<pre>
-        1. What's most broken?
-2. Where's the biggest bang for buck?
-    3. Which plates must be spun?
-</pre>
-</div>
+{% include daily-metaphors.html %}
 
 <br />
 
-<div class="ascii-alice">
-<pre>
-                             ___
-                            |   |         _____
-                            |_  |        /     \
-                              \ |       |       \
-                              |  \      |       /
-                               \  \____ \_      \
-                                \      \_/      |
-                          ___.   \_            _/
-         .-,             /    \    |          |
-         |  \          _/      `--_/           \_
-          \  \________/                     /\   \
-          |                                /  \_  \
-          `-----------,                   |     \  \
-                      |                  /       \  |
-                      |                 |         | \
-                      /                 |         \__|
-                     /   _              |
-                    /   / \_             \
-                    |  /    \__      __--`
-                   _/ /        \   _/
-               ___/  /          \_/
-              /     /
-              `----`
-</pre>
-</div>
+{% include alice.html %}
 
 <div class="next-post">
   <div class="previous-post placeholder"></div>
@@ -165,16 +133,7 @@ The full ramifications of reproducible general 🐧Linux subsystems on any host 
 
 <br />
 
-<div class="wisdom">
-<pre>
-   Ikigai - overcome laziness find the love
-  Kaizen - do one thing well keep polishing
-Pomodoro - take chisel-strike bank small wins
-  Hara Hachi Bu - don't burn out / eat less
-     Wabi-Sabi - 80/20-rule imperfection
-         Shoshin - Be like a beginner
-</pre>
-</div>
+{% include wisdom.html %}
 
 <div class="next-post">
   <div class="previous-post placeholder"></div>
