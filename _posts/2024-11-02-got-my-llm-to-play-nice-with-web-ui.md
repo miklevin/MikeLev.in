@@ -1,7 +1,7 @@
 ---
 title: How I Finally Got My LLM to Play Nice With the Web UI
 permalink: /how-i-finally-got-my-llm-to-play-nice-with-the-web-ui/
-description: 
+description: Embark on a journey bridging the gap between WebSockets, Server-Sent Events (SSE), and JavaScript to bring the "Ghost in the Machine" to life. Discover how a methodical approach, inspired by the Wright Brothers' experiments, led to a system where real-time commands and structured responses create an interactive, dynamic web experience. From initial spark to lift-off, this article shows how persistence and well-planned steps make complex integrations not just achievable, but thrilling.
 layout: post
 sort_order: 2
 ---
