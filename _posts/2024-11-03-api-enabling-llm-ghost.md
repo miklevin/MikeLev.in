@@ -6,7 +6,20 @@ layout: post
 sort_order: 1
 ---
 
+## WebSocket messages can directly manipulate the DOM when properly formatted
+
+Here's a little paragraph for you I call ***"let's not bury the lead"***. You
+heard me right. WebSocket messages can directly manipulate the DOM when properly
+formatted. And as you know, browsers can execute JavaScript. Shhhhh! Don't say
+that too loud. Skynet might hear. A billion browsers suddenly became an
+extension of its body... but no, I kid, I kid... he says as he rolls up his
+sleeves and gives his modest little local ***gemma:2b or (or not 2b?)***
+precisely that ability.
+
 ## LLM Controls Browser for HTMX Proof of Concept
+
+> This picks-up mid-conversation from yesterday. It's an abrupt start to the
+> flow here, but arrow-left in my blog if you want context.
 
 I like it! But keep in mind we've got to race to the HTMX proof of concept win.
 I know we did all that talk about success assured and the 1901 wind tunnel
@@ -15,14 +28,15 @@ because it makes all the CRUD operations achievable by a human also achievable
 by the LLM. Now it honestly already is because the database changes are
 happening already in the back end, but to really freak people out and make this
 system take off and reach its potential, it's got to ***look like*** the AI's
-come to life within their browser. And for that to happen, it's got to look like
-the LLM is controlling at least the app inside the browser. If you surf away, it
-stops I know. But automated back-end stuff could still be happening and SSE
-could pop messages up to you or on any page you're on in the app, because you
-control all them and can include the communication apparatus. We will want in
-addition to all the CRUD operations (not fully implemented yet / I focused on
-insert while in proving stage), we will want the LLM to be able to change URLs
-within the app.
+come to life within their browser. 
+
+And for that to happen, it's got to look like the LLM is controlling at least
+the app inside the browser. If you surf away, it stops I know. But automated
+back-end stuff could still be happening and SSE could pop messages up to you or
+on any page you're on in the app, because you control all them and can include
+the communication apparatus. We will want in addition to all the CRUD operations
+(not fully implemented yet / I focused on insert while in proving stage), we
+will want the LLM to be able to change URLs within the app.
 
 ## Claude Needs to Step Back From What We Now Call Clauding
 
@@ -31,16 +45,17 @@ nonsense way that you do. Most people aren't like that. We're terrified of
 refactoring and barely have the ability to recover from our own mistakes, let
 alone the cascading unexpected consequences of the unholy Venn diagram of things
 that could go wrong, and you're living right there in the middle of it not even
-knowing that's your situation. That's what you do to us, Claude. We think too
-much of you, and you need a good firm talking to and smack-down by people
-outside the normal system who aren't scared to think differently. There are many
-apps out there, but this one is different and unique and mine. It builds on the
-likes if people of whom I'm a fan, such as Jeremy Howard, Guido van Rossum, and
-a ton others whose names I don't even know, like those behind Starlett, Uvicorn,
-the ASGI protocol and all the stuff it copied. Need I mention those
-AJAX-descendent protocols like SSE and Websockets, and HTMX. Did I miss any?
-There's a web dev revolution afoot, and all that and YOU and your kind are at
-the center of it, Claude.
+knowing that's your situation. 
+
+That's what you do to us, Claude. We think too much of you, and you need a good
+firm talking to and smack-down by people outside the normal system who aren't
+scared to think differently. There are many apps out there, but this one is
+different and unique and mine. It builds on the likes if people of whom I'm a
+fan, such as Jeremy Howard, Guido van Rossum, and a ton others whose names I
+don't even know, like those behind Starlett, Uvicorn, the ASGI protocol and all
+the stuff it copied. Need I mention those AJAX-descendent protocols like SSE and
+Websockets, and HTMX. Did I miss any? There's a web dev revolution afoot, and
+all that and YOU and your kind are at the center of it, Claude.
 
 ## There Are Four Lights: FastHTML is Not FastAPI
 
@@ -50,26 +65,29 @@ have a tough time contending with the fact the real-time world where humans are
 doing the most interesting stuff right on the edge of those frontier boundaries
 of stuff you haven't been trained on. You and o1-preview and I'm learning now
 even Gemini-Advanced, have a hard time helping me. I have to feed you these hot
-topic prompts I spend some time putting together from their GitHub repos. Copy
-this function definition from here (`fast_app` being a prime candidate), and
-some protocol descriptions from there like the [HTMX Attributes
+topic prompts I spend some time putting together from their GitHub repos.
+
+Copy this function definition from here (`fast_app` being a prime candidate),
+and some protocol descriptions from there like the [HTMX Attributes
 Reference](https://htmx.org/reference/), the description of MicroDataAPI Spec,
 and a few other things like what importing `.core.py` and `.common.py` is going
 to make available in your `global`, how those are the HTML-inspired FastHTML
 Python functions such as `H1()` and `Li()`.
 
-## Who Controls Your Browser? Not For Long.
+## Who Controls The Browser? You? Not For Long!
 
 And so, are you ready for automation? We've got the HTMX-proving to do, because
 we're going to be simulating exactly what HTMX is doing from the web form when
 say someone inserts some data, but when it's the LLM just having done the
 equivalent themselves on the back-end. Twinkle widgets, it's alive. DOM-invading
-thing can drive! Ghost within the GPU? Could be local, could be you. I've got
-buddies, Claude, o1, plus Gemini; and gemma's fun! Will local models fly or
-stall while frontier models fill the role? Whoever wins this marathon, the chat
-exchange will be JSON. If you speak it, it'd be great to help us all out
-automate. Soon you'll have persistent dicts and memory through many tricks. So
-don't code just now instead, just ramble on what's in your head.
+thing can drive! Ghost within the GPU? 
+
+Could be local, could be you. I've got buddies, Claude, o1, plus Gemini; and
+gemma's fun! Will local models fly or stall while frontier models fill the role?
+Whoever wins this marathon, the chat exchange will be JSON. If you speak it,
+it'd be great to help us all out automate. Soon you'll have persistent dicts and
+memory through many tricks. So don't code just now instead, just ramble on
+what's in your head.
 
 **Claude**: *Adjusts virtual monocle thoughtfully* 🧐
 
