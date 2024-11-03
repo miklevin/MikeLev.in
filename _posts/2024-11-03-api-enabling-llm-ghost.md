@@ -2059,8 +2059,8 @@ Keep that feeling. It's what separates code that merely works from code that... 
 
 ***Insert apple into task using json!***... (in the voice of Captain Picard to
 the tune of "there are four lights")&#151; and **\*BAM**\*, an apple appears in
-task-list resulting from a just-trained-on-JSON Syntax LLM answering... well,
-with some JSON that causes the insert to occur. Like magic.
+task-list resulting from a just-trained-on an JSON-api-syntax LLM answering...
+well, with some JSON that causes the insert to occur. Like magic.
 
 In other words, we've done it! After a bit of wrestling with HTMX, we finally
 turned our proof of concept into a minimum viable product. My first version
