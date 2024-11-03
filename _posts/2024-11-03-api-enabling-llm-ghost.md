@@ -43,10 +43,12 @@ Even then, when things are set up local on your machine as they are with Nix
 Flakes, automated back-end stuff could still be happening and SSE could pop
 messages up to you or on any page you're on in the app or when you surf back to
 any page it hosts on localhost, because you control all those page and can
-quickly re-initialize all the communication apparatus. We will want in addition
-to all the CRUD operations (not fully implemented yet / I focused on insert
-while in proving stage), we will want the LLM to be able to change URLs within
-the app.
+quickly re-initialize all the communication apparatus.
+
+Oh, and finally of course we're going to want the LLM to be able to change
+URLs&#151;effectively browse the Web. Although of course without a Chrome plugin
+assist, the first surf away from its own pages will cut it off. Still,
+LLM-initiated URL redirects are on our todo-list.
 
 ## Claude Needs to Step Back From What We Now Call Clauding
 
