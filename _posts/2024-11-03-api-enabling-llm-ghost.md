@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-## HTMX Proof of Concept: Do Anything Humans Can Do
+## LLM Controls Browser for HTMX Proof of Concept
 
 I like it! But keep in mind we've got to race to the HTMX proof of concept win.
 I know we did all that talk about success assured and the 1901 wind tunnel
