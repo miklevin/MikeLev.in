@@ -21,14 +21,17 @@ sleeves and gives his modest little local ***gemma:2b*** (or not 2b?)&#151;
 > This picks-up mid-conversation from yesterday. It's an abrupt start to the
 > flow here, but arrow-left in my blog if you want context.
 
-I like it! But keep in mind we've got to race to the HTMX proof of concept win.
-I know we did all that talk about success assured and the 1901 wind tunnel
-experiments, but really we have one experiment to go, and it'd a critical one
-because it makes all the CRUD operations achievable by a human also achievable
-by the LLM. Now it honestly already is because the database changes are
-happening already in the back end, but to really freak people out and make this
-system take off and reach its potential, it's got to ***look like*** the AI's
-come to life within their browser. 
+I like it, Claude! But keep in mind we've got to race to the HTMX proof of
+concept win. I know we did all that talk about success assured and the 1901 wind
+tunnel experiments ***(an important metaphor for anyone wanting to bank
+meaningful small wins in isolation)***... but really we have one critical
+experiment still to go.
+
+The remaining experiment is critical because it makes all the CRUD operations
+achievable by a human also achievable by the LLM. Now it honestly already is
+because the database changes are happening already in the back end, but to
+really freak people out and make this system take off and reach its potential,
+it's got to ***look like*** the AI's come to life within their browser. 
 
 And for that to happen, it's got to look like the LLM is controlling at least
 the app inside the browser. If you surf away, it stops I know. But automated
