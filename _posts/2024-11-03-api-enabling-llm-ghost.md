@@ -13,8 +13,8 @@ heard me right. WebSocket messages can directly manipulate the DOM when properly
 formatted. And as you know, browsers can execute JavaScript. Shhhhh! Don't say
 that too loud. Skynet might hear. A billion browsers suddenly became an
 extension of its body... but no, I kid, I kid... he says as he rolls up his
-sleeves and gives his modest little local ***gemma:2b or (or not 2b?)***
-precisely that ability.
+sleeves and gives his modest little local ***gemma:2b*** (or not 2b?)&#151;
+*precisely... that... ability.*
 
 ## LLM Controls Browser for HTMX Proof of Concept
 
