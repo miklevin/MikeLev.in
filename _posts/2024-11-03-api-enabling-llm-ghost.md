@@ -34,12 +34,19 @@ really freak people out and make this system take off and reach its potential,
 it's got to ***look like*** the AI's come to life within their browser. 
 
 And for that to happen, it's got to look like the LLM is controlling at least
-the app inside the browser. If you surf away, it stops I know. But automated
-back-end stuff could still be happening and SSE could pop messages up to you or
-on any page you're on in the app, because you control all them and can include
-the communication apparatus. We will want in addition to all the CRUD operations
-(not fully implemented yet / I focused on insert while in proving stage), we
-will want the LLM to be able to change URLs within the app.
+the app inside the browser. If you surf away, it stops I know. There's little
+you can do when all your websocket and sse channels are cut-off except maybe for
+a Chrome browser extension/plugin (which OpenAI GPT Search hilariously just did
+to royally screw Google... did I mention I'm an SEO?).
+
+Even then, when things are set up local on your machine as they are with Nix
+Flakes, automated back-end stuff could still be happening and SSE could pop
+messages up to you or on any page you're on in the app or when you surf back to
+any page it hosts on localhost, because you control all those page and can
+quickly re-initialize all the communication apparatus. We will want in addition
+to all the CRUD operations (not fully implemented yet / I focused on insert
+while in proving stage), we will want the LLM to be able to change URLs within
+the app.
 
 ## Claude Needs to Step Back From What We Now Call Clauding
 
