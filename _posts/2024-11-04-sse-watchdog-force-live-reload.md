@@ -166,6 +166,7 @@ from watchdog.observers import Observer
 # Full-path of the current running "server.py" file
 THIS_FILE = Path(__file__)
 
+
 def check_syntax(filename):
     with open(filename, 'r') as file:
         source = file.read()
