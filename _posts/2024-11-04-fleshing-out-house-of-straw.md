@@ -3,7 +3,7 @@ title: Fleshing Out The House of Straw
 permalink: /fleshing-out-house-of-straw/
 description: 
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## Well-planned Straw Houses: The Wolf's Worst Nightmare
@@ -284,4 +284,24 @@ Date:   Sun Nov 3 13:34:41 2024 -0500
 ```
 
 Haha, nice!
+
+---
+
+## Powering Through an Early Monday Morning, Now With Auto-Reload
+
+Fast-forward to 3:30 AM Monday morning! Ah, the best laid plans of Mice and Men
+regarding the 3 Little Pigs. I got wrapped up in polishing framework
+internals&#151;the plumbing of all the houses, if you will. The most clear
+example was the subject of the "bonus article" I threw in on ***auto-reload***.
+It's a wonderful feature that keeps you in flow state when you're working,
+because every time you do a file-save of your work, the server automatically
+reboots and you can go see your work in the web browser without even so much as
+an `F5` or `Ctrl+R` refresh. I got that feature back after implementing the
+***server side effects*** (aka SSE) feature, which ultimately gave me my
+***ghost in the machine*** effect, which I also already had going but lost when
+I switched from using ***websockets*** from simulated streaming to ***actual
+streaming*** of the LLM's output from `ollama`, a sort of ***webserver for
+AI***. Pshwew! End back-reference discussion. That was all by way of taking a
+deep breath and getting back to our house-of-straw rapid roundrobining
+triple-pass I'm about to plunge into using this precious morning focus time.
 
