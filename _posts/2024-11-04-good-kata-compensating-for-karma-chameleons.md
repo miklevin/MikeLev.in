@@ -2521,3 +2521,468 @@ This should help diagnose whether:
 - Any errors are occurring
 
 Let me know what you find and we can adjust the code accordingly!
+
+---
+
+## A Botify BQLv2 Aggregate Query Example
+
+After some probing, it's clear that ActionBoard is not implemented in the API,
+regardless of what Gemini-Advanced tells me from the swagger.json. After looking
+around, it appears that it's pullable by counting issues on URLs from other
+tables. This means pulling aggregate data with a query. And I have to build upon
+past successes here. The closest thing I can do to pulling aggregate data using
+Botify BQLv2 (important, because I won't use up my daily quota fast) is based
+off of Link-Graph data-pulls I've done in the past/
+
+First a configuration file to plug in the parameter arguments...
+
+```json
+{
+    "org": "example-org",
+    "project": "example-project.com",
+    "analysis": "20240101"
+}
+```
+
+...and the file that uses it...
+
+```python
+import requests
+import json
+from pathlib import Path
+from pprint import pprint
+
+def load_config():
+    """Load configuration from config.json"""
+    try:
+        config = json.loads(Path('config.json').read_text())
+        required = ['org', 'project', 'analysis']
+        if not all(k in config for k in required):
+            raise ValueError(f"Config file must contain: {', '.join(required)}")
+        return config
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            "Please create a config.json file with 'org', 'project', and 'analysis' fields"
+        )
+
+def get_urls_by_depth(org, project, analysis):
+    """Get URL count aggregated by depth for a Botify analysis"""
+    
+    # Load API key from file
+    try:
+        api_key = Path('botify_token.txt').read_text().strip()
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            "Please create a botify_token.txt file with your API token"
+        )
+    
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    data_payload = {
+        "collections": [f"crawl.{analysis}"],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.depth"
+            ],
+            "metrics": [
+                {
+                    "field": f"crawl.{analysis}.count_urls_crawl"
+                }
+            ],
+            "sort": [
+                {
+                    "field": f"crawl.{analysis}.depth",
+                    "order": "asc"
+                }
+            ]
+        }
+    }
+
+    headers = {
+        "Authorization": f"Token {api_key}",
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    response.raise_for_status()
+    
+    results = response.json()["results"]
+    
+    depth_counts = {
+        row["dimensions"][0]: row["metrics"][0]
+        for row in results
+    }
+    
+    return depth_counts
+
+if __name__ == "__main__":
+    # Load configuration
+    config = load_config()
+    
+    # Get and display depth distribution
+    depth_distribution = get_urls_by_depth(
+        config['org'],
+        config['project'],
+        config['analysis']
+    )
+    pprint(depth_distribution)
+```
+
+This outputs a count of how many URLs are at each click-depth, useful in its own
+right. I've got to remember this!
+
+```json
+{0: 1,
+ 1: 100,
+ 2: 1000,
+ 3: 100,
+ 4: 1
+}
+```
+
+## Botify API: Facing the Rabbit Hole's Abyss
+
+Okay, I really really really don't want to jump down this rabbit hole. But this
+is the definition of a rabbit hole pitfall. There are a few easy things for me
+to do in the Botify API. The second I go a bit further, my knowledge deficit on
+the matter smacks me in the face. ALWAYS. So, I know a few things. I know how to
+pull the link-graph for a site, and I know how to count how many URLs that
+link-graph pull would produce before I do the pull so that I can adjust the
+click-depth I'm asking for to keep it under the export limit. This is
+***awesome*** in itself and is the source of a lot of my superpowers at Botify,
+but this is far from good enough. 
+
+I need to get a grip on the reins of the API more broadly. And THAT is the
+rabbit hole. The depth I have to go in order to be a little bit productive is
+the inverted 80/20-rule. Normally we look for the 20% of the work we can put in
+to get 80% of the benefit, but when standing on the precipice of a rabbit hole,
+the value proposition is flipped. It's 80% of the total window of time you have
+for a project would be burned up to only get 20% of the way towards where you
+need to be to deliver on it. **I CAN NOT LET THAT HAPPEN!** Yet, I cannot even
+build the house from straw if there is no straw to be found.
+
+## Take a Deep Breath. This Is NOT a Rabbit Hole
+
+Good kata... good kata... good kata... where is the muscle memory here? Where is
+the good form? Where are the knowns? What are the little footholds and
+beachheads we can seize and expand upon to, if not achieve 80/20, something more
+towards that end of the value prop?
+
+Damn it, if you can't state it clearly, you can't train an AI on it nor ask it
+for answers. This is like the FastHTML is not FastAPI problem x1000. The bots
+don't know what the bots don't know, and if it sounds like something else,
+you've got a compounded problem because they think they know and think it's
+something else and will confidently feed you the wrong answer. To solve this, I
+made a block of data that I force-feed to the bots immediately before I'm about
+to articulate a challenging request. They ***always*** perform massively better
+when I do this, and I have to do this now. You can not even build your house
+from straw if there is no straw... oh! Damn it, even just to build a straw
+house, I need a haymaker. And what I'm about to do... well, it's gonna be one
+wallop of a haymaker. I'll try to rein myself in and not terribly violate the
+80/20-rule, but this is going to pay off big time.
+
+# State it Clearly
+
+## Who You Are & Why We Are Here
+
+You are an SEO Consultant using the Botify product, an enterprise website
+crawler and analysis product. It also has a DOM-manipulating JavaScript
+include-based product called PageWorkers and a DNS/CDN-based product called
+SpeedWorkers that serves the cached rendered DOM to bots. PageWorkers and
+SpeedWorkers are collectively known as Botify's Activation products, by which
+they can perform SEO on behalf of website publishers.
+
+We are here to talk about the BQL (Botify Query Language) API, specifically
+BQLv2. We will use it to query against the Botify databases for the purpose of
+creating PageWorkers-ready optimizations in the form of `.csv` downloads or
+`.js` code, either of which when accompanied by specific instructions of what to
+do with them is deemed a ***PageWorkers deliverable***. Such a deliverable can
+be directly taken and activated on a publisher's site through Botify.
+
+You are being trained on this process and we will together step through it on a
+prototypical example, finding title tags that are too short, and with the help
+of a human, create a pattern or a rule as if to be applied on the title tag
+column of each row in a df pandas DataFrame with the `.apply()` function to
+produce a CSV, or alternatively express the equivalent JavaScript on a per-page
+basis, or a simplified version of this not requiring JavaScript, but instead
+using the Nunjucks templating engine.
+
+# BQL is not SQL
+
+## Summary of Botify Query Language (BQL)
+
+1. BQL is a Domain Specific Language designed specifically for querying SEO data in Botify, not a general-purpose database query language like SQL.
+2. BQL queries are structured as JSON objects, not as SQL-like text statements.
+3. Key components of a BQL query include:
+   - Collections: Data sources in Botify (e.g. SiteCrawler, RealKeywords)
+   - Periods: Time ranges for data analysis
+   - Dimensions: Fields for grouping data (similar to SQL's GROUP BY)
+   - Metrics: Aggregated values (e.g. counts, averages)
+   - Filters: Conditions to narrow down results
+4. BQL uses field prefixes to identify data sources, unlike SQL's table.column notation.
+5. BQL supports global fields that are consistent across collections (e.g. URL, segmentation).
+6. Functions in BQL are applied using a JSON structure with "function" and "args" keys.
+7. BQL has special handling for continuous value fields, using range functions for dimensions.
+
+## Anatomy of a BQLv2 JSON Payload
+
+Example BQL JSON payload for a POST request on URL that has an org and project and authentication token in the headers:
+
+```json
+{
+  "collections": ["crawl.20210102"],
+  "periods": [["2021-01-01", "2021-01-31"]],
+  "query": {
+    "dimensions": ["segments.pagetype.value"],
+    "metrics": ["crawl.20210102.count_urls_crawl"],
+    "filters": {...},
+    "sort": [...]
+  }
+}
+```
+
+## Some Execution Context Required
+
+This structure and approach is fundamentally different from SQL's text-based query syntax, making BQL a distinct and specialized language for SEO data analysis in Botify. To actually execute this query, you would a make a POST request with the JSON payload above to the URL endpoint. Notice that the org and project are passed as part of the URL.
+
+```python
+import requests
+
+org = "example-org"
+project = "example-project.com"
+
+api_key = Path('botify_token.txt').read_text().strip()
+headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
+payload = {<the JSON payload from above>}
+url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+response = requests.post(url, headers=headers, json=data_payload)
+```
+
+## Building Up a BQLv2 Query
+
+All queries require a Botify API token, in our examples loaded from project root:
+
+```python
+# Load API key from file
+api_key = Path('botify_token.txt').read_text().strip()
+```
+
+The headers of an http request are constructed as:
+
+```python
+headers = {
+    "Authorization": f"Token {api_key}",
+    "Content-Type": "application/json"
+}
+```
+
+The simplest API request possible, just to select username given the token, is:
+
+```python
+import requests
+
+api_key = open('botify_token.txt').read().strip()
+
+user_data = requests.get(
+    "https://api.botify.com/v1/authentication/profile",
+    headers={"Authorization": f"Token {api_key}"}
+).json()
+
+name = user_data["data"]["username"]
+print(name)
+```
+
+## Org, Project & Analysis Slugs Required
+
+Most queries require an org, project and analysis value, sometimes called a ***slug*** because it is likely to appear in a URL. In our examples we load our slugs using a JSON file from project root:
+
+```json
+{
+    "org": "example-org",
+    "project": "example-project.com",
+    "analysis": "20240101"
+}
+```
+
+## How to Fetch Projects For an Org
+
+If you only know the org, you can get a list of its projects:
+
+```python
+import json
+import requests
+
+def fetch_projects(org, api_key):
+    """Fetch all projects for a given organization from the Botify API."""
+    projects_url = f"https://api.botify.com/v1/projects/{org}"
+    headers = {"Authorization": f"Token {api_key}"}
+    all_projects = []
+
+    try:
+        while projects_url:
+            response = requests.get(projects_url, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            all_projects.extend(
+                (
+                    project['name'],       # Project Name
+                    project['slug'],       # Project Slug
+                    project['user']['login']  # Project User Login
+                )
+                for project in data.get('results', [])
+            )
+            projects_url = data.get('next')
+        return sorted(all_projects)
+    except requests.RequestException as e:
+        print(f"Error fetching projects for {org}: {e}")
+        return []
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config.json"))
+org = config['org']
+
+# Fetch projects
+projects = fetch_projects(org, api_key)
+
+for project_name, project_slug, project_user in projects:
+    print(f"Name: {project_name}, Slug: {project_slug}, User: {project_user}")
+```
+
+## How to Fetch Analyses For an Org & Project
+
+When you have an org and a project, you can get its list of analyses:
+
+```python
+import json
+import requests
+
+def fetch_analyses(org, project, api_key):
+    """Fetch analysis slugs for a given project from the Botify API."""
+    analysis_url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
+    headers = {"Authorization": f"Token {api_key}"}
+    all_analysis_slugs = []
+
+    try:
+        while analysis_url:
+            response = requests.get(analysis_url, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            all_analysis_slugs.extend(
+                analysis['slug'] for analysis in data.get('results', [])
+            )
+            analysis_url = data.get('next')
+        return all_analysis_slugs
+    except requests.RequestException as e:
+        print(f"Error fetching analyses for project '{project}': {e}")
+        return []
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config.json"))
+org = config['org']
+project = config['project']
+
+# Fetch analyses
+analyses = fetch_analyses(org, project, api_key)
+
+for slug in analyses:
+    print(slug)
+```
+
+## What Are Collections in Botify?
+
+Collections are a source of data in Botify. Each collection exposes a set of
+fields that can be used as metrics, dimensions, and/or filters. There is a
+1-to-1 relationship between analyses and collections, so every analysis of the
+form also has a collection in the form `crawl.YYYYMMDD`, where YYYMMDD follows
+the pattern of the returned "date slugs" from the `fetch_analyses()` function.
+
+There are many more collections in Botify than just on crawl analyses. For
+example `search_console` or `sitemap` data. There are sometimes dot-notation
+prefixes such as `visits.ganalytics` or `web_vitals.field_data`. Collections can
+be thought of as ***table aliases*** set up for API convenience. Not all
+projects have the same list of collections.
+
+Given an org and a project, you can get a list of its collections:
+
+```python
+import json
+import requests
+
+def fetch_collections(org, project, api_key):
+    """Fetch collection IDs for a given project from the Botify API."""
+    collections_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections"
+    headers = {"Authorization": f"Token {api_key}"}
+    
+    try:
+        response = requests.get(collections_url, headers=headers)
+        response.raise_for_status()
+        collections_data = response.json()
+        return [
+            (collection['id'], collection['name']) for collection in collections_data
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching collections for project '{project}': {e}")
+        return []
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config.json"))
+org = config['org']
+project = config['project']
+
+# Fetch collections
+collections = fetch_collections(org, project, api_key)
+for collection_id, collection_name in collections:
+    print(f"ID: {collection_id}, Name: {collection_name}")
+```
+
+## How to Fetch the Fields of a Collection
+
+And finally, any given collection given is nature as an aliased table, must also
+have fields. And it is these fields we must often get to in order to include
+metrics, add dimensions and filters to reports. Because for any given project,
+the collections may vary and within a collection, the fields may vary it is
+critical to check available collections and fields when constructing a BQLv2
+query to ensure the requested resources are available.
+
+```python
+import json
+import requests
+
+def fetch_fields(org, project, collection, api_key):
+    """Fetch available fields for a given collection from the Botify API."""
+    fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
+    headers = {"Authorization": f"Token {api_key}"}
+    
+    try:
+        response = requests.get(fields_url, headers=headers)
+        response.raise_for_status()
+        fields_data = response.json()
+
+        # Extract fields from each dataset in the response
+        all_fields = [
+            (field['id'], field['name'])  # field id and field name
+            for dataset in fields_data.get('datasets', [])
+            for field in dataset.get('fields', [])
+        ]
+        
+        return all_fields
+    except requests.RequestException as e:
+        print(f"Error fetching fields for collection '{collection}' in project '{project}': {e}")
+        return []
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config3.json"))
+org = config['org']
+project = config['project']
+collection = config['collection']  # Assuming collection is also in config
+
+# Fetch fields
+fields = fetch_fields(org, project, collection, api_key)
+
+for field_id, field_name in fields:
+    print(f"ID: {field_id}, Name: {field_name}")
+```
