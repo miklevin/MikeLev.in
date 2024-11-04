@@ -30,8 +30,8 @@ app, rt = fast_app(
 )
 ```
 
-Still no problem. But the moment you go from from just http and websockets to
-sse as well (server side events), you lose auto-reload and get this error
+Still no problem. But the moment you go from from just HTTP and WebSockets to
+SSE as well (server side events), you lose auto-reload and get this error
 message when it tries. It needs an extra `Control-C` from the user, which sort
 of defeats the purpose. It becomes unresponsive, but is still stuck running and
 sort of needs an anvil dropped on its head.
