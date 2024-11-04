@@ -308,7 +308,6 @@ In summary, this setup enables fast, error-resistant, and convenient server
 restarts, maintaining live-reload convenience while working around the quirks
 introduced by server-sent events. It makes development with FastHTML smoother
 and more reliable, even when complex real-time features like SSE are in play.
-Some explanation of why this article.
 
 ## Dropping The Anvil on SSE & This Article
 
