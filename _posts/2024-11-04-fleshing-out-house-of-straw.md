@@ -296,12 +296,217 @@ example was the subject of the "bonus article" I threw in on ***auto-reload***.
 It's a wonderful feature that keeps you in flow state when you're working,
 because every time you do a file-save of your work, the server automatically
 reboots and you can go see your work in the web browser without even so much as
-an `F5` or `Ctrl+R` refresh. I got that feature back after implementing the
-***server side effects*** (aka SSE) feature, which ultimately gave me my
-***ghost in the machine*** effect, which I also already had going but lost when
-I switched from using ***websockets*** from simulated streaming to ***actual
-streaming*** of the LLM's output from `ollama`, a sort of ***webserver for
-AI***. Pshwew! End back-reference discussion. That was all by way of taking a
-deep breath and getting back to our house-of-straw rapid roundrobining
-triple-pass I'm about to plunge into using this precious morning focus time.
+an `F5` or `Ctrl+R` refresh. 
 
+I got auto-reload back after implementing the ***server side effects*** (aka
+SSE) feature, which ultimately gave me my ***ghost in the machine*** effect,
+which I also already had going but lost when I switched from using
+***websockets*** from simulated streaming to ***actual streaming*** of the LLM's
+output from `ollama`, a sort of ***webserver for AI***. Pshwew! End
+back-reference discussion. That was all by way of taking a deep breath and
+getting back to our house-of-straw rapid roundrobining triple-pass I'm about to
+plunge into using this precious morning focus time.
+
+## HTMX Revolution: Webdev Renaissance is Here
+
+I've taken a number of other precautions lately to ensure I could enter and stay
+in the flow-state repeatedly lately, enough so that I can get some of the big
+work of my life done&#151;this deeply AI-integrated HTMX-utilizing web
+framework. Yes, the rise of AI is only going to happen once. But also the webdev
+renaissance powered by HTMX-backlash to ReactJS and overweight web frameworks...
+well, that might happen more than once, but it's getting ready to go into full
+swing and I want to be one of the folks leading that charge. The Webmaster is
+back, baby! 
+
+## HTMX & AI Speed Up Web Development
+
+Thanks in great part to the one+two punch of HTMX and the AI code-assist tools
+who ***get*** that if you have a firm command of the elegant and plenty
+sufficient lower-level web-stack tools that you don't need all that other
+JavaScript overhead crap. It's uncommon wisdom and an anti-pattern that requires
+a high level of AI-validated confidence to build based on. And here I am doing
+that&#151;once again that concept of hitting above my weight class because the
+tools have change sufficiently thus that they allow me to. Okay, enough warm-up
+rambling and time to get down to some straw house building.
+
+## Our Ghosts in the Machine are In a Sprint
+
+This is a small and shrinking window. Work like a man dying. I go into the
+office tomorrow and have a meeting with the big boss over all this ghost in the
+machine stuff. We are in a race. It's not just any race. It's a sprint, as my
+direct boss put it. It's not a marathon. It's a sprint. The sprint is to have
+this thing done and the effect of it rippling through the company pronto. Like
+today, pronto. I should really have a video by the end of this thing to unveil
+what I have built internally. 1, 2, 3... 1? Shoshin, like a beginner. We are
+always on step-1. There is only ever the very next thing to do. And in this
+case, it is...
+
+## Building Self-Learning AI Straw Houses: An Introduction
+
+Surveying the landscape for the straw houses! We need an intro page&#151; a page
+with no rabbit hole potential. A page where I just use the principles of
+FastHTML, mostly with the `Card()` element to introduce and lay out the look of
+everything to follow, along with the whole elevator pitch of the self-learning
+AI infused into the system. Not so much self-learning, as learning off of you,
+the dear user, as you use the software it's built into. The actual effect of
+that is very short tern&#151;only until the next file-save/auto-load rebuild at
+which time the whole running AI instance gets destroyed and freshly
+re-instantiated and blip-trained on its JSON API-syntax using the system prompt.
+It gives me the chills just thinking about it. I'm using gemma:2b right now for
+the purpose, the best at receiving that Matrix-style Kung Fu download on edge
+devices like Macbook's. Intro page in place!
+
+### Vim Hack: Jump To Your Coding Hotspots With Ease
+
+And I just introduced the comment-tag `!!!menuxx` that lets me jump between the
+3 key locations in the program by just shift+8'ing (vim: find next occurrence)
+with the cursor over top the tag-name. Sometimes you don't need AI in Cursor,
+but just intelligence using your cursor&#151;particularly in regard to using the
+everyday keystroke features of vim, the big muscle-memory gift in life to
+coders. 
+
+Do journal-writing like this in vim to think through your thoughts, have all the
+vim-skills you develop in the low-pressure environment of freeform
+journal-writing transfer immediately and gloriously back into your coding
+skills. So now I can search on `!!!` which is a special bookmark I've used all
+my life inserting in code on places I want to come back to, but `shift+8`
+doesn't work with that geared towards word-boundaries as it is, so that's why
+the made-up word that doesn't occur anywhere else. That's why `menux` in the
+first place, but now `menuxx` is a subset of that which direct-jumps me to the
+really hot-spots for plugin menu/app injection.
+
+Welcome to the class class. Let our class begin. It begins thus. Here is an
+introduction.
+
+    http://localhost:5001/introduction
+
+### An Introduction Is On the Menu
+
+To make this introduction to you, we must begin our class. We will start with a
+map on how to get to class, even though there is nothing happening there yet. It
+is still satisfying to see it on the menu.
+
+```python
+MENU_ITEMS = ["introduction", todo_app.name, 'link_graph', 'gap_analysis', 'stream_simulator',]
+```
+
+We speak the language of lower-case endpoints at this point. It could have been
+a complicated configuration dict that had human-readable names and their
+endpoint-manifesting counterparts, but I say NO! In for an anti-pattern, in for
+a pounding, I always say. Let's pound away at some simple self-evident control
+mechanisms when you see them.
+
+### Apps Plug Into Left-Hand Grid
+
+Next is the aptly named `create_grid_left` where the plugin apps reside. Can you
+read what's going on there, and why I just routed us to an instance of the
+`Introduction` class (which isn't there yet)?
+
+You can see how my magical code-bookmarks-without-bookmarks method works. Sure,
+automatically reconfiguring drop-in plugin systems do away with steps like this
+entirely, and I might get there. But cut me some slack, will ya? This system is
+just being born. There will be time enough to over-complexify it later. For now,
+we hand-code our plugins, but in the most painless way I have the skills to make
+it be.
+
+That weird extra `Card()` logic in there is to accommodate for plugin apps that
+follow the `todo` app pattern, which have sortable lists and which you're never
+really going to know what they're called, and there might be multiple, and you
+don't want to repeat, yadda yadda if is_render else placeholder.
+
+```python
+async def create_grid_left(menux, is_render_view=False, render_items=None):
+    """
+    Create the left column of the main grid layout with vertically stacked Cards.
+    !!!menuxx makes for a good search term to jump here for frequent menu tweaking.
+    """
+    if menux == 'introduction':
+        return await introduction.render()
+    elif menux == 'link_graph':
+        return await link_graph.render()
+    elif menux == 'stream_simulator':
+        return await stream_simulator.render()
+    if menux == profile_app.name:
+        return await profile_switcher()
+    else:
+        main_card = Card(
+            H2(f"{endpoint_fmt(menux)} {LIST_SUFFIX}"),
+            Ul(*[todo_app.render_item(item) for item in (render_items or [])],
+               id='todo-list',
+               cls='sortable',
+               style="padding-left: 0;",
+               ),
+            header=create_todo_form() if is_render_view else None,
+        ) if is_render_view else Card(
+            H2(f"{endpoint_fmt(menux)}"),
+            P("This is a placeholder for the selected application."),
+        )
+
+    return Div(
+        main_card,
+        id="content-container",
+        style="display: flex; flex-direction: column;"
+    )
+```
+
+And now welcome to class. We have a Introductory class. This not only designs
+the class prototype, aka the model for the class, aka the template or ***factory
+class***, but it also at the bottom there with the lower-case `introduction`
+stamps out an instance of that factory class (so we can use it in the menu).
+
+```python
+# !!!menuxx
+
+class Introduction:
+    def __init__(self, app, route_prefix="/introduction"):
+        self.app = app
+        self.route_prefix = route_prefix
+        self.logger = logger.bind(name="Introduction")
+
+    async def render(self):
+        """Render the introduction content."""
+        self.logger.debug("Guess where you are.")
+        return Card(
+            H3("Introduction"),
+            P("This is a basic welcome card for the introduction plugin."),
+            id="intro-card",
+        )
+
+
+introduction = Introduction(app, route_prefix="/introduction")
+```
+
+## Object Oriented Programming: Now With AI to Explain It!
+
+And it's just that easy. We build a factory class and then we instantiate an
+instance of that factory class for use elsewhere. There's tons of silly language
+layered on thick here to help us wrap our minds around the often baffling and
+befuddling techniques that are ***object oriented programming*** (OO). Hey Ma,
+what's an `__init__`? I'll tell you when you get older, dear.
+
+I've avoided OO programming like the plague for ages. I mean I ***get it***. I
+know it's super-valuable and makes certain types of programming like a plugin
+system we're using here ***so much easier***, but before the ***human-like
+AI-code Assistants***, all these little nuances like __init__ and how parameter
+arguments get passed differently, and how `self` works... well, it was all just
+too daunting and never traversed from my Shoshin state into my Kung Fu.
+
+## Cursor AI: Finally, an IDE I Like!
+
+There was AI code assist before in things like Microsoft ***Intellisense***
+built into VSCode, and also ***Snippets*** which sometimes competed with and
+sometimes complemented Intellisense, but I hated them both along with VSCode
+itself, and frankly all those twinkling IDEs that screamed nothing but nurturing
+a baby-like dependency that would keep yo having to be coddled all your
+programming life by IDEs provided by Ma-Microsoft. Well, they got me. The new
+generation of AI code assistants powered by Claude 3.5 Sonnet and such are just
+so friggin useful as to not be passed over. 
+
+And VSCode in the guise of Cursor AI is where it's happening best right now,
+because of having all those important nuances down that make it useful. I mean,
+I even explored Jupyter AI before going all-in on Cursor AI, and even in Cursor
+I keep my vim keybindings turned on so it's not completely antithetical to my
+being. Sighhhh, sometimes you just gotta use the power-tools. Just don't let
+your vim muscle memory skills get rusty! Edit as much as you can in
+stripped-down non-plugin vim/NeoVim as you can. It will pay you back in spades
+over the years.
