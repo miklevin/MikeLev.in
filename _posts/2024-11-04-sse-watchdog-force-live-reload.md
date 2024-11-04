@@ -112,7 +112,7 @@ And now you have to hit Control+C to ***really reboot the server*** whenever a
 file-save occurs. And it's all still running from the same single `server.py`
 (or whatever). Sheesh! 
 
-And that's where watchdog comes in.
+And that's where `watchdog` comes in.
 
 I really don't like doing this, because so far we've avoided the Pythonic but
 ugly run-like-a-script directive:
