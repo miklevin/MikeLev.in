@@ -311,11 +311,11 @@ and more reliable, even when complex real-time features like SSE are in play.
 
 ## Dropping The Anvil on SSE & This Article
 
-This watchdog setup is like giving Wile E. Coyote an anvil that finally lands.
-By adding a reliable hammer to force FastHTML’s live-reload, we sidestep the
-usual Control-C dance and let our SSE-driven server rise from the ashes of each
-code save, fresh and error-free. We’ve traded the sleek serve command for a more
-resilient approach, keeping syntax errors in check and ensuring that no stubborn
-SSE connections linger behind. It’s not just about making the server
-restart—it’s about making it do so smoothly, automatically, and reliably, just
-like a well-placed anvil.
+This watchdog setup is dropping that anvil on Wile E. Coyote if he were a
+webserver. By adding a reliable hammer to force FastHTML’s live-reload, we
+sidestep the usual Control-C dance and let our SSE-driven server rise from the
+ashes of each code save, fresh and error-free. We’ve traded the sleek serve
+command for a more resilient approach, keeping syntax errors in check and
+ensuring that no stubborn SSE connections linger behind. It’s not just about
+making the server restart—it’s about making it do so smoothly, automatically,
+and reliably that we can get back into our beloved no-build webdev flow state.
