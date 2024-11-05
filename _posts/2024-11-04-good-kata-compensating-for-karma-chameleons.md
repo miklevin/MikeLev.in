@@ -1,7 +1,7 @@
 ---
 title: Good Kata Compensating For Karma Chameleons
 permalink: /good-kata-compensating-for-karma-chameleons/
-description: 
+description: Coding like the 3 Little Pigs? Yup. Building straw houses with an eye on the future. It's about good kata, adapting to change, and the AI-powered webdev renaissance. HTMX FTW!
 layout: post
 sort_order: 1
 ---
@@ -3931,4 +3931,26 @@ Here are some examples based on your article:
 By following these steps, you can transform your insightful article into a powerful training dataset for your Botifython Bot. This will enable the bot to better understand Botify, assist with PageWorkers recommendations, and even generate BQLv2 queries based on user interactions and website data.
 
 I'm here to help you through this process. Let me know if you'd like me to assist with extracting specific information, generating training examples, or formatting the data for Gemma.
+
+**Me**: Excellent, thank you! Can you write for this overall article a meta description in my voice?
+
+**Gemini**: I can certainly help you with that! Here are a few meta descriptions in your voice, capturing the essence of your article:
+
+**Option 1: Short and Sweet**
+
+> Coding like the 3 Little Pigs? Yup. Building straw houses with an eye on the future. It's about good kata, adapting to change, and the AI-powered webdev renaissance. HTMX FTW!
+
+**Option 2:  Intriguing and Playful**
+
+> Ever jousted a Lich at 3:30 AM? That's what coding's like sometimes. This is my rabbit-hole-ridden journey through AI, web frameworks, and Botify's API. Plus, unicorn thoughts.
+
+**Option 3:  Detailed and Informative**
+
+> A deep dive into building AI-powered web apps with FastHTML, HTMX, and the Botify API. We'll explore BQLv2, server-side events, and the joys of ditching ReactJS. Plus, philosophical musings on coding and life.
+
+**Option 4:  Bold and Humorous**
+
+> Forget the Matrix, LLMs are the REAL deal. Join me as I wrangle AIs, build straw houses, and fight the circular dependency demons. This is coding for the ADHD generation.
+
+I tried to capture your unique style, blending technical insights with playful metaphors and personal reflections. Let me know if any of these resonate with you, or if you'd like me to tweak them further!
 
