@@ -2707,8 +2707,6 @@ produce a CSV, or alternatively express the equivalent JavaScript on a per-page
 basis, or a simplified version of this not requiring JavaScript, but instead
 using the Nunjucks templating engine.
 
-# BQL is not SQL
-
 ## Summary of Botify Query Language (BQL)
 
 1. BQL is a Domain Specific Language designed specifically for querying SEO data in Botify, not a general-purpose database query language like SQL.
@@ -2986,3 +2984,535 @@ fields = fetch_fields(org, project, collection, api_key)
 for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
 ```
+
+## Putting It All Together in a BQLv2 Aggregate Query
+
+Let's say we want to export the ***link graph*** of a Botify-crawled website but
+the API export limit is 1-million rows. This presents us with several
+challenges.
+
+- How to ***export data*** (versus listing and paging-through)
+- How to construct the query, finding and arranging the right collections and field names
+- How to make sure we are requesting a number of rows within the export limit
+
+### Listing vs. Exporting
+
+URLs used for listing, paging and aggregate values use the org and project in
+the URL and with the correct JSON payload and token in the headers, the response
+object can be read directly to a maximum of 2000 rows, and the endpoint takes
+the querystring parameters:
+
+- size: the number of results by page. By default 500
+- page: the number page. By default 1
+- count: the total number of results. If specified, the API response will contain a count key with the total number of results. By default not specified.
+
+The URL for listing, paging and aggregate queries is:
+
+```python
+url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+```
+
+If initiating an export, which is the generating of a `.csv` file for download,
+the project and org are no longer included in the URL endpoint but are instead
+made part of the JSON payload. The endpoint URL to be used for an export is:
+
+```python
+url = "https://api.botify.com/v1/jobs"
+```
+
+### Polling When Exporting `.csv` Files
+
+We cover later how the JSON payload must be altered, but the returned value now
+for an export will be a JSON object containing a "job_url" key with a URL value
+for polling. That polling URL must be checked at intervals until the value for
+the key "job_status" == "DONE", at which time there will be a "download_url" in
+"results".
+
+Considering the rigmarole of all this, it's best to check you're actually
+downloading what you want first, so it's good practice to do the equivalent
+query without the export, as a much more lightweight aggregate report query
+beforehand using the data you receive back to adjust your export query.
+
+### Aggregate Queries as 1-Row Lists (Measure Before Exporting)
+
+In the following example, we will query for the number of edges in the link
+graph before we download it so we can make sure it is under the 1000000 limit.
+The way we know how to construct this query is:
+
+- We look at the list of analysis slugs for an org and project
+- We check the list of collections for the analysis slug for `crawl.YYYYMMDD` (e.g. `crawl.20241104`)
+- We check the fields for the crawl collection for `.outlinks_internal.nb.total` and `.depth`
+- We assemble the JSON payload using the API syntax pattern demonstrated here
+- We make the request and parse the results for the "number of edges" answer
+
+```python
+import json
+import requests
+
+def fetch_edge_count(org, project, analysis, depth, api_key):
+    """Fetch the number of edges (internal outlinks) for a given analysis from the Botify API."""
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    headers = {
+        "Authorization": f"Token {api_key}",
+        "Content-Type": "application/json"
+    }
+    
+    # Define the payload for the query
+    data_payload_v2 = {
+        "collections": [
+            f"crawl.{analysis}"
+        ],
+        "query": {
+            "dimensions": [],
+            "metrics": [
+                {
+                    "function": "sum",
+                    "args": [
+                        f"crawl.{analysis}.outlinks_internal.nb.total"
+                    ]
+                }
+            ],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            }
+        }
+    }
+    
+    try:
+        response = requests.post(url, headers=headers, json=data_payload_v2)
+        response.raise_for_status()
+        data = response.json()
+        
+        # Extract the number of edges from the response data
+        edges = data["results"][0]["metrics"][0]
+        return edges
+    except requests.RequestException as e:
+        print(f"Error fetching edge count for analysis '{analysis}' in project '{project}': {e}")
+        return None
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config3.json"))
+org = config['org']
+project = config['project']
+analysis = config['analysis']  # Assuming 'analysis' is also in config
+depth = config.get('depth', 5)  # Assuming 'depth' is configurable, with a default of 5 if not set
+
+# Fetch the number of edges
+edges = fetch_edge_count(org, project, analysis, depth, api_key)
+
+# Display the number of edges
+if edges is not None:
+    print(f"Number of edges (internal outlinks) at depth <= {depth}: {edges}")
+else:
+    print("Failed to retrieve the edge count.")
+```
+
+This will output something like:
+
+```
+Number of edges (internal outlinks) at depth <= 5: 933864
+```
+
+## Looping Lightweight Parameterized Reports
+
+With such a lightweight query, we can now execute it repeatedly with `depth`
+parameterized in a loop to find the deepest click-depth we can export without
+exceeding a million rows. An outer loop like this so it could be used with the
+above code to find max depth, although this might be able to be done more
+efficiently with a single report.
+
+```python
+final_edges = 0
+for depth in range(1, 10):
+    edges = get_edges(depth)
+    if edges > 1000000 or edges == previous_edges:
+        chosen_depth = depth - 1
+        final_edges = previous_edges if depth > 1 else edges
+        break
+    elif depth == 9:
+        chosen_depth = depth
+        final_edges = edges
+```
+
+## Exporting `.CSV` Files from Botify With the API
+
+Now knowing at what depth you want to export your link graph, you can begin the
+csv export.
+
+```python
+import json
+import requests
+import gzip
+import shutil
+
+def start_export_job(org, project, analysis, chosen_depth, api_key):
+    """Start an export job in Botify and poll for job completion."""
+    url = "https://api.botify.com/v1/jobs"
+    headers = {
+        "Authorization": f"Token {api_key}",
+        "Content-Type": "application/json"
+    }
+
+    # Data payload for the BQLv2 query
+    data_payload_v2 = {
+        "job_type": "export",
+        "payload": {
+            "username": org,
+            "project": project,
+            "connector": "direct_download",
+            "formatter": "csv",
+            "export_size": 1000000,
+            "query": {
+                "collections": [
+                    f"crawl.{analysis}"
+                ],
+                "query": {
+                    "dimensions": [
+                        "url",
+                        f"crawl.{analysis}.outlinks_internal.graph.url"
+                    ],
+                    "metrics": [],
+                    "filters": {
+                        "field": f"crawl.{analysis}.depth",
+                        "predicate": "lte",
+                        "value": chosen_depth
+                    }
+                },
+            },
+        }
+    }
+    
+    try:
+        # Start the export job
+        response = requests.post(url, headers=headers, json=data_payload_v2)
+        response.raise_for_status()
+        export_job_details = response.json()
+        
+        # Extract job URL for polling
+        job_url = f"https://api.botify.com{export_job_details.get('job_url')}"
+        
+        # Polling for job completion
+        attempts = 300
+        delay = 3
+        print("Polling for job completion:", end=" ")
+        while attempts > 0:
+            attempts -= 1
+            time.sleep(delay)
+            poll_response = requests.get(job_url, headers=headers)
+            poll_response.raise_for_status()
+            job_status_details = poll_response.json()
+            if job_status_details["job_status"] == "DONE":
+                print("Done!")
+                download_url = job_status_details["results"]["download_url"]
+                return download_url
+            print(".", end="", flush=True)
+        
+        print("\nJob did not complete within the expected time.")
+        return None
+    except requests.RequestException as e:
+        print(f"Error starting or polling export job: {e}")
+        return None
+
+# Load API key and configuration
+api_key = open('botify_token.txt').read().strip()
+config = json.load(open("config3.json"))
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+chosen_depth = config.get('depth', 5)
+
+# Start export job and get download URL
+download_url = start_export_job(org, project, analysis, chosen_depth, api_key)
+
+# Download and decompress the file if the download URL is available
+if download_url:
+    gz_filename = "exported_data.csv.gz"
+    csv_filename = "exported_data.csv"
+    
+    # Step 1: Download the gzipped CSV file
+    response = requests.get(download_url, stream=True)
+    with open(gz_filename, "wb") as gz_file:
+        shutil.copyfileobj(response.raw, gz_file)
+    print(f"File downloaded as '{gz_filename}'")
+    
+    # Step 2: Decompress the .gz file to .csv
+    with gzip.open(gz_filename, "rb") as f_in:
+        with open(csv_filename, "wb") as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    print(f"File decompressed and saved as '{csv_filename}'")
+else:
+    print("Failed to retrieve the download URL.")
+```
+
+### Overview of the Botify API Export CSV Process
+
+1. **Starting the Export Job**:
+   - The function `start_export_job` sends a `POST` request to the Botify API to start an export job, which will generate a CSV file containing the desired data.
+   - The payload, `data_payload_v2`, specifies the details for the export job, including:
+     - **`job_type`**: Indicates an export job.
+     - **Export Parameters**:
+       - **`username`**, **`project`**, and **`analysis`**: Define the Botify project and collection to be queried.
+       - **Data Format**: The data is formatted as `csv` for easy handling.
+       - **Export Size**: Specifies the maximum size of the exported file.
+       - **Data Query**: Defines the data structure to be retrieved (dimensions and filters).
+   - This payload is sent to the Botify API endpoint, which starts the export job.
+
+2. **Polling for Job Completion**:
+   - After starting the export, the function retrieves a `job_url` to track the job status.
+   - Using the `job_url`, the function repeatedly sends a `GET` request to check if the job is complete. This is known as **polling**.
+   - **Polling Logic**:
+     - The function polls every 3 seconds, up to a maximum of 300 attempts (about 15 minutes).
+     - For each attempt, it checks `job_status_details` to see if the `"job_status"` is marked as `"DONE"`.
+     - While polling, the function prints dots (`.`) to indicate progress.
+   - Once the job status is `"DONE"`, the function retrieves the `download_url` for the generated CSV file. If the job does not complete within the allowed time, it returns `None`.
+
+3. **Downloading the Exported File**:
+   - If the job completes successfully, `download_url` is used to download the file.
+   - The file is downloaded as a **gzipped CSV** (`exported_data.csv.gz`). Gzip compression is common for large files as it reduces file size, making downloads faster.
+
+4. **Decompressing the Gzipped CSV**:
+   - After downloading, the code decompresses the `.csv.gz` file using Python’s `gzip` module.
+   - The decompressed file is saved as a regular `.csv` file (`exported_data.csv`), ready for use.
+   - **File Handling Steps**:
+     - `shutil.copyfileobj` is used for efficient file copying, allowing the data to stream directly from the compressed file to the uncompressed `.csv` file without loading everything into memory.
+
+5. **Final Output**:
+   - The function ends by printing a success message if the file is successfully downloaded and decompressed.
+   - The resulting file, `exported_data.csv`, is now ready for analysis.
+
+### Breakdown of Key Components
+
+- **Data Query in Payload**: The payload specifies filters, dimensions, and collections, targeting specific URLs and internal outlinks based on a given depth level (`chosen_depth`). This setup customizes the exported data based on the analysis requirements.
+- **Polling and Timeout**: The polling mechanism with a maximum attempt limit ensures that the function does not wait indefinitely if the job takes too long to complete.
+- **Decompression Step**: This step automatically converts the `.gz` file to a `.csv`, making the data easy to read and analyze directly from the downloaded file.
+
+### Summary
+
+This code automates the process of:
+1. Starting an export job.
+2. Monitoring for its completion.
+3. Downloading the resulting gzipped CSV.
+4. Decompressing it for immediate access.
+
+The entire flow is optimized for a notebook environment, with clear feedback on progress and status, creating a seamless experience for managing and retrieving large data exports.
+
+Let's say we want to explore some data buried somewhere in Botify. We know that
+there's a feature called ActionBoard in the web user interface to the product.
+Want some insight? You can surf to pretty much any page in the web UI, bring up
+the Chrome Web Developer Tools (devools) and go to the `Network` tab and do a
+refresh. Information is laid bare in front of you, and a lot of information, it
+is! Depending what page you're on, you'll get many things under the Requests
+column, the verbatim list of filenames, data-connections made and other stuff.
+Look for the words `aggs` or `query`. Click on one.
+
+Now switch between the `Payload` and `Response` tabs to see what was sent and
+what was received. Unfortunately, what was received isn't very well labeled in
+the received JSON object structures or else you wouldn't have to switch to the
+Payload tab so much to know what the heck you're looking at. Mostly, it just
+labels things dimensions and metrics, and then has the numbers and the booleans.
+If you're lucky you can figure out what it's controlling in the UI, but mostly
+it's a way to expose yourself to a lot more BQL mostly V2. There's a BQLv1 out
+there still, but the new API is catching up on most things.
+
+But what about peeling away layers of all that Collections and Fields data we're
+receiving. Well, I need to do that more often, and I need to go back to Jupyter
+Notebooks to have a little playground. As much as I love Cursor AI lately, and
+have had a reversal of religion concerning outright rejection of VSCode of all
+that is unholy... I rescind my admonishments. It is not adoration. Every time I
+go back to vim or NeoVim, it's a sigh of relief. I'm typing in nvim it right
+now. However, whenever I do go back to a plain old Jupyter Notebook, even on
+with Jupyter AI running, I miss Claude via Cursor AI. 
+
+Curses! Never had I had such mixed emotions about Cursors since I tried
+compiling QEMU from C source to get a Cursors-only graphics-free version for
+Levinux that wouldn't steal your mouse pointer when you clicked it. That
+challenge defeated me then, and I gave up chasing that as a violation of the
+80/20-rule. Other people went through the grief of compiling nice, stable
+usage-hardened versions. Though I bet today I could have done it with AI
+assistance. Everything just out of reach info-skill-wise come just within reach.
+
+And so this. Writing clearly is skill. It's the careful creation of data
+specifically for the purpose of training an AI to be good at some task. Now, I'm
+certainly not going to use this whole rambling article for that. But I will take
+carefully selected extracts, and maybe further refine here and there with AI, or
+further broaden-out and flesh-in with AI. The idea is here I am inserting Botify
+domain expertise into a context-window on-demand.
+
+Carefully and lovingly curated data and the creation of synthetic data for
+training is the equivalent of AI kata—martial arts practice fighting to commit
+moves to muscle memory. It is good form and that is precisely what I'm doing
+here. Knowledge and ability has eluded me over the past year or so as I tried to
+master the complex API of a complex product. I am exactly the sort of person AI
+should super-power, yet I feel these oppressive obstacles!
+
+Teasing it out. Teasing it out. No, a lot of today was not spent coding. It was
+spent rounding up what I know about the Botify product, and I'm still not done.
+As soon as this brain-vomit of connecting dots about what I'm actually doing
+here subsides, I will exit vimflow and go back to the struggling Shoshin in me.
+
+Shoshin is a concept from Zen Buddhism meaning beginner's mind. It refers to
+having an attitude of openness, eagerness, and lack of preconceptions when
+studying, even at an advanced level, just as a beginner would. Hey, that's me!
+I'm always like a friggin beginner. Nothing seems to stick. Not Assembly. Not C.
+Not Java. Not JavaScript. I seem to be curly-braces-allergic, which is too bad
+because one of the end goals here is to have AI spittin out nunchuck-laden
+JavaScript for PageWorkers, haha!
+
+So, I should be coding, right? Well, maybe I am. The better you can articulate
+yourself to an AI about who you are, what you're about, what you're trying to
+do, what you've tried in the past, who you're associated with, what your likes,
+dislikes predilections and natural aversions are, the better the AI will code
+for you. Express yourself clearly, and your AI-assistants assist better. It's
+all about communicating with even with... no, ***especially with***. AI.
+
+When I started on this particular little article excursion yesterday and into
+today, I was greatly concerned. It was another rabbit hole.  The difference
+between downward, spiraling, demoralizing, doom and permanently and forever,
+moving your life forward in a positive way is a very thin line of demarcation. I
+had hit an impasse. The impact was in my own knowledge and ability, despite
+having PhD level intelligence AI at my disposal. You've got a know how to be a
+doctors boss. 
+
+Being knocked off your horse is a wonderful opportunity to learn how to hop back
+up onto your horse. No matter how high that horse may be Ivory, your tower or
+virtuous or signaling. That which was previously unattainable and elusive,
+clicks into a un to elude and inevitably conquered skill. The ability to bank
+small wins continues to be with it always was however, you recalibrate small.
+When video on computers first came out, it was postage-stamp size. Now, people
+from the new generation might never encounter a postage stamp and couldn't
+remember video being a challenge for computers.
+
+That's where we are today with AI. I feel the "demand" for AI in the Cursor AI
+IDE delays... the funny waiting-in-line queues you get thrown into when it gets
+busy. It's echos of the era of slow websites again. And guess what happened?
+Capacity expanded exponentially. Amazon built data centers to put the Hoover Dam
+to shame, and that was... was... Perplexity?
+
+Perplexity: Amazon's data center construction efforts have been ongoing for many years, but they have significantly ramped up their investments in recent years. Here's an overview of Amazon's data center development and how it compares to the Hoover Dam in terms of engineering scale:
+
+## Amazon's Data Center Development
+
+Amazon Web Services (AWS), Amazon's cloud computing division, has been building data centers since the early 2000s. However, their large-scale investments in data center infrastructure have become more prominent in recent years:
+
+**Recent Major Investments:**
+
+- In April 2024, Amazon announced plans to invest $11 billion to build a data center campus near New Carlisle, Indiana[1][4].
+- In July 2023, Amazon revealed plans to invest $7.8 billion in data centers in central Ohio by the end of 2029[2].
+- Amazon has also announced plans to invest $35 billion to establish multiple data center campuses in Virginia by 2040[2].
+
+**Scale and Impact:**
+
+- The $11 billion investment in Indiana marks the largest capital investment announcement in the state's history[1][4].
+- These data center projects are expected to create thousands of jobs and have significant economic impacts on their respective regions[1][2][4].
+
+## Comparison to Hoover Dam
+
+While it's challenging to make a direct comparison between Amazon's data centers and the Hoover Dam due to their different purposes and eras of construction, we can consider some aspects:
+
+**1. Investment Scale:**
+- The Hoover Dam, adjusted for inflation, cost approximately $760 million in 1936 dollars, which would be roughly $15 billion in today's currency.
+- Amazon's recent data center investments, such as the $11 billion Indiana project, are comparable in terms of financial scale[1][4].
+
+**2. Technological Impact:**
+- The Hoover Dam was a groundbreaking engineering feat of its time, providing crucial water management and hydroelectric power.
+- Amazon's data centers represent cutting-edge technology infrastructure, powering cloud computing and artificial intelligence capabilities that are transforming various industries[1][4].
+
+**3. Economic Impact:**
+- Both projects have significant economic impacts on their regions, creating jobs and stimulating local economies[1][2][4].
+
+**4. Construction Timeframe:**
+- The Hoover Dam was built in five years (1931-1936).
+- Amazon's data center projects are typically built in phases over several years, with the ability to expand and upgrade continuously[1][2].
+
+**5. Physical Scale:**
+- While the Hoover Dam is a single massive structure, Amazon's data centers consist of multiple facilities spread across various locations, forming a distributed network of computing power.
+
+In conclusion, while the Hoover Dam and Amazon's data centers differ greatly in their purpose and era, they both represent massive engineering undertakings with significant technological, economic, and societal impacts. Amazon's data center investments, particularly in recent years, demonstrate a scale of investment and potential impact that is comparable to major historical infrastructure projects like the Hoover Dam.
+
+Citations:
+
+    [1] https://www.southbendtribune.com/story/business/2024/04/25/amazon-plans-to-build-11-data-center-complex-near-new-carlisle/73450066007/
+    [2] https://www.constructiondive.com/news/amazon-invest-8-billion-ohio-data-centers/684913/
+    [3] https://www.datacenterfrontier.com/site-selection/article/55036862/with-almost-14-billion-in-announced-spending-data-centers-call-indiana-home
+    [4] https://indianacapitalchronicle.com/briefs/amazon-web-services-to-build-11b-indiana-data-center-campus/
+    [5] https://www.reddit.com/r/mississippi/comments/1ajhqxe/amazon_to_build_two_data_centres_worth_10bn_in/
+    [6] https://aws.amazon.com/compliance/data-center/data-centers/
+    [7] https://aws.amazon.com/about-aws/global-infrastructure/
+    [8] https://www.datacenterdynamics.com/en/news/amazon-named-as-end-customer-for-starwood-data-centers-in-herndon-virginia/
+
+Yeah, right so my articles are weird, I know. But who are you and what are you
+doing here reading about kata compensating for karma chameleons, anyway? Or is
+that about the 3 little pigs and straw houses? From straw houses to Hoover Dam
+and Amazon datacenters. Wow, that really isn't so far fetched. Hoover Dam is a
+static immovable resource. It generates electricity where it's at by virtue of
+the nature of the brick house. Amazon datacenters and cloud services in general
+on the other have so abstracted away the physical details that you'd believe
+it's&#151;well, a straw house. Throw them up quick. Instantiate plenty. When the
+wolf comes a blowin, you can just instantiate out so many VMs or containers that
+the wolf's efforts are futile in comparison. Bricks not required. So the
+metaphor stands.
+
+But was my endeavor today even straw houses? It's a long meandering way to go
+for the work I need to show tomorrow, and it's about 8:30 PM on Monday. That's
+the day just beginning by some measures. But I'll run up against diminishing
+returns and exhaustion soon enough. Okay, so let's lay down the punch-line of
+this entire thing.
+
+Hey Claude! Or hey Gemini, considering the size of this article now. Or maybe
+hey o1-preview, given the reasoning prowess I'm about to need to tap. Here is
+the challenge I lay before your digital selves. 
+
+1. You know how to hit the Botify API now. You've got some good examples.
+2. I need to hit the Botify API in ways I haven't before; certain tables in
+   Collections.
+3. I'm ready here with Jupyter Notebooks, JupyterLab in particular ready to
+   receive code examples from you.
+4. Show me how to hit the most recent crawl collection by date inferred from the
+   Analysis slugs of an Organization and Project.
+5. Look at the fields in that collection and tell me what's available.
+
+You of course don't have to perform those tasks yourself, as you don't have the
+Botify token, even if you can execute Python. So instead, give me stand-alone,
+that is able to be run in a Jupyter Notebook with just whatever pip installs
+I've probably already done, Notebooks in the style we've established here. That
+is, the old synchronous way and somewhat unsafe way of using `open()` directly.
+But this is all locally running single tenant stuff for now. We'll clean it up
+and get more advanced and safe in the future. But for now, the style is bare
+bones to work to make the code as immediately understandable to newbs and plebes
+as possible. 
+
+Specifically, that means the use of `open()` over `Path()` to get at whatever
+customer names and API keys we're externalizing to keep secret. It's just less
+confusing stuff for the beginner to look at. So we can externalize org, project
+and the tokens for privacy. However, everything else belongs
+directly in the Notebook. No user-created packages which are .py-files while the
+main work is in a .ipynb-file.
+
+And even though I'm tempted otherwise for another great anti-pattern here, we'll
+put things in functions because we're likely to copy/paste over to a FastHTML
+web framework I'm regularly porting from Notebooks to now. But do keep in mind
+it's a Notebook and that does provide a unique opportunity to interact with
+whatever objects and variables are left around accessible in global in the
+forever-running ipython event loop. This is particularly true of return-values.
+Let's try to keep things inspectible for debugging and fun.
+
+Are you getting this? So, I guess I'm asking you just to get started. I'll be
+adding one great big Notebook that goes top-down, basically repeating the API
+story told here to let people and AI's onboard with the whole Botify API-adept
+SEO Consultant thing. But this is the warm-up. This is the kata. We're about to
+spar, which is getting some actual concrete PageWorkers recommendations to give
+over to the client or perform on their behalf. That's exported CSVs. That's some
+lightweight JavaScript Nunchuck patterns to re-write titles and meta
+descriptions. That's some bespoke friggin JavaScript to do some nutty link-graph
+manipulation stuff across the entire site, willing topical clusters within the
+site into existence.
+
+But let's start small. Let's start with banking some little wins. No chasing the
+rabbit down rabbit holes. No over-complex refactoring or implementations. Just
+one JupyerLab code-block chisel-strike at a time, starting with reproducing the
+stuff I have here so we quickly get up to finding ActionBoard stuff in the crawl
+collection fields, so we can continue our journey of peeling away the layers and
+know how to write some meaningful BQLv2. Begin!
