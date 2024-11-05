@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+This article became an unexpected journey into the depths of the Botify API.  What started as a simple task of pulling data turned into a quest to understand the complex layers of this API, much like peeling an onion (or, as the author puts it, venturing down a rabbit hole).  Through trial and error, code exploration, and the help of AI assistants, the author uncovers the intricacies of BQLv2, navigates collections and fields, and ultimately finds a way to extract valuable SEO insights.
+
 ## Code Like a Straw House Little Pig Who Thinks Ahead
 
 When facing a coding challenge, it’s easy to think of it like sparring—every
@@ -4059,11 +4061,12 @@ This process will bring you closer to your goal of creating an AI-powered Botify
 
 ---
 
-Me: Some back and forth to finde the crawl.YYYYMMDD collection objects that
+**Me**: Some back and forth to finde the crawl.YYYYMMDD collection objects that
 might contain ActionBoard-like optimization clues...
 
-Gemini:
+**Gemini**: 
 
+```python
 # ---
 # title: Botify Crawl Analysis
 # ---
@@ -4186,9 +4189,9 @@ if subtables:
 else:
     print(f"\nNo dot-notation sub-tables found in '{recent_collection}'.")
 
-Me: Attempting to peel away another layer.
+**Me**: Attempting to peel away another layer.
 
-Gemini: OK, it seems like we're getting closer to understanding the structure of the crawl data. Now that you have a list of the dot-notation sub-tables, we can start exploring them to find relevant fields for identifying SEO issues.
+**Gemini**: OK, it seems like we're getting closer to understanding the structure of the crawl data. Now that you have a list of the dot-notation sub-tables, we can start exploring them to find relevant fields for identifying SEO issues.
 
 Here's a breakdown of the next steps:
 
