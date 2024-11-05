@@ -1,6 +1,6 @@
 ---
-title: It's All About the Clients
-permalink: /its-all-about-the-clients/
+title: Getting Mac NeoVim Same as NixOS NeoVim
+permalink: /mac-nvim-same-as-nixos-nvim/
 description: 
 layout: post
 sort_order: 1
@@ -313,6 +313,8 @@ I will improve my script and look for something bigger and better. I used GitHub
 Copilot on NeoVim and loved it until I hated it. It's too much cognitive
 overhead just to toggle it enabled and disabled.
 
+## AI-Powered SEO Web Framework Created
+
 Okay, so the ultimate purpose of my AI SEO Web Framwork is to lead an AI SEO
 Evolution. Website publishers are going to ***want*** their sites crawled by all
 these new webcrawlers. There's really 2 new kinds of crawls going on.
@@ -335,5 +337,86 @@ such a way, a brute-force crawl-and-index process can be replaced with a subtle
 crawl. It's small-world-theory, only following the links you need. You can
 actually switch from breadth-first to depth-first, but it will be the exact
 right depth-path. Six degrees of separation. Six clicks of content retrieval.
+
+Almost all content that's produced should have both these bot-uses in mind, both
+the big training process and the small lookup process. So you ask yourself:
+
+- Why will this content help train the next evolution of models?
+- Why will this content be useful at the instant inquiries are made?
+
+There's a navigational drill-down piece of this, the old hierarchy... wait, I
+could never list it better than AI. ChatGPT 4o... I can haz ways to refer to
+this?
+
+Here are some alternative words related to hierarchy, navigation, taxonomy...
+
+- **Structure**: Refers to the organization of elements within a system, often used in data and content architecture.
+- **Architecture**: Commonly used to describe the framework of a website or system, emphasizing its structural design.
+- **Sitemap**: A roadmap or blueprint that shows the relationships between different pages or sections.
+- **Topology**: Describes the arrangement or mapping of various parts, often used in network or organizational contexts.
+- **Classification**: The process of organizing content into categories or types.
+- **Ontology**: A framework that represents the relationships and properties within a domain, often used in knowledge representation.
+- **Schema**: Defines the structure or model for organizing information, frequently seen in structured data contexts.
+- **Hierarchy Tree**: A visual representation of hierarchical relationships, often in tree-like structures.
+- **Categories/Grouping**: Refers to dividing content or items into distinct groups for easier navigation.
+- **Facets/Faceted Navigation**: Used for filtering and refining content based on multiple attributes or dimensions.
+- **Sections/Levels**: Parts within a hierarchical structure that organize content by importance or relevance.
+- **Breadcrumbs**: A navigation trail that helps users track their path within a hierarchy.
+- **Layers**: Describes different levels or depths in a hierarchical system.
+- **Drill-down/Drill-up**: Navigational terms that imply moving deeper into or back out of a hierarchy.
+- **Hierarchy Nodes**: Specific points or intersections within a hierarchical structure, where navigation can branch.
+- **Pathways**: Routes that users follow within a hierarchy, leading to specific content.
+- **Taxonomic Order**: Describes the systematic arrangement of content, often by category or relevance.
+- **Heirarchical Levels**: Different stages or steps within a structured system.
+- **Nesting**: Placing items within other items in a layered structure.
+- **Information Architecture**: The organization and labeling of information for easy navigation and usability.
+
+Each of these can help in defining the layers and organization of content within a website or data structure, especially when aiming for intuitive navigation and structured access.
+
+Okay, this is an important thought. 
+
+Insert carrot into task using json! Haha! That's one of my favorite ghost in the
+machine demonstrations yet. Okay, think through client work. I need that Kata.
+The daily form for making the clients happy. The cranking-up the communication.
+Think it through out loud to yourself. Establish that other place to do it. I
+tried that before but it flopped because it was one file per client and all the
+cd'ing around. And now I've consolidated into my public website including a Nix
+Flake to give me that unified nvim and related tools experience, and I don't
+want to give that up. Consider.
+
+    :badd ~/notes.md
+
+That keeps me in current nvim context. And it's not in any particular repo.
+There's nowhere to have to remember keeping it except it's your notes right on
+the root of your home folder. That's very powerful. And then I can just `:bn` to
+cycle to the next buffer and it will take me in a 2-places circle. Perfect.
+Okay, get to thinking about delighting the clients the way you did here.
+
+No, just no! There's no way I'm putting this much thought-work into something
+and not having it backed up in a git repo. A private repository, it is! So it
+becomes:
+
+    :badd ~/client/notes.md
+
+...which is even better. The critical thing here is that it feels like a
+permanent forever-forward asset. It feels important. It feels like I value my
+thoughts enough to back them up in a repo with all the consideration I put into
+anything else, and while it's on GitHub, I can pull it down from there any time
+and put it on any other (private) git server. It's not like cloud environments
+where you're locked into a particular writing environment.
+
+Okay, I have to eradicate the ability to run old vim on the Mac. It keeps biting
+me in the ass, like 3 times today. I always want to `nix develop` in a first
+initializing writing directory from which I launch NeoVim, which now will happen
+if I just type `vim`. But it's the default Mac vim. Ugh, okay...
+
+- edit `.zshrc` and add `alias vim="nvim"`
+- brew update
+- brew upgrade neovim
+
+Okay, now at least when I get the default Mac version, it's nvim version NVIM
+v0.10.2 working off of the same init.lua. Am I delighting clients yet? It's all
+part of the same part and parcel. Okay, keep pushing. You're getting into the
+flow on the client side.
 
 
