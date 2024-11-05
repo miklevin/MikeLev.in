@@ -419,12 +419,14 @@ v0.10.2 working off of the same init.lua. Am I delighting clients yet? It's all
 part of the same part and parcel. Okay, keep pushing. You're getting into the
 flow on the client side.
 
+## NixOS Improvements Carry Over to Mac
+
 Alright, I can feel more comfortable coming into the office again knowing that
 my Macbook experience is going to not be sub-par with my increasingly awesome
 NixOS experience. The difference in how you work when big chunks of your system
 are deterministically built from textfiles is transforming. Literally,
 transforming haha! I was impressed by `configuration.nix` with its ability to
 apply the single textfile-builds-machine trick to your whole system, but now
-it's really dawning on me that you have a `core rock` from which you `chip
-flakes`. The core rock is `configuration.nix` and the chipped flakes are the
-'flake.nix`'s.
+it's really dawning on me that you have a ***core stone*** from which you
+***chip flakes***. The core rock is `configuration.nix` and the chipped flakes
+are the 'flake.nix`'s.
