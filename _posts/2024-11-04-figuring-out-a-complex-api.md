@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-This article became an unexpected journey into the depths of the Botify API.  What started as a simple task of pulling data turned into a quest to understand the complex layers of this API, much like peeling an onion (or, as the author puts it, venturing down a rabbit hole).  Through trial and error, code exploration, and the help of AI assistants, the author uncovers the intricacies of BQLv2, navigates collections and fields, and ultimately finds a way to extract valuable SEO insights.
+This article became an unexpected journey into the depths of the Botify API.  What started as a simple task of pulling data turned into a quest to understand the complex layers of this API, much like peeling an onion (or, as I often put it, venturing down a rabbit hole).  Through trial and error, code exploration, and the help of AI assistants, the author uncovers the intricacies of BQLv2, navigates collections and fields, and ultimately finds a way to extract valuable SEO insights.
 
 ## Code Like a Straw House Little Pig Who Thinks Ahead
 
