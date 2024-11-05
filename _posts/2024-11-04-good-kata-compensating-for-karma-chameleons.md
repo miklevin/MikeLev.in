@@ -3713,7 +3713,7 @@ or a fragment of the name of one or more collections. So look at every
 collection for the project looking for actionboard in the lowercased collection
 names please. Make a filter to show only them if found.
 
-Gemini-Advanced: 
+**Gemini-Advanced**: 
 
 ```python
 import requests
@@ -3774,9 +3774,9 @@ This should help you identify the relevant collections related to ActionBoard.
 You can then use the collection IDs to fetch their fields and explore the data
 further.
 
-Me: Yep, I totally see the actionboard's listed. Show me how to pull the fields of the most recent. They use the same datestamp slugs in their names as the crawls...
+**Me**: Yep, I totally see the actionboard's listed. Show me how to pull the fields of the most recent. They use the same datestamp slugs in their names as the crawls...
 
-Gemini-Advanced: 
+**Gemini-Advanced**: 
 
 ```python
 import requests
