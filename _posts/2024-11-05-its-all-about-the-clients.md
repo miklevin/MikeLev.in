@@ -302,7 +302,7 @@ should counteract. Don't leak proprietary information, and you'll be find. Don't
 publish anything that can't be found already in the non-firewalled Botify
 Developer site.
 
-## Ambient Intelligence in Nvim: Leveraging Tools
+## Ambient Intelligence in NeoVim Wanted
 
 It's interesting how having the same Nvim helper scripts across machines makes a
 difference. I have the git-release macro and the LLM-headline-writing helper.
@@ -312,5 +312,28 @@ functions are compared to `FastHTML`'s whole shebang. The thought is there, and
 I will improve my script and look for something bigger and better. I used GitHub
 Copilot on NeoVim and loved it until I hated it. It's too much cognitive
 overhead just to toggle it enabled and disabled.
+
+Okay, so the ultimate purpose of my AI SEO Web Framwork is to lead an AI SEO
+Evolution. Website publishers are going to ***want*** their sites crawled by all
+these new webcrawlers. There's really 2 new kinds of crawls going on.
+
+- More frequent large-scale scrapes to train/update models
+- More frequent small-scale visits for immediate prompt-answering
+
+You point this system at your site, either connected to Botify or not. When
+attached to Botify, it becomes super-charged because the crawls and analysis are
+already done and it can just start turning optimization recommendations around
+to you immediately. SEO automations just start queuing up for you to approve.
+
+## LLM-Powered Crawling for Targeted Indexing
+
+When the system is not attached to Botify, it still does a ton of useful stuff,
+just not at scale. Controlling crawl-depth of tiny-crawls will be important.
+Also the very housekeeping issues that direct a breadth-first crawl can be up to
+the LLM instead of going sequential order of the links found on the page. In
+such a way, a brute-force crawl-and-index process can be replaced with a subtle
+crawl. It's small-world-theory, only following the links you need. You can
+actually switch from breadth-first to depth-first, but it will be the exact
+right depth-path. Six degrees of separation. Six clicks of content retrieval.
 
 
