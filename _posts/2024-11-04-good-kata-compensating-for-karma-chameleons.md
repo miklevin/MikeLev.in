@@ -3707,3 +3707,161 @@ pprint(fields)
 
 This notebook provides a starting point for exploring the Botify API with BQLv2. You can expand it by adding more queries, visualizations, and analysis based on your specific SEO needs. Let me know if you have any other questions or need further assistance!
 
+**Me**: Alright, this is excellent and this works! But I'm not seeing
+ActionBoard in the output of those field names. I think it's actually the name,
+or a fragment of the name of one or more collections. So look at every
+collection for the project looking for actionboard in the lowercased collection
+names please. Make a filter to show only them if found.
+
+Gemini-Advanced: 
+
+```python
+import requests
+from pathlib import Path
+from pprint import pprint
+
+def load_api_key():
+    """Load the Botify API key from botify_token.txt"""
+    try:
+        api_key = Path('botify_token.txt').read_text().strip()
+        return api_key
+    except FileNotFoundError:
+        raise FileNotFoundError("Please create a botify_token.txt file with your API token")
+
+# Load the API key
+api_key = load_api_key()
+
+# Define your organization and project
+org = "your_org"  # Replace with your organization slug
+project = "your_project"  # Replace with your project slug
+
+def fetch_collections(org, project, api_key):
+    """Fetch collection IDs for a given project from the Botify API."""
+    collections_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections"
+    headers = {"Authorization": f"Token {api_key}"}
+
+    try:
+        response = requests.get(collections_url, headers=headers)
+        response.raise_for_status()
+        collections_data = response.json()
+        return [
+            (collection['id'], collection['name']) for collection in collections_data
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching collections for project '{project}': {e}")
+        return []
+
+# Fetch collections and filter for those containing "actionboard" (case-insensitive)
+collections = fetch_collections(org, project, api_key)
+actionboard_collections = [
+    (id, name) for id, name in collections if "actionboard" in id.lower() or "actionboard" in name.lower()
+]
+
+print("Collections containing 'actionboard':")
+if actionboard_collections:
+    pprint(actionboard_collections)
+else:
+    print("No collections found with 'actionboard' in their ID or name.")
+```
+
+This code snippet does the following:
+
+1.  **Fetches all collections:** It retrieves all collection IDs and names for the specified organization and project.
+2.  **Filters for "actionboard":** It converts the collection IDs and names to lowercase and checks if they contain the substring "actionboard".
+3.  **Displays the results:** It prints the IDs and names of any collections that match the filter. If none are found, it prints a message indicating that.
+
+This should help you identify the relevant collections related to ActionBoard.
+You can then use the collection IDs to fetch their fields and explore the data
+further.
+
+Me: Yep, I totally see the actionboard's listed. Show me how to pull the fields of the most recent. They use the same datestamp slugs in their names as the crawls...
+
+Gemini-Advanced: 
+
+```python
+import requests
+from pathlib import Path
+from pprint import pprint
+
+def load_api_key():
+    """Load the Botify API key from botify_token.txt"""
+    try:
+        api_key = Path('botify_token.txt').read_text().strip()
+        return api_key
+    except FileNotFoundError:
+        raise FileNotFoundError("Please create a botify_token.txt file with your API token")
+
+# Load the API key
+api_key = load_api_key()
+
+# Define your organization and project
+org = "your_org"  # Replace with your organization slug
+project = "your_project"  # Replace with your project slug
+
+def fetch_collections(org, project, api_key):
+    """Fetch collection IDs for a given project from the Botify API."""
+    collections_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections"
+    headers = {"Authorization": f"Token {api_key}"}
+
+    try:
+        response = requests.get(collections_url, headers=headers)
+        response.raise_for_status()
+        collections_data = response.json()
+        return [
+            (collection['id'], collection['name']) for collection in collections_data
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching collections for project '{project}': {e}")
+        return []
+
+def fetch_fields(org, project, collection, api_key):
+    """Fetch available fields for a given collection from the Botify API."""
+    fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
+    headers = {"Authorization": f"Token {api_key}"}
+
+    try:
+        response = requests.get(fields_url, headers=headers)
+        response.raise_for_status()
+        fields_data = response.json()
+
+        # Extract fields from each dataset in the response
+        all_fields = [
+            (field['id'], field['name'])  # field id and field name
+            for dataset in fields_data.get('datasets', [])
+            for field in dataset.get('fields', [])
+        ]
+
+        return all_fields
+    except requests.RequestException as e:
+        print(f"Error fetching fields for collection '{collection}' in project '{project}': {e}")
+        return []
+
+# Fetch collections and filter for those containing "actionboard" (case-insensitive)
+collections = fetch_collections(org, project, api_key)
+actionboard_collections = [
+    (id, name) for id, name in collections if "actionboard" in id.lower() or "actionboard" in name.lower()
+]
+
+if actionboard_collections:
+    # Sort collections by date in descending order (assuming date is in YYYYMMDD format)
+    actionboard_collections.sort(reverse=True)
+    most_recent_collection = actionboard_collections[0][0]
+
+    # Fetch fields for the most recent actionboard collection
+    fields = fetch_fields(org, project, most_recent_collection, api_key)
+
+    print(f"Fields for the most recent actionboard collection ('{most_recent_collection}'):")
+    pprint(fields)
+else:
+    print("No collections found with 'actionboard' in their ID or name.")
+```
+
+This code does the following:
+
+1.  **Fetches and filters collections:** It retrieves all collections and filters for those containing "actionboard", as before.
+2.  **Sorts the collections:** It sorts the `actionboard_collections` list in descending order based on the date in the collection ID (assuming the date format is YYYYMMDD).
+3.  **Gets the most recent collection:** It selects the first collection ID from the sorted list, which represents the most recent one.
+4.  **Fetches fields:** It uses the `fetch_fields` function to retrieve the fields for the most recent actionboard collection.
+5.  **Displays the results:** It prints the fields for the identified collection.
+
+Now you should see the fields available in the most recent actionboard collection, which will help you understand the data structure and formulate your BQLv2 queries.
