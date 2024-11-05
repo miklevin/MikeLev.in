@@ -3409,7 +3409,7 @@ busy. It's echos of the era of slow websites again. And guess what happened?
 Capacity expanded exponentially. Amazon built data centers to put the Hoover Dam
 to shame, and that was... was... Perplexity?
 
-Perplexity: Amazon's data center construction efforts have been ongoing for many years, but they have significantly ramped up their investments in recent years. Here's an overview of Amazon's data center development and how it compares to the Hoover Dam in terms of engineering scale:
+**Perplexity**: Amazon's data center construction efforts have been ongoing for many years, but they have significantly ramped up their investments in recent years. Here's an overview of Amazon's data center development and how it compares to the Hoover Dam in terms of engineering scale:
 
 ## Amazon's Data Center Development
 
