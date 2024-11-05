@@ -6,11 +6,13 @@ layout: post
 sort_order: 1
 ---
 
-Plan every day like an adventure. Lean into your Ikagi. Practice strengthening
+## Plan Like An Adventure To Align Ikagai
+
+Plan every day like an adventure. Lean into your Ikigai. Practice strengthening
 against your weaknesses. Learn and use names. Make associations. Let your mind
-go into the needs of the clients you're servicing. Empthize with them and
-imagine what they would be lookng to you for. This is what will illuminate your
-path today so you can get out of it what you need for ikagai alignment, and they
+go into the needs of the clients you're servicing. Empathize with them and
+imagine what they would be looking to you for. This is what will illuminate your
+path today so you can get out of it what you need for ikigai alignment, and they
 can get what they need in terms of Clients. Don't get lost in the weeds or fall
 down the rabbit holes. Look at your calendar.
 
@@ -269,6 +271,11 @@ haha), and there's going to be some real thought-work going into the port. But
 all that work I did yesterday laid the foundation for a clean rebuild from
 parts. All the parts are in yesterday's post on figuring out a complex API.
 
+Traceback (most recent call last):
+  File "/Users/michaellevin/repos/nixos/helpers/ai.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
 Yes, that's part of the curated material to train LLMs to be Botify experts. I
 SHOULD do that out in public so the frontier models get better at Botify. And
 it's fine for me to take that on as a sub-mission. It's exactly the sort of
@@ -277,3 +284,5 @@ side-effect benefits, which if anyone ever gets pissed about, all the benefits
 should counteract. Don't leak proprietary information, and you'll be find. Don't
 publish anything that can't be found already in the non-firewalled Botify
 Developer site.
+
+
