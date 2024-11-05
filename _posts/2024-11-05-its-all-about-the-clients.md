@@ -302,4 +302,13 @@ should counteract. Don't leak proprietary information, and you'll be find. Don't
 publish anything that can't be found already in the non-firewalled Botify
 Developer site.
 
+It's interesting how having the same Nvim helper scripts across machines makes a
+difference. I have the git-release macro and the LLM-headline-writing helper.
+Taking advantage of ambient intelligence in nvim is a big deal. I spun my own
+with the headline writer, and it's probably as primitive as my Python `H1()`
+functions are compared to `FastHTML`'s whole shebang. The thought is there, and
+I will improve my script and look for something bigger and better. I used GitHub
+Copilot on NeoVim and loved it until I hated it. It's too much cognitive
+overhead just to toggle it enabled and disabled.
+
 
