@@ -3472,7 +3472,7 @@ a straw house. Throw them up quick. Instantiate plenty. When the wolf comes a
 blowin, you can just instantiate out so many VMs or containers that the wolf's
 efforts are futile in comparison. Bricks not required. So the metaphor stands.
 
-## Monday Night Mess: Work's Still A Chore
+## Monday Night & The Marathon Continues
 
 But was my endeavor today even straw houses? It's a long meandering way to go
 for the work I need to show tomorrow, and it's about 8:30 PM on Monday. That's
