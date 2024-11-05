@@ -3299,6 +3299,8 @@ This code automates the process of:
 
 The entire flow is optimized for a notebook environment, with clear feedback on progress and status, creating a seamless experience for managing and retrieving large data exports.
 
+## Learning BQL via DevTools Network Panel
+
 Let's say we want to explore some data buried somewhere in Botify. We know that
 there's a feature called ActionBoard in the web user interface to the product.
 Want some insight? You can surf to pretty much any page in the web UI, bring up
@@ -3317,6 +3319,8 @@ If you're lucky you can figure out what it's controlling in the UI, but mostly
 it's a way to expose yourself to a lot more BQL mostly V2. There's a BQLv1 out
 there still, but the new API is catching up on most things.
 
+## Jupyter Notebooks Still Hold A Certain Charm
+
 But what about peeling away layers of all that Collections and Fields data we're
 receiving. Well, I need to do that more often, and I need to go back to Jupyter
 Notebooks to have a little playground. As much as I love Cursor AI lately, and
@@ -3334,6 +3338,8 @@ challenge defeated me then, and I gave up chasing that as a violation of the
 usage-hardened versions. Though I bet today I could have done it with AI
 assistance. Everything just out of reach info-skill-wise come just within reach.
 
+## Botify's Domain Expertise: Training AI for SEO Mastery
+
 And so this. Writing clearly is skill. It's the careful creation of data
 specifically for the purpose of training an AI to be good at some task. Now, I'm
 certainly not going to use this whole rambling article for that. But I will take
@@ -3341,12 +3347,16 @@ carefully selected extracts, and maybe further refine here and there with AI, or
 further broaden-out and flesh-in with AI. The idea is here I am inserting Botify
 domain expertise into a context-window on-demand.
 
+## AI Training Kata: Mastering the Data Dojo
+
 Carefully and lovingly curated data and the creation of synthetic data for
 training is the equivalent of AI kata—martial arts practice fighting to commit
 moves to muscle memory. It is good form and that is precisely what I'm doing
 here. Knowledge and ability has eluded me over the past year or so as I tried to
 master the complex API of a complex product. I am exactly the sort of person AI
 should super-power, yet I feel these oppressive obstacles!
+
+## Beginner's Mind Perfect For Synthesizing New Data
 
 Teasing it out. Teasing it out. No, a lot of today was not spent coding. It was
 spent rounding up what I know about the Botify product, and I'm still not done.
@@ -3360,6 +3370,8 @@ I'm always like a friggin beginner. Nothing seems to stick. Not Assembly. Not C.
 Not Java. Not JavaScript. I seem to be curly-braces-allergic, which is too bad
 because one of the end goals here is to have AI spittin out nunchuck-laden
 JavaScript for PageWorkers, haha!
+
+## AI Coding: Speak Clearly to Get Better Results!
 
 So, I should be coding, right? Well, maybe I am. The better you can articulate
 yourself to an AI about who you are, what you're about, what you're trying to
@@ -3375,6 +3387,8 @@ moving your life forward in a positive way is a very thin line of demarcation. I
 had hit an impasse. The impact was in my own knowledge and ability, despite
 having PhD level intelligence AI at my disposal. You've got a know how to be a
 doctors boss. 
+
+## Mastering Life's Climb, One Small Win at a Time
 
 Being knocked off your horse is a wonderful opportunity to learn how to hop back
 up onto your horse. No matter how high that horse may be Ivory, your tower or
@@ -3443,17 +3457,22 @@ Citations:
     [7] https://aws.amazon.com/about-aws/global-infrastructure/
     [8] https://www.datacenterdynamics.com/en/news/amazon-named-as-end-customer-for-starwood-data-centers-in-herndon-virginia/
 
+## Virtual Houses: The Real-Life Straw vs. Brick Battle
+
 Yeah, right so my articles are weird, I know. But who are you and what are you
 doing here reading about kata compensating for karma chameleons, anyway? Or is
 that about the 3 little pigs and straw houses? From straw houses to Hoover Dam
 and Amazon datacenters. Wow, that really isn't so far fetched. Hoover Dam is a
-static immovable resource. It generates electricity where it's at by virtue of
-the nature of the brick house. Amazon datacenters and cloud services in general
-on the other have so abstracted away the physical details that you'd believe
-it's&#151;well, a straw house. Throw them up quick. Instantiate plenty. When the
-wolf comes a blowin, you can just instantiate out so many VMs or containers that
-the wolf's efforts are futile in comparison. Bricks not required. So the
-metaphor stands.
+static immovable resource. 
+
+The Hoover Dam generates electricity where it's at by virtue of the nature of
+the brick house. Amazon datacenters and cloud services in general on the other
+have so abstracted away the physical details that you'd believe it's&#151;well,
+a straw house. Throw them up quick. Instantiate plenty. When the wolf comes a
+blowin, you can just instantiate out so many VMs or containers that the wolf's
+efforts are futile in comparison. Bricks not required. So the metaphor stands.
+
+## Monday Night Mess: Work's Still A Chore
 
 But was my endeavor today even straw houses? It's a long meandering way to go
 for the work I need to show tomorrow, and it's about 8:30 PM on Monday. That's
