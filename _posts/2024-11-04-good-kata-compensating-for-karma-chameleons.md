@@ -3575,9 +3575,11 @@ Here's a Jupyter Notebook that incorporates the elements you've described:
 
 # **1. Install necessary libraries:**
 
+{% raw %}
 # ```bash
 # pip install requests
 # ```
+{% endraw %}
 
 # **2. Store your API key:**
 
@@ -3704,5 +3706,4 @@ pprint(fields)
 6.  **Run the cells:** Execute each code cell in the notebook to see the results.
 
 This notebook provides a starting point for exploring the Botify API with BQLv2. You can expand it by adding more queries, visualizations, and analysis based on your specific SEO needs. Let me know if you have any other questions or need further assistance!
-
 
