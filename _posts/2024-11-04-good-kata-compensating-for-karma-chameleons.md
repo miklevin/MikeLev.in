@@ -3493,6 +3493,8 @@ the challenge I lay before your digital selves.
    Analysis slugs of an Organization and Project.
 5. Look at the fields in that collection and tell me what's available.
 
+## Jupyter Notebooks STILL For The Win
+
 You of course don't have to perform those tasks yourself, as you don't have the
 Botify token, even if you can execute Python. So instead, give me stand-alone,
 that is able to be run in a Jupyter Notebook with just whatever pip installs
@@ -3510,6 +3512,8 @@ and the tokens for privacy. However, everything else belongs
 directly in the Notebook. No user-created packages which are .py-files while the
 main work is in a .ipynb-file.
 
+## Functions FTW: Notebooks & Anti-Patterns
+
 And even though I'm tempted otherwise for another great anti-pattern here, we'll
 put things in functions because we're likely to copy/paste over to a FastHTML
 web framework I'm regularly porting from Notebooks to now. But do keep in mind
@@ -3517,6 +3521,8 @@ it's a Notebook and that does provide a unique opportunity to interact with
 whatever objects and variables are left around accessible in global in the
 forever-running ipython event loop. This is particularly true of return-values.
 Let's try to keep things inspectible for debugging and fun.
+
+## From AI Kata To Real-World SEO Magic
 
 Are you getting this? So, I guess I'm asking you just to get started. I'll be
 adding one great big Notebook that goes top-down, basically repeating the API
@@ -3528,6 +3534,8 @@ lightweight JavaScript Nunchuck patterns to re-write titles and meta
 descriptions. That's some bespoke friggin JavaScript to do some nutty link-graph
 manipulation stuff across the entire site, willing topical clusters within the
 site into existence.
+
+## I Can Haz Brilliance?
 
 But let's start small. Let's start with banking some little wins. No chasing the
 rabbit down rabbit holes. No over-complex refactoring or implementations. Just
