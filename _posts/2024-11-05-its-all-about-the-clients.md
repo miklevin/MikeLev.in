@@ -16,6 +16,8 @@ path today so you can get out of it what you need for ikigai alignment, and they
 can get what they need in terms of Clients. Don't get lost in the weeds or fall
 down the rabbit holes. Look at your calendar.
 
+## **Cultivate Daily Habits for Success**
+
 It's a busy day, but you've still got a couple of hours before the meetings
 begin. Get your client-oriented thoughts together, and also get your big-picture
 and daily workflow thoughts together. You are forming new daily habits. You are
@@ -24,6 +26,8 @@ shy away from using the second screen on the Mac when you're in the office.
 They're so easy to plug into, and it's only at the expense of a little bit of
 effing-with your muscle memory. Macs, ugh! It's just like having to deal with
 their renaming and moving of the alt key to option. Ugh!
+
+## NixOS Environment Brings Flexibility to Office
 
 Anyway, when you're in the office, you're on Macs all day, and that's got to be
 okay. It's got to be okay for a few reasons. You've really got to lean into its
@@ -37,6 +41,8 @@ new leader-key macro system will be back instead of the @buffer approach I used
 to use&#151;because vim vs. nvim and being able to get AI help on `init.lua`. Oh
 that's a story for another time.
 
+## Resilient Muscle Memory: Mastering Flexibility
+
 Your muscle memory needs resiliency, but not that much. That's a good use of
 some of your precious valuable time right now. Go!
 
@@ -48,6 +54,8 @@ yourself generic and flexible in the industry. I fight Mac every time I get on
 one. It is like a battle for your habits. Okay, try that again. Get this to be
 my NixOS vim and not the brew installed one...
 
+## Maximize Full-Screen Journal for Focus
+
 Okay, the repo is `nixos-config` and not `nixos`. I guess that makes sense to
 avoid confusion with the command name. A couple of rules to help myself out when
 I'm on the Mac. This daily work journal full-screen on screen 1 is no
@@ -56,6 +64,8 @@ that this journal can get lost. It's always full-screen. It's always the only
 thing on that screen. And it's always what should be on screen 1 (reshuffle
 often to reset that). In this way, you always have at least 1 fixed-location,
 even on a Mac.
+
+## NixOS Configuration: A Fresh Start
 
 This is all about forced-flow-state, even when on the Mac, even when in the
 office looming over ground zero. And even with a day full of meetings that
@@ -67,6 +77,8 @@ such a stronger identity.
 
 Okay, now a few quick chisel-strikes. First, you need to put the nixos config
 that you use into the flake that you use in your `~/repos/MikeLev.in/flake.nix`
+
+## nvim Environment Not Consistent Across Flakes
 
 **Me**: @flake.nix @configuration.nix I need the nvim environment expressed in
 configuration.nix to also exist in flake.nix. Specifically, I need nvim
@@ -138,6 +150,8 @@ When you run `nix develop`, it will:
 
 **Note**: Make sure the `~/repos/nixos/init.lua` file exists on your Mac before running `nix develop`, or modify the path in the shellHook to point to the correct location of your init.lua file.
 
+## Unlocking Mac Productivity with Nvim Shortcuts
+
 Okay Mike, do this! Be brave. A new symlink on your Mac to get a nvim default to
 load easily... go! Okay, nix develop, quit in this terminal load in that
 terminal... Okay! I have my leader key macros. OMG, I can even use Function keys
@@ -156,6 +170,8 @@ ambition?
 
 Yup, okay, so the visual theme of nvim on Mac is inconsistent with the visual
 theme on NixOS.
+
+## Nvim Squggly Line Misspellings From NixOS Not On Mac
 
 Okay, that worked! But there's a difference in vim between my NixOS version at
 home and the one on the Mac. Specifically, the NixOS version which uses the
@@ -255,6 +271,8 @@ Make sure Botifymograph Bot is there and ready to be demo'd. Done.
 
 Check that the "ghost in the machine" effect works on new machine. Done.
 
+## AI Framework Integrated Into Everyday Tasks
+
 Okay, wow! I'm starting to get the chills from what I built. There are various
 "wedges" to get in advances just from daily productivity. Soon, this is not
 "developing" like a developer in this weird forced flow-state I had to get into
@@ -262,6 +280,8 @@ to get this far (birth a new AI SEO Web Framework... yup, just coined it), but
 it will be more of an interrupt-friendly yet conducive to rapid-refocusing
 environment. And it's the Link Graph stuff that's triggering these thoughts.
 That will be incorporated back in under the new framework now, no problem.
+
+## AI Tricked Me Into Using FastAPI for FastHTML
 
 Well, a little problem because I was looking at the little miracle I pulled off
 that is the link-graph mock-up and my first FastHTML app. Wow, I made it work by
@@ -271,10 +291,7 @@ haha), and there's going to be some real thought-work going into the port. But
 all that work I did yesterday laid the foundation for a clean rebuild from
 parts. All the parts are in yesterday's post on figuring out a complex API.
 
-Traceback (most recent call last):
-  File "/Users/michaellevin/repos/nixos/helpers/ai.py", line 4, in <module>
-    import requests
-ModuleNotFoundError: No module named 'requests'
+## Publicly Training LLMs as Botify Experts
 
 Yes, that's part of the curated material to train LLMs to be Botify experts. I
 SHOULD do that out in public so the frontier models get better at Botify. And
