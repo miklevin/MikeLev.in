@@ -66,7 +66,7 @@ such a stronger identity.
 Okay, now a few quick chisel-strikes. First, you need to put the nixos config
 that you use into the flake that you use in your `~/repos/MikeLev.in/flake.nix`
 
-Me: @flake.nix @configuration.nix I need the nvim environment expressed in
+**Me**: @flake.nix @configuration.nix I need the nvim environment expressed in
 configuration.nix to also exist in flake.nix. Specifically, I need nvim
 installed on `nix develop` and I need the custom path to where it finds
 `init.lua` to be to the Mac's path equivalent of `~/repos/nixos/init.lua` that
@@ -134,7 +134,7 @@ When you run `nix develop`, it will:
 2. Set up the symlink to your init.lua file
 3. Use the same configuration as your NixOS setup
 
-Note: Make sure the `~/repos/nixos/init.lua` file exists on your Mac before running `nix develop`, or modify the path in the shellHook to point to the correct location of your init.lua file.
+**Note**: Make sure the `~/repos/nixos/init.lua` file exists on your Mac before running `nix develop`, or modify the path in the shellHook to point to the correct location of your init.lua file.
 
 Okay Mike, do this! Be brave. A new symlink on your Mac to get a nvim default to
 load easily... go! Okay, nix develop, quit in this terminal load in that
@@ -172,7 +172,7 @@ Tuesday morning coming on 10:00 AM early in November. Take note, this is one of
 those things you "feel" about the state of the world. Coders who pay $20/mo for
 a code assistant are very demanding of them in this time.o
 
-Claude: The difference you're seeing is likely because your NixOS system is using `nixos-unstable` while your flake is using `nixos-23.05`. We can easily switch the flake to use the unstable branch by updating the nixpkgs input:
+**Claude**: The difference you're seeing is likely because your NixOS system is using `nixos-unstable` while your flake is using `nixos-23.05`. We can easily switch the flake to use the unstable branch by updating the nixpkgs input:
 
 ```nix:MikeLev.in/flake.nix
 {
@@ -188,3 +188,51 @@ Claude: The difference you're seeing is likely because your NixOS system is usin
 This should give you the same version of Neovim as your NixOS system, including the spell-checking appearance. If you run `nix flake update` followed by `nix develop`, you'll get the newer version.
 
 If this doesn't solve it, then it might involve deeper Neovim configuration differences, which as you suggested, might not be worth the rabbit hole journey!
+
+---
+
+OMG, that worked! The misspellings aren't squiggles. They're underlines. But
+that definitely made a difference and it's already feeling more NixOS-like and
+familiar. 
+
+Okay, to get a new full-screen terminal in Mac, just make a new tab from a
+full-screen terminal (this) and just pull it off the tab bar and **POOF**. 
+
+Alright, now make it so you can see your daily work journal entry come together
+while you make it `jekyll serve --livereload`, and back to the reason for this
+entry&#151; delighting the clients! This was the "settling in" that you have to
+do after such a long stint not coming into the office and not being on Mac as
+your primary machine. Once again, it's that concept of doing kata during warm-up
+to (re-)train your muscle memory. It's just like being an AI, haha! Hot prompt
+injection. The Kung Fu download. Okay, okay...
+
+Cursor AI earned its place as Screen 2, even on the Mac in day-job context
+because of how well it helped me sort that `init.lua` stuff so quick and well. I
+need that no-takebacks continual refinement. It even travels back to my NixOS
+environment for a 2-way refinement communication between 2 different platforms.
+Okay, things are starting to come together.
+
+**Me**: It worked nearly as expected. It definitely is using the unstable branch because things look different. But the very nice squiggly lines in the terminal in nvim on NixOS are just straight underlines under Nix Flakes on Mac.
+
+**Claude**: Ah, this is actually a terminal capability issue! The squiggly underlines (technically called "undercurl") require a terminal that supports this feature. On NixOS, you're likely using a modern terminal like GNOME Terminal that supports undercurl, while on Mac you might be using Terminal.app or another terminal that doesn't fully support it.
+
+Quick solutions:
+
+1. If you're using Terminal.app, consider switching to iTerm2 or Alacritty on Mac, which both support undercurl
+2. If you're already using iTerm2, you might need to enable:
+   - "Profile" → "Terminal" → "Report Terminal Type": `xterm-256color-italic` or `xterm-kitty`
+
+This isn't a Nix issue per se - it's just about terminal capabilities. The undercurl feature (spell check squiggles) will work automatically once you have a terminal emulator that supports it.
+
+If you want to verify this, you can test it by running this command in your terminal:
+```bash
+echo -e '\e[4:3mThis should have a squiggly underline\e[0m'
+```
+
+If you see a straight line instead of a squiggle, it's your terminal that needs updating!
+
+---
+
+Good to know, but rabbit hole right there. No need. Not now. No how. I must be
+forever vigilant now against rabbit holes. The AI white rabbit is always at the
+doorstep ready to take you on a journey you may be best off not taking.
