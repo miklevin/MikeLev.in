@@ -117,7 +117,7 @@ AIs can run on what today's buzzwords label edge devices, but what in a pragmati
 
 ### Reimagining CRUD Apps with AI
 
-And armed with that new assumption, I'm building it into a simple web framework for making what's sometimes called CRUD apps. (Create, Update, Read, Delete). That generally means you're basic list-keeping apps. Todo's and stuff. But in reality, list/keeping actually covers a lot of potential apps of immediate use and therefore of receiving immediate benefit. 
+And armed with that new assumption, I'm building it into a simple web framework for making what's sometimes called CRUD apps. (Create, Update, Read, Delete). That generally means you're basic list-keeping apps. Todo's and stuff. But in reality, list-keeping actually covers a lot of potential apps of immediate use and therefore of receiving immediate benefit. 
 
 Ruby on Rails, Django and a whole bunch of other things are similar web frameworks, but they don't have AI baked-in. They can't learn their own code and collaborate with you on improving it. I am very deliberately keeping my web framework in one file and keeping that file size as small as possible. I am making it easy for the AI to look at its own body (not their minds though because I don't know much about the models or their playback engines like Ollama themselves).
 
