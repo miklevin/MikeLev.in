@@ -16,7 +16,7 @@ One of the favorite notions I've encountered is the Japanese concept of Ikigai. 
 
 ### Embracing Life's Feedback Loop
 
-If we can do can do that with some consistency, we may just minimize the pain of the problems and maximize the satisfaction of moving life forward in some positive, tangible way. Life is Mulligan-resistant. There are no take backs or undo's. You've just got to survive the mistakes and the problems and the bad times, learn what you can, introspection and be willing to question yourself, let go of ego, and take steps to manage your own internal quality assurance mechanisms. It's a feedback loop. 
+If we can do can do that with some consistency, we may just minimize the pain of the problems and maximize the satisfaction of moving life forward in some positive, tangible way. Life is Mulligan-resistant. There are no take backs or undo's. You've just got to survive the mistakes and the problems and the bad times, learn what you can, introspect and be willing to question yourself, let go of ego, and take steps to manage your own internal quality assurance mechanisms. It's a feedback loop. 
 
 ### Finding Joy in the Journey
 
