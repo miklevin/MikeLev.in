@@ -26,7 +26,7 @@ It's not easy to achieve, and sure it's probably a little bit idealistic to thin
 
 We are biologicals. While there may or may not be another type of human-like intelligences we share this world with is a matter of debate. AGI in X-years? On Y-hardware that might exist today. Everything about this world we live in is up for debate except maybe that we are here and able to hold the debate. People with certain religious or scientific dogmas may reject that, but their arguments break down at the "brain in a jar" thought experiment (you wouldn't know), or various other thought exercises like the... the... hey, Perplexity what's that annoying solipsistic argument that can't be overcome?
 
- Perplexity: The Münchhausen Trilemma is a philosophical concept in epistemology that highlights the difficulty of proving any truth without relying on assumptions. It presents three unsatisfactory options for justifying knowledge:
+**Perplexity**: The Münchhausen Trilemma is a philosophical concept in epistemology that highlights the difficulty of proving any truth without relying on assumptions. It presents three unsatisfactory options for justifying knowledge:
 
 1. **Circular Argument**: Where the proof of a proposition relies on the proposition itself.
 2. **Infinite Regress**: Where each proof requires another proof, endlessly.
@@ -131,7 +131,7 @@ To observe is to participate and interact, especially with a web browser. It can
 
 Are used to think I was the poster child for the The Dunning–Kruger effect... uh, Perplexity?
 
-The Dunning–Kruger effect is a cognitive bias where individuals with limited knowledge or skill in a particular area overestimate their own competence. Conversely, those with greater expertise may underestimate their abilities, assuming tasks are easy for everyone[1][2][3]. This effect was first described by psychologists David Dunning and Justin Kruger in 1999. It highlights the challenge of self-assessment, where the less competent lack the metacognitive ability to recognize their deficiencies[1][3]. The phenomenon has been debated, with some suggesting it may partly result from statistical artifacts rather than purely psychological factors[4][5].
+**Perplexity**: The Dunning–Kruger effect is a cognitive bias where individuals with limited knowledge or skill in a particular area overestimate their own competence. Conversely, those with greater expertise may underestimate their abilities, assuming tasks are easy for everyone[1][2][3]. This effect was first described by psychologists David Dunning and Justin Kruger in 1999. It highlights the challenge of self-assessment, where the less competent lack the metacognitive ability to recognize their deficiencies[1][3]. The phenomenon has been debated, with some suggesting it may partly result from statistical artifacts rather than purely psychological factors[4][5].
 
 But it turns out I am just the thirsty student who never had the right mentors nor enough initiative to identify nor seize what opportunities did come my way. More than an example of the Dunning–Kruger effect, I am an example of someone who tries to hit at above their weight class and repeatedly fails, however, has that one occasional success just enough to keep me going. And in that delusional state of having more abilities than I actually have, I keep popping up and continuing to be in the fight like Rocky Balboa. I think I got all the ideas and abstractions correct and my shortcoming, where the Dunning–Kruger effect plagues me, is an implementation— precisely where AI coding assistants help.
 
@@ -153,7 +153,7 @@ If you wanna drop a pebble in the surface of the lake and have the ripples reach
 
 There is this whole question of native platform apps, such as iPhone apps versus more generic web apps. The common wisdom is that for performance, ecosystem, compatibility, and a whole bunch of subtle nuance reasons the native platform versions will always win. And I think that is true to an extent for people who are professional career of programming and development. For people just trying to speak the generic language of technology, the investment required for those proprietary platforms is tremendous overkill. It is what I would call a violation of the 80/20 rule. The "trick" knowing how to create with apps is about to explode and payback in spades given how AI can help you overcome those last mile implementation obstacles and turn Dunning–Kruger effect barriers into stuff to gleefully... uh, Perplexity?
 
-The type of racing where participants jump over obstacles is known as **steeplechase**. This event, commonly found in track and field, involves running a distance while navigating hurdles and water jumps. The steeplechase originated from horse racing, where riders would race across countryside obstacles. In athletics, it typically covers distances like 3,000 meters for men and women.
+**Perplexity**: The type of racing where participants jump over obstacles is known as **steeplechase**. This event, commonly found in track and field, involves running a distance while navigating hurdles and water jumps. The steeplechase originated from horse racing, where riders would race across countryside obstacles. In athletics, it typically covers distances like 3,000 meters for men and women.
 
 ...that's it. As you helpfully jump over hurdles. 
 
