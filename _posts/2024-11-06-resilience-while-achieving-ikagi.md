@@ -20,7 +20,7 @@ If we can do can do that with some consistency, we may just minimize the pain of
 
 ### Finding Joy in the Journey
 
-It's not easy to achieve, and sure it's probably a little bit idealistic to think you can achieve some blissful state at the center of that Venn diagram, but consider the alternative to trying. Loving what you do in life or falling into despair because there's nothing to get you out of bed in the morning. To enjoy waking up in the morning because you "get to" jump to that task you enjoy—that's achievable. That's right. You can be looking forward to something so much every day in the morning when you wake up that it is as much a source of energy and motivation as coffee. 
+It's not easy to achieve, and sure it's probably a little bit idealistic to think you can achieve some blissful state at the center of that Venn diagram, but consider the alternative to trying. Loving what you do in life or falling into despair because there's nothing to get you out of bed in the morning. To enjoy waking up in the morning because you ***get to jump right to that task you enjoy***—that's achievable. That's right. You can be looking forward to something so much every day in the morning when you wake up that it is as much a source of energy and motivation as coffee. 
 
 ## Philosophical Foundations
 
