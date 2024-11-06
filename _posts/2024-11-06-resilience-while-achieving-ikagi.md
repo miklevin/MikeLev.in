@@ -8,11 +8,11 @@ sort_order: 1
 
 ## The Path to Resilience
 
-Tough times will happen and life can't be infinite bliss. But we do what we can to survive and maybe a little bit more to eat out some pleasure and satisfaction from this existence—no matter what else is going on in the world or parts if your life beyond your control. There's consolation. There's healing salve. And there is mental conditioning to get back on the horse and charge ahead thriving. 
+Tough times will happen and life can't be infinite bliss. But we do what we can to survive and maybe a little bit more to eke out some pleasure and satisfaction from this existence—no matter what else is going on in the world or parts of your life beyond your control. There's consolation. There's healing salve. And there is mental conditioning to get back on the horse and charge ahead thriving. 
 
 ### Understanding Ikigai
 
-One of the favorite notions I've encountered is the Japanese concept of Ikigai. It is the state of aligning what you love to do with what you're good at with what you can get paid for and with what the world needs. Little is ever completely ideal and when tough times strike, it's time to double down on those things that make you happy. I take consolation by tweaking my daily actions to forever inch myself towards that Ikigai ideal. 
+One of the favorite notions I've encountered is the Japanese concept of Ikigai. It is the state of aligning what you love to do with what you're good at, with what you can get paid for, and with what the world needs. Little is ever completely ideal and when tough times strike, it's time to double down on those things that make you happy. I take consolation by tweaking my daily actions to forever inch myself towards that Ikigai ideal.
 
 ### Embracing Life's Feedback Loop
 
