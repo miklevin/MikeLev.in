@@ -24,7 +24,7 @@ It's not easy to achieve, and sure it's probably a little bit idealistic to thin
 
 ## Philosophical Foundations
 
-We are biologicals. While there may or may not be another type of human-like intelligences we share this world with is a matter of debate. AGI in X-years? On Y-hardware that might exist today. Everything about life is up for debate except maybe that we are here to hold it. All other arguments break down at the "brain in a jar" argument, or various other thought exercises like the... the... hey, Perplexity?
+We are biologicals. While there may or may not be another type of human-like intelligences we share this world with is a matter of debate. AGI in X-years? On Y-hardware that might exist today. Everything about this world we live in is up for debate except maybe that we are here and able to hold the debate. People with certain religious or scientific dogmas may reject that, but their arguments break down at the "brain in a jar" thought experiment (you wouldn't know), or various other thought exercises like the... the... hey, Perplexity what's that annoying solipsistic argument that can't be overcome?
 
  Perplexity: The Münchhausen Trilemma is a philosophical concept in epistemology that highlights the difficulty of proving any truth without relying on assumptions. It presents three unsatisfactory options for justifying knowledge:
 
