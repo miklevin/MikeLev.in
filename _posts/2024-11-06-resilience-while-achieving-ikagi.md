@@ -129,7 +129,7 @@ To observe is to participate and interact, especially with a web browser. It can
 
 ### On Personal Growth and the Dunning-Kruger Effect
 
-Are used to think I was the poster child for the The Dunning–Kruger effect... uh, Perplexity?
+I used to think that I might be the poster child for the The Dunning–Kruger effect... uh, Perplexity?
 
 **Perplexity**: The Dunning–Kruger effect is a cognitive bias where individuals with limited knowledge or skill in a particular area overestimate their own competence. Conversely, those with greater expertise may underestimate their abilities, assuming tasks are easy for everyone[1][2][3]. This effect was first described by psychologists David Dunning and Justin Kruger in 1999. It highlights the challenge of self-assessment, where the less competent lack the metacognitive ability to recognize their deficiencies[1][3]. The phenomenon has been debated, with some suggesting it may partly result from statistical artifacts rather than purely psychological factors[4][5].
 
