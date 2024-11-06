@@ -158,6 +158,77 @@ The abstract notions have once again become a reality include such hits as: If H
 
 If you wanna drop a pebble in the surface of the lake and have the ripples reach every part of the lake, you don't insert a pebble-catcher force field just above its surface to re-emit a virtual pebble into a virtual lake. That's what ReactJS and its kind do with their virtual DOMs. Not all of them create a virtual DOM (Svelte doesn't) but all of them to act as intermediaries which directly reduces web app responsiveness, and you are overall options for ways to control the browser. 
 
+**Me**: What's sass and the build vs. no-build debate in webdev, and how does that relate to the fun being sucked out of web development?
+
+**Perplexity**: Sass (Syntactically Awesome Style Sheets) is a preprocessor scripting language that extends CSS, allowing developers to use features like variables, nested rules, mixins, and functions in their stylesheets. The debate around build vs. no-build approaches in web development, and how it relates to Sass, centers on a few key points:
+
+## The Build vs. No-Build Debate
+
+### Build Approach
+- Involves using tools like Sass, webpack, or other preprocessors/bundlers
+- Requires a compilation step to convert code into browser-ready assets
+- Offers advanced features and optimizations
+
+### No-Build Approach  
+- Uses vanilla HTML, CSS, and JavaScript
+- No compilation step needed - code runs directly in the browser
+- Simpler workflow but fewer advanced features
+
+## Sass and the Build Process
+
+Sass requires a build step to compile .scss or .sass files into standard CSS. This compilation process:
+
+- Adds complexity to the development workflow
+- Introduces potential build errors and debugging challenges
+- Increases initial setup time for projects
+
+However, Sass also provides benefits like:
+
+- Code reusability through mixins and functions
+- Improved organization with nesting and partials
+- Powerful features like variables and math operations
+
+## The "Fun" Factor in Web Development
+
+Some developers argue that build processes and tooling complexity are "sucking the fun" out of web development by:
+
+- Increasing cognitive load and required knowledge
+- Adding layers of abstraction between code and output
+- Making simple tasks more complicated
+
+Others contend that tools like Sass enhance productivity and creativity by:
+
+- Automating repetitive tasks
+- Enabling more sophisticated styling techniques
+- Improving code maintainability
+
+## Current Trends
+
+There's a growing movement towards simpler, no-build approaches:
+
+- Native CSS features like custom properties and nesting are reducing the need for preprocessors
+- Frameworks like Astro and 11ty emphasize zero-config, minimal build setups
+- Browser support for ES modules enables easier JavaScript organization without bundlers
+
+However, build tools remain popular for:
+
+- Large-scale applications
+- Teams requiring consistent code styles
+- Projects benefiting from advanced optimizations
+
+Ultimately, the choice between build and no-build approaches (including whether to use Sass) depends on project requirements, team preferences, and the specific trade-offs between simplicity and advanced features that each developer or team is willing to make[1][2][3][4].
+
+Citations:
+
+    [1] https://www.sitepoint.com/community/t/is-sass-important/423582
+    [2] https://bradczerniak.com/blog/sass-considered-harmful/
+    [3] https://dev.to/kendalmintcode/is-anyone-really-using-sass-anymore-4dik
+    [4] https://stackoverflow.com/questions/52165157/when-to-compile-sass
+    [5] https://css-tricks.com/sass-vs-less/
+    [6] https://dev.to/bridget_amana/the-sass-vs-css-debate-is-sass-really-that-superior-277g
+    [7] https://www.reddit.com/r/webdev/comments/24kcm0/poll_do_you_use_sass_or_less/
+    [8] http://www.getsymphony.com/discuss/thread/30917/
+
 ### Native Apps vs Web Apps in the AI Era
 
 There is this whole question of native platform apps, such as iPhone apps versus more generic web apps. The common wisdom is that for performance, ecosystem, compatibility, and a whole bunch of subtle nuance reasons the native platform versions will always win. And I think that is true to an extent for people who are professional career of programming and development. For people just trying to speak the generic language of technology, the investment required for those proprietary platforms is tremendous overkill. It is what I would call a violation of the 80/20 rule. The "trick" knowing how to create with apps is about to explode and payback in spades given how AI can help you overcome those last mile implementation obstacles and turn Dunning–Kruger effect barriers into stuff to gleefully... uh, Perplexity?
