@@ -146,7 +146,7 @@ But it turns out I am just the thirsty student who never had the right mentors n
 
 ## The Return of the Webmaster
 
-I knew this to be a fact because I was able to do my latest rendition of a generic and generalized list keeping web framework based on all the latest coolest stuff that completely makes an end run around heavyweight JavaScript frameworks, like ReactJS, AngularJS, VueJS, Svelte and all the other things you are normally expected to choose between when taking up web development. They are all awful. I mean just terrible. They all suck the love out of something I was once pretty good at the heyday of the Webmaster. 
+I knew this to be a fact because I was able to do my latest rendition of a generic and generalized list keeping web framework based on all the latest coolest stuff that completely makes an end run around heavyweight JavaScript frameworks, like ReactJS, AngularJS, VueJS, Svelte and all the other things you are normally expected to choose between when taking up web development. They are all awful. I mean just terrible. They all suck the love out of something I was once pretty good at during the heyday of the Webmaster. 
 
 ### The Beauty of Web Simplicity
 
