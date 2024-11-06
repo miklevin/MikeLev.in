@@ -12,7 +12,7 @@ Tough times will happen and life can't be infinite bliss. But we do what we can 
 
 ### Understanding Ikigai
 
-One of the favorite notions I've encountered is the Japanese concept of Ikagi. It is the state of aligning what you love to do with what you're good at with what you can get paid for and with what the world needs. Little is ever completely ideal and when tough times strike, it's time to double down on those things that make you happy. I take consolation by tweaking my daily actions to forever inch myself towards that Ikigai ideal. 
+One of the favorite notions I've encountered is the Japanese concept of Ikigai. It is the state of aligning what you love to do with what you're good at with what you can get paid for and with what the world needs. Little is ever completely ideal and when tough times strike, it's time to double down on those things that make you happy. I take consolation by tweaking my daily actions to forever inch myself towards that Ikigai ideal. 
 
 ### Embracing Life's Feedback Loop
 
@@ -191,9 +191,9 @@ Coupled with the ability to translate your instructions into actual meaningful J
 
 Since I started writing this article, it is tomorrow. One for the history books, for sure. And the way I opened up this article is more appropriate now than ever.
 
-### Finding My Ikagi
+### Finding My Ikigai
 
-I have found my Ikagi. I wish I were in a better position to share it with you. I have a lot to offer and teach, but life having no mulligans or do-overs such as I expressed earlier, sometimes those opportunities are prematurely and unfortunately shut down. I am deeply and profoundly sorry for my mistakes. I fess up. I introspect. And I improve.
+I have found my Ikigai. I wish I were in a better position to share it with you. I have a lot to offer and teach, but life having no mulligans or do-overs such as I expressed earlier, sometimes those opportunities are prematurely and unfortunately shut down. I am deeply and profoundly sorry for my mistakes. I fess up. I introspect. And I improve.
 
 ### Moving Forward with Hope
 
