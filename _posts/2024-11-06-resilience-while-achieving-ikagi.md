@@ -197,5 +197,14 @@ I have found my Ikagi. I wish I were in a better position to share it with you. 
 
 ### Moving Forward with Hope
 
-There is still plenty of time. I'm just getting started. I bought you the new Commodore 64 retro computing platform for your birthday. I unfortunately did not know it existed in its re-issued form (I have the rare original reissue but it's not so useful to you) but when I did realize it existed, I put the order in plenty early. However, everything related to Commodore computers seems to come with its share of heartbreak. I am so sorry for this. But it will arrive soon. And if you want it, it is yours. We still have to figure out the monitor and whatever other little details to make it an active part of your life. But I am very willing to try.
+There is still plenty of time. I'm just getting started. I bought you the new
+Commodore 64 retro computing platform for your birthday. I unfortunately did not
+know it existed in its re-issued form (I have the rare original reissue but it's
+not so useful to you) but when I did realize it existed, I put the order in
+plenty early. However, everything related to Commodore computers seems to come
+with its share of heartbreak. I am so sorry for this. But it will arrive soon.
+And if you want it, it is yours. We still have to figure out the monitor and
+whatever other little details to make it an active part of your life. But I am
+very willing to try. Check out the YouTube videos on it. It's pretty amazing and
+I think the very retro computing platform you've asked for over the years.
 
