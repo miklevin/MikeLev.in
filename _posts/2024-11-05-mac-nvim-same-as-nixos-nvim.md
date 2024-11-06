@@ -1,7 +1,7 @@
 ---
 title: Getting Mac NeoVim Same as NixOS NeoVim
 permalink: /mac-nvim-same-as-nixos-nvim/
-description: 
+description: Tame the Mac! 💻  This is my journey to conquer the increasingly dreaded Macbook and make it work seamlessly with my increasingly beloved NixOS NeoVim setup.  From battling muscle memory to embracing the power of flakes, I'm crafting my ultimate cross-platform development environment. 🚀
 layout: post
 sort_order: 1
 ---
