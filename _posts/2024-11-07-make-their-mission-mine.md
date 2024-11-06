@@ -60,7 +60,7 @@ Citations:
     [7] https://hbr.org/2020/01/are-you-undervaluing-your-customers
     [8] https://www.business.com/articles/management-theory-of-peter-drucker/
 
-Me: Ouch! This is some pretty hard medicine for me, haha!
+**Me**: Ouch! This is some pretty hard medicine for me, haha!
 
 I am torn between two worlds. On the one hand, I am in this for the love of the
 tech and the challenge. I'm am not particularly enamored with the field of SEO
