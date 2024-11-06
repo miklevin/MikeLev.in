@@ -107,7 +107,7 @@ Sources
 
 ## Building AI-Native Web Frameworks
 
-Yes but I'm making a web framework that does just that. It's either small models like Llama 3.2 and Gemma 2B, but with every uvicorn auto-reload the Uvicorn web server... oh wait, that's an http service from Ollama, there webserver of local AI these days, based on llama.cpp, another free and open source software world fundamental building blocks of new assumptions.
+Yes but I'm making a web framework that does just that. It's either small models like Llama 3.2 and Gemma 2B, but with every uvicorn auto-reload the Uvicorn web server... oh wait, that's an http service from Ollama, the webserver of local AI these days, based on llama.cpp, another free and open source software world fundamental building blocks of new assumptions.
 
 ### The Age of Ambient Intelligence
 
