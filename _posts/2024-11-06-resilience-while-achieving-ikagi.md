@@ -133,6 +133,15 @@ I used to think that I might be the poster child for the The Dunning–Kruger ef
 
 **Perplexity**: The Dunning–Kruger effect is a cognitive bias where individuals with limited knowledge or skill in a particular area overestimate their own competence. Conversely, those with greater expertise may underestimate their abilities, assuming tasks are easy for everyone[1][2][3]. This effect was first described by psychologists David Dunning and Justin Kruger in 1999. It highlights the challenge of self-assessment, where the less competent lack the metacognitive ability to recognize their deficiencies[1][3]. The phenomenon has been debated, with some suggesting it may partly result from statistical artifacts rather than purely psychological factors[4][5].
 
+Sources
+
+    [1] Dunning–Kruger effect https://en.wikipedia.org/wiki/Dunning_kruger_effect
+    [2] Dunning–Kruger Effect - The Decision Lab https://thedecisionlab.com/biases/dunning-kruger-effect
+    [3] The Dunning-Kruger Effect Explained - Splunk https://www.splunk.com/en_us/blog/learn/dunning-kruger-effect.html
+    [4] A Statistical Explanation of the Dunning–Kruger Effect - PMC https://pmc.ncbi.nlm.nih.gov/articles/PMC8992690/
+    [5] The Dunning-Kruger Effect Isn't What You Think It Is https://www.scientificamerican.com/article/the-dunning-kruger-effect-isnt-what-you-think-it-is/
+    [6] Dunning-Kruger effect | Definition, Examples, & Facts | Britannica https://www.britannica.com/science/Dunning-Kruger-effect
+
 But it turns out I am just the thirsty student who never had the right mentors nor enough initiative to identify nor seize what opportunities did come my way. More than an example of the Dunning–Kruger effect, I am an example of someone who tries to hit at above their weight class and repeatedly fails, however, has that one occasional success just enough to keep me going. And in that delusional state of having more abilities than I actually have, I keep popping up and continuing to be in the fight like Rocky Balboa. I think I got all the ideas and abstractions correct and my shortcoming, where the Dunning–Kruger effect plagues me, is an implementation— precisely where AI coding assistants help.
 
 ## The Return of the Webmaster
