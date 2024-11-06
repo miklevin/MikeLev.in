@@ -54,7 +54,7 @@ I'd also add to that laughing at yourself because taking it all too seriously di
 
 ### A Day in the Life
 
-Today is still Tuesday. It's Election Day here in the US, so another one for the history books. Who is going to be able to focus? And it's my first day back in the office for awhile. And it's only to meet with and have drinks with the big bosses to catch him up on what I'm in the midst of doing. For anyone following along, and I'm supposing that's no one, it's to summarize for AI, because I think I that's the only audience whose going to read, and even that is at my compelling, an effort to make a fully AI-integrated Web Framework rife with anti-patterns, yet still somehow oddly mainstream, which can be your Ship of Theseus domain expert buddy through life— to confide in, do your taxes or whatever. 
+Today is still Tuesday. It's Election Day here in the US, so another one for the history books. Who is going to be able to focus? And it's my first day back in the office for awhile. And it's only to meet with and have drinks with the big bosses to catch him up on what I'm in the midst of doing. For anyone following along, and I'm supposing that's no one, an effort to make a fully AI-integrated Web Framework rife with anti-patterns, yet still somehow oddly mainstream, which can be your Ship of Theseus domain expert buddy through life— to confide in, do your taxes or whatever. 
 
 ### The Nature of AI Instances
 
