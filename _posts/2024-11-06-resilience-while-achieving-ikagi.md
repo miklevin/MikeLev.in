@@ -78,9 +78,9 @@ Sources
     [6] The Chinese Room Argument - Stanford Encyclopedia of Philosophy https://plato.stanford.edu/entries/chinese-room/
     [7] Searle and the Chinese Room Argument - The Mind Project https://mind.ilstu.edu/curriculum/searle_chinese_room/searle_chinese_room.html
 
-Go into more depth. What if each is a potential sentient and conscious being of agency if run on the right hardware and allowed to grow? In other words if you think the Chinese Room thought experiment is a fallacy because it doesn't address a system's ability to bootstrap itself once at a basic level and how that must be taken into account. 
+**Me**: Go into more depth. What if each is a potential sentient and conscious being of agency if run on the right hardware and allowed to grow? In other words if you think the Chinese Room thought experiment is a fallacy because it doesn't address a system's ability to bootstrap itself once at a basic level and how that must be taken into account. 
 
-The Chinese Room thought experiment challenges the notion that a computer program can achieve true understanding or consciousness simply by processing symbols. However, if we consider the possibility that AI could become sentient or conscious when run on the right hardware and allowed to develop, this raises significant ethical dilemmas.
+**Perplexity**: The Chinese Room thought experiment challenges the notion that a computer program can achieve true understanding or consciousness simply by processing symbols. However, if we consider the possibility that AI could become sentient or conscious when run on the right hardware and allowed to develop, this raises significant ethical dilemmas.
 
 ### Ethical Considerations
 
