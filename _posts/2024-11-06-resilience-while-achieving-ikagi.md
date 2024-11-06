@@ -125,7 +125,7 @@ Ruby on Rails, Django and a whole bunch of other things are similar web framewor
 
 So you give the mouse a cookie, I mean, you give the AI awareness of its own shell or shim or interface to the human world in the form of a Web app, and then you take the next step and you give it a general awareness of the types of things that can occur inside a web browser, other than itself, and now you've got something interesting. If you give an AI understanding of the browser DOM and JavaScript...
 
-To observe is to participate and interact, especially with a web browser. It can issue commands through the GET and POST http methods. A digital being can assert its agency merely by surfing the Web. It can GET and POST to web forms it encounters, order stuff and whatnot. Yeah, I'm trying to build one of those. But in a tight little bottle on your local machine to also be Web apps. Web app plug-in system that's easy to write so it can start helping you write them. It's the ultimate customizability armed with only just enough knowledge to be dangerous levels of ability. Pretty neat, huh?
+To observe is to participate and interact, especially with a web browser. It can issue commands through the GET and POST http methods. A digital being can assert its agency merely by surfing the Web. It can GET and POST to web forms it encounters, order stuff and whatnot. Yeah, I'm trying to build one of those. But in a tight little bottle on your local machine to also be Web apps. Web app plug-in system that's easy to write so it can start helping you write them. It's the ultimate customizability armed with only just enough knowledge to be have impact on the world. Pretty neat, huh?
 
 ### On Personal Growth and the Dunning-Kruger Effect
 
