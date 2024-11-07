@@ -6,6 +6,16 @@ layout: post
 sort_order: 1
 ---
 
+> Because of life being what it is and mistakes I have made, I am missing
+> another very important birthday. I am sorry, but please know you are in my
+> every thought and I am doubling down professionally to be what I need to be
+> for you, maybe not today, but in the future. My gift to you (beyond the new
+> **blue** [Commodore 64x](https://www.youtube.com/watch?v=JG1TdfezJzo)) is
+> staying sharp and in the game. I'm recalibrating to be at the top of my field
+> for another 20 years as the world undergoes these remarkable changes. I love
+> you, and even though it may not look like it, I am present and here for you
+> and forever will be. I am very proud of you.
+
 ## The Client-First Mindset
 
 Every client has a theme or a mantra or a battle cry by which we open up every meeting. Through this battle cry, I make their mission mine. 
