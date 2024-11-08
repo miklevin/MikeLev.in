@@ -1,5 +1,5 @@
-permalink: /api/
 ---
+permalink: /api/
 jupyter:
   jupytext:
     text_representation:
