@@ -119,7 +119,9 @@ username = user_data["data"]["username"]
 print(username)
 ```
 
-Sample Output: first.last
+Sample Output: 
+
+    first.last
 
 Rationale: To create a first successful experience connecting to the Botify API.
 
