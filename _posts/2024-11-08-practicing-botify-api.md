@@ -1,7 +1,7 @@
 ---
-title: Google Sheets vs. Jupyter Notebooks for AI
-permalink: /google-sheets-vs-jupyter-notebooks-for-ai/
-description: 
+title: Practicing the Botify API
+permalink: /practicing-botify-api/
+description: Exploring the Botify API through Python notebooks, examining key concepts like Organizations, Projects, and Collections while considering the future of SEO in an AI-driven world.
 layout: post
 sort_order: 2
 date: 2024-11-07
@@ -12,8 +12,10 @@ plugins and such versus working in a Jupyter Notebook, but turns into once again
 one of my exercise sessions building-it-up from scratch, because I need to get
 my practice in on the Botify API.
 
+### Key API Concepts
+
 - Given an Organization, get Projects
-- Given a Project, get Analyses (or Collections)
+- Given a Project, get Analyses (or Collections) 
 - Given a Collection, get Field Names
 
 And *that's where it gets interesting and challenging* for me now. Actually
@@ -23,6 +25,8 @@ inside the collections. My ambition level with this post immediately went way
 beyond my original concept, and therefore the question of Google Sheet versus
 Python Notebook is hardly even a thing. There's no debate.
 
+### The Case for Python Notebooks
+
 Of course it has to be a Python notebook, unless you're going to be doing Google
 Sheets AppScript development&#151; which is always a possibility. But then it's
 not really a ***just use Google Sheets instead*** discussion anymore. It's
@@ -30,12 +34,16 @@ developer environment versus developer environment, and when it comes down to
 modern VisualBasic for Applications (VBA) versus the language that is taking
 over the world (Python), there really is no choice.
 
+## The Future of SEO and AI
+
 All roads lead to SEO Audits. And bright futures are led to by automation of as
 much of those SEO Audits as possible, calibrated for the brave new world of AI
 we're in. And it's not so much about generative AI because content is as good as
 infinite. Assume the spam cannons are on full-blast, full-time, filling the net
 with mostly click-bait garbage. All defenses are going up and a considerable
 amount of that AI firepower is going to go into filtering AI-generated spam.
+
+### The Role of Brands and Reputation
 
 Safe harbor will be sought in brands and reputation, as usual. It happened
 before when Google fought the formidable spam problem. Now the processing power
@@ -46,6 +54,8 @@ the likes of Google, OpenAI, Perplexity and whoever can put more intelligence
 into the filters than spammers put into the cannons. And you can't fake brands
 over time. Merit is merit... when plugged in on the right domain.
 
+### Personal Reflections
+
 Sites like this modest little one here will likely never be recognized or
 rewarded in search again, unless the AIs really pick it apart and realize
 there's something special going on here (again, unlikely). It's like the artist
@@ -54,12 +64,16 @@ getting me, as I make up with quantity what I lack in quality (free-form
 thinking just like this) in such a way that only machines could digest. And so
 now.. and so now.. and so now... I master the Botify products. Be found.
 
+## JavaScript SEO Optimizations
+
 I have to get more expert at a product called PageWorkers. It's a way of doing
 SEO optimizations to a website through JavaScript. Yes, while that's  not the
 ideal it is both possible and a good first step to implementing fixes in a more
 fundamental way that at least surfaces the need and describes the (usually
 on-page) optimization in a consistent language (JavaScript) and documents it for
 whoever might be able to make the more fundamental fix in the source HTML.
+
+### Server-Side Rendering Approaches
 
 It'd also worth noting that even if the JavaScript SEO optimization never makes
 it to source HTML, it can still be pre-rendered "server-side" and served to bots
@@ -77,6 +91,8 @@ process so you don't actually need a JavaScript-executing browser on the client
 side in order to see what the fully rendered page is supposed to look like. From
 time to time, this has actually been a recommended solution from Google from
 back when AJAX and single page applications (SPA) became a thing. 
+
+### Historical Context from Perplexity
 
 **Me**: Hey Perplexity, what was Google's server-side rendering recommendation
 back in the day for AJAX SPAs?
@@ -134,10 +150,14 @@ Citations:
     [7] https://www.reddit.com/r/webdev/comments/165cmcy/when_do_single_page_applications_spas_become_not/
     [8] https://support.google.com/webmasters/thread/2179770/server-side-rendering-for-spa-but-client-side-rendered-after-click?hl=en
 
+### Implementation Challenges
+
 But the technical implementation difficulty has been so difficult that it's
 almost unfair to ask SEOs to get their clients to implement it. There's a better
 way, just sort of superimposing it on top of an existing system with DNS
 trickery.
+
+## Google Sheets vs Python Notebooks
 
 Recently it was put to me, why not just use a formula in Google Sheets and
 eliminate all that technical stuff? I have the simple supposition that's wrong
@@ -149,6 +169,8 @@ is in stark contrast to the everything-up-front nature of Python in a Notebook,
 I'm going to make the argument and the demonstration that Notebooks are better
 than Google Sheets, regardless of your familiarity, and you ought to make the
 switch.
+
+## Conclusion and Next Steps
 
 Pshwew! Okay, with that out of the way we've established that there's a lot of
 validity to performing SEO optimizations with JavaScript. They can work purely
@@ -164,9 +186,9 @@ process. See if you can't just do it in a Jupyter Notebook in Python better.
 Once you have it down, it's rapidly reproducible, sharable, yadda yadda. But
 don't slow yourself down... too much.
 
-## In Botify, How to Fetch Projects Given an Org
+## Botify API Examples
 
-If you only know the org, you can get a list of its projects:
+### In Botify, How to Fetch Projects Given an Org
 
 ```python
 import json
