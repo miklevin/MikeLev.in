@@ -45,6 +45,8 @@ Each cell-block below can be copy/pasted as a complete stand-alone script. You w
 pip install pandas
 pip install requests
 ```
+
+**Rationale**: The Botify API was designed to power the Botify Web UI, and is as a result both powerful and complex. Some measures must be taken therefore, i.e. this exercise, to ensure a postive and successful experience.
 <!-- #endregion -->
 
 # Get Token: How To Retreive Your Botify Employee API Token and Put In File
@@ -98,6 +100,11 @@ else:
 print("Done")
 ```
 
+Sample Output: `botify_token.txt` in your folder.
+
+Rationale: Successful API-calls need access to your Botify API Token. We therefore retreive it as our first step and put it in a text-file in your main folder.
+
+
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
 
 ```python
@@ -111,6 +118,11 @@ user_data = requests.get("https://api.botify.com/v1/authentication/profile", hea
 username = user_data["data"]["username"]
 print(username)
 ```
+
+Sample Output: first.last
+
+Rationale: To create a first successful experience connecting to the Botify API.
+
 
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
 
@@ -180,6 +192,20 @@ if username:
 else:
     print("Failed to retrieve username and projects.")
 ```
+
+Sample Output:
+
+```
+Username: first.last
+Project Name                   Project Slug                        User or Org    
+================================================================================
+Foo Test                       foo.com                             first.last       
+Bar Test                       bar.com                             bar-org       
+Baz Test                       baz.com                             baz-org       
+```
+
+Rationale: You need an Organization slug (org) to get started. If there is one already associated with your account in Botify, this will show it under the `User or Org` column. If there is, you can lift it from here. If not, you have to find one from your project bookmarks or adim site.
+
 
 # List Projects: How To Get the List of Projects Given an Organization
 
