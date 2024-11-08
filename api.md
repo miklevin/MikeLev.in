@@ -17,7 +17,7 @@ jupyter:
 
 ## Technique: Step Through Examples Doing a Little of Everything
 
-### Configuration: We get started by setting up a JSON file used to hide your client's input values.
+### Configuration: We get started by setting up a JSON file for input values.
 
 Use `config.json` in your folder to set the input values used in running these scripts. You can start with just `org` adding fields as you go. These script examples are roughly the same as Botify's [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0) in Google Sheets.
 
