@@ -337,7 +337,6 @@ pyfiglet
 python_fasthtml
 Requests
 rich
-sqlite_minutils
 watchdog
 
 jupyterlab
@@ -372,9 +371,7 @@ Oh, that's sweet! So much so, I'm changing my mind! I want to flex my muscle
 with how short my `requirements.txt` file is for Chip O' Thesesus, and I'm
 updating it to what Perplexity just reported. I no longer need to remind myself
 `fasthtml` uses `starlette` and that I need to brush up on numeric array stuff.
-I know! Slick. I'm also removing `sqlite_minutils` because I think that was a
-little tangent I was on when I thought the `fasthtml`-stuff wasn't enough. It
-is.
+I know! Slick. 
 
 Okay, so I now add `jupytext` to the list for turning my Jupyter Notebooks into
 content here. And so the article really just begins. And it's 6:45 AM. Nice. The
@@ -388,4 +385,220 @@ it with this command:
 
     jupytext --to markdown kata.ipynb
 
+And that's where today's story begins. First, let's clean the mess I've made in
+the `botifymograph` repo folder. I like running ***JupyterLab*** now out of the
+same repo folder I run the Chip O'Theseus `server.py` file (its name doesn't
+matter). But basically I'm running a Python webserver using the classic form
+`python server.py` which makes the folder it runs from `root` to the server. It
+can find all its resources really easily from there without paths or fancy
+additional package imports and code. You can refer to a configuration file
+directly by name and it will find it. This is usually bad practice for web
+development as it makes things hackable as people probe for things they're not
+supposed to have access to on root, but it makes everything easier and the code
+more beautiful and I'm developing this as a single-tenant desktop app even
+though it's a web app. But a lot of things accumulate there as a result, and you
+can identify them easily with a `git status` because they don't belong and will
+be called out as ***Untracked files***. I zap much of them with:
 
+    rm *.csv
+    rm *.gz
+
+Okay, I've got it down to a manageable level. There's a few `.md` (markdown)
+files left, and some of them have real value and are there precisely because of
+this project, and I want to leave them there for now. In fact, I want to roll
+them all into a single ~~master~~ main notebook that consolidates all that yummy
+training stuff into one location. And now it's time for some good form...
+
+- Things need training (including myself) 
+- Some of those things are human, and some are machines
+- If done well, the same materials can train both
+- This is Jupyter Notebook is an attempt to do just that
+- It will be turned into markdown documentation
+
+I need structure! I need to rig my Notebook format for successful training. Hey
+Perplexity, what's that format Llama uses to train models?
+
+**Perplexity**: The Llama format for training models typically involves preparing data in a specific structure to fine-tune the model effectively. Here are the key aspects of the Llama training format:
+
+## Data Format
+
+The most common format for Llama fine-tuning data is JSON or JSONL (JSON Lines), with each entry containing the following fields:
+
+- "instruction": The task or question posed to the model
+- "input": Additional context or information (optional)
+- "response": The expected output or answer
+
+A typical example would look like this:
+
+```json
+{
+  "instruction": "Summarize the following text:",
+  "input": "Lorem ipsum dolor sit amet...",
+  "response": "This is a summary of the given text."
+}
+```
+
+## Training Approaches
+
+Llama models can be fine-tuned using different approaches:
+
+**Raw Text Continuation**
+For simple text generation tasks, you can use raw text without specific formatting[1].
+
+**Instruction Tuning**
+To create a more versatile model that can follow instructions, you should format your data to match instruction-following models like Alpaca or Vicuna[1].
+
+**Question-Answer Pairs**
+Many training scripts expect JSON files with question-answer pairs to facilitate easy formatting and disk space optimization[1].
+
+## Data Preparation
+
+When preparing your dataset for Llama fine-tuning, consider the following:
+
+1. **Quality and Quantity**: Llama models benefit from high-quality, diverse datasets. Meta's approach for Llama 3 involved using over 15 trillion tokens from public sources, with rigorous preprocessing to ensure data quality[2].
+
+2. **Preprocessing**: Apply filters for NSFW content, perform semantic deduplication, and use text classifiers to predict quality[2].
+
+3. **Data Mix**: Experiment with different combinations of data types and sources to find the optimal mix for your specific use case[2].
+
+4. **Iterative Refinement**: Implement multiple quality assurance iterations to improve data quality and model performance[2].
+
+## Training Process
+
+When training a Llama model:
+
+1. Use the appropriate model weights and tokenizer for your chosen Llama version[4].
+
+2. Set up the training configuration, including learning rate, batch size, and number of training steps[4].
+
+3. Prepare the model for training, potentially using techniques like LoRA (Low-Rank Adaptation) for more efficient fine-tuning[4].
+
+4. Utilize a training framework like the Hugging Face Transformers library to manage the training process[4].
+
+Remember that the specific format and approach may vary depending on the version of Llama you're using (e.g., Llama 1, 2, or 3) and your particular use case. Always refer to the most up-to-date documentation for the specific Llama version you're working with.
+
+Citations:
+
+    [1] https://www.reddit.com/r/LocalLLaMA/comments/16sjyvc/llama_2_data_format/
+    [2] https://kili-technology.com/large-language-models-llms/llama-3-guide-everything-you-need-to-know-about-meta-s-new-model-and-its-data
+    [3] https://en.wikipedia.org/wiki/LLaMA
+    [4] https://www.mlexpert.io/blog/alpaca-fine-tuning
+    [5] https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+    [6] https://huggingface.co/blog/nroggendorff/train-with-llama-architecture
+    [7] https://www.datacamp.com/tutorial/fine-tuning-llama-2
+    [8] https://github.com/ggerganov/llama.cpp/discussions/3805
+
+Okay, I can't let the process get convoluted. It has to lean into the strengths
+of the Notebook conversion that's going to happen.
+
+Me: I'm going to be converting a Jupyter Notebook into model training markdown. So the whole JSON format isn't going to work for me. But the markdown cells in Notebooks provide some freedom in prefixing every code block that will output. So I can say something about each code block that will follow. Review other formats that are commonly used to train models and devise an approach I can use.
+
+Perplexity: When converting a Jupyter Notebook into markdown for model training, you can adopt a structured approach that combines explanatory text with code blocks. Here's a suggested format based on common practices:
+
+## Section Headers
+
+Use markdown headers to organize your document into logical sections. For example:
+
+```markdown
+# Model Training: [Model Name]
+
+## 1. Data Preparation
+## 2. Model Architecture
+## 3. Training Configuration
+## 4. Training Process
+## 5. Evaluation
+```
+
+## Code Block Prefixes
+
+Before each code block, provide a brief description of what the code does. You can use a consistent prefix format:
+
+```markdown
+### [Action]: [Brief Description]
+
+```python
+# Your code here
+```
+```
+
+For example:
+
+```markdown
+### Load Data: Import and preprocess the dataset
+
+```python
+import pandas as pd
+
+data = pd.read_csv('dataset.csv')
+X = data.drop('target', axis=1)
+y = data['target']
+```
+```
+
+## Explanatory Text
+
+Between code blocks, include explanatory text to provide context, reasoning, or additional information:
+
+```markdown
+The dataset is split into training and validation sets to ensure proper model evaluation. We use a 80/20 split ratio.
+
+### Split Data: Create training and validation sets
+
+```python
+from sklearn.model_selection import train_test_split
+
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+```
+
+## Parameter Tables
+
+For important configurations or hyperparameters, consider using markdown tables:
+
+```markdown
+### Model Configuration: Set up hyperparameters
+
+| Parameter | Value |
+|-----------|-------|
+| Learning Rate | 0.001 |
+| Batch Size | 32 |
+| Epochs | 100 |
+
+```python
+model = MyModel(
+    learning_rate=0.001,
+    batch_size=32
+)
+```
+```
+
+## Results and Visualizations
+
+For outputs, results, or visualizations, you can use a similar prefix format:
+
+```markdown
+### Result: Training accuracy over epochs
+
+![Training Accuracy](./images/training_accuracy.png)
+
+The graph shows a steady increase in accuracy over the first 50 epochs, followed by a plateau.
+```
+
+This structured approach provides a clear, readable format that combines explanatory text with code blocks, making it easy for others to follow your model training process. It's flexible enough to accommodate different types of models and training procedures while maintaining a consistent structure.
+
+Citations:
+
+    [1] https://www.mlexpert.io/blog/alpaca-fine-tuning
+    [2] https://developers.redhat.com/articles/2021/05/21/introduction-machine-learning-jupyter-notebooks
+    [3] https://www.datacamp.com/tutorial/fine-tuning-llama-2
+    [4] https://kili-technology.com/large-language-models-llms/llama-3-guide-everything-you-need-to-know-about-meta-s-new-model-and-its-data
+    [5] https://huggingface.co/blog/nroggendorff/train-with-llama-architecture
+    [6] https://docs.polypheny.com/en/latest/user_interfaces/notebooks/cells/markdown-cells
+    [7] https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/code-markdown-cells-in-jupyter-notebook/
+    [8] https://runestone.academy/ns/books/published/httlads/PythonReview/markdown.html
+
+Pshwew! What a journey! Well, it's pretty clear that I've got my first piece of
+content on my website that's going to resist blog format. Already I have a bit
+more repetition of content than I'm comfortable with, but life's to short to
+retro-edit (much), so I'm going to use my newfound powers to launch my first
+sub-section of my site. 
