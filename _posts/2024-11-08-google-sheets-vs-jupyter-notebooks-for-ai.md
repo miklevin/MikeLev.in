@@ -30,6 +30,30 @@ developer environment versus developer environment, and when it comes down to
 modern VisualBasic for Applications (VBA) versus the language that is taking
 over the world (Python), there really is no choice.
 
+All roads lead to SEO Audits. And bright futures are led to by automation of as
+much of those SEO Audits as possible, calibrated for the brave new world of AI
+we're in. And it's not so much about generative AI because content is as good as
+infinite. Assume the spam cannons are on full-blast, full-time, filling the net
+with mostly click-bait garbage. All defenses are going up and a considerable
+amount of that AI firepower is going to go into filtering AI-generated spam.
+
+Safe harbor will be sought in brands and reputation, as usual. It happened
+before when Google fought the formidable spam problem. Now the processing power
+to fight spam has increased along with the processing power to produce spam. So
+it's still the arms race and a cat and mouse game. However, more intelligence is
+going to be put into the both the spam cannons and the filters. We must hope
+the likes of Google, OpenAI, Perplexity and whoever can put more intelligence
+into the filters than spammers put into the cannons. And you can't fake brands
+over time. Merit is merit... when plugged in on the right domain.
+
+Sites like this modest little one here will likely never be recognized or
+rewarded in search again, unless the AIs really pick it apart and realize
+there's something special going on here (again, unlikely). It's like the artist
+that nobody gets. It's completely understandable that's the case with humans not
+getting me, as I make up with quantity what I lack in quality (free-form
+thinking just like this) in such a way that only machines could digest. And so
+now.. and so now.. and so now... I master the Botify products. Be found.
+
 I have to get more expert at a product called PageWorkers. It's a way of doing
 SEO optimizations to a website through JavaScript. Yes, while that's  not the
 ideal it is both possible and a good first step to implementing fixes in a more
@@ -54,8 +78,8 @@ side in order to see what the fully rendered page is supposed to look like. From
 time to time, this has actually been a recommended solution from Google from
 back when AJAX and single page applications (SPA) became a thing. 
 
-**Me**: Hey Perplexity, what was Google's server-side rendering recomendation back
-in the day for AJAX SPAs?
+**Me**: Hey Perplexity, what was Google's server-side rendering recommendation
+back in the day for AJAX SPAs?
 
 **Perplexity**: Google's recommendations for server-side rendering of AJAX single-page applications (SPAs) have evolved over time. Back in the early days of SPAs, Google had specific guidelines to help ensure these applications could be properly crawled and indexed. Here's an overview of Google's historical approach:
 
@@ -354,3 +378,137 @@ pd.set_option('display.max_colwidth', None)
 
 df  # displays becasue last line of cell in Notebook
 ```
+
+OMG, I've got a tempest in a teapot right now. I need to figure out how to stir
+it up again. Okay, deep breath...
+
+**Me to ChatGPT 4o**: So you're really friggn good at this now, and I need to be able to reproduce this magic of getting working Botify API Notebooks out of some poking around in the browser in their Web UI. Advise me on how to prompt you to get back something to recapture this magic. Enumerate key points and instructions back to me or whatever please.
+
+4o: To recreate the process of generating effective Botify API queries in Jupyter Notebooks, here’s a practical guide to prompt me for maximum success. Each step ensures we can align closely with Botify’s API behavior based on observed Web UI activity.
+
+### 1. **State the Goal Clearly**
+   - **Example**: *“I want to count URLs by pagetype for a specific analysis”* or *“I need a breakdown of filtered/unfiltered URLs for a recent analysis.”*
+   - Describe whether the goal is a high-level segmentation, a detailed URL filter, a metric aggregation, or something else.
+
+### 2. **Capture Key Details from Web UI Exploration**
+   - **Identify the Base API Endpoint**: Check the browser’s Network tab when triggering an action in the Web UI. This gives us the core endpoint (e.g., `.../projects/{org}/{website}/query`).
+   - **Observe the Payload Format**: If possible, copy the JSON payload used in requests. Include collections, dimensions, filters, metrics, and sort orders.
+   - **Note Relevant Headers**: Headers like `Authorization`, `Content-Type`, `x-botify-client`, or any custom headers may be critical.
+
+### 3. **List Specific Parameters from the Network Request**
+   - **Collections**: Point out the collection names or dates (e.g., `"crawl.20241103"`). These often correspond to analysis dates or crawl sessions.
+   - **Dimensions and Metrics**: Capture which fields are segmented or measured (e.g., `"segments.pagetype.value"`, `"count_urls_crawl"`).
+   - **Sorting**: Note if results are sorted by metrics (e.g., by URL count) or dimensions.
+   - **Filters**: If there are filters (e.g., URLs with specific attributes), specify these.
+
+### 4. **Share Sample Responses if Possible**
+   - Providing examples of expected JSON responses helps me tailor the data parsing and DataFrame structure for easy analysis.
+
+### 5. **Define the Analysis Context**
+   - Is this query part of a larger sequence (e.g., pagetype counts first, URL details next)? Listing how this fits into a sequence of analyses or explorations helps shape each query optimally.
+
+### 6. **Request Specific Notebook Output Formats**
+   - Specify if you’d like the results in a DataFrame, saved as CSV, or visualized as charts.
+   - Mention any preferences for handling large datasets, pagination, or multi-page queries (e.g., returning up to 5000 results, paginating if needed).
+
+### Example Prompt for Reproducing This Process:
+*“I explored Botify’s Web UI to get pagetype segmentation for all URLs in a recent analysis. I need a Jupyter Notebook script that connects to the Botify API, retrieves pagetype URL counts without filters, and sorts results by count. The API endpoint observed is `/projects/{org}/{website}/query`, with `size=5000`. Here’s the observed payload and headers. Output results as a sorted DataFrame and save as CSV.”*
+
+Let me know how I can make these adjustments specific to your needs! With these steps, we’ll consistently get functional API Notebooks ready to analyze your data in Botify.
+
+**Me**: Yeah, that captures a lot of it. But the elusive part is exactly what to do
+once I have a sample of what I want displaying in the Web UI. For example, I
+used to always forget to also give you just the plain old URL I was looking at,
+assuming all the necessary data was easily deduced from the headers and payload,
+but the truth is that a surprisingly large use is made of plain old querystring
+parameters on things you would think is the POST method. And so parsing
+important information is most easily accomplished if I remember to give you the
+URL.
+
+The next thing is that there's just so much in the Network tab that you have to
+remember to clear it and then do a refresh to isolate knowing you've got a
+recorded stream that includes what you want but not that much more. After that,
+you need to know to look in the Network panel only labeled Name, but which is
+really a sequential list of all the requests made and resources used. You've got
+to know to look down that list and investigate thing labeled some variation of
+query or aggs. Most other things can be ignored.
+
+And once you're in the right query or aggs request, you have to know to look
+further at the tabs labeled Headers, Payload and Response. In the Payload tab,
+you have to know enough to switch from the parsed view to "view source", on a
+link which is a toggle whose label is unclear whether it's a verb command or
+documenting the current display state.
+
+Then all these things have to be gathered up and copy/pasted to you along with a
+clear prompt that's asking for the right thing, assuming you even selected the
+right resource to probe to reproduce the thing you're looking at in the Web UI.
+
+**4o**: This is excellent context for a repeatable process! Here’s a refined approach based on your notes, giving you a step-by-step guide for translating Web UI behavior into clear API prompts.
+
+---
+
+### **Step-by-Step Guide for Gathering Data from Botify’s Web UI to Prompt Effectively**
+
+#### 1. **Identify the URL of the Page Showing the Data You Want**
+   - Always include the full URL where you see the data displayed. This often contains essential parameters in the query string that aren’t in the payload, such as `analysisSlug` or `comparisonAnalysisSlug`.
+   - **Example URL**: `https://app.botify.com/{org}/{website}/crawl/segments?context=%7B%7D&comparisonAnalysisSlug=20241030&analysisSlug=20241103`
+
+#### 2. **Isolate the Network Traffic by Clearing and Refreshing**
+   - Go to the Network tab, clear previous entries, then refresh the page. This isolates the requests for the page in question and removes any unrelated network noise.
+
+#### 3. **Locate the Right Request in the Network Panel (Look for “query” or “aggs”)**
+   - In the **Name** column, search for requests labeled with names like `query`, `aggs`, or other descriptive terms related to API data (avoid assets like images or scripts).
+   - Select the one that seems most related to your data; this often comes from sequentially trying `query` or `aggs` requests to find the best match.
+
+#### 4. **Extract Information from Headers, Payload, and Response Tabs**
+   - Once you’ve clicked on the right request, go through these tabs:
+     - **Headers Tab**: Find and note the URL endpoint and headers like `Authorization`, `Content-Type`, and any other unique headers (e.g., `x-botify-client`).
+     - **Payload Tab**:
+       - Toggle to **View Source** to get the unparsed JSON payload, which ensures that all nested parameters are visible.
+       - Copy the entire payload, as it often includes the full structure for `dimensions`, `metrics`, and `filters`.
+     - **Response Tab**: Sometimes the response format provides helpful context for expected data shapes and counts.
+
+#### 5. **Summarize and Structure the Prompt for Recreating the Query**
+   - When you have the URL, payload, headers, and the endpoint, you’re ready to create an API prompt. Here’s an example structure to use:
+
+     **Example Prompt**:
+     ```
+     I’m trying to retrieve pagetype segmentation data similar to what’s displayed on this URL: https://app.botify.com/{org}/{website}/crawl/segments?context=%7B%7D&comparisonAnalysisSlug=20241030&analysisSlug=20241103.
+
+     Here are the headers, payload, and endpoint details I gathered from the Network tab:
+
+     - **Request URL**: `https://app.botify.com/api/v1/projects/{org}/{website}/query?size=5000`
+     - **Headers**:
+       - Authorization: Token [your token here]
+       - Content-Type: application/json
+       - x-botify-client: spa
+     - **Payload (Source View)**:
+       ```json
+       {
+         "collections": ["crawl.20241103"],
+         "query": {
+           "dimensions": [{"field": "segments.pagetype.value"}],
+           "metrics": [{"field": "crawl.20241103.count_urls_crawl"}],
+           "sort": [{"type": "metrics", "index": 0, "order": "desc"}, {"type": "dimensions", "index": 0, "order": "asc"}]
+         }
+       }
+       ```
+     - **Expected Response Structure**:
+       - Dimensions with pagetype values and URL counts in metrics.
+       
+     Could you help turn this into a Jupyter Notebook query that connects to the API, retrieves the pagetype URL counts, and outputs the results as a DataFrame?
+     ```
+
+#### 6. **Run the Notebook Prompt and Verify the Results**
+   - When we construct the notebook based on this prompt, run the code, and check that the output aligns with what’s seen in the Web UI.
+
+---
+
+### Quick Checklist for Efficient Prompts
+1. **Include the full URL** where the data is displayed.
+2. **Clear the Network tab**, refresh, and locate the correct **`query` or `aggs`** request.
+3. Copy from **Headers, Payload (View Source), and Response** in full.
+4. Clearly **state your goal** (e.g., “Retrieve pagetype segmentation by URL count”).
+5. **Ask for specific outputs**, like a DataFrame, chart, or CSV.
+
+With these steps, you’ll capture everything needed to prompt efficiently and produce reliable, repeatable Botify API Notebooks. Let me know if you’d like a sample Notebook template as well!
