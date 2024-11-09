@@ -916,8 +916,6 @@ Rationale: This depth distribution shows how many URLs exist at each click depth
    - Ensure all essential features (error handling, progressive saving, and rate limiting) remain intact through potential future changes.
 
 ```python
-# How To Fetch and Process Project Analysis Data from the Botify API with Error Handling and Progressive Data Saving
-
 import requests
 import pandas as pd
 import time
@@ -986,6 +984,8 @@ def fetch_analysis_count(org, project_slug):
         print(f"    Error fetching analyses for project '{project_slug}' in organization '{org}': {e}")
     return None, None
 
+print(progress_pickle)
+
 # Load progress if available
 if os.path.exists(progress_pickle):
     with open(progress_pickle, 'rb') as f:
@@ -998,7 +998,7 @@ else:
 org_list = read_orgs_from_config('config.txt')[org_index:]  # Start from the saved org index
 
 for org in org_list:
-    print(f"Processing organization: {org}")
+    print(f"\n{'=' * 40}\nProcessing organization: {org}\n{'=' * 40}")
     projects = fetch_projects(org)
     
     qualifying_projects = []
@@ -1035,7 +1035,7 @@ for org in org_list:
 # Save final CSV and clean up progress file
 df = pd.DataFrame(output_data)
 df.to_csv(output_csv, index=False)
-print(f"Data saved to {output_csv}")
+print(f"\nData saved to {output_csv}")
 
 # Remove progress file if run completes successfully
 if os.path.exists(progress_pickle):
@@ -1049,8 +1049,41 @@ with open('config.txt', 'w') as file:
         for project in org_projects:
             file.write(f"    {project['Project Name']} ({project['Project Slug']})\n")
 
-print("config.txt updated with project candidates.")
+print("\nconfig.txt updated with project candidates.")
 ```
+
+**Sample Output:**
+
+```plaintext
+Data saved to projects_with_multiple_analyses.csv
+
+Project Analysis Summary
+===========================================
+Processing organization: Noodle-Network
+  Fetched 3 projects so far for organization 'Noodle-Network'
+  Project: Spaghetti Central (Slug: spaghetti-central)
+    Analysis count: 5, Most recent analysis: 20241106
+  Project: Ramen Repository (Slug: ramen-repo)
+    Analysis count: 10, Most recent analysis: 20241105
+
+Processing organization: Flavor-Fusion-Co
+  Fetched 2 projects so far for organization 'Flavor-Fusion-Co'
+  Project: Spice Index (Slug: spice-index)
+    Analysis count: 8, Most recent analysis: 20241030
+  Project: Zesty Catalog (Slug: zesty-catalog)
+    Analysis count: 3, Most recent analysis: 20240925
+
+Processing organization: Savory-Solutions
+  Fetched 4 projects so far for organization 'Savory-Solutions'
+  Project: Savory Treats (Slug: savory-treats)
+    Analysis count: 7, Most recent analysis: 20241102
+  Project: Herb Hub (Slug: herb-hub)
+    Analysis count: 6, Most recent analysis: 20241029
+===========================================
+config.txt updated with project candidates.
+```
+
+**Rationale**: This code fetches and processes project analysis data from the Botify API, incorporating robust error handling, progressive saving, and rate limiting to efficiently handle large data requests across multiple organizations. By saving progress in `progress.pkl`, this script ensures that even if an interruption occurs, data already fetched is retained, allowing for a seamless resume without re-fetching. The delays between requests prevent rate limiting, while a final CSV output (`projects_with_multiple_analyses.csv`) and an updated `config.txt` offer a structured view of qualified projects by organization. This approach optimizes both data retrieval and analysis while ensuring a user-friendly summary for each organization.
 
 ```python
 
