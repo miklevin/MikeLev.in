@@ -523,10 +523,11 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
         {
             "dimensions": ["error"],
             "metrics": [3000]
-        }
+        },
+        [...]
     ],
     "previous": null,
-    "next": "https://api.botify.com/v1/projects/example-project/query?page=2",
+    "next": "https://api.botify.com/v1/projects/example-project/query?page=1",
     "page": 1,
     "size": 10
 }
