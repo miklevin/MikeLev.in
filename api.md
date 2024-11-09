@@ -626,7 +626,7 @@ for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
 ```
 
-Sample Output:
+**Sample Output**:
 
 ```
 Fields for collection 'crawl.20241101':
@@ -641,7 +641,7 @@ ID: spice_alert.depth_1, Name: Spice Level 1
 ID: cook_cache, Name: Chef's Cache
 ```
 
-Rationale: Listing fields for a given collection is essential for understanding the data structure and available attributes in a Botify dataset. By querying the field IDs and names, this function enables developers to identify key data points like URLs, content elements, or performance metrics. With playful, culinary-inspired field names, the example output keeps things lighthearted while still illustrating the diversity of fields. This approach helps in reviewing metadata without exposing real client information, making it ideal for testing and teaching contexts where structure matters more than content specificity.
+**Rationale**: Listing fields for a given collection is essential for understanding the data structure and available attributes in a Botify dataset. By querying the field IDs and names, this function enables developers to identify key data points like URLs, content elements, or performance metrics. With playful, culinary-inspired field names, the example output keeps things lighthearted while still illustrating the diversity of fields. This approach helps in reviewing metadata without exposing real client information, making it ideal for testing and teaching contexts where structure matters more than content specificity.
 
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
@@ -712,7 +712,8 @@ print("Data saved to pagetype_url_counts.csv")
 print(df)
 ```
 
-Sample Output:
+**Sample Output**:
+
 ```
 Data saved to pagetype_url_counts.csv
                  Pagetype  URL Count
@@ -723,7 +724,7 @@ Data saved to pagetype_url_counts.csv
 4                    faq        500
 ```
 
-Rationale: This breakdown shows URL distribution across different page types. Product Detail Pages (PDPs) typically make up the bulk of e-commerce sites, followed by Product Listing Pages (PLPs). Hub pages, blog posts and FAQs represent a smaller portion of the total URLs. This data helps identify potential structural issues and prioritize optimization efforts across different sections of the site.
+**Rationale**: This breakdown shows URL distribution across different page types. Product Detail Pages (PDPs) typically make up the bulk of e-commerce sites, followed by Product Listing Pages (PLPs). Hub pages, blog posts and FAQs represent a smaller portion of the total URLs. This data helps identify potential structural issues and prioritize optimization efforts across different sections of the site.
 
 
 # Get Short Titles: How To Get the First 2000 URLs With Short Titles Given Pagetype
@@ -816,7 +817,7 @@ pd.set_option('display.max_colwidth', None)
 df.head(10)
 ```
 
-Sample Output:
+**Sample Output**:
 
 **Data saved to titles_too_short.csv**
 
@@ -829,7 +830,7 @@ Sample Output:
 | https://www.example.com/site/belts/34567 | 7         | - Belt Hub        | unique        | Essential belts in various styles, perfect for any outfit.      | Example Store/Apparel/Accessories/Belts                | [Belt Basics]                   | [Specifications, Similar Belts]         |
 | https://www.example.com/site/jackets/11111| 6         | - Jacket Haven    | duplicate     | Quality jackets for all seasons, unbeatable prices on top brands.| Example Store/Apparel/Outerwear/Jackets                 | [Best Jackets]                  | [Reviews, Compare Jackets, New Arrivals]|
 
-Rationale: **Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 2000 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
+**Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 2000 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
 
 
 # Count Short Titles: How To Count Number of URLs Having Short Titles
@@ -896,11 +897,11 @@ else:
 
 ```
 
-Sample Output:
+**Sample Output**:
 
     Number of URLs with short titles: 675080
 
-Rationale: Knowing the number of URLs with short titles helps gauge the scope of potential title optimizations across the site. By determining this count upfront, you can decide if a full data download is necessary or if a more focused approach will be effective. This preliminary check prevents excessive data transfer and streamlines the analysis process.
+**Rationale**: Knowing the number of URLs with short titles helps gauge the scope of potential title optimizations across the site. By determining this count upfront, you can decide if a full data download is necessary or if a more focused approach will be effective. This preliminary check prevents excessive data transfer and streamlines the analysis process.
 
 
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
@@ -1020,7 +1021,7 @@ else:
     print("Failed to retrieve the download URL.")
 ```
 
-Sample Output:
+**Sample Output**:
 
     Starting export job for short titles...  
     Polling for job completion: .  
@@ -1028,7 +1029,7 @@ Sample Output:
     File downloaded as 'short_titles_export.csv.gz'  
     File decompressed and saved as 'short_titles_export.csv'  
 
-Rationale: This function initiates and manages a data export job to retrieve up to 10,000 URLs with short titles, a useful step for identifying and improving under-optimized page titles in a collection. By automatically polling for job completion and downloading the result, this approach ensures large datasets are collected efficiently, allowing teams to analyze title lengths and other metadata for SEO improvements. The final CSV output can then be used for in-depth analysis or as a data source for updating title content site-wide.
+**Rationale**: This function initiates and manages a data export job to retrieve up to 10,000 URLs with short titles, a useful step for identifying and improving under-optimized page titles in a collection. By automatically polling for job completion and downloading the result, this approach ensures large datasets are collected efficiently, allowing teams to analyze title lengths and other metadata for SEO improvements. The final CSV output can then be used for in-depth analysis or as a data source for updating title content site-wide.
 
 
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
@@ -1073,7 +1074,8 @@ depth_distribution = get_urls_by_depth(
 pprint.pprint(depth_distribution, width=1)
 ```
 
-Sample Output:
+**Sample Output**:
+
 ```
 {
  0: 1,
@@ -1086,7 +1088,7 @@ Sample Output:
 }
 ```
 
-Rationale: This depth distribution shows how many URLs exist at each click depth level from the homepage (depth 0). A healthy site typically has most content within 3-4 clicks, so this data helps identify potential deep crawl issues.
+**Rationale**: This depth distribution shows how many URLs exist at each click depth level from the homepage (depth 0). A healthy site typically has most content within 3-4 clicks, so this data helps identify potential deep crawl issues.
 
 
 # Use Case: How To Fetch and Process Project Analysis Data from the Botify API with Error Handling and Progressive Data Saving
@@ -1118,7 +1120,7 @@ Rationale: This depth distribution shows how many URLs exist at each click depth
    - Add comments throughout the code for clarity.
    - Ensure all essential features (error handling, progressive saving, and rate limiting) remain intact through potential future changes.
 
-```python
+```python jupyter={"outputs_hidden": true}
 import requests
 import pandas as pd
 import time
