@@ -2101,7 +2101,7 @@ This is a classic example of how AI can lead developers down a complex refactori
 Thank you for the correction. It's a valuable lesson in not overcomplicating solutions and first checking the basics of object lifecycle and instance management.
 
 **Me**: Rephrase the recommendation so I can give it as explicit instructions to the
-code AI assistant on this code block, with all the now-usual unintended
+Cursor AI assistant on this code block, with all the now-usual unintended
 consequences, genie wish distortion compensators and monkeys paw prevention
 linguistic apparatus in place to ensure a clean and precise and not
 over-ambitious and not going off-program creative undermining implementation.

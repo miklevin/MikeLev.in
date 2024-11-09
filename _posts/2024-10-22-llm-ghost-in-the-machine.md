@@ -258,7 +258,7 @@ anymore. I used to slice & dice a single file into the separate files used by
 the `jekyll` static site generator that powers Github Pages. But now I lean into
 its strengths and reduce the complexity of having a transform in the process,
 but now I need to know the following because I can't stop calling ***Cursor
-AI*** ***Code AI***. And so now I have to do a global search and replace within
+AI*** ***Cursor AI***. And so now I have to do a global search and replace within
 an ever-increasing folder of `_posts/` under the GitHub Jekyll static site
 generator system. Ugh!
 
