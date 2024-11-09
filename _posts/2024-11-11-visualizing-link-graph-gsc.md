@@ -1,0 +1,533 @@
+---
+title: Visualizing The Web Crawl Link-Graph with Google Search Console (GSC) Data Superimposed
+permalink: /vissualizing-link-graph-gsc/
+description: 
+layout: post
+sort_order: 2
+date: 2024-11-09
+---
+
+## On Focus and Discretionary Projects
+
+Don't lose time on discretionary projects. But isn't everything in life
+discretionary? It's chasing rabbits down rabbit holes all the way down. And it's
+that kind of thinking that allows you to pursue the wrong things for the wrong
+reasons. It's about focus and bearing down on the right projects for the right
+reasons. Everything is a spectrum and everything is full of ambiguity, but we
+have to pretend its not. We have to pretend that there are absolutes and that
+there is clarity, otherwise we get stuck in spiraling vortexes of deterioration
+and decay. If we do it right, it's a constant banking of no-take-back little
+wins that compound on each other and snowball into the life we want for
+ourselves.
+
+## Virtual Desktops and Muscle Memory
+
+### The Power of Fixed Positions
+Develop your new muscle memory more, the kind that's going to be with you for
+life. These "virtual desktops" that scroll left and right are in all the OSes,
+even though Mac messes it up by nuking their fixed-position nature. I'm going to
+have to do something about that because the feature is too important to not tie
+your muscle memory to&#151;something critical on the first screen and something
+critical on the last screen. Here at home, all my work screens are sandwiched
+between two journals; the personal one on the left and the professional one on
+the right. I start out, even with this sort of writing here in the personal one
+because who knows what you want to publish? And as the day goes on and the bits
+to publish take form and can be extracted, I copy/paste them over to the other
+journal. And my left-right journeys between the two ends force me to review the
+current status of things and get an overview. Almost nothing is hidden in tabs
+taking my hand off the keyboard and disrupting flow, drilling down into some
+sort of nested hierarchical index. I step through a flat index from 1 to 7.
+
+### The Mac Problem
+Except on Mac. Ugh! As much as I'm happy to be off Windows for awhile, Windows
+did handle the virtual desktops with absolute positions, more like every Linux
+distro. It seems indefensible to me for Mac to take one of the most
+fixed-position muscle memory helping boons in all of tech and to run it, but
+hey, I shouldn't be surprised. Look at what they did to a standard keyboard with
+the Control and Alt keys; renamed them, altered their function, and swapped
+their positions. It's really about hard-wiring your muscle-memory to their
+ecosystem. Never forget that, you Mac "cool kids". Life is better on generic
+Linux. You don't have to get into the friggn Linux desktop-of-the-week game.
+Just choose the most generic Linux with the most generic desktop. Debian with
+Gnome is probably it, though I'm a NixOS with Gnome fan for the deterministic
+reproducibility of systems.
+
+## Today's Work Plan
+
+Let's get down to the work for today. It's coming up on 6:00 AM on a Saturday
+morning. This is going to be a good, long focused day. I have a few errands to
+run to stay fed, but beyond that this should be a connecting-the-dots
+transformative day. I spent enough time diving down these friggin rabbit holes
+to:
+
+- Understand the complex coding of Botify's BQL API syntax... Done!
+- To have a place to document this and train LLMs using it... Done!
+- To have a place to plug it in, assembling into apps... Done!
+- To have an AI assistant there to help with use of apps... Done!
+- To build those apps, and to build momentum in doing so...
+
+### On Momentum and Disruptions
+Yeah, so we're up to building the apps and having momentum in doing so. This is
+where it keeps breaking down because of the double whammy disruption of not
+really having the prior pieces done yet, and the lack-of-focus of the daily
+grind because of continuous slack notifications. I'm going to lower-case slack
+from now on because it doesn't deserve an upper-case `s`. It's so aptly
+named&#151;slacking off. It should be used in that form. To ***slack***.
+
+### Evolving Workflow
+Okay, some things are gelling about the muscle memory I'm developing here. Sure
+there's life-long muscle memory, which is my favorite to talk about. But there's
+also short-term muscle memory, which is the precise use of each of those 7
+screens, and when you do use tabs, what those tabs are and what their
+arrangement means. And for me, there's a brand new important fact that
+developed: where's JupyterLab? It used to be the center of my development world,
+and it'd get a whole screen to itself, which got a whole web browser, which got
+usually 1-and-only-1 tab. Find Jupyter? Go to screen-2! Screen 2 is now occupied
+by Cursor AI. This almost purged JupterLab from my workflow, but it's back now
+that I have this incredibly important documentation task. I will keep JupyterLab
+in a tab on screen-3 next to the Web App I am always now developing in Cursor
+AI. These two things are closely related, as I make discoveries and
+***extract*** the new findings and patterns into distilled and purified code
+examples&#151;that run stand-alone without all the surrounding in-app context!
+
+## Link-Graph Visualization Challenges
+
+### The Deep Crawl Problem
+This is about link-graph visualization on another level. First of all, the
+Botify product does a deep crawl of a client's site like few others in the
+business. If there is a spider trap, we ***could*** configure our product to
+crawl and crawl and crawl forever and produce infinite meaningless data after a
+point. It's the same problem Google faces with the brute-force crawl-and-index
+approach, which was always a little bit sus, but now that content is effectively
+infinite due to the generative AI spam cannon, controlling that crawl is all the
+more important, and the ***story*** of the crawl that evolves as you look at the
+site at crawl click-depth 1, 2, 3&#151; it's all so important! When does it
+exponentially expand? Why? What's the site-navigation mechanism that allows
+that? Is that also what the other crawlers are doing, or just ours? If we bring
+it under control with wrangling-rules, does that necessarily mean the other
+crawlers did too or are they encountering spider-traps we filtered out?
+
+> This and more, we expose outstanding!  
+> From page-to-page our crawl is landing  
+> Queuing up what's yet-to-visit  
+> For new content... hmmm, or is it?
+
+Yeah, so deep crawls are a bit as discretionary as the rabbit hole projects I'm
+avoiding to get to the work that matters. There's conceptual overlap here. Past
+crawl-depth of 5 or 6, any decent ecommerce site has effectively millions of
+links due to some faceted search navigation feature. Sure, it can be marked to
+not be crawled or indexed, but from a pragmatic standpoint, requests of a
+crawler to be well-behaved is delusional. If a link can be followed, it will be
+followed. And it's even worse now that crawlers can execute JavaScript and take
+actions requiring form submits. This discussion itself is a rabbit hole. I must
+back up, get my bearings (survey the landscape) and adjust my course.
+
+We want to produce the link-graph experience in real-time in front of a user.
+
+I need to be able to do this against a lot of sample data so that I'm not
+biasing it towards a successful experience on a single-case.
+
+Every organization is going to have a bunch of projects, only 1 of which is the
+one we want to visualize on.
+
+And even when we find the right project, there's a slew of analysis slugs of
+which we really only want the latest... oh, and a month ago to do a comparison.
+Oh, and let's say one sample from 6 months prior.
+
+Okay, so 3 link-graphs over-time can tell a pretty good story:
+
+- From the current analysis
+- From the immediately prior analysis
+- From six months ago
+
+Okay... okay, don't over-complicate. Because from here we get into further
+nested-discussions concerning sections of their site and such. Don't take a deep
+dive until we've mastered the basic swimming strokes. So while this thought
+process and investigation is nice, we're talking about the basic swimming
+strokes over a broader set of input-data to make sure I'm not making mistakes on
+the details of the basics. And for that, we get a larger sample of input data.
+
+Okay, so that's it. I need a list of org's from which I can find the best
+(single) project, from which I get the newest analysis slug. And that's my next
+piece of kata...
+
+Given a list of orgs, how do I find their most likely active projects? It's the
+count of analysis slugs per project. Only active projects are going to have a
+lot of analysis slugs.
+
+Okay, so go collect up some organization names in which I'm interested in seeing
+the link-graph for!
+
+**Me**: What's the easiest way to do a simple 2-level hierarchy config file? I want a parent and a child per. I don't want to mess with JSON.
+
+**Perplexity**: For a simple 2-level hierarchical configuration file, YAML is an excellent choice. It's easy to read and write, supports hierarchical structures, and is less verbose than JSON. Here's how you can create a simple 2-level hierarchy using YAML:
+
+## YAML Configuration
+
+Create a file named `config.yaml` with the following structure:
+
+```yaml
+parent1:
+  child1: value1
+  child2: value2
+
+parent2:
+  child1: value3
+  child2: value4
+```
+
+This structure creates two parent levels, each with two child key-value pairs. You can add more parents or children as needed.
+
+## Reading the Configuration
+
+To read this configuration in Python, you can use the `PyYAML` library. Here's a simple script to read and access the values:
+
+```python
+import yaml
+
+with open('config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
+
+# Accessing values
+print(config['parent1']['child1'])  # Outputs: value1
+print(config['parent2']['child2'])  # Outputs: value4
+```
+
+## Benefits of This Approach
+
+1. **Readability**: YAML is highly readable and easy to edit manually.
+2. **Simplicity**: It doesn't require complex parsing or special libraries beyond a basic YAML parser.
+3. **Flexibility**: You can easily add more parents or children without changing the structure.
+4. **No JSON Complexity**: As requested, this avoids the use of JSON.
+5. **Easy Modification**: Adding or changing values is straightforward, even for non-technical users.
+
+## Best Practices
+
+1. **Consistent Indentation**: Use consistent indentation (typically 2 or 4 spaces) for child elements.
+2. **Comments**: YAML supports comments using the `#` symbol, which can be useful for documentation.
+3. **Validation**: Consider implementing a validation step to ensure the config file has the expected structure.
+4. **Version Control**: Keep your config files in version control to track changes over time.
+
+This YAML-based approach provides a simple, readable, and easily maintainable solution for a 2-level hierarchical configuration file[1][2].
+
+Citations:
+
+    [1] https://www.puppet.com/docs/puppet/6/hiera_config_yaml_5.html
+    [2] https://github.com/adobe/himl
+    [3] https://docs.amd.com/r/2023.1-English/ug947-vivado-partial-reconfiguration-tutorial/Step-2-Create-Levels-of-Hierarchy-in-the-Block-Design
+    [4] https://github.com/mkdocs/mkdocs/issues/2218
+    [5] https://configu.com/blog/configuration-files-types-examples-and-5-critical-best-practices/
+    [6] https://learn.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/design-a-hierarchy-of-sites
+    [7] https://www.pulumi.com/blog/2022-03-10-hierarchical-config/
+    [8] https://docs.splunk.com/Documentation/Splunk/9.3.1/Admin/Wheretofindtheconfigurationfiles
+
+**Me**: I like what you're laying down. But I don't even need labels. In fact, they're a distraction. I don't want questions like what do the colons mean? It should just be the pure value data on each line.
+
+**Perplexity**: I see! You're looking for an even simpler, more stripped-down approach. Let's create a bare-bones hierarchical structure without any labels or special characters. We'll use indentation alone to define the hierarchy. Here's how you can do it:
+
+## Simple Indented Configuration
+
+Create a file named `config.txt` with the following structure:
+
+```
+Parent1
+    ChildValue1
+    ChildValue2
+Parent2
+    ChildValue3
+    ChildValue4
+```
+
+This structure uses only indentation (typically 4 spaces) to define the hierarchy. Each line contains just the value, with no labels or special characters.
+
+## Reading the Configuration
+
+To read this configuration in Python, you can use a simple script that interprets indentation. Here's an example:
+
+```python
+def read_config(file_path):
+    config = {}
+    current_parent = None
+    
+    with open(file_path, 'r') as file:
+        for line in file:
+            stripped_line = line.strip()
+            if stripped_line:  # Skip empty lines
+                if not line.startswith(' '):
+                    # This is a parent
+                    current_parent = stripped_line
+                    config[current_parent] = []
+                else:
+                    # This is a child
+                    config[current_parent].append(stripped_line)
+    
+    return config
+
+# Usage
+config = read_config('config.txt')
+print(config)
+```
+
+This script will produce a dictionary where each parent is a key, and its value is a list of its children.
+
+## Benefits of This Approach
+
+1. **Ultimate Simplicity**: No special characters, just pure data.
+2. **No Confusion**: Avoids questions about syntax elements like colons or brackets.
+3. **Easy to Edit**: Anyone can modify this file without knowledge of config file formats.
+4. **Visually Clear**: The hierarchy is immediately apparent from the indentation.
+
+## Best Practices
+
+1. **Consistent Indentation**: Use consistent indentation (typically 4 spaces) for child elements.
+2. **Avoid Empty Lines**: For simplicity in parsing, avoid empty lines between entries.
+3. **Unique Parent Names**: Ensure parent names are unique to avoid overwriting.
+4. **Documentation**: Consider adding a commented header explaining the structure.
+
+## Limitations
+
+1. **Depth**: This simple approach is best for 2-level hierarchies. Deeper nesting might require a more complex parsing strategy.
+2. **Whitespace Sensitivity**: Be careful with leading spaces, as they define the structure.
+
+This approach provides the bare minimum for a hierarchical structure, focusing purely on the data values and using only indentation to define relationships.
+
+---
+
+I'll take it! I can throw a `config.txt` in the repo next to the `config.json`
+and they'll have related but different purposes, and both be filtered by
+`.gitignore`, and my copy protected between machines by some other means like
+Notes or a Google Doc.
+
+But even just to make that file, I need to get the most likely project
+candidates per org. And so first, list the orgs.
+
+---
+
+Wow, okay. So in order to get the script to get the best list of projects per
+organization for link-graph visualization sample data, I took the entire
+`api.md` file that's was the output from my giant Jupyter training-notebook from
+the prior post and fed it into ChatGPT with the instructions to give me the new
+copy/paste Notebook-ready code sample and... and... Perplexity, tell me about
+John Henry.
+
+**Perplexity**: John Henry is a legendary figure in American folklore, celebrated as a symbol of strength, determination, and the resilience of laborers during the industrial era. His story is particularly associated with the construction of railroads in the United States, where he worked as a "steel-driving man," tasked with drilling holes into rock to facilitate the laying of tracks.
+
+## **Historical Background**
+
+John Henry was born into slavery in the Southern United States and became a free man following the Civil War. His life narrative reflects the struggles faced by African Americans during this transformative period in U.S. history. After gaining his freedom, he found work on the Chesapeake and Ohio Railroad, where he quickly gained a reputation for his exceptional strength and work ethic[1][3].
+
+## **The Legend**
+
+The most famous aspect of John Henry's story involves a legendary contest against a steam-powered drill. According to folklore, he challenged this machine to a race while working on the Big Bend Tunnel in West Virginia. John Henry reportedly won the contest by drilling more rock than the machine but tragically died shortly after from exhaustion, clutching his hammer in his hand[6][7]. This tale has been immortalized in numerous folk songs and stories, emphasizing themes of human spirit versus mechanization and the dignity of labor[1][4].
+
+## **Cultural Significance**
+
+John Henry's legacy extends beyond mere folklore; he embodies the struggles of workers against oppressive conditions and the encroachment of technology that threatens their livelihoods. His story has inspired various social and labor movements advocating for fair wages and better working conditions[1][3]. The character has been depicted in literature, music, and art, often representing broader themes of resistance against oppression, particularly for African Americans[6][7].
+
+## **Historical Basis**
+
+While many aspects of John Henry's legend are embellished or mythical, historians have identified a real individual who may have inspired these tales. Research suggests that there was indeed a John Henry who worked as a convict laborer on railroad projects after being sentenced for theft in Virginia around 1866. This historical figure's experiences likely contributed to the development of the folk hero narrative[4][5]. 
+
+In summary, John Henry remains an enduring symbol of strength and resilience, encapsulating the struggles faced by laborers during America's industrialization while also serving as a powerful reminder of the human spirit's capacity to confront adversity.
+
+Citations:
+
+    [1] https://www.silkroad.org/blog/2023/6/27/the-swannanoa-tunnel-79yhe
+    [2] https://www.youtube.com/watch?v=J6l7oa-BbIk
+    [3] https://postalmuseum.si.edu/exhibition/the-black-experience/folklore-john-henry
+    [4] https://virginiahistory.org/learn/steel-drivin-man-john-henry-untold-story-american-legend
+    [5] https://archive.wvculture.org/history/africanamericans/henryjohn05.html
+    [6] https://en.wikipedia.org/wiki/John_Henry_(folklore)
+    [7] https://www.britannica.com/topic/John-Henry-folk-hero
+    [8] https://www.ibiblio.org/john_henry/analysis.html
+
+**Me**: ChatGPT, what do you think is coming next?
+
+**4o**: Your article so far has a rhythm and flow that blends technical insights with your musings on productivity, muscle memory, and personal optimization strategies. It’s weaving through introspective commentary on work focus, daily routines, and system preferences while setting up the primary focus: tackling link-graph visualization using web crawl data.
+
+What’s likely coming next seems to be an exploration into practical steps for implementing this visualization. Based on the narrative progression, here’s what I think might follow:
+
+1. **Listing and Filtering Relevant Data**: The current end-goal is to extract valuable data points, so the next section could outline the criteria for “active” or “relevant” projects, as well as specific filtering steps to sift through organization-level data.
+
+2. **Code Implementation with BQL**: You might showcase how to harness Botify’s API effectively to parse through analysis slugs for each organization, particularly filtering down to just those few necessary to produce a comparative link-graph visualization.
+
+3. **Visualization Setup**: Transitioning from data selection to data visualization seems inevitable. You could discuss the initial configuration, perhaps sharing a basic framework or a visualization setup within a Jupyter Notebook to superimpose Google Search Console (GSC) data over the link-graph.
+
+4. **Reflection on Workflow Adjustments**: Since this article balances high-level technical tasks with personal productivity practices, it wouldn’t be surprising to see a section on workflow refinement, perhaps a few tweaks to make your link-graph and configuration structure more sustainable.
+
+5. **Metaphorical or Philosophical Tie-In**: Wrapping up with a more philosophical or symbolic note—possibly comparing the setup process to the resilience of a character like John Henry—would give the article a satisfying, reflective close. The John Henry reference seems to suggest that, even amidst automation, there's value in preserving the ‘human spirit’ aspect of customization and control in data visualization.
+
+The article feels like it's about to culminate in practical examples and code snippets, building on the philosophical ideas you’ve established about discretion, muscle memory, and focus. There's a synergy between the technical and introspective elements, which could make the final sections powerful and actionable.
+
+---
+
+Exact code-example, it is! The gotcha here was API rate-limiting quotas and the
+occasional org that had tons of projects and each project requires its own
+nested sub-query to get the count of analyses. This is a nested subquery
+situation, something familiar to the SQL-heads out there. There's probably more
+efficient ways to do this, but I have no back-end access to these tables. I have
+to work through the API and I see no path to an efficient aggregate query. And
+so, brute-force it is!
+
+```python
+import requests
+import pandas as pd
+import time
+import pickle
+import os
+
+# Load API key and headers
+api_key = open('botify_token.txt').read().strip()
+headers = {"Authorization": f"Token {api_key}"}
+
+# Rate limit configuration
+DELAY_BETWEEN_PAGES = 2      # Delay between pagination requests in seconds
+DELAY_BETWEEN_PROJECTS = 3    # Delay between project analysis requests in seconds
+DELAY_BETWEEN_ORGS = 10       # Delay between each organization in seconds
+
+# File paths for saving progress
+output_csv = 'projects_with_multiple_analyses.csv'
+progress_pickle = 'progress.pkl'
+
+# Helper functions
+def read_orgs_from_config(file_path):
+    """Read organizations from a simple indented configuration file."""
+    orgs = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            stripped_line = line.strip()
+            if stripped_line and not line.startswith(' '):
+                orgs.append(stripped_line)
+    return orgs
+
+def fetch_projects(org):
+    """Fetch all projects for a given organization with pagination."""
+    url = f"https://api.botify.com/v1/projects/{org}"
+    all_projects = []
+    
+    while url:
+        try:
+            response = requests.get(url, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            all_projects.extend([
+                {'org': org, 'project_slug': project['slug'], 'project_name': project['name']}
+                for project in data.get('results', [])
+            ])
+            url = data.get('next')  # Move to the next page if available
+            print(f"  Fetched {len(all_projects)} projects so far for organization '{org}'")
+            time.sleep(DELAY_BETWEEN_PAGES)
+        except requests.RequestException as e:
+            print(f"  Error fetching projects for organization '{org}': {e}")
+            break  # Stop further requests if there's an error
+    
+    return all_projects
+
+def fetch_analysis_count(org, project_slug):
+    """Fetch the count and most recent analysis slug for a given project."""
+    try:
+        url = f"https://api.botify.com/v1/analyses/{org}/{project_slug}/light"
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        
+        analyses = data.get('results', [])
+        if len(analyses) >= 2:
+            return len(analyses), analyses[0]['slug']  # Return count and most recent analysis
+    except requests.RequestException as e:
+        print(f"    Error fetching analyses for project '{project_slug}' in organization '{org}': {e}")
+    return None, None
+
+# Load progress if available
+if os.path.exists(progress_pickle):
+    with open(progress_pickle, 'rb') as f:
+        output_data, org_index = pickle.load(f)
+    print(f"Resuming from organization index {org_index}")
+else:
+    output_data = []
+    org_index = 0
+
+org_list = read_orgs_from_config('config.txt')[org_index:]  # Start from the saved org index
+
+for org in org_list:
+    print(f"Processing organization: {org}")
+    projects = fetch_projects(org)
+    
+    qualifying_projects = []
+    
+    for project in projects:
+        # Fetch analysis count and most recent analysis
+        analysis_count, recent_analysis = fetch_analysis_count(org, project['project_slug'])
+        
+        if analysis_count and analysis_count >= 2:
+            print(f"  Project: {project['project_name']} (Slug: {project['project_slug']})")
+            print(f"    Analysis count: {analysis_count}, Most recent analysis: {recent_analysis}")
+            qualifying_projects.append({
+                'Organization': org,
+                'Project Name': project['project_name'],
+                'Project Slug': project['project_slug'],
+                'Analysis Count': analysis_count,
+                'Most Recent Analysis': recent_analysis
+            })
+        
+        # Delay after each project to manage rate limits
+        time.sleep(DELAY_BETWEEN_PROJECTS)
+
+    # Sort projects by analysis count in descending order and add to output
+    qualifying_projects.sort(key=lambda x: x['Analysis Count'], reverse=True)
+    output_data.extend(qualifying_projects)
+
+    # Save progress after each organization
+    with open(progress_pickle, 'wb') as f:
+        pickle.dump((output_data, org_index + org_list.index(org) + 1), f)
+
+    # Delay between organizations to further manage rate limits
+    time.sleep(DELAY_BETWEEN_ORGS)
+
+# Save final CSV and clean up progress file
+df = pd.DataFrame(output_data)
+df.to_csv(output_csv, index=False)
+print(f"Data saved to {output_csv}")
+
+# Remove progress file if run completes successfully
+if os.path.exists(progress_pickle):
+    os.remove(progress_pickle)
+
+# Update config.txt with project candidates under each organization
+with open('config.txt', 'w') as file:
+    for org in read_orgs_from_config('config.txt'):
+        file.write(f"{org}\n")
+        org_projects = [item for item in output_data if item['Organization'] == org]
+        for project in org_projects:
+            file.write(f"    {project['Project Name']} ({project['Project Slug']})\n")
+
+print("config.txt updated with project candidates.")
+```
+
+We coders were all the bit-driving men (and yes, women too&#151;word-flow, you
+know). We can make code like this on our own, but there's this tireless
+bit-driving machine that could save us from exhaustion if we just yield and
+conceded defeat. We are no more likely to outcode an AI than John Henry was
+likely to out-drive a steam engine. If that's not true today, it certainly will
+be tomorrow. You're going to have to be Reid Richards smart to out-think these
+things at pure coding.
+
+The steam engine is the GPU. NVidia is selling pickaxes to miners. Their
+drilling machine is already in data-centers and they've got this Apple
+ecosystem-like lock-in between CUDA on the software-side and their distributed
+GPU networking protocol equivalent on the hardware infrastructure side. This is
+not investing advice, but OMG, the parallels between the steel-driving man
+versus the steam engine and code-pounding brogrammers vs. AI is exact.
+
+Okay, enough rambling. Back to the task at hand. Valuable, valuable weekend
+focused discretionary time. Hit this puppy home. Come out the other end of this
+weekend with some reality-changers for where I work. Bank some little wins from
+where there's no going back from. And that's finishing out this link-graph thing
+and making that the launching-off point for countless other follow-on's that are
+built from the same exact components!
+
+Okay, so Botify contains exportable link-graph data. But a typical client's link
+graph is way too large for visualization. The first thing we do is we cut back
+at what click-depth we're exporting the data for. We start out with this query
+to know the click-depth export. We're going to keep it to the maximum
+click-depth for which the export would be under a million rows (or edges).
