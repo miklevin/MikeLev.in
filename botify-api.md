@@ -565,7 +565,8 @@ for collection_id, collection_name in collections:
     print(f"ID: {collection_id}, Name: {collection_name}")
 ```
 
-Sample Output:
+**Sample Output**:
+
 ```
 ID: crawl.20241018, Name: 2024 Oct. 18th
 ID: crawl.20240917, Name: 2024 Sept. 17th
@@ -574,7 +575,7 @@ ID: crawl.20240715, Name: 2024 July 15th
 ID: crawl.20240614, Name: 2024 June 14th
 ```
 
-Rationale: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. The Name field provides a more readable version of the date. You'll need one of these analysis slugs for your config.json file to query specific crawl data. The most recent analysis is listed first, as it contains the most current data.
+**Rationale**: This script retrieves a list of available data collections for a specific project in Botify. Collections in Botify represent various datasets, such as crawls, logs, or search data, which SEO teams and analysts can query and analyze. By using this script, users can access the collection IDs and names for a project, providing a foundational understanding of the data types available for further analysis.
 
 
 # List Fields: How To Get The List of Fields Given a Collection
