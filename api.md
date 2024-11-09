@@ -100,9 +100,12 @@ else:
 print("Done")
 ```
 
-Sample Output: `botify_token.txt` in your folder.
+**Sample Output**:
 
-Rationale: Successful API-calls need access to your Botify API Token. We therefore retreive it as our first step and put it in a text-file in your main folder.
+    API Token is already validated and saved in botify_token.txt.
+    Done
+
+**Rationale**: Successful API-calls need access to your Botify API Token. We therefore retreive it as our first step and put it in a text-file in your main folder.
 
 
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
@@ -119,11 +122,11 @@ username = user_data["data"]["username"]
 print(username)
 ```
 
-Sample Output: 
+**Sample Output**: 
 
     first.last
 
-Rationale: To create a first successful experience connecting to the Botify API.
+**Rationale**: To create a first successful experience connecting to the Botify API.
 
 
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
@@ -195,7 +198,7 @@ else:
     print("Failed to retrieve username and projects.")
 ```
 
-Sample Output:
+**Sample Output**:
 
 ```
 Username: first.last
@@ -206,7 +209,7 @@ Bar Test                       bar.com                             bar-org
 Baz Test                       baz.com                             baz-org       
 ```
 
-Rationale: You need an Organization slug (org) to get started. If there is one already associated with your account in Botify, this will show it under the `User or Org` column. If there is, you can lift it from here. If not, you have to find one from your project bookmarks or adim site.
+**Rationale**: You need an Organization slug (org) to get started. If there is one already associated with your account in Botify, this will show it under the `User or Org` column. If there is, you can lift it from here. If not, you have to find one from your project bookmarks or adim site.
 
 
 # List Projects: How To Get the List of Projects Given an Organization
@@ -261,7 +264,7 @@ for project_name, project_slug, project_user in projects:
 print("\nDone")
 ```
 
-Sample Output:
+**Sample Output**:
 
 ```
 Organization: foo-bar
@@ -278,7 +281,7 @@ Catalog of Enchanted Wares     catalog-of-enchanted-wares          foo-bar
 Phantom Inventory Island       phantom-inventory-island            foo-bar       
 ```
 
-Rationale: To retrieve project data for an organization, you’ll need an `Organization` slug (org) that links to the Botify account. This list provides each project’s name, slug, and associated user login, which you can use to identify and manage projects tied to a specific organization.
+**Rationale**: To retrieve project data for an organization, you’ll need an `Organization` slug (org) that links to the Botify account. This list provides each project’s name, slug, and associated user login, which you can use to identify and manage projects tied to a specific organization.
 
 
 # List Analyses: How To Get the List of Analysis Slugs Given a Project
@@ -324,16 +327,18 @@ for slug in analyses:
 print("\nDone")
 ```
 
-Sample Output:
+**Sample Output**:
+
 ```
 20240301
 20240201
 20240101
+20240101-2
 20231201
 20231101
 ```
 
-Rationale: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data.
+**Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` starting with `-2`. If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used given there is likely a reason the crawl was re-run.
 
 
 # List Collections: How To Get the List of Collections Given a Project
