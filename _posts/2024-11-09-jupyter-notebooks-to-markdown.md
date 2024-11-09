@@ -1,7 +1,7 @@
 ---
-title: All Roads Lead to Link Graphs
-permalink: /all-roads-lead-to-link-graphs/
-description: 
+title: From Jupyter Notebooks to Markdown
+permalink: /from-jupyter-notebooks-to-markdown/
+description: From Jupyter Notebooks to Markdown: A journey through refining workflows, building muscle memory, and perfecting good form in data science. Discover tools like nb-clean and jupytext while developing a sustainable, accessible process for managing and sharing code—keeping technical depth without losing readability.
 layout: post
 sort_order: 1
 ---
@@ -603,239 +603,55 @@ more repetition of content than I'm comfortable with, but life's to short to
 retro-edit (much), so I'm going to use my newfound powers to launch my first
 sub-section of my site. 
 
-Alright, we're not quite to the link-graph yet, but we're getting there. One
-more thing I want to document here to make sure I get it accomplished:
+And so, I never got to the topic I wanted today's entry to be about, the
+link-graph and how to create the query to export it, and even building the app
+to visualize it within the new web framework. I got distracted by the means to
+train the model to help me code it! At least it wasn't a distraction by
+something that leads me astray, but instead is a necessary dependency. I need
+this location to accumulate my nearly-know-how. It's more like a place to
+capture my peeling away the layers in diagnostic sweeps. I'm capturing my little
+diagnostic discoveries, including improved diagnostic procedures.
 
-**Me**: For every markdown file I publish on Github Pages using the built-in Jekyll
-ssg system, I also want that page to link to a copy of the markdown original
-file. I don't want do do complex GitHub customization or integration. I'm
-looking for something light-touch.
+In the end, I need to program ***a lot of BQLv2***, and I don't know how. It's
+not that I don't know the syntax or the language. I don't know the friggin
+tables and the entity relationships of the product. I don't know what field
+names are there, what they are for, and how they might be used in example code
+to build from.
 
-**Perplexity**: To achieve your goal of linking to the original Markdown file for each page on your GitHub Pages site using Jekyll, you can implement a simple and lightweight solution without complex customization. Here's an approach you can use:
+And so, that's what I spent my time today doing. Making sure I have a growing
+list of such examples that I can:
 
-## Linking to Original Markdown Files
+- Lift and use directly
+- Use to train LLMs, both local and frontier web models
+- Use to help my coworkers
+- Add to as I peel away layers and make new discoveries
+- Keep in a Jupyter Notebook where it's all live and usable
+- Have automatically exportable to markdown the way LLMs learn from
+- Have the markdown easily published where I can share and frontier models may
+  notice and learn from
 
-1. **File Naming Convention**
+Okay, yeah it comes down to kata, good form and muscle memory again. It comes
+down to removing the randomness and scattered approach to examples and
+hunt-and-peck method of discovery. We make both our examples and how we make
+those new discoveries systemic. And we walk through the results of that
+systematic process and output until it's natural second nature.
 
-Ensure your Markdown files and their corresponding HTML pages have matching names. For example, if you have a page called "about.md", it will generate "about.html".
+**Me**: What do you think, ChatGPT 4o?
 
-2. **Front Matter Addition**
+**4o**: I think it's a compelling piece that captures a blend of technical reflection and strategic thinking. Here are some highlights:
 
-Add a custom variable in the front matter of each Markdown file to store the path to the original file. For example:
+1. **Narrative Flow**: You’re weaving a story that explains your approach, particularly around maintaining good form (like kata in martial arts) for methodical work in data science and development. This analogy is vivid and bridges the technical and philosophical aspects well.
 
-```yaml
----
-layout: page
-title: About
-markdown_source: about.md
----
-```
+2. **Voice and Tone**: The playful references, like “genies in bottles,” “infinite undo,” and the Dennis Miller “subreference” line, add personality. They work well to bring in your perspective, making complex workflows feel approachable and lively.
 
-3. **Template Modification**
+3. **Technical Explanations**: The technical depth is excellent. You’re laying out tools and techniques in a way that is informative yet not overwhelming. Integrating `nb-clean`, `jupytext`, and the Git strategy around metadata shows a thoughtful, pragmatic approach.
 
-Modify your Jekyll layout template (typically found in `_layouts/default.html` or similar) to include a link to the original Markdown file. Add this code snippet where you want the link to appear:
+4. **Structure and Format**: The format and structure suggestions—like markdown tables, headers, and code prefixes—are very practical. This will make the final document not just informative but also highly readable and organized.
 
-```html
-{% if page.markdown_source %}
-  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/{{ page.markdown_source }}">View Markdown Source</a>
-{% endif %}
-```
+5. **Self-Reflection**: The meta-awareness of potential pitfalls in generative AI, like the feedback loop of AI-generated content, brings depth to the post. This adds layers of critical thought about the future of tech, training AI, and maintaining the integrity of data sources.
 
-Replace `YOUR_USERNAME` and `YOUR_REPO` with your actual GitHub username and repository name[1][2].
+6. **Readability**: The playful tangents are balanced well with insights, though a bit of tightening here and there (if desired) could make the main themes pop even more. For example, you could consider trimming some of the interjections or reflections to keep the core points in sharp focus.
 
-4. **GitHub Repository Structure**
+7. **Clear Objectives**: You are outlining real goals—such as creating a systematic process for building, sharing, and updating your knowledge in an accessible way. This is powerful because it doesn’t only focus on immediate output but also on creating a durable workflow for future productivity.
 
-Ensure your Markdown files are in the main branch of your repository and in the correct location relative to the root of your GitHub Pages site.
-
-## Benefits of This Approach
-
-- **Simplicity**: This method requires minimal changes to your existing Jekyll setup.
-- **Flexibility**: You can easily control which pages have links to their Markdown source by adding or omitting the `markdown_source` variable in the front matter.
-- **Maintainability**: The link to the Markdown file will automatically update if you change the file's location in your repository.
-
-## Considerations
-
-- This approach assumes your GitHub Pages site is built from the main branch of your repository.
-- The links will direct users to the GitHub web interface to view the Markdown files.
-- Ensure your repository is public for the links to work for all visitors.
-
-By implementing this solution, you'll provide a convenient way for visitors to access the original Markdown content of each page on your GitHub Pages site, enhancing transparency and allowing easy reference to the source material[3][4].
-
-Citations:
-
-    [1] https://stackoverflow.com/questions/77542655/links-that-work-both-in-markdown-and-after-build-with-jekyll
-    [2] https://mademistakes.com/mastering-jekyll/how-to-link/
-    [3] https://humanwhocodes.com/blog/2019/04/jekyll-hooks-output-markdown/
-    [4] https://www.reddit.com/r/webdev/comments/z01c7j/is_there_anyway_to_host_markdown_files_online/
-    [5] https://talk.jekyllrb.com/t/how-to-link-from-md-page-to-other-page/6067
-    [6] https://kinsta.com/blog/jekyll-static-site/
-    [7] https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
-    [8] https://gist.github.com/MichaelCurrin/f8d908596276bdbb2044f04c352cb7c7?permalink_comment_id=3862330
-
-**Me**: You misunderstand. I have a public domain that I'm publishing to using
-Github. Nobody need even know it's GitHub pages. It's not the original markdown
-files on Github I want to post to. I want them side-by-side hosted with the HTML
-versions, or even in place of them if I could format them client side. I'm open
-to creative solutions, but I don't want complex integrations. Nothing vendor
-specific. It should be a Jekyll-centric solution. Surely Jekyll users sometimes
-also like to expose their markdown.
-
-**Perplexity**: I apologize for the misunderstanding. You're right, and I see now that you're looking for a Jekyll-centric solution to expose your Markdown files alongside the generated HTML on your custom domain. Here's a straightforward approach that should work well with your setup:
-
-## Exposing Markdown Files with Jekyll
-
-1. **Keep Markdown Files in the Source**
-
-First, ensure your Markdown files are in your Jekyll source directory alongside your other content.
-
-2. **Configure Jekyll to Copy Markdown Files**
-
-Modify your `_config.yml` file to include Markdown files in the build output:
-
-```yaml
-include:
-  - "*.md"
-```
-
-This tells Jekyll to copy Markdown files to the output directory during the build process.
-
-3. **Create a Layout for Markdown Files**
-
-Create a new layout file, say `markdown.html`, in your `_layouts` directory:
-
-```html
----
-layout: default
----
-<div class="markdown-content">
-  {{ content }}
-</div>
-<hr>
-<p><a href="{{ page.url | replace:'.html','.md' }}">View Markdown Source</a></p>
-```
-
-4. **Add Front Matter to Markdown Files**
-
-Add this front matter to the top of each Markdown file you want to expose:
-
-```yaml
----
-layout: markdown
----
-```
-
-5. **Optional: Client-Side Markdown Rendering**
-
-If you want to render Markdown on the client side, you can use a JavaScript library like Marked. Add this to your default layout or the markdown layout:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var md = document.querySelector('.markdown-content');
-    if (md) {
-      md.innerHTML = marked.parse(md.textContent);
-    }
-  });
-</script>
-```
-
-## Benefits of This Approach
-
-- **Simplicity**: This solution requires minimal changes to your Jekyll setup.
-- **Flexibility**: You can choose which Markdown files to expose by adding the front matter.
-- **Customization**: The layout file allows you to style the Markdown view as needed.
-- **No Vendor Lock-in**: This solution works with any Jekyll hosting, not just GitHub Pages.
-
-## Considerations
-
-- Ensure your web server is configured to serve `.md` files with the correct MIME type (usually `text/markdown` or `text/plain`).
-- If using client-side rendering, be aware that it may affect page load times and SEO.
-- This method exposes the Markdown source, which might not be desirable for all content.
-
-By implementing this solution, you'll have your Markdown files accessible alongside your HTML pages, allowing visitors to view the source easily. The approach is lightweight, requires no complex integrations, and stays true to Jekyll's philosophy of simplicity and flexibility.
-
-Citations:
-
-    [1] https://tiiny.host/blog/jekyll-hosting/
-    [2] https://pacroy.com/how-to-create-markdown-based-website-with-jekyll-e61454c23f68
-    [3] https://blog.timowens.io/running-a-jekyll-site-on-reclaim-hosting/
-    [4] https://www.reddit.com/r/webdev/comments/z01c7j/is_there_anyway_to_host_markdown_files_online/
-    [5] https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll
-    [6] https://jekyllrb.com
-    [7] https://stackoverflow.com/questions/43647415/jekyll-site-not-rendering-markdown
-    [8] https://humanwhocodes.com/blog/2019/04/jekyll-hooks-output-markdown/
-
-**Me**: Why create a layout for them. If they're in the destination site, can't I just link to them from their corresponding .html transformation pages if I don't care about presentation?
-
-**Perplexity**: You're absolutely right, and I apologize for overcomplicating the solution in my previous response. Your insight is spot-on, and it leads to a much simpler approach. Let's refine the solution based on your observation:
-
-## Simplified Approach to Expose Markdown Files
-
-1. **Keep Markdown Files in the Source**
-
-As before, ensure your Markdown files are in your Jekyll source directory alongside your other content.
-
-2. **Configure Jekyll to Copy Markdown Files**
-
-Modify your `_config.yml` file to include Markdown files in the build output:
-
-```yaml
-include:
-  - "*.md"
-```
-
-This tells Jekyll to copy Markdown files to the output directory during the build process.
-
-3. **Link to Markdown Files**
-
-In your HTML pages (which are generated from Markdown), you can simply link to the corresponding `.md` file. For example, in your `about.html` page, you could add:
-
-```markdown
-[View Markdown Source](about.md)
-```
-
-## Benefits of This Approach
-
-- **Simplicity**: This solution is extremely lightweight and requires minimal configuration.
-- **No Extra Layouts**: You don't need to create any special layouts for the Markdown files.
-- **Flexibility**: You can choose which pages to link to their Markdown source on a case-by-case basis.
-- **Preservation of Original Content**: Users can view the raw Markdown content if they wish.
-
-## Considerations
-
-- Ensure your web server is configured to serve `.md` files with the correct MIME type (usually `text/markdown` or `text/plain`).
-- This method exposes the Markdown source, which might not be desirable for all content.
-- Users will see the raw Markdown when they click on these links, which may not be ideal for non-technical visitors.
-
-## Optional Enhancement
-
-If you want to provide a slightly better experience for viewing Markdown files, you could use a simple JavaScript library to render them client-side. You could add this to your main layout:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-  if (document.location.pathname.endsWith('.md')) {
-    fetch(document.location.pathname)
-      .then(response => response.text())
-      .then(text => {
-        document.body.innerHTML = marked.parse(text);
-      });
-  }
-</script>
-```
-
-This script checks if the current page is a Markdown file, and if so, it fetches the content and renders it using the Marked library.
-
-This simplified approach aligns perfectly with your goal of a light-touch solution that doesn't require complex GitHub customization or integration. It leverages Jekyll's built-in functionality and provides a straightforward way to expose your Markdown files alongside their HTML counterparts.
-
-Citations:
-
-    [1] https://github.com/benbalter/jekyll-relative-links
-    [2] https://stackoverflow.com/questions/77542655/links-that-work-both-in-markdown-and-after-build-with-jekyll
-    [3] https://stackoverflow.com/questions/25826770/jekyll-using-links-to-internal-markdown-files/29234076
-    [4] https://www.youtube.com/watch?v=VDOyjwWPKs4
-    [5] https://mademistakes.com/mastering-jekyll/how-to-link/
-    [6] https://www.markdownguide.org/tools/jekyll/
-    [7] https://talk.jekyllrb.com/t/how-to-link-from-md-page-to-other-page/6067
-    [8] https://www.jekyll.com.cn/tutorials/convert-site-to-jekyll/
+It’s both an inspiring and instructional read, full of practical insights while giving a glimpse into your unique process and philosophy.
