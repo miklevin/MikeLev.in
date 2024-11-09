@@ -1167,7 +1167,7 @@ def fetch_projects(org):
             time.sleep(DELAY_BETWEEN_PAGES)
         except requests.RequestException as e:
             print(f"  Error fetching projects for organization '{org}': {e}")
-            break  # Stop further requests if there's an error
+            break
     
     return all_projects
 
@@ -1181,25 +1181,29 @@ def fetch_analysis_count(org, project_slug):
         
         analyses = data.get('results', [])
         if len(analyses) >= 2:
-            return len(analyses), analyses[0]['slug']  # Return count and most recent analysis
+            return len(analyses), analyses[0]['slug']
     except requests.RequestException as e:
         print(f"    Error fetching analyses for project '{project_slug}' in organization '{org}': {e}")
     return None, None
 
-print(progress_pickle)
-
 # Load progress if available
-if os.path.exists(progress_pickle):
-    with open(progress_pickle, 'rb') as f:
-        output_data, org_index = pickle.load(f)
-    print(f"Resuming from organization index {org_index}")
-else:
+output_data = []
+org_index = 0
+
+try:
+    if os.path.exists(progress_pickle) and os.path.getsize(progress_pickle) > 0:
+        with open(progress_pickle, 'rb') as f:
+            output_data, org_index = pickle.load(f)
+        print(f"Resuming from organization index {org_index}")
+except (EOFError, pickle.UnpicklingError):
+    print("Progress file is empty or corrupted. Starting from scratch.")
     output_data = []
     org_index = 0
 
-org_list = read_orgs_from_config('config.txt')[org_index:]  # Start from the saved org index
+org_list = read_orgs_from_config('config.txt')
 
-for org in org_list:
+# Start processing organizations from saved org_index
+for idx, org in enumerate(org_list[org_index:], start=org_index):
     print(f"\n{'=' * 40}\nProcessing organization: {org}\n{'=' * 40}")
     projects = fetch_projects(org)
     
@@ -1229,7 +1233,7 @@ for org in org_list:
 
     # Save progress after each organization
     with open(progress_pickle, 'wb') as f:
-        pickle.dump((output_data, org_index + org_list.index(org) + 1), f)
+        pickle.dump((output_data, idx + 1), f)
 
     # Delay between organizations to further manage rate limits
     time.sleep(DELAY_BETWEEN_ORGS)
@@ -1245,7 +1249,7 @@ if os.path.exists(progress_pickle):
 
 # Update config.txt with project candidates under each organization
 with open('config.txt', 'w') as file:
-    for org in read_orgs_from_config('config.txt'):
+    for org in org_list:
         file.write(f"{org}\n")
         org_projects = [item for item in output_data if item['Organization'] == org]
         for project in org_projects:
@@ -1257,31 +1261,35 @@ print("\nconfig.txt updated with project candidates.")
 **Sample Output:**
 
 ```plaintext
+========================================
+Processing organization: org-foo
+========================================
+  Fetched 3 projects so far for organization 'org-foo'
+  Project: foo.com (Slug: foo-com)
+    Analysis count: 10, Most recent analysis: 20241106
+
+========================================
+Processing organization: org-bar
+========================================
+  Fetched 9 projects so far for organization 'org-bar'
+  Project: Adhoc (Slug: adhoc)
+    Analysis count: 5, Most recent analysis: 20241029-2
+  Project: Bulk Data Integration (Slug: bulk-data-integration)
+    Analysis count: 10, Most recent analysis: 20241106
+  Project: Main Project (Slug: main-project)
+    Analysis count: 10, Most recent analysis: 20241108
+
+========================================
+Processing organization: org-baz
+========================================
+  Fetched 5 projects so far for organization 'org-baz'
+  Project: Project Alpha (Slug: project-alpha)
+    Analysis count: 3, Most recent analysis: 20240529
+  Project: Project Beta (Slug: project-beta)
+    Analysis count: 2, Most recent analysis: 20240529
+
 Data saved to projects_with_multiple_analyses.csv
 
-Project Analysis Summary
-===========================================
-Processing organization: Noodle-Network
-  Fetched 3 projects so far for organization 'Noodle-Network'
-  Project: Spaghetti Central (Slug: spaghetti-central)
-    Analysis count: 5, Most recent analysis: 20241106
-  Project: Ramen Repository (Slug: ramen-repo)
-    Analysis count: 10, Most recent analysis: 20241105
-
-Processing organization: Flavor-Fusion-Co
-  Fetched 2 projects so far for organization 'Flavor-Fusion-Co'
-  Project: Spice Index (Slug: spice-index)
-    Analysis count: 8, Most recent analysis: 20241030
-  Project: Zesty Catalog (Slug: zesty-catalog)
-    Analysis count: 3, Most recent analysis: 20240925
-
-Processing organization: Savory-Solutions
-  Fetched 4 projects so far for organization 'Savory-Solutions'
-  Project: Savory Treats (Slug: savory-treats)
-    Analysis count: 7, Most recent analysis: 20241102
-  Project: Herb Hub (Slug: herb-hub)
-    Analysis count: 6, Most recent analysis: 20241029
-===========================================
 config.txt updated with project candidates.
 ```
 
