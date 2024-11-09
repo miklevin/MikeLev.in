@@ -14,6 +14,8 @@ jupyter:
 ---
 
 <!-- #region -->
+# Introduction to BQL
+
 BQL stands for Botify Query Language. It is a powerful query language developed by Botify, a leading enterprise SEO platform, to help users analyze and manipulate large-scale website data. Here are some key points about BQL:
 
 ## Purpose and Functionality
