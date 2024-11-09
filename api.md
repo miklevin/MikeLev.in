@@ -447,6 +447,84 @@ print("\nDone")
 **Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` extension starting with `-2` (for the 2nd run). If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used as it is the latest and there is likely a reason the crawl was re-run.
 
 
+# List URLs: How To Get a List of the First 500 URLs
+
+```python
+# List the First 500 URLs
+
+import json
+import requests
+import pandas as pd
+
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+
+
+def get_bqlv2_data(org, project, analysis, api_key):
+    """Fetch data based on BQLv2 query for a specific Botify analysis."""
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    # BQLv2 query payload
+    data_payload = {
+        "collections": [f"crawl.{analysis}"],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.url"
+            ],
+            "metrics": []
+        }
+    }
+
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
+
+    # Send the request
+    response = requests.post(url, headers=headers, json=data_payload)
+    response.raise_for_status()  # Check for errors
+    
+    return response.json()
+
+# Run the query and load results
+data = get_bqlv2_data(org, project, analysis, api_key)
+
+list_of_urls = [url['dimensions'][0] for url in data['results']]
+
+for i, url in enumerate(list_of_urls):
+    print(i + 1, url)
+    if i >= 20:
+        break
+```
+
+**Sample Output**:
+
+```
+1 https://example.com/page1
+2 https://example.com/page2
+3 https://example.com/page3
+4 https://example.com/page4
+5 https://example.com/page5
+6 https://example.com/page6
+7 https://example.com/page7
+8 https://example.com/page8
+9 https://example.com/page9
+10 https://example.com/page10
+11 https://example.com/page11
+12 https://example.com/page12
+13 https://example.com/page13
+14 https://example.com/page14
+15 https://example.com/page15
+16 https://example.com/page16
+17 https://example.com/page17
+18 https://example.com/page18
+19 https://example.com/page19
+20 https://example.com/page20
+```
+
+**Rationale**: This function demonstrates a simple Botify API query to list URLs from a specific analysis. The output displays the first 500 URLs (only 20 shown here for brevity), helping SEO teams quickly preview URLs within a collection. This lightweight function is valuable for efficiently examining URL samples before further analysis or filtering.
+
+
 # Query Segments: This script queries the Botify API to get segment data for a project, including page type values and URL counts.
 
 ```python
@@ -1120,7 +1198,7 @@ pprint.pprint(depth_distribution, width=1)
    - Add comments throughout the code for clarity.
    - Ensure all essential features (error handling, progressive saving, and rate limiting) remain intact through potential future changes.
 
-```python jupyter={"outputs_hidden": true}
+```python
 import requests
 import pandas as pd
 import time
