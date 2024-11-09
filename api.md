@@ -760,6 +760,172 @@ depth_distribution = get_urls_by_depth(
 pprint.pprint(depth_distribution, width=1)
 ```
 
+# Use Case: How To Fetch and Process Project Analysis Data from the Botify API with Error Handling and Progressive Data Saving
+
+## Objective: Retrieve data from the Botify API for multiple organizations and projects while implementing error handling, rate limiting, and saving progress to avoid re-fetching in case of interruptions.
+
+### Requirements:
+1. **Configuration and Token Management**:
+   - Load API configurations from `config.txt` (list of organizations, one per line).
+   - Use `botify_token.txt` for storing the API token as plain text.
+
+2. **Data Retrieval**:
+   - For each organization, retrieve all projects (using pagination if needed).
+   - For each project, fetch the analysis count and the latest analysis slug; include only projects with at least two analyses.
+
+3. **Error Handling and Progress Persistence**:
+   - Save progress in `progress.pkl` to allow resuming if interrupted or on error.
+   - Enable the script to continue from the last successfully processed organization without re-fetching completed data.
+
+4. **Rate Limiting**:
+   - Configure delays at the top of the script (`DELAY_BETWEEN_PAGES`, `DELAY_BETWEEN_PROJECTS`, and `DELAY_BETWEEN_ORGS`) to manage rate limits.
+   - Include delays between requests to avoid API rate limiting issues.
+
+5. **Output**:
+   - Write the final processed data to `projects_with_multiple_analyses.csv`, with projects listed by descending analysis count per organization.
+   - Update `config.txt` with project details organized under each organization.
+
+6. **Documentation and Non-Regressive Features**:
+   - Add comments throughout the code for clarity.
+   - Ensure all essential features (error handling, progressive saving, and rate limiting) remain intact through potential future changes.
+
+```python
+# How To Fetch and Process Project Analysis Data from the Botify API with Error Handling and Progressive Data Saving
+
+import requests
+import pandas as pd
+import time
+import pickle
+import os
+
+# Load API key and headers
+api_key = open('botify_token.txt').read().strip()
+headers = {"Authorization": f"Token {api_key}"}
+
+# Rate limit configuration
+DELAY_BETWEEN_PAGES = 2      # Delay between pagination requests in seconds
+DELAY_BETWEEN_PROJECTS = 3    # Delay between project analysis requests in seconds
+DELAY_BETWEEN_ORGS = 10       # Delay between each organization in seconds
+
+# File paths for saving progress
+output_csv = 'projects_with_multiple_analyses.csv'
+progress_pickle = 'progress.pkl'
+
+# Helper functions
+def read_orgs_from_config(file_path):
+    """Read organizations from a simple indented configuration file."""
+    orgs = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            stripped_line = line.strip()
+            if stripped_line and not line.startswith(' '):
+                orgs.append(stripped_line)
+    return orgs
+
+def fetch_projects(org):
+    """Fetch all projects for a given organization with pagination."""
+    url = f"https://api.botify.com/v1/projects/{org}"
+    all_projects = []
+    
+    while url:
+        try:
+            response = requests.get(url, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            all_projects.extend([
+                {'org': org, 'project_slug': project['slug'], 'project_name': project['name']}
+                for project in data.get('results', [])
+            ])
+            url = data.get('next')  # Move to the next page if available
+            print(f"  Fetched {len(all_projects)} projects so far for organization '{org}'")
+            time.sleep(DELAY_BETWEEN_PAGES)
+        except requests.RequestException as e:
+            print(f"  Error fetching projects for organization '{org}': {e}")
+            break  # Stop further requests if there's an error
+    
+    return all_projects
+
+def fetch_analysis_count(org, project_slug):
+    """Fetch the count and most recent analysis slug for a given project."""
+    try:
+        url = f"https://api.botify.com/v1/analyses/{org}/{project_slug}/light"
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        
+        analyses = data.get('results', [])
+        if len(analyses) >= 2:
+            return len(analyses), analyses[0]['slug']  # Return count and most recent analysis
+    except requests.RequestException as e:
+        print(f"    Error fetching analyses for project '{project_slug}' in organization '{org}': {e}")
+    return None, None
+
+# Load progress if available
+if os.path.exists(progress_pickle):
+    with open(progress_pickle, 'rb') as f:
+        output_data, org_index = pickle.load(f)
+    print(f"Resuming from organization index {org_index}")
+else:
+    output_data = []
+    org_index = 0
+
+org_list = read_orgs_from_config('config.txt')[org_index:]  # Start from the saved org index
+
+for org in org_list:
+    print(f"Processing organization: {org}")
+    projects = fetch_projects(org)
+    
+    qualifying_projects = []
+    
+    for project in projects:
+        # Fetch analysis count and most recent analysis
+        analysis_count, recent_analysis = fetch_analysis_count(org, project['project_slug'])
+        
+        if analysis_count and analysis_count >= 2:
+            print(f"  Project: {project['project_name']} (Slug: {project['project_slug']})")
+            print(f"    Analysis count: {analysis_count}, Most recent analysis: {recent_analysis}")
+            qualifying_projects.append({
+                'Organization': org,
+                'Project Name': project['project_name'],
+                'Project Slug': project['project_slug'],
+                'Analysis Count': analysis_count,
+                'Most Recent Analysis': recent_analysis
+            })
+        
+        # Delay after each project to manage rate limits
+        time.sleep(DELAY_BETWEEN_PROJECTS)
+
+    # Sort projects by analysis count in descending order and add to output
+    qualifying_projects.sort(key=lambda x: x['Analysis Count'], reverse=True)
+    output_data.extend(qualifying_projects)
+
+    # Save progress after each organization
+    with open(progress_pickle, 'wb') as f:
+        pickle.dump((output_data, org_index + org_list.index(org) + 1), f)
+
+    # Delay between organizations to further manage rate limits
+    time.sleep(DELAY_BETWEEN_ORGS)
+
+# Save final CSV and clean up progress file
+df = pd.DataFrame(output_data)
+df.to_csv(output_csv, index=False)
+print(f"Data saved to {output_csv}")
+
+# Remove progress file if run completes successfully
+if os.path.exists(progress_pickle):
+    os.remove(progress_pickle)
+
+# Update config.txt with project candidates under each organization
+with open('config.txt', 'w') as file:
+    for org in read_orgs_from_config('config.txt'):
+        file.write(f"{org}\n")
+        org_projects = [item for item in output_data if item['Organization'] == org]
+        for project in org_projects:
+            file.write(f"    {project['Project Name']} ({project['Project Slug']})\n")
+
+print("config.txt updated with project candidates.")
+```
+
 ```python
 
 ```
