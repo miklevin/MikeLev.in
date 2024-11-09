@@ -1,7 +1,7 @@
 ---
 title: From Jupyter Notebooks to Markdown
 permalink: /from-jupyter-notebooks-to-markdown/
-description: From Jupyter Notebooks to Markdown: A journey through refining workflows, building muscle memory, and perfecting good form in data science. Discover tools like nb-clean and jupytext while developing a sustainable, accessible process for managing and sharing code—keeping technical depth without losing readability.
+description: "From Jupyter Notebooks to Markdown: A journey through refining workflows, building muscle memory, and perfecting good form in data science. Discover tools like nb-clean and jupytext while developing a sustainable, accessible process for managing and sharing code—keeping technical depth without losing readability."
 layout: post
 sort_order: 1
 ---
@@ -24,7 +24,7 @@ repetition matters. The more you do a thing, the better you know it. Imagining
 something repeatedly makes you better at the real thing. Hey Perplexity, What's
 that thing about baseball players imagining hitting the ball in their head?
 
-Perplexity: The concept of baseball players imagining hitting the ball in their heads relates to the mental and visual strategies they employ while batting. This involves not just the physical act of hitting but also significant cognitive processes that aid in anticipating and reacting to a pitched ball.
+**Perplexity**: The concept of baseball players imagining hitting the ball in their heads relates to the mental and visual strategies they employ while batting. This involves not just the physical act of hitting but also significant cognitive processes that aid in anticipating and reacting to a pitched ball.
 
 ## Visual Tracking in Batting
 
