@@ -447,7 +447,7 @@ print("\nDone")
 **Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` extension starting with `-2` (for the 2nd run). If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used as it is the latest and there is likely a reason the crawl was re-run.
 
 
-# Headline needed here
+# Query Segments: This script queries the Botify API to get segment data for a project, including page type values and URL counts.
 
 ```python
 import requests
@@ -495,13 +495,66 @@ response.raise_for_status()  # Raise an error if the request fails
 # Get the results from the response JSON
 results = response.json()
 
-# Print results or process them as needed
-print(results)
+# Use json.dumps with separators and indent for compact pretty printing
+print(json.dumps(results, indent=4, separators=(',', ': ')))
 ```
 
-**Sample Output**: (needed)
+**Sample Output**:
 
-**Rationale**: (Needed, but refers to having a live example of the introductory BQL query example above)
+```json
+{
+    "results": [
+        {
+            "dimensions": ["search/filters"],
+            "metrics": [2340000]
+        },
+        {
+            "dimensions": ["search/sort"],
+            "metrics": [695000]
+        },
+        {
+            "dimensions": ["pdp/product"],
+            "metrics": [82150]
+        },
+        {
+            "dimensions": ["reviews/overview"],
+            "metrics": [53400]
+        },
+        {
+            "dimensions": ["category/list"],
+            "metrics": [44420]
+        },
+        {
+            "dimensions": ["error/not-found"],
+            "metrics": [3000]
+        },
+        {
+            "dimensions": ["help/faq"],
+            "metrics": [36]
+        },
+        {
+            "dimensions": ["account/login"],
+            "metrics": [19]
+        },
+        {
+            "dimensions": ["promo/offer"],
+            "metrics": [4]
+        },
+        {
+            "dimensions": ["discover/article"],
+            "metrics": [1]
+        }
+    ],
+    "previous": null,
+    "next": "https://api.botify.com/v1/projects/example-project/query?page=2",
+    "page": 1,
+    "size": 10
+}
+```
+
+**Rationale**: This example illustrates a foundational BQL query, showing how to request a breakdown of URL counts by page type for a recent crawl. By retrieving essential data, such as page-type-specific metrics (like "search/filters" or "pdp/product"), SEO teams and analysts can gain insights into site structure and content performance. The results are sorted by URL count in descending order, helping identify the most frequently crawled sections. This setup demonstrates the simplicity of BQL for data exploration and helps newcomers to Botify see how to request and parse API data for efficient analysis. 
+
+For larger-scale analysis or a full dataset download, the query can be adjusted to support CSV output. This introduction to BQL's flexible query structure equips users with a basic framework for expanding to more complex queries in future applications.
 
 
 # List Collections: How To Get the List of Collections Given a Project
