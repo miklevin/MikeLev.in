@@ -14,6 +14,101 @@ jupyter:
 ---
 
 <!-- #region -->
+BQL stands for Botify Query Language. It is a powerful query language developed by Botify, a leading enterprise SEO platform, to help users analyze and manipulate large-scale website data. Here are some key points about BQL:
+
+## Purpose and Functionality
+
+- BQL is designed to perform complex data retrieval and analytics on website crawl data within the Botify platform.
+
+- It allows users to query, filter, and analyze various aspects of their website's structure, content, and performance.
+
+## Key Features
+
+- **Data Retrieval**: BQL can extract specific information from Botify's comprehensive website crawl data.
+
+- **Advanced Filtering**: Users can apply complex filters to narrow down data to specific subsets of pages or attributes.
+
+- **Custom Metrics**: BQL supports the creation of custom metrics and calculations based on existing data points.
+
+- **Segmentation**: It enables the segmentation of website data for more targeted analysis.
+
+## Usage
+
+BQL can be used in various Botify tools and interfaces:
+
+- Botify Analytics: For creating custom reports and dashboards
+- Botify Intelligence: To define custom segments and KPIs
+- Botify API: For programmatic access to website data
+
+## Query Structure and Endpoint
+
+A typical BQL query is structured as a JSON object and includes:
+
+1. Collections to query
+2. Dimensions (fields to group by)
+3. Metrics (data to aggregate)
+4. Sorting criteria
+
+Unless initating a `.csv` download, endpoints for BQL queries must include the organization and project slug in the URL:
+
+```python
+url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+```
+
+For example, a BQL query might look like this:
+
+```python
+import requests
+
+org = "your_organization_slug"
+project = "your_project_slug"
+api_key = "your_api_key"
+
+url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+
+headers = {
+    "Authorization": f"Token {api_key}",
+    "Content-Type": "application/json"
+}
+
+payload = {
+    "collections": ["crawl.20241101"],
+    "query": {
+        "dimensions": [{"field": "segments.pagetype.value"}],
+        "metrics": [{"field": "crawl.20241101.count_urls_crawl"}],
+        "sort": [
+            {"type": "metrics", "index": 0, "order": "desc"},
+            {"type": "dimensions", "index": 0, "order": "asc"}
+        ]
+    }
+}
+
+response = requests.post(url, headers=headers, json=payload)
+results = response.json()
+```
+
+This query retrieves the count of URLs for each page type, sorted by URL count in descending order, from the crawl data collected on November 1, 2024. If a ***.csv download*** of this data were being initiated, a modified version of this query would be used that moves the `org` and `project` slugs into the JSON POST-method payload (demonstrated below).
+
+BQL's power and flexibility make it a valuable tool for SEO professionals and web analysts who need to work with large-scale website data efficiently and perform complex analyses within the Botify platform.
+<!-- #endregion -->
+
+While the previous description outlines the key features and structure of BQL, it's important to understand how to implement these queries in practice. The following code examples demonstrate how to interact with the Botify API using Python, showcasing various aspects of working with BQL and the Botify platform.
+
+These examples cover essential tasks such as:
+
+1. Retrieving and validating your Botify API token
+2. Fetching user information
+3. Listing organizations and projects
+4. Retrieving analysis slugs for a specific project
+5. Listing available collections
+6. Exploring fields within a collection
+7. Querying pagetype URL counts for a specific analysis
+
+Each example builds upon the previous ones, gradually introducing more complex interactions with the Botify API. By working through these examples, you'll gain a practical understanding of how to leverage BQL and the Botify API to extract valuable insights from your website data.
+
+Let's begin with the first example, which demonstrates how to retrieve and validate your Botify API token:
+
+<!-- #region -->
 # Purpose: Practice Botify API in Python
 
 ## Technique: Step Through Examples Doing a Little of Everything
@@ -338,7 +433,7 @@ print("\nDone")
 20231101
 ```
 
-**Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` starting with `-2`. If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used given there is likely a reason the crawl was re-run.
+**Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` extension starting with `-2` (for the 2nd run). If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used as it is the latest and there is likely a reason the crawl was re-run.
 
 
 # List Collections: How To Get the List of Collections Given a Project
