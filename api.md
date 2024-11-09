@@ -533,9 +533,9 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 }
 ```
 
-**Rationale**: This example illustrates a foundational BQL query, showing how to request a breakdown of URL counts by page type for a recent crawl. By retrieving essential data, such as page-type-specific metrics (like "search/filters" or "pdp/product"), SEO teams and analysts can gain insights into site structure and content performance. The results are sorted by URL count in descending order, helping identify the most frequently crawled sections. This setup demonstrates the simplicity of BQL for data exploration and helps newcomers to Botify see how to request and parse API data for efficient analysis. 
+**Rationale**: This example demonstrates a straightforward BQL query, retrieving a breakdown of URL counts by page type for a recent crawl. Key page types, such as "search," "pdp," and "category," are included, allowing SEO teams and analysts to quickly gauge which sections of a site are the most frequently crawled or accessed. Sorting by URL count in descending order highlights high-traffic areas, providing a quick snapshot of site structure and user engagement.
 
-For larger-scale analysis or a full dataset download, the query can be adjusted to support CSV output. This introduction to BQL's flexible query structure equips users with a basic framework for expanding to more complex queries in future applications.
+This setup illustrates the basics of querying Botify’s API for site data analysis, making it ideal for beginners who need to familiarize themselves with BQL syntax and structure. For more comprehensive reports, such as full dataset exports, this query could be modified to output to a CSV format. This initial example provides a foundation for users to build more intricate queries as they advance with Botify’s powerful data analysis tools.
 
 
 # List Collections: How To Get the List of Collections Given a Project
