@@ -1,4 +1,3 @@
-
 # Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
 
 BQL stands for Botify Query Language. It is a powerful query language developed by Botify, a leading enterprise SEO platform, to help users analyze and manipulate large-scale website data. Here are some key points about BQL:
@@ -104,6 +103,7 @@ Each example builds upon the previous ones, gradually introducing more complex i
 Let's begin with the first example, which demonstrates how to retrieve and validate your Botify API token:
 <!-- #endregion -->
 
+<!-- #region -->
 # Purpose: Practice Botify API in Python
 
 ## Technique: Step Through Examples Doing a Little of Everything
