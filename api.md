@@ -513,7 +513,7 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
             "metrics": [82150]
         },
         {
-            "dimensions": ["reviews"],
+            "dimensions": ["plp"],
             "metrics": [53400]
         },
         {
