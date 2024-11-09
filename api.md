@@ -43,7 +43,7 @@ BQL (Botify Query Language) is essential for programmatically accessing Botify's
 - Build custom reports and data pipelines
 - Transform raw crawl data into actionable insights
 
-Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `pandas` and the presense of your API Token and a config.json file addressed at the start.
+Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `pandas` and the presense of your `botify_token.txt` and a `config.json` file addressed at the start.
 
 ## Query Structure and Endpoint
 
@@ -92,12 +92,7 @@ response = requests.post(url, headers=headers, json=payload)
 results = response.json()
 ```
 
-This query retrieves the count of URLs for each page type, sorted by URL count in descending order, from the crawl data collected on November 1, 2024. If a ***.csv download*** of this data were being initiated, a modified version of this query would be used that moves the org and project slugs into the JSON POST-method payload (demonstrated below).
-
-BQL's power and flexibility make it a valuable tool for SEO professionals and web analysts who need to work with large-scale website data efficiently and perform complex analyses within the Botify platform.
-<!-- #endregion -->
-
-While the previous description outlines the key features and structure of BQL, it's important to understand how to implement these queries in practice. The following code examples demonstrate how to interact with the Botify API using Python, showcasing various aspects of working with BQL and the Botify platform.
+This query retrieves the count of URLs for each page type, sorted in descending order, from crawl data collected on November 1, 2024. For a .csv download of this data, a modified version of the query would place the org and project slugs into the JSON POST payload (demonstrated below). BQL’s power and flexibility make it an essential tool for SEO professionals and web analysts, enabling efficient, large-scale data analysis within the Botify platform. The following code examples illustrate practical Botify API interactions in Python, showing how to implement BQL for effective data retrieval and analysis.
 
 These examples cover essential tasks such as:
 
@@ -112,6 +107,7 @@ These examples cover essential tasks such as:
 Each example builds upon the previous ones, gradually introducing more complex interactions with the Botify API. By working through these examples, you'll gain a practical understanding of how to leverage BQL and the Botify API to extract valuable insights from your website data.
 
 Let's begin with the first example, which demonstrates how to retrieve and validate your Botify API token:
+<!-- #endregion -->
 
 <!-- #region -->
 # Purpose: Practice Botify API in Python
