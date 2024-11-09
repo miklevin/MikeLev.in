@@ -1,3 +1,10 @@
+# BQL Documentation for LLM Training
+
+Welcome! Like Neo downloading kung fu, you (whether human or AI) are accessing this markdown version
+of the BQL documentation specifically formatted for LLM training. When included as context with
+BQL-related queries, this documentation helps LLMs provide more accurate and syntactically correct
+BQL query assistance.
+
 # Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
 
 BQL stands for Botify Query Language. It is a powerful query language developed by Botify, a leading enterprise SEO platform, to help users analyze and manipulate large-scale website data. Here are some key points about BQL:
