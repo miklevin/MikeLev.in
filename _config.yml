@@ -21,6 +21,10 @@ kramdown:
     block:
       line_numbers: false
 
+# Add this section to specify which files should be copied without processing
+include:
+  - botify-api.md
+
 defaults:
   -
     scope:
