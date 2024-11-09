@@ -505,44 +505,24 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 {
     "results": [
         {
-            "dimensions": ["search/filters"],
+            "dimensions": ["search"],
             "metrics": [2340000]
         },
         {
-            "dimensions": ["search/sort"],
-            "metrics": [695000]
-        },
-        {
-            "dimensions": ["pdp/product"],
+            "dimensions": ["pdp"],
             "metrics": [82150]
         },
         {
-            "dimensions": ["reviews/overview"],
+            "dimensions": ["reviews"],
             "metrics": [53400]
         },
         {
-            "dimensions": ["category/list"],
+            "dimensions": ["category"],
             "metrics": [44420]
         },
         {
-            "dimensions": ["error/not-found"],
+            "dimensions": ["error"],
             "metrics": [3000]
-        },
-        {
-            "dimensions": ["help/faq"],
-            "metrics": [36]
-        },
-        {
-            "dimensions": ["account/login"],
-            "metrics": [19]
-        },
-        {
-            "dimensions": ["promo/offer"],
-            "metrics": [4]
-        },
-        {
-            "dimensions": ["discover/article"],
-            "metrics": [1]
         }
     ],
     "previous": null,
