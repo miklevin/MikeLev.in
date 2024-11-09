@@ -3,8 +3,7 @@ title: All Roads Lead to Link Graphs
 permalink: /all-roads-lead-to-link-graphs/
 description: 
 layout: post
-sort_order: 2
-date: 2024-11-08
+sort_order: 1
 ---
 
 Often when I start out with these articles, I pick a topic in the morning that I
