@@ -62,7 +62,12 @@ That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or
 
 ## Writing as a Compass in the Tech Wilderness
 
-📝 I don't write because I crave an audience or have products to peddle. My words are my 🧭 compass, helping me navigate the ever-shifting landscape of 💻 technology. This digital journal is my 🔊 sounding board, a space where ideas 🔉 echo and 💎 crystallize. With each post, I'm forging a 🛤️ path forward, articulating the complex, and holding myself accountable to the journey I've chosen&#151;and 🛠️ practicing my craft.
+I don't write 📝 because I crave an audience or have products to peddle. My
+words are my compass 🧭, helping me navigate the ever-shifting landscape of
+technology 💻. This digital journal is my sounding board 🔊, a space where ideas
+echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤️,
+articulating the complex, and holding myself accountable to the journey I've
+chosen&#151;and practicing my craft 🛠.
 
 <ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}
