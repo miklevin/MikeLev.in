@@ -34,11 +34,14 @@ BQL stands for Botify Query Language. It is a powerful query language developed 
 
 ## Usage
 
-BQL can be used in various Botify tools and interfaces:
+BQL (Botify Query Language) is essential for programmatically accessing Botify's data through its API. While the language is powerful, learning it can be challenging without structured examples. This document provides a step-by-step guide through increasingly complex BQL queries, helping both human developers and AI systems understand how to:
 
-- Botify Analytics: For creating custom reports and dashboards
-- Botify Intelligence: To define custom segments and KPIs
-- Botify API: For programmatic access to website data
+- Authenticate and navigate the API structure
+- Query and analyze website crawl data
+- Build custom reports and data pipelines
+- Transform raw crawl data into actionable insights
+
+Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `
 
 ## Query Structure and Endpoint
 
@@ -87,7 +90,7 @@ response = requests.post(url, headers=headers, json=payload)
 results = response.json()
 ```
 
-This query retrieves the count of URLs for each page type, sorted by URL count in descending order, from the crawl data collected on November 1, 2024. If a ***.csv download*** of this data were being initiated, a modified version of this query would be used that moves the `org` and `project` slugs into the JSON POST-method payload (demonstrated below).
+This query retrieves the count of URLs for each page type, sorted by URL count in descending order, from the crawl data collected on November 1, 2024. If a ***.csv download*** of this data were being initiated, a modified version of this query would be used that moves the org and project slugs into the JSON POST-method payload (demonstrated below).
 
 BQL's power and flexibility make it a valuable tool for SEO professionals and web analysts who need to work with large-scale website data efficiently and perform complex analyses within the Botify platform.
 <!-- #endregion -->
