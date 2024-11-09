@@ -1287,6 +1287,159 @@ config.txt updated with project candidates.
 
 **Rationale**: This code fetches and processes project analysis data from the Botify API, incorporating robust error handling, progressive saving, and rate limiting to efficiently handle large data requests across multiple organizations. By saving progress in `progress.pkl`, this script ensures that even if an interruption occurs, data already fetched is retained, allowing for a seamless resume without re-fetching. The delays between requests prevent rate limiting, while a final CSV output (`projects_with_multiple_analyses.csv`) and an updated `config.txt` offer a structured view of qualified projects by organization. This approach optimizes both data retrieval and analysis while ensuring a user-friendly summary for each organization.
 
+
+# Download Link-graph: This script downloads a link graph for a specified organization, project, and analysis within the Botify platform.
+
 ```python
+# Import required libraries
+import os
+import requests
+import pandas as pd
+import time
+import json
+from pathlib import Path
+
+# Load configuration and API key
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+
+# Define API headers
+headers = {
+    "Authorization": f"Token {api_key}",
+    "Content-Type": "application/json"
+}
+
+# Determine optimal click depth for link graph export
+def find_optimal_depth(org, project, analysis, max_edges=1000000):
+    """
+    Determine the highest depth for which the number of edges does not exceed max_edges.
+    """
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    session = requests.Session()
+    previous_edges = 0
+
+    for depth in range(1, 10):
+        data_payload = {
+            "collections": [f"crawl.{analysis}"],
+            "query": {
+                "dimensions": [],
+                "metrics": [{"function": "sum", "args": [f"crawl.{analysis}.outlinks_internal.nb.total"]}],
+                "filters": {"field": f"crawl.{analysis}.depth", "predicate": "lte", "value": depth},
+            },
+        }
+
+        response = session.post(url, headers=headers, json=data_payload)
+        data = response.json()
+        edges = data["results"][0]["metrics"][0]
+
+        print(f"Depth {depth}: {edges:,} edges")
+
+        if edges > max_edges or edges == previous_edges:
+            return depth - 1 if depth > 1 else depth, previous_edges
+
+        previous_edges = edges
+
+    return depth, previous_edges
+
+# Export link graph to CSV
+def export_link_graph(org, project, analysis, chosen_depth, save_path="downloads"):
+    """
+    Export link graph up to the chosen depth level and save as a CSV.
+    """
+    url = "https://api.botify.com/v1/jobs"
+    data_payload = {
+        "job_type": "export",
+        "payload": {
+            "username": org,
+            "project": project,
+            "connector": "direct_download",
+            "formatter": "csv",
+            "export_size": 1000000,
+            "query": {
+                "collections": [f"crawl.{analysis}"],
+                "query": {
+                    "dimensions": [
+                        "url",
+                        f"crawl.{analysis}.outlinks_internal.graph.url",
+                    ],
+                    "metrics": [],
+                    "filters": {"field": f"crawl.{analysis}.depth", "predicate": "lte", "value": chosen_depth},
+                },
+            },
+        }
+    }
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    export_job_details = response.json()
+    job_url = f"https://api.botify.com{export_job_details.get('job_url')}"
+
+    # Polling for job completion
+    attempts = 300
+    delay = 3
+    while attempts > 0:
+        time.sleep(delay)
+        response_poll = requests.get(job_url, headers=headers)
+        job_status_details = response_poll.json()
+        if job_status_details["job_status"] == "DONE":
+            download_url = job_status_details["results"]["download_url"]
+            save_as_filename = Path(save_path) / f"{org}_{project}_{analysis}_linkgraph_depth-{chosen_depth}.csv"
+            download_file(download_url, save_as_filename)
+            return save_as_filename
+        elif job_status_details["job_status"] == "FAILED":
+            print("Export job failed.")
+            return None
+        print(".", end="", flush=True)
+        attempts -= 1
+
+    print("Unable to complete download attempts successfully.")
+    return None
+
+# Download file function
+def download_file(url, save_path):
+    """
+    Download a file from a URL to a specified local path.
+    """
+    response = requests.get(url, stream=True)
+    with open(save_path, "wb") as file:
+        for chunk in response.iter_content(chunk_size=8192):
+            file.write(chunk)
+    print(f"\nFile downloaded as '{save_path}'")
+
+# Main execution
+print("Determining optimal depth for link graph export...")
+chosen_depth, final_edges = find_optimal_depth(org, project, analysis)
+print(f"Using depth {chosen_depth} with {final_edges:,} edges for export.")
+
+# Make sure the downloads folder exists
+downloads_folder = Path("downloads")
+downloads_folder.mkdir(parents=True, exist_ok=True)
+
+print("Starting link graph export...")
+link_graph_path = export_link_graph(org, project, analysis, chosen_depth, save_path="downloads")
+
+if link_graph_path:
+    print(f"Link graph saved to: {link_graph_path}")
+else:
+    print("Link graph export failed.")
 
 ```
+
+**Sample Output**:
+```
+Determining optimal depth for link graph export...
+Depth 1: 50,000 edges
+Depth 2: 120,000 edges
+Depth 3: 500,000 edges
+Depth 4: 1,200,000 edges
+Using depth 3 with 500,000 edges for export.
+Starting link graph export...
+Polling for job completion: ...
+Download URL: https://botify-export-url.com/file.csv
+File downloaded as 'downloads/org_project_analysis_linkgraph_depth-3.csv'
+Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
+```
+
+**Rationale**: This code exports a link graph by calculating the maximum depth that limits the total number of edges to under 1,000,000, ensuring that the Botify API’s CSV export limit is not exceeded. By polling for job completion and handling potential errors, the script delivers a user-friendly and reliable process for exporting link graphs in large-scale SEO projects. The flexibility to adjust depth dynamically based on edge count allows for efficient resource use and helps teams capture optimal levels of detail in the exported link graph.
