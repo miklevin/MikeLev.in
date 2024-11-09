@@ -65,22 +65,28 @@ For example, a BQL query might look like this:
 ```python
 import requests
 
+# Replace these placeholders with your actual values
 org = "your_organization_slug"
 project = "your_project_slug"
-api_key = "your_api_key"
+analysis = "your_analysis_date"
+collection = "your_collection_name"
+api_key = "your_api_key_here"
 
+# Define the URL for the API request
 url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
 
+# Set headers for authorization and content type
 headers = {
     "Authorization": f"Token {api_key}",
     "Content-Type": "application/json"
 }
 
+# Define the payload for the BQL query
 payload = {
-    "collections": ["crawl.20241101"],
+    "collections": [collection],
     "query": {
         "dimensions": [{"field": "segments.pagetype.value"}],
-        "metrics": [{"field": "crawl.20241101.count_urls_crawl"}],
+        "metrics": [{"field": f"{collection}.count_urls_crawl"}],
         "sort": [
             {"type": "metrics", "index": 0, "order": "desc"},
             {"type": "dimensions", "index": 0, "order": "asc"}
@@ -88,8 +94,12 @@ payload = {
     }
 }
 
+# Send the POST request to the API
 response = requests.post(url, headers=headers, json=payload)
-results = response.json()
+response.raise_for_status()  # Raise an error if the request fails
+
+# Print results
+print(response.json())
 ```
 
 This query retrieves the count of URLs for each page type, sorted in descending order, from crawl data collected on November 1, 2024. For a .csv download of this data, a modified version of the query would place the org and project slugs into the JSON POST payload (demonstrated below). BQL’s power and flexibility make it an essential tool for SEO professionals and web analysts, enabling efficient, large-scale data analysis within the Botify platform. The following code examples illustrate practical Botify API interactions in Python, showing how to implement BQL for effective data retrieval and analysis.
@@ -435,6 +445,63 @@ print("\nDone")
 ```
 
 **Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` extension starting with `-2` (for the 2nd run). If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used as it is the latest and there is likely a reason the crawl was re-run.
+
+
+# Headline needed here
+
+```python
+import requests
+import json
+
+# Load configuration values from config.json
+with open("config.json") as config_file:
+    config = json.load(config_file)
+
+# Extract configuration details
+org = config["org"]
+project = config["project"]
+analysis = config["analysis"]
+collection = config["collection"]
+
+# Load the API key from botify_token.txt
+api_key = open('botify_token.txt').read().strip()
+
+# Define the URL for the API request
+url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+
+# Set headers for authorization and content type
+headers = {
+    "Authorization": f"Token {api_key}",
+    "Content-Type": "application/json"
+}
+
+# Define the payload for the API query
+payload = {
+    "collections": [collection],
+    "query": {
+        "dimensions": [{"field": "segments.pagetype.value"}],
+        "metrics": [{"field": f"{collection}.count_urls_crawl"}],
+        "sort": [
+            {"type": "metrics", "index": 0, "order": "desc"},
+            {"type": "dimensions", "index": 0, "order": "asc"}
+        ]
+    }
+}
+
+# Send the POST request to the API
+response = requests.post(url, headers=headers, json=payload)
+response.raise_for_status()  # Raise an error if the request fails
+
+# Get the results from the response JSON
+results = response.json()
+
+# Print results or process them as needed
+print(results)
+```
+
+**Sample Output**: (needed)
+
+**Rationale**: (Needed, but refers to having a live example of the introductory BQL query example above)
 
 
 # List Collections: How To Get the List of Collections Given a Project
