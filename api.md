@@ -304,6 +304,18 @@ for slug in analyses:
 print("\nDone")
 ```
 
+Sample Output:
+```
+20240301
+20240201
+20240101
+20231201
+20231101
+```
+
+Rationale: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data.
+
+
 # List Collections: How To Get the List of Collections Given a Project
 
 ```python
@@ -339,6 +351,18 @@ collections = fetch_collections(org, project, api_key)
 for collection_id, collection_name in collections:
     print(f"ID: {collection_id}, Name: {collection_name}")
 ```
+
+Sample Output:
+```
+ID: crawl.20241018, Name: 2024 Oct. 18th
+ID: crawl.20240917, Name: 2024 Sept. 17th
+ID: crawl.20240816, Name: 2024 Aug. 16th
+ID: crawl.20240715, Name: 2024 July 15th
+ID: crawl.20240614, Name: 2024 June 14th
+```
+
+Rationale: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. The Name field provides a more readable version of the date. You'll need one of these analysis slugs for your config.json file to query specific crawl data. The most recent analysis is listed first, as it contains the most current data.
+
 
 # List Fields: How To Get The List of Fields Given a Collection
 
@@ -378,6 +402,9 @@ print(f"Fields for collection '{collection}':")
 for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
 ```
+
+
+
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
 
@@ -446,6 +473,20 @@ print("Data saved to pagetype_url_counts.csv")
 # Display a preview
 print(df)
 ```
+
+Sample Output:
+```
+Data saved to pagetype_url_counts.csv
+                 Pagetype  URL Count
+0                    pdp     250000
+1                    plp      50000
+2                    hub       5000
+3                   blog       2500
+4                    faq        500
+```
+
+Rationale: This breakdown shows URL distribution across different page types. Product Detail Pages (PDPs) typically make up the bulk of e-commerce sites, followed by Product Listing Pages (PLPs). Hub pages, blog posts and FAQs represent a smaller portion of the total URLs. This data helps identify potential structural issues and prioritize optimization efforts across different sections of the site.
+
 
 # Get Short Titles: How To Get the First 2000 URLs With Short Titles Given Pagetype
 
@@ -759,6 +800,22 @@ depth_distribution = get_urls_by_depth(
 )
 pprint.pprint(depth_distribution, width=1)
 ```
+
+Sample Output:
+```
+{
+ 0: 1,
+ 1: 5,
+ 2: 25,
+ 3: 125,
+ 4: 625,
+ 5: 3125,
+ 6: 15625
+}
+```
+
+Rationale: This depth distribution shows how many URLs exist at each click depth level from the homepage (depth 0). A healthy site typically has most content within 3-4 clicks, so this data helps identify potential deep crawl issues.
+
 
 # Use Case: How To Fetch and Process Project Analysis Data from the Botify API with Error Handling and Progressive Data Saving
 
