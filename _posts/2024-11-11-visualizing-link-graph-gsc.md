@@ -531,3 +531,66 @@ graph is way too large for visualization. The first thing we do is we cut back
 at what click-depth we're exporting the data for. We start out with this query
 to know the click-depth export. We're going to keep it to the maximum
 click-depth for which the export would be under a million rows (or edges).
+
+We've already established that query in our Kung Fu download:
+
+```python
+# Get Map of Click-Depths Aggregates Given Analysis Slug
+
+import json
+import requests
+import pprint
+
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+
+def get_urls_by_depth(org, project, analysis, api_key):
+    """Get URL count aggregated by depth for a Botify analysis."""
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    data_payload = {
+        "collections": [f"crawl.{analysis}"],
+        "query": {
+            "dimensions": [f"crawl.{analysis}.depth"],
+            "metrics": [{"field": f"crawl.{analysis}.count_urls_crawl"}],
+            "sort": [{"field": f"crawl.{analysis}.depth", "order": "asc"}]
+        }
+    }
+
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    response.raise_for_status()
+    
+    return {
+        row["dimensions"][0]: row["metrics"][0]
+        for row in response.json()["results"]
+    }
+
+# Run the depth aggregation and print results
+depth_distribution = get_urls_by_depth(
+    config['org'], config['project'], config['analysis'], api_key
+)
+pprint.pprint(depth_distribution, width=1)
+```
+
+Sample Output:
+
+```json
+{
+ 0: 1,
+ 1: 100,
+ 2: 10000,
+ 3: 1000000,
+ 4: 100000000
+}
+```
+
+We would have to select a click-depth of 3 if we used <= a million. If we did <
+a million, it'd be a click-depth of 2 that we'd visualize and the end product
+would *feel** very different because of the vastly different amount of nodes on
+the network graph. Not critical, but something to keep in mind about this. The
+difference between being well-under the visualization limit and way over is
+often just 1 click-depth, and it might be good to go over his with the client
+because how this click-depth nosedive looks reveals tons of issues about their
+site.
