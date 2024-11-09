@@ -261,6 +261,26 @@ for project_name, project_slug, project_user in projects:
 print("\nDone")
 ```
 
+Sample Output:
+
+```
+Organization: foo-bar
+Project Name                   Project Slug                        User Login     
+================================================================================
+Legendary Product Vault        legendary-product-vault             foo-bar       
+Hidden Content Cove            hidden-content-cove                 foo-bar       
+Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-bar       
+Epic Storefront Sprawl         epic-storefront-sprawl              foo-bar       
+Mystic Content Chamber         mystic-content-chamber              foo-bar       
+Wondrous Local Bazaar          wondrous-local-bazaar               foo-bar       
+Magical Product Menagerie      magical-product-menagerie           foo-bar       
+Catalog of Enchanted Wares     catalog-of-enchanted-wares          foo-bar       
+Phantom Inventory Island       phantom-inventory-island            foo-bar       
+```
+
+Rationale: To retrieve project data for an organization, you’ll need an `Organization` slug (org) that links to the Botify account. This list provides each project’s name, slug, and associated user login, which you can use to identify and manage projects tied to a specific organization.
+
+
 # List Analyses: How To Get the List of Analysis Slugs Given a Project
 
 ```python
@@ -403,7 +423,22 @@ for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
 ```
 
+Sample Output:
 
+```
+Fields for collection 'crawl.20241101':
+ID: noodle_id, Name: Noodle Identifier
+ID: sauce_level, Name: Sauce Intensity
+ID: spoon_type, Name: Spoon Class
+ID: tasty_path, Name: Delicious Path
+ID: slurp_extension, Name: Slurp Style
+ID: yummy_zone, Name: Flavor Region
+ID: spice_alert.value, Name: Spice-O-Meter
+ID: spice_alert.depth_1, Name: Spice Level 1
+ID: cook_cache, Name: Chef's Cache
+```
+
+Rationale: Listing fields for a given collection is essential for understanding the data structure and available attributes in a Botify dataset. By querying the field IDs and names, this function enables developers to identify key data points like URLs, content elements, or performance metrics. With playful, culinary-inspired field names, the example output keeps things lighthearted while still illustrating the diversity of fields. This approach helps in reviewing metadata without exposing real client information, making it ideal for testing and teaching contexts where structure matters more than content specificity.
 
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
@@ -578,6 +613,22 @@ pd.set_option('display.max_colwidth', None)
 df.head(10)
 ```
 
+Sample Output:
+
+**Data saved to titles_too_short.csv**
+
+| url                                      | title_len | title_content     | title_quality | description_content                                              | breadcrumb_tree                                       | h1_contents                     | h2_contents                             |
+|------------------------------------------|-----------|-------------------|---------------|------------------------------------------------------------------|--------------------------------------------------------|----------------------------------|-----------------------------------------|
+| https://www.example.com/site/socks/12345 | 8         | Sock Store        | unique        | Best socks for every season, unbeatable comfort and style.      | Example Store/Footwear/Accessories/Socks               | [Our Socks]                     | [Features, Sizes, Related Items]        |
+| https://www.example.com/site/hats/98765  | 9         | Top Hats Here!    | duplicate     | Stylish hats available year-round with exclusive discounts.     | Example Store/Apparel/Accessories/Hats                 | [Hat Selection]                 | [Details, Reviews, Top Picks]           |
+| https://www.example.com/site/shirts/54321| 10        | - Shirt Emporium  | duplicate     | Discover comfortable and stylish shirts at great prices.        | Example Store/Apparel/Topwear/Shirts                   | [Shirt Central]                 | [Sizing, Similar Styles, Reviews]       |
+| https://www.example.com/site/pants/67890 | 12        | Pant Paradise     | unique        | Durable, comfy pants for all occasions, from casual to formal.  | Example Store/Apparel/Bottomwear/Pants                 | [Our Best Pants]                | [Features, Size Chart, Recommended]     |
+| https://www.example.com/site/belts/34567 | 7         | - Belt Hub        | unique        | Essential belts in various styles, perfect for any outfit.      | Example Store/Apparel/Accessories/Belts                | [Belt Basics]                   | [Specifications, Similar Belts]         |
+| https://www.example.com/site/jackets/11111| 6         | - Jacket Haven    | duplicate     | Quality jackets for all seasons, unbeatable prices on top brands.| Example Store/Apparel/Outerwear/Jackets                 | [Best Jackets]                  | [Reviews, Compare Jackets, New Arrivals]|
+
+Rationale: **Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 2000 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
+
+
 # Count Short Titles: How To Count Number of URLs Having Short Titles
 
 ```python
@@ -641,6 +692,13 @@ else:
     print("Failed to retrieve the count of URLs with short titles.")
 
 ```
+
+Sample Output:
+
+    Number of URLs with short titles: 675080
+
+Rationale: Knowing the number of URLs with short titles helps gauge the scope of potential title optimizations across the site. By determining this count upfront, you can decide if a full data download is necessary or if a more focused approach will be effective. This preliminary check prevents excessive data transfer and streamlines the analysis process.
+
 
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
 
@@ -758,6 +816,17 @@ if download_url:
 else:
     print("Failed to retrieve the download URL.")
 ```
+
+Sample Output:
+
+    Starting export job for short titles...  
+    Polling for job completion: .  
+    Download URL: https://mystery-cdn.example.com/export_data/abc/def/ghi/xyz1234567890/funfetti-2024-11-08.csv.gz  
+    File downloaded as 'short_titles_export.csv.gz'  
+    File decompressed and saved as 'short_titles_export.csv'  
+
+Rationale: This function initiates and manages a data export job to retrieve up to 10,000 URLs with short titles, a useful step for identifying and improving under-optimized page titles in a collection. By automatically polling for job completion and downloading the result, this approach ensures large datasets are collected efficiently, allowing teams to analyze title lengths and other metadata for SEO improvements. The final CSV output can then be used for in-depth analysis or as a data source for updating title content site-wide.
+
 
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
 
