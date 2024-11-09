@@ -41,7 +41,7 @@ BQL (Botify Query Language) is essential for programmatically accessing Botify's
 - Build custom reports and data pipelines
 - Transform raw crawl data into actionable insights
 
-Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `
+Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `pandas` and the presense of your API Token and a config.json file addressed at the start.
 
 ## Query Structure and Endpoint
 
