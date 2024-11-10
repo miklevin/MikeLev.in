@@ -685,9 +685,9 @@ This creates a reliable pipeline for continuously discovering and collecting new
 ---
 
 Yup. That was a bit of a tangent, but you need good input data and there is a
-hunger to add this client or that. Now, I just plop in the `org` slug to the
-bottom of `candidates.txt`, run the script and it comes back with all the best
-qualifying candidate `project` slugs for that org.
+hunger at the company to visualize client or that. Now, I just plop in the `org`
+slug to the bottom of `candidates.txt`, run the script and it comes back with
+all the best qualifying candidate `project` slugs for that org.
 
 Okay, so mid-process I switched the output filename from `config.txt` to
 `candidates.txt`. That's because the harvesting process really is only finding
@@ -703,3 +703,190 @@ into invisible space and frees cognitive overhead to just look at the graphs and
 add insights and meaning. Okay, yup. Conceptually on the right track here. Keep
 the hound on the scent end don't let up! The link-graph game is afoot!
 
+Visualize with the end in mind. When you "go into work" tomorrow, what how
+should life be different. What do those interactions look like. Here's a YouTube
+video... oh... drop a deck that's shared with the whole company into Google
+Slides. Embed the YouTube video in that deck... haha! The share-all pouncers
+will bounce and BOOM! Ohhhh, this is performance art, Mike. Plan that
+performance. I started at about 6:00 AM this morning. It's now 10:30 AM. You're
+on a very good time-frame so long as you don't let yourself fall into any rabbit
+holes. Go take a break. Mull on this for a bit. The trifecta of...
+
+- A Google Deck / YouTube Video
+- A Ready-to-Download Link-Graph Visualizer (where the local LLM comes alive,
+  haha!)
+- Seeds of many other apps planted
+
+Structure the rest of the day around this. Come out of it with answers for the
+big boss about time-to-automation of full SEO Audits. There's going to have to
+be a screen capture component to all of that. It may just be popping up a
+Puppeteer / Playwright browser window, snapping a shot and moving on. Forget
+about the actual Deck automation like Google Slides and Powerpoint. I've impaled
+myself on the altar of Sharepoint and OAuth2 enough to know there be rabbits...
+uh, I mean dragons there. NO! NO! NO! Screenshots from browser automation easy.
+Any sort of presentation-layer software integration hard. 
+
+"There's your screenshots" is what I ought to say. Hey, at most maybe I can do
+what I did with [Levinux](https://levinux.com), which is the seemingly timeless
+and impervious to disruption or complication RemarkJS. Hmm, the last update was
+last year, but frankly it means it's not abandoned and that's all they need.
+Haha, a whole audit delivered in a single text-file made with one EDL-style
+transformation-query that says eff-you to both Google Slides and Powerpoint.
+That'd be a kick. Just say "it's HTML..." and look at the stakeholder with a
+blank stare not understanding what's wrong. Ah, but people have to put their
+findings in. It's a friggn Thomas Kinkade painting. Perplexity...
+
+**Perplexity**: Based on the search results and your comfort with programming,
+here are the potential show-stoppers when working with Google APIs, particularly
+for automating SEO audit presentations:
+
+1. OAuth2 Authentication:
+   - Setting up and managing OAuth2 credentials can be complex[1][4].
+   - You'll need to handle token refresh and storage securely[1].
+   - Scopes must be correctly configured to avoid "insufficient authentication scopes" errors[1].
+
+2. API Enablement:
+   - Each API (Slides, Drive, BigQuery) needs to be explicitly enabled in the Google Cloud Console[5].
+   - Forgetting to enable an API will result in errors when trying to use it.
+
+3. Rate Limits and Quotas:
+   - Google APIs have usage limits that could restrict your automation capabilities[2].
+   - You may need to implement rate limiting in your code to avoid exceeding these quotas.
+
+4. API Versioning:
+   - APIs can change over time, and keeping up with version changes may require periodic code updates[2][3].
+
+5. Complex Data Structures:
+   - Working with the Slides API involves understanding and manipulating complex JSON structures for slide elements[2][3].
+
+6. Limited Direct Editing:
+   - There's no direct way to import RemarkJS or other presentation formats into Google Slides[4].
+   - You'll need to build slides programmatically, which can be time-consuming and complex.
+
+7. Image Handling:
+   - Inserting images requires additional steps, including uploading to Drive first in some cases[4].
+
+8. Error Handling:
+   - Google APIs can return various errors that need to be handled gracefully in your code[1].
+
+9. Testing and Debugging:
+   - Debugging API interactions can be challenging, especially with asynchronous operations and complex data structures.
+
+10. Maintenance:
+    - Google may deprecate or change features, requiring ongoing maintenance of your automation scripts[4].
+
+11. Learning Curve:
+    - Despite your programming experience, there's a significant learning curve to understanding how to effectively use multiple Google APIs together[5].
+
+These challenges are not insurmountable, but they represent areas where you might encounter significant friction or delays in implementing your automated SEO audit presentation system using Google APIs.
+
+Citations:
+
+    [1] https://stackoverflow.com/questions/62808387/insufficient-authentication-scopes-error-using-google-slides-api
+    [2] https://freegoogleslidestemplates.com/blog/using-google-slides-api/
+    [3] https://cloud.google.com/blog/products/application-development/introducing-slides-api-codelab
+    [4] http://wescpy.blogspot.com/2016/11/using-google-slides-api-with-python.html
+    [5] https://codelabs.developers.google.com/codelabs/slides-api
+    [6] https://www.youtube.com/watch?v=UOU9-3Jfet4
+    [7] https://developers.google.com/slides/api/limits
+    [8] https://developers.google.com/slides/api/guides/performance
+
+**Me**: Given my ability to do browser automation, which could both auto-surf the Botify product around which the audits are being built, and my ability to do API work to produce audits in the back-end, and my ability to use Python visualizers like matplotlib and seaborn, and given my ability to knit RemarkJS presentations from source materials this way, construct a strategy by which I could lay down a foundation with screenshots and other visual resources tied together with a RemarkJS file which could be screenshot screen-by-screen then mass-imported into Google Slides. Sure, it loses editability, but it would include original links to where things can be found in the Botify UI and works as a baseline 80/20-rule solution. At very least, it could guide the creation of the Thomas Kinkade-like hand touches at the end.
+
+**Perplexity**: Given your skillset and the requirements, here's a strategy to create a semi-automated SEO audit presentation using RemarkJS as an intermediate step, with the final product being imported into Google Slides:
+
+1. Automated Data Collection and Visualization:
+   - Use browser automation (Puppeteer/Playwright) to navigate the Botify UI and capture relevant screenshots.
+   - Utilize Botify's API to extract necessary data for the audit.
+   - Process the data using Python, creating visualizations with matplotlib or seaborn.
+
+2. RemarkJS Presentation Creation:
+   - Develop a template RemarkJS markdown file with placeholders for dynamic content.
+   - Write a Python script to populate the RemarkJS template with:
+     - Screenshots from browser automation
+     - Data visualizations from matplotlib/seaborn
+     - Extracted data and insights from Botify API
+     - Links back to specific sections in the Botify UI
+
+3. RemarkJS to Google Slides Conversion:
+   - Use browser automation to open the RemarkJS presentation in a browser.
+   - Capture high-quality screenshots of each slide.
+   - Develop a script using Google Slides API to create a new presentation and import these screenshots as individual slides.
+
+4. Final Touches:
+   - Implement a system for analysts to add "hand-embellishments" to the Google Slides presentation:
+     - Additional text boxes for insights
+     - Highlighting or circling important areas on screenshots
+     - Adding custom slides for executive summary or recommendations
+
+Here's a more detailed breakdown of the process:
+
+```python
+# Pseudo-code for the automation process
+
+# Step 1: Data Collection and Visualization
+def collect_botify_data():
+    # Use Botify API to extract data
+    # Return structured data
+
+def capture_botify_screenshots():
+    # Use Puppeteer/Playwright to navigate Botify UI and capture screenshots
+    # Return list of screenshot paths
+
+def create_visualizations(data):
+    # Use matplotlib/seaborn to create visualizations
+    # Return list of visualization paths
+
+# Step 2: RemarkJS Creation
+def generate_remarkjs_markdown(data, screenshots, visualizations):
+    # Load RemarkJS template
+    # Populate template with data, screenshots, and visualizations
+    # Return markdown content
+
+# Step 3: RemarkJS to Google Slides
+def capture_remarkjs_slides(markdown_content):
+    # Use browser automation to render RemarkJS presentation
+    # Capture screenshots of each slide
+    # Return list of slide image paths
+
+def create_google_slides_presentation(slide_images):
+    # Use Google Slides API to create new presentation
+    # Import slide images as individual slides
+    # Return presentation ID
+
+# Step 4: Final Touches
+def add_embellishment_placeholders(presentation_id):
+    # Add text boxes or shape placeholders for manual additions
+    # Return updated presentation ID
+
+# Main process
+data = collect_botify_data()
+screenshots = capture_botify_screenshots()
+visualizations = create_visualizations(data)
+markdown = generate_remarkjs_markdown(data, screenshots, visualizations)
+slide_images = capture_remarkjs_slides(markdown)
+presentation_id = create_google_slides_presentation(slide_images)
+final_presentation_id = add_embellishment_placeholders(presentation_id)
+
+print(f"Presentation created: {final_presentation_id}")
+```
+
+This approach allows you to:
+1. Automate the bulk of the work, including data collection, visualization, and initial presentation creation.
+2. Maintain a consistent structure across all audits.
+3. Provide a foundation for analysts to add their expertise and insights.
+4. Deliver a Google Slides presentation that, while not fully editable, contains all necessary information and visuals.
+5. Include links back to the Botify UI for deeper exploration.
+
+The "Thomas Kinkade-like hand touches" come in at the final stage, where analysts can add their insights, highlight key findings, and customize the presentation for each client. This approach strikes a balance between automation and personalization, allowing for efficient production of high-quality SEO audit presentations.
+
+Citations:
+
+    [1] https://www.kdnuggets.com/creating-visuals-with-matplotlib-and-seaborn
+    [2] https://www.nobledesktop.com/learn/python/visualizing-data-with-matplotlib-and-seaborn-in-python
+    [3] https://www.newhorizons.com/resources/blog/how-to-choose-between-seaborn-vs-matplotlib
+    [4] https://techifysolutions.com/blog/seaborn-vs-matplotlib/
+    [5] https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
+    [6] https://seaborn.pydata.org
+    [7] https://matplotlib.org
+    [8] https://www.reddit.com/r/datascience/comments/yhrlpj/python_charts_a_new_visualization_website/
