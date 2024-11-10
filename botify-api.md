@@ -1410,27 +1410,28 @@ api_key = open('botify_token.txt').read().strip()
 headers = {"Authorization": f"Token {api_key}"}
 
 # Rate limit configuration
-DELAY_BETWEEN_PAGES = 2      # Delay between pagination requests in seconds
-DELAY_BETWEEN_PROJECTS = 3    # Delay between project analysis requests in seconds
-DELAY_BETWEEN_ORGS = 10       # Delay between each organization in seconds
+DELAY_BETWEEN_PAGES = 2
+DELAY_BETWEEN_PROJECTS = 3
+DELAY_BETWEEN_ORGS = 4
 
-# File paths for saving progress
 output_csv = 'projects_with_multiple_analyses.csv'
 progress_pickle = 'progress.pkl'
 
-# Helper functions
-def read_orgs_from_config(file_path):
-    """Read organizations from a simple indented configuration file."""
-    orgs = []
+def load_existing_config(file_path):
+    """Load organizations and projects from config.txt, preserving structure."""
+    orgs_with_projects = {}
+    current_org = None
     with open(file_path, 'r') as file:
         for line in file:
-            stripped_line = line.strip()
-            if stripped_line and not line.startswith(' '):
-                orgs.append(stripped_line)
-    return orgs
+            if not line.startswith(" ") and line.strip():  # Top-level orgs
+                current_org = line.strip()
+                orgs_with_projects[current_org] = []
+            elif line.startswith(" ") and current_org:  # Projects under an org
+                orgs_with_projects[current_org].append(line.strip())
+    return orgs_with_projects
 
 def fetch_projects(org):
-    """Fetch all projects for a given organization with pagination."""
+    """Fetch projects for a given organization with pagination."""
     url = f"https://api.botify.com/v1/projects/{org}"
     all_projects = []
     
@@ -1443,11 +1444,17 @@ def fetch_projects(org):
                 {'org': org, 'project_slug': project['slug'], 'project_name': project['name']}
                 for project in data.get('results', [])
             ])
-            url = data.get('next')  # Move to the next page if available
-            print(f"  Fetched {len(all_projects)} projects so far for organization '{org}'")
+            url = data.get('next')
+            print(f"  Fetched {len(all_projects)} projects for '{org}'")
             time.sleep(DELAY_BETWEEN_PAGES)
+        except requests.HTTPError as e:
+            if response.status_code == 404:
+                print(f"  Skipping '{org}': {e}")
+            else:
+                print(f"  Error fetching projects for '{org}': {e}")
+            return []
         except requests.RequestException as e:
-            print(f"  Error fetching projects for organization '{org}': {e}")
+            print(f"  Network or other error for '{org}': {e}")
             break
     
     return all_projects
@@ -1464,117 +1471,133 @@ def fetch_analysis_count(org, project_slug):
         if len(analyses) >= 2:
             return len(analyses), analyses[0]['slug']
     except requests.RequestException as e:
-        print(f"    Error fetching analyses for project '{project_slug}' in organization '{org}': {e}")
+        print(f"    Error fetching analyses for project '{project_slug}' in '{org}': {e}")
     return None, None
 
-# Load progress if available
-output_data = []
-org_index = 0
+def load_existing_data(csv_path, config_path):
+    """Load both CSV and config data into sets for quick lookup."""
+    # Load CSV data
+    if os.path.exists(csv_path):
+        existing_df = pd.read_csv(csv_path)
+        output_data = existing_df.to_dict('records')
+        existing_projects = set((row['Organization'], row['Project Slug']) for row in output_data)
+    else:
+        output_data = []
+        existing_projects = set()
 
-try:
-    if os.path.exists(progress_pickle) and os.path.getsize(progress_pickle) > 0:
-        with open(progress_pickle, 'rb') as f:
-            output_data, org_index = pickle.load(f)
-        print(f"Resuming from organization index {org_index}")
-except (EOFError, pickle.UnpicklingError):
-    print("Progress file is empty or corrupted. Starting from scratch.")
-    output_data = []
-    org_index = 0
+    # Load config data
+    config_data = load_existing_config(config_path)
+    config_projects = set((org, proj.strip()) 
+                         for org, projects in config_data.items() 
+                         for proj in projects)
 
-org_list = read_orgs_from_config('config.txt')
+    return output_data, existing_projects, config_projects, config_data
 
-# Start processing organizations from saved org_index
-for idx, org in enumerate(org_list[org_index:], start=org_index):
-    print(f"\n{'=' * 40}\nProcessing organization: {org}\n{'=' * 40}")
+# Load all existing data
+output_data, existing_projects, config_projects, config_data = load_existing_data(output_csv, 'config.txt')
+new_entries = {org: [] for org in config_data}
+
+# Determine organizations to process based on missing projects
+org_list = [org for org in config_data if org]  # Only process existing organizations
+
+for org in org_list:
+    print(f"\nProcessing organization: {org}")
+    
+    # Get all existing projects for this org from both sources
+    org_projects = {proj for org_name, proj in existing_projects if org_name == org}
+    org_config_projects = {proj for org_name, proj in config_projects if org_name == org}
+    all_existing = org_projects | org_config_projects
+    
+    if all_existing:
+        print(f"  Found {len(all_existing)} existing projects for '{org}'")
+        if len(all_existing) == len(config_data.get(org, [])):
+            print(f"  Skipping '{org}': All projects already processed")
+            continue
+    
     projects = fetch_projects(org)
-    
-    qualifying_projects = []
-    
+    if not projects:
+        continue
+
     for project in projects:
-        # Fetch analysis count and most recent analysis
+        # Check if this project is already processed
+        if (project['project_slug'] in all_existing or 
+            (org, project['project_slug']) in existing_projects):
+            print(f"  Skipping already processed project: {project['project_slug']}")
+            continue
+
         analysis_count, recent_analysis = fetch_analysis_count(org, project['project_slug'])
         
         if analysis_count and analysis_count >= 2:
-            print(f"  Project: {project['project_name']} (Slug: {project['project_slug']})")
-            print(f"    Analysis count: {analysis_count}, Most recent analysis: {recent_analysis}")
-            qualifying_projects.append({
+            output_data.append({
                 'Organization': org,
                 'Project Name': project['project_name'],
                 'Project Slug': project['project_slug'],
                 'Analysis Count': analysis_count,
                 'Most Recent Analysis': recent_analysis
             })
+            new_entries[org].append(project['project_slug'])
+            existing_projects.add((org, project['project_slug']))
         
-        # Delay after each project to manage rate limits
         time.sleep(DELAY_BETWEEN_PROJECTS)
-
-    # Sort projects by analysis count in descending order and add to output
-    qualifying_projects.sort(key=lambda x: x['Analysis Count'], reverse=True)
-    output_data.extend(qualifying_projects)
-
-    # Save progress after each organization
-    with open(progress_pickle, 'wb') as f:
-        pickle.dump((output_data, idx + 1), f)
-
-    # Delay between organizations to further manage rate limits
+    
     time.sleep(DELAY_BETWEEN_ORGS)
 
-# Save final CSV and clean up progress file
+# Save final CSV and preserve previous data
 df = pd.DataFrame(output_data)
 df.to_csv(output_csv, index=False)
 print(f"\nData saved to {output_csv}")
 
-# Remove progress file if run completes successfully
-if os.path.exists(progress_pickle):
-    os.remove(progress_pickle)
+# Generate fresh config.txt from CSV data
+# Group by organization and collect all project slugs
+org_projects = {}
+for _, row in df.sort_values(['Organization', 'Project Slug']).iterrows():
+    org = row['Organization']
+    if org not in org_projects:
+        org_projects[org] = set()
+    org_projects[org].add(row['Project Slug'])
 
-# Update config.txt with project candidates under each organization
+# Write fresh config.txt
 with open('config.txt', 'w') as file:
-    for org in org_list:
+    for org in sorted(org_projects.keys()):
         file.write(f"{org}\n")
-        org_projects = [item for item in output_data if item['Organization'] == org]
-        for project in org_projects:
-            file.write(f"    {project['Project Slug']}\n")
+        for project in sorted(org_projects[org]):
+            file.write(f"    {project}\n")
+        file.write("\n")  # Add blank line between organizations for readability
 
-print("\nconfig.txt updated with project candidates.")
+print("\nConfig.txt regenerated from CSV data.")
 ```
 
 **Sample Output:**
 
-```plaintext
-========================================
-Processing organization: org-foo
-========================================
-  Fetched 3 projects so far for organization 'org-foo'
-  Project: foo.com (Slug: foo-com)
-    Analysis count: 10, Most recent analysis: 20241106
+    Processing organization: foo-corp
+      Found 3 existing projects for 'foo-corp'
+      Skipping 'foo-corp': All projects already processed
+    
+    Processing organization: bar-inc
+      Fetched 10 projects for 'bar-inc'
+      Fetched 20 projects for 'bar-inc'
+      Fetched 25 projects for 'bar-inc'
+      Project: example-site (Slug: example-com)
+        Analysis count: 8, Most recent analysis: 20241102
+      Project: demo-portal (Slug: demo-portal)
+        Analysis count: 5, Most recent analysis: 20241029
+    
+    Processing organization: baz-group
+      Skipping project 'test-project': Already processed
+      Project: sample-blog (Slug: blog)
+        Analysis count: 12, Most recent analysis: 20241105
+    
+    Data saved to projects_with_multiple_analyses.csv
+    Config.txt regenerated from CSV data.
 
-========================================
-Processing organization: org-bar
-========================================
-  Fetched 9 projects so far for organization 'org-bar'
-  Project: Adhoc (Slug: adhoc)
-    Analysis count: 5, Most recent analysis: 20241029-2
-  Project: Bulk Data Integration (Slug: bulk-data-integration)
-    Analysis count: 10, Most recent analysis: 20241106
-  Project: Main Project (Slug: main-project)
-    Analysis count: 10, Most recent analysis: 20241108
+**Rationale**: This script builds a dataset of Botify projects suitable for link-graph visualization by:
+1. Reading organizations from config.txt
+2. Fetching all projects for each organization
+3. Identifying projects with multiple analyses (2+)
+4. Saving results to CSV and regenerating config.txt
+5. Using rate limiting and progress tracking to handle interruptions
 
-========================================
-Processing organization: org-baz
-========================================
-  Fetched 5 projects so far for organization 'org-baz'
-  Project: Project Alpha (Slug: project-alpha)
-    Analysis count: 3, Most recent analysis: 20240529
-  Project: Project Beta (Slug: project-beta)
-    Analysis count: 2, Most recent analysis: 20240529
-
-Data saved to projects_with_multiple_analyses.csv
-
-config.txt updated with project candidates.
-```
-
-**Rationale**: This code fetches and processes project analysis data from the Botify API, incorporating robust error handling, progressive saving, and rate limiting to efficiently handle large data requests across multiple organizations. By saving progress in `progress.pkl`, this script ensures that even if an interruption occurs, data already fetched is retained, allowing for a seamless resume without re-fetching. The delays between requests prevent rate limiting, while a final CSV output (`projects_with_multiple_analyses.csv`) and an updated `config.txt` offer a structured view of qualified projects by organization. This approach optimizes both data retrieval and analysis while ensuring a user-friendly summary for each organization.
+The result is a clean, deduplicated dataset of projects with sufficient historical data for meaningful link analysis, which can be continuously expanded by adding new organizations to config.txt.
 
 
 # Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
@@ -2568,6 +2591,220 @@ if __name__ == "__main__":
     4     True  False         987       9   
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
+
+```python
+
+```
+
+<!-- #region -->
+# How can you convert BQLv1 to BQLv2 effectively? A Detailed Guide
+
+This guide provides a structured approach to converting BQLv1 queries to BQLv2, including validation helpers and common patterns. The validation functions ensure proper formatting and structure while the conversion function handles the basic transformation logic.
+
+## Step-by-Step Conversion Process
+
+### 1. Basic Structure Transformation
+
+BQLv1 queries have this basic structure:
+```python
+{
+    "fields": [...],
+    "filters": {...},
+    "sort": [...]
+}
+```
+
+BQLv2 queries follow this structure:
+```python
+{
+    "collections": [f"crawl.{analysis}"],
+    "query": {
+        "dimensions": [...],
+        "metrics": [...],
+        "filters": {...},
+        "sort": [...]
+    }
+}
+```
+
+### 2. Field Mapping Rules
+
+1. **Collections Setup**:
+   - Add `"collections": [f"crawl.{analysis}"]` at the root level
+   - If comparing crawls, add both: `["crawl.{current}", "crawl.{previous}"]`
+
+2. **Fields to Dimensions**:
+   ```python
+   # BQLv1
+   "fields": ["url", "depth"]
+   
+   # BQLv2
+   "dimensions": [
+       f"crawl.{analysis}.url",
+       f"crawl.{analysis}.depth"
+   ]
+   ```
+
+3. **Filter Translation**:
+   ```python
+   # BQLv1
+   "filters": {
+       "field": "depth",
+       "predicate": "lte",
+       "value": max_depth
+   }
+   
+   # BQLv2
+   "filters": {
+       "field": f"crawl.{analysis}.depth",
+       "predicate": "lte",
+       "value": max_depth
+   }
+   ```
+
+### 3. Special Cases
+
+#### Previous Crawl References
+```python
+# BQLv1
+"fields": ["url", "previous.http_code"]
+
+# BQLv2
+"collections": [f"crawl.{current}", f"crawl.{previous}"],
+"dimensions": [
+    f"crawl.{current}.url",
+    f"crawl.{previous}.http_code"
+]
+```
+
+#### Area Filters
+For "new" URLs:
+```python
+"filters": {
+    "and": [
+        {
+            "field": f"crawl.{current}.url_exists_crawl",
+            "value": true
+        },
+        {
+            "field": f"crawl.{previous}.url_exists_crawl",
+            "value": false
+        }
+    ]
+}
+```
+
+For "disappeared" URLs:
+```python
+"filters": {
+    "and": [
+        {
+            "field": f"crawl.{current}.url_exists_crawl",
+            "value": false
+        },
+        {
+            "field": f"crawl.{previous}.url_exists_crawl",
+            "value": true
+        }
+    ]
+}
+```
+
+### 4. Validation Helper Functions
+
+```python
+def validate_bql_v2_query(query):
+    """Validate BQLv2 query structure and field formatting."""
+    required_keys = {'collections', 'query'}
+    query_keys = {'dimensions', 'metrics', 'filters'}
+    
+    # Check top-level structure
+    if not all(key in query for key in required_keys):
+        raise ValueError(f"Missing required keys. Must have: {required_keys}")
+    
+    # Check query structure
+    if not any(key in query['query'] for key in query_keys):
+        raise ValueError(f"Query must contain at least one of: {query_keys}")
+    
+    # Validate collections format
+    for collection in query['collections']:
+        if not collection.startswith('crawl.'):
+            raise ValueError(f"Invalid collection format: {collection}")
+    
+    # Validate dimensions format
+    if 'dimensions' in query['query']:
+        for dim in query['query']['dimensions']:
+            if not any(dim.startswith(f"{c}.") for c in query['collections']):
+                raise ValueError(f"Invalid dimension format: {dim}")
+    
+    return True
+
+def convert_bql_v1_to_v2(query_v1, analysis):
+    """Convert BQLv1 query to BQLv2 format."""
+    query_v2 = {
+        "collections": [f"crawl.{analysis}"],
+        "query": {
+            "dimensions": [],
+            "metrics": [],
+            "filters": {}
+        }
+    }
+    
+    # Convert fields to dimensions
+    if 'fields' in query_v1:
+        query_v2['query']['dimensions'] = [
+            f"crawl.{analysis}.{field}" for field in query_v1['fields']
+        ]
+    
+    # Convert filters
+    if 'filters' in query_v1:
+        filter_v1 = query_v1['filters']
+        query_v2['query']['filters'] = {
+            "field": f"crawl.{analysis}.{filter_v1['field']}",
+            "predicate": filter_v1['predicate'],
+            "value": filter_v1['value']
+        }
+    
+    # Validate the converted query
+    validate_bql_v2_query(query_v2)
+    
+    return query_v2
+```
+
+### 5. Usage Example
+
+```python
+# Example BQLv1 query
+query_v1 = {
+    "fields": ["url", "depth"],
+    "filters": {
+        "field": "depth",
+        "predicate": "lte",
+        "value": 3
+    }
+}
+
+# Convert to BQLv2
+analysis = "20240308"
+query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
+
+# Result:
+{
+    "collections": ["crawl.20240308"],
+    "query": {
+        "dimensions": [
+            "crawl.20240308.url",
+            "crawl.20240308.depth"
+        ],
+        "metrics": [],
+        "filters": {
+            "field": "crawl.20240308.depth",
+            "predicate": "lte",
+            "value": 3
+        }
+    }
+}
+<!-- #endregion -->
 
 ```python
 
