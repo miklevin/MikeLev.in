@@ -995,18 +995,19 @@ you're doing on a per-session basis. NeoVim (nvim) has greatly moved to the `\`
 leader-key for macros. 
 
 ### Adapting to New Muscle Memory
-you can still use `@x`, but for whatever reason, the backslash character has
-caught on with nvim, and it does make sense because it's a very easy-to-reach
-underutilized key that doesn't require pressing the `Shift` modifier. And so
-when moving from vim to nvim, there's a serious muscle memory remapping, and
-while ultimately I do think it's a good idea, it's a muscle memory regression
-vulnerability when you get tired. That's what's happening to me now, so I'm
-thinking out loud to power through it. It's only 1:00 PM and I'm not done. I
-have a big push to do to come out of this tomorrow in a no going back better
-place. I'm on the edge of it and can feel it. So forge forward like the older
-Roombas, backing up, turning a bit, and moving forward again for a random walk
-zigzag pattern. Even exhaustion can't stop you, haha! Okay... so, that algorithm
-goes something like...
+
+You can still use `@[whatever]`, but for some reason, the backslash character
+has caught on with nvim, and it does make sense because it's a very
+easy-to-reach underutilized key that doesn't require pressing the `Shift`
+modifier. And so when moving from vim to nvim, there's a serious muscle memory
+remapping, and while ultimately I do think it's a good idea, it's a muscle
+memory regression vulnerability when you get tired. That's what's happening to
+me now, so I'm thinking out loud to power through it. It's only 1:00 PM and I'm
+not done. I have a big push to do to come out of this tomorrow in a no going
+back better place. I'm on the edge of it and can feel it. So forge forward like
+the older Roombas, backing up, turning a bit, and moving forward again for a
+random walk zigzag pattern. Even exhaustion can't stop you, haha! Okay... so,
+that algorithm goes something like...
 
 ## Rediscovering Neovim Configuration
 Review your macros. Your muscle memory may have forgotten them, but your
