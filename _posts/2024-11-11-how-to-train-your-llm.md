@@ -948,7 +948,10 @@ OK, so specifically we're talking about getting over the hump of a context switc
 ### Focus and File Organization
 I have to accelerate the rate of which things get done modifying instances of the web framework. It may be time to move on from Pipulate to Botifython to Botifymograph to... No! That's a distraction. Clean up the garbage in the folder you produced rapidly into a `sort` some folder, so you will always know where to look for it if you need it, and add that folder to the `.gitignore` so you never have to worry about proprietary information getting into a repo.
 
-## Core Development Priorities ### Link-Graph Integration Get the link-graph
+## Core Development Priorities 
+
+### Link-Graph Integration Get the link-graph
+
 into the web framework pronto. Short circuit some perfect world processes you
 would like. You are building a lot of perfect components, like the nature of the
 queries it will be using. I've solved the stickiest problems there. Revel in the
