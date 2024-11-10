@@ -950,7 +950,7 @@ I have to accelerate the rate of which things get done modifying instances of th
 
 ## Core Development Priorities
 ### Link-Graph Integration
-With the link-graph into the web framework pronto. Short circuit some perfect world processes you would like. You are building a lot of perfect components, like the nature of the queries it will be using. I've solved the stickiest problems there. Revel in the joy of putting that to use.
+Get the link-graph into the web framework pronto. Short circuit some perfect world processes you would like. You are building a lot of perfect components, like the nature of the queries it will be using. I've solved the stickiest problems there. Revel in the joy of putting that to use.
 
 ### Minimal Viable Interface
 So it's building menus for input and it's creating folders for output. 
