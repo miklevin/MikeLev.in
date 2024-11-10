@@ -1534,7 +1534,7 @@ with open('config.txt', 'w') as file:
         file.write(f"{org}\n")
         org_projects = [item for item in output_data if item['Organization'] == org]
         for project in org_projects:
-            file.write(f"    {project['Project Name']} ({project['Project Slug']})\n")
+            file.write(f"    {project['Project Slug']}\n")
 
 print("\nconfig.txt updated with project candidates.")
 ```
