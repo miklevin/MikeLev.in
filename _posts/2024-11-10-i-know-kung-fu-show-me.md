@@ -1,4 +1,4 @@
-
+---
 title: I Know Kung Fu, Show Me
 permalink: /i-know-kung-fu-show-me/
 description: Explore how AI assistance and strategic prompt injection enabled mastery of complex BQL API integration, setting the stage for ambitious GPU-powered website visualization goals.
@@ -6,9 +6,9 @@ layout: post
 sort_order: 1
 ---
 
-## The Original Vision: A Death Star Hologram for Your Website
+## Original Vision for Article: A Death Star Hologram for Your Website
 
-The description of this article was going to be: Like Admiral Akbar's Death Star
+The theme of this article was going to be: Like Admiral Akbar's Death Star
 hologram, learn how to visualize website architecture through link-graphs
 enhanced with Google Search Console data, revealing structural insights and
 optimization opportunities. However, I never got to the visualization part, and
@@ -18,10 +18,13 @@ point.
 ## The Real Challenge: AI-Assisted API Integration
 
 What it did reach was some of the most complex and challenging API integration
-of my life, downright not possible without AI-help. And not just any AI-help.
-AI that has repeatedly received a Matrix-style Kung Fu download. It's not Prompt
+of my life, downright not possible without AI-help. And not just any AI-help. AI
+that has repeatedly received a Matrix-style Kung Fu download. It's not Prompt
 Engineering. It's not training a model or fine-tuning. It's something whose
-moniker I'm choosing makes my coworker blush.
+moniker I'm choosing makes my coworker blush. I can't very well go with a movie
+quote to name the technique. It's got to be more literal and descriptive if it's
+going to compete with ***prompt engineering***, ***fine-tuning*** and the like.
+No, it's got to have some pop and pizazz; maybe even be a bit controversial.
 
 ### Mastering BQL: Not Your Average Query Language
 
