@@ -522,8 +522,88 @@ for i, url in enumerate(list_of_urls):
 20 https://example.com/page20
 ```
 
-**Rationale**: This function demonstrates a simple Botify API query to list URLs from a specific analysis. The output displays the first 500 URLs (only 20 shown here for brevity), helping SEO teams quickly preview URLs within a collection. This lightweight function is valuable for efficiently examining URL samples before further analysis or filtering.
+**Rationale**: This function demonstrates a simple Botify API query to list URLs from a specific analysis. The output displays the first 500 URLs (only 20 shown here for brevity). This setup only retrieves URLs from the specified collection and analysis without any additional fields, metrics, filters or sorting, serving as a pure, foundational listing for initial inspection or further incremental development.
 
+```python
+# List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
+```
+
+```python
+# List the First 500 URLs, Titles, Meta Descriptions and H1s
+
+import json
+import requests
+import pandas as pd
+
+# Load configuration and API key
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+
+def get_bqlv2_data(org, project, analysis, api_key):
+    """Fetch data for URLs with title, meta description, and H1 fields."""
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    # BQLv2 query payload
+    data_payload = {
+        "collections": [f"crawl.{analysis}"],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.url",
+                f"crawl.{analysis}.metadata.title.content",
+                f"crawl.{analysis}.metadata.description.content",
+                f"crawl.{analysis}.metadata.h1.contents"
+            ],
+            "metrics": []
+        }
+    }
+
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
+
+    # Send the request
+    response = requests.post(url, headers=headers, json=data_payload)
+    response.raise_for_status()  # Check for errors
+    
+    return response.json()
+
+# Run the query and load results
+data = get_bqlv2_data(org, project, analysis, api_key)
+
+# Flatten the data into a DataFrame
+columns = ["url", "title", "meta_description", "h1"]
+df = pd.DataFrame([item['dimensions'] for item in data['results']], columns=columns)
+
+# Display the first 500 URLs
+df.head(500).to_csv("first_500_urls.csv", index=False)
+print("Data saved to first_500_urls.csv")
+
+# Show a preview
+df.head()
+```
+
+<!-- #region -->
+**Sample Output**:
+
+
+| URL                              | Title               | Meta Description                           | H1                 |
+|----------------------------------|---------------------|--------------------------------------------|---------------------|
+| https://example.com/foo          | Foo Title          | This is a description of Foo.              | Foo Heading        |
+| https://example.com/bar          | Bar Overview       | Bar is a collection of great resources.    | Bar Insights       |
+| https://example.com/baz          | Baz Guide          | Learn all about Baz and its applications.  | Baz Essentials     |
+| https://example.com/spam         | Spam Insights      | Explore spam in detail for more insights.  | Spam Analysis      |
+| https://example.com/eggs         | Eggs Overview      | Detailed guide to understanding Eggs.      | Eggs Information   |
+| https://example.com/foo-bar      | Foo Bar Page       | Learn about the Foo and Bar connection.    | Foo & Bar Combo    |
+| https://example.com/foo-baz      | Foo & Baz Guide    | Comprehensive guide on Foo & Baz.          | Foo + Baz Guide    |
+| https://example.com/bar-baz      | Bar Baz Collection | Delving into the intricacies of Bar & Baz. | Bar & Baz Details  |
+| https://example.com/spam-eggs    | Spam & Eggs        | A classic combo, Spam & Eggs explained.    | Classic Combo      |
+| https://example.com/eggs-baz     | Eggs and Baz       | All you need to know about Eggs and Baz.   | Eggs & Baz Guide   |
+
+*Data saved to `first_500_urls.csv`*
+
+**Rationale**: This output retrieves common SEO fields (`URL`, `Title`, `Meta Description`, and `H1`) following a crawl, providing essential metadata for a foundational SEO audit. It facilitates a quick review of each page's main content signals. This example also layers in the common practice of using the `pandas` package for handling row and column data, replacing Excel and saving **.csv** files.
+<!-- #endregion -->
 
 # Query Segments: This script queries the Botify API to get segment data for a project, including page type values and URL counts.
 
