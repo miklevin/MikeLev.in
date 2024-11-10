@@ -1,10 +1,51 @@
----
-title: Visualizing The Web Crawl Link-Graph with Google Search Console (GSC) Data Superimposed
-permalink: /vissualizing-link-graph-gsc/
-description: Like Admiral Akbar's Death Star hologram, learn how to visualize website architecture through link-graphs enhanced with Google Search Console data, revealing structural insights and optimization opportunities.
+
+title: I Know Kung Fu, Show Me
+permalink: /i-know-kung-fu-show-me/
+description: Explore how AI assistance and strategic prompt injection enabled mastery of complex BQL API integration, setting the stage for ambitious GPU-powered website visualization goals.
 layout: post
 sort_order: 1
 ---
+
+## The Original Vision: A Death Star Hologram for Your Website
+
+The description of this article was going to be: Like Admiral Akbar's Death Star
+hologram, learn how to visualize website architecture through link-graphs
+enhanced with Google Search Console data, revealing structural insights and
+optimization opportunities. However, I never got to the visualization part, and
+anyone following the link would be less than satisfied with it not reaching that
+point.
+
+## The Real Challenge: AI-Assisted API Integration
+
+What it did reach was some of the most complex and challenging API integration
+of my life, downright not possible without AI-help. And not just any AI-help.
+AI that has repeatedly received a Matrix-style Kung Fu download. It's not Prompt
+Engineering. It's not training a model or fine-tuning. It's something whose
+moniker I'm choosing makes my coworker blush.
+
+### Mastering BQL: Not Your Average Query Language
+
+No, BQL is not SQL; I have to keep telling the LLMs. Neither is it the
+API-language of a certain business news channel (at least not in my context).
+Rather, it is the very complex API-language of an Enterprise SEO company and its
+web crawler. And to write BQL effectively is to have some pretty amazing kung
+fu. I frankly probably couldn't do it without AI assistance. But I found even
+then, it was plagued by the exact same problem as them constantly thinking
+FastHTML was FastAPI. And so I fixed that problem in the exact same way. I made
+a giant tutorial on exactly what BQL was, and I injected it into the
+conversation history when the iron was hot, much like a prompt but separate from
+the prompt itself. It was an immediately-prior hot prompt injection.
+
+### The Future Vision: GPU-Powered Link Visualization
+
+And it works. It works so well that I've coded some of the most intricate logic
+of my life, all setting me up for what I really want: a link-graph visualization
+that overlays Google Search Console data, creating an experience not unlike
+Admiral Ackbar showing the Death Star hologram, liberated by Princess Leia, to
+the Rebel Alliance as they strategize. That's where we are now. The rotating
+hologram is your website's map, brought to life by data from an enterprise-level
+crawl spanning millions of edges. GPUs aren't just for AI—they're our tools in
+mapping and understanding these complex digital landscapes.
 
 ## On Focus and Discretionary Projects
 
