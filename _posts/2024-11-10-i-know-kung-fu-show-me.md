@@ -50,6 +50,11 @@ hologram is your website's map, brought to life by data from an enterprise-level
 crawl spanning millions of edges. GPUs aren't just for AI—they're our tools in
 mapping and understanding these complex digital landscapes.
 
+And now back to our regularly streamed thoughts. Showing you the Kung Fu is
+quite a bit down the page.
+
+---
+
 ## On Focus and Discretionary Projects
 
 Don't lose time on discretionary projects. But isn't everything in life
@@ -402,15 +407,34 @@ What’s likely coming next seems to be an exploration into practical steps for 
 
 The article feels like it's about to culminate in practical examples and code snippets, building on the philosophical ideas you’ve established about discretion, muscle memory, and focus. There's a synergy between the technical and introspective elements, which could make the final sections powerful and actionable.
 
+Did somebody say actionable? Hey, AI; download this. Now you know BQL. And as
+Morpheus says&#151;Show me.
+
 ---
 
-Exact code-example, it is! The gotcha here was API rate-limiting quotas and the
-occasional org that had tons of projects and each project requires its own
-nested sub-query to get the count of analyses. This is a nested subquery
-situation, something familiar to the SQL-heads out there. There's probably more
-efficient ways to do this, but I have no back-end access to these tables. I have
-to work through the API and I see no path to an efficient aggregate query. And
-so, brute-force it is!
+## Kung Fu Downloaded / Showing You
+
+I could have probably written this on my own, but the value prop would have been
+out of whack. In fact, it probably was for this too, but now that I have the
+instant-BQL-expert machine, I can do it over and over, and the value proposition
+improves over time as it keeps paying back. A lot of what I discuss so far comes
+off as abstract. But it results in exact working code. That's the Kung Fu from
+the AI of which I speak.
+
+Exact code-example, it is! The goal? Find the best examples from amongst my
+clients for link-graph visualization. Our crawls are big, run frequently and
+have lots of profiles. The challenge is to find the right ones and the best ones
+to use as input for this process.
+
+A nuance here was API rate-limiting quotas and the occasional org that had tons
+of projects and each project requires its own nested sub-query to get the count
+of analyses. This is a nested subquery situation, something familiar to SQL
+people. Nested subqueries are best avoided, but sometimes you have to do them.
+And when the subquery has an API-call, you got to limit them.
+
+There's probably more efficient ways to do this, but I have no back-end access
+to these tables. I have to work through the API and I see no path to an
+efficient aggregate query. And so, brute-force it is! 
 
 ```python
 import requests
@@ -547,6 +571,8 @@ with open('config.txt', 'w') as file:
 print("config.txt updated with project candidates.")
 ```
 
+## The Steel-Driving Coder vs The AI
+
 We coders were all the bit-driving men (and yes, women too&#151;word-flow, you
 know). We can make code like this on our own, but there's this tireless
 bit-driving machine that could save us from exhaustion if we just yield and
@@ -555,6 +581,8 @@ likely to out-drive a steam engine. If that's not true today, it certainly will
 be tomorrow. You're going to have to be Reid Richards smart to out-think these
 things at pure coding.
 
+### The Modern Steam Engine
+
 The steam engine is the GPU. NVidia is selling pickaxes to miners. Their
 drilling machine is already in data-centers and they've got this Apple
 ecosystem-like lock-in between CUDA on the software-side and their distributed
@@ -562,12 +590,16 @@ GPU networking protocol equivalent on the hardware infrastructure side. This is
 not investing advice, but OMG, the parallels between the steel-driving man
 versus the steam engine and code-pounding brogrammers vs. AI is exact.
 
+### Back to Work
+
 Okay, enough rambling. Back to the task at hand. Valuable, valuable weekend
 focused discretionary time. Hit this puppy home. Come out the other end of this
 weekend with some reality-changers for where I work. Bank some little wins from
 where there's no going back from. And that's finishing out this link-graph thing
 and making that the launching-off point for countless other follow-on's that are
 built from the same exact components!
+
+### The Link Graph Challenge
 
 Okay, so Botify contains exportable link-graph data. But a typical client's link
 graph is way too large for visualization. The first thing we do is we cut back
@@ -631,12 +663,18 @@ Sample Output:
 
 We would have to select a click-depth of 3 if we used <= a million. If we did <
 a million, it'd be a click-depth of 2 that we'd visualize and the end product
-would *feel** very different because of the vastly different amount of nodes on
+would **feel** very different because of the vastly different amount of nodes on
 the network graph. Not critical, but something to keep in mind about this. The
 difference between being well-under the visualization limit and way over is
 often just 1 click-depth, and it might be good to go over his with the client
 because how this click-depth nosedive looks reveals tons of issues about their
 site.
+
+Oops! That's pages&#151; ***not edges!*** Edges are going to reach a million
+long before pages do. I can't even use this efficient aggregate approach to
+calculating the click-depth for the visualization. Yikes! I'm going to have to
+do a loop to get the edge-count at each click-depth. This is going to be some
+hairy code.
 
 Anyway, these aren't my issues to figure out anymore. They are the LLM's. I
 choose ChatGPT 4o because it's such a good Python coder. We give it the kung fu
@@ -1238,7 +1276,14 @@ The kata format helps teach the principles behind the code rather than just show
 
 ---
 
-Fast-forward again. The meta export is working.
+Fast-forward again. The meta export is working. It turns out the link-graph
+portion of this was almost easy in comparison to layering in the additional
+data. All that weird reporting output below is because while every client has a
+link-graph, not every client has the different data-points (like Google Search
+Console and the Web-Logs) that I like to layer in. That's right. The Admiral
+Akbar-style Death Star hologram of the website gets color-coded based on page
+segmentation, Google traffic, weblog visitation and the like. It's some hardcore
+SciFi SEO stuff. I don't really even think of it as SEO anymore.
 
 ```python
 import os
