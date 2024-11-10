@@ -2132,10 +2132,10 @@ if __name__ == "__main__":
     
        depth       pagetype  compliant     reason canonical  sitemap  js_exec  \
     0      0           home       True  Indexable      True    False     True   
-    1      2  category/main       True  Indexable      True    False     True   
-    2      1  category/main       True  Indexable      True    False     True   
-    3      1  category/main       True  Indexable      True    False     True   
-    4      1  category/main       True  Indexable      True    False     True   
+    1      2            pdp       True  Indexable      True    False     True   
+    2      1            plp       True  Indexable      True    False     True   
+    3      1       category       True  Indexable      True    False     True   
+    4      1           main       True  Indexable      True    False     True   
     
        js_ok  impressions  clicks  
     0  False       123456   12345  
@@ -2556,11 +2556,11 @@ if __name__ == "__main__":
     4             https://www.example.com/site/brand-c-premium-audio-system-black/12345.p?skuId=12345   
     
        depth             pagetype  compliant     reason canonical  sitemap  \
-    0      2  path-pages/category       True  Indexable      True    False   
-    1      2           pdp/single       True  Indexable      True     True   
-    2      2           pdp/single       True  Indexable      True     True   
-    3      2        category/main       True  Indexable      True    False   
-    4      2           pdp/single       True  Indexable      True     True   
+    0      2             category       True  Indexable      True    False   
+    1      2                  pdp       True  Indexable      True     True   
+    2      2                  plp       True  Indexable      True     True   
+    3      2               review       True  Indexable      True    False   
+    4      2                 main       True  Indexable      True     True   
     
        js_exec  js_ok  impressions  clicks  
     0     True  False       12345     123   
