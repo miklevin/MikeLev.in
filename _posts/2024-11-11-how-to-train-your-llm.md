@@ -966,7 +966,7 @@ So it's building menus for input and it's creating folders for output.
 
 User interface hardly required. 
 
-Leave wedges for the more elegant things you might like to build such as a search feature to jump between link-graph visualizations for different orgs and projects. But for now, fun very close to the prototype model that you built, which is working so well. Every time I look for it I am like wow I don't know how I did that. It is still impressive and represents a lot of the baseline functionality that has to get into the new version. Don't go chasing bells and whistles.
+Leave wedges for the more elegant things you might like to build such as a search feature to jump between link-graph visualizations for different orgs and projects. But for now, stick very close to the prototype model that you built, which is working so well. Every time I look for it I am like wow I don't know how I did that. It is still impressive and represents a lot of the baseline functionality that has to get into the new version. Don't go chasing bells and whistles.
 
 ## Strategic Pre-Generation Approach
 I should prime the pump with a lot of pre-generated link graphs. That's where I've been going with the ideal input selection. People doing it themselves is going to be the exception, not the rule. Make it a perfectly fine user experience, but don't focus the magic trick on producing the link-graphs in front of people. Have been pre-generated and put a lot of your excess capacity into the fact that the world is now different. Medical diagnostic imaging of your website. This is about the audits. This is about actionable findings. The light show yes, but also creating screenshots like it's no big thing.
