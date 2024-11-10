@@ -1586,16 +1586,18 @@ config.txt updated with project candidates.
 **Rationale**: This code fetches and processes project analysis data from the Botify API, incorporating robust error handling, progressive saving, and rate limiting to efficiently handle large data requests across multiple organizations. By saving progress in `progress.pkl`, this script ensures that even if an interruption occurs, data already fetched is retained, allowing for a seamless resume without re-fetching. The delays between requests prevent rate limiting, while a final CSV output (`projects_with_multiple_analyses.csv`) and an updated `config.txt` offer a structured view of qualified projects by organization. This approach optimizes both data retrieval and analysis while ensuring a user-friendly summary for each organization.
 
 
-# Download Link-graph: This script downloads a link graph for a specified organization, project, and analysis within the Botify platform.
+# Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
 
 ```python
+# Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization
+
 # Import required libraries
 import os
-import requests
-import pandas as pd
 import time
 import json
 from pathlib import Path
+import requests
+import pandas as pd
 
 # Load configuration and API key
 config = json.load(open("config.json"))
