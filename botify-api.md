@@ -1005,10 +1005,10 @@ Data saved to pagetype_url_counts.csv
 **Rationale**: This breakdown shows URL distribution across different page types. Product Detail Pages (PDPs) typically make up the bulk of e-commerce sites, followed by Product Listing Pages (PLPs). Hub pages, blog posts and FAQs represent a smaller portion of the total URLs. This data helps identify potential structural issues and prioritize optimization efforts across different sections of the site.
 
 
-# Get Short Titles: How To Get the First 2000 URLs With Short Titles Given Pagetype
+# Get Short Titles: How To Get the First 500 URLs With Short Titles Given Pagetype
 
 ```python
-# Get the First 2000 URLs With Short Titles Given Pagetype
+# Get the First 500 URLs With Short Titles Given Pagetype
 
 import json
 import requests
@@ -1108,7 +1108,7 @@ df.head(10)
 | https://www.example.com/site/belts/34567 | 7         | - Belt Hub        | unique        | Essential belts in various styles, perfect for any outfit.      | Example Store/Apparel/Accessories/Belts                | [Belt Basics]                   | [Specifications, Similar Belts]         |
 | https://www.example.com/site/jackets/11111| 6         | - Jacket Haven    | duplicate     | Quality jackets for all seasons, unbeatable prices on top brands.| Example Store/Apparel/Outerwear/Jackets                 | [Best Jackets]                  | [Reviews, Compare Jackets, New Arrivals]|
 
-**Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 2000 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
+**Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 500 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
 
 
 # Count Short Titles: How To Count Number of URLs Having Short Titles
