@@ -962,9 +962,7 @@ most important skill right now is knowing when to back up, turn a little bit and
 change your approach. You need the wisdom of the early Roombas... not Alice!
 
 ### Minimal Viable Interface
-So it's building menus for input and it's creating folders for output. 
-
-User interface hardly required. 
+So it's building menus for input and it's creating folders for output&#151;user interface hardly even required!
 
 Leave wedges for the more elegant things you might like to build such as a search feature to jump between link-graph visualizations for different orgs and projects. But for now, stick very close to the prototype model that you built, which is working so well. Every time I look for it I am like wow I don't know how I did that. It is still impressive and represents a lot of the baseline functionality that has to get into the new version. Don't go chasing bells and whistles.
 
