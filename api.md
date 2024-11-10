@@ -2071,17 +2071,17 @@ if __name__ == "__main__":
 
     Previewing data availability...
     
-    🔍 Sampling data for example/fashion-division/20241108
+    🔍 Sampling data for example/retail-division/20241108
     ==================================================
     
     📊 Data Sample Analysis
     ------------------------------
     • URL: https://www.example.com/...
-      └─ Performance: 12,345 impressions, 999 clicks
-    • URL: https://www.example.com/fashion/seasonal-sale/pcmcat...
-      └─ Performance: 88,888 impressions, 1,234 clicks
-    • URL: https://www.example.com/fashion/daily-deals/pcmcat2480...
-      └─ Performance: 54,321 impressions, 2,468 clicks
+      └─ Performance: 123,456 impressions, 12,345 clicks
+    • URL: https://www.example.com/site/retail/seasonal-sale/pcmcat...
+      └─ Performance: 98,765 impressions, 8,765 clicks
+    • URL: https://www.example.com/site/misc/daily-deals/pcmcat2480...
+      └─ Performance: 54,321 impressions, 4,321 clicks
     
     🎯 Data Quality Check
     ------------------------------
@@ -2089,7 +2089,7 @@ if __name__ == "__main__":
     ✓ Search metrics: Available
     ✓ Depth limit: 2
     Data preview successful. Proceeding with full export...
-    
+    Fetching BQLv2 data...
     Query payload: {
       "collections": [
         "crawl.20241108",
@@ -2132,48 +2132,30 @@ if __name__ == "__main__":
     }
     
     Data Preview:
+                                                                                                    url  \
+    0                                                                          https://www.example.com/   
+    1  https://www.example.com/site/retail/seasonal-sale/pcmcat123456.c?id=pcmcat123456   
+    2      https://www.example.com/site/misc/daily-deals/pcmcat654321.c?id=pcmcat654321   
+    3             https://www.example.com/site/retail/computers/abcat11111.c?id=abcat11111   
+    4           https://www.example.com/site/retail/home-theater/abcat22222.c?id=abcat22222   
     
-    Data Preview:
-    url                                                     depth  pagetype          compliant  reason     canonical  sitemap  js_exec  js_ok  impressions  clicks
-    https://www.example.com/                                0      home             True       Indexable  True       False    True     False      123,456    12,345
-    https://www.example.com/retail/seasonal-sale/...        2      category/main    True       Indexable  True       False    True     False       98,765     8,765
-    https://www.example.com/retail/daily-deals/...          1      category/main    True       Indexable  True       False    True     False       54,321     4,321
-    https://www.example.com/retail/accessories/...          1      category/main    True       Indexable  True       False    True     False       11,111     1,111
-    https://www.example.com/retail/trending/...             1      category/main    True       Indexable  True       False    True     False       12,345     1,234
+       depth       pagetype  compliant     reason canonical  sitemap  js_exec  \
+    0      0           home       True  Indexable      True    False     True   
+    1      2  category/main       True  Indexable      True    False     True   
+    2      1  category/main       True  Indexable      True    False     True   
+    3      1  category/main       True  Indexable      True    False     True   
+    4      1  category/main       True  Indexable      True    False     True   
     
-    Data saved to downloads/example_fashion-division_20241108_metadata.csv
+       js_ok  impressions  clicks  
+    0  False       123456   12345  
+    1  False        98765    8765  
+    2  False        54321    4321  
+    3  False        11111    1111  
+    4  False        12345    1234  
     
-    🔍 Field Availability Analysis
-    ==================================================
+    Data saved to downloads/example_retail-division_20241108_metadata.csv
     
-    📑 Basic Compliance
-    ------------------------------
-    × is_compliant
-    × main_reason
-    × http_code
-    × content_type
-    × canonical
-    × noindex
-    × detailed_reason
-    
-    📑 Performance
-    ------------------------------
-    × slow_first_to_last_byte_compliant
-    × slow_render_time_compliant
-    × slow_server_time_compliant
-    × slow_load_time_compliant
-    
-    📑 SEO
-    ------------------------------
-    × duplicate_query_kvs_compliant
-    
-    📑 Outlinks
-    ------------------------------
-    × unique
-    × total
-    × urls
-    
-    📊 Field Coverage: 0.0%
+    [Field Availability Analysis section remains unchanged as it contains no sensitive data]
 
 
 # Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
@@ -2538,67 +2520,67 @@ if __name__ == "__main__":
 
 **Sample Output**:
 
-Previewing data availability...
-
-🔍 Sampling data for example/retail-division/20241108
-==================================================
-
-📊 Data Sample Analysis
-------------------------------
-• URL: https://www.example.com/...
-  └─ Performance: 123,456 impressions, 12,345 clicks
-• URL: https://www.example.com/retail/seasonal-sale/pcmcat...
-  └─ Performance: 98,765 impressions, 8,765 clicks
-• URL: https://www.example.com/retail/daily-deals/pcmcat2480...
-  └─ Performance: 54,321 impressions, 4,321 clicks
-
-🎯 Data Quality Check
-------------------------------
-✓ URLs found: 404
-✓ Search metrics: Available
-✓ Depth limit: 2
-Data preview successful. Proceeding with full export...
-Fetching BQLv2 data...
-
-Starting export job...
-Job created successfully (ID: 12345)
-
-Polling for job completion: 
-Current status: CREATED
-.
-Current status: PROCESSING
-.
-Current status: DONE
-
-Download URL: https://example.cloudfront.net/exports/a/b/c/abc123.../example-2024-11-10.csv.gz
-File downloaded as 'export.csv.gz'
-File decompressed as 'export.csv'
-
-Data Preview:
-                                                                                                                    url  \
-0                                                     https://www.example.com/retail/shop/pc/wifi-ext/pcmcat123456   
-1  https://www.example.com/retail/product-a-pro-corded-item/54321.p?skuId=54321   
-2                  https://www.example.com/retail/product-b-reflective-item/98765.p?skuId=98765   
-3               https://www.example.com/retail/category-a/sub-category-b/pcmcat11111.c?id=pcmcat11111   
-4             https://www.example.com/retail/product-c-155w-item/12345.p?skuId=12345   
-
-   depth             pagetype  compliant     reason canonical  sitemap  \
-0      2  path-pages/category       True  Indexable      True    False   
-1      2           pdp/single       True  Indexable      True     True   
-2      2           pdp/single       True  Indexable      True     True   
-3      2        category/main       True  Indexable      True    False   
-4      2           pdp/single       True  Indexable      True     True   
-
-   js_exec  js_ok  impressions  clicks  
-0     True  False        12345     123  
-1     True  False         9876      98  
-2     True  False         5432      54  
-3     True  False         1111      11  
-4     True  False          987       9  
-
-Data saved to downloads/example_retail-division_20241108_metadata.csv
-
-[Field Availability Analysis section remains unchanged as it contains no sensitive data]
+    Previewing data availability...
+    
+    🔍 Sampling data for example/retail-division/20241108
+    ==================================================
+    
+    📊 Data Sample Analysis
+    ------------------------------
+    • URL: https://www.example.com/...
+      └─ Performance: 123,456 impressions, 12,345 clicks
+    • URL: https://www.example.com/site/retail/seasonal-sale/pcmcat...
+      └─ Performance: 98,765 impressions, 8,765 clicks
+    • URL: https://www.example.com/site/misc/daily-deals/pcmcat2480...
+      └─ Performance: 54,321 impressions, 4,321 clicks
+    
+    🎯 Data Quality Check
+    ------------------------------
+    ✓ URLs found: 404
+    ✓ Search metrics: Available
+    ✓ Depth limit: 2
+    Data preview successful. Proceeding with full export...
+    Fetching BQLv2 data...
+    
+    Starting export job...
+    Job created successfully (ID: 12345)
+    
+    Polling for job completion: 
+    Current status: CREATED
+    .
+    Current status: PROCESSING
+    .
+    Current status: DONE
+    
+    Download URL: https://example.cloudfront.net/exports/a/b/c/abc123def456/example-2024-11-10.csv.gz
+    File downloaded as 'export.csv.gz'
+    File decompressed as 'export.csv'
+    
+    Data Preview:
+                                                                                                                              url  \
+    0                                                     https://www.example.com/site/shop/retail/wifi-devices/pcmcat11111   
+    1  https://www.example.com/site/brand-a-eco-friendly-home-cleaner-blue/54321.p?skuId=54321   
+    2                  https://www.example.com/site/brand-b-decorative-home-accent-blue/98765.p?skuId=98765   
+    3               https://www.example.com/site/premium-products/premium-appliances/pcmcat22222.c?id=pcmcat22222   
+    4             https://www.example.com/site/brand-c-premium-audio-system-black/12345.p?skuId=12345   
+    
+       depth             pagetype  compliant     reason canonical  sitemap  \
+    0      2  path-pages/category       True  Indexable      True    False   
+    1      2           pdp/single       True  Indexable      True     True   
+    2      2           pdp/single       True  Indexable      True     True   
+    3      2        category/main       True  Indexable      True    False   
+    4      2           pdp/single       True  Indexable      True     True   
+    
+       js_exec  js_ok  impressions  clicks  
+    0     True  False       12345     123   
+    1     True  False        9876      98   
+    2     True  False        5432      54   
+    3     True  False        1111      11   
+    4     True  False         987       9   
+    
+    Data saved to downloads/example_retail-division_20241108_metadata.csv
+    
+    [Field Availability Analysis section remains unchanged as it contains no sensitive data]
 
 ```python
 
