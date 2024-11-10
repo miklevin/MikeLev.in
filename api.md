@@ -587,7 +587,7 @@ df.head()
 **Sample Output**:
 
 
-| URL                              | Title               | Meta Description                           | H1                 |
+| url                              | title               | meta_description                           | h1                 |
 |----------------------------------|---------------------|--------------------------------------------|---------------------|
 | https://example.com/foo          | Foo Title          | This is a description of Foo.              | Foo Heading        |
 | https://example.com/bar          | Bar Overview       | Bar is a collection of great resources.    | Bar Insights       |
@@ -605,9 +605,138 @@ df.head()
 **Rationale**: This output retrieves common SEO fields (`URL`, `Title`, `Meta Description`, and `H1`) following a crawl, providing essential metadata for a foundational SEO audit. It facilitates a quick review of each page's main content signals. This example also layers in the common practice of using the `pandas` package for handling row and column data, replacing Excel and saving **.csv** files.
 <!-- #endregion -->
 
-# Query Segments: This script queries the Botify API to get segment data for a project, including page type values and URL counts.
+```python
+# List the First 500 URLs and Titles
+
+import json
+import requests
+import pandas as pd
+
+# Load configuration and API key
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+
+def format_analysis_date(analysis_slug):
+    """Convert analysis slug (e.g. '20241108' or '20241108-2') to YYYY-MM-DD format."""
+    # Strip any suffix after hyphen
+    base_date = analysis_slug.split('-')[0]
+    
+    # Insert hyphens for YYYY-MM-DD format
+    return f"{base_date[:4]}-{base_date[4:6]}-{base_date[6:8]}"
+
+def get_previous_analysis(org, project, current_analysis, api_key):
+    """Get the analysis slug immediately prior to the given one."""
+    url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
+    headers = {"Authorization": f"Token {api_key}"}
+    
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        analyses = response.json().get('results', [])
+        
+        # Get base date without suffix
+        current_base = current_analysis.split('-')[0]
+        
+        # Find the first analysis that's before our current one
+        for analysis in analyses:
+            slug = analysis['slug']
+            base_slug = slug.split('-')[0]
+            if base_slug < current_base:
+                return slug
+                
+    except requests.RequestException as e:
+        print(f"Error fetching analyses: {e}")
+        return None
+
+def get_bqlv2_data(org, project, analysis, api_key):
+    """Fetch data for URLs with titles and search console metrics, sorted by impressions."""
+    # Get date range for search console data
+    end_date = format_analysis_date(analysis)
+    prev_analysis = get_previous_analysis(org, project, analysis, api_key)
+    if prev_analysis:
+        start_date = format_analysis_date(prev_analysis)
+    else:
+        # Fallback to 7 days before if no previous analysis found
+        start_date = end_date  # You may want to subtract 7 days here
+    
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    data_payload = {
+        "collections": [
+            f"crawl.{analysis}",
+            "search_console"
+        ],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.url",
+                f"crawl.{analysis}.metadata.title.content"
+            ],
+            "metrics": [
+                "search_console.period_0.count_impressions",
+                "search_console.period_0.count_clicks"
+            ],
+            "sort": [
+                {
+                    "field": "search_console.period_0.count_impressions",
+                    "order": "desc"
+                }
+            ]
+        },
+        "periods": [
+            [start_date, end_date]
+        ]
+    }
+    
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
+    response = requests.post(url, headers=headers, json=data_payload)
+    response.raise_for_status()
+    
+    return response.json()
+
+# Run the query and load results
+data = get_bqlv2_data(org, project, analysis, api_key)
+
+# Flatten the data into a DataFrame with URL, title, and search console metrics
+columns = ["url", "title", "impressions", "clicks"]
+df = pd.DataFrame([
+    item['dimensions'] + item['metrics'] 
+    for item in data['results']
+], columns=columns)
+
+# Display the first 500 URLs and titles
+df.head(500).to_csv("first_500_urls_titles.csv", index=False)
+print("Data saved to first_500_urls_titles.csv")
+
+# Show a preview
+df.head()
+```
+
+**Sample Output**:
+
+| url                               | title              | impressions | clicks |
+|-----------------------------------|--------------------|-------------|--------|
+| https://example.com/foo           | Foo Page Title    | 1200        | 35     |
+| https://example.com/bar           | Bar Page Title    | 1150        | 40     |
+| https://example.com/baz           | Baz Page Title    | 980         | 25     |
+| https://example.com/spam          | Spam Page Title   | 850         | 30     |
+| https://example.com/eggs          | Eggs Page Title   | 700         | 20     |
+| https://example.com/foo-bar       | Foo-Bar Title     | 650         | 18     |
+| https://example.com/foo-baz       | Foo-Baz Title     | 600         | 22     |
+| https://example.com/bar-baz       | Bar-Baz Title     | 550         | 15     |
+| https://example.com/spam-eggs     | Spam-Eggs Title   | 500         | 12     |
+| https://example.com/eggs-baz      | Eggs-Baz Title    | 450         | 10     |
+
+**Rationale**: This example demonstrates a "table join" between two collections within the Botify API, combining data from both the `crawl` and `search_console` collections. It highlights how to nest metrics and sorting within the `query` field to retrieve and organize data effectively. Additionally, this example introduces the required date-range period for search console data, ensuring that impressions and clicks are analyzed over a specified timeframe. Pay careful attention to how required fields and how they are nested when building a JSON query payload.
+
+
+# Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
 ```python
+# Get Pagetype Segment Data for a Project With URL Counts
+
 import requests
 import json
 
@@ -1612,3 +1741,7 @@ Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
 ```
 
 **Rationale**: This code exports a link graph by calculating the maximum depth that limits the total number of edges to under 1,000,000, ensuring that the Botify API’s CSV export limit is not exceeded. By polling for job completion and handling potential errors, the script delivers a user-friendly and reliable process for exporting link graphs in large-scale SEO projects. The flexibility to adjust depth dynamically based on edge count allows for efficient resource use and helps teams capture optimal levels of detail in the exported link graph.
+
+```python
+
+```
