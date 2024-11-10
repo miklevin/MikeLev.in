@@ -2145,8 +2145,6 @@ if __name__ == "__main__":
     4  False        12345    1234  
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
-    
-    [Field Availability Analysis section remains unchanged as it contains no sensitive data]
 
 
 # Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
@@ -2570,8 +2568,6 @@ if __name__ == "__main__":
     4     True  False         987       9   
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
-    
-    [Field Availability Analysis section remains unchanged as it contains no sensitive data]
 
 ```python
 
