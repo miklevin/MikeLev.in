@@ -129,6 +129,8 @@ required until it is. Nice. Okay... deep breath...
 Wait, wait! Not jumping in just yet. Think through the role of each Python
 execution context.
 
+## Jupyter Notebooks Still Have a Place
+
 The Jupyter Notebook is where the fruit of yesterday's labor accumulated up.
 Specifically, all into a single notebook. The 1-and-only-1 recipient now of all
 my Botify Kung Fu knowledge. I collect and curate everything I know about the
@@ -150,6 +152,8 @@ for running under the other Python contexts.
 And this reminds me. It's one tiny sub-project to improve this documentation,
 but the iron is very, very hot from yesterday's work and if I don't grab for
 this one particular prize, I will be sorry. Ahem...
+
+## Overcoming the BQLv1 to BQLv2 Hurdle
 
 Claude, given this @botify-api.md, and this
 @https://developers.botify.com/docs/migrating-from-bqlv1-to-bqlv2 please give me
@@ -427,20 +431,28 @@ query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
 }
 ```
 
+## BQL Query Validation and Testing
+
+### Validation Status
 I really couldn't say (yet) how accurate it got the validation parts of this,
 but I know it was looking at code with working validation so I'm hopeful. It
 will all be vetted live while in use, haha! But I have plenty of sample data to
-test it on. The Botify Web UI will give BQLv1 sample code for automation, but
+test it on.
+
+### BQL Version Challenges 
+The Botify Web UI will give BQLv1 sample code for automation, but
 not BQLv2. This was a show-stopper for me for awhile, because BQLv1 burned
 through my daily employee quotas while BQLv2 didn't, but I could only get code
 examples in the former, and found the later impossible to write... haha! This is
 deep nerd irony, and this is how a nerd responds. BAM! Now I've got a converter.
 
+### Integration with LLM Training
 ...and it's wrapped into the thing that trains the frontier-model LLMs like
 ChatGPT, Claude, Gemini and Perplexity in general, and helps me with per-session
 jobs I need to do in particular by providing the on-demand kung fu expertise
 download. It's win, win, win, win... and probably a few more wins.
 
+### Link Graph Visualization System
 Ugh! Okay, so I'm expanding the logic that harvests good link-graph
 visualization candidates. It's a long-running app with a growing-list and
 growing-csv-file output. I never want to re-process things that are already
@@ -450,6 +462,7 @@ than YAML files because I don't want things like pesky colons to complicate
 matters. I add new things on this list. The process runs and adds qualifying
 child items. 
 
+### Development Environment Considerations
 I find myself bopping between these different Python code execution contexts
 based on their strengths and my needs. I wish it was unified, but different
 tools have different strengths and you just have to live with that and lean into
@@ -684,61 +697,36 @@ This creates a reliable pipeline for continuously discovering and collecting new
 
 ---
 
-Yup. That was a bit of a tangent, but you need good input data and there is a
-hunger at the company to visualize client or that. Now, I just plop in the `org`
-slug to the bottom of `candidates.txt`, run the script and it comes back with
-all the best qualifying candidate `project` slugs for that org.
+## Data Collection Process
+### Candidate Selection
+Yup. That was a bit of a tangent, but you need good input data and there is a hunger at the company to visualize client or that. Now, I just plop in the `org` slug to the bottom of `candidates.txt`, run the script and it comes back with all the best qualifying candidate `project` slugs for that org.
 
-Okay, so mid-process I switched the output filename from `config.txt` to
-`candidates.txt`. That's because the harvesting process really is only finding
-candidates for link-graph visualization, and I make a copy of that to control
-the configuration by simply deleting out everything that's not going to be
-visualized! Wow! This is friggin awesome!
+### File Organization 
+Okay, so mid-process I switched the output filename from `config.txt` to `candidates.txt`. That's because the harvesting process really is only finding candidates for link-graph visualization, and I make a copy of that to control the configuration by simply deleting out everything that's not going to be visualized! Wow! This is friggin awesome!
 
-Generally speaking, this is not a system where people will have to generate the
-link-graphs and make the clients wait. It's a system where every once in awhile
-you just refresh the link-graphs in the system and they're all just sitting
-there waiting to be clicked and visualized. This crams a lot of the complexity
-into invisible space and frees cognitive overhead to just look at the graphs and
-add insights and meaning. Okay, yup. Conceptually on the right track here. Keep
-the hound on the scent end don't let up! The link-graph game is afoot!
+## System Architecture
+### On-Demand Visualization
+Generally speaking, this is not a system where people will have to generate the link-graphs and make the clients wait. It's a system where every once in awhile you just refresh the link-graphs in the system and they're all just sitting there waiting to be clicked and visualized. This crams a lot of the complexity into invisible space and frees cognitive overhead to just look at the graphs and add insights and meaning. Okay, yup. Conceptually on the right track here. Keep the hound on the scent end don't let up! The link-graph game is afoot!
 
-Visualize with the end in mind. When you "go into work" tomorrow, what how
-should life be different. What do those interactions look like. Here's a YouTube
-video... oh... drop a deck that's shared with the whole company into Google
-Slides. Embed the YouTube video in that deck... haha! The share-all pouncers
-will bounce and BOOM! Ohhhh, this is performance art, Mike. Plan that
-performance. I started at about 6:00 AM this morning. It's now 10:30 AM. You're
-on a very good time-frame so long as you don't let yourself fall into any rabbit
-holes. Go take a break. Mull on this for a bit. The trifecta of...
+## Implementation Strategy
+### Visualization Goals
+Visualize with the end in mind. When you "go into work" tomorrow, what how should life be different. What do those interactions look like. Here's a YouTube video... oh... drop a deck that's shared with the whole company into Google Slides. Embed the YouTube video in that deck... haha! The share-all pouncers will bounce and BOOM! Ohhhh, this is performance art, Mike. Plan that performance. I started at about 6:00 AM this morning. It's now 10:30 AM. You're on a very good time-frame so long as you don't let yourself fall into any rabbit holes. Go take a break. Mull on this for a bit. The trifecta of...
 
+### Key Deliverables
 - A Google Deck / YouTube Video
-- A Ready-to-Download Link-Graph Visualizer (where the local LLM comes alive,
-  haha!)
+- A Ready-to-Download Link-Graph Visualizer (where the local LLM comes alive, haha!)
 - Seeds of many other apps planted
 
-Structure the rest of the day around this. Come out of it with answers for the
-big boss about time-to-automation of full SEO Audits. There's going to have to
-be a screen capture component to all of that. It may just be popping up a
-Puppeteer / Playwright browser window, snapping a shot and moving on. Forget
-about the actual Deck automation like Google Slides and Powerpoint. I've impaled
-myself on the altar of Sharepoint and OAuth2 enough to know there be rabbits...
-uh, I mean dragons there. NO! NO! NO! Screenshots from browser automation easy.
-Any sort of presentation-layer software integration hard. 
+## Technical Considerations
+### Automation Approach
+Structure the rest of the day around this. Come out of it with answers for the big boss about time-to-automation of full SEO Audits. There's going to have to be a screen capture component to all of that. It may just be popping up a Puppeteer / Playwright browser window, snapping a shot and moving on. Forget about the actual Deck automation like Google Slides and Powerpoint. I've impaled myself on the altar of Sharepoint and OAuth2 enough to know there be rabbits... uh, I mean dragons there. NO! NO! NO! Screenshots from browser automation easy. Any sort of presentation-layer software integration hard. 
 
-"There's your screenshots" is what I ought to say. Hey, at most maybe I can do
-what I did with [Levinux](https://levinux.com), which is the seemingly timeless
-and impervious to disruption or complication RemarkJS. Hmm, the last update was
-last year, but frankly it means it's not abandoned and that's all they need.
-Haha, a whole audit delivered in a single text-file made with one EDL-style
-transformation-query that says eff-you to both Google Slides and Powerpoint.
-That'd be a kick. Just say "it's HTML..." and look at the stakeholder with a
-blank stare not understanding what's wrong. Ah, but people have to put their
-findings in. It's a friggn Thomas Kinkade painting. Perplexity...
+### Alternative Solutions
+"There's your screenshots" is what I ought to say. Hey, at most maybe I can do what I did with [Levinux](https://levinux.com), which is the seemingly timeless and impervious to disruption or complication RemarkJS. Hmm, the last update was last year, but frankly it means it's not abandoned and that's all they need. Haha, a whole audit delivered in a single text-file made with one EDL-style transformation-query that says eff-you to both Google Slides and Powerpoint. That'd be a kick. Just say "it's HTML..." and look at the stakeholder with a blank stare not understanding what's wrong. Ah, but people have to put their findings in. It's a friggn Thomas Kinkade painting. Perplexity...
 
-**Perplexity**: Based on the search results and your comfort with programming,
-here are the potential show-stoppers when working with Google APIs, particularly
-for automating SEO audit presentations:
+## Integration Challenges
+### API Limitations
+**Perplexity**: Based on the search results and your comfort with programming, here are the potential show-stoppers when working with Google APIs, particularly for automating SEO audit presentations:
 
 1. OAuth2 Authentication:
    - Setting up and managing OAuth2 credentials can be complex[1][4].
@@ -890,3 +878,53 @@ Citations:
     [6] https://seaborn.pydata.org
     [7] https://matplotlib.org
     [8] https://www.reddit.com/r/datascience/comments/yhrlpj/python_charts_a_new_visualization_website/
+
+OK, thinking in terms of efficient, chisel strikes, and the Monday magic show. The George Carlin club bit popped into my head. I'm toiling on the weekend like a good worker. But when I'm doing is also very much about seizing the means of production. It's revolutionary in nature when you examine it closely. There is a race to get the best of genies in the best bottles. I am in that race albeit at a teensy tiny scale. They're tweaking their Medallion Fund to not let it move markets too obviously. I'm eeking out a living. 
+
+You're so close with the great Botify light show with all the parts existing and the rough edges (query-wise) worked out that if you can't cut the catapult ropes in the next few hours to release the potential you've built up on it, you're not who you think you are. Of the things I enumerated at the top of this article today, I even left out the fact that I've got a really cool distribution means. One that allows the repo to stay behind a GitHub private repo, yet still be distributed amongst my coworkers as a desktop install. Really, all the pieces are in place. I should be working on the YouTube video but no later than 6 PM. It's coming up on noon.
+
+OK, so enumerate the efficient chisel strikes you need to take from the moment this break is over. Ha ha, I'm taking my break from working. I'm still planning my next step working. This is startup cost. In my mid 50s, this is startup cost. So be it. It took this long for the LLMs to arrive and for me to get over the Dunnong Kruger effect. Or more specifically, my twist on it, which is becoming as good as I think I am. I hit the math barriers. I hate the complexity of the simultaneous barriers. I hit the abstraction going against the grain barriers. Not great at algebra, but algebra syntax ruined me for calculus. I'm sorry, but that's the d times x. We all know the multiplication symbol is implied.
+
+This is why I like Python so much. One of the many reasons. When syntax rules are being swapped out on you, you can at least see the `from pathlib import Path` that's known to turn division into slash-path appending. I wish there were required library imports at the beginning of math formulas—I'd have done much better. Unhinted context switching is not my thing. So you think I would hate me dynamically typed language like Python over a static typed one. Not really, because the first set of rules you learn win. It's not that there are kooky rules. It's that there's multiple conflicting kooky rules and like some sort of inside club you need to belong to to know how to switch context. That's math. 
+
+Efficient chisel strikes… switching Python code execution context. That's a chisel strike right there. I need to go into the land where my LLM is being trained. That's the busy loop `server.py` file. Mine is currently named `botifymograph.py`, but that hardly matters. In fact, I make sure that it doesn't. And yet everything that's needed is in that one file. Small surface area. Enough for some of the frontier LLMs like Gemini to get in one go. Others like Claude and ChatGPT can get it in chunks. Either way, there's still just one place to look. Every time they trying to worm out of knowing how something is done, you smack them around a bit and draw their attention to your imports like `from fasthtml.common import *`— per chance giving them a kung fu download of exactly what that means.
+
+So there are places to look. But nothing weird. It's all mainstream stuff they should have been trained on already. Or they soon will be. The tension between FastAPI and FastHTML is palpable. You can feel the models realizing that they have problems with their view of the world and that they simply have to come around to, because there's a ton of evidence showing they're gonna be learning some new stuff real soon and they better get with the program. For example, Starlette is part of FastHTML and a bunch of that gets dumped into global, and that's OK no matter how much the nattering nabobs of VSCode linters object. Pep8 is the hobgoblin of little minds and limited LLMs. Python functions semantically named for the HTML elements they create is also almost as honking a good idea as namespaces and we should do more of that. The world is not in a static, and in particular there's a big old backlash too ReactJS coming. 
+
+My chisel strike coding projects today which cut catapult ropes to release potential is part of that ReactJS backlash. My stuff will be recognized and start to snowball because it is both anti-patterns and effective. It is uniquely aligned with the direction in the world is turning, scratching a lot of unspoken itches as mainstream YouTube AI vomit pounds the existential crisis into us. Let's admit some of what we want to see reflected.
+
+Me: How do you make cursor AI unable to access a particular file that's held in the same repo you're working on, a folder that's open in the software?
+
+Perplexity: To prevent Cursor AI from accessing a particular file in a repository, you can use the `.cursorignore` file. This file functions similarly to `.gitignore` by specifying which files and directories should be ignored during indexing. By adding the specific file or directory path to `.cursorignore`, Cursor will not index these files, although they might still be included in AI requests if recently accessed[1]. If you need to ensure complete exclusion from AI access, consider reaching out to Cursor's support for further assistance or feature requests[1].
+
+Sources
+
+    [1] Security - Cursor https://www.cursor.com/security
+    [2] Cursor asks for over-broad Github permissions when indexing my ... https://github.com/getcursor/cursor/issues/657
+    [3] Cursor Requested Access to Other Applications: How to Discard ... https://github.com/getcursor/cursor/issues/1611
+    [4] Anyone using Cursor AI and barely writing any code ... - Reddit https://www.reddit.com/r/ChatGPTCoding/comments/1c1o8wm/anyone_using_cursor_ai_and_barely_writing_any/
+    [5] Understanding Cursor's AI feature - General https://forum.cursor.com/t/understanding-cursors-ai-feature/7204
+    [6] Cursor don't have access to external repositories or codebases https://forum.cursor.com/t/cursor-dont-have-access-to-external-repositories-or-codebases/22258
+    [7] Entire repo AI Feature - General - Cursor Community Forum https://forum.cursor.com/t/entire-repo-ai-feature/20552
+    [8] Can Cursor access all the files in my project to have a context? https://forum.cursor.com/t/can-cursor-access-all-the-files-in-my-project-to-have-a-context/16528
+
+OK, we've gotta put our Botify token text-file in that ignore file. 
+
+OK, so specifically we're talking about getting over the hump of a context switch from one python execution in environment where I've been able to create some awesome documentation for an LLM rapid training trick to the environment where I need to apply that exact same-said rapid training trick material.
+
+I have to accelerate the rate of which things get done modifying instances of the web framework. It may be time to move on from Pipulate to Botifython to Botifymograph to... No! That's a distraction. Clean up the garbage in the folder you produced rapidly into a `sort` some folder, so you will always know where to look for it if you need it, and add that folder to the `.gitignore` so you never have to worry about proprietary information getting into a repo. With the link-graph into the web framework pronto. Short circuit some perfect world processes you would like. You are building a lot of perfect components, like the nature of the queries it will be using. I've solved the stickiest problems there. Revel in the joy of putting that to use.
+
+So it's building menus for input and it's creating folders for output. 
+
+User interface hardly required. 
+
+Lee wedges for the more elegant things you might like to build such as a search feature to jump between  link-graph visualizations for different orgs and projects. But for now, fun very close to the prototype model that you built, which is working so well. Every time I look for it I am like wow I don't know how I did that. It is still impressive and represents a lot of the baseline functionality that has to get into the new version. Don't go chasing bells and whistles.
+
+I should prime the pump with a lot of pre-generated link graphs. That's where I've been going with the ideal input selection. People doing it themselves is going to be the exception, not the rule. Make it a perfectly fine user experience, but don't focus the magic trick on producing the link-graphs in front of people. Have been pre-generated and put a lot of your excess capacity into the fact that the world is now different. Medical diagnostic imaging of your website. This is about the audits. This is about actionable findings. The light show yes, but also creating screenshots like it's no big thing.
+
+Upon choosing Link-Graph from the drop-down menu at which a prompt injection occurs with the LLM, the user interface presents you a drop-down menu option of existing orgs. The LLM prompt you to pick an org and then it immediately presents you a drop-down menu of existing projects. The project selection causes a grid to appear on the screen with a cell for each intersection oven analysis slug time-period on the horizontal like a timeline, and a particular medical diagnostic metric like page type impressions, and click on the vertical. Already generated link graphs will be presented with one kind of link and once not yet generated will have a link that would generate them if clicked.
+
+This is cutting the catapult rope to release potential. This is doing link-graphs in only a way that modify can. this is not merely addressing the fact that competitor products are starting to get link graphs, but it is addressing it in such a way as it utterly annihilates their approach. It's up to me to make sure that it does. Millions of edges, and still meaningful. Immediate valuable, holistic insights and endless ability to drill down. 
+
+Efficient and effective moves don't come from out of nowhere. They come from practice and experience. And then you can kung fu download them into an LLM either local or frontier to be your AI Sherpa. 
+
