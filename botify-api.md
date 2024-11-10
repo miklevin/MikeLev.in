@@ -1418,7 +1418,7 @@ output_csv = 'projects_with_multiple_analyses.csv'
 progress_pickle = 'progress.pkl'
 
 def load_existing_config(file_path):
-    """Load organizations and projects from config.txt, preserving structure."""
+    """Load organizations and projects from candidates.txt, preserving structure."""
     orgs_with_projects = {}
     current_org = None
     with open(file_path, 'r') as file:
@@ -1494,7 +1494,7 @@ def load_existing_data(csv_path, config_path):
     return output_data, existing_projects, config_projects, config_data
 
 # Load all existing data
-output_data, existing_projects, config_projects, config_data = load_existing_data(output_csv, 'config.txt')
+output_data, existing_projects, config_projects, config_data = load_existing_data(output_csv, 'candidates.txt')
 new_entries = {org: [] for org in config_data}
 
 # Determine organizations to process based on missing projects
@@ -1547,8 +1547,7 @@ df = pd.DataFrame(output_data)
 df.to_csv(output_csv, index=False)
 print(f"\nData saved to {output_csv}")
 
-# Generate fresh config.txt from CSV data
-# Group by organization and collect all project slugs
+# Generate fresh candidates.txt from CSV data
 org_projects = {}
 for _, row in df.sort_values(['Organization', 'Project Slug']).iterrows():
     org = row['Organization']
@@ -1556,15 +1555,16 @@ for _, row in df.sort_values(['Organization', 'Project Slug']).iterrows():
         org_projects[org] = set()
     org_projects[org].add(row['Project Slug'])
 
-# Write fresh config.txt
-with open('config.txt', 'w') as file:
+# Write fresh candidates.txt
+with open('candidates.txt', 'w') as file:
     for org in sorted(org_projects.keys()):
         file.write(f"{org}\n")
         for project in sorted(org_projects[org]):
             file.write(f"    {project}\n")
         file.write("\n")  # Add blank line between organizations for readability
 
-print("\nConfig.txt regenerated from CSV data.")
+print("\nCandidates.txt regenerated from CSV data.")
+
 ```
 
 **Sample Output:**
@@ -1588,16 +1588,16 @@ print("\nConfig.txt regenerated from CSV data.")
         Analysis count: 12, Most recent analysis: 20241105
     
     Data saved to projects_with_multiple_analyses.csv
-    Config.txt regenerated from CSV data.
+    candidates.txt regenerated from CSV data.
 
 **Rationale**: This script builds a dataset of Botify projects suitable for link-graph visualization by:
-1. Reading organizations from config.txt
+1. Reading organizations from candidates.txt
 2. Fetching all projects for each organization
 3. Identifying projects with multiple analyses (2+)
-4. Saving results to CSV and regenerating config.txt
+4. Saving results to CSV and regenerating candidates.txt
 5. Using rate limiting and progress tracking to handle interruptions
 
-The result is a clean, deduplicated dataset of projects with sufficient historical data for meaningful link analysis, which can be continuously expanded by adding new organizations to config.txt.
+The result is a clean, deduplicated dataset of projects with sufficient historical data for meaningful link analysis, which can be continuously expanded by adding new organizations to candidates.txt.
 
 
 # Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
