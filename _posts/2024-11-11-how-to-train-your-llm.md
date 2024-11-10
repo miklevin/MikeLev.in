@@ -893,9 +893,9 @@ So there are places to look. But nothing weird. It's all mainstream stuff they s
 
 My chisel strike coding projects today which cut catapult ropes to release potential is part of that ReactJS backlash. My stuff will be recognized and start to snowball because it is both anti-patterns and effective. It is uniquely aligned with the direction in the world is turning, scratching a lot of unspoken itches as mainstream YouTube AI vomit pounds the existential crisis into us. Let's admit some of what we want to see reflected.
 
-Me: How do you make cursor AI unable to access a particular file that's held in the same repo you're working on, a folder that's open in the software?
+**Me**: How do you make cursor AI unable to access a particular file that's held in the same repo you're working on, a folder that's open in the software?
 
-Perplexity: To prevent Cursor AI from accessing a particular file in a repository, you can use the `.cursorignore` file. This file functions similarly to `.gitignore` by specifying which files and directories should be ignored during indexing. By adding the specific file or directory path to `.cursorignore`, Cursor will not index these files, although they might still be included in AI requests if recently accessed[1]. If you need to ensure complete exclusion from AI access, consider reaching out to Cursor's support for further assistance or feature requests[1].
+**Perplexity**: To prevent Cursor AI from accessing a particular file in a repository, you can use the `.cursorignore` file. This file functions similarly to `.gitignore` by specifying which files and directories should be ignored during indexing. By adding the specific file or directory path to `.cursorignore`, Cursor will not index these files, although they might still be included in AI requests if recently accessed[1]. If you need to ensure complete exclusion from AI access, consider reaching out to Cursor's support for further assistance or feature requests[1].
 
 Sources
 
@@ -909,6 +909,9 @@ Sources
     [8] Can Cursor access all the files in my project to have a context? https://forum.cursor.com/t/can-cursor-access-all-the-files-in-my-project-to-have-a-context/16528
 
 OK, we've gotta put our Botify token text-file in that ignore file. 
+
+    vim .cursorignore
+    botify_token.txt
 
 OK, so specifically we're talking about getting over the hump of a context switch from one python execution in environment where I've been able to create some awesome documentation for an LLM rapid training trick to the environment where I need to apply that exact same-said rapid training trick material.
 
@@ -928,3 +931,81 @@ This is cutting the catapult rope to release potential. This is doing link-graph
 
 Efficient and effective moves don't come from out of nowhere. They come from practice and experience. And then you can kung fu download them into an LLM either local or frontier to be your AI Sherpa. 
 
+---
+
+Ugh! I'm fading from exhaustion and things I ought to know by habit and in
+muscle memory are fading. I have to force synaptic re-connections. I have to
+force hard-won habits to resurface. I feel I'm on the edge of a major
+breakthrough and I have to push with all the force I can muster. A lot of our
+newfound power is bound up in keystrokes where the leader-key has changed.
+That's been part of the general move from `vim` to `nvim`, and that in itself is
+insightful and telling. `vim` tends to recycle the frequently-used ad hoc macro
+keys that use the `@` symbol... your macro is @a or @b, and that makes sense.
+But it's also an extra press on `Shift` which doesn't help, and it's also the
+macro-bank you use for on-the-fly recording and playback of macros, so the ones
+you want hanging around all the time frequently get overwritten by the once
+you're doing on a per-session basis. NeoVim (nvim) has greatly moved to the `\`
+leader-key for macros. 
+
+you can still use `@x`, but for whatever reason, the backslash character has
+caught on with nvim, and it does make sense because it's a very easy-to-reach
+underutilized key that doesn't require pressing the `Shift` modifier. And so
+when moving from vim to nvim, there's a serious muscle memory remapping, and
+while ultimately I do think it's a good idea, it's a muscle memory regression
+vulnerability when you get tired. That's what's happening to me now, so I'm
+thinking out loud to power through it. It's only 1:00 PM and I'm not done. I
+have a big push to do to come out of this tomorrow in a no going back better
+place. I'm on the edge of it and can feel it. So forge forward like the older
+Roombas, backing up, turning a bit, and moving forward again for a random walk
+zigzag pattern. Even exhaustion can't stop you, haha! Okay... so, that algorithm
+goes something like...
+
+Review your macros. Your muscle memory may have forgotten them, but your
+fixed-location file hasn't. And it's barely even a fixed location, because I'm
+using a symbolic link there to keep my NeoVim configuration file in a git repo.
+But I know enough to pinpoint the pertinents. First, we can get into where it's
+saved by just cd'ing there...
+
+    cd ~/.config/nvim
+
+Ha, even exhausted, that knowledge is ingrained. Good! Next is tracing the
+symbolic link that I know resides within...
+
+    (nix) [mike@nixos:~/.config/nvim]$ ls -la
+    total 8
+    drwxr-xr-x  2 root root  4096 Nov  9 05:07 .
+    drwx------ 29 mike users 4096 Nov 10 08:08 ..
+    lrwxrwxrwx  1 root root    31 Nov  9 05:07 init.lua -> /home/mike/repos/nixos/init.lua
+    (nix) [mike@nixos:~/.config/nvim]$
+
+Ha! Gotcha! Now we nvim that file. Talk about self-referential!
+
+Now I can copy my `init.lua` into my copy-buffer with an alias I have set up:
+
+    xc init.lua
+
+And now I can have ChatGPT 4o explain to me my `\` leader-key macros. Even an
+exhausted mind can understand this!
+
+**4o**: Your Neovim setup is rich with custom mappings, particularly using the `leader` key (mapped to `\` by default) to organize and execute macros, primarily for text processing, Git operations, and note management. Here's a breakdown of the key `leader` mappings:
+
+1. **`\j`** - **New Journal Entry**: This macro runs `new_journal_entry()` to locate a pre-set marker in `journal.txt`, insert a timestamped entry, and switch to insert mode.
+
+2. **`\h`** - **Format Selected Text with Ollama AI**: This visual mode mapping runs `ollama_format()`, passing the selected text to an external Python script (`ai.py`). The output replaces the selected text with AI-generated content.
+
+3. **`\s`** - **Correct Misspelling**: Executes `correct_misspelling()` to auto-correct the misspelling preceding the cursor.
+
+4. **`\g`** - **Git Commit and Push**: Runs `git_commit_push()` to save changes, stage the current file, generate a commit message using `ai.py` if available, and push to the repository. This also creates a split window displaying Git output.
+
+5. **`\p`** - **Import Notes**: Executes `import_notes()` to pull notes from SimpleNote, appending content from `simplenote.md` into the buffer.
+
+6. **`\d`** - **Delete Notes**: Runs `delete_notes()`, executing a Python script (`permanently_delete_notes.py`) for note deletion.
+
+7. **`\b`** - **Bold Dialogue Speaker**: In `bold_dialogue_speaker()`, this finds the next speaker in dialogue format and bolds the speaker's name (up to four words). It advances the cursor and notifies on success.
+
+8. **`\y`** - **Highlight/Process Selection or Paragraph**:
+   - Visual mode: Highlights selected text briefly or processes the paragraph using the AI to generate a headline. These commands use similar mappings for slight differences in context.
+
+9. **`\f`** - **Remove Code Filepath**: In `remove_code_filepath()`, this searches for code blocks containing file paths after the language identifier and removes the file path, leaving just the language type.
+
+Each of these mappings provides quick access to common tasks, structured to minimize command repetition and enhance editing productivity within Neovim, especially for AI-based content processing and Git management.
