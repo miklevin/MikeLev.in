@@ -1744,6 +1744,433 @@ Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
 
 **Rationale**: This code exports a link graph by calculating the maximum depth that limits the total number of edges to under 1,000,000, ensuring that the Botify API’s CSV export limit is not exceeded. By polling for job completion and handling potential errors, the script delivers a user-friendly and reliable process for exporting link graphs in large-scale SEO projects. The flexibility to adjust depth dynamically based on edge count allows for efficient resource use and helps teams capture optimal levels of detail in the exported link graph.
 
-```python
 
+# Check Link-Graph: How To Check What Data Is Available to Enhance Link-Graph Visualization.
+
+```python
+import os
+import json
+import requests
+import pandas as pd
+from pathlib import Path
+from datetime import datetime, timedelta
+from typing import List
+
+# Load configuration and API key
+headers = {
+    "Authorization": f"Token {open('botify_token.txt').read().strip()}",
+    "Content-Type": "application/json"
+}
+
+def preview_data(org, project, analysis, depth=1):
+    """Preview data availability before committing to full download"""
+    # Get analysis date from the slug (assuming YYYYMMDD format)
+    analysis_date = datetime.strptime(analysis, '%Y%m%d')
+    # Calculate period start (7 days before analysis date)
+    period_start = (analysis_date - timedelta(days=7)).strftime('%Y-%m-%d')
+    period_end = analysis_date.strftime('%Y-%m-%d')
+    
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    data_payload = {
+        "collections": [
+            f"crawl.{analysis}",
+            "search_console"
+        ],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.url"
+            ],
+            "metrics": [
+                "search_console.period_0.count_impressions",
+                "search_console.period_0.count_clicks"
+            ],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            },
+            "sort": [
+                {
+                    "field": "search_console.period_0.count_impressions",
+                    "order": "desc"
+                }
+            ]
+        },
+        "periods": [
+            [
+                period_start,
+                period_end
+            ]
+        ]
+    }
+
+    print(f"\n🔍 Sampling data for {org}/{project}/{analysis}")
+    print("=" * 50)
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    if response.status_code != 200:
+        print("❌ Preview failed:", response.status_code)
+        return False
+        
+    data = response.json()
+    if not data.get('results'):
+        print("⚠️  No preview data available")
+        return False
+        
+    print("\n📊 Data Sample Analysis")
+    print("-" * 30)
+    metrics_found = 0
+    for result in data['results'][:3]:  # Show just top 3 for cleaner output
+        url = result['dimensions'][0]
+        impressions = result['metrics'][0]
+        clicks = result['metrics'][1]
+        metrics_found += bool(impressions or clicks)
+        print(f"• URL: {url[:60]}...")
+        print(f"  └─ Performance: {impressions:,} impressions, {clicks:,} clicks")
+    
+    print("\n🎯 Data Quality Check")
+    print("-" * 30)
+    print(f"✓ URLs found: {len(data['results'])}")
+    print(f"✓ Search metrics: {'Available' if metrics_found else 'Not found'}")
+    print(f"✓ Depth limit: {depth}")
+    
+    return True
+
+def get_bqlv2_data(org, project, analysis):
+    """Fetch data based on BQLv2 query for a specific Botify analysis."""
+    collection = f"crawl.{analysis}"
+    
+    # Calculate dates
+    analysis_date = datetime.strptime(analysis, '%Y%m%d')
+    period_start = (analysis_date - timedelta(days=7)).strftime('%Y-%m-%d')
+    period_end = analysis_date.strftime('%Y-%m-%d')
+    
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    # Base dimensions that should always be available in crawl
+    base_dimensions = [
+        f"{collection}.url",
+        f"{collection}.depth",
+    ]
+    
+    # Optional dimensions that might not be available
+    optional_dimensions = [
+        f"{collection}.segments.pagetype.value",
+        f"{collection}.compliant.is_compliant",
+        f"{collection}.compliant.main_reason",
+        f"{collection}.canonical.to.equal",
+        f"{collection}.sitemaps.present",
+        f"{collection}.js.rendering.exec",
+        f"{collection}.js.rendering.ok"
+    ]
+    
+    # Optional metrics from other collections
+    optional_metrics = [
+        "search_console.period_0.count_impressions",
+        "search_console.period_0.count_clicks"
+    ]
+    
+    # First, let's check which collections are available
+    collections = [collection]  # Using full collection name
+    try:
+        # We could add an API call here to check available collections
+        # For now, let's assume search_console might be available
+        collections.append("search_console")
+    except Exception as e:
+        print(f"Search Console data not available: {e}")
+    
+    data_payload = {
+        "collections": collections,
+        "query": {
+            "dimensions": base_dimensions + optional_dimensions,
+            "metrics": optional_metrics if "search_console" in collections else [],
+            "filters": {
+                "field": f"{collection}.depth",
+                "predicate": "lte",
+                "value": 2
+            },
+            "sort": [
+                {
+                    "field": "search_console.period_0.count_impressions" if "search_console" in collections else f"{collection}.depth",
+                    "order": "desc" if "search_console" in collections else "asc"
+                }
+            ]
+        },
+        "periods": [[period_start, period_end]] if "search_console" in collections else None
+    }
+
+    print(f"Query payload: {json.dumps(data_payload, indent=2)}")
+    response = requests.post(url, headers=headers, json=data_payload)
+    
+    if response.status_code != 200:
+        print(f"Error response: {response.text}")
+        response.raise_for_status()
+    
+    data = response.json()
+    
+    # Define all possible columns
+    all_columns = ['url', 'depth', 'pagetype', 'compliant', 'reason', 'canonical', 
+                  'sitemap', 'js_exec', 'js_ok', 'impressions', 'clicks']
+    
+    # Create DataFrame with available data
+    results = []
+    for item in data['results']:
+        # Fill missing dimensions/metrics with None
+        row = item['dimensions']
+        if 'metrics' in item:
+            row.extend(item['metrics'])
+        while len(row) < len(all_columns):
+            row.append(None)
+        results.append(row)
+    
+    df = pd.DataFrame(results, columns=all_columns)
+    
+    return df
+
+def fetch_fields(org: str, project: str, collection: str) -> List[str]:
+    """
+    Fetch available fields for a given collection from the Botify API.
+    
+    Args:
+        org: Organization slug
+        project: Project slug  
+        collection: Collection name (e.g. 'crawl.20241108')
+        
+    Returns:
+        List of field IDs available in the collection
+    """
+    fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
+    
+    try:
+        response = requests.get(fields_url, headers=headers)
+        response.raise_for_status()
+        fields_data = response.json()
+        return [
+            field['id'] 
+            for dataset in fields_data.get('datasets', [])
+            for field in dataset.get('fields', [])
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching fields for collection '{collection}': {e}")
+        return []
+
+def check_compliance_fields(org, project, analysis):
+    """Check available compliance fields in a more structured way."""
+    collection = f"crawl.{analysis}"
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    # Group compliance fields by category
+    compliance_categories = {
+        'Basic Compliance': [
+            'compliant.is_compliant',
+            'compliant.main_reason',
+            'compliant.reason.http_code',
+            'compliant.reason.content_type',
+            'compliant.reason.canonical',
+            'compliant.reason.noindex',
+            'compliant.detailed_reason'
+        ],
+        'Performance': [
+            'scoring.issues.slow_first_to_last_byte_compliant',
+            'scoring.issues.slow_render_time_compliant',
+            'scoring.issues.slow_server_time_compliant',
+            'scoring.issues.slow_load_time_compliant'
+        ],
+        'SEO': [
+            'scoring.issues.duplicate_query_kvs_compliant'
+        ],
+        'Outlinks': [
+            'outlinks_errors.non_compliant.nb.follow.unique',
+            'outlinks_errors.non_compliant.nb.follow.total',
+            'outlinks_errors.non_compliant.urls'
+        ]
+    }
+    
+    print("\n🔍 Field Availability Analysis")
+    print("=" * 50)
+    available_count = 0
+    total_count = sum(len(fields) for fields in compliance_categories.values())
+    
+    available_fields = []
+    for category, fields in compliance_categories.items():
+        available_in_category = 0
+        print(f"\n📑 {category}")
+        print("-" * 30)
+        for field in fields:
+            full_field = f"{collection}.{field}"
+            # Test field availability with a minimal query
+            test_query = {
+                "collections": [collection],
+                "query": {
+                    "dimensions": [full_field],
+                    "filters": {"field": f"{collection}.depth", "predicate": "eq", "value": 0}
+                }
+            }
+            
+            try:
+                response = requests.post(url, headers=headers, json=test_query)
+                if response.status_code == 200:
+                    available_in_category += 1
+                    available_count += 1
+                    print(f"✓ {field.split('.')[-1]}")
+                    available_fields.append(field)
+                else:
+                    print(f"× {field.split('.')[-1]}")
+            except Exception as e:
+                print(f"? {field.split('.')[-1]} (error checking)")
+    
+    coverage = (available_count / total_count) * 100
+    print(f"\n📊 Field Coverage: {coverage:.1f}%")
+    return available_fields
+
+def main():
+    """Main execution logic"""
+    try:
+        with open('config.json') as f:
+            config = json.load(f)
+    except FileNotFoundError:
+        print("Error: config.json file not found")
+        return
+    except json.JSONDecodeError:
+        print("Error: config.json is not valid JSON")
+        return
+    
+    org = config.get('org')
+    project = config.get('project')
+    analysis = config.get('analysis')
+    
+    if not all([org, project, analysis]):
+        print("Error: Missing required fields in config.json (org, project, analysis)")
+        return
+    
+    print("Previewing data availability...")
+    if preview_data(org, project, analysis, depth=2):
+        print("Data preview successful. Proceeding with full export...")
+        print("Fetching BQLv2 data...")
+        df = get_bqlv2_data(org, project, analysis)
+        print("\nData Preview:")
+        print(df.head())
+
+        # Save to CSV
+        Path("downloads").mkdir(parents=True, exist_ok=True)
+        output_file = f"downloads/{org}_{project}_{analysis}_metadata.csv"
+        df.to_csv(output_file, index=False)
+        print(f"\nData saved to {output_file}")
+        
+        # Use check_compliance_fields
+        check_compliance_fields(org, project, analysis)
+    else:
+        print("Data preview failed. Please check configuration and try again.")
+
+if __name__ == "__main__":
+    main()
 ```
+
+**Sample Output**:
+
+Previewing data availability...
+
+🔍 Sampling data for example/fashion-division/20241108
+==================================================
+
+📊 Data Sample Analysis
+------------------------------
+• URL: https://www.example.com/...
+  └─ Performance: 12,345 impressions, 999 clicks
+• URL: https://www.example.com/fashion/seasonal-sale/pcmcat...
+  └─ Performance: 88,888 impressions, 1,234 clicks
+• URL: https://www.example.com/fashion/daily-deals/pcmcat2480...
+  └─ Performance: 54,321 impressions, 2,468 clicks
+
+🎯 Data Quality Check
+------------------------------
+✓ URLs found: 404
+✓ Search metrics: Available
+✓ Depth limit: 2
+Data preview successful. Proceeding with full export...
+
+Query payload: {
+  "collections": [
+    "crawl.20241108",
+    "search_console"
+  ],
+  "query": {
+    "dimensions": [
+      "crawl.20241108.url",
+      "crawl.20241108.depth",
+      "crawl.20241108.segments.pagetype.value",
+      "crawl.20241108.compliant.is_compliant",
+      "crawl.20241108.compliant.main_reason",
+      "crawl.20241108.canonical.to.equal",
+      "crawl.20241108.sitemaps.present",
+      "crawl.20241108.js.rendering.exec",
+      "crawl.20241108.js.rendering.ok"
+    ],
+    "metrics": [
+      "search_console.period_0.count_impressions",
+      "search_console.period_0.count_clicks"
+    ],
+    "filters": {
+      "field": "crawl.20241108.depth",
+      "predicate": "lte",
+      "value": 2
+    },
+    "sort": [
+      {
+        "field": "search_console.period_0.count_impressions",
+        "order": "desc"
+      }
+    ]
+  },
+  "periods": [
+    [
+      "2024-11-01",
+      "2024-11-08"
+    ]
+  ]
+}
+
+Data Preview:
+
+| url | depth | pagetype | compliant | reason | canonical | sitemap | js_exec | js_ok | impressions | clicks |
+|-----|-------|----------|-----------|---------|-----------|----------|----------|--------|-------------|---------|
+| https://www.example.com/ | 0 | home | True | Indexable | True | False | True | False | 12,345 | 999 |
+| https://www.example.com/fashion/seasonal-sale/... | 2 | category/main | True | Indexable | True | False | True | False | 88,888 | 1,234 |
+| https://www.example.com/fashion/daily-deals/... | 1 | category/main | True | Indexable | True | False | True | False | 54,321 | 2,468 |
+| https://www.example.com/fashion/accessories/... | 1 | category/main | True | Indexable | True | False | True | False | 11,111 | 3,333 |
+| https://www.example.com/fashion/trending/... | 1 | category/main | True | Indexable | True | False | True | False | 77,777 | 4,321 |
+
+Data saved to downloads/example_fashion-division_20241108_metadata.csv
+
+🔍 Field Availability Analysis
+==================================================
+
+📑 Basic Compliance
+------------------------------
+× is_compliant
+× main_reason
+× http_code
+× content_type
+× canonical
+× noindex
+× detailed_reason
+
+📑 Performance
+------------------------------
+× slow_first_to_last_byte_compliant
+× slow_render_time_compliant
+× slow_server_time_compliant
+× slow_load_time_compliant
+
+📑 SEO
+------------------------------
+× duplicate_query_kvs_compliant
+
+📑 Outlinks
+------------------------------
+× unique
+× total
+× urls
+
+📊 Field Coverage: 0.0%
