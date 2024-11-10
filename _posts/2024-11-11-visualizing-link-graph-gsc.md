@@ -594,3 +594,639 @@ difference between being well-under the visualization limit and way over is
 often just 1 click-depth, and it might be good to go over his with the client
 because how this click-depth nosedive looks reveals tons of issues about their
 site.
+
+Anyway, these aren't my issues to figure out anymore. They are the LLM's. I
+choose ChatGPT 4o because it's such a good Python coder. We give it the kung fu
+download and a very particular prompt, and lo-and-behold a link-graph query with
+the depth-selection, download, decompression and all! Now in all fairness, it
+was a really good prompt as I know how to do this already, because this query
+was the genesis of it all.
+
+```python
+# Import required libraries
+import os
+import requests
+import pandas as pd
+import time
+import json
+from pathlib import Path
+
+# Load configuration and API key
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+analysis = config['analysis']
+
+# Define API headers
+headers = {
+    "Authorization": f"Token {api_key}",
+    "Content-Type": "application/json"
+}
+
+# Determine optimal click depth for link graph export
+def find_optimal_depth(org, project, analysis, max_edges=1000000):
+    """
+    Determine the highest depth for which the number of edges does not exceed max_edges.
+    """
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    session = requests.Session()
+    previous_edges = 0
+
+    for depth in range(1, 10):
+        data_payload = {
+            "collections": [f"crawl.{analysis}"],
+            "query": {
+                "dimensions": [],
+                "metrics": [{"function": "sum", "args": [f"crawl.{analysis}.outlinks_internal.nb.total"]}],
+                "filters": {"field": f"crawl.{analysis}.depth", "predicate": "lte", "value": depth},
+            },
+        }
+
+        response = session.post(url, headers=headers, json=data_payload)
+        data = response.json()
+        edges = data["results"][0]["metrics"][0]
+
+        print(f"Depth {depth}: {edges:,} edges")
+
+        if edges > max_edges or edges == previous_edges:
+            return depth - 1 if depth > 1 else depth, previous_edges
+
+        previous_edges = edges
+
+    return depth, previous_edges
+
+# Export link graph to CSV
+def export_link_graph(org, project, analysis, chosen_depth, save_path="downloads"):
+    """
+    Export link graph up to the chosen depth level and save as a CSV.
+    """
+    url = "https://api.botify.com/v1/jobs"
+    data_payload = {
+        "job_type": "export",
+        "payload": {
+            "username": org,
+            "project": project,
+            "connector": "direct_download",
+            "formatter": "csv",
+            "export_size": 1000000,
+            "query": {
+                "collections": [f"crawl.{analysis}"],
+                "query": {
+                    "dimensions": [
+                        "url",
+                        f"crawl.{analysis}.outlinks_internal.graph.url",
+                    ],
+                    "metrics": [],
+                    "filters": {"field": f"crawl.{analysis}.depth", "predicate": "lte", "value": chosen_depth},
+                },
+            },
+        }
+    }
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    export_job_details = response.json()
+    job_url = f"https://api.botify.com{export_job_details.get('job_url')}"
+
+    # Polling for job completion
+    attempts = 300
+    delay = 3
+    while attempts > 0:
+        time.sleep(delay)
+        response_poll = requests.get(job_url, headers=headers)
+        job_status_details = response_poll.json()
+        if job_status_details["job_status"] == "DONE":
+            download_url = job_status_details["results"]["download_url"]
+            save_as_filename = Path(save_path) / f"{org}_{project}_{analysis}_linkgraph_depth-{chosen_depth}.csv"
+            download_file(download_url, save_as_filename)
+            return save_as_filename
+        elif job_status_details["job_status"] == "FAILED":
+            print("Export job failed.")
+            return None
+        print(".", end="", flush=True)
+        attempts -= 1
+
+    print("Unable to complete download attempts successfully.")
+    return None
+
+# Download file function
+def download_file(url, save_path):
+    """
+    Download a file from a URL to a specified local path.
+    """
+    response = requests.get(url, stream=True)
+    with open(save_path, "wb") as file:
+        for chunk in response.iter_content(chunk_size=8192):
+            file.write(chunk)
+    print(f"\nFile downloaded as '{save_path}'")
+
+# Main execution
+print("Determining optimal depth for link graph export...")
+chosen_depth, final_edges = find_optimal_depth(org, project, analysis)
+print(f"Using depth {chosen_depth} with {final_edges:,} edges for export.")
+
+# Make sure the downloads folder exists
+downloads_folder = Path("downloads")
+downloads_folder.mkdir(parents=True, exist_ok=True)
+
+print("Starting link graph export...")
+link_graph_path = export_link_graph(org, project, analysis, chosen_depth, save_path="downloads")
+
+if link_graph_path:
+    print(f"Link graph saved to: {link_graph_path}")
+else:
+    print("Link graph export failed.")
+```
+
+**Sample Output**:
+
+```
+Determining optimal depth for link graph export...
+Depth 1: 50,000 edges
+Depth 2: 120,000 edges
+Depth 3: 500,000 edges
+Depth 4: 1,200,000 edges
+Using depth 3 with 500,000 edges for export.
+Starting link graph export...
+Polling for job completion: ...
+Download URL: https://botify-export-url.com/file.csv
+File downloaded as 'downloads/org_project_analysis_linkgraph_depth-3.csv'
+Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
+```
+
+**Rationale**: This code exports a link graph by calculating the maximum depth that limits the total number of edges to under 1,000,000, ensuring that the Botify API’s CSV export limit is not exceeded. By polling for job completion and handling potential errors, the script delivers a user-friendly and reliable process for exporting link graphs in large-scale SEO projects. The flexibility to adjust depth dynamically based on edge count allows for efficient resource use and helps teams capture optimal levels of detail in the exported link graph.
+
+---
+
+But now that I have that most critical query out of the way (I still have to do
+the meta-data follow-up that gets page segmentation and Google Search Console
+data), the iron is hot to extract some rules out of the LLM so humans have some
+hope of doing this sort of thing on their own, and that LLMs have even better
+guidance in the future. I switched to Gemini Advanced due to the sheer volume of
+collections and field names in the Botify system. It's way too large for most
+models, including the latest ChatGPT's from OpenAI. So I'm using Gemini to seed
+the process...
+
+---
+
+**Gemini-Advanced**: 
+
+## BQL Query Building Rules and Guidelines
+
+**Understanding the Structure**
+
+* **Collections:** The foundation of your query. Specify the data source, like `crawl.20241101` for the November 1st crawl.
+* **Query:** The heart of BQL. Contains `dimensions`, `metrics`, `filters`, and `sort`.
+* **Dimensions:** Fields to group by (e.g., `segments.pagetype.value` for page type).
+* **Metrics:** Data to aggregate (e.g., `crawl.20241101.count_urls_crawl` for URL count).
+* **Filters:** Conditions to narrow down data (e.g., `crawl.20241101.depth` for click depth).
+* **Sort:** Order of results (e.g., `crawl.20241101.metadata.title.len` to sort by title length).
+
+**Building Queries**
+
+1. **Start with the Collection:**  Choose the relevant collection based on the data you need (e.g., `crawl.20241101`, `logs`, `generic.QueryMaskML.20241101`).
+2. **Define Dimensions:** Select the fields you want to analyze (e.g., `segments.pagetype.value`, `crawl.20241101.depth`).
+3. **Choose Metrics:** Specify the data you want to aggregate for each dimension (e.g., `crawl.20241101.count_urls_crawl`, `crawl.20241101.metadata.title.len`).
+4. **Apply Filters:** Refine your data by adding conditions (e.g., `crawl.20241101.scoring.issues.title_len`).
+5. **Set Sorting:** Order your results for easier analysis (e.g., sort by `crawl.20241101.metadata.title.len` in ascending order).
+
+**Example: Find Pages with Short Titles**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "url",
+      "crawl.20241101.metadata.title.len"
+    ],
+    "metrics": [],
+    "filters": {
+      "field": "crawl.20241101.scoring.issues.title_len",
+      "predicate": "eq",
+      "value": true
+    },
+    "sort": [
+      {
+        "field": "crawl.20241101.metadata.title.len",
+        "order": "asc"
+      }
+    ]
+  }
+}
+```
+
+**Tips and Best Practices**
+
+* **Use the Documentation:** Refer to the BQL documentation and the `List Fields` output to discover available fields and metrics.
+* **Test with Small Queries:** Start with simple queries to understand the data structure before building complex ones.
+* **Validate Your Syntax:** Ensure your JSON structure is correct to avoid errors.
+* **Manage Rate Limits:** Use delays between requests to prevent exceeding API limits.
+* **Save Your Progress:** For large tasks, save intermediate results to avoid data loss.
+
+By following these rules and guidelines, you can effectively leverage BQL to extract valuable insights from your Botify projects.
+
+---
+
+Okay, that was a first pass dumping everything in and asking for a general
+guideline. Now I'm prodding it to be beefed out a bit. I honestly don't know how
+accurate the below stuff is, but I wanted to capture a bunch of it while the
+iron is hot. This was dumping Gemini's getting-started document into ChatGPT 4o
+which had just done a lot of BQL stuff so has it fresh in the context window.
+I'm hoping applying this on top of the Gemini-seeded document will cause flowers
+to blossom. But it may all be hallucinations. I'll parse through it later to see
+what should be included in the kung fu download.
+
+---
+
+**ChatGPT 4o**: 
+
+## BQL Query Building Rules and Guidelines
+
+BQL (Botify Query Language) is a powerful API interface for retrieving and analyzing structured data within the Botify platform. This guide covers essential query components, key structures, and sample use cases to help users make the most of BQL's capabilities.
+
+---
+
+### **Understanding the Structure**
+
+BQL queries are constructed using key elements that define how data is selected, filtered, grouped, and ordered. Understanding each of these components is crucial to crafting effective queries.
+
+- **Collections:** The datasets that serve as your query sources. Collections range from crawl data (`crawl.20241101`) to integration data like `logs`, `generic.QueryMaskML.YYYYMMDD`, and `web_vitals.field_data`.
+- **Query:** The main structure, containing `dimensions`, `metrics`, `filters`, and `sort` components.
+- **Dimensions:** These fields allow grouping of data, such as by `segments.pagetype.value` (page type), `url` (URL), or `depth` (click depth).
+- **Metrics:** Aggregated data points like counts or sums. Example metrics include `count_urls_crawl` (total URLs), `metadata.title.len` (title length), and `scoring.issues` for quality metrics.
+- **Filters:** Conditions to refine results. Common filters include `depth` (to filter by click depth), `scoring.issues` (to flag quality issues), and custom flags based on dimensions.
+- **Sort:** Defines the order of results, essential for prioritizing or visualizing high-impact data (e.g., sorting by `metadata.title.len` in ascending order).
+
+---
+
+### **Building Queries Step-by-Step**
+
+Here’s a step-by-step process to build effective BQL queries tailored to your needs:
+
+1. **Select the Collection:** Choose the primary collection that aligns with your analysis needs. For example, use `crawl.20241101` for the November 1st crawl data, `logs` for server log data, or `web_vitals.field_data` for Core Web Vitals.
+
+2. **Define Dimensions:** Identify the fields you need for grouping or categorizing. For example:
+   - `segments.pagetype.value` to analyze data by page type.
+   - `depth` to group by click depth.
+   - `metadata.title.quality` for evaluating title quality across pages.
+
+3. **Specify Metrics:** Choose numerical data points that provide insights:
+   - `count_urls_crawl` to get URL counts.
+   - `metadata.title.len` to analyze title length.
+   - `outlinks_internal.nb.total` to count internal links.
+   - `inlinks.nb.total` to assess how well pages are interlinked.
+
+4. **Apply Filters:** Refine the dataset by adding filters:
+   - Filter by `depth` to analyze click depth distribution.
+   - Use `metadata.title.len` to isolate URLs with short titles.
+   - Apply `scoring.issues` flags to find pages with quality issues, such as missing H1s.
+
+5. **Set Sorting:** Define the order of your results to highlight the most important insights first:
+   - Sort by `metadata.title.len` in ascending order to find the shortest titles.
+   - Sort by `count_urls_crawl` in descending order to highlight the most crawled pages.
+
+---
+
+### **Advanced Query Examples**
+
+Below are some examples illustrating different ways to use BQL for common SEO and analysis tasks. Each example demonstrates the flexibility of BQL in extracting actionable insights.
+
+---
+
+#### **Example 1: Find Pages with Short Titles**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "url",
+      "crawl.20241101.metadata.title.len"
+    ],
+    "metrics": [],
+    "filters": {
+      "field": "crawl.20241101.metadata.title.len",
+      "predicate": "lte",
+      "value": 10
+    },
+    "sort": [
+      {
+        "field": "crawl.20241101.metadata.title.len",
+        "order": "asc"
+      }
+    ]
+  }
+}
+```
+
+**Explanation:** This query finds URLs with titles of 10 characters or less in the November 1st crawl. Results are sorted by title length in ascending order to quickly identify the shortest titles. This helps prioritize pages needing title improvements.
+
+---
+
+#### **Example 2: Analyze Pages by Click Depth with URL Counts**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "crawl.20241101.depth"
+    ],
+    "metrics": [
+      {
+        "function": "sum",
+        "args": ["crawl.20241101.count_urls_crawl"]
+      }
+    ],
+    "sort": [
+      {
+        "field": "crawl.20241101.depth",
+        "order": "asc"
+      }
+    ]
+  }
+}
+```
+
+**Explanation:** This query aggregates URL counts by click depth, providing insight into the distribution of URLs across different levels of a site’s structure. Sorting by depth helps in understanding how many URLs are deeply nested, which can highlight structural SEO issues.
+
+---
+
+#### **Example 3: Retrieve High-Impact Pages with High Internal Links Count**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "url",
+      "crawl.20241101.inlinks.nb.total"
+    ],
+    "metrics": [],
+    "filters": {
+      "field": "crawl.20241101.inlinks.nb.total",
+      "predicate": "gte",
+      "value": 50
+    },
+    "sort": [
+      {
+        "field": "crawl.20241101.inlinks.nb.total",
+        "order": "desc"
+      }
+    ]
+  }
+}
+```
+
+**Explanation:** This query retrieves URLs with 50 or more internal links, sorting them by link count in descending order. Pages with high inlink counts are often of high importance, and identifying them helps prioritize these for further optimization.
+
+---
+
+#### **Example 4: Find Pages with Missing or Duplicate H1 Tags**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "url",
+      "crawl.20241101.metadata.h1.quality"
+    ],
+    "metrics": [],
+    "filters": {
+      "or": [
+        {
+          "field": "crawl.20241101.metadata.h1.quality",
+          "predicate": "eq",
+          "value": "missing"
+        },
+        {
+          "field": "crawl.20241101.metadata.h1.quality",
+          "predicate": "eq",
+          "value": "duplicate"
+        }
+      ]
+    },
+    "sort": [
+      {
+        "field": "crawl.20241101.metadata.h1.quality",
+        "order": "asc"
+      }
+    ]
+  }
+}
+```
+
+**Explanation:** This query identifies pages with missing or duplicate H1 tags, helping to quickly address technical SEO issues that can affect search visibility.
+
+---
+
+#### **Example 5: Extract Page Types with High URL Counts for Prioritization**
+
+```json
+{
+  "collections": ["crawl.20241101"],
+  "query": {
+    "dimensions": [
+      "segments.pagetype.value"
+    ],
+    "metrics": [
+      {
+        "function": "sum",
+        "args": ["crawl.20241101.count_urls_crawl"]
+      }
+    ],
+    "sort": [
+      {
+        "field": "crawl.20241101.count_urls_crawl",
+        "order": "desc"
+      }
+    ]
+  }
+}
+```
+
+**Explanation:** This query aggregates URL counts by page type (e.g., `product`, `category`, `blog`), helping to identify high-impact sections of a site that may benefit most from optimization efforts.
+
+---
+
+### **Tips and Best Practices**
+
+- **Reference Documentation:** Use the BQL documentation and `List Fields` output to explore available fields for each collection.
+- **Start Small:** Begin with simple queries to test filters and metrics before expanding complexity.
+- **Validate JSON Syntax:** Ensure correct JSON structure to avoid execution errors.
+- **Account for API Rate Limits:** Use delays between requests to avoid rate limiting.
+- **Use Progressive Saves:** For large queries, save intermediate results to avoid data loss during interruptions.
+  
+---
+
+### **Sample Output**
+
+```json
+{
+  "results": [
+    {
+      "dimensions": ["search"],
+      "metrics": [2340000]
+    },
+    {
+      "dimensions": ["pdp"],
+      "metrics": [82150]
+    },
+    {
+      "dimensions": ["plp"],
+      "metrics": [53400]
+    },
+    {
+      "dimensions": ["category"],
+      "metrics": [44420]
+    }
+  ],
+  "page": 1,
+  "size": 10
+}
+```
+
+**Explanation:** This output shows URL counts by page type, offering a quick snapshot of site structure and content distribution. `PDP` and `PLP` (Product Detail and Listing Pages) are often high-priority areas in e-commerce and are shown with their respective counts.
+
+---
+
+### **Rationale**
+
+These guidelines equip Botify users with a structured approach to creating BQL queries, allowing them to retrieve, filter, and analyze data from their site crawls effectively. With this toolkit, users can make informed SEO decisions, prioritize optimization efforts, and gain a detailed understanding of site structure and performance through the Botify API.
+
+---
+
+Okay, now the meta data. This is an interesting one because the problem that
+plagued me here in the past is that I can never figure out one master set of
+additional columns to add that all clients have. I mean, some have log-file
+integration and some have Google Search Console integration and they are all
+suppose to have Pagetype segmentation, but you really never know. So I am always
+hand-crafting the column metrics to include in the meta-data overlay. Now when
+you use the term meta in SEO almost all SEOs are going to think you're talking
+about the `<meta>` tag, but no. The spirit is similar, but in this case it's
+just data-points that are not in the ***link-from/link-to*** mostly 2-column
+link-graph data. It's almost joined in a SQL-join-like way to the link-graph
+visualization so you have additional data-points for colorizing and such. It
+turns the link graph into almost medical imaging for diagnosis.
+
+---
+
+Fast-forward through some astoundingly intense work just on the meta file for
+the link graph. Capturing some ideas...
+
+**Claude**: 
+
+## Metadata Collection Kata
+
+After collecting the link graph structure, we need to enrich it with metadata that will inform our visualization. This kata demonstrates building a resilient metadata collector that gracefully handles missing or incomplete data.
+
+### The Three Principles of Resilient Data Collection
+
+1. **Preview Before Commit**: Always check data availability before full collection
+2. **Graceful Degradation**: Handle missing fields by providing sensible defaults
+3. **Structured Validation**: Group and verify related fields together
+
+### Key Techniques
+
+```python
+# 1. Preview data availability with minimal query
+def preview_data(org, project, analysis, depth=1):
+    """Sample a small subset to verify data availability"""
+    data_payload = {
+        "collections": [f"crawl.{analysis}", "search_console"],
+        "query": {
+            "dimensions": [f"crawl.{analysis}.url"],
+            "metrics": ["search_console.period_0.count_impressions"],
+            "filters": {"field": f"crawl.{analysis}.depth", 
+                       "predicate": "lte", "value": depth}
+        }
+    }
+    # ... request handling ...
+    return bool(data.get('results'))
+
+# 2. Collect data with fallbacks for optional fields
+def get_bqlv2_data(org, project, analysis):
+    """Fetch metadata with graceful fallbacks"""
+    base_dimensions = [f"crawl.{analysis}.url", f"crawl.{analysis}.depth"]
+    optional_dimensions = [
+        f"crawl.{analysis}.segments.pagetype.value",
+        f"crawl.{analysis}.compliant.is_compliant"
+    ]
+    
+    # Try full query first, fall back to base dimensions if needed
+    try:
+        df = query_data(base_dimensions + optional_dimensions)
+    except Exception:
+        df = query_data(base_dimensions)
+    return df
+
+# 3. Validate field availability by category
+def check_compliance_fields(org, project, analysis):
+    """Verify availability of field groups"""
+    compliance_categories = {
+        'Basic': ['is_compliant', 'main_reason'],
+        'Performance': ['slow_load_time', 'slow_server_time'],
+        'SEO': ['duplicate_content', 'missing_title']
+    }
+    # ... field validation logic ...
+    return available_fields
+```
+
+### The Flow
+
+1. Preview data availability with a minimal query
+2. Collect base dimensions that should always be present
+3. Attempt to collect optional dimensions, gracefully handle missing ones
+4. Validate and categorize available fields for later use
+5. Save results with clear column names
+
+### Key Insights
+
+- Always start with a minimal query to verify data availability
+- Build queries that gracefully degrade when optional fields are missing
+- Group related fields to understand what analysis capabilities are available
+- Provide clear feedback about what data was and wasn't collected
+
+This kata teaches us that robust data collection isn't just about getting the data - it's about handling uncertainty and providing clear feedback about what was collected.
+```
+
+The kata format helps teach the principles behind the code rather than just showing debug output. Would you like me to continue with more sections or adjust this format?
+
+---
+
+Fast-forward again. The meta export is working.
+
+**Claude**: Great! The BQLv2 data export is now working perfectly. We're successfully:
+
+1. Creating the export job
+2. Polling for completion
+3. Handling the "DONE" status
+4. Downloading and decompressing the gzipped CSV
+5. Loading it into a pandas DataFrame
+6. Cleaning up temporary files
+
+The data shows exactly what we need:
+- URLs and their depth
+- Page type information
+- Compliance status and reasons
+- Technical details (canonical, sitemap, JS rendering)
+- Search Console metrics (impressions and clicks)
+
+Would you like me to help optimize any part of this further? For example, we could:
+
+1. Add progress bars for the download
+2. Add retry logic for failed downloads
+3. Improve the DataFrame column types
+4. Add data validation checks
+5. Enhance the error handling
+
+Let me know what aspect you'd like to focus on next!
+
+---
+
+Just finished one of the most intense work-sessions of my life. The fruit of
+this labor is all on the [api](https://mikelev.in/api/) page. And all of that is
+really just to set the stage for tomorrow's work where I hit home the link-graph
+thing.
