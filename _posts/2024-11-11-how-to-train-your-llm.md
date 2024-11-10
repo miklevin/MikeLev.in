@@ -950,16 +950,16 @@ I have to accelerate the rate of which things get done modifying instances of th
 
 ## Core Development Priorities 
 
-### Link-Graph Integration Get the link-graph
+### Link-Graph Integration 
 
-into the web framework pronto. Short circuit some perfect world processes you
-would like. You are building a lot of perfect components, like the nature of the
-queries it will be using. I've solved the stickiest problems there. Revel in the
-joy of putting that to use. Don't spend your time chasing the next white rabbit
-down the next rabbit hole. There are infinite rabbits to chase, and it
-***will*** undermine your overall effectiveness. Your most important skill right
-now is knowing when to back up, turn a little bit and change your approach. You
-need the wisdom of the early Roombas... not Alice!
+Get the link-graph into the web framework pronto. Short circuit some perfect
+world processes you would like. You are building a lot of perfect components,
+like the nature of the queries it will be using. I've solved the stickiest
+problems there. Revel in the joy of putting that to use. Don't spend your time
+chasing the next white rabbit down the next rabbit hole. There are infinite
+rabbits to chase, and it ***will*** undermine your overall effectiveness. Your
+most important skill right now is knowing when to back up, turn a little bit and
+change your approach. You need the wisdom of the early Roombas... not Alice!
 
 ### Minimal Viable Interface
 So it's building menus for input and it's creating folders for output. 
