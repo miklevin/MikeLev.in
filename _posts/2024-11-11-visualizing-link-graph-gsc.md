@@ -1190,13 +1190,370 @@ def check_compliance_fields(org, project, analysis):
 - Provide clear feedback about what data was and wasn't collected
 
 This kata teaches us that robust data collection isn't just about getting the data - it's about handling uncertainty and providing clear feedback about what was collected.
-```
 
 The kata format helps teach the principles behind the code rather than just showing debug output. Would you like me to continue with more sections or adjust this format?
 
 ---
 
 Fast-forward again. The meta export is working.
+
+```python
+import os
+import json
+import requests
+import pandas as pd
+from pathlib import Path
+from datetime import datetime, timedelta
+from typing import List
+import gzip
+import shutil
+import time
+
+# Load configuration and API key
+headers = {
+    "Authorization": f"Token {open('botify_token.txt').read().strip()}",
+    "Content-Type": "application/json"
+}
+
+def preview_data(org, project, analysis, depth=1):
+    """Preview data availability before committing to full download"""
+    # Get analysis date from the slug (assuming YYYYMMDD format)
+    analysis_date = datetime.strptime(analysis, '%Y%m%d')
+    # Calculate period start (7 days before analysis date)
+    period_start = (analysis_date - timedelta(days=7)).strftime('%Y-%m-%d')
+    period_end = analysis_date.strftime('%Y-%m-%d')
+    
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    data_payload = {
+        "collections": [
+            f"crawl.{analysis}",
+            "search_console"
+        ],
+        "query": {
+            "dimensions": [
+                f"crawl.{analysis}.url"
+            ],
+            "metrics": [
+                "search_console.period_0.count_impressions",
+                "search_console.period_0.count_clicks"
+            ],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            },
+            "sort": [
+                {
+                    "field": "search_console.period_0.count_impressions",
+                    "order": "desc"
+                }
+            ]
+        },
+        "periods": [
+            [
+                period_start,
+                period_end
+            ]
+        ]
+    }
+
+    print(f"\n🔍 Sampling data for {org}/{project}/{analysis}")
+    print("=" * 50)
+
+    response = requests.post(url, headers=headers, json=data_payload)
+    if response.status_code != 200:
+        print("❌ Preview failed:", response.status_code)
+        return False
+        
+    data = response.json()
+    if not data.get('results'):
+        print("⚠️  No preview data available")
+        return False
+        
+    print("\n📊 Data Sample Analysis")
+    print("-" * 30)
+    metrics_found = 0
+    for result in data['results'][:3]:  # Show just top 3 for cleaner output
+        url = result['dimensions'][0]
+        impressions = result['metrics'][0]
+        clicks = result['metrics'][1]
+        metrics_found += bool(impressions or clicks)
+        print(f"• URL: {url[:60]}...")
+        print(f"  └─ Performance: {impressions:,} impressions, {clicks:,} clicks")
+    
+    print("\n🎯 Data Quality Check")
+    print("-" * 30)
+    print(f"✓ URLs found: {len(data['results'])}")
+    print(f"✓ Search metrics: {'Available' if metrics_found else 'Not found'}")
+    print(f"✓ Depth limit: {depth}")
+    
+    return True
+
+def get_bqlv2_data(org, project, analysis):
+    """Fetch BQLv2 data using jobs endpoint"""
+    # Calculate periods
+    analysis_date = datetime.strptime(analysis, '%Y%m%d')
+    period_start = (analysis_date - timedelta(days=7)).strftime('%Y-%m-%d')
+    period_end = analysis_date.strftime('%Y-%m-%d')
+    
+    url = "https://api.botify.com/v1/jobs"
+    
+    data_payload = {
+        "job_type": "export",
+        "payload": {
+            "username": org,
+            "project": project,
+            "connector": "direct_download",
+            "formatter": "csv",
+            "export_size": 1000000,
+            "query": {
+                "collections": [
+                    f"crawl.{analysis}",
+                    "search_console"
+                ],
+                "periods": [[period_start, period_end]],
+                "query": {
+                    "dimensions": [
+                        f"crawl.{analysis}.url", 
+                        f"crawl.{analysis}.depth",
+                        f"crawl.{analysis}.segments.pagetype.value",
+                        f"crawl.{analysis}.compliant.is_compliant",
+                        f"crawl.{analysis}.compliant.main_reason",
+                        f"crawl.{analysis}.canonical.to.equal",
+                        f"crawl.{analysis}.sitemaps.present",
+                        f"crawl.{analysis}.js.rendering.exec",
+                        f"crawl.{analysis}.js.rendering.ok"
+                    ],
+                    "metrics": [
+                        "search_console.period_0.count_impressions",
+                        "search_console.period_0.count_clicks"
+                    ],
+                    "filters": {
+                        "field": f"crawl.{analysis}.depth",
+                        "predicate": "lte",
+                        "value": 2
+                    }
+                }
+            }
+        }
+    }
+
+    print("\nStarting export job...")
+    response = requests.post(url, json=data_payload, headers=headers)
+    job_data = response.json()
+    job_url = f"https://api.botify.com{job_data['job_url']}"
+    print(f"Job created successfully (ID: {job_data['job_id']})")
+    
+    print("\nPolling for job completion: ", end="", flush=True)
+    while True:
+        time.sleep(5)  # Poll every 5 seconds
+        status = requests.get(job_url, headers=headers).json()
+        print(f"\nCurrent status: {status['job_status']}")
+        
+        if status['job_status'] in ['COMPLETE', 'DONE']:
+            download_url = status['results']['download_url']
+            print(f"\nDownload URL: {download_url}")
+            
+            # Download and process the file
+            gz_filename = "export.csv.gz"
+            csv_filename = "export.csv"
+            
+            # Download gzipped file
+            response = requests.get(download_url, stream=True)
+            with open(gz_filename, "wb") as gz_file:
+                shutil.copyfileobj(response.raw, gz_file)
+            print(f"File downloaded as '{gz_filename}'")
+            
+            # Decompress and read into DataFrame
+            with gzip.open(gz_filename, "rb") as f_in:
+                with open(csv_filename, "wb") as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+            print(f"File decompressed as '{csv_filename}'")
+            
+            # Read CSV into DataFrame
+            df = pd.read_csv(csv_filename, names=[
+                'url', 'depth', 'pagetype', 'compliant', 'reason', 
+                'canonical', 'sitemap', 'js_exec', 'js_ok',
+                'impressions', 'clicks'
+            ])
+            
+            # Cleanup temporary files
+            os.remove(gz_filename)
+            os.remove(csv_filename)
+            
+            return df
+            
+        elif status['job_status'] == 'FAILED':
+            print(f"\nJob failed. Error details: {status}")
+            raise Exception("Export job failed")
+            
+        elif status['job_status'] in ['CREATED', 'PROCESSING']:
+            print(".", end="", flush=True)
+            continue
+            
+        else:
+            print(f"\nUnexpected status: {status}")
+            raise Exception(f"Unexpected job status: {status['job_status']}")
+
+def fetch_fields(org: str, project: str, collection: str) -> List[str]:
+    """
+    Fetch available fields for a given collection from the Botify API.
+    
+    Args:
+        org: Organization slug
+        project: Project slug  
+        collection: Collection name (e.g. 'crawl.20241108')
+        
+    Returns:
+        List of field IDs available in the collection
+    """
+    fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
+    
+    try:
+        response = requests.get(fields_url, headers=headers)
+        response.raise_for_status()
+        fields_data = response.json()
+        return [
+            field['id'] 
+            for dataset in fields_data.get('datasets', [])
+            for field in dataset.get('fields', [])
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching fields for collection '{collection}': {e}")
+        return []
+
+def check_compliance_fields(org, project, analysis):
+    """Check available compliance fields in a more structured way."""
+    collection = f"crawl.{analysis}"
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    
+    # Group compliance fields by category
+    compliance_categories = {
+        'Basic Compliance': [
+            'compliant.is_compliant',
+            'compliant.main_reason',
+            'compliant.reason.http_code',
+            'compliant.reason.content_type',
+            'compliant.reason.canonical',
+            'compliant.reason.noindex',
+            'compliant.detailed_reason'
+        ],
+        'Performance': [
+            'scoring.issues.slow_first_to_last_byte_compliant',
+            'scoring.issues.slow_render_time_compliant',
+            'scoring.issues.slow_server_time_compliant',
+            'scoring.issues.slow_load_time_compliant'
+        ],
+        'SEO': [
+            'scoring.issues.duplicate_query_kvs_compliant'
+        ],
+        'Outlinks': [
+            'outlinks_errors.non_compliant.nb.follow.unique',
+            'outlinks_errors.non_compliant.nb.follow.total',
+            'outlinks_errors.non_compliant.urls'
+        ]
+    }
+    
+    print("\n🔍 Field Availability Analysis")
+    print("=" * 50)
+    available_count = 0
+    total_count = sum(len(fields) for fields in compliance_categories.values())
+    
+    available_fields = []
+    for category, fields in compliance_categories.items():
+        available_in_category = 0
+        print(f"\n📑 {category}")
+        print("-" * 30)
+        for field in fields:
+            full_field = f"{collection}.{field}"
+            # Test field availability with a minimal query
+            test_query = {
+                "collections": [collection],
+                "query": {
+                    "dimensions": [full_field],
+                    "filters": {"field": f"{collection}.depth", "predicate": "eq", "value": 0}
+                }
+            }
+            
+            try:
+                response = requests.post(url, headers=headers, json=test_query)
+                if response.status_code == 200:
+                    available_in_category += 1
+                    available_count += 1
+                    print(f"✓ {field.split('.')[-1]}")
+                    available_fields.append(field)
+                else:
+                    print(f"× {field.split('.')[-1]}")
+            except Exception as e:
+                print(f"? {field.split('.')[-1]} (error checking)")
+    
+    coverage = (available_count / total_count) * 100
+    print(f"\n📊 Field Coverage: {coverage:.1f}%")
+    return available_fields
+
+def download_and_process_csv(download_url, output_filename):
+    """Download and decompress CSV from Botify API."""
+    gz_filename = f"{output_filename}.gz"
+    
+    # Download gzipped file
+    response = requests.get(download_url, stream=True)
+    with open(gz_filename, "wb") as gz_file:
+        shutil.copyfileobj(response.raw, gz_file)
+    print(f"Downloaded: {gz_filename}")
+    
+    # Decompress to CSV
+    with gzip.open(gz_filename, "rb") as f_in:
+        with open(output_filename, "wb") as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    print(f"Decompressed to: {output_filename}")
+    
+    # Cleanup
+    os.remove(gz_filename)
+    return True
+
+def main():
+    """Main execution logic"""
+    try:
+        with open('config.json') as f:
+            config = json.load(f)
+    except FileNotFoundError:
+        print("Error: config.json file not found")
+        return
+    except json.JSONDecodeError:
+        print("Error: config.json is not valid JSON")
+        return
+    
+    org = config.get('org')
+    project = config.get('project')
+    analysis = config.get('analysis')
+    
+    if not all([org, project, analysis]):
+        print("Error: Missing required fields in config.json (org, project, analysis)")
+        return
+    
+    print("Previewing data availability...")
+    if preview_data(org, project, analysis, depth=2):
+        print("Data preview successful. Proceeding with full export...")
+        print("Fetching BQLv2 data...")
+        df = get_bqlv2_data(org, project, analysis)
+        print("\nData Preview:")
+        print(df.head())
+
+        # Save to CSV
+        Path("downloads").mkdir(parents=True, exist_ok=True)
+        output_file = f"downloads/{org}_{project}_{analysis}_metadata.csv"
+        df.to_csv(output_file, index=False)
+        print(f"\nData saved to {output_file}")
+        
+        # Use check_compliance_fields
+        check_compliance_fields(org, project, analysis)
+    else:
+        print("Data preview failed. Please check configuration and try again.")
+
+if __name__ == "__main__":
+    main()
+```
 
 **Claude**: Great! The BQLv2 data export is now working perfectly. We're successfully:
 
