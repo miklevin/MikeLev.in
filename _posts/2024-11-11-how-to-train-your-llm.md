@@ -973,7 +973,7 @@ I should prime the pump with a lot of pre-generated link graphs. That's where I'
 Upon choosing Link-Graph from the drop-down menu at which a prompt injection occurs with the LLM, the user interface presents you a drop-down menu option of existing orgs. The LLM prompt you to pick an org and then it immediately presents you a drop-down menu of existing projects. The project selection causes a grid to appear on the screen with a cell for each intersection oven analysis slug time-period on the horizontal like a timeline, and a particular medical diagnostic metric like page type impressions, and click on the vertical. Already generated link graphs will be presented with one kind of link and once not yet generated will have a link that would generate them if clicked.
 
 ## Competitive Advantage
-This is cutting the catapult rope to release potential. This is doing link-graphs in only a way that modify can. this is not merely addressing the fact that competitor products are starting to get link graphs, but it is addressing it in such a way as it utterly annihilates their approach. It's up to me to make sure that it does. Millions of edges, and still meaningful. Immediate valuable, holistic insights and endless ability to drill down. 
+This is cutting the catapult rope to release potential. This is doing link-graphs in only a way that modify can. This is not merely addressing the fact that competitor products are starting to get link graphs, but it is addressing it in such a way as it far better than their approach. It's up to me to make sure that it does. Millions of edges, and still meaningful. Immediate valuable, holistic insights and endless ability to drill down. 
 
 ## LLM Training Philosophy
 Efficient and effective moves don't come from out of nowhere. They come from practice and experience. And then you can kung fu download them into an LLM either local or frontier to be your AI Sherpa. 
@@ -1087,7 +1087,7 @@ Based on the article's progression and your current state of exhaustion, it seem
 2. **Create a Demo/Presentation:**
    - Record a YouTube video showcasing the system
    - Create a Google Slides deck (possibly using your RemarkJS automation approach)
-   - Focus on demonstrating how this approach "annihilates" competitor products
+   - Focus on demonstrating how this approach is better than competitor products
 
 3. **Finalize the LLM Integration:**
    - Complete the prompt injection system for the UI
