@@ -2123,12 +2123,12 @@ if __name__ == "__main__":
     }
     
     Data Preview:
-                                                                                                                              url  \
-    0                                                     https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
+                                                                                                                            url  \
+    0  https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
     1  https://www.example.com/realm/elven-moonlight-potion-azure/
-    2                  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
-    3               https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
-    4             https://www.example.com/realm/orcish-war-drums-obsidian/12345    
+    2  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
+    3  https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
+    4  ttps://www.example.com/realm/orcish-war-drums-obsidian/    
     
        depth       pagetype  compliant     reason canonical  sitemap  js_exec  \
     0      0           home       True  Indexable      True    False     True   
@@ -2546,12 +2546,12 @@ if __name__ == "__main__":
     File decompressed as 'export.csv'
     
     Data Preview:
-                                                                                                                              url  \
-    0                                                     https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
+                                                                                                                            url  \
+    0  https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
     1  https://www.example.com/realm/elven-moonlight-potion-azure/
-    2                  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
-    3               https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
-    4             https://www.example.com/realm/orcish-war-drums-obsidian/12345   
+    2  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
+    3  https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
+    4  ttps://www.example.com/realm/orcish-war-drums-obsidian/  
     
        depth             pagetype  compliant     reason canonical  sitemap  \
     0      2             category       True  Indexable      True    False   
