@@ -3,8 +3,7 @@ title: Visualizing The Web Crawl Link-Graph with Google Search Console (GSC) Dat
 permalink: /vissualizing-link-graph-gsc/
 description: Like Admiral Akbar's Death Star hologram, learn how to visualize website architecture through link-graphs enhanced with Google Search Console data, revealing structural insights and optimization opportunities.
 layout: post
-sort_order: 2
-date: 2024-11-09
+sort_order: 1
 ---
 
 ## On Focus and Discretionary Projects
