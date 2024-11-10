@@ -2132,12 +2132,12 @@ if __name__ == "__main__":
     }
     
     Data Preview:
-                                                                                                    url  \
-    0                                                                          https://www.example.com/   
-    1  https://www.example.com/site/retail/seasonal-sale/pcmcat123456.c?id=pcmcat123456   
-    2      https://www.example.com/site/misc/daily-deals/pcmcat654321.c?id=pcmcat654321   
-    3             https://www.example.com/site/retail/computers/abcat11111.c?id=abcat11111   
-    4           https://www.example.com/site/retail/home-theater/abcat22222.c?id=abcat22222   
+                                                                                                                              url  \
+    0                                                     https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
+    1  https://www.example.com/realm/elven-moonlight-potion-azure/
+    2                  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
+    3               https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
+    4             https://www.example.com/realm/orcish-war-drums-obsidian/12345    
     
        depth       pagetype  compliant     reason canonical  sitemap  js_exec  \
     0      0           home       True  Indexable      True    False     True   
@@ -2556,11 +2556,11 @@ if __name__ == "__main__":
     
     Data Preview:
                                                                                                                               url  \
-    0                                                     https://www.example.com/site/shop/retail/wifi-devices/pcmcat11111   
-    1  https://www.example.com/site/brand-a-eco-friendly-home-cleaner-blue/54321.p?skuId=54321   
-    2                  https://www.example.com/site/brand-b-decorative-home-accent-blue/98765.p?skuId=98765   
-    3               https://www.example.com/site/premium-products/premium-appliances/pcmcat22222.c?id=pcmcat22222   
-    4             https://www.example.com/site/brand-c-premium-audio-system-black/12345.p?skuId=12345   
+    0                                                     https://www.example.com/realm/shops/merchants-quarter/enchanted-items/
+    1  https://www.example.com/realm/elven-moonlight-potion-azure/
+    2                  https://www.example.com/realm/dwarven-decorative-runes-sapphire/   
+    3               https://www.example.com/realm/legendary-artifacts/master-crafted-items/   
+    4             https://www.example.com/realm/orcish-war-drums-obsidian/12345   
     
        depth             pagetype  compliant     reason canonical  sitemap  \
     0      2             category       True  Indexable      True    False   
