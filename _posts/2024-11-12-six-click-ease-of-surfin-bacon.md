@@ -41,7 +41,7 @@ Yes, I believe I "kapish" now. This is not about any one specific system, but ra
     I am so dense. I often fail.
     Mentality that's on a rail
     Preferring much an artist flow
-    I think I'm out... now, SEO!
+    I think I'm out... NOW SEO!
     I will not spam. I can not shill!
     I think I'm out. I'm in it still.
     This road mis take... I wish it led
