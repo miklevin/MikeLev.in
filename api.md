@@ -264,7 +264,7 @@ def fetch_projects(org):
 
 projects = fetch_projects(org)
 
-print(f"{'Project Name':<30} {'Project Slug':<35} {'User Login':<15}")
+print(f"{'Project Name':<30} {'Project Slug':<35} {'Login':<15}")
 print("=" * 80)
 for name, slug, user in projects:
     print(f"{name:<30} {slug:<35} {user:<15}")
@@ -277,11 +277,11 @@ Done")
 
 ```
 Organization: foo-bar
-Project Name                   Project Slug                        User Login     
+Project Name                   Project Slug                        Login     
 ================================================================================
-Legendary Product Vault        legendary-product-vault             foo-bar       
-Hidden Content Cove            hidden-content-cove                 foo-bar       
-Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-bar       
+Legendary Product Vault        legendary-product-vault             foo-org       
+Hidden Content Cove            hidden-content-cove                 foo-org       
+Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-org       
 ```
 
 **Rationale**: Next, you need Project slugs for these exercises.
