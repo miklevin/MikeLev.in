@@ -90,49 +90,63 @@ Then copy/paste the token into the input field presented to you when running thi
 
 ```python
 import requests
-import os
 from getpass import getpass
 
 def validate_token(token):
-    """Check if the Botify API token is valid."""
+    """Check if the Botify API token is valid and return the username if successful."""
     url = "https://api.botify.com/v1/authentication/profile"
     headers = {"Authorization": f"Token {token}"}
     try:
-        requests.get(url, headers=headers).raise_for_status()
-        return True
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        # Extract username if the token is valid
+        user_data = response.json()
+        username = user_data["data"]["username"]
+        return username
     except requests.RequestException:
-        return False
+        return None
 
 # Define token file
 token_file = "botify_token.txt"
 
-# Check for existing token file or prompt for a new token
-if os.path.exists(token_file):
+# Attempt to read the token from the file
+try:
     with open(token_file) as f:
         token = f.read().strip()
-    if not validate_token(token):
+    username = validate_token(token)
+    if not username:
         print("Invalid saved token. Re-enter a valid token.")
-        os.remove(token_file)
-else:
-    while True:
-        token = getpass("Enter your API token (or hit `Esc 00` & Restart to quit): ").strip()
-        if token.lower() == 'exit':
-            sys.exit("Exiting without saving API token.")
-        if validate_token(token):
-            with open(token_file, 'w') as f:
-                f.write(token)
-            print("API Token validated and saved.")
-            break
-        print("Invalid token, please try again.")
+        token = None
+except FileNotFoundError:
+    # File doesn't exist; prompt for a token
+    token = None
 
-print("Done. And answer NEVER to your browser when it asks about saving passwords.")
+# Prompt for token if needed
+while not token:
+    token = getpass("Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing): ").strip()
+    if token.lower() == 'exit':
+        print("Exiting without saving API token.")
+        break
+    username = validate_token(token)
+    if username:
+        with open(token_file, 'w') as f:
+            f.write(token)
+        print(f"API Token validated and saved. Welcome, {username}!")
+        break
+    else:
+        print("Invalid token, please try again.")
+        token = None  # Reset token if invalid
+
+print("Done. And remember, never let your browser save this token!")
 ```
 
 **Sample Output**:
 
-    Enter your API token (or hit `Esc 00` & Restart to quit):  ········
-    API Token validated and saved.
-    Done. And answer NEVER to your browser when it asks about saving passwords.
+    Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing):  ········
+    Invalid token, please try again.
+    Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing):  ········
+    API Token validated and saved. Welcome, michael.levin!
+    Done. And remember, never let your browser save this token!
 
 **Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact it's going to work every time. Don't deploy to production. Now go away or I shall taunt you a second time.
 
