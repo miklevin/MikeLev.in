@@ -964,7 +964,7 @@ df.head(10)
 
 ...
 
-**Rationale**: They become bookmarks. They become SERPs. They show in the browser tabs. It's funny, of all the things somehow `title tags` still matter. You could ditch pretty much everything but ***title tags*** and ***anchor text*** and still have a pretty good link-graph of the Web if not for spammers.
+**Rationale**: Ahh, ***title tags***. They show in bookmarks, tabs and SERPs&#151;the only relevancy factor that will remain standing after SEO Armageddon. You could ditch every other factor but ***anchor text***, set your uber-crawler go off-site, use a click-depth of 4&#151;and harvest yourself a pretty good link-graph of the entire Internet... were it not for spammers.
 
 
 # Count Short Titles: How To Count Number of URLs Having Short Titles
