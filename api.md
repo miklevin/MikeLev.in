@@ -1161,7 +1161,7 @@ else:
     File downloaded as 'short_titles_export.csv.gz'  
     File decompressed and saved as 'short_titles_export.csv'  
 
-**Rationale**: Is it pulling or pooling? I could never remember. In either case, it's not as straightforward as you think. You gotta look at the JSON that gets returned and turn into Sherlock Holmes on the trail of a scent. Then you gotta sacrifice a chicken to the gods of undocumented errors. Lastly, you really gotta take note of that `https://api.botify.com/v1/jobs` endpoint and how they moved the `org` and `project` into the JSON payload.
+**Rationale**: Is it pulling or pooling? I could never remember. In either case, exporting and downloading csv-files is not as straightforward as you think. First, you make the request. Then you look for ***where*** to check progress, then keep re-checking until done. Then you sacrifice a chicken to help you debug useless errors. Lastly, you notice how your endpoint has changed to`https://api.botify.com/v1/jobs` with `org` and `project` moved into the JSON payload. Or is that firstly? Yeah, definitely firstly.
 
 
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
