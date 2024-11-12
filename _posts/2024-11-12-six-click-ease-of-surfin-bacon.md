@@ -39,14 +39,14 @@ Yes, I believe I "kapish" now. This is not about any one specific system, but ra
 **Me**: 
 
     I am so dense. I often fail.
-    Mentality that's on a rail
-    Preferring much an artist flow
+    Mentality that's on a rail;
+    Preferring much an artist flow,
     I think I'm out... NOW SEO!
     I will not spam. I can not shill!
     I think I'm out. I'm in it still.
     This road muss take... I wish it led
-    Sans equine severance in my bed 
-    And yet I wake. I feel a chill
+    Sans equine severance in my bed 🐴
+    And yet I wake. I feel the chill -
     Please for my sake...
     There's time yet still?
 
