@@ -1778,7 +1778,7 @@ if __name__ == "__main__":
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
 
-**Rationale**: Just because you happen to work at an enterprise SEO company and possess this peculiar intersection of skills - like crafting prompts that give LLMs instant knowledge downloads (think Neo suddenly knowing kung fu) - doesn't mean you actually understand BQL. In fact, needing to write this prompt rather proves the opposite... wait, did I just create a paradox?
+**Rationale**: Just because you happen to work at an enterprise SEO company and possess this peculiar intersection of skills - like crafting prompts that give LLMs instant knowledge downloads (think Neo suddenly knowing kung fu) - doesn't mean you actually understand BQL. In fact, needing to write this prompt rather proves the opposite... wait, did I just create a paradox? Anyway, there's a very subtle chicken-and-egg problem that this file in general and this example in particular helps address: validation of collection fields.
 
 
 # Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
