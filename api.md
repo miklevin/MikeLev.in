@@ -230,7 +230,7 @@ Bar Test                       bar.com                             bar-org
 Baz Test                       baz.com                             baz-org       
 ```
 
-**Rationale**: You need an Organization slug (org) to get started with these exercises.
+**Rationale**: You need an Organization slug (**org**) for these exercises. It goes in your **config.json** to get started. Your personal login username will usually be used for one Project, but then an offical ***org slug*** (aka group) will usually appear on the others. By convention, these values often end with `-org`.
 
 
 # List Projects: How To Get the List of Projects Given an Organization
