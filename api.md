@@ -400,11 +400,14 @@ for i, url in enumerate(list_of_urls):
 10 https://example.com/page10
 ```
 
-**Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it. Also, I'm  here to teach you BQL, not Python. But it's worth noting:
+**Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it. Ugh! Also, I'm not here to teach you Python, but it's worth noting:
 
-- `enumerate()` exposes the internal counter index
-- Python uses zero-based indexes, thus the `+1` for humans and `>= 9` to cut off at 10
-- The `print()` function takes multiple (un-labeled) inputs (counter & URL in this case)
+- `enumerate()` exposes the internal counter index.
+- Python uses zero-based indexes, thus the `+1` for humans and `>= 9` to cut off at 10.
+- The `print()` function takes multiple (un-labeled) inputs&#151;counter & url in this case.
+- The other way to use the counter & url together is ***f-strings***: `f"{i+1} {url}"`, which would also work.
+
+You're welcome.
 
 
 # List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
