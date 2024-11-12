@@ -1397,7 +1397,6 @@ if link_graph_path:
     print(f"Link graph saved to: {link_graph_path}")
 else:
     print("Link graph export failed.")
-
 ```
 
 **Sample Output**:
@@ -1415,7 +1414,7 @@ File downloaded as 'downloads/org_project_analysis_linkgraph_depth-3.csv'
 Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
 ```
 
-**Rationale**: This code exports a link graph by calculating the maximum depth that limits the total number of edges to under 1,000,000, ensuring that the Botify API’s CSV export limit is not exceeded. By polling for job completion and handling potential errors, the script delivers a user-friendly and reliable process for exporting link graphs in large-scale SEO projects. The flexibility to adjust depth dynamically based on edge count allows for efficient resource use and helps teams capture optimal levels of detail in the exported link graph.
+**Rationale**: And now, the moment you’ve all been waiting for—the elusive, hard-to-visualize link-graph of your website. Think Admiral Ackbar scrutinizing a hologram of the Death Star, examining every strength and vulnerability, now superimposed with Google Search Console Clicks and Impressions. The Rebels lean in, studying surprise hot spots and patches of dead wood. Every faceted search site ends up looking like the Death Star. But if you’ve done it right, with solid topical clustering, you’ll have something that resembles broccoli or cauliflower... are those called nodules? Florets? Either way, it’s a good look.
 
 
 # Check Link-Graph Enhancements: How To Check What Data is Available to Enhance Link-Graph Visualization.
@@ -1827,6 +1826,8 @@ if __name__ == "__main__":
     4  False        12345    1234  
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
+
+**Rationale**: Just because you happen to work at an enterprise SEO company and possess this peculiar intersection of skills - like crafting prompts that give LLMs instant knowledge downloads (think Neo suddenly knowing kung fu) - doesn't mean you actually understand BQL. In fact, needing to write this prompt rather proves the opposite... wait, did I just create a paradox?
 
 
 # Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
@@ -2251,218 +2252,111 @@ if __name__ == "__main__":
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
 
-```python
-
-```
+**Rationale**: So you've mastered the dark arts of BQL and enterprise SEO diagnostics, turning website analysis into something between a medical imaging suite and a data science lab. Your code transforms cold metrics into a digital CAT scan of your site's SEO health - rendering every canonical issue and search signal into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data and rendering flags... except instead of "it's never lupus," we're usually muttering "it's always the JavaScript." And just like medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture.
 
 <!-- #region -->
-# How can you convert BQLv1 to BQLv2 effectively? A Detailed Guide
+# Converting BQLv1 to BQLv2: A Quick Guide
 
-This guide provides a structured approach to converting BQLv1 queries to BQLv2, including validation helpers and common patterns. The validation functions ensure proper formatting and structure while the conversion function handles the basic transformation logic.
+This guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
 
-## Step-by-Step Conversion Process
+## Conversion Process
 
-### 1. Basic Structure Transformation
+### 1. Structural Transformation
 
-BQLv1 queries have this basic structure:
-```python
-{
-    "fields": [...],
-    "filters": {...},
-    "sort": [...]
-}
-```
+- **BQLv1 Format**:
+  ```json
+  {
+      "fields": [...],
+      "filters": {...},
+      "sort": [...]
+  }
+  ```
 
-BQLv2 queries follow this structure:
-```python
-{
-    "collections": [f"crawl.{analysis}"],
-    "query": {
-        "dimensions": [...],
-        "metrics": [...],
-        "filters": {...},
-        "sort": [...]
-    }
-}
-```
+- **BQLv2 Format**:
+  ```json
+  {
+      "collections": ["crawl.{analysis}"],
+      "query": {
+          "dimensions": [...],
+          "metrics": [...],
+          "filters": {...},
+          "sort": [...]
+      }
+  }
+  ```
 
-### 2. Field Mapping Rules
+### 2. Key Mapping
 
-1. **Collections Setup**:
-   - Add `"collections": [f"crawl.{analysis}"]` at the root level
-   - If comparing crawls, add both: `["crawl.{current}", "crawl.{previous}"]`
-
+1. **Collections**: Add `collections: ["crawl.{analysis}"]` at the root.
 2. **Fields to Dimensions**:
-   ```python
-   # BQLv1
-   "fields": ["url", "depth"]
-   
-   # BQLv2
-   "dimensions": [
-       f"crawl.{analysis}.url",
-       f"crawl.{analysis}.depth"
-   ]
-   ```
+    ```json
+    "fields": ["url", "depth"]  →  "dimensions": ["crawl.{analysis}.url", "crawl.{analysis}.depth"]
+    ```
 
-3. **Filter Translation**:
-   ```python
-   # BQLv1
-   "filters": {
-       "field": "depth",
-       "predicate": "lte",
-       "value": max_depth
-   }
-   
-   # BQLv2
-   "filters": {
-       "field": f"crawl.{analysis}.depth",
-       "predicate": "lte",
-       "value": max_depth
-   }
-   ```
+3. **Filter Conversion**:
+    ```json
+    "filters": {"field": "depth", "predicate": "lte", "value": max_depth}
+    → "filters": {"field": "crawl.{analysis}.depth", "predicate": "lte", "value": max_depth}
+    ```
 
 ### 3. Special Cases
 
-#### Previous Crawl References
-```python
-# BQLv1
-"fields": ["url", "previous.http_code"]
+- **Comparing Crawls**:
+  ```json
+  "collections": ["crawl.{current}", "crawl.{previous}"],
+  "dimensions": ["crawl.{current}.url", "crawl.{previous}.http_code"]
+  ```
 
-# BQLv2
-"collections": [f"crawl.{current}", f"crawl.{previous}"],
-"dimensions": [
-    f"crawl.{current}.url",
-    f"crawl.{previous}.http_code"
-]
-```
+- **URL State Filters**:
+  - New URLs:
+    ```json
+    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": true}, {"field": "crawl.{previous}.url_exists_crawl", "value": false}]}
+    ```
+  - Disappeared URLs:
+    ```json
+    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": false}, {"field": "crawl.{previous}.url_exists_crawl", "value": true}]}
+    ```
 
-#### Area Filters
-For "new" URLs:
-```python
-"filters": {
-    "and": [
-        {
-            "field": f"crawl.{current}.url_exists_crawl",
-            "value": true
-        },
-        {
-            "field": f"crawl.{previous}.url_exists_crawl",
-            "value": false
-        }
-    ]
-}
-```
-
-For "disappeared" URLs:
-```python
-"filters": {
-    "and": [
-        {
-            "field": f"crawl.{current}.url_exists_crawl",
-            "value": false
-        },
-        {
-            "field": f"crawl.{previous}.url_exists_crawl",
-            "value": true
-        }
-    ]
-}
-```
-
-### 4. Validation Helper Functions
+### 4. Validation & Conversion
 
 ```python
-def validate_bql_v2_query(query):
-    """Validate BQLv2 query structure and field formatting."""
+def validate_bql_v2(query):
     required_keys = {'collections', 'query'}
     query_keys = {'dimensions', 'metrics', 'filters'}
-    
-    # Check top-level structure
     if not all(key in query for key in required_keys):
-        raise ValueError(f"Missing required keys. Must have: {required_keys}")
-    
-    # Check query structure
+        raise ValueError(f"Missing required keys: {required_keys}")
     if not any(key in query['query'] for key in query_keys):
-        raise ValueError(f"Query must contain at least one of: {query_keys}")
-    
-    # Validate collections format
+        raise ValueError(f"Query must contain one of: {query_keys}")
     for collection in query['collections']:
         if not collection.startswith('crawl.'):
             raise ValueError(f"Invalid collection format: {collection}")
-    
-    # Validate dimensions format
-    if 'dimensions' in query['query']:
-        for dim in query['query']['dimensions']:
-            if not any(dim.startswith(f"{c}.") for c in query['collections']):
-                raise ValueError(f"Invalid dimension format: {dim}")
-    
     return True
 
 def convert_bql_v1_to_v2(query_v1, analysis):
-    """Convert BQLv1 query to BQLv2 format."""
     query_v2 = {
         "collections": [f"crawl.{analysis}"],
         "query": {
-            "dimensions": [],
-            "metrics": [],
-            "filters": {}
+            "dimensions": [f"crawl.{analysis}.{field}" for field in query_v1.get('fields', [])],
+            "filters": {
+                "field": f"crawl.{analysis}.{query_v1['filters']['field']}",
+                "predicate": query_v1['filters']['predicate'],
+                "value": query_v1['filters']['value']
+            }
         }
     }
-    
-    # Convert fields to dimensions
-    if 'fields' in query_v1:
-        query_v2['query']['dimensions'] = [
-            f"crawl.{analysis}.{field}" for field in query_v1['fields']
-        ]
-    
-    # Convert filters
-    if 'filters' in query_v1:
-        filter_v1 = query_v1['filters']
-        query_v2['query']['filters'] = {
-            "field": f"crawl.{analysis}.{filter_v1['field']}",
-            "predicate": filter_v1['predicate'],
-            "value": filter_v1['value']
-        }
-    
-    # Validate the converted query
-    validate_bql_v2_query(query_v2)
-    
+    validate_bql_v2(query_v2)
     return query_v2
 ```
 
 ### 5. Usage Example
 
 ```python
-# Example BQLv1 query
-query_v1 = {
-    "fields": ["url", "depth"],
-    "filters": {
-        "field": "depth",
-        "predicate": "lte",
-        "value": 3
-    }
-}
+# BQLv1 query
+query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate": "lte", "value": 3}}
 
 # Convert to BQLv2
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
-
-# Result:
-{
-    "collections": ["crawl.20240308"],
-    "query": {
-        "dimensions": [
-            "crawl.20240308.url",
-            "crawl.20240308.depth"
-        ],
-        "metrics": [],
-        "filters": {
-            "field": "crawl.20240308.depth",
-            "predicate": "lte",
-            "value": 3
-        }
-    }
-}
 <!-- #endregion -->
 
 ```python
