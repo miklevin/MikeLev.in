@@ -614,10 +614,14 @@ You seem to be pushing to complete this despite fatigue because you feel you're 
 
 ---
 
+## Clarity Through Fatigue
+
 Okay, this is good. That helps me clarify my thoughts and effectively get a next
 step. Remember, you don't need to be at the peek of your game at every moment.
 You only need to be able to do the next thing up competently. So figuring out
 the next thing up is key, and I just did that.
+
+## Screen Management Philosophy 
 
 The time is past on this project for a Jupyter Notebook. You have all the pieces
 laid out for copy/paste assembly. JupyterLab itself being open is a distraction.
@@ -628,6 +632,8 @@ access to each screen, because there's a sub-index. Get rid of tabs across the 7
 screens as much as you can. Make the quick left/right bouncing between your two
 anchor-screens, your personal and your work journal, be an orienting process and
 not a disorienting one.
+
+### The Power of First Attempts
 
 Wow, take note of how incredibly powerful your first-attempt mock-up was at the
 Link-Graph generator using FastHTML for the first time. It's one of those
@@ -640,6 +646,8 @@ gets me every time when I context switch like that. Flakes, for sure. Shards of
 OS is what we're talking about. VMs and containers without the overhead. Folders
 that carry their own isolated OS-environments around with them, but without the
 bloat.
+
+### Screen Layout Strategy
 
 Okay, okay enough marveling at what the world will be catching onto in another
 few years. Live it and utilize it. Re-orient. Each screen a purpose. Your two
@@ -658,6 +666,8 @@ personal journal and professional (gets published) journal are the 5
 work-screens of productivity. You "bounce" off either end to get to important
 screens in from each edge. Muscle memory starts taking over and you can forget
 about navigating between screens. It just happens.
+
+## The Philosophy of Next Steps
 
 This sort of automatic-ness is what I'm trying to bring to the whole "what to do
 next and why" action. There is no next step but for the small baby-step
@@ -686,15 +696,20 @@ Citations:
     [5] http://www.okelley.net/history_of_irish_names.htm
     [6] https://www.boards.ie/discussion/2057331301/irish-surname-to-comma-after-o-or-not
 
+## Development Environment Setup
+
+### Screen 3: Chip O'Theseus
 Okay, so Chip's on Screen 3. Chip is currently Gemma:2b, the smallest of
 Google's Ollama-runnable Gemma models. I'm making the model not matter much by
 using the prompt-injection system, but even that is a rabbit hole distraction.
 It will be useful later on as people use this system, but while I make it I
 almost need to filter the chatty, sassy Chip out.
 
+### Critical Decision Points
 Okay, so these are the critical moments where I either build something brilliant
 or stupid. 
 
+### Repository Architecture
 Alright, I may have to separate concerns here. I can't believe I'm thinking
 through this sticky issue so tired. But I can't, I just can't mix anything that
 may have client data in it in this repo, even in filtered-out folders. I need
@@ -705,6 +720,7 @@ call the LLM Web Framework, will more or less live in the Free and Open Source
 world once I dot all my i's and cross all my t's. But there's another set of
 stuff that never will. And never the two shall meet.
 
+### Installation Flow
 Okay, so the recent work I just did on getting sample data is going into a
 separate repo, including the sample data it produces. That way, I can give the
 magic words for installing Chip and a different set of magic words for
@@ -714,6 +730,7 @@ installing Chip's secret info. Yeah. That's fine. So the flow goes...
 - Here's how you summon Chip O'Theseus (magic words #2)
 - There's some fast-tracking setup you can do (magic words #3)
 
+### Technology Stack Considerations
 I basically help a FOSS movement with #1, which is just the general concept of
 Nix Flakes, and to some extent GNU Guix which is the same in spirit, only not
 nearly so well supported on Macs, which is critical. But the concept will be
@@ -723,6 +740,7 @@ But where everything should just work well with a small footprint and minimal
 muss and fuss, there's no way this other approach isn't taking over. Be on that
 bandwagon early.
 
+### Distribution Strategy
 Number two, the jury is still out. I've already distributed early versions of
 this work as Pipulate as its predecessors have always existed in the FOSS world.
 However, the sheer size clients I'm working with now and the rapid pace of
@@ -733,6 +751,7 @@ nobody's going to be able to put it all together to the same effect. It's one
 of those founder vision things until it's caused change and everyone copies. So
 I've got some wiggle room, but am leaning conservative.
 
+### Configuration Management
 And then finally, I can fast-track the configuration of these systems to do some
 really powerful demonstrations, and that is totally proprietary and has to be
 locked up in a private GitHub repo. I have ways to pull down Chip O'Theseus for
@@ -741,10 +760,12 @@ that's very carefully isolated to be a one-repo pony. If I hand you the
 summoning device, Chip O'Theseus will appear if you're a tech nor not. But for
 the more private stuff, you're going to have to be a tech.
 
+### Next Steps
 Okay, I've got a plan. So go make that other repo and separate out the new files
 you just created. Keep Chip's folder clean and un-distracting. I was full of
 trepidation adding the 3rd .py file after `server.py` and `test.py`. 
 
+### Development Flow State
 Ugh, that was all sorts of cognitive load, but I powered through it and feel
 relieved. Now the test to make `Botifython` reach up and over to grab some
 configuration from another repo held in the same parent folder (from a sibling). 
