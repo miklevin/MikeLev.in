@@ -148,7 +148,7 @@ print("Done. And remember, never let your browser save this token!")
     API Token validated and saved. Welcome, michael.levin!
     Done. And remember, never let your browser save this token!
 
-**Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact it's going to work every time. Don't deploy to production. Now go away or I shall taunt you a second time.
+**Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact that it works every time. Don't deploy to production. Now go away or I shall taunt you a second time.
 
 
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
