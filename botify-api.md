@@ -3,46 +3,28 @@
 Welcome! This document has been curated for LLMs to assist in crafting and understanding BQL queries effectively.
 
 
-# Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
+# Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
+BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence.
 
-BQL, or Botify Query Language, is a powerful query tool by Botify, designed for analyzing large-scale website data. Here’s a brief overview of BQL:
+## Core Powers
+- **Data Bending**: Extract and manipulate massive crawl datasets with precision
+- **Reality Filtering**: Focus your queries on specific page segments or attributes
+- **Pattern Recognition**: Create custom metrics to reveal hidden insights
+- **Digital Taxonomy**: Segment your site's structure into meaningful patterns
 
-## Purpose and Functionality
+## Wielding BQL
+The basics are simple: `requests`, `pandas`, and your access credentials (`botify_token.txt` and `config.json`). Your mission, should you choose to accept it:
+- Navigate the API's neural pathways
+- Extract intelligence from crawl data
+- Forge custom reports and data streams
+- Transform raw signals into actionable strategies
 
-- BQL enables complex data retrieval and analysis on Botify’s website crawl data, allowing users to filter and analyze website structure, content, and performance.
-
-## Key Features
-
-- **Data Retrieval**: Extract specific information from Botify's comprehensive crawl data.
-- **Advanced Filtering**: Apply complex filters to focus on specific page subsets or attributes.
-- **Custom Metrics**: Create calculations based on existing data points.
-- **Segmentation**: Segment website data for targeted analysis.
-
-## Usage
-
-BQL is essential for programmatic access to Botify data via its API, allowing developers and AI systems to:
-
-- Authenticate and navigate the API structure
-- Query and analyze crawl data
-- Build custom reports and data pipelines
-- Transform raw data into actionable insights
-
-Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API in Jupyter Notebooks. Dependencies are minimal: `requests`, `pandas`, a `botify_token.txt`, and `config.json`.
-
-## Query Structure and Endpoint
-
-A typical BQL query is a JSON object with:
-
-1. **Collections** to query
-2. **Dimensions** for grouping
-3. **Metrics** for data aggregation
-4. **Sorting** criteria
-
-For API calls, include organization and project slugs in the URL unless downloading a `.csv`:
-
-```python
-url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
-```
+## Query Architecture
+Every BQL query is a matrix of:
+1. **Collections**: Your data sources
+2. **Dimensions**: How you slice the data
+3. **Metrics**: What you measure
+4. **Sorting**: How you organize insights
 
 ### Example BQL Query
 
@@ -79,20 +61,6 @@ print(response.json())
 ```
 
 This query retrieves URL counts by page type, sorted by count in descending order, from a specific crawl. To download as a `.csv`, add organization and project slugs to the JSON payload.
-
-## Step-by-Step Examples
-
-These examples guide you through core tasks:
-
-1. Retrieving and validating the Botify API token
-2. Fetching user information
-3. Listing organizations and projects
-4. Getting analysis slugs for a project
-5. Listing available collections
-6. Exploring fields in a collection
-7. Querying URL counts by page type
-
-Starting with retrieving and validating your Botify API token, each example builds upon the last, enabling a strong foundation for leveraging BQL and the Botify API to gain insights into website data.
 
 # Purpose: Practicing Botify API in Python
 
