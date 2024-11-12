@@ -2264,6 +2264,10 @@ if __name__ == "__main__":
 **Rationale**: So you've mastered the dark arts of BQL and enterprise SEO diagnostics, turning website analysis into something between a medical imaging suite and a data science lab. Your code transforms cold metrics into a digital CAT scan of your site's SEO health - rendering every canonical issue and search signal into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data and rendering flags... except instead of "it's never lupus," we're usually muttering "it's always the JavaScript." And just like medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture.
 
 <!-- #region -->
+Here's a tighter, streamlined version that keeps all essentials:
+
+---
+
 # Converting BQLv1 to BQLv2: A Quick Guide
 
 This guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
@@ -2366,6 +2370,7 @@ query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate
 # Convert to BQLv2
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
+```
 <!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
