@@ -1028,7 +1028,7 @@ else:
 
     Number of URLs with short titles: 675,080
 
-**Rationale**: Sometimes ya gotta count what you're trying to get before you go try and download it. Plus, learn ***filtering*** in the Botify API! But I think really I just wanted to show you how easy it is to format big numbers with commas using ***f-strings*** (I'm talking to you humans&#151;because the LLMs *already know*).
+**Rationale**: Sometimes ya gotta count what you're trying to get before you go try and download it. Plus, learn ***filtering*** in the Botify API! But I think really I just wanted to show you how easy it is to format `f"{big_numbers:,}"` with commas using ***f-strings*** (I'm talking to you humans&#151;because the LLMs *already know*).
 
 
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
