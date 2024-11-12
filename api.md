@@ -957,9 +957,8 @@ df.head(10)
 | https://www.example.com/site/socks/12345 | 8         | Sock Store        | unique        | Best socks for every season, unbeatable comfort and style.      | Example Store/Footwear/Accessories/Socks               | [Our Socks]                     | [Features, Sizes, Related Items]        |
 | https://www.example.com/site/hats/98765  | 9         | Top Hats Here!    | duplicate     | Stylish hats available year-round with exclusive discounts.     | Example Store/Apparel/Accessories/Hats                 | [Hat Selection]                 | [Details, Reviews, Top Picks]           |
 | https://www.example.com/site/shirts/54321| 10        | - Shirt Emporium  | duplicate     | Discover comfortable and stylish shirts at great prices.        | Example Store/Apparel/Topwear/Shirts                   | [Shirt Central]                 | [Sizing, Similar Styles, Reviews]       |
-| https://www.example.com/site/pants/67890 | 12        | Pant Paradise     | unique        | Durable, comfy pants for all occasions, from casual to formal.  | Example Store/Apparel/Bottomwear/Pants                 | [Our Best Pants]                | [Features, Size Chart, Recommended]     |
-| https://www.example.com/site/belts/34567 | 7         | - Belt Hub        | unique        | Essential belts in various styles, perfect for any outfit.      | Example Store/Apparel/Accessories/Belts                | [Belt Basics]                   | [Specifications, Similar Belts]         |
-| https://www.example.com/site/jackets/11111| 6         | - Jacket Haven    | duplicate     | Quality jackets for all seasons, unbeatable prices on top brands.| Example Store/Apparel/Outerwear/Jackets                 | [Best Jackets]                  | [Reviews, Compare Jackets, New Arrivals]|
+
+...
 
 **Rationale**: They become bookmarks. They become SERPs. They show in the browser tabs. It's funny, of all the things somehow `title tags` still matter. You could ditch pretty much everything but ***title tags*** and ***anchor text*** and still have a pretty good link-graph of the Web if not for spammers.
 
