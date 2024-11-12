@@ -3,7 +3,7 @@ permalink: /api/
 ---
 
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
-BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence.
+BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike. By the end of this document, you'll have Botifython Kung Fu.
 
 ## Core Powers
 - **Data Bending**: Extract and manipulate massive crawl datasets with precision
@@ -58,8 +58,6 @@ response = requests.post(url, headers=headers, json=payload)
 response.raise_for_status()
 print(response.json())
 ```
-
-This query retrieves URL counts by page type, sorted by count in descending order, from a specific crawl. To download as a `.csv`, add organization and project slugs to the JSON payload.
 
 # Purpose: Practicing Botify API in Python
 
