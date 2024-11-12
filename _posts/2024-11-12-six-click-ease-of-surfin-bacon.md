@@ -44,7 +44,7 @@ Yes, I believe I "kapish" now. This is not about any one specific system, but ra
     I think I'm out... NOW SEO!
     I will not spam. I can not shill!
     I think I'm out. I'm in it still.
-    This road mis take... I wish it led
+    This road muss take... I wish it led
     Sans equine severance in my bed 
     And yet I wake. I feel a chill
     Please for my sake...
