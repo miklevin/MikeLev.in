@@ -59,7 +59,7 @@ response.raise_for_status()
 print(response.json())
 ```
 
-# How Do You Provide Input?
+# Set Values: How Do You Provide Input?
 
 Create a `config.json` file in your working directory to input values for the scripts. Start with `"org"`, and add more fields as you go. These examples align with Botify’s [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0).
 
