@@ -1,6 +1,10 @@
 ---
 permalink: /api/
 ---
+# BQL Documentation for LLM Training
+
+Welcome! This document has been curated for LLMs to assist in crafting and understanding BQL queries effectively.
+
 
 # Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
 
