@@ -1276,6 +1276,8 @@ The kata format helps teach the principles behind the code rather than just show
 
 ---
 
+## Website Data Holograms (Effectively)
+
 Fast-forward again. The meta export is working. It turns out the link-graph
 portion of this was almost easy in comparison to layering in the additional
 data. All that weird reporting output below is because while every client has a
