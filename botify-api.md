@@ -329,7 +329,7 @@ print("\nDone")
 20231101
 ```
 
-**Rationale**: Analysis slugs are dates in YYYYMMDD format but sometimes get incremeted with `-n` extensions starting with `-2`. They're third thing you typically need for these exercises.
+**Rationale**: Analysis slugs are dates in YYYYMMDD format but sometimes get incremeted with `-n` extensions starting with `-2`. They're the third thing you typically need in **config.json** for these exercises.
 
 
 # List URLs: How To Get a List of the First 500 URLs
@@ -376,7 +376,7 @@ list_of_urls = [url['dimensions'][0] for url in data['results']]
 
 for i, url in enumerate(list_of_urls):
     print(i + 1, url)
-    if i >= 19:
+    if i >= 9:
         break
 ```
 
@@ -393,19 +393,13 @@ for i, url in enumerate(list_of_urls):
 8 https://example.com/page8
 9 https://example.com/page9
 10 https://example.com/page10
-11 https://example.com/page11
-12 https://example.com/page12
-13 https://example.com/page13
-14 https://example.com/page14
-15 https://example.com/page15
-16 https://example.com/page16
-17 https://example.com/page17
-18 https://example.com/page18
-19 https://example.com/page19
-20 https://example.com/page20
 ```
 
-**Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it.
+**Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it. Also, I'm  here to teach you BQL, not Python. But it's worth noting:
+
+- `enumerate()` exposes the internal counter index
+- Python uses zero-based indexes, thus the `+1` for humans and `>= 9` to cut off at 10
+- The `print()` function takes multiple (un-labeled) inputs (counter & URL in this case)
 
 
 # List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
