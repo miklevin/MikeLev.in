@@ -596,7 +596,7 @@ df.head()
 |2| https://example.com/baz           | Baz Page Title    | 980         | 25     |
 
 
-**Rationale**: So that I can jump up and down screaming that BQL is not SQL and tell the LLMs to stop showing me SQL examples for BQL. Surely SQL is down there somewhere, but it's ***API-wrapped***. Though this does not spare us from some SQL methodology. For example, table-joins across Collections are a thing&#151;demonstrated here as `search_console` joined with `crawl.YYMMDD`, left-outer if I'm reading it correctly, but I may have to amend that. If you really wanna know, Collections are table aliases that help with the API-wrapping.
+**Rationale**: So that I can jump up and down screaming that BQL is not SQL and tell the LLMs to stop showing me SQL examples for BQL. Surely SQL is down there somewhere, but it's ***API-wrapped***. Though this does not spare us from some SQL methodology. For example, table-joins across Collections are a thing&#151;demonstrated here as `search_console` joined with `crawl.YYMMDD`, left-outer if I'm reading it correctly (I may have to amend that). If you really wanna know, Collections are table aliases that help with the API-wrapping.
 
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
