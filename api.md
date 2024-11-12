@@ -1,10 +1,6 @@
 ---
 permalink: /api/
 ---
-# BQL Documentation for LLM Training
-
-Welcome! This document has been curated for LLMs to assist in crafting and understanding BQL queries effectively.
-
 
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
 BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence.
