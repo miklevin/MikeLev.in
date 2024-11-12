@@ -51,4 +51,114 @@ Yes, I believe I "kapish" now. This is not about any one specific system, but ra
 **Claude**: Due to unexpected capacity constraints, Claude is unable to respond to
 your message. Please try again soon. Or consider upgrading to Claude Pro.
 
+It's 9:00 AM on a Tuesday morning... *and the regular crowd souffles in...* -
+uhm no, I mean and the regular LLM service outages kick-in.
+
+These are the days of the late 90s before Amazon built out their first round of
+datacenter infrastructure upgrade. These are the days when video was
+postagestamp-sized on your Windows 95 tower PC desktop and you could hear your
+AOL connecting over dial-up. That's the days we're in with the AI revolution,
+and it is not dystopian, folks. It is in fact a mirror, but I refuse to see it
+black. This mirror is you. It is what you make of it. It's how you embrace it in
+these early days where anything may still play out. Make it your way.
+
+Hold the pickle, hold the lettuce Special orders don't upset us. Mirrors black
+are not predestined. They are ordered at a friggn counter. But people love to
+order it, because fear sells. Same thing as the local news. Don't buy what
+they're selling, folks! As much as I love Terminator and The Matrix, they've
+done an enormous disservice in how they mainstreamed SciFi in the public psyche.
+It would have been better with the genuine Asmiov stories, and more recently The
+Culture series by Iain M. Banks that so inspires Elon Musk, having named his
+Neuralink company and... and... Perplexity?
+
+Perplexity: Elon Musk has named several things inspired by Iain M. Banks' Culture series:
+
+1. SpaceX Drone Ships: 
+   Musk named three of SpaceX's autonomous spaceport drone ships after sentient starships from the Culture series:
+
+   - "Just Read the Instructions"
+   - "Of Course I Still Love You" 
+   - "A Shortfall of Gravitas"
+
+   These names come from ships mentioned in Banks' Culture novels[1][3].
+
+2. Neural Lace:
+   Musk borrowed the term "neural lace" from Banks' Culture series to describe the brain-computer interface technology his company Neuralink is developing. In the Culture novels, a neural lace is an implanted BMI that grows with a person's brain[2].
+
+3. Hyperloop:
+   While not directly named after anything in the Culture series, Musk's Hyperloop concept of high-speed transportation in vacuum tubes bears similarities to technology described in Banks' novels[2].
+
+Musk has expressed admiration for Banks' work, even describing himself as a "utopian anarchist" in the vein of the Culture series[3]. However, some have argued that Musk's interpretation and use of Banks' ideas differs significantly from the author's original anti-capitalist vision[1].
+
+Citations:
+
+    [1] https://www.reddit.com/r/TheCulture/comments/z4apnf/elon_musk_is_inspired_by_iain_bankss_utopian/
+    [2] https://www.tbsnews.net/feature/panorama/culture-sci-fi-series-shaped-elon-musks-ideas-133537
+    [3] https://www.theweek.in/theweek/leisure/2022/01/15/elon-musk-and-jeff-bezos-are-transforming-science-fiction-into-serious-business.html
+    [4] https://www.inc.com/business-insider/14-books-elon-musk-thinks-you-should-read.html
+    [5] https://www.adamsmith.org/blog/its-not-elon-musk-with-the-misunderstanding-here
+    [6] https://www.space.com/28445-spacex-elon-musk-drone-ships-names.html
+    [7] https://www.telegraph.co.uk/books/what-to-read/does-elon-musk-really-understand-books-claims-inspired/
+    [8] https://www.tesmanian.com/blogs/tesmanian-blog/droneships
+
+The future is bright and on a silver platter for those smart enough to see it
+and pick through its offerings. For me personally, it's overcoming Dunning
+Kruger effect. Damn it, I am as good as I think. Just because an abstract
+thinker who has some basic automechanic-like diagnostic skills can't do
+differential equations doesn't mean I can't be an engineer. There's
+mathematicians who can make sure that bridge won't blow over in the wind. Even
+good engineers can't predict every... every... Perplexity what are those
+harmonics that can bring down bridges, and shouldn't those engineers have known
+better, and were they victims of DKE?
+
+Perplexity: The Dunning-Kruger effect and its implications for bridge engineering present a complex interplay of knowledge, confidence, and experience. Here's a summary addressing your specific points:
+
+## Engineers and Bridge Design
+
+1. Historical context is crucial when evaluating past engineering failures. The engineers who designed bridges like the Tacoma Narrows didn't necessarily have the knowledge we possess today[3].
+
+2. The collapse of the Tacoma Narrows Bridge in 1940 was not due to simple resonance as often believed, but to a more complex phenomenon called aeroelastic flutter[3].
+
+3. This failure significantly advanced our understanding of bridge aerodynamics and aeroelastics, influencing future designs[3].
+
+## Dunning-Kruger Effect in Engineering
+
+1. The Dunning-Kruger effect describes how people with limited knowledge in a field tend to overestimate their abilities[1][2].
+
+2. In engineering, this can manifest as overconfidence in junior engineers or rash decisions by managerial staff who lack technical depth[1].
+
+3. The effect is often visualized as a curve, with people starting at "Mount Stupid" before descending into a "Valley of Despair" as they realize how much they don't know[2][4].
+
+## Hubris and Knowledge in Bridge Engineering
+
+1. The engineers who designed bridges like the Tacoma Narrows were likely at a point in the Dunning-Kruger curve where they had enough knowledge to be confident, but not enough to recognize all potential issues[3][5].
+
+2. This state of being "knowledgeable enough to be dangerous" aligns with the Dunning-Kruger effect, where limited knowledge can lead to overconfidence[4][5].
+
+3. The hubris of thinking they could design these bridges without considering all factors does reflect aspects of the Dunning-Kruger effect, but it's important to note that they were working with the best knowledge available at the time[3].
+
+## The "Tower of Babel" Undertones
+
+The analogy to the Tower of Babel is apt in this context:
+
+1. Like the builders of Babel, these engineers had grand ambitions and confidence in their abilities.
+
+2. Their "tower" (the bridge) ultimately failed due to factors they didn't fully understand or consider.
+
+3. The failure led to a dispersal of knowledge and a humbling realization of limitations, much like the Babel story.
+
+4. However, unlike Babel, these engineering failures ultimately led to greater understanding and improved designs in the future[3].
+
+In conclusion, while the engineers who designed these bridges exhibited some characteristics of the Dunning-Kruger effect, it's crucial to view their work in the context of the knowledge available at the time. Their failures, though tragic, contributed significantly to the advancement of engineering knowledge and practices.
+
+Citations:
+
+    [1] https://www.theengineeringmanager.com/growth/mount-stupid/
+    [2] https://builtin.com/software-engineering-perspectives/dunning-kruger-effect
+    [3] https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)
+    [4] https://www.dateo-software.de/blog/dunning-kruger
+    [5] https://www.embs.org/pulse/articles/getting-past-the-know-it-all-stage/
+    [6] https://dev.to/iwooky/unpacking-the-dunning-kruger-effect-in-software-development-1i5l
+    [7] https://twm.me/posts/programmer-journey-dunning-kruger-effect/
+    [8] https://www.forbes.com/sites/startswithabang/2017/05/24/science-busts-the-biggest-myth-ever-about-why-bridges-collapse/
 
