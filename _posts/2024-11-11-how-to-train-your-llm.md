@@ -1141,3 +1141,11 @@ The key changes from the current implementation are:
 5. Maintaining strict sequencing as per docstring requirements
 
 Would you like me to implement any other part or explain any section in more detail?
+
+## This Dragon... I mean LLM is Trained
+
+...at least until the next session at which time it's not. But then I just give
+it the ol Neo Kung Fu Download... **BAM!** Trained again. This is not prompt
+engineering. This is crash-course educations in which theoretical learning has
+no line of separation from practical application. Such is the nature of dragons
+in the information age.
