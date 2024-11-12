@@ -2368,6 +2368,4 @@ analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
 <!-- #endregion -->
 
-```python
-
-```
+LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
