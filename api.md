@@ -3,7 +3,7 @@ permalink: /api/
 ---
 
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
-BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike. By the end of this document, you'll have Botifython Kung Fu.
+BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike to your Botifython Kung Fu download...
 
 ## Core Powers
 - **Data Bending**: Extract and manipulate massive crawl datasets with precision
