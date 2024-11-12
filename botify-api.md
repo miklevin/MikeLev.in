@@ -464,6 +464,7 @@ df.head()
 | https://example.com/foo          | Foo Title          | This is a description of Foo.              | Foo Heading        |
 | https://example.com/bar          | Bar Overview       | Bar is a collection of great resources.    | Bar Insights       |
 | https://example.com/baz          | Baz Guide          | Learn all about Baz and its applications.  | Baz Essentials     |
+
 ...
 
 *Data saved to `first_500_urls.csv`*
