@@ -1,5 +1,7 @@
 ---
 permalink: /api/
+---
+---
 jupyter:
   jupytext:
     text_representation:
@@ -13,7 +15,6 @@ jupyter:
     name: python3
 ---
 
-<!-- #region -->
 # Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
 
 BQL, or Botify Query Language, is a powerful query tool by Botify, designed for analyzing large-scale website data. Here’s a brief overview of BQL:
@@ -104,9 +105,7 @@ These examples guide you through core tasks:
 7. Querying URL counts by page type
 
 Starting with retrieving and validating your Botify API token, each example builds upon the last, enabling a strong foundation for leveraging BQL and the Botify API to gain insights into website data.
-<!-- #endregion -->
 
-<!-- #region -->
 # Purpose: Practicing Botify API in Python
 
 ## Technique: Step Through Examples to Build Skills
@@ -139,7 +138,6 @@ pip install pandas requests
 ```
 
 **Note**: Botify's API powers its Web UI and is both powerful and complex. This exercise ensures a smooth start with guided steps.
-<!-- #endregion -->
 
 # Get Token: How To Retreive Your Botify Employee API Token and Put In File
 
@@ -311,7 +309,8 @@ print("=" * 80)
 for name, slug, user in projects:
     print(f"{name:<30} {slug:<35} {user:<15}")
 
-print("\nDone")
+print("
+Done")
 ```
 
 **Sample Output**:
@@ -360,7 +359,8 @@ def fetch_analyses(org, project):
 # Output analysis slugs
 for slug in fetch_analyses(org, project):
     print(slug)
-print("\nDone")
+print("
+Done")
 ```
 
 **Sample Output**:
@@ -508,7 +508,6 @@ print("Data saved to first_500_urls.csv")
 df.head()
 ```
 
-<!-- #region -->
 **Sample Output**:
 
 
@@ -528,7 +527,6 @@ df.head()
 *Data saved to `first_500_urls.csv`*
 
 **Rationale**: To show you the main endpoint for listing 500 at a time, paging and quick aggregate queries. To show you how `org` and `project` are on the endpoint URL and to point out how that will change when we switch to exporting to download CSVs. Got that? Repeat it.
-<!-- #endregion -->
 
 ```python
 import json
@@ -637,7 +635,6 @@ print("Data saved to first_500_urls_titles.csv")
 df.head()
 ```
 
-<!-- #region -->
 **Sample Output**:
 
 | | url                               | title              | impressions | clicks |
@@ -648,7 +645,6 @@ df.head()
 
 
 **Rationale**: So that I can jump up and down screaming that BQL is not SQL and to stop showing me examples where you think it is. However, there is something like table joins across Collections, and I demonstrate that here. `search_console` data is held in a separate table from the crawl.
-<!-- #endregion -->
 
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
@@ -1169,10 +1165,12 @@ def start_export_job_for_short_titles(org, project, analysis, api_key):
             
             if job_status_details["job_status"] == "DONE":
                 download_url = job_status_details["results"]["download_url"]
-                print("\nDownload URL:", download_url)
+                print("
+Download URL:", download_url)
                 return download_url
             elif job_status_details["job_status"] == "FAILED":
-                print("\nJob failed. Error details:", job_status_details)
+                print("
+Job failed. Error details:", job_status_details)
                 return None
             print(".", end="", flush=True)
         
@@ -1388,7 +1386,8 @@ def download_file(url, save_path):
     with open(save_path, "wb") as file:
         for chunk in response.iter_content(chunk_size=8192):
             file.write(chunk)
-    print(f"\nFile downloaded as '{save_path}'")
+    print(f"
+File downloaded as '{save_path}'")
 
 # Main execution
 print("Determining optimal depth for link graph export...")
@@ -1486,7 +1485,8 @@ def preview_data(org, project, analysis, depth=1):
         ]
     }
 
-    print(f"\n🔍 Sampling data for {org}/{project}/{analysis}")
+    print(f"
+🔍 Sampling data for {org}/{project}/{analysis}")
     print("=" * 50)
 
     response = requests.post(url, headers=headers, json=data_payload)
@@ -1499,7 +1499,8 @@ def preview_data(org, project, analysis, depth=1):
         print("⚠️  No preview data available")
         return False
         
-    print("\n📊 Data Sample Analysis")
+    print("
+📊 Data Sample Analysis")
     print("-" * 30)
     metrics_found = 0
     for result in data['results'][:3]:  # Show just top 3 for cleaner output
@@ -1510,7 +1511,8 @@ def preview_data(org, project, analysis, depth=1):
         print(f"• URL: {url[:60]}...")
         print(f"  └─ Performance: {impressions:,} impressions, {clicks:,} clicks")
     
-    print("\n🎯 Data Quality Check")
+    print("
+🎯 Data Quality Check")
     print("-" * 30)
     print(f"✓ URLs found: {len(data['results'])}")
     print(f"✓ Search metrics: {'Available' if metrics_found else 'Not found'}")
@@ -1668,7 +1670,8 @@ def check_compliance_fields(org, project, analysis):
         ]
     }
     
-    print("\n🔍 Field Availability Analysis")
+    print("
+🔍 Field Availability Analysis")
     print("=" * 50)
     available_count = 0
     total_count = sum(len(fields) for fields in compliance_categories.values())
@@ -1676,7 +1679,8 @@ def check_compliance_fields(org, project, analysis):
     available_fields = []
     for category, fields in compliance_categories.items():
         available_in_category = 0
-        print(f"\n📑 {category}")
+        print(f"
+📑 {category}")
         print("-" * 30)
         for field in fields:
             full_field = f"{collection}.{field}"
@@ -1702,7 +1706,8 @@ def check_compliance_fields(org, project, analysis):
                 print(f"? {field.split('.')[-1]} (error checking)")
     
     coverage = (available_count / total_count) * 100
-    print(f"\n📊 Field Coverage: {coverage:.1f}%")
+    print(f"
+📊 Field Coverage: {coverage:.1f}%")
     return available_fields
 
 def main():
@@ -1730,14 +1735,16 @@ def main():
         print("Data preview successful. Proceeding with full export...")
         print("Fetching BQLv2 data...")
         df = get_bqlv2_data(org, project, analysis)
-        print("\nData Preview:")
+        print("
+Data Preview:")
         print(df.head())
 
         # Save to CSV
         Path("downloads").mkdir(parents=True, exist_ok=True)
         output_file = f"downloads/{org}_{project}_{analysis}_metadata.csv"
         df.to_csv(output_file, index=False)
-        print(f"\nData saved to {output_file}")
+        print(f"
+Data saved to {output_file}")
         
         # Use check_compliance_fields
         check_compliance_fields(org, project, analysis)
@@ -1902,7 +1909,8 @@ def preview_data(org, project, analysis, depth=1):
         ]
     }
 
-    print(f"\n🔍 Sampling data for {org}/{project}/{analysis}")
+    print(f"
+🔍 Sampling data for {org}/{project}/{analysis}")
     print("=" * 50)
 
     response = requests.post(url, headers=headers, json=data_payload)
@@ -1915,7 +1923,8 @@ def preview_data(org, project, analysis, depth=1):
         print("⚠️  No preview data available")
         return False
         
-    print("\n📊 Data Sample Analysis")
+    print("
+📊 Data Sample Analysis")
     print("-" * 30)
     metrics_found = 0
     for result in data['results'][:3]:  # Show just top 3 for cleaner output
@@ -1926,7 +1935,8 @@ def preview_data(org, project, analysis, depth=1):
         print(f"• URL: {url[:60]}...")
         print(f"  └─ Performance: {impressions:,} impressions, {clicks:,} clicks")
     
-    print("\n🎯 Data Quality Check")
+    print("
+🎯 Data Quality Check")
     print("-" * 30)
     print(f"✓ URLs found: {len(data['results'])}")
     print(f"✓ Search metrics: {'Available' if metrics_found else 'Not found'}")
@@ -1983,21 +1993,25 @@ def get_bqlv2_data(org, project, analysis):
         }
     }
 
-    print("\nStarting export job...")
+    print("
+Starting export job...")
     response = requests.post(url, json=data_payload, headers=headers)
     job_data = response.json()
     job_url = f"https://api.botify.com{job_data['job_url']}"
     print(f"Job created successfully (ID: {job_data['job_id']})")
     
-    print("\nPolling for job completion: ", end="", flush=True)
+    print("
+Polling for job completion: ", end="", flush=True)
     while True:
         time.sleep(5)  # Poll every 5 seconds
         status = requests.get(job_url, headers=headers).json()
-        print(f"\nCurrent status: {status['job_status']}")
+        print(f"
+Current status: {status['job_status']}")
         
         if status['job_status'] in ['COMPLETE', 'DONE']:
             download_url = status['results']['download_url']
-            print(f"\nDownload URL: {download_url}")
+            print(f"
+Download URL: {download_url}")
             
             # Download and process the file
             gz_filename = "export.csv.gz"
@@ -2029,7 +2043,8 @@ def get_bqlv2_data(org, project, analysis):
             return df
             
         elif status['job_status'] == 'FAILED':
-            print(f"\nJob failed. Error details: {status}")
+            print(f"
+Job failed. Error details: {status}")
             raise Exception("Export job failed")
             
         elif status['job_status'] in ['CREATED', 'PROCESSING']:
@@ -2037,7 +2052,8 @@ def get_bqlv2_data(org, project, analysis):
             continue
             
         else:
-            print(f"\nUnexpected status: {status}")
+            print(f"
+Unexpected status: {status}")
             raise Exception(f"Unexpected job status: {status['job_status']}")
 
 def fetch_fields(org: str, project: str, collection: str) -> List[str]:
@@ -2099,7 +2115,8 @@ def check_compliance_fields(org, project, analysis):
         ]
     }
     
-    print("\n🔍 Field Availability Analysis")
+    print("
+🔍 Field Availability Analysis")
     print("=" * 50)
     available_count = 0
     total_count = sum(len(fields) for fields in compliance_categories.values())
@@ -2107,7 +2124,8 @@ def check_compliance_fields(org, project, analysis):
     available_fields = []
     for category, fields in compliance_categories.items():
         available_in_category = 0
-        print(f"\n📑 {category}")
+        print(f"
+📑 {category}")
         print("-" * 30)
         for field in fields:
             full_field = f"{collection}.{field}"
@@ -2133,7 +2151,8 @@ def check_compliance_fields(org, project, analysis):
                 print(f"? {field.split('.')[-1]} (error checking)")
     
     coverage = (available_count / total_count) * 100
-    print(f"\n📊 Field Coverage: {coverage:.1f}%")
+    print(f"
+📊 Field Coverage: {coverage:.1f}%")
     return available_fields
 
 def download_and_process_csv(download_url, output_filename):
@@ -2181,14 +2200,16 @@ def main():
         print("Data preview successful. Proceeding with full export...")
         print("Fetching BQLv2 data...")
         df = get_bqlv2_data(org, project, analysis)
-        print("\nData Preview:")
+        print("
+Data Preview:")
         print(df.head())
 
         # Save to CSV
         Path("downloads").mkdir(parents=True, exist_ok=True)
         output_file = f"downloads/{org}_{project}_{analysis}_metadata.csv"
         df.to_csv(output_file, index=False)
-        print(f"\nData saved to {output_file}")
+        print(f"
+Data saved to {output_file}")
         
         # Use check_compliance_fields
         check_compliance_fields(org, project, analysis)
@@ -2263,7 +2284,6 @@ if __name__ == "__main__":
 
 **Rationale**: So you've mastered the dark arts of BQL and enterprise SEO diagnostics, turning website analysis into something between a medical imaging suite and a data science lab. Your code transforms cold metrics into a digital CAT scan of your site's SEO health - rendering every canonical issue and search signal into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data and rendering flags... except instead of "it's never lupus," we're usually muttering "it's always the JavaScript." And just like medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture.
 
-<!-- #region -->
 Here's a tighter, streamlined version that keeps all essentials:
 
 ---
@@ -2371,6 +2391,5 @@ query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
 ```
-<!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
