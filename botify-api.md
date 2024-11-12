@@ -7,72 +7,61 @@ BQL query assistance.
 
 # Introduction to BQL ([I Know Kung Fu](https://mikelev.in/botify-api.md))
 
-BQL stands for Botify Query Language. It is a powerful query language developed by Botify, a leading enterprise SEO platform, to help users analyze and manipulate large-scale website data. Here are some key points about BQL:
+BQL, or Botify Query Language, is a powerful query tool by Botify, designed for analyzing large-scale website data. Here’s a brief overview of BQL:
 
 ## Purpose and Functionality
 
-- BQL is designed to perform complex data retrieval and analytics on website crawl data within the Botify platform.
-
-- It allows users to query, filter, and analyze various aspects of their website's structure, content, and performance.
+- BQL enables complex data retrieval and analysis on Botify’s website crawl data, allowing users to filter and analyze website structure, content, and performance.
 
 ## Key Features
 
-- **Data Retrieval**: BQL can extract specific information from Botify's comprehensive website crawl data.
-
-- **Advanced Filtering**: Users can apply complex filters to narrow down data to specific subsets of pages or attributes.
-
-- **Custom Metrics**: BQL supports the creation of custom metrics and calculations based on existing data points.
-
-- **Segmentation**: It enables the segmentation of website data for more targeted analysis.
+- **Data Retrieval**: Extract specific information from Botify's comprehensive crawl data.
+- **Advanced Filtering**: Apply complex filters to focus on specific page subsets or attributes.
+- **Custom Metrics**: Create calculations based on existing data points.
+- **Segmentation**: Segment website data for targeted analysis.
 
 ## Usage
 
-BQL (Botify Query Language) is essential for programmatically accessing Botify's data through its API. While the language is powerful, learning it can be challenging without structured examples. This document provides a step-by-step guide through increasingly complex BQL queries, helping both human developers and AI systems understand how to:
+BQL is essential for programmatic access to Botify data via its API, allowing developers and AI systems to:
 
 - Authenticate and navigate the API structure
-- Query and analyze website crawl data
+- Query and analyze crawl data
 - Build custom reports and data pipelines
-- Transform raw crawl data into actionable insights
+- Transform raw data into actionable insights
 
-Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API that can be copy/pasted directly into a Jupyter Notebook and run. The only dependencies outside the standard Python library is `requests`, `pandas` and the presense of your `botify_token.txt` and a `config.json` file addressed at the start.
+Each example builds on previous concepts, providing a practical foundation for working with BQL and the Botify API in Jupyter Notebooks. Dependencies are minimal: `requests`, `pandas`, a `botify_token.txt`, and `config.json`.
 
 ## Query Structure and Endpoint
 
-A typical BQL query is structured as a JSON object and includes:
+A typical BQL query is a JSON object with:
 
-1. Collections to query
-2. Dimensions (fields to group by)
-3. Metrics (data to aggregate)
-4. Sorting criteria
+1. **Collections** to query
+2. **Dimensions** for grouping
+3. **Metrics** for data aggregation
+4. **Sorting** criteria
 
-Unless initating a `.csv` download, endpoints for BQL queries must include the organization and project slug in the URL:
+For API calls, include organization and project slugs in the URL unless downloading a `.csv`:
 
 ```python
 url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
 ```
 
-For example, a BQL query might look like this:
+### Example BQL Query
+
+This example retrieves URL counts by page type:
 
 ```python
 import requests
 
-# Replace these placeholders with your actual values
+# Define API variables
 org = "your_organization_slug"
 project = "your_project_slug"
-analysis = "your_analysis_date"
 collection = "your_collection_name"
 api_key = "your_api_key_here"
-
-# Define the URL for the API request
 url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
-# Set headers for authorization and content type
-headers = {
-    "Authorization": f"Token {api_key}",
-    "Content-Type": "application/json"
-}
-
-# Define the payload for the BQL query
+# BQL query payload
 payload = {
     "collections": [collection],
     "query": {
@@ -85,39 +74,37 @@ payload = {
     }
 }
 
-# Send the POST request to the API
+# Send POST request
 response = requests.post(url, headers=headers, json=payload)
-response.raise_for_status()  # Raise an error if the request fails
-
-# Print results
+response.raise_for_status()
 print(response.json())
 ```
 
-This query retrieves the count of URLs for each page type, sorted in descending order, from crawl data collected on November 1, 2024. For a .csv download of this data, a modified version of the query would place the org and project slugs into the JSON POST payload (demonstrated below). BQL’s power and flexibility make it an essential tool for SEO professionals and web analysts, enabling efficient, large-scale data analysis within the Botify platform. The following code examples illustrate practical Botify API interactions in Python, showing how to implement BQL for effective data retrieval and analysis.
+This query retrieves URL counts by page type, sorted by count in descending order, from a specific crawl. To download as a `.csv`, add organization and project slugs to the JSON payload.
 
-These examples cover essential tasks such as:
+## Step-by-Step Examples
 
-1. Retrieving and validating your Botify API token
+These examples guide you through core tasks:
+
+1. Retrieving and validating the Botify API token
 2. Fetching user information
 3. Listing organizations and projects
-4. Retrieving analysis slugs for a specific project
+4. Getting analysis slugs for a project
 5. Listing available collections
-6. Exploring fields within a collection
-7. Querying pagetype URL counts for a specific analysis
+6. Exploring fields in a collection
+7. Querying URL counts by page type
 
-Each example builds upon the previous ones, gradually introducing more complex interactions with the Botify API. By working through these examples, you'll gain a practical understanding of how to leverage BQL and the Botify API to extract valuable insights from your website data.
-
-Let's begin with the first example, which demonstrates how to retrieve and validate your Botify API token:
+Starting with retrieving and validating your Botify API token, each example builds upon the last, enabling a strong foundation for leveraging BQL and the Botify API to gain insights into website data.
 <!-- #endregion -->
 
 <!-- #region -->
-# Purpose: Practice Botify API in Python
+# Purpose: Practicing Botify API in Python
 
-## Technique: Step Through Examples Doing a Little of Everything
+## Technique: Step Through Examples to Build Skills
 
-### Configuration: We get started by setting up a JSON file for input values.
+### Configuration: Set Up a `config.json` for Input Values
 
-Use `config.json` in your folder to set the input values used in running these scripts. You can start with just `org` adding fields as you go. These script examples are roughly the same as Botify's [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0) in Google Sheets.
+Create a `config.json` file in your working directory to input values for the scripts. Start with `"org"`, and add more fields as you go. These examples align with Botify’s [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0).
 
 ```json
 {
@@ -125,7 +112,7 @@ Use `config.json` in your folder to set the input values used in running these s
 }
 ```
 
-As you step through examples, you add fields to `config.json` found in the same folder as everything else. The output from code examples become the values you use here, customized to your particular client.
+Add fields in `config.json` as you proceed, with outputs from each code example tailored to your specific setup.
 
 ```json
 {
@@ -136,14 +123,13 @@ As you step through examples, you add fields to `config.json` found in the same 
 }
 ```
 
-Each cell-block below can be copy/pasted as a complete stand-alone script. You will probably only need to pip install `pandas` and `requests`.
+Each script cell can be copy/pasted and run independently. You'll likely need only `pandas` and `requests`.
 
-```python
-pip install pandas
-pip install requests
+```bash
+pip install pandas requests
 ```
 
-**Rationale**: The Botify API was designed to power the Botify Web UI, and is as a result both powerful and complex. Some measures must be taken therefore, i.e. this exercise, to ensure a postive and successful experience.
+**Note**: Botify's API powers its Web UI and is both powerful and complex. This exercise ensures a smooth start with guided steps.
 <!-- #endregion -->
 
 # Get Token: How To Retreive Your Botify Employee API Token and Put In File
@@ -152,47 +138,40 @@ Visit this link https://app.botify.com/account/
 
 ```python
 import requests
-import sys
 import os
 from getpass import getpass
 
-def validate_token(api_token):
-    """Validate the API token by attempting to fetch the username."""
-    base_url = "https://api.botify.com/v1/authentication/profile"
-    headers = {"Authorization": f"Token {api_token}"}
+def validate_token(token):
+    """Check if the Botify API token is valid."""
+    url = "https://api.botify.com/v1/authentication/profile"
+    headers = {"Authorization": f"Token {token}"}
     try:
-        response = requests.get(base_url, headers=headers)
-        response.raise_for_status()
+        requests.get(url, headers=headers).raise_for_status()
         return True
     except requests.RequestException:
         return False
 
-# Check if the token file already exists
+# Define token file
 token_file = "botify_token.txt"
 
+# Check for existing token file or prompt for a new token
 if os.path.exists(token_file):
-    with open(token_file, 'r') as f:
-        api_token = f.read().strip()
-    
-    if validate_token(api_token):
-        print("API Token is already validated and saved in botify_token.txt.")
-    else:
-        print("Saved token is invalid. Please re-enter a valid token.")
-        os.remove(token_file)  # Remove invalid token to prompt for a new one
+    with open(token_file) as f:
+        token = f.read().strip()
+    if not validate_token(token):
+        print("Invalid saved token. Re-enter a valid token.")
+        os.remove(token_file)
 else:
-    # Prompt user for API token
     while True:
-        api_token = getpass("Paste your API token here (or type 'exit' to quit): ").strip()
-        if api_token.lower() == 'exit':
+        token = getpass("Enter your API token (or 'exit' to quit): ").strip()
+        if token.lower() == 'exit':
             sys.exit("Exiting without saving API token.")
-        if validate_token(api_token):
-            # Save the token to botify_token.txt with no quotes
+        if validate_token(token):
             with open(token_file, 'w') as f:
-                f.write(api_token)
-            print("API Token validated and saved to botify_token.txt.")
+                f.write(token)
+            print("API Token validated and saved.")
             break
-        else:
-            print("Invalid token, please try again or type 'exit' to quit.")
+        print("Invalid token, please try again.")
 
 print("Done")
 ```
@@ -229,70 +208,48 @@ print(username)
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
 
 ```python
-# Get List of Projects And Their Orgs Given Username
-
-import json
 import requests
 
 # Load API key
 api_key = open('botify_token.txt').read().strip()
+headers = {"Authorization": f"Token {api_key}"}
 
-def get_username(api_key):
+def get_username():
     """Fetch the username associated with the API key."""
-    headers = {"Authorization": f"Token {api_key}"}
     try:
         response = requests.get("https://api.botify.com/v1/authentication/profile", headers=headers)
         response.raise_for_status()
-        user_data = response.json()
-        username = user_data["data"]["username"]
-        print(f"Username: {username}")
-        return username
+        return response.json()["data"]["username"]
     except requests.RequestException as e:
         print(f"Error fetching username: {e}")
-        return None
 
-def fetch_projects_for_user(username, api_key):
-    """Fetch all projects associated with a given username from the Botify API."""
-    projects_url = f"https://api.botify.com/v1/projects/{username}"
-    headers = {"Authorization": f"Token {api_key}"}
-    all_projects = []
-
+def fetch_projects(username):
+    """Fetch all projects for a given username from Botify API."""
+    url = f"https://api.botify.com/v1/projects/{username}"
+    projects = []
     try:
-        while projects_url:
-            response = requests.get(projects_url, headers=headers)
+        while url:
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             data = response.json()
-            all_projects.extend(
-                (
-                    project['name'],       # Project Name
-                    project['slug'],       # Project Slug
-                    project['user']['login']  # Project User Login
-                )
-                for project in data.get('results', [])
+            projects.extend(
+                (p['name'], p['slug'], p['user']['login']) for p in data.get('results', [])
             )
-            projects_url = data.get('next')  # Move to the next page if available
-        return sorted(all_projects)
+            url = data.get('next')
+        return sorted(projects)
     except requests.RequestException as e:
         print(f"Error fetching projects for {username}: {e}")
         return []
 
-# Fetch the username from the API
-username = get_username(api_key)
+username = get_username()
 if username:
-    # Fetch projects for the retrieved username
-    projects = fetch_projects_for_user(username, api_key)
-
-    # Display column labels
+    projects = fetch_projects(username)
     print(f"{'Project Name':<30} {'Project Slug':<35} {'User or Org':<15}")
     print("=" * 80)
-
-    # Display projects in aligned format
-    for project_name, project_slug, project_user in projects:
-        print(f"{project_name:<30} {project_slug:<35} {project_user:<15}")
-
-    print("\nDone")
+    for name, slug, user in projects:
+        print(f"{name:<30} {slug:<35} {user:<15}")
 else:
-    print("Failed to retrieve username and projects.")
+    print("Failed to retrieve username or projects.")
 ```
 
 **Sample Output**:
@@ -306,57 +263,44 @@ Bar Test                       bar.com                             bar-org
 Baz Test                       baz.com                             baz-org       
 ```
 
-**Rationale**: You need an Organization slug (org) to get started. If there is one already associated with your account in Botify, this will show it under the `User or Org` column. If there is, you can lift it from here. If not, you have to find one from your project bookmarks or adim site.
+**Rationale**: You need an Organization slug (org) to get started with these exercises.
 
 
 # List Projects: How To Get the List of Projects Given an Organization
 
 ```python
-# Get List of Projects Given an Organization
-
 import json
 import requests
 
+# Load configuration and API key
 config = json.load(open("config.json"))
 api_key = open('botify_token.txt').read().strip()
+org = config['org']
 
-org = config['org']  # At this point, you should edit your confg.json to add an org.
-
-def fetch_projects(org, api_key):
-    """Fetch all projects for a given organization from the Botify API."""
-    projects_url = f"https://api.botify.com/v1/projects/{org}"
+def fetch_projects(org):
+    """Fetch all projects for a given organization from Botify API."""
+    url = f"https://api.botify.com/v1/projects/{org}"
     headers = {"Authorization": f"Token {api_key}"}
-    all_projects = []
-
+    projects = []
+    
     try:
-        while projects_url:
-            response = requests.get(projects_url, headers=headers)
+        while url:
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             data = response.json()
-            all_projects.extend(
-                (
-                    project['name'],       # Project Name
-                    project['slug'],       # Project Slug
-                    project['user']['login']  # Project User Login
-                )
-                for project in data.get('results', [])
-            )
-            projects_url = data.get('next')
-        return sorted(all_projects)
+            projects.extend((p['name'], p['slug'], p['user']['login']) for p in data.get('results', []))
+            url = data.get('next')
+        return sorted(projects)
     except requests.RequestException as e:
-        print(f"Error fetching projects for {org}: {e}")
+        print(f"Error fetching projects: {e}")
         return []
 
+projects = fetch_projects(org)
 
-projects = fetch_projects(org, api_key)
-
-# Display column labels
 print(f"{'Project Name':<30} {'Project Slug':<35} {'User Login':<15}")
 print("=" * 80)
-
-# Display projects in aligned format
-for project_name, project_slug, project_user in projects:
-    print(f"{project_name:<30} {project_slug:<35} {project_user:<15}")
+for name, slug, user in projects:
+    print(f"{name:<30} {slug:<35} {user:<15}")
 
 print("\nDone")
 ```
@@ -370,57 +314,43 @@ Project Name                   Project Slug                        User Login
 Legendary Product Vault        legendary-product-vault             foo-bar       
 Hidden Content Cove            hidden-content-cove                 foo-bar       
 Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-bar       
-Epic Storefront Sprawl         epic-storefront-sprawl              foo-bar       
-Mystic Content Chamber         mystic-content-chamber              foo-bar       
-Wondrous Local Bazaar          wondrous-local-bazaar               foo-bar       
-Magical Product Menagerie      magical-product-menagerie           foo-bar       
-Catalog of Enchanted Wares     catalog-of-enchanted-wares          foo-bar       
-Phantom Inventory Island       phantom-inventory-island            foo-bar       
 ```
 
-**Rationale**: To retrieve project data for an organization, you’ll need an `Organization` slug (org) that links to the Botify account. This list provides each project’s name, slug, and associated user login, which you can use to identify and manage projects tied to a specific organization.
+**Rationale**: Next, you need Project slugs for these exercises.
 
 
 # List Analyses: How To Get the List of Analysis Slugs Given a Project
 
 ```python
-# Get List of Analysis Slugs Given a Project
-
 import json
 import requests
 
+# Load configuration and API key
 config = json.load(open("config.json"))
 api_key = open('botify_token.txt').read().strip()
-org = config['org']
+org, project = config['org'], config['project']
 
-project = config['project']  # At this point, you should edit your config.json to add a project.
-
-def fetch_analyses(org, project, api_key):
-    """Fetch analysis slugs for a given project from the Botify API."""
-    analysis_url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
+def fetch_analyses(org, project):
+    """Fetch analysis slugs for a given project from Botify API."""
+    url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
     headers = {"Authorization": f"Token {api_key}"}
-    all_analysis_slugs = []
-
+    slugs = []
+    
     try:
-        while analysis_url:
-            response = requests.get(analysis_url, headers=headers)
+        while url:
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             data = response.json()
-            all_analysis_slugs.extend(
-                analysis['slug'] for analysis in data.get('results', [])
-            )
-            analysis_url = data.get('next')
-        return all_analysis_slugs
+            slugs.extend(a['slug'] for a in data.get('results', []))
+            url = data.get('next')
+        return slugs
     except requests.RequestException as e:
-        print(f"Error fetching analyses for project '{project}': {e}")
+        print(f"Error fetching analyses: {e}")
         return []
 
-# Fetch analyses
-analyses = fetch_analyses(org, project, api_key)
-
-for slug in analyses:
+# Output analysis slugs
+for slug in fetch_analyses(org, project):
     print(slug)
-
 print("\nDone")
 ```
 
@@ -435,14 +365,12 @@ print("\nDone")
 20231101
 ```
 
-**Rationale**: Analysis slugs are typically dates in YYYYMMDD format, representing when each analysis was performed. You'll need one of these analysis slugs for your config.json file to query specific crawl data. If Botify runs a second crawl for the same time-period, it will suffix the analysis slug with an incremeted `-n` extension starting with `-2` (for the 2nd run). If you are finding the most recent analysis slug and it ends with a suffix increment, it should be used as it is the latest and there is likely a reason the crawl was re-run.
+**Rationale**: Analysis slugs are dates in YYYYMMDD format but sometimes get incremeted with `-n` extensions starting with `-2`. They're third thing you typically need for these exercises.
 
 
 # List URLs: How To Get a List of the First 500 URLs
 
 ```python
-# List the First 500 URLs
-
 import json
 import requests
 import pandas as pd
@@ -465,7 +393,7 @@ def get_bqlv2_data(org, project, analysis, api_key):
             "dimensions": [
                 f"crawl.{analysis}.url"
             ],
-            "metrics": []
+            "metrics": []  # Don't come crying to me when you delete this and it stops working.
         }
     }
 
@@ -484,7 +412,7 @@ list_of_urls = [url['dimensions'][0] for url in data['results']]
 
 for i, url in enumerate(list_of_urls):
     print(i + 1, url)
-    if i >= 20:
+    if i >= 19:
         break
 ```
 
@@ -513,15 +441,12 @@ for i, url in enumerate(list_of_urls):
 20 https://example.com/page20
 ```
 
-**Rationale**: This function demonstrates a simple Botify API query to list URLs from a specific analysis. The output displays the first 500 URLs (only 20 shown here for brevity). This setup only retrieves URLs from the specified collection and analysis without any additional fields, metrics, filters or sorting, serving as a pure, foundational listing for initial inspection or further incremental development.
+**Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it.
 
-```python
+
 # List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
-```
 
 ```python
-# List the First 500 URLs, Titles, Meta Descriptions and H1s
-
 import json
 import requests
 import pandas as pd
@@ -593,12 +518,10 @@ df.head()
 
 *Data saved to `first_500_urls.csv`*
 
-**Rationale**: This output retrieves common SEO fields (`URL`, `Title`, `Meta Description`, and `H1`) following a crawl, providing essential metadata for a foundational SEO audit. It facilitates a quick review of each page's main content signals. This example also layers in the common practice of using the `pandas` package for handling row and column data, replacing Excel and saving **.csv** files.
+**Rationale**: To show you the main endpoint for listing 500 at a time, paging and quick aggregate queries. To show you how `org` and `project` are on the endpoint URL and to point out how that will change when we switch to exporting to download CSVs. Got that? Repeat it.
 <!-- #endregion -->
 
 ```python
-# List the First 500 URLs and Titles
-
 import json
 import requests
 import pandas as pd
@@ -705,29 +628,22 @@ print("Data saved to first_500_urls_titles.csv")
 df.head()
 ```
 
+<!-- #region -->
 **Sample Output**:
 
-| url                               | title              | impressions | clicks |
-|-----------------------------------|--------------------|-------------|--------|
-| https://example.com/foo           | Foo Page Title    | 1200        | 35     |
-| https://example.com/bar           | Bar Page Title    | 1150        | 40     |
-| https://example.com/baz           | Baz Page Title    | 980         | 25     |
-| https://example.com/spam          | Spam Page Title   | 850         | 30     |
-| https://example.com/eggs          | Eggs Page Title   | 700         | 20     |
-| https://example.com/foo-bar       | Foo-Bar Title     | 650         | 18     |
-| https://example.com/foo-baz       | Foo-Baz Title     | 600         | 22     |
-| https://example.com/bar-baz       | Bar-Baz Title     | 550         | 15     |
-| https://example.com/spam-eggs     | Spam-Eggs Title   | 500         | 12     |
-| https://example.com/eggs-baz      | Eggs-Baz Title    | 450         | 10     |
+| | url                               | title              | impressions | clicks |
+|-|-----------------------------------|--------------------|-------------|--------|
+|0| https://example.com/foo           | Foo Page Title    | 1200        | 35     |
+|1| https://example.com/bar           | Bar Page Title    | 1150        | 40     |
+|2| https://example.com/baz           | Baz Page Title    | 980         | 25     |
 
-**Rationale**: This example demonstrates a "table join" between two collections within the Botify API, combining data from both the `crawl` and `search_console` collections. It highlights how to nest metrics and sorting within the `query` field to retrieve and organize data effectively. Additionally, this example introduces the required date-range period for search console data, ensuring that impressions and clicks are analyzed over a specified timeframe. Pay careful attention to how required fields and how they are nested when building a JSON query payload.
 
+**Rationale**: So that I can jump up and down screaming that BQL is not SQL and to stop showing me examples where you think it is. However, there is something like table joins across Collections, and I demonstrate that here. `search_console` data is held in a separate table from the crawl.
+<!-- #endregion -->
 
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
 ```python
-# Get Pagetype Segment Data for a Project With URL Counts
-
 import requests
 import json
 
@@ -783,10 +699,6 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 {
     "results": [
         {
-            "dimensions": ["search"],
-            "metrics": [2340000]
-        },
-        {
             "dimensions": ["pdp"],
             "metrics": [82150]
         },
@@ -798,22 +710,16 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
             "dimensions": ["category"],
             "metrics": [44420]
         },
-        {
-            "dimensions": ["error"],
-            "metrics": [3000]
-        },
         [...]
     ],
     "previous": null,
-    "next": "https://api.botify.com/v1/projects/example-project/query?page=1",
+    "next": "https://api.botify.com/v1/org/project/query?page=1",
     "page": 1,
     "size": 10
 }
 ```
 
-**Rationale**: This example demonstrates a straightforward BQL query, retrieving a breakdown of URL counts by page type for a recent crawl. Key page types, such as "search," "pdp," and "category," are included, allowing SEO teams and analysts to quickly gauge which sections of a site are the most frequently crawled or accessed. Sorting by URL count in descending order highlights high-traffic areas, providing a quick snapshot of site structure and user engagement.
-
-This setup illustrates the basics of querying Botify’s API for site data analysis, making it ideal for beginners who need to familiarize themselves with BQL syntax and structure. For more comprehensive reports, such as full dataset exports, this query could be modified to output to a CSV format. This initial example provides a foundation for users to build more intricate queries as they advance with Botify’s powerful data analysis tools.
+**Rationale**: To have a 1-table example with dimensions, metrics and sorting all at the same time. Also to show you the `page` parameter on the querystring making you think it's the **GET method**, `org` & `project` arguments posing as folders, and finally a JSON `payload` showing you it's actually using the **POST method**. Ahhh, *gotta love the Botify API*.
 
 
 # List Collections: How To Get the List of Collections Given a Project
@@ -855,14 +761,13 @@ for collection_id, collection_name in collections:
 **Sample Output**:
 
 ```
-ID: crawl.20241018, Name: 2024 Oct. 18th
 ID: crawl.20240917, Name: 2024 Sept. 17th
-ID: crawl.20240816, Name: 2024 Aug. 16th
+ID: actionboard_ml.20240917, Name: ActionBoard ML
 ID: crawl.20240715, Name: 2024 July 15th
-ID: crawl.20240614, Name: 2024 June 14th
+ID: search_engines_orphans.20240715, Name: Search Engines Orphans
 ```
 
-**Rationale**: This script retrieves a list of available data collections for a specific project in Botify. Collections in Botify represent various datasets, such as crawls, logs, or search data, which SEO teams and analysts can query and analyze. By using this script, users can access the collection IDs and names for a project, providing a foundational understanding of the data types available for further analysis.
+**Rationale**: To give you some inkling of knowing how diffiult it's going to be to know what collections are, what collections you have, and what you can do with them. Suffice to say, 9 out of 10 times you want the `crawl.YYYYMMDD` or `search_console` collections. If not, come talk to me, I wanna pick your brain.
 
 
 # List Fields: How To Get The List of Fields Given a Collection
@@ -908,18 +813,13 @@ for field_id, field_name in fields:
 
 ```
 Fields for collection 'crawl.20241101':
-ID: noodle_id, Name: Noodle Identifier
-ID: sauce_level, Name: Sauce Intensity
-ID: spoon_type, Name: Spoon Class
-ID: tasty_path, Name: Delicious Path
-ID: slurp_extension, Name: Slurp Style
-ID: yummy_zone, Name: Flavor Region
-ID: spice_alert.value, Name: Spice-O-Meter
-ID: spice_alert.depth_1, Name: Spice Level 1
-ID: cook_cache, Name: Chef's Cache
+ID: field_of_vision, Name: Survey the Landscape
+ID: field_of_dreams, Name: The Mind's Eye
+ID: straying_far_afield, Name: Go Home Spiderman
+ID: afield_a_complaint, Name: Red Swingline
 ```
 
-**Rationale**: Listing fields for a given collection is essential for understanding the data structure and available attributes in a Botify dataset. By querying the field IDs and names, this function enables developers to identify key data points like URLs, content elements, or performance metrics. With playful, culinary-inspired field names, the example output keeps things lighthearted while still illustrating the diversity of fields. This approach helps in reviewing metadata without exposing real client information, making it ideal for testing and teaching contexts where structure matters more than content specificity.
+**Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list its fields.
 
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
@@ -1002,7 +902,7 @@ Data saved to pagetype_url_counts.csv
 4                    faq        500
 ```
 
-**Rationale**: This breakdown shows URL distribution across different page types. Product Detail Pages (PDPs) typically make up the bulk of e-commerce sites, followed by Product Listing Pages (PLPs). Hub pages, blog posts and FAQs represent a smaller portion of the total URLs. This data helps identify potential structural issues and prioritize optimization efforts across different sections of the site.
+**Rationale**: You ever get the feeling the folder-structure of a website can tell you something about its organization? Yeah, me too. But we do the laborious work of making it explicit anyway, just in case. And it makes for great color-coding in the link-graph visuzlizations.
 
 
 # Get Short Titles: How To Get the First 500 URLs With Short Titles Given Pagetype
@@ -1108,14 +1008,12 @@ df.head(10)
 | https://www.example.com/site/belts/34567 | 7         | - Belt Hub        | unique        | Essential belts in various styles, perfect for any outfit.      | Example Store/Apparel/Accessories/Belts                | [Belt Basics]                   | [Specifications, Similar Belts]         |
 | https://www.example.com/site/jackets/11111| 6         | - Jacket Haven    | duplicate     | Quality jackets for all seasons, unbeatable prices on top brands.| Example Store/Apparel/Outerwear/Jackets                 | [Best Jackets]                  | [Reviews, Compare Jackets, New Arrivals]|
 
-**Rationale**: This function provides a practical way to isolate URLs with short titles within specific product page types, making it easy to identify content gaps in titles. By filtering and retrieving the first 500 URLs with short titles, this query allows targeted analysis of title length, quality, and structure, which can aid in prioritizing updates to improve SEO performance. Additionally, capturing related metadata like `description_content`, `breadcrumb_tree`, and header tags (`h1`, `h2`) offers insights into the completeness and relevance of each page, guiding both content strategy and technical adjustments.
+**Rationale**: They become bookmarks. They become SERPs. They show in the browser tabs. It's funny, of all the things somehow `title tags` still matter. You could ditch pretty much everything but ***title tags*** and ***anchor text*** and still have a pretty good link-graph of the Web if not for spammers.
 
 
 # Count Short Titles: How To Count Number of URLs Having Short Titles
 
 ```python
-# Count Number of URLs Having Short Titles
-
 import json
 import requests
 
@@ -1169,7 +1067,7 @@ def count_short_titles(org, project, analysis, api_key):
 short_title_count = count_short_titles(org, project, analysis, api_key)
 
 if short_title_count is not None:
-    print(f"Number of URLs with short titles: {short_title_count}")
+    print(f"Number of URLs with short titles: {short_title_count:,}")
 else:
     print("Failed to retrieve the count of URLs with short titles.")
 
@@ -1177,16 +1075,14 @@ else:
 
 **Sample Output**:
 
-    Number of URLs with short titles: 675080
+    Number of URLs with short titles: 675,080
 
-**Rationale**: Knowing the number of URLs with short titles helps gauge the scope of potential title optimizations across the site. By determining this count upfront, you can decide if a full data download is necessary or if a more focused approach will be effective. This preliminary check prevents excessive data transfer and streamlines the analysis process.
+**Rationale**: Sometimes ya gotta count before you download. And it's nice to know how to do all that filtering stuff works in the Botify API. But I think really I just wanted to show you how easy it is to format big numbers with commas using ***f-strings*** (I'm talking to you humans&#151;the LLMs *already know*).
 
 
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
 
 ```python
-# Download Up to 10K URLs Having Short Titles As a CSV
-
 import json
 import requests
 import time
@@ -1303,18 +1199,16 @@ else:
 
     Starting export job for short titles...  
     Polling for job completion: .  
-    Download URL: https://mystery-cdn.example.com/export_data/abc/def/ghi/xyz1234567890/funfetti-2024-11-08.csv.gz  
+    Download URL: https://cdn.example.com/export_data/abc/def/ghi/xyz1234567890/funfetti-2024-11-08.csv.gz  
     File downloaded as 'short_titles_export.csv.gz'  
     File decompressed and saved as 'short_titles_export.csv'  
 
-**Rationale**: This function initiates and manages a data export job to retrieve up to 10,000 URLs with short titles, a useful step for identifying and improving under-optimized page titles in a collection. By automatically polling for job completion and downloading the result, this approach ensures large datasets are collected efficiently, allowing teams to analyze title lengths and other metadata for SEO improvements. The final CSV output can then be used for in-depth analysis or as a data source for updating title content site-wide.
+**Rationale**: Is it pulling or pooling? I could never remember. In either case, it's not as straightforward as you think. You gotta look at the JSON that gets returned and turn into Sherlock Holmes on the trail of a scent. Then you gotta sacrifice a chicken to the gods of undocumented errors. Lastly, you really gotta take note of that `https://api.botify.com/v1/jobs` endpoint and how they moved the `org` and `project` into the JSON payload.
 
 
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
 
 ```python
-# Get Map of Click-Depths Aggregates Given Analysis Slug
-
 import json
 import requests
 import pprint
