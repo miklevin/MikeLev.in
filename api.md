@@ -478,7 +478,7 @@ df.head()
 
 *Data saved to `first_500_urls.csv`*
 
-**Rationale**: To show you the main endpoint for listing 500 at a time, paging and quick aggregate queries. To show you how `org` and `project` are on the endpoint URL and to point out how that will change when we switch to exporting to download CSVs. Got that? Repeat it.
+**Rationale**: To show you the main endpoint for listing 500 lines at a time, paging and quick aggregate queries. To show you how `org` and `project` are in the url (so you notice them disappearing later when we do csv downloads). To introduce the infinitely popular and useful `pandas` data library for manipulating ***row & column*** data.
 
 ```python
 import json
