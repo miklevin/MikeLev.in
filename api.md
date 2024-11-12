@@ -676,7 +676,7 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 }
 ```
 
-**Rationale**: To have a 1-table example with dimensions, metrics and sorting all at the same time. Also to show you the `page` parameter on the querystring making you think it's the **GET method**, `org` & `project` arguments posing as folders, and finally a JSON `payload` showing you it's actually using the **POST method**. Ahhh, *gotta love the Botify API*.
+**Rationale**: To give you an example that uses dimensions, metrics and sorting all at once. Also to show you the `page` parameter on the querystring making you think it's the **GET method**, `org` & `project` arguments posing as folders, and finally a JSON `payload` showing you it's actually using the **POST method**. Ahhh, *gotta love the Botify API*.
 
 
 # List Collections: How To Get the List of Collections Given a Project
