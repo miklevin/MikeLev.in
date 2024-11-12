@@ -469,13 +469,7 @@ df.head()
 | https://example.com/foo          | Foo Title          | This is a description of Foo.              | Foo Heading        |
 | https://example.com/bar          | Bar Overview       | Bar is a collection of great resources.    | Bar Insights       |
 | https://example.com/baz          | Baz Guide          | Learn all about Baz and its applications.  | Baz Essentials     |
-| https://example.com/spam         | Spam Insights      | Explore spam in detail for more insights.  | Spam Analysis      |
-| https://example.com/eggs         | Eggs Overview      | Detailed guide to understanding Eggs.      | Eggs Information   |
-| https://example.com/foo-bar      | Foo Bar Page       | Learn about the Foo and Bar connection.    | Foo & Bar Combo    |
-| https://example.com/foo-baz      | Foo & Baz Guide    | Comprehensive guide on Foo & Baz.          | Foo + Baz Guide    |
-| https://example.com/bar-baz      | Bar Baz Collection | Delving into the intricacies of Bar & Baz. | Bar & Baz Details  |
-| https://example.com/spam-eggs    | Spam & Eggs        | A classic combo, Spam & Eggs explained.    | Classic Combo      |
-| https://example.com/eggs-baz     | Eggs and Baz       | All you need to know about Eggs and Baz.   | Eggs & Baz Guide   |
+...
 
 *Data saved to `first_500_urls.csv`*
 
