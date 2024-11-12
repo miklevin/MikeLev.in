@@ -719,7 +719,7 @@ ID: crawl.20240715, Name: 2024 July 15th
 ID: search_engines_orphans.20240715, Name: Search Engines Orphans
 ```
 
-**Rationale**: To give you some inkling of knowing how diffiult it's going to be to know what collections are, what collections you have, and what you can do with them. Suffice to say, 9 out of 10 times you want the `crawl.YYYYMMDD` or `search_console` collections. If not, come talk to me, I wanna pick your brain.
+**Rationale**: To let you know how tough Collections are, when you really start digging in. The first challenge is simply knowing what collections you have and what you can do with them&#151;though 9 out of 10 times it's `crawl.YYYYMMDD` and `search_console`. If not, come talk to me, I wanna pick your brain.
 
 
 # List Fields: How To Get The List of Fields Given a Collection
