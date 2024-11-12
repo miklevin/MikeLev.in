@@ -169,7 +169,7 @@ print(username)
 
     first.last
 
-**Rationale**: To create a first successful experience connecting to the Botify API.
+**Rationale**: To create a first successful experience connecting to the Botify API. If you run this and see your name, congratulations! You're a Botify employee. Also, you're connecting to the API.
 
 
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
