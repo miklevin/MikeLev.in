@@ -3,7 +3,7 @@ permalink: /api/
 ---
 
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
-BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike to your Botifython Kung Fu download...
+BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike. Now let's get your BotiFoo on...
 
 ## Core Powers
 - **Data Bending**: Extract and manipulate massive crawl datasets with precision
@@ -59,13 +59,9 @@ response.raise_for_status()
 print(response.json())
 ```
 
-# Purpose: Practicing Botify API in Python
+# How Do You Provide Input?
 
-## Technique: Step Through Examples to Build Skills
-
-### Configuration: Set Up a `config.json` for Input Values
-
-**How Do You Provide Input?** Create a `config.json` file in your working directory to input values for the scripts. Start with `"org"`, and add more fields as you go. These examples align with Botify’s [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0).
+Create a `config.json` file in your working directory to input values for the scripts. Start with `"org"`, and add more fields as you go. These examples align with Botify’s [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0).
 
 ```json
 {
@@ -84,17 +80,13 @@ Add fields in `config.json` as you proceed, with outputs from each code example 
 }
 ```
 
-Each script cell can be copy/pasted and run independently. You'll likely need only `pandas` and `requests`.
+# Get Token: How To Retreive Your Botify Employee API Token?
 
-```bash
-pip install pandas requests
-```
+Visit this link [https://app.botify.com/account/](https://app.botify.com/account/)
 
-**Note**: Botify's API powers its Web UI and is both powerful and complex. This exercise ensures a smooth start with guided steps.
+Then copy/paste the token into the input field presented to you when running this code (***only run locally***).
 
-# Get Token: How To Retreive Your Botify Employee API Token and Put In File
-
-Visit this link https://app.botify.com/account/
+**Security Note**: If you're doing this on **Google Colab**, adapt the code to their **SECRETS**  system, or better still, run it locally. DO NOT PUBLICLY HOST THE LOCATION YOU'RE RUNNING THESE SCRIPTS or you ***will*** expose your token. While you're at it, make a `.curserignore` file and add `botify_token.txt` if you're using Cursor. Put it in you `.gitignore` too just to be safe. These are exercises. The code has been simplified for positive initital experiences&#151;not security. Part of good kata (or taolu for the pedantic) is practicing at home where it's safe.
 
 ```python
 import requests
