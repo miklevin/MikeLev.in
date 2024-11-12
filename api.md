@@ -1217,7 +1217,7 @@ pprint.pprint(depth_distribution, width=1)
 }
 ```
 
-**Rationale**: This depth distribution shows how many URLs exist at each click depth level from the homepage (depth 0). A healthy site typically has most content within 3 or 4 clicks of the homepage. Much more, and it may as well not exist. Such reports help identify potential deep crawl issues, spider-traps, and why (in addition to the infinite spam-cannon of generative AI content), brute-force crawls that ***"make a copy of the Internet"*** are all but dead.
+**Rationale**: This depth distribution shows how many URLs exist at each click depth level from the homepage (depth 0). A healthy site typically has most content within 3 or 4 clicks of the homepage. Much more, and it may as well not exist. Such reports help identify potential deep crawl issues, spider-traps, and why (in addition to the infinite spam-cannon of generative AI content), brute-force crawls that ***"make a copy of the Internet"*** are all but dead. And did I mention that excessively crawl-able faceted search makes your site's link-graph look like the Death Star? Yeah, I think I did.
 
 
 # Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
