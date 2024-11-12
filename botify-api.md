@@ -959,7 +959,7 @@ df.head(10)
 
 ...
 
-**Rationale**: Ahh, ***title tags***. They show in bookmarks, tabs and SERPs&#151;the only relevancy factor that will remain standing after SEO Armageddon. You could ditch every other factor but ***anchor text***, set your uber-crawler go off-site, use a click-depth of 4&#151;and harvest yourself a pretty good link-graph of the entire Internet... were it not for spammers.
+**Rationale**: Ahh, ***title tags***. They show in browser bookmarks, tabs and SERPs&#151;the only relevancy factor that will remain standing after SEO Armageddon. You could ditch every other factor but ***anchor text***, set your uber-crawler go off-site, use a click-depth of 4&#151;and harvest yourself a pretty good link-graph of the entire Internet... were it not for spammers.
 
 
 # Count Short Titles: How To Count Number of URLs Having Short Titles
