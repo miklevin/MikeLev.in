@@ -1010,7 +1010,7 @@ Would you like me to focus on implementing any specific part of this architectur
 
     # Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
 
-They are the validation and download code for the meta file respectively. They take a slightly different methodology than we take here with, but not dramatically so. You should be able to borrow and adapt their techniques and most importantly recognize the precise BQL requirements. The most difficult thing may be to make sure it works even if the search_console fields aren't selected because the query changes significantly. But it should be a most excellent starting point. Using this file is like… unlocking the ultimate skill. Just take a deep breath, load up your Botify token, and let’s totally dive into the matrix of insights most excellent...
+They are the validation and download code for the meta file respectively. They take a slightly different methodology than we take here with, but not dramatically so. You should be able to borrow and adapt their techniques and most importantly recognize the precise BQL requirements. The most difficult thing may be to make sure it works even if the search_console fields aren't selected because the query changes significantly. But it should be a most excellent starting point. Using this file is like… unlocking the ultimate skill. Just take a deep breath, load up your Botify Fu, and let’s totally dive into the matrix of insights most excellent...
 
 [@kata.md](/api/)
 
