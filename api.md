@@ -776,7 +776,7 @@ ID: straying_far_afield, Name: Go Home Spiderman
 ID: afield_a_complaint, Name: Red Swingline
 ```
 
-**Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list its fields.
+**Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list the fields.
 
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
@@ -859,7 +859,7 @@ Data saved to pagetype_url_counts.csv
 4                    faq        500
 ```
 
-**Rationale**: You ever get the feeling the folder-structure of a website can tell you something about its organization? Yeah, me too. But we do the laborious work of making it explicit anyway, just in case. And it makes for great color-coding in the link-graph visuzlizations.
+**Rationale**: Do you ever get the feeling a website's folder-structure can tell you something about how it's organized? Yeah, me too. Thankfully, we here at Botify do the ***Regular Expressions*** so you don't have to. And it makes really great great color-coding in the link-graph visualizations. Psst! Wanna see the Death Star?
 
 
 # Get Short Titles: How To Get the First 500 URLs With Short Titles Given Pagetype
