@@ -1,7 +1,7 @@
 ---
 title: How To Train Your LLM
 permalink: /how-to-train-your-llm/
-description: 
+description: Discover how to train your LLM to work with Botify Query Language (BQL) for efficient SEO analysis. This guide covers everything from understanding BQL's core concepts, such as collections, dimensions, and metrics, to building powerful queries, visualizing data, and integrating LLMs into your workflow with Python examples.
 layout: post
 sort_order: 1
 ---
