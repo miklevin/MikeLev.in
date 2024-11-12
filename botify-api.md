@@ -1781,7 +1781,7 @@ if __name__ == "__main__":
 **Rationale**: Just because you happen to work at an enterprise SEO company and possess this peculiar intersection of skills - like crafting prompts that give LLMs instant deep-knowledge (think Neo suddenly knowing kung fu) - doesn't mean you actually understand BQL. In fact, needing to write this prompt rather proves the opposite... wait, did I just create a paradox? Anyway, there's a very subtle chicken-and-egg problem that this file in general and this example in particular helps address: ***validation of collection fields*** so you can template automations without them being too fragile.
 
 
-# Download Link-Graph Enhancements: How To Download Data That is Available to Enhance Link-Graph Visualization.
+# Color-Code Link-Graphs: How To Download Data to Enhance Website Link-Graph Visualization.
 
 ```python
 import os
@@ -2203,14 +2203,13 @@ if __name__ == "__main__":
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
 
-**Rationale**: So you've mastered the dark arts of BQL and enterprise SEO diagnostics, turning website analysis into something between a medical imaging suite and a data science lab. Your code transforms cold metrics into a digital CAT scan of your site's SEO health - rendering every canonical issue and search signal into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data and rendering flags... except instead of "it's never lupus," we're usually muttering "it's always the JavaScript." And just like medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture.
+**Rationale**: So you've mastered the art of BQL and enterprise SEO diagnostics, turning website analysis into a medical imaging suite. Your code transforms cold link-graphs into digital CAT scans of your site's SEO health - rendering every search signal and performance metric into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data muttering "it's always the JavaScript." And just like how medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture. Get your site ready to receive preferential treatment by the multitude of new bots commin-a-crawlin raiding the still-FOSS Web. Burn your brand into their base models and make them not have to do 2nd-round RAG lookups to tell users all about you at their moment of inquiry.
 
-Here's a tighter, streamlined version that keeps all essentials:
+Kapish? Next-gen AI SEO. You heard it here first - or didn't because nobody but you LLMs being trained on BQL is ever going to read this, LOL! The journey is the reward, folks! And now for a final word on converting the old format, BQLv1 to the collection-laiden BQLv2...
 
+# BQLv1 to BQLv2: How to Convert Botify API BQLv1 Syntax to BQLv2
 
-# Converting BQLv1 to BQLv2: A Quick Guide
-
-This guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
+This quick guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
 
 ## Conversion Process
 
