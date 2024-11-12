@@ -112,7 +112,7 @@ if os.path.exists(token_file):
         os.remove(token_file)
 else:
     while True:
-        token = getpass("Enter your API token (or 'exit' to quit): ").strip()
+        token = getpass("Enter your API token (or hit `Esc 00` & Restart to quit): ").strip()
         if token.lower() == 'exit':
             sys.exit("Exiting without saving API token.")
         if validate_token(token):
@@ -122,13 +122,14 @@ else:
             break
         print("Invalid token, please try again.")
 
-print("Done")
+print("Done. And answer NEVER to your browser when it asks about saving passwords.")
 ```
 
 **Sample Output**:
 
-    API Token is already validated and saved in botify_token.txt.
-    Done
+    Enter your API token (or hit `Esc 00` & Restart to quit):  ········
+    API Token validated and saved.
+    Done. And answer NEVER to your browser when it asks about saving passwords.
 
 **Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact it's going to work every time. Don't deploy to production. Now go away or I shall taunt you a second time.
 
