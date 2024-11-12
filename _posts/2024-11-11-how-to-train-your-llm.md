@@ -1142,7 +1142,7 @@ The key changes from the current implementation are:
 
 Would you like me to implement any other part or explain any section in more detail?
 
-## This Dragon... I mean LLM is Trained
+## This Dragon... I mean LLM is Trained.
 
 ...at least until the next session at which time it's not. But then I just give
 it the ol Neo Kung Fu Download... **BAM!** Trained again. This is not prompt
