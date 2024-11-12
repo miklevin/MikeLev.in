@@ -1206,7 +1206,7 @@ pprint.pprint(depth_distribution, width=1)
  2: 250000,
  3: 125000000000,
  4: 62500000000000000,  # Seriously, fix your facets.
- 5: 3125000000000000000000000  # You know who I'm talking to.
+ 5: 3125000000000000000000000  # You know who I'm talking to. Can you `f"{big_numbers:,}"` JSON?
 }
 ```
 
