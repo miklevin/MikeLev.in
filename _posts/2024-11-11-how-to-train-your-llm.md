@@ -1146,6 +1146,7 @@ Would you like me to implement any other part or explain any section in more det
 
 ...at least until the next session at which time it's not. But then I just give
 it the ol Neo Kung Fu Download... **BAM!** Trained again. This is not prompt
-engineering. This is crash-course educations in which theoretical learning has
-no line of separation from practical application. Such is the nature of dragons
-in the information age.
+engineering. I use the same document to help coworkers or to give myself
+refreshers. This is crash-course educations in which theoretical learning has no
+line of separation from practical application. This is skill-infusion with
+CliffsNotes. Such is the nature of dragons in the information age.
