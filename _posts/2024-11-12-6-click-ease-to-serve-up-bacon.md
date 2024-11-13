@@ -523,3 +523,12 @@ starting to happen in the world of web search, web inquiries, chatting with
 AIs... whatever we're gong to be calling it. But it quickly digressed into the
 continuation of the training the LLM dragon story, the SEO Audit mission and the
 story of exceeding your limits because of AI-enablement. 
+
+The six-degrees story is strong enough at the beginning of this rambling to keep
+it this page on that topic. It's sort of like planting my flag in this
+territory. So few people are talking about it this way. I've got to be. And I've
+got to continue with my momentum. Keep rolling the snowball down the hill,
+making it bigger. Ensure that compounding returns is occurring and that I'm not
+getting too distracted by chasing the wrong rabbits down the wrong rabbit holes.
+
+Okay, that's it for this one. Refocus and recalibrate. It's a new day.
