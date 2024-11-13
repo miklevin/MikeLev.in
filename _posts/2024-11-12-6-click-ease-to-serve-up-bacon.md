@@ -1,6 +1,6 @@
 ---
-title: Six-Click-Ease of Surfin Bacon
-permalink: /six-click-ease-of-surfin-bacon/
+title: 6-Click-Ease to Serve Up Bacon
+permalink: /6-click-ease-to-serve-up-bacon/
 description: 
 layout: post
 sort_order: 1
@@ -236,6 +236,26 @@ derived from it, not dissimilar to how Ruby on Rails or Django works, except
 that you will be privy to the entire codebase to the point where you can walk
 the user through designing and integrating plugin derivatives.
 
+In addition to being embedded into this generic web framework for stamping out
+SEO-oriented CRUD applications, you will also have access to control a web
+browser. In the same way you will be able to issue commands that result in a
+CRUD operation and seeing the result, you will be able to issue web page GET
+requests to visit a URL, and have a simplified version of the resulting document
+object model (DOM) served to you as the follow-up system prompt. From this, you
+will see the list of links on the page and be able to offer the user to be able
+to follow one, and thus back and forth in a form of small-world-theory real-time
+web crawl where you the LLM-bot control the crawl and can discuss what you find
+as you go with the user.
+
+But wait, there's more! The site that you are crawling has likely already been
+crawled by the Botify Enterprise SEO crawler, and many metrics and analysis are
+available through the API, which you will also have access to through a menu
+choice of pre-arranged common actions that are used in the course of the script.
+Your ability to crawl sites directly is almost only in order to have a second
+set of eyes and verification or validation to what the Botify data is saying, or
+to produce screen shots - an ability you will have through Puppeteer or
+Playwright which powers your browser-surfing ability.
+
 ---
 
 If I was training a dragon on my last post, I'm training a baby dragon here,
@@ -244,3 +264,262 @@ polishing for years and could fall down the rabbit hole into Lundervand far too
 easily. Would that be polishing a turd or a dragon egg... hmmm. Anyhoo, it's
 super-urgent to get the last piece of the Link-Graph work done PRONTO!!! It's
 still only Tuesday and client stuff is going to be hitting hot and heavy.
+
+**Perplexity**: It appears you've shared a complex and multifaceted stream of consciousness that touches on various topics related to AI, search engines, SEO, engineering, and philosophy. I'll do my best to address the key points and themes you've raised:
+
+## The Future of Search Engines
+
+You suggest that traditional search engine models based on crawling and indexing are becoming obsolete due to:
+
+1. Faceted search causing infinite spider-traps
+2. LLMs powering content spam
+3. The need for constant re-crawling to keep information up-to-date
+
+You propose that "The Internet ***is*** the database" and URLs are essentially keys in a giant key/value database in the cloud. This shift demands that good content take refuge behind trusted brand domains, while non-incumbents must be creative to break through increasingly discriminating filters.
+
+## SEO and Content Creation
+
+You position yourself as an SEO expert with unique capabilities, likening your skills to "Yondu's arrow" or "Darkseid's Omega eye-beams." You emphasize the need for website cleanup to prepare for constant crawling and re-crawling, both to train base models and provide detailed information for user inquiries.
+
+## AI and Society
+
+You touch on the current state of AI development, comparing it to the early days of the internet. You argue against dystopian views of AI, suggesting that the technology is a mirror of human society and can be shaped by how we choose to embrace and develop it.
+
+## Cultural References and Wordplay
+
+Throughout your text, you weave in various cultural references, including:
+
+1. Billy Joel's "Piano Man" lyrics
+2. Burger King's slogan
+3. Science fiction works like Asimov's stories and Iain M. Banks' Culture series
+4. Elon Musk's naming conventions for his companies and projects
+
+## Personal Reflections
+
+You discuss overcoming the Dunning-Kruger effect and recognizing your own abilities as an abstract thinker with diagnostic skills, even if you may not excel in certain mathematical areas.
+
+## Engineering and Bridge Design
+
+You inquire about the harmonics that can bring down bridges and whether engineers who failed to account for these were victims of the Dunning-Kruger effect. This leads to a discussion of the Tacoma Narrows Bridge collapse and the advancement of engineering knowledge through failure.
+
+## AI Development and Ethics
+
+You introduce the concept of an AI assistant named "Chip O'Theseus," referencing the philosophical thought experiment of the Ship of Theseus. You express a desire to develop AI responsibly and with integrity, while acknowledging the challenges and ethical considerations involved.
+
+## Web Development Project
+
+Finally, you outline a web framework project based on FastHTML, involving Starlette, HTMX, Uvicorn, and ASGI. You describe a system where the AI assistant has access to code, browser API connections, and a form of persistent memory through a key-value store.
+
+Your stream of consciousness covers a wide range of topics and ideas, blending technical concepts with philosophical musings and pop culture references. It's clear that you're deeply engaged with the intersection of technology, AI, and human society, and are working on innovative approaches to these fields.
+
+Me: Feeds yesterday's post
+
+Perplexity: Your stream of consciousness covers a wide range of topics related to AI, web development, and SEO. I'll summarize the key points and provide some insights:
+
+## FastHTML Web Framework
+
+You've developed a new web framework based on FastHTML that allows for web development without the usual complications. This framework is designed to work alongside a local LLM (Language Learning Model) running under Ollama[1].
+
+## LLM Integration
+
+You've set up a system you call a "Kung Fu download" process, which allows the LLM to become an expert on specific topics as needed. This system is prepared to work with larger cloud-based AI systems as well[1].
+
+## File Organization
+
+You've outlined a file structure for your project:
+
+```
+downloads/
+    link_graph/
+        org/
+            project/
+```
+
+This structure is designed to keep client data separate and organize projects within each client's folder[1].
+
+## Python Execution Contexts
+
+You discuss four different Python coding and execution contexts:
+
+1. Cursor AI with Claude
+2. Jupyter Notebooks (local JupyterLab)
+3. Command line
+4. Web app server (long-running `server.py` script)
+
+Each context serves a specific purpose in your development workflow[1].
+
+## LLM Conversation Persistence
+
+You're exploring how to maintain conversation context with the Ollama LLM through its HTTP API. While Ollama's terminal interface can maintain session history, using it as a service through HTTP requires managing conversation history manually[1].
+
+## Botify Query Language (BQL)
+
+You've created a Jupyter Notebook that consolidates your knowledge of Botify's BQL. This notebook is converted to markdown and HTML for easy reference. You're also working on a guide to convert BQLv1 queries to BQLv2[1].
+
+## Link Graph Visualization
+
+You're developing a system for harvesting and visualizing link-graph data. This involves:
+
+1. Selecting candidate projects for visualization
+2. Organizing output in a `candidates.txt` file
+3. Processing the data to create visualizations[1]
+
+## Future Plans
+
+You're planning to create a shareable presentation of your work, possibly including a YouTube video embedded in a Google Slides deck[1].
+
+Your approach demonstrates a deep understanding of AI integration, web development, and SEO analysis tools. The combination of a custom web framework, local LLM integration, and specialized data visualization tools shows a comprehensive strategy for tackling complex SEO and web analysis tasks.
+
+Me: Extract the concepts from the two articles that lend themselves to SEO Audit automation and outline the concept, components and plan to implement.
+
+Perplexity: Based on the information provided in the two articles, several concepts lend themselves to SEO audit automation. Here's an outline of the key concepts, components, and a plan to implement an automated SEO audit system:
+
+## Concepts for SEO Audit Automation
+
+1. Botify Query Language (BQL) Integration
+2. Link Graph Visualization
+3. LLM-Assisted Analysis
+4. Automated Data Collection and Processing
+
+## Components
+
+### 1. BQL Query System
+
+- BQLv1 to BQLv2 converter
+- Query validation and testing framework
+- Integration with Botify API
+
+### 2. Link Graph Visualization Tool
+
+- Candidate selection algorithm
+- Data harvesting process
+- Visualization generator
+
+### 3. LLM Integration
+
+- Local LLM setup (using Ollama)
+- Conversation persistence management
+- Knowledge base for SEO expertise
+
+### 4. Data Collection and Processing Pipeline
+
+- File organization system
+- Automated data harvesting
+- CSV file generation for visualizations
+
+## Implementation Plan
+
+1. Set up the development environment:
+   - Configure FastHTML web framework
+   - Install and configure Ollama for local LLM support
+   - Set up Jupyter Notebooks for prototyping and testing
+
+2. Develop the BQL Query System:
+   - Create a BQLv1 to BQLv2 converter based on the provided guidelines
+   - Implement query validation and testing framework
+   - Integrate with Botify API for data retrieval
+
+3. Build the Link Graph Visualization Tool:
+   - Develop the candidate selection algorithm
+   - Create a data harvesting process that integrates with the Botify API
+   - Implement the visualization generator using appropriate libraries (e.g., D3.js)
+
+4. Integrate LLM Capabilities:
+   - Set up Ollama and configure it for SEO-specific tasks
+   - Implement conversation persistence management
+   - Develop a system for "Kung Fu downloads" to provide on-demand SEO expertise
+
+5. Create the Data Collection and Processing Pipeline:
+   - Implement the file organization system (downloads/link_graph/org/project)
+   - Develop automated data harvesting scripts
+   - Create CSV file generators for visualization input
+
+6. Develop the Web Application:
+   - Use FastHTML to create the user interface
+   - Implement server-side logic for handling requests and processing data
+   - Integrate all components into a cohesive application
+
+7. Testing and Optimization:
+   - Conduct thorough testing of all components
+   - Optimize performance, especially for large-scale data processing
+   - Refine LLM integration for more accurate and helpful SEO insights
+
+8. Documentation and Training:
+   - Create comprehensive documentation for the system
+   - Develop training materials for end-users
+   - Prepare a presentation (Google Slides with embedded YouTube video) for company-wide sharing
+
+9. Deployment and Monitoring:
+   - Deploy the application to the appropriate environment
+   - Set up monitoring and logging systems
+   - Establish a feedback loop for continuous improvement
+
+This implementation plan combines the custom web framework, BQL expertise, link graph visualization capabilities, and LLM integration to create a powerful, automated SEO audit system. The system will allow for efficient data collection, analysis, and visualization, providing valuable insights for SEO professionals.
+
+---
+
+Yeah, it's all about exercised and practiced motions. I high perceived level of
+focused attention on each individual, but in reality an AI-assisted factory
+production process behind the scene. It doesn't lower the custom work. It crams
+the tedious repetitive parts of the process into a smaller time-window so that
+more time is available for the custom hand-crafted pieces layered on top at the
+end. Make it easier to get into the mind of the client, empathize with them.
+
+Round robining between the clients like each on is my only client. Get into
+their minds and mindsets. Know the motivations, what each wants. Provide the
+entertaining show. Be as much of a dopamine boost as anything else in their
+life. 
+
+---
+
+Okay, the complexity has exploded out of control. I have to rein it back in. The
+client work is starting today and I woke up to get started by 4:00 AM so I can
+get the tech stuff back on-track and be ready for the client meetings by the
+time they start today.
+
+Got a little bit of sleep. Not much, but enough to think through training a
+stubborn dragon. Let there be no rabbit holes, and let there be banked win.
+
+Things to remember:
+
+- The Genie Wish Undermining Principle (aka the Monkey Paw Effect)
+  - Always attempts to insert duplicates of existing functions
+  - Continuous attempts to use FastAPI patterns for FastHTML
+  - Over-architecting solutions to problems needing 1-line fixes
+- Do not refine the User Interface until core functionality is done
+  - Do not lose time on user interface tweaking, there are infinite rabbit holes here
+  - User interface out-of-whack-ness is its own checklist. You will get back to it.
+- When unlikely and easily lost (regression) advances are made
+  - Immediately create copious notes to "pin up" the advancement
+
+No matter how tempting, don't do that thing you want to do that would make it so
+much nicer if core functionality is still missing. I have both downloads
+occurring at once now. Window-targeting of messages is exactly like that. I want
+to make it look like the ghost in the machine is consistently talking to you
+from their chat window, only reaching out the UI to do what a human could do.
+
+Ad tempting as it is for cleanliness and patterns, don't use the same method
+names between classes, like `.render()` because it ruins jumping around with
+find functions. You jump between classes. You need to be able to use the old vim
+shift+8 on it and n, n, n.
+
+Bank small wins like chisel-strikes of a sculpture.
+
+Your dragon will breathe file all over the place. Control scope. Use your
+dragon's breath like chisel strikes. You are sculpting a fragile figurine in
+fine detail using the mighty blast of dragon's breath. That's how you must think
+when you choose your scope and craft your prompts.
+
+You must corral and wrangle your dragon to use its breath like a precision
+instrument to carve a sculpture out of a grain of rice. That's the image I'm
+using now to keep from experiencing constant code regressions,
+over-architecting... ugh, the client calls coming up. Right from one to the next
+to the next, and I need to have my head in the game and be prepared. Talking
+about it here? That's right. Commitment and consistency! I have got about a
+2-hour window before it starts. Practice!
+
+I wanted to talk about the 6 degrees of separation and small world theory that's
+starting to happen in the world of web search, web inquiries, chatting with
+AIs... whatever we're gong to be calling it. But it quickly digressed into the
+continuation of the training the LLM dragon story, the SEO Audit mission and the
+story of exceeding your limits because of AI-enablement. 
