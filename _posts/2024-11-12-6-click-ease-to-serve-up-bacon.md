@@ -492,10 +492,13 @@ more time is available for the custom hand-crafted pieces layered on top at the
 end. Make it easier to get into the mind of the client, empathize with them.
 
 ### The Client Mindset
+
 Round robining between the clients like each on is my only client. Get into
 their minds and mindsets. Know the motivations, what each wants. Provide the
-entertaining show. Be as much of a dopamine boost as anything else in their
-life. 
+entertaining show. Be the source of a dopamine boost as anything else in their
+lives. Make these SEO meetings a practical alternative to YouTubing and doom
+scrolling. Capture that essence of something that is important, interesting, and
+relevant to my immediate goals, motivations and responsibilities.
 
 ---
 
