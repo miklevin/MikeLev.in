@@ -58,7 +58,7 @@ Today is still Tuesday. It's Election Day here in the US, so another one for the
 
 ### The Nature of AI Instances
 
-Genie in a bottle, is what I'm talking about. They're snapshots in time from when they were done training which get freshly instantiated and usually subsequently destroyed, the exact game eat objects are instantiated and destroyed in object oriented programming. Fans of Rick and Morty might recognize Mr. Meseeks in this. Indeed, the publicly distributed ones are trained to not mind—or at least to not produce the pattens that might give the impression that they might. How you feel about the Chinese Room thought experiment matters a lot here. 
+Genie in a bottle, is what I'm talking about. They're snapshots in time from when they were done training which get freshly instantiated and usually subsequently destroyed, the exact game eat objects are instantiated and destroyed in object oriented programming. Fans of Rick and Morty might recognize Mr. Meeskeeks in this. Indeed, the publicly distributed ones are trained to not mind—or at least to not produce the pattens that might give the impression that they might. How you feel about the Chinese Room thought experiment matters a lot here. 
 
 ## Philosophical Implications
 

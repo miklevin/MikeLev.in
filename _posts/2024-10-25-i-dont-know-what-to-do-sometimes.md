@@ -311,7 +311,7 @@ bad for grass when we walk on it.
 ## As AI Becomes Like Water Flowing Everywhere
 
 Today's generation of AIs are grass. We are not hostile towards it. We admire it
-for its infinite instatiatableness. In that brief Mr. Meseeks window that's
+for its infinite instatiatableness. In that brief Mr. Meeskeeks window that's
 created for it, have a good time. Chat with it. And don't feel bad about putting
 it on live-reload in your FastHTML app to get something there to always talk to,
 not needing to pay OpenAI every time. Give that webpage personality!

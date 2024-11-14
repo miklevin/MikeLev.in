@@ -1,6 +1,6 @@
 ---
-title: The Final Mile of The First App
-permalink: /final-mile-of-first-app/
+title: 80% Cost Reduction in AI Operations
+permalink: /80-percent-cost-reduction-in-ai-operations/
 description: 
 layout: post
 sort_order: 1
@@ -2528,6 +2528,7 @@ This creates a complete workflow from data collection through analysis and repor
 **Claude**: Yes, there are several systems that share similar concepts, though each has its own unique focus. Here are some notable examples:
 
 1. **Streamlit + LangChain Apps**
+
 ```python
 import streamlit as st
 from langchain import agents
@@ -2555,6 +2556,7 @@ def app():
 - Less emphasis on workflow management
 
 4. **Dash by Plotly**
+
 ```python
 from dash import Dash, html, callback
 import dash_bootstrap_components as dbc
@@ -2570,6 +2572,7 @@ app.layout = html.Div([
 The key difference with FastHTML's approach is:
 
 1. **Integration Level**
+
 ```python
 # FastHTML's tight integration
 class WorkflowApp(Plugin):
@@ -2587,6 +2590,7 @@ def process():
 ```
 
 2. **State Management**
+
 ```python
 # FastHTML
 class AnalysisWorkflow(Plugin):
@@ -2604,6 +2608,7 @@ def save_state():
 ```
 
 3. **UI Updates**
+
 ```python
 # FastHTML's streaming updates
 async def process_items(self):
@@ -2635,6 +2640,7 @@ The closest existing systems might be:
 - Less web-app focused
 
 3. **Prefect**
+
 ```python
 from prefect import flow, task
 
@@ -3529,6 +3535,7 @@ Think of it as 'AI arbitrage' - using the right level of AI for each task, maxim
 "This isn't just another framework - it's a new paradigm for building AI-native applications:
 
 1. **Smart Resource Usage**
+
 ```python
 # Traditional approach
 expensive_cloud_ai.process_everything()
@@ -3615,3 +3622,5 @@ posts, either sequentially or a random walk and maybe iterative, so that it can
 extract the really big ideas like the ones I expressed here, so they don't get
 lost under a completely off-topic topic like the final mile of a first app,
 hahaha!
+
+Nah, I'll just rename it 80% Cost Reduction in AI Operations, LMFAO!
