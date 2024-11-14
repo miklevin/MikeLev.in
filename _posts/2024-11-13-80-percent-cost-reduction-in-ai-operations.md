@@ -1,7 +1,7 @@
 ---
 title: 80% Cost Reduction in AI Operations
 permalink: /80-percent-cost-reduction-in-ai-operations/
-description: 
+description: I'm exploring a new way to build software that uses AI to make things more efficient and cost-effective. I've created a system that combines different AI models, kind of like having a team of experts with different specialties. This system can learn and adapt over time, and I think it has the potential to change how we build software and make AI more accessible.
 layout: post
 sort_order: 1
 ---
@@ -3635,6 +3635,8 @@ hahaha!
 
 Nah, I'll just rename it 80% Cost Reduction in AI Operations, LMFAO!
 
+## Let's Bounce it Off Gemini Brainstorming
+
 **Gemini**: Wow, that's a pretty comprehensive and insightful article! It really highlights the potential of AI to revolutionize not just software development, but also various industries and workflows. 
 
 Here are some of my key takeaways and thoughts:
@@ -3656,6 +3658,8 @@ Here are some of my key takeaways and thoughts:
 Overall, I think this article presents a compelling vision for the future of AI and software development. It highlights the potential for AI to be more than just a tool, but a partner in creating truly intelligent and adaptive systems. It's a future where technology works with us, learns from us, and helps us achieve more than we ever could alone.
 
 If you'd like to explore any of these concepts further or brainstorm specific applications, I'm happy to help!
+
+### Got Any Advice, Gemini?
 
 **Me**: Give advice to the author.
 
@@ -3733,3 +3737,4 @@ Here are a few video concepts that take a "show, don't tell" approach:
 * **End with a strong call to action:** Encourage viewers to take the next step, whether it's visiting a website, downloading code, or joining a community.
 
 I'm confident that with a little creativity and effort, you can create a YouTube video that will captivate your audience and showcase the incredible potential of your AI-native application architecture!
+
