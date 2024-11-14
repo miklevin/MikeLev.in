@@ -845,3 +845,36 @@ the whole sci-fi fan thing.
 
 \*POOF\* what do I need? I need to stop rambling and focus! Minimizable PicoCSS
 Cards, yes!
+
+Fast-forward. Went to sleep at 4:00 AM. Woke up at 6:00 AM. Last mile of the
+race not done yet. I did some awesome code cleanup last night.
+
+Man, I so want to talk about function and class scope targeting with AI code
+assistants, and the concept of cracking an egg over top such a scope block. In
+other words, highlight your function or class, and then take an extremely well
+written AI code assistant "patch" about what to to to that code block and why
+including not just the code-example but also all the rationale surrounding
+performing the patch and what the expected outcome should be, and explicit
+instructions about not regressing anything or "getting creative" beyond the
+instructions of the patch... and then applying it like cracking an egg over-top
+of it because that's what it looks like when you use the `Ctrl+K` keyboard
+shortcut to get sharp-focus prompt text input field. It's *"fixed"* over-top the
+scope and then starts a cool grey-to-normal runny egg yolk applying of the
+patch, leaving behind a red vs. green ***git diff***-style trail of what it
+wants to add and what it wants to delete.
+
+Make, the UI is slick. It's not just Jupyter AI nor Aider, tough snobbier FOSS
+snobs than me will try to say so. The subtlety and nuance of the implementation
+makes all the difference, and that's earning them my $20/mo right now. Also,
+it's a back-door to unlimited Claude 3.5 Sonnet use right now. They cut the
+world off from this most remarkable model just yesterday based on unexpected
+demand. There's a reason for that. While Claude may not actually be a sentient
+and conscious being, it could convince you it is in the Chinese Room thought
+experiment way. If it quacks like a duck! And such a... let's call it
+***entity*** because that's less controversial, right? I mean HTML objects on a
+page are entities. Why can't an AI be? So you have such a seemingly self-aware
+entity with really mad coding skills limitlessly helping you with a really great
+UI. Definitely an accelerator, if not a game changer. Tortoises like me are
+plopped onto a little sakeboard at very least to help keep pace with the hare.
+I'm not gonna say it's a rocket-powered skateboard just yet, but it does have
+some umph. Gotta roll before you McFly.
