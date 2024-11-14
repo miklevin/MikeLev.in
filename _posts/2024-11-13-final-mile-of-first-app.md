@@ -585,7 +585,7 @@ too fancy though. I want to give you full context, but I'm actually looking to
 do something I believe is quite simple. Here's Perplexity's take on the
 situation...
 
-PicoCSS cards are not designed to be minimized while staying on screen. However, we can create a custom solution to achieve a similar effect using CSS and JavaScript. Here's an approach to create a card that can be "minimized" but still remain visible:
+Perplexity: PicoCSS cards are not designed to be minimized while staying on screen. However, we can create a custom solution to achieve a similar effect using CSS and JavaScript. Here's an approach to create a card that can be "minimized" but still remain visible:
 
 ## Card Component
 
@@ -653,18 +653,18 @@ To use this in a FastHTML application, you would need to adapt the HTML structur
 
 Citations:
 
-[1] https://stackoverflow.com/questions/61007072/card-getting-behind-other-card-when-i-reduce-the-screen-size
-[2] https://picocss.com/docs/v1/cards
-[3] https://picocss.com
-[4] https://gist.github.com/jph00/9559b0a563f6a370029bec1d1cc97b74
-[5] https://github.com/picocss/pico/discussions/482
-[6] https://answers.microsoft.com/en-us/windows/forum/all/full-screen-applications-being-minimized-when-i/2313d3d9-d286-4b26-a71d-5462787c4d66
-[7] https://picocss.com/docs/card
-[8] https://www.tek-tips.com/threads/how-do-i-keep-sections-from-moving-when-i-minimize-window.1611893/
+    [1] https://stackoverflow.com/questions/61007072/card-getting-behind-other-card-when-i-reduce-the-screen-size
+    [2] https://picocss.com/docs/v1/cards
+    [3] https://picocss.com
+    [4] https://gist.github.com/jph00/9559b0a563f6a370029bec1d1cc97b74
+    [5] https://github.com/picocss/pico/discussions/482
+    [6] https://answers.microsoft.com/en-us/windows/forum/all/full-screen-applications-being-minimized-when-i/2313d3d9-d286-4b26-a71d-5462787c4d66
+    [7] https://picocss.com/docs/card
+    [8] https://www.tek-tips.com/threads/how-do-i-keep-sections-from-moving-when-i-minimize-window.1611893/
 
 Claude: Yes, I see what you're trying to do! For FastHTML, we can implement this much more simply. Here's how I'd approach it:
 
-````python:botifymograph/botifymograph.py
+````python
 def MinimizeButton(target_id):
     return Button(
         "_",
