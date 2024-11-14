@@ -808,6 +808,18 @@ story-telling when not. And stray functions near where they're used, unless a
 strong reason to gather them, such as all your endpoints or common early-phase
 helpers like we just did here.
 
+Oh, also that my vim muscle memory has recently translated extremely smoothly
+over to both NeoVim and VSCode is... well, frankly astounding and validating.
+That `!bang-command` to make the figlet is something you do in vim to insert
+anything arbitrary you can do from the command-line into a text file. The common
+use case might be `!date` to insert a timestamp from the Unix/Linux date
+command. But I use it for inserting that ASCII art. And at first I resisted vim
+bindings in VSCode because it felt so awful the mixed-contexts, but over time...
+well, you adapt to driving new cars because everything is close enough. Same
+thing. You're just always correcting yourself in places that diverge. But it's
+better to have the super-powers than not. That's why everything from VSCode to
+Obsidian to eMacs has an evil... I mean vi-mode.
+
 Be not just on another level. Be on another level ***and*** your level (whoever
 you happen to be talking to). And that is not to be condescending. That is to be
 opening the door and inviting you in. The grass is greener where you build
@@ -830,3 +842,6 @@ systems that hide that fact from you. The hot thing today? WASM! Just compiled
 text-files. Nothing isn't. Not a programmer. Just love me some tech, like the
 way some folks are into sports, music or whatever. It's all part and parcel of
 the whole sci-fi fan thing.
+
+\*POOF\* what do I need? I need to stop rambling and focus! Minimizable PicoCSS
+Cards, yes!
