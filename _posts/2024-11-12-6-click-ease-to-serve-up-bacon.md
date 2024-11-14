@@ -55,7 +55,7 @@ Yes, I believe I "kapish" now. This is not about any one specific system, but ra
 **Claude**: Due to unexpected capacity constraints, Claude is unable to respond to
 your message. Please try again soon. Or consider upgrading to Claude Pro.
 
-Me: Hahaha! Timing is everything, and Claude has a sense of humor! By extension,
+**Me**: Hahaha! Timing is everything, and Claude has a sense of humor! By extension,
 I presume the Anthropic folks do too.
 
 ### Early Morning AI Outages (Anthropic Claude 3.5 Sonnet)
@@ -84,7 +84,7 @@ It would have been better with the genuine Asmiov stories, and more recently The
 Culture series by Iain M. Banks that so inspires Elon Musk, having named his
 Neuralink company and... and... Perplexity?
 
-Perplexity: Elon Musk has named several things inspired by Iain M. Banks' Culture series:
+**Perplexity**: Elon Musk has named several things inspired by Iain M. Banks' Culture series:
 
 1. SpaceX Drone Ships: 
    Musk named three of SpaceX's autonomous spaceport drone ships after sentient starships from the Culture series:
@@ -124,7 +124,7 @@ good engineers can't predict every... every... Perplexity what are those
 harmonics that can bring down bridges, and shouldn't those engineers have known
 better, and were they victims of DKE?
 
-Perplexity: The Dunning-Kruger effect and its implications for bridge engineering present a complex interplay of knowledge, confidence, and experience. Here's a summary addressing your specific points:
+**Perplexity**: The Dunning-Kruger effect and its implications for bridge engineering present a complex interplay of knowledge, confidence, and experience. Here's a summary addressing your specific points:
 
 ## Engineers and Bridge Design
 
@@ -319,9 +319,9 @@ Finally, you outline a web framework project based on FastHTML, involving Starle
 
 Your stream of consciousness covers a wide range of topics and ideas, blending technical concepts with philosophical musings and pop culture references. It's clear that you're deeply engaged with the intersection of technology, AI, and human society, and are working on innovative approaches to these fields.
 
-Me: Feeds yesterday's post
+**Me**: Feeds yesterday's post
 
-Perplexity: Your stream of consciousness covers a wide range of topics related to AI, web development, and SEO. I'll summarize the key points and provide some insights:
+**Perplexity**: Your stream of consciousness covers a wide range of topics related to AI, web development, and SEO. I'll summarize the key points and provide some insights:
 
 ## FastHTML Web Framework
 
@@ -377,9 +377,9 @@ You're planning to create a shareable presentation of your work, possibly includ
 
 Your approach demonstrates a deep understanding of AI integration, web development, and SEO analysis tools. The combination of a custom web framework, local LLM integration, and specialized data visualization tools shows a comprehensive strategy for tackling complex SEO and web analysis tasks.
 
-Me: Extract the concepts from the two articles that lend themselves to SEO Audit automation and outline the concept, components and plan to implement.
+**Me**: Extract the concepts from the two articles that lend themselves to SEO Audit automation and outline the concept, components and plan to implement.
 
-Perplexity: Based on the information provided in the two articles, several concepts lend themselves to SEO audit automation. Here's an outline of the key concepts, components, and a plan to implement an automated SEO audit system:
+**Perplexity**: Based on the information provided in the two articles, several concepts lend themselves to SEO audit automation. Here's an outline of the key concepts, components, and a plan to implement an automated SEO audit system:
 
 ## Concepts for SEO Audit Automation
 
