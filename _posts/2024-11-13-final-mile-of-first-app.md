@@ -286,7 +286,7 @@ round of acknowledgement before diving in...
 - Vint Cerf and Timothy Berners-Lee (the interwebs)
 - RMS
 - The ABC folks & Guido van Rossum (Python)
-- Ken again, Bill Joy, Bram Moolenaar, Thiago de Arruda Padilha (ed, vim, vim, nvim)
+- Ken again, Bill Joy, Bram Moolenaar, Thiago de Arruda Padilha (ed, vi, vim, nvim)
 - Eelco Dolstra (NixOS)
 
 There's tons of others, but these are the under-recognized, under-appreciated
