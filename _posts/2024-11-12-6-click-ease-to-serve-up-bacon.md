@@ -56,7 +56,7 @@ your message. Please try again soon. Or consider upgrading to Claude Pro.
 Me: Hahaha! Timing is everything, and Claude has a sense of humor! By extension,
 I presume the Anthropic folks do too.
 
-### Early Morning Outages
+### Early Morning AI Outages (Anthropic Claude 3.5 Sonnet)
 
 It's 9:00 AM on a Tuesday morning... *and the regular crowd souffles in...* -
 uhm no, I mean and the regular LLM service outages kick-in.
