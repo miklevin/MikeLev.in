@@ -483,6 +483,7 @@ This implementation plan combines the custom web framework, BQL expertise, link 
 
 ---
 
+## The Art of AI-Assisted Client Service
 Yeah, it's all about exercised and practiced motions. I high perceived level of
 focused attention on each individual, but in reality an AI-assisted factory
 production process behind the scene. It doesn't lower the custom work. It crams
@@ -490,6 +491,7 @@ the tedious repetitive parts of the process into a smaller time-window so that
 more time is available for the custom hand-crafted pieces layered on top at the
 end. Make it easier to get into the mind of the client, empathize with them.
 
+### The Client Mindset
 Round robining between the clients like each on is my only client. Get into
 their minds and mindsets. Know the motivations, what each wants. Provide the
 entertaining show. Be as much of a dopamine boost as anything else in their
@@ -497,14 +499,17 @@ life.
 
 ---
 
+## Managing Development Complexity
 Okay, the complexity has exploded out of control. I have to rein it back in. The
 client work is starting today and I woke up to get started by 4:00 AM so I can
 get the tech stuff back on-track and be ready for the client meetings by the
 time they start today.
 
+### Sleep and Strategy
 Got a little bit of sleep. Not much, but enough to think through training a
 stubborn dragon. Let there be no rabbit holes, and let there be banked win.
 
+### Development Guidelines
 Things to remember:
 
 - The Genie Wish Undermining Principle (aka the Monkey Paw Effect)
@@ -517,17 +522,20 @@ Things to remember:
 - When unlikely and easily lost (regression) advances are made
   - Immediately create copious notes to "pin up" the advancement
 
+### Focus on Core Functionality
 No matter how tempting, don't do that thing you want to do that would make it so
 much nicer if core functionality is still missing. I have both downloads
 occurring at once now. Window-targeting of messages is exactly like that. I want
 to make it look like the ghost in the machine is consistently talking to you
 from their chat window, only reaching out the UI to do what a human could do.
 
+### Code Organization Principles
 Ad tempting as it is for cleanliness and patterns, don't use the same method
 names between classes, like `.render()` because it ruins jumping around with
 find functions. You jump between classes. You need to be able to use the old vim
 shift+8 on it and n, n, n.
 
+### Development Strategy
 Bank small wins like chisel-strikes of a sculpture.
 
 Your dragon will breathe file all over the place. Control scope. Use your
@@ -543,6 +551,7 @@ to the next, and I need to have my head in the game and be prepared. Talking
 about it here? That's right. Commitment and consistency! I have got about a
 2-hour window before it starts. Practice!
 
+## Six Degrees of Web Search
 I wanted to talk about the 6 degrees of separation and small world theory that's
 starting to happen in the world of web search, web inquiries, chatting with
 AIs... whatever we're gong to be calling it. But it quickly digressed into the
@@ -556,4 +565,5 @@ got to continue with my momentum. Keep rolling the snowball down the hill,
 making it bigger. Ensure that compounding returns is occurring and that I'm not
 getting too distracted by chasing the wrong rabbits down the wrong rabbit holes.
 
+### Final Thoughts
 Okay, that's it for this one. Refocus and recalibrate. It's a new day.
