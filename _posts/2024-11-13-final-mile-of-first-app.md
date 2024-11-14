@@ -807,3 +807,26 @@ The sequential order that things run, if possible. And the order of best
 story-telling when not. And stray functions near where they're used, unless a
 strong reason to gather them, such as all your endpoints or common early-phase
 helpers like we just did here.
+
+Be not just on another level. Be on another level ***and*** your level (whoever
+you happen to be talking to). And that is not to be condescending. That is to be
+opening the door and inviting you in. The grass is greener where you build
+way-finding banners from figlets to lean into your mad vim skills. What
+code-linters think of it, be damned. And for all you people who think that
+multiple files is better organization, that's because your tools and/or
+text-navigation skills suck. Believe me, when you add tabbing and jumping
+between files to your text-navigation muscle memory, complexity explodes. The
+`:b` vim commands for buffer navigation is a whole other blog post.
+
+Did I mention I'm not a professional coder or programmer? You just want those
+text manipulation skills to be like walking or breathing if you want to be a
+jack of all trades master of tech. Tech is text is tech is text. Sooner or
+later, it's all compiled from source, and only those engineers who once cut the
+photo-masks from Rubylith with XActo knives for photolithography imaging of the
+IC dies, well they lived in an analog world. The rest of us are just twiddling
+bits around (thanks for the words, Paul Calkin and Jessie something-or-other
+from my Commodore days) in text files that have meaning when moved around in
+systems that hide that fact from you. The hot thing today? WASM! Just compiled
+text-files. Nothing isn't. Not a programmer. Just love me some tech, like the
+way some folks are into sports, music or whatever. It's all part and parcel of
+the whole sci-fi fan thing.
