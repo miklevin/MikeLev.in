@@ -500,6 +500,8 @@ lives. Make these SEO meetings a practical alternative to YouTubing and doom
 scrolling. Capture that essence of something that is important, interesting, and
 relevant to my immediate goals, motivations and responsibilities.
 
+Make them look good.
+
 ---
 
 ## Managing Development Complexity
