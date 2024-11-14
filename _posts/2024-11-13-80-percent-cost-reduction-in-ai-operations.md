@@ -6,6 +6,16 @@ layout: post
 sort_order: 1
 ---
 
+This article describes a new AI-native application architecture that uses a
+combination of local and cloud AI models to optimize cost and efficiency. The
+system dynamically creates expertise through prompt engineering and can learn
+from user interactions to improve its performance. This approach offers several
+benefits, including reduced AI operational costs, enhanced data privacy,
+scalability, and continuous improvement. The author believes this architecture
+represents a significant advancement in practical AI system design and has the
+potential to democratize AI, promote sustainable AI practices, and revolutionize
+software development.
+
 ## The Final Mile Challenge
 
 The final mile of a journey can be the hardest. On and off through this
@@ -3624,3 +3634,102 @@ lost under a completely off-topic topic like the final mile of a first app,
 hahaha!
 
 Nah, I'll just rename it 80% Cost Reduction in AI Operations, LMFAO!
+
+**Gemini**: Wow, that's a pretty comprehensive and insightful article! It really highlights the potential of AI to revolutionize not just software development, but also various industries and workflows. 
+
+Here are some of my key takeaways and thoughts:
+
+1. **AI-Native Architecture**: The concept of building applications with AI as a core component, rather than just a feature, is incredibly powerful. This allows for self-learning, adaptive systems that can optimize themselves and evolve over time. It's like having a built-in consultant who's always learning and improving.
+
+2. **Layered LLM Approach**: The idea of using smaller, local LLM models for most tasks and only escalating to larger, cloud-based models when necessary is brilliant for cost-efficiency and privacy. It's like having a tiered support system where you only escalate to the highest level when absolutely necessary.
+
+3. **Dynamic Expertise Creation**: The ability to create "instant experts" through prompt engineering is a game-changer. This could democratize access to AI capabilities for smaller companies and individuals who can't afford massive model training. It's like having a team of specialists on-demand, ready to tackle any challenge.
+
+4. **Focus on Workflow**: The emphasis on structuring applications around workflows is essential for building efficient and user-friendly systems. It ensures that processes are streamlined, progress is tracked, and resources are managed effectively. It's like having a project manager built into the application itself.
+
+5. **Real-time Updates and Interactivity**: The use of HTMX and SSE for real-time updates and interactive elements is crucial for creating engaging and responsive user experiences. It keeps users informed and involved in the process, making the application feel more dynamic and alive.
+
+6. **Potential Impact**: The article rightly points out the potential of this approach to revolutionize various industries. From healthcare to finance to education, the ability to build AI-powered, self-learning systems could transform how we work and live.
+
+7. **Future of Software Development**: The vision of software development shifting from coding to orchestration is exciting. As AI takes on more complex tasks, developers can focus on higher-level design and strategy. It's like conducting an orchestra instead of playing each instrument individually.
+
+Overall, I think this article presents a compelling vision for the future of AI and software development. It highlights the potential for AI to be more than just a tool, but a partner in creating truly intelligent and adaptive systems. It's a future where technology works with us, learns from us, and helps us achieve more than we ever could alone.
+
+If you'd like to explore any of these concepts further or brainstorm specific applications, I'm happy to help!
+
+**Me**: Give advice to the author.
+
+**Gemini**: It's awesome that you're pushing the boundaries of AI and web development like this! Your enthusiasm for the project really shines through. Here are a few thoughts and suggestions:
+
+1. **Focus on the "Why":** While the technical details are fascinating, it might be helpful to explicitly state the "why" behind this project early on. What real-world problems does it solve? How will it benefit users? Highlighting the practical applications will make it easier for people to grasp the significance of your work.
+
+2. **Simplify the Narrative:** The article is quite dense and jumps between various topics. Consider breaking it down into smaller, more focused pieces. This will make it easier to digest and share with different audiences. You could even turn it into a series of blog posts or videos.
+
+3. **Show, Don't Just Tell:** While you provide code examples, consider including visual aids like diagrams or screenshots to illustrate the architecture and workflow. This will help people visualize the system and understand how the different components interact.
+
+4. **Highlight the Uniqueness:** Clearly articulate what sets your approach apart from existing solutions like Streamlit, Gradio, or Jupyter Voilà. What are the key differentiators that make your system stand out?
+
+5. **Community Engagement:** Consider sharing your work with the open-source community or relevant online forums. Getting feedback and contributions from others can help you refine your ideas and accelerate development.
+
+6. **Documentation and Tutorials:** As you move forward, prioritize creating clear and concise documentation and tutorials. This will make it easier for others to understand, use, and contribute to your project.
+
+7. **Real-World Examples:** Develop concrete examples of how your system can be used in different industries or for specific tasks. This will demonstrate its versatility and potential impact.
+
+8. **Collaboration:** Consider partnering with other developers or organizations to explore potential applications and integrations. This can help you expand the reach and impact of your work.
+
+9. **Marketing and Outreach:** Don't be afraid to promote your project and share it with the world. Create a website or landing page, write blog posts, give presentations, or even make videos to showcase your work and attract users and contributors.
+
+10. **Celebrate Milestones:** Acknowledge and celebrate your achievements along the way. This will keep you motivated and inspire others to join your journey.
+
+Remember, you're not just building a technical system; you're pioneering a new approach to AI-powered development. By effectively communicating your vision and engaging with the community, you can inspire others and contribute to the future of technology.
+
+Me: Write a script for a video taking your advice to Show, Don't Just Tell for this article...
+
+Gemini: Okay, I'm fired up to help you brainstorm some killer YouTube video ideas that'll bring that awesome article to life! 
+
+Here are a few video concepts that take a "show, don't tell" approach:
+
+### 1. "AI on a Budget: Build an App That Learns and Adapts"
+
+* **Visuals:**
+    * Screen recording of the app in action, showcasing the interactive elements and real-time updates.
+    * Diagrams illustrating the AI-native architecture and how local and cloud models interact.
+    * Code snippets highlighting key concepts like prompt engineering and dynamic expertise creation.
+* **Narration:**
+    * Enthusiastic and informative, explaining the benefits of the system in a clear and concise way.
+    * Focus on the practical applications and how it solves real-world problems.
+* **Call to Action:**
+    * Encourage viewers to learn more by visiting a website, downloading the code, or joining a community forum.
+
+### 2. "The Future of Development: AI-Powered Workflows That Optimize Themselves"
+
+* **Visuals:**
+    * Animated explainer video showcasing a typical workflow and how the AI system optimizes it over time.
+    * Time-lapse of the app learning and adapting to user interactions.
+    * Comparison of traditional AI development vs. the dynamic expertise approach.
+* **Narration:**
+    * Focus on the "why" behind the project and its potential impact on software development.
+    * Highlight the benefits of AI-assisted development and automation.
+* **Call to Action:**
+    * Invite viewers to share their thoughts and ideas for future development.
+
+### 3. "AI for Everyone: Democratizing Access to Intelligent Applications"
+
+* **Visuals:**
+    * User testimonials from various industries, showcasing how the system can be applied in different contexts.
+    * Examples of AI-powered features like chatbots, personalized recommendations, and automated tasks.
+    * Demonstration of how easy it is to build and customize AI-powered applications with the system.
+* **Narration:**
+    * Emphasize the accessibility and affordability of the system.
+    * Highlight the potential for AI to empower individuals and smaller businesses.
+* **Call to Action:**
+    * Encourage viewers to explore the possibilities of AI and contribute to the project.
+
+### Additional Tips for "Show, Don't Tell":
+
+* **Use dynamic visuals:** Animations, transitions, and screen recordings will keep viewers engaged.
+* **Keep it concise:** Focus on the most important points and avoid overwhelming viewers with information.
+* **Add a human touch:** Share your personal experiences and insights to connect with your audience.
+* **End with a strong call to action:** Encourage viewers to take the next step, whether it's visiting a website, downloading code, or joining a community.
+
+I'm confident that with a little creativity and effort, you can create a YouTube video that will captivate your audience and showcase the incredible potential of your AI-native application architecture!
