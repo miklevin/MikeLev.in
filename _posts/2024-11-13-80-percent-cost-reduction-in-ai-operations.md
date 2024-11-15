@@ -195,7 +195,7 @@ complaints get amplified pounded into us by the algorithms, because fear sells.
 I didn't mean for this to become a rambling worldview post. But it's good to get
 it out there. It fuels and invigorates me like a sort of cleansing of the
 palate. It's the ginger between sushi. It's the Normalize.CSS... hmmm... hey
-**Perplexity**: What other things are like normalize.css in an abstract notion in
+Perplexity, what other things are like normalize.css in an abstract notion in
 tech and life?
 
 [Perplexity's response omitted]
