@@ -207,6 +207,8 @@ relative paths won't screw you and such?
 
 **Perplexity**: 
 
+## In Philosophy
+
 1. **Cartesian doubt**: René Descartes' method of systematic doubt, where he questioned everything to arrive at foundational truths.
 
 2. **Tabula rasa**: The philosophical idea that individuals are born without built-in mental content, providing a "clean slate" for knowledge acquisition.
