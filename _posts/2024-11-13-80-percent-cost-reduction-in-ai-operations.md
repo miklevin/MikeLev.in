@@ -20,6 +20,11 @@ development. And it uses FastHTML, HTMX and Ollama to boot.
 
 > Gemini: The ability to generate "instant experts" through prompt engineering is a game-changer. This could make AI capabilities more accessible and affordable for a wider range of users.
 
+Warning to the time-strapped reader. This is not edited down. This is the stream
+of consciousness flow from a productive day's worth of work. And no, this is not
+the work. This is just the calibration to do the right things for the right
+reasons, with plenty of back-and-forth with Perplexity, Claude and Gemini.
+
 ### AI-Native App Architecture Unpacked!
 
 **Gemini-Advanced**: This is a fascinating exploration of an AI-native application architecture! I'm particularly struck by the following:
