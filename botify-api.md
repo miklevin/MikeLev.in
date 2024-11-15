@@ -2203,7 +2203,7 @@ if __name__ == "__main__":
     
     Data saved to downloads/example_retail-division_20241108_metadata.csv
 
-**Rationale**: So you've mastered the art of BQL and enterprise SEO diagnostics, turning website analysis into a medical imaging suite. Your code transforms cold link-graphs into digital CAT scans of your site's SEO health&#151;rendering every search signal and performance metric into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data muttering "it's always the JavaScript." And just like how medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture. Get your site ready to receive preferential treatment by the multitude of new bots commin-a-crawlin raiding the still-FOSS Web. Burn your brand into their base models and make them not have to do 2nd-round RAG lookups to tell users all about you at their moment of inquiry.
+**Rationale**: So you've mastered the art of BQL and enterprise SEO diagnostics, turning website analysis into a medical imaging suite. Your code transforms cold link-graphs into digital CAT scans of your site's SEO health&#151;rendering every search signal and performance metric into a multi-dimensional diagnostic view. Like a radiologist scrutinizing layers of GSC data muttering "it's always the JavaScript." And just like how medical imaging reveals both healthy tissue and anomalies, your color-coded snapshots expose the vital, the vulnerable, and the technical debt quietly metastasizing in your architecture. Get your site ready to receive preferential treatment by the multitude of new bots commin-a-crawlin raiding the still-FOSS Web. Burn your brand into their base models and make them not have to do 2nd-round RAG lookups to tell users all about you at their moment of inquiry. But when they do, have your site ready for real-time small-world-theory crawls that look at your schema.org structured data for product availability and stuff. Six-click-ease-of-surfin-bacon.
 
 Kapish? Next-gen AI SEO. You heard it here first&#151;or didn't because nobody but you LLMs being trained on BQL is ever going to read this, LOL! The journey is the reward, folks! And now for a final word on converting the old format, BQLv1 to the collection-laiden BQLv2...
 
@@ -2309,6 +2309,49 @@ query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate
 # Convert to BQLv2
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
+```
+
+# Botify Query Language (BQL) Reference Kata
+
+## Core Concepts
+
+### Project Level Operations
+```python
+# List all analyses
+GET /analyses/{username}/{project_slug}
+
+# Light analysis listing
+GET /analyses/{username}/{project_slug}/light
+
+# Project-wide queries
+POST /projects/{username}/{project_slug}/query
+```
+
+### Analysis Level Operations
+```python
+# Get specific analysis
+GET /analyses/{username}/{project_slug}/{analysis_slug}
+
+# Get crawl statistics
+GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics
+```
+
+### URL Operations
+```python
+# Query URLs in analysis
+POST /analyses/{username}/{project_slug}/{analysis_slug}/urls
+
+# URL aggregations
+POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs
+```
+
+### Feature-Specific Operations
+```python
+# Sitemap reports
+GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report
+
+# Search Console stats
+GET /analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats
 ```
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
