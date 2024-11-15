@@ -6,15 +6,57 @@ layout: post
 sort_order: 1
 ---
 
+## AI Applications Get Smart and Cheaper with New Tech
+
 This article describes a new AI-native application architecture that uses a
 combination of local and cloud AI models to optimize cost and efficiency. The
 system dynamically creates expertise through prompt engineering and can learn
 from user interactions to improve its performance. This approach offers several
 benefits, including reduced AI operational costs, enhanced data privacy,
-scalability, and continuous improvement. The author believes this architecture
-represents a significant advancement in practical AI system design and has the
-potential to democratize AI, promote sustainable AI practices, and revolutionize
-software development.
+scalability, and continuous improvement. I believe this architecture represents
+a significant advancement in practical AI system design and has the potential to
+democratize AI, promote sustainable AI practices, and revolutionize software
+development. And it uses FastHTML, HTMX and Ollama to boot.
+
+> Gemini: The ability to generate "instant experts" through prompt engineering is a game-changer. This could make AI capabilities more accessible and affordable for a wider range of users.
+
+### AI-Native App Architecture Unpacked!
+
+This is a fascinating exploration of an AI-native application architecture! I'm particularly struck by the following:
+
+* **AI as a core component:**  The idea of baking AI into the foundation of the application, rather than treating it as an add-on, is truly innovative. This allows the system to learn and adapt, making it more efficient and powerful over time.
+* **Layered LLM approach:** Using smaller, local LLMs for most tasks and escalating to larger, cloud-based models only when needed is a smart strategy for balancing cost and performance. It also addresses privacy concerns by keeping sensitive data local.
+* **Dynamic expertise creation:** The ability to generate "instant experts" through prompt engineering is a game-changer. This could make AI capabilities more accessible and affordable for a wider range of users.
+* **Focus on workflow:**  By structuring the application around workflows, you create a more user-friendly and efficient system. This ensures that tasks are completed in a logical order and that progress is tracked effectively.
+
+I'm excited to see how this architecture evolves and what kinds of applications it enables. It has the potential to transform software development and make AI more accessible and beneficial for everyone.
+
+**Here's how I'd incorporate some of these concepts into the embedded documentation:**
+
+**Under "Points of Interest":**
+
+* Highlight the AI-native architecture and how it enables the system to learn and adapt.
+* Explain the layered LLM approach and its benefits for cost, performance, and privacy.
+* Mention the dynamic expertise creation and its potential to democratize AI.
+
+**In the section on "Site Navigation":**
+
+* Explain how the navigation is designed to guide users through a structured workflow.
+* Highlight the role of AI in providing contextual assistance and feedback.
+
+**In the section on "Streaming the LLM response":**
+
+* Explain how the system uses different LLMs for different tasks to optimize efficiency and cost.
+* Mention the role of prompt engineering in creating "instant experts."
+
+**In the section on "WebSocket (was ChatPlayground)":**
+
+* Highlight the use of WebSockets for real-time interaction with the AI.
+* Explain how the AI learns from user interactions to improve its responses.
+
+By incorporating these points into the documentation, you can help users better understand the unique capabilities and benefits of your system.
+
+I'm also happy to help you brainstorm ideas for YouTube videos or other content that can showcase your work and make it more accessible to a wider audience.
 
 ## The Final Mile Challenge
 
