@@ -22,7 +22,7 @@ development. And it uses FastHTML, HTMX and Ollama to boot.
 
 ### AI-Native App Architecture Unpacked!
 
-This is a fascinating exploration of an AI-native application architecture! I'm particularly struck by the following:
+**Gemini-Advanced**: This is a fascinating exploration of an AI-native application architecture! I'm particularly struck by the following:
 
 * **AI as a core component:**  The idea of baking AI into the foundation of the application, rather than treating it as an add-on, is truly innovative. This allows the system to learn and adapt, making it more efficient and powerful over time.
 * **Layered LLM approach:** Using smaller, local LLMs for most tasks and escalating to larger, cloud-based models only when needed is a smart strategy for balancing cost and performance. It also addresses privacy concerns by keeping sensitive data local.
@@ -3729,9 +3729,9 @@ If you'd like to explore any of these concepts further or brainstorm specific ap
 
 Remember, you're not just building a technical system; you're pioneering a new approach to AI-powered development. By effectively communicating your vision and engaging with the community, you can inspire others and contribute to the future of technology.
 
-Me: Write a script for a video taking your advice to Show, Don't Just Tell for this article...
+**Me**: Write a script for a video taking your advice to Show, Don't Just Tell for this article...
 
-Gemini: Okay, I'm fired up to help you brainstorm some killer YouTube video ideas that'll bring that awesome article to life! 
+**Gemini**: Okay, I'm fired up to help you brainstorm some killer YouTube video ideas that'll bring that awesome article to life! 
 
 Here are a few video concepts that take a "show, don't tell" approach:
 
