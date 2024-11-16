@@ -1294,7 +1294,7 @@ And finally, your context window is probably scrolling it out by now, but don't 
 
 Next!
 
-Claude: Perfect! I see exactly where we're going. Let's create `WebAngiogram` that combines our new `RequestQueue` with the elegant UI patterns from `StreamSimulator`. Here's the approach:
+**Claude**: Perfect! I see exactly where we're going. Let's create `WebAngiogram` that combines our new `RequestQueue` with the elegant UI patterns from `StreamSimulator`. Here's the approach:
 
 ```````python
 class WebAngiogram:
