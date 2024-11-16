@@ -1120,404 +1120,137 @@ Remember, we're not reinventing the wheel here. We're questioning whether wheels
 Let's start with the smallest, most concrete step possible - creating a simple filesystem-based request queue that we can watch without touching any of your existing code. Think of it as building a friendly little observatory next to your BotifyLinkGraph tower.
 
 ```python
-# webangiogram/queue_watcher.py
-from pathlib import Path
-import json
-from datetime import datetime
-import asyncio
-from typing import Optional
-
-class RequestQueue:
-    def __init__(self, queue_dir: str = "queue"):
-        self.queue_path = Path(queue_dir)
-        self.queue_path.mkdir(exist_ok=True)
-        
-        # Create subdirectories for our queue stages
-        self.incoming = self.queue_path / "incoming"
-        self.processing = self.queue_path / "processing"
-        self.completed = self.queue_path / "completed"
-        self.failed = self.queue_path / "failed"
-        
-        for p in [self.incoming, self.processing, self.completed, self.failed]:
-            p.mkdir(exist_ok=True)
-
-    def add_request(self, request_data: dict) -> str:
-        """Add a request to the incoming queue"""
-        # Generate a timestamp-based ID
-        request_id = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-        
-        # Add metadata to the request
-        request_data["_metadata"] = {
-            "id": request_id,
-            "created_at": datetime.now().isoformat()
-        }
-        
-        # Write to incoming directory
-        request_file = self.incoming / f"{request_id}.json"
-        request_file.write_text(json.dumps(request_data, indent=2))
-        
-        return request_id
-
-```
-
-Let's try it with the smallest possible test:
-
-```python
-# test_queue.py
-from queue_watcher import RequestQueue
-
-def test_basic_queue():
-    # Create a queue
-    queue = RequestQueue("test_queue")
-    
-    # Add a simple request
-    request_id = queue.add_request({
-        "type": "graph_request",
-        "project_url": "https://example.com/project"
-    })
-    
-    print(f"Created request: {request_id}")
-    
-if __name__ == "__main__":
-    test_basic_queue()
-```
-
-This gives us:
-1. A place to put requests (`incoming/`)
-2. A place to track what we're working on (`processing/`)
-3. A place for completed work (`completed/`)
-4. A place for failures (`failed/`)
-
-The beauty is you can:
-1. `ls queue/incoming` to see pending requests
-2. `cat queue/incoming/20240116_123456_789.json` to read any request
-3. Watch the directories with `tail -f` or your file explorer
-
-This is just step 1 - we're not even connecting to BotifyLinkGraph yet. We're just creating a friendly, observable place to put things we want to work on.
-
-Want to try this tiny first step? It won't affect your existing code at all, and you can literally watch the filesystem to see what's happening.
-
-*Adjusts glasses again*
-
-Is this gentle enough as a first step? We can make it even smaller if you'd like!
-
-**Me**: Hey look what I did! Figlet banner for the section I'll be building this out in and all. One thing I forget to metion is that I work in one big file. The testing you show implies importing my ginormous file into something to check. I mean I suppose I could now that I use a `__main__` check to serve (against the FastHTML pattern, but necessary for watchdog). I'm open to it. Do you think I ought to start importing it like a module at this point for testing?
-
-    # ----------------------------------------------------------------------------------------------------
-    #  ____                            _      ___                        
-    # |  _ \ ___  __ _ _   _  ___  ___| |_   / _ \ _   _  ___ _   _  ___ 
-    # | |_) / _ \/ _` | | | |/ _ \/ __| __| | | | | | | |/ _ \ | | |/ _ \
-    # |  _ <  __/ (_| | |_| |  __/\__ \ |_  | |_| | |_| |  __/ |_| |  __/
-    # |_| \_\___|\__, |\__,_|\___||___/\__|  \__\_\\__,_|\___|\__,_|\___|
-    #               |_|                                                  
-    # *******************************
-    # Request Queue: Because The File Systems IS the Database
-    # *******************************
-
-    # [Claude's code here]
-
-**Claude**: *adjusts glasses with a knowing smile*
-
-Ah, the mighty monolith approach! Actually, for what we're building, having everything in one file has some charm - it keeps the entire system observable in one place. Let's embrace it and add our test right in the same file, just above the `if __name__ == "__main__":` block:
-
-``````python
-# ----------------------------------------------------------------------------------------------------
-#  _____         _   _             
-# |_   _|__  ___| |_(_)_ __   __ _ 
-#   | |/ _ \/ __| __| | '_ \ / _` |
-#   | |  __/\__ \ |_| | | | | (_| |
-#   |_|\___||___/\__|_|_| |_|\__, |
-#                            |___/ 
-# *******************************
-# Test Functions
-# *******************************
-
-def test_request_queue():
-    """Test the RequestQueue functionality"""
-    # Create a test queue in a temporary directory
-    import tempfile
-    with tempfile.TemporaryDirectory() as tmpdir:
-        queue = RequestQueue(tmpdir)
-        
-        # Add a test request
-        request_id = queue.add_request({
-            "type": "test_graph_request",
-            "project_url": "https://example.com/test"
-        })
-        
-        # Verify the file exists
-        request_file = Path(tmpdir) / "incoming" / f"{request_id}.json"
-        assert request_file.exists(), f"Request file not found: {request_file}"
-        
-        # Read it back and verify content
-        data = json.loads(request_file.read_text())
-        assert data["type"] == "test_graph_request"
-        assert "_metadata" in data
-        
-        print(f"✓ RequestQueue test passed! Created request: {request_id}")
-        print(f"  File contents:\n{json.dumps(data, indent=2)}")
-
-if __name__ == "__main__":
-    # Run tests if --test flag is provided
-    import sys
-    if "--test" in sys.argv:
-        test_request_queue()
-        sys.exit(0)
-        
-    run_server_with_watchdog()
-``````
-
-Now you can run tests with:
-```bash
-python botifymograph.py --test
-```
-
-Or run the server as normal:
-```bash
-python botifymograph.py
-```
-
-This approach gives us:
-1. Tests in the same file (keeping with your monolith style)
-2. A way to run tests without affecting your real queue directory
-3. Nice ASCII art section headers (because style matters!)
-4. The ability to add more test functions as we build out the queue system
-
-The temporary directory approach means we can test freely without worrying about cleanup, and the test output will show you exactly what's being created.
-
-What do you think? This keeps everything in your preferred single-file approach while giving us a safe way to experiment with the new queue system. Want to try running it?
-
-**Me**: 
-
-    (nix) [mike@nixos:~/repos/botifymograph]$ python botifymograph.py --test
-
-    ...stuff deleted...
-
-    ✓ RequestQueue test passed! Created request: 20241116_135509_347155
-      File contents:
-    {
-      "type": "test_graph_request",
-      "project_url": "https://example.com/test",
-      "_metadata": {
-        "id": "20241116_135509_347155",
-        "created_at": "2024-11-16T13:55:09.347178"
-      }
-    }
-    (nix) [mike@nixos:~/repos/botifymograph]$
-
-**Claude**: *beams with gentle enthusiasm*
-
-Excellent! You've just taken your first step into a larger world of observable, filesystem-based workflows. The test passed perfectly, and look at that beautiful, human-readable JSON output! 
-
-Let's break down what we just confirmed:
-1. ✓ The queue system successfully creates directories
-2. ✓ It generates unique timestamps for requests
-3. ✓ It properly formats and stores JSON data
-4. ✓ The metadata is being added correctly
-5. ✓ Everything is human-readable and inspectable
-
-Would you like to take the next baby step? We could either:
-
-A) Add a simple method to peek at what's in the queue (like `list_incoming_requests()`), or
-
-B) Add a method to move requests between states (from `incoming` → `processing`)
-
-Both are small, safe steps that build naturally on what we just verified. Which feels more comfortable to you?
-
-Remember, we're still just building the observatory - we haven't touched BotifyLinkGraph at all yet. We're just creating a nice, observable place to manage work requests.
-
-Which direction would you like to explore next?
-
-Me: A please. And remind of of code snippets and context you need beyong the ginormous main file scan so your steps can be as precise as possible. Here, I'll give you a few things...
-
-[Lots of back-and-forth I'm not documenting]
-
-Me: I've never had steps go so easy and well, but of course that's because it's not integrated into our code yet. Anyow...
-
-    (stuff deleted)
-    [bold green]✓ RequestQueue tests passed![/]
-    ────────────────────────────────────────────────────────────────────────────────
-    Request: 20241116_141353_573233
-    Created: 2024-11-16T14:13:53.573255
-    Content:
-    {
-      "type": "test_graph_request",
-      "project_url": "https://example.com/test",
-      "options": {
-        "depth": 2,
-        "include_external": false
-      }
-    }
-    (nix) [mike@nixos:~/repos/botifymograph]$ 
-
-...and here's some context. We're leaving BotifyLinkGraph() in place and reproducing a new and improved workflow in the not-existing yet WebAngiogram() using the sequential parameter building you're laying the foundation for with the UI elegance of StreamSimulator().
-
-And finally, your context window is probably scrolling it out by now, but don't forget mission and purpose and single tenant anti-patterns! @2024-11-16-fighting-dunning-kruger-effect.md 
-
-Next!
-
-**Claude**: Perfect! I see exactly where we're going. Let's create `WebAngiogram` that combines our new `RequestQueue` with the elegant UI patterns from `StreamSimulator`. Here's the approach:
-
-```python
 class WebAngiogram:
-    """A simple web graph analysis tool that uses files and streams.
+    """A web graph analysis tool using file-based queues and SSE updates."""
     
-    Establishes core patterns:
-    1. Clear separation between UI components and processing
-    2. Consistent use of Cards for visual hierarchy
-    3. HTMX-first approach with progressive enhancement
-    4. File-based state management with clear boundaries
-    """
-    def __init__(self, app, base_dir="./queue"):
+    def __init__(self, app, route_prefix="/web-angiogram", queue_dir="queue"):
         self.app = app
-        self.base_dir = Path(base_dir)
-        self.base_dir.mkdir(parents=True, exist_ok=True)
+        self.route_prefix = route_prefix
+        self.id_suffix = "angiogram"
+        self.logger = logger.bind(name="WebAngiogram")
+        self.queue = RequestQueue(queue_dir)
+        
+        # Register routes
+        app.route(f"{route_prefix}/stream")(self.stream_events)
+        app.route(f"{route_prefix}/submit", methods=["POST"])(self.handle_submit)
 
-    async def render_main_card(self):
-        """Primary UI card with form and status area."""
-        return Card(
-            H3("Web Graph Analysis"),
-            # Input form with validation
-            Form(
-                Select(
-                    Option("New Analysis", value="new"),
-                    name="analysis_type",
-                    hx_get="/web_angiogram/show_form",
-                    hx_target="#form-area"
-                ),
-                id="analysis-select",
-                cls="contrast"
-            ),
-            # Dynamic form area
-            Div(id="form-area"),
-            # Status display
-            Div(id="status-area"),
-            cls="container-fluid"
-        )
-
-    async def show_form(self):
-        """Dynamic form based on analysis type."""
-        return Card(
-            Form(
-                Input(type="text", name="project",
-                      placeholder="Project name",
-                      cls="contrast"),
-                Button("Start", type="submit"),
-                hx_post="/web_angiogram/submit",
-                hx_target="#status-area"
-            ),
-            id="form-area"
-        )
-
-    async def show_status(self, job_id: str):
-        """Status card with real-time updates."""
+    def create_progress_card(self):
+        """Creates the progress tracking card."""
         return Card(
             Div(
-                Progress(value="0", max="100"),
-                id="progress-indicator"
+                Progress(value="0", max="100", id=f"progress-{self.id_suffix}"),
+                id=f"progress-container-{self.id_suffix}"
             ),
-            Div(id="status-message"),
-            hx_get=f"/web_angiogram/status/{job_id}",
-            hx_trigger="every 2s",
-            id="status-area"
+            Div(id=f"status-{self.id_suffix}", cls="stream-content"),
+            cls="contrast"
+        )
+
+    def create_form_card(self):
+        """Creates the input form card."""
+        return Card(
+            Form(
+                Input(
+                    type="text", 
+                    name="project_url",
+                    placeholder="Enter project URL",
+                    required=True,
+                    cls="contrast"
+                ),
+                Button(
+                    "Start Analysis",
+                    type="submit",
+                    id=f"start-btn-{self.id_suffix}",
+                    cls="contrast"
+                ),
+                hx_post=f"{self.route_prefix}/submit",
+                hx_target=f"#status-{self.id_suffix}"
+            ),
+            cls="contrast"
+        )
+
+    async def render_main_interface(self):
+        """Renders the complete interface."""
+        self.logger.debug("Rendering web angiogram interface")
+        return Div(
+            H2("Web Graph Analysis"),
+            self.create_form_card(),
+            self.create_progress_card(),
+            Script("""
+                class AngiogramUI {
+                    constructor(suffix) {
+                        this.suffix = suffix;
+                        this.progressBar = document.getElementById(`progress-${suffix}`);
+                        this.statusDiv = document.getElementById(`status-${suffix}`);
+                        this.startButton = document.getElementById(`start-btn-${suffix}`);
+                    }
+                    
+                    updateProgress(current, total) {
+                        const percentage = (current / total) * 100;
+                        this.progressBar.value = percentage;
+                    }
+                    
+                    appendMessage(message) {
+                        this.statusDiv.innerHTML += `<div>${message}</div>`;
+                        this.statusDiv.scrollTop = this.statusDiv.scrollHeight;
+                    }
+                }
+                
+                const angiogramUI = new AngiogramUI('angiogram');
+            """)
+        )
+
+    async def stream_events(self, request):
+        """SSE endpoint for progress updates."""
+        async def event_stream():
+            job_id = request.query_params.get('job_id')
+            if not job_id:
+                return
+                
+            while True:
+                status_file = self.queue.processing / f"{job_id}.json"
+                if status_file.exists():
+                    status = json.loads(status_file.read_text())
+                    yield f"data: {json.dumps(status)}\n\n"
+                await asyncio.sleep(1)
+                
+        return EventStream(event_stream())
+
+    async def handle_submit(self, request):
+        """Handles form submission and queues the job."""
+        form = await request.form()
+        job_data = {
+            "project_url": form.get("project_url"),
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        job_id = self.queue.add_request(job_data)
+        self.logger.info(f"Queued new analysis job: {job_id}")
+        
+        return Div(
+            P(f"Analysis queued: {job_id}"),
+            Script(f"""
+                const eventSource = new EventSource('{self.route_prefix}/stream?job_id={job_id}');
+                eventSource.onmessage = function(event) {{
+                    const data = JSON.parse(event.data);
+                    angiogramUI.appendMessage(data.message);
+                    if (data.progress) {{
+                        angiogramUI.updateProgress(data.progress.current, data.progress.total);
+                    }}
+                    if (data.status === 'completed') {{
+                        eventSource.close();
+                    }}
+                }};
+            """)
         )
 ```
 
-This gives us:
+This version:
 
-1. A clean, sequential form for parameter collection
-2. Request queue integration for persistence
-3. Real-time progress updates using SSE
-4. Clear separation of concerns between UI and processing
-5. Background task processing
-6. Error handling and status tracking
+1. Follows StreamSimulator's pattern of clean UI component creation
+2. Uses a similar JavaScript controller pattern for UI updates
+3. Implements SSE for real-time progress updates
+4. Maintains clear separation between UI and processing logic
+5. Includes proper error handling and status tracking
+6. Uses consistent styling patterns
 
-To use it:
-
-```python
-web_angiogram = WebAngiogram(app, base_dir="./angiogram_queue")
-```
-
-Next steps would be to:
-1. Implement the actual graph analysis logic in `process_request`
-2. Add more detailed progress tracking
-3. Add result visualization
-4. Add request management UI (list/view/delete requests)
-
-Want me to focus on any of those next?
-
-**Me**: Okay, this is where I need to get another coffee and rest my brain. Please understand you have a far greater understanding right now about what we're doing in an in-the-weeds implementation sense than I do. I will gladly put that in as a new plugin under the plugin architecture, which I'll give you some focused context on here. These things typically get their endpoints called through a menu selection in the Web UI. This is a key moment. The workflow is initiated. It is an opportunity to infuse the LLM with domain expertise with a system prompt, and send an initial message to the user. It can put the first PicoCSS Card in a sequence of Cards up on the screen. This card can start to collect whatever initial input we need from the user and set the stage for an HTMX form action that starts the per-endpoint, per-workflow per-sistence. I will leave you with that joke as I take a break and ponder your reply over coffee.
-
-**Claude**: *smiles knowingly at the per-sistence pun*
-
-Ah, now I see the full picture! Let's integrate `WebAngiogram` into your plugin architecture. We'll start by adding it to the menu and creating its initial card that sets up the workflow:
-
-````````python
-# Add to MENU_ITEMS
-MENU_ITEMS = ["introduction", todo_app.name, 'link_graph', 'gap_analysis', 'stream_simulator', 'web_angiogram']
-
-# Create the WebAngiogram instance
-web_angiogram = WebAngiogram(app, base_dir="./angiogram_queue", route_prefix="/web-angiogram")
-
-# Add the render function for the menu selection
-async def create_grid_left(menux, is_render_view=False, render_items=None):
-    """Create the left column of the main grid layout with vertically stacked Cards."""
-    if menux == 'introduction':
-        return await introduction.render_introduction()
-    elif menux == 'link_graph':
-        return await link_graph.render_link_graph()
-    elif menux == 'stream_simulator':
-        return await stream_simulator.render_stream_simulator()
-    elif menux == 'web_angiogram':
-        return await render_web_angiogram()
-    # ... rest of the existing conditions ...
-
-async def render_web_angiogram():
-    """Initial card for the Web Angiogram workflow."""
-    return Div(
-        Card(
-            H2("Web Angiogram: Visual Site Analysis", cls="card-title"),
-            P("""Welcome to Web Angiogram, an enhanced way to visualize and analyze website structures. 
-               Unlike traditional link graphs, this tool provides:"""),
-            Ul(
-                Li("Real-time progress updates"),
-                Li("Step-by-step parameter configuration"),
-                Li("Persistent analysis history"),
-                Li("Interactive visualization options"),
-                cls="feature-list"
-            ),
-            Form(
-                Label("Project URL", For="project_url"),
-                Input(type="url", name="project_url", id="project_url", 
-                      placeholder="https://example.com",
-                      hx_post="/web-angiogram/new",
-                      hx_target="#parameter-config",
-                      hx_trigger="change delay:500ms"),
-                cls="input-group"
-            ),
-            Div(id="parameter-config"),  # HTMX will populate this
-            cls="intro-card"
-        ),
-        Div(id="progress-container"),  # For SSE updates
-        id="content-container",
-        style="display: flex; flex-direction: column;"
-    )
-````````
-
-This setup:
-1. Integrates with your existing menu system
-2. Creates an inviting first card that explains the tool
-3. Sets up HTMX targets for the sequential workflow
-4. Maintains your UI consistency with PicoCSS
-
-The workflow will be:
-1. User enters URL → triggers parameter configuration
-2. Parameters are collected sequentially with validation
-3. Analysis begins → SSE updates show progress
-4. Results displayed in interactive visualization
-
-Want me to implement the parameter collection sequence next? It'll use your `StreamSimulator` pattern for smooth transitions between steps.
-
-Enjoy your coffee! ☕
-
-
+The actual processing logic would be implemented in the `_queue_analysis` and `_process_analysis` methods, which would handle the file-based queue system and background processing.
