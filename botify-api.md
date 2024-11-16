@@ -1,4 +1,4 @@
-<!-- Generated on 2024-11-15 21:51:57 -->
+<!-- Generated on 2024-11-15 21:53:44 -->
 
 {% raw %}
 
@@ -2403,7 +2403,6 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     
     lines = [
         "```python",
-        "# Summon the necessary artifacts",
         "import requests",
         "import json",
         "",
@@ -2571,7 +2570,6 @@ These endpoints allow you to manipulate analysis aspects of your digital realm.
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2611,7 +2609,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2642,7 +2639,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2673,7 +2669,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2704,7 +2699,6 @@ else:
 Legacy
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2735,7 +2729,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2766,7 +2759,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2797,7 +2789,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2828,7 +2819,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2859,7 +2849,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2890,7 +2879,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2921,7 +2909,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2952,7 +2939,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -2983,7 +2969,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3014,7 +2999,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3045,7 +3029,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3076,7 +3059,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3107,7 +3089,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3138,7 +3119,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3169,7 +3149,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3200,7 +3179,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3231,7 +3209,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3262,7 +3239,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3293,7 +3269,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3324,7 +3299,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3355,7 +3329,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3390,7 +3363,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3425,7 +3397,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3464,7 +3435,6 @@ These endpoints allow you to manipulate collections aspects of your digital real
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3495,7 +3465,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3530,7 +3499,6 @@ These endpoints allow you to manipulate datasource aspects of your digital realm
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3565,7 +3533,6 @@ These endpoints allow you to manipulate job aspects of your digital realm.
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3596,7 +3563,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3627,7 +3593,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3666,7 +3631,6 @@ These endpoints allow you to manipulate project aspects of your digital realm.
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3697,7 +3661,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3728,7 +3691,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3759,7 +3721,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3790,7 +3751,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3821,7 +3781,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3852,7 +3811,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3883,7 +3841,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3918,7 +3875,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3953,7 +3909,6 @@ else:
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -3992,7 +3947,6 @@ These endpoints allow you to manipulate projectquery aspects of your digital rea
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
@@ -4027,7 +3981,6 @@ These endpoints allow you to manipulate user aspects of your digital realm.
 
 
 ```python
-# Summon the necessary artifacts
 import requests
 import json
 def example_request():
