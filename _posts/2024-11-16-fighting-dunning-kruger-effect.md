@@ -1466,9 +1466,9 @@ Next steps would be to:
 
 Want me to focus on any of those next?
 
-Me: Okay, this is where I need to get another coffee and rest my brain. Please understand you have a far greater understanding right now about what we're doing in an in-the-weeds implementation sense than I do. I will gladly put that in as a new plugin under the plugin architecture, which I'll give you some focused context on here. These things typically get their endpoints called through a menu selection in the Web UI. This is a key moment. The workflow is initiated. It is an opportunity to infuse the LLM with domain expertise with a system prompt, and send an initial message to the user. It can put the first PicoCSS Card in a sequence of Cards up on the screen. This card can start to collect whatever initial input we need from the user and set the stage for an HTMX form action that starts the per-endpoint, per-workflow per-sistence. I will leave you with that joke as I take a break and ponder your reply over coffee.
+**Me**: Okay, this is where I need to get another coffee and rest my brain. Please understand you have a far greater understanding right now about what we're doing in an in-the-weeds implementation sense than I do. I will gladly put that in as a new plugin under the plugin architecture, which I'll give you some focused context on here. These things typically get their endpoints called through a menu selection in the Web UI. This is a key moment. The workflow is initiated. It is an opportunity to infuse the LLM with domain expertise with a system prompt, and send an initial message to the user. It can put the first PicoCSS Card in a sequence of Cards up on the screen. This card can start to collect whatever initial input we need from the user and set the stage for an HTMX form action that starts the per-endpoint, per-workflow per-sistence. I will leave you with that joke as I take a break and ponder your reply over coffee.
 
-Claude: *smiles knowingly at the per-sistence pun*
+**Claude**: *smiles knowingly at the per-sistence pun*
 
 Ah, now I see the full picture! Let's integrate `WebAngiogram` into your plugin architecture. We'll start by adding it to the menu and creating its initial card that sets up the workflow:
 
