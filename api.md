@@ -1,7 +1,7 @@
 ---
 permalink: /api/
 ---
-<!-- Generated on 2024-11-15 21:53:44 -->
+<!-- Generated on 2024-11-15 21:56:15 -->
 
 {% raw %}
 
@@ -2461,10 +2461,8 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     # Format the URL and parameters
     url = f"url = f'https://api.botify.com/v1{path}'"
     lines.extend([
-        "# Craft the invocation URL",
         url,
         "",
-        "# Prepare the headers for your spell",
         'headers = {',
         '    "Authorization": f"Token {token}",',
         '    "Content-Type": "application/json"',
@@ -2475,7 +2473,6 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     # Add method-specific code
     if method.lower() in ['post', 'put', 'patch']:
         lines.extend([
-            "# Define the payload for your invocation",
             "data = {",
             '    # Add your request parameters here',
             "}",
@@ -2619,9 +2616,7 @@ def example_request():
 # Load token from secure storage
 with open("botify_token.txt") as f:
     token = f.read().strip()
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2649,9 +2644,7 @@ import json
 def example_request():
     """Return global statistics for an analysis"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2679,9 +2672,7 @@ import json
 def example_request():
     """Return crawl statistics grouped by time frequency (1 min, 5 mins or 60 min) for an analysis"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2709,9 +2700,7 @@ import json
 def example_request():
     """Return a list of 1000 latest URLs crawled (all crawled URLs or only URLS with HTTP errors)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2739,9 +2728,7 @@ import json
 def example_request():
     """Legacy    List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2769,9 +2756,7 @@ import json
 def example_request():
     """Get inlinks percentiles"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2799,9 +2784,7 @@ import json
 def example_request():
     """Lost pagerank"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2829,9 +2812,7 @@ import json
 def example_request():
     """Scoring summary"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2859,9 +2840,7 @@ import json
 def example_request():
     """List clicks and impressions per day"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2889,9 +2868,7 @@ import json
 def example_request():
     """Get global information of the sitemaps found (sitemaps indexes, invalid sitemaps urls, etc.)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2919,9 +2896,7 @@ import json
 def example_request():
     """Sample list of URLs which were found in your sitemaps but outside of the crawl perimeter defined for the project, for instance domain/subdomain or protocol (HTTP/HTTPS) not allowed in the crawl settings."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2949,9 +2924,7 @@ import json
 def example_request():
     """Sample list of URLs which were found in your sitemaps, within the project allowed scope (allowed domains/subdomains/protocols), but not found by the Botify crawler."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -2979,9 +2952,7 @@ import json
 def example_request():
     """Top domains"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3009,9 +2980,7 @@ import json
 def example_request():
     """Top subddomains"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3039,9 +3008,7 @@ import json
 def example_request():
     """List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3069,9 +3036,7 @@ import json
 def example_request():
     """Get the segments feature public metadata of an analysis."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/segments'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3099,9 +3064,7 @@ import json
 def example_request():
     """Return an object containing all robots.txt files found on the project's domains. The object is null for virtual robots.txt."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3129,9 +3092,7 @@ import json
 def example_request():
     """Return content of a robots.txt file."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3159,9 +3120,7 @@ import json
 def example_request():
     """Gets AI suggestions of an URL for an analysis"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3189,9 +3148,7 @@ import json
 def example_request():
     """Gets an Analysis datamodel"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3219,9 +3176,7 @@ import json
 def example_request():
     """Gets Analysis Datasets"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3249,9 +3204,7 @@ import json
 def example_request():
     """A list of the CSV Exports requests and their current status"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3279,9 +3232,7 @@ import json
 def example_request():
     """Checks the status of an CSVUrlExportJob object. Returns json object with the status."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3309,9 +3260,7 @@ import json
 def example_request():
     """Gets the HTML of an URL for an analysis"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3339,9 +3288,7 @@ import json
 def example_request():
     """Gets the detail of an URL for an analysis"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3369,14 +3316,11 @@ import json
 def example_request():
     """Executes a query and returns a paginated response"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3403,14 +3347,11 @@ import json
 def example_request():
     """Query aggregator. It accepts multiple queries and dispatches them."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3437,14 +3378,11 @@ import json
 def example_request():
     """Creates a new UrlExport object and starts a task that will export the results into a csv. Returns the model id that manages the task"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3475,9 +3413,7 @@ import json
 def example_request():
     """List all collections for a project"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3505,9 +3441,7 @@ import json
 def example_request():
     """Get the detail of a collection"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections/{collection}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3539,9 +3473,7 @@ import json
 def example_request():
     """Get the datasources details for all projects of a user"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/users/{username}/datasources_summary_by_projects'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3573,9 +3505,7 @@ import json
 def example_request():
     """List All jobs"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/jobs'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3603,9 +3533,7 @@ import json
 def example_request():
     """Retrieve one job"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/jobs/{job_id}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3633,14 +3561,11 @@ import json
 def example_request():
     """Creates a job instance of a class which depends on the "job_type" parameter you sent. Returns the model id that manages the task."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/jobs'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3671,9 +3596,7 @@ import json
 def example_request():
     """List all analyses for a project"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3701,9 +3624,7 @@ import json
 def example_request():
     """List all analyses for a project (light)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/light'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3731,9 +3652,7 @@ import json
 def example_request():
     """List all the project's saved filters (each filter's name, ID and filter value)"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3761,9 +3680,7 @@ import json
 def example_request():
     """Retrieve a specific project saved, account or recommended filter's name, ID and filter value"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters/{identifier}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3791,9 +3708,7 @@ import json
 def example_request():
     """List all the project's Saved Explorers."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/saved_explorers'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3821,9 +3736,7 @@ import json
 def example_request():
     """Get project informations with a website id from pulse"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/pulse_website/{pulse_website_id}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3851,9 +3764,7 @@ import json
 def example_request():
     """List all active projects for the user"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/users/{username}/projects'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -3881,14 +3792,11 @@ import json
 def example_request():
     """Query collections at a project level."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/query'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3915,14 +3823,11 @@ import json
 def example_request():
     """Project Query aggregator. It accepts multiple queries that will be executed on all completed analyses in the project"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/urls/aggs'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3949,14 +3854,11 @@ import json
 def example_request():
     """Clone all keyword groups of the current project to another one.  This endpoint is a little more general (for further use). That's why you will see a 'type' field (with a default value of: 'keywords')."""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/values_list/clone'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Define the payload for your invocation
 data = {
     # Add your request parameters here
 }
@@ -3987,9 +3889,7 @@ import json
 def example_request():
     """List all the account saved filters"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/account_filters'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
@@ -4021,9 +3921,7 @@ import json
 def example_request():
     """List all active projects for the user"""
 
-# Craft the invocation URL
 url = f'https://api.botify.com/v1/projects/{username}'
-# Prepare the headers for your spell
 headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
