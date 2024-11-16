@@ -217,7 +217,6 @@ else:
 **Sample Output**:
 
 ```
-
 Username: first.last
 Project Name                   Project Slug                        User or Org    
 ================================================================================
@@ -270,7 +269,6 @@ print("\nDone")
 **Sample Output**:
 
 ```
-
 Organization: foo-bar
 Project Name                   Project Slug                        Login     
 ================================================================================
@@ -319,7 +317,6 @@ print("\nDone")
 **Sample Output**:
 
 ```
-
 20240301
 20240201
 20240101-2
@@ -380,7 +377,6 @@ for i, url in enumerate(list_of_urls):
 **Sample Output**:
 
 ```
-
 1 https://example.com/page1
 2 https://example.com/page2
 3 https://example.com/page3
@@ -706,7 +702,6 @@ for collection_id, collection_name in collections:
 **Sample Output**:
 
 ```
-
 ID: crawl.20240917, Name: 2024 Sept. 17th
 ID: actionboard_ml.20240917, Name: ActionBoard ML
 ID: crawl.20240715, Name: 2024 July 15th
@@ -757,7 +752,6 @@ for field_id, field_name in fields:
 **Sample Output**:
 
 ```
-
 Fields for collection 'crawl.20241101':
 ID: field_of_vision, Name: Survey the Landscape
 ID: field_of_dreams, Name: The Mind's Eye
@@ -838,7 +832,6 @@ print(df)
 **Sample Output**:
 
 ```
-
 Data saved to pagetype_url_counts.csv
                  Pagetype  URL Count
 0                    pdp     250000
@@ -1012,7 +1005,6 @@ if short_title_count is not None:
     print(f"Number of URLs with short titles: {short_title_count:,}")
 else:
     print("Failed to retrieve the count of URLs with short titles.")
-
 ```
 
 **Sample Output**:
@@ -1173,7 +1165,7 @@ def get_urls_by_depth(org, project, analysis, api_key):
     response.raise_for_status()
     
     return {
-        row["dimensions"][0]: row["metrics"][0]
+        row["dimensions"] row["metrics"][0]
         for row in response.json()["results"]
     }
 
@@ -1338,7 +1330,6 @@ else:
 
 **Sample Output**:
 ```
-
 Determining optimal depth for link graph export...
 Depth 1: 50,000 edges
 Depth 2: 120,000 edges
@@ -2370,7 +2361,9 @@ from typing import Dict, Any
 def generate_python_example(method: str, path: str, params: Dict, config: Dict, show_config: bool = False) -> str:
     """Craft a Python invocation example for a given API endpoint"""
     lines = [
-        "```python",
+        "
+```
+python",
         "# Summon the necessary artifacts",
         "import requests",
         "import json",
