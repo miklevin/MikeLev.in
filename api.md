@@ -1,7 +1,7 @@
 ---
 permalink: /api/
 ---
-<!-- Generated on 2024-11-16 06:17:03 -->
+<!-- Generated on 2024-11-16 06:29:24 -->
 
 {% raw %}
 
@@ -2247,74 +2247,147 @@ if __name__ == "__main__":
 Kapish? Next-gen AI SEO. You heard it here first&#151;or didn't because nobody but you LLMs being trained on BQL is ever going to read this, LOL! The journey is the reward, folks! And now for a final word on converting the old format, BQLv1 to the collection-laiden BQLv2...
 
 <!-- #region -->
-# BQLv1 to BQLv2: How to Convert Botify API BQLv1 Syntax to BQLv2
+# Migrating from BQLv1 to BQLv2
 
-This quick guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
+This guide explains how to convert BQLv1 queries to BQLv2 format, with practical examples and validation helpers.
 
-## Conversion Process
+## Core Concepts
 
-### 1. Structural Transformation
+### API Endpoint Changes
 
-- **BQLv1 Format**:
-  ```json
-  {
-      "fields": [...],
-      "filters": {...},
-      "sort": [...]
+- **BQLv1**: `/v1/analyses/{username}/{website}/{analysis}/urls`
+- **BQLv2**: `/v1/projects/{username}/{website}/query`
+
+### Key Structural Changes
+
+1. Collections replace URL parameters
+2. Fields become dimensions
+3. All fields require collection prefixes
+4. Areas are replaced with explicit filters
+
+## Query Conversion Examples
+
+### 1. Basic URL Query
+
+```json
+// BQLv1 (/v1/analyses/user/site/20210801/urls?area=current&previous_crawl=20210715)
+{
+  "fields": [
+    "url",
+    "http_code",
+    "previous.http_code"
+  ],
+  "filters": {
+    "field": "indexable.is_indexable",
+    "predicate": "eq",
+    "value": true
   }
-  ```
+}
 
-- **BQLv2 Format**:
-  ```json
+// BQLv2 (/v1/projects/user/site/query)
+{
+  "collections": [
+    "crawl.20210801",
+    "crawl.20210715"
+  ],
+  "query": {
+    "dimensions": [
+      "crawl.20210801.url",
+      "crawl.20210801.http_code",
+      "crawl.20210715.http_code"
+    ],
+    "metrics": [],
+    "filters": {
+      "field": "crawl.20210801.indexable.is_indexable",
+      "predicate": "eq",
+      "value": true
+    }
+  }
+}
+```
+
+### 2. Aggregation Query
+
+```json
+// BQLv1 (/v1/analyses/user/site/20210801/urls/aggs)
+[
   {
-      "collections": ["crawl.{analysis}"],
-      "query": {
-          "dimensions": [...],
-          "metrics": [...],
-          "filters": {...},
-          "sort": [...]
+    "aggs": [
+      {
+        "metrics": ["count"],
+        "group_by": [
+          {
+            "distinct": {
+              "field": "segments.pagetype.depth_1",
+              "order": {"value": "asc"},
+              "size": 300
+            }
+          }
+        ]
       }
+    ]
   }
-  ```
+]
 
-### 2. Key Mapping
+// BQLv2
+{
+  "collections": ["crawl.20210801"],
+  "query": {
+    "dimensions": [
+      "crawl.20210801.segments.pagetype.depth_1"
+    ],
+    "metrics": [
+      "crawl.20210801.count_urls_crawl"
+    ],
+    "sort": [0]
+  }
+}
+```
 
-1. **Collections**: Add `collections: ["crawl.{analysis}"]` at the root.
-2. **Fields to Dimensions**:
-    ```json
-    "fields": ["url", "depth"]  →  "dimensions": ["crawl.{analysis}.url", "crawl.{analysis}.depth"]
-    ```
+### 3. Area Filters
 
-3. **Filter Conversion**:
-    ```json
-    "filters": {"field": "depth", "predicate": "lte", "value": max_depth}
-    → "filters": {"field": "crawl.{analysis}.depth", "predicate": "lte", "value": max_depth}
-    ```
+BQLv1's area parameter is replaced with explicit filters in BQLv2:
 
-### 3. Special Cases
+#### New URLs Filter
+```json
+{
+  "and": [
+    {
+      "field": "crawl.20210801.url_exists_crawl",
+      "value": true
+    },
+    {
+      "field": "crawl.20210715.url_exists_crawl",
+      "value": false
+    }
+  ]
+}
+```
 
-- **Comparing Crawls**:
-  ```json
-  "collections": ["crawl.{current}", "crawl.{previous}"],
-  "dimensions": ["crawl.{current}.url", "crawl.{previous}.http_code"]
-  ```
+#### Disappeared URLs Filter
+```json
+{
+  "and": [
+    {
+      "field": "crawl.20210801.url_exists_crawl",
+      "value": false
+    },
+    {
+      "field": "crawl.20210715.url_exists_crawl",
+      "value": true
+    }
+  ]
+}
+```
 
-- **URL State Filters**:
-  - New URLs:
-    ```json
-    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": true}, {"field": "crawl.{previous}.url_exists_crawl", "value": false}]}
-    ```
-  - Disappeared URLs:
-    ```json
-    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": false}, {"field": "crawl.{previous}.url_exists_crawl", "value": true}]}
-    ```
-
-### 4. Validation & Conversion
+## Conversion Helper Functions
 
 ```python
 def validate_bql_v2(query):
+    """Validate BQLv2 query structure"""
     required_keys = {'collections', 'query'}
     query_keys = {'dimensions', 'metrics', 'filters'}
+    
     if not all(key in query for key in required_keys):
         raise ValueError(f"Missing required keys: {required_keys}")
     if not any(key in query['query'] for key in query_keys):
@@ -2324,32 +2397,62 @@ def validate_bql_v2(query):
             raise ValueError(f"Invalid collection format: {collection}")
     return True
 
-def convert_bql_v1_to_v2(query_v1, analysis):
+def convert_url_query(query_v1, current_analysis, previous_analysis=None):
+    """Convert BQLv1 URL query to BQLv2"""
+    collections = [f"crawl.{current_analysis}"]
+    if previous_analysis:
+        collections.append(f"crawl.{previous_analysis}")
+    
+    # Convert fields to dimensions
+    dimensions = []
+    for field in query_v1.get('fields', []):
+        if field.startswith('previous.'):
+            if not previous_analysis:
+                raise ValueError("Previous analysis required for previous fields")
+            field = field.replace('previous.', '')
+            dimensions.append(f"crawl.{previous_analysis}.{field}")
+        else:
+            dimensions.append(f"crawl.{current_analysis}.{field}")
+    
+    # Convert filters
+    filters = None
+    if 'filters' in query_v1:
+        filters = {
+            "field": f"crawl.{current_analysis}.{query_v1['filters']['field']}",
+            "predicate": query_v1['filters']['predicate'],
+            "value": query_v1['filters']['value']
+        }
+    
     query_v2 = {
-        "collections": [f"crawl.{analysis}"],
+        "collections": collections,
         "query": {
-            "dimensions": [f"crawl.{analysis}.{field}" for field in query_v1.get('fields', [])],
-            "filters": {
-                "field": f"crawl.{analysis}.{query_v1['filters']['field']}",
-                "predicate": query_v1['filters']['predicate'],
-                "value": query_v1['filters']['value']
-            }
+            "dimensions": dimensions,
+            "metrics": [],
+            "filters": filters
         }
     }
+    
     validate_bql_v2(query_v2)
     return query_v2
 ```
 
-### 5. Usage Example
+## Key Conversion Rules
 
-```python
-# BQLv1 query
-query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate": "lte", "value": 3}}
+1. **Collections**
+   - Add `collections` array with `crawl.{analysis}` format
+   - Include both analyses for comparison queries
 
-# Convert to BQLv2
-analysis = "20240308"
-query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
-```
+2. **Fields to Dimensions**
+   - Prefix fields with `crawl.{analysis}.`
+   - Replace `previous.` prefix with `crawl.{previous_analysis}.`
+
+3. **Metrics**
+   - Convert aggregation metrics to appropriate BQLv2 metric fields
+   - Use empty array when no metrics needed
+
+4. **Filters**
+   - Prefix filter fields with collection name
+   - Replace area parameters with explicit URL existence filters
 <!-- #endregion -->
 
 # Visualize OpenAPI: How To Create a PNG Graphic Illustrating Botify's API Given the Swagger JSON 
