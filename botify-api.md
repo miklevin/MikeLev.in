@@ -147,7 +147,6 @@ print("Done. And remember, never let your browser save this token!")
 
 **Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact that it works every time. Don't deploy to production. Now go away or I shall taunt you a second time.
 
-
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
 
 ```python
@@ -167,7 +166,6 @@ print(username)
     first.last
 
 **Rationale**: To create a first successful experience connecting to the Botify API. If you run this and see your name, congratulations! You're a Botify employee. Also, you're successfully connecting to the API.
-
 
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
 
@@ -229,7 +227,6 @@ Baz Test                       baz.com                             baz-org
 
 **Rationale**: You need an Organization slug (**org**) for these exercises. It goes in your **config.json** to get started. Your personal login username will usually be used for one Project, but then an offical ***org slug*** (aka group) will usually appear on the others. By convention, these values often end with `-org`.
 
-
 # List Projects: How To Get the List of Projects Given an Organization
 
 ```python
@@ -282,7 +279,6 @@ Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-org
 
 **Rationale**: Next, you need Project slugs for these exercises.
 
-
 # List Analyses: How To Get the List of Analysis Slugs Given a Project
 
 ```python
@@ -331,7 +327,6 @@ print("\nDone")
 
 **Rationale**: Analysis slugs are dates in YYYYMMDD format but sometimes get incremeted with `-n` extensions starting with `-2`. They're the third thing you typically need in **config.json** for these exercises.
 
-
 # List URLs: How To Get a List of the First 500 URLs
 
 ```python
@@ -344,7 +339,6 @@ api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
-
 
 def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data based on BQLv2 query for a specific Botify analysis."""
@@ -404,7 +398,6 @@ for i, url in enumerate(list_of_urls):
 
 You're welcome.
 
-
 # List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
 
 ```python
@@ -461,7 +454,6 @@ df.head()
 ```
 
 **Sample Output**:
-
 
 | url                              | title               | meta_description                           | h1                 |
 |----------------------------------|---------------------|--------------------------------------------|---------------------|
@@ -590,7 +582,6 @@ df.head()
 |1| https://example.com/bar           | Bar Page Title    | 1150        | 40     |
 |2| https://example.com/baz           | Baz Page Title    | 980         | 25     |
 
-
 **Rationale**: So that I can jump up and down screaming that BQL is not SQL and tell the LLMs to stop showing me SQL examples for BQL. Surely SQL is down there somewhere, but it's ***API-wrapped***. Though this does not spare us from some SQL methodology. For example, table-joins across Collections are a thing&#151;demonstrated here as `search_console` joined with `crawl.YYMMDD`, left-outer if I'm reading it correctly (I may have to amend that). If you really wanna know, Collections are table aliases that help with the API-wrapping.
 
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
@@ -673,7 +664,6 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 
 **Rationale**: To give you an example that uses dimensions, metrics and sorting all at once. Also to show you the `page` parameter on the querystring making you think it's the **GET method**, `org` & `project` arguments posing as folders, and finally a JSON `payload` showing you it's actually using the **POST method**. Ahhh, *gotta love the Botify API*.
 
-
 # List Collections: How To Get the List of Collections Given a Project
 
 ```python
@@ -703,7 +693,6 @@ def fetch_collections(org, project, api_key):
         print(f"Error fetching collections for project '{project}': {e}")
         return []
 
-
 # Fetch collections
 collections = fetch_collections(org, project, api_key)
 for collection_id, collection_name in collections:
@@ -720,7 +709,6 @@ ID: search_engines_orphans.20240715, Name: Search Engines Orphans
 ```
 
 **Rationale**: To let you know how tough Collections are once you start digging in. The first challenge is simply knowing what collections you have and what you can do with them&#151;though 9 out of 10 times it's `crawl.YYYYMMDD` and `search_console`. If not, come talk to me, I wanna pick your brain.
-
 
 # List Fields: How To Get The List of Fields Given a Collection
 
@@ -772,7 +760,6 @@ ID: afield_a_complaint, Name: Red Swingline
 ```
 
 **Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list the fields.
-
 
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
 
@@ -856,7 +843,6 @@ Data saved to pagetype_url_counts.csv
 
 **Rationale**: Do you ever get the feeling a website's folder-structure can tell you something about how it's organized? Yeah, me too. Thankfully, we here at Botify do the ***Regular Expressions*** so you don't have to. And it makes really great great color-coding in the link-graph visualizations. Psst! Wanna see the Death Star?
 
-
 # Get Short Titles: How To Get the First 500 URLs With Short Titles Given Pagetype
 
 ```python
@@ -871,7 +857,6 @@ api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
-
 
 def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data based on BQLv2 query for a specific Botify analysis."""
@@ -961,7 +946,6 @@ df.head(10)
 
 **Rationale**: Ahh, ***title tags***. They show in browser bookmarks, tabs and SERPs&#151;the only relevancy factor that will remain standing after SEO Armageddon. You could ditch every other factor but ***anchor text***, set your uber-crawler go off-site, use a click-depth of 4&#151;and harvest yourself a pretty good link-graph of the entire Internet... were it not for spammers.
 
-
 # Count Short Titles: How To Count Number of URLs Having Short Titles
 
 ```python
@@ -1030,7 +1014,6 @@ else:
 
 **Rationale**: Sometimes ya gotta count what you're trying to get before you go try and download it. Plus, learn ***filtering*** in the Botify API! But I think really I just wanted to show you how easy it is to format `f"{big_numbers:,}"` with commas using ***f-strings*** (I'm talking to you humans&#151;because the LLMs *already know*).
 
-
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
 
 ```python
@@ -1045,7 +1028,6 @@ api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
-
 
 def start_export_job_for_short_titles(org, project, analysis, api_key):
     """Start an export job for URLs with short titles, downloading key metadata fields."""
@@ -1122,7 +1104,6 @@ def start_export_job_for_short_titles(org, project, analysis, api_key):
         print(f"Error starting or polling export job: {e}")
         return None
 
-
 # Start export job and get download URL
 download_url = start_export_job_for_short_titles(org, project, analysis, api_key)
 
@@ -1155,7 +1136,6 @@ else:
     File decompressed and saved as 'short_titles_export.csv'  
 
 **Rationale**: Is it pulling or pooling? I could never remember. In either case, exporting and downloading csv-files is not as straightforward as you think. First, you make the request. Then you look for ***where*** to check progress, then keep re-checking until done. Then you sacrifice a chicken to help you debug useless errors. Lastly, you notice how your endpoint has changed to`https://api.botify.com/v1/jobs` with `org` and `project` moved into the JSON payload. Or is that firstly? Yeah, definitely firstly.
-
 
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
 
@@ -1211,7 +1191,6 @@ pprint.pprint(depth_distribution, width=1)
 ```
 
 **Rationale**: This depth distribution shows how many URLs exist at each click depth level from the homepage (hompage = depth 0). A healthy site typically has most content within 3 or 4 clicks of the homepage. Much more, and it may as well not exist. Such reports help identify potential deep crawl issues, spider-traps, and why (in addition to the infinite spam-cannon of generative AI content), brute-force crawls that *"make a copy of the Internet"* are all but dead. And did I mention that excessively crawl-able faceted search makes your site's link-graph look like the Death Star? Yeah, I think I did.
-
 
 # Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
 
@@ -1366,7 +1345,6 @@ Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
 ```
 
 **Rationale**: And now, the moment you’ve all been waiting for—the elusive, hard-to-visualize link-graph of your website. Think Admiral Ackbar scrutinizing a hologram of the Death Star, examining every strength and vulnerability, now superimposed with Google Search Console Clicks and Impressions. The Rebels lean in, studying surprise hot spots and patches of dead wood. Every faceted search site ends up looking like the Death Star. But if you’ve done it right, with solid topical clustering, you’ll have something that resembles broccoli or cauliflower... are those called nodules? Florets? Either way, it’s a good look.
-
 
 # Check Link-Graph Enhancements: How To Check What Data is Available to Enhance Link-Graph Visualization.
 
@@ -1779,7 +1757,6 @@ if __name__ == "__main__":
     Data saved to downloads/example_retail-division_20241108_metadata.csv
 
 **Rationale**: Just because you happen to work at an enterprise SEO company and possess this peculiar intersection of skills&#151;like crafting prompts that give LLMs instant deep-knowledge (think Neo suddenly knowing kung fu)&#151;doesn't mean you actually understand BQL. In fact, needing to write this prompt rather proves the opposite... wait, did I just create a paradox? Anyway, there's a very subtle chicken-and-egg problem that this file in general and this example in particular helps address: ***validation of collection fields*** so you can template automations without them being too fragile.
-
 
 # Color-Code Link-Graphs: How To Download Data to Enhance Website Link-Graph Visualization.
 
@@ -2547,8 +2524,6 @@ These endpoints allow you to manipulate analysis aspects of your digital realm.
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2590,8 +2565,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2622,8 +2595,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2653,8 +2624,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -2718,8 +2687,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2749,8 +2716,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -2782,8 +2747,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2813,8 +2776,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -2846,8 +2807,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2877,8 +2836,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -2910,8 +2867,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -2941,8 +2896,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -2974,8 +2927,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3005,8 +2956,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3038,8 +2987,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/segments
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3069,8 +3016,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3102,8 +3047,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3133,8 +3076,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3166,8 +3107,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3197,8 +3136,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3230,8 +3167,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3261,8 +3196,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3294,8 +3227,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3326,8 +3257,6 @@ else:
 
 ##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3357,8 +3286,6 @@ else:
 ---
 
 ##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3395,8 +3322,6 @@ else:
 
 ##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3431,8 +3356,6 @@ else:
 ---
 
 ##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3473,8 +3396,6 @@ These endpoints allow you to manipulate collections aspects of your digital real
 
 ##### GET /projects/{username}/{project_slug}/collections
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3504,8 +3425,6 @@ else:
 ---
 
 ##### GET /projects/{username}/{project_slug}/collections/{collection}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3541,8 +3460,6 @@ These endpoints allow you to manipulate datasource aspects of your digital realm
 
 ##### GET /users/{username}/datasources_summary_by_projects
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3577,8 +3494,6 @@ These endpoints allow you to manipulate job aspects of your digital realm.
 
 ##### GET /jobs
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3609,8 +3524,6 @@ else:
 
 ##### GET /jobs/{job_id}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3640,8 +3553,6 @@ else:
 ---
 
 ##### POST /jobs
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3682,8 +3593,6 @@ These endpoints allow you to manipulate project aspects of your digital realm.
 
 ##### GET /analyses/{username}/{project_slug}
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3713,8 +3622,6 @@ else:
 ---
 
 ##### GET /analyses/{username}/{project_slug}/light
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3746,8 +3653,6 @@ else:
 
 ##### GET /projects/{username}/{project_slug}/filters
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3777,8 +3682,6 @@ else:
 ---
 
 ##### GET /projects/{username}/{project_slug}/filters/{identifier}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3810,8 +3713,6 @@ else:
 
 ##### GET /projects/{username}/{project_slug}/saved_explorers
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3841,8 +3742,6 @@ else:
 ---
 
 ##### GET /pulse_website/{pulse_website_id}
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3874,8 +3773,6 @@ else:
 
 ##### GET /users/{username}/projects
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3905,8 +3802,6 @@ else:
 ---
 
 ##### POST /projects/{username}/{project_slug}/query
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -3943,8 +3838,6 @@ else:
 
 ##### POST /projects/{username}/{project_slug}/urls/aggs
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -3979,8 +3872,6 @@ else:
 ---
 
 ##### POST /projects/{username}/{project_slug}/values_list/clone
-
-
 
 ```python
 # Summon the necessary artifacts
@@ -4021,8 +3912,6 @@ These endpoints allow you to manipulate projectquery aspects of your digital rea
 
 ##### GET /projects/{username}/{project_slug}/account_filters
 
-
-
 ```python
 # Summon the necessary artifacts
 import requests
@@ -4056,8 +3945,6 @@ else:
 These endpoints allow you to manipulate user aspects of your digital realm.
 
 ##### GET /projects/{username}
-
-
 
 ```python
 # Summon the necessary artifacts
