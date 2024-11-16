@@ -953,11 +953,6 @@ pre, code {
   --code-color: #ffffff !important;
 }
 
-/* Make sure links remain visible but distinct */
-a:not(.ascii-link) {
-  color: var(--accent) !important;
-  text-decoration: underline;
-}
 
 a:not(.ascii-link):hover {
   color: var(--accent-hover, #ffb300) !important;
