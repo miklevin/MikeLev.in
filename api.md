@@ -1,7 +1,7 @@
 ---
 permalink: /api/
 ---
-<!-- Generated on 2024-11-15 20:20:42 -->
+<!-- Generated on 2024-11-15 20:26:07 -->
 
 {% raw %}
 
@@ -2417,6 +2417,8 @@ def create_api_graph():
 if __name__ == "__main__":
     create_api_graph()
 ```
+
+# All Endpoints: How Do You Generate a Python Code Example for Every Botify Endpoint Given Their OpenAPI Swagger at https://api.botify.com/v1/swagger.json
 
 ```python
 # The Arcane Scrolls: API Endpoint Examples
