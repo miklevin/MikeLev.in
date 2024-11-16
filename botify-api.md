@@ -1,4 +1,4 @@
-<!-- Generated on 2024-11-16 06:15:10 -->
+<!-- Generated on 2024-11-16 06:17:03 -->
 
 {% raw %}
 
@@ -2595,209 +2595,2397 @@ else:
 print(markdown_content)
 ```
 
-# The Arcane Scrolls: API Endpoint Examples
+<!-- #region -->
+API documentation generated successfully!
+## The Complete API Grimoire
+
+Having mastered the arts of BQL, we now document the full spectrum of API invocations.
+Each endpoint is presented with its purpose, capabilities, and Python implementation.
+
+### Endpoint Categories
+
+#### Analysis Invocations
+
+These endpoints allow you to manipulate analysis aspects of your digital realm.
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get an Analysis detail
+
+**Parameters Required:**
+```
+- previous_crawl: Previous analysis identifier
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
 import requests
 import json
-from pathlib import Path
-from typing import Dict, Any
+def example_request():
 
-def generate_python_example(method: str, path: str, params: Dict, config: Dict, description: str = "", show_config: bool = False) -> str:
-    """Craft a Python invocation example for a given API endpoint"""
-    docstring = f'    """{description}"""\n' if description else ""
-    
-    lines = [
-        "```python",
-        "# Summon the necessary artifacts",
-        "import requests",
-        "import json",
-        "",
-        "def example_request():",
-        "\n",
-        docstring
-    ]
-    
-    if show_config:
-        lines.extend([
-            "# Your configuration sigil should contain:",
-            "#   - token: Your API token",
-            "#   - org: Your organization ID",
-            "#   - project: Your project ID",
-            "#   - analysis: Your analysis ID",
-            "#   - collection: Your collection ID",
-            "",
-            "# Load token from secure storage",
-            'with open("botify_token.txt") as f:',
-            '    token = f.read().strip()',
-            ''
-        ])
-    
-    # Format the URL and parameters
-    url = f"url = f'https://api.botify.com/v1{path}'"
-    lines.extend([
-        "# Craft the invocation URL",
-        url,
-        "",
-        "# Prepare the headers for your spell",
-        'headers = {',
-        '    "Authorization": f"Token {token}",',
-        '    "Content-Type": "application/json"',
-        '}',
-        ''
-    ])
-    
-    # Add method-specific code
-    if method.lower() in ['post', 'put', 'patch']:
-        lines.extend([
-            "# Define the payload for your invocation",
-            "data = {",
-            '    # Add your request parameters here',
-            "}",
-            "",
-            "# Cast the spell",
-            f"response = requests.{method.lower()}(url, headers=headers, json=data)",
-            ""
-        ])
-    else:
-        lines.extend([
-            "# Cast the spell",
-            f"response = requests.{method.lower()}(url, headers=headers)",
-            ""
-        ])
-    
-    lines.extend([
-        "# Interpret the response",
-        "if response.status_code == 200:",
-        "    result = response.json()",
-        "    print(json.dumps(result, indent=2))",
-        "else:",
-        "    print(f'Error: {response.status_code}')",
-        "    print(response.text)"
-    ])
-    
-    lines.append("```")
-    return "\n".join(line for line in lines if line)
 
-def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
-    """Inscribe the complete API grimoire"""
-    md_lines = [
-        "## The Complete API Grimoire",
-        "",
-        "Having mastered the arts of BQL, we now document the full spectrum of API invocations.",
-        "Each endpoint is presented with its purpose, capabilities, and Python implementation.",
-        "",
-        "### Endpoint Categories",
-        ""
-    ]
-    
-    endpoints_by_tag = {}
-    for path, methods in spec['paths'].items():
-        for method, details in methods.items():
-            if method == 'parameters':
-                continue
-            tag = details.get('tags', ['Untagged'])[0]
-            if tag not in endpoints_by_tag:
-                endpoints_by_tag[tag] = []
-            endpoints_by_tag[tag].append((method, path, details))
-    
-    first_example = True
-    for tag in sorted(endpoints_by_tag.keys()):
-        md_lines.extend([
-            f"#### {tag} Invocations",
-            "",
-            f"These endpoints allow you to manipulate {tag.lower()} aspects of your digital realm.",
-            ""
-        ])
-        
-        for method, path, details in sorted(endpoints_by_tag[tag]):
-            description = details.get('description', '')
-            summary = details.get('summary', '')
-            parameters = details.get('parameters', [])
-            responses = details.get('responses', {})
-            
-            # Create a semantic block for LLMs
-            md_lines.extend([
-                f"##### {method.upper()} {path}",
-                "",
-                "**Purpose:**",
-                summary or "No summary provided.",
-                "",
-                "**Detailed Description:**",
-                description or "No detailed description available.",
-                "",
-                "**Parameters Required:**",
-                "```",
-                "\n".join(f"- {p.get('name')}: {p.get('description', 'No description')}" 
-                         for p in parameters) if parameters else "No parameters required",
-                "```",
-                "",
-                "**Expected Responses:**",
-                "```",
-                "\n".join(f"- {code}: {details.get('description', 'No description')}" 
-                         for code, details in responses.items()),
-                "```",
-                "",
-                "**Example Implementation:**",
-                generate_python_example(method, path, details, config, 
-                                     description=description, show_config=first_example),
-                "",
-                "---",
-                ""
-            ])
-            first_example = False
-    
-    # Add a section specifically for LLM understanding
-    md_lines.extend([
-        "### LLM Guidance",
-        "",
-        "When deciding which endpoint to use:",
-        "1. Consider the category (tag) that matches your task",
-        "2. Review the Purpose and Description to ensure alignment",
-        "3. Check the required parameters match your available data",
-        "4. Verify the expected responses meet your needs",
-        "",
-        "Example prompt format:",
-        '```',
-        'I need to [task description]. I have access to [available data].',
-        'Which endpoint would be most appropriate?',
-        '```',
-        ""
-    ])
-    
-    return "\n".join(md_lines)
+    """Get an Analysis detail"""
 
-# First, ensure we have our token
-if not Path("botify_token.txt").exists():
-    print("Please run the authentication cell first to create your token file.")
+# Your configuration sigil should contain:
+#   - token: Your API token
+#   - org: Your organization ID
+#   - project: Your project ID
+#   - analysis: Your analysis ID
+#   - collection: Your collection ID
+# Load token from secure storage
+with open("botify_token.txt") as f:
+    token = f.read().strip()
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
 else:
-    # Load token
-    with open("botify_token.txt") as f:
-        token = f.read().strip()
-    
-    # Use existing configuration from earlier cells
-    config = {
-        "token": token,
-        # These will be used as placeholders in examples
-        "org": "{org_id}",
-        "project": "{project_id}",
-        "analysis": "{analysis_id}",
-        "collection": "{collection_id}"
-    }
-    
-    # Fetch the API specification
-    try:
-        response = requests.get("https://api.botify.com/v1/swagger.json", 
-                              headers={"Authorization": f"Token {token}"})
-        spec = response.json()
-        
-        # Generate and display the markdown
-        markdown_content = generate_markdown(spec, config)
-        print("API documentation generated successfully!")
-        
-        # The markdown content will be rendered in the next cell
-    except Exception as e:
-        print(f"Error fetching API specification: {e}")
-print(markdown_content)
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
 
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Return global statistics for an analysis
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Return global statistics for an analysis"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Return crawl statistics grouped by time frequency (1 min, 5 mins or 60 min) for an analysis
+
+**Parameters Required:**
+```
+- limit: max number of elements to retrieve
+- frequency: Aggregation frequency
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Return crawl statistics grouped by time frequency (1 min, 5 mins or 60 min) for an analysis"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Return a list of 1000 latest URLs crawled (all crawled URLs or only URLS with HTTP errors)
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Return a list of 1000 latest URLs crawled (all crawled URLs or only URLS with HTTP errors)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}
+
+**Purpose:**
+Legacy
+
+**Detailed Description:**
+Legacy    List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Legacy    List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get inlinks percentiles
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get inlinks percentiles"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Lost pagerank
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Lost pagerank"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Scoring summary
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Scoring summary"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List clicks and impressions per day
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List clicks and impressions per day"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get global information of the sitemaps found (sitemaps indexes, invalid sitemaps urls, etc.)
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get global information of the sitemaps found (sitemaps indexes, invalid sitemaps urls, etc.)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Sample list of URLs which were found in your sitemaps but outside of the crawl perimeter defined for the project, for instance domain/subdomain or protocol (HTTP/HTTPS) not allowed in the crawl settings.
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Sample list of URLs which were found in your sitemaps but outside of the crawl perimeter defined for the project, for instance domain/subdomain or protocol (HTTP/HTTPS) not allowed in the crawl settings."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Sample list of URLs which were found in your sitemaps, within the project allowed scope (allowed domains/subdomains/protocols), but not found by the Botify crawler.
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Sample list of URLs which were found in your sitemaps, within the project allowed scope (allowed domains/subdomains/protocols), but not found by the Botify crawler."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Top domains
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Top domains"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Top subddomains
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Top subddomains"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/segments
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get the segments feature public metadata of an analysis.
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get the segments feature public metadata of an analysis."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/segments'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Return an object containing all robots.txt files found on the project's domains. The object is null for virtual robots.txt.
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Return an object containing all robots.txt files found on the project's domains. The object is null for virtual robots.txt."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Return content of a robots.txt file.
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Return content of a robots.txt file."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Gets AI suggestions of an URL for an analysis
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Gets AI suggestions of an URL for an analysis"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Gets an Analysis datamodel
+
+**Parameters Required:**
+```
+- area: Analysis context
+- previous_crawl: Previous analysis identifier
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Gets an Analysis datamodel"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Gets Analysis Datasets
+
+**Parameters Required:**
+```
+- area: Analysis context
+- previous_crawl: Previous analysis identifier
+- deprecated_fields: Include deprecated fields
+- sequenced: Whether to use sequenced groups
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Gets Analysis Datasets"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+A list of the CSV Exports requests and their current status
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """A list of the CSV Exports requests and their current status"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Checks the status of an CSVUrlExportJob object. Returns json object with the status.
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Checks the status of an CSVUrlExportJob object. Returns json object with the status."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Gets the HTML of an URL for an analysis
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Gets the HTML of an URL for an analysis"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Gets the detail of an URL for an analysis
+
+**Parameters Required:**
+```
+- fields: comma separated list of fields to return (c.f. URLs Datamodel)
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Gets the detail of an URL for an analysis"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Executes a query and returns a paginated response
+
+**Parameters Required:**
+```
+- Query: Query
+- area: Analysis context
+- page: Page Number
+- size: Page Size
+- previous_crawl: Previous analysis identifier
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Executes a query and returns a paginated response"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Query aggregator. It accepts multiple queries and dispatches them.
+
+**Parameters Required:**
+```
+- AggsQueries: AggsQueries
+- area: Analysis context
+- previous_crawl: Previous analysis identifier
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Query aggregator. It accepts multiple queries and dispatches them."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Creates a new UrlExport object and starts a task that will export the results into a csv. Returns the model id that manages the task
+
+**Parameters Required:**
+```
+- Query: Query
+- area: Analysis context
+- previous_crawl: Previous analysis identifier
+- export_size: Maximum size of the export (deprecated => size instead)
+- size: Maximum size of the export
+- compression: Compressed file format
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 201: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Creates a new UrlExport object and starts a task that will export the results into a csv. Returns the model id that manages the task"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### Collections Invocations
+
+These endpoints allow you to manipulate collections aspects of your digital realm.
+
+##### GET /projects/{username}/{project_slug}/collections
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all collections for a project
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all collections for a project"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /projects/{username}/{project_slug}/collections/{collection}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get the detail of a collection
+
+**Parameters Required:**
+```
+- sequenced: Whether to use sequenced groups
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get the detail of a collection"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections/{collection}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### Datasource Invocations
+
+These endpoints allow you to manipulate datasource aspects of your digital realm.
+
+##### GET /users/{username}/datasources_summary_by_projects
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get the datasources details for all projects of a user
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get the datasources details for all projects of a user"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/users/{username}/datasources_summary_by_projects'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### Job Invocations
+
+These endpoints allow you to manipulate job aspects of your digital realm.
+
+##### GET /jobs
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List All jobs
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+- job_type: The job type
+- project: The project slug
+- analysis: The analysis slug
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List All jobs"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/jobs'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /jobs/{job_id}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Retrieve one job
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Retrieve one job"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/jobs/{job_id}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /jobs
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Creates a job instance of a class which depends on the "job_type" parameter you sent. Returns the model id that manages the task.
+
+**Parameters Required:**
+```
+- JobCreate: Job create
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 201: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Creates a job instance of a class which depends on the "job_type" parameter you sent. Returns the model id that manages the task."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/jobs'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### Project Invocations
+
+These endpoints allow you to manipulate project aspects of your digital realm.
+
+##### GET /analyses/{username}/{project_slug}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all analyses for a project
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+- only_success: Return only successfully finished analyses
+- fields: Which fields to return (comma-separated)
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all analyses for a project"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /analyses/{username}/{project_slug}/light
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all analyses for a project (light)
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+- only_success: Return only successfully finished analyses
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all analyses for a project (light)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/light'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /projects/{username}/{project_slug}/filters
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all the project's saved filters (each filter's name, ID and filter value)
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+- search: Search query on the filter name
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all the project's saved filters (each filter's name, ID and filter value)"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /projects/{username}/{project_slug}/filters/{identifier}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Retrieve a specific project saved, account or recommended filter's name, ID and filter value
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Retrieve a specific project saved, account or recommended filter's name, ID and filter value"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters/{identifier}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /projects/{username}/{project_slug}/saved_explorers
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all the project's Saved Explorers.
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all the project's Saved Explorers."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/saved_explorers'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /pulse_website/{pulse_website_id}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Get project informations with a website id from pulse
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Get project informations with a website id from pulse"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/pulse_website/{pulse_website_id}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### GET /users/{username}/projects
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all active projects for the user
+
+**Parameters Required:**
+```
+No parameters required
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all active projects for the user"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/users/{username}/projects'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /projects/{username}/{project_slug}/query
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Query collections at a project level.
+
+**Parameters Required:**
+```
+- ProjectQuery: Project Query
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Query collections at a project level."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/query'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /projects/{username}/{project_slug}/urls/aggs
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Project Query aggregator. It accepts multiple queries that will be executed on all completed analyses in the project
+
+**Parameters Required:**
+```
+- AggsQueries: AggsQueries
+- area: Analyses context
+- last_analysis_slug: Last analysis on the trend
+- nb_analyses: Max number of analysis to return
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 201: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Project Query aggregator. It accepts multiple queries that will be executed on all completed analyses in the project"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/urls/aggs'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+##### POST /projects/{username}/{project_slug}/values_list/clone
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+Clone all keyword groups of the current project to another one.  This endpoint is a little more general (for further use). That's why you will see a 'type' field (with a default value of: 'keywords').
+
+**Parameters Required:**
+```
+- ValuesListCloneRequestBody: JSON body to use as request body for ValuesList clone operation
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 201: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """Clone all keyword groups of the current project to another one.  This endpoint is a little more general (for further use). That's why you will see a 'type' field (with a default value of: 'keywords')."""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/values_list/clone'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Define the payload for your invocation
+data = {
+    # Add your request parameters here
+}
+# Cast the spell
+response = requests.post(url, headers=headers, json=data)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### ProjectQuery Invocations
+
+These endpoints allow you to manipulate projectquery aspects of your digital realm.
+
+##### GET /projects/{username}/{project_slug}/account_filters
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all the account saved filters
+
+**Parameters Required:**
+```
+- page: Page Number
+- size: Page Size
+- search: Search query on the filter name
+- disable_project: Flag to return or not filters of this project
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all the account saved filters"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/account_filters'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+#### User Invocations
+
+These endpoints allow you to manipulate user aspects of your digital realm.
+
+##### GET /projects/{username}
+
+**Purpose:**
+No summary provided.
+
+**Detailed Description:**
+List all active projects for the user
+
+**Parameters Required:**
+```
+- name: Project's name
+- page: Page Number
+- size: Page Size
+```
+
+**Expected Responses:**
+```
+- default: error payload
+- 200: Successful operation
+```
+
+**Example Implementation:**
+```python
+# Summon the necessary artifacts
+import requests
+import json
+def example_request():
+
+
+    """List all active projects for the user"""
+
+# Craft the invocation URL
+url = f'https://api.botify.com/v1/projects/{username}'
+# Prepare the headers for your spell
+headers = {
+    "Authorization": f"Token {token}",
+    "Content-Type": "application/json"
+}
+# Cast the spell
+response = requests.get(url, headers=headers)
+# Interpret the response
+if response.status_code == 200:
+    result = response.json()
+    print(json.dumps(result, indent=2))
+else:
+    print(f'Error: {response.status_code}')
+    print(response.text)
+```
+
+---
+
+### LLM Guidance
+
+When deciding which endpoint to use:
+1. Consider the category (tag) that matches your task
+2. Review the Purpose and Description to ensure alignment
+3. Check the required parameters match your available data
+4. Verify the expected responses meet your needs
+
+Example prompt format:
+```
+I need to [task description]. I have access to [available data].
+Which endpoint would be most appropriate?
+```
+
+<!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
 {% endraw %}
