@@ -156,14 +156,16 @@ class BotifyLinkGraph:
         return ParameterCard(next_param, self.workflow_queue).render()
 ```
 
-This solution provides:
+## This solution provides:
+
 1. Clear separation of concerns
 2. Persistent state management
 3. Reproducible workflows
 4. Progressive parameter collection
 5. Resilient user experience
 
-The log-based approach means you can:
+### The log-based approach means you can:
+
 1. Resume interrupted sessions
 2. Debug parameter collection issues
 3. Reproduce exact workflow conditions
