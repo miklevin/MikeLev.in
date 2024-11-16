@@ -1,6 +1,6 @@
 ---
-title: Planning Next Steps
-permalink: /light-the-fuse/
+title: On Fighting the Dunning-Kruger Effect
+permalink: /fighting-dunning-kruger-effect/
 description: 
 layout: post
 sort_order: 1
