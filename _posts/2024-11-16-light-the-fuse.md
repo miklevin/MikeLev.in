@@ -1,5 +1,5 @@
 ---
-title: 
+title: Planning Next Steps
 permalink: /light-the-fuse/
 description: 
 layout: post
