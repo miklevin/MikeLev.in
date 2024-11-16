@@ -1139,7 +1139,7 @@ Want to try this tiny first step? It won't affect your existing code at all, and
 
 Is this gentle enough as a first step? We can make it even smaller if you'd like!
 
-**Me**: Hey look what I did! Figlet banner for the section I'll be building this out in and all. One thing I forget to metion is that I work in one big file. The testing you show implies importing my ginormous file into something to check. I mean I suppose I could now that I use a __main__ check to serve (against the FastHTML pattern, but necessary for watchdog). I'm open to it. Do you think I ought to start importing it like a module at this point for testing?
+**Me**: Hey look what I did! Figlet banner for the section I'll be building this out in and all. One thing I forget to metion is that I work in one big file. The testing you show implies importing my ginormous file into something to check. I mean I suppose I could now that I use a `__main__` check to serve (against the FastHTML pattern, but necessary for watchdog). I'm open to it. Do you think I ought to start importing it like a module at this point for testing?
 
     # ----------------------------------------------------------------------------------------------------
     #  ____                            _      ___                        
