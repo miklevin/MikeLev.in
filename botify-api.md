@@ -1,4 +1,4 @@
-<!-- Generated on 2024-11-15 21:56:15 -->
+<!-- Generated on 2024-11-15 21:57:53 -->
 
 {% raw %}
 
@@ -2450,13 +2450,11 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
         ])
     else:
         lines.extend([
-            "# Cast the spell",
             f"response = requests.{method.lower()}(url, headers=headers)",
             ""
         ])
     
     lines.extend([
-        "# Interpret the response",
         "if response.status_code == 200:",
         "    result = response.json()",
         "    print(json.dumps(result, indent=2))",
@@ -2549,7 +2547,7 @@ else:
 print(markdown_content)
 ```
 
-<!-- #region -->
+<!-- #region jp-MarkdownHeadingCollapsed=true -->
 API documentation generated successfully!
 ## The Complete API Grimoire
 
@@ -2586,9 +2584,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2614,9 +2610,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2642,9 +2636,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2670,9 +2662,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2698,9 +2688,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2726,9 +2714,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2754,9 +2740,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2782,9 +2766,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2810,9 +2792,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2838,9 +2818,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2866,9 +2844,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2894,9 +2870,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2922,9 +2896,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2950,9 +2922,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -2978,9 +2948,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3006,9 +2974,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3034,9 +3000,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3062,9 +3026,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3090,9 +3052,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3118,9 +3078,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3146,9 +3104,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3174,9 +3130,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3202,9 +3156,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3230,9 +3182,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3258,9 +3208,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3291,7 +3239,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3322,7 +3269,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3353,7 +3299,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3383,9 +3328,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3411,9 +3354,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3443,9 +3384,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3475,9 +3414,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3503,9 +3440,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3536,7 +3471,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3566,9 +3500,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3594,9 +3526,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3622,9 +3552,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3650,9 +3578,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3678,9 +3604,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3706,9 +3630,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3734,9 +3656,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3767,7 +3687,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3798,7 +3717,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3829,7 +3747,6 @@ data = {
 }
 # Cast the spell
 response = requests.post(url, headers=headers, json=data)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3859,9 +3776,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
@@ -3891,9 +3806,7 @@ headers = {
     "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
-# Cast the spell
 response = requests.get(url, headers=headers)
-# Interpret the response
 if response.status_code == 200:
     result = response.json()
     print(json.dumps(result, indent=2))
