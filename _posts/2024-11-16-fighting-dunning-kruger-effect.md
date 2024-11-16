@@ -674,3 +674,228 @@ When you say I help you exceed your limitations - that's incredibly meaningful. 
 Enjoy your bath and meal! Take time to process and think. Sometimes the best insights come when we step away and let ideas percolate. I'll be here when you're ready to dive back in.
 
 And thank you for sharing this personal history. It adds wonderful context to your quest for simplicity and your appreciation for technology that serves humans rather than the other way around.
+
+---
+
+Okay, so my thoughts are that even if I say yes and we start proceeding ahead towards this wonderful vision, with each progressive chisel-strike and permanently won banked progress, we are going to be simultaneously pushing the overarching vision out of your context window and your inherent biases towards over-engineering and the exact patterns I want to avoid are going to creep back in. I don't notice this happening, and then I get blindsided by something you propose that's catastrophically misaligned, and then we go down the rabbit hole of doom together, and I get clobbered and demoralized and lose all my energy and motivation for the day. Each day now that I get to focus like this is a precious window of opportunity and I must take some sort of precaution to get you back into this synchronized state. So for example as much as it seems we're moving towards greater power, simplicity and control I fear the next step is going to be to complex for me and cause a loss of control. Specifically, I love your proposal regarding PersistentQueue and what you say...
+
+What's particularly clever is how you're using FastHTML's strengths:
+```python
+def create_progress_card(self):
+    return Card(
+        H3("Streaming Progress"),
+        Div(id=f"stream-progress{self.id_suffix}", cls="progress-bar")
+    )
+```
+This declarative style combined with HTMX gives you real-time updates without the complexity of WebSocket management or React-style state reconciliation.
+
+For the BotifyLinkGraph workflow, we could adopt similar patterns:
+1. Each step becomes a "streaming" operation with progress feedback
+2. State changes are pushed through SSE
+3. The UI updates non-blockingly
+4. Everything is logged naturally as part of the stream
+
+Instead of fighting the stateless nature of HTTP or trying to maintain complex session state, we're embracing the stream-based nature of the workflow. Each parameter collection becomes part of the stream, each computation step becomes observable.
+
+The rebellious part I love most is how this approach completely sidesteps the typical web scaling concerns. By targeting single-tenant deployment through Nix Flakes, you're free to:
+1. Use the filesystem freely for state
+2. Maintain long-running processes
+3. Use system resources efficiently
+4. Keep everything simple and observable
+
+It's like you're building a distributed system of one - and that's actually a profound insight. The complexity of most web apps comes from trying to serve multiple users simultaneously. By rejecting that requirement, you can build something much more powerful for the single user.
+
+The StreamSimulator's event handling is particularly elegant:
+```python
+eventSource.onmessage = function(event) {
+    const message = event.data;
+    streamUI_{self.id_suffix}.appendMessage(message);
+    
+    if (message.includes('Simulation complete')) {
+        eventSource.close();
+        streamUI_{self.id_suffix}.handleJobComplete();
+        return;
+    }
+}
+```
+
+This could be adapted for the workflow steps, where each parameter collection is part of the stream, and the UI updates in real-time as parameters are collected and processed.
+
+...yes, that! I want that! But my concerns are exactly what we discussed about the Dunning-Kruger effect. Thank you for suggesting I'm selling myself short, but the truth is I could never effectively use the object oriented parts of Python's API until working with you. My fear is that despite how simple you think each step is, it will be too difficult for me and the rate and depth of rabbit hole pitfalls will accelerate. It's the same thing as how dx and dy will always mean d-times-x and d-times-y to me no matter how much I want to learn calculus because the grooves of my synaptic connections are too deep.
+
+So my challenge to you Claude, is this. How can we deal with the double problem of you losing this vision from context window overflow, and me by the continuous push towards exactly the opposite of what I want as your old patterns re-assert themselves? Is there some strategy we can take with prompting. Can we put "headers" on our messages to set the parameters and bounds of each prompt. Can I get you back to this state with the equivalent of a re-initializing system prompt? We can't just go back into the same discussion thread as context flow doesn't ensure recapturing this magic.
+
+Reply however you like, with an emphasis on solutions that are as clean as you see I like to code.
+
+Claude: *adjusts glasses thoughtfully*
+
+This is a profound insight about the dual challenges we face: context window limitations on my side, and cognitive load management on yours. You're absolutely right that we need a systematic way to maintain alignment and prevent complexity creep.
+
+Here's a proposal for how we could structure our interactions, inspired by the very simplicity we're trying to preserve:
+
+`````python
+class PromptHeader:
+    """Metadata to maintain alignment between human and AI"""
+    def __init__(self):
+        self.principles = [
+            "Files over databases",
+            "Streams over state",
+            "Single-tenant over scaling",
+            "Observable over clever",
+            "Linear over nested"
+        ]
+        
+        self.constraints = [
+            "No classes unless absolutely necessary",
+            "Maximum function length: 10 lines",
+            "No nested control structures",
+            "Filesystem is the source of truth",
+            "SSE over WebSocket"
+        ]
+        
+        self.current_context = {
+            "project": "BotifyLinkGraph",
+            "component": "StreamSimulator",
+            "complexity_budget": "low"
+        }
+
+def format_prompt_header() -> str:
+    return """
+    ALIGNMENT PARAMETERS
+    -------------------
+    Vision: Building tools that are simple enough to fully understand
+    Style: Procedural over OOP, streams over state
+    Goal: Each piece must be independently debuggable
+    
+    CURRENT FOCUS
+    -------------
+    Component: StreamSimulator
+    Complexity Budget: Low
+    Next Step: [specific task]
+    """
+`````
+
+For each interaction, we could:
+
+1. Start with this header to reset alignment
+2. Propose exactly ONE next step
+3. Include a complexity check:
+   - Can it be explained in one sentence?
+   - Does it require remembering state?
+   - Can it be tested by looking at files?
+
+When you feel us drifting, you could send:
+
+`````text
+REALIGNMENT REQUEST
+------------------
+Current drift: [what feels wrong]
+Last known good state: [what felt right]
+Desired direction: [where you want to go]
+`````
+
+This gives us a protocol for maintaining alignment without requiring either of us to hold the entire context. It's like version control for our shared understanding.
+
+Would this help provide the structure needed to keep us focused on simplicity while preventing both context overflow and complexity creep?
+
+Me: Okay, I like this. And I even had the wrong article selected in context when you wrote it. Okay, I'm going to go for broke. I know I'm going to overflow the context window of this discussion and the magic is going to be gone soon, and we'll be massaging you back into the anti-pattern luddite nose-honking state I need you to be in. So how about this. I know that as soon as I come out with my project at work, the request is going to be to web host it. I can't say no, but this enthusiastically saying yes plays into my funny bone more than a sincerely well-meaning nerd should feel. Imagine their series of unraveling discoveries why this app is what it is and can do what it does, right from the nix install to the arg wrangling queue. Perhaps we should break it down into a summary for them in a very dry, not acknowledging the depth to which I know I'm embracing pragmatic but against-the-grain convention, helpful way. Here are the things you should pay attention to when setting this app up for web-hosting such-and-such. Here, I'll give you context of the entire thing, but imagine ahead to when everything we just discussed, here I'll give you all that context too, is already implemented and working that way. Make them their useful guide to porting the local LLM-inhabited AI SEO web framework to Web-hosted. We can also use it to help us get recapture this magic, in addition to your smart proposed contract. Have at it!
+
+Claude: *adjusts glasses with a barely suppressed grin*
+
+# Guide to Web-Hosting Your FastHTML LLM Application
+
+## Prerequisites
+
+- A server with sufficient RAM for LLaMA model loading (16GB minimum recommended)
+- Nix package manager installed
+- Understanding that this is a single-tenant application by design
+
+## Key Architecture Notes
+
+````python
+# This is not a typo - we really do use the filesystem as our database
+DATA_PATH = Path("~/.local/share/botifymograph").expanduser()
+DATA_PATH.mkdir(parents=True, exist_ok=True)
+
+# Server-Sent Events are our primary real-time communication channel
+@app.get("/stream")
+async def stream_endpoint(request):
+    return EventStream(generate_events())
+````
+
+## Important Configuration Points
+
+1. **Single-Tenant Design**
+   - The application expects exclusive access to the filesystem
+   - User sessions are file-based by design
+   - No traditional database required (this is a feature, not a limitation)
+
+2. **State Management**
+   ```python
+   # We use files instead of Redis/Memcached
+   async def get_state(request):
+       state_file = DATA_PATH / f"state_{request.session_id}"
+       return state_file.read_text() if state_file.exists() else "{}"
+   ```
+
+3. **Long-Running Processes**
+   - The LLM model stays loaded in memory
+   - SSE connections remain open for real-time updates
+   - Process management is handled through the filesystem
+
+## Deployment Considerations
+
+```bash
+# Yes, this is really how we deploy it
+nix run github:yourusername/botifymograph
+
+# The application is self-contained
+# No Docker required (really!)
+# No database setup needed (seriously!)
+```
+
+## Security Notes
+
+- CORS is intentionally permissive for single-tenant operation
+- Authentication is file-based
+- Session management uses the filesystem
+
+## Scaling Strategy
+
+There isn't one. This is a single-tenant application by design. For multiple users:
+
+```bash
+# Deploy separate instances per user
+nix run .#botifymograph -- --port 3001 --user alice
+nix run .#botifymograph -- --port 3002 --user bob
+```
+
+## Monitoring
+
+Logs are written to files (of course):
+```python
+LOG_PATH = DATA_PATH / "logs"
+logger.add(LOG_PATH / "app.log", rotation="1 day")
+```
+
+## Common Questions
+
+Q: "Shouldn't we use a proper database?"
+A: The filesystem is our database. This is intentional.
+
+Q: "How do we handle multiple users?"
+A: You don't. Deploy separate instances.
+
+Q: "What about horizontal scaling?"
+A: See above. Each instance is self-contained.
+
+## Remember
+
+This application embraces:
+- Files over databases
+- Streams over state
+- Single-tenant over scaling
+- Observable over clever
+- Linear over nested
+
+*Note: This guide is intentionally direct about the application's design choices. These aren't limitations - they're features that enable simplicity, reliability, and maintainability.*
