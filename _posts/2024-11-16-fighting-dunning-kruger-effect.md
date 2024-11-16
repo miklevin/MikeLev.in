@@ -1270,4 +1270,198 @@ Me: A please. And remind of of code snippets and context you need beyong the gin
 
 [Lots of back-and-forth I'm not documenting]
 
+Me: I've never had steps go so easy and well, but of course that's because it's not integrated into our code yet. Anyow...
 
+    (stuff deleted)
+    [bold green]✓ RequestQueue tests passed![/]
+    ────────────────────────────────────────────────────────────────────────────────
+    Request: 20241116_141353_573233
+    Created: 2024-11-16T14:13:53.573255
+    Content:
+    {
+      "type": "test_graph_request",
+      "project_url": "https://example.com/test",
+      "options": {
+        "depth": 2,
+        "include_external": false
+      }
+    }
+    (nix) [mike@nixos:~/repos/botifymograph]$ 
+
+...and here's some context. We're leaving BotifyLinkGraph() in place and reproducing a new and improved workflow in the not-existing yet WebAngiogram() using the sequential parameter building you're laying the foundation for with the UI elegance of StreamSimulator().
+
+And finally, your context window is probably scrolling it out by now, but don't forget mission and purpose and single tenant anti-patterns! @2024-11-16-fighting-dunning-kruger-effect.md 
+
+Next!
+
+Claude: Perfect! I see exactly where we're going. Let's create `WebAngiogram` that combines our new `RequestQueue` with the elegant UI patterns from `StreamSimulator`. Here's the approach:
+
+```````python
+class WebAngiogram:
+    """A modern web graph analysis tool that builds parameters sequentially and provides real-time feedback.
+    
+    Key improvements over BotifyLinkGraph:
+    1. Sequential parameter building with validation at each step
+    2. Real-time progress updates using SSE/HTMX
+    3. Persistent request queue with state management
+    4. Clear separation between request creation and processing
+    """
+    def __init__(self, app, base_dir="./queue", route_prefix="/angiogram"):
+        self.app = app
+        self.route_prefix = route_prefix
+        self.queue = RequestQueue(base_dir)
+        self.logger = logger.bind(name="WebAngiogram")
+        
+        # Register routes
+        app.route(f"{route_prefix}/new")(self.render_new_request)
+        app.route(f"{route_prefix}/submit", methods=["POST"])(self.handle_submit)
+        app.route(f"{route_prefix}/status/{{request_id}}")(self.render_status)
+        app.route(f"{route_prefix}/stream/{{request_id}}")(self.stream_progress)
+    
+    async def render_new_request(self, request):
+        """Render the initial parameter collection form."""
+        return Div(
+            H2("Web Graph Analysis"),
+            Form(
+                Fieldset(
+                    Legend("Project Details"),
+                    Input(type="url", name="project_url", 
+                          placeholder="https://github.com/user/repo",
+                          required=True),
+                    Select(
+                        Option("Dependencies Only", value="deps"),
+                        Option("Full Repository", value="full"),
+                        name="scan_type"
+                    ),
+                    Input(type="number", name="depth", 
+                          value="2", min="1", max="5"),
+                    Checkbox("include_external", "Include External Links")
+                ),
+                Button("Start Analysis", type="submit"),
+                hx_post=f"{self.route_prefix}/submit",
+                hx_target="#status-area"
+            ),
+            Div(id="status-area")
+        )
+
+    async def handle_submit(self, request):
+        """Create a new request and start streaming progress."""
+        form = await request.form()
+        
+        # Create request object
+        request_data = {
+            "project_url": form.get("project_url"),
+            "scan_type": form.get("scan_type"),
+            "depth": int(form.get("depth")),
+            "include_external": bool(form.get("include_external"))
+        }
+        
+        # Add to queue
+        request_id = self.queue.add_request(request_data)
+        
+        # Start processing in background
+        background = BackgroundTask(self.process_request, request_id)
+        
+        # Return status view
+        return HTMLResponse(
+            self.render_status_view(request_id),
+            background=background
+        )
+
+    def render_status_view(self, request_id):
+        """Render the progress tracking view."""
+        return Div(
+            H3("Analysis Progress"),
+            Div(id=f"progress-{request_id}", cls="progress-bar"),
+            Div(id=f"status-{request_id}", cls="status-updates"),
+            Script(f"""
+                const eventSource = new EventSource('{self.route_prefix}/stream/{request_id}');
+                const progressBar = document.getElementById('progress-{request_id}');
+                const statusArea = document.getElementById('status-{request_id}');
+                
+                eventSource.onmessage = function(event) {{
+                    const data = JSON.parse(event.data);
+                    if (data.progress) {{
+                        progressBar.style.width = data.progress + '%';
+                    }}
+                    if (data.message) {{
+                        statusArea.innerHTML += data.message + '<br>';
+                    }}
+                    if (data.complete) {{
+                        eventSource.close();
+                    }}
+                }};
+            """)
+        )
+
+    async def stream_progress(self, request, request_id):
+        """Stream progress updates for a specific request."""
+        async def generate():
+            request = self.queue.get_request(request_id, "processing")
+            if not request:
+                yield "data: " + json.dumps({"error": "Request not found"}) + "\n\n"
+                return
+                
+            while True:
+                status = await self.get_request_status(request_id)
+                if status.get("complete"):
+                    yield "data: " + json.dumps(status) + "\n\n"
+                    break
+                yield "data: " + json.dumps(status) + "\n\n"
+                await asyncio.sleep(0.5)
+                
+        return EventStream(generate())
+
+    async def process_request(self, request_id):
+        """Process a request from the queue."""
+        try:
+            # Move to processing state
+            self.queue.move_request(request_id, "incoming", "processing")
+            request = self.queue.get_request(request_id, "processing")
+            
+            # Actual processing logic here...
+            # This is where we'll implement the graph analysis
+            
+            self.queue.move_request(request_id, "processing", "completed")
+            
+        except Exception as e:
+            self.logger.error(f"Error processing request {request_id}: {str(e)}")
+            self.queue.move_request(request_id, "processing", "failed")
+
+    async def get_request_status(self, request_id):
+        """Get current status of a request."""
+        # This will be expanded based on actual processing logic
+        request = self.queue.get_request(request_id, "processing")
+        if not request:
+            request = self.queue.get_request(request_id, "completed")
+            if request:
+                return {"complete": True, "progress": 100}
+            request = self.queue.get_request(request_id, "failed")
+            if request:
+                return {"complete": True, "error": "Processing failed"}
+            return {"error": "Request not found"}
+        return {"progress": 50, "message": "Processing..."}  # Placeholder
+```````
+
+This gives us:
+
+1. A clean, sequential form for parameter collection
+2. Request queue integration for persistence
+3. Real-time progress updates using SSE
+4. Clear separation of concerns between UI and processing
+5. Background task processing
+6. Error handling and status tracking
+
+To use it:
+
+```python
+web_angiogram = WebAngiogram(app, base_dir="./angiogram_queue")
+```
+
+Next steps would be to:
+1. Implement the actual graph analysis logic in `process_request`
+2. Add more detailed progress tracking
+3. Add result visualization
+4. Add request management UI (list/view/delete requests)
+
+Want me to focus on any of those next?
