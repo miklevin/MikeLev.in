@@ -11,8 +11,8 @@
 }
 
 :root {
-    --bg: #000000; /* True black */
-    --accent-bg: #2b2b2b;
+    --bg: #11191f; /* PicoCSS's darker shade */
+    --accent-bg: #1a252f;
     --text: #dcdcdc;
     --text-light: #ababab;
     --accent: #ffb300;
@@ -21,7 +21,15 @@
     --disabled: #111;
     --border: #898ea46b;
     --marked: #ffdd33;
-    --pico-background-color: #000000;
+    --pico-background-color: #11191f;
+    --color: #ffffff !important;          /* Pure white for body text */
+    --h1-color: #ffffff !important;       /* Headers pure white */
+    --h2-color: #ffffff !important;
+    --h3-color: #ffffff !important;
+    --h4-color: #ffffff !important;
+    --h5-color: #ffffff !important;
+    --h6-color: #ffffff !important;
+    --muted-color: #e0e0e0 !important;    /* Light grey for muted text */
 }
 
 /* Custom styles */
@@ -301,6 +309,7 @@ pre code {
 
 article {
     border-radius: 1.5vw;
+    color: #ffffff !important;
 }
 
 article h1 {
@@ -926,4 +935,62 @@ header blockquote {
 .highlight .gi {
     color: #000000;
     background-color: #00ff44;
+}
+
+/* Ensure maximum contrast for article text */
+article {
+  color: #ffffff !important;
+}
+
+/* Boost contrast for any potentially inherited text */
+p, li, dt, dd, blockquote {
+  color: #ffffff !important;
+}
+
+/* Ensure code blocks maintain readability */
+pre, code {
+  color: #ffffff !important;
+  --code-color: #ffffff !important;
+}
+
+/* Make sure links remain visible but distinct */
+a:not(.ascii-link) {
+  color: var(--accent) !important;
+  text-decoration: underline;
+}
+
+a:not(.ascii-link):hover {
+  color: var(--accent-hover, #ffb300) !important;
+}
+
+/* Set light background for main content area */
+:root:not([data-theme="dark"]) {
+    --bg: #000000; /* Light gray background */
+    --accent-bg: #0f0f10;
+    --pico-background-color: #000000;
+}
+
+/* Force article background to pure black */
+article {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure any nested article elements stay black */
+article * {
+    background-color: #000000;
+}
+
+/* Keep code blocks and pre elements black */
+pre, code {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Ensure blockquotes maintain black background */
+blockquote {
+    background-color: #000000;
 }
