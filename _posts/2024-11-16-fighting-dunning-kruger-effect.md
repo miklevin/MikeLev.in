@@ -2016,7 +2016,7 @@ Claude:
 
 ## 1. CSS Structure
 
-```````css:botifymograph/static/styles/link_graph.css
+```````css
 /* Base Component Styles */
 .link-graph-container {
     display: flex;
@@ -2080,7 +2080,7 @@ Claude:
 
 ## 2. HTMX Patterns Module
 
-```````python:botifymograph/htmx_patterns.py
+```````python
 from dataclasses import dataclass
 from typing import Optional, Literal
 from fasthtml.common import *
@@ -2152,7 +2152,7 @@ class HtmxPatterns:
 
 ## 3. Component Integration
 
-```````python:botifymograph/components/base.py
+```````python
 from ..htmx_patterns import HtmxPatterns, HtmxConfig
 from fasthtml.common import *
 
@@ -2187,7 +2187,7 @@ class HtmxComponent:
 
 ## 4. Analysis Component with HTMX
 
-```````python:botifymograph/components/analysis.py
+```````python
 from .base import HtmxComponent
 from fasthtml.common import *
 
@@ -2236,7 +2236,7 @@ class AnalysisComponent(HtmxComponent):
 
 ## 5. WebSocket Integration (Optional)
 
-```````python:botifymograph/components/websocket.py
+```````python
 from .base import HtmxComponent
 from fasthtml.common import *
 
@@ -2265,7 +2265,7 @@ class WebSocketComponent(HtmxComponent):
 
 ## 6. Main Integration
 
-```````python:botifymograph/link_graph.py
+```````python
 from .components import AnalysisComponent, WebSocketComponent
 from .htmx_patterns import HtmxConfig
 from fasthtml.common import *
@@ -2306,7 +2306,7 @@ Claude:
 
 ## 1. State Management
 
-```````python:botifymograph/state.py
+```````python
 from dataclasses import dataclass, field
 from typing import Optional, List, Dict
 from datetime import datetime
@@ -2624,7 +2624,7 @@ Claude:
 
 ## 1. API Documentation
 
-```````python:botifymograph/docs/api.py
+```````python
 from dataclasses import dataclass
 from typing import List, Optional
 from enum import Enum
@@ -2715,7 +2715,7 @@ Override default styles by...
 
 ## 3. Developer Documentation
 
-```````python:botifymograph/docs/dev_guide.py
+```````python
 """
 Developer's Guide for LinkGraph Components
 
@@ -2818,7 +2818,7 @@ CMD ["uvicorn", "botifymograph.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ## 5. Configuration Management
 
-```````python:botifymograph/config.py
+```````python
 from pydantic import BaseSettings
 from typing import Optional
 from pathlib import Path
@@ -2856,7 +2856,7 @@ settings = Settings()
 
 ## 6. Monitoring and Logging
 
-```````python:botifymograph/monitoring.py
+```````python
 import logging
 import structlog
 from datetime import datetime
@@ -2939,7 +2939,7 @@ Claude:
 
 ## 1. Custom Exceptions
 
-````````python:botifymograph/exceptions.py
+````````python
 from typing import Optional, Any
 from dataclasses import dataclass
 from fasthtml.common import *
@@ -2995,7 +2995,7 @@ class StateError(LinkGraphError):
 
 ## 2. Error Handlers
 
-````````python:botifymograph/error_handlers.py
+````````python
 from fasthtml.common import *
 from .exceptions import LinkGraphError
 from .components.base import HtmxComponent
@@ -3053,7 +3053,7 @@ class ErrorHandler(HtmxComponent):
 
 ## 3. Error Recovery Strategies
 
-````````python:botifymograph/recovery.py
+````````python
 from typing import Optional, Callable, Any
 from functools import wraps
 import asyncio
@@ -3126,7 +3126,7 @@ def with_recovery(strategy: RecoveryStrategy):
 
 ## 4. Error Boundary Components
 
-````````python:botifymograph/error_boundary.py
+````````python
 from typing import Optional, Callable
 from fasthtml.common import *
 from .exceptions import LinkGraphError
@@ -3177,7 +3177,7 @@ def create_error_boundary(id_: str, message: str) -> FT:
 
 ## 5. Error Monitoring and Reporting
 
-````````python:botifymograph/monitoring/errors.py
+````````python
 from datetime import datetime
 from typing import Optional, Dict, Any
 import traceback
@@ -3238,7 +3238,7 @@ class ErrorMonitor:
 
 ## 6. Error Response Templates
 
-````````python:botifymograph/templates/errors.py
+````````python
 from fasthtml.common import *
 
 def error_template(title: str, message: str, code: str) -> FT:
