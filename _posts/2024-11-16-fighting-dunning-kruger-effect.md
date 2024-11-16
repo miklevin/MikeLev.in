@@ -12,7 +12,7 @@ Think single-tenant design, the file system as a database, and a whole lot of
 HTMX magic. I'm basically trying to combine the best of old-school desktop apps
 with the convenience of web technologies, but I need to enlist some AI help to
 untangle the complexities I'm trying to avoid. In short, I'm hiding complexity
-under a terrifically beautiful and sound no-build veneer, though the enterprise
+under a terrifically beautiful FastHTML no-build veneer, though the enterprise
 architects might disagree. It's not going to be easy to web host. Sometimes the
 best way to move forward is to go against the grain.
 
