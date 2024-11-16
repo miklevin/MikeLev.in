@@ -1465,3 +1465,77 @@ Next steps would be to:
 4. Add request management UI (list/view/delete requests)
 
 Want me to focus on any of those next?
+
+Me: Okay, this is where I need to get another coffee and rest my brain. Please understand you have a far greater understanding right now about what we're doing in an in-the-weeds implementation sense than I do. I will gladly put that in as a new plugin under the plugin architecture, which I'll give you some focused context on here. These things typically get their endpoints called through a menu selection in the Web UI. This is a key moment. The workflow is initiated. It is an opportunity to infuse the LLM with domain expertise with a system prompt, and send an initial message to the user. It can put the first PicoCSS Card in a sequence of Cards up on the screen. This card can start to collect whatever initial input we need from the user and set the stage for an HTMX form action that starts the per-endpoint, per-workflow per-sistence. I will leave you with that joke as I take a break and ponder your reply over coffee.
+
+Claude: *smiles knowingly at the per-sistence pun*
+
+Ah, now I see the full picture! Let's integrate `WebAngiogram` into your plugin architecture. We'll start by adding it to the menu and creating its initial card that sets up the workflow:
+
+````````python:botifymograph/botifymograph.py
+# Add to MENU_ITEMS
+MENU_ITEMS = ["introduction", todo_app.name, 'link_graph', 'gap_analysis', 'stream_simulator', 'web_angiogram']
+
+# Create the WebAngiogram instance
+web_angiogram = WebAngiogram(app, base_dir="./angiogram_queue", route_prefix="/web-angiogram")
+
+# Add the render function for the menu selection
+async def create_grid_left(menux, is_render_view=False, render_items=None):
+    """Create the left column of the main grid layout with vertically stacked Cards."""
+    if menux == 'introduction':
+        return await introduction.render_introduction()
+    elif menux == 'link_graph':
+        return await link_graph.render_link_graph()
+    elif menux == 'stream_simulator':
+        return await stream_simulator.render_stream_simulator()
+    elif menux == 'web_angiogram':
+        return await render_web_angiogram()
+    # ... rest of the existing conditions ...
+
+async def render_web_angiogram():
+    """Initial card for the Web Angiogram workflow."""
+    return Div(
+        Card(
+            H2("Web Angiogram: Visual Site Analysis", cls="card-title"),
+            P("""Welcome to Web Angiogram, an enhanced way to visualize and analyze website structures. 
+               Unlike traditional link graphs, this tool provides:"""),
+            Ul(
+                Li("Real-time progress updates"),
+                Li("Step-by-step parameter configuration"),
+                Li("Persistent analysis history"),
+                Li("Interactive visualization options"),
+                cls="feature-list"
+            ),
+            Form(
+                Label("Project URL", For="project_url"),
+                Input(type="url", name="project_url", id="project_url", 
+                      placeholder="https://example.com",
+                      hx_post="/web-angiogram/new",
+                      hx_target="#parameter-config",
+                      hx_trigger="change delay:500ms"),
+                cls="input-group"
+            ),
+            Div(id="parameter-config"),  # HTMX will populate this
+            cls="intro-card"
+        ),
+        Div(id="progress-container"),  # For SSE updates
+        id="content-container",
+        style="display: flex; flex-direction: column;"
+    )
+````````
+
+This setup:
+1. Integrates with your existing menu system
+2. Creates an inviting first card that explains the tool
+3. Sets up HTMX targets for the sequential workflow
+4. Maintains your UI consistency with PicoCSS
+
+The workflow will be:
+1. User enters URL → triggers parameter configuration
+2. Parameters are collected sequentially with validation
+3. Analysis begins → SSE updates show progress
+4. Results displayed in interactive visualization
+
+Want me to implement the parameter collection sequence next? It'll use your `StreamSimulator` pattern for smooth transitions between steps.
+
+Enjoy your coffee! ☕
