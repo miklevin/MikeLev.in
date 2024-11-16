@@ -1,5 +1,6 @@
-<!-- Generated on 2024-11-15 20:15:10 -->
+<!-- Generated on 2024-11-15 20:16:26 -->
 
+{% raw %}
 
 <!-- #region -->
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
@@ -30,7 +31,7 @@ Every BQL query is a matrix of:
 This example retrieves URL counts by page type:
 
 ```python
-{% raw %}import requests
+import requests
 
 # Define API variables
 org = "your_organization_slug"
@@ -57,7 +58,7 @@ payload = {
 response = requests.post(url, headers=headers, json=payload)
 response.raise_for_status()
 print(response.json())
-{% endraw %}```
+```
 <!-- #endregion -->
 
 # Set Values: How Do You Provide Input?
@@ -65,21 +66,21 @@ print(response.json())
 Create a `config.json` file in your working directory to input values for the scripts. Start with `"org"`, and add more fields as you go. These examples align with Botify’s [Collection Explorer](https://docs.google.com/spreadsheets/d/1A_tqBaJrwgxaBp13nLZidvoOTz4GamiIjMqfNhYRlLY/edit#gid=0).
 
 ```json
-{% raw %}{
+{
     "org": "organization"
 }
-{% endraw %}```
+```
 
 Add fields in `config.json` as you proceed, with outputs from each code example tailored to your specific setup.
 
 ```json
-{% raw %}{
+{
     "org": "organization",
     "project": "project",
     "analysis": "20241101",
     "collection": "crawl.20241101"
 }
-{% endraw %}```
+```
 
 # Get Token: How To Retreive Your Botify Employee API Token?
 
@@ -90,7 +91,7 @@ Then copy/paste the token into the input field presented to you when running thi
 **Security Note**: If you're doing this on **Google Colab**, adapt the code to their **SECRETS**  system, or better still, run it locally. DO NOT PUBLICLY HOST THE LOCATION YOU'RE RUNNING THESE SCRIPTS or you ***will*** expose your token. While you're at it, make a `.curserignore` file and add `botify_token.txt` if you're using Cursor. Put it in you `.gitignore` too just to be safe. These are exercises. The code has been simplified for positive initital experiences&#151;not security. Part of good kata (or taolu for the pedantic) is practicing at home where it's safe.
 
 ```python
-{% raw %}import requests
+import requests
 from getpass import getpass
 
 def validate_token(token):
@@ -139,7 +140,7 @@ while not token:
         token = None  # Reset token if invalid
 
 print("Done. And remember, never let your browser save this token!")
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -155,7 +156,7 @@ print("Done. And remember, never let your browser save this token!")
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
 
 ```python
-{% raw %}import requests
+import requests
 
 api_key = open('botify_token.txt').read().strip()
 
@@ -164,7 +165,7 @@ user_data = requests.get("https://api.botify.com/v1/authentication/profile", hea
 
 username = user_data["data"]["username"]
 print(username)
-{% endraw %}```
+```
 
 **Sample Output**: 
 
@@ -176,7 +177,7 @@ print(username)
 # List Orgs: How To Get the List of Projects And Their Orgs Given Username
 
 ```python
-{% raw %}import requests
+import requests
 
 # Load API key
 api_key = open('botify_token.txt').read().strip()
@@ -218,18 +219,18 @@ if username:
         print(f"{name:<30} {slug:<35} {user:<15}")
 else:
     print("Failed to retrieve username or projects.")
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}Username: first.last
+Username: first.last
 Project Name                   Project Slug                        User or Org    
 ================================================================================
 Foo Test                       foo.com                             first.last       
 Bar Test                       bar.com                             bar-org       
 Baz Test                       baz.com                             baz-org       
-{% endraw %}```
+```
 
 **Rationale**: You need an Organization slug (**org**) for these exercises. It goes in your **config.json** to get started. Your personal login username will usually be used for one Project, but then an offical ***org slug*** (aka group) will usually appear on the others. By convention, these values often end with `-org`.
 
@@ -237,7 +238,7 @@ Baz Test                       baz.com                             baz-org
 # List Projects: How To Get the List of Projects Given an Organization
 
 ```python
-{% raw %}import json
+import json
 import requests
 
 # Load configuration and API key
@@ -271,18 +272,18 @@ for name, slug, user in projects:
     print(f"{name:<30} {slug:<35} {user:<15}")
 
 print("\nDone")
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}Organization: foo-bar
+Organization: foo-bar
 Project Name                   Project Slug                        Login     
 ================================================================================
 Legendary Product Vault        legendary-product-vault             foo-org       
 Hidden Content Cove            hidden-content-cove                 foo-org       
 Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-org       
-{% endraw %}```
+```
 
 **Rationale**: Next, you need Project slugs for these exercises.
 
@@ -290,7 +291,7 @@ Fabled Catalog of Curiosities  fabled-catalog-of-curiosities       foo-org
 # List Analyses: How To Get the List of Analysis Slugs Given a Project
 
 ```python
-{% raw %}import json
+import json
 import requests
 
 # Load configuration and API key
@@ -320,18 +321,18 @@ def fetch_analyses(org, project):
 for slug in fetch_analyses(org, project):
     print(slug)
 print("\nDone")
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}20240301
+20240301
 20240201
 20240101-2
 20240101
 20231201
 20231101
-{% endraw %}```
+```
 
 **Rationale**: Analysis slugs are dates in YYYYMMDD format but sometimes get incremeted with `-n` extensions starting with `-2`. They're the third thing you typically need in **config.json** for these exercises.
 
@@ -339,7 +340,7 @@ print("\nDone")
 # List URLs: How To Get a List of the First 500 URLs
 
 ```python
-{% raw %}import json
+import json
 import requests
 import pandas as pd
 
@@ -382,12 +383,12 @@ for i, url in enumerate(list_of_urls):
     print(i + 1, url)
     if i >= 9:
         break
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}1 https://example.com/page1
+1 https://example.com/page1
 2 https://example.com/page2
 3 https://example.com/page3
 4 https://example.com/page4
@@ -397,7 +398,7 @@ for i, url in enumerate(list_of_urls):
 8 https://example.com/page8
 9 https://example.com/page9
 10 https://example.com/page10
-{% endraw %}```
+```
 
 **Rationale**: To explicitly tell you that you have to leave the `metrics": []` field in this example even though it's empty. Don't believe me? Try it. Ugh! Also, I'm not here to teach you Python, but it's worth noting:
 
@@ -412,7 +413,7 @@ You're welcome.
 # List SEO Fields: How To Get a List of the First 500 URLs, Titles, Meta Descriptions and H1s
 
 ```python
-{% raw %}import json
+import json
 import requests
 import pandas as pd
 
@@ -462,7 +463,7 @@ print("Data saved to first_500_urls.csv")
 
 # Show a preview
 df.head()
-{% endraw %}```
+```
 
 <!-- #region -->
 **Sample Output**:
@@ -482,7 +483,7 @@ df.head()
 <!-- #endregion -->
 
 ```python
-{% raw %}import json
+import json
 import requests
 import pandas as pd
 
@@ -586,7 +587,7 @@ print("Data saved to first_500_urls_titles.csv")
 
 # Show a preview
 df.head()
-{% endraw %}```
+```
 
 <!-- #region -->
 **Sample Output**:
@@ -604,7 +605,7 @@ df.head()
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
 ```python
-{% raw %}import requests
+import requests
 import json
 
 # Load configuration values from config.json
@@ -651,12 +652,12 @@ results = response.json()
 
 # Use json.dumps with separators and indent for compact pretty printing
 print(json.dumps(results, indent=4, separators=(',', ': ')))
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```json
-{% raw %}{
+{
     "results": [
         {
             "dimensions": ["pdp"],
@@ -677,7 +678,7 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
     "page": 1,
     "size": 10
 }
-{% endraw %}```
+```
 
 **Rationale**: To give you an example that uses dimensions, metrics and sorting all at once. Also to show you the `page` parameter on the querystring making you think it's the **GET method**, `org` & `project` arguments posing as folders, and finally a JSON `payload` showing you it's actually using the **POST method**. Ahhh, *gotta love the Botify API*.
 
@@ -685,7 +686,7 @@ print(json.dumps(results, indent=4, separators=(',', ': ')))
 # List Collections: How To Get the List of Collections Given a Project
 
 ```python
-{% raw %}# Get List of Collections Given a Project
+# Get List of Collections Given a Project
 
 import json
 import requests
@@ -716,16 +717,16 @@ def fetch_collections(org, project, api_key):
 collections = fetch_collections(org, project, api_key)
 for collection_id, collection_name in collections:
     print(f"ID: {collection_id}, Name: {collection_name}")
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}ID: crawl.20240917, Name: 2024 Sept. 17th
+ID: crawl.20240917, Name: 2024 Sept. 17th
 ID: actionboard_ml.20240917, Name: ActionBoard ML
 ID: crawl.20240715, Name: 2024 July 15th
 ID: search_engines_orphans.20240715, Name: Search Engines Orphans
-{% endraw %}```
+```
 
 **Rationale**: To let you know how tough Collections are once you start digging in. The first challenge is simply knowing what collections you have and what you can do with them&#151;though 9 out of 10 times it's `crawl.YYYYMMDD` and `search_console`. If not, come talk to me, I wanna pick your brain.
 
@@ -733,7 +734,7 @@ ID: search_engines_orphans.20240715, Name: Search Engines Orphans
 # List Fields: How To Get The List of Fields Given a Collection
 
 ```python
-{% raw %}# Get List of Fields Given a Collection
+# Get List of Fields Given a Collection
 
 import json
 import requests
@@ -767,17 +768,17 @@ fields = fetch_fields(org, project, collection, api_key)
 print(f"Fields for collection '{collection}':")
 for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}Fields for collection 'crawl.20241101':
+Fields for collection 'crawl.20241101':
 ID: field_of_vision, Name: Survey the Landscape
 ID: field_of_dreams, Name: The Mind's Eye
 ID: straying_far_afield, Name: Go Home Spiderman
 ID: afield_a_complaint, Name: Red Swingline
-{% endraw %}```
+```
 
 **Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list the fields.
 
@@ -785,7 +786,7 @@ ID: afield_a_complaint, Name: Red Swingline
 # Get Pagetypes: How To Get the Unfiltered URL Counts by Pagetype for a Specific Analysis
 
 ```python
-{% raw %}import json
+import json
 import requests
 import pandas as pd
 
@@ -848,19 +849,19 @@ print("Data saved to pagetype_url_counts.csv")
 
 # Display a preview
 print(df)
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```
-{% raw %}Data saved to pagetype_url_counts.csv
+Data saved to pagetype_url_counts.csv
                  Pagetype  URL Count
 0                    pdp     250000
 1                    plp      50000
 2                    hub       5000
 3                   blog       2500
 4                    faq        500
-{% endraw %}```
+```
 
 **Rationale**: Do you ever get the feeling a website's folder-structure can tell you something about how it's organized? Yeah, me too. Thankfully, we here at Botify do the ***Regular Expressions*** so you don't have to. And it makes really great great color-coding in the link-graph visualizations. Psst! Wanna see the Death Star?
 
@@ -868,7 +869,7 @@ print(df)
 # Get Short Titles: How To Get the First 500 URLs With Short Titles Given Pagetype
 
 ```python
-{% raw %}# Get the First 500 URLs With Short Titles Given Pagetype
+# Get the First 500 URLs With Short Titles Given Pagetype
 
 import json
 import requests
@@ -953,7 +954,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 
 df.head(10)
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -973,7 +974,7 @@ df.head(10)
 # Count Short Titles: How To Count Number of URLs Having Short Titles
 
 ```python
-{% raw %}import json
+import json
 import requests
 
 config = json.load(open("config.json"))
@@ -1030,7 +1031,7 @@ if short_title_count is not None:
 else:
     print("Failed to retrieve the count of URLs with short titles.")
 
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -1042,7 +1043,7 @@ else:
 # Download CSV: How To Download Up to 10K URLs Having Short Titles As a CSV
 
 ```python
-{% raw %}import json
+import json
 import requests
 import time
 import gzip
@@ -1152,7 +1153,7 @@ if download_url:
     print(f"File decompressed and saved as '{csv_filename}'")
 else:
     print("Failed to retrieve the download URL.")
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -1168,7 +1169,7 @@ else:
 # Get Aggregates: How To Get Map of Click-Depths Aggregates Given Analysis Slug
 
 ```python
-{% raw %}import json
+import json
 import requests
 import pprint
 
@@ -1203,12 +1204,12 @@ depth_distribution = get_urls_by_depth(
     config['org'], config['project'], config['analysis'], api_key
 )
 pprint.pprint(depth_distribution, width=1)
-{% endraw %}```
+```
 
 **Sample Output**:
 
 ```json
-{% raw %}{
+{
  0: 1,
  1: 500,
  2: 250000,
@@ -1216,7 +1217,7 @@ pprint.pprint(depth_distribution, width=1)
  4: 62500000000000000,  # Seriously, fix your facets.
  5: 3125000000000000000000000  # You know who I'm talking to. Can you `f"{big_numbers:,}"` JSON?
 }
-{% endraw %}```
+```
 
 **Rationale**: This depth distribution shows how many URLs exist at each click depth level from the homepage (hompage = depth 0). A healthy site typically has most content within 3 or 4 clicks of the homepage. Much more, and it may as well not exist. Such reports help identify potential deep crawl issues, spider-traps, and why (in addition to the infinite spam-cannon of generative AI content), brute-force crawls that *"make a copy of the Internet"* are all but dead. And did I mention that excessively crawl-able faceted search makes your site's link-graph look like the Death Star? Yeah, I think I did.
 
@@ -1224,7 +1225,7 @@ pprint.pprint(depth_distribution, width=1)
 # Download Link Graph: How to Download a Link Graph for a Specified Organization, Project, and Analysis For Website Visualization.
 
 ```python
-{% raw %}import os
+import os
 import time
 import json
 from pathlib import Path
@@ -1356,11 +1357,11 @@ if link_graph_path:
     print(f"Link graph saved to: {link_graph_path}")
 else:
     print("Link graph export failed.")
-{% endraw %}```
+```
 
 **Sample Output**:
 ```
-{% raw %}Determining optimal depth for link graph export...
+Determining optimal depth for link graph export...
 Depth 1: 50,000 edges
 Depth 2: 120,000 edges
 Depth 3: 500,000 edges
@@ -1371,7 +1372,7 @@ Polling for job completion: ...
 Download URL: https://botify-export-url.com/file.csv
 File downloaded as 'downloads/org_project_analysis_linkgraph_depth-3.csv'
 Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
-{% endraw %}```
+```
 
 **Rationale**: And now, the moment you’ve all been waiting for—the elusive, hard-to-visualize link-graph of your website. Think Admiral Ackbar scrutinizing a hologram of the Death Star, examining every strength and vulnerability, now superimposed with Google Search Console Clicks and Impressions. The Rebels lean in, studying surprise hot spots and patches of dead wood. Every faceted search site ends up looking like the Death Star. But if you’ve done it right, with solid topical clustering, you’ll have something that resembles broccoli or cauliflower... are those called nodules? Florets? Either way, it’s a good look.
 
@@ -1379,7 +1380,7 @@ Link graph saved to: downloads/org_project_analysis_linkgraph_depth-3.csv
 # Check Link-Graph Enhancements: How To Check What Data is Available to Enhance Link-Graph Visualization.
 
 ```python
-{% raw %}import os
+import os
 import json
 import requests
 import pandas as pd
@@ -1696,7 +1697,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -1792,7 +1793,7 @@ if __name__ == "__main__":
 # Color-Code Link-Graphs: How To Download Data to Enhance Website Link-Graph Visualization.
 
 ```python
-{% raw %}import os
+import os
 import json
 import requests
 import pandas as pd
@@ -2147,7 +2148,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-{% endraw %}```
+```
 
 **Sample Output**:
 
@@ -2226,16 +2227,16 @@ This quick guide walks you through converting BQLv1 to BQLv2, with examples and 
 
 - **BQLv1 Format**:
   ```json
-{% raw %}  {
+  {
       "fields": [...],
       "filters": {...},
       "sort": [...]
   }
-  {% endraw %}```
+  ```
 
 - **BQLv2 Format**:
   ```json
-{% raw %}  {
+  {
       "collections": ["crawl.{analysis}"],
       "query": {
           "dimensions": [...],
@@ -2244,44 +2245,44 @@ This quick guide walks you through converting BQLv1 to BQLv2, with examples and 
           "sort": [...]
       }
   }
-  {% endraw %}```
+  ```
 
 ### 2. Key Mapping
 
 1. **Collections**: Add `collections: ["crawl.{analysis}"]` at the root.
 2. **Fields to Dimensions**:
     ```json
-{% raw %}    "fields": ["url", "depth"]  →  "dimensions": ["crawl.{analysis}.url", "crawl.{analysis}.depth"]
-    {% endraw %}```
+    "fields": ["url", "depth"]  →  "dimensions": ["crawl.{analysis}.url", "crawl.{analysis}.depth"]
+    ```
 
 3. **Filter Conversion**:
     ```json
-{% raw %}    "filters": {"field": "depth", "predicate": "lte", "value": max_depth}
+    "filters": {"field": "depth", "predicate": "lte", "value": max_depth}
     → "filters": {"field": "crawl.{analysis}.depth", "predicate": "lte", "value": max_depth}
-    {% endraw %}```
+    ```
 
 ### 3. Special Cases
 
 - **Comparing Crawls**:
   ```json
-{% raw %}  "collections": ["crawl.{current}", "crawl.{previous}"],
+  "collections": ["crawl.{current}", "crawl.{previous}"],
   "dimensions": ["crawl.{current}.url", "crawl.{previous}.http_code"]
-  {% endraw %}```
+  ```
 
 - **URL State Filters**:
   - New URLs:
     ```json
-{% raw %}    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": true}, {"field": "crawl.{previous}.url_exists_crawl", "value": false}]}
-    {% endraw %}```
+    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": true}, {"field": "crawl.{previous}.url_exists_crawl", "value": false}]}
+    ```
   - Disappeared URLs:
     ```json
-{% raw %}    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": false}, {"field": "crawl.{previous}.url_exists_crawl", "value": true}]}
-    {% endraw %}```
+    {"and": [{"field": "crawl.{current}.url_exists_crawl", "value": false}, {"field": "crawl.{previous}.url_exists_crawl", "value": true}]}
+    ```
 
 ### 4. Validation & Conversion
 
 ```python
-{% raw %}def validate_bql_v2(query):
+def validate_bql_v2(query):
     required_keys = {'collections', 'query'}
     query_keys = {'dimensions', 'metrics', 'filters'}
     if not all(key in query for key in required_keys):
@@ -2307,24 +2308,24 @@ def convert_bql_v1_to_v2(query_v1, analysis):
     }
     validate_bql_v2(query_v2)
     return query_v2
-{% endraw %}```
+```
 
 ### 5. Usage Example
 
 ```python
-{% raw %}# BQLv1 query
+# BQLv1 query
 query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate": "lte", "value": 3}}
 
 # Convert to BQLv2
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
-{% endraw %}```
+```
 <!-- #endregion -->
 
 # Visualize OpenAPI: How To Create a PNG Graphic Illustrating Botify's API Given the Swagger JSON 
 
 ```python
-{% raw %}import requests
+import requests
 from graphviz import Digraph
 import json
 
@@ -2383,10 +2384,10 @@ def create_api_graph():
 
 if __name__ == "__main__":
     create_api_graph()
-{% endraw %}```
+```
 
 ```python
-{% raw %}# The Arcane Scrolls: API Endpoint Examples
+# The Arcane Scrolls: API Endpoint Examples
 import requests
 import json
 from pathlib import Path
@@ -2395,7 +2396,7 @@ from typing import Dict, Any
 def generate_python_example(method: str, path: str, params: Dict, config: Dict, show_config: bool = False) -> str:
     """Craft a Python invocation example for a given API endpoint"""
     lines = [
-        "{% endraw %}```python",
+        "```python",
         "# Summon the necessary artifacts",
         "import requests",
         "import json",
@@ -2461,7 +2462,7 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     ])
     
     lines.append("```")
-{% raw %}    return "\n".join(lines)
+    return "\n".join(lines)
 
 def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
     """Inscribe the complete API grimoire"""
@@ -2541,7 +2542,7 @@ else:
     except Exception as e:
         print(f"Error fetching API specification: {e}")
 print(markdown_content)
-{% endraw %}```
+```
 
 <!-- #region -->
 API documentation generated successfully!
@@ -2561,7 +2562,7 @@ These endpoints allow you to manipulate analysis aspects of your digital realm.
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2595,7 +2596,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2604,7 +2605,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2627,7 +2628,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2636,7 +2637,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2659,7 +2660,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2668,7 +2669,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2691,7 +2692,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2700,7 +2701,7 @@ else:
 Legacy
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2723,7 +2724,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2732,7 +2733,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2755,7 +2756,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2764,7 +2765,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2787,7 +2788,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2796,7 +2797,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2819,7 +2820,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2828,7 +2829,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2851,7 +2852,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2860,7 +2861,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2883,7 +2884,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2892,7 +2893,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2915,7 +2916,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2924,7 +2925,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2947,7 +2948,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2956,7 +2957,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -2979,7 +2980,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -2988,7 +2989,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3011,7 +3012,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3020,7 +3021,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3043,7 +3044,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3052,7 +3053,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3075,7 +3076,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3084,7 +3085,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3107,7 +3108,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3116,7 +3117,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3139,7 +3140,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3148,7 +3149,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3171,7 +3172,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3180,7 +3181,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3203,7 +3204,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3212,7 +3213,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3235,7 +3236,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3244,7 +3245,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3267,7 +3268,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3276,7 +3277,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3299,7 +3300,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3308,7 +3309,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3331,7 +3332,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3340,7 +3341,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3363,7 +3364,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3372,7 +3373,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3400,7 +3401,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3409,7 +3410,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3437,7 +3438,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3446,7 +3447,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3474,7 +3475,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3487,7 +3488,7 @@ These endpoints allow you to manipulate collections aspects of your digital real
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3510,7 +3511,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3519,7 +3520,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3542,7 +3543,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3555,7 +3556,7 @@ These endpoints allow you to manipulate datasource aspects of your digital realm
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3578,7 +3579,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3591,7 +3592,7 @@ These endpoints allow you to manipulate job aspects of your digital realm.
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3614,7 +3615,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3623,7 +3624,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3646,7 +3647,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3655,7 +3656,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3683,7 +3684,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3696,7 +3697,7 @@ These endpoints allow you to manipulate project aspects of your digital realm.
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3719,7 +3720,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3728,7 +3729,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3751,7 +3752,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3760,7 +3761,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3783,7 +3784,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3792,7 +3793,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3815,7 +3816,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3824,7 +3825,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3847,7 +3848,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3856,7 +3857,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3879,7 +3880,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3888,7 +3889,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3911,7 +3912,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3920,7 +3921,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3948,7 +3949,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3957,7 +3958,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -3985,7 +3986,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -3994,7 +3995,7 @@ else:
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -4022,7 +4023,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -4035,7 +4036,7 @@ These endpoints allow you to manipulate projectquery aspects of your digital rea
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -4058,7 +4059,7 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 
@@ -4071,7 +4072,7 @@ These endpoints allow you to manipulate user aspects of your digital realm.
 
 
 ```python
-{% raw %}# Summon the necessary artifacts
+# Summon the necessary artifacts
 import requests
 import json
 
@@ -4094,9 +4095,10 @@ if response.status_code == 200:
 else:
     print(f'Error: {response.status_code}')
     print(response.text)
-{% endraw %}```
+```
 
 ---
 <!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
+{% endraw %}
