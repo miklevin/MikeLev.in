@@ -1790,3 +1790,1740 @@ The goal is to make it:
 4. **Professionally Error Handled**
 
 Should I continue with specific refactoring patterns for each component?
+
+Me: Yes
+
+Claude: # Component Refactoring Patterns
+
+Let's break this down into clear, actionable patterns:
+
+## 1. Base Component Structure
+
+```python
+class LinkGraphComponent:
+    """Base component for all LinkGraph UI elements."""
+    
+    def __init__(self, route_prefix: str, fs_root: Path):
+        self.route_prefix = route_prefix
+        self.fs = LinkGraphFS(fs_root)
+        self.logger = logger.bind(component=self.__class__.__name__)
+
+    def error_response(self, message: str, error_id: str) -> FT:
+        """Standard error display pattern."""
+        return Div(
+            P(f"❌ {message}", style="color: red;"),
+            id=error_id
+        )
+
+    def loading_indicator(self, target_id: str) -> FT:
+        """Standard loading indicator."""
+        return Div(
+            Img(src="/static/loading.gif", style="width: 24px;"),
+            "Processing...",
+            id=f"{target_id}-loading",
+            class_="loading-indicator"
+        )
+```
+
+## 2. Analysis Select Component
+
+```python
+class AnalysisSelect(LinkGraphComponent):
+    """Handles analysis selection and status display."""
+    
+    def render(self, org: str, project: str, analyses: list) -> FT:
+        return Div(
+            self._build_select_form(org, project, analyses),
+            self._build_status_area(),
+            class_="analysis-container"
+        )
+
+    def _build_select_form(self, org: str, project: str, analyses: list) -> FT:
+        return Form(
+            Select(
+                *[self._build_option(org, project, a) for a in analyses],
+                id="analysis-select",
+                name="analysis_select",
+                class_="analysis-dropdown"
+            ),
+            Button("Get Fields", type="submit", class_="primary-button"),
+            hx_post=f"{self.route_prefix}/process_analysis",
+            hx_target="#analysis-results",
+            hx_indicator="#loading-indicator",
+            class_="analysis-form"
+        )
+
+    def _build_option(self, org: str, project: str, analysis: dict) -> FT:
+        slug = analysis.get('slug', 'Unknown')
+        has_meta = self.fs.check_for_file(org, project, slug, "meta")
+        has_links = self.fs.check_for_file(org, project, slug, "links")
+        
+        label = (f"{slug} (Links & Meta)" if has_meta else
+                f"{slug} (Links Only)" if has_links else
+                slug)
+        
+        return Option(
+            label,
+            value=slug,
+            disabled=has_links
+        )
+```
+
+## 3. Progress Monitor Component
+
+```python
+class ProgressMonitor(LinkGraphComponent):
+    """Handles long-running operation progress display."""
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.poll_interval = 3  # seconds
+
+    def render_progress(self, job_id: str, status: str) -> FT:
+        return Div(
+            P(f"• Processing... Status: {status}"),
+            id="export-status",
+            hx_get=f"{self.route_prefix}/poll_export/{job_id}",
+            hx_trigger=f"load delay:{self.poll_interval}s",
+            class_="progress-monitor"
+        )
+
+    async def check_progress(self, job_id: str) -> dict:
+        """Checks job progress and returns status info."""
+        try:
+            status = await self.api.get_job_status(job_id)
+            return {
+                'status': status['job_status'],
+                'progress': status.get('progress', 0),
+                'message': status.get('message', '')
+            }
+        except Exception as e:
+            self.logger.error(f"Progress check failed: {e}")
+            return {
+                'status': 'error',
+                'message': str(e)
+            }
+```
+
+## 4. File System Manager
+
+```python
+class LinkGraphFS:
+    """Manages file system operations for LinkGraph."""
+    
+    def __init__(self, root: Path):
+        self.root = Path(root)
+        self.logger = logger.bind(component="LinkGraphFS")
+
+    def check_for_file(self, org: str, project: str, slug: str, 
+                      file_type: Literal["meta", "links"]) -> bool:
+        """Check if a specific file exists."""
+        path = self.get_file_path(org, project, slug, file_type)
+        return path.exists()
+
+    def get_file_path(self, org: str, project: str, slug: str, 
+                     file_type: Literal["meta", "links"]) -> Path:
+        """Get the path for a specific file type."""
+        suffix = "_meta.csv" if file_type == "meta" else "_links.csv"
+        return self.root / org / project / f"{slug}{suffix}"
+
+    async def save_chunk(self, path: Path, chunk: bytes):
+        """Save a chunk of data to a file."""
+        async with aiofiles.open(path, mode='ab') as f:
+            await f.write(chunk)
+```
+
+## 5. Main Controller
+
+```python
+class BotifyLinkGraph:
+    """Main controller for LinkGraph functionality."""
+    
+    def __init__(self, app: FastHTML, route_prefix: str, fs_root: Path):
+        self.app = app
+        self.route_prefix = route_prefix
+        
+        # Initialize components
+        self.analysis_select = AnalysisSelect(route_prefix, fs_root)
+        self.progress_monitor = ProgressMonitor(route_prefix, fs_root)
+        self.fs = LinkGraphFS(fs_root)
+        
+        # Register routes
+        self._register_routes()
+
+    def _register_routes(self):
+        """Register all route handlers."""
+        self.app.route(f"{self.route_prefix}/")(self.render)
+        self.app.route(f"{self.route_prefix}/process_analysis", 
+                      methods=["POST"])(self.process_analysis)
+        self.app.route(f"{self.route_prefix}/poll_export/{{job_id}}")(
+            self.poll_export)
+
+    async def render(self, request):
+        """Main page render."""
+        try:
+            analyses = await self.api.get_analyses()
+            return self.analysis_select.render(
+                request.path_params['org'],
+                request.path_params['project'],
+                analyses
+            )
+        except Exception as e:
+            self.logger.error(f"Render failed: {e}")
+            return self.analysis_select.error_response(
+                str(e), "render-error")
+```
+
+## 6. Error Handling
+
+```python
+class LinkGraphError(Exception):
+    """Base error for LinkGraph operations."""
+    def __init__(self, message: str, details: dict = None):
+        super().__init__(message)
+        self.details = details or {}
+
+class AnalysisNotFoundError(LinkGraphError):
+    """Raised when an analysis cannot be found."""
+    pass
+
+@contextmanager
+def error_boundary(component: str, error_id: str):
+    """Context manager for standardized error handling."""
+    try:
+        yield
+    except LinkGraphError as e:
+        logger.warning(f"{component} error: {e}")
+        return Div(
+            P(f"❌ {str(e)}", class_="error-message"),
+            id=error_id
+        )
+    except Exception as e:
+        logger.error(f"Unexpected {component} error: {e}")
+        return Div(
+            P("❌ An unexpected error occurred", class_="error-message"),
+            id=error_id
+        )
+```
+
+Should I continue with the CSS organization and HTMX patterns?
+
+Me: Yes
+
+Claude: 
+
+# CSS and HTMX Pattern Organization
+
+## 1. CSS Structure
+
+```````css:botifymograph/static/styles/link_graph.css
+/* Base Component Styles */
+.link-graph-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Analysis Selection */
+.analysis-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.analysis-dropdown {
+    min-width: 300px;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+/* Progress Indicators */
+.progress-monitor {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: var(--bg-subtle);
+    border-radius: 4px;
+}
+
+.loading-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.htmx-request .loading-indicator {
+    opacity: 1;
+}
+
+/* Status Cards */
+.status-card {
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: white;
+}
+
+/* Error States */
+.error-message {
+    color: var(--error-color);
+    padding: 0.5rem;
+    border-left: 3px solid currentColor;
+    background: var(--error-bg);
+}
+```````
+
+## 2. HTMX Patterns Module
+
+```````python:botifymograph/htmx_patterns.py
+from dataclasses import dataclass
+from typing import Optional, Literal
+from fasthtml.common import *
+
+@dataclass
+class HtmxConfig:
+    """Configuration for HTMX behaviors."""
+    target: str
+    trigger: str = "click"
+    swap: str = "innerHTML"
+    indicator: Optional[str] = None
+    push_url: bool = False
+    
+class HtmxPatterns:
+    """Common HTMX patterns for consistent behavior."""
+    
+    @staticmethod
+    def polling(
+        url: str,
+        interval: int = 3,
+        target: str = None,
+        stop_if: str = None
+    ) -> dict:
+        """Configure polling behavior."""
+        attrs = {
+            "hx-get": url,
+            "hx-trigger": f"load delay:{interval}s",
+        }
+        if target:
+            attrs["hx-target"] = target
+        if stop_if:
+            attrs["hx-trigger"] += f" until:{stop_if}"
+        return attrs
+
+    @staticmethod
+    def form_submit(
+        url: str,
+        target: str,
+        indicator: str = None,
+        reset: bool = False
+    ) -> dict:
+        """Configure form submission behavior."""
+        attrs = {
+            "hx-post": url,
+            "hx-target": target,
+        }
+        if indicator:
+            attrs["hx-indicator"] = indicator
+        if reset:
+            attrs["hx-on::after-request"] = "this.reset()"
+        return attrs
+
+    @staticmethod
+    def confirmation(
+        message: str,
+        url: str,
+        method: Literal["get", "post", "delete"] = "post",
+        target: str = None
+    ) -> dict:
+        """Configure confirmation before action."""
+        attrs = {
+            f"hx-{method}": url,
+            "hx-confirm": message,
+        }
+        if target:
+            attrs["hx-target"] = target
+        return attrs
+```````
+
+## 3. Component Integration
+
+```````python:botifymograph/components/base.py
+from ..htmx_patterns import HtmxPatterns, HtmxConfig
+from fasthtml.common import *
+
+class HtmxComponent:
+    """Base class for components with HTMX behaviors."""
+    
+    def __init__(self, config: HtmxConfig):
+        self.htmx = HtmxPatterns()
+        self.config = config
+
+    def with_loading(self, content: FT, loading_id: str) -> FT:
+        """Wrap content with loading indicator."""
+        return Div(
+            content,
+            self.loading_indicator(loading_id),
+            class_="htmx-container"
+        )
+
+    def loading_indicator(self, id_: str) -> FT:
+        """Create a loading indicator."""
+        return Div(
+            Img(src="/static/spinner.gif", alt="Loading..."),
+            Span("Loading..."),
+            id=id_,
+            class_="loading-indicator"
+        )
+
+    def error_boundary(self, id_: str) -> FT:
+        """Create an error boundary container."""
+        return Div(id=id_, class_="error-boundary")
+```````
+
+## 4. Analysis Component with HTMX
+
+```````python:botifymograph/components/analysis.py
+from .base import HtmxComponent
+from fasthtml.common import *
+
+class AnalysisComponent(HtmxComponent):
+    """Analysis selection and processing component."""
+    
+    def render_form(self, analyses: list) -> FT:
+        """Render the analysis selection form."""
+        return Form(
+            self.render_select(analyses),
+            Button("Process", type="submit"),
+            **self.htmx.form_submit(
+                url=f"{self.config.route_prefix}/process",
+                target="#analysis-results",
+                indicator="#analysis-loading",
+                reset=True
+            ),
+            class_="analysis-form"
+        )
+
+    def render_progress(self, job_id: str) -> FT:
+        """Render progress monitoring element."""
+        return Div(
+            P("• Processing analysis..."),
+            **self.htmx.polling(
+                url=f"{self.config.route_prefix}/poll/{job_id}",
+                interval=3,
+                stop_if="status.matches('.completed, .error')"
+            ),
+            class_="progress-monitor"
+        )
+
+    def render_confirmation(self, analysis_id: str) -> FT:
+        """Render confirmation button."""
+        return Button(
+            "Delete Analysis",
+            **self.htmx.confirmation(
+                message="Are you sure you want to delete this analysis?",
+                url=f"{self.config.route_prefix}/delete/{analysis_id}",
+                method="delete",
+                target="#analysis-list"
+            ),
+            class_="danger-button"
+        )
+```````
+
+## 5. WebSocket Integration (Optional)
+
+```````python:botifymograph/components/websocket.py
+from .base import HtmxComponent
+from fasthtml.common import *
+
+class WebSocketComponent(HtmxComponent):
+    """WebSocket-enabled component for real-time updates."""
+    
+    def render_socket(self, channel: str) -> FT:
+        """Render WebSocket connection."""
+        return Div(
+            **{
+                "hx-ext": "ws",
+                "ws-connect": f"/ws/{channel}",
+                "ws-send": "status"
+            },
+            class_="socket-container"
+        )
+
+    def render_live_status(self, status_id: str) -> FT:
+        """Render live status display."""
+        return Div(
+            P("Waiting for updates..."),
+            id=status_id,
+            class_="live-status"
+        )
+```````
+
+## 6. Main Integration
+
+```````python:botifymograph/link_graph.py
+from .components import AnalysisComponent, WebSocketComponent
+from .htmx_patterns import HtmxConfig
+from fasthtml.common import *
+
+class BotifyLinkGraph:
+    """Main LinkGraph controller with HTMX components."""
+    
+    def __init__(self, app: FastHTML, route_prefix: str):
+        self.config = HtmxConfig(
+            target="#main-content",
+            indicator="#main-loading"
+        )
+        
+        # Initialize components
+        self.analysis = AnalysisComponent(self.config)
+        self.websocket = WebSocketComponent(self.config)
+        
+        # Register routes
+        self._register_routes(app, route_prefix)
+
+    def render_page(self) -> FT:
+        """Render main page with all components."""
+        return Div(
+            self.analysis.render_form([]),  # Initial empty state
+            self.analysis.error_boundary("analysis-error"),
+            self.websocket.render_live_status("live-status"),
+            class_="link-graph-container"
+        )
+```````
+
+Would you like me to continue with the state management patterns or testing patterns next?
+
+Me: Yes
+
+Claude: 
+
+# State Management and Testing Patterns
+
+## 1. State Management
+
+```````python:botifymograph/state.py
+from dataclasses import dataclass, field
+from typing import Optional, List, Dict
+from datetime import datetime
+from enum import Enum
+
+class AnalysisStatus(Enum):
+    PENDING = "pending"
+    PROCESSING = "processing"
+    COMPLETED = "completed"
+    ERROR = "error"
+
+@dataclass
+class AnalysisState:
+    """State for a single analysis."""
+    id: str
+    status: AnalysisStatus
+    created_at: datetime
+    updated_at: datetime
+    error_message: Optional[str] = None
+    progress: float = 0.0
+    metadata: Dict = field(default_factory=dict)
+
+@dataclass
+class LinkGraphState:
+    """Global state container."""
+    analyses: Dict[str, AnalysisState] = field(default_factory=dict)
+    selected_analysis: Optional[str] = None
+    is_processing: bool = False
+    
+    def update_analysis(self, analysis_id: str, **kwargs) -> None:
+        """Update analysis state."""
+        if analysis_id not in self.analyses:
+            self.analyses[analysis_id] = AnalysisState(
+                id=analysis_id,
+                status=AnalysisStatus.PENDING,
+                created_at=datetime.now(),
+                updated_at=datetime.now()
+            )
+        
+        analysis = self.analyses[analysis_id]
+        for key, value in kwargs.items():
+            if hasattr(analysis, key):
+                setattr(analysis, key, value)
+        analysis.updated_at = datetime.now()
+
+class StateManager:
+    """Manages global state and state transitions."""
+    
+    def __init__(self):
+        self.state = LinkGraphState()
+        self._subscribers = []
+
+    def subscribe(self, callback):
+        """Subscribe to state changes."""
+        self._subscribers.append(callback)
+        
+    def notify_subscribers(self):
+        """Notify all subscribers of state change."""
+        for callback in self._subscribers:
+            callback(self.state)
+
+    async def update_state(self, **kwargs):
+        """Update state and notify subscribers."""
+        for key, value in kwargs.items():
+            if hasattr(self.state, key):
+                setattr(self.state, key, value)
+        self.notify_subscribers()
+```````
+
+## 2. Unit Tests
+
+```````python:tests/test_link_graph.py
+import pytest
+from datetime import datetime
+from botifymograph.state import StateManager, AnalysisStatus
+from botifymograph.components.analysis import AnalysisComponent
+from fasthtml.common import *
+
+@pytest.fixture
+def state_manager():
+    return StateManager()
+
+@pytest.fixture
+def analysis_component():
+    config = HtmxConfig(target="#test", indicator="#loading")
+    return AnalysisComponent(config)
+
+class TestAnalysisComponent:
+    def test_render_form(self, analysis_component):
+        """Test form rendering."""
+        analyses = [
+            {"id": "1", "name": "Test Analysis"},
+            {"id": "2", "name": "Another Analysis"}
+        ]
+        form = analysis_component.render_form(analyses)
+        
+        assert form.tag == "form"
+        assert "hx-post" in form.attrs
+        assert len(form.find_all("option")) == 2
+
+    def test_render_progress(self, analysis_component):
+        """Test progress monitoring."""
+        progress = analysis_component.render_progress("job-123")
+        
+        assert progress.tag == "div"
+        assert "hx-trigger" in progress.attrs
+        assert "delay:3s" in progress.attrs["hx-trigger"]
+
+class TestStateManager:
+    def test_state_update(self, state_manager):
+        """Test state updates."""
+        analysis_id = "test-1"
+        
+        state_manager.update_state(
+            selected_analysis=analysis_id,
+            is_processing=True
+        )
+        
+        assert state_manager.state.selected_analysis == analysis_id
+        assert state_manager.state.is_processing is True
+
+    def test_analysis_state_update(self, state_manager):
+        """Test analysis state updates."""
+        analysis_id = "test-1"
+        
+        state_manager.state.update_analysis(
+            analysis_id,
+            status=AnalysisStatus.PROCESSING,
+            progress=0.5
+        )
+        
+        analysis = state_manager.state.analyses[analysis_id]
+        assert analysis.status == AnalysisStatus.PROCESSING
+        assert analysis.progress == 0.5
+```````
+
+## 3. Integration Tests
+
+```````python:tests/test_integration.py
+import pytest
+from fasthtml import FastHTML
+from botifymograph.link_graph import BotifyLinkGraph
+from httpx import AsyncClient
+
+@pytest.fixture
+async def app():
+    app = FastHTML()
+    BotifyLinkGraph(app, "/graph")
+    return app
+
+@pytest.fixture
+async def client(app):
+    async with AsyncClient(app=app, base_url="http://test") as client:
+        yield client
+
+class TestLinkGraphIntegration:
+    async def test_main_page_load(self, client):
+        """Test main page loads successfully."""
+        response = await client.get("/graph")
+        assert response.status_code == 200
+        assert "link-graph-container" in response.text
+
+    async def test_analysis_submission(self, client):
+        """Test analysis submission flow."""
+        # Submit analysis request
+        response = await client.post(
+            "/graph/process",
+            data={"analysis_id": "test-1"}
+        )
+        assert response.status_code == 200
+        
+        # Check progress endpoint
+        response = await client.get("/graph/poll/test-1")
+        assert response.status_code == 200
+        assert "progress-monitor" in response.text
+
+    async def test_error_handling(self, client):
+        """Test error handling in UI."""
+        response = await client.post(
+            "/graph/process",
+            data={"analysis_id": "invalid-id"}
+        )
+        assert response.status_code == 400
+        assert "error-message" in response.text
+```````
+
+## 4. End-to-End Tests
+
+```````python:tests/test_e2e.py
+import pytest
+from playwright.sync_api import Page, expect
+
+class TestLinkGraphE2E:
+    def test_analysis_workflow(self, page: Page):
+        """Test complete analysis workflow."""
+        # Load main page
+        page.goto("/graph")
+        
+        # Select analysis
+        page.select_option("#analysis-select", "test-1")
+        
+        # Submit form
+        page.click("button:has-text('Process')")
+        
+        # Wait for processing
+        page.wait_for_selector(".progress-monitor")
+        
+        # Verify completion
+        expect(page.locator(".status-card")).to_contain_text("Completed")
+
+    def test_error_handling(self, page: Page):
+        """Test error handling in UI."""
+        page.goto("/graph")
+        
+        # Trigger error condition
+        page.select_option("#analysis-select", "invalid-id")
+        page.click("button:has-text('Process')")
+        
+        # Verify error display
+        expect(page.locator(".error-message")).to_be_visible()
+
+    def test_websocket_updates(self, page: Page):
+        """Test real-time updates via WebSocket."""
+        page.goto("/graph")
+        
+        # Start analysis
+        page.select_option("#analysis-select", "test-1")
+        page.click("button:has-text('Process')")
+        
+        # Verify live updates
+        expect(page.locator(".live-status")).to_be_visible()
+        page.wait_for_selector(".status-card:has-text('Processing')")
+```````
+
+## 5. Test Utilities
+
+```````python:tests/utils.py
+from contextlib import contextmanager
+from typing import Generator
+from pathlib import Path
+import tempfile
+import shutil
+
+@contextmanager
+def temp_analysis_files() -> Generator[Path, None, None]:
+    """Create temporary analysis files for testing."""
+    with tempfile.TemporaryDirectory() as tmpdir:
+        root = Path(tmpdir)
+        
+        # Create test files
+        (root / "test_links.csv").write_text("source,target\n1,2\n2,3")
+        (root / "test_meta.csv").write_text("id,name\n1,Test\n2,Test2")
+        
+        yield root
+        
+        # Cleanup happens automatically
+
+def create_mock_analysis(state_manager, analysis_id: str, **kwargs):
+    """Create a mock analysis state."""
+    state_manager.state.update_analysis(
+        analysis_id,
+        **kwargs
+    )
+    return state_manager.state.analyses[analysis_id]
+
+def assert_htmx_attributes(element, expected_attrs):
+    """Assert HTMX attributes are present and correct."""
+    for attr, value in expected_attrs.items():
+        assert element.attrs.get(attr) == value
+```````
+
+## 6. Performance Tests
+
+```````python:tests/test_performance.py
+import pytest
+import asyncio
+from time import perf_counter
+from botifymograph.link_graph import BotifyLinkGraph
+
+class TestLinkGraphPerformance:
+    async def test_analysis_processing_time(self, app, client):
+        """Test analysis processing performance."""
+        start_time = perf_counter()
+        
+        response = await client.post(
+            "/graph/process",
+            data={"analysis_id": "test-1"}
+        )
+        
+        processing_time = perf_counter() - start_time
+        assert processing_time < 1.0  # Should process within 1 second
+        
+    async def test_concurrent_analyses(self, app, client):
+        """Test handling multiple concurrent analyses."""
+        async def submit_analysis(id_):
+            return await client.post(
+                "/graph/process",
+                data={"analysis_id": f"test-{id_}"}
+            )
+        
+        # Submit 10 concurrent analyses
+        tasks = [submit_analysis(i) for i in range(10)]
+        responses = await asyncio.gather(*tasks)
+        
+        assert all(r.status_code == 200 for r in responses)
+```````
+
+Would you like me to continue with the documentation patterns or deployment configurations next?
+
+Me: Yes
+
+Claude: 
+
+# Documentation and Deployment Patterns
+
+## 1. API Documentation
+
+```````python:botifymograph/docs/api.py
+from dataclasses import dataclass
+from typing import List, Optional
+from enum import Enum
+
+class EndpointCategory(Enum):
+    ANALYSIS = "Analysis Operations"
+    STATUS = "Status Monitoring"
+    WEBSOCKET = "Real-time Updates"
+
+@dataclass
+class EndpointDoc:
+    """Documentation for a single endpoint."""
+    path: str
+    method: str
+    description: str
+    category: EndpointCategory
+    request_params: Optional[dict] = None
+    response_format: Optional[dict] = None
+    example: Optional[dict] = None
+
+API_DOCUMENTATION = [
+    EndpointDoc(
+        path="/graph/process",
+        method="POST",
+        category=EndpointCategory.ANALYSIS,
+        description="Start a new link graph analysis",
+        request_params={
+            "analysis_id": "string (required): Unique identifier for the analysis",
+            "options": "dict (optional): Configuration options for the analysis"
+        },
+        response_format={
+            "job_id": "string: Unique job identifier",
+            "status": "string: Initial job status"
+        },
+        example={
+            "request": {"analysis_id": "test-1", "options": {"depth": 2}},
+            "response": {"job_id": "job-123", "status": "pending"}
+        }
+    ),
+    # ... more endpoint documentation
+]
+```````
+
+## 2. User Documentation
+
+```````markdown:docs/user_guide.md
+# LinkGraph User Guide
+
+## Quick Start
+
+1. **Installation**
+   ```bash
+   pip install botifymograph
+   ```
+
+2. **Basic Usage**
+   ```python
+   from fasthtml import FastHTML
+   from botifymograph import BotifyLinkGraph
+
+   app = FastHTML()
+   graph = BotifyLinkGraph(app, "/graph")
+   ```
+
+## Components
+
+### Analysis Selection
+The analysis selection component allows you to:
+- Choose from existing analyses
+- Configure analysis parameters
+- Start new analysis jobs
+
+### Progress Monitoring
+Real-time progress monitoring provides:
+- Current status updates
+- Progress percentage
+- Error reporting
+- Completion notifications
+
+## Advanced Features
+
+### WebSocket Integration
+Enable real-time updates by...
+
+### Custom Styling
+Override default styles by...
+```````
+
+## 3. Developer Documentation
+
+```````python:botifymograph/docs/dev_guide.py
+"""
+Developer's Guide for LinkGraph Components
+
+This module provides documentation and examples for developers
+extending or modifying the LinkGraph system.
+"""
+
+class DeveloperGuide:
+    @staticmethod
+    def component_example():
+        """Example of creating a custom component."""
+        return '''
+        from botifymograph.components import LinkGraphComponent
+        
+        class CustomAnalysis(LinkGraphComponent):
+            def render(self):
+                return Div(
+                    H2("Custom Analysis"),
+                    self.render_form(),
+                    class_="custom-analysis"
+                )
+                
+            def render_form(self):
+                return Form(
+                    Input(type="text", name="custom_param"),
+                    Button("Submit", type="submit"),
+                    **self.htmx.form_submit("/custom/endpoint")
+                )
+        '''
+
+    @staticmethod
+    def state_management_example():
+        """Example of state management integration."""
+        return '''
+        from botifymograph.state import StateManager
+        
+        class CustomStateHandler:
+            def __init__(self):
+                self.state_manager = StateManager()
+                
+            async def handle_state_change(self, new_state):
+                # Custom state handling logic
+                pass
+                
+            def subscribe(self):
+                self.state_manager.subscribe(self.handle_state_change)
+        '''
+```````
+
+## 4. Deployment Configuration
+
+```````yaml:deployment/docker-compose.yml
+version: '3.8'
+
+services:
+  linkgraph:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - MAX_WORKERS=4
+    volumes:
+      - linkgraph_data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  linkgraph_data:
+```````
+
+```````dockerfile:deployment/Dockerfile
+# Use multi-stage build for smaller final image
+FROM python:3.11-slim as builder
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --user -r requirements.txt
+
+FROM python:3.11-slim
+WORKDIR /app
+
+# Copy only necessary files
+COPY --from=builder /root/.local /root/.local
+COPY botifymograph/ /app/botifymograph/
+COPY static/ /app/static/
+
+# Set Python path
+ENV PATH=/root/.local/bin:$PATH
+
+# Run with uvicorn
+CMD ["uvicorn", "botifymograph.main:app", "--host", "0.0.0.0", "--port", "8000"]
+```````
+
+## 5. Configuration Management
+
+```````python:botifymograph/config.py
+from pydantic import BaseSettings
+from typing import Optional
+from pathlib import Path
+
+class Settings(BaseSettings):
+    """Application settings with environment variable support."""
+    
+    # Application settings
+    APP_NAME: str = "LinkGraph"
+    DEBUG: bool = False
+    ENVIRONMENT: str = "development"
+    
+    # Server settings
+    HOST: str = "0.0.0.0"
+    PORT: int = 8000
+    WORKERS: int = 4
+    
+    # File storage
+    DATA_DIR: Path = Path("data")
+    MAX_FILE_SIZE: int = 100 * 1024 * 1024  # 100MB
+    
+    # Analysis settings
+    MAX_CONCURRENT_ANALYSES: int = 5
+    ANALYSIS_TIMEOUT: int = 3600  # 1 hour
+    
+    # WebSocket settings
+    WS_HEARTBEAT_INTERVAL: int = 30
+    
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+
+settings = Settings()
+```````
+
+## 6. Monitoring and Logging
+
+```````python:botifymograph/monitoring.py
+import logging
+import structlog
+from datetime import datetime
+from typing import Optional
+
+# Configure structured logging
+structlog.configure(
+    processors=[
+        structlog.processors.TimeStamper(fmt="iso"),
+        structlog.processors.StackInfoRenderer(),
+        structlog.processors.format_exc_info,
+        structlog.processors.JSONRenderer()
+    ],
+    context_class=dict,
+    logger_factory=structlog.PrintLoggerFactory(),
+    wrapper_class=structlog.BoundLogger,
+    cache_logger_on_first_use=True,
+)
+
+class LinkGraphLogger:
+    """Structured logging for LinkGraph operations."""
+    
+    def __init__(self, component: str):
+        self.logger = structlog.get_logger(component=component)
+    
+    def log_analysis_event(
+        self,
+        event_type: str,
+        analysis_id: str,
+        status: Optional[str] = None,
+        error: Optional[Exception] = None,
+        **kwargs
+    ):
+        """Log analysis-related events."""
+        event_data = {
+            "event_type": event_type,
+            "analysis_id": analysis_id,
+            "timestamp": datetime.utcnow().isoformat(),
+            "status": status,
+            **kwargs
+        }
+        
+        if error:
+            event_data["error"] = str(error)
+            event_data["error_type"] = type(error).__name__
+            self.logger.error("analysis_error", **event_data)
+        else:
+            self.logger.info("analysis_event", **event_data)
+
+class PerformanceMonitor:
+    """Monitor and log performance metrics."""
+    
+    def __init__(self):
+        self.logger = LinkGraphLogger("performance")
+    
+    async def monitor_analysis_performance(self, analysis_id: str):
+        """Monitor performance of analysis operations."""
+        start_time = datetime.utcnow()
+        
+        try:
+            yield
+        finally:
+            duration = (datetime.utcnow() - start_time).total_seconds()
+            self.logger.log_analysis_event(
+                "analysis_performance",
+                analysis_id,
+                duration=duration
+            )
+```````
+
+Would you like me to continue with error handling patterns or security configurations next?
+
+Me: First one, and then the other please.
+
+Claude: 
+
+
+
+# Error Handling Patterns
+
+## 1. Custom Exceptions
+
+````````python:botifymograph/exceptions.py
+from typing import Optional, Any
+from dataclasses import dataclass
+from fasthtml.common import *
+
+@dataclass
+class LinkGraphError(Exception):
+    """Base exception for LinkGraph errors."""
+    message: str
+    code: str
+    details: Optional[dict] = None
+    
+    def __str__(self):
+        return f"{self.code}: {self.message}"
+    
+    def to_dict(self):
+        return {
+            "error": {
+                "code": self.code,
+                "message": self.message,
+                "details": self.details
+            }
+        }
+    
+    def to_html(self) -> FT:
+        """Convert error to HTML component."""
+        return Div(
+            H3(self.code, class_="error-code"),
+            P(self.message, class_="error-message"),
+            *(P(f"{k}: {v}") for k, v in (self.details or {}).items()),
+            class_="error-container"
+        )
+
+class AnalysisError(LinkGraphError):
+    """Errors related to analysis operations."""
+    def __init__(self, message: str, details: Optional[dict] = None):
+        super().__init__(message, "ANALYSIS_ERROR", details)
+
+class ValidationError(LinkGraphError):
+    """Input validation errors."""
+    def __init__(self, message: str, field: str, value: Any):
+        super().__init__(
+            message, 
+            "VALIDATION_ERROR",
+            {"field": field, "value": str(value)}
+        )
+
+class StateError(LinkGraphError):
+    """State management errors."""
+    def __init__(self, message: str, state_details: Optional[dict] = None):
+        super().__init__(message, "STATE_ERROR", state_details)
+````````
+
+
+## 2. Error Handlers
+
+````````python:botifymograph/error_handlers.py
+from fasthtml.common import *
+from .exceptions import LinkGraphError
+from .components.base import HtmxComponent
+
+class ErrorHandler(HtmxComponent):
+    """Component for handling and displaying errors."""
+    
+    def render_error(self, error: Exception) -> FT:
+        """Render error message as HTML."""
+        if isinstance(error, LinkGraphError):
+            return error.to_html()
+        
+        # Handle unexpected errors
+        return Div(
+            H3("Unexpected Error", class_="error-code"),
+            P(str(error), class_="error-message"),
+            class_="error-container unexpected-error"
+        )
+    
+    def render_validation_errors(self, errors: dict) -> FT:
+        """Render validation errors."""
+        return Div(
+            H3("Validation Errors", class_="error-code"),
+            Ul(
+                *(Li(f"{field}: {message}") for field, message in errors.items()),
+                class_="validation-errors"
+            ),
+            class_="error-container validation-error"
+        )
+    
+    async def handle_error(self, request, error: Exception) -> FT:
+        """Main error handling logic."""
+        is_htmx = "HX-Request" in request.headers
+        
+        if is_htmx:
+            return self.render_error(error)
+        
+        # For non-HTMX requests, render full error page
+        return Html(
+            Head(
+                Title("Error - LinkGraph"),
+                Link(rel="stylesheet", href="/static/styles/error.css")
+            ),
+            Body(
+                self.render_error(error),
+                Button(
+                    "Return to Home",
+                    **self.htmx.get("/"),
+                    class_="return-button"
+                )
+            )
+        )
+````````
+
+
+## 3. Error Recovery Strategies
+
+````````python:botifymograph/recovery.py
+from typing import Optional, Callable, Any
+from functools import wraps
+import asyncio
+from .exceptions import LinkGraphError
+from .state import StateManager
+
+class RecoveryStrategy:
+    """Base class for error recovery strategies."""
+    
+    async def handle(self, error: Exception, context: dict) -> Optional[Any]:
+        """Handle error and attempt recovery."""
+        raise NotImplementedError
+
+class RetryStrategy(RecoveryStrategy):
+    """Retry failed operations with exponential backoff."""
+    
+    def __init__(self, max_retries: int = 3, base_delay: float = 1.0):
+        self.max_retries = max_retries
+        self.base_delay = base_delay
+    
+    async def handle(self, error: Exception, context: dict) -> Optional[Any]:
+        operation = context.get('operation')
+        if not operation:
+            return None
+            
+        for attempt in range(self.max_retries):
+            try:
+                delay = self.base_delay * (2 ** attempt)
+                await asyncio.sleep(delay)
+                return await operation()
+            except Exception as e:
+                if attempt == self.max_retries - 1:
+                    raise e
+
+class StateRecoveryStrategy(RecoveryStrategy):
+    """Recover from state-related errors."""
+    
+    def __init__(self, state_manager: StateManager):
+        self.state_manager = state_manager
+    
+    async def handle(self, error: Exception, context: dict) -> Optional[Any]:
+        if isinstance(error, LinkGraphError):
+            # Attempt to restore last known good state
+            await self.state_manager.restore_checkpoint()
+            return True
+        return None
+
+def with_recovery(strategy: RecoveryStrategy):
+    """Decorator to apply recovery strategy to a function."""
+    
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            try:
+                return await func(*args, **kwargs)
+            except Exception as e:
+                context = {
+                    'operation': lambda: func(*args, **kwargs),
+                    'args': args,
+                    'kwargs': kwargs
+                }
+                result = await strategy.handle(e, context)
+                if result is not None:
+                    return result
+                raise e
+        return wrapper
+    return decorator
+````````
+
+
+## 4. Error Boundary Components
+
+````````python:botifymograph/error_boundary.py
+from typing import Optional, Callable
+from fasthtml.common import *
+from .exceptions import LinkGraphError
+
+class ErrorBoundary:
+    """Component that catches errors and renders fallback UI."""
+    
+    def __init__(
+        self,
+        fallback: Optional[Callable[[Exception], FT]] = None,
+        on_error: Optional[Callable[[Exception], None]] = None
+    ):
+        self.fallback = fallback
+        self.on_error = on_error
+    
+    async def __call__(self, component: Callable[[], FT]) -> FT:
+        """Wrap a component with error handling."""
+        try:
+            return await component()
+        except Exception as error:
+            if self.on_error:
+                self.on_error(error)
+            
+            if self.fallback:
+                return self.fallback(error)
+            
+            # Default error UI
+            return Div(
+                H3("Something went wrong"),
+                P(str(error)),
+                class_="error-boundary"
+            )
+
+def create_error_boundary(id_: str, message: str) -> FT:
+    """Create a simple error boundary container."""
+    return Div(
+        P(message),
+        Button(
+            "Retry",
+            **{"hx-get": f"/retry/{id_}"},
+            class_="retry-button"
+        ),
+        id=id_,
+        class_="error-boundary"
+    )
+````````
+
+
+## 5. Error Monitoring and Reporting
+
+````````python:botifymograph/monitoring/errors.py
+from datetime import datetime
+from typing import Optional, Dict, Any
+import traceback
+import json
+import logging
+from pathlib import Path
+
+class ErrorMonitor:
+    """Monitor and log application errors."""
+    
+    def __init__(self, log_dir: Path):
+        self.log_dir = log_dir
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Configure error logging
+        self.logger = logging.getLogger("error_monitor")
+        handler = logging.FileHandler(log_dir / "errors.log")
+        handler.setFormatter(
+            logging.Formatter(
+                '%(asctime)s - %(levelname)s - %(message)s'
+            )
+        )
+        self.logger.addHandler(handler)
+        self.logger.setLevel(logging.ERROR)
+    
+    def log_error(
+        self,
+        error: Exception,
+        context: Optional[Dict[str, Any]] = None
+    ):
+        """Log error with context."""
+        error_data = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "error_type": type(error).__name__,
+            "error_message": str(error),
+            "traceback": traceback.format_exc(),
+            "context": context or {}
+        }
+        
+        # Log to file
+        self.logger.error(
+            json.dumps(error_data, indent=2)
+        )
+        
+        # For critical errors, create separate detailed log
+        if isinstance(error, LinkGraphError) and error.code == "CRITICAL":
+            self._log_critical_error(error_data)
+    
+    def _log_critical_error(self, error_data: dict):
+        """Log critical errors with full details."""
+        timestamp = error_data["timestamp"].replace(":", "-")
+        error_file = self.log_dir / f"critical_{timestamp}.json"
+        
+        with open(error_file, "w") as f:
+            json.dump(error_data, f, indent=2)
+````````
+
+
+## 6. Error Response Templates
+
+````````python:botifymograph/templates/errors.py
+from fasthtml.common import *
+
+def error_template(title: str, message: str, code: str) -> FT:
+    """Template for error pages."""
+    return Html(
+        Head(
+            Title(f"Error {code} - {title}"),
+            Link(rel="stylesheet", href="/static/styles/error.css")
+        ),
+        Body(
+            Main(
+                Div(
+                    H1(title, class_="error-title"),
+                    P(message, class_="error-message"),
+                    P(code, class_="error-code"),
+                    class_="error-content"
+                ),
+                Button(
+                    "Return Home",
+                    **{"hx-get": "/"},
+                    class_="return-home"
+                ),
+                class_="error-container"
+            )
+        )
+    )
+
+def validation_error_template(errors: dict) -> FT:
+    """Template for validation errors."""
+    return Div(
+        H2("Please correct the following errors:"),
+        Ul(
+            *(Li(f"{field}: {message}", class_="validation-error")
+              for field, message in errors.items()),
+            class_="validation-list"
+        ),
+        class_="validation-container"
+    )
+
+def network_error_template() -> FT:
+    """Template for network-related errors."""
+    return Div(
+        H2("Connection Error"),
+        P("Unable to complete the request. Please check your connection."),
+        Button(
+            "Retry",
+            **{"hx-get": ".", "hx-trigger": "click"},
+            class_="retry-button"
+        ),
+        class_="network-error"
+    )
+````````
+
+Would you like me to continue with the security configurations next?
+
+Me: Well, it's single tenant, so we'll stop there. Now given what you know about this project analyze your last bunch of responses...
+
+...and analyze where you may have gone astray. Give advice to both yourself and me to stay on the correct spirit of this project.
+
+Claude: Ah yes, let me analyze where I started to over-engineer things...
+
+# Self-Check: Staying True to Project Spirit
+
+## What I Got Right:
+1. Base error handling with human-readable messages
+2. Simple file-based error logging
+3. HTMX-based retry mechanisms
+4. Clear error boundaries in UI
+
+## Where I Went Astray:
+1. Over-complicated exception hierarchy
+   ```python
+   # Too complex:
+   @dataclass
+   class LinkGraphError(Exception):
+       message: str
+       code: str
+       details: Optional[dict] = None
+
+   # Better:
+   class LinkGraphError(Exception):
+       """Simple, human-readable errors."""
+       pass
+   ```
+
+2. Too much abstraction in error monitoring
+   ```python
+   # Too much:
+   class ErrorMonitor:
+       def __init__(self, log_dir: Path):
+           self.log_dir = log_dir
+           # ... complex setup
+
+   # Better:
+   def log_error(error: Exception, context: str):
+       """Just log it to a file with timestamp."""
+       with open('errors.log', 'a') as f:
+           f.write(f"{datetime.now()}: {context} - {str(error)}\n")
+   ```
+
+3. Over-engineered recovery strategies
+   ```python
+   # Too complex:
+   class RecoveryStrategy:
+       async def handle(self, error: Exception, context: dict)
+
+   # Better:
+   def retry_operation(func):
+       """Simple retry decorator."""
+       async def wrapper(*args, **kwargs):
+           try:
+               return await func(*args, **kwargs)
+           except Exception as e:
+               logger.error(f"Failed: {e}")
+               return error_div(str(e))
+       return wrapper
+   ```
+
+## Advice to Both of Us:
+
+1. **Remember the Single-Tenant Nature**
+   - We don't need complex error hierarchies
+   - File-based logging is perfect
+   - Human-readable errors are better than codes
+
+2. **Keep It Visual**
+   ```python
+   def error_div(message: str) -> FT:
+       return Div(
+           P(f"❌ {message}"),  # Simple, visual, clear
+           class_="error-message"
+       )
+   ```
+
+3. **Embrace Simplicity**
+   - File system over databases
+   - Direct error messages over codes
+   - Simple retries over complex recovery
+
+4. **Stay HTMX-Centric**
+   ```python
+   Button(
+       "Retry",
+       hx_get=".",  # Simple HTMX retry
+       class_="retry-button"
+   )
+   ```
+
+Should I proceed with security configurations, but this time staying true to the single-tenant, simple-is-better spirit?
+
+Me: Yes
+
+Claude: Great! Let's implement simple but effective security for a single-tenant FastHTML app.
+
+```python
+from fasthtml.common import *
+from secrets import token_urlsafe
+from functools import wraps
+
+# Simple session-based auth middleware
+def require_auth(route_handler):
+    @wraps(route_handler)
+    async def wrapper(request, *args, **kwargs):
+        if not request.session.get('authenticated'):
+            return Redirect('/login')
+        return await route_handler(request, *args, **kwargs)
+    return wrapper
+
+# Main app with basic security setup
+app = FastHTML(
+    secret_key=token_urlsafe(32),  # Strong random key for sessions
+    session_cookie='session',       # Cookie name
+    sess_https_only=True,          # Secure cookies in production
+)
+
+# Simple login form
+@app.get('/login')
+def login_page():
+    return Form(
+        Input(type='password', name='passphrase', placeholder='Enter passphrase'),
+        Button('Login'),
+        hx_post='/login',
+        hx_target='body'
+    )
+
+# Login handler
+@app.post('/login')
+async def login(request):
+    form = await request.form()
+    passphrase = form.get('passphrase')
+    
+    # Simple file-based secret comparison
+    correct_hash = Path('passphrase.txt').read_text().strip()
+    if passphrase and passphrase == correct_hash:
+        request.session['authenticated'] = True
+        return Redirect('/')
+    
+    return Form(
+        P('Invalid passphrase', class_='error'),
+        Input(type='password', name='passphrase'),
+        Button('Try Again'),
+        hx_post='/login',
+        hx_target='body'
+    )
+
+# Protected route example
+@app.get('/')
+@require_auth
+async def index(request):
+    return Div(
+        H1('Secure Dashboard'),
+        Button(
+            'Logout',
+            hx_post='/logout',
+            hx_target='body'
+        )
+    )
+
+# Logout handler
+@app.post('/logout')
+async def logout(request):
+    request.session.clear()
+    return Redirect('/login')
+
+# Simple CLI to set passphrase
+def set_passphrase():
+    from getpass import getpass
+    passphrase = getpass('Enter new passphrase: ')
+    Path('passphrase.txt').write_text(passphrase)
+    print('Passphrase updated')
+
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == 'setpass':
+        set_passphrase()
+    else:
+        serve('app')
+```
+
+Key security features while keeping it simple:
+
+1. **Single Passphrase Authentication**
+   - No usernames, just one passphrase
+   - Stored in a simple text file
+   - Easy to update via CLI
+
+2. **Session Management**
+   - Uses FastHTML's built-in secure session handling
+   - HTTPS-only cookies for production
+   - Simple session flag for auth state
+
+3. **Protected Routes**
+   - Clean decorator pattern
+   - Redirects to login when needed
+   - No complex permission system
+
+4. **HTMX Integration**
+   - Forms use HTMX for smooth transitions
+   - No complex JavaScript needed
+   - Clean error handling
+
+To use:
+
+```bash
+# Set initial passphrase
+python app.py setpass
+
+# Run the app
+python app.py
+```
+
+This provides solid security for a single-tenant app while maintaining:
+- No database needed
+- Simple file-based storage
+- Clean HTMX-based UI
+- Minimal code footprint
+
+Would you like me to add any specific security enhancements while keeping this simplicity?
+
+Me: No, that'll do, Claude. That'll do.
+
+Claude: *tips hat*
+
+Simple, secure, and gets the job done. Sometimes the best code is the code you don't write. 
+
+Good luck with your FastHTML project! Let me know if you need anything else.
+
+
