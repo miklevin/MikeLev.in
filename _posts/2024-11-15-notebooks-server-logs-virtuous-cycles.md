@@ -951,7 +951,7 @@ The fact that this all starts with two simple scripts that anyone can run is the
 Would you like to explore how we could make the Jupyter-to-Card transformation more seamless? Or shall we focus on making the workflow system even more stream-oriented? I see potential for making the whole system feel like a continuous flow of transformations, from Jupyter prototype to production card.
 
 > One fun thing I like the best's  
-> Honking Luddites' nose in jest  
+> Honking Luddites' nose in jest.  
 > When they say it can't be done  
 > We do and watch 'em fume for fun!  
 
