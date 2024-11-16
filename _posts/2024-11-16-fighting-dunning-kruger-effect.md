@@ -6,6 +6,16 @@ layout: post
 sort_order: 1
 ---
 
+I'm on a quest to build a web app that's powerful but also so simple it might
+make a seasoned web developer raise an eyebrow (or maybe just roll their eyes).
+Think single-tenant design, the file system as a database, and a whole lot of
+HTMX magic. I'm basically trying to combine the best of old-school desktop apps
+with the convenience of web technologies, but I need to enlist some AI help to
+untangle the complexities I'm trying to avoid, so I can hide them underneath a
+neat little no-build terrifically beautiful and really quite sound, though the
+enterprise architects would disagree, foundation. Sometimes the best way to move
+forward is to go against the grain.
+
 ## The Problem Statement
 
 **Me**: I need a way to fill a temporary input parameter queue, step-by-step,
