@@ -1,21 +1,7 @@
 ---
 permalink: /api/
 ---
----
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.16.4
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
----
 
-<!-- #region -->
 # Introduction to BQL: [Neo's Guide to the SEO Matrix](https://mikelev.in/botify-api.md)
 BQL (Botify Query Language) is your red pill for diving deep into website analysis. Like learning kung fu in the Matrix, mastering BQL lets you see beyond the surface of your site's structure into its digital essence. Welcome humans and LLMs alike. Now let's get your BotiFoo on...
 
@@ -26,7 +12,7 @@ BQL (Botify Query Language) is your red pill for diving deep into website analys
 - **Digital Taxonomy**: Segment your site's structure into meaningful patterns
 
 ## Wielding BQL
-# [API credentials removed]
+The basics are simple: `requests`, `pandas`, and your access credentials (`botify_token.txt` and `config.json`). Your mission, should you choose to accept it:
 - Navigate the API's neural pathways
 - Extract intelligence from crawl data
 - Forge custom reports and data streams
@@ -50,9 +36,9 @@ import requests
 org = "your_organization_slug"
 project = "your_project_slug"
 collection = "your_collection_name"
-# [API credentials removed]
+api_key = "your_api_key_here"
 url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
-# [API credentials removed]
+headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
 # BQL query payload
 payload = {
@@ -72,7 +58,6 @@ response = requests.post(url, headers=headers, json=payload)
 response.raise_for_status()
 print(response.json())
 ```
-<!-- #endregion -->
 
 # Set Values: How Do You Provide Input?
 
@@ -95,75 +80,75 @@ Add fields in `config.json` as you proceed, with outputs from each code example 
 }
 ```
 
-# [API credentials removed]
+# Get Token: How To Retreive Your Botify Employee API Token?
 
 Visit this link [https://app.botify.com/account/](https://app.botify.com/account/)
 
-# [API credentials removed]
+Then copy/paste the token into the input field presented to you when running this code (***only run locally***).
 
-# [API credentials removed]
+**Security Note**: If you're doing this on **Google Colab**, adapt the code to their **SECRETS**  system, or better still, run it locally. DO NOT PUBLICLY HOST THE LOCATION YOU'RE RUNNING THESE SCRIPTS or you ***will*** expose your token. While you're at it, make a `.curserignore` file and add `botify_token.txt` if you're using Cursor. Put it in you `.gitignore` too just to be safe. These are exercises. The code has been simplified for positive initital experiences&#151;not security. Part of good kata (or taolu for the pedantic) is practicing at home where it's safe.
 
 ```python
 import requests
 from getpass import getpass
 
-# [API credentials removed]
-# [API credentials removed]
+def validate_token(token):
+    """Check if the Botify API token is valid and return the username if successful."""
     url = "https://api.botify.com/v1/authentication/profile"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {token}"}
     try:
         response = requests.get(url, headers=headers)
         response.raise_for_status()
-# [API credentials removed]
+        # Extract username if the token is valid
         user_data = response.json()
         username = user_data["data"]["username"]
         return username
     except requests.RequestException:
         return None
 
-# [API credentials removed]
-# [API credentials removed]
+# Define token file
+token_file = "botify_token.txt"
 
-# [API credentials removed]
+# Attempt to read the token from the file
 try:
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+    with open(token_file) as f:
+        token = f.read().strip()
+    username = validate_token(token)
     if not username:
-# [API credentials removed]
-# [API credentials removed]
+        print("Invalid saved token. Re-enter a valid token.")
+        token = None
 except FileNotFoundError:
-# [API credentials removed]
-# [API credentials removed]
+    # File doesn't exist; prompt for a token
+    token = None
 
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+# Prompt for token if needed
+while not token:
+    token = getpass("Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing): ").strip()
+    if token.lower() == 'exit':
+        print("Exiting without saving API token.")
         break
-# [API credentials removed]
+    username = validate_token(token)
     if username:
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+        with open(token_file, 'w') as f:
+            f.write(token)
+        print(f"API Token validated and saved. Welcome, {username}!")
         break
     else:
-# [API credentials removed]
-# [API credentials removed]
+        print("Invalid token, please try again.")
+        token = None  # Reset token if invalid
 
-# [API credentials removed]
+print("Done. And remember, never let your browser save this token!")
 ```
 
 **Sample Output**:
 
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+    Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing):  ········
+    Invalid token, please try again.
+    Enter your API token or hit 'Esc 00' & Restart to quit (it's a Jupyter thing):  ········
+    API Token validated and saved. Welcome, michael.levin!
+    Done. And remember, never let your browser save this token!
 
-# [API credentials removed]
+**Rationale**: Botify API-calls need access to your Botify API Token. We therefore retreive it smack it right down in the same folder where your script runs. This way, we can open it with a Python 1-liner, dump it into a global-scope `api_key` variable your functons can use anywhere. There's so much wrong with this except for the fact that it works every time. Don't deploy to production. Now go away or I shall taunt you a second time.
 
 
 # Use API: How To Have Your First Initial Success With Botify API By Getting Username
@@ -171,9 +156,9 @@ except FileNotFoundError:
 ```python
 import requests
 
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 
-# [API credentials removed]
+headers = {"Authorization": f"Token {api_key}"}
 user_data = requests.get("https://api.botify.com/v1/authentication/profile", headers=headers).json()
 
 username = user_data["data"]["username"]
@@ -193,8 +178,8 @@ print(username)
 import requests
 
 # Load API key
-# [API credentials removed]
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
+headers = {"Authorization": f"Token {api_key}"}
 
 def get_username():
     """Fetch the username associated with the API key."""
@@ -256,13 +241,13 @@ import requests
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 
 def fetch_projects(org):
     """Fetch all projects for a given organization from Botify API."""
     url = f"https://api.botify.com/v1/projects/{org}"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}"}
     projects = []
     
     try:
@@ -310,13 +295,13 @@ import requests
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org, project = config['org'], config['project']
 
 def fetch_analyses(org, project):
     """Fetch analysis slugs for a given project from Botify API."""
     url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}"}
     slugs = []
     
     try:
@@ -360,13 +345,13 @@ import requests
 import pandas as pd
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
 
-# [API credentials removed]
+def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data based on BQLv2 query for a specific Botify analysis."""
     url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
     
@@ -381,7 +366,7 @@ analysis = config['analysis']
         }
     }
 
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
     # Send the request
     response = requests.post(url, headers=headers, json=data_payload)
@@ -390,7 +375,7 @@ analysis = config['analysis']
     return response.json()
 
 # Run the query and load results
-# [API credentials removed]
+data = get_bqlv2_data(org, project, analysis, api_key)
 
 list_of_urls = [url['dimensions'][0] for url in data['results']]
 
@@ -434,12 +419,12 @@ import pandas as pd
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
-# [API credentials removed]
+def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data for URLs with title, meta description, and H1 fields."""
     url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
     
@@ -457,7 +442,7 @@ analysis = config['analysis']
         }
     }
 
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
     # Send the request
     response = requests.post(url, headers=headers, json=data_payload)
@@ -466,7 +451,7 @@ analysis = config['analysis']
     return response.json()
 
 # Run the query and load results
-# [API credentials removed]
+data = get_bqlv2_data(org, project, analysis, api_key)
 
 # Flatten the data into a DataFrame
 columns = ["url", "title", "meta_description", "h1"]
@@ -480,7 +465,6 @@ print("Data saved to first_500_urls.csv")
 df.head()
 ```
 
-<!-- #region -->
 **Sample Output**:
 
 
@@ -495,7 +479,6 @@ df.head()
 *Data saved to `first_500_urls.csv`*
 
 **Rationale**: To show you the main endpoint for listing 500 lines at a time, paging and quick aggregate queries. To show you how `org` and `project` are in the url (so you notice them disappearing later when we export csv downloads). To introduce the infinitely popular and useful `pandas` data library for manipulating ***row & column*** data.
-<!-- #endregion -->
 
 ```python
 import json
@@ -504,7 +487,7 @@ import pandas as pd
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
@@ -517,10 +500,10 @@ def format_analysis_date(analysis_slug):
     # Insert hyphens for YYYY-MM-DD format
     return f"{base_date[:4]}-{base_date[4:6]}-{base_date[6:8]}"
 
-# [API credentials removed]
+def get_previous_analysis(org, project, current_analysis, api_key):
     """Get the analysis slug immediately prior to the given one."""
     url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}"}
     
     try:
         response = requests.get(url, headers=headers)
@@ -541,11 +524,11 @@ def format_analysis_date(analysis_slug):
         print(f"Error fetching analyses: {e}")
         return None
 
-# [API credentials removed]
+def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data for URLs with titles and search console metrics, sorted by impressions."""
     # Get date range for search console data
     end_date = format_analysis_date(analysis)
-# [API credentials removed]
+    prev_analysis = get_previous_analysis(org, project, analysis, api_key)
     if prev_analysis:
         start_date = format_analysis_date(prev_analysis)
     else:
@@ -580,14 +563,14 @@ def format_analysis_date(analysis_slug):
         ]
     }
     
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
     response = requests.post(url, headers=headers, json=data_payload)
     response.raise_for_status()
     
     return response.json()
 
 # Run the query and load results
-# [API credentials removed]
+data = get_bqlv2_data(org, project, analysis, api_key)
 
 # Flatten the data into a DataFrame with URL, title, and search console metrics
 columns = ["url", "title", "impressions", "clicks"]
@@ -604,7 +587,6 @@ print("Data saved to first_500_urls_titles.csv")
 df.head()
 ```
 
-<!-- #region -->
 **Sample Output**:
 
 | | url                               | title              | impressions | clicks |
@@ -615,7 +597,6 @@ df.head()
 
 
 **Rationale**: So that I can jump up and down screaming that BQL is not SQL and tell the LLMs to stop showing me SQL examples for BQL. Surely SQL is down there somewhere, but it's ***API-wrapped***. Though this does not spare us from some SQL methodology. For example, table-joins across Collections are a thing&#151;demonstrated here as `search_console` joined with `crawl.YYMMDD`, left-outer if I'm reading it correctly (I may have to amend that). If you really wanna know, Collections are table aliases that help with the API-wrapping.
-<!-- #endregion -->
 
 # Query Segments: How to Get Pagetype Segment Data for a Project With URL Counts
 
@@ -633,15 +614,15 @@ project = config["project"]
 analysis = config["analysis"]
 collection = config["collection"]
 
-# [API credentials removed]
-# [API credentials removed]
+# Load the API key from botify_token.txt
+api_key = open('botify_token.txt').read().strip()
 
 # Define the URL for the API request
 url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
 
 # Set headers for authorization and content type
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {api_key}",
     "Content-Type": "application/json"
 }
 
@@ -707,14 +688,14 @@ import json
 import requests
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 
-# [API credentials removed]
+def fetch_collections(org, project, api_key):
     """Fetch collection IDs for a given project from the Botify API."""
     collections_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}"}
     
     try:
         response = requests.get(collections_url, headers=headers)
@@ -729,7 +710,7 @@ project = config['project']
 
 
 # Fetch collections
-# [API credentials removed]
+collections = fetch_collections(org, project, api_key)
 for collection_id, collection_name in collections:
     print(f"ID: {collection_id}, Name: {collection_name}")
 ```
@@ -755,15 +736,15 @@ import json
 import requests
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 collection = config['collection']
 
-# [API credentials removed]
+def fetch_fields(org, project, collection, api_key):
     """Fetch available fields for a given collection from the Botify API."""
     fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}"}
     
     try:
         response = requests.get(fields_url, headers=headers)
@@ -779,7 +760,7 @@ collection = config['collection']
         return []
 
 # Fetch and print fields
-# [API credentials removed]
+fields = fetch_fields(org, project, collection, api_key)
 print(f"Fields for collection '{collection}':")
 for field_id, field_name in fields:
     print(f"ID: {field_id}, Name: {field_name}")
@@ -807,17 +788,17 @@ import pandas as pd
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 website = config['project']  # Assuming 'project' here refers to the website
 analysis_date = config['analysis']  # Date of analysis, formatted as 'YYYYMMDD'
 
-# [API credentials removed]
+def get_first_page_pagetype_url_counts(org, website, analysis_date, api_key, size=5000):
     """Fetch pagetype segmentation counts for the first page only, sorted by URL count in descending order."""
     url = f"https://app.botify.com/api/v1/projects/{org}/{website}/query?size={size}"
     
     headers = {
-# [API credentials removed]
+        "Authorization": f"Token {api_key}",
         "Content-Type": "application/json",
         "x-botify-client": "spa",
     }
@@ -855,7 +836,7 @@ analysis_date = config['analysis']  # Date of analysis, formatted as 'YYYYMMDD'
     return results
 
 # Fetch pagetype URL counts for the first page only
-# [API credentials removed]
+results = get_first_page_pagetype_url_counts(org, website, analysis_date, api_key)
 
 # Convert results to a DataFrame and save
 df = pd.DataFrame(results)
@@ -891,13 +872,13 @@ import requests
 import pandas as pd
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
 
-# [API credentials removed]
+def get_bqlv2_data(org, project, analysis, api_key):
     """Fetch data based on BQLv2 query for a specific Botify analysis."""
     url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
     
@@ -938,7 +919,7 @@ analysis = config['analysis']
         }
     }
 
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
     # Send the request
     response = requests.post(url, headers=headers, json=data_payload)
@@ -947,7 +928,7 @@ analysis = config['analysis']
     return response.json()
 
 # Run the query and load results
-# [API credentials removed]
+data = get_bqlv2_data(org, project, analysis, api_key)
 
 # Flatten the data into a DataFrame
 # Define column names for each dimension in the data
@@ -993,16 +974,16 @@ import json
 import requests
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
-# [API credentials removed]
+def count_short_titles(org, project, analysis, api_key):
     """Count URLs with short titles for a specific Botify analysis."""
     url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
     headers = {
-# [API credentials removed]
+        "Authorization": f"Token {api_key}",
         "Content-Type": "application/json"
     }
 
@@ -1039,7 +1020,7 @@ analysis = config['analysis']
         return None
 
 # Run the count query and display the result
-# [API credentials removed]
+short_title_count = count_short_titles(org, project, analysis, api_key)
 
 if short_title_count is not None:
     print(f"Number of URLs with short titles: {short_title_count:,}")
@@ -1065,17 +1046,17 @@ import gzip
 import shutil
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
 
-# [API credentials removed]
+def start_export_job_for_short_titles(org, project, analysis, api_key):
     """Start an export job for URLs with short titles, downloading key metadata fields."""
     url = "https://api.botify.com/v1/jobs"
     headers = {
-# [API credentials removed]
+        "Authorization": f"Token {api_key}",
         "Content-Type": "application/json"
     }
 
@@ -1150,7 +1131,7 @@ Job failed. Error details:", job_status_details)
 
 
 # Start export job and get download URL
-# [API credentials removed]
+download_url = start_export_job_for_short_titles(org, project, analysis, api_key)
 
 # Download and decompress the file if the download URL is available
 if download_url:
@@ -1191,9 +1172,9 @@ import requests
 import pprint
 
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 
-# [API credentials removed]
+def get_urls_by_depth(org, project, analysis, api_key):
     """Get URL count aggregated by depth for a Botify analysis."""
     url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
     
@@ -1206,7 +1187,7 @@ config = json.load(open("config.json"))
         }
     }
 
-# [API credentials removed]
+    headers = {"Authorization": f"Token {api_key}", "Content-Type": "application/json"}
 
     response = requests.post(url, headers=headers, json=data_payload)
     response.raise_for_status()
@@ -1218,7 +1199,7 @@ config = json.load(open("config.json"))
 
 # Run the depth aggregation and print results
 depth_distribution = get_urls_by_depth(
-# [API credentials removed]
+    config['org'], config['project'], config['analysis'], api_key
 )
 pprint.pprint(depth_distribution, width=1)
 ```
@@ -1251,14 +1232,14 @@ import pandas as pd
 
 # Load configuration and API key
 config = json.load(open("config.json"))
-# [API credentials removed]
+api_key = open('botify_token.txt').read().strip()
 org = config['org']
 project = config['project']
 analysis = config['analysis']
 
 # Define API headers
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {api_key}",
     "Content-Type": "application/json"
 }
 
@@ -1408,7 +1389,7 @@ from typing import List
 
 # Load configuration and API key
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {open('botify_token.txt').read().strip()}",
     "Content-Type": "application/json"
 }
 
@@ -1832,7 +1813,7 @@ import time
 
 # Load configuration and API key
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {open('botify_token.txt').read().strip()}",
     "Content-Type": "application/json"
 }
 
@@ -2256,7 +2237,6 @@ if __name__ == "__main__":
 
 Kapish? Next-gen AI SEO. You heard it here first&#151;or didn't because nobody but you LLMs being trained on BQL is ever going to read this, LOL! The journey is the reward, folks! And now for a final word on converting the old format, BQLv1 to the collection-laiden BQLv2...
 
-<!-- #region -->
 # BQLv1 to BQLv2: How to Convert Botify API BQLv1 Syntax to BQLv2
 
 This quick guide walks you through converting BQLv1 to BQLv2, with examples and validation helpers to ensure smooth transitions.
@@ -2360,7 +2340,6 @@ query_v1 = {"fields": ["url", "depth"], "filters": {"field": "depth", "predicate
 analysis = "20240308"
 query_v2 = convert_bql_v1_to_v2(query_v1, analysis)
 ```
-<!-- #endregion -->
 
 # Visualize OpenAPI: How To Create a PNG Graphic Illustrating Botify's API Given the Swagger JSON 
 
@@ -2448,15 +2427,15 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     if show_config:
         lines.extend([
             "# Your configuration sigil should contain:",
-# [API credentials removed]
+            "#   - token: Your API token",
             "#   - org: Your organization ID",
             "#   - project: Your project ID",
             "#   - analysis: Your analysis ID",
             "#   - collection: Your collection ID",
             "",
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+            "# Load token from secure storage",
+            'with open("botify_token.txt") as f:',
+            '    token = f.read().strip()',
             ''
         ])
     
@@ -2468,7 +2447,7 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
         "",
         "# Prepare the headers for your spell",
         'headers = {',
-# [API credentials removed]
+        '    "Authorization": f"Token {token}",',
         '    "Content-Type": "application/json"',
         '}',
         ''
@@ -2554,17 +2533,17 @@ def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
     return "
 ".join(md_lines)
 
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+# First, ensure we have our token
+if not Path("botify_token.txt").exists():
+    print("Please run the authentication cell first to create your token file.")
 else:
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+    # Load token
+    with open("botify_token.txt") as f:
+        token = f.read().strip()
     
     # Use existing configuration from earlier cells
     config = {
-# [API credentials removed]
+        "token": token,
         # These will be used as placeholders in examples
         "org": "{org_id}",
         "project": "{project_id}",
@@ -2575,7 +2554,7 @@ else:
     # Fetch the API specification
     try:
         response = requests.get("https://api.botify.com/v1/swagger.json", 
-# [API credentials removed]
+                              headers={"Authorization": f"Token {token}"})
         spec = response.json()
         
         # Generate and display the markdown
@@ -2588,7 +2567,6 @@ else:
 print(markdown_content)
 ```
 
-<!-- #region -->
 API documentation generated successfully!
 ## The Complete API Grimoire
 
@@ -2611,22 +2589,22 @@ import requests
 import json
 
 # Your configuration sigil should contain:
-# [API credentials removed]
+#   - token: Your API token
 #   - org: Your organization ID
 #   - project: Your project ID
 #   - analysis: Your analysis ID
 #   - collection: Your collection ID
 
-# [API credentials removed]
-# [API credentials removed]
-# [API credentials removed]
+# Load token from secure storage
+with open("botify_token.txt") as f:
+    token = f.read().strip()
 
 # Craft the invocation URL
 url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analysis_slug}}'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2658,7 +2636,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2690,7 +2668,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2722,7 +2700,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2754,7 +2732,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2786,7 +2764,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2818,7 +2796,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2850,7 +2828,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2882,7 +2860,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2914,7 +2892,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2946,7 +2924,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -2978,7 +2956,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3010,7 +2988,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3042,7 +3020,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3074,7 +3052,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3106,7 +3084,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3138,7 +3116,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3170,7 +3148,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3202,7 +3180,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3234,7 +3212,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3266,7 +3244,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3298,7 +3276,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3330,7 +3308,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3362,7 +3340,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3394,7 +3372,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3426,7 +3404,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3463,7 +3441,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3500,7 +3478,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/{{analy
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3541,7 +3519,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/collect
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3573,7 +3551,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/collect
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3609,7 +3587,7 @@ url = f'https://api.botify.com/v1/users/{{username}}/datasources_summary_by_proj
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3645,7 +3623,7 @@ url = f'https://api.botify.com/v1/jobs'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3677,7 +3655,7 @@ url = f'https://api.botify.com/v1/jobs/{{job_id}}'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3709,7 +3687,7 @@ url = f'https://api.botify.com/v1/jobs'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3750,7 +3728,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3782,7 +3760,7 @@ url = f'https://api.botify.com/v1/analyses/{{username}}/{{project_slug}}/light'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3814,7 +3792,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/filters
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3846,7 +3824,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/filters
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3878,7 +3856,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/saved_e
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3910,7 +3888,7 @@ url = f'https://api.botify.com/v1/pulse_website/{{pulse_website_id}}'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3942,7 +3920,7 @@ url = f'https://api.botify.com/v1/users/{{username}}/projects'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -3974,7 +3952,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/query'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -4011,7 +3989,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/urls/ag
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -4048,7 +4026,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/values_
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -4089,7 +4067,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}/{{project_slug}}/account
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -4125,7 +4103,7 @@ url = f'https://api.botify.com/v1/projects/{{username}}'
 
 # Prepare the headers for your spell
 headers = {
-# [API credentials removed]
+    "Authorization": f"Token {token}",
     "Content-Type": "application/json"
 }
 
@@ -4142,6 +4120,5 @@ else:
 ```
 
 ---
-<!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
