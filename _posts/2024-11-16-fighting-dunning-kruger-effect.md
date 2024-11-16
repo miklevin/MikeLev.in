@@ -1358,152 +1358,70 @@ Next!
 
 **Claude**: Perfect! I see exactly where we're going. Let's create `WebAngiogram` that combines our new `RequestQueue` with the elegant UI patterns from `StreamSimulator`. Here's the approach:
 
-```````python
+```python
 class WebAngiogram:
-    """A modern web graph analysis tool that builds parameters sequentially and provides real-time feedback.
+    """A simple web graph analysis tool that uses files and streams.
     
-    Key improvements over BotifyLinkGraph:
-    1. Sequential parameter building with validation at each step
-    2. Real-time progress updates using SSE/HTMX
-    3. Persistent request queue with state management
-    4. Clear separation between request creation and processing
+    Establishes core patterns:
+    1. Clear separation between UI components and processing
+    2. Consistent use of Cards for visual hierarchy
+    3. HTMX-first approach with progressive enhancement
+    4. File-based state management with clear boundaries
     """
-    def __init__(self, app, base_dir="./queue", route_prefix="/angiogram"):
+    def __init__(self, app, base_dir="./queue"):
         self.app = app
-        self.route_prefix = route_prefix
-        self.queue = RequestQueue(base_dir)
-        self.logger = logger.bind(name="WebAngiogram")
-        
-        # Register routes
-        app.route(f"{route_prefix}/new")(self.render_new_request)
-        app.route(f"{route_prefix}/submit", methods=["POST"])(self.handle_submit)
-        app.route(f"{route_prefix}/status/{{request_id}}")(self.render_status)
-        app.route(f"{route_prefix}/stream/{{request_id}}")(self.stream_progress)
-    
-    async def render_new_request(self, request):
-        """Render the initial parameter collection form."""
-        return Div(
-            H2("Web Graph Analysis"),
+        self.base_dir = Path(base_dir)
+        self.base_dir.mkdir(parents=True, exist_ok=True)
+
+    async def render_main_card(self):
+        """Primary UI card with form and status area."""
+        return Card(
+            H3("Web Graph Analysis"),
+            # Input form with validation
             Form(
-                Fieldset(
-                    Legend("Project Details"),
-                    Input(type="url", name="project_url", 
-                          placeholder="https://github.com/user/repo",
-                          required=True),
-                    Select(
-                        Option("Dependencies Only", value="deps"),
-                        Option("Full Repository", value="full"),
-                        name="scan_type"
-                    ),
-                    Input(type="number", name="depth", 
-                          value="2", min="1", max="5"),
-                    Checkbox("include_external", "Include External Links")
+                Select(
+                    Option("New Analysis", value="new"),
+                    name="analysis_type",
+                    hx_get="/web_angiogram/show_form",
+                    hx_target="#form-area"
                 ),
-                Button("Start Analysis", type="submit"),
-                hx_post=f"{self.route_prefix}/submit",
+                id="analysis-select",
+                cls="contrast"
+            ),
+            # Dynamic form area
+            Div(id="form-area"),
+            # Status display
+            Div(id="status-area"),
+            cls="container-fluid"
+        )
+
+    async def show_form(self):
+        """Dynamic form based on analysis type."""
+        return Card(
+            Form(
+                Input(type="text", name="project",
+                      placeholder="Project name",
+                      cls="contrast"),
+                Button("Start", type="submit"),
+                hx_post="/web_angiogram/submit",
                 hx_target="#status-area"
             ),
-            Div(id="status-area")
+            id="form-area"
         )
 
-    async def handle_submit(self, request):
-        """Create a new request and start streaming progress."""
-        form = await request.form()
-        
-        # Create request object
-        request_data = {
-            "project_url": form.get("project_url"),
-            "scan_type": form.get("scan_type"),
-            "depth": int(form.get("depth")),
-            "include_external": bool(form.get("include_external"))
-        }
-        
-        # Add to queue
-        request_id = self.queue.add_request(request_data)
-        
-        # Start processing in background
-        background = BackgroundTask(self.process_request, request_id)
-        
-        # Return status view
-        return HTMLResponse(
-            self.render_status_view(request_id),
-            background=background
+    async def show_status(self, job_id: str):
+        """Status card with real-time updates."""
+        return Card(
+            Div(
+                Progress(value="0", max="100"),
+                id="progress-indicator"
+            ),
+            Div(id="status-message"),
+            hx_get=f"/web_angiogram/status/{job_id}",
+            hx_trigger="every 2s",
+            id="status-area"
         )
-
-    def render_status_view(self, request_id):
-        """Render the progress tracking view."""
-        return Div(
-            H3("Analysis Progress"),
-            Div(id=f"progress-{request_id}", cls="progress-bar"),
-            Div(id=f"status-{request_id}", cls="status-updates"),
-            Script(f"""
-                const eventSource = new EventSource('{self.route_prefix}/stream/{request_id}');
-                const progressBar = document.getElementById('progress-{request_id}');
-                const statusArea = document.getElementById('status-{request_id}');
-                
-                eventSource.onmessage = function(event) {{
-                    const data = JSON.parse(event.data);
-                    if (data.progress) {{
-                        progressBar.style.width = data.progress + '%';
-                    }}
-                    if (data.message) {{
-                        statusArea.innerHTML += data.message + '<br>';
-                    }}
-                    if (data.complete) {{
-                        eventSource.close();
-                    }}
-                }};
-            """)
-        )
-
-    async def stream_progress(self, request, request_id):
-        """Stream progress updates for a specific request."""
-        async def generate():
-            request = self.queue.get_request(request_id, "processing")
-            if not request:
-                yield "data: " + json.dumps({"error": "Request not found"}) + "\n\n"
-                return
-                
-            while True:
-                status = await self.get_request_status(request_id)
-                if status.get("complete"):
-                    yield "data: " + json.dumps(status) + "\n\n"
-                    break
-                yield "data: " + json.dumps(status) + "\n\n"
-                await asyncio.sleep(0.5)
-                
-        return EventStream(generate())
-
-    async def process_request(self, request_id):
-        """Process a request from the queue."""
-        try:
-            # Move to processing state
-            self.queue.move_request(request_id, "incoming", "processing")
-            request = self.queue.get_request(request_id, "processing")
-            
-            # Actual processing logic here...
-            # This is where we'll implement the graph analysis
-            
-            self.queue.move_request(request_id, "processing", "completed")
-            
-        except Exception as e:
-            self.logger.error(f"Error processing request {request_id}: {str(e)}")
-            self.queue.move_request(request_id, "processing", "failed")
-
-    async def get_request_status(self, request_id):
-        """Get current status of a request."""
-        # This will be expanded based on actual processing logic
-        request = self.queue.get_request(request_id, "processing")
-        if not request:
-            request = self.queue.get_request(request_id, "completed")
-            if request:
-                return {"complete": True, "progress": 100}
-            request = self.queue.get_request(request_id, "failed")
-            if request:
-                return {"complete": True, "error": "Processing failed"}
-            return {"error": "Request not found"}
-        return {"progress": 50, "message": "Processing..."}  # Placeholder
-```````
+```
 
 This gives us:
 
@@ -1601,3 +1519,5 @@ The workflow will be:
 Want me to implement the parameter collection sequence next? It'll use your `StreamSimulator` pattern for smooth transitions between steps.
 
 Enjoy your coffee! ☕
+
+

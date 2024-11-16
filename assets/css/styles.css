@@ -328,7 +328,7 @@ article table img {
 
 /* Rouge syntax highlighting overrides */
 .highlight {
-    background: #0e1117;
+    background: #000000;
     color: #f8f8f2;
     border-radius: 0.5rem;
     padding: 1rem;
