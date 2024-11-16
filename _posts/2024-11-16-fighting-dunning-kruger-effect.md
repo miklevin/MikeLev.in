@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## The Problem Statement
+
 **Me**: I need a way to fill a temporary input parameter queue, step-by-step,
 each step roughly tied to the presentation of a Card() under the current
 FastHTML, PicoCSS, HTMX framework. Cards are added with HTMX, so it behaves like
@@ -32,6 +34,8 @@ make sense to you? Do you see what problem I'm solving with such workflows as
 BotifyLinkGraph? Please state your understanding of what I'm doing, trying to
 accomplish and why including the proposed solution back to me in excruciating
 detail, please and thank you.
+
+## The Solution Analysis
 
 **Claude**: I understand you're trying to solve several interconnected problems in the context of your BotifyLinkGraph workflow application. Let me break down my understanding:
 
