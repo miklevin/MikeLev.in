@@ -1,4 +1,4 @@
-<!-- Generated on 2024-11-15 20:27:15 -->
+<!-- Generated on 2024-11-15 20:31:01 -->
 
 {% raw %}
 
@@ -2386,7 +2386,9 @@ if __name__ == "__main__":
     create_api_graph()
 ```
 
-# All Botify API Endpoints: How Do You Generate a Python Code Example for Every Botify Endpoint Given Their OpenAPI Swagger At https://api.botify.com/v1/swagger.json
+# All Botify API Endpoints: How Do You Generate a Python Code Example for Every Botify Endpoint Given Their OpenAPI Swagger
+
+Botify OpenAPI Swagger File: [https://api.botify.com/v1/swagger.json](https://api.botify.com/v1/swagger.json)
 
 ```python
 # The Arcane Scrolls: API Endpoint Examples
