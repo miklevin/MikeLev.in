@@ -1,4 +1,4 @@
-<!-- Generated on 2024-11-15 21:57:53 -->
+<!-- Generated on 2024-11-16 06:15:10 -->
 
 {% raw %}
 
@@ -2403,10 +2403,12 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     
     lines = [
         "```python",
+        "# Summon the necessary artifacts",
         "import requests",
         "import json",
         "",
         "def example_request():",
+        "\n",
         docstring
     ]
     
@@ -2428,8 +2430,10 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     # Format the URL and parameters
     url = f"url = f'https://api.botify.com/v1{path}'"
     lines.extend([
+        "# Craft the invocation URL",
         url,
         "",
+        "# Prepare the headers for your spell",
         'headers = {',
         '    "Authorization": f"Token {token}",',
         '    "Content-Type": "application/json"',
@@ -2440,6 +2444,7 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
     # Add method-specific code
     if method.lower() in ['post', 'put', 'patch']:
         lines.extend([
+            "# Define the payload for your invocation",
             "data = {",
             '    # Add your request parameters here',
             "}",
@@ -2450,11 +2455,13 @@ def generate_python_example(method: str, path: str, params: Dict, config: Dict, 
         ])
     else:
         lines.extend([
+            "# Cast the spell",
             f"response = requests.{method.lower()}(url, headers=headers)",
             ""
         ])
     
     lines.extend([
+        "# Interpret the response",
         "if response.status_code == 200:",
         "    result = response.json()",
         "    print(json.dumps(result, indent=2))",
@@ -2472,7 +2479,7 @@ def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
         "## The Complete API Grimoire",
         "",
         "Having mastered the arts of BQL, we now document the full spectrum of API invocations.",
-        "Each endpoint is presented with its Python implementation.",
+        "Each endpoint is presented with its purpose, capabilities, and Python implementation.",
         "",
         "### Endpoint Categories",
         ""
@@ -2499,17 +2506,58 @@ def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
         
         for method, path, details in sorted(endpoints_by_tag[tag]):
             description = details.get('description', '')
+            summary = details.get('summary', '')
+            parameters = details.get('parameters', [])
+            responses = details.get('responses', {})
+            
+            # Create a semantic block for LLMs
             md_lines.extend([
                 f"##### {method.upper()} {path}",
                 "",
-                details.get('summary', 'No description provided.'),
+                "**Purpose:**",
+                summary or "No summary provided.",
                 "",
-                generate_python_example(method, path, details, config, description=description, show_config=first_example),
+                "**Detailed Description:**",
+                description or "No detailed description available.",
+                "",
+                "**Parameters Required:**",
+                "```",
+                "\n".join(f"- {p.get('name')}: {p.get('description', 'No description')}" 
+                         for p in parameters) if parameters else "No parameters required",
+                "```",
+                "",
+                "**Expected Responses:**",
+                "```",
+                "\n".join(f"- {code}: {details.get('description', 'No description')}" 
+                         for code, details in responses.items()),
+                "```",
+                "",
+                "**Example Implementation:**",
+                generate_python_example(method, path, details, config, 
+                                     description=description, show_config=first_example),
                 "",
                 "---",
                 ""
             ])
             first_example = False
+    
+    # Add a section specifically for LLM understanding
+    md_lines.extend([
+        "### LLM Guidance",
+        "",
+        "When deciding which endpoint to use:",
+        "1. Consider the category (tag) that matches your task",
+        "2. Review the Purpose and Description to ensure alignment",
+        "3. Check the required parameters match your available data",
+        "4. Verify the expected responses meet your needs",
+        "",
+        "Example prompt format:",
+        '```',
+        'I need to [task description]. I have access to [available data].',
+        'Which endpoint would be most appropriate?',
+        '```',
+        ""
+    ])
     
     return "\n".join(md_lines)
 
@@ -2547,1277 +2595,209 @@ else:
 print(markdown_content)
 ```
 
-<!-- #region jp-MarkdownHeadingCollapsed=true -->
-API documentation generated successfully!
-## The Complete API Grimoire
-
-Having mastered the arts of BQL, we now document the full spectrum of API invocations.
-Each endpoint is presented with its Python implementation.
-
-### Endpoint Categories
-
-#### Analysis Invocations
-
-These endpoints allow you to manipulate analysis aspects of your digital realm.
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}
-
-
-
-```python
+# The Arcane Scrolls: API Endpoint Examples
 import requests
 import json
-def example_request():
-    """Get an Analysis detail"""
+from pathlib import Path
+from typing import Dict, Any
 
-# Your configuration sigil should contain:
-#   - token: Your API token
-#   - org: Your organization ID
-#   - project: Your project ID
-#   - analysis: Your analysis ID
-#   - collection: Your collection ID
-# Load token from secure storage
-with open("botify_token.txt") as f:
-    token = f.read().strip()
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
+def generate_python_example(method: str, path: str, params: Dict, config: Dict, description: str = "", show_config: bool = False) -> str:
+    """Craft a Python invocation example for a given API endpoint"""
+    docstring = f'    """{description}"""\n' if description else ""
+    
+    lines = [
+        "```python",
+        "# Summon the necessary artifacts",
+        "import requests",
+        "import json",
+        "",
+        "def example_request():",
+        "\n",
+        docstring
+    ]
+    
+    if show_config:
+        lines.extend([
+            "# Your configuration sigil should contain:",
+            "#   - token: Your API token",
+            "#   - org: Your organization ID",
+            "#   - project: Your project ID",
+            "#   - analysis: Your analysis ID",
+            "#   - collection: Your collection ID",
+            "",
+            "# Load token from secure storage",
+            'with open("botify_token.txt") as f:',
+            '    token = f.read().strip()',
+            ''
+        ])
+    
+    # Format the URL and parameters
+    url = f"url = f'https://api.botify.com/v1{path}'"
+    lines.extend([
+        "# Craft the invocation URL",
+        url,
+        "",
+        "# Prepare the headers for your spell",
+        'headers = {',
+        '    "Authorization": f"Token {token}",',
+        '    "Content-Type": "application/json"',
+        '}',
+        ''
+    ])
+    
+    # Add method-specific code
+    if method.lower() in ['post', 'put', 'patch']:
+        lines.extend([
+            "# Define the payload for your invocation",
+            "data = {",
+            '    # Add your request parameters here',
+            "}",
+            "",
+            "# Cast the spell",
+            f"response = requests.{method.lower()}(url, headers=headers, json=data)",
+            ""
+        ])
+    else:
+        lines.extend([
+            "# Cast the spell",
+            f"response = requests.{method.lower()}(url, headers=headers)",
+            ""
+        ])
+    
+    lines.extend([
+        "# Interpret the response",
+        "if response.status_code == 200:",
+        "    result = response.json()",
+        "    print(json.dumps(result, indent=2))",
+        "else:",
+        "    print(f'Error: {response.status_code}')",
+        "    print(response.text)"
+    ])
+    
+    lines.append("```")
+    return "\n".join(line for line in lines if line)
+
+def generate_markdown(spec: Dict[str, Any], config: Dict[str, str]) -> str:
+    """Inscribe the complete API grimoire"""
+    md_lines = [
+        "## The Complete API Grimoire",
+        "",
+        "Having mastered the arts of BQL, we now document the full spectrum of API invocations.",
+        "Each endpoint is presented with its purpose, capabilities, and Python implementation.",
+        "",
+        "### Endpoint Categories",
+        ""
+    ]
+    
+    endpoints_by_tag = {}
+    for path, methods in spec['paths'].items():
+        for method, details in methods.items():
+            if method == 'parameters':
+                continue
+            tag = details.get('tags', ['Untagged'])[0]
+            if tag not in endpoints_by_tag:
+                endpoints_by_tag[tag] = []
+            endpoints_by_tag[tag].append((method, path, details))
+    
+    first_example = True
+    for tag in sorted(endpoints_by_tag.keys()):
+        md_lines.extend([
+            f"#### {tag} Invocations",
+            "",
+            f"These endpoints allow you to manipulate {tag.lower()} aspects of your digital realm.",
+            ""
+        ])
+        
+        for method, path, details in sorted(endpoints_by_tag[tag]):
+            description = details.get('description', '')
+            summary = details.get('summary', '')
+            parameters = details.get('parameters', [])
+            responses = details.get('responses', {})
+            
+            # Create a semantic block for LLMs
+            md_lines.extend([
+                f"##### {method.upper()} {path}",
+                "",
+                "**Purpose:**",
+                summary or "No summary provided.",
+                "",
+                "**Detailed Description:**",
+                description or "No detailed description available.",
+                "",
+                "**Parameters Required:**",
+                "```",
+                "\n".join(f"- {p.get('name')}: {p.get('description', 'No description')}" 
+                         for p in parameters) if parameters else "No parameters required",
+                "```",
+                "",
+                "**Expected Responses:**",
+                "```",
+                "\n".join(f"- {code}: {details.get('description', 'No description')}" 
+                         for code, details in responses.items()),
+                "```",
+                "",
+                "**Example Implementation:**",
+                generate_python_example(method, path, details, config, 
+                                     description=description, show_config=first_example),
+                "",
+                "---",
+                ""
+            ])
+            first_example = False
+    
+    # Add a section specifically for LLM understanding
+    md_lines.extend([
+        "### LLM Guidance",
+        "",
+        "When deciding which endpoint to use:",
+        "1. Consider the category (tag) that matches your task",
+        "2. Review the Purpose and Description to ensure alignment",
+        "3. Check the required parameters match your available data",
+        "4. Verify the expected responses meet your needs",
+        "",
+        "Example prompt format:",
+        '```',
+        'I need to [task description]. I have access to [available data].',
+        'Which endpoint would be most appropriate?',
+        '```',
+        ""
+    ])
+    
+    return "\n".join(md_lines)
+
+# First, ensure we have our token
+if not Path("botify_token.txt").exists():
+    print("Please run the authentication cell first to create your token file.")
 else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
+    # Load token
+    with open("botify_token.txt") as f:
+        token = f.read().strip()
+    
+    # Use existing configuration from earlier cells
+    config = {
+        "token": token,
+        # These will be used as placeholders in examples
+        "org": "{org_id}",
+        "project": "{project_id}",
+        "analysis": "{analysis_id}",
+        "collection": "{collection_id}"
+    }
+    
+    # Fetch the API specification
+    try:
+        response = requests.get("https://api.botify.com/v1/swagger.json", 
+                              headers={"Authorization": f"Token {token}"})
+        spec = response.json()
+        
+        # Generate and display the markdown
+        markdown_content = generate_markdown(spec, config)
+        print("API documentation generated successfully!")
+        
+        # The markdown content will be rendered in the next cell
+    except Exception as e:
+        print(f"Error fetching API specification: {e}")
+print(markdown_content)
 
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Return global statistics for an analysis"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Return crawl statistics grouped by time frequency (1 min, 5 mins or 60 min) for an analysis"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/time'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Return a list of 1000 latest URLs crawled (all crawled URLs or only URLS with HTTP errors)"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/crawl_statistics/urls/{list_type}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}
-
-Legacy
-
-```python
-import requests
-import json
-def example_request():
-    """Legacy    List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/ganalytics/orphan_urls/{medium}/{source}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get inlinks percentiles"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/links/percentiles'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Lost pagerank"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/pagerank/lost'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Scoring summary"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/scoring/summary'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List clicks and impressions per day"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/search_console/stats'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get global information of the sitemaps found (sitemaps indexes, invalid sitemaps urls, etc.)"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/report'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Sample list of URLs which were found in your sitemaps but outside of the crawl perimeter defined for the project, for instance domain/subdomain or protocol (HTTP/HTTPS) not allowed in the crawl settings."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/out_of_config'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Sample list of URLs which were found in your sitemaps, within the project allowed scope (allowed domains/subdomains/protocols), but not found by the Botify crawler."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/sitemaps/samples/sitemap_only'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Top domains"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/domains'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Top subddomains"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List of Orphan URLs. URLs which generated visits from the selected source according to Google Analytics data, but were not crawled with by the Botify crawler (either because no links to them were found on the website, or because the crawler was not allowed to follow these links according to the project settings).   For a search engine (medium: origanic; sources: all, aol, ask, baidu, bing, google, naver, yahoo, yandex) or a social network (medium: social; sources: all, facebook, google+, linkedin, pinterest, reddit, tumblr, twitter)"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/features/visits/orphan_urls/{medium}/{source}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/segments
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get the segments feature public metadata of an analysis."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/segments'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Return an object containing all robots.txt files found on the project's domains. The object is null for virtual robots.txt."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Return content of a robots.txt file."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/staticfiles/robots-txt-indexes/{robots_txt}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Gets AI suggestions of an URL for an analysis"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/ai/{url}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Gets an Analysis datamodel"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Gets Analysis Datasets"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/datasets'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """A list of the CSV Exports requests and their current status"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Checks the status of an CSVUrlExportJob object. Returns json object with the status."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Gets the HTML of an URL for an analysis"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/html/{url}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Gets the detail of an URL for an analysis"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Executes a query and returns a paginated response"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Query aggregator. It accepts multiple queries and dispatches them."""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /analyses/{username}/{project_slug}/{analysis_slug}/urls/export
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Creates a new UrlExport object and starts a task that will export the results into a csv. Returns the model id that manages the task"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/{analysis_slug}/urls/export'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### Collections Invocations
-
-These endpoints allow you to manipulate collections aspects of your digital realm.
-
-##### GET /projects/{username}/{project_slug}/collections
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all collections for a project"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /projects/{username}/{project_slug}/collections/{collection}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get the detail of a collection"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/collections/{collection}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### Datasource Invocations
-
-These endpoints allow you to manipulate datasource aspects of your digital realm.
-
-##### GET /users/{username}/datasources_summary_by_projects
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get the datasources details for all projects of a user"""
-
-url = f'https://api.botify.com/v1/users/{username}/datasources_summary_by_projects'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### Job Invocations
-
-These endpoints allow you to manipulate job aspects of your digital realm.
-
-##### GET /jobs
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List All jobs"""
-
-url = f'https://api.botify.com/v1/jobs'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /jobs/{job_id}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Retrieve one job"""
-
-url = f'https://api.botify.com/v1/jobs/{job_id}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /jobs
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Creates a job instance of a class which depends on the "job_type" parameter you sent. Returns the model id that manages the task."""
-
-url = f'https://api.botify.com/v1/jobs'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### Project Invocations
-
-These endpoints allow you to manipulate project aspects of your digital realm.
-
-##### GET /analyses/{username}/{project_slug}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all analyses for a project"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /analyses/{username}/{project_slug}/light
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all analyses for a project (light)"""
-
-url = f'https://api.botify.com/v1/analyses/{username}/{project_slug}/light'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /projects/{username}/{project_slug}/filters
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all the project's saved filters (each filter's name, ID and filter value)"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /projects/{username}/{project_slug}/filters/{identifier}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Retrieve a specific project saved, account or recommended filter's name, ID and filter value"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/filters/{identifier}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /projects/{username}/{project_slug}/saved_explorers
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all the project's Saved Explorers."""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/saved_explorers'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /pulse_website/{pulse_website_id}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Get project informations with a website id from pulse"""
-
-url = f'https://api.botify.com/v1/pulse_website/{pulse_website_id}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### GET /users/{username}/projects
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all active projects for the user"""
-
-url = f'https://api.botify.com/v1/users/{username}/projects'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /projects/{username}/{project_slug}/query
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Query collections at a project level."""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/query'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /projects/{username}/{project_slug}/urls/aggs
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Project Query aggregator. It accepts multiple queries that will be executed on all completed analyses in the project"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/urls/aggs'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-##### POST /projects/{username}/{project_slug}/values_list/clone
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """Clone all keyword groups of the current project to another one.  This endpoint is a little more general (for further use). That's why you will see a 'type' field (with a default value of: 'keywords')."""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/values_list/clone'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-data = {
-    # Add your request parameters here
-}
-# Cast the spell
-response = requests.post(url, headers=headers, json=data)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### ProjectQuery Invocations
-
-These endpoints allow you to manipulate projectquery aspects of your digital realm.
-
-##### GET /projects/{username}/{project_slug}/account_filters
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all the account saved filters"""
-
-url = f'https://api.botify.com/v1/projects/{username}/{project_slug}/account_filters'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-#### User Invocations
-
-These endpoints allow you to manipulate user aspects of your digital realm.
-
-##### GET /projects/{username}
-
-
-
-```python
-import requests
-import json
-def example_request():
-    """List all active projects for the user"""
-
-url = f'https://api.botify.com/v1/projects/{username}'
-headers = {
-    "Authorization": f"Token {token}",
-    "Content-Type": "application/json"
-}
-response = requests.get(url, headers=headers)
-if response.status_code == 200:
-    result = response.json()
-    print(json.dumps(result, indent=2))
-else:
-    print(f'Error: {response.status_code}')
-    print(response.text)
-```
-
----
-
-<!-- #endregion -->
 
 LLM looks up and says: "I know Kung Fu... no wait, I know BQL."
 {% endraw %}
