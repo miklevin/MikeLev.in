@@ -14,7 +14,8 @@ with the convenience of web technologies, but I need to enlist some AI help to
 untangle the complexities I'm trying to avoid. In short, I'm hiding complexity
 under a terrifically beautiful FastHTML no-build veneer. It takes great
 advantage of running on your desktop, and is not going to be easy to web host.
-Sometimes the best way to move forward is to go against the grain.
+Sometimes the best way to move forward is to go against the grain. Oh yeah, and
+it's definitely beyond my skill-level, and thus the title of the article.
 
 ## The Problem Statement
 
