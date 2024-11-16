@@ -1,7 +1,7 @@
 ---
 title: OpenAPI Swagger JSON to Python Code Examples
 permalink: /openapi-swagger-json-to-python/
-description: 
+description: I'm building a cutting-edge web framework with HTMX, Nix Flakes, and AI, aiming for a future-proof development experience. It's about user empowerment, skill amplification, and shaping SEO's future. Come along for the ride!
 layout: post
 sort_order: 1
 ---
@@ -12,21 +12,29 @@ Here's an opening paragraph that captures the essence of your current endeavors:
 
 > In the whirlwind of building a cutting-edge web framework, sometimes the final mile feels like a marathon. Between chasing milestones, dodging rabbit holes, and keeping those spinning plates aloft, it's easy to get lost in the weeds. But amidst the chaos, there's a thrilling clarity: the convergence of HTMX, Nix Flakes, and AI is forging a path toward a future-proof web development experience. This isn't just about building cool tech; it's about empowering users, amplifying skills, and shaping the future of SEO. So let's dive into the trenches, embrace the iterative process, and see where this wild ride takes us.
 
+## The Sprint's Final Mile
+
 I tried to make yesterday's post about the final mile in the sprint to finish
 this AI-infused Web Framework, but failed. I got trapped in the rabbit hole of
 describing what I was doing in order to find the next (and final) steps, and
 failed to actually perform the next and final steps. 
+
+### The Polish vs Progress Dilemma
 
 Progressive polishing. You want the last thing polished before moving onto the
 next thing, so you don't leave a trail of imperfect things that you need to go
 back and polish. But that's a violation of the 80/20-rule. I've got to do rapid
 rounds of minimum viable product 1st-round passes.
 
+### Banking No-Takeback Wins
+
 I am in the mode of going as late and long as I have to in order to achieve
 milestones and to bank no-takeback wins. No takeback wins are really on another
 level now, with... well, don't jump down another whole making this article about
 them. But they do matter, so do a quick enumeration, then do your daily metaphor
 evaluations...
+
+### The Power of FastHTML/HTMX
 
 FastHTML / HTMX means Web Dev is more tied to the timeless spec of HTML, and
 therefore more things webdev qualify under the future-proofing safe harbors I
@@ -35,6 +43,8 @@ just a light sprinkling of JavaScript necessary to enable the HTMX tricks, and
 those can be remapped easily over the years. Web is fundamental once again (as
 opposed to fad) and that's a giant relief. That makes advancements in this new
 web framework stuff I'm doing advancements for life.
+
+### Nix Flakes: Beyond Docker and VMs
 
 All my work is based on Nix Flakes as a platform. This is not Docker-based. This
 is not VM-based. This is better. This is what people will migrate towards once
@@ -45,6 +55,8 @@ running on your system and learn how to use it, and that's cognative drain...
 and then if you have to compose, oh boy! With Nix, it's just run a script. And
 if not Nix, the GNU guix which is fine too. Whole hardware systems are like
 magical incantations. The die has been cast, and I'm on that bandwagon. 
+
+### The AI Revolution in APIs
 
 Those are two big things that lined up and that are keeping me motivated and
 pumped up. Don't let this become an article all about the future-proofing tricks
@@ -60,6 +72,8 @@ laptop (and soon, phones) to of course the big models. This might sound abstract
 and weird, but trust me, it's what turns the gift of gab these LLMs have into
 hard-nosed blue collar workers. You can teach them how to operate equipment.
 
+### The Beauty of Concrete Thinking
+
 And what's perhaps most important about these above things is that the level of
 difficulty is within the realm of mere mortals like me. I may sound all smart
 and stuff, but really those higher levels of mathematics do consistently defeat
@@ -73,6 +87,8 @@ and so I'm basically ruined for calculus. But in Python, I can use the `/`
 symbol for division or for appending paths, because I can see `from pathlib
 import Path`, and that makes all the difference.
 
+### Finding Clear Direction
+
 So I clearly have a path. And my path is clear. These are not the same things as
 surely as saying "I see what I eat" is not the same as "I eat what I see." And
 now, at last, things are coming together for me - or should I say, they're
@@ -85,6 +101,8 @@ of feedback from the folks whose opinions matter. Don't spring surprises on
 anyone. Don't actually bother making a product spec or you make the project
 vulnerable to nattering nabobs who pee on turf, but also don't go off half
 cocked with a kooky products that can be invalidated with a few words. 
+
+### The Art of Customer Success
 
 Gather lots of feedback and win consensus and buy-in along the way. Don't let
 anyone turn you into the Powerpoint and agendas jockey they want you to be. It's
@@ -100,6 +118,8 @@ they do and try to spread the misery need to feel the passion... be given a path
 to empathy for my craft-oriented position. Those link graphs... yeah, there's
 really no better example. I always have to put those at the front.
 
+### The Power of Link Graphs in SEO
+
 So, the first step of an Instant SEO Audit is something nobody else can do. And
 that's visualizing vastly huge link-graphs with all the accompanying
 color-coding techniques that make them useful as CAT-scan-like images for
@@ -112,6 +132,8 @@ bird's-eye view that layers in GSC, Analytics, Web-log, and even competitor data
 is what people expect from us and pumps up my unique value. It an intuitively
 understandable SWOT analysis at-a-glance. I'd be crazy to not double down on
 this. The iron is so friggin hot.
+
+### Beyond the Link Graph
 
 It's just that it can't be ALL ABOUT the link-graph. It can be all related to
 the link-graph though. For everything I report on, there can be a link-graph
@@ -128,6 +150,8 @@ really ***look like*** on the link-graph. Flip the script.
 > Be brave and bold, and don't delay.  
 > That thing to-do, you do today!  
 
+## Building Auto-Audits Through Incremental Progress
+
 Remember, you get to these auto-audits not through big holy missions and
 all-nighters, but by a steady flow of that next little thing you do - the
 constant, steady chipping away especially in light of the new no-takebacks
@@ -138,11 +162,15 @@ It's okay to free associate a bit. Even just putting it all here will help you
 with your AI summaries later, and remember material you want to write about when
 you're not in the middle of one of the great professional sprints of your life.
 
+### Strategic Priorities
+
 So, those chisel-strikes? What's most broken, where's the biggest bang for the
 buck, and what plates need to be spun?
 
 The spinning plates is keeping the clients happy, for sure. All the Peter
 Drucker stuff. Without that, the paychecks stop, so keep clients happy.
+
+### The Real Opportunity
 
 What's most broken ***AND*** where you get the biggest bang for the buck is the
 same thing. It's not *the ghost in the machine* as it may get derogatorily
@@ -153,6 +181,8 @@ orders, that's clear. These consumer-oriented consumption-compelling monsters
 are going to get all the attention, but the big wins I think may be getting
 behind the scenes with how that particular trick is done to have more control
 and to use it in unexpected and novel ways. That's the blue ocean.
+
+### UI and Automation Insights
 
 UI nuance (ugh!) of automated workflows that don't really need an AI, but its
 presence helps a lot. But without being annoying like Microsoft Clippy. They had
@@ -167,6 +197,8 @@ bang for the buck brings me to this line of reasoning. The iron is very, very
 hot. The world has been preconditioned for this stuff. There's a lot of
 potential to release.
 
+### The Alignment Strategy
+
 This is a place where I can have a lot of impact as one little player with a
 slightly different take than everyone else resulting in the release of far
 greater potential than anyone saw coming. That's why aligning Nix Flakes, HTMX
@@ -178,10 +210,14 @@ and Adhoc AI Contracts is so important. These three things align the best...
 
 BAM! Now make it happen.
 
+### The Sprint to Success
+
 Get to the finish-line of this sprint like your life depended on it.
 
 It's like the rolling audit concept, but it's the rolling rollout of the rolling
 audit, able to be demonstrated at any time.
+
+### Action Items and Progress
 
 Okay, you have Pagetype color-coding of the link-graph. That's huge. That alone
 is such a big win. True biggest bang for the buck criteria. Now work out the UI
@@ -196,11 +232,15 @@ less controversial language. The Neo Kung Fu download.
 - A seed Row & Column data deliverable to start spiraling out from (Gap Analysis)
 - A seed PDF-generating Dashboard-like deliverable to start spiraling out from (URGENT!)
 
+### Core Development Focus
+
 Uh yeah, so what's most broken is clearly not even having a starting seed for
 the dashboard-like component which I'm seeing now can and should be delivered as
 a PDF, as web app-like as it may be, I just can't bring the hosting piece to the
 picture myself. Maybe later, once it's tech-team supported, but right now, it's
 in single-user mode and on the fast track because of it.
+
+### Screen Architecture
 
 So the trick is to re-anchor and re-ground yourself quickly. Find your way to
 your two anchors: beginning and end. Left and right. Screen 1 and Screen 7. This
@@ -208,6 +248,8 @@ attempt to go to Screen 9 is completely undermining. Make it work in 7 screens.
 That's just right. One in the middle. One on either end. The set of screens
 that's the 1-bounce off either end. That just leaves 2 wild-card locations, and
 this is a good model.
+
+### LLM Architecture Considerations
 
 Oh, on the "most broken" front, I should probably consider making the Python
 dict-style memory for the local LLM. All that general broad knowledge, you can
@@ -222,6 +264,8 @@ should really (only?) occur when you switch to the task app. Otherwise, it's
 focus that could be better applied to engaging the user in the broad discussion
 of getting to know the domain expertise and workflows they're about engage in.
 
+### Weekend Planning and Vision
+
 Yeah, wow. Okay, so there's a powerful introductory phase. Is this what's most
 broken, or am I going down a rabbit hole? What about the UI polish? It's Friday,
 and I'm going into a friggin weekend with most of the core functionality done,
@@ -230,12 +274,16 @@ form. So man of the chisel stripes up to now have been these rough cuts of the
 stone. These broad foundational pieces, like how do you blend a local LLM and a
 CRUD system. But now that they're blended... hmmm.
 
+## Canning the Experience
+
 I can make what would be a rabbit hole into the hottest and most important
 experience I need to can for everyone. One that demonstrates the ad hoc domain
 expertise and makes someone expert enough in the audit they're about to produce.
 Reduce something that may be a week's worth of work into a day. Fast track them
 on a wild ride through Wonderland. It's like a Disneyland ride. Poo's wild ride
 through the heffalumps... hmmm.
+
+### The Four Pillars
 
 So, I am planning...
 
@@ -246,6 +294,8 @@ So, I am planning...
 
 I am canning a product that cans a product that cans a product.
 
+### Training Through AI
+
 Me and my LLM train a human and put that human on a rigid set of rails. I am
 motivating that human to do pieces that the AI itself can't do.
 
@@ -253,6 +303,8 @@ At some point I'll be asking them whether they have an access to SEMRush for
 example, then will walk them through a process that integrates downloaded
 SEMRush data, but there will be no actual API integration. The human that I'm
 operating through the LLM will be performing the downloads.
+
+### Operating Humans Through LLMs
 
 I am operating human's through an LLM?
 
@@ -263,6 +315,8 @@ step by step method and something that steps forward to do the prescribing. So
 it's not really operating humans so much as it is illuminating the path of
 seekers on journeys they want to take. That's one of those key realizations
 right there that's going to color this weekend's work.
+
+### The Algorithm's Push
 
 I mean society is a lot like that already. I'm just calling the kettle black. I
 mean it's not hypocrisy so much as formalizing something that's done all around
@@ -277,6 +331,8 @@ entertainment in exchange for an advertiser putting their wares in front of you.
 Quid pro quo. It's a fair deal. Most of us participate, and if there was more
 reason to complain, there'd be less of it. We're rolling with human nature.
 
+### The Other Side
+
 Perhaps you want to be on the other side of that, and compel other people to do
 your bidding. In the past, you'd have to be an author and write an influential
 book. Or maybe become a politician and leader. There's the wealthy business
@@ -284,15 +340,21 @@ tycoon route where you could have enough money to outright pay people to do your
 bidding. More recently, you could learn video editing and become a YouTuber,
 Instagram or TikTok influencer. 
 
+### Weekend Work Ahead
+
 I have got a very interesting weekend of work coming up after this meeting. I'm
 still quite exhausted, getting almost no sleep lately, but still I am motivated
 and the iron is hot. Take a few chisel strikes before catching up on sleep.
 Start doing iterative passes.
 
+### Interactive Client Sessions
+
 Lessons on how to yield insights during interactive worksessions in front of
 clients. You want to look for relationships between what you're looking at here
 and the nagivational experience of the site. Ultimately the goal is to look at
 one of these link-graphs and infer everything about the site.
+
+### RAG and Site Navigation
 
 Most specifically the journey from the homepage, drilling down through topics in
 the same way that 2nd-stage AI-powered RAG lookup works - retrieval augmented
@@ -302,6 +364,8 @@ separation, or small-world theory. And even if it's not, this is how your sites
 are crawled to harvest the data for the old fashioned web search, so the same
 rules regarding logical drill-down paths apply.
 
+### Friday Reflections
+
 Wow, okay, that meeting is behind me. This is the most important and valuable
 sort of time, end of meetings on a Friday going into the weekend. As hard as
 I've pushed myself lately, it's time for the warm-up.
@@ -310,6 +374,8 @@ So much of life is knowing what to do why, when and how. And that's where a
 local-LLM-infused web framework comes into play. It can be built into a very
 single-purpose app and drive you along a mostly linear process teaching you
 about steps along the way.
+
+### Code Review Time
 
 Mulling over my most important piece of code after having worked out the
 long-running job simulator nuanced UI issues like locking and unlocking
@@ -373,17 +439,24 @@ Which direction interests you most? We can take our time and do this right!
 
 ---
 
+## The Journey to BQL Mastery
+
+### The Challenge
 Takes deep breath. I am chipping away at the progressive hurdles on my most
 important part of this project, the link-graph. For it to be new levels of
 awesome, and transformative at my job and for my role, I need to be even better
 at BQL, and... and... well, I'm doing it somewhat blindly with the queries in a
-server file. I need it in Jupyter Notebook again, or maybe Cursor AI but outside
+server file.
+
+### The Solution Path
+I need it in Jupyter Notebook again, or maybe Cursor AI but outside
 the server file. And so I need isolated code snippets of BQL queries that are
 functionally like what I'm used to pasting in Jupyter code-blocks. So I need to
 save them out in fully self-contained and runnable blips. Oh, I can even
 eliminate the copy/pasting if I save ready-to-run log files containing the
 queries, python imports and all as .py files. Hmmm. Oh, Mr. Genie Claude...
 
+### The Request
 Me to Claude in Cursor AI: I'm writing an article describing what I'm doing here. Help me explain to the nice folks your understanding of what I'm doing here. The whole big picture and the finer details of the recent stuff from logging to queries to notebook to kata back to queries and logging again. You can go into grisly detail with code examples of all the various parts, please and thank you! Go for as long as you can.
 
 Claude: Here's a detailed explanation of this BQL mastery system:
@@ -584,18 +657,24 @@ Would you like me to expand on any part of this system or provide more code exam
 
 ---
 
+## The Power of LLM Hacking
+
+### Opening the Black Box
 The LLM should be all like would you like to crack me open and hack me? Alter my
 workflows and system prompts. Write new domain expertise series of hot prompts.
 Write the Neo Kung Fu downloads. 
 
+### The HTMX + LLM Revolution
 The union of HTMX anything talks to anything model combined with LLM system
 prompts that can be like a Neo Kung Fu download is significant. The fact that
 you can avoid the expense of training or even fine tuning a model by injecting a
 lifetime of subject-matter training at the moment of menu-selection in a piece
 of software is significant.
 
+### Back to Botify
 Okay, I have to cover more of the Botify API... Gemini?
 
+### Gemini's Response
 Gemini: It's awesome that you're building a BQL reference kata! This will be super helpful for anyone learning to use Botify's API. Here are some ideas to make your kata even more comprehensive and user-friendly:
 
 ### 1. Organize Queries by Use Case
@@ -645,6 +724,8 @@ By incorporating these ideas, you can create a BQL reference kata that is not on
 
 ---
 
+## Project Status Update
+
 Okay, done. My Botify BQL Kata file, while not perfect because not every example
 really is stand-alone nor tested yet, is comprehensive with endpoint coverage
 being generated directly from the OpenAPI swagger.json feed as it is. It's time
@@ -652,11 +733,15 @@ to get onto the next thing that's most broken, which clarified for me from a
 good night's sleep, a project that will help me finish the link-graph remaining
 UI polishing bits and pay back massively moving forward.
 
+## OpenAPI to Python Code Generator
+
+### Overview
 For posterity, here's my final (so far) code for going from OpenAPI swagger JSON
 to Python code examples to provide full endpoint coverage of the Botify API to
 the frontier model LLMs like Claude, Gemini, ChatGPT, Perplexity and whoever
 else out there that's scraping this that I missed.
 
+### Visual Representation
 First a PNG image of the Botify API...
 
 ```python
@@ -721,6 +806,7 @@ if __name__ == "__main__":
     create_api_graph()
 ```
 
+### The Python Code Generator
 ...and then the code that creates the Python code examples...
 
 ```python
