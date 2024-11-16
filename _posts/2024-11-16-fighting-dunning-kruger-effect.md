@@ -1472,7 +1472,7 @@ Claude: *smiles knowingly at the per-sistence pun*
 
 Ah, now I see the full picture! Let's integrate `WebAngiogram` into your plugin architecture. We'll start by adding it to the menu and creating its initial card that sets up the workflow:
 
-````````python:botifymograph/botifymograph.py
+````````python
 # Add to MENU_ITEMS
 MENU_ITEMS = ["introduction", todo_app.name, 'link_graph', 'gap_analysis', 'stream_simulator', 'web_angiogram']
 
