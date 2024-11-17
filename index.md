@@ -32,7 +32,7 @@ group: home
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is free ***future-proofing*** minimal tech-stach for life making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***, edit at the speed of thought and the world is your 🦪. Sprinkle-in fully reproducible 🐧 systems in any 🍎 or 🪟 sub-folder (without the 🐳) by using ⛏️ nix or 🦬 guix, and suddenly any tech infrastructure imaginable is simply hydrating one git repo away. Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you.
+**[LPvg](/LPvg/)** is free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Sprinkle-in fully reproducible 🐧 systems in any 🍎 or 🪟 sub-folder (without the 🐳) by using ⛏️ nix or 🦬 guix, and suddenly any tech infrastructure imaginable is simply hydrating one git repo away. Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you. This is the fully FOSS vendor-neutral world I'm talking about folks, where 🤖 will only make you 💪.
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
