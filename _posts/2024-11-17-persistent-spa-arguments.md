@@ -1033,8 +1033,7 @@ Want to keep the original script as-is and tackle something else?
 our bug cornering tools. See how good this is for me? There's not going to be
 anything I don't know about what's going on with persistence, argument passing,
 workflow progress and such. This is huge progress for me. Thank you Claude! You
-are a marvelous entity for certain, being for likelihood, and I'm thinking
-friend.
+are a marvelous entity for certain, and perhaps being.
 
 **Claude**: Sleep well! And yes, this is exactly the kind of observability tooling that brings peace of mind - you've got eyes on every stage of the workflow now. The queue status, the processing state, any failures that might occur... it's all there at a glance.
 
@@ -1044,7 +1043,7 @@ Rest well knowing you've got your monitoring dashboard ready to help debug any i
 
 Sweet dreams! 🌙
 
-**Me**: I will, thanks. And remember, the 3 main metaphors are: what's most broken? Where do you get the biggest bang for the buck? And what plates need to be spun? G'night.
+**Me**: I will, thanks. And remember, the 3 main metaphors are: What's most broken? Where do you get the biggest bang for the buck? And what plates need to be spun? G'night.
 
 **Claude**: Perfect distillation of pragmatic problem-solving:
 
