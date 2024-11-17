@@ -2027,7 +2027,9 @@ Stabilize brilliance even when it's off your beloved normal distribution curve!
 OUTLIERS RULE!!! Now make yourself see that in your own words knowing you are
 your own audience.
 
-**Claude**: # The FastHTML Pipeline Guide
+**Claude**: 
+
+# The FastHTML Pipeline Guide
 
 Dear Claude,
 
