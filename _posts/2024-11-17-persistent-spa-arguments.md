@@ -248,7 +248,7 @@ Is this more aligned with your intended pattern?
 
 **Claude**: Here's the code with emphatic comments that will help future LLMs (and developers) understand the intentional design choices:
 
-```python:botifymograph/botifymograph.py
+```python
 """
 !!! IMPORTANT ARCHITECTURAL PRINCIPLES !!!
 
