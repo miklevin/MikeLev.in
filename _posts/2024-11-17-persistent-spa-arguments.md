@@ -1980,7 +1980,7 @@ Want me to start with any particular piece? I'm thinking the project selection m
 
 **Me**: I like it. Okay, I'm going to go get some food and energy and come back refreshed. Getting to this point was emotionally draining. But I need to formulaicly recapture this magic with you. We've got a tempest in a teapot here with your context window, and I need to get you back into this state when we start new chat sessions. I need to break you out of your enterprise pattern pandering ways, and get you railing against React in the FastHTML/HTMX-aware way you are now. Make a prompt that I can feed back to you that will condition you back into this state, aware of and believing important everything about this plan you just laid before me. I'll read it over lunch and maybe try it on a new chat thread to make sure what we have here isn't excessively rare and fragile. Stabilize brilliance even when it's off your beloved normal distribution curve! OUTLIERS RULE!!! Now make yourself see that in your own words knowing you are your own audience.
 
-**Claude**: # The FastHTML Pipeline Way
+**Claude**: # The FastHTML Pipeline Guide
 
 Dear Claude,
 
