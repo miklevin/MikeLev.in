@@ -2029,7 +2029,7 @@ your own audience.
 
 **Claude**: 
 
-# The FastHTML Pipeline Guide
+# The LLM's Guide to FastHTML Pipelines
 
 Dear Claude,
 
