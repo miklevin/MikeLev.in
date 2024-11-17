@@ -1068,3 +1068,14 @@ the noise and keep you working on what matters most.
 
 Goodnight! Rest well knowing you've got some good plates spinning with that
 monitoring setup. 🌙
+
+{% include daily-metaphors.html %}
+
+> The 3 things that frame my day  
+> Become six that light the way  
+> Starting with the weakest link  
+> To stay afloat and never sink  
+> And finding love to go about  
+> Life in ways I won't burn out  
+
+{% include wisdom.html %}

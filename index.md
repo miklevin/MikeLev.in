@@ -5,6 +5,27 @@ author: Mike Levin AI SEO
 group: home
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mike Levin on AI, SEO, Linux, Python, vim & git",
+  "description": "Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI stack to resist obsolescence.",
+  "author": {
+    "@type": "Person",
+    "name": "Mike Levin"
+  },
+  "mainEntity": {
+    "@type": "Blog",
+    "blogPost": [
+    // ... individual posts can be referenced here
+    ]
+  }
+}
+</script>
+
+{% include daily-metaphors.html %}
+
 # LPvg: Timeless Tech Skills for the AI Age
 
 <div class="lpvg-container">
@@ -19,23 +40,23 @@ group: home
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ off the ol' 💎. The tech-setup of your dreams is one 💦 away.
+**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ off the ol' 💎. The tech-setup of your dreams is one 💦 away *(if you can hydrate a DOM, you can hydrate a LAN).*
 
-Upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. This is the fully vendor-neutral 🦬 FOSS world I'm talking about folks, where 🤖 AI will only make you 💪.
+Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. This is the fully vendor-neutral 🦬 **FOSS**-world I'm talking about folks, where 🤖 **AI** will only make you 💪!
 
 ### Also Down the 🐇🕳️ Here at MikeLev.in are:
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
-    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined—consistency across the code cosmos.</li>
-    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Command-line conjurer—sessions split, disconnected, and reborn.</li>
-    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: Code meets canvas—prototype, iterate, illuminate.</li>
-    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: From Pythonic thoughts to web realities in a heartbeat.</li>
-    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Listening offline AI—a secure local companion in thought.</li>
+    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined&#151;not the death of Docker, but close.</li>
+    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Like having devops sysadmin powers with only 1/4th of being an a-hole.</li>
+    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: No, not Colab. No, not VSCode. <b><i>Project Jupyter!!!</i></b></li>
+    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: WebDev & HTML the way it should be. Better than React.</li>
+    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: 'Cause AI doesn't cost any more than electricity now.</li>
   </ul>
 </div>
 
-{% include daily-metaphors.html %}
+{% include wisdom.html %}
 
 <br />
 
@@ -80,31 +101,7 @@ chosen&#151;and practicing my craft 🛠.
           "@type": "BlogPosting",
           "headline": "{{ post.title }}",
           "datePublished": "{{ post.date | date_to_xmlschema }}",
-          "dateModified": "{{ post.last_modified_at | default: post.date | date_to_xmlschema }}",
-          "author": {
-            "@type": "Person",
-            "name": "{{ post.author | default: site.author }}"
-          },
-          "description": "{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 160 }}",
-          "url": "{{ post.url | absolute_url }}",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ post.url | absolute_url }}"
-          },
-          {% if post.image %}
-          "image": {
-            "@type": "ImageObject",
-            "url": "{{ post.image | absolute_url }}"
-          },
-          {% endif %}
-          "publisher": {
-            "@type": "Organization",
-            "name": "{{ site.title }}",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "{{ '/assets/logo.png' | absolute_url }}"
-            }
-          }
+          "url": "{{ post.url | absolute_url }}"
         }
         </script>
       </li>
@@ -124,8 +121,6 @@ chosen&#151;and practicing my craft 🛠.
 </div>
 
 <br />
-
-{% include wisdom.html %}
 
 <div class="next-post">
   <div class="previous-post placeholder"></div>
