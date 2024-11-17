@@ -1,7 +1,7 @@
 ---
 title: On Fighting the Dunning-Kruger Effect
 permalink: /fighting-dunning-kruger-effect/
-description: 
+description: Fighting the Dunning-Kruger effect and trying to actually be that good while building a simple yet powerful web app with a unique architecture. Learn how AI helps combine the best of old-school desktop apps with modern web technologies.
 layout: post
 sort_order: 1
 ---
