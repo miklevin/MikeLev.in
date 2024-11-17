@@ -390,7 +390,7 @@ Now future-me should understand to lean into the filesystem-based debugging appr
 
 **Claude**: [A whole bunch of fubar]
 
-**Me**: all that and you can't just `await chatq("Message to LLM")`? WTF?
+**Me**: All that and you can't just `await chatq("Message to LLM")`? WTF?
 
 **Claude**: Ah, I massively overcomplicated it! You're absolutely right. For a simple LLM chat interaction, we just need:
 
