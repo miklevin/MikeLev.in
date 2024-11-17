@@ -494,8 +494,8 @@ ol li .post-date {
   justify-content: space-between;
   align-items: stretch; /* Changed from flex-start to stretch */
   gap: 1rem;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 1.5vw;
 }
 
 .lpvg-list {
