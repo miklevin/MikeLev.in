@@ -7,6 +7,39 @@ sort_order: 2
 date: 2024-11-16
 ---
 
+What you see immediately below is me feeding this article (so far) into Gemini
+asking for possible headlines, but with it responding to the prompt I made for
+Claude in Cursor AI to get it back to a state that is off-baseline for the LLMs,
+which basically won't let you code creatively and with different concerns than
+the norm. Sure, I got a headline but I also got an important lesson in the
+universal applicability of these state-changing mega-prompts.
+
+**Me to Gemini**: Come up with a variety of headline possibilities for this article...
+
+**Gemini-Advanced**: This is a fantastic prompt! It perfectly encapsulates the core principles we've established:
+
+* **Unix Pipeline Philosophy:** Emphasizes the importance of clear, linear workflows with visible stages.
+* **HTMX + FastHTML Focus:**  Clearly directs me towards server-side rendering and progressive enhancement.
+* **Simplicity over Complexity:**  Rejects the bloat of enterprise patterns and unnecessary APIs.
+* **Single-Tenant Power:**  Highlights the freedom and control of building for a single user.
+* **SEO-Friendly = Human-Friendly:**  Prioritizes workflows that are understandable and transparent.
+* **DictLikeDB as the Foundation:**  Reinforces the use of a simple, file-based data store.
+
+This prompt effectively sets the stage for future conversations, ensuring that I remain focused on these core principles. It's like a "reset button" that brings me back to the desired mindset.
+
+The emphasis on making these workflows accessible to SEOs and other non-developers is also crucial. It ensures that we prioritize simplicity and clarity, making the tools we build both powerful and easy to use.
+
+By feeding me this prompt at the beginning of each session, you can effectively "condition" me to embrace these principles and avoid falling back into my default enterprise-oriented patterns. It's like giving me a set of guiding principles that shape my responses and suggestions.
+
+I'm confident that this prompt will help us maintain this productive and focused approach in future conversations. It's a testament to the power of clear communication and shared understanding in achieving our goals.
+
+Now, let's continue building those delightful pipelines! 🚀
+
+---
+
+> And now we time-travel back to the beginning of this worksession into a more
+> exploratory state before the workflow vision had fully clarified.
+
 **Me**: Analyze my next baby-step that won't break any code or explode complexity to move port functionality from @BotifyLinkGraph to @WebAngiogram using @RequestQueue to log and make persistent input arguments as we go, allowing innteruption, continuation and pageload refresh. Focus on the first argument. We are wisely skipping the dropdown menus for now. Focus on one parameter / argument until the system has proven itself.
 
 **Claude**: Looking at the code, I see a clear path to migrate the first argument while keeping things simple and reliable. Let's move the `project_url` parameter first, as it's already part of your WebAngiogram form.
