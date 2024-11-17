@@ -19,9 +19,9 @@ group: home
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ nix flakes, and any tech-setup of your dreams is one 💦 away.
+**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ off the ol' 💎. The tech-setup of your dreams is one 💦 away.
 
-Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you. This is the fully FOSS vendor-neutral world I'm talking about folks, where 🤖 will only make you 💪.
+Upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. This is the fully vendor-neutral 🦬 FOSS world I'm talking about folks, where 🤖 AI will only make you 💪.
 
 ### Also Down the 🐇🕳️ Here at MikeLev.in are:
 
