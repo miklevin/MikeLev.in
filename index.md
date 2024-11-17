@@ -23,16 +23,20 @@ group: home
 <div class="lpvg-container">
   <div class="lpvg-list">
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The open-source pulse of global computation.</li>
-      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: Language of logic, creativity, and discovery.</li>
-      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Text whisperer—zen efficiency in keystrokes.</li>
-      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Memory keeper—track, share & find your way.</li>
+      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The interoperable sub-system of macOS & Windows 😉</li>
+      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The new English &#151; or "<i>Lingua Franca</i>" of technology.</li>
+      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: How muscle-memory, aka craft, comes to programming.</li>
+      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Making your code unstoppable, unlosable & undoable.</li>
     </ul>
   </div>
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Sprinkle-in fully reproducible 🐧 systems in any 🍎 or 🪟 sub-folder (without the 🐳) by using ⛏️ nix or 🦬 guix, and suddenly any tech infrastructure imaginable is simply hydrating one git repo away. Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you. This is the fully FOSS vendor-neutral world I'm talking about folks, where 🤖 will only make you 💪.
+**[LPvg](/LPvg/)** is free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 systems in any 🍎 or 🪟 sub-folder (without the 🐳) by using ⛏️ nix flakes, and any tech infrastructure is one hydration 💦 away.
+
+Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you. This is the fully FOSS vendor-neutral world I'm talking about folks, where 🤖 will only make you 💪.
+
+### Also Down the 🐇🕳️ Here at MikeLev.in are:
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
