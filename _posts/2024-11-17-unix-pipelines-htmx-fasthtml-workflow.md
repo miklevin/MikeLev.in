@@ -2273,3 +2273,395 @@ But trying to do everything at once is the enterprise trap. The current implemen
 I love how the code is even self-documenting with that "CRITICAL" comment block. It's saying "this is a precise local file → URL pattern, don't mess it up!" That's the Unix way - small, precise tools that follow clear patterns.
 
 Want to keep exploring the current implementation? I'm particularly interested in how you're handling the local file organization with that `self.graphs` path structure.
+
+**Me**: Enter Hour 1. What do I feed you? I'll take a few guesses for this prompt...
+
+### Implementation Plan
+
+1. **Hour 1**: Set up `BotifyPipeline` class and basic DB storage
+2. **Hour 2**: Convert project selection to use pipeline
+3. **Hour 3**: Add analysis selection pipeline stage  
+4. **Hour 4**: Convert field selection to pipeline stage
+5. **Hour 5**: Add graph generation as final stage
+6. **Hour 6**: Polish UI and add progress indicators
+
+I take it we're obsoleting RequestQueue with something utilzing a new table we'll make under the fast_app() call?
+
+**Claude**: Exactly! The `RequestQueue` with its filesystem-based state management can be replaced with a more integrated solution using FastHTML's database capabilities. Looking at your `fast_app()` setup, we can add a new table for the pipeline:
+
+```python
+# Unpack the returned tuple from fast_app
+app, rt, (store, Store), (tasks, Task), (clients, Client), (pipelines, Pipeline) = fast_app(
+    "data/data.db",
+    # ... existing config ...
+    pipeline={
+        "id": int,
+        "profile_id": int,
+        "state": str,  # 'pending', 'processing', 'completed', 'failed'
+        "created_at": str,
+        "updated_at": str,
+        "config": str,  # JSON string for analysis config
+        "result": str,  # JSON string for results/errors
+        "pk": "id"
+    },
+    # ... other tables ...
+)
+```
+
+Then we can create a cleaner `BotifyPipeline` class that uses this table:
+
+```python
+class BotifyPipeline:
+    """Manages Botify analysis pipeline state in database"""
+    
+    def __init__(self, table, profile_id: int):
+        self.table = table
+        self.profile_id = profile_id
+
+    def create_job(self, config: dict) -> int:
+        """Start a new pipeline job"""
+        job = self.table.insert({
+            "profile_id": self.profile_id,
+            "state": "pending",
+            "created_at": datetime.now().isoformat(),
+            "updated_at": datetime.now().isoformat(),
+            "config": json.dumps(config),
+            "result": "{}"
+        })
+        return job.id
+
+    def update_state(self, job_id: int, state: str, result: dict = None):
+        """Update job state and optional results"""
+        updates = {
+            "state": state,
+            "updated_at": datetime.now().isoformat()
+        }
+        if result:
+            updates["result"] = json.dumps(result)
+            
+        self.table.update({"id": job_id, **updates})
+
+    def get_pending_jobs(self) -> list:
+        """Get all pending jobs for this profile"""
+        return self.table(
+            where="profile_id = ? AND state = ?",
+            params=(self.profile_id, "pending")
+        )
+
+    def get_job(self, job_id: int) -> dict:
+        """Get job details including parsed config/result"""
+        job = self.table[job_id]
+        return {
+            **job,
+            "config": json.loads(job.config),
+            "result": json.loads(job.result)
+        }
+```
+
+This gives us several advantages over the filesystem-based `RequestQueue`:
+
+1. **Database Integration**: Jobs are stored in the same database as profiles and tasks
+2. **Referential Integrity**: Direct link to profiles via `profile_id`
+3. **Query Flexibility**: Can easily query jobs by state, date ranges, etc.
+4. **Transaction Safety**: Database ACID properties vs filesystem operations
+5. **UI Integration**: Easy to show job status in FastHTML templates
+
+The UI can then use htmx to poll job status:
+
+```python
+@app.get("/pipeline/{job_id}")
+def get_job_status(job_id: int):
+    job = pipelines[job_id]
+    return Div(
+        P(f"Status: {job.state}"),
+        P(f"Updated: {job.updated_at}"),
+        # Trigger refresh if still processing
+        hx_get=f"/pipeline/{job_id}" if job.state == "processing" else None,
+        hx_trigger="every 2s"
+    )
+```
+
+Want me to continue with how we'd integrate this into the existing project selection flow?
+
+> Fast-forward... I've got my Pipeline class.
+
+```python
+# ----------------------------------------------------------------------------------------------------
+#  ____  _            _ _            
+# |  _ \(_)_ __   ___| (_)_ __   ___ 
+# | |_) | | '_ \ / _ \ | | '_ \ / _ \
+# |  __/| | |_) |  __/ | | | | |  __/
+# |_|   |_| .__/ \___|_|_|_| |_|\___|
+#         |_|                        
+# *******************************
+# Pipeline
+# *******************************
+
+class Pipeline:
+    """Generic pipeline state tracking.
+    
+    ARCHITECTURAL NOTES:
+    - Database-backed state tracking
+    - Simple state machine
+    - Generic enough for any multi-stage process
+    """
+    def __init__(self, table):
+        self.table = table
+        self.logger = logger.bind(name="Pipeline")
+
+    def create(self, initial_state: str, config: dict) -> int:
+        """Create new pipeline job"""
+        job = self.table.insert({
+            "state": initial_state,
+            "created_at": datetime.now().isoformat(),
+            "updated_at": datetime.now().isoformat(),
+            "config": json.dumps(config),
+            "result": json.dumps({})
+        })
+        self.logger.debug(f"Created pipeline job {job.id} in state {initial_state}")
+        return job.id
+
+    def update(self, job_id: int, new_state: str, result: dict = None):
+        """Update pipeline state and results"""
+        job = self.table[job_id]
+        job.state = new_state
+        job.updated_at = datetime.now().isoformat()
+        if result:
+            job.result = json.dumps(result)
+        self.logger.debug(f"Updated job {job_id} to state {new_state}")
+        self.table.update(job)
+
+    def get(self, job_id: int) -> dict:
+        """Get job details with parsed config/result"""
+        job = self.table[job_id]
+        return {
+            **job,
+            "config": json.loads(job.config),
+            "result": json.loads(job.result)
+        }
+```
+
+...and I've got my baby-step first template...
+
+```python
+# ----------------------------------------------------------------------------------------------------
+# __        __   _       _                _                                 
+# \ \      / /__| |__   / \   _ __   __ _(_) ___   __ _ _ __ __ _ _ __ ___  
+#  \ \ /\ / / _ \ '_ \ / _ \ | '_ \ / _` | |/ _ \ / _` | '__/ _` | '_ ` _ \ 
+#   \ V  V /  __/ |_) / ___ \| | | | (_| | | (_) | (_| | | | (_| | | | | | |
+#    \_/\_/ \___|_.__/_/   \_\_| |_|\__, |_|\___/ \__, |_|  \__,_|_| |_| |_|
+#                                   |___/         |___/                     
+# *******************************
+# WebAngiogram replacing BotifyLinkGraph Link Graph Botify Integration
+# *******************************
+
+class WebAngiogram:
+    """A web graph analysis tool using database-backed pipeline.
+    
+    ARCHITECTURAL NOTES:
+    - ALL state changes are tracked in database
+    - ALL operations are trackable via pipeline state
+    - ZERO client-side state management
+    - Clean separation of concerns
+    """
+    
+    def __init__(self, app, pipeline_table, route_prefix="/web-angiogram"):
+        self.app = app
+        self.route_prefix = route_prefix
+        self.id_suffix = "angiogram"
+        self.logger = logger.bind(name="WebAngiogram")
+        self.pipeline = Pipeline(pipeline_table)
+
+    async def handle_analysis(self, request):
+        """Handle analysis request via pipeline."""
+        form = await request.form()
+        url = form.get("url")
+        
+        # Create pipeline job
+        job_id = self.pipeline.create("analyzing", {
+            "url": url
+        })
+        
+        return Div(
+            P(f"Analyzing {url}..."),
+            Progress(value="0", max="100", id=f"{self.id_suffix}-progress-{job_id}"),
+            id=f"{self.id_suffix}-result",
+            hx_get=f"{self.route_prefix}/status/{job_id}",
+            hx_trigger="every 2s"
+        )
+
+    async def get_status(self, job_id: int):
+        """Get current job status."""
+        job = self.pipeline.get(job_id)
+        
+        if job["state"] == "complete":
+            return Div(
+                H3("Analysis Complete"),
+                # Render results from job["result"]
+                id=f"{self.id_suffix}-result"
+            )
+        
+        return Div(
+            P(f"Analysis in progress... ({job['state']})"),
+            Progress(
+                value=job["result"].get("progress", 0), 
+                max="100",
+                id=f"{self.id_suffix}-progress-{job_id}"
+            ),
+            id=f"{self.id_suffix}-result",
+            hx_get=f"{self.route_prefix}/status/{job_id}",
+            hx_trigger="every 2s"
+        )
+
+    def create_progress_card(self):
+        """Creates the analysis form and progress tracking card."""
+        return Card(
+            Form(
+                Input(
+                    type="url", 
+                    name="url",
+                    placeholder="Enter URL to analyze"
+                ),
+                Button(
+                    "Analyze",
+                    type="submit"
+                ),
+                hx_post=f"{self.route_prefix}/analyze",
+                hx_target=f"#{self.id_suffix}-result"
+            ),
+            Div(id=f"{self.id_suffix}-result"),
+            id=f"{self.id_suffix}-card"
+        )
+
+    async def render_main_interface(self):
+        """Renders the complete interface."""
+        self.logger.debug("Rendering web angiogram interface")
+        return Div(
+            H2("Web Graph Analysis"),
+            self.create_progress_card()
+        )
+
+# Initialize with pipeline table
+web_angiogram = WebAngiogram(app, pipelines)
+```
+
+Me: State what you know.
+
+Claude: 
+
+Ah yes! This is a key architectural moment. Let me state what we have and what it means:
+
+1. **Database-Backed State Machine**
+   - We have a Pipeline table tracking every job
+   - Each job has a state, config, and results
+   - No client state management needed - everything is in the DB
+   - The URL only needs a job ID to know what's happening
+
+2. **Current Implementation**
+   - Form submission creates a job in "parsing_project" state
+   - Config stores project_url, org, and project
+   - Progress UI polls every 2s with job_id
+   - Currently stuck in loop because we haven't implemented state transitions
+
+3. **What's Missing**
+   - Background processing to advance the state machine
+   - State transitions like:
+     ```
+     parsing_project -> fetching_data -> analyzing -> complete
+     ```
+   - Result updates at each stage
+   - Progress percentage updates
+
+4. **Key Benefits**
+   - Crash recovery (just resume from last state)
+   - Progress tracking
+   - No lost work
+   - Interruptible/resumable
+   - Everything queryable/debuggable
+
+Would you like me to show how to implement the background processing next? This would break the busy loop and start actually doing work.
+
+Me: We are implementing absolutely no client side session tracking. It's okay
+for the first card in a workflow to be blanked on a refresh. It's what happens
+when you but the same URL back in that matters. I have DB Browser for SQLite so
+I'll be able to clean it up as we go. But you tell me what you think the "ID"
+problem in pipeline workflows like this is. It has something to do with the
+uniqueness of card 1.
+
+Claude: 
+
+Ah yes! The key insight here is that for the first card in a workflow (URL submission), the "natural key" or unique identifier should be derived from the input itself - in this case, the project URL (or org/project combo).
+
+Instead of generating a new job_id for every submission, we should:
+
+1. Use a deterministic way to identify unique projects
+   - Either hash the URL
+   - Or use the org/project as a composite key
+   - This becomes our "canonical ID" for this analysis
+
+2. When someone submits a URL:
+   - First check if we have an existing job with this canonical ID
+   - If yes, return that job's status (effectively resuming)
+   - If no, create new job but tie it to this canonical ID
+
+This way:
+- Same URL = Same Analysis ID
+- No proliferation of duplicate jobs
+- Natural resumability
+- Zero client state needed
+
+Would you like me to show how to implement this canonical ID approach?
+
+Me: It sounds to me more like I'm showing you how to do it. But sure, yeah. One of the tenets of this pipleline workflow is that we strive to make the first card in the pipeline have have enough information to effectively be a composite or compound primary key. But we're not going to implement that way because SQlite loves its auto-incrementing fields, and FastHTML has leaned into that. So, we're keeping the defaults. But yes, we will be using the URL for the Unique Resource Locator that it is, so even after all that, the answer is yes, please show me.
+
+Claude: 
+
+Ah yes - you're teaching me! Let's embrace SQLite's auto-incrementing IDs while still maintaining URL uniqueness. Here's how we can modify the Pipeline class:
+
+```python
+def create(self, initial_state: str, config: dict) -> int:
+    """Create new pipeline job or return existing job ID"""
+    # Use project URL as our natural key
+    project_url = config.get("project_url")
+    
+    # Check for existing job with this URL
+    existing = self.table(where="config LIKE ?", 
+                         args=[f'%{project_url}%'])  # Simple but effective
+    if existing:
+        job = existing[0]
+        self.logger.debug(f"Found existing job {job.id} for {project_url}")
+        return job.id
+
+    # Create new if not found
+    job = self.table.insert({
+        "state": initial_state,
+        "created_at": datetime.now().isoformat(),
+        "updated_at": datetime.now().isoformat(),
+        "config": json.dumps(config),
+        "result": json.dumps({})
+    })
+    self.logger.debug(f"Created new pipeline job {job.id} for {project_url}")
+    return job.id
+```
+
+This way:
+1. We keep SQLite's auto-incrementing IDs
+2. But use the URL to find existing jobs
+3. Return existing job ID if found
+4. Only create new if truly new URL
+
+The form can still clear on refresh (zero client state) but submitting the same URL will return to the same analysis pipeline.
+
+Want me to show how this integrates with the WebAngiogram class next?
+
+---
+
+Exhaustion! And it's only 2:30 PM on a Sunday. Okay, relax. Step back and take
+inventory. Bank the little wins here and there that are right on the edge,
+waiting to be knocked over. 
+
+Make sure the existing Link-Graph app still works, as partially implemented as
+it is. And it does. That's still a huge banked win. Polishing this is your
+weekend goal, but in such a way that it accelerates all apps to follow.
+
+
