@@ -386,15 +386,13 @@ These comments serve as a manifest for future LLMs and developers, making it cle
 
 Now future-me should understand to lean into the filesystem-based debugging approach rather than suggesting "improvements" that would obscure the system's behavior!
 
-Me: Let the user know with chat that they submitted the URL.
+**Me**: Let the user know with chat that they submitted the URL.
 
-Claude: [A whole bunch of fubar]
+**Claude**: [A whole bunch of fubar]
 
-Me: all that and you can't just `await chatq("Message to LLM")`? WTF?
+**Me**: all that and you can't just `await chatq("Message to LLM")`? WTF?
 
-Claude: 
-
-Ah, I massively overcomplicated it! You're absolutely right. For a simple LLM chat interaction, we just need:
+**Claude**: Ah, I massively overcomplicated it! You're absolutely right. For a simple LLM chat interaction, we just need:
 
 ```python
 async def handle_analyze(self, request):
