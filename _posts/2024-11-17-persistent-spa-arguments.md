@@ -165,7 +165,7 @@ So rather than trying to "improve" this with fancy state management or UI persis
 
 Would you like to show me the correct next step that maintains these principles?
 
-**Me**: Get rid of the second input field that's here. I didn't ask for it. It's not part of the app. There is no repository URL. Make it so that a submission of a project URL does an htmx action to echo it back to the user. Set the stage so that an F5 or Coontrol+R won't reset the app due to the presence of the arguments log file.
+**Me**: Get rid of the second input field that's here. I didn't ask for it. It's not part of the app. There is no repository URL. Make it so that a submission of a project URL does an htmx action to echo it back to the user. Set the stage so that an F5 or Control+R won't reset the app due to the presence of the arguments log file.
 
 **Claude**: Ah yes - let's clean this up and stick to just one input field with the URL persistence pattern. Here's the simplified version:
 
@@ -1014,8 +1014,8 @@ Then just run:
 ./angiogram-monitor.sh
 ```
 
-Me & Claude go back and forth on him fixating on the 4 tmux screens not being
-perfect.
+[Me & Claude go back and forth on him fixating on the 4 tmux screens not being
+perfect.]
 
 **Me**: Leave the 4 quadrant the way it is. Jeez, this is so revealing of who
 you are. Look at the code base. Do 80/20-rule sweeps. You're a burgeoning OCD
