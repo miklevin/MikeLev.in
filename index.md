@@ -5,19 +5,6 @@ author: Mike Levin AI SEO
 group: home
 ---
 
-<div class="logo-container">
-    <div class="logo-item">
-        <a href="/levinux/">
-            <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
-        </a>
-    </div>
-    <div class="logo-item">
-        <a href="/pipulate/">
-            <img src="/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
-        </a>
-    </div>
-</div>
-
 # LPvg: Timeless Tech Skills for the AI Age
 
 <div class="lpvg-container">
@@ -148,4 +135,17 @@ chosen&#151;and practicing my craft 🛠.
       <span>{{ site.posts.first.title }}</span>
     </a>
   </div>
+</div>
+
+<div class="logo-container">
+    <div class="logo-item">
+        <a href="/levinux/">
+            <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
+        </a>
+    </div>
+    <div class="logo-item">
+        <a href="/pipulate/">
+            <img src="/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+        </a>
+    </div>
 </div>
