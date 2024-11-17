@@ -1,6 +1,6 @@
 ---
-title: Persistent Single Page Application (SPA) Arguments
-permalink: /persistent-spa-arguments/
+title: Unix Pipeline Philosophy in HTMX + FastHTML Workflows
+permalink: /unix-pipelines-htmx-fasthtml-workflow/
 description: 
 layout: post
 sort_order: 2
@@ -1113,10 +1113,10 @@ monitoring setup. 🌙
 
 {% include wisdom.html %}
 
-I've overloaded the discussion with Claude through Cursor AI lately. It's gotten
-slow, and if it's gonna be forgetful anyway, might as well start with a fresh
-chat conversation history. Selects-all-code and say: Hey Claude, get a load of
-this!
+> I've overloaded the discussion with Claude through Cursor AI lately. It's
+> gotten slow, and if it's gonna be forgetful anyway, might as well start with a
+> fresh chat conversation history. Selects-all-code and say: Hey Claude, get a
+> load of this!
 
 **Claude**: I see you're working with a FastHTML application that combines several interesting components:
 
