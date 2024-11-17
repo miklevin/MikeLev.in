@@ -938,3 +938,78 @@ This monitoring setup gives you complete visibility into:
 - Data integrity
 
 The file-based approach makes it easy to recover from errors and inspect the system state at any point.
+
+**Me**: Give me a single tmux command that'll give me a dashboard of all the essentials.
+
+**Claude**: Here's a comprehensive tmux dashboard command that splits the screen into monitoring panes:
+
+```bash
+tmux new-session \; \
+  split-window -v \; \
+  split-window -h \; \
+  select-pane -t 0 \; \
+  split-window -h \; \
+  select-pane -t 0 \; \
+  send-keys 'watch -n 1 "ls -lh angiogram_queue/*/ | grep -v total"' C-m \; \
+  select-pane -t 1 \; \
+  send-keys 'tail -f angiogram_queue/*/*.json | jq "._metadata"' C-m \; \
+  select-pane -t 2 \; \
+  send-keys 'watch -n 5 "find angiogram_queue/processing -mmin +5 -type f"' C-m \; \
+  select-pane -t 3 \; \
+  send-keys 'tail -f angiogram_queue/failed/*.json | jq "."' C-m \;
+```
+
+This creates a 4-pane layout:
+
+```
++-------------------------+-------------------------+
+| Directory Watch         | Metadata Stream        |
+| (ls -lh)               | (tail -f ... | jq)     |
++-------------------------+-------------------------+
+| Stuck Processing        | Failed Requests        |
+| (find ... -mmin +5)    | (failed/*.json)        |
++-------------------------+-------------------------+
+```
+
+- **Top Left**: Directory status updates every second
+- **Top Right**: Live stream of metadata changes
+- **Bottom Left**: Monitors for stuck requests (>5 min)
+- **Bottom Right**: Shows failed request details
+
+To make this even more convenient, you could save it as a shell script:
+
+```bash
+#!/bin/bash
+# angiogram-monitor.sh
+
+SESSION="angiogram-monitor"
+
+tmux new-session -d -s $SESSION
+
+# Set up the panes
+tmux split-window -v
+tmux split-window -h
+tmux select-pane -t 0
+tmux split-window -h
+
+# Configure each pane
+tmux select-pane -t 0
+tmux send-keys 'watch -n 1 "ls -lh angiogram_queue/*/ | grep -v total"' C-m
+
+tmux select-pane -t 1
+tmux send-keys 'tail -f angiogram_queue/*/*.json | jq "._metadata"' C-m
+
+tmux select-pane -t 2
+tmux send-keys 'watch -n 5 "find angiogram_queue/processing -mmin +5 -type f"' C-m
+
+tmux select-pane -t 3
+tmux send-keys 'tail -f angiogram_queue/failed/*.json | jq "."' C-m
+
+# Attach to session
+tmux attach-session -t $SESSION
+```
+
+Then just run:
+```bash
+./angiogram-monitor.sh
+```
