@@ -24,8 +24,6 @@ group: home
 }
 </script>
 
-{% include daily-metaphors.html %}
-
 # LPvg: Timeless Tech Skills for the AI Age
 
 <div class="lpvg-container">
@@ -43,6 +41,8 @@ group: home
 **[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ off the ol' 💎. The tech-setup of your dreams is one 💦 away *(if you can hydrate a DOM, you can hydrate a LAN).*
 
 Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. This is the fully vendor-neutral 🦬 **FOSS**-world I'm talking about folks, where 🤖 **AI** will only make you 💪!
+
+{% include daily-metaphors.html %}
 
 ### Also Down the 🐇🕳️ Here at MikeLev.in are:
 
