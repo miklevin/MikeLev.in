@@ -32,7 +32,7 @@ group: home
   {% include bunny.html %}
 </div>
 
-That's the main minimal tech-stack as a sort of **swiss army knife** 🇨🇭 or **utility belt of tech** 🦸‍♂️. You don't need to use it for everything, but it is *applicable to anything* 🌍. With a few more tools 🛠️, we lower the barrier to entry and make systems *reproducible across all hardware* (️🍎🪟🐧). Plus, we'll sprinkle in the **free local AI** 🤖🧠 and a **Python-centric** 🐍 web development environment.
+**[LPvg](/LPvg/)** is free ***future-proofing*** minimal tech-stach for life making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***, edit at the speed of thought and the world is your 🦪. Sprinkle-in fully reproducible 🐧 systems in any 🍎 or 🪟 sub-folder (without the 🐳) by using ⛏️ nix or 🦬 guix, and suddenly any tech infrastructure imaginable is simply hydrating one git repo away. Upgrade from Jabberwocky to Juggernaut and no vorpal blade can stop you.
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
@@ -120,10 +120,6 @@ chosen&#151;and practicing my craft 🛠.
     {% endfor %}
   {% endfor %}
 </ol>
-
-## Reproducible Environments: Nix & Cross-Platform DevOps
-
-The full ramifications of reproducible general 🐧Linux subsystems on any host computer (🍎,🪟,🐧) has not sunk in with the tech community (💃🕺🏿) yet. Be it through Nix 🧰 (most likely) or guix 🦬 the GNU project's official version of the same tech, Docker 🐳 is already... well, not quite obsolete 👻, but certainly 80/20-ruled out of daily needs. Nix Flakes ⛏️, a single text-file alternative carry Infrastructure as Code and can simply be dropped into a git repo. Then you just ***hydrate💦*** it. Or if you prefer, chip a `flake.nix` off the old `configuration.nix` core 💎. No bloat 🐳 required.
 
 ---
 
