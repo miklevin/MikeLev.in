@@ -964,10 +964,10 @@ This creates a 4-pane layout:
 ```
 +-------------------------+-------------------------+
 | Directory Watch         | Metadata Stream        |
-| (ls -lh)               | (tail -f ... | jq)     |
+| (ls -lh)                | (tail -f ... | jq)     |
 +-------------------------+-------------------------+
 | Stuck Processing        | Failed Requests        |
-| (find ... -mmin +5)    | (failed/*.json)        |
+| (find ... -mmin +5)     | (failed/*.json)        |
 +-------------------------+-------------------------+
 ```
 
