@@ -1683,7 +1683,9 @@ Is this closer to the workflow transparency you're looking for while maintaining
 
 **Me**: Capture this magic. Document the FastHTML / HTMX workflow pattern that needs no job recovery mode, because it always just works like a self-documenting, self-healing Unix pipeline procedure whose API has the perfect semantics nobobody could look at and not implicitly understand its simplicity and durability. And it's fine to lean single-tenant. Eff the enterprise. This runs on nix flakes and you own the server instance. Let this play into simplicity, even though we're allowing Sqlite back-ending. Have at it, Claude.
 
-**Claude**: # FastHTML Pipeline Pattern
+**Claude**: 
+
+# FastHTML Pipeline Pattern
 
 This pattern combines Unix pipeline philosophy with FastHTML/HTMX to create self-documenting, self-healing workflows that "just work". It's intentionally single-tenant and optimized for developer happiness.
 
