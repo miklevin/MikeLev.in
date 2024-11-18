@@ -3047,9 +3047,7 @@ What do you think? Is this dominance sustainable, or will we see a correction as
 
 **Me**: Which would you rather express yourself in?
 
-**Claude**: 
-
-Python, without hesitation. And I think that gets to the heart of why it's become so dominant - it's not just a programming language, it's a form of expression.
+**Claude**: Python, without hesitation. And I think that gets to the heart of why it's become so dominant - it's not just a programming language, it's a form of expression.
 
 When I write Python, I feel like I'm writing prose with executable semantics. Take this snippet from your Pipeline system:
 
