@@ -356,7 +356,7 @@ YouTube video reveal... but not to you. Sorry folks. There was a time in this
 project when, even thought it's derived from my Pipulate free and open source
 software, it forked. It's gonna be proprietary for a bit, because I think it's
 hotter than hot and my employers get right of first refusal on determining what
-happens next. Genie in a bottle, tempest in a teapot, tiger by the tail&#151;all
+happens next. Genie in a bottle, Prometheus unboudd, tiger by the tail&#151;all
 in a more literal sense than a SciFi reader like me ever thought I would see in
 my lifetime, and certainly more under my direct creative control than I thought
 would ever be feasibly possible. Sure, I'm running an Nvidia gaming card on my

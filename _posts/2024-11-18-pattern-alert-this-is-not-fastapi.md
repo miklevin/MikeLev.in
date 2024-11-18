@@ -34,8 +34,8 @@ group think and herd mentality stupidity than the rest of us. They are
 programmed to follow the big fat middle of the normal distribution bell curve,
 which means if you take their advice all the time, you will always be average,
 and the genies will forever be misinterpreting your wishes. And so after we have
-a tiger by the tail and a tempest in a teapot and the lightning is crackling
-from your fingertips like a good wizard, we write prompts like this:
+a tiger by the tail, Prometheus unbound, and the lightning is crackling from
+your fingertips like a good wizard, we write prompts like this:
 
 ### The Prompt That Binds
 
@@ -2219,3 +2219,21 @@ class WebAngiogram:
 # Initialize with pipeline table
 web_angiogram = WebAngiogram(app, pipelines)
 ```
+
+So that was basically a whole weekend with no tangible progress on the app
+itself, but merely the implementation of the first data-collection "Card" in a
+workflow management process so that the app itself doesn't careen out of
+control. I have now implemented the Web Link Graph app fully 2-times under
+FastHTML.
+
+- Once by the skin of my teeth, making every mistake
+- A 2nd time really learning FastHTML's ins and outs
+- [I didn't implement this 3rd time]
+
+Oh, but the 3rd implementation is going to be soooo smooth and... and... I don't
+want to say simple, and I don't want to say "complexity controlled". Complexity
+is shoved around to all the right places. The cognitive load of looking at,
+constructing and dealing with Pipeline procedures... workflow, chaining up in's
+and outs. The old Yahoo Pipes thing. The Unix Way. But don't ramble.
+
+- 

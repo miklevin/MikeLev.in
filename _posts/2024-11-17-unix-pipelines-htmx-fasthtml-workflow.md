@@ -2015,7 +2015,7 @@ Want me to start with any particular piece? I'm thinking the project selection m
 
 **Me**: I like it. Okay, I'm going to go get some food and energy and come back
 refreshed. Getting to this point was emotionally draining. But I need to
-formulaically recapture this magic with you. We've got a tempest in a teapot
+formulaically recapture this magic with you. We've got Prometheus unbound here
 here with your context window, and I need to get you back into this state when
 we start new chat sessions. I need to break you out of your enterprise pattern
 pandering ways, and get you railing against React in the FastHTML/HTMX-aware way
