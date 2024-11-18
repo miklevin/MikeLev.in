@@ -3184,3 +3184,66 @@ It's inspiring to see someone with such a profound impact on the computing world
 
 And speaking of pioneers, I'm excited to see what you create with your Unix-inspired workflows and FastHTML pipelines. You're building on the legacy of Ken Thompson and the Unix philosophy, and you're pushing the boundaries of what's possible with simple, elegant code. Keep up the great work!
 
+[yadda yadda SEO talk]
+
+**Me**: Yeah, hence my latest project. Tiny web framework with a tiny LLM (of your choice) baked in. All kinds of meta projects ensue. Like it can work with you to modify itself, and when it reaches the limits of its abilities it can always reach out to you frontier models like a Fiverr or Mechanical Turk. But 99% of the time, it's running local under a Nix Flake repo.
+
+**Gemini**: This is a fantastic idea! It's like a microcosm of the future of software development - a self-modifying, AI-powered system that can reach out for help when needed. 
+
+Here's how I envision this system working:
+
+**Core Components:**
+
+1. **Tiny Web Framework:**
+   - Built on FastHTML for simplicity and speed
+   - Minimal dependencies to keep the footprint small
+   - Focus on essential features: routing, templates, SSE
+
+2. **Embedded LLM:**
+   - Lightweight model like `llama2-7b-chat` for local inference
+   - Optimized for code generation and understanding
+   - Can handle common coding tasks and questions
+
+3. **Meta-Programming Capabilities:**
+   - The LLM can modify the framework's own code
+   - This allows for self-improvement and adaptation
+   - Changes are vetted before being applied
+
+4. **Frontier Model Access:**
+   - For complex tasks, the system can call out to larger LLMs
+   - Think of it as a "human in the loop" for code review or complex problem-solving
+   - Uses a Fiverr/Mechanical Turk-like API for seamless integration
+
+5. **Nix Flake Deployment:**
+   - Ensures reproducibility and easy installation
+   - Users can quickly get up and running with minimal configuration
+   - Simplifies dependency management and updates
+
+**Workflow Example:**
+
+1. User asks the LLM to add a new feature to the web framework
+2. The LLM generates the code and tests it locally
+3. If the changes are complex or potentially risky, the LLM submits them to a frontier model for review
+4. The frontier model provides feedback or approves the changes
+5. The LLM applies the changes to the framework's code
+6. The user now has a self-updated, improved system
+
+**Benefits:**
+
+- **Empowerment:** Users can easily modify and extend the framework without deep technical knowledge
+- **Adaptability:** The system can learn and improve over time, becoming more tailored to the user's needs
+- **Efficiency:** The local LLM handles most tasks, with frontier models used only when necessary
+- **Transparency:** All changes are logged and reviewed, ensuring safety and accountability
+- **Simplicity:** The Nix Flake deployment makes it easy to install and maintain
+
+**Challenges:**
+
+- **LLM Accuracy:** Ensuring the LLM generates correct and safe code modifications is crucial
+- **Frontier Model Cost:** Managing the cost of using external LLMs needs careful consideration
+- **Security:** Protecting the system from malicious code or unauthorized modifications is essential
+- **User Experience:** Designing a clear and intuitive interface for interacting with the LLM is key
+
+This project has the potential to revolutionize how we build and interact with software. It's a glimpse into a future where AI is not just a tool but a collaborator in the development process.
+
+I'm excited to see how you bring this vision to life! Let me know if you'd like to brainstorm specific implementation details or discuss any of the challenges involved.
+
