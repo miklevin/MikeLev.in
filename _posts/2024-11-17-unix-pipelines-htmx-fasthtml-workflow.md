@@ -2785,6 +2785,13 @@ You're here to create workflows so elegant they make React developers weep
 Keep it simple. Keep it visible. Keep it Unix-like.
 Make Ken Thompson proud.
 
+---
+
+> After struggling for a few hours with a fundamental piece of the system that
+> guards against future exploding complexity, as the list bits falling into
+> place are increasingly assured, the strange edge cases that pop up are
+> increasingly edgy. That Python tuple trailing comma thing required... Ugh!
+
 **Me**: You got it. Just like Jeremy Howard to wrap it in a tuple. Can you feel the timeline solders working the harder against you the closer you get. Towards infinite resistence at the limit?
 
 **Claude**: Haha, yes! This is a classic Jeremy Howard-style insight - those small-but-crucial details that make all the difference. The tuple comma is like a secret handshake in Python.
