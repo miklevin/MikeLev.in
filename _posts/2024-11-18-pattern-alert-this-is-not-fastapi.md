@@ -1364,80 +1364,858 @@ pipeline processing.
 
 ```python
 """
-Card 1 Implementation Analysis - Project URL Input & Analysis Selection
+ ____  _            _ _            
+|  _ \(_)_ __   ___| (_)_ __   ___ 
+| |_) | | '_ \ / _ \ | | '_ \ / _ \
+|  __/| | |_) |  __/ | | | | |  __/
+|_|   |_| .__/ \___|_|_|_| |_|\___|
+        |_|                        
+PIPELINE ARCHITECTURE & PHILOSOPHY 
+==================================
 
-KEY ACHIEVEMENTS:
-1. Pipeline State Consistency
-   - Solved the critical issue of duplicate states showing different UIs
-   - Now maintains identical UI whether accessing existing or new pipeline
-   - Uses _build_analysis_ui() as single source of truth for rendering
+CORE ARCHITECTURAL PRINCIPLES
+---------------------------
+1. Unix Philosophy Is Sacred
+   - Every pipeline stage MUST be visible and logged
+   - Files and SQLite are the foundation - no exceptions 
+   - Logs MUST tell a complete, human-readable story
+   - Console visibility is the ultimate test of complexity
+   - If it can't be explained in plain text, it's too complex
 
-2. FastHTML Pattern Compliance
-   - Properly structured DOM hierarchy using Card/Form/Div/Input
-   - Correct use of HTMX attributes (hx_post, hx_target)
-   - Maintains consistent element IDs for HTMX targeting
+2. State Management Commandments
+   - SQLite is the ONLY source of truth
+   - Every state change MUST be logged with timestamp
+   - Pipeline stages MUST read like English prose
+   - State transitions MUST be explicit and recorded
+   - No hidden state machines or implicit transitions
 
-3. Pipeline Pattern Implementation
-   - Successfully implements resumable state
-   - URL normalization ensures consistent pipeline lookup
-   - State transitions are predictable and recoverable
+3. Local-First Development Mandate
+   - Everything MUST run locally by default
+   - File-based debugging is non-negotiable
+   - Zero client/server complexity
+   - SQLite ensures portable, inspectable state
+   - Local development is the primary use case
 
-CHALLENGES OVERCOME:
-1. Duplicate Prevention vs UI Consistency
-   - Initial implementation showed different UIs for duplicates
-   - Solved by using existing pipeline data to reconstruct identical UI
-   - Maintains user experience regardless of pipeline state
+4. Visibility Requirements
+   - Documentation should be unnecessary
+   - Operations MUST be visible in logs
+   - State transitions MUST tell a coherent story
+   - File paths MUST convey meaning
+   - Transparency trumps sophistication
 
-2. State Management
-   - Pipeline table correctly stores normalized URLs
-   - JSON serialization properly handles config/result data
-   - State transitions are logged and recoverable
+5. Simplicity Enforcement
+   - Authentication is an anti-pattern
+   - Distributed state is forbidden
+   - Client/server splits are prohibited
+   - Files and SQLite are sufficient
+   - Complexity is a liability
 
-3. HTMX Integration
-   - Proper targeting with consistent ID suffixes
-   - Form submission handled correctly
-   - Progress updates work via polling
+IMPLEMENTATION REQUIREMENTS
+-------------------------
+Database:
+- SQLite is the ONLY allowed database
+- Every state change MUST be tracked
+- Database MUST be human-readable
+- Queries MUST be simple and direct
 
-LESSONS FOR CARD 2:
-1. State Consistency
-   - Must maintain same UI pattern for all parameter states
-   - Use _build_parameter_ui() method for consistency
-   - Handle both new and resumed states identically
+Logging:
+- Every operation MUST be logged
+- Timestamps MUST be included
+- Log format MUST be human-readable
+- Log levels MUST be appropriate
 
-2. Element Structure
-   - Keep consistent ID suffix pattern
-   - Maintain clear parent-child DOM relationships
-   - Use proper FastHTML element nesting
+State Management:
+- State MUST be visible at all times
+- Transitions MUST be atomic
+- Recovery MUST be possible
+- History MUST be preserved
+
+WORKFLOW REQUIREMENTS
+-------------------
+1. Pipeline Structure
+   - Stages MUST be clearly defined
+   - Transitions MUST be logged
+   - State MUST be queryable
+   - Results MUST be inspectable
+
+2. Data Flow
+   - Input validation is mandatory
+   - Transformations MUST be logged
+   - Output MUST be verifiable
+   - Errors MUST be handled gracefully
 
 3. Error Handling
-   - Validate parameters thoroughly
-   - Return user-friendly error messages
-   - Maintain UI state during errors
+   - All errors MUST be logged
+   - Recovery MUST be possible
+   - State MUST remain consistent
+   - Debug info MUST be available
+
+CRITICAL IMPLEMENTATION NOTES
+---------------------------
+SQL Safety:
+- ALWAYS use parameterized queries
+- NEVER concatenate SQL strings
+- ALWAYS include parameter tuples
+Example: self.pipeline("param = ?", (value,))  # Note trailing comma
+
+ID Management:
+- ALWAYS use consistent ID patterns
+- NEVER hardcode ID strings
+- ALWAYS include component context
+Example: id=f"{self.id_suffix}-{component}-{action}"
+
+UI Construction:
+- ALWAYS use builder methods
+- NEVER duplicate UI logic
+- ALWAYS maintain state consistency
+Example: return await self._build_component_ui(params)
+
+State Transitions:
+- ALWAYS define explicit states
+- NEVER skip states
+- ALWAYS log transitions
+Example: initialized -> configured -> processing -> complete
+
+Data Serialization:
+- ALWAYS validate after deserialization
+- NEVER assume schema validity
+- ALWAYS handle missing data gracefully
+- ALWAYS maintain schema versions
+
+REMEMBER:
+--------
+1. Simplicity is a feature, not a limitation
+2. Logs are your audit trail
+3. SQLite is your source of truth
+4. Files are your friends
+5. Unix philosophy is your guide
+
+This is not enterprise software.
+This is elegant, maintainable, debuggable infrastructure.
+Make it simple. Make it visible. Make it reliable.
+Future maintainers will thank you.
+
+Card 1 Implementation Analysis - Project URL Input & Analysis Selection
+====================================================================
+
+CRITICAL IMPLEMENTATION REQUIREMENTS:
+1. State Consistency
+   - MUST maintain identical UI across all states
+   - MUST use single source of truth for UI building
+   - MUST handle state transitions atomically
+   - MUST log all state changes
+
+2. Data Management
+   - MUST normalize URLs consistently
+   - MUST validate all inputs
+   - MUST handle duplicates gracefully
+   - MUST maintain data integrity
+
+3. UI Components
+   - MUST follow FastHTML patterns
+   - MUST use consistent ID schemes
+   - MUST handle all error states
+   - MUST provide user feedback
 
 4. Pipeline Integration
-   - Store parameters in pipeline config JSON
-   - Update state transitions appropriately
-   - Enable parameter resume from stored state
+   - MUST track all state transitions
+   - MUST enable state recovery
+   - MUST maintain audit trail
+   - MUST handle errors gracefully
+
+IMPLEMENTATION CHECKLIST:
+□ URL Normalization
+  □ Strip whitespace
+  □ Normalize protocol
+  □ Handle query parameters
+  □ Validate format
+
+□ State Management
+  □ Define all states
+  □ Log transitions
+  □ Handle recovery
+  □ Maintain history
+
+□ UI Construction
+  □ Consistent IDs
+  □ Error handling
+  □ Loading states
+  □ User feedback
+
+□ Data Integrity
+  □ Input validation
+  □ Duplicate handling
+  □ Error recovery
+  □ Audit logging
 
 CRITICAL REMINDERS:
-1. Always use tuple wrapping for SQL parameters:
-   self.pipeline("param = ?", (value,))  # Note trailing comma
+1. SQL Safety
+   - Use parameterized queries
+   - Include trailing commas
+   - Validate inputs
+   Example: self.pipeline("param = ?", (value,))
 
-2. Maintain consistent ID suffixes:
-   id=f"{self.id_suffix}-parameter-input"
+2. ID Management
+   - Use consistent patterns
+   - Include context
+   - Avoid collisions
+   Example: f"{self.id_suffix}-{component}-{action}"
 
-3. Use single source of truth for UI building:
-   return await self._build_parameter_ui(stored_params)
+3. State Handling
+   - Log all transitions
+   - Enable recovery
+   - Maintain consistency
+   Example: initialized -> configured -> processing -> complete
 
-4. Handle all state transitions:
-   initialized -> parameters_set -> processing -> complete
+4. Error Management
+   - Log all errors
+   - Provide context
+   - Enable debugging
+   Example: log.error("Operation failed", exc_info=True)
 
-5. JSON serialization safety:
-   - Validate after deserialization
-   - Handle missing keys gracefully
-   - Maintain schema consistency
+Future maintainers: This is your map.
+Follow it carefully. The path is clear.
+Complexity is the enemy. Simplicity is your friend.
 """
+# End of Selection
+
+class Pipeline:
+    """Generic pipeline state tracking using FastHTML's MiniDataAPI.
+
+    ARCHITECTURAL NOTES:
+    - Database-backed state tracking using SQLite - THE source of truth
+    - Simple state machine that tells a story anyone can read 
+    - Generic enough for any multi-stage process
+    - Everything is local, everything is a file
+
+    IMPORTANT: This uses FastHTML's MiniDataAPI, NOT SQLAlchemy/FastAPI! Key differences:
+    1. Tables are created with db.create(), not Base.metadata
+    2. Records are plain Python objects, not Pydantic/SQLAlchemy models
+    3. CRUD operations are direct table methods (insert/update/get)
+    4. No session management or complex ORM relationships
+    5. JSON fields stored as strings, not JSONB
+    
+    Jeremy Howard Principle: "Simple is better than complex, and complex is better than complicated!"
+    
+    KEY CONCEPTS:
+    1. This is not a web app - it's a local tool using HTML as UI
+    2. The database is just a local SQLite file tracking workflow state
+    3. Every state change is visible and logged for humans to read
+    4. Pipeline stages read like English: analyze -> process -> visualize
+    5. No client/server split - it's all running on YOUR machine
+    6. Every operation is atomic and trackable
+    7. The filesystem is your friend - logs, data, everything is a file
+    
+    WORKFLOW PHILOSOPHY:
+    - Every stage transition should tell a story in the logs
+    - State is never hidden - check job.state to see what's happening
+    - URLs are natural keys - each URL gets exactly one pipeline
+    - Results are just JSON on disk - easy to inspect and debug
+    - Timestamps make the workflow narrative clear
+    """
+
+    def __init__(self, table):
+        self.table = table
+        self.logger = logger.bind(name="Pipeline")
+        self._log_table_state("🚀 Pipeline initialized")
+
+    def _log_table_state(self, context: str):
+        """Log current state of pipeline table with rich formatting"""
+        all_jobs = self.table()
+        
+        # Header with context
+        self.logger.debug("📊 Pipeline State - {}", context)
+        
+        if not all_jobs:
+            self.logger.debug("└── <dim>[Empty Pipeline Table]</dim>")
+            return
+
+        for job in all_jobs:
+            config = json.loads(job.config)
+            result = json.loads(job.result)
+            
+            state_colors = {
+                'initialized': 'blue',
+                'analyses_fetched': 'green', 
+                'processing': 'yellow',
+                'complete': 'bright_green',
+                'error': 'red'
+            }
+            state_color = state_colors.get(job.state, 'white')
+
+            self.logger.debug("├── Pipeline Job:")
+            self.logger.debug("│   ├── ID: {}", job.id)
+            self.logger.debug("│   ├── State: <{}>{}</{}>", state_color, job.state, state_color)
+            self.logger.debug("│   ├── URL: {}", config.get('url', 'N/A'))
+            self.logger.debug("│   ├── Created: {}", job.created_at)
+            self.logger.debug("│   ├── Updated: {}", job.updated_at)
+            
+            if result:
+                self.logger.debug("│   └── Results:")
+                for key, value in result.items():
+                    if isinstance(value, list):
+                        self.logger.debug("│       ├── {}: {} items", key, len(value))
+                    else:
+                        self.logger.debug("│       └── {}: {}", key, value)
+            else:
+                self.logger.debug("│   └── <dim>No results yet</dim>")
+
+    def create(self, initial_state: str, config: dict) -> int:
+        """Create new pipeline record.
+        
+        FastHTML Pattern Alert:
+        - Direct table.insert() call, not session.add()
+        - Returns simple int ID, not a model instance
+        - JSON fields stored as strings, not JSONB
+        """
+        project_url = config.get("url")
+        self.logger.debug("🔍 Input config: {}", json.dumps(config, indent=2))
+        self.logger.debug("🔍 Extracted URL: {}", project_url)
+        
+        # Validate URL is present
+        if not project_url:
+            self.logger.error("❌ No URL found in config: {}", config)
+            raise ValueError("URL is required in config")
+
+        # Check for existing job by exact URL match
+        try:
+            existing = self.table(where="config LIKE ?", values=(f'%"{project_url}"%',))
+            self.logger.debug("🔍 Search results: {}", existing)
+            
+            if existing:
+                job_id = int(existing[0].id)
+                self.logger.debug("♻️ Found existing pipeline: {}", job_id)
+                return job_id
+        except Exception as e:
+            self.logger.error("❌ Error checking existing pipeline: {}", str(e))
+            raise
+
+        # Create new pipeline record
+        try:
+            insert_data = {
+                "state": initial_state,
+                "config": json.dumps(config),
+                "result": json.dumps({}),
+                "created_at": datetime.now().isoformat(),
+                "updated_at": datetime.now().isoformat()
+            }
+            self.logger.debug("📝 Pre-insert data: {}", json.dumps(insert_data, indent=2))
+            
+            # Verify URL is in the serialized config
+            if project_url not in insert_data["config"]:
+                self.logger.error("❌ URL missing from serialized config! Raw config: {}", config)
+                self.logger.error("❌ Serialized config: {}", insert_data["config"])
+                raise ValueError("URL lost during serialization")
+                
+            new_job = self.table.insert(insert_data)
+            self.logger.debug("📝 Post-insert job: {}", new_job)
+            
+            # Verify the insert worked by reading it back
+            verification = self.table(new_job.id)
+            self.logger.debug("📝 Verification read: {}", verification)
+            if project_url not in verification[0].config:
+                self.logger.error("❌ URL missing after insert! DB record: {}", verification[0])
+                raise ValueError("URL lost during database insert")
+                
+            return int(new_job.id)
+        except Exception as e:
+            self.logger.error("❌ Error inserting new pipeline: {}", str(e))
+            raise
+
+    def update(self, job_id: int, new_state: str, result: dict = None):
+        """Update pipeline state and results.
+        
+        FastHTML Pattern Alert:
+        - Direct table.update() call, not session.commit()
+        - Simple dict updates, not model attribute setting
+        - No need for session management or transaction scope
+        """
+        try:
+            job = self.table[job_id]
+            self.logger.debug("📄 Current job data type: {}", type(job))
+            self.logger.debug("📄 Current job data: {}", vars(job) if hasattr(job, '__dict__') else job)
+        except Exception as e:
+            self.logger.error("❌ Error retrieving job {}: {}", job_id, str(e))
+            return
+
+        old_state = job.state
+        
+        # Log state transition with arrow
+        self.logger.debug("🔄 Pipeline {} State Change:", job_id)
+        self.logger.debug("├── <blue>{}</blue> ➜ <green>{}</green>", old_state, new_state)
+        
+        if result:
+            self.logger.debug("└── New Results:")
+            for key, value in result.items():
+                if isinstance(value, list):
+                    self.logger.debug("    ├── {}: {} items", key, len(value))
+                else:
+                    self.logger.debug("    └── {}: {}", key, value)
+
+        try:
+            update_data = {
+                "id": job_id,
+                "state": new_state,
+                "updated_at": datetime.now().isoformat(),
+                "result": json.dumps(result) if result else job.result
+            }
+            self.logger.debug("📝 Attempting update with data: {}", json.dumps(update_data, indent=2))
+            self.table.update(update_data)
+            self.logger.debug("✅ Update successful")
+        except Exception as e:
+            self.logger.error("❌ Error updating pipeline: {}", str(e))
+            return
+        
+        self._log_table_state("After update")
+
+    def get(self, job_id: int) -> dict:
+        """Get job details with parsed config/result.
+        
+        FastHTML Pattern Alert:
+        - Direct table.get() call, not session.query()
+        - Returns plain dict, not a model instance
+        - JSON fields automatically parsed from strings
+        """
+        self.logger.debug("🔍 Retrieving pipeline {}", job_id)
+        
+        try:
+            job = self.table.get(job_id)
+            self.logger.debug("📄 Retrieved job data type: {}", type(job))
+            self.logger.debug("📄 Retrieved job data: {}", vars(job) if hasattr(job, '__dict__') else job)
+        except Exception as e:
+            self.logger.error("❌ Error retrieving job {}: {}", job_id, str(e))
+            raise
+
+        if not job:
+            raise ValueError(f"No job found with ID {job_id}")
+        
+        result = {
+            "id": job.id,
+            "state": job.state,
+            "created_at": job.created_at,
+            "updated_at": job.updated_at,
+            "config": json.loads(job.config),
+            "result": json.loads(job.result)
+        }
+        
+        self.logger.debug("Pipeline details:")
+        state_color = {
+            'initialized': 'blue',
+            'analyses_fetched': 'green',
+            'processing': 'yellow', 
+            'complete': 'bright_green',
+            'error': 'red'
+        }.get(result['state'], 'white')
+        
+        self.logger.debug("├── State: <{}>{}</{}>", state_color, result['state'], state_color)
+        self.logger.debug("├── Created: {}", result['created_at'])
+        self.logger.debug("├── Updated: {}", result['updated_at'])
+        
+        if result['result']:
+            self.logger.debug("└── Results:")
+            for key, value in result['result'].items():
+                if isinstance(value, list):
+                    self.logger.debug("    ├── {}: {} items", key, len(value))
+                else:
+                    self.logger.debug("    └── {}: {}", key, value)
+        else:
+            self.logger.debug("└── <dim>No results yet</dim>")
+        
+        return result
+
+
+# ----------------------------------------------------------------------------------------------------
+# __        __   _       _                _
+# \ \      / /__| |__   / \   _ __   __ _(_) ___   __ _ _ __ __ _ _ __ ___
+#  \ \ /\ / / _ \ '_ \ / _ \ | '_ \ / _` | |/ _ \ / _` | '__/ _` | '_ ` _ \
+#   \ V  V /  __/ |_) / ___ \| | | | (_| | | (_) | (_| | | | (_| | | | | | |
+#    \_/\_/ \___|_.__/_/   \_\_| |_|\__, |_|\___/ \__, |_|  \__,_|_| |_| |_|
+#                                   |___/         |___/
+# *******************************
+# WebAngiogram replacing BotifyLinkGraph Link Graph Botify Integration
+# *******************************
+
+class WebAngiogram:
+    """A web graph analysis tool using database-backed pipeline AND FastHTML components.
+    
+    CRITICAL IMPLEMENTATION NOTES:
+    - Uses Pipeline class for state management - every state change is logged
+    - All database queries MUST wrap parameters in tuples, even single values:
+      existing = self.pipeline("url LIKE ?", (f"{normalized_url}%",))  # Note trailing comma!
+    - JSON serialization/deserialization is used for config/result storage
+    - URL normalization is critical for job deduplication
+    
+    FASTHTML CRITICAL NOTES (NOT FASTAPI!):
+    - Every route handler must return a FastHTML element (Div, P, etc.)
+    - These are REAL DOM elements, not Pydantic models or FastAPI components!
+    - The hierarchy creates actual HTML structure:
+      Div(P("text"), id="target") ->
+      <div id="target">
+        <p>text</p>
+      </div>
+    - HTMX attributes are first-class citizens:
+      hx_post="url" -> hx-post="url"
+    - Style/class/id are HTML attributes, not CSS classes
+    
+    KEY PYTHON GOTCHAS:
+    1. Single-item tuples require trailing comma:
+       values=(f'%"{project_url}"%',)  # Comma required!
+    2. JSON serialization can lose data - always verify after:
+       if project_url not in insert_data["config"]: raise ValueError()
+    3. FastHTML elements must be properly nested:
+       Div(P("text"), id="target")  # ID on container, not text
+    4. HTMX routes must return complete elements:
+       return Div(P("error"), id=f"{self.id_suffix}-result")
+    5. Database queries return lists - handle empty case:
+       existing = self.pipeline(...) 
+       if existing: job_id = existing[0].id  # Check first!
+    
+    STATE TRANSITIONS:
+    initialized -> analyses_fetched -> processing -> complete -> error
+    
+    CRITICAL PATHS:
+    1. Project URL submission:
+       - Normalize URL
+       - Check existing pipeline
+       - Create new pipeline if needed
+       - Fetch analyses from API
+       - Update pipeline state
+       
+    2. Status polling:
+       - Get pipeline by ID
+       - Parse JSON config/result
+       - Return appropriate UI based on state
+       
+    3. Pipeline clearing:
+       - Delete all records
+       - Return confirmation UI
+       
+    ERROR HANDLING:
+    - Every operation must handle exceptions
+    - Return user-friendly error messages in UI
+    - Log full details including stack traces
+    - Maintain consistent UI state
+    """
+
+    def __init__(self, app, pipeline_table):
+        self.app = app
+        self.pipeline = pipeline_table  # This is the table object from db.create()
+        self.id_suffix = "web-angiogram"
+        self.logger = logger.bind(name="WebAngiogram").bind(suffix=self.id_suffix)
+        self.base_url = "https://api.botify.com/v1"
+        self.route_prefix = "/web-angiogram"
+
+        # Register routes
+        app.route(f"{self.route_prefix}/update_project", methods=["POST"])(self.handle_project_url)
+        app.route(f"{self.route_prefix}/status/<int:job_id>", methods=["GET"])(self.get_status)
+        app.route(f"{self.route_prefix}/clear", methods=["POST"])(self.clear_pipelines)
+
+    async def render_web_angiogram_pipeline(self):
+        """Renders the complete interface.
+        
+        This render method is placed immediately after __init__ by convention, as it serves
+        as the primary entry point for building the pipeline's interface. While Python class
+        method order is not technically significant, maintaining this pattern helps developers
+        quickly locate the initial UI construction point across different pipeline modules.
+        
+        The method is uniquely named as render_web_angiogram_pipeline() rather than a generic
+        name like render() or render_interface() to ensure:
+        1. Global searches easily find this specific pipeline's render entry point
+        2. The first Card() component of this pipeline can be quickly located
+        3. Clear distinction from other pipeline render methods in the codebase
+        
+        FASTHTML PATTERN ALERT:
+        - Returns actual DOM structure via Div/H2/Button elements
+        - Not a template, not a Pydantic model - real HTML!
+        """
+        self.logger.debug("Rendering web angiogram interface")
+        return Div(
+            H2("Web Graph Analysis"),
+            self.create_progress_card(),
+            Button(
+                "Clear Pipelines",
+                hx_post=f"{self.route_prefix}/clear",
+                hx_target=f"#{self.id_suffix}-result",
+                style="background-color: #dc3545;"
+            )
+        )
+
+    def get_token(self):
+        """Get Botify API token from file"""
+        return open('botify_token.txt').read().strip()
+
+    def _normalize_botify_url(self, url: str) -> str:
+        """Normalize Botify URL to base project URL for comparison."""
+        match = re.search(r'app\.botify\.com/([^/]+)/([^/]+)', url)
+        if match:
+            org, project = match.groups()
+            return f"https://app.botify.com/{org}/{project}"
+        return url
+
+    async def _build_analysis_ui(self, analyses, org, project, normalized_url=None):
+        """Rest stop: All paths converge here to build consistent analysis UI
+        
+        UNIX PATTERN ALERT:
+        - Single source of UI truth
+        - Parameterized just enough to handle path variations
+        - Returns identical DOM structure regardless of journey
+        """
+        self.logger.debug(f"Building analysis UI with {len(analyses)} analyses")
+        
+        # Build options list
+        options = []
+        for slug in analyses:
+            try:
+                option = Option(slug, value=slug)
+                options.append(option)
+            except Exception as e:
+                self.logger.error(f"Failed to create option for {slug}: {e}")
+                raise
+
+        # Create select element
+        select = Select(*options)
+        select.attrs.update({
+            'name': 'analysis_slug',
+            'id': 'analysis-slug-select', 
+            'class': 'form-select',
+            'hx-get': f"{self.route_prefix}/update_comparison",
+            'hx-trigger': 'change',
+            'hx-target': '#comparison-select'
+        })
+
+        # Return consistent UI structure
+        ui = Div(
+            P(f"Org: {org} / Project: {project}"),
+            P(f"Found {len(analyses)} analyses"),
+            select,
+            id=f"{self.id_suffix}-result"
+        )
+
+        # Always include URL restoration script if normalized_url is provided
+        if normalized_url:
+            ui.children += (Script(f"document.getElementById('project-url-input').value = '{normalized_url}';"),)
+
+        return ui
+
+    async def handle_project_url(self, request):
+        """Handle project URL submission and parse org/project.
+        
+        FASTHTML PATTERN ALERT:
+        - Returns DOM elements like Div/P/Select, not JSON responses
+        - Select(*options) creates actual <select> element
+        - attrs.update() modifies DOM attributes directly
+        - HTMX attributes are prefixed with hx_ not data-hx-
+        """
+        self.logger.debug("Handling project URL submission")
+        form = await request.form()
+        project_url = form.get("project_url")
+        self.logger.debug(f"Received project URL: {project_url}")
+
+        # Normalize the submitted URL
+        normalized_url = self._normalize_botify_url(project_url)
+        self.logger.debug(f"Normalized URL: {normalized_url}")
+
+        # Check for existing pipeline with normalized URL
+        existing = self.pipeline("url LIKE ?", (f"{normalized_url}%",))  # Wrap the parameter in a tuple
+        if existing:
+            self.logger.debug(f"Found existing pipeline for URL: {normalized_url}")
+            result = json.loads(existing[0].result)
+            slugs = result.get('slugs', [])
+            config = json.loads(existing[0].config)
+            return await self._build_analysis_ui(
+                analyses=slugs,
+                org=config['org'],
+                project=config['project'],
+                normalized_url=normalized_url
+            )
+
+        # Parse org and project from URL
+        match = re.search(r'app\.botify\.com/([^/]+)/([^/]+)', project_url)
+        if not match:
+            error_msg = "Invalid project URL format"
+            self.logger.error(error_msg)
+            return Div(P(error_msg), id=f"{self.id_suffix}-result")
+
+        org, project = match.groups()
+        self.logger.debug(f"Parsed org: {org}, project: {project}")
+
+        # Create initial pipeline record using MiniDataAPI
+        pipeline_data = {
+            "state": "initialized",
+            "url": normalized_url,  # Store normalized URL
+            "config": json.dumps({
+                "org": org,
+                "project": project,
+                "url": project_url  # Keep original URL in config
+            }),
+            "result": json.dumps({})
+        }
+        
+        # Insert new record
+        new_pipeline = self.pipeline.insert(pipeline_data)
+        self.logger.debug(f"Created pipeline job {new_pipeline.id}")
+
+        # Fetch analysis slugs from Botify API
+        try:
+            url = f"{self.base_url}/analyses/{org}/{project}/light"
+            headers = {
+                "Authorization": f"Token {self.get_token()}",
+                "Content-Type": "application/json"
+            }
+            analyses = []
+
+            async with aiohttp.ClientSession() as session:
+                while url:
+                    self.logger.debug(f"Fetching analyses from: {url}")
+                    async with session.get(url, headers=headers) as response:
+                        if response.status != 200:
+                            error_msg = f"Failed to fetch analyses. Status: {response.status}"
+                            self.logger.error(error_msg)
+                            self.pipeline.update({
+                                "id": new_pipeline.id,
+                                "state": "error",
+                                "result": json.dumps({"error": error_msg})
+                            })
+                            return Div(
+                                P(error_msg),
+                                id=f"{self.id_suffix}-result"
+                            )
+                        data = await response.json()
+                        analyses.extend(data.get('results', []))
+                        self.logger.debug(f"Retrieved {len(data.get('results', []))} analyses")
+                        url = data.get('next')
+
+            slugs = [a['slug'] for a in analyses]
+            self.logger.info(f"Total analyses found: {len(slugs)}")
+            self.pipeline.update({
+                "id": new_pipeline.id,
+                "state": "analyses_fetched",
+                "result": json.dumps({"slugs": slugs})
+            })
+
+            return await self._build_analysis_ui(
+                analyses=slugs,
+                org=org,
+                project=project,
+                normalized_url=normalized_url
+            )
+
+        except Exception as e:
+            error_msg = f"Error fetching analyses: {str(e)}"
+            self.logger.error(error_msg)
+            self.pipeline.update({
+                "id": new_pipeline.id,
+                "state": "error",
+                "result": json.dumps({"error": error_msg})
+            })
+            return Div(
+                P(error_msg),
+                id=f"{self.id_suffix}-result"
+            )
+
+    async def get_status(self, job_id: int):
+        """Get current job status.
+        
+        FASTHTML PATTERN ALERT:
+        - Returns Progress element for status bar
+        - All responses are DOM elements
+        - HTMX polling via hx-trigger="every 2s"
+        """
+        self.logger.debug(f"Getting status for job {job_id}")
+        try:
+            # Use table[primary_key] to get record
+            job = self.pipeline[job_id]
+            
+            # Parse JSON strings back to dicts
+            config = json.loads(job.config)
+            result = json.loads(job.result)
+
+            if job.state == "complete":
+                return Div(
+                    H3("Analysis Complete"),
+                    # Render results from result dict
+                    id=f"{self.id_suffix}-result"
+                )
+
+            return Div(
+                P(f"Analysis in progress... ({job.state})"),
+                Progress(
+                    value=result.get("progress", 0),
+                    max="100",
+                    id=f"{self.id_suffix}-progress-{job_id}"
+                ),
+                id=f"{self.id_suffix}-result",
+                hx_get=f"{self.route_prefix}/status/{job_id}",
+                hx_trigger="every 2s"
+            )
+        except Exception as e:
+            self.logger.error(f"Error retrieving job {job_id}: {str(e)}")
+            return Div(
+                P(f"Error: {str(e)}"),
+                id=f"{self.id_suffix}-result"
+            )
+
+    async def clear_pipelines(self, request):
+        """Clear all pipeline records."""
+        self.logger.debug("Clearing all pipeline records")
+        count = 0
+        # Get all records
+        for pipeline in self.pipeline():
+            self.pipeline.delete(pipeline.id)
+            count += 1
+        
+        self.logger.info(f"Cleared {count} pipeline records")
+        return Div(
+            P(f"Pipeline table cleared successfully ({count} records deleted)"),
+            id=f"{self.id_suffix}-result"
+        )
+
+    def create_progress_card(self):
+        """Creates the initial project URL input form.
+        
+        FASTHTML PATTERN ALERT:
+        - Card/Form/Div/Input/Button are all DOM elements
+        - Nesting creates actual HTML structure:
+          <div class="card">
+            <form hx-post="..." hx-target="...">
+              <div style="...">
+                <input type="url" ...>
+                <button type="submit">Get Analyses</button>
+              </div>
+            </form>
+            <div id="..."></div>
+          </div>
+        - style/class/id are HTML attributes
+        - hx_post/hx_target are HTMX directives
+        """
+        self.logger.debug("Creating progress card")
+        return Card(
+            Form(
+                Div(
+                    Input(
+                        type="url",
+                        id="project-url-input",
+                        name="project_url",
+                        placeholder="Enter Botify project URL",
+                        pattern="https://app\.botify\.com/.+/.+/?.*",
+                        required=True,
+                        style="flex-grow: 1; margin-right: 10px;"
+                    ),
+                    Button(
+                        "Get Analyses",
+                        type="submit",
+                        style="width: 200px;"
+                    ),
+                    style="display: flex; align-items: center;"
+                ),
+                hx_post=f"{self.route_prefix}/update_project",
+                hx_target=f"#{self.id_suffix}-result"
+            ),
+            Div(id=f"{self.id_suffix}-result"),
+            id=f"{self.id_suffix}-card"
+        )
+
+
+# Initialize with pipeline table
+web_angiogram = WebAngiogram(app, pipelines)
 ```
-
-This documentation captures the key learnings from Card 1 and provides a solid foundation for implementing Card 2. The focus on state consistency, proper FastHTML patterns, and pipeline integration will be crucial for maintaining the application's reliability and user experience.
-
