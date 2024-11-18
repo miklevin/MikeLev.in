@@ -2896,7 +2896,8 @@ def _get_htmx(headers):
 ```
 Using `.get()` with a default value prevents KeyError exceptions while maintaining clean code.
 
-5. **The Dataclass Factory Pattern**
+5. **The Dataclass Factory Pattern**  
+
 ```python
 @dataclass
 class HttpHeader: k:str; v:str
@@ -2909,7 +2910,7 @@ def HtmxResponseHeaders(**kwargs):
 ```
 Using dataclasses for structured data with factory functions for creation.
 
-6. **The Lazy Import Pattern**
+6. **The Lazy Import Pattern** 
 ```python
 def setup_ws(app, f=noop):
     async def on_connect(scope, send): 
