@@ -2234,6 +2234,20 @@ Oh, but the 3rd implementation is going to be soooo smooth and... and... I don't
 want to say simple, and I don't want to say "complexity controlled". Complexity
 is shoved around to all the right places. The cognitive load of looking at,
 constructing and dealing with Pipeline procedures... workflow, chaining up in's
-and outs. The old Yahoo Pipes thing. The Unix Way. But don't ramble.
+and outs. The old Yahoo Pipes thing. The Unix Way. But don't ramble. Yup,
+Prometheus unbound. We need a controlled ignition. Don't overdo it. Focus on the
+client work. Gradually phase in workflows... phase in workflows... that's key.
 
-- 
+Do it gradually and get a feel for the reins you just created. It's Unix pipes
+all over again. Everything old is new again. The universal fundamential first
+principle and all that jazz stuff always reassert themselves over the years.
+It's always a process of humans discovering and rediscovering and rediscovering
+what other humans long ago knew, with each thinking they're discovering or
+adding something new, but that's really very rare and I'm likely no different.
+It's just connecting the output of one thign to the input of another thing and
+deciding how important side-effects are. Yahoo Pipes (wow, they could have owned
+the world). If This Then find a way to install a cash Zapier on That. It's
+always the same, it's just least lame in FOSS.
+
+
+
