@@ -1,7 +1,7 @@
 ---
 title: Unix Pipeline Philosophy in HTMX + FastHTML Workflows
 permalink: /unix-pipelines-htmx-fasthtml-workflow/
-description: 
+description: "Unix Pipeline Philosophy in HTMX + FastHTML Workflows: Enhance your coding skills by embracing a Unix-inspired approach to building web applications with HTMX and FastHTML."
 layout: post
 sort_order: 2
 date: 2024-11-16
