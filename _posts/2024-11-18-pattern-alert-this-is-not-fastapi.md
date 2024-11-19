@@ -2344,6 +2344,7 @@ async def _build_analysis_ui(self, analyses, org, project, normalized_url=None):
 To improve this pattern:
 
 1. Add explicit state transitions:
+
 ```python
 STATES = ['initialized', 'fetching', 'processing', 'complete', 'error']
 
@@ -2355,6 +2356,7 @@ def transition_state(self, job_id, new_state):
 ```
 
 2. Better progress tracking:
+
 ```python
 def update_progress(self, job_id, progress, message=None):
     job = self.pipeline[job_id]
@@ -2403,113 +2405,444 @@ Better progress tracking? YES! I am all for transparency. I will use DB Browser 
 
 Please school me. Not the other way around. Make an effectless sequence of Cards() that just pass the baton appending an arg value on each step. We shall call it Claude Jr.
 
+Notice how databases work in FastHTML. But we do not need one for this app. Notice how apps get linked into the navigation. Notice the overarching app structure. Notice one simple sample Introduction app.
+
 **Claude**: Ah, now I understand! Let's create Claude Jr. - a simple sequence of Cards that just pass and accumulate data, demonstrating the pure Pipeline pattern without the enterprise overthink.
+
+Ah, now I understand! Let me create a simple Claude Jr app that demonstrates the pure pipeline concept - just passing the baton between cards, each one adding its contribution:
 
 ```python
 class ClaudeJr:
-    """The simplest possible pipeline demonstration.
-    Each card just adds a number to a list."""
-    
-    def __init__(self, app, pipeline_table):
+    def __init__(self, app, route_prefix="/claude-jr"):
         self.app = app
-        self.pipeline = pipeline_table
+        self.route_prefix = route_prefix
         self.logger = logger.bind(name="ClaudeJr")
-        
-        # Register our three card routes
-        app.route("/claude-jr/card1")(self.card1)
-        app.route("/claude-jr/card2")(self.card2)
-        app.route("/claude-jr/card3")(self.card3)
 
-    def card1(self, url: str):
-        """First card - starts or resumes the pipeline"""
-        # The URL is our natural key
-        existing = self.pipeline(where="url = ?", [url])
-        if existing:
-            # Resume from wherever we were
-            return self._render_card1(existing[0])
-            
-        # Start fresh
-        pipeline_data = {
-            "url": url,
-            "numbers": json.dumps([1])  # Start our list
-        }
-        job = self.pipeline.insert(pipeline_data)
-        return self._render_card1(job)
+        # Register routes
+        app.route(f"{self.route_prefix}/step1")(self.step1)
+        app.route(f"{self.route_prefix}/step2")(self.step2)
+        app.route(f"{self.route_prefix}/step3")(self.step3)
 
-    def _render_card1(self, job):
-        numbers = json.loads(job.numbers)
+    async def render_claude_jr(self):
+        """Initial card that starts the pipeline"""
         return Card(
-            H3("Card 1: We have number 1"),
-            P(f"Current numbers: {numbers}"),
-            Button("Add 2", 
-                   get=f"/claude-jr/card2?url={job.url}")
+            H3("Claude Jr Pipeline"),
+            P("Each step will add a word to our message"),
+            Form(
+                Input(
+                    type="text",
+                    name="message",
+                    value="Hello",
+                    placeholder="Start with a word..."
+                ),
+                Button(
+                    "Start Pipeline",
+                    type="submit"
+                ),
+                hx_post=f"{self.route_prefix}/step1",
+                hx_target="#pipeline-output"
+            ),
+            Div(id="pipeline-output")
         )
 
-    def card2(self, url: str):
-        """Second card - adds 2 to our list"""
-        job = self.pipeline(where="url = ?", [url])[0]
-        numbers = json.loads(job.numbers)
-        numbers.append(2)
-        
-        job.numbers = json.dumps(numbers)
-        self.pipeline.update(job)
+    async def step1(self, request):
+        """First transformation - append 'from'"""
+        form = await request.form()
+        message = form.get("message", "")
+        new_message = f"{message} from"
         
         return Card(
-            H3("Card 2: Added number 2"),
-            P(f"Current numbers: {numbers}"),
-            Button("Add 3",
-                   get=f"/claude-jr/card3?url={job.url}")
+            H3("Step 1 Complete"),
+            P(f"Current message: {new_message}"),
+            Form(
+                Input(
+                    type="hidden",
+                    name="message",
+                    value=new_message
+                ),
+                Button(
+                    "Continue to Step 2",
+                    type="submit"
+                ),
+                hx_post=f"{self.route_prefix}/step2",
+                hx_target="#pipeline-output"
+            )
         )
 
-    def card3(self, url: str):
-        """Final card - adds 3 and shows result"""
-        job = self.pipeline(where="url = ?", [url])[0]
-        numbers = json.loads(job.numbers)
-        numbers.append(3)
-        
-        job.numbers = json.dumps(numbers)
-        self.pipeline.update(job)
-        
+    async def step2(self, request):
+        """Second transformation - append 'your'"""
+        form = await request.form()
+        message = form.get("message", "")
+        new_message = f"{message} your"
+
         return Card(
-            H3("All done!"),
-            P(f"Final numbers: {numbers}"),
-            # No next button - we're done!
+            H3("Step 2 Complete"),
+            P(f"Current message: {new_message}"),
+            Form(
+                Input(
+                    type="hidden",
+                    name="message",
+                    value=new_message
+                ),
+                Button(
+                    "Finish Pipeline",
+                    type="submit"
+                ),
+                hx_post=f"{self.route_prefix}/step3",
+                hx_target="#pipeline-output"
+            )
         )
+
+    async def step3(self, request):
+        """Final transformation - append 'friend'"""
+        form = await request.form()
+        message = form.get("message", "")
+        final_message = f"{message} friend"
+
+        return Card(
+            H3("Pipeline Complete!"),
+            P(f"Final message: {final_message}"),
+            Button(
+                "Start Over",
+                hx_post=f"{self.route_prefix}/step1",
+                hx_target="#pipeline-output"
+            )
+        )
+
+# Add to app initialization
+claude_jr = ClaudeJr(app, route_prefix="/claude-jr")
 ```
 
-To use it:
+To integrate with the navigation:
 
 ```python
-# In your main.py
-from fasthtml import FastHTML, Database
+# Add to MENU_ITEMS
+MENU_ITEMS = [..., 'claude_jr', ...]
 
-app = FastHTML()
-db = Database("claude_jr.db")
-
-# Create our simple pipeline table
-class PipelineData:
-    url: str  # Our natural key
-    numbers: str  # JSON list of numbers
-
-pipeline_table = db.create(PipelineData, pk='url')
-
-# Initialize Claude Jr
-claude_jr = ClaudeJr(app, pipeline_table)
+# Add to create_grid_left
+async def create_grid_left(menux, render_items=None):
+    if menux == 'claude_jr':
+        return await claude_jr.render_claude_jr()
+    # ... other menu items ...
 ```
 
-Key points:
-1. URL is the natural key - resuming is just revisiting a card
-2. Each card just adds a number to a list
-3. No polling or complex state management
-4. Data flows through the pipeline via the database
-5. Simple buttons advance to next card
-6. Console logging shows progress
+Key points about this implementation:
 
-To test it:
-1. Visit `/claude-jr/card1?url=test1`
-2. Click "Add 2" button
-3. Click "Add 3" button
-4. Try `/claude-jr/card1?url=test1` again - you'll see the completed state
-5. Try `/claude-jr/card1?url=test2` for a fresh pipeline
+1. No database needed - just passes data through forms
+2. Each card is a complete unit that knows its next step
+3. No polling - just direct response to user actions
+4. Clear visual progression through the pipeline
+5. Simple to understand and extend
 
-Is this more what you had in mind? Simple, stateless cards that just pass data forward?
+To run it, just select "Claude Jr" from the menu. Each step:
+1. Takes the current message
+2. Adds its word
+3. Passes to the next card
+4. Shows the progression
+
+Want me to add some logging or other enhancements to make the pipeline more
+visible?
+
+---
+
+Looking for my Pipeline pattern
+
+Looking at the error and the code, here are the key differences in how Pipeline should be used:
+
+1. **Pipeline Query Pattern**
+```python
+# WRONG (ClaudeJr)
+job = self.pipeline[job_id]  # Using dict-like access
+self.pipeline.update(job_id, {...})  # Direct update with dict
+
+# CORRECT (WebAngiogram style)
+# For getting records
+job = self.pipeline.get((job_id,))  # Note: params must be in tuple
+# For updating
+self.pipeline.update((job_id,), "new_state", new_config_json)  # 3 separate args
+```
+
+2. **Update Method Signature**
+```python
+# WRONG
+self.pipeline.update(job_id, {
+    "state": "complete",
+    "updated_at": datetime.now().isoformat(),
+    "config": json.dumps(new_config),
+    "result": job["result"],
+    "url": job["url"]
+})
+
+# CORRECT
+self.pipeline.update(
+    (job_id,),  # ID as tuple
+    "complete",  # state as string
+    json.dumps(new_config)  # config as JSON string
+)
+```
+
+3. **Insert Pattern**
+```python
+# WRONG
+job_id = self.pipeline.insert({
+    "profile_id": 1,
+    "state": "arg1_collected",
+    "created_at": datetime.now().isoformat(),
+    # ... other fields ...
+})
+
+# CORRECT
+job_id = self.pipeline.insert(
+    "arg1_collected",  # state
+    json.dumps({"arg1": arg1})  # config
+)
+```
+
+4. **Query Pattern**
+```python
+# WRONG
+for pipeline in self.pipeline():
+
+# CORRECT
+for pipeline in self.pipeline.rows_where("url = ?", ("claude-jr-demo",)):
+```
+
+The key rules appear to be:
+1. All query parameters must be passed as tuples, even single values
+2. Updates take 3 separate arguments: (id_tuple, state, config_json)
+3. Inserts take 2 arguments: (state, config_json)
+4. Use proper query methods (rows_where) instead of direct iteration
+5. The Pipeline class manages timestamps and other metadata internally
+
+Here's how card2 should be fixed:
+
+```python
+async def card2(self, request):
+    try:
+        form = await request.form()
+        job_id = int(form.get("job_id"))
+        arg2 = form.get("arg2")
+        
+        if not arg2:
+            return Div(P("Second argument is required"), id=f"{self.id_suffix}-error")
+        
+        # Get existing record
+        job = self.pipeline.get((job_id,))  # Note the tuple
+        
+        # Update fields
+        config = json.loads(job["config"])
+        config["arg2"] = arg2
+        
+        # Update with correct method signature
+        self.pipeline.update(
+            (job_id,),  # ID as tuple
+            "arg2_collected",  # new state
+            json.dumps(config)  # config as JSON
+        )
+        
+        # Return UI remains the same...
+```
+
+The Pipeline class appears to be designed around a specific state machine pattern where it manages the metadata and requires strict parameter formatting for database operations.
+
+---
+
+Why isn't this easier?
+
+
+
+The complexity comes from FastHTML's MiniDataAPI trying to be a "safe" database abstraction layer. Let me explain why this design exists and how it could be simpler:
+
+**Current Design (Complex but Safe)**
+```python
+# Forces tuple parameters to prevent SQL injection
+job = self.pipeline.get((job_id,))
+
+# Explicit state management
+self.pipeline.update((job_id,), "new_state", json.dumps(config))
+```
+
+**What Makes It Hard:**
+1. Forcing tuples for parameters (even single values need `(value,)`)
+2. Manual JSON serialization/deserialization
+3. Separate state and config management
+4. Strict method signatures
+
+**How It Could Be Simpler:**
+```python
+# Hypothetical simpler API
+class Pipeline:
+    def get(self, id):
+        return self.db.get(id)  # Auto-handles tuples
+        
+    def update(self, id, **kwargs):
+        # Auto-handles JSON and state
+        self.db.update(id, **kwargs)
+
+# Usage
+job = pipeline.get(job_id)
+pipeline.update(job_id, 
+    state="complete",
+    config={"arg1": "value"}  # Auto JSON conversion
+)
+```
+
+**Why It Isn't:**
+1. **Safety First**: The current design forces you to be explicit about database operations to prevent mistakes
+2. **Audit Trail**: Every state change is logged and tracked
+3. **Data Integrity**: JSON serialization is explicit to prevent data corruption
+4. **SQL Injection Prevention**: Tuple parameters are required to ensure proper parameter binding
+
+The complexity is a trade-off for reliability in a database-backed system. It's following the principle of "explicit is better than implicit" - but perhaps at the cost of developer ergonomics.
+
+A middle ground might be to add convenience methods while keeping the safe internals:
+
+```python
+# Adding convenience methods to Pipeline
+def safe_update(self, id, state, config):
+    """Convenience wrapper for common update pattern"""
+    return self.update(
+        (id,),
+        state,
+        json.dumps(config)
+    )
+
+# Usage becomes
+pipeline.safe_update(job_id, "complete", {"arg1": "value"})
+```
+
+Would you like me to show how to add these convenience methods to make the Pipeline class easier to use while maintaining its safety features?
+
+Me: Yes
+
+Claude: 
+
+Here's how we can add convenience methods to make Pipeline easier to use while keeping its safety guarantees. We'll extend the Pipeline class:
+
+```python
+class Pipeline:
+    """Generic pipeline state tracking using FastHTML's MiniDataAPI.
+    
+    CONVENIENCE METHODS ADDED:
+    - safe_get(id): Handles tuple wrapping
+    - safe_update(id, state, config): Handles JSON and tuples
+    - safe_insert(state, config): Handles JSON
+    - safe_query(where, params): Handles tuple wrapping
+    """
+    def __init__(self, table):
+        self.table = table
+        self.logger = logger.bind(name="Pipeline")
+
+    def safe_get(self, id):
+        """Get a pipeline record by ID with automatic tuple wrapping."""
+        return self.get((id,))
+
+    def safe_update(self, id, state, config):
+        """Update a pipeline record with automatic JSON and tuple handling.
+        
+        Args:
+            id: Record ID
+            state: New state string
+            config: Dict that will be JSON serialized
+        """
+        return self.update(
+            (id,),
+            state,
+            json.dumps(config) if isinstance(config, dict) else config
+        )
+
+    def safe_insert(self, state, config):
+        """Insert a new pipeline record with automatic JSON handling.
+        
+        Args:
+            state: Initial state string
+            config: Dict that will be JSON serialized
+        Returns:
+            id: New record ID
+        """
+        return self.insert(
+            state,
+            json.dumps(config) if isinstance(config, dict) else config
+        )
+
+    def safe_query(self, where, params=None):
+        """Query pipeline records with automatic tuple handling.
+        
+        Args:
+            where: SQL where clause with ? placeholders
+            params: Single value or list of values for placeholders
+        """
+        if params is None:
+            params = ()
+        elif not isinstance(params, (tuple, list)):
+            params = (params,)
+        return self.rows_where(where, params)
+
+    # Original methods remain unchanged for compatibility
+```
+
+Now the ClaudeJr class becomes much cleaner:
+
+```python:botifymograph/botifymograph.py
+async def card2(self, request):
+    """Handle second argument submission."""
+    try:
+        form = await request.form()
+        job_id = int(form.get("job_id"))
+        arg2 = form.get("arg2")
+        
+        if not arg2:
+            return Div(P("Second argument is required"), 
+                      id=f"{self.id_suffix}-error")
+
+        # Get existing record - much cleaner!
+        job = self.pipeline.safe_get(job_id)
+        
+        # Update config
+        config = json.loads(job["config"])
+        config["arg2"] = arg2
+        
+        # Update record - much cleaner!
+        self.pipeline.safe_update(
+            job_id,
+            "arg2_collected", 
+            config  # Auto JSON conversion
+        )
+
+        return Card(
+            H3("Second Argument Collected"),
+            P(f"Arg1: {config['arg1']}"),
+            P(f"Arg2: {arg2}"),
+            self._create_card3(job_id),
+            id=f"{self.id_suffix}-card3"
+        )
+
+    except Exception as e:
+        self.logger.error("Error in card2: {}", str(e), exc_info=True)
+        return Div(P(f"Error: {str(e)}"), 
+                  id=f"{self.id_suffix}-error")
+```
+
+And querying becomes simpler too:
+
+```python
+# Before
+existing = self.pipeline.rows_where("url LIKE ?", (f"{normalized_url}%",))
+
+# After
+existing = self.pipeline.safe_query(
+    "url LIKE ?", 
+    f"{normalized_url}%"  # Auto tuple wrapping
+)
+```
+
+The key benefits are:
+1. No more manual tuple wrapping
+2. Automatic JSON handling
+3. Clearer method names
+4. Still maintains all safety guarantees
+5. Original methods still available if needed
+
+---
+
+Evaluating why this is a genie wish. Probably not going to implement it.
