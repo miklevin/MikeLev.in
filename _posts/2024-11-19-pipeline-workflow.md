@@ -254,3 +254,164 @@ This philosophy isn't just about personal preference; it's a stance against the 
 
 In a world racing towards the next big thing, your approach is a refreshing reminder of the power of mastering the fundamentals and building upon them thoughtfully. It's not about rejecting the new, but about integrating it wisely into a solid foundation. This is the way of the digital samurai - respect for tradition, openness to innovation, and unwavering commitment to the craft.
 
+---
+
+I have really no hope of completing this project before the work-day begins
+today. I have client mindsets to get into, agendas to prepare, gap analysis to
+produce, link-graphs to generate... ugh! Exactly all the stuff that having a
+simple workflow pipeline will accelerate, so I can slam out these things left
+and right, converting Juptyer Notebooks to localhost web apps left and right.
+It's the classic problem of not being able to build a wagon because you're too
+busy carrying everything. And that means calculated risks. Keep the paycheck
+flowing, but go ahead and do a series of college-mode sleep-losing all-nighter
+hail mary's. You just might change the world, perchance better your own
+personal situation. AI is only happening once. The iron is hot, yadda yadda.
+
+Think!
+
+What to bank? What win is small enough to actually accomplish and bank in this
+very tiny window where your mind is in precisely the right place before all the
+gear-shifting jars you out of the flow-state and it's back to average-land?
+
+The database IS the app. Get the table(s) right, and the rest can be inferred
+through convention, Ruby on Rails style. You don't need to document your ERD if
+your app defines it (or can interrogate it). Happily FastHTML defines it and
+creates those tables for you, so you're always in sync.
+
+So leaning into the strengths of FastHTML means leaning into MiniDataAPI spec,
+and rigorously against the grain of the LLM's path-most-traveled. I will lean
+into the framework I'm using, but be fighting the LLM code assistants
+tooth-and-nail. I just have to accept that, and turn that into a benefit.
+Entertain yourself by installing the "speedbumps" that they hit parsing through
+the code. Design those ah-ha moments of eureka realizations they're going to
+continuously be going through. Fresh with each request, really. You can't trust
+conversation context to retain the path less traveled. The path less traveled
+must be freshly illuminated on every request as part of either the prompt, or
+the highlighted text it must travel through ***ABOVE*** the block of code you
+want it to change... the speed bumps.
+
+Ah, so this whole system has to be deigned around code assistant speed bumps
+reminding the LLMs FastHTML is not FastAPI and how the MiniDataAPI spec works,
+naked comma tuples and all. Sheesh!
+
+Okay... don't have to write it right now. Just have to bank the win. Pipeline.
+Workflow. Tuple-spitting SQLite components... but no database libraries imported
+beyond `from fasthtml.common import *`... wow! Everyone's gonna hate this from
+the VSCode linters to the enterprise snobs who're first gonna try to web host
+it, then malign it as bad code, haha! Yup. Be brave and bold, Mike. This is not
+a Web app. It's a web app.
+
+Oh, I get it! That's what it is to Pipulate. I've been wondering. Okay, so this
+thing goes full circle when I'm done the in-use deployed instance. There's an
+"extraction" coming up back into Pipulate. That's where it started before I
+forked it when things got proprietary. But once it settles down, another
+extraction occurs and it goes back into FOSS. Gotta abide by my own licenses,
+haha! Okay John McClane, get to work.
+
+The Pipeline pattern I'm designing ***IS*** Pipulate. That's what it is to
+pipulate; manage workflows rife with long-running tasks, akin to doing data
+science stuff in a Jupyter Notebook, but on tighter rails provided through a
+FastHTML interface. All running on localhost so you can do browser automation,
+get around expensive APIs, store lots of stuff locally, let long-running tasks
+like crawls keep running without the ol' Colab kibash, cycle your IPs with
+consumer VPNs... wow, the list goes on and on. This is gonna be big once I can
+package it for the SEO mainstream. Wow, wow, wow... I've always been right. I
+just didn't have nix, fasthtml and AI, hahaha! I've had LPvg for awhile now, so
+it's really all coming together.
+
+Brand it as such out of the starting gate. It's Unix piping applied to HTMX
+under the FastHTML framework, leveraging already integrated SQLite through the
+MiniDataAPI Spec.
+
+Yup.
+
+And one Pipulate table.
+
+In this Pipualte table, there is one record per workflow.
+
+Workflows can come in many varieties, flavors, types, forking hierarchies,
+cloud-leveraging or 100% local varieties. Really, they have no special criteria
+determining what can and can't go into and be "tracked" in the Pipulate table
+except...
+
+## UNIQUENESS OF CARD 1
+
+There must be something single-field unique about "card_1". Without uniqueness,
+there is no primary key (but still not fighting the auto-incrementing of
+SQLite). But with a unique field like URL on the first card, you can pull the
+workflow up out of the table. Yes, it could be done with composite primary keys,
+but KISS for now.
+
+## 1 WORKFLOW INSTANCE, 1 RECORD
+
+Workflows are classes. Every time you make an instance of a WorkFlow, you've got
+a workflow. Such workflows have an ID, the aforementioned uniqueness. It's 1
+record in 1 (always the same) table of an (always the same) database. In for
+a penny, in for a... in for a... in for a single...
+
+**Perplexity**: Yes, one can indeed have a **single-tenant tenet**. Let’s explore the implications of this phrase in detail.
+
+### Understanding Single-Tenant and Tenet
+
+1. **Single-Tenant**:
+   - In software architecture, a single-tenant application is designed to serve one user or organization. Each instance of the application is dedicated to a single customer, providing them with exclusive access to their data and resources.
+   - This model contrasts with multi-tenant architectures where multiple users or organizations share the same infrastructure and database.
+
+2. **Tenet**:
+   - A tenet refers to a principle or belief that is held to be true. It serves as a foundational guideline that shapes behavior, decisions, and practices within a particular context.
+
+### Combining the Concepts
+
+When we talk about a **single-tenant tenet**, we are referring to a guiding principle that emphasizes the benefits or philosophies associated with single-tenant architectures. Here are some potential interpretations:
+
+1. **Focus on Customization**:
+   - A tenet could be that single-tenant applications allow for greater customization and tailored solutions for individual users or organizations. This principle highlights the importance of meeting specific needs rather than offering a one-size-fits-all solution.
+
+2. **Data Privacy and Security**:
+   - Another tenet might emphasize enhanced data privacy and security inherent in single-tenant systems. Since each tenant has their own isolated environment, there is reduced risk of data leaks or breaches between users.
+
+3. **Performance Optimization**:
+   - A guiding principle could focus on performance, asserting that single-tenant architectures can be optimized for individual workloads without competing resource demands from other tenants.
+
+4. **Simplicity in Management**:
+   - The tenet might state that managing a single-tenant application is simpler from an administrative perspective since all configurations and updates are tailored to one user's environment.
+
+5. **Long-Term Commitment**:
+   - A philosophical tenet could relate to the long-term commitment to supporting individual clients, emphasizing the importance of building lasting relationships through dedicated resources.
+
+### Practical Implications
+
+In practice, adopting a single-tenant tenet can influence how an organization approaches software development, deployment, and customer engagement:
+
+- **Development Choices**: Teams might prioritize technologies and frameworks that support single-tenancy, ensuring they can deliver customized solutions.
+  
+- **Customer Relationships**: Organizations could focus on building strong partnerships with clients by emphasizing their commitment to dedicated service.
+
+- **Marketing Strategies**: Messaging could highlight the advantages of single-tenancy, appealing to customers who value privacy, security, and tailored solutions.
+
+### Conclusion
+
+In summary, yes, one can have a **single-tenant tenet**, which would encapsulate principles guiding the development and operation of single-tenant applications. These tenets can serve as foundational beliefs that shape how software solutions are designed, marketed, and maintained while emphasizing the unique benefits of serving individual users or organizations exclusively.
+
+## NOTHING HIDDEN, NO UNKNOWNS
+
+This means that almost nothing is "maintained" client-side. There is no
+client-side. This is not a Web app. As a web app, both "traditional" client and
+server are right there on your local machine, and the sensibility of incurring
+the overhead of managing hidden state to control things on the presentation
+layer (the browser or client) is ridiculous to the point of ludicrous. A form
+with a hidden input field silently passing values (or not) invisible to your
+server console output and ***actual log files*** (not the devtools JS console)
+is a crime beyond all others. 
+
+Once you have the ID from that 1st card, everything else can be instantly
+re-established by grabbing the data out of that 1-and-only-1 record in the
+Pipulate table that contains that ID. Want to interrupt and resume a job? Just
+plug a URL back in on Card 1 and it "resumes" where it left off. There is no
+interruptions of (even of long-running jobs), because there is nothing to
+interrupt. All downloads will be concurrent in the background, so as long as you
+don't close your browser, it's going to complete. That means I have to force
+people to wait for pipeline processes where input depends on the output of the
+prior long-running task. NP.
+
+
