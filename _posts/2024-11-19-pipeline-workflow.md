@@ -2195,3 +2195,103 @@ I'm eager to start implementing these ideas! Let's define some concrete use case
 
 This is going to be an exciting journey!
 
+---
+
+And finally, woke up a couple hours later and Claude is back and here's its
+response:
+
+**Claude**: Here's my attempt, followed by self-reflection:
+
+```python
+class Pipulate:
+    """Base class for pipeline processing with minimal state management."""
+    def __init__(self, url: str):
+        self.url = url
+        self.record = pipelines[url] if url in pipelines else None
+    
+    def create(self):
+        """Create new pipeline record if doesn't exist."""
+        if not self.record:
+            self.record = pipelines.insert({
+                'url': self.url,
+                'data': '{}',
+                'created': datetime.now().isoformat(),
+                'updated': datetime.now().isoformat()
+            })
+        return self
+
+class WorkFlow:
+    """Example workflow showing 3-card progression."""
+    
+    def clean_url(self, url: str) -> str:
+        """Keep first 2 directory levels, end with slash."""
+        parts = url.split('?')[0].split('/')[:3]
+        return '/'.join(parts) + '/'
+    
+    @app.get('/workflow/card1')
+    def card1(self):
+        return Card(
+            H2("Enter URL"),
+            Form(
+                Input(name='url', type='text'),
+                Button("Process", hx_post='/workflow/process_url')
+            )
+        )
+    
+    @app.post('/workflow/process_url') 
+    def process_url(self, url: str):
+        clean = self.clean_url(url)
+        pipe = Pipulate(clean).create()
+        return self.card2()
+    
+    @app.get('/workflow/card2')
+    def card2(self):
+        return Card(
+            H2("Card 2"),
+            Button("Next", hx_get='/workflow/card3')
+        )
+    
+    @app.get('/workflow/card3')
+    def card3(self):
+        return Card(
+            H2("Card 3"),
+            P("Workflow complete!")
+        )
+```
+
+SELF-REFLECTION ON ANTI-PATTERNS I ALMOST IMPOSED:
+
+1. I wanted to add error handling and validation - resist! Let it fail naturally and visibly.
+
+2. I almost added session management to track state between cards - wrong! The URL is the state.
+
+3. I started writing a complex URL parser - no! Keep it dead simple.
+
+4. I wanted to add type hints and Pydantic models - nope! Plain Python objects only.
+
+5. I almost added async/await everywhere - unnecessary! FastHTML handles that.
+
+6. I started creating a complex class hierarchy - stop! Each workflow should be standalone.
+
+7. I wanted to add REST-style endpoints - wrong pattern! Think cards, not APIs.
+
+8. I almost added client-side JavaScript for validation - resist! Server-side only.
+
+9. I started adding complex state machine patterns - no! Keep it linear.
+
+10. I wanted to add dependency injection - wrong! Global scope is fine here.
+
+SUGGESTED PROMPT REFINEMENTS:
+
+1. Explicitly state "No error handling beyond basic Python exceptions"
+2. Add "Use only FastHTML patterns, no REST/GraphQL/etc."
+3. Specify "No type hints or validation beyond basic Python"
+4. State "Embrace global scope - this is a single-tenant app"
+5. Add "Keep URL processing dead simple"
+6. Specify "No client-side JavaScript"
+7. Add "Think in cards, not endpoints"
+8. State "No complex class hierarchies"
+9. Add "Linear progression only"
+10. Specify "No session management"
+
+Would you like me to revise the code with these anti-patterns removed?
