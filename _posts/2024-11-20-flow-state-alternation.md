@@ -21,7 +21,9 @@ some Bizarro world, maybe this one, that's exactly what's going on. My attempts
 to hit above my weight league may be misguided, and I'm perhaps destined to
 fail.
 
-NOT! Wow, these AI coding assistants are great. I was on that Microsoft Github
+NOT! 
+
+Wow, these AI coding assistants are great. I was on that Microsoft Github
 Copilot bandwagon right out of the starting gate, and in NeoVim of all places,
 because that's where I journal. That's what I'm doing right now, and that didn't
 last long, no siree, I can tell you. It was like typing into maple syrup, such
@@ -62,4 +64,4 @@ Citations:
     [8] https://thecollision.org/the-worldview-of-soul/
 
 Oh today's work journal entry is going to be a dozy, but first I have to switch
-    states and focus on some client work. Sayonara for now!
+states and focus on some client work. Sayonara for now!
