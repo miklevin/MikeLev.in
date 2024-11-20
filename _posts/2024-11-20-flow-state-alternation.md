@@ -23,12 +23,16 @@ fail.
 
 NOT! 
 
-Wow, these AI coding assistants are great. I was on that Microsoft Github
-Copilot bandwagon right out of the starting gate, and in NeoVim of all places,
-because that's where I journal. That's what I'm doing right now, and that didn't
-last long, no siree, I can tell you. It was like typing into maple syrup, such
-is my typing into the longtail outlier fringe edges of that normal distribution
-bell curve of... of... Perplexity? What are those words I'm looking for?
+Wow, these AI coding assistants are great. I can turn the Dunning-Kruger effect
+into actual ability. Imagine that! Just keep making genie wishes whenever you
+come up to the limit of your abilities. I tried doing that from the moment it
+was made available to the general public. For example, I was on that Microsoft
+Github Copilot bandwagon right out of the starting gate, and in NeoVim of all
+places, because that's where I journal. That's what I'm doing right now, and
+that didn't last long, no siree, I can tell you. It was like typing into maple
+syrup, such is my typing into the longtail outlier fringe edges of that normal
+distribution bell curve of... of... Perplexity? What are those words I'm looking
+for?
 
 **Perplexity**: You're describing the concept of "flow state" or being "in the zone," which was indeed a central theme in Pixar's movie "Soul"[1][3]. This psychological state is characterized by complete absorption in a task, where time seems to slow down and self-consciousness fades away.
 
