@@ -1822,9 +1822,9 @@ I am not superstitious. I am not superstitious.
 
 I almost cancelled the reply, but I'm like "hey, why not?"
 
-**OpenAI**: *Anthropic is experiencing a partial outage right now. To avoid downtime, we've temporarily fallen back to an OpenAI model.*
+**Cursor AI**: *Anthropic is experiencing a partial outage right now. To avoid downtime, we've temporarily fallen back to an OpenAI model.*
 
-Here's a first pass at the `Pipulate` base class and a `WorkFlow` inspirational class, along with a self-reflective enumeration of potential pitfalls:
+**OpenAI**: Here's a first pass at the `Pipulate` base class and a `WorkFlow` inspirational class, along with a self-reflective enumeration of potential pitfalls:
 
 ### Proposed Pipulate Base Class
 
