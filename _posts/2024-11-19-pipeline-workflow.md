@@ -1931,8 +1931,8 @@ structure that I can put to work in day-to-day Client interactions.
 
 The 2 great gurus of modern business:
 
-- Peter Drucker: Companies exist to serve Customers... that simple.
-- W. Edwards Deming: Enter a process of continuous improvement and refinement
+- [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker): Companies exist to serve Customers... that simple.
+- [W. Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming): Enter a process of continuous improvement and refinement
   using feedback from the right sources (e.g, the factory floor workers)
 
 Get like 1-hour of power-nap sleep, then spring back. 3 client meetings today.
