@@ -1935,6 +1935,7 @@ The 2 great gurus of modern business:
 - W. Edwards Deming: Enter a process of continuous improvement and refinement
   using feedback from the right sources (e.g, the factory floor workers)
 
-
+Get like 1-hour of power-nap sleep, then spring back. 3 client meetings today.
+The big one is at 10:00 AM, haha! It's 4:30 AM. You got this, Mike.
 
 
