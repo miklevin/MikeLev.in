@@ -653,16 +653,16 @@ This implementation is now fortified with warnings and requirements that should 
 ║                                                                ║
 ║ 1. THOU SHALT NOT MAKE ANY CLIENT-STATE IDOLS                  ║
 ║    - No hidden fields                                          ║
-║    - No localStorage                                          ║
-║    - No cookies                                               ║
+║    - No localStorage                                           ║
+║    - No cookies                                                ║
 ║                                                                ║
-║ 2. THOU SHALT NOT TAKE THE NAME OF SIMPLICITY IN VAIN         ║
-║    - One table                                                ║
-║    - One record per URL                                       ║
-║    - One JSON blob for all state                              ║
+║ 2. THOU SHALT NOT TAKE THE NAME OF SIMPLICITY IN VAIN          ║
+║    - One table                                                 ║
+║    - One record per URL                                        ║
+║    - One JSON blob for all state                               ║
 ║                                                                ║
 ║ 3. REMEMBER THE UNIX PHILOSOPHY AND KEEP IT HOLY               ║
-║    - Do one thing well                                        ║
+║    - Do one thing well                                         ║
 ║    - Make everything visible                                   ║
 ║    - Keep everything simple                                    ║
 ║                                                                ║
