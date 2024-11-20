@@ -27,7 +27,7 @@ last long, no siree, I can tell you. It was like typing into maple syrup, such
 is my typing into the longtail outlier fringe edges of that normal distribution
 bell curve of... of... Perplexity? What are those words I'm looking for?
 
-You're describing the concept of "flow state" or being "in the zone," which was indeed a central theme in Pixar's movie "Soul"[1][3]. This psychological state is characterized by complete absorption in a task, where time seems to slow down and self-consciousness fades away.
+**Perplexity**: You're describing the concept of "flow state" or being "in the zone," which was indeed a central theme in Pixar's movie "Soul"[1][3]. This psychological state is characterized by complete absorption in a task, where time seems to slow down and self-consciousness fades away.
 
 ## Flow State and Creativity
 
