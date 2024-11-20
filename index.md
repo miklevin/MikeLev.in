@@ -1,6 +1,6 @@
 ---
 title: Mike Levin on AI, SEO, Linux, Python, vim & git
-description: Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI stack to resist obsolescence.
+description: MikeLev.in is a website run by Mike Levin, an SEO expert in NYC. He focuses on using local-first, open-source tools and technologies like Linux, Python, vim, and git. He's a proponent of the Unix philosophy and minimalist coding practices, and is currently developing a workflow management system called Pipulate.
 author: Mike Levin AI SEO
 group: home
 ---
