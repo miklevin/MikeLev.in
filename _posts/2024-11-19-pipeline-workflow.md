@@ -8,9 +8,15 @@ sort_order: 1
 
 I have perhaps never had a more important work journal entry. Everything is
 about workflows. More particularly, they are about pipeline workflows. I will
-avoid a rabbit hole of explanation, suffice to say google Unix pipes. Is that
-still a verb? I am often perplexed at how the times are a'changing. Anyhoo, it
-comes down to:
+avoid a rabbit hole of explanation, suffice to say google Unix pipes. Is google
+still a verb? I am so often perplexed that I hardly feel the need to Google. How
+the times are a'changing. It's the best time in history to be an SEO because in
+a few years, it's no longer SEO. It's some sort of AI-whisperer. And not in that
+wacky spoken-language sense. Nope, in an API-contract sense that leads to real,
+concrete automation and better deliverables than SEOs have ever been able to
+produce. Particularly much better than those Powerpoint-style decks that
+agencies throw over the fence. Anyhoo, this new automated SEO reality comes down
+to:
 
     step_1 | step_2 | step_3
 
