@@ -18,7 +18,8 @@ artform and craft until it yields fruit. Artists do that. It sometimes kills
 them, and sometimes they're not even all that inspired as they do so, so it's a
 real lose lose situation, haha! Me no want Dunning-Kruger effect, but me know in
 some Bizarro world, maybe this one, that's exactly what's going on. My attempts
-to hit above my weight league are misguided, and I'm destined to fail.
+to hit above my weight league may be misguided, and I'm perhaps destined to
+fail.
 
 NOT! Wow, these AI coding assistants are great. I was on that Microsoft Github
 Copilot bandwagon right out of the starting gate, and in NeoVim of all places,
