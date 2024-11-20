@@ -1511,6 +1511,7 @@ even client/server because it's all running on localhost under a nix flake as
 very deliberately single-tenant design to make full utilization of local
 resources.
 
+```python
     ARCHITECTURAL NOTES:
     - Uses Pipeline class for state tracking - every state change is logged
     - All database queries MUST wrap parameters in tuples, even single values
@@ -1536,6 +1537,7 @@ resources.
     - Return user-friendly error messages
     - Log full details with stack traces
     - Maintain consistent UI state
+```
 
 **Claude**: 
 
@@ -1631,7 +1633,7 @@ TECHNICAL FOUNDATIONS:
    - Zero client-side state
 
 3. MiniDataAPI (NOT SQLAlchemy/Prisma/TypeORM)
-   - db.create() creates tables
+   - todos.insert({"key": key, "value": value}) inserts records
    - Plain Python objects
    - Direct CRUD operations
    - SQLite as THE source of truth
@@ -1677,3 +1679,246 @@ This consolidated version:
 7. Prevents framework creep
 
 Would you like me to show how to implement this pattern in practice?
+
+At this point, I need the simplest possible linking up of 3 cards. The first
+card can take a sloppy-formatted URL that might be full of querystrings. Before
+creating a pipulate pipeline workflow record, the url has to go through a
+url_clean function which will reconstruct it based on a pattern. Don't worry
+about the internals, just give me the code example in commented form to seed the
+template abstraction for the following workflow, with a special emphasis on
+keeping out enterprise creep.
+
+```python
+class Pipulate(): # The workflow pipeline base class
+    # Instances of this are created by instances of the WorkFlow base class
+    # Instances of this cannot be created without some sort of unique identifier, often a URL
+    # In any case, we call the field url because as a unform resource locator, it is technically correct even when not a Web URL
+    # Every time this is called to record the processing of a card, the entire JSON blog in the data field is read out and written back in
+    # There is always a resume-from-where-left-off behavior, thus uninterruptible because always interrupted
+    # Jobs that have only been processed part-way through are resumable by plugging the url in on Card 1, the 1st workflow step.
+    # Even complete jobs can be re-entered this way for options to expand data from a step, or whatnot.
+    # The whole process presents linear, but readily supports ragged array structures. Very JSON-esque.
+    # The top-down linear Card style also reflects the PicoCSS Card style and Jupyter Notebook cells
+    # It is therefore indented to be the perfect port-target for Jupyter Notebooks to become powerful single-tenant web-like desktop apps
+    # The Cards mostly represent HTMX events, which are stateless, and therefore the need for this Pipulate process.
+    # The resulting apps are designed to be dirt-simple to use, even easier than Notebooks
+    # Installable, portable and multi-platform as it is through nix flakes, it is the ultimate in Unix pipes philosophy built from modern web components
+```
+
+The FastHTML server instance, router and database table objects and template
+dataclasses will be created in the following fashion, which also gives you
+knowledge of the database schema. There are patterns here you will not recognize
+and will want to override with Flask and FastAPI and all the rest we recently
+covered. Please do not. Stay loyal to the FastHTML way. This is only to give you
+insight into the db schema so we can work on the WorkFlow class from which we
+can instantiate a workflow instance, and after which other WorkFlow2 classes can
+be patterned. It is unlikely to be a base class as every workflow will be quite
+unique and should not be derived. Instead, we keep the API signature, syntax,
+pattern, workflow, contract and whatnot AS SIMPLE AS POSSIBLE!!!
+
+```python
+app, rt, (store, Store), (tasks, Task), (clients, Client), (pipelines, Pipeline) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    default_hdrs=False,
+    hdrs=(
+        Link(rel='stylesheet', href='/static/pico.min.css'),
+        Script(src='/static/htmx.min.js'),
+        Script(src='/static/fasthtml.js'),
+        Script(src='/static/surreal.js'),
+        Script(src='/static/script.js'),
+        Script(src='/static/Sortable.js'),
+        Meta(charset='utf-8'),
+        create_chat_scripts('.sortable'),
+        Script(type='module')
+    ),
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    task={
+        "id": int,
+        "name": str,  # Changed from "title" to "name"
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+    client={
+        "id": int,
+        "name": str,
+        "menu_name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id"
+    },
+    pipulate={           # To "pipulate" is to process a Unix pipe-like pipeline workflow: Card 1 | Card 2 | Card 3
+        "url": str,      # A url must be used on Card 1 to initiate a job, and can be plugged in later to from last complete Card step
+        "data": str,     # All jobs get just 1 pipulate record and use a JSON blob to track state for the entire workflow. The JSON blog contains the args and results of each Card for interruptionless pattern
+        "created": str,  # ISO timestamp of first insert
+        "updated": str,  # ISO timestamp of last update
+        "pk": "url"      # URL is the primary key and can always be plugged into Card 1 to continue a job, jumping to where it left off (the same behavior as any step of workflow processing)
+    }                    # A FastHTML-friendly querystring-like path can be used to jump to any Card in the workflow: /endpoint/card3
+)
+
+class WorkFlow():
+    # We simply want to collect a URL from user
+    # Clean the URL to become a valid primary key pattern
+    # Create an instance of the Pipulate class using the cleaned url as input
+    # Check if the record already exists in the pipulate table
+    # If it does not exist, create a new record and initialize the JSON data blob
+    # If it does exist, read out the JSON data blob, make it a real object
+    # Deterministically fill-in and rebuild all steps of the workflow up to the left-off point
+    # If complete, a FastHTML-friendly path system lets us jump to the right Card in the workflow
+    # Endpoints are tied to the name of the WorkFlow class
+    # Different workflows which will be inspired form this first quintessential example will have different names
+    # Those different workflow names will not be reflected in the schema of the piulate table
+    # All workflow-variation specifics are reflected in both the URL pattern and the data of the JSON blob
+    # This means the entire app is "flat". Avoid hierarchy that is not JSON blog data hierarchy (which is fine)
+    # Every Card should be distinct from the previous and self-contained in a PicoCSS Card() element.
+    # A DictLikeDB with a Python dict interface, but persistent, can be used to record the url
+    # An instance of this DictLikeDB already exists, aptly named db, at global scope. Get over it AND USE IT!!!
+    # All genie backfiring wish assertions that global scope = bad will be met with single-tenant design explanations and reminders that Python .py files are inherently legitimate module-level scope.
+```
+
+My ask is therefore obviously that you knit all these criteria together into one
+main Pipulate base class, and one main WorkFlow inspirational class.
+
+It has no responsibility but to take a dirty URL (full of querystrings) and
+clean it (keep the 1st 2 directory levels and end in a slash), and use that as
+the primary key to create a new pipulate table record and present Card 2.
+
+Card 2 simply has a button on it saying present Card 3.
+
+I really don't even care about you passing data yet with the JSON blog yet. In
+fact, don't. Make a first pass, and enumerate the ways that you were tempted to
+impose patterns on me that I don't want and didn't ask for, and then prepare
+yourself to do the next iteration, showing me the ideal prompt to counteract
+all the genie wish backfiring pitfalls that almost crept in, so that I can
+refine this prompt, and thus enter an iterative cycle until we get it right, and
+I'm happy with it.
+
+So your reply may contain:
+
+1. A proposed Pipulate base class
+2. A proposed Workflow inspirational class
+3. An self-reflective enumeration of what went wrong. I know, because we've been here before. Several times.
+
+Go!
+
+And after all that?
+
+Anthropic is experiencing a partial outage right now. To avoid downtime, we've temporarily fallen back to an OpenAI model.
+
+Hahahahaha! 
+
+I am not superstitious. I am not superstitious. 
+
+I almost cancelled the reply, but I'm like "hey, why not?"
+
+**OpenAI**: *Anthropic is experiencing a partial outage right now. To avoid downtime, we've temporarily fallen back to an OpenAI model.*
+
+Here's a first pass at the `Pipulate` base class and a `WorkFlow` inspirational class, along with a self-reflective enumeration of potential pitfalls:
+
+### Proposed Pipulate Base Class
+
+```python
+class Pipulate:
+    def __init__(self, url):
+        self.url = self.url_clean(url)
+        self.data = self.load_or_initialize_data()
+
+    def url_clean(self, url):
+        # Clean the URL to keep the first 2 directory levels and end with a slash
+        parts = url.split('/')
+        cleaned_url = '/'.join(parts[:3]) + '/'
+        return cleaned_url
+
+    def load_or_initialize_data(self):
+        # Check if the record exists in the pipulate table
+        record = pipelines.get(self.url)
+        if not record:
+            # Initialize a new record with an empty JSON blob
+            pipelines.insert({"url": self.url, "data": "{}", "created": self.current_timestamp(), "updated": self.current_timestamp()})
+            return {}
+        else:
+            # Load existing data
+            return json.loads(record['data'])
+
+    def current_timestamp(self):
+        return datetime.now().isoformat()
+```
+
+### Proposed WorkFlow Inspirational Class
+
+```python
+class WorkFlow:
+    def __init__(self, url):
+        self.pipulate = Pipulate(url)
+
+    def card1(self):
+        # Card 1: Collect and clean URL, initialize pipeline
+        return f"Card 1: URL cleaned to {self.pipulate.url}. Proceed to Card 2."
+
+    def card2(self):
+        # Card 2: Simple button to proceed to Card 3
+        return '<button onclick="location.href=\'/workflow/card3\'">Proceed to Card 3</button>'
+
+    def card3(self):
+        # Card 3: Final card
+        return "Card 3: Workflow complete."
+```
+
+### Self-Reflective Enumeration of Potential Pitfalls
+
+1. **Temptation to Use ORM**: I avoided using SQLAlchemy or any ORM, sticking to direct table operations with FastHTML's MiniDataAPI.
+
+2. **Avoiding Client-Side State**: Ensured all state management is server-side, using the database and JSON blobs.
+
+3. **Resisting Complex Frameworks**: Did not introduce Flask, FastAPI, or any other frameworks that could complicate the simple, local-first design.
+
+4. **Keeping the Workflow Flat**: Maintained a flat structure without unnecessary hierarchy, focusing on the JSON blob for any needed complexity.
+
+5. **Avoiding Over-Engineering**: Kept the classes and methods simple, focusing on the core functionality without adding unnecessary features.
+
+6. **Global Scope Usage**: Used the global `pipelines` table as intended, without trying to encapsulate it unnecessarily.
+
+### Next Steps
+
+- **Iterate on Feedback**: Based on your feedback, refine the classes and address any additional requirements or simplifications.
+- **Prepare Ideal Prompt**: Develop a prompt that captures the essence of this approach, preventing common pitfalls and ensuring adherence to the desired patterns.
+
+Let me know how you'd like to proceed!
+
+---
+
+And so I can still try to get Claude to answer, and I can put whatever OpenAI
+model that was head-to-head with Claude.
+
+But this is staged.
+
+This is what has been missing for forever.
+
+This is "how to do work".
+
+This is how to do work in a generic way that supports automation that does not
+get bogged down by the many things that bog such endeavors down.
+
+I have cleared the path. I have illuminated the way.
+
+All I need now is the "wedge" of the first 2 or 3 workflow examples under this
+structure that I can put to work in day-to-day Client interactions.
+
+The 2 great gurus of modern business:
+
+- Peter Drucker: Companies exist to serve Customers... that simple.
+- W. Edwards Deming: Enter a process of continuous improvement and refinement
+  using feedback from the right sources (e.g, the factory floor workers)
+
+
+
+
