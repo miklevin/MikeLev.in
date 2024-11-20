@@ -160,6 +160,8 @@ literacy Don Knuth
 
 ---
 
+## 100 Interesting Things
+
 1. **The Rise of Server-Side Rendering (SSR):** After years of client-side dominance with JavaScript frameworks, SSR is making a comeback. FastHTML embraces this trend, offering performance and SEO benefits.
 
 2. **The Power of Minimalism:** PicoCSS is a tiny CSS framework that challenges the bloat of Bootstrap and Tailwind. Its minimalist approach aligns with the Unix philosophy of doing one thing well.
