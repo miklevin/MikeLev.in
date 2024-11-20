@@ -1938,4 +1938,153 @@ The 2 great gurus of modern business:
 Get like 1-hour of power-nap sleep, then spring back. 3 client meetings today.
 The big one is at 10:00 AM, haha! It's 4:30 AM. You got this, Mike.
 
+And there's always Gemini-Advanced who can take this entire article as input,
+and whose output I'll sleep on... and plug the url back into Card 1 in an hour,
+haha!
 
+**Gemini-Advanced**: 
+
+```python
+class Pipulate:
+    """
+    Pipulate Pattern: Local-First Pipeline Processing Using FastHTML/HTMX
+
+    CORE PRINCIPLES:
+    1. Everything Is Local
+        - This is NOT a web app - it's a local tool using HTML as UI
+        - Single-tenant by design - full resource utilization
+        - Nix Flake manages dependencies, not container orchestration
+        - Browser automation possible (Puppeteer/Playwright)
+        - Local user profiles and VPNs are your friends
+
+    2. State Management Is Simple
+        - One URL = One Pipeline Run = One Database Record
+        - All state in JSON blob in 'data' field
+        - No hidden fields, no session state, no client-side state
+        - URL is both primary key and resume point
+        - Timestamps tell the complete story
+
+    3. Card-Based Processing
+        - Each step is a distinct, resumable card
+        - Cards read like English: analyze → process → visualize
+        - State preserved between cards in JSON blob
+        - Direct URL access to any card: /endpoint/card2
+        - Interruption-friendly design
+
+    TECHNICAL FOUNDATIONS:
+    1. FastHTML (NOT Django/FastAPI/React)
+        - HTML components as Python functions
+        - Server-side rendering only
+        - No client/server split
+        - Everything runs on localhost
+
+    2. HTMX (NOT REST/GraphQL/Redux)
+        - HTML attributes as API
+        - Server-side state management
+        - URL-driven navigation
+        - Zero client-side state
+
+    3. MiniDataAPI (NOT SQLAlchemy/Prisma/TypeORM)
+        - todos.insert({"key": key, "value": value}) inserts records
+        - Plain Python objects
+        - Direct CRUD operations
+        - SQLite as THE source of truth
+
+    DATABASE SCHEMA:
+    pipulate = {
+        "url": str,       # Primary key and job identifier
+        "data": str,       # JSON blob for all state
+        "created": str,  # First insert timestamp
+        "updated": str,  # Last update timestamp
+        "pk": "url"      # URL as natural key
+    }
+
+    ANTI-PATTERNS TO AVOID:
+    ❌ Client-side state management
+    ❌ Hidden form fields
+    ❌ Session storage
+    ❌ Complex ORMs
+    ❌ REST/GraphQL APIs
+    ❌ Frontend frameworks
+    ❌ Container orchestration
+
+    CORRECT PATTERNS:
+    ✓ URL as state carrier
+    ✓ JSON blob as data store
+    ✓ SQLite as database
+    ✓ HTMX for interactions
+    ✓ FastHTML for UI
+    ✓ Local-first processing
+    ✓ Single-tenant design
+
+    Remember: Simple > Complex > Complicated
+    """
+
+    def __init__(self, url):
+        self.url = self.url_clean(url)
+        self.pipeline = pipelines.get(self.url)  # Use pipelines table directly
+        if not self.pipeline:
+            self.pipeline = pipelines.insert({"url": self.url, "data": "{}", "created": self.current_timestamp(), "updated": self.current_timestamp()})
+        self.data = json.loads(self.pipeline['data'])
+
+    def url_clean(self, url):
+        # Clean the URL (implementation as per your requirements)
+        parts = url.split('/')
+        cleaned_url = '/'.join(parts[:3]) + '/'  # Keep first 2 directory levels
+        return cleaned_url
+
+    def current_timestamp(self):
+        return datetime.now().isoformat()
+
+    def update_data(self, new_data):
+        self.data.update(new_data)
+        pipelines.update({"url": self.url, "data": json.dumps(self.data), "updated": self.current_timestamp()})
+
+
+class WorkFlow:
+    """
+    A simple workflow to collect a URL, clean it, and proceed through cards.
+    """
+    def __init__(self, url):
+        self.pipulate = Pipulate(url)
+
+    def card1(self):
+        # Card 1: Collect and clean URL, initialize pipeline
+        return Div(
+            H2("Card 1: URL Input"),
+            P(f"URL cleaned to {self.pipulate.url}"),
+            Button("Next", hx_post="/workflow/card2", hx_vals=json.dumps({"url": self.pipulate.url})),
+            id="card1"
+        )
+
+    def card2(self):
+        # Card 2: Simple button to proceed to Card 3
+        return Div(
+            H2("Card 2: Processing"),
+            Button("Next", hx_post="/workflow/card3", hx_vals=json.dumps({"url": self.pipulate.url})),
+            id="card2"
+        )
+
+    def card3(self):
+        # Card 3: Final card
+        return Div(
+            H2("Card 3: Workflow Complete"),
+            id="card3"
+        )
+
+# Example usage with FastHTML routes
+@app.get("/workflow/card1")
+async def card1(url: str):
+    workflow = WorkFlow(url)
+    return workflow.card1()
+
+@app.post("/workflow/card2")
+async def card2(url: str):
+    workflow = WorkFlow(url)
+    return workflow.card2()
+
+@app.post("/workflow/card3")
+async def card3(url: str):
+    workflow = WorkFlow(url)
+    return workflow.card3()
+```
