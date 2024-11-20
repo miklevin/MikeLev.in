@@ -1498,4 +1498,180 @@ Very FastHTML-friendly:
 
 Would you like me to show how to implement a basic pipeline handler using this schema?
 
+**Me**: Update these notes to more closely fit this pattern. Make it so I can put it
+at the top of classes that will be instantiated for instances of pipulate
+workflows. These instances will themselves create internal instances of the a
+yet-to-be created Pipulate base class. But let's start with the workflow design
+principle documentation first, so we know what we're making, and so that it can
+be repeatedly used as a "speedbump" at the top of workflows to jar you out of
+believing it's FastAPI or Django or some over-built enterprise nonsense. It's
+lean and mean FastHTML using stateless HTMX made stateful with completely
+server-side only the url-necessary from the client state, which isn't really
+even client/server because it's all running on localhost under a nix flake as
+very deliberately single-tenant design to make full utilization of local
+resources.
 
+    ARCHITECTURAL NOTES:
+    - Uses Pipeline class for state tracking - every state change is logged
+    - All database queries MUST wrap parameters in tuples, even single values
+    - JSON serialization/deserialization for config/result storage
+    - Input validation and normalization at each stage
+    
+    STATE TRANSITIONS:
+    initialized -> arg1_collected -> arg2_collected -> complete -> error
+    
+    CRITICAL PATHS:
+    1. Argument Collection:
+       - Validate input
+       - Create/update pipeline
+       - Progress to next stage
+       
+    2. Status Updates:
+       - Get pipeline state
+       - Return appropriate UI
+       - Handle errors gracefully
+       
+    ERROR HANDLING:
+    - Every operation must handle exceptions
+    - Return user-friendly error messages
+    - Log full details with stack traces
+    - Maintain consistent UI state
+
+**Claude**: 
+
+"""A Pipulate-pattern workflow for processing data through sequential cards.
+
+ARCHITECTURAL NOTES:
+- Uses Pipulate base class for state tracking via single-record pattern
+- All state stored in JSON blob in 'data' field of pipeline record
+- URL is primary key and serves as both job ID and resume point
+- Each card is a distinct step that can be directly accessed
+- Completely server-side state management using FastHTML/HTMX
+- Designed for localhost single-tenant resource utilization
+
+STATE MANAGEMENT:
+- One database record per pipeline run using URL as primary key
+- JSON blob contains both configuration and results
+- Each card's state preserved for interruption-free processing
+- Cards can be re-entered using URL patterns: /endpoint/card2
+
+CRITICAL PATHS:
+1. Card Processing:
+   - Validate card-specific inputs
+   - Update pipeline record's JSON blob
+   - Progress to next card or show results
+   
+2. Pipeline Control:
+   - Get/create pipeline record by URL
+   - Determine current card state
+   - Handle card transitions
+   - Provide appropriate UI feedback
+
+ERROR HANDLING:
+- Each card handles its own exceptions
+- Pipeline record preserves state on errors
+- Full error details logged with stack traces
+- User-friendly error display in UI
+- Easy error state recovery via URL
+
+USAGE PATTERN:
+url = primary key/job ID
+data = JSON blob for all state
+created = ISO timestamp of job start
+updated = ISO timestamp of last change
+
+Example URL Patterns:
+/endpoint/card1 - Start new or resume pipeline
+/endpoint/card2?url=job-id - Jump to specific card
+/endpoint/clear - Reset pipeline state
+"""
+
+After some combining and back and forth:
+
+**Claude**: Here's a consolidated docstring that captures the essence of the Pipulate pattern while preventing common anti-patterns:
+
+```python
+"""Pipulate Pattern: Local-First Pipeline Processing Using FastHTML/HTMX
+
+CORE PRINCIPLES:
+1. Everything Is Local
+   - This is NOT a web app - it's a local tool using HTML as UI
+   - Single-tenant by design - full resource utilization
+   - Nix Flake manages dependencies, not container orchestration
+   - Browser automation possible (Puppeteer/Playwright)
+   - Local user profiles and VPNs are your friends
+
+2. State Management Is Simple
+   - One URL = One Pipeline Run = One Database Record
+   - All state in JSON blob in 'data' field
+   - No hidden fields, no session state, no client-side state
+   - URL is both primary key and resume point
+   - Timestamps tell the complete story
+
+3. Card-Based Processing
+   - Each step is a distinct, resumable card
+   - Cards read like English: analyze → process → visualize
+   - State preserved between cards in JSON blob
+   - Direct URL access to any card: /endpoint/card2
+   - Interruption-friendly design
+
+TECHNICAL FOUNDATIONS:
+1. FastHTML (NOT Django/FastAPI/React)
+   - HTML components as Python functions
+   - Server-side rendering only
+   - No client/server split
+   - Everything runs on localhost
+
+2. HTMX (NOT REST/GraphQL/Redux)
+   - HTML attributes as API
+   - Server-side state management
+   - URL-driven navigation
+   - Zero client-side state
+
+3. MiniDataAPI (NOT SQLAlchemy/Prisma/TypeORM)
+   - db.create() creates tables
+   - Plain Python objects
+   - Direct CRUD operations
+   - SQLite as THE source of truth
+
+DATABASE SCHEMA:
+pipulate = {
+    "url": str,      # Primary key and job identifier
+    "data": str,     # JSON blob for all state
+    "created": str,  # First insert timestamp
+    "updated": str,  # Last update timestamp
+    "pk": "url"      # URL as natural key
+}
+
+ANTI-PATTERNS TO AVOID:
+❌ Client-side state management
+❌ Hidden form fields
+❌ Session storage
+❌ Complex ORMs
+❌ REST/GraphQL APIs
+❌ Frontend frameworks
+❌ Container orchestration
+
+CORRECT PATTERNS:
+✓ URL as state carrier
+✓ JSON blob as data store
+✓ SQLite as database
+✓ HTMX for interactions
+✓ FastHTML for UI
+✓ Local-first processing
+✓ Single-tenant design
+
+Remember: Simple > Complex > Complicated
+"""
+```
+
+This consolidated version:
+1. Emphasizes local-first design
+2. Makes the tech stack crystal clear
+3. Explicitly calls out anti-patterns
+4. Shows the correct patterns
+5. Includes the schema
+6. Maintains readability
+7. Prevents framework creep
+
+Would you like me to show how to implement this pattern in practice?
