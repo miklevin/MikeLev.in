@@ -1539,6 +1539,7 @@ resources.
 
 **Claude**: 
 
+```python
 """A Pipulate-pattern workflow for processing data through sequential cards.
 
 ARCHITECTURAL NOTES:
@@ -1585,6 +1586,7 @@ Example URL Patterns:
 /endpoint/card2?url=job-id - Jump to specific card
 /endpoint/clear - Reset pipeline state
 """
+```
 
 After some combining and back and forth:
 
