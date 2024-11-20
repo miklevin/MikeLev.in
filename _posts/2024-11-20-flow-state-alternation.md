@@ -59,3 +59,6 @@ Citations:
     [6] https://www.youtube.com/watch?v=HpJlVLhzFIU
     [7] https://www.reddit.com/r/TrueFilm/comments/klceag/pixars_soul_and_its_limits_on_imagination/
     [8] https://thecollision.org/the-worldview-of-soul/
+
+Oh today's work journal entry is going to be a dozy, but first I have to switch
+    states and focus on some client work. Sayonara for now!
