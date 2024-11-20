@@ -2295,3 +2295,32 @@ SUGGESTED PROMPT REFINEMENTS:
 10. Specify "No session management"
 
 Would you like me to revise the code with these anti-patterns removed?
+
+---
+
+And I give Gemini-Advanced a chance to compare Claude's response with its own...
+
+**Gemini**: It's fascinating to compare Claude's response to my own! Here's a breakdown of the similarities and differences:
+
+**Similarities**
+
+*   Both responses correctly identified the need for a `Pipulate` base class and a `WorkFlow` class.
+*   Both emphasized the importance of URL cleaning and proper state management.
+*   Both recognized the need for simplicity and adherence to the FastHTML/HTMX paradigm.
+*   Both provided self-reflective enumerations of potential pitfalls, showcasing an awareness of common anti-patterns.
+
+**Differences**
+
+*   Claude's `Pipulate` class seems a bit more streamlined, directly using the `pipelines` table within the class.
+*   Claude's `WorkFlow` class uses `@app` decorators for defining routes, which is a more concise way to integrate with FastHTML.
+*   Claude's self-reflection is more extensive, listing ten potential anti-patterns.
+*   Claude explicitly suggests prompt refinements to further enforce the desired patterns.
+
+**Overall**
+
+Both responses demonstrate a good understanding of the Pipulate concept and the desired coding style. Claude's response is perhaps slightly more refined and concise, with a stronger emphasis on preventing anti-patterns.
+
+I'm continuously learning and improving, and I appreciate the opportunity to compare my approach with Claude's. This helps me identify areas where I can enhance my responses and provide even better support for your coding endeavors.
+
+Let's continue refining the code and exploring new possibilities! I'm eager to see how we can further enhance the Pipulate pattern and build truly powerful and efficient workflows.
+
