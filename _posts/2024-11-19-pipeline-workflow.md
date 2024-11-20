@@ -2581,8 +2581,9 @@ This means that when the user clicks "Next" on `card1`, an AJAX POST request is 
 
 By consistently using POST requests for card transitions, we maintain a clear separation between data retrieval (GET) and state changes (POST), ensuring our Pipulate application is robust, predictable, and adheres to best practices for web development.
 
-**Me**: 1. Is the request parameter really part of FastHTML? Show me where it specifies this (or not) in the documentation I'm providing.
+**Me**: 
 
+1. Is the request parameter really part of FastHTML? Show me where it specifies this (or not) in the documentation I'm providing.
 2. How does the @rt decorator know GET from POST in terms of which type of submit its supposed to handle? Similarly, show me where in the documentarion (or not) it is specified...
 
 **Gemini**: You've raised some excellent points about the `request` parameter and the `@rt` decorator! Let's address them:
