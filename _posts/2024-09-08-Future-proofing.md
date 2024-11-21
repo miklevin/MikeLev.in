@@ -1,7 +1,7 @@
 ---
 title: Future-proof Your Tech Skills
 permalink: /future-proof-tech-skills/
-description: Master the "LPvg stack"—Linux, Python, vim, and git—to future-proof your skills. Focus on fundamentals that transcend trends, avoid vendor lock-in, and maintain autonomy. This toolkit bridges tech with domain expertise, builds lasting muscle memory, and ensures adaptability in an evolving, AI-driven world.
+description: This article advocates for a "future-proof" approach to tech skills, focusing on mastering fundamental tools like Linux, Python, vim, and git (the "LPvg stack"). This approach emphasizes adaptability, independence, and long-term relevance in a rapidly changing technological landscape. It encourages professionals to develop technical skills as a complement to their domain expertise, enabling them to better serve clients and navigate the evolving world of AI and automation. The article also highlights the importance of clear communication protocols between humans and AI systems, as well as the benefits of leveraging local AI infrastructure for greater control and flexibility.
 layout: post
 ---
 
