@@ -687,7 +687,7 @@ Citations:
     [4] https://www.reddit.com/r/learnpython/comments/ug50do/what_does_oop_mean/
     [5] https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html
 
-**Me**: Tell me about the 2 great pragmatist gits of our time.
+**Me**: Tell me about the 2 great pragmatic tech gits of our time.
 
 **Perplexity**: Certainly! Here are a couple of influential figures in the software development world known for their pragmatic approaches:
 
