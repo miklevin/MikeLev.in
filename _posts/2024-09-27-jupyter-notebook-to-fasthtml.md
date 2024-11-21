@@ -1,7 +1,7 @@
 ---
 title: Forking a Flake of Infrastructure as Code
 permalink: /forking-flake-infrastructure-as-code/
-description: Creating a portable foundation for every project using Nix Flakes and Infrastructure as Code, ensuring a consistent starting point across platforms while avoiding architecture over-engineering. This approach balances practical needs and reusability, making development smooth and adaptable.
+description: I describe my experience creating a portable and reproducible development environment using Nix flakes. I highlight the challenges of integrating different technologies and the benefits of using Nix for managing dependencies and ensuring consistency across platforms. I also discuss the importance of simplicity and efficiency in development workflows and the role of AI-assisted coding tools like Cursor AI. Finally, I share my approach to building a FastHTML web application and the importance of mastering the BQL language for Botify API interaction.
 layout: post
 ---
 

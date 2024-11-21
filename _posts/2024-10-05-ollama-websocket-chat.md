@@ -1,7 +1,7 @@
 ---
 title: Ollama Websocket Chat
 permalink: /ollama-websocket-chat/
-description: WebSocket technology enables efficient real-time chat and responsive UIs, replacing older methods like polling. The article discusses various streaming techniques, including ZeroMQ, and proposes combining FastHTML HTMX with Ollama chat for a web-based AI chatbot.
+description: I detail my journey of building a reproducible development environment using Nix flakes, focusing on creating a "home" script to streamline setup across platforms. I discuss the challenges of managing dependencies and ensuring consistency across different operating systems, and I highlight the benefits of Nix's declarative approach and immutable store. I also share my experiences with web development frameworks and the importance of choosing the right tools for building modern web applications.
 layout: post
 ---
 

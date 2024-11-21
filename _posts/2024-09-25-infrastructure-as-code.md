@@ -1,7 +1,7 @@
 ---
 title: "The DevOps Renaissance: How Infrastructure as Code is Redefining Digital Craftsmanship"
 permalink: /infrastructure-as-code-devops-renaissance/
-description: Explore the resurgence of the polymath in DevOps, where Infrastructure as Code is enabling small teams to achieve unprecedented scale and efficiency. Discover how continuous refinement of IaC transforms DevOps engineers into digital artisans, shaping the future of software development.​​​​​​​​​​​​​​​​
+description: I detail my journey of creating a versatile Nix flake configuration for a seamless, cross-platform development environment. I began with a minimal setup and progressively incorporated essential tools like JupyterLab, CUDA support, and a FastHTML server, highlighting the pivotal role of integrating a virtual environment for enhanced flexibility and adaptability in data science and development tasks.
 layout: post
 ---
 

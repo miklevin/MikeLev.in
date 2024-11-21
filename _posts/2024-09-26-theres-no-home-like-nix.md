@@ -1,7 +1,7 @@
 ---
 title: There's No Home Like Nix
 permalink: /theres-no-home-like-nix/
-description: This article explores building a reproducible development environment using Nix, focusing on creating a "home" script to streamline setup across platforms. It highlights Nix flakes, simplicity in tech, and modernizing apps like Pipulate with AI in FastHTML.
+description: I explore setting up a Python development environment in Nix, including workarounds for installing packages not yet available in the Nix repository. I discuss using dotenv to manage environment variables and provide an example of a simple FastHTML web application that prompts the user for a secret and stores it securely. I also demonstrate how to implement a basic chat server with Ollama, highlighting the benefits of using local LLMs for AI-assisted development.
 layout: post
 ---
 

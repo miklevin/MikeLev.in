@@ -1,7 +1,7 @@
 ---
 title: From Jupyer Notebooks to FastHTML with WebSockets
 permalink: /jupyter-notebooks-fasthtml/
-description: Getting Back into Web Programming with Jupyter Notebooks and FastHTML, getting down the basic trick of Streaming Messges from long-running tasks using HTMX and WebSockets.
+description: I discuss my transition back into web development after years of working with Jupyter Notebooks. I explore the benefits and limitations of Notebooks, the challenges of migrating workflows to web applications, and the importance of choosing the right tools and frameworks. I then detail my process of implementing a long-running task simulation using WebSockets in FastHTML, highlighting the key steps and considerations involved.
 layout: post
 ---
 
