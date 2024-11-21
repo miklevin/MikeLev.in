@@ -1311,7 +1311,7 @@ Citations:
 
 Card 1 is showing.
 
-```
+```python
 class Pipulate:
     """
     Pipulate Pattern: Local-First Pipeline Processing Using FastHTML/HTMX
