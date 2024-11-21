@@ -1,7 +1,7 @@
 ---
 title: "Get the Big Tech Picture to Maintain Agency"
 permalink: /big-tech-picture/
-description: I explore the foundational technologies that have shaped modern computing and AI, emphasizing how mastering these tools can empower individuals in an ever-changing technological landscape. I trace the evolution of computing from early concepts like virtual machines and Unix to the rise of scripting languages like Python and the innovative approaches of Nix and NixOS. I also delve into the importance of text editors like Vim and the role of community and collaboration in the development of Linux and Git. By understanding these fundamental technologies, individuals can gain greater control over their computing environments, enhance their productivity, and remain relevant in the face of evolving trends and AI-driven advancements.
+description: I explore the historical development of key technologies like Unix, C, Python, and Nix, highlighting their role in empowering individuals in a rapidly changing tech landscape. I emphasize the importance of mastering fundamental tools and concepts to maintain agency and independence in an AI-driven world. I also discuss the enduring relevance of the Unix philosophy and the benefits of open-source software and community collaboration. By understanding the evolution of these technologies, individuals can gain a deeper appreciation for their potential and leverage them to navigate the complexities of modern computing.
 layout: post
 ---
 

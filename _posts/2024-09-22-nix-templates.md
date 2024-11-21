@@ -1,7 +1,7 @@
 ---
 title: Getting My Nix System Together
 permalink: /nix-system/
-description: Discover Nix and NixOS for reproducible systems. Learn to configure NixOS, set up data science environments, and manage Python dependencies, balancing Nix's determinism with Python's flexibility.
+description: I detail my process of setting up a NixOS system and creating reproducible data science environments using Nix flakes. I explain my approach to configuring NixOS, including the use of a minimal configuration.nix file and the integration of essential services like Ollama and CUDA. I also discuss the benefits of using Python virtual environments within Nix flakes to manage Python dependencies and ensure flexibility for data science tasks.
 layout: post
 ---
 
