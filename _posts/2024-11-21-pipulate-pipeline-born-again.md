@@ -1,7 +1,7 @@
 ---
 title: Pipulate Pipeline Born Again Now
 permalink: /pipulate-pipeline-born-again/
-description: 
+description:
 layout: post
 sort_order: 1
 ---
@@ -108,4 +108,71 @@ an instrument that feels like an extension of your body. And for that, you need
 command-and-control keystrokes that just don't change much over the years and
 decades. And that means vim in whatever form.
 
+Pipulate was always about the web crawl in one form or another. It started out
+triggered from a bookmarklet click and crawled whatever site you were looking at
+into a Google Sheet. This was before people saw automation of any kind into
+Google Sheets. Even thinking about it today, there's not much like it. It was
+hot. Served me well at a marketing agency called 360i. It came after HitTail
+which I did for the first company I worked for when coming to New York. HitTail
+was work for hire and I left it behind and had to start something new, and I
+wanted it in the FOSS world so it could never get taken away. And so, crawling
+directly into Google Sheets.
 
+Then I realized I needed a Web UI, so I gave it a very rudimentary one and
+realized Web development was going in a direction I wasn't. I was outright
+allergic to what was happening in the industry. jsquery I was fine with. That
+helped a lot. Then there was Bootstrap. Okay. Then Sass and long build
+procedures... and then React hits. There are now these vast invisible directory
+structures gigabytes big on your drive for a simple hello world program. This is
+JavaScript, not Java folks. What's going on... ohhhhh. The enterprise architects
+took over, didn't they? The JavaScript standard in the form of EMCA is maturing.
+Browsers are becoming cross platform compliant. Single page applications are
+possible. The browser is a valid app development target platform and now there's
+big money in tooling... oops, here comes Microsoft (again because their first
+attempt to do this with ASP.NET failed). But they got VSCode right. Hey, it's
+FOSS, wink wink nudge nudge. Oh by the way there's no escaping becoming a
+locked-in Azure customer because THE POWER OF THE TOOLS COMPEL YOU!
+
+Peace, out! What's that Jupyter Notebook thing again I keep hearing about on the
+Talk Python to Me podcast?
+
+Oh look at that! Jupyter looks just like the localhost servers I was spinning up
+in the backend for those browser bookmarklets to connect to. Oh and look at
+Pandas with its `.apply()` function. That looks a lot like my left-to-right
+application of a function to cells or rows in a matrix (running SERPs on URLs,
+etc.) that Pipulate does. Generic function processing that you can bind to...
+to... to... well, it's workflows! It's generally Excel spreadsheet row & column
+style data you're working with; Fortan-style matrices, for the buzzword elite.
+Or DataFrames in the even cooler FOSS analytics R circles. Don't let the data
+snobs fool ya. Rows and columns by any other name are rows & columns just the
+same. It's not rocket science... oh, wait... it is.
+
+Jupyter itself used all that JavaScript tech. But it used it well and not by me.
+I did a little looking into how such magic was pulled off and found myself a new
+favorite tool, Zero Message Queue, or ZeroMQ, or just zmq. It was the secret to
+much of that performance and I added it to my toolbox. Now that WebSockets has
+taken over from that, I'm still having trouble letting go of zmq, elegant and
+high performance as it is. It's the reason stuff just happens so fast and the
+browser starts felling more like a text editor. There was other stuff too, but
+zmq was the part that still lived in my Python world. Complexity had been shoved
+around, and now I didn't have to deal with it because powerful JavaScript
+jockeys who are obviously very empathetic to the Python worldview are on the
+case. Thank you! Thank you everyone involved in Project Jupyter. You're the good
+guys. A lot like Debian and GNU. You know how they say if the product is free,
+***you're*** the product? Organizations like this prove that's not always the
+case. Add them to your list this Thanksgiving.
+
+Anyhoo, all prior visions of Pipulate with a bring-your-own-server died there.
+Pipulate was a bunch of Notebooks you could run in Jupyter. Google Colab, you
+say? Sure, if you need to spin up multiple threads or share under Google login
+context. It's great for social media if you're one of those SEOs whose
+reputation is built on inflated Python reputation. But if you want to have a
+long-running crawl task coming from different IPs that scrapes SERPs as it goes,
+let's see you do that under Colab. Oh wait, you can! You just have to pay and
+pay and pay. And so, native Notebooks in genuine Jupyter was my path. And
+Pipulate became even more niche and even more obscure. No self-respecting SEO is
+going to install a local JupyterLab when they can just click an X-Twitter link
+and run a junior version of the same script in Colab in 2 seconds and call it
+done. Pipulate would have had to have been ***so much better*** than I had the
+time and motivation to make it... at the time... with the (now despised) tech
+available.
