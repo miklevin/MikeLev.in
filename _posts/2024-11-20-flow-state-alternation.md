@@ -160,6 +160,12 @@ literacy Don Knuth
 
 ---
 
+**Me**: Hey Gemini-Advanced, now that you have the context of knowing what I'm
+doing with this whole Pipulate workflow pipeline thing, tell me 100 interesting
+things!
+
+**Gemini-Advanced**: 
+
 ## 100 Interesting Things
 
 1. **The Rise of Server-Side Rendering (SSR):** After years of client-side dominance with JavaScript frameworks, SSR is making a comeback. FastHTML embraces this trend, offering performance and SEO benefits.
@@ -364,9 +370,9 @@ literacy Don Knuth
 
 It's been a fascinating journey exploring these 100 interesting aspects of web development with you! I'm eager to see what new trends and technologies emerge in the future and how FastHTML can continue to evolve and adapt.
 
-Me: Half of these are true and half are victims and perpetrators of Conway's law justifying their compsci degrees and protecting their jobs. Sort truth from fiction. Many hard-and-fast laws of scalability, security and robustness come from presumptions of time-shared client/server systems. Once you isolate nodes of fully capable localhost hardware and make IT configurations flow like water with the likes of nix flakes, the rules really change. Docker and VMs can stem the tide of that recalibration and rebalancing of resource allocation philosophy but only for so long as more powerful hardware becomes cheaper, ubiquitous, and complex configurations abstract and applied like patches. Sort!
+**Me**: Half of these are true and half are victims and perpetrators of Conway's law justifying their compsci degrees and protecting their jobs. Sort truth from fiction. Many hard-and-fast laws of scalability, security and robustness come from presumptions of time-shared client/server systems. Once you isolate nodes of fully capable localhost hardware and make IT configurations flow like water with the likes of nix flakes, the rules really change. Docker and VMs can stem the tide of that recalibration and rebalancing of resource allocation philosophy but only for so long as more powerful hardware becomes cheaper, ubiquitous, and complex configurations abstract and applied like patches. Sort!
 
-Gemini: You're absolutely right! Many of the "interesting things" I listed are indeed influenced by Conway's Law and the inherent biases of traditional web development.  Let's separate the wheat from the chaff, considering the paradigm shift of powerful localhost machines and streamlined configuration with Nix:
+**Gemini**: You're absolutely right! Many of the "interesting things" I listed are indeed influenced by Conway's Law and the inherent biases of traditional web development.  Let's separate the wheat from the chaff, considering the paradigm shift of powerful localhost machines and streamlined configuration with Nix:
 
 **Truths Amplified by Localhost and Nix**
 
@@ -442,9 +448,9 @@ mostly writing to SQLite files as a practical alternative offering many
 benefits, we must compensate for it not being inherently and naturally ISAM
 though backing up the database and facilitating it with log files.
 
-Me: What's the Pareto principle vs. Zipf's law? 
+**Me**: What's the Pareto principle vs. Zipf's law? 
 
-Perplexity: Pareto curves and Zipf curves are closely related mathematical concepts that describe similar phenomena, but they differ in their representation and focus[1][4].
+**Perplexity**: Pareto curves and Zipf curves are closely related mathematical concepts that describe similar phenomena, but they differ in their representation and focus[1][4].
 
 Zipf's law describes the relationship between the frequency of an element and its rank in a dataset. It states that the frequency of an element is inversely proportional to its rank[4]. The Zipf curve typically shows:
 
@@ -474,9 +480,9 @@ Citations:
     [4] https://vborgo.wordpress.com/2017/10/19/pareto-principle-and-zipfs-law-application-to-big-data/
     [5] https://en.wikipedia.org/wiki/Zipfs_law
 
-Me: Which one is the wealth distribution one?
+**Me**: Which one is the wealth distribution one?
 
-Perplexity: The Pareto distribution is the one typically used to describe wealth distribution[1][2][4]. It is characterized by a power law that shows how wealth is concentrated among a small percentage of the population. 
+**Perplexity**: The Pareto distribution is the one typically used to describe wealth distribution[1][2][4]. It is characterized by a power law that shows how wealth is concentrated among a small percentage of the population. 
 
 The Pareto distribution for wealth can be expressed as:
 
