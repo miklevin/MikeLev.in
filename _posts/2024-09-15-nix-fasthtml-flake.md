@@ -1,7 +1,7 @@
 ---
 title: Cross-Platform Nix Flake for Jupyter & FastHTML  
 permalink: /nix-fasthtml-flake/  
-description: Learn how I methodically crafted a cross-platform Nix flake that integrates JupyterLab, CUDA support, Ollama for local LLMs, and a FastHTML server, leveraging virtual environments for maximum flexibility.  
+description: I describe the process of creating a cross-platform Nix flake for a development environment that includes JupyterLab, CUDA support, Ollama for local LLMs, and a FastHTML server. I started with a minimal setup and progressively added features to overcome challenges, including integrating a virtual environment for installing packages not available in the Nix repository. This approach ensures flexibility and adaptability for future data science and development needs.
 layout: post
 ---
 
