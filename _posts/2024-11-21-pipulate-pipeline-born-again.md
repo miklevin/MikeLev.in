@@ -147,20 +147,22 @@ Or DataFrames in the even cooler FOSS analytics R circles. Don't let the data
 snobs fool ya. Rows and columns by any other name are rows & columns just the
 same. It's not rocket science... oh, wait... it is.
 
-Jupyter itself used all that JavaScript tech. But it used it well and not by me.
-I did a little looking into how such magic was pulled off and found myself a new
-favorite tool, Zero Message Queue, or ZeroMQ, or just zmq. It was the secret to
-much of that performance and I added it to my toolbox. Now that WebSockets has
-taken over from that, I'm still having trouble letting go of zmq, elegant and
-high performance as it is. It's the reason stuff just happens so fast and the
-browser starts felling more like a text editor. There was other stuff too, but
-zmq was the part that still lived in my Python world. Complexity had been shoved
-around, and now I didn't have to deal with it because powerful JavaScript
-jockeys who are obviously very empathetic to the Python worldview are on the
-case. Thank you! Thank you everyone involved in Project Jupyter. You're the good
-guys. A lot like Debian and GNU. You know how they say if the product is free,
-***you're*** the product? Organizations like this prove that's not always the
-case. Add them to your list this Thanksgiving.
+Jupyter itself used all that JavaScript tech. But it used it well and ***not by
+me***, which is the important part. I did a little looking under the covers to
+see how such wonderful magic was pulled off and found myself a new favorite
+tool, Zero Message Queue, or ZeroMQ, or just zmq for short. It was the secret to
+much of that snappy Jupyter performance and I added it to my toolbox. Now that
+WebSockets has taken over from that, I'm still having trouble letting go of zmq,
+elegant and high performance as it is. It's the reason stuff just happens so
+fast and the browser starts felling more like a text editor. There was other
+(Electron-like) stuff too, but zmq was the part that still lived in my Python
+world. Complexity had been shoved around, and now I didn't have to deal with it
+because powerful JavaScript jockeys who are obviously very empathetic to the
+Python worldview are on the case. Thank you! Thank you everyone involved in
+Project Jupyter. You're the good guys. A lot like Debian and GNU. You know how
+they say if the product is free, ***you're*** the product? Organizations like
+Jupyter, Debian and GNU prove that's not always the case. Add them to your list
+this Thanksgiving.
 
 Anyhoo, all prior visions of Pipulate with a bring-your-own-server died there.
 Pipulate was a bunch of Notebooks you could run in Jupyter. Google Colab, you
@@ -176,3 +178,15 @@ and run a junior version of the same script in Colab in 2 seconds and call it
 done. Pipulate would have had to have been ***so much better*** than I had the
 time and motivation to make it... at the time... with the (now despised) tech
 available.
+
+Well, it's time to bring your own server again separate from Jupyter. I wrote
+about that ad nauseam by now. I cracked the code. It's best served with nix, but
+there is a GNU verion of the fix called guix on the way, but it doesn't have
+Mac-friendly powerhouses making installers for it the way Deterministic Systems
+does for nix. And so for now, nix. But I'm confident all cross-platform scripts
+with be readily portable to guix in the future with a little AI help once Mac
+support for guix matures. OMG, so many subtopics in this discussion. All to work
+up the clarity and the motivation to work on the new Pipualte pipeline tech.
+Workflows that shove the complexity to just the right places. Simple text files
+for complex automations. Unix pipe inspired, HTMX and SQLite enabled, and
+ultimately FastHTML scaffolding and glue. 
