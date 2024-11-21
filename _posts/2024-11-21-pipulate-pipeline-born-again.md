@@ -181,12 +181,22 @@ available.
 
 Well, it's time to bring your own server again separate from Jupyter. I wrote
 about that ad nauseam by now. I cracked the code. It's best served with nix, but
-there is a GNU verion of the fix called guix on the way, but it doesn't have
-Mac-friendly powerhouses making installers for it the way Deterministic Systems
-does for nix. And so for now, nix. But I'm confident all cross-platform scripts
-with be readily portable to guix in the future with a little AI help once Mac
-support for guix matures. OMG, so many subtopics in this discussion. All to work
-up the clarity and the motivation to work on the new Pipualte pipeline tech.
-Workflows that shove the complexity to just the right places. Simple text files
-for complex automations. Unix pipe inspired, HTMX and SQLite enabled, and
-ultimately FastHTML scaffolding and glue. 
+there is a GNU version of the fix called guix (pronounced geeks) on the way, but
+it doesn't have Mac-friendly powerhouses making installers for it the way
+Deterministic Systems does for nix. And so for now, nix. But I'm confident all
+cross-platform scripts with be readily portable to guix in the future with a
+little AI help once Mac support for guix matures. This brings nothing less than
+the original promise of Unix as a universal interoperable portable OS that
+carries all its apps to be just as portable around with it. Similar to the dream
+and promise of Java. Turns out flat-packing Linux with a key/value hash store
+handled the same way on any host OS that can handle it is the answer. That means
+Macs AND Windows (through WSL) for the ultimate in whole tech infrastructures
+that flow like water between heterogeneous hardware. And now development and
+deployment is more like just development&#151;and a much simplified form of
+single-tenant development at that.
+
+OMG, so many subtopics in this discussion. All to work up the clarity and the
+motivation to work on the new Pipualte pipeline tech. Workflows that shove the
+complexity to just the right places. Simple text files for complex automations.
+Unix pipe inspired, HTMX and SQLite enabled, and ultimately FastHTML scaffolding
+and glue. 
