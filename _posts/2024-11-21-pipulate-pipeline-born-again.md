@@ -373,3 +373,176 @@ class WorkFlow:
             id="card3"
         )
 ```
+
+Okay, 5:30 AM. That's fine. Still have a few hours stretch before the official
+work day begins, and it's not full of client meetings. There is one that I have
+to check what it's about and what preparation on my part is necessary, but
+there should be the convergence of preparation and the development type word I'm
+doing as the development work shifts to either the creation or carrying out of
+new workflows. I'm also quite glad that the concept of Pipulate is back in the
+picture as the pipeline piece. It's the culmination of years of working on
+variations of this stuff. I finally have a timeless pattern. 
+
+Hey Perplexity, when you're over-ambitious coding and introduce a bug that you
+can't track down and git diff on github has too many things going on, what's a
+good way to gradually roll-in the new from a `git reset --hard HEAD^` working
+version?
+
+**Perplexity**: To gradually roll in new changes after a `git reset --hard HEAD^`, you can follow these steps:
+
+1. Create a new branch from your current state[1]:
+
+```bash
+git branch recovery-branch
+```
+
+2. Reset to the previous commit[1]:
+
+```bash
+git reset --hard HEAD^
+```
+
+3. Create another branch for your working version:
+
+```bash
+git checkout -b working-version
+```
+
+4. Now, you can gradually introduce changes from your recovery branch:
+
+## Method 1: Cherry-picking
+
+Cherry-pick specific commits from the recovery branch[3]:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+## Method 2: Patch application
+
+1. Generate patches for each commit in the recovery branch:
+
+```bash
+git format-patch working-version..recovery-branch
+```
+
+2. Apply patches selectively:
+
+```bash
+git apply --check 0001-commit-message.patch
+git apply 0001-commit-message.patch
+```
+
+## Method 3: Interactive rebase
+
+1. Start an interactive rebase:
+
+```bash
+git rebase -i working-version recovery-branch
+```
+
+2. In the interactive rebase editor, mark commits as "edit" to pause and review changes.
+
+3. Make necessary modifications and continue the rebase:
+
+```bash
+git rebase --continue
+```
+
+By using these methods, you can gradually reintroduce your changes while carefully reviewing and testing each modification to identify and fix the bug[2][4]. This approach allows you to maintain a stable working version while incrementally incorporating new features or changes.
+
+Citations:
+
+    [1] https://graphite.dev/guides/how-to-use-git-reset-hard-head
+    [2] https://github.com/orgs/community/discussions/60452
+    [3] https://graphite.dev/guides/how-to-use-git-reset-head
+    [4] https://ohshitgit.com
+    [5] https://www.freecodecamp.org/news/git-reset-hard-how-to-reset-to-head-in-git/
+    [6] https://stackoverflow.com/questions/5788037/recover-from-losing-uncommitted-changes-by-git-reset-hard
+
+Me: Ugh, they weren't separate commits! I'll clone another version, set one to the broken state and one to the working state and copy/paste. But I followed instruction #1, so how do I now delete those two branches and get back to main head?
+
+Perplexity: To delete the branches you created and return to the main branch's HEAD, follow these steps:
+
+1. Switch to the main branch:
+
+```bash
+git checkout main
+```
+
+2. Delete the local branches:
+
+```bash
+git branch -D recovery-branch
+git branch -D working-version
+```
+
+The `-D` flag is used to force delete the branches, even if they haven't been merged[1][4].
+
+3. If you pushed these branches to a remote repository, delete them remotely as well:
+
+```bash
+git push origin --delete recovery-branch
+git push origin --delete working-version
+```
+
+This command removes the branches from the remote repository[1][4].
+
+4. To ensure your local repository is in sync with the remote, you can fetch and prune:
+
+```bash
+git fetch --prune
+```
+
+This command will remove any remote-tracking references that no longer exist on the remote[4].
+
+After completing these steps, you'll be back on the main branch with the temporary branches removed both locally and remotely (if applicable). Your repository will be clean and ready for your copy/paste approach with the cloned versions.
+
+Citations:
+
+    [1] https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+    [2] https://graphite.dev/guides/how-to-delete-a-branch-in-git
+    [3] https://www.freecodecamp.org/news/git-delete-branch-how-to-remove-a-local-or-remote-branch/
+    [4] https://refine.dev/blog/git-delete-remote-branch-and-local-branch/
+    [5] https://www.reddit.com/r/github/comments/1dxh4cu/how_to_delete_a_branch_in_github/
+
+Oh, foo! Not my favorite thing to do, but live and learn.
+
+Another part of this learning moment is now that I'm using multiple GitHub
+accounts (yuck!), I have to sort my commands by user aliases as defined in my
+`~/.ssh/config` file, something I touch just little enough to ***never
+remember***, and so I look...
+
+    # Primary GitHub Account
+    Host github.com
+      HostName github.com
+      User git
+      IdentityFile ~/.ssh/id_rsa
+      IdentitiesOnly yes
+
+    # Secondary GitHub Account
+    Host bf
+      HostName github.com
+      User git
+      IdentityFile ~/.ssh/botifython_develop
+      IdentitiesOnly yes
+
+...and so I remember. Or do I? I need a rule. The normal thing I think to type
+is:
+
+    git clone git@github.com:Botifython/botifython.git foo
+
+But I need me some better Git Fu, so... so... `git@github.com` is a user@host
+directive according to some protocol definition, probably SSH. The whole darn
+thing is what gets aliased by... by... by well, my Best Friend, of course.
+Botifython! `bf`, that is. So everything before the colon is the alias, of
+course! Simpler than I thought. It becomes...
+
+    git clone bf:Botifython/botifython.git foo
+
+And my git fu is complete. I now can load both side-by-side into an editor and
+copy/paste from the ambitious version into the working version until it breaks,
+committing every step of the way so the more formal patch playback git jig
+actually works for next time. Looking forward to using that. In my LPvg (Linux,
+Python, vim & git) minimal tech stack for life philosophy, git is definitely my
+weakest point.
