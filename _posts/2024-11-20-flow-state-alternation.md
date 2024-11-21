@@ -156,7 +156,49 @@ being literate now.
 
 Coding's not part of being literate, you say? That's just a profession for
 programmers, you say? Or perhaps even if you buy into the whole programming
-literacy Don Knuth 
+literacy Don Knuth thing but still think it's "another kind of literacy" for
+compsci students and tech professionals, and less necessary now than ever since
+Jensen Huang told you that you shouldn't learn to program, and that Python is
+silly.
+
+Well yes, Python is silly. Python is very silly. Who would expect it not to be,
+given that it's named after the old British comedy troupe Monty Python, which in
+turn was only named after a slimy... how does that story go again Perplexity?
+
+Perplexity: The story of Python getting its name is an interesting blend of comedy and programming. Here's the unlikely series of events:
+
+1. Guido van Rossum, a Dutch programmer, began working on Python in late 1989 as a hobby project to keep himself occupied during the Christmas holidays[1][4].
+
+2. Van Rossum was a fan of the British comedy television show "Monty Python's Flying Circus"[1][3][5].
+
+3. While developing the language, van Rossum was reading the published scripts from Monty Python's Flying Circus[6].
+
+4. When it came time to name his new programming language, van Rossum wanted something "short, unique, and slightly mysterious"[3][5].
+
+5. Inspired by his favorite TV show, he decided to name the language "Python"[1][3][5].
+
+The unlikely coincidence is that the name "Python" has nothing to do with snakes, despite the language's logo featuring two intertwined serpents. Instead, it's a reference to a comedy group, which is an unusual source of inspiration for a programming language name[3][5].
+
+Interestingly, the name "Python" for the comedy group itself has its own story. The words "Monty Python" were chosen because they sounded like a really bad theatrical agent, the kind who might have brought the comedy group together. John Cleese suggested "Python" as something slimy and slithery, while Eric Idle proposed "Monty"[6].
+
+This chain of events - from a British comedy group choosing a name that sounds like a bad agent, to a Dutch programmer being inspired by that show while coding during Christmas, to that name becoming one of the world's most popular programming languages - is indeed an unlikely and amusing series of events.
+
+Citations:
+
+    [1] https://www.youtube.com/watch?v=RkCHAxDv9gk
+    [2] https://en.wikipedia.org/wiki/Python_(programming_language)
+    [3] https://dev.to/scottydocs/how-programming-languages-got-their-names-207e
+    [4] https://www.geeksforgeeks.org/history-of-python/
+    [5] https://pythoninstitute.org/about-python
+    [6] https://towardsdatascience.com/why-is-python-called-python-e3eb451f73a9
+    [7] https://www.teradata.com/glossary/what-is-python
+
+So you see, Python is not named after a big macho snake like how [Robin Williams
+refers to it](http://www.robin-williams.net/throbbing.php) but rather in a
+here's a big, scary mysterious word with a bunch of cross dressing irreverent
+clowns! Calling Python silly and having to learn it to speak the lingua franca
+of technology (because that's what Python has become) is perfectly acceptable. I
+just don't think it means what you think it means.
 
 ---
 
