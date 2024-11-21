@@ -199,4 +199,177 @@ OMG, so many subtopics in this discussion. All to work up the clarity and the
 motivation to work on the new Pipualte pipeline tech. Workflows that shove the
 complexity to just the right places. Simple text files for complex automations.
 Unix pipe inspired, HTMX and SQLite enabled, and ultimately FastHTML scaffolding
-and glue. 
+and glue. Deep breath and... and a short power nap. But first, capture the most
+promising pattern from prior posts here. I think Gemini-Advanced had the winner,
+combining its best with the best of Claude 3.5 Sonnet. And finally, Deepseek
+agreed and couldn't meaningfully top it. So this is it:
+
+```python
+from fasthtml.common import *
+
+app, rt, (pipelines, Pipeline) = fast_app(
+    "data/pipulate.db",
+    pipulate={
+        "url": str,
+        "data": str,
+        "created": str,
+        "updated": str,
+        "pk": "url"
+    }
+)
+
+class Pipulate:
+    """
+    Pipulate Pattern: Local-First Pipeline Processing Using FastHTML/HTMX
+
+    CORE PRINCIPLES:
+    1. Everything Is Local
+        - This is NOT a web app - it's a local tool using HTML as UI
+        - Single-tenant by design - full resource utilization
+        - Nix Flake manages dependencies, not container orchestration
+        - Browser automation possible (Puppeteer/Playwright)
+        - Local user profiles and VPNs are your friends
+
+    2. State Management Is Simple
+        - One URL = One Pipeline Run = One Database Record
+        - All state in JSON blob in 'data' field
+        - No hidden fields, no session state, no client-side state
+        - URL is both primary key and resume point
+        - Timestamps tell the complete story
+
+    3. Card-Based Processing
+        - Each step is a distinct, resumable card
+        - Cards read like English: analyze → process → visualize
+        - State preserved between cards in JSON blob
+        - Direct URL access to any card: /endpoint/card2
+        - Interruption-friendly design
+
+    TECHNICAL FOUNDATIONS:
+    1. FastHTML (NOT Django/FastAPI/React)
+        - HTML components as Python functions
+        - Server-side rendering only
+        - No client/server split
+        - Everything runs on localhost
+
+    2. HTMX (NOT REST/GraphQL/Redux)
+        - HTML attributes as API
+        - Server-side state management
+        - URL-driven navigation
+        - Zero client-side state
+
+    3. MiniDataAPI (NOT SQLAlchemy/Prisma/TypeORM)
+        - todos.insert({"key": key, "value": value}) inserts records
+        - Plain Python objects
+        - Direct CRUD operations
+        - SQLite as THE source of truth
+
+    DATABASE SCHEMA:
+    pipulate = {
+        "url": str,       # Primary key and job identifier
+        "data": str,       # JSON blob for all state
+        "created": str,  # First insert timestamp
+        "updated": str,  # Last update timestamp
+        "pk": "url"      # URL as natural key
+    }
+
+    ANTI-PATTERNS TO AVOID:
+    ❌ Client-side state management
+    ❌ Hidden form fields
+    ❌ Session storage
+    ❌ Complex ORMs
+    ❌ REST/GraphQL APIs
+    ❌ Frontend frameworks
+    ❌ Container orchestration
+
+    CORRECT PATTERNS:
+    ✓ URL as state carrier
+    ✓ JSON blob as data store
+    ✓ SQLite as database
+    ✓ HTMX for interactions
+    ✓ FastHTML for UI
+    ✓ Local-first processing
+    ✓ Single-tenant design
+
+    Remember: Simple > Complex > Complicated
+    """
+
+    def __init__(self, url):
+        self.url = url
+        self.pipeline = pipelines.get(self.url)
+        if not self.pipeline:
+            self.pipeline = pipelines.insert({"url": self.url, "data": "{}", "created": self.current_timestamp(), "updated": self.current_timestamp()})
+        self.data = json.loads(self.pipeline['data'])
+
+    def current_timestamp(self):
+        return datetime.now().isoformat()
+
+    def update_data(self, new_data):
+        self.data.update(new_data)
+        pipelines.update({"url": self.url, "data": json.dumps(self.data), "updated": self.current_timestamp()})
+
+
+class WorkFlow:
+    """
+    A simple workflow to collect a URL, clean it, and proceed through cards.
+
+    Routing:
+    - Uses the @rt decorator for concise route definitions.
+    - Leverages automatic method detection based on function names (card1 for GET, process_url for POST).
+    """
+    def __init__(self, url):
+        self.url = self.clean_url(url)
+        self.pipulate = Pipulate(self.url)
+
+    def clean_url(self, url):
+        """
+        Clean the URL to keep the first 2 directory levels and end with a slash.
+        """
+        parts = url.split('/')
+        cleaned_url = '/'.join(parts[:3]) + '/'
+        return cleaned_url
+
+    @rt('/workflow/card1')
+    async def card1(self):
+        """
+        Card 1: Collect and clean URL, initialize pipeline.
+        This method handles GET requests by default due to the @rt decorator.
+        """
+        return Div(
+            H2("Card 1: URL Input"),
+            P(f"URL cleaned to {self.pipulate.url}"),
+            Button("Next", hx_post="/workflow/process_url", hx_vals=json.dumps({"url": self.pipulate.url})),
+            id="card1"
+        )
+
+    @rt('/workflow/process_url', methods=['POST'])  # Explicitly handle POST
+    async def process_url(self):
+        """
+        Process the URL and proceed to Card 2.
+        This method handles POST requests as specified by methods=['POST'].
+        """
+        # ... (logic to process URL and update Pipulate data) ...
+        return Redirect('/workflow/card2')
+
+    @rt('/workflow/card2')
+    async def card2(self):
+        """
+        Card 2: Display a button to proceed to Card 3.
+        This method handles GET requests by default due to the @rt decorator.
+        """
+        return Div(
+            H2("Card 2: Processing"),
+            Button("Next", hx_get="/workflow/card3"),  # Use hx_get for simple navigation
+            id="card2"
+        )
+
+    @rt('/workflow/card3')
+    async def card3(self):
+        """
+        Card 3: Final card, display workflow completion message.
+        This method handles GET requests by default due to the @rt decorator.
+        """
+        return Div(
+            H2("Card 3: Workflow Complete"),
+            id="card3"
+        )
+```
