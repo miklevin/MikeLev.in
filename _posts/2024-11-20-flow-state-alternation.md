@@ -120,7 +120,7 @@ anti-pattern, even based on the old Internet IRC as it is, which I liked and was
 good at. This is too clique-ish (says the radically different web framework
 guy). Ugh, but not in mainstream business! Anyway, don't go against the grain.
 Yield to the slackcliqueismesqueifications. Everyone else does, and your ability
-to do so is a sign of your ability to exist and thrive in the algorithmic ally
+to do so is a sign of your ability to exist and thrive in the algorithmically
 scatterbrained landscape of our times.
 
 When there (in the slack channel), click `Bookmarks` at the top. Not files. Not
