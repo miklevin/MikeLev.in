@@ -1,7 +1,7 @@
 ---
 title: A ChatGPT o1-Preview Code Review
 permalink: /chatgpt-o1-preview-code-review/
-description: Building the next generation of Pipulate with FastHTML has been challenging but rewarding. After overcoming hurdles with HTMX and real-time streaming, I'm excited about the potential for powerful local web apps built in Python, easily shareable across platforms. 
+description: I detail my experience building the next generation of Pipulate, a Python-based web application, using the FastHTML framework. I highlight the challenges I faced with HTMX and real-time streaming, and express my excitement about the potential for creating powerful, easily shareable local web apps with this technology.
 layout: post
 ---
 

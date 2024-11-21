@@ -1,7 +1,7 @@
 ---
 title: AI-Generated Refactoring Advice from Top LLM Models
 permalink: /ai-generated-refactoring-advice/
-description: Learn how to integrate AI-powered refactoring advice from Claude 3.5 Sonnet and OpenAI ChatGPT o1-Preview into a Python web framework using FastHTML. This guide walks you through setting up refactoring systems and enhancing workflow with cutting-edge AI models.
+description: I detail my experience using Nix flakes to create a reproducible development environment for a Python web application built with the FastHTML framework. I discuss the challenges and benefits of using Nix for managing dependencies and ensuring consistency across different platforms, and I highlight the importance of understanding and leveraging the unique features of FastHTML for efficient web development. I also share my insights on the evolution of web development and the role of AI in shaping the future of coding practices.
 layout: post
 ---
 
