@@ -1,7 +1,7 @@
 ---
 title: My First Nix Flake Will Be JupyterLab
 permalink: /jupyter-nix-flake/
-description: Exploring how to create a portable and shareable JupyterLab environment using Nix flakes, enabling consistent development workflows across NixOS and macOS.
+description: I explore creating a portable JupyterLab environment using Nix flakes, aiming to maintain consistency between my NixOS desktop and MacBook for SEO automation tasks. This setup, incorporating Jupyter AI and local LLMs, enables me to share a reproducible development environment with coworkers and streamline my workflow. The article highlights the benefits of Nix flakes for managing complex configurations and ensuring cross-platform compatibility, while emphasizing the importance of local-first development and open-source tools.
 layout: post
 ---
 
