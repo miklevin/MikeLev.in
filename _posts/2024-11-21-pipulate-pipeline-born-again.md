@@ -546,3 +546,104 @@ committing every step of the way so the more formal patch playback git jig
 actually works for next time. Looking forward to using that. In my LPvg (Linux,
 Python, vim & git) minimal tech stack for life philosophy, git is definitely my
 weakest point.
+
+So now that I have my foo directory as a cloned version of the broken head of
+the git repo, I want my main instance to be the working version, 1 commit prior
+to the break. So I cd back into it and...
+
+    git pull
+    git reset --hard HEAD^
+    git commit -am "Fix"
+    git push --force
+
+Now I'm on the last working version. Hooray! Even for just that time machine
+goback ability alone, using git is worth it, even if you're not collaborating
+and even if you're not using GitHub. Git is just a generic all around safetynet.
+Also, I did a little maneuver here so that the ambitious broken version ***only
+exists in foo!*** Think about that. I can't shoot myself in the foot
+accidentally again. There is only updating to a better state or have it default
+to working. There is no broken state anymore, nor accidental rollbacks or
+regressions. This is all part and parcel of the whole genie backfire prevention
+thing. Cut off all avenues of screwing up.
+
+And now, commit often.
+
+First I delete WebAngiogram and my first attempt at pipeline. Done. Still works.
+Commit and bank it. Done.
+
+Alright, confidence and humility. I've come right up to the edge of the
+Dunning-Kruger effect. Here it is. Stupid git tricks. Don't effin be bullied
+around by a Linus Torvalds API. He's a file systems guy using Unix philosophies
+naming the durn tool after himself as a git, who actually stole many of the
+concepts from... hey, Perplexity tell me all about it.
+
+**Perplexity**: Linus Torvalds did not steal his ideas for Git. He created Git in 2005 as a response to a licensing dispute with BitKeeper, the previous version control system used for Linux kernel development[1][3]. The name "Git" was not self-deprecating or named after himself. Torvalds chose it as a playful, irreverent term, which in British slang means a silly or contemptible person[5]. 
+
+Git was developed to meet specific needs of the Linux kernel project, with goals including speed, simple design, and support for distributed workflows[3][8]. Torvalds built the initial version in about 5 days, drawing on his experience with other version control systems but creating an original design[1][3].
+
+It's important to note that Git quickly became self-hosting and was managing the Linux kernel source code within a month of its creation[5]. The project was then turned over to Junio Hamano for maintenance, demonstrating a collaborative approach rather than self-aggrandizement[3].
+
+Citations:
+
+    [1] https://graphite.dev/blog/understanding-git
+    [2] https://en.wikipedia.org/wiki/History_of_Linux
+    [3] https://en.wikipedia.org/wiki/Git_(software)
+    [4] https://linux.slashdot.org/story/15/04/06/1559207/10-years-of-git-an-interview-with-linus-torvalds
+    [5] https://community.appsmith.com/content/blog/evolution-git-dive-tech-history
+    [6] https://www.linuxjournal.com/content/git-origin-story
+    [7] https://www.linuxfoundation.org/blog/blog/10-years-of-git-an-interview-with-git-creator-linus-torvalds
+    [8] https://git-scm.com/book/ms/v2/Getting-Started-A-Short-History-of-Git
+
+Perplexity: Oh, that's right. How similar is the feature set of git to BitKeeper and how not self-aggrandizing is naming the worlds most popular OS in the world after yourself as Linus did with Linux?
+
+Git and BitKeeper share some similar features, but they have distinct differences in their design and functionality[2][4]. While Git was inspired by some aspects of BitKeeper, Linus Torvalds intentionally created Git to be technically very different[4]. Both systems offer distributed version control, but Git's approach to branching, merging, and repository structure differs significantly from BitKeeper's[2].
+
+Regarding the naming of Linux, it's important to clarify that Linus Torvalds did not name the operating system after himself out of self-aggrandizement. The name "Linux" was actually coined by Ari Lemmke, who administered the FTP server where the Linux kernel was first hosted for download. Lemmke named the directory "linux" without Torvalds' input. Torvalds had originally called his project "Freax" (a combination of "free," "freak," and Unix). The name Linux stuck as a shortened form of "Linus's Unix," but it was not Torvalds' choice or an act of self-promotion[1].
+
+Citations:
+
+    [1] https://stackshare.io/stackups/bitkeeper-vs-gitlab
+    [2] https://stackshare.io/stackups/bitkeeper-vs-git
+    [3] https://appwrk.com/bitbucket-vs-git-detailed-comparison-for-business-makers
+    [4] https://graphite.dev/blog/bitkeeper-linux-story-of-git-creation
+
+Me: Ooh, I did not know that! Thank you, Perplexity. But still, you say technically very different, sure. Like the way Linux implementation is technically very different, but the APIs and fundamential concepts... okay, not "stolen", but... how similar in concept and design is git to BitKeeper. Forget about the fact the i's were dotted and t's were crossed to have black boxed the innards.
+
+Perplexity: While Git and BitKeeper have some conceptual similarities as distributed version control systems, they differ significantly in their design and implementation. Git was indeed influenced by BitKeeper, but Linus Torvalds intentionally created a system that was technically distinct[2].
+
+Key similarities in concept between Git and BitKeeper include:
+
+1. Distributed nature: Both systems allow developers to have local copies of the entire repository[1].
+2. Branching and merging capabilities: Both support parallel development workflows[1].
+3. Change tracking: Both systems track changes to files over time[1].
+
+However, there are notable differences:
+
+1. Repository structure: BitKeeper uses a central repository model, while Git is fully distributed[1].
+2. Conflict resolution: BitKeeper offers automatic conflict resolution, whereas Git requires manual intervention[1].
+3. Branching model: Git's branching is more lightweight and flexible compared to BitKeeper's traditional model[1].
+4. Performance: Git is generally considered faster and more efficient, especially for large repositories[1].
+
+Torvalds himself acknowledged BitKeeper's influence on Git, stating that while Git is technically very different, many of the workflows used in Git came directly from what they learned from BitKeeper[2]. However, he also emphasized that Git was not a BitKeeper clone, and its design was intentionally different[2].
+
+It's important to note that Git drew inspiration from multiple sources, not just BitKeeper. For example, Git's content-addressable storage design was inspired by Monotone, another version control system[4].
+
+Citations:
+
+    [1] https://stackshare.io/stackups/bitkeeper-vs-git
+    [2] https://graphite.dev/blog/bitkeeper-linux-story-of-git-creation
+    [3] https://stackshare.io/stackups/bitkeeper-vs-git-repo
+    [4] https://news.ycombinator.com/item?id=21418363
+    [5] https://appwrk.com/bitbucket-vs-git-detailed-comparison-for-business-makers
+
+I ***love interrogating Perplexity*** to probe and refine my understanding of
+things. Look at how well cited this is. If there are hallucinations, they're
+well-founded hallucinations. Source of truth! Frig, if Google had come out of
+the gate with a well-cited, well-spoken AI API like Perplexity, we wouldn't be
+talking about the future of the search industry today. I saw it when Microsoft
+put the chat interface with citations in Bing and said so loudly. In that one
+brilliant move, Microsoft cut Google off from using the one true UI for
+search-powered chat, ***the well-cited abstract***. Sorry, Google. It's off the
+table. Wow! And now we've got ***Search Labs | AI Overview***, barely better
+than a rich snippet, often hidden or not showing at all, and nothing like the
+revolutionary upgrading of the search experience we can all feel coming.
