@@ -687,7 +687,9 @@ Citations:
     [4] https://www.reddit.com/r/learnpython/comments/ug50do/what_does_oop_mean/
     [5] https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html
 
-Certainly! Here are a couple of influential figures in the software development world known for their pragmatic approaches:
+**Me**: Tell me about the 2 great tech pragmatists of our time.
+
+**Perplexity**: Certainly! Here are a couple of influential figures in the software development world known for their pragmatic approaches:
 
 ## Martin Fowler
 
