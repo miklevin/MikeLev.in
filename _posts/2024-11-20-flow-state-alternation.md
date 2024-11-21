@@ -892,3 +892,8 @@ decide, lock-in and get started.
 This flow-state post has been fun, but it's time to get back to work... so that
 I can get back to work. Dependencies, sheesh!
 
+Yeah. If not now, when? I gotta do this thing. The world changes forever if I
+can get over this technical hurdle and intellectual puzzle. In fact, I already
+solved it. It's in yesterday's post. I cross-referenced it back and forth
+between the different AIs. It's solid. I just need to implement... need to
+implement... need to implement... NEXT DAY'S ENTRY COMING UP!
