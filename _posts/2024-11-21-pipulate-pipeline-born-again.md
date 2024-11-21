@@ -334,7 +334,7 @@ class WorkFlow:
         Card 1: Collect and clean URL, initialize pipeline.
         This method handles GET requests by default due to the @rt decorator.
         """
-        return Div(
+        return Card(
             H2("Card 1: URL Input"),
             P(f"URL cleaned to {self.pipulate.url}"),
             Button("Next", hx_post="/workflow/process_url", hx_vals=json.dumps({"url": self.pipulate.url})),
@@ -356,7 +356,7 @@ class WorkFlow:
         Card 2: Display a button to proceed to Card 3.
         This method handles GET requests by default due to the @rt decorator.
         """
-        return Div(
+        return Card(
             H2("Card 2: Processing"),
             Button("Next", hx_get="/workflow/card3"),  # Use hx_get for simple navigation
             id="card2"
@@ -368,7 +368,7 @@ class WorkFlow:
         Card 3: Final card, display workflow completion message.
         This method handles GET requests by default due to the @rt decorator.
         """
-        return Div(
+        return Card(
             H2("Card 3: Workflow Complete"),
             id="card3"
         )
