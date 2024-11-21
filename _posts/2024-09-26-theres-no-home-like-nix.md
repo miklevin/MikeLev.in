@@ -1,7 +1,7 @@
 ---
 title: There's No Home Like Nix
 permalink: /theres-no-home-like-nix/
-description: I explore setting up a Python development environment in Nix, including workarounds for installing packages not yet available in the Nix repository. I discuss using dotenv to manage environment variables and provide an example of a simple FastHTML web application that prompts the user for a secret and stores it securely. I also demonstrate how to implement a basic chat server with Ollama, highlighting the benefits of using local LLMs for AI-assisted development.
+description: In this article, I delve into building a Python web development environment within Nix, offering solutions for incorporating packages not readily available in the Nix repository. I guide you through using dotenv to securely manage environment variables and present a practical example of a simple FastHTML web application that prompts users for a secret and stores it safely. Additionally, I demonstrate the implementation of a basic chat server with Ollama, emphasizing the advantages of leveraging local LLMs for AI-assisted development.
 layout: post
 ---
 

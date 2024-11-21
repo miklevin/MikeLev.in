@@ -1,7 +1,7 @@
 ---
 title: Forking a Flake of Infrastructure as Code
 permalink: /forking-flake-infrastructure-as-code/
-description: I describe my experience creating a portable and reproducible development environment using Nix flakes. I highlight the challenges of integrating different technologies and the benefits of using Nix for managing dependencies and ensuring consistency across platforms. I also discuss the importance of simplicity and efficiency in development workflows and the role of AI-assisted coding tools like Cursor AI. Finally, I share my approach to building a FastHTML web application and the importance of mastering the BQL language for Botify API interaction.
+description: I've finally cracked the code to a truly portable and reproducible development environment using Nix flakes!  It was a wild ride wrestling with different technologies, but Nix was a lifesaver for managing dependencies and keeping things consistent across my Linux and Mac machines.  I even found a way to seamlessly integrate AI-assisted coding tools like Cursor AI and Jupyter AI into the mix.  The real kicker was building a FastHTML web app that taps into the Botify API – talk about a learning curve with that BQL language!  But hey, who needs sleep when you're riding the wave of efficient and cutting-edge development?
 layout: post
 ---
 
