@@ -560,7 +560,49 @@ It's part of the anti-DRY movement that's so big in Ruby on Rails, and it helps
 me get and stay in that flow state. It helps keep me accountable to myself by
 being accountable to you, some imaginary audience out there who I know is not
 and never will be reading this, except for a select few (you now who you are: Hi
-there! Sincerely glad you're here).
+there! Sincerely glad you're here). I am not DRY. I am WET. I do this rambling
+to flex, and yeah some signaling too. But not to you. To the crawlers and
+scrapers that come on by. Or maybe that I'll send on by locally using the whole
+localhost leveraging philosophy that runs so strong through my writing. Oh, also
+there's a bit of Robert Cialdin's commitment and consistency principles at play
+here. By doing yesterday's article, I transition into todays and then into
+tomorrow's. Is that commitment and consistency, or is that habit-building. 6 of
+one, a half-dozen of the other, I guess. It works.
+
+True uniqueness and novel thought is valuable, even insofar as it's not going to
+fit any of the predictable patterns out there. It is the production of outlier
+data to stress-test systems and check the quality and nature of its
+outlier-chopping filters. While not true random, it is along those lines. The
+demonstration of unpredictable emergent properties. No matter how much I hit up
+Perplexity for sub-referencing explanations, the overarching pattern is going to
+be wholly unique on the internet, in history, perhaps all time and existence
+(unless you believe in infinity). At very least, I am my own lava lamp. What the
+heck is he talking about, you ask? Perplexity, what am I talking about?
+
+**Perplexity**: Lava lamps have been creatively utilized as a source of randomness in various computing applications, particularly for generating cryptographic keys. Here are the key points regarding their use:
+
+## Overview of Lava Lamp Randomness
+
+1. **LavaRand Concept**: The idea of using lava lamps for randomness originated with Silicon Graphics, which developed a system known as **LavaRand**. This system captured images of the chaotic movement of the wax in lava lamps to generate random numbers. The unpredictable flow of the lava provides a source of entropy that can be used to seed a pseudorandom number generator (PRNG) [3].
+
+2. **Cloudflare's Implementation**: Cloudflare has adopted a similar approach in their data centers, where they have a wall of lava lamps. A camera captures images of these lamps, and the resulting video feed is processed to extract random data. This data is then used to enhance the security of cryptographic operations, ensuring that the keys generated are sufficiently random [2][4].
+
+3. **Randomness and Cryptography**: In cryptographic applications, randomness is crucial for generating secure keys. Traditional PRNGs can produce predictable outputs if seeded with the same initial value. By incorporating real-world sources of randomness, like lava lamps, systems can achieve a higher level of unpredictability [4][5].
+
+4. **Technical Explanation**: The randomness derived from lava lamps is considered "true" randomness because it originates from chaotic physical processes, as opposed to being purely algorithmic. The images captured are converted into numerical data, which serves as input for cryptographic algorithms [3][4].
+
+5. **Additional Methods**: Cloudflare also employs other methods for generating randomness, such as capturing movements from double pendulums or measuring radioactive decay in their offices worldwide [4].
+
+In summary, lava lamps serve as an innovative and entertaining method for generating random numbers in computing, particularly in cryptographic contexts where unpredictability is essential for security.
+
+Citations:
+
+    [1] https://gist.github.com/UnquietCode/99b69b99e00ce52e34c1
+    [2] https://blog.cloudflare.com/randomness-101-lavarand-in-production/
+    [3] https://en.wikipedia.org/wiki/Lavarand
+    [4] https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/
+    [5] https://www.itbrew.com/stories/2024/04/18/first-came-lava-lamps-now-this-tech-company-is-using-wave-machines-to-randomize-data
+    [6] https://www.reddit.com/r/ProgrammerHumor/comments/umq4uz/this_isnt_real_right/
 
 It's not too hard these days to step through your own writing, long rambling
 post by long rambling post and extract valuable summaries, remixes, abstracts or
