@@ -1495,7 +1495,7 @@ workflow = WorkFlow(app)
 
 Here's how I would modify the code:
 
-```python:botifython/botifython.py
+```python
 class WorkFlow:
     def __init__(self, app, route_prefix="/workflow"):
         self.app = app
@@ -1565,7 +1565,7 @@ The key principle here is that each URL represents one complete pipeline run, an
 
 **Claude**: The smallest possible win would be to just get Card 1 to transition to Card 2 while preserving the URL. Here's the minimal change needed:
 
-```python:botifython/botifython.py
+```python
 class WorkFlow:
     def __init__(self, app, route_prefix="/workflow"):
         self.app = app
@@ -1610,7 +1610,7 @@ You are about to propose this patch:
 
 The smallest possible win would be to just get Card 1 to transition to Card 2 while preserving the URL. Here's the minimal change needed:
 
-```python:botifython/botifython.py
+```python
 class WorkFlow:
     def __init__(self, app, route_prefix="/workflow"):
         self.app = app
