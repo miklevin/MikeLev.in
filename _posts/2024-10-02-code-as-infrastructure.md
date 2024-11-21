@@ -1,7 +1,7 @@
 ---
 title: Code as Infrastructure
 permalink: /code-as-infrastructure/
-description: I describe my process of creating a robust and adaptable Nix flake configuration for a seamless development environment across macOS, Linux, and Windows WSL. I highlight the challenges of integrating CUDA support and specialized tools like JupyterLab and FastHTML, and emphasize the importance of a virtual environment for flexibility in data science endeavors. The step-by-step account details how I progressively enhanced the flake.nix to achieve a versatile and powerful development setup.
+description: In this article, I chronicle my journey of building a robust Nix Flake development environment that seamlessly works across macOS, Linux, and Windows WSL. I delve into the challenges of integrating CUDA support and specialized tools like JupyterLab, emphasizing the importance of a virtual environment for data science flexibility. Through a step-by-step account, I detail how I progressively enhanced the flake.nix to achieve a versatile and powerful development setup that liberates developers from hardware and platform constraints.
 layout: post
 ---
 
