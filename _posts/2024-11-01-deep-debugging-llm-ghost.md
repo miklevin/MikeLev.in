@@ -1447,7 +1447,7 @@ Then I can write debug statements that:
 
 Would you like me to show you some example debug statements based on what I see so far, or would you prefer to share those additional code snippets first?
 
-**Me**: Ahh, you're going to need to know a little about FastHTML. It is not FastAPI though you like to think so. I can flood your context window with FastHTML definiton and object import scoping and Starlette sub-components galore. Suffice to say, it does this from `fasthtml.common import *` which dumps much of Starlette common functions into global. I'll tell you whatever more context you need to ***really*** get what's going on. But it's really cool and different from anything else out there, even the Flask patterns it's loosely based on. You can thank Jeremy Howard. Let me know what you need to know. There's the global imports. There's the FastHTML HTML-to-Python functions semantic mapping. There's MicroDataAPI spec. There's HTMX capabilities and API-usage details. The list goes on. It's hard to debug but ask me for anything you need to make it a little less-so. I'll provide the super-context-prompt for you if you like. We're so close!
+**Me**: Ahh, you're going to need to know a little about FastHTML. It is not FastAPI though you like to think so. I can flood your context window with FastHTML definiton and object import scoping and Starlette sub-components galore. Suffice to say, it does this from `fasthtml.common import *` which dumps much of Starlette common functions into global. I'll tell you whatever more context you need to ***really*** get what's going on. But it's really cool and different from anything else out there, even the Flask patterns it's loosely based on. You can thank Jeremy Howard. Let me know what you need to know. There's the global imports. There's the FastHTML HTML-to-Python functions semantic mapping. There's MiniDataAPI spec. There's HTMX capabilities and API-usage details. The list goes on. It's hard to debug but ask me for anything you need to make it a little less-so. I'll provide the super-context-prompt for you if you like. We're so close!
 
 **Claude**: 
 
@@ -1480,7 +1480,7 @@ Would you like me to:
 
 The bug is likely living in the space between these contexts, and with your existing logging infrastructure, we can catch it red-handed!
 
-**Me**: Ah, good question! No, that's to keep user interface things like endpoints soft-wired. I can make what the user sees in the URL always use what configuration details provide rather than the real table names. The real table names in the sqlite .db file is task, client and store as a result of this setup. What you're talking about is done by convention in these returned tuples. So tasks in its plural form as an instance of a MicroDataAPI Spec class is actually defined by the arbitrary variable names used in the tuple-unpacking of the `fast_app()` convenience factory class instantiator wrapper. It must be hard keeping track of task, tasks and Task in their various usage and why todos is still even in the picture. It's for invisible to the user websocket endpoint naming. A bit of hard-wiring here for soft-wiring there, but not tied to the data object model so much.
+**Me**: Ah, good question! No, that's to keep user interface things like endpoints soft-wired. I can make what the user sees in the URL always use what configuration details provide rather than the real table names. The real table names in the sqlite .db file is task, client and store as a result of this setup. What you're talking about is done by convention in these returned tuples. So tasks in its plural form as an instance of a MiniDataAPI Spec class is actually defined by the arbitrary variable names used in the tuple-unpacking of the `fast_app()` convenience factory class instantiator wrapper. It must be hard keeping track of task, tasks and Task in their various usage and why todos is still even in the picture. It's for invisible to the user websocket endpoint naming. A bit of hard-wiring here for soft-wiring there, but not tied to the data object model so much.
 
 **Claude**: 
 
@@ -1491,7 +1491,7 @@ Ah, now this is a crucial insight! So we have:
    - `client` table
    - `store` table
 
-2. MicroDataAPI level:
+2. MiniDataAPI level:
    - `Task` class (schema)
    - `tasks` instance (operations)
    - `Client` class
@@ -1957,7 +1957,7 @@ Key changes:
 
 This should resolve the empty error message and provide better visibility into any issues that occur during the operation.
 
-**Me**: Education on FastHTML and MicroDataAPI Spec inserted.
+**Me**: Education on FastHTML and MiniDataAPI Spec inserted.
 
 **Claude**: Looking at the code and the error logs, I see the issue is with the DictLikeDB implementation. The error occurs because we're not properly handling the store operations. Let's fix the DictLikeDB class:
 

@@ -98,21 +98,21 @@ app, rt, (store, Store), (todos, Todo) = fast_app(  # Unpack the tables directly
 
 ---
 
-## Extracting Todo App Operations with FastLite and MicroDataAPI Interfaces
+## Extracting Todo App Operations with FastLite and MiniDataAPI Interfaces
 
 **Me**: Excellent, thank you Claude! Use those same criteria to extract a similar
 micro article from this documenting the basic CRUD operations you can do with a
-Todo app with the fastlite and MicroDataAPI interfaces exposed through FastHTML
+Todo app with the fastlite and MiniDataAPI interfaces exposed through FastHTML
 in the unique way it does, demonstrated below. You can ignore update since it
 makes such heavy use of stuff outside the framework. 
 
 Claude...
 
-# Basic CRUD Operations with FastHTML and MicroDataAPI
+# Basic CRUD Operations with FastHTML and MiniDataAPI
 
 FastHTML, a Python web framework, offers a unique approach to web development by
 blending Python with HTML in an idiomatic way. It provides easy access to
-database operations through the MicroDataAPI, allowing for simple CRUD (Create,
+database operations through the MiniDataAPI, allowing for simple CRUD (Create,
 Read, Delete) operations. Here's a concise overview of how to implement these
 operations in a Todo app using FastHTML.
 
@@ -186,10 +186,10 @@ async def delete(tid: int):
     return ''
 ```
 
-## FastHTML Simplifies CRUD Operations Using MicroDataAPI
+## FastHTML Simplifies CRUD Operations Using MiniDataAPI
 
 This example demonstrates how FastHTML simplifies CRUD operations using the
-MicroDataAPI. The framework's approach allows for a seamless integration of
+MiniDataAPI. The framework's approach allows for a seamless integration of
 Python, HTML, and database operations, making it easier to create dynamic web
 applications with persistent data storage.
 
@@ -197,7 +197,7 @@ Key points:
 
 1. Database setup is handled through the `fast_app` function.
 2. CRUD operations are implemented as route handlers using the `@rt` decorator.
-3. The MicroDataAPI provides simple methods like `insert`, `delete`, and accessing items through indexing.
+3. The MiniDataAPI provides simple methods like `insert`, `delete`, and accessing items through indexing.
 4. FastHTML's integration with HTMX allows for dynamic updates without page reloads.
 
 This approach showcases the power and simplicity of FastHTML in creating web
@@ -2046,7 +2046,7 @@ context on the project that would be a shame to waste, I figure why not loop you
 into some wacky stuff. Because an LLM can respond with code or data, that data
 can be parsed out and unstringified or serialized by Python and data populated
 or functions executed. That means if you ask an LLM for instructions to insert a
-Todo item, it would respond with the JSON, MicroDataAPI instructions, or
+Todo item, it would respond with the JSON, MiniDataAPI instructions, or
 whatever we instruct it to express it as, and it can be parsed out and executed.
 The LLM could also receive the next prompt automatically, carrying the data that
 was received back from when that code is executed. In this way, we can give that

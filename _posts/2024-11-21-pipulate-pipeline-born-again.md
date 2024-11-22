@@ -2641,4 +2641,71 @@ The table will look something like:
 
 Should we add this and wire it up to the existing code?
 
+---
+
+So it turns out all I've really done is set myself up for a weekend's worth of
+work systematically activating the Pipulate pipeline. I had to take the
+following precautions to ensure that the global table name doesn't conflict with
+the name of the Pipulate class and forever-recurring-instance. Every workflow is
+going to make an instance of the Pipulate class, and that instance is going to
+refer to the table create at global scope by the FastHTML fast_app() helper
+wrapper. Okay, so my final documentation of this system before I switch to early
+morning Friday client call work. I got sleep, but it still is about 5:00 AM on
+Friday morning and it's time for tomorrow's (today's) new work journal entry.
+
+Pipulate was indeed born again today, but the working implementation must fall
+in place over the weekend. But the big staging for this weekend's work is that
+the fast_app() wrap is now:
+
+```python
+# Configure app by unpacking the returned glboal scope (table, Dataclass) tuple pairs
+app, rt, (store, Store), (tasks, Task), (clients, Client), (pipeline, Pipeline) = fast_app(
+    "data/data.db",
+    ws_hdr=True,  # Turns on WebSockets for 2-way chat
+    live=True,    # Make edit, check page, make edit, check page... this is how.
+    default_hdrs=False,  # See all that hdrs stuff immediately below I want to control deliberately? Needs this.
+    hdrs=(
+        Meta(charset='utf-8'),              # Best to let your browser know your encoding sooner rather than later
+        Link(rel='stylesheet', href='/static/pico.min.css'),  # We load our dependencies statically around here
+        Script(src='/static/htmx.min.js'),  # htmx is the backbone of the UI
+        Script(src='/static/fasthtml.js'),  # FastHTML is not FastAPI. I can't emphasize this enough.
+        Script(src='/static/surreal.js'),   # Enables dynamic updates to the user interface without requiring full page reloads. How to describe it? It's just...
+        Script(src='/static/script.js'),    # A not-so-descriptive name for a file that cleverly scopes styles and keeps your CSS drama-free!
+        Script(src='/static/Sortable.js'),  # Got a UL with LI's and want to make them drag-and-drop sortable? This is how.
+        create_chat_scripts('.sortable'),   # All the early pageload JavaScript not part of above.
+        Script(type='module')               # Because FastHTML has a bug and I need to include this to force the correct JS import pattern.
+    ),
+    store={            # server-side DictLikeDB store used for persistence
+        "key": str,    # Key is the primary key
+        "value": str,  # Value is the value of the key
+        "pk": "key"    # Never twice the same key (updates override)
+    },
+    task={                  # Exposed to user as "task" endpoint but hardwired to "todo" in the wiring. New instances will have to accomodate in their render_item() method.
+        "id": int,          # We lean into the strengths of SQLite. Auto-increment primary key work well.
+        "name": str,        # Changed from "title" to "name"
+        "done": bool,       # Done is a boolean flag to indicate if the task is completed
+        "priority": int,    # Integrates beautifully with Sortable.js to sort tasks by priority
+        "profile_id": int,  # Foreign key to profile for use with MiniDataAPI Spec .xtra() extract filter to filter TodoApp by profile
+        "pk": "id"          # A task by any other name is still a todo item or generic linked-list CRUD app
+    },
+    client={               # "client" exposed to user as endpoint but hardwired to "profile" in the wiring of plugin element IDs in Web UI
+        "id": int,         # To be defined as a SQLite auto-increment primary key via MiniDataAPI Spec
+        "name": str,       # Name is actually hidden on the menu so real client names are never exposed unless in client (profile) list app
+        "menu_name": str,  # Menu name is exposed on the menu so user can switch profiles in front of client without showing other client names
+        "address": str,    # Address is actually used for website domain to control other apps like gap analysis
+        "code": str,       # Code is actually country code used to control data-pull filters in API integrations like SEMRush
+        "active": bool,    # Active lets you toggle the profile on and off in the menu
+        "priority": int,   # Controls the sort order of the profile in the menu
+        "pk": "id"         # Default SQLite auto-increment primary key so name and menu_name can be freely changed
+    },
+    pipeline={           # To "pipulate" is use this for a Unix pipe-like "pipeline" workflow: Card 1 | Card 2 | Card 3
+        "url": str,      # A url must be used on Card 1 to initiate a job, and can be plugged in later to from last complete Card step
+        "data": str,     # All jobs get just 1 pipulate record and use a JSON blob to track state for the entire workflow. The JSON blog contains the args and results of each Card for interruptionless pattern
+        "created": str,  # ISO timestamp of first insert
+        "updated": str,  # ISO timestamp of last update
+        "pk": "url"      # URL is the primary key and can always be plugged into Card 1 to continue a job, jumping to where it left off (the same behavior as any step of workflow processing)
+    }                    # A FastHTML-friendly querystring-like path can be used to jump to any Card in the workflow: /endpoint/card3
+)
+```
+
 

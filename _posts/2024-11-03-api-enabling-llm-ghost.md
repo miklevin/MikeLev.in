@@ -85,7 +85,7 @@ topic prompts I spend some time putting together from their GitHub repos.
 
 Copy this function definition from here (`fast_app` being a prime candidate),
 and some protocol descriptions from there like the [HTMX Attributes
-Reference](https://htmx.org/reference/), the description of MicroDataAPI Spec,
+Reference](https://htmx.org/reference/), the description of MiniDataAPI Spec,
 and a few other things like what importing `.core.py` and `.common.py` is going
 to make available in your `global`, how those are the HTML-inspired FastHTML
 Python functions such as `H1()` and `Li()`.
