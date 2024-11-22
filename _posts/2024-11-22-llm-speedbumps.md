@@ -1115,6 +1115,7 @@ Speed bump me!
 **Claude**: Based on the provided documentation, I'll help create strategic "speed bumps" - key implementation points that capture the essence of MiniDataAPI in FastHTML. Here are the critical points to implement:
 
 1. **Basic Database Connection Speed Bump**
+
 ```python
 from fasthtml.common import *
 
@@ -1130,6 +1131,7 @@ def setup_db(db_url: str = "sqlite:///app.db"):
 ```
 
 2. **Model Definition Speed Bump**
+
 ```python
 from dataclasses import dataclass
 from typing import Optional
@@ -1151,6 +1153,7 @@ class User(BaseModel):
 ```
 
 3. **Table Creation Speed Bump**
+
 ```python
 from fasthtml.common import *
 from .models import User
