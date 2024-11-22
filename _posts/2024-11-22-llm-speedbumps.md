@@ -1,6 +1,6 @@
 ---
-title: Progressive Enablement
-permalink: /progressive-enablement/
+title: Progressive Enablement, LLM Speedbumps & Anti-pattern Vaccines
+permalink: /llm-speedbumps/
 description: 
 layout: post
 sort_order: 1
@@ -158,7 +158,8 @@ because some things competing for your attention are best left that way.
 So, let's do the stuff that creates accelerated returns. That is after all the
 subject of this post now, progressive enablement. Don't bite off more than you
 can chew. Bite off exactly the right amount for maximum eating pleasure and a
-healthy life.
+healthy life. News Flash: theme of post changed yet again, this time to ***LLM
+Speedbumps!***
 
 Get yourself into the right state of mind. Do this next round of work and it
 enables everything. Get it done and the world is a little bit different. Being
