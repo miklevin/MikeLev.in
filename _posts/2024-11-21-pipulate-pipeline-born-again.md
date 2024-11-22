@@ -2745,6 +2745,7 @@ class WorkFlow:
     - This is the return of cgi-bin and the Webmaster, but with modern technology.
     - All your localhost are belong to us
     """
+
     def __init__(self, app, route_prefix="/workflow"):
         self.app = app
         self.url = None
