@@ -81,7 +81,8 @@ echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤�
 articulating the complex, and holding myself accountable to the journey I've
 chosen&#151;and practicing my craft 🛠.
 
-<ol reversed>
+<ul>
+
   {% assign sorted_posts = site.posts | sort: 'date' %}
   {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
   {% assign total_posts = site.posts.size %}
@@ -107,7 +108,6 @@ chosen&#151;and practicing my craft 🛠.
       </li>
     {% endfor %}
   {% endfor %}
-</ol>
 
 ---
 
