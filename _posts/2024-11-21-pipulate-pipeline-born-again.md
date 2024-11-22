@@ -1,7 +1,7 @@
 ---
 title: Pipulate Pipeline Born Again Now
 permalink: /pipulate-pipeline-born-again/
-description:
+description: This article chronicles my journey to rebuild my Pipulate SEO tool, reflecting on the evolution of SEO, the quirks of JavaScript, and the importance of developer workflow. I delve into the "bring your own server" model with nix and explore the Pipulate pattern: local-first pipeline processing using FastHTML, HTMX, and SQLite. It's a tale of embracing simplicity and bucking the trend of complex web app architectures.
 layout: post
 sort_order: 1
 ---
