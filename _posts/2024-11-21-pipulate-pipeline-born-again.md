@@ -2526,3 +2526,119 @@ It's:
 - Maintains proper separation of concerns
 
 This is exactly the kind of "Simple > Complex > Complicated" pattern advocated in the docstring. Really nice work! 👏
+
+**Me**: Have we not wired it up yet to actually do the insert or update? It's time for us to show the pipulate table every time pipe is called in a similar fashion as I do with db using this helper class and a rich table...
+
+**Claude**: Ah yes! We should add logging for the Pipulate table operations similar to how DictLikeDB logs everything. Here's how we can do it:
+
+```python
+def show_pipulate_table(pipulate_store):
+    """Display current state of pipulate table using Rich
+    
+    Shows:
+    - URL (primary key)
+    - Created timestamp
+    - Updated timestamp 
+    - Data preview (truncated JSON)
+    """
+    table = Table(
+        title="Pipulate Table Status",
+        show_header=True,
+        header_style="bold magenta"
+    )
+    
+    # Define columns
+    table.add_column("URL", style="cyan")
+    table.add_column("Created", style="green")
+    table.add_column("Updated", style="yellow") 
+    table.add_column("Data Preview", style="blue")
+
+    # Add rows for each record
+    for record in pipulate_store():
+        # Truncate JSON preview to first ~40 chars
+        data_preview = str(record.data)[:40] + "..." if len(str(record.data)) > 40 else str(record.data)
+        
+        table.add_row(
+            record.url,
+            record.created,
+            record.updated,
+            data_preview
+        )
+
+    console.print(table)
+
+def pipe_operation(func):
+    """Decorator to log and display pipulate table operations
+    
+    Similar to db_operation but specific to pipulate table operations
+    Shows table status after each operation
+    """
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        method_name = func.__name__
+        logger.debug(f"PIPE Begin: {method_name}")
+        try:
+            result = func(*args, **kwargs)
+            # Show table after operation
+            show_pipulate_table(args[0].store)  # args[0] is self/Pipulate instance
+            return result
+        finally:
+            logger.debug(f"PIPE End: {method_name}")
+    return wrapper
+
+class Pipulate:
+    def __init__(self, url):
+        self.url = url
+        self.store = pipulate_table  # Reference to MiniDataAPI table
+        logger.debug(f"Pipulate initialized for URL: {url}")
+    
+    @pipe_operation
+    def pipe(self, card_name: str, data: dict):
+        """Record pipeline progress in pipulate table
+        
+        Updates or inserts record with:
+        - URL as primary key
+        - Card-specific data in JSON blob
+        - Automatic timestamps
+        """
+        try:
+            # Try to update existing record
+            record = self.store[self.url]
+            record_data = json.loads(record.data)
+            record_data[card_name] = data
+            self.store.update({
+                "url": self.url,
+                "data": json.dumps(record_data),
+                "updated": datetime.now().isoformat()
+            })
+            logger.debug(f"Updated pipeline record for URL: {self.url}")
+        except NotFoundError:
+            # Insert new record
+            self.store.insert({
+                "url": self.url,
+                "data": json.dumps({card_name: data}),
+                "created": datetime.now().isoformat(),
+                "updated": datetime.now().isoformat()
+            })
+            logger.debug(f"Inserted new pipeline record for URL: {self.url}")
+```
+
+This will:
+1. Show the pipulate table after every pipe operation
+2. Log all operations similar to DictLikeDB
+3. Display a nice Rich table with current state
+4. Truncate JSON previews to keep the display clean
+5. Use color coding to make the table easy to read
+
+The table will look something like:
+```
+┌────────────────┬─────────────────┬─────────────────┬───────────────┐
+│ URL            │ Created         │ Updated         │ Data Preview  │
+├────────────────┼─────────────────┼─────────────────┼───────────────┤
+│ github.com/... │ 2024-01-20T...  │ 2024-01-20T...  │ {"card1": {.. │
+└────────────────┴─────────────────┴─────────────────┴───────────────┘
+```
+
+Should we add this and wire it up to the existing code?
+
+
