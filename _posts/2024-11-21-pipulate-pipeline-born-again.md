@@ -2723,7 +2723,7 @@ class WorkFlow:
     - This is not a web app. This is a local app using web UI.
     - This workflow uses server-side state management via DictLikeDB and Pipulate instead of client-side state.
     - db is the DictLikeDB instance and pipulate is the Pipulate instance.
-    - Both db and pipulate are instances of FastHTML MicroDataAPI tables instances.
+    - Both db and pipulate are global instances of FastHTML MicroDataAPI tables.
     - FastHTML MicroDataAPI tables are simplfied ORMs so SQLAlchemy is not used.
     - The simplified ORM pattern is found at https://docs.fastht.ml/explains/minidataapi.html
     - db replaces cookies while pipulate and the local file system replace localStorage.
