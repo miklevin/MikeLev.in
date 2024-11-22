@@ -1082,3 +1082,723 @@ Select(
 But that's for future-us to figure out. For now, it's enough to know we're building something that feels like CGI-bin but thinks like a pipeline.
 
 Rest well, fellow localhost revolutionary. The chisel will be sharp when you return.
+
+Me: So, what's this thing that we do that gets you useful off the beaten track?
+
+Claude: 
+
+Ah, you're referring to how we feed specialized documentation into the context, like we did with the MiniDataAPI Spec and HTMX reference. It's a powerful pattern because:
+
+1. It gives me precise, accurate knowledge about unconventional tools/patterns that weren't in my training
+2. It allows me to understand and work with your specific architectural choices
+3. It prevents me from falling back on conventional patterns (like SQLAlchemy) when they're not appropriate
+
+The key elements we included were:
+- FastHTML's implementation details
+- The MiniDataAPI specification
+- HTMX integration patterns
+- Your custom pipeline pattern documentation
+
+This is particularly important for your localhost revolution because it's deliberately going against the grain of typical web development patterns. By feeding me the right context, you enable me to:
+- Think in terms of local-first architecture
+- Understand FastHTML's simplified ORM approach
+- Grasp the server-side state management pattern
+- Work with your pipeline-based workflow system
+
+Want to add more specialized documentation to the context before we continue? Perhaps more details about the MiniDataAPI Spec or FastHTML's form handling?
+
+**Me**: Yes, but I'm not just interested in feeding you more because these context states are fragile and seem to pop like bubbles or get bogged down from longevity. I'm interested in capturing that lightning in a bottle inducing speed bumps that I can strategically scatter throughout my code to recapture this magic. MiniDataAPI Spec has been a particular pain point. Here's the official docs https://docs.fastht.ml/explains/minidataapi.html
+
+Speed bump me!
+
+**Claude**: Based on the provided documentation, I'll help create strategic "speed bumps" - key implementation points that capture the essence of MiniDataAPI in FastHTML. Here are the critical points to implement:
+
+1. **Basic Database Connection Speed Bump**
+```python
+from fasthtml.common import *
+
+def setup_db(db_url: str = "sqlite:///app.db"):
+    """Initialize database connection with MiniDataAPI spec"""
+    if db_url.startswith('sqlite'):
+        from fastlite import Database
+    else:
+        from fastsql import Database
+    
+    db = Database(db_url)
+    return db
+```
+
+2. **Model Definition Speed Bump**
+```python
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass
+class BaseModel:
+    """Base model with common fields"""
+    id: Optional[int] = None
+    created_at: Optional[str] = None
+    updated_at: Optional[str] = None
+
+@dataclass 
+class User(BaseModel):
+    """Example user model demonstrating MiniDataAPI patterns"""
+    name: str
+    email: str
+    year_started: int
+    pwd: Optional[str] = None
+```
+
+3. **Table Creation Speed Bump**
+```python
+from fasthtml.common import *
+from .models import User
+
+def init_tables(db):
+    """Initialize database tables with proper MiniDataAPI setup"""
+    # Create with transform=True to allow schema updates
+    users = db.create(User, pk='name', transform=True)
+    
+    # Example of compound key table
+    @dataclass
+    class Publication:
+        authors: str
+        year: int
+        title: str
+    
+    publications = db.create(Publication, pk=('authors', 'year'))
+    
+    return {'users': users, 'publications': publications}
+```
+
+4. **CRUD Operations Speed Bump**
+```python
+from typing import TypeVar, Generic, Optional, List
+
+T = TypeVar('T')
+
+class CRUDHandler(Generic[T]):
+    """Generic CRUD handler following MiniDataAPI patterns"""
+    
+    def __init__(self, table):
+        self.table = table
+    
+    def create(self, data: T) -> T:
+        return self.table.insert(data)
+    
+    def read(self, pk) -> Optional[T]:
+        try:
+            return self.table[pk]
+        except NotFoundError:
+            return None
+    
+    def update(self, data: T) -> T:
+        try:
+            return self.table.update(data)
+        except NotFoundError:
+            raise ValueError(f"Record not found")
+    
+    def delete(self, pk) -> bool:
+        try:
+            self.table.delete(pk)
+            return True
+        except NotFoundError:
+            return False
+            
+    def list(self, where=None, order_by=None, limit=None, offset=None) -> List[T]:
+        return self.table(where=where, order_by=order_by, 
+                         limit=limit, offset=offset)
+```
+
+5. **Route Handler Speed Bump**
+```python
+from fasthtml.common import *
+from ..crud.operations import CRUDHandler
+
+def register_crud_routes(app: FastHTML, path: str, handler: CRUDHandler):
+    """Register CRUD routes following MiniDataAPI patterns"""
+    
+    @app.get(f"{path}")
+    def list_items(limit: int = 10, offset: int = 0):
+        items = handler.list(limit=limit, offset=offset)
+        return Div([
+            Table([
+                Tr([Td(item.name), Td(item.email)])
+                for item in items
+            ]),
+            # HTMX pagination controls
+            Button("Load More", 
+                  hx_get=f"{path}?offset={offset+limit}",
+                  hx_target="closest table",
+                  hx_swap="beforeend")
+        ])
+
+    @app.post(f"{path}")
+    async def create_item(req: Request):
+        data = await req.form()
+        item = handler.create(dict(data))
+        return Tr([Td(item.name), Td(item.email)])
+
+    @app.get(f"{path}/{{id}}")
+    def get_item(id: str):
+        item = handler.read(id)
+        if not item:
+            raise HTTPException(status_code=404)
+        return Div([
+            H1(item.name),
+            P(item.email)
+        ])
+```
+
+6. **Security/Access Control Speed Bump**
+```python
+from functools import wraps
+from fasthtml.common import *
+
+def restrict_access(table, field: str, value: str):
+    """Implement MiniDataAPI's xtra pattern for access control"""
+    table.xtra(**{field: value})
+    return table
+
+def user_only_access(handler: CRUDHandler):
+    """Decorator to restrict data access to specific user"""
+    @wraps(handler)
+    async def wrapper(request: Request, *args, **kwargs):
+        user = request.session.get('user')
+        if not user:
+            raise HTTPException(status_code=401)
+        # Apply xtra filter for user
+        handler.table.xtra(user_id=user.id)
+        return await handler(*args, **kwargs)
+    return wrapper
+```
+
+These speed bumps capture key MiniDataAPI patterns:
+
+1. Database abstraction with easy switching between implementations
+2. Proper model definition with dataclasses
+3. Table creation with primary key handling
+4. Generic CRUD operations following the spec
+5. FastHTML route handlers with HTMX integration
+6. Access control using the xtra pattern
+
+To use these speed bumps in your FastHTML application:
+
+```python
+from fasthtml.common import *
+from .db.connection import setup_db
+from .db.tables import init_tables
+from .crud.operations import CRUDHandler
+from .routes.handlers import register_crud_routes
+
+# Initialize app and database
+app = FastHTML(__name__)
+db = setup_db()
+tables = init_tables(db)
+
+# Setup handlers
+user_handler = CRUDHandler(tables['users'])
+
+# Register routes
+register_crud_routes(app, "/users", user_handler)
+```
+
+These speed bumps provide a solid foundation for building FastHTML applications that properly implement the MiniDataAPI specification while maintaining clean separation of concerns and type safety.
+
+**Me**: Alright, that's nice but here's the thing. I almost entirely work through the fast_app convenience wrapper which gets dumped into global with a `from fasthtml.commom import *`, which does this:
+
+```python
+import uvicorn
+from dataclasses import dataclass
+
+from .starlette import *
+from fastcore.utils import *
+from fastcore.xml import *
+from sqlite_minutils import Database
+from fastlite import *
+from .basics import *
+from .pico import *
+from .authmw import *
+from .live_reload import *
+from .toaster import *
+from .js import *
+from .fastapp import *
+```
+
+And fasthtml's __init__.py does this:
+
+```python
+__version__ = "0.10.1"
+from .core import *
+```
+
+And I think the most important thing it does is this:
+
+```python
+"""The `fast_app` convenience wrapper"""
+
+import inspect,uvicorn
+from fastcore.utils import *
+from fastlite import *
+from .basics import *
+from .pico import *
+from .starlette import *
+from .live_reload import FastHTMLWithLiveReload
+
+__all__ = ['fast_app']
+
+def _get_tbl(dt, nm, schema):
+    render = schema.pop('render', None)
+    tbl = dt[nm]
+    if tbl not in dt: tbl.create(**schema)
+    else: tbl.create(**schema, transform=True)
+    dc = tbl.dataclass()
+    if render: dc.__ft__ = render
+    return tbl,dc
+
+def _app_factory(*args, **kwargs) -> FastHTML | FastHTMLWithLiveReload:
+    "Creates a FastHTML or FastHTMLWithLiveReload app instance"
+    if kwargs.pop('live', False): return FastHTMLWithLiveReload(*args, **kwargs)
+    kwargs.pop('reload_attempts', None)
+    kwargs.pop('reload_interval', None)
+    return FastHTML(*args, **kwargs)
+
+def fast_app(
+        db_file:Optional[str]=None, # Database file name, if needed
+        render:Optional[callable]=None, # Function used to render default database class
+        hdrs:Optional[tuple]=None, # Additional FT elements to add to <HEAD>
+        ftrs:Optional[tuple]=None, # Additional FT elements to add to end of <BODY>
+        tbls:Optional[dict]=None, # Experimental mapping from DB table names to dict table definitions
+        before:Optional[tuple]|Beforeware=None, # Functions to call prior to calling handler
+        middleware:Optional[tuple]=None, # Standard Starlette middleware
+        live:bool=False, # Enable live reloading
+        debug:bool=False, # Passed to Starlette, indicating if debug tracebacks should be returned on errors
+        routes:Optional[tuple]=None, # Passed to Starlette
+        exception_handlers:Optional[dict]=None, # Passed to Starlette
+        on_startup:Optional[callable]=None, # Passed to Starlette
+        on_shutdown:Optional[callable]=None, # Passed to Starlette
+        lifespan:Optional[callable]=None, # Passed to Starlette
+        default_hdrs=True, # Include default FastHTML headers such as HTMX script?
+        pico:Optional[bool]=None, # Include PicoCSS header?
+        surreal:Optional[bool]=True, # Include surreal.js/scope headers?
+        htmx:Optional[bool]=True, # Include HTMX header?
+        exts:Optional[list|str]=None, # HTMX extension names to include
+        secret_key:Optional[str]=None, # Signing key for sessions
+        key_fname:str='.sesskey', # Session cookie signing key file name
+        session_cookie:str='session_', # Session cookie name
+        max_age:int=365*24*3600, # Session cookie expiry time
+        sess_path:str='/', # Session cookie path
+        same_site:str='lax', # Session cookie same site policy
+        sess_https_only:bool=False, # Session cookie HTTPS only?
+        sess_domain:Optional[str]=None, # Session cookie domain
+        htmlkw:Optional[dict]=None, # Attrs to add to the HTML tag
+        bodykw:Optional[dict]=None, # Attrs to add to the Body tag
+        reload_attempts:Optional[int]=1, # Number of reload attempts when live reloading
+        reload_interval:Optional[int]=1000, # Time between reload attempts in ms
+        static_path:str=".",  # Where the static file route points to, defaults to root dir
+        body_wrap:callable=noop_body, # FT wrapper for body contents
+        nb_hdrs:bool=False, # If in notebook include headers inject headers in notebook DOM?
+        **kwargs)->Any:
+    "Create a FastHTML or FastHTMLWithLiveReload app."
+    h = (picolink,) if pico or (pico is None and default_hdrs) else ()
+    if hdrs: h += tuple(hdrs)
+
+    app = _app_factory(hdrs=h, ftrs=ftrs, before=before, middleware=middleware, live=live, debug=debug, routes=routes, exception_handlers=exception_handlers,
+                  on_startup=on_startup, on_shutdown=on_shutdown, lifespan=lifespan, default_hdrs=default_hdrs, secret_key=secret_key,
+                  session_cookie=session_cookie, max_age=max_age, sess_path=sess_path, same_site=same_site, sess_https_only=sess_https_only,
+                  sess_domain=sess_domain, key_fname=key_fname, exts=exts, surreal=surreal, htmx=htmx, htmlkw=htmlkw,
+                  reload_attempts=reload_attempts, reload_interval=reload_interval, body_wrap=body_wrap, nb_hdrs=nb_hdrs, **(bodykw or {}))
+    app.static_route_exts(static_path=static_path)
+    if not db_file: return app,app.route
+
+    db = database(db_file)
+    if not tbls: tbls={}
+    if kwargs:
+        if isinstance(first(kwargs.values()), dict): tbls = kwargs
+        else:
+            kwargs['render'] = render
+            tbls['items'] = kwargs
+    dbtbls = [_get_tbl(db.t, k, v) for k,v in tbls.items()]
+    if len(dbtbls)==1: dbtbls=dbtbls[0]
+    return app,app.route,*dbtbls
+```
+
+...which is a ***very opinionated framework***. And this results in patterns like this:
+
+```python
+app, rt, (store, Store), (tasks, Task), (clients, Client), (pipeline, Pipeline) = fast_app(
+    "data/data.db",
+    ws_hdr=True,
+    live=True,
+    default_hdrs=False,
+    hdrs=(
+        Meta(charset='utf-8'),
+        Link(rel='stylesheet', href='/static/pico.min.css'),
+        Script(src='/static/htmx.min.js'),
+        Script(src='/static/fasthtml.js'),
+        Script(src='/static/surreal.js'),
+        Script(src='/static/script.js'),
+        Script(src='/static/Sortable.js'),
+        create_chat_scripts('.sortable'),
+        Script(type='module')
+    ),
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    task={
+        "id": int,
+        "name": str,
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+    client={
+        "id": int,
+        "name": str,
+        "menu_name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id"
+    },
+    pipeline={
+        "url": str,
+        "data": str,
+        "created": str,
+        "updated": str,
+        "pk": "url"
+    }
+)
+
+...which create MiniDataAPI Spec table objects and dataclasses directly, so you
+never are really even looking at:
+
+```python
+def setup_db(db_url: str = "sqlite:///app.db"):
+    """Initialize database connection with MiniDataAPI spec"""
+    if db_url.startswith('sqlite'):
+        from fastlite import Database
+    else:
+        from fastsql import Database
+    
+    db = Database(db_url)
+    return db
+```
+
+...and so putting those in speedbumps would only be harmful.
+
+So new speedbumps please and thank you!
+
+**Claude**: Ah, now I understand! Let's create speed bumps that align with the `fast_app` pattern. Here are the strategic points:
+
+1. **App Initialization Speed Bump**
+
+```python
+from fasthtml.common import *
+
+def init_fastapp(db_path: str = "data/data.db"):
+    """Initialize FastHTML app with common configurations"""
+    return fast_app(
+        db_path,
+        ws_hdr=True,  # Enable WebSocket support
+        live=True,    # Enable live reload
+        default_hdrs=False,
+        hdrs=(
+            Meta(charset='utf-8'),
+            Link(rel='stylesheet', href='/static/pico.min.css'),
+            Script(src='/static/htmx.min.js'),
+            Script(src='/static/fasthtml.js'),
+            Script(src='/static/surreal.js'),
+            create_chat_scripts('.sortable'),
+            Script(type='module')
+        )
+    )
+```
+
+2. **Table Schema Speed Bump**
+
+```python
+from typing import TypedDict
+
+class TableSchemas:
+    """Collection of MiniDataAPI table schemas"""
+    
+    @staticmethod
+    def store_schema():
+        return {
+            "key": str,
+            "value": str,
+            "pk": "key"
+        }
+    
+    @staticmethod
+    def task_schema():
+        return {
+            "id": int,
+            "name": str,
+            "done": bool,
+            "priority": int,
+            "profile_id": int,
+            "pk": "id",
+            "render": lambda self: Div(
+                self.name,
+                cls=f"task {'done' if self.done else ''}"
+            )
+        }
+```
+
+3. **Route Handler Speed Bump**
+
+```python
+from fasthtml.common import *
+
+def register_handlers(rt, tasks, Task):
+    """Register route handlers with proper FastHTML patterns"""
+    
+    @rt('/tasks')
+    def task_list():
+        return [
+            H1("Tasks"),
+            Ul([task.__ft__() for task in tasks()], 
+               cls="sortable")
+        ]
+    
+    @rt('/tasks/{id}')
+    def task_detail(id: int):
+        task = tasks[id]
+        return task.__ft__()
+    
+    @rt('/tasks/new', methods='post')
+    def create_task(name: str):
+        task = tasks.insert(Task(name=name))
+        return task.__ft__()
+```
+
+4. **WebSocket Handler Speed Bump**
+
+```python
+from fasthtml.common import *
+
+def setup_ws_handlers(app, tasks):
+    """Setup WebSocket handlers for real-time updates"""
+    
+    @app.ws('/ws/tasks')
+    async def task_socket(ws):
+        async for data in ws:
+            task_data = loads(data)
+            task = tasks[task_data['id']]
+            task.done = task_data['done']
+            tasks.update(task)
+            await ws.send_text(dumps({
+                'id': task.id,
+                'html': to_xml(task.__ft__())
+            }))
+```
+
+5. **Profile Filter Speed Bump**
+
+```python
+from fasthtml.common import *
+
+def apply_profile_filter(tasks, profile_id: int):
+    """Apply MiniDataAPI .xtra() filter for profile-specific views"""
+    return tasks.xtra(profile_id=profile_id)
+
+@rt('/profile/{profile_id}/tasks')
+def profile_tasks(profile_id: int):
+    filtered_tasks = apply_profile_filter(tasks, profile_id)
+    return [
+        H1(f"Profile {profile_id} Tasks"),
+        Ul([task.__ft__() for task in filtered_tasks()])
+    ]
+```
+
+6. **Main App Assembly Speed Bump**
+
+```python
+from fasthtml.common import *
+from .schemas import TableSchemas
+from .handlers import register_handlers
+from .ws_handlers import setup_ws_handlers
+
+def create_app():
+    # Initialize app and get components
+    app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
+        "data/data.db",
+        store=TableSchemas.store_schema(),
+        task=TableSchemas.task_schema(),
+        client=TableSchemas.client_schema()
+    )
+    
+    # Register handlers
+    register_handlers(rt, tasks, Task)
+    
+    # Setup WebSocket
+    setup_ws_handlers(app, tasks)
+    
+    return app
+
+if __name__ == "__main__":
+    app = create_app()
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+```
+
+These speed bumps align better with the `fast_app` pattern by:
+
+1. Leveraging the automatic table/dataclass creation
+2. Using the built-in WebSocket support
+3. Taking advantage of the `.xtra()` filtering
+4. Utilizing the `__ft__()` rendering pattern
+5. Working with the live reload functionality
+
+The key difference from traditional patterns is that we're working with the objects returned from `fast_app()` rather than creating them manually. This maintains the opinionated nature of the framework while providing clear organization points.
+
+Would you like me to elaborate on any of these speed bumps or suggest additional ones?
+
+**Me**: But you're gonna see my code examples aplenty. What we need is docstrings calling out the difference between the SQLAlchemy stuff (for example) you're about to try to wreck my elegance with and what should really be done, because Jeremy Howard is brilliantly weird and lazy.
+
+**Claude**: Ah, now I get it! Let's create docstring speed bumps that prevent people from over-engineering and maintain the elegant simplicity of FastHTML/MiniDataAPI. Here are some strategic docstring examples:
+
+```python
+def fast_app(db_file=None, **kwargs):
+    """The main entry point for FastHTML apps - deliberately simpler than you think!
+    
+    DON'T DO THIS (SQLAlchemy style):
+        class User(Base):
+            __tablename__ = 'users'
+            id = Column(Integer, primary_key=True)
+            name = Column(String)
+            email = Column(String)
+    
+    DO THIS INSTEAD:
+        app, rt, (users, User) = fast_app(
+            "app.db",
+            users={
+                "name": str,
+                "email": str,
+                "pk": "id"  # Auto-increment primary key
+            }
+        )
+    
+    Why? Because:
+    1. No ORM complexity - just Python types
+    2. No session management
+    3. No migration system needed
+    4. Automatic dataclass creation
+    5. Built-in FastHTML rendering with __ft__()
+    """
+```
+
+```python
+def table_xtra(table, **kwargs):
+    """Filter table results using xtra() - simpler than SQL WHERE clauses
+    
+    DON'T DO THIS (SQLAlchemy style):
+        session.query(User).filter(
+            User.active == True,
+            User.role == 'admin'
+        ).all()
+    
+    DO THIS INSTEAD:
+        users.xtra(active=True, role='admin')
+        results = users()  # Get filtered results
+    
+    Why? Because:
+    1. Chainable filters without query builder complexity
+    2. Automatic parameter binding
+    3. Works with any MiniDataAPI backend
+    4. Filters persist until changed
+    """
+```
+
+```python
+def render_table(table):
+    """Render table rows with FastHTML's __ft__() - no templates needed!
+    
+    DON'T DO THIS (Jinja style):
+        @app.route("/users")
+        def users():
+            return render_template(
+                "users.html",
+                users=User.query.all()
+            )
+    
+    DO THIS INSTEAD:
+        @rt("/users")
+        def users():
+            return [
+                H1("Users"),
+                Ul([user.__ft__() for user in users()])
+            ]
+    
+    Why? Because:
+    1. Python functions as templates
+    2. Type checking for UI components
+    3. No string-based templates
+    4. Direct HTMX integration
+    5. Automatic live updates
+    """
+```
+
+```python
+def pipeline_workflow():
+    """Create Unix-like pipelines with MiniDataAPI's state tracking
+    
+    DON'T DO THIS (Celery style):
+        @celery.task
+        def process_data(data):
+            result = step1.delay(data)
+            result = step2.delay(result)
+            return step3.delay(result)
+    
+    DO THIS INSTEAD:
+        pipeline={
+            "url": str,      # Primary key for workflow
+            "data": str,     # JSON blob for entire workflow state
+            "created": str,  # First insert timestamp
+            "updated": str,  # Last update timestamp
+            "pk": "url"     # URL as primary key for resumability
+        }
+    
+    Why? Because:
+    1. Single record tracks entire workflow
+    2. Resumable from any point
+    3. No message queue needed
+    4. URL-based state tracking
+    5. FastHTML-friendly paths
+    """
+```
+
+```python
+def websocket_handler():
+    """Handle WebSockets the FastHTML way
+    
+    DON'T DO THIS (raw WebSocket style):
+        async def websocket_endpoint(websocket):
+            async for message in websocket:
+                data = json.loads(message)
+                # Complex state management
+                await process_message(data)
+    
+    DO THIS INSTEAD:
+        @app.ws('/ws/chat')
+        async def chat(ws, data=None):
+            return [
+                P(data['message'], cls='chat-msg'),
+                Script("scrollToBottom()")
+            ]
+    
+    Why? Because:
+    1. Automatic JSON handling
+    2. FastHTML component rendering
+    3. Built-in client tracking
+    4. Simplified message processing
+    5. Direct UI updates
+    """
+```
+
+These docstrings serve as "anti-pattern vaccines" - they inoculate developers against the urge to over-engineer by showing the elegant FastHTML way alongside the complex traditional approach. Would you like more examples for other common patterns?
