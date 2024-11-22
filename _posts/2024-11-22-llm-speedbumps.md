@@ -13,7 +13,9 @@ rather how to inoculate yourself against that kind of thinking, and to continue
 driving to the next enabling level the work in which I'm deeply engaged. After
 that, all the other stuff that makes me feel time-strapped fall into place. The
 idea is to up your game to superhero level as a practical alternative to being
-beaten down by life.
+beaten down by life. And as the article progressed, it shifted yet again to how
+to ***fix*** to help you the way you need, ***especially*** when wandering off
+the beaten path.
 
 Yet, I will keep the way the prior version of the article opened.
 
