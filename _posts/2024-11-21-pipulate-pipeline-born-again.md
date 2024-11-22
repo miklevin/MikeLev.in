@@ -3016,7 +3016,7 @@ This is a great example of why server-side state management through your `DictLi
 ---
 
 Ohhhhh. Thank you, Genie Claude! So it's a case of: ***"If you give up your
-cake, you shouldn't try to eat it too."*** Got it!
+cake, you shouldn't try to eat it too."*** How self-ish of me. Got it!
 
 And so finally my documentation of where we're at. Not bad after several
 attempts to nail it out of the starting gate. The fruit of my labor is crystal
