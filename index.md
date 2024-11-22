@@ -81,21 +81,20 @@ echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤�
 articulating the complex, and holding myself accountable to the journey I've
 chosen&#151;and practicing my craft 🛠.
 
-<ul>
-
+<ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}
   {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
   {% assign total_posts = site.posts.size %}
-  {% for day in grouped_posts %}
+  {% assign post_counter = 0 %}
+  {% for day in grouped_posts | limit: 10 %}
     {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
     {% for post in day_posts %}
-      <li value="{{ total_posts | minus: forloop.index0 }}"><hr />
-        <h3><a href="{{ post.url }}" class="arrow-link">{{ post.title }}</a></h3>
+      <li value="{{ total_posts | minus: post_counter }}"><hr />
+        <h3><a href="{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {% if post.description %}
-          <p>{{ post.description }}</p>
+          <p>{{ post.description | escape }}</p>
         {% endif %}
-        
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -106,8 +105,10 @@ chosen&#151;and practicing my craft 🛠.
         }
         </script>
       </li>
+      {% assign post_counter = post_counter | plus: 1 %}
     {% endfor %}
   {% endfor %}
+</ol>
 
 ---
 
