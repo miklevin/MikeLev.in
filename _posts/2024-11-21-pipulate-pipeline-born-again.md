@@ -1908,9 +1908,9 @@ It's like we've come full circle - back to the simplicity of CGI scripts but wit
 
 And yes, it's conceptually similar to Electron but without the overhead - just pure web tech running in a controlled local environment. Perfect for single-tenant tools!
 
-Me: But with magically ajax-enabled Python instead of PERL.
+**Me**: But with magically ajax-enabled Python instead of PERL.
 
-Claude: Exactly! It's like CGI/PERL's simplicity met modern Python and got superpowers:
+**Claude**: Exactly! It's like CGI/PERL's simplicity met modern Python and got superpowers:
 
 ```python
 # 1995: CGI/PERL
@@ -2273,9 +2273,9 @@ This was a good solution because it:
 
 Now we have a solid foundation for building out the rest of the pipeline workflow while maintaining clean architecture principles!
 
-Me: Check my implementation before before wiring it up.
+**Me**: Check my implementation before before wiring it up.
 
-Claude: Looking at your implementation, I notice a few important points that need attention:
+**Claude**: Looking at your implementation, I notice a few important points that need attention:
 
 1. **MiniDataAPI Spec Alignment**
    ```python
@@ -2367,7 +2367,7 @@ This implementation:
 
 Would you like me to explain any of these changes in more detail?
 
-Me: We DO NOT want to make a piece of code like that have to propagate. That's
+**Me**: We DO NOT want to make a piece of code like that have to propagate. That's
 the kind of complexity that should be shoved around to the right location given
 it's frequent need. Especially because it is always using the same tablename, it
 belongs inside the Pipulate base class as a helper method. Timetamps are also
@@ -2379,7 +2379,7 @@ pipulate.pipe(args)
 
 Oh, what an API! Lay it on me, Claude! Update your proposal.
 
-Claude: Ah, now I see the elegance! You're absolutely right - all that complexity belongs in the Pipulate class. Here's the refined approach:
+**Claude**: Ah, now I see the elegance! You're absolutely right - all that complexity belongs in the Pipulate class. Here's the refined approach:
 
 ```python
 class Pipulate:
@@ -2422,12 +2422,12 @@ This is much better because:
 
 The metaphor is perfect - we're literally piping data through a pipeline! 🎯
 
-Me: But you missed the original point that such a call might be an insert or an
+**Me**: But you missed the original point that such a call might be an insert or an
 update, depending on Card 1 or not. And even then, it might be the resumption of
 a job by plugging the url into Card 1 again, so you never know. Let's be
 defensive and make something super robust.
 
-Claude: Ah yes, you're absolutely right! The Pipulate class should handle all those cases transparently. Here's a more robust implementation:
+**Claude**: Ah yes, you're absolutely right! The Pipulate class should handle all those cases transparently. Here's a more robust implementation:
 
 ```python
 class Pipulate:
