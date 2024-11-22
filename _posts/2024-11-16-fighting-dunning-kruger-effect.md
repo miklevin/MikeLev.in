@@ -399,7 +399,7 @@ The irony is delicious:
 
 Looking at your minimize/expand card code:
 ```python
-@app.post(f"{route_prefix}/minimize/{{card_id}}")
+@app.post(f"{route_prefix}/minimize/{% raw %}{{card_id}}{% endraw %}")
 def minimize_card(card_id: str):
     return Article(
         Header(
@@ -1967,7 +1967,7 @@ class BotifyLinkGraph:
         self.app.route(f"{self.route_prefix}/")(self.render)
         self.app.route(f"{self.route_prefix}/process_analysis", 
                       methods=["POST"])(self.process_analysis)
-        self.app.route(f"{self.route_prefix}/poll_export/{{job_id}}")(
+        self.app.route(f"{self.route_prefix}/poll_export/{% raw %}{{job_id}}{% endraw %}")(
             self.poll_export)
 
     async def render(self, request):
