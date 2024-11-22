@@ -1,5 +1,5 @@
 ---
-title: Progressive Enablement, LLM Speedbumps & Anti-pattern Vaccines
+title: LLM Speedbumps & Anti-pattern Vaccines
 permalink: /llm-speedbumps/
 description: 
 layout: post
