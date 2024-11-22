@@ -2272,3 +2272,224 @@ This was a good solution because it:
    - Minimal but complete implementation
 
 Now we have a solid foundation for building out the rest of the pipeline workflow while maintaining clean architecture principles!
+
+Me: Check my implementation before before wiring it up.
+
+Claude: Looking at your implementation, I notice a few important points that need attention:
+
+1. **MiniDataAPI Spec Alignment**
+   ```python
+   # Current:
+   self.pipulate.insert({
+       "url": cleaned_url,
+       "data": json.dumps(blob),
+       "created": now,
+       "updated": now
+   })
+   ```
+   The MiniDataAPI Spec expects us to check if record exists first, then update or insert accordingly. We should use:
+   ```python
+   async def record_url(self, cleaned_url: str):
+       """Records cleaned URL in pipulate table with initial card1 JSON blob"""
+       pipeline = self.pipulate.get(cleaned_url)  # URL is PK
+       now = datetime.now().isoformat()
+       blob = {
+           "card1": {
+               "url-input": cleaned_url
+           }
+       }
+       
+       if pipeline:
+           self.pipulate.update({
+               "url": cleaned_url,
+               "data": json.dumps(blob),
+               "updated": now
+           })
+       else:
+           self.pipulate.insert({
+               "url": cleaned_url,
+               "data": json.dumps(blob),
+               "created": now,
+               "updated": now
+           })
+   ```
+
+2. **Async/Await**
+   - The method is async but we're not awaiting the database operations
+   - MiniDataAPI operations are synchronous, so we can actually remove the async
+
+3. **State Management**
+   ```python
+   # Need to update workflow state after db operation
+   self.url = cleaned_url  # Keep local state in sync
+   ```
+
+The corrected implementation would be:
+
+```python
+def record_url(self, cleaned_url: str):
+    """Records cleaned URL in pipulate table with initial card1 JSON blob
+    
+    This method handles the atomic operation of creating/updating the pipulate
+    record with the standardized JSON structure for form submissions.
+    """
+    pipeline = self.pipulate.get(cleaned_url)
+    now = datetime.now().isoformat()
+    blob = {
+        "card1": {
+            "url-input": cleaned_url
+        }
+    }
+    
+    if pipeline:
+        self.pipulate.update({
+            "url": cleaned_url,
+            "data": json.dumps(blob),
+            "updated": now
+        })
+    else:
+        self.pipulate.insert({
+            "url": cleaned_url,
+            "data": json.dumps(blob),
+            "created": now,
+            "updated": now
+        })
+    
+    self.url = cleaned_url  # Keep workflow state in sync
+```
+
+This implementation:
+1. Follows MiniDataAPI get/update/insert pattern
+2. Maintains workflow state consistency
+3. Handles both new and existing URLs correctly
+4. Removes unnecessary async/await
+5. Preserves the JSON blob structure
+
+Would you like me to explain any of these changes in more detail?
+
+Me: We DO NOT want to make a piece of code like that have to propagate. That's
+the kind of complexity that should be shoved around to the right location given
+it's frequent need. Especially because it is always using the same tablename, it
+belongs inside the Pipulate base class as a helper method. Timetamps are also
+consistent and not needing parameters. In fact, once everything that can be
+moved to Pipipulate is, it may be only the new form key/values that need be
+passed in through... through... a pipe! 
+
+pipulate.pipe(args)
+
+Oh, what an API! Lay it on me, Claude! Update your proposal.
+
+Claude: Ah, now I see the elegance! You're absolutely right - all that complexity belongs in the Pipulate class. Here's the refined approach:
+
+```python
+class Pipulate:
+    # ... existing code ...
+
+    def pipe(self, form_data: dict):
+        """Pipe form data into the pipeline's JSON blob
+        
+        Updates pipeline data with new form key/values while maintaining
+        timestamps and state automatically.
+        """
+        self.data.update(form_data)
+        pipelines.update({
+            "url": self.url,
+            "data": json.dumps(self.data),
+            "updated": self.current_timestamp()
+        })
+```
+
+And in WorkFlow, it becomes beautifully simple:
+
+```python
+def record_url(self, cleaned_url: str):
+    """Records cleaned URL in pipulate table"""
+    pipeline = Pipulate(cleaned_url)
+    pipeline.pipe({
+        "card1": {
+            "url-input": cleaned_url
+        }
+    })
+    self.url = cleaned_url
+```
+
+This is much better because:
+1. All DB complexity lives in Pipulate where it belongs
+2. Timestamps handled automatically
+3. JSON blob management centralized
+4. WorkFlow just pipes data through
+5. Simple, memorable API: `pipulate.pipe(data)`
+
+The metaphor is perfect - we're literally piping data through a pipeline! 🎯
+
+Me: But you missed the original point that such a call might be an insert or an
+update, depending on Card 1 or not. And even then, it might be the resumption of
+a job by plugging the url into Card 1 again, so you never know. Let's be
+defensive and make something super robust.
+
+Claude: Ah yes, you're absolutely right! The Pipulate class should handle all those cases transparently. Here's a more robust implementation:
+
+```python
+class Pipulate:
+    """Pipulate Pattern: Local-First Pipeline Processing Using FastHTML/HTMX"""
+    
+    def __init__(self, url):
+        """Initialize pipeline, creating if needed"""
+        self.url = url
+        self.pipeline = pipelines.get(self.url)
+        if not self.pipeline:
+            self.pipeline = pipelines.insert({
+                "url": self.url,
+                "data": "{}",
+                "created": self.current_timestamp(),
+                "updated": self.current_timestamp()
+            })
+        self.data = json.loads(self.pipeline['data'])
+
+    def pipe(self, card_name: str, form_data: dict):
+        """Pipe form data into pipeline, handling all cases transparently
+        
+        Args:
+            card_name: Name of the card (e.g., 'card1')
+            form_data: Dict of form field data to store
+        
+        The pipeline is created if it doesn't exist, updated if it does.
+        Previous card data is preserved, new card data overwrites old.
+        """
+        # Preserve existing data while updating specific card
+        if card_name in self.data:
+            self.data[card_name].update(form_data)
+        else:
+            self.data[card_name] = form_data
+
+        # Update pipeline record with new data
+        pipelines.update({
+            "url": self.url,
+            "data": json.dumps(self.data),
+            "updated": self.current_timestamp()
+        })
+        return self.data
+
+```
+
+And in WorkFlow, it becomes even simpler:
+
+```python
+def record_url(self, cleaned_url: str):
+    """Records cleaned URL in pipulate table"""
+    pipeline = Pipulate(cleaned_url)
+    pipeline.pipe('card1', {'url-input': cleaned_url})
+    self.url = cleaned_url
+```
+
+Now:
+1. `__init__` handles create-if-not-exists
+2. `pipe()` preserves existing card data
+3. Card data is namespaced by card name
+4. Updates are non-destructive to other cards
+5. Timestamps handled automatically
+6. Works for new jobs and resumptions
+7. No need to know if it's an insert or update
+
+The API is still simple but now bulletproof! 🛡️
+
