@@ -1086,11 +1086,9 @@ But that's for future-us to figure out. For now, it's enough to know we're build
 
 Rest well, fellow localhost revolutionary. The chisel will be sharp when you return.
 
-Me: So, what's this thing that we do that gets you useful off the beaten track?
+**Me**: So, what's this thing that we do that gets you useful off the beaten track?
 
-Claude: 
-
-Ah, you're referring to how we feed specialized documentation into the context, like we did with the MiniDataAPI Spec and HTMX reference. It's a powerful pattern because:
+**Claude**: Ah, you're referring to how we feed specialized documentation into the context, like we did with the MiniDataAPI Spec and HTMX reference. It's a powerful pattern because:
 
 1. It gives me precise, accurate knowledge about unconventional tools/patterns that weren't in my training
 2. It allows me to understand and work with your specific architectural choices
