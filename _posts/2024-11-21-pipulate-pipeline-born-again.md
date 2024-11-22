@@ -2712,7 +2712,7 @@ And the use of the pipeline table and Pipulate class is no longer represented
 here. My weekend work is building that up from scratch, building first
 principles in line by line with minimal AI code assistance because this is where
 it balks and resists and genie wish backfires with a passion that would make
-Jafar jealous.
+Jafar blush.
 
 ```python
 class WorkFlow:
