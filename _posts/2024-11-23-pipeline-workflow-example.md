@@ -919,3 +919,157 @@ bit left that I'm still avoiding...
 Rapid, repeated serializing and deserializing JSON blobs without missing a beat.
 
 Yikes!
+
+Okay, some food in belly. Proper balance of protein and vitamin C so that when I
+finally do sleep again, the factory can glue the parts together to heal and
+grow, you scurvy scoundrel. Sailors gums bleed at sea because of lack of vitamin
+C, one of those amino acids that almost as a punchline of a joke evolution left
+out of us and guinea pigs. But I'm not going to perplexity that one. You'll just
+have to look it up. Because I'm onto... well, the 1st step is planning the humor
+of the pipeline. What to do with the URL now that it's "scrubbed". Simply
+display it on card 2!
+
+**Me**: Still have context here, Claude? What are our prospects of showing the submitted URL on card2? This is where everything blows up in our face and the immaculate control we just established spins out of control. So I guess the instruction is don't do anything "creative" or useful or helpful outside the boundary of this request. Don't remove code. Don't regress features. I'm not going to apply your response as a patch. I'm going to look at it with a surgeon's eyes and ask myself what 1-line of code can I transpose over into the existing code that will achieve this request. Of course I know it's going to be more than 1 line of code, but I'm not going to be happy about it. Plan and propose the next careful, strategic chisel strike please and thank you, Claude.
+
+**Claude**: Yes, I have the context! I see exactly what you're doing with the server-side state management through `db['url']` and `pipulate.pipe(clean_url)`. 
+
+For showing the URL on card2, we have a perfect setup because:
+1. The URL is already in `db['url']` from the `process_url` handler
+2. We have a clean `card2` handler that can access this state
+3. We're using FastHTML's component system
+
+The minimal change would be in the `card2` method:
+
+```python
+@rt("/workflow/card2")
+async def card2(self, request):
+    """Second card that appears after URL submission"""
+    logger.debug("Rendering card2")
+    return Card(
+        Header("Card 2"),
+        P(db['url']),  # <-- This is the only line we need to add
+        id="card2"
+    )
+```
+
+This is the most surgical change because:
+1. Uses existing state management pattern
+2. No new dependencies or patterns introduced
+3. Maintains the server-side state philosophy
+4. Leverages FastHTML's component system
+5. Doesn't touch the working URL processing logic
+
+Would you like me to explain why this specific change maintains the architectural integrity you've established?
+
+**Me**: Excellent! Actually 1 line. Nice. But still, it didn't work. Now document in speedbump fashion so I can insert it in like a docstring why endpoints in a class like this don't have global context even in the same served .py file given the ASGI async stuff going on. Endpoints lose global context and normally the self and requests apparatus of Starlette compensate with object passing at the class instance level, but I'm passing on passing because client nyah nyah nyah nyah nyah. But as a price, I have to cram that apparatus to get db back into the endpoint. Not a terrible cost, but also something I might want to rethink.
+
+**Claude**: Here's a docstring explaining the global context issue with class-based endpoints in ASGI applications:
+
+```python
+"""
+GLOBAL CONTEXT SPEEDBUMP:
+
+FastHTML/Starlette endpoints in classes lose access to global variables due to ASGI's 
+async context isolation. Even when globals are defined in the same .py file, each 
+endpoint runs in its own isolated async context.
+
+Traditional solutions:
+1. Pass dependencies via self/request in Starlette's class-based pattern
+2. Use dependency injection through middleware
+3. Configure shared state through app.state
+
+Current workaround:
+- Re-importing db in each endpoint method
+- Not ideal but functional for single-tenant desktop apps
+- Avoids complexity of proper dependency injection
+
+Better approaches to consider:
+1. Move to function-based routes with explicit dependency injection
+2. Use FastHTML's middleware system to inject db
+3. Store db in app.state and access via request.app.state
+4. Create a proper service layer pattern
+
+The price of global state loss is relatively small here, but this pattern 
+should be reconsidered for more complex applications.
+
+Example of proper dependency injection:
+"""
+
+@app.middleware("http")
+async def inject_db(request: Request, call_next):
+    request.state.db = db
+    response = await call_next(request)
+    return response
+```
+
+This explains why we can't just use the global `db` directly in the endpoint methods and need to either re-import it or use proper dependency injection patterns.
+
+**Me**: Okay, great! So instead of slopping this up with a pattern I'm not going to be happy with which is going to propagate, and instead of over-engineering with something equally offensive, let's lean into Starlette's strengths. I'm open to registering routes at __init__ and passing self and request if that's what we're talking about. Don't just play into that as if I know, because I don't really know here. I see that there's a self.app in init. And I'm used to seeing a request object in relation to Starlette. But review my principles and know that I'm looking for an 80/20-rule solution. I'm flexible. Propose stuff.
+
+**Claude**: Based on your code and principles, I'll propose a clean 80/20 solution that leverages Starlette's strengths through FastHTML. Here's what I see as the key points:
+
+1. You're using FastHTML's `rt` decorator (not FastAPI's router)
+2. You have a global `app` instance from `fast_app()`
+3. You want to keep state server-side using your `DictLikeDB`
+4. You're using HTMX for UI interactions
+
+Here's a proposed pattern that's both clean and pragmatic:
+
+```python
+class WorkFlow:
+    def __init__(self, app):
+        self.app = app
+        # Register routes in __init__
+        app.route("/workflow/process-url", methods=["POST"])(self.process_url)
+        app.route("/workflow/card2")(self.card2)
+        
+    async def process_url(self, request):
+        """Process URL submission and update UI via HTMX"""
+        form = await request.form()
+        url = form.get('url', '').strip()
+        
+        # Use your DictLikeDB for state
+        db['url'] = url
+        
+        return (
+            Input(
+                value=url,
+                id="url-input",
+                hx_swap_oob="true"
+            ),
+            Card(
+                Header("Card 2"),
+                P("Processing..."),
+                id="card2",
+                hx_get="/workflow/card2",
+                hx_trigger="load"
+            )
+        )
+
+    async def card2(self, request):
+        """Second card showing processed URL"""
+        return Card(
+            Header("Card 2"), 
+            P(db['url']),
+            id="card2"
+        )
+
+# Initialize at app startup
+workflow = WorkFlow(app)
+```
+
+Key benefits of this approach:
+
+1. **Clean Route Registration**: Routes are registered in `__init__`, making the routing explicit and centralized
+2. **Starlette Native**: Uses Starlette's request object and routing directly
+3. **State Management**: Uses your `DictLikeDB` for server-side state
+4. **HTMX Integration**: Leverages FastHTML's HTMX features for UI updates
+5. **Minimal Boilerplate**: No decorators needed in the class methods themselves
+
+The pattern follows your architectural principles:
+- Server-side state via `DictLikeDB`
+- No client-side state management
+- Clean HTMX-based UI updates
+- Minimal code overhead
+
+Would you like me to explain any part of this pattern in more detail?
