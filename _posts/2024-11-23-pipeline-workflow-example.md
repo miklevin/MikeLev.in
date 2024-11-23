@@ -1296,9 +1296,9 @@ And now in my own words to my own future self, ahem...
 Please help implement card2 for this workflow pipeline pattern. The system currently has a record in the pipeline table with this structure:
 
 ```
-url: "https://app.botify.com/org/project/"
+url: "https://app.botify.com/orgx/projectx/"
 data: {
-    "url": "https://app.botify.com/org/project/",
+    "url": "https://app.botify.com/orgx/projectx/",
     "steps": {},
     "current_step": "card1",
     "created": "2024-11-22T15:21:04.078046",
@@ -1308,7 +1308,7 @@ data: {
 
 Requirements for card2:
 
-1. Extract organization ("org") and project ("project") from the URL path
+1. Extract organization ("orgx") and project ("projectx") from the URL path
 2. Use these to lookup available analysis slugs (YYYYMMDD format dates)
 3. Present these as a selection form
 4. On selection, update the pipeline record by:
