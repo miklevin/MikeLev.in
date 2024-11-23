@@ -6,7 +6,9 @@ layout: post
 sort_order: 1
 ---
 
-This is about technical precision and artistic possibility. 
+This exploration delves into the intersection of technical precision and artistic possibility in web development. We'll challenge conventional wisdom, embrace simplicity, and rediscover the power of server-side state management within the context of a unique pipeline pattern. This pattern, inspired by the elegance of Unix pipes, allows us to orchestrate complex workflows with minimal code and maximum clarity. Join us as we challenge the dominance of client-side state management and reimagine how web applications can be built,  leveraging modern tools like FastHTML and HTMX to create a localhost-first revolution.
+
+Our journey will take us through the intricacies of  JSON serialization,  server-side state management, and the power of  URL-driven workflows. We'll explore how this approach can simplify development, enhance maintainability, and ultimately empower developers to create more robust and user-friendly applications.  Get ready to witness the rebirth of the Webmaster, now the Pipemaster, orchestrating data flow with elegance and precision.
 
 **Me**: If I am to provide a sample of a workflow instance of a pipeline process that resembles Unix piping, should it be an example workflow pipeline or an example of a pipeline workflow?
 
