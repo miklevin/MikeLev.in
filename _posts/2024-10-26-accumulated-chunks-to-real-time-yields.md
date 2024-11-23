@@ -979,7 +979,7 @@ reg_re_param("static", "ico|gif|jpg|jpeg|webm|css|js|woff|png|svg|mp4|webp|ttf|o
 @patch
 def static_route_exts(self:FastHTML, prefix='/', static_path='.', exts='static'):
     "Add a static route at URL path `prefix` with files from `static_path` and `exts` defined by `reg_re_param()`"
-    @self.route(f"{prefix}{% raw %}{{fname:path}}{% endraw %}.{{ext:{exts}}}")
+    @self.route(f"{prefix}{% raw %}{{fname:path}}.{{ext:{exts}}}"){% endraw %}
     async def get(fname:str, ext:str): return FileResponse(f'{static_path}/{fname}.{ext}')
 
 # %% ../nbs/api/00_core.ipynb

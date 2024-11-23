@@ -1086,7 +1086,7 @@ class Introduction:
                 """),
                 Button(
                     "Chat with AI Assistant",
-                    onclick=f"fetch('{self.route_prefix}/start-chat', {{method: 'POST'}})",
+                    onclick=f"fetch('{self.route_prefix}/start-chat', {% raw %}{{method: 'POST'}})",{% endraw %}
                     style="margin-top: 10px;"
                 )
             ),
