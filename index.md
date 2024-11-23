@@ -86,7 +86,7 @@ chosen&#151;and practicing my craft 🛠.
   {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
   {% assign total_posts = site.posts.size %}
   {% assign post_counter = 0 %}
-  {% for day in grouped_posts | limit: 10 %}
+  {% for day in grouped_posts | limit: 1000 %}
     {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
     {% for post in day_posts %}
       <li value="{{ total_posts | minus: post_counter }}"><hr />
