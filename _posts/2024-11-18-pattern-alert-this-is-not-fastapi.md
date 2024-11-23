@@ -34,8 +34,8 @@ group think and herd mentality stupidity than the rest of us. They are
 programmed to follow the big fat middle of the normal distribution bell curve,
 which means if you take their advice all the time, you will always be average,
 and the genies will forever be misinterpreting your wishes. And so after we have
-a tiger by the tail, Prometheus unbound, and the lightning is crackling from
-your fingertips like a good wizard, we write prompts like this:
+a tiger by the tail, Prometheus unbound, and the lightning in a bottle, we can
+write prompts like this:
 
 ### The Prompt That Binds
 

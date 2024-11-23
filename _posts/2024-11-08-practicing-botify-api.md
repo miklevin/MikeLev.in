@@ -401,8 +401,8 @@ pd.set_option('display.max_colwidth', None)
 df  # displays becasue last line of cell in Notebook
 ```
 
-OMG, I've got Prometheus unbound right now. I need to figure out how to stir it
-up again. Okay, deep breath...
+OMG, I've got lightning in a bottle here. Prometheus unbound. I need to figure
+out how to stir it up again. Okay, deep breath...
 
 **Me to ChatGPT 4o**: So you're really friggn good at this now, and I need to be able to reproduce this magic of getting working Botify API Notebooks out of some poking around in the browser in their Web UI. Advise me on how to prompt you to get back something to recapture this magic. Enumerate key points and instructions back to me or whatever please.
 
