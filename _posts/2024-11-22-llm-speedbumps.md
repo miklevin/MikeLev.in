@@ -1176,6 +1176,7 @@ def init_tables(db):
 ```
 
 4. **CRUD Operations Speed Bump**
+
 ```python
 from typing import TypeVar, Generic, Optional, List
 
@@ -1215,6 +1216,7 @@ class CRUDHandler(Generic[T]):
 ```
 
 5. **Route Handler Speed Bump**
+
 ```python
 from fasthtml.common import *
 from ..crud.operations import CRUDHandler
@@ -1255,6 +1257,7 @@ def register_crud_routes(app: FastHTML, path: str, handler: CRUDHandler):
 ```
 
 6. **Security/Access Control Speed Bump**
+
 ```python
 from functools import wraps
 from fasthtml.common import *
