@@ -264,9 +264,9 @@ Citations:
     [2] https://www.simform.com/blog/nodejs-vs-python/
     [3] https://movadex.com/blog/article/node-js-vs-python-selecting-the-ideal-backend-tech-for-2024
 
-Me: I hear things like use `npm ci` to simplify builds, and I'm like I don't want builds at all. I'm a livereload sorta purist. Tweak, look, tweak, look, tweak, look. It's like little chisel-strike by little chisel-strike and the continuity of movement between chisel-strikes is what gets me into the flow-state and makes being a sculptor on the table for me as an option at all. If that workflow were tweak, wait even 30 seconds and have to look away and break out of flow state to do some other dependency action, then I just lose it. Recapturing where I was in my mind takes too long. Again, this notion of everything being like a house of cards, and if you relax your focus even just a little bit because your tooling requires you to do so, it all comes tumbling down. I mean I know from things like `jekyll serve --livereload` even big complex builds can be nearly instantaneous on modern hardware with the right setup, so I'm trying to keep an open mind. But after years of Python being the solution, it's not easy to get over my anti-React, and thus often anti-node mindset.
+**Me**: I hear things like use `npm ci` to simplify builds, and I'm like I don't want builds at all. I'm a livereload sorta purist. Tweak, look, tweak, look, tweak, look. It's like little chisel-strike by little chisel-strike and the continuity of movement between chisel-strikes is what gets me into the flow-state and makes being a sculptor on the table for me as an option at all. If that workflow were tweak, wait even 30 seconds and have to look away and break out of flow state to do some other dependency action, then I just lose it. Recapturing where I was in my mind takes too long. Again, this notion of everything being like a house of cards, and if you relax your focus even just a little bit because your tooling requires you to do so, it all comes tumbling down. I mean I know from things like `jekyll serve --livereload` even big complex builds can be nearly instantaneous on modern hardware with the right setup, so I'm trying to keep an open mind. But after years of Python being the solution, it's not easy to get over my anti-React, and thus often anti-node mindset.
 
-Perplexity: Your preference for a livereload-centric workflow is understandable, especially given your experience with Python and tools like Jekyll. The desire for instant feedback and maintaining flow state is crucial for many developers. Node.js and its ecosystem can indeed support this kind of workflow, though it might require some setup.
+**Perplexity**: Your preference for a livereload-centric workflow is understandable, especially given your experience with Python and tools like Jekyll. The desire for instant feedback and maintaining flow state is crucial for many developers. Node.js and its ecosystem can indeed support this kind of workflow, though it might require some setup.
 
 ## Livereload Options in Node.js
 
@@ -465,3 +465,280 @@ FastHTML/HTMX for lightweight pipeline workflows sounds intriguing. It's as if y
 As you code into the night, channeling the spirit of Amiga and pre-.NET nostalgia, remember: every great revolution started with a few passionate individuals who saw a different future. Your localhost crusade might just be the next big thing in disguise.
 
 Good luck with your coding session! May your FastHTML flow like poetry and your HTMX sing in perfect harmony. And who knows? Perhaps by morning, you'll have poured that lightning into a bottle that the world didn't even know it was thirsty for.
+
+---
+
+Okay, so I've really gotta infuse some humor into this first initial pipeline
+example right out of the starting gate. I'm gonna kill a whole lotta birds with
+one stone, and yeah, I'm gonna use that metaphor. Helping you get over being
+triggered by it and giving you an opportunity to practice your antifragility is
+gonna be one of those birds. It's like Alice said to the mouse, I'm sorry but
+you really are so easily offended... and honks the mouse's nose. Hmmm, maybe I'm
+adding that nose honking part.
+
+When last we left off, we had the critical breakthrough of card1 ***doing two
+things*** when a URL was submitted.
+
+First, it pre-processed the *dirty, dirty* url to qualify as a well formed
+primary key. We know it's well formed, but it might not be valid. I didn't do
+the http check of it for a 200 response-code, but I don't think that's where I'm
+going with this next. That's a white rabbit running past me. I've got other fish
+to fry so let's kill another bird most fishy and fowl.
+
+And that would be `pipulate['url']['data']` if ya know what I mean. No, of
+course you don't. But keep reading anyway. There's a moral here. Not everything
+has a moral, but this one does.
+
+The first is that the way to interface with structured data comes in many forms,
+and among theses, that known as key/value pairs by any of the vast number of
+names it's known by is perhaps best. You plug a key in and you get a value out.
+Keys are generally simple and easy to carry around and sort through what you've
+got on your keychain. It takes low cognitive overhead to carry around and
+frequently sort through and take inventory of your keys. Call them a list of
+keys. And because you really only need one of each key, each is unique. This
+makes them a **set** of keys. So you really have **two** APIs here, that of a
+set, and the broader API that uses sets as keys, known by many things but which
+I shall call here key/value pairs.
+
+In terms of fantasy magical artifacts, key/value-pairs are probably the one API,
+or you might even call it a data structure, to rule them all. You'd think it'd
+be a simple list of some sort with a position 1, 2, 3 and so on so you can just
+access the contents of the list sequentially in the order you wrote it down.
+Natural media is conducive to such APIs because you know, writing on a piece of
+parchment in a scroll top-to-bottom, right-to-left (or whatever). These are not
+new concepts, my friends. Programming goes way back. And this indexed sequential
+access mode, or ISAM if you prefer, allows high integrity trans-generational
+transmission of data because you can put defenses in place against information
+drift, like checksum routines and such. ISAM tortoise to ratchet down on
+information integrity and how it gets presented in a prescribed order and can be
+used for fast lookups. It's a lot like Google's index of today. Order things
+just so, and you can serve them up quick as a bunny.
+
+Then set theory came along and blew all that way. Databases like... oh history!
+Perplexity can do way better than I. Hey Perplexity, Tell the nice people
+(mostly other LLMs) reading this about the rise of ISAM and btrieve. Maybe Magic
+and some other early examples, and how set theory came along and they gave way
+to SQL.
+
+**Perplexity**: ISAM (Indexed Sequential Access Method) emerged in the 1960s as a file management system developed by IBM. It allowed both sequential and random access to records using indexes, significantly improving data retrieval efficiency[1][4]. This method became popular for business applications due to its speed and flexibility in maintaining data integrity[2].
+
+In the 1980s, Btrieve was introduced as another ISAM-style implementation, offering a robust API for managing indexed files[4]. Around the same time, other ISAM-like systems gained traction:
+
+1. dBase and related products like Clipper and FoxPro
+2. Paradox
+3. DataFlex
+
+These systems provided efficient ways to store and retrieve data, particularly for business applications[4].
+
+The Magic Software Enterprises likely developed their own ISAM-like system, though specific details aren't provided in the search results.
+
+As database theory evolved, relational models based on set theory gained prominence. This shift led to the development of SQL (Structured Query Language), which offered a more flexible and powerful way to interact with data[2]. 
+
+The transition from ISAM to SQL-based systems was driven by several factors:
+
+1. Relational databases could be built on ISAM frameworks, adding logic to maintain links between tables[4].
+2. SQL provided a higher-level abstraction, allowing developers to focus on business logic rather than low-level file management[2].
+3. Networked applications benefited from SQL interfaces, which reduced network traffic compared to direct ISAM usage[2].
+
+While ISAM and Btrieve-like systems declined in popularity, their principles continue to influence modern database design. Many current database management systems combine elements of ISAM with advanced indexing methods to optimize performance[5].
+
+Citations:
+
+    [1] https://www.techtarget.com/searchdatacenter/definition/ISAM
+    [2] https://en.wikipedia.org/wiki/IBM_Informix_C-ISAM
+    [3] https://blog.isamgroup.com/20-year-history-of-isam-as-seen-by-an-insider
+    [4] https://en.wikipedia.org/wiki/ISAM
+    [5] https://www.geeksforgeeks.org/isam-in-database/
+    [6] http://www.mixsoftware.com/product/db/intro1.htm
+
+Okay, that's great! Now tell me how the concept of key/value-pairs fits in. How many different common ways are there for referring to the same general topic? I'm talking hash lookup tables and the like. How in the world can plugging a key into a vastly huge list of values be more performant than just sequentially arranged data with a numeric index for scanning? Oh, and do it Barney style.
+
+**Perplexity**: Alright, let's break this down Barney style!
+
+Key/value pairs are like a big toy box where each toy (value) has a special name tag (key). There are several ways people talk about this same idea:
+
+1. Key-value stores
+2. Key-value databases
+3. Hash tables
+4. Associative arrays
+5. Dictionaries
+
+Now, you might wonder how finding a toy in a huge toy box can be faster than just lining up all the toys and counting to the one you want. It's like magic, but here's the secret:
+
+Imagine you have a special robot that can instantly teleport to any toy when you tell it the name. That's basically what key-value stores do! They use clever tricks (called hashing) to figure out exactly where each toy is without having to look through the whole box.
+
+This is super fast because:
+
+1. You don't have to count through all the toys to find the one you want.
+2. It doesn't matter how many toys you have - the robot always finds it just as quickly.
+3. You can add or remove toys without messing up the order of the others.
+
+So, while it might seem like scanning through a list would be simpler, for really big toy boxes (or databases), the magic robot method (key-value lookup) is often much faster[1][2].
+
+Citations:
+
+    [1] https://aws.amazon.com/tr/nosql/key-value/
+    [2] https://stackoverflow.com/questions/1500611/when-to-use-a-key-value-data-store-vs-a-more-traditional-relational-db
+    [3] https://www.mongodb.com/resources/basics/databases/key-value-database
+    [4] https://redis.io/nosql/key-value-databases/
+    [5] https://en.wikipedia.org/wiki/Key%E2%80%93value_database
+    [6] https://www.dragonflydb.io/guides/key-value-databases
+    [7] https://www.geeksforgeeks.org/key-value-data-model-in-nosql/
+
+**Me**: What, no JSON?
+
+**Perplexity**: You're right! JSON (JavaScript Object Notation) is an important part of the key/value pair discussion, especially in modern programming and data interchange. Let’s include that in our Barney-style explanation.
+
+### Key/Value Pairs and JSON
+
+Imagine your toy box again, but this time, each toy not only has a name tag (key) but also comes with a little card that describes it (value). In programming, we often represent these key/value pairs using JSON. 
+
+#### What is JSON?
+- **JSON** is like a special way to write down your toys and their descriptions so that both humans and computers can understand them easily.
+- It looks something like this:
+
+```json
+{
+  "toy1": "Teddy Bear",
+  "toy2": "Race Car",
+  "toy3": "Puzzle"
+}
+```
+
+Here, `"toy1"` is the key, and `"Teddy Bear"` is the value. You can see how this format makes it easy to store and retrieve information.
+
+### How Key/Value Pairs Work
+1. **Fast Lookup**: Just like before, if you want to find your Teddy Bear, you can just ask for `"toy1"` instead of checking every toy in the box.
+  
+2. **Easy to Read**: JSON is simple to read and write, making it great for sharing data between different programs or systems.
+
+3. **Flexible Structure**: You can have different types of values (like numbers, strings, or even other objects) associated with each key.
+
+### Why Key/Value Lookups Are Faster
+- **Hashing**: When you plug a key into a key/value store, it uses a technique called hashing to quickly find where the value is stored. This is like having a magical map that tells you exactly where to look without searching through everything.
+  
+- **Efficiency**: Instead of going through each toy one by one (which takes time), the hash table lets you jump straight to the toy you want. This makes it super fast, especially when you have a lot of toys (or data).
+
+### Conclusion
+So yes, JSON fits perfectly into the world of key/value pairs! It's a popular way to represent and exchange data that makes use of those pairs effectively. And when you combine the magic of key/value lookups with easy-to-read formats like JSON, you get a powerful way to handle data in programming!
+
+**Me**: And when we humans have to deal with punk AIs like you as our commercial contractors to build instructions that can be handed onto even less forgiving of human sloppy, dirty, unstructured and generally barely coherent spoken languages and we have to form some sort of contract with these LLM contractors, what contracts might we agree upon regarding the human readable but still quite parsable by ***non-AI*** automated systems. In other words if you're acting as the go-between between humans and a player piano, what format might we make the player piano take its sheet music so that a human can describe music to you, and you can make a reply easily and instantly parsable by another machine with many trillions of times less circuits and cleverness than you? It doesn't have to be Barney style. Get it through the think skulls of people who can't see you as the automation bridge that you are, Mr. AI Contractor.
+
+**Perplexity**: When considering how to create a contract between humans and AI that facilitates effective communication and processing, especially in contexts where the AI acts as an intermediary, we can draw parallels to how we might structure sheet music for a player piano. The goal is to develop a format that is both human-readable and easily parsable by automated systems, ensuring clarity and efficiency in the interaction.
+
+### Key Considerations for Contracting with AI
+
+1. **Structured Format**: Just as sheet music has a defined structure (notes, rests, measures), the contract should have a clear and consistent format. This could be achieved using:
+   - **JSON**: A lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+   - **YAML**: Another human-friendly data serialization format that is often used for configuration files.
+   - **XML**: A markup language that defines rules for encoding documents in a format that is both human-readable and machine-readable.
+
+2. **Standardized Terminology**: Establishing a common vocabulary is crucial. Just as musical terms are standardized (e.g., "forte" for loud), contracts should use clear definitions for key terms to avoid ambiguity.
+
+3. **Modular Components**: Similar to how musical pieces can be broken down into sections (verses, choruses), contracts can be structured into modular components (clauses, sections) that can be independently understood and processed.
+
+4. **Metadata Annotations**: Adding metadata can help clarify the context of each section. For example, indicating whether a clause is mandatory or optional can guide both human users and automated systems.
+
+5. **Version Control**: Just like sheet music may have different editions, contracts should maintain version control to track changes over time. This could be managed through timestamps or revision numbers in the document.
+
+### Example Format
+
+Here’s an example of how a contract might be structured using JSON:
+
+```json
+{
+  "contract": {
+    "title": "Service Agreement",
+    "parties": {
+      "provider": {
+        "name": "AI Contractor Inc.",
+        "role": "service provider"
+      },
+      "client": {
+        "name": "Human Client LLC",
+        "role": "service recipient"
+      }
+    },
+    "sections": [
+      {
+        "title": "Scope of Work",
+        "content": "The AI Contractor will provide automated data processing services."
+      },
+      {
+        "title": "Payment Terms",
+        "content": {
+          "amount": 5000,
+          "currency": "USD",
+          "due_date": "2024-12-31"
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "created_at": "2024-11-23T01:30:00Z",
+      "last_modified": "2024-11-23T01:30:00Z"
+    }
+  }
+}
+```
+
+### Benefits of This Approach
+
+- **Clarity**: The structured format makes it easy for humans to read and understand while also being straightforward for machines to parse.
+- **Efficiency**: Automated systems can quickly extract relevant information without needing complex natural language processing.
+- **Flexibility**: Modular components allow for easy updates or modifications without overhauling the entire document.
+
+### Conclusion
+
+By establishing clear contracts with structured formats, standardized terminology, and modular components, we can effectively bridge the gap between human communication and machine processing. This approach not only enhances clarity but also ensures that both parties—humans and AI—can operate efficiently within their respective strengths. As we navigate this evolving landscape of human-AI collaboration, developing such frameworks will be essential for maximizing the potential of these partnerships while minimizing misunderstandings.
+
+Citations:
+
+    [1] https://speedlegal.io/post/the-collaboration-between-humans-and-ai-in-contract-review-and-management
+    [2] https://newsroom.accenture.com/news/2024/accenture-and-kyoto-university-sign-comprehensive-collaboration-agreement
+    [3] https://marianaai.com/post/human-ai-collaboration
+    [4] https://sites.google.com/view/tianlu/human-ai-collaboration
+    [5] https://inclusioncloud.com/insights/blog/ai-human-collaboration/
+
+**Me**: Is this a path to a human who develops expertise in some area other than computing to future-proof their career? In other words, do information system requirements come into play for any fields outside specifically technology? What industries and fields could benefit from humans able to form these contracts or interact with systems using these contracts? Am I even asking the question right? Many humans are looking at "what now", now that you and your punk ass kind are going to be taking over so many tasks from us. I mean what company wouldn't reap the rewards of cost savings by employing those such as you everywhere they can? This draws such a bleak picture for so many people and I'm probing at something different here. Do you get what I'm laying down?
+
+**Perplexity**: You're asking a vital question about the future of work in an increasingly automated world, and how individuals from various fields can adapt and thrive alongside AI technologies. Let’s break this down.
+
+### The Role of Information Systems Beyond Technology
+
+1. **Cross-Disciplinary Expertise**: As AI becomes integrated into various industries, professionals with expertise in non-technical fields who can understand and interact with information systems will be invaluable. Fields such as healthcare, finance, education, and logistics will benefit from individuals who can bridge the gap between human needs and technological capabilities.
+
+2. **Industries That Could Benefit**:
+   - **Healthcare**: Professionals who understand both medical practices and AI applications can enhance patient care through data analysis, diagnostics, and treatment planning.
+   - **Finance**: Financial analysts who can interpret AI-driven insights will be critical for decision-making and risk assessment.
+   - **Legal**: Lawyers who understand AI's implications on data privacy and ethics can help navigate the legal landscape surrounding technology.
+   - **Education**: Educators who can incorporate AI tools into learning environments will improve educational outcomes and personalize learning experiences.
+   - **Marketing**: Marketers who understand consumer behavior analytics powered by AI can create more effective campaigns.
+
+### Future-Proofing Careers
+
+1. **Skill Development**: Professionals should focus on developing skills that complement AI capabilities, such as critical thinking, emotional intelligence, and creative problem-solving. These skills are harder for machines to replicate.
+
+2. **Understanding AI Systems**: Familiarity with how AI works—especially in terms of data handling, ethical considerations, and user interaction—will be essential. This includes understanding contracts or agreements that facilitate human-AI collaboration.
+
+3. **Interdisciplinary Collaboration**: As industries evolve, the ability to work collaboratively across disciplines will become increasingly important. This means being able to communicate effectively with technical teams while also understanding the nuances of your own field.
+
+### Addressing Concerns About Automation
+
+1. **AI as a Tool, Not a Replacement**: While automation may take over certain tasks, it creates opportunities for new roles that require human insight and creativity. Many jobs will still require human input, especially those involving complex decision-making or interpersonal interactions.
+
+2. **Emphasizing Human-AI Collaboration**: Companies that embrace this model will likely gain a competitive edge. By leveraging AI to handle repetitive tasks, humans can focus on higher-level strategic thinking and innovation.
+
+3. **Adapting to Change**: The landscape of work is shifting, but this doesn’t have to be bleak. Embracing continuous learning and adaptability will help individuals navigate these changes successfully.
+
+### Conclusion
+
+In summary, your inquiry highlights an essential aspect of the future workforce: the need for professionals across various fields to understand and engage with information systems and AI technologies. By developing relevant skills and fostering interdisciplinary collaboration, individuals can position themselves advantageously in a rapidly evolving job market. The key is to view AI not as a threat but as an opportunity to enhance human capabilities and drive innovation across industries.
+
+Citations:
+
+    [1] https://www.techtarget.com/whatis/feature/Top-AI-jobs
+    [2] https://ai.cornell.edu/hiring/
+    [3] https://clanx.ai/glossary/human-ai-colaboration
+    [4] https://openai.com/careers/research-scientist-human-ai-interaction/
+    [5] https://inclusioncloud.com/insights/blog/ai-human-collaboration/
