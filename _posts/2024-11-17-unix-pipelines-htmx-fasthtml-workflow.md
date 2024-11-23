@@ -77,7 +77,7 @@ async def handle_submit(self, request):
             P(f"Job ID: {job_id}"),
             Script(f"""
                 const eventSource = new EventSource('{self.route_prefix}/stream?job_id={job_id}');
-                eventSource.onmessage = function(event) {{
+                {% raw %}eventSource.onmessage = function(event) {{
                     const data = JSON.parse(event.data);
                     angiogramUI.appendMessage(data.message);
                     if (data.progress) {{
@@ -86,7 +86,7 @@ async def handle_submit(self, request):
                     if (data.status === 'completed') {{
                         eventSource.close();
                     }}
-                }};
+                }};{% endraw %}
             """)
         )
     except Exception as e:
