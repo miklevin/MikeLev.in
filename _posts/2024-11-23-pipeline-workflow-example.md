@@ -1716,7 +1716,7 @@ Propose. Like Forrest, I am challeged. KISS please. Chisel-strike. One small win
 
 The first chisel-strike should be adding a method to safely get and validate the pipeline state, with proper logging. This goes in the `Pipulate` class, right after the existing `pipe` method:
 
-```python:botifython/botifython.py
+```python
 def get_state(self, url: str) -> Optional[dict]:
     """Safely retrieve and validate pipeline state.
     
@@ -1759,7 +1759,7 @@ The method goes in the `Pipulate` class because:
 
 We can test this works before moving forward by adding a debug log in `WorkFlow.card2`:
 
-```python:botifython/botifython.py
+```python
 async def card2(self, request):
     """Second card showing processed URL"""
     state = pipulate.get_state(db['url'])
