@@ -279,3 +279,28 @@ to mere mortals. And so, vim. Even though I really use NeoVim right now, whose
 filename you type is just `nvim`, it's still vim. Just rolls off the tongue
 better and gets to the spirit of the thing, just like when we say Linux, what we
 really mean is GNU/Linux (that same other story), but we'll get to that later.
+
+Well, it's coming up on midnight and I've been at it awhile. I have exactly one
+more day, tomorrow, to get this magical incantation, this Pipulate pipeline
+process, down pat so that everything forever after is accelerated. You work hard
+up-front and invest into startup costs because things later come easier&$151;
+because you have secret weapons.
+
+The harder it is for others to truly and deeply understand what you're talking
+bout, the better, because that's your moat; your competitive advantage in the
+Warren Buffett sense, but on the investing internally into personal skills front
+as opposed to investing externally into other peoples' passions front. Better to
+have the passion and the skills inside of you for greater overall happiness, but
+that's probably sour grapes for not dropping a few grand into Google back in the
+day. 
+
+But it's never too late. How much more satisfying for the delayed reaction? The
+cutting of catapult ropes. The releasing of potential, purely a manifestation of
+what's inside? There's gotta be some satisfaction in that.
+
+So get a few hours of sleep, and hit it again. Finish out the Link-Graph work
+once and for all as the master... uh, I mean main pattern of the new Pipulate
+secret weapon, which opens the floodgates of endless workflows to
+follow&#151;each of which a deliverable, each of which unbelievable on how
+readily it's designed, implemented, and released and put to work in a tapestry
+of day-to-day momentum building snowballs, to keep with the Buffett theme.
