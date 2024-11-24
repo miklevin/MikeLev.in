@@ -748,4 +748,5 @@ This expanded outline incorporates a broader theme of questioning everything and
 > Learned Python and vim but to unshackle him&#151;  
 > Leapt on the `jekyll serve --livereload` boat!  
 
-
+All right, all right. I get it. It's time for a MikeLev.in homepage update.
+Done.
