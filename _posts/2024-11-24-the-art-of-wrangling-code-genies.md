@@ -39,7 +39,7 @@ When I craft responses, I have to:
 
 ```markdown
 1. Set clear boundaries:
-   - Here's exactly where to put this code (right after frontmatter)
+   - Here's exactly where to put this code (right after unique reference)
    - Here are the exact sections to replace
    - Everything else stays EXACTLY AS IS
 
