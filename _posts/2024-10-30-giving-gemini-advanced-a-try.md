@@ -1,6 +1,6 @@
 ---
 title: Giving Gemini Advanced a Try
-permalink: /giving-gemini-advanced-a-try/
+permalink: /futureproof/giving-gemini-advanced-a-try/
 description: Exploring Gemini Advanced, I use fresh web logs each session to fine-tune API syntax and JSON commands for enhanced clarity in LLM interactions. By examining logs, adjusting placeholder syntax, and reformatting responses with real-world examples, I improve the LLM’s system prompts to support smoother CRUD operations and dynamic UI updates. Each step refines both the app and the model, helping me achieve real-time updates in the UI with precision.
 layout: post
 sort_order: 1

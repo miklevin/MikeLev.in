@@ -1,6 +1,6 @@
 ---
 title: Soft Launching Botifython
-permalink: /soft-launching-botifython/
+permalink: /futureproof/soft-launching-botifython/
 description: My journey upgrading Botifython's Pipulate fork with Nix flakes, transforming Jupyter Notebooks into web apps, and deploying to coworkers. From FOSS to proprietary shifts, embracing infrastructure as code, and automating SEO workflows—crafting tech with passion and precision.
 layout: post
 sort_order: 1

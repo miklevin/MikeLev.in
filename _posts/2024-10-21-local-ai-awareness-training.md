@@ -1,6 +1,6 @@
 ---
 title: Local AI Awareness Training
-permalink: /local-ai-awareness-training/
+permalink: /futureproof/local-ai-awareness-training/
 description: Learn how to integrate local LLMs with FastHTML to build CRUD apps. Conversation history is logged in SQL and vector databases for insights. The LLM aids user actions and prepares for future self-sufficiency by learning app usage patterns, enhancing AI-driven workflows. 
 layout: post
 sort_order: 1

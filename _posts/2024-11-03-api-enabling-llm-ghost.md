@@ -1,6 +1,6 @@
 ---
 title: API-Enabling the LLM Ghost
-permalink: /api-enabling-llm-ghost/
+permalink: /futureproof/api-enabling-llm-ghost/
 description: Unlock the hidden potential of an LLM that’s not just in the background but visibly alive in your browser. This deep dive explores the path to seamless, human-like control of CRUD operations through an HTMX-powered proof of concept, bridging the uncanny valley between human interaction and AI control, where every action could look like it’s yours.
 layout: post
 sort_order: 1

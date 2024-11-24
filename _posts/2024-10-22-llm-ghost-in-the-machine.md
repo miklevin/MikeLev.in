@@ -1,6 +1,6 @@
 ---
 title: LLM Ghost In The Machine
-permalink: /llm-ghost-in-the-machine/
+permalink: /futureproof/llm-ghost-in-the-machine/
 description: I dive into the ups and downs of using AI like OpenAI and Cursor AI for code refactoring, especially with frameworks like FastHTML and HTMX. I’ve had wins with CRUD operations and syntax-colored logs, but also setbacks with error handling. The key lesson? Balance global vs. targeted AI edits and keep things simple. I’m also streamlining my setup with helper scripts and macros in NixOS, turning small improvements into lasting productivity boosts.
 layout: post
 sort_order: 1

@@ -1,6 +1,6 @@
 ---
 title: SSE Makes Watchdog Necessary to Force Server Live-Reload
-permalink: /sse-watchdog-force-live-reload/
+permalink: /futureproof/sse-watchdog-force-live-reload/
 description: Waiting for connections to close? (CTRL+C to force quit?) Discover why adding SSE to FastHTML demands a more heavyweight solution for live-reloading, and how using a watchdog brings your dev environment back to life—Wile E. Coyote-style—with every file save.
 layout: post
 sort_order: 2

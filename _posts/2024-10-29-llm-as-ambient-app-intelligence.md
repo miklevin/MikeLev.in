@@ -1,6 +1,6 @@
 ---
 title: LLM as Ambient App Intelligence
-permalink: /llm-as-ambient-app-intelligence/
+permalink: /futureproof/llm-as-ambient-app-intelligence/
 description: In this article, I dive into the concept of LLMs as ambient intelligence, inspired by a conversation with Claude 3.5 through Cursor AI. I explore how integrating AI seamlessly into user interactions creates smarter workflows, allowing apps to learn and assist in real-time. As I transition from architecture to client focus, I reflect on how combining Drucker’s customer-first philosophy with Deming’s incremental improvement approach ensures AI remains a tool for delighting customers, not a distraction from what matters most.
 layout: post
 sort_order: 1

@@ -1,6 +1,6 @@
 ---
 title: NixOS Warbler Files Disappeared
-permalink: /nixos-warbler-files-disappeared/
+permalink: /futureproof/nixos-warbler-files-disappeared/
 description: NixOS unstable just ate my file manager in the latest update. Turns out they're slimming down the default install, probably for those hardcore minimalists running headless systems. But hey, I like my GUI comforts, so I had to dive into the NixOS config and wrestle Nautilus back into existence. It's a cautionary tale of what can happen when you live on the bleeding edge, but also a testament to how fixable things usually are with a little persistence and the right commands.
 layout: post
 sort_order: 2

@@ -1,6 +1,6 @@
 ---
 title: LLM Speedbumps, Anti-pattern Vaccines & The Locahost Revolution
-permalink: /llm-speedbumps/
+permalink: /futureproof/llm-speedbumps/
 description: This article chronicles my battle against the siren song of "shiny new things" and my return to the path of pragmatic productivity. I'm ditching the rabbit holes and embracing the power of established tools and techniques to build a lean, mean, localhost-powered pipeline. Think server-side state, minimal code, and a healthy dose of anti-React antibodies. It's about finding clarity amidst the chaos and building a Foundation for future innovation, one chisel strike at a time.
 layout: post
 sort_order: 1

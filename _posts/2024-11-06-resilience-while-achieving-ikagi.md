@@ -1,6 +1,6 @@
 ---
 title: Resilience While Achieving Ikigai
-permalink: /resilience-while-achieving-ikigai/
+permalink: /futureproof/resilience-while-achieving-ikigai/
 description: Exploring the Japanese concept of Ikigai as a path to resilience - aligning what you love, what you're good at, what pays, and what the world needs. Finding joy and meaning in life's journey while building mental toughness.
 layout: post
 sort_order: 1

@@ -1,6 +1,6 @@
 ---
 title: Figuring Out a Complex API
-permalink: /figuring-out-a-complex-api/
+permalink: /futureproof/figuring-out-a-complex-api/
 description: Coding like the 3 Little Pigs? Yup. Building straw houses with an eye on the future. It's about good kata, adapting to change, and the AI-powered webdev renaissance. HTMX FTW!
 layout: post
 sort_order: 1

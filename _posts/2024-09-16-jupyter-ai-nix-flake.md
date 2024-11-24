@@ -1,6 +1,6 @@
 ---
 title: Embracing AI-Assisted Development with Jupyter AI and Nix Flakes
-permalink: /jupyter-ai-nix-flake/
+permalink: /futureproof/jupyter-ai-nix-flake/
 description: I detail the process of building a versatile flake.nix file for a consistent development environment across different platforms. Starting with a minimal setup, I progressively incorporate JupyterLab, CUDA support, and a FastHTML server, highlighting the flexibility offered by a virtual environment for installing additional packages. This approach ensures a robust and adaptable development experience for various data science and web development tasks.
 layout: post
 ---

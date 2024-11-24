@@ -1,6 +1,6 @@
 ---
 title: Planning to Win with LLM
-permalink: /planning-to-win-with-llm/
+permalink: /futureproof/planning-to-win-with-llm/
 description: Planning to Win with LLM highlights how LLMs reduce planning friction by offering mentorship on common scenarios but struggle with novel insights. It emphasizes leveraging AI for SEO and using WebSockets to track user actions, blending AI strengths with adaptability for future innovations.
 layout: post
 sort_order: 1

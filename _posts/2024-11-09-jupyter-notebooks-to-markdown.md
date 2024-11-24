@@ -1,6 +1,6 @@
 ---
 title: From Jupyter Notebooks to Markdown
-permalink: /from-jupyter-notebooks-to-markdown/
+permalink: /futureproof/from-jupyter-notebooks-to-markdown/
 description: "From Jupyter Notebooks to Markdown: A journey through refining workflows, building muscle memory, and perfecting good form in data science. Discover tools like nb-clean and jupytext while developing a sustainable, accessible process for managing and sharing code—keeping technical depth without losing readability."
 layout: post
 sort_order: 1

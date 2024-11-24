@@ -1,6 +1,6 @@
 ---
 title: "Get the Big Tech Picture to Maintain Agency"
-permalink: /big-tech-picture/
+permalink: /futureproof/big-tech-picture/
 description: I explore the historical development of key technologies like Unix, C, Python, and Nix, highlighting their role in empowering individuals in a rapidly changing tech landscape. I emphasize the importance of mastering fundamental tools and concepts to maintain agency and independence in an AI-driven world. I also discuss the enduring relevance of the Unix philosophy and the benefits of open-source software and community collaboration. By understanding the evolution of these technologies, individuals can gain a deeper appreciation for their potential and leverage them to navigate the complexities of modern computing.
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Using NixOS and Nix with Pip Install DotEnv
-permalink: /nix-pip-install/
+permalink: /futureproof/nix-pip-install/
 description: I detail my process of setting up a robust development environment using Nix flakes, incorporating JupyterLab, CUDA support, and a FastHTML server. I highlight the benefits of this approach for data science and web development, emphasizing the flexibility and adaptability it offers for various tasks and skill levels.
 layout: post
 ---

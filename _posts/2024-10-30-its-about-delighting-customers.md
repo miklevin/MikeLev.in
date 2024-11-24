@@ -1,6 +1,6 @@
 ---
 title: It's About Delighting Customers
-permalink: /its-about-delighting-clients/
+permalink: /futureproof/its-about-delighting-clients/
 description: Through my experiences with AI and customer-focused methodologies inspired by Drucker and Deming, I've learned that technology's true worth is measured by its ability to delight clients. By prioritizing value from the customer's perspective and streamlining processes, I harness AI to create data-driven approaches that empower my clients to shine and engage their audiences effectively.
 layout: post
 sort_order: 1

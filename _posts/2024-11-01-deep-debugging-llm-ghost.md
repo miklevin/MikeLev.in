@@ -1,6 +1,6 @@
 ---
 title: Deep Debugging LLM Ghost
-permalink: /deep-debugging-llm-ghost/
+permalink: /futureproof/deep-debugging-llm-ghost/
 description: A deep dive into the challenges of integrating LLMs with dynamic web UIs using HTMX and FastHTML. Explore the pitfalls of misusing WebSockets, the complexities of parsing assistant responses, and the eventual triumph of Server-Sent Events.
 layout: post
 sort_order: 1

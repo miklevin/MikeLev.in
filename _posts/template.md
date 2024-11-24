@@ -1,6 +1,6 @@
 ---
 title: Becomes Title tag & H1
-permalink: /slug/
+permalink: /futureproof/slug/
 description: 
 layout: post
 sort_order: 1

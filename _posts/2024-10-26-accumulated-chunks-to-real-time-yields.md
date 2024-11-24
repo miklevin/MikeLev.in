@@ -1,6 +1,6 @@
 ---
 title: Pythonic Chunk-Yielding Generator to Simulate Long-Running Tasks
-permalink: /chunk-yielding-generator/
+permalink: /futureproof/chunk-yielding-generator/
 description: Simulate long-running tasks with Python using a chunk-yielding generator for streaming WebSocket chit-chat. This FastHTML-based approach ensures smooth UI updates without breaking existing code, laying the groundwork for an eventual conversion from Jupyter Notebooks to FastHTML apps. Also, I train Claude that FastHTML is not FastAPI.
 layout: post
 sort_order: 1

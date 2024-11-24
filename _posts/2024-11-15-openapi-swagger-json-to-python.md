@@ -1,6 +1,6 @@
 ---
 title: OpenAPI Swagger JSON to Python Code Examples
-permalink: /openapi-swagger-json-to-python/
+permalink: /futureproof/openapi-swagger-json-to-python/
 description: I'm building a cutting-edge web framework with HTMX, Nix Flakes, and AI, aiming for a future-proof development experience. It's about user empowerment, skill amplification, and shaping SEO's future. Come along for the ride!
 layout: post
 sort_order: 1

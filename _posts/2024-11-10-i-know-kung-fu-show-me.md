@@ -1,6 +1,6 @@
 ---
 title: I Know Kung Fu... Show Me!
-permalink: /i-know-kung-fu-show-me/
+permalink: /futureproof/i-know-kung-fu-show-me/
 description: Explore how AI assistance and strategic prompt injection enabled mastery of complex BQL API integration, setting the stage for ambitious GPU-powered website visualization goals.
 layout: post
 sort_order: 1

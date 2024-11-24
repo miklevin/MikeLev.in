@@ -1,6 +1,6 @@
 ---
 title: Groking the NixOS Langauge
-permalink: /nixos-language/
+permalink: /futureproof/nixos-language/
 description: This article explores the challenges a Python programmer faces when learning the NixOS system configuration language, which is based on functional programming principles. I seek to understand the declarative nature of Nix expressions, the syntax and semantics of the language, and the abstract data structures it employs. The article highlights the differences between Nix and imperative programming languages like Python, emphasizing the need for a shift in thinking to grasp the functional paradigm.
 layout: post
 ---

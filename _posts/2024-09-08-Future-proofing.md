@@ -1,6 +1,6 @@
 ---
 title: Future-proof Your Tech Skills
-permalink: /future-proof-tech-skills/
+permalink: /futureproof/future-proof-tech-skills/
 description: This article advocates for a "future-proof" approach to tech skills, focusing on mastering fundamental tools like Linux, Python, vim, and git (the "LPvg stack"). This approach emphasizes adaptability, independence, and long-term relevance in a rapidly changing technological landscape. It encourages professionals to develop technical skills as a complement to their domain expertise, enabling them to better serve clients and navigate the evolving world of AI and automation. The article also highlights the importance of clear communication protocols between humans and AI systems, as well as the benefits of leveraging local AI infrastructure for greater control and flexibility.
 layout: post
 ---

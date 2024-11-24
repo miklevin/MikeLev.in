@@ -1,6 +1,6 @@
 ---
 title: The Mindful Mirror Model Effect
-permalink: /the-mindful-mirror-model-effect/
+permalink: /futureproof/the-mindful-mirror-model-effect/
 description: In a world increasingly reliant on AI, our perception of knowledge and ability is undergoing a transformation. The Dunning-Kruger effect, a cognitive bias where individuals overestimate their competence, is being challenged by the rise of intelligent tools that can augment our capabilities and illuminate our knowledge gaps. This article explores the potential for AI to reverse the Dunning-Kruger effect, leading to greater self-awareness, enhanced learning opportunities, and a new era of personal growth.
 layout: post
 sort_order: 2

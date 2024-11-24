@@ -1,6 +1,6 @@
 ---
 title: Botifython is Born
-permalink: /botifython-is-born/
+permalink: /futureproof/botifython-is-born/
 description: I’m diving back into web development through Botifython, a Python framework focused on SEO and AI, driven by new technology. My setup utilizes Nix Flakes for reproducible environments and includes an automated update mechanism with SSH keys, ensuring seamless integration of new features. I’m excited to evolve this project with stable and experimental branches as I continue to enhance its capabilities.
 layout: post
 ---

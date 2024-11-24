@@ -1,6 +1,6 @@
 ---
 title: FastHTML Hello World
-permalink: /fasthtml-hello-world/
+permalink: /futureproof/fasthtml-hello-world/
 description: Learn the basics of FastHTML, a Python web framework that skips templating languages and allows direct HTML element creation with Python functions. Discover how to build a simple "Hello World" page with structured HTML using FastHTML's function-to-element mapping.
 layout: post
 sort_order: 1

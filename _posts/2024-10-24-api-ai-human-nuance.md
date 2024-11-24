@@ -1,6 +1,6 @@
 ---
 title: "API, AI & Human Nuance: The Same Thing"
-permalink: /api-ai-human-nuance/
+permalink: /futureproof/api-ai-human-nuance/
 description: Explore the connections between APIs, AI, and human nuance in modern workflows. This article offers practical strategies for navigating technological subtleties, enhancing productivity, and building strong client relationships, all while balancing innovation with authentic interactions.
 layout: post
 sort_order: 1

@@ -1,6 +1,6 @@
 ---
 title: "Revolutionizing Software Deployment: How Nix Flakes Simplify Development Beyond Docker and pip"
-permalink: /revolutionizing-software-deployment-with-nix-flakes/
+permalink: /futureproof/revolutionizing-software-deployment-with-nix-flakes/
 description: Discover how Nix Flakes are transforming the development landscape by offering a streamlined, reproducible environment that outperforms traditional methods like Docker and pip installations. This article delves into the advantages of using Nix Flakes for infrastructure as code, highlighting how it simplifies user experience, ensures cross-platform consistency, and automates setup and updates.
 layout: post
 sort_order: 1

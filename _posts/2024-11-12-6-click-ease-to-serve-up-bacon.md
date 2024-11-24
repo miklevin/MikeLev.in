@@ -1,6 +1,6 @@
 ---
 title: 6-Click-Ease to Serve Up Bacon
-permalink: /6-click-ease-to-serve-up-bacon/
+permalink: /futureproof/6-click-ease-to-serve-up-bacon/
 description: This post rethinks the web as a dynamic, database-like system, shaped by six degrees of separation and small world theory. It delves into how SEO and AI tools streamline repetitive tasks, align with real-time search demands, and prepare content for the constant crawl and recrawl required to inform modern AI models. By viewing URLs as keys in a vast, cloud-based database, it explores the challenges of navigating a web where trusted brands and creative strategies are essential to standing out.
 layout: post
 sort_order: 1

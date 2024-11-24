@@ -1,6 +1,6 @@
 ---
 title: Structuring Websites to Train Models
-permalink: /structuring-websites-to-train-models/
+permalink: /futureproof/structuring-websites-to-train-models/
 description: Learn how to structure websites to train AI models while maintaining a client-first mindset. Explore the balance between technical innovation and delivering value to clients in modern SEO.
 layout: post
 sort_order: 1

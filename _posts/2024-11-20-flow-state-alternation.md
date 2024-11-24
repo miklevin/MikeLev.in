@@ -1,6 +1,6 @@
 ---
 title: On Flow State Alternation - The Key to Success
-permalink: /2024-11-20-flow-state-alternation/
+permalink: /futureproof/2024-11-20-flow-state-alternation/
 description: I delve into the concept of flow state and its significance in my SEO work. I examine my personal experiences with flow state, emphasizing its role in boosting my productivity and creativity. I also discuss the potential advantages and challenges of incorporating AI coding assistants into my workflow, and the importance of selecting appropriate programming paradigms and tools that align with my individual needs and preferences. I close with a reflection on the dynamic nature of the tech world and the ongoing need for continuous learning and adaptation.
 layout: post
 sort_order: 1

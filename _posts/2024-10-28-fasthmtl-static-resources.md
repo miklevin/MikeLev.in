@@ -1,6 +1,6 @@
 ---
 title: FastMTML Static Resources
-permalink: /fasthtml-static-resources/
+permalink: /futureproof/fasthtml-static-resources/
 description: Explore the FastHTML project, a Python-based framework embracing anti-patterns for simplicity and power. Dive into package initialization, global namespaces, and how HTMX equips the Python community with new web development superpowers, driving a unique approach that challenges conventional JavaScript frameworks like ReactJS.
 layout: post
 sort_order: 1

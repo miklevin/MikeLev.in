@@ -1,6 +1,6 @@
 ---
 title: Practicing the Botify API
-permalink: /practicing-botify-api/
+permalink: /futureproof/practicing-botify-api/
 description: Exploring the Botify API through Python notebooks, examining key concepts like Organizations, Projects, and Collections while considering the future of SEO in an AI-driven world.
 layout: post
 sort_order: 2

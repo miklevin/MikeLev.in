@@ -1,6 +1,6 @@
 ---
 title: The key to AI Code Assist Acceleration is 1-Folder Scope
-permalink: /ai-code-assist-acceleration-scope/
+permalink: /futureproof/ai-code-assist-acceleration-scope/
 description: "Explore how moving a key NixOS config to a 'repos' folder accelerates AI coding assistance with Cursor AI. Learn about challenges with Vim macros, AI limitations, and tips for consolidating development resources while leveraging cross-repo insights for coding efficiency."
 layout: post
 date: 2024-10-15

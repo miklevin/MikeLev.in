@@ -1,6 +1,6 @@
 ---
 title: Understanding FastHTML's Framework Opinions
-permalink: /fast-html-framework-opinions/
+permalink: /futureproof/fast-html-framework-opinions/
 description: I detail my experience transitioning to NixOS and using Nix flakes to create reproducible development environments. I discuss the challenges of managing dependencies and ensuring consistency across different platforms, and I highlight the benefits of Nix's declarative approach and immutable store. I also share my perspective on the evolution of web development and the importance of choosing the right tools and frameworks for building modern web applications.
 layout: post
 ---

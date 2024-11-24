@@ -1,6 +1,6 @@
 ---
 title: The Port For Real This Time
-permalink: /the-port-for-real-this-time/
+permalink: /futureproof/the-port-for-real-this-time/
 description: Porting two key apps has been delayed, but I'm determined to finish tonight while preparing for a client call tomorrow. I’m shifting from ZeroMQ to WebSockets for real-time communication and simplifying data handling with SQLite. The focus is on progressive UI elements and Botify API integration to streamline workflows, avoid rabbit holes, and ensure meaningful progress.
 layout: post
 sort_order: 1

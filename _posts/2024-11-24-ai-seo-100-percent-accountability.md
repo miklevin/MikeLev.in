@@ -1,6 +1,6 @@
 ---
 title: BFF SEO dot BOT is Born
-permalink: /bff-seo-dot-bot/
+permalink: /futureproof/bff-seo-dot-bot/
 description: Because I'll be best friend of LLM-directed real-time small-world-theory shallow click-depth crawlers by teaching people how to organize their sites well.
 layout: post
 sort_order: 3
@@ -285,7 +285,7 @@ of the YAML top-matter, consistently using this pattern:
 ```yaml
 ---
 title: BFF SEO dot BOT is Born
-permalink: /bff-seo-dot-bot/
+permalink: /futureproof/bff-seo-dot-bot/
 description: Actively becoming the best friend of LLM-directed real-time small-world-theory shallow click-depth crawlers for RAG processes by teaching people how to organize their sites well.
 layout: post
 sort_order: 3
@@ -299,13 +299,13 @@ in-location solutions aren't easy and that's what's necessary, but look for the
 most elegant and Pythonic solution, is to replace:
 
 ```yaml
-permalink: /bff-seo-dot-bot/
+permalink: /futureproof/bff-seo-dot-bot/
 ```
 
 ...with:
 
 ```yaml
-permalink: /fodder/bff-seo-dot-bot/
+permalink: /futureproof/bff-seo-dot-bot/
 ```
 
 If the /fodder/ folder is already presented in the permalink path, it should not

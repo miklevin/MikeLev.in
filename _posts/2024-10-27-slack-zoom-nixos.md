@@ -1,6 +1,6 @@
 ---
 title: Slack & Zoom on NixOS Workspaces
-permalink: /slack-zoom-nixos-workspaces/
+permalink: /futureproof/slack-zoom-nixos-workspaces/
 description: I show how NixOS makes installing Slack & Zoom easy, how I use virtual desktops across OS platforms, and how organizing fixed-position screens helps me stay in the flow with muscle memory guiding my workflow.
 layout: post
 sort_order: 1

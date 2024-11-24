@@ -1,6 +1,6 @@
 ---
 title: 80% Cost Reduction in AI Operations
-permalink: /80-percent-cost-reduction-in-ai-operations/
+permalink: /futureproof/80-percent-cost-reduction-in-ai-operations/
 description: I'm exploring a new way to build software that uses AI to make things more efficient and cost-effective. I've created a system that combines different AI models, kind of like having a team of experts with different specialties. This system can learn and adapt over time, and I think it has the potential to change how we build software and make AI more accessible.
 layout: post
 sort_order: 1
