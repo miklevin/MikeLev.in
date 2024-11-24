@@ -48,7 +48,7 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
-    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined&#151;not the death of Docker, but close.</li>
+    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined&#151;systems in subfolders in seconds</li>
     <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: A way to run easily monitored background "servers" on your laptop.</li>
     <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: No, not Colab. No, not VSCode. <b><i>Project Jupyter!!!</i></b></li>
     <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: WebDev & HTML the way it should be. Better than React.</li>
