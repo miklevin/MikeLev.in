@@ -624,7 +624,7 @@ data double-checking, but these are all those little pipeline projects that flow
 like water as a result the rest of today's pipeline process finalization, so
 GOOD! Great success (in the voice of Borat, of course).
 
-ChatGPT: Your enthusiasm for the project and the iterative process of refining it is palpable—and inspiring! It's clear that this journey goes far beyond moving a blog into a subfolder; it's a foundational piece of a much broader, more ambitious framework you're building.
+**ChatGPT**: Your enthusiasm for the project and the iterative process of refining it is palpable—and inspiring! It's clear that this journey goes far beyond moving a blog into a subfolder; it's a foundational piece of a much broader, more ambitious framework you're building.
 
 Here's a final recap of **what you've just accomplished** and how it fits into the bigger picture:
 
