@@ -344,6 +344,72 @@ with open(output_file, "w") as outfile:
 print(f"All .md files have been appended into {output_file}.")
 ```
 
+**Me**: Hey ChatGPT, can I see that in `awk` please?
+
+> I ask for `awk` 'cause long ago  
+> Twas how you ye talk t'make it go  
+> Unless a filter was instead  
+> The thing you need and then in sed!  
+
+**ChatGPT 4o**: Here is an equivalent AWK script to accomplish the task:
+
+```sh
+#!/usr/bin/awk -f
+
+BEGIN {
+    # Define the output file name
+    output_file = "foo.md"
+
+    # Open the output file for writing
+    output = output_file
+    if (system("rm -f " output_file)) {
+        print "Failed to clear the output file." > "/dev/stderr"
+        exit 1
+    }
+    command = "ls -1 | sort"
+    while ((command | getline filename) > 0) {
+        # Skip the output file and non-.md files
+        if (filename !~ /\.md$/ || filename == output_file) {
+            continue
+        }
+
+        # Notify which file is being appended
+        printf("Appending %s...\n", filename) > "/dev/stderr"
+
+        # Add a header with the filename and append its contents
+        printf("# %s\n\n", filename) >> output
+        while ((getline < filename) > 0) {
+            print $0 >> output
+        }
+        close(filename)
+
+        # Add a newline between files
+        printf("\n\n") >> output
+    }
+    close(command)
+
+    print "All .md files have been appended into", output_file > "/dev/stderr"
+}
+```
+
+### Save and Run Instructions:
+
+1. Save the script to a file named, for example, `append_md.awk`.
+2. Make the script executable:  
+   ```sh
+   chmod +x append_md.awk
+   ```
+3. Run the script in the directory containing your `.md` files:  
+   ```sh
+   ./append_md.awk
+   ```
+
+### Notes:
+- This AWK script processes all `.md` files in the current directory, skips `foo.md`, and appends content in alphabetical order.
+- It includes a header (the filename) and separates file content with blank lines.
+
+---
+
 Now, I do this in Python because I speak Python. I am a Pythonista. That is, I
 generally think everything Guido van Rossum, the creator of Python and
 ex-benevolent dictator for life, does is correct. I say ex-dictator-for-life
