@@ -660,9 +660,11 @@ The idea that "all tech is text" is a powerful lens through which to view and in
 
 ---
 
-Me: Given this discussion, expand the outline of my book. Don't bonk it into oblivian with philosophy, but do expand its scope a wee bit to show it's a book about questioning everything... following the data. Not religion. No manifestos allowed! Just a pragmatic chipping away that all that is by the higher order primates living inside it who miraculously have the capacity to do so...
+## Expanding the Outline
 
-Gemini: Okay, I understand! Let's expand your book outline to encompass a broader theme of questioning everything and following the data, while keeping it grounded in pragmatism and avoiding philosophical rabbit holes.
+**Me**: Given this discussion, expand the outline of my book. Don't bonk it into oblivian with philosophy, but do expand its scope a wee bit to show it's a book about questioning everything... following the data. Not religion. No manifestos allowed! Just a pragmatic chipping away that all that is by the higher order primates living inside it who miraculously have the capacity to do so...
+
+**Gemini**: Okay, I understand! Let's expand your book outline to encompass a broader theme of questioning everything and following the data, while keeping it grounded in pragmatism and avoiding philosophical rabbit holes.
 
 **Part 1: The Localhost Way**
 
