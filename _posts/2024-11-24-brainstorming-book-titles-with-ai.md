@@ -264,7 +264,7 @@ Citations:
 
 And the last one is just [some random guy on the
 internet](https://youtu.be/XRpHIa-2XCE?si=RCOoub5ytiehp2CP&t=886) who actually
-talks about these same issues the way I think about them and learned it in a
+talks about these same issues the way I think about them and learned eMacs in a
 year (green with jealousy). But there are certain rabbit holes even I do not go
 down, and so far in my life the editor I admire most is eMacs. No. Life is too
 short for that journey into text wonderland. For those of you who want the most
