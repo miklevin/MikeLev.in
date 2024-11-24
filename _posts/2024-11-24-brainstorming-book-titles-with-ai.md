@@ -347,9 +347,9 @@ print(f"All .md files have been appended into {output_file}.")
 **Me**: Hey ChatGPT, can I see that in `awk` please?
 
 > I ask for `awk` 'cause long ago  
-> Twas how you ye talk t'make it go  
-> Unless a filter was instead  
-> The thing you need and then in sed!  
+> Twas how you ye talked t'make text flow  
+> Unless a filter twas instead  
+> What ye need, and then in sed!  
 
 **ChatGPT 4o**: Here is an equivalent AWK script to accomplish the task:
 
