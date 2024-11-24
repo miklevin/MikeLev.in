@@ -75,7 +75,7 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
   </div>
 </div>
 
-## Mike's Little Book O' Tech
+## The AI SEO Future Proof(ing) Book
 
 **Part 1: The Localhost Way**
 
@@ -160,11 +160,6 @@ technology 💻. This digital journal is my sounding board 🔊, a space where i
 echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤️,
 articulating the complex, and holding myself accountable to the journey I've
 chosen&#151;and practicing my craft 🛠.
-
-> There once was a Webmaster who wrote  
-> And knew not where to keep his next note;  
-> Learned Python & vim but to unshackle him&#151;  
-> Leapt on the `jekyll serve --livereload` boat!  
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
