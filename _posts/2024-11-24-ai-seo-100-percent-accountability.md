@@ -422,3 +422,83 @@ No permalink found in _posts/2023-11-03-no-permalink.md, skipped.
 ```
 
 This script is designed to be safe and precise, ensuring only the `permalink` field is altered, leaving the rest of the file untouched.
+
+Me: It's way conservative. Here's my  file-contents of blogdir.py...
+
+import sys
+import re
+from pathlib import Path
+
+def update_permalink(folder_name: str = "blog"):
+    current_dir = Path.cwd()
+    post_files = current_dir.glob("_posts/*.md")
+    permalink_pattern = re.compile(r'^permalink:\s*(/[^/]+.*)$', re.MULTILINE)
+
+    for post_file in post_files:
+        with post_file.open("r", encoding="utf-8") as file:
+            content = file.read()
+
+        # Search for the permalink line
+        match = permalink_pattern.search(content)
+        if match:
+            original_permalink = match.group(1)
+            if not original_permalink.startswith(f"/{folder_name}/"):
+                new_permalink = f"/{folder_name}{original_permalink}"
+                updated_content = permalink_pattern.sub(
+                    f"permalink: {new_permalink}", content
+                )
+                
+                # Write the updated content back to the file
+                with post_file.open("w", encoding="utf-8") as file:
+                    file.write(updated_content)
+                print(f"Updated {post_file}: {original_permalink} -> {new_permalink}")
+            else:
+                print(f"Skipped {post_file}: already in {folder_name}")
+        else:
+            print(f"No permalink found in {post_file}, skipped.")
+
+if __name__ == "__main__":
+    # Get the folder name from command-line argument, default to "blog"
+    folder_name = sys.argv[1] if len(sys.argv) > 1 else "blog"
+    update_permalink(folder_name)
+
+...and here's my command line...
+
+```
+[mike@nixos:~/repos/MikeLev.in/_posts]$ ls
+2024-09-08-Future-proofing.md                2024-10-13-oo-baseclass-plugins.md                      2024-11-06-resilience-while-achieving-ikagi.md
+2024-09-09-LPvg.md                           2024-10-14-botifython-is-born.md                        2024-11-07-structuring-websites-to-train-models.md
+2024-09-10-nixos-language.md                 2024-10-15-softlaunching-botifython.md                  2024-11-08-practicing-botify-api.md
+2024-09-12-nix-flakes.md                     2024-10-16-ai-code-assist-accelerator.md                2024-11-09-jupyter-notebooks-to-markdown.md
+2024-09-13-jupyter-nix-flake.md              2024-10-17-software-deployment-with-nix-flakes.md       2024-11-10-i-know-kung-fu-show-me.md
+2024-09-14-big-tech-picture.md               2024-10-18-local-llm-web-framework-integration-plan.md  2024-11-11-how-to-train-your-llm.md
+2024-09-15-nix-fasthtml-flake.md             2024-10-19-planning-to-win-with-llm.md                  2024-11-12-6-click-ease-to-serve-up-bacon.md
+2024-09-16-jupyter-ai-nix-flake.md           2024-10-20-Local-AI-In-The-Dev-Loop.md                  2024-11-13-80-percent-cost-reduction-in-ai-operations.md
+2024-09-17-understanding-nixos.md            2024-10-21-local-ai-awareness-training.md               2024-11-15-openapi-swagger-json-to-python.md
+2024-09-22-nix-templates.md                  2024-10-22-llm-ghost-in-the-machine.md                  2024-11-16-fighting-dunning-kruger-effect.md
+2024-09-23-nix-pip-install-dotenv.md         2024-10-23-the-port-for-real-this-time.md               2024-11-17-unix-pipelines-htmx-fasthtml-workflow.md
+2024-09-24-fasthtml-cursor-ai-nix.md         2024-10-24-api-ai-human-nuance.md                       2024-11-18-pattern-alert-this-is-not-fastapi.md
+2024-09-25-infrastructure-as-code.md         2024-10-25-i-dont-know-what-to-do-sometimes.md          2024-11-19-pipeline-workflow.md
+2024-09-26-theres-no-home-like-nix.md        2024-10-26-accumulated-chunks-to-real-time-yields.md    2024-11-20-flow-state-alternation.md
+2024-09-27-jupyter-notebook-to-fasthtml.md   2024-10-27-slack-zoom-nixos.md                          2024-11-21-pipulate-pipeline-born-again.md
+2024-10-01-mac-nix-flake.md                  2024-10-28-fasthmtl-static-resources.md                 2024-11-22-llm-speedbumps.md
+2024-10-02-code-as-infrastructure.md         2024-10-29-llm-as-ambient-app-intelligence.md           2024-11-23-nixos-warbler-files-disappeared.md
+2024-10-03-notebooks-to-fasthtml.md          2024-10-30-giving-gemini-advanced-a-try.md              2024-11-23-pipeline-workflow-example.md
+2024-10-04-fasthtml-framework-opinions.md    2024-10-30-its-about-delighting-customers.md            2024-11-24-ai-seo-100-percent-accountability.md
+2024-10-05-ollama-websocket-chat.md          2024-10-31-rabbit-hole-dev-to-delight-clients.md        2024-11-24-brainstorming-book-titles-with-ai.md
+2024-10-06-fasththml-websockets-database.md  2024-11-01-deep-debugging-llm-ghost.md                  2024-11-24-the-mindful-mirror-model-effect.md
+2024-10-07-chatgpt-o1-code-review.md         2024-11-02-fasthtml-hello-world.md                      blogdir.py
+2024-10-08-unpacking-fasthtml-databases.md   2024-11-02-got-my-llm-to-play-nice-with-web-ui.md       buffer_me.sh
+2024-10-09-refactoring-advice-from-ai.md     2024-11-03-api-enabling-llm-ghost.md                    inject_fasthtml_knoweldge.txt
+2024-10-10-fasthtml-drag-and-drop.md         2024-11-03-sse-watchdog-force-live-reload.md            mustache.py
+2024-10-11-spa-test-endpoints.md             2024-11-04-figuring-out-a-complex-api.md                stack_us.py
+2024-10-12-fasthtml-plugin.md                2024-11-05-mac-nvim-same-as-nixos-nvim.md               template.md
+
+[mike@nixos:~/repos/MikeLev.in/_posts]$ git diff
+
+[mike@nixos:~/repos/MikeLev.in/_posts]$ python blogdir.py fodder
+
+[mike@nixos:~/repos/MikeLev.in/_posts]$ git diff
+
+[mike@nixos:~/repos/MikeLev.in/_posts]$ 
+```
