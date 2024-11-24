@@ -410,13 +410,26 @@ BEGIN {
 
 ---
 
-Now, I do this in Python because I speak Python. I am a Pythonista. That is, I
-generally think everything Guido van Rossum, the creator of Python and
-ex-benevolent dictator for life, does is correct. I say ex-dictator-for-life
-because in the classic naming-stuff style of the greats (GNU stands for GNU is
-not Unix), Guido named himself as something that is self-contradicting (as
-opposed as self-referential in the case of GNU). He did this because he was
-hoisted by his own Jean-Luc Picard... uh.. or something like that. Perplexity?
+And there you have it folks! One of the big points of LLM these days is to have
+a universal translator, so your personal languages biases and preferences don't
+really matter. Oh, how I'd rather be on `gnu guix` right now instead of `nix
+flakes`. But the pragmatic reality of the matter is that if I want install
+scripts for my work that are really, truly cross-platform in a way that can win
+over even Mac snobs, I need the ***Determinate Systems Nix Installer***. And so
+I have to live with this kooky Haskell-like language of nix, rather than the
+marginally less kooky Scheme language of guix. And I'm not worried, because if
+guix ever reaches critical mass as a viable cross-platform Docker-killer, AI
+will translate my installer scripts, bippity boppity boo.
+
+But I need not compromise my artistic creative expressive self in my day-to-day
+work. I do scripts like this blog-appender in Python because I speak Python. I
+am a Pythonista. That is, I generally think everything Guido van Rossum, the
+creator of Python and ex-benevolent dictator for life, does is correct. I say
+ex-dictator-for-life because in the classic naming-stuff style of the greats
+(GNU stands for GNU is not Unix), Guido named himself as something that is
+self-contradicting (as opposed as self-referential in the case of GNU). He did
+this because he was hoisted by his own Jean-Luc Picard... uh.. or something like
+that. Perplexity?
 
 **Perplexity**: The expression "hoisted by his own petard" means to fall victim to one's own scheme or to be harmed by one's own plans[1][3]. It originates from Shakespeare's play Hamlet, where it appears in Act 3, Scene 4[5][6].
 
