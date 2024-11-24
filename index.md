@@ -62,6 +62,16 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
 
 {% include alice.html %}
 
+<div class="next-post">
+  <div class="previous-post placeholder"></div>
+  <div class="next-post">
+    <span class="nav-label">Enter Lundervand</span>
+    <a href="{{ site.posts.first.url | relative_url }}">
+      <span>{{ site.posts.first.title }}</span>
+    </a>
+  </div>
+</div>
+
 ## Writing as a Compass in the Tech Wilderness
 
 I don't write 📝 because I crave an audience or have products to peddle. My
@@ -125,19 +135,6 @@ chosen&#151;and practicing my craft 🛠.
     - The text editor and IDE wars
     - [Jupyter: Bridging accessibility and advanced computing](/from-jupyter-notebooks-to-markdown/)
     - The underlying thread of seizing agency through knowledge and tools
-
----
-
-
-<div class="next-post">
-  <div class="previous-post placeholder"></div>
-  <div class="next-post">
-    <span class="nav-label">Enter Lundervand</span>
-    <a href="{{ site.posts.first.url | relative_url }}">
-      <span>{{ site.posts.first.title }}</span>
-    </a>
-  </div>
-</div>
 
 <ol reversed>
   {% assign sorted_posts = site.posts | sort: 'date' %}
