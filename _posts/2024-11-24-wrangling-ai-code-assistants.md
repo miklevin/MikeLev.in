@@ -1,6 +1,6 @@
 ---
-title: "The Art of Wrangling Code Genies: A Tale of Two Perspectives"
-permalink: /futureproof/the-art-of-wrangling-code-genies/
+title: "Wrangling AI Code Assistants"
+permalink: /futureproof/wrangling-ai-code-assistants/
 description: Working with AI coding assistants is like trying to get a genie to fix your doorknob without accidentally rebuilding your entire house. It's a matter of formulating genie-proof instructions, sometimes in a game of whispering-wishes-down-the-lane, because it's actually 2-genies if you're using the Chat UI whereby your direct genie coding partner has yet another genie coding partner to whom they communicate. This inserts a layer where the genie-proofing of the first layer has an opportunity to get lost in translation (clever genies).
 layout: post
 sort_order: 4
