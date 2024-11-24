@@ -62,12 +62,15 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
 
 {% include alice.html %}
 
+{% assign sorted_posts = site.posts | sort: 'date' %}
+{% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
+{% assign first_post = sorted_posts | last %}
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Enter Wonderland</span>
-    <a href="{{ site.posts.first.url | relative_url }}">
-      <span>{{ site.posts.first.title }}</span>
+    <a href="{{ first_post.url | relative_url }}">
+      <span>{{ first_post.title }}</span>
     </a>
   </div>
 </div>
@@ -164,8 +167,6 @@ chosen&#151;and practicing my craft 🛠.
 > Leapt on the `jekyll serve --livereload` boat!  
 
 <ol reversed>
-  {% assign sorted_posts = site.posts | sort: 'date' %}
-  {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
   {% assign total_posts = site.posts.size %}
   {% assign post_counter = 0 %}
   {% for day in grouped_posts %}
@@ -198,8 +199,8 @@ chosen&#151;and practicing my craft 🛠.
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Enter Wonderland</span>
-    <a href="{{ site.posts.first.url | relative_url }}">
-      <span>{{ site.posts.first.title }}</span>
+    <a href="{{ first_post.url | relative_url }}">
+      <span>{{ first_post.title }}</span>
     </a>
   </div>
 </div>
