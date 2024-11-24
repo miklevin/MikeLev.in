@@ -30,6 +30,8 @@ intelligent in the first place?
 > Sorting subjects very close  
 > In science and their-tists?  
 
+### Riddle me this, AI:
+
 ```
 Conway's Law shapes what we see,
 In Life's game, cells join in glee.
@@ -40,7 +42,7 @@ How many Conways guide the flow?
 How many Maxwells make it glow? 
 ```
 
-Test your AI. 
+Go ahead, test your AI. 
 
 ---
 
