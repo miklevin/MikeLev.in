@@ -741,3 +741,11 @@ The idea that "all tech is text" is a powerful lens through which to view and in
 
 This expanded outline incorporates a broader theme of questioning everything and following the data, while maintaining a pragmatic focus and avoiding excessive philosophical digressions. It encourages readers to think critically about technology, embrace lifelong learning, and use their skills to shape a better future.
 
+---
+
+> There once was a webmaster who wrote  
+> And knew not where to keep his next note;  
+> Learned Python and vim but to unshackle him&#151;  
+> Leapt on the `jekyll serve --livereload` boat!  
+
+
