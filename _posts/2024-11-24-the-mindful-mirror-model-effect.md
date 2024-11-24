@@ -13,9 +13,10 @@ I will make this a chisel strike.
 The difference between the two is risk assessment and meticulous rigging of your
 mental rappelling equipment.
 
-You don't know.
+You don't know. That hole could be much deeper than you think.
 
-You think it's a chisel-strike project, but the reality is it's a rabbit hole,
+You might think that whatever little task you're setting out to do is but mere a
+chisel-strike project, but the reality is it's a deep, deep rabbit hole &#151;
 and before you know it, you're deep in Wonderland, wondering what the heck
 happened.
 
