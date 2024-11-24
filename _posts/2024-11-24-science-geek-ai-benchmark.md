@@ -28,7 +28,7 @@ intelligent in the first place?
 > AI Benchmarks Everywhere  
 > But can they get the gists&#151;  
 > Sorting subjects very close  
-> In science and their tists?  
+> In science and their-tists?  
 
 ```
 Conway's Law shapes what we see,
