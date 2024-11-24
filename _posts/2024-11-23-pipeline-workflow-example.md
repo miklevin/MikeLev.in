@@ -1,7 +1,7 @@
 ---
 title: Pipline Workflow Example
 permalink: /pipeline-workflow-example/
-description: 
+description: This is a chronicle of my journey building a unique web application, a testament to the power of server-side simplicity.  I'm using FastHTML and HTMX to craft a localhost-first experience, deliberately avoiding client-side frameworks.  Think pipelines, persistent state, and a touch of AI magic with Ollama.  It's a deep dive into the intricacies of  JSON serialization, state management, and the often-overlooked elegance of server-side rendering.  We'll explore the MiniDataAPI Spec,  wrestle with LLMs, and ultimately create a web app that's both powerful and refreshingly straightforward.
 layout: post
 sort_order: 1
 ---
