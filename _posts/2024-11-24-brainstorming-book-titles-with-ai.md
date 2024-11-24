@@ -533,3 +533,39 @@ However, some of the concepts within these problems, particularly those related 
 
 The debate over whether the universe operates under deterministic laws (as suggested by classical physics) or incorporates inherent randomness (as suggested by quantum mechanics) remains a profound philosophical inquiry that is not encapsulated within the framework of the Millennium Prize Problems. Thus, while there are connections to determinism in some mathematical contexts, none of these problems specifically tackle the question of determinism itself.
 
+Me: Alright, thanks Perplexity. I've got a better picture now for how the
+Millennium Prizes fit into the determinism question. But this makes me wonder,
+what unanswered questions in math (and science too) are still unanswered
+***aside from the still-open Millennium Prize ones***? Just paint it with some
+broad strokes here.
+
+**Perplexity**: Here are some broad strokes of unanswered questions in mathematics and science, aside from the Millennium Prize Problems:
+
+### Unanswered Questions in Mathematics
+
+1. **Collatz Conjecture**: This simple iterative sequence asks whether starting with any positive integer and repeatedly applying a specific set of rules will eventually reach the number 1. Despite its simplicity, it remains unsolved.
+
+2. **Existence of Odd Perfect Numbers**: While even perfect numbers are well understood, it is still unknown whether any odd perfect numbers exist.
+
+3. **Continuum Hypothesis**: This hypothesis posits that there is no set whose cardinality is strictly between that of the integers and the real numbers. Its truth or falsehood cannot be proven using standard set theory.
+
+4. **Klein Bottle and Higher Dimensions**: Questions about the properties and characteristics of higher-dimensional manifolds, including the Klein bottle, remain open, particularly in understanding their topology.
+
+5. **Classification of Finite Simple Groups**: Although significant progress has been made, the complete classification of finite simple groups is vast and complex, with many aspects still being explored.
+
+### Unanswered Questions in Science
+
+1. **Dark Matter and Dark Energy**: What exactly are dark matter and dark energy? They constitute most of the universe's mass-energy content but remain elusive to direct detection.
+
+2. **Quantum Mechanics Interpretations**: What is the true nature of quantum mechanics? Different interpretations (Copenhagen, Many-Worlds, etc.) offer varying explanations for quantum phenomena.
+
+3. **Consciousness**: What is consciousness, and how does it arise from physical processes in the brain? The mechanisms behind consciousness are still not fully understood.
+
+4. **Origin of Life**: How did life originate on Earth? The exact processes that led to life from non-life are still a mystery.
+
+5. **Unification of Forces**: Can we develop a unified theory that combines all fundamental forces of nature? The quest for a Grand Unified Theory or Theory of Everything continues to challenge physicists.
+
+6. **Climate Change Impacts**: What are the long-term impacts of climate change on ecosystems and human societies? While models exist, uncertainties remain regarding specific outcomes.
+
+These questions highlight significant areas in mathematics and science where our understanding is still incomplete, reflecting ongoing research and exploration across various fields.
+
