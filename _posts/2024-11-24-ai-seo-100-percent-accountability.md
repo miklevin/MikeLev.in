@@ -425,6 +425,7 @@ This script is designed to be safe and precise, ensuring only the `permalink` fi
 
 **Me**: It's way conservative. Here's my  file-contents of blogdir.py...
 
+```python
 import sys
 import re
 from pathlib import Path
@@ -461,6 +462,7 @@ if __name__ == "__main__":
     # Get the folder name from command-line argument, default to "blog"
     folder_name = sys.argv[1] if len(sys.argv) > 1 else "blog"
     update_permalink(folder_name)
+```
 
 ...and here's my command line...
 
