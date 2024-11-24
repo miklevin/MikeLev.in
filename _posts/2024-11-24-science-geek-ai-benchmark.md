@@ -1,7 +1,7 @@
 ---
 title: "A Science Geek AI Benchmark"
 permalink: /futureproof/science-geek-ai-benchmark/
-description: Forget the usual AI benchmarks—this one tests creativity, science savvy, and poetic flair. A clever riddle blending Conway’s Law, Maxwell’s equations, and Planck’s quanta pushes AI to combine accuracy with artistry. ChatGPT 4o nailed it with an AABB rhyming response, proving it’s more than a fact machine—it’s a science geek poetry champ. See why this benchmark outshines the rest! (I let it write the description)
+description: Forget the usual AI benchmarks—this one tests creativity, science savvy, and poetic flair. A clever riddle blending Conway’s Law, Maxwell’s equations, and Planck’s quanta pushes AI to combine accuracy with artistry. ChatGPT 4o nailed it with an AABB rhyming response, proving it’s more than a fact machine—it’s a science geek poetry champ. See why this benchmark outshines the rest! (I let ChatGPT write the description &#151;Mike)
 layout: post
 sort_order: 5
 ---
