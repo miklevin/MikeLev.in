@@ -1,7 +1,7 @@
 ---
 title: Brainstorming Book Titles with AI
 permalink: /brainstorming-book-titles-ai/
-description: In this book, I'll share my personal journey from tech enthusiast to advocate for local computing and AI.  We'll explore the power of the LPvg stack (Linux, Python, vim, and git), unlock the magic of NixOS and HTMX, and delve into the world of local Large Language Models.  This is more than just a technical guide; it's a story about reclaiming your digital sovereignty, escaping the cloud, and building a future where technology empowers individuals. I'll show you how to create a personalized and powerful tech ecosystem that puts you in control, while embracing a simpler, more sustainable approach to technology.
+description: In this book, I'll share my personal journey from tech enthusiast to advocate for local computing and AI.  We'll explore the power of the LPvg stack (Linux, Python, vim, and git), unlock the magic of NixOS and HTMX, and delve into the world of local Large Language Models.  This is more than just a technical guide; it's a story about reclaiming your digital sovereignty, escaping the cloud, and building a future where technology empowers individuals.
 layout: post
 sort_order: 1
 ---
