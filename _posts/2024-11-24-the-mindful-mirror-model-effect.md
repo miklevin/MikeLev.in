@@ -396,7 +396,7 @@ I'll just put this here.
 
 Yank, yank on the rabbit hole rappelling scaffolding. Pull me up! My job here is
 done. I gotta get onto something productive. Dropping a new meme in the
-Noosphere, "The Mindful Mirror Modeling Effect" (MMME), a process of using
+Noosphere, "***The Mindful Mirror Modeling Effect***" (MMME), a process of using
 ChatBot LLM AI to overcome the Dunning-Kruger Effect (DKE) is not enough. Sure,
 it might plant a memetic virus in the heads of millions if it's ever really
 recognized for whiat it is&#151; but a talking frog... ***I mean real Python
