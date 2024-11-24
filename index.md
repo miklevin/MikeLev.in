@@ -62,6 +62,64 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
 
 {% include alice.html %}
 
+### Outline of Topics Covered
+
+1.  **[Future-Proofing Your Tech Skills](/future-proof-tech-skills)**
+    - [Mastering the "LPvg stack" (Linux, Python, vim, and git)](/LPvg/)
+    - [Balancing domain expertise with technical skills](/mac-nix-flake/)
+    - [Building a future-proof development arsenal](/theres-no-home-like-nix/)
+    - [Crafting a cross-platform development environment](/nix-fasthtml-flake/)
+    - [The power of text-based computing and coding](/llm-speedbumps/)
+    - [Human-AI communication and robust protocols](/local-ai-awareness-training/)
+    - [Leveraging local AI infrastructure and designing sustainable AI systems](/local-ai-in-the-dev-loop/)
+    - [Escaping the technology hamster wheel and investing in timeless skills](/from-jupyter-notebooks-to-markdown/)
+
+2.  **Deep Dive into Specific Technologies**
+    - **[Linux, Python, Vim, and Git (LPvg)](/LPvg/)**
+        - The portability of Unix and its open-source legacy
+        - The power and benefits of the LPvg stack
+        - Interactive learning with Jupyter Notebooks and JupyterLab
+        - Efficient web development with FastHTML and HTMX
+        - The role of Nix in building reproducible environments
+        - Simplifying environment sharing and configuration management
+    - **[NixOS and Flakes](/nixos-language/)**
+        - Understanding the NixOS language and its functional paradigm
+        - [Getting started with Nix Flakes for reproducibility](/nix-flakes/)
+        - [The quest for a timeless development environment](/jupyter-nix-flake/)
+        - [Building a shareable development environment with Nix Flakes](/ai-code-assist-acceleration-scope/)
+        - [Refining Nix Flakes for cross-platform compatibility](/nix-fasthtml-flake/)
+        - [Building a versatile `flake.nix` for seamless development](/jupyter-ai-nix-flake/)
+        - [Setting up a NixOS system and creating reproducible data science environments](/nix-system/)
+        - [Using NixOS and Nix with pip install dotenv for managing environment variables](/nix-pip-install/)
+        - [Setting up a cross-platform development environment with FastHTML and Cursor AI](/fasthtml-cursor-ai-nix/)
+        - [The DevOps renaissance and how infrastructure as code is redefining digital craftsmanship](/infrastructure-as-code-devops-renaissance/)
+        - [Building a Python web development environment within Nix and handling secrets](/theres-no-home-like-nix/)
+        - [Transitioning from Jupyter Notebooks to FastHTML with WebSockets](/jupyter-notebooks-fasthtml/)
+        - [Unpacking FastHTML databases and understanding CRUD operations](/unpacking-fasthtml-databases/)
+        - [Building a plugin-ready framework and abstracting base functionality](/building-plugin-ready-framework/)
+        - [Object-oriented base class plugins and dynamic app registration](/object-oriented-baseclass-plugins/)
+        - [Integrating a custom SPA plugin and avoiding configuration collisions](/test-spa-endpoints/)
+        - [Advanced data science enhancements with Pandas and Bokeh](/fasthtml-sortablejs-todo/)
+        - [Soft launching Botifython and managing updates with Nix flakes](/soft-launching-botifython/)
+
+3.  **[The Big Tech Picture](/big-tech-picture/)**
+    - [Understanding the historical context of technology to maintain agency](/big-tech-picture/)
+    - Early computing origins and the birth of virtual machines
+    - The genesis of Multics and Unix
+    - The development of C and its role in bridging low-level control and high-level abstraction
+    - Evolution of scripting and high-level languages
+    - The rise of Python and its empowering features
+    - An alternative timeline with ITS and LISP
+    - The recurring theme of virtual machines and isolation
+    - The spread of Unix and the emergence of Linux
+    - [Vim: Efficiency, muscle memory, and mastery in text editing](/mac-nvim-same-as-nixos-nvim/)
+    - The text editor and IDE wars
+    - [Jupyter: Bridging accessibility and advanced computing](/from-jupyter-notebooks-to-markdown/)
+    - The underlying thread of seizing agency through knowledge and tools
+
+---
+
+
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
@@ -124,78 +182,7 @@ chosen&#151;and practicing my craft 🛠.
 
 <br />
 
-Here's a breakdown of the topics covered in the article, organized into a comprehensive outline:
-
-## Outline of Topics Covered
-
-1.  **Future-Proofing Your Tech Skills**
-
-    *   Mastering the "LPvg stack" (Linux, Python, vim, and git)
-    *   Balancing domain expertise with technical skills
-    *   Building a future-proof development arsenal
-    *   Crafting a cross-platform development environment
-    *   The importance of future-proofing and lifelong learning
-    *   The power of text-based computing and coding
-    *   Human-AI communication and robust protocols
-    *   Leveraging local AI infrastructure and designing sustainable AI systems
-    *   Escaping the technology hamster wheel and investing in timeless skills
-2.  **Deep Dive into Specific Technologies**
-
-    *   Linux, Python, Vim, and Git (LPvg)
-        *   The portability of Unix and its open-source legacy
-        *   The power and benefits of the LPvg stack
-        *   Interactive learning with Jupyter Notebooks and JupyterLab
-        *   Efficient web development with FastHTML and HTMX
-        *   The role of Nix in building reproducible environments
-        *   Simplifying environment sharing and configuration management
-        *   The limitations of containers and the benefits of a repository system
-        *   Mastering LPvg for lifelong improvement and technological empowerment
-    *   NixOS and Flakes
-        *   Understanding the NixOS language and its functional paradigm
-        *   The philosophical appeal of NixOS's declarative system
-        *   Building a NixOS system from scratch and key language principles
-        *   Abstract data structures and syntax rules in Nix expressions
-        *   The role of attribute sets and function argument patterns
-        *   Getting started with Nix Flakes for reproducibility
-        *   The quest for a timeless development environment
-        *   The limitations of virtual machines and containers
-        *   The benefits of Nix Flakes for version control and git management
-        *   Creating a portable JupyterLab environment with Nix Flakes
-        *   The dilemma of cloud vs. local development
-        *   Building a shareable development environment with Nix Flakes
-        *   Refining Nix Flakes for cross-platform compatibility
-        *   Building a versatile `flake.nix` for seamless development
-        *   Adding CUDA support and a virtual environment for flexibility
-        *   Integrating Jupyter AI and local LLMs for AI-assisted development
-        *   Setting up a NixOS system and creating reproducible data science environments
-        *   Using NixOS and Nix with pip install dotenv for managing environment variables
-        *   Setting up a cross-platform development environment with FastHTML and Cursor AI
-        *   The DevOps renaissance and how infrastructure as code is redefining digital craftsmanship
-        *   Building a Python web development environment within Nix and handling secrets
-        *   Transitioning from Jupyter Notebooks to FastHTML with WebSockets
-        *   Unpacking FastHTML databases and understanding CRUD operations
-        *   Building a plugin-ready framework and abstracting base functionality
-        *   Object-oriented base class plugins and dynamic app registration
-        *   Integrating a custom SPA plugin and avoiding configuration collisions
-        *   Advanced data science enhancements with Pandas and Bokeh
-        *   Soft launching Botifython and managing updates with Nix flakes
-3.  **The Big Tech Picture**
-
-    *   Understanding the historical context of technology to maintain agency
-    *   Early computing origins and the birth of virtual machines
-    *   The genesis of Multics and Unix
-    *   The development of C and its role in bridging low-level control and high-level abstraction
-    *   Evolution of scripting and high-level languages
-    *   The rise of Python and its empowering features
-    *   An alternative timeline with ITS and LISP
-    *   The recurring theme of virtual machines and isolation
-    *   The spread of Unix and the emergence of Linux
-    *   Vim: Efficiency, muscle memory, and mastery in text editing
-    *   The text editor and IDE wars
-    *   Jupyter: Bridging accessibility and advanced computing
-    *   The underlying thread of seizing agency through knowledge and tools
-
-**I hope this outline is helpful!**
+---
 
 <div class="logo-container">
     <div class="logo-item">
