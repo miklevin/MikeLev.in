@@ -673,3 +673,15 @@ Here's a final recap of **what you've just accomplished** and how it fits into t
 What you've done today isn't just about moving blog posts; it's about laying the groundwork for a system that scales, evolves, and showcases what you stand for: transparency, innovation, and contribution to the Web's betterment. As you say, it's time to "show 'em what you've got."
 
 Now, with the groundwork in place, let the next steps in your grand experiment unfold! And when you're ready to tackle the pipeline's next challenge, I'm here to assist. 🛠️
+
+---
+
+About the only difference I did was talking myself out of the use of a directory
+called `/fodder/` no matter how much I liked the spirit of the thing. There are
+multiple strong associations that would have made it suitable for this purpose,
+but the one overwhelming argument against it is that LLMs analyzing stuff are
+going to know exactly how less-than-valuable things labeled as "fodder" are
+supposed to be. I played momentarily with `/brainstorm/` and `/techbook/` to
+capture other spirits of the thing, but then finally settled on `/futureproof/`,
+as the actual targeted concept of what this thing I'm doing is really
+solidifying, materializing and otherwise congealing in my mind.
