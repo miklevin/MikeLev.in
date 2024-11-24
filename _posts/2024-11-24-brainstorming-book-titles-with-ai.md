@@ -266,14 +266,16 @@ And the last one is just [some random guy on the
 internet](https://youtu.be/XRpHIa-2XCE?si=RCOoub5ytiehp2CP&t=886) who actually
 talks about these same issues the way I think about them and learned eMacs in a
 year (green with envy). But there are certain rabbit holes even I do not go
-down, and so far in my life the editor I admire most is eMacs. No. Life is too
-short for that journey into text wonderland. For those of you who want the most
-wizardly ways and the text editor that is a fine operating system, eMacs may be
-for you. But there's a reason vim key controls are the thing included in
-everything else. 
+down. No. Life is too short for eMacs, but that's just my opinion. I think
+actually I'll like it if I try it, and that's what worries me most.
+
+So for those of you who want the most wizardly ways and the text editor that is
+a fine operating system, eMacs may be for you. But there's a reason why it's vim
+mode built into everything, and not eMacs mode (unless you count Scheme & LUA
+but that's another story (about RMS & MIT)).
 
 Vim hit that magical happy medium that makes the text-mastery skills accessible
 to mere mortals. And so, vim. Even though I really use NeoVim right now, whose
 filename you type is just `nvim`, it's still vim. Just rolls off the tongue
 better and gets to the spirit of the thing, just like when we say Linux, what we
-really mean is GNU/Linux (another RMS story), but we'll get to that later.
+really mean is GNU/Linux (that same other story), but we'll get to that later.
