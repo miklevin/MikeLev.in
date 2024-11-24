@@ -72,14 +72,7 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
   </div>
 </div>
 
-## Writing as a Compass in the Tech Wilderness
-
-I don't write 📝 because I crave an audience or have products to peddle. My
-words are my compass 🧭, helping me navigate the ever-shifting landscape of
-technology 💻. This digital journal is my sounding board 🔊, a space where ideas
-echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤️,
-articulating the complex, and holding myself accountable to the journey I've
-chosen&#151;and practicing my craft 🛠.
+## Mike's Little Book O' Tech
 
 **Part 1: The Localhost Way**
 
@@ -157,6 +150,13 @@ chosen&#151;and practicing my craft 🛠.
 ---
 
 ## Did Somebody Say Rabbit Hole?
+
+I don't write 📝 because I crave an audience or have products to peddle. My
+words are my compass 🧭, helping me navigate the ever-shifting landscape of
+technology 💻. This digital journal is my sounding board 🔊, a space where ideas
+echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤️,
+articulating the complex, and holding myself accountable to the journey I've
+chosen&#151;and practicing my craft 🛠.
 
 > There once was a Webmaster who wrote  
 > And knew not where to keep his next note;  
