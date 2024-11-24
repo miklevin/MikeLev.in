@@ -81,7 +81,7 @@ echo 🔉 and crystallize 💎. With each post, I'm forging a path forward 🛤�
 articulating the complex, and holding myself accountable to the journey I've
 chosen&#151;and practicing my craft 🛠.
 
-### Outline of Topics Covered
+### Tech Topics Covered
 
 1.  **[Future-Proofing Your Tech Skills](/future-proof-tech-skills)**
     - [Mastering the "LPvg stack" (Linux, Python, vim, and git)](/LPvg/)
