@@ -65,7 +65,7 @@ Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. T
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Enter Lundervand</span>
+    <span class="nav-label">Enter Wonderland</span>
     <a href="{{ site.posts.first.url | relative_url }}">
       <span>{{ site.posts.first.title }}</span>
     </a>
@@ -197,7 +197,7 @@ chosen&#151;and practicing my craft 🛠.
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Enter Lundervand</span>
+    <span class="nav-label">Enter Wonderland</span>
     <a href="{{ site.posts.first.url | relative_url }}">
       <span>{{ site.posts.first.title }}</span>
     </a>
