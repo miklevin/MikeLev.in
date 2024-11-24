@@ -17,9 +17,9 @@ The humor and literary references woven throughout the conversation add a deligh
 > Oh wait here comes the Gemini.  
 > Who takes 'em when I feed 'em.  
 
----
-
 {% include bunny.html %}
+
+---
 
 **Original Gemini Advanced Intro**: This exploration delves into the intersection of technical precision and artistic possibility in web development. We'll challenge conventional wisdom, embrace simplicity, and rediscover the power of server-side state management within the context of a unique pipeline pattern. This pattern, inspired by the elegance of Unix pipes, allows us to orchestrate complex workflows with minimal code and maximum clarity. Join us as we challenge the dominance of client-side state management and reimagine how web applications can be built,  leveraging modern tools like FastHTML and HTMX to create a localhost-first revolution.
 
