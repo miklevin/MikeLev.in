@@ -302,6 +302,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-commonmark-ghpages
+  rouge
 
 BUNDLED WITH
    2.5.16

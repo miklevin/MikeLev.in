@@ -2,4 +2,5 @@ source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 gem "jekyll"
 gem "rouge"
-gem "jekyll-rouge"
+gem 'jekyll-commonmark-ghpages'
+

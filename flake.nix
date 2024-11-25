@@ -1,8 +1,8 @@
 {
-  description = "Nix flake for Jekyll environment with Rouge for syntax highlighting";
+  description = "Nix flake for Jekyll environment with Rouge for syntax highlighting and Bundler support";
 
   inputs = {
-    # Use a stable Nixpkgs version. You can update this to a newer version if needed.
+    # Use a stable Nixpkgs version. Update this to a newer version if needed.
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     # Optionally, specify the flake-utils for multi-system support
     flake-utils.url = "github:numtide/flake-utils";
@@ -15,7 +15,7 @@
         pythonEnv = pkgs.python3.withPackages (ps: with ps; [
           requests
           simplenote
-          # any other Python packages needed by ai.py
+          # Add other Python packages needed for your project here
         ]);
       in
       {
@@ -23,30 +23,44 @@
         devShells.default = pkgs.mkShell {
           # Include necessary packages in the PATH
           buildInputs = [
-            pkgs.ruby
-            pkgs.bundler
-            pkgs.jekyll            # Jekyll from Nixpkgs
-            pkgs.rubyPackages_3_2.rouge  # Rouge (provides rougify)
-            pkgs.neovim
-            pkgs.git  # Add Git to the development shell
-            pythonEnv  # Use the Python environment we defined above
+            pkgs.ruby                       # Ruby for Jekyll and Bundler
+            pkgs.bundler                    # Bundler to manage Ruby gems
+            pkgs.jekyll                     # Jekyll from Nixpkgs
+            pkgs.rubyPackages_3_2.rouge     # Rouge (provides rougify)
+            pkgs.neovim                     # Neovim for text editing
+            pkgs.git                        # Git for version control
+            pythonEnv                       # Use the Python environment defined above
           ];
 
-          # Optional: Set environment variables if needed
+          # Optional: Set environment variables and instructions for users
           shellHook = ''
-            # Create necessary directories
-            mkdir -p ~/.config/nvim
+            # macOS-specific symlink setup for Neovim
+            if [ "$(uname)" = "Darwin" ]; then
+              echo "Detected macOS. Setting up Neovim configuration."
+              CONFIG_DIR="$HOME/Library/Application Support/nvim"
+              INIT_LUA_SOURCE="$HOME/repos/nixos/init.lua"
+              INIT_LUA_TARGET="$CONFIG_DIR/init.lua"
 
-            # Create symlink to init.lua
-            # Using $HOME ensures this works on both Linux and macOS
-            ln -sf $HOME/repos/nixos/init.lua ~/.config/nvim/init.lua
+              mkdir -p "$CONFIG_DIR"
+              ln -sf "$INIT_LUA_SOURCE" "$INIT_LUA_TARGET"
+              echo "Symlink created: $INIT_LUA_TARGET -> $INIT_LUA_SOURCE"
+            else
+              echo "Linux detected. Skipping Neovim setup as it's not needed."
+            fi
 
             # Alias vim to nvim
             alias vim=nvim
 
+            # Display Jekyll and Bundler instructions
             echo "Jekyll and Rouge environments are ready."
-            echo "Use: jekyll serve --livereload"
-            echo "Use: rougify style monokai.sublime > assets/css/syntax.css"
+            echo "Instructions:"
+            echo "1. Use: bundle install       # To install Ruby gems defined in Gemfile"
+            echo "2. Use: bundle exec jekyll serve --livereload"
+            echo "   - Starts a Jekyll development server with live reload support."
+            echo "3. Use: rougify style monokai.sublime > assets/css/syntax.css"
+            echo "   - Generates Rouge syntax highlighting styles in your CSS."
+            echo ""
+            echo "If you encounter issues, check the Gemfile and run 'bundle install'."
           '';
         };
       });
