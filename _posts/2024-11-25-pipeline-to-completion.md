@@ -394,6 +394,7 @@ card_state = {
 }
 ```
 
+{:start="2"}
 2. **Pipeline State Transitions**
 
 ```python
@@ -405,6 +406,7 @@ async def process_url(self, request):
     # 3. Return only placeholder for next card
 ```
 
+{:start="3"}
 3. **Card Placeholder Generation**
 
 ```python
@@ -414,6 +416,7 @@ return Card(id="card2")  # Currently ad-hoc
 def create_placeholder(self, card_id): ...
 ```
 
+{:start="4"}
 4. **State Recovery Points**
 
 ```python
