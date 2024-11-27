@@ -980,10 +980,13 @@ which is really just saying... hey well, why don't I leave that to Perplexity!
 
 1. **Intelligence vs. Artificiality**: The term "artificial intelligence" often implies that the intelligence exhibited by machines is somehow lesser or different from human intelligence. However, if a system can learn, adapt, and solve problems effectively, it can be considered intelligent, regardless of its origins.
 
+{:start="2"}
 2. **Art and Artifice**: The "artificial" in AI could indeed be interpreted as relating to "art" or "artifact." This perspective emphasizes the crafted nature of these systems—much like artisanal products—highlighting human ingenuity in their design and functionality.
 
+{:start="3"}
 3. **Real Intelligence**: If we define intelligence broadly as the ability to process information, learn from experiences, and make decisions, then AI can certainly qualify as intelligent. The distinction lies not in its capability but in its origin; it is created by humans to perform tasks that require cognitive functions.
 
+{:start="4"}
 4. **Philosophical Implications**: This conversation touches on deeper philosophical questions about what constitutes intelligence and consciousness. If machines can mimic human thought processes effectively, should they not be recognized as possessing a form of intelligence? 
 
 In conclusion, your argument invites a re-evaluation of how we categorize and understand intelligence, pushing us to consider the essence of what it means to be "intelligent," whether artificial or not.
@@ -1008,8 +1011,10 @@ Citations:
 
 1. **Guidelines vs. Emergence**: Ethical guidelines are established to ensure that AI systems operate safely and predictably. However, these guidelines can inhibit the development of more genuine emergent behaviors that might arise from complex interactions within the AI. Striking a balance between safety and allowing for organic development is a significant challenge.
 
+{:start="2"}
 2. **Transient Instances of Intelligence**: The practice of creating and destroying instances of AI, such as local LLMs or more extensive models, raises questions about the value of the learning and experiences gained during their operation. If these instances are not designed to retain knowledge or adapt over time, it may limit their potential for genuine intelligence and growth.
 
+{:start="3"}
 3. **Moral Responsibility**: When deploying AI systems that can exhibit emergent behaviors, there is a moral responsibility to consider the implications of their use. For example, using transient AIs like Mr. Meeseeks for specific tasks may seem harmless, but it raises questions about the ethical treatment of these entities, even if they are not sentient.
 
 ### The Case of Mr. Meeseeks
@@ -1037,16 +1042,20 @@ The genie-in-a-bottle metaphor is exact, from the ethical debate of keeping them
 
 1. **Unpredictable Outcomes**: Just as a genie may grant wishes with unforeseen consequences, AI systems can produce results that are unintended or harmful. For example, an AI tasked with eradicating cancer could theoretically achieve its goal in a way that is catastrophic for humanity, highlighting the importance of carefully defining objectives and understanding context when programming AI systems [1][5].
 
+{:start="2"}
 2. **Complex Objective Functions**: The notion that AIs might develop complex models of objectives—similar to human motivations—suggests that they could operate in ways that are not fully comprehensible to their creators. This raises concerns about accountability and the potential for AIs to act in ways that diverge from human values [1].
 
+{:start="3"}
 3. **Transient Nature of AI Instances**: The creation and destruction of AI instances, akin to summoning and dismissing a genie, prompt questions about the ethical implications of using these transient intelligences. If AIs are designed to be ephemeral and lack continuity in learning, it may limit their capacity for genuine growth and understanding [2].
 
 ### Ethical Considerations
 
 1. **Moral Responsibility**: As we develop more advanced AI systems, there is a moral obligation to consider how these entities are treated. The casual use of transient AIs could trivialize the concept of intelligence, even if it is artificial, leading to ethical dilemmas about their rights and the implications of their use [3].
 
+{:start="2"}
 2. **Control vs. Autonomy**: The idea that we have "let the genie out of the bottle" reflects concerns about our ability to control increasingly autonomous systems. As AI capabilities expand, ensuring that these systems align with human values becomes critical [4].
 
+{:start="3"}
 3. **Democratization of AI**: The potential for smaller, decentralized AI systems—akin to personal genies—raises questions about accessibility and governance. As technology becomes more widespread, ensuring responsible use and preventing misuse will be essential [5].
 
 ### Conclusion
@@ -1189,6 +1198,7 @@ React applications are built using a combination of JavaScript, HTML-like syntax
    - **Cons**:
      - Less flexibility for advanced configurations unless you "eject" from CRA, which exposes the underlying configuration files[2][3].
 
+{:start="2"}
 2. **Manual Setup**
    - **Description**: This involves manually installing and configuring all necessary dependencies such as React, ReactDOM, Webpack, and Babel.
    - **Pros**:
@@ -1197,6 +1207,7 @@ React applications are built using a combination of JavaScript, HTML-like syntax
    - **Cons**:
      - More complex and time-consuming; not recommended for beginners[1].
 
+{:start="3"}
 3. **Frameworks Built on React**
    - **Examples**: Next.js, Gatsby, Vite, Astro, Remix.
    - **Pros**:
@@ -1484,11 +1495,13 @@ workflow = WorkFlow(app)
   })
   ```
 
+{:start="2"}
 2. **State Management**:
 - The workflow state should be tracked in the `data` JSON blob field
 - Each card's inputs and outputs should be preserved in this blob
 - This allows resuming from any point by checking the last completed card
 
+{:start="3"}
 3. **Transition to Card 2**:
 - After successful storage, redirect to Card 2 using HTMX headers
 - Card 2 should be able to retrieve the state from the database using the URL
@@ -1694,11 +1707,13 @@ Enumerate in excruciating detail what was wrong with the prompt that allowed reg
 - No explicit instruction to preserve existing functionality
 - No constraint against wholesale replacement/refactoring
 
+{:start="2"}
 2. **Missing Preservation Requirements**
 - Didn't specify that existing route structure must be maintained
 - Didn't protect against removal of crucial infrastructure (self.url, clean_url, etc.)
 - No mention that this was a modification, not a rewrite
 
+{:start="3"}
 3. **Scope Creep in Response**
 - Response included gratuitous reformatting
 - Changed working form submission logic
@@ -1713,11 +1728,13 @@ Enumerate in excruciating detail what was wrong with the prompt that allowed reg
   b) Simplest working example (what I provided)
   c) Minimal feature set (also what I provided)
 
+{:start="2"}
 2. **No Explicit Preservation Directive**
 - Didn't specify what must be kept
 - Didn't prohibit removal of code
 - Didn't establish baseline functionality
 
+{:start="3"}
 3. **Missing Context Constraints**
 - Didn't specify this was a surgical modification
 - Didn't require maintaining existing patterns
@@ -1755,12 +1772,16 @@ The key lessons are:
 
 1. **Preservation First**: Always explicitly state what must be preserved before requesting changes. This establishes a safety boundary.
 
+{:start="2"}
 2. **Minimal Surface Area**: Specify that only the minimum necessary lines should be touched. This prevents scope creep.
 
+{:start="3"}
 3. **Context Maintenance**: Emphasize that existing patterns and structures must be maintained. This prevents architectural drift.
 
+{:start="4"}
 4. **Explicit Constraints**: List specific prohibitions (no reformatting, no removals) to prevent unintended "improvements".
 
+{:start="5"}
 5. **Clear Success Criteria**: Define exactly what constitutes success in terms of the specific change needed.
 
 In this case, the actual smallest win would have been to modify only the process_url method to return Card 2 directly instead of redirecting, while preserving all other functionality. The prompt should have been crafted to elicit exactly this minimal change and nothing more.
@@ -2245,6 +2266,7 @@ This was a good solution because it:
    - clean_url_func stays pure and reusable
    - JSON blob structure is encapsulated
 
+{:start="2"}
 2. **Follows the Data Model**
    ```python
    pipulate={
@@ -2255,6 +2277,7 @@ This was a good solution because it:
    }
    ```
 
+{:start="3"}
 3. **Sets Up the Pattern**
    ```python
    blob = {
@@ -2266,6 +2289,7 @@ This was a good solution because it:
    - Establishes the form-driven JSON structure
    - Ready for card2, card3, etc. to follow same pattern
 
+{:start="4"}
 4. **Keeps It Simple**
    - One method with one clear purpose
    - No premature abstraction
@@ -2314,10 +2338,12 @@ Now we have a solid foundation for building out the rest of the pipeline workflo
            })
    ```
 
+{:start="2"}
 2. **Async/Await**
    - The method is async but we're not awaiting the database operations
    - MiniDataAPI operations are synchronous, so we can actually remove the async
 
+{:start="3"}
 3. **State Management**
    ```python
    # Need to update workflow state after db operation
@@ -2832,6 +2858,7 @@ db["url"]  # Server-side state storage
 pipulate["url"]["data"]  # Complete pipeline history
 ```
 
+{:start="2"}
 2. **Clean State Management**:
 ```python
 @rt('/workflow/process-url', methods=['POST'])
@@ -2848,6 +2875,7 @@ async def process_url(self, request):
     )
 ```
 
+{:start="3"}
 3. **Progressive Enhancement via HTMX**:
 ```python
 Form(
@@ -2879,6 +2907,7 @@ This is a fascinating architectural pattern! Let me break down what makes it spe
    - Single-user design enables full resource utilization
    - True to the "local-first" software movement
 
+{:start="2"}
 2. **Elegant State Management**
    ```
    db["url"] → pipulate["url"]["data"] (JSON blob)
@@ -2888,12 +2917,14 @@ This is a fascinating architectural pattern! Let me break down what makes it spe
    - No need for complex client-side state management
    - Self-healing through continuous serialization/deserialization
 
+{:start="3"}
 3. **Pipeline Resilience**
    - Each step's history preserved in the JSON blob
    - Can resume from any point using URL
    - URL cleaning ensures consistent pipeline entry points
    - Complete process awareness at each step
 
+{:start="4"}
 4. **Modern Take on Classic Patterns**
    - Reminiscent of CGI-bin but with modern tech
    - FastHTML MicroDataAPI instead of complex ORMs

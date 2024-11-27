@@ -105,8 +105,10 @@ In the early 2010s, Google introduced what was known as the "AJAX crawling schem
 
 1. **Escaped Fragment URLs**: Developers were advised to create "escaped fragment" versions of their AJAX URLs. For example, example.com/#!key=value would become example.com/?_escaped_fragment_=key=value for crawlers[1].
 
+{:start="2"}
 2. **HTML Snapshots**: For each AJAX URL, developers were expected to provide an HTML snapshot that represented the fully rendered state of that page[1].
 
+{:start="3"}
 3. **Hashbang (#!) URLs**: Google recommended using hashbang (#!) URLs to signal to crawlers that a site was using the AJAX crawling scheme[1].
 
 ## Limitations and Drawbacks
@@ -123,6 +125,7 @@ As web technologies evolved and Google's crawling capabilities improved, the nee
 
 1. **Improved JavaScript Rendering**: Google's crawlers became better at rendering JavaScript, reducing the need for separate HTML snapshots[1].
 
+{:start="2"}
 2. **Deprecation Announcement**: In 2015, Google announced that they were deprecating the AJAX crawling scheme, encouraging developers to focus on making their JavaScript-powered sites directly crawlable[1].
 
 ## Modern Recommendations
@@ -131,10 +134,13 @@ Today, Google's approach to SPAs is quite different:
 
 1. **JavaScript Rendering**: Google now recommends allowing Googlebot to crawl and render JavaScript directly, rather than relying on special schemes[1].
 
+{:start="2"}
 2. **Server-Side Rendering (SSR)**: For optimal performance and indexing, Google suggests implementing server-side rendering for initial page loads[3].
 
+{:start="3"}
 3. **Dynamic Rendering**: As an alternative to full SSR, Google proposes dynamic rendering, where server-side rendered content is served to crawlers while users receive the client-side rendered version[3].
 
+{:start="4"}
 4. **Progressive Enhancement**: Building sites that work without JavaScript, then enhancing them with JavaScript, is still considered a best practice for both usability and SEO[2].
 
 In conclusion, while Google's early recommendations for AJAX SPAs involved complex workarounds, their current approach emphasizes making JavaScript-powered sites directly crawlable, with server-side rendering as a recommended optimization for search engine visibility and performance.
@@ -531,6 +537,7 @@ right resource to probe to reproduce the thing you're looking at in the Web UI.
 2. **Clear the Network tab**, refresh, and locate the correct **`query` or `aggs`** request.
 3. Copy from **Headers, Payload (View Source), and Response** in full.
 4. Clearly **state your goal** (e.g., “Retrieve pagetype segmentation by URL count”).
+{:start="5"}
 5. **Ask for specific outputs**, like a DataFrame, chart, or CSV.
 
 With these steps, you’ll capture everything needed to prompt efficiently and produce reliable, repeatable Botify API Notebooks. Let me know if you’d like a sample Notebook template as well!

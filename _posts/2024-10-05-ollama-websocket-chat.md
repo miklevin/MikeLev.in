@@ -816,34 +816,41 @@ Claude: I'd be happy to break down the system for you. This code implements a To
    - The app uses Ollama, a local LLM service, accessed via `chat_with_ollama` function.
    - A conversation history is maintained to provide context for the LLM.
 
+{:start="2"}
 2. **HTMX Endpoints**:
    - `/todo` (POST): Add a new todo item
    - `/{tid}` (DELETE): Delete a todo item
    - `/toggle/{tid}` (GET): Toggle todo item status
 
+{:start="3"}
 3. **WebSocket Integration**:
    - A WebSocket connection (`/ws`) is used for real-time communication.
    - Users can send messages directly through the chat interface.
 
+{:start="4"}
 4. **LLM Commentary Process**:
    - When an HTMX call is made to modify the todo list, it triggers an asynchronous task to generate LLM commentary.
    - This is done using `asyncio.create_task(generate_and_stream_ai_response(...))`.
 
+{:start="5"}
 5. **Asynchronous Response Generation**:
    - The `generate_and_stream_ai_response` function:
      a. Adds the event to the conversation history
      b. Requests a response from the LLM
      c. Streams the response word by word to simulate typing
 
+{:start="6"}
 6. **Real-time Updates**:
    - Responses are sent to all connected users using WebSockets.
    - The UI is updated in real-time, with a typing effect for the LLM's responses.
 
+{:start="7"}
 7. **Specific HTMX-LLM Interactions**:
    - Adding a todo: Triggers commentary on the new item
    - Deleting a todo: Prompts a reaction to the deletion
    - Toggling a todo: Generates a comment on the status change
 
+{:start="8"}
 8. **UI Integration**:
    - The todo list and chat interface are displayed side by side.
    - LLM responses appear in a Matrix-like style (green text with glow effect).
@@ -915,34 +922,41 @@ Claude: I'd be happy to break down the system for you. This code implements a To
    - The app uses Ollama, a local LLM service, accessed via `chat_with_ollama` function.
    - A conversation history is maintained to provide context for the LLM.
 
+{:start="2"}
 2. **HTMX Endpoints**:
    - `/todo` (POST): Add a new todo item
    - `/{tid}` (DELETE): Delete a todo item
    - `/toggle/{tid}` (GET): Toggle todo item status
 
+{:start="3"}
 3. **WebSocket Integration**:
    - A WebSocket connection (`/ws`) is used for real-time communication.
    - Users can send messages directly through the chat interface.
 
+{:start="4"}
 4. **LLM Commentary Process**:
    - When an HTMX call is made to modify the todo list, it triggers an asynchronous task to generate LLM commentary.
    - This is done using `asyncio.create_task(generate_and_stream_ai_response(...))`.
 
+{:start="5"}
 5. **Asynchronous Response Generation**:
    - The `generate_and_stream_ai_response` function:
      a. Adds the event to the conversation history
      b. Requests a response from the LLM
      c. Streams the response word by word to simulate typing
 
+{:start="6"}
 6. **Real-time Updates**:
    - Responses are sent to all connected users using WebSockets.
    - The UI is updated in real-time, with a typing effect for the LLM's responses.
 
+{:start="7"}
 7. **Specific HTMX-LLM Interactions**:
    - Adding a todo: Triggers commentary on the new item
    - Deleting a todo: Prompts a reaction to the deletion
    - Toggling a todo: Generates a comment on the status change
 
+{:start="8"}
 8. **UI Integration**:
    - The todo list and chat interface are displayed side by side.
    - LLM responses appear in a Matrix-like style (green text with glow effect).

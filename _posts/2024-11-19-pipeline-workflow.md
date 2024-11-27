@@ -363,6 +363,7 @@ a penny, in for a... in for a... in for a single...
    - In software architecture, a single-tenant application is designed to serve one user or organization. Each instance of the application is dedicated to a single customer, providing them with exclusive access to their data and resources.
    - This model contrasts with multi-tenant architectures where multiple users or organizations share the same infrastructure and database.
 
+{:start="2"}
 2. **Tenet**:
    - A tenet refers to a principle or belief that is held to be true. It serves as a foundational guideline that shapes behavior, decisions, and practices within a particular context.
 
@@ -373,15 +374,19 @@ When we talk about a **single-tenant tenet**, we are referring to a guiding prin
 1. **Focus on Customization**:
    - A tenet could be that single-tenant applications allow for greater customization and tailored solutions for individual users or organizations. This principle highlights the importance of meeting specific needs rather than offering a one-size-fits-all solution.
 
+{:start="2"}
 2. **Data Privacy and Security**:
    - Another tenet might emphasize enhanced data privacy and security inherent in single-tenant systems. Since each tenant has their own isolated environment, there is reduced risk of data leaks or breaches between users.
 
+{:start="3"}
 3. **Performance Optimization**:
    - A guiding principle could focus on performance, asserting that single-tenant architectures can be optimized for individual workloads without competing resource demands from other tenants.
 
+{:start="4"}
 4. **Simplicity in Management**:
    - The tenet might state that managing a single-tenant application is simpler from an administrative perspective since all configurations and updates are tailored to one user's environment.
 
+{:start="5"}
 5. **Long-Term Commitment**:
    - A philosophical tenet could relate to the long-term commitment to supporting individual clients, emphasizing the importance of building lasting relationships through dedicated resources.
 
@@ -450,6 +455,7 @@ self.app.route(f"{self.route_prefix}/stream")(self.stream_handler)
 self.app.route(f"{self.route_prefix}/start", methods=["POST"])(self.start_handler)
 ```
 
+{:start="2"}
 2. **UI State Management** through DOM:
 ```python
 def setButtonState(isRunning) {
@@ -459,6 +465,7 @@ def setButtonState(isRunning) {
 }
 ```
 
+{:start="3"}
 3. **Progress Tracking** with visual feedback:
 ```python
 def updateProgress(current, total) {
@@ -468,6 +475,7 @@ def updateProgress(current, total) {
 }
 ```
 
+{:start="4"}
 4. **Stateless Recovery** - Your workflow recovery approach is elegant:
 - URL as unique identifier
 - JSON state object per workflow
@@ -972,21 +980,25 @@ This implementation showcases several key features:
 - Clear state transitions with logging
 - Atomic operations with error handling
 
+{:start="2"}
 2. **Progressive Enhancement**
 - HTMX-powered live updates
 - Automatic status polling
 - Graceful fallbacks
 
+{:start="3"}
 3. **Robust Error Handling**
 - Standardized error responses
 - Comprehensive logging
 - User-friendly messages
 
+{:start="4"}
 4. **Modern UI Components**
 - Tailwind CSS styling
 - Status indicators
 - Loading states
 
+{:start="5"}
 5. **Performance Optimizations**
 - Efficient database queries
 - Minimal JavaScript
@@ -1206,21 +1218,25 @@ This implementation is:
 - URL is the primary key (one pipeline per URL)
 - All state changes are atomic and logged
 
+{:start="2"}
 2. **HTMX-Powered**
 - Zero custom JavaScript
 - Automatic status polling
 - Progressive enhancement
 
+{:start="3"}
 3. **Production-Ready**
 - Comprehensive error handling
 - Detailed logging
 - Clean state transitions
 
+{:start="4"}
 4. **Developer-Friendly**
 - Clear code organization
 - Consistent naming
 - Well-documented
 
+{:start="5"}
 5. **User-Focused**
 - Real-time updates
 - Clear status indicators
@@ -1325,11 +1341,13 @@ The key innovations here:
 - Clear progression through steps
 - Elegant error handling
 
+{:start="2"}
 2. **Real-Time Updates**
 - HTMX-powered status indicators
 - Automatic progress tracking
 - Zero custom JavaScript
 
+{:start="3"}
 3. **Clean Data Structure**
 - URL as natural key
 - JSON for flexible state data
@@ -1461,6 +1479,7 @@ This is smart because:
 - Makes it easy to resume/restart jobs
 - Provides a natural way to identify pipeline runs
 
+{:start="2"}
 2. **Single Record Per Job**:
 ```python
 "data": str,  # All jobs get just 1 pipulate record and use a JSON blob
@@ -1471,6 +1490,7 @@ This is efficient because:
 - Avoids complex table relationships
 - Makes it easy to track progress
 
+{:start="3"}
 3. **Timestamp Tracking**:
 ```python
 "created": str,  # ISO timestamp of first insert
@@ -1482,6 +1502,7 @@ Good for:
 - Job duration tracking
 - Identifying stalled jobs
 
+{:start="4"}
 4. **Stateless Design**:
 ```python
 # Card 1 | Card 2 | Card 3
@@ -1492,6 +1513,7 @@ This is robust because:
 - Follows Unix pipeline philosophy
 - Supports partial processing
 
+{:start="5"}
 5. **URL-Based Navigation**:
 ```python
 # /endpoint/card3
@@ -1885,14 +1907,19 @@ class WorkFlow:
 
 1. **Temptation to Use ORM**: I avoided using SQLAlchemy or any ORM, sticking to direct table operations with FastHTML's MiniDataAPI.
 
+{:start="2"}
 2. **Avoiding Client-Side State**: Ensured all state management is server-side, using the database and JSON blobs.
 
+{:start="3"}
 3. **Resisting Complex Frameworks**: Did not introduce Flask, FastAPI, or any other frameworks that could complicate the simple, local-first design.
 
+{:start="4"}
 4. **Keeping the Workflow Flat**: Maintained a flat structure without unnecessary hierarchy, focusing on the JSON blob for any needed complexity.
 
+{:start="5"}
 5. **Avoiding Over-Engineering**: Kept the classes and methods simple, focusing on the core functionality without adding unnecessary features.
 
+{:start="6"}
 6. **Global Scope Usage**: Used the global `pipelines` table as intended, without trying to encapsulate it unnecessarily.
 
 ### Next Steps
@@ -2184,8 +2211,10 @@ Sleep well, and let's continue this coding adventure when you're refreshed and r
 
 1. **Linked Lists:** Keeping the data structures simple with linked lists is a brilliant move. It reinforces the Unix philosophy of small, composable units, and it avoids the overhead and complexity of more elaborate structures. We can essentially chain together cards like nodes in a linked list, where each card points to the next one in the sequence. This allows for flexible workflows and easy modification or extension.
 
+{:start="2"}
 2. **Mermaid Diagrams:** Integrating Mermaid for workflow visualization is a fantastic idea! It's a powerful tool for creating diagrams from text, and it's widely supported in various platforms. We can dynamically generate Mermaid code based on the workflow definition and render it directly in the UI. This will provide a clear and intuitive representation of the pipeline, making it easier to understand and debug.
 
+{:start="3"}
 3. **External Tool Integration:** This is where the true power of Pipulate lies! By embracing a local-first approach, we unlock the ability to seamlessly integrate with any tool or service accessible from the user's machine. We can leverage libraries like Puppeteer or Playwright for browser automation, interact with command-line tools, or even utilize desktop applications through their APIs. And yes, while Selenium is a popular choice for browser automation, it comes with its own set of challenges in this context:
 
     * **Overhead:** Selenium often requires a separate WebDriver server and can be resource-intensive.
@@ -2571,8 +2600,10 @@ In our Pipulate application, we primarily use **POST** requests for navigating b
 
 1.  **State Changes:** Moving from one card to the next inherently involves a change in the workflow's state. We need to update the `pipulate` table with the current card's data and potentially trigger actions based on the user's input. POST requests are the appropriate choice for reflecting these state changes on the server.
 
+{:start="2"}
 2.  **Data Integrity:** While GET requests can technically send data via query parameters, they're not ideal for sensitive or complex data. POST requests allow us to send data more securely within the request body, ensuring data integrity and avoiding potential issues with URL length restrictions.
 
+{:start="3"}
 3.  **Idempotency:** GET requests are designed to be idempotent, meaning they can be executed multiple times without causing unintended side effects. POST requests, on the other hand, are not necessarily idempotent. In our workflow, re-submitting a POST request might create duplicate records or trigger unintended actions. However, FastHTML's `Pipulate` class and the URL-as-primary-key design help mitigate this by ensuring that each URL (workflow) corresponds to a single database record, preventing accidental duplication.
 
 **Example**
@@ -2641,6 +2672,7 @@ By consistently using POST requests for card transitions, we maintain a clear se
             )
     ```
 
+{:start="2"}
 2. **GET vs. POST with `@rt`:**
 
     You're right to question how `@rt` handles GET and POST requests. It's more nuanced than I initially explained.
@@ -2868,12 +2900,16 @@ The codebase generally follows good practices and demonstrates a clear understan
 
 1.  **Error Handling:** While the code includes basic error handling with `try-except` blocks, it could benefit from more specific exception handling and user-friendly error messages in certain areas. For example, in the `WebAngiogram` class, catching `KeyError` explicitly when accessing `pipelines` could provide more informative feedback.
 
+{:start="2"}
 2.  **URL Normalization:** The URL normalization logic in `WebAngiogram` could be made more robust to handle various edge cases and potential inconsistencies in user input.
 
+{:start="3"}
 3.  **Database Interactions:** Some database interactions could be optimized for efficiency. For instance, in the `ProfileApp`, fetching all profiles and then filtering them in Python could be replaced with a more efficient database query.
 
+{:start="4"}
 4.  **Code Clarity:** A few areas could benefit from improved code clarity and documentation. For example, in the `BotifyLinkGraph` class, some of the longer methods could be broken down into smaller, more focused functions with clearer names and docstrings.
 
+{:start="5"}
 5.  **Redundancies:** There might be some redundancies in the code, particularly between the `BotifyLinkGraph` and `WebAngiogram` classes. Consider refactoring to eliminate duplication and improve maintainability.
 
 **Recommendations**
@@ -2948,6 +2984,7 @@ pipulate={
 }
 ```
 
+{:start="2"}
 2. **URL Processing**
 ```python
 def clean_url(self, url):
@@ -2957,6 +2994,7 @@ def clean_url(self, url):
                                 # - Edge case management
 ```
 
+{:start="3"}
 3. **Card Navigation**
 ```python
 @rt('/workflow/card2')
@@ -2968,6 +3006,7 @@ async def card2(self):
                                                 # - Navigation guards
 ```
 
+{:start="4"}
 4. **State Management**
 ```python
 # The URL *is* the state - resist urge to add:
@@ -2977,6 +3016,7 @@ async def card2(self):
 # - Status enums
 ```
 
+{:start="5"}
 5. **Error Handling**
 ```python
 # Let Python exceptions bubble up naturally - resist urge to add:
@@ -2986,6 +3026,7 @@ async def card2(self):
 # - Recovery mechanisms
 ```
 
+{:start="6"}
 6. **Data Flow**
 ```python
 # JSON blob in 'data' field is perfect - resist urge to add:
@@ -2995,6 +3036,7 @@ async def card2(self):
 # - Schema enforcement
 ```
 
+{:start="7"}
 7. **Routing**
 ```python
 @rt('/workflow/card1')  # Perfect - resist urge to add:
@@ -3004,6 +3046,7 @@ async def card1(self):  # - Route parameters
                        # - Guards
 ```
 
+{:start="8"}
 8. **Template Structure**
 ```python
 return Div(            # Perfect - resist urge to add:
@@ -3013,6 +3056,7 @@ return Div(            # Perfect - resist urge to add:
                       # - JavaScript enhancements
 ```
 
+{:start="9"}
 9. **Class Structure**
 ```python
 class Pipulate:       # Perfect - resist urge to add:
@@ -3022,6 +3066,7 @@ class Pipulate:       # Perfect - resist urge to add:
                              # - Interface contracts
 ```
 
+{:start="10"}
 10. **Global Scope**
 ```python
 app, rt, (pipelines, Pipeline) = fast_app(  # Perfect - resist urge to add:
@@ -3282,38 +3327,47 @@ class WorkFlow:
    - **Issue**: The `clean_url` method might not handle all edge cases, such as URLs with query parameters or different schemes.
    - **Solution**: Implement a more robust URL parsing mechanism using libraries like `urllib.parse`.
 
+{:start="2"}
 2. **Simplified Data Handling**:
    - **Issue**: The `data` attribute is a simple dictionary, which might not be sufficient for complex workflows.
    - **Solution**: Use a dedicated data storage mechanism, such as JSON serialization, to handle complex data structures.
 
+{:start="3"}
 3. **Database Interaction**:
    - **Issue**: The `save_record` and `load_record` methods are placeholders and do not interact with an actual database.
    - **Solution**: Integrate with the specific database system (e.g., SQLite, PostgreSQL) to handle record storage and retrieval.
 
+{:start="4"}
 4. **Workflow Resumption**:
    - **Issue**: The workflow resumption logic is not implemented, which could lead to incomplete workflows.
    - **Solution**: Enhance the `start_workflow` method to check the workflow state and resume from the correct step.
 
+{:start="5"}
 5. **Card Implementation**:
    - **Issue**: The card methods are placeholders and do not render actual UI elements.
    - **Solution**: Implement the card rendering logic using FastHTML or another templating engine to display the cards correctly.
 
+{:start="6"}
 6. **Global State Management**:
    - **Issue**: The use of a global `db` object might lead to state management issues in a multi-user environment.
    - **Solution**: Ensure that the global `db` object is thread-safe or refactor the code to avoid global state where possible.
 
+{:start="7"}
 7. **Security Concerns**:
    - **Issue**: The current implementation does not address security aspects like URL validation or data sanitization.
    - **Solution**: Implement proper validation and sanitization techniques to prevent security vulnerabilities.
 
+{:start="8"}
 8. **Scalability**:
    - **Issue**: The current design might not scale well with more complex workflows or additional features.
    - **Solution**: Design a more flexible architecture that can accommodate future extensions without major refactoring.
 
+{:start="9"}
 9. **Documentation and Comments**:
    - **Issue**: The code lacks detailed documentation and comments, making it hard to understand and maintain.
    - **Solution**: Add comprehensive documentation and comments to explain the purpose and functionality of each part of the code.
 
+{:start="10"}
 10. **Testing**:
     - **Issue**: There are no tests to verify the correctness of the implementation.
     - **Solution**: Develop a suite of unit and integration tests to ensure that each component works as expected.
@@ -3494,14 +3548,19 @@ class WorkFlow:
 
 1. **Temptation to Use ORM**: I avoided using SQLAlchemy or any ORM, sticking to direct table operations with FastHTML's MiniDataAPI.
 
+{:start="2"}
 2. **Avoiding Client-Side State**: Ensured all state management is server-side, using the database and JSON blobs.
 
+{:start="3"}
 3. **Resisting Complex Frameworks**: Did not introduce Flask, FastAPI, or any other frameworks that could complicate the simple, local-first design.
 
+{:start="4"}
 4. **Keeping the Workflow Flat**: Maintained a flat structure without unnecessary hierarchy, focusing on the JSON blob for any needed complexity.
 
+{:start="5"}
 5. **Avoiding Over-Engineering**: Kept the classes and methods simple, focusing on the core functionality without adding unnecessary features.
 
+{:start="6"}
 6. **Global Scope Usage**: Used the global `pipelines` table as intended, without trying to encapsulate it unnecessarily.
 
 ### Next Steps
@@ -3563,38 +3622,47 @@ Let me know how you'd like to proceed!
    - Keep it simple, keep it pure,
    - No unnecessary layers, no enterprise cure.
 
+{:start="2"}
 2. **Local-First Design**
    - Embrace the localhost, the nix flake,
    - No Docker, no k8s, just a simple take.
 
+{:start="3"}
 3. **State Management**
    - The URL is the state, the JSON is the data,
    - No hidden fields, no session drama.
 
+{:start="4"}
 4. **Error Handling**
    - Let Python exceptions bubble up,
    - No try/except blocks, just let it jump.
 
+{:start="5"}
 5. **Routing**
    - Use @rt, keep it clean,
    - No middleware, no complex scene.
 
+{:start="6"}
 6. **Templates**
    - FastHTML, HTMX, keep it light,
    - No React, no Vue, just pure delight.
 
+{:start="7"}
 7. **Class Structure**
    - No inheritance, no mixins,
    - Just simple classes, no hidden sins.
 
+{:start="8"}
 8. **Global Scope**
    - Global scope is fine, no need to hide,
    - Single-tenant design, no need to confide.
 
+{:start="9"}
 9. **Anti-Patterns**
    - Resist the urge to "improve",
    - The simplest path is the best to prove.
 
+{:start="10"}
 10. **The Unix Philosophy**
     - Do one thing and do it well,
     - The Unix way, the Pipulate spell.
@@ -3632,12 +3700,16 @@ I had to fight against the common anti-patterns that had become ingrained in my 
 
 1. **ORMs and Complex ORMs**: The idea of using a simple database like SQLite without an ORM was initially uncomfortable. But the direct CRUD operations with MiniDataAPI were refreshingly straightforward.
 
+{:start="2"}
 2. **Client-Side State**: The notion of managing state entirely on the server side, without any client-side logic, was a paradigm shift. It simplified the codebase and made debugging easier.
 
+{:start="3"}
 3. **Complex Frameworks**: The temptation to introduce frameworks like Flask or FastAPI was strong. But sticking to FastHTML and HTMX ensured that the system remained lightweight and efficient.
 
+{:start="4"}
 4. **Global Scope**: The idea of using global scope was initially frowned upon. But in a single-tenant environment, it made perfect sense. It eliminated the need for dependency injection and context managers, keeping the codebase simple.
 
+{:start="5"}
 5. **Error Handling**: Letting Python exceptions bubble up naturally was a departure from the usual try/except blocks. It made the code more readable and reduced the complexity of error handling.
 
 #### The Power of Localhost and Nix Flakes

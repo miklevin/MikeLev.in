@@ -2293,6 +2293,7 @@ class WebAngiogram:
         new_pipeline = self.pipeline.insert(pipeline_data)
 ```
 
+{:start="2"}
 2. **The Player Piano (Pipeline State Machine)**
 ```python
 async def get_status(self, job_id: int):
@@ -2314,6 +2315,7 @@ async def get_status(self, job_id: int):
     )
 ```
 
+{:start="3"}
 3. **The Record Player (Pipeline Table)**
 - Each row is ONE complete piece of music (workflow)
 - The `url` field is like the album name (unique identifier)
@@ -2321,6 +2323,7 @@ async def get_status(self, job_id: int):
 - The `result` JSON field stores progress and intermediate results
 - The `config` JSON field stores the initial setup
 
+{:start="4"}
 4. **The Concert Hall (FastHTML UI)**
 ```python
 async def _build_analysis_ui(self, analyses, org, project, normalized_url=None):
@@ -2334,6 +2337,7 @@ async def _build_analysis_ui(self, analyses, org, project, normalized_url=None):
     )
 ```
 
+{:start="5"}
 5. **The Performance (Workflow Execution)**
 - One pipeline record = One complete workflow
 - The record is updated in place as progress occurs
@@ -2562,6 +2566,7 @@ job = self.pipeline.get((job_id,))  # Note: params must be in tuple
 self.pipeline.update((job_id,), "new_state", new_config_json)  # 3 separate args
 ```
 
+{:start="2"}
 2. **Update Method Signature**
 ```python
 # WRONG
@@ -2581,6 +2586,7 @@ self.pipeline.update(
 )
 ```
 
+{:start="3"}
 3. **Insert Pattern**
 ```python
 # WRONG
@@ -2598,6 +2604,7 @@ job_id = self.pipeline.insert(
 )
 ```
 
+{:start="4"}
 4. **Query Pattern**
 ```python
 # WRONG

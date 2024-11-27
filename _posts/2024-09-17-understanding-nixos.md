@@ -241,6 +241,7 @@ For **Mac** and **Windows** users who are hesitant to adopt NixOS, using the `ni
    - **macOS:** Follow the [Determinate Systems installation guide](https://determinate.systems/install/macos).
    - **Windows:** Install via [Determinate Systems installation via WSL](https://determinate.systems/install/windows).
 
+{:start="2"}
 2. **Clone a Repository with a Flake:**
 
    ```bash
@@ -248,6 +249,7 @@ For **Mac** and **Windows** users who are hesitant to adopt NixOS, using the `ni
    cd repo
    ```
 
+{:start="3"}
 3. **Enter the Development Environment:**
 
    ```bash

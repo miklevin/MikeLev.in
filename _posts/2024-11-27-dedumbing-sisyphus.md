@@ -1,0 +1,253 @@
+---
+title: Driving it Home
+permalink: /futureproof/driving-it-home/
+description: 
+layout: post
+sort_order: 1
+---
+
+I stalled out with the writing. I stalled out right on the precipice of driving
+home the most important piece of coding... of expressing myself in a way that
+has an automating and thus self-accelerating component... that I have ever done.
+
+Briefly, in my time at a company from my past I was firing on all cylinders like
+this and made a system that lifted the company up by the scruff of its neck and
+took it into the future. Or at least ensured it's survival long enough to be
+purchased by another company for more than just picking it apart for pieces.
+
+This go-around, it's riding the wave of the anti-ReactJS movement, a move
+towards greater simplifcation in web development systems, but for the purpose of
+making powerful localhost apps, LLMs and all, which exceed the capabilities of
+things you can do when hobbled by enterprise architecture and scaling concerns.
+No app is an island. But if you design it so that localhost is an island, a
+whole host of tricks open up to you that just aren't available otherwise. That
+stuff is covered in depth other places, so this is just a reminder to myself
+about what I'm doing here.
+
+My last post, which was supposed to be about the driving the Pipeline Process to
+Completion got derailed by a combination of my own exhaustion catching up with
+me (I've been driving myself very hard), and the client work having still to
+take priority. And it's not just easily planned around client work. It's
+additional stuff being tossed my way because... well, because life. So again,
+it's my failure to factor in Murphy's Law and default FUBAR states. The world
+ain't ideal. That's why I start out with:
+
+- What's most broken
+- Where do you get the biggest bang for the buck
+- What plates need to be spun
+
+One of the nuances here that I learned is that the nature of the way you spin
+those plates is ever-so important. You either spin them in such a way that frees
+up cycles between re-spins or in a way that tightens the gap and you are left
+doing nothing but spinning plates at the expense of ever fixing what's most
+broken or doing any of those things where you get the biggest bang for the buck.
+That's the busywork trap, and is clearly what I'm trying to avoid getting
+trapped in.
+
+If I do, it's game over.
+
+And one can almost view themselves in a cat and mouse game of those forces
+collaborating unintentionally, merely fate being what it is, against you versus
+the you that was put into this world to achieve your Ikigai. Something is
+preventing you from producing what the world needs as a result of doing what you
+are good at, what you love doing and what you can get paid for.
+
+This I think it feels in this world, and I could be wrong and would like to be
+proven so, that so few people achieve anything like their Ikigai. Most folks die
+on some alter of compromise because all pursuit of Ikigai has these anvils
+falling on your head as if dropped by Wile E. Coyote on the Roadrunner. Of
+course, none of them ever hit the Roadrunner, and there's a lot strategic and
+tactical inspiration in that. Be fast. Know what you're about. And have a great
+sense of humor regarding those anvils dropping all around you. Know them for
+what they are and don't let them change that MEEP MEEP spirit.
+
+Okay, so it's really about client work today.
+
+But it's also really about this tiny last step that makes the client work the
+first pipeline. It's a RED LIGHT / GREEN LIGHT warning system for what's out of
+whack in your website.
+
+I mean how perfect is that?
+
+I also have to produce some of those Link-Graph diagrams that provide insight
+about a website, but that's going to be a big pipeline porting process, which I
+have the next 4 days as beautifully focused, concentrated time for.
+
+These 4 days of concentrated work time is something I truly have to be thankful
+for. The timing could not be more perfect.
+
+Where I lost steam and left off was setting the stage for my most difficult next
+step with a clarity, and therefore confidence, I need to keep the code from
+getting out of my control.
+
+I'm using those effin code assistant "genies" to help, and I am therefore
+overreaching my innate technical abilities. Again, there's that concept of
+hitting above my weight class. I don't have the kind of pulsing alien brain that
+people like Paul Graham or David Heinemeier Hansson seem to have. I use those
+two examples because they write influentially about this stuff, Paul about the
+meta programming aspects of LISP, and DHH in bucking the ReactJS trend. Of late,
+I'd probably throw Jeremy Howard into this category. I've created incredibly
+junior entry-level versions of some of the admirable things they've created. And
+now that I'm up to my next project, my intention is to hit at one weight class
+up. I'm beefing up with the code assistant genies.
+
+This is where I left off 2 days ago with perfect clarity of thought:
+
+**Claude**: I notice several key "hot spots" where implementation details need to crystallize, while maintaining the elegantly simple design principles you've outlined:
+
+1. **Card State Serialization Pattern**
+
+```python
+# Not yet implemented but needs consistent pattern:
+card_state = {
+    "card1": {
+        "url": "https://example.com"  # Single field example
+    },
+    "card2": {
+        "option1": "selected_value",
+        "option2": ["multiple", "selections"]  # Multi-field example
+    }
+}
+```
+
+{:start="2"}
+2. **Pipeline State Transitions**
+
+```python
+# Current placeholder locations in WorkFlow class:
+async def process_url(self, request):
+    # Need to standardize how we:
+    # 1. Validate incoming state
+    # 2. Update pipeline JSON blob
+    # 3. Return only placeholder for next card
+```
+
+{:start="3"}
+3. **Card Placeholder Generation**
+
+```python
+# Need consistent pattern for all cards:
+return Card(id="card2")  # Currently ad-hoc
+# Should be standardized helper method:
+def create_placeholder(self, card_id): ...
+```
+
+{:start="4"}
+4. **State Recovery Points**
+
+```python
+# Pipeline table schema already supports this:
+{
+    "url": str,      # Primary key
+    "data": str,     # JSON blob
+    "created": str,  
+    "updated": str
+}
+# But need consistent recovery implementation
+```
+
+But the work I do today for TWO DIFFERENT Monday presentations, I have to be
+able to fake having what the automation process will produce. Two things, which
+themselves must fit into even higher-priority projects coming down from...
+from... from... Perplexity?
+
+**Perplexity**: The expression "coming down from on high" typically refers to orders, directives, or decisions that originate from people in positions of authority or power within an organization or hierarchy[1][3]. It is often used humorously or ironically to describe instructions or mandates that are imposed by senior management or leadership without input from lower-level employees[2][5].
+
+For example:
+- "An order came down from on high that lunch breaks were to be reduced to 30 minutes."
+- "The new policy came down from on high, leaving employees frustrated with the lack of consultation."
+
+The phrase combines two idioms:
+
+1. "From on high" - meaning from a position of authority or power[5]
+2. "Coming down" - implying the top-down nature of the communication[4]
+
+This expression emphasizes the distance between decision-makers and those affected by the decisions, often suggesting a lack of understanding or consideration for ground-level realities[3][5].
+
+Citations:
+
+    [1] https://preply.com/en/question/what-does-to-bring-hell-down-from-on-high-mean-65724
+    [2] https://www.ldoceonline.com/dictionary/from-on-high
+    [3] https://idioms.thefreedictionary.com/on+high
+    [4] https://www.reddit.com/r/EnglishLearning/comments/yellvh/what_is_the_meaning_of_come_down_in_this_context/
+    [5] https://idioms.thefreedictionary.com/from+on+high
+    [6] https://dictionary.cambridge.org/us/dictionary/english/on-high
+
+Yeah, so there you go. I have to be able to report on progress on my main on
+high directive which I ***so agree with*** as needing to be the company
+priority, because without being able to shove more work through a smaller
+pipeline we satisfy fewer customers to higher degrees. There's a whale-hunting
+versus not-whale-hunting discussion here that I'm trying to nullify or make moot
+by having blurring the line between harpooning and trolling. Can you still use
+whale murdering metaphors? Well, I'll fry that fish when I kill 2 birds with one
+stone.
+
+Anyhoo, it's a complex multidimensional puzzle. I'm solving multiple equations
+simultaneously, but I must do that without slowing myself down, haha! And that
+means brushing off a little PT Barnum Penn & Teller showmanship. It's not about
+the miracle being accurately performed, it's about the perception of the miracle
+being accurately performed, and in my case covering for just enough time to
+accurately perform the miracle.
+
+But the data needs to be good. The trick needs to be truly and accurately
+customized to each client. When they look at the Google Slide, because
+unfortunately that's where the trick needs to be performed, the client needs to
+see their own special case screaming back out to them saying "These people
+really look at and know your site better than you do."
+
+And that is my today. It's not the next and wonderful and life-changing step of
+completing a piece of work, which at in my mid-50s has got to be my Magnum Opus
+and the output of my optimum stopping distance algorithm. Whereas most people
+would have flipped the switch by 28 going into their midlife crisis... what's
+that quote about physicists all having done all their greatest work by 26 years
+old or not at all... Perplexity?
+
+**Perplexity**: Einstein once said, "A person who has not made his great contribution to science before the age of 30 will never do so."[1] However, a recent study has shown that this view is increasingly outdated. Researchers found that while young scientists did make groundbreaking contributions in the early 20th century, particularly during the quantum mechanics revolution, the age of peak scientific creativity has significantly shifted[1][2].
+
+By the year 2000, great scientific work before age 30 had become extremely rare. In physics, the average age for Nobel Prize-winning work is now 48, compared to the earlier era when many physicists made critical breakthroughs in their 20s. The study suggests this change is due to the increasing complexity of scientific knowledge, with scientists now requiring more time to build upon existing foundational research[1][2].
+
+Interestingly, the early 20th century was unique. In 1923, about 31 percent of physicists did their breakthrough work by age 30, and by 1934, 78 percent did so by age 40. However, these percentages declined throughout the rest of the century[1].
+
+Citations:
+
+    [1] https://www.nbcnews.com/id/wbna45198217
+    [2] https://www.telegraphindia.com/india/sorry-albert-40-is-new-30-study-finds-einstein-s-age-rule-needn-t-hold-true-now/cid/323889
+    [3] https://www.asl-associates.com/einsteinquotes.htm
+    [4] https://www.easybib.com/guides/quotes-facts-stats/albert-einstein/
+    [5] https://www.physicsforums.com/threads/greatest-work-of-physicist-done-in-their-20s.666255/
+    [6] https://www.deseret.com/2018/3/14/20641870/22-witty-and-inspiring-albert-einstein-quotes/
+
+...so in my mid-50s I'm basically an old coot who thinks he's a tyke. So effin
+be it. Keeps me young and all that. The trick is to not remain Sisyphus, but
+rather to have a moment of self-awareness and a cycle-breaking agency moment.
+Know why it's a not-so-virtuous cycle that keeps you rolling the boulder up the
+mountain, create an anchor-and-lever system that can both:
+
+- Give you a momentary respite
+- Allow you to bank your next bit of progress, once recovered
+
+So these couple of slides I'm making today are an image of the output of this
+system, only enough so to give me that momentary respite... today and today
+only. Take consolation in the fact that you can make major boulder-rolling
+progress starting tomorrow in a way that can never be taken back from you again.
+
+I am indeed analogous to Sisyphus figuring out how to automate his
+boulder-rolling task. It's not even automation. It's repeatable workflows where
+you can leave of and pick up in the middle of, where the steps of the workflow
+might be human or might be machine. Sometimes I'll hit an API and do some Pandas
+data tricks, and sometimes I'll pop open a browser window using all the user's
+local Botify and SEMRush stored profile data to end-run authentication and APIs
+with a bit of instruction about what to click-to-save and where to save it.
+Semi-automation!
+
+I like this Sisyphus metaphor so much it's going to replace my Icarus jumping
+off the cliff and learning to fly metaphor, which is what I used previously for
+those hitting above your weight class moments. Too dangerous! Too reckless!
+Sisyphus has been at it awhile and is the definition of stupidity, right? Doing
+things over and over the same way, the hard and wrong way without learning from
+your experiences, means you lack intelligence. Sure, Sisyphus was cursed to his
+fate, but it seems to me he was locked into acting stupid, and with a nice dose
+of self-awareness, agency, and some strategic and tactile thinking, he can break
+free of the curse. Am I right?
+
+Okay, today's post officially becomes De-dumbing Sisyphus.

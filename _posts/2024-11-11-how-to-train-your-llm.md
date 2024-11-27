@@ -103,10 +103,13 @@ To maintain conversation persistence when using Ollama's HTTP API:
 
 1. **Store conversation history**: Keep track of all messages (both user inputs and model responses) in your application.
 
+{:start="2"}
 2. **Send relevant history**: With each new request, send the appropriate portion of the conversation history along with the new prompt.
 
+{:start="3"}
 3. **Use the chat endpoint**: For more straightforward conversation management, prefer the `/api/chat` endpoint over `/api/generate` when possible.
 
+{:start="4"}
 4. **Handle context limits**: Be aware of the model's context window size and trim conversation history as needed to avoid exceeding it.
 
 By following these practices, you can achieve conversation persistence similar to what you experience in Ollama's terminal interface, but with more control and flexibility in your application.
@@ -555,21 +558,29 @@ exhausted mind can understand this!
 
 1. **`\j`** - **New Journal Entry**: This macro runs `new_journal_entry()` to locate a pre-set marker in `journal.txt`, insert a timestamped entry, and switch to insert mode.
 
+{:start="2"}
 2. **`\h`** - **Format Selected Text with Ollama AI**: This visual mode mapping runs `ollama_format()`, passing the selected text to an external Python script (`ai.py`). The output replaces the selected text with AI-generated content.
 
+{:start="3"}
 3. **`\s`** - **Correct Misspelling**: Executes `correct_misspelling()` to auto-correct the misspelling preceding the cursor.
 
+{:start="4"}
 4. **`\g`** - **Git Commit and Push**: Runs `git_commit_push()` to save changes, stage the current file, generate a commit message using `ai.py` if available, and push to the repository. This also creates a split window displaying Git output.
 
+{:start="5"}
 5. **`\p`** - **Import Notes**: Executes `import_notes()` to pull notes from SimpleNote, appending content from `simplenote.md` into the buffer.
 
+{:start="6"}
 6. **`\d`** - **Delete Notes**: Runs `delete_notes()`, executing a Python script (`permanently_delete_notes.py`) for note deletion.
 
+{:start="7"}
 7. **`\b`** - **Bold Dialogue Speaker**: In `bold_dialogue_speaker()`, this finds the next speaker in dialogue format and bolds the speaker's name (up to four words). It advances the cursor and notifies on success.
 
+{:start="8"}
 8. **`\y`** - **Highlight/Process Selection or Paragraph**:
    - Visual mode: Highlights selected text briefly or processes the paragraph using the AI to generate a headline. These commands use similar mappings for slight differences in context.
 
+{:start="9"}
 9. **`\f`** - **Remove Code Filepath**: In `remove_code_filepath()`, this searches for code blocks containing file paths after the language identifier and removes the file path, leaving just the language type.
 
 Each of these mappings provides quick access to common tasks, structured to minimize command repetition and enhance editing productivity within Neovim, especially for AI-based content processing and Git management.
@@ -598,11 +609,13 @@ Based on the article's progression and your current state of exhaustion, it seem
    - Set up a grid view showing analysis periods vs metrics
    - Implement both generated and to-be-generated link states
 
+{:start="2"}
 2. **Create a Demo/Presentation:**
    - Record a YouTube video showcasing the system
    - Create a Google Slides deck (possibly using your RemarkJS automation approach)
    - Focus on demonstrating how this approach is better than competitor products
 
+{:start="3"}
 3. **Finalize the LLM Integration:**
    - Complete the prompt injection system for the UI
    - Ensure the local LLM can effectively guide users through the visualization process
@@ -802,14 +815,17 @@ In this guide, we go from zero to LLM hero with Botify Query Language (BQL). Thi
 1. **What’s BQL?**  
    Imagine SQL, but specialized for Botify's website data universe. BQL (Botify Query Language) is the key to unlocking deep insights about your site's structure and performance.
 
+{:start="2"}
 2. **The Building Blocks**  
    - **Collections**: Data universes. Think of them as separate “worlds” of information, like your crawl data, search console, etc.
    - **Dimensions**: Your data groups (like "URL" or "Page Type").
    - **Metrics**: Data counts or sums. E.g., "number of clicks."
 
+{:start="3"}
 3. **BQL's API Mojo**  
    With BQL’s API, you can pull data from Botify’s crawls, filter it, and turn it into actionable insights with just a few lines of code.
 
+{:start="4"}
 4. **Simple Query Anatomy**  
    - Select your **collection**
    - Add **dimensions** and **metrics**
@@ -817,18 +833,22 @@ In this guide, we go from zero to LLM hero with Botify Query Language (BQL). Thi
    - Set **sort** preferences  
    ... then let the data flow!
 
+{:start="5"}
 5. **Practicing with Python**  
    - Build queries
    - Transform data
    - Generate reports  
    Keep it simple with code that gets you exactly the insights you need. 
 
+{:start="6"}
 6. **Sample Queries**  
    Test it out with example code—like grabbing URL counts, analyzing clicks, or downloading link graphs for a map of your site’s structure. It’s SEO wizardry with just a few tweaks.
 
+{:start="7"}
 7. **Export for the Big League**  
    Dive deeper with custom downloads. Export Botify’s link graph data, join it with analytics, and get insights on everything from click depths to canonical issues.
 
+{:start="8"}
 8. **Pro Tips**  
    Use tools like **Python’s requests** and **pandas** libraries, and validate with **JSON format checks** to keep things smooth. Got BQLv1 queries? A quick convert to BQLv2 will get you back on track.
 
@@ -866,6 +886,7 @@ your understanding of where we are, what's next, and how we should go about it.
    - `self.current_download_path` manages file locations
    - Selected fields are stored (presumably in `self.selected_fields` or similar)
 
+{:start="2"}
 2. **Required New Components**:
    ```python
    class MetaQueryBuilder:
@@ -949,6 +970,7 @@ def _get_period_spec(self):
     }
 ```
 
+{:start="2"}
 2. **Collection Management**:
 ```python
 def _get_required_collections(self):
@@ -958,6 +980,7 @@ def _get_required_collections(self):
     return collections
 ```
 
+{:start="3"}
 3. **Field Organization**:
 ```python
 def _get_dimensions(self):

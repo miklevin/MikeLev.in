@@ -108,6 +108,7 @@ While this provides the foundation, the JSON blob in `data` isn't yet enforcing 
 - Error states and recovery points
 - Workflow metadata
 
+{:start="2"}
 2. **Workflow Class Integration**
 The `WorkFlow` class currently handles basic routing and UI rendering:
 ```python
@@ -123,6 +124,7 @@ class WorkFlow:
 ```
 It's not yet fully integrated with the `Pipulate` class's state management capabilities. The cards should be views into a well-defined workflow state rather than independent UI components.
 
+{:start="3"}
 3. **State Management Points**
 Looking at `process_url()`, we see:
 ```python
@@ -133,6 +135,7 @@ async def process_url(self, request):
 ```
 This temporary storage approach doesn't leverage the pipeline's intended state tracking. The `pipulate.pipe()` method should be the source of truth for workflow state.
 
+{:start="4"}
 4. **Card Transition Logic**
 The current card transitions are basic HTMX swaps:
 ```python
@@ -145,6 +148,7 @@ We need clearer state-based transitions that respect the pipeline's current posi
 - Conditional branching
 - Progress tracking
 
+{:start="5"}
 5. **Error Recovery Points**
 Looking at `card2()`:
 ```python
@@ -188,6 +192,7 @@ The genius here is that:
 - No complex schema needed - just serialize/deserialize as you go
 - Timestamps let you track activity without extra overhead
 
+{:start="2"}
 2. **The Workflow Pattern is Already Self-Healing**
 Looking at the core pipeline operation:
 
@@ -205,6 +210,7 @@ It's already perfect because:
 - If not, initialize it
 - No complex recovery needed - just pick up where you left off
 
+{:start="3"}
 3. **The Hot Spots**
 The real areas needing attention are just the points where we're not yet using this elegant system:
 
@@ -237,6 +243,7 @@ def pipe(self, url: str, data: dict) -> dict:
 ```
 This decorator is perfectly positioned to handle the JSON serialization/deserialization and timestamp updates. The infrastructure is there but the actual state updates aren't being triggered yet.
 
+{:start="2"}
 2. **WorkFlow Class Card Methods**
 ```python
 async def process_url(self, request):
@@ -246,6 +253,7 @@ async def process_url(self, request):
 ```
 The temporary DictLikeDB usage needs to be replaced with pipeline state management.
 
+{:start="3"}
 3. **Card Transitions**
 ```python
 async def card2(self, request):
@@ -377,7 +385,7 @@ patterns), the more likely the sample code-patches will hide micro-regressions.
 
 So, the time-traveling prompt #2? Oh, now I have clarity of thought:
 
-I notice several key "hot spots" where implementation details need to crystallize, while maintaining the elegantly simple design principles you've outlined:
+**Claude**: I notice several key "hot spots" where implementation details need to crystallize, while maintaining the elegantly simple design principles you've outlined:
 
 1. **Card State Serialization Pattern**
 
@@ -394,6 +402,7 @@ card_state = {
 }
 ```
 
+{:start="2"}
 2. **Pipeline State Transitions**
 
 ```python
@@ -405,6 +414,7 @@ async def process_url(self, request):
     # 3. Return only placeholder for next card
 ```
 
+{:start="3"}
 3. **Card Placeholder Generation**
 
 ```python
@@ -414,6 +424,7 @@ return Card(id="card2")  # Currently ad-hoc
 def create_placeholder(self, card_id): ...
 ```
 
+{:start="4"}
 4. **State Recovery Points**
 
 ```python

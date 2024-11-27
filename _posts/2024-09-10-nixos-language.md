@@ -204,9 +204,11 @@ To understand the data structure, nesting, and termination rules better, here ar
 1. **Nix Manual**: The official Nix manual provides detailed explanations of the language syntax and semantics. It is a comprehensive resource for understanding Nix expressions.
    - [Nix Manual](https://nixos.org/manual/nix/stable/)
 
+{:start="2"}
 2. **Nix Pills**: This is a series of tutorials that introduce Nix concepts incrementally, making it easier to grasp the language's unique features.
    - [Nix Pills](https://nixos.org/guides/nix-pills/)
 
+{:start="3"}
 3. **NixOS Wiki**: The community-maintained wiki contains articles and examples on various NixOS topics, including configuration.
    - [NixOS Wiki](https://nixos.wiki/)
 
@@ -310,6 +312,7 @@ print(result['message'])  # Output: "Hello, World!"
 
 1. **Function Arguments**: In Nix, the curly braces used in `{ name, greeting }:` define a pattern for function arguments. This is akin to unpacking a dictionary in Python when calling a function.
 
+{:start="2"}
 2. **Attribute Sets**: Curly braces used elsewhere in Nix define attribute sets, similar to dictionaries in Python. For example:
 
    ```nix

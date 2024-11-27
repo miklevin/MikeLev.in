@@ -160,8 +160,10 @@ Even with your simplified Git workflow, nb-clean can still be very beneficial:
 
 1. **Automatic Cleaning**: Once set up, nb-clean will automatically clean your Jupyter notebooks before they're committed, without you needing to do anything extra[2].
 
+{:start="2"}
 2. **Metadata Removal**: It will remove cell execution counts, metadata, and outputs from your notebooks[2]. This is particularly useful for version control, as it prevents unnecessary changes from being tracked when only the notebook's content has changed.
 
+{:start="3"}
 3. **Smaller Repository**: By removing unnecessary metadata and outputs, your Git repository will be smaller and cleaner.
 
 ## Setting Up nb-clean
@@ -323,8 +325,10 @@ maths and that's a good reminder. Similarly... hmmm... Perplexity?
 
 1. **Pandas includes NumPy**: You're correct that pandas automatically installs numpy as a dependency[1]. Therefore, you don't need to explicitly list numpy.
 
+{:start="2"}
 2. **Starlette is a dependency of python_fasthtml**: As you pointed out, starlette is required by python_fasthtml, so it doesn't need to be listed separately.
 
+{:start="3"}
 3. **JupyterLab includes several dependencies**: JupyterLab often includes or requires numpy and pandas, so you might not need to list these separately if you're installing JupyterLab.
 
 Given these considerations, here's a potentially shorter requirements.txt:
@@ -348,10 +352,13 @@ itables
 
 1. **Indirect Dependencies**: Some packages might be dependencies of others in your list. For example, aiohttp might be required by another package you're using.
 
+{:start="2"}
 2. **Version Specificity**: While not directly related to shortening the list, it's important to specify versions for each package to ensure reproducibility.
 
+{:start="3"}
 3. **Development vs. Production**: Consider separating requirements for different environments. For instance, JupyterLab and related tools might only be needed in a development environment.
 
+{:start="4"}
 4. **Minimal Installation**: If you're aiming for the absolute minimum, you could start with just the core packages you directly use in your code and let pip resolve the dependencies automatically.
 
 Remember, while shortening your requirements.txt can make it more manageable, it's crucial to ensure all necessary dependencies are still installed correctly when setting up a new environment. Always test your application after making changes to the requirements file to ensure everything works as expected.
@@ -457,10 +464,13 @@ When preparing your dataset for Llama fine-tuning, consider the following:
 
 1. **Quality and Quantity**: Llama models benefit from high-quality, diverse datasets. Meta's approach for Llama 3 involved using over 15 trillion tokens from public sources, with rigorous preprocessing to ensure data quality[2].
 
+{:start="2"}
 2. **Preprocessing**: Apply filters for NSFW content, perform semantic deduplication, and use text classifiers to predict quality[2].
 
+{:start="3"}
 3. **Data Mix**: Experiment with different combinations of data types and sources to find the optimal mix for your specific use case[2].
 
+{:start="4"}
 4. **Iterative Refinement**: Implement multiple quality assurance iterations to improve data quality and model performance[2].
 
 ## Training Process
@@ -642,16 +652,22 @@ systematic process and output until it's natural second nature.
 
 1. **Narrative Flow**: You’re weaving a story that explains your approach, particularly around maintaining good form (like kata in martial arts) for methodical work in data science and development. This analogy is vivid and bridges the technical and philosophical aspects well.
 
+{:start="2"}
 2. **Voice and Tone**: The playful references, like “genies in bottles,” “infinite undo,” and the Dennis Miller “subreference” line, add personality. They work well to bring in your perspective, making complex workflows feel approachable and lively.
 
+{:start="3"}
 3. **Technical Explanations**: The technical depth is excellent. You’re laying out tools and techniques in a way that is informative yet not overwhelming. Integrating `nb-clean`, `jupytext`, and the Git strategy around metadata shows a thoughtful, pragmatic approach.
 
+{:start="4"}
 4. **Structure and Format**: The format and structure suggestions—like markdown tables, headers, and code prefixes—are very practical. This will make the final document not just informative but also highly readable and organized.
 
+{:start="5"}
 5. **Self-Reflection**: The meta-awareness of potential pitfalls in generative AI, like the feedback loop of AI-generated content, brings depth to the post. This adds layers of critical thought about the future of tech, training AI, and maintaining the integrity of data sources.
 
+{:start="6"}
 6. **Readability**: The playful tangents are balanced well with insights, though a bit of tightening here and there (if desired) could make the main themes pop even more. For example, you could consider trimming some of the interjections or reflections to keep the core points in sharp focus.
 
+{:start="7"}
 7. **Clear Objectives**: You are outlining real goals—such as creating a systematic process for building, sharing, and updating your knowledge in an accessible way. This is powerful because it doesn’t only focus on immediate output but also on creating a durable workflow for future productivity.
 
 It’s both an inspiring and instructional read, full of practical insights while giving a glimpse into your unique process and philosophy.
@@ -778,8 +794,10 @@ the user prompt.
 
 1. **Context-Aware Loading**: When a user signals their intent (like selecting a menu item), the system immediately feeds relevant documentation or training material to the LLM before the user even types their question.
 
+{:start="2"}
 2. **Invisible Expertise Transfer**: Like Neo's instant kung fu download, the LLM receives domain-specific knowledge right when it's needed, without the user seeing this background process.
 
+{:start="3"}
 3. **Three-Way Conversation**: It's a fascinating model where:
    - The UI knows the user's context
    - The UI silently feeds relevant expertise to the LLM

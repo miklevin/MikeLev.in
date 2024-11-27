@@ -544,22 +544,31 @@ serve()
 
 1. **Function Naming Conflicts**: Using the same function name (`profile_menu`) for different route handlers can cause the first function to be overwritten. Ensure all route handler functions have unique names.
 
+{:start="2"}
 2. **Global State Management**: The `users` dictionary for WebSocket connections is global. This can cause issues in a multi-threaded or multi-process environment. Consider using thread-safe data structures or connection-specific storage.
 
+{:start="3"}
 3. **Inline Styling and Layout**: Heavy use of inline styles and layout adjustments in code can make the UI hard to maintain. It's better to use external CSS files or style components centrally.
 
+{:start="4"}
 4. **Error Handling in LLM Responses**: The `chat_with_ollama` function returns error messages directly as strings. If these messages are displayed to the user, it can expose internal details or confuse the user. Implement proper error handling and user-friendly messages.
 
+{:start="5"}
 5. **Adding New Features**: When integrating more apps like Todo, ensure that the routes, function names, and database models do not conflict with existing ones. Modularize code where possible.
 
+{:start="6"}
 6. **Async and Sync Code Mixing**: Be cautious when mixing synchronous and asynchronous code. Ensure that blocking operations do not run in the event loop, which can cause performance issues.
 
+{:start="7"}
 7. **Version Parsing Logic**: The custom version parsing in `get_best_model` may not handle all version string formats. Test thoroughly with different version naming schemes.
 
+{:start="8"}
 8. **WebSocket Message Handling**: Ensure that messages sent over WebSockets are correctly serialized and deserialized. Mismatches can lead to runtime errors that are hard to debug.
 
+{:start="9"}
 9. **User Input Validation**: Sanitize and validate all user inputs, especially those that interact with the database or are sent to the LLM, to prevent injection attacks or unintended behavior.
 
+{:start="10"}
 10. **HTMX Attribute Usage**: The code heavily relies on HTMX attributes (`hx_get`, `hx_post`, etc.). When modifying or adding features, ensure that these attributes are correctly set to maintain the desired front-end behavior.
 
 ---
@@ -592,54 +601,63 @@ edit this program.
    Please rename the second function named `profile_menu` that handles the `/profile/{profile_id}` route to `profile_menu_handler` to prevent function overwriting. Ensure all references and route handlers are updated accordingly.
    ```
 
+{:start="2"}
 2. **Improve Error Handling in LLM Responses:**
 
    ```
    In the `chat_with_ollama` function, modify the error handling so that instead of returning raw error messages to the user, it logs the errors and returns a generic, user-friendly message like "I'm having trouble processing that request right now."
    ```
 
+{:start="3"}
 3. **Enhance WebSocket User Management:**
 
    ```
    Replace the global `users` dictionary in the WebSocket handling section with a thread-safe data structure, such as `WeakValueDictionary`, and use a unique identifier for each connection that doesn't rely on `id(ws)`.
    ```
 
+{:start="4"}
 4. **Move Inline Styles to CSS Classes:**
 
    ```
    Refactor the inline styles scattered throughout the code by creating corresponding CSS classes. Update the HTML elements to use these classes instead of inline styles to improve maintainability and consistency.
    ```
 
+{:start="5"}
 5. **Add Input Validation and Sanitization:**
 
    ```
    Implement input validation and sanitization for all user inputs, including the todo title in `post_todo`, the `nav_input` in `/search`, and messages received via WebSocket, to prevent injection attacks and handle unexpected input gracefully.
    ```
 
+{:start="6"}
 6. **Update Version Parsing Logic:**
 
    ```
    Enhance the `parse_version` function within `get_best_model` to handle more complex version strings and edge cases, ensuring it can correctly compare versions even if the version naming scheme changes.
    ```
 
+{:start="7"}
 7. **Ensure Consistent Asynchronous Code Usage:**
 
    ```
    Review the codebase to ensure that all blocking I/O operations are executed asynchronously or within `run_in_threadpool` to prevent blocking the event loop. Modify any synchronous calls that could block the event loop.
    ```
 
+{:start="8"}
 8. **Improve WebSocket Message Handling:**
 
    ```
    In the WebSocket message handler, add exception handling to catch and manage any errors during message processing. Ensure that all messages are properly serialized before sending and deserialized upon receiving.
    ```
 
+{:start="9"}
 9. **Verify HTMX Attribute Consistency:**
 
    ```
    Go through all HTMX attributes in the HTML elements (e.g., `hx-get`, `hx-post`, `hx-swap`) and verify they are correctly set with valid routes and targets. Update any incorrect attributes to match the actual route handlers.
    ```
 
+{:start="10"}
 10. **Add Comments and Documentation:**
 
     ```

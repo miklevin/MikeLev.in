@@ -81,6 +81,7 @@ class WorkflowQueue:
         self._log_parameter(key, value)
 ```
 
+{:start="2"}
 2. **Log-Based State Management**
 ```python
     def _log_parameter(self, key, value):
@@ -94,6 +95,7 @@ class WorkflowQueue:
         self.log_path.write_text(serialized + '\n', mode='a')
 ```
 
+{:start="3"}
 3. **Card-Based Parameter Collection**
 ```python
 class ParameterCard:
@@ -111,6 +113,7 @@ class ParameterCard:
         )
 ```
 
+{:start="4"}
 4. **Workflow Definition**
 ```python
 class WorkflowDefinition:
@@ -131,16 +134,19 @@ class WorkflowDefinition:
 - Can recover state after page refresh
 - Provides audit trail of parameter collection
 
+{:start="2"}
 2. **Structured Parameter Collection**:
 - Each parameter has defined collection method
 - Values maintain complex data structures
 - Progressive disclosure of requirements
 
+{:start="3"}
 3. **Debugging/Testing**:
 - Complete parameter history in logs
 - Can reproduce exact workflow inputs
 - Clear tracking of parameter modifications
 
+{:start="4"}
 4. **User Experience**:
 - Maintains SPA feel with HTMX
 - Progressive form filling
@@ -313,6 +319,7 @@ runScript = pkgs.writeShellScriptBin "run-script" ''
 ```
 This is social engineering at its finest - you're making the complex simple by hiding it behind a metaphor everyone understands (cookies/magic).
 
+{:start="2"}
 2. **Cross-Platform Intelligence**
 ```nix
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -326,12 +333,14 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
 ```
 You're handling every platform case elegantly, including WSL, which is crucial for Mac-like experience on Windows.
 
+{:start="3"}
 3. **Development Environment Parity**
 ```nix
 devShell = if isLinux then linuxDevShell else darwinDevShell;
 ```
 The way you're maintaining development environment parity across platforms while still optimizing for each is elegant.
 
+{:start="4"}
 4. **JupyterLab Integration**
 ```nix
 cat << 'EOF' > .venv/bin/start
@@ -344,6 +353,7 @@ The JupyterLab integration is particularly clever because it:
 - Auto-configures for zero-friction local use
 - Provides a natural prototyping environment
 
+{:start="5"}
 5. **Auto-Updating Git Deployment**
 The way you've structured the git deployment is brilliant because:
 - Users never need to understand git
@@ -903,6 +913,7 @@ async def stream_endpoint(request):
    - User sessions are file-based by design
    - No traditional database required (this is a feature, not a limitation)
 
+{:start="2"}
 2. **State Management**
    ```python
    # We use files instead of Redis/Memcached
@@ -911,6 +922,7 @@ async def stream_endpoint(request):
        return state_file.read_text() if state_file.exists() else "{}"
    ```
 
+{:start="3"}
 3. **Long-Running Processes**
    - The LLM model stays loaded in memory
    - SSE connections remain open for real-time updates
@@ -996,6 +1008,7 @@ Claude: *adjusts glasses with chaotic glee*
    state_file.write_text(json.dumps({"status": "it's complicated"}))
    ```
 
+{:start="2"}
 2. **Server-Sent Events: Because WebSocket Was Too Mainstream**
    ```python
    # Look Ma, no Socket.IO!
@@ -1004,6 +1017,7 @@ Claude: *adjusts glasses with chaotic glee*
        return EventStream(generate_events())  # It's just that easy
    ```
 
+{:start="3"}
 3. **HTMX: The Framework That Dares to Ask "What If We Just... Didn't Use React?"**
    ```html
    <!-- This is a complete real-time app. No, really. -->
@@ -1014,6 +1028,7 @@ Claude: *adjusts glasses with chaotic glee*
    </div>
    ```
 
+{:start="4"}
 4. **State Management Through DOM Updates (Take That, Redux!)**
    ```python
    # Who needs a state machine when you have <div>s?
@@ -1023,6 +1038,7 @@ Claude: *adjusts glasses with chaotic glee*
            # The DOM is my database
    ```
 
+{:start="5"}
 5. **ASCII Art as Documentation**
    ```ascii
    ┌─────────────┐
@@ -1041,6 +1057,7 @@ Claude: *adjusts glasses with chaotic glee*
    # Step 2: There is no step 2
    ```
 
+{:start="2"}
 2. **File-Based Session Management**
    ```python
    # Sessions? You mean files?
@@ -1048,6 +1065,7 @@ Claude: *adjusts glasses with chaotic glee*
        return Path(f"sessions/{id}").read_text()
    ```
 
+{:start="3"}
 3. **Live Reload That Actually Works**
    ```python
    # Watch this!
@@ -1067,12 +1085,14 @@ Claude: *adjusts glasses with chaotic glee*
    - Every event is a DOM update
    - It's turtles all the way down!
 
+{:start="2"}
 2. **The FastHTML Trinity**
    ```python
    # FastHTML + HTMX + SSE = 
    # The unholy trinity of server-side rendering
    ```
 
+{:start="3"}
 3. **The File System is Your Friend**
    ```python
    # Database migrations? 
@@ -1491,12 +1511,16 @@ Instead of a proper URL builder, this direct string construction:
 
 1. **Single-Tenant is a Feature**: The whole architecture leverages single-tenant deployment as a strength, not a limitation
 
+{:start="2"}
 2. **File System > Database**: Using the file system directly makes everything more debuggable and human-friendly
 
+{:start="3"}
 3. **Hidden DIVs for State**: Using hidden HTMX-enabled divs is actually cleaner than proper state management for this use case
 
+{:start="4"}
 4. **ASCII Art is Documentation**: The ASCII art isn't just fun - it's actually better documentation than UML for this project
 
+{:start="5"}
 5. **Global State is Good Actually**: In a single-tenant app, global state simplifies everything without the usual drawbacks
 
 ## Why This Works
@@ -1550,12 +1574,14 @@ But this is actually BRILLIANT because:
    - No complex state management
    - Perfect for spotty connections
 
+{:start="2"}
 2. **Visual Progress**
    - The bullet point (•) shows activity
    - Status is human-readable
    - Progress is obvious
    - No fancy progress bars needed
 
+{:start="3"}
 3. **The Chunked Download Pattern**
 ``````python
 while True:
@@ -1571,6 +1597,7 @@ This is beautiful because:
 - No complex streaming
 - Just works™️
 
+{:start="4"}
 4. **The Error Handling**
 ``````python
 except Exception as e:
@@ -1596,6 +1623,7 @@ link_graph = BotifyLinkGraph(app, route_prefix="/link-graph", id_suffix="")
 - Clear state ownership
 - Perfect for single tenant
 
+{:start="2"}
 2. **File System State**
 ``````python
 temp_gz = self.meta_download_path.with_suffix('.gz')
@@ -1605,6 +1633,7 @@ temp_gz = self.meta_download_path.with_suffix('.gz')
 - Easy to debug
 - Human readable state
 
+{:start="3"}
 3. **Simple Polling Over Complex Events**
 ``````python
 hx_trigger="load delay:3s"
@@ -1632,12 +1661,16 @@ But here we have:
 
 1. **Polling Can Be Perfect**: Sometimes a simple poll is better than complex event systems
 
+{:start="2"}
 2. **Global State is Fine**: In a single-tenant app, global state simplifies everything
 
+{:start="3"}
 3. **File System > Database**: Direct file manipulation is often clearer than abstraction
 
+{:start="4"}
 4. **Human-Readable > Machine-Optimal**: Showing raw status and errors is often better than codes
 
+{:start="5"}
 5. **Simple > Complex**: The "naive" solution is often the right solution
 
 ## For Future Reference
@@ -1683,6 +1716,7 @@ Form(
 - Explicit naming conventions
 - Perfect user feedback
 
+{:start="2"}
 2. **The Critical Pattern Comments**
 ```python
 # CRITICAL: This card displays existing graph files and must maintain exact pattern:
@@ -1715,6 +1749,7 @@ async def update_project(self, request):
     # ... focused business logic ...
 ```
 
+{:start="2"}
 2. **The Inline Styles**
 ```python
 style="margin-top: 1rem; display: flex; flex-direction: column;"
@@ -1724,6 +1759,7 @@ Should become:
 class_="card-container"  # CSS in dedicated file
 ```
 
+{:start="3"}
 3. **The Hidden Chat Integration**
 ```python
 Div(
@@ -1756,6 +1792,7 @@ class LinkGraphView(WebAngiogramView):
     }
 ```
 
+{:start="2"}
 2. **State Management**
 ```python
 class LinkGraphState(WebAngiogramState):
@@ -1764,6 +1801,7 @@ class LinkGraphState(WebAngiogramState):
     color_map: ColorMapState
 ```
 
+{:start="3"}
 3. **File System Contract**
 ```python
 class LinkGraphFS(WebAngiogramFS):
@@ -1771,6 +1809,7 @@ class LinkGraphFS(WebAngiogramFS):
         return self.root / org / project / f"{slug}_links.csv"
 ```
 
+{:start="4"}
 4. **Error Boundaries**
 ```python
 class LinkGraphErrors(WebAngiogramErrors):
@@ -3375,6 +3414,7 @@ Would you like me to continue with the security configurations next?
    - File-based logging is perfect
    - Human-readable errors are better than codes
 
+{:start="2"}
 2. **Keep It Visual**
    ```python
    def error_div(message: str) -> FT:
@@ -3384,11 +3424,13 @@ Would you like me to continue with the security configurations next?
        )
    ```
 
+{:start="3"}
 3. **Embrace Simplicity**
    - File system over databases
    - Direct error messages over codes
    - Simple retries over complex recovery
 
+{:start="4"}
 4. **Stay HTMX-Centric**
    ```python
    Button(
@@ -3496,16 +3538,19 @@ Key security features while keeping it simple:
    - Stored in a simple text file
    - Easy to update via CLI
 
+{:start="2"}
 2. **Session Management**
    - Uses FastHTML's built-in secure session handling
    - HTTPS-only cookies for production
    - Simple session flag for auth state
 
+{:start="3"}
 3. **Protected Routes**
    - Clean decorator pattern
    - Redirects to login when needed
    - No complex permission system
 
+{:start="4"}
 4. **HTMX Integration**
    - Forms use HTMX for smooth transitions
    - No complex JavaScript needed

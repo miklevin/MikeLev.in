@@ -124,6 +124,7 @@ You have two options to obtain Botifython:
    git clone git@github.com:YourUsername/Botifython.git
    ```
 
+{:start="2"}
 2. **Download the ZIP Archive**:
    
    If you prefer not to use Git, you can download the repository as a ZIP file:
@@ -997,11 +998,13 @@ Botifython includes an auto-update mechanism that ensures your framework stays u
    ssh-keygen -t ed25519 -C "botifython-auto-update" -f ~/.ssh/botifython_auto_update
    ```
 
+{:start="2"}
 2. **Add the Public Key to GitHub Repository**:
    
    - Navigate to your Botifython GitHub repository settings.
    - Go to "Deploy Keys" and add the generated public key (`~/.ssh/botifython_auto_update.pub`) with **read-only** access.
 
+{:start="3"}
 3. **Store the Private Key Securely**:
    
    Ensure the private key (`~/.ssh/botifython_auto_update`) is stored securely within Botifython's configuration. It should be encrypted and inaccessible to unauthorized users.
@@ -1019,6 +1022,7 @@ When Botifython runs, it performs the following steps to check for and apply upd
    ssh-add ~/.ssh/botifython_auto_update
    ```
 
+{:start="2"}
 2. **Git Configuration**:
    
    Set up a temporary Git configuration using the SSH key:
@@ -1027,6 +1031,7 @@ When Botifython runs, it performs the following steps to check for and apply upd
    git config --global url."git@github.com:".insteadOf "https://github.com/"
    ```
 
+{:start="3"}
 3. **Repository Check**:
    
    Check for updates by comparing the local and remote repository states:
@@ -1049,10 +1054,12 @@ When Botifython runs, it performs the following steps to check for and apply upd
    fi
    ```
 
+{:start="4"}
 4. **Pull Updates**:
    
    If updates are available, perform a `git pull` to fetch and merge the latest changes.
 
+{:start="5"}
 5. **Cleanup**:
    
    Remove the temporary Git configuration and stop the SSH agent:
@@ -2812,6 +2819,7 @@ async def generate_report(self, request, customer_id: int):
     - Sends an initial message indicating the start of report generation.
     - Waits for a simulated delay representing a long-running task.
     - Sends a final message indicating completion.
+{:start="3"}
 3. **Report Link Generation**: Simulates the creation of a report file and provides a download link to the user.
 
 #### 6. Update the Main Routing Logic
@@ -4339,22 +4347,27 @@ After implementing the advanced features, thoroughly test the reporting SPA to e
     - Navigate to `/reports/customers` to view the main report page.
     - Verify that the Bokeh DataTable displays all customers and their associated tasks.
 
+{:start="2"}
 2. **Use the Range Slider**:
     - Adjust the PicoCSS range slider to filter tasks by priority.
     - Confirm that the Bokeh DataTable updates dynamically to reflect the filtered data.
 
+{:start="3"}
 3. **Download CSV**:
     - Click the "Download Report as CSV" button.
     - Ensure that the downloaded CSV file contains data matching the current filter.
 
+{:start="4"}
 4. **Generate Project Plan**:
     - Click the "Generate Project Plan" button next to a customer.
     - Observe the chatbot interactions providing humorous feedback during the simulated delay.
     - Confirm that a download link for the project plan appears after the process completes.
 
+{:start="5"}
 5. **Verify Responsiveness**:
     - Test the application on different devices and screen sizes to ensure responsive design.
 
+{:start="6"}
 6. **Check Logs**:
     - Review application logs to confirm that all operations are logged appropriately and no errors are present.
 

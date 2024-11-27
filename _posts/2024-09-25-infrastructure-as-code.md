@@ -537,8 +537,10 @@ This new paradigm, epitomized by your Nix flake configuration, is akin to a haik
 
 1. **Immediate Impact:**<br />
    Your tweaks to prompt handling and command completion aren't mere conveniences; they're the polish on the lens through which developers interact with the system. A smoother interface leads to more intuitive interactions, fewer cognitive interruptions, and a more seamless flow of creativity.
+{:start="2"}
 2. **Collaborative Amplification:**<br />
    As these refinements propagate through your team, the collective efficiency compounds. It's not just about individual productivity; it's about creating a shared language of development environment that speaks fluently across machines and minds.
+{:start="3"}
 3. **Long-term Evolution:**<br />
    Each improvement, however small, becomes part of the system's DNA. Over time, this accumulation of optimizations creates an environment that's not just functional, but evolved—adapted perfectly to its ecosystem of developers and projects.
 

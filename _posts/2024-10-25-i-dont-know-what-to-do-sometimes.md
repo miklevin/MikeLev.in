@@ -762,6 +762,7 @@ home()
 
 1. **home()**: The main entry point of your application, which orchestrates the rendering of the entire page.
 
+{:start="2"}
 2. **create_outer_container()**: Builds the outer structure of your application, including navigation and main content areas.
 
     - **create_nav_group()**: Creates the navigation bar at the top.
@@ -797,6 +798,7 @@ home()
    MENU_ITEMS = [todo_app.name, 'link_graph', 'gap_analysis', 'notebook']
    ```
 
+{:start="2"}
 2. **Update create_grid_left() Function**:
 
    ```python
@@ -811,6 +813,7 @@ home()
            pass
    ```
 
+{:start="3"}
 3. **Create create_notebook_interface() Function**:
 
    ```python
@@ -826,6 +829,7 @@ home()
        )
    ```
 
+{:start="4"}
 4. **Implement render_notebook_cell(cell) Function**:
 
    ```python
@@ -846,6 +850,7 @@ home()
        )
    ```
 
+{:start="5"}
 5. **Define get_notebook_cells() Function**:
 
    ```python

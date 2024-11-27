@@ -248,6 +248,7 @@ Camel case is a naming convention where compound words or phrases are written wi
    - All subsequent words start with an uppercase letter
    - Example: myVariableName, firstName, totalAmount
 
+{:start="2"}
 2. **Upper Camel Case (PascalCase)**
    - The first letter of every word, including the first one, is capitalized
    - Also known as Pascal Case

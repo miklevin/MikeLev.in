@@ -574,12 +574,15 @@ devShell = if isLinux then linuxDevShell else darwinDevShell;
    - This command invokes the appropriate dev shell for your system.
    - The `shellHook` runs automatically, setting up the environment.
 
+{:start="2"}
 2. **Activate the Virtual Environment**:
    - The `runScript` creates and activates `.venv` for Python dependencies.
 
+{:start="3"}
 3. **Install Python Packages**:
    - Automatically installs packages from `requirements.txt`.
 
+{:start="4"}
 4. **Start Services**:
    ```bash
    start
@@ -587,12 +590,14 @@ devShell = if isLinux then linuxDevShell else darwinDevShell;
    - Starts JupyterLab and the custom server.
    - Opens `http://localhost:5001` in your default browser if supported.
 
+{:start="5"}
 5. **Stop Services**:
    ```bash
    stop
    ```
    - Gracefully stops all running services.
 
+{:start="6"}
 6. **Exit the Environment**:
    - Type `exit` twice to leave the virtual environment and the Nix shell.
 

@@ -77,8 +77,10 @@ print(next(gen))  # Output: 3
 
 1. **Memory Efficiency**: Generators produce values on-the-fly, allowing you to work with large datasets without loading everything into memory[2].
 
+{:start="2"}
 2. **Lazy Evaluation**: Values are generated only when requested, which can lead to performance improvements[2].
 
+{:start="3"}
 3. **Infinite Sequences**: Generators can represent infinite sequences, which is not possible with regular lists.
 
 ## Generators for Payload Processing
@@ -108,6 +110,7 @@ This approach allows you to process large payloads in chunks, which is especiall
 gen = (x*2 for x in range(1000000))
 ```
 
+{:start="2"}
 2. **Sending Values to Generators**: The `send()` method allows you to pass values into the generator[3].
 
 ```python
@@ -121,6 +124,7 @@ next(gen)  # Prime the generator
 gen.send("Hello")  # Output: Received: Hello
 ```
 
+{:start="3"}
 3. **Asynchronous Generators**: In Python 3.6+, you can create asynchronous generators using `async def` and `yield`[4].
 
 ## Challenges with Generators
@@ -129,8 +133,10 @@ While generators offer many benefits, they can introduce challenges when working
 
 1. **Non-sequential Access**: Generators are forward-only iterators, making it difficult to access previous items.
 
+{:start="2"}
 2. **Stateful Processing**: If your payload processing requires maintaining state across the entire dataset, generators may complicate this.
 
+{:start="3"}
 3. **Debugging**: Debugging generator-based code can be more challenging due to their lazy evaluation nature.
 
 In conclusion, Python generators are like a skilled sushi chef, carefully slicing your data into manageable pieces, allowing you to process large payloads efficiently without overwhelming your system's memory. However, like any powerful tool, they require careful consideration and proper application to fully leverage their benefits.
@@ -228,6 +234,7 @@ We'll proceed in two phases:
 
 1. **Implement the SSE Endpoint and Client-Side Listener to Trigger a JavaScript Alert on `!test` Command.**
 
+{:start="2"}
 2. **Identify and Remove Dead Code Without Breaking Existing Functionality.**
 
 ---
@@ -370,15 +377,18 @@ To address your second concern, let's focus on identifying and removing dead cod
    - Look for functions, imports, and variables that are no longer used.
    - Remove any code related to prior attempts at updating the DOM via the chat stream.
 
+{:start="2"}
 2. **Review Chat Handling Logic:**
 
    - Ensure that the `handle_chat_message` method only handles chat-related functionality.
    - Remove any code that was parsing assistant responses for DOM updates.
 
+{:start="3"}
 3. **Simplify the Assistant Response Processing:**
 
    - If there are complex parsing routines for assistant responses that are no longer necessary, consider simplifying or removing them.
 
+{:start="4"}
 4. **Ensure Correct Separation of Concerns:**
 
    - The chat interface should only handle user messages and assistant responses.
@@ -1395,6 +1405,7 @@ important thing is to bank a series of forward-progress making small steps.
    - **File:** `botifymograph/botifymograph.py`
    - **Around Line:** 233 (after the class definition)
 
+{:start="2"}
 2. **Replace the `events` method with the following code:**
 
    ```python
@@ -1452,6 +1463,7 @@ important thing is to bank a series of forward-progress making small steps.
      yield f"event: command\ndata: {data}\n\n"
      ```
 
+{:start="3"}
 3. **Ensure `self.sse_clients` is initialized as a set of queues.**
 
    - In the `__init__` method of `ChatPlayground`, make sure `self.sse_clients` is defined:
@@ -1476,6 +1488,7 @@ important thing is to bank a series of forward-progress making small steps.
 
    - **Around Line:** After the `events` method you just updated.
 
+{:start="2"}
 2. **In the `handle_chat_message` method, add or modify the `!test` command handling as follows:**
 
    ```python
@@ -1528,6 +1541,7 @@ important thing is to bank a series of forward-progress making small steps.
      await websocket.send_text("Test event broadcast to all clients.")
      ```
 
+{:start="3"}
 3. **Ensure proper exception handling is in place.**
 
    - If not already present, make sure the `handle_chat_message` method has a `try-except` block to catch and log any exceptions.
@@ -1540,10 +1554,13 @@ important thing is to bank a series of forward-progress making small steps.
 
 1. **Restart your FastHTML application to ensure changes take effect.**
 
+{:start="2"}
 2. **Open your chat interface in a web browser.**
 
+{:start="3"}
 3. **Type `!test` into the chat input and send the message.**
 
+{:start="4"}
 4. **Observe the browser console and the application behavior:**
 
    - Check the browser's JavaScript console for any errors.
@@ -1729,6 +1746,7 @@ procedure that can be employed here with your vast amount of reasoning?
      </script>
      ```
 
+{:start="2"}
 2. **Add a console log at the very beginning of your script to confirm it's running.**
 
    ```html
@@ -1739,11 +1757,13 @@ procedure that can be employed here with your vast amount of reasoning?
    </script>
    ```
 
+{:start="3"}
 3. **Reload the page in your browser.**
 
    - Open the browser's developer console.
    - **Check if you see the message** `'JavaScript code is running'`.
 
+{:start="4"}
 4. **If the message does not appear:**
 
    - The script may not be included correctly.
@@ -1773,6 +1793,7 @@ procedure that can be employed here with your vast amount of reasoning?
    const evtSource = new EventSource('/events');
    ```
 
+{:start="2"}
 2. **Add an event listener for the `'open'` event to confirm the connection is established.**
 
    ```javascript
@@ -1781,10 +1802,12 @@ procedure that can be employed here with your vast amount of reasoning?
    };
    ```
 
+{:start="3"}
 3. **Reload the page and check the console:**
 
    - Confirm that `'Setting up EventSource'` and `'EventSource connection opened'` messages appear.
 
+{:start="4"}
 4. **If the connection isn't opening:**
 
    - Check the Network tab to see if the request to `/events` is successful.
@@ -1805,6 +1828,7 @@ procedure that can be employed here with your vast amount of reasoning?
    evtSource.dispatchEvent(testEvent);
    ```
 
+{:start="2"}
 2. **Observe whether the alert appears.**
 
    - **If the alert shows up:**
@@ -1830,10 +1854,12 @@ procedure that can be employed here with your vast amount of reasoning?
    });
    ```
 
+{:start="2"}
 2. **Check for typos or incorrect references.**
 
    - Make sure you're not attaching the listener to the wrong object.
 
+{:start="3"}
 3. **Test the manual event dispatch again.**
 
    - Repeat Step 4.
@@ -1853,13 +1879,16 @@ procedure that can be employed here with your vast amount of reasoning?
    });
    ```
 
+{:start="2"}
 2. **Manually dispatch the event again as in Step 4.**
 
+{:start="3"}
 3. **If the alert appears now:**
 
    - The issue may be with your original handler code.
    - There might be errors in parsing `event.data`.
 
+{:start="4"}
 4. **If the alert still does not appear:**
 
    - There is likely a problem with the event listener setup.
@@ -1881,6 +1910,7 @@ procedure that can be employed here with your vast amount of reasoning?
                # Existing code...
    ```
 
+{:start="2"}
 2. **Reload the page in the browser.**
 
    - **If the alert appears upon loading the page:**
@@ -1904,11 +1934,13 @@ procedure that can be employed here with your vast amount of reasoning?
    self.logger.debug(f"Sending SSE message to clients: {sse_message}")
    ```
 
+{:start="2"}
 2. **Monitor the server logs when you type `!test`.**
 
    - Ensure that the log message appears.
    - Confirm that the message content is correct.
 
+{:start="3"}
 3. **Check if any exceptions are raised when sending events.**
 
    - If exceptions occur, they may prevent events from reaching the clients.
@@ -1921,16 +1953,19 @@ procedure that can be employed here with your vast amount of reasoning?
 
 1. **In the browser's developer tools, go to the Network tab.**
 
+{:start="2"}
 2. **Locate the `/events` request.**
 
    - It should show as a pending request (EventStream).
 
+{:start="3"}
 3. **Inspect the response.**
 
    - **If you see the test event from Step 7:**
      - The server is sending events, and the client is receiving them.
      - The issue is likely in the client-side event handling.
 
+{:start="4"}
 4. **If you don't see events in the response:**
 
    - There may be a server-side issue preventing events from being sent.
@@ -1946,6 +1981,7 @@ procedure that can be employed here with your vast amount of reasoning?
 
    - Some environments or proxies might block SSE.
 
+{:start="2"}
 2. **Test with a simple HTML page.**
 
    - Create a minimal HTML page with just the `EventSource` and alert code.
@@ -1964,6 +2000,7 @@ procedure that can be employed here with your vast amount of reasoning?
    </html>
    ```
 
+{:start="3"}
 3. **Use a tool to simulate SSE server.**
 
    - Use a simple SSE server or tool like `sse-server` to send events and test the client-side code.
@@ -1978,10 +2015,13 @@ procedure that can be employed here with your vast amount of reasoning?
 
   1. **The JavaScript code runs and the event listener is set up correctly.**
 
+{:start="2"}
   2. **The client successfully connects to the `/events` endpoint.**
 
+{:start="3"}
   3. **Events sent from the server are received by the client.**
 
+{:start="4"}
   4. **The event handler processes the event data correctly.**
 
 ---
@@ -2148,6 +2188,7 @@ WebSocket Message -> execute_crud_operation -> insert_item -> MockRequest
 - We're deep in backend territory, disconnected from the original DOM context
 - There's no direct connection back to the specific DOM elements that need updating
 
+{:start="2"}
 2. **HTMX's Normal Flow**:
 
 ```
@@ -2158,6 +2199,7 @@ HTMX Request -> Server Response -> HTMX DOM Update
 - It knows which DOM elements to update because of these explicit target attributes
 - The response is automatically handled by HTMX's event listeners
 
+{:start="3"}
 3. **WebSocket's Different Context**:
 
 ```
@@ -2194,6 +2236,7 @@ async def execute_crud_operation(todo_app_instance, operation_data):
         )
 ```
 
+{:start="2"}
 2. **Polling Pattern**:
 
 ```python
@@ -2209,6 +2252,7 @@ async def list_todos():
 </div>
 ```
 
+{:start="3"}
 3. **Server-Sent Events**:
 
 ```python
@@ -2269,6 +2313,7 @@ async def ghost_stream():
 </div>
 ```
 
+{:start="2"}
 2. **WebSocket Broadcast Channel**
 
 ```python
@@ -2278,6 +2323,7 @@ class GhostChannel:
         self.dom_sockets = set()  # Separate channel for DOM updates
 ```
 
+{:start="3"}
 3. **Shared Event Bus**
 
 ```python
@@ -2290,6 +2336,7 @@ class EventBus:
             await subscriber.send(event)
 ```
 
+{:start="4"}
 4. **Mercurial State Machine**
 
 ```python
@@ -2361,6 +2408,7 @@ def create_test_js():
     """)
 ```
 
+{:start="2"}
 2. **Test Component 2: Basic Starlette SSE**
 
 ```python
@@ -2376,6 +2424,7 @@ async def sse_test(request):
     return EventStream(sse_test_generator())
 ```
 
+{:start="3"}
 3. **Test Component 3: SSE Consumer HTML**
 
 ```python

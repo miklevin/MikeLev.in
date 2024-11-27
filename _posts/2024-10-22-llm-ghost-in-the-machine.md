@@ -335,14 +335,17 @@ find . -maxdepth 1 -type f -not -path '*/\.*' -exec grep -l "your_search_word" {
 
 1. **More precise control**: You can easily adjust the search depth, file types, and exclusion patterns[1].
 
+{:start="2"}
 2. **Flexibility**: Allows for complex file selection criteria before applying grep[1].
 
+{:start="3"}
 3. **Performance**: Can be more efficient for large directories, as it filters files before searching content[2].
 
 ### Disadvantages:
 
 1. **Complexity**: The command is longer and may be harder to remember or type quickly.
 
+{:start="2"}
 2. **Potential limitations**: Some versions of find might have restrictions on the number of files that can be processed in a single exec call.
 
 ## grep with --exclude-dir Approach
@@ -355,14 +358,17 @@ grep -r --exclude-dir=".*" "your_search_word" .
 
 1. **Simplicity**: The command is shorter and easier to remember[3].
 
+{:start="2"}
 2. **Built-in recursion**: grep -r handles directory traversal without needing find[3].
 
+{:start="3"}
 3. **Easier parameterization**: Adding options like case-insensitivity (-i) or word boundaries (-w) is straightforward[4].
 
 ### Disadvantages:
 
 1. **Less granular control**: Excluding specific directories or file types may require more complex patterns.
 
+{:start="2"}
 2. **Potential performance impact**: Searches all files in all non-excluded directories, which could be slower for large directory structures.
 
 ## Recommendation for Your Use Case
@@ -414,6 +420,7 @@ Here's how you can modify your `configuration.nix`:
 
    You can define your script as a package using `writeShellScriptBin`. This function creates an executable script and places it in the `$out/bin` directory.
 
+{:start="2"}
 2. **Include the script in `environment.systemPackages`**:
 
    By adding the script package to `environment.systemPackages`, NixOS will ensure it's available in your system's PATH after rebuilding.

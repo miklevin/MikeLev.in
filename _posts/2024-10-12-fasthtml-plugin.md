@@ -917,6 +917,7 @@ Ah, I see what you're getting at. The `TODO` dictionary in your FastHTML configu
 
 1. **Schema Definition**: The `TODO` dictionary defines the schema for the `todos` table. This schema is used by the `MiniDataAPI` to interact with the database.
 
+{:start="2"}
 2. **Data Insertion**: The `todos.insert()` method uses this schema to insert data into the `todos` table. The `TODO` dictionary is used to ensure that the data being inserted matches the expected structure.
 
 ### Integration with `TodoApp`
@@ -925,6 +926,7 @@ To integrate `TodoApp` with this setup, you need to ensure that `TodoApp` uses t
 
 1. **Use the `todos` Object**: Ensure that the `TodoApp` class uses the `todos` object for all CRUD operations. This means that the `table` attribute in `BaseApp` should be set to `todos`.
 
+{:start="2"}
 2. **Refactor `TodoApp` Initialization**: Modify the `TodoApp` class to use the `todos` object directly.
 
 ### Example Refactor

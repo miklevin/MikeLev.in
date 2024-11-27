@@ -124,6 +124,7 @@ Let's get to it. You **enabled flakes** with that one line in your `configuratio
 
     This makes a copy of your `/etc/nixos/` location.
 
+{:start="2"}
 2. **Add a minimal `flake.nix` file:**
 
     I don't know if this is technically even necessary for this use case as the symlink might be enough for `sudo nixos-rebuild switch`, but let's put it there anyway because it's how flakes in general work.
@@ -144,6 +145,7 @@ Let's get to it. You **enabled flakes** with that one line in your `configuratio
     }
     ```
 
+{:start="3"}
 3. **Initialize a git repository:**
 
     ```bash
@@ -152,6 +154,7 @@ Let's get to it. You **enabled flakes** with that one line in your `configuratio
     git commit -m "Initial commit"
     ```
 
+{:start="4"}
 4. **Check that everything's in place:**
 
     ```bash
@@ -160,6 +163,7 @@ Let's get to it. You **enabled flakes** with that one line in your `configuratio
 
     Resolve any errors. If everything checks out, proceed to the next step.
 
+{:start="5"}
 5. **Backup and symlink the new configuration:**
 
     ```bash
@@ -167,6 +171,7 @@ Let's get to it. You **enabled flakes** with that one line in your `configuratio
     sudo ln -s /home/username/nixos-config /etc/nixos  # Symlink new config (replace 'username' with your actual username)
     ```
 
+{:start="6"}
 6. **Rebuild your system:**
 
     The new command that will build your system if you hadn't symlinked is:

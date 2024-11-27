@@ -216,42 +216,49 @@ relative paths won't screw you and such?
 
 1. **Cartesian doubt**: René Descartes' method of systematic doubt, where he questioned everything to arrive at foundational truths.
 
+{:start="2"}
 2. **Tabula rasa**: The philosophical idea that individuals are born without built-in mental content, providing a "clean slate" for knowledge acquisition.
 
 ## In Science and Research
 
 1. **Null hypothesis**: The default assumption in statistical tests, providing a standardized starting point for analysis.
 
+{:start="2"}
 2. **Control groups**: In experiments, these provide a baseline for comparison, similar to how normalize.css provides a baseline for styling.
 
 ## In Business and Management
 
 1. **Zero-based budgeting**: A method where every budget starts from zero each year, requiring all expenses to be rejustified.
 
+{:start="2"}
 2. **Clean slate restructuring**: Completely reorganizing a company or department from the ground up, rather than making incremental changes.
 
 ## In Personal Development
 
 1. **Mindfulness meditation**: The practice of returning to the present moment, clearing the mind of accumulated thoughts and worries.
 
+{:start="2"}
 2. **New Year's resolutions**: An annual tradition of resetting personal goals and habits.
 
 ## In Technology
 
 1. **Factory reset**: Returning a device to its original manufacturer settings, clearing all user data and customizations.
 
+{:start="2"}
 2. **Greenfield projects**: Starting a new software project without any existing code or constraints.
 
 ## In Education
 
 1. **Prerequisite courses**: Classes that ensure all students have the same foundational knowledge before advancing.
 
+{:start="2"}
 2. **Placement tests**: Assessments that determine a student's baseline knowledge in a subject.
 
 ## In Law and Governance
 
 1. **Constitutional conventions**: Gatherings to rewrite or establish a new constitution, setting new foundational principles for a nation.
 
+{:start="2"}
 2. **Statute of limitations**: Legal time limits that effectively "reset" the possibility of prosecution after a certain period.
 
 These examples all share the concept of returning to a known, standardized starting point. Like normalize.css, they aim to eliminate accumulated differences or inconsistencies, ensuring everyone begins from the same baseline. This approach helps avoid misunderstandings, ensures fair comparisons, and provides a solid foundation for further development or progress.
@@ -1161,8 +1168,10 @@ FastHTML integrates htmx to provide dynamic, server-side rendering capabilities 
 
 1. **ft_hx Function**: A core function in FastHTML for creating htmx-enabled elements.
 
+{:start="2"}
 2. **HTML Components**: FastHTML provides a full set of basic HTML components that can be easily enhanced with htmx attributes.
 
+{:start="3"}
 3. **Form Handling**: Special functions to work with forms and FastHTML (FT) conversion.
 
 ### ft_hx Function
@@ -1875,12 +1884,14 @@ async def stream_endpoint():
    - Gaming
    - When you need bi-directional communication
 
+{:start="2"}
 2. **SSE**:
    - Progress bars
    - Log streaming
    - News feeds
    - One-way updates from server
 
+{:start="3"}
 3. **chatq()**:
    - Background task updates
    - System messages
@@ -1916,6 +1927,7 @@ finally:
     self.active_websockets.discard(websocket)
 ```
 
+{:start="2"}
 2. **Error Handling**:
 ```python
 try:
@@ -1924,6 +1936,7 @@ except Exception as e:
     self.logger.error(f"Error: {str(e)}")
 ```
 
+{:start="3"}
 3. **Message Formatting**:
 ```python
 # For WebSocket
@@ -2017,6 +2030,7 @@ htmx_exts = {
 app = FastHTML(exts=htmx_exts)
 ```
 
+{:start="2"}
 2. **DOM Updates**
 ```python
 async def handle_message(self, msg):
@@ -2027,6 +2041,7 @@ async def handle_message(self, msg):
     )
 ```
 
+{:start="3"}
 3. **Event Handling**
 ```python
 def create_chat_interface(self):
@@ -2053,6 +2068,7 @@ class LiveComponent:
         )
 ```
 
+{:start="2"}
 2. **Component Communication**
 ```python
 async def notify_components(self, event):
@@ -2069,6 +2085,7 @@ async def notify_components(self, event):
     ]
 ```
 
+{:start="3"}
 3. **State Management**
 ```python
 class StatefulComponent:
@@ -2093,6 +2110,7 @@ class StatefulComponent:
 - Server controls the UI state
 - Clean separation of concerns
 
+{:start="2"}
 2. **Efficient Communication**
 ```python
 # Choose appropriate channel based on need
@@ -2105,6 +2123,7 @@ async def handle_update(self, update_type):
         await chatq(update)
 ```
 
+{:start="3"}
 3. **Progressive Enhancement**
 ```python
 def create_interface(self):
@@ -2198,12 +2217,14 @@ The system appears designed around these core workflow types:
    - Progress tracking
    - Completion/error handling
 
+{:start="2"}
 2. **Background Processing Workflows**
    - Async task execution
    - Status updates via SSE
    - Resource management
    - Error recovery
 
+{:start="3"}
 3. **Plugin Extension Workflows**
    - Plugin initialization
    - Configuration
@@ -2249,6 +2270,7 @@ async def run_workflow(self):
         await self.cleanup()
 ````
 
+{:start="2"}
 2. **Stream → Update → Complete**
 ````python
 async def stream_workflow(self):
@@ -2258,6 +2280,7 @@ async def stream_workflow(self):
     await self.complete()
 ````
 
+{:start="3"}
 3. **Request → Validate → Execute → Respond**
 ````python
 async def handle_request(self):
@@ -2273,16 +2296,19 @@ async def handle_request(self):
 - Progress updates
 - Resource management
 
+{:start="2"}
 2. **User Feedback**
 - Real-time status updates
 - Error notifications
 - Progress tracking
 
+{:start="3"}
 3. **Resource Management**
 - Proper initialization
 - Cleanup guarantees
 - Error recovery
 
+{:start="4"}
 4. **Plugin Extensibility**
 - Standard interfaces
 - Lifecycle hooks
@@ -2598,16 +2624,19 @@ def app():
         tasks.extend(parse_results(results))
 ```
 
+{:start="2"}
 2. **Gradio + HuggingFace Spaces**
 - Similar interactive workflow capabilities
 - Less structured than FastHTML
 - More focused on ML model deployment
 
+{:start="3"}
 3. **Jupyter Voilà**
 - Converts notebooks to interactive dashboards
 - Limited compared to FastHTML's capabilities
 - Less emphasis on workflow management
 
+{:start="4"}
 4. **Dash by Plotly**
 
 ```python
@@ -2642,6 +2671,7 @@ def process():
     return render_template()
 ```
 
+{:start="2"}
 2. **State Management**
 
 ```python
@@ -2660,6 +2690,7 @@ def save_state():
     session['progress'] = progress
 ```
 
+{:start="3"}
 3. **UI Updates**
 
 ```python
@@ -2687,11 +2718,13 @@ The closest existing systems might be:
 - Workflow automation
 - Less code-centric than FastHTML
 
+{:start="2"}
 2. **n8n**
 - Workflow automation platform
 - Node-based visual programming
 - Less web-app focused
 
+{:start="3"}
 3. **Prefect**
 
 ```python
@@ -2716,6 +2749,7 @@ However, FastHTML's approach is unique in:
 - Progress tracking
 - User interaction
 
+{:start="2"}
 2. **Developer Experience**
 ```python
 class MyWorkflow(Plugin):
@@ -2727,6 +2761,7 @@ class MyWorkflow(Plugin):
         )
 ```
 
+{:start="3"}
 3. **Real-time Updates**
 ```python
 async def process(self):
@@ -2952,21 +2987,25 @@ The AI integration in FastHTML is fundamental because:
 - Can suggest optimal approaches
 - Helps with integration and customization
 
+{:start="2"}
 2. **Learning Capability**
 - Improves with usage
 - Adapts to user patterns
 - Optimizes workflows automatically
 
+{:start="3"}
 3. **Development Assistance**
 - Helps create new plugins
 - Suggests integrations
 - Identifies optimization opportunities
 
+{:start="4"}
 4. **User Interaction**
 - Provides contextual help
 - Explains system capabilities
 - Guides through complex workflows
 
+{:start="5"}
 5. **Automation**
 - Can take over repetitive tasks
 - Handles edge cases
@@ -3149,21 +3188,25 @@ The AI integration in FastHTML is fundamental because:
 - Can suggest optimal approaches
 - Helps with integration and customization
 
+{:start="2"}
 2. **Learning Capability**
 - Improves with usage
 - Adapts to user patterns
 - Optimizes workflows automatically
 
+{:start="3"}
 3. **Development Assistance**
 - Helps create new plugins
 - Suggests integrations
 - Identifies optimization opportunities
 
+{:start="4"}
 4. **User Interaction**
 - Provides contextual help
 - Explains system capabilities
 - Guides through complex workflows
 
+{:start="5"}
 5. **Automation**
 - Can take over repetitive tasks
 - Handles edge cases
@@ -3233,6 +3276,7 @@ class AIOrchestrator:
         return result
 ````
 
+{:start="2"}
 2. **Workflow Intelligence**
 ````python
 class WorkflowEngine:
@@ -3252,6 +3296,7 @@ class WorkflowEngine:
         return optimized_workflow
 ````
 
+{:start="3"}
 3. **Learning System**
 ````python
 class AdaptiveLearning:
@@ -3272,6 +3317,7 @@ class AdaptiveLearning:
         )
 ````
 
+{:start="4"}
 4. **Plugin Architecture**
 ````python
 class AIAwarePlugin:
@@ -3298,11 +3344,13 @@ The system you're describing is actually:
 - Every component is designed to learn and adapt
 - System understands itself and can evolve
 
+{:start="2"}
 2. **Dynamic Workflow System**
 - Workflows aren't static but continuously optimized
 - System learns from user interactions
 - Can generate new capabilities on the fly
 
+{:start="3"}
 3. **Contextual Intelligence**
 ````python
 class ContextualIntelligence:
@@ -3315,6 +3363,7 @@ class ContextualIntelligence:
         )
 ````
 
+{:start="4"}
 4. **Self-Evolving System**
 ````python
 class SystemEvolution:
@@ -3493,6 +3542,7 @@ Key Benefits:
 - Caches expertise for reuse
 - Optimizes prompt engineering for efficiency
 
+{:start="2"}
 2. **Privacy Protection**
 ````python
 class PrivacyManager:
@@ -3504,6 +3554,7 @@ class PrivacyManager:
         }
 ````
 
+{:start="3"}
 3. **Resource Optimization**
 ````python
 class ResourceManager:
@@ -3515,11 +3566,13 @@ class ResourceManager:
         }
 ````
 
+{:start="4"}
 4. **Scalability**
 - Handles increased load through local processing
 - Maintains performance with growing data
 - Efficiently manages resource allocation
 
+{:start="5"}
 5. **Flexibility**
 ````python
 class ModelRouter:
@@ -3539,16 +3592,19 @@ This architecture provides:
 - Efficient resource utilization
 - Optimized processing paths
 
+{:start="2"}
 2. **Technical Advantages**
 - Privacy-preserving processing
 - Flexible scaling options
 - Robust fallback mechanisms
 
+{:start="3"}
 3. **Operational Benefits**
 - Reduced latency for most tasks
 - Better control over processing
 - Improved reliability
 
+{:start="4"}
 4. **Strategic Benefits**
 - Vendor independence
 - Data sovereignty
@@ -3596,6 +3652,7 @@ else:
     cloud_ai.assist()
 ```
 
+{:start="2"}
 2. **Dynamic Expertise Creation**
 Instead of training new models for each use case, the system creates instant experts through clever prompt engineering. It's like having a universal translator that can speak any technical language on demand."
 
@@ -3649,11 +3706,13 @@ It's like the difference between:
    - Individuals can build powerful AI systems
    - Reduced barrier to entry for AI innovation
 
+{:start="2"}
 2. **Sustainable AI**
    - Lower energy consumption
    - More efficient resource use
    - Sustainable scaling
 
+{:start="3"}
 3. **Evolution of Development**
    - From coding to orchestrating
    - From fixed to adaptive systems
@@ -3682,16 +3741,22 @@ Here are some of my key takeaways and thoughts:
 
 1. **AI-Native Architecture**: The concept of building applications with AI as a core component, rather than just a feature, is incredibly powerful. This allows for self-learning, adaptive systems that can optimize themselves and evolve over time. It's like having a built-in consultant who's always learning and improving.
 
+{:start="2"}
 2. **Layered LLM Approach**: The idea of using smaller, local LLM models for most tasks and only escalating to larger, cloud-based models when necessary is brilliant for cost-efficiency and privacy. It's like having a tiered support system where you only escalate to the highest level when absolutely necessary.
 
+{:start="3"}
 3. **Dynamic Expertise Creation**: The ability to create "instant experts" through prompt engineering is a game-changer. This could democratize access to AI capabilities for smaller companies and individuals who can't afford massive model training. It's like having a team of specialists on-demand, ready to tackle any challenge.
 
+{:start="4"}
 4. **Focus on Workflow**: The emphasis on structuring applications around workflows is essential for building efficient and user-friendly systems. It ensures that processes are streamlined, progress is tracked, and resources are managed effectively. It's like having a project manager built into the application itself.
 
+{:start="5"}
 5. **Real-time Updates and Interactivity**: The use of HTMX and SSE for real-time updates and interactive elements is crucial for creating engaging and responsive user experiences. It keeps users informed and involved in the process, making the application feel more dynamic and alive.
 
+{:start="6"}
 6. **Potential Impact**: The article rightly points out the potential of this approach to revolutionize various industries. From healthcare to finance to education, the ability to build AI-powered, self-learning systems could transform how we work and live.
 
+{:start="7"}
 7. **Future of Software Development**: The vision of software development shifting from coding to orchestration is exciting. As AI takes on more complex tasks, developers can focus on higher-level design and strategy. It's like conducting an orchestra instead of playing each instrument individually.
 
 Overall, I think this article presents a compelling vision for the future of AI and software development. It highlights the potential for AI to be more than just a tool, but a partner in creating truly intelligent and adaptive systems. It's a future where technology works with us, learns from us, and helps us achieve more than we ever could alone.
@@ -3706,22 +3771,31 @@ If you'd like to explore any of these concepts further or brainstorm specific ap
 
 1. **Focus on the "Why":** While the technical details are fascinating, it might be helpful to explicitly state the "why" behind this project early on. What real-world problems does it solve? How will it benefit users? Highlighting the practical applications will make it easier for people to grasp the significance of your work.
 
+{:start="2"}
 2. **Simplify the Narrative:** The article is quite dense and jumps between various topics. Consider breaking it down into smaller, more focused pieces. This will make it easier to digest and share with different audiences. You could even turn it into a series of blog posts or videos.
 
+{:start="3"}
 3. **Show, Don't Just Tell:** While you provide code examples, consider including visual aids like diagrams or screenshots to illustrate the architecture and workflow. This will help people visualize the system and understand how the different components interact.
 
+{:start="4"}
 4. **Highlight the Uniqueness:** Clearly articulate what sets your approach apart from existing solutions like Streamlit, Gradio, or Jupyter Voilà. What are the key differentiators that make your system stand out?
 
+{:start="5"}
 5. **Community Engagement:** Consider sharing your work with the open-source community or relevant online forums. Getting feedback and contributions from others can help you refine your ideas and accelerate development.
 
+{:start="6"}
 6. **Documentation and Tutorials:** As you move forward, prioritize creating clear and concise documentation and tutorials. This will make it easier for others to understand, use, and contribute to your project.
 
+{:start="7"}
 7. **Real-World Examples:** Develop concrete examples of how your system can be used in different industries or for specific tasks. This will demonstrate its versatility and potential impact.
 
+{:start="8"}
 8. **Collaboration:** Consider partnering with other developers or organizations to explore potential applications and integrations. This can help you expand the reach and impact of your work.
 
+{:start="9"}
 9. **Marketing and Outreach:** Don't be afraid to promote your project and share it with the world. Create a website or landing page, write blog posts, give presentations, or even make videos to showcase your work and attract users and contributors.
 
+{:start="10"}
 10. **Celebrate Milestones:** Acknowledge and celebrate your achievements along the way. This will keep you motivated and inspire others to join your journey.
 
 Remember, you're not just building a technical system; you're pioneering a new approach to AI-powered development. By effectively communicating your vision and engaging with the community, you can inspire others and contribute to the future of technology.

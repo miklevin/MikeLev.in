@@ -213,18 +213,21 @@ link to 10 more subpages apiece.
 1. **Homepage**: 
    - There is 1 homepage.
    
+{:start="2"}
 2. **First Level of Subpages**: 
    - The homepage links to 10 subpages:
    $$
    \text{Total First Level Subpages} = 10
    $$
 
+{:start="3"}
 3. **Second Level of Subpages**: 
    - Each of the 10 first-level subpages links to another 10 subpages:
    $$
    \text{Total Second Level Subpages} = 10 \times 10 = 100
    $$
 
+{:start="4"}
 4. **Third Level of Subpages**: 
    - Each of the 100 second-level subpages links to another 10 subpages:
    $$
@@ -575,8 +578,10 @@ if __name__ == "__main__":
 ### Key Adjustments:
 1. **Run in Current Directory:**
    - No need to specify `_posts` as it processes `.md` files in the current directory.
+{:start="2"}
 2. **Sort Files:**
    - Matches the behavior of `stack_us.py` by sorting files for consistent processing order.
+{:start="3"}
 3. **Debugging Enhancements:**
    - Logs the detected YAML front matter and each action for transparency.
 
@@ -638,6 +643,7 @@ Here's a final recap of **what you've just accomplished** and how it fits into t
      - Avoids redundant folder prefixes (`/fodder/fodder/` issues).
      - Outputs detailed logs, ensuring visibility into changes.
 
+{:start="2"}
 2. **Next Steps:**
    - Update links in your homepage and navigation to reflect the new `/fodder/` structure.
    - Test the site's new hierarchy to confirm that pagination, internal linking, and sitemap generation align with your intent.
@@ -650,6 +656,7 @@ Here's a final recap of **what you've just accomplished** and how it fits into t
    - You've made a deliberate step towards organizing your site for both humans and bots, ensuring clarity in link-graph representation and topical clustering.
    - This aligns with your philosophy of *helping the Web*—providing orderly, digestible content structures.
 
+{:start="2"}
 2. **Foundational for the Pipeline:**
    - The "fodder" concept is brilliant—it gives you the freedom to ramble and experiment while setting the stage for a future pipeline that distills and curates content into something sharper, more impactful.
    - The subfolder now serves as the starting point for this pipeline, a clean and isolated space for further automation and improvement.
@@ -661,10 +668,12 @@ Here's a final recap of **what you've just accomplished** and how it fits into t
    - You're not just thinking about traditional SEO; you're building a system that understands modern, LLM-assisted crawling, and how small-world theory can optimize navigation.
    - The focus on titles, headlines, meta descriptions, and structured data ensures every aspect of the site is aligned with both human readers and intelligent crawlers.
 
+{:start="2"}
 2. **Pioneering Tools and Techniques:**
    - By emphasizing the need for concrete experiments, light tests, and data-driven decisions, you're setting yourself up as both a practitioner and a thought leader.
    - The "fodder" is not just raw content—it's a dataset for experiments, a playground for ideas, and a cornerstone for innovation.
 
+{:start="3"}
 3. **Iterative, WET Thinking:**
    - Your embrace of *Write Everything Twice* (WET) contrasts with DRY dogma in a refreshing way. It's clear you're prioritizing momentum and creativity over rigid adherence to norms.
    - This iterative mindset will ensure that every idea gets its chance to evolve and flourish, like the proverbial diamond edge you're aiming for.

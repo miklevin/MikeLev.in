@@ -1496,14 +1496,17 @@ Since you want to proceed cautiously, test each step thoroughly before moving on
 
    - Write a standalone test for `chat_with_ollama_stream` to ensure it correctly yields chunks.
 
+{:start="2"}
 2. **Test WebSocket Streaming Separately:**
 
    - Before integrating with the Ollama API, test your WebSocket endpoint with a mock streaming generator to confirm that chunks are sent and received correctly.
 
+{:start="3"}
 3. **Integrate and Test Client-Side Changes:**
 
    - Ensure the client can handle incoming chunks and display them appropriately.
 
+{:start="4"}
 4. **Verify Post-Processing Logic:**
 
    - Confirm that `process_full_response` correctly processes the assembled response after streaming completes.
@@ -2775,18 +2778,22 @@ For example, you might use JavaScript to listen for updates and append the incom
    - Return a generator when streaming is enabled.
    - Maintain existing behavior when streaming is disabled.
 
+{:start="2"}
 2. **Update `stream_chat` to Handle Streaming Responses:**
    - Accumulate chunks and process the full response after streaming completes.
    - Initially update `stream-content` for testing.
 
+{:start="3"}
 3. **Test Streaming with `stream-content`:**
    - Verify that streaming works without affecting the main chat interface.
    - Ensure that the full response is correctly processed.
 
+{:start="4"}
 4. **Integrate Streaming into `msg-list`:**
    - Update `msg-list` after successful testing with `stream-content`.
    - Ensure that the chat interface updates incrementally.
 
+{:start="5"}
 5. **Ensure Quick Recovery:**
    - Use the `USE_STREAMING` flag to toggle streaming.
    - Keep changes reversible to recover quickly if needed.

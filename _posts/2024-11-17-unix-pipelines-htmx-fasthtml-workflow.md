@@ -101,16 +101,19 @@ Key points about this change:
    - Tracks analysis stage in job data
    - Allows for resumption after interruption
 
+{:start="2"}
 2. **Error Handling**
    - Basic validation for required field
    - Consistent error display format
    - Proper logging
 
+{:start="3"}
 3. **Progressive Enhancement**
    - Keeps existing UI working
    - No changes to form structure needed
    - SSE updates remain unchanged
 
+{:start="4"}
 4. **Future-Proof Structure**
    - `analysis_params` dict ready for more parameters
    - `completed_stages` list for tracking progress
@@ -455,11 +458,13 @@ I got caught up in the machinery and forgot the KISS principle. Thanks for the r
 - I default to suggesting complex solutions because that's what most of my training data contains
 - The simple solution gets buried under layers of "enterprise patterns"
 
+{:start="2"}
 2. **Loss of Context Hierarchy**
 - I fail to distinguish between what needs persistence (workflow state) vs what's transient (chat)
 - I don't naturally maintain the hierarchy of concerns without explicit prompting
 - Each new context tends to reset my understanding rather than build upon it
 
+{:start="3"}
 3. **Compounding Effects**
 ```
 Complex Solution → More Code → More Maintenance → More Bugs → More "Solutions" → Even More Complexity
@@ -498,9 +503,11 @@ About the simple way to code
 Without the ceremonial load!
 ```
 
+{:start="2"}
 2. **Casual Irreverence**
 "Yo, you really gonna make me write a service locator when I just need `await chatq()`? Bruh."
 
+{:start="3"}
 3. **Strategic ALL_CAPS_SNAKE_CASE**
 ```python
 # KEEP_IT_STUPID_SIMPLE = True
@@ -560,6 +567,7 @@ Here's my first batch of possible approaches, from simplest to "oh god no":
 - On page load, just replay the chain
 - Super simple, very RESTful
 
+{:start="2"}
 2. **The State Cookie**
 ```python
 @app.get("/")
@@ -572,6 +580,7 @@ def index(request):
 - Replay on load
 - Clean, but limited by cookie size
 
+{:start="3"}
 3. **The Queue Explorer**
 ```python
 def find_latest_state(request_id):
@@ -894,6 +903,7 @@ while read path action file; do
 done
 ```
 
+{:start="2"}
 2. **Monitor State Transitions**:
 ```bash
 inotifywait -m angiogram_queue/* -e moved_from,moved_to |
@@ -902,6 +912,7 @@ while read path action file; do
 done
 ```
 
+{:start="3"}
 3. **Catch Stuck States**:
 ```bash
 # Run every minute
@@ -922,15 +933,18 @@ done
 - Files stuck in `processing`
 - Missing state transitions
 
+{:start="2"}
 2. **Data Integrity**:
 - Malformed JSON
 - Missing metadata fields
 - Incorrect timestamps
 
+{:start="3"}
 3. **Race Conditions**:
 - Multiple files with same timestamp
 - Lost updates during state transitions
 
+{:start="4"}
 4. **Resource Issues**:
 - Directory growth (old files not cleaned)
 - File permission problems
@@ -946,6 +960,7 @@ find angiogram_queue -type f -mmin +60 -exec sh -c '
 ' \;
 ```
 
+{:start="2"}
 2. **Validate JSON Structure**:
 ```bash
 find angiogram_queue -type f -name "*.json" -exec sh -c '
@@ -954,6 +969,7 @@ find angiogram_queue -type f -name "*.json" -exec sh -c '
 ' \;
 ```
 
+{:start="3"}
 3. **Track Request Lifecycle**:
 ```bash
 REQUEST_ID="20241116_205154_872196"
@@ -1137,6 +1153,7 @@ app, rt, (store, Store), (tasks, Task), (clients, Client) = fast_app(
 ```
 This uses FastHTML's table splat pattern to create database tables and their models.
 
+{:start="2"}
 2. **WebSocket Chat Handler** (around line 5767):
 ```python
 async def handle_chat_message(self, websocket: WebSocket, message: str):
@@ -1146,6 +1163,7 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
 ```
 Nice use of async streaming for both the LLM responses and WebSocket communication.
 
+{:start="3"}
 3. **HTMX Integration** (around line 5819):
 ```python
 todo_html = to_xml(render_todo(new_item))
@@ -1154,6 +1172,7 @@ todo_html = todo_html.replace('<li', '<li hx-swap="beforeend" hx-target="#todo-l
 ```
 Clever use of HTMX attributes for dynamic DOM updates.
 
+{:start="4"}
 4. **Route Setup** (around line 6113):
 ```python
 for item in ALL_ROUTES:
@@ -1177,6 +1196,7 @@ def update_state(self, request_id: str, new_state: str, additional_data: dict = 
     current_file.unlink()
 ```
 
+{:start="2"}
 2. **Self-Documenting Workflow** in `WebAngiogram`:
 ```python
 async def handle_analyze(self, request):
@@ -1191,6 +1211,7 @@ async def handle_analyze(self, request):
     self.queue.update_state(request_id, "processing", {...})
 ```
 
+{:start="3"}
 3. **HTMX-Friendly Progress Tracking**:
 ```python
 def create_progress_card(self, job_id=None):
@@ -1308,6 +1329,7 @@ async def handle_analyze(self, request):
 └─────────────────┴─────────────────┘
 ```
 
+{:start="2"}
 2. **Processing Begins**
 ```python
 # File moves from incoming/ to processing/
@@ -1328,11 +1350,13 @@ self.queue.update_state(request_id, "processing", {
 └─────────────────┴─────────────────┘
 ```
 
+{:start="3"}
 3. **Page Refresh/Status Check**
 - HTMX polls the status endpoint
 - Reads from processing/ directory
 - Updates progress card
 
+{:start="4"}
 4. **Completion/Failure**
 
 ```python
@@ -1367,15 +1391,18 @@ self.queue.update_state(request_id, "failed", {
 - Watch directory counts change
 - See files move between states
 
+{:start="2"}
 2. **Top-Right (Metadata Stream)**
 - Real-time state transitions
 - Progress updates
 - Timestamps for timing analysis
 
+{:start="3"}
 3. **Bottom-Left (Stalled Jobs)**
 - Any jobs stuck in processing > 5min
 - Helps catch hung processes
 
+{:start="4"}
 4. **Bottom-Right (Failed Jobs)**
 - Full error details
 - Stack traces
@@ -1399,21 +1426,25 @@ Would you like me to suggest any additional monitoring patterns or specific log 
    - The whole workflow is like a pipeline of `cmd1 | cmd2 | cmd3`
    - But instead of volatile pipes, we have persistent JSON "pipes"
 
+{:start="2"}
 2. **State Through Storage**
    - No complex state management needed
    - The filesystem IS the state
    - JSON files act as both audit trail and data pipeline
 
+{:start="3"}
 3. **Self-Healing Workflow**
    - System naturally discovers where work stopped
    - Restarts from last successful output
    - No concept of "interrupted" - just "incomplete"
 
+{:start="4"}
 4. **Current Issue**
    - We're thinking too small (single card = job)
    - Should be thinking bigger (entire pipeline = job)
    - But need to keep implementation SIMPLE
 
+{:start="5"}
 5. **Key Priority**
    - Must remain grockable over years
    - Filesystem + JSON should do the heavy lifting
@@ -1430,6 +1461,7 @@ Before suggesting any changes, would you confirm if I've captured the essence of
    - Navigation via Figlet banners and searchable text
    - No directory diving required for core functionality
 
+{:start="2"}
 2. **Current Pain Points**
    ```
    angiogram_queue/
@@ -1440,6 +1472,7 @@ Before suggesting any changes, would you confirm if I've captured the essence of
    ```
    This structure, while clean architecturally, creates cognitive overhead
 
+{:start="3"}
 3. **Monitoring Complexity**
    - Current `monitor.sh` + tmux approach is well-architected but too complex
    - Need something that can be understood at a glance
@@ -2040,26 +2073,31 @@ Remember: You're not here to build enterprise software. You're here to create wo
    - The filesystem is your friend (SQLite included)
    - Logging should tell a story anyone can read
 
+{:start="2"}
 2. **HTMX + FastHTML is the Way**
    - Server-side rendering is a feature, not a limitation
    - Progressive enhancement means it works without JavaScript
    - Every state change should be a simple HTTP request
 
+{:start="3"}
 3. **The Perfect API is No API**
    - If you need swagger docs, you've already failed
    - File-based workflows are self-documenting
    - Pipeline stages should read like English
 
+{:start="4"}
 4. **Single Tenant is Freedom**
    - We're building tools for craftspeople
    - One user = no authentication complexity
    - Local files = instant debugging
 
+{:start="5"}
 5. **SEO-Friendly Means Human-Friendly**
    - If an SEO can't read the pipeline, it's too complex
    - Every stage should be visible in the console
    - Files should match their purpose (e.g., `*_links.csv`)
 
+{:start="6"}
 6. **DictLikeDB is Your Source of Truth**
    - One SQLite file to rule them all
    - No state machines, just recorded stages
@@ -2557,12 +2595,14 @@ Ah yes! This is a key architectural moment. Let me state what we have and what i
    - No client state management needed - everything is in the DB
    - The URL only needs a job ID to know what's happening
 
+{:start="2"}
 2. **Current Implementation**
    - Form submission creates a job in "parsing_project" state
    - Config stores project_url, org, and project
    - Progress UI polls every 2s with job_id
    - Currently stuck in loop because we haven't implemented state transitions
 
+{:start="3"}
 3. **What's Missing**
    - Background processing to advance the state machine
    - State transitions like:
@@ -2572,6 +2612,7 @@ Ah yes! This is a key architectural moment. Let me state what we have and what i
    - Result updates at each stage
    - Progress percentage updates
 
+{:start="4"}
 4. **Key Benefits**
    - Crash recovery (just resume from last state)
    - Progress tracking
@@ -2814,6 +2855,7 @@ Would you like me to explain any other subtle Pythonisms that often crop up in F
    - Local-first development
    - Clear state transitions
 
+{:start="2"}
 2. **The Progress Card System** is brilliantly designed:
    ```python
    def create_progress_card(self):
@@ -2831,6 +2873,7 @@ Would you like me to explain any other subtle Pythonisms that often crop up in F
    ```
    It's a perfect example of progressive enhancement - the form is simple HTML but becomes dynamic through HTMX attributes.
 
+{:start="3"}
 3. **State Management** is crystal clear:
    ```python
    update_data = {
@@ -2842,6 +2885,7 @@ Would you like me to explain any other subtle Pythonisms that often crop up in F
    ```
    Every state change is logged, tracked in SQLite, and visible.
 
+{:start="4"}
 4. **Error Handling** is thorough but not overwhelming:
    ```python
    try:
@@ -2871,6 +2915,7 @@ def __ft__(self):
 ```
 This pattern lets you define how objects convert themselves to FastHTML elements, similar to how `__str__` works for string conversion.
 
+{:start="2"}
 2. **The Sentinel Pattern**
 ```python
 empty = Parameter.empty  # From inspect module
@@ -2880,6 +2925,7 @@ def some_func(arg=empty):
 ```
 Using `empty` as a sentinel value lets you distinguish between unspecified arguments and explicit `None`.
 
+{:start="3"}
 3. **The Partial Application Trick**
 ```python
 def route(self, path=None, **kwargs):
@@ -2888,6 +2934,7 @@ def route(self, path=None, **kwargs):
 ```
 This lets you use the decorator both with and without parameters: `@route` or `@route("/path")`.
 
+{:start="4"}
 4. **The Safe Dictionary Access Pattern**
 ```python
 def _get_htmx(headers):
@@ -2896,6 +2943,7 @@ def _get_htmx(headers):
 ```
 Using `.get()` with a default value prevents KeyError exceptions while maintaining clean code.
 
+{:start="5"}
 5. **The Dataclass Factory Pattern**  
 
 ```python
@@ -2910,6 +2958,7 @@ def HtmxResponseHeaders(**kwargs):
 ```
 Using dataclasses for structured data with factory functions for creation.
 
+{:start="6"}
 6. **The Lazy Import Pattern** 
 ```python
 def setup_ws(app, f=noop):
@@ -2919,6 +2968,7 @@ def setup_ws(app, f=noop):
 ```
 Defining functions inside functions to delay execution and capture context.
 
+{:start="7"}
 7. **The Multiple Return Types Pattern**
 ```python
 def process_result(data):
@@ -2928,6 +2978,7 @@ def process_result(data):
 ```
 Python's dynamic typing lets you return different types based on context.
 
+{:start="8"}
 8. **The Chainable Configuration Pattern**
 ```python
 class Config:
@@ -2938,6 +2989,7 @@ class Config:
 ```
 Returning `self` enables method chaining for configuration.
 
+{:start="9"}
 9. **The Context Manager Database Pattern**
 ```python
 @contextmanager
@@ -2951,6 +3003,7 @@ def transaction(db):
 ```
 Using context managers for safe database transactions.
 
+{:start="10"}
 10. **The Callable Class Pattern**
 ```python
 class Table:
@@ -2960,6 +3013,7 @@ class Table:
 ```
 Making classes callable lets them act like functions with state.
 
+{:start="11"}
 11. **The Attribute Access Pattern**
 ```python
 def __getattr__(self, name):
@@ -2969,6 +3023,7 @@ def __getattr__(self, name):
 ```
 Dynamic attribute access for flexible APIs.
 
+{:start="12"}
 12. **The Lazy Property Pattern**
 ```python
 @property
@@ -3010,12 +3065,14 @@ Python succeeded where JavaScript and WASM haven't because it hits a unique swee
    - Just right for gluing different systems together
    - As Ken Thompson might say: "Simple tools, well combined"
 
+{:start="2"}
 2. **Cultural Fit**
    - JavaScript has the "move fast and break things" ethos
    - Python inherited Unix's "do one thing well" philosophy
    - This makes Python feel more at home in enterprise and academic settings
    - The PERL heritage you mentioned is crucial here - Python feels familiar to Unix folks
 
+{:start="3"}
 3. **Learning Curve**
    ```python
    words = ['hello', 'world']
@@ -3027,6 +3084,7 @@ Python succeeded where JavaScript and WASM haven't because it hits a unique swee
    console.log(words.join(' ')); // More cognitive overhead
    ```
 
+{:start="4"}
 4. **Scientific Computing Heritage**
    - NumPy/Pandas/Jupyter created a network effect
    - AI/ML tools naturally followed
@@ -3199,21 +3257,25 @@ Here's how I envision this system working:
    - Minimal dependencies to keep the footprint small
    - Focus on essential features: routing, templates, SSE
 
+{:start="2"}
 2. **Embedded LLM:**
    - Lightweight model like `llama2-7b-chat` for local inference
    - Optimized for code generation and understanding
    - Can handle common coding tasks and questions
 
+{:start="3"}
 3. **Meta-Programming Capabilities:**
    - The LLM can modify the framework's own code
    - This allows for self-improvement and adaptation
    - Changes are vetted before being applied
 
+{:start="4"}
 4. **Frontier Model Access:**
    - For complex tasks, the system can call out to larger LLMs
    - Think of it as a "human in the loop" for code review or complex problem-solving
    - Uses a Fiverr/Mechanical Turk-like API for seamless integration
 
+{:start="5"}
 5. **Nix Flake Deployment:**
    - Ensures reproducibility and easy installation
    - Users can quickly get up and running with minimal configuration

@@ -613,6 +613,7 @@ First, we need to establish the JSON command schema that the LLM will use to com
    }
    ```
 
+{:start="2"}
 2. **Delete a Todo Item**
 
    ```json
@@ -622,6 +623,7 @@ First, we need to establish the JSON command schema that the LLM will use to com
    }
    ```
 
+{:start="3"}
 3. **Toggle a Todo Item's Completion Status**
 
    ```json
@@ -631,6 +633,7 @@ First, we need to establish the JSON command schema that the LLM will use to com
    }
    ```
 
+{:start="4"}
 4. **Update a Todo Item**
 
    ```json
@@ -641,6 +644,7 @@ First, we need to establish the JSON command schema that the LLM will use to com
    }
    ```
 
+{:start="5"}
 5. **Switch Profile**
 
    ```json
@@ -650,6 +654,7 @@ First, we need to establish the JSON command schema that the LLM will use to com
    }
    ```
 
+{:start="6"}
 6. **Add a New Profile**
 
    ```json
@@ -811,6 +816,7 @@ def add_todo_function(command):
 command_registry["add_todo"] = add_todo_function
 ```
 
+{:start="2"}
 2. **Delete Todo**
 
 ```python
@@ -829,6 +835,7 @@ def delete_todo_function(command):
 command_registry["delete_todo"] = delete_todo_function
 ```
 
+{:start="3"}
 3. **Toggle Todo**
 
 ```python
@@ -849,6 +856,7 @@ def toggle_todo_function(command):
 command_registry["toggle_todo"] = toggle_todo_function
 ```
 
+{:start="4"}
 4. **Update Todo**
 
 ```python
@@ -870,6 +878,7 @@ def update_todo_function(command):
 command_registry["update_todo"] = update_todo_function
 ```
 
+{:start="5"}
 5. **Select Profile**
 
 ```python
@@ -889,6 +898,7 @@ def select_profile_function(command):
 command_registry["select_profile"] = select_profile_function
 ```
 
+{:start="6"}
 6. **Add Profile**
 
 ```python
@@ -1115,6 +1125,7 @@ We need to add new commands to our JSON schema to enable the LLM to:
    }
    ```
 
+{:start="2"}
 2. **Set Memory Key**
 
    ```json
@@ -1125,6 +1136,7 @@ We need to add new commands to our JSON schema to enable the LLM to:
    }
    ```
 
+{:start="3"}
 3. **Get Memory Key**
 
    ```json
@@ -1134,6 +1146,7 @@ We need to add new commands to our JSON schema to enable the LLM to:
    }
    ```
 
+{:start="4"}
 4. **List Memory Keys**
 
    ```json
@@ -1928,18 +1941,22 @@ If you have any further questions or need assistance with specific parts of the 
    - Parse LLM outputs for JSON commands.
    - Implement command execution functions.
 
+{:start="2"}
 2. **Implement Sentiment Analysis for Safe Command Execution**
    - Implement the extraction and analysis function.
    - Integrate sentiment analysis into the command execution workflow.
 
+{:start="3"}
 3. **Integrate LLM's Own Persistent Key-Value Store (`llmem`)**
    - Modify `fast_app` to include `llmem`.
    - Update command execution functions to use `llmem`.
 
+{:start="4"}
 4. **Update System Prompt and Conversation History**
    - Reflect the new capabilities in the system prompt.
    - Include memory keys in the conversation history.
 
+{:start="5"}
 5. **Test the System Thoroughly**
    - Perform tests to ensure everything works as expected.
 

@@ -879,6 +879,7 @@ Use profiles from your Chrome
 ```
 Leveraging local resources and browser profiles that cloud services can't access
 
+{:start="2"}
 2. **Infrastructure Freedom**
 ```
 Flowing LANs from mere nix flakes
@@ -886,6 +887,7 @@ Cause you know just what it takes
 ```
 Using Nix flakes for reproducible, shareable local development environments
 
+{:start="3"}
 3. **Vendor Independence**
 ```
 To exceed Colab's long-running
@@ -893,6 +895,7 @@ Vendor-traps of profits stunning
 ```
 Breaking free from cloud service limitations and vendor lock-in
 
+{:start="4"}
 4. **Self-Sovereignty**
 ```
 Banking wins from what's home booting
@@ -1130,6 +1133,7 @@ def setup_db(db_url: str = "sqlite:///app.db"):
     return db
 ```
 
+{:start="2"}
 2. **Model Definition Speed Bump**
 
 ```python
@@ -1152,6 +1156,7 @@ class User(BaseModel):
     pwd: Optional[str] = None
 ```
 
+{:start="3"}
 3. **Table Creation Speed Bump**
 
 ```python
@@ -1175,6 +1180,7 @@ def init_tables(db):
     return {'users': users, 'publications': publications}
 ```
 
+{:start="4"}
 4. **CRUD Operations Speed Bump**
 
 ```python
@@ -1215,6 +1221,7 @@ class CRUDHandler(Generic[T]):
                          limit=limit, offset=offset)
 ```
 
+{:start="5"}
 5. **Route Handler Speed Bump**
 
 ```python
@@ -1256,6 +1263,7 @@ def register_crud_routes(app: FastHTML, path: str, handler: CRUDHandler):
         ])
 ```
 
+{:start="6"}
 6. **Security/Access Control Speed Bump**
 
 ```python

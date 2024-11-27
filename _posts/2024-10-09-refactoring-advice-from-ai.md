@@ -369,13 +369,16 @@ on predefined criteria.
    filtered by those field values. For example, if you set
    `todos.xtra(name='Charlie')`, only records with `name='Charlie'` will be
    accessible in the `todos` table.
+{:start="2"}
 2. **Query Context Management**: The constraints defined by `.xtra()` persist
    across operations unless explicitly removed or reset. This is especially
    useful for multi-tenant applications where each user or role should see only
    their own subset of records.
+{:start="3"}
 3. **Automatic Field Setting**: When inserting new records after using
    `.xtra()`, the set fields are automatically included in the new record. This
    prevents accidentally inserting items that violate the defined constraints.
+{:start="4"}
 4. **No Effect on `.create()` Method**: The `.xtra()` filtering applies only to
    records and does not impact table creation or structure modifications.
 
@@ -558,18 +561,22 @@ adherence to FastHTML methodology of version 2. Please and thank you!
    - Fetches user profiles, projects, and analysis slugs.
    - Generates link graphs based on selected projects and analysis.
 
+{:start="2"}
 2. **Real-Time Updates:**
    - Uses ZeroMQ (ZMQ) and Server-Sent Events (SSE) for real-time status updates.
    - Streams messages to the client during long-running processes.
 
+{:start="3"}
 3. **File Management:**
    - Generates CSV files for link graphs.
    - Provides download links and integrates with Cosmograph for visualization.
 
+{:start="4"}
 4. **User Interface:**
    - Single Page Application (SPA) template with dynamic content based on user state.
    - Uses HTMX for dynamic form generation and interactions.
 
+{:start="5"}
 5. **Ollama AI Integration:**
    - Provides AI-generated responses for user interaction.
 
@@ -579,17 +586,21 @@ adherence to FastHTML methodology of version 2. Please and thank you!
    - Uses FastHTML for server-side rendering and routing.
    - Simplifies HTML generation using Python functions.
 
+{:start="2"}
 2. **Todo Application:**
    - Implements a basic CRUD Todo app with a simple UI.
    - Demonstrates how to plug in new apps.
 
+{:start="3"}
 3. **WebSocket Support:**
    - Uses built-in WebSocket support in FastHTML for real-time communication.
 
+{:start="4"}
 4. **Persistent Data Storage:**
    - Uses `DictLikeDB` for storing persistent data.
    - Avoids the use of environment variables.
 
+{:start="5"}
 5. **Minimal Dependencies:**
    - Reduces external dependencies, favoring FastHTML methods.
 
@@ -603,38 +614,47 @@ The plan involves the following steps:
    - Create a new file `botifython.py` based on `pipulate.py`.
    - Retain the existing structure and methods from `pipulate.py`.
 
+{:start="2"}
 2. **Integrate Botify API Functionality:**
    - Replace environment variable usage with `DictLikeDB` for storing the Botify API token.
    - Implement authentication and user management using the patterns in `pipulate.py`.
 
+{:start="3"}
 3. **Implement Project and Analysis Management:**
    - Add routes and handlers to manage Botify projects and analysis slugs.
    - Use FastHTML's routing and rendering methods to create the UI components.
 
+{:start="4"}
 4. **Implement Link Graph Generation:**
    - Port the link graph generation process, replacing `aiohttp` and other external libraries with standard libraries or FastHTML equivalents.
    - Use synchronous HTTP requests (`requests` library) instead of `aiohttp`.
 
+{:start="5"}
 5. **Handle Real-Time Status Updates:**
    - Replace ZeroMQ (ZMQ) and SSE with FastHTML's built-in WebSocket support.
    - Use WebSocket connections to stream status updates to the client.
 
+{:start="6"}
 6. **Refactor File Management:**
    - Adapt the file generation and download mechanisms to align with the patterns in `pipulate.py`.
    - Use FastHTML's routing to serve files.
 
+{:start="7"}
 7. **Integrate Ollama AI Responses:**
    - Ensure that Ollama AI integration works within the new framework.
    - Use the existing methods in `pipulate.py` for AI interaction.
 
+{:start="8"}
 8. **Update the User Interface:**
    - Recreate the UI components from `server.py` using FastHTML's idiomatic HTML generation.
    - Use the menu and navigation patterns from `pipulate.py`.
 
+{:start="9"}
 9. **Reduce External Dependencies:**
    - Remove unnecessary imports and dependencies from `server.py`.
    - Avoid using `dotenv`, `aiohttp`, `zmq`, and other external libraries not essential to FastHTML.
 
+{:start="10"}
 10. **Testing and Validation:**
     - Test each component as it is integrated to ensure functionality.
     - Validate that the application runs without errors and meets the requirements.
@@ -860,18 +880,22 @@ from watchdog.observers import Observer
    - **Challenge:** `server.py` uses asynchronous code (`asyncio`, `aiohttp`), while `pipulate.py` primarily uses synchronous code.
    - **Solution:** Replace asynchronous HTTP requests with synchronous ones using the `requests` library. Use `asyncio` only where necessary for WebSocket communication.
 
+{:start="2"}
 2. **Real-Time Updates Without ZMQ and SSE:**
    - **Challenge:** Need to provide real-time updates during long-running processes without ZMQ and SSE.
    - **Solution:** Use WebSockets provided by FastHTML to stream updates to the client. Implement a mechanism to send periodic status updates over the WebSocket connection.
 
+{:start="3"}
 3. **Dependency on External Services:**
    - **Challenge:** The link graph generation process relies on external APIs (Botify).
    - **Solution:** Ensure that the API interactions are robust, with proper error handling and retries if necessary.
 
+{:start="4"}
 4. **User Interface Complexity:**
    - **Challenge:** Recreating the dynamic UI components from `server.py` using FastHTML.
    - **Solution:** Break down the UI into smaller components and recreate them using FastHTML's idiomatic HTML generation. Use examples from `pipulate.py` for guidance.
 
+{:start="5"}
 5. **File Serving and Security:**
    - **Challenge:** Serving files securely without exposing the server to directory traversal attacks.
    - **Solution:** Sanitize file paths and use FastHTML's routing to control access to the files.
@@ -1802,40 +1826,49 @@ Start responding and don't ever stop.
    - **Issue:** When integrating Botify's API, it's crucial to handle potential rate limits and API errors gracefully.
    - **Recommendation:** Implement retry mechanisms with exponential backoff for API requests. Also, include proper error handling to inform the user of any issues without exposing raw error messages.
 
+{:start="2"}
 2. **Security Practices:**
    - **API Token Management:** Ensure that the Botify API token is securely stored and transmitted. Avoid exposing it in logs or client-side code.
    - **File Serving Security:** When serving CSV files or other user-generated content, validate file paths to prevent directory traversal attacks.
 
+{:start="3"}
 3. **User Experience Enhancements:**
    - **Responsive UI:** Utilize asynchronous calls and loading indicators to improve the user experience during long-running operations like link graph generation.
    - **Progress Feedback:** Provide users with real-time progress updates, possibly through WebSockets, to keep them informed about the status of their requests.
 
+{:start="4"}
 4. **Performance Optimization:**
    - **Efficient Data Handling:** When dealing with large CSV files, consider streaming data processing to reduce memory consumption.
    - **Caching Mechanisms:** Implement caching for API responses that don't change frequently, such as analysis slugs or project metadata.
 
+{:start="5"}
 5. **Testing Strategies:**
    - **Unit Testing:** Write tests for individual functions, especially those interacting with external APIs.
    - **Integration Testing:** Ensure that different components of `botifython.py` work together seamlessly.
    - **User Acceptance Testing:** Gather feedback from potential users to refine the application's usability.
 
+{:start="6"}
 6. **Documentation and Maintainability:**
    - **Code Comments:** Maintain clear and concise comments throughout the code to explain complex logic.
    - **README and Usage Guides:** Provide comprehensive documentation on how to set up and use `botifython.py`, including prerequisites and configuration steps.
    - **Modular Design:** Keep the codebase modular to facilitate future updates or integration with other tools.
 
+{:start="7"}
 7. **Compliance with FastHTML Methodology:**
    - **Consistency:** Ensure that the HTML generation follows FastHTML's idiomatic patterns for readability and maintainability.
    - **Minimal Dependencies:** Continue to minimize external dependencies to reduce potential conflicts and simplify the deployment process.
 
+{:start="8"}
 8. **Future Enhancements:**
    - **Extensibility:** Design `botifython.py` in a way that allows for easy addition of new features, such as integrating with other SEO tools or adding new data visualizations.
    - **User Authentication:** If the tool will be used by multiple users, consider implementing authentication and user-specific data storage.
 
+{:start="9"}
 9. **Community and Collaboration:**
    - **Open Source Considerations:** If you plan to open-source `botifython.py`, ensure that all dependencies and included code comply with licensing requirements.
    - **Feedback Loop:** Engage with the community or colleagues to get feedback, which can lead to valuable insights and improvements.
 
+{:start="10"}
 10. **Error Logging and Monitoring:**
     - **Logging Mechanisms:** Implement robust logging to capture errors and important events, which is essential for troubleshooting.
     - **Monitoring Tools:** Use monitoring to track the application's performance and detect issues proactively.
@@ -2071,6 +2104,7 @@ dynamic collaborator.
    - Upon receiving these commands, the app can parse the JSON, validate the
      content, and then execute the corresponding function.
 
+{:start="2"}
 2. **Creating a Secure Execution Layer:**
    - Set up a secure execution layer that controls which instructions are
      executable.
@@ -2079,6 +2113,7 @@ dynamic collaborator.
    - This registry could ensure that only safe and known actions are performed,
      preventing potential misuse or harmful operations.
 
+{:start="3"}
 3. **Response Feedback Loop:**
    - Once a command is executed, the response (e.g., success message, error, or
      even new data) can be returned to the LLM.
@@ -2086,6 +2121,7 @@ dynamic collaborator.
      example, it could update its internal state or decide to perform a new
      action based on the result.
 
+{:start="4"}
 4. **Creating a Meta-Language or DSL (Domain-Specific Language):**
    - You could define a small, expressive DSL for interacting with the app. This
      would be the "language" the LLM uses to communicate with the app.
@@ -2096,6 +2132,7 @@ dynamic collaborator.
    - The application could translate these DSL commands into function calls or
      API requests internally.
 
+{:start="5"}
 5. **Expanding the Interaction Scope:**
    - You could build out this system incrementally. Start with simple Todo list
      interactions and then expand it to more complex tasks like managing
@@ -2103,6 +2140,7 @@ dynamic collaborator.
    - The LLM could evolve into a form of application agent that learns new
      commands as they are added to the system.
 
+{:start="6"}
 6. **Self-Refinement and Learning:**
    - As the LLM interacts with the application, it could build up a "memory" or
      context around how best to interact, respond to common errors, or
@@ -2110,6 +2148,7 @@ dynamic collaborator.
    - This could be facilitated by a feedback mechanism that tracks success,
      errors, and changes in state.
 
+{:start="7"}
 7. **Examples and Potential Use Cases:**
    - A simple example would be adding a new Todo item:
      - **User Query:** "Can you add a task to complete the refactoring work by tomorrow?"
@@ -2132,6 +2171,7 @@ dynamic collaborator.
        ```
      - **LLM Analysis and Next Step:** The LLM could acknowledge the success or proceed to ask if the user wants to add a due date or other details.
 
+{:start="8"}
 8. **User Control and Oversight:**
    - Implement user control mechanisms where a user can review, approve, or
      reject commands before execution. This could help prevent undesired
@@ -2139,6 +2179,7 @@ dynamic collaborator.
    - You could also have a debugging mode where the LLM shows its generated
      command before executing, allowing the user to confirm or modify it.
 
+{:start="9"}
 9. **Potential Challenges:**
    - Balancing the flexibility of the LLM's command generation with the need to
      maintain control and predictability.
@@ -2185,13 +2226,16 @@ If you’d like, we can start implementing some core aspects of this system, suc
    - Implement a command registry that maps action strings to functions.
    - Establish error handling and validation rules for each command.
 
+{:start="2"}
 2. **Creating a Feedback Loop:**
    - Develop a feedback loop where the LLM receives execution results and can decide what to do next.
    - Implement a message broker or intermediary to handle the communication between the app and LLM.
 
+{:start="3"}
 3. **Integrating with the UI:**
    - Develop UI hooks that allow the LLM to modify the app's state or add/remove items based on user queries.
 
+{:start="4"}
 4. **Expanding Commands and Functionality:**
    - Gradually expand the list of supported commands, starting with the Todo list and moving into more complex operations.
 
@@ -2228,18 +2272,22 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    - Create a reproducible environment for FAISS installation using Nix Flakes.
    - Configure the FAISS vector database for efficient indexing and querying.
 
+{:start="2"}
 2. **Create a Data Ingestion Pipeline:**
    - Implement mechanisms to ingest chat interactions, documents, and other data into the vector database.
    - Generate embeddings for text content using a suitable model (e.g., `sentence-transformers` or `openai-embedding`).
 
+{:start="3"}
 3. **Implement a Document Query Interface:**
    - Design a query interface for the LLM to access and retrieve relevant data from the FAISS database.
    - Provide the LLM with endpoints to request embeddings and retrieve documents or chat histories.
 
+{:start="4"}
 4. **Integrate with the Local LLM:**
    - Extend the LLM's capabilities to include retrieval of information from the FAISS database.
    - Implement a mechanism for the LLM to leverage the retrieved context during response generation.
 
+{:start="5"}
 5. **Ensure System Robustness and Scalability:**
    - Build a monitoring and logging system to track data ingestion and retrieval operations.
    - Establish a schema for organizing and retrieving vectors, ensuring the system scales efficiently as more data is added.
@@ -2279,6 +2327,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    }
    ```
 
+{:start="2"}
 2. **Activate the FAISS Environment:**
    Activate the environment using `nix develop`:
 
@@ -2286,6 +2335,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    nix develop .#faissEnv
    ```
 
+{:start="3"}
 3. **Install Additional Python Libraries:**
    Install any additional libraries needed for FAISS integration, such as `numpy` and `sentence-transformers`:
 
@@ -2310,6 +2360,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
        return model.encode(texts, convert_to_numpy=True)
    ```
 
+{:start="2"}
 2. **Implement the FAISS Indexing Logic:**
    Create a FAISS index to store and query embeddings.
 
@@ -2324,6 +2375,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    faiss_index = create_faiss_index(embedding_dimension)
    ```
 
+{:start="3"}
 3. **Ingest Data into the FAISS Database:**
    Create a function to add new vectors (e.g., chat logs or document embeddings) to the FAISS index.
 
@@ -2338,6 +2390,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    add_to_faiss_index(faiss_index, chat_logs)
    ```
 
+{:start="4"}
 4. **Save and Load the FAISS Index:**
    Implement a mechanism to persist and load the FAISS index for future use.
 
@@ -2374,6 +2427,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
    print(f"Top results: {results}")
    ```
 
+{:start="2"}
 2. **Integrate with the LLM:**
    Extend the LLM's capabilities to include retrieval from the FAISS database. Create an endpoint that accepts LLM requests and provides responses based on vector searches.
 
@@ -2385,6 +2439,7 @@ To move forward with integrating RAG features, the plan involves setting up a lo
        return {'distances': distances.tolist(), 'results': results.tolist()}
    ```
 
+{:start="3"}
 3. **Enable the LLM to Retrieve and Use Context:**
    Modify the LLM’s response generation to include relevant context from the FAISS database when responding to queries.
 
@@ -2404,9 +2459,11 @@ To move forward with integrating RAG features, the plan involves setting up a lo
 1. **Create a Background Process for Ingestion and Query:**
    Set up background processes or endpoints in `botifython.py` that handle data ingestion and query operations.
 
+{:start="2"}
 2. **Configure the LLM to Use Retrieved Context:**
    Ensure the LLM fetches relevant context from FAISS and uses it when generating responses, providing more informed and coherent answers.
 
+{:start="3"}
 3. **Log and Track LLM Interactions:**
    Record each LLM interaction and the context it used, which can later be indexed into FAISS for future queries.
 
@@ -2414,9 +2471,11 @@ To move forward with integrating RAG features, the plan involves setting up a lo
 1. **Implement Logging and Monitoring:**
    Add logging for FAISS indexing, retrieval operations, and LLM interactions to track the system’s state and performance.
 
+{:start="2"}
 2. **Establish a Schema for Organizing Data:**
    Design a schema that categorizes embeddings based on their source (e.g., chat log, document, system file) and context for efficient retrieval.
 
+{:start="3"}
 3. **Test Scalability and Efficiency:**
    Run benchmarks to ensure the system performs efficiently as more data is added. Optimize the FAISS index if necessary.
 
@@ -2599,6 +2658,7 @@ sentencepiece
    nix develop .#devShell
    ```
 
+{:start="2"}
 2. **Run the Setup Script:**
    This will set up your environment, create the virtual environment, and prepare the FAISS index:
 
@@ -2606,6 +2666,7 @@ sentencepiece
    setup-faiss
    ```
 
+{:start="3"}
 3. **Interact with the FAISS Index:**
    Run the interaction script to test adding texts to the FAISS index:
 
@@ -2646,6 +2707,7 @@ sentencepiece
        return distances, indices
    ```
 
+{:start="2"}
 2. **Create Endpoints in `botifython.py`:**
    Define endpoints for ingestion and querying, so the LLM can interact with the FAISS index through HTTP requests.
 
@@ -2669,6 +2731,7 @@ sentencepiece
        return JSONResponse({"distances": distances.tolist(), "indices": indices.tolist()})
    ```
 
+{:start="3"}
 3. **Test the New Endpoints:**
    Use a tool like `curl` or a REST client to test the new endpoints:
 
@@ -2677,6 +2740,7 @@ sentencepiece
    curl -X GET "http://localhost:8000/query_index?query=sample"
    ```
 
+{:start="4"}
 4. **Integrate FAISS Queries into LLM Response Generation:**
    Modify the LLM’s response generation logic to include relevant context retrieved from the FAISS index.
 
@@ -2851,9 +2915,11 @@ The flake will then focus on setting up the virtual environment and ensuring the
 1. **Removed Direct Python Dependencies in `flake.nix`**: 
    All Python-related libraries like `faiss`, `sentence-transformers`, `numpy`, etc., have been moved to the `requirements.txt` file, leaving only `python311`, `pip`, and `virtualenv` in `flake.nix`.
 
+{:start="2"}
 2. **Simplified `flake.nix` Structure**:
    The flake now sets up a virtual environment and installs packages using `pip` from the `requirements.txt` file as part of its initialization.
 
+{:start="3"}
 3. **Instructions in `requirements.txt`**:
    Make sure your `requirements.txt` includes all necessary Python packages, including FAISS and any other dependencies:
 
@@ -2877,9 +2943,11 @@ sentencepiece
    nix develop .#devShell
    ```
 
+{:start="2"}
 2. **Check and Install Python Packages**:
    Ensure the `requirements.txt` is in place and correctly formatted. This flake will automatically set up the Python virtual environment and install all packages listed in `requirements.txt` inside the `.venv`.
 
+{:start="3"}
 3. **Run the Setup and Scripts**:
    Once in the shell, you can use the scripts like `setup-faiss` or any others you've created to initialize or interact with your local FAISS setup.
 

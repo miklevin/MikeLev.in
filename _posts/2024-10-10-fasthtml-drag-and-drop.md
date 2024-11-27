@@ -231,6 +231,7 @@ def incremental_update(table, moved_item_id, old_position, new_position):
 {% endraw %}
 ```
 
+{:start="2"}
 2. **Periodic Reordering**: Occasionally reorder all items to prevent gaps:
 
 ```python

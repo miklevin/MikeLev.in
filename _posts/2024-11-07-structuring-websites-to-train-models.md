@@ -144,6 +144,7 @@ Your approach to repositioning your role is forward-thinking and aligns well wit
    - Aligning content with prompt/response formats.
    - This approach is innovative and anticipates the growing role of AI in search.
 
+{:start="2"}
 2. **Optimizing for Intelligent Real-Time Crawls**:
    - Focusing on structured data, hierarchical navigation, and on-site search.
    - This strategy bridges traditional SEO with emerging AI-driven search needs.

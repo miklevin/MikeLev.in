@@ -604,18 +604,22 @@ After implementing the changes, test each CRUD operation:
    - Add a new todo or profile.
    - Verify that the LLM comments on the addition.
 
+{:start="2"}
 2. **Update an Item:**
    - Edit an existing item.
    - Ensure the LLM mentions the changes.
 
+{:start="3"}
 3. **Delete an Item:**
    - Delete an item.
    - Check that the LLM acknowledges the deletion.
 
+{:start="4"}
 4. **Toggle an Item:**
    - Mark a todo as done or not done.
    - Confirm the LLM notes the status change.
 
+{:start="5"}
 5. **Sort Items:**
    - Reorder items.
    - See if the LLM comments on the new order.
@@ -1236,17 +1240,21 @@ After implementing the modifications, you should test each functionality:
    - Add new todos and profiles.
    - Ensure that the LLM comments correctly, using the appropriate item names.
 
+{:start="2"}
 2. **Updating Items:**
    - Update existing items.
    - Verify that changes are accurately reported by the LLM.
 
+{:start="3"}
 3. **Deleting Items:**
    - Delete items and check that the LLM acknowledges the deletion with the correct item names.
 
+{:start="4"}
 4. **Toggling Items:**
    - Toggle the status of items (e.g., marking a todo as done).
    - Confirm that the LLM comments on the status change using the correct field.
 
+{:start="5"}
 5. **Sorting Items:**
    - Reorder items and ensure the LLM comments reflect the new order with correct item names.
 
@@ -1580,21 +1588,26 @@ After making the modifications, test each CRUD operation:
    - Add new todos and profiles.
    - Verify the LLM comments on the addition.
 
+{:start="2"}
 2. **Read**:
    - Ensure that displaying items doesn't need LLM interaction (unless desired).
 
+{:start="3"}
 3. **Update**:
    - Modify existing items.
    - Confirm the LLM reports the changes with before and after states.
 
+{:start="4"}
 4. **Delete**:
    - Remove items.
    - Check that the LLM acknowledges the deletion.
 
+{:start="5"}
 5. **Toggle**:
    - Change the status of items.
    - Ensure the LLM comments on the status change.
 
+{:start="6"}
 6. **Sort**:
    - Reorder items.
    - Verify the LLM describes the new order.
@@ -1654,6 +1667,7 @@ This setup not only enhances the interactivity of your application but also lays
    - LLM receives the prompt: `"The user added a new item 'Buy groceries' (ID: 5) to todos."`
    - LLM responds: `"Got it! 'Buy groceries' has been added to your todo list."`
 
+{:start="2"}
 2. **User Updates a Profile**
 
    - User changes the profile name from "Work" to "Office".
@@ -1661,6 +1675,7 @@ This setup not only enhances the interactivity of your application but also lays
    - LLM receives the prompt: `"The user updated 'Work' (ID: 2) in profiles: name changed from 'Work' to 'Office'."`
    - LLM responds: `"Profile 'Work' is now updated to 'Office'. Keeping things organized!"`
 
+{:start="3"}
 3. **User Deletes a Todo Item**
 
    - User deletes "Read a book".
@@ -1682,12 +1697,16 @@ Here's a summary of the current state and any additional changes we might need:
 
 1. **Insert Item**: The current implementation already informs the LLM about new items being added.
 
+{:start="2"}
 2. **Update Item**: The existing code captures before and after states and informs the LLM about changes.
 
+{:start="3"}
 3. **Delete Item**: The current implementation already informs the LLM about item deletion.
 
+{:start="4"}
 4. **Toggle Item**: The existing code informs the LLM about status changes.
 
+{:start="5"}
 5. **Sort Items**: The current implementation informs the LLM about reordering.
 
 The main areas we might want to focus on are:

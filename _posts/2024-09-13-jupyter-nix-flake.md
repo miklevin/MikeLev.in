@@ -268,6 +268,7 @@ With this flake, sharing the development environment becomes straightforward:
    cd pipulate
    ```
 
+{:start="2"}
 2. **Enter the Development Shell**:
 
    ```bash
@@ -276,6 +277,7 @@ With this flake, sharing the development environment becomes straightforward:
 
    This command sets up the development environment with all the specified packages.
 
+{:start="3"}
 3. **Start JupyterLab**:
 
    ```bash

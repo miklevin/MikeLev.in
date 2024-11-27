@@ -654,12 +654,16 @@ async def execute_crud_operation(base_app_instance, operation_data):
     # ... your existing code ...
 ```
 
+{:start="2"}
 2. **Verify HTMX Request**: In your browser's Network tab, look for an HTMX request to the `/task` endpoint (or your equivalent endpoint for the task list) after the LLM attempts to insert a task.
 
+{:start="3"}
 3. **Check WebSocket Messages**: If you're using WebSockets, monitor the WebSocket traffic in your browser's developer tools. Ensure that messages are sent and received correctly when the LLM adds a task.
 
+{:start="4"}
 4. **Inspect the DOM**: After the LLM adds a task, inspect the DOM using your browser's developer tools (Elements tab). Verify that a new list item (`<li>`) with the task details is added to the task list.
 
+{:start="5"}
 5. **Check for JavaScript Errors**: Open your browser's developer tools (Console tab) and look for any JavaScript errors that might be preventing the UI from updating.
 
 I'm here to help you through this debugging process. Please provide more details about:
@@ -764,6 +768,7 @@ I'm determined to help you resolve this. Let's work through it systematically!
 
 1. **WebSocket Setup**: We need to figure out why `app._send` is not available in `insert_item_to_list`.  This likely has to do with how you've set up your WebSocket route and the `setup_ws` function in FastHTML. Double-check that you're calling `setup_ws(app)` somewhere in your application initialization.
 
+{:start="2"}
 2. **Table Filtering**:  The `None` result from `base_app_instance.table.xtra(profile_id=current_profile_id)` indicates that no tasks match the `profile_id`. This could be due to:
     * **Incorrect `profile_id`**: Ensure the `current_profile_id` is being retrieved and passed correctly.
     * **Database Query**: Verify that the `xtra` method (or your equivalent filtering method) is working as expected and actually returns a filtered list of tasks.
@@ -775,6 +780,7 @@ I'm determined to help you resolve this. Let's work through it systematically!
     * **Inspect WebSocket Route**: Double-check your WebSocket route definition and make sure it aligns with the FastHTML documentation.
     * **Consider Alternatives**: If `setup_ws` is causing difficulties, explore alternative ways to send WebSocket messages in FastHTML, perhaps using a more direct approach.
 
+{:start="2"}
 2. **Table Filtering Fix**:
     * **Log `current_profile_id`**: Add a log statement to print the `current_profile_id` before the filtering operation to confirm its value.
     * **Test Filtering Separately**: Write a small test to isolate the filtering logic and ensure that `base_app_instance.table.xtra(profile_id=current_profile_id)` returns the expected results.
@@ -1692,6 +1698,7 @@ more reliable solutions. Onward and upward! 🚀
    - Added "the" before "Reins" for grammatical accuracy.
    - Maintained the original intent and flair of your headline.
 
+{:start="2"}
 2. **Closing Paragraph:**
    - **Tone:** Maintains a light and personal tone with emojis to keep it engaging.
    - **Content:** Reflects on the challenges faced, the temporary setback, and the strategic shift towards code cleanup and deeper understanding.

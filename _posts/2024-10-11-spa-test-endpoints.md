@@ -93,22 +93,31 @@ entirety arranged for beauty.
 
 1. **Consistent Section Headers**: The program is organized into clear sections using comment headers (`# *******************************`) to delineate different parts of the application. This enhances readability and allows for quick navigation through the code.
 
+{:start="2"}
 2. **Detailed Function Docstrings**: Each function includes comprehensive docstrings that explain its purpose, arguments, and return values. This is crucial for maintainability and for other developers to understand the codebase.
 
+{:start="3"}
 3. **Logging Enhancements**: The logging statements are strategically placed to provide insights into the application's behavior, especially during error handling and critical operations like database updates and WebSocket interactions.
 
+{:start="4"}
 4. **Error Handling**: Robust error handling ensures that the application can gracefully handle unexpected scenarios, such as missing profiles or failed database operations, without crashing.
 
+{:start="5"}
 5. **WebSocket Management**: The WebSocket functions manage user connections effectively, maintaining a dictionary of connected users and ensuring that messages are correctly streamed to all active clients.
 
+{:start="6"}
 6. **Asynchronous Operations**: The use of `asyncio` and asynchronous functions ensures that the application remains responsive, especially during I/O-bound operations like network requests and database interactions.
 
+{:start="7"}
 7. **UI Feedback**: Functions like `stream_chat` simulate a typing effect, enhancing the user experience by making interactions feel more natural and engaging.
 
+{:start="8"}
 8. **Configuration Constants**: All configurable settings, such as `APP_NAME`, `MAX_LLM_RESPONSE_WORDS`, and menu widths, are defined at the top of the program. This centralization makes it easier to adjust settings without digging through the code.
 
+{:start="9"}
 9. **Utility Functions**: Helper functions like `pluralize` and `generate_menu_style` promote code reuse and reduce redundancy, making the codebase cleaner and more efficient.
 
+{:start="10"}
 10. **Database Wrapper**: The `DictLikeDB` class provides a convenient interface for interacting with the database, abstracting away the underlying implementation and simplifying data access patterns.
 
 By adhering to these organizational and coding best practices, the program achieves a high level of clarity, maintainability, and aesthetic appeal, making it easier for developers to understand and work with the codebase.
@@ -453,10 +462,12 @@ Here's a breakdown of the test cases provided:
     - Tests the accessibility of main routes: `'/'`, `'/todo'`, `'/profiles'`, `'/link_graph'`, and `'/gap_analysis'`.
     - Asserts that each route returns a `200 OK` status and that the response is in JSON format.
 
+{:start="2"}
 2. **Profile Menu Handler (`test_profile_menu_handler`)**:
     - Tests the `/profiles/{profile_id}` endpoint.
     - Mocks a profile and checks if the endpoint responds correctly.
 
+{:start="3"}
 3. **Todo Endpoints**:
     - **Create Todo (`test_create_todo`)**: Tests the creation of a new todo item.
     - **Delete Todo (`test_delete_todo`)**: Tests the deletion of an existing todo item.
@@ -464,6 +475,7 @@ Here's a breakdown of the test cases provided:
     - **Update Todo (`test_update_todo`)**: Tests updating the title of a todo item.
     - **Update Todo Order (`test_update_todo_order`)**: Tests reordering of todo items.
 
+{:start="4"}
 4. **Profiles Endpoints**:
     - **Get Profiles (`test_get_profiles`)**: Tests retrieval of all profiles.
     - **Add Profile (`test_add_profile`)**: Tests the creation of a new profile.
@@ -473,12 +485,15 @@ Here's a breakdown of the test cases provided:
     - **Update Profile Order (`test_update_profile_order`)**: Tests reordering of profiles.
     - **Profile App (`test_profile_app`)**: Tests the `/profile` endpoint.
 
+{:start="5"}
 5. **Search Endpoint (`test_search`)**:
     - Tests the `/search` endpoint, ensuring it responds correctly when a search is attempted.
 
+{:start="6"}
 6. **Poke Endpoint (`test_poke_chatbot`)**:
     - Tests the `/poke` endpoint, ensuring the chatbot responds to a poke.
 
+{:start="7"}
 7. **WebSocket Endpoint (`test_websocket`)**:
     - Tests the `/ws` WebSocket endpoint by sending a message and verifying the chatbot's response.
 
@@ -504,16 +519,20 @@ While the provided tests cover the primary endpoints, consider the following to 
     - Test how endpoints handle invalid input data.
     - Ensure proper error messages and status codes are returned for unexpected scenarios.
 
+{:start="2"}
 2. **Authentication and Authorization**:
     - If your application has authentication mechanisms, include tests to verify access controls.
 
+{:start="3"}
 3. **Performance Testing**:
     - Assess how your application behaves under load, ensuring endpoints remain responsive.
 
+{:start="4"}
 4. **WebSocket Specific Tests**:
     - Test scenarios like multiple simultaneous WebSocket connections.
     - Verify the handling of disconnections and reconnections.
 
+{:start="5"}
 5. **Integration Tests**:
     - Test the interaction between different components of your application to ensure they work together seamlessly.
 

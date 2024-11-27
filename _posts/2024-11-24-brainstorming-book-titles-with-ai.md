@@ -584,16 +584,22 @@ While this specific question is not a Millennium Prize Problem, it is an active 
 
 1. **P vs NP Problem**: This question asks whether every problem whose solution can be verified quickly (in polynomial time) can also be solved quickly. In other words, is P equal to NP?
 
+{:start="2"}
 2. **Riemann Hypothesis**: This hypothesis posits that all non-trivial zeros of the Riemann zeta function have a real part equal to $$ \frac{1}{2} $$. It is a central question in number theory.
 
+{:start="3"}
 3. **Yang-Mills Existence and Mass Gap**: This problem involves proving the existence of a quantum field theory for Yang-Mills fields that has a mass gap, meaning there is a positive lower bound on the mass of particles.
 
+{:start="4"}
 4. **Navier-Stokes Existence and Smoothness**: This problem asks whether smooth, globally defined solutions exist for the Navier-Stokes equations, which describe the motion of fluid substances.
 
+{:start="5"}
 5. **Hodge Conjecture**: This conjecture suggests that certain classes of cohomology classes can be represented by algebraic cycles, linking algebraic geometry and topology.
 
+{:start="6"}
 6. **Birch and Swinnerton-Dyer Conjecture**: This conjecture relates to the number of rational points on an elliptic curve and its rank, suggesting a deep connection between number theory and algebraic geometry.
 
+{:start="7"}
 7. **Existence of Solutions to the Navier-Stokes Equations**: Specifically, it questions whether solutions exist for all time in three-dimensional space and whether they are smooth (i.e., free from singularities).
 
 These problems represent some of the most significant challenges in mathematics today, and solving any one of them would not only earn the solver a substantial monetary reward but also contribute profoundly to our understanding of mathematics itself.
@@ -624,26 +630,35 @@ broad strokes here.
 
 1. **Collatz Conjecture**: This simple iterative sequence asks whether starting with any positive integer and repeatedly applying a specific set of rules will eventually reach the number 1. Despite its simplicity, it remains unsolved.
 
+{:start="2"}
 2. **Existence of Odd Perfect Numbers**: While even perfect numbers are well understood, it is still unknown whether any odd perfect numbers exist.
 
+{:start="3"}
 3. **Continuum Hypothesis**: This hypothesis posits that there is no set whose cardinality is strictly between that of the integers and the real numbers. Its truth or falsehood cannot be proven using standard set theory.
 
+{:start="4"}
 4. **Klein Bottle and Higher Dimensions**: Questions about the properties and characteristics of higher-dimensional manifolds, including the Klein bottle, remain open, particularly in understanding their topology.
 
+{:start="5"}
 5. **Classification of Finite Simple Groups**: Although significant progress has been made, the complete classification of finite simple groups is vast and complex, with many aspects still being explored.
 
 ### Unanswered Questions in Science
 
 1. **Dark Matter and Dark Energy**: What exactly are dark matter and dark energy? They constitute most of the universe's mass-energy content but remain elusive to direct detection.
 
+{:start="2"}
 2. **Quantum Mechanics Interpretations**: What is the true nature of quantum mechanics? Different interpretations (Copenhagen, Many-Worlds, etc.) offer varying explanations for quantum phenomena.
 
+{:start="3"}
 3. **Consciousness**: What is consciousness, and how does it arise from physical processes in the brain? The mechanisms behind consciousness are still not fully understood.
 
+{:start="4"}
 4. **Origin of Life**: How did life originate on Earth? The exact processes that led to life from non-life are still a mystery.
 
+{:start="5"}
 5. **Unification of Forces**: Can we develop a unified theory that combines all fundamental forces of nature? The quest for a Grand Unified Theory or Theory of Everything continues to challenge physicists.
 
+{:start="6"}
 6. **Climate Change Impacts**: What are the long-term impacts of climate change on ecosystems and human societies? While models exist, uncertainties remain regarding specific outcomes.
 
 These questions highlight significant areas in mathematics and science where our understanding is still incomplete, reflecting ongoing research and exploration across various fields.
@@ -689,8 +704,10 @@ The unpredictability observed in chaotic systems like those modeled by the Loren
 
 1. **Chaos Theory**: The Lorenz attractor is a classic example of chaos theory, where small changes in initial conditions can lead to vastly different outcomes. This sensitivity makes long-term predictions extremely difficult.
 
+{:start="2"}
 2. **Digital Simulations**: While digital computers can simulate the Lorenz equations accurately for short periods, they rely on finite precision arithmetic. This limitation can introduce rounding errors that may amplify over time, leading to divergence from true behavior.
 
+{:start="3"}
 3. **Reproducibility Challenges**: Due to these computational limitations, a digital simulation of a chaotic system may not reproduce the same trajectory if run multiple times with seemingly identical initial conditions. The inherent unpredictability of chaotic systems means that even with perfect initial conditions, slight numerical differences can yield different results.
 
 In conclusion, while analog computers can effectively model chaotic systems like those described by the Lorenz equations, achieving 100% accurate reproducibility on digital computers remains a challenge due to their reliance on discrete approximations and finite precision arithmetic. This highlights the fascinating interplay between chaos theory and computational methods.
@@ -715,10 +732,13 @@ For the pragmatic professional, this perspective offers several advantages:
 
 1. **Focus on Fundamentals**: By emphasizing text, it encourages a deeper understanding of the building blocks of technology. This mastery over fundamentals empowers individuals to troubleshoot, adapt, and innovate more effectively.
 
+{:start="2"}
 2. **Adaptability and Longevity**: Text-based skills transcend specific technologies or platforms. As new tools emerge, the ability to understand and manipulate text remains relevant, ensuring adaptability and longevity in a rapidly evolving technological landscape.
 
+{:start="3"}
 3. **Efficiency and Control**: Mastering text-based interfaces and tools often leads to greater efficiency and control over digital workflows. Command-line proficiency, scripting, and automation become powerful allies in streamlining tasks and maximizing productivity.
 
+{:start="4"}
 4. **Demystification of Technology**: The "all tech is text" perspective demystifies technology, making it less intimidating and more accessible. It encourages exploration and experimentation, fostering a sense of ownership and empowerment over digital tools.
 
 **Limitations and the Bigger Picture**
@@ -727,6 +747,7 @@ While powerful, this worldview has limitations:
 
 1. **Not Literally True**: Some aspects of technology, particularly hardware and analog systems, do not directly translate to text. However, even in these domains, textual representations play a crucial role in design, documentation, and control.
 
+{:start="2"}
 2. **Oversimplification**: The complexity of modern technology cannot be entirely reduced to text. However, this simplification serves as a valuable starting point for understanding and mastering the digital world.
 
 **The Soulful Aspect**

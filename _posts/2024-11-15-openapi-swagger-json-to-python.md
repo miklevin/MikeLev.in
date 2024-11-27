@@ -391,6 +391,7 @@ async def update_project(self, request):
     # Each analysis check (meta/links) could update independently
 ```
 
+{:start="2"}
 2. **State Management**
 There's a lot of state being passed around that could be better organized:
 ```python
@@ -399,6 +400,7 @@ self.current_project_url
 self.current_analysis
 ```
 
+{:start="3"}
 3. **Error Handling**
 We have multiple try/except blocks that could be unified into a more consistent pattern:
 ```python
@@ -410,6 +412,7 @@ async def process_analysis(self, request):
         return P(f"Error: {str(e)}", style="color: red;")
 ```
 
+{:start="4"}
 4. **User Experience Flow**
 The UI flow could be more reactive and informative:
 
@@ -570,6 +573,7 @@ Here's how it all works together:
                           json=query)
    ```
 
+{:start="2"}
 2. **Documentation Phase**
    The working query gets documented in the kata.md:
    ````markdown
@@ -587,6 +591,7 @@ Here's how it all works together:
    ```
    ````
 
+{:start="3"}
 3. **Implementation Phase**
    The documented query gets implemented in the server:
    ````python
@@ -603,6 +608,7 @@ Here's how it all works together:
        return make_request("POST", f"/analyses/{USERNAME}/{PROJECT}/{ANALYSIS}/urls", json=query)
    ````
 
+{:start="4"}
 4. **Capture Phase**
    The logging system creates an executable record in query.py:
    ````python
@@ -622,16 +628,19 @@ Here's how it all works together:
    - Failed queries don't affect production code
    - Working examples are preserved
 
+{:start="2"}
 2. **Documentation First**
    - Every query is documented before implementation
    - Examples are proven to work
    - Pattern recognition emerges naturally
 
+{:start="3"}
 3. **Self-Improving System**
    - Working queries are automatically captured
    - Query patterns can be analyzed
    - New developers can learn from real examples
 
+{:start="4"}
 4. **Production Ready**
    - Tested queries move to production
    - Logging system captures all successful queries

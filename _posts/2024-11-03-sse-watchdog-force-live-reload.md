@@ -268,26 +268,32 @@ persistent database connections that might prevent clean shutdowns.
      - **`time`**: Adds delay functionality if the server restart needs to be retried.
      - **`watchdog`**: This library actively monitors file changes in real-time, automatically triggering a server restart when you save changes.
 
+{:start="2"}
 2. **Defining Paths**:
    - **`THIS_FILE = Path(__file__)`**: This captures the full path to the script itself, making it possible to know when changes are saved to this specific file.
 
+{:start="3"}
 3. **Syntax Checker (`check_syntax`)**:
    - This function verifies if the latest saved code is free from syntax errors. If there’s an error, it provides details (line number, error message, and location) to make debugging faster.
    - It parses the code using Python's `ast.parse()` to catch syntax issues before reloading, so if there’s an error, the server doesn’t restart with broken code.
 
+{:start="4"}
 4. **Restarting the Server (`restart_server`)**:
    - This function ensures the server fully restarts by executing the current Python script afresh.
    - It also includes a retry mechanism, where it attempts up to three restarts if the initial restart fails, with a 5-second delay between retries.
 
+{:start="5"}
 5. **File Change Handler (`ServerRestartHandler`)**:
    - **`on_modified`**: This method of the `ServerRestartHandler` class is triggered whenever a file is modified. If the modified file is the same as `THIS_FILE`, it initiates a syntax check, and if the syntax is correct, it calls `restart_server()` to restart the server.
 
+{:start="6"}
 6. **Watchdog-Driven Server Execution (`run_server_with_watchdog`)**:
    - This function sets up the watchdog observer to monitor file changes and connects it to the `ServerRestartHandler`.
    - It then starts the FastHTML (Uvicorn) server on a specific host and port (e.g., `0.0.0.0:5001`).
    - If there’s a keyboard interrupt (e.g., pressing `Ctrl+C`), it stops the observer and terminates cleanly.
    - In case of an error during server execution, it attempts to restart the server.
 
+{:start="7"}
 7. **Executing the Code (`if __name__ == "__main__"`)**:
    - This part is crucial for running the code directly. By placing the `run_server_with_watchdog()` function inside this conditional block, it ensures that the watchdog-enabled server only runs if this script is executed directly (not when imported as a module).
 

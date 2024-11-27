@@ -18,16 +18,22 @@ Key characteristics of web frameworks like Ruby on Rails and Django include:
 
 1. **Server-side focus**: They primarily handle backend logic and database interactions[1][2].
 
+{:start="2"}
 2. **MVC architecture**: Most follow the Model-View-Controller (MVC) design pattern or variations like Model-View-Template (MVT)[2][3].
 
+{:start="3"}
 3. **Rapid development**: They provide tools and conventions to speed up the development process[1][4].
 
+{:start="4"}
 4. **Database abstraction**: Offer Object-Relational Mapping (ORM) systems to simplify database interactions[3].
 
+{:start="5"}
 5. **Convention over configuration**: Many frameworks, especially Ruby on Rails, emphasize following conventions to reduce the need for explicit configuration[1][3].
 
+{:start="6"}
 6. **Built-in features**: They often include authentication, routing, and other common web application functionalities out of the box[4].
 
+{:start="7"}
 7. **Language-specific**: Each framework is typically associated with a specific programming language (e.g., Ruby for Rails, Python for Django)[2][3].
 
 These frameworks are designed to make web development more efficient and structured, allowing developers to focus on application-specific logic rather than reinventing common web application components.
@@ -487,6 +493,7 @@ To integrate RAG into your application, we need to ensure that all necessary dep
    faiss-cpu  # or faiss-gpu
    ```
 
+{:start="2"}
 2. **Modify Nix Flake to Include System Dependencies**
 
    If you choose to use Faiss, you might need to include system libraries in your Nix environment. Here's how you can modify your Nix Flake:
@@ -777,22 +784,26 @@ After making these modifications, test your application:
    nix develop
    ```
 
+{:start="2"}
 2. **Run Your Application:**
 
    ```bash
    bf
    ```
 
+{:start="3"}
 3. **Test File Upload:**
 
    - Use the interface to upload a CSV or text file.
    - Ensure that the file is processed, and its content is added to the vector store.
 
+{:start="4"}
 4. **Test User Actions:**
 
    - Perform actions like adding, updating, or deleting items.
    - Verify that these actions are indexed in the vector store.
 
+{:start="5"}
 5. **Test Chat Interactions:**
 
    - Interact with the chatbot and see if it utilizes the context from the vector store.
@@ -928,26 +939,31 @@ To make your application more effective while staying within your skill level, c
    - Implement a basic search over user actions and uploaded files using keyword matching.
    - Use Python's built-in libraries or simple packages like `whoosh` for full-text search.
 
+{:start="2"}
 2. **Simplify the Development Environment**
 
    - Transition from Nix Flakes to a more common setup using `virtualenv` and `pip`.
    - Provide a simple `setup.sh` script that automates environment setup for the user.
 
+{:start="3"}
 3. **Leverage Existing Chatbot Platforms**
 
    - Use platforms like [Rasa](https://rasa.com/) or [ChatterBot](https://chatterbot.readthedocs.io/en/stable/) if they fit your needs.
    - These platforms can handle much of the conversational logic out of the box.
 
+{:start="4"}
 4. **Enhance the User Interface**
 
    - Ensure that the web interface is clean and user-friendly.
    - Include helpful instructions and tooltips to guide users.
 
+{:start="5"}
 5. **Provide Clear Documentation**
 
    - Write straightforward instructions on how to install, run, and use the application.
    - Include troubleshooting tips for common issues.
 
+{:start="6"}
 6. **Community and Support**
 
    - Consider sharing your project on platforms like GitHub.
@@ -1177,6 +1193,7 @@ To get started with **Botifython**, all you really need is the initial ZIP downl
 
 1. **Download the Botifython ZIP file**: You can grab it [here](https://botifython.com/botifython-main.zip).
 
+{:start="2"}
 2. **Open a terminal** and extract the contents of the ZIP file.
 3. **Navigate into the project directory** using `cd botifython-main`
 4. **Run this single command**:

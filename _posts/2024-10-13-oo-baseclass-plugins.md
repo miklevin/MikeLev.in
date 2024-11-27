@@ -1988,18 +1988,23 @@ let deleteUrl = `/profile/delete/${id}`;
 1. **Removed `get_new_url` Function:**
    - Eliminated the hardwired URL generation mechanism to reduce complexity.
 
+{:start="2"}
 2. **Replaced `get_new_url` Usages:**
    - Updated `render_profile` and `render_todo` functions to use dynamic URL constructions based on the app's name.
 
+{:start="3"}
 3. **Added `get_action_url` Helper Method:**
    - Centralized URL generation logic within the `BaseApp` class for consistency.
 
+{:start="4"}
 4. **Modified `TodoApp` and `ProfileApp`:**
    - Utilized the `get_action_url` method in rendering functions to generate appropriate URLs.
 
+{:start="5"}
 5. **Ensured Consistent URL Patterns:**
    - Verified that all parts of the application adhere to the new URL patterns.
 
+{:start="6"}
 6. **Thorough Testing:**
    - Confirmed that all CRUD operations and UI elements function correctly with the updated URL generation.
 
@@ -2011,10 +2016,12 @@ let deleteUrl = `/profile/delete/${id}`;
    - **Dynamic Route Registration:** If you plan to add more apps, consider automating route registrations to streamline the process.
    - **Enhanced Error Handling:** Improve error messages and handling mechanisms for better user experience.
 
+{:start="2"}
 2. **Document the Changes:**
    - **Update Code Comments:** Ensure that all code comments reflect the current state of the application.
    - **Maintain Documentation:** Keep external documentation updated with the new URL patterns and functionalities.
 
+{:start="3"}
 3. **Monitor in Production:**
    - **Deploy Changes:** Once thoroughly tested, deploy the changes to your production environment.
    - **Monitor Logs:** Keep an eye on application logs for any unforeseen issues post-deployment.

@@ -395,8 +395,10 @@ def execute_minidataapi_command(json_data):
 
 1. **Operation Parsing:** 
    - The function reads the `operation` from the JSON and matches it with the corresponding MiniDataAPI operation (e.g., `insert`, `update`).
+{:start="2"}
 2. **Target Retrieval:** 
    - It looks for the `target` (table or profile) in the global scope.
+{:start="3"}
 3. **Executing Commands:** 
    - The appropriate MiniDataAPI command is executed based on the provided `operation` and `args`.
 

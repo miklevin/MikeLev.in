@@ -397,12 +397,16 @@ What’s likely coming next seems to be an exploration into practical steps for 
 
 1. **Listing and Filtering Relevant Data**: The current end-goal is to extract valuable data points, so the next section could outline the criteria for “active” or “relevant” projects, as well as specific filtering steps to sift through organization-level data.
 
+{:start="2"}
 2. **Code Implementation with BQL**: You might showcase how to harness Botify’s API effectively to parse through analysis slugs for each organization, particularly filtering down to just those few necessary to produce a comparative link-graph visualization.
 
+{:start="3"}
 3. **Visualization Setup**: Transitioning from data selection to data visualization seems inevitable. You could discuss the initial configuration, perhaps sharing a basic framework or a visualization setup within a Jupyter Notebook to superimpose Google Search Console (GSC) data over the link-graph.
 
+{:start="4"}
 4. **Reflection on Workflow Adjustments**: Since this article balances high-level technical tasks with personal productivity practices, it wouldn’t be surprising to see a section on workflow refinement, perhaps a few tweaks to make your link-graph and configuration structure more sustainable.
 
+{:start="5"}
 5. **Metaphorical or Philosophical Tie-In**: Wrapping up with a more philosophical or symbolic note—possibly comparing the setup process to the resilience of a character like John Henry—would give the article a satisfying, reflective close. The John Henry reference seems to suggest that, even amidst automation, there's value in preserving the ‘human spirit’ aspect of customization and control in data visualization.
 
 The article feels like it's about to culminate in practical examples and code snippets, building on the philosophical ideas you’ve established about discretion, muscle memory, and focus. There's a synergy between the technical and introspective elements, which could make the final sections powerful and actionable.
@@ -947,22 +951,26 @@ Here’s a step-by-step process to build effective BQL queries tailored to your 
 
 1. **Select the Collection:** Choose the primary collection that aligns with your analysis needs. For example, use `crawl.20241101` for the November 1st crawl data, `logs` for server log data, or `web_vitals.field_data` for Core Web Vitals.
 
+{:start="2"}
 2. **Define Dimensions:** Identify the fields you need for grouping or categorizing. For example:
    - `segments.pagetype.value` to analyze data by page type.
    - `depth` to group by click depth.
    - `metadata.title.quality` for evaluating title quality across pages.
 
+{:start="3"}
 3. **Specify Metrics:** Choose numerical data points that provide insights:
    - `count_urls_crawl` to get URL counts.
    - `metadata.title.len` to analyze title length.
    - `outlinks_internal.nb.total` to count internal links.
    - `inlinks.nb.total` to assess how well pages are interlinked.
 
+{:start="4"}
 4. **Apply Filters:** Refine the dataset by adding filters:
    - Filter by `depth` to analyze click depth distribution.
    - Use `metadata.title.len` to isolate URLs with short titles.
    - Apply `scoring.issues` flags to find pages with quality issues, such as missing H1s.
 
+{:start="5"}
 5. **Set Sorting:** Define the order of your results to highlight the most important insights first:
    - Sort by `metadata.title.len` in ascending order to find the shortest titles.
    - Sort by `count_urls_crawl` in descending order to highlight the most crawled pages.

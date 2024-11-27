@@ -356,38 +356,49 @@ This code challenges conventional wisdom by directly modifying environment files
 1. **Modular Imports with Wildcards**:
    The line `from fasthtml.common import *` imports everything from the `fasthtml.common` module. While this can be convenient, it can also introduce potential conflicts if there are overlapping names in the module. It's okay in this case because of what Jeremy says.
 
+{:start="2"}
 2. **Environment Variable Handling with `dotenv`**:
    The use of `dotenv` to manage environment variables is a neat way to load sensitive data from a `.env` file. The `load_dotenv()` function is called multiple times to ensure the latest environment variables are loaded after the secret is updated.
 
+{:start="3"}
 3. **Dynamic Route Decorators**:
    The `@rt("/")` decorator is used to define both the `GET` and `POST` handlers for the root URL. This is a concise way to register routes and link them to functions. The decorator-based approach feels very similar to Flask, making it intuitive for developers with prior experience in web frameworks.
 
+{:start="4"}
 4. **Password Input Field**:
    The code leverages the `Input(type="password", name="secret")` field within the form to handle secret data. This ensures that whatever the user types is hidden, following basic security principles for input forms.
 
+{:start="5"}
 5. **Form Submission Handling**:
    When a secret is not already set, the form appears for the user to submit a password. The form uses `POST` method to send the data back to the server, following best practices by keeping sensitive data out of the URL (as opposed to using a `GET` request).
 
+{:start="6"}
 6. **Use of `set_key` from `dotenv`**:
    The function `set_key('.env', 'SECRET', secret)` is used to dynamically update the `.env` file with the new secret. This writes directly into the environment file, adding persistence for the submitted data beyond the current runtime session.
 
+{:start="7"}
 7. **Conditional Logic for Secret Display**:
    The code handles two main cases: 
    - If the secret is already present in the environment, it displays a message saying "I already know your secret."
    - If not, it provides a form for submitting a secret. This logic allows for dynamic responses based on existing state.
 
+{:start="8"}
 8. **Environment Reloading**:
    After saving a new secret, the environment is reloaded (`load_dotenv()`) to reflect the updated variables in the same session, ensuring the changes are immediately visible within the running application.
 
+{:start="9"}
 9. **HTML Abstraction for Clean Layout**:
    The use of the `Titled` and `P` (paragraph) functions, along with form components like `Form`, `Label`, and `Input`, provides an abstracted way to build HTML components. This makes the code look clean and avoids manually writing HTML strings directly within the route functions.
 
+{:start="10"}
 10. **Self-Contained Web Application**:
    The code represents a small, self-contained web application, complete with route handling, form submission, and environment variable management. The concise syntax and structure make it highly readable and easy to understand.
 
+{:start="11"}
 11. **Basic HTTP Methods**:
     The code distinguishes between `GET` and `POST` methods using `methods=["POST"]` for the `post()` function. This ensures that the form submission uses the correct HTTP method and the `get()` function is used only for rendering the form initially.
 
+{:start="12"}
 12. **Minimalistic Server Startup**:
     The `serve()` function at the end starts the web server, demonstrating a simple approach to running a server without complex configurations or additional commands. This simplicity is ideal for lightweight applications or quick prototypes.
 
@@ -407,6 +418,7 @@ It's important to note there is a distinct audience split for this kind of infor
 
 1. **Flake Preparers:** These users are responsible for setting up Nix flakes for distribution and sharing. They ensure everything is configured correctly so that flake users can easily utilize them.
    
+{:start="2"}
 2. **Flake Users:** These users simply pull a git repository (or use a `curl` command) to obtain the flake and run `nix develop` in that directory. The environment setup is handled automatically.
 
 The second audience, while not preparing flakes themselves, are free to `pip install` as they always have in a Python environment without fear of polluting their system. They are more like data scientist developers who don't need to understand all the IT intricacies. They just answer a few questions about their API key secrets and dive into a Jupyter Notebook, Python IDE, or command-line shell—**and they're golden**.

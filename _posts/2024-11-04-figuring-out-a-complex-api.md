@@ -250,8 +250,10 @@ At this point, your original branch and the main branch should be in sync. Howev
 
 1. **Branch Divergence**: If you've made any commits to your original branch that weren't in main before the replacement, these commits will still exist in your original branch. This means your branch might now be ahead of main.
 
+{:start="2"}
 2. **Local vs. Remote**: The sync between main and your original branch is only guaranteed for the local repository. If you haven't pushed the changes to the remote repository, the remote versions of these branches might still be different.
 
+{:start="3"}
 3. **Other Branches**: Other branches that were based on the old version of main might now be out of sync. Contributors working on those branches might need to rebase their work onto the new main.
 
 ## Verifying the Sync
@@ -1153,8 +1155,10 @@ Kata plays a crucial role in developing muscle memory for martial artists:
 
 1. **Repetitive Practice**: By repeatedly performing the same movements in kata, practitioners ingrain these techniques into their muscle memory[1]. This allows them to execute complex movements without conscious thought during actual combat situations.
 
+{:start="2"}
 2. **Refinement of Technique**: Regular kata practice helps refine technique, improving coordination, balance, and precision of movements over time[3].
 
+{:start="3"}
 3. **Neuromuscular Programming**: Consistent kata training programs the neuromuscular system to execute concepts and techniques more instinctively[4].
 
 ## Path to Spontaneous Expertise
@@ -1163,12 +1167,16 @@ While kata is an important training tool, its relationship to spontaneous expert
 
 1. **Foundation Building**: Kata provides a foundation for understanding core principles and techniques of a martial art[3].
 
+{:start="2"}
 2. **Concept Internalization**: Through kata, practitioners grasp concepts that can be adapted to their own physical specifications and combat needs[4].
 
+{:start="3"}
 3. **Limitations**: Some argue that kata alone is insufficient for developing real-world fighting skills. Critics suggest that the predetermined nature of kata can hinder adaptability in dynamic combat situations[4].
 
+{:start="4"}
 4. **Supplementary Training**: To develop spontaneous expertise, many martial artists combine kata practice with other training methods like sparring, partner drills, and scenario-based exercises[3][4].
 
+{:start="5"}
 5. **Transition to Applied Skills**: As practitioners advance, the focus often shifts from perfecting kata forms to applying the underlying principles in more dynamic and unpredictable situations[4].
 
 In summary, while kata serves as a valuable tool for developing muscle memory and internalizing martial arts principles, it is generally viewed as one component of a comprehensive training regimen aimed at developing spontaneous expertise in real-world self-defense situations.
@@ -3266,6 +3274,7 @@ else:
        - **Data Query**: Defines the data structure to be retrieved (dimensions and filters).
    - This payload is sent to the Botify API endpoint, which starts the export job.
 
+{:start="2"}
 2. **Polling for Job Completion**:
    - After starting the export, the function retrieves a `job_url` to track the job status.
    - Using the `job_url`, the function repeatedly sends a `GET` request to check if the job is complete. This is known as **polling**.
@@ -3275,16 +3284,19 @@ else:
      - While polling, the function prints dots (`.`) to indicate progress.
    - Once the job status is `"DONE"`, the function retrieves the `download_url` for the generated CSV file. If the job does not complete within the allowed time, it returns `None`.
 
+{:start="3"}
 3. **Downloading the Exported File**:
    - If the job completes successfully, `download_url` is used to download the file.
    - The file is downloaded as a **gzipped CSV** (`exported_data.csv.gz`). Gzip compression is common for large files as it reduces file size, making downloads faster.
 
+{:start="4"}
 4. **Decompressing the Gzipped CSV**:
    - After downloading, the code decompresses the `.csv.gz` file using Python’s `gzip` module.
    - The decompressed file is saved as a regular `.csv` file (`exported_data.csv`), ready for use.
    - **File Handling Steps**:
      - `shutil.copyfileobj` is used for efficient file copying, allowing the data to stream directly from the compressed file to the uncompressed `.csv` file without loading everything into memory.
 
+{:start="5"}
 5. **Final Output**:
    - The function ends by printing a success message if the file is successfully downloaded and decompressed.
    - The resulting file, `exported_data.csv`, is now ready for analysis.

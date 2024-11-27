@@ -350,6 +350,7 @@ Here's a prompt revised to follow the 1-2-3 style for clarity and precision:
 
 1. **Goal**: I’m uploading a CSV file containing store location data for a client’s website. The goal is to improve the Title tags, making them more descriptive and valuable for SEO while preserving the spirit of the original titles.
 
+{:start="2"}
 2. **Process**:
     - For each row, review the columns: **Existing Title**, **Meta Description**, **Breadcrumb Tree**, **metadata-h1-contents**, and **metadata-h2-contents**.
     - Create a **New Title** following standard SEO title length recommendations that:
@@ -357,6 +358,7 @@ Here's a prompt revised to follow the 1-2-3 style for clarity and precision:
         - Includes one additional important keyword missing from the current title.
         - Avoids redundancy by not simply repeating meta description data; instead, focus on unique info like **Breadcrumb Tree** content to make it relevant and informative.
     
+{:start="3"}
 3. **Deliverable**: Produce a new CSV file containing all the original columns plus a **New Title** column positioned next to the **Existing Title**. Prepare it for download.
 
 ---
@@ -586,16 +588,20 @@ Citations:
 
 1. **Focused Professionalism**: By keeping work and personal life distinct, law enforcement officers can maintain a high level of professionalism. This commitment allows them to perform their duties effectively without the emotional burdens of their job spilling over into their personal lives.
 
+{:start="2"}
 2. **Clear Identity**: A strong separation fosters a clear identity as an officer, allowing for a sense of pride and purpose in their role. This clarity can enhance focus and decision-making in high-pressure situations.
 
+{:start="3"}
 3. **Resilience**: The ability to compartmentalize can build resilience, as officers learn to manage stress and trauma in controlled environments, protecting their mental health and personal relationships.
 
 ### The Artist’s Passionate Integration
 
 1. **Unfiltered Creativity**: For artists, the inability to separate work from life can lead to a continuous flow of inspiration and creativity. This immersion allows them to draw from personal experiences, emotions, and observations, enriching their art.
 
+{:start="2"}
 2. **Authenticity**: Living and working as one can lead to a more authentic expression of self. Artists often channel their life experiences into their work, creating pieces that resonate deeply with others.
 
+{:start="3"}
 3. **Vibrant Life**: An integrated approach fosters a vibrant existence where every moment can inspire creativity. This lifestyle can lead to rich experiences that fuel artistic expression, making life itself an ongoing canvas.
 
 ## The Power of Extremes
