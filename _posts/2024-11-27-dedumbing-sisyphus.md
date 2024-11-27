@@ -1,6 +1,6 @@
 ---
-title: Driving it Home
-permalink: /futureproof/driving-it-home/
+title: Dedumbing Sisyphus
+permalink: /futureproof/dedumbing-sisyphus/
 description: 
 layout: post
 sort_order: 1
