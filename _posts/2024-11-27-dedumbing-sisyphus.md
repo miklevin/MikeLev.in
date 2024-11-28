@@ -428,4 +428,26 @@ your employer right of first refusal to planting their flag in the buzz that is
 likely to surround it if and when this particular Pipulate fork I've named
 Botifython is made FOSS again. 
 
+I have now what I call "forever-forward" tech. From here forever after. Sure,
+things might change. But Linux is the pee in the pool of tech. It's in and it's
+not coming out without a total draining. And a such, there's areas of Linux
+worth focusing on, because they're the bits that really really matter. And among
+those is instant system creation. Instantiation of entire systems with all their
+file systems, databases, servers and services. The entire kitten caboodle, local
+area network (LAN). This is traditionally done with complex deploy scripts like
+Ansible, or with some variety of Docker images and complex compositing, or
+virtual machines (VMs), or some variety of Kubernetes, which is really all that
+same stuff. Sometimes with k8s as a simplified version, but all still quite
+complex.
+
+The easy way to do this is with a single text file, and for that there is
+precisely 2 great techs: NixOS/nix which innovated the thing, and guix, the GNU
+Free Software Foundation's version of it because it's so good that the people
+who started the whole free and open source software revolution think it's worth
+copying. And insider secret: ***nobody knows this!!!*** For lightweight everyday
+use with single individuals seeking a sort of digital sovereignty and perhaps a
+touch of locahost superpowers, nothing beats Infrastructure as Code (IaC).
+Honestly, nothing beats IaC for the enterprise either, but they're not done with
+their Docker honeymoon yet.
+
 
