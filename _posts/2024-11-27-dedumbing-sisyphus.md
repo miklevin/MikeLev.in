@@ -345,3 +345,53 @@ bit of possible redemptive power here and there if you are willing to have an
 open mind about it. I'm sorry for the past, and my only power-up's now to help
 me on the challenging adventure that is life is just coffee, and I'm going to go
 get me some now to dive into today with renewed vigor!
+
+Fast-forward to Thanksgiving. Yesterday was another bust. While I caught up on
+sleep, I was totally distracted processing the whirlwind of the past few weeks
+(months) of bearing down on the biggest coding project of my life, re-settling
+myself onto FastHTML which has the same feeling of durability as HTML itself.
+It's the union of timeless aspects of Python and HTML, using HTMX, a proposed
+new protocol and completely functioning library and technology, to extend HTML's
+simple hyperlinked hypertext intent to the next logical level, by which anything
+can make requests and handle responses from anything in the document object
+model (DOM) of the browser, thereby turning the simple client/server sequential
+model of the original web into... into... well, I can't even ask Perplexity
+anymore because their feature that lets you copy the entire markdown response
+citations and all (the best feature ever!) disappeared.
+
+Oops.
+
+So much for my favorite blogging technique of gathering Perplexity's view on
+things as I go, blending in the well reasoned and well cited response. Maybe
+it's time to look at ChatGPT Search as an alternative to Perplexity. Didn't
+think I'd be doing that for awhile, but the removal of that key critical feature
+of Perplexity is a slap in the face, and hey there's no loyalties here using any
+particular AI service. It's really about bouncing around to all of them, seeing
+what they have to offer, using each as appropriate, and when it comes time for a
+real job, use the lowest-bidder approach so long as the output quality is
+sufficient.
+
+It's just like being a general contractor managing subcontractors. You have to
+have a vision of the overall job and know what sub-skills it's going to take to
+get the job done. Then you look over your list of subcontractors and run the job
+past them to see what they could make of it. If you don't like their response to
+your proposal, you move onto the next. We as general contractors of jobs to be
+performed by AIs are in the catbird position of squeezing these mechanical
+turks, these automated Fiverr's, for the best juice. It is up to us to make sure
+the process of doing so doesn't use any custom API's, so that you can round
+robin between them and erode all their respective competitive moats to nothing.
+
+In such a world, the power shifts back to those who imagine a project. Move as
+much of the process as you can to inside the private walls of localhost and LAN,
+employing your in-house local LLMs to do most of the busywork. Intelligence is
+like electricity. It's not no-cost, but it is a commodity that is ubiquitous and
+ever present, flowing like water and infinitely multi-source-able.
+
+Pshwew! Okay, so my November 27th post becomes my November 28th Thanksgiving
+post as well, because I didn't finish what I needed to finish yesterday, and I
+am altering my approach. Given this incredible opening up of a 4-day stretch,
+during which I most certainly have to do client work, but mock-up's of "real
+things", I step back and re-evaluate. Don't lose any ground. Just... well, as
+the topic of this post now reads: de-dumb Sisyphus. That's the criteria.
+
+
