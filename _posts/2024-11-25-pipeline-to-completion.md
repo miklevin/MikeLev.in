@@ -1,7 +1,7 @@
 ---
 title: Pipeline To Completion
 permalink: /futureproof/pipeline-to-completion/
-description: 
+description: "I am creating a minimalist, self-healing workflow design based on a pipeline pattern. The core idea is to use URLs as primary keys and store all workflow state in a single JSON blob within a pipeline table. This allows for easy continuation from any point in the workflow by simply re-serializing the JSON data. The challenge lies in consistently applying this pattern across all components while maintaining a clean, 'pure UNIX pipe' philosophy. I'm using a 'time-travel prompting' technique with Claude to pinpoint the exact code changes needed to achieve this, focusing on standardizing the JSON structure, state transitions, and card placeholder generation. The goal is to create a system where workflow development is self-evident, enjoyable, and easily extensible."
 layout: post
 sort_order: 5
 ---
