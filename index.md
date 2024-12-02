@@ -38,9 +38,7 @@ group: home
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳) by using ⛏️ off the ol' 💎. The tech-setup of your dreams is one "hydrate" away.
-
-Simply upgrade from Jabberwocky to Juggernaut and no vorpal 🤺 can stop you. This is the fully vendor-neutral 🦬 **FOSS**-world I'm talking about folks, where 🤖 **AI** will only make you 💪!
+**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳).
 
 {% include daily-metaphors.html %}
 
