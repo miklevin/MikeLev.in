@@ -6,11 +6,15 @@ layout: post
 sort_order: 1
 ---
 
+## The Reality of Progress
+
 You're not going to get there right away. It takes multiple passes. Each pass is
 a little refinement. Only so much can fit in a 24-hour day, and as I learned
 recently, trying to push yourself significantly beyond that is going to result
 in a kind of crash with your body rejecting, and a phase of catch-up as your
 body demands the sleep it needs to function, and maybe a little bit more.
+
+## The Cost of Focus
 
 The pendulum swings both ways, and if you somehow find the energy to double-down
 and focus, finding enough love (or urgency or whatever) in what you do to bear
@@ -18,11 +22,15 @@ down and give it greater-than-normal amount of work it takes to get done, maybe
 for consecutive days and maybe at the expense of other things, then you might
 achieve that goal but there is a toll to pay.
 
+### The Long-Term Investment
+
 It can be worth doing, if the accomplishment is of the sort that is forever with
 you and somehow forever improves your life. Getting over that initial hurdle to
 learn the vim text editor is a lot like that. Deep startup cost that's going to
 take some extra effort up-front, but over time it won't stop paying off and so
 was worth doing in the first place. The last article was about banking wins.
+
+## Finding Your Rhythm
 
 So we've got something like a prescribed rhythm developing here. On occasions in
 your life when you have to put a herculean effort behind something, it's okay to
@@ -31,11 +39,15 @@ determination to get it done. But don't do this too often in your life, because
 it's the initial out-of-balance startup cost that your body can't take you
 paying too often. Be kind to yourself. 
 
+### Maintaining Momentum
+
 But then you have to keep tension in the machinery. Letting up for too long will
 cause a backsliding and loss of forward progress and momentum. Skills fade, so
 if you're focusing on a skill that you want to keep and keep sharp, you then
 enter a phase of daily chisel-strikes. Or multiple chisel-strikes per day, each
 chisel-strike some sort of no-takebacks banked accomplishment.
+
+## The 10,000 Hour Rule
 
 Lather, rinse, repeat, and you might have something. Maybe not. Your entire
 original premise or belief that this is even the skill you wanted might be
@@ -71,6 +83,8 @@ Citations:
     [7] https://www.6seconds.org/2022/06/20/10000-hour-rule/
     [8] https://jamesclear.com/deliberate-practice-strategy
 
+## AI Assistance and Search Tools
+
 Nice, the copy-response feature in Perplexity is back. Pshwew! I almost switched
 to ChatGPT Search there.
 
@@ -79,9 +93,13 @@ complexity of skill and other factors where it included age, genetics and
 instruction quality! Very interesting. It only stands to reason, but is worth
 noting. 
 
+## The Dynamic Nature of Expertise
+
 And that's assuming the very field you're becoming expert in is static, which is
 very rarely the case. After 10 years, the field might not even exist in its
 original form anymore, so there's a process of continual alignment as you go.
+
+## Setting Realistic Goals
 
 There is perhaps some Platonic ideal out there of having done everything just
 the way you want; the grandiose design and vision achieved. But in most ways in
@@ -89,6 +107,8 @@ life this just sets you up for disappointment. Lofty goals are allowed, but too
 lofty and too far off is demoralizing. The goal-levels need to be set lower and
 closer. We need to bank those wins and use the adrenaline, dopamine or whatever
 to motivate and drive us onto the next small win.
+
+### The Social Contract
 
 Something in the short-term will make you, and hopefully those around you that
 you need to make happy, happy. You might say that you don't need to make anyone
@@ -101,6 +121,8 @@ then you start arranging your short-term wins to directionally move you towards
 that longer-term future you want. Still not perfection, but directionally
 adjusted to something less objectionable.
 
+## The NixOS Journey
+
 A lot of the banking small wins lately and the ability to layer up small wins
 one atop another comes from my recent move to NixOS. I say recent, but it's been
 a few months now. It's been one of the more ballsy tech moves I've done lately.
@@ -111,6 +133,8 @@ because the Samsung Note line was so awesome with its stylus, since 2007. Here
 we are in 2024 and I'm planning my extraction and escape from the Apple
 ecosystem.
 
+### The Lock-In Dilemma
+
 One of the only regrets really is all the apps and media that get "locked up" in
 these ecosystems, and thus lock you in; very much by design, and arguably with a
 better experience than having to manage all the digital media assets you own for
@@ -119,6 +143,8 @@ particular laptop, server or however else you manage your media may come and go
 (e.g. crash) but that cloud infrastructure from Apple, Amazon or whatever is
 still going to be there. It's not the worst deal in the world.
 
+## Finding Balance
+
 The idea then is to strike the right compromise. You don't want to be completely
 beholden to these walled garden lock-you-up ecosystems, the pretty prisons as
 RMS would put it. But also you don't want to have the entire burden on you to
@@ -126,6 +152,8 @@ manage your own digital media and have everything you own and hold dear and
 precious at risk of the next flood or whatever act-of-God data-loss is always
 happening. So, what's the happy medium? And how do we get there with little
 chisel strikes?
+
+### The Power of NixOS
 
 Well, under NixOS a humble `configuration.nix` file is going to reproduce
 everything except your `home` stuff. That is, all your programs, apps and
@@ -141,12 +169,16 @@ system. Under NixOS this is all replaced by `configuration.nix`. And if you're
 not on NixOS, then this is all replaced with the `nix` command from within
 folders of macOS or Windows (using WSL).
 
+## Git and Version Control
+
 So, problem solved on the "environment build" front. Getting all your apps back
 on any hardware you move to is a breeze. It now flows like water. Your default
 mode of operation is nomadic, always being on a Noah's Ark of tech ready for any
 flood that comes your way. It doesn't feel that way. It just feels like being on
 any other Gnome or KDE distro of Linux (a very mainstream Mac/Windows feeling
 now) once you're past setup and into just using your apps.
+
+### Managing Home Directory
 
 However, the little chisel-strike wins in improving and modifying your system
 and work environment after that, the forever-forward banked wins, takes place
@@ -158,12 +190,16 @@ these days those customizations might also go in `/etc/`, but for the sake of
 banking the biggest wins with the lest effort, we're going to focus on the stuff
 in your home directory.
 
+## Backup Strategies
+
 So we're basically talking about backing up data files. A lot of times when you
 switch machines and it's not a full ecosystem good-experience-guaranteed
 platforms like Apple, or even it is and you just didn't do backups, then there's
 this "settling back in" feeling that a lot of people myself included enjoy. But
 I'm suggesting this is one of those giant "reset button" events in tech that
 sets you back in countless ways.
+
+### System Portability
 
 You want to be able to just point a "ghost image" of your preferred computer
 environment, be it for work or your home machine media server or whatever, and
@@ -172,11 +208,15 @@ magically inhabit whatever hardware you point it at. Your entire system from
 apps to data is your own personal cloud spirit that occupies whatever hardware
 clothing providence and the state of Moore's Law make possible.
 
+### Benefits of This Approach
+
 In this way, you are uninterrupted. You are protected against data loss. You are
 protected against walled garden ecosystem lock-in. And you are protected against
 loss of re-establishing flow-state and getting back to work (or whatever)
 quickly due to excessive attention having to be paid to "settling back into" the
 new hardware.
+
+## Managing Configuration Files
 
 However, backing up "home" isn't quite so easy as rebuilding a system's programs
 and apps. Programs and apps are just re-fetched from out of whatever
@@ -188,31 +228,53 @@ deterministic), or allowed to use whatever latest versions if you want to throw
 caution to the wind. But that's about as complex and risky as it gets. There's
 no real opportunity for data loss the way there is with your unique files.
 
+### Code and Version Control
+
 So of the types of unique data you may possess, if you're a developer then you got a code, and there's gonna be lots of versions of that code. Sooner or later you were going to be directed to in distributed version control system. And probably git in particular. And probably GitHub.com in particular to store those git software repositories Hope you were somewhere offsite, and perchance to collaborate with other people on the code. 
+
+### Writing and Data Management
 
 Even if you're not a developer and you do any sort of writing, your face with a similar situation. Let a vendor lock you into their cloud, or if you store it local it's the worst of both worlds: locked into some proprietary vendor file format, and having your local files at risk of data loss. What could be worse than total catastrophic Microsoft Word file loss from a laptop hard drive crash? It's hard to imagine. And so most people by now have been coerced into putting all their data on the cloud.
 
+## The Power of Text
+
 But what if you were just really good at manipulating text files? What if you did all your fancy formatting with just a simple markup language like Markdown, so that text was enough? In such a world, similar text, editing tools as developers, used for writing code, suddenly become perfectly viable for any writing task, and the methods of doing version control with git are now suddenly open to you. You find yourself in the strongest center of the FOSS (free and open source software) world. There are actual good guys behind you.
+
+### The FOSS Philosophy
 
 One of the biggest fallacies of our time that is widely accepted as truth is that if a product is free, you are the product. FALSE! This is not the case for Linux. This is not the case for the writing environments, you can use under Linux such as vim. And not true for the tools you used to keep your writing safe, such as git. There are really tremendous good guys behind you who are not trying to turn you into a product if you go this route.
 
+### The True Heroes
+
 Linux Torvalds is behind two of them, Linux and git. The free software foundation, and a host of truly altruistic developer folks are behind the rest. They are not trying to turn you into the product. There is no pop-up advertising. There's no hidden agenda to upgrade you to the paid subscription plan. It's just free as in freedom. Free as in Libre. There are giants here upon whose shoulders we stand. We stand on their shoulders and solidarity against the criminal myth that everything must cost.
+
+## The Trade-offs
 
 Well, there is a cost. The cost is having to provide a little bit of self support because you're not gonna have Apple holding your hand and coddling you along. Likewise, we will also not have Microsoft snooping in on every little key stroke you do to be "helpful". But on the flipside, he will also not have the types of problems that are unique to Apple and Microsoft that keep you having to go to them for support on their own products. You will hit a different set of problems for which Linux is legendary, but also which is getting rapidly fixed through Gnome/KDE polish and NixOS.
 
+## Git Repository Management
+
 All right, so you discover git. You discovered that any folder or directory, whatever you wanna call them, can be turned into a git software repository. That is, all your writing versions can magically get instant undos back to the beginning of time— or at least to the time of you turning it into a git repo. So first you get time travel, however, it is still locked on your local machine and subject to the dangers of hard drive crashes.
+
+### GitHub and Its Evolution
 
 The next thing you're gonna discover is that you can easily back up your local git repos to GitHub. You can either make them private or public. The public repos aspect made this website, has its name implies, the hub for much software developer collaboration. In fact, so much so that Microsoft bought it for a cool $8 billion. One of the best deals they ever made. Now they own the heart and soul of the software development community. Everyone keeps their repos on GitHub. Imagine that! Their internal LLMs training on your code. How generous of us. A true case of us being the product. And such a shame, because GitHub started out as such a pillar of FOSS. This strategy is called embrace, extend and eliminate.
 
+## Local Alternatives
+
 And so one of the places we have to take precautions against GitHub and our cloud overlords is to have a local alternative to having to push everything to GitHub. I am not talking about the big back up of your home director yet. That will come later. I am simply talking about having a second place that all your git repos go in addition to, or even as a complete alternative to GitHub. All your repose are not belong to them.
+
+### Organization is Key
 
 One of the first things you want to make sure you do is keep yourself organized at home. Everything you turned into a git repo, that is every folder or directory in which you type `git init` should probably be inside a single parent folder in home. I like to use `~/repos/` for when I hope is self-explanatory reasons. It's where I keep my repos. By putting it in one location, you will never struggle for that whole "where did I put such and such on my machine?" feeling. You just always go to `~/repos/[folder_name]`, which is a really good feeling. No matter how you switch hardware, this path always is there. Muscle memory for life.
 
+### AI and Security
+
 It also has the advantage of putting all your software repositories into the same potential permission context for AI code assists. If anything is truly private, you wanna be careful here. Like if you're using curse or AI and you make repos you are imported folder, I can read anything in there. So be careful. If you still wanna keep private stuff in there like API keys, there are things like `.cursorignore` you can set up. But again, this is all even an issue if you're allowing cloud based LLM's in as coat assistants. If you are doing this on Linux in general and NixOS in particular, you are pretty secure. Way more so than on one of the super-intrusive vendor OSes. 
 
-After you make a new folder in `~/repos/`, and after he typed `git init` to turn it into a git repo, the next thing you're gonna wanna do is set your...
+After you make a new folder in `~/repos/`, and after he typed `git init` to turn it into a git repo, the next thing you're gonna wanna do is set your... Hmmm. Let's tap Gemini.
 
-Walk me through the remote origin and point issue here. And also take a look at my configuration.nix and how my local get is set up. Had a paragraph about how you can get hub as your HTTP or SSH protocol based remote origin so that every time you git push it ends up on GitHub and has the security of being offsite. But as an alternative, you can push it locally. You don't even need to be running any special software like a git server. If you're origin is set up as a final system location, you can simply push it there. This could be a good choice for private journals.
+**Me**: Walk me through the remote origin and point issue here. And also take a look at my configuration.nix and how my local get is set up. Had a paragraph about how you can get hub as your HTTP or SSH protocol based remote origin so that every time you git push it ends up on GitHub and has the security of being offsite. But as an alternative, you can push it locally. You don't even need to be running any special software like a git server. If you're origin is set up as a final system location, you can simply push it there. This could be a good choice for private journals.
 
 ```nix
   # Create directory for local Git repositories
