@@ -146,6 +146,8 @@ def create_placeholder(self, card_id): ...
 # But need consistent recovery implementation
 ```
 
+## Navigating Priorities and Presentations
+
 But the work I do today for TWO DIFFERENT Monday presentations, I have to be
 able to fake having what the automation process will produce. Two things, which
 themselves must fit into even higher-priority projects coming down from...
@@ -173,6 +175,8 @@ Citations:
     [5] https://idioms.thefreedictionary.com/from+on+high
     [6] https://dictionary.cambridge.org/us/dictionary/english/on-high
 
+## Balancing Priorities and Performance
+
 Yeah, so there you go. I have to be able to report on progress on my main on
 high directive which I ***so agree with*** as needing to be the company
 priority, because without being able to shove more work through a smaller
@@ -182,6 +186,8 @@ by having blurring the line between harpooning and trolling. Can you still use
 whale murdering metaphors? Well, I'll fry that fish when I kill 2 birds with one
 stone.
 
+### The Art of Simultaneous Problem-Solving
+
 Anyhoo, it's a complex multidimensional puzzle. I'm solving multiple equations
 simultaneously, but I must do that without slowing myself down, haha! And that
 means brushing off a little PT Barnum Penn & Teller showmanship. It's not about
@@ -189,11 +195,15 @@ the miracle being accurately performed, it's about the perception of the miracle
 being accurately performed, and in my case covering for just enough time to
 accurately perform the miracle.
 
+### The Importance of Authentic Data
+
 But the data needs to be good. The trick needs to be truly and accurately
 customized to each client. When they look at the Google Slide, because
 unfortunately that's where the trick needs to be performed, the client needs to
 see their own special case screaming back out to them saying "These people
 really look at and know your site better than you do."
+
+## Career Reflections and Scientific Achievement
 
 And that is my today. It's not the next and wonderful and life-changing step of
 completing a piece of work, which at in my mid-50s has got to be my Magnum Opus
@@ -217,6 +227,8 @@ Citations:
     [5] https://www.physicsforums.com/threads/greatest-work-of-physicist-done-in-their-20s.666255/
     [6] https://www.deseret.com/2018/3/14/20641870/22-witty-and-inspiring-albert-einstein-quotes/
 
+## Breaking the Sisyphus Cycle
+
 ...so in my mid-50s I'm basically an old coot who thinks he's a tyke. So effin
 be it. Keeps me young and all that. The trick is to not remain Sisyphus, but
 rather to have a moment of self-awareness and a cycle-breaking agency moment.
@@ -225,6 +237,8 @@ mountain, create an anchor-and-lever system that can both:
 
 - Give you a momentary respite
 - Allow you to bank your next bit of progress, once recovered
+
+### Strategic Progress and Automation
 
 So these couple of slides I'm making today are an image of the output of this
 system, only enough so to give me that momentary respite... today and today
@@ -240,6 +254,8 @@ local Botify and SEMRush stored profile data to end-run authentication and APIs
 with a bit of instruction about what to click-to-save and where to save it.
 Semi-automation!
 
+## The Power of Metaphor
+
 I like this Sisyphus metaphor so much it's going to replace my Icarus jumping
 off the cliff and learning to fly metaphor, which is what I used previously for
 those hitting above your weight class moments. Too dangerous! Too reckless!
@@ -252,6 +268,8 @@ free of the curse. Am I right?
 
 Okay, today's post officially becomes De-dumbing Sisyphus.
 
+## Seizing Opportunities
+
 Even today, I've got a bit of wiggle room to work with. Thanksgiving is
 tomorrow, and then Friday off and a blissful weekend. Life circumstances being
 what they are at the moment, this means the introvert's dream of 4 solid days of
@@ -260,6 +278,8 @@ crystal clear to achieve greater than I ever have in my professional career, by
 virtue of the complete re-alignment with the evolving world of AI SEO. This is
 big. As big as anything in my life second only to having a child, for whom doing
 right by this career elevation step is all about. 
+
+## Personal Growth and Motivation
 
 It's not easy to communicate these things, but it needs to be said. My
 young-person energy in my 20s which was all about seeing if I could perform at
@@ -271,6 +291,8 @@ tons of time to work with here. What doesn't kill you makes you stronger. I know
 there's a generation who thinks what doesn't kill you makes you damaged goods
 wronged by society and permanently entitled. But to that I say "I shall taunt
 the fragile flower generation a second time-a!"
+
+## The Concept of Anti-Fragility
 
 Anti-fragile. Thank you Taleb-something for writing that book that encapsulates
 why the fragile flower generation of algorthmically riled-angry YouTubians is so
@@ -300,20 +322,22 @@ Citations:
 
 And let's follow up with a nice "this too shall pass" origins story...
 
+## The Origins of "This Too Shall Pass"
+
 **Perplexity**: "This too shall pass" is a profound philosophical phrase that reflects the **transient nature of life**, emphasizing that both good and bad moments are temporary. The phrase originates from Persian literature, with the original Persian saying "این نیز بگذرد" (in nīz bogzarad)[1].
 
-## Historical Context
+### Historical Context
 
 The expression gained widespread popularity through a legendary story involving King Solomon. According to the tale, Solomon sought a ring that would make a sad man happy and a happy man sad, ultimately inscribing the phrase "Gam ze ya'avor" (Hebrew for "This too shall pass") as a reminder of life's impermanence[1].
 
-## Cultural Significance
+### Cultural Significance
 
 The phrase carries deep philosophical meaning:
 - It reminds people that **no emotional state is permanent**
 - Provides comfort during difficult times
 - Encourages resilience and perspective
 
-## Notable Popularization
+### Notable Popularization
 
 Abraham Lincoln famously referenced the phrase in an 1859 speech, describing it as a profound wisdom that captures both the **humbling nature of pride and the consolation in times of affliction**[3][4]. Lincoln, who struggled with depression, personally understood the phrase's transformative power of hope.
 
@@ -329,6 +353,8 @@ Citations:
     [6] https://www.ansheamunim.org/gam_zeh_yaavor
     [7] https://ovlcollection.com/blogs/news/the-meaning-of-this-too-shall-pass
 
+## Preserving Deep Messages
+
 So I am totally aware that these deeper messages are going to get lost in the
 noise of day-to-day work journal entires. But fear not! I've already done my
 tests to confirm that these big-token-window LLM (monster genies) like Gemini
@@ -336,6 +362,8 @@ Advanced Pro can take my whole journal, every single post, and parse through it
 finding patterns and order, proposing the books I can "spin" out of it. Mike's
 Book of Future-Proofing Tech Strategies & Tactics will certainly be one of them,
 but there are plenty of sub-books here that I shall ensure are extractable.
+
+## Life's Spinning Plates
 
 I'll do that work for you, so you don't have to. Just know that as one of my
 life's spinning plates has reached optimal stopping distance and is being taken
@@ -345,6 +373,8 @@ bit of possible redemptive power here and there if you are willing to have an
 open mind about it. I'm sorry for the past, and my only power-up's now to help
 me on the challenging adventure that is life is just coffee, and I'm going to go
 get me some now to dive into today with renewed vigor!
+
+## The Journey Continues
 
 Fast-forward to Thanksgiving. Yesterday was another bust. While I caught up on
 sleep, I was totally distracted processing the whirlwind of the past few weeks
@@ -361,6 +391,8 @@ citations and all (the best feature ever!) disappeared.
 
 Oops.
 
+## Adapting to Change
+
 So much for my favorite blogging technique of gathering Perplexity's view on
 things as I go, blending in the well reasoned and well cited response. Maybe
 it's time to look at ChatGPT Search as an alternative to Perplexity. Didn't
@@ -370,6 +402,8 @@ particular AI service. It's really about bouncing around to all of them, seeing
 what they have to offer, using each as appropriate, and when it comes time for a
 real job, use the lowest-bidder approach so long as the output quality is
 sufficient.
+
+## Managing AI Like Subcontractors
 
 It's just like being a general contractor managing subcontractors. You have to
 have a vision of the overall job and know what sub-skills it's going to take to
@@ -381,11 +415,15 @@ turks, these automated Fiverr's, for the best juice. It is up to us to make sure
 the process of doing so doesn't use any custom API's, so that you can round
 robin between them and erode all their respective competitive moats to nothing.
 
+## The Power of Local Intelligence
+
 In such a world, the power shifts back to those who imagine a project. Move as
 much of the process as you can to inside the private walls of localhost and LAN,
 employing your in-house local LLMs to do most of the busywork. Intelligence is
 like electricity. It's not no-cost, but it is a commodity that is ubiquitous and
 ever present, flowing like water and infinitely multi-source-able.
+
+## Reassessing and Moving Forward
 
 Pshwew! Okay, so my November 27th post becomes my November 28th Thanksgiving
 post as well, because I didn't finish what I needed to finish yesterday, and I
@@ -394,6 +432,8 @@ during which I most certainly have to do client work, but mock-up's of "real
 things", I step back and re-evaluate. Don't lose any ground. Just... well, as
 the topic of this post now reads: de-dumb Sisyphus. That's the criteria.
 
+## The Journey of Synthesis
+
 And this is just the deep breath getting started. That's what people I interact
 with hate to hear. Just being at the beginning and that long stretches of time
 are not an assurance of the completion of "Jump / How High?" style work that
@@ -401,6 +441,8 @@ permeates the contracting and consulting world. Rather, when you have someone
 who's realizing they're synthesizing a lifetime of lessons into a powerful new
 methodology and approach, they... well, they can't relate. Let's keep it at
 that.
+
+## Fighting Feature Creep
 
 Now for me personally, I feel I am engaged in a battle against feature creep and
 the very information architects who make everything too difficult with a project
@@ -416,10 +458,14 @@ fine-edged minimalism and transparency of process on all this which is already
 kick-ass in a first pass, but which over time is likely to become much smaller.
 The entire opposite of feature creep. Complexity excising!
 
+## The Right Track
+
 And then I realize I am on the right track. Especially considering how I'm
 layering in the local LLM and the just-in-time hot prompt injection to give it
 Neo Kung Fu like matrix downloads of exactly what it needs to know exactly when
 it needs to know it, based on how the user navigates the user interface... WOW!
+
+## The Future of Web Frameworks
 
 Nobody knows the web framework I build.
 
@@ -427,6 +473,8 @@ Keep much of it proprietary and behind a private GitHub repo, always offering
 your employer right of first refusal to planting their flag in the buzz that is
 likely to surround it if and when this particular Pipulate fork I've named
 Botifython is made FOSS again. 
+
+## Forever-Forward Technology
 
 I have now what I call "forever-forward" tech. From here forever after. Sure,
 things might change. But Linux is the pee in the pool of tech. It's in and it's
@@ -439,6 +487,8 @@ Ansible, or with some variety of Docker images and complex compositing, or
 virtual machines (VMs), or some variety of Kubernetes, which is really all that
 same stuff. Sometimes with k8s as a simplified version, but all still quite
 complex.
+
+### The Simple Solution
 
 The easy way to do this is with a single text file, and for that there is
 precisely 2 great techs: NixOS/nix which innovated the thing, and guix, the GNU
