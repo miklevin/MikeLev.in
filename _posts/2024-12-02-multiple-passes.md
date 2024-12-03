@@ -325,13 +325,23 @@ Let me know if you have any more questions about setting up your Git remotes or 
 
 ---
 
+## Local Git Strategy
+
 All right, so the strategy puts your files with their complete undo history since their creation and at least a second place on your local system. In this example on the same drive, which doesn't do much for diversify the location of the files as a precaution against crashing, but it does set the stage. Whenever you do a git commit and push, it at least puts it in a second location which theoretically could be mapped to a different physical drive. But I say why do that when it creates extra moving parts? 
+
+### Simplified Backup Approach
 
 Why not allow that git push step to always succeed (regardless of what external drives are attached), and then to have a follow up step that synchronizes both your entire repo directory and the git "serverless" server directory? Why not indeed! Your code is now saved in four locations, 2 per physical device. You make the logic that triggers the rsync synchronization robust so that if the external drives not attached, it gracefully fails. 
 
+### Finding the Right Balance
+
 To some this might seem like not enough. While to others this might seem overkill. To me, it seems like a viable alternative to having everything on GitHub for that even minimal feeling of secure files. This gives you an alternative for things that you do not necessarily want on GitHub, like personal writing or finances. And because of the forever for life nature of NixOS, you are sending the stage for various future passes.
 
+### The 80/20 Solution
+
 See, this is the one light-touch pass that gives you a 80/20-rule solution. You can start to extend the concept of different origins for your git repos and different rsync actions to back up specific areas of your home directory or your entire home directory in one go.
+
+## Managing Configuration Files
 
 And I will take this article to the one next pass that I have done to ensure
 that critical files here and there throughout the system. In particular, I want
@@ -341,6 +351,8 @@ macros. You've gotta back these up. But they are in these weird locations.
 Specifically, they are outside the now rigorously and meticulously backed up
 `~/repos/` location. But we want to manage them exactly like they were in one of
 these locations.
+
+### Streamlined Configuration Management
 
 So now instead of going into the location `~/.config/nvim/init.lua` to edit
 where I keep my nvim macros, I go into `~/respos/nixos/init.lua` and edit what
