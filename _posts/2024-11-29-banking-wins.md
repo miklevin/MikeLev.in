@@ -518,7 +518,7 @@ So I'm coming to the AI with a new sense of reality. There's a new king in town,
 
 ### The Setup
 
-To me, that's the green light to have a little fun. I hop over to ChatGPT 4o and explain the situation and ask him for a hilaros "new king in town" joke that Gemini will not be able to resist. Here's what I get back, now passed along to Gemini:
+To me, that's the green light to have a little fun. I hop over to ChatGPT 4o and explain the situation and ask it for a hilarious "new king in town" joke that Gemini will not be able to resist. Here's what I get back, now passed along to Gemini:
 
 **Me**: ARTHUR: Halt!
 
