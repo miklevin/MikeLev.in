@@ -73,9 +73,7 @@ group: home
   </div>
 </div>
 
-## The AI SEO Future Proof(ing) Book
-
-## The AI SEO Future Proof(ing) Book - Expanded Outline
+## The AI SEO Future Proof(ing) Book - Outline
 
 **Part 1: Laying the Foundation**
 
