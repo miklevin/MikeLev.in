@@ -157,11 +157,11 @@ group: home
     *   AI for technical SEO: Automating tasks, analyzing data, and improving website performance.
     *   The future of AI SEO: Emerging trends and the evolving role of AI in search.
 
-*   **Chapter 13: The Chip O'Theseus Revolution**
-    *   Introducing Chip O'Theseus: A Python-based framework for AI-powered SEO automation.
-    *   Building custom SEO tools: Leveraging Chip O'Theseus for data analysis, visualization, and reporting.
-    *   Integrating with Chip O'Theseus's API: Accessing and analyzing SEO data with BQL.
-    *   Real-world applications: Case studies and examples of Chip O'Theseus in action.
+*   **Chapter 13: The Pipulate Revolution**
+    *   Introducing Pipulate: A Python-based framework for AI-powered SEO automation.
+    *   Building custom SEO tools: Leveraging Pipulate for data analysis, visualization, and reporting.
+    *   Integrating with APIs: Accessing and analyzing SEO data with vendor products.
+    *   Real-world applications: Case studies and examples of Pipulate in action.
 
 **Epilogue: The Ballad of the Pipemaster**
 
