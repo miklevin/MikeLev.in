@@ -733,3 +733,8 @@ abstract configurations that apply to any hardware, they are a sort of tech and
 data management vocabulary and lexicon for life, which greatly compensate for
 the loss of convenience when severing dependencies from the cloud.
 
+Very soon, I'm going to need a better way to search my own blog to surface these
+gems when I need them. Future project: Operation Instant Blog Recall! It will be
+an excellent chapter for the book and a logical part of the blog-to-book
+distillation process.
+
