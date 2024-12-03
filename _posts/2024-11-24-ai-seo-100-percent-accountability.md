@@ -6,12 +6,16 @@ layout: post
 sort_order: 3
 ---
 
+## The Rabbit Hole Beckons
+
 Once again, I must not let ***THIS*** become a rabbit hole. Inevitably, it will
 become one of my larger, more interesting and splashy public projects. It's one
 of those "show 'em what you got" things, and you're about to see the real-time
 ideation. Yup, more rambling like a caffeinated squirrel, as Gemini Advanced put
 it a few days ago, but so be it. It's not for you human to read anyway. My
 primary audience is Bots. 
+
+## No SEO Spam - Only Web Improvement
 
 But we will not do a single project for SEO spamming. These projects will be
 experiments ***that improve the Web*** or not at all. I make no money off of
@@ -21,6 +25,8 @@ in the Diamond Age sci-fi novel. The time of such invention is upon us. I'm here
 to do some of that invention. Words are sometimes just that. Here are those
 words.
 
+## Project Priorities
+
 Projects I need to put in motion here and now include:
 
 Making this site the fodder from which content is culled, digested and curated
@@ -29,16 +35,22 @@ such as I do, and makes it the "mouth" of the opportunity funnel. It is the
 large list at the beginning of a pipelined list-reduction process by which only
 the best stuff sieves down.
 
+## Self-Improving Content Strategy
+
 Yet, the content on this site will ***still self-improve*** in ways that help
 that sieving process. Of such projects, few likely have as much payoff as the
 standard SEO fields: titles, headlines, (meta) descriptions and the text inside
 anchors (between the a's of a href). A whole site can be expressed in efficient
 form this way, so there's a go-back sweeping iterative process to improve 'em.
 
+## Headline Hierarchy Guidelines
+
 It's not just a top-headline or 1st h1 story here. It's all headlines, h1 down
 to probably around h4, realistically. Do good work, but follow the human
 handle-able hierarchy rules. A depth of 3 is barely tolerable. 4 is ridiculous
 to expect humans or bots alike to traverse for you. Spare 'em.
+
+### The H1 Rule
 
 Each page ***should*** have 1 and only 1 h1. This is however not hard and fast,
 and don't lose sleep over pages that have a few extra h1's here and there.
@@ -48,12 +60,16 @@ Remember, you're thinking like an LLM here, and paragraph density where
 overload to an LLM who looks at it and doesn't want to read it anymore than a
 human would. H2's and h3's are your friends.
 
+## Headline Optimization Strategy
+
 Going back to add good h2 and h3 markdown style headlines to paragraphs or
 blocks of paragraphs that are not headlined or are poorly headlined. Poorly
 chosen headlines (in the first place) can be as bad or even more damaging than
 no headlines at all by "masking" or otherwise misrepresenting the important
 stuff which might align with the seeker's inquiry better than the LLM will
 realize.
+
+### Centralizing Headline Writing
 
 While writing these articles, don't slow yourself down with this h2 and h3 task.
 That's like re-writing the same function in every class that needs it. You will
@@ -63,9 +79,13 @@ the most part, h2/h3-headline-writing is an as-yet unwritten global function
 that will be receiving considerable attention due to its vast importance. It's
 the ***title tag of paragraphs***.
 
+## Meta Description Optimization
+
 Re-writing the article meta description to be more consistent with other article
 descriptions that are marked "good" by an as-yet undefined parameter in the YAML
 top-matter (and of course marking the good ones as such).
+
+## Site Structure and Navigation
 
 Putting all the blog articles into a `/fodder/` subfolder, so it will be a
 fodder folder and visibly a hub with pagination issues in the sitemap according
@@ -79,6 +99,8 @@ process. It comes out clean and ideal on the other end, both for human visitors
 following drill-down navigation such as Main Nav across horizontal tabs which is
 so popular, or in burger buttons or whatever has hierarchy. 
 
+### The Importance of Link Hierarchy
+
 This hierarchical navigation drill-down discussion, what gets "drawn" as your
 site's link-graph, is important for humans, but even more so for real-time
 crawlers who will be using small-world theory in real-time crawls on behalf of
@@ -88,10 +110,14 @@ overdue de-feedification of the Web. Feeds are the enemy because they're outside
 the context of the crawl and they're almost always ways for proprietary vendors
 to work on their moats versus their competitors at your expense.
 
+## Token Model Experiments
+
 Concrete examples of the power of a completely made up word, which cannot even
 be deconstructed into tokens according to most (efficiency-seeking) token models
 out there. Bracket this, with an efficiency-friendly made up word and one that
 resists tokenization.
+
+## Bridging Theory and Practice
 
 Projects that bridge the gap between "too theoretical" and concrete solutions
 that improve your site performance right now, today pronto. This made up word
@@ -99,11 +125,15 @@ experiment is exactly that kind, because it either finds smoking gun evidence
 that you're findable or your not. Folks who balk at such projects are balking at
 true accountability, and are in the most literal sense, hiding something.
 
+## Content Pipeline Freedom
+
 This fodder that constitutes this blog right here you might be reading, which I
 can comfortably say by knowing such comments will not survive the pipeline
 process by which I cull and harvest my own data for a reorganization into a
 better site thanks to my incredibly aware LLM buddies who can handle long run-on
 sentences like this. Kapish? Thought so.
+
+## Writing WET vs DRY
 
 This gives me the freedom and the bravery to write WET. This is the complete
 opposite of the DRY movement that metastasized the Ruby on Rails movement. I do
@@ -116,6 +146,8 @@ assertions. Dango, Django, Python's whatever you need it to be, and if You Enjoy
 Tying, Python hasn't seen it's peek YET... Yet more WET. Don't hold back. If it
 belongs as brainstorming for your book, it belongs on your MikeLev.in blog.
 
+## The Critical Project: Blog Reorganization
+
 However, there is a critical project I must jump on as my last distraction
 before hitting home the world-changing link-graph once and for all. And that is
 plugging this whole friggin blog into a subfolder instead of being off root. I
@@ -126,6 +158,8 @@ principles are re-asserting themselves, and I must abide. I don't have smoking
 gun data evidence of this, but use common sense. Easy-to-read data signals are
 easy-to-read, and when they imply critical information like site hierarchy for
 topical clustering and such, they will be used. 
+
+### The Future of SEO
 
 If not by Google, then by someone else. And so such pedantic site hygiene
 thoughts that were easy to put aside when all you needed to care about is what
@@ -138,6 +172,8 @@ can be spiteful? Wait until you've seen algorithmically refined spite filters.
 Don't game the system. Be the Bot's BFF. In fact, my site I'll be organizing
 this content onto is BFFSEO.BOT. Get it? Walk the walk, my friends.
 
+## The Tech Journey
+
 Show 'em what you've got. You've been percolating for a good 30 years, ever
 since the Amiga showed you tech could be love-worthy, and the rest of the world
 showed you how the first go-around of such tech is a flower blossoming in the
@@ -149,6 +185,8 @@ yourself with the crushed flowers. Align yourself with the corporate pirates who
 are going to come in raiding and start growing their own farms of such flowers,
 sucking dry the prototypes for everything they're worth.
 
+### Platform Evolution
+
 And you can now see why this article comes before even the link-graph work
 today. There's a lot of soon-to-be-crushed flowers out there posing as
 "platforms". Vendors luring you into their next $20/mo service (I'm suckered in
@@ -159,6 +197,8 @@ pirates, and then you can raid-and-run with the best of them. Learn how to
 needs to receive it. It won't be much different in whatever the VSCode Codeium
 fork has sub-forked into anyway (Windsurf and Qudo.ai at the moment, I believe).
 They're all just copying what a color-coded git diff looks like, anyway.
+
+### Server-Side Evolution
 
 On the server side of course the original juggernaut was AWS, but the first
 round of flower-like innovation was Heroku, and so now everyone is copying
@@ -177,6 +217,8 @@ bulletproof foolproof fail-safe installers. True? Yes! (in the voice of Ursula,
 if you didn't notice). Just ditch 'em and focus on localhost apps and why they
 flow like water into foreign LANs.
 
+## Time for Action
+
 Pshwew! Is that it? Is that it, Mike? Have you vomited forth everything you have
 to say? Is it time to put pen to code? Pen to code... pen-to-code... it's so
 fabulously easy these days. Programming and coding isn't going away. You have to
@@ -188,11 +230,15 @@ It's going to be like reality TV that can actually be enjoyed by people like me.
 The first wish is always impressive. The show should be called "***Living With
 the Genie Wish, Week 2***".
 
+### The Value of Small Wins
+
 Okay, happily not every genie wish is for building some larger system that has
 unintended consequences vulnerabilities. Sometimes they're tiny single-shot
 success-banking chisel-strikes. And those are great for practice. Let's
 practice. Let's plant my whole blog in a subdirectory even though they're
 currently in 70+ files in a Jekyll `_posts` folder. 1, 2, 3... 1?
+
+## The Birth of BFFSEO.bot
 
 BFFSEO.bot is already born. It's my experiment to make sure JavaScript is
 readable by bots. But content was an afterthought. It's whole purpose was to
@@ -268,6 +314,8 @@ component. Then, 1,111 pages should be showing. But they're content-light
 (basically test garbage), and they're only showing 8 deduped from 9 and down
 from 40 before it started going in reverse.
 
+## Understanding SEO Accountability
+
 Get it? 100% accountability test. Almost a scientific test. I don't have the
 energy or motivation to make it truly scientific with another site with HTML
 source viewable links with the same hierarchy and content, and yet a 3rd site to
@@ -294,6 +342,8 @@ layout: post
 sort_order: 3
 ---
 ```
+
+## The Challenge of Directory Naming
 
 This pattern is not 100% rigid or precise. The YAML will always be well-formed
 and valid, but the order in which the fields are presented may vary. What I need
