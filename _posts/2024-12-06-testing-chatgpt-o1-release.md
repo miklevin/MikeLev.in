@@ -1,5 +1,5 @@
 ---
-title: Becomes Title tag & H1
+title: Testing OpenAI ChatGPT o1 Release Model
 permalink: /futureproof/slug/
 description: 
 layout: post
