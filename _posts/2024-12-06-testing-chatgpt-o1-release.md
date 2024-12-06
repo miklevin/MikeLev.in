@@ -1,7 +1,7 @@
 ---
 title: Testing OpenAI ChatGPT o1 Release Model
 permalink: /futureproof/testing-openai-chatgpt-o1-release/
-description: I've been testing the new OpenAI ChatGPT o1 release model by feeding it my web application codebase and seeking feedback. The model has provided a comprehensive analysis of my project, outlining completed tasks, remaining tasks, and recommended next steps, demonstrating its ability to understand and provide helpful guidance on a complex coding project.
+description: I've been testing the new OpenAI ChatGPT o1 release model by feeding it my web application codebase and seeking feedback. The model has provided a comprehensive analysis of my project, outlining completed tasks, remaining tasks, and recommended next steps, demonstrating its ability to understand and provide helpful guidance on a complex coding project. It's token window has increased enough to digest a 6,600 like program in one pass, putting it more in parity with Gemini's 1-Million (2-Million as-of today) context window.
 layout: post
 sort_order: 1
 ---
@@ -19,6 +19,10 @@ o1 release and see what it makes of my project, banking some "next step"
 documentation for when I do get back to it. It digested the article easily
 enough and got the context of where I left off in the project. And then I fed it
 all 6,600 lines of code from the codebase and here's what it had to say:
+
+> First important thing to notice is that o1 was actually able to accept a 6.5K
+> line of code program in a single submit. Previously, only Google Gemini
+> Advanced Pro had been able to do this.
 
 o1: Below is a structured assessment of what remains to be done and recommended next steps to complete the pipeline workflow and finalize the codebase as described in the provided code and docstrings. This report is derived from a close reading of the code and the architectural guidance within it.
 
