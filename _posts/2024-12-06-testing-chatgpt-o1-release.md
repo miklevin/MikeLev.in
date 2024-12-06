@@ -1,7 +1,7 @@
 ---
 title: Testing OpenAI ChatGPT o1 Release Model
 permalink: /futureproof/testing-openai-chatgpt-o1-release/
-description: I've been testing the new OpenAI ChatGPT o1 release model by feeding it my web application codebase and seeking feedback. The model has provided a comprehensive analysis of my project, outlining completed tasks, remaining tasks, and recommended next steps, demonstrating its ability to understand and provide helpful guidance on a complex coding project. It's token window has increased enough to digest a 6,600 like program in one pass, putting it more in parity with Gemini's 1-Million token context window (2-Million as-of today).
+description: I tested the new OpenAI ChatGPT o1 release model by feeding it my web application codebase and seeking feedback. The model has provided a comprehensive analysis of my project, outlining completed tasks, remaining tasks, and recommended next steps, demonstrating its ability to understand and provide helpful guidance on a complex coding project. It's token window has increased enough to digest a 6,600 like program in one pass, putting it more in parity with Gemini's 1-Million token context window (2-Million as-of today).
 layout: post
 sort_order: 1
 ---
