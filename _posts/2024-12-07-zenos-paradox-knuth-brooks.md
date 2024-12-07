@@ -727,3 +727,131 @@ Perhaps this is why the spirit of scientific inquiry is so essential.  It's not 
 
 So, as we continue our exploration of the Noosphere, let us remember that the journey is as important as the destination.  Let us be prepared to adapt our plans, revise our abstractions, and embrace the unexpected detours that inevitably arise along the way.  For it is in these moments of adaptation and revision that we truly learn and grow, expanding the boundaries of our understanding and deepening our appreciation for the complex and ever-changing world around us.
 
+Me: Plan the implementation, choosing either WorkFlow or LegacyPipelineWorkFlow, whichever you think makes more sense at this point. One or the other will become the new master... uh, I mean main template that I copy/paste from forever forward. It should be the one with the more idomatic and useful explanations for humans and pinning against regressions for LLMs.
+
+Claude: I notice you're weighing WorkFlow vs LegacyPipelineWorkFlow. Looking at the code, LegacyPipelineWorkFlow has more detailed docstrings that explicitly warn against common anti-patterns and explain the architectural principles. Let's build on that.
+
+Here's the concrete first step for Card 3, following LegacyPipelineWorkFlow's style:
+
+````python:botifython/botifython.py
+# In LegacyPipelineWorkFlow class:
+
+def __init__(self, app):
+    self.app = app
+    app.route("/workflow/process-url", methods=["POST"])(self.process_url)
+    app.route("/workflow/card2")(self.card2)
+    app.route("/workflow/card2-submit", methods=["POST"])(self.card2_submit)
+    # Add new routes:
+    app.route("/workflow/card3")(self.card3)
+    app.route("/workflow/card3-submit", methods=["POST"])(self.card3_submit)
+
+async def card2_submit(self, request):
+    """
+    card2_submit: Handles form submission from card2.
+    
+    - POST receives chosen option.
+    - Updates pipeline state (steps['card2'] = {"choice": chosen}).
+    - Advances current_step to "card2".
+    - Returns confirmation with trigger to load card3.
+    """
+    form = await request.form()
+    chosen = form.get('choice')
+    url = db['url']
+    pipulate.set_step(url, "card2", {"choice": chosen})
+    pipulate.set_current_step(url, "card2")
+    
+    # Return confirmation with card3 trigger
+    return Div(
+        P(f"Your choice '{chosen}' recorded!"),
+        hx_get="/workflow/card3",
+        hx_target="#card3",
+        hx_trigger="load",
+        hx_swap="outerHTML"
+    )
+
+async def card3(self, request):
+    """
+    Card 3: Comment form that references the choice from card2.
+    
+    PIPELINE STATE MANAGEMENT:
+    - Retrieves card2's choice from pipeline state
+    - Pre-populates comment if returning to this step
+    - Maintains perfect state sync via pipeline JSON
+    
+    ARCHITECTURAL NOTES:
+    - No client state needed - pipeline JSON is source of truth
+    - Form submission updates pipeline via card3_submit
+    - Resume-ability demonstrated by pre-populated fields
+    """
+    url = db['url']
+    state = pipulate.get_state(url)
+    if not state:
+        logger.error("No pipeline state found in card3")
+        return P("Error: Pipeline state not found")
+
+    # Get previous choices from pipeline
+    card2_choice = pipulate.get_step(url, 'card2').get('choice', '')
+    previous_comment = pipulate.get_step(url, 'card3').get('comment', '')
+
+    return Card(
+        H3("Card 3: Add Comment"),
+        P(f"You chose '{card2_choice}' in Card 2"),
+        Form(
+            Input(
+                type="text",
+                name="comment",
+                placeholder="Enter your comment",
+                value=previous_comment,  # Pre-populate if exists
+                required=True
+            ),
+            Button("Submit", type="submit"),
+            method="POST",
+            action="/workflow/card3-submit",
+            style="margin-top:1rem;"
+        ),
+        id="card3"
+    )
+````
+
+This first step:
+1. Adds card3 route registration
+2. Modifies card2_submit to trigger card3 loading
+3. Implements card3 with detailed docstrings explaining the pipeline pattern
+4. Pre-populates the comment field if returning to this step
+5. Maintains the same architectural principles as cards 1 and 2
+
+Would you like me to outline the next step (card3_submit implementation) or would you prefer to verify this first step works as expected?
+
+**Me**: Interesting! 2 things. First, this implies that the placeholders for all
+steps in the pipeline be established up-front and there be some complex scheme
+of multiple card placeholder passing where you've got to look ahead with
+knowledge of the entire pipeline to even just do card1. Wouldn't it be better
+for each card to just establish the "just in time" for the next card
+placeholder? That way, these things can just keep growing without having to go
+back and edit code in the past. It seems a silly dependency.
+
+Second, the submit method on card2 is still some get thing that violates the
+principles of the system. It should use the POST method and stay in single page
+application mode. The submitting of card2 should gracefully replace the
+placeholder for card3 making it become visible.
+
+**Claude**: [I let the Ctrl+K mode implement directly (no chat)]
+
+**Me**: Okay, we're getting there. I see the just-in-time card placeholders now well
+implemented. The still remaining problem is the submit method which after making
+a dropdown option menu selection from card2 forwards us to the following URL:
+
+http://localhost:5001/workflow/card2-submit
+
+...which tells us that the wrong method for the submit was used, and it has
+taken us out of single-page application (SPA) mode, which is a huge point of
+using this FastHTML/HTMX framework (staying in SPA-mode). It also brings us to a
+newly "invented" page that where we can't do the trick of populating card3 by
+doing DOM manipulation on the placeholder from the previous step.
+
+**Claude**: [I once again use the Ctrl+K mode implement directly (no chat)]
+
+> And now I've got the third card! BAM! But there's tiny nuance issues. The
+> infinite limit. I will ***have to*** work out the most critical among them in
+> order for clean code to propagate forward as the template example gets
+> copy/pasted. But time for lunch!
