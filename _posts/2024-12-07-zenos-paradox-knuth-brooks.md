@@ -733,7 +733,7 @@ Claude: I notice you're weighing WorkFlow vs LegacyPipelineWorkFlow. Looking at 
 
 Here's the concrete first step for Card 3, following LegacyPipelineWorkFlow's style:
 
-````python:botifython/botifython.py
+```python
 # In LegacyPipelineWorkFlow class:
 
 def __init__(self, app):
@@ -811,7 +811,7 @@ async def card3(self, request):
         ),
         id="card3"
     )
-````
+```
 
 This first step:
 1. Adds card3 route registration
