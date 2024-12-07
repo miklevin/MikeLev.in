@@ -1453,7 +1453,7 @@ Both show the same pattern: a stable pipeline, no client-side complexity, local 
 ## Defending Against Hallucination & Confirmation Bias
 
 > Time for a reality check. Did I really build something fresh and interesting
-> here? I ask for it to burst my bubble.
+> here? I ask o1 to burst my bubble.
 
 **Me**: Very nice. And I don't want you to just lean into my obvious desire for confirmation bias, but look at all the various aspects of this coming together to make something new... that is if you agree. Feel free to push back and pop my delusional bubble if you think so.
 
