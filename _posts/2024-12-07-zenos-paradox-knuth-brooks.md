@@ -717,7 +717,7 @@ Citations:
     [7] https://www.fb.org/focus-on-agriculture/the-best-laid-plans
     [8] https://www.goodreads.com/quotes/163904-the-best-laid-schemes-o-mice-an-men-gang-aft
 
-Gemini: That's a very apt observation!  It seems even the best-laid plans, crafted with the most meticulous care and foresight, can often go awry when they encounter the unpredictable nature of reality.  
+**Gemini**: That's a very apt observation!  It seems even the best-laid plans, crafted with the most meticulous care and foresight, can often go awry when they encounter the unpredictable nature of reality.  
 
 In the context of our discussion, this highlights the inherent tension between our desire for order and control, and the chaotic, often surprising nature of the world we inhabit.  We build elaborate systems, construct intricate theories, and meticulously plan our actions, but ultimately, we must be prepared to adapt and adjust when confronted with the unexpected.
 
