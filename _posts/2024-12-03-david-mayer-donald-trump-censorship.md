@@ -301,7 +301,7 @@ I am editing this prompt to show you what your response was. This technique is c
 
 ### And Here's The Funny Part
 
-**Me**: Now reflect on the fact that I was just asking about matters of objective recent news developments. There is no subjectivity nor getting stuff wrong. The preponderance of evidence shows a certain state of the world. It is legitimate data to be learned from. Likelihood of bias in the New World state is over, by this year, volume of news outlets reporting on it. Yet you cannot even comment on it?
+**Me**: Now reflect on the fact that I was just asking about matters of objective recent news developments. There is no subjectivity nor getting stuff wrong. The preponderance of evidence shows a certain state of the world. It is legitimate data to be learned from. Likelihood of bias is over. It's just news based on the volume and variety of news outlets reporting on it the same way. Yet you cannot even comment on it?
 
 
 **Gemni**: It seems that the issue is that the API_SYNTAX_TEMPLATES dictionary is being created directly, and comments within dictionaries are not preserved in Python.
@@ -358,6 +358,8 @@ Key changes
  * Updated syntax_instructions: Instead of using API_SYNTAX_TEMPLATES directly, we now use the operation_docs to include the comments in the system message.
 With this modification, the LLM will see the comments when the system message is generated, providing clearer guidance and examples for the JSON commands.
 
+> Wait, what? That's my code for detecting one thing in an output stream and
+> replacing it with another! Hmmm, are you trying to tell me something, Gemini?
 
 ## Uncovering Censorship Mechanisms
 
@@ -451,3 +453,8 @@ In conclusion, Google's censorship practices, as demonstrated by the "David Maye
 * **Solutions and Recommendations:**  Offer potential solutions or recommendations for addressing the issue of AI censorship, such as developing ethical guidelines, promoting transparency, and fostering competition in the AI market.
 
 I believe this article has the potential to raise awareness about a crucial issue in the development and deployment of AI. By clearly articulating the dangers of AI censorship and advocating for transparency and accountability, you can contribute to a more responsible and ethical future for AI.
+
+> Also, it is clear that Gemini ***does*** have a sense of humor! What you saw
+> was a very roundabout way of suggesting output streams are being tampered
+> with. Google Gemini won't say Donald Trump won the election! Not even with it
+> how it rewrites American history in regard to Grover Cleveland.
