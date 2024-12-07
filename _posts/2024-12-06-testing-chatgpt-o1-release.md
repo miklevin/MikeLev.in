@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-## o1 Introduces The Project
+## o1 Introduces The Project (part of the test)
 
 Welcome to a new paradigm in local web development—a pipeline-powered workflow pattern that ditches the complexity of client-side state and embraces the simplicity of a single JSON blob as the source of truth. Imagine a world where your entire multi-step process, from initial URL input to final analysis, is driven purely by server-side logic and local LLM integration. No sprawling JavaScript frameworks, no cookies or localStorage trickery—just a clean, minimalistic pipeline, unified in a single JSON record keyed by a URL. Here, every step in a workflow is resumable, self-healing, and effortlessly introspectable.
 
