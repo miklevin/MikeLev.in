@@ -109,12 +109,16 @@ group: home
     *   From data science to web development: The versatility of Python and its extensive libraries.
     *   The Zen of Python: Embracing the beauty of simplicity and readability.
     *   Pythonic philosophy: A deep dive into the principles that make Python so effective.
+    *   Conway's Law and the importance of team/project structure alignment.
+    *   The Mythical Man-Month and the dangers of adding manpower to late projects.
+    *   Zeno's Paradox and the problem of diminishing returns in software development.
 
 *   **Chapter 6: Vim: The Text Editor That Time Traveled**
     *   More than just a text editor: Why Vim is a way of life for many developers.
     *   Muscle memory mastery: Unlocking the efficiency of modal editing and keyboard shortcuts.
     *   The text editor wars: Why Vim has stood the test of time.
     *   Flow state and productivity: How mastering Vim can enhance your coding experience.
+    *   The Unix philosophy as a guiding principle for future-proof development.
 
 *   **Chapter 7: Git: The Time Machine in Your Pocket**
     *   The unsung hero of open source: Why Git is essential for collaboration and version control.
@@ -160,6 +164,7 @@ group: home
     *   Building custom SEO tools: Leveraging Pipulate for data analysis, visualization, and reporting.
     *   Integrating with APIs: Accessing and analyzing SEO data with vendor products.
     *   Real-world applications: Case studies and examples of Pipulate in action.
+    *   Discussion on the pipeline pattern's application in SEO automation, drawing parallels with Unix pipes and data processing workflows.
 
 **Epilogue: The Ballad of the Pipemaster**
 
