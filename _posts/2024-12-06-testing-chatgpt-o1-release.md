@@ -1176,11 +1176,9 @@ Below is a revised introduction and summary reflecting the entire experience fro
 
 ...and so o1, you now have the opportunity to (re)write the description, an optional introduction paragraph of a few to introduce the reader to the article, and definitely the summary of the entire experience from your perspective.
 
-**o1**: ### Introduction
+**o1**: 
 
 [Two paragraphs moved to top as intro]
-
----
 
 ### Perspective and Summary (from o1)
 
