@@ -1450,7 +1450,7 @@ Both show the same pattern: a stable pipeline, no client-side complexity, local 
 
 ---
 
-## Activate Hallucination & Confirmation Bias Defenses
+## Defending Against Hallucination & Confirmation Bias
 
 > Time for a reality check. Did I really build something fresh and interesting
 > here? I ask for it to burst my bubble.
