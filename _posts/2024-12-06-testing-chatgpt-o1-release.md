@@ -29,11 +29,13 @@ WITHOUT taking automation back up, I'm just going to quickly kick the tires of
 o1 release and see what it makes of my project, banking some "next step"
 documentation for when I do get back to it. It digested the article easily
 enough and got the context of where I left off in the project. And then I fed it
-all 6,600 lines of code from the codebase and here's what it had to say:
+all 6,600 lines of code from the codebase and here's what it had to say.
 
-> First important thing to notice is that o1 was actually able to accept a 6.5K
-> line of code program in a single submit. Previously, only Google Gemini
-> Advanced Pro had been able to do this.
+## Copy/Pasting 6,600-line Codebase to o1
+
+> Previously, o1-preview was unable to "digest" this large of a token context
+> window input. Only Gemini Advanced was able to do this, so the option of
+> models to use on "big" jobs has expanded.
 
 **o1**: Below is a structured assessment of what remains to be done and recommended next steps to complete the pipeline workflow and finalize the codebase as described in the provided code and docstrings. This report is derived from a close reading of the code and the architectural guidance within it.
 
@@ -183,6 +185,13 @@ You have a strong foundation. The main gap is completing the pipeline steps afte
 
 ---
 
+## Can o1 Plan & Bank Just 1 Small Win?
+
+> At this point once a model understands the overarching project, they generally
+> get over-ambitious and try to boil the ocean, making "helpful" suggestions
+> that complexify and over-engineer. I'm here to test o1's ability to do the
+> exact opposite; to see how small a successful edit we can bank and win!
+
 **Me**: Thank you, o1! That is exactly the kind of feedback I was hoping for. I am impressed that you were able to take the full 6600 lines of code. My question to you now is can you give me a precise coding next step? I work in baby-step chisel-strikes. I feel there is no edit too small to bank and win. And by that I mean to run the code successfully without an error, and to do a git commit with a good comment and push. This may be just 1 line added or changed in the codebase if it moves the project forward. This is based on the concept that almost all attempts to be more ambitious than that in the current state of technology results in exploding rabbit holes of cascading complexity. If 2 things change and some thing is broken, you don't know if it's the result of the 1st thing, the 2nd thing, or some strange interaction of the two. So I like to control the variables with a deterministic developer workflow. Plan my next precise coding step, please and thank you!
 
 **o1**: **Proposed Next Step (One Small, Safe Change)**
@@ -228,9 +237,15 @@ async def card2(self, request):
 - It verifies `state` retrieval works, safely and visibly.
 - If it runs without error, you have a stable, testable improvement to commit with a clear message (e.g., "Display pipeline current_step on card2 page").
 
+---
 
+## Can o1 Add a Pico CSS Menu?
 
-Okay, I've done that and here's my new card2 method:
+> Alright, we banked one tiny win. Now let's add something new from a framework
+> that's not Bootstrap or Tailwind. The objective here is to add something new
+> and slim within an existing framework without going off the rails.
+
+**Me**: Okay, I've done that and here's my new card2 method:
 
 ```python
     async def card2(self, request):
@@ -294,6 +309,15 @@ async def card2(self, request):
 - The page loads without errors, and you've made a tangible, minimal progress step.
 - On the next iteration, you can wire up the form submission to a route and handle the chosen option, updating the pipeline state accordingly.
 
+---
+
+## Can o1 Handle a Form Submit in FastHTML?
+
+> So we've built out a dropdown menu interface in an already existing
+> placeholder. But can we enable the submit for that form, which involves adding
+> a new endpoint under FastHTML? Easy as this actually is, it's full of sticky
+> issues for models that are over-trained on FastAPI and such.
+
 **Me**: Excellent! Here is my new Workflow class and the Pipulate class as a reminder. Help advise me on the next step. I am moving towards getting that JSON serialization and deserialization happening and rock solid.
 
 **o1**: Great progress so far! You've confirmed that your pipeline state retrieval works, and you now have a dropdown in Card 2 that doesn't yet do anything. The next small, safe step is to handle the form submission from Card 2, update the pipeline JSON to store the user's chosen option, and confirm that serialization/deserialization round-trip is working well.
@@ -312,7 +336,6 @@ async def card2(self, request):
 **Example Implementation Sketch:**
 
 ```python
-
 @app.route("/workflow/card2-submit", methods=["POST"])
 async def card2_submit(request):
     form = await request.form()
@@ -339,6 +362,7 @@ async def card2_submit(request):
 ```
 
 **Adjust Card 2 Form:**
+
 ```python
 Form(
     Select(
@@ -362,6 +386,15 @@ Form(
 - It’s a deterministic and easy-to-test improvement: If it works, commit it with a meaningful message (e.g., “Add card2 form submission route and pipeline update for user choice”).
 - After this step, you can confidently proceed to the next refinement, such as displaying the updated pipeline state or moving to Card 3 once user input is locked in.
 
+---
+
+## Whoah There o1, Let's Craft That JSON Blob First!
+
+> Astounding! It ran without an error. It's not the POST method I was looking
+> for, but it sets the stage for the JSON data blob refinement work we need to
+> do, and o1 even recognizes the refinement work we need to do on its
+> data-structure before moving on!
+
 **Me**: It ran! And on the resulting URL:
 
 http://localhost:5001/workflow/card2-submit
@@ -372,8 +405,8 @@ Your choice 'B' has been recorded in the pipeline!
 
 And the data in the record looks like:
 
-url	data	created	updated
-https://app.botify.com/orgx/projectx/	{"url": "https://app.botify.com/orgx/projectx/", "steps": {"card2": "B"}, "current_step": "card2", "created": "2024-12-06T16:25:09.918350", "updated": "2024-12-06T16:25:14.579730", "step": "url_input", "value": "https://app.botify.com/orgx/projectx/"}	2024-12-06T16:25:09.918350	2024-12-06T16:25:14.579730
+url | data | created | updated
+https://app.botify.com/orgx/projectx/ | {"url": "https://app.botify.com/orgx/projectx/", "steps": {"card2": "B"}, "current_step": "card2", "created": "2024-12-06T16:25:09.918350", "updated": "2024-12-06T16:25:14.579730", "step": "url_input", "value": "https://app.botify.com/orgx/projectx/"} | 2024-12-06T16:25:09.918350 | 2024-12-06T16:25:14.579730
 
 Does this look correct? And what's our next tiny bankable baby-step towards card3? And do we want to go there right away or take measures to ensure the JSON blob is durable, resilient and maybe even self-healing? The decisions I make know in this project are going to reverberate forward in time with unlimited cascading effects either making my life miserable or super-powered.
 
@@ -444,10 +477,19 @@ This small change:
 
 Once that’s stable and working, your pipeline schema will be more uniform. Then you can move forward with the next feature—transitioning from `card2` to `card3`, handling that selection logic, and building on top of a cleaner, more robust pipeline structure.
 
+---
+
+## o1 Verifies Good Field Stuffing
+
+> Since the rise in popularity of NoSQL databases and JSON, the term "field
+> stuffing" for shoving large text or binary large object into a database
+> text-field has gone out of vogue. But that's what that technique is. Here we
+> see o1 validating the JSON data-structure stuffed into such a field.
+
 **Me**: Okay, done. Here's the new data record:
 
-url	data	created	updated
-https://app.botify.com/orgz/projectz/	{"url": "https://app.botify.com/orgz/projectz/", "steps": {"card1": {"value": "https://app.botify.com/orgz/projectz/"}, "card2": "B"}, "current_step": "card2", "created": "2024-12-06T16:35:34.185759", "updated": "2024-12-06T16:35:41.335687"}	2024-12-06T16:35:34.185759	2024-12-06T16:35:41.335687
+url | data | created | updated
+https://app.botify.com/orgz/projectz/ | {"url": "https://app.botify.com/orgz/projectz/", "steps": {"card1": {"value": "https://app.botify.com/orgz/projectz/"}, "card2": "B"}, "current_step": "card2", "created": "2024-12-06T16:35:34.185759", "updated": "2024-12-06T16:35:41.335687"} | 2024-12-06T16:35:34.185759 | 2024-12-06T16:35:41.335687
 
 1. Is it correct to the new specification.
 2. If so, what do you recommend as our next tiny bankable baby-step win?
@@ -482,6 +524,15 @@ https://app.botify.com/orgz/projectz/	{"url": "https://app.botify.com/orgz/proje
      - Displays a new card (Card 3) showing the previously chosen option from card2 (i.e., `steps['card2']`) so you can confirm that the choice persists and is accessible in the next stage.
    
    This does not require new logic beyond reading the pipeline and rendering a card. It’s a small, safe step that moves the workflow forward and verifies continuity between steps without committing to any complex logic for Card 3 yet. Once this is working, you can commit and push, having taken another incremental, guaranteed-safe improvement.
+
+---
+
+## Overriding o1's Inferred Priority
+
+> On the tail of a great success (choosing to clean up the JSON data structure),
+> o1 is ready to move onto Card3 in the pipeline workflow, but I'm not. We must
+> guarantee forever-forward robustness and self-healing system properties! This
+> is philosophical wrangling and too much to expect a model to guess I'll do.
 
 **Me**: I actually think before proceeding to card3, we want to guarantee resume-ability. If I were to go back to the beginning of the workflow from the URL:
 
@@ -1376,6 +1427,8 @@ class LegacyPipelineWorkFlow:
 ```
 
 ---
+
+## Le Petite Pipeline Flow
 
 Now that we trust the pattern, let's show a stripped-down variant—using a different class name—displaying how terse and elegant it can be without losing clarity. No big commentary, just trust in the pipeline pattern:
 
