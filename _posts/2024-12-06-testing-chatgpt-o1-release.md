@@ -678,9 +678,20 @@ After this change, you can verify that:
 
 This provides a solid foundation before adding card3, as it proves the core pipeline premise: state is always recoverable and UI is just a view into that state.
 
-> Okay, so now I have resumable pipeline workflows! News is that Gemini just
-> upped their context window to 2 Million tokens, so this seems like an
-> opportune time to get its opinion on my codebase:
+> Great success! Now I have a resumable workflow pipeline. This is huge! But
+> there's forever-forward decisions I must be happy to live with. So, let's vet
+> the idea against the overlord underdog, Gemini!
+
+---
+
+## From o1 to Claude 3.5 Sonnet to Gemini Advanced Pro
+
+> You know what's better than vetting your codebase against 2 top-of-the-line
+> frontier cloud models from OpenAI and Anthropic? Vetting against 3! And so I
+> feed not only the codebase, but the entire article up to this point to
+> Google's Gemini Advanced Pro, probably the only today that can take it.
+
+**Me**: [First, I paste just the codebase]
 
 **Gemini Advanced Pro**: It seems you've provided a comprehensive Python codebase for a web application framework. This framework, built on FastHTML and a local Large Language Model (LLM), appears designed to facilitate interactive coding tasks and learning. 
 
@@ -703,6 +714,15 @@ I'm particularly interested in how the LLM is used to guide users through coding
 The code also includes several "speedbump" explanations (`llm_speedbump_dict`) that seem intended to guide the development process and prevent common pitfalls. These explanations emphasize simplicity, server-side state management, and the use of specific libraries and patterns.
 
 Overall, this codebase appears to be a sophisticated framework for interactive coding and learning. I'm ready to dive deeper into specific aspects or functionalities based on your goals and questions.
+
+---
+
+## Open-ended Thoughts From Gemini Advanced Pro
+
+> My technique with documenting my articles here as a blog means I have some
+> very convenient article "meta data" about my codebase. It's literally the
+> storytelling and context that surrounds the code, and it's super-useful to
+> give a model so they can really sync-up with your thinking!
 
 **Me**: This is all true! Here's where I recently got up to. This is an article describing it...
 
@@ -741,25 +761,36 @@ Here are some thoughts and potential next steps:
 
 **Overall, your project demonstrates a unique and promising approach to web development. Keep iterating and refining your ideas, and you might just spark a localhost revolution!**
 
+> Oh, isn't that sweet? Gemini likes my work. But these AIs in order to retain
+> you as a monthly paying customer are designed to algorithmically yank your
+> chain and stroke your ego to give you a dopamine burst. Must... resist...
+> Anyhoo, let this be a defend-against confirmation bias alarm!
+
+Thanks, Gemini Advanced Pro. You always know how to sum up gargantuan amounts of
+tokens. That's why I pay for you for now. You know, o1's catching up. Funny you
+go to a 2-million token context window right as we go into the 12 days of
+OpenAI, haha!
+
 ---
 
 ## Yes, But Back to The Wonderful Wizard o1
 
-> Thanks, Gemini Advanced Pro. You always know how to sum up gargantuan amounts
-> of tokens. That's why I pay for you for now. You know, o1's catching up. I
-> just promoted it this:
+> Alright, so Gemini didn't barf on what we've done so far. So it's time for a
+> quality assurance check (QA check) from the same model that did all the
+> planning (o1). Let me giving it a little friendly jibing to review and
+> summarize the work.
 
-**Me**: ...and so my question to you, Mr. Great and Powerful o1 (you'd have think
-they'd have capitalized you, like Oz), is how'd we do? More like, how'd you do?
-Say something brilliant about the JSON data blob. Explain why this ain't no
-celery. And how there's a cool new framework in town, one that taps localhost
-with all it's ollama-running local models incorporated in all sorts of ways
-glory. Did Ollama get capitalized? I wonder. Well, if you have to run it like a
-Linux command, there's an excuse for lower-casing, like git. But you don't get
-typed in like a Linux command o1, so you deserve an Upper Casing! Anyhoo, give
-me that in depth review. How'd we do with your reco's? What's a good next step?
-Can we bank one more chisel-strike win getting to card3? You can continue
-writing this article and shaping this framework! Clicks heels together...
+**Me**: My question to you, Mr. Great and Powerful o1 (you'd have think they'd
+have capitalized you, like Oz), is how'd we do? More like, how'd you do? Say
+something brilliant about the JSON data blob. Explain why this ain't no celery.
+And how there's a cool new framework in town, one that taps localhost with all
+it's ollama-running local models incorporated in all sorts of ways glory. Did
+Ollama get capitalized? I wonder. Well, if you have to run it like a Linux
+command, there's an excuse for lower-casing, like git. But you don't get typed
+in like a Linux command o1, so you deserve an Upper Casing! Anyhoo, give me that
+in depth review. How'd we do with your reco's? What's a good next step? Can we
+bank one more chisel-strike win getting to card3? You can continue writing this
+article and shaping this framework! Clicks heels together...
 
 **o1**: Your reasoning and execution have been commendably minimal, modular, and incremental—exactly the style that suits a single-tenant, localhost-only application. By insisting on baby steps and ensuring each chisel strike is both logical and safe, you've maintained a crystal-clear evolutionary path.
 
@@ -913,17 +944,21 @@ async def card2_submit(self, request):
 
 Before you start on Card 3, implement these helper methods in Pipulate. Move any repetitive state manipulation out of WorkFlow. This will make WorkFlow a joy to read and maintain: each card’s code will be a minimal, readable story of what the user sees and chooses, rather than a tangle of JSON merges and dictionary checks. Such a refactoring aligns perfectly with the FastHTML and MiniDataAPI ethos of simplicity and clarity—an elegant pipeline foundation for countless future workflows.
 
+> It turns out that this shoving around of complexity was really the final
+> masterstroke of this FastHTML/HTMX/localhost pipeline workflow framework.
+> Pshwew! I sound like all those over-engineering Conway effect enterprise
+> architects I'm rebelling against, but you'll see... you'll see.
+
 ---
 
 ## Claude Who Implements o1's Plan Chimes In
 
-> Impressive, right? o1 sure seems to know it's stuff. I don't think I could be
-> doing better talking to many humans. I'm sure there's a few. But I don't have
-> access to them for a second option. But I am using Cursor AI, so I do have
-> access to Claude 3.5 Sonnet to check over o1's work!
+> o1 can plan all it wants, but it's Claude 3.5 Sonnet that's built into the
+> Cursor AI editor, so Claude is the "implementation guy". So I feed Claude o1's
+> plan, plus highlighted code form around the existing app that does similar
+> things with a Python debug/monitor decorator pattern I want used again.
 
-**Me**: [Shared o1's plan to Claude, plus a bunch of code whose style I want it
-to emulate]
+**Me**: [Shared o1's plan to Claude, plus some code highlights]
 
 **Claude 3.5 Sonnet**: Ah, I see you've shared the DictLikeDB code which provides an excellent pattern to follow! Let's design Pipulate's new helper methods with the same attention to detail and logging capabilities.
 
