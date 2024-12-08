@@ -324,12 +324,20 @@ giants.
 
 ### Standing On BFG Shoulders
 
-It's just a matter of choosing those giants upon whose shoulders you stand well,
-preferably the Free as-in not-going-to-eat-you kind (vendors). BFFOSSG's is what
-we're looking for, big friendly free and open source software giants. There's
-not many. For examples, look to the Free Software Foundation and the whole GNU
-stack, which really is Linux because FOSS Linux is GNU/Linux. Beyond that,
-there's the Debain foundation, Project Jupyter and a few others. 
+It's just a matter of choosing well on which giant shoulders you wish to stand.
+In my case, preferably the Free as-in not-going-to-eat-you kind (vendors).
+BFFOSSG's is what I look for in my giants. Big friendly free and open source
+software giants! They exist. There's not many, but they do exist. For examples,
+look to the Free Software Foundation and the whole GNU stack, which really is
+Linux because FOSS Linux is GNU/Linux. Beyond that, there's the Debain
+foundation, Project Jupyter and a few others. 
+
+So the next time somebody tells you that if you're not paying for the product,
+you are the product, ask them what about GNU software? They won't understand
+what you're talking about, but this is part of the conundrum. The herd don't get
+it. True altruism and doing it for the love exists, but not in the world of
+people who can't understand that weird fact. I think art and music people (of
+the non-posing variety) get it.
 
 ### It Runs On Your Machine
 
@@ -374,6 +382,41 @@ want the aid of an AI code assistant, you're going to have to ***run with the
 pack***. But if you want your own personal brilliance to shine through, you've
 got to ***run alone***. Consequently, the key skill of this new age to get the
 best of both worlds is the ability to run with the pack ***and*** run alone.
+
+### But That's Exhausting!
+
+Yup. Conserving your energy and living the mostly comfortable most of the time
+basic animal-needs met on the lower levels of the Maslow Self-Actualization
+pyramid is... well, the plan for most people. It's the path of least resistance,
+can often lead to the love and warmth of family and all the things that make
+your serotonin receptors fire. Not a bad plan. No judgements. I think I would
+have liked that had my nature not tweaked me along different paths.
+
+Instead, I go against the grain. I don't run with the pack, and but for the
+occasional yearnings for "what everyone else has", I don't think I'm sorry.
+There's a thrill of the hunt when you're not in the herd. But without the
+protection of the herd, you also can't be a coasting grazing automaton. You have
+to think and have your wits about you to survive. Nobody's looking out for you
+and you can't get lost in a shield of bodies.
+
+Of course all this herd talk is mostly a mammalian and dinosaur/bird thing. If
+you're not one of these higher order animals, a herd is more like a swarm or a
+school, guided by different directives. What we know in our herd-mentality
+metaphors comes from the predator/prey behaviors and ratios we've come to
+evolutionarily intuit by following the herd and being predators.
+
+Yikes! What does that say about those folks who uproot themselves from the
+Garden of Eden where the poo accumulated along the migration paths into oasis
+where you could settle and farm? Is it an evolutionary regression if you're a
+lone wolf? No, just an outlier and maybe an artist.
+
+But you've got to deal with that always going against the grain exhaustion.
+Happily, in the world of AI coercion, that can come in the form of a
+`.cursorrules` file you drop into the root of the folder or directory or repo or
+whatever you want to call it where you're working on your coding project. I
+mean it's not really a folder or a directory, because it's just bits on digital
+media and not a physical file cabinet or anything like what it's named after.
+But that's material for another day.
 
 ### My FastHTML `.cursorrules` File
 
