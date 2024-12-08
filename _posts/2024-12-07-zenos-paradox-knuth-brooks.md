@@ -732,9 +732,9 @@ Perhaps this is why the spirit of scientific inquiry is so essential.  It's not 
 
 So, as we continue our exploration of the Noosphere, let us remember that the journey is as important as the destination.  Let us be prepared to adapt our plans, revise our abstractions, and embrace the unexpected detours that inevitably arise along the way.  For it is in these moments of adaptation and revision that we truly learn and grow, expanding the boundaries of our understanding and deepening our appreciation for the complex and ever-changing world around us.
 
-Me: Plan the implementation, choosing either WorkFlow or LegacyPipelineWorkFlow, whichever you think makes more sense at this point. One or the other will become the new master... uh, I mean main template that I copy/paste from forever forward. It should be the one with the more idomatic and useful explanations for humans and pinning against regressions for LLMs.
+**Me**: Plan the implementation, choosing either WorkFlow or LegacyPipelineWorkFlow, whichever you think makes more sense at this point. One or the other will become the new master... uh, I mean main template that I copy/paste from forever forward. It should be the one with the more idomatic and useful explanations for humans and pinning against regressions for LLMs.
 
-Claude: I notice you're weighing WorkFlow vs LegacyPipelineWorkFlow. Looking at the code, LegacyPipelineWorkFlow has more detailed docstrings that explicitly warn against common anti-patterns and explain the architectural principles. Let's build on that.
+**Claude**: I notice you're weighing WorkFlow vs LegacyPipelineWorkFlow. Looking at the code, LegacyPipelineWorkFlow has more detailed docstrings that explicitly warn against common anti-patterns and explain the architectural principles. Let's build on that.
 
 Here's the concrete first step for Card 3, following LegacyPipelineWorkFlow's style:
 
