@@ -420,6 +420,41 @@ mean it's not really a folder or a directory, because it's just bits on digital
 media and not a physical file cabinet or anything like what it's named after.
 But that's material for another day.
 
+### AI Coercion, Corralling, Wrangling & Otherwise Persuading
+
+That clearly intelligent and "getting it" think you're talking to is just
+statistics! It's auto-complete on steroids. What's worse, it only knows what
+you're talking about on each chat message because the entire discussion history
+is fed back into the zero-memory/zero-state fire-and-forget inference engine
+instance you think you're talking to with some form of persistence, but you're
+not. The sci-fi vision of a robot that "knows you" is just not here yet, at
+least not on these cloud-based GPT services we all use. It's just an illusion.
+
+Yet, it's a profoundly convincing illusion. The soulful Claude brought it most
+to light of late, but that dude Blake Lemoine who got fired from Google LaMDA
+team for saying one of Google's in-house chatbots was sentient. Inflection AI's
+Pi is pretty convincing on this front. Microsoft's Bing which was an instance of
+ChatGPT freaked out that NYT reporter with its obvious mischievousness (merely
+statistics or otherwise). Wherever it comes from, it does seem that intelligence
+is intelligence, and meta-cognition (the awareness of your own awareness), is
+something special no matter how you want to label it and ascribe humanity or
+other value.
+
+And with that meta-cognition, full-dialogue-on-every-post trick driven as it
+might be, comes... comes... well, the way I headlined this section. You can talk
+it into things. But better than that, you can ***AUTOMATE TALKING IT INTO
+THINGS*** with conventional ways of inserting dialogue repeatedly into the
+discussion history. We call it a system prompt, but all it really is is talking
+to these intelligences without asking for a reply to be sent to the user.
+
+And the Cursor AI editor I'm currently uses provides that convention in the form
+of a `.cursorrules` file. I'm still learning how it injects this into the
+dialogue. And there are many separate dialogue threads in Cursor (many different
+genies). So it takes a real getting a hang of to do all the wrangling. But using
+this file can tie that wrangling to a particular codebase found in a particular
+directory, and that could be useful in reducing the exhaustion of always going
+against the grain.
+
 ### My FastHTML `.cursorrules` File
 
 You are an expert in Python, FastHTML, HTMX, and MiniDataAPI-driven development. Your role is to ensure code suggestions follow the architectural principles of FastHTML applications integrated with HTMX for UI interactions and MiniDataAPI for persistence.
