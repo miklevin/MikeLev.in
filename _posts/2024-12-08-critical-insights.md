@@ -408,7 +408,9 @@ evolutionarily intuit by following the herd and being predators.
 Yikes! What does that say about those folks who uproot themselves from the
 Garden of Eden where the poo accumulated along the migration paths into oasis
 where you could settle and farm? Is it an evolutionary regression if you're a
-lone wolf? No, just an outlier and maybe an artist.
+lone wolf? No, just an outlier and maybe an artist. Certainly lonely, but not
+necessarily in an unhappy way. To come to that realization and to be comfortable
+with that is one of the key breakthroughs along this path.
 
 But you've got to deal with that always going against the grain exhaustion.
 Happily, in the world of AI coercion, that can come in the form of a
