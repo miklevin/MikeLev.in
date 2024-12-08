@@ -46,14 +46,17 @@ on my part, and here's what it came up with:
 1. **Single Source of Truth:** All workflow state (including which card the user is on, what data each card collected, etc.) is stored in a single JSON blob managed by the server.
 
 {:start="2"}
+{:start="2"}
 2. **Server-Centric State Management:** No client-side state or complex front-end logic. The server generates the HTML for all cards that have been completed or are currently active based solely on the pipeline JSON.
 
+{:start="3"}
 {:start="3"}
 3. **Complete Rebuild on Page Load:** On any refresh (or revisiting the same URL), the server:
     - Reads the pipeline JSON from the database.
     - Determines the current step (e.g., "card50").
     - Rebuilds the DOM for all cards up to that card, plus one placeholder for the next card.
 
+{:start="4"}
 {:start="4"}
 4. **Incremental Loading via HTMX:** Only the first card triggers an `hx_get` to load itself. Each subsequent card, once loaded, triggers the next card's load, creating a chain reaction that assembles all cards up to the current one. On a full refresh, the server places all the card containers in the HTML, and the first one triggers loading itself, which triggers the next, and so forth until the current state is fully restored.
 
@@ -70,9 +73,11 @@ on my part, and here's what it came up with:
    - The server determines the current step from the pipeline JSON.
    
 {:start="2"}
+{:start="2"}
 2. **Build Placeholders for All Cards Up to Current Step:**  
    Suppose the current step is `card50`. The server will create `<div id="card1">`, `<div id="card2">`, ..., `<div id="card50">`, plus `<div id="card51">` as the next placeholder. Initially, these divs are empty, but they have `hx_get` attributes to load their respective card content on `load`.
 
+{:start="3"}
 {:start="3"}
 3. **Return the Entire Chain of Divs + The URL Input OOB Update:**  
    The server returns a response that:
@@ -135,6 +140,7 @@ async def process_url(self, request):
    - Displays either the previously submitted data (if the card is completed) or the form to complete this card.
    - Always includes a placeholder for the next card at the bottom.
    
+{:start="2"}
 {:start="2"}
 2. **Chain Reaction of Loads:**  
    Because each card includes an `hx_get` to load the next card, as soon as `card1` loads, it triggers `card2`, and so on, until the entire chain is rebuilt up to the current step.
@@ -233,12 +239,14 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       along its output to the next step. Documentation of each step is held in a
       list which gets longer as you step through the process.
 {:start="2"}
+{:start="2"}
 2. **A Trail of Locked Steps**:
     - Every time you finish a step, the interface for it locks because changing
       it would change everything that comes after. So there's no point in
       leaving it interactive. Instead, it just becomes a static note about what
       had occurred at that step. When you're on step 50 out of 100, there's a
       trail of 49 of these behind you.
+{:start="3"}
 {:start="3"}
 3. **Trail Rebuilt Every Time**:
     - Every time you advance from one step to the next, the entire trail of
@@ -247,11 +255,13 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       you left off. You pick the list you were using, and you continue as if
       never interrupted.
 {:start="4"}
+{:start="4"}
 4. **Step 1 Establishes List ID**:
     - Step 1 in this processes is always the creation of a new list and giving
       it its associated unique identity in a list of lists. If you try to put in
       a list identity on step 1 that already exists, it will load the
       pre-existing list and bring you up to the last incomplete step.
+{:start="5"}
 {:start="5"}
 5. **Deterministic Linear Workflow**:
     - In this way, there is no difference between picking up where you left off
@@ -259,11 +269,13 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       in step 1. "Interrupted" jobs are never really interrupted. Just plug the
       List ID into Step 1 and continue at last incomplete step.
 {:start="6"}
+{:start="6"}
 6. **The Implied Loop**:
     - From a user interface perspective, this implies spinning through a loop of
       all the steps with each new step in order to provide guarantees. This is
       how we will implement version 1 knowing optimizations will come in the
       future, but not until after we have locked-in these guarantees.
+{:start="7"}
 {:start="7"}
 7. **The Next-Step Placeholder**:
     - Whatever step you're on is going to need to provide a target element in
@@ -272,17 +284,20 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       placeholder. In this way we chain-up "just in time" targets for the linear
       process flow.
 {:start="8"}
+{:start="8"}
 8. **The POST Method**:
     - Semantically, we are posting. The traditional problem with posting is that
       application state gets reset on a full page refresh. This is not the case
       here because simply plugging the List ID back in on Step 1 re-establishes
       state from the List. 
 {:start="9"}
+{:start="9"}
 9. **Termination**:
     - There is no termination of the linear flow. The last step in a process
       will still establish the placeholder target in the DOM for a next step. A
       terminal step is therefore characterized by lack of a form and input
       fields, but is otherwise identical to any other active step.
+{:start="10"}
 {:start="10"}
 10. **The List**:
     - The List we have been discussing is the data that resides in a database
@@ -291,6 +306,7 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       url is the List ID, data is the entire list as a JSON blob that grows with
       each step. This is the single source of truth.
 {:start="11"}
+{:start="11"}
 11. **The Data Structure**:
     - The field named data in the record of a process instance of the pipeline
       table contains stringified JSON object. At the element's root is a series
@@ -298,10 +314,12 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       doesn't matter because key string parsing will re-establish it numerically
       by number after underscore on user interface build.
 {:start="12"}
+{:start="12"}
 12. **The Key Values**:
     - Each `"step_02"` has a value which is also a dict specifying the form
       input field selections made, such as `{"choice": "C"}`. In this way, each
       step can have multiple form fields.
+{:start="13"}
 {:start="13"}
 13. **Steps**:
     - Step 1's JSON data will therefore always follow the pattern:
@@ -311,6 +329,7 @@ This approach embraces the simplicity discussed at the end of the conversation, 
           "B"}}`
         - ...and so on. It really is that simple.
 {:start="14"}
+{:start="14"}
 14. **%100 Transparency in Logs**:
     - In single-tenant design where you funnel everything through the server,
       log files become the all-knowing source of truth. If you don't know
@@ -319,6 +338,7 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       conquer with a 2-outcome fork, deterministic knowledge gain, iterative
       subdivision and convergence. No unknowns nor bugs can survive this.
 {:start="15"}
+{:start="15"}
 15. **Inherent Readability**:
     - In using the simple **reads-like-a-story** data structure for the single
       source of truth JSON data in a pipeline record, merely writing the
@@ -326,6 +346,7 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       perhaps with some JSON prettification, makes system state fully
       understandable at a glance. If something goes wrong, there is ***ALWAYS
       SMOKING GUN EVIDENCE!!!***
+{:start="16"}
 {:start="16"}
 16. **Workflows as Poetry**:
     - Complexity gets shoved around. In our case, all generic pattern complexity
@@ -618,34 +639,41 @@ powerful audience.
    - This JSON is fully introspectable, logged, and easily debugged—**an anti-database black box** that upends guesswork.
 
 {:start="2"}
+{:start="2"}
 2. **Full Server-Centricity:**  
    Don’t waste time thinking about client frameworks. The client is a dumb terminal. The server sends HTML and receives form submissions. The client’s job is to show what the server said.  
    - The server orchestrates every step. The server re-renders every intermediate state. When you refresh the page, you see the truth—no partial illusions.
 
+{:start="3"}
 {:start="3"}
 3. **Incremental HTML Assembly via HTMX:**  
    Steps load as you go, triggered by `hx-get` and `hx-post`. One card pulls in the next. The chain reaction of loading is your “just-in-time” interface assembly line.  
    - If complexity tries to creep in, remember: it’s just `<div>` placeholders and `hx-get` calls. No fancy front-end logic, no bundlers, no state machines in JavaScript.
 
 {:start="4"}
+{:start="4"}
 4. **Linear, Deterministic Flow:**  
    Steps proceed linearly: step 1 → step 2 → step 3, etc. Each step locks behind you, forming an immutable trail. Recreating that trail is trivial: just rebuild the DOM from the pipeline JSON.  
    - This linear pattern resonates with the “Unix pipeline” metaphor: each card outputs data that the next card consumes.
 
 {:start="5"}
+{:start="5"}
 5. **Resume from Any Point:**  
    Because the pipeline’s entire state is in the database as JSON, reloading a known URL reconstitutes the exact interface. Your workflow is never “lost”; you just re-run the chain of steps, each one loading its previously recorded answers, culminating in the last incomplete step.
 
+{:start="6"}
 {:start="6"}
 6. **Simple CRUD-Like Operations for State Changes:**  
    The pipeline is mutated only when forms are submitted. `pipulate.set_step(url, "cardN", {...})` updates the JSON. `pipulate.set_current_step(url, "cardN")` sets the pointer. It’s as simple as reading and writing a dictionary.  
    - The mental model: “like CRUD, but for workflow steps.” It’s just insert/update to a JSON blob.
 
 {:start="7"}
+{:start="7"}
 7. **No-Fuss Development Cycle:**  
    The system runs on localhost, or at worst on a private, single-tenant machine. You have root access. You can log anything. This reverts to the old Webmaster freedom: no layers of enterprise sign-offs, no ephemeral containers and managed services.  
    - If something goes wrong, print the JSON. Done.
 
+{:start="8"}
 {:start="8"}
 8. **Architectural Minimalism as a Virtue:**  
    By removing all extraneous complexity (no distributed systems, no scaling layers, no front-end frameworks), you achieve a state of Zen: infinite understandability. Anyone can read the code and “get it.” It’s poetry, a performance art piece that mocks the bloatware out there.
@@ -658,6 +686,7 @@ powerful audience.
    Steps named `card1`, `card2`, `card3`, … are simple and memorable. Pipeline keys like `"step_01"` and `"step_02"` mirror their order. The pipeline URL as primary key cements identity and continuity.
 
 {:start="2"}
+{:start="2"}
 2. **Core Functions:**  
    - `initialize_if_missing(url, initial_data)`: Creates a pipeline record if not present.  
    - `get_state(url)`: Always returns a stable dict of steps and current_step.  
@@ -665,17 +694,21 @@ powerful audience.
    - `set_current_step(url, "cardN")`: Updates the pointer to the last completed step.
 
 {:start="3"}
+{:start="3"}
 3. **Single Table, Single JSON Field:**  
    A single database table with columns `url` (pk), `data` (JSON), `created` and `updated`. The `data` field is the entire workflow story. This is “the table to rule them all.”
 
+{:start="4"}
 {:start="4"}
 4. **Never Over-Optimize Early:**  
    Repeat the linear rebuild process on every refresh. Let the chain of `hx-get` calls re-assemble the DOM. If this becomes slow at scale, consider optimizing later—but first reap the benefits of total clarity.
 
 {:start="5"}
+{:start="5"}
 5. **Single Code File or Few Modules:**  
    Keep routes, pipeline logic, and templates near each other. This closeness fosters easy understanding. The code reads like a story.
 
+{:start="6"}
 {:start="6"}
 6. **No Base Classes for Workflows:**  
    Each workflow is its own piece of poetry. Don’t derive from a base class that tries to be too clever. Instead, manually write your steps. It’s more humane and fosters creativity over standardization bloat.
@@ -700,17 +733,21 @@ powerful audience.
    Start using POLF in internal tooling, admin dashboards, or personal hobby projects. Let the simplicity impress you.
 
 {:start="2"}
+{:start="2"}
 2. **Documentation as Meme-Propagation:**  
    Write small guides, share them, or embed them in blog posts like the one you’ve just written. People are tired of complexity; show them a haven of clarity.
 
+{:start="3"}
 {:start="3"}
 3. **Live Demos and Snippets:**  
    Provide a minimal code snippet that one can run locally with a single `python app.py`. Seeing how easily it runs will blow minds.
 
 {:start="4"}
+{:start="4"}
 4. **Comparative Tutorials:**  
    Show how solving the same problem in a traditional SPA + REST + JWT environment is 10x more complex. Let developers see what they’re missing.
 
+{:start="5"}
 {:start="5"}
 5. **Iterate and Shrink Further:**  
    Over time, refine and reduce even the minimal code until it’s a micro-framework that fits on a single screen. That’s the ultimate hook.
@@ -749,6 +786,7 @@ This example is intentionally simple: a 3-step workflow that collects user detai
    - `card1` has `hx_trigger="load"` so it loads immediately, which triggers card2, and so on.
 
 {:start="2"}
+{:start="2"}
 2. **Subsequent Steps (Card 2 & Card 3):**  
    Each card reads the pipeline JSON to know what to display.  
    Each card includes a placeholder for the next card.  
@@ -757,6 +795,7 @@ This example is intentionally simple: a 3-step workflow that collects user detai
    - We update `current_step` to `cardN`.
    - We return a small snippet confirming their input and letting HTMX load the next card automatically.
 
+{:start="3"}
 {:start="3"}
 3. **Immutable Trail:**  
    Once a card is submitted, it should display previously submitted values as non-editable text. Changing earlier steps is not allowed, preserving the linear "locked steps" principle.
@@ -1028,6 +1067,7 @@ class UserOnboardingWorkflow:
 onboarding_workflow = UserOnboardingWorkflow(app)
 ```
 
+{:start="2"}
 2. On the homepage or a dedicated URL, load the `init_form()`:
 
 ```python
@@ -1037,6 +1077,7 @@ async def onboard_home(request):
     return await onboarding_workflow.init_form()
 ```
 
+{:start="3"}
 3. Go to `/onboard` in your browser:
    - Enter a username and click "Start".
    - The system initializes the pipeline and shows the cards.
@@ -1526,6 +1567,7 @@ class My100StepWorkflow:
 workflow = My100StepWorkflow(app, pipulate)
 ```
 
+{:start="2"}
 2. On a main page, present the user the initial start form:
 
 ```python
@@ -1534,6 +1576,7 @@ async def myflow_home(request):
     return await workflow.start_form()
 ```
 
+{:start="3"}
 3. The user enters a unique ID. The system initializes or resumes from that ID. Steps load incrementally. Completed steps show locked data. The next step shows a form. On each submission, the pipeline JSON updates. If the user refreshes or re-enters, we rebuild from scratch using the pipeline data.
 
 This satisfies all the stated criteria:
