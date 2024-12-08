@@ -2721,6 +2721,5 @@ It's like a line of dominos where each one:
 2. Sets up the next domino
 3. Never disturbs the dominos that already fell
 
-Would you like to implement this solution? (Though I see you've already crafted it perfectly!)
 
 
