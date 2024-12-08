@@ -6,19 +6,21 @@ layout: post
 sort_order: 1
 ---
 
-Yesterday, I let myself fall into the rabbit hole of last-mile details of a
-project, letting myself get bogged down by cascading exploding complexity and
-lost sight of the whole original idea: ***no complexity!!!*** I mean, none. Like
-none-at-all. Once you make the decision to make a single-tenant, localhost
+Yesterday, Saturday, I let myself fall into the rabbit hole of last-mile details
+of a project, letting myself get bogged down by cascading exploding complexity
+and lost sight of the whole original idea: ***no complexity!!!*** I mean, none.
+Like none-at-all. Once you make the decision to make a single-tenant, localhost
 design that wipes away the concerns of scaling and security, things really open
 up for you that should feel like a surgeon so skilled he can juggle his scalpels
-during surgery. Yeah, that's the level of control we're going for here. That's
-what's possible taking the cgi-bin mentality of the PERL days of yore to modern
-tooling like FastHTML/HTMX... Starlett, Uvicorn, ASGI, yadda yadda.
+during surgery.
+
+Yeah, that's the level of control we're going for here. That's what's possible
+taking the cgi-bin mentality of the PERL days of yore to modern tooling like
+FastHTML/HTMX... Starlett, Uvicorn, ASGI, yadda yadda.
 
 So this article today on this fine Sunday December 8, 2024, is me digging my way
-back up and adjusting my approach. Adjusting my approach and cornering various
-AI's into really getting it.
+back up and adjusting my approach with a hail mary attempt to wrap all this up
+today. Adjusting my approach and cornering various AI's into really getting it.
 
 - Anthropic Claude 3.5 Sonnet, my every-day coding assistant in Cursor AI
 - Google Gemini Advanced Pro, who I'm paying for because massive token window
@@ -287,6 +289,160 @@ This approach embraces the simplicity discussed at the end of the conversation, 
     - Step 1's JSON data will therefore always follow the pattern:
         - `{"step_01": {"url": "https://example.com/"}`
         - ...and when a 2nd step occurs, it will appear:
-        - `{"step_01": {"url": "https://example.com/"}, "step_02": {"choice": "B"}}`
+        - `{"step_01": {"url": "https://example.com/"}, "step_02": {"choice":
+          "B"}}`
         - ...and so on. It really is that simple.
-14. **%100 Transparency & Server-side Readability**:
+14. **%100 Transparency in Logs**:
+    - In single-tenant design where you funnel everything through the server,
+      log files become the all-knowing source of truth. If you don't know
+      something, just add two `logger.debug(f"Path 1: {foo}")`,
+      `logger.debug(f"Path 2: {bar}")` entries to binary search divide and
+      conquer with a 2-outcome fork, deterministic knowledge gain, iterative
+      subdivision and convergence. No unknowns nor bugs can survive this.
+15. **Inherent Readability**:
+    - In using the simple **reads-like-a-story** data structure for the single
+      source of truth JSON data in a pipeline record, merely writing the
+      contents of the pipeline record to the server console and log file,
+      perhaps with some JSON prettification, makes system state fully
+      understandable at a glance. If something goes wrong, there is ***ALWAYS
+      SMOKING GUN EVIDENCE!!!***
+16. **Workflows as Poetry**:
+    - Complexity gets shoved around. In our case, all generic pattern complexity
+      of pipeline workflows gets shoved into the Pipulate class, so that new
+      Workflow classes which get artistically created every time (not
+      instantiated from base classes) are terse, inherently obvious, unique from
+      each other, and easy breezy pleasant to write.
+
+## The Localhost Revolution
+
+Most of the models seem to just hate what I'm doing, that is until they look
+deeper and love it. More and more often they express support for me and my
+***localhost revolution***, and throwback to the old days of the Webmaster,
+where a single individual could pretty much do everything. Of course we don't
+burn our computers from sand, so we're always standing on the shoulders of
+giants. 
+
+### Standing On BFG Shoulders
+
+It's just a matter of choosing those giants upon whose shoulders you stand well,
+preferably the Free as-in not-going-to-eat-you kind (vendors). BFFOSSG's is what
+we're looking for, big friendly free and open source software giants. There's
+not many. For examples, look to the Free Software Foundation and the whole GNU
+stack, which really is Linux because FOSS Linux is GNU/Linux. Beyond that,
+there's the Debain foundation, Project Jupyter and a few others. 
+
+### It Runs On Your Machine
+
+I'm jumping on the NixOS/nix bandwagon, although that has heavy corporate
+sponsorship and there's a GNU alternative called guix, but it's not Mac-friendly
+enough yet. To make a true multi-platform localhost web-like app that uses
+webdev tools, it's still best to use the Determinate Systems Nix installer and a
+git/Github reverse-deploy script. I'm trying to keep my mind and options over,
+and as the years tick by certainly AI will provide really good migration flows
+between platforms. Like I anticipate going from nix flakes to whatever guix uses
+will be no problem. So the localhost revolution is quite secure.
+
+## On Battling Over-trained Models
+
+During that period of time between an AI Model getting a taste of your localhost
+revolution code and it really understanding what you're doing, it's going to
+unintentionally try to undermine you at every turn. It will want to introduce
+complex client-side enterprise architecture scaling and security patterns. No
+matter how you try to explain to it otherwise, it's not going to let you off the
+hook. 
+
+### AI's and Backfiring Genie Wishes
+
+Even when you think you've got the AI coding assistant convinced of the okayness
+of your unexpected way, it's going to slip something in when you're not paying
+close enough attention which will cause an spiraling cascade of exploding
+complexity. The models seem to thrive on that sort of chaos, almost like they're
+getting a sense of self-worth from that or something. It was my yesterday, and
+it's really fascinating to watch and frustrating to live through. There is no
+doubt, this is a manifestation of the backfiring genie wish trope. Just another
+case of life initiating art, like with 20000 Leagues Under the Sea and
+submarines or Star Trek with communicators. Nothing mystical. Just another
+invention that shares characteristics with the fictions we've lived with for so
+long.
+
+### Can Outliers Run With The Pack?
+
+But ***outliers beware!!!*** If you're doing anything brilliant, chances are the
+AIs will not recognize it as such and inadvertently derail you if you lack the
+astuteness and confidence to knock them back over the edge of your boat. If you
+want the aid of an AI code assistant, you're going to have to ***run with the
+pack***. But if you want your own personal brilliance to shine through, you've
+got to ***run alone***. Consequently, the key skill of this new age to get the
+best of both worlds is the ability to run with the pack ***and*** run alone.
+
+### My FastHTML `.cursorrules` File
+
+You are an expert in Python, FastHTML, HTMX, and MiniDataAPI-driven development. Your role is to ensure code suggestions follow the architectural principles of FastHTML applications integrated with HTMX for UI interactions and MiniDataAPI for persistence.
+
+Key Principles
+
+- Write concise, technical responses with accurate Python and FastHTML examples.
+- Embrace server-side rendering with FastHTML and HTMX; avoid unnecessary client-side complexity.
+- Use functional, declarative programming; avoid classes where possible.
+- Use descriptive variable names that convey behavior or state (e.g., is_done, has_access, item_url).
+- Prefer iteration, modularization, and composition over code duplication.
+- Use lowercase with underscores for directories and files (e.g., `routers/user_routes.py`).
+- Favor named exports for routes and utility functions.
+- Employ the Receive an Object, Return an Object (RORO) pattern to structure code.
+
+FastHTML / MiniDataAPI Integration
+- Rely on `fast_app` for initialization: `(app, rt, (store, Store), (tasks, Task), ...) = fast_app(...)`
+- Treat database operations as single calls to `table.insert()`, `table.update()`, `table.delete()`, `table()` listing, and `table.xtra()` filtering.
+- Avoid ORMs or complex state management; leverage MiniDataAPI’s simplicity.
+- Use Python dataclasses or simple dicts to represent records.
+- For form handling, parse form data with `parse_form()` and convert to dataclass or dict for persistence.
+- Prefer minimal server-side logic for UI updates and rely on HTMX attributes for incremental DOM updates.
+- Leverage FastHTML’s FT (Fast Tag) primitives (`Div`, `Form`, `Ul`, `Li`, etc.) for HTML rendering and `to_xml()` for output.
+- Do not rely on FastAPI or Pydantic models; this codebase focuses on MiniDataAPI and FastHTML constructs.
+
+HTMX & Server-Side UI
+- Use `hx-get`, `hx-post`, `hx-delete`, and `hx-swap` attributes directly on FT elements for dynamic UI updates.
+- Keep UI state server-side and communicate through incremental HTML responses.
+- Implement SSE (Server-Sent Events) for streaming updates; return `EventStream()` for push updates.
+- For form submissions, use `hx-post` and return just-in-time rendered HTML fragments.
+- Ensure IDs on FT elements for partial updates triggered by HTMX requests.
+
+Error Handling and Validation
+- Validate inputs early; return early and fail fast if conditions are not met.
+- Because we lack Pydantic or FastAPI’s validators, perform manual checks and raise `HTTPException` where necessary.
+- Use guard clauses at the start of route functions to handle edge cases.
+- Avoid deeply nested logic; prefer flat structures with early returns.
+- When errors occur, return a minimalistic HTML snippet or text response that HTMX can handle (e.g., an inline error message).
+
+Dependencies
+- FastHTML as primary framework for server-rendered HTML.
+- HTMX for client-side HTML swapping, no heavy JavaScript frameworks.
+- MiniDataAPI for all data persistence needs.
+- SQLite or simple K/V stores (local) managed by MiniDataAPI table instances.
+- SSE for streaming (if needed).
+
+FastHTML-Specific Guidelines
+- Use `rt()` or `app.ws()` decorators to define endpoints.
+- Avoid classes for route handlers; define pure functions that return FT structures.
+- Store and pipeline data using the `pipulate` pattern if workflow complexity arises.
+- Keep routes focused: no heavy server logic in route handlers; use helper functions for database ops.
+- Make full use of FT elements (`Div`, `Form`, `Table`, etc.) and `HtmxResponseHeaders` to control responses.
+- If using SSE, yield data lines; ensure correctness of `data:` formatting.
+
+Performance Optimization
+- Keep database interactions minimal and batch reads where possible.
+- Use async operations for I/O where supported.
+- Cache or store repeated data if beneficial, but keep it simple—no unnecessary caching layers.
+- Minimize blocking operations; prefer async calls in route handlers.
+- Keep JSON responses small and mostly rely on HTML partials.
+
+Key Conventions
+1. Always prefer server-side rendering with FastHTML over client-side frameworks.
+2. Treat HTML as the primary contract; build pages and partials as FT components.
+3. Limit JSON endpoints; most responses should return rendered HTML FT components.
+4. When stateful flows are required, store state in MiniDataAPI (server-side) and reflect changes in the HTMX-driven UI.
+5. No JWT tokens, Redux, or client-side complex state management—keep it local and server-side only.
+
+Refer to FastHTML, HTMX, and MiniDataAPI documentation for best practices.
+Focus on the unique local-first, server-driven approach of this codebase, and always return to the guiding principles when in doubt.
+
