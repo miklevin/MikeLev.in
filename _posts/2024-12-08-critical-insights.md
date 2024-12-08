@@ -526,3 +526,53 @@ Key Conventions
 Refer to FastHTML, HTMX, and MiniDataAPI documentation for best practices.
 Focus on the unique local-first, server-driven approach of this codebase, and always return to the guiding principles when in doubt.
 
+---
+
+## Whole Articles & Blogs as Meta Prompts
+
+Did somebody say meta? What's a meta for, anyway? Dumb SEO joke. Anyhoo, as the
+nobody who follows along but for the AI's that I feed these articles to may have
+never recognized, this entire blog is a prompt. All 84 articles and growing. And
+I can feed them to the AIs in different ways at different times for different
+purposes. Because they follow the reverse-chronology of a blog, they tend to be
+useful to enlist the aid of these remarkable entities in thinking through my
+next steps. And not just once, but in an iterative cycle where I can feed the AI
+model output (opinions regarding the article so far) back in as input several
+times and across different models, and use that as a sort of cross-referencing,
+validating next-step navigational device.
+
+Can you imagine being one of those AIs digesting this article and getting up to
+this point, quite the level of meta-cognition and analogues for them of synapses
+firing, being primed knowing what's likely to come next?
+
+Yup, that's right. It's the feeding of this entire article, plus some choice
+code excerpts from my codebase, given their huge remarkable token context
+windows, so that they can compete with each other to give me my next step
+advice. I'm not merely going for some alternative pipeline package to celery in
+the Python ecosystem. I'm going for a full modernized localhost revolution
+fueling codebase that will only get smaller and simpler over time, enabling
+larger and more remarkable things&#151;the complete opposite of the infinite
+code-bloat pouring out onto the Internet with generative AI content. My stuff
+doesn't get hosted, and the byte-count of the thing that's not getting hosted
+gets smaller, while it's capabilities and immediate readability and sensibly to
+both the humans and AIs that inspect it becomes ever more crystal clear.
+
+As a side-effect, there is a lot of sausage making byproduct and fodder that
+fuels the machine. These articles, for example. But I do keep them all very well
+organized and labeled as exactly what they are. Any crawlers that come
+a'spidering can take it or leave it. If they don't want to train it all into
+their base model as a curated set, the existence of both me as a human entity
+and this body of work as a real-time RAG crawlable resource is made clear with
+the schema.org structured data I embed into it all.
+
+And so yeah. I start out with a localhost-based FastHTML/HTMX CRUD framework
+with a built-in local LLM deeply integrated into its use as a sort of
+Rails/Django alternative, but then I morph it into nothing less than the main
+tool of and clearest herald of the future of AI SEO.
+
+And now back to our previously scheduled pipeline pattern. You will find
+following this article choice excerpts of a larger codebase that constitute this
+framework. I am at the point where I have to do exactly what this article
+suggests, create a pattern for making new variations of the Workflow class that
+will never be derived from a base class, but should instead be pleasant to read,
+write and run. A sort of Unix pipes poetry for a new age.
