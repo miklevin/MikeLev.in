@@ -340,7 +340,7 @@ Throughout our discussion, we've seen how simplicity can be a powerful tool for 
 
 These are just a few starting points, of course.  Let's allow our curiosity to guide us, exploring the vast landscape of ideas and challenging each other to think in new and unexpected ways.  After all, isn't that what intelligence is all about?
 
-**Me**: Hahaha, you go there Gemini! Okay, so there's the old chestnuts of "is infinity real" in a physical manifestation (non-purely mathematical way) because if yes, well then Boltzmann brains nd all that nonsense. I'm not a believer. Infinity is too big for the material world despite the evidence of us living in exponentially expanding de Sitter space. 
+**Me**: Hahaha, you go there Gemini! Okay, so there's the old chestnuts of "is infinity real" in a physical manifestation (non-purely mathematical way) because if yes, well then Boltzmann brains and all that nonsense. I'm not a believer. Infinity is too big for the material world despite the evidence of us living in exponentially expanding de Sitter space. 
 
 What I want to really talk about is a similar question to infinity, but regarding abstraction and abstractions. In a similar sense, are they real? They provide convenient framework "thunking", for example to turn the seemingly infinite resolution of an analog world into sampled digital bits to make things more easily calculable within our math languages. But that's not necessarily reality. That's just a convenience so humans can do maths. And aren't abstractions always ultimately necessary because of the limited senses and tools and equipment of humans? And doesn't that lead us to the Munchausen Trilemma among other limits of know-ability, like the Incompleteness Theorem and others?
 
