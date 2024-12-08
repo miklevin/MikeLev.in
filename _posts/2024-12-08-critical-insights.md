@@ -44,20 +44,11 @@ on my part, and here's what it came up with:
 ## The Core Architectural Idea
 
 1. **Single Source of Truth:** All workflow state (including which card the user is on, what data each card collected, etc.) is stored in a single JSON blob managed by the server.
-
-{:start="2"}
-{:start="2"}
 2. **Server-Centric State Management:** No client-side state or complex front-end logic. The server generates the HTML for all cards that have been completed or are currently active based solely on the pipeline JSON.
-
-{:start="3"}
-{:start="3"}
 3. **Complete Rebuild on Page Load:** On any refresh (or revisiting the same URL), the server:
     - Reads the pipeline JSON from the database.
     - Determines the current step (e.g., "card50").
     - Rebuilds the DOM for all cards up to that card, plus one placeholder for the next card.
-
-{:start="4"}
-{:start="4"}
 4. **Incremental Loading via HTMX:** Only the first card triggers an `hx_get` to load itself. Each subsequent card, once loaded, triggers the next card's load, creating a chain reaction that assembles all cards up to the current one. On a full refresh, the server places all the card containers in the HTML, and the first one triggers loading itself, which triggers the next, and so forth until the current state is fully restored.
 
 ---
@@ -71,14 +62,8 @@ on my part, and here's what it came up with:
    - The server cleans and normalizes the URL.
    - The server initializes the pipeline JSON state if not present.
    - The server determines the current step from the pipeline JSON.
-   
-{:start="2"}
-{:start="2"}
 2. **Build Placeholders for All Cards Up to Current Step:**  
    Suppose the current step is `card50`. The server will create `<div id="card1">`, `<div id="card2">`, ..., `<div id="card50">`, plus `<div id="card51">` as the next placeholder. Initially, these divs are empty, but they have `hx_get` attributes to load their respective card content on `load`.
-
-{:start="3"}
-{:start="3"}
 3. **Return the Entire Chain of Divs + The URL Input OOB Update:**  
    The server returns a response that:
    - Updates the URL input field OOB.
@@ -140,7 +125,6 @@ async def process_url(self, request):
    - Displays either the previously submitted data (if the card is completed) or the form to complete this card.
    - Always includes a placeholder for the next card at the bottom.
    
-{:start="2"}
 {:start="2"}
 2. **Chain Reaction of Loads:**  
    Because each card includes an `hx_get` to load the next card, as soon as `card1` loads, it triggers `card2`, and so on, until the entire chain is rebuilt up to the current step.
@@ -238,89 +222,65 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       information acquired from the previous step, does its thing, and passes
       along its output to the next step. Documentation of each step is held in a
       list which gets longer as you step through the process.
-{:start="2"}
-{:start="2"}
 2. **A Trail of Locked Steps**:
     - Every time you finish a step, the interface for it locks because changing
       it would change everything that comes after. So there's no point in
       leaving it interactive. Instead, it just becomes a static note about what
       had occurred at that step. When you're on step 50 out of 100, there's a
       trail of 49 of these behind you.
-{:start="3"}
-{:start="3"}
 3. **Trail Rebuilt Every Time**:
     - Every time you advance from one step to the next, the entire trail of
       step-notes behind you is rebuilt from the list; a list that is your single
       source of truth. Let's say you got interrupted and want to pick up where
       you left off. You pick the list you were using, and you continue as if
       never interrupted.
-{:start="4"}
-{:start="4"}
 4. **Step 1 Establishes List ID**:
     - Step 1 in this processes is always the creation of a new list and giving
       it its associated unique identity in a list of lists. If you try to put in
       a list identity on step 1 that already exists, it will load the
       pre-existing list and bring you up to the last incomplete step.
-{:start="5"}
-{:start="5"}
 5. **Deterministic Linear Workflow**:
     - In this way, there is no difference between picking up where you left off
       versus a 1st-time process run, except for how the List ID is established
       in step 1. "Interrupted" jobs are never really interrupted. Just plug the
       List ID into Step 1 and continue at last incomplete step.
-{:start="6"}
-{:start="6"}
 6. **The Implied Loop**:
     - From a user interface perspective, this implies spinning through a loop of
       all the steps with each new step in order to provide guarantees. This is
       how we will implement version 1 knowing optimizations will come in the
       future, but not until after we have locked-in these guarantees.
-{:start="7"}
-{:start="7"}
 7. **The Next-Step Placeholder**:
     - Whatever step you're on is going to need to provide a target element in
       the object for the next step's interface. This establishes the causal
       chain. Step 1 draws Step 2's placeholder. Step 2 draws Step 3's
       placeholder. In this way we chain-up "just in time" targets for the linear
       process flow.
-{:start="8"}
-{:start="8"}
 8. **The POST Method**:
     - Semantically, we are posting. The traditional problem with posting is that
       application state gets reset on a full page refresh. This is not the case
       here because simply plugging the List ID back in on Step 1 re-establishes
       state from the List. 
-{:start="9"}
-{:start="9"}
 9. **Termination**:
     - There is no termination of the linear flow. The last step in a process
       will still establish the placeholder target in the DOM for a next step. A
       terminal step is therefore characterized by lack of a form and input
       fields, but is otherwise identical to any other active step.
-{:start="10"}
-{:start="10"}
 10. **The List**:
     - The List we have been discussing is the data that resides in a database
       table named "pipeline" in which each record contains 1 list for 1 process
       instance. The fields of each record are url, data, created and updated.
       url is the List ID, data is the entire list as a JSON blob that grows with
       each step. This is the single source of truth.
-{:start="11"}
-{:start="11"}
 11. **The Data Structure**:
     - The field named data in the record of a process instance of the pipeline
       table contains stringified JSON object. At the element's root is a series
       of keys following the pattern `"step_01"`, `"step_02"` and so on. Order
       doesn't matter because key string parsing will re-establish it numerically
       by number after underscore on user interface build.
-{:start="12"}
-{:start="12"}
 12. **The Key Values**:
     - Each `"step_02"` has a value which is also a dict specifying the form
       input field selections made, such as `{"choice": "C"}`. In this way, each
       step can have multiple form fields.
-{:start="13"}
-{:start="13"}
 13. **Steps**:
     - Step 1's JSON data will therefore always follow the pattern:
         - `{"step_01": {"url": "https://example.com/"}`
@@ -328,8 +288,6 @@ This approach embraces the simplicity discussed at the end of the conversation, 
         - `{"step_01": {"url": "https://example.com/"}, "step_02": {"choice":
           "B"}}`
         - ...and so on. It really is that simple.
-{:start="14"}
-{:start="14"}
 14. **%100 Transparency in Logs**:
     - In single-tenant design where you funnel everything through the server,
       log files become the all-knowing source of truth. If you don't know
@@ -337,8 +295,6 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       `logger.debug(f"Path 2: {bar}")` entries to binary search divide and
       conquer with a 2-outcome fork, deterministic knowledge gain, iterative
       subdivision and convergence. No unknowns nor bugs can survive this.
-{:start="15"}
-{:start="15"}
 15. **Inherent Readability**:
     - In using the simple **reads-like-a-story** data structure for the single
       source of truth JSON data in a pipeline record, merely writing the
@@ -346,8 +302,6 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       perhaps with some JSON prettification, makes system state fully
       understandable at a glance. If something goes wrong, there is ***ALWAYS
       SMOKING GUN EVIDENCE!!!***
-{:start="16"}
-{:start="16"}
 16. **Workflows as Poetry**:
     - Complexity gets shoved around. In our case, all generic pattern complexity
       of pipeline workflows gets shoved into the Pipulate class, so that new
@@ -1589,3 +1543,1126 @@ This satisfies all the stated criteria:
 - Data structure is simple and transparent, no `steps` or `current_step` fields—just `step_XX` keys at the top level.
 - Perfectly scalable to 100 steps by continuing the same pattern.
 
+---
+
+Wow, this is spectacular! It is delivering as promised. I had to do a little
+back-and-forth between you (o1) and Claude 3.5 Sonnet, but we settled on the
+following implementation that exhibits most of the desired behaviors:
+
+```python
+class Pipulate:
+    """
+    Pipulate manages a pipeline using a JSON blob with keys like "step_01", "step_02", etc.
+    No 'steps' or 'current_step' keys exist. The presence of step keys determines progress.
+
+    Data Structure Example:
+    {
+        "step_01": {"url": "https://example.com"},
+        "step_02": {"choice": "A"},
+        "created": "2024-12-08T12:34:56",
+        "updated": "2024-12-08T12:35:45"
+    }
+
+    The highest step number that exists in the JSON is considered the last completed step.
+    The next step is always one more than the highest completed step.
+
+    To 'resume' a workflow, just re-enter the same List ID at step_01. We'll find 
+    existing steps and rebuild the UI from that data.
+    """
+
+    def __init__(self, table):
+        self.table = table
+
+    def _get_state(self, url: str) -> dict:
+        """
+        Low-level getter that returns the pipeline state or raises NotFoundError if absent.
+        """
+        record = self.table[url]
+        state = json.loads(record.data)
+        return state
+
+    def _save_state(self, url: str, state: dict):
+        """
+        Low-level saver that updates the pipeline state in the database.
+        """
+        now = datetime.now().isoformat()
+        state["updated"] = now
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> dict:
+        """
+        If the given URL does not exist in pipeline, create a new record with step_01.
+        If it exists, just return the current state.
+        """
+        try:
+            self._get_state(url)
+            # Already exists, return existing state
+            return self.get_state(url)
+        except NotFoundError:
+            now = datetime.now().isoformat()
+            state = {
+                "created": now,
+                "updated": now
+            }
+            if initial_step_data:
+                # initial_step_data should be something like {"step_01": {"url": "https://..."}}
+                state.update(initial_step_data)
+
+            self.table.insert({
+                "url": url,
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state
+
+    def get_state(self, url: str) -> dict:
+        """
+        Return the entire state dict for the given URL. If not found, return empty.
+        """
+        try:
+            return self._get_state(url)
+        except NotFoundError:
+            return {}
+
+    def set_step_data(self, url: str, step_name: str, data: dict):
+        """
+        Set or update the data for a given step (e.g. "step_01", "step_02").
+        Overwrites previous data for that step.
+        """
+        state = self.get_state(url)
+        state[step_name] = data
+        self._save_state(url, state)
+
+    def get_step_data(self, url: str, step_name: str, default=None) -> dict:
+        """
+        Get data for a specific step. If not found, return default.
+        """
+        state = self.get_state(url)
+        return state.get(step_name, default or {})
+
+    def get_last_completed_step_number(self, url: str) -> int:
+        """
+        Inspect the keys in the pipeline to find the highest step number completed.
+        Steps are named step_01, step_02, ... step_100. Extract the number and find max.
+        If no steps found, return 0.
+        """
+        state = self.get_state(url)
+        step_keys = [k for k in state.keys() if k.startswith("step_")]
+        if not step_keys:
+            return 0
+        # Extract numbers
+        numbers = []
+        for sk in step_keys:
+            # sk format: step_XX
+            parts = sk.split("_")
+            if len(parts) == 2 and parts[0] == "step":
+                try:
+                    n = int(parts[1])
+                    numbers.append(n)
+                except ValueError:
+                    pass
+        return max(numbers) if numbers else 0
+
+
+# Global instance - module scope is the right scope
+pipulate = Pipulate(pipeline)
+
+
+class My100StepWorkflow:
+    """
+    Example Workflow using the new Pipulate conventions:
+    - Steps named step_01, step_02, step_03, ...
+    - No "steps" or "current_step" fields in JSON, just the step keys.
+    - On each request, we rebuild the entire trail of completed steps as static.
+    - The current incomplete step is shown as a form.
+    - If a step is completed, it's shown as locked static content.
+
+    For demonstration, we implement step_01, step_02, and step_03.
+    In a real scenario, just replicate this pattern up to step_100.
+    """
+
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+
+        # Routes:
+        app.route("/myflow/init", methods=["POST"])(self.init_workflow)
+        app.route("/myflow/step_01")(self.step_01)
+        app.route("/myflow/step_01_submit", methods=["POST"])(self.step_01_submit)
+        app.route("/myflow/step_02")(self.step_02)
+        app.route("/myflow/step_02_submit", methods=["POST"])(self.step_02_submit)
+        app.route("/myflow/step_03")(self.step_03)
+        app.route("/myflow/step_03_submit", methods=["POST"])(self.step_03_submit)
+
+    async def start_form(self):
+        """
+        The initial form to enter a unique List ID (URL or some unique key).
+        Step 1 sets this identity. If it already exists, resume.
+        """
+        return Card(
+            H2("Enter Unique ID to Start or Resume"),
+            Form(
+                Div(
+                    Input(type="text", name="list_id", placeholder="Enter unique ID", required=True),
+                    Button("Start", type="submit"),
+                    style="display: flex; gap: 0.5rem;"
+                ),
+                hx_post="/myflow/init",
+                hx_target="#list-id-input"
+            ),
+            id="list-id-input"
+        )
+
+    async def init_workflow(self, request):
+        """
+        Handle POST from the initial form. 
+        1. Get the list_id from form.
+        2. Initialize pipeline if missing or load existing state.
+        3. Return placeholders for all steps up to last completed + 1.
+        """
+        form = await request.form()
+        list_id = form.get("list_id", "").strip()
+        if not list_id:
+            return P("Please enter a valid ID", style="color:red;")
+
+        db["url"] = list_id  # Store globally for convenience
+        # If missing, initialize with step_01 empty or partial data
+        # In a real scenario, you might not set step_01 data until actually posted,
+        # but let's say we just establish the pipeline with no steps initially.
+        self.pipulate.initialize_if_missing(list_id)
+
+        # Determine what steps we already have
+        last_step = self.pipulate.get_last_completed_step_number(list_id)
+        # We'll create placeholders for all steps up to last_step + 1
+        # For a large workflow (say 100 steps), just scale this logic.
+        placeholders = []
+        # The next step to load (in GET) will be last_step + 1
+        max_step = last_step + 1  # The step we want to load next
+        # We also want to include all previously completed steps
+        # in locked form on rebuild, and then a placeholder for the next step.
+
+        # Example: If last_step = 2, we have step_01 and step_02 completed.
+        # We'll show those as locked and then show step_03 as next.
+
+        for i in range(1, max_step + 1):
+            step_str = f"step_{i:02d}"
+            placeholders.append(
+                Div(
+                    id=step_str,
+                    hx_get=f"/myflow/{step_str}",
+                    hx_trigger="load" if i == 1 else None,
+                    hx_swap="outerHTML"
+                )
+            )
+
+        return Div(*placeholders)
+
+    def rebuild_trail(self, url: str):
+        """
+        Helper to build the entire trail of completed steps as locked static notes.
+        Also returns the next incomplete step number.
+        """
+        state = self.pipulate.get_state(url)
+        last_step = self.pipulate.get_last_completed_step_number(url)
+        return last_step
+
+    async def step_01(self, request):
+        """Step 01: Establish the list identity or show what's already set."""
+        url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(url)
+        step_data = self.pipulate.get_step_data(url, "step_01")
+
+        if last_step >= 1:
+            return Div(
+                Card(
+                    H3("Step 01: Define URL"),
+                    P(f"URL: {step_data.get('url', 'N/A')} (locked)")
+                ),
+                Div(
+                    id="step_02",
+                    hx_get="/myflow/step_02",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Step 01: Define URL"),
+                    P("Enter a URL to associate with this process:"),
+                    Form(
+                        Input(type="url", name="url", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step_01_submit",
+                        hx_target="#step_01"
+                    ),
+                    id="step_01"
+                ),
+                Div(id="step_02")
+            )
+
+    async def step_01_submit(self, request):
+        form = await request.form()
+        entered_url = form.get("url", "").strip()
+        pipeline_url = db['url']
+        # Save step_01 data
+        self.pipulate.set_step_data(pipeline_url, "step_01", {"url": entered_url})
+        # Return a confirmation and trigger step_02 load
+        return Card(
+            P(f"Step 01 completed with URL: {entered_url}"),
+            hx_get="/myflow/step_02",
+            hx_target="#step_02",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_02(self, request):
+        """Step 02: Choose a 'choice'"""
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02")
+
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step1_block = Card(
+            H3("Step 01: Define URL"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+
+        if last_step >= 2:
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choice"),
+                    P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+                ),
+                Div(
+                    id="step_03",
+                    hx_get="/myflow/step_03",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+        else:
+            options = ["A", "B", "C"]
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choose Something"),
+                    Form(
+                        Select(*[Option(opt, value=opt) for opt in options], name="choice", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step_02_submit",
+                        hx_target="#step_02"
+                    ),
+                    id="step_02"
+                ),
+                Div(id="step_03")
+            )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        choice = form.get("choice", "")
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_02", {"choice": choice})
+        return Card(
+            P(f"Step 02 completed with choice: {choice}"),
+            hx_get="/myflow/step_03",
+            hx_target="#step_03",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_03(self, request):
+        """
+        Step 03: Just a confirmation step. If completed, locked. If not, form.
+        Rebuild trail from steps 01 and 02.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02", {})
+
+        step1_block = Card(
+            H3("Step 01: Define URL"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+        step2_block = Card(
+            H3("Step 02: Choice"),
+            P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+        )
+
+        if last_step >= 3:
+            # step_03 completed
+            step3_data = self.pipulate.get_step_data(pipeline_url, "step_03", {})
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P(f"Confirmed: {step3_data.get('confirmed', 'No')} (locked)")
+                ),
+                # If this were step_100, still have a placeholder for step_101
+                Div(
+                    id="step_04",
+                    # In a 3-step example, step_04 might not exist, but we still show a placeholder
+                    # For a 100-step workflow, this would load the next step or a terminal note.
+                    # Let's just not load anything beyond step_03 in this example.
+                )
+            )
+        else:
+            # step_03 incomplete, show form
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P("Click confirm to finalize."),
+                    Form(
+                        Button("Confirm", type="submit"),
+                        hx_post="/myflow/step_03_submit",
+                        hx_target="#step_03"
+                    ),
+                    id="step_03"
+                ),
+                Div(id="step_04")
+            )
+
+    async def step_03_submit(self, request):
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_03", {"confirmed": True})
+        return P("Step 03 completed and confirmed!")
+
+
+workflow = My100StepWorkflow(app, pipulate)
+```
+
+## Eliminating Identity Crisis
+
+> I am stunned and dazed, I am truly amazed. I didn't think o1 and Claude were
+> going to be able to do this. And I certainly don't think I could have on my
+> own.
+
+**Me**: There had been some confusion regarding the distinction between the primary key
+from step 1 and the URL acquired from the input field on step 1. I do believe in
+a case of enthusiastic helpfulness either you or Claude separated the primary
+key and the URL collected from step 1 into separate concepts, and now as a
+result of step 1 somehow decomposed into 2 sub-steps, a different value can
+appear in the URL field, "foo" in this case, and the "step_1" subkey "url",
+which should be the identical value. I know this insulted someone's AI
+sensibilities somewhere along the process, but it was intentional and I did not
+want step 1 sub-sectioned. That's an exact example of the excessive helpfulness
+and creeping complexity I am trying to avoid.
+
+url | data | created | updated
+foo | {"created": "2024-12-08T13:24:09.189225", "updated": "2024-12-08T13:50:50.247394", "step_01": {"url": "https://botify.com/orga/projecta/bar"}, "step_02": {"choice": "A"}, "step_03": {"confirmed": true}} | 2024-12-08T13:24:09.189225 | 2024-12-08T13:50:50.247394
+
+So my question to you is can I have another example that doesn't introduce this
+extra confusion of the user somehow having to needlessly invent a unique
+identifier for the url field of the pipeline table record when the field is
+named url, the user is asked for a url, and urls themselves are generally unique
+(though I'm aware the u in URL stands for inform and not unique, but the point
+still stands)? We can eliminate a pseudo or meta-step, simplify the app for the
+user, be more semantically accurate, and lay a better foundation moving forward.
+
+I know you have questions like what about other Workflow class instances that
+might operate on the same URL and won't that cause a conflict. The answer is
+yes, but I have something else in store to address that. But first, this part
+must be solid.
+
+Please provide me the revised code of the above-provided example that fixes
+this, making as few other changes as possible and nothing outside the scope of
+this request.
+
+---
+
+**o1**: Below is a revised version of the code that removes the confusion of having a separate "list_id" concept and a separate URL entry for step_01. Now, the user is asked directly for the URL at the very beginning, and that URL serves as both the pipeline primary key and the `step_01` data without requiring a separate form submission at step_01. In other words, step_01 is instantly completed as soon as we initialize the pipeline in `init_workflow`.
+
+**Changes Made:**
+
+- The initial form now prompts for a URL (no “unique ID” terminology).
+- Upon submitting the initial form, we use that URL directly as the pipeline key.
+- We immediately set `step_01` data with that URL, so `step_01` is locked from the start.
+- Removed the `step_01_submit` route and references to a `step_01` form submission, as there's no second prompt for the URL.
+- The rest of the steps (step_02, step_03) remain unchanged.
+
+**Only changes related to the initial URL handling and step_01 have been made.**
+
+```python
+class Pipulate:
+    """
+    Pipulate manages a pipeline using a JSON blob with keys like "step_01", "step_02", etc.
+    No 'steps' or 'current_step' keys exist. The presence of step keys determines progress.
+
+    Data Structure Example:
+    {
+        "step_01": {"url": "https://example.com"},
+        "step_02": {"choice": "A"},
+        "created": "2024-12-08T12:34:56",
+        "updated": "2024-12-08T12:35:45"
+    }
+
+    The highest step number that exists in the JSON is considered the last completed step.
+    The next step is always one more than the highest completed step.
+
+    To 'resume' a workflow, just re-enter the same URL at the start. We'll find 
+    existing steps and rebuild the UI from that data.
+    """
+
+    def __init__(self, table):
+        self.table = table
+
+    def _get_state(self, url: str) -> dict:
+        record = self.table[url]
+        state = json.loads(record.data)
+        return state
+
+    def _save_state(self, url: str, state: dict):
+        now = datetime.now().isoformat()
+        state["updated"] = now
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> dict:
+        try:
+            self._get_state(url)
+            # Already exists
+            return self.get_state(url)
+        except NotFoundError:
+            now = datetime.now().isoformat()
+            state = {
+                "created": now,
+                "updated": now
+            }
+            if initial_step_data:
+                state.update(initial_step_data)
+            self.table.insert({
+                "url": url,
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state
+
+    def get_state(self, url: str) -> dict:
+        try:
+            return self._get_state(url)
+        except NotFoundError:
+            return {}
+
+    def set_step_data(self, url: str, step_name: str, data: dict):
+        state = self.get_state(url)
+        state[step_name] = data
+        self._save_state(url, state)
+
+    def get_step_data(self, url: str, step_name: str, default=None) -> dict:
+        state = self.get_state(url)
+        return state.get(step_name, default or {})
+
+    def get_last_completed_step_number(self, url: str) -> int:
+        state = self.get_state(url)
+        step_keys = [k for k in state.keys() if k.startswith("step_")]
+        if not step_keys:
+            return 0
+        numbers = []
+        for sk in step_keys:
+            parts = sk.split("_")
+            if len(parts) == 2 and parts[0] == "step":
+                try:
+                    n = int(parts[1])
+                    numbers.append(n)
+                except ValueError:
+                    pass
+        return max(numbers) if numbers else 0
+
+
+# Global instance
+pipulate = Pipulate(pipeline)
+
+
+class My100StepWorkflow:
+    """
+    Example Workflow using the Pipulate conventions:
+    - Steps named step_01, step_02, step_03, ...
+    - No 'steps' or 'current_step', just step_XX keys.
+    - The user enters a URL at the start, which is both the pipeline key and the step_01 data.
+    - step_01 is thus immediately completed and shown locked.
+    - Subsequent steps proceed as before.
+    """
+
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+
+        # Routes
+        app.route("/myflow/init", methods=["POST"])(self.init_workflow)
+        app.route("/myflow/step_01")(self.step_01)
+        app.route("/myflow/step_02")(self.step_02)
+        app.route("/myflow/step_02_submit", methods=["POST"])(self.step_02_submit)
+        app.route("/myflow/step_03")(self.step_03)
+        app.route("/myflow/step_03_submit", methods=["POST"])(self.step_03_submit)
+
+    async def start_form(self):
+        """
+        The initial form to enter a URL, which doubles as the pipeline's unique key.
+        """
+        return Card(
+            H2("Enter URL to Start or Resume"),
+            Form(
+                Div(
+                    Input(type="url", name="url", placeholder="Enter URL", required=True),
+                    Button("Start", type="submit"),
+                    style="display: flex; gap: 0.5rem;"
+                ),
+                hx_post="/myflow/init",
+                hx_target="#url-input"
+            ),
+            id="url-input"
+        )
+
+    async def init_workflow(self, request):
+        form = await request.form()
+        entered_url = form.get("url", "").strip()
+        if not entered_url:
+            return P("Please enter a valid URL", style="color:red;")
+
+        db["url"] = entered_url
+        # Initialize pipeline if missing
+        self.pipulate.initialize_if_missing(entered_url)
+        # Immediately set step_01 data from the entered_url
+        self.pipulate.set_step_data(entered_url, "step_01", {"url": entered_url})
+
+        # Now last_step should be at least 1
+        last_step = self.pipulate.get_last_completed_step_number(entered_url)
+        max_step = last_step + 1
+
+        placeholders = []
+        for i in range(1, max_step + 1):
+            step_str = f"step_{i:02d}"
+            placeholders.append(
+                Div(
+                    id=step_str,
+                    hx_get=f"/myflow/{step_str}",
+                    hx_trigger="load" if i == 1 else None,
+                    hx_swap="outerHTML"
+                )
+            )
+
+        return Div(*placeholders)
+
+    async def step_01(self, request):
+        """
+        Step 01: Already completed at init_workflow time,
+        so just display it locked.
+        """
+        url = db['url']
+        step_data = self.pipulate.get_step_data(url, "step_01")
+        # Since it's completed, show locked
+        return Div(
+            Card(
+                H3("Step 01: URL Defined"),
+                P(f"URL: {step_data.get('url', 'N/A')} (locked)")
+            ),
+            Div(
+                id="step_02",
+                hx_get="/myflow/step_02",
+                hx_trigger="load",
+                hx_swap="outerHTML"
+            )
+        )
+
+    async def step_02(self, request):
+        """
+        Step 02: Choose a choice.
+        If completed, show locked, else form.
+        Also show step_01 locked above it.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02")
+
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step1_block = Card(
+            H3("Step 01: URL Defined"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+
+        if last_step >= 2:
+            # step_02 completed
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choice"),
+                    P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+                ),
+                Div(
+                    id="step_03",
+                    hx_get="/myflow/step_03",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+        else:
+            # step_02 incomplete, show form
+            options = ["A", "B", "C"]
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choose Something"),
+                    Form(
+                        Select(*[Option(opt, value=opt) for opt in options], name="choice", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step_02_submit",
+                        hx_target="#step_02"
+                    ),
+                    id="step_02"
+                ),
+                Div(id="step_03")
+            )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        choice = form.get("choice", "")
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_02", {"choice": choice})
+        return Card(
+            P(f"Step 02 completed with choice: {choice}"),
+            hx_get="/myflow/step_03",
+            hx_target="#step_03",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_03(self, request):
+        """
+        Step 03: Confirmation step.
+        If completed, show locked. If not, show confirm form.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02", {})
+
+        step1_block = Card(
+            H3("Step 01: URL Defined"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+        step2_block = Card(
+            H3("Step 02: Choice"),
+            P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+        )
+
+        if last_step >= 3:
+            step3_data = self.pipulate.get_step_data(pipeline_url, "step_03", {})
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P(f"Confirmed: {step3_data.get('confirmed', 'No')} (locked)")
+                ),
+                Div(id="step_04")
+            )
+        else:
+            # Show form
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P("Click confirm to finalize."),
+                    Form(
+                        Button("Confirm", type="submit"),
+                        hx_post="/myflow/step_03_submit",
+                        hx_target="#step_03"
+                    ),
+                    id="step_03"
+                ),
+                Div(id="step_04")
+            )
+
+    async def step_03_submit(self, request):
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_03", {"confirmed": True})
+        return P("Step 03 completed and confirmed!")
+
+
+workflow = My100StepWorkflow(app, pipulate)
+```
+
+With these adjustments:
+
+- The user enters their URL upfront.
+- The pipeline is keyed by that URL and `step_01` is immediately recorded and locked.
+- No duplicate or confusing concept of a separate "list_id" and "step_01 url".
+- Minimal other changes made outside of the initial URL handling.
+
+---
+
+Implemented! And I confirm that Claude gets it:
+
+**Claude**: I understand now - you want to confirm that I see the code is already correctly structured to use the URL as both the primary key and the step_01 data, eliminating any unnecessary separation between these concepts.
+
+Looking at the code, I can see:
+
+1. The URL entered in the initial form serves dual purposes:
+   - As the primary key in the pipeline table (`url` field)
+   - As the data for step_01 (`{"step_01": {"url": entered_url}}`)
+
+2. The workflow is already streamlined:
+   ```python
+   async def init_workflow(self, request):
+       entered_url = form.get("url", "").strip()
+       # URL becomes both the key and step_01 data
+       db["url"] = entered_url
+       self.pipulate.initialize_if_missing(entered_url)
+       self.pipulate.set_step_data(entered_url, "step_01", {"url": entered_url})
+   ```
+
+3. Step_01 is immediately locked after initialization:
+   ```python
+   async def step_01(self, request):
+       """Already completed at init_workflow time, so just display it locked."""
+       url = db['url']
+       step_data = self.pipulate.get_step_data(url, "step_01")
+       return Div(
+           Card(
+               H3("Step 01: URL Defined"),
+               P(f"URL: {step_data.get('url', 'N/A')} (locked)")
+           ),
+           ...
+       )
+   ```
+
+You're right - no changes are needed. The code already implements the clean, simple approach you described where the URL serves both purposes without unnecessary complexity.
+
+Would you like to proceed with discussing how to handle multiple workflow instances operating on the same URL?
+
+---
+
+## Russian Nesting Doll Output
+
+> After a bit of experimentation, while almost everything seems solid, I get
+> duplication of the output for the repeated steps and I ask Claude to
+> articulate the problem for me:
+
+**Claude**: Let me articulate this with the enthusiasm of someone who just discovered a hilarious bug...
+
+The problem is in how each step is rebuilding ALL previous steps. Let's follow the comedy of errors:
+
+1. **init_workflow** creates placeholders:
+```python
+return Div(
+    Div(id="step_01", hx_get="/myflow/step_01"),  # "Hey, I'll start this party!"
+    Div(id="step_02"),  # "I'll wait my turn"
+    Div(id="step_03")   # "Me too!"
+)
+```
+
+2. **step_01** loads and says:
+```python
+return Div(
+    Card("I'm step 1!"),
+    Div(id="step_02", hx_get="/myflow/step_02")  # "Your turn, step 2!"
+)
+```
+
+3. **step_02** loads and says:
+```python
+return Div(
+    Card("I'm step 1 again!"),  # "Hey, why am I here again?"
+    Card("I'm step 2!"),
+    Div(id="step_03", hx_get="/myflow/step_03")  # "Step 3, you're up!"
+)
+```
+
+4. **step_03** loads and says:
+```python
+return Div(
+    Card("I'm step 1 for the third time!"),  # "This is getting ridiculous..."
+    Card("I'm step 2 again!"),  # "Yeah, we've been through this..."
+    Card("I'm step 3!"),
+    Div(id="step_04")  # "Anyone else want to join this party?"
+)
+```
+
+If this were 100 steps, by step 100 you'd have:
+```python
+return Div(
+    Card("I'm step 1 for the 100th time!"),  # "Kill me now..."
+    Card("I'm step 2 for the 99th time!"),   # "I've lost count..."
+    Card("I'm step 3 for the 98th time!"),   # "Is this groundhog day?"
+    # ... 96 more cards later ...
+    Card("I'm step 100!"),                   # "Finally, my turn!"
+    Div(id="step_101")                       # "Oh no, there's more?"
+)
+```
+
+It's like a Russian nesting doll of steps, where each step contains all previous steps, leading to a DOM that's more repetitive than a broken record player stuck on "It's a Small World After All."
+
+The irony is that while we're trying to maintain a perfect state reconstruction capability (noble goal!), we've accidentally created a UI that's like those infinite mirror reflections you get when you stand between two mirrors - each step reflecting all previous steps, ad infinitum.
+
+If this were a real 100-step workflow, by step 50 your browser would be rendering more duplicate steps than there are "final" warnings in a George R.R. Martin book series.
+
+Want to hear the real kicker? The state data in Pipulate is perfectly fine - it's just our UI that's gone full "Inception" on us: steps within steps within steps... We need to go deeper! (Actually, no, we really don't! 😅)
+
+---
+
+## Help Me o1 Kenobi: You Made Hall of Mirrors
+
+> And what do I do now that Claude has so colorfully articulated the issue?
+> Leave it to Claude to fix the implementation? No way! I shame o1 who gave me
+> that implementation plan it the first place to clean up after its own mess:
+
+**o1**: Below is a revised version of the `My100StepWorkflow` code that fixes the problem of repeatedly accumulating previously locked steps. The key change is to **not re-include all previous steps at each step**. Instead, we rely on the initial placeholders created by `init_workflow` and the chain reaction of `hx_get` calls to load each step exactly once.
+
+**What Caused the Problem?**  
+Originally, each step endpoint tried to “rebuild” the trail by returning the previous steps' HTML blocks again. However, since we use `hx_swap="outerHTML"`, each step replaces its own placeholder div. If every step returns the previous steps' HTML, the previous steps get duplicated over and over, creating the nesting doll effect.
+
+**The Fix:**  
+- At `init_workflow`, we create placeholders for all steps up to `last_step + 1`.
+- Each step route now **only returns the HTML for that step** and one placeholder for the next step.
+- We no longer embed the previously loaded steps inside the response of the next steps. Once a step is loaded, it remains in the DOM as is. The chain reaction of HTMX loads ensures that by the time we get to step N, steps 1 through N-1 have already been loaded and replaced their placeholders with locked content—no need to resend them.
+
+**Result:**  
+When you reach `step_100`, you see the entire trail of locked steps (because each replaced its placeholder at load time and never got overridden again), and no duplicates are accumulating.
+
+```python
+class My100StepWorkflow:
+    """
+    Revised Workflow:
+    - Each step route ONLY returns that step's content plus the next step's placeholder.
+    - init_workflow sets up placeholders from step_01 to step_(last_step+1).
+    - Each step_XX replaces its placeholder once loaded, and never duplicates previous steps.
+    """
+
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+
+        # Routes
+        app.route("/myflow/init", methods=["POST"])(self.init_workflow)
+        app.route("/myflow/step_01")(self.step_01)
+        app.route("/myflow/step_02")(self.step_02)
+        app.route("/myflow/step_02_submit", methods=["POST"])(self.step_02_submit)
+        app.route("/myflow/step_03")(self.step_03)
+        app.route("/myflow/step_03_submit", methods=["POST"])(self.step_03_submit)
+
+    async def start_form(self):
+        """
+        The initial form to enter a URL, which doubles as the pipeline's unique key.
+        """
+        return Card(
+            H2("Enter URL to Start or Resume"),
+            Form(
+                Div(
+                    Input(type="url", name="url", placeholder="Enter URL", required=True),
+                    Button("Start", type="submit"),
+                    style="display: flex; gap: 0.5rem;"
+                ),
+                hx_post="/myflow/init",
+                hx_target="#url-input"
+            ),
+            id="url-input"
+        )
+
+    async def init_workflow(self, request):
+        form = await request.form()
+        entered_url = form.get("url", "").strip()
+        if not entered_url:
+            return P("Please enter a valid URL", style="color:red;")
+
+        db["url"] = entered_url
+        self.pipulate.initialize_if_missing(entered_url)
+        self.pipulate.set_step_data(entered_url, "step_01", {"url": entered_url})
+
+        last_step = self.pipulate.get_last_completed_step_number(entered_url)
+        max_step = last_step + 1
+
+        # Create placeholders for steps up to last_step + 1
+        # step_01 to step_max_step
+        placeholders = []
+        for i in range(1, max_step + 1):
+            step_str = f"step_{i:02d}"
+            placeholders.append(
+                Div(
+                    id=step_str,
+                    hx_get=f"/myflow/{step_str}",
+                    hx_trigger="load" if i == 1 else None,
+                    hx_swap="outerHTML"
+                )
+            )
+
+        return Div(*placeholders)
+
+    async def step_01(self, request):
+        """
+        step_01 is already completed at init_workflow time.
+        Just show it locked, and include a placeholder for step_02.
+        No previous steps need to be re-included.
+        """
+        url = db['url']
+        step_data = self.pipulate.get_step_data(url, "step_01")
+        return Div(
+            Card(
+                H3("Step 01: URL Defined"),
+                P(f"URL: {step_data.get('url', 'N/A')} (locked)")
+            ),
+            Div(id="step_02", hx_get="/myflow/step_02", hx_trigger="load", hx_swap="outerHTML")
+        )
+
+    async def step_02(self, request):
+        """
+        If step_02 is incomplete, show a form. If completed, show it locked.
+        DO NOT include step_01 again. It's already rendered and stable in the DOM.
+        Just show step_02 and a placeholder for step_03.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02")
+
+        if last_step >= 2:
+            # step_02 completed
+            return Div(
+                Card(
+                    H3("Step 02: Choice"),
+                    P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+                ),
+                Div(id="step_03", hx_get="/myflow/step_03", hx_trigger="load", hx_swap="outerHTML")
+            )
+        else:
+            # step_02 incomplete, show form
+            options = ["A", "B", "C"]
+            return Div(
+                Card(
+                    H3("Step 02: Choose Something"),
+                    Form(
+                        Select(*[Option(opt, value=opt) for opt in options], name="choice", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step_02_submit",
+                        hx_target="#step_02"
+                    ),
+                    id="step_02"
+                ),
+                Div(id="step_03")
+            )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        choice = form.get("choice", "")
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_02", {"choice": choice})
+        return Card(
+            P(f"Step 02 completed with choice: {choice}"),
+            hx_get="/myflow/step_03",
+            hx_target="#step_03",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_03(self, request):
+        """
+        Step 03: Confirm step.
+        If completed, show locked. If not, show a form.
+        No repeating previous steps. Just show step_03 plus placeholder for step_04.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        if last_step >= 3:
+            step3_data = self.pipulate.get_step_data(pipeline_url, "step_03", {})
+            return Div(
+                Card(
+                    H3("Step 03: Confirm"),
+                    P(f"Confirmed: {step3_data.get('confirmed', 'No')} (locked)")
+                ),
+                Div(id="step_04")  # Placeholder for next step if you had one
+            )
+        else:
+            # Show form
+            return Div(
+                Card(
+                    H3("Step 03: Confirm"),
+                    P("Click confirm to finalize."),
+                    Form(
+                        Button("Confirm", type="submit"),
+                        hx_post="/myflow/step_03_submit",
+                        hx_target="#step_03"
+                    ),
+                    id="step_03"
+                ),
+                Div(id="step_04")
+            )
+
+    async def step_03_submit(self, request):
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_03", {"confirmed": True})
+        return P("Step 03 completed and confirmed!")
+```
+
+**What Happens Now?**
+
+- **init_workflow** creates placeholders for step_01, step_02, step_03, etc.
+- **step_01** loads and replaces its placeholder with locked step_01 plus a placeholder for step_02.
+- **step_02** loads and replaces its placeholder. It does NOT re-add step_01. Step_01 is already in the DOM above it. We now have step_01 (locked) and step_02 (locked or form).
+- **step_03** loads and replaces its placeholder. Same logic: it just shows step_03 data. Steps 01 and 02 remain above, unduplicated.
+
+No step ever tries to re-insert previously loaded steps. The DOM remains stable, building the full trail linearly without duplication.
+
+---
+
+## Claude's Opinion of o1's Work
+
+I see you've already written out the solution! Let me analyze the key changes you've made to fix the Russian nesting doll problem:
+
+1. **The Core Fix**: Each step now only returns its own content plus a placeholder for the next step, rather than rebuilding all previous steps.
+
+2. **Key Changes in Each Step**:
+
+Before (problematic nesting):
+```python
+return Div(
+    step1_block,  # Rebuilding previous steps 😱
+    step2_block,  # More rebuilding 😱
+    Card(...),    # Current step
+    Div(id="next_step")
+)
+```
+
+After (clean and efficient):
+```python
+return Div(
+    Card(...),    # Just the current step 👍
+    Div(id="next_step", hx_get="/myflow/step_XX", hx_trigger="load", hx_swap="outerHTML")
+)
+```
+
+3. **The Chain Reaction**:
+```python
+async def init_workflow(self, request):
+    # Creates ALL the placeholders upfront
+    placeholders = []
+    for i in range(1, max_step + 1):
+        placeholders.append(
+            Div(
+                id=f"step_{i:02d}",
+                hx_get=f"/myflow/step_{i:02d}",
+                hx_trigger="load" if i == 1 else None,
+                hx_swap="outerHTML"
+            )
+        )
+```
+
+This is much better because:
+- No more "Inception" of steps within steps
+- Each step appears exactly once in the DOM
+- The workflow state remains perfectly tracked in Pipulate
+- The UI accurately reflects the state without duplication
+
+Would you like me to implement this solution? (Though I see you've already written it out in detail!)
