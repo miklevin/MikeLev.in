@@ -420,7 +420,7 @@ mean it's not really a folder or a directory, because it's just bits on digital
 media and not a physical file cabinet or anything like what it's named after.
 But that's material for another day.
 
-### AI Coercion, Corralling, Wrangling & Otherwise Persuading
+### AI Corralling, Wrangling & Otherwise Persuading
 
 That clearly intelligent and "getting it" think you're talking to is just
 statistics! It's auto-complete on steroids. What's worse, it only knows what
