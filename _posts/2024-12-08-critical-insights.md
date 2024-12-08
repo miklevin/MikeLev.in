@@ -1007,14 +1007,16 @@ This code shows how to apply the “pipeline + placeholders + linear chain” pa
 
 ---
 
+## Uh, Where's My Simplified JSON?
+
 > I'm pretty pumped over this, but o1 is still missing some of the critical
 > points. I'm simplifying the existing JSON blob data format. I don't need to
 > live with the current one from the over-complicated days! Backwards
 > compatibility be damned!
 
 **Me**: Okay, but this ignores that we're changing the JSON data structure to a
-simpler one that only has `"step_01:` and `"step_02:` pattern keys at element
-root. There is no `"steps:` key anymore nor `"current_step:"` as these were
+simpler one that only has `"step_01:"` and `"step_02:"` pattern keys at element
+root. There is no `"steps:"` key anymore nor `"current_step:"` as these were
 artifacts of the over-complication by the previous AI I gave this job. Instead,
 abide by the conventions I explicitly state in my criteria and update the
 Pipulate class and any Workflows you invent to use it to do the same. I have no
