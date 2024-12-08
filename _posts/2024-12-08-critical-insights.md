@@ -688,6 +688,8 @@ Embrace this pattern. Spread it. Let it shape minds, and create a new generation
 
 ---
 
+## Show Me The Code!
+
 **Me**: [A bit more criteria and desire for specific code examples expressed]
 
 **o1**: Below is an example of a new Workflow class that illustrates the **pipeline pattern** and the **chain reaction of loads** in a minimal, self-contained scenario. It uses the principles described above:
@@ -1002,3 +1004,503 @@ async def onboard_home(request):
    - Step-by-step, each card loads the next one, reflecting the pipeline state.
 
 This code shows how to apply the “pipeline + placeholders + linear chain” pattern from scratch. You can adapt it into more complex scenarios, like the BotifyLinkGraph example, by applying the same principles of linear steps, pipeline JSON as the single source of truth, and `hx_get` triggers that load each subsequent card.
+
+---
+
+> I'm pretty pumped over this, but o1 is still missing some of the critical
+> points. I'm simplifying the existing JSON blob data format. I don't need to
+> live with the current one from the over-complicated days! Backwards
+> compatibility be damned!
+
+**Me**: Okay, but this ignores that we're changing the JSON data structure to a
+simpler one that only has `"step_01:` and `"step_02:` pattern keys at element
+root. There is no `"steps:` key anymore nor `"current_step:"` as these were
+artifacts of the over-complication by the previous AI I gave this job. Instead,
+abide by the conventions I explicitly state in my criteria and update the
+Pipulate class and any Workflows you invent to use it to do the same. I have no
+backwards compatibility criteria. We are going for the idiomatic ideal.
+
+So my request for a coding plan and code examples is now updated to include an
+explicit request for a new Pipulate class that works this way and a new example
+Workflow (call it whatever you like) that uses an instance of this class, which
+could be modified into a 100-step example easily. I now prefer the nomenclature
+of "step" over "card" and the easily parse-able and 99-step accommodating
+"step_01", "step_02" convention over "card1", "card2", and all examples can be
+created accordingly. This will keep the database JSON blob contents consistent
+with the user interface IDs. In other words, we can purge the concept of cards
+in favor of steps, and the numbering system should be underscore parse-able as
+this will be critical to ordering the steps when building the UI. Yes, it will
+depend on how the steps are named what order they get "rebuilt" in, and that's
+fine.
+
+So please now give me a Pipulate / Workflow pair that will work together meeting
+the following criteria: [original 16 criteria from above]
+
+**o1**: Below is a revised implementation of `Pipulate` and a new example `Workflow` class that adhere strictly to the new conventions. We have removed any `steps` or `current_step` keys inside the JSON. The JSON data structure is now a flat dictionary with keys like `"step_01"`, `"step_02"`, etc., plus `"created"` and `"updated"` timestamps. Each `step_XX` key maps to a dictionary of data collected at that step.
+
+**Key Changes from the Previous Version:**
+
+- No `"steps"` or `"current_step"` fields in the JSON.
+- Steps are named `"step_01"`, `"step_02"`, etc.
+- On initialization (Step 1), if a given `url` (List ID) already exists, we load that pipeline and find the last completed step. If not, we start fresh.
+- The `Pipulate` class provides methods to:
+  - Initialize or fetch the pipeline state for a given `url`.
+  - Add or update a step (e.g., `step_03`).
+  - Determine the last completed step number easily.
+- The `Workflow` class is changed from the "Card" metaphor to "Step" metaphor. Instead of `card1`, `card2` it uses `step_01`, `step_02`, etc.
+- Each step endpoint (like `/process-step`) will rebuild the trail of all previously completed steps as locked static elements, and then the next step as an active form. This matches the requirement that every refresh or revisit fully rebuilds the chain from `step_01` up to the current highest step.
+
+**Note:** For simplicity, we’ll show a 3-step workflow example, but the naming `step_01`, `step_02`, `step_03` and the logic is easily scalable to 100 steps or more. Just replicate the pattern for additional steps. The pipeline approach does not fundamentally differ whether you have 3 steps or 100 steps.
+
+---
+
+### Revised Pipulate Class
+
+```python
+class Pipulate:
+    """
+    Pipulate manages a pipeline using a JSON blob with keys like "step_01", "step_02", etc.
+    No 'steps' or 'current_step' keys exist. The presence of step keys determines progress.
+    
+    Data Structure Example:
+    {
+        "step_01": {"url": "https://example.com"},
+        "step_02": {"choice": "A"},
+        "created": "2024-12-08T12:34:56",
+        "updated": "2024-12-08T12:35:45"
+    }
+
+    The highest step number that exists in the JSON is considered the last completed step.
+    The next step is always one more than the highest completed step.
+
+    To 'resume' a workflow, just re-enter the same List ID at step_01. We'll find 
+    existing steps and rebuild the UI from that data.
+    """
+
+    def __init__(self, table):
+        self.table = table
+
+    def _get_state(self, url: str) -> dict:
+        """
+        Low-level getter that returns the pipeline state or raises NotFoundError if absent.
+        """
+        record = self.table[url]
+        state = json.loads(record.data)
+        return state
+
+    def _save_state(self, url: str, state: dict):
+        """
+        Low-level saver that updates the pipeline state in the database.
+        """
+        now = datetime.now().isoformat()
+        state["updated"] = now
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> dict:
+        """
+        If the given URL does not exist in pipeline, create a new record with step_01.
+        If it exists, just return the current state.
+        """
+        try:
+            self._get_state(url)
+            # Already exists, return existing state
+            return self.get_state(url)
+        except NotFoundError:
+            now = datetime.now().isoformat()
+            state = {
+                "created": now,
+                "updated": now
+            }
+            if initial_step_data:
+                # initial_step_data should be something like {"step_01": {"url": "https://..."}}
+                state.update(initial_step_data)
+
+            self.table.insert({
+                "url": url,
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state
+
+    def get_state(self, url: str) -> dict:
+        """
+        Return the entire state dict for the given URL. If not found, return empty.
+        """
+        try:
+            return self._get_state(url)
+        except NotFoundError:
+            return {}
+
+    def set_step_data(self, url: str, step_name: str, data: dict):
+        """
+        Set or update the data for a given step (e.g. "step_01", "step_02").
+        Overwrites previous data for that step.
+        """
+        state = self.get_state(url)
+        state[step_name] = data
+        self._save_state(url, state)
+
+    def get_step_data(self, url: str, step_name: str, default=None) -> dict:
+        """
+        Get data for a specific step. If not found, return default.
+        """
+        state = self.get_state(url)
+        return state.get(step_name, default or {})
+
+    def get_last_completed_step_number(self, url: str) -> int:
+        """
+        Inspect the keys in the pipeline to find the highest step number completed.
+        Steps are named step_01, step_02, ... step_100. Extract the number and find max.
+        If no steps found, return 0.
+        """
+        state = self.get_state(url)
+        step_keys = [k for k in state.keys() if k.startswith("step_")]
+        if not step_keys:
+            return 0
+        # Extract numbers
+        numbers = []
+        for sk in step_keys:
+            # sk format: step_XX
+            parts = sk.split("_")
+            if len(parts) == 2 and parts[0] == "step":
+                try:
+                    n = int(parts[1])
+                    numbers.append(n)
+                except ValueError:
+                    pass
+        return max(numbers) if numbers else 0
+```
+
+---
+
+### Example Workflow Class
+
+This workflow demonstrates a simple 3-step process using the new naming conventions. The logic can be extrapolated to 100 steps by repeating the pattern. Each step:
+
+- Displays previously completed steps as static read-only notes.
+- Displays the current step as a form if it’s the highest incomplete step.
+- On submission, sets the step data and triggers loading the next step.
+
+We’ll have endpoints like `/myflow/process-step-01`, `/myflow/step-02`, etc. The naming is flexible, but following `step_XX` keeps it consistent.
+
+```python
+class My100StepWorkflow:
+    """
+    Example Workflow using the new Pipulate conventions:
+    - Steps named step_01, step_02, step_03, ...
+    - No "steps" or "current_step" fields in JSON, just the step keys.
+    - On each request, we rebuild the entire trail of completed steps as static.
+    - The current incomplete step is shown as a form.
+    - If a step is completed, it's shown as locked static content.
+
+    For demonstration, we implement step_01, step_02, and step_03.
+    In a real scenario, just replicate this pattern up to step_100.
+    """
+
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+
+        # Routes:
+        app.route("/myflow/init", methods=["POST"])(self.init_workflow)
+        app.route("/myflow/step-01")(self.step_01)
+        app.route("/myflow/step-01-submit", methods=["POST"])(self.step_01_submit)
+        app.route("/myflow/step-02")(self.step_02)
+        app.route("/myflow/step-02-submit", methods=["POST"])(self.step_02_submit)
+        app.route("/myflow/step-03")(self.step_03)
+        app.route("/myflow/step-03-submit", methods=["POST"])(self.step_03_submit)
+
+    async def start_form(self):
+        """
+        The initial form to enter a unique List ID (URL or some unique key).
+        Step 1 sets this identity. If it already exists, resume.
+        """
+        return Card(
+            H2("Enter Unique ID to Start or Resume"),
+            Form(
+                Div(
+                    Input(type="text", name="list_id", placeholder="Enter unique ID", required=True),
+                    Button("Start", type="submit"),
+                    style="display: flex; gap: 0.5rem;"
+                ),
+                hx_post="/myflow/init",
+                hx_target="#list-id-input"
+            ),
+            id="list-id-input"
+        )
+
+    async def init_workflow(self, request):
+        """
+        Handle POST from the initial form. 
+        1. Get the list_id from form.
+        2. Initialize pipeline if missing or load existing state.
+        3. Return placeholders for all steps up to last completed + 1.
+        """
+        form = await request.form()
+        list_id = form.get("list_id", "").strip()
+        if not list_id:
+            return P("Please enter a valid ID", style="color:red;")
+
+        db["url"] = list_id  # Store globally for convenience
+        # If missing, initialize with step_01 empty or partial data
+        # In a real scenario, you might not set step_01 data until actually posted,
+        # but let's say we just establish the pipeline with no steps initially.
+        self.pipulate.initialize_if_missing(list_id)
+        
+        # Determine what steps we already have
+        last_step = self.pipulate.get_last_completed_step_number(list_id)
+        # We'll create placeholders for all steps up to last_step + 1
+        # For a large workflow (say 100 steps), just scale this logic.
+        placeholders = []
+        # The next step to load (in GET) will be last_step + 1
+        max_step = last_step + 1  # The step we want to load next
+        # We also want to include all previously completed steps
+        # in locked form on rebuild, and then a placeholder for the next step.
+
+        # Example: If last_step = 2, we have step_01 and step_02 completed. 
+        # We'll show those as locked and then show step_03 as next.
+        
+        for i in range(1, max_step + 1):
+            step_str = f"step_{i:02d}"
+            placeholders.append(
+                Div(
+                    id=step_str,
+                    hx_get=f"/myflow/{step_str}",
+                    hx_trigger="load" if i == 1 else None,
+                    hx_swap="outerHTML"
+                )
+            )
+
+        return Div(*placeholders)
+
+    def rebuild_trail(self, url: str):
+        """
+        Helper to build the entire trail of completed steps as locked static notes.
+        Also returns the next incomplete step number.
+        """
+        state = self.pipulate.get_state(url)
+        last_step = self.pipulate.get_last_completed_step_number(url)
+        return last_step
+
+    async def step_01(self, request):
+        """
+        Step 01: Establish the list identity or show what's already set.
+        If step_01 data exists, show it locked.
+        Otherwise, show a form to set it.
+        """
+        url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(url)
+        step_data = self.pipulate.get_step_data(url, "step_01")
+
+        # Rebuild trail: For step_01, no previous steps
+        # If step_01 not yet set, show form
+        # If set, show locked
+        if last_step >= 1:
+            # Step 01 completed
+            return Div(
+                Card(
+                    H3("Step 01: Define URL"),
+                    P(f"URL: {step_data.get('url', 'N/A')} (locked)")
+                ),
+                # Next step placeholder
+                Div(
+                    id="step_02",
+                    hx_get="/myflow/step-02",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+        else:
+            # Step 01 incomplete, show form
+            return Div(
+                Card(
+                    H3("Step 01: Define URL"),
+                    P("Enter a URL to associate with this process:"),
+                    Form(
+                        Input(type="url", name="url", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step-01-submit",
+                        hx_target="#step_01"
+                    ),
+                    id="step_01"
+                ),
+                # Placeholder for next step (step_02)
+                Div(id="step_02")
+            )
+
+    async def step_01_submit(self, request):
+        form = await request.form()
+        entered_url = form.get("url", "").strip()
+        pipeline_url = db['url']
+        # Save step_01 data
+        self.pipulate.set_step_data(pipeline_url, "step_01", {"url": entered_url})
+        # Return a confirmation and trigger step_02 load
+        return Card(
+            P(f"Step 01 completed with URL: {entered_url}"),
+            hx_get="/myflow/step-02",
+            hx_target="#step_02",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_02(self, request):
+        """
+        Step 02: Choose a 'choice'
+        If step_02 is completed, show locked
+        If not, show form
+        Also rebuild trail from step_01.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02")
+
+        # Let's rebuild previous steps as locked first
+        # Step_01 is definitely completed if we are here.
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step1_block = Card(
+            H3("Step 01: Define URL"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+
+        if last_step >= 2:
+            # step_02 completed
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choice"),
+                    P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+                ),
+                Div(
+                    id="step_03",
+                    hx_get="/myflow/step_03",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+        else:
+            # step_02 incomplete, show form
+            options = ["A", "B", "C"]
+            return Div(
+                step1_block,
+                Card(
+                    H3("Step 02: Choose Something"),
+                    Form(
+                        Select(*[Option(opt, value=opt) for opt in options], name="choice", required=True),
+                        Button("Submit", type="submit"),
+                        hx_post="/myflow/step-02-submit",
+                        hx_target="#step_02"
+                    ),
+                    id="step_02"
+                ),
+                Div(id="step_03")
+            )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        choice = form.get("choice", "")
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_02", {"choice": choice})
+        return Card(
+            P(f"Step 02 completed with choice: {choice}"),
+            hx_get="/myflow/step_03",
+            hx_target="#step_03",
+            hx_trigger="load",
+            hx_swap="outerHTML"
+        )
+
+    async def step_03(self, request):
+        """
+        Step 03: Just a confirmation step. If completed, locked. If not, form.
+        Rebuild trail from steps 01 and 02.
+        """
+        pipeline_url = db['url']
+        last_step = self.pipulate.get_last_completed_step_number(pipeline_url)
+        step1_data = self.pipulate.get_step_data(pipeline_url, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_url, "step_02", {})
+        
+        step1_block = Card(
+            H3("Step 01: Define URL"),
+            P(f"URL: {step1_data.get('url', 'N/A')} (locked)")
+        )
+        step2_block = Card(
+            H3("Step 02: Choice"),
+            P(f"Choice: {step2_data.get('choice', 'N/A')} (locked)")
+        )
+
+        if last_step >= 3:
+            # step_03 completed
+            step3_data = self.pipulate.get_step_data(pipeline_url, "step_03", {})
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P(f"Confirmed: {step3_data.get('confirmed', 'No')} (locked)")
+                ),
+                # If this were step_100, still have a placeholder for step_101
+                Div(
+                    id="step_04",
+                    # In a 3-step example, step_04 might not exist, but we still show a placeholder
+                    # For a 100-step workflow, this would load the next step or a terminal note.
+                    # Let's just not load anything beyond step_03 in this example.
+                )
+            )
+        else:
+            # step_03 incomplete, show form
+            return Div(
+                step1_block,
+                step2_block,
+                Card(
+                    H3("Step 03: Confirm"),
+                    P("Click confirm to finalize."),
+                    Form(
+                        Button("Confirm", type="submit"),
+                        hx_post="/myflow/step-03-submit",
+                        hx_target="#step_03"
+                    ),
+                    id="step_03"
+                ),
+                Div(id="step_04")
+            )
+
+    async def step_03_submit(self, request):
+        pipeline_url = db['url']
+        self.pipulate.set_step_data(pipeline_url, "step_03", {"confirmed": True})
+        return P("Step 03 completed and confirmed!")
+
+```
+
+---
+
+### Usage Instructions
+
+1. Instantiate the workflow after you have `app` and `pipulate` ready:
+
+```python
+workflow = My100StepWorkflow(app, pipulate)
+```
+
+2. On a main page, present the user the initial start form:
+
+```python
+@app.route("/myflow")
+async def myflow_home(request):
+    return await workflow.start_form()
+```
+
+3. The user enters a unique ID. The system initializes or resumes from that ID. Steps load incrementally. Completed steps show locked data. The next step shows a form. On each submission, the pipeline JSON updates. If the user refreshes or re-enters, we rebuild from scratch using the pipeline data.
+
+This satisfies all the stated criteria:
+
+- We have a deterministic linear workflow.
+- Steps are named `step_01`, `step_02`, etc.
+- Each completed step is locked and displayed as static text.
+- The trail is rebuilt every time.
+- Step 1 sets the List ID and can resume if it finds existing data.
+- Data structure is simple and transparent, no `steps` or `current_step` fields—just `step_XX` keys at the top level.
+- Perfectly scalable to 100 steps by continuing the same pattern.
