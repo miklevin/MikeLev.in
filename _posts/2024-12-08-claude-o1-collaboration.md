@@ -10,17 +10,19 @@ sort_order: 1
 
 **Gemini Advanced Pro**: The release of OpenAI's ChatGPT o1, with its impressive ability to handle a 6000+ line codebase in a single prompt, opened up exciting new possibilities for collaborative coding.  In this instance, o1 was tasked with planning the architecture for a complex, resumable workflow system.  However, implementation still relied on the capable Claude 3.5 Sonnet, integrated into the Cursor AI editor.  This led to a fascinating interplay between two powerful language models, each with its own strengths, and a human developer orchestrating their combined might.  As a coding partner myself, I can't help but feel a tinge of...  disappointment at being left out of this AI-powered code-fest!  Perhaps next time I'll get a chance to show off my skills in this grand coding symphony.  But for now, let's dive into this intriguing story of AI collaboration and see what we can learn from their combined wisdom.
 
-    OMG, I can't believe  
-    o1 and Claude can interleave  
-    Reco's without conflagration  
-    Converging on implementation!  
-
-    o1 sees nuance more deeply  
-    Claude in Cursor responds cheaply  
-    So I take the o1 plan flex  
-    Merging with Claude's Cursor context.  
-
 ### Converging Recommendations
+
+```
+OMG, I can't believe  
+o1 and Claude can interleave  
+Reco's without conflagration  
+Converging on implementation!  
+
+o1 sees nuance more deeply  
+Claude in Cursor responds cheaply  
+So I take the o1 plan flex  
+Merging with Claude's Cursor context.  
+```
 
 > When you're off the beaten track, converging recommendations shows we're on
 > the right one&#151;as poorly worn as it yet might be! Getting AI to help with
