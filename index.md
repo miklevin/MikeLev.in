@@ -207,7 +207,7 @@ Here's the outline of the book so far, which I'm assembling from my daily blog p
 
 The outline above represents a distillation of knowledge extracted from the articles that follow. Like a funnel that captures diverse streams of information and a sieve that filters and refines them, I've gathered scattered insights about technology, AI, and human-centric computing into a coherent narrative. This approach reflects the modern knowledge worker's challenge: making sense of an endless flow of information through careful curation and synthesis.
 
-Just as Unix pipes transform raw data into meaningful output, these articles have been transformed into an actionable framework above. The outline represents carefully filtered tools and knowledge that have emerged from years of exploration, experimentation, and practical application. They form an idea map - a curated collection of interconnected concepts and tools that will help you build your own technological ecosystem.
+Just as Unix pipes transform raw data into meaningful output, these articles have been transformed into an actionable framework above. The outline represents carefully filtered tools and knowledge that have emerged from years of exploration, experimentation, and practical application. They form an idea map &#151; a curated collection of interconnected concepts and tools that will help you build your own technological ecosystem.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
