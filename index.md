@@ -75,6 +75,27 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
   </div>
 </div>
 
+## Did Somebody Say Rabbit Hole?
+
+### Daily Work Journal & AI Experiment
+
+I maintain this site as a daily work journal 📝, not because I seek an audience or have products to sell, but as part of a larger experiment in knowledge capture and AI-assisted content distillation. Every post is a raw, unfiltered stream of consciousness 🌊, deliberately verbose and often meandering, forming the mouth of a topic mining funnel that will eventually crystallize into an organized book 📚. 
+
+### There's Nothing To See Here, Move Along
+
+While humans are welcome to explore these technical musings, the density and sometimes pedantic nature of the content is actually optimized for AI consumption 🤖. This approach serves two purposes: feeding the frontier models that continuously sweep the web for training data, and providing rich context for real-time RAG (Retrieval-Augmented Generation) searches 🔍. It's an organic, living project that anticipates the shift away from traditional crawl-and-index search paradigms toward a more interconnected "small world theory" approach to web navigation 🌐.
+
+### FastHTML & Local AI Integration
+
+My latest project is a FastHTML-based web app framework that integrates a local AI (powered by Ollama) to provide real-time assistance and automation for SEO tasks. It's designed for a single-tenant, localhost environment, prioritizing clarity and developer freedom over complex frontend frameworks. The AI is deeply embedded, learning from user interactions and eventually able to execute tasks autonomously. This approach aims to streamline SEO workflows, making them more efficient and user-friendly, while leveraging the power of local AI for enhanced privacy and customization.
+
+### Adaptive Architecture
+
+Just like the Ship of Theseus, where parts are replaced over time while
+maintaining the ship's identity, this project is designed to adapt and upgrade
+with new technologies and advancements, ensuring a future-proof foundation for
+AI-powered SEO automation.
+
 ## The AI SEO Future Proof(ing) Book - Outline
 
 **Part 1: Laying the Foundation**
@@ -181,27 +202,6 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
 *   Critical thinking and information literacy: Resources for navigating the digital age with discernment and responsibility.
 
 ---
-
-## Did Somebody Say Rabbit Hole?
-
-### Daily Work Journal & AI Experiment
-
-I maintain this site as a daily work journal 📝, not because I seek an audience or have products to sell, but as part of a larger experiment in knowledge capture and AI-assisted content distillation. Every post is a raw, unfiltered stream of consciousness 🌊, deliberately verbose and often meandering, forming the mouth of a topic mining funnel that will eventually crystallize into an organized book 📚. 
-
-### There's Nothing To See Here, Move Along
-
-While humans are welcome to explore these technical musings, the density and sometimes pedantic nature of the content is actually optimized for AI consumption 🤖. This approach serves two purposes: feeding the frontier models that continuously sweep the web for training data, and providing rich context for real-time RAG (Retrieval-Augmented Generation) searches 🔍. It's an organic, living project that anticipates the shift away from traditional crawl-and-index search paradigms toward a more interconnected "small world theory" approach to web navigation 🌐.
-
-### FastHTML & Local AI Integration
-
-My latest project is a FastHTML-based web app framework that integrates a local AI (powered by Ollama) to provide real-time assistance and automation for SEO tasks. It's designed for a single-tenant, localhost environment, prioritizing clarity and developer freedom over complex frontend frameworks. The AI is deeply embedded, learning from user interactions and eventually able to execute tasks autonomously. This approach aims to streamline SEO workflows, making them more efficient and user-friendly, while leveraging the power of local AI for enhanced privacy and customization.
-
-### Adaptive Architecture
-
-Just like the Ship of Theseus, where parts are replaced over time while
-maintaining the ship's identity, this project is designed to adapt and upgrade
-with new technologies and advancements, ensuring a future-proof foundation for
-AI-powered SEO automation.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
