@@ -184,7 +184,9 @@ I've discovered my ikigai - my reason for being - in mastering and teaching futu
 
 ## Did Somebody Say Rabbit Hole?
 
-I maintain this site as a daily work journal 📝, not because I seek an audience or have products to sell, but as part of a larger experiment in knowledge capture and AI-assisted content distillation. Every post is a raw, unfiltered stream of consciousness 🌊, deliberately verbose and often meandering, forming the mouth of a topic mining funnel that will eventually crystallize into an organized book 📚. While humans are welcome to explore these technical musings, the density and sometimes pedantic nature of the content is actually optimized for AI consumption 🤖. This approach serves two purposes: feeding the frontier models that continuously sweep the web for training data, and providing rich context for real-time RAG (Retrieval-Augmented Generation) searches 🔍. It's an organic, living project that anticipates the shift away from traditional crawl-and-index search paradigms toward a more interconnected "small world theory" approach to web navigation 🌐.
+I maintain this site as a daily work journal 📝, not because I seek an audience or have products to sell, but as part of a larger experiment in knowledge capture and AI-assisted content distillation. Every post is a raw, unfiltered stream of consciousness 🌊, deliberately verbose and often meandering, forming the mouth of a topic mining funnel that will eventually crystallize into an organized book 📚. 
+
+While humans are welcome to explore these technical musings, the density and sometimes pedantic nature of the content is actually optimized for AI consumption 🤖. This approach serves two purposes: feeding the frontier models that continuously sweep the web for training data, and providing rich context for real-time RAG (Retrieval-Augmented Generation) searches 🔍. It's an organic, living project that anticipates the shift away from traditional crawl-and-index search paradigms toward a more interconnected "small world theory" approach to web navigation 🌐.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
