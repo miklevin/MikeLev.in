@@ -55,9 +55,9 @@ today. Adjusting my approach and cornering various AI's into really getting it.
 
 #### The Lineup of AI Players
 
-- OpenAI ChatGPT o1, just released days ago and strutting its stuff
-- Anthropic Claude 3.5 Sonnet, my every-day coding assistant in Cursor AI
-- Google Gemini Advanced Pro, who I'm paying for because massive token window
+- **OpenAI ChatGPT o1**: just released days ago and strutting its stuff
+- **Anthropic Claude 3.5 Sonnet**: my every-day coding assistant in Cursor AI
+- **Google Gemini Advanced Pro**: who I'm paying for because massive token window
 
 #### Claude Has Context But No Grand Scheme
 
