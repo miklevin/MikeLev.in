@@ -3613,30 +3613,30 @@ class Poeflow:
     """
     A 5-step workflow showing Pipulate patterns
 
-    +-----------------+
-    |  Enter a Name   |
-    |  [          ]   |
-    +-----------------+
-           ↓
-    +-----------------+
-    |  Pick a Color   |
-    |  [Red|Blue|Green|
-    +-----------------+
-           ↓
-    +-----------------+
-    |  Choose Time    |
-    |  [Dawn|Dusk|Night]
-    +-----------------+
-           ↓
-    +-----------------+
-    |  Add Feeling    |
-    |  [Joy|Peace|Wonder]
-    +-----------------+
-           ↓
-    +-----------------+
-    |    Preview     |
-    |   [Yes] [No]   |
-    +-----------------+
+    +-------------------+
+    |   Enter a Name    |
+    |   [          ]    |
+    +-------------------+
+              ↓
+    +-------------------+
+    |   Pick a Color    |
+    |  [Red|Blue|Green  |
+    +-------------------+
+              ↓
+    +-------------------+
+    |   Choose Time     |
+    | [Dawn|Dusk|Night] |
+    +-------------------+
+              ↓
+    +-------------------+
+    |    Add Feeling    |
+    | [Joy|Peace|Wonder]|
+    +-------------------+
+              ↓
+    +-------------------+
+    |     Preview       |
+    |    [Yes] [No]     |
+    +-------------------+
     """
     def __init__(self, app, pipulate):
         self.app = app
