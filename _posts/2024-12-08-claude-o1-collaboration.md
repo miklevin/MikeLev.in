@@ -392,6 +392,13 @@ pay a lot for the privilege and have a tech liability that's going to weigh over
 you forever, then why? Why not just "make an app?" Who cares if it happens to
 use web tech (lower-case w)? Electron works that way.
 
+So you roll in the final piece called `nix`, and you don't even need Electron.
+One install to get nix on your machine, be it Mac, Windows or Linux, and then
+the whole "it doesn't work on my machine" problem goes away. And thus all the
+pain of hosting locally goes away and all the advantages of the access to your
+local processing power, storage and net-connection open up. And the code gets
+much, much simpler.
+
 ## The Localhost Revolution
 
 Most of the models seem to just hate what I'm doing, that is until they look
