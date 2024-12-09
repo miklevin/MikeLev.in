@@ -17,7 +17,7 @@ sort_order: 1
 Yesterday, Saturday, I let myself fall into the rabbit hole of last-mile details
 of a project, letting myself get bogged down by cascading exploding complexity
 and lost sight of the whole original idea: ***no complexity!!!*** I mean like
-**NO-COMPLEXITY-AT-ALL**. Once you make the decision to make a ***single-tenant,
+**NO COMPLEXITY AT ALL**. Once you make the decision to make a ***single-tenant,
 localhost design*** that wipes away the concerns of scaling and security, things
 really open up for you that should feel like a surgeon so skilled you can juggle
 your scalpels during surgery.
