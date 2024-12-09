@@ -24,7 +24,10 @@ your scalpels during surgery.
 
 Yeah, that's the level of control we're going for here. That's what's possible
 taking the cgi-bin mentality of the PERL days of yore to modern tooling like
-FastHTML/HTMX... Starlett, Uvicorn, ASGI, yadda yadda.
+FastHTML/HTMX... Starlett, Uvicorn, ASGI. I'm not just from the ***cgi-bin***
+days. I'm from the ***Atari 2600*** days (from the 1st go-around) and have been
+in the thick of tech every since (worked for Commodore, yadda yadda). My
+perspective is... uh... well seasoned.
 
 So this article today on this fine Sunday December 8, 2024, is me digging my way
 back up and adjusting my approach with a hail mary attempt to wrap all this up
