@@ -26,7 +26,7 @@ group: home
 
 # Finding Purpose Through Timeless Tech Skills
 
-I've discovered my ikigai - my reason for being - in mastering and teaching future-proof technology skills. While I'm a Technical SEO expert by trade with 25+ years of experience in content optimization and automation, my true passion lies in helping others escape the endless cycle of chasing trendy tools.
+I've discovered my ikigai &#151; my reason for being &#151; in mastering and teaching future-proof technology skills. While I'm a Technical SEO expert by trade with 25+ years of experience in content optimization and automation, my true passion lies in helping others escape the endless cycle of chasing trendy tools.
 
 <div class="lpvg-container">
   <div class="lpvg-list">
