@@ -12,6 +12,11 @@ sort_order: 1
 
 ### Converging Recommendations
 
+Getting AI to help with novel new approaches is like getting a stodgy old
+professor set in their ways to do the same. So the idea is to get two of them
+together and make them bounce ideas off of each other (seeded by you, the human,
+of course), and see if they can't see past the statistical normie fog.
+
 ```
 OMG, I can't believe  
 o1 and Claude can interleave  
@@ -26,9 +31,6 @@ Merging with Claude's Cursor context.
 
 > When you're off the beaten track, converging recommendations shows you might
 > actually be on a good one nonetheless&#151;as poorly worn as it yet might be.
-> Getting AI to help with novel new approaches is like getting a stodgy old
-> professor set in their ways to do the same. So, get 2 and make them bounce
-> ideas off each other and surprise them. &#151;Mike
 
 ---
 
