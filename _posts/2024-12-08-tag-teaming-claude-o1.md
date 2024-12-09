@@ -3516,7 +3516,7 @@ forward.
 
 **Claude**: Ah yes! The `init` method has too much explicit knowledge about the flow. We could make this much more elegant by leveraging conventions and the Pipulate class's knowledge of step progression. Here's a proposed refactor:
 
-````python:botifython/botifython.py
+````python
     async def init(self, request):
         """Initialize or resume workflow"""
         form = await request.form()
@@ -3543,7 +3543,7 @@ forward.
 ````
 
 Then in Pipulate:
-````python:botifython/botifython.py
+````python
     def resume_flow(self, key: str, final_step: dict, step_pattern: str) -> Div:
         """Generic workflow resumption logic
         
