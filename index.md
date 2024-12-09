@@ -38,7 +38,7 @@ group: home
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech-stach ***for life*** making you a 🦸‍♂️. Don't use it for ***everything***, but know you can apply it to ***anything*** &#151; because ***all tech is text***. So edit at the speed of thought and the world is your 🦪. Add fully reproducible 🐧 inside any 🍎 or 🪟 folder (without the 🐳).
+**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech stack ***for life*** that empowers you as a developer. While you don't need to use it for ***everything***, you can apply it to ***anything*** &#151; because ***all tech is text***. Edit at the speed of thought with these powerful tools. Add fully reproducible Linux environments inside any macOS or Windows folder (without containers).
 
 {% include daily-metaphors.html %}
 

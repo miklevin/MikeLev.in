@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+import sys
 
 def adjust_markdown_file(file_path):
     """
@@ -23,56 +24,10 @@ def adjust_markdown_file(file_path):
             updated_lines.append(line)
             continue
 
-        # Skip processing inside code blocks
+        # Skip processing inside code blocks but don't reset numbering
         if in_code_block:
             updated_lines.append(line)
             continue
 
         # Match numbered sections
-        match = re.match(r"(\d+)\.\s+\*\*(.*?)\*\*", stripped_line)
-        if match:
-            actual_number = int(match.group(1))
-
-            if actual_number != current_number + 1:
-                # Insert {:start="X"} directive directly above the list item
-                updated_lines.append(f'{{:start="{actual_number}"}}\n')
-                modified = True
-
-            current_number = actual_number
-        else:
-            # Reset numbering if we're out of a numbered list
-            current_number = 0
-
-        updated_lines.append(line)
-
-    if modified:
-        with open(file_path, "w") as f:
-            f.writelines(updated_lines)
-        return True
-    return False
-
-def process_markdown_files(verbose=False):
-    """
-    Process all Markdown files matching `YYYY-MM-DD-*.md` in the current directory.
-    """
-    print("Processing blog post Markdown files...\n")
-    markdown_files = sorted(Path(".").glob("20??-??-??-*.md"))
-
-    total_files = len(markdown_files)
-    updated_files = 0
-
-    for file_path in markdown_files:
-        if verbose:
-            print(f"Processing file: {file_path.name}")
-        changed = adjust_markdown_file(file_path)
-        if changed:
-            updated_files += 1
-            print(f"Updated: {file_path.name}")
-
-    print("\nSummary:")
-    print(f"  Total files scanned: {total_files}")
-    print(f"  Files updated: {updated_files}")
-    print(f"  Files unchanged: {total_files - updated_files}")
-
-if __name__ == "__main__":
-    process_markdown_files(verbose=True)
+        match = re.match
