@@ -77,7 +77,10 @@ should learn and internalize. But most of the time you (and by that, I mean me)
 just want to stick to your old vim muscle memory and just be able to
 copy/paste-toss your entire context into any LLM in one go. 
 
-So let's do exactly that and  ee what o1 had to say!
+That's why I paid for Google Gemini Advanced Pro, and that's what I'm
+discovering is now possible in o1 Release.
+
+So let's do exactly that and see what o1 had to say!
 
 ## o1's Attempt at a Plan Following Yesterday's Work
 
