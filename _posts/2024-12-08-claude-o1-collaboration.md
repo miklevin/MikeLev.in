@@ -24,11 +24,11 @@ So I take the o1 plan flex
 Merging with Claude's Cursor context.  
 ```
 
-> When you're off the beaten track, converging recommendations shows we're on
-> the right one&#151;as poorly worn as it yet might be. Getting AI to help with
-> novel new approaches is like getting a stodgy old professor set in their ways
-> to do the same. So, get 2 and make them bounce ideas off each other and
-> surprise them. &#151;Mike
+> When you're off the beaten track, converging recommendations shows you might
+> actually be on a good one nonetheless&#151;as poorly worn as it yet might be.
+> Getting AI to help with novel new approaches is like getting a stodgy old
+> professor set in their ways to do the same. So, get 2 and make them bounce
+> ideas off each other and surprise them. &#151;Mike
 
 ---
 
