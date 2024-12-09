@@ -20,6 +20,8 @@ sort_order: 1
     So I take the o1 plan flex  
     Merging with Claude's Cursor context.  
 
+### Converging Recommendations
+
 > When you're off the beaten track, converging recommendations shows we're on
 > the right one&#151;as poorly worn as it yet might be! Getting AI to help with
 > novel new approaches is like getting a stodgy old professor set in their ways
