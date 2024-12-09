@@ -201,8 +201,6 @@ AI-powered SEO automation.
 *   From NixOS to HTMX: Practical guides and tutorials for mastering the technologies covered in the book.
 *   Critical thinking and information literacy: Resources for navigating the digital age with discernment and responsibility.
 
----
-
 <ol reversed>
   {% assign total_posts = site.posts.size %}
   {% assign post_counter = 0 %}
