@@ -3872,7 +3872,9 @@ Let me know if there's a specific area you'd like to explore further or if you h
 
 ---
 
-## A Collaboration of Human & 2 AIs
+## When a Human & 2 AIs Collaborate
+
+### o1's Final Review
 
 > This started as a collaboration between me and two of the biggest frontier
 > models on the Internet: Anthropic Claude 3.5 Sonnet and OpenAI ChatGPT o1, and
