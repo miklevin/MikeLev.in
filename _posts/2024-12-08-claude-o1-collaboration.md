@@ -1989,9 +1989,10 @@ workflow = My100StepWorkflow(app, pipulate)
 
 ## Eliminating Identity Crisis
 
-> I am stunned and dazed, I am truly amazed. I didn't think o1 and Claude were
-> going to be able to do this. And I certainly don't think I could have on my
-> own.
+> I am amazed. I didn't think o1 and Claude were going to be able to do this.
+> Plus, I don't think I really could have reasonably done this on my own. This
+> is a classic case of that "right on the edge of doability" that AI brings into
+> reach.
 
 **Me**: There had been some confusion regarding the distinction between the primary key
 from step 1 and the URL acquired from the input field on step 1. I do believe in
