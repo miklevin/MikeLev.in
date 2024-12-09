@@ -51,8 +51,9 @@ today. Adjusting my approach and cornering various AI's into really getting it.
 
 Towards the end of this session, I finally got the AI coding assistant Claude
 3.5 Sonnet built into Cursor AI to understand what I was trying to do. In fact,
-I got myself to understand what I was trying to do. There's nothing like jumping
-into implementation head-first to help think it through.
+I ***got myself to understand what I was trying to do***. This "chain reaction"
+that I needed and you'll read about later, was not clear to me. There's nothing
+like jumping into implementation head-first to help think it through.
 
 #### o1 Planning Skills & 1-Big-File Contexts
 
