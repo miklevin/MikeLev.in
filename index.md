@@ -98,6 +98,8 @@ AI-powered SEO automation.
 
 ## The AI SEO Future Proof(ing) Book - Outline
 
+Here's the outline of the book so far, which I'm assembling from my daily blog posts using a simple Python script. The script combines all the .md files in chronological order, creating one master document that can be fed to the LLMs that have massive context windows (currently Google Gemini and ChatGPT o1). This organic approach allows the content to evolve naturally through daily writing while maintaining a coherent structure.
+
 **Part 1: Laying the Foundation**
 
 *   **Chapter 1: Confessions of a Recovering Tech Addict**
