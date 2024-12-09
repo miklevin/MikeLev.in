@@ -34,18 +34,50 @@ So this article today on this fine Sunday December 8, 2024, is me digging my way
 back up and adjusting my approach with a hail mary attempt to wrap all this up
 today. Adjusting my approach and cornering various AI's into really getting it.
 
+#### The Lineup of AI Players
+
+- OpenAI ChatGPT o1, just released days ago and strutting its stuff
 - Anthropic Claude 3.5 Sonnet, my every-day coding assistant in Cursor AI
 - Google Gemini Advanced Pro, who I'm paying for because massive token window
-- OpenAI ChatGPT o1, just released days ago and strutting its stuff
+
+#### Claude Has Context But No Grand Scheme
 
 Towards the end of this session, I finally got the AI coding assistant Claude
 3.5 Sonnet built into Cursor AI to understand what I was trying to do. In fact,
 I got myself to understand what I was trying to do. There's nothing like jumping
 into implementation head-first to help think it through.
 
+#### o1 Planning Skills & 1-Big-File Contexts
+
 There was enough information from yesterday's article that between that and the
 codebase, I could give o1 a chance to make a plan with no further thought-work
-on my part, and here's what it came up with:
+on my part. The first really huge discovery was that it could "digest" the
+entire 6.6K line of code file. It's all in a single file and I don't have to do
+all that context-setting of @'s. It's just 1-file-and-go! 
+
+This is the way I think/work because I can navigate around a single text file
+like lightning and stay in flow state without taking my hand away from the
+keyboard to go directory diving, file spelunking, or getting lost in a node
+module maze, and "externalized dependency hell" that comes with navigating
+through complex folder traversal.
+
+Uh yeah, so my natural coding style plays right into giving AI's full context on
+a project. I have the massive power of full-context single-file copy/paste. And
+so, I can use the simple Web interfaces as well as the fancy Cursor AI with its
+Tab feature for psychic coding suggestions, ⌘ K for on-demand code generation,
+Chat for context-aware conversations, Composer for architecting entire
+applications, and AI Review for code quality feedback... ugh! So many ways to
+give context and frame prompts in these custom UI's, you can get lost in a
+rabbit hole of that alone! Great, a new kind of interface surface-area fatigue.
+
+Well, you get the idea. There are a lot of kooky custom user interfaces and
+vendor traps here trying to infect your muscle memory and lock you into their
+services. ***Sometimes*** that subtlety matters and there's something new you
+should learn and internalize. But most of the time you (and by that, I mean me)
+just want to stick to your old vim muscle memory and just be able to
+copy/paste-toss your entire context into any LLM in one go. 
+
+So let's do exactly that and  ee what o1 had to say!
 
 ## o1's Attempt at a Plan Following Yesterday's Work
 
