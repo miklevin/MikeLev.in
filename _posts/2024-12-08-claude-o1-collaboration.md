@@ -19,18 +19,6 @@ of course), and see if they can't see past the statistical normie fog. When
 you're off the beaten track, converging recommendations shows you might actually
 be on a good one nonetheless&#151;as poorly worn as it yet might be.
 
-```
-OMG, I can't believe  
-o1 and Claude can interleave  
-Reco's without conflagration  
-Converging on implementation!  
-
-o1 sees nuance more deeply  
-Claude in Cursor responds cheaply  
-So I take the o1 plan flex  
-Merging with Claude's Cursor context.  
-```
-
 ### The Challenge
 
 Yesterday, Saturday, I let myself fall into the rabbit hole of last-mile details
@@ -3002,10 +2990,10 @@ maybe now it's time for a minimal example. Not so minimal as to not cover
 transitions (one step to the next), but minimal with everything not really
 necessary stripped out so that the poetry of the language is evident at the
 start. I keep underscores on steps because it helps with the parsing, but maybe
-we make the overall system look less noisy in its Poeflow example by eradicating
+we make the overall system look less noisy in its Poetflow example by eradicating
 most underscores. Let's make something I can set `workflow = Petiteflow(app,
 pipulate)` and swap it out in the UI for testing easily, and maybe that I keep
-around as an example. Workflow to educate and fight regression and Poeflow to
+around as an example. Workflow to educate and fight regression and Poetflow to
 show low grow.
 
 **Claude**: Ah yes, let's create a poetic minimal example that shows the essence of the pattern. Here's my take on a `Petiteflow`:
@@ -3224,7 +3212,7 @@ Want me to show the Pipulate side of this change too?
 After much back-and-forth to get it just generic and templated enough
 
 ```python
-class Poeflow:
+class Poetflow:
     """
     A 5-step workflow showing Pipulate patterns
 
@@ -3259,7 +3247,7 @@ class Poeflow:
         self.prefix = "/poe"  # Namespace prefix
         
         # Add route registration logging
-        logger.debug("Registering Poeflow routes:")
+        logger.debug("Registering Poetflow routes:")
         routes = [
             (f"{self.prefix}/init", self.init, ["POST"]),
             (f"{self.prefix}/step_01", self.step_01),
@@ -3464,7 +3452,7 @@ class Poeflow:
         )
 
 
-poeflow = Poeflow(app, pipulate)
+poetflow = Poetflow(app, pipulate)
 ```
 
 **Me**: While you've got it all fresh in your context window and now that we have several working examples, what do you think is the most important documentation that can be produced to help future people making new workflows based on this system?
@@ -3573,7 +3561,7 @@ async def step_XX_submit(self, request):
 
 ## Examples
 - `Petiteflow`: Minimal 3-step workflow
-- `Poeflow`: Complex 5-step workflow with branching
+- `Poetflow`: Complex 5-step workflow with branching
 - `Workflow`: URL-based workflow with validation
 ````
 
@@ -3589,7 +3577,7 @@ I test all 3 of my pipeline examples:
    against regression with tons of documentation.
 2. Petiteflow: the smallest possible example, perhaps a little too small in how
    it hid multi-step issues.
-3. Poeflow: the 5-step version that forced resolving remaining concerns and
+3. Poetflow: the 5-step version that forced resolving remaining concerns and
    which probably captures the "pipeline poetry" best.
 
 And I look over the examples examining where forever-forward propegation of
@@ -3697,10 +3685,10 @@ all 3 examples in sync with the new solution.
 > examples, and they read more like poetic workflows now. Most of the "extra
 > labor" of designing workflows is now expunged, but for one last place...
 
-**Me**: Okay, most of the "extra labor" of designing workflows is now expunged, except for one last place. In step_5, the last step, all 4 previous cards are mentioned explicit, and their values loaded into `[step_x]_data` variables for displaying the finished poem. Now the goal is to drive everything generic and repeated able to be reliably inferred based on convention, into the Pipulate class. Scanning over Poeflow which I think is the best of our 3 examples to do this sort of analysis, it appears we have achieved this goal but for that one location. But also, that seems okay because it's for constructing the final poem, and that's not one of these generic abstractions. If there were 100 steps and we just used 4 of those steps to construct the open, it would be exactly as short on the last poetry-showing step. Now please do not just lean into my presumptions to create a confirmation bias. Push back if pushing back is needed. What am I not seeing? What did I miss? What other candidates are there for complexity-shifting overt to Pipulate?
+**Me**: Okay, most of the "extra labor" of designing workflows is now expunged, except for one last place. In step_5, the last step, all 4 previous cards are mentioned explicit, and their values loaded into `[step_x]_data` variables for displaying the finished poem. Now the goal is to drive everything generic and repeated able to be reliably inferred based on convention, into the Pipulate class. Scanning over Poetflow which I think is the best of our 3 examples to do this sort of analysis, it appears we have achieved this goal but for that one location. But also, that seems okay because it's for constructing the final poem, and that's not one of these generic abstractions. If there were 100 steps and we just used 4 of those steps to construct the open, it would be exactly as short on the last poetry-showing step. Now please do not just lean into my presumptions to create a confirmation bias. Push back if pushing back is needed. What am I not seeing? What did I miss? What other candidates are there for complexity-shifting overt to Pipulate?
 
 ```python
-class Poeflow:
+class Poetflow:
     """
     A 5-step workflow showing Pipulate patterns
 
@@ -3736,7 +3724,7 @@ class Poeflow:
         self.prefix = "/poe"  # Namespace prefix
         
         # Add route registration logging
-        logger.debug("Registering Poeflow routes:")
+        logger.debug("Registering Poetflow routes:")
         routes = [
             (f"{self.prefix}/init", self.init, ["POST"]),
             (f"{self.prefix}/step_01", self.step_01),
@@ -3935,7 +3923,7 @@ class Poeflow:
         )
 ```
 
-**Claude**: Your analysis is quite thorough, and it seems you've already streamlined much of the workflow logic into the `Pipulate` class. The final step in `Poeflow` does indeed involve specific logic for constructing the poem, which is inherently custom and specific to the workflow's purpose. Here are a few considerations and potential areas for further abstraction, if needed:
+**Claude**: Your analysis is quite thorough, and it seems you've already streamlined much of the workflow logic into the `Pipulate` class. The final step in `Poetflow` does indeed involve specific logic for constructing the poem, which is inherently custom and specific to the workflow's purpose. Here are a few considerations and potential areas for further abstraction, if needed:
 
 1. **Data Aggregation**: 
    - If multiple workflows require aggregating data from several steps to produce a final output, you could create a utility method in `Pipulate` to fetch and aggregate data from multiple steps. However, this might be overkill if the aggregation logic is unique to each workflow.
@@ -3971,7 +3959,7 @@ Let me know if there's a specific area you'd like to explore further or if you h
 > models on the Internet: Anthropic Claude 3.5 Sonnet and OpenAI ChatGPT o1, and
 > it will end that way. Let's let o1 review its carried out plan...
 
-**Me**: Okay, o1. Here's the final article. Review it, especially the final pattern of Poeflow. I will additionally paste the Pipultate function below that for you to get a more complete picture of my question to you, which is to do an analysis of my & Claude's conclusions. The code runs well. There is plenty of room for improvement in the future. But the gist of my question is to make sure that a class that is baseless due to its unique-every-time perfectly chosen granularity of expressiveness nature is well staged for the inevitable copy/paste propagation it is going to undergo, and with which decisions I'm going to have to live with. Just pontificate, riff, meander, question and confirm as appropriate, please and thank you.
+**Me**: Okay, o1. Here's the final article. Review it, especially the final pattern of Poetflow. I will additionally paste the Pipultate function below that for you to get a more complete picture of my question to you, which is to do an analysis of my & Claude's conclusions. The code runs well. There is plenty of room for improvement in the future. But the gist of my question is to make sure that a class that is baseless due to its unique-every-time perfectly chosen granularity of expressiveness nature is well staged for the inevitable copy/paste propagation it is going to undergo, and with which decisions I'm going to have to live with. Just pontificate, riff, meander, question and confirm as appropriate, please and thank you.
 
 **o1**: Let’s find a comfortable armchair in the mental workshop and settle in, coffee in hand, to reflect on the final shape of this architecture. You’ve arrived at a place where **Pipulate** acts as the core engine of state management, and each Workflow class becomes a unique poetic script. No base classes, no enforced inheritance hierarchies—just freeform code that reads like a narrative of the process. As you say, it’s like Unix pipes poetry, or perhaps each Workflow is a standalone one-act play that references the same stage instructions (Pipulate) but writes its own lines, sets, and props.
 
@@ -4024,11 +4012,11 @@ If multiple workflows needed the same kind of final “assembly” pattern (e.g.
 
 The final step you mentioned—writing minimal, near-poetic examples—is crucial. Having a single “Petiteflow” as a canonical minimal example that people can look at and immediately “get it” will ensure the pattern is memetically transmissible. That example doesn’t have to handle complex logic or show advanced features. It just needs to communicate the “no complexity” ethos and the pattern’s simplicity.
 
-Then your more complex “Poeflow” can serve as a demonstration of handling more steps and conditions, while “Workflow” or “My100StepWorkflow” can show you can scale infinitely by just repeating the same pattern.
+Then your more complex “Poetflow” can serve as a demonstration of handling more steps and conditions, while “Workflow” or “My100StepWorkflow” can show you can scale infinitely by just repeating the same pattern.
 
 Putting all these in a README or a blog post that shows side-by-side:
 1. The minimal example (Petiteflow)
-2. The moderate complexity example (Poeflow)
+2. The moderate complexity example (Poetflow)
 3. The large scale demonstration (My100StepWorkflow)
 
 This triad can educate anyone who comes to your codebase or reads your blog.
