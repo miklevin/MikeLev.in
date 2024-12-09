@@ -2900,3 +2900,971 @@ The current split feels right:
 - Workflow: The actual performance
 
 What do you think? Should we let the workflows remain verbose but expressive?
+
+---
+
+**Me**: Well, maybe it won't look so verbose if we make le petite poetic
+pipeline example. We've made it so it can go up to 100 to make sure that
+criteria was met when designing the system, and I pinned it up against
+regression with all sorts of docstrings, documentations and speed bumps. But
+maybe now it's time for a minimal example. Not so minimal as to not cover
+transitions (one step to the next), but minimal with everything not really
+necessary stripped out so that the poetry of the language is evident at the
+start. I keep underscores on steps because it helps with the parsing, but maybe
+we make the overall system look less noisy in its Poeflow example by eradicating
+most underscores. Let's make something I can set `workflow = Petiteflow(app,
+pipulate)` and swap it out in the UI for testing easily, and maybe that I keep
+around as an example. Workflow to educate and fight regression and Poeflow to
+show low grow.
+
+**Claude**: Ah yes, let's create a poetic minimal example that shows the essence of the pattern. Here's my take on a `Petiteflow`:
+
+[The below version is actually after several rounds of back-and-forth]
+
+```python
+class Petiteflow:
+    """
+    A minimal workflow showing the essence of Pipulate patterns
+
+    +-----------------+
+    |  Enter a Name   |
+    |  [          ]   |
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Pick a Color   |
+    |  [Red|Blue|Green|
+    +-----------------+
+           ↓
+    +-----------------+
+    |    Confirm     |
+    |   [Yes] [No]   |
+    +-----------------+
+    """
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+        
+        app.route("/poe/init", methods=["POST"])(self.init)
+        app.route("/poe/step_01")(self.name)
+        app.route("/poe/step_02")(self.color)
+        app.route("/poe/step_02_submit", methods=["POST"])(self.pick)
+        app.route("/poe/step_03")(self.done)
+
+    async def start_form(self):
+        return Card(
+            H2("A Little Poem"),
+            Form(
+                Input(name="name", placeholder="Enter name", required=True),
+                Button("Begin"),
+                hx_post="/poe/init",
+                hx_target="#poem"
+            ),
+            id="poem"
+        )
+
+    async def init(self, request):
+        form = await request.form()
+        name = form.get("name")
+        
+        # Store name in db for use across requests
+        db['poe_name'] = name
+        
+        # Initialize if missing, but don't overwrite existing data
+        self.pipulate.initialize_if_missing(name)
+        # Store name in step_01 data
+        self.pipulate.set_step_data(name, "step_01", {"name": name})
+        
+        # If steps exist, load them. If not, start fresh
+        if self.pipulate.get_last_completed_step_number(name) > 0:
+            step2_data = self.pipulate.get_step_data(name, "step_02")
+            if step2_data:  # If we have color data, skip to final step
+                return Div(id="step_03", hx_get="/poe/step_03", hx_trigger="load")
+        
+        # Otherwise start from beginning
+        return Div(
+            Div(id="step_01", hx_get="/poe/step_01", hx_trigger="load"),
+            Div(id="step_02"),
+            Div(id="step_03")
+        )
+
+    async def name(self, request):
+        name = db['poe_name']
+        step_data = self.pipulate.get_step_data(name, "step_01")
+        return Div(
+            Card(f"Hello, {step_data['name']}"),
+            Div(id="step_02", hx_get="/poe/step_02", hx_trigger="load")
+        )
+
+    async def color(self, request):
+        return Div(
+            Card(
+                H3("Pick a color"),
+                Form(
+                    Select(
+                        Option("Red", value="red"),
+                        Option("Blue", value="blue"), 
+                        Option("Green", value="green"),
+                        name="color"
+                    ),
+                    Button("Choose"),
+                    hx_post="/poe/step_02_submit",
+                    hx_target="#step_02",
+                    enctype="application/x-www-form-urlencoded"
+                )
+            ),
+            Div(id="step_03")
+        )
+
+    async def pick(self, request):
+        form = await request.form()
+        color = form.get("color")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_02", {"color": color})
+        
+        return Div(
+            Card(f"You chose {color}"),
+            Div(id="step_03", hx_get="/poe/step_03", hx_trigger="load")
+        )
+
+    async def done(self, request):
+        name = db['poe_name']
+        step1_data = self.pipulate.get_step_data(name, "step_01")
+        step2_data = self.pipulate.get_step_data(name, "step_02")
+        
+        return Card(
+            H3("Your Poem"),
+            P(f"{name} saw a {step2_data['color'].lower()} light",
+              f"Shining in the night",
+              f"And all was bright")
+        )
+```
+
+Notice how:
+1. The routes are minimal but maintain the step pattern
+2. Each step is a single clear action
+3. The state flows naturally through Pipulate
+4. The final step produces something delightful
+5. No docstrings needed - the code is the documentation
+6. The ASCII art in the class docstring tells the whole story
+
+Would this serve as a good "first example" that shows the poetry of the pattern without all the guardrails?
+
+---
+
+**Me**: And it works now as expected! This is huge. Do the coffee sipping
+routine and reflect on the what to move to Pipulate question knowing now what
+you know. It seems to me that anything with an if or conditional logic is sus.
+Maybe there's some way to make it generic and called through pipulate with some
+method and passed arg. I'm not anxious for a refactor, but if a light touch now
+could save countless lines of code propagation later, I'll be glad I did it.
+
+**Claude**: *sips coffee thoughtfully*
+
+Ah yes, I see what you mean. Looking at this working example, there's a pattern emerging. The workflow logic essentially boils down to:
+
+1. State transitions (when to move forward)
+2. State persistence (storing step data)
+3. UI rendering (what to show for each state)
+
+Right now, Pipulate handles #2 beautifully with its simple key-value store. But those conditionals in `init()` and the step logic are interesting:
+
+```python
+# This pattern appears frequently
+if self.pipulate.get_last_completed_step_number(name) > 0:
+    step2_data = self.pipulate.get_step_data(name, "step_02")
+    if step2_data:  # If we have color data, skip to final step
+        return Div(id="step_03", hx_get="/poe/step_03", hx_trigger="load")
+```
+
+We could potentially add something light to Pipulate like:
+```python
+def should_advance(self, url: str, current_step: str, condition: dict) -> bool:
+    """Generic state transition checker
+    
+    Example:
+    if pipulate.should_advance(name, "step_02", {"color": "*"}):
+        # Move to step 3
+    """
+    step_data = self.get_step_data(url, current_step)
+    return all(k in step_data for k in condition.keys())
+```
+
+This keeps the workflow logic clean but doesn't over-engineer it. The actual UI rendering stays in the application code where it belongs.
+
+What do you think? It's a very light touch that could prevent a lot of repeated conditional checking code, while keeping Pipulate focused on its core job of state management.
+
+**Me**: Definitely! Good decluttering and good semantics.
+
+**Claude**: *takes another sip*
+
+Perfect! Let's add that light touch to Pipulate and update Petiteflow to use it. Here's the minimal change:
+
+```python
+async def init(self, request):
+    form = await request.form()
+    name = form.get("name")
+    
+    # Store name in db for use across requests
+    db['poe_name'] = name
+    
+    # Initialize if missing, but don't overwrite existing data
+    self.pipulate.initialize_if_missing(name)
+    self.pipulate.set_step_data(name, "step_01", {"name": name})
+    
+    # Cleaner state transition check
+    if self.pipulate.should_advance(name, "step_02", {"color": "*"}):
+        return Div(id="step_03", hx_get="/poe/step_03", hx_trigger="load")
+    
+    # Otherwise start from beginning
+    return Div(
+        Div(id="step_01", hx_get="/poe/step_01", hx_trigger="load"),
+        Div(id="step_02"),
+        Div(id="step_03")
+    )
+```
+
+The code is now more declarative - we're saying "if step 2 has color data, advance" rather than checking step numbers and data existence. This pattern will be really helpful as workflows get more complex.
+
+Want me to show the Pipulate side of this change too?
+
+---
+
+After much back-and-forth to get it just generic and templated enough
+
+```python
+class Poeflow:
+    """
+    A 5-step workflow showing Pipulate patterns
+
+    +-----------------+
+    |  Enter a Name   |
+    |  [          ]   |
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Pick a Color   |
+    |  [Red|Blue|Green|
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Choose Time    |
+    |  [Dawn|Dusk|Night]
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Add Feeling    |
+    |  [Joy|Peace|Wonder]
+    +-----------------+
+           ↓
+    +-----------------+
+    |    Preview     |
+    |   [Yes] [No]   |
+    +-----------------+
+    """
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = "/poe"  # Namespace prefix
+        
+        # Add route registration logging
+        logger.debug("Registering Poeflow routes:")
+        routes = [
+            (f"{self.prefix}/init", self.init, ["POST"]),
+            (f"{self.prefix}/step_01", self.step_01),
+            (f"{self.prefix}/step_02", self.step_02),
+            (f"{self.prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+            (f"{self.prefix}/step_03", self.step_03),
+            (f"{self.prefix}/step_03_submit", self.step_03_submit, ["POST"]),
+            (f"{self.prefix}/step_04", self.step_04),
+            (f"{self.prefix}/step_04_submit", self.step_04_submit, ["POST"]),
+            (f"{self.prefix}/step_05", self.step_05),
+            (f"{self.prefix}/step_05_submit", self.step_05_submit, ["POST"])
+        ]
+        
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            logger.debug(f"  {path} -> {handler.__name__} ({', '.join(method_list)})")
+            app.route(path, methods=method_list)(handler)
+            
+        # Add detailed route inspection logging
+        for route in app.routes:
+            if 'step_03' in str(route):
+                logger.debug(f"Route details: {route}")
+                logger.debug(f"Handle method: {route.handle}")
+                logger.debug(f"Path: {route.path}")
+
+    async def start_form(self):
+        """Initial entry point for the poem workflow"""
+        return Card(
+            H2("Create a Poem"),
+            Form(
+                Input(name="name", placeholder="Enter your name", required=True),
+                Button("Begin"),
+                hx_post=f"{self.prefix}/init",
+                hx_target="#poem"
+            ),
+            id="poem"
+        )
+
+    async def init(self, request):
+        form = await request.form()
+        name = form.get("name")
+        db['poe_name'] = name
+        
+        self.pipulate.initialize_if_missing(name)
+        self.pipulate.set_step_data(name, "step_01", {"name": name})
+        
+        # Check for resuming at various steps (in reverse order)
+        if self.pipulate.should_advance(name, "step_05", {"finalized": "*"}):
+            return Card(
+                H3("✨ Poem Complete ✨"),
+                P("Your masterpiece is ready!")
+            )
+        elif self.pipulate.should_advance(name, "step_04", {"feeling": "*"}):
+            return Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+        elif self.pipulate.should_advance(name, "step_03", {"time": "*"}):
+            return Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        elif self.pipulate.should_advance(name, "step_02", {"color": "*"}):
+            return Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+        
+        # Start from beginning
+        return Div(
+            Div(id="step_01", hx_get=f"{self.prefix}/step_01", hx_trigger="load"),
+            Div(id="step_02"),
+            Div(id="step_03"),
+            Div(id="step_04"),
+            Div(id="step_05")
+        )
+
+    async def step_01(self, request):
+        name = db['poe_name']
+        step_data = self.pipulate.get_step_data(name, "step_01")
+        return Div(
+            Card(f"Hello, {step_data['name']}"),
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+        )
+
+    async def step_02(self, request):
+        return Div(
+            Card(
+                H3("Pick a color"),
+                Form(
+                    Select(
+                        Option("Red", value="red"),
+                        Option("Blue", value="blue"), 
+                        Option("Green", value="green"),
+                        name="color"
+                    ),
+                    Button("Choose"),
+                    hx_post=f"{self.prefix}/step_02_submit",
+                    hx_target="#step_02",
+                    enctype="application/x-www-form-urlencoded"
+                )
+            ),
+            Div(id="step_03")
+        )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        color = form.get("color")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_02", {"color": color})
+        
+        return Div(
+            Card(f"You chose {color}"),
+            Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+        )
+
+    async def step_03(self, request):
+        logger.debug("Step 03 render started")
+        
+        form = Form(
+            Select(
+                Option("Dawn", value="dawn"),
+                Option("Dusk", value="dusk"),
+                Option("Night", value="night"),
+                name="time"
+            ),
+            Button("Choose"),
+            hx_post=f"{self.prefix}/step_03_submit",
+            hx_target="#step_03",
+            enctype="application/x-www-form-urlencoded"
+        )
+        logger.debug(f"Step 03 form created with attributes: {form._attributes}")
+        
+        return Div(
+            Card(
+                H3("Choose a time"),
+                form
+            ),
+            Div(id="step_04")
+        )
+
+    async def step_03_submit(self, request):
+        form = await request.form()
+        time = form.get("time")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_03", {"time": time})
+        
+        return Div(
+            Card(f"You chose {time}"),
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+
+    async def step_04(self, request):
+        return Div(
+            Card(
+                H3("Choose a feeling"),
+                Form(
+                    Select(
+                        Option("Joy", value="joy"),
+                        Option("Peace", value="peace"),
+                        Option("Wonder", value="wonder"),
+                        name="feeling"
+                    ),
+                    Button("Choose"),
+                    hx_post=f"{self.prefix}/step_04_submit",
+                    hx_target="#step_04",
+                    enctype="application/x-www-form-urlencoded"
+                )
+            ),
+            Div(id="step_05")
+        )
+
+    async def step_04_submit(self, request):
+        form = await request.form()
+        feeling = form.get("feeling")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_04", {"feeling": feeling})
+        
+        return Div(
+            Card(f"You chose {feeling}"),
+            Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+        )
+
+    async def step_05(self, request):
+        name = db['poe_name']
+        step1_data = self.pipulate.get_step_data(name, "step_01")
+        step2_data = self.pipulate.get_step_data(name, "step_02")
+        step3_data = self.pipulate.get_step_data(name, "step_03")
+        step4_data = self.pipulate.get_step_data(name, "step_04")
+        
+        return Card(
+            H3("Your Poem Preview"),
+            P(
+                f"At {step3_data['time']}, {step1_data['name']} saw",
+                f"A {step2_data['color'].lower()} light so bright",
+                f"Filling their heart with {step4_data['feeling']}"
+            ),
+            Form(
+                Button("Perfect!", type="submit"),
+                hx_post=f"{self.prefix}/step_05_submit",
+                hx_target="#step_05"
+            )
+        )
+
+    async def step_05_submit(self, request):
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_05", {"finalized": True})
+        return Card(
+            H3("✨ Poem Complete ✨"),
+            P("Your masterpiece is ready!")
+        )
+
+
+poeflow = Poeflow(app, pipulate)
+```
+
+**Me**: While you've got it all fresh in your context window and now that we have several working examples, what do you think is the most important documentation that can be produced to help future people making new workflows based on this system?
+
+**Claude**: Based on the code examples, here's what I think would be most helpful as documentation:
+
+````markdown
+# Pipulate Workflow Pattern Guide
+
+## Core Concepts
+
+1. **Namespace Isolation**
+```python
+class MyWorkflow:
+    def __init__(self, app, pipulate):
+        self.prefix = "/my-workflow"  # Unique namespace for routes
+```
+
+2. **State Management**
+- Each workflow uses a unique key (URL, name, etc.) to track state
+- State is stored as steps: `step_01`, `step_02`, etc.
+- Steps contain JSON data relevant to that step
+
+3. **Step Progression**
+```python
+# Check if ready for next step
+if self.pipulate.should_advance(key, "step_02", {"choice": "*"}):
+    # Show next step
+    return Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+```
+
+## Workflow Template
+
+1. **Initialize Routes**
+```python
+routes = [
+    (f"{self.prefix}/init", self.init, ["POST"]),     # Entry point
+    (f"{self.prefix}/step_01", self.step_01),         # First step
+    (f"{self.prefix}/step_02", self.step_02),         # View step
+    (f"{self.prefix}/step_02_submit", self.submit_02, ["POST"]),  # Submit step
+]
+```
+
+2. **Step Pattern**
+```python
+async def step_XX(self, request):
+    # 1. Get workflow key
+    key = db['workflow_key']
+    
+    # 2. Check if step is already complete
+    if self.pipulate.should_advance(key, f"step_XX", {"data": "*"}):
+        # Show completed state + next step placeholder
+        return Div(
+            Card("Step XX Complete"),
+            Div(id="step_YY", hx_get=f"{self.prefix}/step_YY", hx_trigger="load")
+        )
+    
+    # 3. Show form for current step
+    return Div(
+        Card(
+            Form(
+                Input(name="data"),
+                Button("Submit"),
+                hx_post=f"{self.prefix}/step_XX_submit",
+                hx_target="#step_XX"
+            )
+        ),
+        Div(id="step_YY")  # Placeholder for next step
+    )
+```
+
+3. **Submit Pattern**
+```python
+async def step_XX_submit(self, request):
+    # 1. Get form data
+    form = await request.form()
+    data = form.get("field")
+    
+    # 2. Save state
+    key = db['workflow_key']
+    self.pipulate.set_step_data(key, f"step_XX", {"field": data})
+    
+    # 3. Return next step trigger
+    return Div(
+        Card(f"Completed with: {data}"),
+        Div(id="step_YY", hx_get=f"{self.prefix}/step_YY", hx_trigger="load")
+    )
+```
+
+## Best Practices
+
+1. **Resumability**
+- Always check for existing state in `init`
+- Allow jumping to any completed step
+- Store minimal data needed for each step
+
+2. **UI Patterns**
+- Each step shows only its own content
+- Use placeholders for upcoming steps
+- Lock completed steps to prevent changes
+
+3. **State Transitions**
+- Use `should_advance()` to check step completion
+- Store step data before showing next step
+- Keep state updates atomic
+
+## Examples
+- `Petiteflow`: Minimal 3-step workflow
+- `Poeflow`: Complex 5-step workflow with branching
+- `Workflow`: URL-based workflow with validation
+````
+
+This documentation focuses on the patterns that emerge across all three implementations, making it easier for developers to create new workflows while maintaining consistency.
+
+Would you like me to expand on any particular aspect?
+
+---
+
+I test all 3 of my pipeline examples:
+
+1. Workflow: the 3-step example with a cleaned URL as primary key, pinned
+   against regression with tons of documentation.
+2. Petiteflow: the smallest possible example, perhaps a little too small in how
+   it hid multi-step issues.
+3. Poeflow: the 5-step version that forced resolving remaining concerns and
+   which probably captures the "pipeline poetry" best.
+
+And I look over the examples examining where forever-forward propegation of
+template code will be painful.
+
+**Me**: The biggest potential headache in the future I believe is expressed here
+in init. It seems a bit too verbose, like this step at the beginning needs to
+explicitly know all this stuff about elsewhere in the flow even though that's
+stuff that could be interrogated and set implicitly for a much shorter init.
+This could be true if the process is generic, but will be false if it's
+excessively custom every time. Steps will always be sequential, and we want to
+encourage convention and determinism, especially where it will make the code
+more beautiful and easier to live with many thousands of copied versions forever
+forward.
+
+**Claude**: Ah yes! The `init` method has too much explicit knowledge about the flow. We could make this much more elegant by leveraging conventions and the Pipulate class's knowledge of step progression. Here's a proposed refactor:
+
+````python:botifython/botifython.py
+    async def init(self, request):
+        """Initialize or resume workflow"""
+        form = await request.form()
+        name = form.get("name")
+        db['poe_name'] = name
+        
+        # Initialize new workflow or get existing
+        self.pipulate.initialize_if_missing(name)
+        self.pipulate.set_step_data(name, "step_01", {"name": name})
+        
+        # Let Pipulate handle progression
+        return self.pipulate.resume_flow(
+            key=name,
+            final_step={
+                "step": "step_05",
+                "condition": {"finalized": "*"},
+                "view": Card(
+                    H3("✨ Poem Complete ✨"),
+                    P("Your masterpiece is ready!")
+                )
+            },
+            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
+        )
+````
+
+Then in Pipulate:
+````python:botifython/botifython.py
+    def resume_flow(self, key: str, final_step: dict, step_pattern: str) -> Div:
+        """Generic workflow resumption logic
+        
+        Args:
+            key: Workflow identifier (URL, name, etc)
+            final_step: Dict with completion info
+            step_pattern: URL pattern for steps (with {step_num} placeholder)
+        """
+        # Check if workflow is complete
+        if self.should_advance(key, final_step["step"], final_step["condition"]):
+            return final_step["view"]
+            
+        # Find last completed step
+        last_step = self.get_last_completed_step_number(key)
+        next_step = last_step + 1
+        
+        # Create placeholders for all steps
+        placeholders = []
+        for step_num in range(1, next_step + 1):
+            step_id = f"step_{step_num:02d}"
+            placeholders.append(
+                Div(
+                    id=step_id,
+                    hx_get=step_pattern.format(step_num=step_num),
+                    hx_trigger="load" if step_num == 1 else None
+                )
+            )
+            
+        return Div(*placeholders)
+````
+
+This approach:
+1. Makes init much cleaner and focused on its core job
+2. Moves progression logic to Pipulate where it belongs
+3. Uses convention over configuration
+4. Makes adding new steps easier (no init changes needed)
+5. Keeps the flexibility for custom flows while encouraging standard patterns
+
+The key insight is that step progression is fundamentally the same for all workflows - we just need to know:
+1. What's the key (name/URL)
+2. What's the final state
+3. How to format step URLs
+
+Everything else can be derived from conventions and the existing state data.
+
+Would you like to see how this pattern could be applied to the other workflows?
+
+**Me**: Implementation seemed self-evident, so I did it and it's working. Here,
+you can double-check my work. Let's apply this now to Petiteflow and Workflow,
+so yes, I guess the answer is yes. Let me show you their init's too. I will get
+all 3 examples in sync with the new solution.
+
+---
+
+## The Final Examination
+
+### Any More Complexity to Shove Around?
+
+> I answered yes and applied the new generic init solution across all 3
+> examples, and they read more like poetic workflows now. Most of the "extra
+> labor" of designing workflows is now expunged, but for one last place...
+
+**Me**: Okay, most of the "extra labor" of designing workflows is now expunged, except for one last place. In step_5, the last step, all 4 previous cards are mentioned explicit, and their values loaded into `[step_x]_data` variables for displaying the finished poem. Now the goal is to drive everything generic and repeated able to be reliably inferred based on convention, into the Pipulate class. Scanning over Poeflow which I think is the best of our 3 examples to do this sort of analysis, it appears we have achieved this goal but for that one location. But also, that seems okay because it's for constructing the final poem, and that's not one of these generic abstractions. If there were 100 steps and we just used 4 of those steps to construct the open, it would be exactly as short on the last poetry-showing step. Now please do not just lean into my presumptions to create a confirmation bias. Push back if pushing back is needed. What am I not seeing? What did I miss? What other candidates are there for complexity-shifting overt to Pipulate?
+
+```python
+class Poeflow:
+    """
+    A 5-step workflow showing Pipulate patterns
+
+    +-----------------+
+    |  Enter a Name   |
+    |  [          ]   |
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Pick a Color   |
+    |  [Red|Blue|Green|
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Choose Time    |
+    |  [Dawn|Dusk|Night]
+    +-----------------+
+           ↓
+    +-----------------+
+    |  Add Feeling    |
+    |  [Joy|Peace|Wonder]
+    +-----------------+
+           ↓
+    +-----------------+
+    |    Preview     |
+    |   [Yes] [No]   |
+    +-----------------+
+    """
+    def __init__(self, app, pipulate):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = "/poe"  # Namespace prefix
+        
+        # Add route registration logging
+        logger.debug("Registering Poeflow routes:")
+        routes = [
+            (f"{self.prefix}/init", self.init, ["POST"]),
+            (f"{self.prefix}/step_01", self.step_01),
+            (f"{self.prefix}/step_02", self.step_02),
+            (f"{self.prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+            (f"{self.prefix}/step_03", self.step_03),
+            (f"{self.prefix}/step_03_submit", self.step_03_submit, ["POST"]),
+            (f"{self.prefix}/step_04", self.step_04),
+            (f"{self.prefix}/step_04_submit", self.step_04_submit, ["POST"]),
+            (f"{self.prefix}/step_05", self.step_05),
+            (f"{self.prefix}/step_05_submit", self.step_05_submit, ["POST"])
+        ]
+        
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            logger.debug(f"  {path} -> {handler.__name__} ({', '.join(method_list)})")
+            app.route(path, methods=method_list)(handler)
+            
+        # Add detailed route inspection logging
+        for route in app.routes:
+            if 'step_03' in str(route):
+                logger.debug(f"Route details: {route}")
+                logger.debug(f"Handle method: {route.handle}")
+                logger.debug(f"Path: {route.path}")
+
+    async def start_form(self):
+        """Initial entry point for the poem workflow"""
+        return Card(
+            H2("Create a Poem"),
+            Form(
+                Input(name="name", placeholder="Enter your name", required=True),
+                Button("Begin"),
+                hx_post=f"{self.prefix}/init",
+                hx_target="#poem"
+            ),
+            id="poem"
+        )
+
+    async def init(self, request):
+        """Initialize or resume workflow"""
+        form = await request.form()
+        name = form.get("name")
+        db['poe_name'] = name
+        
+        # Initialize new workflow or get existing
+        self.pipulate.initialize_if_missing(name)
+        self.pipulate.set_step_data(name, "step_01", {"name": name})
+        
+        # Let Pipulate handle progression
+        return self.pipulate.resume_flow(
+            key=name,
+            final_step={
+                "step": "step_05",
+                "condition": {"finalized": "*"},
+                "view": Card(
+                    H3("✨ Poem Complete ✨"),
+                    P("Your masterpiece is ready!")
+                )
+            },
+            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
+        )
+
+    async def step_01(self, request):
+        name = db['poe_name']
+        step_data = self.pipulate.get_step_data(name, "step_01")
+        return Div(
+            Card(f"Hello, {step_data['name']}"),
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+        )
+
+    async def step_02(self, request):
+        return Div(
+            Card(
+                H3("Pick a color"),
+                Form(
+                    Select(
+                        Option("Red", value="red"),
+                        Option("Blue", value="blue"), 
+                        Option("Green", value="green"),
+                        name="color"
+                    ),
+                    Button("Choose"),
+                    hx_post=f"{self.prefix}/step_02_submit",
+                    hx_target="#step_02",
+                    enctype="application/x-www-form-urlencoded"
+                )
+            ),
+            Div(id="step_03")
+        )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        color = form.get("color")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_02", {"color": color})
+        
+        return Div(
+            Card(f"You chose {color}"),
+            Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+        )
+
+    async def step_03(self, request):
+        logger.debug("Step 03 render started")
+        
+        form = Form(
+            Select(
+                Option("Dawn", value="dawn"),
+                Option("Dusk", value="dusk"),
+                Option("Night", value="night"),
+                name="time"
+            ),
+            Button("Choose"),
+            hx_post=f"{self.prefix}/step_03_submit",
+            hx_target="#step_03",
+            enctype="application/x-www-form-urlencoded"
+        )
+        logger.debug(f"Step 03 form created with attributes: {form._attributes}")
+        
+        return Div(
+            Card(
+                H3("Choose a time"),
+                form
+            ),
+            Div(id="step_04")
+        )
+
+    async def step_03_submit(self, request):
+        form = await request.form()
+        time = form.get("time")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_03", {"time": time})
+        
+        return Div(
+            Card(f"You chose {time}"),
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+
+    async def step_04(self, request):
+        return Div(
+            Card(
+                H3("Choose a feeling"),
+                Form(
+                    Select(
+                        Option("Joy", value="joy"),
+                        Option("Peace", value="peace"),
+                        Option("Wonder", value="wonder"),
+                        name="feeling"
+                    ),
+                    Button("Choose"),
+                    hx_post=f"{self.prefix}/step_04_submit",
+                    hx_target="#step_04",
+                    enctype="application/x-www-form-urlencoded"
+                )
+            ),
+            Div(id="step_05")
+        )
+
+    async def step_04_submit(self, request):
+        form = await request.form()
+        feeling = form.get("feeling")
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_04", {"feeling": feeling})
+        
+        return Div(
+            Card(f"You chose {feeling}"),
+            Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+        )
+
+    async def step_05(self, request):
+        name = db['poe_name']
+        step1_data = self.pipulate.get_step_data(name, "step_01")
+        step2_data = self.pipulate.get_step_data(name, "step_02")
+        step3_data = self.pipulate.get_step_data(name, "step_03")
+        step4_data = self.pipulate.get_step_data(name, "step_04")
+        
+        return Card(
+            H3("Your Poem Preview"),
+            P(
+                f"At {step3_data['time']}, {step1_data['name']} saw",
+                f"A {step2_data['color'].lower()} light so bright",
+                f"Filling their heart with {step4_data['feeling']}"
+            ),
+            Form(
+                Button("Perfect!", type="submit"),
+                hx_post=f"{self.prefix}/step_05_submit",
+                hx_target="#step_05"
+            )
+        )
+
+    async def step_05_submit(self, request):
+        name = db['poe_name']
+        self.pipulate.set_step_data(name, "step_05", {"finalized": True})
+        return Card(
+            H3("✨ Poem Complete ✨"),
+            P("Your masterpiece is ready!")
+        )
+```
+
+**Claude**: Your analysis is quite thorough, and it seems you've already streamlined much of the workflow logic into the `Pipulate` class. The final step in `Poeflow` does indeed involve specific logic for constructing the poem, which is inherently custom and specific to the workflow's purpose. Here are a few considerations and potential areas for further abstraction, if needed:
+
+1. **Data Aggregation**: 
+   - If multiple workflows require aggregating data from several steps to produce a final output, you could create a utility method in `Pipulate` to fetch and aggregate data from multiple steps. However, this might be overkill if the aggregation logic is unique to each workflow.
+
+2. **Final Step Logic**:
+   - The logic in the final step is specific to the workflow's purpose (e.g., constructing a poem). If you find that multiple workflows have similar finalization logic, you could consider abstracting this into a method that takes a list of step names and a template for the final output.
+
+3. **Error Handling and Validation**:
+   - If there are common patterns in error handling or validation across steps, these could be abstracted into helper methods within `Pipulate`.
+
+4. **UI Components**:
+   - If there are common UI components or patterns (e.g., forms, buttons) that are reused across workflows, consider creating reusable components or templates.
+
+5. **Logging and Debugging**:
+   - If logging patterns are consistent across workflows, you could centralize logging logic within `Pipulate` or a separate utility class.
+
+6. **Step Transition Logic**:
+   - If there are common rules for transitioning between steps (beyond what `resume_flow` handles), these could be abstracted.
+
+Given the current state of your code, it seems like you've already achieved a good balance between abstraction and specificity. The final step's logic is naturally more specific, as it deals with the unique output of the workflow. Unless you find yourself repeating similar logic across multiple workflows, it's reasonable to keep the final step logic within the workflow class.
+
+If you anticipate more workflows with similar finalization logic, you could consider creating a pattern or template for final steps. Otherwise, maintaining the current structure seems appropriate.
+
+Let me know if there's a specific area you'd like to explore further or if you have additional questions!
