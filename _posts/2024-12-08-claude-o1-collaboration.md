@@ -81,11 +81,11 @@ copy/paste-toss your entire context into any LLM in one go.
 > Pro, and that's what I'm discovering is now possible in o1 Release. So let's
 > do exactly that and see what o1 had to say!
 
+---
+
 ## o1's Attempt at a Plan Following Yesterday's Work
 
 **o1**: Below is a summary and coding plan that captures the final architectural vision reached in the conversation, focusing on how to implement the cards so that the workflow can rebuild itself fully from the server-side JSON state on each page load:
-
----
 
 ## The Core Architectural Idea
 
