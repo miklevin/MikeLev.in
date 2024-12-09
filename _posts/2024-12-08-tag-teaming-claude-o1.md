@@ -1,7 +1,7 @@
 ---
 title: Tag Teaming Between Claude & o1 Release
 permalink: /futureproof/tag-teaming-claude-o1/
-description: In this collaboration between Claude and o1 Release, we explore the development of a minimalist, server-centric web framework focused on resumable, linear workflows. Using a pipeline-based approach, we manage state with a single JSON blob, leveraging HTMX for incremental loading and avoiding complex client-side logic. This "localhost revolution" framework prioritizes clarity, transparency, and developer freedom, aiming to make workflows as easy to write and understand as poetry.0
+description: In this collaboration between Claude and o1 Release, we explore the development of a minimalist, server-centric web framework focused on resumable, linear workflows. Using a pipeline-based approach, we manage state with a single JSON blob, leveraging HTMX for incremental loading and avoiding complex client-side logic. This "localhost revolution" framework prioritizes clarity, transparency, and developer freedom, aiming to make workflows as easy to write and understand as poetry.
 layout: post
 sort_order: 1
 ---
