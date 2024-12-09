@@ -12,7 +12,7 @@ sort_order: 1
 
 ---
 
-### The Challenge (Switch to Human)
+### The Challenge (Human)
 
 Yesterday, Saturday, I let myself fall into the rabbit hole of last-mile details
 of a project, letting myself get bogged down by cascading exploding complexity
