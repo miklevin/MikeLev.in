@@ -1,6 +1,6 @@
 ---
-title: Mike Levin on AI, SEO, Linux, Python, vim & git
-description: MikeLev.in is a website run by Mike Levin, an SEO expert in NYC. He focuses on using local-first, open-source tools and technologies like Linux, Python, vim, and git. He's a proponent of the Unix philosophy and minimalist coding practices, and is currently developing a workflow management system called Pipulate.
+title: Mike Levin on Tech Skills, AI & SEO
+description: Mike Levin is a Technical SEO expert in NYC who shares his passion for future-proofing tech skills through Linux, Python, vim, and git. With 25+ years of experience in SEO and web development, he helps others master timeless tools while building AI-powered SEO automation systems.
 author: Mike Levin AI SEO
 group: home
 ---
@@ -9,8 +9,8 @@ group: home
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Mike Levin on AI, SEO, Linux, Python, vim & git",
-  "description": "Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git (LPvg) including NixOS, Jupyter, FastHTML and an AI stack to resist obsolescence.",
+  "name": "Mike Levin on Tech Skills, AI & SEO",
+  "description": "Discover how to future-proof your tech career with timeless tools like Linux, Python, vim & git (LPvg). Learn from an experienced Technical SEO expert who combines classic skills with modern AI automation.",
   "author": {
     "@type": "Person",
     "name": "Mike Levin"
@@ -24,33 +24,35 @@ group: home
 }
 </script>
 
-# LPvg: Timeless Tech Skills for the AI Age
+# Finding Purpose Through Timeless Tech Skills
+
+I've discovered my ikigai - my reason for being - in mastering and teaching future-proof technology skills. While I'm a Technical SEO expert by trade with 25+ years of experience in content optimization and automation, my true passion lies in helping others escape the endless cycle of chasing trendy tools.
 
 <div class="lpvg-container">
   <div class="lpvg-list">
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The interoperable sub-system of macOS & Windows 😉</li>
-      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The new English &#151; or "<i>Lingua Franca</i>" of technology.</li>
-      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: How muscle-memory, aka craft, comes to programming.</li>
-      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Making your code unstoppable, unlosable & undoable.</li>
+      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
+      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
+      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
+      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
     </ul>
   </div>
   {% include bunny.html %}
 </div>
 
-**[LPvg](/LPvg/)** is a completely free ***future-proofing*** minimal tech stack ***for life*** that empowers you as a developer. While you don't need to use it for ***everything***, you can apply it to ***anything*** &#151; because ***all tech is text***. Edit at the speed of thought with these powerful tools. Add fully reproducible Linux environments inside any macOS or Windows folder (without containers).
+**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools - they're the foundation of a sustainable technical career that resists obsolescence.
 
 {% include daily-metaphors.html %}
 
-### Also Down the 🐇🕳️ Here at MikeLev.in are:
+### More Tools in Our Technical Arsenal:
 
 <div style="margin-top: 2vw; margin-bottom: 2vw;">
   <ul>
-    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducibility redefined&#151;systems in subfolders in seconds</li>
-    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: A way to run easily monitored background "servers" on your laptop.</li>
-    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: No, not Colab. No, not VSCode. <b><i>Project Jupyter!!!</i></b></li>
-    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: WebDev & HTML the way it should be. Better than React.</li>
-    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: 'Cause AI doesn't cost any more than electricity now.</li>
+    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducible development environments anywhere</li>
+    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Persistent terminal sessions for robust background processes</li>
+    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: Interactive computing done right</li>
+    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: Streamlined web development without framework bloat</li>
+    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Local AI that keeps you in control</li>
   </ul>
 </div>
 
@@ -66,7 +68,7 @@ group: home
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Enter Wonderland</span>
+    <span class="nav-label">Begin the Journey</span>
     <a href="{{ first_post.url | relative_url }}">
       <span>{{ first_post.title }}</span>
     </a>
