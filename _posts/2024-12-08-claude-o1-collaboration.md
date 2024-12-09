@@ -374,6 +374,24 @@ This approach embraces the simplicity discussed at the end of the conversation, 
       instantiated from base classes) are terse, inherently obvious, unique from
       each other, and easy breezy pleasant to write.
 
+And a few words of context for you, before feeding the above list back into the
+engines. Off the beaten track, I say? Yup. I crave a simpler time when
+Webmasters ruled the Earth and cgi-bin directories had PERL scripts that fired
+up a whole new execution engine every time and there was no client-side way to
+track side-effects. Talk about functional programming!
+
+Well, those days are back, baby! But now equipped with some power-tools, making
+the Web the way it should have been in the first place. This is mostly due to
+the work of Carson Gross who made HTMX, and Jeremy Howard who made FastHTML.
+Actually, there's a lot more in the mix, but I'll call out these two for how
+perfectly their work dove-tails into a next gen web framework of pure awesome.
+
+Now, the part I add. I don't like Web hosting. That's upper-case Web as in THE
+WEB. I mean, unless you're really trying to share it with the unknown masses and
+pay a lot for the privilege and have a tech liability that's going to weigh over
+you forever, then why? Why not just "make an app?" Who cares if it happens to
+use web tech (lower-case w)? Electron works that way.
+
 ## The Localhost Revolution
 
 Most of the models seem to just hate what I'm doing, that is until they look
