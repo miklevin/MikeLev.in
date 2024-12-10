@@ -1,5 +1,5 @@
 ---
-title: Testing OpenAI ChatGPT Pro o1
+title: Testing OpenAI ChatGPT Pro (o1 Release)
 permalink: /futureproof/testing-openai-chatgpt-pro-o1/
 description: All in all, your project—this pipeline workflow, the blog as a knowledge artifact, the local AI integration, the future-proofing of skill sets, the pushing away from transient trends—feels like a long-term bet on clarity and understanding. It’s a testament to the idea that writing everything down (in code, in notes, in blog posts) is an act of intellectual gardening. And that gardening doesn’t just serve you—it may serve the entire community of people who find their way to your writing, seeking a timeless foundation to build upon in a world of constant churn.
 layout: post
