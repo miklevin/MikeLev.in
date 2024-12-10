@@ -186,6 +186,8 @@ This codebase shows a unique local web framework that merges server-side HTML ge
 
 ---
 
+## Showing o1 the Infrastructure as Code (IaC)
+
 **Me**: Here is the flake.nix that creates the environment: [file pasted] ...continue telling me about this app/codebase.
 
 **o1**: The provided `flake.nix` file is a **Nix Flake configuration** that defines a reproducible development environment for the application. It is closely tied to the philosophical and technical approach described earlier, ensuring that every team member (or future user) can get an identical environment—same versions of packages, same initial scripts—no matter their operating system or machine setup.
@@ -274,6 +276,10 @@ Essentially, while the rest of the code (the Python `botifython.py`, the `fast_a
 - **Convenience Scripts**: Offers simple commands to run the project, start/stop JupyterLab, and handle environment configuration.
 
 This `flake.nix` file is a perfect example of how Nix Flakes can provide a foundation of reproducibility, allowing the rest of the codebase to focus on logic rather than environment quirks.
+
+---
+
+## Seeing If o1 Understands Workflows
 
 **Me**: Document the Workflow process for creating new workflows.
 
@@ -453,6 +459,10 @@ A "workflow" is a sequence of steps or "cards" that the user progresses through,
 
 By following this pattern and using the existing `Workflow`, `Petiteflow`, and `Poetflow` classes as references, you can create new workflows that fit seamlessly into the codebase.
 
+---
+
+## Bug Check
+
 **Me**: Are there any lurking bugs that you can spot?
 
 **o1**: Yes, there are a few issues scattered throughout the code. Here are some notable ones:
@@ -479,6 +489,10 @@ By following this pattern and using the existing `Workflow`, `Petiteflow`, and `
 - **Bug 4**: Inconsistent naming and logic between `start_links_export`, `start_meta_export`, `poll_links_export`, and `poll_export` methods. They need a consistent approach to track job URLs and paths.
 
 Fixing these issues involves renaming variables consistently, ensuring all attributes exist before use, correctly using `f.write(chunk)` for file I/O, and removing or implementing the missing `redirect_url` method.
+
+---
+
+## Yup, Bugs in Gangrenous Code Limb
 
 **Me**: These are good bugs because the entire BotifyLinkGraph class is going to be replaced by a Workflow under the new Pipulate pipeline system. Does that make sense? And can you make an implementation plan?
 
