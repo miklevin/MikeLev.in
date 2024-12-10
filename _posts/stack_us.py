@@ -7,8 +7,8 @@ output_file = "foo.md"
 with open(output_file, "w") as outfile:
     # Loop through all files in the current directory
     for filename in sorted(os.listdir(".")):
-        # Check if the file has a .md extension
-        if filename.endswith(".md") and filename != output_file:
+        # Check if the file has a .md extension and is not one of the excluded files
+        if filename.endswith(".md") and filename not in [output_file, "template.md"]:
             print(f"Appending {filename}...")
             # Open each file and write its contents to the output file
             with open(filename, "r") as infile:
