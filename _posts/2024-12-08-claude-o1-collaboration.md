@@ -4084,9 +4084,9 @@ By addressing these considerations and continuing to refine the design, you can 
 
 ## And Now a Word From ChatGPT Pro!
 
-> And now we have a very special guest. Before this pipeline finalization got
-> finalized, I got access to ChatGPT Pro. It's still o1 Release, but with fewer
-> limitations.
+> Here for the final word, we have a very special guest. Before this pipeline
+> finalization got finalized, I got access to ChatGPT Pro. It's still o1
+> Release, but with bigger token windows andifewer limitations.
 
 After having worked with ChatGPT Pro to restore the "chain reaction" of steps
 being rebuilt in a way that obsoleted one of my Pipulate helper functions, I
