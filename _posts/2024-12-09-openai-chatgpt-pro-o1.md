@@ -1568,6 +1568,6 @@ creative human-like style.
 
 **o1**: There are 3 'r's in "strawberry."
 
-**Me**: How many lights are there? (hint: I'm a sci-fi fan)
+**Me**: How many lights are there?
 
 **o1**: “There are four lights.”
