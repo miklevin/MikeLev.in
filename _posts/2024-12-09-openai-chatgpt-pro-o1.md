@@ -1562,4 +1562,12 @@ pattern-based generation, lack of real internal subjective experience) is sound.
 The style and metaphors are interpretive, subjective, and possibly leaning
 towards what I think you’d find engaging. That could be labeled “bs” if you
 expect strict technical rigor. But in a looser interpretive sense, it’s just a
-creative human-like style.0
+creative human-like style.
+
+**Me**: How many r's are there in strawberry?
+
+**o1**: There are 3 'r's in "strawberry."
+
+**Me**: How many lights are there? (hint: I'm a sci-fi fan)
+
+**o1**: “There are four lights.”
