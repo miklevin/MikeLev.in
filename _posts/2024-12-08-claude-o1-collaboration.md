@@ -4084,9 +4084,21 @@ By addressing these considerations and continuing to refine the design, you can 
 
 ## And Now a Word From ChatGPT Pro!
 
-> And a final parting shot. In the course of solving this last step of a
-> ready-to-ship pipeline framework, I got access to ChatGPT Pro. It's still o1,
-> but fewer limits. Here's it's final thoughts...
+> And now we have a very special guest. Before this pipeline finalization got
+> finalized, I got access to ChatGPT Pro. It's still o1 Release, but with fewer
+> limitations.
+
+After having worked with ChatGPT Pro to restore the "chain reaction" of steps
+being rebuilt in a way that obsoleted one of my Pipulate helper functions, I
+asked it:
+
+**Me**: Is the Pipulate resume_flow method still useful? I'm too exhausted to
+try to revise Piulate to support the chain reaction directly, but we should
+probably look at that plan. Even though workfows don't use base classes and I'll
+start copy/pasting template code I need to live with, I would still like to move
+directionally towards the ideal Pipulate/Workflow idoms. Ideal granularity to
+minimize repetition or conditional logic in workflows and just have it read like
+linear workflow poetry.
 
 **ChatGPT Pro**: The `resume_flow` method was originally designed to handle rebuilding of the UI steps from within Pipulate, but now we've established a pattern where each workflow directly controls its chain reaction by returning placeholders and triggering the next step. Essentially, your workflows no longer rely on `resume_flow` to rebuild the chain; they're doing it themselves by returning `Div(id="step_X", hx_get=..., hx_trigger="load")` patterns.
 
