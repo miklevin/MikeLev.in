@@ -3618,7 +3618,7 @@ forward.
                     P("Your masterpiece is ready!")
                 )
             },
-            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
+            {% raw %}step_pattern=f"{self.prefix}/step_{{step_num:02d}}"{% endraw %}
         )
 ````
 
@@ -3785,7 +3785,7 @@ class Poetflow:
                     P("Your masterpiece is ready!")
                 )
             },
-            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
+            {% raw %}step_pattern=f"{self.prefix}/step_{{step_num:02d}}"{% endraw %}
         )
 
     async def step_01(self, request):
@@ -4347,3 +4347,32 @@ To implement a new workflow:
 6. Test re-entrancy and chain reaction behavior thoroughly.
 
 Following these guidelines will help you replicate the chain reaction workflows you see in `Workflow`, `Petiteflow`, and `Poetflow` examples, tailoring them to your own unique use-cases, while maintaining a consistent, stable, and human-friendly user experience.
+
+---
+
+## Understanding Creatively Introduced Behavior
+
+As I refined the final examples of the pipeline procedure, I noticed a new
+behavior I did not ask for. I clarify with o1 that this is something that it
+creatively introduced.
+
+**Me**: I'm fairly happy with the current implementation. But I want to clarify a point. The chain reaction effect only happens if the Poetryflow for a particular pipeline is not recorded as Complete, right? Am I correct in assuming that after a poem has been finalized, it no longer triggers the chain reaction card step rebuild if the primary key is plugged back in on the first step? And this is intentional by design assuming that was how the system should operate?
+
+**o1**: You are correct. That is indeed how the current system is designed. After the poem (or the pipeline) is fully completed and marked as finalized, when you re-enter the primary key at the first step, it no longer triggers the chain reaction of rebuilding and re-running each step.
+
+**Why This Happens:**
+
+- Each workflow step sets data in the pipeline state.
+- If all steps are completed and `finalized` is set in the pipeline state (for example, `{"finalized": True}`), then the logic in the `init` endpoint checks this condition.
+- When the user re-enters the same primary key (the URL or name) that corresponds to a completed pipeline, the code sees that `finalized` is present at `step_05`.
+- Instead of re-running the chain of steps, it returns the final completion card immediately.
+
+**Intentional by Design:**
+
+This behavior is intentional. The pipeline’s end condition (`finalized`) acts as a checkpoint. Once the pipeline is completed, it remains in that completed state:
+
+- The chain reaction effect (automatically loading the next step) is meant to guide the user through incomplete steps.
+- After completion, there’s no need to re-run all steps again since the pipeline is done.
+- Providing the primary key again merely displays the final outcome (the completed poem and a confirmation card) rather than repeating the workflow.
+
+So, yes, your understanding is correct: once the workflow is recorded as complete, plugging the primary key back into the first step does not redo the chain reaction, and this is exactly how it’s meant to function.
