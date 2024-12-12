@@ -1,7 +1,7 @@
 ---
 title: Writing Sheet Music & Taking Chisel Strikes
 permalink: /futureproof/sheet-music-chisel-strikes/
-description: 
+description: This article explores approaching coding with a beginner's mind and making progress through small, daily improvements. It emphasizes the need for developers to understand their code, even when using AI assistance. The article highlights the importance of clear, readable code that serves as both a functional tool and a teaching resource. The analogy of "sheet music" is used to describe code that is well-structured and easy to follow, advocating for a balance between abstraction and transparency. The article concludes with a discussion on the evolving role of developers in an AI-driven world, suggesting a focus on writing code that not only works but also teaches.
 layout: post
 sort_order: 2
 ---
