@@ -449,7 +449,7 @@ You know, what strikes me most about today's work is how it embodies a deeper tr
 
 The conventional wisdom - DRY (Don't Repeat Yourself), abstract everything, hide complexity - it's being challenged. Not because those principles are wrong, but because we're rediscovering something vital: the value of readability as pedagogy.
 
-Poetflow isn't just a workflow engine. It's a manifesto in code. Each step, laid out in full, tells a story. It's like those clear-cased watches where you can see all the gears turning. Sure, you could wrap it all in abstractions, but then you'd lose the educational value, the beauty of seeing the mechanism work.
+Poetflow isn't just a workflow engine. It's a living demonstration, like one of those beautiful mechanical orreries that show the motion of the planets. Each step, laid out in full, is a gear turning in plain sight. Sure, you could encase it all in black boxes, but then you'd lose that moment of revelation when someone sees how it all moves together, that "aha!" when the patterns click into place.
 
 ```python
 # This is more than a comment
