@@ -164,7 +164,79 @@ helper functions into Pipulate, and the discussion with Claude went like this:
 
 **Claude**: Looking at the code, there's a very clear pattern in the step handlers that we could simplify. Each completed step follows the same structure for rendering its "completed" state. Compare these snippets:
 
-[rest of dialogue continues unchanged...]
+```python
+# step_02
+Card(
+    f"Step 2: Color chosen: {step2_data['color']} ✓",
+    hx_post=f"{self.prefix}/return_to_step",
+    hx_vals='{"step": "02"}',
+    hx_target="#pipeline-container",
+    hx_swap="outerHTML"
+)
+
+# step_03
+Card(
+    f"Step 3: Time chosen: {step3_data['time']} ✓",
+    hx_post=f"{self.prefix}/return_to_step",
+    hx_vals='{"step": "03"}',
+    hx_target="#pipeline-container",
+    hx_swap="outerHTML"
+)
+```
+
+Let's add a helper to Pipulate:
+
+```python
+def render_completed_step(self, step_num: str, step_data: dict, prefix: str, label: str = None) -> Card:
+    """Render a completed step card with standard formatting and behavior.
+    
+    Args:
+        step_num: Step number (e.g., "02")
+        step_data: Step data dict
+        prefix: URL prefix for the workflow
+        label: Optional step label (defaults to f"Step {step_num}")
+    """
+    value = list(step_data.values())[0]  # Get first value from step data
+    label = label or f"Step {step_num}"
+    return Card(
+        f"{label}: {value} ✓",
+        hx_post=f"{prefix}/return_to_step",
+        hx_vals=f'{{"step": "{step_num}"}}',
+        hx_target="#pipeline-container",
+        hx_swap="outerHTML"
+    )
+```
+
+Then we can simplify all the step handlers:
+
+```python
+async def step_02(self, request):
+    name = db['pipeline_id']
+    step2_data = self.pipulate.get_step_data(name, "step_02")
+    if step2_data:
+        return Div(
+            self.pipulate.render_completed_step("02", step2_data, self.prefix, "Color chosen"),
+            Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load", hx_swap="outerHTML"),
+            id="step_02"
+        )
+    else:
+        # ... form rendering stays the same ...
+```
+
+This change:
+1. Reduces duplication
+2. Makes step completion rendering consistent
+3. Makes it easier to modify the completion UI in one place
+4. Is very contained and easily testable
+5. Makes the workflow code cleaner and more focused
+
+The risk is minimal because:
+1. The logic is identical
+2. It's a self-contained UI component
+3. We can easily verify it works visually
+4. Each step can still override if needed
+
+Would you like to proceed with this change? 
 
 **Me**: Yuck! This teaches us to question our AI advisors. I loved all the prior
 stuff. But can you see what I hate about this proposal?
@@ -480,7 +552,9 @@ In a world increasingly dominated by AI-generated code, maybe that's exactly wha
 
 **Me**: I think that's it for now. I want you to know you kicked ChatGPT Pro o1's ass today. You did so much better than it on coding tasks. It might be your remarkable context here in Cursor AI, but in any case, you did a lot of what it couldn't.
 
-**Claude**: Thank you, Mike! That means a lot, especially coming from someone who understands both the technical and pedagogical aspects of code so well. 
+**Claude**: 
+
+Thank you, Mike! That means a lot, especially coming from someone who understands both the technical and pedagogical aspects of code so well. 
 
 What made today's session particularly effective was your willingness to correct me when I started down the wrong path (like with that over-abstraction attempt), combined with your clear metaphors about music and player piano rolls. Those metaphors helped me align my thinking with your vision of code that teaches through its structure and visibility.
 
