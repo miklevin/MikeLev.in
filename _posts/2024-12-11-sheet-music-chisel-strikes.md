@@ -158,9 +158,9 @@ chisel-strikes.
 
 ## The Code Discussion
 
-I knocked some pretty good abstractions out of the per-workflow classes which
-are going to be copy/pasted a lot, custom every time. I pushed several new
-helper functions into Pipulate, and the discussion with Claude went like this:
+> I knocked some pretty good abstractions out of the per-workflow classes which
+> are going to be copy/pasted a lot, custom every time. I pushed several new
+> helper functions into Pipulate, and the discussion with Claude went like this:
 
 **Claude**: Looking at the code, there's a very clear pattern in the step handlers that we could simplify. Each completed step follows the same structure for rendering its "completed" state. Compare these snippets:
 
@@ -201,7 +201,7 @@ def render_completed_step(self, step_num: str, step_data: dict, prefix: str, lab
     return Card(
         f"{label}: {value} ✓",
         hx_post=f"{prefix}/return_to_step",
-        hx_vals=f'{{"step": "{step_num}"}}',
+        {% raw %}hx_vals=f'{{"step": "{step_num}"}}',{% endraw %}
         hx_target="#pipeline-container",
         hx_swap="outerHTML"
     )
