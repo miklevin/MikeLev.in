@@ -51,11 +51,14 @@
             # Alias vim to nvim
             alias vim=nvim
 
+            # Jekyll serve alias
+            alias jes="bundle exec jekyll serve --livereload"
+
             # Display Jekyll and Bundler instructions
             echo "Jekyll and Rouge environments are ready."
             echo "Instructions:"
             echo "1. Use: bundle install       # To install Ruby gems defined in Gemfile"
-            echo "2. Use: bundle exec jekyll serve --livereload"
+            echo "2. Use: jes"
             echo "   - Starts a Jekyll development server with live reload support."
             echo "3. Use: rougify style monokai.sublime > assets/css/syntax.css"
             echo "   - Generates Rouge syntax highlighting styles in your CSS."
