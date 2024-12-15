@@ -10,6 +10,12 @@ sort_order: 1
 
 Let’s face it: technology today can feel like a never-ending treadmill of complexity. As soon as we master one framework or cloud service, along comes another must-have tool or trend, promising to save us time and effort—only to add more layers of confusion and cost. We’ve been told that everything worthwhile lives in the cloud, that we need to embrace proprietary platforms, or that the fundamental principles we once held dear no longer matter. But what if that’s not true? What if the timeless patterns and simple building blocks of old—like the humble Unix pipe—still hold the keys to creating reliable, sustainable systems right on our own machines? This article will challenge the status quo, encouraging you to think differently about what you build, how you build it, and who really benefits when you choose one solution over another. It’s a call to remember your roots, to celebrate simplicity, and to reclaim the power that comes from building on solid, open foundations rather than the latest glossy facade.
 
+---
+
+> For those not familiar with my style, from here we take on a personal daily
+> work journal voice. I try to dive into the work itself, but get distracted by
+> the broader issues that motivate me and feed my soul.
+
 ## The Journey to MVP
 
 Alright, with the pipeline workflow finished as what all the rage these days is
