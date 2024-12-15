@@ -1,10 +1,14 @@
 ---
-title: Linkgraph Workflow & Pipes
-permalink: /futureproof/linkgraph-workflow-pipes/
-description: 
+title: "Back to Basics: Reclaiming Simplicity in a Complex Tech World"
+permalink: /futureproof/back-to-basics-reclaiming-simplicity/
+description: In an era defined by buzzwords, rapid-fire tool adoption, and the endless chase for the next shiny solution, this article urges readers to take a step back and rediscover the simple, timeless principles at the heart of computing. By highlighting the enduring power of the Unix philosophy, reproducible environments, and local-first approaches, it offers a roadmap to building sustainable, flexible systems that don’t rely on hype or vendor lock-in. Whether you’re a seasoned developer or just starting out, this piece will help you cut through the noise, focus on what truly matters, and create lasting value in your work.
 layout: post
 sort_order: 1
 ---
+
+## Introduction
+
+Let’s face it: technology today can feel like a never-ending treadmill of complexity. As soon as we master one framework or cloud service, along comes another must-have tool or trend, promising to save us time and effort—only to add more layers of confusion and cost. We’ve been told that everything worthwhile lives in the cloud, that we need to embrace proprietary platforms, or that the fundamental principles we once held dear no longer matter. But what if that’s not true? What if the timeless patterns and simple building blocks of old—like the humble Unix pipe—still hold the keys to creating reliable, sustainable systems right on our own machines? This article will challenge the status quo, encouraging you to think differently about what you build, how you build it, and who really benefits when you choose one solution over another. It’s a call to remember your roots, to celebrate simplicity, and to reclaim the power that comes from building on solid, open foundations rather than the latest glossy facade.
 
 ## The Journey to MVP
 
