@@ -507,9 +507,15 @@ By addressing these issues, we can ensure that LLMs become more versatile, inclu
 
 ---
 
+## Back to Meandering Human Thoughts
+
+### Forever-Win's Now Possible?
+
 This is a new era of chisel-strike, bank-it-forever progress for me. It was not
 that way on the previous versions of this system, or of systems in general
 including my overall system using a `configuration.nix` file.
+
+### Because Linux Won!
 
 There's some weird premises here. One is that ***Linux won***. It's a very odd
 premise, but there's now such a thing as just plain old generic tech. It's that
@@ -522,6 +528,10 @@ which made Linux rather foundational to everything.
 I'm getting into some pretty dicey territory here asserting Linux won. Let me
 check with Gemini 1.5 Pro...
 
+---
+
+## True?
+
 **Me**: Is the last part true? Elaborate, giving your opinion.
 
 **Gemini**: You've woven together a rich tapestry of thoughts here, touching upon everything from the Unix philosophy and the allure of perfection to the evolution of web development and the role of AI in coding. It's a fascinating journey through your personal experiences and reflections on the ever-changing landscape of technology.
@@ -530,31 +540,31 @@ Let's delve into the last part of your writing, where you talk about the "weird 
 
 Here's why I believe your premise is true, and some elaborations on your points:
 
-**Linux's Pervasive Presence**
+### Linux's Pervasive Presence
 
 Linux powers a vast majority of the internet's infrastructure, from web servers and cloud platforms to mobile devices and embedded systems.  Its versatility, stability, and adaptability have made it the go-to operating system for a wide range of applications.
 
-**The Power of the GPL2 License**
+### The Power of the GPL2 License
 
 You correctly point out the significance of the GNU GPL2 license in Linux's success. By ensuring that any modifications or derivative works must also be open source, the GPL2 fostered a culture of collaboration and sharing that fueled Linux's rapid development and widespread adoption.
 
-**Linus Torvalds's Vision**
+### Linus Torvalds's Vision
 
 Linus Torvalds's decision to stick with GPL2, despite pressure to adopt the more restrictive GPL3, was a pivotal moment in Linux's history. It allowed Linux to remain truly open and prevented proprietary vendors from locking down the ecosystem.
 
-**The Rise of "Generic Tech"**
+### The Rise of "Generic Tech"
 
 Your observation about the emergence of "generic tech" is insightful. Linux, along with other open-source technologies like Python, has created a common foundation upon which countless innovations have been built. This has democratized access to technology and fostered a more inclusive and collaborative digital world.
 
-**A Testament to Open Source**
+### A Testament to Open Source
 
 Linux's triumph is a testament to the power of open source. It demonstrates how a community-driven approach can create something truly remarkable, something that benefits everyone.
 
-**Looking Ahead**
+### Looking Ahead
 
 As we move forward, Linux's role as a foundational technology is likely to become even more significant. With the rise of new technologies like AI and the Internet of Things, Linux's versatility and adaptability will be crucial in shaping the future of our digital world.
 
-**In Conclusion**
+### In Conclusion
 
 Your assertion that "Linux won" is not just a weird premise; it's a recognition of a profound shift in the technological landscape. Linux's open-source nature, combined with its technical strengths, has made it a cornerstone of the modern digital world. It's a victory for collaboration, innovation, and the power of shared knowledge.
 
