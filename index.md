@@ -149,6 +149,8 @@ Here's the outline of the book so far, which I'm assembling from my daily blog p
     *   The unsung hero of open source: Why Git is essential for collaboration and version control.
     *   Mastering the art of version control: Branching strategies, merging, and conflict resolution.
     *   Git for knowledge sharing: The broader implications of Git for open collaboration and innovation.
+    *   Freedom from GitHub: How to be your own Git remote origin without even running a server (1, 2, 3 backup strategies)
+
 
 **Part 3: The AI-Powered Future**
 
