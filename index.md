@@ -243,7 +243,7 @@ Just as Unix pipes transform raw data into meaningful output, these articles hav
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Enter Wonderland</span>
+    <span class="nav-label">Begin the Journey</span>
     <a href="{{ first_post.url | relative_url }}">
       <span>{{ first_post.title }}</span>
     </a>

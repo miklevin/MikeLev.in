@@ -6,22 +6,11 @@ permalink: /rabbit/
 group: home
 ---
 
-{% include bunny.html %}
+# Down the Rabbit Hole We Go!
 
 {% include wisdom.html %}
 
-<div style="display: flex; justify-content: center; margin-bottom: 3vw;">
-  <div style="white-space: pre-line">
-Welcome to Lundervand, where tech meets Zen delight,
-Ikigai hacks laziness, coding love into the night.
-Kaizen tweaks each gadget, polishing every line,
-Pomodoro strikes the keys, banking wins in time.
-Hara Hachi Bu keeps us savvy, servers won't burn out,
-Wabi-Sabi giggles at bugs, embracing every rout.
-Shoshin greets each fresh update with a curious grin,
-In this twisted Wonderland of tech, our journeys'll spin!
-  </div>
-</div>
+{% include bunny.html %}
 
 {% include alice.html %}
 
