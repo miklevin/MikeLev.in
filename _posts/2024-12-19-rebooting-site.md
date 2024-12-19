@@ -194,7 +194,7 @@ not a strength. All the best lessons of Mike Shuttleworth from Canonical Ubuntu
 with the Unity interface experiment have been wrapping back into GNOME making it
 very professional and muscle-memory habit friendly.
 
-### Conclusion: Strategic Transitions
+### Strategic Transitions
 
 So, it's an era of carefully chosen transitions for me. A few sure bets and a
 few gambles. Of those gambles, FastHTML is probably the biggest. I think HTMX,
@@ -206,4 +206,27 @@ the very earliest gestational days of that when people are just realizing what's
 being born. I am all over that bandwagon and already have a generalized web
 framework system based on it with integrated local LLM (much more on that soon).
 
+Here's another image out of my Search Console, showing how I contracted the site
+down to just a homepage and grew it back out with the blog. There is some notion
+of the era of the long-tail (that I helped advocate when my HitTail Web 2.0 site
+was a thing) is dead. The idea is that companies with an identified brand are
+white-listed and nobody else has a chance. Well, this is a classic writing
+strategy, but a genuine one where I'm not pandering to search nor trying to make
+any money off of it. I am just being my genuine self trying to capture something
+very rare these days, non-AI-generated process. While it's true that I do speak
+with AIs in the course of writing these articles, I'm actually framing it as the
+conversations they are.
+
 ![Scalpel Like Precision](/images/scalpel-like-precision.png)
+
+You can see the scalpel-like precision I'm using here, something that's often a
+part of my SEO experiments. It's hard to carry things out as actual scientific
+tests with controls and statistically significant samples. However, there are
+diagnostic procedures that are along the same lines that give you practically
+the same knowledge (and by extension, abilities) to work with. Here, it is that
+if I have 85 articles published, there should be 86 pages indexed by Google
+(blog pages plus homepage). The numbers are a wee bit different now as I'm
+allowing some "leaf" pages that are not purely blog pages to exist. But
+nonetheless, this is the setup for some rather glorious demonstrations and
+assuring myself that I still got it. My numbers may not be big, but my
+cause/effect control is undeniable.
