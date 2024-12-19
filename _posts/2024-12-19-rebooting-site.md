@@ -206,6 +206,8 @@ the very earliest gestational days of that when people are just realizing what's
 being born. I am all over that bandwagon and already have a generalized web
 framework system based on it with integrated local LLM (much more on that soon).
 
+### Cycling In New Pages
+
 Here's another image out of my Search Console, showing how I contracted the site
 down to just a homepage and grew it back out with the blog. There is some notion
 of the era of the long-tail (that I helped advocate when my HitTail Web 2.0 site
@@ -219,6 +221,8 @@ conversations they are.
 
 ![Scalpel Like Precision](/images/scalpel-like-precision.png)
 
+## Scalpel Like Precision
+
 You can see the scalpel-like precision I'm using here, something that's often a
 part of my SEO experiments. It's hard to carry things out as actual scientific
 tests with controls and statistically significant samples. However, there are
@@ -230,3 +234,18 @@ allowing some "leaf" pages that are not purely blog pages to exist. But
 nonetheless, this is the setup for some rather glorious demonstrations and
 assuring myself that I still got it. My numbers may not be big, but my
 cause/effect control is undeniable.
+
+Establishing this cause/effect relationship in the data is the most important
+thing. Without that, it's spinning your wheels. With Google Search Console,
+you're not limited to just seeing what has already been picked up in the index.
+You can get a sense for how often Google revisits your site and how many pages
+it tries to pick up each time. It's a bit oddly hidden under Settings / Crawl
+Stats / Open Report, but it's there. And you can see the picture of the
+increased crawl budget as the pages count increases, with these occasional
+spurts to set if it can pick up more, in my case doubling or tripping its number
+of requested pages, which is conspicuously close to the old number of pages on
+my site that I retired, indicating a checking of all those now 404'ing pages.
+
+![Crawl Budget](/images/crawl-budget.png)
+
+
