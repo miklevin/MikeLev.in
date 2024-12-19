@@ -235,6 +235,8 @@ nonetheless, this is the setup for some rather glorious demonstrations and
 assuring myself that I still got it. My numbers may not be big, but my
 cause/effect control is undeniable.
 
+### Monitoring Crawl Budget
+
 Establishing this cause/effect relationship in the data is the most important
 thing. Without that, it's spinning your wheels. With Google Search Console,
 you're not limited to just seeing what has already been picked up in the index.
@@ -248,4 +250,7 @@ my site that I retired, indicating a checking of all those now 404'ing pages.
 
 ![Crawl Budget](/images/crawl-budget.png)
 
-
+This indicates a split between two different crawling methodologies, one that
+actually follows links on your site, and another that uses Google's historic
+view of your site, checking pages that today would be considered orphaned for
+lack of a crawl-path in.
