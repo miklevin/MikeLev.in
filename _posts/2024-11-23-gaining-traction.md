@@ -230,3 +230,51 @@ the wealth. But it also a time of incredible opportunity for both the artistic
 and the industrious. There's a lot of new room in the noosphere for the
 uncompressibles, and it just might be that that very uncompressiblity is the new
 source of economic value; the big add in the value chain.
+
+Well, that's a natural stopping point. Time to kick Gemini 2.0 Experimental's
+tires. So, whaddaya thing, Gemini 2.0?
+
+**Gemini 2.0 Experimental**: This is a well-written and thought-provoking piece that touches on multiple intertwined themes, including the nature of creativity, the impact of technology on labor, the dynamics of competition and originality, and the distribution of wealth and power in society. Here are some of the key points and statistical insights that can be extracted from the text:
+
+## John Henry vs. The Machine
+
+The story of John Henry competing against the steam-powered drill is used as a metaphor for the struggle between human labor and technological advancement. While the specific numbers provided in the story (drilling 14 feet vs. the machine's 9 feet) are part of the legend, they symbolize the broader historical trend where machines began to replace manual labor in many industries during the Industrial Revolution.
+
+*   **Historical Trend:** According to data from the U.S. Bureau of Labor Statistics, the share of employment in agriculture in the U.S. declined from about 50% in 1870 to less than 2% by 2000, illustrating the massive shift from manual labor to mechanized processes.
+
+## The Noosphere and Uncompressibility
+
+The concept of the noosphere is introduced to discuss areas of thought and creativity that have not yet been explored or "compressed" into existing knowledge frameworks. This ties into the idea of "uncompressibles"—original ideas that are not merely derivatives of previous works.
+
+*   **Innovation Metrics:** While quantifying "uncompressibility" is challenging, one could look at patent filings as a proxy for innovation. The World Intellectual Property Organization (WIPO) reported that in 2021, there were approximately 3.4 million patent applications worldwide, reflecting ongoing efforts to create new and original technologies.
+
+## Clever Thieves and the Dropout
+
+The text discusses two alternative paths to success: being a "clever thief" who improves upon existing ideas or a "dropout" who operates outside the conventional system. The example of Microsoft improving upon Apple's GUI (graphical user interface) is used to illustrate the former.
+
+*   **Market Dominance:** Microsoft's market share in the PC operating system market has historically been dominant, often exceeding 90% in the 1990s and 2000s. This demonstrates how a "clever thief" can achieve significant success by improving and marketing an existing idea effectively.
+
+## Distribution of Wealth and Power
+
+The Pareto principle (80/20 rule) and power law distributions are mentioned to explain how wealth, power, and influence tend to concentrate in the hands of a few.
+
+*   **Wealth Inequality:** According to the World Inequality Database, as of 2021, the top 10% of the global population held about 76% of the total global wealth, while the bottom 50% held only about 2%. In the U.S., the top 1% held approximately 35% of the nation's wealth.
+*   **Power Law in Networks:** Research on social and technological networks often reveals power law distributions. For example, a study by Barabási and Albert (1999) showed that the distribution of links on the World Wide Web follows a power law, meaning a few nodes (websites) have a vastly disproportionate number of connections compared to others.
+
+## Attention Economy
+
+The concept of an attention economy is discussed, where attention is a scarce resource, and the loudest, most well-connected voices often overshadow original creative works.
+
+*   **Social Media Engagement:** On platforms like Twitter or Facebook, a small percentage of users generate the majority of content and receive the most engagement. For instance, studies have shown that the top 10% of Twitter users produce 80% of tweets.
+
+## Conclusion
+
+The text argues that while the system often rewards those who build empires and accumulate power, there is also intrinsic value in being original and creating for the love of it. The author positions themselves as someone who appreciates craftsmanship and is navigating the challenges of incorporating new technologies into their work while staying true to their artistic values.
+
+## Additional Considerations
+
+*   **Technological Unemployment:** The fear that machines will replace human labor is a recurring theme in history. A 2013 study by Oxford University estimated that 47% of total US employment is at risk of automation in the next few decades.
+*   **Generational Wealth:** The ability to pass down wealth and advantages to future generations contributes to the concentration of resources. Research by the Federal Reserve indicates that inherited wealth accounts for a significant portion of wealth accumulation in the United States, with estimates suggesting it could be as high as 50% or more.
+
+This analysis provides a framework for understanding the various themes discussed in the text, supported by relevant statistics and research findings. The interplay between these factors shapes the landscape of creativity, competition, and societal structure in the modern world.
+
