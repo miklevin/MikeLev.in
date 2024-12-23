@@ -206,4 +206,27 @@ empire-building, producing works that might never dominate the graph but
 illuminate the edges where true innovation happens.
 
 And all this is basically by way of warm-up for today's work as I enter a new
-week. 
+week. For it's about gaining traction after quite some bit of build. I am
+nothing like those folks who wrote the Transformer paper, realized alternating
+current or any of that fundamental tool stuff. I'm just the user of tools and a
+lover of craft, a little bit envious of those empire-builders, and not even
+really the best at my own craft, to boot. I am not John Henry in my field. I'm
+someone on the line with him a bit envious of him and his skills right along
+with those who own the railroads. But I'm working at it. I'm keeping an open
+mind to the new power tools on the scene and trying to incorporate them into the
+for-the-love-of-it craft mindset, which in itself is so hard to nurture and
+maintain in tech amidst the churn.
+
+But I'm doing it. In my mid-fifties, I'm doing it. I'm continuing my work on the
+railroad like a modern John Henry coworker, taking note of what's working around
+me, taking note of the bigger picture that must be in the minds of the railroad
+owners and investors, taking note of the demand for the railways and the
+viewpoints of the future customers of such a system, and the conductors and
+engineers who will continue to work on the system long after its done being
+built. We talk about AI being a new industrial revolution, and indeed it is the
+mass production and new value chains. It is indeed the same challenging the
+worth and value of the humans in the equation, and the uneven redistribution of
+the wealth. But it also a time of incredible opportunity for both the artistic
+and the industrious. There's a lot of new room in the noosphere for the
+uncompressibles, and it just might be that that very uncompressiblity is the new
+source of economic value; the big add in the value chain.
