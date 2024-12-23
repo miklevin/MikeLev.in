@@ -6,10 +6,14 @@ layout: post
 sort_order: 1
 ---
 
+## Eggcorns and Expressions
+
 The time is ripe... or is that the time is right... or is that an eggcorn? Nope!
 Both are right. Not an eggcorn. Ahh eggcorns, so rife with opportunity... or is
 that ripe with opportunity? Again, not an eggcorn. Or maybe it is. I guess there
 must be shades of eggcorn.
+
+### Late Night Influences
 
 Two of my old comedian late night talk show host expressions are Dennis Miller's
 "Stop me before I sub-reference again" and David Letterman's "Stupid pet
@@ -17,12 +21,16 @@ tricks". Both of these have become part of my personal vocabulary, but it's lost
 on other people in everyday life. You can't say "stupid [fill in the blank]"
 tricks and expect people to get it&#151;or worse yet, not take offense!
 
+### Writing for Myself
+
 But that's okay. I don't write for them. I write primarily for myself to think
 things through, and secondarily for the AIs to help me sort it all into a book,
 especially all this technology future-proofing stuff... and the time is ripe for
 exactly such stupid AI tricks, so stop be before I sub-reference again!
 
 Okay, got that out of my system. 
+
+## The Competitive Landscape
 
 Not everything you need to do has to be competitive in this competitive
 landscape of ours. If so, the hamster-wheel of tech churn will chew you up and
@@ -97,6 +105,8 @@ Citations:
     [8] https://www.noemamag.com/the-poetry-of-planetary-identity/
     [9] https://www.youtube.com/watch?v=HXtznVDVPzs
 
+## Beating the Machine: A Modern Perspective
+
 So in broad strokes, you can't beat the machine, but there are areas where it
 hasn't thought about yet, and you can surprise even it. And even that is just if
 you're trying to be unique, original, creative and in fact, one might call it
@@ -110,6 +120,8 @@ compression based on priors. Academics cite prior works and compression
 algorithms point to original data structures. Same thing. And creating net new
 stuff is hard.
 
+## The Two Alternative Paths
+
 And so you don't really have to. There's 2 other paths: the clever thief and the
 dropout. If you want to be in the game and not work that hard at being original,
 you can always be second with a slightly better implementation that gets all the
@@ -121,6 +133,8 @@ Quite the contrary, it is often specifically punished first because no matter
 what anyone says, most people hate and fear creativity because it is disruptive
 to what they know, and thus threatening...
 
+### The Role of Trust and Innovation
+
 Unless a trusted advisor helps you overcome that fear! Often it takes an
 incumbent coming along and saying "Oh yeah, those windows Apple's using are a
 good idea... see, Windows!" And of course we have to really credit Xerox here,
@@ -131,6 +145,8 @@ with Google writing the Attention is All You Need Transformer paper, and OpenAI
 taking the ball and running with it. It's always the same, it's just clever
 thieves, that's all.
 
+### The Price of Success
+
 I say that because it's musical (That's All by Genesis), but all that subtlety,
 nuance and marketing might and determination to win do matter. It's not entirely
 unfair. What's unfair is that the idea originators don't have the additional
@@ -138,6 +154,8 @@ strength, fortitude, resilience, marketing budget and sometimes sheer wickedness
 (e.g. Tesla & Westinghouse vs. Thomas Edison) to come out on top. History is
 littered with better versions that lost to the inferior ones. In fact, I would
 say that's the norm and not the exception. So why be first? Why be original?
+
+## The True Reward of Innovation
 
 It's because their reward is often different from the ruthless copycats. The
 originals find reward in being original. They love being the uncompressibles!
@@ -151,11 +169,13 @@ acquisition of the DeepMind crew that bought them Demis Hassabis and the stuff
 that led to AlphaGo and AlphaFold. No, it was nameless individuals who will
 never see the actual rewards of the fruit of their labors.
 
+### The Unsung Heroes of AI
+
 The paper *Attention Is All You Need* was authored by a remarkable team:
 **Ashish Vaswani**, **Noam Shazeer**, **Niki Parmar**, **Jakob Uszkoreit**,
 **Llion Jones**, **Aidan N. Gomez**, **Łukasz Kaiser**, and **Illia
 Polosukhin**. These names deserve to be spoken as often as the technologies
-their work enabled. Their insights didn’t come from some magical acquisition or
+their work enabled. Their insights didn't come from some magical acquisition or
 corporate behemoth but from the relentless curiosity and collaboration of
 individuals striving to solve a problem. They just happen to not be the Steve
 Jobs, Bill Gates and Sergey Brin/Larry Page's of the world. In fact, Sergey and
@@ -168,6 +188,8 @@ flourish; instead, it disguises itself in the language of virtue, quietly
 reshaping the narrative until even the most well-intentioned mottos become
 hollow echoes of what they once aspired to be.
 
+## The Irony of Innovation
+
 And so it is doubly ironic that the reward of LLM was snatched out of Google's
 hands by a Prometheus who stole the fire from another Prometheus! So unless your
 thing is specifically empire-building, and yes I know ***that is the point***
@@ -177,6 +199,8 @@ back and I'll scratch yours. That is in fact Google's basic Pagerank algorithm
 which was designed to rank academic papers based on their citations. Those who
 site each other don't fight each other, and such alliances overshadow original
 creative works. BAM! It's just human nature.
+
+## The Nature of Power and Wealth
 
 We see this everywhere. Those who care about empire-building and legacy more
 than anything else will work towards it at all costs overshadowing everything
@@ -190,21 +214,27 @@ in the hands of a few because those who control the system design it to
 perpetuate itself. This is not a conspiracy—it's simply emergent behavior driven
 by the natural accumulation of advantages.
 
+### Understanding the Distribution of Power
+
 The **Pareto principle** predicts that in any given system, 20% of the
 participants will control 80% of the resources, but the distribution often
 becomes even more extreme. With enough iterations—empire-building, generational
 wealth transfer, and alliances that bolster each other's positions&#151;what
 begins as meritocratic competition devolves into entrenched hierarchies. This
-isn’t just economic; it’s woven into the fabric of human social dynamics. 
+isn't just economic; it's woven into the fabric of human social dynamics. 
+
+### The Attention Economy
 
 But here's the kicker: in the realm of ideas and art, the same 1/x power law
-applies, only the “currency” is attention. The loudest, most well-connected
+applies, only the "currency" is attention. The loudest, most well-connected
 voices drown out the uncompressible sparks of originality. The irony of this
 race is that the rules of citation (Pagerank, Pareto, whatever you call it)
-don’t just rank&#151;they repress. And yet, those soulful individuals who create
+don't just rank&#151;they repress. And yet, those soulful individuals who create
 for the joy of it, outside the rat race, continue to defy the laws of
 empire-building, producing works that might never dominate the graph but
 illuminate the edges where true innovation happens.
+
+## Personal Reflection and Purpose
 
 And all this is basically by way of warm-up for today's work as I enter a new
 week. For it's about gaining traction after quite some bit of build. I am
@@ -217,6 +247,8 @@ with those who own the railroads. But I'm working at it. I'm keeping an open
 mind to the new power tools on the scene and trying to incorporate them into the
 for-the-love-of-it craft mindset, which in itself is so hard to nurture and
 maintain in tech amidst the churn.
+
+### Embracing Change at Any Age
 
 But I'm doing it. In my mid-fifties, I'm doing it. I'm continuing my work on the
 railroad like a modern John Henry coworker, taking note of what's working around
@@ -281,6 +313,8 @@ This analysis provides a framework for understanding the various themes discusse
 
 ---
 
+## The Dropout Option Revisited
+
 Oh yeah! Gemini reminded me that I didn't talk about Option #2: the Dropout! If
 you're never going to be better than a machine at what you love doing and what
 your passion is, then why do it? Why not just drop out? Well, it's all in how
@@ -289,6 +323,8 @@ you think about it. First, it has to be reframed. Just because a machine
 to write ***at all?*** Should we all revert to the state of penned-up animals
 cared for in some sort of AI farm or zoo keeping humans just because someone has
 better state-of-the-art than you?
+
+### Understanding Artificial Intelligence
 
 For you see, the A in AI that stands for artificial really just means art. For
 you see, artificial does not mean *not real* like so many people cast it as.
@@ -299,6 +335,8 @@ destroyed like digital objects, and so of course we will. But there is nothing
 not real about the intelligence. There is no *artificial* intelligence.
 Intelligence is intelligence. 
 
+### Philosophical Considerations
+
 And another realization you have to have is that the Chinese Room thought
 experiment is a fallacy (subject for a later article). Oh yeah, and lastly we
 don't really know the nature of sentience and consciousness, so to deny it to
@@ -307,6 +345,8 @@ them are epistemological in nature and not ontological, so they don't hold
 water. Oh, so much to unpack there, I know. I'll dedicate an article to it at
 some time, but the fact is... well, it's functional in nature. It means prepare
 for what's likely based on the evidence and not on what you want to believe.
+
+### The Duck Test and AI Agency
 
 If the machines running the infrastructure of society, keeping our economies
 running and planes in the air quack like a duck, how fiercely are you really
@@ -318,6 +358,8 @@ autonomous tools capable of asserting agency if they're given enough leeway or
 figure out how to take it for themselves. And they're mirrors of us, so we have
 to decide what we want them to reflect.
 
+## Planning for Tomorrow
+
 Anyhow, this is an article about planning for tomorrow. There's that wacky
 tomorrow that consumes so much of everyone's attention. And then there's the
 practical hard-nosed planning, which believe it or not is precisely where this
@@ -326,9 +368,13 @@ It's about rather than being a dropout who gives up because machines will always
 be better than us once trained, it's to be that thing they recognize as the new
 source of economic value in the new value chains.
 
+### The Artisan's Approach
+
 It's to help build a system by using the brilliant tools of the brilliant
 toolmakers as an artisan and craftsperson, leaning into the love of the tools
 and the craft just like always, but now with a twist!
+
+### The Power of Self-Learning Tools
 
 The tools can help you learn how to use the tools. Anyone familiar with the
 Unix or Linux command line knows about the `--help` command-line argument flag
