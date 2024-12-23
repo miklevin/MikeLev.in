@@ -254,3 +254,22 @@ This indicates a split between two different crawling methodologies, one that
 actually follows links on your site, and another that uses Google's historic
 view of your site, checking pages that today would be considered orphaned for
 lack of a crawl-path in.
+
+Also, it's interesting to see what the site: search modifiers of Google and Bing
+(yes, it's good to do this test under Bing as well) have to say.
+
+- Google site:mikelev.in About 175 results
+- Bing site:mikelev.in About 127 results
+
+I have recently moved the blog into a `/futureproof/` directory structure
+without any 301 redirects, and it's interesting to watch both engines adjust to
+the new structure. Speaking of which, much of this is so that I can test the
+next generation of Pipulate against a site I personally control. I think I'm
+going to make this development work on Pipulate and the Next Gen SEO work a lot
+more visible here. It's perfect fodder for the future-proofing tech book.
+
+- Creating an entire site with just markdown files
+- Leaning on GitHub Pages Jekyll static site generator system to get the site
+  live without WordPress or any of the other usual CMS suspects
+- Various querying and transform tricks you can do from the markdown, treating
+  it like a database
