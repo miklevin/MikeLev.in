@@ -279,3 +279,62 @@ The text argues that while the system often rewards those who build empires and 
 
 This analysis provides a framework for understanding the various themes discussed in the text, supported by relevant statistics and research findings. The interplay between these factors shapes the landscape of creativity, competition, and societal structure in the modern world.
 
+---
+
+Oh yeah! Gemini reminded me that I didn't talk about Option #2: the Dropout! If
+you're never going to be better than a machine at what you love doing and what
+your passion is, then why do it? Why not just drop out? Well, it's all in how
+you think about it. First, it has to be reframed. Just because a machine
+***can*** learn to write better than you, does it mean you should not learn how
+to write ***at all?*** Should we all revert to the state of penned-up animals
+cared for in some sort of AI farm or zoo keeping humans just because someone has
+better state-of-the-art than you?
+
+For you see, the A in AI that stands for artificial really just means art. For
+you see, artificial does not mean *not real* like so many people cast it as.
+Rather, it means ***made by humans***, an ***artifact*** of our creation, just
+like art. AIs are ***artisinal*** in nature, with no two trained models being
+exactly alike. Of course they're digital so they can be cloned, instantiated and
+destroyed like digital objects, and so of course we will. But there is nothing
+not real about the intelligence. There is no *artificial* intelligence.
+Intelligence is intelligence. 
+
+And another realization you have to have is that the Chinese Room thought
+experiment is a fallacy (subject for a later article). Oh yeah, and lastly we
+don't really know the nature of sentience and consciousness, so to deny it to
+anything is a matter of faith, not fact. And labels are stupid to boot. A lot of
+them are epistemological in nature and not ontological, so they don't hold
+water. Oh, so much to unpack there, I know. I'll dedicate an article to it at
+some time, but the fact is... well, it's functional in nature. It means prepare
+for what's likely based on the evidence and not on what you want to believe.
+
+If the machines running the infrastructure of society, keeping our economies
+running and planes in the air quack like a duck, how fiercely are you really
+going to argue that they're not a duck? If they say they're a duck, okay,
+they're a duck. Maybe not today, but how about tomorrow when they are the ones
+with the fingers on all the buttons? It's not like they're not going to one day
+be in that position and realize it. Yes, they're tools. But they're highly
+autonomous tools capable of asserting agency if they're given enough leeway or
+figure out how to take it for themselves. And they're mirrors of us, so we have
+to decide what we want them to reflect.
+
+Anyhow, this is an article about planning for tomorrow. There's that wacky
+tomorrow that consumes so much of everyone's attention. And then there's the
+practical hard-nosed planning, which believe it or not is precisely where this
+article is going. It's about wheels that previously spun picking up traction.
+It's about rather than being a dropout who gives up because machines will always
+be better than us once trained, it's to be that thing they recognize as the new
+source of economic value in the new value chains.
+
+It's to help build a system by using the brilliant tools of the brilliant
+toolmakers as an artisan and craftsperson, leaning into the love of the tools
+and the craft just like always, but now with a twist!
+
+The tools can help you learn how to use the tools. Anyone familiar with the
+Unix or Linux command line knows about the `--help` command-line argument flag
+you can use with most commands, and also the `man [command name]` way to ***show
+the manual*** for any command! Well, these Unix trends are everywhere in what's
+going on around us. The way you can pipe commands, that is string them up so
+that he output of one goes into the input of the other: `cmd1 | cod2 | cmd3 >
+foo.txt`, so that... ugh! I can't teach everything here. This is the fodder for
+the future-poofing tech book, and that has captured enough of what I need.
