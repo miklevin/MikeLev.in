@@ -384,3 +384,29 @@ going on around us. The way you can pipe commands, that is string them up so
 that he output of one goes into the input of the other: `cmd1 | cod2 | cmd3 >
 foo.txt`, so that... ugh! I can't teach everything here. This is the fodder for
 the future-poofing tech book, and that has captured enough of what I need.
+
+My previous post actually shows me gaining traction from a full stop. I
+basically reset my site, not quite throwing out old SEO principles of guarding
+your old good-performing legacy URLs like a hawk in favor of a frictionless
+reboot where I can pull out all stops. And by pulling out all stops, I mean just
+forgetting about most of the technical infrastructure, tech stack, tech
+liabilities and the like and just think in pure markdown text-files and the
+transformations thereof. And not even building that stuff from scratch, but
+leaning into whatever power-tools and shortcuts are out there, which happens to
+be GitHub Pages right now for fast, virtually free static site hosting. 
+
+With this attitude that particular publishing tech doesn't matter, you give up a
+ton in terms of server-side code (which is actually my thing when server-side
+means localhost, haha!), but it's all about a type of resilience and
+unstoppability. One tool not right? No problem, pivot just a bit and use
+another. That tool not right? Pivot and retry. Something will fit. Just don't
+invest your habits, muscle memory and career there. Those things are like the
+end of a Unix pipe command. Source data at the left, and progressively less
+important and more interchangable transforms to the right. Things to the left
+matter most, the markdown files in this case. It's the original data. And yes
+while it does get littered with Jekyll-specific (the static site generator tool
+GitHub Pages uses), even that can be programatically transformed and cleansed if
+something other than Jekyll needs to be used. You try to separate the data layer
+from the presentation layer as much as you can, but they have to couple
+somewhere, and with Jekyll, it's through YAML topmatter and with Shopify-style
+Liquid template tags. Not my preference, but a solid 80/20-rule compromise.
