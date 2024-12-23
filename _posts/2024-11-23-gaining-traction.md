@@ -100,14 +100,15 @@ Citations:
 So in broad strokes, you can't beat the machine, but there are areas where it
 hasn't thought about yet, and you can surprise even it. And even that is just if
 you're trying to be unique, original, creative and in fact, one might call it
-Uncompressible. For if the things you're talking about, doing or otherwise your
-creative product is similar enough to things that have come before, your work is
-not the original reference. You can be compressed with a link back to the
-original instance and only those tiny little differences between your and the
-original work (the deltas) need be included. This is both how academia and
-differential hard drive backups work; compression based on priors. Academics
-cite prior works and compression algorithms point to original data structures.
-Same thing. And creating net new stuff is hard.
+***Uncompressible*** (in the voice of Nat King Cole). For if the things you're
+talking about, doing or otherwise your creative product is similar enough to
+things that have come before, your work is not the original reference. You can
+be compressed with a link back to the original instance and only those tiny
+little differences between your and the original work (the deltas) need be
+included. This is both how academia and differential hard drive backups work;
+compression based on priors. Academics cite prior works and compression
+algorithms point to original data structures. Same thing. And creating net new
+stuff is hard.
 
 And so you don't really have to. There's 2 other paths: the clever thief and the
 dropout. If you want to be in the game and not work that hard at being original,
