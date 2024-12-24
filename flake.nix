@@ -41,6 +41,7 @@
             export PKG_CONFIG_PATH="${pkgs.openssl.dev}/lib/pkgconfig"
             
             # Set LD_LIBRARY_PATH to include gcc libs
+            # This is crucial for Ruby native extensions (like EventMachine) that need libstdc++
             export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
             
             # macOS-specific symlink setup for Neovim
@@ -79,13 +80,7 @@
               # Change to the site root
               cd "$site_root"
               echo "Serving from $(pwd)..."
-              
-              # Try to run with livereload, fall back to regular serve if it fails
-              if ! bundle exec jekyll serve --livereload; then
-                echo "Livereload failed, falling back to regular serve..."
-                sleep 2  # Give time for any ports to clear
-                bundle exec jekyll serve
-              fi
+              bundle exec jekyll serve --livereload
               
               # Return to the original directory
               cd "$current_dir"
@@ -101,6 +96,14 @@
             echo "   - Generates Rouge syntax highlighting styles in your CSS."
             echo ""
             echo "If you encounter issues, check the Gemfile and run 'bundle install'."
+
+            # Notes on Ruby Native Extensions in Nix:
+            # 1. Native extensions (like EventMachine) require C/C++ libraries at runtime
+            # 2. These libraries must be both:
+            #    - Listed in buildInputs (for compilation)
+            #    - Added to LD_LIBRARY_PATH (for runtime)
+            # 3. Common issues include missing libstdc++.so.6, which is provided by gcc-libs
+            # 4. The error "pure Ruby reactor" often indicates a missing library path
           '';
         };
       });
