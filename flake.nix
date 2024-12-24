@@ -61,7 +61,7 @@
             # Alias vim to nvim
             alias vim=nvim
 
-            # Jekyll serve function with safer livereload approach
+            # Jekyll serve function with verbose output and livereload
             jes() {
               # Store the current directory
               current_dir=$(pwd)
@@ -80,7 +80,7 @@
               # Change to the site root
               cd "$site_root"
               echo "Serving from $(pwd)..."
-              bundle exec jekyll serve --livereload
+              bundle exec jekyll serve --verbose --livereload
               
               # Return to the original directory
               cd "$current_dir"
