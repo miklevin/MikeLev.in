@@ -1,7 +1,7 @@
 ---
 title: Gaining Traction
 permalink: /futureproof/gaining-traction/
-description: 
+description: "This article explores the changing landscape of innovation and creativity in the age of AI.  I reflect on the challenges of staying relevant when machines are outpacing humans, even in creative fields. Using personal experiences and historical examples like the John Henry story, I examine different approaches to thrive in this environment: embracing originality, iterating on existing ideas like Microsoft, or becoming an 'artisan' who uses AI tools to enhance their craft. I also delve into AI's broader impact on labor, wealth distribution, and even consciousness. Ultimately, the article emphasizes adaptability, continuous learning, and finding intrinsic motivation amidst rapid technological change. It's about finding your place in the evolving relationship between humans and AI, and recognizing the value of human creativity even as the lines between 'artificial' and 'real' intelligence blur."
 layout: post
 sort_order: 1
 ---
@@ -385,6 +385,8 @@ that he output of one goes into the input of the other: `cmd1 | cod2 | cmd3 >
 foo.txt`, so that... ugh! I can't teach everything here. This is the fodder for
 the future-poofing tech book, and that has captured enough of what I need.
 
+## Gaining Traction from a Full Stop
+
 My previous post actually shows me gaining traction from a full stop. I
 basically reset my site, not quite throwing out old SEO principles of guarding
 your old good-performing legacy URLs like a hawk in favor of a frictionless
@@ -395,18 +397,39 @@ transformations thereof. And not even building that stuff from scratch, but
 leaning into whatever power-tools and shortcuts are out there, which happens to
 be GitHub Pages right now for fast, virtually free static site hosting. 
 
+## The Power of Flexibility
+
 With this attitude that particular publishing tech doesn't matter, you give up a
 ton in terms of server-side code (which is actually my thing when server-side
 means localhost, haha!), but it's all about a type of resilience and
 unstoppability. One tool not right? No problem, pivot just a bit and use
 another. That tool not right? Pivot and retry. Something will fit. Just don't
-invest your habits, muscle memory and career there. Those things are like the
-end of a Unix pipe command. Source data at the left, and progressively less
-important and more interchangable transforms to the right. Things to the left
-matter most, the markdown files in this case. It's the original data. And yes
-while it does get littered with Jekyll-specific (the static site generator tool
-GitHub Pages uses), even that can be programatically transformed and cleansed if
-something other than Jekyll needs to be used. You try to separate the data layer
-from the presentation layer as much as you can, but they have to couple
-somewhere, and with Jekyll, it's through YAML topmatter and with Shopify-style
-Liquid template tags. Not my preference, but a solid 80/20-rule compromise.
+invest your habits, muscle memory and career there. 
+
+## Unix Pipeline Philosophy
+
+Those things are like the end of a Unix pipe command. Source data at the left,
+and progressively less important and more interchangable transforms to the
+right. Things to the left matter most, the markdown files in this case. It's the
+original data. And yes while it does get littered with Jekyll-specific (the
+static site generator tool GitHub Pages uses), even that can be programatically
+transformed and cleansed if something other than Jekyll needs to be used. You
+try to separate the data layer from the presentation layer as much as you can,
+but they have to couple somewhere, and with Jekyll, it's through YAML topmatter
+and with Shopify-style Liquid template tags. Not my preference, but a solid
+80/20-rule compromise.
+
+## Next Steps and New Horizons
+
+Okay, so I have a few days coming up with the holidays where I can use this
+gaining of traction to really dig in and drive things to the next step. I really
+should finish out the implementation, or rather application of, the pipeline
+system I incorporated into my generic web framework based on FastHTML. But I
+feel the appeal of something called the Hyprland window manager. It's one of
+those cool kid technologies that popped up and is getting momentum and
+happens to specifically target NixOS (along with Arch Linux), and I'm finding it
+too hard to resist. It will require the activating of a new high performance
+graphics library called Wayland, which could be its own can of worms. And it
+risks the loss of the gaining traction. But I can afford it, and it could be
+fundamental to how I work with lots of forever-forward habit and muscle memory
+ramifications, so I'm going to give it a try.
