@@ -516,7 +516,7 @@ ol li .post-date {
 
 .lpvg-list li::before {
   content: "🥕";
-  margin-right: 2vw;
+  margin-right: .5vw;
   flex-shrink: 0;
 }
 

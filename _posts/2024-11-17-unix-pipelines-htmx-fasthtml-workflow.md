@@ -1118,7 +1118,9 @@ the noise and keep you working on what matters most.
 Goodnight! Rest well knowing you've got some good plates spinning with that
 monitoring setup. 🌙
 
-{% include daily-metaphors.html %}
+1. What's most broken?
+2. Where's the biggest bang for buck?
+3. Which plates must be spun?
 
 > The 3 things that frame my day  
 > Become six that light the way  
@@ -1127,7 +1129,12 @@ monitoring setup. 🌙
 > And finding love to go about  
 > Life in ways I won't burn out  
 
-{% include wisdom.html %}
+- Ikigai - overcome laziness find the love
+- Kaizen - do one thing well keep polishing
+- Pomodoro - take chisel-strike bank small wins
+- Hara Hachi Bu - don't burn out / eat less
+- Wabi-Sabi - 80/20-rule imperfection
+- Shoshin - Be like a beginner
 
 > I've overloaded the discussion with Claude through Cursor AI lately. It's
 > gotten slow, and if it's gonna be forgetful anyway, might as well start with a

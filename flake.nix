@@ -31,6 +31,7 @@
             pkgs.git                        # Git for version control
             pythonEnv                       # Use the Python environment defined above
             pkgs.stdenv.cc.cc.lib          # Add C++ standard library
+            pkgs.gcc                       # Add GCC for compilation support
           ];
 
           # Optional: Set environment variables and instructions for users
@@ -52,8 +53,30 @@
             # Alias vim to nvim
             alias vim=nvim
 
-            # Jekyll serve alias with fallback to non-livereload
-            alias jes="bundle exec jekyll serve --livereload || bundle exec jekyll serve"
+            # Jekyll serve function - basic working version
+            jes() {
+              # Store the current directory
+              current_dir=$(pwd)
+              
+              # Find the Jekyll root (where Gemfile exists)
+              site_root="$current_dir"
+              while [[ "$site_root" != "/" && ! -f "$site_root/Gemfile" ]]; do
+                site_root="$(dirname "$site_root")"
+              done
+
+              if [[ ! -f "$site_root/Gemfile" ]]; then
+                echo "Error: Could not find Gemfile. Are you in a Jekyll site directory?"
+                return 1
+              fi
+
+              # Change to the site root
+              cd "$site_root"
+              echo "Serving from $(pwd)..."
+              bundle exec jekyll serve
+              
+              # Return to the original directory
+              cd "$current_dir"
+            }
 
             # Display Jekyll and Bundler instructions
             echo "Jekyll and Rouge environments are ready."
