@@ -31,11 +31,18 @@
             pkgs.git                        # Git for version control
             pythonEnv                       # Use the Python environment defined above
             pkgs.stdenv.cc.cc.lib          # Add C++ standard library
-            pkgs.gcc                       # Add GCC for compilation support
+            pkgs.pkg-config                 # Add pkg-config for build dependencies
+            pkgs.openssl                    # Add openssl for native gem compilation
           ];
 
-          # Optional: Set environment variables and instructions for users
+          # Set environment variables for native gem compilation
           shellHook = ''
+            export BUNDLE_BUILD__EVENTMACHINE="--with-cflags=-I${pkgs.openssl.dev}/include"
+            export PKG_CONFIG_PATH="${pkgs.openssl.dev}/lib/pkgconfig"
+            
+            # Set LD_LIBRARY_PATH to include gcc libs
+            export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
+            
             # macOS-specific symlink setup for Neovim
             if [ "$(uname)" = "Darwin" ]; then
               echo "Detected macOS. Setting up Neovim configuration."
@@ -53,7 +60,7 @@
             # Alias vim to nvim
             alias vim=nvim
 
-            # Jekyll serve function with livereload
+            # Jekyll serve function with safer livereload approach
             jes() {
               # Store the current directory
               current_dir=$(pwd)
@@ -72,7 +79,13 @@
               # Change to the site root
               cd "$site_root"
               echo "Serving from $(pwd)..."
-              bundle exec jekyll serve --livereload --verbose
+              
+              # Try to run with livereload, fall back to regular serve if it fails
+              if ! bundle exec jekyll serve --livereload; then
+                echo "Livereload failed, falling back to regular serve..."
+                sleep 2  # Give time for any ports to clear
+                bundle exec jekyll serve
+              fi
               
               # Return to the original directory
               cd "$current_dir"
