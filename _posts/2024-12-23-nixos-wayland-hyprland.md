@@ -1,10 +1,20 @@
 ---
 title: Taking The NixOS Wayland Hyprland Plunge!
 permalink: /futureproof/nixos-wayland-hyprland/
-description: 
+description: This article documents my ultimately unsuccessful attempt to switch from GNOME to Hyprland on NixOS. Despite Hyprland's speed and customizability, I found that its modular nature and lack of integrated features like workspace overviews made it less suitable for my fullscreen-focused workflow. The experiment helped me appreciate GNOME's polished user experience and Wayland's performance benefits, while also providing a deeper understanding of my own desktop preferences.
 layout: post
 sort_order: 2
 ---
+
+## Introduction
+
+This article chronicles my attempt to switch from the GNOME desktop environment to the Hyprland tiling window manager on my NixOS system.  Initially drawn to Hyprland's promise of speed, customizability, and strong Wayland support, I embarked on a detailed configuration journey, meticulously documented through conversations with the AI assistant, Claude.
+
+The process involved setting up Hyprland, configuring keybindings and animations, and troubleshooting compatibility issues with Electron apps and Nvidia graphics. While I appreciated Hyprland's responsiveness and the satisfyingly snappy workspace transitions we achieved, I ultimately found that its modular nature and the need to "cobble together" basic functionalities like workspace overviews and clipboard sharing detracted from the seamless experience I had grown accustomed to in GNOME.
+
+This exploration highlighted the trade-offs between a highly customizable tiling window manager and an integrated desktop environment. Despite appreciating Hyprland's strengths, I realized that my workflow, primarily focused on fullscreen applications and efficient workspace navigation, was better served by GNOME's polished user experience and intuitive features like the Super key overview.
+
+The experiment proved valuable nonetheless, reinforcing my appreciation for GNOME's maturity and Wayland's performance benefits, while also providing a deeper understanding of my own desktop priorities and preferences.
 
 ## The Appeal of Hyprland on NixOS
 
