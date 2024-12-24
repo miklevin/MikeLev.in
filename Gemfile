@@ -3,4 +3,6 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-commonmark-ghpages'
 gem "jekyll"
 gem "rouge"
+gem "eventmachine"
+gem "em-websocket"
 
