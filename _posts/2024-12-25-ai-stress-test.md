@@ -5351,3 +5351,752 @@ class LinkFlow:
 - The above code is large, but it’s effectively the “final pass” that integrates your “dirty vs. clean URL” logic, the local “no re-download” logic, and the multi-step pipeline style.  
 
 **That’s it**—hopefully it hits the detailed sweet spot of being near drop-in, while preserving all the tricky bits from your original `BotifyLinkGraph`. If you see anything missing or want a smaller iterative chunk, let me know. Otherwise, you can start dropping in your real job creation and polling details from the old code, step by step. Good luck!
+
+---
+
+## Show Me the BQL!
+
+> Looking over o1's code with a fine tooth comb, I realize there's not a single
+> BQL query actually to be found in the code! I have to run interference with
+> this one last layer of detail-avoidance.
+
+**Me**: Excellent! This is going well with the iterative passes, excactly as I
+had hoped. A few things. First, I'm noticing what you do when you're still
+evading or deferring a piece. You put it in a blockquote to bring to my
+attention that you're still punting something, haha! In this case, it's this
+line:
+
+> You can keep layering in your final bits of logic (like the actual JSON
+> payload for job creation, the advanced field checks, etc.)
+
+It's true that you've made this nearly drop-in ready, and left clean wedges for
+me to do things like querying available checkbox fields and the availability of
+the search_console collection, and I agree that ***those*** can be deferred as
+lower priority. But this app doesn't work without actually building those JSON
+payloads for the various queries, first to get the size of the export, and
+second to initiate the export. These are the next crtitical details that the app
+does not work without that we are up to layering in, and once again everything
+you need to know is already effectively done for you in BotifyLinkGraph. This is
+really a pedantic job of transposing and meticulously checking the availability
+and scope of values. So let's add the JSON query payloads and get this nearly
+copy/paste ready.
+
+And finally, I think a function to fetch the analysis slugs can be a global
+helper function which will make the Linkgraph class a wee bit shorter.
+
+---
+
+## Is o1 Being Cheeky?
+
+> Notice the ***yet another refinement***, haha! Yeah, o1 it wasn't any easier
+> for me to make the code in the first place. Be glad you're just helping to
+> refactor it!
+
+**o1**: Below is yet another refinement of **LinkFlow**, now incorporating **the actual JSON payload** used for Botify’s *export job creation* (both links and meta) from your old **BotifyLinkGraph** code. We also factor out fetching analysis slugs into a **global** helper function, making the class shorter. At the end, this should be nearly *copy/paste* ready, with all the critical job creation logic in place.
+
+As with previous iterative passes, you can still tweak smaller details (like advanced search-console availability checks, or re-verifying if an analysis actually has that data). But **all** the essential JSON payload building for the queries, size checks, and job creation is now spelled out in the `_start_links_export()` / `_start_meta_export()` calls.  
+
+---
+
+## 1. Updated Global Helpers
+
+Here’s how we might define the **global** `_fetch_analyses_light()` function to replace the inline `_fetch_analyses` method. We also define a small `_create_export_job()` helper that does the actual Botify job creation POST. This “job creation” helper can be re-used for both links and meta exports:
+
+```python
+import aiohttp
+import pandas as pd
+import requests
+import gzip
+import shutil
+import os
+from pathlib import Path
+
+def read_botify_token() -> str:
+    token_path = Path('botify_token.txt')
+    if token_path.exists():
+        return token_path.read_text().strip()
+    return ""
+
+async def fetch_analyses_light(org: str, project: str) -> list:
+    """
+    Retrieve analyses from the /analyses/{org}/{project}/light endpoint.
+    Returns a list of dicts with 'slug', etc., sorted descending by slug.
+    """
+    token = read_botify_token()
+    if not token:
+        logger.error("No Botify token found. Cannot fetch analyses.")
+        return []
+    url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+    results = []
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url, headers=headers) as resp:
+            if resp.status != 200:
+                logger.error(f"fetch_analyses_light: status={resp.status}")
+                return []
+            data = await resp.json()
+            results.extend(data.get('results', []))
+            while data.get('next'):
+                nurl = data['next']
+                async with session.get(nurl, headers=headers) as resp2:
+                    if resp2.status != 200:
+                        break
+                    data = await resp2.json()
+                    results.extend(data.get('results', []))
+    # sort descending
+    results.sort(key=lambda x: x.get('slug',''), reverse=True)
+    return results
+
+async def find_optimal_depth(org, project, analysis, max_edges=1000000):
+    """
+    From the prior iteration. Summarizing here for completeness.
+    """
+    token = read_botify_token()
+    if not token:
+        logger.error("No token, can't find depth.")
+        return (1, 0)
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+    previous_edges = 0
+    async with aiohttp.ClientSession() as session:
+        for depth in range(1, 10):
+            data_payload = {
+                "collections": [f"crawl.{analysis}"],
+                "query": {
+                    "dimensions": [],
+                    "metrics": [{
+                        "function":"sum",
+                        "args":[f"crawl.{analysis}.outlinks_internal.nb.total"]
+                    }],
+                    "filters": {
+                        "field": f"crawl.{analysis}.depth",
+                        "predicate":"lte",
+                        "value": depth
+                    }
+                }
+            }
+            async with session.post(url, headers=headers, json=data_payload) as r:
+                if r.status != 200:
+                    logger.error(f"Depth check fail at depth={depth}, status={r.status}")
+                    return (depth-1 if depth>1 else 1, previous_edges)
+                data = await r.json()
+                edges = data["results"][0]["metrics"][0]
+                logger.debug(f"Depth {depth}: edges={edges}")
+                if edges > max_edges or edges == previous_edges:
+                    return (depth-1 if depth>1 else depth, previous_edges)
+                previous_edges = edges
+    return (depth, previous_edges)
+
+def download_file(url: str, save_path: Path, logger=None) -> Path:
+    """
+    Same as prior iteration. Streams .gz, decompresses, renames columns if needed.
+    """
+    if logger:
+        logger.debug(f"Downloading from {url} => {save_path}")
+    save_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_gz = save_path.with_suffix(save_path.suffix + '.gz')
+    resp = requests.get(url, stream=True)
+    if resp.status_code != 200:
+        if logger:
+            logger.error(f"Download failed. status={resp.status_code}")
+        return save_path
+    with open(tmp_gz, "wb") as f:
+        for chunk in resp.iter_content(chunk_size=8192):
+            f.write(chunk)
+    with gzip.open(tmp_gz, 'rb') as gz_in, open(save_path, 'wb') as out:
+        shutil.copyfileobj(gz_in, out)
+    tmp_gz.unlink()
+
+    # rename columns if links or meta
+    if logger:
+        logger.debug(f"Renaming columns if needed in {save_path}")
+    stem = save_path.stem
+    if stem.endswith('_links'):
+        df = pd.read_csv(save_path)
+        df.columns = ['source','target']
+        df.to_csv(save_path, index=False)
+    elif stem.endswith('_meta'):
+        df = pd.read_csv(save_path)
+        df.columns = ['id','pagetype','is_compliant','canonical_equal','sitemaps_present','impressions','clicks']
+        df.to_csv(save_path, index=False)
+    return save_path
+
+async def create_export_job(payload: dict, logger=None) -> str:
+    """
+    Create an export job on Botify by POSTing to /jobs. 
+    Return the job_url from the JSON response if successful.
+    """
+    token = read_botify_token()
+    if not token:
+        if logger:
+            logger.error("No token found, can't create job.")
+        return ""
+    url = "https://api.botify.com/v1/jobs"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+    async with aiohttp.ClientSession() as session:
+        if logger:
+            logger.debug(f"create_export_job => POST {url} with {payload}")
+        async with session.post(url, json=payload, headers=headers) as resp:
+            if resp.status not in (200,201):
+                txt = await resp.text()
+                if logger:
+                    logger.error(f"Job creation failed. status={resp.status}, body={txt}")
+                return ""
+            data = await resp.json()
+            job_url = data.get('job_url',"")
+            # job_url is partial, often e.g. /v1/jobs/123. We might need the full domain
+            return f"https://api.botify.com{job_url}" if job_url.startswith("/v1") else job_url
+```
+
+In the code above:
+
+- **`create_export_job(payload, logger=None)`**:  
+  Takes a dict (the “job creation” JSON) from your old code and does a POST to Botify’s `/jobs`. On success, returns the `job_url`.
+
+You’ll see below how **LinkFlow** uses `_build_links_payload(...)` or `_build_meta_payload(...)` and passes them to `create_export_job()`.
+
+---
+
+## 2. The **LinkFlow** Class (Updated)
+
+Now we can shorten `_fetch_analyses` to a direct call to our global `fetch_analyses_light()`. Also, we can build the *actual* JSON payload in `_start_links_export()` and `_start_meta_export()` just like in your old code, but in a smaller, “nearly identical” form.
+
+```python
+class LinkFlow:
+    """
+    Pipeline approach for Botify link-graph, with actual JSON payload building.
+    """
+
+    def __init__(self, app, pipulate, prefix="/linkflow"):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+        self.logger = logger.bind(name="LinkFlow")
+
+        self.STEPS = [
+            ("proj",   "step_01", "Project URL"),
+            ("analys", "step_02", "Pick Analysis"),
+            ("fields", "step_03", "Select Fields & Start Export"),
+            ("final",  "step_04", "Poll & Download"),
+        ]
+
+        routes = [
+            (f"{prefix}", self.landing),
+            (f"{prefix}/step_01", self.step_01),
+            (f"{prefix}/step_01_submit", self.step_01_submit, ["POST"]),
+            (f"{prefix}/step_02", self.step_02),
+            (f"{prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+            (f"{prefix}/step_03", self.step_03),
+            (f"{prefix}/step_03_submit", self.step_03_submit, ["POST"]),
+            (f"{prefix}/step_04", self.step_04),
+            (f"{prefix}/poll_links", self.poll_links, ["GET"]),
+            (f"{prefix}/poll_meta", self.poll_meta, ["GET"]),
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    # ---------------------------------------------------------------------
+    # LANDING
+    # ---------------------------------------------------------------------
+    async def landing(self):
+        return Container(
+            Card(
+                H2("LinkFlow Pipeline"),
+                P("Paste your Botify project URL here, even if it has extras in the path."),
+                Form(
+                    Input(type="url", name="dirty_url", placeholder="https://app.botify.com/orgX/projY/foo"),
+                    Button("Next", type="submit"),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#linkflow-container"
+                )
+            ),
+            Div(id="linkflow-container")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 01: Acquire & Clean
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+        pipeline_id = db.get("pipeline_id")
+        if pipeline_id:
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            if step1_data.get("project_url"):
+                return Div(
+                    Card(
+                        f"Project URL locked: {step1_data['project_url']}",
+                        P(f"org={step1_data['org']} project={step1_data['project']}")
+                    ),
+                    Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+                )
+        return await self.landing()
+
+    async def step_01_submit(self, request):
+        form = await request.form()
+        dirty_url = form.get("dirty_url","").strip()
+        if not dirty_url:
+            return P("No URL provided. Please try again.", style="color:red;")
+
+        # parse
+        parts = dirty_url.split('/')
+        try:
+            idx = parts.index('app.botify.com')
+            org = parts[idx+1]
+            project = parts[idx+2]
+        except (ValueError, IndexError):
+            return P("Could not parse org/project from your URL. Must have app.botify.com/org/project", style="color:red;")
+
+        cleaned_url = f"https://app.botify.com/{org}/{project}/"
+        db["pipeline_id"] = cleaned_url
+        self.pipulate.initialize_if_missing(cleaned_url)
+        step1_data = {
+            "project_url": cleaned_url,
+            "org": org,
+            "project": project
+        }
+        self.pipulate.set_step_data(cleaned_url, "step_01", step1_data)
+
+        return Div(
+            Card(f"Project URL set => {cleaned_url} (locked). org={org} proj={project}"),
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load"),
+            id="linkflow-container"
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02: Show existing & pick analysis
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+        pipeline_id = db.get("pipeline_id")
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+        if step2_data.get("analysis"):
+            return Div(
+                Card(f"Analysis {step2_data['analysis']} locked. Depth={step2_data.get('depth')}."),
+                Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+            )
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        org = step1_data.get("org")
+        project = step1_data.get("project")
+        # show existing
+        local_dir = Path("downloads/link-graph") / org / project
+        local_dir.mkdir(parents=True, exist_ok=True)
+        existing_links = list(local_dir.glob("*_links.csv"))
+        link_items = []
+        for path in existing_links:
+            filename = path.name
+            link_items.append(
+                Li(
+                    A(filename, href=f"/download/{org}/{project}/{filename}", target="_blank"),
+                    " ",
+                    A("(Link Graph)",
+                      href=(f"https://cosmograph.app/run/?data=http://localhost:5001/download/{org}/{project}/{filename}"),
+                      target="_blank")
+                )
+            )
+
+        # fetch analyses from the global helper
+        analysis_list = await fetch_analyses_light(org, project)
+
+        # build a select disabling those that exist
+        options = []
+        for a in analysis_list:
+            slug = a.get("slug","unknown")
+            link_path = local_dir / f"{project}_{slug}_links.csv"
+            disabled = link_path.exists()
+            disp = f"{slug} (links exist)" if disabled else slug
+            opt = Option(disp, value=slug, disabled=disabled)
+            options.append(opt)
+
+        return Div(
+            Card(
+                H3("Step 2: Pick an Analysis"),
+                P("Existing link CSVs:"),
+                Ul(*link_items) if link_items else P("None yet."),
+                P("Choose a new analysis from the dropdown:"),
+                Form(
+                    Select(
+                        Option("Select analysis...", value="", selected=True),
+                        *options,
+                        name="analysis_select"
+                    ),
+                    Button("Next", type="submit"),
+                    hx_post=f"{self.prefix}/step_02_submit",
+                    hx_target="#step_02"
+                )
+            ),
+            Div(id="step_03"),
+            id="step_02"
+        )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        analysis = form.get("analysis_select","").strip()
+        if not analysis:
+            return P("No analysis selected. Please try again.", style="color:red;")
+
+        pipeline_id = db.get("pipeline_id")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        org = step1_data["org"]
+        project = step1_data["project"]
+        local_dir = Path("downloads/link-graph") / org / project
+        link_path = local_dir / f"{project}_{analysis}_links.csv"
+        if link_path.exists():
+            data = {
+                "analysis": analysis,
+                "depth": 0,
+                "edge_count": 0,
+                "already_downloaded": True
+            }
+            self.pipulate.set_step_data(pipeline_id, "step_02", data)
+            return Div(
+                Card(f"Analysis {analysis} already downloaded (locked)."),
+                Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+            )
+
+        # not present => find_optimal_depth
+        (opt_depth, edge_count) = await find_optimal_depth(org, project, analysis)
+        data = {
+            "analysis": analysis,
+            "depth": opt_depth,
+            "edge_count": edge_count,
+            "already_downloaded": False
+        }
+        self.pipulate.set_step_data(pipeline_id, "step_02", data)
+        return Div(
+            Card(f"Analysis {analysis} locked. Depth={opt_depth}, edges={edge_count}"),
+            Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 03: Pick fields & start exports
+    # ---------------------------------------------------------------------
+    async def step_03(self, request):
+        pipeline_id = db.get("pipeline_id")
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+        if step2_data.get("already_downloaded"):
+            return Div(
+                Card(f"Analysis {step2_data['analysis']} is already downloaded, skipping export."),
+                Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+            )
+
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        if step3_data.get("export_started"):
+            return Div(
+                Card("Export already started (locked)."),
+                Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+            )
+
+        analysis = step2_data["analysis"]
+        field_opts = {
+            "pagetype": f"crawl.{analysis}.segments.pagetype.value",
+            "compliant": f"crawl.{analysis}.compliant.is_compliant",
+            "canonical": f"crawl.{analysis}.canonical.to.equal",
+            "sitemap": f"crawl.{analysis}.sitemaps.present",
+            "impressions": "search_console.period_0.count_impressions",
+            "clicks": "search_console.period_0.count_clicks"
+        }
+        li_elems = []
+        for k,v in field_opts.items():
+            li_elems.append(
+                Li(
+                    Input(type="checkbox", name=k, value=v, checked=True),
+                    Label(k, _for=k)
+                )
+            )
+        return Div(
+            Card(
+                H3("Step 3: Select optional fields for meta CSV"),
+                Form(
+                    Ul(*li_elems),
+                    Button("Start Export", type="submit"),
+                    hx_post=f"{self.prefix}/step_03_submit",
+                    hx_target="#step_03"
+                )
+            ),
+            Div(id="step_04"),
+            id="step_03"
+        )
+
+    async def step_03_submit(self, request):
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        org = step1_data["org"]
+        project = step1_data["project"]
+        analysis = step2_data["analysis"]
+        depth = step2_data["depth"]
+
+        chosen_fields = [val for key,val in form.items()]
+
+        # Create the link & meta job
+        links_job_url = await self._start_links_export(org, project, analysis, depth)
+        meta_job_url = await self._start_meta_export(org, project, analysis, chosen_fields)
+
+        data = {
+            "export_started": True,
+            "fields": chosen_fields,
+            "links_job_url": links_job_url,
+            "meta_job_url": meta_job_url
+        }
+        self.pipulate.set_step_data(pipeline_id, "step_03", data)
+        return Div(
+            Card("Link & Meta export started (locked)."),
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+
+    async def _start_links_export(self, org, project, analysis, depth) -> str:
+        """
+        Build the JSON payload for links export, call create_export_job().
+        Mirror what your BotifyLinkGraph did in 'export_links' or 'start_links_export'.
+        """
+        # Example from your old code:
+        query = {
+            "dimensions": [
+                "url",
+                f"crawl.{analysis}.outlinks_internal.graph.url"
+            ],
+            "metrics": [],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            }
+        }
+        data_payload = {
+            "job_type": "export",
+            "payload": {
+                "username": org,
+                "project": project,
+                "connector": "direct_download",
+                "formatter": "csv",
+                "export_size": 1000000,
+                "query": {
+                    "collections": [f"crawl.{analysis}"],
+                    "query": query
+                }
+            }
+        }
+        links_job_url = await create_export_job(data_payload, logger=self.logger)
+        self.logger.info(f"_start_links_export => {links_job_url}")
+        return links_job_url
+
+    async def _start_meta_export(self, org, project, analysis, fields: list) -> str:
+        """
+        Build the JSON payload for meta export, then create_export_job().
+        """
+        # Split fields into dimension vs metric
+        dimensions = [f"crawl.{analysis}.url"]
+        metrics = []
+        for f in fields:
+            if "search_console" in f:
+                metrics.append(f)
+            else:
+                dimensions.append(f)
+
+        data_payload = {
+            "job_type":"export",
+            "payload":{
+                "username":org,
+                "project":project,
+                "connector":"direct_download",
+                "formatter":"csv",
+                "export_size":1000000,
+                "query":{
+                    "collections":[f"crawl.{analysis}"],
+                }
+            }
+        }
+        # If we have metrics from search_console, we need to add that to 'collections' & 'periods'
+        if metrics:
+            data_payload["payload"]["query"]["collections"].append("search_console")
+            # possibly add "periods" if needed
+            # e.g. [ [analysis[:4]+'-'+analysis[4:6]+'-'+analysis[6:], analysis[:4]+'-'+analysis[4:6]+'-'+analysis[6:] ] ]
+            # For now, let's do your old logic:
+            data_payload["payload"]["query"]["periods"] = [[
+                f"{analysis[:4]}-{analysis[4:6]}-{analysis[6:]}",
+                f"{analysis[:4]}-{analysis[4:6]}-{analysis[6:]}"
+            ]]
+
+        data_payload["payload"]["query"]["query"] = {
+            "dimensions": dimensions,
+            "metrics": metrics
+        }
+
+        meta_job_url = await create_export_job(data_payload, logger=self.logger)
+        self.logger.info(f"_start_meta_export => {meta_job_url}")
+        return meta_job_url
+
+    # ---------------------------------------------------------------------
+    # STEP 04: Poll & Download
+    # ---------------------------------------------------------------------
+    async def step_04(self, request):
+        pipeline_id = db.get("pipeline_id")
+        step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+        if step4_data.get("done"):
+            return Card("All exports done! ✅", style="color:green;")
+
+        return Div(
+            Card(
+                H3("Step 4: Polling Link & Meta Jobs..."),
+                P("Will auto-check job status, download CSV when complete.")
+            ),
+            Div(id="links-status", hx_get=f"{self.prefix}/poll_links", hx_trigger="load delay:2s"),
+            Div(id="meta-status", hx_get=f"{self.prefix}/poll_meta", hx_trigger="load delay:2s"),
+            id="step_04"
+        )
+
+    async def poll_links(self, request):
+        """
+        GET /linkflow/poll_links
+        Check the links_job_url => if job done => download => rename => set pipeline step_04 links_done
+        If links_done & meta_done => set done => refresh
+        """
+        pipeline_id = db.get("pipeline_id")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        links_job_url = step3_data.get("links_job_url","")
+        if not links_job_url:
+            return P("No links job to poll", style="color:red;")
+
+        # Actual job status check:
+        job_done, download_url = await self._check_job_done(links_job_url)
+        if job_done:
+            # Download to local_dir / f"{project}_{analysis}_links.csv"
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            org = step1_data["org"]
+            project = step1_data["project"]
+            analysis = step2_data["analysis"]
+
+            local_dir = Path("downloads/link-graph") / org / project
+            links_path = local_dir / f"{project}_{analysis}_links.csv"
+            download_file(download_url, links_path, logger=self.logger)
+
+            # Mark pipeline step_04 partial
+            step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+            step4_data["links_done"] = True
+            if step4_data.get("meta_done"):
+                step4_data["done"] = True
+            self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+
+            if step4_data.get("done"):
+                return Div(
+                    P("Links done, meta done => all done!", style="color:green;"),
+                    hx_get=f"{self.prefix}/step_04", hx_trigger="load"
+                )
+            else:
+                return P("Links done, waiting on meta...", style="color:green;")
+        else:
+            return Div(
+                P("Links export in progress..."),
+                hx_get=f"{self.prefix}/poll_links",
+                hx_trigger="load delay:3s"
+            )
+
+    async def poll_meta(self, request):
+        """
+        Same as poll_links, but for meta_job_url.
+        """
+        pipeline_id = db.get("pipeline_id")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        meta_job_url = step3_data.get("meta_job_url","")
+        if not meta_job_url:
+            return P("No meta job to poll", style="color:red;")
+
+        job_done, download_url = await self._check_job_done(meta_job_url)
+        if job_done:
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            org = step1_data["org"]
+            project = step1_data["project"]
+            analysis = step2_data["analysis"]
+
+            local_dir = Path("downloads/link-graph") / org / project
+            meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+            download_file(download_url, meta_path, logger=self.logger)
+
+            step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+            step4_data["meta_done"] = True
+            if step4_data.get("links_done"):
+                step4_data["done"] = True
+            self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+            if step4_data.get("done"):
+                return Div(
+                    P("Meta done, links done => all done!", style="color:green;"),
+                    hx_get=f"{self.prefix}/step_04", hx_trigger="load"
+                )
+            else:
+                return P("Meta done, waiting on links...", style="color:green;")
+        else:
+            return Div(
+                P("Meta export in progress..."),
+                hx_get=f"{self.prefix}/poll_meta",
+                hx_trigger="load delay:3s"
+            )
+
+    async def _check_job_done(self, job_url: str):
+        """
+        Actually check if the job is done by calling GET /<job_url>.
+        If done => return (True, download_url).
+        If not => (False, "")
+        """
+        token = read_botify_token()
+        if not token:
+            self.logger.error("No token, can't poll job.")
+            return (False,"")
+        headers = {
+            "Authorization": f"Token {token}",
+            "Content-Type": "application/json"
+        }
+        async with aiohttp.ClientSession() as session:
+            async with session.get(job_url, headers=headers) as resp:
+                if resp.status != 200:
+                    text = await resp.text()
+                    self.logger.error(f"Job poll fail: status={resp.status}, body={text}")
+                    return (False,"")
+                data = await resp.json()
+                status = data.get("job_status","")
+                if status == "DONE":
+                    download_url = data["results"]["download_url"]
+                    return (True, download_url)
+                elif status == "FAILED":
+                    self.logger.error(f"Job {job_url} failed: {data}")
+                    return (False,"")
+                else:
+                    return (False,"")
+```
+
+### Explanation of the Key New Bits
+
+1. **`create_export_job(...)`** (global):  
+   We do a `POST` to `https://api.botify.com/v1/jobs` with your typical JSON structure for exports. This returns a `job_url` to poll.  
+
+2. **`_start_links_export` / `_start_meta_export`**:  
+   We build the JSON exactly like your old `export_links` or `start_meta_export` code did. Then we call `create_export_job(...)`, store the result in the pipeline.  
+
+3. **`_check_job_done(job_url)`**:  
+   This is a direct replacement for your old “poll_export” logic in BotifyLinkGraph. We do a GET on that `job_url`. If `job_status == "DONE"`, we parse `download_url` from the JSON and return `(True, download_url)`. Otherwise, `(False, "")`.  
+
+4. **`poll_links` / `poll_meta`**:  
+   Once a job is done, we do the file download with `download_file(download_url, ...)`, rename columns, etc. Then we set “links_done” or “meta_done” in `step_04`. If both done => “done”.  
+
+### Next Steps
+
+This should be **very** close to final. The only missing details might be:
+
+- If you want to pass a “size check” param or “export_size=1_000_000” from user input.  
+- If you want to do advanced checks for search_console presence before letting the user pick “impressions” / “clicks.”  
+- If you want to handle partial fail states (like job fails mid-run).  
+
+But the **JSON payload building** is now effectively *verbatim* from your old code, only reorganized into these distinct pipeline steps. 
+
+**Enjoy** plugging this in! If you find any minor “punting,” let me know, but hopefully we’ve now covered all the big devils in the details. Good luck!
