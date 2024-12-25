@@ -387,11 +387,17 @@ So, yes, the Python / HTMX hypothesis is more than just a solution to churn. It�
 
 ---
 
+## This Is My Web Framework
+
+### There Are None Like It
+
 This is my web framework. There are many like it, but this one is mine. Actually
 there's not many like it, as it has an embedded LLM which could actually become
 a best friend someday, given Ship of Theseus upgrades, Moore's Law and the
 correct directional decisions that I make today with your guidance regarding its
 development.
+
+### A Single File Philosophy
 
 Also, there are not many web frameworks like this one because it all fits in one
 file, hopefully within your token window, and is based on FastHTML and HTMX.
@@ -401,9 +407,13 @@ not. It is a web framework with a decidedly lower-case w, in that most instances
 of will only ever be on a cut-off-from-the-Web (upper-case W) LAN. It can be
 reached as localhost from localhost, and at most more, by avahi on the LAN. 
 
+### AI Stress Testing
+
 Helping me with planning and actual hard-nosed implementation right now today is
 the AI stress testing of which I spoke. I am likely to also try to give this
 task to Gemini, because it also has a remarkably big token window.
+
+### Core Philosophy and Design
 
 You will find most of the philosophy behind this directly in the code itself, as
 I found it necessary to create continuous and emphatic speed-bumps to untrain
@@ -418,6 +428,8 @@ access and local to each other that the server does it all, and the client need
 only be a competent browser implementation capable of supporting HTMX. It's
 exclusively the presentation layer, called upon at most for session ID memory.
 
+### Token Analysis
+
     Token Count by File:
     --------------------------------------------------
     File                           Tokens              
@@ -429,10 +441,14 @@ exclusively the presentation layer, called upon at most for session ID memory.
     --------------------------------------------------
     Total:                         64,541 tokens (≈$1.94 at GPT-4 rates)
 
+### Framework Overview
+
 So I should be able to feed you both this preamble and the entire web framework.
 The request is not to do any sort of implementation right away, but rather to
 sort of mull over it and leisurely drink it in. Look at the philosophy and
 overarching themes here. 
+
+### LLM Integration
 
 I am testing out different local LLMs here, and I will be giving them various
 forms of memory soon, from a Python dict inspired key/value pair, to something
@@ -448,6 +464,8 @@ downloads scattered throughout the system so it can become instantaneously
 expert at whatever it's about to need to know based on user menu selections. You
 get the idea, and that's just the LLM part.
 
+### Pipeline Architecture
+
 There's also the pipeline part, which is what the stress test will really be
 about. I developed what I think is a fairly solid foundation for linear
 processes. That sounds simplistic, but what is everything but linked-up lists?
@@ -460,6 +478,8 @@ Generally, a URL is the ID. The table entries are designed to be temporary with
 the side-effects of what the pipeline did as their main product, which could
 always be re-connected by plugging in the same ID again.
 
+### Job Management
+
 Jobs cannot be interrupted, because they're interrupted by design. Plugging an
 URL/ID back in on Card 1 will make it pick up right where it left off as if
 there was no interruption. There's a chain reaction effect that occurs every
@@ -471,8 +491,12 @@ copy/pasting. New Workflow classes will not derive from base classes. The idea
 is that they are at just the right granular level to make music. Like player
 piano sheet music, but with HTMX and sequential notes (or Cards).
 
+### Current Status
+
 Currently I have a big, messy class called BotifyLinkGraph which I will port to
 the new approach as expressed by Poetflow.
+
+### Next Steps
 
 Just drink it in. Ruminate and mull it over. Don't be stressed, though this is
 the stress test of which I spoke. The web framework is as follows...
@@ -1586,6 +1610,8 @@ class Poetflow:
         )
 ```
 
+## Rethinking the Flow
+
 Now, I'm not even going to show the current Petiteflow again, because I don't
 want to predispose you. I want you to think through the simplest and most
 positive introductory experience anyone might have with this system, just enough
@@ -1889,10 +1915,14 @@ That’s it! This is likely the simplest or “hello-world” style multi-step e
 
 ---
 
+## Initial Feedback
+
 **Me**: Oh, that's brilliant! At first I thought keeping Card 1 showing with its
 ID input field was a bad idea, but then I realized it really hits home how you
 can rapidly switch between different pipeline records! Though it is a bit odd
 being asked your name twice, nonetheless. 
+
+### Implementation Note
 
 And so you know the only edit I needed to make was to remove request from the
 first point of entry where it gets linked in:
@@ -1935,7 +1965,9 @@ Either way, it’s a nice proof-of-concept for how “multiple pipeline states�
 
 ---
 
-Me: Okay, so knowing now what you know, do you think LinkFlow is actually
+## Component Reusability Discussion
+
+**Me**: Okay, so knowing now what you know, do you think LinkFlow is actually
 drop-in ready? I threw the whole web framework at you at once, had you absorb it
 and on a subsequent prompt asked you to rewrite something. But knowing what I
 know of your kind, I think I would be best of re-feeding you the pertinents now
