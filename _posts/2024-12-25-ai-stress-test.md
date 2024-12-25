@@ -3860,13 +3860,18 @@ With that done, you’ll have a *Pipulate-based link graph generator* that’s c
 
 ---
 
-A critical point you're missing is the whole onus of using URL as the pipeline
-ID. You see, it's always a Botify project URL, which inherently has an org and
-project slug embedded into it, which the original code extracts and cleans the
-submitted URL to a predictable pattern. I know you're trying to give me a
-minimal and clean version, but there's a few points that have to be hit very
-precisecly for me to be able to hand these instructions onto the Cursor AI code
-assistant. 
+> This is not the stress test I'm looking for. Everyone wants to be an armchair
+> general, but few want to dive down into the trenches with you and talk nitty
+> gritty. It's why previous attempts with o1 stall out at about this point and I
+> revert to Claude 3.5 Sonnet. But I'm going to keep pushing...
+
+**Me**: A critical point you're missing is the whole onus of using URL as the
+pipeline ID. You see, it's always a Botify project URL, which inherently has an
+org and project slug embedded into it, which the original code extracts and
+cleans the submitted URL to a predictable pattern. I know you're trying to give
+me a minimal and clean version, but there's a few points that have to be hit
+very precisecly for me to be able to hand these instructions onto the Cursor AI
+code assistant. 
 
 Also, I abssolutely love how you insered the markdown quote about how we
 ***really*** start the link and meta exports, haha! That's as much a part of the
