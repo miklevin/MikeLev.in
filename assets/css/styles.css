@@ -573,14 +573,14 @@ ol li .post-date {
 
 @media (max-width: 768px) {
     .ascii-alice {
-        justify-content: flex-start; /* Align to the left on mobile */
+        text-align:center
     }
 
     .ascii-alice pre {
         font-size: 2.5vw; /* Keep the mobile size as it was */
         line-height: 1;
-        width: 100%;
-        max-width: none;
+        text-align: left;
+        display: inline-block;
     }
 }
 

@@ -26,6 +26,12 @@ group: home
 
 # Finding Purpose Through Timeless Tech Skills
 
+{% include alice.html %}
+
+<br />
+
+{% include daily-metaphors.html %}
+
 I've discovered my ikigai &#151; my reason for being &#151; in mastering and teaching future-proof technology skills. While I'm a Technical SEO expert by trade with 25+ years of experience in content optimization and automation, my true passion lies in helping others escape the endless cycle of chasing trendy tools.
 
 <div class="lpvg-container">
@@ -42,9 +48,7 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
 
 **[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools - they're the foundation of a sustainable technical career that resists obsolescence.
 
-{% include daily-metaphors.html %}
-
-{% include alice.html %}
+{% include wisdom.html %}
 
 {% assign sorted_posts = site.posts | sort: 'date' %}
 {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
@@ -58,8 +62,6 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
     </a>
   </div>
 </div>
-
-{% include wisdom.html %}
 
 > Since OpenAI ChatGPT o1 Pro is the closest thing the public has right now to
 > AGI, I figured I'd run my [latest daily tech journal
