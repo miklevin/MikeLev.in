@@ -6103,7 +6103,7 @@ But the **JSON payload building** is now effectively *verbatim* from your old co
 
 ---
 
-## o1 Post Stress-Test Interview
+## o1 Pro Post Stress-Test Interview
 
 **Me**: Thank you, o1! How did you enjoy your stress test? If it's any
 consolation, this whole link graph endeavor hasn't been any less stressful for
