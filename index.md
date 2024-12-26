@@ -30,10 +30,6 @@ group: home
 
 <br />
 
-{% include daily-metaphors.html %}
-
-I've discovered my ikigai &#151; my reason for being &#151; in mastering and teaching future-proof technology skills. While I'm a Technical SEO expert by trade with 25+ years of experience in content optimization and automation, my true passion lies in helping others escape the endless cycle of chasing trendy tools.
-
 <div class="lpvg-container">
   <div class="lpvg-list">
     <ul>
@@ -48,7 +44,7 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
 
 **[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools - they're the foundation of a sustainable technical career that resists obsolescence.
 
-{% include wisdom.html %}
+{% include daily-metaphors.html %}
 
 {% assign sorted_posts = site.posts | sort: 'date' %}
 {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
@@ -326,8 +322,6 @@ Just as Unix pipes transform raw data into meaningful output, these articles hav
 
 <br />
 
----
-
 <div class="logo-container">
     <div class="logo-item">
         <a href="/levinux/">
@@ -340,3 +334,5 @@ Just as Unix pipes transform raw data into meaningful output, these articles hav
         </a>
     </div>
 </div>
+
+{% include wisdom.html %}
