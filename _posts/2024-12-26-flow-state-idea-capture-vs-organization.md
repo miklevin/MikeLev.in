@@ -1,7 +1,7 @@
 ---
 title: Flow-State Idea Capture Vs. Organization
 permalink: /futureproof/flow-state-idea-capture-vs-organization/
-description: 
+description: In this article, I explore the tension between capturing ideas in a flow state and the need for organization. While tools like Obsidian and Notion can help organize information, they can disrupt the creative process. I find that using a simple text editor like Vim allows me to capture ideas in a raw format, which I can later organize using tools like Trilium or even AI. I also delve into the history of text editors and emphasize the importance of finding a system that works for you.
 layout: post
 sort_order: 1
 ---
