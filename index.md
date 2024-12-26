@@ -44,22 +44,6 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
 
 {% include daily-metaphors.html %}
 
-### More Tools in Our Technical Arsenal:
-
-<div style="margin-top: 2vw; margin-bottom: 2vw;">
-  <ul>
-    <li><code class="language-plaintext highlighter-rouge">`nix/NixOS`</code>: Reproducible development environments anywhere</li>
-    <li><code class="language-plaintext highlighter-rouge">`tmux`</code>: Persistent terminal sessions for robust background processes</li>
-    <li><code class="language-plaintext highlighter-rouge">`Jupyter Notebooks`</code>: Interactive computing done right</li>
-    <li><code class="language-plaintext highlighter-rouge">`FastHTML`</code>: Streamlined web development without framework bloat</li>
-    <li><code class="language-plaintext highlighter-rouge">`Ollama`</code>: Local AI that keeps you in control</li>
-  </ul>
-</div>
-
-{% include wisdom.html %}
-
-<br />
-
 {% include alice.html %}
 
 {% assign sorted_posts = site.posts | sort: 'date' %}
@@ -74,6 +58,8 @@ I've discovered my ikigai &#151; my reason for being &#151; in mastering and tea
     </a>
   </div>
 </div>
+
+{% include wisdom.html %}
 
 > Since OpenAI ChatGPT o1 Pro is the closest thing the public has right now to
 > AGI, I figured I'd run my [latest daily tech journal
