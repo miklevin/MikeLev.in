@@ -6103,14 +6103,15 @@ But the **JSON payload building** is now effectively *verbatim* from your old co
 
 ---
 
-Me: Thank you, o1! How did you enjoy your stress test? If it's any consolation,
-this whole link graph endeavor hasn't been any less stressful for me. About a
-year ago I joined Botify and realized I could save the link-graph and visualize
-it. Then it's been a long process of successive implementations, going from the
-convluted process in the Web UI, to several Jupyter Notebook implmentations, go
-a first inspired version as my first FastHTML app, but using doing all the
-database and streaming stuff in all the wrong ways. Finally, I realized that
-this and everything else I did fit the pipeline model, and so this.
+**Me**: Thank you, o1! How did you enjoy your stress test? If it's any
+consolation, this whole link graph endeavor hasn't been any less stressful for
+me. About a year ago I joined Botify and realized I could save the link-graph
+and visualize it. Then it's been a long process of successive implementations,
+going from the convluted process in the Web UI, to several Jupyter Notebook
+implmentations, go a first inspired version as my first FastHTML app, but using
+doing all the database and streaming stuff in all the wrong ways. Finally, I
+realized that this and everything else I did fit the pipeline model, and so
+this.
 
 You've done really well. I can see that you're programmed to sort of be the
 idea-man, and drilling down on these tiny little curly cue bits at the end is no
