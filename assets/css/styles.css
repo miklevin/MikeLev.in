@@ -552,18 +552,21 @@ ol li .post-date {
 }
 
 .ascii-alice {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: black;
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 .ascii-alice pre {
+    position: relative;  /* Keep text above canvas */
+    z-index: 2;         /* Higher than canvas */
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: transparent;  /* Allow matrix to show through */
     color: #fff;
     border: none;
     white-space: pre;
@@ -573,11 +576,11 @@ ol li .post-date {
 
 @media (max-width: 768px) {
     .ascii-alice {
-        text-align:center
+        text-align: center;
     }
 
     .ascii-alice pre {
-        font-size: 2.5vw; /* Keep the mobile size as it was */
+        font-size: 2.5vw;
         line-height: 1;
         text-align: left;
         display: inline-block;
