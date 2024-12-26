@@ -185,7 +185,7 @@ King slamming out... uh...
 relatively fast typer, and didn't stop for the whole day, how much could they
 type?
 
-Perplexity: To estimate how much a human could type in a day, we can use average typing speeds and the number of hours available for typing.
+**Perplexity**: To estimate how much a human could type in a day, we can use average typing speeds and the number of hours available for typing.
 
 ### Average Typing Speed
 - **Fast Typist**: A relatively fast typist can type at speeds of **80 to 100 words per minute (wpm)**. For this calculation, let's use **90 wpm** as a representative speed.
@@ -218,9 +218,9 @@ Citations:
     [4] https://www.typing.com/blog/typing-speed/
     [5] https://www.typingpal.com/en/typing-test/vitesse-frappe-en.png?sa=X&ved=2ahUKEwjjnPvF3sWKAxXXhIkEHQyqNm8Q_B16BAgKEAI
 
-Me: If they did that for their entire life, how much text could they produce?
+**Me**: If they did that for their entire life, how much text could they produce?
 
-Perplexity: To estimate how much text a person could produce by typing continuously for their entire life, we can build on the previous calculation of daily output and incorporate a lifespan.
+**Perplexity**: To estimate how much text a person could produce by typing continuously for their entire life, we can build on the previous calculation of daily output and incorporate a lifespan.
 
 ### Daily Output
 As calculated earlier, a relatively fast typist could produce approximately **86,400 words in a day**.
@@ -252,9 +252,9 @@ If a relatively fast typist typed continuously for 60 years (from age 20 to 80),
 
 This is an impressive figure that highlights the potential volume of text one could generate through continuous typing!
 
-Me: How big would a text-file containing all those words be?
+**Me**: How big would a text-file containing all those words be?
 
-Perplexity: To estimate the size of a text file containing approximately **1.9 billion words**, we need to consider the average number of characters per word and the encoding used.
+**Perplexity**: To estimate the size of a text file containing approximately **1.9 billion words**, we need to consider the average number of characters per word and the encoding used.
 
 ### Average Characters per Word
 - A common estimate is that an average English word is about **5 characters long**. Including spaces and punctuation, we can estimate about **6 characters per word**.
@@ -281,19 +281,20 @@ $$
 A text file containing approximately **1.9 billion words** would be around **11.37 GB** when encoded in ASCII. If it includes more complex Unicode characters, the size could be larger, depending on the specific content of the text and encoding used[1][2].
 
 Citations:
-[1] https://www.reddit.com/r/AskComputerScience/comments/18jw8uu/how_big_is_a_txt_file_with_1_billion_characters/
-[2] https://stackoverflow.com/questions/62056433/estimating-size-of-a-large-text-file
-[3] https://www.usmobile.com/blog/how-much-is-a-gigabyte/
-[4] https://github.com/crscardellino/sbwce
-[5] https://www.mark-davies.org/articles/davies_62.pdf
-[6] https://www.kaggle.com/code/fanbyprinciple/pride-and-prejudice-text-encoding
-[7] https://21centurytext.wordpress.com/introducing-the-1-9-billion-word-global-web-based-english-corpus-glowbe/
-[8] https://opendata.stackexchange.com/questions/19711/how-can-i-get-the-english-wikipedia-corpus
-[9] https://python.plainenglish.io/creating-a-custom-corpus-928789c089e7?gi=c6bd1fe4a6d8
 
-Me: How much difficulty would nvim have any difficulty loading such a text file?
+    [1] https://www.reddit.com/r/AskComputerScience/comments/18jw8uu/how_big_is_a_txt_file_with_1_billion_characters/
+    [2] https://stackoverflow.com/questions/62056433/estimating-size-of-a-large-text-file
+    [3] https://www.usmobile.com/blog/how-much-is-a-gigabyte/
+    [4] https://github.com/crscardellino/sbwce
+    [5] https://www.mark-davies.org/articles/davies_62.pdf
+    [6] https://www.kaggle.com/code/fanbyprinciple/pride-and-prejudice-text-encoding
+    [7] https://21centurytext.wordpress.com/introducing-the-1-9-billion-word-global-web-based-english-corpus-glowbe/
+    [8] https://opendata.stackexchange.com/questions/19711/how-can-i-get-the-english-wikipedia-corpus
+    [9] https://python.plainenglish.io/creating-a-custom-corpus-928789c089e7?gi=c6bd1fe4a6d8
 
-Perplexity: Neovim (nvim) can handle large text files, but the performance may vary significantly based on several factors, including file size, content, and the configuration of Neovim itself.
+**Me**: How much difficulty would nvim have any difficulty loading such a text file?
+
+**Perplexity**: Neovim (nvim) can handle large text files, but the performance may vary significantly based on several factors, including file size, content, and the configuration of Neovim itself.
 
 ### Performance with Large Files
 1. **Loading Time**: Neovim has been reported to take considerable time to open large files, particularly when features like syntax highlighting or filetype detection are enabled. For instance, opening a moderately large file (1 million lines, 66 MB) with these features can take about **3 seconds**, whereas a clean setup without plugins or configurations can load it much faster—around **1 second**[1][2].
@@ -307,9 +308,9 @@ While Neovim can open very large text files (potentially in the gigabyte range),
 
 Citations:
 
-[1] https://www.youtube.com/watch?v=64UB9Nc2QvY
-[2] https://github.com/neovim/neovim/issues/19817
-[3] https://vi.stackexchange.com/questions/149/how-can-i-open-very-large-files-with-good-performance
+    [1] https://www.youtube.com/watch?v=64UB9Nc2QvY
+    [2] https://github.com/neovim/neovim/issues/19817
+    [3] https://vi.stackexchange.com/questions/149/how-can-i-open-very-large-files-with-good-performance
 
 ## Vim's File Size Handling
 
