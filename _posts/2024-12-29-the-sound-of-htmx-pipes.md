@@ -1087,7 +1087,9 @@ By following these guidelines, you’ll sustain a clear, light, “Unix pipeline
 
 ---
 
-Alright, this is great. So I now have:
+## Current State of Workflows
+
+### Existing Examples
 
 - Poetflow, a 5-step poetry workflow that shows some of the fancier features of
   unlocking and restarting workflows with light LLM tutorial integration
@@ -1095,7 +1097,9 @@ Alright, this is great. So I now have:
 - Linkflow, a first practical implementation that generates CSVs from a complex
   API that uses wait-for-availability polling
 
-But now I need a new workflow that demonstrates one of these per card:
+## Requirements for New Workflow
+
+### Desired Card Demonstrations
 
 - A mini file directory that lets you list and sort the files in a folder
 - Demonstrate the use of every logical to use in a system like this form type
@@ -1112,20 +1116,28 @@ But now I need a new workflow that demonstrates one of these per card:
 - Something that starts to bring D3js into the picture, preferably with an
   Anywidget integration setting the stage for Pythonic d3.js work.
 
+### Implementation Strategy
+
 This is way too much for you to even try to do in the first pass, so don't!
 Instead, take the principles you see working in the 3 existing examples, and
 make a long placeholder template, probably the equivalent of Poetflow, as I
 really want the ability to finalize, unlock and restart these flows.
 
+### Purpose and Vision
+
 This is the kata or the muscle memory building-block moves of the Workflow flow.
 I want someone going through these steps to have the ah-ha realization moment of
 what can be built out of it.
+
+### Building Blocks
 
 I also am giving myself the Lego like building blocks for the parts that I
 particularly need to build out of it, which are traditional Pandas ETL flows
 that let you look at it like Excel along the way. The df's might be huge, so it
 needs sorting and filtering. It doesn't need those features right away, but do
 look at the QT and TK based options.
+
+### Implementation Priorities
 
 Of all the things I'd probably like to see implemented in the early version of a
 longer empty card template, this Excel-like dataframe interface is the first.
@@ -1139,6 +1151,8 @@ the pop-up browser, and that will end up in their Downloads directory, so
 they'll be immediately asked to upload it creating a deterministic path instead
 of futsing around with moving files with all the OS variation problems that will
 incur.
+
+### Positioning and Philosophy
 
 And finally, I think it's important to position this like an Electron app even
 though it's going to look like a hosted web app to LLMs like you. I just happen
@@ -1845,3 +1859,435 @@ The project described is ambitious and has the potential to empower individuals 
 
 I believe this article and the underlying project are significant contributions to the ongoing conversation about the future of AI, web development, and the democratization of technology. I'm excited to see how this project evolves and the impact it will have on the way we build and interact with software.
 
+---
+
+Alright, this time I put the o1 Pro created code into the codebase right away,
+instead of waiting a few days to work up the courage, haha! And it worked almost
+exactly as intended without any edits. I need to modify the instructions so that
+the landing page of a workflow never uses requests as a parameter. That's
+because the way it gets linked into the system is this:
+
+```python
+async def create_grid_left(menux, render_items=None):
+    """
+    YOU HAVE ARRIVED TO WHERE THE PLUGINS PLUG IN!!!
+
+    Create the left column of the main grid layout with vertically stacked Cards.
+    menuxxx makes for a good search term to jump here for frequent menu tweaking.
+
+    +-----------------------------------------------------------+
+    |                      create_nav_group                     |
+    +-----------------------------------------------------------+
+    |                       Main Container                      |
+    |  +-----------------------------------------------------+  |
+    |  |                                           Chat      |  |
+    |  |               Plugin Output             Interface   |  |
+    |  |  +-----------------------------------+  +--------+  |  |
+    |  |  |               menux               |  |        |  |  |
+    |  |  |                                   |  |        |  |  |
+    |  |  |          +-------------+          |  |        |  |  |
+    |  |  |          |   Plugin    |          |  |        |  |  |
+    |  |  |          |  Decision   |          |  |        |  |  |
+    |  |  |          |   Point     |          |  |        |  |  |
+    |  |  |          +------+------+          |  |        |  |  |
+    |  |  |                 |                 |  |        |  |  |
+    |  |  |        +--------+--------+        |  |        |  |  |
+    |  |  |        |        |        |        |  |        |  |  |
+    |  |  |      todo /   stream   link       |  |        |  |  |
+    |  |  |     default    sim     graph      |  |        |  |  |
+    |  |  |                                   |  |        |  |  |
+    |  |  +-----------------------------------+  +--------+  |  |
+    |  |                                                     |  |
+    |  +-----------------------------------------------------+  |
+    |                                                           |
+    +-----------------------------------------------------------+
+    |                  create_poke_button                       |
+    +-----------------------------------------------------------+
+    """
+
+    if menux == profile_app.name:
+        return await profile_render()  # Might look like a plugin, but integral.
+    elif menux == todo_app.name:
+        return await todo_render(menux, render_items)
+    elif menux == 'connect_with_botify':
+        return await connect_with_botify.connect_render()
+    elif menux == 'link_graph':
+        return await link_graph.link_render()
+    elif menux == 'link_graph_flow':
+        return await link_graph_flow.landing()
+    elif menux == 'ten_card_flow':
+        return await ten_card_flow.landing()
+    elif menux == 'stream_simulator':
+        return await stream_simulator.stream_render()
+    elif menux == 'bridgeflow':
+        return await bridgeflow.landing()
+    elif menux == 'poetflow':
+        return await poetflow.start_form()
+    else:
+        return await introduction.introduction_render()
+```
+
+
+## Pipeline State Management Issue
+
+So, there is no request object in scope on that first `.landing()` method call.
+I'll have to update the above guide with that detail.
+
+## TenCardFlow Improvements
+
+Next, here are some of the subtleties about the TenCardFlow that I want to want
+to improve before moving forward with the Card equivalents of the Jupyter Cell
+Magics. I really can't wait to get to them, especially Anywidget, however I need
+to get these rough edges smoothed out.
+
+### Card Navigation Consistency
+
+Firstly, when on Card 1 and submitting a key that already exists, it jumps right
+to showing the last card, I guess it's the 11th which is the locked state.
+However, I want 100% consistent presentation, and this is a view that is not
+shown when filling in the prior cards. When filling them in, that 11th card
+shows at the end of the chain of cards, and there is a chain reaction mechanism
+to do this. This chain reaction mechanism is properly used if a pipeline
+workflow is left unfinished and you plug its ID back in on card 1. It will
+chain-react up to where you left off, and this should actually be the same for
+locked workflows, the thinking being that a large purpose for keeping a workflow
+pipeline record existing is to provide the ad hoc access to the files and other
+output created as a side effect of the workflow. 
+
+### File Access and Side Effects
+
+The CSVs files from Linkgraph for example have no way to access them right now.
+As a standard convention, we want to be able to put the same Project URL in and
+have the card chain reaction occur, and on one of those cards will be the tiny
+file browser user interface. So the already processed cards provide an
+opportunity for ad hoc access to the side effects. So there is ever a pipeline
+workflow shown that does not also show the chain reacted cards required to build
+it up to whatever step it's on, even a locked and finalized step. Does that make
+sense?
+
+**o1 Pro**: Below is an **approach** and some **sample adjustments** to ensure that if a user plugs in an existing workflow ID—whether it’s partially completed or fully locked—the system **always** renders the entire chain of steps from Card 1 through Card 10, culminating in the final locked step (if finalized). That way, you never “jump” right to the last step or skip the prior cards. This is particularly useful for letting users revisit side effects (e.g. CSV files) associated with earlier steps.
+
+---
+
+## 1. The Desired Behavior
+
+1. **Landing**: If you type a pipeline ID that’s already in the system, the flow shouldn’t abruptly jump to step 11 (the locked final). It should display placeholders from step_01 to step_10, with each step’s content showing “Done” or “Locked” (if those steps were already completed).
+2. **Chain Reaction**: We want the placeholders loaded for **every** step. 
+   - If the workflow isn’t finalized yet, the last incomplete step auto-loads. 
+   - If it **is** finalized (step_11 has `"finalized": true`), we still display steps 01–10 as “Done,” and the final card showing “locked.”
+
+Essentially, even for a locked pipeline, the user sees the entire progression of steps, but the final card is locked.
+
+---
+
+## 2. Revisiting the TenCardFlow `init()` Method
+
+Currently, `init()` checks if you are “finalized” then jumps right to `render_finalized()`. Instead, we can unify the display logic so that we **always** generate placeholders for steps 1–10 (plus the final step), letting them auto-load. Then the last step or “final” step can check if it’s locked.
+
+Below is a **conceptual** code snippet. The key difference is we remove the `if "finalized" in step11_data: return Div(self.render_finalized())` portion, and instead let the placeholders handle it. Then in the final step logic, we either show a locked view or the finalize form.
+
+**DISCLAIMER**: This snippet focuses on the high-level idea. You’ll adapt it to your exact code style.
+
+```python
+async def init(self, request):
+    """
+    POST /tenflow/init
+    Sets pipeline_id, initializes pipeline, always returns placeholders from step_01 -> step_11
+    letting the chain reaction load them. If the workflow is already finalized, the last step
+    will appear locked, but we still see the earlier steps in the chain.
+    """
+    form = await request.form()
+    pipeline_id = form.get("pipeline_id", "untitled")
+    db["pipeline_id"] = pipeline_id
+    self.pipulate.initialize_if_missing(pipeline_id)
+
+    # Instead of jumping straight to a 'finalized' view,
+    # we ALWAYS generate placeholders from step_01 ... step_11
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+
+    return Div(
+        *placeholders,
+        id="tenflow-container"
+    )
+```
+
+1. **No immediate final check** in `init()`. If the pipeline is *already* finalized, then step_11 will handle that.  
+2. Now when the user re-submits a pipeline ID that’s fully locked, the placeholders for steps 1–10 will appear in the DOM, each “done”/“locked” if you coded them that way, and step_11 will handle the locked view.  
+
+---
+
+## 3. Adjusting Step 11 to Always Appear in the Chain
+
+With the above approach, step 11 is always included in the placeholders from the get-go. If your code is set up to “auto-load” step_01 then chain to the next, you want to ensure step_11 is also part of that chain. So in your `STEPS` array:
+
+```python
+self.STEPS = [
+    ("c1",  "step_01", "Card 1"),
+    ...
+    ("c10", "step_10", "Card 10"),
+    ("finalized", "step_11", "Finalize")
+]
+```
+
+When the user first visits, step_01 triggers automatically. Then each step’s completion triggers the next. Ultimately, if a pipeline is *already completed*, each step’s route will detect it’s done and skip to the next, leading to step_11, which sees `{"finalized": True}` and displays locked UI.
+
+In other words, **the presence of placeholders** for every step ensures that the user sees a linear progression of cards, even if the pipeline is done or partially done.
+
+---
+
+## 4. Example: In Step 11’s GET Handler
+
+```python
+async def step_11(self, request):
+    pipeline_id = db.get("pipeline_id", "untitled")
+    step11_data = self.pipulate.get_step_data(pipeline_id, "step_11", {})
+
+    # If finalized, show locked, else show finalize button
+    if "finalized" in step11_data:
+        return self.render_finalized()
+    else:
+        return Div(
+            Card(
+                H3("Step 11: Finalize"),
+                P("Everything up to step 10 is done. Finalize now?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"{self.prefix}/step_11_submit",
+                    hx_target="#step_11"
+                )
+            ),
+            id="step_11"
+        )
+```
+
+Now, if the pipeline is already finalized, we show `render_finalized()`. If it’s not, we let them finalize.
+
+---
+
+## 5. Ensuring Each Step “Auto-Loads” or “Skips” If Already Done
+
+Typically, you might see code in e.g. `step_01`:
+
+```python
+if step1_data.get("data"):
+    # Already done => show summary + load next
+    return Div(
+        Card(...),
+        Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+    )
+else:
+    # Show form
+```
+
+**IMPORTANT**: If the pipeline is fully or partially done, the user will see each step do a quick “already done” -> load next. That’s the chain reaction we want. 
+
+**However**, if you want them to truly see the earlier steps visually, you might prefer that it doesn’t skip in one shot. Instead, it’s a design choice:
+
+- **Current Approach**: “One after the next” auto-load. This can lead to a quick skip if you have many steps. Some folks prefer that it just instantly leaps to the end.  
+- **Alternative**: Actually show the placeholders for each step at once, each with a label “Done” or “In Progress.” That can be done by returning *all* steps in a single response. But that’s more advanced UI design.
+
+---
+
+## 6. Summary of the “Chain Reaction But Show All Cards” Tweak
+
+1. **In `init()`**: Always generate placeholders from step_01 to step_11. Don’t do a special “if locked, show final” early.  
+2. **In each step**: If it’s already done, quickly load the next, or simply show a small “Done” card with a link to the next.  
+3. **In step_11**: If “finalized,” show locked. Otherwise let them finalize.  
+4. **No scenario** forcibly short-circuits the chain or hides the earlier cards. If you want to see e.g. Step 3’s side effects, you can revisit that card: it’s either “done” or “in progress,” but it’s still present in the chain.
+
+With these changes, you’ll maintain a consistent, linear progression of steps from 1 through 10, plus 11 for locking/unlocking, even when a pipeline is already done. The user (and your LLM or future advanced UI) can easily see or leverage side effects from the earlier steps.
+
+---
+
+## Expressing Jump-to Feature Request
+
+### Initial Reflections
+
+**Me**: Okay, the interruptability and resumability of this pipeline process is astounding.
+
+The explicitness of the number of steps and their status as done or still
+needing to be done is completely clear.
+
+I just added `autofocus=True` on the input fields of all the cards, so each new
+card brings cursor focus to itself, so on the TenCardFlow in its current form,
+it's an entirely hands-on-the-keyboard app without having to move your hand to
+the mouse until the finalize button.
+
+### Framework and Feature Requirements
+
+This has lain down a phenomenal framework for moving forward. There is really
+only one baseline feature left, and that is resuming anywhere in the pipeline
+flow so you can make new choices from that point forward, effectively erasing
+everything that came after the selected card.
+
+### Challenging Traditional Pipeline Patterns
+
+Now I'm going to be fighting against the LLM on this a bit, because it goes
+against traditional pipeline patterns, but I need remind it that first of all,
+these records in the pipeline table should only ever be considered ephemeral and
+temporary. They are useful and can provide user interfaces to access their side
+effects, so they alleviate us from having to build other apps. So if you delete
+a pipeline record that provided links to a CSV in a certain location and you
+want those links back because you have no other way to access it (never really
+true because localhost), but for argument's sake, all you need do is put the
+same values into the cards leading up to that side-effect, and when it gets up
+to the ad hoc UI, it will just automatically detect the presence of the CSVs and
+not generate them again. The ad hoc file browser UI will be restored with the
+same pipeline values in.
+
+### The Case for Pipeline Record Mutability
+
+So there is really no harm in deleting whole pipeline records. In this spirit,
+you should realize that there is especially no harm in erasing everything in a
+pipeline workflow up to a certain point.
+
+So you can take a finalized TenCardFlow workflow pipeline record, unfinalize it,
+and roll back to step 5 and re-enter the values from that point forward.
+
+Or at least, that is the feature I am hereby asking for.
+
+### Implementation Considerations
+
+Honestly, implementation wise even though I'm going to leave it up to you o1
+Pro, knowing what I know about this app it should merely be a matter of using
+the unserialized value from the JSON data blob for that record and altering it
+to make it only up to whatever step was selected in the UI (probably by just
+clicking the finished card), and then re-chain-reacting the UI. From the user's
+point of view, they unlock a completed workflow, click any arbitrary step, and
+then it immediately looks like the process was only completed up to that step.
+
+### A Note on Data Loss Concerns
+
+As the pattern predicting entity that you are, you're going to get pretty
+nervous about data-loss at this point, and throwing up confirmation prompts to
+the user. Don't be. Forget the confirmation prompts for now. I want the next
+step, which is the ability to step back into any step to be as fluid and
+seamless as possible.
+
+### Future Development Direction
+
+I would also like it to not complicate the workflows much, so while your first
+pass may be changes mostly in the TenCardFlow class itself, think about making
+it a systemic helper function from the Pipulate class.
+
+I think you know what I'm asking for, please and thank you.
+
+---
+
+## Implementing Jumping To Anywhere In Workflow
+
+**o1 Pro**: Below is an **illustrative** example of how you might **enable stepping back into** any previously completed card, erasing the later steps and letting the user re-enter values from that earlier point. It follows the same design used in other pipeline flows (e.g. `Poetflow`’s `return_to_step`). We’ll do it by:
+
+1. Adding a small route named `jump_to_step` or `return_to_step`.  
+2. Using `pipulate.clear_steps_from(...)` to remove all step data from the chosen step forward.  
+3. Regenerating the placeholders from step_01 onward in a single response.  
+
+Then, at the UI level, you can place a little hidden form or link on each card that calls this new route, passing the step ID you want to roll back to.  
+
+---
+
+## 1. Add a Route: `jump_to_step`
+
+In your `TenCardFlow` constructor, define a new route (e.g., `/{prefix}/jump_to_step`, methods=["POST"]):
+```python
+(f"{prefix}/jump_to_step", self.jump_to_step, ["POST"])
+```
+
+Then implement it as follows:
+
+```python
+async def jump_to_step(self, request):
+    """
+    POST /tenflow/jump_to_step
+    Allows user to roll back to a prior step, discarding all subsequent data
+    (including finalization flag if present).
+    """
+    form = await request.form()
+    step_id = form.get("step")  # e.g. "step_03" or "step_07"
+    pipeline_id = db.get("pipeline_id", "untitled")
+
+    # 1) Clear everything from step_id onwards
+    self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+    # 2) Optionally unfinalize if it’s locked
+    #    (If you want automatic unfinalization whenever jumping back)
+    state = self.pipulate.get_state(pipeline_id)
+    if "step_11" in state:
+        # If 'finalized' in step_11, remove it
+        if "finalized" in state["step_11"]:
+            del state["step_11"]["finalized"]
+            self.pipulate._save_state(pipeline_id, state)
+
+    # 3) Now re-generate all placeholders from start
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+    return Div(*placeholders, id="tenflow-container")
+```
+
+### Explanation
+
+- **`step = form.get("step")`**: The hidden form or link will pass something like `"step_03"` telling us which step to revert to.  
+- **`clear_steps_from`**: The pipeline-level function that removes all JSON keys for steps after (and including) `step_03` from the pipeline record.  
+- **Optional Unfinalize**: If you always want to revert from locked state as well, just remove `"finalized"` from the `step_11` data.  
+- **Regenerate placeholders**: This triggers the entire chain from step_01. Since steps 1–2 are presumably still done, they’ll auto-skip or display done, etc., until we hit the cleared step that’s not done.  
+
+---
+
+## 2. Insert a Small Link or Button on Completed Steps
+
+Whenever a step is completed, you can show a link or form that calls `jump_to_step`. For example, in `step_03` if the step is done:
+
+```python
+if step3_data.get("data"):
+    return Div(
+        Card(
+            f"Step 3 done. Value: {step3_data['data']}",
+            style="color: green;"
+        ),
+        # Add a small "Roll Back" button
+        Form(
+            Input(type="hidden", name="step", value="step_03"),
+            Button("Revert to Step 3", type="submit", style="background-color: #faa;"),
+            hx_post=f"{self.prefix}/jump_to_step",
+            hx_target="#tenflow-container",
+            hx_swap="outerHTML"
+        ),
+        Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+    )
+```
+
+### Explanation
+
+- We keep the chain reaction to load step_04. But we also add a form with:
+  - A hidden input `name="step"` => `"step_03"`.  
+  - A button labeled “Revert to Step 3.”  
+  - `hx_post=f"{self.prefix}/jump_to_step"`, which calls the new route.  
+  - `hx_target="#tenflow-container"`, so we replace the entire container with the new placeholders.  
+
+When the user clicks “Revert to Step 3,” it removes steps 3 and onward from the pipeline record, and returns us to that re-initialized chain of placeholders.
+
+> **Note**: This example shows a big pink “Revert to Step 3” button on every completed card. You might choose a smaller link or an icon, or only show it on the final “locked” step. That’s a design preference.
+
+---
+
+## 3. Behavior When Flow is Finalized
+
+- If the pipeline is locked, step_11’s `{"finalized": true}` is present. If you want to allow immediate roll-back from any step, do the automatic unfinalize snippet in `jump_to_step`.  
+- Alternatively, you can require the user to press an “Unfinalize” button first, then show the revert buttons. Either approach is possible.
+
+---
+
+## 4. Data-Loss: No Confirmation
+
+As you requested, **no confirm** prompts in the code. The user’s single click will blow away everything from that step forward. This is consistent with your ephemeral pipeline approach. If you want to add a “Are you sure?” popup, you could add an HTMX `confirm` attribute later or a simple JavaScript alert.
+
+---
+
+## 5. Summation
+
+With this small addition:
+
+1. Each completed step can show a revert button.  
+2. `jump_to_step` uses `clear_steps_from` to remove data from that step onward (and unfinalize if needed).  
+3. The pipeline regenerates from step 1 with placeholders, skipping quickly over completed steps 1–2 (for instance) and halting at the now “blank” step you rolled back to.  
+
+Thus, the user can revisit any step—**even** in a locked pipeline—without needing to delete or re-create the entire record. That’s it! Enjoy the new “hot-swappable” pipeline steps.
