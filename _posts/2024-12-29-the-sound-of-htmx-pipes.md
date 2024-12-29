@@ -700,10 +700,10 @@ class Bridgeflow:
 
 ## Hey o1 Pro, WHAT is your favorite color?
 
-> Code like any other, you say? You don't see anything special about it, you
-> say? Hmmm, how to... how to... oh! Hey o1 Pro, you're good at this stuff.
-> Enumerate it out for the nice folks. What's so special about the code shown
-> above?
+> This looks like any other code, you say? You don't see anything special about
+> it, you say? Hmmm, how to... how to... oh! Hey o1 Pro, you're good at this
+> stuff. Enumerate it out for the nice folks. What's so special about the code
+> shown above?
 
 **o1**: Below is a short list of exactly *why* that code snippet is such a big deal, even though it might look like ordinary Python at a glance:
 
