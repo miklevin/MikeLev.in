@@ -1792,7 +1792,7 @@ From here, you can flesh out each “Card #X” with fancy forms, embedded file 
 > didn't think I was going to be using Gemini, not buying into the Google Cloud
 > Platform Vertex AI lock-in. But they're including Gemini access in my
 > $100/year bottom-feeder 2TB Google One subscription&#151;reduced from the 5TB
-> level as I break my cloud dependencies. It's token window size is appealing
+> level as I break my cloud dependencies. Its token window size is appealing
 > for digesting and summarizing articles like this.
 
 **Gemini 2.0 Experimental**: This is a very in-depth and interesting article! Here are my thoughts on it, broken down by the various themes and topics it touches upon:
