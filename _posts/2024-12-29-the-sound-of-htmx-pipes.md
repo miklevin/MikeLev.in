@@ -134,6 +134,15 @@ important, and the name to be aware of in the coming years that's gradually
 going to replace all that is proprietary (already has with servers) is
 ***nix!***
 
+#### Another Nix On The Block
+
+The interesting state of affairs today is that a particular Linux tool called
+`nix` has some real ***Docker-killing potential*** as a declarative and
+deterministic system-building definition language (IaC / infrastructure as code)
+that plants whole Linux subsystems into the folders of Windows and Macs, thus
+adding fuel to the nix fire. It is also used to build a whole Linux distro
+called nixOS (what I use).
+
 ### The Power of Unix Pipes
 
 So one of the core fundamentals that made Unix so win is the concept of pipes
