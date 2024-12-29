@@ -219,10 +219,21 @@ he instilled command-line fear into all of with conditioning through marketing.
 ### The GUI Trap
 
 While the symbolic point-and-click user interface is good for allowing the
-uninitiated into tech maturity equivalence of a toddler get on the tech
-bandwagon fast, being productive with ***what you see is what you get***
-(WYSIWYG), it's not the end of the story. So many people thing Steve Jobs was
-right and that these visual interfaces are the most important thing. 
+uninitiated (who have the tech maturity equivalence of a toddler) get jump on
+the tech bandwagon easily, being productive with ***what you see is what you
+get*** (WYSIWYG), it's not the end of the story. None of us are starting out
+with the know-nothing-about-computers state of the early 80s.
+
+Today, many people still think Steve Jobs was right and that these visual
+interfaces are the most important thing, but really it served its purpose of
+jumpstarting us and giving a convenient on-ramp. But today if you're savvy,
+graphical user interfaces, particularly the proprietary ones, are more of an
+hindrance to competitive advantage and real user power in the tech landscape
+than a help.
+
+A true power user can still use the coddling consumer GUIs (and feel the joy of
+Apple hardware or whatever) as a sort of easy-launch host mechanism for the more
+command-line oriented power apps.
 
 ### The Consumer Interface Fallacy
 
