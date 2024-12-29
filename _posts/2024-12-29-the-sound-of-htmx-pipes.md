@@ -1156,11 +1156,10 @@ are otherwise blank, closer to the Bridgeflow example, please and thank you!
 
 > o1 Pro seemed at first not as good of a coder as Claude 3.5 Sonnet, but the
 > truth is you give it a plenty good story, it'll give you plenty good code. You
-> have to make up what you lose in in-editor context with a fluffy narrative.
-
-I also want to point out here what's showing up as square brackets in the
-markdown around words like [Poetflow] were actually beautiful italics in the
-ChatGPT web UI.
+> have to make up what you lose in in-editor context with a fluffy narrative. I
+> also want to point out here what's showing up as square brackets in the
+> markdown around words like [Poetflow] were actually beautiful italics in the
+> ChatGPT web UI.
 
 **o1 Pro**: Below is a minimal, **10-card** “Poetflow-style” workflow example. Each card is essentially blank—closer to the \[Bridgeflow\] style, but including a final step to lock/unlock (like \[Poetflow\]). Use it as a starter template for building out advanced cards (file directory listings, form demos, Pandas grids, etc.). This is your 10-step pipeline scaffolding to fill in as you wish!
 
