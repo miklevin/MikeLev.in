@@ -1,6 +1,6 @@
 ---
-title: The Sound of Machine Instruction Set Music
-permalink: /futureproof/the-sound-of-machine-instruction-set-music/
+title: The Sound of HTMX Pipes
+permalink: /futureproof/the-sound-of-htmx-pipes/
 description: 
 layout: post
 sort_order: 1
