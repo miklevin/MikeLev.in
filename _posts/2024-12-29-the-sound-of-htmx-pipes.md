@@ -1084,3 +1084,698 @@ Citations:
 - **Welcome Complexity**: As you add Anywidget or bigger forms, keep the same style. Let the indentation reflect the HTML hierarchy. Keep the data in the pipeline. Return partial HTML that triggers the next step. You’ll keep that sense of “pipe flow” even in more elaborate tasks.
 
 By following these guidelines, you’ll sustain a clear, light, “Unix pipeline meets Jupyter Notebook” vibe, no matter how fancy the final UI or how integrated the LLM becomes. This *style guide* ensures you keep it straightforward, composable, and a breeze to read—whether you’re coding an ultra-simple 3-step flow or a sprawling data-collection labyrinth full of interactive widgets.
+
+---
+
+Alright, this is great. So I now have:
+
+- Poetflow, a 5-step poetry workflow that shows some of the fancier features of
+  unlocking and restarting workflows with light LLM tutorial integration
+- Bridgeflow, a completely minimal 3-step flow
+- Linkflow, a first practical implementation that generates CSVs from a complex
+  API that uses wait-for-availability polling
+
+But now I need a new workflow that demonstrates one of these per card:
+
+- A mini file directory that lets you list and sort the files in a folder
+- Demonstrate the use of every logical to use in a system like this form type
+  from PicoCSS
+- A pop-up-the-browser example that pops your default browser up using Python's
+  standard library webbrowser package
+- An example that does a basic Pandas manipulation
+- An example that puts an Excel-like data grid in the browser to interact with
+  a Pandas DataFrame.
+- An example that shows a basic matplotlib with the most traditional and easy
+  integration method
+- An example that shows an Anywidget integration... for ANYTHING, whatever's
+  easiest for a prototype example.
+- Something that starts to bring D3js into the picture, preferably with an
+  Anywidget integration setting the stage for Pythonic d3.js work.
+
+This is way too much for you to even try to do in the first pass, so don't!
+Instead, take the principles you see working in the 3 existing examples, and
+make a long placeholder template, probably the equivalent of Poetflow, as I
+really want the ability to finalize, unlock and restart these flows.
+
+This is the kata or the muscle memory building-block moves of the Workflow flow.
+I want someone going through these steps to have the ah-ha realization moment of
+what can be built out of it.
+
+I also am giving myself the Lego like building blocks for the parts that I
+particularly need to build out of it, which are traditional Pandas ETL flows
+that let you look at it like Excel along the way. The df's might be huge, so it
+needs sorting and filtering. It doesn't need those features right away, but do
+look at the QT and TK based options.
+
+Of all the things I'd probably like to see implemented in the early version of a
+longer empty card template, this Excel-like dataframe interface is the first.
+
+Soon after, probably a matplotlib, because that seems easiest as the path most
+traveled. Then probably something in Anywidget, because I want to get to that
+very soon. Popping up a browser window with webbrowser should be trivial. Oh, I
+will also want to do a file-upload component. It seems silly since it's already
+their localhost machine, but they're going to be prompted to download stuff with
+the pop-up browser, and that will end up in their Downloads directory, so
+they'll be immediately asked to upload it creating a deterministic path instead
+of futsing around with moving files with all the OS variation problems that will
+incur.
+
+And finally, I think it's important to position this like an Electron app even
+though it's going to look like a hosted web app to LLMs like you. I just happen
+to use nix flakes instead of Electron as the hosting mechanism, the same lack of
+criticality of enterprise concerns that's provided Electron apps should be
+provided to this systems.
+
+So there we go. Give me the first pass of a 10-card version of Poetflow in that
+it has process locking and unlocking at the end, but the 10 cards to get there
+are otherwise blank, closer to the Bridgeflow example, please and thank you!
+
+---
+
+## 10 Steps From o1 Punch
+
+> o1 Pro seemed at first not as good of a coder as Claude 3.5 Sonnet, but the
+> truth is you give it a plenty good story, it'll give you plenty good code. You
+> have to make up what you lose in in-editor context with a fluffy narrative.
+
+**o1 Pro**: Below is a minimal, **10-card** “Poetflow-style” workflow example. Each card is essentially blank—closer to the \[Bridgeflow\] style, but including a final step to lock/unlock (like \[Poetflow\]). Use it as a starter template for building out advanced cards (file directory listings, form demos, Pandas grids, etc.). This is your 10-step pipeline scaffolding to fill in as you wish!
+
+---
+
+```python
+class TenCardFlow:
+    """
+    A 10-step flow that ends with a Finalize step, demonstrating:
+      - Basic pipeline structure
+      - Minimal "blank" steps
+      - Optional finalization/unfinalization
+    Close to Bridgeflow in simplicity, but with an 11th route to finalize/unfinalize
+    similar to Poetflow.
+    """
+
+    def __init__(self, app, pipulate, prefix="/tenflow"):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+
+        # Steps array: we do 10 "cards" + 1 "finalize" step
+        # (internal_key, step_id, label)
+        self.STEPS = [
+            ("c1",  "step_01", "Card 1"),
+            ("c2",  "step_02", "Card 2"),
+            ("c3",  "step_03", "Card 3"),
+            ("c4",  "step_04", "Card 4"),
+            ("c5",  "step_05", "Card 5"),
+            ("c6",  "step_06", "Card 6"),
+            ("c7",  "step_07", "Card 7"),
+            ("c8",  "step_08", "Card 8"),
+            ("c9",  "step_09", "Card 9"),
+            ("c10", "step_10", "Card 10"),
+            ("finalized", "step_11", "Finalize")
+        ]
+
+        # Route definitions
+        routes = [
+            (f"{prefix}",                self.landing),
+            (f"{prefix}/init",           self.init, ["POST"]),
+
+            (f"{prefix}/step_01",        self.step_01),
+            (f"{prefix}/step_01_submit", self.step_01_submit, ["POST"]),
+
+            (f"{prefix}/step_02",        self.step_02),
+            (f"{prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+
+            (f"{prefix}/step_03",        self.step_03),
+            (f"{prefix}/step_03_submit", self.step_03_submit, ["POST"]),
+
+            (f"{prefix}/step_04",        self.step_04),
+            (f"{prefix}/step_04_submit", self.step_04_submit, ["POST"]),
+
+            (f"{prefix}/step_05",        self.step_05),
+            (f"{prefix}/step_05_submit", self.step_05_submit, ["POST"]),
+
+            (f"{prefix}/step_06",        self.step_06),
+            (f"{prefix}/step_06_submit", self.step_06_submit, ["POST"]),
+
+            (f"{prefix}/step_07",        self.step_07),
+            (f"{prefix}/step_07_submit", self.step_07_submit, ["POST"]),
+
+            (f"{prefix}/step_08",        self.step_08),
+            (f"{prefix}/step_08_submit", self.step_08_submit, ["POST"]),
+
+            (f"{prefix}/step_09",        self.step_09),
+            (f"{prefix}/step_09_submit", self.step_09_submit, ["POST"]),
+
+            (f"{prefix}/step_10",        self.step_10),
+            (f"{prefix}/step_10_submit", self.step_10_submit, ["POST"]),
+
+            (f"{prefix}/step_11",        self.step_11),
+            (f"{prefix}/step_11_submit", self.step_11_submit, ["POST"]),
+
+            # Finalization toggles
+            (f"{prefix}/unfinalize",     self.unfinalize, ["POST"])
+        ]
+
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    # ---------------------------------------------------------------------
+    # LANDING & INIT
+    # ---------------------------------------------------------------------
+    async def landing(self, request):
+        """
+        GET /tenflow
+        Quick landing page with a form that sets pipeline_id and calls /init
+        """
+        return Container(
+            Card(
+                H2("10-Card Demo Flow"),
+                P("Welcome. This flow has 10 steps (cards) and a final lock/unlock step."),
+                Form(
+                    Input(
+                        type="text",
+                        name="pipeline_id",
+                        placeholder="Enter an ID or name for this run",
+                        required=True
+                    ),
+                    Button("Begin 10-Card Flow", type="submit"),
+                    hx_post=f"{self.prefix}/init",
+                    hx_target="#tenflow-container"
+                )
+            ),
+            Div(id="tenflow-container")
+        )
+
+    async def init(self, request):
+        """
+        POST /tenflow/init
+        Sets pipeline_id, initializes pipeline, returns placeholders for steps
+        """
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+        self.pipulate.initialize_if_missing(pipeline_id)
+
+        # If user has already finalized, skip to final
+        step11_data = self.pipulate.get_step_data(pipeline_id, "step_11", {})
+        if "finalized" in step11_data:
+            return Div(
+                self.render_finalized(), 
+                id="tenflow-container"
+            )
+
+        # Otherwise show placeholders for steps (only load step_01)
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(
+            *placeholders,
+            id="tenflow-container"
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 01
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+
+        if step1_data.get("data"):
+            # Already done => show summary + next
+            return Div(
+                Card(
+                    f"Step 1 done. Value: {step1_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+            )
+        else:
+            # Show form
+            return Div(
+                Card(
+                    H3("Card #1"),
+                    P("Enter any data you want, just a placeholder..."),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_01_submit",
+                        hx_target="#step_01"
+                    )
+                ),
+                Div(id="step_02"),
+                id="step_01"
+            )
+
+    async def step_01_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_01", {"data": user_data})
+
+        return Div(
+            Card(f"Step 1 locked in with data: {user_data}", style="color: green;"),
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        if step2_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 2 done. Value: {step2_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #2"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 2"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_02_submit",
+                        hx_target="#step_02"
+                    )
+                ),
+                Div(id="step_03"),
+                id="step_02"
+            )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_02", {"data": user_data})
+
+        return Div(
+            Card(f"Step 2 locked in with data: {user_data}", style="color: green;"),
+            Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 03
+    # ---------------------------------------------------------------------
+    async def step_03(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+
+        if step3_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 3 done. Value: {step3_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #3"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 3"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_03_submit",
+                        hx_target="#step_03"
+                    )
+                ),
+                Div(id="step_04"),
+                id="step_03"
+            )
+
+    async def step_03_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_03", {"data": user_data})
+
+        return Div(
+            Card(f"Step 3 locked in with data: {user_data}", style="color: green;"),
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 04
+    # ---------------------------------------------------------------------
+    async def step_04(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+
+        if step4_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 4 done. Value: {step4_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #4"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 4"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_04_submit",
+                        hx_target="#step_04"
+                    )
+                ),
+                Div(id="step_05"),
+                id="step_04"
+            )
+
+    async def step_04_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_04", {"data": user_data})
+
+        return Div(
+            Card(f"Step 4 locked in: {user_data}", style="color: green;"),
+            Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 05
+    # ---------------------------------------------------------------------
+    async def step_05(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step5_data = self.pipulate.get_step_data(pipeline_id, "step_05", {})
+
+        if step5_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 5 done. Value: {step5_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_06", hx_get=f"{self.prefix}/step_06", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #5"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 5"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_05_submit",
+                        hx_target="#step_05"
+                    )
+                ),
+                Div(id="step_06"),
+                id="step_05"
+            )
+
+    async def step_05_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_05", {"data": user_data})
+
+        return Div(
+            Card(f"Step 5 locked in: {user_data}", style="color: green;"),
+            Div(id="step_06", hx_get=f"{self.prefix}/step_06", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 06
+    # ---------------------------------------------------------------------
+    async def step_06(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step6_data = self.pipulate.get_step_data(pipeline_id, "step_06", {})
+
+        if step6_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 6 done. Value: {step6_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_07", hx_get=f"{self.prefix}/step_07", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #6"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 6"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_06_submit",
+                        hx_target="#step_06"
+                    )
+                ),
+                Div(id="step_07"),
+                id="step_06"
+            )
+
+    async def step_06_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_06", {"data": user_data})
+
+        return Div(
+            Card(f"Step 6 locked in: {user_data}", style="color: green;"),
+            Div(id="step_07", hx_get=f"{self.prefix}/step_07", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 07
+    # ---------------------------------------------------------------------
+    async def step_07(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step7_data = self.pipulate.get_step_data(pipeline_id, "step_07", {})
+
+        if step7_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 7 done. Value: {step7_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_08", hx_get=f"{self.prefix}/step_08", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #7"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 7"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_07_submit",
+                        hx_target="#step_07"
+                    )
+                ),
+                Div(id="step_08"),
+                id="step_07"
+            )
+
+    async def step_07_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_07", {"data": user_data})
+
+        return Div(
+            Card(f"Step 7 locked in: {user_data}", style="color: green;"),
+            Div(id="step_08", hx_get=f"{self.prefix}/step_08", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 08
+    # ---------------------------------------------------------------------
+    async def step_08(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step8_data = self.pipulate.get_step_data(pipeline_id, "step_08", {})
+
+        if step8_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 8 done. Value: {step8_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_09", hx_get=f"{self.prefix}/step_09", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #8"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 8"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_08_submit",
+                        hx_target="#step_08"
+                    )
+                ),
+                Div(id="step_09"),
+                id="step_08"
+            )
+
+    async def step_08_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_08", {"data": user_data})
+
+        return Div(
+            Card(f"Step 8 locked in: {user_data}", style="color: green;"),
+            Div(id="step_09", hx_get=f"{self.prefix}/step_09", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 09
+    # ---------------------------------------------------------------------
+    async def step_09(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step9_data = self.pipulate.get_step_data(pipeline_id, "step_09", {})
+
+        if step9_data.get("data"):
+            return Div(
+                Card(
+                    f"Step 9 done. Value: {step9_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_10", hx_get=f"{self.prefix}/step_10", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #9"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 9"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_09_submit",
+                        hx_target="#step_09"
+                    )
+                ),
+                Div(id="step_10"),
+                id="step_09"
+            )
+
+    async def step_09_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_09", {"data": user_data})
+
+        return Div(
+            Card(f"Step 9 locked in: {user_data}", style="color: green;"),
+            Div(id="step_10", hx_get=f"{self.prefix}/step_10", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 10
+    # ---------------------------------------------------------------------
+    async def step_10(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step10_data = self.pipulate.get_step_data(pipeline_id, "step_10", {})
+
+        if step10_data.get("data"):
+            # All 10 done => show next: finalize (step_11)
+            return Div(
+                Card(
+                    f"Step 10 done. Value: {step10_data['data']}",
+                    style="color: green;"
+                ),
+                Div(id="step_11", hx_get=f"{self.prefix}/step_11", hx_trigger="load")
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Card #10"),
+                    Form(
+                        Input(type="text", name="data", placeholder="some input for step 10"),
+                        Button("Next", type="submit"),
+                        hx_post=f"{self.prefix}/step_10_submit",
+                        hx_target="#step_10"
+                    )
+                ),
+                Div(id="step_11"),
+                id="step_10"
+            )
+
+    async def step_10_submit(self, request):
+        form = await request.form()
+        user_data = form.get("data", "")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.set_step_data(pipeline_id, "step_10", {"data": user_data})
+
+        return Div(
+            Card(f"Step 10 locked in: {user_data}", style="color: green;"),
+            Div(id="step_11", hx_get=f"{self.prefix}/step_11", hx_trigger="load")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 11: Finalize
+    # ---------------------------------------------------------------------
+    async def step_11(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step11_data = self.pipulate.get_step_data(pipeline_id, "step_11", {})
+
+        if "finalized" in step11_data:
+            # Already finalized => show final view
+            return self.render_finalized()
+
+        # Not finalized => show finalize button
+        return Div(
+            Card(
+                H3("Step 11: Finalize"),
+                P("You can finalize this pipeline or go back to fix something."),
+                Form(
+                    Button("Finalize All 10 Steps", type="submit"),
+                    hx_post=f"{self.prefix}/step_11_submit",
+                    hx_target="#step_11"
+                )
+            ),
+            id="step_11"
+        )
+
+    async def step_11_submit(self, request):
+        pipeline_id = db.get("pipeline_id", "untitled")
+        # Mark finalized in step_11 data
+        self.pipulate.set_step_data(pipeline_id, "step_11", {"finalized": True})
+        return self.render_finalized()
+
+    def render_finalized(self):
+        """Return a simple locked/finalized card."""
+        return Card(
+            H3("All Steps Finalized"),
+            P("Your 10-card workflow is complete!"),
+            Form(
+                Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                hx_post=f"{self.prefix}/unfinalize",
+                hx_target="#tenflow-container",
+                hx_swap="outerHTML"
+            )
+        )
+
+    async def unfinalize(self, request):
+        """
+        Remove 'finalized' flag from step_11 data, allowing user to revisit steps.
+        """
+        pipeline_id = db.get("pipeline_id", "untitled")
+        if not pipeline_id:
+            return P("No pipeline found. Please start again.", style="color: red;")
+
+        state = self.pipulate.get_state(pipeline_id)
+        step11_obj = state.get("step_11", {})
+        if "finalized" in step11_obj:
+            del step11_obj["finalized"]
+            state["step_11"] = step11_obj
+            self.pipulate._save_state(pipeline_id, state)
+            # Show placeholders from the beginning:
+            placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+            return Div(*placeholders, id="tenflow-container")
+        else:
+            return P("Not finalized, so nothing to unfinalize.")
+```
+
+### Summary
+
+- **11 Steps total**: 10 “cards” + 1 final “step_11” to finalize.  
+- **Minimal**: Each step just collects a simple `data` field, stores it in `step_X`.  
+- **Finalization**: Step 11 sets `{"finalized": True}` in that record; from that point, the user sees a locked card unless they unfinalize.  
+- **Structure**: This is basically the same pattern you see in Bridgeflow/Poetflow, but stretched to 10 steps (plus the final).
+
+From here, you can flesh out each “Card #X” with fancy forms, embedded file lists, browser calls, Pandas DataFrame displays, etc.—all while preserving the incremental pipeline approach and a final “lock step.” Enjoy!
