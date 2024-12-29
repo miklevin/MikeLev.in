@@ -139,9 +139,9 @@ going to replace all that is proprietary (already has with servers) is
 The interesting state of affairs today is that a particular Linux tool called
 `nix` has some real ***Docker-killing potential*** as a declarative and
 deterministic system-building definition language (IaC / infrastructure as code)
-that plants whole Linux subsystems into the folders of Windows and Macs, thus
-adding fuel to the nix fire. It is also used to build a whole Linux distro
-called nixOS (what I use).
+that plants whole Linux subsystems into the folders of Windows and Macs (nix
+flakes), thus adding fuel to the nix fire. It is also used to build a whole
+Linux distro called nixOS (what I use).
 
 ### The Power of Unix Pipes
 
