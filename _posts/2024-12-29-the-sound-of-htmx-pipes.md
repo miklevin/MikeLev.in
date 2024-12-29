@@ -145,8 +145,8 @@ Linux distro called nixOS (what I use).
 
 ### The Power of Unix Pipes
 
-So one of the core fundamentals that made Unix so win is the concept of pipes
-and piping data. This is often confused with the modern overweight notion of
+So one of the core fundamentals that made Unix so win is ***the concept of pipes
+and piping data***. This is often confused with the modern overweight notion of
 data pipelines, and while there is overlap, it doesn't do the concept of pipes
 justice for its beauty, simplicity, and still-pervasive nature. Pipes usually
 involve the use of small, composable command that do one thing very well, but
