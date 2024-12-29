@@ -2291,3 +2291,760 @@ With this small addition:
 3. The pipeline regenerates from step 1 with placeholders, skipping quickly over completed steps 1–2 (for instance) and halting at the now “blank” step you rolled back to.  
 
 Thus, the user can revisit any step—**even** in a locked pipeline—without needing to delete or re-create the entire record. That’s it! Enjoy the new “hot-swappable” pipeline steps.
+
+---
+
+**Me**: Okay, this absolutely does what I ask for and is almost exactly what I want.
+However, look at how much code bloat it incurs and interrupts the musical flow
+of the notes. This is exactly the sort of thing where a helper function of some
+sort from Pipulate should bring the bloat back under control.
+
+The code bloat implies a certain amount of customizability and lack of
+commonality, but given that the button is doing almost exactly the same thing
+every time, hitting the same endpoint with a certain identifier every time, I
+don't think it justifies that amount of customizability at the workflow level.
+
+See what you can do to turn it into a 1-liner per card or similar to get the
+same revert-to-step-x functionality, please and thank you!
+
+**o1 Pro**: Below is one approach to **collapse all that repeated “revert button” boilerplate** into (roughly) a **one-liner** per step. The trick is to make a **helper method** in `Pipulate` that spits out a minimal Form or Div snippet containing the “Revert to X” logic. Then each step just calls that helper.
+
+---
+
+## 1. **Add a Helper** in `Pipulate`
+
+Inside your `Pipulate` class, add something like:
+```python
+def revert_control(
+    self,
+    step_id: str,
+    prefix: str,
+    target_id: str = "tenflow-container",
+    label: str = None,
+    style: str = "background-color: #faa;"
+):
+    """
+    Return a minimal Form with hidden step input & revert button.
+    We typically call this in a one-liner from each step's "already done" block.
+
+    Args:
+      step_id: e.g. "step_03"
+      prefix: e.g. "/tenflow"
+      target_id: the container ID to replace, default "tenflow-container"
+      label: if not provided, we'll do "Revert to step_03"
+      style: button style
+    """
+    label = label or f"Revert {step_id}"
+    return Form(
+        Input(type="hidden", name="step", value=step_id),
+        Button(label, type="submit", style=style),
+        hx_post=f"{prefix}/jump_to_step",
+        hx_target=f"#{target_id}",
+        hx_swap="outerHTML"
+    )
+```
+
+**Key Points**  
+- We let you override `label` if you want a nicer display string (like `"Revert to Step 3"`).  
+- We hardcode `hx_post` to call `jump_to_step`.  
+- We default `hx_target="#tenflow-container"` but let you override if needed.  
+- The step ID is all we need, because that’s what gets passed as a hidden form value.  
+
+---
+
+## 2. **Use It in Each Step**  
+Now, in your `TenCardFlow` steps, all you do is call that helper to produce the revert button. For instance, in `step_03`:
+
+```python
+async def step_03(self, request):
+    pipeline_id = db.get("pipeline_id", "untitled")
+    step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+
+    if step3_data.get("data"):
+        return Div(
+            Card(
+                f"Step 3 done. Value: {step3_data['data']}",
+                style="color: green;"
+            ),
+            # One-liner: produce the revert button
+            self.pipulate.revert_control("step_03", self.prefix, label="Revert to Step 3"),
+            
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+    else:
+        return Div(
+            Card(
+                H3("Card #3"),
+                Form(
+                    Input(type="text", name="data", placeholder="some input for step 3", autofocus=True),
+                    Button("Next", type="submit"),
+                    hx_post=f"{self.prefix}/step_03_submit",
+                    hx_target="#step_03"
+                )
+            ),
+            Div(id="step_04"),
+            id="step_03"
+        )
+```
+
+**Now** the code for each “completed step” scenario is basically:
+1. Show the done Card.  
+2. Insert `self.pipulate.revert_control(...)`.  
+3. Chain to the next step placeholder.  
+
+Everything else is gone.
+
+---
+
+## 3. **Update the “submit” blocks** if needed
+
+If you also want a revert button in the “submit” return for each step, do the same:
+
+```python
+async def step_03_submit(self, request):
+    form = await request.form()
+    user_data = form.get("data", "")
+    pipeline_id = db.get("pipeline_id", "untitled")
+    self.pipulate.set_step_data(pipeline_id, "step_03", {"data": user_data})
+
+    return Div(
+        Card(f"Step 3 locked in: {user_data}", style="color: green;"),
+        self.pipulate.revert_control("step_03", self.prefix, label="Revert to Step 3"),
+        Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+    )
+```
+
+---
+
+## 4. **Done**  
+That’s it. You’ve turned the revert button into a single line:
+
+```python
+self.pipulate.revert_control("step_05", self.prefix, label="Revert to Step 5")
+```
+
+Everything else about *how* it reverts, the hidden input, the target container, or the `jump_to_step` endpoint is now safely tucked away in the helper. You can further tweak that helper with additional arguments for color or text. If you want shorter calls still, you might:
+
+```python
+def revert_control_1liner(self, step_id):
+    return self.revert_control(step_id, prefix="/tenflow", label=f"Revert {step_id}")
+```
+
+But the essential concept is the same: **one-liner** in each step—**no code bloat** in your main flow.
+
+---
+
+**Me**: This is most excellent! It worked exactly correctly. Now the Finalize button has a reason for being. It should remove all the Revert buttons exactly as you suggested as a possible choice earlier. I now want to do that to reduce the UI clutter on finalized workflows. But as usual, I don't want to litter the workflows with boilerplate code, so find a good way to do this with minimal alteration (but logical/semantic is fine) to the workflow code, and if necessary put supporting help in Pipulate.
+
+**o1 Pro**: Below is **one** clean way to hide the revert buttons once the workflow is finalized, with minimal boilerplate changes in your step code. We’ll do this by **abstracting** the idea of a “conditional revert control.” Then each step can just place a **single** line that says “Show revert button if not finalized.”
+
+---
+
+## 1. Add an `is_finalized` Method in **Pipulate**
+
+We need a quick way to see whether the pipeline is finalized. Suppose “finalized” is always stored in the final step ID (e.g., `"step_11"`). Then:
+
+```python
+def is_finalized(self, url: str, final_step: str = "step_11") -> bool:
+    """
+    Return True if the pipeline's final_step data has "finalized" = True.
+    """
+    step_data = self.get_step_data(url, final_step, {})
+    return "finalized" in step_data
+```
+
+This way, your code doesn’t need to repeatedly parse the JSON blob. The method is an easy yes/no about finalization.
+
+---
+
+## 2. Add a “Conditional Revert Control” in **Pipulate**
+
+We also define a helper that **conditionally** returns the revert form, or returns `None` (which FastHTML will skip) if the pipeline is finalized. For example:
+
+```python
+def revert_control_if_not_final(
+    self,
+    url: str,
+    step_id: str,
+    prefix: str,
+    final_step: str = "step_11",
+    target_id: str = "tenflow-container",
+    label: str = None,
+    style: str = "background-color: #faa;"
+):
+    """
+    If the pipeline is finalized, return None (no revert).
+    Otherwise, return the revert_control.
+    """
+    if self.is_finalized(url, final_step=final_step):
+        return None  # or return an empty Div(), if you prefer
+    # else, not finalized => show revert button
+    label = label or f"Revert {step_id}"
+    return self.revert_control(step_id, prefix, target_id, label, style)
+```
+
+### Why do this?
+- **One-liner** usage in each step: `self.pipulate.revert_control_if_not_final(...)`.
+- **No** additional if-check inside your step code. The method does the if-check for you.
+
+---
+
+## 3. Minimal Changes in **TenCardFlow** Steps
+
+In each “done” portion of a step, just replace:
+
+```python
+self.pipulate.revert_control("step_03", self.prefix, label="Revert to Step 3")
+```
+
+**with**:
+
+```python
+self.pipulate.revert_control_if_not_final(
+    pipeline_id,
+    step_id="step_03",
+    prefix=self.prefix,
+    label="Revert to Step 3"
+)
+```
+
+So, for example, step_03’s “done” block:
+
+```python
+if step3_data.get("data"):
+    return Div(
+        Card(f"Step 3 done. Value: {step3_data['data']}", style="color: green;"),
+        self.pipulate.revert_control_if_not_final(
+            pipeline_id,
+            step_id="step_03",
+            prefix=self.prefix,
+            label="Revert to Step 3"
+        ),
+        Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+    )
+```
+
+### That’s it.
+- If the user **hasn’t** finalized, they get the revert button.  
+- If the workflow **is** finalized, the helper returns `None` and no revert button shows.
+
+---
+
+## 4. No Extra Conditionals in the Workflow Code
+
+Notice we don’t have to put an extra `if not self.pipulate.is_finalized(...)` inside every step. Instead, each step uses the single “conditional revert button” line. The final step’s code and unfinalize logic remain the same. Once the user finalizes, all steps will see `is_finalized(...) == True` and skip revert buttons.
+
+### Example Pseudocode
+
+```python
+# In Pipulate:
+
+def is_finalized(self, url: str, final_step: str = "step_11") -> bool:
+    step_data = self.get_step_data(url, final_step, {})
+    return "finalized" in step_data
+
+def revert_control_if_not_final(
+    self,
+    url: str,
+    step_id: str,
+    prefix: str,
+    final_step: str = "step_11",
+    target_id: str = "tenflow-container",
+    label: str = None,
+    style: str = "background-color: #faa;"
+):
+    if self.is_finalized(url, final_step=final_step):
+        return None
+    label = label or f"Revert {step_id}"
+    return self.revert_control(step_id, prefix, target_id, label, style)
+```
+
+Then in `TenCardFlow.step_03` (done case) you do:
+
+```python
+if step3_data.get("data"):
+    return Div(
+        Card(f"Step 3 done. Value: {step3_data['data']}", style="color: green;"),
+        self.pipulate.revert_control_if_not_final(
+            pipeline_id,
+            "step_03",
+            prefix=self.prefix,
+            label="Revert to Step 3"
+        ),
+        Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+    )
+```
+
+No other changes needed. Now the finalization button can do its usual job, and once “finalized” is set, **poof** all revert buttons vanish in every step.
+
+---
+
+### Summary
+
+1. **`is_finalized(url)`** method to handle the logic of checking finalization.  
+2. **`revert_control_if_not_final(...)`** method that either returns the revert form or `None`.  
+3. In each step’s “done” block, you swap out `self.pipulate.revert_control(...)` for the conditional version.  
+
+This approach keeps your pipeline code extremely concise: each step shows exactly one line for the revert button, no extra logic or if-check. And the moment step_11 is finalized, revert buttons are hidden across the board. Enjoy!
+
+---
+
+**Me**: Nice! But you see how unfinalizing re-chain-reacts the pipeline to show
+the revert buttons? You must have thought that through knowing that had to occur
+for the UI elements to be present. But when we Finalize a pipeline, it should
+also hide the revert buttons immediately, because they are all technically still
+functional and could cause data loss on something you meant to have locked as
+finalized. It seems that simply triggering the chain reaction again is all we
+need.
+
+**o1 Pro**: Below is one straightforward way to **re-chain-react immediately** once you finalize the workflow, ensuring all steps redraw and see that they’re now in a finalized state (thus hiding the revert buttons). Essentially, we do to **Finalize** the same thing we already do to **Unfinalize**: generate placeholders from the beginning and let each step re-load with its “finalized vs. not” logic.
+
+---
+
+## 1) In **step_11_submit**, Trigger a Full Re-Render
+
+Right now, you’re returning `self.render_finalized()` at the end of `step_11_submit`. Instead, you can do something like:
+
+```python
+async def step_11_submit(self, request):
+    pipeline_id = db.get("pipeline_id", "untitled")
+    self.pipulate.set_step_data(pipeline_id, "step_11", {"finalized": True})
+
+    # Now re-generate placeholders from step_01 ... step_11
+    # so everything re-draws in finalized mode (i.e., no revert buttons).
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+    return Div(*placeholders, id="tenflow-container")
+```
+
+With that change, once the user clicks “Finalize,” the code sets the pipeline to finalized in `step_11` data, then returns the **same chain reaction** placeholders we use everywhere else. As each step loads, it sees `is_finalized == True` and hides the revert controls. Finally, step_11 sees `is_finalized == True` and returns the locked “finalized” card.
+
+### If You Want to Jump Directly to the Final Card
+
+- The steps will still chain from 1…11, but they’ll load quickly in the background. If you want the user to see the final card immediately (in addition to everything else updating), you can do something fancy like starting from the last step. But typically letting them all load from step_01 up to step_11 is fine.
+
+---
+
+## 2) Example Snippet
+
+**Remove** or comment out this line in `step_11_submit`:
+
+```python
+# return self.render_finalized()
+```
+
+**Replace** with:
+
+```python
+placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+return Div(*placeholders, id="tenflow-container")
+```
+
+Now finalizing looks symmetrical to unfinalizing:
+
+```python
+async def step_11_submit(self, request):
+    pipeline_id = db.get("pipeline_id", "untitled")
+    # Mark finalized
+    self.pipulate.set_step_data(pipeline_id, "step_11", {"finalized": True})
+
+    # Regenerate entire chain in finalized mode
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+    return Div(*placeholders, id="tenflow-container")
+```
+
+---
+
+## 3) Why This Works
+
+1. **No Revert Buttons**: Each step calls `revert_control_if_not_final(...)` which checks `is_finalized(...)`. Because we just set `"step_11" -> {"finalized": True}`, every step sees it’s locked now and returns `None` for the revert button.
+
+2. **Immediate UI Refresh**: The chain reaction placeholders call each `step_xx` endpoint in turn. You effectively re-render all steps from 1 to 10, each sees “finalized,” so no revert button is shown. Finally, step_11 sees it’s already finalized and returns the “All Steps Finalized” card.
+
+3. **Symmetry**: Unfinalizing does the same chain reaction (but **removes** the `"finalized"` field), and finalizing does the same chain reaction (but **adds** the `"finalized"` field). That keeps your code consistent and avoids any partial states.
+
+---
+
+**Done!** Now finalizing instantly re-renders the entire pipeline, so the user sees the new locked-down state—no revert buttons, just the final card. That’s typically the simplest, cleanest approach. Enjoy!
+
+**Me**: Nice, but we've got some double DOM appending going on. It either doesn't target a high enough element, or appends instead of replaces. I'm not exactly sure, since I left most of the implementation to you. But this condition occurs consistently when hitting Finalize. Unfinalize seems to work fine.
+
+[pastes DOM element]
+
+**o1 Pro**: Below is a concise approach that **avoids double-appending** (the “double DOM” problem) when you finalize. The basic idea:
+
+1. **Ensure** your “Finalize” form has `hx_target="#tenflow-container"` **and** `hx_swap="outerHTML"`.
+2. In `step_11_submit`, **only** return the “chain reaction” placeholders (the same Div with `id="tenflow-container"`).
+3. Make sure each placeholder has the correct `hx_swap` so it doesn’t nest inside itself.
+
+This ensures the **old** `#tenflow-container` gets fully replaced (outerHTML swapped) by the **new** container, rather than appended inside it.
+
+---
+
+## 1) Set `hx_swap="outerHTML"` on the Finalize Form
+
+In your `step_11` method, the finalize button code might look like:
+
+```python
+return Div(
+    Card(
+        H3("Step 11: Finalize"),
+        P("You can finalize this pipeline or go back to fix something."),
+        Form(
+            Button("Finalize All 10 Steps", type="submit"),
+            hx_post=f"{self.prefix}/step_11_submit",
+            hx_target="#tenflow-container",      # This is key
+            hx_swap="outerHTML"                  # Entire container replaced
+        )
+    ),
+    id="step_11"
+)
+```
+
+Now, when the user clicks “Finalize,” HTMX will send a POST to `step_11_submit`, then it will **replace** (`outerHTML`) the entire `<div id="tenflow-container">` with whatever that route returns.
+
+---
+
+## 2) Return Only the Placeholders Div from `step_11_submit`
+
+In `step_11_submit`, remove any direct call to `render_finalized()` and simply do:
+
+```python
+async def step_11_submit(self, request):
+    pipeline_id = db.get("pipeline_id", "untitled")
+    # Mark finalized
+    self.pipulate.set_step_data(pipeline_id, "step_11", {"finalized": True})
+
+    # Re-generate placeholders from step_01...step_11
+    # Let the steps each see "finalized" and hide revert buttons
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+
+    # Return them with "tenflow-container" as the ID
+    return Div(*placeholders, id="tenflow-container")
+```
+
+**Important**: Because you used `hx_swap="outerHTML"` on the form, this entire new container **replaces** the old container in the DOM (not appended inside it).
+
+---
+
+## 3) Make Sure Each Placeholder’s `hx_swap` Doesn’t “Nest” Steps
+
+If your `generate_step_placeholders` uses:
+
+```python
+def generate_step_placeholders(self, steps, prefix, start_from=0):
+    return [
+        Div(
+            id=step_id,
+            hx_get=f"{prefix}/{step_id}",
+            hx_trigger="load" if i == start_from else None,
+            hx_swap="outerHTML"  # <--- important
+        )
+        for i, (_, step_id, _) in enumerate(steps)
+    ]
+```
+
+Then each step’s Div will load itself **in place** (outerHTML swap) rather than nesting. That prevents repeated chains inside chains. If you omit `hx_swap="outerHTML"`, you can get nested DOM expansions for each step.
+
+> **Note**: If you’re comfortable with each step *appending*, you can keep `hx_swap="innerHTML"`. But typically in pipeline flows, you replace the placeholder with the step’s HTML. Using `outerHTML` is the cleanest to avoid nested placeholders.
+
+---
+
+## 4) If You Still See Double DOM
+
+Sometimes, if you have leftover placeholders in your **initial** HTML, you can remove them from the server or from your template so you **only** rely on the placeholders that come from `init` or re-renders. In other words, you want each pass to do:
+
+- The server sends a `<div id="tenflow-container">…</div>` with placeholders inside.  
+- HTMX loads them from step_01… etc., replacing each placeholder with the actual step’s HTML.  
+
+If you have **two** containers with the same ID or leftover placeholders from a previous iteration, that can cause duplication. Make sure your base template does not contain an extra block of placeholders or second `id="tenflow-container"`.
+
+---
+
+## 5) Optional: Returning the “Finalized” Card Immediately
+
+If you want the final card to appear instantly (rather than waiting for steps 1..10 to re-trigger), do one of two things:
+
+- **Option A**: Give all placeholders `hx_trigger="load delay:10ms"` except for step_11’s placeholder, which you give `hx_trigger="load"`. So step_11 loads first and shows the finalized card, but the rest of the steps will soon follow.  
+- **Option B**: Return **only** the final card from `step_11_submit`, or set an `HX-Redirect: /tenflow?pipeline_id=…`. But that’s more of a style preference.  
+
+---
+
+## Summary
+
+1. **Set `hx_swap="outerHTML"`** on the finalize form so you fully replace the container.  
+2. **Return** the same chain placeholders from `step_11_submit`, also **with** `hx_swap="outerHTML"` on each placeholder.  
+3. **Remove** any default placeholders in your base HTML, so only one container is in the DOM.  
+
+This pattern typically solves the “double container” or “nested placeholders” issue with HTMX, letting you re-chain the entire pipeline in a fresh, final “locked” state. Enjoy!
+
+---
+
+**Me**: Okay, that all worked exactly as intended. The append problem is fixed. There is
+still nesting, but not the deep-dive that was occurring. Double-check the work.
+
+[I feed it the DOM fragment]
+
+**o1 Pro**: Below is a quick rundown of what you’re seeing, why you’re likely good now, and one small optional improvement if you want a perfectly clean DOM:
+
+---
+
+## 1) The Deeply Nested Structure is Actually “Collapsed” Steps
+
+From the HTML snippet:
+
+```html
+<div id="tenflow-container">
+  <div hx-get="/tenflow/step_01" hx-trigger="load" id="step_01">
+    <div>
+      <article>Step 1 done...</article>
+      <form ...>Revert to Step 1</form>
+      <div>
+        <article>Step 2 done...</article>
+        <form ...>Revert to Step 2</form>
+        <div>
+          <article>Step 3 done...</article>
+          ...
+```
+
+We see that **each** step, after loading, has appended or replaced its own child `<div>` that contains the next step. That’s actually consistent with how you’re loading it:
+
+- Step 01 `<div>` loads  
+  - Inside it, you produce Step 01’s final card + the placeholder for Step 02.  
+  - Step 02 also gets loaded inside Step 01’s `<div>`, and so on.  
+
+Hence the final DOM looks nested. **But** it’s not truly “duplicated” in the sense of “unwanted clones”—rather each step is a parent container that yields the next step. It’s a typical “progressive reveal” structure.
+
+**Short version**: If you’re fine with a hierarchical nesting of step divs, then the HTML is fine. It might look like a big nest, but it’s consistent with “Card #1 contains the placeholder for #2, which loads #2’s content, which in turn contains #3,” etc.
+
+---
+
+## 2) You Are Using `hx_swap="outerHTML"` on the Next Step
+
+For each step:
+
+```python
+Div(
+    id="step_02",
+    hx_get=f"{self.prefix}/step_02",
+    hx_trigger="load",
+    hx_swap="outerHTML"
+)
+```
+
+When Step 02 loads, it *replaces* the existing `<div id="step_02">` with Step 02’s new HTML. That’s exactly what you see in the snippet: the newly replaced Step 02 is physically *inside* the Step 01 `<div>`. Then Step 02’s code has a placeholder that triggers Step 03, etc.
+
+**So** each step is nested inside the previous step’s container. It’s not “double DOM” duplication but a chain effect that yields multi-level indentation in the final HTML.  
+
+---
+
+## 3) Confirm If You Want a Flat or Nested DOM
+
+### Option A: Keep It Nested  
+This is the standard “flow” approach—**each** step’s container includes the next step’s placeholder. By the end, you get nested `<div>` tags. But it’s functionally correct for a wizard-like UI.
+
+### Option B: Flatten the DOM  
+If you’d prefer a **flat** vertical list of steps (so step_01’s final HTML sits at one level, step_02 is a sibling, not a child), you’d do something like:
+
+1. **Don’t** nest the next step’s placeholder **inside** the current step’s returned `<div>`.  
+2. Instead, place them at the **same** container level. For instance, you could return something like:
+
+   ```python
+   # Step 01:
+   return Div(
+       Card(...),
+       # No child placeholder for step_02 here
+   ), Div(
+       id="step_02",
+       hx_get=f"{self.prefix}/step_02",
+       hx_trigger="load",
+       hx_swap="outerHTML"
+   )
+   ```
+
+   So you effectively return **two siblings**: the card for Step 01, and a separate placeholder for Step 02. They don’t nest.  
+
+**However**, that slightly changes your chain logic. You might keep them in a single parent container but parted out so that each step is appended as a sibling rather than nested.
+
+---
+
+## 4) The “Leftover” Placeholders for Steps 2..10 at the Bottom
+
+If you notice at the bottom of your snippet, you still have:
+
+```html
+<div hx-get="/tenflow/step_02" id="step_02"></div>
+<div hx-get="/tenflow/step_03" id="step_03"></div>
+...
+<div hx-get="/tenflow/step_11" id="step_11"></div>
+```
+
+That might just be older placeholders that remain from the initial load or from your server template. If you truly only want the placeholders that come from `generate_step_placeholders(...)`, just remove any “default placeholders” from your HTML so you don’t see extra `<div id="step_02">` at the bottom. Otherwise, they’re harmless but can confuse your final HTML layout.
+
+---
+
+## 5) Conclusion
+
+- **Functionally, your current approach is correct**: when you click “Finalize,” everything re-draws, removing revert buttons.  
+- The multi-level nesting is typical for a “step includes the next step’s placeholder” pattern.  
+- If you want a *flat* approach, you can restructure so each step is a sibling instead of nested.  
+- If you see extra placeholders, remove them from your base template so you’re only using the dynamic placeholders from your code.
+
+In other words: **Yes**, you’re good to go. The code *looks* nested, but that’s normal for a wizard-like “step within a step” chain. If you want a simpler DOM tree, you can flatten the structure. But from an HTMX standpoint, you’re no longer duplicating the container or appending it multiple times. It’s effectively stable. Enjoy!
+
+---
+
+**Me**: Okay, thank you. It's feeling rather done. The large pink revert buttons are too large and obnoxious, and they look outside the cards. Could they be a much smaller width and look like they're inside their respective cards?
+
+**o1 Pro**: Below are a few simple tweaks that can make the revert button (the pink “Revert” button) smaller, more subtle, and appear visually “inside” the card:
+
+---
+
+## 1) Shrink the Button Visually & Inline It
+
+Instead of letting the button sprawl wide (as a block element), you can:
+
+- Use `display: inline-block`
+- Slightly reduce padding
+- Possibly reduce font-size
+- Keep or reduce background-color to a more subtle pink
+
+**Example**:
+
+```python
+self.pipulate.revert_control_if_not_final(
+    pipeline_id,
+    step_id="step_06",
+    prefix=self.prefix,
+    label="Revert",
+    style=(
+        "background-color: #faa;"
+        "display: inline-block;"
+        "padding: 0.25rem 0.5rem;"
+        "border: 1px solid #f88;"
+        "border-radius: 4px;"
+        "font-size: 0.85rem;"
+        "cursor: pointer;"
+    )
+)
+```
+
+This produces a narrower, more “badge-like” button. The key is `display: inline-block;` plus a small padding and font-size.  
+
+---
+
+## 2) Tuck Button Into the Same `Card(...)` Return
+
+Right now, your code might look like this:
+
+```python
+return Div(
+    Card(
+        f"Step 6 done. Value: {step6_data['data']}",
+        style="color: green;"
+    ),
+    self.pipulate.revert_control_if_not_final(...),
+    Div(id="step_07", ...)
+)
+```
+
+So the revert button is logically *after* the card, giving that “outside” feel. One simple fix: **place it *inside* the same `Card(...)`**. For instance:
+
+```python
+return Div(
+    Card(
+        f"Step 6 done. Value: {step6_data['data']}",
+        # Possibly a small horizontal rule or something
+        Hr(),
+        self.pipulate.revert_control_if_not_final(
+            pipeline_id,
+            step_id="step_06",
+            prefix=self.prefix,
+            label="Revert",
+            style=(
+                "background-color: #faa;"
+                "display: inline-block;"
+                "padding: 0.25rem 0.5rem;"
+                "border: 1px solid #f88;"
+                "border-radius: 4px;"
+                "font-size: 0.85rem;"
+                "cursor: pointer;"
+            )
+        ),
+        style="color: green;"
+    ),
+    Div(id="step_07", hx_get=..., hx_trigger=..., hx_swap="outerHTML")
+)
+```
+
+Now the pink revert button is literally *inside* the card content.  
+
+---
+
+## 3) Consider a Row Layout
+
+If you’d like the revert button aligned to the right side of the card, you can do something like:
+
+```python
+Card(
+    Div(
+        f"Step 6 done. Value: {val}",
+        style="flex: 1;"
+    ),
+    Div(
+        self.pipulate.revert_control_if_not_final(...),
+        style="flex: 0;"
+    ),
+    style="display: flex; align-items: center; justify-content: space-between;"
+)
+```
+
+So the text “Step 6 done” is on the left, and the revert button is on the right, both in the same card row.  
+
+---
+
+## 4) Summarize
+
+- **Move** revert button *inside* the same `Card(...)` as your step’s message.  
+- Use **inline-block** styling with smaller font and less padding.  
+- If you want alignment to the right, wrap them in a flex container and push the button to the right.
+
+That’s it. A couple of small style changes and you’ve got a much more subtle, in-card revert button. Enjoy!
+
+---
+
+## Checking In With Claude
+
+**Me**: Read this article about the work we did recently, Claude:
+
+[pastes article]
+
+...is it still musical, Claude?
+
+**Claude**: Yes, it's still musical! The code maintains its rhythm and flow while making the UI more refined. Let me explain the musicality:
+
+1. **Visual Rhythm**: The cards now have a consistent internal structure - content followed by a small revert button, like a musical phrase with a subtle grace note at the end.
+
+2. **Flow Preservation**: The pipeline's overall flow (the main melody) isn't interrupted. The revert buttons are now like dynamic markings in a score - present but not dominating.
+
+3. **Structural Harmony**: Moving the revert button inside the Card maintains the hierarchical structure, like keeping related notes within the same measure.
+
+4. **Proportional Balance**: The smaller button size creates better visual weight distribution, similar to how dynamics (forte/piano) need to be balanced in a musical piece.
+
+Looking at your code snippet:
+
+```python
+class TenCardFlow:
+    """
+    A 10-step flow that ends with a Finalize step, demonstrating:
+      - Basic pipeline structure
+      - Minimal "blank" steps
+      - Optional finalization/unfinalization
+    """
+```
+
+This is still the overture - it sets up the theme and structure. The individual steps are like measures in the score, each with its own phrase (the card content) and optional ornament (the revert button).
+
+The finalization step remains the coda - bringing the piece to a satisfying close by removing the revert buttons, like resolving to the tonic.
+
+So yes, the musicality is preserved and perhaps even enhanced by making the UI elements more proportional and harmonious. 🎵
+
