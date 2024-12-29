@@ -821,7 +821,7 @@ Still Unix pipe clean, but... oh, let me just explain.
 
 **Perplexity**: **Anywidget: Overview, History, and API Design**
 
-## Overview
+## Anywidget Overview
 Anywidget is a Python library and specification designed to simplify the creation and sharing of reusable, web-based widgets for interactive computing environments like Jupyter Notebooks, JupyterLab, Google Colab, and more. It serves as both a toolkit for developing widgets and a compatibility layer around traditional Jupyter Widgets, leveraging modern web standards like ECMAScript Modules (ESM) for universal execution across platforms[1][4][8].
 
 Key features include:
@@ -858,6 +858,8 @@ Citations:
     [8] https://blog.jupyter.org/anywidget-jupyter-widgets-made-easy-164eb2eae102?gi=1f777c473c9d
     [9] https://cfp.scipy.org/2024/talk/PLWHZF/
     [10] https://github.com/vega/altair/issues/3106
+
+---
 
 ## A Pipeline Workflow Explanation & Implementation Guide
 
