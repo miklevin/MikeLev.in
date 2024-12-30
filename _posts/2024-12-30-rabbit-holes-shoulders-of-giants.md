@@ -453,3 +453,235 @@ You see it as an unstoppable combination that merges old-school hacking with new
 ### Concluding Thought
 
 You’ve found your footing in Nix as your local system builder, Python as your main language, and an offline web approach (HTMX + minimal server) as your new “app scaffolding.” That scaffolding is the foundation on which you’ll develop unlimited local flows—like your TenCardFlow system or anything else that emerges. All of it ties into your larger theme: **maintaining a stable, personally empowering environment that stands outside ephemeral churn**—and you’re more than fine with that.
+
+---
+
+So we take risks when standing on the shoulders of giants. Some are so stable
+like the vim example where you have contingency upon contingency and validation
+coming in from every angle and in so many ways that there's basically no risk.
+Oh, you might hate vim and be ***differently vibed*** and find you wasted your
+time learning it, but that's a different kind of risk. There's basically no risk
+of vi/vim/nvim and its multi-branding tree of lineage being wiped out. Vim's
+safe.
+
+On the other hand, we have FastHTML. There's always been something vaguely
+dissatisfying about web development on Python. I man, there's Django dating back
+to forever and the whole Instagram empire built on it. And there was the
+Plone/Zope frameworks back from before forever. And then there was Flask,
+everyone's favorite Swiss Army Knife and the poster-child package of using
+decorators for routing. FastAPI kicked Flask's butt when it was too slow to
+embrace async/await concurrency and mypy strict static typing. But still, even
+all them are... are... well, no better than PHP with their handlebar mustache
+nuncks curly braces {% raw %}`{{ foo }}`{% endraw %} all over the place, an
+unsatisfying upgrade form PHP's short tags `<?= foo ?>`.
+
+Ultimately, Flask (or something pedantically copying it) became something you
+***had to use***; that web swiss army knife you carried around, but ***now you
+had two languages***&#151;Python plus whatever messy curly-brace vomiting
+template language you had to suffer. It's like you finally got away from
+gratuitous over-littering curly-braces by switching to Python in the first
+place, and now you had to get them back just because Web? No! But there was no
+better way, at least none that was as generic and broadly applicable as Flask
+and its mustache twirling clones. That is, until FastHTML.
+
+The story of FastHTML and HTMX are intertwined. [Here's the creator of both
+sitting down to have a talk](https://www.youtube.com/watch?v=WuipZMUch18). It is
+the future of web development on Python, I can feel it in my bones. It is
+perhaps the future of web development in general, as it provides a vastly more
+solid path to webdev future-proofing than anything else I've seen. Merely by
+being consistent over the years while churn plagues node will give it the
+***last man standing*** advantage. While hamster-wheel fatigue wears down
+webdevs battling breaking changes, FastHTML'ers will find relief in their code
+being as stable as the HTML standard itself.
+
+Or so I thought.
+
+Now it's minor, but jumping on the FastHTML bandwagon is still the bleeding
+edge, no matter how future-proofing and obsolescence resistant it feels. There
+are breaking changes, and I just suffered one of those wounds. Long story short,
+if you jump on this bandwagon with me, keep tabs on the [FastHTML
+CHANGELOG.md](https://github.com/AnswerDotAI/fasthtml/blob/main/CHANGELOG.md),
+particularly for breaking changes. From a routine updating of my pip packages,
+my app stopped working. I rolled back to a prior version, 0.6.18 to be precise
+to get it working again, and the bug I encountered sent me on a complete wild
+goose chase thinking I was defining my tables wrong. As it turns out, they
+removed the `ws_hdr=True` parameter directive from the `fast_app()` helper
+constructor, and when than happens any `anything=anything_else` gets passed
+along with a `**kwargs` splat as a table-schema.
+
+Does that make sense to anyone out there? Anyone? Anyone? LLM?
+
+Yeah, so God bless the volunteers on that project, but my bug was
+unreproducible. I think I may have left out the fact I was using the `ws_hdr`
+parameter, so my bad. But it was unreproducible and closed on me before I could
+even look to follow up (2 days). So when it was closed, I figured what I thought
+it was couldn't be the entire story, so I dug and I dug and I dug. Finally
+through process of elimination I realized that by editing out the `ws_hdr=True`
+parameter, the error changed! And the error was a SQLite error that I was trying
+to use a Boolean for a field name. And it clicked! So I searched on ***fasthtml
+ws_hdr*** and found the changelog&#151;and headsmacked and learned my lesson.
+
+Lesson being? Lesson being that when you feel the future being made on the
+bleeding edge bandwagon beneath you, beware of breaking changes, because they
+want to get it right. The illusion of stability because of the perfect spanking
+API to eliminate `jinja2` mustache template languages doesn't mean that all the
+other curly cues and rough edges aren't going to undergo some sanding off and
+polishing. They are. In particular, per FastHTML version 0.7.1 Breaking Changes:
+
+> `ws_hdr` and `cts_hdr` both removed from `FastHTML` and `fast_app`; replaced
+> with `exts`, which takes a list of extension names (e.g. `exts='ws'`)
+
+...and instead of just finding this and making the changes, I pinned to an older
+version and placed a GitHub case!
+
+I am standing on the shoulders of some very interesting giants in my gamble to
+future-proof my web dev skills on a new and actually love-worthy Python
+approach. Specifically, it's the way FastHTML simultaneously eliminates the need
+for a secondary templating language while blending in the entire very expressive
+set of HTMX directives that make it so special. Explaining this in a way that
+does it justice would be an article in itself, but it's like solving several
+simultaneous equations, scratching several itches all of which I have, at once
+like I've never seen before.
+
+You hear the expression that while history does not necessarily repeat exactly,
+it sure does rhyme? Well, this is delightful rhyming. It rhymes with cgi-bin
+from the PERL and LAMP days of webdev. It rhymes with the HTML specification
+itself. It rhymes with AJAX from the early jQuery days before it was hijacked by
+ReactJS. FastHTML just rhymes rhythmicall  and beautifully in a way that hits
+right.
+
+I don't care about the instability and some early adopter bleeding-edge blood
+letting. I'm on this bandwagon.
+
+You can feel the spirit of a poet and a philosopher in FastHTML, who happens to
+have the chops to pull it off technically. Yes, I am a fanboy. While it might
+not be Ken Thompson or Guido van Rossum level of API Kung Fu, it's sure up
+there. It's the same guy who brought us `nbdev` used to turn Jupyter Notebooks
+into full-fledged pip installable Python packages, which I'm also a fan of. And
+before everybody got distracted by Transformers and ChatGPT, he's the guy who
+brought a ***for humans*** API to PyTorch(er) in the form of Fast.AI.
+
+And what's more, if there is anything else out there like FastHTML, they're
+trying to give them exposure too if you scroll to the bottom of [their main docs
+homepage](https://docs.fastht.ml/). I mean, talk about class.
+
+Alright, so you get it. I don't like the shiny new objects but I'm taking one up
+anyway in the form of FastHTML. I'm already deeply committed to it, because it's
+nothing less than my path back into webdev, albeit a decidedly Electron-like
+localhost-oriented desktop app flavor of webdev that I favor. And that's only
+because Jupyter Notebooks which are a fine backup contingency plan to webdev can
+only take you so far... and I got there.
+
+You can't trade sophisticated dashboard-like applications with coworkers that
+just work every time with a Jupyter Notebook. Colab fans chime in here, but it's
+a long-running persistent costly joke why it isn't. I tried JupyterLab so I
+could do ipywidgets and Dash/Plotly-like dashboards built from them&#151;and
+that ***almost got me there***&#151; oh, so close! And of course StreamLit which
+is totally lit, but *excessively railed*. It's not a general framework that lets
+you go off-rails, which I pretty much have to do right out of the gate. So
+there's this exhaustive exploration of the alternatives that made me recognize
+FastHTML for what it was, and I have now fully moved on that. Done.
+Internalized. Incorporated. And on those occurrences where there's breaking
+changes... accepted.
+
+But now... but now... but now... Anywidgets!
+
+Oh, this is the actual story of serendipity that I started yesterday with the
+vastly huge link-graphs that I visualize with quite a remarkable trick that it's
+a miracle that it works, but I would rather leave behind. I don't even want to
+describe it, suffice to say that the developers who make the visualizer I use
+found the solution for me in how they made the hack I'm using unnecessary.
+
+I humbly asked them to support embedding their visualizer in Python Notebooks.
+Their response was, oh of course! They're working on it! Like mine wasn't the
+first request along these lines. Their product screams data science workflow,
+and if something screams that, it also screams Jupyter Notebooks. And their
+integration solution was Anywidgets, which I am just learning about now.
+
+Another shiny new toy. Exactly the sort of thing I don't want to take up. I am
+allergic to ***tiny new toy syndrome***. I really had to overcome it in taking
+up LLMs for serious work and giving Cursor AI a try, especially considering my
+particularly acute allergy to VSCode. It was some bitter medicine, but like
+Green Eggs and Ham, I did like them... ***I do like VSCode and LLM!***
+
+And so, it is with a reluctantly open mind, especially having been stung by
+`ipywidget` fragility in JupyterLab recently that I take up Anywidget as the
+very first things in my TenCardFlow examples today. Perplexity?
+
+**Perplexity**: Anywidget is a modern Python library designed to simplify the creation and sharing of custom Jupyter Widgets. It serves as both a specification and a toolkit, enabling developers to author reusable web-based widgets for interactive computing environments without the complexities typically associated with traditional widget development.
+
+## Key Features of Anywidget
+
+- **Ease of Use**: Anywidget allows developers to create widgets without needing complicated templates or extensive build configurations. This makes it particularly appealing for those with limited front-end experience[1][2].
+  
+- **Prototyping**: Users can prototype widgets directly within Jupyter notebooks, which facilitates rapid development and testing. This capability is enhanced by support for modern JavaScript features, allowing for real-time updates and a smoother development experience[2][4].
+
+- **Cross-Platform Compatibility**: Anywidget is designed to work across various environments, including classic Jupyter notebooks, JupyterLab, Google Colab, and Visual Studio Code. It abstracts away platform-specific details, allowing developers to focus on writing their widget code[1][3].
+
+- **Modular Design**: The framework utilizes ECMAScript modules (ESM), which enables developers to write modular JavaScript that can be executed across different notebook environments. This design choice significantly lowers the barrier to entry for new widget developers[2][5].
+
+- **Lifecycle Hooks**: Anywidget introduces lifecycle hooks such as `initialize` and `render`, which correspond to specific stages in a widget's lifecycle. This structured approach helps manage the state and rendering of widgets effectively[3][4].
+
+## Development Process
+
+To create a custom widget with Anywidget, developers define two main components:
+1. A **Python class** that represents the widget.
+2. An **ECMAScript module (ESM)** that contains the front-end code.
+
+This separation allows for greater flexibility and reusability of code across different projects and environments[2][4].
+
+### Example Code Snippet
+Here’s a simple example of how to define a counter widget using Anywidget:
+
+```python
+import anywidget
+import traitlets
+
+class CounterWidget(anywidget.AnyWidget):
+    _esm = """
+    function render({ model, el }) {
+        let button = document.createElement("button");
+        button.innerHTML = `count is ${model.get("value")}`;
+        button.addEventListener("click", () => {
+            model.set("value", model.get("value") + 1);
+            model.save_changes();
+        });
+        model.on("change:value", () => {
+            button.innerHTML = `count is ${model.get("value")}`;
+        });
+        el.appendChild(button);
+    }
+    export default { render };
+    """
+    
+    value = traitlets.Int(0).tag(sync=True)
+```
+
+In this example, the `CounterWidget` class defines a button that increments a counter each time it is clicked. The button's label updates dynamically based on the current value of the counter, demonstrating the interactive capabilities enabled by Anywidget.
+
+## Conclusion
+
+Anywidget represents a significant advancement in the ease of developing Jupyter Widgets by combining modern web development practices with interactive computing. Its focus on simplicity, cross-platform compatibility, and modular design makes it an attractive option for both novice and experienced developers looking to enhance their Jupyter notebook applications.
+
+Citations:
+
+    [1] https://anywidget.dev/en/getting-started/
+    [2] https://blog.jupyter.org/anywidget-jupyter-widgets-made-easy-164eb2eae102?gi=1f777c473c9d
+    [3] https://anywidget.dev/en/jupyter-widgets-the-good-parts/
+    [4] https://anywidget.dev/blog/introducing-anywidget/
+    [5] https://www.reddit.com/r/Python/comments/10hxq95/introducing_anywidget_custom_jupyter_widgets_made/
+    [6] https://github.com/manzt/anywidget
+
+Alright, so it's time for some major gutting of `botifython.py`. My plan was to
+leave the `BotifyLinkGraph` class in place until the new one is fully
+implemented and tested, so the old one was there for reference. But I found that
+the actual site I'm integrating with that just released its Jupyter Notebook
+integration with Anywidget has also (temporarily, I assume) broken their main
+package, right in the middle of the holidays when probably nobody but me is
+looking, haha! I left them notes, but this is the opportune time to do that...
+
+Okay, done. Knocked almost a thousand lines of code off the program.
+
+Next up, I'm going to remove what I call Poetflow, where I designed the musical
+notes like poetry of this whole thing. I'm going to move the LLM tutorial aspect
+of it into Bridgeflow to reduce the tutorial surface area.
