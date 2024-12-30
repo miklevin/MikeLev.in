@@ -356,6 +356,8 @@ of LLMs, it's just good context. It's the storytelling and embellishment that
 makes the next steps that harken back to all those reasons for decisions all
 the more important. Isn't that right, o1 Pro?
 
+---
+
 ## How We Request Confirmation Bias With AI
 
 > Yeah, so of course I know AI is going to lean into what it thinks I want to
