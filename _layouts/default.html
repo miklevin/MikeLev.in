@@ -168,9 +168,6 @@
     </header>
     <main>
         {{ content }}
-        <div id="bottomSliderContainer">
-            <input type="range" id="bottomSlider" min="850" max="3000" value="850" />
-        </div>
     </main>
     <footer>
         <p>
@@ -187,55 +184,23 @@
 </div>
 
 <script>
-    // Use the existing bottomSlider element
-    const bottomSlider = document.getElementById('bottomSlider');
-
-    // Set max width for bottom slider (use the existing MAX_WIDTH constant)
-    bottomSlider.max = MAX_WIDTH;
-
-    // Get the initial width from the cookie or use default
-    bottomSlider.value = savedWidth ? savedWidth : 850;
-
-    // Use the existing updateWidth function
-    bottomSlider.addEventListener('input', () => updateWidth(bottomSlider.value));
-
-    // Add this at the very end of your existing script, after all other code
+    // Remove all this bottom slider code
+    // const bottomSlider = document.getElementById('bottomSlider');
+    // bottomSlider.max = MAX_WIDTH;
+    // bottomSlider.value = savedWidth ? savedWidth : 850;
+    // bottomSlider.addEventListener('input', () => updateWidth(bottomSlider.value));
 
     function syncSliders() {
-        const bottomSlider = document.getElementById('bottomSlider');
-        const topSlider = document.getElementById('widthSlider');
-        
-        let isUpdating = false;
-
-        function updateSliders(sourceSlider, targetSlider) {
-            if (isUpdating) return;
-            isUpdating = true;
-            targetSlider.value = sourceSlider.value;
-            if (sourceSlider === topSlider) {
-                // Only call updateWidth for the top slider to maintain existing behavior
-                updateWidth(sourceSlider.value);
-            }
-            isUpdating = false;
-        }
-        
-        bottomSlider.value = topSlider.value;
-        
-        topSlider.addEventListener('input', function() {
-            updateSliders(this, bottomSlider);
-        });
-        
-        bottomSlider.addEventListener('input', function() {
-            updateSliders(this, topSlider);
-        });
+        // Remove or comment out this entire function as it's no longer needed
     }
 
-    // Call this function after the page loads
-    window.addEventListener('load', syncSliders);
+    // Remove this event listener
+    // window.addEventListener('load', syncSliders);
 
-    // Fix for the resize bug, but only on non-mobile devices
+    // Keep the resize handler and mobile check
     let resizeTimer;
     function handleResize() {
-        if (window.innerWidth > 768) { // Assuming 768px as the breakpoint for mobile devices
+        if (window.innerWidth > 768) {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(function() {
                 location.reload();
@@ -247,7 +212,6 @@
             handleResize();
         }
     });
-
 </script>
 </body>
 </html>
