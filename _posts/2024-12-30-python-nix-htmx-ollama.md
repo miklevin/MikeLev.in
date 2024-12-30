@@ -1549,6 +1549,8 @@ Then each paragraph is also “pixel-chunked,” letting queries or references t
 
 ---
 
+## And Now The Big Picture!
+
 **Me**: Okay now, summarize what you know of what I'm doing.
 
 **o1 Pro**: Here’s a concise summary of what you’re doing:
