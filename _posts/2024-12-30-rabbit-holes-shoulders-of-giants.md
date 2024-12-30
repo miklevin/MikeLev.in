@@ -1,5 +1,5 @@
 ---
-title: Rabbit Holes, Wonderlands and The Shoulders of Giants
+title: Of Rabbit Holes, Wonderlands & Shoulders of Giants
 permalink: /futureproof/rabbit-holes-shoulders-of-giants/
 description: 
 layout: post
