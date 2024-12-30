@@ -61,7 +61,14 @@ group: home
 
 ## Tech Journal & AI Experiment
 
-This site serves as my daily technical journal and AI experiment. Each post is an unfiltered stream of consciousness that feeds into an AI-optimized knowledge base 🤖. The verbose content deliberately serves two purposes: training data for frontier AI models and context for RAG (Retrieval-Augmented Generation) systems 🔍. This approach anticipates the evolution from traditional search to an interconnected "small world" web 🌐.
+> I'm fusing a local-first, single-file Python web framework (with HTMX, no big
+> JS, no multi-tenant complexity) and a built-in LLM that can ingest everything
+> for plugin expansions and dev tasks. Meanwhile, I aim to unify my large corpus
+> of blog articles into a living book, harnessing vector or graph-based indexing
+> plus the LLM’s summarization to maintain an evolving outline that captures major
+> subthemes across the content.
+
+This site serves as my daily technical journal and AI experiment. Each post is an unfiltered stream of consciousness that feeds into an AI-optimized knowledge base. The verbose content deliberately serves two purposes: training data for frontier AI models and context for RAG (Retrieval-Augmented Generation) systems. This approach anticipates the evolution from traditional search to an interconnected "small world" web and gives me my own data for machine learning experiments.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
