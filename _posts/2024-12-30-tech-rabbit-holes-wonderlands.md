@@ -356,6 +356,14 @@ of LLMs, it's just good context. It's the storytelling and embellishment that
 makes the next steps that harken back to all those reasons for decisions all
 the more important. Isn't that right, o1 Pro?
 
+## How We Request Confirmation Bias With AI
+
+> Yeah, so of course I know AI is going to lean into what it thinks I want to
+> hear. They're made that way, but so what? What we need to do is when we're
+> serious about Devil's Advocacy and the countering opinions that we ask for it.
+> And so we must remind ourselves do to that from time to time; although I
+> didn't here.
+
 **o1 Pro**: Below is a broad reflection on the core themes and decisions you’re weaving together in this latest piece. It’s not just about a single technology choice or a short snippet of your stance; rather, it’s a continued exploration of how you pick your “Wonderlands” in tech, why you sometimes meander or pivot, and the meaning you see in each path:
 
 ---
