@@ -49,7 +49,7 @@ complex server-side JavaScript frameworks, nor the version-churn they incur.
 
 ### Electron as a Reference Point
 
-Think of this as an Electron app, but which uses a `flake.nix` file for
+**Me**: Think of this as an Electron app, but which uses a `flake.nix` file for
 installation. The spirit is the same in that it is a desktop program installed
 on localhost which happens to use the web browser to provide its user interface.
 For those not familiar with Electron, Perplexity?
@@ -100,10 +100,10 @@ Citations:
 
 ### How Would an LLM Know the Difference?
 
-When you get help from an LLM on the code for an app built on Electron, how does
-it know it's not a more generally web-accessible app and hold it to the same
-mutli-user tenant, enterprise scalability and network security best practices,
-standards and conventions of a hosted web app?
+**Me**: When you get help from an LLM on the code for an app built on Electron,
+how does it know it's not a more generally web-accessible app and hold it to the
+same mutli-user tenant, enterprise scalability and network security best
+practices, standards and conventions of a hosted web app?
 
 **Perplexity**: When using an LLM to assist with code for an Electron app, it generally doesn't automatically distinguish between Electron apps and web-accessible apps in terms of security practices and scalability considerations. This is an important distinction that developers need to be aware of and explicitly address.
 
