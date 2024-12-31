@@ -2716,7 +2716,6 @@ class LinkGraphFlow:
                 )
 
         # Show the form & CSV block
-        # fetch analyses
         analysis_list = await fetch_analyses_light_new(org, project)
         local_dir = Path("downloads/link-graph") / org / project
 
@@ -2821,7 +2820,6 @@ class LinkGraphFlow:
 
         step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
         if step3_data.get("export_started"):
-            # Possibly finalized?
             if self.pipulate.is_finalized(pipeline_id, "step_05"):
                 return Div(
                     Card("Export already started (locked)."),
@@ -2840,7 +2838,6 @@ class LinkGraphFlow:
                     Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
                 )
 
-        # If analysis was "already_downloaded", skip?
         if step2_data.get("already_downloaded"):
             return Div(
                 Card("Analysis was already downloaded => skipping export."),
@@ -2917,7 +2914,6 @@ class LinkGraphFlow:
             Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
         )
 
-    # same as original
     async def _start_links_export_new(self, org, project, analysis, depth) -> str:
         query = {
             "dimensions": ["url", f"crawl.{analysis}.outlinks_internal.graph.url"],
@@ -3034,7 +3030,6 @@ class LinkGraphFlow:
             org = step1_data["org"]
             project = step1_data["project"]
             analysis = step2_data["analysis"]
-            local_dir = Path("downloads/link-graph")
             local_dir = Path("downloads/link-graph") / org / project
             link_path = local_dir / f"{project}_{analysis}_links.csv"
             download_file_new(download_url, link_path, logger=self.logger)
@@ -3052,207 +3047,206 @@ class LinkGraphFlow:
                 )
             else:
                 return P("Links done, waiting on meta...", style="color:green;")
-            else:
+        else:
+            return Div(
+                P("Links export in progress..."),
+                hx_get=f"{self.prefix}/poll_links",
+                hx_trigger="load delay:3s"
+            )
+
+    async def poll_meta(self, request):
+        pipeline_id = db.get("pipeline_id","")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        meta_job_url = step3_data.get("meta_job_url","")
+        if not meta_job_url:
+            return P("No meta job to poll", style="color:red;")
+
+        job_done, download_url = await self._check_job_done_new(meta_job_url)
+        if job_done:
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            org = step1_data["org"]
+            project = step1_data["project"]
+            analysis = step2_data["analysis"]
+            local_dir = Path("downloads/link-graph") / org / project
+            meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+            download_file_new(download_url, meta_path, logger=self.logger)
+
+            step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+            step4_data["meta_done"] = True
+            if step4_data.get("links_done"):
+                step4_data["done"] = True
+            self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+
+            if step4_data.get("done"):
                 return Div(
-                    P("Links export in progress..."),
-                    hx_get=f"{self.prefix}/poll_links",
-                    hx_trigger="load delay:3s"
+                    P("Meta done, links done => all done!", style="color:green;"),
+                    hx_get=f"{self.prefix}/step_04", hx_trigger="load"
                 )
+            else:
+                return P("Meta done, waiting on links...", style="color:green;")
+        else:
+            return Div(
+                P("Meta export in progress..."),
+                hx_get=f"{self.prefix}/poll_meta",
+                hx_trigger="load delay:3s"
+            )
 
-            async def poll_meta(self, request):
-                pipeline_id = db.get("pipeline_id","")
-                step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
-                meta_job_url = step3_data.get("meta_job_url","")
-                if not meta_job_url:
-                    return P("No meta job to poll", style="color:red;")
+    async def _check_job_done_new(self, job_url: str):
+        """
+        Return (True, download_url) if job is done, else (False, "").
+        """
+        token = read_botify_token()
+        if not token:
+            self.logger.error("No token, can't poll job.")
+            return (False, "")
 
-                job_done, download_url = await self._check_job_done_new(meta_job_url)
-                if job_done:
-                    step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
-                    step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
-                    org = step1_data["org"]
-                    project = step1_data["project"]
-                    analysis = step2_data["analysis"]
-                    local_dir = Path("downloads/link-graph") / org / project
-                    meta_path = local_dir / f"{project}_{analysis}_meta.csv"
-                    download_file_new(download_url, meta_path, logger=self.logger)
-
-                    step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
-                    step4_data["meta_done"] = True
-                    if step4_data.get("links_done"):
-                        step4_data["done"] = True
-                    self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
-
-                    if step4_data.get("done"):
-                        return Div(
-                            P("Meta done, links done => all done!", style="color:green;"),
-                            hx_get=f"{self.prefix}/step_04", hx_trigger="load"
-                        )
-                    else:
-                        return P("Meta done, waiting on links...", style="color:green;")
+        headers = {
+            "Authorization": f"Token {token}",
+            "Content-Type": "application/json"
+        }
+        async with aiohttp.ClientSession() as session:
+            async with session.get(job_url, headers=headers) as resp:
+                if resp.status != 200:
+                    text = await resp.text()
+                    self.logger.error(f"Job poll fail: status={resp.status}, body={text}")
+                    return (False, "")
+                data = await resp.json()
+                status = data.get("job_status","")
+                if status == "DONE":
+                    durl = data["results"].get("download_url","")
+                    return (True, durl)
+                elif status == "FAILED":
+                    self.logger.error(f"Job {job_url} failed: {data}")
+                    return (False, "")
                 else:
-                    return Div(
-                        P("Meta export in progress..."),
-                        hx_get=f"{self.prefix}/poll_meta",
-                        hx_trigger="load delay:3s"
-                    )
-
-            async def _check_job_done_new(self, job_url: str):
-                """
-                Return (True, download_url) if job is done, else (False, "").
-                """
-                token = read_botify_token()
-                if not token:
-                    self.logger.error("No token, can't poll job.")
+                    # job_status is "IN_PROGRESS", "PENDING", etc.
                     return (False, "")
 
-                headers = {
-                    "Authorization": f"Token {token}",
-                    "Content-Type": "application/json"
-                }
-                async with aiohttp.ClientSession() as session:
-                    async with session.get(job_url, headers=headers) as resp:
-                        if resp.status != 200:
-                            text = await resp.text()
-                            self.logger.error(f"Job poll fail: status={resp.status}, body={text}")
-                            return (False, "")
-                        data = await resp.json()
-                        status = data.get("job_status","")
-                        if status == "DONE":
-                            durl = data["results"].get("download_url","")
-                            return (True, durl)
-                        elif status == "FAILED":
-                            self.logger.error(f"Job {job_url} failed: {data}")
-                            return (False, "")
-                        else:
-                            # job_status is "IN_PROGRESS", "PENDING", etc.
-                            return (False, "")
-
-            # ---------------------------------------------------------------------
-            # STEP 05: Finalize
-            # ---------------------------------------------------------------------
-            async def step_05(self, request):
-                """
-                Show 'Finalize' button if not finalized, else show locked card.
-                """
-                pipeline_id = db.get("pipeline_id","")
-                step5_data = self.pipulate.get_step_data(pipeline_id, "step_05", {})
-                if "finalized" in step5_data:
-                    return Card(
-                        "LinkGraphFlow is fully finalized.",
-                        style="color: green;"
+    # ---------------------------------------------------------------------
+    # STEP 05: Finalize
+    # ---------------------------------------------------------------------
+    async def step_05(self, request):
+        """
+        Show 'Finalize' button if not finalized, else show locked card.
+        """
+        pipeline_id = db.get("pipeline_id","")
+        step5_data = self.pipulate.get_step_data(pipeline_id, "step_05", {})
+        if "finalized" in step5_data:
+            return Card(
+                "LinkGraphFlow is fully finalized.",
+                style="color: green;"
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Finalize LinkGraphFlow"),
+                    P("Lock everything. You can still revert if not finalized."),
+                    Form(
+                        Button("Finalize", type="submit"),
+                        hx_post=f"{self.prefix}/step_05_submit",
+                        hx_target="#linkgraph2-container",
+                        hx_swap="outerHTML"
                     )
-                else:
-                    return Div(
-                        Card(
-                            H3("Finalize LinkGraphFlow"),
-                            P("Lock everything. You can still revert if not finalized."),
-                            Form(
-                                Button("Finalize", type="submit"),
-                                hx_post=f"{self.prefix}/step_05_submit",
-                                hx_target="#linkgraph2-container",
-                                hx_swap="outerHTML"
-                            )
-                        ),
-                        id="step_05"
+                ),
+                id="step_05"
+            )
+
+    async def step_05_submit(self, request):
+        """
+        Mark the pipeline as finalized => step_05 => { "finalized": True }
+        """
+        pipeline_id = db.get("pipeline_id","")
+        self.pipulate.set_step_data(pipeline_id, "step_05", {"finalized": True})
+
+        # Re-generate placeholders from step_01..step_05 so everything is locked
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    # ---------------------------------------------------------------------
+    # REVERT & UNFINALIZE
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        """
+        POST /linkgraph2/jump_to_step
+        Rolls back to a prior step, discarding subsequent steps' data (including finalize).
+        """
+        form = await request.form()
+        step_id = form.get("step", "")
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Clear everything from step_id onwards
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Re-generate placeholders from the beginning
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    async def unfinalize(self, request):
+        """
+        POST /linkgraph2/unfinalize
+        Removes 'finalized' key from step_05, unlocking revert controls.
+        """
+        pipeline_id = db.get("pipeline_id", "")
+        if not pipeline_id:
+            return P("No pipeline found", style="color:red;")
+
+        state = self.pipulate.get_state(pipeline_id)
+        if "step_05" in state and "finalized" in state["step_05"]:
+            del state["step_05"]["finalized"]
+            self.pipulate._save_state(pipeline_id, state)
+
+        # Now that 'finalized' is removed, revert controls should reappear
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    # ---------------------------------------------------------------------
+    # HELPER: RENDER SIDE EFFECTS (CSV Listing) - Only used at step_02
+    # ---------------------------------------------------------------------
+    def _render_side_effects(self, org: str, project: str):
+        """
+        Return a Div block showing current CSVs for the given org & project.
+        We do not do any 'partial' generation of the same element for locked/active modes.
+        It's simply a read-only listing to be appended to the card.
+        """
+        local_dir = Path("downloads/link-graph") / org / project
+        local_dir.mkdir(parents=True, exist_ok=True)
+        existing_links = list(local_dir.glob("*_links.csv"))
+        existing_meta  = list(local_dir.glob("*_meta.csv"))
+
+        # Combine them
+        items = []
+        for path in sorted(existing_links + existing_meta):
+            fname = path.name
+            link_url = f"/download/{org}/{project}/{fname}"
+            if fname.endswith("_links.csv"):
+                items.append(
+                    Li(
+                        A(fname, href=link_url, target="_blank"),
+                        " | ",
+                        A("(Visualize)", href=f"https://cosmograph.app/run/?data=http://localhost:5001{link_url}", target="_blank")
                     )
-
-            async def step_05_submit(self, request):
-                """
-                Mark the pipeline as finalized => step_05 => { "finalized": True }
-                """
-                pipeline_id = db.get("pipeline_id","")
-                self.pipulate.set_step_data(pipeline_id, "step_05", {"finalized": True})
-
-                # Re-generate placeholders from step_01..step_05 so everything is locked
-                placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
-                return Div(*placeholders, id="linkgraph2-container")
-
-            # ---------------------------------------------------------------------
-            # REVERT & UNFINALIZE
-            # ---------------------------------------------------------------------
-            async def jump_to_step(self, request):
-                """
-                POST /linkgraph2/jump_to_step
-                Rolls back to a prior step, discarding subsequent steps' data (including finalize).
-                """
-                form = await request.form()
-                step_id = form.get("step", "")
-                pipeline_id = db.get("pipeline_id", "")
-
-                # Clear everything from step_id onwards
-                self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
-
-                # Re-generate placeholders from the beginning
-                placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
-                return Div(*placeholders, id="linkgraph2-container")
-
-            async def unfinalize(self, request):
-                """
-                POST /linkgraph2/unfinalize
-                Removes 'finalized' key from step_05, unlocking revert controls.
-                """
-                pipeline_id = db.get("pipeline_id", "")
-                if not pipeline_id:
-                    return P("No pipeline found", style="color:red;")
-
-                state = self.pipulate.get_state(pipeline_id)
-                if "step_05" in state and "finalized" in state["step_05"]:
-                    del state["step_05"]["finalized"]
-                    self.pipulate._save_state(pipeline_id, state)
-
-                # Now that 'finalized' is removed, revert controls should reappear
-                placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
-                return Div(*placeholders, id="linkgraph2-container")
-
-            # ---------------------------------------------------------------------
-            # HELPER: RENDER SIDE EFFECTS (CSV Listing) - Only used at step_02
-            # ---------------------------------------------------------------------
-            def _render_side_effects(self, org: str, project: str):
-                """
-                Return a Div block showing current CSVs for the given org & project.
-                We do not do any 'partial' generation of the same element for locked/active modes.
-                It's simply a read-only listing to be appended to the card.
-                """
-                local_dir = Path("downloads/link-graph") / org / project
-                local_dir.mkdir(parents=True, exist_ok=True)
-                existing_links = list(local_dir.glob("*_links.csv"))
-                existing_meta  = list(local_dir.glob("*_meta.csv"))
-
-                # Combine them
-                items = []
-                for path in sorted(existing_links + existing_meta):
-                    fname = path.name
-                    link_url = f"/download/{org}/{project}/{fname}"
-                    if fname.endswith("_links.csv"):
-                        items.append(
-                            Li(
-                                A(fname, href=link_url, target="_blank"),
-                                " | ",
-                                A("(Visualize)", href=f"https://cosmograph.app/run/?data=http://localhost:5001{link_url}", target="_blank")
-                            )
-                        )
-                    else:
-                        # meta
-                        items.append(
-                            Li(
-                                A(fname, href=link_url, target="_blank"),
-                                Span(" (Meta CSV)")
-                            )
-                        )
-
-                if not items:
-                    return Article(
-                        style="background-color:#f9f9f9; margin-top:1rem;",
-                        H4("Current CSV Outputs:"),
-                        P("None yet.")
-                    )
-
-                return Article(
-                    style="background-color:#f9f9f9; margin-top:1rem;",
-                    H4("Current CSV Outputs:"),
-                    Ul(*items)
                 )
+            else:
+                items.append(
+                    Li(
+                        A(fname, href=link_url, target="_blank"),
+                        Span(" (Meta CSV)")
+                    )
+                )
+
+        if not items:
+            return Article(
+                H4("Current CSV Outputs:"),
+                P("None yet."),
+                style="background-color:#f9f9f9; margin-top:1rem;"
+            )
+
+        return Article(
+            H4("Current CSV Outputs:"),
+            Ul(*items),
+            style="background-color:#f9f9f9; margin-top:1rem;"
+        )
 ```
 
 **Explanation of Key Changes**:
@@ -3330,3 +3324,5 @@ You’re correct that it’s somewhat “out of sequence” if we were reading t
 In short, it is a style choice. If we were 100% “linear” in our code organization (like a purely top-down read of the pipeline steps in chronological order), we might keep that side-effect function inline in step_02. But from a maintainability perspective, factoring it out as a small helper is beneficial—and placing it at the bottom is a fairly common pattern in web frameworks (or object-oriented code in general) so that each step remains concise and the specialized rendering function is available to all steps in case we want to use it again.
 
 So, you are correct: it’s not placed in the exact top-to-bottom order that purely follows the pipeline’s story flow. Instead, it’s grouped with the other “supporting” code. That is the reason we “broke it out, clearly labeled it, and moved it to the bottom” within the class.
+
+
