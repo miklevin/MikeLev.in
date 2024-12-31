@@ -685,3 +685,7 @@ Okay, done. Knocked almost a thousand lines of code off the program.
 Next up, I'm going to remove what I call Poetflow, where I designed the musical
 notes like poetry of this whole thing. I'm going to move the LLM tutorial aspect
 of it into Bridgeflow to reduce the tutorial surface area.
+
+That's 1630 lines deleted. I already got the special LLM tutorial aspects of
+Poetflow wrapped into Bridgeflow. 
+
