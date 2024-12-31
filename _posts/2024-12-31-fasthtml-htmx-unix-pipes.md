@@ -3292,7 +3292,11 @@ sequence as a matter of style, as the one violation of the in-sequence like a
 Unix pipe philosophy are these side effect visualizers that we layer in and
 potentially re-use on different cards. And this is the reason you broke it out,
 clearly labeled it and moved it to the bottom but still inside the class. Again,
-don't just enthusiastically agree, but rather school me please!0
+don't just enthusiastically agree, but rather school me please!
+
+---
+
+## o1 Pro Helps Me In Stitching
 
 **o1 Pro**: First, regarding that `local_dir = Path("downloads/link-graph")` line: yes, it only appeared in a partially truncated snippet right at the end of that response to maintain a tidy close—because the assistant ran out of space to provide the full code. It was not a deliberate or final line to keep. The more complete line is:
 
