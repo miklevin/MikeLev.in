@@ -3325,4 +3325,11 @@ In short, it is a style choice. If we were 100% “linear” in our code organiz
 
 So, you are correct: it’s not placed in the exact top-to-bottom order that purely follows the pipeline’s story flow. Instead, it’s grouped with the other “supporting” code. That is the reason we “broke it out, clearly labeled it, and moved it to the bottom” within the class.
 
+---
+
+Alright, so it's already noon, and 2024 is almost over. 2025 is just about upon
+us and I want to push this whole system a wee bit further, right to the
+Lego-like building blocks of the HTMX Unix pipe-like construction factory. I
+need to slam out new workflows!
+
 
