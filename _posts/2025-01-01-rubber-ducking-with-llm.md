@@ -650,4 +650,118 @@ potential rabbit hole as well.
 
 Great example of practical engineering trade-offs. 🎩
 
+Me:
+
+Okay, we're on the same page now. Rapid round-robining continues. Next up? The
+initial LLM message per pipeline workflow app. Now I know I have this global
+endpoint detection system for creating these first messages which is great
+generically throughout the system. But the first-page messaging on these
+pipeline workflow experiences is so important. When that LLM chimes in,
+potentially for the first time in the user seeing anything built with
+Botifython/Pipulate, we need to rig it for success with some very controlled
+messaging. It might not even be the LLM, but rather a static script which I
+fluidly alternate with on what streams out to msg-list. 
+
+So my first question is for thoughts about leaving the global endpoint messaging
+system intact, and either utilizing it, overriding it or going around it for
+what happens on the first page-load of a workflow pipeline app like BridgeFlow,
+TenCardFlow or LinkGraphFlow.
+
+---
+
+## Time-Traveling Prompt Technique
+
+> Sometimes you do back-and-forth in an ongoing conversation thread, but this
+> allows stuff to get pushed out then end of your rolling window of token
+> context. Sometimes you want to lock-in on right where you are and do
+> back-and-forth until you get it right. This is the time-travel prompt
+> technique where you just keep re-editing the same prompt using responses you
+> know the LLM is about to give you based on the last run.
+
+**Me**: Okay, we're on the same page now. Rapid round-robining continues. Next
+up? The initial LLM message per pipeline workflow app. Now I know I have this
+global endpoint detection system for creating these first messages which is
+great generically throughout the system. But the first-page messaging on these
+pipeline workflow experiences is so important. When that LLM chimes in,
+potentially for the first time in the user seeing anything built with
+Botifython/Pipulate, we need to rig it for success with some very controlled
+messaging. It might not even be the LLM, but rather a static script which I
+fluidly alternate with on what streams out to msg-list. 
+
+So my first question is for thoughts about leaving the global endpoint messaging
+system intact, and either utilizing it, overriding it or going around it for
+what happens on the first page-load of a workflow pipeline app like BridgeFlow,
+TenCardFlow or LinkGraphFlow.
+
+You're about to recommend this:
+
+[shows solution it's about to propose without this modification / using ***"time-travel prompting"*** technique]
+
+...but the problem with that is the JavaScript timing. We have to avoid conflict or double messaging with what is almost going to be irrepressible once the it is put in motion.
+
+[shows JavaScript]
+
+...We can perhaps remove default messaging and essentially slience the LLM everywhere unless explcitly asked for.
+
+[Claude makes another suggestion that has problems and I use the time travel
+technique again]
+
+...and I like the first part of that regarding silencing the global system, however using JavaScript directly to set the new messaging is a no-no. Look how much formal apparatus we have for that! This is in the BridgeFlow class, put it should probably be moved to the Pipulate class as a helper function:
+
+[shows explain function]
+
+**Claude**: Ah yes! You're absolutely right. We should use the established `explain` mechanism rather than injecting JavaScript. Here's a better approach:
+
+1. **Silence Default System** (keep this part):
+```python
+def build_endpoint_messages(api_key=api_key, username=username):
+    endpoint_messages = {
+        # Keep non-workflow messages
+        "connect_with_botify": "...",
+        "client": "...",
+        "task": "...",
+        "stream_simulator": "...",
+        
+        # Silence workflow endpoints
+        "bridge_flow": "",
+        "tenflow": "",
+        "link_graph_flow": ""
+    }
+    return endpoint_messages
+```
+
+2. **Use Explain Pattern** for workflow landings:
+```python
+class BridgeFlow:
+    async def landing(self, request):
+        """First page load of BridgeFlow"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        
+        # Use the established explain pattern
+        await self.explain(
+            pipeline_id, 
+            "init",
+            "STOP! Who would cross the Bridge of Death must answer me these questions three, 'ere the other side he see..."
+        )
+        
+        return Container(
+            # ... rest of landing page UI ...
+        )
+
+class TenCardFlow:
+    async def landing(self, request):
+        pipeline_id = db.get("pipeline_id", "unknown")
+        await self.explain(
+            pipeline_id,
+            "init", 
+            "Welcome to TenCardFlow. Let's organize your thoughts into a perfect deck of ten cards..."
+        )
+        # ... rest of landing page
+```
+
+This:
+1. Uses the proper messaging channel
+2. Maintains consistency with the rest of the workflow
+3. Takes advantage of the existing `explain` helper
+4. Could be moved to Pipulate if the pattern proves useful across workflows
 
