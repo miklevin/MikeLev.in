@@ -3626,12 +3626,10 @@ safely? I have the full power of nvim at my disposal too. And I can write
 macros to search visually look at, and then do an `@@` and keypress and
 carefully blast through it.
 
-Claude: 
-
-Ah yes, `pid` is even better! Here's a safe approach to this migration:
+**Claude**: Ah yes, `pid` is even better! Here's a safe approach to this migration:
 
 1. First, let's update the schema:
-````python:botifython/botifython.py
+````python
     pipeline={           
         "pid": str,      # Primary key part 1 (was "url")
         "endpoint": str, # Primary key part 2 
