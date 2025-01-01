@@ -671,12 +671,13 @@ TenCardFlow or LinkGraphFlow.
 
 ## Time-Traveling Prompt Technique
 
-> Sometimes you do back-and-forth in an ongoing conversation thread, but this
-> allows stuff to get pushed out then end of your rolling window of token
-> context. Sometimes you want to lock-in on right where you are and do
-> back-and-forth until you get it right. This is the time-travel prompt
-> technique where you just keep re-editing the same prompt using responses you
-> know the LLM is about to give you based on the last run.
+> When you go back-and-forth with an LLM you push important stuff off the back
+> of your rolling window of token context. Sometimes you want to lock-in on
+> right where you are in the conversation and do back-and-forth anyway, but
+> without ruining the window. This is the time-travel prompt technique where you
+> just keep re-editing the same prompt using responses you know the LLM is about
+> to give you based on the last run. More of your prior conversation history
+> continues to fit the re-post.
 
 **Me**: Okay, we're on the same page now. Rapid round-robining continues. Next
 up? The initial LLM message per pipeline workflow app. Now I know I have this
@@ -764,4 +765,5 @@ This:
 2. Maintains consistency with the rest of the workflow
 3. Takes advantage of the existing `explain` helper
 4. Could be moved to Pipulate if the pattern proves useful across workflows
+
 
