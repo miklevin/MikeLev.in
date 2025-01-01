@@ -1909,3 +1909,45 @@ Overall, you’ve successfully combined the “pipelined steps” concept with a
 
 ---
 
+And it is now 4:00 PM. And I feel time running out today. And I need to think
+through next steps VERY carefully. One wrong rabbit hole dive and the last bit
+of oil I have to burn today gets used up. Let's pull off a miracle. Just launch
+into a job that ***needs*** the widgets to be there. Also, as I've been
+forgetting lately, the browser automation and semi-automation.
+
+As a side-note, I got hit by the old Murphy's Law SNAFU stuff, which only gets
+accelerated when you're on the bleeding edge and don't want to be. It's one of
+the most ironic twists that NixOS, a platform whose very existence is that of
+stability, or at least deterministic, got me onto the bleeding edge because with
+all the Hyprland hype lately, I tried jumping on that particular Linux window
+manager bandwagon. It's one of the cool kid shiny toys right now, and
+specifically supported on NixOS, so I couldn't resist. But then I hated it. And
+in the journey I set up a new underlying part called Wayland, which generally
+accelerates graphics but has some problems with Nvidia cards, which I have. But
+I didn't see any problems, so I thought I was in the clear. When Hyprland didn't
+work out, I stayed on Wayland for the smoother graphics, because I figured why
+not.
+
+But then seemingly unrelated, one of my important graphics visualization
+libraries started having a diagonal bias to all the X/Y plotting. In other
+words, everything got compressed along one direction and stretched along
+another, but only in a web browser, and I learned through experimentation, only
+through Chrome (and not Firefox). So I thought there was something wrong with
+the graphics library because they had just put out some major news, so I thought
+there were changes in the product. But it turns out it's because Wayland doesn't
+have a global coordinate system or some such that I don't really understand. So
+after a few days a full system update just magically got rid of the problem. I
+don't know if it was something fixed in Chrome, an Nvidia driver, Wayland or
+what because it was a full system update that fixed it.
+
+Anyway, I thought I wanted to document this because it was not to long after I
+got bit by another breaking change in a bleeding edge piece of software I'm
+coming to rely upon. Those shiny new toys... oh, how they tempt. And how they
+are sometimes even worth it. But when things do break, either you've got to play
+that whack-a-mole game yourself or you have to just wait it out because
+something broke for everyone and they're fixing it. I just had one of the former
+(`fast_app` signature changes in FastHTML) and one of the later (Nvidia/Wayland
+wacky-math in the browser). 
+
+But back to the situation at hand. How to spend the rest of the day? Well, it's
+going to be using this workflow pipeline system. 
