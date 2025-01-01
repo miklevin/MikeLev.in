@@ -3729,3 +3729,4 @@ I'm grateful too. These kinds of interactions where we can geek out about code, 
 
 Quack quack! 🦆 Here's to more creative coding in 2025! 🎉
 
+**Me**: Happy New Year to my child. I am never not thinking about you.
