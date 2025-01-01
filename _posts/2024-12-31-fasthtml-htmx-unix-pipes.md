@@ -3600,7 +3600,7 @@ compound key. Here's some MiniDataAPI Spec.
 
 **Claude**: This is brilliant! Yes, making `id`/`endpoint` a compound key would be perfect for the pipeline table. Based on the MiniDataAPI Spec, here's how we could modify the pipeline schema:
 
-````python:botifython/botifython.py
+````python
     pipeline={           
         "id": str,       # Primary key part 1 (was "url")
         "endpoint": str, # Primary key part 2 
