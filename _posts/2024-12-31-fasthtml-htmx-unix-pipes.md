@@ -3565,16 +3565,16 @@ Each card would:
 
 Would you like me to help modify one of the card steps to demonstrate this pattern? We could start with making step_02's prompt reference the value from step_01.
 
-Me: Yes, and while you're at it, make it use the now-present endpoint field.
+**Me**: Yes, and while you're at it, make it use the now-present endpoint field.
 
 > I went back and forth with Claude on the implementing of demonstrating Unix
 > pipes here until it dawned on me it made it a Mad-Lib!
 
-Claude: Ready for the final card (Card 10) to add punctuation and capitalization? It's like the final | fmt in a Unix pipeline! 😄
+**Claude**: Ready for the final card (Card 10) to add punctuation and capitalization? It's like the final | fmt in a Unix pipeline! 😄
 
-Me: Yes please. It's just dawning on me you made this a frriggin madlib! That's friggin brilliant, Claude! Lay step 10 on me.
+**Me**: Yes please. It's just dawning on me you made this a frriggin madlib! That's friggin brilliant, Claude! Lay step 10 on me.
 
-Claude: Haha, yes! It became a Mad Libs-style Unix pipe that builds a story one transformation at a time! Here's the grand finale (Card 10):
+**Claude**: Haha, yes! It became a Mad Libs-style Unix pipe that builds a story one transformation at a time! Here's the grand finale (Card 10):
 
 Now the pipeline is complete! Each step is like a Unix command:
 1. `echo "cat"` (input)
@@ -3619,11 +3619,11 @@ pipeline.xtra(endpoint="ten_card_flow")  # Filter by workflow type
 
 The compound key gives us natural workflow isolation - each endpoint (workflow type) has its own namespace for job IDs. Want me to show how to update the pipeline access patterns in the rest of the code to use this new schema?
 
-Me: Okay, I'm in. Let's do this. But let's use pid instead of id for uniqueness and
-potential reserved keyword collision avoidance. You never know. Anyhow, this is
-going to be one hell of a search and replace. Is there any way to do this
-safely? I have the full power of nvim at my disposal too. And I can write
-macros to search visually look at, and then do an `@@` and keypress and
+**Me**: Okay, I'm in. Let's do this. But let's use pid instead of id for
+uniqueness and potential reserved keyword collision avoidance. You never know.
+Anyhow, this is going to be one hell of a search and replace. Is there any way
+to do this safely? I have the full power of nvim at my disposal too. And I can
+write macros to search visually look at, and then do an `@@` and keypress and
 carefully blast through it.
 
 **Claude**: Ah yes, `pid` is even better! Here's a safe approach to this migration:
