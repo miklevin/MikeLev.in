@@ -3517,3 +3517,76 @@ And the eventual rename from `url` to `id` makes sense because:
 
 Very elegant use of MiniDataAPI's filtering capability! Would you like help implementing the endpoint-based filtering in the search features?
 
+**Me**: Thank you! You know, I would really love to work on that search feature now.
+There's little that will make this feel more high tech and modern than an
+HTMX-powered fuzzy search within the pipeline (soon-to-be) id field of the
+pipeline records, but I fear it is a rabbit hole, and I won't forget that I want
+to implement it because every time I type in an ID to recall a pipeline, it will
+be a reminder, haha! And you know what? There's such a friggn good
+implementation right on the [FastHTML documentation](https://docs.fastht.ml/).
+If does the matches and refines them as you type, and it puts the ones that have
+a filename or beginning-of-line match (not sure which) at the start of the found
+search list, and then all the fuzzier matches after them, but still in the list!
+And I saw a YouTube video of Jeremy Howard and Carson Gross talking about it,
+and you know it really doesn't seem like as deep of a rabbit hole as I think
+with HTMX. It really leans into its strengths, but still I have other rough
+edges to sand smooth first. I'm going to hop between LinkGraphFlow, BridgeFlow
+and TenCardFlow, ultimately to get TenCardFlow in better shape to generically
+receive widgets, very similar to how we incorporated the CSV file viewer, but
+generically with anything. Also, I'm going to make the Unix pipe value passing
+clearer on the TenCardFlow example. In fact, let's do that next. Imagine how
+what's type in as input on Card 1 is somehow used in Card 2 and so on down the
+line. But keeping it's barebones style as it is. It's just assuming that the
+values acquired in each step is actually used for the next, so that even this
+barebones scaffolding makes the Unix pipe parallel eminently clear. Is that
+eminently clear?
+
+**Claude**: Yes, that's eminently clear! You want to make TenCardFlow demonstrate the Unix pipe concept where each card's output becomes meaningful input for the next, while keeping it minimal. 
+
+Currently it's like:
+```python
+Card 1: "some input for step 1" -> value1
+Card 2: "some input for step 2" -> value2
+ard 3: "some input for step 3" -> value3
+````
+
+We could make it more pipe-like:
+```python
+Card 1: "Enter a word" -> "cat"
+Card 2: f"Add to {value1}" -> "cat and dog"
+Card 3: f"Make {value2} plural" -> "cats and dogs"
+```
+
+Each card would:
+1. Show the previous card's value in its prompt/placeholder
+2. Make it clear how its input builds on previous values
+3. Demonstrate data flow through the pipeline
+4. Still keep the minimal input/submit/revert pattern
+
+Would you like me to help modify one of the card steps to demonstrate this pattern? We could start with making step_02's prompt reference the value from step_01.
+
+Me: Yes, and while you're at it, make it use the now-present endpoint field.
+
+> I went back and forth with Claude on the implementing of demonstrating Unix
+> pipes here until it dawned on me it made it a Mad-Lib!
+
+Claude: Ready for the final card (Card 10) to add punctuation and capitalization? It's like the final | fmt in a Unix pipeline! 😄
+
+Me: Yes please. It's just dawning on me you made this a frriggin madlib! That's friggin brilliant, Claude! Lay step 10 on me.
+
+Claude: Haha, yes! It became a Mad Libs-style Unix pipe that builds a story one transformation at a time! Here's the grand finale (Card 10):
+
+Now the pipeline is complete! Each step is like a Unix command:
+1. `echo "cat"` (input)
+2. `| plural` (cats)
+3. `| prepend "happy"` (happy cats)
+4. `| append "sleep"` (happy cats sleep)
+5. `| append "soundly"` (happy cats sleep soundly)
+6. `| append "at night"` (happy cats sleep soundly at night)
+7. `| sed s/sleep/slept/` (happy cats slept soundly at night)
+8. `| append "because..."` (happy cats slept soundly at night because they were tired)
+9. `| append ", peacefully"` (happy cats slept soundly at night because they were tired, peacefully)
+10. `| fmt` (Happy cats slept soundly at night because they were tired, peacefully!)
+
+And just like in Unix, each step's output becomes the next step's input. It's a perfect demonstration of pipeline processing! 🎉
+
