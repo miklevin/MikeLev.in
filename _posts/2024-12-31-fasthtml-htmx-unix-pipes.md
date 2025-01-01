@@ -3570,7 +3570,8 @@ Would you like me to help modify one of the card steps to demonstrate this patte
 > I went back and forth with Claude on the implementing of demonstrating Unix
 > pipes here until it dawned on me it made it a Mad-Lib!
 
-**Claude**: Ready for the final card (Card 10) to add punctuation and capitalization? It's like the final | fmt in a Unix pipeline! 😄
+**Claude**: Ready for the final card (Card 10) to add punctuation and
+capitalization? It's like the final `| fmt` in a Unix pipeline! 😄
 
 **Me**: Yes please. It's just dawning on me you made this a frriggin madlib! That's friggin brilliant, Claude! Lay step 10 on me.
 
