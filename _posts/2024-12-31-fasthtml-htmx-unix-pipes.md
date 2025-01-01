@@ -3693,13 +3693,13 @@ The current setup already lets you filter by endpoint using `table.xtra(endpoint
 
 Would you like me to help revert any of the changes we made, or are you good with the rollback? Either way - Happy New Year! 🎉
 
-**Me**: 80/20 rule! And no, I don't need revert help when I've got git reset --HARD hash
+**Me**: 80/20 rule! And no, I don't need revert help when I've got git reset --hard HASH
 
 **Claude**: Haha, yes! Perfect application of the 80/20 rule. We got the most important benefit (workflow isolation via endpoint field + xtra) with the simplest implementation. 
 
 And absolutely - why fuss with manual reverts when you've got:
 ```bash
-git reset --HARD hash
+git reset --hard HASH
 ```
 ...the ultimate "nope, let's go back to when things worked" button! 
 
