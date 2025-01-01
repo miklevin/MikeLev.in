@@ -732,6 +732,7 @@ def build_endpoint_messages(api_key=api_key, username=username):
 ```
 
 2. **Use Explain Pattern** for workflow landings:
+
 ```python
 class BridgeFlow:
     async def landing(self, request):
