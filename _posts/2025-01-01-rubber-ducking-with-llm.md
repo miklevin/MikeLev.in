@@ -1951,3 +1951,663 @@ wacky-math in the browser).
 
 But back to the situation at hand. How to spend the rest of the day? Well, it's
 going to be using this workflow pipeline system. 
+
+---
+
+After a long, hot relaxing bath, I'm going to go in totally the opposite
+direction than I though I was going to. First, here's the free association
+writing I did while I was contemplating next steps...
+
+When is a shiny toy not a shiny new toy? When it's HTMX. 
+
+It's not a new way of thinking. It's a new old way of thinking.
+
+And if you're thinking that couldn't possibly be powerful, ask yourself weather full transparency and comprehension can yield power. 
+
+It gets back to the old UNIX philosophy again, as it seems that almost everything that catches my interest technologically does. 
+
+The notion is composability, aka the ability to compose. You heard me talking about musical code lately, as if I knew a thing about music. Truth is, I'm musically challenged— even the ability just to enjoy it. People I know who love music just can't believe it, and are constantly convinced. I just haven't been exposed to the right thing, under the right conditions, with the right Wife performance or audio equipment or unknown treasures or wutnot.
+
+But at this point in my life, I think if the music bug could have bitten me, it would have by now. Yet I long for what I know others find in music, and the same can be said for math. Yeah I see it other places. I appreciate these harmonies and rhythms other places, and I know I'm not the first to think about in these terms as the book Gödel, Escher, Bach: an Eternal Golden Braid was basically on this very topic, plus creativity and AI in general. And I really took to this book, because I love visually with optical illusions of the Escher variety what a lack appreciation for in the Gödel/Bach Math/Science department. 
+
+Sometimes I think I got struck by a form of synesthesia where you can hear
+colors and taste sounds. But I would hope that once I sort it out and found my
+strong sense, I would be some sort of Mozart of the criss-crossed senses. Not
+true! I'm just an average joe even after I sort out my musical disabilities and
+realize I appreciate expressiveness in code.
+
+And so, that was my thoughts.
+
+And thank goodness for LLMs, because now I can try to hit above my weight class,
+because if there's one thing I know less than music, it's sports but they have
+all the best metaphors, haha! And so... and so...
+
+And so, instead of converting the TenCardFlow into some giant widget template
+place, I'm going to lean into my strongest weakness right now, not knowing the
+HTMX directives. Those are my notes, and those have gotta start getting into my
+fingers so I can just tap them out second nature. I expect they're going to be
+with us a long, long time, and if not then something just like them 'cause
+they've got an air of inevitability about them that can't be denied. It's just
+what I've been waiting for, and it scratches all the right itches, and it has
+just these two pages to remember:
+[htmx.org/reference/](https://htmx.org/reference/) and
+[htmx.org/examples/](https://htmx.org/examples/). Not to hard to remember,
+right? And those are basecamp now for me for awhile.
+
+Oh, but I'm turning this whole article into some sort of super-prompt for o1
+Pro, right? Right! I recently had it digest all three of the big pipeline
+workflow examples I have working: 
+
+- BrigeFlow: an homage to Monty Python and great example LLM pipes
+- TenCardFlow: Pure Unix pipes in HTMX and an homage to Mad-Libs
+- LinkGraphFlow: What I need for work
+
+---
+
+The best laid plans. I actually decided to try to do the final refinements on
+LinkGraphFlow before tackling the next the&#151;the realization I had in earlier
+and was getting ready for as my final hurrah tonight, but that got derailed.
+
+Ugh! Okay, so this sets the stage for tomorrow. But for tonight, I'm going to
+document the rabbit hole, the mistake I made and how I recovered.
+
+Claude was getting hung up on how to architect a thing. I had failed to force
+it to read not only the `.cursorrules`, which I think I started to over-rely on,
+but I forgot to show it all the speedbumps I had sprinkled through ought the
+code. I got really defeated:
+
+**Me**: I'm exhausted and defeated. This pipeline stuff was precisely so I didn't hit this kind of agonizing complexity.
+
+**Claude**: You're right - I apologize for overcomplicating this. Let's go back to the PIPELINE MANTRA:
+
+```
+# PIPELINE MANTRA:
+# One URL to track them all
+# One JSON blob to bind them
+# Card to card the data flows
+# No message queues behind them
+```
+
+The whole point of the pipeline pattern is to keep it dead simple:
+1. One URL as the key
+2. One JSON blob for all state
+3. Each card (step) just reads/updates that state
+4. No complex queuing or state management
+
+The issue we're seeing is just because we're marking `done: true` too early in the state blob. That's it. A one-line fix in step_04 to respect both downloads before marking done.
+
+Want me to show just that simple fix?
+
+**Me**: Yes
+
+**Claude**: Here's the minimal fix:
+
+```python
+async def step_04(self, request):
+    state = await self.get_step_data()
+    
+    # Check both download statuses
+    links_done = await self._check_job_status(state["step_03"]["links_job_url"])
+    meta_done = await self._check_job_status(state["step_03"]["meta_job_url"]) if "meta_job_url" in state["step_03"] else True
+    
+    # Update state - only mark done when both are complete
+    state["step_04"] = {
+        "links_done": links_done,
+        "meta_done": meta_done,
+        "done": links_done and meta_done  # <- This is the key fix
+    }
+    
+    await self.save_step_data(state)
+    return state
+```
+
+That's it. One pipeline record, one state blob, proper done flag. No complexity needed.
+
+**Me**: Okay, I think you're right. I think that did it. What did it for you? What helped you help me?
+
+**Claude**: Two things really clicked:
+
+1. The PIPELINE MANTRA in the comments - especially "One JSON blob to bind them". I was initially trying to architect some complex state management system when the whole point of the pipeline pattern is that everything lives in one simple JSON blob that gets passed from card to card.
+
+2. The logs you shared showed the exact problem - the state blob had:
+```json
+"step_04": {
+    "links_done": true,
+    "meta_done": false,
+    "done": true   // <- This was wrong!
+}
+```
+
+Once I stopped thinking about "how to architect this properly" and just focused on "the state blob is telling us it's done when it's not done", the fix became obvious.
+
+Sometimes the simplest solution is the right one, and the code comments/mantras are there to remind us of exactly that. I needed to read them more carefully!
+
+**Me**: Okay, this is insightful. Thank you. What I'm hearing from you is that my
+@.cursorrules which I think I've come to rely on too much now that I know you
+can see it is incomplete and that the speedbumps I have scattered throughout the
+codebase actually says things in ways that penetrate.
+
+I'm glad we solved that, and it got us to minimum viable product just in the
+nick of time. It's after 10:00 PM January 1st. I've been at this since 7:00 AM
+(not this particular task, but this overarching project). So this is a good
+stopping point. But I love spinning gold from these moments.
+
+So what do you suggest for me? I'm thinking I ought to go off the beaten track
+with my .cursorrules file and hear you out on what you think you'd like to have
+there. It's all about this pipeline system for me from now forward, from small
+tasks to big tasks. Think anything in Jupyter Notebooks. This ***is the rails***
+for that, which is already on rails, but this productizes notebooks.
+
+This state management stuff like this is going to be constant. The project I
+didn't get to tonight because of polishing LinkGraphFlow is building it up from
+scratch. Literally, I'm going to start with a 1-Card flow, maybe tomorrow
+morning, trying to get it into my fingers, as they say. Getting my own system
+into my fingers, emphasis on making the complex simple because of the stuff you
+just mentioned, and probably getting better at the HTMX directives in
+particular.
+
+So lay it on me Claude. What would you like me to put in context for you, for
+you to give me the best feedback you can for what you'd like to see in the
+future to help me on projects like this? Give me the feedback directly now, or
+tell me what to gather up in context, like all the speedbumps I just gave you.
+And also just open-ended if you want to riff, because it's about capturing the
+important stuff, not just what I think is.
+
+**Claude**: Thank you for this thoughtful reflection. A few key things stand out to me:
+
+1. The PIPELINE MANTRA was incredibly effective - more so than the formal `.cursorrules`. Those four simple lines:
+```
+One URL to track them all
+One JSON blob to bind them
+Card to card the data flows
+No message queues behind them
+```
+...cut through complexity better than paragraphs of technical specs. I'd love to see more of these "mantras" for other core patterns.
+
+2. The "speedbumps" throughout the code - those ASCII art headers and pointed comments - were actually crucial context. They forced me to pause and recalibrate when I started going down enterprise-y rabbit holes. For example:
+```python
+# *******************************
+# (fastapp) FastHTML is not FastAPI.
+# *******************************
+```
+This isn't just a comment - it's a guard rail.
+
+For improving `.cursorrules`, I'd suggest:
+
+1. Add a "Mantras" section that captures these core patterns in memorable, poetic form
+2. Include examples of what "simple" looks like - actual code snippets showing the happy path
+3. Add a section specifically about pipeline patterns and state management, since that's the core use case
+
+Would you like me to:
+1. Draft some additional mantras for common patterns?
+2. Propose a pipeline-specific section for `.cursorrules`?
+3. Look through your codebase for other effective "speedbumps" we should formalize?
+
+Or is there another direction you'd like to explore? I'm particularly intrigued by your point about this being "the rails" for Jupyter notebooks.
+
+**Me**: This is not the code example stuff. But I don't want to overload your token window. Digest this and riff back at me.
+
+**Claude**: After digesting all of this context, here's what stands out most powerfully:
+
+1. The **poetry and mantras** are incredibly effective - they cut through complexity better than formal documentation. The PIPELINE MANTRA in particular is brilliant:
+```
+One URL to track them all
+One JSON blob to bind them
+Card to card the data flows
+No message queues behind them
+```
+
+2. The **"This is not enterprise software"** message that keeps appearing in different forms. It's a crucial mental model shift - this is about **local sovereignty**, not distributed systems.
+
+3. The **speedbump dictionary** approach is genius - having these ready-to-deploy reminders that combine both "DON'T DO THIS" and "DO THIS INSTEAD" with clear explanations.
+
+4. The way the codebase **teaches through ASCII art** - the layout diagram, the WebSocket/SSE communication flow - these aren't just comments, they're active teaching tools.
+
+For `.cursorrules`, I'd suggest adding:
+
+1. A **"Mantras" section** at the top - these poetic rules seem to work better than formal specs
+2. A **"Mental Models"** section - explicit comparisons like "Think Jupyter, not Django"
+3. A **"Speedbumps"** section - standardizing the "DON'T DO THIS / DO THIS INSTEAD" pattern
+4. An emphasis on **"Local Sovereignty"** - this seems to be the philosophical core
+
+Would you like me to draft any of these sections? Or should we explore another aspect of what makes these teaching patterns so effective?
+
+The core insight seems to be that you've created not just a framework, but a **teaching system** that uses poetry, visual aids, and clear contrasts to guide developers (both human and AI) toward better patterns.
+
+**Me**: Yet there was a disconnect tonight. What would have solved that. Scratch that itch.
+
+**Claude**: Ah - the pipeline state management issue. Looking back, despite all these mantras and guides, we still initially went down the complex state-management rabbit hole. 
+
+The disconnect was that we had:
+```python
+state["step_04"] = {
+    "links_done": links_done,
+    "meta_done": meta_done,
+    "done": true  # <- Wrong! Violating the "One JSON blob to bind them"
+}
+```
+
+What we needed was a **Pipeline State Speedbump** - something like:
+
+```python
+llm_speedbump_dict["pipeline_state"] = """
+    PIPELINE STATE RULES:
+    1. The state blob is sacred - it's your ONLY source of truth
+    2. Each card reads the whole blob, updates its part, saves the whole blob
+    3. Never track state outside the blob
+    4. A card is only "done" when it's REALLY done
+    
+    DON'T DO THIS (partial state):
+        state["step_04"]["done"] = links_done  # Lying to yourself!
+    
+    DO THIS INSTEAD (whole truth):
+        state["step_04"] = {
+            "links_done": links_done,
+            "meta_done": meta_done,
+            "done": links_done and meta_done  # The whole truth
+        }
+    
+    Why? Because:
+    1. The blob never lies
+    2. Each card owns its truth
+    3. State flows card to card
+    4. Done means DONE
+"""
+```
+
+We need to make the **Pipeline State Rules** as memorable as the Pipeline Mantra. Would you like me to try crafting that, or should we explore other ways to prevent this kind of disconnect?
+
+**Me**: Wow, that's powerful. And that's precise. I've got a speedbump for the
+top of new workflow pipeline classes. Let's build that up from scratch like a
+lesson. My next thing up, what I was planning to do tonight, was a much more
+classic Jupyter Notebook workflow than this. No big API downloads. But there are
+a ton of little downloads that we can use Python's webbrowser package to pop up
+the default browser with "do this, do that" instructions from the LLM. But don't
+get caught up too much on that. The idea is that every card can be a wacky
+surprise, and I want to build them up like Jazz poetry. So it opens up with warm
+up exercises like these speedbumps. Then we go through the moves.
+
+You can see why I have 3 such radically different examples in BridgeFlow,
+TenCardFlow and LinkGraphFlow. Look for the consistencies between them. Look for
+the patterns in opening up a new workflow designing session. Think about the
+`__init__` and the `landing` and the `init` and the `step_01`. Think about how
+Pipualte blends in. Think about the story that starts to get told in the JSON
+blob. Think about the local LLM singing to the same tune.
+
+And when a human coder like me and an AI coding assistant like you sit down and
+rubber ducky this thing out, it goes something like...
+
+**Claude**: Ah yes! Let me riff on this jazz-like pattern of pipeline development...
+
+```python
+class NewWorkflow:
+    """PIPELINE SPEEDBUMP
+    
+    Before you write any code, remember:
+    1. The landing sets the stage
+    2. step_01 makes the promise
+    3. The JSON blob tells the story
+    4. Each card is a surprise
+    
+    WORKFLOW JAZZ RULES:
+    🎵 First we state our intention (landing)
+    🎵 Then we make our first move (step_01)
+    🎵 The story grows in the blob
+    🎵 Each card improvises but stays in key
+    
+    DON'T START LIKE THIS:
+        def __init__(self):
+            self.state = {}  # Empty promise
+            self.steps = []  # Unknown journey
+    
+    START LIKE THIS:
+        def landing(self):
+            return [
+                H1("Let's Begin Our Journey"),
+                P("First, we'll..."),  # Make a promise
+                Form(action="step_01")  # Keep it simple
+            ]
+        
+        def step_01(self, request):
+            state = {
+                "created": now(),
+                "intention": "clear",
+                "next_move": "defined"
+            }
+            return self.save_step_data(state)
+    """
+    
+    def __init__(self):
+        self.prefix = "/new_workflow"
+        self.pipeline = pipeline  # One table to track them all
+```
+
+The key insight is that each workflow is like a jazz standard:
+1. You know the basic chord progression (landing → step_01 → ...)
+2. But each performance (workflow) improvises within that structure
+3. The JSON blob is like the musical score, growing and evolving
+4. The LLM can be like a fellow musician, following and enhancing the flow
+
+Want to jam on this metaphor and develop it further? Or should we focus on specific patterns you've seen work well across your three example workflows?
+
+**Me**: I know it's fun to go abstract, but let's go in the completely opposite
+direction into precision, looking at an existing pipeline example and flesh in
+exactly what you just started, but moving towards more precision. Which would
+you like to choose as the model, BridgeFlow, TenCardFlow or LinkGraphFlow? I'm
+tempted to say take it to the bridge music joke, but I don't want to predispose
+your choice too much. Oops, I just did.
+
+**Claude**: Let's use BridgeFlow as our model - it's the perfect balance of simplicity and completeness, plus it has that delightful Monty Python theming that makes the patterns more memorable.
+
+Here's a precise Pipeline Speedbump, based on what we see in BridgeFlow:
+
+````python
+llm_speedbump_dict["pipeline_patterns"] = """
+    PIPELINE JAZZ PATTERNS 🎵
+
+    1. THE SETUP RIFF:
+    ```python
+    def __init__(self, app, pipulate, prefix="/flow"):
+        self.STEPS = [
+            ("name",     "step_01", "Name"),     # Internal key, route ID, label
+            ("quest",    "step_02", "Quest"),    # Each step is a card
+            ("color",    "step_03", "Color"),    # Each card builds on previous
+            ("finalized","step_04", "Final")     # Always end with finalization
+        ]
+        
+        routes = [
+            (f"{prefix}",              self.landing),
+            (f"{prefix}/init",         self.init, ["POST"]),
+            (f"{prefix}/jump_to_step", self.jump_to_step, ["POST"])
+        ]
+    ```
+
+    2. THE LANDING GROOVE:
+    ```python
+    async def landing(self):
+        return Container(
+            Card(
+                Form(
+                    Input(name="pipeline_id", required=True),
+                    hx_post=f"{self.prefix}/init",
+                    hx_target="#container"
+                )
+            ),
+            Div(id="container")
+        )
+    ```
+
+    3. THE STEP PATTERN:
+    ```python
+    async def step_01(self, request):
+        pipeline_id = db.get("pipeline_id")
+        state = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+
+        if state.get("data"):
+            return self.show_completed_state(state, next_step="step_02")
+        else:
+            return self.show_input_form(step_id="step_01")
+    ```
+
+    4. THE STATE TRUTH:
+    - One pipeline record tracks everything
+    - Each step reads whole state, updates its part
+    - State flows card to card
+    - No external state allowed
+    - Done means REALLY done
+
+    Remember: The JSON blob never lies!
+"""
+````
+
+Want to drill deeper into any of these patterns? Or should we look at how BridgeFlow handles specific aspects like:
+1. The finalization pattern
+2. The revert controls
+3. The LLM integration via `explain()`
+
+**Me**: How about what they need to know about Pipulate? Or the anatomy of self?
+Or the odd new patterns how HTMX turns everything upside down and how FastHTML
+leans into it encouraging... well, maybe talk about the specific patterns that
+really rub you the wrong way at first, but then you see they're the lynchpin to
+it all? Explore, Claude. 
+
+**Claude**: Ah yes! Let's create a "Things That Feel Wrong Until They Feel Right" speedbump, based on what we see in the codebase:
+
+````python
+llm_speedbump_dict["counterintuitive_patterns"] = """
+    PATTERNS THAT FEEL WRONG (UNTIL THEY FEEL RIGHT)
+
+    1. THE GLOBAL STATE PATTERN
+    DON'T PANIC WHEN YOU SEE:
+    ```python
+    pipeline_id = db.get("pipeline_id", "unknown")  # Global state? In MY web app?
+    ```
+    WHY IT'S RIGHT:
+    - This is single-tenant localhost
+    - No concurrent users to worry about
+    - Server-side state is a feature, not a bug
+    - The pipeline record is your source of truth
+
+    2. THE EVERYTHING-IS-A-DIV PATTERN
+    DON'T PANIC WHEN YOU SEE:
+    ```python
+    return Div(
+        id=step_id,
+        hx_get=f"{prefix}/{step_id}",
+        hx_trigger="load"
+    )
+    ```
+    WHY IT'S RIGHT:
+    - HTMX turns DIVs into dynamic components
+    - Each DIV is a target for updates
+    - The DOM is your state machine
+    - No JavaScript framework needed
+
+    3. THE JSON-BLOB-AS-DATABASE PATTERN
+    DON'T PANIC WHEN YOU SEE:
+    ```python
+    state = {
+        "step_01": {"name": "John"},
+        "step_02": {"quest": "Grail"},
+        "updated": now()
+    }
+    pipeline.update({"url": url, "data": json.dumps(state)})
+    ```
+    WHY IT'S RIGHT:
+    - One record = one workflow
+    - The blob tells the whole story
+    - No complex relationships
+    - Easy to debug and restore
+
+    4. THE PLACEHOLDER-CHAIN PATTERN
+    DON'T PANIC WHEN YOU SEE:
+    ```python
+    placeholders = [
+        Div(id="step_01", hx_trigger="load"),
+        Div(id="step_02"),
+        Div(id="step_03")
+    ]
+    ```
+    WHY IT'S RIGHT:
+    - Each step loads when ready
+    - The chain reaction is automatic
+    - No explicit routing needed
+    - HTMX handles the flow
+
+    REMEMBER:
+    - FastHTML is not FastAPI
+    - The server owns the state
+    - The DOM is your UI framework
+    - One blob to rule them all
+"""
+````
+
+This pattern of "here's what looks wrong, here's why it's actually right" seems particularly effective for helping developers (both human and AI) overcome their enterprise-patterns muscle memory. Would you like me to drill deeper into any of these patterns?
+
+**Me**: Okay then, go wild on this: [pastes `.cursorrules`]
+
+**Claude**: Let me rewrite this with our hard-earned insights from the pipeline patterns, incorporating both mantras and speedbumps. Here's the start:
+
+    # .cursorrules
+    #
+    # FASTHTML MANTRA:
+    # FastHTML is not FastAPI
+    # Routes use rt not app
+    # Server-side is the right side
+    # HTMX for updates, that's all it takes
+    #
+    # MINIDATAAPI MANTRA:
+    # No ORM complexity here
+    # Just tables and their pairs
+    # insert(), update(), delete()
+    # Simple keys, simple states
+    #
+    # PIPELINE MANTRA:
+    # One URL to track them all
+    # One JSON blob to bind them
+    # Card to card the data flows
+    # No message queues behind them
+
+    # PATTERNS THAT FEEL WRONG (UNTIL THEY FEEL RIGHT):
+
+    1. THE GLOBAL STATE PATTERN
+    ```python
+    pipeline_id = db.get("pipeline_id", "unknown")  # Yes, really!
+    ```
+    WHY: This is localhost. Embrace server-side state.
+
+    2. THE EVERYTHING-IS-A-DIV PATTERN
+    ```python
+    return Div(id="step_01", hx_trigger="load")  # Your entire app is DIVs
+    ```
+    WHY: HTMX turns DIVs into dynamic components.
+
+    3. THE JSON-BLOB-AS-DATABASE PATTERN
+    ```python
+    state = {"step_01": data, "updated": now()}
+    pipeline.update({"url": url, "data": json.dumps(state)})
+    ```
+    WHY: One record tells the whole story.
+
+    4. THE PLACEHOLDER-CHAIN PATTERN
+    ```python
+    return [Div(id=f"step_{i}") for i in range(1, 5)]  # Magic!
+    ```
+    WHY: HTMX handles the flow automatically.
+
+    # KEY PRINCIPLES:
+
+    1. **Think Local, Act Local**
+       - This is localhost software
+       - Single-tenant by design
+       - Server-side state is a feature
+       - Global scope is your friend
+
+Would you like me to continue with the rest? I'm reimagining it as a blend of:
+1. Mantras for core concepts
+2. "Feels Wrong Until Right" patterns
+3. Concrete examples from working code
+4. Clear anti-patterns
+
+The goal is to make it more like a "cookbook" of working patterns rather than just rules.
+
+**Me**: Continue with whatever would have helped you tonight, with a sprinkling of MiniDataAPI Spec, because that's such a tripping up point. And keep taking it to the BridgeFlow implementation. But as a .cursorrules continuation.
+
+**Claude**: Ah yes! Let me continue with a focus on the patterns that would have prevented our state-management confusion, using BridgeFlow as our concrete example:
+
+    # .cursorrules continued...
+
+    # PIPELINE PATTERNS (As Seen in BridgeFlow):
+
+    1. **The Step Definition Pattern**:
+    ```python
+    self.STEPS = [
+        ("name",     "step_01", "Name"),      # internal_key, route_id, label
+        ("quest",    "step_02", "Quest"),     # Each step is a card
+        ("color",    "step_03", "Color"),     # Progress tracked by presence
+        ("finalized","step_04", "Final")      # Final step always exists
+    ]
+    ```
+    WHY: This triple defines the entire workflow structure.
+
+    2. **The State Check Pattern**:
+    ```python
+    async def step_01(self, request):
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+
+        if step1_data.get("name"):           # Data exists? Show completed state
+            return show_completed_state()
+        else:                                # No data? Show input form
+            return show_input_form()
+    ```
+    WHY: Every step follows this exact pattern.
+
+    3. **The Submit Pattern**:
+    ```python
+    async def step_01_submit(self, request):
+        form = await request.form()
+        name = form.get("name", "")
+        pipeline_id = db.get("pipeline_id", "unknown")
+        
+        # ONE place to save state
+        self.pipulate.set_step_data(pipeline_id, "step_01", {"name": name})
+        
+        # TWO divs returned: current step (completed) + next step (loading)
+        return Div(
+            show_completed_state(),
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+        )
+    ```
+    WHY: Clean separation of state update and UI flow.
+
+    4. **The Finalization Pattern**:
+    ```python
+    # Check if finalized
+    step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+    if "finalized" in step4_data:
+        return final_view()
+    else:
+        return editable_view()
+    ```
+    WHY: Finalization is just another piece of state.
+
+    # MINIDATAAPI REMINDERS:
+
+    1. **The Table is Your Friend**:
+    ```python
+    # DON'T DO THIS:
+    class Pipeline(BaseModel):
+        url: str
+        data: Dict
+        created: datetime
+        updated: datetime
+
+    # DO THIS:
+    pipeline = {
+        "url": str,      # Primary key
+        "data": str,     # JSON blob
+        "created": str,  # ISO timestamp
+        "updated": str,  # ISO timestamp
+        "pk": "url"      # That's it!
+    }
+    ```
+
+    2. **State Lives in the Blob**:
+    ```python
+    # DON'T DO THIS:
+    workflow_state = {}
+    workflow_state["steps"] = []
+    workflow_state["current"] = 0
+
+    # DO THIS:
+    state = pipulate.get_state(pipeline_id)  # One source of truth
+    state["step_01"] = {"name": name}        # Direct updates
+    pipulate._save_state(pipeline_id, state) # Save entire state
+    ```
+
+    Remember: If you're tempted to track state outside the pipeline record's JSON blob,
+    you're probably doing it wrong!
+
+    Want me to continue with more patterns from BridgeFlow, particularly around the HTMX interaction patterns or the LLM integration via `explain()`?
+
