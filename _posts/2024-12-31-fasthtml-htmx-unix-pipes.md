@@ -1,7 +1,7 @@
 ---
 title: FastHTML HTMX Unix Pipes
 permalink: /futureproof/fasthtml-htmx-unix-pipes/
-description: 
+description: This is where I take the Unix pipe philosophy and apply it to my LinkGraphFlow pipeline, with a little help from OpenAI's top-tier model, o1 Pro. We're talking about a workflow that's as elegant and powerful as a series of well-crafted Unix commands, each step feeding into the next, transforming data along the way. I'm working through the nuances of integrating this approach into a modern, web-based system using HTMX, focusing on making the data flow visible and intuitive. This article chronicles that journey, highlighting how human creativity and AI collaboration can come together to build something truly special, inspired by the timeless wisdom of Unix.
 layout: post
 sort_order: 1
 ---
