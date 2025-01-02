@@ -2726,3 +2726,129 @@ The goal is to make it more like a "cookbook" of working patterns rather than ju
 
 Want me to continue with more about error handling patterns or the specific ways BridgeFlow handles edge cases? Or should we dive deeper into how the LLM integration works?
 
+**Me**: Forget about the .cursorrules file for this last one. I'm getting tired and am getting ready to go to bed. Set me up for success for tomorrow with a 1-Card pipeline workflow, the kernel that could become anything. The blank slate that I sit down to as if creating a new Notebook with just enough speedbumping to get both me the human and you the AI coding assistant in the right mindset.
+
+**Claude**: Ah yes, let's create the perfect "first card" template - the seed from which any workflow can grow. Here's a minimal, well-commented starter:
+
+````python
+class OneCardFlow:
+    """ONE CARD WORKFLOW TEMPLATE
+    
+    The simplest possible pipeline pattern, ready to grow into anything:
+    - One input field
+    - One submit button
+    - One piece of state
+    - One LLM integration point
+    
+    Perfect for:
+    1. Starting a new workflow idea
+    2. Testing pipeline patterns
+    3. Prototyping LLM interactions
+    """
+
+    def __init__(self, app, pipulate, prefix="/onecard", llm_enabled=True):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+        self.llm_enabled = llm_enabled
+
+        # Just one step - expand STEPS when ready to grow
+        self.STEPS = [
+            ("input", "step_01", "Input"),    # (internal_key, route_id, label)
+            ("final", "step_02", "Complete")   # Always include a finalization step
+        ]
+
+        # Core routes - the minimal pipeline pattern
+        routes = [
+            (f"{prefix}",                self.landing),
+            (f"{prefix}/init",           self.init, ["POST"]),
+            (f"{prefix}/step_01",        self.step_01),
+            (f"{prefix}/step_01_submit", self.step_01_submit, ["POST"]),
+            (f"{prefix}/step_02",        self.step_02),
+            (f"{prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+            (f"{prefix}/unfinalize",     self.unfinalize, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    async def landing(self):
+        """The entry point - just get a pipeline ID and go"""
+        return Container(
+            Card(
+                H2("One Card Workflow"),
+                P("Start with one card, see where it leads..."),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(name="pipeline_id", required=True, autofocus=True),
+                        button_label="Begin"
+                    ),
+                    hx_post=f"{self.prefix}/init",
+                    hx_target="#container"
+                )
+            ),
+            Div(id="container")
+        )
+
+    async def step_01(self, request):
+        """The core pattern - every step follows this basic structure"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+
+        if step1_data.get("input"):  # Already have data?
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            if "finalized" in step2_data:  # Locked?
+                return Div(
+                    Card(f"Input: {step1_data['input']} ✓"),
+                    Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+                )
+            else:  # Show revert control
+                return Div(
+                    self.pipulate.revert_control(
+                        url=pipeline_id,
+                        step_id="step_01",
+                        prefix=self.prefix,
+                        message=f"Input: {step1_data['input']} ✓",
+                        target_id="container"
+                    ),
+                    Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+                )
+        else:  # Show input form
+            if self.llm_enabled:  # Optional LLM flavor
+                await self.pipulate.explain(
+                    self, 
+                    "step_01",
+                    "Greet the user and ask for input. Be encouraging but brief."
+                )
+            
+            return Div(
+                Card(
+                    H3("What's on your mind?"),
+                    Form(
+                        self.pipulate.wrap_with_inline_button(
+                            Input(
+                                type="text",
+                                name="input",
+                                placeholder="Anything at all...",
+                                required=True,
+                                autofocus=True
+                            )
+                        ),
+                        hx_post=f"{self.prefix}/step_01_submit",
+                        hx_target="#step_01"
+                    )
+                ),
+                Div(id="step_02"),
+                id="step_01"
+            )
+````
+
+When you sit down tomorrow, you'll have:
+1. A working pipeline with one input
+2. The core state management pattern
+3. LLM integration ready to go
+4. All the key HTMX patterns in place
+
+Just add water (and more cards) to grow! Sweet dreams! 🌙
+
+
