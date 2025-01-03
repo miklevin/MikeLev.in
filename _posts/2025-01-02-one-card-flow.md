@@ -1803,6 +1803,8 @@ Thus, anything that’s *not unique* to a given flow’s identity or theming (li
 
 ---
 
+## Lock It In With A Plan!
+
 **Me**: I agree! Here's the entire codebase again. Make me a meticulous, pedantic point by point plan about how to externalize what from which workflow into Pipulate.
 
 **o1 Pro**: Below is a **meticulous, pedantic point-by-point plan** describing **how** to move various pieces of logic from the *individual workflow classes* (BridgeFlow, TenCardFlow, OneCardFlow, LinkGraphFlow, etc.) **into** the **Pipulate** class (or a small helper module used by Pipulate). The overall goal is to **reduce code duplication** and centralize anything that multiple flows share.
@@ -2130,3 +2132,4 @@ By following the above plan, you:
 - **Preserve** each flow’s unique step structure while removing “boilerplate” code.
 - **Keep** LLM commentary optional but available through `pipulate.explain(...)`.
 - Achieve a **clean** “**Pipulate** + small Flow Classes” pattern that future flows can copy with minimal overhead.
+
