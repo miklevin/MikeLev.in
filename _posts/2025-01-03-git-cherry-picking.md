@@ -1117,4 +1117,135 @@ Okay, I feel ready. First I assure myself I'm on a new git branch:
   main
 ```
 
+Imagine that things you can imagine you can suddenly now do. That's what this
+is. That's what's happening here. Now, I probably could have figured out this
+git cherry-picking thing on my own just googling up a storm and reading all
+those stackoverflow posts, sorting fact from fiction and good advice from bad.
+But here I have... well, AI where I have to sort fact from fiction and good
+advice from bad, haha! AI ain't gonna replace stupid anytime soon. No, rather
+it's gonna learn from it and attempt a continuation of those stupid, but very
+mainstream loved by the flock concepts. Outliers, be warned.
 
+Okay, that's my last bit of rambling. If the advice I've received is accurate, I
+should be able to ***applying patches*** in the form of ***git hashes***
+obtained from the ***git log*** command, jumping over the bad commit like Mario
+jumping over a barrel in Donkey Kong. 1377's see...
+
+---
+
+**Me**: The problem now is that I don't see any newer commits than the fix-bug branch when I:
+
+    git log main
+
+But I definitely do see the newer commits when I:
+
+    git log origin/main
+
+But even after I:
+
+    git fetch origin
+    git log origin/main
+
+...I still get only the same commits up to fix-bug when I:
+
+    git log main
+
+Should I just cherry-pick from origin/main instead of main?
+
+**o1 Pro**: **Short Answer**  
+Yes, you can absolutely cherry-pick commits directly from `origin/main` rather than your local `main`—especially if your local `main` isn’t up-to-date. **Cherry-picking from `origin/main`** is the most direct way to get those newer commits you see in the remote log.
+
+---
+
+## Why Does This Happen?
+
+- Your **local `main`** is stuck at the old commit (doesn’t have those newer commits).
+- Your **`origin/main`** on the remote has additional commits.
+- Doing `git fetch origin` **does** fetch them, but unless you explicitly merge or rebase them into your local `main`, they remain visible only as “remote-tracking” commits on `origin/main`.  
+
+Hence, **`git log main`** still shows the older tip of your local `main`, while **`git log origin/main`** shows more recent commits that only exist on the remote side.
+
+---
+
+## Two Ways To Resolve It
+
+### 1. **Cherry-Pick Directly from `origin/main`**
+
+While on your **fix-bug** branch, get the commit hashes from `origin/main`, then:
+
+```bash
+git log origin/main  # find the commits you want
+# For example, you see commit hashes 123abc and 456def that you want
+
+git checkout fix-bug
+git cherry-pick 123abc
+git cherry-pick 456def
+```
+
+**Pro**: It’s straightforward and works immediately.  
+**Con**: Your local `main` remains behind. You might fix that later if you want your local `main` to reflect the remote commits.
+
+### 2. **Update Your Local `main` First, Then Cherry-Pick**
+
+1. Checkout local `main`:
+   ```bash
+   git checkout main
+   ```
+2. Merge (or rebase) `origin/main` into local `main`:
+   ```bash
+   git merge origin/main
+   # or:
+   # git rebase origin/main
+   ```
+3. Now local `main` has those same newer commits.  
+4. Finally, checkout your **fix-bug** branch and cherry-pick from local `main`:
+   ```bash
+   git checkout fix-bug
+   git cherry-pick 123abc
+   git cherry-pick 456def
+   ```
+
+**Pro**: Keeps your local `main` in sync with remote.  
+**Con**: More steps, merges or rebases can be a bit more confusing if you’re used to a simpler linear approach.
+
+---
+
+## Which Approach To Use?
+
+- If you **don’t care** about synchronizing local `main` right now, then **cherry-pick from `origin/main`** directly.
+- If you eventually **want local `main`** to match the remote anyway, it can be **cleaner** to merge or rebase local `main` onto `origin/main` first—then your fix-bug branch can cherry-pick from the local `main`.
+
+Either way works fine. The gist is:
+
+> If you see commits on `origin/main` that you **don’t** see in local `main`, you can either update local `main` or you can cherry-pick straight from `origin/main`.
+
+---
+
+## Example Commands (Cherry-Pick From Remote Directly)
+
+1. **Find the commit hashes** you want (e.g., `abc123`, `def456`) by:
+   ```bash
+   git fetch origin
+   git log origin/main
+   ```
+2. **Check out** your fix-bug branch:
+   ```bash
+   git checkout fix-bug
+   ```
+3. **Cherry-pick** them:
+   ```bash
+   git cherry-pick abc123
+   git cherry-pick def456
+   ```
+4. **Resolve conflicts** if any. Then commit, or `--continue`.
+
+Boom, done. Now your fix-bug branch has the “good” commits from the remote—skipping the problematic commit you didn’t want.
+
+---
+
+### In Conclusion
+
+- **Yes**, you can (and probably should) cherry-pick directly from `origin/main` if local `main` doesn’t show the newer commits. 
+- Or update local `main` first if you want them to be in your local main branch.  
+
+Either path is valid. If you’re short on time, cherry-pick from `origin/main` and worry about syncing local `main` later!
