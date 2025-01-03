@@ -1133,6 +1133,8 @@ jumping over a barrel in Donkey Kong. 1377's see...
 
 ---
 
+## Cherry-Picking Attempt #1, Clarification Needed
+
 **Me**: The problem now is that I don't see any newer commits than the fix-bug branch when I:
 
     git log main
@@ -1249,3 +1251,99 @@ Boom, done. Now your fix-bug branch has the “good” commits from the remote�
 - Or update local `main` first if you want them to be in your local main branch.  
 
 Either path is valid. If you’re short on time, cherry-pick from `origin/main` and worry about syncing local `main` later!
+
+---
+
+Okay, I understand. In the past when I had a situation like that, I would:
+
+    git pull
+    git reset --hard HEAD
+
+...which was just sort of like a heavy-handed smashing of the newest files into
+the workspace. I suppose this would work here, but those are the heavy-handed
+linear techniques I'm trying to put aside in favor of greater finesses. I almost
+never rebase because it's done nothing but confused me with all the options in
+the past. But what you seem to be saying that if I do these 2 commands (ignoring
+the merge option):
+
+   git checkout main
+   git rebase origin/main
+
+I would be accomplishing much the same thing, but now I'm using this checkout
+command instead of reset, so it's more like the parallel timeline hopping we've
+been talking about than the video scrubbing? Given all this friggin
+article-writing I'm doing, clearly executing a few more commands isn't a
+problem. What I want to do is get the mental models down so I can work with new
+git commands in my fingers in the future. I'm building my web shooters here. And
+so, I should flit about with checkout and get comfortable in the multiverse. Get
+the main branch up to the latest, then cherry pick off that.
+
+**o1 Pro**: **Short Answer**  
+Yes, exactly! Doing something like:
+```bash
+git checkout main
+git rebase origin/main
+```
+is akin to telling Git:  
+> “Replay any local commits on top of what’s newly arrived on `origin/main`, so my local `main` is fully up-to-date (and has a linear history).”
+
+That’s somewhat more *graceful* than `git reset --hard HEAD`, and indeed it’s closer to the “branch-hopping” mental model than the “video scrubbing” approach. Afterwards, you can cherry-pick or merge from your local `main` into whatever other branch you’re working on.
+
+---
+
+## The “Video Scrubbing” vs. “Parallel Universe” Metaphor
+
+1. **Video Scrubbing**:  
+   - `git reset --hard <commit>` = You drag the timeline slider in a single track, losing everything that happened after the point you’re scrubbing back to.
+
+2. **Parallel Universe** (Branch Checkout + Rebase):  
+   - `git checkout main` => Switch your local workspace to the `main` timeline  
+   - `git rebase origin/main` => “Bring my local `main` up to date by replaying my local commits on top of the new commits from the remote.”  
+
+In short, **rebase** rearranges or “replays” your commits, allowing your local `main` to appear as if it always had the remote’s updates first, avoiding merges that produce extra “merge commits.”
+
+---
+
+## Why Rebase Instead of Reset?
+
+- **`reset --hard`** can discard local commits if you’re not careful. It’s a brute-force “teleport HEAD to some commit.”  
+- **`rebase`** tries to integrate changes in a more controlled manner, rewriting the sequence of commits so it’s a single continuous timeline.
+
+For example, imagine you had:
+
+```
+               (Commit A from remote)
+               /
+(Commit X) -- (Commit Y local main)
+```
+- Now remote has a new commit (A) that you don’t have.  
+- With `rebase`, your commits (X, Y) will be replayed **after** commit A, so the final timeline is `A → X → Y`.  
+- With `reset --hard`, you might lose or smash over local X, Y, unless you carefully reapply them manually or do something extra.
+
+---
+
+## “Few More Commands” vs. “Mental Model Gains”
+
+You put it nicely: *executing a few more commands isn’t a problem.* Understanding the logic of how those commands integrate your commits is the real victory.
+
+- **Checkout** = Move your workspace to a branch or commit (like stepping sideways into a parallel timeline)  
+- **Rebase** = Pull commits from one timeline, place them before or after your local commits, *rewriting* the order to remain linear  
+- **Cherry-Pick** = Grab specific commits from some other timeline’s history  
+
+It’s all in service of the “branch-hopping” style of Git usage, which unlocks a more flexible approach to merges and partial merges (selective picking of commits, skipping bug commits, etc.).
+
+---
+
+### Final Thoughts
+
+- **Updating main** with `git rebase origin/main` is definitely a more “Git-ish” approach than repeatedly `reset --hard`-ing your local to match the remote.  
+- **Then** you can keep your fix-bug branch around, cherry-pick from a fully updated local main if you want.  
+- Or skip that entirely and just cherry-pick from `origin/main` directly—both approaches are valid.  
+
+But yes, you’re on the right path to building the mental model:
+
+1. **Check out** the branch you want to update.  
+2. **Rebase** it onto or from the remote branch.  
+3. Then do your partial merges (cherry-picks) or merges.  
+
+You’re building those Spidey-sense “web shooters” for multi-branch Git usage—and once you’re comfortable, you’ll leap from timeline to timeline with grace!
