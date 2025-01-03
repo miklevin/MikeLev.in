@@ -432,6 +432,13 @@ Would you like me to continue with more refactoring suggestions?
 
 ---
 
+## Starting To Clean The Pipes
+
+> If it's not broken, don't fix it! Yet here I go doing it anyway, because this
+> code is going to propegate alot, given how I deliberately don't derive
+> workflows from base classes. So there's some artistry here that just needs to
+> be done.
+
 **Me**: Okay, I combined them, got rid of _get_state and updated references to it to get_state. What did the underscore mean?
 
 ```python
