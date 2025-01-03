@@ -59,18 +59,13 @@ group: home
   <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
 </ul>
 
-**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools &#151; they're the foundation of a sustainable technical career that resists obsolescence. Join me on this journey while I develop and refine Pipulate, the free and open source SEO automation tool I'm building to help you thrive through the next 20 years of technology.
+**[LPvg](/LPvg/)** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
 
-## Tech Journal & AI Experiment
+## Tech Journal & AI Experiment 
 
-I'm fusing a local-first, single-file Python web framework (with HTMX, no big
-JS, no multi-tenant complexity) and a built-in LLM that can ingest everything
-for plugin expansions and dev tasks. Meanwhile, I aim to unify my large corpus
-of blog articles into a living book, harnessing vector or graph-based indexing
-plus the LLM’s summarization to maintain an evolving outline that captures major
-subthemes across the content.
+I'm building something exciting: an open-source tool called Pipulate that combines these classic tools with modern AI. It's a simple Python framework that harnesses AI's power while staying lightweight and hackable.
 
-This site serves as my daily technical journal and AI experiment. Each post is an unfiltered stream of consciousness that feeds into an AI-optimized knowledge base. The verbose content deliberately serves two purposes: training data for frontier AI models and context for RAG (Retrieval-Augmented Generation) systems. This approach anticipates the evolution from traditional search to an interconnected "small world" web and gives me my own data for machine learning experiments.
+This site documents the journey. Each post explores the intersection of timeless tech skills and emerging AI capabilities. I'm creating a living knowledge base that grows smarter over time &#151; and sharing everything I learn along the way. Join me in building a more sustainable approach to technology.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
