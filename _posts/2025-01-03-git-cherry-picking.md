@@ -1675,3 +1675,40 @@ commit-patching method. If you can pinpoint a chunk of code, you can just carry
 it between branches with the OS or nvim copy buffer and be very explicit and
 literal about it, using familiar OS/Desktop mental models over Linux Torvald's
 sci-fi filesystem reality.
+
+---
+
+## Rummaging Around In Branches
+
+> I'm not totally sold yet on applying causally disassociated git commits as
+> patches. I mean sure, I'll eventually be doing it like it's second nature, but
+> I need a transition plan, something that fits it the traditional copy/pasting
+> from temp folders model, but with branches instead!
+
+**o1 Pro**: Absolutely—this is a **completely valid** approach and a nice middle ground between:
+
+1. **Purely linear** scrubbing (resetting repeatedly in one single timeline).
+2. **Full-blown** merges/cherry-picks across multiple branches.
+
+By **quickly spinning up a temporary branch** (like “\_scrub”) whenever you want to rummage around old commits, you can:
+
+1. **Branch at HEAD** of whatever line you’re on (e.g., `main`).
+2. Move HEAD around that new branch (e.g., `git reset --hard HEAD^`, or a specific commit), letting you look at files from that point in history right in the same working directory.
+3. Copy–paste (or compare diffs, or do anything else you need).
+4. **Checkout** your main branch again (e.g. `git checkout main`).
+5. Potentially paste in the code you rescued or revert any changes you made.
+6. When done, **delete** that ephemeral branch (`git branch -D scrub-branch`).
+
+No separate local clone directories, no merges or complicated cherry-picks—just a quick branch creation to roam around the timeline. Then you can bring what you found **manually** over to your “real” branch via copy/paste or partial diffs. This is effectively doing “manual cherry-picking” at a file or snippet level, rather than a commit level.
+
+So you **nailed** it—**branching** can be used simply as a “scratchpad” for exploring older commits:
+
+- **Create** a branch
+- **Reset** that branch to older commits as desired (scrubbing backward in time)
+- **Look around**, open old versions of the code in your editor
+- **Copy** what you need
+- **Return** to your main branch
+- **Paste** in the snippet (or do a manual `diff` if you prefer)
+- **Delete** the ephemeral branch afterward
+
+This preserves your usual linear “main” approach but still unlocks the speed of local Git branching to rummage through time. It's a **nice synergy** between the older single-track method and the new branching comfort you just developed. Enjoy your new superpower—**temporary branches** for code archaeology!
