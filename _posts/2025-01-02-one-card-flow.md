@@ -690,8 +690,10 @@ Enjoy your **OneCardFlow** as a building block for more advanced â€œwidget cardâ
 
 ---
 
-Amazing, the code was indeed copy/paste ready and delivered as promised. There
-are a few observations and items to iron out.
+## First Pass of o1 Pro's One Card Flow
+
+> Amazing, the code was indeed copy/paste ready and delivered as promised. There
+> are a few observations and items to iron out.
 
 First, the observations. Now that I have a number of plugin apps and workflow
 examples, the built-in auto-suggest style code assistant is kicking-in big-time.
@@ -710,9 +712,32 @@ good at navigating large files, it's way better for flow-state than jumping
 between files&#151; the mental equivalent to taking your hands off the keyboard
 for the mouse.
 
+Next, I went on to actually fix it and make it work per my vision. This was no
+small task. I'm winding up here at around 4:00 AM. I started around 11:00 PM.
+That was another full day of work, considering the mental energy that really
+goes into coding, trouble-shooting, debugging and refining like this. I mean,
+it's not physical labor but the brain does consume the most oxygen and energy of
+the body for a reason. Thinking is hard! 
+
+It's no wonder we want to offload so much of it to the AI's. But that which
+remains in our own human wheelhouse makes so much difference. At least today. It
+will be interesting to see how that holds up over time.
+
+But for now, what I most want to do is to lock in those nuances, those deltas
+between what o1 Pro gave me on its first pass, and what I worked out with Claude
+3.5 Sonnet over the past five hours. The better I lock these things in in some
+sort of style guide or instruction manual for future workflow design sessions,
+the smoother they'll go.
+
 ---
 
-Exhaustively and in pedantic meticulous detail, compare what turned out to be the final implementation with what you provided me, and given what you know about the workflow do a deep analysis for the changes and then do an instruction guide that you yourself could use as part of your prompt instructions to start new workflows correctly abiding by the new pattern given what you learned from the comparison, analysis and knowledge of these workflows.
+## Locking-in Learnings with o1 Pro
+
+> PhD-level intelligence you say? Hmmm, how to use that well? Maybe making it
+> compare two things exhaustively and draw conclusions from the comparisons? And
+> then to formalize what it learned from those conclusions? Let's see...
+
+**Me**: Exhaustively and in pedantic meticulous detail, compare what turned out to be the final implementation with what you provided me, and given what you know about the workflow do a deep analysis for the changes and then do an instruction guide that you yourself could use as part of your prompt instructions to start new workflows correctly abiding by the new pattern given what you learned from the comparison, analysis and knowledge of these workflows.
 
 ```python
 class OneCardFlow:
@@ -985,6 +1010,15 @@ class OneCardFlow:
 ```
 
 ---
+
+## When o1 Pro Is Instructed to Be Exhaustively Thorough, Meticulous & Pedantic
+
+> I like it! I think I've got a new prompting technique and style. Of course, it
+> requires writing whole articles like this, and those articles being a part of
+> a conversation history. Perhaps that's not for everyone, but neither is being
+> the boss of a PhD-level intelligence.
+
+**o1 Pro**: 
 
 #### Analyzing code evolution
 
