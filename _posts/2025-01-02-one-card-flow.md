@@ -1681,3 +1681,122 @@ async def landing(self):
 - This final approach is more thoroughly integrated with your multi-step pipeline tradition, ensuring the same user experience (revert controls, final lock/unlock) that people see in bigger flows like TenCardFlow or LinkGraphFlow.
 
 Hence, the **main lesson** is: *Even a single-step flow can benefit from advanced pipeline patterns—finalization, partial revert, LLM commentary hooks, etc.* Always unify on the standard  pattern to keep your code symmetrical across all workflows.
+
+---
+
+## Pipulate Refinement Planning
+
+> We move the common, repeating patterns into Pipulate that should not be part
+> of the pipeline workflow code. Externalizing common functions makes what
+> remains shorter and more expressive. So I do this as a reminder for a next
+> round of work.
+
+**Me**: What clearly belongs in Pipulate as helper functions?
+
+**o1 Pro**: Below is a succinct list of **which pieces of logic** clearly belong in **Pipulate** (i.e., the pipeline manager) as *helper functions*, because they’re generally needed by *any* pipeline workflow and are *not* specific to an individual flow like BridgeFlow or TenCardFlow or OneCardFlow.
+
+---
+
+## 1. Core Pipeline/Workflow Operations
+
+1. **`initialize_if_missing(pipeline_id, initial_data)`**  
+   - Already lives in Pipulate.  
+   - It’s universal to *any* pipeline that needs to spin up or rehydrate a JSON blob for a given ID.
+
+2. **`generate_step_placeholders(steps, prefix, start_from=0)`**  
+   - Also already in Pipulate.  
+   - Every flow eventually calls this to produce the auto-loading Div placeholders (e.g., `Div(id="step_01", hx_get=...)`).
+
+3. **`get_step_data(pipeline_id, step_id, default=None)` / `set_step_data(...)`**  
+   - These are the standard read/write of the pipeline JSON blob.  
+   - Absolutely universal—no flow can function without them.
+
+4. **`clear_steps_from(pipeline_id, start_step, steps_list)`**  
+   - The function that removes subsequent steps from the JSON state, if you want partial reverts or *jump_to_step* logic.  
+   - Also already in Pipulate.
+
+---
+
+## 2. Step-by-Step Infrastructure Helpers
+
+1. **`is_finalized(pipeline_id, final_step_id)`**  
+   - For quick “Is the workflow locked at the final step yet?” checks.  
+   - Some flows have this check inline, but it’s a universal concern.  
+   - If you frequently do `if "finalized" in pipulate.get_step_data(...)", that’s effectively the same pattern. A single helper like:
+     ```python
+     def is_finalized(self, url, final_step):
+         data = self.get_step_data(url, final_step, {})
+         return "finalized" in data
+     ```
+   - Helps keep your code more readable.
+
+2. **`revert_control(step_id, prefix, url=None, final_step=None, message=None, target_id="pipeline-container", label="Revert", style=None)`**  
+   - Many of your flows define a variation of this. You pass a message, it returns a small Card or Div with a revert button.  
+   - Because every flow has a near-identical snippet, it’s perfect for a Pipulate-level “build a revert form” helper. You already have something similar: `pipulate.revert_control` or `revert_control_styled`.  
+
+3. **`jump_to_step_logic(form, pipeline_id, steps_list)`**  
+   - The routine that finds the index of the step you want to revert to, then clears subsequent steps.  
+   - Often repeated in each flow.  
+   - You already have a partial version in each `jump_to_step` method: 
+     ```python
+     # Not universal at the moment, but it could be:
+     def jump_to_step_logic(self, pipeline_id, step_id, steps):
+         # find step_index, clear subsequent, etc.
+     ```
+   - This can reduce each flow's `jump_to_step` route to a short function that calls `pipulate.jump_to_step_logic(...)` and returns placeholders.
+
+---
+
+## 3. (Optional) UI/Formatting Helpers
+
+These might be seen as more *flow-specific*, but if you find yourself duplicating them across multiple flows, consider moving them into Pipulate:
+
+1. **`_final_card(...)`**  
+   - If you keep re-implementing the same “locked” final card structure across flows, you could extract a minimal helper in Pipulate.  
+   - Example: 
+     ```python
+     def build_locked_card(title="Pipeline Complete", unfinalize_url="", style="color: green;"):
+         return Card(
+             H3(title),
+             Form(
+                 Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                 hx_post=unfinalize_url,
+                 hx_target="#pipeline-container",
+                 hx_swap="outerHTML"
+             ),
+             style=style
+         )
+     ```
+   - Not strictly universal—some flows want specialized final text. But if you keep repeating the same pattern, a standard “locked card” builder is helpful.
+
+2. **`_fmt(text)`** for multiline user text  
+   - In OneCardFlow, you used `_fmt()` to wrap user text in a `<pre>` with certain styling.  
+   - If multiple flows do the same “display multiline user text” pattern, you could centralize it in Pipulate (e.g. `pipulate.pretty_text_output(...)`).  
+   - However, if you only do it in OneCardFlow, it might remain local.
+
+3. **Minimal LLM “explain”**  
+   - You often have a snippet like:
+     ```python
+     async def explain(self, caller, current_step, message=None):
+         # create_task(chatq(...)) if caller.llm_enabled
+     ```
+   - Some flows (BridgeFlow, Poetflow) use it, some do not. 
+   - Putting a generic version in Pipulate is consistent with how you’ve done “explain” in earlier code. That’s *already* in your `pipulate.explain(...)`, presumably.  
+
+---
+
+## 4. Summary of “What Belongs in Pipulate”
+
+In **short**:
+
+1. **All fundamental pipeline orchestration**:  
+   - `initialize_if_missing(...)`, `get_step_data(...)`, `set_step_data(...)`, `clear_steps_from(...)`, `generate_step_placeholders(...)`  
+
+2. **Shared logic** that every pipeline flow methodically duplicates:
+   - `is_finalized(...)` checks, 
+   - `revert_control(...)` (or `revert_control_styled(...)`), 
+   - `jump_to_step_logic(...)` to handle partial reverts.  
+
+3. **Potentially** universal UI-building helpers (e.g. locked final card, multiline text display) *if* you keep rewriting them in each flow.  
+
+Thus, anything that’s *not unique* to a given flow’s identity or theming (like the Bridge of Death persona, or specialized “explain” text) but is repeated for *all flows* is a prime candidate for living in Pipulate as a “helper function.”
