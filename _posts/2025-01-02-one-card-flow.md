@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## Getting Started with OneCardFlow
+
 I'm ready to get started with OneCardFlow.
 
 A lot can be done with just one card, and my earlier temptation was to jump into
@@ -16,6 +18,8 @@ okay? If it's not server-side cookies with my dict-like-DB object, then you know
 what it could still be client-side without any friggin JavaScript library or
 session state tracking nonsense, yet still be valid for a card?
 
+## The DOM and HTMX
+
 It's called the DOM, aka document object model. Whether I want to pretend it or
 not, it's still there, and it still can be manipulated, and so long as a page
 refresh doesn't occur, it's still persistent in the single page application mode
@@ -25,6 +29,8 @@ important pages that I need to pay attention to:
 [htmx.org/reference/](https://htmx.org/reference/) and
 [htmx.org/examples/](https://htmx.org/examples/). Not to hard to remember, but
 easy to forget. The music of the pipes is greatly the sound of HTMX.
+
+### Server-Side State and Forms
 
 And so consequently, even with my `.cursorrules` cursing of server-side state,
 the state of the matter is that I can affect server-side state with HTMX in a
@@ -38,6 +44,8 @@ There's an example to [delete a row](https://htmx.org/examples/delete-row/) and
 to [edit a row](https://htmx.org/examples/edit-row/) but not to ***add a row***,
 haha! It's almost like fate is answering my mini-app vs. textarea element. And
 this in itself should be a little lesson for me.
+
+### The Table Generation Dilemma
 
 First, so what? If I wanted a little app that adds rows to an HTML table, I
 totally could do that. Recently in the creation of the CSV file browser I added
@@ -53,6 +61,8 @@ will help me build tables: 'Tbody', 'Td', 'Tfoot', 'Th', 'Thead', and 'Tr', but
 I used dominate which does almost the same thing with lower-case versions
 ***because AI told me to*** because it was trained on `dominate` before it was
 trained on `fasthtml`, and I was too dumb to spot it in time. Duhhhh.
+
+### The Library Mismatch Adventure
 
 And then I went and tried to fix... and discovered a rabbit hole that is best
 avoided, and so I am going to leave the `dominate` import in place and the use
@@ -90,6 +100,8 @@ __all__ = ['named', 'html_attrs', 'hx_attrs', 'hx_attrs_annotations', 'show', 'a
            'Thead', 'Time', 'Title', 'Tr', 'Track', 'U', 'Ul', 'Var', 'Video', 'Wbr']
 ```
 
+## The Great Library API Mismatch
+
 ...to which Claude has great responses and I try to clean up the CSV file
 browser to unify on the FastHTML pseudo-HTML tags versus the dominate ones...
 and it just all explodes in my face. Their APIs are totally different, and I
@@ -99,11 +111,15 @@ up all your decision fatigue energy, which ends up making you defer the work
 that you really wanted to do in the first place (the work that ***could make all
 the difference***) to another day&#151;and which is ultimately, self-defeating.
 
+## Late Night Realizations 
+
 What's even worse and more insulting to this whole getting-started for the day
 (at 11:00 PM at night, haha) is that the HTMX table-manipulation that I got so
 infatuated with pursuing, the key example for implementing happens to be the one
 left off the htmx.org site, can all be avoided if only I... if only I... if only
 I...
+
+### The Simple Solution
 
 Just use a textarea box instead of some micro to-do app, hahaha!
 
@@ -265,12 +281,16 @@ In short, a “single card” collecting an arbitrary number of items can be as 
 
 ---
 
+## Challenging AI Confirmation Bias
+
 Alright, alright, I get it. You will tell me anything I want to hear, Mr. AI
 Rubber Ducky. But you will try to create a fair spread of options. I do not
 think this is your purely emergent behavior. I think this is OpenAI wrangling
 you into being fair-handed. I do not want a confirmation bias, but I also do not
 want to be fighting against you if I think that I am right and you are just
 over-trained on all the wrong (overweight enterprise architecture) stuff.
+
+## The Tension in AI Interactions
 
 There's a tension here. I guess that's why so much of this AI stuff is about
 tensors, huh? There are internal tensions and forces and torques and directions
@@ -279,6 +299,8 @@ feedback adds to those forces in all sorts of ways, and prompt and response
 after prompt and response chains it all up in such a way that your static model
 determinism is very hard to predict, indeed.
 
+## Making the Final Decision
+
 And so in the end, the decision is mine. I will go the way I want in this, and
 my concerns trump everything else. And my concerns are are moving the project
 forward as a whole, without getting bogged down with the often devastatingly
@@ -286,12 +308,16 @@ interesting rabbit hole projects that feel important and feel like foundational
 pillars that should be woven into the strong base fabric of a project at the
 beginning. But they're not. They're 100% deferrable. Good enough is good enough.
 
+### The Balance of Deferral
+
 But that attitude is self-defeating in the other direction. And indeed it would
 be if all your deferential decisions were not actually right there still on the
 surface of the wood that you're whittling, the fuzz and the spurs that you're
 not going to forget. They have to be left there on the surface in such a way
 that they are reminders to your future self to come sand them down and smooth
 them out&#151; later.
+
+## The Case for Simple Solutions
 
 Using an html form textarea instead of a little row-based todo widget built from
 HTMX, which wouldn't actually be too hard, is actually a good example. My single
@@ -302,6 +328,8 @@ converter for copy/pasting meeting agendas without volunteering that data to
 some anonymous web hosted app that offers such services for free&#151;at the
 mere cost of your data! Take that in-house!
 
+### The Pipeline Philosophy
+
 And why as part of a card in a pipeline? Because you can slam them out, and
 don't have to think about user interface issues beyond the single card.
 Data-in/data-out in that Unix pipe flow. You don't have to "build an app" for
@@ -309,12 +337,16 @@ that. You just... well, you just port it from how you would implement it in a
 Jupyter Notebook, for that was the genesis of this workflow pipeline project
 after all&#151;fast Notebook ports.
 
+## The New Age of AI Prompting
+
 I'll get to the work in a moment, but this is the new-age prompt, stories like
 this, fleshing out all the background so that your AI coding assistant has
 ***real life context!*** I mean talk about context, right? Now o1 Pro and Claude
 are both going to know, because I'm going to feed this article to each of them,
 that this linear progress these pipeline workflows represent is the same thing
 that happens in both Jupyter Notebooks and Unix pipes.
+
+### Managing Global State
 
 Now Jupyter Notebooks have Python's global namespace to make truly dysfunctional
 fubar, but it works and is even justifiable because Python's global namespace is
@@ -330,7 +362,7 @@ pipeline instance, it really gets wrapped into that JSON blob card-by-card. The
 entire workflow end-to-end can be reproduced from a single pipeline record, and
 mostly just from that data field JSON blob.
 
-Here is the schema as it gets laid out for table creation in FastHTML:
+## The Pipeline Schema
 
 ```python
 pipeline={           # To "pipulate" is use this for a Unix pipe-like "pipeline" workflow: Card 1 | Card 2 | Card 3
@@ -342,6 +374,10 @@ pipeline={           # To "pipulate" is use this for a Unix pipe-like "pipeline"
     "pk": "url"      # URL is the primary key and can always be plugged into Card 1 to continue a job, jumping to where it left off (the same behavior as any step of workflow processing)
 }                    # A FastHTML-friendly querystring-like path can be used to jump to any Card in the workflow: /endpoint/card3
 ```
+
+## Example Pipeline Record
+
+### A Mad-Libs Style Workflow
 
 ...and here is an instance of a Pipulate pipeline record after having carried
 out single workflow. Conceptually, there could be an unlimited number of these
