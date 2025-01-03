@@ -2133,3 +2133,6 @@ By following the above plan, you:
 - **Keep** LLM commentary optional but available through `pipulate.explain(...)`.
 - Achieve a **clean** “**Pipulate** + small Flow Classes” pattern that future flows can copy with minimal overhead.
 
+---
+
+Burned the midnight oil. Apropos. Happy last night of Hanukkah you know who.
