@@ -1800,3 +1800,333 @@ In **short**:
 3. **Potentially** universal UI-building helpers (e.g. locked final card, multiline text display) *if* you keep rewriting them in each flow.  
 
 Thus, anything that’s *not unique* to a given flow’s identity or theming (like the Bridge of Death persona, or specialized “explain” text) but is repeated for *all flows* is a prime candidate for living in Pipulate as a “helper function.”
+
+---
+
+**Me**: I agree! Here's the entire codebase again. Make me a meticulous, pedantic point by point plan about how to externalize what from which workflow into Pipulate.
+
+**o1 Pro**: Below is a **meticulous, pedantic point-by-point plan** describing **how** to move various pieces of logic from the *individual workflow classes* (BridgeFlow, TenCardFlow, OneCardFlow, LinkGraphFlow, etc.) **into** the **Pipulate** class (or a small helper module used by Pipulate). The overall goal is to **reduce code duplication** and centralize anything that multiple flows share.
+
+---
+## 1. Identify Repeated Pipeline Workflow Patterns
+
+### A. “Step Jumping” (Revert/Unfinalize) Logic
+- **Where it lives now**:
+  - `BridgeFlow.jump_to_step`
+  - `TenCardFlow.jump_to_step`
+  - `LinkGraphFlow.jump_to_step`
+  - `OneCardFlow.jump_to_step`
+- **What’s repeated**:
+  1. Reading `step_id` from the form.
+  2. Looking up `pipeline_id` from `db["pipeline_id"]`.
+  3. Clearing the pipeline state from `step_id` onward:
+     ```python
+     self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+     ```
+  4. Potentially removing `finalized` flags.
+  5. Regenerating placeholders:
+     ```python
+     placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+     return Div(*placeholders, id="XYZ-container")
+     ```
+
+#### **Plan**:
+1. **Create** a method inside `Pipulate`—for example:  
+   ```python
+   def jump_to_step_logic(self, pipeline_id: str, step_id: str, steps, remove_finalization_step: str = None):
+       # 1) Clear steps from step_id onward
+       self.clear_steps_from(pipeline_id, step_id, steps)
+
+       # 2) Potentially remove the "finalized" flag
+       if remove_finalization_step:
+           state = self.get_state(pipeline_id)
+           if remove_finalization_step in state and "finalized" in state[remove_finalization_step]:
+               del state[remove_finalization_step]["finalized"]
+               self._save_state(pipeline_id, state)
+
+       # 3) Return the new placeholders
+       # The flow code itself can choose how to handle the placeholders,
+       # or we can return them here for convenience
+       return self.generate_step_placeholders(steps, prefix, start_from=0)
+   ```
+2. In each flow’s `jump_to_step`, **replace** the repeated logic with a call to this helper.
+
+**Why**: This moves the heavy-lifting logic that’s basically identical from each flow into a single place in `Pipulate`.
+
+---
+
+### B. “Unfinalize” Logic
+- **Where it lives now**:
+  - `BridgeFlow.unfinalize`
+  - `TenCardFlow.unfinalize`
+  - `LinkGraphFlow.unfinalize`
+  - `OneCardFlow.unfinalize`
+- **What’s repeated**:
+  1. Checking `pipeline_id` in the DB.
+  2. Locating the step (like `step_04` or `step_05` or `step_11`) that has `"finalized"`.
+  3. Removing `"finalized"` from that step’s data.
+  4. Re-generating placeholders from step_01 onward.
+
+#### **Plan**:
+1. **Add** a `pipulate.unfinalize_logic(url, final_step, steps, prefix)` method:
+   ```python
+   def unfinalize_logic(self, url: str, final_step: str, steps, prefix: str, container_id: str = "bridge-container"):
+       if not url:
+           return P("No pipeline found", style="color:red;")
+       state = self.get_state(url)
+       if final_step in state and "finalized" in state[final_step]:
+           del state[final_step]["finalized"]
+           self._save_state(url, state)
+       # Re-generate placeholders
+       placeholders = self.generate_step_placeholders(steps, prefix, start_from=0)
+       return Div(*placeholders, id=container_id)
+   ```
+2. In each flow’s `unfinalize` method, call:
+   ```python
+   return self.pipulate.unfinalize_logic(
+       url=pipeline_id,
+       final_step="step_04",  # or step_05, step_11, etc. per flow
+       steps=self.STEPS,
+       prefix=self.prefix,
+       container_id="bridge-container"  # or "tenflow-container", etc.
+   )
+   ```
+3. Optionally pass the container ID so each flow can produce the correct DOM ID.
+
+**Why**: Eliminates a chunk of repeated code across flows.
+
+---
+
+### C. “Finalize” Checks
+- **Where it lives now**:
+  - e.g. `BridgeFlow.step_04` or `TenCardFlow.step_11` or `OneCardFlow.step_02`
+- **What’s repeated**:
+  1. Checking `if "finalized" in stepX_data`.
+  2. Possibly skipping step display if finalized.
+
+We already have a partial helper, `pipulate.is_finalized(...)`. **Use that** consistently:
+
+1. Replace manual `if "finalized" in step_XX_data:` checks with 
+   ```python
+   if self.pipulate.is_finalized(pipeline_id, "step_XX"):
+       ...
+   ```
+2. If you want a simpler signature, pass `final_step_id`, e.g. `"step_11"` or `"step_05"`.
+   - Already done in some flows.
+
+---
+
+### D. Revert Control (the little “↶ Step X” button)
+- **Where it lives now**:  
+  - `self.pipulate.revert_control(...)` is already a **common** method in `Pipulate`. 
+  - Good job centralizing it!
+
+**What’s left**: Some flows pass consistent arguments for style, etc. If multiple flows do the same styling or label pattern, consider making a single param for that. Otherwise, you’re good.
+
+---
+
+## 2. Summaries, Step Summaries & Explanations
+
+- **Where**:  
+  - `BridgeFlow.step_03` calls `await self.pipulate.explain(...)`  
+  - `OneCardFlow` does not do LLM commentary, but might later
+  - `TenCardFlow` does no LLM commentary
+
+**If** multiple flows adopt minimal commentary, `pipulate.explain(...)` is **already** a solid helper. It’s centralized. Good job. No additional steps needed.
+
+---
+
+## 3. Step Registration & Route Loop
+
+In each flow, you do:
+```python
+routes = [
+  (f"{prefix}/init", self.init, ["POST"]),
+  ...
+]
+for _, step_id, _ in self.STEPS:
+    routes.extend([
+        (f"{prefix}/{step_id}",        getattr(self, step_id)),
+        (f"{prefix}/{step_id}_submit", getattr(self, f"{step_id}_submit"), ["POST"])
+    ])
+```
+That’s fairly standard. If you wanted to unify or DRY it:
+
+1. **Create** a utility:  
+   ```python
+   def register_workflow_steps(self, app, prefix, steps, obj):
+       # app => e.g. self.app
+       # prefix => e.g. /bridge
+       # steps => e.g. self.STEPS
+       # obj => e.g. self (the Flow instance)
+       routes = [...]
+       for _, step_id, _ in steps:
+           ...
+       for path, handler, *methods in routes:
+           ...
+   ```
+2. Then in each flow’s `__init__`, do:
+   ```python
+   self.pipulate.register_workflow_steps(self.app, self.prefix, self.STEPS, self)
+   ```
+
+**But** that might be overkill. The code is quite short as-is.
+
+---
+
+## 4. “Initialization” Logic
+
+Each flow has:
+```python
+async def init(self, request):
+    form = await request.form()
+    pipeline_id = form.get("pipeline_id", "untitled")
+    db["pipeline_id"] = pipeline_id
+    self.pipulate.initialize_if_missing(pipeline_id, {"endpoint": self.prefix})
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+    return Div(*placeholders, id="onecard-container")
+```
+
+**Plan**:
+1. If you want it consistent, a helper like `pipulate.workflow_init(...)` could do exactly that. 
+2. Then each flow’s `init` is just a small wrapper:
+   ```python
+   async def init(self, request):
+       pipeline_id = await self.pipulate.workflow_init(request, prefix=self.prefix, steps=self.STEPS, container_id="onecard-container")
+       return pipeline_id  # or return the placeholders Div
+   ```
+   - But you still need to return the actual placeholders.  
+   - So the helper might do everything and return the Div. 
+   - This is purely optional.
+
+---
+
+## 5. Summarize the “What to Externalize” Steps
+
+Below is a **checklist** you can follow to methodically move repeated code from each workflow into **Pipulate**:
+
+1. **`jump_to_step`** methods
+   - Add a universal `pipulate.jump_to_step_logic(...)`.
+   - Inside each flow’s `jump_to_step`, call it.
+2. **`unfinalize`** methods
+   - Add `pipulate.unfinalize_logic(...)`.
+   - Inside each flow’s `unfinalize`, call it.
+3. **Finalize** checks
+   - Already partly centralized with `pipulate.is_finalized(...)`.  
+   - Make sure each flow consistently uses it.
+4. **Initialization** (`init`) pattern
+   - Optionally create `pipulate.workflow_init(...)`.
+5. **LLM commentary**:
+   - Already a single function `pipulate.explain(...)`.  
+   - No extra changes needed, unless you want advanced usage.
+
+---
+
+## 6. Example Code Snippets
+
+### A. Jump to Step Logic in `Pipulate`
+
+```python
+def jump_to_step_logic(self, pipeline_id: str, step_id: str, steps, prefix: str, final_step: str = None, container_id: str = "bridge-container") -> Div:
+    # 1) Clear steps from step_id onward
+    self.clear_steps_from(pipeline_id, step_id, steps)
+
+    # 2) Optionally remove 'finalized'
+    if final_step:
+        state = self.get_state(pipeline_id)
+        if final_step in state and "finalized" in state[final_step]:
+            del state[final_step]["finalized"]
+            self._save_state(pipeline_id, state)
+
+    # 3) Generate placeholders from start
+    placeholders = self.generate_step_placeholders(steps, prefix, start_from=0)
+    return Div(*placeholders, id=container_id)
+```
+
+Then **BridgeFlow**’s `jump_to_step` becomes:
+
+```python
+async def jump_to_step(self, request):
+    form = await request.form()
+    step_id = form.get("step")
+    pipeline_id = db.get("pipeline_id", "unknown")
+
+    # Call the universal helper
+    placeholders = self.pipulate.jump_to_step_logic(
+        pipeline_id=pipeline_id,
+        step_id=step_id,
+        steps=self.STEPS,
+        prefix=self.prefix,
+        final_step="step_04",         # or "step_05" if your final step is step_05
+        container_id="bridge-container"
+    )
+    return placeholders
+```
+
+### B. Unfinalize Logic
+
+```python
+def unfinalize_logic(self, pipeline_id: str, final_step: str, steps, prefix: str, container_id: str) -> Div:
+    if not pipeline_id:
+        return P("No pipeline found", style="color:red;")
+    state = self.get_state(pipeline_id)
+    if final_step in state and "finalized" in state[final_step]:
+        del state[final_step]["finalized"]
+        self._save_state(pipeline_id, state)
+
+    # Regenerate placeholders
+    placeholders = self.generate_step_placeholders(steps, prefix, start_from=0)
+    return Div(*placeholders, id=container_id)
+```
+
+Then in **BridgeFlow**:
+
+```python
+async def unfinalize(self, request):
+    pipeline_id = db.get("pipeline_id", "unknown")
+    return self.pipulate.unfinalize_logic(
+        pipeline_id, 
+        "step_04",        # final step
+        self.STEPS, 
+        self.prefix, 
+        container_id="bridge-container"
+    )
+```
+
+Likewise for TenCardFlow, LinkGraphFlow, OneCardFlow, etc. Just pass the correct final step ID and container ID.
+
+---
+
+## 7. Optional Additions
+
+- **Integrate** new code into `pipulate.py` or keep it inline in the `Pipulate` class.  
+- Possibly add a **PipulateWorkflowMixin** if you prefer class-based approach. Then each flow could inherit from it. 
+- But the simplest is adding plain methods on `Pipulate`.
+
+---
+
+## 8. Final Step-by-Step Migration Outline
+
+1. **Create** in `Pipulate`:
+   - `jump_to_step_logic(...)`
+   - `unfinalize_logic(...)`
+   - (optional) `workflow_init(...)`
+2. **In each Flow**:
+   - Replace the entire `jump_to_step` method body with a call to `pipulate.jump_to_step_logic(...)`.
+   - Replace the entire `unfinalize` method body with a call to `pipulate.unfinalize_logic(...)`.
+   - If you want to unify `init`, do so similarly.
+3. **Check** that each flow’s final step ID is correct. For BridgeFlow it’s `step_04`, for LinkGraphFlow it’s `step_05`, for TenCardFlow it’s `step_11`, etc.
+4. **Test** each workflow to ensure the revert/unfinalize still works as expected.
+5. **Optionally** ensure all `if "finalized" in stepX_data:` checks are replaced with `if self.pipulate.is_finalized(pipeline_id, "step_XY"):` calls.
+6. **Done**. Code duplication is reduced. Maintenance is easier.
+
+---
+
+## Conclusion
+
+By following the above plan, you:
+
+- **Centralize** repeated step-jumping/unfinalization logic.
+- **Preserve** each flow’s unique step structure while removing “boilerplate” code.
+- **Keep** LLM commentary optional but available through `pipulate.explain(...)`.
+- Achieve a **clean** “**Pipulate** + small Flow Classes” pattern that future flows can copy with minimal overhead.
