@@ -944,7 +944,7 @@ Now you have a new branch named **fix-bug** at `867b7b9 (Good)`. Meanwhile, `mai
 gitGraph
     commit id: "Initial"
     commit id: "867b7b9 (Good)" tag: "fix-bug"
-    branch main
+    branch fix-bug
     commit id: "A (Bug Introduced)" tag: "main"
     commit id: "B (Improvement1)"
     commit id: "C (Improvement2)" tag: "HEAD of main"
@@ -978,7 +978,7 @@ gitGraph
     commit id: "B' (CherryPick of B)"
     commit id: "C' (CherryPick of C)" tag: "fix-bug HEAD"
     
-    branch main
+    branch fix-bug
     commit id: "A (Bug Introduced)" tag: "main"
     commit id: "B (Improvement1) original"
     commit id: "C (Improvement2) original"
@@ -1065,12 +1065,12 @@ To illustrate the final state after you **cherry-pick** commits B and C, skippin
 <div class="mermaid">
 gitGraph
     commit id: "Base(good)" tag: "867b7b9"
+    
     branch fix-bug
     checkout fix-bug
     commit id: "B' (picked from main B)"
     commit id: "C' (picked from main C)" tag: "fix-bug HEAD"
-
-    branch main
+    
     checkout main
     commit id: "A (Bug Introduced)" tag: "main"
     commit id: "B (Improvement1 original)"
@@ -1106,3 +1106,43 @@ Using `git` in a purely linear style is a valid approach if you’re a solo deve
 Now you have a curated, improved timeline **without** the bug commit.
 
 **You are unstoppable** now that you can skip bad commits yet keep the best features!
+
+---
+
+gitGraph
+    commit id: "Initial"
+    commit id: "867b7b9 (Good)" tag: "fix-bug"
+    branch main
+    commit id: "A (Bug Introduced)" tag: "main"
+    commit id: "B (Improvement1)"
+    commit id: "C (Improvement2)" tag: "HEAD of main"
+
+Trying to create an existing branch. (Help: Either use a new name if you want create a new branch or try using "checkout main")
+
+gitGraph
+    commit id: "Initial"
+    commit id: "867b7b9 (Good)" tag: "fix-bug base"
+    commit id: "B' (CherryPick of B)"
+    commit id: "C' (CherryPick of C)" tag: "fix-bug HEAD"
+    
+    branch main
+    commit id: "A (Bug Introduced)" tag: "main"
+    commit id: "B (Improvement1) original"
+    commit id: "C (Improvement2) original"
+    commit id: "Main-later"
+
+Trying to create an existing branch. (Help: Either use a new name if you want create a new branch or try using "checkout main")
+
+    commit id: "Base(good)" tag: "867b7b9"
+    branch fix-bug
+    checkout fix-bug
+    commit id: "B' (picked from main B)"
+    commit id: "C' (picked from main C)" tag: "fix-bug HEAD"
+
+    branch main
+    checkout main
+    commit id: "A (Bug Introduced)" tag: "main"
+    commit id: "B (Improvement1 original)"
+    commit id: "C (Improvement2 original)"
+
+No diagram type detected matching given configuration for text: commit id: "Base(good)" tag: "867b7b9" branch fix-bug checkout fix-bug commit id: "B' (picked from main B)" commit id: "C' (picked from main C)" tag: "fix-bug HEAD" branch main checkout main commit id: "A (Bug Introduced)" tag: "main" commit id: "B (Improvement1 original)" commit id: "C (Improvement2 original)"
