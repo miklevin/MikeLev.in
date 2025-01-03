@@ -52,6 +52,8 @@ group: home
 
 ## LPvg Stack (Linux, Python, vim & git)
 
+> **[LPvg](/LPvg/)** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
+
 <ul class="lpvg-list">
   <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
   <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
@@ -59,13 +61,15 @@ group: home
   <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
 </ul>
 
-**[LPvg](/LPvg/)** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
+### Tech Journal & AI Experiment 
 
-## Tech Journal & AI Experiment 
-
-I'm building something exciting: an open-source tool called Pipulate that combines these classic tools with modern AI. It's a simple Python framework that harnesses AI's power while staying lightweight and hackable.
-
-This site documents the journey. Each post explores the intersection of timeless tech skills and emerging AI capabilities. I'm creating a living knowledge base that grows smarter over time &#151; and sharing everything I learn along the way. Join me in building a more sustainable approach to technology.
+I'm building something exciting: an open-source tool called Pipulate that
+combines these classic tools with modern AI. It's a simple Python framework that
+harnesses AI's power while staying lightweight and hackable. This site documents
+the journey. Each post explores the intersection of timeless tech skills and
+emerging AI capabilities. I'm creating a living knowledge base that grows
+smarter over time &#151; and sharing everything I learn along the way. Let's all
+jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
