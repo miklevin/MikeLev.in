@@ -30,21 +30,12 @@ group: home
 
 <br />
 
-<div class="lpvg-container">
-  <div class="lpvg-list">
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
-      <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
-      <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
-      <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
-    </ul>
-  </div>
+{% include daily-metaphors.html %}
+
+<div class="bunny-trail">
+  <div> </div>
   {% include bunny.html %}
 </div>
-
-**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools - they're the foundation of a sustainable technical career that resists obsolescence.
-
-{% include daily-metaphors.html %}
 
 {% assign sorted_posts = site.posts | sort: 'date' %}
 {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
@@ -52,12 +43,23 @@ group: home
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <span class="nav-label">Begin the Journey</span>
     <a href="{{ first_post.url | relative_url }}">
       <span>{{ first_post.title }}</span>
     </a>
+    <span class="nav-label">Begin the Journey</span>
   </div>
 </div>
+
+## LPvg Stack (Linux, Python, vim & git)
+
+<ul class="lpvg-list">
+  <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
+  <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
+  <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
+  <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
+</ul>
+
+**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools &#151; they're the foundation of a sustainable technical career that resists obsolescence. 
 
 ## Tech Journal & AI Experiment
 

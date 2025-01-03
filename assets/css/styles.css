@@ -489,7 +489,7 @@ ol li .post-date {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
-.lpvg-container {
+.bunny-trail {
   display: flex;
   justify-content: space-between;
   align-items: stretch; /* Changed from flex-start to stretch */
@@ -505,7 +505,6 @@ ol li .post-date {
 .lpvg-list ul {
   list-style-type: none;
   padding-left: 0;
-  margin: 0;
 }
 
 .lpvg-list li {
