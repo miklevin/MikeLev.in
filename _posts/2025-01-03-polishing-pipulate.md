@@ -296,6 +296,14 @@ class Pipulate:
         asyncio.create_task(chatq(prompt, role="system"))
 ```
 
+---
+
+## First We Look For Redundancies
+
+> I've got a lot of work from yesterday's session do do ***ADDING*** to
+> Pipulate, but before we make it bigger, I think I ought to make it
+> smaller&#151; and more consistent abiding by common Python conventions.
+
 And I ask Claude if there are any redundancies in this?
 
 **Claude**: Yes, there are several opportunities for improvement in the `Pipulate` class:
@@ -450,7 +458,7 @@ By combining them into a single `get_state()` method (without the underscore), w
 
 It's a good change! The underscore was suggesting a separation that wasn't really necessary in this case.
 
-**Me**: Okay, so I replaced all occurrences of `_save_state` with `save_state` based on the same principle, since `_save_state was used all throughout the workflows.
+**Me**: Okay, so I replaced all occurrences of `_save_state` with `save_state` based on the same principle, since `_save_state` was used all throughout the workflows.
 
 **Claude**: Yes, that's a good decision! Since `save_state` is being used throughout the workflows, it's effectively part of the public API of the `Pipulate` class, so removing the underscore makes its status clearer.
 
@@ -459,4 +467,91 @@ The underscore prefix would make sense if the method was only used internally by
 This kind of refactoring helps make the API more honest - the naming now matches how the method is actually being used. It's a good example of making the code's intent clearer through naming conventions!
 
 Would you like to look for other methods that might benefit from the same kind of clarification?
+
+---
+
+Okay, I broke something. This is going to be quite an adventure. I really only
+use git as a sort of personal infinite undo. And even in that regard, I use it
+as a linear forward and backward timeline, sort of like scrubbing forward and
+backwards in video editing. This is done with:
+
+    git reset --hard HEAD
+
+Where it says HEAD, you can replace it with any hash you find when you `git
+log`, and so you have the ideal time machine. The hash I want to go to is
+867b7b9d95dab4d189a472e6006f12252e9da1b467b7b9d95dab4d189a472e6006f12252e9da1b4
+where I know the error did not exist.
+
+The problem is that I've done a number of "innovations" since then, some of
+which I want to keep and one of which introduced a bug. Now If I simply:
+
+    git reset --hard 867b7b9d95dab4d189a472e6006f12252e9da1b467b7b9d95dab4d189a472e6006f12252e9da1b4
+
+...then I could eliminate the but instantly because undo. However, I loose all
+those other improvements, and if I forced a commit with:
+
+    git commit -am "Bug gone"
+    git push --force
+
+Then I have committed a new timeline. I have traveled backwards in time in the
+repository, undid my recent actions and start anew from that point in history.
+And this is generally good. This is my way of working. This does not break the
+brain with all the same multi-thread coordination of concurrent programming,
+which I also don't like very much. I am a linear non-linear thinker. While my
+mind might jump around like crazy and I document this and that all over the
+place in a tech journal like this, my coding implementation path is singluar...
+
+Until right now. It's time to leave my comfort zone and to explore the realm of
+git branches, checkouts and cherry picking. The mere concept of which terrifies
+me, but I'm going to do it. And I'm going to enlist the help of... hmmm... o1
+Pro or Claude 3.5 Sonnet? This is the path very much more traveled, and I don't
+need the o1 Pro big thinker idea-man here. In fact, that could work against me
+in this case. Clause has full context of my code being the default in Cursor.
+
+So, I'll just feed it this whole article so far today. Claude?
+
+---
+
+## Branching Out And Cherry Picking With Claude
+
+> It's time to leave my comfort zone, and I didn't even have to articulate the
+> situation to Claude because I've been articulating it to myself through my
+> daily tech journal. This prompting method has been highly effective with o1
+> Pro, but here I apply it with Claude.
+
+**Claude**: I understand you want to preserve recent improvements while removing a bug, and you're ready to explore git branching instead of your usual linear time-travel approach. Here's what I suggest:
+
+1. First, create a branch at your current state to preserve all your work:
+```bash
+git branch save-improvements
+```
+
+2. Then reset to the working commit:
+```bash
+git reset --hard 867b7b9
+```
+
+3. Create a new branch from this working state:
+```bash
+git checkout -b fix-bug
+```
+
+4. Now you can cherry-pick the good changes from your `save-improvements` branch. To see what commits you want:
+```bash
+git log save-improvements
+```
+
+5. Cherry-pick the good commits one at a time:
+```bash
+git cherry-pick <commit-hash>
+```
+
+If you run into conflicts during cherry-picking, you can:
+- Resolve them manually
+- Use `git cherry-pick --abort` to start over
+- Use `git cherry-pick --skip` to skip a problematic commit
+
+This way, you can rebuild your timeline with just the good changes, leaving out the problematic one. Once you're happy with the result, you can merge back to main and push.
+
+Would you like me to help you through this process? We can start by identifying which commits you want to keep.
 
