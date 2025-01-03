@@ -1712,3 +1712,332 @@ So you **nailed** it—**branching** can be used simply as a “scratchpad” fo
 - **Delete** the ephemeral branch afterward
 
 This preserves your usual linear “main” approach but still unlocks the speed of local Git branching to rummage through time. It's a **nice synergy** between the older single-track method and the new branching comfort you just developed. Enjoy your new superpower—**temporary branches** for code archaeology!
+
+---
+
+## Git Scrubbing Controls Clarified
+
+> I say I do the equivalent of video scrubbing with git. But not really. I just
+> do backwards-by-1-only with `git commit --hard HEAD^`, that funny syntax
+> having stuck with me once seeing it made fun of. Now I want the full details!
+
+**Me**: Okay, so my big trick is to `git pull` and then `git reset --hard HEAD`
+and then to start going back one commit at a time with `git reset --hard HEAD^`
+until I find the change I need, then I copy the change and `git pull` and `git
+reset --hard HEAD` again then paste the change in.
+
+I want to do the equivalent of that now in branching. So how do I easily travel
+back and forward like `git reset --hard HEAD^` lets you travel back by one step?
+I want the travel-forward-by-1 equivalent so I can really do that back and forth
+scrubbing, but then I want to be able to jump back to the head again in the new
+branch. So the pattern is:
+
+    git branch _scrub
+    git checkout _scrub
+    git reset --hard HEAD^
+    git reset --hard HEAD^
+    git reset --hard HEAD^
+
+...and then my questions to you. Jump forward by 1. Jump back to HEAD.
+
+---
+
+## Scrubbing The Idea of Easy Git Forward-By-1 Scrubbing
+
+**o1 Pro**: **Short answer:** Git does not provide a built-in “HEAD++” operation for jumping forward one commit the same way it provides “HEAD^” (or “HEAD~1”) for going back. **Once you move HEAD backward**, the forward commits are no longer referenced by `HEAD^`–style syntax. **Instead**, you must identify the future commit by name (a branch name, a tag, a hash, or a reflog entry) and use `git reset --hard <that-future-ref>`.
+
+Below is a **detailed** explanation of how to replicate the “scrubbing back-and-forth” pattern in a **temporary `_scrub` branch** (so you don’t do it on `main`), plus **two** ways to jump forward again when you’ve moved HEAD backward.
+
+---
+
+## 1. The Basic “Scrubbing” Setup
+
+1. **Create a scratch branch at your current HEAD**:
+   ```bash
+   git branch _scrub
+   git checkout _scrub
+   ```
+   This `_scrub` branch now points to the same commit as your main branch’s HEAD did.
+
+2. **Now you can jump backward** (scrub backward) with:
+   ```bash
+   git reset --hard HEAD^
+   git reset --hard HEAD^
+   # Repeatedly as needed
+   ```
+   Each time you do `HEAD^`, HEAD moves one commit earlier in the `_scrub` branch.
+
+3. **Look at your code, copy what you need** (like you said). If you want to keep going backward, you do more `git reset --hard HEAD^`. This is **fine**—the commits in front of you haven’t truly disappeared; they’re just not pointed to by HEAD anymore.
+
+---
+
+## 2. Now You Want to Jump **Forward** by 1?
+
+Once you’ve done `git reset --hard HEAD^` a few times in `_scrub`, the next commit “in front” of you is no longer at `HEAD^`. That reference was ephemeral: once HEAD moved, “HEAD^” will refer to something different. 
+
+**Options**:
+
+### **Option A: Use `git reflog` to jump forward**
+
+1. Run:
+   ```bash
+   git reflog
+   ```
+   That shows a list of recent HEAD states with references like `HEAD@{0}`, `HEAD@{1}`, etc. For example, you might see:
+
+   ```
+   239afde (HEAD -> _scrub) HEAD@{0}: reset: moving to HEAD^
+   ...
+   552b2e0 HEAD@{1}: checkout: moving from main to _scrub
+   ...
+   552b2e0 HEAD@{2}: commit: ...
+   ...
+   9cc6f4b HEAD@{3}: ...
+   ...
+   ```
+   
+2. Identify the commit you want to jump **forward** to in that list. 
+   - If you see your future commit at something like `HEAD@{5}`, you can:
+     ```bash
+     git reset --hard HEAD@{5}
+     ```
+     That effectively does “move HEAD forward” to where it was 5 steps ago in the reflog.
+
+**Pros**:
+- Straightforward, once you know how to read `git reflog`.
+- Perfect for ephemeral “I just want that HEAD from 1 minute ago.”
+
+**Cons**:
+- The numbering in `HEAD@{n}` is **chronological** (“n steps back in time I was at that commit”), not purely a linear commit count. If you do more resets or checkouts, the reflog changes quickly.
+
+---
+
+### **Option B: Jump to a Specific Commit Hash or Branch**
+
+If your “future commit” is known by some **hash** or a **branch** name, you can do:
+```bash
+git reset --hard <commit-or-branch-name>
+```
+- If `_scrub` once pointed to commit `abc1234`, you can do `git reset --hard abc1234`
+- If you had never left `_scrub` in the first place and `_scrub` *still* pointed to that commit, then you might do a `git checkout _scrub` again.  
+
+**Important**: In your scenario, `_scrub` moves with you as you do `git reset --hard HEAD^`, so the label `_scrub` always references your new HEAD position. That’s why the original “forward” commit is no longer `_scrub^`; `_scrub` is the tip of your branch now.
+
+---
+
+## 3. Return to the “Newest” Commit in `_scrub`
+
+If your entire purpose is “scrub backward a few steps, rummage around, then **snap** forward to the branch’s original HEAD,” you can do something like:
+
+1. **Tag** or **reflog** the original HEAD *before* going backward:
+   ```bash
+   # first, name your original tip for re-forwarding
+   git tag scrub-start HEAD
+
+   # or store a reference:
+   original_head=$(git rev-parse HEAD)  # get the commit hash
+   ```
+2. **Scrub back**:
+   ```bash
+   git reset --hard HEAD^
+   git reset --hard HEAD^
+   # rummage, copy code, etc
+   ```
+3. **Jump forward** again:
+   ```bash
+   # If you used a tag:
+   git reset --hard scrub-start
+
+   # If you used $original_head from earlier:
+   git reset --hard $original_head
+   ```
+This “bookmarks” your future point so you can easily jump forward again with a single `git reset --hard`.
+
+---
+
+## 4. Summarizing the “Scrubbing in a Branch” Pattern
+
+1. **Branch** at HEAD:  
+   ```bash
+   git branch _scrub
+   git checkout _scrub
+   ```
+2. Optionally **tag** this HEAD so you can get back to it easily:
+   ```bash
+   git tag scrub-start
+   ```
+3. **Scrub back**:
+   ```bash
+   git reset --hard HEAD^
+   # or HEAD~2, etc
+   # repeat as desired
+   ```
+4. **Look around**, open your editor, copy code.
+5. If you want to “move forward by 1 commit,” use **reflog** or a **tag**:
+   - `git reset --hard scrub-start`
+   - `git reset --hard HEAD@{5}`
+6. **When done** with rummaging, check out your real branch again or merge changes:
+   ```bash
+   git checkout main
+   # or maybe manually copy your code changes and paste
+   git branch -D _scrub
+   ```
+*(Remember that if you do partial edits in `_scrub`, you might want to commit them or copy them out before blowing it away!)*
+
+---
+
+### 5. Rely on Manual Copy or Diffs to Transfer Code
+
+As you noted, the scrubbing is typically to *view* older commits, then copy & paste the lines you need. That’s simpler than “cherry-picking partial commits.” So you can do:
+
+1. **Scrub** in `_scrub` until you see the code snippet you want.
+2. Copy it at the OS or editor level.
+3. **Checkout** your main branch.
+4. Paste those lines into your current code.
+5. Done. `_scrub` is ephemeral.
+
+---
+
+## Final Words
+
+**Git** doesn’t have a direct “move HEAD forward 1 commit” because once you move HEAD backward, there’s no inherent pointer to “the next commit.” Instead, you must:
+
+- Either use **reflog** to find the previous HEAD states (like “HEAD@{2} from 5 minutes ago”)
+- Or use **a known branch/tag** name or commit hash
+
+That’s the entire trick. The rest is just the ephemeral “_scrub” branch and ephemeral resets. Then manually copying the old code snippet to your real branch is perfectly fine (and often simpler than merges or cherry-picks). Enjoy your new “scrubbing in a branch” approach!
+
+---
+
+## So You're Telling Me There's No Rewind?
+
+> Is `git commit --hard HEAD^` really a 1-way proposition, just like a SQL
+> forward-only firehose curser? I can sort of believe it because I implemented
+> something much like that very recently in pipeline reverts! But I gotta
+> confirm.
+
+**Me**: Haha, wow! So you're telling me that going backwards in a git branch
+with `git reset --hard HEAD^` is as permanently committal and undoable as the
+revert buttons in the Pipulate Pipeline? Or forward-only firehose cursors in
+SQL? And you'd have to use tagging to jump back to the HEAD? There's no quick
+reset like I used to do with a quick `git pull` followed by a reset to HEAD?
+Wow, I didn't realize how clever my linear scrubbing go-back-to-HEAD technique
+really was, making use of the remote origin that way. Are you sure there's not
+some shortcut for go-to-HEAD again? I mean if you can tag it and do it that way,
+surely there must be some equivalent the way Linux gives you `~/` for home.
+
+---
+
+## Yeah No Kidding. I Need To Learn Git Better!
+
+> I advocate Linux, Python, vim & git (the LPvg stack) all the time, but truth
+> is some of these go so deep, I've never taken the full journey yet. And this
+> is certainly the case with `git`. And so mark this as the beginning of that
+> adventure. I'll be seeking out more git learning resources from here on out.
+
+**o1 Pro**: **Short Answer**  
+There’s **no built-in “HEAD++”** or “go-to-HEAD-again” command in Git once you’ve done `git reset --hard HEAD^`. You must specify a commit/branch/tag (or use the reflog) to jump forward again. If you want a “bookmark” for returning to the original tip, you have to manually create it—by tagging, stashing, or referencing the reflog.
+
+Below is a deeper explanation:
+
+---
+
+## 1. Why “HEAD++” Doesn’t Exist
+
+- **HEAD** in Git is just a pointer (reference) to a single commit.  
+- When you do `git reset --hard HEAD^`, you say “move HEAD pointer to the *parent* commit.” Now your new HEAD points to that earlier commit.
+- The “commit that used to be HEAD” is no longer HEAD’s “child.”  
+- **There’s no default pointer** to the “next commit” after you go back. That next commit is basically “orphaned” from your HEAD pointer’s perspective, unless you have another branch or a tag that references it.
+
+**Example**:
+
+```text
+       (HEAD) old HEAD
+         ↓
+ commitX ---- commitY ---- commitZ
+               ↑
+               HEAD after reset --hard HEAD^
+```
+
+Once you reset HEAD to commitY, Git just sees commitZ as “unreferenced” (unless some branch or tag is pointing there).
+
+---
+
+## 2. Using Reflog (HEAD@{…})
+
+**If you want to jump forward again** to the commit you had before, you can look it up in the reflog:
+
+```bash
+git reflog
+# find the line that says "reset: moving to HEAD^" or "checkout: moving from ..."
+# look at the commit for HEAD@{1} or HEAD@{2}, etc
+git reset --hard HEAD@{2}
+```
+This basically says: “Go back to how HEAD was 2 steps ago in my local history.” That’s your closest equivalent to “HEAD++” in Git, but it’s time-based, not strictly in a child-of-HEAD sense.
+
+---
+
+## 3. Tagging or Stashing as a “Bookmark”
+
+A simpler approach if you know you’ll want to jump forward again:
+
+1. Before you do `git reset --hard HEAD^`, **tag** the original HEAD:
+   ```bash
+   git tag original-head
+   ```
+2. Then do:
+   ```bash
+   git reset --hard HEAD^
+   ```
+3. To jump forward again:
+   ```bash
+   git reset --hard original-head
+   ```
+   Or similarly:
+   ```bash
+   git checkout original-head
+   ```
+That’s effectively your manual “go-to-HEAD-again” command.
+
+Alternatively, you can do a quick **stash**:
+```bash
+git stash push -m "bookmark"
+git reset --hard HEAD^
+# rummage around
+git stash apply stash@{0}
+```
+But stashing is more for uncommitted changes. Tagging or referencing the commit hash is more direct for commits.
+
+---
+
+## 4. The Remote-Branch Trick vs. Local-Only Branch Trick
+
+### 4.1 Your Old “Linear” Trick (Local <-> Remote)
+
+- You’d do `git pull` so that `origin/main` points to the newest commit.
+- Then do `git reset --hard HEAD^` (locally) as many times as you want. If you want to jump forward, you can do:
+  ```bash
+  git reset --hard origin/main
+  ```
+  Because the remote pointer `origin/main` is effectively your “bookmark” for the newest commit. This is often how you “scrub forward” in your linear approach.
+
+**Why That Works**:  
+- `origin/main` is *another pointer* that still references the tip.  
+- So “pull” sets `origin/main` to the latest. Then you do local resets. When you want to re-jump to that “future,” you just “reset --hard origin/main.”
+
+### 4.2 Local Branch Approach
+
+- If you’re on a local branch named `_scrub`, there *is no built-in “_scrub@{++}”* to jump forward.  
+- You’d have to reference a commit by tag, by reflog, or by some other branch pointer that still references the newer commit.
+
+Hence: **No “magic HEAD++.”** Tagging or using the remote pointer accomplishes the same effect.
+
+---
+
+## 5. Summary
+
+- **Yes**, your “linear scrubbing go-back-to-HEAD technique” is basically relying on a second pointer (`origin/main`) to jump forward. 
+- If you do purely local scrubbing in a single branch (with no second pointer), you need to create that “bookmark” yourself (a tag, stash, or reference the commit hash via reflog).
+- **No single command** is built in to do “HEAD++.” Instead, “HEAD++” is just “go to some known commit,” which you must name with a branch, tag, or `HEAD@{n}` reference.
+
+**Hence** your old approach was clever indeed, using `origin/main` as a “~/home.” But if you’re purely local with a scratch branch, you just have to manually bookmark it if you want a quick re-jump.
