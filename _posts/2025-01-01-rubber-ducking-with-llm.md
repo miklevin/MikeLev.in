@@ -1,7 +1,7 @@
 ---
 title: Rubber Ducking With LLM
 permalink: /futureproof/rubber-ducking-with-llm/
-description: 
+description: "On January 1st, I used an LLM (Claude) as a coding partner to work on my web framework, hitting a snag with state management in my pipeline system. Claude reminded me of my core principles, the 'Pipeline Mantra,' revealing a simple fix. This led us to refine my .cursorrules file, a guide for AI coding, with 'mantras' and 'speedbumps' to encourage better patterns. We also outlined how to kickstart a new workflow, emphasizing simplicity and the effective use of LLMs in coding. The key takeaway? Keep it simple, stupid!"
 layout: post
 sort_order: 1
 ---
