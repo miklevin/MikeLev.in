@@ -1015,8 +1015,9 @@ class OneCardFlow:
 
 > I like it! I think I've got a new prompting technique and style. Of course, it
 > requires writing whole articles like this, and those articles being a part of
-> a conversation history. Perhaps that's not for everyone, but neither is being
-> the boss of a PhD-level intelligence.
+> a huge conversation history. Perhaps that's not for everyone, but prompting
+> techniques for these huge context window chain-of-thought big-thinker models
+> is so different!
 
 **o1 Pro**: 
 
