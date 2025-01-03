@@ -59,16 +59,16 @@ group: home
   <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
 </ul>
 
-**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools &#151; they're the foundation of a sustainable technical career that resists obsolescence. 
+**[LPvg](/LPvg/)** is my carefully curated tech stack that has stood the test of time. While I use these tools to build AI-powered SEO automation systems professionally, they're versatile enough for any technical challenge. These aren't just tools &#151; they're the foundation of a sustainable technical career that resists obsolescence. Join me on this journey while I develop and refine Pipulate, the free and open source SEO automation tool I'm building to help you thrive through the next 20 years of technology.
 
 ## Tech Journal & AI Experiment
 
-> I'm fusing a local-first, single-file Python web framework (with HTMX, no big
-> JS, no multi-tenant complexity) and a built-in LLM that can ingest everything
-> for plugin expansions and dev tasks. Meanwhile, I aim to unify my large corpus
-> of blog articles into a living book, harnessing vector or graph-based indexing
-> plus the LLM’s summarization to maintain an evolving outline that captures major
-> subthemes across the content.
+I'm fusing a local-first, single-file Python web framework (with HTMX, no big
+JS, no multi-tenant complexity) and a built-in LLM that can ingest everything
+for plugin expansions and dev tasks. Meanwhile, I aim to unify my large corpus
+of blog articles into a living book, harnessing vector or graph-based indexing
+plus the LLM’s summarization to maintain an evolving outline that captures major
+subthemes across the content.
 
 This site serves as my daily technical journal and AI experiment. Each post is an unfiltered stream of consciousness that feeds into an AI-optimized knowledge base. The verbose content deliberately serves two purposes: training data for frontier AI models and context for RAG (Retrieval-Augmented Generation) systems. This approach anticipates the evolution from traditional search to an interconnected "small world" web and gives me my own data for machine learning experiments.
 
