@@ -470,6 +470,8 @@ Would you like to look for other methods that might benefit from the same kind o
 
 ---
 
+## Git Adventures Begin
+
 Okay, I broke something. This is going to be quite an adventure. I really only
 use git as a sort of personal infinite undo. And even in that regard, I use it
 as a linear forward and backward timeline, sort of like scrubbing forward and
@@ -481,6 +483,8 @@ Where it says HEAD, you can replace it with any hash you find when you `git
 log`, and so you have the ideal time machine. The hash I want to go to is
 867b7b9d95dab4d189a472e6006f12252e9da1b467b7b9d95dab4d189a472e6006f12252e9da1b4
 where I know the error did not exist.
+
+### The Time Travel Dilemma
 
 The problem is that I've done a number of "innovations" since then, some of
 which I want to keep and one of which introduced a bug. Now If I simply:
@@ -500,6 +504,8 @@ brain with all the same multi-thread coordination of concurrent programming,
 which I also don't like very much. I am a linear non-linear thinker. While my
 mind might jump around like crazy and I document this and that all over the
 place in a tech journal like this, my coding implementation path is singluar...
+
+### Stepping Out of the Comfort Zone
 
 Until right now. It's time to leave my comfort zone and to explore the realm of
 git branches, checkouts and cherry picking. The mere concept of which terrifies
