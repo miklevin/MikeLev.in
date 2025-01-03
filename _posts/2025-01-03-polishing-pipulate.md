@@ -666,3 +666,55 @@ third. This whole thing it seems could be done with just 2 timelines: the main
 and a rolled back one that cherry-picks off main.
 
 What am I missing?
+
+---
+
+**Claude**: Ah, you're absolutely right! I apologize for overcomplicating it. You don't need the `save-improvements` branch at all - it's redundant since, as you noted, it would be identical to `main`. 
+
+Here's the simpler mental model with just two timelines:
+
+```mermaid
+gitGraph
+    commit id: "867b7b9 (working state)"
+    commit id: "bug introduced"
+    commit id: "improvement 1"
+    commit id: "improvement 2"
+    branch fix-bug
+    checkout fix-bug
+    reset id: "867b7b9"
+```
+
+<div class="mermaid">
+gitGraph
+    commit id: "8675309 (working)"
+    commit id: "bug introduced"
+    commit id: "improvement 1"
+    commit id: "improvement 2"
+    branch fix-bug
+    checkout fix-bug
+    checkout main
+</div>
+
+You're now on `fix-bug` branch, which is at the working state (867b7b9). From here, you can look at `main`'s history and cherry-pick the good commits:
+
+```bash
+git log main  # See the improvements that came after 867b7b9
+git cherry-pick <hash-of-improvement-1>
+git cherry-pick <hash-of-improvement-2>
+```
+
+This is like saying "I want these specific changes, but not the bug that came between them."
+
+Once you've cherry-picked the good stuff onto `fix-bug`, you can:
+```bash
+git checkout main
+git reset --hard fix-bug  # Make main match your fixed branch
+git push --force  # Rewrite history on remote
+```
+
+You're right - the third branch was unnecessary complexity. It's just:
+1. Main timeline (with bug)
+2. Rolled-back timeline that cherry-picks the good parts
+
+Would you like to proceed with this simpler approach?
+
