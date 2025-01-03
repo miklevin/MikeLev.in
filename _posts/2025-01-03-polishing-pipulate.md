@@ -555,3 +555,114 @@ This way, you can rebuild your timeline with just the good changes, leaving out 
 
 Would you like me to help you through this process? We can start by identifying which commits you want to keep.
 
+---
+
+## Digesting `git` Cherry-Picking
+
+> I want to just push back on Claude immediately, asserting how that makes no
+> sense and is incomprehensible to boot. But I decide to brute-force my way
+> through the process, drawing the [mermaid gitgraph
+> diagrams](https://mermaid.js.org/syntax/gitgraph.html) in my head.
+
+**Me**: This is where my mind blows up, Claude. I've done all this:
+
+```bash
+[mike@nixos:~/repos/botifython]$ git pull
+Already up to date.
+
+[mike@nixos:~/repos/botifython]$ git reset --hard HEAD
+HEAD is now at 4ca8aee Created a get_timestamp helper function
+
+[mike@nixos:~/repos/botifython]$ git reset --hard 867b7b9
+HEAD is now at 867b7b9 Adjusted key look
+
+[mike@nixos:~/repos/botifython]$ git checkout -b fix-bug
+Switched to a new branch 'fix-bug'
+```
+
+...but now your instructions say this:
+
+4. Now you can cherry-pick the good changes from your `save-improvements` branch. To see what commits you want:
+```bash
+git log save-improvements
+```
+
+5. Cherry-pick the good commits one at a time:
+```bash
+git cherry-pick <commit-hash>
+```
+
+If you run into conflicts during cherry-picking, you can:
+- Resolve them manually
+- Use `git cherry-pick --abort` to start over
+- Use `git cherry-pick --skip` to skip a problematic commit
+
+This way, you can rebuild your timeline with just the good changes, leaving out the problematic one. Once you're happy with the result, you can merge back to main and push.
+
+...but I just don't get it! That is totally unclear to me. The mental model is
+just not in my head. Let me try:
+
+I do a git pull and reset --hard HEAD which ensures I'm at the very newest that
+I've ever commit and push. And things are linear.
+
+I create a branch named save-improvements, but functionally things are still
+linear as there's not any changes in that branch. It's a bud more than a branch.
+
+However, the moment I do `git reset --hard 867b7b9`, things are no longer
+linear. In a mermaid diagram, there'd be a branching line. But it's two lines
+with identical histories.
+
+Okay, so here's where the mental model breaks down and I'm going to try to talk
+it out loud to get the answer for myself, then run it by you.
+
+Now I check out a 3rd time `git checkout -b fix-bug` from as you say, the
+working state. We have 3 lines if it were a mermaid diagram (I really should
+insert those). All 3 lines have shared histories, but two of the lines, `main`
+and `save-improvements` have the full history, bug and all. While the third
+branch, was checked out after the `git reset --hard <8675309>` and so is behind
+in the horse race.
+
+**WHILE I'M IN** the bug-fix branch, I can still `git log` a different branch
+with `git log save-improvements`. This is a subtle and nuanced point that
+normally eludes me. I'm in the 3rd horse's track who fell behind, but I'm
+looking ahead in one of the two other currently identical neck-and-neck horses
+out in the lead.
+
+And now you say: Cherry-pick the good commits one at a time with commands like
+`git cherry-pick <commit-hash>`
+
+And I say whuuuuut? 
+
+So this is all that merge stuff that I generally avoid in git due to my trying
+to stick to linearity for easier mental models. But there's another world, a
+shadowy place where linear histories are decomposed into ***patches*** that can
+be plucked out of a timeline and selectively ***applied*** to other timelines
+without regard to causality.
+
+And I hate time-travel stories. I avoid them like the plague, especially in Star
+Trek. I mean like H.G. Wells with the Morlocks and Eloi is a must, but only
+because of historical context and the awesome metaphors it provides for those
+becoming too dependent on AI like me here, and the Luddites who stay on the
+surface. But that's for another article. And I do have a time-travel prompt
+technique I use here a lot, but if you look at it, you'll see it's purely linear
+video-scrubbing style&#151;not this multiverse crap.
+
+Suffice to say, I need to embrace a kooky time-travel scenario of the sort I
+instinctively deplore in order to get the benefit of cross-branch
+cherry-picking, which is what we're doing.
+
+My question is why 3 branches: main, save-improvements and fix-bug.
+
+fix-bug is immediately prior to the bug having set in. So conceptually we're
+doing a Mario-style platform game jump over a particular commit.
+
+We are in the fix-bug branch as we cherry-pick.
+
+We cherry-pick from the commit hashes found in save-improvements. But
+save-improvements is identical to main, since it was branched from main at the
+most recent branch HEAD (I believe the term is trunk). So this whole scenario is
+made more complex for me by increasing the surface are of the mental model by a
+third. This whole thing it seems could be done with just 2 timelines: the main
+and a rolled back one that cherry-picks off main.
+
+What am I missing?
