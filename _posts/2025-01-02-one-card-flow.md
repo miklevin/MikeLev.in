@@ -1019,7 +1019,7 @@ class OneCardFlow:
 > techniques for these huge context window chain-of-thought big-thinker models
 > is so different!
 
-**o1 Pro**: 
+**o1 Pro**: [Displaying the Details]
 
 #### Analyzing code evolution
 
