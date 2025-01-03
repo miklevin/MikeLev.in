@@ -1,7 +1,7 @@
 ---
 title: Git Cherry Picking, Time-Travel & Mermaid Digrams
 permalink: /futureproof/git-cherry-picking/
-description: 
+description: I've been using Git in a very linear way for years, but today I finally took the plunge and learned how to use branching and cherry-picking. It was a bit of a mind-bending experience, but I'm glad I did it. Now I can easily "hop" between different timelines and cherry-pick the changes I want, without having to worry about introducing bugs. I'm also excited to start using branches as a way to explore older commits and experiment with new features. This is a major step forward in my Git journey, and I can't wait to see what I can do with my new superpowers!
 layout: post
 sort_order: 1
 ---
@@ -2041,3 +2041,27 @@ Hence: **No “magic HEAD++.”** Tagging or using the remote pointer accomplish
 - **No single command** is built in to do “HEAD++.” Instead, “HEAD++” is just “go to some known commit,” which you must name with a branch, tag, or `HEAD@{n}` reference.
 
 **Hence** your old approach was clever indeed, using `origin/main` as a “~/home.” But if you’re purely local with a scratch branch, you just have to manually bookmark it if you want a quick re-jump.
+
+---
+
+Alright, I'm done with this git rabbit hole for now, except for the fact that
+I'll never really be done with it ***from now***. I have taken the red pill of
+branching and checkouts, and I must get my practice in and get it into my
+fingers. Git is one of those *"get it into your mental model of the world"*
+foundational sort of tools, as one of the great touches-everything tool of tech,
+one of the swiss army knives that's so much more than the one thing it's touted
+for. Yet its really so difficult to get a handle on. 
+
+I've deferred this challenge for years, never really being up to it. But I'm
+next-leveling myself everywhere, an I've been keenly aware of how much I've been
+handicapping myself with my linear treatment of the git model. Today was the
+straw that broke the camel's back because of a humble bug I introduced and
+didn't realize it until I was a number of commits in.
+
+Yes, it's yet another rabbit hole. But it's one that passed the rabbit hole
+evaluation test. It gave me permanent forever-forward superpowers with a
+relatively small investment, all things considered. And given my ability to
+actually learn it, it was one of those success assured sort of things, because
+I'm not out on the bleeding edge with this the way I am with FastHTML/HTMX... or
+Anywidget... or NixOS... or Nvida+Wayland... sigh. How can I claim to detest the
+bleeding edge so much and be so firmly entrenched in it?
