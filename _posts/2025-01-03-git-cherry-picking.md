@@ -1,6 +1,6 @@
 ---
-title: Polishing Pipulate
-permalink: /futureproof/polishing-pipulate/
+title: Git Cherry Picking, Time-Travel & Mermaid Digrams
+permalink: /futureproof/git-cherry-picking/
 description: 
 layout: post
 sort_order: 1
