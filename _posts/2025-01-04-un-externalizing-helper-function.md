@@ -2381,3 +2381,527 @@ This sets up the clean baton-passing. Now each card can decide what to do with t
 
 What do you think? This feels much more aligned with the principles in .cursorrules and gives us that artistic control you described while keeping the core mechanism simple and explicit.
 
+---
+
+## Rubber Ducking It Off o1 Pro
+
+**o1 Pro**: Below is **o1 Pro’s** perspective on your current project status and the approach to un-externalizing `is_finalized` plus handling the new “data preservation” requirement on revert:
+
+---
+
+## 1. Un-Externalizing `is_finalized`—**Still a Good Idea?**
+
+From all the reasoning you laid out, **yes**—removing the `is_finalized` helper remains quite valid if:
+
+1. **You truly don’t see** finalization growing more complex (just `'finalized' in step_data`).
+2. **You want** to unify all finalization checks in a single “dictionary membership” approach (no extra calls).
+3. **You prefer** exposing pipeline internals at the usage site (showing `'finalized' in stepN_data`) for clarity and “musical” explicitness.
+
+That vantage point hasn’t changed. The short function is more overhead than help. So your plan to remove it is still aligned with everything else you’re doing.
+
+---
+
+## 2. The “Revert & Form Repopulation” Challenge
+
+### Current Default Behavior
+
+- When you revert to a prior step, your pipeline code **clears** (`clear_steps_from`) that step onward.  
+- This effectively **blanks** any forms for those steps if the user re-enters them.  
+
+### Why This Is a Problem
+
+- Some forms are non-trivial (multi-field or large textareas).  
+- Users might want the old data back to tweak it, rather than starting from scratch each time.
+
+### Potential Solutions
+
+1. **Preserve Data** at the time of revert, so the step’s form can re-hydrate from the JSON.  
+2. **Allow** each card (step) to decide if it wants to “restore previous data” or “start fresh.”
+
+### The “One Boolean Baton” Approach
+
+You proposed a design where **`revert_control`** can supply a simple boolean (`preserve_data`, e.g. `"preserve"`) in the form. Then:
+
+1. **When the user clicks revert**, the “preserve” value is posted to `jump_to_step`.
+2. **`jump_to_step`** (or a central `handle_jump_to_step`) sees `preserve=True` and defers to each step to decide how to re-populate.
+
+The key advantage here is that you’re not forcibly copying hidden fields for every single data field. Instead, you let the step re-acquire any needed data from the pipeline’s BLOB—**if** that step wants to.
+
+---
+
+## 3. A Proposed Refined Workflow
+
+1. **User Sees** a “Revert” button. That button is built by `revert_control(..., preserve_data=True)`.  
+2. On click, `jump_to_step` receives `form.get("preserve") == "true"`.  
+   - \-> Calls `self.clear_steps_from(pipeline_id, step_id, steps)` to remove everything from that step on.  
+   - \-> Also sets some in-memory flag: `preserve = True`.  
+3. **Re-Generate** placeholders (`generate_step_placeholders`). The step you revert to is now called.  
+4. **Inside** that step’s method, you do something like:
+   ```python
+   if preserve:
+       # read old data from pipeline JSON if it exists
+       step_data = self.get_step_data(pipeline_id, "step_01", {})
+       user_text = step_data.get("text", "")
+   else:
+       user_text = ""  # Or some default
+   ```
+5. The step’s form (or other elements) can decide how to re-populate from that data.
+
+### Why This Works
+
+- You keep the “**truncation** from step forward” logic, so you can’t continue to future steps with old data.  
+- You allow “**local** re-population” for the specific step you’re reverting to.  
+- No big tangle of hidden fields or super generic form serialization. Instead, each step’s code is still the “musical” logic for how to display data.
+
+---
+
+## 4. Tying It All Together
+
+- **Remove** `is_finalized` from `Pipulate` since that’s simpler.  
+- **Add** a single `preserve_data: bool = False` parameter to `revert_control(...)`.  
+- **Include** that param in the hidden fields of the revert form (`Input(type="hidden", name="preserve", value="true")` if `preserve_data=True`).  
+- **Extend** `jump_to_step` to parse `preserve=...`, store it in a local variable, pass it as needed to placeholders.  
+- **In each** step’s method (like `step_01`, `step_02`, etc.), if `preserve=True`, they retrieve existing data from the pipeline JSON to re-populate. If not, they do a fresh blank.
+
+**That’s** basically all you need. The rest is straightforward glue code that sets a standard pattern for how revert forms are built and how steps respond to the preserve boolean.
+
+---
+
+## 5. Observations & Rules
+
+- **Rule 1**: If a step wants to “re-populate” on revert, it must check the preserve boolean in its step method.  
+- **Rule 2**: By default, keep `preserve_data=False` so forms revert to blank. Only switch it to `True` in the step where you actually want to keep data across reverts.  
+- **Rule 3**: Don’t overcomplicate. You don’t need hidden field duplication or advanced field-level serialization. The pipeline state BLOB is your single source of truth.
+
+### Edge Cases
+
+- **If step’s data is huge** (like large text input?), the pipeline BLOB might be large. But that’s already your design.  
+- **If you revert multiple times** in a row, the new approach shouldn’t break anything. The user’s code might re-populate from older state, or they might lose data if it was already cleared—just depends on your logic.  
+
+---
+
+## 6. Why This Is “The Right Kind of Simple”
+
+- **No Magic**: Just a boolean “preserve” that each step can read.  
+- **No Over-Generic** form serialization. You’re not injecting hidden fields for every user input.  
+- **Maintains** your “musical” approach: each step is free to interpret “preserve” any way it wants.
+
+**Conclusion**: This design remains in perfect harmony with your single-file + minimal-abstraction ethos. It’s easy to understand, easy to implement, and keeps your code cohesive.
+
+---
+
+## 7. Final Thoughts
+
+Overall, your project is shaping up nicely. You’ve done the “un-externalize `is_finalized`” cleanly, and you’ve discovered the “preserve data on revert” design that fits your style:
+
+1. **Trivial membership checks** for `'finalized'`? Check.  
+2. **One boolean baton** for revert data? Check.  
+3. **No hidden field sprawl** or forced merges? Also check.  
+
+Once you do a quick pass to unify the finalization checks and confirm your revert logic works with the newly minted “preserve” approach, you should have a solid system that:
+
+- Minimizes cognitive overhead
+- Keeps all the “musical” differences in the step code
+- Allows form data repopulation on revert gracefully
+
+It might take a little more iteration if you discover a corner case for partial data preservation, but your existing single-file search-and-replace approach and local testing will keep that from becoming a big headache.
+
+In short: **carry on**. You’re definitely on the right track for the “**beautiful, musical**” pipeline code you envision!
+
+---
+
+## And Back to Claude!
+
+**Me**: Okay, that's all done. The stage is set. Let's do a first pass to strip
+`step_01` down to baseline, but don't get over-enthisiastic here. Just strip out
+the first pass at field preservation that we did, taking note of what we learned
+for a better second pass. We can also slide in the parameter argument we need on
+`revert_control`
+
+**Claude**: Here's the cleaned up version of `step_01`, removing the old field preservation attempt but keeping the core logic intact. I'll also add the `preserve_data` parameter to the `revert_control` call:
+
+````python
+async def step_01(self, request):
+    """GET /onecard/step_01 - Shows textarea or revert control"""
+    pipeline_id = db.get("pipeline_id", "untitled")
+    step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+    user_text = step1_data.get("text", "")
+
+    # Check if pipeline is finalized
+    if "finalized" in finalize_data:
+        return Div(
+            Card(self._fmt(user_text)),
+            Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+        )
+
+    # If we have data => show revert control
+    if user_text:
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_01",
+                prefix=self.prefix,
+                message=self._fmt(user_text),
+                target_id="onecard-container",
+                preserve_data=True  # Add this parameter
+            ),
+            Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+        )
+
+    # Show empty form (first time OR after jump)
+    return Div(
+        Card(
+            H3("Enter your text:"),
+            Form(
+                Textarea(
+                    "",  # Start with empty textarea
+                    name="text",
+                    placeholder="Type anything here...",
+                    rows="6",
+                    required=True,
+                    autofocus=True
+                ),
+                Button("Save", type="submit"),
+                hx_post=f"{self.prefix}/step_01_submit",
+                hx_target="#step_01"
+            )
+        ),
+        Div(id="finalize"),
+        id="step_01"
+    )
+````
+
+The key changes:
+1. Removed the attempt to populate the textarea with `user_text`
+2. Added `preserve_data=True` to the `revert_control` call
+3. Explicitly set textarea value to `""` to show we're starting fresh
+
+This gives us a clean slate to implement the new field preservation pattern properly.
+
+---
+
+**Me**: Show me some other symbols like the step back one we're using here that could be candidates as a semantic alternative if the boolean `preserve_data` is being used.
+
+**Claude**: Here are some Unicode symbols that could semantically indicate data preservation vs clearing when used in the revert button:
+
+````python
+# Current (destructive):
+"\u00A0"  # Non-breaking space + step name
+
+# Alternatives for preserve_data=True:
+"\u21BA"  # ↺ ANTICLOCKWISE OPEN CIRCLE ARROW
+"\u21BB"  # ↻ CLOCKWISE OPEN CIRCLE ARROW
+"\u267B"  # ♻ BLACK UNIVERSAL RECYCLING SYMBOL
+"\u2B6F"  # ⭯ ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW
+"\u27F2"  # ⟲ ANTICLOCKWISE GAPPED CIRCLE ARROW
+"\u27F3"  # ⟳ CLOCKWISE GAPPED CIRCLE ARROW
+
+# Current style could indicate destructive:
+"\u232B"  # ⌫ ERASE TO THE LEFT
+"\u2190"  # ← LEFTWARDS ARROW
+"\u21E6"  # ⇦ LEFTWARDS WHITE ARROW
+"\u21D0"  # ⇐ LEFTWARDS DOUBLE ARROW
+````
+
+I particularly like `\u21BA` (↺) for preserve_data=True as it suggests "going back but keeping things", while keeping the current blank space for the destructive default feels appropriately stark.
+
+The code would look like:
+
+````python
+label or (
+    "\u21BA" if preserve_data else "\u00A0"
+) + format_step_name(step_id)
+````
+
+Me: "\u27F2"  # ⟲ ANTICLOCKWISE GAPPED CIRCLE ARROW
+
+...is ideal for this use! Let's make this the generic building of the revert button use this if form data is being preserved. That gives us an ideal way to test the baton passing in a incremental way.
+
+Claude: 
+
+Perfect choice! Let's modify the `revert_control` method to use ⟲ when preserving data:
+
+````python
+    def revert_control(
+        self,
+        step_id: str,
+        prefix: str,
+        url: str = None,
+        message: str = None,
+        final_step: str = None,
+        target_id: str = "tenflow-container",
+        label: str = None,
+        style: str = None,
+        preserve_data: bool = False
+    ):
+        """Return a revert control with optional data preservation flag"""
+        # Early return if finalized
+        if url and final_step:
+            final_data = self.get_step_data(url, final_step, {})
+            if "finalized" in final_data:
+                return None
+
+        # Default styling if not provided
+        default_style = (
+            "background-color: var(--pico-del-color);"
+            "display: inline-flex;"
+            "padding: 0.5rem 0.5rem;"
+            "border-radius: 4px;"
+            "font-size: 0.85rem;"
+            "cursor: pointer;"
+            "margin: 0;"
+            "line-height: 1;"
+            "align-items: center;"
+        )
+
+        # Create basic revert form with just the essential fields
+        form = Form(
+            Input(type="hidden", name="step", value=step_id),
+            Input(type="hidden", name="preserve", value=str(preserve_data).lower()),
+            Button(
+                label or f"{'\u27F2' if preserve_data else '\u00A0'}{format_step_name(step_id)}", 
+                type="submit", 
+                style=default_style
+            ),
+            hx_post=f"{prefix}/jump_to_step",
+            hx_target=f"#{target_id}",
+            hx_swap="outerHTML"
+        )
+
+        # Return simple form if no message
+        if not message:
+            return form
+
+        # Return styled card with message if provided
+        return Card(
+            Div(message, style="flex: 1;"),
+            Div(form, style="flex: 0;"),
+            style="display: flex; align-items: center; justify-content: space-between;"
+        )
+````
+
+Now when we see ⟲ on a revert button, we'll know it's going to preserve the form data. This gives us a nice visual indicator while testing the baton-passing mechanism.
+
+---
+
+Actually, no we didn't but Claude and I did a bit of back-and-forth to get the
+baton passing just right, and to make sure that it's visually represented by
+either the normal ↶ symbol to revert if there's no form data to persist or ⟲ if
+there is. This is so friggin perfect! We are systematically passing the baton
+forward, first in `card_xx` configuration, then in its Pipulate helper
+functions, and now finally full-circle back around into the card again on the
+repopulate. 
+
+Now these revert buttons call the `jump_to_step` endpoints that live within each
+workflow class, which are these appreciated little things thanks to some
+externalization to Pipulate helper functions that I did earlier today:
+
+```python
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.prefix,
+            f"{self.prefix.lstrip('/')}-container"
+        )
+```
+
+...so this makes less boilerplate code per workflow, however it does mean I have
+to explicitly call it to Claude's attention for the baton-passing next steps.
+The revert button submit is going to be hitting this endpoint, carrying:
+
+```python
+        form = Form(
+            Input(type="hidden", name="step", value=step_id),
+            Input(type="hidden", name="preserve", value=str(preserve_data).lower()),
+            Button(
+                label or f"{'⟲ ' if preserve_data else ' '}{format_step_name(step_id)}", 
+                type="submit", 
+                style=default_style
+            ),
+            hx_post=f"{prefix}/jump_to_step",
+            hx_target=f"#{target_id}",
+            hx_swap="outerHTML"
+        )
+```
+
+Specifically, the hidden field `preserve_data=true` or `preserve_data=false`. I
+believe that's going to be held in the `request` object passed to
+`self.pipulate.handle_jump_to_step`, which is this:
+
+```python
+    async def handle_jump_to_step(self, request, steps, prefix, container_id):
+        """Generic jump_to_step handler for flows"""
+        form = await request.form()
+        step_id = form.get("step", "")
+        preserve = form.get("preserve", "false") == "true"
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Clear everything from step_id onwards
+        self.clear_steps_from(pipeline_id, step_id, steps)
+
+        # Re-generate placeholders from the beginning
+        placeholders = self.generate_step_placeholders(
+            steps, 
+            prefix, 
+            start_from=0,
+            preserve=preserve  # Pass the baton
+        )
+        return Div(*placeholders, id=container_id)
+```
+
+Now this gets passed along to the placeholders which is what's responsible for
+our ability to show one symbol or the other, depending. But what we're
+interested in is making this value available to the card itself, and not merely
+the chain reacted trail of placeholders leading up to it. Now at the top of
+OneCardFlow currently, we have:
+
+```python
+    form = await request.form()
+    preserve = form.get("preserve", "false") == "true"  # Get preserve flag from form
+    
+    pipeline_id = db.get("pipeline_id", "untitled")
+    step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+    user_text = step1_data.get("text", "")
+```
+
+...so it might actually be a done deal. But what we really need to do now is a
+test as glorious and explicit as how we showed one symbol or the other so that
+after the click on the revert button we can see that whether the `preserve_data`
+boolean baton has been passed all the way along and can control things on the
+card form build. We need not actually repopulate yet. We only need to show
+something when the card builds to show that we know if `preserve` is true or
+false. The particulars of the data does not matter because we are going to
+(already have?) re-query it from source.
+
+**Claude**: 
+
+Yes! Let's add a visual indicator in the card to confirm the baton passing is working. We can modify the card's header to show whether it's in preserve mode:
+
+````python
+async def step_01(self, request):
+    """GET /onecard/step_01 - Shows textarea or revert control"""
+    form = await request.form()
+    preserve = form.get("preserve", "false") == "true"
+    logger.debug(f"step_01: preserve flag received as {preserve}")  # Debug log
+    
+    pipeline_id = db.get("pipeline_id", "untitled")
+    step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+    user_text = step1_data.get("text", "")
+
+    # Check if pipeline is finalized
+    if "finalized" in finalize_data:
+        return Div(
+            Card(self._fmt(user_text)),
+            Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+        )
+
+    # If we have data => show revert control
+    if user_text:
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_01",
+                prefix=self.prefix,
+                message=self._fmt(user_text),
+                target_id="onecard-container",
+                preserve_data=True
+            ),
+            Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+        )
+
+    # Show empty form (first time OR after jump)
+    return Div(
+        Card(
+            H3(f"Enter your text: {'⟲ (preserve mode)' if preserve else '↶ (clear mode)'}"),
+            Form(
+                Textarea(
+                    "",  # Still empty - we'll handle repopulation next
+                    name="text",
+                    placeholder="Type anything here...",
+                    rows="6",
+                    required=True,
+                    autofocus=True
+                ),
+                Button("Save", type="submit"),
+                hx_post=f"{self.prefix}/step_01_submit",
+                hx_target="#step_01"
+            )
+        ),
+        Div(id="finalize"),
+        id="step_01"
+    )
+````
+
+This will show either "Enter your text: ⟲ (preserve mode)" or "Enter your text: ↶ (clear mode)" in the card header, confirming that our baton passing is working all the way through to the card build. Once we see this working, we can proceed with the actual data repopulation.
+
+---
+
+## Baton Passing With QueryStrings
+
+> Baton passing, baton passing, lots of fun with baton passing! I had some
+> troubles getting it passed all the way, and Claude figured out the solution:
+
+**Claude**: Looking at the logs, I see the issue. When we click the revert button:
+
+1. The form submits with `preserve=true`:
+```
+2025-01-04 18:03:49 | DEBUG | revert_control called with preserve_data=True
+```
+
+2. But when `step_01` gets called after the jump, it's receiving `preserve=false`:
+```
+2025-01-04 18:03:52 | DEBUG | step_01: preserve flag received as False
+```
+
+The issue is in how we're trying to pass the preserve flag. Instead of using `_values`, we should add it as a query parameter to the `hx_get` URL in `generate_step_placeholders`:
+
+````python
+def generate_step_placeholders(self, steps, prefix, start_from=0, preserve=False):
+    """Generate step placeholder divs for any workflow."""
+    return [
+        Div(
+            id=step_id,
+            hx_get=f"{prefix}/{step_id}?preserve={str(preserve).lower()}", # Add as query param
+            hx_trigger="load" if i == start_from else None
+        )
+        for i, (_, step_id, _) in enumerate(steps)
+    ]
+````
+
+Then in `step_01`, get it from query params instead of form:
+````python
+async def step_01(self, request):
+    """GET /onecard/step_01 - Shows textarea or revert control"""
+    preserve = request.query_params.get("preserve", "false") == "true"  # Get from query params
+    logger.debug(f"step_01: preserve flag received as {preserve}")
+````
+
+This should properly pass the preserve flag through the HTMX chain and show the correct symbol.
+
+---
+
+## BONK!
+
+**Me**: Well, that worked! That's some heavy handed baton passing there, haha! I know you're a machine, but that's like passing the baton by konking the receiver over the head with it.
+
+**Claude**: 😄 You're right! It's like instead of a smooth handoff in a relay race, we're throwing the baton and yelling "CATCH!" 
+
+The query parameter approach is definitely more forceful than elegant. We went from:
+```
+🏃‍♂️ --> 🤝 --> 🏃‍♀️  (smooth handoff)
+```
+
+To:
+```
+🏃‍♂️ --> 🎯 --> 😵 --> 🏃‍♀️  (BONK!)
+```
+
+But hey, it works! And in web development sometimes that's exactly what you need - an explicit, unmistakable way to pass state through a chain of HTMX requests. The query parameter is like writing the instructions on the baton itself in big bold letters.
+
+Would you like to explore a more elegant solution? We could potentially use HTMX headers or triggers, though honestly, the query parameter approach, while blunt, is clear and maintainable. Sometimes the simple solution is the right one, even if it makes us chuckle at its directness!
+
+
