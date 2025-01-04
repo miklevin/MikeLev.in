@@ -2904,4 +2904,41 @@ But hey, it works! And in web development sometimes that's exactly what you need
 
 Would you like to explore a more elegant solution? We could potentially use HTMX headers or triggers, though honestly, the query parameter approach, while blunt, is clear and maintainable. Sometimes the simple solution is the right one, even if it makes us chuckle at its directness!
 
+---
+
+## Crossing The Finish Line
+
+**Me**: No, I think with the baton being passed all the way, we really just want
+to rebuild the `user_data` (if that's what we're still using) in the text area.
+Is this close to the implementation of the data-pull out of the pipeline record
+that you're thinking. Cross the finish line for me here, Claude!
+
+> Back-and-forth ensues and I feed Claude the log file of it working and don't
+> tell it, just to see if it can recognize the fact
+
+**Claude**: Looking at these logs, I can see what's happening now:
+
+1. When we jump back with preserve=True at 18:23:25, the state is preserved in the pipeline record:
+```json
+{
+  "step_01": {
+    "text": "foo\r\nbar\r\nbaz"
+  }
+}
+```
+
+2. And when we edit and submit at 18:23:31, it updates correctly to:
+```json
+{
+  "step_01": {
+    "text": "foo\r\nbar\r\nbaz\r\nwow"
+  }
+}
+```
+
+The data preservation is working! The issue was in `handle_jump_to_step` not clearing state when preserve=True, which we fixed. We don't need to modify the textarea population logic because the data is already there in `step1_data.get("text", "")`.
+
+So no, you were right - we don't need the previous change. The fix in `handle_jump_to_step` was the key piece we needed. The data is already being pulled correctly from the pipeline record.
+
+
 
