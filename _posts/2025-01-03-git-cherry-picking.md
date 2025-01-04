@@ -2079,8 +2079,9 @@ I'll never really be done with it ***from now***. I have taken the red pill of
 branching and checkouts, and I must get my practice in and get it into my
 fingers. Git is one of those *"get it into your mental model of the world"*
 foundational sort of tools, one that touches everything &#151; a swiss army
-knife that's so much more than the one thing it's touted for. Yet its really so
-difficult to get a handle on. 
+knife that's so much more than the one thing it's touted for (being a
+distributed version control system, aka DVCS). Yet its really so difficult to
+get a handle on. 
 
 ### Overcoming Git Hesitation
 
