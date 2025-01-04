@@ -2085,11 +2085,12 @@ get a handle on.
 
 ### Overcoming Git Hesitation
 
-I've deferred this challenge for years, never really being up to it. But I'm
-next-leveling myself everywhere, an I've been keenly aware of how much I've been
-handicapping myself with my linear treatment of the git model. Today was the
-straw that broke the camel's back because of a humble bug I introduced and
-didn't realize it until I was a number of commits in.
+I've deferred this branching and cherry-picking challenge for years, never
+really being up to it. But I'm next-leveling myself everywhere, an I've been
+keenly aware of how much I've been handicapping myself with my linear treatment
+of the git model. Today was the straw that broke the camel's back because of a
+humble bug I introduced and didn't realize it until I was a number of commits
+in.
 
 ### Worth The Investment
 
