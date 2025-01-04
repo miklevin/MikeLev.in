@@ -22,6 +22,17 @@ Whether you're a Git newbie or a seasoned pro, I hope this article will inspire 
 
 ## Jumping Into Today's Work
 
+> Fair warning to the new reader of this blog / daily tech journal. You don't
+> have to read or understand the big blocks of code you're about to encounter.
+> This is often what I do to season LLM sessions for the day. 
+
+The LLMs have got these whopping huge context windows, so I feed them ***full
+context*** (this whole article as it evolves). Today, I start out with it doing
+an analysis of a block of code I worked on recently, and so the whole block of
+code appears here. I know this will turn a lot of readers away, but hey look
+around. See any advertising? Nope! This writing is for myself and the LLMs,
+primarily, but you are welcome to follow along!
+
 I've got to live with these decisions forever, or at least for a good long time.
 So let's get them right. Here's my Pipulate class starting point:
 
