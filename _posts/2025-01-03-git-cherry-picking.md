@@ -6,6 +6,22 @@ layout: post
 sort_order: 1
 ---
 
+## Introduction
+
+Have you ever felt like you were stuck in a rut with your Git workflow? Like you were limited to a single, linear timeline, unable to easily explore different versions of your code or experiment with new features without the risk of introducing bugs? That's how I felt for years, until I finally took the plunge and learned how to use branching and cherry-picking.
+
+### What You'll Learn
+
+In this article, I'll share my journey of discovering the power of Git's non-linear capabilities. I'll explain how I learned to "hop" between different timelines, cherry-pick the changes I want, and even use branches as a way to explore older commits and experiment with new features.
+
+### Who This is For
+
+Whether you're a Git newbie or a seasoned pro, I hope this article will inspire you to take your Git skills to the next level. So come along with me on this adventure, and let's unlock the full potential of Git together!
+
+---
+
+## Jumping Into Today's Work
+
 I've got to live with these decisions forever, or at least for a good long time.
 So let's get them right. Here's my Pipulate class starting point:
 
@@ -1621,6 +1637,8 @@ And in looking at all the branches with:
 
     git branch -a
 
+## Cleaning Up Remote Branches
+
 ...to make sure I got them all, I also noticed some other stray branches I had
 from experimentation in the past, and I looked up how to delete them from
 origin, and found:
@@ -1630,15 +1648,21 @@ origin, and found:
 And so I deleted those too. Now I have only local main and origin/main, as it
 should be (right now).
 
+## Getting Back on Track
+
 That takes care of my immediate needs with the Mario jump over the bug. I'll
 revisit what I was trying to do there as I get back on track from this very
 worthy rabbit hole diversion of learning git better.
+
+## The Power of Local Branches
 
 But also, I've been thinking about this. Complexity aside, this gives a smoother
 alternative to git cloning into another directory to look over past edits
 without collision or overwriting. You can do it in the same directory quickly
 with branching, in and out, the delete the branch when you're done and go back
 to main.
+
+### Simple Branch Creation
 
 So even without the cherry-picking, this gives some power moves. Let's say you
 lost a feature that you knew you had before. This is really just simple
@@ -1651,6 +1675,8 @@ you're working, without having to `cd` around and clone into new directory
 names. And the new branch really is a clone of whatever branch you were on
 (pedantic semantics aside), I believe. So if you were on the HEAD of the main
 branch, you have another up-to-date side-by-side parallel timeline.
+
+### Time Travel Within Branches
 
 But then you could go fishing for changes just going back in time, scrubbing the
 way I'm used to with:
@@ -1668,6 +1694,8 @@ copy it into your OS or nvim copy-buffer, switch back to your main branch with:
 just go cleaning up old branches, which must be such a thing in the git realm
 that I just don't think about a lot, because up until now I haven't used
 branches much. 
+
+### A Hybrid Approach
 
 This is a hybrid approach to my old linear method of never leaving main, but
 scrubbing all the time, and the non-linear cherry-picking bizarro
@@ -2044,6 +2072,8 @@ Hence: **No “magic HEAD++.”** Tagging or using the remote pointer accomplish
 
 ---
 
+## Conclusion: The Git Journey Continues
+
 Alright, I'm done with this git rabbit hole for now, except for the fact that
 I'll never really be done with it ***from now***. I have taken the red pill of
 branching and checkouts, and I must get my practice in and get it into my
@@ -2052,11 +2082,15 @@ foundational sort of tools, as one of the great touches-everything tool of tech,
 one of the swiss army knives that's so much more than the one thing it's touted
 for. Yet its really so difficult to get a handle on. 
 
+### Overcoming Git Hesitation
+
 I've deferred this challenge for years, never really being up to it. But I'm
 next-leveling myself everywhere, an I've been keenly aware of how much I've been
 handicapping myself with my linear treatment of the git model. Today was the
 straw that broke the camel's back because of a humble bug I introduced and
 didn't realize it until I was a number of commits in.
+
+### Worth The Investment
 
 Yes, it's yet another rabbit hole. But it's one that passed the rabbit hole
 evaluation test. It gave me permanent forever-forward superpowers with a
