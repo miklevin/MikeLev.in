@@ -12,6 +12,8 @@ Welcome to a raw and unfiltered glimpse into the mind of a coder! This journal e
 
 Consider this your backstage pass to the chaotic yet beautiful process of building software. There will be detours, rabbit holes, and moments of pure coding bliss. So grab your favorite beverage, settle in, and join me on this adventure as we explore the art of turning lines of code into something truly special.
 
+---
+
 ### The Day Begins
 
 Okay, I've wrapped up my first day of coding work on this fine Saturday, and
