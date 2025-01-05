@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .ascii-alice {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: transparent;
+            overflow-x: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+        .ascii-alice pre {
+            margin: 0;
+            padding: 0;
+            color: white;
+            border: none;
+            white-space: pre;
+            font-size: 1em;
+            line-height: 1.2;
+        }
+        .controls {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+        }
+        #points {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+        }
+        .point {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: red;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <button onclick="startDrawing()">Start Drawing</button>
+        <button onclick="finishDrawing()">Finish Shape</button>
+        <button onclick="reset()">Reset</button>
+        <div id="coordinates"></div>
+    </div>
+    <canvas id="matrix"></canvas>
+    <div id="points"></div>
+    <div class="ascii-alice">
+        <pre>
+                    ___
+                   |   |         _____
+                   |_  |        /     \
+                     \ |       |       \
+                     |  \      |       /
+                      \  \____ \_      \
+                       \      \_/      |
+                 ___.   \_            _/
+.-,             /    \    |          |
+|  \          _/      `--_/           \_
+ \  \________/                     /\   \
+ |                                /  \_  \
+ `-----------,                   |     \  \
+             |                  /       \  |
+             |                 |         | \
+             /                 |         \__|
+            /   _              |
+           /   / \_             \
+           |  /    \__      __--`
+          _/ /        \   _/
+      ___/  /          \_/
+     /     /
+     `----`</pre>
+    </div>
+
+    <script>
+        // Matrix effect code (unchanged from before)
+        const canvas = document.getElementById('matrix');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const fontSize = 15;
+        const cols = Math.floor(canvas.width / fontSize) + 1;
+        const yPositions = Array(cols).fill(0);
+
+        // Point collection
+        let points = [];
+        let isDrawing = false;
+        let pointsContainer = document.getElementById('points');
+
+        function startDrawing() {
+            isDrawing = true;
+            points = [];
+            pointsContainer.innerHTML = '';
+            document.addEventListener('click', addPoint);
+        }
+
+        function addPoint(e) {
+            if (!isDrawing) return;
+
+            const point = document.createElement('div');
+            point.className = 'point';
+            point.style.left = e.clientX + 'px';
+            point.style.top = e.clientY + 'px';
+            pointsContainer.appendChild(point);
+
+            points.push({
+                x: (e.clientX / window.innerWidth) * 100,
+                y: (e.clientY / window.innerHeight) * 100
+            });
+
+            updatePath();
+        }
+
+        function finishDrawing() {
+            isDrawing = false;
+            document.removeEventListener('click', addPoint);
+            const pathCoords = points.map(p => `${p.x.toFixed(1)}% ${p.y.toFixed(1)}%`).join(',\n    ');
+            document.getElementById('coordinates').innerHTML = 
+                `clip-path: polygon(\n    ${pathCoords}\n);`;
+        }
+
+        function reset() {
+            points = [];
+            pointsContainer.innerHTML = '';
+            document.getElementById('coordinates').innerHTML = '';
+            isDrawing = false;
+            document.removeEventListener('click', addPoint);
+        }
+
+        function createAlicePath() {
+            if (points.length < 3) return;
+            
+            ctx.beginPath();
+            ctx.moveTo(
+                (points[0].x / 100) * canvas.width,
+                (points[0].y / 100) * canvas.height
+            );
+            
+            for (let i = 1; i < points.length; i++) {
+                ctx.lineTo(
+                    (points[i].x / 100) * canvas.width,
+                    (points[i].y / 100) * canvas.height
+                );
+            }
+            
+            ctx.closePath();
+        }
+
+        function drawMatrix() {
+            ctx.save();
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            if (points.length >= 3) {
+                createAlicePath();
+                ctx.clip();
+            }
+
+            ctx.fillStyle = '#0f0';
+            ctx.font = fontSize + 'px monospace';
+
+            yPositions.forEach((y, i) => {
+                const char = String.fromCharCode(0x30A0 + Math.random() * 96);
+                const x = i * fontSize;
+                ctx.fillText(char, x, y);
+                if (y > canvas.height && Math.random() > 0.975) {
+                    yPositions[i] = 0;
+                } else {
+                    yPositions[i] = y + fontSize;
+                }
+            });
+
+            ctx.restore();
+        }
+
+        setInterval(drawMatrix, 50);
+
+        window.onresize = () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        };
+    </script>
+</body>
+</html>
