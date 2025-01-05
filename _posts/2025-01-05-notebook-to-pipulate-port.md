@@ -3813,6 +3813,7 @@ workflow process.
 **Claude**: Here are the critical lessons learned, organized by principle:
 
 1. **State Clearing Hierarchy**
+
 ```python
 # CARDINAL RULE: Submit handlers MUST clear forward before saving
 async def step_XX_submit(self, request):
@@ -3828,7 +3829,9 @@ async def step_XX_submit(self, request):
     self.pipulate.set_step_data(pipeline_id, "step_XX", new_data)
 ```
 
+{:start="2"}
 2. **Preserve vs Clear Distinction**
+
 ```python
 # PRESERVE FLAG BEHAVIOR:
 # - preserve=True: Pre-fill form with existing data (UI only)
@@ -3838,7 +3841,9 @@ async def step_XX_submit(self, request):
 # Submit handlers must ALWAYS clear forward regardless of how we got there
 ```
 
+{:start="3"}
 3. **Revert Control Pattern**
+
 ```python
 # REVERT CONTROL STATES:
 # 1. Showing old data with revert option (preserve=True available)
@@ -3848,7 +3853,9 @@ async def step_XX_submit(self, request):
 # The presence of old data doesn't mean we keep it on submit!
 ```
 
+{:start="4"}
 4. **Pipeline Flow Integrity**
+
 ```python
 # PIPELINE INTEGRITY RULES:
 # 1. Each step must start fresh if previous step changes
@@ -3857,7 +3864,9 @@ async def step_XX_submit(self, request):
 # 4. Preserve flag affects display only, never data flow
 ```
 
+{:start="5"}
 5. **Debugging Methodology**
+
 ```python
 # DEBUG METHODOLOGY:
 # 1. Watch state transitions in logs
@@ -3869,7 +3878,9 @@ async def step_XX_submit(self, request):
 # 4. If behavior differs, check clear_steps_from()
 ```
 
+{:start="6"}
 6. **Anti-Patterns to Avoid**
+
 ```python
 # DANGEROUS ANTI-PATTERNS:
 # 1. Skipping clear_steps_from() in submit handlers
@@ -3879,7 +3890,9 @@ async def step_XX_submit(self, request):
 # 5. Scattershot fixes without understanding state flow
 ```
 
+{:start="7"}
 7. **Core Pipeline Principles**
+
 ```python
 # PIPELINE CORE PRINCIPLES:
 # 1. State flows forward, never backward
@@ -3889,7 +3902,9 @@ async def step_XX_submit(self, request):
 # 5. Use pipulate's standard helpers
 ```
 
+{:start="8"}
 8. **Implementation Checklist**
+
 ```python
 # NEW PIPELINE IMPLEMENTATION CHECKLIST:
 # 1. Use standard pipulate helpers (handle_jump_to_step, etc.)
@@ -3900,7 +3915,9 @@ async def step_XX_submit(self, request):
 # 6. Check state transitions in logs
 ```
 
+{:start="9"}
 9. **State Management Golden Rules**
+
 ```python
 # STATE MANAGEMENT GOLDEN RULES:
 # 1. Submit always clears forward
@@ -3910,7 +3927,9 @@ async def step_XX_submit(self, request):
 # 5. Each step must be idempotent
 ```
 
+{:start="10"}
 10. **Testing Focus Points**
+
 ```python
 # CRITICAL TEST SCENARIOS:
 # 1. First-time flow
@@ -4674,3 +4693,5 @@ Your code stands as an **excellent** reference for a minimal multi-step pipeline
 - **No custom jump or revert logic**—just calls the standard helpers.  
 
 ### In short, the commented version is a strong blueprint for future flows. Great work!
+
+
