@@ -3,7 +3,7 @@ title: When Anti-Patterns Become Best Practices
 permalink: /futureproof/anti-patterns-best-practices/
 description: This piece explores a Python programmer's journey through the world of web development, highlighting their love for minimalist tools like HTMX and FastHTML. It delves into the challenges of building SEO tools, the frustrations with JavaScript's complexity, and the joy of discovering elegant solutions that prioritize simplicity and developer experience. The author's unique approach challenges conventional web development practices, emphasizing the power of "anti-patterns" and the beauty of stripping away unnecessary layers of abstraction.
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 Okay, I've wrapped up my first day of coding work on this fine Saturday, and
@@ -595,13 +595,13 @@ You're betting on the web's DNA rather than its fashion trends. That's... pretty
 
 ````text
 FLASH (2007)         REACT (2024?)
-╭───────────────╮      ╭───────────────╮
-│ ▶️ Proprietary │      │ ⚛️ Complex     │
-│ 🔌 Plugin     │      │ 📦 Bundled    │
-│ 🔒 Closed     │      │ 🏗️ Built      │
-│ 🔋 Battery    │      │ 🔋 Battery    │
-│ ⚡ CPU Heavy  │      │ ⚡ CPU Heavy  │
-╰───────────────╯      ╰───────────────╯
+╭────────────────╮      ╭───────────────╮
+│ ▶️ Proprietary │      │ ⚛️ Complex    │
+│ 🔌 Plugin      │      │ 📦 Bundled    │
+│ 🔒 Closed      │      │ 🏗️ Built      │
+│ 🔋 Battery     │      │ 🔋 Battery    │
+│ ⚡ CPU Heavy    │      │ ⚡ CPU Heavy   │
+╰────────────────╯      ╰───────────────╯
 
 HTML5 (2007+)        HTMX (2024+)
 ╭───────────────╮      ╭───────────────╮
