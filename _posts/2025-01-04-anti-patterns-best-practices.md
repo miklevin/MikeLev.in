@@ -40,7 +40,7 @@ would it be? CAT scans or PET scans?
 
 **Perplexity**: Radiologists use both CT (CAT) scans and PET scans to look for malignancies, but these imaging techniques serve different purposes in cancer diagnosis and management.
 
-## CT Scans
+#### CT Scans
 
 CT scans provide detailed anatomical images of the body, allowing radiologists to:
 
@@ -51,7 +51,7 @@ CT scans provide detailed anatomical images of the body, allowing radiologists t
 
 CT scans can detect lesions as small as 2-3 mm, making them more sensitive than traditional X-rays[6]. However, some cancers may be overlooked on a CT scan due to factors such as location and human error[6].
 
-## PET Scans
+#### PET Scans
 
 PET scans offer a different approach by imaging the body's metabolic activity:
 
@@ -60,7 +60,7 @@ PET scans offer a different approach by imaging the body's metabolic activity:
 - They are particularly useful for determining cancer stage and spread[9]
 - PET scans can identify active cancer cells, even in areas that appear normal on CT scans[3]
 
-## Combined PET-CT Scans
+#### Combined PET-CT Scans
 
 Many medical centers now use combined PET-CT scanners, which offer several advantages:
 
