@@ -4475,4 +4475,202 @@ class StarterFlow:
 
 ...to which o1 Pro updated their comments and analysis:
 
-o1 Pro: 
+**o1 Pro**: Below is a summary of how this **StarterFlow** code reflects the critical lessons learned, along with some commentary. The code itself looks quite solid and consistent now. I’ll highlight where each lesson from the commentary is in effect, and offer a few additional suggestions or observations.
+
+---
+
+## 1. **State Clearing Hierarchy**  
+
+You’ve encapsulated the principle:  
+> “Submit handlers MUST clear forward before saving”  
+
+Specifically in:
+
+```python
+async def step_01_submit(self, request):
+    ...
+    self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+    self.pipulate.set_step_data(pipeline_id, "step_01", {"mykey": user_val})
+    ...
+```
+and no doubt you’d do the same in other flows. This ensures that if the user changes step_01 after previously moving on, it invalidates all subsequent steps.  
+
+**Comment**: Great consistency—**always** clear forward prior to writing new step data.
+
+---
+
+## 2. **Preserve vs. Clear Distinction**  
+
+You have this principle stated in your docstring for `step_01`. For example:
+
+```python
+PRESERVE FLAG BEHAVIOR:
+- preserve=True: Pre-fill form with existing data (UI only)
+- preserve=False: Show revert control instead of form
+...
+```
+
+And in the code:
+
+```python
+if user_val and not preserve:
+    # show revert
+...
+prefilled = user_val if preserve else ""
+```
+
+This is exactly the distinction: the “preserve” query param only affects the form’s initial value. By the time we get to the submit handler, we always call `clear_steps_from(...)` anyway—so the preserve flag doesn’t change how data is actually stored or advanced.  
+
+---
+
+## 3. **Revert Control Pattern**  
+
+Your code demonstrates the standard approach:
+
+```python
+if user_val and not preserve:
+    return Div(
+        self.pipulate.revert_control(...),
+        Div(id="step_02", hx_get=..., hx_trigger="load")
+    )
+```
+
+**Revert control** is shown whenever we have existing data and aren’t in preserve mode. The user can click revert, which triggers the jump logic. Again, your docstring clarifies preserve is about the UI, not about skipping the clearing logic.
+
+---
+
+## 4. **Pipeline Flow Integrity**  
+
+From your docstrings and the commentary:
+
+- Each step is a “fresh start” if the user re-submits a prior step.  
+- Data flows forward only, never sideways.  
+- Submit handlers are indeed the reset points.  
+
+This code consistently applies that by:
+
+1. **Always clearing** forward in `step_01_submit`.
+2. Letting the user revert or preserve data only at the UI level.  
+
+**Effect**: Minimal risk of leftover data messing up your pipeline state.  
+
+---
+
+## 5. **Debugging Methodology**  
+
+You show how you do:
+
+```python
+logger.debug(json.dumps(state, indent=2))
+```
+
+In `get_state_message`. This is an excellent place to see the entire pipeline state at each major transition.  
+
+**Pro Tip**: If you store logs or have a log aggregator, searching for `[pipeline_id] State Check:` helps find each pipeline transition quickly.
+
+---
+
+## 6. **Anti-Patterns to Avoid**  
+
+Your docstring in `init(...)` spells out:
+
+- “Skipping clear_steps_from() in submit handlers”  
+- “Letting preserve flag affect data persistence”  
+- “Scattershot fixes without understanding state flow”  
+
+And the code addresses these by religiously calling `clear_steps_from(...)` in the submit and carefully scoping the preserve usage to UI only.  
+
+---
+
+## 7. **Core Pipeline Principles**  
+
+The big ones:  
+> “State flows forward, never backward… each step is a fresh start after submit… preserve is purely a UI convenience… standard helpers… use handle_jump_to_step…”
+
+All are seen in the code. For example:
+
+```python
+async def jump_to_step(self, request):
+    return await self.pipulate.handle_jump_to_step(
+        request, 
+        self.STEPS, 
+        self.prefix,
+        "starter-container"
+    )
+```
+
+No custom jump logic needed—**less code** and fewer mistakes.
+
+---
+
+## 8. **Implementation Checklist**  
+
+In your docstrings, you enumerated:
+
+1. Use standard pipulate helpers (`handle_jump_to_step`, `clear_steps_from`).
+2. Clear forward in all submit handlers.
+3. Preserve flag only for form display.  
+4. Test revert & resubmit.  
+5. Compare against first-time flow.  
+6. Check logs.  
+
+We can see the code fulfilling each item:
+
+- \#1: yes, you do.  
+- \#2: yes, in `step_01_submit` (and presumably you’d do the same for other steps in bigger flows).  
+- \#3: indeed, preserve never affects the pipeline DB writes.  
+- \#4–6: docstring references, logs, and your recommended testing approach.
+
+---
+
+## 9. **State Management Golden Rules**  
+
+> 1. Submit always clears forward  
+> 2. Display state != Persistence state  
+> 3. Preserve affects display only  
+> 4. Forward flow is one-way  
+> 5. Each step must be idempotent  
+
+These are all reinforced by code comments and the final approach. For instance:
+
+- **Display state != Persistence** is shown in that “preserve mode” only changes what’s pre-filled in the form. The pipeline store is unaffected until the user hits “submit,” at which point the standard clearing + new write occurs.  
+- **Forward flow** is enforced by `clear_steps_from(...)`.  
+- **Idempotent steps** means you can re-trigger `step_01` any time, as you always see the correct state.
+
+---
+
+## 10. **Testing Focus Points**  
+
+Your docstring in `landing(...)` reminds devs to test first-time flow, revert-resubmit, preserve mode, jump to previous step, etc. That’s an excellent “checklist” for verifying no subtle bugs creep in.
+
+**Recommend**: If you eventually add a test suite, you can systematically script these scenarios, capturing the `chat.simulated_stream` outputs to confirm the correct messages appear at each step.
+
+---
+
+## Additional Observations
+
+1. **Custom `_build_placeholders`** vs. `pipulate.generate_step_placeholders`:  
+   - You now rely on `self.pipulate.generate_step_placeholders(...)` in `init(...)` and `finalize_submit(...)`. That’s consistent.  
+   - The old `_build_placeholders` is gone in this version, which is simpler. If you do want more specialized `hx_trigger` logic, you can reintroduce it or pass extra kwargs, but for now “start_from=0” is enough.
+
+2. **Delayed Greeting**:  
+   - The delayed greeting with `asyncio.create_task(...)` is a nice interactive flourish. Just note that if the user instantly enters an ID, they may receive the greeting after they’ve moved on. Possibly that’s fine for your user experience.  
+
+3. **User Feedback**:  
+   - The big advantage of your “verbatim messages” approach is that the user sees simple, direct instructions in the chat feed. That can be less surprising than an AI-based commentary.  
+   - The dryness is good for certain flows—**no** unpredictability.
+
+4. **Expandability**:  
+   - If you add more steps, you can replicate the patterns from step_01 and step_02. Just remember the “clear forward” rule in each `step_X_submit`.
+
+---
+
+## Conclusion
+
+Your code stands as an **excellent** reference for a minimal multi-step pipeline that demonstrates the best practices and the entire **“Preserve vs. Ephemeral”** concept. Each docstring captures the “why,” and the code captures the “how.” 
+
+- **No guesswork** about clearing state.  
+- **No confusion** about the preserve flag.  
+- **No custom jump or revert logic**—just calls the standard helpers.  
+
+### In short, the commented version is a strong blueprint for future flows. Great work!
