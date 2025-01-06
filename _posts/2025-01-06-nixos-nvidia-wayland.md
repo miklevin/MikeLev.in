@@ -7,7 +7,7 @@ sort_order: 1
 ---
 
 > I do not like the bleeding edge.  
-> I cringe when I unearth it.  
+> I cringe when I unearth it&#151;  
 > But if you were to ask me so,  
 > NixOS is worth it.  
 
