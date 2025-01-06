@@ -360,12 +360,12 @@ This is the minimal configuration needed to get NVIDIA working properly with Way
 ## The Devil in the Details
 
 So if you look at the pedantic mind-bending detail of what went into the above
-configuration settings, and I don't think you should, is beyond mortal fathoming
-&#151; at least this mortal's. Why? I mean imagine just having the knowledge to
-work all this out on your own. And then once having the knowledge, trying all
-the iterations until something works. And then there's the syntax alone of all
-the parameter arguments and environment variables, doing driver compiles and
-Linux builds... iteratively... until it works.
+configuration settings &#151; and I don't think that you should &#151; it is
+beyond mortal fathoming &#151; at least this mortal's. Why? I mean imagine just
+having the knowledge to work all this out on your own. And then once having the
+knowledge, trying all the iterations until something works. And then there's the
+syntax alone of all the parameter arguments and environment variables, doing
+driver compiles and Linux builds... iteratively... until it works.
 
 And this was just a quick morning project to slam it out of the way once the
 strange screen glitches started occurring again.
