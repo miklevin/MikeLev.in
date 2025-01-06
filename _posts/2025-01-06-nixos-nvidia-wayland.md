@@ -380,9 +380,13 @@ could manifest during the boot process (which I couldn't believe).
 ### AI as Technical Guide
 
 But the LLMs assured me. They made me believe that Linux and video driver
-kernels that were compiled with improper values absolutely could, first allow
-GPU overheating in the first place, and second their effects to show during that
-low-level boot process. This was not as implausible as I thought.
+kernels that were compiled with improper values actually could allow GPU
+overheating in the first place, and secondly, that their effects actually could
+show up during that low-level boot process. This was not as implausible as I
+thought. I scratched my head and was like, okay if the BLOB's you're compiling
+in a system rebuild are put in those magic locations that get loaded first when
+the hardware is turned on, like MBR (master boot records) of yore, then
+absolutely &#151; head-smack! Software low-level configures hardware!
 
 Of course talking to an artificial intelligence to trouble shoot a problem like
 this seems equally implausible, but there I was doing it. Open minds and pushing
