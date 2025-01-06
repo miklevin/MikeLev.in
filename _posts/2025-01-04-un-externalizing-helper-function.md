@@ -249,11 +249,14 @@ Here are some **small** additions you might make:
 1. **`pipulate.step_ui(...)`**  
    Returns a “show form vs. revert vs. locked” block.  
 
+{:start="2"}
 2. **`pipulate.finalize_ui(...)`**  
    Returns a “finalize or unfinalize” card.  
 
+{:start="3"}
 3. **`pipulate.is_finalized(...)`**  
    You already have this. So you might create an extra method for “finalize step”:
+
    ```python
    def finalize_step(self, url, step_id="step_final"):
        data = self.get_state(url)
@@ -263,6 +266,7 @@ Here are some **small** additions you might make:
        self.save_state(url, data)
    ```
 
+{:start="4"}
 4. **`pipulate.render_revert_control(...)`**  
    You already have `revert_control`, but you might unify how you pass the optional `message`, “locked” state, etc.
 
@@ -663,6 +667,7 @@ whatever decisions I make now.
 ## 2. Move “Magic Numbers” or “Hardcoded Styles” to Class Constants
 
 Example:
+
 ```python
 DEFAULT_BUTTON_STYLE = (
     "background-color: var(--pico-del-color);"
@@ -671,6 +676,7 @@ DEFAULT_BUTTON_STYLE = (
 )
 ```
 Then in your code:
+
 ```python
 style=style or DEFAULT_BUTTON_STYLE
 ```
@@ -687,16 +693,20 @@ style=style or DEFAULT_BUTTON_STYLE
 ## 3. Consolidate “Final Step Is Finalized” Check into `is_finalized()`
 
 You’re already calling `self.is_finalized(url, final_step)`, which is perfect. If anywhere you do:
+
 ```python
 step_data = self.get_step_data(...)
 if "finalized" in step_data:
     ...
 ```
+
 – you can unify it to:
+
 ```python
 if self.is_finalized(url, "step_04"):
     ...
 ```
+
 **No** structural changes—just a small replacement of the condition check.  
 
 **Result**: One-liner if you find it repeated. That’s basically zero risk.
@@ -706,6 +716,7 @@ if self.is_finalized(url, "step_04"):
 ## 4. Helper for “Show or Hide Revert Control”
 
 **If** you find you’re doing:
+
 ```python
 if stepN_data:
     if self.is_finalized(...):
@@ -715,6 +726,7 @@ if stepN_data:
 else:
     return <form>
 ```
+
 **a dozen times**, then a 5–10 line helper function (`step_ui(...)`) can cut that in half. But if you’re still uncertain and out of time, you can just do it the next time you write a new flow. 
 
 **No** immediate rush—**only** do it if you’re sure you won’t break anything.  
@@ -921,17 +933,21 @@ If you foresee zero expansions to finalization logic—like no “`soft_finalize
 ## 6. Lower “Cognitive Overhead” For Future Readers
 
 Right now, you have:
+
 ```python
 if self.is_finalized(url, "step_04"):
     # ...
 ```
+
 A future developer (or LLM) might wonder: “What exactly does that do? Is it searching multiple nested structures, or is it checking a timestamp? Or maybe a `'finalized'` key?” They have to open `pipulate.is_finalized` to see it’s just `'finalized' in step_data`.
 
 But if you have:
+
 ```python
 if "finalized" in step4_data:
     # ...
 ```
+
 The meaning is *immediately obvious* at the call site. There’s zero question or hidden logic.  
 
 **Conclusion**: Fewer layers means less rummaging around the code for basic truths.

@@ -336,6 +336,7 @@ And I ask Claude if there are any redundancies in this?
 **Claude**: Yes, there are several opportunities for improvement in the `Pipulate` class:
 
 1. State Management Redundancy:
+
 ````python
     def get_state(self, url: str) -> dict:
         """Get current state for url"""
@@ -349,9 +350,12 @@ And I ask Claude if there are any redundancies in this?
         state = json.loads(record.data)
         return state
 ````
+
 We could combine these into one method since `get_state` is just a wrapper with error handling.
 
+{:start="2"}
 2. Timestamp Handling:
+
 ````python
     def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> dict:
         # ... 
@@ -367,8 +371,10 @@ We could combine these into one method since `get_state` is just a wrapper with 
         state["updated"] = now
         # ...
 ````
+
 We could create a `_get_timestamp()` helper method.
 
+{:start="3"}
 3. Card/Form Generation:
 ````python
     def revert_control(self, ...):
@@ -562,26 +568,35 @@ So, I'll just feed it this whole article so far today. Claude?
 **Claude**: I understand you want to preserve recent improvements while removing a bug, and you're ready to explore git branching instead of your usual linear time-travel approach. Here's what I suggest:
 
 1. First, create a branch at your current state to preserve all your work:
+
 ```bash
 git branch save-improvements
 ```
 
+{:start="2"}
 2. Then reset to the working commit:
+
 ```bash
 git reset --hard 867b7b9
 ```
 
+{:start="3"}
 3. Create a new branch from this working state:
+
 ```bash
 git checkout -b fix-bug
 ```
 
+{:start="4"}
 4. Now you can cherry-pick the good changes from your `save-improvements` branch. To see what commits you want:
+
 ```bash
 git log save-improvements
 ```
 
+{:start="5"}
 5. Cherry-pick the good commits one at a time:
+
 ```bash
 git cherry-pick <commit-hash>
 ```
@@ -1217,17 +1232,26 @@ git cherry-pick 456def
 ### 2. **Update Your Local `main` First, Then Cherry-Pick**
 
 1. Checkout local `main`:
+
    ```bash
    git checkout main
    ```
+
+{:start="2"}
 2. Merge (or rebase) `origin/main` into local `main`:
+
    ```bash
    git merge origin/main
    # or:
    # git rebase origin/main
    ```
+
+{:start="3"}
 3. Now local `main` has those same newer commits.  
+
+{:start="4"}
 4. Finally, checkout your **fix-bug** branch and cherry-pick from local `main`:
+
    ```bash
    git checkout fix-bug
    git cherry-pick 123abc
@@ -1253,19 +1277,27 @@ Either way works fine. The gist is:
 ## Example Commands (Cherry-Pick From Remote Directly)
 
 1. **Find the commit hashes** you want (e.g., `abc123`, `def456`) by:
+
    ```bash
    git fetch origin
    git log origin/main
    ```
+
+{:start="2"}
 2. **Check out** your fix-bug branch:
+
    ```bash
    git checkout fix-bug
    ```
+
+{:start="3"}
 3. **Cherry-pick** them:
+
    ```bash
    git cherry-pick abc123
    git cherry-pick def456
    ```
+
 4. **Resolve conflicts** if any. Then commit, or `--continue`.
 
 Boom, done. Now your fix-bug branch has the “good” commits from the remote—skipping the problematic commit you didn’t want.
@@ -1452,21 +1484,28 @@ In other words, if `main` is exactly at the old state (before the fixes) and `fi
 ## 3. (Option A) Merge `fix-bug` into `main` Without Rewriting History
 
 1. **Check out `main`:**
+
    ```bash
    git checkout main
    ```
-   
+
+{:start="2"}
 2. **Merge** from `fix-bug`:
+
    ```bash
    git merge fix-bug
    ```
+
    - If `main` is strictly behind `fix-bug`, this might be a **fast-forward merge** (no new merge commit).  
    - If Git can’t fast-forward for some reason (like `main` has diverged?), it will create a merge commit.
 
+{:start="3"}
 3. **Push** your updated `main` to the remote:
+
    ```bash
    git push
    ```
+
    - If your remote main was behind or only had the bug commit, you might need `--force` if you’ve previously rewritten history. Usually a plain `git push` suffices if no rewriting happened.  
    - If you did do a partial rewrite earlier, you might do:
      ```bash
@@ -1474,10 +1513,13 @@ In other words, if `main` is exactly at the old state (before the fixes) and `fi
      ```
      to ensure remote is updated properly, but be cautious about rewriting public history.
 
+{:start="4"}
 4. **(Optional)** Delete the `fix-bug` branch if you’re done with it:
+
    ```bash
    git branch -d fix-bug
    ```
+
    - If you get “not fully merged” warnings, use `-D` but usually in this scenario a standard `-d` works after a successful merge.
 
 At this point, your **`main`** is fully updated with your fix-bug changes. You can continue your linear workflow there.
