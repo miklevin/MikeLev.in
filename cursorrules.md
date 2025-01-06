@@ -35,6 +35,12 @@ complexities.
     # One JSON blob to bind them
     # Card to card the data flows
     # No message queues behind them
+    #
+    # PIPELINE STATE MANTRA:
+    # Submit clears forward
+    # Display shows the past
+    # Preserve affects views
+    # But submit starts fresh
 
     # PATTERNS THAT FEEL WRONG (UNTIL THEY FEEL RIGHT):
 
@@ -104,7 +110,10 @@ complexities.
        name = form.get("name", "")
        pipeline_id = db.get("pipeline_id", "unknown")
        
-       # ONE place to save state
+       # IMPORTANT: Clear forward first!
+       self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+       
+       # Now save new data
        self.pipulate.set_step_data(pipeline_id, "step_01", {"name": name})
        
        # TWO divs returned: current step (completed) + next step (loading)
@@ -126,9 +135,23 @@ complexities.
     ```
     WHY: Finalization is just another piece of state.
 
+    6. **Always Clear Steps Forward on Submit**
+       - Any "submit" route must call `clear_steps_from(...)` before saving new data
+       - This prevents stale data from corrupting subsequent steps
+       - "Preserve mode" is only about **UI** (pre-filling forms) — it never bypasses clearing
+
+    7. **Preserve vs. Ephemeral** 
+       - A step can be "preserve" (show old data in the UI) or "ephemeral" (always blank form)
+       - On submit, both behave identically under the hood: forward steps are cleared
+       - "Preserve" is strictly for user convenience
+
+    8. **Minimal Jump Logic** 
+       - Use `pipulate.handle_jump_to_step(...)` for revert
+       - No custom jump routes that skip clearing or bypass the pipeline record
+
     # MINIDATAAPI REMINDERS:
 
-    6. **The Table is Your Friend**:
+    9. **The Table is Your Friend**:
     ```python
     # DON'T DO THIS:
     class Pipeline(BaseModel):
@@ -147,7 +170,7 @@ complexities.
     }
     ```
 
-    7. **State Lives in the Blob**:
+    10. **State Lives in the Blob**:
     ```python
     # DON'T DO THIS:
     workflow_state = {}
@@ -425,3 +448,50 @@ complexities.
     like an Electron or Jupyter environment that uses Python, not an enterprise 
     hosted web app. Focus on clarity, single-user flows, and code that an LLM or a 
     DIY dev can parse at a glance without hidden complexities.
+
+    # REFERENCE IMPLEMENTATION: StarterFlow
+    See botifython/botifython.py:StarterFlow for working examples of these patterns.
+
+    # PIPELINE CORE PRINCIPLES (from StarterFlow):
+    1. State flows forward, never backward
+    2. Each step is a fresh start after submit 
+    3. Preserve is for UI convenience only
+    4. Submit handlers are state reset points
+    5. Use pipulate's standard helpers
+
+    # IMPLEMENTATION CHECKLIST:
+    1. Use standard pipulate helpers (handle_jump_to_step, etc.)
+    2. Clear forward in ALL submit handlers
+    3. Preserve flag only affects form display
+    4. Test revert-and-resubmit behavior 
+    5. Compare against first-time flow
+    6. Check state transitions in logs
+
+    # DANGEROUS ANTI-PATTERNS:
+    1. Skipping clear_steps_from() in submit handlers
+    2. Letting preserve flag affect data persistence
+    3. Assuming old data means keep old data
+    4. Custom jump handlers instead of pipulate.handle_jump_to_step()
+    5. Scattershot fixes without understanding state flow
+
+    # STATE MANAGEMENT GOLDEN RULES:
+    1. Submit always clears forward
+    2. Display state != Persistence state  
+    3. Preserve affects display only
+    4. Forward flow is one-way
+    5. Each step must be idempotent
+
+    # TESTING SCENARIOS:
+    When implementing a new flow, test these critical paths:
+    1. First-time flow
+    2. Revert and resubmit  
+    3. Preserve mode submit
+    4. Jump to previous step
+    5. All should behave identically after submit
+
+    # PRESERVE VS EPHEMERAL STEPS:
+    See StarterFlow for examples of both:
+    - step_01: Preserve mode (shows old data if preserve=true)
+    - step_02: Ephemeral mode (always fresh form)
+
+    Remember: The difference is UI-only. Both types MUST clear forward on submit.
