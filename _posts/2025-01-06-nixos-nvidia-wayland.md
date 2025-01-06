@@ -1,7 +1,7 @@
 ---
 title: NixOS Nvidia Wayland Support
 permalink: /futureproof/nixos-nvidia-wayland/
-description: This article explores my journey from creating a portable Linux solution called Levinux to embracing NixOS and overcoming its challenges. I delve into the technicalities of resolving NVIDIA/Wayland graphics issues on NixOS, highlighting the role of AI assistants in troubleshooting. The article emphasizes NixOS's declarative approach, enabling safe experimentation and system configuration reproducibility. It concludes by reflecting on how our computing environments become extensions of ourselves, with NixOS offering a consistent and reliable platform for technological progress.
+description: This article explores my journey from creating a portable Linux solution called Levinux to embracing NixOS and overcoming its challenges. I delve into the technicalities of resolving NVIDIA/Wayland graphics issues on NixOS, highlighting the role of AI assistants in troubleshooting. The article emphasizes NixOS's declarative approach, enabling safe experimentation and system configuration reproducibility.
 layout: post
 sort_order: 1
 ---
