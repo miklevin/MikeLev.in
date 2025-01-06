@@ -432,7 +432,7 @@ Unix/Linux terminal (aka command-line console where you type commands instead of
 double-clicking icons), it's not long before laziness kicks in and you want to
 use the `alias` feature to make those long commands short. Well, if you put
 those `bash shell` (yes, yet another way of referring to the CLI) in your
-`configuration.nix` file, then your aliases are with you for life.
+`configuration.nix` file, then ***your aliases are with you for life.***
 
 ### Portability and Permanence
 
