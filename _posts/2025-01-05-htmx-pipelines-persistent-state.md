@@ -1,7 +1,7 @@
 ---
 title: "Mastering HTMX Pipelines: A Starter Flow with Persistent State"
 permalink: /futureproof/htmx-pipelines-persistent-state/
-description: 
+description: In this article, we explored the process of creating a minimal HTMX pipeline with persistent state, using o1 Pro as an AI coding assistant. We started with a simple two-card flow and gradually refined it, learning valuable lessons about state management, the importance of clearing forward in submit handlers, and the distinction between preserve mode and ephemeral steps. The final `StarterFlow` code serves as a robust blueprint for building more complex pipelines, showcasing best practices and effective state management techniques.
 layout: post
 sort_order: 1
 ---
