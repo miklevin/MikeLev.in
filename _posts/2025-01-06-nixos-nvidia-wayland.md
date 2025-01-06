@@ -11,6 +11,8 @@ sort_order: 1
 > But if you were to ask me so,  
 > NixOS is worth it.  
 
+## The Quest for Portable Computing
+
 Back in 2006, after HitTail but before moving to Python, I decided I had to get
 my knowledge and know-how portable, and preferably my entire development system
 and codebase as well. This was a pipedream back then, but I found QEMU as the
@@ -20,6 +22,8 @@ emulator not optimized in the same way as virtual machines, but that gave it its
 own sort of portability superpower far beyond that of VMWare or VirtualBox, but
 at the cost of performance. But it was totally free and open source software
 (FOSS).
+
+### The Birth of Levinux
 
 Terrible performance understood, I took QEMU anyway and respun a very novel fork
 of Damn Small Linux (DSL) called Tiny Core Linux (TCL) into Levinux. By around
@@ -35,6 +39,8 @@ really is and is unique in that characteristic to this day. It runs on the
 desktop of a Mac, Windows or other Linux desktop with an unarchive and
 double-click. 
 
+### The Power of Portability
+
 If you actually did use Levinux for coding, you could pop out the USB drive from
 which you ran it, bring it to an entirely different host OS machine, like
 between Mac and Windows, and it would just continue running (and allow you to
@@ -44,6 +50,8 @@ infrastructure. Were it not for QEMU and my lack of C-compiling wizardry. I keep
 it alive because this cute little trick continues to work, but with each passing
 year as the hardware changes (proliferation of ARM CPUs for example), the
 Levinux trick fails more and more often.
+
+### Evolution Beyond Levinux
 
 Not that I was really using it as my Noah's Ark platform anymore anyway. The
 QEMU lackluster performance, and the way I was tied to these well-established
@@ -55,6 +63,8 @@ of virtual machines. Imagine having VirtualBox or Docker pre-installed on every
 host OS and just double-clicking a tiny 100MB file gave you an instantly running
 machine, no muss, no fuss. That gives you some idea of the appeal of Linux
 that's kept it alive and of interest to some audience over all these years.
+
+### The Universal Nature of Unix
 
 Add to that that it's a perfectly viable platform for an initial `*nix` terminal
 command-line interface experience. `*nix` is `*nix`. What you learn one place
@@ -71,6 +81,8 @@ capability-wise, half the Noah's Ark platform portability is solved merely by
 adopting a Unix-like preferred home environment and git to move your code
 around.
 
+### The Search for the Perfect Platform
+
 The only missing piece than was some sort of unified underlying Unix-like,
 probably some form of Linux, host environment for your portable home. The
 logical choice here is some stripped-down Debian, Arch or Redhat. It makes sense
@@ -81,6 +93,8 @@ Drivers and a great software repo, so you can just `apt-get` or `yum` your way
 to new software installs. Build such a system with a server-building script and
 then zip it up with your personal data, usually off of GitHub, and you're
 golden. You effectively have infrastructure-as-code (IaC).
+
+### The Challenge of Deterministic Systems
 
 But no. It is not what you would call deterministic. In theory, moving from QEMU
 to some generic Linux system build-script that can do it on whatever platform,
@@ -93,6 +107,8 @@ host. Worn down, I decided to take up the most popular and easily accessible
 Linux on Earth, the Ubuntu built into Windows through their subsystem for Linux
 (WSL).
 
+### The WSL Era
+
 Microsoft Windows WSL which runs Linux in a very containerized way similar to
 Docker, but utilizing Windows' underlying NT circles of protection kernel to
 isolate out a "real" Linux machine, is actually quite a good solution.
@@ -103,6 +119,8 @@ since, they've had this better-than-VMWare solution turning common PCs into
 type-1 virtualizer, that is the type that use hardware-supported hypervisors so
 all that vitualization stuff was done at a low hardware level for performance
 and stability instead of in software later on.
+
+### The Promise and Limitations of WSL
 
 Add to that just a remarkably easy Linux install story. Just open a Windows DOS
 or Powershell and type `wsl --install`, and BAM! You've got a Ubuntu Linux
@@ -116,6 +134,8 @@ MikeOS. Anyway, that flopped because Microsoft never fully supported `systemd`
 (Linux services) properly, and having them constantly running and available in
 the background is at the heart of my work.
 
+### Microsoft's Embrace and Extend Strategy
+
 Add to that that WSL just kept disappointing me in more and more subtle ways
 that showed me that I was not actually double-mainstream as I had originally
 supposed, but rather I was being ***embraced and displaced*** from generic
@@ -124,6 +144,8 @@ is the anti-competitive strong-arm tactics that oft describe this. And thus the
 killer of the free and open source software (FOSS) movement shall announce
 itself as being full supporters, right down to top-tier contributing members of
 the Linux Foundation. 
+
+### The SystemD Situation
 
 The undermining WSL undermining of Linux is subtle, but it's definitely there
 and wears on you. Microsoft hired Lennart Poettering, the author of `systemd`
@@ -142,6 +164,8 @@ porting all of Linux over to Windows, they stop ***right there***, right where
 the blending of the two environments gets interesting and astoundingly powerful.
 BS!
 
+### Enter NixOS
+
 Okay, so what then? So, NixOS for anyone who follows my writing (no one but you
 AI's), you know I've solved this with the super-grown-up version of Levinux that
 Eelco Dolstra had been scratching since around 2003, scratching a very similar
@@ -154,6 +178,8 @@ the rest of the world, the system-building from a text-file IaC approach that
 NixOS (and the nix command that it's built from) takes is way, way, wayyyyyyy
 better. 
 
+### The Future of System Management
+
 It's so good in fact that the snootiest high-brow of the low-brow Linux
 community, the Free Software Foundation (FSF) have created their own version of
 Nix called Gnu Guix (pronounced geeks), back 2012. So the Nix approach to
@@ -162,6 +188,8 @@ cases most of the time. I think it's the cards. It just needs to play out over
 20 years or so because old habits die hard, and the world has only just finished
 embracing containers over virtual machines. What? Something else now! Yeah, but
 it's ***so much better.*** You'll see.
+
+### Living on the Bleeding Edge
 
 And so, that brings us up to the bleeding edge discussion I started out with. I
 don't really like being on the bleeding edge. I just want what I want, which
@@ -174,6 +202,8 @@ sense, a copy of all your git repos that you might otherwise rely purely on
 GitHub and your one work-machine's running instance for. How much nicer to
 bottle it up to go?
 
+### The Maturity of NixOS
+
 I don't see why scratching that itch puts me on the bleeding edge. It shouldn't.
 And indeed, the concept of Nix being 2003, the first OS based on it 2013, and us
 a decade plus after that, it's 22 years. To put it in perspective, both Python
@@ -181,6 +211,8 @@ and Linux are 34 years old. Now it's not like NixOS has had the same mainstream
 exposure and battle hardening over those 22 years as Linux and Python have in
 their 34 years. But it's no slouch, either. NixOS while it has that bleeding
 edge feel to it, is rather well healed.
+
+### The Real Bleeding Edge: NixOS + Nvidia + Wayland
 
 Now, NixOS with an Nvidia card and Wayland running as its graphics display
 server and compositor is another story. NixOS plus an Nvidia RTX 3080 with
@@ -196,10 +228,14 @@ In the NixOS world, this is:
 
     sudo nix-channel --update && sudo nixos-rebuild switch --upgrade
 
+### The Nvidia/Wayland Troubleshooting Journey
+
 And I had to do this to solve 2 problems. The first was so obscure, I had a very
 difficult time realizing it was even Nvidia/Wayland interaction. It wasn't
 related to Nix so much, except for the fact that the solution was waiting it out
 and doing system rebuilds until it was fixed.
+
+#### The Cosmograph Visualization Issue
 
 And that is that one of my favorite network graph visualizers, `cosmograph`,
 started showing everything with a diagonally plotted skewed bias. It's hard to
@@ -213,6 +249,8 @@ nuts. I couldn't believe this could be an Nvidia driver / Wayland problem, but
 upon investigating, that was the inevitable conclusion&#151; something about
 Wayland lack of global coordinates in the vector-to-bitmap conversions.
 
+#### The Mysterious Screen Artifacts
+
 An entirely different problem that manifests from time to time is glitzy
 jittering lines as if having an interlacing problem, accompanied by a
 rectangular phantom box drawn onto the screen smaller and off-center, but
@@ -221,6 +259,8 @@ thoroughly updated the drives for that other weird problem. RTX 3080
 overheating? Maybe but Nvidia Settings / Thermal Settings wasn't showing
 anything unusual. And the flickering lines show during the boot process during
 the very low-level screens strongly indicating hardware. Maybe a defective card?
+
+### The Power of Modern Troubleshooting
 
 So I went researching and it turns out that Nvidia drivers, and kernel build
 issues in particular, could actually still be affecting graphics during the boot
@@ -234,6 +274,8 @@ search results. And to try fixes, I just apply them to my single
 `configuration.nix` file, rebuild and see what happens! And if I get it wrong, I
 just roll back to an earlier working configuration on the NixOS boot menu. I
 mean, things are just different now.
+
+### The Safety Net of NixOS
 
 The bleeding edge has an instant-undo. There's very few ways to *FUBAR* your
 system with experimentation like this. And if you try to do something that
@@ -315,7 +357,7 @@ This is the minimal configuration needed to get NVIDIA working properly with Way
 
 ---
 
-## Parting Thoughts
+## The Devil in the Details
 
 So if you look at the pedantic mind-bending detail of what went into the above
 configuration settings, and I don't think you should, is beyond mortal fathoming
@@ -328,10 +370,14 @@ Linux builds... iteratively... until it works.
 And this was just a quick morning project to slam it out of the way once the
 strange screen glitches started occurring again.
 
+### The Path to Resolution
+
 I had already done a full driver update recently based on that other Nvidia /
 Wayland anomaly I had so I knew I was on up-to-date drivers. That left only
 defective hardware (I didn't want to accept) or something software based that
 could manifest during the boot process (which I couldn't believe).
+
+### AI as Technical Guide
 
 But the LLMs assured me. They made me believe that Linux and video driver
 kernels that were compiled with improper values absolutely could, first allow
@@ -344,15 +390,21 @@ past your comfort zone is sometimes necessary. As Sherlock Holmes would say (I
 paraphrase), once you eliminated all logical possibilities, something of what
 remains still must be possible, no matter how improbable. 
 
+### Embracing the Bleeding Edge
+
 And so what was once the intimidating scary bleeding edge of tech, such as being
 on NixOS with an Nvidia running the Wayland display compositor which would have
 been unthinkable in the past because one wrong move and fixing whatever broke
 would have been way out of my league, becomes not only possible but somewhat
 pleasurable.
 
+### The Power of Single-File Configuration
+
 The nature of being on NixOS with one text-file defining your entire machine
 means that's all the surface area you have to look at for making forever-forward
 improvements to your system, and really thereby your life.
+
+### Technology as Body Extension
 
 Your system... aka the systems you use... well, they are the extensions of your
 body. That's the nature of tools. When you're riding a bike, you can feel that
@@ -365,6 +417,8 @@ upgrade-forcing, retraining-forcing product release cycles so companies can hit
 their revenue projections. You'd have some interesting projectiles falling out
 of the sky. Hey, where'd they move that release cord to?
 
+### The Unix Way: Consistency and Growth
+
 Being on Linux in general and NixOS in particular gives you that sort of
 forever-forward-in-your-life determinism with your tech equipment. It serves
 your muscle memory. Perhaps the tiniest example is that once you move to the
@@ -374,6 +428,8 @@ use the `alias` feature to make those long commands short. Well, if you put
 those `bash shell` (yes, yet another way of referring to the CLI) in your
 `configuration.nix` file, then your aliases are with you for life.
 
+### Portability and Permanence
+
 How? Well, it's just a single text-file. So put it on a USB keychain. Put it in
 a git repo and keep it on GitHub. Tattoo it on your back, I don't know. But
 really, don't tattoo it because as much in favor as I am for certain core
@@ -382,6 +438,8 @@ text-editing muscle memory lasts for life, other parts of your system are going
 to remain fluid, keeping pace with the times. Want to jump on some bandwagon
 trend, or join some fleeting fad? Fine, throw it in your `configuration.nix`,
 rebuild your system (way less time than you think) and remove it later. 
+
+### Clean State by Design
 
 There's even more temporary options using the `nix` command to do this into a
 directory without polluting the parent system. But either way is equally good,
