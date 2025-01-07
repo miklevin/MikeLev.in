@@ -63,13 +63,18 @@ group: home
 
 ### Tech Journal & AI Experiment 
 
-I'm building something exciting: an open-source tool called Pipulate that
+I'm building something exciting: an open-source SEO tool called Pipulate that
 combines these classic tools with modern AI. It's a simple Python framework that
 harnesses AI's power while staying lightweight and hackable. This site documents
 the journey. Each post explores the intersection of timeless tech skills and
 emerging AI capabilities. I'm creating a living knowledge base that grows
 smarter over time &#151; and sharing everything I learn along the way. Let's all
 jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
+
+> Fair warning: the articles below are stream of consciousness and not for
+> the feint of heart. Distilling it with the help of AI into a forever well
+> organized organically growing book is one of the projects you'll witness
+> taking place here.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
