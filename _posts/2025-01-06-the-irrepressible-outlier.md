@@ -14,13 +14,16 @@ passing across that meaningless number boundary that somehow still has so much
 meaning, when everyone was partying like it was 1999. There was Internet. We had
 digital since about 1975, three-quarters through the previous century. Yes, we
 had it before then, but that was the Atari 2600 VCS game console, which got it
-into so many peoples' homes, and those are the games that thawed the AI-winter,
-and that's the iconic poster-console of the retro gaming movement. Hey, wanna
-see the founder of Atari's, Nolan Bushnell's business card? I've got one. He
-handed it to me... when he was working for Commodore. And this is at the time
-when the founder of Commodore, Jack Tramiel, had been kicked out and went to
-work for Atari. And here I am working on web frameworks in my mid-50s having
-hardly saved a dime in my life, but being right in the thick of the action!
+into so many peoples' homes.
+
+Interestingly, those Atari games are also the same ones that much more recently
+helped thaw out the AI-winter. And even more recently, Atari became iconic
+poster-console of the retro gaming movement. Hey, wanna see the founder of
+Atari's, Nolan Bushnell's business card? I've got one. He handed it to me...
+when he was working for Commodore. And this is at the time when the founder of
+Commodore, Jack Tramiel, had been kicked out and went to work for Atari. And
+here I am working on web frameworks in my mid-50s having hardly saved a dime in
+my life, but being right in the thick of the action!
 
 ![Nolan Bushnell's Commodore Business Card](/images/nolan-bushnell-commodore-business-card.jpg)
 
