@@ -71,11 +71,11 @@ emerging AI capabilities. I'm creating a living knowledge base that grows
 smarter over time &#151; and sharing everything I learn along the way. Let's all
 jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
 
+### The Tech Journal
+
 > These are stream of consciousness articles and not for the feint of heart.
 > Distilling it with the help of AI into a forever well-organized organically
 > growing book is one of the projects you're witnessing taking place here.
-
-## The Tech Journal (You've Been Warned)
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
