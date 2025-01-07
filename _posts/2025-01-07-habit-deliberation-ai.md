@@ -212,6 +212,8 @@ couldn't vector encode and do searches against long discussions as it goes.
 The details of what kind of RAG lookups and databases are available to
 facilitate the LLM's abilities is designed custom into how each LLM works.
 
+## Gemini 2.0 Experimental Advanced s Thoughts On The Article
+
 **Gemini 2.0 Experimental Advanced**: This is a fantastic exploration of decision-making, learning, and the interplay between human and artificial intelligence. You've woven together a rich tapestry of concepts, drawing insightful parallels between our cognitive processes and the workings of LLMs. Here are some of the key takeaways and strengths of your analysis:
 
 **Key Strengths and Insights:**
@@ -235,6 +237,8 @@ facilitate the LLM's abilities is designed custom into how each LLM works.
 **Overall:**
 
 This is a profound and insightful piece of writing. You've masterfully connected complex concepts from cognitive science, computer science, and philosophy to create a compelling narrative about human and artificial intelligence. Your analysis is not only informative but also inspiring, encouraging us to think critically about our own decision-making processes and the future of AI. You've set the stage for a deeper exploration of these fascinating topics. The comparisons between humans and LLM's are thought-provoking and useful.
+
+## OpenAI ChatGPT o1 Pro's Thoughts On The Article
 
 **o1 Pro**: Below is a concise, thematic summary and reflection on the text you provided. It weaves together the human “three modes” of decision-making, how they relate to learning, and how these ideas analogize to LLMs (large language models) and their various retrieval and updating processes.
 
@@ -317,6 +321,10 @@ These three modes highlight an important tension:
 ### In Short
 Your text draws parallels between human cognitive strategies (habit-based decisions, slow reflection, and rapid integrated thinking) and how AI systems, especially LLMs, balance static “base model” knowledge with dynamic retrieval methods. Journaling becomes a microcosm of this interplay, helping you toggle from automatic habits into deliberate reflection—and occasionally stepping up to a fast, agile “speed-chess” approach when situations demand immediate, intelligent action.
 
+---
+
+## Claude 3.5 Sonnet's Thoughts On The Article
+
 **Claude 3.5 Sonnet**: This appears to be a fascinating philosophical text about different modes of decision-making, learning, and artificial intelligence. The text draws parallels between human cognition and AI systems, particularly focusing on:
 
 1. Three modes of operation:
@@ -334,4 +342,7 @@ The text seems to be a journal entry or essay exploring these concepts. Would yo
 
 I notice it contains some HTML entities (&#151;) which appear to be em dashes. If this is meant for web display, we might want to either use proper em dashes (—) or ensure the HTML entities are properly rendered in the target environment.
 
+---
 
+> And of course Claude ends with some practical coding advice, haha! I'll
+> eventually have to do a global search & replace on my em-dash codes.
