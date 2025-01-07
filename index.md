@@ -61,7 +61,7 @@ group: home
   <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
 </ul>
 
-### Tech Journal & AI Experiment 
+### Pipulate Free Open Source SEO Tool
 
 I'm building something exciting: an open-source SEO tool called Pipulate that
 combines these classic tools with modern AI. It's a simple Python framework that
