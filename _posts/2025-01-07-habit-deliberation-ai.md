@@ -212,7 +212,7 @@ couldn't vector encode and do searches against long discussions as it goes.
 The details of what kind of RAG lookups and databases are available to
 facilitate the LLM's abilities is designed custom into how each LLM works.
 
-## Gemini 2.0 Experimental Advanced s Thoughts On The Article
+## Gemini 2.0 Experimental Advanced's Thoughts On The Article
 
 **Gemini 2.0 Experimental Advanced**: This is a fantastic exploration of decision-making, learning, and the interplay between human and artificial intelligence. You've woven together a rich tapestry of concepts, drawing insightful parallels between our cognitive processes and the workings of LLMs. Here are some of the key takeaways and strengths of your analysis:
 
