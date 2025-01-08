@@ -56,10 +56,12 @@ a taste for something that wasn't VMs and wasn't containers, but was much more
 like a retro game console cartridge, or what I came to know as the Raspberry Pi
 SD-cards. And while the concept of a server-build script wasn't quite there yet,
 there was this wonderful Unix-like AmigaDOS operating system and a standard
-`startup-sequence` that gave me a nice preview of Unix universiality &#151;
-different than the Coleco Adam's utterly proprietary and dead-end EOS
-(Elementary Operating System) and OS-7 operating systems.
+`startup-sequence` that gave me a nice preview of Unix universiality. 
 
+Although technically AmigaOS was based on TRIPOS and not Unix, it was still very
+Unix-inspired and plenty of the know-how I got from my Amiga days carried over
+when I took up Linux &#151; different than the Coleco Adam's utterly proprietary
+and dead-end EOS (Elementary Operating System) and OS-7 operating systems.
 
 ## Modern System Management
 
