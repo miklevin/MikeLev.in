@@ -65,7 +65,7 @@ there was this wonderful Unix-like AmigaDOS operating system and a standard
 `startup-sequence` that gave me a nice preview of Unix universiality. That
 universal underlying OS is an important step towards a generic
 infrastructure-as-code (IaC) system like `nix` that lets you deterministically
-build your whole system (`nixOS`) from a script.
+build your whole system (`nixOS` plus apps) from a script.
 
 #### The Unix Connection
 
