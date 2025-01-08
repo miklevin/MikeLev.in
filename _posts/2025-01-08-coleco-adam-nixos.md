@@ -34,6 +34,8 @@ Arguably, I've been fighting this problem for 40 years ever since my first compu
 
 ### The Commodore Amiga Era
 
+#### The Two-Disk Boot System
+
 It turns out that the lessons I learned from the second computer after that, the
 Commodore Amiga were as useful as the Coleco Adam's lessons were unuseful. The
 whole system got loaded from disk right down to the kernel. First, Kickstart.
@@ -43,6 +45,8 @@ which would've had to have been upgraded constantly anyway. With two disks, they
 could change the personality of the machine right down to the lowest level on
 every operating system upgrade.
 
+#### Flexible System Configuration
+
 And such, an Amiga user could have radically different systems based on their
 start disks. Yes, this was typically before even hard drives were commonly
 available. A hard drive was a luxury. So if you were using a large program, it
@@ -51,12 +55,16 @@ you were gonna be doing a lot of disc swapping every time it needed to retrieve
 something from the operating system while you were using the third-party
 program.
 
+#### Early Seeds of Modern Systems
+
 This complete personality-shifting of the Amiga based on the boot disks gave me
 a taste for something that wasn't VMs and wasn't containers, but was much more
 like a retro game console cartridge, or what I came to know as the Raspberry Pi
 SD-cards. And while the concept of a server-build script wasn't quite there yet,
 there was this wonderful Unix-like AmigaDOS operating system and a standard
 `startup-sequence` that gave me a nice preview of Unix universiality. 
+
+#### The Unix Connection
 
 Although technically AmigaOS was based on TRIPOS and not Unix, it was still very
 Unix-inspired and plenty of the know-how I got from my Amiga days carried over
