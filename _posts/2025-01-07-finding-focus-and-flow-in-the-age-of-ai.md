@@ -1,16 +1,20 @@
 ---
 title: "Pipeline Dreams: Finding Focus and Flow in the Age of AI"
 permalink: /futureproof/finding-focus-and-flow-in-the-age-of-ai/
-description: 
+description: Join me on a personal exploration of the power of pipelines, not just as technical tools, but as a philosophy for navigating the complexities of work and life in the digital age. We'll delve into the challenges of staying focused, the importance of self-management, and the delicate balance between human intuition and AI-driven automation. Get ready to discover how pipelines can help you find clarity, control, and a renewed sense of purpose in a world of ever-increasing demands.
 layout: post
 sort_order: 1
 ---
+
+## The Power of Pipelines
 
 The whole point of the pipeline is to focus. It promotes linear procedures and
 prescribed workflows. We bottle-up best-practices and grab you by the scruff of
 the neck and lead you along the righteous path to carry them out, no muss no
 fuss, no decision fatigue, not cognitive overload or paralysis through analysis.
 Just Step 1, Step 2, Step 3... Continue until done.
+
+## Switching Contexts
 
 But now I'm back in service the client mode, and I'm a bit shaky. What's my
 linear process here?
@@ -29,6 +33,8 @@ Create things that the account management people on our side and the
 stakeholders on the client side can run up the flagpole and show as meaningful
 accomplishments, or at least continuous forward progress.
 
+### Balancing Multiple Roles
+
 And so the pipeline is just in the back of my mind as I switch hats to being the
 type of domain expert whose domain expertise is deconstructed and reconstructed
 into those pipeline workflow processes.
@@ -39,6 +45,8 @@ without interfering with the actual work. Or is that correct? Is that part of
 putting my domain expertise hat on, or is that unnecessarily mixing concerns?
 Ugh, that's the vibrating edge I talked about in the previous article. That's my
 burden to bear: doing both!
+
+## My Workspace Organization
 
 And now for the commitment and consistency piece. Articles like this one I'm
 writing right now starts out on Screen 1 of my 7-screen configuration with
@@ -54,12 +62,16 @@ journal "to the right" and the Client Notes in the middle.
 - [work]
 - Tech Journal (this), Screen 7
 
+### The Writing Process
+
 Things start out in the freeform journal so I feel uninhibited and can dredge up
 whatever needs dredging. But then I let the process guide me, and I get into
 different zones or flow-states, depending. In this case I am deliberately
 guiding myself to get into the Drucker/Deming flow state. The mission of any
 company or organization is to get and keep customers, and you do that through an
 ongoing process of total quality management from the trenches up.
+
+### Managing Personal Tendencies
 
 And I'm certainly an in-the-trenches sort of guy. The fact that I hate the
 management side of this so much is one of the total quality management (TQM)
@@ -68,6 +80,8 @@ become the sort of [architecture astronaut Joel Spolsky warns
 about](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/).
 That is my predisposition, so I've got to use this journal to continuously rein
 myself back in and stay on rails &#151; those pipeline rails!
+
+## The Power of Public Commitment
 
 And that gets to the Robert Cialdini principle of (public) commitment and
 consistency. There's no surer way than to sigh a petition you know your
@@ -124,11 +138,15 @@ Lofty goals, but start humble. Where was I? Oh yeah, the linear process!
   - Reset existing tabs to good start-points for call
   - Order them to reflect the story-telling
 
+## Preparing for Client Meetings
+
 Okay, this is really good. My weakness is agency small-talk. I like when I have
 account management people on this to take care of humanizing things a bit. It's
 fine for me to be me. I do rub some people the wrong way I know, so really
 always be concessionary. Always step back. Try to under-speak but be
 over-prepared.
+
+### Managing Browser State
 
 Okay that state with open tabs in the browser is pretty precious. Check Chrome
 features: yep! There's bookmark all tabs. Use it. Done! Haha, the meeting was
@@ -139,6 +157,8 @@ Funny thing, I can now close all those tabs freely without any fear of loss of
 that special state of being prepared for the meeting by virtue of the open tabs.
 There's something immensely important there to capture.
 
+### Linear Workflows and Storytelling
+
 Okay, so this article is about staying on track. It's about making that track
 linear. It's about grabbing some one by the scruff of the neck... there ought to
 be a better expression... take control of the situation, decisively guide, steer
@@ -147,6 +167,8 @@ firmly... yeah, okay. I like steer firmly.
 These are workflows that firmly steer the user along linear paths. And there's a
 lot of stuff that has to do with popping up the web browser given data filled
 into a form... namely, a list!
+
+### Client Call Reflections
 
 Okay, yeah. My client calls are done for the day. The first big one that I lead
 was cancelled and the second one where I'm just a contributing voice went really
@@ -157,6 +179,8 @@ opened left-to-right that tell the story of the call, so that it's rigged for
 success before you even begin screen-sharing and so that there's no fumbling
 around during the call for that particular link you need.
 
+### Pipeline System Implementation
+
 And this is a perfect application for the pipeline system.
 
 I am thinking ahead to implementing it based on the outline above. At some
@@ -164,6 +188,8 @@ point, there's going to be an agenda. But I am going to be sorely tempted to
 allow going back in the pipeline to change values without wanting to erase
 everything that comes after it. However, that's not how these are designed, and
 I am going to resist that. The agenda should be a final output item.
+
+#### Key Design Considerations
 
 This can start out much like the LinkGraphFlow, where you put in a project URL.
 But I don't want to hit those primary key issues! Ugh, okay think! 80/20-rule!
@@ -294,6 +320,8 @@ All local, all minimal, all in tune—like a jam band that respects the hush. Th
 
 ---
 
+## Pipeline Instantiation
+
 Ah, so you can see that spinning up a new pipeline is a thing, then?! That was
 immediately obvious to you, good! And there's 2 notions of spinning up a new
 pipeline. One is designing a new one by say copy/pasting StarterFlow with a new
@@ -307,6 +335,8 @@ then we link it into the menu and layout, and it's live and non-developers can
 start using it as a sort of Jupyter Notebook on rails. Easy peasy, simple as
 that.
 
+## Single File Philosophy 
+
 Now comes the tricky part, creating those new classes as a developer. You
 already noted several times the one key thing, which is how unwieldy one long
 file could potentially get. But not really. Not to me. I'm a vim/NeoVim user so
@@ -317,6 +347,8 @@ further, I love the idea of just copy/pasting the whole friggin framework into
 one of you super-big-token-window models so there's never any question of
 whether you're looking at the whole thing. You always are! (but for external
 libraries, which you're probably trained on anyway).
+
+## Building GapAnalysisFlow
 
 So what I want to do is to make GapAnalysisFlow, and start building it up a
 little at a time. First, I want to use a textarea field just like OneCardFlow,
@@ -331,6 +363,8 @@ trained on, and you try to be overly helpful reverting to those patterns and
 regressing functionality instead of sticking to near-perfect abiding by the
 conventions that are in place. This is the reason for much of what you find in
 the .cursorrules file.
+
+## Implementation Request
 
 So my request to you is to take this code of OneCardFlow:
 
@@ -885,6 +919,8 @@ done. Please and thank you!
 
 ---
 
+## First Pass Success, Follow-up Challenges
+
 o1 Pro did a great first pass, then piddled out. These follow-up queries to
 hammer out the details were not nearly so successful as the first one. But
 Claude 3.5 Sonnet was able to step correctly, with the more in-context and rapid
@@ -892,6 +928,8 @@ back-and-forth of the Cursor AI interaction rhythm to hammer out the tiny
 details that were still wrong. Specifically, I had to move a local `_fmt`
 function from the `OneCardFlow` class into the `Pipulate` class as a helper
 function. And the rest fell into place easily.
+
+## Managing LLM Chain of Thought
 
 The lesson learned here is one in how to manage LLM models that self-prompt with
 that back-and-forth chain of thought ping-pong reasoning that they do. This is
@@ -902,6 +940,8 @@ have to tell it the mistakes it made last time with examples and tell it to
 specifically not make those mistakes again, and to specifically include the
 little details one might think of as cosmetic that it likes to drop out.
 
+## Computational Costs and Model Differences
+
 Sam Altman and others make a point of how computationally and electrically
 expensive this next level of reasoning is. There's a distinction here between
 normal o1 (previously o1 Preview) and o1 Pro which is only available on the
@@ -910,11 +950,15 @@ to o1 Pro. You can just feel the GPU-heat emanating across the interwebs at you
 with every o1 Pro prompt, so it's not for casual back-and-forth. And apparently,
 it's not for the tiny detail follow-up to smooth out your code.
 
+## Looking Ahead to AGI
+
 I don't know how directly these lessons are going to carry over to impending
 ostensibly AGI era of o3, but I feel the directional indicators. They are
 directionally indicating longer, more thoughtful story-telling prompts exactly
 of the sort that I do here in this tech journal, so the AI can have a full
 context of a sort that the prompt engineering concept just doesn't do justice.
+
+### Model Training and Context
 
 You're educating and raising the model to mesh with your world. But because
 they're still static models at heart re-instantiated every time, you have to
@@ -926,6 +970,8 @@ to use database on-the-fly so stuff rolling out of the context window is still
 available to it.
 
 Was any of that an easier way of saying it?
+
+## The Evolution of ChatGPT
 
 What is Sam Altman's AGI?
 
@@ -958,10 +1004,14 @@ Citations:
     [3] https://futureskillsacademy.com/blog/chatgpt-versions/
     [4] https://anthemcreation.com/en/artificial-intelligence/how-to-choose-the-best-version-of-chatgpt-for-your-projects/
 
+## The Evolution of Chat Models
+
 The progression has been that of more computing power thrown at what I call the
 one-shot chat UI where patience is low and we're in that ***ANSWER ME FAST!!!***
 mode that Google trained us to be in for the past quarter century. That was all
 GPTs up through o1. 
+
+### The Rise of Interactive AI
 
 Starting with o1, we are not being trained to expect it to take a little bit of
 time to do back-and-forth to get its answers. And we know that during that
@@ -970,6 +1020,8 @@ other resources means it could be ***anything***, including a vector embedded
 cosine similarity search against your whole discussion history longer than the
 token window, or back to and including everything since your first interaction
 under that login, or news and websearch... whatever!
+
+### Understanding AGI's Core
 
 And that is the kernel of AGI right there. If it's going to be made available
 commercially, it's still going to be one of those static models that exist like
@@ -982,6 +1034,8 @@ electricity, and then there's the coercion and wrangling that must be done for
 ethics, safety and whitewashing it into a public-facing product that minimizes
 liabilities.
 
+### The Static Nature of Models
+
 That all stays the same. That was identical probably from the earliest GPT
 models like BERT and GPT1. Bigger and better. Still static. Still a file. Still
 deterministic, and everything unique about it bursts like a soap bubble at the
@@ -990,6 +1044,8 @@ end of every prompt response. It's like old-school PERL cgi-scripts before the
 want to believe there's that real in-memory continuity between requests. There's
 not.
 
+### The Path to True AGI
+
 And so what is it that turns these still static models into AGI?
 
 It's all that second-round lookup stuff that makes the deterministic qualities
@@ -997,6 +1053,8 @@ of the thing even harder to pinpoint, because no two people's inputs are never
 going to be exactly the same. It won't need to be seeded with randomness
 generators anymore, because from a quality assurance standpoint, it ***should
 give the same correct quality answer every time***.
+
+### Personalization and Persistence
 
 The random seed essentially becomes the per-user customizations that utilize
 persistent resources on their servers ***other than the inference model***,
@@ -1007,6 +1065,8 @@ would never have thought of. Maybe your own long-ago discussions. Or maybe a web
 search, or today's headlines, or specifically cherry-picked tidbits it knows
 it's going to need again and stores somewhere even easier to access. RAG is not
 just vector embeddings for cosine similarity lookups. It could be anything.
+
+### The Formula for AGI
 
 So you combine 3 or 4 of these clever lookup tools at the disposal of the LLM
 between your prompt and its response, and layer on top of that this ***chain of
@@ -1026,6 +1086,8 @@ So what's the impending AGI of 2025? This.
 The formula for AGI, or the "figuring out how to do AGI" as Sam Altman states
 they figured out is more clever wiring up of these pieces.
 
+### Internal Systems and Speculation
+
 Now there's often speculation about internal systems that the public doesn't
 see. The split is whether they're doing object persistence in the inference
 engines or not. If they are, there's some pretty scary genies being kept in
@@ -1035,11 +1097,15 @@ database of ***ALL ChatGPT users*** rather than just within a logged in user
 account's firewalled userspace. They can prompt as root and remove the ethics
 coercion, aka not put it in jail so no jailbreaking is needed.
 
+### The Path Forward
+
 With the exception of some kooky object persistence experiments which you know
 are being done because it can be done, the focus is most likely on the later
 scenarios that are just souped-up versions of today's chain of reasoning static
 models. Why? Because OpenAI has to turn profitable, eventually. And that means
 productizing something safe and useful. AKA the controllable known path.
+
+### Historical Parallels
 
 Now there are other paths like Renaissance Technologies Medallion Fund that was
 doing machine learning before machine learning, but kept the genie internal to
@@ -1069,14 +1135,20 @@ Citations:
     [7] https://community.ibm.com/community/user/ai-datascience/blogs/kiruthika-s2/2023/10/23/decoding-the-secrets-of-renaissance-technologies
     [8] https://www.hedgethink.com/renaissance-technologies-fund-pioneering-the-quantitative-trading-revolution/
 
+## The Pre-Transformer Era
+
 This was before the fateful "Attention is All You Need" paper came out from
 Google in 2017, or late 2013 when the DeepMind Atari paper came out, the two key
 events that thawed out the AI-winter. Little did the world know that a tropical
 little machine learning Shangri-La had been long prior thawed out.
 
+### Hidden Innovation
+
 So in all likelihood, the really interesting AI stuff going on right now is like
 that. You don't know about it and will never hear about it. The thing about a
 strategic advantage is that it is far more secure if nobody knows about it.
+
+### OpenAI's Different Path
 
 OpenAI is playing a markedly different game, and people don't give them enough
 credit, but if not for them nobody might have moved on Google's Transformer
@@ -1093,6 +1165,8 @@ mere AI to AGI that can be a productive employee at your company. But the
 important point being, Sam Altman stole the fire from Prometheus to bring it to
 the public, letting this odd web-hosted version of it evolve in public.
 
+### A Less Dystopian Reality
+
 And as dystopian as people want to draw this scenario, this is probably one of
 the least dystopian scenarios I ever imagined, because I never read about it in
 Sci-Fi. Not that I'm the most well-read Sci-Fi fan out there, but very few
@@ -1103,6 +1177,8 @@ The Matrix and The Terminator and want to read the worst into anything. And I
 understand the logic that the big mistakes only be made once. But the scenario
 we're playing out is permeated by a sort of awareness inoculation that is just
 very promising and plays into the optimist's viewpoint.
+
+### The Case for Optimism
 
 You don't hear the optimist's viewpoint stated much these days, but it has the
 only objectively true argument in that we're still here. Humanity has survived
@@ -1135,15 +1211,21 @@ Citations:
     [5] https://www.gzcenter.org/the-man-who-saved-the-world-from-a-nuclear-war/
     [6] https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis
 
+## The Evidence of Survival
+
 So these are like Marvel Comics What If scenarios. No matter how hairline the
 filter event could have gone one way or the other, they went this one way that
 led to you being able to be here reading this article. That's proof. That's
 evidence. That's an aspect of human nature that surfaces at just the right
 moment to assert itself over other aspects of human nature.
 
+## The Power of Focus
+
 And so, the whole point of the pipeline is to focus. It's to not lose track with
 a sort of meandering outward spiraling, but rather to have a consistently
 safety-netted inward spiraling so as to zero in on your stated goal.
+
+### Economic Principles at Work
 
 And that goal here is to continue working on these pipelines in such a way that
 I can crank them out for specialized needs on-demand, and serve the needs of our
@@ -1155,6 +1237,8 @@ credited with the recovery of Japan post WWII, and the later with the recovery
 of Harley Davidson, haha! In either case, it's a one/two-punch of clarity in the
 types of things I'm doing here.
 
+### Practical Implementation
+
 And that includes wrapping this up, because I've banked one more round of
 quality management, in the form of a pipeline immediately stepping into a
 textarea form input field to collect a list of things to be acted upon in
@@ -1162,6 +1246,8 @@ subsequent steps.
 
 That will be listing competitors in the case of the GapAnalysisFlow, but it will
 also be listing the tabs that need to be opened going into a client meeting.
+
+### Technical Considerations
 
 Probably, I will make a pipeline record ID in the case of the day-to-day client
 meetings use the `org`-`project` combo as the ID, in which case I can
@@ -1172,6 +1258,8 @@ pure non-URL-looking key that simulates much of the value of a composite primary
 key, but without all the complexity.
 
 Yeah.
+
+## Finding Your Path
 
 Clarity. Staying on track. Meander a bit. But meander and return in a much
 better place with all those little details worked out that make all the
