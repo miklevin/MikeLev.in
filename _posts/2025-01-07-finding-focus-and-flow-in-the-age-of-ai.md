@@ -11,7 +11,7 @@ sort_order: 1
 The whole point of the pipeline is to focus. It promotes linear procedures and
 prescribed workflows. We bottle-up best-practices and grab you by the scruff of
 the neck and lead you along the righteous path to carry them out, no muss no
-fuss, no decision fatigue, not cognitive overload or paralysis through analysis.
+fuss, no decision fatigue, no cognitive overload or paralysis through analysis.
 Just Step 1, Step 2, Step 3... Continue until done.
 
 ## Switching Contexts
