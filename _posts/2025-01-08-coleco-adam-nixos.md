@@ -78,7 +78,16 @@ and dead-end EOS (Elementary Operating System) and OS-7 operating systems.
 
 ### The Raspberry Pi Perspective
 
-I didn't realize it at the time, but I was learning more of a cartridge based approach to hardware akin to game consoles. Today people might know this as how the Raspberry Pi works with microSD cards. It's actually quite easy to swap the boot drive out. You would hardly think of using docker with a Raspberry Pi because of all that overhead on a platform where you're trying to stay efficient, and you can just install everything you need directly, and then image the whole SD card. In a lot of ways, it's like docker then, but instead of all the overhead of two systems, you have just made your first system much easier to swap out.
+I didn't realize it at the time, but I was learning more of a cartridge based
+approach to hardware akin to game consoles. Today people might know this as how
+the Raspberry Pi works with microSD cards. It's actually quite easy to swap the
+boot drive out. You would hardly think of using docker with a Raspberry Pi
+because of all that overhead on a platform where you're trying to stay
+efficient, and you can just install everything you need directly, and then image
+the whole SD card. In a lot of ways, it's like Docker with the Pi, but instead
+of all the overhead of multiple operating systems being composed together
+(Docker composing), it's all just baked into a swappable image that you use on
+the Pi's bare-metal.
 
 ### Beyond Simple Imaging
 
