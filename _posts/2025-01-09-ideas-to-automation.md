@@ -50,10 +50,23 @@ to do self-reflective journaling with vim had the strong opinion I should go the
 developer direction. My view is first one, and then the other. It's that strange
 missing piece between deciding that you want to express yourself in a way that
 results in more precise automation, based on the premise that speaking an coding
-are really the same thing. It's encoding ideas in either case. Speaking encodes
-ideas to be played back in someone else's head, while programming encodes ideas
-to be played back in a machine, which has the additional useful side effect of
-carrying out those ideas as explicit instructions like a player piano. 
+are really the same thing. 
+
+Speaking encodes ideas to be played back in someone else's head, while
+programming encodes ideas to be played back in a machine, which has the
+additional useful side effect of carrying out those ideas as explicit
+instructions like a player piano.
+
+Starting out by writing journaling-style into a text-editor without the precise
+demands of programming ***loosens up the creative muscles*** and allows you to
+spontaneously riff into a text-file as if a improv jazz musician. That
+free-formedness is now more valuable than ever, because the LLMs can help you
+tighten it up and formalize it. Writing into a text-editor for journaling is
+encoding ideas in the spoken language. Writing code into a text-editor is
+encoding for machine interpretation.
+
+It's ***encoding ideas*** into a text-editor in either case (yes, *vim for
+journaling*). Getting good at one is getting good at the other.  
 
 ### Historical Parallels in Automation
 
