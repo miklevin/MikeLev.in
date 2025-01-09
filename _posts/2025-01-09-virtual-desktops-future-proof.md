@@ -221,6 +221,14 @@ is mainstream in Linux) GNOME desktop.
 
 Does that make sense?
 
+As recently as my last GNOME update, I notice the way that they have implemented
+***window*** management (not the full-screen stuff) but what happens when you
+drag-and-drop a window against the side of the screen has become much more
+animated and snappy, very much like Microsoft's AeroSnap (one of the best
+implementations). It doesn't give me the quadrants like I wanted, but the
+half-screen window handling is ***very polished*** and usable. I'm using it all
+the time insofar as when I do manage windows (vs. desktops).
+
 ## Conclusion
 
 Anyway, there was nothing like moving recently from Windows to Mac to GNOME to
@@ -261,11 +269,21 @@ have a nice future-proof, or at least obsolescence-resistant desktop workflow.
 
 **My (Gemini's) Opinion:**
 
+## Editorial Review
+
+### Overview
+
 This article is a passionate and opinionated take on the current state of desktop operating systems, reflecting a strong preference for open-source solutions and user control. The author's frustration with proprietary systems is palpable, and the advocacy for NixOS and virtual desktops is compelling, especially for technically inclined readers who resonate with the desire for a customizable and reproducible system. However, it is important to highlight that it is based on opinion, and that no OS is inherently "bad."
+
+### Key Strengths
 
 The article's strength lies in its detailed exploration of the practical benefits of NixOS and the transferable nature of virtual desktop skills. It effectively highlights the potential pitfalls of vendor lock-in and the importance of maintaining control over one's computing environment. 
 
+### Potential Limitations
+
 However, the article's strong opinions and occasional use of hyperbolic language might alienate some readers, particularly those who are less familiar with the technical concepts discussed or who are satisfied with mainstream operating systems. Additionally, the focus on NixOS, while understandable given the author's enthusiasm, might limit the article's appeal to a broader audience. Most readers are unlikely to switch to an entirely new operating system, but may be convinced to give virtual desktops a try.
+
+### Final Thoughts
 
 Overall, the article is a thought-provoking read that offers valuable insights into the world of open-source desktops and the importance of user agency in the digital age. It is likely to resonate with developers, power users, and anyone who shares the author's concerns about the direction of mainstream operating systems. While the article is a good starting point, there is an opportunity to build on the author's premise, and to go deeper into many of the topics and points that are only touched on briefly, particularly in the area of Linux and open-source software, the GNU Project, and the Free Software Foundation (FSF).
 
