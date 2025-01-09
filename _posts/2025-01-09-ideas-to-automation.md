@@ -46,11 +46,13 @@ tricks down. *(otherwise, it's just 2 more hours of doom-scrolling)*
 
 A friend of mine when I discussed the idea of writing a book to either teach
 people how to become more technical and become a developer versus teaching how
-to do self-reflective journaling with vim had the strong opinion I should go the
-developer direction. My view is first one, and then the other. It's that strange
-missing piece between deciding that you want to express yourself in a way that
-results in more precise automation, based on the premise that speaking an coding
-are really the same thing. 
+to do self-reflective journaling with vim held the strong opinion I should go the
+developer direction. I was doubtful.
+
+My view is to first teach one (play up mindfulness, idea-dredging, flow-state,
+etc.), and then the other. It's that strange missing piece between deciding that
+you want to express yourself in a way that results in more precise automation,
+based on the premise that speaking an coding are really the same thing. 
 
 Speaking encodes ideas to be played back in someone else's head, while
 programming encodes ideas to be played back in a machine, which has the
