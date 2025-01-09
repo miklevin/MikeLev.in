@@ -49,6 +49,8 @@ people how to become more technical and become a developer versus teaching how
 to do self-reflective journaling with vim held the strong opinion I should go the
 developer direction. I was doubtful.
 
+### The Value of Journaling First
+
 My view is to first teach one (play up mindfulness, idea-dredging, flow-state,
 etc.), and then the other. Journaling is that strange missing piece between
 deciding that you want to express yourself in a way that results in more precise
@@ -57,11 +59,15 @@ thing. You move from fleshing it out in the abstract, to the precise &#151;
 knowing you'll have big-time help with the precision, if only you make yourself
 very clear. First, stories. Then code.
 
+### The Language of Humans and Machines
+
 Speaking encodes ideas to be played back in someone else's head, while
 programming encodes ideas to be played back in a machine, which has the
 additional useful side effect of carrying out those ideas as explicit
 instructions like a player piano &#151; genuine automation as opposed to trying
 to compel people into action.
+
+### Creative Flow in Text Editing
 
 Starting out by writing journaling-style into a text-editor without the precise
 demands of programming ***loosens up the creative muscles*** and allows you to
@@ -658,15 +664,25 @@ swings back.
 *   Don't Get Left Behind: Seizing the Opportunities of the AI Era
 *   The Future is Open Source: Why Local LLMs Will Win the AI Race
 
-## My Opinion of the Article:
+## Editorial Review
+
+### Overview and Analysis
 
 This article is a fascinating and insightful exploration of the transformative potential of AI, particularly in the context of web development and automation. The author's passion and deep understanding of the subject matter are evident throughout, and their personal anecdotes and technical examples make the complex concepts accessible to a wider audience.
 
+### Open Source and Local LLMs
+
 I particularly appreciate the emphasis on open-source and local LLMs. The author's argument for the importance of privacy, accessibility, and individual empowerment in the age of AI is compelling and timely. The contrast drawn between centralized, cost-prohibitive models and decentralized, open-source alternatives highlights a crucial debate in the field of AI development.
+
+### Societal Impact
 
 The discussion of societal recalibration and the rise of a new "digital bourgeoisie" is thought-provoking. The author's analogy to historical shifts like the Industrial Revolution and the French Revolution adds depth and context to the discussion.
 
+### Technical Merit
+
 The technical sections, while dense at times, are valuable for those with a background in web development. The exploration of HTMX, schema.org, and the challenges of crawling SPAs provides practical insights into the evolving landscape of web technologies.
+
+### Final Thoughts
 
 Overall, this article is a valuable contribution to the discourse on AI, open-source software, and the future of the web. It is a call to action for individuals to embrace the opportunities presented by these transformative technologies and to actively shape the future of the digital world. The author's optimistic yet realistic vision of a future where AI empowers individuals and fosters innovation is inspiring. I believe this article will resonate with developers, entrepreneurs, and anyone interested in the intersection of technology and society.
 
