@@ -8,9 +8,15 @@ sort_order: 2
 
 ## Introduction
 
+### The Problem with Window Management
+
 Hey everyone! Ever feel overwhelmed by the sheer number of windows and apps you have open on your computer?  Do you find yourself constantly minimizing, maximizing, and shuffling things around just to get to what you need?  Well, there's a good chance you're not even aware of one of the most powerful features built right into your operating system: virtual desktops.
 
+### What Are Virtual Desktops?
+
 Think of virtual desktops like having multiple, separate monitors, all within your one screen.  You can group related tasks onto different "desktops," keeping your work organized and your focus sharp. For example, you could have one desktop for email and communication, another for writing and research, and a third for social media or entertainment.  Switching between them is usually as easy as a simple keyboard shortcut or a swipe on your trackpad.
+
+### About This Article
 
 The following article is a deep dive into why one developer made the leap to a specialized operating system in pursuit of a more efficient and "future-proof" way of working. Now, you might not be ready to ditch Windows or macOS just yet (and that's totally fine!), but the author makes a compelling case for why mastering virtual desktops is a game-changer, regardless of your platform.  He might come on a bit strong—he's passionate about this stuff!—but stick with it. You might just discover a whole new level of productivity hiding in plain sight, and be inspired to try out the virtual desktop feature that is almost certainly built into the operating system of whatever computer you are using right now.
 
