@@ -26,11 +26,11 @@ apparently, I still Google even though Perplexity.
 > "A good laugh and a long sleep are the two best cures for anything." 
 
 But then there's also, "Sleep when you're done, not when you're tired" and that
-resonates with the whole window of opportunity thing, which we are most
-definitely in. Wait too long, and somebody else does it and you lose the early
-mover advantage. You can also lose the motivation and that special spark of
-insight. Good ideas are common. The will, determination and indeed agency to
-actually act upon it and implement, now that's rare.
+resonates with the whole ***shrinking window of opportunity*** thing, which we
+are most definitely in. Wait too long, and somebody else does it and you lose
+the early mover advantage. You can also lose the motivation and that special
+spark of insight. Good ideas are common. The will, determination and indeed
+agency to actually act upon it and implement, now that's rare.
 
 ## The Pandemic's Silver Lining
 
