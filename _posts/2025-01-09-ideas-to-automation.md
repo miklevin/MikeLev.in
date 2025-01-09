@@ -39,8 +39,8 @@ information age began firing on all cylinders in great part gave that
 opportunity, because the soul-crushing commute part of the daily-grind became
 optional. That's close to two-hours a day we can plow right back into stuff like
 this, agency-generating journaling. Journaling to fan the flame of agency. It's
-the machine that turns good ideas into implementation, if you can get the tricks
-down.
+the machine that turns good ideas into implementation &#151; if you can get the
+tricks down. *(otherwise, it's just 2 more hours of doom-scrolling)*
 
 ## The Bridge Between Speaking and Coding
 
