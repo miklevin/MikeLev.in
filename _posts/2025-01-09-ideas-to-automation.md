@@ -23,7 +23,7 @@ my workday. Sleep is the best medicine, along with laughter. Laugher and sleep,
 now there's a good combo. Isn't there an Irish saying? Googling now... Yep
 apparently, I still Google even though Perplexity.
 
-> > > > > > > > > "A good laugh and a long sleep are the two best cures for anything." 
+> "A good laugh and a long sleep are the two best cures for anything." 
 
 But then there's also, "Sleep when you're done, not when you're tired" and that
 resonates with the whole window of opportunity thing, which we are most
