@@ -91,13 +91,62 @@ the Pi's bare-metal.
 
 ### Beyond Simple Imaging
 
-Even in this Raspberry Pi scenario, you are still dealing with disk images, much like docker files or ISO images. What if you want to expand or change the image? What if you want a different software load? Do you have to choose which image to start with, install software and then image the disk again for archival purposes? This is not a very pleasant iterative process. Shouldn't your systems be able to iteratively get better overtime? Shouldn't you be able to tweak and refine without all this full system imaging overhead nonsense?
+Even in this Raspberry Pi scenario, you are still dealing with disk images, much
+like docker files or ISO images. What if you want to expand or change the image?
+What if you want a different software load? Do you have to choose which image to
+start with, install software and then image the disk again for archival
+purposes? This is not a very pleasant iterative process. Shouldn't your systems
+be able to iteratively get better overtime? Shouldn't you be able to tweak and
+refine without all this full system imaging overhead nonsense?
+
+The approach that gets you most of the way there, what the Pi uses and which is
+reminiscent of floppy-booting on the Amiga, and which is very similar to just
+imaging hard drives, still does the black-box abstraction at the wrong place. It
+makes whole pre-baked systems ***too chunky***. The correct place to black-box
+is all those commands you trigger off to install this-and-that, like the `apt`
+command on Debian and Ubuntu, and the `yum` command on RedHat derivatives, and
+the `brew` command on Macs, if you like. And yeah, `winget` on Windows. It does
+exist.
 
 ## Infrastructure Complexities
 
-I have layered in the Trilium self hosted notes app which has considerable details to work out when adding to the master image, to my system. Is it going to only run on the machine you install it on, which is kind of server like? Or are you going to host it to other devices? On the Internet at large and dealing with all those security issues were just to devices on your LAN at home? And if only on your home network, what about the security there?
+### The Self-Hosted App Challenge
 
-So it's not merely installing software at a certain point as if a Mac or Windows machine that you're trying to back up and restore with your programs and personal data. At some point, it becomes more like a whole IT infrastructure with all the details of how servers host and secure apps. Instead of just imaging a hard drive, you are imaging a whole network configuration. And there needs to be someway to rehydrate it all.
+So why did I open this with the story of Trilium, the self-hosted notes app?
+Because it's just a wee bit more than an `apt`, `yum` or `brew` installable app.
+While yes, it ***can*** be fully installed that way, they call it self-hosted
+because unlike an Electron app like VSCode, Zoom or Slack, Trilium can actually
+be run from any web browser that can reach the machine you installed it on
+&#151; and all the follow-up details that entails.
+
+### Configuration Decisions
+
+Are you configuring it to only run on the machine you install it on, which is
+kind of server like? Or are you going to host it to other devices? On the
+Internet at large and dealing with all those security issues were just to
+devices on your LAN at home? And if only on your home network, what about the
+security there?
+
+### The Universal Build Script
+
+These are the kinds of decisions you need to make, and preferably only make
+once in your life moving forward. Whenever your hardware "home" changes, this
+universal home-base-building script moves with you, setting all your
+configuration back up.
+
+### Beyond Simple Desktop Software
+
+So with any server-like software that takes that tiny next step beyond merely
+a desktop install like Mac or Windows desktop software that can be backed up and
+restored properly with normal backup software, there's more to it. There's all
+the fine-detail and finesse of building your working system again.
+
+### The Infrastructure Evolution
+
+At some point, it becomes more like a whole IT infrastructure with all the
+details of how servers host and secure apps. Instead of just imaging a hard
+drive, you are imaging a whole network configuration. And there needs to be
+someway to rehydrate it all.
 
 ### The Home Server Challenge
 
