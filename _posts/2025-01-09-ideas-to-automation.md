@@ -50,14 +50,18 @@ to do self-reflective journaling with vim held the strong opinion I should go th
 developer direction. I was doubtful.
 
 My view is to first teach one (play up mindfulness, idea-dredging, flow-state,
-etc.), and then the other. It's that strange missing piece between deciding that
-you want to express yourself in a way that results in more precise automation,
-based on the premise that speaking an coding are really the same thing. 
+etc.), and then the other. Journaling is that strange missing piece between
+deciding that you want to express yourself in a way that results in more precise
+automation, based on the premise that speaking an coding are really the same
+thing. You move from fleshing it out in the abstract, to the precise &#151;
+knowing you'll have big-time help with the precision, if only you make yourself
+very clear. First, stories. Then code.
 
 Speaking encodes ideas to be played back in someone else's head, while
 programming encodes ideas to be played back in a machine, which has the
 additional useful side effect of carrying out those ideas as explicit
-instructions like a player piano.
+instructions like a player piano &#151; genuine automation as opposed to trying
+to compel people into action.
 
 Starting out by writing journaling-style into a text-editor without the precise
 demands of programming ***loosens up the creative muscles*** and allows you to
