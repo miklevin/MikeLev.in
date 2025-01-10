@@ -1,0 +1,2039 @@
+---
+title: Starter Flow
+permalink: /futureproof/starter-flow/
+description: 
+layout: post
+sort_order: 1
+---
+
+Context is everything. And this next edit which I need help from the AI code
+assistant with is going to have an article of its own to set the context. This
+is a web framework for localhost usage, and therefore has a set of concerns more
+similar to an Electron app than the scalable enterprise architecture patterns on
+which the LLMs are over-trained. All concerns here evolve around making things
+easy for the developer making new pipeline workflows. This becomes apparent to
+the LLM first with a quick glance at the approximately 9000 lines of code that
+constitute the single `@botifython.py` file that makes the entire system. This
+means it all fits in 77,417 tokens per `tiktoken`, a single context window of
+many of today's frontier models, and not beyond Claude 3.5 Sonnet built into
+Cursor's ability to get a handle on. All additional nuance of the system that
+makes it different from enterprise patterns can be gleaned with an examination
+of the `.@cursorrules` file. 
+
+This sets the stage for a bit of refactoring we are about to do together to make
+filling in a card's value at the end of the chain reaction process clearer, more
+consistent and easier for the person and LLM designing new pipelines. We called
+this feature "persistence", but that was a mistake in how it predisposes the LLM
+to re-adopt client-side notions of persistence that are antithetical to this
+system. Instead, the feature we are implementing is the re-population of the
+card at the end of the chain reaction after the data from the JSON field named
+data was loaded back in from the persistent storage and `clear_steps_from` has
+cleared all the steps from and including the reverted-to-step. We are always
+re-chain-reacting from the `#flowname-container` element all the time akin to
+always showing all the cards of a Jupyter Notebook in a "Restart Kernel and Run
+All Cells..." kind of operation. So we are never not rendering all Cards up to
+and including the one you're currently up to providing data for (aka have
+reverted to). This takes some special consideration. 
+
+I made a first attempt at this persistence feature, but the chain reaction being
+designed to occur up to the last card for which data was not yet collected
+throws something of a wrench in that plan. And I don't like the first attempt at
+persistence which is only in 2 flows: StarterFlow and OneCardFlow. Currently,
+OneCardFlow's only differentiator is the fact that it supports textarea, and I
+want to preserve that, so I'll just put that here:
+
+```python
+class OneCardFlow:
+    """
+    A single-step flow with a finalize button.
+    
+    PIPELINE PRINCIPLES:
+    1. Clear forward on submit
+    2. Preserve affects UI only 
+    3. Use standard pipulate helpers
+    4. State flows forward only
+    """
+
+    def __init__(self, app, pipulate, prefix="onecard", llm_enabled=False):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+        self.llm_enabled = llm_enabled
+
+        # Match BridgeFlow's pattern exactly:
+        self.STEPS = [
+            ("text", "step_01", "SingleCard"),  # Data collection
+            ("finalized", "finalize", "Final")   # Finalization only
+        ]
+
+        routes = [
+            (f"/{prefix}",                 self.landing),
+            (f"/{prefix}/init",            self.init, ["POST"]),
+            (f"/{prefix}/step_01",         self.step_01),
+            (f"/{prefix}/step_01_submit",  self.step_01_submit, ["POST"]),
+            (f"/{prefix}/finalize",        self.finalize),
+            (f"/{prefix}/finalize_submit", self.finalize_submit, ["POST"]),
+            (f"/{prefix}/unfinalize",      self.unfinalize, ["POST"]),
+            (f"/{prefix}/jump_to_step",    self.jump_to_step, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    async def landing(self):
+        """
+        GET /onecard
+        Quick landing page to set pipeline_id; calls /init to actually start flow.
+        """
+        # Get all pipeline records for this endpoint using proper MiniDataAPI filtering
+        pipeline.xtra(endpoint=self.prefix)  # Set filter for this endpoint
+        existing_ids = [record.url for record in pipeline()]  # Get filtered records
+
+        return Container(
+            Card(
+                H2("One-Card Flow"),
+                P("A single textarea is all you need sometimes!"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Enter or resume your single-card ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"  # Connect to datalist
+                        ),
+                        button_label="Begin One Card Flow 🔑",
+                        button_class="secondary",
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"  # Matches the input's list attribute
+                    ),
+                    hx_post=f"{self.prefix}/init",
+                    hx_target="#onecard-container"
+                )
+            ),
+            Div(id="onecard-container")
+        )
+
+    async def init(self, request):
+        """
+        POST /onecard/init
+        - Sets pipeline_id
+        - Calls pipeline.initialize_if_missing(...) with endpoint
+        - Returns placeholders from step_01..step_02
+        """
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        logger.debug(f"Initializing OneCardFlow pipeline: {pipeline_id}")
+
+        # Create pipeline record if needed
+        state = self.pipulate.initialize_if_missing(pipeline_id, {
+            "endpoint": self.prefix  # Store endpoint info in record
+        })
+        
+        if state is None:  # Pipeline initialization failed
+            return Card(
+                H3("ID Already In Use"),
+                P(f"The ID '{pipeline_id}' is already being used by another workflow. Please try a different ID."),
+                style="background-color: var(--pico-del-color);"
+            )
+
+        # Generate placeholders for step_01 & step_02
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix)
+        return Div(*placeholders, id="onecard-container")
+
+    async def step_01(self, request):
+        """GET /onecard/step_01 - Shows textarea or revert control"""
+        preserve = request.query_params.get("preserve", "false") == "true"  # Get from query params
+        logger.debug(f"step_01: preserve flag received as {preserve}")  # Debug log
+        
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        user_text = step1_data.get("text", "")
+
+        # Check if pipeline is finalized
+        if "finalized" in finalize_data:
+            return Div(
+                Card(self.pipulate.format_textarea(user_text)),
+                Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+            )
+
+        # If we have data => show revert control
+        if user_text and not preserve:
+            return Div(
+                self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_01",
+                    prefix=self.prefix,
+                    message=self.pipulate.format_textarea(user_text),
+                    target_id="onecard-container",
+                    preserve_data=True
+                ),
+                Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+            )
+
+        # Show form with preserved data if in preserve mode
+        return Div(
+            Card(
+                H3(f"Enter your text: {'⟲ (preserve mode)' if preserve else '↶ (clear mode)'}"),
+                Form(
+                    Textarea(
+                        user_text if preserve else "",
+                        name="text",
+                        placeholder="Type anything here...",
+                        rows="6",
+                        required=True,
+                        autofocus=True
+                    ),
+                    Button("Save", type="submit"),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#step_01"
+                )
+            ),
+            Div(id="finalize"),
+            id="step_01"
+        )
+
+    async def step_01_submit(self, request):
+        """
+        POST /onecard/step_01_submit
+        Saves user input from the textarea, re-renders placeholders.
+        """
+        pipeline_id = db.get("pipeline_id", "untitled")
+        form = await request.form()
+        user_text = form.get("text", "")
+
+        logger.debug(f"step_01_submit: Saving text for pipeline {pipeline_id}")
+
+        # Clear forward steps before saving
+        self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+
+        # Save to pipeline
+        self.pipulate.write_step_data(pipeline_id, "step_01", {"text": user_text})
+
+        # Show revert control + next step
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_01",
+                prefix=self.prefix,
+                message=self.pipulate.format_textarea(user_text),
+                target_id="onecard-container",
+                preserve_data=True  # Add preserve_data flag
+            ),
+            Div(id="finalize", hx_get=f"{self.prefix}/finalize", hx_trigger="load")
+        )
+
+    async def finalize(self, request):
+        """GET /onecard/finalize - Final step with finalize button"""
+        pipeline_id = db.get("pipeline_id", "untitled")
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        
+        if "finalized" in finalize_data:
+            return Card(
+                H3("SingleCard Complete"),
+                P("Finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"{self.prefix}/unfinalize",
+                    hx_target="#onecard-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id="finalize"
+            )
+
+        if step1_data.get("text"):
+            return Card(
+                H3("Ready to finalize?"),
+                P("Your text is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"{self.prefix}/finalize_submit",
+                    hx_target="#onecard-container",
+                    hx_swap="outerHTML"
+                ),
+                id="finalize"
+            )
+
+        return Div(id="finalize")
+
+    async def finalize_submit(self, request):
+        """POST /onecard/finalize_submit - Sets finalized flag"""
+        pipeline_id = db.get("pipeline_id", "untitled")
+        self.pipulate.write_step_data(pipeline_id, "finalize", {"finalized": True})
+        
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix)
+        return Div(*placeholders, id="onecard-container")
+
+    async def unfinalize(self, request):
+        """POST /onecard/unfinalize - Removes finalized state"""
+        pipeline_id = db.get("pipeline_id", "untitled")
+        if not pipeline_id:
+            return P("No pipeline found", style="color:red;")
+
+        # Clear finalized state
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state and "finalized" in state["finalize"]:
+            del state["finalize"]["finalized"]
+            self.pipulate.write_state(pipeline_id, state)
+
+        # Regenerate placeholders
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix)
+        return Div(*placeholders, id="onecard-container")
+
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.prefix,
+            f"{self.prefix.lstrip('/')}-container"
+        )
+```
+
+It can also serve as a record of the persistence approach that didn't work, or
+more technically exploded complexity more than I am willing. And therefore, I am
+deleting it from the main codebase now that I have it here for reference. Done.
+And so we have contracted the only place where persistence is implemented to
+StarterFlow, which I will also document the current state of here:
+
+```python
+class StarterFlow:
+    """
+    Minimal two-card pipeline with a final step, demonstrating core pipeline principles:
+
+    PIPELINE CORE PRINCIPLES:
+    1. State flows forward, never backward
+    2. Each step is a fresh start after submit 
+    3. Preserve is for UI convenience only
+    4. Submit handlers are state reset points
+    5. Use pipulate's standard helpers
+
+    IMPLEMENTATION CHECKLIST:
+    1. Use standard pipulate helpers (handle_jump_to_step, etc.)
+    2. Clear forward in ALL submit handlers
+    3. Preserve flag only affects form display
+    4. Test revert-and-resubmit behavior 
+    5. Compare against first-time flow
+    6. Check state transitions in logs
+
+    Step 1 uses 'preserve' mode for data memory (like OneCardFlow).
+    Step 2 is ephemeral, no data-preserve logic.
+    """
+
+    def __init__(self, app, pipulate, prefix="/starter", llm_enabled=False):
+        """Initialize StarterFlow with standard pipeline components"""
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+        self.llm_enabled = llm_enabled
+
+        # 'finalized' key for the final step, so we store {"finalized": True} there
+        self.STEPS = [
+            ("mykey",      "step_01",   "Card 1"),
+            ("mykey2",     "step_02",   "Card 2"), 
+            ("finalized",  "finalize",  "Finalize")
+        ]
+
+        # Define step messages based on state
+        self.STEP_MESSAGES = {
+            "new": "Step 1: Type something for Card 1.",
+            "step_01": {
+                "input": "Step 1: Type something for Card 1.",
+                "complete": "Step 1 Done. You entered {}. Type something for Card 2.",
+            },
+            "step_02": {
+                "input": "Step 2: Type something for Card 2.",
+                "complete": "Step 2 Done. You entered {}. Click Finalize.", 
+            },
+            "finalize": {
+                "ready": "Lock in your workflow or revert to any step.",
+                "complete": "Workflow finalized. Use Unfinalize to make changes, or enter a new ID.",
+                "unlocked": "Click a step to revert it."
+            }
+        }
+
+        # Standard route configuration
+        routes = [
+            (f"{prefix}",                 self.landing),
+            (f"{prefix}/init",            self.init, ["POST"]),
+            (f"{prefix}/step_01",         self.step_01),
+            (f"{prefix}/step_01_submit",  self.step_01_submit, ["POST"]),
+            (f"{prefix}/step_02",         self.step_02),
+            (f"{prefix}/step_02_submit",  self.step_02_submit, ["POST"]),
+            (f"{prefix}/finalize",        self.finalize),
+            (f"{prefix}/finalize_submit", self.finalize_submit, ["POST"]),
+            (f"{prefix}/unfinalize",      self.unfinalize, ["POST"]),
+            (f"{prefix}/jump_to_step",    self.jump_to_step, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    async def read_state_message(self, pipeline_id: str) -> str:
+        """
+        Get appropriate message for current pipeline state.
+        
+        STATE MANAGEMENT GOLDEN RULES:
+        1. Submit always clears forward
+        2. Display state != Persistence state  
+        3. Preserve affects display only
+        4. Forward flow is one-way
+        5. Each step must be idempotent
+        """
+        state = self.pipulate.read_state(pipeline_id)
+        logger.debug(f"\nDEBUG [{pipeline_id}] State Check:")
+        logger.debug(json.dumps(state, indent=2))
+
+        # Check state in reverse order (finalize -> step_02 -> step_01)
+        if "finalize" in state:
+            if "finalized" in state["finalize"]:
+                message = self.STEP_MESSAGES["finalize"]["complete"]
+                logger.debug(f"State: finalized, Message: {message}")
+                append_to_conversation(message, role="system", quiet=True)
+                return message
+            elif state.get("step_02", {}).get("mykey2"):
+                message = self.STEP_MESSAGES["finalize"]["ready"]
+                logger.debug(f"State: ready to finalize, Message: {message}")
+                append_to_conversation(message, role="system", quiet=True)
+                return message
+            
+        if "step_02" in state:
+            val2 = state["step_02"].get("mykey2")
+            if val2:
+                message = self.STEP_MESSAGES["step_02"]["complete"].format(val2)
+                logger.debug(f"State: step_02 complete ({val2}), Message: {message}")
+                append_to_conversation(message, role="system", quiet=True)
+                return message
+            message = self.STEP_MESSAGES["step_02"]["input"]
+            logger.debug(f"State: step_02 input needed, Message: {message}")
+            append_to_conversation(message, role="system", quiet=True)
+            return message
+            
+        if "step_01" in state:
+            val1 = state["step_01"].get("mykey")
+            if val1:
+                message = self.STEP_MESSAGES["step_01"]["complete"].format(val1)
+                logger.debug(f"State: step_01 complete ({val1}), Message: {message}")
+                append_to_conversation(message, role="system", quiet=True)
+                return message
+            message = self.STEP_MESSAGES["step_01"]["input"]
+            logger.debug(f"State: step_01 input needed, Message: {message}")
+            append_to_conversation(message, role="system", quiet=True)
+            return message
+            
+        message = self.STEP_MESSAGES["new"]
+        logger.debug(f"State: new pipeline, Message: {message}")
+        append_to_conversation(message, role="system", quiet=True)
+        return message
+
+    # ---------------------------------------------------------------------
+    # LANDING
+    # ---------------------------------------------------------------------
+    async def landing(self):
+        """
+        GET /starter
+        Quick landing page to set or resume pipeline_id, calls /init to start flow.
+
+        CRITICAL TEST SCENARIOS:
+        1. First-time flow
+        2. Revert and resubmit  
+        3. Preserve mode submit
+        4. Jump to previous step
+        5. All should behave identically after submit
+        """
+        # Possibly gather existing pipeline IDs for a datalist
+        pipeline.xtra(endpoint=self.prefix.lstrip('/'))
+        existing_ids = [record.url for record in pipeline()]
+
+        # Schedule greeting message in nonblocking way with 5s delay
+        async def delayed_greeting():
+            await asyncio.sleep(2)
+            await chat.simulated_stream("Enter an ID to begin.<br>\n")
+        asyncio.create_task(delayed_greeting())
+
+        return Container(
+            Card(
+                H2("StarterFlow: Two Cards + Finalize"),
+                P("Enter or resume a Pipeline ID:"),
+                Form(
+                    # Inline input+button with our key emojis
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Old or existing ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"
+                        ),
+                        button_label="Start StarterFlow 🔑",
+                        button_class="secondary"
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"
+                    ),
+                    hx_post=f"{self.prefix}/init",
+                    hx_target="#starter-container"
+                )
+            ),
+            Div(id="starter-container")
+        )
+
+    # ---------------------------------------------------------------------
+    # INIT
+    # ---------------------------------------------------------------------
+    async def init(self, request):
+        """
+        POST /starter/init
+        - Sets pipeline_id
+        - initialize_if_missing
+        - Returns placeholders for step_01..finalize
+
+        DANGEROUS ANTI-PATTERNS:
+        1. Skipping clear_steps_from() in submit handlers
+        2. Letting preserve flag affect data persistence
+        3. Assuming old data means keep old data
+        4. Custom jump handlers instead of pipulate.handle_jump_to_step()
+        5. Scattershot fixes without understanding state flow
+        """
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        # Initialize pipeline record with endpoint info
+        state = self.pipulate.initialize_if_missing(
+            pipeline_id,
+            {"endpoint": self.prefix.lstrip('/')}
+        )
+        
+        # Add this check from OneCardFlow:
+        if state is None:  # Pipeline initialization failed
+            return Card(
+                H3("ID Already In Use"),
+                P(f"The ID '{pipeline_id}' is already being used by another workflow. Please try a different ID."),
+                style="background-color: var(--pico-del-color);"
+            )
+
+        # Let state determine the appropriate message
+        message = await self.read_state_message(pipeline_id)
+        await chat.simulated_stream(f"{message}<br>\n")
+        append_to_conversation(message, role="system", quiet=True)
+
+        # Return placeholders: step_01 => step_02 => finalize
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.prefix,
+        )
+        return Div(*placeholders, id="starter-container")
+
+    # ---------------------------------------------------------------------
+    # STEP 01 (PERSISTENT / PRESERVE EXAMPLE)
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+        """
+        GET /starter/step_01
+        First card with "preserve mode" logic.
+        If user typed data before, we can show it again if preserve=true.
+
+        PRESERVE FLAG BEHAVIOR:
+        - preserve=True: Pre-fill form with existing data (UI only)
+        - preserve=False: Show revert control instead of form
+        
+        BUT REMEMBER: Preserve has NOTHING to do with what happens on submit!
+        Submit handlers must ALWAYS clear forward regardless of how we got there
+        """
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # 1) Check preserve flag
+        preserve = request.query_params.get("preserve", "false") == "true"
+        logger.debug(f"step_01: preserve={preserve}")
+
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        user_val = step1_data.get("mykey", "")
+
+        # 2) Check if locked
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+
+        if locked:
+            # IMPORTANT: always chain to next step
+            return Div(
+                Card(P(f"[Locked] Card 1 data: {user_val}")),
+                Div(
+                    id="step_02",
+                    hx_get=f"{self.prefix}/step_02",
+                    hx_trigger="load",  # chain continues
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 3) If user_val exists and we're NOT in preserve mode => show revert
+        if user_val and not preserve:
+            return Div(
+                self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_01",
+                    prefix=self.prefix,
+                    message=P(f"Card 1 data: {user_val}"),
+                    target_id="starter-container",
+                    preserve_data=True  # This triggers "?preserve=true"
+                ),
+                Div(
+                    id="step_02",
+                    hx_get=f"{self.prefix}/step_02",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 4) If preserve => pre-fill the form with user_val
+        prefilled = user_val if preserve else ""
+        return Div(
+            Card(
+                H3(f"Step 1: Card 1 Input {'(preserve mode)' if preserve else '(clear mode)'}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="mykey",
+                            placeholder="Type something for card 1",
+                            value=prefilled,
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#step_01"
+                )
+            ),
+            Div(id="step_02"),
+            id="step_01"
+        )
+
+    async def step_01_submit(self, request):
+        """
+        POST /starter/step_01_submit
+        Save data, show revert + chain to step_02.
+        Notice we pass preserve_data=True so the user can revert & keep typed data.
+
+        WORKFLOW INTEGRITY PATTERN:
+        1. Get form data
+        2. Clear all steps from current forward
+        3. Only then save new data
+        If you skip step 2, old data will persist and corrupt the workflow!
+        """
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val = form.get("mykey", "")
+
+        # Clear subsequent steps before saving new data
+        self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+
+        # Now save the new data
+        self.pipulate.write_step_data(pipeline_id, "step_01", {"mykey": user_val})
+
+        # 3) Instruct user: "You entered [X]. Type something for card 2."
+        await chat.simulated_stream(f"Step 1 Done. You entered {user_val}. Type something for card 2.<br>\n")
+
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_01",
+                prefix=self.prefix,
+                message=P(f"Card 1 data saved: {user_val}"),
+                target_id="starter-container",
+                preserve_data=True  # This triggers "?preserve=true" on revert
+            ),
+            Div(
+                id="step_02",
+                hx_get=f"{self.prefix}/step_02",
+                hx_trigger="load",
+                hx_swap="outerHTML"
+            )
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02 (EPHEMERAL EXAMPLE)
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+        """
+        GET /starter/step_02
+        - Second card or locked display (NO preserve logic).
+        """
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+        user_val2 = step2_data.get("mykey2", "")
+
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+
+        if locked:
+            # chain to finalize
+            return Div(
+                Card(P(f"[Locked] Card 2 data: {user_val2}")),
+                Div(
+                    id="finalize",
+                    hx_get=f"{self.prefix}/finalize",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # If we have data => revert + chain next
+        if user_val2:
+            return Div(
+                self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_02",
+                    prefix=self.prefix,
+                    message=P(f"Step 2: Card 2 data: {user_val2}"),
+                    target_id="starter-container"
+                ),
+                Div(
+                    id="finalize",
+                    hx_get=f"{self.prefix}/finalize",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # Else show blank form
+        return Div(
+            Card(
+                H3("Card 2 Input (ephemeral)"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="mykey2",
+                            placeholder="Type something for card 2",
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"{self.prefix}/step_02_submit",
+                    hx_target="#step_02"
+                )
+            ),
+            Div(id="finalize"),
+            id="step_02"
+        )
+
+    async def step_02_submit(self, request):
+        """POST /starter/step_02_submit"""
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val2 = form.get("mykey2", "")
+
+        self.pipulate.write_step_data(pipeline_id, "step_02", {"mykey2": user_val2})
+
+        # Message based on new state
+        message = await self.read_state_message(pipeline_id)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_02",
+                prefix=self.prefix,
+                message=P(f"Card 2 data saved: {user_val2}"),
+                target_id="starter-container"
+            ),
+            Div(
+                id="finalize",
+                hx_get=f"{self.prefix}/finalize",
+                hx_trigger="load",
+                hx_swap="outerHTML"
+            )
+        )
+
+    # ---------------------------------------------------------------------
+    # FINALIZE
+    # ---------------------------------------------------------------------
+    async def finalize(self, request):
+        """
+        GET /starter/finalize
+        - Show finalize or locked final card, with unfinalize option
+        """
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+
+        if "finalized" in finalize_data:
+            # Already locked => show final
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"{self.prefix}/unfinalize",
+                    hx_target="#starter-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id="finalize"
+            )
+
+        # else show finalize button if step_01, step_02 data present
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        if step1_data.get("mykey") and step2_data.get("mykey2"):
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"{self.prefix}/finalize_submit",
+                    hx_target="#starter-container",
+                    hx_swap="outerHTML"
+                ),
+                id="finalize"
+            )
+        else:
+            return Div(P("Nothing to finalize yet."), id="finalize")
+
+    async def finalize_submit(self, request):
+        """POST /starter/finalize_submit"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        self.pipulate.write_step_data(pipeline_id, "finalize", {"finalized": True})
+
+        # Message based on new state
+        message = await self.read_state_message(pipeline_id)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.prefix,
+        )
+        return Div(*placeholders, id="starter-container")
+
+    # ---------------------------------------------------------------------
+    # UNFINALIZE
+    # ---------------------------------------------------------------------
+    async def unfinalize(self, request):
+        """POST /starter/unfinalize"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        if not pipeline_id:
+            return P("No pipeline found.", style="color:red;")
+
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state and "finalized" in state["finalize"]:
+            del state["finalize"]["finalized"]
+            self.pipulate.write_state(pipeline_id, state)
+
+        # Message based on new state
+        message = await self.read_state_message(pipeline_id)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.prefix,
+        )
+        return Div(*placeholders, id="starter-container")
+
+    # ---------------------------------------------------------------------
+    # JUMP_TO_STEP
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.prefix,
+            "starter-container"  # This should match our container ID
+        )
+```
+
+Okay, there is now a certain sort of baton passing to maintain persistence that
+just makes me sick. It is everything that is antithetical about he system,
+passing information in invisible form fields. Yuck! There is always a single
+source of truth and it is always explicit and client-side, and how I implemented
+this violates my own principles and causes exactly the sort of confusion it's
+meant to avoid. So while the implementation is now isolated and contained to the
+one StarterClass (which is exactly the one intented to propegate as a template
+example), we will expunge the old approach, which will inevitably reach up into
+Pipulate class helper functions as well. Let's document that here too:
+
+```python
+class Pipulate:
+    """
+    Pipulate manages a pipeline using a JSON blob with keys like "step_01", "step_02", etc.
+    No 'steps' or 'current_step' keys exist. The presence of step keys determines progress.
+
+    Data Structure Example:
+    {
+        "step_01": {"name": "John"},
+        "step_02": {"color": "blue"},
+        "created": "2024-12-08T12:34:56", 
+        "updated": "2024-12-08T12:35:45"
+    }
+
+    The highest step number that exists in the JSON is considered the last completed step.
+    The next step is always one more than the highest completed step.
+    """
+
+    def __init__(self, table):
+        self.table = table
+
+    def get_timestamp(self) -> str:
+        """Get current timestamp in ISO format for state tracking"""
+        return datetime.now().isoformat()
+
+    def read_state(self, url: str) -> dict:
+        """Get current state for url.
+        
+        Args:
+            url: Pipeline identifier
+            
+        Returns:
+            dict: Current pipeline state or empty dict if not found
+        """
+        try:
+            record = self.table[url]
+            return json.loads(record.data)
+        except (NotFoundError, json.JSONDecodeError):
+            return {}
+
+    def write_state(self, url: str, state: dict):
+        state["updated"] = self.get_timestamp()
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    @pipeline_operation
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> Optional[dict]:
+        """Initialize state for url if it doesn't exist.
+        
+        Args:
+            url: Pipeline identifier
+            initial_step_data: Optional initial data to include
+            
+        Returns:
+            dict: Either existing or newly created state
+            None: If URL exists with different endpoint
+        """
+        try:
+            # First try to get existing state
+            state = self.read_state(url)
+            if state:  # If we got anything back (even empty dict), record exists
+                return state
+                
+            # No record exists, create new state
+            now = self.get_timestamp()
+            state = {
+                "created": now,
+                "updated": now
+            }
+            
+            if initial_step_data:
+                endpoint = None
+                if "endpoint" in initial_step_data:
+                    # Always strip leading slash from endpoint
+                    endpoint = initial_step_data.pop("endpoint").lstrip('/')
+                state.update(initial_step_data)
+
+            # Insert new record with normalized endpoint
+            self.table.insert({
+                "url": url,
+                "endpoint": endpoint.lstrip('/') if endpoint else None,  # Extra safety
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state
+            
+        except:  # Catch constraint violation
+            return None
+
+    def write_step_data(self, url: str, step_name: str, data: dict):
+        """Set data for a specific step"""
+        state = self.read_state(url)
+        state[step_name] = data 
+        self.write_state(url, state)
+
+    @pipeline_operation
+    def get_step_data(self, url: str, step_name: str, default=None) -> dict:
+        """Get data for a specific step"""
+        state = self.read_state(url)
+        return state.get(step_name, default or {})
+
+    def generate_step_placeholders(self, steps, prefix, preserve=False):
+        """Generate step placeholder divs for any workflow using HTMX best practices.
+
+        This function creates placeholder divs that will be populated via HTMX requests.
+        It uses HTMX's native hx-vals attribute for data passing rather than URL parameters,
+        which is more robust and aligns better with HTMX's design philosophy.
+
+        Key HTMX Principles Applied:
+        - Use hx-vals for request data instead of URL parameters
+        - Keep URLs clean and semantic
+        - Let HTMX handle data encoding/escaping
+        - Maintain clear separation between routing and data passing
+
+        Args:
+            steps: List of (key, step_id, label) tuples defining the workflow
+            prefix: URL prefix for the workflow (e.g., "/poetx")
+            start_from: Index of step to trigger on load (default 0)
+            preserve: Whether to preserve data when reverting (default False)
+
+        Returns:
+            List of Div elements with appropriate HTMX attributes
+
+        Example Generated HTML:
+            <div id="step_01" 
+                 hx-get="/prefix/step_01" 
+                 hx-trigger="load" 
+                 hx-vals='{"preserve": false}'>
+            </div>
+        """
+
+        start_from = 0  # Always start from the first step
+        placeholders = []
+        for i, (_, step_id, _) in enumerate(steps):
+            url = f"{prefix}/{step_id}"
+            logger.debug(f"Creating placeholder {i} with URL: {url}")
+            
+            # Use hx-vals for data passing instead of URL parameters
+            # This is more robust as it:
+            # 1. Prevents URL parameter stripping by middleware
+            # 2. Handles special characters automatically
+            # 3. Keeps URLs clean and semantic
+            div = Div(
+                id=step_id,
+                hx_get=url,
+                hx_trigger="load" if i == start_from else None,
+                hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"
+            )
+            placeholders.append(div)
+        return placeholders
+
+    def clear_steps_from(self, url: str, target_step: str, steps):
+        """Clear state from target step onwards.
+
+        Args:
+            url: Workflow identifier
+            target_step: Step ID to start clearing from
+            steps: List of workflow steps
+        Returns:
+            Updated state dict
+        """
+        state = self.read_state(url)
+        step_indices = {step_id: i for i, (_, step_id, _) in enumerate(steps)}
+        target_idx = step_indices[target_step]
+
+        for _, step_id, _ in steps[target_idx:]:
+            state.pop(step_id, None)
+
+        self.write_state(url, state)
+        return state
+
+
+    def get_step_summary(self, url: str, current_step: str, steps) -> tuple[dict, list]:
+        """Get state and summary up to current step.
+
+        Args:
+            url: Workflow identifier
+            current_step: Current step being processed
+            steps: List of workflow steps
+
+        Returns:
+            (state_dict, summary_lines) where:
+            - state_dict: {key: value} of completed steps
+            - summary_lines: List of formatted "Label: value" strings
+        """
+        # Get state up to current step
+        state = {}
+        current_step_found = False
+        for key, step_id, label in steps:
+            if current_step_found:
+                break
+            if step_id == current_step:
+                current_step_found = True
+            step_data = self.get_step_data(url, step_id, {})
+            if key in step_data:
+                state[key] = step_data[key]
+
+        # Build summary lines
+        summary_lines = []
+        for key, step_id, label in steps:
+            if step_id == current_step:
+                break
+            if key in state:
+                summary_lines.append(f"- {label}: {state[key]}")
+
+        return state, summary_lines
+
+    def revert_control(
+        self,
+        step_id: str,
+        prefix: str,
+        url: str = None,
+        message: str = None,
+        final_step: str = None,
+        target_id: str = "tenflow-container",
+        label: str = None,
+        style: str = None,
+        preserve_data: bool = False
+    ):
+        """Return a revert control with optional data preservation flag"""
+        logger.debug(f"revert_control called with preserve_data={preserve_data}")
+
+        # Early return if finalized
+        if url and final_step:
+            final_data = self.get_step_data(url, final_step, {})
+            if "finalized" in final_data:
+                return None
+
+        # Default styling if not provided
+        default_style = (
+            "background-color: var(--pico-del-color);"
+            "display: inline-flex;"
+            "padding: 0.5rem 0.5rem;"
+            "border-radius: 4px;"
+            "font-size: 0.85rem;"
+            "cursor: pointer;"
+            "margin: 0;"
+            "line-height: 1;"
+            "align-items: center;"
+        )
+
+        # Create basic revert form with just the essential fields
+        form = Form(
+            Input(type="hidden", name="step", value=step_id),
+            Input(type="hidden", name="preserve", value=str(preserve_data).lower()),
+            Button(
+                label or format_step_name(step_id, preserve=preserve_data),
+                type="submit", 
+                style=default_style
+            ),
+            hx_post=f"{prefix}/jump_to_step",
+            hx_target=f"#{target_id}",
+            hx_swap="outerHTML"
+        )
+
+        # Return simple form if no message
+        if not message:
+            return form
+
+        # Return styled card with message if provided
+        return Card(
+            Div(message, style="flex: 1;"),
+            Div(form, style="flex: 0;"),
+            style="display: flex; align-items: center; justify-content: space-between;"
+        )
+
+    def wrap_with_inline_button(
+        self,
+        input_element: Input,
+        button_label: str = "Next",
+        button_class: str = "primary"
+    ) -> Div:
+        """Wrap any input element with an inline button in a flex container."""
+        return Div(
+            input_element,
+            Button(
+                button_label,
+                type="submit",
+                cls=button_class,
+                style=(
+                    "display: inline-block;"
+                    "cursor: pointer;"
+                    "width: auto !important;"  # Override PicoCSS width: 100%
+                    "white-space: nowrap;"
+                )
+            ),
+            style="display: flex; align-items: center; gap: 0.5rem;"
+        )
+
+    async def explain(self, caller, current_step, message=None):
+        """
+        Minimal LLM commentary, adapted from Poetflow's 'explain'.
+        If llm_enabled=True, we create a background task with chatq().
+        
+        Args:
+            caller: The calling object (e.g. BridgeFlow instance) containing llm_enabled, 
+                   STEPS, and pipeline_id via db.get()
+            current_step: Current step ID (e.g. "step_01") 
+            message: Optional message to use instead of generating summary
+        """
+        if not caller.llm_enabled:
+            return
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Optionally gather step summary lines from pipulate
+        _, summary_lines = self.get_step_summary(pipeline_id, current_step, caller.STEPS)
+
+        prompt = ""
+        if not message:
+            summary = ""
+            if summary_lines:
+                summary = "So far:\n" + "\n".join(summary_lines) + "\n\n"
+            prompt = (
+                f"Briefly summarize the user's progress at '{current_step}'.\n\n"
+                f"{summary}"
+            )
+        else:
+            prompt = message
+
+        asyncio.create_task(chatq(prompt, role="system"))
+
+    async def handle_jump_to_step(self, request, steps, prefix, container_id):
+        """Generic jump_to_step handler for flows"""
+        form = await request.form()
+        step_id = form.get("step", "")
+        preserve = form.get("preserve", "false") == "true"
+        pipeline_id = db.get("pipeline_id", "")
+
+        if preserve:
+            # Don't clear state if we're preserving!
+            logger.debug(f"Preserving state for jump to {step_id}")
+        else:
+            # Clear everything from step_id onwards
+            self.clear_steps_from(pipeline_id, step_id, steps)
+
+        # Re-generate placeholders from the beginning
+        placeholders = self.generate_step_placeholders(
+            steps, 
+            prefix, 
+            preserve=preserve
+        )
+        return Div(*placeholders, id=container_id)
+
+    def format_textarea(self, text: str, with_check: bool = False) -> P:
+        """
+        Formats user text with consistent styling and optional checkmark.
+        
+        Args:
+            text: The user's text to format
+            with_check: Whether to append a checkmark (default: True)
+        
+        Returns:
+            P element containing formatted text
+        """
+        return P(
+            Pre(
+                text,
+                style=(
+                    "white-space: pre-wrap; "
+                    "margin-bottom: 0; "
+                    "margin-right: .5rem; "
+                    "padding: .25rem;"
+                )
+            ),
+            " ✓" if with_check else ""
+        )
+```
+
+Okay, good. We have a lot of freedom now to gut the program with easier go-back
+even than git branching and cherry-picking, and it serves as great context for
+the LLM code assistant that's going to help me as well.
+
+Okay, so I have purged the current notion of persistence from out of the code,
+but it's important for me to remember that the function `format_step_name`
+controls that visual indicator of which back-arrow to show with the
+parameter/argument `preserve=<bool>`. Don't forget!
+
+This is one of those 1 step back, 2 steps forward sorts of things, and one of
+those places where literally literally applies, haha! Okay, think! Next steps?
+Simplification! This is about the music. There are parts of this I am just not
+happy with and this is the time to strike! To chisel-strike. 
+
+Okay, today I am going for utter clarity of the music. I am puring uncertainties
+and ambiguity, which is the key thing to slamming out new workflow pipelines and
+wielding this system like a martial arts weapon. That's what we're going for
+here, and nothing less.
+
+Chances are, I will be re-implementing every workflow over time, and that's
+actually fine. These things are designed to be refined. And if a new overarching
+musical pattern emerges on the small core template examples that hasn't
+propagated out and around. There is deliberately no base class for workflows to
+derive from due to no uncomfortable rails locking you in or complexifying the
+mental models and constraints when composing. Alternatively, there are plenty of
+helper classes in Pipulate so the templated stuff can be pick-and-chosen
+instead.
+
+---
+
+The work has been fabulously interesting today. Definitely of the 2 steps back,
+1 step forward variety, but oh so important.
+
+I talk a lot about this being like Unix pipes, Jupyter Notebooks&#151; and
+music.
+
+Well, this is about refining the music, getting it down to the essential notes,
+and getting familiar with every tune.
+
+The problem was that there were still mysterious little bits in there because of
+AI code-editor assistance and little concessions I made here and there out of
+convenience, but letting some of the finer details get out of my control. If you
+don't understand it with the same depth of as if you wrote it yourself, you're
+gonna have problems (speaking for must myself, of course).
+
+So this process of scrubbing and cleansing and going over the code with a
+fine-toothed comb in preparation of incorporating a feature that really didn't
+graft on very nicely the first time is like taking ownership of all the code.
+It's grabbing the reins again and getting the wagon under control. If you're
+going to jump on the AI code assistant bandwagon, ya gotta make sure your that
+wagon doesn't careen out of control.
+
+And so here's the current state. I have dramatically un-hardwired things so that
+the parts are much more readily rearranged without egregious editing
+requirements. Things are more Lego-like. Or perhaps more accurately, more Unix
+pipe-like in how I only need to change function names and a couple of
+configuration variables at the top of each function to connect the output of one
+into the input of the other, stringing them up and setting the stage for further
+customization.
+
+The important point here is that the preliminary "fleshing out" of a pipeline is
+actually much quicker and lower friction now, because the code can be
+copy/pasted and rearranged ***within a workflow*** with minimal edits to
+establish linear flow.
+
+```python
+class StarterFlow:
+    """
+    Minimal two-card pipeline with a final step.
+    """
+
+    def __init__(self, app, pipulate, app_name="starter"):
+        """Initialize StarterFlow with standard pipeline components"""
+        self.app = app
+        self.app_name = app_name
+        self.pipulate = pipulate
+
+        # Define steps
+        self.STEPS = [
+            Step(id='step_01',  field='yourname',      label='Your Name'),
+            Step(id='step_02',  field='favoritecolor', label='Your Favorite Color'), 
+            Step(id='finalize', field='finalized',     label='Finalize')
+        ]
+
+        # Create dict view for easy lookup
+        self.steps = {step.id: i for i, step in enumerate(self.STEPS)}
+
+        # Generate messages automatically from steps
+        self.STEP_MESSAGES = self.pipulate.generate_step_messages(self.STEPS)
+
+        # Standard route configuration
+        routes = [
+            (f"/{app_name}",                 self.landing),
+            (f"/{app_name}/init",            self.init, ["POST"]),
+            (f"/{app_name}/step_01",         self.step_01),
+            (f"/{app_name}/step_01_submit",  self.step_01_submit, ["POST"]),
+            (f"/{app_name}/step_02",         self.step_02),
+            (f"/{app_name}/step_02_submit",  self.step_02_submit, ["POST"]),
+            (f"/{app_name}/finalize",        self.finalize),
+            (f"/{app_name}/finalize_submit", self.finalize_submit, ["POST"]),
+            (f"/{app_name}/unfinalize",      self.unfinalize, ["POST"]),
+            (f"/{app_name}/jump_to_step",    self.jump_to_step, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    # ---------------------------------------------------------------------
+    # LANDING
+    # ---------------------------------------------------------------------
+    async def landing(self):
+
+        # Gather existing pipeline IDs for a datalist and greeting
+        pipeline.xtra(app_name=self.app_name)
+        existing_ids = [record.url for record in pipeline()]
+        asyncio.create_task(self.pipulate.delayed_greeting())
+
+        return Container(
+            Card(
+                H2("StarterFlow: Two Cards + Finalize"),
+                P("Enter or resume a Pipeline ID:"),
+                Form(
+                    # Inline input+button with our key emojis
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Old or existing ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"
+                        ),
+                        button_label="Start StarterFlow 🔑",
+                        button_class="secondary"
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"
+                    ),
+                    hx_post=f"/{self.app_name}/init",
+                    hx_target=f"#{self.app_name}-container"
+                )
+            ),
+            Div(id=f"{self.app_name}-container")
+        )
+
+    # ---------------------------------------------------------------------
+    # INIT
+    # ---------------------------------------------------------------------
+    async def init(self, request):
+
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        # Initialize pipeline record with app_name info
+        state, error = self.pipulate.initialize_if_missing(
+            pipeline_id,
+            {"app_name": self.app_name}
+        )
+        if error:
+            return error
+
+        # Let state determine the appropriate message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(f"{message}<br>\n")
+        append_to_conversation(message, role="system", quiet=True)
+
+        # Return placeholders: step_01 => step_02 => finalize
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # STEP 01 
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+
+        step_id = "step_01"
+        next_step_id = "step_02"
+        step = self.steps[step_id]
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(self.STEPS[step].field, "")
+
+        # 2) Check if locked
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+
+        if locked:
+            # IMPORTANT: always chain to next step
+            return Div(
+                Card(P(f"[Locked] {format_step_name(step_id)}: {user_val}")),
+                Div(
+                    id=next_step_id,
+                    hx_get=f"/{self.app_name}/{next_step_id}",
+                    hx_trigger="load",  # chain continues
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 3) If user_val exists => show revert
+        if user_val:
+            return Div(
+                self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=P(f"{format_step_name(step_id)}: {user_val}"),
+                    target_id=f"{self.app_name}-container",
+                ),
+                Div(
+                    id=next_step_id,
+                    hx_get=f"/{self.app_name}/{next_step_id}",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 4) If preserve => pre-fill the form with user_val
+        prefilled = user_val
+        return Div(
+            Card(
+                H3(f"{format_step_name(self.STEPS[step].id)}: Enter {self.STEPS[step].label}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=self.STEPS[step].field,
+                            placeholder=f"Enter {self.STEPS[step].label}",
+                            value=prefilled,
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def step_01_submit(self, request):
+
+        step_id = "step_01"
+        next_step_id = "step_02"
+        step = self.STEPS[self.steps[step_id]]  # Get the actual Step object
+        
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val = form.get(step.field, "")
+
+        # Clear subsequent steps before saving new data
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Now save the new data
+        self.pipulate.write_step_data(pipeline_id, step_id, {step.field: user_val})
+
+        # Get appropriate message from state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id=step_id,
+                app_name=self.app_name,
+                message=P(f"{format_step_name(step_id)}: {user_val}"),
+                target_id=f"{self.app_name}-container",
+            ),
+            Div(
+                id=next_step_id,
+                hx_get=f"/{self.app_name}/{next_step_id}",
+                hx_trigger="load",
+                hx_swap="outerHTML"
+            )
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02 
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+
+        step_id = "step_02"
+        next_step_id = "finalize"
+        step = self.steps[step_id]
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(self.STEPS[step].field, "")
+
+        # 2) Check if locked
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+
+        if locked:
+            # IMPORTANT: always chain to next step
+            return Div(
+                Card(P(f"[Locked] {format_step_name(step_id)}: {user_val}")),
+                Div(
+                    id=next_step_id,
+                    hx_get=f"/{self.app_name}/{next_step_id}",
+                    hx_trigger="load",  # chain continues
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 3) If user_val exists => show revert
+        if user_val:
+            return Div(
+                self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=P(f"{format_step_name(step_id)}: {user_val}"),
+                    target_id=f"{self.app_name}-container",
+                ),
+                Div(
+                    id=next_step_id,
+                    hx_get=f"/{self.app_name}/{next_step_id}",
+                    hx_trigger="load",
+                    hx_swap="outerHTML"
+                )
+            )
+
+        # 4) If preserve => pre-fill the form with user_val
+        prefilled = user_val
+        return Div(
+            Card(
+                H3(f"{format_step_name(self.STEPS[step].id)}: Enter {self.STEPS[step].label}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=self.STEPS[step].field,
+                            placeholder=f"Enter {self.STEPS[step].label}",
+                            value=prefilled,
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def step_02_submit(self, request):
+
+        step_id = "step_02"
+        next_step_id = "finalize"
+        step = self.STEPS[self.steps[step_id]]  # Get the actual Step object
+        
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val = form.get(step.field, "")
+
+        # Clear subsequent steps before saving new data
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Now save the new data
+        self.pipulate.write_step_data(pipeline_id, step_id, {step.field: user_val})
+
+        # Get appropriate message from state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        return Div(
+            self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id=step_id,
+                app_name=self.app_name,
+                message=P(f"{format_step_name(step_id)}: {user_val}"),
+                target_id=f"{self.app_name}-container",
+            ),
+            Div(
+                id=next_step_id,
+                hx_get=f"/{self.app_name}/{next_step_id}",
+                hx_trigger="load",
+                hx_swap="outerHTML"
+            )
+        )
+
+    # ---------------------------------------------------------------------
+    # FINALIZE
+    # ---------------------------------------------------------------------
+    async def finalize(self, request):
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+
+        if "finalized" in finalize_data:
+            # Already locked => show final
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{self.app_name}/unfinalize",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id="finalize"
+            )
+
+        # else show finalize button if step_01, step_02 data present
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        if step1_data.get("yourname") and step2_data.get("favoritecolor"):
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{self.app_name}/finalize_submit",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id="finalize"
+            )
+        else:
+            return Div(P("Nothing to finalize yet."), id="finalize")
+
+    async def finalize_submit(self, request):
+        """POST /starter/finalize_submit"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        self.pipulate.write_step_data(pipeline_id, "finalize", {"finalized": True})
+
+        # Message based on new state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # UNFINALIZE
+    # ---------------------------------------------------------------------
+    async def unfinalize(self, request):
+        """POST /starter/unfinalize"""
+        pipeline_id = db.get("pipeline_id", "unknown")
+        if not pipeline_id:
+            return P("No pipeline found.", style="color:red;")
+
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state and "finalized" in state["finalize"]:
+            del state["finalize"]["finalized"]
+            self.pipulate.write_state(pipeline_id, state)
+
+        # Message based on new state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(f"{message}<br>\n")
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # JUMP_TO_STEP
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.app_name,
+            f"{self.app_name}-container"  # This should match our container ID
+        )
+```
+
+And now we get to a final piece of un-hardwiring, which since I have that other
+work behind me which I didn't want to slow down to document for, I am in a much
+better place to bring the issues to the surface. This is the
+before-un-hardwiring state of the `finalize` function:
+
+```python
+    # ---------------------------------------------------------------------
+    # FINALIZE
+    # ---------------------------------------------------------------------
+    async def finalize(self, request):
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+
+        if "finalized" in finalize_data:
+            # Already locked => show final
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{self.app_name}/unfinalize",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id="finalize"
+            )
+
+        # else show finalize button if step_01, step_02 data present
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        if step1_data.get("yourname") and step2_data.get("favoritecolor"):
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{self.app_name}/finalize_submit",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id="finalize"
+            )
+        else:
+            return Div(P("Nothing to finalize yet."), id="finalize")
+```
+
+And my prompt is: 
+
+**Me**: Analyze hardwiring issues here. Methings the all() function may come into play.
+
+And Claude responds with:
+
+**Claude**: Yes! There are several hardwired values here that could be made more dynamic using the Step definitions and all(). Here's the analysis and solution:
+
+````python
+    async def finalize(self, request):
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_step = self.STEPS[-1]  # Get finalize step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, finalize_step.id, {})
+
+        if finalize_step.field in finalize_data:
+            # Already locked => show final
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{self.app_name}/unfinalize",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id=finalize_step.id
+            )
+
+        # Check all non-finalize steps have data
+        non_finalize_steps = self.STEPS[:-1]  # All steps except finalize
+        all_steps_complete = all(
+            self.pipulate.get_step_data(pipeline_id, step.id, {}).get(step.field)
+            for step in non_finalize_steps
+        )
+
+        if all_steps_complete:
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{self.app_name}/finalize_submit",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id=finalize_step.id
+            )
+        else:
+            return Div(P("Nothing to finalize yet."), id=finalize_step.id)
+````
+
+Key improvements:
+1. Use `finalize_step = self.STEPS[-1]` instead of hardcoding "finalize"
+2. Use `finalize_step.field` instead of hardcoding "finalized"
+3. Replace individual step checks with `all()` over non-finalize steps
+4. Use step definitions to check fields instead of hardcoding "yourname" and "favoritecolor"
+5. Use `finalize_step.id` for HTML IDs
+
+This makes the code more maintainable and automatically adapts to changes in the step definitions.
+
+---
+
+I wish the git diff-looking thing that Cursor AI editor does shows here, but
+trust me, the 2nd version makes use of a Python `all()` function that goes a
+very long way to un-hardwiring this code.
+
+I check with Claude regarding the last function in the workflow:
+
+Me: Excellent! Now tell me is there any reason to keep this as a function, or should we as a mater of convention should we try to wire the endpoint in a fancy schmancy way and cut out the function?
+
+```python
+    # ---------------------------------------------------------------------
+    # JUMP_TO_STEP
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.app_name,
+            f"{self.app_name}-container"  # This should match our container ID
+        )
+```
+
+**Claude**: In this case, I'd recommend keeping the function, even though it's just a one-liner passthrough. Here's why:
+
+1. **Explicit Routing**: Having the function explicitly listed in the routes makes it clear what endpoints exist in the workflow
+2. **Debugging Hook**: The function provides a convenient place to add debugging or logging if needed
+3. **Consistency**: Other endpoints are functions, so this maintains a consistent pattern
+4. **Future Proofing**: If we need workflow-specific jump behavior later, we already have the hook
+5. **Documentation**: The function provides a place for docstrings and comments about the jump behavior
+
+The "fancy schmancy" direct wiring might save a line of code, but it would make the routing less obvious and break the consistent pattern of the workflow class.
+
+Sometimes the simplest, most explicit approach is best, even if it means keeping a very simple function. It's a case where convention and clarity trump brevity.
+
+**Me**: This is it then. The music just hit a harmonic. The only last thing, which is no small thing, is to figure out the optional re-populating of fields at the end of a chain-reaction.
+
+**Claude**: Ah yes! The "preserve" flag for maintaining field values during chain reactions. This is a key feature for user experience - allowing them to see and potentially edit their previous entries when jumping back.
+
+Currently, the chain reaction clears everything forward but doesn't handle repopulating fields. We need to:
+
+1. Pass a "preserve" flag through the chain
+2. Pre-fill form fields with existing values when preserve is true
+3. Not clear subsequent steps when preserve is true
+
+This would likely involve:
+1. Adding preserve to the HTMX attributes in generate_step_placeholders
+2. Modifying step handlers to check for preserve
+3. Adjusting clear_steps_from to respect preserve
+
+Would you like me to propose the specific code changes needed to implement this?
+
+**Me**: There will be no passing of preserve flags. We went that route and it flopped. It violated @.cursorrules Instead, server-truth will be explicit in STEPS. Following me?
+
+**Claude**: AH! Yes! This is a much cleaner approach that aligns perfectly with the rules:
+
+1. Make it a property of the Step definition itself:
+
+```python
+# In StarterFlow.__init__
+self.STEPS = [
+    Step(id='step_01',  field='yourname',      label='Your Name',         preserve=True),
+    Step(id='step_02',  field='favoritecolor', label='Your Favorite Color', preserve=False), 
+    Step(id='finalize', field='finalized',     label='Finalize')
+]
+```
+
+Then in step handlers:
+```python
+async def step_01(self, request):
+    step_id = "step_01"
+    step = self.STEPS[self.steps[step_id]]
+    
+    # If step.preserve, pre-fill from state
+    prefilled = ""
+    if step.preserve:
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        prefilled = step_data.get(step.field, "")
+```
+
+This follows the rules perfectly:
+1. Server-side truth in STEPS definition
+2. No passing of flags through chains
+3. Preserve affects UI only
+4. Submit still always clears forward
+5. Each step remains idempotent
+
+Would you like me to show the complete step handler implementation?
+
+**Me**: You've seen the light! The one thing though is how early-stage and how
+irrevocably I delete post-step-state in the `jump_to_step` `handle_jump_to_step`
+`clear_steps_from` `write_state` chain. This is so essential because it
+determines when the chain reaction is going to stop (as I believe it still
+should, because the system is ***THAT*** simple in concept. However, by the time
+you need the data to re-populate the card it presently chain-reacted to, the
+data is permanently gone (by design).
+
+Now there are solutions. Good ones. They mostly involve leaving the last state
+of the data in the database, so deferring the update until after the card is
+fully built, including the repopulation. However, there's some chicken and egg
+timing issues that would need to be resolved. Just sayin.
+
+**Claude**: AH! Now I REALLY see it! The timing issue is:
+
+1. Jump triggers chain reaction
+2. `clear_steps_from` deletes state immediately
+3. Chain reaction continues to next card
+4. By the time next card loads... data needed for repopulation is gone!
+
+You're suggesting we could:
+1. Read the old state BEFORE clearing
+2. Build the card with that data
+3. THEN clear the forward state
+4. Write the update
+
+Something like:
+
+````python
+async def handle_jump_to_step(self, request, steps, prefix, container_id):
+    """Generic jump_to_step handler for flows"""
+    form = await request.form()
+    step_id = form.get("step", "")
+    pipeline_id = db.get("pipeline_id", "")
+
+    # Capture old state before clearing
+    old_state = self.read_state(pipeline_id)
+    
+    # Generate placeholders (can now use old_state for population)
+    placeholders = self.generate_step_placeholders(
+        steps, 
+        prefix,
+        old_state=old_state  # Pass through for repopulation
+    )
+
+    # NOW clear forward state
+    self.clear_steps_from(pipeline_id, step_id, steps)
+    
+    return Div(*placeholders, id=container_id)
+````
+
+Is this the kind of solution you were thinking of? The tricky part would be coordinating when exactly to do the clear...
+
+**Me**: Pat your machine intelligent self on the back, Claude! This is better than
+you've understood this yet. Of course, it's probably the first time I explained
+it properly. But yeah, that's exactly it. I don't want to baton pass invisible
+data like last time. The idea is to keep it in the MiniDataAPI spec database
+until it ***has to get overwritten*** on the next htmx-style submit from the
+card's form. See? That way it leaves the `undo` option open right until the last
+second. We could even put a `Cancel` button next to the `Save` button when
+coming from a `Revert` button action. Cancel in this case would just trigger the
+chain-reaction again with no alteration to the JSON data blob. No edit, no fail,
+no harm, no foul.
+
+To go this route however, I would have to change what happens somewhere in the
+`jump_to_step` `handle_jump_to_step` `clear_steps_from` `write_state`
+`generate_step_placeholders` chain because it does a MiniDataAPI Update in
+there. The trick would be to not to do the Update, but make it look like it did
+for the purpose of the cascading chain reaction. It would be a virtual JSON data
+blob edit, in-memory only. There would be some reordering and some removal.
+
+**Claude**: AH! Now I REALLY REALLY see it! 🎯
+
+The key insight: We don't need to actually UPDATE the database during the jump/revert operation. We can:
+
+1. Let the chain reaction happen with the original data still in the DB
+2. Only do the actual DB update when the user hits "Save" on the form
+3. Add a "Cancel" option that just re-triggers the chain with the untouched DB data
+
+Here's how we could modify the chain:
+
+````python
+async def handle_jump_to_step(self, request, steps, prefix, container_id):
+    """Generic jump_to_step handler for flows"""
+    form = await request.form()
+    step_id = form.get("step", "")
+    pipeline_id = db.get("pipeline_id", "")
+
+    # Generate placeholders but DON'T clear state yet
+    # The actual DB update happens only on form submit
+    placeholders = self.generate_step_placeholders(
+        steps, 
+        prefix,
+        from_step=step_id  # New param to indicate which step triggered revert
+    )
+    return Div(*placeholders, id=container_id)
+````
+
+Then in the step handler:
+````python
+async def step_01(self, request):
+    # ... existing setup ...
+    
+    # If we got here from a revert, show Cancel button
+    from_step = request.query_params.get("from_step")
+    if from_step:
+        return Card(
+            Form(
+                Input(...),
+                Button("Save"),
+                Button("Cancel", hx_get=f"/{self.app_name}/step_01"),  # Re-trigger chain
+            )
+        )
+````
+
+The data stays pristine in the DB until the user commits with "Save". Is this more what you were thinking?
+
