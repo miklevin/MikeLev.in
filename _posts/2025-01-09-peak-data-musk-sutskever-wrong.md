@@ -447,7 +447,30 @@ The second thing is the rate at which new information being generated is deemed 
 
 ## The Synthetic Data Alternative
 
-Lastly the suspicious thing is that the alternative to the more difficult task of identifying and curating new data is the generation of synthetic data. It seems to me that both Sutskever and Musk are suggesting synthetic data because they are in the position to generate it given their computing power, but lack of a crawl or new data equation infrastructure, like Google. It seems like it is a matter of reframing the challenge according to "if all you have is a hammer than everything looks like a nail" principle instead of doing the harder thing and coming up with a new tool. Generating synthetic data is easier than creating some sort of important new data capture mechanism of that vast quantity of data being generated every day. Elon did buy Twitter, so he does have one of those data sources. But it is the inane babble data source and nothing like Google's infrastructure or their Google Book Library project, which has been digitizing books for years, copyright issues aside.
+Lastly the suspicious thing is that the alternative to the more difficult task
+of identifying and curating new data is the generation of synthetic data. It
+seems to me that both Sutskever and Musk are suggesting synthetic data because
+they are in the position to generate it given their computing power, but lack of
+a crawl or new data equation infrastructure, like Google. It seems like it is a
+matter of reframing the challenge according to "if all you have is a hammer than
+everything looks like a nail" principle instead of doing the harder thing and
+coming up with a new tool. Generating synthetic data is easier than creating
+some sort of important new data capture mechanism of that vast quantity of data
+being generated every day. Elon did buy Twitter, so he does have one of those
+data sources. But it is the inane babble data source and nothing like Google's
+infrastructure or their Google Book Library project, which has been digitizing
+books for years, copyright issues aside.
+
+This would all seem to suggest that what can be learned from a static data set
+is all that can be learned, and only in the way that it is learned currently.
+Nothing new can be gleaned from another pass or a second look at the same data?
+And all the new data coming out at that vibrating edge fringe of what's known,
+like all the space-telescope and LHC data that could really use some help
+analyzing from what I hear.
+
+And might I add I imagine would be some of the most interesting and important to
+learn from. And it's being written off? Peak data my arse! That's a defeatist
+attitude and one I would hardly imagine coming from Musk.
 
 ### Conclusion
 
