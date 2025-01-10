@@ -606,3 +606,223 @@ to press. But still, it's not automation. And there are no rabbit holes. It's
 just the Python `webbrowser` package that comes with the standard library.
 
 And so that is where we will begin.
+
+Rabbit holes are hard to resist, because many things you realize need to be done
+feel like chained dependencies, where before you do that you have to do this.
+
+That is an illusion. Many more things are deferrable than the playful child who
+wants to follow the most interesting thing inside of you tries to tell you. I
+say ***you***, but of course I just mean me and I'm generalizing. Who knows what
+your experience is, but that's what I find. It's shiny object syndrome. The dog
+drops the bone it's burying because it sees some other bone. It's
+self-defeating, no matter how much the infusion of motivation because you are
+deeply interested in that other thing might help. 
+
+Ultimately, "would be nice" dependencies that can be deferred until later so you
+can get what you already deemed most important done are detrimental and
+derailing unless there's some really compelling reason it's an exception. 
+
+What those really compelling reasons might be are up to you as the rabbit hole
+spelunker whose attaching rappelling equipment to determine that criteria. If
+you go spelunking down a rabbit hole experimentally just to see how deep it is,
+don't get hypnotized by the wonders you'll find down there. When you feel
+yourself getting hypnotized, like Mowgli in the coils of Kaa, that's when you
+give a good yank! Have your free-will and agency haul you by your rappelling
+gear back up. Setting the threshold on that system is a practiced skill.
+Sometimes you can be in-and-out of those rabbit holes accomplishing just what
+you want. Other times, they can derail your project and your life. Practice!
+
+Anyhow, this tech journal itself could be seen as one of those rabbit holes, but
+for the fact it's a serendipity-to-deliberateness machine, like HitTail.
+Deliberateness is another way of saying exercising free-will and agency. Take
+paths you would have otherwise not taken if you didn't stop to dredge-up and
+process your ideas and notice new little details or ways of thinking about
+things you haven't before.
+
+There's a couple that come to mind at this point in the project. First we gauge
+time. It's coming up on 8:00 PM. Not bad. If I go to 3 or 4 AM, that's into a
+Friday, which is into a weekend, and if I konk myself out, that's fine. I won't
+have to be in front of clients again for a few days. So, my timing is perfect. I
+can coffee-up and bear down on this work.
+
+The next thing to come to mind is the Jupyter-Pipulate connection. Juptyer is
+about linear workflows and pipelines, although most people don't think about
+them or talk about them that way, because they like executing things out of
+order learning and experimenting, taking advantage of the very powerful
+***REPL*** (read, eval, print, loop) environment, but giving Notebooks a bad
+name. 
+
+For people not familiar with Jupyter Notebooks, the code never really stops
+running secretly in the background, stuck in a quiet loop so that if you set `a
+= 1`, run the cell and go check the value of `a` later, it's still equal to `1`.
+It never stops running until you reset it. That way, you can build up your
+programs a cell of code at a time. This is particularly useful in ***data
+science*** where you're dealing with data structures like Pandas DataFrames
+(often known by convention as `df`). You load a `.csv` file for example into a
+`df`, and then you start doing manipulations on it. That's what today's project
+is mostly going to be about, once we get past the browser automation bits to
+download the CSVs.
+
+So you build up a program cell-by-cell in Jupyter Notebooks. Microsoft and
+Google will try to get you to stop calling them Jupyter Notebooks because they
+don't like the free and open source (FOSS) branding on something they can just
+steal (because it's FOSS) and relabel as just plain ***Notebooks*** in Colab and
+VSCode. But they're ***Jupyter*** Notebooks, for sure. If you like that Python
+REPL way of working, it's something from the very nice ***[Project
+Jupyter](https://jupyter.org/about)***, which just happens to be appealing
+enough to be lifted and repackaged by all the big vendors to inject themselves
+as a Notebook dependency. 
+
+Project Jupyter organization is one of the truly altruistic good guys in
+free-as-in-freedom software movement of tech, like Debian and GNU. Many people
+say if you don't pay for the product than you are the product. That's actually
+not true in the case of Debian, GNU and Jupyter. Sometimes it's free as in there
+are occasionally surprisingly generous and altruistic people in this world who
+want to just help you to improve your life, feel good about themselves and make
+the world a better place.
+
+When you use a Notebook, the goal should be to get the code into the correct
+prescribed linear order, cells arranged top-down so you can choose ***Reset
+Kernel and Run All Cells...*** This both resets the Python code execution
+environment which was previously storing all the global variables, and runs it
+exactly as it would if you typed `python some_file.py` into the command-line. It
+runs beginning-to-end.
+
+Now of course you can program things to be non-linear and to jump around. But if
+you're doing that, you probably shouldn't be using a Notebook which is so
+conducive to top-down execution. I often observe how counter-intuitively, the
+introduction of functions to a Jupyter Notebook actually makes things harder
+than easier, because all your function-scoped variables go away when the
+function is exited. You can only inspect global variables REPL-style.
+
+The top-down beginning-to-ending execution I described also dodges talking about
+interacting with the user to acquire input, even if the flow does remain linear.
+And for this, there are ipywidgets. You're not going to be running the Jupyter
+Notebook against exactly the same dataset every time. You want to start perhaps
+from a different `.csv`-file to load or a different website to crawl and you
+have to stop and ask the user for the filename or the URL. That sort of
+interactivity can often be achieved with simply input fields where you type
+something in and hit `Enter`. But sometimes it's more sophisticated like giving
+them a pop-up file requester to select a file, or to give a slider, or even to
+click somewhere on a data visualization.
+
+The flow is still linear. You're just collecting variable input values (aka
+arguments) for input-fields (aka parameters) along the way. 
+
+And this is where the concept of Unix pipes rears its head to assert itself as
+an infrequently noticed parallel between how Jupyter Notebooks work and how one
+of the oldest tech tricks in the book work: chaining the output of one command
+(aka function) to the input of another, chaining up the outputs and inputs until
+some fancy transformation occurred that you can call a product. Or a
+deliverable. Or something that adds value and you can show the client and be a
+proud SEO.
+
+Jupyter Notebooks are Unix pipes, but the excessively flexible and intimidating
+environment that exposes the code and insufficiently tightly controlled
+environment that demands a certain level of bravery and expertise and allows
+screw-ups gets in the way. Tightening all that up is called turning it into an
+app. And that's what Pipulate does. It takes the linear workflows, or pipelines,
+and turns them into very Jupyter-like linear workflows but as webapps that
+doesn't expose the Python code and puts it all on tighter rails&#151; asking the
+user for input when it needs it, and explaining steps along the way when it
+should. That's Pipulate. That's pipulating.
+
+And the ports from Jupyter Notebooks to Pipulate should be ridiculously easy.
+The problem right now is that they're not. This is the early-stages outlier
+stuff where nothing is obvious, until it is. And then you can hardly imagine it
+being done any other way.
+
+And ***that's why taking this next step*** got drawn out for days for me and
+easily drowned out by the more urgent client-work of the day &#151; as well, it
+should unless I had the guts to go off and do this independently. But I am not
+in the financial position or stage of life to do that. I'm punching a clock, and
+therefore doing this all on top of the daily grind and under that sort of stress
+and probably for the good of the project makes it forged in the crucible of the
+working stiff's reality. I won't be architecture astronaut waddling in Conway's
+Law of the sort Joel Spolsky warns against. That is my tendency and I know I
+project that, but I can not allow myself to be that.
+
+This is where I pull on the rabbit hole rappelling rig and haul my awareness
+back up to practical next-steps where it should be. Taking the nap and
+day-shifting will be me a few luxurious hours to do the thought-work, but not
+that many. It has to be just as much weighted towards hard-nosed coding
+implementation at this point, which I will also walk you through right here in
+this article. These articles are bit overwhelming, I know. But they are designed
+that way. They will be digested by vector embedded database, mapped into a graph
+database, and respun into various versions of the future-proofing FOSS book. So
+lucky you, if you're here reading this, are in the LLM-training and RAG-content
+fodder. Woot!
+
+I am sorely tempted to make the first Card of GapAnalysisFlow "put in your most
+primary keyword" in order to pop open a browser to a Google search on that
+keyword under Puppeteer/Playwright to grab the DOM, parse out the competitors
+and pre-populate the textarea I already have showing in the freshly started
+flow. But that alone could blow my whole time-window, so it's interesting but
+not critical. It can be deferred, maybe to never come back to again. Who knows?
+
+I'm in a race against running out of steam. These articles pump me up and give
+me clarity of purpose, but then that head of steam has to be intelligently used
+and not squandered on too much writing or the wrong rabbit hole. This is
+pivotal. Think efficiency of keystrokes. Adjust things to make it as easy to
+code in the Botifython project as it is write here...
+
+Close all tabs but those you need. Done.
+
+Oh, this is an interesting one and a hard to articulate obstacle I've struggled
+with. I've recently given up the Electron-based standalone desktop version of
+JupyterLab, at first because it wasn't well supported on NixOS, but then
+recognized that once you're managing a FastHTML web app install under a
+`flake.nix` file, the Jupyter install should be done that way too. And here's a
+radical departure. I started out with JupyterLab instad of Jupyter Notebook
+(surprisingly, 2 distinct products), because I felt the increased dashboarding
+capabilties of JupyterLab would come into play, but now that most of that is
+going to be under Pipulate, it opens the door to formally supporting the
+older... no, no, no! Rabbit hole! JupyterLab is the future. Don't regress. And
+don't do the double damage of distracting yourself with a regression.
+
+The obstacle is that I've been launching Jupyter in the same folder as Pipulate,
+so all the notebooks go into the Botifython folder, but I've been hesitant to do
+that because I don't want to pollute the repo. But the magic fairy dust that
+turns any repo into an isolated JupyterLab data science environment is the nix
+flake, where I only need copy into a new folder, and type `nix develop! And so
+go type `stop` to get the default tmux-hosted Pipulate JupyterLab instance out
+of memory. Check `localhost:8888`, okay, it's gone.
+
+And now copy the `flake.nix` file from the current repo you're working out of
+and over into the repo that holds the Notebook you're porting tonight... okay,
+done. And type adfsdf nix develop` from that repo... and then `start`... and
+there it is! Wow, okay points to remember is that it's important which Nix Flake
+you actually start out with. These Python data science environments are subtly
+different. And the biggest split is whether I'm leaning on what's already in the
+Nix software repository and putting the PyPI requirements in the `flake.nix`
+file under the ardently version-pinning deterministic but often too inflexible
+for data science work, or the other approach which is to create a traditional
+Python `.venv` virtual environment so you have the freedom to `pip install`
+anything you like. And then there's a `requirements.txt` file where you list,
+and optionally pin, the packages and their versions.
+
+And so now, actually perform a Gap Analysis under the new system as you go. Get
+it in sufficient order to demo.
+
+Oh, it's going to make the main `botifython.py` which literally contains
+everything, the framework, the plugins, the JavaScript and the CSS (because
+there is very little under FastHTML/HTMX) and everything but the package
+imports. In other words, I haven't deconstructed my own work into separate
+includes or packages so the LLM sees everything in one single context window,
+not having to piece it all together. It also helps me, as navigating one long
+text-file is much easier than directory-diving. But in this case, there's going
+to be a lot of Excel file formatting yuckiness. Hmmm. Keep it internal for now.
+Externalizing tonight is a rabbit hole. Nice thought, but everything gets more
+complicated when you break it up over multiple files. So let this
+`botifython.py` file get long and contain some yuck until I can step back and
+tackle beautification as a separate step.
+
+
+
+
+
+
+
+
+
+
