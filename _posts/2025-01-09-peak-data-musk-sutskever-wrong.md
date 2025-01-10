@@ -845,12 +845,113 @@ complicated when you break it up over multiple files. So let this
 `botifython.py` file get long and contain some yuck until I can step back and
 tackle beautification as a separate step.
 
+The thing about running out of steam is&#151; don't.
 
+Make yourself a coffee.
 
+Remind yourself what's at stake. 
 
+Be like a force of nature.
 
+Use the very linear pipeline procedures you're advocating to know what to do
+next and why.
 
+---
 
+## Fixing a Bug
 
+Once again, the best laid plans. It's about 1:00 AM and the app is no closer
+ported, but I encountered a critical bug I had to fix. I actually deleted the
+GapAnalysisFlow class and worked on the StarterFlow class. I had a place where I
+hard-wired a querystring-building method, and HTMX overwrote it, creating a very
+difficult to pin-down bug with the revert buttons showing the same card ID for
+every card. I fixed it and am reviewing how good StarterFlow really is as a
+template moving forward.
+
+**Claude**: Looking at the codebase and `.cursorrules`, here are key observations about StarterFlow as a template:
+
+1. **Perfect Reference Implementation**
+
+- StarterFlow is deliberately minimal (2 cards + finalize) but demonstrates all core patterns
+- Each step type is represented: preserve (step_01), ephemeral (step_02), and finalize
+- The code is heavily documented with warnings about anti-patterns
+
+{:start="2"}
+2. **State Management Clarity**
+
+```python
+# Clear demonstration of the key principle:
+async def step_01_submit(self, request):
+    # ALWAYS clear forward first
+    self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+    # THEN save new data
+    self.pipulate.set_step_data(pipeline_id, "step_01", {"mykey": value})
+```
+
+{:start="3"}
+3. **HTMX Integration Best Practices**
+
+```python
+# Uses hx-vals instead of URL params
+hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"
+
+# Proper placeholder chain
+Div(
+    id="step_01",
+    Div(id="step_02"),  # Next step placeholder
+    hx_trigger="load"
+)
+```
+
+{:start="4"}
+4. **Pipeline State Structure**
+
+```python
+self.STEPS = [
+    ("mykey",      "step_01",   "Card 1"),    # Preserve example
+    ("mykey2",     "step_02",   "Card 2"),    # Ephemeral example
+    ("finalized",  "finalize",  "Finalize")   # Standard final step
+]
+```
+
+{:start="5"}
+5. **Documentation Strategy**
+- Each major section has a clear header with critical warnings
+- Anti-patterns are explicitly called out
+- Testing scenarios are listed
+- State management rules are emphasized
+
+{:start="6"}
+6. **Reusable Components**
+
+```python
+# Standard helpers that every flow should use
+self.pipulate.handle_jump_to_step()
+self.pipulate.revert_control()
+self.pipulate.wrap_with_inline_button()
+self.pipulate.generate_step_placeholders()
+```
+
+{:start="7"}
+7. **Error Prevention**
+
+- The code structure makes it hard to accidentally skip `clear_steps_from()`
+- Preserve flag is cleanly separated from data persistence
+- Standard helpers enforce consistent behavior
+
+{:start="8"}
+8. **Local-First Philosophy**
+
+```python
+pipeline_id = db.get("pipeline_id", "unknown")  # Global state is embraced
+```
+
+This template serves as both:
+1. A working reference implementation
+2. A pattern library
+3. An anti-pattern warning system
+4. A testing checklist
+
+The `.cursorrules` file effectively turns this into a "living documentation" system that can guide both humans and LLMs in implementing new flows correctly.
 
 
