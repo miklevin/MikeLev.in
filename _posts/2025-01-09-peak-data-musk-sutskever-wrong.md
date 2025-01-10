@@ -784,7 +784,7 @@ The obstacle is that I've been launching Jupyter in the same folder as Pipulate,
 so all the notebooks go into the Botifython folder, but I've been hesitant to do
 that because I don't want to pollute the repo. But the magic fairy dust that
 turns any repo into an isolated JupyterLab data science environment is the nix
-flake, where I only need copy into a new folder, and type `nix develop! And so
+flake, where I only need copy into a new folder, and type `nix develop`! And so
 go type `stop` to get the default tmux-hosted Pipulate JupyterLab instance out
 of memory. Check `localhost:8888`, okay, it's gone.
 
