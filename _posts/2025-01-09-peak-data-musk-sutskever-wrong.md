@@ -468,9 +468,14 @@ And all the new data coming out at that vibrating edge fringe of what's known,
 like all the space-telescope and LHC data that could really use some help
 analyzing from what I hear.
 
-And might I add I imagine would be some of the most interesting and important to
-learn from. And it's being written off? Peak data my arse! That's a defeatist
-attitude and one I would hardly imagine coming from Musk.
+And might I add that I imagine this scientific frontier data would be some of
+the most interesting and important to learn from. And to the argument that it's
+not the kind of data they're looking for, like Shakespeare and stuff, I'd ask
+them "was Python?" Yet LLMs learned how to code. What greater from new,
+unexpected and potentially unlimited data sources? And it's being written off?
+Peak data my arse! That's a defeatist attitude and one I would hardly imagine
+coming from Musk, currently the owner of the largest super-computer in the
+world.
 
 ### Conclusion
 
