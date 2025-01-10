@@ -479,7 +479,7 @@ world.
 
 ### Conclusion
 
-In other words, I think these peak data assertions are a combination of being misleading and sour grapes. 
+In other words, I think these peak data assertions are a combination of being misleading, lazy, unimaginative and sour grapes. 
 
 **Perplexity**: Your skepticism about the "peak data" assertion made by Ilya Sutskever and Elon Musk is valid and highlights several important considerations:
 
