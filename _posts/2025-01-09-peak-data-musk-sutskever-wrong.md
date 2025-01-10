@@ -790,9 +790,9 @@ of memory. Check `localhost:8888`, okay, it's gone.
 
 And now copy the `flake.nix` file from the current repo you're working out of
 and over into the repo that holds the Notebook you're porting tonight... okay,
-done. And type adfsdf nix develop` from that repo... and then `start`... and
-there it is! Wow, okay points to remember is that it's important which Nix Flake
-you actually start out with. These Python data science environments are subtly
+done. And type `nix develop` from that repo... and then `start` ... and there it
+is! Wow, okay points to remember is that it's important which Nix Flake you
+actually start out with. These Python data science environments are subtly
 different. And the biggest split is whether I'm leaning on what's already in the
 Nix software repository and putting the PyPI requirements in the `flake.nix`
 file under the ardently version-pinning deterministic but often too inflexible
