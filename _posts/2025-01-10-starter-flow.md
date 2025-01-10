@@ -1,5 +1,5 @@
 ---
-title: Starter Flow
+title: "Starter Flow: Lowering Pipeline Friction"
 permalink: /futureproof/starter-flow/
 description: 
 layout: post
