@@ -884,12 +884,16 @@ class StarterFlow:
 
 ### Breaking Our Own Rules
 
+> AI got me into this, and AI is going to help get me out of this. Yet it's
+> still worth employing AI because I'm hitting at above my weight class. This is
+> all far above my paygrade, yet here I am.
+
 Okay, there is now a certain sort of baton passing to maintain persistence that
 just makes me sick. It is everything that is antithetical about he system,
 passing information in invisible form fields. Yuck! There is always a single
-source of truth and it is always explicit and client-side, and how I implemented
-this violates my own principles and causes exactly the sort of confusion it's
-meant to avoid.
+source of truth and it is always explicit and server-side &#151; yet how I
+implemented this violates my own principles and causes exactly the sort of
+confusion it's meant to avoid.
 
 ### The Path Forward 
 
