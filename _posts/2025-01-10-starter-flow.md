@@ -2724,11 +2724,11 @@ allowing fields to optionally show their previous values when we revert to them.
 
 ## Claude Has Style
 
-> AIs go from intelligent to general intelligence to super-intelligence, they're
-> still not going to have full human context for a good long while, not even in
-> the sense of interacting with software really like a human. That makes a
-> viable job for humans: context-engines for AI! Hahaha! Articles like this are
-> waking me up to that fact.
+> As AIs go from intelligent to general intelligence to super-intelligence,
+> they're still not going to have full human context for a good long while, not
+> even in the sense of interacting with software really like a human. That makes
+> a viable job for humans: context-engines for AI! Hahaha! Articles like this
+> are waking me up to that fact.
 
 **Claude**: Thank you for sharing that context! Now I understand why my solution felt right despite being "wrong" by conventional standards.
 
