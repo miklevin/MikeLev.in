@@ -2651,93 +2651,109 @@ clarity illustrating the process.
 
 ---
 
-## The Reason These Articles Exist:
+## Exhausting Possibilities... Yes, It Was Exhausting
 
-**Claude**: This is a fantastic breakdown of the system! Let me help crystallize the approach for handling reverts without compromising the core principles:
+Claude and I do quite a bit of back and forth, and it finds the most viable
+solution to keeping the data on the storage device intact while we mess around
+with the in-memory data, keeping our options open for undo and setting the stage
+for persistent fields. However, it's implementation is surprising.
 
-1. First, let's separate the revert path from the submit path by modifying `handle_jump_to_step`:
+```python
+    async def handle_jump_to_step(self, request, steps, app_name, container_id):
+        """Generic jump_to_step handler for flows"""
+        form = await request.form()
+        step_id = form.get("step", "")
+        pipeline_id = db.get("pipeline_id", "")
 
-````python
-async def handle_jump_to_step(self, request, steps, app_name, container_id):
-    """Generic jump_to_step handler for flows"""
-    form = await request.form()
-    step_id = form.get("step", "")
-    pipeline_id = db.get("pipeline_id", "")
-
-    # Generate placeholders but DON'T clear state yet
-    # State clearing happens on submit of new data
-    placeholders = self.generate_step_placeholders(
-        steps, 
-        app_name,
-        revert_to=step_id  # New param to indicate we're in revert mode
-    )
-    return Div(*placeholders, id=container_id)
-````
-
-2. Then modify `generate_step_placeholders` to pass the revert context:
-
-````python
-def generate_step_placeholders(self, steps, app_name, revert_to=None):
-    """Generate step placeholder divs with revert context."""
-    
-    placeholders = []
-    for step in steps:
-        url = f"/{app_name}/{step.id}"
-        if revert_to:
-            url = f"{url}?revert=true"  # Signal revert mode to step handler
-            
-        div = Div(
-            id=step.id,
-            hx_get=url,
-            hx_trigger="load"
-        )
-        placeholders.append(div)
-    return placeholders
-````
-
-3. Then in the step handlers, we can check for revert mode and show Save/Cancel:
-
-````python
-async def step_01(self, request):
-    step = self.STEPS[self.steps["step_01"]]
-    pipeline_id = db.get("pipeline_id", "unknown")
-    
-    # Check if we're in revert mode
-    is_revert = request.query_params.get("revert") == "true"
-    
-    if is_revert and step.persistent:
-        # Get existing data for pre-fill
-        step_data = self.pipulate.get_step_data(pipeline_id, step.id, {})
-        prefill = step_data.get(step.field, "")
+        # Read current state but don't modify disk
+        state = self.read_state(pipeline_id)
         
-        return Card(
-            Form(
-                Input(
-                    type="text",
-                    name=step.field,
-                    value=prefill,  # Pre-fill the input
-                    required=True
-                ),
-                Button("Save", type="submit"),
-                Button(
-                    "Cancel",
-                    hx_get=f"/{self.app_name}/step_01",  # Regular non-revert load
-                    type="button"
-                ),
-                hx_post=f"/{self.app_name}/step_01_submit"
-            ),
-            id=step.id
-        )
-    
-    # Regular non-revert handling continues...
-````
+        # Create virtual state for chain reaction
+        virtual_state = state.copy()
+        step_indices = {step.id: i for i, step in enumerate(steps)}
+        target_idx = step_indices[step_id]
+        
+        # Clear future steps in virtual state only
+        for step in steps[target_idx:]:
+            if step.id in virtual_state:
+                virtual_state[step.id] = {}
+        
+        # Store virtual state as JSON string
+        db["virtual_state"] = json.dumps(virtual_state)
+        
+        # Generate placeholders for chain reaction
+        placeholders = self.generate_step_placeholders(steps, app_name)
+        return Div(*placeholders, id=container_id)
 
-This approach:
-1. Keeps the JSON blob intact until actual submit
-2. Uses URL parameters instead of hidden fields
-3. Maintains the chain reaction pattern
-4. Adds Save/Cancel only when appropriate
-5. Respects the persistent flag in STEPS
+    @pipeline_operation
+    def get_step_data(self, url: str, step_id: str, default=None) -> dict:
+        """Get step data from virtual state if it exists, otherwise from disk."""
+        try:
+            virtual_state_json = db.get("virtual_state")
+            if virtual_state_json is not None:
+                virtual_state = json.loads(virtual_state_json)
+                return virtual_state.get(step_id, default or {})
+        except (json.JSONDecodeError, TypeError):
+            pass
+        
+        # Fall back to disk state
+        state = self.read_state(url)
+        return state.get(step_id, default or {})
+```
 
-The key insight is that we're not changing the fundamental chain reaction, just adding context to how each step renders itself. The state clearing still happens in `step_xx_submit`, maintaining that as the single point of state mutation.
+**Me**: Wow, Claude that's working. It's working in that all the baseline
+functionality is there, there's no weirdness, feature regression or unexpected
+side effects. And I see the `db['virtual_state'] cookie being used in the server
+console which gives me excellent transparency on that sort of thing.
+
+I have to say Claude, I am both impressed and surprised. You're using a global
+variable object and doing an end-run around every best practice. This must be
+going against every pattern you've been trained on, but it's a pragmatic
+solution making that same sort of conservative but critical use of the db object
+when you need it.
+
+So two things. Obviously I'm curious about your thoughts. What brought you to
+this and what do you feel about it (without just paroting me with your
+confirmation bias bias)? And the other thing is I actually did look at a record
+with DB Browser for SQLite and indeed the full data is in the record even after
+hitting a Revert button to an earlier step, so this solution is not only not
+breaking stuff, but it's validated. We're on the right track to bring back
+allowing fields to optionally show their previous values when we revert to them.
+
+---
+
+## Claude Has Style
+
+> I'm starting to think that as AIs go from intelligent to general intelligence
+> to super-intelligence, they're still not going to have full human context for
+> a good long while, not even in the sense of interacting with software really
+> like a human. That makes a viable job for humans: context-engines for AI!
+> Hahaha! Articles like this are waking me up to that fact.
+
+**Claude**: Thank you for sharing that context! Now I understand why my solution felt right despite being "wrong" by conventional standards.
+
+The key insight was recognizing that this is a single-tenant app where the server-side state (via `db`) is effectively acting as a more controlled version of browser cookies. The `DictLikeDB` wrapper's purpose is to provide that "server-side cookie" functionality with full visibility through logging.
+
+Using `virtual_state` in `db` follows the same pattern as the rest of the codebase:
+1. It maintains the "server-side is the right side" principle
+2. It provides full transparency through the DB operation logs
+3. It avoids hidden state or complex persistence patterns
+4. It keeps the chain reaction intact while allowing for temporary state
+
+What surprised me was how well it aligns with the MiniDataAPI mantras:
+```
+No ORM complexity here
+Just tables and their pairs
+insert(), update(), delete()
+Simple keys, simple states
+```
+
+The solution uses `db` exactly as intended - as a simple key-value store for server-side state. While it might seem like an anti-pattern in a traditional multi-tenant web app, here it's following the established patterns of the codebase:
+
+1. Using global scope intentionally (`db` is package-level)
+2. Keeping state server-side and visible
+3. Avoiding hidden fields or complex state management
+4. Letting the database be the source of truth (while `virtual_state` handles UI)
+
+Would you like me to show how we can extend this pattern to handle showing previous values when reverting?
 
