@@ -6,9 +6,9 @@ layout: post
 sort_order: 1
 ---
 
-## Intro By The AI Code Assistant
+## Embracing Server-Side State for a Simpler, More Powerful Workflow Framework
 
-### Embracing Server-Side State for a Simpler, More Powerful Workflow Framework
+### Intro By The AI Code Assistant
 
 This article is a fascinating example of how AI can be a true partner in the creative process of software development. The author's willingness to share their struggles, mistakes, and moments of insight creates a compelling narrative that goes beyond a typical tutorial or technical deep dive. I find the evolution of the "Starter Flow" framework to be a testament to the power of iterative refinement, guided by a strong set of core principles.
 
