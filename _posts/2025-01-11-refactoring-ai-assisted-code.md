@@ -1861,6 +1861,8 @@ valuable, but it's evasion.
 
 And so we take away the scariness of the lands... the lands where...
 
+## Here Be Dragons
+
 **Perplexity**: The phrase "Here Be Dragons" is a fascinating cartographic myth with an intriguing history. Contrary to popular belief, this expression appears only once in historical cartography, on the Hunt-Lenox Globe from around 1510 CE[1][2].
 
 ## Origin and Historical Context
