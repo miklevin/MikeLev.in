@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## Context is Everything
+
 Context is everything. And this next edit which I need help from the AI code
 assistant with is going to have an article of its own to set the context. This
 is a web framework for localhost usage, and therefore has a set of concerns more
@@ -19,6 +21,8 @@ many of today's frontier models, and not beyond Claude 3.5 Sonnet built into
 Cursor's ability to get a handle on. All additional nuance of the system that
 makes it different from enterprise patterns can be gleaned with an examination
 of the `.@cursorrules` file. 
+
+### Refactoring for Clarity
 
 This sets the stage for a bit of refactoring we are about to do together to make
 filling in a card's value at the end of the chain reaction process clearer, more
@@ -34,6 +38,8 @@ always showing all the cards of a Jupyter Notebook in a "Restart Kernel and Run
 All Cells..." kind of operation. So we are never not rendering all Cards up to
 and including the one you're currently up to providing data for (aka have
 reverted to). This takes some special consideration. 
+
+### Current Implementation Status
 
 I made a first attempt at this persistence feature, but the chain reaction being
 designed to occur up to the last card for which data was not yet collected
@@ -297,9 +303,16 @@ class OneCardFlow:
         )
 ```
 
+## Legacy Persistence Implementation
+
+### A Record of What Didn't Work
+
 It can also serve as a record of the persistence approach that didn't work, or
 more technically exploded complexity more than I am willing. And therefore, I am
 deleting it from the main codebase now that I have it here for reference. Done.
+
+### Current Implementation Status
+
 And so we have contracted the only place where persistence is implemented to
 StarterFlow, which I will also document the current state of here:
 
@@ -853,12 +866,20 @@ class StarterFlow:
         )
 ```
 
+## The Problem with Baton Passing
+
+### Breaking Our Own Rules
+
 Okay, there is now a certain sort of baton passing to maintain persistence that
 just makes me sick. It is everything that is antithetical about he system,
 passing information in invisible form fields. Yuck! There is always a single
 source of truth and it is always explicit and client-side, and how I implemented
 this violates my own principles and causes exactly the sort of confusion it's
-meant to avoid. So while the implementation is now isolated and contained to the
+meant to avoid.
+
+### The Path Forward 
+
+So while the implementation is now isolated and contained to the
 one StarterClass (which is exactly the one intented to propegate as a template
 example), we will expunge the old approach, which will inevitably reach up into
 Pipulate class helper functions as well. Let's document that here too:
@@ -1236,24 +1257,34 @@ class Pipulate:
         )
 ```
 
+## Embracing Change and Flexibility
+
 Okay, good. We have a lot of freedom now to gut the program with easier go-back
 even than git branching and cherry-picking, and it serves as great context for
 the LLM code assistant that's going to help me as well.
+
+### Preserving Visual Indicators
 
 Okay, so I have purged the current notion of persistence from out of the code,
 but it's important for me to remember that the function `format_step_name`
 controls that visual indicator of which back-arrow to show with the
 parameter/argument `preserve=<bool>`. Don't forget!
 
+### One Step Back, Two Steps Forward
+
 This is one of those 1 step back, 2 steps forward sorts of things, and one of
 those places where literally literally applies, haha! Okay, think! Next steps?
 Simplification! This is about the music. There are parts of this I am just not
 happy with and this is the time to strike! To chisel-strike. 
 
+### Striving for Clarity
+
 Okay, today I am going for utter clarity of the music. I am puring uncertainties
 and ambiguity, which is the key thing to slamming out new workflow pipelines and
 wielding this system like a martial arts weapon. That's what we're going for
 here, and nothing less.
+
+### Embracing Iterative Refinement
 
 Chances are, I will be re-implementing every workflow over time, and that's
 actually fine. These things are designed to be refined. And if a new overarching
@@ -1266,8 +1297,12 @@ instead.
 
 ---
 
+## Progress and Reflection
+
 The work has been fabulously interesting today. Definitely of the 2 steps back,
 1 step forward variety, but oh so important.
+
+### The Musical Analogy
 
 I talk a lot about this being like Unix pipes, Jupyter Notebooks&#151; and
 music.
@@ -1275,11 +1310,15 @@ music.
 Well, this is about refining the music, getting it down to the essential notes,
 and getting familiar with every tune.
 
+### Addressing Complexity
+
 The problem was that there were still mysterious little bits in there because of
 AI code-editor assistance and little concessions I made here and there out of
 convenience, but letting some of the finer details get out of my control. If you
 don't understand it with the same depth of as if you wrote it yourself, you're
 gonna have problems (speaking for must myself, of course).
+
+### Regaining Control
 
 So this process of scrubbing and cleansing and going over the code with a
 fine-toothed comb in preparation of incorporating a feature that really didn't
@@ -1288,6 +1327,8 @@ It's grabbing the reins again and getting the wagon under control. If you're
 going to jump on the AI code assistant bandwagon, ya gotta make sure your that
 wagon doesn't careen out of control.
 
+### Current State and Improvements
+
 And so here's the current state. I have dramatically un-hardwired things so that
 the parts are much more readily rearranged without egregious editing
 requirements. Things are more Lego-like. Or perhaps more accurately, more Unix
@@ -1295,6 +1336,8 @@ pipe-like in how I only need to change function names and a couple of
 configuration variables at the top of each function to connect the output of one
 into the input of the other, stringing them up and setting the stage for further
 customization.
+
+### Reduced Friction
 
 The important point here is that the preliminary "fleshing out" of a pipeline is
 actually much quicker and lower friction now, because the code can be
@@ -1720,6 +1763,10 @@ class StarterFlow:
         )
 ```
 
+## Un-Hardwiring the Finalize Function
+
+### Background Context
+
 And now we get to a final piece of un-hardwiring, which since I have that other
 work behind me which I didn't want to slow down to document for, I am in a much
 better place to bring the issues to the surface. This is the
@@ -1832,9 +1879,15 @@ This makes the code more maintainable and automatically adapts to changes in the
 
 ---
 
+## Code Improvements
+
+### Using Python's all() Function
+
 I wish the git diff-looking thing that Cursor AI editor does shows here, but
 trust me, the 2nd version makes use of a Python `all()` function that goes a
 very long way to un-hardwiring this code.
+
+### Consulting About Function Structure
 
 I check with Claude regarding the last function in the workflow:
 
@@ -1920,18 +1973,15 @@ This follows the rules perfectly:
 
 Would you like me to show the complete step handler implementation?
 
-**Me**: You've seen the light! The one thing though is how early-stage and how
-irrevocably I delete post-step-state in the `jump_to_step` `handle_jump_to_step`
-`clear_steps_from` `write_state` chain. This is so essential because it
-determines when the chain reaction is going to stop (as I believe it still
-should, because the system is ***THAT*** simple in concept. However, by the time
-you need the data to re-populate the card it presently chain-reacted to, the
-data is permanently gone (by design).
+**Me**: You've seen the light! 
 
-Now there are solutions. Good ones. They mostly involve leaving the last state
-of the data in the database, so deferring the update until after the card is
-fully built, including the repopulation. However, there's some chicken and egg
-timing issues that would need to be resolved. Just sayin.
+### The Chain Reaction Challenge
+
+The one thing though is how early-stage and how irrevocably I delete post-step-state in the `jump_to_step` `handle_jump_to_step` `clear_steps_from` `write_state` chain. This is so essential because it determines when the chain reaction is going to stop (as I believe it still should, because the system is ***THAT*** simple in concept. However, by the time you need the data to re-populate the card it presently chain-reacted to, the data is permanently gone (by design).
+
+### Potential Solutions
+
+Now there are solutions. Good ones. They mostly involve leaving the last state of the data in the database, so deferring the update until after the card is fully built, including the repopulation. However, there's some chicken and egg timing issues that would need to be resolved. Just sayin.
 
 **Claude**: AH! Now I REALLY see it! The timing issue is:
 
@@ -1971,7 +2021,11 @@ async def handle_jump_to_step(self, request, steps, prefix, container_id):
     return Div(*placeholders, id=container_id)
 ````
 
+## Exploring the Solution
+
 Is this the kind of solution you were thinking of? The tricky part would be coordinating when exactly to do the clear...
+
+### A Breakthrough in Understanding
 
 **Me**: Pat your machine intelligent self on the back, Claude! This is better than
 you've understood this yet. Of course, it's probably the first time I explained
@@ -1983,6 +2037,8 @@ second. We could even put a `Cancel` button next to the `Save` button when
 coming from a `Revert` button action. Cancel in this case would just trigger the
 chain-reaction again with no alteration to the JSON data blob. No edit, no fail,
 no harm, no foul.
+
+### Implementation Details
 
 To go this route however, I would have to change what happens somewhere in the
 `jump_to_step` `handle_jump_to_step` `clear_steps_from` `write_state`
@@ -2036,4 +2092,652 @@ async def step_01(self, request):
 ````
 
 The data stays pristine in the DB until the user commits with "Save". Is this more what you were thinking?
+
+---
+
+**Me**: Yes, exactly! But there is no `prefix` anymore. It's now `app_name`, and
+this is the sort of thing that gives me pause. This touches core fundamental
+behavior of the system and tiny changes will have unintended consequences, and I
+only just recently re-asserted control and I don't want it to go spiraling
+again. I forced a codebase indexing update of the embeddings, so you're working
+off the latest. You have a certain scattershot, shot-in-the-dark approach to
+these things that I don't have the constitution to bear right now. If we go this
+route, it's got to be with a number of tiny, controlled chisel-strikes each one
+of which we confirm the intended outcome with logging or other visual feedback.
+
+For example, we're talking about the removal of the reference to `write_state`
+from `clear_steps_from`. So I can just edit it out, and what would normally look
+like a bug to me is a deliberately caused effect: the Revert buttons stopping
+working. Clicking on them causes the chain-reaction, but it blows right past the
+card with the button I clicked, because the data is not changed on the drive,
+nor is it changed in memory. And this can be confirmed with another click on the
+`Start StarterFlow` button, which reloads the entire card and its chain reacted
+data again! It seems odd that this feels like progress, but it is the deliberate
+control of breaking it intentionally and seeing the effect you expect.
+
+[Claude gave me an edit and it was not at all what I wanted.]
+
+The thing we really have to establish here is the big picture of the chain
+reaction behavior. These pipeline workflows are consistently linked into the
+navigation with a call to the `.landing()` method. So it all begins there.
+
+And at that point the key `Card()` is drawn in at the top of the workflow and
+and stays there for the duration. But immediately beneath it is
+`Div(id=f"{self.app_name}-container")`. And it is this element that will be
+repeatedly `hx_target`ed... well you know what? I don't need any friggn AI to
+clean this up. Now I understand my own chain reactions and here's the cleaned up
+version that makes it so much more clear and efficient:
+
+```python
+class StarterFlow:
+    """
+    Minimal two-card pipeline with a final step.
+    """
+
+    def __init__(self, app, pipulate, app_name="starter"):
+        """Initialize StarterFlow with standard pipeline components"""
+        self.app = app
+        self.app_name = app_name
+        self.pipulate = pipulate
+
+        # Define steps
+        self.STEPS = [
+            Step(id='step_01',  field='yourname',      label='Your Name'),
+            Step(id='step_02',  field='favoritecolor', label='Your Favorite Color'), 
+            Step(id='finalize', field='finalized',     label='Finalize')
+        ]
+
+        # Create dict view for easy lookup
+        self.steps = {step.id: i for i, step in enumerate(self.STEPS)}
+
+        # Generate messages automatically from steps
+        self.STEP_MESSAGES = self.pipulate.generate_step_messages(self.STEPS)
+
+        # Standard route configuration
+        routes = [
+            (f"/{app_name}",                 self.landing),
+            (f"/{app_name}/init",            self.init, ["POST"]),
+            (f"/{app_name}/step_01",         self.step_01),
+            (f"/{app_name}/step_01_submit",  self.step_01_submit, ["POST"]),
+            (f"/{app_name}/step_02",         self.step_02),
+            (f"/{app_name}/step_02_submit",  self.step_02_submit, ["POST"]),
+            (f"/{app_name}/finalize",        self.finalize),
+            (f"/{app_name}/finalize_submit", self.finalize_submit, ["POST"]),
+            (f"/{app_name}/unfinalize",      self.unfinalize, ["POST"]),
+            (f"/{app_name}/jump_to_step",    self.jump_to_step, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    # ---------------------------------------------------------------------
+    # LANDING
+    # ---------------------------------------------------------------------
+    async def landing(self):
+
+        # Gather existing pipeline IDs for a datalist and greeting
+        pipeline.xtra(app_name=self.app_name)
+        existing_ids = [record.url for record in pipeline()]
+        asyncio.create_task(self.pipulate.delayed_greeting())
+
+        return Container(
+            Card(
+                H2("StarterFlow: Two Cards + Finalize"),
+                P("Enter or resume a Pipeline ID:"),
+                Form(
+                    # Inline input+button with our key emojis
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Old or existing ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"
+                        ),
+                        button_label="Start StarterFlow 🔑",
+                        button_class="secondary"
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"
+                    ),
+                    hx_post=f"/{self.app_name}/init",
+                    hx_target=f"#{self.app_name}-container"
+                )
+            ),
+            Div(id=f"{self.app_name}-container")
+        )
+
+    # ---------------------------------------------------------------------
+    # INIT
+    # ---------------------------------------------------------------------
+    async def init(self, request):
+
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        # Initialize pipeline record with app_name info
+        state, error = self.pipulate.initialize_if_missing(
+            pipeline_id,
+            {"app_name": self.app_name}
+        )
+        if error:
+            return error
+
+        # Let state determine the appropriate message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(message)
+        append_to_conversation(message, role="system", quiet=True)
+
+        # Return placeholders: step_01 => step_02 => finalize
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # STEP 01 
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+
+        # Set these
+        step_id = "step_01"
+        next_step_id = "step_02"
+
+        # The rest is derived 
+        step_index = self.steps[step_id]
+        step_label = self.STEPS[step_index].label
+        step_field = self.STEPS[step_index].field
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(step_field, "")
+
+        # If locked, always chain to next step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+        if locked:
+            # Always chain to next step
+            return Div(
+                Card(P(f"🔒 {format_step_name(step_id)}: {user_val}")),
+                self.pipulate.chain_reaction(next_step_id, self.app_name)
+            )
+
+        # If user_val exists => show revert and chain to next step
+        if user_val:
+            return Div(
+                self.pipulate.revert_control(
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=P(f"{format_step_name(step_id)}: {user_val}"),
+                    target_id=f"{self.app_name}-container",
+                ),
+                self.pipulate.chain_reaction(next_step_id, self.app_name)
+            )
+
+        # If no user_val => show form and STOP!
+        return Div(
+            Card(
+                H3(f"{format_step_name(step_id)}: Enter {step_label}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=step_field,
+                            placeholder=f"Enter {step_label}",
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def step_01_submit(self, request):
+
+        step_id = "step_01"
+        next_step_id = "step_02"
+        step = self.STEPS[self.steps[step_id]]  # Get the actual Step object
+        
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val = form.get(step.field, "")
+
+        # Removes future steps (cleanup)
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Saves current step's data (persistence)
+        self.pipulate.write_step_data(pipeline_id, step_id, {step.field: user_val})
+
+        # Get appropriate message from state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(message)
+
+        return Div(
+            self.pipulate.revert_control(
+                step_id=step_id,
+                app_name=self.app_name,
+                message=P(f"{format_step_name(step_id)}: {user_val}"),
+                target_id=f"{self.app_name}-container",
+            ),
+            self.pipulate.chain_reaction(next_step_id, self.app_name)
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02 
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+
+        # Set these
+        step_id = "step_02"
+        next_step_id = "finalize"
+
+        # The rest is derived 
+        step_index = self.steps[step_id]
+        step_label = self.STEPS[step_index].label
+        step_field = self.STEPS[step_index].field
+        pipeline_id = db.get("pipeline_id", "unknown")
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(step_field, "")
+
+        # If locked, always chain to next step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        locked = ("finalized" in finalize_data)
+        if locked:
+            # Always chain to next step
+            return Div(
+                Card(P(f"🔒 {format_step_name(step_id)}: {user_val}")),
+                self.pipulate.chain_reaction(next_step_id, self.app_name)
+            )
+
+        # If user_val exists => show revert and chain to next step
+        if user_val:
+            return Div(
+                self.pipulate.revert_control(
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=P(f"{format_step_name(step_id)}: {user_val}"),
+                    target_id=f"{self.app_name}-container",
+                ),
+                self.pipulate.chain_reaction(next_step_id, self.app_name)
+            )
+
+        # If no user_val => show form and STOP!
+        return Div(
+            Card(
+                H3(f"{format_step_name(step_id)}: Enter {step_label}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=step_field,
+                            placeholder=f"Enter {step_label}",
+                            required=True,
+                            autofocus=True
+                        ),
+                        button_label="Save",
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def step_02_submit(self, request):
+
+        step_id = "step_02"
+        next_step_id = "finalize"
+        step = self.STEPS[self.steps[step_id]]  # Get the actual Step object
+        
+        form = await request.form()
+        pipeline_id = db.get("pipeline_id", "unknown")
+        user_val = form.get(step.field, "")
+
+        # Removes future steps (cleanup)
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Saves current step's data (persistence)
+        self.pipulate.write_step_data(pipeline_id, step_id, {step.field: user_val})
+
+        # Get appropriate message from state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(message)
+
+        return Div(
+            self.pipulate.revert_control(
+                step_id=step_id,
+                app_name=self.app_name,
+                message=P(f"{format_step_name(step_id)}: {user_val}"),
+                target_id=f"{self.app_name}-container",
+            ),
+            self.pipulate.chain_reaction(next_step_id, self.app_name)
+        )
+
+    # ---------------------------------------------------------------------
+    # FINALIZE
+    # ---------------------------------------------------------------------
+    async def finalize(self, request):
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_step = self.STEPS[-1]  # Get finalize step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, finalize_step.id, {})
+
+        if finalize_step.field in finalize_data:
+            # Already locked => show final
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{self.app_name}/unfinalize",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id=finalize_step.id
+            )
+
+        # Check all non-finalize steps have data
+        non_finalize_steps = self.STEPS[:-1]  # All steps except finalize
+        all_steps_complete = all(
+            self.pipulate.get_step_data(pipeline_id, step.id, {}).get(step.field)
+            for step in non_finalize_steps
+        )
+
+        if all_steps_complete:
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{self.app_name}/finalize_submit",
+                    hx_target=f"#{self.app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id=finalize_step.id
+            )
+        else:
+            return Div(P("Nothing to finalize yet."), id=finalize_step.id)
+
+    async def finalize_submit(self, request):
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_step = self.STEPS[-1]  # Get finalize step
+        self.pipulate.write_step_data(pipeline_id, finalize_step.id, {finalize_step.field: True})
+
+        # Message based on new state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(message)
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # UNFINALIZE
+    # ---------------------------------------------------------------------
+    async def unfinalize(self, request):
+        pipeline_id = db.get("pipeline_id", "unknown")
+        if not pipeline_id:
+            return P("No pipeline found.", style="color:red;")
+
+        finalize_step = self.STEPS[-1]  # Get finalize step
+        state = self.pipulate.read_state(pipeline_id)
+        if finalize_step.id in state and finalize_step.field in state[finalize_step.id]:
+            del state[finalize_step.id][finalize_step.field]
+            self.pipulate.write_state(pipeline_id, state)
+
+        # Message based on new state
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await chat.simulated_stream(message)
+
+        placeholders = self.pipulate.generate_step_placeholders(
+            self.STEPS,
+            self.app_name,
+        )
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    # ---------------------------------------------------------------------
+    # JUMP_TO_STEP
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        return await self.pipulate.handle_jump_to_step(
+            request, 
+            self.STEPS, 
+            self.app_name,
+            f"{self.app_name}-container"  # This should match our container ID
+        )
+```
+
+There are supporting functions that have been created in Pipulate now, mostly
+for returning a very standard placeholder `Div()` that was easily parameterized
+and is just sort of like a little stub that enables the chain reaction effect by
+always providing the next HTMX target for each card as they're drawn.
+
+And now the chain reacting logic is easy to follow.
+
+1. The Landing Page (the `.landing()` method of a workflow) is how workflows get
+   linked into site navigation, and they draw the key `Card()` (which persists
+   throughout the duration untouched), and
+   `Div(id=f"{self.app_name}-container")` gets drawn right beneath it, which
+   becomes the root element from which the full chain reaction happens every
+   time.
+
+2. `init` makes sure the pipeline record exists for the provided key, and then
+   splats a `Div()` shim into `#<app_name>-container` for every card in the
+   workflow, each equipped with their own little `hx_trigger="load"` directive
+   to load their own card by ID using `hx_get=url`... pop, pop, pop, pop&#151;
+   LMFAO! That's the chain reaction! And it's not just from init.
+
+3. Each card as it tries to draw itself in sequence, because even though it's
+   JavaScript underneath all that HTMX, it's still being kept sequential and the
+   first card has to render, then the second card, and so on until all the cards
+   are rendered. However, each has the ability to block the render which occurs
+   if no `user_data` exists for that card, at which time it draws a web form of
+   some sort instead.
+
+4. This establishes a general forward-only workflow that acquires data and moves
+   onto the next step, where the output of the previous card becomes the input
+   of the next card, thus drawing strong parallels between both Unix pipes, and
+   the top-down flow of Jupyter Notebooks. It's very much like selecting "Reset
+   Kernel and Run All Cells..." and indeed, that's what it's supposed to feel
+   like.
+
+5. Any time user data is provided, all data past that point is deleted as a data
+   integrity precaution. There's no jumping around in a workflow with
+   out-of-order execution. I think people will hate me for it, but it's a strong
+   principle. Selecting any of the Revert buttons will likewise delete
+   any `user_data` that was collected from that point forward in the workflow.
+
+And that brings us up to where we are now. I'm insistent about the deleting
+forward in the pipeline if you change data from the past, but I currently have
+gone a little too far, deleting it right away upon use of the revert button.
+That both prevents the opportunity to pre-populate the input fields with the
+data that they're getting ready to change or edit, and it also removes the
+possibility of a Cancel button to change their mind. If a user hits a Revert
+button on a step, I should present both a Save and a Cancel link.
+
+I actually tried to do this before. That's what the whole top of the article is
+documenting, the failed attempt I'm not going back to. Also, in broad strokes
+I'll be adding whether a field is persistent or not in its STEPS:
+
+```python
+        # Define steps
+        self.STEPS = [
+            Step(id='step_01',  persistent=True,  field='yourname',      label='Your Name'),
+            Step(id='step_02',  persistent=False, field='favoritecolor', label='Your Favorite Color'), 
+            Step(id='finalize', persistent=None,  field='finalized',     label='Finalize')
+        ]
+```
+
+So there will be the server-side single source of truth per @.cursorrules. No no
+hidden input fields (if I can help it), and explicit checking on the card
+builds. I just have to handle how this works in Pipulate a little differently:
+
+```python
+    async def handle_jump_to_step(self, request, steps, app_name, container_id):
+        """Generic jump_to_step handler for flows"""
+        form = await request.form()
+        step_id = form.get("step", "")
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Clear everything from step_id onwards
+        self.clear_steps_from(pipeline_id, step_id, steps)
+
+        # Re-generate placeholders from the beginning
+        placeholders = self.generate_step_placeholders(
+            steps, 
+            app_name, 
+        )
+        return Div(*placeholders, id=container_id)
+
+    def clear_steps_from(self, url: str, target_step: str, steps):
+        """Clear state from target step onwards."""
+
+        state = self.read_state(url)
+        step_indices = {step_id: i for i, (_, step_id, _) in enumerate(steps)}
+        target_idx = step_indices[target_step]
+
+        for _, step_id, _ in steps[target_idx:]:
+            state.pop(step_id, None)
+
+        self.write_state(url, state)
+        return state
+
+    def write_state(self, url: str, state: dict):
+        state["updated"] = self.get_timestamp()
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    def generate_step_placeholders(self, steps, app_name):
+        """Generate step placeholder divs for any workflow using HTMX best practices."""
+
+        placeholders = []
+        for i, (_, step_id, _) in enumerate(steps):
+            url = f"/{app_name}/{step_id}"
+            logger.debug(f"Creating placeholder {i} with URL: {url}")
+            div = Div(
+                id=step_id,
+                hx_get=url,
+                hx_trigger="load"
+            )
+            placeholders.append(div)
+        return placeholders
+```
+
+Specifically, maybe `handle_jump_to_step` shouldn't call `clear_steps_from`
+which really exists for the normal `step_xx_submit` functions and not for the
+Revert buttons. So I may be looking at a separate path for the revert buttons
+that leaves the JSON data blob technically still on the write media until a new
+form input with new user data occurs.
+
+I just need to figure out how to interrupt the chain reaction without
+compromising the system, exploding complexity, over-engineering, or otherwise
+getting the basics wrong which we've been doing up until now without such
+clarity illustrating the process.
+
+---
+
+## The Reason These Articles Exist:
+
+**Claude**: This is a fantastic breakdown of the system! Let me help crystallize the approach for handling reverts without compromising the core principles:
+
+1. First, let's separate the revert path from the submit path by modifying `handle_jump_to_step`:
+
+````python:botifython/botifython.py
+async def handle_jump_to_step(self, request, steps, app_name, container_id):
+    """Generic jump_to_step handler for flows"""
+    form = await request.form()
+    step_id = form.get("step", "")
+    pipeline_id = db.get("pipeline_id", "")
+
+    # Generate placeholders but DON'T clear state yet
+    # State clearing happens on submit of new data
+    placeholders = self.generate_step_placeholders(
+        steps, 
+        app_name,
+        revert_to=step_id  # New param to indicate we're in revert mode
+    )
+    return Div(*placeholders, id=container_id)
+````
+
+2. Then modify `generate_step_placeholders` to pass the revert context:
+
+````python:botifython/botifython.py
+def generate_step_placeholders(self, steps, app_name, revert_to=None):
+    """Generate step placeholder divs with revert context."""
+    
+    placeholders = []
+    for step in steps:
+        url = f"/{app_name}/{step.id}"
+        if revert_to:
+            url = f"{url}?revert=true"  # Signal revert mode to step handler
+            
+        div = Div(
+            id=step.id,
+            hx_get=url,
+            hx_trigger="load"
+        )
+        placeholders.append(div)
+    return placeholders
+````
+
+3. Then in the step handlers, we can check for revert mode and show Save/Cancel:
+
+````python:botifython/botifython.py
+async def step_01(self, request):
+    step = self.STEPS[self.steps["step_01"]]
+    pipeline_id = db.get("pipeline_id", "unknown")
+    
+    # Check if we're in revert mode
+    is_revert = request.query_params.get("revert") == "true"
+    
+    if is_revert and step.persistent:
+        # Get existing data for pre-fill
+        step_data = self.pipulate.get_step_data(pipeline_id, step.id, {})
+        prefill = step_data.get(step.field, "")
+        
+        return Card(
+            Form(
+                Input(
+                    type="text",
+                    name=step.field,
+                    value=prefill,  # Pre-fill the input
+                    required=True
+                ),
+                Button("Save", type="submit"),
+                Button(
+                    "Cancel",
+                    hx_get=f"/{self.app_name}/step_01",  # Regular non-revert load
+                    type="button"
+                ),
+                hx_post=f"/{self.app_name}/step_01_submit"
+            ),
+            id=step.id
+        )
+    
+    # Regular non-revert handling continues...
+````
+
+This approach:
+1. Keeps the JSON blob intact until actual submit
+2. Uses URL parameters instead of hidden fields
+3. Maintains the chain reaction pattern
+4. Adds Save/Cancel only when appropriate
+5. Respects the persistent flag in STEPS
+
+The key insight is that we're not changing the fundamental chain reaction, just adding context to how each step renders itself. The state clearing still happens in `step_xx_submit`, maintaining that as the single point of state mutation.
 
