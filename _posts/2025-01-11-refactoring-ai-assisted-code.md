@@ -1892,9 +1892,13 @@ Citations:
     [4] https://www.theatlantic.com/technology/archive/2013/12/no-old-maps-actually-say-here-be-dragons/282267/
     [5] https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Psalter_World_Map,_c.1265.jpg/170px-Psalter_World_Map,_c.1265.jpg?sa=X&ved=2ahUKEwjn3tTmmu6KAxUoHLkGHTS1IWcQ_B16BAgLEAI
 
+### Taming the Unknown
+
 ...and we take away that scariness with the [PicoCSS Examples
 page](https://4mrnhq.csb.app/). Surely nothing I'm going to implement in the
 immediate term is going to be any more difficult than what I show there.
+
+### Taking a Break
 
 But still, after such an intense morning so far (bringing us up to just past
 noon, and I started at 7:00 AM despite my 9:00 AM Billy Joel homage), so that's
@@ -1902,8 +1906,12 @@ a 6-hour day already, I have to rest my brain, relax, and come back ready to
 roll out the copy/paste-able examples beyond StarterFlow (namely, the textarea)
 which can be copy/pasted together into GapAnalysisFlow.
 
+### Next Steps
+
 Maybe I can get GapAnalysisFlow done today, and still slam that YouTube video I
 need out to start introducing people to all this.
+
+### Content Strategy
 
 And when you do, promote a playlist that you can add to and delete from, because
 any particular video will probably go obsolete with new versions as fast as I
@@ -1921,6 +1929,8 @@ module scope, which is the same as a `.py`-file, and I have global variables in
 a bad practice, but you have to put things somewhere, so some things ***MUST***
 live there. You need not be `global`-shamed for doing so.
 
+### Configuration and Constants
+
 Anything configuration-like can live there, but it's good to use `ALL_CAPS` as a
 constant convention, and best to create them near the top of the file so you see
 them right away. I've got quite a few of those, plus quite a few functions and
@@ -1935,10 +1945,14 @@ standard packages from PyPI and the following static JavaScript/CSS libraries:
 - PicoCSS 2.0.6 https://github.com/picocss/pico/blob/main/css/pico.css
 - SortableJS 1.15.6 https://github.com/SortableJS/Sortable/blob/master/Sortable.js
 
+### Single File Philosophy
+
 There is no custom JavaScript file. There is no `styles.css` file. It's all in
 `pipulate.py`&#151; web framework, its plugins and customized workflow pipelines
 &#151; and it's all still under 10,000 lines of code, which fits nicely in the
 context window of many modern frontier model LLMs. Surreal, huh? 
+
+### Multiple App Identities
 
 Well, welcome to Pipulate, aka `botifython.py` when used for my day-job,
 interacting with the Botify API to export data from an Enterprise SEO crawler.
@@ -1947,6 +1961,8 @@ of webpages, or even millions, is top on that list. And this gets to the point
 that the whole web framework can take on different identities by just cloning,
 forking or even just renaming the whole framework's single file, which in spirit
 is much like a Flask `server.py` file, but on the FastHTML web framework.
+
+### Technical Foundation
 
 So my Pipulate web framework is actually a particular application somewhat in
 the spirit of Ruby on Rails or Django, but built on FastHTML and HTMX, which
@@ -1957,12 +1973,16 @@ but most decidedly ***WITHOUT*** its jinja2 templates. FastHTML is a
 template-less Flask, using Python functions directly as [FT Components or
 FastTags](https://fasthtml-docs.demo.clace.io/explains/explaining_xt_components.html).
 
+### Pure Python Approach
+
 With no template language files to deal with, no JavaScript files and no CSS
 files, what's left over is pure Python where your Python functions look like the
 HTML tags. And where HTML tags have attributes and their values, Python
 functions have parameters and their arguments. These two things ***zip-up***
 together very nicely in a holy union of two righteous technologies that are
 doubly righteous together!
+
+### The Power of HTMX
 
 But wait, THERE'S HTMX! (in my homage to Billy May). Just when you thought the
 web development situation couldn't get any better, this HTML environment that's
@@ -1993,6 +2013,8 @@ Citations:
     [8] https://www.answer.ai/posts/2024-08-04-carson.html
     [9] https://www.listennotes.com/podcasts/backend-banter/024-behind-htmx-carson-gross-I6LqCw-hTcY/
 
+### The Triple Righteous Combo
+
 So doubly the already doubly righteous combo of Python and HTML with 1-to-1
 element mapping becomes triply righteous with 1-to-1-to-1 mapping with the HTMX
 attributes. Now the magic here is just profound in its getting back to roots of
@@ -2000,12 +2022,16 @@ the HTML hypertext hypermedia protocol, which is really quiet powerful and
 doesn't need ReactJS, AngularJS, VueJS or any of that stuff at all really. It's
 not that it's not using JavaScript. It is. 
 
+### Minimal JavaScript Dependencies
+
 As you can see from the JavaScript and CSS requirements list above, it's using
 Surreal, which is a variation on jQuery that stays as close as possible to
 Vanilla JS. And then of course the HTMX libraries themselves which do the
 liberating. And Voilà! Profoundly expressive and high performance control of the
 webpage with instructions issued from the webserver (instead of a local
 JavaScript client framework).
+
+### Challenging Convention
 
 Now dems fightin words to a lot of full stack webdevs who've been taught there's
 one real way to do things. From my perspective, I'm still getting used to the
@@ -2017,6 +2043,8 @@ the HTML spec and squeezing it for all its worth nice too? You can stick close
 to the HTML specification without a ziggurat of virtual machine abstractions
 &#151; React virtual DOM, Wasm virtual machine. 
 
+### The Cost of Abstraction
+
 These virtual DOM and virtual machine abstractions of React and Wasm are
 supposed to future-proof you, but with the hamster wheel of JavaScript
 framework-breaking churn, they have exactly the opposite effect. And to pay for
@@ -2027,12 +2055,16 @@ JavaScript, but it's TypeScript. And all this SaSS and TS needs to be built
 every time you test a change, so what used to be plain text-files on a webserver
 is now a convoluted and time-consuming build procedure like compiling C-code?
 
+### The Power of HTML Fundamentals
+
 And this is when the alternative is sticking close to the HTML hypertext spec
 will future-proof you for sure. Sprinkling in HTMX on top of HTML, which may or
 may not become part of the future HTML specification upgrades, won't invalidate
 everything you're going to learn about the native DOM in the native browser with
 FastHTML. No, instead this core spec know-how of, say HTML5 for example, should
 serve you well for another 20 years or so &#151; no matter how AI takes over.
+
+### Bringing It Local
 
 Okay, so are you with me so far? So much of the burden of drawing stuff and
 updating pages is shifted to the server. Now what if your server where right
@@ -2043,6 +2075,8 @@ work this exact same way. They have little node servers handling the user
 interface for an otherwise locally installed app. So why not do it outside
 Electron with a more powerful deterministic system-builder like Nix and
 `flake.nix` files? Again, Voilà! Old school new power brought local.
+
+### Next Steps
 
 And this is me taking a deep breath before the next round of this epic coding
 session. This is about making the next steps as easy as possible. I don't want
@@ -2202,6 +2236,8 @@ class StarterFlow:
 This makes the code even more consistent and maintainable. The same pattern is used whether we're displaying an existing completed step or handling a new submission. Want me to show the step_02 updates as well?
 
 ---
+
+## Considering Helper Function Extraction
 
 **Me**: Now I'm not saying that they do, but I'm just asking whether these 3 functions might be better off externalized as Pipulate helper functions, given there's nothing hardwired in them, they're completely parameterizable, and they're likely to be identical across all workflow variations.
 
@@ -3605,16 +3641,22 @@ Would you like me to help sketch out what ExampleFlow might look like with vario
 
 ---
 
+## Evening Progress Update
+
 Okay, it's 6:00 PM and I did my second round of coding after a rest, and it yet
 again turned out not being about the textarea nor the GapAnalysisFlow. But it
 was all about greasing the wheels so that/those implementations will be that
 much easier.
+
+### Forever-Forward Development
 
 Once again, this is about forever-forward work. We cannot become architecture
 astronauts, as Joel Spolsky fatefully described the (fatefully, because it stuck
 in my head as a recrimination and a warning, haha). But there's something
 special about this stripped-down barebones framework. I mean, it's really
 getting down to the bone about now.
+
+### Framework Evolution Strategy
 
 This whole framework which is up to 9,210 lines of code, with copiously long
 docstrings and embedded documentation, could be made quite a bit shorter rolling
