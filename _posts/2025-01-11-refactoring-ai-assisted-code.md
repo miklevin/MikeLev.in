@@ -1750,3 +1750,142 @@ sparing us the fear that changing base classes incurs and the regret of not
 applying our new innovations to our old work. Pure 80/20-rule pragmatic design
 decisions. Maximum simplicity. Minimum friction on forging new directional
 paths.
+
+And so that defines my next round of work. The ExampleFlow. But not before I
+make an update to the way the Revert buttons work.
+
+---
+
+> Back to Claude, picking up where I left off after a miraculous first-try
+> bug-fix, given being fed this article as context.
+
+**Me**: You nailed it! Good job! Thank you.
+
+Remember this bit of code? It's the visual indicator on the revert buttons
+showing whether it's going to be an undo back to an etherial field (one emoji)
+versus keeping the prior data from that card's fields (the other emoji). I
+believe it's just adding an argument to the parameter in how the button is
+called in `revert_control`
+
+[Time-traveling prompt technique]
+
+...why not pass another object like the class' whole STEPS object and extract
+everything it needs from inside revert_control? I know I will need to clean up
+every reference to revert_control, but I would the other way too.
+
+**Claude**: This implementation looks excellent! It's a perfect example of good refactoring because:
+
+1. The function is now self-contained - it gets everything it needs from the STEPS list
+2. The docstring clearly explains the key aspects and patterns it implements
+3. The finalization check is cleaner (using steps[-1] instead of a passed parameter)
+4. The persistence lookup is elegant (using next() with a generator expression)
+5. The styling and message handling remain flexible
+
+Yes, it's a breaking change, but it's worth it because:
+- Reduces parameter clutter
+- Centralizes logic in one place
+- Makes the code more maintainable
+- Forces standardization across workflows
+
+Would you like me to help track down all the revert_control calls that need updating? We can make sure every workflow is using the new STEPS format consistently.
+
+## The Calm Before The ExampleFlow
+
+### Embracing Modern Development Tools
+
+> Doing that tracking down of each `revert_control` isn't necessary from Cursor
+> AI. The VSCode ***Tab Completion*** feature (aka "Tab to Accept Suggestions")
+> pretty much takes it from the first edit. I used to hate that kind of stuff,
+> but I see what a remarkable time-saver it can be.
+
+### The AI Revolution and Generational Change
+
+AI is transformative, no doubt. It's going to live up to the hype and far beyond
+with that slow cooking of the frog metaphor. There will be a dampening effect
+due to enormous hardware infrastructure upgrade costs and human nature resisting
+change. So a generation has to die off. Technically, two generations have to die
+off &#151; a full 40-years must pass for a full generational worldview shift to
+occur, because one of the generations always has to provide the gap. The
+farmer's child might not move to the city, but the farmer's child's child is
+much more likely to.
+
+### The Gap Generation
+
+We are the farmer's children. We will be the gap generation before AI and after
+AI. ChatGPT for those growing up right now will be like the rise of the digital
+age for me with the Atari 2600 VSC home game computer console, the one that's so
+often pictured in retro computing, and were the games on which DeepMind's
+AI-winter-thawing work was trained. So, Nolan Bushnell (founder of Atari) passes
+the baton to Demis Hassabis (founder of DeepMind) over the top of the heads of
+the 1970s kids through the Millennials. But we are not without our own bag of
+tricks. Embrace the tools!
+
+### The Coming AI Wave
+
+Everyone's going to go scatterbrained and gaga over AI. Let's just say I've
+gotten that out of my system, and I'm now running to where the ball is being
+thrown rather than where it is. The cacophony on Twitter and YouTube which
+always sounds louder than it is on the world on any given topic will in fact
+amplify and roll across the land. Look at how long it took people to become
+Internet-aware, Smartphone-aware. It's now only reaching ChatGPT and AI-aware.
+But unlike Internet and Smartphones, AI is going to erode whitecollar jobs.
+There's going to be a lot of job-loss over AI for people who can't/won't adapt.
+
+### Survival Through Adaptation
+
+This work, all this pipeline workflow stuff I'm talking about, and the web
+framework it fits into, and the local LLM that inhabits that software framework
+and knows about those pipeline workflows, that's all about job security and
+skills, and perchance loving what you too all the while. In other words, it's
+about survival &#151; but more that living & thriving on the fault-line sort of
+survival. Yeah, I know. It's a lot of Geoffrey Moore, Malcolm Gladwell buzzword
+salad, but there's a lot of crunchy croutons of truth in that buzzword salad. We
+have to be outliers to cross the chasm inside the tornado to live on that
+friggin fault line in a blink. Then it's over. Then it's our children's turn.
+
+### The Challenge of New Territory
+
+And this sort of meandering rambling writing is a sign of not wanting to get
+onto the next step. It's going to require more energy than flow-state. This is
+the heavy lift. Flow-state is like once you have the new workflow pipeline
+stamped out with a template, and you're just riffing. But stamping out the new
+workflow template requires taking your hands away from the keyboard, and doing
+the kind of thought-work you do few and far between. There's the spontaneous
+masterful use of the tools that have become like extensions of your body in
+their common everyday use case, like driving. And then there's the stuff that
+makes you slow down and consider, like driving somewhere new. Or I guess these
+days, you'd have to specify "without GPS". The uncharted and
+off-the-beaten-track slows you down and takes special resources. Forging new
+trails is hard, and writing like this is putting it off with puttering. It feels
+valuable, but it's evasion.
+
+And so we take away the scariness of the lands... the lands where...
+
+**Perplexity**: The phrase "Here Be Dragons" is a fascinating cartographic myth with an intriguing history. Contrary to popular belief, this expression appears only once in historical cartography, on the Hunt-Lenox Globe from around 1510 CE[1][2].
+
+## Origin and Historical Context
+
+The Latin inscription "HC SVNT DRACONES" (Here Are Dragons) was found on the eastern coast of Asia, near modern-day Indonesia[1]. Interestingly, this location is home to actual dragons - Komodo dragons - making the notation surprisingly accurate[1].
+
+## Meaning and Usage
+
+The phrase has come to symbolize **unknown or uncertain territories** that might contain potential risks[2]. Mapmakers would sometimes draw mythological creatures in blank spaces on maps, not necessarily as warnings, but as decorative marginalia[1]. Medieval cartographers more commonly used phrases like "Here Be Lions" to denote unexplored regions[2].
+
+## Cultural Significance
+
+Today, "Here Be Dragons" has evolved beyond cartography. It is now used metaphorically to indicate:
+- Uncharted or risky territories
+- Areas of uncertainty
+- Potential unknown dangers
+
+The expression has been adopted in literature, scientific writing, and popular culture as a metaphor for venturing into the unknown[2].
+
+Notably, despite its widespread perception, the phrase appears only once on a historical map - the Hunt-Lenox Globe - making its legendary status more myth than historical fact[3][4].
+
+Citations:
+
+    [1] https://generalist.academy/2020/06/26/there-be-dragons/
+    [2] https://en.wiktionary.org/wiki/here_be_dragons
+    [3] https://www.geographyrealm.com/here-be-dragons/
+    [4] https://www.theatlantic.com/technology/archive/2013/12/no-old-maps-actually-say-here-be-dragons/282267/
+    [5] https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Psalter_World_Map,_c.1265.jpg/170px-Psalter_World_Map,_c.1265.jpg?sa=X&ved=2ahUKEwjn3tTmmu6KAxUoHLkGHTS1IWcQ_B16BAgLEAI
