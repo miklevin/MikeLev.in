@@ -1891,3 +1891,22 @@ Citations:
     [3] https://www.geographyrealm.com/here-be-dragons/
     [4] https://www.theatlantic.com/technology/archive/2013/12/no-old-maps-actually-say-here-be-dragons/282267/
     [5] https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Psalter_World_Map,_c.1265.jpg/170px-Psalter_World_Map,_c.1265.jpg?sa=X&ved=2ahUKEwjn3tTmmu6KAxUoHLkGHTS1IWcQ_B16BAgLEAI
+
+...and we take away that scariness with the [PicoCSS Examples
+page](https://4mrnhq.csb.app/). Surely nothing I'm going to implement in the
+immediate term is going to be any more difficult than what I show there.
+
+But still, after such an intense morning so far (bringing us up to just past
+noon, and I started at 7:00 AM despite my 9:00 AM Billy Joel homage), so that's
+a 6-hour day already, I have to rest my brain, relax, and come back ready to
+roll out the copy/paste-able examples beyond StarterFlow (namely, the textarea)
+which can be copy/pasted together into GapAnalysisFlow.
+
+Maybe I can get GapAnalysisFlow done today, and still slam that YouTube video I
+need out to start introducing people to all this.
+
+And when you do, promote a playlist that you can add to and delete from, because
+any particular video will probably go obsolete with new versions as fast as I
+add them, and I need to accommodate the same constant-newness that the system
+itself is permitting with code. Fixed-position permanence is for locations on
+maps, not what's actually found there.
