@@ -2657,7 +2657,7 @@ clarity illustrating the process.
 
 1. First, let's separate the revert path from the submit path by modifying `handle_jump_to_step`:
 
-````python:botifython/botifython.py
+````python
 async def handle_jump_to_step(self, request, steps, app_name, container_id):
     """Generic jump_to_step handler for flows"""
     form = await request.form()
@@ -2676,7 +2676,7 @@ async def handle_jump_to_step(self, request, steps, app_name, container_id):
 
 2. Then modify `generate_step_placeholders` to pass the revert context:
 
-````python:botifython/botifython.py
+````python
 def generate_step_placeholders(self, steps, app_name, revert_to=None):
     """Generate step placeholder divs with revert context."""
     
@@ -2697,7 +2697,7 @@ def generate_step_placeholders(self, steps, app_name, revert_to=None):
 
 3. Then in the step handlers, we can check for revert mode and show Save/Cancel:
 
-````python:botifython/botifython.py
+````python
 async def step_01(self, request):
     step = self.STEPS[self.steps["step_01"]]
     pipeline_id = db.get("pipeline_id", "unknown")
