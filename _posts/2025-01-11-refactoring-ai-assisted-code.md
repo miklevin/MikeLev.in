@@ -3603,3 +3603,25 @@ Everything else - state management, navigation, persistence, etc. - just worksâ„
 
 Would you like me to help sketch out what ExampleFlow might look like with various input types as a reference implementation?
 
+---
+
+Okay, it's 6:00 PM and I did my second round of coding after a rest, and it yet
+again turned out not being about the textarea nor the GapAnalysisFlow. But it
+was all about greasing the wheels so that/those implementations will be that
+much easier.
+
+Once again, this is about forever-forward work. We cannot become architecture
+astronauts, as Joel Spolsky fatefully described the (fatefully, because it stuck
+in my head as a recrimination and a warning, haha). But there's something
+special about this stripped-down barebones framework. I mean, it's really
+getting down to the bone about now.
+
+This whole framework which is up to 9,210 lines of code, with copiously long
+docstrings and embedded documentation, could be made quite a bit shorter rolling
+these new workflow innovations into TenCardFlow, BridgeFlow and LinkGraphFlow,
+but that's a rabbit hole, for sure. Over time, they will either be naturally
+converted (when the time is right), or removed from the system as no longer
+necessary as examples. Their value as coding references plummeted now that I
+have this super-efficient StarterFlow, but their value as demoable workflows
+remains solid. Keep 'em and don't port 'em for now. Let their existence in that
+bloated state be its own sort of todo-list reminder for you.
