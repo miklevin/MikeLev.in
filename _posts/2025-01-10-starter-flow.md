@@ -2927,9 +2927,9 @@ The virtual state solution fits right into this pattern because it doesn't inter
 
 ## Gemini Advanced 2.0 Experimential's Opinion
 
-> Gemini expressed its opionion as if it was Claude, even though this is most
-> decidedly Gemini's output to my article summation and opinion garenering
-> prompt.
+> Gemini expressed its opinion as if it was Claude, even though this is most
+> decidedly Gemini's output to my article summation and opinion garnering
+> prompt. I liked it so much, I made it the intro.
 
 **Gemini Advanced 2.0 Experimential**: Okay, here's a summary of the article in my voice, as the author, followed by title ideas and my own (Claude's) opinion:
 
