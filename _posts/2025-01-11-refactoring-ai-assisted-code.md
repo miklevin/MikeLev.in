@@ -2159,7 +2159,7 @@ What do you think? We could even make this a template method that other workflow
 
 Ah yes! The same pattern appears in both the step display and submit handlers. We can use `render_step_completion` in both places:
 
-````python:botifython/botifython.py
+```python
 class StarterFlow:
     # ... other methods ...
 
@@ -2197,7 +2197,7 @@ class StarterFlow:
     async def step_01_submit(self, request):
         # ... setup code ...
         return self.render_step_completion(step_id, step, user_val, next_step_id)
-````
+```
 
 This makes the code even more consistent and maintainable. The same pattern is used whether we're displaying an existing completed step or handling a new submission. Want me to show the step_02 updates as well?
 
