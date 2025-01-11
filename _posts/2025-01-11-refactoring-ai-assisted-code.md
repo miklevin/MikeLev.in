@@ -1742,7 +1742,7 @@ but then also everything is easy to update with all templates and workflow
 instances in close relation to each other because they're all in one great big
 long file. 
 
-In such a scenario, 0ccasionally gutting and refactoring it creating
+In such a scenario, occasionally gutting and refactoring it creating
 inconsistencies between working instances (if it's not broken, don't fix it) and
 shiny new approaches only in the templates is really no problem. Old stuff
 naturally gets retired and replace by the new anyway, so we lean into that
