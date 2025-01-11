@@ -736,8 +736,1017 @@ Overall, this article serves as a valuable case study for developers navigating 
 
 ---
 
-And all this article was just by way of warming up, so we can solve the issue at
-hand, so we can solve the next issue on deck.
+## Limbering Up Complete
+
+> And all this article was just by way of warming up, so we can solve the issue
+> at hand, so we can solve the next issue on deck.
 
 - The issue at hand is the message system being messed up
 - The issue on deck is slamming out a new workflow, testing our reduced-friction theory
+
+## Deferring the Memory System
+
+I really need to get to the back-end memory stuff I keep yammering on about, but
+this is actually more urgent. That memory stuff is going to be cascading rabbit
+holes. Wonderful, all-the-difference rabbit holes. But rabbit holes nonetheless,
+and best deferred for now. Keep thinking about it as a background task. 
+
+### Future-Proofing with Git
+
+The important thing is to ensure rapid re-encoding of source materials so that
+choice of any particular database or embedding scheme isn't breaking
+future-compatibility. And that's where `git` comes in (again). Source material
+like conversation history gets preserved cumulatively in git repos in the
+filesystem on the backend simply setting the stage for rapid re-encoding and
+re-indexing by whatever comes along. Meanwhile, I can tap whatever
+infrastructures there are for git (and there are plenty) for data
+transformations and security.
+
+But for right now... for the immediate and urgent...
+
+## Feeds Article to Claude in Cursor AI Editor
+
+**Me**: Hey Claude, check out this article!
+
+**Claude**: Let's trace how the messages flow:
+
+1. Messages are defined in `generate_step_messages` when StarterFlow initializes:
+
+```python
+# Generate messages automatically from steps
+self.STEP_MESSAGES = self.pipulate.generate_step_messages(self.STEPS)
+```
+
+{:start="2"}
+2. Messages are used in two main places:
+- During `init` when starting/resuming a pipeline
+- After each step submission
+
+{:start="3"}
+3. The issue might be in `get_state_message` where it decides which message to show based on the current state. Since we're getting the same message repeatedly, it's likely either:
+- Not detecting state changes correctly
+- Using the wrong message key
+- Not getting the full context from the state
+
+Would you like me to show the current `get_state_message` implementation so we can debug it?
+
+---
+
+## Prompt For Updating Docstrings
+
+> I'm going to answer yes to that of course, but first I take a moment to update
+> all my Pipulate docstrings with this awesome prompt:
+
+Given this wonderful context state you have now, write the docstring you will be
+glad was here when next you come in without such context and risk crapping all
+over this with FastAPI patterns that undermine and throw off the careful balance
+of this all as established by @.cursorrules and this current working state.
+
+Don't go overboard, because I will be asking you this on pretty much every
+function and we don't want to get too verbose and repetitive. Focus on the
+unique important things about this function or method and only optionally
+include the conventional args and usage sample as you deem appropriate and grief
+sparing for future-you and me.
+
+And with that, I get this very commented and regression-resistant version of
+Pipulate:
+
+```python
+class Pipulate:
+    """
+    Pipulate manages a multi-step workflow pipeline using a JSON blob stored in a database table.
+    Each step's data is stored under keys like "step_01", "step_02", etc.
+    
+    Key Features:
+    - Progress tracking via presence of step keys (no explicit 'current_step' field needed)
+    - Automatic step progression (next step = highest existing step + 1)
+    - Persistent state between interruptions
+    - Jump-to-step capability from any point
+    
+    Example State JSON (stored in table's "data" field):
+    {
+        "step_01": {"name": "John"},          # Each step stores its own data
+        "step_02": {"color": "blue"},         # Steps present = completed steps
+        "created": "2024-12-08T12:34:56",     # First pipeline creation
+        "updated": "2024-12-08T12:35:45"      # Last state change
+    }
+
+    Database Schema (FastHTML MiniDataAPI table):
+    pipeline = {
+        "url": str,      # Primary key - unique workflow identifier
+        "app_name": str, # Endpoint name for routing and filtering
+        "data": str,     # JSON blob containing full workflow state
+        "created": str,  # ISO timestamp of creation
+        "updated": str,  # ISO timestamp of last update
+        "pk": "url"      # Primary key definition
+    }
+
+    Usage Flow:
+    1. User enters/resumes workflow via URL (/app_name/step_N)
+    2. System loads state from database using URL as key
+    3. UI shows appropriate step based on existing state
+    4. Each step completion updates state in database
+    5. Workflow continues until finalized
+
+    The workflow is designed to be interruption-safe - users can leave and 
+    resume from any point by re-entering their workflow URL.
+    """
+
+    def __init__(self, table):
+        """Initialize a Pipulate instance for managing pipeline state.
+
+        This is the core state management class for FastHTML pipelines. It deliberately
+        uses a simple table-based approach rather than ORM patterns. The table parameter
+        is a MiniDataAPI table with the following schema:
+
+        table = {
+            "url": str,      # Primary key - unique workflow ID 
+            "app_name": str, # Endpoint name for routing/filtering
+            "data": str,     # JSON blob containing full state
+            "created": str,  # ISO timestamp
+            "updated": str,  # ISO timestamp
+            "pk": "url"      # Primary key definition
+        }
+
+        Key Principles:
+        - One record = One complete pipeline state
+        - State flows forward only (submit clears forward steps)
+        - Display state != Persistence state
+        - Each step must be idempotent
+        - No ORM, no sessions, embrace server-side state
+
+        Args:
+            table: MiniDataAPI table for storing pipeline state
+
+        Remember:
+        - Always clear_steps_from() in submit handlers
+        - Preserve flag only affects UI/display
+        - Use standard pipulate helpers
+        - Test both first-time and resubmit flows
+        """
+        self.table = table
+
+    def get_timestamp(self) -> str:
+        """Get ISO timestamp for pipeline state tracking.
+        
+        This is a critical helper that ensures consistent timestamp format across
+        all pipeline state operations. Used for both creation and update times.
+        
+        The ISO format is required by MiniDataAPI's simple table schema and helps
+        maintain the local-first, single-source-of-truth principle for state 
+        management without introducing database-specific timestamp types.
+
+        Returns:
+            str: Current timestamp in ISO format (e.g. "2024-03-19T15:30:45.123456")
+        """
+        return datetime.now().isoformat()
+
+    def chain_reaction(self, next_step_id: str, app_name: str) -> Div:
+        """Creates the HTMX chain reaction pattern that drives pipeline flow.
+        
+        This is a critical helper that creates the auto-loading Div placeholders
+        that enable step-to-step transitions. When a step completes, it returns
+        both its completed state AND one of these chain reaction Divs for the 
+        next step. The load trigger causes immediate loading of the next step,
+        creating the seamless flow.
+
+        Args:
+            next_step_id: ID of the next step to load (e.g. "step_02")
+            app_name: App prefix for route generation
+        
+        Returns:
+            Div with HTMX attributes configured for auto-loading the next step
+        """
+        return Div(
+            id=next_step_id,
+            hx_get=f"/{app_name}/{next_step_id}",
+            hx_trigger="load",  # chain continues
+            hx_swap="outerHTML"
+        )
+
+    @pipeline_operation
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> tuple[Optional[dict], Optional[Card]]:
+        """Critical pipeline initialization that establishes the single source of truth.
+        
+        This is the gatekeeper for new pipeline state. It ensures we have exactly one
+        record per URL and maintains the local-first principle by using MiniDataAPI's
+        simple table constraints rather than distributed locking.
+
+        The state blob follows the pattern:
+        {
+            "created": "2024-03-19T...",  # ISO timestamp
+            "updated": "2024-03-19T...",  # ISO timestamp
+            "step_01": {...},             # Optional initial state
+            ...                           # Additional step data
+        }
+
+        Args:
+            url: Pipeline identifier (primary key)
+            initial_step_data: Optional seed data for first step(s)
+            
+        Returns:
+            (state, None) if successful initialization or existing state
+            (None, error_card) if URL conflict detected
+        """
+
+        try:
+            # First try to get existing state
+            state = self.read_state(url)
+            if state:  # If we got anything back (even empty dict), record exists
+                return state, None
+                
+            # No record exists, create new state
+            now = self.get_timestamp()
+            state = {
+                "created": now,
+                "updated": now
+            }
+            
+            if initial_step_data:
+                app_name = None
+                if "app_name" in initial_step_data:
+                    app_name = initial_step_data.pop("app_name")
+                state.update(initial_step_data)
+
+            # Insert new record with normalized endpoint
+            self.table.insert({
+                "url": url,
+                "app_name": app_name if app_name else None,
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state, None
+            
+        except:  # Catch constraint violation
+            error_card = Card(
+                H3("ID Already In Use"),
+                P(f"The ID '{url}' is already being used by another workflow. Please try a different ID."),
+                style=self.id_conflict_style()
+            )
+            return None, error_card
+
+    def read_state(self, url: str) -> dict:
+        """Get pipeline state from MiniDataAPI table, returning empty dict if not found.
+        
+        This is a core pipeline state accessor that follows the local-first pattern.
+        The empty dict return on failure enables the initialize_if_missing() pattern
+        rather than raising exceptions.
+
+        The state blob contains step data and metadata like:
+        {
+            "step_01": {"name": "Arthur"}, 
+            "step_02": {"quest": "Grail"},
+            "created": "2024-03-19...",
+            "updated": "2024-03-19..."
+        }
+
+        Args:
+            url: Pipeline identifier (primary key)
+            
+        Returns:
+            dict: Current pipeline state or empty dict if not found
+        """
+        try:
+            record = self.table[url]
+            return json.loads(record.data)
+        except (NotFoundError, json.JSONDecodeError):
+            return {}
+
+    def write_state(self, url: str, state: dict):
+        """Core pipeline state writer that maintains the single source of truth.
+        
+        This is the other half of read_state() and follows the same local-first pattern.
+        The state blob is the ONLY place pipeline state lives - no caching or side state.
+        Always updates the timestamp to maintain state transition tracking.
+
+        Args:
+            url: Pipeline identifier (primary key)
+            state: Current pipeline state dict to persist
+        """
+        state["updated"] = self.get_timestamp()
+        self.table.update({
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        })
+
+    def write_step_data(self, url: str, step_name: str, data: dict):
+        """Updates a single step's data in the pipeline state blob.
+
+        This is a key state transition point - it ONLY updates the specified step's data.
+        Does NOT clear forward steps (use clear_steps_from() before calling this in submit handlers).
+        Maintains single source of truth by reading full state first.
+
+        Args:
+            url: Pipeline identifier
+            step_name: Step ID to update (e.g. "step_01") 
+            data: Dict of step data to store
+        """
+        state = self.read_state(url)
+        state[step_name] = data 
+        self.write_state(url, state)
+
+    def generate_step_placeholders(self, steps, app_name):
+        """Creates the chain of empty divs that HTMX will populate to drive the workflow.
+
+        This is the key to the "Chain Reaction" pattern - each div loads its step content
+        automatically, which in turn creates the next div, forming a cascade of updates
+        that drives the entire workflow forward without complex orchestration.
+
+        The first div gets hx-trigger="load" to start the chain. Each subsequent div 
+        waits for its turn, keeping the workflow orderly and predictable.
+
+        Args:
+            steps: List of Step(id, persistent, field, label) defining the workflow
+            app_name: URL prefix for the workflow routes (e.g. "bridge")
+
+        Returns:
+            List[Div]: Chain of placeholder divs with HTMX attributes
+        """
+        start_from = 0  # Always start from the first step
+        placeholders = []
+        for i, step in enumerate(steps):
+            url = f"/{app_name}/{step.id}"
+            logger.debug(f"Creating placeholder {i} with URL: {url}")
+            
+            # Use hx-vals for data passing instead of URL parameters
+            # This is more robust as it:
+            # 1. Prevents URL parameter stripping by middleware
+            # 2. Handles special characters automatically
+            # 3. Keeps URLs clean and semantic
+            div = Div(
+                id=step.id,
+                hx_get=url,
+                hx_trigger="load" if i == start_from else None,
+            )
+            placeholders.append(div)
+        return placeholders
+
+    def revert_control(
+        self,
+        step_id: str,
+        app_name: str,
+        message: str = None,
+        final_step: str = None,
+        target_id: str = "tenflow-container",
+        label: str = None,
+        style: str = None,
+    ):
+        """Creates a revert control for stepping back in a pipeline workflow.
+
+        This is a key UI component of the "Revert Control Pattern". Each completed step shows
+        its data plus a revert button that lets users jump back. The revert uses HTMX to 
+        trigger pipulate.handle_jump_to_step() which properly clears forward state.
+
+        Critical: This respects finalization - if the pipeline is finalized, no revert controls
+        are shown, maintaining the "Finalization Lock Pattern".
+
+        Args:
+            step_id: Step to revert to (e.g. "step_01")
+            app_name: URL prefix for the workflow routes
+            message: Optional message to show with the control
+            final_step: If provided, checks this step for finalization
+            target_id: HTMX target for the revert action (default: "tenflow-container")
+            label: Optional custom label for the revert button
+            style: Optional custom CSS styles
+        """
+        url = db.get("pipeline_id", "")
+
+        # Early return if finalized
+        if url and final_step:
+            final_data = self.get_step_data(url, final_step, {})
+            if "finalized" in final_data:
+                return None
+
+        # Default styling if not provided
+        default_style = (
+            "background-color: var(--pico-del-color);"
+            "display: inline-flex;"
+            "padding: 0.5rem 0.5rem;"
+            "border-radius: 4px;"
+            "font-size: 0.85rem;"
+            "cursor: pointer;"
+            "margin: 0;"
+            "line-height: 1;"
+            "align-items: center;"
+        )
+
+        # Create basic revert form with just the essential fields
+        form = Form(
+            Input(type="hidden", name="step", value=step_id),
+            Button(
+                label or format_step_button(step_id),
+                type="submit", 
+                style=default_style
+            ),
+            hx_post=f"/{app_name}/jump_to_step",
+            hx_target=f"#{target_id}",
+            hx_swap="outerHTML"
+        )
+
+        # Return simple form if no message
+        if not message:
+            return form
+
+        # Return styled card with message if provided
+        return Card(
+            Div(message, style="flex: 1;"),
+            Div(form, style="flex: 0;"),
+            style="display: flex; align-items: center; justify-content: space-between;"
+        )
+
+    def wrap_with_inline_button(
+        self,
+        input_element: Input,
+        button_label: str = "Next", 
+        button_class: str = "primary"
+    ) -> Div:
+        """Helper for creating inline form controls in pipelines.
+        
+        This is a key UI pattern for FastHTML pipelines - it creates a flex container
+        with an input and submit button side-by-side. The button width is explicitly
+        overridden from PicoCSS defaults to prevent stretching.
+
+        Usage:
+            form = Form(
+                self.wrap_with_inline_button(
+                    Input(type="text", name="quest"),
+                    "Continue Quest"
+                )
+            )
+
+        The resulting HTML will have proper flex layout and consistent button styling
+        that works with the pipeline's visual language.
+        """
+        return Div(
+            input_element,
+            Button(
+                button_label,
+                type="submit",
+                cls=button_class,
+                style=(
+                    "display: inline-block;"
+                    "cursor: pointer;" 
+                    "width: auto !important;"  # Override PicoCSS width: 100%
+                    "white-space: nowrap;"
+                )
+            ),
+            style="display: flex; align-items: center; gap: 0.5rem;"
+        )
+
+    def generate_step_messages(self, steps: list) -> dict:
+        """Generates the standard message templates for a FastHTML pipeline workflow.
+        
+        This is a core helper for the Pipeline Pattern that creates a consistent 
+        messaging structure for each step's states (new, input needed, complete).
+        The messages follow the Pipeline Mantra of "Submit clears forward, Display 
+        shows the past" by providing appropriate prompts for both input and 
+        completed states.
+
+        The finalize step gets special handling to support the Finalization Pattern
+        where a completed workflow can be locked or unlocked for changes.
+
+        See StarterFlow for working examples of how these messages integrate with
+        the Pipeline Pattern's state transitions.
+        """
+        messages = {
+            "new": f"Step 1: Enter your {steps[0].label}"
+        }
+        
+        # Generate messages for each step
+        for i, step in enumerate(steps[:-1], 1):  # Skip final step
+            next_step = steps[i]
+            messages[step.id] = {
+                "input": f"Step {i}: Enter your {step.label}",
+                "complete": f"Step {i} Done. You entered {{}}. Enter your {next_step.label}."
+            }
+            
+        # Special handling for finalize step
+        messages["finalize"] = {
+            "ready": "All steps complete. Ready to finalize workflow.",
+            "complete": "Workflow finalized. Use Unfinalize to make changes."
+        }
+        
+        return messages
+
+    async def get_state_message(self, url: str, steps: list, messages: dict) -> str:
+        """
+        Core pipeline state message generator that follows the Pipeline Mantra.
+        
+        This is a critical piece of the Pipeline Pattern that ensures state flows
+        forward correctly by checking steps in reverse order. It handles both
+        standard steps and the special finalize step, integrating with the
+        Finalization Pattern for workflow locking.
+
+        The reverse order check is key - it finds the last completed step and
+        generates the appropriate message, whether that's showing completed data
+        or prompting for input. This matches our "Submit clears forward, Display
+        shows the past" principle.
+
+        See StarterFlow for working examples of message integration.
+        """
+        state = self.read_state(url)
+        logger.debug(f"\nDEBUG [{url}] State Check:")
+        logger.debug(json.dumps(state, indent=2))
+
+        # Check steps in reverse order (including finalize)
+        for _, persistent, field, _ in reversed(steps):
+            if field not in state:
+                continue
+
+            # Special handling for finalize step
+            if field == "finalize":
+                if "finalized" in state[field]:
+                    return self._log_message("finalized", messages[field]["complete"])
+                return self._log_message("ready to finalize", messages[field]["ready"])
+
+            # Standard step handling
+            step_data = state[field]
+            step_value = step_data.get(field)
+            
+            if step_value:
+                msg = messages[field]["complete"]
+                # Handle both format string and plain messages
+                msg = msg.format(step_value) if "{}" in msg else msg
+                return self._log_message(f"{field} complete ({step_value})", msg)
+                
+            return self._log_message(f"{field} input needed", messages[field]["input"])
+
+        # No steps found - new workflow
+        return self._log_message("new pipeline", messages["new"])
+
+    def _log_message(self, state_desc: str, message: str) -> str:
+        """Logs pipeline state transitions and maintains LLM conversation context.
+        
+        This is a critical piece of the Pipeline Pattern's state tracking that:
+        1. Logs state transitions for debugging/development
+        2. Feeds state messages into the LLM conversation history
+        3. Returns the message for UI display
+        
+        The quiet=True on append prevents LLM chat noise while maintaining context.
+        This follows the DEBUG Pattern from .cursorrules: "Just log it!"
+        """
+        logger.debug(f"State: {state_desc}, Message: {message}")
+        append_to_conversation(message, role="system", quiet=True)
+        return message
+
+    async def handle_jump_to_step(self, request, steps, app_name, container_id):
+        """Handles jumping back to a previous step in a pipeline flow.
+        
+        This is a critical piece of the Pipeline Pattern that:
+        1. Creates a temporary "virtual state" that clears steps forward from jump target
+        2. Stores virtual state in memory (not disk) to avoid corrupting real state
+        3. Returns placeholder chain for HTMX to trigger step reloading
+        
+        The virtual state ensures "Submit clears forward" principle is maintained
+        even during jumps, while preserving the actual state until next submit.
+        
+        See StarterFlow for working examples of jump handling.
+        """
+        form = await request.form()
+        step_id = form.get("step", "")
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Read current state but don't modify disk
+        state = self.read_state(pipeline_id)
+        
+        # Create virtual state for chain reaction
+        virtual_state = state.copy()
+        step_indices = {step.id: i for i, step in enumerate(steps)}
+        target_idx = step_indices[step_id]
+        
+        # Clear future steps in virtual state only
+        for step in steps[target_idx:]:
+            if step.id in virtual_state:
+                virtual_state[step.id] = {}
+        
+        # Store virtual state as JSON string
+        db["virtual_state"] = json.dumps(virtual_state)
+        
+        # Generate placeholders for chain reaction
+        placeholders = self.generate_step_placeholders(steps, app_name)
+        return Div(*placeholders, id=container_id)
+
+    @pipeline_operation
+    def get_step_data(self, url: str, step_id: str, default=None) -> dict:
+        """Get step data with virtual state awareness for jump handling.
+        
+        This is a critical piece of the Pipeline Pattern that:
+        1. Checks for virtual state first (from handle_jump_to_step)
+        2. Falls back to disk state if no virtual state exists
+        3. Never corrupts real state during jumps
+        
+        The virtual state allows "preview" of step clearing during jumps
+        while preserving the actual state until next submit. This maintains
+        the "Submit clears forward" principle even during navigation.
+        
+        See StarterFlow and handle_jump_to_step() for usage examples.
+        """
+        try:
+            virtual_state_json = db.get("virtual_state")
+            if virtual_state_json is not None:
+                virtual_state = json.loads(virtual_state_json)
+                return virtual_state.get(step_id, default or {})
+        except (json.JSONDecodeError, TypeError):
+            pass
+        
+        # Fall back to disk state
+        state = self.read_state(url)
+        return state.get(step_id, default or {})
+
+    def clear_steps_from(self, url: str, target_step: str, steps):
+        """CRITICAL: This is the state reset point for all submit handlers.
+        
+        The Pipeline Pattern requires clearing forward state on EVERY submit.
+        This maintains the "Submit clears forward" principle by ensuring:
+        
+        1. No stale data corrupts subsequent steps
+        2. Each step starts fresh after submit
+        3. Preserve mode only affects UI display
+        
+        Args:
+            url: Pipeline identifier (usually from db["pipeline_id"])
+            target_step: Step to clear from (e.g. "step_01") 
+            steps: STEPS list from pipeline class
+        Returns:
+            Updated state dict
+        """
+        state = self.read_state(url)
+        step_indices = {step.id: i for i, step in enumerate(steps)}
+        target_idx = step_indices[target_step]
+
+        for step in steps[target_idx:]:
+            state.pop(step.id, None)
+
+        self.write_state(url, state)
+        return state
+
+    def id_conflict_style(self):
+        return "background-color: var(--pico-del-color);"
+
+    async def delayed_greeting(self):
+        """Provides a gentle UX delay before prompting for pipeline ID.
+        
+        The simulated chat stream maintains the illusion of "thinking" while
+        actually just managing timing and UX expectations. This is preferable
+        to instant responses which can make the system feel too reactive and
+        breaking pace with the LLM-provided chat that has inherent latency.
+        """
+        await asyncio.sleep(2)
+        await chat.simulated_stream("Enter an ID to begin.")
+
+    def get_step_summary(self, url: str, current_step: str, steps) -> tuple[dict, list]:
+        """Builds a summary of completed pipeline steps for LLM context.
+        
+        Critical for maintaining the Pipeline Pattern's "state flows forward" principle
+        by only including steps up to the current one. Used by explain() to give the 
+        LLM context about progress without exposing future/cleared state.
+
+        Args:
+            url: Pipeline identifier (from db["pipeline_id"])
+            current_step: Current step ID (e.g. "step_01")
+            steps: STEPS list from pipeline class
+        
+        Returns:
+            (state_dict, summary_lines) tuple where state_dict has completed step data
+            and summary_lines has formatted strings for LLM consumption.
+        """
+        # Get state up to current step
+        state = {}
+        current_step_found = False
+        for key, step_id, label in steps:
+            if current_step_found:
+                break
+            if step_id == current_step:
+                current_step_found = True
+            step_data = self.get_step_data(url, step_id, {})
+            if key in step_data:
+                state[key] = step_data[key]
+
+        # Build summary lines
+        summary_lines = []
+        for key, step_id, label in steps:
+            if step_id == current_step:
+                break
+            if key in state:
+                summary_lines.append(f"- {label}: {state[key]}")
+
+        return state, summary_lines
+
+    async def explain(self, caller, current_step, message=None):
+        """
+        Provides LLM commentary for pipeline steps via background chatq() task.
+        
+        This is a core pipeline pattern that maintains the illusion of an LLM
+        "following along" with the user's progress through the workflow. It either:
+        1. Generates a summary based on completed steps up to current_step
+        2. Uses a provided message for direct LLM commentary
+        
+        The background task ensures the UI remains responsive while the LLM
+        processes. This follows the "LLM Commentary Pattern" from .cursorrules
+        where AI adds flavor but isn't required for core functionality.
+
+        Args:
+            caller: Flow instance with llm_enabled, STEPS and pipeline_id 
+            current_step: Current step ID (e.g. "step_01")
+            message: Optional override message instead of step summary
+        """
+        if not caller.llm_enabled:
+            return
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Optionally gather step summary lines from pipulate
+        _, summary_lines = self.get_step_summary(pipeline_id, current_step, caller.STEPS)
+
+        prompt = ""
+        if not message:
+            summary = ""
+            if summary_lines:
+                summary = "So far:\n" + "\n".join(summary_lines) + "\n\n"
+            prompt = (
+                f"Briefly summarize the user's progress at '{current_step}'.\n\n"
+                f"{summary}"
+            )
+        else:
+            prompt = message
+
+        asyncio.create_task(chatq(prompt, role="system"))
+
+    def format_textarea(self, text: str, with_check: bool = False) -> P:
+        """
+        Formats pipeline step text with consistent FastHTML styling.
+        
+        This is a core UI helper used across pipeline steps to maintain
+        consistent text display. The pre-wrap and margin settings ensure
+        multi-line text displays properly within pipeline cards.
+        
+        The optional checkmark (✓) indicates completed steps in the
+        pipeline flow, following the "show completed state" pattern
+        from .cursorrules.
+
+        Args:
+            text: Text content to format (usually from pipeline state)
+            with_check: Add completion checkmark (default: False)
+        """
+        return P(
+            Pre(
+                text,
+                style=(
+                    "white-space: pre-wrap; "
+                    "margin-bottom: 0; "
+                    "margin-right: .5rem; "
+                    "padding: .25rem;"
+                )
+            ),
+            " ✓" if with_check else ""
+        )
+```
+
+## Updating Cursor's Context Database
+
+And with that in-hand, it's now pretty important to ensure Cursor's magical
+background RAG processes are up-to-date, so we go into:
+
+<div class="mermaid">
+    flowchart LR
+        A[File] --> B[Preferences]
+        B --> C[Cursor Settings]
+        C --> D[Features]
+        D --> E[Codebase Indexing]
+        E --> F[Resync Index]
+</div>
+
+### The Magic Behind Cursor's Context Window
+
+...and we update what we must assume is a database Cursor AI editor can hit in
+the background to add context to your prompt. Ever wonder why Cursor AI has such
+a larger apparent context window than the model's currently advertised
+capabilities imply? This is one of the reasons why&#151; real-time background
+indexing of all new content put into the VSCode-like Workspace (the folder you
+originally opened).
+
+### Deep Learning Through Context
+
+Including the whole Pipulate class in the context of a prompt should now have a
+similar effect to referring the code assistant to the `.cursorrules` file, but
+much more focused on the pipeline features versus the overarching web framework.
+These seem like such shallow words tapping them out into this article, but what
+I'm saying here runs deep. There is a full Neo in the Matrix Kung Fu-style
+download here. It's a deep education on the system that should result in some
+fairly granular results&#151; good implementations. Let's see...
+
+**Me**: Yes please. But first have a look at all of Pipulate. And here also is
+the `get_state_message` you ask for, along with the entire `StarterFlow` class.
+
+**Claude**: Ah, now I see the full picture! The issue is in how the messages are structured between `generate_step_messages` and `get_state_message`. Let's trace the flow:
+
+1. In `generate_step_messages`, we create messages like:
+
+```python
+messages = {
+    "new": f"Step 1: Enter your {steps[0].label}",
+    "step_01": {
+        "input": f"Step 1: Enter your {step.label}",
+        "complete": f"Step 1 Done. You entered {}. Enter your {next_step.label}."
+    },
+    ...
+}
+```
+
+{:start="2"}
+2. But in `get_state_message`, we're looking up messages by field instead of step_id:
+
+```python
+# This line is the problem - using field instead of step_id
+for _, persistent, field, _ in reversed(steps):
+    if field not in state:
+        continue
+    
+    # Using field to lookup messages
+    msg = messages[field]["complete"]  # This fails because field != step_id
+```
+
+The fix is to use step_id consistently:
+
+```python
+async def get_state_message(self, url: str, steps: list, messages: dict) -> str:
+    state = self.read_state(url)
+    logger.debug(f"\nDEBUG [{url}] State Check:")
+    logger.debug(json.dumps(state, indent=2))
+
+    # Check steps in reverse order (including finalize)
+    for step in reversed(steps):  # Use Step objects directly
+        if step.id not in state:
+            continue
+
+        # Special handling for finalize step
+        if step.field == "finalized":
+            if step.field in state[step.id]:
+                return self._log_message("finalized", messages["finalize"]["complete"])
+            return self._log_message("ready to finalize", messages["finalize"]["ready"])
+
+        # Standard step handling
+        step_data = state[step.id]
+        step_value = step_data.get(step.field)
+        
+        if step_value:
+            msg = messages[step.id]["complete"]
+            msg = msg.format(step_value) if "{}" in msg else msg
+            return self._log_message(f"{step.id} complete ({step_value})", msg)
+            
+        return self._log_message(f"{step.id} input needed", messages[step.id]["input"])
+
+    # No steps found - new workflow
+    return self._log_message("new pipeline", messages["new"])
+```
+
+The key changes:
+
+1. Use Step objects directly from steps list
+2. Look up messages by step.id instead of field
+3. Keep the state lookup by step.id consistent
+
+This should fix the message progression through the workflow. Want me to show the corresponding changes needed in `generate_step_messages`?
+
+---
+
+## Manual Code Patching
+
+Well, there's a granular and confident coding-fix recommendation! Let's give it
+a try. I haven't talked about cracking an egg over top a function or method yet,
+have I? As a practical alternative to auto-applying a Cursor AI editor to your
+large code-base at the risk of auto-target-selection not working (which it often
+doesn't as the size of your code-base increases), the best alternative appears
+to be as follows.
+
+### Copying the Patch
+
+First, you copy the entire LLM chat response using the very-lower-right `Copy
+Message` icon in the reply. This is important because you don't want only the
+code. And you don't want to accidentally get only a single line of the response.
+You want the whole shebang, which is done with that very most lower-right
+instance of a series of otherwise identically looking icons. And that's the
+***code assistant edit patch!*** This is what you crack over the head of your
+function or method for better targeting.
+
+### Applying the Patch
+
+You do this by visually selecting (highlighting) the whole function or method
+(often within a class) from first to last line. Okay, so now the whole function
+is selected? Hit `Ctrl+K` which will open an in-editor inline prompt input field
+just above your code. You won't find it on the menu, but the pop-up context menu
+help will suggest `Edit Ctrl+K`, which you can also click to get it.
+
+### Understanding the Process
+
+Okay, once your code you want to ***apply the patch to*** is highlighted and you
+have a prompt-field floating above it, you paste the patch into that field and
+click `Submit Edit`. You have effectively manually targeted the patch to a
+specific set of lines within your potentially very long codebase (especially in
+my instance), circumventing one of Cursor AI's targeting challenge. 
+
+### Current Limitations
+
+Cursor AI's challenge of anchoring onto the right code-block to target comes
+from a variety of factors, from the length of your code (requiring a full
+file-scan) to the use of the same function or method names within different
+classes, which should be perfectly okay, but Cursor AI has problems with for
+what are understandable reasons (for now). We are in the early days of this
+stuff, and until these rough edges are worked out, it's good to know how to
+***crack an egg patch*** over the head of your code-blocks. You watch the yolk
+of applying the patch flow down over your code-block as the git-diff-emulating
+color-coding twinkles to greens and reds.
+
+### The Need for Organic Documentation
+
+Wow, this stuff is so timely! And nobody's ever going to read this in time
+because I don't have a social media megaphone, because my stuff is all over the
+place and too technical and in written format instead of video.
+
+I really have to make the organic book on growing organic books with AI! And I
+have to do it in video-format, and I need to do it in a way that's not toxic
+like those SEOs spinning out books for rich housewives on Amazon. The idea is to
+make a machine for converting domain expertise into packagable payload bits that
+can be distributed out with high integrity for bettering the world and achieving
+Ikigai: the alignment of what you're good at, love to do, can get paid for and
+what the world needs. This is a positive feedback loop... a strange loop... that
+needs to exist. Okay, noted. Finish today's work and directionally tweak
+progress in that direction. Your book-fodder-scouring tech will pick this idea
+up again and resurface it. Hear that, LLM?!?! An organic book on growing organic
+books! Let me be first, if I can be fast!
+
+### Improving Code Documentation
+
+Pant, pant, pant... okay. That patch worked! And I would much rather be
+improving the documentation and usefulness of my code overall in such a way that
+makes bug-squashing easy than chasing down a bug, fixing it, and the overall
+code but for that tiny fix no better off for it. This way the entire codebase
+improves, future bugs are less likely to be introduced, and existing bugs can be
+more effectively squashed on first attempts.
+
+### Planning the Next Steps
+
+So what now? The re-introduction of the textarea? Yikes, but yes.
+
+But before you do, think this through. Think through the real objective of
+today, which is not bringing back those messages, nor re-introducing the
+textarea but is the reduction of friction in slamming out new workflows.
+
+### Workflow Design Principles
+
+The workflows must be of the center-line type. That is to say, mostly using text
+input fields, textareas, and perhaps the prime selection of form input fields,
+such as dropdown menus, radio-buttons and check boxes. But even those very
+simple choices implies the need for yet a new workflow class that I can
+copy/paste examples from... the ExampleFlow class? I've eliminated OneCardFlow
+which contained the textarea while I worked out StarterFlow, persistence and
+standard messages. Now that that's done, why not a new class that I can rapidly
+copy/paste from? And so the typical flow goes:
+
+- Copy StarterFlow
+- Copy/Paste from ExampleFlow
+- NewFlow grows from the middle
+
+### Growing from the Middle
+
+I say *"grows from the middle"* because all that `landing` and `init` stuff at
+the beginning of a workflow consistently stays the same, such as how the
+***key*** `Card()` work. Get it? It's a ***key-card!*** There's always a keycard
+at the top, but then there's also always a `finalize` and `unfinalize` at the
+bottom. So when you create a new workflow and start copy/pasting either the
+barebones text input examples from StarterFlow or copy/paste examples from
+ExampleFlow such as textareas and web form fields in from an external class,
+you're pushing the workflow longer from its middle.
+
+### Future Planning
+
+Okay, these are the strong visual models I need in my head to both complete the
+next round of copy/paste templating source, and to perform that copy/pasting
+(and modifications) of new workflows.
+
+I'm probably designing my next 2 to 10 years of work, easily&#151; which is why
+I'm putting so much thought-work into it now.
+
+### Evolutionary Design
+
+Though it's not like I'm really going to have to live with all my designs
+forever forward as copy/pasted code propagates. I'm going to be leaving an
+evolutionary trail of the system while new workflows cycle in and out of the
+system, and the base templates get tweaked and improved over time. This is
+allowed for and in fact encouraged under the design. Reasons for this is an
+article in itself, suffice to say `git` branching and the single-file design.
+Everything's easy to make variations and iterate on because of the power of git,
+but then also everything is easy to update with all templates and workflow
+instances in close relation to each other because they're all in one great big
+long file. 
+
+In such a scenario, 0ccasionally gutting and refactoring it creating
+inconsistencies between working instances (if it's not broken, don't fix it) and
+shiny new approaches only in the templates is really no problem. Old stuff
+naturally gets retired and replace by the new anyway, so we lean into that
+sparing us the fear that changing base classes incurs and the regret of not
+applying our new innovations to our old work. Pure 80/20-rule pragmatic design
+decisions. Maximum simplicity. Minimum friction on forging new directional
+paths.
