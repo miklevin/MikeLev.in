@@ -106,6 +106,8 @@ I’m guiding through the process of using search commands to select Python func
 
 I’m compiling visual mode and search techniques to select Python methods, focusing on next non-indented lines and class-related patterns, as there’s no built-in method for Python function selection.
 
+## So You Found Something I Hadn't, Right o1 Pro?
+
 **o1 Pro**: First, the short (and somewhat frustrating) truth:
 
 > **Vanilla Vim (and thus most Vim emulations like VSCode Vim mode) does not provide a built-in, indentation-based text object**—that is, a quick motion or text object that selects “everything at this indent level” without relying on braces/brackets or plugins.  
