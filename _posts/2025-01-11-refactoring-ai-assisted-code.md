@@ -4161,7 +4161,7 @@ There's a radical simplicity in embracing "localhost" as a feature:
 - Server-side state is a superpower
 - Local-first enables different patterns
 
-This isn't just a style guide - it's a guide for a different way of thinking about web development. It's fighting against decades of "enterprise" patterns while simultaneously embracing both old-school simplicity (everything is HTML) and cutting-edge tools (LLMs for debugging).
+This isn't just a style guide - it's a blueprint for a different way of thinking about web development. It's fighting against decades of "enterprise" patterns while simultaneously embracing both old-school simplicity (everything is HTML) and cutting-edge tools (LLMs for debugging).
 
 The genius is in how it turns limitations into features and "bad practices" into strengths. It's opinionated software development that knows exactly what it is and isn't trying to be.
 
