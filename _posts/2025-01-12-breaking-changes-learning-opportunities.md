@@ -1526,3 +1526,236 @@ This is brilliant because it shows both the wrong way AND the right way:
    - The documentation aligns perfectly with the development environment setup in flake.nix, ensuring that the principles can be immediately practiced in a reproducible environment.
    - This isn't just documentation - it's a teaching tool, a reference manual, and a system architecture document all in one. Would you like me to elaborate on any particular aspect of how it all fits together?
 
+---
+
+## Crossing The Bridge Of Rewards
+
+**Me**: No, no. The time has come the walrus said to wack some bugs. The first
+one up is how BridgeFlow finalizes. Take a look at the reference spec...
+
+[pasted StarterFlow]
+
+...and at the current BridgeFlow implementation:
+
+[pasted BridgeFlow]
+
+Look at @.cursorrules, but without going all out on a port to the new approach,
+let's just do the lightest touch to fix the fact that the "Cross the Bridge"
+button brings us back to the color choice card. Now I know that blending in the
+new best practices as illustrated by StarterFlow is going to overwrite some of
+the novel Monty Pythonesque language of BridgeFlow, but that's actually fine. I
+think it will be neat to show heavy customization blending into the efficiencies
+of the new system on the last button.
+
+It'd be nice to preserve all that Right-choice/Wrong-choice based on color
+selection, but that's far less important than actually fixing the finalize
+process and make the chain reaction work properly.
+
+**Claude**: Looking at both implementations, I can see the key issue. BridgeFlow isn't properly using the finalization pattern from StarterFlow. Here's the minimal fix needed:
+
+```python
+// ... existing code ...
+
+async def step_04(self, request):
+    """
+    GET /bridge/step_04
+    Final step - show results & allow finalization if not already locked.
+    """
+    pipeline_id = db.get("pipeline_id", "unknown")
+    step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+    step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+    color = step3_data.get("color", "")
+
+    # If already finalized, show the final card
+    if "finalized" in step4_data:
+        return self._final_card(color)
+
+    # Else, let user finalize
+    return Div(
+        Card(
+            H3("Ready to cross?"),
+            P("Your answers are given. Shall we test your wisdom?"),
+            Form(
+                Button("Cross the Bridge", type="submit"),
+                hx_post=f"/{self.app_name}/finalize_submit",  # Changed from step_04_submit
+                hx_target="#bridge-container",
+                hx_swap="outerHTML"
+            )
+        ),
+        id="step_04"
+    )
+
+async def finalize_submit(self, request):
+    """Handles finalizing the pipeline.
+    Locks the pipeline by setting the finalized flag and triggers LLM commentary."""
+    pipeline_id = db.get("pipeline_id", "unknown")
+    
+    # Set the finalized flag using standard pipulate helper
+    self.pipulate.write_step_data(pipeline_id, "step_04", {"finalized": True})
+    
+    # Re-generate all placeholders to show final state
+    placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.app_name)
+    return Div(*placeholders, id="bridge-container")
+
+// ... existing code ...
+```
+
+Key changes:
+1. Changed the finalization button to point to `/finalize_submit` instead of `/step_04_submit`
+2. Added proper `finalize_submit` handler that uses the standard pipulate pattern
+3. Kept the existing `_final_card` logic for the Monty Python theming
+
+This preserves all the Bridge of Death flavor while fixing the chain reaction issue by properly using the finalization pattern from StarterFlow.
+
+---
+
+## New `.cursorrules` Apply Perfecty
+
+> Bang! Spot-on. Nicely, done Claude! Now let's tackle TenCardFlow. 
+
+Also, and just like that TenCardFlow is fixed as well. I didn't even need the AI
+coding assistance. But truth be told, all I did was point where I knew the error
+was going to come from and pointed it to the new .cursorrules file, and it fixed
+it without me having to use the AI Chat feature. Does that count as not having
+used AI? I guess not. Sighhh...
+
+---
+
+## With Great Customization Comes Great Derailment
+
+> Unfortunately, the conversion of LinkGraphFlow did not go anywhere near as
+> smoothly, and I reached that point of frustration where I smack my:
+
+    git reset --hard HEAD
+
+...and just roll-back everything to the last state of the project with which I
+was happy. Replace head with the appropriate git hash, which in this case was
+immediately after the successful TenCardFlow port, but before the little edits I
+was doing working my way towards a LinkGraphFlow port. So it's back entirely in
+its original and very broken state.
+
+So what we're going to do is a rapid re-implementation, or a transplant if you
+will. I've done this before. This will be yet then next iteration of LinkGraph,
+as it started out as my very first program under FastHTML, the implementation of
+which still has a level of charm the pipeline approach has yet to recapture, but
+that's totally fine because I'm choosing convention and reproducibility over
+novel charm. What I'm going to do is start with a copy of StarterFlow renamed as
+LinkGraphFlow2. Okay, done. I was not planning on doing this, and it's already
+2:00 PM on this Sunday, but it will be good practice for ExampleFlow and
+GapAnalysisFlow, so let's see how fast we can blast through this.
+
+There's already tons of customizations in LinkGraphFlow, and it's a transplant
+job, so you will be for the most part transplanting the customizations intact,
+only here and there smoothing out the edges for the new efficient approach
+methodology from StarterFlow. Starting out with StarterFlow helps.
+
+After creating LinkGraphFlow2 as a copied instance of StarterFlow, the next
+thing I do is pull them both in the code to right underneath Pipulate, so that
+as I jump around, everything is in the same general vicinity. 
+
+Okay, I'm also taking the opportunity to rename a few helper functions that took
+on the `_new` extension from a previous port, to their proper base names:
+
+- download_file
+- create_export_job
+- fetch_analyses_light
+- find_optimal_depth
+
+I've also rounded them all together and put them arranged them in the following
+order:
+
+- Pipulate
+- LinkGraphFlow2
+- download_file
+- create_export_job
+- fetch_analyses_light
+- find_optimal_depth
+- LinkGraphFlow
+- StarterFlow
+
+Chances are I'll be moving the helper functions into the new LinkGraphFlow2 so
+as to bundle them all the workflow they belong to, until such time they actually
+need to be broken out as broader helper functions in the system. And I would
+actually do that as a first step (by merely indenting them all), but that would
+break LinkGraphFlow even more, and I don't want to duplicate the code yet. So,
+I'll just move them all internal as a last step.
+
+Conceptually here, I am just "pulling up" the cards one-by-one from
+LinkGraphFlow to LinkGraphFlow2. But the exceptions start right away, namely how
+special the primary key field is, being collected first as a dirty URL and then
+cleaned. I'm tempted to change this, but let's see how cleanly this
+customization can be worked into the convention right out of the starting gate.
+
+And a couple of other matters of business before the fast-port exercise:
+
+    autopep8 --ignore E501,F405,F403,F541 --in-place botifython.py
+    isort botifython.py
+    git commit -am "About to fast-port LinkGraphFlow to new conventions"
+    git push --force
+
+This gives me a good starting point (nice, clean code) and a good go-back point.
+No regrets! If I revert my code again, it's to a point that gives me a good
+feeling.
+
+I also force an Indexing update of Cursor AI editor.
+
+Then I select as context from the beginning of Pipulate down through the end of
+StarterFlow as context, and make sure @.cursorrules is in there too.
+
+Then I copy this entire context-establishing article from the point where I did
+the last git revert, end of TenCardFlow adaptation but before the LinkGraphFlow
+attempted one, copy and paste into Claude... Hello Claude!
+
+---
+
+## A Fresh Start on LinkGraphFlow
+
+**Claude**: Hello! I understand you're about to do a fast-port of LinkGraphFlow to the new conventions, starting with a copy of StarterFlow as LinkGraphFlow2. This is a great approach, especially since you've already:
+
+1. Set up LinkGraphFlow2 as a clean copy of StarterFlow
+2. Organized the helper functions
+3. Cleaned up the code with autopep8 and isort
+4. Created a good reversion point with git
+
+Looking at the code snippets, here's what I see as the key steps for the port:
+
+1. **Step Definition**
+```python
+class LinkGraphFlow2:
+    def __init__(self, app, pipulate, app_name="linkgraph2"):
+        self.STEPS = [
+            Step(id='step_01', persistent=True,  field='project_url', label='Project URL'),
+            Step(id='step_02', persistent=True,  field='analysis',    label='Analysis'),
+            Step(id='step_03', persistent=True,  field='fields',      label='Fields'),
+            Step(id='step_04', persistent=False, field='exports',     label='Export Status'),
+            Step(id='step_05', persistent=None,  field='finalized',   label='Final')
+        ]
+```
+
+{:start="2"}
+2. **Special URL Handling**
+```python
+async def step_01_submit(self, request):
+    form = await request.form()
+    pipeline_id = form.get('project_url', '')
+    
+    # Clean URL and extract org/project
+    if not pipeline_id.startswith('https://'):
+        pipeline_id = f'https://{pipeline_id}'
+    
+    org = pipeline_id.split('/')[3]
+    project = pipeline_id.split('/')[4]
+    
+    # Store both raw and parsed data
+    step_data = {
+        'project_url': pipeline_id,
+        'org': org,
+        'project': project
+    }
+    
+    self.pipulate.clear_steps_from(pipeline_id, "step_01", self.STEPS)
+    self.pipulate.write_step_data(pipeline_id, "step_01", step_data)
+```
+
+Would you like me to continue with the other steps? I can show you how to adapt each one while maintaining the special LinkGraphFlow functionality within the new conventions.
+
