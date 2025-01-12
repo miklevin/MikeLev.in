@@ -22,6 +22,10 @@ vim-indent-object is the way to go. But if you're stuck in plugin-free land,
 it's a mix-and-match of these slightly awkward techniques.  It's not elegant,
 but that's Vim for you.
 
+---
+
+## Surely o1 Pro Can Find Something I Haven't
+
 **Me**: How do you select an indented block like a whole Python function or method in vim, nvim or VSCode/Cursor in vim mode? And not ]]. And not ]}. And not using any plugins. Indention based is fine. I say not ]] because that's a whole class. I need it to work on methods in classes. And I say not ]} because that doesn't work in Cursor in vim mode.
 
 > Interestingly, this was one of the most fascinating o1 Pro *"details"*
