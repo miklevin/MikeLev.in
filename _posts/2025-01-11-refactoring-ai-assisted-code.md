@@ -4639,9 +4639,9 @@ This is a powerful message in an age where we're increasingly reliant on a handf
 
 ---
 
-## The Pipulate Way: A Manifesto for Minimalist Development
+## The Pipulate Way: A Blueprint for Minimalist Development
 
-Pipulate, StarterFlow, ExampleFlow – these aren't just code snippets; they're a manifesto. They're a declaration of independence from the tyranny of over-engineered frameworks and bloated dependencies. They're a testament to the power of simplicity, clarity, and human-readable code.
+Pipulate, StarterFlow, ExampleFlow – these aren't just code snippets; they're a blueprint. They're a declaration of independence from the tyranny of over-engineered frameworks and bloated dependencies. They're a testament to the power of simplicity, clarity, and human-readable code.
 
 The beauty of this approach is that it's *learnable*. You can look at the code, understand it, and modify it without needing a PhD in computer science. It's accessible, approachable, and inviting. It's the kind of code that encourages tinkering, experimentation, and play.
 
