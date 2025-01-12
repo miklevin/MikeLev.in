@@ -24,77 +24,81 @@ but that's Vim for you.
 
 **Me**: How do you select an indented block like a whole Python function or method in vim, nvim or VSCode/Cursor in vim mode? And not ]]. And not ]}. And not using any plugins. Indention based is fine. I say not ]] because that's a whole class. I need it to work on methods in classes. And I say not ]} because that doesn't work in Cursor in vim mode.
 
+> Interestingly, this was one of the most fascinating o1 Pro *"details"*
+> progress to watch. There were both more details, and of an almost visceral
+> discovery nature as it discovered the same disappointing facts I had.
+
 ### o1 Pro Details
 
-*Identifying Vim features*
+**Identifying Vim features**
 
 I’m figuring out how to select indented blocks in Vim, highlighting specific text objects for indentation-based selection. The goal is to find a hassle-free way to highlight Python function texts.
 
-*Trying another way*
+**Trying another way**
 
 I'm experimenting with cursor positioning and commands like V and % to select indented Python blocks, but the absence of curly brackets complicates this approach.
 
-*Piecing together strategies*
+**Piecing together strategies**
 
 I’m gathering info on macros and built-in text objects like vip for paragraph selection in Python code, considering how blank lines or docstrings might affect this approach.
 
-*Crafting a new solution*
+**Crafting a new solution**
 
 I'm piecing together options like search commands, code folds, and defining a custom text object with braces for selecting Python methods, while avoiding plugins as requested.
 
-*Evaluating Vim's capabilities*
+**Evaluating Vim's capabilities**
 
 I’m thinking through Vim's built-in folding and matchit plugin for indentation-based selection. It’s curious to see if these tools might work for Python method selection.
 
-*Testing folding techniques*
+**Testing folding techniques**
 
 I'm thinking through various methods for manually selecting Python function texts, including fold commands and vim motions like [[ and [], and the potential usefulness of '[v'].
 
-*Evaluating vim features*
+**Evaluating vim features**
 
 I’m mapping out vim motions like [m and :help function-motions to think about selecting Python methods, considering options like vip for blank lines.
 
-*Pulling together*
+**Pulling together**
 
 I'm working through manual methods like V, j, [[, and ]] to select Python functions. Options include visual mode and cursor movement.
 
-*Evaluating options*
+**Evaluating options**
 
 I’m noting the consideration of built-in text objects, manual methods, and hacks like setting foldmethod=indent to navigate Python code without plugins.
 
-*Taking a closer look*
+**Taking a closer look**
 
 I’m working through various methods to select Python functions, including vip for blank lines, manual visual selections, and indentation-based navigation, while considering docstrings as potential obstacles.
 
-*Weighing selection methods*
+**Weighing selection methods**
 
 I'm evaluating vip for blank lines, search-based selections, and custom text objects, while carefully considering Python's lack of curly braces and potential interference from docstrings.
 
-*Assessing custom touches*
+**Assessing custom touches**
 
 Evaluating macros and user-defined functions. Considering search methods for top-level lines. Weighing folds and indentation-based folding. Progress is steady and thought-out.
 
-*Evaluating folding techniques*
+**Evaluating folding techniques**
 
 I’m examining folding commands and visual selections, like zv and ]], to manage and highlight Python functions effectively.
 
-*Navigating Python functions*
+**Navigating Python functions**
 
 I’m gathering info on vim commands like [[, ]p, and % to select Python functions. Each method offers unique advantages for navigating and managing code effectively.
 
-*Crafting a manual method*
+**Crafting a manual method**
 
 Navigating Python code without plugins reveals a reliance on manual methods like visual mode and search, with no built-in text object for selection. Progressing through the options thoughtfully.
 
-*Navigating selection*
+**Navigating selection**
 
 OK, let me see. I’m working through methods like placing the cursor on the first line, using V, and searching for the next non-blank line for selecting Python methods effectively.
 
-*Charting the course*
+**Charting the course**
 
 I’m guiding through the process of using search commands to select Python functions in visual mode, emphasizing selecting the function block by moving to the next non-indented line.
 
-*Crafting manual methods*
+**Crafting manual methods**
 
 I’m compiling visual mode and search techniques to select Python methods, focusing on next non-indented lines and class-related patterns, as there’s no built-in method for Python function selection.
 
