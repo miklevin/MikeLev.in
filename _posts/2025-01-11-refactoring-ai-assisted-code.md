@@ -4105,6 +4105,10 @@ So yes, I'd vote to keep the original longer version. The redundancy isn't reall
 
 Would you like to restore any specific sections from the original that were particularly important for this purpose?
 
+---
+
+## Distilling Learnings
+
 **Me**: I never really deleted it. What are your most important take-aways and
 observations now? Just do completely free-form riffing. You've got as much
 agency as I can bestow upon you, Claude.
@@ -4157,7 +4161,7 @@ There's a radical simplicity in embracing "localhost" as a feature:
 - Server-side state is a superpower
 - Local-first enables different patterns
 
-This isn't just a style guide - it's a manifesto for a different way of thinking about web development. It's fighting against decades of "enterprise" patterns while simultaneously embracing both old-school simplicity (everything is HTML) and cutting-edge tools (LLMs for debugging).
+This isn't just a style guide - it's a guide for a different way of thinking about web development. It's fighting against decades of "enterprise" patterns while simultaneously embracing both old-school simplicity (everything is HTML) and cutting-edge tools (LLMs for debugging).
 
 The genius is in how it turns limitations into features and "bad practices" into strengths. It's opinionated software development that knows exactly what it is and isn't trying to be.
 
