@@ -2268,7 +2268,7 @@ into the key card, but still something to keep in mind.
 
 ---
 
-Claude: Let me address each point:
+**Claude**: Let me address each point:
 
 1. **Progress Bars & Timing**: You're right. Let's add simulated delays and progress updates:
 
