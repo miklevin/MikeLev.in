@@ -1759,3 +1759,250 @@ async def step_01_submit(self, request):
 
 Would you like me to continue with the other steps? I can show you how to adapt each one while maintaining the special LinkGraphFlow functionality within the new conventions.
 
+---
+
+## At Least I Can Finish Updating LinkGraphFlow
+
+> It's 7:00 PM on a Sunday.  
+> That's 13 hours I've clocked-in.  
+> But you'll hear no chime 'cause I'm on my own time  
+> Bearing down on some code for a win.  
+
+Another case of the best laid plans. And another case of totally worth it. The
+re-implementation of LinkGraphFlow under the new more efficient and inherently
+understandable approach is going well enough. It's not going lightning fast,
+because this is probably the most difficult SEO deliverable. I don't think
+anyone else on this planet visualizes website link-graphs quite as large as I
+do. I'm connecting some unlikely dots, including pulling the data from an
+enterprise web crawling product.
+
+Speaking of which, that's right where I'm up to.
+
+My implementation is better than last time not only for its cleanliness, but
+also for the fact that if the Botify Project has `search_console` data, it shows
+the field checkboxes for it, and visa versa, doesn't if it hasn't.
+
+Doesn't sound like much, but this is an example of my much lower-friction
+ability to do Botify API stuff now that I have my [Botify API Neo Kung Fu
+super-prompt download](/api/), from which I can actually spoon-feed the LLMs
+piecemeal just the things it needs to know. That is, if you believe there's a
+spoon.
+
+Now the thing is, the next click starts an API download. It's a long-running
+thing with a request for a CSV export, and then hanging around waiting while it
+does its thing. And then there's another! I used to have the second ***meta***
+file download only if there was `search_console` fields... oh, that reminds me!
+
+When I say it's a Neo Kung Fu download, this is precisely what I mean. There is
+use case after use case of hitting the Botify API for different purposes. And I
+want to be able to present a lot more checkboxes to the user than the ones I
+currently am using. And so we know our collections have fields. And we know that
+our collections are `{analysis_slug}.crawl` and optionally `search_console`. And
+so if we want to know what fields are available for export into our meta file,
+we check our `kata.md` file and find...
+
+## List Fields: How To Get The List of Fields Given a Collection
+
+```python
+# Get List of Fields Given a Collection
+
+import json
+import requests
+
+config = json.load(open("config.json"))
+api_key = open('botify_token.txt').read().strip()
+org = config['org']
+project = config['project']
+collection = config['collection']
+
+def fetch_fields(org, project, collection, api_key):
+    """Fetch available fields for a given collection from the Botify API."""
+    fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{collection}"
+    headers = {"Authorization": f"Token {api_key}"}
+    
+    try:
+        response = requests.get(fields_url, headers=headers)
+        response.raise_for_status()
+        fields_data = response.json()
+        return [
+            (field['id'], field['name'])
+            for dataset in fields_data.get('datasets', [])
+            for field in dataset.get('fields', [])
+        ]
+    except requests.RequestException as e:
+        print(f"Error fetching fields for collection '{collection}' in project '{project}': {e}")
+        return []
+
+# Fetch and print fields
+fields = fetch_fields(org, project, collection, api_key)
+print(f"Fields for collection '{collection}':")
+for field_id, field_name in fields:
+    print(f"ID: {field_id}, Name: {field_name}")
+```
+
+**Sample Output**:
+
+```
+Fields for collection 'crawl.20241101':
+ID: field_of_vision, Name: Survey the Landscape
+ID: field_of_dreams, Name: The Mind's Eye
+ID: straying_far_afield, Name: Go Home Spiderman
+ID: afield_a_complaint, Name: Red Swingline
+```
+
+**Rationale**: So you've got a collection and have no idea what to do with it? Well, you can always start by listing its fields. Yeah, let's list the fields.
+
+---
+
+And now I can say, hey Claude! While I don't want to show every field available
+for optional checking (because that would make the app unusable), I do want the
+app to proactively make sure that the fields it's trying to present are actually
+available in the collections it's trying to use them from. And the good news is
+it's really only 2 collections at this point. So they're all either from the
+collection for that analysis timeperiod, or from search_console. So when I ask
+for this checking, Claude will know how to sort it out which fields to check
+against which collections by where they're listed in `get_field_options`.
+
+Hear me, Claude?
+
+[The first implementation didn't work, so I ask for a conservative no-fail
+approach that has aggressive logging]
+
+**Claude**: Absolutely right - let's enhance the existing working code with field validation and aggressive logging, but in a way that can't break what's already working:
+
+```python
+    async def get_field_options(self, org, project):
+        """Get available fields including search console if available."""
+        # Base field options - these MUST succeed
+        field_options = [
+            ("url", "URL"),
+            ("title", "Page Title"), 
+            ("pagetype", "Page Type"),
+            ("depth", "Depth"),
+            ("inlinks", "Inbound Links"),
+            ("outlinks", "Outbound Links"),
+            ("segment", "Segment"),
+            ("canonical", "Canonical URL")
+        ]
+
+        # Get token and validate
+        token = read_botify_token()
+        if not token:
+            logger.error("No Botify token available")
+            return field_options
+
+        headers = {
+            "Authorization": f"Token {token}",
+            "Content-Type": "application/json"
+        }
+
+        async with aiohttp.ClientSession() as session:
+            # First validate crawl fields (but don't remove any if not found)
+            analysis = self.pipulate.get_step_data(db.get("pipeline_id"), "step_01", {}).get("analysis")
+            logger.debug(f"Validating fields for analysis: {analysis}")
+            
+            crawl_fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/crawl.{analysis}"
+            async with session.get(crawl_fields_url, headers=headers) as resp:
+                if resp.status == 200:
+                    crawl_data = await resp.json()
+                    available_fields = {
+                        field['id']
+                        for dataset in crawl_data.get('datasets', [])
+                        for field in dataset.get('fields', [])
+                    }
+                    logger.debug(f"Available crawl fields: {available_fields}")
+                    
+                    # Map our fields to API fields for validation
+                    field_map = {
+                        'url': 'url',
+                        'title': 'title',
+                        'pagetype': 'pagetype',
+                        'depth': 'depth',
+                        'inlinks': 'inlinks_internal.nb.total',
+                        'outlinks': 'outlinks_internal.nb.total',
+                        'segment': 'segment',
+                        'canonical': 'canonical.url'
+                    }
+                    
+                    # Log any missing fields but don't remove them
+                    for key, api_field in field_map.items():
+                        if api_field not in available_fields:
+                            logger.warning(f"Crawl field '{api_field}' ({key}) not found in API response")
+                else:
+                    logger.error(f"Failed to validate crawl fields: {resp.status}")
+
+            # Check for search console data
+            collections_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections"
+            async with session.get(collections_url, headers=headers) as resp:
+                if resp.status == 200:
+                    collections = await resp.json()
+                    logger.debug(f"Found collections: {[c['id'] for c in collections]}")
+                    
+                    # Look for either search_console or search_console_by_property
+                    sc_collection = next(
+                        (c['id'] for c in collections 
+                         if c['id'] in ['search_console', 'search_console_by_property']),
+                        None
+                    )
+                    
+                    if sc_collection:
+                        logger.debug(f"Found search console collection: {sc_collection}")
+                        
+                        # Map our simplified field names to actual API field paths
+                        search_console_field_map = {
+                            'clicks': 'count_clicks',
+                            'impressions': 'count_impressions',
+                            'ctr': 'ctr', 
+                            'position': 'avg_position'
+                        }
+
+                        # Validate search console fields
+                        sc_fields_url = f"https://api.botify.com/v1/projects/{org}/{project}/collections/{sc_collection}"
+                        async with session.get(sc_fields_url, headers=headers) as resp:
+                            if resp.status == 200:
+                                sc_data = await resp.json()
+                                available_sc_fields = {
+                                    field['id']
+                                    for dataset in sc_data.get('datasets', [])
+                                    for field in dataset.get('fields', [])
+                                }
+                                logger.debug(f"Available search console fields: {available_sc_fields}")
+                                
+                                # Check each mapped field exists
+                                missing_fields = []
+                                for display_name, api_name in search_console_field_map.items():
+                                    if api_name not in available_sc_fields:
+                                        logger.warning(f"Search console field '{display_name}' ({api_name}) not found in API response")
+                                        missing_fields.append(display_name)
+
+                                # Only skip if ALL fields are missing
+                                if len(missing_fields) == len(search_console_field_map):
+                                    logger.warning(f"Skipping search console fields due to missing: {missing_fields}")
+                                else:
+                                    # Add available search console fields
+                                    for display_name, api_name in search_console_field_map.items():
+                                        if api_name in available_sc_fields:
+                                            field_options.append((display_name, f"Search Console {display_name.title()}"))
+                            else:
+                                logger.error(f"Failed to get search console fields: {resp.status}")
+                    else:
+                        logger.debug("No search console collection found")
+                else:
+                    logger.error(f"Failed to get collections: {resp.status}")
+
+            logger.debug(f"Final field options: {[f[0] for f in field_options]}")
+            return field_options
+```
+
+Key changes:
+1. Added extensive logging at every step
+2. Validates fields exist but doesn't remove base fields if not found
+3. Only adds search console fields if ALL are available
+4. Maps our simplified field names to API field paths
+5. Maintains exact same behavior as before if anything goes wrong
+6. Provides detailed debug info about what fields are available/missing
+
+This gives us the validation we want while ensuring we can't break existing functionality, and provides rich logging to quickly identify any issues.
+
+---
+
