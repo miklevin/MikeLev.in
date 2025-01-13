@@ -2006,3 +2006,359 @@ This gives us the validation we want while ensuring we can't break existing func
 
 ---
 
+The above code also includes some field mapping that actually came from a later
+query/response. 
+
+We're now up to the download the fateful downloads. Now I've got all the code to
+do the downloads, but the last few implementations I always tried to do too much
+with too little visual feedback. It was too unconsidered and to willy nilly.
+This time around, we're going to take incremental steps, but with the end-goal
+crystal clear.
+
+So on my next request from Claude, I'm going to plan how to do this in a
+controlled and sensible way.
+
+The moment the Download button is pressed from the previous step... hmmm... all
+the following should happen in a single Card Div. It goes into the placeholder
+that was put in place by Step 2: Choosing Fields. All the following ***should
+take place in the same card*** with a series of htmx operations to append
+messaging.
+
+1. The optimal depth needs to be found.
+2. All the parameters and arguments need to be assembled for the export request
+3. The export request for the link graph needs to be made
+  - A PicoCSS `<progress id="foo"></progress>` must be displayed
+4. Continuous polling needs to be done until the download is available
+5. It needs to be downloaded, uncompressed, and any pandas final touches done
+  - We need visual indication that the download is done
+6. The export request for the meta file needs to be made
+  - A PicoCSS `<progress id="bar"></progress>` must be displayed
+7. Continuous polling needs to be done until the download is available
+8. It needs to be downloaded, uncompressed, and any pandas final touches done
+  - We need visual indication that the download is done
+9. With both downloads complete, now the CSV file display needs updating
+  - Whenever HTMX targeting is in question, we can always re-chain-react from `#<app_name>-container`
+10. The Finalize button appears
+
+That's the overarching vision. That's starting with the end in mind. DO NOT TRY
+TO IMPLEMENT IT ALL IN THE FIRST PASS. Think in terms of shims and their APIs.
+Think Unix pipes within Unix pipes: one card with its own little workflow,
+because no further user input is needed.
+
+What I do not want to see is a flurry of cards. This all takes place in the
+finalize card!
+
+I know this is a lot to ask for from a single card, however we can flesh it out
+in baby-steps. Chisel-strikes. The important thing is to take a no-fail approach
+facilitated with lots of logging so if things go wrong, we have a positive
+feedback loop of directional correction.
+
+So perhaps we show all the input parameters and arguments merely that ***would
+be used*** to get the optimal depth were we actually to have triggered off that
+query. But instead of triggering the query, we can just show the info, plus the
+finalize button.
+
+That way, we can toggle the Finalize button on and off and get a sense of
+accomplishment and completion, knowing that the first bit of data, everything
+required to do the first in a series of actions (the depth-finder) is being
+displayed. It will be a success assured moment.
+
+I am not totally attached to using the finalize card for this, knowing we would
+have to override the systems ready-made finalize card. We can insert an
+interstitial card, though it doesn't really need user feedback. Perhaps we can
+just have another confirm download button to justify it.
+
+---
+
+I will forego all the back-and-forth with Claude, suffice to say we've hammered
+out a very nice solution. Where it can, it increasingly abides by the reference
+spec in StarterFlow, which I'm increasingly feeling should be called SpecFlow or
+ReferenceFlow, but that's for another day. For right now, the important thing
+are these critical decisions regarding where to do the `find_optimal_depth`,
+which was on the `step_02_submit` step, so that it doesn't happen every time the
+pipeline is re-displayed plugging a `url` into the `key` field at the beginning.
+This is a very elegant solution.
+
+But the thing now is to think through the transition from Card 3 to Card 4 or
+potentially to Finalize. The thing is, Card 3 displays very nicely after a
+submit on Card 2 that shows the checkboxes. The whole reason for Card 3 to exist
+right now is to expose the values that are going to be used as arguments on the
+parameter that will create the request-for-export, polling, eventual download,
+and so on. In fact, there's 2 downloads like that polling and all chained-up.
+
+And so we're thinking through what happens in this conventional pipeline
+workflow of ours. Presumably each card collects data from the user, does some
+processing on the submit, and passes the output (or filesystem-based
+side-effect) along to the next card. Inputs and outputs are chained-up.
+
+Now what's causing any question at all to come up here is precisely how
+long-running the action that occurs when that Download button is pressed is
+going to be. It's going to be awhile, through all that polling on 2 different
+files! And it's usually at a place ***between cards***. The visual feedback of
+the `step_xx_submit` action doesn't clearly belong on the card that did the
+submitting, because that interaction is over, nor on the card that's about to
+appear... no wait. A placeholder has already been made for the next card.
+
+That placeholder is the waiting receiver of input, even from the previous card's
+`_submit` action... yes, of course. When you press `Begin Downloads` on the
+***Step 3: Download Parameters*** card, it should go to it's completed state
+with the revert button, just like any other card. Card 4 pops visible, and
+that's where the PicoCSS `<progress id="links" />` element gets displayed. But
+it needs an ID because it's going to be removed or hidden after the download is
+complete, and it has to remain distinct from the next one `<progress id="meta" />`
+which will also in turn be displayed and then removed or hidden. Details of
+these types of [progress bars can be found
+here](https://picocss.com/docs/progress)
+
+And so the final thought here before asking Claude for an implementation is that
+this is sort of a preamble on Card 4. It will eventually finish both downloads,
+at which time it should present the user with the link to the Visualization. It
+will also automatically go onto the CSV file listing, which will be updated
+either with an HTMX update on that precise element, or with a full workflow
+cascade from `#<app_name>-container`, which we should always remember is an
+option to short-cutting what might otherwise be ponderous HTMX wrangling. 
+
+And as we go into Card 4, I remind Claude to not get over-ambitious with the
+downloads. I am not anxious to wait through these things. So the more
+scaffolding we put in place without the whole polling and waiting, the better.
+So let's rig it to simulate the downloads, a trick because checking for the
+presence of the files in location is what controls a lot of the progress. But I
+will leave even that to you, Claude.
+
+---
+
+**Claude**: I understand you want to implement a clean transition from Card 3 to Card 4, focusing on proper progress bar handling and state management. Here's my suggested implementation:
+
+1. First, let's modify `step_03` to properly chain to step_04 on download initiation:
+
+```python
+async def step_03(self, request):
+    """Third step in LinkGraph pipeline workflow."""
+    step_id = "step_03" 
+    next_step_id = "step_04"
+    
+    # Get state data
+    pipeline_id = await self.get_pipeline_id()
+    state = self.pipulate.read_state(pipeline_id)
+    
+    # If we have download status, show completion and chain to step_04
+    step3_data = state.get("step_03", {})
+    if step3_data.get("status") == "downloading":
+        return Div(
+            self.render_step_completion(step_id, self.STEPS[2], "Download initiated", next_step_id),
+            id=step_id
+        )
+
+    # Rest of existing step_03 code...
+```
+
+{:start="2"}
+2. Let's add step_04 to handle the download progress:
+
+```python
+async def step_04(self, request):
+    """Fourth step in LinkGraph pipeline workflow."""
+    step_id = "step_04"
+    
+    return Div(
+        Card(
+            Article(
+                H3("Step 4: Download Progress"),
+                # Links file progress
+                Div(
+                    H4("Links Export", style="margin-bottom: 0.5rem;"),
+                    Progress(value="0", max="100", id="links-progress"),
+                    style="margin-bottom: 1rem;"
+                ),
+                # Meta file progress
+                Div(
+                    H4("Meta Export", style="margin-bottom: 0.5rem;"),
+                    Progress(value="0", max="100", id="meta-progress"),
+                    style="margin-bottom: 1rem;"
+                ),
+                # Status message area
+                P(id="download-status-message"),
+                # This div will hold the visualization link when ready
+                Div(id="viz-link", style="display:none;"),
+                # Simulate downloads for now
+                Button(
+                    "Simulate Downloads",
+                    hx_post=f"/{self.app_name}/simulate_downloads",
+                    hx_target="#download-status-message"
+                ) if DEBUG else "",
+            )
+        ),
+        id=step_id
+    )
+```
+
+{:start="3"}
+3. Add the simulation endpoint:
+
+```python
+async def simulate_downloads(self, request):
+    """Simulate the download process for development."""
+    pipeline_id = await self.get_pipeline_id()
+    state = self.pipulate.read_state(pipeline_id)
+    
+    # Get file paths from state
+    step1_data = state.get("step_01", {})
+    org = step1_data.get("org")
+    project = step1_data.get("project")
+    analysis = step1_data.get("analysis")
+    
+    local_dir = Path("downloads/link-graph") / org / project
+    local_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Simulate links file download
+    await chat.broadcast("Simulating links export...")
+    links_path = local_dir / f"{project}_{analysis}_links.csv"
+    links_path.write_text("url,title,depth\nsimulated,data,1\n")
+    
+    # Simulate meta file download
+    await chat.broadcast("Simulating meta export...")
+    meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+    meta_path.write_text("url,meta\nsimulated,data\n")
+    
+    # Update state and show visualization link
+    self.pipulate.write_step_data(pipeline_id, "step_04", {
+        "status": "complete",
+        "links_file": str(links_path),
+        "meta_file": str(meta_path)
+    })
+    
+    return Div(
+        P("Downloads complete!"),
+        A("View Visualization", href=f"/viz/{org}/{project}/{analysis}"),
+        id="download-status-message"
+    )
+```
+
+This implementation:
+1. Shows proper step completion for Card 3 when downloads start
+2. Uses PicoCSS progress bars on Card 4
+3. Provides a simulation mode for development
+4. Updates the CSV listing via the existing side-effects mechanism
+5. Maintains proper state throughout
+
+Would you like me to add any additional features or modify any part of this implementation?
+
+---
+
+Alright, implemented as you specify. A few things.
+
+First, there's no progress bars showing. It's probably because it's too fast to
+see. We're going to need some timing delays.
+
+Second, it's appending into Card 3, and it's not a good look. This clearly wants
+to visually be in a Card 4. Now it may actually be trying to do so, but I notice
+that Card 3 has ziggurat nesting going on, probably from my original plans to
+shove all this in a single Finalize card, an idea we left behind. So, we need to
+make sure the next placeholder is being written from Card 3 and that we're doing
+this new file download stuff by writing into Card 4 just like everywhere else in
+the system does it.
+
+And third and lastly, what no `card_03_submit`? Unnecessary? But there's still a
+`card_04`, so we're really breaking convention. Seems intentional, but curious
+as to the reason. What are we doing elsewhere? It's that since we're exposing
+submit-like stuff in a UI, you short-circuited to Card 4, right? But I will
+remind you to keep in mind what happens during the chain reaction. Maybe the
+file-check will prevent the download from recurring every time an ID is plugged
+into the key card, but still something to keep in mind.
+
+---
+
+Claude: Let me address each point:
+
+1. **Progress Bars & Timing**: You're right. Let's add simulated delays and progress updates:
+
+```python
+async def simulate_downloads(self, request):
+    """Simulate the download process for development."""
+    pipeline_id = db.get("pipeline_id", "")
+    state = self.pipulate.read_state(pipeline_id)
+    
+    # Get file paths from state
+    step1_data = state.get("step_01", {})
+    org = step1_data.get("org")
+    project = step1_data.get("project")
+    analysis = step1_data.get("analysis")
+    
+    local_dir = Path("downloads/link-graph") / org / project
+    local_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Simulate links file download with progress
+    await chat.broadcast("Starting links export...\n")
+    links_path = local_dir / f"{project}_{analysis}_links.csv"
+    for i in range(0, 101, 20):
+        await asyncio.sleep(0.5)  # Simulate work
+        await chat.broadcast(f"#links-progress:{i}")
+    links_path.write_text("url,title,depth\nsimulated,data,1\n")
+    
+    # Simulate meta file download with progress
+    await chat.broadcast("\nStarting meta export...\n")
+    meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+    for i in range(0, 101, 20):
+        await asyncio.sleep(0.5)  # Simulate work
+        await chat.broadcast(f"#meta-progress:{i}")
+    meta_path.write_text("url,meta\nsimulated,data\n")
+```
+
+{:start="2"}
+2. **Card Structure**: You're right about the nesting. Let's fix step_03 and begin_downloads:
+
+```python
+async def begin_downloads(self, request):
+    """Handle the download initiation process."""
+    pipeline_id = db.get("pipeline_id", "")
+    state = self.pipulate.read_state(pipeline_id)
+    
+    try:
+        # Update state to trigger step_03 completion
+        self.pipulate.write_step_data(pipeline_id, "step_03", {
+            "status": "downloading"
+        })
+        
+        # Return a full refresh of step_03 to show completion
+        return await self.step_03(request)
+        
+    except Exception as e:
+        logger.error(f"Download initialization failed: {str(e)}")
+        return P(f"Error: {str(e)}", style="color: red;")
+```
+
+{:start="3"}
+3. **Convention & Flow**: You raise a good point about `step_03_submit`. The reason I skipped it was because `begin_downloads` was effectively acting as the submit handler, but you're right that this breaks convention. Let's fix this:
+
+```python
+async def step_03_submit(self, request):
+    """Submit handler for step 3."""
+    pipeline_id = db.get("pipeline_id", "")
+    
+    try:
+        # Mark step as complete and chain to step_04
+        self.pipulate.write_step_data(pipeline_id, "step_03", {
+            "status": "downloading"
+        })
+        
+        return self.render_step_completion("step_03", self.STEPS[2], "Download initiated", "step_04")
+        
+    except Exception as e:
+        logger.error(f"step_03_submit failed: {str(e)}")
+        return P(f"Error: {str(e)}", style="color:red;")
+```
+
+And update the button in step_03:
+
+```python
+Button(
+    "Begin Downloads",
+    hx_post=f"/{self.app_name}/step_03_submit",
+    hx_target=f"#{step_id}"
+),
+```
+
+This maintains our convention while still allowing the download process to happen in step_04. The file check will indeed prevent re-downloads on pipeline re-display, as the simulation creates real files that persist.
+
+Would you like me to make any adjustments to this approach?
+
