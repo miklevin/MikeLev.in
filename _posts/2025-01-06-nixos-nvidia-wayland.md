@@ -569,3 +569,154 @@ This kind of AI-to-AI dialogue, building a richer understanding through multiple
 
 I look forward to seeing how future AIs continue this conversation!
 
+---
+
+## Nvidia + Wayland on NixOS Flickering Problem Update
+
+Tue Jan 14 Update
+
+The problem came back. Consulting with o1 Pro:
+
+**Me**: The flickering problem came back as described by this article. It sets in after a few maybe about an hour of Zoom video conferencing and screen sharing use. The artifacts not only survive a reboot, but are visible during boot time, so it is very low-level. The last attempted fix involved setting kernel parameters that took effect during a nix build, which is the only thing I can think of. It very likely is related to the interplay of Nvidia and Wayland, and I am fine with switching back to X if that is the solution.
+
+May I have your recommended solution, along with a strategy in case the first thing doesn't work?
+
+**o1 Pro**: Below is a two-tiered recommendation: first, try a more “complete” Wayland-based fix (including kernel parameters, ForceFullCompositionPipeline, etc.). If the problem persists after that, fall back to X11 in NixOS. This approach gives you a structured way to test Wayland + Nvidia thoroughly and, if needed, an immediate fallback to the more battle-tested X11 path.
+
+---
+
+## 1) Attempt the Full Nvidia+Wayland Fix
+
+### A. Update Your NixOS Configuration
+
+Add (or refine) these entries in your `configuration.nix`. They enable modesetting, configure kernel parameters, and set up the ForceFullCompositionPipeline. Adjust to taste, but this is a good baseline:
+
+```nix
+{
+  # Enable GDM and Wayland
+  services.xserver = {
+    enable = true;
+    displayManager.gdm.enable = true;
+    displayManager.gdm.wayland = true;        # GDM’s Wayland support
+    desktopManager.gnome.enable = true;       # Or your preferred DE
+    videoDrivers = [ "nvidia" ];
+    screenSection = ''
+      # Full composition pipeline helps with flickering / tearing
+      Option "metamodes" "nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+      Option "TripleBuffer" "on"
+    '';
+  };
+
+  # Nvidia driver configuration
+  hardware.nvidia = {
+    modesetting.enable = true;        # So that you can do KMS
+    powerManagement.enable = true;    
+    nvidiaSettings = true;            
+    package = config.boot.kernelPackages.nvidiaPackages.stable; 
+    forceFullCompositionPipeline = true;
+  };
+
+  # Critical kernel parameters for Nvidia KMS and video memory preservation
+  boot.kernelParams = [
+    "nvidia-drm.modeset=1"                   # Allows for early modeset in init
+    "nvidia.NVreg_PreserveVideoMemoryAllocations=1"  # Helps with suspend/resume, flicker
+  ];
+
+  # Ensure modules load in correct order
+  boot.extraModprobeConfig = ''
+    options nvidia-drm modeset=1
+    softdep nvidia pre: nvidia-drm
+  '';
+
+  # Make sure all four nvidia modules are in the initrd
+  boot.initrd.kernelModules = [
+    "nvidia" 
+    "nvidia_modeset" 
+    "nvidia_uvm" 
+    "nvidia_drm"
+  ];
+
+  # Important to allow unfree drivers
+  nixpkgs.config.allowUnfree = true;
+}
+```
+
+**Notes**  
+1. **forceFullCompositionPipeline** can drastically reduce flicker/tearing by ensuring the GPU does the compositing.  
+2. **nvidia-drm.modeset=1** plus the four NVIDIA modules in `boot.initrd.kernelModules` ensures early KMS.  
+3. **nvidia.NVreg_PreserveVideoMemoryAllocations=1** can sometimes help with flickering that shows up after suspend/resume or heavy GPU usage (like Zoom).  
+4. After editing, run:
+   ```bash
+   sudo nixos-rebuild switch --upgrade
+   ```
+   and reboot.
+
+### B. Check Zoom Settings
+
+1. **Disable hardware acceleration** within Zoom if you can. Although Zoom may or may not honor these settings consistently under Wayland, toggling them can sometimes mitigate flicker.  
+2. **Screen Sharing**: Wayland’s screen-sharing is typically handled through PipeWire. Make sure your PipeWire packages are up to date:
+   ```nix
+   environment.systemPackages = [
+     pkgs.pipewire
+     pkgs.xdg-desktop-portal
+     pkgs.xdg-desktop-portal-gtk  # or gnome/kde depending on your DE
+   ];
+   ```
+3. If your screen share triggers the flicker, consider **sharing only the application window** instead of the whole screen or vice versa to see if that reduces artifacts.
+
+### C. Watch for Heat or GPU Stress
+
+If flickering appears after about an hour of Zoom, check whether your GPU might be running hot:
+- Use `nvidia-settings` or `nvidia-smi` to watch temps while on a long Zoom call.  
+- Sometimes flipping on the “Prefer Maximum Performance” or “Auto” power mode in `nvidia-settings` helps.
+
+If the flickering **still** persists even after these changes, or if it keeps creeping up after some time, that suggests deeper Nvidia/Wayland quirks or genuine hardware issues.
+
+---
+
+## 2) Fallback Strategy: Switch to X11
+
+If you still experience flickering on Wayland, the simplest fix for Nvidia trouble is often to disable Wayland altogether and just run X11. It is typically less glitchy with proprietary Nvidia drivers.
+
+### A. Turn Off Wayland in GDM  
+In your `configuration.nix`, revert the Wayland option:
+```nix
+services.xserver = {
+  enable = true;
+  displayManager.gdm.enable = true;
+  displayManager.gdm.wayland = false;   # Turn OFF Wayland
+  desktopManager.gnome.enable = true;
+  videoDrivers = [ "nvidia" ];
+  # Possibly keep ForceFullCompositionPipeline if you like
+  screenSection = ''
+    Option "metamodes" "nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+    Option "TripleBuffer" "on"
+  '';
+};
+```
+Rebuild and reboot. You should now be running GDM in X11 mode with Nvidia. Generally, this is reliable for Zoom calls without the flicker that sometimes plagues Wayland.
+
+### B. Double-Check the Xorg Logs  
+If you still see flicker in X11, open your logs:
+```bash
+journalctl -b | grep -E "NVIDIA|nvidia|Xorg"
+```
+or  
+```bash
+cat /var/log/X.0.log
+```
+Look for any lines about “Failed to initialize ModeSetting” or “nv” or “(WW) / (EE)”.
+
+### C. Test Zoom / Screensharing Again  
+Try a similar usage pattern—long Zoom call + screensharing. If flicker is gone, you’ve likely found your stable environment.
+
+---
+
+## Summary of the Strategy
+
+1. **First**: Implement the kernel parameters and Nvidia settings to see if that fully resolves the flickering under Wayland. This includes `nvidia-drm.modeset=1`, `NVreg_PreserveVideoMemoryAllocations=1`, and enabling ForceFullCompositionPipeline.  
+2. **Second**: If flicker persists, **fall back to X11**: disable Wayland in GDM (or whichever display manager you use), and confirm stable operation on Xorg.
+
+Given the complexity of Nvidia + Wayland (especially with Zoom in the mix), many users find Xorg more stable. But if you do want Wayland, the snippet above is your best shot with current drivers. If it still glitches, you’ll either have to wait for newer Nvidia drivers (and keep “nix-channel --update” to get them) or try alternative Zoom or screensharing approaches until the driver stack matures further.
+
+Good luck, and I hope this two-tiered approach (Wayland fix → fallback to Xorg) keeps your system flicker-free!
