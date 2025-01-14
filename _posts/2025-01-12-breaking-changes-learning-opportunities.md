@@ -2362,3 +2362,250 @@ This maintains our convention while still allowing the download process to happe
 
 Would you like me to make any adjustments to this approach?
 
+---
+
+Okay, what I really have to do now is strategically transpose from
+LinkGraphFlow, the previously working implementation but now no longer working
+in the repo I'm working out of because I'm allowing myself to make breaking
+changes. However, the visual flow of the new stuff is outstanding, just about
+ready for a video. I just should make the download actually real. And that's
+going to take some very precision chisel strikes.
+
+Things are not so easy with downloads. There's this whole rigmarole. But my
+simulated framework is ideal for plugging this into.
+
+```python
+    async def _start_links_export(self, org, project, analysis, depth) -> str:
+        query = {
+            "dimensions": ["url", f"crawl.{analysis}.outlinks_internal.graph.url"],
+            "metrics": [],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            }
+        }
+        data_payload = {
+            "job_type": "export",
+            "payload": {
+                "username": org,
+                "project": project,
+                "connector": "direct_download",
+                "formatter": "csv",
+                "export_size": 1000000,
+                "query": {
+                    "collections": [f"crawl.{analysis}"],
+                    "query": query
+                }
+            }
+        }
+        links_job_url = await create_export_job(data_payload, logger=self.logger)
+        self.logger.info(f"_start_links_export => {links_job_url}")
+        return links_job_url
+```
+
+I have a plan.
+
+I can show stuff to the user through chat as if an LLM.
+
+This is a perfect window for debugging.
+
+---
+
+Looking at the code, there are a few issues to fix in `_start_meta_export` to ensure it properly conforms to the field mappings and Botify API requirements:
+
+````python:botifython/botifython.py
+async def _start_meta_export(self, org, project, analysis, fields) -> str:
+    """Create export job for metadata."""
+    # Convert fields to list if it's a string
+    if isinstance(fields, str):
+        fields = [f.strip() for f in fields.split(",")]
+    
+    dimensions = []
+    metrics = []
+    needs_search_console = False
+    
+    # Always start with URL as first dimension
+    dimensions.append(f"crawl.{analysis}.url")
+    
+    # Process each requested field
+    for field in fields:
+        field = field.strip()  # Ensure clean field names
+        
+        if field in FIELD_MAP:
+            mapped_field = FIELD_MAP[field]
+            
+            # Handle search console fields
+            if field in ['clicks', 'impressions', 'ctr', 'position']:
+                needs_search_console = True
+                metrics.append(mapped_field)
+            # Handle canonical specially as it's in search_console but is a dimension
+            elif field == 'canonical':
+                needs_search_console = True
+                dimensions.append(mapped_field)
+            # Handle regular crawl fields
+            else:
+                dimensions.append(f"crawl.{analysis}.{mapped_field}")
+    
+    # Build query payload
+    data_payload = {
+        "job_type": "export",
+        "payload": {
+            "username": org,
+            "project": project,
+            "connector": "direct_download",
+            "formatter": "csv",
+            "export_size": 1000000,
+            "query": {
+                "collections": [f"crawl.{analysis}"],
+                "query": {
+                    "dimensions": list(dict.fromkeys(dimensions)),  # Remove duplicates
+                    "metrics": list(dict.fromkeys(metrics))  # Remove duplicates
+                }
+            }
+        }
+    }
+    
+    # Add search console configuration if needed
+    if needs_search_console:
+        data_payload["payload"]["query"]["collections"].append("search_console")
+        # Format date as YYYY-MM-DD
+        analysis_date = f"{analysis[:4]}-{analysis[4:6]}-{analysis[6:]}"
+        data_payload["payload"]["query"]["periods"] = [[analysis_date, analysis_date]]
+    
+    self.logger.debug(f"Meta export payload: {json.dumps(data_payload, indent=2)}")
+    meta_job_url = await create_export_job(data_payload, logger=self.logger)
+    self.logger.info(f"Started meta export: {meta_job_url}")
+    return meta_job_url
+````
+
+Key fixes:
+1. Properly handle search console fields vs crawl fields
+2. Correct field path prefixing (`crawl.{analysis}.` only for crawl fields)
+3. Special handling for canonical field which is in search_console but is a dimension
+4. Ensure no duplicate fields in dimensions or metrics
+5. Proper date formatting for periods
+6. Added debug logging of the final payload
+7. Removed unnecessary field_map variable (using global FIELD_MAP)
+8. Simplified field splitting and processing
+9. Proper error handling through create_export_job
+
+This should now produce valid API payloads like:
+````json
+{
+  "job_type": "export",
+  "payload": {
+    "username": "org",
+    "project": "project",
+    "connector": "direct_download",
+    "formatter": "csv",
+    "export_size": 1000000,
+    "query": {
+      "collections": ["crawl.20241222", "search_console"],
+      "query": {
+        "dimensions": [
+          "crawl.20241222.url",
+          "crawl.20241222.metadata.title",
+          "search_console.period_0.canonical.url"
+        ],
+        "metrics": [
+          "search_console.period_0.count_clicks",
+          "search_console.period_0.count_impressions"
+        ]
+      },
+      "periods": [["2024-12-22", "2024-12-22"]]
+    }
+  }
+}
+````
+## All Right, Claude Let's Break This Down
+
+This is a known, working BQL2 query:
+
+```python
+Query payload: {
+  "collections": [
+    "crawl.20241108",
+    "search_console"
+  ],
+  "query": {
+    "dimensions": [
+      "crawl.20241108.url",
+      "crawl.20241108.depth",
+      "crawl.20241108.segments.pagetype.value",
+      "crawl.20241108.compliant.is_compliant",
+      "crawl.20241108.compliant.main_reason",
+      "crawl.20241108.canonical.to.equal",
+      "crawl.20241108.sitemaps.present",
+      "crawl.20241108.js.rendering.exec",
+      "crawl.20241108.js.rendering.ok"
+    ],
+    "metrics": [
+      "search_console.period_0.count_impressions",
+      "search_console.period_0.count_clicks"
+    ],
+    "filters": {
+      "field": "crawl.20241108.depth",
+      "predicate": "lte",
+      "value": 2
+    },
+    "sort": [
+      {
+        "field": "search_console.period_0.count_impressions",
+        "order": "desc"
+      }
+    ]
+  },
+  "periods": [
+    [
+      "2024-11-01",
+      "2024-11-08"
+    ]
+  ]
+}
+```
+
+Here is the last one you produced.
+
+```
+response: {
+  "payload": {
+    "query": {
+      "query": {
+        "filters": {
+          "field": "crawl.20241228.depth",
+          "value": 2,
+          "predicate": "lte"
+        },
+        "metrics": [],
+        "dimensions": [
+          "url",
+          "crawl.20241228.outlinks_internal.graph.url"
+        ]
+      },
+      "collections": [
+        "crawl.20241228"
+      ]
+    },
+    "export_size": 1000000,
+    "connector": "direct_download",
+    "formatter": "csv",
+    "formatter_config": {
+      "delimiter": ",",
+      "print_header": false,
+      "header_format": "verbose",
+      "print_delimiter": false
+    },
+    "extra_config": {
+      "compression": "gzip"
+    },
+    "sort_url_id": false,
+    "export_job_name": null
+  },
+  "user": "michael.levin",
+  "metadata": null,
+  "crawl_date": null
+}
+```
+
+Let's take it one thing at a time, top-down.
