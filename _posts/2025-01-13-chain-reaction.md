@@ -1,7 +1,7 @@
 ---
-title: Becomes Title tag & H1
-permalink: /futureproof/slug/
-description: 
+title: "From Printing Press to AI: A New Era of Literacy"
+permalink: /futureproof/ai-new-era-of-literacy/
+description: This article explores the evolution of literacy and technology, from the printing press to AI coding assistants. I argue that programming literacy is crucial in the age of AI and emphasize the importance of clear, human-readable code. I discusse my web framework project, highlighting its unique features like FastHTML and its focus on linear workflows inspired by Unix pipes. I advocate for a simplified, Python-centric approach to web development that prioritizes efficiency and understandability.
 layout: post
 sort_order: 1
 ---
@@ -562,6 +562,7 @@ is topped with a namedtuple called `STEPS`.
 Gemini 1.5: This article explores the evolution of literacy and technology, from the printing press to AI coding assistants. It argues that programming literacy is crucial in the age of AI and emphasizes the importance of clear, human-readable code. The author discusses their own web framework project, highlighting its unique features like FastHTML and its focus on linear workflows inspired by Unix pipes. They advocate for a simplified, Python-centric approach to web development that prioritizes efficiency and understandability.
 
 Some ideas for titles and headlines:
+
 1. From Printing Press to AI: A New Era of Literacy
 2. The Power of Programming Literacy in the Age of AI
 3. Rethinking Web Development: A Python-Centric Approach
