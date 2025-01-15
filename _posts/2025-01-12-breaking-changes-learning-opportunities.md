@@ -1,7 +1,7 @@
 ---
 title: Breaking Changes and Learning Opportunities
 permalink: /futureproof/breaking-changes-learning-opportunities/
-description: 
+description: I spent my Sunday improving my coding project by making breaking changes to enhance learnability and maintainability. I refactored my code using namedtuples for clarity and implemented a simple position lookup for efficiency, drawing parallels between this process and the competitive landscape of the tech industry. I emphasized the importance of local-first architectures, utilizing tools like Nix and Linux for future-proofing, and drew analogies between the evolution of martial arts and global competition in the tech world. I meticulously documented my process, creating comprehensive documentation that serves as a learning resource and a guide for future development, all while engaging in a meta-narrative with the AI assistant Claude.
 layout: post
 sort_order: 1
 ---
