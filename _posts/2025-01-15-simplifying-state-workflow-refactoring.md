@@ -14,10 +14,10 @@ This article explores how to simplify a complex, multi-step workflow system, lik
 
 ## The Problem
 
-**Me**: How can I get rid of the whole virtual bs and have one source of truth, and
-chain reacting always goes up to the last thing that had data and repopulates by
-default instead of one past it and struggling to get shit back? Wouldn't that be
-nice too?
+**Me**: How can I get rid of the whole virtual state bs and have one source of
+truth, and chain reacting always goes up to the last thing that had data and
+repopulates by default instead of one past it and struggling to get shit back?
+Wouldn't that be nice too?
 
 ## The Solution
 
