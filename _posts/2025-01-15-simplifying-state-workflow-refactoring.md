@@ -6,6 +6,12 @@ layout: post
 sort_order: 1
 ---
 
+## Introduction
+
+This article explores how to simplify a complex, multi-step workflow system, like those found in online forms and applications, to make it more user-friendly and easier to manage. Through a collaborative effort between the author and an AI assistant, the article describes a journey of refactoring – a process of improving the underlying code – to create a cleaner, more organized system.  Key improvements include streamlining how user progress is tracked, making it easier for users to go back and change previous entries (reverts), and employing a particularly elegant solution to handle these "go back" actions without overcomplicating the system. The result is a workflow that's easier to use, understand, and maintain.
+
+---
+
 ## The Problem
 
 **Me**: How can I get rid of the whole virtual bs and have one source of truth, and
