@@ -44,15 +44,15 @@ and jump on this bandwagon. Sure, we're in an AI hype cycle. But it's not a hype
 cycle that's going to piddle out. It's more akin to the hype cycle that was near
 the beginning of computers themselves.
 
-OpenAI needs new hardware. It's hosted on Microsoft Azure's cloud
-infrastructure. Microsoft hired Mustafa Suleyman and absorbed most of Inflection
-AI's talent with a soft-acquisition. And so Sam Altman goes to the soft bank...
-Uh, I mean Softbank for the money and to another oracle of datacenter
-hardware... uh, I mean Oracle. And together you have hardware, software and
-money to open a star-gate... uh, I mean Stargate. It's all so very poetic and
-transparent. Those big ol' hardware datacenter moats of Amazon, Google and
-Microsoft (and most recently, Musk) are gradually evaporating away, courtesy of
-Trump. Fascinating!
+OpenAI needs new hardware. Currently Microsoft's Azure cloud is the exclusive
+infrastructure host to ChatGPT and all OpenAI's products. But Microsoft hired
+Mustafa Suleyman and absorbed most of Inflection AI's talent with a
+soft-acquisition. And so Sam Altman goes to the soft bank... Uh, I mean Softbank
+for the money and to another oracle of datacenter hardware... uh, I mean Oracle.
+And together you have hardware, software and money to open a star-gate... uh, I
+mean Stargate. It's all so very poetic and transparent. Those big ol' hardware
+datacenter moats of Amazon, Google and Microsoft (and most recently, Musk) are
+gradually evaporating away, courtesy of Trump. Fascinating!
 
 ## The Human Element in AI Innovation
 
