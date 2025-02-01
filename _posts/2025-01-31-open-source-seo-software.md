@@ -815,7 +815,18 @@ There will be a flurry of new products, new philosophies, new approaches &#151;
 most of them just some attempt to get your money. For the real solutions, look
 towards the free and opens source SEO software community &#151; those who are in
 it for the love of the game and the true altruism &#151; not just after your
-money.
+money. While the story of DeepSeek may be deeper that the open source story it
+presents, it nonetheless serves as a great wake-up call for the world. I mean,
+even if they ripped off OpenAI (who ripped off the world, in turn), it is still
+an illuminating how powerful free and open source can be. The side-project of a
+quant company? Disrupting the world with a side-project?
+
+That resonates with me. I think HTMX is doing the same thing. It's an even
+lighter touch with even more potential impact than DeepSeek, but nobody's going
+to know it because of how nerdy it is. If you want to know more about what I'm
+talking about, check out [Carson Gross' book on hypermedia
+systems](https://hypermedia.systems/). I don't make any money from it. It's just
+important stuff to know that aligns very well with my future-proofing efforts.
 
 ### A Labor of Love
 
