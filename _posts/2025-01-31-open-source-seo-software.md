@@ -827,6 +827,7 @@ to know it because of how nerdy it is. If you want to know more about what I'm
 talking about, check out [Carson Gross' book on hypermedia
 systems](https://hypermedia.systems/). I don't make any money from it. It's just
 important stuff to know that aligns very well with my future-proofing efforts.
+In fact, the book is free online.
 
 ### A Labor of Love
 
