@@ -747,7 +747,7 @@ Want me to focus on any particular aspect of the implementation plan?
 > You say you want an SEO Revolution?  
 > Well, you know we all wanna prune the cruft  
 > I tell you that it's evolution  
-> Well, you know, LLMs see when your keywords are stuffed!  
+> Well, you know, LLMs see your keywords are stuffed!  
 
 ---
 
