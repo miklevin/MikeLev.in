@@ -518,16 +518,51 @@ has grown so large that it must continue to be fed to continue to live. Not
 messing around with AdWords is not a choice. It's a mandate. Thus, the
 innovator's dilemma. Thus, the boring and low-priority nature of AI overviews.
 
-#### The Pay-to-Play Reality
+### The Pay-to-Play Reality
 
-Ads will be served, at the expense of all else. It's exactly what happened with
-advertisement supplemented magazines turning them into more ads than articles.
-Voices are drowned out by pay-to-play money. So, it's the ability for the little
-guy to do really well ***purely through SEO*** that has died. We're now in a
-pay-to-play world, so long as Google's death-grip over Chrome and Android
-remains firm, the Apple deal stays in place on Safari, and Microsoft can't get
-people to move to Edge through a war of upgrade attrition and switch-back
-fatigue.
+Ads will be served at the expense of all else. Don't be evil plays second fiddle
+to don't be dead. The customer is always right, and the customers are the
+advertisers paying Google. You are not a Google customer. You are raw material
+being converted into value for their customers in the value chain. Your
+attention is being mined as ore and packaged and sold as product to ***their
+real customers***. And that can't be done if your eyeballs and clicks aren't
+following the money. It's just plain survival.
+
+### The Magazine Industry Parallel
+
+This content-corruption is exactly what happened with advertisement supplemented
+magazines turning them into more ads than articles. Voices are drowned out by
+pay-to-play money. So, it's the ability for the little guy to do really well
+***purely through SEO*** that has died. Pick up any magazine on the store shelf
+that isn't $20 (cost offset by ads) and you'll see the pay-to-play reality that
+has long been in effect in the print-world where hard-nosed material costs can't
+be dodged.
+
+### The Online Shell Game
+
+Those hard costs can be hidden online through the shell-game for quite a bit
+longer than with print. But the transition still occurs. Everything gradually
+becomes Advertorials. AdWords which used to be clearly labeled and sectioned off
+in a right-hand margin got mixed directly in with the results. The pastel colors
+faded to pure white just like the rest of the "organic" or "natural" search
+results. Now you can hardly tell a paid ad from a genuine search result.
+
+### The Corporate Evolution
+
+Why? Google went public. Google grew big. Google has to answer to shareholders.
+Google fell prey to The Law of Organizational Entropy, which states that as
+organizations grow larger, they tend to become less efficient and more complex,
+requiring more resources to maintain their operations. If they remained small
+and lean and humble like they started out, they wouldn't need so much ad revenue
+today just for the beast to stay alive. But alas, that is not the way of public
+companies, Parkinson's law, the Peter Principle and the other powers of piddling
+out.
+
+### The Browser Battleground
+
+So long as Google's death-grip over Chrome and Android remains firm, the Apple
+deal stays in place on Safari, and Microsoft can't get people to move to Edge
+through a war of upgrade attrition and switch-back fatigue.
 
 ## The Path Forward
 
