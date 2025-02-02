@@ -477,7 +477,7 @@ that curation, things like affiliate links and advertisements will become
 signals of low-quality (or not), but the proof will be in the ultimate output
 and how people respond to it.
 
-### The Return of Competition
+### The Return of Meta Search Competition
 
 Given the fact that you're not going to need to crawl the entire Web to make
 this work, but merely need some sort of "seeding" from a Yahoo directory-like
