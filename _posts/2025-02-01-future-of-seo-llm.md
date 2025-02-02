@@ -516,7 +516,7 @@ Overviews instead of the personality-infused ***chat interface*** Microsoft went
 with. AdWords is what? Still like 80% of Google's revenue? The Google machine
 has grown so large that it must continue to be fed to continue to live. Not
 messing around with AdWords is not a choice. It's a mandate. Thus, the
-innovator's dilemma. Thus, the nature of AI previews.
+innovator's dilemma. Thus, the boring and low-priority nature of AI previews.
 
 #### The Pay-to-Play Reality
 
