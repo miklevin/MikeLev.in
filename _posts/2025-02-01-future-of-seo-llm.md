@@ -502,15 +502,32 @@ SEO.
 ### The AdWords Dependency
 
 SEO has greatly died because Google needs AdWords revenue. They have not
-adequately diversified their revenue streams, like Microsoft. The Google castle
-is indeed built on the Cloud, in the clouds, with no foundations but
-advertising. This is why Microsoft has been able to be so aggressive with both
-Bing and the OpenAI ChatGPT Copilot integration into Bing. It's not cutting into
-lifeblood ad revenue. Microsoft can aggressively play there and survive, whereas
+adequately diversified their revenue streams, like Microsoft has over the years.
+The Google castle is indeed built on the Cloud, in the clouds, with no
+foundations but advertising. This is why Microsoft has been able to be so
+aggressive with both Bing and the OpenAI ChatGPT Copilot integration into Bing.
+It's not cutting into lifeblood ad revenue.
+
+#### Microsoft's Advantage
+
+Think about how Microsoft can aggressively play there and survive, whereas
 Google is locked into the innovators dilemma, rolling out super-conservative AI
 Overviews instead of the personality-infused ***chat interface*** Microsoft went
-with. So, it's the ability for the little guy to do really well ***purely
-through SEO*** that has died. We're now in a pay-to-play world.
+with. AdWords is what? Still like 80% of Google's revenue? The Google machine
+has grown so large that it must continue to be fed to continue to live. Not
+messing around with AdWords is not a choice. It's a mandate. Thus, the
+innovator's dilemma. Thus, the nature of AI previews.
+
+#### The Pay-to-Play Reality
+
+Ads will be served, at the expense of all else. It's exactly what happened with
+advertisement supplemented magazines turning them into more ads than articles.
+Voices are drowned out by pay-to-play money. So, it's the ability for the little
+guy to do really well ***purely through SEO*** that has died. We're now in a
+pay-to-play world, so long as Google's death-grip over Chrome and Android
+remains firm, the Apple deal stays in place on Safari, and Microsoft can't get
+people to move to Edge through a war of upgrade attrition and switch-back
+fatigue.
 
 ## The Path Forward
 
