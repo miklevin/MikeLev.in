@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## The Rise of LLMs
+
 Let's assume for a moment that the LLMs are going to get smarter and smarter,
 and that we are really at the beginning of a takeoff trajectory. It seems like
 just yesterday to me when video was postage stamp sized on the desktop of
@@ -15,6 +17,8 @@ single life-time, someone born around 1900 could have seen both world wars, the
 nuclear bomb, reaching the moon, computers and nearly the Internet. They'd have
 been in their 80s in the 80s. So a centenarian would have seen the Web circa
 1994 and the beginning of mobile. Think what our kids today are going to see.
+
+## Books Coming Alive
 
 Okay, so the books are coming alive to teach you how to use the books. The key
 to unlocking the knowledge is now an inherent attribute of the knowledge itself,
@@ -47,6 +51,8 @@ general transmission nature:
 ...and now we make it come alive and teach us how to use the very information
 being brought to our fingertips.
 
+## The Next Evolution
+
 Some want to bring it even a step farther with human/machine interfaces so you
 can recall information and experiences instantly that you yourself didn't
 necessarily have, and control machines at the speed of thought. It doesn't
@@ -61,12 +67,16 @@ you present them with is already in context of some larger picture &#151; that
 picture being some static snapshot of the world as it existed and the data was
 fed to it at the time of its training.
 
+## Future-Proofing Skills
+
 Okay, so future-proofing your skills so you don't get sidelined and marginalized
 through this brief little 80-year or so window you're given. I'm in my mid-50s
 and don't plan on retiring anytime soon, so my goal is to make the next 30 years
 or so as fun and interesting as I can, staying in the game if I can.
 
 LLMs get smarter and smarter.
+
+### The Challenge for New Generations
 
 The youngsters coming of age in this era you'd think would be more adapted to
 the tech-churn and the tumultuous times like they always have been in the past.
@@ -77,6 +87,8 @@ their wobbly legs before the carpet is pulled out from underneath of them, the
 carpet is now pulled out from underneath of them at an accelerated pace. Hence,
 doomers.
 
+## The Exponential Future
+
 This is not abating. The progression curve of technology will continue to be
 exponential. Techniques and methodology assures accelerating advancements within
 certain well-equipped, well-funded silos. The limits of Moore's Law by which the
@@ -85,6 +97,8 @@ years will continuously be overcome through cleverness. So, forever more will be
 forever more possible, but not to everyone. Human nature kicks in and as William
 Gibson the author of Neuromancer said, the future will be here but just not
 distributed evenly.
+
+## The OpenAI Story
 
 People like to bust on OpenAI and Sam Altman as the bad guys, taking what was
 ostensibly supposed to be **Open** AI, non-profit and ready-to-share, and to
@@ -98,6 +112,8 @@ corrupts absolutely, and they did somewhat morph into the less-than altruistic
 entity they posed as going in, they absolutely played the role of the good guys
 against Google's foil. OpenAI, despite its shift in business model, played a
 role in democratizing access to AI technology and pushing the field forward.
+
+### Google's Approach
 
 Now, you might say Google's approach was altruistic in that it was cautious in
 that they didn't want to let the genie out of the bottle for the world's own
@@ -178,6 +194,8 @@ Citations:
 
 ---
 
+## Questions About Qwen and Local Inference
+
 **Me**: What about Qwen? And what role do the local quantized inference engines
 play? Are they some sort of bottleneck coercing models that work fundamentally
 differently in their larger incarnation (DeepSeek) into what already exists at
@@ -226,6 +244,8 @@ Citations:
     [8] https://huggingface.co/docs/optimum/en/concept_guides/quantization
     [9] https://stackoverflow.blog/2023/08/23/fitting-ai-models-in-your-pocket-with-quantization/
 
+## The Moore's Law of AI Models
+
 Alright, so it's reasonable to expect that both the cloud-based models and the
 locally runnable models are both going to propagate at levels which themselves
 parallel what's implied by Moore's Law. The genies that are out of the bottles
@@ -237,6 +257,8 @@ like snapshot files. And that's going to be less than satisfying for the people
 using these models, expecting that the learning process shouldn't always get
 "reset" with every new instantiation but for the recent discussion history
 within the token limit loaded back in.
+
+## Solutions for Continuous Learning
 
 And so, there's at least two solutions here. One is partial retraining in hte
 form of Low-Rank Adaptation of Large Language Models (LoRA) and the other is
@@ -250,6 +272,8 @@ was all against some base of data, which can itself continue to grow, and
 perchance be artistically reshaped, prepared, cleaned and otherwise improved in
 various ways. Then your options are always open to use the original raw data or
 the ostensibly improved data.
+
+### The Path Forward
 
 So a path to future-proofing seems to be raw data storage and various techniques
 of making future re-training and re-learning easier, higher quality, and
@@ -305,6 +329,8 @@ Citations:
     [8] https://www.salesforce.com/agentforce/what-is-rag/?bc=OTH
     [9] https://github.com/microsoft/LoRA
 
+## The Myth of Peak Data
+
 Ilya Sutskever and Elon Musk asserting that we've "run out of data" in the world
 and that we have somehow reached peak data must be a ruse. Does the world ever
 run out of data? It's just the easily crawl-able data that they're talking
@@ -313,6 +339,8 @@ number of sites programmed as difficult-to-access single page applications
 because of the client-side JavaScript programming fads, there's all the
 proprietary data locked up behind paywalls and otherwise inaccessible that would
 be challenging, expensive and legally questionable to train on.
+
+### The Future Flood of Data
 
 Not only that, this doesn't address the current and potential future flood of
 new data onto the Web, given the increasing world population (even if the rate
@@ -323,6 +351,8 @@ happen, or even if they do, their works are going to be impossible to find or
 identify as such, even if it did get published on the open web. There seems to
 be some underlying assumption that everything has now become twitter-babble and
 not quality enough to factor in anymore.
+
+### Scientific Frontiers and New Data
 
 And then there's the scientific frontier data from which new discoverers have
 not even been made yet, like the mapping of celestial entities in the cosmos
@@ -364,6 +394,8 @@ Citations:
     [7] https://www.nytimes.com/2024/07/19/technology/ai-data-restrictions.html
     [8] https://owl.purdue.edu/owl/research_and_citation/conducting_research/searching_online/search_the_invisible_web.html
 
+## Peak Data is a Myth
+
 Okay, so the Open Web has achieved Peak Data, and all the crawls you ever
 performed are all the crawls that you will ever need to perform, right? Anything
 further is a waste of time and resources, and there's no value in the
@@ -373,6 +405,8 @@ the corrupting influence of SEOs vying for commercial gain for their clients, or
 for click-through on affiliate links and advertisements, right?
 
 Only if everything remains dumb.
+
+## The Discerning Eye of LLMs
 
 Imagine a discerning, curating eye that knows all the tricks. Imagine the
 ability to judge newly found data against all that has ever been known before,
@@ -386,6 +420,8 @@ lot of meat left on the carcass. But it's not a carcass. It's the whole body of
 human knowledge that's being made open, outside firewalls, password protection
 and JavaScript execution obfuscation.
 
+### The JavaScript Problem
+
 Obscuring data through proprietary JavaScript execution is particularly
 damaging to the cause of exposing new meat on the bones. Why? Because so long as
 it's HTML, it's within the realm of semantic meaning that's supposed to be
@@ -394,6 +430,8 @@ default. The Web is supposed to be a giant database of pre-labeled data,
 presumably ideal for machine learning. This is a title, that's a headline, the
 following is navigation, and down there is a footer. Take all this semantically
 meaningful rich markup into account when you train on it.
+
+### The Markdown Translation Problem
 
 One of the biggest ironies of all this crawling and scraping and data-cleaning
 for AI training is how the HTML is converted into Markdown files, stripping out
@@ -406,6 +444,8 @@ place, only to be converted to HTML for display in the web browser! So from
 Markdown to HTML to Markdown again, in a game of whisper-down-the-lane AI
 training.
 
+### The Source Attribution Problem
+
 And that's not to mention the URLs on which the original data was found. You
 just know the original source of the data is stripped out, or else the New York
 Times' case against OpenAI would have had a lot more teeth. AI training launders
@@ -413,6 +453,8 @@ the sources of the data, just like money laundering launders the source of the
 money. No URL, no smoking gun trail. It's like the way those meme sites delete
 their log files to protect anonymity of their users. No trail, no origin, no
 accountability. 
+
+## The Future of SEO
 
 If SEO gets reborn in this article, it's in how it's going to encourage playing
 into the subtle knife of discriminating LLMs controlling crawls and other phases
@@ -424,6 +466,8 @@ going to pick up on the vibes and foundation laid down by
 addition and supplement to `robots.txt` and `sitemap.xml` put there deliberately
 for LLMs.
 
+### The Era of Transparency
+
 Assume trickery will be seen through and penalized. It's not going to be a
 Google manual penalty you're going to have to worry about. No, it's going to be
 an insulted LLM controlling some process that sees through you and outs you for
@@ -433,6 +477,8 @@ that curation, things like affiliate links and advertisements will become
 signals of low-quality (or not), but the proof will be in the ultimate output
 and how people respond to it.
 
+### The Return of Competition
+
 Given the fact that you're not going to need to crawl the entire Web to make
 this work, but merely need some sort of "seeding" from a Yahoo directory-like
 thing (today, everyone's using the Microsoft Bing API), and then
@@ -440,6 +486,8 @@ small-world-theory driven crawl based on the same premise of six-degrees of
 separation, almost anyone will be able to get into the competitive search engine
 game. It's like the era of metasearch with HotBot and DogPile gets reborn and it
 could be anyone's game again.
+
+### Google's Strategic Position
 
 This is where Google's control over Chrome and the Android platform become so
 important. They won a battle long ago over the unification of the "search" and
@@ -450,6 +498,8 @@ important, and the remedy in the Google anti-trust suit is recommended to be the
 splitting off of Chrome. Chrome directly feeds AdWords, making it a lopsided
 game. This is the main factor working against LLMs themselves directly killing
 SEO.
+
+### The AdWords Dependency
 
 SEO has greatly died because Google needs AdWords revenue. They have not
 adequately diversified their revenue streams, like Microsoft. The Google castle
@@ -462,11 +512,15 @@ Overviews instead of the personality-infused ***chat interface*** Microsoft went
 with. So, it's the ability for the little guy to do really well ***purely
 through SEO*** that has died. We're now in a pay-to-play world.
 
+## The Path Forward
+
 So what now? Should everyone just give up on SEO and instead pay AdWords and be
 in Merchant Center? To pay homage to Google because they control Chrome,
 essentially?
 
 Ugh, it's like I'm talking myself into that. But no!
+
+### Back to the Long Tail
 
 We're going right back to the long tail.
 
@@ -480,6 +534,8 @@ and it's definitely along those lines.
 It's one of those South Park underwear gnome step #3: profit situations. I know
 I will get there, if even just keeping sharp for my day job.
 
+### The Future Opportunity
+
 You can bank on the fact that things are going to go wacko with people looking
 for direction. SEO isn't going to piddle out as a field. There's always going to
 be an appetite for getting your traffic, attention, eyeballs, audience,
@@ -487,6 +543,8 @@ following, fans, tribe, people or what have you ***meritoriously!*** And that's
 where I need to live. It's not about gaming the system. It's about being in the
 right place at the right time. Sometimes, there's a man, well, he's the man for
 his time and place. He fits right in there.
+
+### Finding the Niche
 
 Okay, so if I'm that dude, what's the thing?
 
@@ -510,6 +568,8 @@ FastHTML and HTMX.
 - FastHTML vs. FastAPI
 - FastHTML
 
+### The Path to Traffic
+
 Yup. That's a pretty sure path to traffic, where I can forge a meritorious path
 through what's left of the long-tail jungle. There's wars brewing. LLM is
 simultaneously going to make it easier to slam out cookie-cutter instances of
@@ -526,6 +586,8 @@ you mean FastAPI*** is what the LLM is going to say (in essence) over and over
 until the attempt at FastHTML code is so mangled and irrecoverable, and such
 frustration has set in, that they abandon their original attempts.
 
+### The Implementation Plan
+
 So, I have to throw the life-preserver out there for FastHTML seekers. First, I
 need to clarify all that database and MicroDataAPI spec stuff (what an unusual
 name), and the convenience wrapper of `fast_app` and all that tuple passing and
@@ -535,12 +597,16 @@ when compared with Kung Fu masters who get their asses kicked. But it just
 doesn't roll off the tongue quite as smoothly as Neo saying ***"I know kung
 fu"***. "I know Brazilian ju-jitsu" just doesn't have the same cachet.
 
+### Future Keywords and Topics
+
 Okay, what else? Ollama? Local LLM? gguf files? LM Studio? Ollama vs vllm?
 Something about llama.cpp? How to train a local LLM? Your local ollama genie in
 a bottle buddy for life? Chip O'Theseus? This one is not nearly so clear insofar
 as the keyword variations to target, but it's definitely local ollama-based. I
 should probably put out something about ***local ollama llm training*** and get
 the data feedback loop going.
+
+### The Next Steps
 
 Speaking of which, today is really about getting things a ***bare minimum
 something*** ready for public consumption. Updating Pipulate in the public repo
@@ -616,10 +682,11 @@ Want me to focus on any particular aspect of the implementation plan?
 
 ---
 
-So Claude and I go back and forth on some nuanced stuff, adding a parameter to
-change a system that was meant to be exclusively LLM-chat into a more verbatim
-"say this" (simulated LLM output), and let the LLM know that was said (putting
-words in its mouth).
+## LLM Chat System Evolution
+
+So Claude and I go back and forth on some changes to the system that was meant
+to be exclusively LLM-chat into a more verbatim "say this" (simulated LLM
+output), and let the LLM know that was said (putting words in its mouth).
 
 This is specifically wired up to the messages that get displayed when you switch
 areas of the site using site navigation. It was supposed to be a cute little way
@@ -630,6 +697,8 @@ very wizard-like way. You know, the old *software wizards* of yore, of which
 Clippy was probably a fine example. Software wizards are a good idea whose time
 has come around again, particularly in how well they mesh with LLM-powered apps,
 but for all the steps that shouldn't have LLM randomness and unpredictability.
+
+### Scripted LLM Interactions
 
 The interesting thing here is that you can still make it look to the LLM as if
 it said those things itself. It's all just part of the discussion history, with
@@ -652,9 +721,7 @@ talking to the user directly and another for training the LLM in the background.
 Perhaps two things that are called from JavaScript at the same moment the
 temp_message is set?
 
-**Claude**: 
-
-Ah, now I understand! You want to handle two distinct actions when initializing certain features:
+**Claude**: Ah, now I understand! You want to handle two distinct actions when initializing certain features:
 
 1. Show instructions to the user (verbatim message)
 2. Silently train the LLM (system prompt injection)
@@ -707,6 +774,8 @@ This gives you explicit control over both user communication and LLM training. T
 
 ---
 
+### Rethinking JavaScript and Message Handling
+
 **Me**: Not bad, not bad! However, I'm thinking that the only reason the
 temp_message is mixed in with JavaScript (never a good idea under HTMX) is that
 the action that causes the message (a navigation action) by necessity changes
@@ -714,12 +783,16 @@ the URL, and thus the message that needs to be triggered must bridge that
 URL-change navigation gap and actually show something to the user on the
 resulting page.
 
+#### The Case for Invisible Prompt Injection
+
 However, in this scenario the prompt injection doesn't need to be visible to the
 user at all. It has no visible side-effects aside from the LLM simply getting
 smarter about the subject in the background (via updating the discussion
 history) and therefore simply waiting in the background for its next
 interaction, at which time it will get the result of the prompt injection when
 re-loading the discussion history.
+
+#### A Simpler Solution
 
 So it seems to me that the best thing to do is to leave JavaScript out of it
 (despite my previous thoughts) and do it at the same instance we set the
@@ -780,6 +853,8 @@ No need for JavaScript or WebSocket communication - just update the conversation
 
 ---
 
+### A Discussion About AI Limitations
+
 **Me**: I'm curious Claude, is that something you would have just never realized
 on your own? Or were you just leaning into the idea that I was suggesting in the
 first place regarding happening at the same time as the JavaScript? What would
@@ -810,6 +885,8 @@ This interaction highlights a key limitation of LLMs: we're great at pattern mat
 
 ---
 
+## The Next Day's Progress
+
 Okay, it's the next day. I did a fraction of the work I wanted to do yesterday,
 but I did do some. And it was of the direction-setting, momentum-building
 variety. I have clarity as I sit down right now. I have simultaneously broken
@@ -817,6 +894,8 @@ something and put the pieces in location for a fix, which is a hallmark of a
 refactor. I wanted to avoid refactoring, but this one is not a rabbit hole. It
 is clear and precise. And I will finish it out and then switch to a new journal
 entry for today.
+
+### Building the Endpoint Messages
 
 Right now, I have a `build_endpoint_messages()` function, because I wanted the
 user's name to be used in some of the messages if the system had it. This is
@@ -828,6 +907,8 @@ should turn it into a normal dict for now and have two parallel concepts:
 - endpoint messages
 - endpoint training
 
+### The Training System
+
 So, whenever an endpoint is selected, a verbatim message gets shown to the user
 AND training goes on in the background. And finally, there will be multiple
 files in the system, as each training file will be its own `markdown.md` file in
@@ -836,6 +917,8 @@ a directory of training files. I can use naming conventions on those files like
 
 Okay, this is a solid plan I can act on.
 
+### Function Structure
+
 Hmmm, no reason to dumb it down into a plain dict, I see. Keep it a function
 that returns a dict, and simply break it in two:
 
@@ -843,6 +926,8 @@ that returns a dict, and simply break it in two:
 - `build_endpoint_training()`
 
 Okay, done.
+
+### External Training Files
 
 Now the last piece for me to call yesterday's work done is to put some of the
 prompt training into an easily maintained external markdown file. I'm keeping
@@ -873,6 +958,8 @@ def build_endpoint_training(endpoint):
     conversation_history = append_to_conversation(endpoint_training[endpoint], "system")
     return
 ```
+
+### Implementing External Training Files
 
 **Me**: Check it out. I did a lot of that. Now I need the contents of say the profile value of endpoint_training to come from a file named menu_profile.md in a folder named training in the repo. It will always be in training/menu_profile.md. I don't want any fancy fagile OS path stuff. We're making this so have repo will travel.
 
@@ -908,6 +995,8 @@ Simple and direct - just reads from `training/menu_profile.md` etc. No OS path m
 **Me**: Nice, it works! I just made the minor change of making the full filename
 settable without any of it being hardwired by the function, except for the path.
 
+## Weekend Goals Progress
+
 That means of my goals for this weekend:
 
 1. Make chatq support verbatim scripts that keep the LLM in the loop via
@@ -921,6 +1010,8 @@ That means of my goals for this weekend:
 
 ...I have now finished 1 & 2. And it's only 9:00 AM on Sunday morning. I have
 all day ahead of me, except for my broken phone issue, to address 3 and 4.
+
+### The SEO Renaissance Connection
 
 Again, how does this all tie back to SEO being reborn? Well... it's that I'm
 going to build an on-ramp for independence from all SEO products (except for
