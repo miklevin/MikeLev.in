@@ -1,5 +1,5 @@
 ---
-title: The Future of SEO: Reimagining SEO in the Age of LLMs
+title: "The Future of SEO: Reimagining SEO in the Age of LLMs"
 permalink: /futureproof/future-of-seo-llm/
 description: I'm developing a framework for future-proof SEO tools, anticipating changes driven by LLMs.  I'm separating user messages from LLM training, using external markdown files for training data, and minimizing JavaScript. This weekend I implemented verbatim scripting and super prompts, and I'm now building a mini-crawler to demonstrate this approach. This framework, using HTMX and FastHTML, aims to enable rapid development of independent, LLM-powered SEO tools, ushering in a new era of SEO focused on valuable content and intelligent analysis.
 layout: post
