@@ -560,9 +560,10 @@ out.
 
 ### The Browser Battleground
 
-So long as Google's death-grip over Chrome and Android remains firm, the Apple
-deal stays in place on Safari, and Microsoft can't get people to move to Edge
-through a war of upgrade attrition and switch-back fatigue.
+And this pay-to-play reality stays fixed so long as Google's death-grip over
+Chrome and Android remains firm, the Apple deal stays in place on Safari, and
+Microsoft can't get people to move to Edge through a war of upgrade attrition
+and switch-back fatigue.
 
 ## The Path Forward
 
@@ -574,7 +575,23 @@ Ugh, it's like I'm talking myself into that. But no!
 
 ### Back to the Long Tail
 
-We're going right back to the long tail.
+We're going right back to the long tail. You can't squash all niches. They pop
+back up like a game of wack-a-mole. It's not big money. It's in the fringes.
+It's the edges. But in the end, isn't it the outliers that really matter? Isn't
+the uncommon path and the unlikely what ultimately eventually changes
+everything, after some time of the status quo playing wack-a-mole?
+
+#### Born of Love and Necessity
+
+And this stuff is often born of love, or alternatively scratching an itch nobody
+else has realized was bothering them. In a perfect storm, it's both scratching
+an unnoticed itch ***and doing it for the love of it.*** This is why art is
+important. Every once in awhile, artists and artistry shows the way for
+technology. Not that the artists are the ones that financially benefit from
+their own innovation. Good timing, good business sense and good implementation
+are what's actually rewarded monetarily.
+
+#### A Personal Journey
 
 For myself, for my own purposes, I don't need to sink or swim by the financial
 success of my SEO endeavors. At least, not in the direct skin-in-the-game way as
