@@ -2480,7 +2480,11 @@ This article would sure give it great context to get started.
 My observations about o3... well let me feed this whole article back into it
 and get its observations. o3?
 
-o3: Here’s what I observe from your article and our discussion:
+---
+
+## Feeding This Article Back Into o3
+
+**o3**: Here’s what I observe from your article and our discussion:
 
 1. **Tension Between DRY and Explicitness:**  
    You’re caught between the appeal of a DRY, centralized BaseFlow (and similar abstractions) and the clarity of a more explicit, “WET” style where every HTMX attribute and workflow step is directly visible. You value that immediacy—the one-to-one mapping between a notebook cell and a workflow “card”—but also see the long-term benefits of reusing common patterns (like finalization, revert controls, and the chain reaction logic).
