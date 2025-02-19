@@ -1,7 +1,7 @@
 ---
 title: o3 Codebase Test
 permalink: /futureproof/o3-codebase-test/
-description: 
+description: I'm wrestling with the tension between simplicity and structure in my web framework project, all while testing the capabilities of o3 and Grok 3. I'm torn between the immediate clarity of a more direct, less DRY approach and the potential benefits of a more structured, reusable approach using a BaseFlow class. I'm seeking a compromise that allows for both simplicity and reusability, and I'm exploring various strategies to achieve this, including using Pipulate for state management, exposing notebook cell helpers, providing clear documentation, and allowing for flexibility in workflow implementation. Ultimately, I aim to create a framework that is both easy to understand and use for those familiar with Jupyter Notebooks, while also being maintainable and extensible for more complex workflows. As I experiment with o3 and Grok 3, I'm hoping to find the right balance between human ingenuity and AI assistance to bring this project to fruition.
 layout: post
 sort_order: 1
 ---
@@ -507,3 +507,8 @@ Your goal is to lower the barrier for users comfortable with linear, notebook‑
 This way, you preserve the immediacy and clarity of the original workflow while still capturing the state‑management and reusability benefits of your newer abstractions.
 
 Does this strategy help clear the path forward?
+
+Me:
+
+Okay, it's sounding interesting. But I have to see what it would really look
+like. Do I start with the new codebase? 
