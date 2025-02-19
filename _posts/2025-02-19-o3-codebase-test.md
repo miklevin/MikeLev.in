@@ -508,8 +508,12 @@ This way, you preserve the immediacy and clarity of the original workflow while 
 
 Does this strategy help clear the path forward?
 
+## Exploring the Path Forward
+
 **Me**: Okay, it's sounding interesting. But I have to see what it would really
 look like. Do I start with the new codebase? 
+
+### Vision for Local LLM Integration
 
 I need to start a positive feedback loop, making things easier for me as the
 creator of this system, for future users who will be porting Notebooks into this
@@ -525,6 +529,8 @@ some extent needing vector embedding RAG processes. It's a short cut to elevate
 local LLMs and make the ambient ubiquitous intelligence able to be built into
 all apps without incurring the network, monetary expense or privacy risk of
 using cloud based models and services.
+
+### Next Steps and Concerns
 
 Okay, that's all by way of telling you that my preference is to make the local
 LLM able to walk you through the process of writing a new pipeline workflow app.
