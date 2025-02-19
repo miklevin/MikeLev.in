@@ -1130,3 +1130,186 @@ class BridgeFlow(BaseFlow):
 By starting with the new codebase and building a DSL layer for “notebook cells,” you create a system that is both DRY and immediately understandable. This hybrid approach preserves the one‑cell–one–step clarity of Jupyter while enabling code reuse and consistency through BaseFlow and Pipulate. The result is a framework where experienced notebook users can quickly port their workflows, and the local LLM always receives the right context via just‑in‑time prompt injection.
 
 Does this concrete example and deeper explanation help you envision your next steps?
+
+---
+
+**Me**: Alright, so here's the problems I have with that.
+
+First, hiding HTMX is never a good idea. And then wrapper functions that do
+nothing but pass thorough everything they're fed are also rarely a good idea.
+And so I see 2 pass-through functions in your proposed solution, pico_text_input
+and render_revert_control, that do nothing more than make one more place to look
+to see what's really going on with no concrete benefit, and arguably taking away
+one of the key principles of this
+system, which is to let users learn the ropes of HTMX. This is an example of
+just adding more code where what seems to be at issue is improving the function
+of what's being wrapped. We are trying to reduce and strip away code, get to
+fewer and fewer lines of code, but maintaining just the right amount of
+expressiveness to achieve some DRY and avoid tedium. But adding "extra hops" is
+my idea of the biggest fail we could do to this system. We must expose HTMX and
+if there is an opportunity to move things OUT of base classes or helper
+functions to clarify and provide more hands-on with HTMX, we should do it.
+
+Do you get the idea? There's probably some rule or principle for this. But it's
+far to easy to just keep throwing wrapper functions that change APIs. I very
+much resent this obfuscation. We are trying to write just the right language for
+expressing sheet music. I like the idea of getting rid of all-or-nothing
+BaseFlow inheritance, but I don't like this other cruft. Does that make sense?
+
+**o3**: You're absolutely right. In a system like this—designed to let users learn HTMX and see its effects directly—adding layers that simply “hide” HTMX can be counterproductive. The goal is to reduce boilerplate while not obscuring the very mechanisms (like HTMX attributes) that are part of the system’s charm and educational value.
+
+Instead of writing helper functions that do nothing more than wrap an HTMX call (which forces the user to look in two places to understand what’s really happening), you might adopt a style where your “workflow cell” is defined in a very explicit, declarative manner that shows the HTMX attributes directly.
+
+For example, rather than this wrapper:
+
+```python
+def pico_text_input(name: str, placeholder: str, value: str = "", required: bool = False, autofocus: bool = False) -> Input:
+    return Input(
+        type="text",
+        name=name,
+        placeholder=placeholder,
+        value=value,
+        required=required,
+        autofocus="autofocus" if autofocus else None,
+        style="padding: 0.5rem; border: 1px solid var(--pico-border-color);"
+    )
+```
+
+…you might simply write in your workflow cell:
+
+```python
+# Directly in your cell, expose the HTMX style:
+name_input = Input(
+    type="text",
+    name="name",
+    placeholder="e.g., Sir Lancelot",
+    required=True,
+    autofocus="autofocus",
+    style="padding: 0.5rem; border: 1px solid var(--pico-border-color);"
+)
+```
+
+Similarly, for revert controls, instead of wrapping pipulate.revert_control() in another function (which can add an extra hop to trace what’s happening), simply call it directly:
+
+```python
+if state.get("name"):
+    # Directly call pipulate.revert_control so that developers see its API
+    revert_button = pipulate.revert_control(
+        url=pipeline_id,
+        step_id="step_01",
+        prefix=self.prefix,
+        message=f"Your name: {state['name']} ✓",
+        target_id="bridge-container"
+    )
+    return Div(
+        H3("Your name is locked in:"),
+        P(state['name']),
+        revert_button,
+        id="step_01"
+    )
+```
+
+This way, you’re not hiding HTMX attributes or the pipulate API behind another layer. Instead, you’re documenting and demonstrating their use directly in your workflow cell definitions.
+
+### A Concrete Example: Porting BridgeFlow Step 1
+
+**Old Approach (Direct, but verbose):**
+
+```python
+async def step_01(self, request):
+    pipeline_id = db.get("pipeline_id", "unknown")
+    data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    if data.get("name"):
+        revert = self.pipulate.revert_control(
+            url=pipeline_id,
+            step_id="step_01",
+            prefix=self.prefix,
+            message=f"Your name: {data['name']} ✓",
+            target_id="bridge-container"
+        )
+        return Div(revert, id="step_01")
+    else:
+        await self.pipulate.explain(self, "step_01", "Ask for your name.")
+        return Div(
+            Card(
+                H3("What is your name?"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(type="text", name="name", placeholder="Sir Lancelot", required=True, autofocus="autofocus")
+                    ),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#step_01"
+                )
+            ),
+            Div(id="step_02"),
+            id="step_01"
+        )
+```
+
+**Revised Approach (Exposing HTMX Directly):**
+
+```python
+async def step_01(self, request):
+    pipeline_id = db.get("pipeline_id", "unknown")
+    # Directly retrieve state for step_01.
+    state = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    
+    if state.get("name"):
+        # If the name is already set, display it with a revert control.
+        revert_button = pipulate.revert_control(
+            url=pipeline_id,
+            step_id="step_01",
+            prefix=self.prefix,
+            message=f"Your name: {state['name']} ✓",
+            target_id="bridge-container"
+        )
+        return Div(
+            H3("Your name is locked in:"),
+            P(state["name"]),
+            revert_button,
+            id="step_01"
+        )
+    else:
+        # Directly define the form using HTMX attributes.
+        name_input = Input(
+            type="text",
+            name="name",
+            placeholder="e.g., Sir Lancelot",
+            required=True,
+            autofocus="autofocus",
+            style="padding: 0.5rem; border: 1px solid var(--pico-border-color);"
+        )
+        form = Form(
+            Group(name_input, Button("Submit", type="submit", style="margin-left: 0.5rem;")),
+            hx_post=f"{self.prefix}/step_01_submit",
+            hx_target="#step_01",
+            hx_swap="outerHTML"
+        )
+        return Div(
+            H3("Question 1: What is your name?"),
+            form,
+            Div(id="step_02"),
+            id="step_01",
+            style="margin-bottom: 1rem; padding: 1rem; border: 1px solid #ccc; border-radius: 4px;"
+        )
+```
+
+### Why This Works Better
+
+- **Transparency:**  
+  The code shows exactly which HTMX attributes are being used. A developer who is learning this system sees `hx_post`, `hx_target`, and `hx_swap` directly in the code. There’s no hidden layer obscuring these details.
+
+- **Less Indirection:**  
+  Each function does one thing, and its behavior is explicit. There’s no extra function call to track down when you need to understand how the input field or revert control is rendered.
+
+- **Direct Mapping to Notebooks:**  
+  Each cell (or step) is a simple function that corresponds directly to a notebook cell. There’s no extra DSL layer to learn; the workflow logic remains as straightforward as it was in your old version.
+
+- **Flexibility:**  
+  If a developer wants to customize the HTMX behavior or the style, they can do so directly in the cell definition rather than modifying a generic wrapper that applies to all cells.
+
+### Conclusion
+
+Start with the new codebase, but lean toward minimal wrappers—if any—so that the underlying HTMX and Pipulate APIs are visible and clear. Document your examples carefully so that users porting from Jupyter see a one‑to‑one mapping between notebook cells and workflow steps. This way, you achieve the desired DRY benefits without sacrificing transparency and simplicity. 
+
+Does this concrete example and rationale align with what you're aiming for?
