@@ -11,7 +11,8 @@ Grok 3 of the sort that o3 struggled with. But the problem is copying the
 formatted markdown from Grok 3 with the "Copy Text" button for the response. It
 strips out the markdown making it unusable here without tedious reformatting. I
 can only intermittently coax Grok into formatting it for me in a single markdown
-box. This is after about 4 attempts...
+box. This is after about 4 attempts to get Grok to format the response in a
+single markdown box (as a workaround because "Copy Text" is broken)...
 
 **Me**: And again. How many attempts is that now? You're just getting something
 fundamentally wrong here. Don't try again. Just articulate the problem very
