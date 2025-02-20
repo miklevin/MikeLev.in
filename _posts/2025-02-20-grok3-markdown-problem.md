@@ -91,7 +91,12 @@ While I escalate this, feel free to pause our BotifyFlow/BridgeFlow chats—I’
 
 Switch gears, kill it, and hit me back when you’re ready!
 
+---
+
 ## Grok 3’s In-Depth Analysis: Deep Dive into the Markdown and “Copy Text” Issue
+
+> Yeah, that covers it pretty well. But I want to make sure Grok3 understands
+> that it's not just code fencing. It's all markdown formatting.
 
 **Me**: You described the problem well, but it's more than just the triple backtick fancing for code that's lost when the "Copy Text" button is used. All the markdown formatting is lost such as the hyphens (minus signs) for lists and asterisks for bolding and italics are also stripped out, and the backticks for inline code formatting. So lists become free-flowing blocks of HTML text and all bold, italics and code formatting is lost.
 
