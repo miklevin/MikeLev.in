@@ -3135,7 +3135,7 @@ different display techniques. It should ALL BE ONE MARKDOWN FILE!0
 
 [pastes screenshot of Grok 3's messed-up reply]
 
-Grok 3: Analysis of Formatting Issue and Recommendations
+**Grok 3**: Analysis of Formatting Issue and Recommendations
 
 Thank you for sharing the screenshot and highlighting the formatting challenge with my "Copy Text" feature. I can see where the issue lies and how it impacts your workflow. Let’s break it down and offer recommendations.
 
