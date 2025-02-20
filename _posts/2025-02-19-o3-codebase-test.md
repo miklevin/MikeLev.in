@@ -3269,6 +3269,8 @@ out.
 Anyway, here's how I think I should end a prompt with you to overcome the broken
 "Copy Text" feature:
 
+BEGIN PROMPT
+
 Please provide your responses as a single, complete Markdown document using
 triple backticks (```) for code blocks and proper Markdown syntax for headers,
 lists, and other elements. For example (indented for markdown dilineation):
@@ -3292,8 +3294,10 @@ lists, and other elements. For example (indented for markdown dilineation):
             super().__init__(app, pipulate, "/starter", steps)
     ```
 
-    Prioritize ensuring that every response is wrapped in a single Markdown block,
-    maintaining consistency throughout (no switching between formats).
+Prioritize ensuring that every response is wrapped in a single Markdown block,
+maintaining consistency throughout (no switching between formats).
+
+END PROMPT
 
 Right? This is a really critical point as without it, it almost doesn't matter
 how smart you are becasue I can't properly capture your output and wrap it into
