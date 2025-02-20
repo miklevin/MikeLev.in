@@ -3015,6 +3015,7 @@ Below is a detailed comparison of the pipeline workflow apps (instances of the "
 ---
 
 ## Summary of Evolution
+
 | Aspect              | Old Version                          | New Version                          |
 |---------------------|--------------------------------------|--------------------------------------|
 | **Finalization**    | Implied by UI, no explicit state     | Explicit `finalized` flag, lock/unlock |
@@ -3024,7 +3025,9 @@ Below is a detailed comparison of the pipeline workflow apps (instances of the "
 | **State Robustness**| Basic JSON blob tracking             | Enhanced with helpers and finalization|
 
 ### Conclusion
+
 The new version significantly enhances the pipeline workflow pattern with:
+
 - **User Experience**: Revert controls, finalization, and dynamic loading improve interactivity.
 - **Robustness**: Explicit state management and error handling make workflows more reliable.
 - **Extensibility**: LLM integration and `Pipulate` enhancements support richer apps.
