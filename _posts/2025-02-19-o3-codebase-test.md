@@ -2815,6 +2815,8 @@ This is a single-tenant desktop application framework built with:
 
 Would you like me to elaborate on any specific aspect of the codebase or suggest detailed improvements for a particular component?
 
+## Grok3: Pipeline Workflow Apps Comparison: Old vs New Versions
+
 **Me**: Here is another older version of the codebase. Look at this version as
 well. Compare the two versions. Do an analysis of what has changed between the
 two versions. Specifically, look for what might be called instances of pipeline
@@ -2824,8 +2826,6 @@ version) and the old (this version)...
 [drops 8,176 line 329,137 byte file]
 
 Please provide your feedback as copy-able markdown. I'm publishing it all as I go.
-
-## Grok3: Pipeline Workflow Apps Comparison: Old vs New Versions
 
 **Grok 3**: Pipeline Workflow Apps Comparison: Old vs New Versions
 
