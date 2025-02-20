@@ -2702,4 +2702,14 @@ Citations:
     [10] https://wiki.rossmanngroup.com/index.php?title=Amazon_Kindle_removes_download_feature_of_purchased_books
 
 Okay, I've got a small window. I can put that out of my mind tonight and focus!
-Go get the free Grok 3 link...
+Go get the free Grok 3 link... Haha, I don't see it on Elon's feed anymore but
+at 2:18 AM, I saw:
+
+For a short time, Grok 3 is available to all! But it's not on his feed anymore,
+so I hopped on over to @xai (I have to remember to check that profile) and...
+
+> This is it: The world’s smartest AI, Grok 3, now available for free (until our servers melt).
+> 
+> Try Grok 3 now: https://x.com/i/grok
+> 
+> X Premium+ and SuperGrok users will have increased access to Grok 3, in addition to early access to advanced features like Voice Mode
