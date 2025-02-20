@@ -3033,3 +3033,80 @@ The new version significantly enhances the pipeline workflow pattern with:
 - **Extensibility**: LLM integration and `Pipulate` enhancements support richer apps.
 
 Would you like a deeper dive into any specific app or feature evolution?
+
+---
+
+## Grok 3 Hallucination?
+
+> Impressive, but actually contains hallucinations! I have not ported the pipeline
+> workflows from the old codebase to the new!
+
+**Me**: Okay, you've come to a lot of the same conclusions as me. But do you
+know where you really tripped up? The new version (the one first provided)
+doesn't have the "after" versions you talked about. It only has `StarterFlow`
+and `PipeFlow`, extremely primitive pipeline workflow examples that take full
+advantage of `super().__init__(app, pipulate, app_name, steps)`. But can you see
+the problem?
+
+While BaseFlow makes these new minimal examples extremely short and elegant,
+inheriting from BaseFlow, think about the trouble it will be to port BridgeFlow,
+TenCardFlow and LinkGraphFlow to the new codebase. Think about the
+all-or-nothing feeling nature of super init inheritance. Think about the entire
+thing stylistically with the DRY vs WET obfuscation vs. expressiveness issues.
+
+There is no right answer in particular here. It is just an attempt to get you to
+understand the issues I'm dealing with in the two codebases. Clearly you see the
+same thing I do in that the newer (first provided) code base is better thought
+through and more elegant. However, I lost something that's making it confusing
+and frustrating to port the old instances of pipeline workflow apps to the new
+system.
+
+Consider this an opportunity to just do open ended riffing, but the more precise
+you are when referring to code, the better. I want assurance that you "get it"
+and that everything I just sent you didn't roll out of your token window. I hear
+you are not just a static model and can learn. My intent is to train you to help
+me with FastHTML/HTMX, which most other models really struggle with because
+they're over-trained on FastAPI.
+
+Okay, go ahead and riff Grok 3, please and thank you. And don't forget to make
+your response Markdown copy/paste-able as I'm publishing and sharing as I go and
+don't want to have to perform tedious reformatting.
+
+---
+
+## Grok 3 Response Formatting Woes
+
+> Ugh! Another poorly implemented Copy Text box in an LLM. Please, Elon! Look at
+> how Perplexity does it. In fact, they all seem to do it correctly now except
+> Grok. And it's so important, because it's how output is shared.
+
+**Me**: Okay, so I think I'm liking what you're laying down, but we have a
+fundamental communication problem, because your "Copy Text" feature is so poorly
+implemented. When I asked you to provide your response as Markdown for sharing,
+I mean the whole friggn thing! You gave me the first little bit as markdown but
+then reverted for the rest, presumably so that you can show me pretty formatted
+Python, but I don't need that. I take your response and I immediately copy/paste
+it over to a Jekyll SGG system (the one in GitHub Pages). And so if I showed you
+the formatting challenge mess you just thrust on me, formatting this response
+would be the rest of my night! I want to focus on the code and documenting as I
+go. So my request to you now is to repeat your last response to me, but put the
+whole friggin thing inside a markdown box, so that I can use that markdown box's
+copy icon which works much better than the "Copy Text" link for the entire
+message. In other words, put the entire previous response in a single markdown
+box, please and thank you!
+
+> Grok failed to put the response in a markdown box. Instead, it created an
+> empty markdown box at the beginning and end of the response, and just did the
+> copy-mess in between the two markdown boxes.
+
+**Me**: No, Grok 3. Nice attempt, but refer to the above block quote. This is
+not going to go well if I can't copy your responses as plan markdown. Having to
+format the mess every time is a huge bottelneck. I guess there is the argument
+to just try to get the work done without documenting the process, but that
+defeats the purpose, because I'm creating the documentation to create a positive
+feedback loop so that as AIs like you get smarter and smarter, I can feed back
+the entire story as context and you can see the evolution of the system from the
+beginning. So what I'm going to do is feed you the entire article so far, so you
+can see how I work. And below I'm going to paste what I get from the "Copy Text"
+feature on the response you just gave me, so you can "get" the mess.
+
