@@ -3240,3 +3240,60 @@ To address this issue and streamline your process, here are my suggestions:
 I’m learning from your feedback and adapting to your needs, especially your focus on FastHTML/HTMX and avoiding FastAPI-style over-complexity. I understand the importance of maintaining a positive feedback loop through documentation, and I’ll work to ensure my responses are formatted to support that process directly. Since I’m not a static model and can improve over time, your input helps me refine my output for your Jekyll SSG publishing workflow.
 
 Does this analysis and set of recommendations address your concerns? Want to try a small test response to verify the formatting, or should we dive back into the pipeline workflow porting discussion?
+
+---
+
+Me:
+
+Yes! You did it! I am going to reiterate what I'm hearing from you and feed you
+back the entire article thusfar so you can see what I did with your output. I am
+also going to feed you the rendered DOM per copying the HTML element from Chrome
+DevTools so you have the full picture of what's going on. Does that make sense?
+
+I have to say Grok 3, I am going into this skeptical. As you can tell from the
+article, OpenAI ChatGPT o3-mini-high disappointed me. I mean, it's not like it
+did a terrible job. But clearly that feeling of things scrolling out of the
+moving token window was blatant. I fed it the new version of the codebase first,
+then I fed it the old version just like we did here. It gave good advice. But
+then I fed it the output of a diff program between the two (maybe a mistake on
+my part), and it made all the wrong assumptions about which was the old and
+which was the new. Again, maybe this was my fault in the order I used them in
+the diff command. But I thought it should have been smart enough to figure that
+out.
+
+Anyway, here's how I think I should end a prompt with you to overcome the broken
+"Copy Text" feature:
+
+Please provide your responses as a single, complete Markdown document using
+triple backticks (```) for code blocks and proper Markdown syntax for headers,
+lists, and other elements. For example (indented for markdown dilineation):
+
+    # Riffing on Pipeline Workflow Evolution: Old vs. New Codebase Challenges
+
+    Hey, I totally get where I tripped up now—thanks for the nudge!...
+
+    ## Where I Tripped Up: Misreading the New Codebase
+
+    I saw the new codebase’s `Pipulate` class...
+
+    ```python
+    class StarterFlow(BaseFlow):
+        def __init__(self, app, pipulate):
+            steps = [
+                ("name", "step_01", "Enter Name"),
+                ("color", "step_02", "Pick Color"),
+                ("done", "step_03", "Finish")
+            ]
+            super().__init__(app, pipulate, "/starter", steps)
+    ```
+
+    Prioritize ensuring that every response is wrapped in a single Markdown block,
+    maintaining consistency throughout (no switching between formats).
+
+Right? This is a really critical point as without it, it almost doesn't matter
+how smart you are becasue I can't properly capture your output and wrap it into
+my overarching learning system, which works:
+
+- For myself immediately, staying organized
+- For AI assistants in the future, getting full context
+- For the world at large who happen to surf into my site at https://mikelev.in/
