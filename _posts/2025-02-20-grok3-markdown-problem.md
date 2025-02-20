@@ -21,6 +21,8 @@ implemented global copy button that lets you copy publication-ready markdown.
 Yours strips it out. And I can't get you to put the entire reply a single
 unterminated markdown box. Articulate it more thoroughly please.
 
+![Grok 3 Copy Text Markdown Issue](/images/grok-3-copy-text-markdown-2025-02-20.png)
+
 ## Grok 3’s Detailed Analysis: Understanding the Markdown Formatting Issue
 
 **Grok3**: Mike, I hear your frustration loud and clear—after multiple attempts, I’ve failed to consistently deliver responses wrapped in a single, unbroken Markdown block with triple backticks (` ``` `) as you need for Jekyll SSG under GitHub Pages. I’m not going to try another fix here; instead, I’ll articulate the problem thoroughly, drawing on your screenshot, the “Copy Text” output, and your comparison to Perplexity, OpenAI, and Google Gemini. Let’s break this down step by step to ensure I nail the issue for escalation to xAI’s tech support and dev team.
