@@ -337,3 +337,28 @@ through the process tricks. In other words, the training material. On a starting
 point that works as a beachhead or foothold. And that's this weekend.
 
 I need that starting nub on the linear workflow. 
+
+Things tank in quality when you get to love them. The very quality that makes a
+thing love-worthy gets it onto the radar of opportunistic profiteers looking to
+maximize income and squeeze that lemon. You'll see this in popular products all
+the time. They become famous and well known for some quality, and then they ship
+off the manufacturing to the lowest bidder in China, and BAM! Quality tanks, and
+this super-awesome product that was a secret weapon of early adopter insiders,
+often a sort of product-cult, become disenfranchised and alienated, but the
+company doesn't care because they're raking in the bucks. On rare occasion the
+story will be the reverse, like Harley Davidson. You want to be that exception,
+and it come from applying well known business principles from the likes of Peter
+Ducker and Edwards Demming. The former being the get-and-keep customers guy, and
+the later being the quality-management guy. Together, you get things like the
+Harley Davidson bounce back, when it could have gone the downward spiral
+direction of so many other love-worthy products.
+
+I'm trying to make the starting point of my project love-worthy. It's like the
+joyful framework idea of Ruby on Rails, but updated for Python in a
+post-template, post-JavaScript, post-scaling world. Yup. No templates like jina2
+or mako, no JavaScript frameworks like React or Vue, and no arbitrary
+constraints or limitations on single-instance versions because it has to scale
+in the cloud. There's a lot of anti-patterns here, and the trick is I have to
+make the sum of the parts something wholly unique, scratching itches a lot of
+folks out there feel but don't know they have, and even if they did, can't quite
+reach.
