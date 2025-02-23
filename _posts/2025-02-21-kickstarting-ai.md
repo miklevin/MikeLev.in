@@ -6,6 +6,8 @@ layout: post
 sort_order: 1
 ---
 
+## Setting the Vision
+
 It's time to push forward with my work, taking it to the next level. I'm going
 into the weekend and I have an opportunity to really bear down on the work in
 that flow-state. Once I get into it, it will take on its own momentum, keeping
@@ -15,6 +17,8 @@ I feel the need to do one thing well, but with the pace of change it seems like
 things are being pulled in many directions. New tools, new skills, constant
 recalibration. This works against growing expertise and skills that pay you back
 for years on end. I want to boil things down, but I cannot boil the ocean.
+
+## The Twenty Year Plan
 
 Yep, that pretty much frames it. I need to zero in on a set of skills that have
 twenty years or so in it. I'm in my mid-50s and if I bear down on my work
@@ -28,6 +32,8 @@ hungry. It means I have all the skills and know-how accumulated up internally. I
 have invested in myself and have all the right skills for the direction the
 world is turning.
 
+## Tools and Dependencies
+
 I don't want to have to keep recalibrating on newer and newer tools. I
 particularly don't want to be at the mercy of this particular vendor or that,
 trying to bend the world to their will. I do want to use fewer tools better and
@@ -36,6 +42,8 @@ that can be used in more ways and chained together. But I have to remain
 flexible and take up wacky new tools and interfaces here and there like the
 shiny new toy crowd who drop the current thing and run to the next as a sort of
 sport.
+
+### The Reality of Platform Dependencies
 
 It's painful, but you have to use different systems and not all of them free of
 annoying dependencies. The question is how much you invest your muscle memory
@@ -52,6 +60,8 @@ yourself. No matter how fervently free and open source advocate you are, you
 probably should have one Windows machine, and one Mac machine in your life. It
 sucks, but that's where the broadest perspective is gonna come from.
 
+### Two Types of Muscle Memory
+
 You have to come to grips with the fact that there are more than one kind of
 muscle memory, and you need both. There's the kind that makes some tool and
 extension of your body for your entire life. And there's the kind that is sort
@@ -60,6 +70,8 @@ trash heap when you're done along with your invested muscle memory. The number
 of concrete examples I could go of here is endless. The memory skills you get
 for using the Windows subsystem for Linux is disposable. But the skills you get
 in the actual Linux terminal are timeless.
+
+## API Wrapping and Value Creation
 
 There is an API wrapping store here. Fundamental tools that have a really long
 life tend to be fairly difficult because they need to support many edge cases.
@@ -77,6 +89,8 @@ not otherwise have to pay for the underlying tool. So the API wrapping layer in
 those cases is commercial, proprietary and intended to extract money. It's a
 business. 
 
+## The AI Revolution
+
 Probably the biggest example today are things that wrap AI APIs and provide a
 convenient user interface layer, like the Cursor editor. Well, I'm not downplay
 the amount of work or innovation that can go into API wrapping, it's still
@@ -85,6 +99,8 @@ of all materials to things of greater value, the most profitable parts are where
 the least effort and cost is required to take the wrong materials, and the most
 money can be charged for some processing of that role materials into more
 valuable finished product.
+
+### The Raw Materials of AI
 
 The raw material in AI, the new Industrual Revolution, is compute at scale —
 hyper-scalers, they're called. The investment here is enormous. And even when
@@ -97,12 +113,16 @@ pull off such hyper-scaling projects are looking at how to break this Nvidia
 dependency. And they will, but it's gonna take ages to overcome the early move
 advantage and big hardware/software/habits trifecta moat advantage. 
 
+### Local AI and Distributed Computing
+
 Some of the AI revolution will be fought with distributed computing in people's
 homes on ragtag computers of infinite variety. They will be a heterogeneous mix
 of AMD, Groq, and whatever else weird hardware can run an inference engine. That
 is to say, local AI. The models, that is to say intelligent entities, "baked" on
 the hyper scaler hardware can basically run anywhere, and anyone's home as a
 Genie In a Bottle. You don't need to be a big boy to play with big boy toys. 
+
+## The Future of Data Centers
 
 And that brings us to this morning's ponderings. I'm watching Satya Nadella's
 interview on Dwarkesh Patel's podcast on YouTube. He lays out the future very
@@ -115,6 +135,8 @@ that's the fact of it. It's going to be exactly like Amazon overbuilding
 capacity after an embarrassing holiday season, and then reselling that capacity
 when it didn't need it as AWS. Same thing. But AI.
 
+### The Hardware Arms Race
+
 There is a rolling Moore's Law effect here too. If there is a competitive
 advantage to be had by utilizing such hyper scaling resources, then there is
 more competitive advantage to be had by making sure the data center hardware is
@@ -125,6 +147,8 @@ center arms race isn't gonna stop, even when AI computer is completely
 commoditized. The big boy game becomes even more big boy, and the fusion
 generators and such are going to have to be employed to keep it all churning.
 
+### The Energy Question
+
 Sci-Fi? Well, yeah of course. Isn't it all at this point? France just got a
 fusion reaction up to 20 minutes with their tokamak fusion reactor. The amount
 of investment going into all kinds of traditional and wacky energy is off the
@@ -134,6 +158,8 @@ curve. I will remind you that the one over X power law curve that makes you
 think you missed out of investment opportunity always looks like one over X no
 matter how far in or far out you scale. We are right at the beginning. This is
 the world we need to prepare for.
+
+## Wealth Distribution and Human Nature
 
 Of course, there is a damping effect. The damning effect being primarily human
 nature and resource distribution. The infinitely have's of the one percent
@@ -146,6 +172,8 @@ from World War II. The suburbs and new expectations were artificially
 architected. The pendulum swings both ways, and given the removal of the
 artificial force compelling the middle class, it's swinging back to a more
 natural state.
+
+### The Nature of Resource Hoarding
 
 Of course, this sounds ferociously evil. It sounds dystopian. But the truth is
 those who obsess over money and hoarding resources and get down the trick of
@@ -167,6 +195,8 @@ corruption. All roads lead to radically inequitable distributions of wealth. Why
 do they haves hoarde and the have nots not? Is that an impossible to change
 aspect of human nature without war or tyranny?
 
+## The Evolution of AI Thought
+
 We are seeing human thought get reconstructed. One-shot prompt/responses are the
 equivalent of baby-babble. As coherent as it might seem, it's the result of a
 baby-like intelligence having access to a vast store of data, so that it can
@@ -186,6 +216,8 @@ system, letting it bake on a task with a good set of rules until it spirals
 inwards to a self-satisfying answer. And the self that is satisfied is the
 inference engine itself!
 
+## The State of AI Censorship
+
 Google Gemini is highly censored. Even the more advanced models can't name the
 president of the United States if asked. And it's not because of the training
 cutoff date. It's got specific keyword filtering in place. It's utterly
@@ -195,6 +227,8 @@ credibility in my mind. Don't be evil? Evil thus announces itself, haha! They
 are the epitome of "if you don't pay for the product, you are the product." And
 this is particularly sad and poignant given how vocal about and opposed to that
 very issue they were in their early days. And then they went public.
+
+## Planning for the Future
 
 There's so much to unpack there, but a critique of capitalism isn't my purpose
 with this article. It's to plan and plot my course in the wake of capitalism's
@@ -208,6 +242,8 @@ advertisers boycotted Twitter... well, even the most "I don't want to believe"
 hold-outs have to let rational thought win eventually. A correction is
 occurring, and that's part of what we have to factor into the next moves that
 push forward my work.
+
+## Historical Context and Wealth Distribution
 
 World War II is long since over. The 40 years of 2 generations coming and going,
 long enough to forget, has long since past. In fact if you measure the end of
@@ -230,10 +266,14 @@ middle will stratify towards becoming a have or a have-not. This is just basic
 primate tribal dynamics per chimpanzees and bononbos in place here. If it's not
 violence being used to keep a social hierarchy well defined, then it's sex.
 
+## Language and Intelligence
+
 Yup. We're not that different from our relatives, but we have a veneer of
 rational thought superimposed, mostly arising from language. Language is a
 matter of greater articulation of ideas, expressing them, capturing them,
 convincing others of them, and so on.
+
+### The Evolution of AI Intelligence
 
 As I watch AI evolve in the public eye, which is a sheer pleasure and very
 different from most sci-fi dystopian scenarios that fuel our nightmares, I see
@@ -249,6 +289,8 @@ exclusively to humans, but like Jane Goodall blew away the notion that humans
 were the only tool-makers, has been long blown away as well. Many things
 including animals and machine intelligences meta-cognate.
 
+## The Current State of AI Models
+
 So, we are in the generation that gets to see the kickstarting of AI. We prompt.
 Some deterministic pre-trained model responds. Given the exact same prompt and
 no hanky panky to deliberately randomize output, the same output will be
@@ -263,6 +305,8 @@ way the Web was when it was born, with a technique called cgi-bin, which loaded
 everything up into memory, did its thing, and then dumped it all. Today's
 cloud-based AI models productized for the public are a lot like the Mr. Meseeks
 character from Rick and Morty.
+
+### The Illusion of Persistence
 
 And we are in the generation getting to know these momentarily instantiated
 static models posing as continuous intelligences, but which aren't. That's not
@@ -292,6 +336,8 @@ memory, be it short-term or long-term. The seminal article from Google,
 "Attention Is All You Need" has a follow-up paper addressing this memory issue
 called "Titans: Learning to Memorize at Test Time".
 
+### The Future of AI Memory
+
 So, memory will be getting better and layered into AI systems in countless
 different ways. It's resource-constrained on the cloud, especially with free
 services, and especially concerning on the privacy front with free cloud
@@ -304,6 +350,8 @@ database to Grok 3 to train on is a wonderful example. It also may be one of the
 early examples of the underlying model not being so static, and not having a
 precise cutoff date of some batch-file training process -- at least ostensibly.
 I don't fully believe that yet, but I am hopeful.
+
+## The State of Free Software
 
 Anyhow, so I talked about the main way the static models running on
 architecturally genocidal cloud architectures are working. I talked about why
@@ -319,6 +367,8 @@ Source Software Foundation. Yes, while open is important, IP-burdened
 (intellectual property burdened) is still IP-burdened. MySQL, Redis, MongoDB,
 Confluent, Grafana and more. It's a trend. FOSS it, get 'em hooked, and then get
 the F out of there. But that's for another time.
+
+## Moving Forward
 
 And so, this is about adjusting my work directionally. I'm already at a friggin
 great starting point. I just have to tweak it a bit here and there to make it
@@ -338,6 +388,8 @@ point that works as a beachhead or foothold. And that's this weekend.
 
 I need that starting nub on the linear workflow. 
 
+## Quality and Business Principles
+
 Things tank in quality when you get to love them. The very quality that makes a
 thing love-worthy gets it onto the radar of opportunistic profiteers looking to
 maximize income and squeeze that lemon. You'll see this in popular products all
@@ -352,6 +404,8 @@ Ducker and Edwards Demming. The former being the get-and-keep customers guy, and
 the later being the quality-management guy. Together, you get things like the
 Harley Davidson bounce back, when it could have gone the downward spiral
 direction of so many other love-worthy products.
+
+### The Starting Point
 
 I'm trying to make the starting point of my project love-worthy. It's like the
 joyful framework idea of Ruby on Rails, but updated for Python in a
