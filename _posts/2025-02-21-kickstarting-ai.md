@@ -1,7 +1,7 @@
 ---
 title: Kickstarting AI
 permalink: /futureproof/kickstarting-ai/
-description: 
+description: I'm laying out a twenty-year plan to zero in on skills that'll keep me relevant, especially with AI's rapid growth. It's about balancing platform dependencies, understanding how API wrapping makes tech accessible, and seeing where AI's headed—from big data centers to local computing. I'm also thinking about wealth distribution, how history shapes our economy, and the evolving intelligence of AI, all while trying to build something truly valuable and unique that people will love. It's a lot to consider, but it's about setting a course for the long haul.
 layout: post
 sort_order: 1
 ---
@@ -416,3 +416,39 @@ in the cloud. There's a lot of anti-patterns here, and the trick is I have to
 make the sum of the parts something wholly unique, scratching itches a lot of
 folks out there feel but don't know they have, and even if they did, can't quite
 reach.
+
+---
+
+## Gemini 2.0 Advanced Flash Brainstormer
+
+In this article, the author outlines a twenty-year plan to focus on developing
+skills with long-term value in the rapidly changing tech landscape, particularly
+in AI. They discuss the need to balance platform dependencies, the importance of
+API wrapping for accessibility, and the evolving nature of AI, from large-scale
+data centers to local AI and distributed computing. The author also reflects on
+wealth distribution, the impact of historical events on current economic
+structures, and the evolution of AI intelligence, while critiquing the current
+state of AI censorship and the transient nature of AI entities. They conclude by
+emphasizing the need to create a "love-worthy" starting point for their project,
+focusing on quality and unique solutions in a post-template, post-JavaScript,
+and post-scaling world.
+
+**Ideas for Titles and Headlines:**
+
+* "The Twenty-Year Tech Vision: Mastering AI and Beyond"
+* "Navigating the AI Revolution: A Long-Term Strategy"
+* "Beyond the Hamster Wheel: Building Timeless Skills in Tech"
+* "API Wrapping and the Future of AI: A Personal Journey"
+* "From Baby Babble to Adult Thought: The Evolution of AI"
+
+**My Opinion of the Article:**
+
+The article presents a thoughtful and wide-ranging perspective on the current
+state and future of technology, particularly AI. The author's blend of personal
+reflection, technical insights, and socio-economic commentary creates a
+compelling narrative. The discussion on the transient nature of AI entities and
+the critique of AI censorship are particularly interesting. The author's
+long-term vision and emphasis on building sustainable skills resonate, and the
+article successfully captures the complexities and opportunities of the rapidly
+evolving tech world.
+
