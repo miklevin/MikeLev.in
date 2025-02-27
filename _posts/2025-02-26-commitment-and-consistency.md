@@ -1289,7 +1289,7 @@ class AdvantageSession:
                     P(f"Value: {current_value}"),
                     Button("Edit", 
                           hx_post=f"/{self.app_name}/revert",
-                          hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
+                          {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
                           hx_target=f"#{step_id}")
                 ),
                 Div(id=next_step, 
