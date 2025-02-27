@@ -1000,7 +1000,7 @@ class AdvantageSession:
             <div class="spinner"></div>
         </div>
         
-        <script>
+        <script>{% raw %}
         // Simulate data fetch
         setTimeout(() => {{
             const fetchData = async () => {{
@@ -1037,7 +1037,7 @@ class AdvantageSession:
             
             fetchData();
         }}, 1000);
-        </script>
+        </script>{% endraw %}
         """
         return HTMLResponse(html)
     
