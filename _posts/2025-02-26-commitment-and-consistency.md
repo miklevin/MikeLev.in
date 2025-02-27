@@ -594,6 +594,223 @@ of that hypothetical $1.60!). Once I’ve got it, we’ll start crafting
 just focused progress to get you prepped for tomorrow’s meetings. Let’s do
 this—what’s the code? Lay it on me!
 
+---
 
+I paste the code base to Grok 3 and get a response. It looks like a good
+starting point. The problem is that the "Copy text" link strips out all the
+markdown, and I need to document the process here as I go. Manually reformatting
+what Grok 3 shows me on the screen into the markdown code here it's supposed to
+be would make the process take 10 to hundreds of times longer than it should. So
+I'm faced with the problem. If I can't document it here, then it's not worth
+doing. I should just go to OpenAI ChatGPT o3 or Google Gemini 2.0 Advanced whose
+Copy button copies all the markdown. Grok 3 appears to be the only one of the
+large frontier LLM models whose copy link is broken (stripping out all
+formatting, making it functionally useless). I'm going to feed Grok 3 this
+paragraph of feedback along with what it I get from the "Copy text" link. I will
+give it a chance to re-send me the response with the entire thing formatted in a
+single markdown box as a temporary solution. On my first go-around testing Grok
+3 for coding, this was incredibly difficult to communicate and/or get the proper
+formatting back. I actually have quite a bit published on this problem that I
+encountered on Thursday, February 20, 2025 and I would have hoped they would
+have fixed it by now.
 
+Anyway, try giving me this response again, but wrapping the entire thing
+beginning to end in a single markdown box. This is because in the Web UI, the
+copy link that's put on individual markdown boxes does preserve the markdown
+within the box. But the "global" Copy text link strips it out like so:
 
+[pastes Grok 3's copied response to prior prompt]
+
+Grok 3 makes an attempt at putting their entire response in a markdown box, but
+it is plagued by the same problem as before. It makes an attempt, but as soon as
+it switches back from Python code to instructions, it terminates the markdown
+box and goes back to a formatted reply on the screen, but the formatting gets
+stripped out making Grok 3 useless for my use case.
+
+**Me**: Hey Grok 3, format a tweet for me to send to the xAI team to explain
+this problem. Be harsh enough so that it gets their attention. Something along
+the lines of Hey @xAI, Grok 3 is useless for my use case because the Copy text
+link strips out markdown, making documentation of my coding process hundreds of
+times more labor intensive than with your competitors.
+
+**Grok 3**: Here's a tweet-sized message (280 characters or less) you can use to send to the xAI team on X, formatted to grab attention while clearly explaining your issue:
+
+"Hey @xAI, Grok 3’s ‘Copy text’ link is a disaster—it strips all markdown, crippling my coding documentation. It’s hundreds of times slower than competitors like Claude or Gemini. Fix this NOW or lose users like me!"
+
+---
+
+And just to give Grok 3 full credit, here is the Python it made for me. I'm not
+formatting all the rest.
+
+```python
+class AdvantageSession:
+    def __init__(self, app, pipulate, app_name="advantage"):
+        self.app = app
+        self.pipulate = pipulate
+        self.app_name = app_name
+        self.STEPS = [
+            Step(id='step_01', done='url', show='Botify Project URL', refill=True),
+            Step(id='step_02', done='logs', show='Log Analysis', refill=False),
+            Step(id='step_03', done='funnel', show='Funnel View', refill=False),
+            Step(id='finalize', done='finalized', show='Finalize', refill=False)
+        ]
+        self.STEP_MESSAGES = self.pipulate.generate_step_messages(self.STEPS)
+        
+        # Register routes
+        self.register_routes()
+
+    def register_routes(self):
+        """Register all necessary routes manually."""
+        routes = [
+            (f"/{self.app_name}", self.landing),
+            (f"/{self.app_name}/init", self.init, ["POST"]),
+            (f"/{self.app_name}/revert", self.handle_revert, ["POST"]),
+            (f"/{self.app_name}/finalize", self.handle_finalize, ["POST"]),
+            (f"/{self.app_name}/unfinalize", self.handle_unfinalize, ["POST"])
+        ]
+        for step in self.STEPS:
+            routes.append((f"/{self.app_name}/{step.id}", self.handle_step))
+            routes.append((f"/{self.app_name}/{step.id}_submit", self.handle_step_submit, ["POST"]))
+        
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    async def landing(self):
+        """Landing page with project ID input."""
+        pipeline.xtra(app_name=self.app_name)
+        existing_ids = [record.url for record in pipeline()]
+        return Container(
+            Card(
+                H2("Advantage Session"),
+                P("Enter a Botify Project URL to begin:"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(type="text", name="pipeline_id", placeholder="e.g., https://botify.com/project123", required=True, autofocus=True),
+                        button_label="Start Session",
+                        button_class="secondary"
+                    ),
+                    hx_post=f"/{self.app_name}/init",
+                    hx_target="#advantage-container"
+                ),
+                Datalist(*[Option(value=pid) for pid in existing_ids], id="pipeline-ids")
+            ),
+            Div(id="advantage-container")
+        )
+
+    async def init(self, request):
+        """Initialize the pipeline with the project URL."""
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+        state, error = self.pipulate.initialize_if_missing(pipeline_id, {"app_name": self.app_name})
+        if error:
+            return error
+        placeholders = [Div(id=step.id, hx_get=f"/{self.app_name}/{step.id}", hx_trigger="load") for step in self.STEPS]
+        return Div(*placeholders, id="advantage-container")
+
+    async def handle_step(self, request):
+        """Handle step rendering."""
+        step_id = request.url.path.split('/')[-1]
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step = next(s for s in self.STEPS if s.id == step_id)
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        value = step_data.get(step.done, "")
+        
+        # Finalize step
+        if step.id == "finalize":
+            state = self.pipulate.read_state(pipeline_id)
+            if "finalize" in state and state["finalize"].get("finalized"):
+                return Card(H3("Session Finalized"), P("All steps locked."), Button("Unfinalize", hx_post=f"/{self.app_name}/unfinalize", hx_target="#advantage-container"))
+            all_complete = all(self.pipulate.get_step_data(pipeline_id, s.id, {}).get(s.done) for s in self.STEPS[:-1])
+            if all_complete:
+                return Card(H3("Ready to Finalize"), Button("Finalize", hx_post=f"/{self.app_name}/finalize", hx_target="#advantage-container"))
+            return Div(P("Complete all steps to finalize."), id="finalize")
+        
+        # Completed step
+        if value:
+            next_step = self.STEPS[self.STEPS.index(step) + 1].id if step != self.STEPS[-1] else None
+            return Div(
+                self.pipulate.revert_control(step_id, self.app_name, self.STEPS, f"{step.show}: {value}"),
+                Div(id=next_step, hx_get=f"/{self.app_name}/{next_step}", hx_trigger="load") if next_step else None
+            )
+        
+        # Input step
+        display_value = value if step.refill else ""
+        await simulated_stream(f"Enter {step.show}")
+        return Div(
+            Card(
+                H3(f"Enter {step.show}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(type="text", name=step.done, value=display_value, placeholder=f"Enter {step.show}", required=True, autofocus=True)
+                    ),
+                    hx_post=f"/{self.app_name}/{step.id}_submit",
+                    hx_target=f"#{step.id}"
+                )
+            ),
+            id=step_id
+        )
+
+    async def handle_step_submit(self, request):
+        """Handle step form submission."""
+        step_id = request.url.path.split('/')[-1].replace('_submit', '')
+        pipeline_id = db.get("pipeline_id", "untitled")
+        step = next(s for s in self.STEPS if s.id == step_id)
+        form = await request.form()
+        value = form.get(step.done, "")
+        
+        if step.id == "finalize":
+            state = self.pipulate.read_state(pipeline_id)
+            state["finalize"] = {"finalized": True}
+            self.pipulate.write_state(pipeline_id, state)
+            await simulated_stream("Session finalized!")
+            return Div(*[Div(id=s.id, hx_get=f"/{self.app_name}/{s.id}", hx_trigger="load") for s in self.STEPS], id="advantage-container")
+        
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+        state = self.pipulate.read_state(pipeline_id)
+        state[step_id] = {step.done: value}
+        self.pipulate.write_state(pipeline_id, state)
+        
+        next_step = self.STEPS[self.STEPS.index(step) + 1].id if step != self.STEPS[-1] else None
+        await simulated_stream(f"{step.show} set to: {value}")
+        return Div(
+            self.pipulate.revert_control(step_id, self.app_name, self.STEPS, f"{step.show}: {value}"),
+            Div(id=next_step, hx_get=f"/{self.app_name}/{next_step}", hx_trigger="load") if next_step else None
+        )
+
+    async def handle_revert(self, request):
+        """Revert to a previous step."""
+        form = await request.form()
+        step_id = form.get("step_id")
+        pipeline_id = db.get("pipeline_id", "untitled")
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+        state = self.pipulate.read_state(pipeline_id)
+        state["_revert_target"] = step_id
+        self.pipulate.write_state(pipeline_id, state)
+        await simulated_stream(f"Reverted to {step_id}")
+        return Div(*[Div(id=s.id, hx_get=f"/{self.app_name}/{s.id}", hx_trigger="load") for s in self.STEPS], id="advantage-container")
+
+    async def handle_finalize(self, request):
+        """Finalize the session."""
+        pipeline_id = db.get("pipeline_id", "untitled")
+        state = self.pipulate.read_state(pipeline_id)
+        state["finalize"] = {"finalized": True}
+        self.pipulate.write_state(pipeline_id, state)
+        await simulated_stream("Session finalized!")
+        return Div(*[Div(id=s.id, hx_get=f"/{self.app_name}/{s.id}", hx_trigger="load") for s in self.STEPS], id="advantage-container")
+
+    async def handle_unfinalize(self, request):
+        """Unfinalize the session."""
+        pipeline_id = db.get("pipeline_id", "untitled")
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state:
+            del state["finalize"]
+        self.pipulate.write_state(pipeline_id, state)
+        await simulated_stream("Session unfinalized!")
+        return Div(*[Div(id=s.id, hx_get=f"/{self.app_name}/{s.id}", hx_trigger="load") for s in self.STEPS], id="advantage-container")
+
+# Instantiate and add to MENU_ITEMS
+advantage_session = AdvantageSession(app, pipulate)
+MENU_ITEMS.append("advantage")
+```
