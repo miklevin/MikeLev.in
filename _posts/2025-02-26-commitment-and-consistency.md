@@ -814,3 +814,16 @@ class AdvantageSession:
 advantage_session = AdvantageSession(app, pipulate)
 MENU_ITEMS.append("advantage")
 ```
+
+Maybe I'll use this as a starting point. But since I need to put Claude 3.7
+through its paces, I'll probably paste this entire discussion thread into a new
+discussion with it, except for the part with Grok 3's solution, so I can compare
+the two separately.
+
+See, any LLM can slam out a new Asteroids game variation (or Snake if you're
+Matt Berman), over-trained on those examples as they are over the years. But it
+takes real smarts to absorb a one-of-a-kind code base that bucks the trends with
+anti-patterns (for good reasons), and step in and be an effective coding
+assistant from there.
+
+Ready Claude Sonnet 3.7?
