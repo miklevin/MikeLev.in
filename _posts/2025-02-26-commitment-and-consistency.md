@@ -1495,7 +1495,7 @@ What's going on here?
 &lt;think&gt;
 I clearly made a serious mistake again. Let me analyze what went wrong:
 
-1. I'm still using curly braces in HTMX handlers (hx_vals=f'{{"step_id": "{step_id}"}}')
+1. I'm still using curly braces in HTMX handlers {% raw %}(hx_vals=f'{{"step_id": "{step_id}"}}'){% endraw %}
 2. This is causing issues with Jekyll publishing
 3. The user has already pointed this out once
 4. I should be looking at the BaseFlow implementation for guidance
