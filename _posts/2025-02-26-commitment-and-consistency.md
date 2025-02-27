@@ -857,7 +857,7 @@ I'm ready to help you create your new `AdvantageSession` pipeline workflow! I un
 
 Let's start by creating a skeletal implementation of the `AdvantageSession` class that we can then flesh out:
 
-```python:experimental/botifython.py
+```python
 class AdvantageSession:
     """
     Custom workflow for client advantage sessions that doesn't inherit from BaseFlow.
