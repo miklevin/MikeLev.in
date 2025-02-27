@@ -1472,3 +1472,16 @@ This implementation is properly aligned with FastHTML principles:
 6. Maintains a step-based workflow with clean state transitions
 
 Thank you for pointing out my mistake. This implementation should be much more aligned with your framework's architecture and philosophy.
+
+---
+
+OMG, do you know how much you're busting my chop with the continued use of the
+double curly brace nunchuk mustaches? Not only do they wreak havoc on the Jekyll
+SGG publishing system I'm using (which I already told you), but look through
+BaseFlow for any examples that have to use them. Stick close to how these things
+are implemented in BaseFlow, even though we're not inheriting from BaseFlow.
+It's almost like you're copy/pasting the examples out of BaseFlow. What's
+happening here? You're not looking at my sample code even though you have full
+access to it and full context for this project, example code from Grok 3, a
+@.cursorrules file. Again, this feels like regression from Claude 3.5 Sonnet.
+What's going on here?
