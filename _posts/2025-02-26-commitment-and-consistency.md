@@ -1311,7 +1311,7 @@ class AdvantageSession:
                           required=True),
                     Button("Continue", type="submit"),
                     hx_post=f"/{self.app_name}/{step_id}_submit",
-                    hx_vals=f'{{"url": "{project_url}"}}',
+                    {% raw %}hx_vals=f'{{"url": "{project_url}"}}',{% endraw %}
                     hx_target=f"#{step_id}"
                 )
             ),
@@ -1350,7 +1350,7 @@ class AdvantageSession:
                     Div(Class="spinner")
                 ),
                 hx_post=f"/{self.app_name}/fetch_data",
-                hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}", "value": "{value}"}}',
+                {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}", "value": "{value}"}}',{% endraw %}
                 hx_trigger="load",
                 hx_target=f"#{step_id}",
                 id=step_id
@@ -1370,7 +1370,7 @@ class AdvantageSession:
                 P(f"Value: {value}"),
                 Button("Edit", 
                       hx_post=f"/{self.app_name}/revert",
-                      hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
+                      {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
                       hx_target=f"#{step_id}")
             ),
             Div(id=next_step, 
@@ -1411,7 +1411,7 @@ class AdvantageSession:
                 P(f"Analysis: {value}"),
                 Button("Edit", 
                       hx_post=f"/{self.app_name}/revert",
-                      hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
+                      {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
                       hx_target=f"#{step_id}")
             ),
             Div(id=next_step, 
@@ -1454,7 +1454,7 @@ class AdvantageSession:
                           required=True),
                     Button("Continue", type="submit"),
                     hx_post=f"/{self.app_name}/{step_id}_submit",
-                    hx_vals=f'{{"url": "{project_url}"}}',
+                    {% raw %}hx_vals=f'{{"url": "{project_url}"}}',{% endraw %}
                     hx_target=f"#{step_id}"
                 )
             ),
