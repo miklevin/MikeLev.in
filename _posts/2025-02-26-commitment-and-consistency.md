@@ -1742,17 +1742,19 @@ Thank you for your patience. This should be much more aligned with your codebase
 
 ---
 
-Alright, so now we have a viable starting point. My concern here is that even
-with you having full access to my code base, a .cursorrules file, an awareness
-that I am using FastHTML, a code sample from Grok 3 that got many things better
-on the first pass, and that you're supposed to be a cutting edge Anthropic
-model, how much I had to get you to look at my codebase and stick to the
-utilized patterns. This bodes very poorly, suggesting that ever new discussion
-you will lose this context and go back to that old behavior, and that this is
-worse than making mistakes, but this is slipping FastAPI patterns and code that
-undermines the project in insidious ways. And I will never be done with that
-fighting and coercing you, and I will always have to be on the alert and
-distrustful of any code you suggest.
+## Expressing My Over-Training Concerns to Claude 3.7 Sonnet Thinking
+
+**Me**: Alright, so now we have a viable starting point. My concern here is that
+even with you having full access to my code base, a .cursorrules file, an
+awareness that I am using FastHTML, a code sample from Grok 3 that got many
+things better on the first pass, and that you're supposed to be a cutting edge
+Anthropic model, how much I had to get you to look at my codebase and stick to
+the utilized patterns. This bodes very poorly, suggesting that ever new
+discussion you will lose this context and go back to that old behavior, and that
+this is worse than making mistakes, but this is slipping FastAPI patterns and
+code that undermines the project in insidious ways. And I will never be done
+with that fighting and coercing you, and I will always have to be on the alert
+and distrustful of any code you suggest.
 
 So, what are your recommendations? Should I stick with Claude 3.7 Sonnet? If I
 do, how can I remedy this situation? Why was the context I gave you starting out
