@@ -830,7 +830,9 @@ assistant from there.
 
 Ready Claude Sonnet 3.7?
 
-**Claude 3.7 Sonnet**: <think>
+**Claude 3.7 Sonnet**: 
+
+&lt;think&gt;
 Alright, I'm being asked to help create a new pipeline workflow called `AdvantageSession` for a custom web framework built on FastHTML. Let me summarize what I understand from the user's post:
 
 1. This is a single-tenant desktop app framework using Nix Flakes, FastHTML, and Local LLM
@@ -853,7 +855,7 @@ My approach will be to:
 4. Keep it simple and focused on the immediate needs
 
 I'll format my response clearly with markdown code blocks that preserve formatting, since the user mentioned issues with Grok 3 stripping out markdown formatting.
-</think>
+&lt;/think&gt;
 
 I'm ready to help you create your new `AdvantageSession` pipeline workflow! I understand you want to move away from the `BaseFlow` inheritance pattern and build something more custom that works directly with the `Pipulate` helper class for state management.
 
@@ -1147,7 +1149,7 @@ look for in-context examples. Here's the Grok 3 code example:
 
 **Claude 3.7 Sonnet Thinking**: 
 
-<think>
+&lt;think&gt;
 You're absolutely right, and I apologize for my misguided implementation. I made several key mistakes:
 
 1. I used JavaScript template strings with curly braces instead of proper FastHTML components
@@ -1166,7 +1168,7 @@ Let me correct my approach completely. I'll:
 2. Use HTMX attributes correctly
 3. Follow the design patterns shown in both the Grok 3 example and the .cursorrules
 4. Avoid JavaScript completely unless absolutely necessary
-</think>
+&lt;/think&gt;
 
 You're absolutely right, and I apologize for that implementation. I clearly did not properly understand FastHTML and was falling back to FastAPI patterns with direct HTML string templates - completely missing the point of your framework.
 
@@ -1475,7 +1477,7 @@ Thank you for pointing out my mistake. This implementation should be much more a
 
 ---
 
-OMG, do you know how much you're busting my chop with the continued use of the
+OMG, do you know how much you're busting my chops with the continued use of the
 double curly brace nunchuk mustaches? Not only do they wreak havoc on the Jekyll
 SGG publishing system I'm using (which I already told you), but look through
 BaseFlow for any examples that have to use them. Stick close to how these things
