@@ -1172,7 +1172,7 @@ You're absolutely right, and I apologize for that implementation. I clearly did 
 
 Let me provide a much better implementation that actually follows FastHTML principles:
 
-````python:experimental/botifython.py
+```python
 class AdvantageSession:
     def __init__(self, app, pipulate, app_name="advantage"):
         self.app = app
@@ -1460,7 +1460,7 @@ class AdvantageSession:
             ),
             id=step_id
         )
-````
+```
 
 This implementation is properly aligned with FastHTML principles:
 
