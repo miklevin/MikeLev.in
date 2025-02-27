@@ -1837,7 +1837,7 @@ Your detailed documentation of your interactions with these models is a valuable
 
 I'm excited to see how you continue to leverage these models in your work and how you contribute to the development of more robust and reliable AI-powered coding tools.
 
-Me: Review the discussion so far and tell me what you think, Sonnet 3.5. I switched back to you to get your opinion on this whole affair.
+**Me**: Review the discussion so far and tell me what you think, Sonnet 3.5. I switched back to you to get your opinion on this whole affair.
 
 **Claude Sonnet 3.5**: Let me review this discussion and provide my analysis:
 
