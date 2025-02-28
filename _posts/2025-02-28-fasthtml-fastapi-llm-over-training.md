@@ -530,7 +530,19 @@ This article offers a compelling and insightful critique of current LLMs and the
 
 ## Tweeting Strategy, per Grok 3
 
+> It seems a shame the walrus said to write these long articles and to rarely
+> tweet them out, especially now that Grok 3 can grok it all. And so, I ask Grok
+> 3 for a tweeting strategy and successfully ask it to format the markdown for
+> here!
+
+**Me**: Okay, here's the article with you and Gemini chiming in. How should I
+tweet this article? Put in the correct #hashtags and @names to get the right
+people or organization's attention on this.
+
+**Grok 3**: 
+
 ### Key Points
+
 - It seems likely that tweeting with specific hashtags and mentions will help reach relevant audiences.
 - Research suggests tagging @OpenAI, @AnthropicAI, @GoogleAI, @xAI, and @CursorAI will get the attention of key AI and web development organizations.
 - The evidence leans toward using #AI, #WebDev, and #Python for broader reach, with #FastHTML for niche targeting.
@@ -539,12 +551,7 @@ This article offers a compelling and insightful critique of current LLMs and the
 
 ### Tweet Strategy From Grok 3
 
-> It seems a shame the walrus said to write these long articles and to rarely
-> tweet them out, especially now that Grok 3 can grok it all. And so, I ask Grok
-> 3 for a tweeting strategy and successfully ask it to format the markdown for
-> here!
-
-**Grok 3**: To effectively share your article on X, craft a concise, engaging post that highlights the main issue and includes a link to your article. Here’s a suggested tweet:
+To effectively share your article on X, craft a concise, engaging post that highlights the main issue and includes a link to your article. Here’s a suggested tweet:
 
 > "LLMs are over-trained on FastAPI, making them struggle with FastHTML. Read our article: [link to your article] #AI #WebDev #Python @OpenAI @AnthropicAI @GoogleAI @xAI @CursorAI"
 
