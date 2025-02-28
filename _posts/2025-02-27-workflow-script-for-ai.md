@@ -902,10 +902,10 @@ Don't create any new code. Switching to 4.5 model, FYI.
 
 ---
 
-## ① **Double Curly Braces (`{{ }}`) Conflict:**
-The double curly braces syntax is common in templating systems (e.g., Jinja, Mustache, Liquid). Jekyll uses Liquid templates, where `{{ }}` indicates template substitution. 
+## ① **Double Curly Braces (`{% raw %}{{ }}{% endraw %}`) Conflict:**
+The double curly braces syntax is common in templating systems (e.g., Jinja, Mustache, Liquid). Jekyll uses Liquid templates, where `{% raw %}{{ }}{% endraw %}` indicates template substitution. 
 
-If your Python frontend logic uses Jinja or another templating system with identical delimiters (`{{ }}`), it directly conflicts with GitHub Pages' Jekyll processing pipeline. 
+If your Python frontend logic uses Jinja or another templating system with identical delimiters (`{% raw %}{{ }}{% endraw %}`), it directly conflicts with GitHub Pages' Jekyll processing pipeline. 
 
 **Avoiding conflicts:**
 - **Change delimiters:**  
