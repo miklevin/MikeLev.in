@@ -105,9 +105,10 @@
             // IMPORTANT: Update the slider's max attribute to match the page width
             slider.max = MAX_WIDTH;
 
-            // Set initial slider value from cookie or default to 850
+            // Set initial slider value from cookie or calculate default middle value
             const savedWidth = getCookie('containerWidth');
-            slider.value = savedWidth ? savedWidth : 850;
+            const defaultWidth = Math.min(1600, Math.floor((850 + MAX_WIDTH) / 2)); // reasonable middle ground
+            slider.value = savedWidth ? savedWidth : defaultWidth;
 
             // Disable slider functionality on mobile
             function isMobile() {
