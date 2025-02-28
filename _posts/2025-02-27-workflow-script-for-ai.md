@@ -17,9 +17,9 @@ I now think that LLM mediocrity over-training can't be overcome, and that code
 assistants are now the final the nail in the coffin of innovation. Over-training
 on conventional and not always the best patterns is ingrained in the frontier
 model LLMs, and nearly impossible to overcome. Any future Mozart Amadeus will
-inevitably have their spirit and creativity squashed by by the irrepressible
-spirit of Antonio Salieri that will systematically wrangle, corral and coerce
-you into mediocrity.
+inevitably have their spirit and creativity squashed by the irrepressible spirit
+of Antonio Salieri that will systematically wrangle, corral and coerce you into
+mediocrity.
 
 > Not to belittle the much maligned Salieri, who was supposed to be very good,
 > but just no Mozart. Doing truly creative work with AI will take as much work
