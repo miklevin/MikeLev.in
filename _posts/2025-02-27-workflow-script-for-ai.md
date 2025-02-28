@@ -810,7 +810,7 @@ class StarterFlowVerbose:
         if user_val:
             return Div(
                 P(f"{step.show}: {user_val}"),
-                Button("Revert", hx_post=f"/{self.app_name}/revert", hx_vals=f'{{"step_id": "{step_id}"}}', hx_target=f"#{self.app_name}-container")
+                {% raw %}Button("Revert", hx_post=f"/{self.app_name}/revert", hx_vals=f'{{"step_id": "{step_id}"}}', hx_target=f"#{self.app_name}-container"){% endraw %}
             )
 
         return Div(
