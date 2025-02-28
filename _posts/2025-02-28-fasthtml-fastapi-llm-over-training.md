@@ -8,6 +8,8 @@ sort_order: 1
 
 ## LLM Over-training on FastAPI
 
+### Are you feeling boxed in by tools that can’t keep up with your vision?
+
 LLMs are over-trained on FastAPI. The ostensibly best coding assistant model out
 there, Claude 3.7 Sonnet, presumably by nature of being the default in the
 Cursor AI text editor for nearly 2 years now, is worse than it's ever been in
