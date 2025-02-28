@@ -6,6 +6,26 @@ layout: post
 sort_order: 1
 ---
 
+Today's article starts out with just tackling the day's work, and dealing with
+yesterday's attempt to steamline things with LLM-assisted workflow miserably
+failing because of shortcoming's in Grok 3 and Claude 3.7 Sonnet, as I tried
+testing the new frontier models. I got my work done, delivered 2 good meetings
+today, and during the course of the day ChatGPT 4.5 came out, so I top off the
+day giving it the same task only to get the same disappointment.
+
+I now think that LLM mediocrity over-training can't be overcome, and that code
+assistants are now the final the nail in the coffin of innovation. Over-training
+on conventional and not always the best patterns is ingrained in the frontier
+model LLMs, and nearly impossible to overcome. Any future Mozart Amadeus will
+inevitably have their spirit and creativity squashed by by the irrepressible
+spirit of Antonio Salieri that will systematically wrangle, corral and coerce
+you into mediocrity.
+
+> Not to belittle the much maligned Salieri, who was supposed to be very good,
+> but just no Mozart. Doing truly creative work with AI will take as much work
+> to overcome their default undermining conventional behavior as it takes to
+> just do the work yourself.
+
 ## Initial Context and Planning
 
 Yesterday was not what I planned at all, but it was part of the chipping away. I
