@@ -15,9 +15,10 @@ there, Claude 3.7 Sonnet, presumably by nature of being the default in the
 Cursor AI text editor for nearly 2 years now, is worse than it's ever been in
 making bad assumptions when you're out on the edge trying to be creative.
 
-> FastHTML is a Python web framework that uses HTMX to minimize JavaScript and CSS, letting servers handle HTML updates for faster, leaner development."
-
 ### Finding the Edge with FastHTML
+
+> FastHTML is a Python web framework that uses HTMX to minimize JavaScript and
+> CSS, letting servers handle HTML updates for faster, leaner development."
 
 Where is the edge, exactly? Well it's FastHTML, an innovative new framework for
 web development that only makes sense, connecting dots that have long been
@@ -147,6 +148,8 @@ answers particular webserver requests), and another piece for templating
 (layering in another language to format Python-to-HTML). 
 
 #### The Rise of FastAPI
+
+> FastAPI is a widely-used Python framework that excels at building APIs with a focus on type safety and performance, representing the conventional approach to web development that LLMs are heavily trained on.
 
 Once Python formally supported concurrency with the async/await keyword circa
 2015 more or less copying JavaScript, Python was able to make its first big step
