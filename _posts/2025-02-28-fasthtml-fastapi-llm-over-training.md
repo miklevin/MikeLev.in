@@ -147,6 +147,13 @@ together one piece for "routing" (turning Python functions into the thing that
 answers particular webserver requests), and another piece for templating
 (layering in another language to format Python-to-HTML). 
 
+Everything else more or less copied Flask after that. They added this and that,
+like the way Pylons could generate scaffolding code for you, the way Ruby on
+Rails does with its concept of a code generator. But more or less, everything
+was copying Flask which copied PHP, which means a secondary templating language
+like jinja2 is layered on. And it was no different when JavaScript-like
+concurrency finally came to Python's standard library.
+
 #### The Rise of FastAPI
 
 > FastAPI is a widely-used Python framework that excels at building APIs with a focus on type safety and performance, representing the conventional approach to web development that LLMs are heavily trained on.
@@ -157,12 +164,13 @@ forward since Flask... but still basically Flask, only now with concurrency. But
 not Flask itself, which took way too long to make the move to concurrency.
 Instead, something called FastAPI stepped into the void left by a
 slow-to-respond Flask, scratching that concurrent webserver itch and a few
-others having to do with performance (Typescript-envy) at the same time. FastAPI
-is basically a concurrent version of Flask that still template systems and is
-pedantic about its datatypes in a very un-Pythonic way. So FastAPI scratched the
-itches of all the JavaScipt-envying, Typescript-envying, WebAssembly-envying
-Python enterprise people doing enterprise things with Python. Those are very
-much not my itches.
+others having to do with performance (Typescript-envy) at the same time. 
+
+FastAPI is basically a concurrent version of Flask that still template systems
+and is pedantic about its datatypes in a very un-Pythonic way. So FastAPI
+scratched the itches of all the JavaScipt-envying, Typescript-envying,
+WebAssembly-envying Python enterprise people doing enterprise things with
+Python. Those are very much not my itches. 
 
 ### The FastHTML Approach
 
@@ -210,6 +218,43 @@ Nix flakes accomplishes this. Work in a folder. Make that folder a git repo.
 Make that git repo a nix flake. Do webdev as you normally would on Linux (very
 mainstream), and then whatever you write can just travel and run on any Mac,
 Windows or Linux machine as any git repo can.
+
+#### HTMX Reduces Cognitive Overhead
+
+So how do these over-the-wire HTML fragments work? How do they update the DOM
+like magic bullets without a page-reload? It's called HTMX, and it's a real game
+changer, to the extent that it could make ReactJS and everything like it
+obsolete for everything but edge cases. For most web development most of the
+time, you can make your code more performant and future-proofed by ditching
+client-side JS like React/Vue and just use the original HTML specification but a
+few more commands layered in by HTML that makes any element able to be updated
+without page-reloads. That reduces the need for JavaScript overall, because
+these updates even though they're quietly using JS in the background are
+completely interacted with through attributes, like the `href` of an `a` tag.
+There's no additional programming "surface area", thus lower cognitive overhead.
+
+#### Template Language Simplification
+
+Okay, so you get that the removal of those double curly bracket template
+language like jinja2 (aka nunchuks, mustache, liquid templates, yadda yadda)
+reduces cognitive overhead? It's one less language to deal with, and an embedded
+one with all these strange neutralization rules because mixing-languages, right?
+Mix one language with another and what's a syntax highlighter to do? It's one of
+the unspoken banes of Python web existence. It's not such a problem in PHP
+because the language was designed that way. But FastHTML eliminates the
+templating language in the same genius stroke that it layers-in HTMX API-calls
+at the Python parameter level. HTML elements become Python functions that have
+HTMX calls on the parameters.
+
+#### A New Era for Python Web Development
+
+It's all a bit heady, but that's because it's a sea change in Python web
+development. It's something new that elevates Python on the webdev landscape to
+something... well, having good enough reasons on its own to choose it for webdev
+aside from just loving Python. It makes it a legitimately cool platform for
+webdev, meritorious as a first-choice in its own right. You get to take up a
+much more love-worthy language than JavaScript and do web development in a way
+that won't give you JavaScript envy -- at least for my use cases.
 
 ### The LLM Knowledge Gap
 
