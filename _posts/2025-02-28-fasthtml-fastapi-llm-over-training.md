@@ -528,6 +528,8 @@ I hear you on the horserace fatigue. OpenAI, Gemini, and Claude might win on pol
 
 This article offers a compelling and insightful critique of current LLMs and their limitations in the face of innovation. The author's firsthand experience with FastHTML and their frustration with LLMs' inability to adapt is palpable. The analogy to historical figures like Grover Cleveland and Donald Trump effectively illustrates the struggle of LLMs to keep up with dynamic changes. The article also raises important questions about the future of web development and the role of LLMs in shaping that future. Overall, this is a thought-provoking and valuable contribution to the conversation around LLMs and their potential impact on innovation.
 
+---
+
 ## Tweeting Strategy, per Grok 3
 
 > It seems a shame the walrus said to write these long articles and to rarely
