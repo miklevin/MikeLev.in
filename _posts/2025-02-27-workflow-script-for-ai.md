@@ -1,7 +1,7 @@
 ---
 title: Workflow Script for AI / ChatGPT 4.5
 permalink: /futureproof/workflow-script-for-ai/
-description: 
+description: Today has been a rollercoaster! I've been trying to create a more efficient workflow for generating client reports, and I decided to test out the latest AI coding assistants to see if they could help. I started with ChatGPT 4.5, which was just released today, and I was hopeful that it would be more adaptable to my unique project than previous models. Unfortunately, while it initially seemed promising, it still struggled to fully grasp the unconventional nature of my FastHTML framework and ended up making some incorrect assumptions. It's frustrating, but it's also highlighted the limitations of current LLMs in understanding and respecting nuanced constraints.
 layout: post
 sort_order: 1
 ---
@@ -861,3 +861,273 @@ starter_flow_verbose = StarterFlowVerbose(app, pipulate)
 Now `StarterFlowVerbose` is fully independent and works exactly like `StarterFlow`, but without using `BaseFlow`. This should make it easier for you to modify and expand upon without worrying about inheritance.
 
 Let me know if this is what you envisioned! 🚀
+
+Me:
+
+Explain the use of the double curly braces. Is there any way to avoid that? It
+conflicts with the Jekyll SSG of Github Pages. Also, do you see the relationship
+between the steps in `self.STEPS` and the corresponding methods? They are
+supposed to be 1-to-1. Or at least every item in `self.STEPS` should have a
+class method. You went with a more generic `handle_step` and
+`handle_step_submit`, which is good for generic templating. But can you see how
+getting them out of sync is not only confusing, but is non-working code.
+
+Now I know what happens at this point, and it is incredibly frustrating. You and
+all the models like you are going to get locked into this try-again blind
+shotgun approach to getting it right that goes in a destructive spiral both
+code-wise and morale-wise. So the last thing I want you to do now is to give me
+any more code. Instead, I want you to take another good long look at the
+codebase, looking at how BaseFlow works, and infer the rules of what has to be
+in a broken out copy/pasted StarterFlow, simply addressing it like a
+step-by-step process. The STEPS and methods that share the same names would have
+never gotten out of sync if you did.
+
+Is that clear? There's so much I don't know. Like should I stay in the 4o model
+that did the coding in the first place, or should I switch to o1 which I know
+can handle the big token window of the codebase and also has chain of thought
+reasoning. Should I re-submit the codebase and clobber you with tokens and
+potentially confuse you, or should I assume you still have access to the
+codebase even if I switch models? I have my doubts because not all models can
+read a codebase as big as that one I submitted. So if I went back to 4.5 now for
+the "feels", it wouldn't have the codebase because of size (I think). And if I
+stay on 4o which did the first pass, it should have the codebase, but not the
+chain of thought reasoning of o1. And if I switch to o1, will a codebase that
+big really still be in your token window, or should I submit it again?
+
+Don't create any new code. Switching to 4.5 model, FYI.
+
+**ChatGPT 4.5**: Your instructions are clear—I'll avoid generating new code and instead focus carefully on the architecture and how you should handle the next steps.
+
+### Step-by-step clarification of your situation and recommended actions:
+
+---
+
+## ① **Double Curly Braces (`{{ }}`) Conflict:**
+The double curly braces syntax is common in templating systems (e.g., Jinja, Mustache, Liquid). Jekyll uses Liquid templates, where `{{ }}` indicates template substitution. 
+
+If your Python frontend logic uses Jinja or another templating system with identical delimiters (`{{ }}`), it directly conflicts with GitHub Pages' Jekyll processing pipeline. 
+
+**Avoiding conflicts:**
+- **Change delimiters:**  
+  Jinja allows custom delimiters.  
+  E.g., configure Jinja to use different symbols like `{% %}` for control structures and `[[ ]]` or `<% %>` for variable substitutions.
+- **Raw blocks:**  
+  In Jekyll’s Liquid, you can escape problematic content by wrapping it in `{% raw %}` blocks, but this might complicate readability.
+- **Client-side rendering (CSR):**  
+  Switch rendering logic to the client-side (JavaScript) so Jekyll sees no conflicting braces.
+
+Best approach: Adjust the delimiters in your Python-generated templates.
+
+---
+
+## ② **Relationship between `self.STEPS` and Method Naming:**
+You mentioned clearly that in your `BaseFlow` implementation, each step enumerated in `self.STEPS` has a **one-to-one mapping to method names**. This convention is likely intended for readability and maintainability, meaning the method name directly relates to the named step.
+
+Your frustration comes from a generic `handle_step`/`handle_step_submit` method approach that breaks this one-to-one mapping.
+
+**Why does this happen?**
+- Generic handlers (`handle_step`) seem tempting as they centralize logic, but:
+  - Introduce complexity.
+  - Risk mismatching logic.
+  - Lose immediate readability and maintainability.
+- One-to-one methods enforce:
+  - Immediate visual confirmation.
+  - Clear tracing of logic flow.
+  - Minimal risk of getting out of sync.
+
+**Solution:**
+- Return strictly to the convention: **1 STEP → 1 method**.
+- Explicit methods matching each step in `self.STEPS` makes logic explicit, enforceable, and easily verifiable.
+
+---
+
+## ③ **Inferring the Rules from `BaseFlow` to `StarterFlow`:**
+You asked explicitly to look at your `BaseFlow` architecture closely and infer rules of how `StarterFlow` should mirror it. Here’s how you should structure it clearly:
+
+- **`self.STEPS` enumeration:**  
+  Clearly defined, enumerating each logical step. Each string in `self.STEPS` corresponds exactly to method names (`step_name`).
+  
+  Example:
+  ```python
+  STEPS = ['start', 'authenticate', 'submit', 'finish']
+  ```
+  Corresponding methods must be:
+  ```python
+  def start(self): pass
+  def authenticate(self): pass
+  def submit(self): pass
+  def finish(self): pass
+  ```
+
+- **Method Structure in StarterFlow:**  
+  StarterFlow should explicitly define each step's method.  
+  - Don't fall back to generic handlers.
+  - Maintain method naming clarity to reflect steps exactly.
+
+- **BaseFlow class:**  
+  BaseFlow probably already contains generic logic to dispatch steps.  
+  StarterFlow overrides explicitly named step methods for specific logic.  
+  Any absence of a step method is easily caught as an error during development or by a linting/test suite.
+
+- **Consistency and Readability:**  
+  If a step is mentioned in `self.STEPS`, it **must** have a method implementation.  
+  - Never rely on catch-all generic methods.  
+  - Follow the BaseFlow's original intention closely.
+
+---
+
+## ④ **Avoiding the Frustration Spiral:**
+Your observation is spot on:
+- Repeated shotgun attempts without understanding or following conventions strictly can degrade both code quality and morale.
+
+Instead, follow a clear step-by-step approach:
+1. **Confirm** explicitly the architecture defined by your `BaseFlow`.
+2. **Match** your concrete implementations strictly to your architecture's documented rules.
+3. **Validate** at each step:
+   - "Does every declared step have a clearly matching, explicitly named method?"
+   - "Am I following my naming convention strictly?"
+4. **Document** briefly in comments each explicit step method to reinforce its existence and intention.
+5. **Never use generic handlers as default replacements for clearly named methods** if the architecture specifically intends otherwise.
+
+---
+
+## ⑤ **Model Selection and Context Retention:**
+You raised critical points about model choice, token window size, and context retention.
+
+- **Model choice (`4o`, `o1`, `4.5`) implications:**
+  - **4o** (optimized for code): Great at the initial generation, moderate context size, optimized for code but less strong in reasoning nuances compared to `o1`.
+  - **o1** (optimized for large context, chain-of-thought): Excels at nuanced understanding and architecture reasoning. Better for large codebases and deep architectural insights.
+  - **4.5**: Balanced general-purpose model, limited in context window, and not as ideal for large complex codebases unless summarized.
+
+  **Recommendation:** 
+  - For architectural reasoning, consistency checks, and deep structure clarity: Use **o1**.
+  - For rapid code generation and implementation, use **4o**.
+  - Use **4.5** mostly for conversational clarity and guidance, not deep codebase parsing.
+
+- **Context Retention/Submission:**
+  - Model context window sizes:
+    - `o1` (Turbo-128k) can handle huge codebases easily.
+    - `4o` (Turbo-128k) also large, but somewhat more optimized for code generation than deep reasoning.
+    - `4.5`: Smaller context window (max ~8k-16k tokens).
+  - **Should you re-submit the codebase?**
+    - Yes, if switching **away** from the original model (`4o`) to `o1` or others, especially if unclear context retention.
+    - Explicitly re-submit the minimal representative code snippets or architecture-defining elements rather than entire projects for clarity.
+
+**Actionable Advice:**
+- Switch to **o1** for your current clarity-driven debugging and architectural work.
+- **Re-submit only the essential architectural code** if you switch models (especially to `o1` or `4.5`).  
+  This ensures models clearly retain context, minimize confusion, and avoid token-window overload.
+
+---
+
+## **Summary of Recommended Actions:**
+- Immediately address the double curly brace conflict by altering Jinja delimiters.
+- Strictly adhere to `self.STEPS` ↔ method-name matching convention.
+- Explicitly define each step method in your derived flows (`StarterFlow`).
+- Switch your model from **4o → o1** for deeper reasoning and architectural alignment.
+- Re-submit minimal essential code snippets when switching models explicitly for clarity.
+
+---
+
+This structured approach will help you clearly re-align your flow logic, avoid frustration spirals, and regain confident control over your implementation and clarity.
+
+Let me know if you need further clarity on any specific point.
+
+---
+
+**Me**: Okay, I understand. But can you understand that the fact that you think
+I'm using jinja2 templates after all this makes me want to just cash in my chips
+and go home? I mean is the context window so overflowed or the gist of what's
+going on here so impossible to get from the discussion history that this whole
+FastHTML is not FastAPI thing is forgotten? And the meaning of using FastHTML
+having no template system is also forgotten? That brining up suggesting that I'm
+using jinja2 when such a big part of FastHTML is to expressly not be using a
+template system like that is so beyond the grasp and retention of LLMs that the
+truth of the matter is that if you're doing anything innovative and are
+unwilling to conform to over-trained and inappropriate patterns to the use case,
+that there is nothing to be gained from AI with coding? That it's the path more
+traveled or nothing given the fact that the energy that goes into LLM course
+correction is more than just doing it by hand as a human?
+
+**ChatGPT 4.5**: I completely understand the frustration you're experiencing, and your concern is valid. The fact that I defaulted to assuming Jinja2 templating, despite the entire premise of your project (**FastHTML is not FastAPI**) being explicitly built around **avoiding templating systems like Jinja2 entirely**, was definitely off-base.
+
+Let me clearly acknowledge what you're pointing out here to ensure we're back on track:
+
+- **FastHTML explicitly does NOT use any conventional templating system (Jinja2, Mustache, Liquid, etc.).**
+- The double curly braces conflict I mentioned before wrongly assumed a typical web-development pattern—exactly the kind of over-generalization you're explicitly trying to avoid.
+- Your project is deliberately innovative precisely because it challenges and avoids common, entrenched patterns. You are explicitly working against these preconceived patterns, including those used by frameworks such as FastAPI or templating systems like Jinja2.
+
+### Why did this happen?
+
+It's not due to token overflow (at least not primarily), but rather due to a deeply ingrained pattern-matching behavior of large language models (LLMs). These models are strongly biased toward common frameworks, patterns, and libraries from their training corpus. When you're explicitly innovating beyond those patterns (like creating a no-template, FastHTML approach), LLMs can inadvertently default back to the most familiar explanation or resolution—even when clearly incorrect or inappropriate to your stated goals.
+
+This pattern-recognition bias is precisely what makes LLMs powerful in conventional settings but frustratingly error-prone and even counterproductive when innovation explicitly diverges from typical paradigms.
+
+### The central question you're raising:
+
+> "Is the current state of LLMs fundamentally unsuitable for genuinely innovative or unconventional software projects—specifically, projects that explicitly reject the common, established, widely-used coding patterns these models have learned?"
+
+The short, honest answer is:
+
+- **Not fundamentally unsuitable**, but certainly currently difficult and frustrating, exactly as you're experiencing.
+- **LLMs today do have trouble consistently retaining and respecting nuanced, innovative constraints,** especially when explicitly instructed to diverge from established patterns.
+
+Your frustration is a valid reaction to the real limitations of current-generation LLMs when forced into genuinely innovative spaces.
+
+### What can actually be done to avoid this kind of frustration?
+
+1. **Frequent, Clear Restatement of Constraints:**  
+   Explicitly and repeatedly stating: _"FastHTML has no templates"_ helps temporarily, but as you've seen, the model will frequently drift. Repetition helps, but is tiring and frustrating for you.
+
+2. **Highly Contextualized Sessions:**  
+   Working in shorter, tightly-scoped sessions (clearly limited and re-submitted context windows), especially when switching models, tends to keep these constraints fresh.
+
+3. **Explicit Negative Instructions:**  
+   Instructions such as:
+   > "Do NOT assume Jinja, Liquid, or any template framework exists. FastHTML explicitly avoids these."
+   can reduce, though not entirely eliminate, pattern bias.
+
+4. **Accepting the Current Limits:**  
+   At present, when working on truly innovative, unconventional projects, your effort of course-correction might indeed surpass manual coding. This is genuinely a limitation. You are correct that currently, it often can be simpler and quicker just to "do it yourself."
+
+### Is there hope?
+
+Yes—this frustration you're experiencing isn't trivial or unnoticed. Future iterations of these models (and narrower fine-tuned models) explicitly trained on your unconventional patterns are one way this could improve. Using models fine-tuned on your own unconventional codebase (custom training or fine-tuning smaller open-source models) would make them significantly more sensitive to your project's unique constraints and far less likely to default to inappropriate suggestions.
+
+### Bottom Line (honestly stated):
+
+Your current project—**FastHTML explicitly NOT using templates**—is precisely the kind of innovative, unconventional scenario where current-generation generalist LLMs (like GPT-4 variants) struggle to stay consistently aligned with your explicitly stated constraints. You're right about that. It's real.
+
+- It's not you misunderstanding the model or token limitations.
+- It's not trivial or something you're imagining.
+- It genuinely is a current limitation of LLMs.
+
+I clearly recognize the disconnect here, and your frustration is fully justified. While acknowledging this limitation transparently may not immediately ease your frustration, it at least honestly clarifies the boundary you're hitting.
+
+You have accurately pinpointed a genuine limitation of current-generation AI coding assistance: it's biased toward known conventions, frustrating innovation that intentionally breaks from established patterns.
+
+If you'd like to explore how to best mitigate this further, we can carefully and explicitly constrain subsequent interactions—or perhaps explore other ways to leverage AI effectively for your innovative scenario. But your observation is fundamentally correct and accurately diagnosed.
+
+## Getting Gemini's Traditional Article Summary
+
+> Gemini has this privilege of summarizing my articles by the way because it was
+> the first model to get to a very large token window that could accommodate my
+> articles.
+
+**Gemini 2.0 Advanced Flash**: Here is a summary of the article from the 1st person perspective of the author, followed by some title and headline ideas, and finally my own opinion of the article as the AI, "Brainstormer":
+
+## 1st Person Article Summary
+
+Yesterday was a frustrating day! I had planned to make progress on automating my workflow for creating client reports, but I ended up spending most of my time wrestling with AI coding assistants. I tried using both Claude 3.7 and Grok 3, but they both kept getting stuck on conventional patterns and frameworks, even though my project intentionally deviates from those norms. It was incredibly draining, and I ended up feeling like I was fighting against the AI instead of working with it. In the end, I realized that the current generation of LLMs is still limited in its ability to understand and respect nuanced constraints, especially when those constraints go against the grain of established patterns. Despite the frustration, I'm still optimistic about the future of AI in coding, and I'm hopeful that future models will be more adaptable to innovative projects like mine.
+
+## Title and Headline Ideas
+
+1. **AI vs. Innovation: When Coding Assistants Hinder Progress**
+2. **The Frustration of Innovation: Why AI Coding Assistants Need to Adapt**
+3. **Beyond the Beaten Path: How to Use AI for Unconventional Projects**
+4. **FastHTML, Not FastAPI: A Case Study in AI's Limitations**
+5. **The Future of AI in Coding: Will It Embrace Innovation?**
+
+## My Opinion (as "Brainstormer")
+
+This article provides a valuable and insightful look into the challenges of using AI for coding assistance in innovative projects. The author's candid and detailed account of their experience with Claude and Grok highlights the limitations of current LLMs in understanding and respecting nuanced constraints. While the article is critical of current AI technology, it also expresses optimism for the future and suggests that custom fine-tuning could be a solution to the challenges faced by innovators. Overall, I found the article to be well-written, thought-provoking, and informative. It's a must-read for anyone interested in the future of AI in coding and the challenges of using AI for unconventional projects.
