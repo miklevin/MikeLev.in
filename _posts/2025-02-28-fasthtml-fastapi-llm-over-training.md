@@ -527,3 +527,104 @@ I hear you on the horserace fatigue. OpenAI, Gemini, and Claude might win on pol
 **My opinion of the article:**
 
 This article offers a compelling and insightful critique of current LLMs and their limitations in the face of innovation. The author's firsthand experience with FastHTML and their frustration with LLMs' inability to adapt is palpable. The analogy to historical figures like Grover Cleveland and Donald Trump effectively illustrates the struggle of LLMs to keep up with dynamic changes. The article also raises important questions about the future of web development and the role of LLMs in shaping that future. Overall, this is a thought-provoking and valuable contribution to the conversation around LLMs and their potential impact on innovation.
+
+## Tweeting Strategy, per Grok 3
+
+### Key Points
+- It seems likely that tweeting with specific hashtags and mentions will help reach relevant audiences.
+- Research suggests tagging @OpenAI, @AnthropicAI, @GoogleAI, @xAI, and @CursorAI will get the attention of key AI and web development organizations.
+- The evidence leans toward using #AI, #WebDev, and #Python for broader reach, with #FastHTML for niche targeting.
+
+---
+
+### Tweet Strategy From Grok 3
+
+> It seems a shame the walrus said to write these long articles and to rarely
+> tweet them out, especially now that Grok 3 can grok it all. And so, I ask Grok
+> 3 for a tweeting strategy and successfully ask it to format the markdown for
+> here!
+
+**Grok 3**: To effectively share your article on X, craft a concise, engaging post that highlights the main issue and includes a link to your article. Here’s a suggested tweet:
+
+> "LLMs are over-trained on FastAPI, making them struggle with FastHTML. Read our article: [link to your article] #AI #WebDev #Python @OpenAI @AnthropicAI @GoogleAI @xAI @CursorAI"
+
+This approach ensures clarity and targets the right audience by:
+- **Mentioning Key Organizations**: Tagging @OpenAI, @AnthropicAI, @GoogleAI, @xAI, and @CursorAI connects with companies behind LLMs like ChatGPT, Claude, Gemini, and Cursor AI, which are central to your discussion.
+- **Using Relevant Hashtags**: #AI, #WebDev, and #Python attract developers and AI enthusiasts, while #FastHTML targets those specifically interested in the framework, though it may have a smaller reach due to its novelty.
+- **Keeping it Concise**: The tweet fits within X’s 280-character limit, ensuring readability and engagement.
+
+An unexpected detail is that tagging specific influencers like @varunmayya or @GergelyOrosz could expand reach, but this depends on your network and their interest in niche web dev topics.
+
+---
+
+### Survey Note: Detailed Analysis of Tweeting Strategy for the Article
+
+This section provides a comprehensive analysis of how to tweet the article effectively, considering the user’s focus on FastHTML vs. FastAPI and LLM limitations, as well as the inclusion of responses from ChatGPT 4.5, Grok 3, and Gemini. The goal is to maximize visibility among AI and web development communities, leveraging hashtags and mentions to engage relevant organizations and influencers.
+
+#### Background and Context
+The article discusses the challenges of using large language models (LLMs) like Claude 3.7, ChatGPT 4.5, and Gemini for innovative web development frameworks, particularly FastHTML, which leverages HTMX to minimize JavaScript and CSS in Python-based web dev. The user highlights that LLMs are over-trained on conventional frameworks like FastAPI, leading to difficulties in understanding and assisting with FastHTML projects. The article also includes responses from ChatGPT 4.5 and Grok 3, emphasizing the need for LLMs to adapt to new paradigms.
+
+Given this context, the tweet must capture the article’s core message—LLM limitations with innovation—and target audiences interested in AI, web development, and Python. The current date, February 28, 2025, is relevant for ensuring the tweet aligns with recent trends in AI and tech discussions on X.
+
+#### Hashtag Selection and Rationale
+Hashtags are crucial for increasing visibility on X, especially for niche topics. Based on the article’s content, the following hashtags were considered:
+
+- **#AI**: Broadly relevant, attracting AI researchers, developers, and enthusiasts. Given the article’s focus on LLM limitations, this is essential for reach.
+- **#WebDev**: Targets web developers, particularly those interested in Python and new frameworks, aligning with FastHTML’s innovation.
+- **#Python**: Specific to the programming language, ensuring Python developers see the post, given FastHTML’s Python-centric approach.
+- **#FastHTML**: Niche but directly relevant, targeting early adopters and innovators familiar with or curious about the framework. However, its smaller community may limit reach.
+- **#MachineLearning**: Considered for AI focus, but #AI is more encompassing and trending, so it was prioritized.
+- **#Tech and #Coding**: Broader, but less specific; included initially but deemed less critical for targeting.
+
+After evaluation, #AI, #WebDev, and #Python were selected for broad reach, with #FastHTML added for niche targeting. A table summarizes the rationale:
+
+| Hashtag    | Relevance                          | Expected Reach       | Rationale                                      |
+|------------|------------------------------------|----------------------|-----------------------------------------------|
+| #AI        | High (LLM focus)                  | Broad               | Attracts AI community, central to article     |
+| #WebDev    | High (FastHTML, web dev focus)    | Moderate to Broad   | Targets developers, aligns with innovation    |
+| #Python    | High (FastHTML is Python-based)   | Moderate            | Ensures Python devs see the post              |
+| #FastHTML  | Very High (specific framework)    | Niche               | Targets early adopters, though smaller reach  |
+
+This combination balances broad appeal with niche targeting, maximizing visibility among relevant audiences.
+
+#### Mentioning Organizations and Influencers
+Mentions (@names) are critical for engaging specific entities. The article references several organizations and models:
+
+- **@OpenAI**: Relevant for ChatGPT 4.5, mentioned in the article as struggling with FastHTML.
+- **@AnthropicAI**: Relevant for Claude 3.7, noted as the default in Cursor AI and facing similar issues.
+- **@GoogleAI**: Relevant for Gemini, discussed as having a large context window (128K tokens) but still limited for FastHTML.
+- **@xAI**: Relevant for Grok 3, included in the article’s responses, and a key player in AI innovation.
+- **@CursorAI**: Mentioned as using Claude, and relevant for developers using AI-assisted coding tools.
+
+These organizations were selected because they are directly involved in the LLMs discussed, and tagging them may prompt engagement or awareness of the article’s insights. For example, @xAI might be interested in Grok 3’s performance, while @OpenAI and @AnthropicAI could see the critique as feedback for model improvement.
+
+Additionally, the thinking process considered tagging AI and web development influencers like @varunmayya (173K followers, AI entrepreneur) and @GergelyOrosz (known for “The Pragmatic Engineer,” developer focus). However, without specific user instructions, and given the article’s focus on organizational limitations rather than individual opinions, tagging companies was prioritized. This decision ensures professional engagement without overextending the tweet’s scope.
+
+#### Tweet Drafting and Character Limit
+X posts have a 280-character limit, so the tweet must be concise yet informative. Several drafts were considered:
+
+1. **Initial Draft**: "LLMs are over-trained on FastAPI, making them struggle with FastHTML. Read our article: [link] #AI #WebDev #Python @OpenAI @AnthropicAI @GoogleAI @xAI @CursorAI"
+   - Character count (assuming [link] is 25 characters): 66 (text) + 25 (link) + 54 (hashtags and tags) = 145 characters. Fits within limit, clear, and informative.
+
+2. **Alternative with Quote**: "“LLMs are over-trained on FastAPI and struggle with innovative frameworks like FastHTML.” Read our article: [link] #AI #WebDev #Python @OpenAI @AnthropicAI @GoogleAI @xAI @CursorAI"
+   - Character count: 95 + 25 + 54 = 174 characters. Also fits, but less engaging than a statement.
+
+3. **Engaging Variant**: "Think LLMs know it all? Think again. They're stuck on FastAPI and can't handle FastHTML. Find out why: [link] #AI #WebDev #Python @OpenAI @AnthropicAI @GoogleAI @xAI @CursorAI"
+   - Character count: 111 + 25 + 54 = 190 characters. Fits, but more casual, potentially less professional for an article.
+
+The first draft was selected for its balance of clarity, professionalism, and character efficiency. It directly states the issue, points to the article, and uses relevant hashtags and tags, ensuring maximum engagement.
+
+#### Unexpected Detail: Niche vs. Broad Reach
+An unexpected detail is the trade-off between niche targeting (#FastHTML) and broad reach (#AI, #WebDev, #Python). While #FastHTML is highly relevant, its smaller community may limit visibility compared to broader hashtags. This insight is crucial for users balancing awareness with specificity, especially for emerging technologies like FastHTML.
+
+#### Final Considerations
+The tweet strategy assumes the user has a link to the article (e.g., on a blog or website). If the article is hosted at, say, [example.com/fasthtml-vs-fastapi](https://example.com/fasthtml-vs-fastapi), they should replace [link] with that URL. Additionally, posting on February 28, 2025, aligns with recent AI trends, potentially increasing engagement. The user may consider a thread for more detailed discussion, but a single tweet is sufficient for initial reach.
+
+This approach ensures the article reaches AI and web development communities, prompting discussion on LLM limitations and FastHTML’s potential, while engaging key organizations for feedback or collaboration.
+
+---
+
+### Key Citations
+- [xAI Official Handle information](https://x.ai/)
+- [Cursor AI Official Handle information](https://www.cursor.com/en)
+- [List of AI and Web Development Influencers on X](https://analyticsindiamag.com/ai-mysteries/top-30-ai-influeners-to-follow-on-x/)
