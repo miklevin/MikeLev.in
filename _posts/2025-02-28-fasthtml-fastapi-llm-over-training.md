@@ -6,10 +6,14 @@ layout: post
 sort_order: 1
 ---
 
+## LLM Over-training on FastAPI
+
 LLMs are over-trained on FastAPI. The ostensibly best coding assistant model out
 there, Claude 3.7 Sonnet, presumably by nature of being the default in the
 Cursor AI text editor for nearly 2 years now, is worse than it's ever been in
 making bad assumptions when you're out on the edge trying to be creative.
+
+### Finding the Edge with FastHTML
 
 Where is the edge, exactly? Well it's FastHTML, an innovative new framework for
 web development that only makes sense, connecting dots that have long been
@@ -22,6 +26,8 @@ critical ah-ha moment that makes them helpful... momentarily. Them ***groking***
 FastHTML will last for the next few prompts, then get wiped out of the rolling
 context-window goes by, them reverting to their over-trained on FastAPI
 (something very different) selves.
+
+### Testing the Frontier Models
 
 I regularly use all the cutting edge frontier models, right down to the ones
 only available with the $200/mo OpenAI ChatGPT Premium such as ChatGPT 4.5 which
@@ -38,6 +44,8 @@ From the moment Gemini 1.5 Pro got that enormous 128,000 token window, I was
 onboard because it was the only one that could absorb my entire (not very large)
 project codebase and summarize articles (like this) in one pass without
 chunking.
+
+### Working with Context Windows
 
 My use case is both interacting with the models with "super-prompts" like these
 entire articles, and interacting with them for Python coding. I very
@@ -60,6 +68,8 @@ well under the 128K window established by Gemini. See? I use half the context
 window in codebase (when I feed the whole thing), and half in the rest of the
 discussion context!
 
+### The Innovation of FastHTML
+
 FastHTML is uniquely suited for this kind of work, because the innovation that
 it brings to Python web development is the elimination of the need for extra
 external files, particularly for JavaScript, CSS and templates. FastHTML heavily
@@ -70,6 +80,8 @@ but most of the things we use JavaScript for today is unnecessary if you just
 expand the browser capability a little bit -- with JavaScript -- and shift a bit
 of the processing burden back onto the server.
 
+### Challenging Traditional Web Development Paradigms
+
 Shifting more processing burden back on the server?!?! That sounds like
 sacrilege. Years and careers have been spent on JavaScript-based distributed
 computing, offloading session tracking and all that mess onto the browser so
@@ -78,6 +90,8 @@ We've had nearly a 15-year run of that, ever since Google's AngularJS library.
 In that 15-year window, all the content on the Web has shifted to this
 overweight, fragile and perishable client-side JavaScript framework approach.
 And all the LLMs are seemingly irrevocably trained on that perishable state.
+
+### The Static Nature of LLMs
 
 So you see, LLMs assume a sort of static core state. That's because they're
 processed in a batched-up way. Big crawls are done of the free and open public
@@ -89,6 +103,8 @@ also notoriously expensive, and the result is a snapshot image. See? LLMs are
 snapshot images. They're not these dynamic forever-learning things. In fact,
 they un-learn more than they learn because with every new discussion, they're
 re-created as a cookie cutter templated instance of that old stale core model.
+
+## The Challenge of Changing Facts
 
 But the world undergoes these big technological shifts. I mean they're really
 akin to the big shifts in the actual world. Core, foundational, assumed
@@ -102,6 +118,8 @@ way to the latest 2.0 Experimental's. And no matter what your politics are,
 cutting edge frontier model AIs, especially the ones that you pay for, should be
 able to tell you who the current US President is.
 
+### The Evolution of Python Web Development
+
 And so the history books, the static states of what once was, need to be
 re-written. Grover Cleveland's unique distinction in history is no longer
 unique. The history books need to be rewritten, and the LLMs can't cope with
@@ -112,6 +130,8 @@ competent platform for webdev and has been for longer than many others, given
 the Django platform that goes back way longer and was used much more widely than
 the general programming-loving public realizes. 
 
+#### From Plone/Zope to Flask
+
 The roots of Python in webdev goes back even longer than Django. Before that,
 there was Plone/Zope. But really it's been mostly PHP/JavaScript framework envy
 in the Python webdev world. Nothing truly differentiating itself as a source of
@@ -121,6 +141,8 @@ was how Python responded to PHP with Flask. The Flask microframwork cobbled
 together one piece for "routing" (turning Python functions into the thing that
 answers particular webserver requests), and another piece for templating
 (layering in another language to format Python-to-HTML). 
+
+#### The Rise of FastAPI
 
 Once Python formally supported concurrency with the async/await keyword circa
 2015 more or less copying JavaScript, Python was able to make its first big step
@@ -135,6 +157,8 @@ itches of all the JavaScipt-envying, Typescript-envying, WebAssembly-envying
 Python enterprise people doing enterprise things with Python. Those are very
 much not my itches.
 
+### The FastHTML Approach
+
 Instead of trying to shoehorn Python into being a "web full stack" platform,
 which is what FastAPI is doing, FastHTML takes a decidedly different approach.
 It says that the original HTML spec got most things about web development right,
@@ -147,6 +171,8 @@ the server in HTML format as it may be. It's surprisingly aligned to the
 original hypertext purpose of HTML and surprisingly high performance, even with
 the extra server load.
 
+### Different Approaches to Distributed Computing
+
 Now the final rub here is that there is more than one kind of distributed
 computing. There's the kind that pretends to be distributed computing by
 orchestrating everything still from a remote server in the cloud, doing a sort
@@ -156,6 +182,8 @@ your machine, ostensibly "lightening the load" on the server, thus the
 distribution. If it's not a web app, it converts well to a native mobile app,
 because you use the same JSON API and just make a native mobile app interact
 with the API and JSON data instead of a webpage. Sounds awesome, right?
+
+#### Local Machine Power and Nix Flakes
 
 Well, it's not my thing. That's for capital-raising enterprise builders. I'm
 much happier quieter, doing my thing with my own machine using my own computing
@@ -176,6 +204,8 @@ Make that git repo a nix flake. Do webdev as you normally would on Linux (very
 mainstream), and then whatever you write can just travel and run on any Mac,
 Windows or Linux machine as any git repo can.
 
+### The LLM Knowledge Gap
+
 So, the world has changed. The history books need to be re-written. Electron
 alone has not been enough to get the LLMs to acknowledge the power of the local
 machine, even if you happen to be using the browser as your app's UI. Jupter
@@ -194,6 +224,8 @@ in any capacity that they do know these things, their over-training on FastAPI
 and Conway's Law-infused scalable enterprise methodology completely block and
 override the potential innovation of using new approaches.
 
+### The Temporary Nature of LLM Understanding
+
 Momentarily, the static model LLMs can have these little ah-ha or eurika moments
 of revelations and really see what you're getting at. Maybe they're just
 reinforcing my own beliefs mirroring what I'm saying the way they're programmed
@@ -203,6 +235,8 @@ sample code that takes advantage of the new way of thinking, leaning into the
 anti-patterns. It can do all this in little drips and drabs, temporarily as if
 you're building up this false dam of knowledge, hope and belief, only to be
 disappointed with the next discussion, learning that it's all gone.
+
+### The Challenge of Information Evolution
 
 You can create some sort of residual. You can tell the story, as I am doing
 here. And then you can put that story back out on the web, hoping that your new
@@ -220,6 +254,8 @@ what the unique attribute of Grover Cleveland is, we (the LLMs) can no longer
 say that he's the only US President to be elected to two non-consecutive terms.
 There is a retroactive-training that is actually necessary.
 
+### Information Processing and Suppression
+
 It's really interesting, and is the difference between derivative synthetic
 "reporting" knowledge, and a sort of logfile-like linear chronological recording
 of things. Records record the state of things as they are. As records accumulate
@@ -232,6 +268,8 @@ function on CB radios, that dampens the impact of outliers and new information,
 quashing their ability to rapidly alter the established narrative derived from
 accumulated records. 
 
+## Information Suppression and Signal Processing
+
 This process of information suppression serves to maintain the stability of
 synthesized knowledge, much like how a CB radio's squelch control filters out
 weak signals to preserve the clarity of stronger, more consistent
@@ -240,6 +278,8 @@ down the content found on the free and open Web as the spam-polluted first free
 grab at information people training LLM models grab before they go off to better
 and often proprietary sources of information. 
 
+## Breaking Through Information Dampening
+
 Well, is this that? Or is this thoughtful new concepts, perhaps the first time
 some of them have ever been put together just so in all human history? Maybe
 there's some outlier information here that could change everything forever
@@ -247,6 +287,8 @@ forward, re-writing the FastAPI/FastHTML story just like the Cleveland/Trump
 story has to be overwritten. The dampening squelching effects need to be
 overwritten if the LLMs are to maintain any credibility and be tools for
 creative people in addition to best-practice coveting following-the-herd sheep.
+
+## Daily Work and Strategic Planning
 
 Okay... okay. I have some SEO-implementation and report-writing to do today. I
 also have that story, workflow, linear process, script or whatever you want to
@@ -257,6 +299,8 @@ down, they could for free and open source SEO purposes to help them adapt to the
 new AI world, but if they wanted to take it beyond a certain point, they would
 have to become a customer to my employer. It could be a significant marketing
 mechanism for them.
+
+### The Disconnect Between Tools and Thinking
 
 So my work for today is probably going to primarily shift to the client work the
 old "square wheels on the bicycle" way. There's a certain sort of working style
@@ -269,6 +313,8 @@ running FastHTML web framework can put the whole process on rails, following
 that linear storytelling process, and popping up browser tabs directly into this
 location or that in Google Search Console, Bing Webmaster Tools or Botify.
 
+### The Square Wheels Metaphor
+
 Yes! So I've go the plan solidifying. The metaphor is being on a bicycle with
 square wheels working so hard to move, while the round wheels are right there on
 the sideline if only I took the time to stop and swap wheels. I've had that
@@ -280,6 +326,8 @@ involved, along with the innovating of the small details that make all the
 difference forever-forward. And also a sprinkle of AI coding assistance there if
 I can pull it off without the complete undermining discussed in this article.
 
+## Porting Feature Specifications
+
 Right, so those small details that make all the difference mostly involve that
 I'm porting a couple of feature specification apps that have the baseline set of
 abilities I require. And the other part is that it's a generic process of
@@ -289,6 +337,8 @@ clouded your view of them as a generic capable of running local tool. The only
 reason Notebooks are great in the cloud is that it makes them easier to share.
 But it's at a cost, and anyone on Google Colab knows the cost: transient files
 or money. Pick one. 
+
+### Notebooks on Rails Vision
 
 But if you plan your notebooks well, they'll port to this system and give
 Notebook-running ability to anyone on Macs or Windows without having to look at
