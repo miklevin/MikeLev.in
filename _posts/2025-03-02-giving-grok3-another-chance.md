@@ -1966,3 +1966,1184 @@ I’ll focus on how to either make `BaseFlow` accommodate it (with minimal overr
 3. **Drop `LinkGraphFlow`**: Since you’re itching to share it, go for it—I’ll analyze where it clashes with `BaseFlow` and suggest ways to integrate it (or let it stand alone) while keeping things linear and readable.
 
 I’ll keep this discussion history as long as possible, but the summary above should get us back on track if we lose context. What’s your next move—drop `LinkGraphFlow`, or anything else to clarify first? 😎
+
+---
+
+## First, DictLikeDB and Pipulate. Then LinkGraphFlow!
+
+> Interesting issues are starting to arise as we get tokens-deep. Grok 3 groks
+> my going off the rails drift concern. Thrust vectoring achieved (I hope).
+
+**Me**: Okay Grok 3, you've got me convinced and moving along with you. I have
+no problem showing you DictLikeDB and Pipulate ahead of LinkGraphFlow. I think
+they're both so central to groking the system I'd have been disappointed if you
+didn't ask for them first, so kudos! They both also come with method decorator
+debuggers for amazing levels of transparency in the server console output and
+web logs, so I'll include those as well.
+
+```python
+def db_operation(func):
+    """Decorator that logs only meaningful database state changes."""
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        try:
+            result = func(*args, **kwargs)
+            # Only log actual state changes
+            if func.__name__ == '__setitem__':
+                key, value = args[1], args[2]
+                # Skip logging for internal keys and temp values
+                if not key.startswith('_') and not key.endswith('_temp'):
+                    logger.debug(f"DB: {key} = {str(value)[:50]}...")
+            return result
+        except Exception as e:
+            logger.error(f"DB Error: {e}")
+            raise
+    return wrapper
+
+
+class DictLikeDB:
+    """
+    A robust wrapper for dictionary-like persistent storage.
+
+    This class provides a familiar dict-like interface to interact with
+    various types of key-value stores, including databases and file systems.
+    It emphasizes the power and flexibility of key-value pairs as a
+    fundamental data structure in programming and system design.
+
+    Key features:
+    1. Persistence: Data survives beyond program execution.
+    2. Dict-like API: Familiar Python dictionary operations.
+    3. Adaptability: Can wrap different storage backends.
+    4. Logging: Built-in logging for debugging and monitoring.
+
+    By abstracting the underlying storage mechanism, this class allows
+    for easy swapping of backends without changing the client code.
+    This demonstrates the power of Python's duck typing and the
+    universality of the key-value paradigm across different storage solutions.
+    """
+
+    def __init__(self, store, Store):
+        self.store = store
+        self.Store = Store
+        logger.debug("DictLikeDB initialized.")
+
+    @db_operation
+    def __getitem__(self, key):
+        try:
+            value = self.store[key].value
+            logger.debug(f"Retrieved from DB: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}> = <{COLOR_MAP['value']}>{value}</{COLOR_MAP['value']}>")
+            return value
+        except NotFoundError:
+            logger.error(f"Key not found: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}>")
+            raise KeyError(key)
+
+    @db_operation
+    def __setitem__(self, key, value):
+        try:
+            self.store.update({"key": key, "value": value})
+            logger.debug(f"Updated persistence store: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}> = <{COLOR_MAP['value']}>{value}</{COLOR_MAP['value']}>")
+        except NotFoundError:
+            self.store.insert({"key": key, "value": value})
+            logger.debug(f"Inserted new item in persistence store: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}> = <{COLOR_MAP['value']}>{value}</{COLOR_MAP['value']}>")
+
+    @db_operation
+    def __delitem__(self, key):
+        try:
+            self.store.delete(key)
+            logger.warning(f"Deleted key from persistence store: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}>")
+        except NotFoundError:
+            logger.error(f"Attempted to delete non-existent key: <{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}>")
+            raise KeyError(key)
+
+    @db_operation
+    def __contains__(self, key):
+        exists = key in self.store
+        logger.debug(f"Key '<{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}>' exists: <{COLOR_MAP['value']}>{exists}</{COLOR_MAP['value']}>")
+        return exists
+
+    @db_operation
+    def __iter__(self):
+        for item in self.store():
+            yield item.key
+
+    @db_operation
+    def items(self):
+        for item in self.store():
+            yield item.key, item.value
+
+    @db_operation
+    def keys(self):
+        return list(self)
+
+    @db_operation
+    def values(self):
+        for item in self.store():
+            yield item.value
+
+    @db_operation
+    def get(self, key, default=None):
+        try:
+            return self[key]
+        except KeyError:
+            logger.debug(f"Key '<{COLOR_MAP['key']}>{key}</{COLOR_MAP['key']}>' not found. Returning default: <{COLOR_MAP['value']}>{default}</{COLOR_MAP['value']}>")
+            return default
+
+    @db_operation
+    def set(self, key, value):
+        """
+        Set a key-value pair in the store. Alias for __setitem__ to provide a more
+        method-oriented interface alongside the dict-like interface.
+
+        This is particularly useful for async contexts and when a more explicit
+        method name is preferred over the [] syntax.
+        """
+        self[key] = value
+        return value  # Return value for method chaining
+
+
+# Create global instance of DictLikeDB available to all functions
+# In a single-tenant app, this database wrapper acts as a server-side session store,
+# providing similar functionality to client cookies but with better control:
+# - Centralized data access through the wrapper enables comprehensive logging
+# - All operations go through application logic rather than client-side state
+# - Greater visibility into how/when/where data changes via the decorator logs
+db = DictLikeDB(store, Store)
+```
+
+...and Pipulate:
+
+```python
+def pipeline_operation(func):
+    """Decorator that tracks meaningful pipeline state changes."""
+    @functools.wraps(func)
+    def wrapper(self, *args, **kwargs):
+        url = args[0] if args else None
+        if not url:
+            return func(self, *args, **kwargs)
+
+        # Get initial state, ignoring timestamps
+        old_state = self._get_clean_state(url)
+
+        # Execute operation
+        result = func(self, *args, **kwargs)
+
+        # Compare with new state
+        new_state = self._get_clean_state(url)
+
+        # Log meaningful changes only
+        if old_state != new_state:
+            changes = {k: new_state[k] for k in new_state
+                       if k not in old_state or old_state[k] != new_state[k]}
+            if changes:
+                logger.info(f"Pipeline '{url}' state updated: {changes}")
+
+        return result
+
+    return wrapper
+
+
+class Pipulate:
+    """
+    Pipulate manages a multi-step workflow pipeline using a JSON blob stored in a database table.
+    Each step's data is stored under keys like "step_01", "step_02", etc.
+
+    Key Features:
+    - Progress tracking via presence of step keys (no explicit 'current_step' field needed)
+    - Automatic step progression (next step = highest existing step + 1)
+    - Persistent state between interruptions
+    - Jump-to-step capability from any point
+
+    Example State JSON (stored in table's "data" field):
+    {
+        "step_01": {"name": "John"},          # Each step stores its own data
+        "step_02": {"color": "blue"},         # Steps present = completed steps
+        "created": "2024-12-08T12:34:56",     # First pipeline creation
+        "updated": "2024-12-08T12:35:45"      # Last state change
+    }
+
+    Database Schema (FastHTML MiniDataAPI table):
+    pipeline = {
+        "url": str,      # Primary key - unique workflow identifier
+        "app_name": str, # Endpoint name for routing and filtering
+        "data": str,     # JSON blob containing full workflow state
+        "created": str,  # ISO timestamp of creation
+        "updated": str,  # ISO timestamp of last update
+        "pk": "url"      # Primary key definition
+    }
+
+    Usage Flow:
+    1. User enters/resumes workflow via URL (/app_name/step_N)
+    2. System loads state from database using URL as key
+    3. UI shows appropriate step based on existing state
+    4. Each step completion updates state in database
+    5. Workflow continues until finalized
+
+    The workflow is designed to be interruption-safe - users can leave and 
+    resume from any point by re-entering their workflow URL.
+    """
+
+    # Default to preserving refillable fields
+    PRESERVE_REFILL = True
+
+    def __init__(self, table):
+        """Initialize a Pipulate instance for managing pipeline state.
+
+        This is the core state management class for FastHTML pipelines. It deliberately
+        uses a simple table-based approach rather than ORM patterns. The table parameter
+        is a MiniDataAPI table with the following schema:
+
+        table = {
+            "url": str,      # Primary key - unique workflow ID 
+            "app_name": str, # Endpoint name for routing/filtering
+            "data": str,     # JSON blob containing full state
+            "created": str,  # ISO timestamp
+            "updated": str,  # ISO timestamp
+            "pk": "url"      # Primary key definition
+        }
+
+        Key Principles:
+        - One record = One complete pipeline state
+        - State flows forward only (submit clears forward steps)
+        - Display state != Persistence state
+        - Each step must be idempotent
+        - No ORM, no sessions, embrace server-side state
+
+        Args:
+            table: MiniDataAPI table for storing pipeline state
+
+        Remember:
+        - Always clear_steps_from() in submit handlers
+        - Preserve flag only affects UI/display
+        - Use standard pipulate helpers
+        - Test both first-time and resubmit flows
+        """
+        self.table = table
+
+    def _get_clean_state(self, url):
+        """Get pipeline state without timestamps."""
+        try:
+            record = self.table[url]
+            state = json.loads(record.data)
+            state.pop('created', None)
+            state.pop('updated', None)
+            return state
+        except (NotFoundError, json.JSONDecodeError):
+            return {}
+
+    def get_timestamp(self) -> str:
+        """Get ISO timestamp for pipeline state tracking.
+
+        This is a critical helper that ensures consistent timestamp format across
+        all pipeline state operations. Used for both creation and update times.
+
+        The ISO format is required by MiniDataAPI's simple table schema and helps
+        maintain the local-first, single-source-of-truth principle for state 
+        management without introducing database-specific timestamp types.
+
+        Returns:
+            str: Current timestamp in ISO format (e.g. "2024-03-19T15:30:45.123456")
+        """
+        return datetime.now().isoformat()
+
+    @pipeline_operation
+    def initialize_if_missing(self, url: str, initial_step_data: dict = None) -> tuple[Optional[dict], Optional[Card]]:
+        """Critical pipeline initialization that establishes the single source of truth.
+
+        This is the gatekeeper for new pipeline state. It ensures we have exactly one
+        record per URL and maintains the local-first principle by using MiniDataAPI's
+        simple table constraints rather than distributed locking.
+
+        The state blob follows the pattern:
+        {
+            "created": "2024-03-19T...",  # ISO timestamp
+            "updated": "2024-03-19T...",  # ISO timestamp
+            "step_01": {...},             # Optional initial state
+            ...                           # Additional step data
+        }
+
+        Args:
+            url: Pipeline identifier (primary key)
+            initial_step_data: Optional seed data for first step(s)
+
+        Returns:
+            (state, None) if successful initialization or existing state
+            (None, error_card) if URL conflict detected
+        """
+
+        try:
+            # First try to get existing state
+            state = self.read_state(url)
+            if state:  # If we got anything back (even empty dict), record exists
+                return state, None
+
+            # No record exists, create new state
+            now = self.get_timestamp()
+            state = {
+                "created": now,
+                "updated": now
+            }
+
+            if initial_step_data:
+                app_name = None
+                if "app_name" in initial_step_data:
+                    app_name = initial_step_data.pop("app_name")
+                state.update(initial_step_data)
+
+            # Insert new record with normalized endpoint
+            self.table.insert({
+                "url": url,
+                "app_name": app_name if app_name else None,
+                "data": json.dumps(state),
+                "created": now,
+                "updated": now
+            })
+            return state, None
+
+        except:  # Catch constraint violation
+            error_card = Card(
+                H3("ID Already In Use"),
+                P(f"The ID '{url}' is already being used by another workflow. Please try a different ID."),
+                style=self.id_conflict_style()
+            )
+            return None, error_card
+
+    def read_state(self, url: str) -> dict:
+        """Core pipeline state reader that maintains the single source of truth."""
+        logger.debug(f"Reading state for pipeline: {url}")
+        try:
+            self.table.xtra(url=url)
+            records = self.table()
+
+            # Debug what we got back
+            logger.debug(f"Records found: {records}")
+            if records:
+                logger.debug(f"First record type: {type(records[0])}")
+                logger.debug(f"First record dir: {dir(records[0])}")
+
+            if records and hasattr(records[0], 'data'):
+                state = json.loads(records[0].data)
+                logger.debug(f"Found state: {json.dumps(state, indent=2)}")
+                return state
+
+            logger.debug("No valid state found")
+            return {}
+
+        except Exception as e:
+            logger.debug(f"Error reading state: {str(e)}")
+            return {}
+
+    def write_state(self, url: str, state: dict) -> None:
+        """Write pipeline state with forward-only flow."""
+        # Update timestamp
+        state["updated"] = datetime.now().isoformat()
+
+        # Simple update payload
+        payload = {
+            "url": url,
+            "data": json.dumps(state),
+            "updated": state["updated"]
+        }
+
+        # Debug the exact update
+        logger.debug(f"Update payload:\n{json.dumps(payload, indent=2)}")
+
+        # Write and verify (always)
+        self.table.update(payload)
+        verification = self.read_state(url)
+        logger.debug(f"Verification read:\n{json.dumps(verification, indent=2)}")
+
+    async def write_step_data(self, pipeline_id: str, step_id: str, step_data: dict) -> None:
+        """Write step data to the pipeline state."""
+        logger.debug(f"[write_step_data] ENTRY - pipeline={pipeline_id}, step={step_id}")
+        logger.debug(f"[write_step_data] Step data: {json.dumps(step_data, indent=2)}")
+
+        # Check for jump parameter in HX-Vals header
+        request = get_request()  # Get current request context
+        vals = request.headers.get("HX-Vals", "{}")
+        try:
+            vals_dict = json.loads(vals)
+            is_jump = vals_dict.get("jump") == "true"
+            logger.debug(f"[write_step_data] HX-Vals: {vals}, is_jump={is_jump}")
+        except json.JSONDecodeError:
+            logger.warning(f"[write_step_data] Invalid HX-Vals format: {vals}")
+            is_jump = False
+
+        # Get current state
+        current_state = self.read_state(pipeline_id)
+        logger.debug(f"[write_step_data] Current state:")
+        logger.debug(json.dumps(current_state, indent=2))
+
+        # Update with new step data
+        current_state[step_id] = step_data
+        current_state["updated"] = datetime.now().isoformat()
+        logger.debug(f"[write_step_data] Updated state:")
+        logger.debug(json.dumps(current_state, indent=2))
+
+        # Write back to database
+        record = {
+            "url": pipeline_id,
+            "app_name": "starter",
+            "data": json.dumps(current_state),
+            "updated": current_state["updated"]
+        }
+
+        # Check if record exists
+        self.table.xtra(url=pipeline_id)
+        existing = self.table()
+
+        if existing:
+            record["created"] = getattr(existing[0], "created", current_state["updated"])
+            record["app_name"] = getattr(existing[0], "app_name", "starter")
+            self.table.update(record)
+            logger.debug("[write_step_data] Updated existing record")
+        else:
+            record["created"] = current_state["updated"]
+            self.table.insert(record)
+            logger.debug("[write_step_data] Created new record")
+
+        logger.debug("[write_step_data] EXIT - Step data written successfully")
+
+    def chain_reaction(self, steps, app_name):
+        """Trigger a chain reaction to refresh all steps."""
+        # Create a list of URLs for each step including finalize
+        urls = []
+        for step in steps:
+            urls.append(f"/{app_name}/{step.id}")
+        urls.append(f"/{app_name}/finalize")  # Add finalize step
+
+        # Return the URLs that need to be refreshed
+        return urls
+
+    def revert_control(
+        self,
+        step_id: str,
+        app_name: str,
+        steps: list,
+        message: str = None,
+        target_id: str = None,
+        revert_label: str = None
+    ):
+        """Creates a revert control that clears forward steps.
+
+        Args:
+            step_id: Step to revert to (e.g. "step_01")
+            app_name: URL prefix for workflow routes
+            steps: Full STEPS list from workflow definition
+            message: Optional message to show with control
+            target_id: HTMX target for revert action (defaults to app container)
+            style: Optional custom CSS styles
+            revert_label: Optional custom label for revert button
+        """
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Check if pipeline is finalized
+        finalize_step = steps[-1]
+        if pipeline_id:
+            final_data = self.get_step_data(pipeline_id, finalize_step.id, {})
+            if finalize_step.done in final_data:
+                return None
+
+        # Find current step's persistence setting
+        step = next(s for s in steps if s.id == step_id)
+        refill = getattr(step, 'refill', False)
+
+        # Use app container as default target
+        if not target_id:
+            target_id = f"{app_name}-container"
+
+        # Default button styling
+        default_style = (
+            "background-color: var(--pico-del-color);"
+            "display: inline-flex;"
+            "padding: 0.5rem 0.5rem;"
+            "border-radius: 4px;"
+            "font-size: 0.85rem;"
+            "cursor: pointer;"
+            "margin: 0;"
+            "line-height: 1;"
+            "align-items: center;"
+        )
+
+        form = Form(
+            Input(type="hidden", name="step_id", value=step_id),
+            Button(
+                format_step_button(step_id, refill, revert_label),
+                type="submit",
+                style=default_style
+            ),
+            hx_post=f"/{app_name}/revert",
+            hx_target=f"#{target_id}",
+            hx_swap="outerHTML"
+        )
+
+        # Return simple form if no message
+        if not message:
+            return form
+
+        # Return styled card with message if provided
+        return Card(
+            Div(message, style="flex: 1;"),
+            Div(form, style="flex: 0;"),
+            style="display: flex; align-items: center; justify-content: space-between;"
+        )
+
+    def wrap_with_inline_button(
+        self,
+        input_element: Input,
+        button_label: str = "Next",
+        button_class: str = "primary"
+    ) -> Div:
+        """Helper for creating inline form controls in pipelines.
+
+        This is a key UI pattern for FastHTML pipelines - it creates a flex container
+        with an input and submit button side-by-side. The button width is explicitly
+        overridden from PicoCSS defaults to prevent stretching.
+
+        Usage:
+            form = Form(
+                self.wrap_with_inline_button(
+                    Input(type="text", name="quest"),
+                    "Continue Quest"
+                )
+            )
+
+        The resulting HTML will have proper flex layout and consistent button styling
+        that works with the pipeline's visual language.
+        """
+        return Div(
+            input_element,
+            Button(
+                button_label,
+                type="submit",
+                cls=button_class,
+                style=(
+                    "display: inline-block;"
+                    "cursor: pointer;"
+                    "width: auto !important;"  # Override PicoCSS width: 100%
+                    "white-space: nowrap;"
+                )
+            ),
+            style="display: flex; align-items: center; gap: 0.5rem;"
+        )
+
+    def generate_step_messages(self, steps: list) -> dict:
+        """Generates the standard message templates for a FastHTML pipeline workflow.
+
+        Chain Reaction Pattern:
+        1. Each step has input and complete messages
+        2. Messages reference step IDs for state tracking
+        3. Special handling for finalize step
+        4. Messages support the single source of truth
+
+        The messages integrate with the chain reaction by:
+        - Using step IDs consistently for state lookup
+        - Supporting forward-only data flow
+        - Providing context for completed steps
+        - Handling finalize state transitions
+        """
+        messages = {
+            "new": f"Step 1: Enter your {steps[0].show}"
+        }
+
+        # Generate messages keyed by step ID
+        for i, step in enumerate(steps[:-1], 1):  # Skip final step
+            next_step = steps[i]
+            messages[step.id] = {
+                "input": f"Step {i}: Enter {step.show}",
+                "complete": f"{format_step_name(step.id)} complete. You entered &lt;{{}}&gt;. Continue to {next_step.id}."
+            }
+
+        # Finalize step gets special ID-based state handling
+        messages["finalize"] = {
+            "ready": "All steps complete. Ready to finalize workflow.",
+            "complete": "Workflow finalized. Use Unfinalize to make changes."
+        }
+
+        return messages
+
+    async def get_state_message(self, url: str, steps: list, messages: dict) -> str:
+        """
+        Core pipeline state message generator that follows the Pipeline Mantra.
+
+        This is a critical piece of the Pipeline Pattern that ensures state flows
+        forward correctly by checking steps in reverse order. It handles both
+        standard steps and the special finalize step, integrating with the
+        Finalization Pattern for workflow locking.
+
+        The reverse order check is key - it finds the last completed step and
+        generates the appropriate message, whether that's showing completed data
+        or prompting for input. This matches our "Submit clears forward, Display
+        shows the past" principle.
+
+        See StarterFlow for working examples of message integration.
+        """
+        state = self.read_state(url)
+        logger.debug(f"\nDEBUG [{url}] State Check:")
+        logger.debug(json.dumps(state, indent=2))
+
+        # Check steps in reverse order (including finalize)
+        for step in reversed(steps):  # Use Step objects directly
+            if step.id not in state:
+                continue
+
+            # Special handling for finalize step
+            if step.done == "finalized":
+                if step.done in state[step.id]:
+                    return self._log_message("finalized", messages["finalize"]["complete"])
+                return self._log_message("ready to finalize", messages["finalize"]["ready"])
+
+            # Standard step handling
+            step_data = state[step.id]
+            step_value = step_data.get(step.done)
+
+            if step_value:
+                msg = messages[step.id]["complete"]
+                msg = msg.format(step_value) if "{}" in msg else msg
+                return self._log_message(f"{step.id} complete ({step_value})", msg)
+
+            # return self._log_message(f"{step.id} input needed", messages[step.id]["input"])
+
+        # No steps found - new workflow
+        return self._log_message("new pipeline", messages["new"])
+
+    def _log_message(self, state_desc: str, message: str) -> str:
+        """Logs pipeline state transitions and maintains LLM conversation context.
+
+        This is a critical piece of the Pipeline Pattern's state tracking that:
+        1. Logs state transitions for debugging/development
+        2. Feeds state messages into the LLM conversation history
+        3. Returns the message for UI display
+
+        The quiet=True on append prevents LLM chat noise while maintaining context.
+        This follows the DEBUG Pattern from .cursorrules: "Just log it!"
+        """
+        # Escape angle brackets for logging
+        safe_state = state_desc.replace("<", "\\<").replace(">", "\\>")
+        safe_message = message.replace("<", "\\<").replace(">", "\\>")
+
+        logger.debug(f"State: {safe_state}, Message: {safe_message}")
+        append_to_conversation(message, role="system", quiet=True)
+        return message
+
+    @pipeline_operation
+    def get_step_data(self, url: str, step_id: str, default=None) -> dict:
+        """Get step data from pipeline state.
+
+        This is a critical piece of the Pipeline Pattern that retrieves
+        the current state data for a specific step. If the step doesn't
+        exist in state, returns the provided default value.
+
+        See StarterFlow for usage examples.
+        """
+        state = self.read_state(url)
+        return state.get(step_id, default or {})
+
+    async def clear_steps_from(self, pipeline_id: str, step_id: str, steps: list) -> dict:
+        """Clear steps forward in pipeline state."""
+        state = self.read_state(pipeline_id)
+
+        # Find starting index
+        start_idx = next((i for i, step in enumerate(steps) if step.id == step_id), -1)
+        if start_idx == -1:
+            logger.error(f"[clear_steps_from] Step {step_id} not found in steps list")
+            return state
+
+        # Clear forward steps based on flow configuration
+        for step in steps[start_idx + 1:]:
+            if (not self.PRESERVE_REFILL or not step.refill) and step.id in state:
+                logger.debug(f"[clear_steps_from] Removing step {step.id}")
+                del state[step.id]
+
+        # Write updated state
+        self.write_state(pipeline_id, state)
+        return state
+
+
+# Global instance - module scope is the right scope
+pipulate = Pipulate(pipeline)
+
+
+class BaseFlow:
+    """Base class for multi-step flows with finalization."""
+
+    PRESERVE_REFILL = True
+
+    def __init__(self, app, pipulate, app_name, steps):
+        self.app = app
+        self.pipulate = pipulate
+        self.app_name = app_name
+        self.STEPS = steps
+        self.steps = {step.id: i for i, step in enumerate(self.STEPS)}
+
+        # Generate default messages
+        self.STEP_MESSAGES = {
+            "new": "Enter an ID to begin.",
+            "finalize": {
+                "ready": "All steps complete. Ready to finalize workflow.",
+                "complete": "Workflow finalized. Use Unfinalize to make changes."
+            }
+        }
+
+        # Add messages for each step
+        for step in self.STEPS:
+            if step.done != 'finalized':  # Skip finalize step
+                self.STEP_MESSAGES[step.id] = {
+                    "input": f"Step {step.id}: Please enter {step.show}",
+                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+                }
+
+        # Auto-register all routes
+        routes = [
+            (f"/{app_name}", self.landing),
+            (f"/{app_name}/init", self.init, ["POST"]),
+            (f"/{app_name}/unfinalize", self.unfinalize, ["POST"]),
+            (f"/{app_name}/jump_to_step", self.jump_to_step, ["POST"]),
+            (f"/{app_name}/revert", self.handle_revert, ["POST"])
+        ]
+
+        # Add step routes automatically from STEPS
+        for step in self.STEPS:
+            routes.extend([
+                (f"/{app_name}/{step.id}", self.handle_step),
+                (f"/{app_name}/{step.id}_submit", self.handle_step_submit, ["POST"])
+            ])
+
+        # Register all routes
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    def validate_step(self, step_id: str, value: str) -> tuple[bool, str]:
+        """Override this method to add custom validation per step.
+
+        Returns:
+            tuple[bool, str]: (is_valid, error_message)
+        """
+        return True, ""
+
+    async def process_step(self, step_id: str, value: str) -> str:
+        """Override this method to transform/process step input.
+
+        Returns:
+            str: Processed value to store
+        """
+        return value
+
+    async def handle_revert(self, request):
+        """Handle revert action by clearing steps after the reverted step."""
+        form = await request.form()
+        step_id = form.get("step_id")
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        if not step_id:
+            return P("Error: No step specified", style="color: red;")
+
+        # Clear forward steps
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Set revert target in state
+        state = self.pipulate.read_state(pipeline_id)
+        state["_revert_target"] = step_id
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Get state-aware message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await simulated_stream(message)
+
+        # Return same container structure as init()
+        placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    async def landing(self, display_name=None):
+        """Default landing page for flow."""
+        # Use provided display_name or generate default
+        title = display_name or f"{self.app_name.title()}: {len(self.STEPS) - 1} Steps + Finalize"
+
+        pipeline.xtra(app_name=self.app_name)
+        existing_ids = [record.url for record in pipeline()]
+
+        return Container(
+            Card(
+                H2(title),
+                P("Enter or resume a Pipeline ID:"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Old or existing ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"
+                        ),
+                        button_label=f"Start {self.app_name.title()} 🔑",
+                        button_class="secondary"
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"
+                    ),
+                    hx_post=f"/{self.app_name}/init",
+                    hx_target=f"#{self.app_name}-container"
+                )
+            ),
+            Div(id=f"{self.app_name}-container")
+        )
+
+    async def init(self, request):
+        """Standard init handler that sets up pipeline state."""
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        # Initialize pipeline
+        state, error = self.pipulate.initialize_if_missing(
+            pipeline_id,
+            {"app_name": self.app_name}
+        )
+
+        if error:
+            return error
+
+        # Generate placeholders for all steps
+        placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+
+        return Div(
+            *placeholders,
+            id=f"{self.app_name}-container"
+        )
+
+    async def handle_step(self, request):
+        """Generic step handler following the Step Display Pattern."""
+        step_id = request.url.path.split('/')[-1]
+        step_index = self.steps[step_id]
+        step = self.STEPS[step_index]
+        next_step_id = self.STEPS[step_index + 1].id if step_index < len(self.STEPS) - 1 else None
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        state = self.pipulate.read_state(pipeline_id)
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(step.done, "")
+
+        # Special handling for finalize step
+        if step.done == 'finalized':
+            finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+
+            if "finalized" in finalize_data:
+                return Card(
+                    H3("Pipeline Finalized"),
+                    P("All steps are locked."),
+                    Form(
+                        Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                        hx_post=f"/{self.app_name}/unfinalize",
+                        hx_target=f"#{self.app_name}-container",
+                        hx_swap="outerHTML"
+                    )
+                )
+            else:
+                return Div(
+                    Card(
+                        H3("Finalize Pipeline"),
+                        P("You can finalize this pipeline or go back to fix something."),
+                        Form(
+                            Button("Finalize All Steps", type="submit"),
+                            hx_post=f"/{self.app_name}/{step_id}_submit",
+                            hx_target=f"#{self.app_name}-container",
+                            hx_swap="outerHTML"
+                        )
+                    ),
+                    id=step_id
+                )
+
+        # If locked, always chain to next step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        if "finalized" in finalize_data:
+            return Div(
+                Card(f"🔒 {step.show}: {user_val}"),
+                Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+            )
+
+        # If completed, show with revert and chain
+        if user_val and state.get("_revert_target") != step_id:
+            return Div(
+                self.pipulate.revert_control(
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=f"{step.show}: {user_val}",
+                    steps=self.STEPS
+                ),
+                Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+            )
+
+        # Get value to show in input - either from refill or suggestion
+        display_value = ""
+        if step.refill and user_val and self.PRESERVE_REFILL:
+            display_value = user_val  # Use existing value if refilling
+        else:
+            suggested = await self.get_suggestion(step_id, state)
+            display_value = suggested  # Use suggestion if no refill value
+
+        await simulated_stream(self.STEP_MESSAGES[step_id]["input"])
+
+        # Show input form
+        return Div(
+            Card(
+                H3(f"Enter {step.show}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=step.done,
+                            value=display_value,
+                            placeholder=f"Enter {step.show}",
+                            required=True,
+                            autofocus=True
+                        )
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def get_suggestion(self, step_id, state):
+        """Override this in your flow to provide dynamic suggestions"""
+        return ""
+
+    async def handle_step_submit(self, request):
+        """Generic submit handler for all steps."""
+        step_id = request.url.path.split('/')[-1].replace('_submit', '')
+        step_index = self.steps[step_id]
+        step = self.STEPS[step_index]
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Special handling for finalize step
+        if step.done == 'finalized':
+            # Update the state
+            state = self.pipulate.read_state(pipeline_id)
+            state[step_id] = {step.done: True}
+            self.pipulate.write_state(pipeline_id, state)
+
+            # Get state-aware message
+            message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+            await simulated_stream(message)
+
+            # Return same container structure as init()
+            placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+            return Div(*placeholders, id=f"{self.app_name}-container")
+
+        # Regular step handling continues here...
+        form = await request.form()
+        user_val = form.get(step.done, "")
+
+        # Validate input
+        is_valid, error_msg = self.validate_step(step_id, user_val)
+        if not is_valid:
+            return P(error_msg, style="color: red;")
+
+        # Process input
+        processed_val = await self.process_step(step_id, user_val)
+        next_step_id = self.STEPS[step_index + 1].id if step_index < len(self.STEPS) - 1 else None
+
+        # Clear forward steps
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Write new state and clear revert target
+        state = self.pipulate.read_state(pipeline_id)
+        state[step_id] = {step.done: processed_val}
+        if "_revert_target" in state:
+            del state["_revert_target"]
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Get state-aware message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await simulated_stream(message)
+
+        # Chain to next step
+        return Div(
+            self.pipulate.revert_control(
+                step_id=step_id,
+                app_name=self.app_name,
+                message=f"{step.show}: {processed_val}",
+                steps=self.STEPS
+            ),
+            Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+        )
+
+    def format_textarea(self, text: str, with_check: bool = False) -> P:
+        """
+        Formats pipeline step text with consistent FastHTML styling.
+
+        This is a core UI helper used across pipeline steps to maintain
+        consistent text display. The pre-wrap and margin settings ensure
+        multi-line text displays properly within pipeline cards.
+
+        The optional checkmark (✓) indicates completed steps in the
+        pipeline flow, following the "show completed state" pattern
+        from .cursorrules.
+
+        Args:
+            text: Text content to format (usually from pipeline state)
+            with_check: Add completion checkmark (default: False)
+        """
+        return P(
+            Pre(
+                text,
+                style=(
+                    "white-space: pre-wrap; "
+                    "margin-bottom: 0; "
+                    "margin-right: .5rem; "
+                    "padding: .25rem;"
+                )
+            ),
+            " ✓" if with_check else ""
+        )
+
+    def generate_step_placeholders(self, steps, app_name):
+        """Generate placeholder divs for each step with proper HTMX triggers."""
+        placeholders = []
+        for i, step in enumerate(steps):
+            trigger = "load"
+            if i > 0:
+                # Chain reaction: trigger when previous step completes
+                prev_step = steps[i - 1]
+                trigger = f"stepComplete-{prev_step.id} from:{prev_step.id}"
+
+            placeholders.append(
+                Div(
+                    id=step.id,
+                    hx_get=f"/{app_name}/{step.id}",
+                    hx_trigger=trigger,
+                    hx_swap="outerHTML"
+                )
+            )
+        return placeholders
+
+    async def delayed_greeting(self):
+        """Provides a gentle UX delay before prompting for pipeline ID.
+
+        The simulated chat stream maintains the illusion of "thinking" while
+        actually just managing timing and UX expectations. This is preferable
+        to instant responses which can make the system feel too reactive and
+        breaking pace with the LLM-provided chat that has inherent latency.
+        """
+        await asyncio.sleep(2)
+        await simulated_stream("Enter an ID to begin.")
+
+    async def explain(self, message=None):
+        asyncio.create_task(chatq(message, role="system"))
+
+    async def handle_finalize(self, steps: list, app_name: str) -> Card:
+        """Handles finalize step display based on pipeline state.
+
+        This is a key state transition point that follows the Pipeline Pattern:
+        - If finalized: Shows locked view with unfinalize option
+        - If all steps complete: Shows finalize button
+        - Otherwise: Shows "nothing to finalize" message
+
+        The finalize step is special - it has no data of its own, just a flag.
+        This maintains the "Submit clears forward" principle even at the end.
+
+        Args:
+            steps: List of Step objects defining the pipeline
+            app_name: URL prefix for route generation
+        """
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_step = steps[-1]
+        finalize_data = self.get_step_data(pipeline_id, finalize_step.id, {})
+
+        # Add debug logging
+        logger.debug(f"Pipeline ID: {pipeline_id}")
+        logger.debug(f"Finalize step: {finalize_step}")
+        logger.debug(f"Finalize data: {finalize_data}")
+
+        if finalize_step.done in finalize_data:
+            logger.debug("Pipeline is finalized")
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{app_name}/unfinalize",
+                    hx_target=f"#{app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id=finalize_step.id
+            )
+
+        # Check completion
+        non_finalize_steps = steps[:-1]
+
+        # Add debug logging for each step's completion state
+        for step in non_finalize_steps:
+            step_data = self.get_step_data(pipeline_id, step.id, {})
+            step_value = step_data.get(step.done)
+            logger.debug(f"Step {step.id} completion: {step_value}")
+
+        all_steps_complete = all(
+            self.get_step_data(pipeline_id, step.id, {}).get(step.done)
+            for step in non_finalize_steps
+        )
+
+        logger.debug(f"All steps complete: {all_steps_complete}")
+
+        if all_steps_complete:
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{app_name}/finalize_submit",
+                    hx_target=f"#{app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id=finalize_step.id
+            )
+        return Div(P("Nothing to finalize yet."), id=finalize_step.id)
+
+    async def handle_finalize_submit(self, steps: list, app_name: str, messages: dict) -> Div:
+        """Handle submission of finalize step."""
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Get current state
+        state = self.read_state(pipeline_id)
+
+        # Add finalize flag
+        state["finalize"] = {"finalized": True}
+
+        # Update timestamp
+        state["updated"] = datetime.now().isoformat()
+
+        # Write updated state
+        self.write_state(pipeline_id, state)
+
+        # Return the same container with placeholders that initial load uses
+        return Div(
+            *self.generate_step_placeholders(steps, app_name),
+            id=f"{app_name}-container"
+        )
+
+    async def handle_unfinalize(self, steps: list, app_name: str, messages: dict) -> Div:
+        """Handle unfinalize action by removing finalize state."""
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Update state
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state:
+            del state["finalize"]
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Return same container structure as init()
+        placeholders = self.generate_step_placeholders(steps, app_name)
+        return Div(*placeholders, id=f"{app_name}-container")
+
+    def id_conflict_style(self):
+        return "background-color: var(--pico-del-color);"
+```
+
+Sorry for the token pounding 😁
