@@ -4626,3 +4626,554 @@ You’ve got a working system—`LinkGraphFlow` is WET but functional, and it fi
 3. **Port Another Notebook**: Got another notebook to transpose? We can walk through mapping it to a `LinkGraphFlow`-style class, keeping it WET and explicit.
 
 I ain’t gonna over-engineer—you’re hitting above your weight class, and I’m ringside cheering you on. What’s your next move? 😎
+
+---
+
+## What Eludes Me is Getting Started Flow
+
+> I think I have many things right, and what I really need to do is practice
+> building it up from scratch with a beginner mindset, layering in the fact I
+> have to learn HTMX under FastHTML.
+
+**Me**: Alright. So you've got the big picture. I have to say it's very
+interesting doing this without clobbering you with the whole 60K token codebase.
+One of my realizations is that even though it fits in the code window, there is
+potentially much confusion in there, and this scalpel-like direct approach feels
+more productive. I don't know if it actually is yet, but the next steps will be
+telling. Next steps... okay, hmmm.
+
+First, I'm thinking I'm not committed to BaseApp and StarterFlow. I like what
+you're laying down with PipelineHelpers, but my first question is isn't that
+what Pipulate is for? Or are you drawing a separation between state management
+and workflow helpers? There seems to be considerable overlap, and just like the
+rest of the surface area reduction and fighting "where to look" problems, would
+it be so awful to just wrap all that into Pipulate?
+
+Next, I definitely like the elimination of OOP and the superclassing entirely. I
+think if I went this route, I would rewrite StarterFlow to work entirely the new
+way you proposed with PipelineHelpers, and get rid of BaseFlow. Again, in the
+spirit of fewer places to look. It seems to me that this is much like moving all
+the methods of BaseFlow potentially into Pipulate, and calling them like
+functions. I'm not sure if I get the full idea here. Those `@staticmethod`
+decorators are new to me.
+
+And finally, I am still early enough in all this that building everything up
+from scratch again is within reason, if my explicit easy-to-follow guide is
+great. The steps are each completely custom Python, so there is this point at
+which we have just enough helpers. There is a need to know HTMX attributes, the
+"musical notes" pattern pervasive throughout the system with quite a bit of
+redundancy between locked cards versus ready-for-input cards, which optionally
+have data from the last form-submit pre-populated. Ugh! Yeah, all the tedious
+stuff that's not going to be templated -- WET, but sometimes painfully so. But
+the point being, it's all up-front sufficiently so that I can commit it to habit
+and muscle memory, and it's so worth it, because it's learning generic HTMX in
+FastHTML, part of my future-proofing strategy, and else wise, plain old Python.
+For the most part, it's not committing to any kooky framework or system. I've
+just got a loose way of chunking steps. And so I'm not opposed to doing that
+"from scratch".
+
+In that spirit, what occurs to me is the classic Python Hello World of:
+
+```python
+a = 'Hello'
+print(a)
+
+b = 'Your Name'
+print(a + ' ' + b)
+```
+
+Yes I know f-strings, but say we don't want to clobber the user right away with
+concepts like that out of the gate. But even that is besides the point. I guess
+what I'm saying is that I may like StarterFlow to be the easiest possible port
+of a Jupyter Notebook that effectively does this, but while still looking ahead
+to the infinite uninhibited customizability of LinkGraphFlow.
+
+Is this making sense? See, this whole thing is an exercise in making things
+mocked-up in Notebooks into easy-to-use "apps" that spare non-technical users
+from having to look at Python code. And the second big priority I see here is me
+personally making the migration to FastHTML and learning all those kooky HTMX
+attributes and nuance thereof, including that oob stuff. See? I know Python
+pretty well (maybe minus OOP 😋) and I work well in Jupyter Notebooks, but I
+want to be able to package my spell-casting ability and distribute it out
+through nix flakes, with no cloud dependencies, surprise costs, vendor lock-in
+and the like.
+
+And so I believe what I may be asking for from you is a 1-to-1 do this in a
+Notebook, do that in Pipulate (let's call this web framework Pipulate after it's
+most defining class).
+
+And StarterFlow may be just that. A starter to get you into the flow state of
+doing this, starting with a very simple Hello World, where the output of the
+first card becomes the input of the second card.
+
+If I get just that example in place, with the explicit instructions of how to go
+from a `step_01` to a `step_01_submit` to a `step_02` to a `step_02_submit` and
+so on to a standardized finalize, I think I could make porting these apps the
+same process as learning the system I just built and committing it all to habit
+and muscle memory. And where I went off the beaten path with the way the key
+words in LinkGraphFlow, I'll go back to a standard convention. I'll probably
+have a function to fill in a suggested key so the user doesn't have to think of
+one. Then typing in the project URL for subsequent parsing and cleaning would be
+step_01 instead of the key-acquiring landing page.
+
+All that making sense?
+
+I guess I'm going for a getting started guide for StarterFlow, and your thoughts
+concerning this before we jump right into it.
+
+---
+
+**Grok 3**: Yeah, this makes total sense! You're laying out a clear path here, and I’m vibin’ with your mindset—starting small, keeping it WET but manageable, and focusing on learning FastHTML/HTMX while porting simple Notebook workflows into apps for non-technical users. You want a "getting started" guide that breaks things down into muscle-memory steps, starting with a minimal `StarterFlow` (a Hello World equivalent), and you’re leaning toward merging helpers into `Pipulate` to reduce "where to look" confusion. Let’s unpack this, address your questions, and sketch out a plan to rebuild `StarterFlow` from scratch with a Notebook-to-FastHTML pipeline that’s as simple as possible while still leaving room for `LinkGraphFlow`-level customization.
+
+---
+
+### Addressing Your Questions and Concerns
+
+#### 1. **PipelineHelpers vs. Pipulate: Merge or Separate?**
+You’re spot-on to question the overlap between `PipelineHelpers` and `Pipulate`. The distinction I was drawing was:
+- `Pipulate`: Primarily for state management (reading/writing JSON blobs in the `pipeline` table, managing step data, clearing forward steps).
+- `PipelineHelpers`: For workflow/UI helpers (e.g., rendering locked cards, chaining steps with HTMX)—stuff that’s more about FastHTML/HTMX than state.
+
+But you’re right—there’s overlap, especially since `Pipulate` already has UI helpers like `revert_control` and `wrap_with_inline_button`. Merging them into `Pipulate` makes sense to reduce surface area and "where to look" problems:
+- **Merge Approach**: Move helpers like `render_locked_card`, `chain_next_step`, or `render_form` (from my earlier suggestion) into `Pipulate` as static methods or instance methods. For example:
+ ```python
+ class Pipulate:
+ # Existing state methods...
+ 
+ def render_locked_card(self, pipeline_id, step_id, prefix, message, final_step, target_id):
+ return self.revert_control(
+ url=pipeline_id,
+ step_id=step_id,
+ prefix=prefix,
+ message=message,
+ final_step=final_step,
+ target_id=target_id
+ )
+ 
+ def chain_next_step(self, step_id, prefix):
+ return Div(id=step_id, hx_get=f"{prefix}/{step_id}", hx_trigger="load")
+ ```
+- **Pros**: Everything lives in `Pipulate`—one place to look for state *and* UI helpers. Keeps the system cohesive.
+- **Cons**: `Pipulate` grows bigger, but since it’s already central to your workflows, that’s probably fine—it’s not adding a new abstraction, just expanding an existing one.
+
+I’d say merge them. It aligns with your goal of simplifying where to look, and it keeps `Pipulate` as the defining class of your system (as you suggested renaming the framework to `Pipulate`).
+
+#### 2. **Eliminating OOP and Superclassing**
+You’re not an OOP fan, and I respect that—inheritance (like `BaseFlow`) adds complexity you don’t need. Moving to a flatter, function-based approach with helpers in `Pipulate` avoids the pitfalls of overrides and hidden behavior:
+- **No `BaseFlow`**: Ditch the superclass entirely. Each workflow (`StarterFlow`, `LinkGraphFlow`) becomes a standalone class with explicit routes and handlers, using `Pipulate` for state/UI helpers.
+- **Static Methods and Helpers**: The `@staticmethod` decorators I suggested (e.g., in `PipelineHelpers`) just mean the method doesn’t need a class instance—they’re basically functions scoped to the class for organization. You can skip the decorator and make them regular functions in `Pipulate` if that feels cleaner:
+ ```python
+ class Pipulate:
+ def render_form(self, step_id, prefix, title, inputs, target_id):
+ return Card(
+ H3(title),
+ Form(
+ self.wrap_with_inline_button(*inputs),
+ hx_post=f"{prefix}/{step_id}_submit",
+ hx_target=f"#{target_id}"
+ )
+ )
+ ```
+ Call it as `pipulate.render_form(...)`—no inheritance, no overrides, just a utility.
+
+#### 3. **Building from Scratch: A Beginner’s Guide**
+You want to rebuild `StarterFlow` from scratch as a learning exercise, focusing on:
+- Porting a simple Notebook (e.g., your Hello World example).
+- Learning FastHTML/HTMX patterns (e.g., `hx_get`, `hx_post`, `hx_target`, out-of-band swaps).
+- Keeping steps WET but standardized (e.g., `step_01`, `step_01_submit`, chaining to `step_02`).
+- Ending with a standardized finalize step.
+- Adding a suggested key for users to reduce friction.
+
+This is a great idea—it’ll solidify your muscle memory for FastHTML/HTMX, and starting with a Hello World keeps it manageable while leaving room for `LinkGraphFlow`-style customization. I’ll lay out a step-by-step guide to build a minimal `StarterFlow` that mirrors your Notebook example (`a = 'Hello'; print(a); b = 'Your Name'; print(a + ' ' + b)`), focusing on explicit steps and HTMX patterns.
+
+---
+
+### Plan for a Minimal `StarterFlow`
+Here’s the goal: Port your Hello World Notebook into a FastHTML app with two steps:
+1. **Step 1**: Collect `a` (hardcoded to “Hello”), display it (like `print(a)`).
+2. **Step 2**: Collect `b` (user’s name), display `a + ' ' + b` (like `print(a + ' ' + b)`).
+3. **Finalize**: Lock the workflow with an “Unfinalize” option.
+
+We’ll use `Pipulate` for state management and helpers, avoid `BaseFlow`, and keep everything explicit. I’ll break it into steps you can follow like a recipe, focusing on HTMX patterns (e.g., `hx_post`, `hx_get`, `hx_target`) and explaining each part as we go.
+
+#### Notebook Equivalent
+```python
+# Cell 1
+a = 'Hello'
+print(a)
+
+# Cell 2
+b = 'Your Name'
+print(a + ' ' + b)
+```
+- **Step 1**: Hardcode `a = 'Hello'`, show it.
+- **Step 2**: Collect `b` via a form, show `Hello <b>`.
+
+#### Desired FastHTML App
+- **Landing Page**: Enter a pipeline ID (or suggest one).
+- **Step 1**: Show “Hello” (hardcoded), submit to proceed.
+- **Step 2**: Form to enter `b` (Your Name), submit to display “Hello <b>”.
+- **Finalize**: Lock the workflow with an Unfinalize button.
+
+---
+
+### Step-by-Step Guide: Building `StarterFlow` from Scratch
+
+#### 1. **Set Up the Skeleton**
+Assume we’ve got `Pipulate`, `DictLikeDB`, and FastHTML’s `fast_app` already set up (as in your codebase). We’ll focus on the workflow class and routes.
+
+```python
+# Minimal setup (assume imports and db/pipulate are already defined)
+from fasthtml.common import *
+
+app, rt, (store, Store), (pipeline, Pipeline) = fast_app(
+ "data/data.db",
+ exts='ws',
+ live=True,
+ hdrs=(
+ Meta(charset='utf-8'),
+ Link(rel='stylesheet', href='/static/pico.css'),
+ Script(src='/static/htmx.js'),
+ ),
+ # Same schema as before
+ store={"key": str, "value": str, "pk": "key"},
+ pipeline={"url": str, "app_name": str, "data": str, "created": str, "updated": str, "pk": "url"}
+)
+
+db = DictLikeDB(store, Store)
+pipulate = Pipulate(pipeline)
+```
+
+#### 2. **Define `StarterFlow` with Minimal Routes**
+Start with a barebones class—no inheritance, just explicit routes and handlers.
+
+```python
+class StarterFlow:
+ def __init__(self, app, pipulate, prefix="/starter"):
+ self.app = app
+ self.pipulate = pipulate
+ self.prefix = prefix
+
+ # Define steps explicitly (no namedtuple for simplicity)
+ self.steps = [
+ {"id": "step_01", "label": "Set Greeting"},
+ {"id": "step_02", "label": "Enter Name"},
+ {"id": "finalize", "label": "Finalize"}
+ ]
+
+ # Register routes
+ routes = [
+ (f"{prefix}", self.landing),
+ (f"{prefix}/step_01", self.step_01),
+ (f"{prefix}/step_01_submit", self.step_01_submit, ["POST"]),
+ (f"{prefix}/step_02", self.step_02),
+ (f"{prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+ (f"{prefix}/finalize", self.finalize),
+ (f"{prefix}/finalize_submit", self.finalize_submit, ["POST"]),
+ (f"{prefix}/unfinalize", self.unfinalize, ["POST"])
+ ]
+ for path, handler, *methods in routes:
+ method_list = methods[0] if methods else ["GET"]
+ self.app.route(path, methods=method_list)(handler)
+```
+
+- **Explanation**:
+ - `prefix="/starter"`: Base URL for the workflow (`/starter`, `/starter/step_01`, etc.).
+ - `steps`: Simple list of dicts—no namedtuple to reduce complexity. Just `id` and `label` for now.
+ - Routes: Explicitly defined for each step, submit action, and finalize/unfinalize. No catch-all routing—keeps it WET and clear.
+
+#### 3. **Landing Page: Collect Pipeline ID**
+Show a form to enter a pipeline ID (or suggest one—e.g., current timestamp).
+
+```python
+async def landing(self):
+ # Suggest a pipeline ID (e.g., timestamp)
+ suggested_id = datetime.now().strftime("%Y%m%d%H%M%S")
+ return Container(
+ Card(
+ H2("Starter Flow"),
+ P("Enter a Pipeline ID to begin (or use the suggested one):"),
+ Form(
+ self.pipulate.wrap_with_inline_button(
+ Input(type="text", name="pipeline_id", value=suggested_id, required=True),
+ button_label="Start"
+ ),
+ hx_post=f"{self.prefix}/step_01_submit",
+ hx_target="#starter-container"
+ )
+ ),
+ Div(id="starter-container")
+ )
+```
+
+- **Explanation**:
+ - `Container/Card`: Basic FastHTML layout components.
+ - `Form`: Uses `pipulate.wrap_with_inline_button` to render an input with a submit button inline.
+ - `hx_post`: Submits to `/starter/step_01_submit` (we’ll define this next).
+ - `hx_target="#starter-container"`: Updates the `Div` with ID `starter-container` with the response.
+
+#### 4. **Step 1: Hardcode `a = 'Hello'` and Display**
+The first Notebook cell (`a = 'Hello'; print(a)`) becomes a step that hardcodes `a` and shows it.
+
+```python
+async def step_01(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ if not pipeline_id:
+ return await self.landing()
+
+ # Check if step_01 data exists
+ step_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+ greeting = step_data.get("greeting", "")
+
+ # Check if finalized
+ finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+ if "finalized" in finalize_data:
+ return Div(
+ Card(f"Greeting: {greeting} (locked)"),
+ self.pipulate.chain_next_step("step_02", self.prefix)
+ )
+
+ # If already submitted, show locked version with revert
+ if greeting:
+ locked_card = self.pipulate.render_locked_card(
+ pipeline_id, "step_01", self.prefix,
+ f"Greeting: {greeting}",
+ final_step="finalize",
+ target_id="starter-container"
+ )
+ return Div(
+ locked_card,
+ self.pipulate.chain_next_step("step_02", self.prefix)
+ )
+
+ # Hardcode for first step (Notebook cell: a = 'Hello')
+ return Div(
+ Card(
+ H3("Step 1: Set Greeting"),
+ P("Greeting set to 'Hello'. Proceed to next step."),
+ Form(
+ Input(type="hidden", name="greeting", value="Hello"),
+ Button("Proceed", type="submit"),
+ hx_post=f"{self.prefix}/step_01_submit",
+ hx_target="#step_01"
+ )
+ ),
+ Div(id="step_02"),
+ id="step_01"
+ )
+
+async def step_01_submit(self, request):
+ form = await request.form()
+ pipeline_id = form.get("pipeline_id", None)
+ greeting = form.get("greeting", "Hello") # Hardcoded value
+
+ if not pipeline_id:
+ pipeline_id = datetime.now().strftime("%Y%m%d%H%M%S") # Fallback if not set
+ db["pipeline_id"] = pipeline_id
+
+ # Initialize pipeline if needed
+ self.pipulate.initialize_if_missing(pipeline_id, {"app_name": "starter"})
+
+ # Store step_01 data
+ self.pipulate.set_step_data(pipeline_id, "step_01", {"greeting": greeting})
+
+ # Show locked version
+ locked_card = self.pipulate.render_locked_card(
+ pipeline_id, "step_01", self.prefix,
+ f"Greeting: {greeting}",
+ final_step="finalize",
+ target_id="starter-container"
+ )
+ return Div(
+ locked_card,
+ self.pipulate.chain_next_step("step_02", self.prefix),
+ id="starter-container"
+ )
+```
+
+- **Explanation**:
+ - `step_01`: Checks if the step has data or is finalized. If not, shows a hardcoded “Hello” with a form to proceed.
+ - `hx_post="/starter/step_01_submit"`: Submits to the handler.
+ - `hx_target="#step_01"`: Updates the `Div` with ID `step_01` (local update).
+ - `step_01_submit`: Saves `greeting` to the pipeline state (`Pipulate.set_step_data`), renders a locked card, and chains to `step_02` using HTMX (`hx_get` with `hx_trigger="load"`).
+ - `render_locked_card` and `chain_next_step`: Assume these are now in `Pipulate`—simple helpers to reduce boilerplate.
+
+#### 5. **Step 2: Collect `b` (Your Name) and Display**
+The second Notebook cell (`b = 'Your Name'; print(a + ' ' + b)`) becomes a step to collect the user’s name and show the combined output.
+
+```python
+async def step_02(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ if not pipeline_id:
+ return await self.landing()
+
+ step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+ step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+ greeting = step1_data.get("greeting", "Hello")
+ name = step2_data.get("name", "")
+
+ # Check if finalized
+ finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+ if "finalized" in finalize_data:
+ return Div(
+ Card(f"Message: {greeting} {name} (locked)"),
+ self.pipulate.chain_next_step("finalize", self.prefix)
+ )
+
+ # If already submitted, show locked version
+ if name:
+ locked_card = self.pipulate.render_locked_card(
+ pipeline_id, "step_02", self.prefix,
+ f"Message: {greeting} {name}",
+ final_step="finalize",
+ target_id="starter-container"
+ )
+ return Div(
+ locked_card,
+ self.pipulate.chain_next_step("finalize", self.prefix)
+ )
+
+ # Show form to collect name
+ return Div(
+ Card(
+ H3("Step 2: Enter Your Name"),
+ Form(
+ self.pipulate.wrap_with_inline_button(
+ Input(type="text", name="name", placeholder="Your Name", required=True),
+ button_label="Submit"
+ ),
+ hx_post=f"{self.prefix}/step_02_submit",
+ hx_target="#step_02"
+ )
+ ),
+ Div(id="finalize"),
+ id="step_02"
+ )
+
+async def step_02_submit(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ form = await request.form()
+ name = form.get("name", "").strip()
+ if not name:
+ return P("Please enter your name.", style="color: red;")
+
+ # Retrieve step_01 data
+ step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+ greeting = step1_data.get("greeting", "Hello")
+
+ # Store step_02 data
+ self.pipulate.set_step_data(pipeline_id, "step_02", {"name": name})
+
+ # Show locked version
+ locked_card = self.pipulate.render_locked_card(
+ pipeline_id, "step_02", self.prefix,
+ f"Message: {greeting} {name}",
+ final_step="finalize",
+ target_id="starter-container"
+ )
+ return Div(
+ locked_card,
+ self.pipulate.chain_next_step("finalize", self.prefix)
+ )
+```
+
+- **Explanation**:
+ - `step_02`: Shows a form to collect `name` if not already set. If finalized or submitted, shows a locked card.
+ - `hx_post="/starter/step_02_submit"`: Submits to the handler.
+ - `step_02_submit`: Saves `name` to the pipeline state, renders the combined message (`Hello <name>`), and chains to finalize.
+ - HTMX Attributes: `hx_get`, `hx_trigger`, `hx_target` handle navigation and updates server-side—no client JS.
+
+#### 6. **Finalize Step**
+Add a finalize step to lock the workflow, with an option to unfinalize.
+
+```python
+async def finalize(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+ if "finalized" in finalize_data:
+ return Card(
+ "Workflow finalized.",
+ Form(
+ Button("Unfinalize", type="submit", style="background-color: #f66;"),
+ hx_post=f"{self.prefix}/unfinalize",
+ hx_target="#starter-container"
+ ),
+ style="color: green;"
+ )
+
+ # Check if all steps are complete
+ step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+ step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+ if step1_data.get("greeting") and step2_data.get("name"):
+ return Card(
+ H3("Finalize Workflow"),
+ P("All steps complete. Lock it in?"),
+ Form(
+ Button("Finalize", type="submit"),
+ hx_post=f"{self.prefix}/finalize_submit",
+ hx_target="#starter-container"
+ )
+ )
+ return Div(P("Complete all steps first."), id="finalize")
+
+async def finalize_submit(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ self.pipulate.set_step_data(pipeline_id, "finalize", {"finalized": True})
+ return Div(
+ Card(
+ "Workflow finalized.",
+ Form(
+ Button("Unfinalize", type="submit", style="background-color: #f66;"),
+ hx_post=f"{self.prefix}/unfinalize",
+ hx_target="#starter-container"
+ ),
+ style="color: green;"
+ ),
+ id="starter-container"
+ )
+
+async def unfinalize(self, request):
+ pipeline_id = db.get("pipeline_id", "")
+ self.pipulate.set_step_data(pipeline_id, "finalize", {})
+ # Reload from step_01
+ return Div(
+ Div(id="step_01", hx_get=f"{self.prefix}/step_01", hx_trigger="load"),
+ id="starter-container"
+ )
+```
+
+- **Explanation**:
+ - `finalize`: Shows a “Finalize” button if all steps are complete, or a locked state if finalized.
+ - `finalize_submit`: Marks the workflow as finalized in the pipeline state.
+ - `unfinalize`: Removes the finalized flag, reloads from step_01.
+ - HTMX: `hx_post`, `hx_target` keep updates server-side, with `hx_get` reloading steps as needed.
+
+---
+
+### HTMX Patterns Learned
+Here’s what you’re practicing with this build:
+- **Form Submission**: `hx_post` to submit forms (`/step_01_submit`, `/step_02_submit`), updating specific targets (`hx_target`).
+- **Dynamic Updates**: `hx_get` with `hx_trigger="load"` to chain steps (e.g., load `step_02` after submitting `step_01`).
+- **Targeted Rendering**: `hx_target="#step_01"` updates specific `Div`s without full page reloads.
+- **State Management**: `Pipulate.set_step_data`, `get_step_data` for persistence—no client-side state.
+- **Out-of-Band Swaps**: Not used here (since it’s simple), but you mentioned `hx_swap_oob`—we can add it for advanced cases (e.g., updating a sidebar) if needed later.
+
+---
+
+### Thoughts Before Jumping In
+Your approach makes perfect sense—starting with a Hello World `StarterFlow` lets you practice FastHTML/HTMX patterns while keeping the complexity low. It’s a stepping stone to `LinkGraphFlow`-style workflows without overwhelming you:
+- **Notebook-to-App Mapping**: Each Notebook cell becomes a step (`step_01`, `step_02`), with outputs rendered as UI (e.g., locked cards).
+- **Learning HTMX**: The attributes (`hx_post`, `hx_get`, `hx_target`, `hx_trigger`) are repetitive but learnable—muscle memory will kick in after a few workflows.
+- **WET but Manageable**: By keeping steps explicit and using `Pipulate` helpers, you avoid abstraction mystery while reducing boilerplate where it counts (e.g., locked cards, chaining).
+- **Future-Proofing**: No cloud, no vendor lock-in—just FastHTML, HTMX, and Python in a Nix flake. Perfect for local-first apps.
+
+---
+
+### Next Steps
+The code above gives you a minimal `StarterFlow` to start with. Here’s how to proceed:
+1. **Run and Test**: Implement the above code in your app (you’ll need `Pipulate` with the new helpers like `render_locked_card`, `chain_next_step`—I can provide updated `Pipulate` if needed). Test each step: landing → step_01 → step_02 → finalize.
+2. **Practice Adding a Step**: Add a `step_03` (e.g., “Enter a Suffix”, show `Hello <name> <suffix>`), following the pattern: new route, new handler, new submit handler, update chaining.
+3. **Document Muscle Memory**: Write down the HTMX patterns you use (`hx_post`, `hx_get`, etc.) and common FastHTML components (`Card`, `Form`, `Div`)—build a cheat sheet as you go.
+4. **Scale to `LinkGraphFlow`**: Once comfy with `StarterFlow`, port a Notebook closer to `LinkGraphFlow`’s complexity (e.g., a simple API call), using the same WET pattern.
+
+Does this guide feel like the right starting point? Want to tweak anything (e.g., more HTMX examples, adjust the steps)? I’m here to iterate with you—no over-engineering, just simple steps to get you flowing. 😎 
