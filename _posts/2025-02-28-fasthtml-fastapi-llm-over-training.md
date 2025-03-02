@@ -227,7 +227,7 @@ changer, to the extent that it could make ReactJS and everything like it
 obsolete for everything but edge cases. For most web development most of the
 time, you can make your code more performant and future-proofed by ditching
 client-side JS like React/Vue and just use the original HTML specification but a
-few more commands layered in by HTML that makes any element able to be updated
+few more commands layered in by HTMX that makes any element able to be updated
 without page-reloads. That reduces the need for JavaScript overall, because
 these updates even though they're quietly using JS in the background are
 completely interacted with through attributes, like the `href` of an `a` tag.
