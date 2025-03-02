@@ -1003,3 +1003,966 @@ I’m keeping your morale in mind—no major refactors, just small tweaks to smo
 - Or ditch it for verbose workflows if that’s the path of least resistance.
 
 For now, I’ll wait for the next drop—`BaseFlow` and a simple workflow example would be perfect. Anything specific you want me to focus on when I see them? Like a particular friction point (e.g., adding a step) or a customization struggle? 😎
+
+---
+
+## Let's Go to BaseFlow
+
+**Me**: Okay, this is a considerably larger code-drop. I'm giving you the
+easiest example of a Pipeline Workflow class based on BaseFlow, and it won't
+make much sense without the Pipulate helper class to go with it, but I'm going
+to let you absorb this first, and then I'll feed you both the Pipuate and
+DictLikeDB classes which will fill in a lot of the missing parts. I think that's
+better to give you ahead of LinkGraphFlow, because that alone is about 1000
+lines of code (hence the verbosity of customized workflows).
+
+```python
+class BaseFlow:
+    """Base class for multi-step flows with finalization."""
+
+    PRESERVE_REFILL = True
+
+    def __init__(self, app, pipulate, app_name, steps):
+        self.app = app
+        self.pipulate = pipulate
+        self.app_name = app_name
+        self.STEPS = steps
+        self.steps = {step.id: i for i, step in enumerate(self.STEPS)}
+
+        # Generate default messages
+        self.STEP_MESSAGES = {
+            "new": "Enter an ID to begin.",
+            "finalize": {
+                "ready": "All steps complete. Ready to finalize workflow.",
+                "complete": "Workflow finalized. Use Unfinalize to make changes."
+            }
+        }
+
+        # Add messages for each step
+        for step in self.STEPS:
+            if step.done != 'finalized':  # Skip finalize step
+                self.STEP_MESSAGES[step.id] = {
+                    "input": f"Step {step.id}: Please enter {step.show}",
+                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+                }
+
+        # Auto-register all routes
+        routes = [
+            (f"/{app_name}", self.landing),
+            (f"/{app_name}/init", self.init, ["POST"]),
+            (f"/{app_name}/unfinalize", self.unfinalize, ["POST"]),
+            (f"/{app_name}/jump_to_step", self.jump_to_step, ["POST"]),
+            (f"/{app_name}/revert", self.handle_revert, ["POST"])
+        ]
+
+        # Add step routes automatically from STEPS
+        for step in self.STEPS:
+            routes.extend([
+                (f"/{app_name}/{step.id}", self.handle_step),
+                (f"/{app_name}/{step.id}_submit", self.handle_step_submit, ["POST"])
+            ])
+
+        # Register all routes
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    def validate_step(self, step_id: str, value: str) -> tuple[bool, str]:
+        """Override this method to add custom validation per step.
+
+        Returns:
+            tuple[bool, str]: (is_valid, error_message)
+        """
+        return True, ""
+
+    async def process_step(self, step_id: str, value: str) -> str:
+        """Override this method to transform/process step input.
+
+        Returns:
+            str: Processed value to store
+        """
+        return value
+
+    async def handle_revert(self, request):
+        """Handle revert action by clearing steps after the reverted step."""
+        form = await request.form()
+        step_id = form.get("step_id")
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        if not step_id:
+            return P("Error: No step specified", style="color: red;")
+
+        # Clear forward steps
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Set revert target in state
+        state = self.pipulate.read_state(pipeline_id)
+        state["_revert_target"] = step_id
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Get state-aware message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await simulated_stream(message)
+
+        # Return same container structure as init()
+        placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+        return Div(*placeholders, id=f"{self.app_name}-container")
+
+    async def landing(self, display_name=None):
+        """Default landing page for flow."""
+        # Use provided display_name or generate default
+        title = display_name or f"{self.app_name.title()}: {len(self.STEPS) - 1} Steps + Finalize"
+
+        pipeline.xtra(app_name=self.app_name)
+        existing_ids = [record.url for record in pipeline()]
+
+        return Container(
+            Card(
+                H2(title),
+                P("Enter or resume a Pipeline ID:"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name="pipeline_id",
+                            placeholder="🗝 Old or existing ID here",
+                            required=True,
+                            autofocus=True,
+                            list="pipeline-ids"
+                        ),
+                        button_label=f"Start {self.app_name.title()} 🔑",
+                        button_class="secondary"
+                    ),
+                    Datalist(
+                        *[Option(value=pid) for pid in existing_ids],
+                        id="pipeline-ids"
+                    ),
+                    hx_post=f"/{self.app_name}/init",
+                    hx_target=f"#{self.app_name}-container"
+                )
+            ),
+            Div(id=f"{self.app_name}-container")
+        )
+
+    async def init(self, request):
+        """Standard init handler that sets up pipeline state."""
+        form = await request.form()
+        pipeline_id = form.get("pipeline_id", "untitled")
+        db["pipeline_id"] = pipeline_id
+
+        # Initialize pipeline
+        state, error = self.pipulate.initialize_if_missing(
+            pipeline_id,
+            {"app_name": self.app_name}
+        )
+
+        if error:
+            return error
+
+        # Generate placeholders for all steps
+        placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+
+        return Div(
+            *placeholders,
+            id=f"{self.app_name}-container"
+        )
+
+    async def handle_step(self, request):
+        """Generic step handler following the Step Display Pattern."""
+        step_id = request.url.path.split('/')[-1]
+        step_index = self.steps[step_id]
+        step = self.STEPS[step_index]
+        next_step_id = self.STEPS[step_index + 1].id if step_index < len(self.STEPS) - 1 else None
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        state = self.pipulate.read_state(pipeline_id)
+        step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
+        user_val = step_data.get(step.done, "")
+
+        # Special handling for finalize step
+        if step.done == 'finalized':
+            finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+
+            if "finalized" in finalize_data:
+                return Card(
+                    H3("Pipeline Finalized"),
+                    P("All steps are locked."),
+                    Form(
+                        Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                        hx_post=f"/{self.app_name}/unfinalize",
+                        hx_target=f"#{self.app_name}-container",
+                        hx_swap="outerHTML"
+                    )
+                )
+            else:
+                return Div(
+                    Card(
+                        H3("Finalize Pipeline"),
+                        P("You can finalize this pipeline or go back to fix something."),
+                        Form(
+                            Button("Finalize All Steps", type="submit"),
+                            hx_post=f"/{self.app_name}/{step_id}_submit",
+                            hx_target=f"#{self.app_name}-container",
+                            hx_swap="outerHTML"
+                        )
+                    ),
+                    id=step_id
+                )
+
+        # If locked, always chain to next step
+        finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+        if "finalized" in finalize_data:
+            return Div(
+                Card(f"🔒 {step.show}: {user_val}"),
+                Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+            )
+
+        # If completed, show with revert and chain
+        if user_val and state.get("_revert_target") != step_id:
+            return Div(
+                self.pipulate.revert_control(
+                    step_id=step_id,
+                    app_name=self.app_name,
+                    message=f"{step.show}: {user_val}",
+                    steps=self.STEPS
+                ),
+                Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+            )
+
+        # Get value to show in input - either from refill or suggestion
+        display_value = ""
+        if step.refill and user_val and self.PRESERVE_REFILL:
+            display_value = user_val  # Use existing value if refilling
+        else:
+            suggested = await self.get_suggestion(step_id, state)
+            display_value = suggested  # Use suggestion if no refill value
+
+        await simulated_stream(self.STEP_MESSAGES[step_id]["input"])
+
+        # Show input form
+        return Div(
+            Card(
+                H3(f"Enter {step.show}"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="text",
+                            name=step.done,
+                            value=display_value,
+                            placeholder=f"Enter {step.show}",
+                            required=True,
+                            autofocus=True
+                        )
+                    ),
+                    hx_post=f"/{self.app_name}/{step_id}_submit",
+                    hx_target=f"#{step_id}"
+                )
+            ),
+            Div(id=next_step_id),
+            id=step_id
+        )
+
+    async def get_suggestion(self, step_id, state):
+        """Override this in your flow to provide dynamic suggestions"""
+        return ""
+
+    async def handle_step_submit(self, request):
+        """Generic submit handler for all steps."""
+        step_id = request.url.path.split('/')[-1].replace('_submit', '')
+        step_index = self.steps[step_id]
+        step = self.STEPS[step_index]
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Special handling for finalize step
+        if step.done == 'finalized':
+            # Update the state
+            state = self.pipulate.read_state(pipeline_id)
+            state[step_id] = {step.done: True}
+            self.pipulate.write_state(pipeline_id, state)
+
+            # Get state-aware message
+            message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+            await simulated_stream(message)
+
+            # Return same container structure as init()
+            placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
+            return Div(*placeholders, id=f"{self.app_name}-container")
+
+        # Regular step handling continues here...
+        form = await request.form()
+        user_val = form.get(step.done, "")
+
+        # Validate input
+        is_valid, error_msg = self.validate_step(step_id, user_val)
+        if not is_valid:
+            return P(error_msg, style="color: red;")
+
+        # Process input
+        processed_val = await self.process_step(step_id, user_val)
+        next_step_id = self.STEPS[step_index + 1].id if step_index < len(self.STEPS) - 1 else None
+
+        # Clear forward steps
+        await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Write new state and clear revert target
+        state = self.pipulate.read_state(pipeline_id)
+        state[step_id] = {step.done: processed_val}
+        if "_revert_target" in state:
+            del state["_revert_target"]
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Get state-aware message
+        message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
+        await simulated_stream(message)
+
+        # Chain to next step
+        return Div(
+            self.pipulate.revert_control(
+                step_id=step_id,
+                app_name=self.app_name,
+                message=f"{step.show}: {processed_val}",
+                steps=self.STEPS
+            ),
+            Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
+        )
+
+    def format_textarea(self, text: str, with_check: bool = False) -> P:
+        """
+        Formats pipeline step text with consistent FastHTML styling.
+
+        This is a core UI helper used across pipeline steps to maintain
+        consistent text display. The pre-wrap and margin settings ensure
+        multi-line text displays properly within pipeline cards.
+
+        The optional checkmark (✓) indicates completed steps in the
+        pipeline flow, following the "show completed state" pattern
+        from .cursorrules.
+
+        Args:
+            text: Text content to format (usually from pipeline state)
+            with_check: Add completion checkmark (default: False)
+        """
+        return P(
+            Pre(
+                text,
+                style=(
+                    "white-space: pre-wrap; "
+                    "margin-bottom: 0; "
+                    "margin-right: .5rem; "
+                    "padding: .25rem;"
+                )
+            ),
+            " ✓" if with_check else ""
+        )
+
+    def generate_step_placeholders(self, steps, app_name):
+        """Generate placeholder divs for each step with proper HTMX triggers."""
+        placeholders = []
+        for i, step in enumerate(steps):
+            trigger = "load"
+            if i > 0:
+                # Chain reaction: trigger when previous step completes
+                prev_step = steps[i - 1]
+                trigger = f"stepComplete-{prev_step.id} from:{prev_step.id}"
+
+            placeholders.append(
+                Div(
+                    id=step.id,
+                    hx_get=f"/{app_name}/{step.id}",
+                    hx_trigger=trigger,
+                    hx_swap="outerHTML"
+                )
+            )
+        return placeholders
+
+    async def delayed_greeting(self):
+        """Provides a gentle UX delay before prompting for pipeline ID.
+
+        The simulated chat stream maintains the illusion of "thinking" while
+        actually just managing timing and UX expectations. This is preferable
+        to instant responses which can make the system feel too reactive and
+        breaking pace with the LLM-provided chat that has inherent latency.
+        """
+        await asyncio.sleep(2)
+        await simulated_stream("Enter an ID to begin.")
+
+    async def explain(self, message=None):
+        asyncio.create_task(chatq(message, role="system"))
+
+    async def handle_finalize(self, steps: list, app_name: str) -> Card:
+        """Handles finalize step display based on pipeline state.
+
+        This is a key state transition point that follows the Pipeline Pattern:
+        - If finalized: Shows locked view with unfinalize option
+        - If all steps complete: Shows finalize button
+        - Otherwise: Shows "nothing to finalize" message
+
+        The finalize step is special - it has no data of its own, just a flag.
+        This maintains the "Submit clears forward" principle even at the end.
+
+        Args:
+            steps: List of Step objects defining the pipeline
+            app_name: URL prefix for route generation
+        """
+
+        pipeline_id = db.get("pipeline_id", "unknown")
+        finalize_step = steps[-1]
+        finalize_data = self.get_step_data(pipeline_id, finalize_step.id, {})
+
+        # Add debug logging
+        logger.debug(f"Pipeline ID: {pipeline_id}")
+        logger.debug(f"Finalize step: {finalize_step}")
+        logger.debug(f"Finalize data: {finalize_data}")
+
+        if finalize_step.done in finalize_data:
+            logger.debug("Pipeline is finalized")
+            return Card(
+                H3("All Cards Complete"),
+                P("Pipeline is finalized. Use Unfinalize to make changes."),
+                Form(
+                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                    hx_post=f"/{app_name}/unfinalize",
+                    hx_target=f"#{app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;",
+                id=finalize_step.id
+            )
+
+        # Check completion
+        non_finalize_steps = steps[:-1]
+
+        # Add debug logging for each step's completion state
+        for step in non_finalize_steps:
+            step_data = self.get_step_data(pipeline_id, step.id, {})
+            step_value = step_data.get(step.done)
+            logger.debug(f"Step {step.id} completion: {step_value}")
+
+        all_steps_complete = all(
+            self.get_step_data(pipeline_id, step.id, {}).get(step.done)
+            for step in non_finalize_steps
+        )
+
+        logger.debug(f"All steps complete: {all_steps_complete}")
+
+        if all_steps_complete:
+            return Card(
+                H3("Ready to finalize?"),
+                P("All data is saved. Lock it in?"),
+                Form(
+                    Button("Finalize", type="submit"),
+                    hx_post=f"/{app_name}/finalize_submit",
+                    hx_target=f"#{app_name}-container",
+                    hx_swap="outerHTML"
+                ),
+                id=finalize_step.id
+            )
+        return Div(P("Nothing to finalize yet."), id=finalize_step.id)
+
+    async def handle_finalize_submit(self, steps: list, app_name: str, messages: dict) -> Div:
+        """Handle submission of finalize step."""
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Get current state
+        state = self.read_state(pipeline_id)
+
+        # Add finalize flag
+        state["finalize"] = {"finalized": True}
+
+        # Update timestamp
+        state["updated"] = datetime.now().isoformat()
+
+        # Write updated state
+        self.write_state(pipeline_id, state)
+
+        # Return the same container with placeholders that initial load uses
+        return Div(
+            *self.generate_step_placeholders(steps, app_name),
+            id=f"{app_name}-container"
+        )
+
+    async def handle_unfinalize(self, steps: list, app_name: str, messages: dict) -> Div:
+        """Handle unfinalize action by removing finalize state."""
+        pipeline_id = db.get("pipeline_id", "unknown")
+
+        # Update state
+        state = self.pipulate.read_state(pipeline_id)
+        if "finalize" in state:
+            del state["finalize"]
+        self.pipulate.write_state(pipeline_id, state)
+
+        # Return same container structure as init()
+        placeholders = self.generate_step_placeholders(steps, app_name)
+        return Div(*placeholders, id=f"{app_name}-container")
+
+    def id_conflict_style(self):
+        return "background-color: var(--pico-del-color);"
+```
+
+And here's a StarterFlow based on it.
+
+```python
+class StarterFlow(BaseFlow):
+    """Minimal three-card pipeline with finalization."""
+
+    def __init__(self, app, pipulate, app_name="starter"):
+        # Define steps including finalize
+        steps = [
+            Step(id='step_01', done='name', show='Your Name', refill=True),
+            Step(id='step_02', done='email', show='Your Email', refill=True),
+            Step(id='step_03', done='phone', show='Your Phone', refill=True),
+            Step(id='step_04', done='website', show='Your Website', refill=True),
+            Step(id='finalize', done='finalized', show='Finalize', refill=False)
+        ]
+
+        # Let BaseFlow handle all the routing and step handling
+        super().__init__(app, pipulate, app_name, steps)
+
+        # Generate messages for this specific flow
+        self.STEP_MESSAGES = self.pipulate.generate_step_messages(self.STEPS)
+
+    # Override landing only if you need custom behavior
+    async def landing(self):
+        """Custom landing page for StarterFlow."""
+        base_landing = await super().landing(display_name="Starter Flow Demo")
+        asyncio.create_task(self.delayed_greeting())
+        return base_landing
+
+    # Finalization handlers
+    async def finalize(self, request):
+        return await self.handle_finalize(self.STEPS, self.app_name)
+
+    async def finalize_submit(self, request):
+        return await self.handle_finalize_submit(self.STEPS, self.app_name, self.STEP_MESSAGES)
+
+    async def unfinalize(self, request):
+        return await self.handle_unfinalize(self.STEPS, self.app_name, self.STEP_MESSAGES)
+
+    async def jump_to_step(self, request):
+        form = await request.form()
+        step_id = form.get("step_id")
+        db["step_id"] = step_id
+        return self.pipulate.rebuild(self.app_name, self.STEPS)
+```
+
+It's worth noting that the STEPs configuration is from a namedtuple found
+in global earlier in the code.
+
+```python
+Step = namedtuple('Step', ['id', 'done', 'show', 'refill', 'transform'], defaults=(None,))  # default transform to None
+```
+
+And don't bust my chops over global. Global in Python means at module scope, so
+all that crap about global being bad is different in Python, because global is a
+deliberate object. Also, this is a single tenant app where the whole server is
+running for one Electron-like nix app. Concerns are different. But don't let
+that derail you from the main point. Digest the BaseFlow superclass and prep
+yourself to see why I hate it (when I show you LinkGraphFlow form the other
+codebase).
+
+**Grok 3**: Thanks for dropping this chunk of code—it’s a hefty but manageable piece to digest, and I’m already seeing the shape of your workflow system with `BaseFlow` and the `StarterFlow` example. I’ll break this down systematically, focusing on how `BaseFlow` works, where the friction you mentioned (step definitions, routing, customization) comes in, and how it sets the stage for struggles with something like `LinkGraphFlow`. I’ll hold off on needing `Pipulate` or `DictLikeDB` classes for now since there’s plenty to unpack here, but I’ll flag where they’ll likely fit in once you share them. Let’s dive in.
+
+---
+
+### Understanding `BaseFlow`: The Big Picture
+`BaseFlow` is a superclass designed to abstract away the boilerplate of multi-step workflows in your FastHTML app. It’s built to handle a pipeline-like flow (card/step 1 → card/step 2 → finalize), with automatic routing, state management via MiniDataAPI (`pipeline` table), and HTMX-driven interactivity. It’s clearly meant to reduce repetition across workflows by providing a standard structure—routes, step handlers, and UI patterns like revert/finalize. However, as you’ve pointed out, it introduces rigidity that bites hard when customization (like `LinkGraphFlow`) comes into play.
+
+#### Key Components of `BaseFlow`
+1. **Step Definitions via `STEPS`**:
+   - Takes a list of `Step` namedtuples (`id`, `done`, `show`, `refill`, `transform`) to define the workflow.
+   - Each step has a unique `id`, a `done` field (what’s stored in the pipeline state), a `show` field (display name), a `refill` flag (preserve input for re-editing), and an optional `transform` (not used in `StarterFlow`).
+   - Steps are indexed into a `self.steps` dict for quick lookup (`step_id → index`).
+
+2. **Automatic Routing**:
+   - Registers routes for all steps dynamically in `__init__`:
+     - `/app_name` (landing page).
+     - `/app_name/init` (initialize pipeline).
+     - `/app_name/{step_id}` (render a step).
+     - `/app_name/{step_id}_submit` (handle step submission).
+     - `/app_name/unfinalize`, `/app_name/revert`, `/app_name/jump_to_step` (workflow controls).
+   - Each step gets its own route, which ties directly to the friction you mentioned—adding a step means redefining `STEPS` and ensuring routes/methods align.
+
+3. **State Management**:
+   - Relies on `self.pipulate` (not shared yet) to read/write state to the `pipeline` table (JSON blob in `data` field).
+   - Uses `db` (presumably `DictLikeDB`) to store the current `pipeline_id` between requests.
+   - State includes step outputs, `finalize` flags, and temporary flags like `_revert_target`.
+
+4. **Step Handling**:
+   - `handle_step`: Renders a step’s UI (form for input, or completed state with revert option). Uses HTMX to chain to the next step (`hx_get` with `hx_trigger="load"`).
+   - `handle_step_submit`: Processes step input, updates state via `pipulate`, and chains to the next step.
+   - Supports validation (`validate_step`) and processing (`process_step`), which can be overridden but default to no-op.
+
+5. **Finalization**:
+   - Last step is typically a `finalize` step (e.g., `done='finalized'`), which locks the workflow.
+   - Provides `unfinalize` to unlock and revert controls to roll back steps.
+
+6. **UI Patterns**:
+   - Uses FastHTML components (`Div`, `Card`, `Form`, etc.) with HTMX to create dynamic, server-driven UIs.
+   - Placeholder `Div`s (`generate_step_placeholders`) ensure steps load sequentially via HTMX triggers.
+   - Messages (`STEP_MESSAGES`) provide user feedback per step (e.g., “Enter Your Name”, “Name complete: <John>”).
+
+---
+
+### The `StarterFlow` Example: A Clean but Rigid Case
+`StarterFlow` is a minimal workflow inheriting from `BaseFlow`, with four steps (name, email, phone, website) plus a finalize step. It’s clean and works well within `BaseFlow`’s constraints:
+- **Steps**: Defined as a list of `Step` namedtuples—simple inputs with `refill=True` for re-editing.
+- **Routing**: Inherits all routes from `BaseFlow` (`/starter`, `/starter/step_01`, etc.—no extra work needed).
+- **Customization**: Minimal—overrides `landing` for a custom title and adds finalization handlers, but otherwise sticks to `BaseFlow` defaults.
+- **Behavior**: User enters a `pipeline_id`, inputs data step-by-step, finalizes, and can revert/unfinalize as needed.
+
+This example shines because it fits `BaseFlow`’s mold perfectly: linear steps, predictable inputs, no wild deviations. But as you’ve noted, the moment you need something custom (like `LinkGraphFlow`), this rigidity becomes a straightjacket.
+
+---
+
+### Where the Friction Comes In
+Now that I’ve got `BaseFlow` in front of me, I can see exactly where the friction you described (needing to predefine steps, routes, methods) arises. Let’s break it down:
+
+#### 1. **Predefined `STEPS` Requirement**
+- **Problem**: You have to define all steps upfront in `STEPS` when initializing the workflow (`StarterFlow` does this with `steps = [...]`). Adding a new step means editing this list and restarting the app (or at least re-instantiating the flow).
+- **Impact**: This clashes with the iterative nature of notebook-style workflows, where you’d prefer to append a step (or cell) incrementally without touching a master list. It feels like defining a contract before you’ve even prototyped the workflow.
+- **Example**: If I want to add a “Your Address” step to `StarterFlow`, I’d need to:
+  1. Update the `steps` list in `__init__`.
+  2. Restart the app (since routes are registered at init time).
+  3. Ensure any state in the `pipeline` table aligns with the new step count.
+
+#### 2. **Static Routing Tied to Steps**
+- **Problem**: `BaseFlow` auto-registers routes for each step (`/{app_name}/{step_id}`). Adding a step means the routing logic in `__init__` needs to account for it, which isn’t dynamic—you can’t just append a route at runtime without redefining the whole flow.
+- **Impact**: Makes it cumbersome to iterate on workflows. You can’t just “add a step” and keep going—you’re forced to update routes, which feels like overkill for a single-user app where flexibility matters more than rigid structure.
+- **Example**: Adding “Your Address” as `step_05` requires ensuring `/starter/step_05` and `/starter/step_05_submit` are registered, which happens at init time—not dynamically adjustable.
+
+#### 3. **Customization Overhead**
+- **Problem**: While `BaseFlow` provides hooks (`validate_step`, `process_step`, `get_suggestion`), customizing beyond simple input forms (like `StarterFlow`) requires overriding methods extensively. For something like `LinkGraphFlow`, which likely has dynamic steps, complex UI, or non-linear logic, these overrides become unwieldy.
+- **Impact**: As you said, “trying to do anything custom explodes the complexity.” If `LinkGraphFlow` involves, say, a graph-building UI with multiple inputs per step or conditional branching, fitting that into `BaseFlow`’s linear step model means overriding `handle_step`, `handle_step_submit`, and possibly rewriting how state is managed—too much mental overhead.
+- **Example**: If `LinkGraphFlow` needs a step where users upload a file and get a visualization, you’d override `handle_step` to render a file input, `process_step` to handle the file, and `validate_step` for checks—all while ensuring `BaseFlow`’s assumptions about state and routing don’t break.
+
+#### 4. **State Management Rigidity**
+- **Problem**: State management (via `pipulate`) assumes a step-by-step linear flow where each step writes a single `done` value to the JSON blob. Complex workflows might need more state per step (e.g., multiple fields, nested data, or dynamic step counts).
+- **Impact**: For `StarterFlow`, this is fine—each step is a single text input. But for `LinkGraphFlow`, you might need richer state (e.g., a graph structure), which doesn’t fit neatly into `BaseFlow`’s `state[step_id] = {step.done: value}` pattern.
+- **Example**: If `LinkGraphFlow` builds a graph incrementally, you might need `state[step_id] = {"nodes": [...], "edges": [...]}`—not just a single value—requiring a rewrite of how state is read/written.
+
+---
+
+### Why `BaseFlow` Works for `StarterFlow` but Fails for Customization
+`StarterFlow` is the poster child for `BaseFlow`—it’s linear, predictable, and fits the mold:
+- Steps are simple text inputs.
+- Each step has a single output (`name`, `email`, etc.).
+- Finalization and reverting are straightforward.
+- No need for complex UI or dynamic step counts.
+
+But as soon as you deviate—like with `LinkGraphFlow`—the cracks show:
+- **Non-Linear or Dynamic Steps**: If `LinkGraphFlow` needs conditional branching (e.g., “if user chooses X, skip to step 5”), `BaseFlow`’s rigid `STEPS` list and chaining logic (`hx_get` to next step) don’t bend easily.
+- **Complex UI**: If a step involves multiple inputs (e.g., a form with 5 fields) or a visualization (e.g., a D3.js graph), `handle_step`’s default form-based rendering falls apart—you’d need a full override.
+- **State Complexity**: If a step’s state isn’t a single value but a complex structure, the `state[step_id] = {step.done: value}` pattern feels limiting.
+
+This is exactly what you meant by “the superclassed workflows become incompetent for me to design”—`BaseFlow` assumes a certain simplicity, and when you break that mold, you’re fighting the framework instead of building your app.
+
+---
+
+### Addressing the Friction Without a Major Refactor
+Since you want to avoid a gut-punch refactor, let’s explore ways to reduce friction while keeping `BaseFlow` (or parts of it). I’ll propose some ideas here, and we can refine them once I see `Pipulate` and `LinkGraphFlow` to get the full picture.
+
+#### 1. Make Step Definitions More Dynamic
+**Goal**: Allow adding steps incrementally without redefining `STEPS` and restarting routes.
+- **Option**: Store steps in the `pipeline` table’s JSON blob (e.g., `state["steps"] = [...]`) instead of a hardcoded `STEPS` list in code. On workflow init, read the steps from state (fall back to a default if missing).
+- **How It Works**:
+  - Modify `BaseFlow.__init__` to accept steps from `pipulate.read_state(pipeline_id).get("steps", default_steps)`.
+  - When adding a step, append to `state["steps"]` and write back via `pipulate.write_state`.
+  - Routes can stay the same (`/{app_name}/{step_id}`), but `handle_step` looks up `step_id` in the dynamic `state["steps"]` instead of a static `self.STEPS`.
+- **Pros**: Lets you iterate on steps without touching code—just update the pipeline state.
+- **Cons**: Makes workflows less “self-documenting” (steps aren’t in code anymore) and requires careful state migration if existing pipelines exist.
+
+#### 2. Simplify Routing with a Catch-All Route
+**Goal**: Avoid defining routes per step—adding a step shouldn’t mean touching routing logic.
+- **Option**: Replace per-step routes with a single catch-all route (e.g., `/{app_name}/{step_id}`) that delegates to a generic handler.
+- **How It Works**:
+  - In `BaseFlow.__init__`, register just a few routes:
+    ```python
+    routes = [
+        (f"/{app_name}", self.landing),
+        (f"/{app_name}/init", self.init, ["POST"]),
+        (f"/{app_name}/{step_id:path}", self.handle_step),  # Catch-all for steps
+        (f"/{app_name}/{step_id:path}_submit", self.handle_step_submit, ["POST"]),
+        # ... other control routes ...
+    ]
+    ```
+  - `handle_step` and `handle_step_submit` parse `step_id` dynamically and look it up in `self.STEPS` (or dynamic state if using option 1).
+- **Pros**: Adding a step doesn’t require new routes—just update `STEPS` (or state) and the handler adapts.
+- **Cons**: Slightly less explicit routing (harder to see all endpoints at a glance), but FastHTML’s routing can handle it fine.
+
+#### 3. Make Customization Easier with Flexible Step Handling
+**Goal**: Reduce the need for heavy overrides when steps get complex (like `LinkGraphFlow`).
+- **Option**: Add a `custom_render` hook to `BaseFlow` that lets workflows define per-step UI without overriding all of `handle_step`.
+- **How It Works**:
+  - Add a method like `render_custom_step(self, step_id, state)` that defaults to the current form-based rendering but can be overridden.
+  - In `handle_step`, check if a custom render exists:
+    ```python
+    async def handle_step(self, request):
+        step_id = request.url.path.split('/')[-1]
+        step_index = self.steps.get(step_id, -1)
+        if step_index == -1:
+            return P("Invalid step", style="color: red;")
+
+        step = self.STEPS[step_index]
+        pipeline_id = db.get("pipeline_id", "unknown")
+        state = self.pipulate.read_state(pipeline_id)
+
+        # Check for custom rendering
+        custom_ui = await self.render_custom_step(step_id, state)
+        if custom_ui:
+            return custom_ui
+
+        # Default rendering (current logic)
+        # ... rest of current handle_step logic ...
+    ```
+  - Workflows like `LinkGraphFlow` can override `render_custom_step` to return complex UI (e.g., a graph editor) without touching the core step logic.
+- **Pros**: Keeps `BaseFlow`’s structure intact but gives you an escape hatch for complex steps.
+- **Cons**: Still requires some overriding, but it’s more targeted than rewriting `handle_step` entirely.
+
+#### 4. Consider Ditching `BaseFlow` for Verbose Workflows
+**Goal**: If the above tweaks don’t cut it, go back to verbose but readable workflows without a superclass.
+- **Option**: Write each workflow as a standalone class with its own routes and handlers, using helper functions (e.g., `generate_step_placeholders`, `format_textarea`) to reduce boilerplate.
+- **How It Works**:
+  - Extract common utilities from `BaseFlow` into standalone functions (e.g., `pipulate_utils.py`).
+  - Each workflow defines its own `STEPS`, routes, and handlers explicitly.
+  - Use `Pipulate` directly for state management without the `BaseFlow` abstraction.
+- **Pros**: Maximum flexibility—customization is trivial since there’s no rigid superclass to fight.
+- **Cons**: More boilerplate per workflow, though helpers can mitigate this.
+
+---
+
+### Preparing for `LinkGraphFlow`
+Since you’ve warned me that `LinkGraphFlow` is ~1000 lines and a beast of customization, I’m expecting it to push `BaseFlow`’s limits hard:
+- **Dynamic or Non-Linear Steps**: Maybe steps depend on runtime data (e.g., “build a node, then an edge”), requiring dynamic step creation.
+- **Complex UI**: Could involve graphs, multiple inputs per step, or interactive elements that don’t fit `BaseFlow`’s “one input → one output” model.
+- **Rich State**: Probably needs more than a single value per step—maybe a nested JSON structure for graph data.
+- **Pre-`BaseFlow` Success**: Since it worked better without `BaseFlow`, it likely had its own bespoke logic that didn’t fit a rigid mold.
+
+Once you share it, I’ll compare it to `BaseFlow` and see where the real clashes are. My gut says it’ll need either a heavily customized `BaseFlow` subclass (with lots of overrides) or a standalone implementation alongside `BaseFlow`-based flows.
+
+---
+
+### Addressing the Global `Step` Namedtuple
+No chops busted here—I totally get why you’re using a global `Step` namedtuple. In Python, “global” just means module-scoped, and for a single-tenant app running in a Nix container, the concerns around globals (e.g., namespace pollution in a multi-threaded app) don’t apply the same way. It’s a clean way to define a data structure shared across workflows. No derailment here—we’ll keep focused on `BaseFlow` and the customization friction.
+
+---
+
+### Next Steps
+I’ve got a good handle on `BaseFlow` and `StarterFlow` now. Here’s what I’d like to do next:
+1. **See `Pipulate` and `DictLikeDB`**: These will fill in the gaps around state management (`read_state`, `write_state`, etc.) and how `db` works. I can infer a lot already, but seeing them will help me propose more concrete tweaks.
+2. **See `LinkGraphFlow`**: This’ll show me the customization level you’re aiming for and where `BaseFlow` falls short. I can then suggest either a way to fit it into `BaseFlow` (with minimal overrides) or a path to coexist standalone.
+3. **Address Friction Directly**:
+   - Propose a way to add steps incrementally (e.g., dynamic `STEPS` or catch-all routing).
+   - Suggest customization patterns that don’t explode complexity (e.g., `render_custom_step` hook).
+   - Evaluate if ditching `BaseFlow` for verbose workflows is the better long-term play.
+
+For now, I’ll wait for your next drop—`Pipulate` and `DictLikeDB` would be great to see first, since they’ll give me the full picture of state management. Then `LinkGraphFlow` to really understand the customization beast we’re dealing with.
+
+---
+
+### Keeping Morale High
+I’m keeping your goal of “no gut-punch refactors” front and center. Any changes I suggest will be incremental—tweaks to `BaseFlow`, new helper methods, or documentation patterns to make customization less painful. If we end up leaning toward verbose workflows, we’ll do it gradually, extracting helpers from `BaseFlow` as we go.
+
+Anything specific you want me to focus on as I prep for the next drop? Like a particular friction point in `BaseFlow` that’s been eating at you the most? 😎
+
+---
+
+## Forget Non-Linear (Notebook Mentality)
+
+> So far, Grok 3 has "grokked" what I'm doing better than the other LLMs. But I
+> see the first signs of context-window drift. Giving a little nudge.
+
+**Me**: Forget non-linear. We're using Notebook / Unix pipe mentality. What I'm
+trying to do is complex enough without making it open-ended to non-linear
+workflows. We might as well ditch the concept of a framework and just go with
+completely custom Python every time. No, this is to take things that can be
+easily documented with a step-by-step procedure in documentation like in
+Microsoft Word or a Google Doc and sprinkling in code. It's very much aligned
+with the Notebook concept of Don Knuth and Literate Programming. So please
+control the scope. I have no desire to "go off the rails". Within a "card" or
+step or cell, whatever you want to call it, the Python can get as complex and
+non-linear as you want, like the `ls` program in Unix can do a lot. But
+ultimately, it's a simple program that takes input and gives output, designed to
+be piped up in a linear flow. We design our cards/steps like that.
+
+Another thing to take into account is that the inputs and outputs will always be
+simple, fitting easily into the JSON blob. Side-effects are things written to
+the file system or other databases. Remember, this is a localhost app with full
+access to the local machine, so side-effects can be pretty dramatic like
+megabyte-large files, full webcrawls or whatnot. But the path to such files can
+fit easily in the JSON data blob, no problem. And because entering a key back in
+is easy, the entire pipeline record can be considered temporary, transient and
+disposable. The main point is often the side effects. But say you created a
+visualization which made a large local file. All you have to do is put that key
+back in. If the pipeline record already exists, you gain immediate access to the
+side-effects with whatever UI elements are designed into the cards. Otherwise,
+you may have to answer a few lightweight questions again, but when you do, a new
+pipeline record is created, and given the same input, it will re-connect to the
+side-effects and provide the user interface again.
+
+In other words, you are already going down some of the paths LLMs are
+over-trained to do and it's a cause for concern. This system is designed with
+all the anti-patterns specified earlier in the conversation, very specifically
+with the types of rails that a Notebook / Unix pipe workflow implies. The fact
+you're already edge-casing it outside of these conceptual rails is a cause for
+concern.
+
+I've read your proposed solutions, and I get them. My main concern with things
+like a unified route for steps is the customization and readability again. It's
+just another version of templating, which I'm bound to both chaff against and
+not understand at quick glance. I'd rather allow a bit of friction with
+multi-step verbosity than anything that compels "losing control" of the code.
+
+Okay, so you've got my latest feedback. I'm itching to feed you LinkGraphFlow
+because there's so much to grok from that. However, I want to hear your feedback
+on this, and perhaps summarize everything so far so in case we do lose this
+context and this discussion context gets bogged down, I'll have a way to get you
+back to where we are in a fresh discussion. Still, I'm going to go with this
+discussion history for as long as I can.
+
+**Grok 3**: No worries, I appreciate the nudge—I’m tracking with you and I’ll keep the scope tight to the linear, Notebook/Unix pipe mentality you’re aiming for. I hear you loud and clear: no non-linear workflows, no off-the-rails complexity, and definitely no sneaky templating or over-engineered patterns that make you lose control of the code. We’re sticking to the rails of step-by-step, Literate Programming-style flows where each “card/step/cell” (I’ll use “step” for consistency) is a self-contained unit—simple inputs/outputs fitting into the JSON blob, with side effects (like big files or web crawls) handled locally and referenced in the blob. Let’s keep it grounded and focused.
+
+---
+
+### Addressing Your Concerns: Keeping It Linear and Readable
+I’m glad you flagged the potential drift—I might’ve been edging toward complexity with suggestions like dynamic routing or overly flexible step handling, which I now see doesn’t align with your vision. You’re right to pull me back: your system is designed for linear flows (like Unix pipes or Jupyter Notebooks), where each step takes simple input, produces simple output (storable in the JSON blob), and possibly triggers side effects (e.g., writing a file or crawling a site). The complexity lives *inside* the step (like `ls` in Unix), but the pipeline itself stays straightforward: step 1 | step 2 | step 3.
+
+Here’s how I’ll adjust my approach based on your feedback:
+
+1. **Stick to Linear Workflows**:
+   - Each workflow is a strict sequence of steps—input flows to output, no branching or dynamic step counts. The pipeline table (`pipeline`) tracks state linearly, and each step updates the JSON blob (`data` field) with its output.
+   - Adding a step means appending to the sequence, but we’ll keep it explicit and verbose for readability, not abstracted into some “clever” dynamic system.
+
+2. **Simple Inputs/Outputs**:
+   - Inputs and outputs per step are lightweight (strings, paths, etc.) that fit into the JSON blob—no nested structures unless absolutely needed.
+   - Side effects (e.g., a generated file, a scraped dataset) are managed locally (since this is a localhost app with full disk access), and their references (e.g., file paths) are stored in the blob. No need to overcomplicate state management.
+
+3. **Transient Pipeline Records**:
+   - The `pipeline` table record (with its `url` key) is disposable—if it’s gone, the user can restart the workflow with the same key and reattach to side effects (e.g., re-display a visualization by pointing to the same file).
+   - This reinforces the “side effects are the point” philosophy: the pipeline record is just a facilitator, not the end goal.
+
+4. **Avoid Templating or Loss of Control**:
+   - I’ll steer clear of suggesting unified routes or abstracted handlers that obscure what’s happening. You want explicit, verbose routing (e.g., `/app/step_01`, `/app/step_02`) so you can see and control every piece—no hidden magic.
+   - Customization stays at the forefront: each step’s logic is clear in the code, even if it’s verbose, so you don’t have to dig through layers of abstraction to grok what’s happening.
+
+5. **Friction Is Fine If It’s Readable**:
+   - You’re okay with the friction of updating `STEPS`, routes, and methods manually for each new step—it’s a deliberate choice to keep things readable and under your control.
+   - We’ll focus on minimizing mental overhead (e.g., better docs, clearer patterns) rather than minimizing friction through abstractions you’d chafe against.
+
+---
+
+### Summarizing Where We Are
+Since you’re worried about context-window drift (and losing this thread), I’ll summarize everything we’ve covered so far. This can serve as a checkpoint—if we need to start fresh in a new discussion, you can paste this summary to get me back up to speed. I’ll keep it concise but comprehensive, covering the key points of your system, goals, and concerns.
+
+#### 1. **Your System Overview**
+- **Purpose**: Build a FastHTML-based web app to transpose Jupyter Notebooks into linear, step-by-step workflows (like Unix pipes or Literate Programming). Hide Python code from end users, presenting a clean UI while allowing complex side effects (e.g., file writes, web crawls).
+- **Tech Stack**:
+  - FastHTML for server-driven web apps (no templates, Python-first).
+  - HTMX for dynamic UI updates without client-side JS.
+  - MiniDataAPI for SQLite database (`data.db`) with tables: `pipeline` (workflow state), `store` (`DictLikeDB`, for passing IDs), `tasks`, `profiles` (CRUD).
+  - Nix flake for reproducible setup (Python, `.venv`, Jupyter, FastHTML).
+  - Shared `.venv` for Jupyter (port 8888) and FastHTML (port 5001) to sync dependencies.
+  - Ollama (host-provided) for LLM integration (e.g., Gemma) with just-in-time prompt injection.
+- **Anti-Patterns**:
+  - Server owns all state—no client-side storage (except `DictLikeDB` for IDs).
+  - Single-tenant, localhost app (Electron-like via Nix), so scaling concerns are secondary.
+  - Full local access for side effects (e.g., file system writes, large datasets).
+  - Avoids external templates (e.g., Jinja2), JS frameworks, or FastAPI bloat.
+
+#### 2. **Pipeline System**
+- **Structure**:
+  - `pipeline` table: One record per workflow, with `url` as PK (a unique key users can re-enter), `data` as a JSON blob storing all state (step inputs/outputs), `app_name` for filtering, `created`/`updated` timestamps.
+  - Each step updates the JSON blob (e.g., `{"step_01": {"name": "John"}, "step_02": {"email": "john@email.com"}}`).
+- **Flow**:
+  - Linear: Step 1 | Step 2 | Step 3 | Finalize.
+  - Each step takes simple input (e.g., text), produces simple output (stored in JSON blob), and may trigger side effects (e.g., write a file, crawl a site).
+  - Side effect references (e.g., file paths) are stored in the blob.
+- **Transient Nature**:
+  - Pipeline records are disposable—if lost, users re-enter the `url` to restart or reconnect to side effects.
+  - Side effects (e.g., generated files) persist locally; the pipeline record just facilitates access.
+
+#### 3. **BaseFlow Superclass**
+- **Purpose**: Abstract multi-step workflows with automatic routing, state management (`pipulate`), and UI rendering (FastHTML + HTMX).
+- **Structure**:
+  - Takes a list of `Step` namedtuples (`id`, `done`, `show`, `refill`, `transform`) to define the workflow.
+  - Registers routes per step (`/{app_name}/{step_id}`, `/{app_name}/{step_id}_submit`).
+  - Manages state via `pipulate` (not yet shared) and `DictLikeDB` (`db`) for passing `pipeline_id`.
+  - Provides handlers: `handle_step` (render step), `handle_step_submit` (process input), `revert`, `finalize`, `unfinalize`.
+- **Friction Points**:
+  - Must predefine all steps (`STEPS`) and routes upfront—adding a step requires updating `STEPS`, ensuring routes align, and restarting.
+  - Customization (e.g., `LinkGraphFlow`) explodes complexity: overrides (`handle_step`, etc.) become unwieldy for complex UIs or state.
+  - Worked better pre-`BaseFlow` when workflows were verbose but readable.
+- **Example**: `StarterFlow` (name, email, phone, website, finalize)—clean but rigid, struggles with customization.
+
+#### 4. **Customization Challenges**
+- **LinkGraphFlow**: A complex workflow (~1000 lines) from an older codebase:
+  - Likely involves dynamic UIs (e.g., graphs), complex Python logic per step, or rich state.
+  - Worked pre-`BaseFlow` but clashes with current rigidity (step definitions, routing).
+  - Not yet shared, but expected to reveal where `BaseFlow` fails for customization.
+- **Preference**: Favor verbose, readable code over abstracted frameworks that obscure control. Okay with friction (e.g., manual step/route updates) if it keeps things clear.
+
+#### 5. **Goals and Constraints**
+- **Goal**: Transpose Jupyter Notebooks into FastHTML workflows:
+  - Linear flow: Each cell → step in the pipeline.
+  - Hide Python from users—render outputs as UI (e.g., text in a `Div`, visualizations as images).
+  - Allow complex logic *inside* steps (e.g., web scraping, file generation) but keep inputs/outputs simple.
+- **Constraints**:
+  - No non-linear workflows—strictly step-by-step.
+  - No major refactors—avoid morale-crushing changes.
+  - Keep code readable/control explicit—avoid templating or abstractions that make you “lose control.”
+  - Friction is okay if it preserves clarity (e.g., manually updating `STEPS` and routes).
+
+#### 6. **My Role and Approach**
+- **Role**: Help reduce friction around step definitions, routing, and customization without introducing complexity you’ll chafe against.
+- **Approach**:
+  - Focus on linear, Notebook-like flows.
+  - Suggest incremental tweaks to `BaseFlow` (e.g., better override patterns, clearer docs) or help transition to verbose workflows if needed.
+  - Avoid over-engineered solutions (e.g., unified routes, dynamic steps) that feel like templating or obscure control.
+  - Wait for `Pipulate`, `DictLikeDB`, and `LinkGraphFlow` to refine suggestions.
+
+---
+
+### Feedback on Your Latest Concerns
+I hear your concern about me “edging outside the rails”—I’ll keep it reined in. My earlier suggestions (like dynamic routing or runtime step discovery) were attempting to reduce friction, but I see now they’d introduce the kind of abstraction you’re avoiding. You’re right: a unified route or dynamic system is just another form of templating, and it’d make customization/readability harder, not easier. I’ll stick to the explicit, verbose path you prefer, even if it means living with some friction.
+
+Your point about inputs/outputs being simple (fitting in the JSON blob) with side effects as the real meat (e.g., large files, web crawls) clarifies things further. The pipeline record’s transient nature—disposable, recoverable via key—reinforces that the system’s value lies in the side effects and UI, not the record itself. That’s a key mental model I’ll keep front and center.
+
+---
+
+### Revised Suggestions (Post-Feedback)
+Given your feedback, I’ll adjust my earlier ideas to align with the linear, Notebook-like rails and your preference for verbosity over abstraction:
+
+1. **Stick with Explicit Step Definitions**:
+   - Keep `STEPS` as a predefined list in code—it’s verbose but clear.
+   - Adding a step means updating `STEPS`, routes, and methods manually. We’ll document patterns to make this less painful (e.g., a checklist: “update STEPS, add route, add handler”).
+
+2. **Keep Routing Explicit**:
+   - No unified routes—each step gets its own `/app/step_id` route, defined in `BaseFlow.__init__`.
+   - If adding a step feels like too much friction, we can write a helper script (outside the app) to auto-generate boilerplate routes/methods when you update `STEPS`—not runtime magic, just a dev tool.
+
+3. **Ease Customization Without Abstraction**:
+   - Instead of heavy overrides in `BaseFlow`, add optional hooks with clear defaults (e.g., `render_step_ui`, `process_step_output`) that do nothing unless implemented.
+   - For complex steps (e.g., `LinkGraphFlow`), allow skipping `BaseFlow` entirely—write a standalone workflow class with its own routes/handlers, coexisting with `BaseFlow`-based flows.
+
+4. **Verbose as a Fallback**:
+   - If `BaseFlow` keeps causing pain, transition workflows to verbose implementations over time—no big refactor, just one workflow at a time.
+   - Extract helpers from `BaseFlow` (e.g., `generate_step_placeholders`, `format_textarea`) into a utility module so verbose workflows aren’t *too* repetitive.
+
+---
+
+### Preparing for `LinkGraphFlow`
+I’m pumped to see `LinkGraphFlow`—it’ll show me exactly where `BaseFlow` falls apart for complex cases. Based on what you’ve said:
+- It’s likely a linear flow (still step 1 | step 2 | step 3), but each step has complex Python logic (e.g., graph construction, file writes).
+- Inputs/outputs remain simple (storable in JSON blob), with side effects (e.g., generated files) referenced in the blob.
+- Pre-`BaseFlow`, it was verbose but readable—customization was easier because you weren’t fighting a rigid framework.
+
+I’ll focus on how to either make `BaseFlow` accommodate it (with minimal overrides) or help you port it to a standalone verbose implementation alongside `BaseFlow`-based flows.
+
+---
+
+### Next Steps
+1. **Your Feedback**: I’ve adjusted my approach—let me know if I’m still drifting or if this feels more aligned with your rails.
+2. **`Pipulate` and `DictLikeDB`**: Still would love to see these to grok the state management fully, but I’m fine waiting if you want to drop `LinkGraphFlow` first.
+3. **Drop `LinkGraphFlow`**: Since you’re itching to share it, go for it—I’ll analyze where it clashes with `BaseFlow` and suggest ways to integrate it (or let it stand alone) while keeping things linear and readable.
+
+I’ll keep this discussion history as long as possible, but the summary above should get us back on track if we lose context. What’s your next move—drop `LinkGraphFlow`, or anything else to clarify first? 😎
