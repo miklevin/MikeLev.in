@@ -1809,7 +1809,7 @@ concern.
 
 I've read your proposed solutions, and I get them. My main concern with things
 like a unified route for steps is the customization and readability again. It's
-just another version of templating, which I'm bound to both chaff against and
+just another version of templating, which I'm bound to both chafe against and
 not understand at quick glance. I'd rather allow a bit of friction with
 multi-step verbosity than anything that compels "losing control" of the code.
 
