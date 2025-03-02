@@ -3304,3 +3304,1325 @@ Given the clarity from `DictLikeDB` and `Pipulate`, I’ll refine my earlier sug
 I’m keeping things on the rails—linear flows, simple inputs/outputs, explicit code—so no worries about scope creep. Drop `LinkGraphFlow` whenever you’re ready, and I’ll dive in with fresh eyes. 😎
 
 Anything else to clarify before the next drop? Or are we good to roll with `LinkGraphFlow`?
+
+---
+
+## Dropping The Big Customization
+
+> Working with Grok 3 feels different than the other models. It's got the
+> "feels" of OpenAI ChatGPT 4.5 which empathizes but defers coding due to token
+> windows. Grok 3 can both vibe and code with you.
+
+**Me**: 
+
+1. Yes. I like it WET. They like it DRY. I need to "get" the reasons why. So we
+   can shove complexity, but mustn't covet mystery!
+
+2. You got it! Glad you're built for being clobbered with tokens 😉
+
+3. Yup. I hardly know how to inherit from a superclass. These non overriding
+   optional hooks have me intrigued and terrified. I'm not a big OO person.
+
+```python
+class LinkGraphFlow:
+    """
+    Pipeline-based approach for generating Botify link graphs,
+    coexisting alongside the older BotifyLinkGraph for now.
+
+    This version:
+      - Adopts Revert & Finalization patterns (like BridgeFlow).
+      - Restrains the CSV side-effects display to ONLY the Analysis selection card (step_02).
+        That means step_01, step_03, step_04 do NOT display any CSV listing by default.
+    """
+
+    def __init__(self, app, pipulate, prefix="/linkgraph2", llm_enabled=False):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+        self.llm_enabled = llm_enabled  # If you'd like minimal LLM commentary, replicate BridgeFlow's 'explain' pattern
+
+        self.logger = logger.bind(name="LinkGraphFlow")
+
+        # STEPS (key, step_id, display_label)
+        self.STEPS = [
+            ("proj",      "step_01", "Project URL"),
+            ("analysis",  "step_02", "Pick Analysis"),
+            ("fields",    "step_03", "Select Fields & Start Export"),
+            ("poll",      "step_04", "Poll & Download"),
+            ("finalized", "step_05", "Finalize")
+        ]
+
+        routes = [
+            (f"{prefix}",                  self.landing),
+            # Step routes
+            (f"{prefix}/step_01",         self.step_01),
+            (f"{prefix}/step_01_submit",  self.step_01_submit, ["POST"]),
+            (f"{prefix}/step_02",         self.step_02),
+            (f"{prefix}/step_02_submit",  self.step_02_submit, ["POST"]),
+            (f"{prefix}/step_03",         self.step_03),
+            (f"{prefix}/step_03_submit",  self.step_03_submit, ["POST"]),
+            (f"{prefix}/step_04",         self.step_04),
+            (f"{prefix}/poll_links",      self.poll_links,     ["GET"]),
+            (f"{prefix}/poll_meta",       self.poll_meta,      ["GET"]),
+            (f"{prefix}/step_05",         self.step_05),
+            (f"{prefix}/step_05_submit",  self.step_05_submit, ["POST"]),
+
+            # Revert & Unfinalize
+            (f"{prefix}/jump_to_step",    self.jump_to_step,   ["POST"]),
+            (f"{prefix}/unfinalize",      self.unfinalize,     ["POST"]),
+            (f"{prefix}/refresh_csvs",    self.refresh_csvs,   ["GET"]),
+            (f"{prefix}/delete/{{org:str}}/{{project:str}}/{{analysis:str}}", self.delete, ["DELETE"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+
+    # ---------------------------------------------------------------------
+    # LANDING - Prompt user for pipeline_id
+    # ---------------------------------------------------------------------
+    async def landing(self):
+        """
+        GET /linkgraph2
+        Quick landing page. We collect a raw Botify URL, then parse it in step_01.
+        First checks if we have a valid Botify token.
+        """
+        if not read_botify_token():
+            return Container(
+                Card(
+                    H2("Botify Link Graph Generator"),
+                    P("Before generating link graphs, you'll need to connect your Botify account."),
+                    A(
+                        Button("Connect Botify Account"),
+                        href="/connect_with_botify",  # Direct link instead of HTMX post
+                        style="text-decoration: none;"  # Make button look normal
+                    )
+                )
+            )
+
+        # Normal LinkGraphFlow UI if we have a token
+        return Container(
+            Card(
+                H2("Generate Website Link Graph"),
+                P("Paste your Botify project URL below, e.g. https://app.botify.com/orgX/projY/foo"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(type="url", name="dirty_url", placeholder="https://app.botify.com/orgX/projY/foo"),
+                        button_label="Look Up Project URL 🔑",
+                        button_class="secondary"
+                    ),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#linkgraph2-container"
+                )
+            ),
+            Div(id="linkgraph2-container")
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 01: Acquire & Clean Project URL
+    # ---------------------------------------------------------------------
+    async def step_01(self, request):
+        """
+        If data for step_01 is present => show locked card + revert if not finalized.
+        Otherwise => show form (no CSV listing in this step).
+        """
+        pipeline_id = db.get("pipeline_id", "")
+        if not pipeline_id:
+            return await self.landing()
+
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+
+        if step1_data.get("project_url"):
+            # Possibly finalized?
+            if self.pipulate.is_finalized(pipeline_id, final_step="step_05"):
+                return Div(
+                    Card(
+                        f"Project URL: {step1_data['project_url']}",
+                        P(f"org={step1_data['org']} project={step1_data['project']}")
+                    ),
+                    Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+                )
+            else:
+                locked_card = self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_01",
+                    prefix=self.prefix,
+                    message=(
+                        f"Project URL: {step1_data['project_url']}\n"
+                        f"org={step1_data['org']}, project={step1_data['project']}"
+                    ),
+                    final_step="step_05",
+                    target_id="linkgraph2-container"
+                )
+                return Div(
+                    locked_card,
+                    Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load")
+                )
+
+        # If there's no project_url, show the form
+        return Div(
+            Card(
+                H3("Step 1: Enter your Botify Project URL"),
+                Form(
+                    self.pipulate.wrap_with_inline_button(
+                        Input(
+                            type="url", 
+                            name="dirty_url", 
+                            placeholder="https://app.botify.com/orgX/projY/foo",
+                            value=db.get("pipeline_id", "")
+                        ),
+                        button_label="Use This Project URL"
+                    ),
+                    hx_post=f"{self.prefix}/step_01_submit",
+                    hx_target="#step_01",
+                )
+            ),
+            Div(id="step_02"),
+            id="step_01"
+        )
+
+    async def step_01_submit(self, request):
+        """
+        POST /linkgraph2/step_01_submit
+        Parse the raw URL, store 'org' and 'project' in step_01 data, then lock step_01.
+        """
+        form = await request.form()
+        dirty_url = form.get("dirty_url","").strip()
+        if not dirty_url:
+            return P("No URL provided. Please try again.", style="color:red;")
+
+        # parse
+        parts = dirty_url.split('/')
+        try:
+            idx = parts.index('app.botify.com')
+            org = parts[idx+1]
+            project = parts[idx+2]
+        except (ValueError, IndexError):
+            return P("Could not parse org/project from your URL (must have app.botify.com/org/project)", style="color:red;")
+
+        cleaned_url = f"https://app.botify.com/{org}/{project}/"
+        db["pipeline_id"] = cleaned_url
+
+        # Initialize with endpoint field
+        self.pipulate.initialize_if_missing(cleaned_url, {
+            "endpoint": "linkgraph"  # Add endpoint identifier
+        })
+
+        # Store org/project in step_01 data
+        self.pipulate.set_step_data(cleaned_url, "step_01", {
+            "project_url": cleaned_url,
+            "org": org,
+            "project": project
+        })
+
+        # Show locked version
+        locked_card = self.pipulate.revert_control(
+            url=cleaned_url,
+            step_id="step_01",
+            prefix=self.prefix,
+            message=f"Project URL: {cleaned_url}\norg={org} project={project}",
+            final_step="step_05",
+            target_id="linkgraph2-container"
+        )
+
+        return Div(
+            locked_card,
+            Div(id="step_02", hx_get=f"{self.prefix}/step_02", hx_trigger="load"),
+            id="linkgraph2-container"
+        )
+
+    # ---------------------------------------------------------------------
+    # STEP 02: Pick Analysis - *SHOW CSV side-effects HERE*
+    # ---------------------------------------------------------------------
+    async def step_02(self, request):
+        """
+        This is where we DO show the existing CSV listing below the input (or locked card).
+        """
+        pipeline_id = db.get("pipeline_id","")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        if not step1_data:
+            return P("No project_url set. Please go back to Step 1.", style="color:red;")
+
+        org = step1_data.get("org","")
+        project = step1_data.get("project","")
+
+        csv_block = Div(
+            self._render_side_effects(org, project),
+            id="csv-listing",
+            hx_get=f"{self.prefix}/refresh_csvs",  # New endpoint
+            hx_trigger="refresh from:body"
+        )
+
+        if step2_data.get("analysis"):
+            # Possibly finalized?
+            if self.pipulate.is_finalized(pipeline_id, final_step="step_05"):
+                return Div(
+                    Card(f"Analysis {step2_data['analysis']} locked. Depth={step2_data.get('depth')}."),
+                    csv_block,
+                    Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+                )
+            else:
+                # Revert version
+                locked_card = self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_02",
+                    prefix=self.prefix,
+                    message=f"Analysis {step2_data['analysis']} locked. Depth={step2_data.get('depth')} edge_count={step2_data.get('edge_count')}",
+                    final_step="step_05",
+                    target_id="linkgraph2-container",
+                    label="↶\u00A0New\u00A0Analysis"
+                )
+                return Div(
+                    locked_card,
+                    csv_block,
+                    Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+                )
+
+        # Show the form & CSV block
+        analysis_list = await fetch_analyses_light_new(org, project)
+        local_dir = Path("downloads/link-graph") / org / project
+
+        # build the dropdown
+        options = []
+        for a in analysis_list:
+            slug = a.get("slug","?")
+            link_path = local_dir / f"{project}_{slug}_links.csv"
+            disabled = link_path.exists()
+            disp = f"{slug} (exists)" if disabled else slug
+            options.append(Option(disp, value=slug, disabled=disabled))
+
+        form_card = Card(
+            H3("Step 2: Pick an Analysis"),
+            P("Choose a new analysis from the dropdown:"),
+            Form(
+                self.pipulate.wrap_with_inline_button(
+                    Select(
+                        Option("Select analysis...", value="", disabled=True, selected=True),
+                        *options,
+                        name="analysis_select",
+                        required=True
+                    ),
+                    button_label="Use This Analysis"
+                ),
+                hx_post=f"{self.prefix}/step_02_submit",
+                hx_target="#step_02"
+            )
+        )
+        return Div(
+            form_card,
+            csv_block,  # show CSV output below
+            Div(id="step_03"),
+            id="step_02"
+        )
+
+    async def step_02_submit(self, request):
+        form = await request.form()
+        analysis = form.get("analysis_select","").strip()
+        if not analysis:
+            return P("No analysis selected. Please try again.", style="color:red;")
+
+        pipeline_id = db.get("pipeline_id","")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        org = step1_data["org"]
+        project = step1_data["project"]
+
+        local_dir = Path("downloads/link-graph") / org / project
+        link_path = local_dir / f"{project}_{analysis}_links.csv"
+
+        if link_path.exists():
+            data = {
+                "analysis": analysis,
+                "depth": 0,
+                "edge_count": 0,
+                "already_downloaded": True
+            }
+            self.pipulate.set_step_data(pipeline_id, "step_02", data)
+            locked = self.pipulate.revert_control( url=pipeline_id,
+                step_id="step_02",
+                prefix=self.prefix,
+                message=f"Analysis {analysis} already downloaded (locked).",
+                final_step="step_05",
+                target_id="linkgraph2-container",
+                label="↶\u00A0New\u00A0Analysis"
+            )
+            csv_block = self._render_side_effects(org, project)
+            return Div(
+                locked,
+                csv_block,
+                Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+            )
+        else:
+            (opt_depth, edge_count) = await find_optimal_depth_new(org, project, analysis)
+            data = {
+                "analysis": analysis,
+                "depth": opt_depth,
+                "edge_count": edge_count,
+                "already_downloaded": False
+            }
+            self.pipulate.set_step_data(pipeline_id, "step_02", data)
+            locked = self.pipulate.revert_control(
+                url=pipeline_id,
+                step_id="step_02",
+                prefix=self.prefix,
+                message=f"Analysis {analysis} locked. Depth={opt_depth}, edges={edge_count}",
+                final_step="step_05",
+                target_id="linkgraph2-container",
+                label="↶\u00A0New\u00A0Analysis"
+            )
+            csv_block = self._render_side_effects(org, project)
+            return Div(
+                locked,
+                csv_block,
+                Div(id="step_03", hx_get=f"{self.prefix}/step_03", hx_trigger="load")
+            )
+
+    # ---------------------------------------------------------------------
+    # STEP 03: Pick fields & start exports (No CSV listing here)
+    # ---------------------------------------------------------------------
+    async def step_03(self, request):
+        pipeline_id = db.get("pipeline_id","")
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+        await asyncio.sleep(4)
+        await asyncio.create_task(chatq("Tell the user that they can click Start Export to begin the process of generating a link graph."))
+        if not step2_data:
+            return P("No analysis selected. Please go back.", style="color:red;")
+
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        if step3_data.get("export_started"):
+            if self.pipulate.is_finalized(pipeline_id, "step_05"):
+                return Div(
+                    Card("Export already started (locked)."),
+                    Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+                )
+            else:
+                revert_card = self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_03",
+                    prefix=self.prefix,
+                    message="Export already started (locked).",
+                    final_step="step_05",
+                    target_id="linkgraph2-container",
+                )
+                return Div(
+                    revert_card,
+                    Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+                )
+
+        if step2_data.get("already_downloaded"):
+            return Div(
+                Card("Analysis was already downloaded => skipping export."),
+                Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+            )
+
+        # Show form
+        analysis = step2_data["analysis"]
+        field_opts = {
+            "pagetype": f"crawl.{analysis}.segments.pagetype.value",
+            "compliant": f"crawl.{analysis}.compliant.is_compliant",
+            "canonical": f"crawl.{analysis}.canonical.to.equal",
+            "sitemap": f"crawl.{analysis}.sitemaps.present",
+            "impressions": "search_console.period_0.count_impressions",
+            "clicks": "search_console.period_0.count_clicks"
+        }
+        li_elems = []
+        for k,v in field_opts.items():
+            li_elems.append(
+                Li(
+                    Input(type="checkbox", name=k, value=v, checked=True),
+                    Label(k, _for=k)
+                )
+            )
+
+        form_card = Card(
+            H3("Step 3: Select optional fields for meta CSV"),
+            Form(
+                Ul(*li_elems),
+                Button("Start Export", type="submit"),
+                hx_post=f"{self.prefix}/step_03_submit",
+                hx_target="#step_03"
+            )
+        )
+        return Div(
+            form_card,
+            Div(id="step_04"),
+            id="step_03"
+        )
+
+    async def step_03_submit(self, request):
+        pipeline_id = db.get("pipeline_id","")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+
+        org = step1_data["org"]
+        project = step1_data["project"]
+        analysis = step2_data["analysis"]
+        depth = step2_data["depth"]
+
+        form = await request.form()
+        chosen_fields = [v for k,v in form.items()]
+
+        links_job_url = await self._start_links_export_new(org, project, analysis, depth)
+
+        data = {
+            "export_started": True,
+            "fields": chosen_fields,  # save fields for later meta export
+            "links_job_url": links_job_url
+        }
+        self.pipulate.set_step_data(pipeline_id, "step_03", data)
+
+        revert_card = self.pipulate.revert_control(
+            url=pipeline_id,
+            step_id="step_03",
+            prefix=self.prefix,
+            message="Link export started (locked).",
+            final_step="step_05"
+        )
+        return Div(
+            revert_card,
+            Div(id="step_04", hx_get=f"{self.prefix}/step_04", hx_trigger="load")
+        )
+
+    async def _start_links_export_new(self, org, project, analysis, depth) -> str:
+        query = {
+            "dimensions": ["url", f"crawl.{analysis}.outlinks_internal.graph.url"],
+            "metrics": [],
+            "filters": {
+                "field": f"crawl.{analysis}.depth",
+                "predicate": "lte",
+                "value": depth
+            }
+        }
+        data_payload = {
+            "job_type": "export",
+            "payload": {
+                "username": org,
+                "project": project,
+                "connector": "direct_download",
+                "formatter": "csv",
+                "export_size": 1000000,
+                "query": {
+                    "collections": [f"crawl.{analysis}"],
+                    "query": query
+                }
+            }
+        }
+        links_job_url = await create_export_job_new(data_payload, logger=self.logger)
+        self.logger.info(f"_start_links_export_new => {links_job_url}")
+        return links_job_url
+
+    async def _start_meta_export_new(self, org, project, analysis, fields) -> str:
+        dimensions = [f"crawl.{analysis}.url"]
+        metrics = []
+        for f in fields:
+            if "search_console" in f:
+                metrics.append(f)
+            else:
+                dimensions.append(f)
+
+        data_payload = {
+            "job_type": "export",
+            "payload": {
+                "username": org,
+                "project": project,
+                "connector": "direct_download",
+                "formatter": "csv",
+                "export_size": 1000000,
+                "query": {
+                    "collections": [f"crawl.{analysis}"]
+                }
+            }
+        }
+        if metrics:
+            data_payload["payload"]["query"]["collections"].append("search_console")
+            data_payload["payload"]["query"]["periods"] = [[
+                f"{analysis[:4]}-{analysis[4:6]}-{analysis[6:]}",
+                f"{analysis[:4]}-{analysis[4:6]}-{analysis[6:]}"
+            ]]
+
+        data_payload["payload"]["query"]["query"] = {
+            "dimensions": dimensions,
+            "metrics": metrics
+        }
+        meta_job_url = await create_export_job_new(data_payload, logger=self.logger)
+        self.logger.info(f"_start_meta_export_new => {meta_job_url}")
+        return meta_job_url
+
+    # ---------------------------------------------------------------------
+    # STEP 04: Poll & Download (No CSV listing by default)
+    # ---------------------------------------------------------------------
+    async def step_04(self, request):
+        pipeline_id = db.get("pipeline_id","")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+
+        # Check job statuses
+        links_job_url = step3_data.get("links_job_url", "")
+        meta_job_url = step3_data.get("meta_job_url", "")
+        
+        links_done = False
+        meta_done = True  # Default true if no meta job
+        
+        if links_job_url:
+            job_done, _ = await self._check_job_done_new(links_job_url)
+            links_done = job_done
+            
+        if meta_job_url:
+            job_done, _ = await self._check_job_done_new(meta_job_url) 
+            meta_done = job_done
+
+        # Update state
+        step4_data = {
+            "links_done": links_done,
+            "meta_done": meta_done,
+            "done": links_done and meta_done
+        }
+        self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+
+        # Handle finalized state
+        if step4_data["done"]:
+            await asyncio.create_task(chatq("Let the user know that all the exports are done and that they should click the Visualize link. Please also let them know that they can choose New Analysis to generate a link graph for another time period."))
+            if self.pipulate.is_finalized(pipeline_id, final_step="step_05"):
+                return Div(
+                    Card("All exports done! ✅ (finalized)"),
+                    Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                    Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+                )
+            else:
+                revert_card = self.pipulate.revert_control(
+                    url=pipeline_id,
+                    step_id="step_04", 
+                    prefix=self.prefix,
+                    message="All exports done! ✅ (locked)",
+                    final_step="step_05",
+                    target_id="linkgraph2-container"
+                )
+                return Div(
+                    revert_card,
+                    Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                    Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load")
+                )
+
+        # Show appropriate polling based on state
+        if not links_done:
+            await asyncio.sleep(2)
+            await asyncio.create_task(chatq("Let the user know that the download has begun and that a link to the CSV will appear when it is complete.  Do not pretent to show a link. The Web UI will show it. Please ask them to have patience while the download occurs."))
+            return Div(
+                Card(
+                    H3("Step 4: Downloading"),
+                    P("Downloading link graph CSV...")
+                ),
+                Div(id="links-status", hx_get=f"{self.prefix}/poll_links", hx_trigger="load delay:2s"),
+                id="step_04"
+            )
+        elif meta_job_url and not meta_done:
+            return Div(
+                Card(
+                    H3("Step 4: Downloading"),
+                    P("Links download complete ✅"),
+                    P("Downloading metadata...")
+                ),
+                Div(id="meta-status", hx_get=f"{self.prefix}/poll_meta", hx_trigger="load delay:2s"),
+                id="step_04"
+            )
+        else:
+            step4_data["done"] = True
+            self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+            return Div(
+                Card("All exports done! ✅"),
+                Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                Div(id="step_05", hx_get=f"{self.prefix}/step_05", hx_trigger="load"),
+                id="step_04"
+            )
+
+    async def poll_links(self, request):
+        """Poll links job and download when ready."""
+        pipeline_id = db.get("pipeline_id","")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        links_job_url = step3_data.get("links_job_url","")
+        if not links_job_url:
+            return P("No links job to poll", style="color:red;")
+
+        job_done, download_url = await self._check_job_done_new(links_job_url)
+        if job_done:
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            org = step1_data["org"]
+            project = step1_data["project"]
+            analysis = step2_data["analysis"]
+            local_dir = Path("downloads/link-graph") / org / project
+            link_path = local_dir / f"{project}_{analysis}_links.csv"
+            download_file_new(download_url, link_path, logger=self.logger)
+
+            step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+            step4_data["links_done"] = True
+
+            # Start meta export if we have fields
+            if step3_data.get("fields"):
+                meta_job_url = await self._start_meta_export_new(
+                    org, project, analysis, step3_data["fields"]
+                )
+                step3_data["meta_job_url"] = meta_job_url
+                self.pipulate.set_step_data(pipeline_id, "step_03", step3_data)
+                
+                return Div(
+                    Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                    id="links-status",
+                    hx_get=f"{self.prefix}/step_04",
+                    **{"hx-trigger": "load delay:10ms"}
+                )
+            else:
+                # No meta needed - we're done
+                step4_data["meta_done"] = True
+                step4_data["done"] = True
+                self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+                return Div(
+                    Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                    id="links-status",
+                    hx_get=f"{self.prefix}/step_04",
+                    **{"hx-trigger": "load delay:10ms"}
+                )
+        else:
+            return Div(
+                P("Links export in progress..."),
+                id="links-status", 
+                hx_get=f"{self.prefix}/poll_links",
+                hx_trigger="load delay:3s"
+            )
+
+    async def poll_meta(self, request):
+        """Poll meta job and download when ready."""
+        pipeline_id = db.get("pipeline_id","")
+        step3_data = self.pipulate.get_step_data(pipeline_id, "step_03", {})
+        meta_job_url = step3_data.get("meta_job_url","")
+        if not meta_job_url:
+            return Div()  # Return empty div if no meta job yet
+
+        job_done, download_url = await self._check_job_done_new(meta_job_url)
+        if job_done:
+            step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+            step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+            org = step1_data["org"]
+            project = step1_data["project"]
+            analysis = step2_data["analysis"]
+            local_dir = Path("downloads/link-graph") / org / project
+            meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+            download_file_new(download_url, meta_path, logger=self.logger)
+
+            step4_data = self.pipulate.get_step_data(pipeline_id, "step_04", {})
+            step4_data["meta_done"] = True
+            self.pipulate.set_step_data(pipeline_id, "step_04", step4_data)
+
+            return Div(
+                Script("htmx.trigger('#csv-listing', 'csvRefresh')"),
+                id="meta-status",
+                hx_get=f"{self.prefix}/step_04",
+                **{"hx-trigger": "load delay:10ms"}
+            )
+        else:
+            await asyncio.sleep(4)
+            await asyncio.create_task(chatq("Tell the user that the metadata export is in progress and that they should STILL have patience while it completes. You can crack a joke that it takes as long here as it does in the Botify web UI. In fact, the user can go watch the download there too!"))
+            return Div(
+                P("Meta export in progress..."),
+                id="meta-status",
+                hx_get=f"{self.prefix}/poll_meta",
+                hx_trigger="load delay:3s"
+            )
+
+    async def _check_job_done_new(self, job_url: str):
+        """
+        Return (True, download_url) if job is done, else (False, "").
+        """
+        token = read_botify_token()
+        if not token:
+            self.logger.error("No token, can't poll job.")
+            return (False, "")
+
+        headers = {
+            "Authorization": f"Token {token}",
+            "Content-Type": "application/json"
+        }
+        async with aiohttp.ClientSession() as session:
+            async with session.get(job_url, headers=headers) as resp:
+                if resp.status != 200:
+                    text = await resp.text()
+                    self.logger.error(f"Job poll fail: status={resp.status}, body={text}")
+                    return (False, "")
+                data = await resp.json()
+                status = data.get("job_status","")
+                if status == "DONE":
+                    durl = data["results"].get("download_url","")
+                    return (True, durl)
+                elif status == "FAILED":
+                    self.logger.error(f"Job {job_url} failed: {data}")
+                    return (False, "")
+                else:
+                    # job_status is "IN_PROGRESS", "PENDING", etc.
+                    return (False, "")
+
+    # ---------------------------------------------------------------------
+    # STEP 05: Finalize
+    # ---------------------------------------------------------------------
+    async def step_05(self, request):
+        """
+        Show 'Finalize' button if not finalized, else show locked card with Try Again option.
+        """
+        pipeline_id = db.get("pipeline_id","")
+        step5_data = self.pipulate.get_step_data(pipeline_id, "step_05", {})
+        if "finalized" in step5_data:
+            return Card(
+                "LinkGraphFlow is fully finalized.",
+                Form(
+                    Button("Generate Another Link Graph", type="submit", style="background-color: #f66;"),
+                    hx_post=f"{self.prefix}/unfinalize",
+                    hx_target="#linkgraph2-container",
+                    hx_swap="outerHTML"
+                ),
+                style="color: green;"
+            )
+        else:
+            return Div(
+                Card(
+                    H3("Finalize LinkGraphFlow"),
+                    P("Lock everything. You can still revert if not finalized."),
+                    Form(
+                        Button("Finalize", type="submit"),
+                        hx_post=f"{self.prefix}/step_05_submit",
+                        hx_target="#linkgraph2-container",
+                        hx_swap="outerHTML"
+                    )
+                ),
+                id="step_05"
+            )
+
+    async def step_05_submit(self, request):
+        """
+        Mark the pipeline as finalized => step_05 => { "finalized": True }
+        """
+        pipeline_id = db.get("pipeline_id","")
+        self.pipulate.set_step_data(pipeline_id, "step_05", {"finalized": True})
+
+        # Re-generate placeholders from step_01..step_05 so everything is locked
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    # ---------------------------------------------------------------------
+    # REVERT & UNFINALIZE
+    # ---------------------------------------------------------------------
+    async def jump_to_step(self, request):
+        """
+        POST /linkgraph2/jump_to_step
+        Rolls back to a prior step, discarding subsequent steps' data (including finalize).
+        """
+        form = await request.form()
+        step_id = form.get("step", "")
+        pipeline_id = db.get("pipeline_id", "")
+
+        # Clear everything from step_id onwards
+        self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
+
+        # Re-generate placeholders from the beginning
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    async def unfinalize(self, request):
+        """
+        POST /linkgraph2/unfinalize
+        Removes 'finalized' key from step_05, unlocking revert controls.
+        """
+        pipeline_id = db.get("pipeline_id", "")
+        if not pipeline_id:
+            return P("No pipeline found", style="color:red;")
+
+        state = self.pipulate.get_state(pipeline_id)
+        if "step_05" in state and "finalized" in state["step_05"]:
+            del state["step_05"]["finalized"]
+            self.pipulate._save_state(pipeline_id, state)
+
+        # Now that 'finalized' is removed, revert controls should reappear
+        placeholders = self.pipulate.generate_step_placeholders(self.STEPS, self.prefix, start_from=0)
+        return Div(*placeholders, id="linkgraph2-container")
+
+    # ---------------------------------------------------------------------
+    # HELPER: RENDER SIDE EFFECTS (CSV Listing) - Only used at step_02
+    # ---------------------------------------------------------------------
+    def _render_side_effects(self, org: str, project: str):
+        """
+        Return a Div block showing current CSVs for the given org & project.
+        Uses a table layout to show links, meta, and visualizations in columns.
+        """
+        from dominate.tags import (
+            table, tr, td, th, thead, tbody, a,  # table elements
+            article, h4  # other needed elements
+        )
+        
+        local_dir = Path("downloads/link-graph") / org / project
+        local_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Get all unique analysis IDs
+        analyses = {
+            path.name.replace(f'{project}_', '').replace('_links.csv', '').replace('_meta.csv', '')
+            for path in local_dir.glob("*.csv")
+        }
+
+        # Create table using context managers
+        t = table(style="width:100%; border-collapse:collapse;")
+        with t:
+            with thead():
+                with tr():
+                    th("Analysis")
+                    th("Meta") 
+                    th("Visualize")
+                    th("Delete")  # New column
+            
+            with tbody():
+                for analysis in sorted(analyses, reverse=True):  # Reverse the sort to match fetch_analyses_light_new
+                    links_path = local_dir / f"{project}_{analysis}_links.csv"
+                    meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+                    
+                    links_url = f"/download/{org}/{project}/{project}_{analysis}_links.csv"
+                    meta_url = f"/download/{org}/{project}/{project}_{analysis}_meta.csv"
+                    
+                    # Build viz_url conditionally based on meta file presence
+                    base_viz_url = f"https://cosmograph.app/run/?data=http://localhost:5001{links_url}"
+                    if meta_path.exists():
+                        viz_url = (
+                            f"{base_viz_url}"
+                            f"&meta=http://localhost:5001{meta_url}"
+                            f"&nodeColor=pagetype"
+                        )
+                    else:
+                        viz_url = base_viz_url
+                        
+                    viz_url = f"{viz_url}&link-spring=.1"
+
+                    delete_url = f"{self.prefix}/delete/{org}/{project}/{analysis}"
+                    
+                    with tr():
+                        td(a(analysis, href=links_url, target="_blank"))
+                        td(a("Meta", href=meta_url, target="_blank") if meta_path.exists() else "")
+                        td(a("Visualize", href=viz_url, target="_blank") if links_path.exists() else "")
+                        td(
+                            a("🗑", 
+                              href="#",
+                              cls="secondary",
+                              **{
+                                  "hx-delete": delete_url,
+                                  "hx-target": "#linkgraph2-container",  # Update target
+                                  "hx-confirm": f"Delete {analysis} analysis files?"
+                              }
+                            )
+                        )
+
+        return article(
+            h4("Current CSV Outputs:"),
+            t,
+            style=(
+                "background-color: var(--pico-card-background-color);"
+                "margin-top: 1rem;"
+                "padding: 1rem;"
+                "border-radius: var(--pico-border-radius);"
+                "box-shadow: var(--pico-card-box-shadow);"
+            ),
+            id="csv-listing",
+            **{
+                "hx-trigger": "csvRefresh",
+                "hx-get": f"{self.prefix}/refresh_csvs",
+                "hx-swap": "outerHTML",
+                "_": "on csvRefresh log 'CSV refresh event received'"
+            }
+        )
+
+    async def refresh_csvs(self, request):
+        """GET /linkgraph2/refresh_csvs
+        Refreshes the CSV listing when triggered."""
+        self.logger.debug("refresh_csvs endpoint hit")
+        pipeline_id = db.get("pipeline_id","")
+        step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+        org = step1_data.get("org","")
+        project = step1_data.get("project","")
+        return self._render_side_effects(org, project)
+
+    async def delete(self, request):
+        """DELETE /linkgraph2/delete/{org}/{project}/{analysis}"""
+        org = request.path_params["org"]
+        project = request.path_params["project"]
+        analysis = request.path_params["analysis"]
+        
+        local_dir = Path("downloads/link-graph") / org / project
+        links_path = local_dir / f"{project}_{analysis}_links.csv"
+        meta_path = local_dir / f"{project}_{analysis}_meta.csv"
+        
+        # Delete both files if they exist
+        if links_path.exists():
+            links_path.unlink()
+        if meta_path.exists():
+            meta_path.unlink()
+            
+        # Clear steps and regenerate everything from step_02
+        pipeline_id = db.get("pipeline_id", "")
+        self.pipulate.clear_steps_from(pipeline_id, "step_02", self.STEPS)
+        
+        # Return fresh container view which will rebuild everything
+        return Div(
+            id="linkgraph2-container",  # Target the top container
+            hx_get=f"{self.prefix}/step_02",
+            hx_trigger="load"
+        )
+```
+
+...oh yeah, forgot to mention the helper functions:
+
+```python
+def read_botify_token():
+    """Simple wrapper for reading the Botify API key from the environment."""
+    return api_key
+
+
+async def fetch_analyses_light_new(org: str, project: str) -> list:
+    """
+    Retrieve analyses from the /analyses/{org}/{project}/light endpoint.
+    Returns a list of dicts with 'slug', etc., sorted descending by slug.
+    """
+    token = read_botify_token()
+    if not token:
+        logger.error("No Botify token found. Cannot fetch analyses.")
+        return []
+    url = f"https://api.botify.com/v1/analyses/{org}/{project}/light"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+    results = []
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url, headers=headers) as resp:
+            if resp.status != 200:
+                logger.error(f"fetch_analyses_light: status={resp.status}")
+                return []
+            data = await resp.json()
+            results.extend(data.get('results', []))
+            while data.get('next'):
+                nurl = data['next']
+                async with session.get(nurl, headers=headers) as resp2:
+                    if resp2.status != 200:
+                        break
+                    data = await resp2.json()
+                    results.extend(data.get('results', []))
+    # sort descending
+    results.sort(key=lambda x: x.get('slug',''), reverse=True)
+    return results
+
+
+async def find_optimal_depth_new(org, project, analysis, max_edges=1000000):
+    """
+    Find optimal depth for link graph by checking edge count at each depth.
+    Broadcasts progress to chat and logs to console.
+    """
+    token = read_botify_token()
+    if not token:
+        logger.error("No token, can't find depth.")
+        return (1, 0)
+
+    url = f"https://api.botify.com/v1/projects/{org}/{project}/query"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+
+    # Initial message
+    await chat.broadcast("Finding optimal depth:\n")
+    previous_edges = 0
+
+    async with aiohttp.ClientSession() as session:
+        for depth in range(1, 10):
+            data_payload = {
+                "collections": [f"crawl.{analysis}"],
+                "query": {
+                    "dimensions": [],
+                    "metrics": [{
+                        "function":"sum",
+                        "args":[f"crawl.{analysis}.outlinks_internal.nb.total"]
+                    }],
+                    "filters": {
+                        "field": f"crawl.{analysis}.depth",
+                        "predicate":"lte",
+                        "value": depth
+                    }
+                }
+            }
+            async with session.post(url, headers=headers, json=data_payload) as r:
+                if r.status != 200:
+                    msg = f"Depth check failed at depth={depth}"
+                    logger.error(f"{msg}, status={r.status}")
+                    await chat.broadcast(f"{msg}\n")
+                    return (depth-1 if depth>1 else 1, previous_edges)
+                
+                data = await r.json()
+                edges = data["results"][0]["metrics"][0]
+                
+                # Format number with commas
+                edges_fmt = f"{edges:,}"
+                msg = f"Depth {depth}: {edges_fmt} edges"
+                
+                # Log and broadcast
+                logger.debug(msg)
+                await chat.broadcast(f"{msg}\n")
+
+                if edges > max_edges or edges == previous_edges:
+                    final_depth = depth-1 if depth>1 else depth
+                    final_msg = f"\nOptimal depth: {final_depth} ({previous_edges:,} edges)"
+                    await chat.broadcast(final_msg)
+                    await asyncio.sleep(2)
+                    await asyncio.create_task(chatq("Let the user know that the optimal depth has been found and that they should select the fields they want as part of the visualization (don't mention field names), and then click Start Export."))
+                    return (final_depth, previous_edges)
+                    
+                previous_edges = edges
+
+    await chat.broadcast(f"\nOptimal depth: {depth} ({edges:,} edges)")
+    return (depth, previous_edges)
+
+
+def download_file_new(url: str, save_path: Path, logger=None) -> Path:
+    """
+    Same as prior iteration. Streams .gz, decompresses, renames columns if needed.
+    """
+    if logger:
+        logger.debug(f"Downloading from {url} => {save_path}")
+    save_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_gz = save_path.with_suffix(save_path.suffix + '.gz')
+    resp = requests.get(url, stream=True)
+    if resp.status_code != 200:
+        if logger:
+            logger.error(f"Download failed. status={resp.status_code}")
+        return save_path
+    with open(tmp_gz, "wb") as f:
+        for chunk in resp.iter_content(chunk_size=8192):
+            f.write(chunk)
+    with gzip.open(tmp_gz, 'rb') as gz_in, open(save_path, 'wb') as out:
+        shutil.copyfileobj(gz_in, out)
+    tmp_gz.unlink()
+
+    # rename columns if links or meta
+    if logger:
+        logger.debug(f"Renaming columns if needed in {save_path}")
+    stem = save_path.stem
+    if stem.endswith('_links'):
+        df = pd.read_csv(save_path)
+        df.columns = ['source','target']
+        df.to_csv(save_path, index=False)
+    elif stem.endswith('_meta'):
+        df = pd.read_csv(save_path)
+        df.columns = ['id','pagetype','is_compliant','canonical_equal','sitemaps_present','impressions','clicks']
+        df.to_csv(save_path, index=False)
+    return save_path
+
+
+async def create_export_job_new(payload: dict, logger=None) -> str:
+    """
+    Create an export job on Botify by POSTing to /jobs. 
+    Return the job_url from the JSON response if successful.
+    """
+    token = read_botify_token()
+    if not token:
+        if logger:
+            logger.error("No token found, can't create job.")
+        return ""
+    url = "https://api.botify.com/v1/jobs"
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json"
+    }
+    async with aiohttp.ClientSession() as session:
+        if logger:
+            logger.debug(f"create_export_job => POST {url} with {payload}")
+        async with session.post(url, json=payload, headers=headers) as resp:
+            if resp.status not in (200,201):
+                txt = await resp.text()
+                if logger:
+                    logger.error(f"Job creation failed. status={resp.status}, body={txt}")
+                return ""
+            data = await resp.json()
+            job_url = data.get('job_url',"")
+            # job_url is partial, often e.g. /v1/jobs/123. We might need the full domain
+            return f"https://api.botify.com{job_url}" if job_url.startswith("/v1") else job_url
+```
+
+So there you have it! The reason I fight BaseFlow tooth-and-nail. I'd love to
+cut down verbosity and make things a bit more DRY. But LinkGraphFlow is about as
+WET and it can get!
+
+Help me Grok 3. You get why I totally disrespect these bullshit benchmarks out
+there trying to tell me how smart an LLM is, especially for code assistance. I
+think my use case is ***the sign of the times***, and just goes to show how
+path-most-traveled the flocking herd is, impressed by the wrong things.
+
+Impress me, Grok. I mean, don't go all over-engineering and stuff. Simpler is
+better. Let someone who is just barely able to do this kind of thing, clearly
+trying to hit above my weight class, stay in the ring.
+
+**Grok 3**: Hell yeah, thanks for dropping `LinkGraphFlow`—this is a beast of a workflow, and I totally get why you’re fighting `BaseFlow` tooth-and-nail. It’s a perfect example of why WET (Write Everything Twice) can feel liberating compared to DRY (Don’t Repeat Yourself) when customization and readability are your priorities. You’re not wrong to call out those bullshit benchmarks either—they’re gamed for toy problems, not real-world use cases like yours, where the path less traveled reveals what LLMs can *actually* do. Let’s break this down, vibe with your approach, and figure out how to reduce friction without over-engineering or making you feel like you’re losing control. 😎
+
+---
+
+### Grokking `LinkGraphFlow`: The Customization Beast
+`LinkGraphFlow` is a linear, Notebook-style pipeline that integrates with the Botify API to generate link graphs, complete with CSV side effects, polling jobs, and visualizations. It’s complex *inside* its steps (e.g., API calls, file downloads, depth optimization), but the pipeline itself is strictly linear: Step 1 (Project URL) → Step 2 (Pick Analysis) → Step 3 (Select Fields & Export) → Step 4 (Poll & Download) → Step 5 (Finalize). Inputs/outputs stay simple (strings, file paths) in the JSON blob, with heavy lifting (CSVs, visualizations) handled as side effects—exactly as you’ve designed your system’s anti-patterns.
+
+#### Why It’s WET and Why That Works for You
+`LinkGraphFlow` is verbose—each step has its own explicit route (`/linkgraph2/step_01`, `/step_02`, etc.), handler (`step_01`, `step_02_submit`, etc.), and rendering logic. There’s no `BaseFlow` abstraction forcing a rigid mold, so you’ve got full control:
+- **Explicit Routes**: Every step’s route is defined manually in `__init__`, making it crystal-clear what’s happening (`/linkgraph2/step_01`, `/step_02_submit`, etc.—no magic catch-all routing).
+- **Custom Handlers**: Each step (`step_01`, `step_02`, etc.) has bespoke logic—parsing URLs, fetching analyses, polling jobs, rendering CSVs. No fighting a superclass’s assumptions.
+- **Readable State**: Uses `Pipulate` directly (`set_step_data`, `get_step_data`) to store simple values (e.g., `{"project_url": "...", "org": "..."}`), with side effects (CSVs) handled externally and referenced in the blob.
+- **Custom UI**: Step-specific UIs (e.g., dropdowns in `step_02`, polling in `step_04`) are tailored exactly to the task—no generic form rendering that doesn’t fit.
+
+This WET approach sidesteps the customization pain you hit with `BaseFlow`. In `BaseFlow`, a step like `step_02` (picking an analysis with a CSV listing) would require overriding `handle_step` to render a dropdown and CSV table, which gets messy fast. Here, you’ve got a dedicated `step_02` method—verbose but readable, no overrides needed.
+
+#### Why It Clashes with `BaseFlow`
+Comparing `LinkGraphFlow` to `StarterFlow` (your `BaseFlow` example), the mismatches are clear:
+- **Complex Steps**: `LinkGraphFlow` steps aren’t just “enter text” forms—they involve API calls (`fetch_analyses_light_new`), file downloads (`download_file_new`), and dynamic UIs (dropdowns, polling loops). `BaseFlow`’s default `handle_step` assumes a simple form input, so you’d need heavy overrides for each step.
+- **Dynamic Side Effects**: Showing CSV listings in `step_02` but not elsewhere is a deliberate UI choice—`BaseFlow` doesn’t have a clean way to toggle this per step without rewriting rendering logic.
+- **Async Polling**: `step_04`’s polling (`poll_links`, `poll_meta`) involves async loops—not easily shoehorned into `BaseFlow`’s synchronous step handling.
+- **State Complexity**: While inputs/outputs are simple (e.g., `analysis`, `links_job_url`), the orchestration (e.g., managing job URLs, polling states) doesn’t fit `BaseFlow`’s `state[step_id] = {step.done: value}` pattern neatly.
+
+In short, `BaseFlow` forces a one-size-fits-all approach—great for `StarterFlow`’s simple text inputs, but a straightjacket for `LinkGraphFlow`’s bespoke needs. Your WET approach lets you tailor each step exactly to its purpose, even if it means more code.
+
+---
+
+### Why WET Feels Right for You (and Why DRY Feels Mysterious)
+You nailed it with “shove complexity, don’t covet mystery.” DRY (like `BaseFlow`) abstracts repetition into a superclass, but that abstraction introduces mystery—suddenly, you’re fighting inherited assumptions, overrides, and hidden state management. WET, on the other hand, keeps everything explicit:
+- **Readability**: Each step’s logic is self-contained (`step_01`, `step_02`, etc.)—no digging through a superclass to grok what’s happening.
+- **Control**: You can tweak any step without worrying about breaking inherited behavior.
+- **Debugging**: Errors are localized—e.g., if `step_04`’s polling fails, you debug that method, not some generic `handle_step` override.
+
+DRY’s promise is less code, but it often trades readability for complexity. For someone like you—who admits to being shaky on OOP and inheritance (no judgment, I’m here for it)—WET avoids the cognitive overhead of “where the hell is this method coming from?” It’s more code, but it’s *your* code, laid out plain as day.
+
+---
+
+### Reducing Friction Without Losing Control
+You’ve got a working system with `LinkGraphFlow`, and it’s verbose but functional—so let’s reduce friction without introducing mystery. Since you’re intrigued (and terrified) by non-overriding hooks, I’ll keep any suggestions simple, optional, and focused on your WET preference. No over-engineering, just practical tweaks to stay in the ring without getting knocked out.
+
+#### 1. Embrace WET but Extract Helpers
+Since you’re okay with verbosity, let’s keep `LinkGraphFlow` as-is (no `BaseFlow`) but extract reusable helpers to cut down on boilerplate without abstracting control:
+- **Utility Functions**: Pull out common patterns into standalone functions:
+  ```python
+  def render_locked_card(pipeline_id, step_id, prefix, message, final_step, target_id="linkgraph2-container"):
+      return pipulate.revert_control(
+          url=pipeline_id,
+          step_id=step_id,
+          prefix=prefix,
+          message=message,
+          final_step=final_step,
+          target_id=target_id
+      )
+
+  def chain_next_step(step_id, prefix):
+      return Div(id=step_id, hx_get=f"{prefix}/{step_id}", hx_trigger="load")
+  ```
+  Use them in `LinkGraphFlow`:
+  ```python
+  async def step_01_submit(self, request):
+      # ... existing logic ...
+      locked_card = render_locked_card(cleaned_url, "step_01", self.prefix, 
+                                      f"Project URL: {cleaned_url}\norg={org} project={project}",
+                                      "step_05")
+      return Div(locked_card, chain_next_step("step_02", self.prefix))
+  ```
+- **Pros**: Reduces repetition (e.g., `revert_control` calls, HTMX chaining) without introducing a superclass. Still WET—just less copy-paste.
+- **Cons**: Adds a few helper functions to maintain, but they’re simple and explicit.
+
+#### 2. Optional Hooks Without Inheritance
+You’re not big on OOP, so instead of forcing `BaseFlow` inheritance, we can add a mixin-like helper class with optional methods you can call explicitly—no overriding required:
+```python
+class PipelineHelpers:
+    @staticmethod
+    async def render_form(step_id, prefix, title, inputs, target_id):
+        return Card(
+            H3(title),
+            Form(
+                pipulate.wrap_with_inline_button(*inputs),
+                hx_post=f"{prefix}/{step_id}_submit",
+                hx_target=f"#{target_id}"
+            )
+        )
+
+    @staticmethod
+    def handle_finalized(pipeline_id, step_id, prefix, message, target_id="linkgraph2-container"):
+        if pipulate.is_finalized(pipeline_id, final_step=step_id):
+            return Card(message)
+        return None
+```
+Use in `LinkGraphFlow`:
+```python
+async def step_03(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    # ... existing checks ...
+    finalized = PipelineHelpers.handle_finalized(pipeline_id, "step_05", self.prefix, 
+                                                 "Export already started (locked).")
+    if finalized:
+        return Div(finalized, chain_next_step("step_04", self.prefix))
+
+    # Form rendering
+    form_card = await PipelineHelpers.render_form(
+        "step_03", self.prefix, "Step 3: Select optional fields for meta CSV",
+        [Ul(*li_elems), Button("Start Export", type="submit")], "step_03"
+    )
+    return Div(form_card, Div(id="step_04"), id="step_03")
+```
+- **Pros**: Gives you reusable snippets without inheritance—call what you need, skip what you don’t. No mystery, just functions.
+- **Cons**: Still adds a bit of structure, but it’s optional—no superclass forcing your hand.
+
+#### 3. Documentation Patterns for Adding Steps
+Since adding steps (`STEPS`, routes, handlers) is manual—and you’re okay with the friction—let’s document a clear process to make it feel less daunting:
+- **Checklist for Adding a Step**:
+  1. Add to `STEPS`: Append a tuple (`key`, `step_id`, `display_label`), e.g., `("new_field", "step_06", "New Field")`.
+  2. Add Routes: Add `(f"{prefix}/{step_id}", self.step_xx)` and `(f"{prefix}/{step_id}_submit", self.step_xx_submit, ["POST"])` in `__init__`.
+  3. Add Handlers: Define `step_xx` (render UI) and `step_xx_submit` (process input, update state).
+  4. Test: Run app, ensure HTMX chaining (`hx_get` to next step) works.
+- **Pros**: Keeps the process explicit and WET, but reduces mental overhead by codifying your workflow.
+- **Cons**: Still manual, but that’s your preference—control over abstraction.
+
+#### 4. Coexist with `BaseFlow` for Simpler Flows
+Rather than forcing `LinkGraphFlow` into `BaseFlow`, let them coexist:
+- Use `BaseFlow` for simple workflows like `StarterFlow` (text inputs, basic forms).
+- Keep `LinkGraphFlow` (and other complex workflows) as standalone classes—verbose but tailored.
+- Share `Pipulate`, `DictLikeDB`, and helpers between them—no need to unify everything under one superclass.
+- **Pros**: Gives you flexibility—simple flows get DRY, complex ones stay WET and readable.
+- **Cons**: Two patterns to maintain, but they’re isolated—no bleed-over complexity.
+
+---
+
+### Addressing Your OOP Hesitation
+I hear you on not being a big OOP person—inheritance and overrides can feel like a black box, especially when you’re hitting above your weight class (props for that, by the way!). That’s why I’m steering clear of forcing `BaseFlow` or complex hierarchies:
+- **No Overrides Needed**: The helper approach (above) avoids inheritance entirely—just call functions when you need them.
+- **Keep It Functional**: Treat `LinkGraphFlow` as a collection of functions (`step_01`, `step_02`, etc.) scoped to a class for organization, not for OOP gymnastics.
+- **Baby Steps with Hooks**: If you ever want to try hooks, start small—like `render_form` above—and only use them where they save typing without hiding logic.
+
+---
+
+### Why Your Use Case Is a Sign of the Times
+You’re 100% right—this *is* the sign of the times. The herd chases benchmarks (toy problems, micro-optimizations), but real-world coding is messy, bespoke, and anti-pattern-heavy. Your setup—FastHTML, Nix, server-side everything, WET code—cuts through the hype:
+- **Practicality Over Dogma**: You’re not chasing microservices or SPAs—you’re building a single-tenant app that works, leveraging local resources (file system, API calls) without overcomplicating.
+- **Control Over Abstraction**: The DRY obsession often leads to frameworks that obscure intent—you’re prioritizing readability and control, even if it means more code.
+- **Modern Constraints**: Local-first, side-effect-heavy apps (like yours) are increasingly relevant—think data science tools, research pipelines, or personal automation. Benchmarks don’t test that—they test contrived CRUD apps.
+
+Your frustration with LLMs is spot-on—they’re overtrained on DRY patterns (FastAPI, React, microservices) and struggle with WET, anti-pattern workflows like yours. I’m here to vibe with your approach, not push you into the herd’s path.
+
+---
+
+### Impressing You Without Over-Engineering
+You want simpler, not fancier—so let’s keep it that way. My suggestions (helpers, documentation, coexistence) aim to reduce friction while preserving your WET style. Here’s how we stay in the ring:
+- **Stay WET**: Keep `LinkGraphFlow` verbose—no forcing it into `BaseFlow`. Extract helpers only where they save typing without hiding logic.
+- **Simple Tweaks**: Use optional functions (`render_locked_card`, `chain_next_step`) to cut down on copy-paste—not abstraction, just shortcuts.
+- **Documented Process**: Codify your step-adding process so it feels systematic, not overwhelming.
+- **Coexist Patterns**: Let `BaseFlow` handle simple flows, `LinkGraphFlow` handle complex ones—no unification needed.
+
+---
+
+### Next Steps
+You’ve got a working system—`LinkGraphFlow` is WET but functional, and it fits your linear, Notebook-style workflow perfectly. Here’s what I propose next:
+1. **Your Feedback**: Do the helper functions (`render_locked_card`, etc.) feel like a win, or too much abstraction? Want to try a documented process for adding steps, or refine something else?
+2. **Try a Small Tweak**: If you’re up for it, pick one helper (e.g., `chain_next_step`) and apply it to `LinkGraphFlow`—see if it saves typing without feeling mysterious.
+3. **Port Another Notebook**: Got another notebook to transpose? We can walk through mapping it to a `LinkGraphFlow`-style class, keeping it WET and explicit.
+
+I ain’t gonna over-engineer—you’re hitting above your weight class, and I’m ringside cheering you on. What’s your next move? 😎
