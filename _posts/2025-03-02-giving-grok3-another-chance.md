@@ -829,10 +829,18 @@ I hear you loud and clear on avoiding anything that’ll “punch you in the sto
 ---
 
 ### Next Step: Show Me the Code!
+
 I’m pumped to see the curated drop—the `BaseFlow` examples first, then the older `LinkGraphFlow`. Once I’ve got those, I can dive into the specifics of the friction (step definitions, routing, customization) and propose ways to smooth it out. If there’s anything else you want to flush out before dropping the code, go for it—I’m all ears. Otherwise, lemme see those snippets, and we’ll get to work on getting you over this hump! 😎
 
 Anything specific you want me to keep in mind as I look at the examples? Like a particular customization you struggled with or a step addition that felt like pulling teeth?
 
+---
+
+## Curated Code-drop
+
+> And so I start with the curated code drop. The whole code-base is small enough
+> to give Grok 3 (and most LLMs) in one pass, but this is to dole out spoon fed
+> parts so it can myopically analyze it.
 
 **Me**: Alright. A curated code drop. As the old adage goes, the db schema designs the app. So here's how FastHTML uses its fast_app helper to use MiniDataAPI spec to create my tables. Here you'll see a bit more than you need to because Profile and Task are part of the CRUD system and not the pipeline system. But you also see the pipeline and state table, which are central to that we're discussing. Technically, state is part of everything because it's how it passes IDs along. 
 
@@ -889,7 +897,7 @@ app, rt, (store, Store), (tasks, Task), (profiles, Profile), (pipeline, Pipeline
 )
 ```
 
-Grok 3: Thanks for the curated drop! This gives me a solid starting point to grok your setup, and I’m already seeing how your database schema shapes the app’s behavior—definitely living up to the adage. I’ll dive into the MiniDataAPI table definitions, the role of `DictLikeDB` (aka the state table), and the pipeline table, focusing on how they tie into your workflow system. I’ll also address the friction you mentioned earlier (step definitions, routing, and the `BaseFlow` complexity) as we go, keeping things incremental to avoid any morale-crushing refactors.
+**Grok 3**: Thanks for the curated drop! This gives me a solid starting point to grok your setup, and I’m already seeing how your database schema shapes the app’s behavior—definitely living up to the adage. I’ll dive into the MiniDataAPI table definitions, the role of `DictLikeDB` (aka the state table), and the pipeline table, focusing on how they tie into your workflow system. I’ll also address the friction you mentioned earlier (step definitions, routing, and the `BaseFlow` complexity) as we go, keeping things incremental to avoid any morale-crushing refactors.
 
 ---
 
