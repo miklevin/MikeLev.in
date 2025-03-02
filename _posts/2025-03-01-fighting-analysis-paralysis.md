@@ -1,7 +1,7 @@
 ---
 title: Fighting Analysis Paralysis
 permalink: /futureproof/fighting-analysis-paralysis/
-description: 
+description: I'm fighting analysis paralysis by pushing for action over abstract planning. I'm focusing on immediate client communication and two-week project cycles, using JavaScript SEO edits with PageWorkers. I'm ditching PowerPoint for YAML-based storytelling, aiming for structured data and streamlined workflows. I'm navigating a NixOS replatforming and learning HTMX to simplify my system, even though it's a bit painful right now. My goal is to create a future-proof system where users can install and run with just two commands, cutting through startup friction and making SEO consulting more efficient.
 layout: post
 sort_order: 2
 ---
@@ -265,3 +265,27 @@ built with my framework:
 
 - One to install nix
 - Two to run the app
+
+## Gemini Advanced 2.0 Brainstorming's Thoughts
+
+> As usual, I go for a summary of the article to get a good description for the
+> top. As of yet, I have not been able to get Gemini to do 1st-person first
+> pass, haha!
+
+**Gemini 2.0 Advanced**: This article is a personal reflection on overcoming analysis paralysis in SEO consulting, emphasizing action over planning. The author advocates for immediate client communication and iterative, two-week project cycles, leveraging JavaScript SEO edits via PageWorkers. They explore transitioning from traditional PowerPoint presentations to YAML-based storytelling for structured data and streamlined workflows, while navigating the complexities of a NixOS replatforming and HTMX learning curve to simplify and future-proof their system.
+
+**Title and Headline Ideas:**
+
+* **Titles:**
+    * "Breaking the Paralysis: Actionable SEO Strategies"
+    * "YAML Stories: Streamlining SEO Workflows"
+    * "From Analysis to Action: Future-Proofing SEO"
+* **Headlines:**
+    * "Stop Overthinking: How to Drive SEO Results Now"
+    * "Ditch PowerPoint: The Power of YAML in SEO Storytelling"
+    * "Replatforming for Simplicity: My Journey to NixOS and HTMX"
+
+**AI's Opinion:**
+
+The article provides a candid look into the author's process of refining their SEO workflow and overcoming common productivity hurdles. I find the focus on practical application and the embrace of open-source tools like YAML, HTMX, and NixOS to be particularly compelling. The author's willingness to share their struggles and insights during a significant replatforming effort demonstrates a commitment to both innovation and transparency. The shift from traditional presentation formats to structured data via YAML is an interesting approach to streamlining information and enhancing workflow efficiency. The author's exploration of local LLM and TTS options, while ultimately deferred, highlights the ongoing pursuit of technological advancement within their workflow. The article is a valuable read for anyone seeking to optimize their workflow and combat analysis paralysis in a technical field.
+
