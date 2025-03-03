@@ -413,7 +413,7 @@ class LinkGraphFlow:
             (f"{prefix}/jump_to_step",    self.jump_to_step,   ["POST"]),
             (f"{prefix}/unfinalize",      self.unfinalize,     ["POST"]),
             (f"{prefix}/refresh_csvs",    self.refresh_csvs,   ["GET"]),
-            (f"{prefix}/delete/{{org:str}}/{{project:str}}/{{analysis:str}}", self.delete, ["DELETE"])
+            {% raw %}(f"{prefix}/delete/{{org:str}}/{{project:str}}/{{analysis:str}}", self.delete, ["DELETE"]){% endraw %}
         ]
         for path, handler, *methods in routes:
             method_list = methods[0] if methods else ["GET"]

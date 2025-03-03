@@ -1219,7 +1219,7 @@ class Pipulate:
             next_step = steps[i]
             messages[step.id] = {
                 "input": f"Step {i}: Enter your {step.label}",
-                "complete": f"Step {i} Done. You entered {{}}. Enter your {next_step.label}."
+                {% raw %}"complete": f"Step {i} Done. You entered {{}}. Enter your {next_step.label}."{% endraw %}
             }
             
         # Special handling for finalize step
@@ -2763,7 +2763,7 @@ class Pipulate:
             next_step = steps[i]
             messages[step.id] = {
                 "input": f"Step {i}: Enter {step.label}",
-                "complete": f"Step {i} Done. You entered &lt;{{}}&gt;. Enter {next_step.label}."
+                {% raw %}"complete": f"Step {i} Done. You entered &lt;{{}}&gt;. Enter {next_step.label}."{% endraw %}
             }
             
         # Special handling for finalize step

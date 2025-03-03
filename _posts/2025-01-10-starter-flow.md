@@ -1052,7 +1052,7 @@ class Pipulate:
                 id=step_id,
                 hx_get=url,
                 hx_trigger="load" if i == start_from else None,
-                hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"
+                {% raw %}hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"{% endraw %}
             )
             placeholders.append(div)
         return placeholders
