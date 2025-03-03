@@ -1,9 +1,7 @@
 ---
-
-
 title: Out Of Steam? Adonosine!
 permalink: /futureproof/out-of-steam-adonosine/
-description: 
+description: In this article, I delve into the science of adenosine, the chemical behind sleep pressure, and how it impacts our daily energy levels and cognitive function. I explore its discovery, its connection to cellular energy, and how caffeine interacts with it. Shifting gears, I discuss my personal productivity strategies, including the importance of nutrition like fish protien and the integration of YAML for streamlined website audits. I also reflect on the creative process, the challenges of innovation, and the power of open-source software, all while outlining my plans for integrating voice technology into my web framework.
 layout: post
 sort_order: 1
 ---
@@ -402,6 +400,109 @@ just keeps bouncing back up, and the persistence, patience and
 stick-to-it-iveness of the Andy Dufresne character who tunnels his way to
 freedom.
 
+Okay, so now... before the day really begins... I already did one of the key
+most important parts, that YAML outline. I have to make it more roadmap-like
+covering a 2-week process of site optimization, mostly through JavaScript-style
+SEO, which really is a thing.
 
+I will have to report to a client how a process I was monitoring over the
+weekend went (well) and also do a fair amount of follow-up work on that, but the
+good news now is that everything gets somehow or other plowed into this single
+storytelling workflow. There will be big versions of it (workessions) and small
+versions of it (executive summaries), but it will always be a linear process. It
+will always be a linear workflow where I will be able to have my system compel
+me through it URL by URL, page by page. It will quite literally tell a story
+(thinking about incorporating 11labs-like voice...
 
+## Hmm, Is There a FOSS Alternative to 11Labs?
+
+**Me**: Is there an 11labs like product in FOSS that works on NixOS and nix on Mac and Windows (under WSL)?
+
+**Perplexity**: Yes, there are open-source alternatives to ElevenLabs that can work on NixOS, macOS with Nix, and Windows under WSL. The most promising option is Coqui TTS, an open-source text-to-speech library[5][9].
+
+Coqui TTS offers:
+1. Voice cloning capabilities
+2. Support for multiple languages
+3. A Python-based implementation
+
+To use Coqui TTS on different platforms:
+
+## NixOS
+You can install Coqui TTS using Nix package manager. Create a `shell.nix` file with the necessary dependencies and use `nix-shell` to set up the environment.
+
+## macOS with Nix
+Use nix-darwin to manage your macOS configuration and include Coqui TTS in your setup[2]. This allows for a consistent development environment across platforms.
+
+## Windows (WSL)
+Utilize NixOS-WSL, which enables running NixOS on Windows Subsystem for Linux[4][6]. This approach allows you to use Coqui TTS within a NixOS environment on Windows.
+
+While Coqui TTS may not have the exact same level of quality as ElevenLabs, it provides a solid open-source foundation for text-to-speech functionality across these platforms. For those seeking higher quality but still open-source options, Tortoise TTS is another alternative, though it may require more computational resources[7][9].
+
+Citations:
+
+    [1] https://www.yeschat.ai/blog-Top-5-Best-FREE-ElevenLabs-Alternatives-FREE-Text-to-Speech-Tool-18679
+    [2] https://joegold.in/blog/posts/08-21-2024-nixos-dev-env/
+    [3] https://smallest.ai/blog/free-elevenlabs-alternatives-text-to-speech
+    [4] https://discourse.nixos.org/t/nixtheplanet-run-macos-windows-and-more-via-a-single-nix-command-nixosmodules/36634
+    [5] https://crikk.com/elevenlabs-alternatives/
+    [6] https://discourse.nixos.org/t/wsl-2-is-out-better-support-for-nix/2860
+    [7] https://www.reddit.com/r/artificial/comments/11od0rn/completely_free_unlimited_elevenlabs_alternative/
+    [8] https://www.reddit.com/r/NixOS/comments/1gdz7nb/what_should_i_use_wsl_2_nixos_for_why_everything/
+    [9] https://nerdynav.com/open-source-ai-voice/
+
+## Future Plans for Voice Integration with Coqui TTS
+
+So, Coqui TTS (text to speech) is in my future, just not right now due to the
+fact it might be a rabbit hole adventure. It would complement the Ollama-powered
+local LLM in my web framework, so that it not only felt like it was doing the
+ChatBot thing with you, but it would also feel like it was talking, which has
+been all the rage lately with ChatGPT and Grok. There is a powerful emotional
+component there when there is a human-sounding voice speaking those chatbot
+responses to you. And all with FOSS! This is some powerful dots I'm trying to
+connect. But I've got to keep pushing... before the work day begins... look back
+to yesterday's article...
+
+## Understanding Daily Energy Cycles and Adenosine
+
+Each and every day is that burning candle experience. Each and every day is that
+running out of steam experience. And now we have a scientific explanation. It's
+the building up of adenosine in our brains! This ties directly into the concepts
+of decision fatigue and cognitive overhead for me. There's only so much you can
+do before you're like an over-inflated balloon. The inversion of "running out of
+fuel" versus being "over-inflated" with sleepy chemicals is interesting. It's
+not so much burning the candle at both ends as over-stuffing yourself. And you
+can't just pour in more fuel as a solution. Your body clears out adenosine at
+the rate it clears it out. So getting more sleep to rejuvenate is more important
+than getting more food for energy.
+
+## Seizing the Morning Energy for Framework Documentation
+
+Okay, I did that. This is the morning. I've got that morning energy and we are
+going into a Monday morning. Make that desperate chisel-strike to lock in the
+win you earned from the weekend work!
+
+### Separating Pipeline Workflow Guide into Its Own Article
+
+Yes, it is literally a starter-guide to adding new pipeline workflows my own web
+framework! And I don't want it mixed into this adenosine article. It would make
+it way too long and even more topically dispersed than it already is. Okay, so
+onto the next article for today!
+
+---
+
+## The Gemini Summary
+
+In this article, I delve into the science of adenosine, the chemical behind sleep pressure, and how it impacts our daily energy levels and cognitive function. I explore its discovery, its connection to cellular energy, and how caffeine interacts with it. Shifting gears, I discuss my personal productivity strategies, including the importance of nutrition like smoked salmon and the integration of YAML for streamlined website audits. I also reflect on the creative process, the challenges of innovation, and the power of open-source software, all while outlining my plans for integrating voice technology into my web framework.
+
+**Ideas for Titles and Headlines:**
+
+* "Adenosine & Agency: Fueling Creativity and Productivity"
+* "Beyond Caffeine: Unlocking True Energy with Adenosine Insights"
+* "YAML, Lox, and LLMs: My Morning Brain-Boosting Routine"
+* "The Science of Sleep Pressure and the Art of Creative Innovation"
+* "From Adenosine to Agency: My Journey in Tech and Productivity"
+
+**AI's Opinion of the Article:**
+
+This article effectively blends scientific explanations with personal anecdotes and technical insights. It provides a comprehensive look into the author's thought process, combining elements of biology, software development, and philosophical reflection. The author's enthusiasm for open-source software and creative problem-solving shines through, making for an engaging and informative read. The integration of scientific concepts with practical applications and personal experiences makes the article both educational and relatable.
 
