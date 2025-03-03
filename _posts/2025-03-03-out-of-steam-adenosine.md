@@ -1,4 +1,6 @@
 ---
+
+
 title: Out Of Steam? Adonosine!
 permalink: /futureproof/out-of-steam-adonosine/
 description: 
@@ -100,15 +102,38 @@ Okay, that was fun! So, bottom line, working with Grok 3 I got over quite a hump
 yesterday deciding where I'm going directionally with my FastHTML web framework
 but ran out of steam around 9:00 PM and got ready for bed. I probably didn't
 fall asleep until around 11:00 PM, and here I am at 6:30 AM the next morning,
-typing away. The adenosine is cleared out of my brain, and I'm giving it an
-extra hit of caffeine. I also need to get some classic nutrition into my body,
-and I'll probably have some lox (smoked salmon), which is one of those brain
-superfoods full of all the good omega-3 fatty acids, high-quality protein, and
-essential vitamins and minerals. These nutrients support brain function,
-potentially enhancing cognitive performance and memory. The protein will help
-stabilize my blood sugar levels, providing sustained energy throughout the
-morning. Norwegians know this! And it is why so many people take fish oil pills.
-Just eat lox.
+typing away. 
+
+### Brain-Boosting Breakfast: The Power of Smoked Salmon
+
+The adenosine is cleared out of my brain, and I'm giving it an extra hit of
+caffeine. I also need to get some classic nutrition into my body, and I'll
+probably have some lox (smoked salmon), which is one of those brain superfoods
+full of all the good omega-3 fatty acids, high-quality protein, and essential
+vitamins and minerals. These nutrients support brain function, potentially
+enhancing cognitive performance and memory. The protein will help stabilize my
+blood sugar levels, providing sustained energy throughout the morning.
+Norwegians know this! And it is why so many people take fish oil pills. Just eat
+lox.
+
+### Electrolytes and Vitamin C: The Perfect Pairing
+
+Oh, and on a related note, you know how smoked salmon is salty? That means
+you're getting electrolytes which help the water that you drink really get into
+your body (prevent dehydration). That's the basics of Gatorade (saltwater), but
+it doesn't have to be disgusting. In fact, after getting the lox superfood in
+your body (you don't need so much bagel), the best thing to do is dose it with
+vitamin C. Have you ever craved orange juice after lox? That's not just the
+saltiness. Your body needs a particular amino acid that the body doesn't provide
+to make the best use of the fish protein (vitamin C), to absorb iron and build
+other tissues.
+
+### The Optimal Morning Fuel Strategy
+
+So the ideal getting started is a little bit of lox, orange juice (or spinach
+and the like) and a cup of coffee. Be careful with the carbs (bread). That's not
+something that's in our natural diets, and they tend to make you fat (excess
+energy like raw sugar). Bread is sugar pretending to be meat.
 
 ## YAML and Text-Based Configuration
 
