@@ -1,7 +1,7 @@
 ---
 title: Giving Grok 3 Another Chance
 permalink: /futureproof/giving-grok3-another-chance/
-description: 
+description: This weekend, I embarked on a journey to explore the capabilities of Grok 3, a new LLM, in assisting me with a challenging coding project. Unlike my previous attempts with other models, I opted for a more focused approach, feeding Grok 3 curated code snippets instead of the entire codebase at once. This strategy proved effective, as Grok 3 demonstrated a remarkable ability to grasp the nuances of my project, including its unconventional, WET (Write Everything Twice) style and reliance on FastHTML, HTMX, and Nix. Together, we delved into the intricacies of my pipeline-based workflow system, dissecting its components and addressing friction points without resorting to over-engineered solutions or DRY abstractions that would obscure my control over the code. Through this iterative process, I gained a deeper understanding of FastHTML/HTMX patterns and solidified my approach to porting Jupyter Notebooks into user-friendly web apps, all while staying true to my preference for explicit, readable code.
 layout: post
 sort_order: 1
 ---
@@ -6501,6 +6501,10 @@ Does this updated guide feel right? Want to tweak any part (e.g., more HTMX exam
 
 ---
 
+> OMG, was that a punch in the stomach! Right as I get to the magical next step
+> code, the culmination of all this work, it becomes unusable because of the
+> interaction of two problems, haha! Cue the Rocky music!
+
 ## Weekend Experimentation with Grok 3 Leads to Exhaustion
 
 Okay, my approach for this weekend has been markedly different from my previous
@@ -6938,3 +6942,51 @@ The Unix pipe spirit here is gold: `step_01 | step_02 | finalize` mirrors a Note
 4. **Feedback**: How’s this feel? Too verbose? Helpers working? Want more HTMX examples (e.g., `hx_swap_oob`)?
 
 I’m here to keep it simple and vibin’ with your WET style—no over-engineering, just guiding you through the pipes. What’s your take? 😎
+
+---
+
+And there we have it. I captured enough context to feed it all back into Grok 3
+on a second discussion after the first discussion reached whatever that was. If
+Grok groks, then that was the failure to grok. A croak? Grok croaks.
+
+Pshew! I thought I lost my steam, but having Grok 3 bounce back formatting all
+its output on its own (after I did that convoluted dance with Google Docs and
+ChatGPT 4o mini), I may just push a little bit further and try to actually
+implement this code, and perchance strip out BaseFlow. It should become
+unnecessary once a good StarterFlow example is in place that doesn't inherit
+from a superclass.
+
+But I'm going to hedge my bets and wrap it up right here with my traditional
+Gemini summary. Remember, Gemini was the first one to reach that huge token
+context window, so even though I ask it for code advice the least (because it
+can't even say the name of the US president / its AI-bias is off the charts),
+it's certainly good at summarizing this stuff, and I'll continue using it for
+such, if only to keep myself reminded that it is one of the horses in this race.
+
+---
+
+## Gemini 2.0 Advanced's Summary of Article
+
+[I was able to use this first take directly, so it appears at the top of the article.]
+
+### Title Ideas:
+
+1. Grokking with Grok 3: A Weekend of WET Code and Unix Pipes
+2. Taming `LinkGraphFlow`: How Grok 3 Helped Me Embrace WET and FastHTML
+3. Jupyter to FastHTML: A Step-by-Step Guide with Grok 3 (No DRY Allowed!)
+4. Beyond the Benchmarks: Grok 3 Tackles a Real-World, Anti-Pattern-Heavy App
+5. The Sign of the Times: Why WET Code and Localhost Apps Are the Future (and How Grok 3 Gets It)
+
+### Headlines:
+
+- Grok 3: The LLM That Can Vibe with Your WET Code
+- Ditching DRY: When More Code Means More Control (and Grok 3 Approves)
+- Jupyter Notebooks to FastHTML Apps: A Pipeline-Powered, Grok 3-Assisted Guide
+- Forget the Benchmarks: Grok 3 Tackles Real-World Complexity (and Wins)
+- The Future of Coding: Localhost, Server-Side, and WET (with Grok 3 as Your Guide)
+
+### Opinion:
+
+This article is a fascinating exploration of how LLMs can assist with real-world coding projects that deviate from the beaten path. The author’s commitment to WET code, FastHTML/HTMX, and a server-side-everything approach is refreshing, and Grok 3’s ability to keep up with this unconventional style is impressive. The step-by-step guide to building `StarterFlow` is a valuable resource for anyone looking to port Jupyter Notebooks into user-friendly web apps, and the emphasis on explicit, readable code over DRY abstractions is a welcome reminder that control and clarity are paramount. This is a great example of how LLMs can be used to empower developers, not replace them, and it’s a sign that the future of coding may be messier, more bespoke, and ultimately more human-centric than the current DRY-obsessed trends suggest.
+
+
