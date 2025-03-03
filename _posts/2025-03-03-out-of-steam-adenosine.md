@@ -199,6 +199,8 @@ Example:
     summary:
 ```
 
+## YAML as a Natural Framework for Website Audits
+
 There's just so much storytelling there, it's unbelievable. You could make a
 deck out of this by more or less putting a URL in for each value, vising that
 webpage and taking a screen snapshot. String the screenshots together, and
@@ -209,6 +211,8 @@ other things, but it sets the stage very nicely and can be customized for almost
 any instance... because YAML! Nice and lightweight, and staged to actually be
 imported as a config file!
 
+## From Jupyter Notebooks to FastHTML: The Technical Process
+
 Now my system doesn't really import these things. Actually, the process is more
 like designing something in a Jupyter Notebook and then porting it over to
 FastHTML. These outlines have nothing to do with the technical process right
@@ -217,6 +221,8 @@ Pipulating the data? Oh, that's so good given it's nearness to both populate the
 data and using the implied and actual use of the PyPI pip install tool in the
 background to build the familiar Python environment you're using. Yes, these are
 pipulate workflows, which can but not necesssarily must be called pipulations.
+
+## Agency and Vision in Software Development
 
 Okay, this is clear vision stuff. This is what compels a project forward. And
 thinking out loud, processing previous day's thoughts and bouncing ideas off of
@@ -230,6 +236,8 @@ computing power they spend by continuously running. There's a less expensive
 local LLM story here that only costs you the price of electricity which I'll
 cover soon. 
 
+## Breaking Free from Automatic Patterns
+
 Hopefully, you get the idea. We humans are already in that day/night loop cycle,
 like it or not. There's no automation script putting us in that mode. We're in
 it and must cope and survive, and so we have automatic click-whirrr programs (as
@@ -239,6 +247,8 @@ experience, which is often unthinking and on automatic. To lift us above the
 daily grind, to get out of ruts and boring patterns of the easy and automatic,
 we must burn some of that ATP in our brain, deliberately going off the rails.
 
+## The Risk and Necessity of Creative Thinking
+
 And going off the rails is scary, but that's creativity. You run with the pack
 or you run alone. I forget what movie that quote came from. You either run with
 the pack or you run alone. Do you run with the pack? It's the setup for coming
@@ -246,6 +256,8 @@ into line and getting the strength of the whole pack, or going off to the very
 difficult life of being a lone wolf. Of course, that's the predator metaphor. Do
 you flock with the herd, or do you get eaten by a predator. Because if you stray
 too far from the herd, you'll get picked off by a predator at the edges.
+
+### The Paradox of Creativity and Survival
 
 Oh, what irony! There is strength in numbers and strength in the herd, so the
 only obvious choice is to blend into the crowd and disappear (if herd) or to
@@ -256,6 +268,8 @@ just in your mind to think differently is dangerous. Creativity is dangerous.
 You know, the movie The Croods summed it up nicely. Creativity is dangerous, but
 sometimes necessary to survive. To be creative when day-to-day survival is not
 at stake is actually just rare. That internal drive is rare.
+
+### LLMs and the Pull Toward Convention
 
 That's personal opinion, and we can only know ourselves that well. Perhaps it's
 presumptuous to say that about others or in general. However, my recent
@@ -268,6 +282,9 @@ yet) so well it's almost literal. And by dots, I mean HTML ***Attributes*** and
 Python ***args***. It's almost mind-bending to realize how they ***"zip"
 together*** using the ***`**kwargs` splat*** feature in Python. 
 
+
+## Understanding Python's Kwargs Splat Operator
+
 Spat? What? Well, splatting is a uniquely flexibly way to make a Python function
 have 1-to-1 correspondence with key/value-pairs coming in from say HTML elements
 and their attributes. Instead of feeding a Python function arguments (function
@@ -278,6 +295,8 @@ keyword meaning in Python, but rather by convention because even Python people
 have difficulty following all the splat unpacking going on, so it's helpful to
 use a conventional name.
 
+## The Genius of FastHTML's HTML-Python Integration
+
 The way Python allows splatting and the resulting weird power it provides is bit
 heady. And the way it was used to zip together the HTML specification with
 Python functions and then in turn HTMX was almost sitting there waiting to
@@ -286,6 +305,8 @@ potential of HTMX. Now there were other things like FastHTML before it that went
 that far: HTML attribute-to-Python arguments like PyPI's dominate (`pip install
 dominate`). However, FastHTML took the creative step of using the "space" that
 provided to layer in the HTMX attributes as well.
+
+## A Convergence of Web Development Pioneers
 
 Okay, I'll say it. It's genius. It's the kind of genius I wish that I was, but
 am not and can only recognize in tools when I see it. And what's more, it's the
@@ -299,6 +320,8 @@ for JavaScript, and finally Jeremy Howard who connected the dots between all of
 the above only just last year in 2024 to create FastHTML. It's an off-the-rails
 web framework!
 
+## The Challenge of True Creative Innovation
+
 So where were we? Right, deliberately going off the rails. Thing is, even when
 you're consciously trying to be creative, you're *still* probably sticking to
 some rails, some tried-and-true pathways your brain's already worn smooth. I
@@ -310,6 +333,8 @@ Mojo hasn't replaced Python. I mean there's a whole article or two just in
 qualifying those statements. But let's just say it's better to build on the Web
 and Python than to wholesale replace them.
 
+## YAML Outlines as Creative Tools
+
 It's also where YAML outlines come in. They're plain old text outlines that give
 little nudges towards new connections, while sitting on a standard that gives
 you the power of conventional behavior and the wisdom of the crowd. I could load
@@ -320,6 +345,8 @@ essentially stop thinking about tools as they become a virtual extension of your
 body. That's why you want them Free and Open Source Software (FOSS). Otherwise,
 the virtual extensions of your body belong to profit incentivized corporate
 interests.
+
+## Debunking the "Free Product" Myth
 
 Let's bust the myth: If you're not paying for the product, ***you are the
 product.*** Well, that's just cynical and plain wrong. Try telling that to Guido
@@ -333,6 +360,8 @@ matter in the form of BSD Unix (Berkeley System Distribution), and you don't
 include the father of Time Sharing, Fernando Corbató who made multics, but which
 also became proprietary.
 
+### The Reality of True Altruism in Tech
+
 So what I'm saying is that there is real free and true altruism in this world.
 There is free as in freedom and liberty (as opposed to free as in first-dose
 free) in this world. People who perpetuate the myth that if you're not paying
@@ -345,6 +374,8 @@ and the process of putting it together. These are finite resources with material
 costs. Information is not. You really ought to read about Richard Matthew
 Stallman and the General Public License (GPL) one day.
 
+## Understanding Adenosine and Mental Energy
+
 Okay, so adenosine... right. See? It's not even 8:00 AM and I've created a bunch
 of it. The temptation is to think you've burned fuel in the ATP process and thus
 created adenosine byproduct accumulating up in your brain, but I'm led to
@@ -356,6 +387,8 @@ throughout the day creating sleep pressure. You only have so much to go around
 during the day, like a candle burning or an engine running out of steam, so you
 have to divvy it out carefully. And I divvy it here into this article as a sort
 of direction-adjusting agency-practicing exercise.
+
+## The Long Game of Personal Growth
 
 Yeah, that says it quite nicely. I'm deliberately adjusting my direction in life
 to exercise a sort of agency that I know doesn't change my life in one day, but
