@@ -100,7 +100,7 @@ author: Mike Levin
   },
   "keywords": "{{ page.tags | join: ', ' }}",
   "wordCount": "{{ content | number_of_words }}",
-  "articleBody": "{{ content | strip_html | xml_escape | normalize_whitespace | strip_newlines | strip }}"
+  "articleBody": "{{ content | strip_html | xml_escape | normalize_whitespace | strip_newlines | json_escape }}"
 }
 </script>
 
