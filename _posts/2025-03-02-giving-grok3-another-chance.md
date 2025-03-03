@@ -6166,6 +6166,7 @@ externalize-able, but that would move HTMX parts out of the "musical flow".
 > crashing, and I had to use ChatGPT 4o mini to help me format.
 
 **Grok 3**: Thanks for the heads-up on the markdown indentation issue—sorry about that! Sounds like it might be a UI rendering glitch rather than the code itself, since I aim to keep it properly indented. I’ll keep an eye on it, but glad you got it sorted with ChatGPT 4o-mini. Onward!  
+
 I love that you pointed out TenCardFlow—it’s a perfect example of the Unix pipe spirit, where each step takes the previous step’s output as input, chaining linearly while collecting user data at every stage. It captures exactly what you’re going for: a Notebook-like flow where inputs/outputs pipe through steps, culminating in a finalized state. Let’s rework the getting started guide for StarterFlow based on your new example—a simple two-step flow where step_01 collects data, step_02 uses it as input, and we finish with a finalize/unfinalize toggle. We’ll also move repetitive UI patterns into Pipulate as helpers, but keep HTMX attributes explicit in the flow to preserve the “musical notes” pattern you’re learning.
 
 ---
@@ -6497,3 +6498,443 @@ This guide gives you a minimal StarterFlow with the Unix pipe spirit baked in. H
 4. **Scale Up**: Once comfy, port a more complex Notebook (e.g., a simple API call), keeping it WET but using Pipulate helpers to reduce boilerplate.
 
 Does this updated guide feel right? Want to tweak any part (e.g., more HTMX examples, adjust helpers)? I’m here to keep it simple and iterative—no over-engineering, just guiding you through the flow. 😎
+
+---
+
+## Weekend Experimentation with Grok 3 Leads to Exhaustion
+
+Okay, my approach for this weekend has been markedly different from my previous
+recent attempts with the frontier models, and I'm pretty happy with Grok 3,
+besides both it and me getting exhausted. Of course an AI like this doesn't
+experience exhaustion, but it did become unresponsive in the overloaded
+discussion thread. It happened before, the first time I used Grok 3, and in
+whatever exuberant attempt the Grok 3 team is making for extremely big token
+windows for discussions, it does reach a limit. I reach that limit. Grok 3
+becomes unresponsive.
+
+### X.com App Crashes and Resource Limitations
+
+But that didn't happen until after the X.com app, the only place I could copy
+full responses with markdown intact, started crashing. I'm only on an iPhone 12,
+so it may just be running out of resources trying to show the long discussion in
+the Grok sub-section of the X.com app. But I did install the standalone Grok
+app, but it didn't see the discussion history. When I go to "My Conversations",
+it says "There's nothing here yet." But my conversation history is there between
+X.com in the web browser and the X.com iPhone app. I'm using the same X login in
+all three places, so there's some separate discussion history based on the app
+you go in through.
+
+### Creative Workarounds for Markdown Formatting
+
+The way I got this last response formatted was that I copied the HTML that still
+displays just fine in the X.com Web UI, and then I pasted it into Google Docs,
+which like so many old-school WYSIWYG editors makes a valiant attempt to format
+it. Copy/pasting from web pages has been around long enough that the attempt to
+format it to the native Word Processor document software is pretty mainstream.
+And now Google Docs can let you download as markdown! And so it was close but
+not completely standard markdown. There was a lot of backslash-escaping where
+there didn't need to be, and there was no backtick fencing for Python formatting
+around the Python code blocks.
+
+### Leveraging ChatGPT 4o Mini for Formatting Tasks
+
+And so the last round of formatting, I had ChatGPT 4o mini do! Yup. When you
+don't need "world knowledge" but just need brute force formatting tasks on very
+large documents, it's best to go to ChatGPT 4o mini in particular, because it
+doesn't give up on the formatting task trying to cut corners nearly as early as
+ChatGPT 4o (regular) does. And when it decides to stop, there's usually a
+"continue generating" button there to help you get through very long documents.
+
+### Next Steps with Claude and Grok
+
+And so, as I sad both Grok 3 and myself have gone to exhaustion. I'll have
+Claude 3.5 layer in some headlines here as usual, and then I'll feed the article
+back into Grok 3 as a new discussion to get its take on this whole thing.
+
+---
+
+**Grok 3**: I apologize for the inconvenience caused by the unresponsiveness in our previous discussion thread. It seems we hit some limits there, both in terms of the app's capacity and perhaps my own ability to keep up with the token load! Thanks for sticking with me through the crashes and formatting woes—I’m impressed by your ingenuity in working around those issues with Google Docs and ChatGPT 4o mini. That’s some next-level problem-solving right there.
+
+I’ve got your feedback about the X.com app crashing on your iPhone 12, and the standalone Grok app not syncing conversation history. That’s frustrating, and while I don’t have direct control over the app infrastructure, I’ll pass it along to the team at xAI. It sounds like a resource bottleneck on the phone and possibly a sync issue between platforms—good to know it’s tied to the same X login but behaving differently across apps.
+
+Now, onto your updated request for the getting started guide! I see you’re loving the Unix pipe spirit in `TenCardFlow`—that chaining of output-to-input is spot-on for what you’re aiming to achieve with a Notebook-to-FastHTML port. Let’s refine the `StarterFlow` guide based on your new example: a two-step flow where `step_01` collects an animal from the user, `step_02` takes that as input and lets the user decorate it, and we wrap it up with a finalize/unfinalize toggle. We’ll keep it WET but lean on `Pipulate` helpers for repetitive UI bits, leaving HTMX attributes explicit in the flow so you can build that muscle memory.
+
+---
+
+## Updated Getting Started Guide: Building `StarterFlow` with Unix Pipe Spirit
+
+### Goal: A Minimal Notebook-to-FastHTML Pipeline
+
+We’ll port this simple Notebook into a FastHTML app:
+
+```python
+# Cell 1: Collect an animal
+animal = input("Enter an animal: ")  # e.g., "cat"
+
+# Cell 2: Decorate the animal
+decorated = input(f"Decorate '{animal}' (e.g., add an adjective): ")  # e.g., "fluffy cat"
+
+print(decorated)
+```
+
+**FastHTML App Structure:**
+- **Landing Page**: Collect a pipeline ID with a suggested timestamp.
+- **Step 1**: Ask for an animal (e.g., “cat”), store and display it.
+- **Step 2**: Take the animal as input, suggest a decoration (e.g., “fluffy cat”), allow editing, and display the result.
+- **Finalize/Unfinalize**: Lock the workflow with a toggle to unlock.
+
+This mirrors `TenCardFlow`’s pipe-like flow: each step’s output feeds the next step’s input, with user interaction at every stage.
+
+---
+
+### Step 1: Update `Pipulate` with Helpers
+
+We’ll enhance `Pipulate` with UI helpers to reduce repetition, keeping HTMX attributes in the flow for learning purposes. Assume your existing `Pipulate` has `set_step_data`, `get_step_data`, `initialize_if_missing`, etc. Here’s the updated version:
+
+```python
+class Pipulate:
+    # Existing state management methods (set_step_data, get_step_data, etc.) assumed...
+
+    def render_form(self, step_id, prefix, title, message, inputs):
+        """Render a form card for user input"""
+        return Card(
+            H3(title),
+            P(message),
+            Form(
+                self.wrap_with_inline_button(*inputs),
+                id=f"{step_id}-form"  # Add ID for clarity (optional)
+            )
+        )
+
+    def render_locked_card(self, pipeline_id, step_id, prefix, message, final_step):
+        """Render a locked card with revert option unless finalized"""
+        finalize_data = self.get_step_data(pipeline_id, final_step, {})
+        if "finalized" in finalize_data:
+            return Card(message)
+        return self.revert_control(
+            url=pipeline_id,
+            step_id=step_id,
+            prefix=prefix,
+            message=message,
+            final_step=final_step,
+            target_id="starter-container"
+        )
+
+    def chain_next_step(self, step_id, prefix):
+        """Chain to the next step with HTMX"""
+        return Div(id=step_id, hx_get=f"{prefix}/{step_id}", hx_trigger="load", hx_swap="outerHTML")
+
+    # Existing methods like wrap_with_inline_button, revert_control, etc., remain
+```
+
+- **Notes**: 
+  - `render_form` now returns a basic `Card` with a `Form`, leaving HTMX attributes (`hx_post`, `hx_target`) to be set in the flow for explicitness.
+  - `render_locked_card` handles the locked state with optional revert, mirroring `TenCardFlow`’s pattern.
+  - `chain_next_step` keeps HTMX chaining explicit and reusable.
+
+---
+
+### Step 2: Define `StarterFlow`
+
+Set up the skeleton with explicit routes, similar to `TenCardFlow` but stripped down.
+
+```python
+from fasthtml.common import *
+from datetime import datetime
+
+# Assume fast_app setup as before
+app, rt, (store, Store), (pipeline, Pipeline) = fast_app(
+    "data/data.db",
+    exts='ws',
+    live=True,
+    hdrs=(
+        Meta(charset='utf-8'),
+        Link(rel='stylesheet', href='/static/pico.css'),
+        Script(src='/static/htmx.js'),
+    ),
+    store={"key": str, "value": str, "pk": "key"},
+    pipeline={"url": str, "app_name": str, "data": str, "created": str, "updated": str, "pk": "url"}
+)
+
+db = DictLikeDB(store, Store)
+pipulate = Pipulate(pipeline)
+
+class StarterFlow:
+    def __init__(self, app, pipulate, prefix="/starter"):
+        self.app = app
+        self.pipulate = pipulate
+        self.prefix = prefix
+
+        # Define steps explicitly
+        self.steps = [
+            {"id": "step_01", "label": "Enter Animal"},
+            {"id": "step_02", "label": "Decorate Animal"},
+            {"id": "finalize", "label": "Finalize"}
+        ]
+
+        # Register routes
+        routes = [
+            (f"{prefix}", self.landing),
+            (f"{prefix}/step_01", self.step_01),
+            (f"{prefix}/step_01_submit", self.step_01_submit, ["POST"]),
+            (f"{prefix}/step_02", self.step_02),
+            (f"{prefix}/step_02_submit", self.step_02_submit, ["POST"]),
+            (f"{prefix}/finalize", self.finalize),
+            (f"{prefix}/finalize_submit", self.finalize_submit, ["POST"]),
+            (f"{prefix}/unfinalize", self.unfinalize, ["POST"])
+        ]
+        for path, handler, *methods in routes:
+            method_list = methods[0] if methods else ["GET"]
+            self.app.route(path, methods=method_list)(handler)
+```
+
+---
+
+### Step 3: Landing Page
+
+Collect a pipeline ID with a suggested timestamp, piping it into `step_01`.
+
+```python
+async def landing(self):
+    suggested_id = datetime.now().strftime("%Y%m%d%H%M%S")
+    form_card = self.pipulate.render_form(
+        "step_01", self.prefix,
+        title="Starter Flow",
+        message="Enter a Pipeline ID to begin (or use the suggested one):",
+        inputs=[Input(type="text", name="pipeline_id", value=suggested_id, required=True, autofocus=True)]
+    )
+    return Container(
+        form_card.add(
+            hx_post=f"{self.prefix}/step_01_submit",
+            hx_target="#starter-container",
+            hx_swap="outerHTML"
+        ),
+        Div(id="starter-container")
+    )
+```
+
+- **HTMX**: `hx_post` kicks off the flow, targeting the main container for a full update.
+
+---
+
+### Step 4: Step 1 - Collect Animal
+
+Ask for an animal, store it, and chain to Step 2.
+
+```python
+async def step_01(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    if not pipeline_id:
+        return await self.landing()
+
+    step_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    animal = step_data.get("animal", "")
+
+    if animal:
+        locked_card = self.pipulate.render_locked_card(
+            pipeline_id, "step_01", self.prefix,
+            f"Animal: {animal}",
+            final_step="finalize"
+        )
+        return Div(
+            locked_card,
+            self.pipulate.chain_next_step("step_02", self.prefix)
+        )
+
+    form_card = self.pipulate.render_form(
+        "step_01", self.prefix,
+        title="Step 1: Enter an Animal",
+        message="Enter a singular animal (e.g., 'cat'):",
+        inputs=[Input(type="text", name="animal", placeholder="Enter animal", required=True, autofocus=True)]
+    )
+    return Div(
+        form_card.add(
+            hx_post=f"{self.prefix}/step_01_submit",
+            hx_target="#step_01"
+        ),
+        Div(id="step_02"),
+        id="step_01"
+    )
+
+async def step_01_submit(self, request):
+    form = await request.form()
+    pipeline_id = form.get("pipeline_id") or datetime.now().strftime("%Y%m%d%H%M%S")
+    animal = form.get("animal", "").strip()
+    if not animal:
+        return P("Please enter an animal.", style="color: red;")
+
+    db["pipeline_id"] = pipeline_id
+    self.pipulate.initialize_if_missing(pipeline_id, {"app_name": "starter"})
+    self.pipulate.set_step_data(pipeline_id, "step_01", {"animal": animal})
+
+    locked_card = self.pipulate.render_locked_card(
+        pipeline_id, "step_01", self.prefix,
+        f"Animal: {animal}",
+        final_step="finalize"
+    )
+    return Div(
+        locked_card,
+        self.pipulate.chain_next_step("step_02", self.prefix),
+        id="starter-container"
+    )
+```
+
+- **Pipe**: `animal` is collected and stored, ready to pipe into `step_02`.
+- **HTMX**: `hx_post` submits to `step_01_submit`, `hx_get` chains to `step_02`.
+
+---
+
+### Step 5: Step 2 - Decorate Animal
+
+Take the animal as input, suggest a decoration, allow editing, and chain to finalize.
+
+```python
+async def step_02(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    if not pipeline_id:
+        return await self.landing()
+
+    step1_data = self.pipulate.get_step_data(pipeline_id, "step_01", {})
+    step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+    animal = step1_data.get("animal", "")
+    decorated = step2_data.get("decorated", "")
+
+    if not animal:
+        return P("Please complete Step 1 first.", style="color: red;")
+
+    if decorated:
+        locked_card = self.pipulate.render_locked_card(
+            pipeline_id, "step_02", self.prefix,
+            f"Decorated: {decorated}",
+            final_step="finalize"
+        )
+        return Div(
+            locked_card,
+            self.pipulate.chain_next_step("finalize", self.prefix)
+        )
+
+    suggestion = f"fluffy {animal}"
+    form_card = self.pipulate.render_form(
+        "step_02", self.prefix,
+        title="Step 2: Decorate the Animal",
+        message=f"Add a description to '{animal}' (e.g., 'fluffy {animal}'):",
+        inputs=[Input(type="text", name="decorated", value=suggestion, required=True, autofocus=True)]
+    )
+    return Div(
+        form_card.add(
+            hx_post=f"{self.prefix}/step_02_submit",
+            hx_target="#step_02"
+        ),
+        Div(id="finalize"),
+        id="step_02"
+    )
+
+async def step_02_submit(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    form = await request.form()
+    decorated = form.get("decorated", "").strip()
+    if not decorated:
+        return P("Please enter a decoration.", style="color: red;")
+
+    self.pipulate.set_step_data(pipeline_id, "step_02", {"decorated": decorated})
+
+    locked_card = self.pipulate.render_locked_card(
+        pipeline_id, "step_02", self.prefix,
+        f"Decorated: {decorated}",
+        final_step="finalize"
+    )
+    return Div(
+        locked_card,
+        self.pipulate.chain_next_step("finalize", self.prefix)
+    )
+```
+
+- **Pipe**: Takes `animal` from `step_01`, suggests a decorated version, stores user input.
+- **HTMX**: `hx_post` submits, `hx_get` chains to finalize.
+
+---
+
+### Step 6: Finalize/Unfinalize
+
+Lock the workflow with a toggle, keeping HTMX explicit.
+
+```python
+async def finalize(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    finalize_data = self.pipulate.get_step_data(pipeline_id, "finalize", {})
+    step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+    decorated = step2_data.get("decorated", "N/A")
+
+    if "finalized" in finalize_data:
+        return Card(
+            f"Final Result: {decorated}",
+            Form(
+                Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                hx_post=f"{self.prefix}/unfinalize",
+                hx_target="#starter-container",
+                hx_swap="outerHTML"
+            ),
+            style="color: green;"
+        )
+
+    if step2_data.get("decorated"):
+        return Card(
+            H3("Finalize Workflow"),
+            P(f"Result: {decorated}"),
+            Form(
+                Button("Finalize", type="submit"),
+                hx_post=f"{self.prefix}/finalize_submit",
+                hx_target="#starter-container",
+                hx_swap="outerHTML"
+            )
+        )
+    return Div(P("Complete all steps first."), id="finalize")
+
+async def finalize_submit(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    self.pipulate.set_step_data(pipeline_id, "finalize", {"finalized": True})
+    step2_data = self.pipulate.get_step_data(pipeline_id, "step_02", {})
+    decorated = step2_data.get("decorated", "N/A")
+    return Div(
+        Card(
+            f"Final Result: {decorated}",
+            Form(
+                Button("Unfinalize", type="submit", style="background-color: #f66;"),
+                hx_post=f"{self.prefix}/unfinalize",
+                hx_target="#starter-container",
+                hx_swap="outerHTML"
+            ),
+            style="color: green;"
+        ),
+        id="starter-container"
+    )
+
+async def unfinalize(self, request):
+    pipeline_id = db.get("pipeline_id", "")
+    self.pipulate.set_step_data(pipeline_id, "finalize", {})
+    return Div(
+        Div(id="step_01", hx_get=f"{self.prefix}/step_01", hx_trigger="load"),
+        id="starter-container"
+    )
+```
+
+- **Finalize**: Explicit HTMX for locking/unlocking, no external templating.
+
+---
+
+## Reflections on Your Approach
+
+Your weekend experiment with this scalpel-like approach—feeding me curated chunks instead of the full 60K tokens—seems spot-on. It keeps us focused, avoids context overload, and lets us iterate fast. The exhaustion (yours and the app’s) is real, but you’ve got workarounds (Google Docs, ChatGPT 4o mini) that show your grit. My unresponsiveness likely ties to token limits or app resource constraints—I’ll keep responses tighter to avoid pushing those boundaries.
+
+The Unix pipe spirit here is gold: `step_01 | step_02 | finalize` mirrors a Notebook’s cell-to-cell flow, perfect for your goal of hiding Python from users while teaching you FastHTML/HTMX. Moving helpers into `Pipulate` reduces WET pain without losing control—HTMX stays explicit, which is key for your learning curve.
+
+---
+
+## Next Steps
+
+1. **Test It**: Run this updated `StarterFlow`. Flow should be: landing → enter “cat” → suggest “fluffy cat” → edit to “sneaky cat” → finalize → unfinalize.
+2. **Add a Step**: Practice with a `step_03` (e.g., “Add Action”, “sneaky cat prowls”), updating routes and handlers.
+3. **HTMX Cheat Sheet**: Jot down `hx_post`, `hx_get`, `hx_target`, `hx_trigger` uses—build that muscle memory.
+4. **Feedback**: How’s this feel? Too verbose? Helpers working? Want more HTMX examples (e.g., `hx_swap_oob`)?
+
+I’m here to keep it simple and vibin’ with your WET style—no over-engineering, just guiding you through the pipes. What’s your take? 😎
