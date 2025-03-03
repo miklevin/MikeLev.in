@@ -1,7 +1,7 @@
 ---
 title: Giving Grok 3 Another Chance
 permalink: /futureproof/giving-grok3-another-chance/
-description: This weekend, I embarked on a journey to explore the capabilities of Grok 3, a new LLM, in assisting me with a challenging coding project. Unlike my previous attempts with other models, I opted for a more focused approach, feeding Grok 3 curated code snippets instead of the entire codebase at once. This strategy proved effective, as Grok 3 demonstrated a remarkable ability to grasp the nuances of my project, including its unconventional, WET (Write Everything Twice) style and reliance on FastHTML, HTMX, and Nix. Together, we delved into the intricacies of my pipeline-based workflow system, dissecting its components and addressing friction points without resorting to over-engineered solutions or DRY abstractions that would obscure my control over the code. Through this iterative process, I gained a deeper understanding of FastHTML/HTMX patterns and solidified my approach to porting Jupyter Notebooks into user-friendly web apps, all while staying true to my preference for explicit, readable code.
+description: This weekend, I tested Grok 3's ability to assist with a challenging coding project that involves converting Jupyter Notebooks into user-friendly web apps using FastHTML and HTMX. Unlike previous attempts with other LLMs, I opted for a focused approach, feeding Grok 3 curated code snippets instead of overwhelming it with the entire codebase upfront. This strategy proved effective, as Grok 3 demonstrated a remarkable ability to grasp the nuances of my project, including its unconventional, WET (Write Everything Twice) style and reliance on server-side state management. Through this iterative process, we explored the intricacies of my pipeline-based workflow system, addressed friction points, and refined a step-by-step guide for porting Notebooks into FastHTML, all while staying true to my preference for explicit, readable code and control over abstraction.
 layout: post
 sort_order: 1
 ---
@@ -6967,7 +6967,7 @@ such, if only to keep myself reminded that it is one of the horses in this race.
 
 ## Gemini 2.0 Advanced's Summary of Article
 
-[I was able to use this first take directly, so it appears at the top of the article.]
+This weekend, I embarked on a journey to explore the capabilities of Grok 3, a new LLM, in assisting me with a challenging coding project. Unlike my previous attempts with other models, I opted for a more focused approach, feeding Grok 3 curated code snippets instead of the entire codebase at once. This strategy proved effective, as Grok 3 demonstrated a remarkable ability to grasp the nuances of my project, including its unconventional, WET (Write Everything Twice) style and reliance on FastHTML, HTMX, and Nix. Together, we delved into the intricacies of my pipeline-based workflow system, dissecting its components and addressing friction points without resorting to over-engineered solutions or DRY abstractions that would obscure my control over the code. Through this iterative process, I gained a deeper understanding of FastHTML/HTMX patterns and solidified my approach to porting Jupyter Notebooks into user-friendly web apps, all while staying true to my preference for explicit, readable code.
 
 ### Title Ideas:
 
