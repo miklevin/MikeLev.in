@@ -124,7 +124,7 @@ to you how game-changing the nix way is.
 
 ## The Core of NixOS: Configuration as Code
 
-...which is the standard "rebuild" that Nix people do all the time when they
+That `sudo nixos-reuild switch` command is the standard system "rebuild" (faster than you'd think) command that Nix people do all the time when they
 edit their `configuration.nix` file that defines their entire system. That's
 right. Your whole system is defined by a single file. Keep it in a git repo or a
 USB keychain, and you'll never be without your tweaked-out system again! Some
