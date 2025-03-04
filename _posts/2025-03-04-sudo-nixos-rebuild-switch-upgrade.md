@@ -102,6 +102,26 @@ common nix command:
 sudo nixos-rebuild switch
 ```
 
+## Longer Build Times with --upgrade
+
+For anyone forging this most righteous and worthwhile path, be warned that this
+nixos-rebuild command with the `--upgrade` switch command does quite a bit more
+than the Debain/Ubuntu `apt-upgrade` command, and be ready for a wait of
+anywhere from a half-hour to 2-hours depending on how long it's been since you
+last did it. It's deterministic, remember? So many parts effectively get rebuilt
+from source! And if you've got a lot of CUDA libraries and other things that are
+always changing, it's going to rebuild it all, optimized for your hardware of
+course, so it's totally worth it. 
+
+### Upgrade Strategy and Rollback Safety
+
+So my advice is just get used to throwing the `--upgrade` switch at the end of
+your "normal" system rebuilds for adding/removing software packages every once
+in awhile, so the change don't accumulate up. And because it's deterministic and
+rollbacks are super-easy at startup, if things go wrong with versions, drivers
+or whatever, you just choose your prior state at the boot menu! I can't describe
+to you how game-changing the nix way is.
+
 ## The Core of NixOS: Configuration as Code
 
 ...which is the standard "rebuild" that Nix people do all the time when they
