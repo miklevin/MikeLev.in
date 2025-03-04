@@ -14,7 +14,7 @@ elites are gaga about -- the Apple ecosystem, and admittedly awesome hardware.
 
 ## The Revolutionary Impact of Nix Package Management
 
-However, as much as I possibly can I am no NixOS, the OS that's built from the
+However, as much as I possibly can I am on NixOS, the OS that's built from the
 nix deterministic system configuration tool. Nix is changing the world, and
 nobody knows it. Even the validation of this is undercurrent that nobody will
 recognize. The great and awesome GNU Project, those folks who turn Linux
