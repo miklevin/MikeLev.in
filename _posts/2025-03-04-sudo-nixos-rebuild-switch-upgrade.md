@@ -139,7 +139,7 @@ Of course, the whole story is a bit longer. A second file called
 `hardware-configuration.nix` is created automatically because not all hardware
 is created equally. But it's created automatically by nix interrogating your
 system and plopping it next to the main configuration file, and you never have
-to touch or edit it. If you delete it, it gets generated again. So really only
+to touch or edit it. If you delete it, it gets generated again. If you switch hardware, a new one gets generated optimized for that hardware. So really only
 the main file is needed to define your entire system.
 
 ## Advanced Configuration: Modules and Flakes
