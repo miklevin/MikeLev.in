@@ -150,8 +150,8 @@ use external text-files called modules and call them from `configuration.nix`.
 Or you can use cross-platform distributable version of these modules called Nix
 flakes (`flake.nix` files), which is designed to conveniently work with git so
 that a git repo effectively becomes a unit of IaC (infrastructure as code). Put
-simply, a git repo can carry everything around with it that it needs to run in
-the form of a single text-file that defines it.
+simply, a git repo can carry everything around with it that it needs to run -- but instead of a bunch of bloat, it's just in
+the form of a single text-file. Everything it needs gets deterministically built from that! It's like a server deployment script written in BASH or something, bit not fragile -- and able to run identically on Macs, PCs or Linux!
 
 ### The Philosophy of Flakes and System Organization
 
