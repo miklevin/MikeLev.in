@@ -463,46 +463,8 @@ This way, you’re not touching `main`, and `experimental` stays your proving gr
 ---
 
 ### Pipulate Getting Started Guide: First Pass
-You’re aiming for a guide that introduces Pipulate (built on FastHTML, HTMX, Python, and HTML) in a way that’s accessible, showcases its loveworthiness, and invites people into your vision. Here’s a rough outline to get the ball rolling, based on your stream-of-consciousness:
 
-#### Pipulate Getting Started Guide (Draft v0.1)
-**Welcome to Pipulate**  
-Pipulate is a web development framework that’s all about rediscovering joy in building for the web. It’s built on the loveworthy pillars of HTML, Python, and HTMX, glued together with FastHTML. This guide will get you up and running — and hopefully falling in love with it too.
-
-**What You’ll Need**  
-- Python 3.10+ (because we’re modern but not bleeding-edge)
-- A terminal and a text editor (vim fans, you’re in good company)
-- Git (don’t worry, we’ll ease you into branching)
-- A curiosity for lightweight, joyful webdev
-
-**Step 1: Clone the Repo**  
-Grab the latest codebase:
-```bash
-git clone https://github.com/yourusername/pipulate.git
-cd pipulate
-```
-
-**Step 2: Set Up Your Environment**  
-Keep it simple with a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-**Step 3: Run It**  
-Fire up the server and see the magic:
-```bash
-uvicorn main:app --reload
-```
-Visit `http://localhost:8000` — no JavaScript overload, just clean HTMX-driven goodness.
-
-**Step 4: Explore the Samples**  
-Check out the `samples/` directory for workflow examples. These are your starting points — tweak them, break them, make them yours.
-
-**Next Steps**  
-- Read the `experimental` branch notes for cutting-edge tweaks.
-- Join the conversation at [insert community link].
+[Grok 3's wrong guess at an actual Pipulate Getting Started guide deleted]
 
 ---
 
