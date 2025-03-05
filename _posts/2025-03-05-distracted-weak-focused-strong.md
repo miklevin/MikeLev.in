@@ -1,7 +1,7 @@
 ---
 title: Distracted & Weak Vs. Focused & Strong
 permalink: /futureproof/distracted-weak-focused-strong/
-description: In this article, I argue that focused effort, achievable through activities like reading and learning programming (especially Python), is crucial for personal strength and fulfillment. I explore how distractions, like social media and pop culture, weaken our ability to pursue our passions and develop expertise. By embracing the 10,000-hour rule and mastering a skill, we can achieve a state of flow, break free from societal norms, and contribute meaningfully to the world, ultimately finding our Ikigai.
+description: In this article, I argue that cultivating focused attention, through engaging in activities that induce a "flow state" like reading, coding, crafting, or any skill-based pursuit, is essential for personal strength and fulfillment. I explore how distractions, such as social media and fleeting trends, erode our ability to deeply engage with our passions and develop expertise. By committing to deliberate practice and mastering a craft, we can transcend societal pressures, achieve a sense of purpose, and contribute meaningfully to the world, ultimately finding our Ikigai.
 layout: post
 sort_order: 1
 ---
@@ -147,6 +147,8 @@ Hopefully, by putting it into articles like this, I can cover the last circle: w
 ---
 
 ## Gemini's Thoughts
+
+In this article, I argue that focused effort, achievable through activities like reading and learning programming (especially Python), is crucial for personal strength and fulfillment. I explore how distractions, like social media and pop culture, weaken our ability to pursue our passions and develop expertise. By embracing the 10,000-hour rule and mastering a skill, we can achieve a state of flow, break free from societal norms, and contribute meaningfully to the world, ultimately finding our Ikigai.
 
 **Ideas for Titles and Headlines:**
 
