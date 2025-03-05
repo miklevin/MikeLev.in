@@ -148,6 +148,10 @@ Hopefully, by putting it into articles like this, I can cover the last circle: w
 
 ## Gemini's Thoughts
 
+> I write my daily tech journal in a very stream of consciousness way, not doing
+> a lot of organization. Over time, I'll organize. And Gemini's categorizations
+> as I go helps.
+
 In this article, I argue that focused effort, achievable through activities like reading and learning programming (especially Python), is crucial for personal strength and fulfillment. I explore how distractions, like social media and pop culture, weaken our ability to pursue our passions and develop expertise. By embracing the 10,000-hour rule and mastering a skill, we can achieve a state of flow, break free from societal norms, and contribute meaningfully to the world, ultimately finding our Ikigai.
 
 **Ideas for Titles and Headlines:**
