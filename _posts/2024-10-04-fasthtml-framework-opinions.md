@@ -131,7 +131,7 @@ This looks like a job for Perplexity!
 **Me**: Tell me the background on the Python http library. Why so many libraries and
 numbers in their names? And how does Requests fit in? 
 
-Perplexity.AI: The Python HTTP ecosystem has evolved over time, leading to multiple libraries with different names and version numbers. Here's some background on the situation:
+**Perplexity.AI**: The Python HTTP ecosystem has evolved over time, leading to multiple libraries with different names and version numbers. Here's some background on the situation:
 
 ## Standard Library HTTP Modules
 
