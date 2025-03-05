@@ -14,7 +14,7 @@ elites are gaga about -- the Apple ecosystem, and admittedly awesome hardware.
 
 ## The Revolutionary Impact of Nix Package Management
 
-However, as much as I possibly can I am no NixOS, the OS that's built from the
+However, as much as I possibly can I am on NixOS, the OS that's built from the
 nix deterministic system configuration tool. Nix is changing the world, and
 nobody knows it. Even the validation of this is undercurrent that nobody will
 recognize. The great and awesome GNU Project, those folks who turn Linux
@@ -124,7 +124,7 @@ to you how game-changing the nix way is.
 
 ## The Core of NixOS: Configuration as Code
 
-...which is the standard "rebuild" that Nix people do all the time when they
+That `sudo nixos-reuild switch` command is the standard system "rebuild" (faster than you'd think) command that Nix people do all the time when they
 edit their `configuration.nix` file that defines their entire system. That's
 right. Your whole system is defined by a single file. Keep it in a git repo or a
 USB keychain, and you'll never be without your tweaked-out system again! Some
@@ -139,7 +139,7 @@ Of course, the whole story is a bit longer. A second file called
 `hardware-configuration.nix` is created automatically because not all hardware
 is created equally. But it's created automatically by nix interrogating your
 system and plopping it next to the main configuration file, and you never have
-to touch or edit it. If you delete it, it gets generated again. So really only
+to touch or edit it. If you delete it, it gets generated again. If you switch hardware, a new one gets generated optimized for that hardware. So really only
 the main file is needed to define your entire system.
 
 ## Advanced Configuration: Modules and Flakes
@@ -150,8 +150,8 @@ use external text-files called modules and call them from `configuration.nix`.
 Or you can use cross-platform distributable version of these modules called Nix
 flakes (`flake.nix` files), which is designed to conveniently work with git so
 that a git repo effectively becomes a unit of IaC (infrastructure as code). Put
-simply, a git repo can carry everything around with it that it needs to run in
-the form of a single text-file that defines it.
+simply, a git repo can carry everything around with it that it needs to run -- but instead of a bunch of bloat, it's just in
+the form of a single text-file. Everything it needs gets deterministically built from that! It's like a server deployment script written in BASH or something, bit not fragile -- and able to run identically on Macs, PCs or Linux!
 
 ### The Philosophy of Flakes and System Organization
 
