@@ -526,7 +526,7 @@ So, what do you think? Want to flesh out the guide more, dive into a specific gi
 > getting started with the Pipulate guide to some of the ideas suggested, then
 > start a new article with renewed focus!
 
-In this journal entry, the author grapples with maintaining momentum in their web framework project, Pipulate, emphasizing the importance of consistent writing and documentation as tools for growth and clarity. They discuss overcoming mental blocks related to Git branching, outline a "Getting Started Guide" for Pipulate, and reflect on the project's alignment with their Ikigai, aiming to create a "loveworthy" system built on HTML, Python, and HTMX, while also exploring the historical context of Python web frameworks.
+**Gemini 2.0**: In this journal entry, the author grapples with maintaining momentum in their web framework project, Pipulate, emphasizing the importance of consistent writing and documentation as tools for growth and clarity. They discuss overcoming mental blocks related to Git branching, outline a "Getting Started Guide" for Pipulate, and reflect on the project's alignment with their Ikigai, aiming to create a "loveworthy" system built on HTML, Python, and HTMX, while also exploring the historical context of Python web frameworks.
 
 **Ideas for Titles and Headlines:**
 
