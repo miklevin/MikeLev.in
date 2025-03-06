@@ -131,14 +131,20 @@ Okay, the work-flow so far:
     org:
     project:
     project_url:
+  tracking:
+    top_keywords:
+    top_urls
+    keyword_groups:
+    url_groups:
+  content_gaps:
+    compeptitors:
+    topics:
+    recommendation:
   striking_distance:
     keywords:
     urls:
-    link_from_urls:
-  content_gap_analysis:
-    competitors:
-    groups:
-    content:
+    from_to_links:
+    on_page_edits:
   decks:
     agenda:
     worksession:
