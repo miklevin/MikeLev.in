@@ -74,8 +74,12 @@ In its own way, Facebook has sort of become that everything app for a lot of
 users, providing the feed, the communication and the marketplace. But it hasn't
 crossed over certain barriers, like Epic tried to with a payment system in
 Fortnite which Apple pushed back against. The complete lack of the Steam engine
-on iOS another example. The list of why full takeover apps goes on. It's not
-easy in the USA market apparently, and it's not easy on iOS, in particular.
+on iOS another example. 
+
+The list of full takeover apps that have tried and failed, running up against
+Apple restrictions is a long one. Anything with a built-in payment system, for
+example. That means Amazon apps too. Making a super-app popular is apparently
+not easy in the USA market apparently, and it's not easy on iOS, in particular.
 However, it is apparently quite easy on your Windows laptop desktop given how
 big of a browser market Google Chrome controls. 
 
