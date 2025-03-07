@@ -55,11 +55,15 @@ Roku and a few others. Hey look, Google's there too!
 
 ### The Rise of Super Apps
 
-So that brings us to the fact that these startup states, even though they can
-push out default feeds which attempt to predispose the consumer public, are
-often not the best user experiences and can often be seen as intrusive and
-second-rate. Thus, the first killer apps you install and the ability to change
-the very nature of the hardware. In China, they have these "everything apps"
+The fact is that these hardware startup states, even though they can push out
+default feeds which attempt to predispose the consumer public, are often not the
+best user experiences and can often be seen as intrusive and second-rate. Thus,
+the first killer apps you install often changes the very nature and personality
+of the hardware, with the ability to change the default feed and narrative it's
+pushing out at you.
+
+These killer apps can take over your experience on the hardware, and in some
+cases, take over the device itself. In China, they have these "everything apps"
 which with one install take over your phone with their whole own operating
 system, economy, ecosystem and ethos. That'd be WeChat (Weixin in Chinese), and
 it's what Elon Musk is talking about turning X into. 
