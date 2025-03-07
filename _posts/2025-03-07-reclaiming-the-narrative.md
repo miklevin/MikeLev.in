@@ -77,11 +77,15 @@ Fortnite which Apple pushed back against. The complete lack of the Steam engine
 on iOS another example. 
 
 The list of full takeover apps that have tried and failed, running up against
-Apple restrictions is a long one. Anything with a built-in payment system, for
-example. That means Amazon apps too. Making a super-app popular is apparently
-not easy in the USA market apparently, and it's not easy on iOS, in particular.
-However, it is apparently quite easy on your Windows laptop desktop given how
-big of a browser market Google Chrome controls. 
+Apple restrictions is a long one. Anything with a built-in payment system, and
+that means Amazon apps too. They get broken into pieces and the piece with
+payment forces you into the App Store or to a browser. Making a super-app
+popular is apparently not easy in the USA market, and it's not easy on iOS, in
+particular. No all-encompassing WeChat here.
+
+However, a what amounts to a full system takeover is apparently quite easy on
+your Windows laptop desktop given how big of a browser market Google Chrome
+controls. 
 
 ### Chrome's Desktop Dominance
 
