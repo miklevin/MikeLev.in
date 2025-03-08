@@ -21,12 +21,12 @@ latest form on its GitHub page: [Nix Flake Python](https://github.com/miklevin/d
 
 Nix's weird but wonderful immutability that makes it so great for portable
 cross-platform environments also makes it frustrating for the traditional Data
-Science (or SEO) use case. This fixes that.
+Science use case. This fixes that.
 
 ### Introducing Darwinix: A Minimal Data Science Starting Point
 
-Darwinix is just a bare minimum starting place for Data Science, SEO or anyone
-in that love-worthy Venn diagram intersection of being a nix and Python user. If
+Darwinix is just a bare minimum starting place for Data Science or anyone in
+that love-worthy Venn diagram intersection of being a nix and Python user. If
 you're on Google Colab paying for stuff you don't need to, this may be worth a
 look. You're not forced to pay or lose what you did.
 
