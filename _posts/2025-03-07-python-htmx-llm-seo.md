@@ -6,6 +6,8 @@ layout: post
 sort_order: 3
 ---
 
+## Code Optimization Journey: From 10K to 2.5K Lines
+
 Okay, so I took a codebase that exploded to about 10K lines and 60K tokens (per
 tiktoken) brought it down to about 2.5K lines and 27K tokens. There was a
 ginormous workflow in there I removed which alone was about 1.5K lines, but for
@@ -20,6 +22,8 @@ isort
 vulture
 ```
 
+## Initial Development Challenges
+
 I figure I'll capture it here for posterity moving forward. I've been having a
 bit of difficulty getting over the hump of the next level of development, which
 is becoming proficient in FastHTML, and HTMX in particular. It's becoming
@@ -28,11 +32,15 @@ fashion vs. DRY (We Enjoy Typing vs. Don't Repeat Yourself).
 
 It's just getting in the practice!
 
+## Custom Workflow Development Philosophy
+
 I believe this verbose WET approach is necessary because of how custom every
 workflow becomes. ***"Do-this"***, ***"then-do-that"*** sort of stuff, where the
 this-and-that may be anything at all possible on the Web, with the Internet, and
 beyond. It's effectively looking for a way to avoid extreme custom programming
 every time.
+
+## Core Architecture Components
 
 The shortcut is having a basic CRUD-database ala Rails built in for any
 record-keeping of the traditional style you may need, and a pipeline workflow
@@ -40,10 +48,14 @@ system for anything that resembles a Jupyter Notebook. I think most people out
 there I guess know Notebooks at all know them as just plain Notebooks, from
 Google Colab. 
 
+## Local-First Development with LLM Integration
+
 The purpose here is to port those to locally-running web apps that have
 virtually no outside dependencies. It has a built-in LLM to help walk you
 through the workflows, which itself can execute functions, crawl the web (soon)
 or whatever to help you with those workflows.
+
+## Python's Web Development Renaissance
 
 It's a ***"crawl before you can agentically swarm"*** sort of framework that
 moves on this special moment in time where Python is just now able to reassert
@@ -53,17 +65,23 @@ context-switching (jinja2), and removing most need for JavaScript by adding
 HTMX. It's a ***one-two-punch*** that has single-handedly gotten me back into
 webdev.
 
+## Current Development Status and Future Plans
+
 Anyway, my codebase is a bit rough around the edges, still. It's got to have a
 few last passes before it's ready for prime time in the Free SEO Software world
 again. It'll be the latest version of Pipulate when it is. And I'm using my
 weekends to bear down as much as I can on this stuff, but sometimes bearing down
 on code means stepping back and thinking.
 
+## Exploring New Technologies: MCP Integration
+
 In this case, something called MCP has recently come to my attention. It's been
 out there and percolating since November, 2024 but it just exploded in the
 X-sphere over the past few days. And it does seem like it may scratch an itch I
 didn't know I had. Though I have to be careful, because this may just be the
 latest AI bro hype cycle.
+
+## Next Development Steps
 
 I'm going to capture the current codebase here, with some next steps I want to
 do.
@@ -81,7 +99,7 @@ I've got a pebble to drop into the world to make a few ripples. This code isn't
 it, but it's getting closer. 
 
 ```python
-import ast
+{% raw %}import ast
 import asyncio
 import functools
 import json
@@ -2572,5 +2590,5 @@ def run_server_with_watchdog():
 
 
 if __name__ == "__main__":
-    run_server_with_watchdog()
+    run_server_with_watchdog(){% endraw %}
 ```

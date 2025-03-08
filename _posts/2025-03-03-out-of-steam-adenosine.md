@@ -1,6 +1,6 @@
 ---
-title: Out Of Steam? Adonosine!
-permalink: /futureproof/out-of-steam-adonosine/
+title: Out Of Steam? Adenosine!
+permalink: /futureproof/out-of-steam-adenosine/
 description: In this article, I delve into the science of adenosine, the chemical behind sleep pressure, and how it impacts our daily energy levels and cognitive function. I explore its discovery, its connection to cellular energy, and how caffeine interacts with it. Shifting gears, I discuss my personal productivity strategies, including the importance of nutrition like fish protien and the integration of YAML for streamlined website audits. I also reflect on the creative process, the challenges of innovation, and the power of open-source software, all while outlining my plans for integrating voice technology into my web framework.
 layout: post
 sort_order: 1
