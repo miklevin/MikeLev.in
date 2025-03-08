@@ -1,18 +1,18 @@
 ---
 title: LLM Code Analysis Blind Taste Test
 permalink: /futureproof/llm-code-analysis-test/
-description: I pitted four LLMs against my unconventional single-tenant, localhost-bound Python codebase, designed for maximum developer ease and transparency. Grok 3 adapted well, ChatGPT o3-mini-high acknowledged the trade-offs, Anthropic Claude Sonnet 3.7 reframed it as a "desktop Python web shell," and DeepSeek R1 recognized the implications. This experiment highlights the importance of context in AI code analysis and the potential for human-AI collaboration in software development.
+description: I pitted five LLMs against my unconventional single-tenant, localhost-bound Python codebase, designed for maximum developer ease and transparency. Grok 3 adapted well, ChatGPT o3-mini-high acknowledged the trade-offs, Anthropic Claude Sonnet 3.7 reframed it as a "desktop Python web shell," and DeepSeek R1 recognized the implications. This experiment highlights the importance of context in AI code analysis and the potential for human-AI collaboration in software development.
 layout: post
 sort_order: 2
 ---
 
 ### The Single-Tenant Showdown: LLMs vs. the Unconventional Codebase
 
-I pitted four leading LLMs against my codebase that breaks all the rules: Grok
-3, ChatGPT o3-mini-high, Anthropic Claude Sonnet 3.7, and DeepSeek R1. The
-challenge? To analyze and understand code designed for a single-tenant, local
-environment, where security and scaling take a backseat to developer ease and
-transparency.
+I pitted five leading LLMs against my codebase that breaks all the rules: Grok
+3, ChatGPT o3-mini-high, Anthropic Claude Sonnet 3.7, Gemini 2.0 and DeepSeek
+R1. The challenge? To analyze and understand code designed for a single-tenant,
+local environment, where security and scaling take a backseat to developer ease
+and transparency.
 
 ### The Twist: The Localhost Reveal
 
