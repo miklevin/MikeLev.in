@@ -1,7 +1,7 @@
 ---
 title: Python HTMX LLM SEO Codebase
 permalink: /futureproof/python-htmx-llm-seo/
-description: Pipulate isn't just another app; it's a local-first revolution, forging a new path for Python web development with the raw power of FastHTML and HTMX, where AI anticipates your needs and streamlines your workflow into a seamless experience. This culmination of continuous learning and passionate development is nearly here, promising to redefine how you interact with your digital tools. This is the pairing down before the storm.
+description: Pipulate isn't just another app; it's a local-first revolution, forging a new path for Python web development with the raw power of FastHTML and HTMX, where AI anticipates your needs and streamlines your workflow into a seamless experience. This culmination of continuous learning and passionate development is nearly ready, providing a way to move from Notebook mock-ups to LLM-assisted workflows. I'm overcoming Zeno's file-mile paradox.
 layout: post
 sort_order: 3
 ---
