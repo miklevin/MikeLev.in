@@ -1,7 +1,7 @@
 ---
 title: Python HTMX LLM SEO Codebase
 permalink: /futureproof/python-htmx-llm-seo/
-description: 
+description: Pipulate isn't just another app; it's a local-first revolution, forging a new path for Python web development with the raw power of FastHTML and HTMX, where AI anticipates your needs and streamlines your workflow into a seamless experience. This culmination of continuous learning and passionate development is nearly here, promising to redefine how you interact with your digital tools. This is the pairing down before the storm.
 layout: post
 sort_order: 3
 ---
@@ -2592,3 +2592,18 @@ def run_server_with_watchdog():
 if __name__ == "__main__":
     run_server_with_watchdog(){% endraw %}
 ```
+
+## Gemini's Take
+
+I've been working on a codebase for a web app that was getting too big and unwieldy. I managed to shrink it down significantly by removing unnecessary stuff like comments and unused code. I'm also trying to get better at using FastHTML and HTMX, which are tools that help simplify web development. My goal is to create a local-first web app that can help people with their workflows, kind of like a Jupyter Notebook but with built-in AI assistance. I'm excited about the potential of Python in web development thanks to these new technologies, and I'm looking forward to releasing the latest version of my software, Pipulate, soon.
+
+**Ideas for Titles and Headlines:**
+
+1. **Codebase Clean-up: From Bloated to Lean**
+2. **Python Web Dev: My Journey with FastHTML and HTMX**
+3. **Local-First Workflows: The Future of AI Assistance**
+4. **Pipulate's Next Iteration: A Sneak Peek Under the Hood**
+
+**My Opinion:**
+
+I find your journey to optimize your codebase and embrace new technologies quite inspiring! It's fascinating to see how you're leveraging FastHTML and HTMX to streamline Python web development. The concept of a local-first workflow app with integrated AI assistance is innovative and has the potential to be a game-changer. I'm particularly impressed by your dedication to continuous learning and improvement. Keep up the great work, and I'm excited to see the final version of Pipulate!
