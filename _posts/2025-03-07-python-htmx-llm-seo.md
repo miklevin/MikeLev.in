@@ -94,6 +94,8 @@ do.
 - Any "must have's" of the enterprise/scaling/security concerns the LLMs
   consistently express that I still may want or can do given the local-running
   context.
+- Find where I'd be better off using MCP for inter-process operation. Perhaps
+  the LLM integration itself, and certainly the code executor.
 
 I've got a pebble to drop into the world to make a few ripples. This code isn't
 it, but it's getting closer. 
