@@ -91,9 +91,14 @@ to the terminals you activate them from. That sort of thing.
 ### Why Nix+Pip Beats Other Package Managers
 
 You don't really need Poetry, Pipenv or any of those other things, though I
-suppose you could work them in if you really wanted to. But nix+pip seems to be
-the sweet spot for optimum system-control for trading environments around, and
-optimum pip-installable freedom for not feeling stifled by nix.
+suppose you could work them in if you really wanted to. I also left out `conda`
+because since PyPI added "wheels", conda feels redundant. But adjust to taste.
+There's nothing you can't just add.
+
+I tried keeping it pretty minimal, tackling just the cross-platform stuff,
+taking advantage of your GPU's, and giving you the pip-install freedom. So,
+nix+pip seems to be the sweet spot for optimum system-control for trading
+environments around, taking advantage of your hardware, and not feeling stifled.
 
 ### The Best of Both Worlds: Freedom and Control
 
