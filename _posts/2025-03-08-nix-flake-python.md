@@ -1,9 +1,9 @@
 ---
 title: "Nix Flake Python Solution: Venv, Cuda, macOS/Windows, Etc."
 permalink: /futureproof/nix-flake-python/
-description: This article presents a solution for developers who struggle with Python environment consistency across different operating systems and have discovered nix. I address the common pain points of setting up Python environments, especially for data science, and leverage the power of Nix to create a reproducible and portable solution (Jupyter, ML, etc). The inclusion of CUDA support and the focus on simplifying `pip install` enhance its utility. Streamline your Python development workflow.
+description: This article presents a solution for developers who struggle with Python environment consistency across different operating systems and have discovered nix flakes. I address the common pain points of setting up Python environments, especially for data science, and leverage the power of Nix to create a reproducible and portable solution (Jupyter, ML, etc). The inclusion of CUDA support and the focus on simplifying `pip install` enhance its utility and streamline your Python development workflow.
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## A Cross-Platform Python Solution with Nix Flakes
