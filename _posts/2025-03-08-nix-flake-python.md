@@ -100,11 +100,11 @@ taking advantage of your GPU's, and giving you the pip-install freedom. So,
 nix+pip seems to be the sweet spot for optimum system-control for trading
 environments around, taking advantage of your hardware, and not feeling stifled.
 
-### The Best of Both Worlds: Freedom and Control
-
 Get that loosey goosey freedom of pip installing whatever you need until stuff
 just works, it's nice to have a traditional `.venv` Python virtual environment,
-and that's what this does inside a nix flake. You get the best of both worlds!
+and that's what this does inside a nix flake. 
+
+Get the best of both worlds!
 
 ```nix
 #       ____                      _       _                        .--.      ___________
