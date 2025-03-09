@@ -220,7 +220,7 @@ suddenly, everything will be able to connect-with and control everything.
 ## The Continued Importance of Human Programming
 
 And you better be speaking that language by then. We humans still add context.
-If you think you don't need to code anymore, because the machines will be doing
+If you think you don't need to code anymore because the machines will be doing
 all of that for us, you are so wrong. That's what's said to shake people off the
 trail of what's becoming really important, which is a human who has both the
 extreme intimate context of the subject-matter and domain expertise in play with
