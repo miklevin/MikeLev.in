@@ -1,7 +1,7 @@
 ---
 title: "Python MCP Server Example: Bare Minimum, Fixes Anthropic QuickStart"
 permalink: /futureproof/python-mcp-server-example/
-description: 
+description: Anthropic's MCP protocol proposes to standardize communication between LLMs and external tools, but as it stands, its documentation is overly complicated and tightly coupled with Anthropic's own infrastructure. This article dives into the real-world struggle of attempting to create a minimal, vendor-neutral MCP Python server example—only to discover a maze of contradictory instructions, unnecessary dependencies, and hidden vendor lock-ins. If you're exploring MCP for local, open, or independent AI applications, be prepared for significant frustration, as the promised simplicity and openness haven't yet materialized.
 layout: post
 sort_order: 2
 ---
