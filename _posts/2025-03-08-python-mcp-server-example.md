@@ -36,9 +36,23 @@ current project?
 
 Okay, so my current project Pipulate is a web framework based on FastHTML and
 HTMX that has an embedded local LLM speaking through websockets, server side
-events (SSE) and the like. It can use these connections to do clever stuff
-beyond just chatting with the user. For example, edit a database or do steps for
-you in a workflow that involve site crawling. 
+events (SSE) and the like. I monitor the websocket stream for commands, and then
+I execute them. Such a simple statement, but so much to really "get" here. 
+
+### Ollama Websocket
+
+The AI I'm talking about is ***local*** (non-cloud and by way of the Ollama
+server). The Ollama LLM talks to the user operating the software through a
+traditional chatbot UI, but it also can control other parts of the program to do
+all the things a user could do. For example, edit a database or do steps for you
+in a workflow that involve site crawling. 
+
+### Local LLM Function Execution
+
+And just to make sure you totally get it, I'm running a local web app (like an
+Electron app like VSCode/Discord/Zoom) where a built-in local LLM sends its
+responses out to the user over an Ollama websocket stream, which a separate part
+of the program monitors for JSON. If that JSON is meaningful, it is "executed".
 
 ### Single File Architecture for LLM Integration
 
