@@ -21,6 +21,7 @@ and exactly the type of person who I think might be able to benefit from it. I
 hate microservices, but I have parts talking to each other, some of which are
 LLMs.  Parts talk to parts, and some of those parts are LLMs. So, this is a deep
 dive into principles of my function-executing local-LLM project called Pipulate.
+First, I grok it. Then I ***maybe refactor*** it based on my learnings.
 
 ---
 
