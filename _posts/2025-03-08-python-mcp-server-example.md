@@ -13,9 +13,10 @@ sort_order: 2
 fixing of the Anthropic QuickStart guide, which is way down at the bottom. Also,
 this is not for folks who just want to plug things together and build fast. This
 is me breaking through my hype-shields. I'm both skeptical of MCP, and exactly
-the type of person who I think might be able to benefit from it. Parts talk to
-parts, and some of those parts are LLMs. So, this is a deep dive into principles
-of my function-executing local-LLM project called Pipulate.
+the type of person who I think might be able to benefit from it. I hate
+microservices, but I have parts talking to each other, some of which are LLMs.
+Parts talk to parts, and some of those parts are LLMs. So, this is a deep dive
+into principles of my function-executing local-LLM project called Pipulate.
 
 ---
 
